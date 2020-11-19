@@ -22,7 +22,7 @@ SEED = None  #42
 ROOT_URL = 'https://echo.msk.ru'
 URL = ROOT_URL + '/guests/letter/{i}/page/{j}.html'
 START, END = 1040, 1071 + 1
-LINKS_FN = os.path.join(utils.TEXTS_DIR, 'links.txt')
+LINKS_FN = os.path.join(utils.TEXTS_DIR, 'links')
 ENDINGS = ['-', '–', '—', '―', ':']
 
 if SEED:
@@ -55,12 +55,18 @@ else:
             j += 1
         print()
 
+    random.shuffle(links)
     with open(LINKS_FN, 'wt') as f:
         f.write('\n'.join(links))
 
-if not os.path.isfile(utils.get_data_path(utils.TEXTS_DIR,
-                                          utils.TEXTS_FOR_SOURCE,
-                                          1)):
+text_fns = utils.get_file_list(utils.TEXTS_DIR, len(links))
+total_texts = len(text_fns)
+if total_texts < utils.TEXTS_FOR_SOURCE:
+    start_link_idx = int(os.path.split(sorted(text_fns)[-1])[-1]
+                             .replace(utils.DATA_EXT, '')) \
+                         if total_texts > 0 else \
+                     0
+
     def extend_key(key, token):
         if key and key[-1].isalpha() and token[0].isalpha():
             key += ' '
@@ -111,7 +117,8 @@ if not os.path.isfile(utils.get_data_path(utils.TEXTS_DIR,
                             elif new_key_ == new_key:
                                 value_ += 1
                                 key_ = new_key_
-                                shift_ = -shift if isend else new_shift_
+                                shift_ = -shift - new_shift_ if isend else \
+                                         new_shift_
                             break
                     speakers_.append((key_, shift_))
                 if value_ > thresh:
@@ -174,9 +181,8 @@ if not os.path.isfile(utils.get_data_path(utils.TEXTS_DIR,
     re3 = re.compile('<b>(.+?)</b>')
     re3a = re.compile('\W')
     re4 = re.compile('<.*?>|\(.*?\)')
-    random.shuffle(links)
-    total_texts = 0
-    for link in links:
+    for link_no, link in enumerate(links[start_link_idx:],
+                                   start=start_link_idx + 1):
         res = requests.get(link, allow_redirects=True)
         res = res.text
         pos = res.find('<input class="calendar"')
@@ -196,7 +202,7 @@ if not os.path.isfile(utils.get_data_path(utils.TEXTS_DIR,
             #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
             #link = 'https://echo.msk.ru/programs/On_Two_Chairs/1458504-echo/'
             #link = 'https://echo.msk.ru/programs/korzun/1266886-echo/'
-            #link = 'https://echo.msk.ru/programs/children/545353-echo/'
+            #link = 'https://echo.msk.ru/programs/beseda/15584/'
             res = requests.get(link, allow_redirects=True)
             res = res.text
             pos = res.find('itemprop="articleBody"')
@@ -224,8 +230,7 @@ if not os.path.isfile(utils.get_data_path(utils.TEXTS_DIR,
                     if lines:
                         total_texts += 1
                         with open(utils.get_data_path(utils.TEXTS_DIR,
-                                                      utils.TEXTS_FOR_SOURCE,
-                                                      total_texts),
+                                                      len(links), link_no),
                                   'wt', encoding='utf-8') as f:
                             print(link, file=f)
                             f.write('\n'.join(lines))
@@ -236,17 +241,43 @@ if not os.path.isfile(utils.get_data_path(utils.TEXTS_DIR,
         if total_texts >= utils.TEXTS_FOR_SOURCE:
             break
 
-if not os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR,
-                                          utils.CHUNKS_FOR_SOURCE,
-                                          1)):
-    text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
-    random.shuffle(text_fns)
-    for text_fn in text_fns[:utils.CHUNKS_FOR_SOURCE]:
-        chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
-        assert chunk_fn != text_fn, \
-               'ERROR: invalid path to text file'
+text_fns = utils.get_file_list(utils.TEXTS_DIR, len(links))
+for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
+                                   start=1):
+    chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
+    assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
+    if not os.path.isfile(chunk_fn):
         with open(text_fn, 'rt', encoding='utf-8') as text_f, \
              open(chunk_fn, 'wt', encoding='utf-8') as chunk_f:
-            text = [x for x in text_f.read().split('\n') if x][1:]
-            print(text)
-            exit()
+            text = [x.split('\t') for x in text_f.read().split('\n') if x][1:]
+            moder = None
+            for start_idx, (speaker, _) in enumerate(text):
+                if speaker:
+                    moder = speaker
+                    break
+            assert moder, 'ERROR: invalid file content'
+            end_idx, next_id = 0, 0
+            for idx, (speaker, _) in reversed(list(enumerate(text))):
+                if speaker:
+                    if not end_idx:
+                        end_idx = idx + 1
+                    if speaker == moder:
+                        end_idx = idx
+                        break
+                    if next_id > 2:
+                        break
+                    next_id += 1
+            text = text[start_idx:end_idx]
+            lines = []
+            speaker_no, chunk_words = 0, 0
+            for speaker, line in reversed(text):
+                lines.insert(0, '\t'.join([speaker, line]))
+                chunk_words += len(line.split())
+                if speaker:
+                    speaker_no += 1
+                if speaker_no >= utils.MIN_CHUNK_LINES \
+               and chunk_words >= utils.MIN_CHUNK_WORDS:
+                    break
+            chunk_f.write('\n'.join(lines))
+            print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
+                  end='')
