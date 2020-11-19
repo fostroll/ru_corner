@@ -22,9 +22,8 @@ SEED = None  #42
 ROOT_URL = 'https://echo.msk.ru'
 URL = ROOT_URL + '/guests/letter/{i}/page/{j}.html'
 START, END = 1040, 1071 + 1
-SOURCE_DIR = utils.get_source_dir()
-LINKS_FN = os.path.join(SOURCE_DIR, 'links.txt')
-ENDINGS = ['―', ':']
+LINKS_FN = os.path.join(utils.TEXTS_DIR, 'links.txt')
+ENDINGS = ['-', '–', '—', '―', ':']
 
 if SEED:
     random.seed(SEED)
@@ -33,14 +32,13 @@ links = []
 
 if os.path.isfile(LINKS_FN):
     with open(LINKS_FN, 'rt') as f:
-        for link in f:
-            links.append(link.replace('\n', '').replace('\r', ''))
+        links = [x for x in f.read().split('\n') if x]
 
 else:
     re0 = re.compile('<div class="author type1 \w+">\s*'
                      '<a class="dark" href="([^">]+)">')
     for i in range(END - START):
-        print('{} (of {}):'.format(i, END - START), end='')
+        print('{} (of {}):'.format(i + 1, END - START), end='')
         url_ = URL.replace('{i}', str(START + i))
         j = 1
         while True:
@@ -51,7 +49,6 @@ else:
             res = re0.findall(res)
             if res:
                 for link in res:
-                    #print('>>>>', link)
                     links.append(ROOT_URL + link)
             else:
                 break
@@ -59,19 +56,17 @@ else:
         print()
 
     with open(LINKS_FN, 'wt') as f:
-        for link in links:
-            print(link, file=f)
-if not os.path.isfile(
-    os.path.join(SOURCE_DIR,
-                 ('{:0' + str(len(str(utils.CHUNKS_FOR_SOURCE))) + 'd}')
-                     .format(1))
-):
+        f.write('\n'.join(links))
+
+if not os.path.isfile(utils.get_data_path(utils.TEXTS_DIR,
+                                          utils.TEXTS_FOR_SOURCE,
+                                          1)):
     def extend_key(key, token):
         if key and key[-1].isalpha() and token[0].isalpha():
             key += ' '
         return key + token
 
-    def normalize_chunk(lines):
+    def normalize_text(lines):
         elen = len(lines)
         speakers = [('', 0)] * elen
         thresh = min(0, max(elen // 10, 1))
@@ -82,26 +77,26 @@ if not os.path.isfile(
                 continue
             for shift, token in enumerate(line[new_shift:],
                                           start=new_shift + 1):
-                token_ = token.replace('.', '').replace('-', '')
+                token_ = token.replace('.', '')
                 isend = False
                 if not token_.isalpha():
                     if True in [x in ENDINGS for x in token_]:
-                    #if token_[:-1].isalpha() and token_[-1] in ENDINGS:
                         isend = True
                     else:
                         continue
-                if not isend and shift < elen_ and line[shift].islower():
-                    break
-                if not isend and len(token_) > 1 and shift < elen_ \
-                             and token_.isupper() \
-                             and not line[shift].isupper():
-                    isend = True
                 new_key = extend_key(new_key, token)
-                if not isend and shift < elen_ and line[shift].isupper():
-                    continue
-                if not isend and shift < elen_ and line[shift].istitle() \
-                                               and line[shift][-1] in ENDINGS:
-                    continue
+                if not isend and shift < elen_:
+                    next_token = line[shift]
+                    if next_token.islower():
+                        break
+                    if len(token_) > 1 and token_.isupper() \
+                                       and not next_token.isupper() \
+                                       and not next_token in ENDINGS:
+                        isend = True
+                    if next_token.isupper():
+                        continue
+                    if next_token.istitle() and next_token[-1] in ENDINGS:
+                        continue
                 value_ = 0
                 speakers_ = []
                 for idx_, line_ in enumerate(lines):
@@ -139,47 +134,49 @@ if not os.path.isfile(
         speaker_list = {x: y for x, y in speaker_list_.items()
                             if y > thresh
                            and (True in [x_ in ENDINGS for x_ in x]
-                           #and (x[-1] in ENDINGS
-                            or (len(x) > 1 and x.isupper()))}
+                            or (len(x) > 1 and x.isupper())
+                            or (len(x) == 1 and x in ENDINGS))}
 
         speaker_map = {}
         val = 0
         for key, value in reversed(sorted(speaker_list.items(),
                                           key=lambda x: x[1])):
+            key_ = key
             for k in speaker_map:
                 if distance(key, k) <= 2 and speaker_list[k] / value > 5:
-                    speaker_map[key] = k
+                    key_ = k
                     break
-            else:
-                speaker_map[key] = key
+            speaker_map[key] = key_[:-1] \
+                                   if len(key_) > 1 \
+                                  and key_[-1] in ENDINGS else \
+                               key_
         #print(speaker_list)
         #print(speaker_map)
 
-        '''
-        for i, (key, value) in speakers:
-            if key:
-                key = speaker_map.get(key, '')
-            speakers[i] = key
-        '''
         lines_ = []
+        key_lines = 0
         for (key, shift), line in zip(speakers, lines):
             if key:
                 key = speaker_map.get(key, '')
                 if key:
+                    key_lines += 1
                     line = line[abs(shift):]
-            lines_.append('{}\t{}'.format(key, ' '.join(line)))
-        return lines_
+            line = ' '.join(line)
+            if line and line[0] in ENDINGS:
+                line = line[1:].lstrip()
+            if line:
+                lines_.append('{}\t{}'.format(key, line))
+        return lines_ if key_lines > utils.MIN_TEXT_LINES else None
 
     re0 = re.compile('<a href="([^">]+)" class="view">')
     re1 = re.compile('<script type="application/ld\+json">(\{.+\})</script>')
     re2 = re.compile('<blockquote(?:.|\n)+?</blockquote>')
-    re3 = re.compile('<.*?>')
+    re3 = re.compile('<b>(.+?)</b>')
+    re3a = re.compile('\W')
+    re4 = re.compile('<.*?>|\(.*?\)')
     random.shuffle(links)
-    total_chunks = 0
+    total_texts = 0
     for link in links:
-        #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
-        #link = 'https://echo.msk.ru/programs/kulshok/1901048-echo/'
-        link = 'https://echo.msk.ru/programs/life/43818/'
         res = requests.get(link, allow_redirects=True)
         res = res.text
         pos = res.find('<input class="calendar"')
@@ -192,17 +189,16 @@ if not os.path.isfile(
         if res:
             links_ = []
             for link in res:
-                #print('>>>>', link)
                 links_.append(ROOT_URL + link)
             if len(links_) > 1:
-                random.shuffle(links)
+                random.shuffle(links_)
             link = links_[0]
-            #with open('111', 'wt', encoding='utf-8') as f:
-            #    print(link, file=f)
+            #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
+            #link = 'https://echo.msk.ru/programs/On_Two_Chairs/1458504-echo/'
+            #link = 'https://echo.msk.ru/programs/korzun/1266886-echo/'
+            #link = 'https://echo.msk.ru/programs/children/545353-echo/'
             res = requests.get(link, allow_redirects=True)
             res = res.text
-            #with open('111', 'at', encoding='utf-8') as f:
-            #    print(res, file=f)
             pos = res.find('itemprop="articleBody"')
             if pos > 0:
                 res = res[pos:]
@@ -210,52 +206,47 @@ if not os.path.isfile(
                 if pos > 0:
                     res = res[:pos]
                     res = re2.sub('', res)
+                    res = re3.sub(lambda x: re3a.sub(' ', x.group(1).upper()) + ':', res)
                     res = res.replace('\r', '') \
                              .replace('<br>', '\n').replace('</p>', '\n')
-                    res = re3.sub('', '<' + res)
+                    res = re4.sub(' ', '<' + res)
                     txt = unescape(res)
-                    #with open('222', 'wt', encoding='utf-8') as f:
-                    #    print(txt, file=f)
-                    lines = [x.split()
-                                 for x in [x.strip() for x in txt.split('\n')
-                                               if not x.isupper()]
-                                 if x]
-                    if len(lines) <= 10:
-                        continue
-                    total_chunks += 1
-                    lines = normalize_chunk(lines)
-                    with open(os.path.join(SOURCE_DIR, (
-                        '{:0' + str(len(str(utils.CHUNKS_FOR_SOURCE))) + 'd}'
-                    ).format(total_chunks)), 'wt', encoding='utf-8') as f:
-                        print(link, file=f, end='\n\n')
-                        for line in lines:
-                            print(line, file=f)
-                    print('\r{} (of {})'.format(total_chunks,
-                                                utils.CHUNKS_FOR_SOURCE),
-                          end='')
-                    '''
-                    pos = random.randint(6, len(lines) - 5)
-                    res = []
-                    elen = 0
-                    for i in range(pos, len(lines)):
-                        line = lines[i]
-                        res.append(line)
-                        #elen += len([x for x in line if x.isalpha()])
-                        elen += len(line)
-                        if i >= 4 and elen >= utils.CHUNK_WORDS:
-                            break
-                    if elen < utils.CHUNK_WORDS:
-                        for i in reversed(range(pos)):
-                            line = lines[i]
-                            res.insert(0, line)
-                            #elen += len([x for x in line if x.isalpha()])
-                            elen += len(line)
-                            if elen >= utils.CHUNK_WORDS:
-                                break
-                    #with open('444', 'wt', encoding='utf-8') as f:
-                    #    for line in res:
-                    #        print(' '.join(line), file=f)
-                    '''
-                    exit()
-        if total_chunks >= utils.CHUNKS_FOR_SOURCE:
+                    lines = [
+                        x.split()
+                            for x in [x.strip() for x in txt.split('\n')]
+                            if x and not x.isupper()
+                                 and not (len(x) >= 2
+                                      and ((x[0] == '(' and x[-1] == ')')
+                                        or (x[0] == '[' and x[-1] == ']')
+                                        or (x[0] == '«' and x[-1] == '»')))
+                    ]
+                    lines = normalize_text(lines)
+                    if lines:
+                        total_texts += 1
+                        with open(utils.get_data_path(utils.TEXTS_DIR,
+                                                      utils.TEXTS_FOR_SOURCE,
+                                                      total_texts),
+                                  'wt', encoding='utf-8') as f:
+                            print(link, file=f)
+                            f.write('\n'.join(lines))
+                        print('\r{} (of {})'.format(total_texts,
+                                                    utils.TEXTS_FOR_SOURCE),
+                              end='')
+                    #exit()
+        if total_texts >= utils.TEXTS_FOR_SOURCE:
             break
+
+if not os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR,
+                                          utils.CHUNKS_FOR_SOURCE,
+                                          1)):
+    text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
+    random.shuffle(text_fns)
+    for text_fn in text_fns[:utils.CHUNKS_FOR_SOURCE]:
+        chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
+        assert chunk_fn != text_fn, \
+               'ERROR: invalid path to text file'
+        with open(text_fn, 'rt', encoding='utf-8') as text_f, \
+             open(chunk_fn, 'wt', encoding='utf-8') as chunk_f:
+            text = [x for x in text_f.read().split('\n') if x][1:]
+            print(text)
+            exit()
