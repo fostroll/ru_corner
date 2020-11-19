@@ -41,6 +41,8 @@ TEXTS_DIR = os.path.join(*_path[:_sub_idx], _data_dir_name, 'texts',
                           *_path[_sub_idx + 1:])[:-3]
 CHUNKS_DIR = os.path.join(*_path[:_sub_idx], _data_dir_name, 'chunks',
                           *_path[_sub_idx + 1:])[:-3]
+CONLL_DIR = os.path.join(*_path[:_sub_idx], _data_dir_name, 'conll',
+                         *_path[_sub_idx + 1:])[:-3]
 TEXTS_FOR_DOMAIN = 10000
 _cnt = len(glob.glob(os.path.join(CURR_DIR, '*.py')))
 TEXTS_FOR_SOURCE = TEXTS_FOR_DOMAIN // _cnt \
@@ -48,6 +50,9 @@ TEXTS_FOR_SOURCE = TEXTS_FOR_DOMAIN // _cnt \
 CHUNKS_FOR_DOMAIN = TEXTS_FOR_DOMAIN
 CHUNKS_FOR_SOURCE = CHUNKS_FOR_DOMAIN // _cnt \
                   + (CHUNKS_FOR_DOMAIN % _cnt != 0)
+CONLL_FOR_DOMAIN = 1000
+CONLL_FOR_SOURCE = CONLL_FOR_DOMAIN // _cnt \
+                 + (CONLL_FOR_DOMAIN % _cnt != 0)
 
 #if not os.path.isdir(TEMP_DIR):
 #    os.makedirs(TEMP_DIR)
@@ -55,6 +60,8 @@ if not os.path.isdir(TEXTS_DIR):
     os.makedirs(TEXTS_DIR)
 if not os.path.isdir(CHUNKS_DIR):
     os.makedirs(CHUNKS_DIR)
+if not os.path.isdir(CONLL_DIR):
+    os.makedirs(CONLL_DIR)
 
 def get_data_path(data_dir, max_files, curr_num):
     return os.path.join(data_dir,
@@ -68,15 +75,5 @@ def get_file_list(data_dir, max_files):
                      '?' * len(str(max_files)) + DATA_EXT)
     )
 
-''''
-def replace_dir(path, dest_dir):
-    path = splitall(path)
-    sub_idx = None
-    for idx, dir_ in reversed(list(enumerate(path))):
-        if dir_.lower() == PRJNAME.lower():
-            sub_idx = idx + 2
-            break
-    else:
-        raise ValueError('ERROR: invalid path')
-    return os.path.join((*path[:_sub_idx], dest_dir, *_path[_sub_idx + 1:])
-'''
+def fn_to_id(fn):
+    return os.path.split(fn)[-1].replace(DATA_EXT, '')

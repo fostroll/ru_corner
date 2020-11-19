@@ -2,6 +2,7 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+from corpuscula import Conllu
 from html import unescape
 import json
 import os
@@ -9,6 +10,7 @@ import random
 import re
 import requests
 from textdistance import damerau_levenshtein
+from toxine.text_preprocessor import TextPreprocessor
 distance = damerau_levenshtein.distance
 
 ###
@@ -30,6 +32,9 @@ if SEED:
 
 links = []
 
+'''===========================================================================
+Downloading of the list of links
+==========================================================================='''
 if os.path.isfile(LINKS_FN):
     with open(LINKS_FN, 'rt') as f:
         links = [x for x in f.read().split('\n') if x]
@@ -59,6 +64,9 @@ else:
     with open(LINKS_FN, 'wt') as f:
         f.write('\n'.join(links))
 
+'''===========================================================================
+Downloading and parse texts
+==========================================================================='''
 text_fns = utils.get_file_list(utils.TEXTS_DIR, len(links))
 total_texts = len(text_fns)
 if total_texts < utils.TEXTS_FOR_SOURCE:
@@ -117,7 +125,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                             elif new_key_ == new_key:
                                 value_ += 1
                                 key_ = new_key_
-                                shift_ = -shift - new_shift_ if isend else \
+                                shift_ = -new_shift_ if isend else \
                                          new_shift_
                             break
                     speakers_.append((key_, shift_))
@@ -240,16 +248,21 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                     #exit()
         if total_texts >= utils.TEXTS_FOR_SOURCE:
             break
+    print()
 
+'''===========================================================================
+Chunks creation
+==========================================================================='''
 text_fns = utils.get_file_list(utils.TEXTS_DIR, len(links))
+texts_processed = 0
 for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
                                    start=1):
     chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
     assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
     if not os.path.isfile(chunk_fn):
-        with open(text_fn, 'rt', encoding='utf-8') as text_f, \
-             open(chunk_fn, 'wt', encoding='utf-8') as chunk_f:
-            text = [x.split('\t') for x in text_f.read().split('\n') if x][1:]
+        with open(text_fn, 'rt', encoding='utf-8') as f_in:
+            text = [x.split('\t') for x in f_in.read().split('\n') if x][1:]
+        with open(chunk_fn, 'wt', encoding='utf-8') as f_out:
             moder = None
             for start_idx, (speaker, _) in enumerate(text):
                 if speaker:
@@ -278,6 +291,54 @@ for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
                 if speaker_no >= utils.MIN_CHUNK_LINES \
                and chunk_words >= utils.MIN_CHUNK_WORDS:
                     break
-            chunk_f.write('\n'.join(lines))
+            f_out.write('\n'.join(lines))
             print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
                   end='')
+            texts_processed += 1
+if texts_processed:
+    print()
+
+'''===========================================================================
+Tokenization
+==========================================================================='''
+tp = TextPreprocessor()
+chunk_fns = utils.get_file_list(utils.CHUNKS_DIR, len(links))
+texts_processed = 0
+for chunk_idx, chunk_fn in enumerate(chunk_fns[:utils.CONLL_FOR_SOURCE],
+                                     start=1):
+    conll_fn = chunk_fn.replace(utils.CHUNKS_DIR, utils.CONLL_DIR)
+    assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
+    if not os.path.isfile(conll_fn):
+        doc_id = utils.fn_to_id(conll_fn)
+        with open(chunk_fn, 'rt', encoding='utf-8') as f_in:
+            text = [x.split('\t') for x in f_in.read().split('\n') if x]
+        tp.new_doc(doc_id=doc_id, metadata=[])
+        curr_speaker = None
+        speakers, pars = [], []
+        for speaker, sentence in text:
+            if speaker:
+                if speaker != curr_speaker:
+                    curr_speaker = speaker
+            else:
+                speaker = curr_speaker
+            speakers.append(curr_speaker)
+            pars.append(sentence)
+        speaker_list = {x: str(i) for i, x in
+                            enumerate(OrderedDict(zip(speakers, speakers)))}
+
+        tp.new_pars(pars, doc_id=doc_id)
+        tp.do_all(silent=True)
+        conll = list(tp.save(doc_id=doc_id))
+        tp.remove_doc(doc_id)
+
+        speakers = iter(speakers)
+        for sentence in conll:
+            sent, meta = sentence
+            if 'newpar id' in meta:
+                meta['speaker'] = speaker_list[next(speakers)]
+        Conllu.save(conll, conll_fn, log_file=None)
+        print('\r{} (of {})'.format(chunk_idx, utils.CONLL_FOR_SOURCE),
+              end='')
+        texts_processed += 1
+if texts_processed:
+    print()
