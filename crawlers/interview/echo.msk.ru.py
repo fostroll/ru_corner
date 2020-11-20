@@ -140,7 +140,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
         speaker_list = OrderedDict()
         for key, _ in speakers:
             if key:
-                speaker_list[key] = speaker_list.setdefault(key, 0) + 1
+                speaker_list[key] = speaker_list.get(key, 0) + 1
         speaker_list_ = {}
         for key, value in speaker_list.items():
             if not len(speaker_list_) and value == 1:
@@ -263,12 +263,41 @@ for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
         with open(text_fn, 'rt', encoding='utf-8') as f_in:
             text = [x.split('\t') for x in f_in.read().split('\n') if x][1:]
         with open(chunk_fn, 'wt', encoding='utf-8') as f_out:
-            moder = None
+            moder_ = None
             for start_idx, (speaker, _) in enumerate(text):
                 if speaker:
-                    moder = speaker
+                    moder_ = speaker
                     break
-            assert moder, 'ERROR: invalid file content'
+            assert moder_, 'ERROR: invalid file content'
+            speaker_lines, speaker_words = {}, {}
+            curr_speaker = None
+            for speaker, line in text:
+                if speaker:
+                    curr_speaker = speaker
+                    speaker_lines[speaker] = \
+                        speaker_lines.get(speaker, 0) + 1
+                if curr_speaker:
+                    speaker_words[curr_speaker] = \
+                        speaker_words.get(curr_speaker, 0) + len(line.split())
+            max_lines = max(speaker_lines.values())
+            moder = min({x: y / speaker_lines[x]
+                             for x, y in speaker_words.items()
+                             if speaker_lines[x] > max_lines / 2}.items(),
+                        key=lambda x: x[1])[0]
+            eff_start_idx = len(text) * 2 // 3
+            for i, (speaker, _) in \
+                    enumerate(reversed(text[:eff_start_idx + 1])):
+                if speaker == moder:
+                    eff_start_idx -= i
+                    break
+            else:
+                for i, (speaker, _) in enumerate(text[eff_start_idx:]):
+                    if speaker == moder:
+                        eff_start_idx += i
+                        break
+                else:
+                    eff_start_idx = start_idx
+
             end_idx, next_id = 0, 0
             for idx, (speaker, _) in reversed(list(enumerate(text))):
                 if speaker:
@@ -280,17 +309,27 @@ for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
                     if next_id > 2:
                         break
                     next_id += 1
+
             text = text[start_idx:end_idx]
             lines = []
             speaker_no, chunk_words = 0, 0
-            for speaker, line in reversed(text):
-                lines.insert(0, '\t'.join([speaker, line]))
+            for speaker, line in text[eff_start_idx:]:
+                lines.append('\t'.join([speaker, line]))
                 chunk_words += len(line.split())
                 if speaker:
                     speaker_no += 1
                 if speaker_no >= utils.MIN_CHUNK_LINES \
                and chunk_words >= utils.MIN_CHUNK_WORDS:
                     break
+            else:
+                for speaker, line in reversed(text[:eff_start_idx]):
+                    lines.insert(0, '\t'.join([speaker, line]))
+                    chunk_words += len(line.split())
+                    if speaker:
+                        speaker_no += 1
+                    if speaker_no >= utils.MIN_CHUNK_LINES \
+                   and chunk_words >= utils.MIN_CHUNK_WORDS:
+                        break
             f_out.write('\n'.join(lines))
             print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
                   end='')
