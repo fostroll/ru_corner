@@ -324,7 +324,8 @@ for chunk_idx, chunk_fn in enumerate(chunk_fns[:utils.CONLL_FOR_SOURCE],
             speakers.append(curr_speaker)
             pars.append(sentence)
         speaker_list = {x: str(i) for i, x in
-                            enumerate(OrderedDict(zip(speakers, speakers)))}
+                            enumerate(OrderedDict(zip(speakers, speakers)),
+                                      start=1)}
 
         tp.new_pars(pars, doc_id=doc_id)
         tp.do_all(silent=True)
