@@ -203,9 +203,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                 random.shuffle(links_)
             link = links_[0]
             #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
-            #link = 'https://echo.msk.ru/programs/On_Two_Chairs/1458504-echo/'
-            #link = 'https://echo.msk.ru/programs/korzun/1266886-echo/'
-            #link = 'https://echo.msk.ru/programs/beseda/15584/'
+            #link = 'https://echo.msk.ru/programs/beseda/1068274-echo/'
             res = utils.get_url(link)
             res = res.text
             pos = res.find('itemprop="articleBody"')
@@ -225,7 +223,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                     lines = [
                         x.split()
                             for x in [x.strip() for x in txt.split('\n')]
-                            if x and not x.isupper()
+                            if x and (not x.isupper() or '.' in x)
                                  and not (len(x) >= 2
                                       and ((x[0] == '(' and x[-1] == ')')
                                         or (x[0] == '[' and x[-1] == ']')
@@ -242,7 +240,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                         print('\r{} (of {})'.format(total_texts,
                                                     utils.TEXTS_FOR_SOURCE),
                               end='')
-                    #exit()
+            #exit()
         if total_texts >= utils.TEXTS_FOR_SOURCE:
             break
     print()
