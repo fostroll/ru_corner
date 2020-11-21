@@ -54,10 +54,8 @@ else:
             break
         for link in res:
             link = unescape(link)
-            if not link.startswith('https://'):
-                print('\n{} : no root!'.format(link))
-                link = ROOT_URL + link
-            links.append(link)
+            if link.startswith('https://'):
+                links.append(link)
         print('\r{}'.format(len(links)), end='')
         res = re2.search(html)
         if not res:

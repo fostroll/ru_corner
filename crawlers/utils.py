@@ -92,19 +92,27 @@ def fn_to_id(fn):
     return os.path.split(fn)[-1].replace(DATA_EXT, '')
 
 def get_url(url):
+    errors = 0
     while True:
         try:
             res = requests.get(url, allow_redirects=True,
                                timeout=GET_URL_TIMEOUT, verify=False)
             break
         except requests.exceptions.Timeout:
-            print('\nConnect timeout. Waiting...', end='', file=sys.stderr)
+            print('{}Connect timeout #{}. Waiting...'
+                      .format('' if errors else '\n', errors),
+                  end='', file=sys.stderr)
             time.sleep(GET_URL_RETRY_TIMEOUT)
-            print('\rConnect timeout. Retrying...', file=sys.stderr)
+            print('\rConnect timeout #{}. Retrying...'.format(errors),
+                  file=sys.stderr)
         except requests.exceptions.ConnectionError:
-            print('\nConnection error. Waiting...', end='', file=sys.stderr)
+            print('{}Connection error #{}. Waiting...'
+                      .format('' if errors else '\n', errors),
+                  end='', file=sys.stderr)
             time.sleep(GET_URL_RETRY_CONNERROR)
-            print('\rConnection error. Retrying...', file=sys.stderr)
+            print('\rConnection error #{}. Retrying...'.format(errors),
+                  file=sys.stderr)
+        isfirst = False
     return res
 
 def make_chunks(num_links, moderator=None):
