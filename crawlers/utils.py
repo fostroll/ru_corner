@@ -8,6 +8,7 @@ import requests
 requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning
 )
+ConnectTimeoutError = requests.packages.urllib3.exceptions.ConnectTimeoutError
 import sys
 from toxine.text_preprocessor import TextPreprocessor
 
@@ -94,7 +95,7 @@ def get_url(url):
             res = requests.get(url, allow_redirects=True,
                                timeout=GET_URL_TIMEOUT, verify=False)
             break
-        except ConnectionError:
+        except ConnectionTimeoutError:
             print('Connection error. retrying...', file=sys.stderr)
     return res
 
