@@ -164,8 +164,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
         #print(speaker_list)
         #print(speaker_map)
 
-        lines_ = []
-        key_lines = 0
+        lines_, key_lines = [], 0
         for (key, shift), line in zip(speakers, lines):
             if key:
                 key = speaker_map.get(key, '')
@@ -177,7 +176,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                 line = line[1:].lstrip()
             if line:
                 lines_.append('{}\t{}'.format(key, line))
-        return lines_ if key_lines > utils.MIN_TEXT_LINES else None
+        return lines_ if key_lines >= utils.MIN_TEXT_LINES else None
 
     re0 = re.compile('<a href="([^">]+)" class="view">')
     re1 = re.compile('<script type="application/ld\+json">(\{.+\})</script>')

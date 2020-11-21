@@ -53,7 +53,11 @@ else:
         if not res:
             break
         for link in res:
-            links.append(unescape(link))
+            link = unescape(link)
+            if not link.startswith('https://'):
+                print('\n{} : no root!'.format(link))
+                link = ROOT_URL + link
+            links.append(link)
         print('\r{}'.format(len(links)), end='')
         res = re2.search(html)
         if not res:
@@ -86,7 +90,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
         res = utils.get_url(link)
         res = res.text
         res = re0.findall(res)
-        lines = []
+        lines, key_lines = [], 0
         issent = False
         prev_speaker = None
         for line in res:
@@ -112,12 +116,14 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                             speaker = ''
                         else:
                             continue
+                    if speaker:
+                        key_lines += 1
                     sent = speaker + '\t' + ' '.join(sent.split())
                     lines.append(sent)
                     issent = False
                     if speaker:
                         prev_speaker = speaker
-        if lines:
+        if key_lines >= utils.MIN_TEXT_LINES:
             total_texts += 1
             with open(utils.get_data_path(utils.TEXTS_DIR,
                                           len(links), link_no),

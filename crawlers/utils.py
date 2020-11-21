@@ -8,8 +8,8 @@ import requests
 requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning
 )
-ConnectTimeoutError = requests.packages.urllib3.exceptions.ConnectTimeoutError
 import sys
+import time
 from toxine.text_preprocessor import TextPreprocessor
 
 
@@ -21,6 +21,8 @@ MIN_TEXT_LINES = 12
 MIN_CHUNK_LINES = 6
 MIN_CHUNK_WORDS = 200
 GET_URL_TIMEOUT = 10  # seconds
+GET_URL_RETRY_TIMEOUT = 20  # seconds
+GET_URL_RETRY_CONNERROR = 60  # seconds
 
 def splitall(path):
     allparts = []
@@ -95,8 +97,14 @@ def get_url(url):
             res = requests.get(url, allow_redirects=True,
                                timeout=GET_URL_TIMEOUT, verify=False)
             break
-        except ConnectionTimeoutError:
-            print('Connection error. retrying...', file=sys.stderr)
+        except requests.exceptions.Timeout:
+            print('\nConnect timeout. Waiting...', end='', file=sys.stderr)
+            time.sleep(GET_URL_RETRY_TIMEOUT)
+            print('\rConnect timeout. Retrying...', file=sys.stderr)
+        except requests.exceptions.ConnectionError:
+            print('\nConnection error. Waiting...', end='', file=sys.stderr)
+            time.sleep(GET_URL_RETRY_CONNERROR)
+            print('\rConnection error. Retrying...', file=sys.stderr)
     return res
 
 def make_chunks(num_links, moderator=None):
