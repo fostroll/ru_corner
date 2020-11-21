@@ -90,29 +90,36 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
         res = res.text
         res = re0.findall(res)
         lines = []
+        isstarted = False
         for line in res:
-            line = unescape(line)
+            line = unescape(line).replace('</strong><strong>', '')
             line = re1.sub(r'{\g<1>}', line)
             line = re2.sub(' ', line).strip()
             sents = [x.strip() for x in line.split('{strong')
-                               for x in x.split('/strong}') if x]
+                               for x in x.split('/strong}')]
             issent = False
             for sent in sents:
                 if sent.startswith('}') and sent.endswith('{'):
                     sent = sent[1:-1].strip()
                     speaker = '1'
+                else:
+                    speaker = '2'
+                if sent:
                     if sent in SENT_STARTS:
                         issent = True
                         continue
-                else:
-                    speaker = '2'
-                if sent[0] in SENT_STARTS:
-                    sent = sent[1:].lstrip()
-                elif not issent:
-                    continue
-                sent = speaker + '\t' + ' '.join(sent.split())
-                lines.append(sent)
-                issent = False
+                    if sent[0] in SENT_STARTS:
+                        sent = sent[1:].lstrip()
+                    elif not issent:
+                        if isstarted and speaker == '2':
+                            speaker = ''
+                        else:
+                            continue
+                    sent = speaker + '\t' + ' '.join(sent.split())
+                    lines.append(sent)
+                    issent = False
+                    if speaker == '1':
+                        isstarted = True
         if lines:
             total_texts += 1
             with open(utils.get_data_path(utils.TEXTS_DIR,
