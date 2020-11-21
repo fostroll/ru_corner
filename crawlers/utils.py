@@ -43,6 +43,7 @@ CHUNKS_DIR = os.path.join(*_path[:_sub_idx], _data_dir_name, 'chunks',
                           *_path[_sub_idx + 1:])[:-3]
 CONLL_DIR = os.path.join(*_path[:_sub_idx], _data_dir_name, 'conll',
                          *_path[_sub_idx + 1:])[:-3]
+LINKS_FN = os.path.join(TEXTS_DIR, 'links')
 TEXTS_FOR_DOMAIN = 10000
 _cnt = len(glob.glob(os.path.join(CURR_DIR, '*.py')))
 TEXTS_FOR_SOURCE = TEXTS_FOR_DOMAIN // _cnt \

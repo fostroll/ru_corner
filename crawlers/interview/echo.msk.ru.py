@@ -24,7 +24,6 @@ SEED = None  #42
 ROOT_URL = 'https://echo.msk.ru'
 URL = ROOT_URL + '/guests/letter/{i}/page/{j}.html'
 START, END = 1040, 1071 + 1
-LINKS_FN = os.path.join(utils.TEXTS_DIR, 'links')
 ENDINGS = ['-', '–', '—', '―', ':']
 
 if SEED:
@@ -35,8 +34,8 @@ links = []
 '''===========================================================================
 Downloading of the list of links
 ==========================================================================='''
-if os.path.isfile(LINKS_FN):
-    with open(LINKS_FN, 'rt') as f:
+if os.path.isfile(utils.LINKS_FN):
+    with open(utils.LINKS_FN, 'rt') as f:
         links = [x for x in f.read().split('\n') if x]
 
 else:
@@ -61,7 +60,7 @@ else:
         print()
 
     random.shuffle(links)
-    with open(LINKS_FN, 'wt') as f:
+    with open(utils.LINKS_FN, 'wt') as f:
         f.write('\n'.join(links))
 
 '''===========================================================================
@@ -220,7 +219,9 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                 if pos > 0:
                     res = res[:pos]
                     res = re2.sub('', res)
-                    res = re3.sub(lambda x: re3a.sub(' ', x.group(1).upper()) + ':', res)
+                    res = re3.sub(
+                        lambda x: re3a.sub(' ', x.group(1).upper()) + ':', res
+                    )
                     res = res.replace('\r', '') \
                              .replace('<br>', '\n').replace('</p>', '\n')
                     res = re4.sub(' ', '<' + res)
