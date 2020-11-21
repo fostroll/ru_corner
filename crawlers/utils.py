@@ -112,7 +112,7 @@ def get_url(url):
             time.sleep(GET_URL_RETRY_CONNERROR)
             print('\rConnection error #{}. Retrying...'.format(errors),
                   file=sys.stderr)
-        isfirst = False
+        errors += 1
     return res
 
 def make_chunks(num_links, moderator=None):

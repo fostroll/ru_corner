@@ -80,14 +80,14 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                          if total_texts > 0 else \
                      0
 
-    re0 = re.compile('<p>(.+?)</p>')
+    re0 = re.compile('<(?:p|div[^>]*)>(.+?)</p>')
     re1 = re.compile('<(/?strong)>')
     re2 = re.compile('<span[^>]*>.+?</span>')
     re2a = re.compile('<.*?>|\(.*?\)')
     re3 = re.compile('{strong}(.+?){/strong}')
     for link_no, link in enumerate(links[start_link_idx:],
                                    start=start_link_idx + 1):
-        #link = 'https://rsport.ria.ru/20161107/1111933751.html'
+        #link = 'https://rsport.ria.ru/20160311/902957688.html'
         res = utils.get_url(link)
         res = res.text
         res = re0.findall(res)
@@ -119,11 +119,8 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                         sent = sent[1:].lstrip()
                     elif not issent:
                         #if prev_speaker and speaker == prev_speaker:
-                        if prev_speaker:
-                            if strong == prev_strong:
-                                speaker = ''
-                            elif strong:
-                                continue
+                        if prev_speaker and not (strong or prev_strong):
+                            speaker = ''
                         else:
                             continue
                     pos_ = 0
@@ -166,7 +163,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-utils.make_chunks(len(links), moderator=SPEAKER_A)
+utils.make_chunks(len(links))#, moderator=SPEAKER_A)
 
 '''===========================================================================
 Tokenization
