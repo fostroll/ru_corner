@@ -196,9 +196,9 @@ def make_chunks(num_links, moderator=None):
                         chunk_words += len(line.split())
                         if speaker:
                             speaker_no += 1
-                        if chunk_words >= MIN_CHUNK_WORDS 
+                        if chunk_words >= MIN_CHUNK_WORDS \
                        and ((speaker == moder
-                         and speaker_no >= MIN_CHUNK_LINES)
+                         and speaker_no >= MIN_CHUNK_LINES) \
                          or speaker_no >= MIN_CHUNK_LINES + 2):
                             break
                 f_out.write('\n'.join(lines))
