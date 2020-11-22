@@ -185,9 +185,10 @@ def make_chunks(num_links, moderator=None):
                 speaker_no, chunk_words = 0, 0
                 for speaker, line in text[eff_start_idx:]:
                     if speaker:
-                        lines.extend(buffer)
-                        buffer = []
                         speaker_no += 1
+                        if buffer:
+                            lines.extend(buffer)
+                            buffer = []
                     chunk_words += len(line.split())
                     line = '\t'.join([speaker, line])
                     if speaker_no <= MIN_CHUNK_LINES:
@@ -200,18 +201,19 @@ def make_chunks(num_links, moderator=None):
                     lines.extend(buffer)
                     buffer = []
                     for speaker, line in reversed(text[:eff_start_idx]):
-                        if speaker:
-                            lines = buffer + lines
-                            buffer = []
-                            speaker_no += 1
                         chunk_words += len(line.split())
                         line = '\t'.join([speaker, line])
-                        if speaker_no <= MIN_CHUNK_LINES:
+                        if speaker_no < MIN_CHUNK_LINES:
                             lines.insert(0, line)
                         elif chunk_words > MAX_CHUNK_WORDS:
                             break
                         else:
                             buffer.insert(0, line)
+                        if speaker:
+                            speaker_no += 1
+                            if buffer:
+                                lines = buffer + lines
+                                buffer = []
                     else:
                         lines = buffer + lines
                 f_out.write('\n'.join(lines))
