@@ -19,7 +19,7 @@ CURR_DIR = os.path.dirname(CURR_PATH)
 DATA_EXT = '.txt'
 MIN_TEXT_LINES = 12
 MIN_CHUNK_LINES = 6
-MIN_CHUNK_WORDS = 200
+MAX_CHUNK_WORDS = 200
 GET_URL_TIMEOUT = 10  # seconds
 GET_URL_RETRY_TIMEOUT = 20  # seconds
 GET_URL_RETRY_CONNERROR = 60  # seconds
@@ -153,19 +153,6 @@ def make_chunks(num_links, moderator=None):
                                  for x, y in speaker_words.items()
                                  if speaker_lines[x] > max_lines / 2}.items(),
                             key=lambda x: x[1])[0]
-                eff_start_idx = len(text) * 2 // 3
-                for i, (speaker, _) in \
-                        enumerate(reversed(text[:eff_start_idx + 1])):
-                    if speaker == moder:
-                        eff_start_idx -= i
-                        break
-                else:
-                    for i, (speaker, _) in enumerate(text[eff_start_idx:]):
-                        if speaker == moder:
-                            eff_start_idx += i
-                            break
-                    else:
-                        eff_start_idx = start_idx
 
                 end_idx, next_id = 0, 0
                 for idx, (speaker, _) in reversed(list(enumerate(text))):
@@ -180,27 +167,53 @@ def make_chunks(num_links, moderator=None):
                         next_id += 1
 
                 text = text[start_idx:end_idx]
-                lines = []
+                eff_start_idx = len(text) * 2 // 3
+                for i, (speaker, _) in \
+                        enumerate(reversed(text[:eff_start_idx + 1])):
+                    if speaker == moder:
+                        eff_start_idx -= i
+                        break
+                else:
+                    for i, (speaker, _) in enumerate(text[eff_start_idx:]):
+                        if speaker == moder:
+                            eff_start_idx += i
+                            break
+                    else:
+                        eff_start_idx = start_idx
+
+                lines, buffer = [], []
                 speaker_no, chunk_words = 0, 0
                 for speaker, line in text[eff_start_idx:]:
                     if speaker:
+                        lines.extend(buffer)
+                        buffer = []
                         speaker_no += 1
-                        if chunk_words >= MIN_CHUNK_WORDS \
-                       and speaker_no > MIN_CHUNK_LINES:
-                            break
-                    lines.append('\t'.join([speaker, line]))
                     chunk_words += len(line.split())
+                    line = '\t'.join([speaker, line])
+                    if speaker_no <= MIN_CHUNK_LINES:
+                        lines.append(line)
+                    elif chunk_words > MAX_CHUNK_WORDS:
+                        break
+                    else:
+                        buffer.append(line)
                 else:
+                    lines.extend(buffer)
+                    buffer = []
                     for speaker, line in reversed(text[:eff_start_idx]):
-                        lines.insert(0, '\t'.join([speaker, line]))
-                        chunk_words += len(line.split())
                         if speaker:
+                            lines = buffer + lines
+                            buffer = []
                             speaker_no += 1
-                        if chunk_words >= MIN_CHUNK_WORDS \
-                       and ((speaker == moder
-                         and speaker_no >= MIN_CHUNK_LINES) \
-                         or speaker_no >= MIN_CHUNK_LINES + 2):
+                        chunk_words += len(line.split())
+                        line = '\t'.join([speaker, line])
+                        if speaker_no <= MIN_CHUNK_LINES:
+                            lines.append(line)
+                        elif chunk_words > MAX_CHUNK_WORDS:
                             break
+                        else:
+                            buffer.insert(0, line)
+                    else:
+                        lines = buffer + lines
                 f_out.write('\n'.join(lines))
                 print('\r{} (of {})'.format(text_idx, CHUNKS_FOR_SOURCE),
                       end='')
