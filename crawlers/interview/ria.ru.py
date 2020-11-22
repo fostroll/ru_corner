@@ -173,7 +173,7 @@ for link_no, link in enumerate(links, start=1):
             print(link, file=f)
             f.write('\n'.join(lines))
         print('\r{} (of {})'.format(texts_total,
-                                    utils.TEXTS_FOR_SOURCE),
+                                    min(utils.TEXTS_FOR_SOURCE, links_num)),
               end='')
         need_enter = True
     #exit()

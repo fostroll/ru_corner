@@ -86,12 +86,14 @@ def get_file_list(data_dir, max_files):
 def fn_to_id(fn):
     return os.path.split(fn)[-1].replace(DATA_EXT, '')
 
-def get_url(url):
+def get_url(url, encoding=None):
     errors = 0
     while True:
         try:
             res = requests.get(url, allow_redirects=True,
                                timeout=GET_URL_TIMEOUT, verify=False)
+            if encoding:
+                res.encoding = encoding
             break
         except requests.exceptions.Timeout:
             print('{}Connect timeout #{}. Waiting...'
@@ -110,8 +112,10 @@ def get_url(url):
         errors += 1
     return res
 
-def make_chunks(num_links, moderator=None):
+def make_chunks(num_links, trim_ending=True, moderator=None,
+                min_chunk_lines=MIN_CHUNK_LINES):
     text_fns = get_file_list(TEXTS_DIR, num_links)
+    max_chunks = min(CHUNKS_FOR_SOURCE, len(text_fns))
     texts_processed = 0
     for text_idx, text_fn in enumerate(text_fns[:CHUNKS_FOR_SOURCE],
                                        start=1):
@@ -149,17 +153,20 @@ def make_chunks(num_links, moderator=None):
                                  if speaker_lines[x] > max_lines / 2}.items(),
                             key=lambda x: x[1])[0]
 
-                end_idx, next_id = 0, 0
-                for idx, (speaker, _) in reversed(list(enumerate(text))):
-                    if speaker:
-                        if not end_idx:
-                            end_idx = idx + 1
-                        if speaker == moder:
-                            end_idx = idx
-                            break
-                        if next_id > 2:
-                            break
-                        next_id += 1
+                if trim_ending:
+                    end_idx, next_id = 0, 0
+                    for idx, (speaker, _) in reversed(list(enumerate(text))):
+                        if speaker:
+                            if not end_idx:
+                                end_idx = idx + 1
+                            if speaker == moder:
+                                end_idx = idx
+                                break
+                            if next_id > 2:
+                                break
+                            next_id += 1
+                else:
+                    end_idx = len(text)
 
                 text = text[start_idx:end_idx]
                 eff_start_idx = len(text) * 2 // 3
@@ -212,7 +219,7 @@ def make_chunks(num_links, moderator=None):
                     else:
                         lines = buffer + lines
                 f_out.write('\n'.join(lines))
-                print('\r{} (of {})'.format(text_idx, CHUNKS_FOR_SOURCE),
+                print('\r{} (of {})'.format(text_idx, max_chunks),
                       end='')
                 texts_processed += 1
     if texts_processed:
@@ -221,6 +228,7 @@ def make_chunks(num_links, moderator=None):
 def tokenize(num_links):
     tp = TextPreprocessor()
     chunk_fns = get_file_list(CHUNKS_DIR, num_links)
+    max_conll = min(CONLL_FOR_SOURCE, len(chunk_fns))
     texts_processed = 0
     for chunk_idx, chunk_fn in enumerate(chunk_fns[:CONLL_FOR_SOURCE],
                                          start=1):
@@ -258,7 +266,7 @@ def tokenize(num_links):
                 if 'newpar id' in meta:
                     meta['speaker'] = speaker_list[next(speakers)]
             Conllu.save(conll, conll_fn, log_file=None)
-            print('\r{} (of {})'.format(chunk_idx, CONLL_FOR_SOURCE),
+            print('\r{} (of {})'.format(chunk_idx, max_conll),
                   end='')
             texts_processed += 1
     if texts_processed:

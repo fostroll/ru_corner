@@ -22,7 +22,8 @@ URL_2 = '/page_{}'
 URL = ROOT_URL + URL_1
 SENT_STARTS = ['-', '–', '—', '―']
 SPEAKER_A, SPEAKER_B = 'Вопрос', 'Ответ'
-MAX_SPEAKER_LEN = 20
+MIN_TEXT_LINES = 4
+MIN_CHUNK_LINES = 4
 
 if SEED:
     random.seed(SEED)
@@ -66,8 +67,7 @@ else:
     print()
 
 links_num = len(links)
-print(len(set(links)))
-exit()
+
 '''===========================================================================
 Downloading and parse texts
 ==========================================================================='''
@@ -78,21 +78,19 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
-re0 = re.compile('<(?:p|div[^>]*)>(.+?)</p>')
-re1 = re.compile('<(/?strong)>')
-re2 = re.compile('<span[^>]*>.+?</span>')
-re2a = re.compile('<.*?>|\(.*?\)')
-re3 = re.compile('{strong}(.+?){/strong}')
+re0 = re.compile('<article itemprop="articleBody">((?:.|\n)+?)</article>')
+re1 = re.compile('<p>((?:.|\n)*?)</p>')
+re2 = re.compile('<.*?>|\(.*?\)')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
-    #link = 'https://rsport.ria.ru/20160311/902957688.html'
+    #link = 'https://www.interfax.ru/interview/374150'
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
     text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
     page = None
     if link_no > start_link_idx:
-        res = utils.get_url(link)
+        res = utils.get_url(link, encoding='windows-1251')
         page = res.text
     else:
         if not os.path.isfile(page_fn):
@@ -103,62 +101,30 @@ for link_no, link in enumerate(links, start=1):
         with open(page_fn, 'rt', encoding='utf-8') as f:
             link = f.readline().rstrip()
             page = f.read()
-    res = re0.findall(page)
+    res = re0.sub(r'\g<1>', page)
+    res = re1.findall(res)
     lines, key_lines = [], 0
-    issent = False
-    prev_speaker, prev_strong, curr_speaker = None, None, None
+    prev_speaker = None
     for line in res:
-        line = unescape(line).replace('</strong><strong>', '')
-        line = re1.sub(r'{\g<1>}', line)
-        line = re2.sub('', line)
-        line = re2a.sub(' ', line).strip()
-        sents = [x.strip() for x in line.split('{strong')
-                           for x in x.split('/strong}')]
-        for sent in sents:
-            if sent.startswith('}') and sent.endswith('{'):
-                sent = sent[1:-1].strip()
-                speaker, strong = SPEAKER_A, True
+        line = unescape(line).strip()
+        if line.startswith('<b>') or line.startswith('<strong>'):
+            speaker = SPEAKER_A
+        elif not prev_speaker:
+            continue
+        else:
+            speaker = SPEAKER_B
+        line = re2.sub(' ', line).strip()
+        if line:
+            if line[0] in SENT_STARTS:
+               line = line[1:].lstrip()
+            if speaker != prev_speaker:
+                prev_speaker = speaker
+                key_lines += 1
             else:
-                speaker, strong = SPEAKER_B, False
-            if curr_speaker:
-                speaker = curr_speaker
-            if sent:
-                if sent in SENT_STARTS:
-                    curr_speaker = None
-                    issent = True
-                    continue
-                if sent[0] in SENT_STARTS:
-                    curr_speaker = None
-                    sent = sent[1:].lstrip()
-                elif not issent:
-                    #if prev_speaker and speaker == prev_speaker:
-                    if prev_speaker and not (strong or prev_strong):
-                        speaker = ''
-                    else:
-                        continue
-                pos_ = 0
-                while pos_ == 0:
-                    pos_ = sent.find(':')
-                    if pos_ == 0:
-                        sent = sent[1:]
-                if pos_ > 0 and pos_ <= MAX_SPEAKER_LEN:
-                    speaker_ = sent[:pos_]
-                    sent_ = sent[pos_ + 1:].lstrip()
-                    if not sent_:
-                        curr_speaker = speaker_
-                        issent = True
-                        continue
-                    if sent_[0].isupper():
-                        speaker, sent = speaker_, sent_
-                if speaker:
-                    key_lines += 1
-                sent = speaker + '\t' + ' '.join(sent.split())
-                lines.append(sent)
-                issent = False
-                if speaker:
-                    prev_speaker, prev_strong = speaker, strong
-                curr_speaker = None
-    if key_lines >= utils.MIN_TEXT_LINES:
+                speaker = ''
+            line = speaker + '\t' + ' '.join(line.split())
+            lines.append(line)
+    if key_lines >= MIN_TEXT_LINES:
         texts_total += 1
         with open(page_fn, 'wt', encoding='utf-8') as f:
             print(link, file=f)
@@ -167,7 +133,7 @@ for link_no, link in enumerate(links, start=1):
             print(link, file=f)
             f.write('\n'.join(lines))
         print('\r{} (of {})'.format(texts_total,
-                                    utils.TEXTS_FOR_SOURCE),
+                                    min(utils.TEXTS_FOR_SOURCE, links_num)),
               end='')
         need_enter = True
     #exit()
@@ -177,7 +143,8 @@ if need_enter:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-utils.make_chunks(links_num)#, moderator=SPEAKER_A)
+utils.make_chunks(links_num, trim_ending=False, moderator=SPEAKER_A,
+                  min_chunk_lines=MIN_CHUNK_LINES)
 
 '''===========================================================================
 Tokenization
