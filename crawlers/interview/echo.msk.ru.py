@@ -185,8 +185,6 @@ re2 = re.compile('<blockquote(?:.|\n)+?</blockquote>')
 re3 = re.compile('<b>(.+?)</b>')
 re3a = re.compile('\W')
 re4 = re.compile('<.*?>|\(.*?\)')
-#for link_no, link in enumerate(links[start_link_idx:],
-#                               start=start_link_idx + 1):
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
@@ -250,17 +248,6 @@ for link_no, link in enumerate(links, start=1):
                              .replace('<br>', '\n').replace('</p>', '\n')
                     res = re4.sub(' ', '<' + res)
                     txt = unescape(res)
-                    '''
-                    lines = [
-                        x.split()
-                            for x in [x.strip() for x in txt.split('\n')]
-                            if x and (not x.isupper() or '.' in x)
-                                 and not (len(x) >= 2
-                                      and ((x[0] == '(' and x[-1] == ')')
-                                        or (x[0] == '[' and x[-1] == ']')
-                                        or (x[0] == '«' and x[-1] == '»')))
-                    ]
-                    '''
                     lines = []
                     maybe_caption = False
                     for line in [x.strip() for x in txt.split('\n')]:

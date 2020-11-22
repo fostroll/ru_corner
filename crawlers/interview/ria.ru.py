@@ -86,8 +86,6 @@ re1 = re.compile('<(/?strong)>')
 re2 = re.compile('<span[^>]*>.+?</span>')
 re2a = re.compile('<.*?>|\(.*?\)')
 re3 = re.compile('{strong}(.+?){/strong}')
-#for link_no, link in enumerate(links[start_link_idx:],
-#                               start=start_link_idx + 1):
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
