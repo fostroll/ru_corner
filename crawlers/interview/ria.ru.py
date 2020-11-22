@@ -74,25 +74,40 @@ links_num = len(links)
 '''===========================================================================
 Downloading and parse texts
 ==========================================================================='''
-text_fns = utils.get_file_list(utils.TEXTS_DIR, links_num)
-total_texts = len(text_fns)
-if total_texts < utils.TEXTS_FOR_SOURCE:
-    start_link_idx = int(os.path.split(sorted(text_fns)[-1])[-1]
+pages_fns = utils.get_file_list(utils.PAGES_DIR, links_num)
+texts_total = len(pages_fns)
+if texts_total < utils.TEXTS_FOR_SOURCE:
+    start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                              .replace(utils.DATA_EXT, '')) \
-                         if total_texts > 0 else \
+                         if texts_total > 0 else \
                      0
+    texts_total = 0
 
     re0 = re.compile('<(?:p|div[^>]*)>(.+?)</p>')
     re1 = re.compile('<(/?strong)>')
     re2 = re.compile('<span[^>]*>.+?</span>')
     re2a = re.compile('<.*?>|\(.*?\)')
     re3 = re.compile('{strong}(.+?){/strong}')
-    for link_no, link in enumerate(links[start_link_idx:],
-                                   start=start_link_idx + 1):
+    #for link_no, link in enumerate(links[start_link_idx:],
+    #                               start=start_link_idx + 1):
+    for link_no, link in enumerate(links, start=1):
         #link = 'https://rsport.ria.ru/20160311/902957688.html'
-        res = utils.get_url(link)
-        res = res.text
-        res = re0.findall(res)
+        page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
+        text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
+        page = None
+        if link_no >= start_link_idx:
+            res = utils.get_url(link)
+            page = res.text
+        else:
+            if not os.path.isfile(page_fn):
+                continue
+            if os.path.isfile(text_fn):
+                texts_total += 1
+                continue
+            with open(page_fn, 'rt', encoding='utf-8') as f:
+                link = f.readline().rstrip()
+                page = f.read()
+        res = re0.findall(page)
         lines, key_lines = [], 0
         issent = False
         prev_speaker, prev_strong, curr_speaker = None, None, None
@@ -148,17 +163,18 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                         prev_speaker, prev_strong = speaker, strong
                     curr_speaker = None
         if key_lines >= utils.MIN_TEXT_LINES:
-            total_texts += 1
-            with open(utils.get_data_path(utils.TEXTS_DIR,
-                                          links_num, link_no),
-                      'wt', encoding='utf-8') as f:
+            texts_total += 1
+            with open(page_fn, 'wt', encoding='utf-8') as f:
+                print(link, file=f)
+                f.write(page)
+            with open(text_fn, 'wt', encoding='utf-8') as f:
                 print(link, file=f)
                 f.write('\n'.join(lines))
-            print('\r{} (of {})'.format(total_texts,
+            print('\r{} (of {})'.format(texts_total,
                                         utils.TEXTS_FOR_SOURCE),
                   end='')
         #exit()
-        if total_texts >= utils.TEXTS_FOR_SOURCE:
+        if texts_total >= utils.TEXTS_FOR_SOURCE:
             break
     print()
 

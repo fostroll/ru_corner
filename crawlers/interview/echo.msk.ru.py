@@ -65,13 +65,14 @@ links_num = len(links)
 '''===========================================================================
 Downloading and parse texts
 ==========================================================================='''
-text_fns = utils.get_file_list(utils.TEXTS_DIR, links_num)
-total_texts = len(text_fns)
-if total_texts < utils.TEXTS_FOR_SOURCE:
-    start_link_idx = int(os.path.split(sorted(text_fns)[-1])[-1]
+pages_fns = utils.get_file_list(utils.PAGES_DIR, links_num)
+texts_total = len(pages_fns)
+if texts_total < utils.TEXTS_FOR_SOURCE:
+    start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                              .replace(utils.DATA_EXT, '')) \
-                         if total_texts > 0 else \
+                         if texts_total > 0 else \
                      0
+    texts_total = 0
 
     def extend_key(key, token):
         if key and key[-1].isalpha() and token[0].isalpha():
@@ -186,32 +187,51 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
     re3 = re.compile('<b>(.+?)</b>')
     re3a = re.compile('\W')
     re4 = re.compile('<.*?>|\(.*?\)')
-    for link_no, link in enumerate(links[start_link_idx:],
-                                   start=start_link_idx + 1):
-        #print(link)
-        res = utils.get_url(link)
-        res = res.text
-        pos = res.find('<input class="calendar"')
-        if pos < 0:
-            continue
-        res = res[pos:]
-        pos = res.find('<div class="moregiant">')
-        if pos < 0:
-            continue
-        res = res[:pos]
-        res = re0.findall(res)
+    #for link_no, link in enumerate(links[start_link_idx:],
+    #                               start=start_link_idx + 1):
+    for link_no, link in enumerate(links, start=1):
+        page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
+        text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
+        page = None
+        if link_no >= start_link_idx:
+            res = utils.get_url(link)
+            res = res.text
+        else:
+            if not os.path.isfile(page_fn):
+                continue
+            if os.path.isfile(text_fn):
+                texts_total += 1
+                continue
+            with open(page_fn, 'rt', encoding='utf-8') as f:
+                link = f.readline().rstrip()
+                page = res = f.read()
+        if not page:
+            pos = res.find('<input class="calendar"')
+            if pos < 0:
+                continue
+            res = res[pos:]
+            pos = res.find('<div class="moregiant">')
+            if pos < 0:
+                continue
+            res = res[:pos]
+            res = re0.findall(res)
         if res:
-            links_ = []
-            for link in res:
-                links_.append(ROOT_URL + link)
-            if len(links_) > 1:
-                slice_ = (links_num + link_no) % len(links_)
-                links_ = links_[slice_:] + links_[:slice_]
+            if page:
+                links_ = [link]
+            else:
+                links_ = []
+                for link in res:
+                    links_.append(ROOT_URL + link)
+                if len(links_) > 1:
+                    slice_ = (links_num + link_no) % len(links_)
+                    links_ = links_[slice_:] + links_[:slice_]
             for link in links_:
                 #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
                 #link = 'https://echo.msk.ru/blog/ssobyanin/2744914-echo/'
-                res = utils.get_url(link)
-                res = res.text
+                if not page:
+                    res = utils.get_url(link)
+                    page = res.text
+                res = page
                 pos = res.find('itemprop="articleBody"')
                 if pos > 0:
                     res = res[pos:]
@@ -256,19 +276,22 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                             maybe_caption = False
                         lines = normalize_text(lines)
                         if lines:
-                            total_texts += 1
-                            with open(utils.get_data_path(utils.TEXTS_DIR,
-                                                          links_num, link_no),
-                                      'wt', encoding='utf-8') as f:
+                            texts_total += 1
+                            if link_no >= start_link_idx:
+                                with open(page_fn,
+                                          'wt', encoding='utf-8') as f:
+                                    print(link, file=f)
+                                    f.write(page)
+                            with open(text_fn, 'wt', encoding='utf-8') as f:
                                 print(link, file=f)
                                 f.write('\n'.join(lines))
                             print('\r{} (of {})'
-                                      .format(total_texts,
+                                      .format(texts_total,
                                               utils.TEXTS_FOR_SOURCE),
                                   end='')
                             break
                 #exit()
-        if total_texts >= utils.TEXTS_FOR_SOURCE:
+        if texts_total >= utils.TEXTS_FOR_SOURCE:
             break
     print()
 
