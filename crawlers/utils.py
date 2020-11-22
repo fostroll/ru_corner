@@ -207,7 +207,7 @@ def make_chunks(num_links, moderator=None):
                         chunk_words += len(line.split())
                         line = '\t'.join([speaker, line])
                         if speaker_no <= MIN_CHUNK_LINES:
-                            lines.append(line)
+                            lines.insert(0, line)
                         elif chunk_words > MAX_CHUNK_WORDS:
                             break
                         else:
