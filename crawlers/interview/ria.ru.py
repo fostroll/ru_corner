@@ -34,6 +34,7 @@ if os.path.isfile(utils.LINKS_FN):
         links = [x for x in f.read().split('\n') if x]
 
 else:
+    links = OrderedDict()
     re0 = re.compile('<a href="([^">]+)" class="list-item__title color-font-hover-only">')
     re1 = re.compile('<div class="list-more" data-url="([^">]+)">')
     re2 = re.compile('<div class="list-items-loaded" data-next-url="([^">]+)">')
@@ -57,12 +58,13 @@ else:
             link = unescape(link)
             if not link.startswith('https://'):
                 link = ROOT_URL + link
-            links.append(link)
+            links[link] = 1
         print('\r{}'.format(len(links)), end='')
         res = re2.search(html)
         if not res:
             break
         next_link = unescape(res.group(1))
+    links = list(links.keys())
 
     random.shuffle(links)
     with open(utils.LINKS_FN, 'wt') as f:

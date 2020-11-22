@@ -36,6 +36,7 @@ if os.path.isfile(utils.LINKS_FN):
         links = [x for x in f.read().split('\n') if x]
 
 else:
+    links = OrderedDict()
     re0 = re.compile('<div class="author type1 \w+">\s*'
                      '<a class="dark" href="([^">]+)">')
     for i in range(END - START):
@@ -50,11 +51,12 @@ else:
             res = re0.findall(res)
             if res:
                 for link in res:
-                    links.append(ROOT_URL + link)
+                    links[ROOT_URL + link] = 1
             else:
                 break
             j += 1
         print()
+    links = list(links.keys())
 
     random.shuffle(links)
     with open(utils.LINKS_FN, 'wt') as f:
