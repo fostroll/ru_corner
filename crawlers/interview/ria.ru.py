@@ -69,10 +69,12 @@ else:
         f.write('\n'.join(links))
     print()
 
+links_num = len(links)
+
 '''===========================================================================
 Downloading and parse texts
 ==========================================================================='''
-text_fns = utils.get_file_list(utils.TEXTS_DIR, len(links))
+text_fns = utils.get_file_list(utils.TEXTS_DIR, links_num)
 total_texts = len(text_fns)
 if total_texts < utils.TEXTS_FOR_SOURCE:
     start_link_idx = int(os.path.split(sorted(text_fns)[-1])[-1]
@@ -148,7 +150,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
         if key_lines >= utils.MIN_TEXT_LINES:
             total_texts += 1
             with open(utils.get_data_path(utils.TEXTS_DIR,
-                                          len(links), link_no),
+                                          links_num, link_no),
                       'wt', encoding='utf-8') as f:
                 print(link, file=f)
                 f.write('\n'.join(lines))
@@ -163,9 +165,9 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-utils.make_chunks(len(links))#, moderator=SPEAKER_A)
+utils.make_chunks(links_num)#, moderator=SPEAKER_A)
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(len(links))
+utils.tokenize(links_num)

@@ -60,10 +60,12 @@ else:
     with open(utils.LINKS_FN, 'wt') as f:
         f.write('\n'.join(links))
 
+links_num = len(links)
+
 '''===========================================================================
 Downloading and parse texts
 ==========================================================================='''
-text_fns = utils.get_file_list(utils.TEXTS_DIR, len(links))
+text_fns = utils.get_file_list(utils.TEXTS_DIR, links_num)
 total_texts = len(text_fns)
 if total_texts < utils.TEXTS_FOR_SOURCE:
     start_link_idx = int(os.path.split(sorted(text_fns)[-1])[-1]
@@ -79,7 +81,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
     def normalize_text(lines):
         elen = len(lines)
         speakers = [('', 0)] * elen
-        thresh = min(0, max(elen // 10, 1))
+        thresh = max(elen // 10, 1)
         for idx, line in enumerate(lines):
             elen_ = len(line)
             new_key, new_shift = key, _ = speakers[idx]
@@ -90,7 +92,7 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                 token_ = token.replace('.', '')
                 isend = False
                 if not token_.isalpha():
-                    if True in [x in ENDINGS for x in token_]:
+                    if any(x in ENDINGS for x in token_):
                         isend = True
                     else:
                         continue
@@ -125,11 +127,12 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                                          new_shift_
                             break
                     speakers_.append((key_, shift_))
-                if value_ > thresh:
-                    key = (new_key, shift)
-                    speakers = speakers_
-                else:
+                if value_ <= thresh and len(key) > 5 and key.isupper() \
+                                    and not new_key.isupper():
                     break
+                else:
+                    key = new_key
+                    speakers = speakers_
                 if isend:
                     break
 
@@ -143,10 +146,9 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
                 continue
             speaker_list_[key] = value
         speaker_list = {x: y for x, y in speaker_list_.items()
-                            if y > thresh
-                           and (True in [x_ in ENDINGS for x_ in x]
+                            if any(x_ in ENDINGS for x_ in x)
                             or (len(x) > 1 and x.isupper())
-                            or (len(x) == 1 and x in ENDINGS))}
+                            or (len(x) == 1 and x in ENDINGS)}
 
         speaker_map = {}
         val = 0
@@ -179,68 +181,93 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
         return lines_ if key_lines >= utils.MIN_TEXT_LINES else None
 
     re0 = re.compile('<a href="([^">]+)" class="view">')
-    re1 = re.compile('<script type="application/ld\+json">(\{.+\})</script>')
+    re1 = re.compile('<img [^>]+>')
     re2 = re.compile('<blockquote(?:.|\n)+?</blockquote>')
     re3 = re.compile('<b>(.+?)</b>')
     re3a = re.compile('\W')
     re4 = re.compile('<.*?>|\(.*?\)')
     for link_no, link in enumerate(links[start_link_idx:],
                                    start=start_link_idx + 1):
+        #print(link)
         res = utils.get_url(link)
         res = res.text
         pos = res.find('<input class="calendar"')
-        if pos > 0:
-            res = res[pos:]
+        if pos < 0:
+            continue
+        res = res[pos:]
         pos = res.find('<div class="moregiant">')
-        if pos > 0:
-            res = res[:pos]
+        if pos < 0:
+            continue
+        res = res[:pos]
         res = re0.findall(res)
         if res:
             links_ = []
             for link in res:
                 links_.append(ROOT_URL + link)
             if len(links_) > 1:
-                random.shuffle(links_)
-            link = links_[0]
-            #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
-            #link = 'https://echo.msk.ru/programs/beseda/1068274-echo/'
-            res = utils.get_url(link)
-            res = res.text
-            pos = res.find('itemprop="articleBody"')
-            if pos > 0:
-                res = res[pos:]
-                pos = res.find('</div>')
+                slice_ = (links_num + link_no) % len(links_)
+                links_ = links_[slice_:] + links_[:slice_]
+            for link in links_:
+                #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
+                #link = 'https://echo.msk.ru/blog/ssobyanin/2744914-echo/'
+                res = utils.get_url(link)
+                res = res.text
+                pos = res.find('itemprop="articleBody"')
                 if pos > 0:
-                    res = res[:pos]
-                    res = re2.sub('', res)
-                    res = re3.sub(
-                        lambda x: re3a.sub(' ', x.group(1).upper()) + ':', res
-                    )
-                    res = res.replace('\r', '') \
-                             .replace('<br>', '\n').replace('</p>', '\n')
-                    res = re4.sub(' ', '<' + res)
-                    txt = unescape(res)
-                    lines = [
-                        x.split()
-                            for x in [x.strip() for x in txt.split('\n')]
-                            if x and (not x.isupper() or '.' in x)
-                                 and not (len(x) >= 2
-                                      and ((x[0] == '(' and x[-1] == ')')
-                                        or (x[0] == '[' and x[-1] == ']')
-                                        or (x[0] == '«' and x[-1] == '»')))
-                    ]
-                    lines = normalize_text(lines)
-                    if lines:
-                        total_texts += 1
-                        with open(utils.get_data_path(utils.TEXTS_DIR,
-                                                      len(links), link_no),
-                                  'wt', encoding='utf-8') as f:
-                            print(link, file=f)
-                            f.write('\n'.join(lines))
-                        print('\r{} (of {})'.format(total_texts,
-                                                    utils.TEXTS_FOR_SOURCE),
-                              end='')
-            #exit()
+                    res = res[pos:]
+                    pos = res.find('</div>')
+                    if pos > 0:
+                        res = res[:pos]
+                        res = res.replace('\n', ' ')
+                        res = re1.sub('{img}', res)
+                        res = re2.sub('', res)
+                        res = re3.sub(
+                            lambda x: re3a.sub(' ', x.group(1).upper()) + ':',
+                            res
+                        )
+                        res = res.replace('\r', '') \
+                                 .replace('<br>', '\n').replace('</p>', '\n')
+                        res = re4.sub(' ', '<' + res)
+                        txt = unescape(res)
+                        '''
+                        lines = [
+                            x.split()
+                                for x in [x.strip() for x in txt.split('\n')]
+                                if x and (not x.isupper() or '.' in x)
+                                     and not (len(x) >= 2
+                                          and ((x[0] == '(' and x[-1] == ')')
+                                            or (x[0] == '[' and x[-1] == ']')
+                                            or (x[0] == '«' and x[-1] == '»')))
+                        ]
+                        '''
+                        lines = []
+                        maybe_caption = False
+                        for line in [x.strip() for x in txt.split('\n')]:
+                            if '{img}' in line:
+                                maybe_caption = True
+                                continue
+                            if line and (not line.isupper() or '.' in line) \
+                           and not (len(line) >= 2
+                                and ((line[0] == '(' and line[-1] == ')')
+                                  or (line[0] == '[' and line[-1] == ']')
+                                  or (line[0] == '«' and line[-1] == '»'))) \
+                           and (not maybe_caption or not line[-1].isalnum()):
+                                lines.append(line.split())
+                            maybe_caption = False
+                        lines = normalize_text(lines)
+                        if lines:
+                            total_texts += 1
+                            with open(utils.get_data_path(utils.TEXTS_DIR,
+                                                          links_num, link_no),
+                                      'wt', encoding='utf-8') as f:
+                                print(link, file=f)
+                                f.write('\n'.join(lines))
+                            print('\r{} (of {})'
+                                      .format(total_texts,
+                                              utils.TEXTS_FOR_SOURCE),
+                                  end='')
+                            break
+                #exit()
         if total_texts >= utils.TEXTS_FOR_SOURCE:
             break
     print()
@@ -249,9 +276,9 @@ if total_texts < utils.TEXTS_FOR_SOURCE:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-utils.make_chunks(len(links))
+utils.make_chunks(links_num)
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(len(links))
+utils.tokenize(links_num)
