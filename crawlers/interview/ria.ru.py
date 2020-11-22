@@ -75,107 +75,108 @@ links_num = len(links)
 Downloading and parse texts
 ==========================================================================='''
 pages_fns = utils.get_file_list(utils.PAGES_DIR, links_num)
-texts_total = len(pages_fns)
-if texts_total < utils.TEXTS_FOR_SOURCE:
-    start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
-                             .replace(utils.DATA_EXT, '')) \
-                         if texts_total > 0 else \
-                     0
-    texts_total = 0
+start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
+                         .replace(utils.DATA_EXT, '')) \
+                     if len(pages_fns) > 0 else \
+                 0
+texts_total = 0
 
-    re0 = re.compile('<(?:p|div[^>]*)>(.+?)</p>')
-    re1 = re.compile('<(/?strong)>')
-    re2 = re.compile('<span[^>]*>.+?</span>')
-    re2a = re.compile('<.*?>|\(.*?\)')
-    re3 = re.compile('{strong}(.+?){/strong}')
-    #for link_no, link in enumerate(links[start_link_idx:],
-    #                               start=start_link_idx + 1):
-    for link_no, link in enumerate(links, start=1):
-        #link = 'https://rsport.ria.ru/20160311/902957688.html'
-        page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
-        text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
-        page = None
-        if link_no >= start_link_idx:
-            res = utils.get_url(link)
-            page = res.text
-        else:
-            if not os.path.isfile(page_fn):
-                continue
-            if os.path.isfile(text_fn):
-                texts_total += 1
-                continue
-            with open(page_fn, 'rt', encoding='utf-8') as f:
-                link = f.readline().rstrip()
-                page = f.read()
-        res = re0.findall(page)
-        lines, key_lines = [], 0
-        issent = False
-        prev_speaker, prev_strong, curr_speaker = None, None, None
-        for line in res:
-            line = unescape(line).replace('</strong><strong>', '')
-            line = re1.sub(r'{\g<1>}', line)
-            line = re2.sub('', line)
-            line = re2a.sub(' ', line).strip()
-            sents = [x.strip() for x in line.split('{strong')
-                               for x in x.split('/strong}')]
-            for sent in sents:
-                if sent.startswith('}') and sent.endswith('{'):
-                    sent = sent[1:-1].strip()
-                    speaker, strong = SPEAKER_A, True
-                else:
-                    speaker, strong = SPEAKER_B, False
-                if curr_speaker:
-                    speaker = curr_speaker
-                if sent:
-                    if sent in SENT_STARTS:
-                        curr_speaker = None
+re0 = re.compile('<(?:p|div[^>]*)>(.+?)</p>')
+re1 = re.compile('<(/?strong)>')
+re2 = re.compile('<span[^>]*>.+?</span>')
+re2a = re.compile('<.*?>|\(.*?\)')
+re3 = re.compile('{strong}(.+?){/strong}')
+#for link_no, link in enumerate(links[start_link_idx:],
+#                               start=start_link_idx + 1):
+need_enter = False
+for link_no, link in enumerate(links, start=1):
+    if texts_total >= utils.TEXTS_FOR_SOURCE:
+        break
+    #link = 'https://rsport.ria.ru/20160311/902957688.html'
+    page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
+    text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
+    page = None
+    if link_no > start_link_idx:
+        res = utils.get_url(link)
+        page = res.text
+    else:
+        if not os.path.isfile(page_fn):
+            continue
+        if os.path.isfile(text_fn):
+            texts_total += 1
+            continue
+        with open(page_fn, 'rt', encoding='utf-8') as f:
+            link = f.readline().rstrip()
+            page = f.read()
+    res = re0.findall(page)
+    lines, key_lines = [], 0
+    issent = False
+    prev_speaker, prev_strong, curr_speaker = None, None, None
+    for line in res:
+        line = unescape(line).replace('</strong><strong>', '')
+        line = re1.sub(r'{\g<1>}', line)
+        line = re2.sub('', line)
+        line = re2a.sub(' ', line).strip()
+        sents = [x.strip() for x in line.split('{strong')
+                           for x in x.split('/strong}')]
+        for sent in sents:
+            if sent.startswith('}') and sent.endswith('{'):
+                sent = sent[1:-1].strip()
+                speaker, strong = SPEAKER_A, True
+            else:
+                speaker, strong = SPEAKER_B, False
+            if curr_speaker:
+                speaker = curr_speaker
+            if sent:
+                if sent in SENT_STARTS:
+                    curr_speaker = None
+                    issent = True
+                    continue
+                if sent[0] in SENT_STARTS:
+                    curr_speaker = None
+                    sent = sent[1:].lstrip()
+                elif not issent:
+                    #if prev_speaker and speaker == prev_speaker:
+                    if prev_speaker and not (strong or prev_strong):
+                        speaker = ''
+                    else:
+                        continue
+                pos_ = 0
+                while pos_ == 0:
+                    pos_ = sent.find(':')
+                    if pos_ == 0:
+                        sent = sent[1:]
+                if pos_ > 0 and pos_ <= MAX_SPEAKER_LEN:
+                    speaker_ = sent[:pos_]
+                    sent_ = sent[pos_ + 1:].lstrip()
+                    if not sent_:
+                        curr_speaker = speaker_
                         issent = True
                         continue
-                    if sent[0] in SENT_STARTS:
-                        curr_speaker = None
-                        sent = sent[1:].lstrip()
-                    elif not issent:
-                        #if prev_speaker and speaker == prev_speaker:
-                        if prev_speaker and not (strong or prev_strong):
-                            speaker = ''
-                        else:
-                            continue
-                    pos_ = 0
-                    while pos_ == 0:
-                        pos_ = sent.find(':')
-                        if pos_ == 0:
-                            sent = sent[1:]
-                    if pos_ > 0 and pos_ <= MAX_SPEAKER_LEN:
-                        speaker_ = sent[:pos_]
-                        sent_ = sent[pos_ + 1:].lstrip()
-                        if not sent_:
-                            curr_speaker = speaker_
-                            issent = True
-                            continue
-                        if sent_[0].isupper():
-                            speaker, sent = speaker_, sent_
-                    if speaker:
-                        key_lines += 1
-                    sent = speaker + '\t' + ' '.join(sent.split())
-                    lines.append(sent)
-                    issent = False
-                    if speaker:
-                        prev_speaker, prev_strong = speaker, strong
-                    curr_speaker = None
-        if key_lines >= utils.MIN_TEXT_LINES:
-            texts_total += 1
-            with open(page_fn, 'wt', encoding='utf-8') as f:
-                print(link, file=f)
-                f.write(page)
-            with open(text_fn, 'wt', encoding='utf-8') as f:
-                print(link, file=f)
-                f.write('\n'.join(lines))
-            print('\r{} (of {})'.format(texts_total,
-                                        utils.TEXTS_FOR_SOURCE),
-                  end='')
-        #exit()
-        if texts_total >= utils.TEXTS_FOR_SOURCE:
-            break
+                    if sent_[0].isupper():
+                        speaker, sent = speaker_, sent_
+                if speaker:
+                    key_lines += 1
+                sent = speaker + '\t' + ' '.join(sent.split())
+                lines.append(sent)
+                issent = False
+                if speaker:
+                    prev_speaker, prev_strong = speaker, strong
+                curr_speaker = None
+    if key_lines >= utils.MIN_TEXT_LINES:
+        texts_total += 1
+        with open(page_fn, 'wt', encoding='utf-8') as f:
+            print(link, file=f)
+            f.write(page)
+        with open(text_fn, 'wt', encoding='utf-8') as f:
+            print(link, file=f)
+            f.write('\n'.join(lines))
+        print('\r{} (of {})'.format(texts_total,
+                                    utils.TEXTS_FOR_SOURCE),
+              end='')
+        need_enter = True
+    #exit()
+if need_enter:
     print()
 
 '''===========================================================================
