@@ -94,7 +94,7 @@ for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.svoboda.org/a/27016704.html'
-    #link_no = 156
+    link_no = 3029
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
     text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
     page = None
@@ -153,7 +153,9 @@ for link_no, link in enumerate(links, start=1):
     res = res.split('\n')
     lines, key_lines = [], 0
     prev_speaker, isdiv = None, False
+    isem, isstrong = False, False
     for line in res:
+        isem_, isstrong_ = False, False
         line = unescape(line).lstrip()
         #print(line, file=ff)
         if line.startswith('</div'):
@@ -168,8 +170,10 @@ for link_no, link in enumerate(links, start=1):
         if line.startswith('<'):
             if line.startswith('<em>'):
                 line = line[4:].lstrip()
+                isem_ = True
             elif line.startswith('<strong>'):
                 line = line[8:].lstrip()
+                isstrong_ = True
             speaker = SPEAKER_A
         else:
             speaker = SPEAKER_B
@@ -185,6 +189,10 @@ for link_no, link in enumerate(links, start=1):
             if line[0] in SENT_STARTS:
                 line = line[1:].lstrip()
             elif not (prev_speaker or hasdash):
+                continue
+            if not (isem or isstrong):
+                isem, isstrong = isem_, isstrong_
+            elif (isem and isstrong_) or (isstrong and isem_):
                 continue
             if speaker != prev_speaker:
                 prev_speaker = speaker
@@ -211,7 +219,7 @@ for link_no, link in enumerate(links, start=1):
                                     min(utils.TEXTS_FOR_SOURCE, links_num)),
               end='')
         need_enter = True
-    #exit()
+    exit()
 if need_enter:
     print()
 
