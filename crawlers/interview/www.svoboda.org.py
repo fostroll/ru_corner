@@ -86,7 +86,7 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
 texts_total = 0
 
 re2 = re.compile(r'\n.*<blockquote(?:.|\n)+?</blockquote>.*\n')
-re3 = re.compile(r'<a class="wsw__a"(?:.|\n)+?</a>')
+re3 = re.compile(r'\n<a class="wsw__a"(?:.|\n)+?</a>')
 re0 = re.compile(r'<p>((?:.|\n)*?)</p>')
 re1 = re.compile(r'<.*?>|\(.*?\)')
 need_enter = False
@@ -94,7 +94,7 @@ for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.svoboda.org/a/27016704.html'
-    link_no = 3029
+    #link_no = 3028
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
     text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
     page = None
@@ -123,7 +123,7 @@ for link_no, link in enumerate(links, start=1):
     if pos > 0:
         res = res[:pos]
     res = re2.sub(' ', res)
-    res = re3.sub(' ', res)
+    res = re3.sub('\n', res)
     res = res.replace('\u200b', '\n')
 
     #ff = open('1111', 'wt', encoding='utf-8')
@@ -135,7 +135,7 @@ for link_no, link in enumerate(links, start=1):
     isdiv = False
     for line in res:
         line = line.strip()
-        if line.startswith('</div'):
+        if '</div' in line:#.startswith('</div'):
             isdiv = False
         if isdiv:
             continue
@@ -146,7 +146,7 @@ for link_no, link in enumerate(links, start=1):
     res = '\n'.join(lines)
 
     res = res.replace('<strong><br />', '<strong>').replace('<br />', '\n')
-    res = re0.sub(lambda x: '\n' + x.group(1).replace('\n', ''), res)
+    res = re0.sub(lambda x: '\n' + x.group(1).replace('\n', '') + '\n', res)
 
     #print(res, file=ff)
     #ff.close()
@@ -158,7 +158,7 @@ for link_no, link in enumerate(links, start=1):
         isem_, isstrong_ = False, False
         line = unescape(line).lstrip()
         #print(line, file=ff)
-        if line.startswith('</div'):
+        if '</div' in line:#.startswith('</div'):
             isdiv = False
             continue
         if isdiv or not line:
@@ -219,7 +219,7 @@ for link_no, link in enumerate(links, start=1):
                                     min(utils.TEXTS_FOR_SOURCE, links_num)),
               end='')
         need_enter = True
-    exit()
+    #exit()
 if need_enter:
     print()
 
