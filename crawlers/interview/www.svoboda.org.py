@@ -149,7 +149,7 @@ for link_no, link in enumerate(links, start=1):
     res = re0.sub(lambda x: '\n' + x.group(1).replace('\n', ''), res)
 
     #print(res, file=ff)
-    ff.close()
+    #ff.close()
     res = res.split('\n')
     lines, key_lines = [], 0
     prev_speaker, isdiv = None, False
