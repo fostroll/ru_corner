@@ -37,8 +37,8 @@ if os.path.isfile(utils.LINKS_FN):
 
 else:
     links = OrderedDict()
-    re0 = re.compile('<div class="author type1 \w+">\s*'
-                     '<a class="dark" href="([^">]+)">')
+    re0 = re.compile(r'<div class="author type1 \w+">\s*'
+                     r'<a class="dark" href="([^">]+)">')
     for i in range(END - START):
         print('{} (of {}):'.format(i + 1, END - START), end='')
         url_ = URL.replace('{i}', str(START + i))
@@ -47,8 +47,8 @@ else:
             print('' if j == 1 else ',', j, end='')
             url = url_.replace('{j}', str(j))
             res = utils.get_url(url)
-            res = res.text
-            res = re0.findall(res)
+            page = res.text
+            res = re0.findall(page)
             if res:
                 for link in res:
                     links[ROOT_URL + link] = 1
@@ -181,12 +181,12 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
-re0 = re.compile('<a href="([^">]+)" class="view">')
-re1 = re.compile('<img [^>]+>')
-re2 = re.compile('<blockquote(?:.|\n)+?</blockquote>')
-re3 = re.compile('<b>(.+?)</b>')
-re3a = re.compile('\W')
-re4 = re.compile('<.*?>|\(.*?\)')
+re0 = re.compile(r'<a href="([^">]+)" class="view">')
+re1 = re.compile(r'<img [^>]+>')
+re2 = re.compile(r'<blockquote(?:.|\n)+?</blockquote>')
+re3 = re.compile(r'<b>(.+?)</b>')
+re3a = re.compile(r'\W')
+re4 = re.compile(r'<.*?>|\(.*?\)')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
@@ -267,7 +267,7 @@ for link_no, link in enumerate(links, start=1):
                     lines = normalize_text(lines)
                     if lines:
                         texts_total += 1
-                        if link_no >= start_link_idx:
+                        if link_no > start_link_idx:
                             with open(page_fn,
                                       'wt', encoding='utf-8') as f:
                                 print(link, file=f)

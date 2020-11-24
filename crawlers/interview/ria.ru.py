@@ -36,23 +36,25 @@ if os.path.isfile(utils.LINKS_FN):
 
 else:
     links = OrderedDict()
-    re0 = re.compile('<a href="([^">]+)" class="list-item__title color-font-hover-only">')
-    re1 = re.compile('<div class="list-more" data-url="([^">]+)">')
-    re2 = re.compile('<div class="list-items-loaded" data-next-url="([^">]+)">')
+    re0 = re.compile(r'<a href="([^">]+)" '
+                     r'class="list-item__title color-font-hover-only">')
+    re1 = re.compile(r'<div class="list-more" data-url="([^">]+)">')
+    re2 = re.compile(r'<div class="list-items-loaded" '
+                     r'data-next-url="([^">]+)">')
     res = utils.get_url(URL)
-    html = res.text
-    res = re0.findall(html)
+    page = res.text
+    res = re0.findall(page)
     assert res, 'ERROR: no links found on the main page'
     for link in res:
         links.append(unescape(link))
     print('\r{}'.format(len(links)), end='')
-    res = re1.search(html)
+    res = re1.search(page)
     assert res, 'ERROR: no next link found on the main page'
     next_link = unescape(res.group(1))
     while True:
         res = utils.get_url(ROOT_URL + next_link)
-        html = res.text
-        res = re0.findall(html)
+        page = res.text
+        res = re0.findall(page)
         if not res:
             break
         for link in res:
@@ -61,7 +63,7 @@ else:
                 link = ROOT_URL + link
             links[link] = 1
         print('\r{}'.format(len(links)), end='')
-        res = re2.search(html)
+        res = re2.search(page)
         if not res:
             break
         next_link = unescape(res.group(1))
@@ -84,11 +86,11 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
-re0 = re.compile('<(?:p|div[^>]*)>(.+?)</p>')
-re1 = re.compile('<(/?strong)>')
-re2 = re.compile('<span[^>]*>.+?</span>')
-re2a = re.compile('<.*?>|\(.*?\)')
-re3 = re.compile('{strong}(.+?){/strong}')
+re0 = re.compile(r'<(?:p|div[^>]*)>(.+?)</p>')
+re1 = re.compile(r'<(/?strong)>')
+re2 = re.compile(r'<span[^>]*>.+?</span>')
+re2a = re.compile(r'<.*?>|\(.*?\)')
+re3 = re.compile(r'{strong}(.+?){/strong}')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
@@ -166,9 +168,10 @@ for link_no, link in enumerate(links, start=1):
                 curr_speaker = None
     if key_lines >= utils.MIN_TEXT_LINES:
         texts_total += 1
-        with open(page_fn, 'wt', encoding='utf-8') as f:
-            print(link, file=f)
-            f.write(page)
+        if link_no > start_link_idx:
+            with open(page_fn, 'wt', encoding='utf-8') as f:
+                print(link, file=f)
+                f.write(page)
         with open(text_fn, 'wt', encoding='utf-8') as f:
             print(link, file=f)
             f.write('\n'.join(lines))

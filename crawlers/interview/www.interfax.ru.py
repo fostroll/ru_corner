@@ -18,7 +18,7 @@ import utils
 SEED = 42
 ROOT_URL = 'https://www.interfax.ru'
 URL_1 = '/interview/'
-URL_2 = '/page_{}'
+URL_2 = 'page_{}'
 URL = ROOT_URL + URL_1
 SENT_STARTS = ['-', '–', '—', '―']
 SPEAKER_A, SPEAKER_B = 'Вопрос', 'Ответ'
@@ -39,15 +39,16 @@ if os.path.isfile(utils.LINKS_FN):
 
 else:
     links = OrderedDict()
-    re0 = re.compile('<div class="allPNav">.+?<a class="active">(\d+)</a></div>')
-    re1 = re.compile('<a href="({}\d+)" title='.format(URL_1))
+    re0 = re.compile(r'<div class="allPNav">.+?'
+                     r'<a class="active">(\d+)</a></div>')
+    re1 = re.compile(r'<a href="({}\d+)" title='.format(URL_1))
     res = utils.get_url(URL)
-    html = res.text
-    res = re0.search(html)
+    page = res.text
+    res = re0.search(page)
     assert res, 'ERROR: no page links found on the main page'
     page_no = int(res.group(1))
     while True:
-        res = re1.findall(html)
+        res = re1.findall(page)
         assert res, \
                'ERROR: no article links found on the page {}'.format(page_no)
         for link in res:
@@ -57,8 +58,7 @@ else:
             break
         page_no -= 1
         res = utils.get_url(URL + URL_2.format(page_no))
-        html = res.text
-        res = utils.get_url('{}{}{}'.format(URL, URL_1, page_no))
+        page = res.text
     links = list(links.keys())
 
     random.shuffle(links)
@@ -78,9 +78,9 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
-re0 = re.compile('<article itemprop="articleBody">((?:.|\n)+?)</article>')
-re1 = re.compile('<p>((?:.|\n)*?)</p>')
-re2 = re.compile('<.*?>|\(.*?\)')
+re0 = re.compile(r'<article itemprop="articleBody">((?:.|\n)+?)</article>')
+re1 = re.compile(r'<p>((?:.|\n)*?)</p>')
+re2 = re.compile(r'<.*?>|\(.*?\)')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
@@ -126,9 +126,10 @@ for link_no, link in enumerate(links, start=1):
             lines.append(line)
     if key_lines >= MIN_TEXT_LINES:
         texts_total += 1
-        with open(page_fn, 'wt', encoding='utf-8') as f:
-            print(link, file=f)
-            f.write(page)
+        if link_no > start_link_idx:
+            with open(page_fn, 'wt', encoding='utf-8') as f:
+                print(link, file=f)
+                f.write(page)
         with open(text_fn, 'wt', encoding='utf-8') as f:
             print(link, file=f)
             f.write('\n'.join(lines))
