@@ -87,6 +87,7 @@ texts_total = 0
 
 re2 = re.compile(r'\n.*<blockquote(?:.|\n)+?</blockquote>.*\n')
 re3 = re.compile(r'\n<a class="wsw__a"(?:.|\n)+?</a>')
+re4 = re.compile(r'<a class="wsw__a"[^>]+>(.+?)</a>')
 re0 = re.compile(r'<p>((?:.|\n)*?)</p>')
 re1 = re.compile(r'<.*?>|\(.*?\)')
 need_enter = False
@@ -94,7 +95,7 @@ for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.svoboda.org/a/27016704.html'
-    #link_no = 3028
+    #link_no = 2877
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
     text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
     page = None
@@ -124,12 +125,10 @@ for link_no, link in enumerate(links, start=1):
         res = res[:pos]
     res = re2.sub(' ', res)
     res = re3.sub('\n', res)
+    res = re4.sub(r'\g<1>', res)
     res = res.replace('\u200b', '\n')
 
-    #ff = open('1111', 'wt', encoding='utf-8')
-    #with open(page_fn, 'wt', encoding='utf-8') as f:
-    #    print(link, file=f)
-    #    f.write(page)
+    res = res.replace('</div>', '</div>\n')
     res = res.split('\n')
     lines = []
     isdiv = False
@@ -145,9 +144,12 @@ for link_no, link in enumerate(links, start=1):
         lines.append(line)
     res = '\n'.join(lines)
 
-    res = res.replace('<strong><br />', '<strong>').replace('<br />', '\n')
+    res = res.replace('<strong><br />', '<strong>') \
+             .replace('<br /></strong>', '</strong>') \
+             .replace('<br />', '\n')
     res = re0.sub(lambda x: '\n' + x.group(1).replace('\n', '') + '\n', res)
 
+    #ff = open('1111', 'wt', encoding='utf-8')
     #print(res, file=ff)
     #ff.close()
     res = res.split('\n')
@@ -157,7 +159,6 @@ for link_no, link in enumerate(links, start=1):
     for line in res:
         isem_, isstrong_ = False, False
         line = unescape(line).lstrip()
-        #print(line, file=ff)
         if '</div' in line:#.startswith('</div'):
             isdiv = False
             continue
@@ -167,16 +168,20 @@ for link_no, link in enumerate(links, start=1):
         if line[0] in SENT_STARTS:
             line = line[1:].lstrip()
             hasdash = True
-        if line.startswith('<'):
-            if line.startswith('<em>'):
-                line = line[4:].lstrip()
-                isem_ = True
-            elif line.startswith('<strong>'):
-                line = line[8:].lstrip()
-                isstrong_ = True
-            speaker = SPEAKER_A
+        speaker = SPEAKER_A
+        if line.startswith('<em>'):
+            line = line[4:].lstrip()
+            isem_ = True
+        elif line.endswith('</em>'):
+            isem_ = True
+        elif line.startswith('<strong>'):
+            line = line[8:].lstrip()
+            isstrong_ = True
+        elif line.endswith('</strong>'):
+            isstrong_ = True
         else:
             speaker = SPEAKER_B
+        #print(line, file=ff)
         if line.startswith('<'):
             if line.startswith('<div'):
                 isdiv = True
@@ -188,12 +193,16 @@ for link_no, link in enumerate(links, start=1):
         if line and any(x.isalnum() for x in line):
             if line[0] in SENT_STARTS:
                 line = line[1:].lstrip()
+                hasdash = True
             elif not (prev_speaker or hasdash):
                 continue
-            if not (isem or isstrong):
+            if (isem_ or isstrong_) and not (isem or isstrong):
+                if not hasdash:
+                    continue
                 isem, isstrong = isem_, isstrong_
             elif (isem and isstrong_) or (isstrong and isem_):
                 continue
+            #print('+', file=ff)
             if speaker != prev_speaker:
                 prev_speaker = speaker
                 key_lines += 1

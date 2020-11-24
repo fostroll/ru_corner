@@ -14,7 +14,7 @@ from toxine.text_preprocessor import TextPreprocessor
 
 
 PRJNAME = 'ru_corner'
-DATA_DIR_NAME = 'data'
+DATA_DIR_NAME = '_data'
 CURR_PATH = os.path.abspath(sys.argv[0])
 CURR_DIR = os.path.dirname(CURR_PATH)
 DATA_EXT = '.txt'
@@ -193,7 +193,7 @@ def make_chunks(num_links, trim_ending=True, moderator=None,
                             buffer = []
                     chunk_words += len(line.split())
                     line = '\t'.join([speaker, line])
-                    if speaker_no <= MIN_CHUNK_LINES:
+                    if speaker_no <= min_chunk_lines:
                         lines.append(line)
                     elif chunk_words > MAX_CHUNK_WORDS:
                         break
@@ -205,7 +205,7 @@ def make_chunks(num_links, trim_ending=True, moderator=None,
                     for speaker, line in reversed(text[:eff_start_idx]):
                         chunk_words += len(line.split())
                         line = '\t'.join([speaker, line])
-                        if speaker_no < MIN_CHUNK_LINES:
+                        if speaker_no < min_chunk_lines:
                             lines.insert(0, line)
                         elif chunk_words > MAX_CHUNK_WORDS:
                             break
