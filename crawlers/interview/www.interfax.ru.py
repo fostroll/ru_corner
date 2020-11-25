@@ -3,7 +3,6 @@
 
 from collections import OrderedDict
 from html import unescape
-import json
 import os
 import random
 import re
@@ -13,6 +12,7 @@ import sys
 sys.path.append('../')
 ###
 import utils
+import _utils
 
 
 SEED = 42
@@ -34,7 +34,7 @@ links = []
 Downloading of the list of links
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
-    with open(utils.LINKS_FN, 'rt') as f:
+    with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
         links = [x for x in f.read().split('\n') if x]
 
 else:
@@ -59,10 +59,10 @@ else:
         page_no -= 1
         res = utils.get_url(URL + URL_2.format(page_no))
         page = res.text
-    links = list(links.keys())
+    links = list(links)
 
     random.shuffle(links)
-    with open(utils.LINKS_FN, 'wt') as f:
+    with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
     print()
 
@@ -144,8 +144,8 @@ if need_enter:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-utils.make_chunks(links_num, trim_ending=False, moderator=SPEAKER_A,
-                  min_chunk_lines=MIN_CHUNK_LINES)
+_utils.make_chunks(links_num, trim_ending=False, moderator=SPEAKER_A,
+                   min_chunk_lines=MIN_CHUNK_LINES)
 
 '''===========================================================================
 Tokenization

@@ -3,7 +3,6 @@
 
 from collections import OrderedDict
 from html import unescape
-import json
 import os
 import random
 import re
@@ -13,6 +12,7 @@ import sys
 sys.path.append('../')
 ###
 import utils
+import _utils
 
 
 SEED = 42
@@ -31,7 +31,7 @@ links = []
 Downloading of the list of links
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
-    with open(utils.LINKS_FN, 'rt') as f:
+    with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
         links = [x for x in f.read().split('\n') if x]
 
 else:
@@ -46,7 +46,7 @@ else:
     res = re0.findall(page)
     assert res, 'ERROR: no links found on the main page'
     for link in res:
-        links.append(unescape(link))
+        links[unescape(link)] = 1
     print('\r{}'.format(len(links)), end='')
     res = re1.search(page)
     assert res, 'ERROR: no next link found on the main page'
@@ -67,10 +67,10 @@ else:
         if not res:
             break
         next_link = unescape(res.group(1))
-    links = list(links.keys())
+    links = list(links)
 
     random.shuffle(links)
-    with open(utils.LINKS_FN, 'wt') as f:
+    with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
     print()
 
@@ -81,7 +81,7 @@ Downloading and parse texts
 ==========================================================================='''
 pages_fns = utils.get_file_list(utils.PAGES_DIR, links_num)
 start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
-                         .replace(utils.DATA_EXT, '')) \
+                            .replace(utils.DATA_EXT, '')) \
                      if len(pages_fns) > 0 else \
                  0
 texts_total = 0
@@ -166,7 +166,7 @@ for link_no, link in enumerate(links, start=1):
                 if speaker:
                     prev_speaker, prev_strong = speaker, strong
                 curr_speaker = None
-    if key_lines >= utils.MIN_TEXT_LINES:
+    if key_lines >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:
             with open(page_fn, 'wt', encoding='utf-8') as f:
@@ -186,7 +186,7 @@ if need_enter:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-utils.make_chunks(links_num)#, moderator=SPEAKER_A)
+_utils.make_chunks(links_num)#, moderator=SPEAKER_A)
 
 '''===========================================================================
 Tokenization

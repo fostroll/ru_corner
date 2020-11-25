@@ -3,7 +3,6 @@
 
 from collections import OrderedDict
 from html import unescape
-import json
 import os
 import random
 import re
@@ -15,7 +14,7 @@ import sys
 sys.path.append('../')
 ###
 import utils
-
+import _utils
 
 SEED = 42
 ROOT_URL = 'https://echo.msk.ru'
@@ -32,7 +31,7 @@ links = []
 Downloading of the list of links
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
-    with open(utils.LINKS_FN, 'rt') as f:
+    with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
         links = [x for x in f.read().split('\n') if x]
 
 else:
@@ -56,10 +55,10 @@ else:
                 break
             j += 1
         print()
-    links = list(links.keys())
+    links = list(links)
 
     random.shuffle(links)
-    with open(utils.LINKS_FN, 'wt') as f:
+    with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
 
 links_num = len(links)
@@ -172,7 +171,7 @@ def normalize_text(lines):
             line = line[1:].lstrip()
         if line:
             lines_.append('{}\t{}'.format(key, line))
-    return lines_ if key_lines >= utils.MIN_TEXT_LINES else None
+    return lines_ if key_lines >= _utils.MIN_TEXT_LINES else None
 
 pages_fns = utils.get_file_list(utils.PAGES_DIR, links_num)
 start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
@@ -289,7 +288,7 @@ if need_enter:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-utils.make_chunks(links_num)
+_utils.make_chunks(links_num)
 
 '''===========================================================================
 Tokenization
