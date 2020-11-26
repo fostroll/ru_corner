@@ -2,6 +2,7 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+import datetime
 from html import unescape
 import os
 import random
@@ -16,8 +17,8 @@ import _utils
 
 
 SEED = 42
-ROOT_URL = 'https://zona.media'
-URL = ROOT_URL + '/news'
+ROOT_URL = 'https://lenta.ru'
+URL = ROOT_URL + '/news/'
 
 if SEED:
     random.seed(SEED)
@@ -33,26 +34,22 @@ if os.path.isfile(utils.LINKS_FN):
 
 else:
     links = OrderedDict()
-    re0 = re.compile(r'<a href="([^">]+)"[^>]*>.*?<header[^>]*>([^<]+)'
-                     r'</header></a>')
-    res = utils.get_url(URL)
-    page = res.text
-    res = re.search('<a href="(/_load\?selector=news'
-                    '&amp;page=0&amp;total=\d+)', page)
-    assert res, 'ERROR: next link have not found on the main page'
-    url = res.group(1)
-    while url and len(links) < utils.TEXTS_FOR_SOURCE * 2:
-        res = utils.get_url(ROOT_URL + unescape(url))
-        res = res.json()
-        data = res.get('data')
-        assert data, 'ERROR: no data on the link ' + url
-        for data_ in data:
-            data_ = data_.get('html')
-            data_ = re0.findall(unescape(data_))
-            for link, header in data_:
-                links[ROOT_URL + link] = header.replace('\u2011', '-')
+    re0 = re.compile(r'<div class="titles"><h3><a href="([^">]+)">'
+                     r'<span>([^<]+)</span></a></h3></div>')
+    day = datetime.date.today()
+    day_ = 0
+    while len(links) < utils.TEXTS_FOR_SOURCE * 2:
+        day -= datetime.timedelta(days=day_)
+        url = '{}{:04d}/{:02d}/{:02d}' \
+                  .format(URL, day.year, day.month, day.day)
+        res = utils.get_url(url)
+        res = res.text
+        res = re0.findall(unescape(res))
+        assert res, 'ERROR: no articles on the page {}'.format(url)
+        for link, header in res:
+            links[ROOT_URL + link] = header
         print('\r{}'.format(len(links)), end='')
-        url = res.get('link', {}).get('url')
+        day_ += 1
     links = list('\t'.join(x) for x in links.items())
 
     random.shuffle(links)
@@ -97,12 +94,9 @@ for link_no, link in enumerate(links, start=1):
             page = f.read()
     res = re0.findall(page)
     lines = []
-    for line in reversed(res):
-        line = line.strip()
-        #line = unescape(line).lstrip()
-        if not line.startswith('<b>Исправлено'):
-            lines.insert(0, ' '.join(unescape(re1.sub('', line)).strip()
-                                                                .split()))
+    for line in res:
+        line = unescape(re1.sub('', line)).strip()
+        lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:

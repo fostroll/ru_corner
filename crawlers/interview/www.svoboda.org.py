@@ -85,7 +85,8 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
-re2 = re.compile(r'\n.*<blockquote(?:.|\n)+?</blockquote>.*\n')
+re2 = re.compile(r'\n.*<figure(?:.|\n)+?</figure>')
+re2a = re.compile(r'\n.*<blockquote(?:.|\n)+?</blockquote>.*\n')
 re3 = re.compile(r'\n<a class="wsw__a"(?:.|\n)+?</a>')
 re4 = re.compile(r'<a class="wsw__a"[^>]+>(.+?)</a>')
 re0 = re.compile(r'<p>((?:.|\n)*?)</p>')
@@ -95,7 +96,7 @@ for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.svoboda.org/a/27016704.html'
-    #link_no = 2877
+    #link_no = 1490
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
     text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
     page = None
@@ -124,6 +125,7 @@ for link_no, link in enumerate(links, start=1):
     if pos > 0:
         res = res[:pos]
     res = re2.sub(' ', res)
+    res = re2a.sub(' ', res)
     res = re3.sub('\n', res)
     res = re4.sub(r'\g<1>', res)
     res = res.replace('\u200b', '\n')
@@ -181,6 +183,7 @@ for link_no, link in enumerate(links, start=1):
             isstrong_ = True
         else:
             speaker = SPEAKER_B
+        line = line.replace('</strong>', '').replace('</em>', '').strip()
         #print(line, file=ff)
         if line.startswith('<'):
             if line.startswith('<div'):
