@@ -17,8 +17,8 @@ import _utils
 
 
 SEED = 42
-ROOT_URL = 'https://www.gazeta.ru'
-URL = ROOT_URL + '/news/?p=page&d={}'
+ROOT_URL = 'https://www.newsru.com'
+URL = ROOT_URL + '/allnews/'
 
 if SEED:
     random.seed(SEED)
@@ -34,27 +34,22 @@ if os.path.isfile(utils.LINKS_FN):
 
 else:
     links = OrderedDict()
-    re0 = re.compile(r'<h1 class="txt_2b[^">]*">'
-                     r'<a  href="([^">]+)" itemprop="mainEntityOfPage url">'
-                     r'<span itemprop="headline">([^<]+)</span>')
-    re1 = re.compile("\$\('#other_clickA'\).attr\('href', '(.+?)'\);")
-    re2 = re.compile('<a id="other_clickA" href="#([^">]+)">')
-    now = datetime.datetime.now()
-    url = URL[:URL.rfind('&')]
+    re0 = re.compile(r'<a href="([^"]+)" class="index-news-title">\s*\n?'
+                     r'\s*([^<]+)\s*\n?\s*</a>')
+    re1 = re.compile(r'<a class="arch-arrows-link-l" href="([^"]+)"')
+    url = URL
     while len(links) < utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(url)
-        res = unescape(res.text)
-        data = re0.findall(res)
-        assert data, 'ERROR: no articles on the page {}'.format(url)
-        for link, header in data:
-            links[ROOT_URL + link] = header
+        page = unescape(res.text)
+        res = re0.findall(page)
+        assert res, 'ERROR: no articles on the page {}'.format(url)
+        for link, header in res:
+            if link.startswith('/') and not link.startswith('/blog'):
+                links[ROOT_URL + link] = header.rstrip()
         print('\r{}'.format(len(links)), end='')
-        match = re1.search(res)
-        if not match:
-            match = re2.search(res)
-        assert match, 'ERROR: no next link the page {}'.format(url)
-        res = match.group(1)
-        url = URL.format(res.replace(' ', '_'))
+        res = re1.search(page)
+        assert res, 'ERROR: no prev link on the page {}'.format(url)
+        url = ROOT_URL + res.group(1)
     links = list('\t'.join(x) for x in links.items())
 
     random.shuffle(links)
@@ -74,16 +69,16 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
-re2 = re.compile(r'<div itemprop="articleBody" class="article-text-body">'
-                 r'((?:.|\n)+?)</div>')
 re0 = re.compile(r'<p>((?:.|\n)*?)</p>')
-re1 = re.compile(r'<.*?>')
+re1 = re.compile(r'<blockquote.*</blockquote>')
+re2 = re.compile(r'<a  class="part-link".*</a>')
+re3 = re.compile(r'<.*?>')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     link, header = link.split('\t')
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
-    #link = 'https://www.interfax.ru/interview/374150'
+    #link = 'https://www.newsru.com/sport/11oct2020/ukrger.html'
     page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
     text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
     page = None
@@ -99,16 +94,14 @@ for link_no, link in enumerate(links, start=1):
         with open(page_fn, 'rt', encoding='utf-8') as f:
             link = f.readline().rstrip()
             page = f.read()
-    res = re2.search(page)
-    assert res, 'ERROR: no news text on page with link #{} ({})' \
-                    .format(link_no, link)
-    res = re0.findall(res.group(1))
+    res = re0.search(page)
+    assert res, 'ERROR: no article on the page {}'.format(url)
+    res = res.group(1).split('<p class="maintext">')
     lines = []
     for line in res:
-        line = unescape(re1.sub('', line)).strip()
-        if line.startswith('НОВОСТИ ПО ТЕМЕ:'):
-            break
-        lines.append(' '.join(line.split()))
+        line = unescape(re3.sub('', re2.sub('', re1.sub('', line)))).strip()
+        if any(x.isalpha() for x in line):
+            lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:

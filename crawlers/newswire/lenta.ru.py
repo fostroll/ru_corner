@@ -43,8 +43,8 @@ else:
         url = '{}{:04d}/{:02d}/{:02d}' \
                   .format(URL, day.year, day.month, day.day)
         res = utils.get_url(url)
-        res = res.text
-        res = re0.findall(unescape(res))
+        res = unescape(res.text)
+        res = re0.findall(res)
         assert res, 'ERROR: no articles on the page {}'.format(url)
         for link, header in res:
             links[ROOT_URL + link] = header
