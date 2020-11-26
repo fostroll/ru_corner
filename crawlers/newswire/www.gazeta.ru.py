@@ -61,7 +61,7 @@ else:
     with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
     print()
-exit()
+
 links_num = len(links)
 
 '''===========================================================================
@@ -74,6 +74,8 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
+re2 = re.compile(r'<div itemprop="articleBody" class="article-text-body">'
+                 r'((?:.|\n)+?)</div>')
 re0 = re.compile(r'<p>((?:.|\n)*?)</p>')
 re1 = re.compile(r'<.*?>')
 need_enter = False
@@ -97,10 +99,15 @@ for link_no, link in enumerate(links, start=1):
         with open(page_fn, 'rt', encoding='utf-8') as f:
             link = f.readline().rstrip()
             page = f.read()
-    res = re0.findall(page)
+    res = re2.search(page)
+    assert res, 'ERROR: no news text on page with link #{} ({})' \
+                    .format(link_no, link)
+    res = re0.findall(res.group(1))
     lines = []
     for line in res:
         line = unescape(re1.sub('', line)).strip()
+        if line.startswith('НОВОСТИ ПО ТЕМЕ:'):
+            break
         lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
