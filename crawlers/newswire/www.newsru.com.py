@@ -45,7 +45,7 @@ else:
         assert res, 'ERROR: no articles on the page {}'.format(url)
         for link, header in res:
             if link.startswith('/') and not link.startswith('/blog'):
-                links[ROOT_URL + link] = header.rstrip()
+                links[ROOT_URL + link] = unescape(header).strip()
         print('\r{}'.format(len(links)), end='')
         res = re1.search(page)
         assert res, 'ERROR: no prev link on the page {}'.format(url)

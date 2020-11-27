@@ -50,7 +50,8 @@ else:
             data_ = data_.get('html')
             data_ = re0.findall(unescape(data_))
             for link, header in data_:
-                links[ROOT_URL + link] = header.replace('\u2011', '-')
+                links[ROOT_URL + link] = \
+                    unescape(header).strip().replace('\u2011', '-')
         print('\r{}'.format(len(links)), end='')
         url = res.get('link', {}).get('url')
     links = list('\t'.join(x) for x in links.items())

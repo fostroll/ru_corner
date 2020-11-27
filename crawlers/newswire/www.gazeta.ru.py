@@ -47,7 +47,7 @@ else:
         data = re0.findall(res)
         assert data, 'ERROR: no articles on the page {}'.format(url)
         for link, header in data:
-            links[ROOT_URL + link] = header
+            links[ROOT_URL + link] = unescape(header).strip()
         print('\r{}'.format(len(links)), end='')
         match = re1.search(res)
         if not match:
