@@ -2,7 +2,6 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
-import datetime
 from html import unescape
 import os
 import random
@@ -43,7 +42,7 @@ else:
     re1 = re.compile(r'<div class="listing__button listing__button_js" '
                      r'data-href="([^">]+)"')
     url = URL
-    while url and len(links) < utils.TEXTS_FOR_SOURCE * 2:
+    while url and len(links) <= utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(url)
         page = unescape(res.text)
         res = re0.findall(page)
@@ -105,7 +104,8 @@ for link_no, link in enumerate(links, start=1):
     lines = []
     for line in res:
         line = unescape(re2.sub('', line)).strip()
-        lines.append(' '.join(line.split()))
+        if line:
+            lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:

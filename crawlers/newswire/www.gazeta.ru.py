@@ -41,7 +41,7 @@ else:
     re2 = re.compile('<a id="other_clickA" href="#([^">]+)">')
     now = datetime.datetime.now()
     url = URL[:URL.rfind('&')]
-    while len(links) < utils.TEXTS_FOR_SOURCE * 2:
+    while len(links) <= utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(url)
         res = unescape(res.text)
         data = re0.findall(res)
@@ -108,7 +108,8 @@ for link_no, link in enumerate(links, start=1):
         line = unescape(re1.sub('', line)).strip()
         if line.startswith('НОВОСТИ ПО ТЕМЕ:'):
             break
-        lines.append(' '.join(line.split()))
+        if line:
+            lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:

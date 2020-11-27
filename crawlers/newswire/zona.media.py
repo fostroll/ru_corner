@@ -41,15 +41,15 @@ else:
                     '&amp;page=0&amp;total=\d+)', page)
     assert res, 'ERROR: next link have not found on the main page'
     url = res.group(1)
-    while url and len(links) < utils.TEXTS_FOR_SOURCE * 2:
+    while url and len(links) <= utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(ROOT_URL + unescape(url))
         res = res.json()
         data = res.get('data')
         assert data, 'ERROR: no data on the link ' + url
-        for data_ in data:
-            data_ = data_.get('html')
-            data_ = re0.findall(unescape(data_))
-            for link, header in data_:
+        for datum in data:
+            datum = datum.get('html')
+            datum = re0.findall(unescape(datum))
+            for link, header in datum:
                 links[ROOT_URL + link] = \
                     unescape(header).strip().replace('\u2011', '-')
         print('\r{}'.format(len(links)), end='')
@@ -98,12 +98,13 @@ for link_no, link in enumerate(links, start=1):
             page = f.read()
     res = re0.findall(page)
     lines = []
-    for line in reversed(res):
+    for line in res:
         line = line.strip()
-        #line = unescape(line).lstrip()
-        if not line.startswith('<b>Исправлено'):
-            lines.insert(0, ' '.join(unescape(re1.sub('', line)).strip()
-                                                                .split()))
+        if line.startswith('<b>Исправлено'):
+            break
+        line = unescape(re1.sub('', line)).strip()
+        if line:
+            lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:

@@ -38,7 +38,7 @@ else:
                      r'<span>([^<]+)</span></a></h3></div>')
     day = datetime.date.today()
     day_ = 0
-    while len(links) < utils.TEXTS_FOR_SOURCE * 2:
+    while len(links) <= utils.TEXTS_FOR_SOURCE * 2:
         day -= datetime.timedelta(days=day_)
         url = '{}{:04d}/{:02d}/{:02d}' \
                   .format(URL, day.year, day.month, day.day)
@@ -96,7 +96,8 @@ for link_no, link in enumerate(links, start=1):
     lines = []
     for line in res:
         line = unescape(re1.sub('', line)).strip()
-        lines.append(' '.join(line.split()))
+        if line:
+            lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:
