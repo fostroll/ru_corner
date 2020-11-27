@@ -45,6 +45,8 @@ else:
     now = int(time.time()) + 1
     while len(links) <= utils.TEXTS_FOR_SOURCE * 2:
         url = URL_1.format(now)
+        print()
+        print(url)
         res = utils.get_url(url)
         res = res.json()
         items = res.get('items')
