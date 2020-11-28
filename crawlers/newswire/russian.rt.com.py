@@ -42,7 +42,7 @@ else:
     re1 = re.compile(r'<div class="listing__button listing__button_js" '
                      r'data-href="([^">]+)"')
     url = URL
-    while url and len(links) <= utils.TEXTS_FOR_SOURCE * 2:
+    while url and len(links) < utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(url)
         page = unescape(res.text)
         res = re0.findall(page)

@@ -41,7 +41,7 @@ else:
     re2 = re.compile('<a id="other_clickA" href="#([^">]+)">')
     now = datetime.datetime.now()
     url = URL[:URL.rfind('&')]
-    while len(links) <= utils.TEXTS_FOR_SOURCE * 2:
+    while len(links) < utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(url)
         res = unescape(res.text)
         data = re0.findall(res)

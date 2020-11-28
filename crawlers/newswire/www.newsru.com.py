@@ -37,7 +37,7 @@ else:
                      r'\s*([^<]+)\s*\n?\s*</a>')
     re1 = re.compile(r'<a class="arch-arrows-link-l" href="([^"]+)"')
     url = URL
-    while len(links) <= utils.TEXTS_FOR_SOURCE * 2:
+    while len(links) < utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(url)
         page = unescape(res.text)
         res = re0.findall(page)

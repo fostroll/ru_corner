@@ -43,7 +43,7 @@ else:
                      r'(?:<!--(?:.|\n)*-->)?([^<]+)(?:<!--(?:.|\n)*-->)?'
                      r'(?:\s|\n)*</span>)?(?:\s|\n)*([^<]+)</span>')
     now = int(time.time()) + 1
-    while len(links) <= utils.TEXTS_FOR_SOURCE * 2:
+    while len(links) < utils.TEXTS_FOR_SOURCE * 2:
         url = URL_1.format(now)
         res = utils.get_url(url)
         res = res.json()
@@ -75,8 +75,6 @@ else:
                 links[link] = unescape((author.strip() + ': ' if author else '')
                                      + title).strip()
         print('\r{}'.format(len(links)), end='')
-        if len(links) > utils.TEXTS_FOR_SOURCE * 2:
-            break
     links = list('\t'.join(x) for x in links.items())
 
     random.shuffle(links)

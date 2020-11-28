@@ -52,7 +52,7 @@ else:
                     .format(child_no, url)
             links['{}news/{}'.format(URL, id_)] = unescape(title).strip()
         print('\r{}'.format(len(links)), end='')
-        if len(links) > utils.TEXTS_FOR_SOURCE * 2:
+        if len(links) >= utils.TEXTS_FOR_SOURCE * 2:
             break
     links = list('\t'.join(x) for x in links.items())
 

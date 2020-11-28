@@ -41,7 +41,7 @@ else:
                     '&amp;page=0&amp;total=\d+)', page)
     assert res, 'ERROR: next link have not found on the main page'
     url = res.group(1)
-    while url and len(links) <= utils.TEXTS_FOR_SOURCE * 2:
+    while url and len(links) < utils.TEXTS_FOR_SOURCE * 2:
         res = utils.get_url(ROOT_URL + unescape(url))
         res = res.json()
         data = res.get('data')
