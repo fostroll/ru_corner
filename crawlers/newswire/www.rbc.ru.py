@@ -45,8 +45,6 @@ else:
     now = int(time.time()) + 1
     while len(links) <= utils.TEXTS_FOR_SOURCE * 2:
         url = URL_1.format(now)
-        print()
-        print(url)
         res = utils.get_url(url)
         res = res.json()
         items = res.get('items')
@@ -62,12 +60,20 @@ else:
             assert res0 and res1 and res2, \
                 'ERROR: invalid format of data of the record #{} of page {}' \
                     .format(item_no, url)
-            now = res0.group(1)
             link = res1.group(1)
-            author = res2.group(1)
-            title = res2.group(2).strip()
-            links[link] = unescape((author.strip() + ': ' if author else '')
-                                 + title).strip()
+            if any(link.startswith(x) for x in [
+                'https://www.rbc.ru/society/',
+                'https://www.rbc.ru/rbcfreenews/',
+                'https://www.rbc.ru/economics/',
+                'https://www.autonews.ru/news/',
+                'https://sportrbc.ru/news/',
+                'https://www.rbc.ru/politics/'
+            ]):
+                now = res0.group(1)
+                author = res2.group(1)
+                title = res2.group(2).strip()
+                links[link] = unescape((author.strip() + ': ' if author else '')
+                                     + title).strip()
         print('\r{}'.format(len(links)), end='')
         if len(links) > utils.TEXTS_FOR_SOURCE * 2:
             break
@@ -90,8 +96,6 @@ start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                  0
 texts_total = 0
 
-re2 = re.compile(r'<div itemprop="articleBody" class="article-text-body">'
-                 r'((?:.|\n)+?)</div>')
 re0 = re.compile(r'<p>((?:.|\n)*?)</p>')
 re1 = re.compile(r'<.*?>')
 need_enter = False
@@ -105,7 +109,7 @@ for link_no, link in enumerate(links, start=1):
     page = None
     if link_no > start_link_idx:
         res = utils.get_url(link)
-        page = res.text
+        page = res = res.text
     else:
         if not os.path.isfile(page_fn):
             continue
@@ -114,18 +118,23 @@ for link_no, link in enumerate(links, start=1):
             continue
         with open(page_fn, 'rt', encoding='utf-8') as f:
             link = f.readline().rstrip()
-            page = f.read()
-    res = re2.search(page)
-    assert res, 'ERROR: no news text on page with link #{} ({})' \
-                    .format(link_no, link)
-    res = re0.findall(res.group(1))
+            page = res = f.read()
+    pos = res.find('<div class="article__header__title">')
+    if pos > 0:
+        res = page[pos:]
+    pos = res.find('<div class="article__subheader">')
+    if pos > 0:
+        res = res[:pos]
+    if not res:
+        continue
+    res = re0.findall(res)
     lines = []
     for line in res:
-        line = unescape(re1.sub('', line)).strip()
-        if line.startswith('НОВОСТИ ПО ТЕМЕ:'):
-            break
-        if line:
-            lines.append(' '.join(line.split()))
+        if '<div' not in line:
+            for line_ in line.split('<br />'):
+                line_ = unescape(re1.sub('', line_)).strip()
+                if line_:
+                    lines.append(' '.join(line_.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:
         texts_total += 1
         if link_no > start_link_idx:

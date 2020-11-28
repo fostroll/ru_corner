@@ -96,7 +96,7 @@ for link_no, link in enumerate(links, start=1):
         with open(page_fn, 'rt', encoding='utf-8') as f:
             link = f.readline().rstrip()
             page = res = f.read()
-    pos = page.find('<p class="styled__Paragraph-')
+    pos = res.find('<p class="styled__Paragraph-')
     if pos > 0:
         res = page[pos:]
     pos = res.find('</div>')
