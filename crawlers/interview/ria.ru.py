@@ -28,7 +28,7 @@ if SEED:
 links = []
 
 '''===========================================================================
-Downloading of the list of links
+Links download
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
     with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
@@ -74,12 +74,12 @@ else:
         f.write('\n'.join(links))
     print()
 
-links_num = len(links)
+num_links = len(links)
 
 '''===========================================================================
-Downloading and parse texts
+Texts download and parse
 ==========================================================================='''
-pages_fns = utils.get_file_list(utils.PAGES_DIR, links_num)
+pages_fns = utils.get_file_list(utils.PAGES_DIR, num_links)
 start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                             .replace(utils.DATA_EXT, '')) \
                      if len(pages_fns) > 0 else \
@@ -96,8 +96,8 @@ for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://rsport.ria.ru/20160311/902957688.html'
-    page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
-    text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
+    page_fn = utils.get_data_path(utils.PAGES_DIR, num_links, link_no)
+    text_fn = utils.get_data_path(utils.TEXTS_DIR, num_links, link_no)
     page = None
     if link_no > start_link_idx:
         res = utils.get_url(link)
@@ -176,7 +176,7 @@ for link_no, link in enumerate(links, start=1):
             print(link, file=f)
             f.write('\n'.join(lines))
         print('\r{} (of {})'.format(texts_total,
-                                    min(utils.TEXTS_FOR_SOURCE, links_num)),
+                                    min(utils.TEXTS_FOR_SOURCE, num_links)),
               end='')
         need_enter = True
     #exit()
@@ -186,9 +186,9 @@ if need_enter:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-_utils.make_chunks(links_num)#, moderator=SPEAKER_A)
+_utils.make_chunks(num_links)#, moderator=SPEAKER_A)
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(links_num)
+utils.tokenize(num_links)

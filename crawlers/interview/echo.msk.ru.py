@@ -28,7 +28,7 @@ if SEED:
 links = []
 
 '''===========================================================================
-Downloading of the list of links
+Links download
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
     with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
@@ -61,10 +61,10 @@ else:
     with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
 
-links_num = len(links)
+num_links = len(links)
 
 '''===========================================================================
-Downloading and parse texts
+Texts download and parse
 ==========================================================================='''
 def extend_key(key, token):
     if key and key[-1].isalpha() and token[0].isalpha():
@@ -173,7 +173,7 @@ def normalize_text(lines):
             lines_.append('{}\t{}'.format(key, line))
     return lines_ if key_lines >= _utils.MIN_TEXT_LINES else None
 
-pages_fns = utils.get_file_list(utils.PAGES_DIR, links_num)
+pages_fns = utils.get_file_list(utils.PAGES_DIR, num_links)
 start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
                          .replace(utils.DATA_EXT, '')) \
                      if len(pages_fns) > 0 else \
@@ -188,8 +188,8 @@ re3a = re.compile(r'\W')
 re4 = re.compile(r'<.*?>|\(.*?\)')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
-    page_fn = utils.get_data_path(utils.PAGES_DIR, links_num, link_no)
-    text_fn = utils.get_data_path(utils.TEXTS_DIR, links_num, link_no)
+    page_fn = utils.get_data_path(utils.PAGES_DIR, num_links, link_no)
+    text_fn = utils.get_data_path(utils.TEXTS_DIR, num_links, link_no)
     page = None
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
@@ -223,7 +223,7 @@ for link_no, link in enumerate(links, start=1):
             for link in res:
                 links_.append(ROOT_URL + link)
             if len(links_) > 1:
-                slice_ = (links_num + link_no) % len(links_)
+                slice_ = (num_links + link_no) % len(links_)
                 links_ = links_[slice_:] + links_[:slice_]
         for link in links_:
             #link = 'https://echo.msk.ru/programs/razbor_poleta/2249838-echo/'
@@ -277,7 +277,7 @@ for link_no, link in enumerate(links, start=1):
                         print('\r{} (of {})'
                                   .format(texts_total,
                                           min(utils.TEXTS_FOR_SOURCE,
-                                              links_num)),
+                                              num_links)),
                               end='')
                         need_enter = True
                         break
@@ -288,9 +288,9 @@ if need_enter:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-_utils.make_chunks(links_num)
+_utils.make_chunks(num_links)
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(links_num)
+utils.tokenize(num_links)

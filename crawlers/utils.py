@@ -84,11 +84,11 @@ def get_file_list(data_dir, max_files):
 def fn_to_id(fn):
     return os.path.split(fn)[-1].replace(DATA_EXT, '')
 
-def get_url(url, encoding=None):
+def get_url(url, cookies=None, encoding=None):
     errors = 0
     while True:
         try:
-            res = requests.get(url, allow_redirects=True,
+            res = requests.get(url, cookies=cookies, allow_redirects=True,
                                timeout=GET_URL_TIMEOUT, verify=False)
             if encoding:
                 res.encoding = encoding
