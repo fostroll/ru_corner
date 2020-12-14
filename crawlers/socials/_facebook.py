@@ -5,8 +5,9 @@ import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException, \
-                                       TimeoutException
+from selenium.common.exceptions \
+    import ElementClickInterceptedException, NoSuchElementException, \
+           TimeoutException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -82,6 +83,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                   driver=None, cookies=None, silent=False):
     re0 = re.compile(r'\W|\d')
     re1 = re.compile(r'[^ЁА-Яёа-я]')
+    re2 = re.compile(r'\s+')
     if not silent:
         print('START', page_url)
     if driver:
@@ -90,7 +92,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
     else:
         driver = init(cookies)
         driver.get(page_url)
-    text = None
+    page, text = None, None
 
     class PageEndException(Exception):
         pass
@@ -168,6 +170,13 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                 #oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso
                 #i1ao9s8h esuyzwwr f1sip0of lzcic4wl oo9gr5id gpro0wi8
                 #lrazzd5p
+                try:
+                    post = post.find_element_by_css_selector(
+                        'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
+                    )
+                    post = post.find_element_by_xpath('..')
+                except NoSuchElementException:
+                    continue
                 elems = \
                     post.find_elements_by_css_selector('div[role="button"]')
                 for elem in elems:
@@ -178,7 +187,14 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                                                  .ActionChains(driver)
                         action.move_to_element_with_offset(elem, 5, 5)
                         action.perform()
-                        elem.click()
+                        while True:
+                            try:
+                                elem.click()
+                                break
+                            except ElementClickInterceptedException:
+                                driver.execute_script(
+                                    'window.scrollBy(0, 100);'
+                                )
                         while True:
                             try:
                                 WebDriverWait(driver, 10) \
@@ -187,20 +203,26 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                             except TimeoutException:
                                 print('WARNING: Timeout while post '
                                       'expanding. Retrying...')
-                #elems = post.find_elements_by_css_selector(
-                #    'div[class="kvgmc6g5 cxmmr5t8 oygrvhab '
-                #               'hcukyx3x c1et5uql ii04i59q"]'
-                #)
+                page = post.get_attribute('innerHTML')
                 elems = post.find_elements_by_css_selector(
                     'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
                 )
                 #text = ''.join(x.text for x in elems if x.text).strip()
                 text = ''
                 for elem in elems:
-                    if elem.tag_name == 'div':
-                        text += '\n' + elem.text.strip() + '\n'
-                    else:
-                        text += elem.text
+                    #print('[' + elem.text + ']')
+                    elem = elem.find_elements_by_xpath('.//div')
+                    for elem_ in elem:
+                        text_ = re2.sub(' ', elem_.text.replace('\n', '')) \
+                                   .strip()
+                        #print('{' + text_ + '}')
+                        if text_:
+                            text += text_ + '\n'
+                    #if elem.tag_name == 'div':
+                    #    text += '\n' + elem.text.replace('\n', '').strip() \
+                    #          + '\n'
+                    #else:
+                    #    text += elem.text
                 text = text.replace('\n\n', '\n').strip()
                 text0 = re0.sub('', text)
                 text1 = re1.sub('', text0)
@@ -215,7 +237,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                         break
                 elif not silent:
                     print('<foreign>')
-                text = None
+                page, text = None, None
 
     except PageEndException:
         pass
@@ -225,7 +247,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
         driver.switch_to.window(driver.window_handles[-1])
     else:
         driver.quit()
-    return text
+    return text, page
 
 def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                         authors_ignore=None, driver=None, cookies=None,

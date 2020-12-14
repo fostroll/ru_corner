@@ -1,6 +1,7 @@
 #!/usr/bin/python -u
 #-*- encoding: utf-8 -*-
 
+from bs4 import BeautifulSoup as bs
 from collections import OrderedDict
 import os
 import random
@@ -60,7 +61,7 @@ Search for page links
 ==========================================================================='''
 start_link_idx, page_links = _utils.load_page_links()
 need_enter = False
-if start_link_idx is not None:# and len(page_links) < utils.TEXTS_FOR_SOURCE:
+if start_link_idx is not None:
     page_links = OrderedDict(page_links)
     links = links[start_link_idx:]
     if links:
@@ -96,6 +97,63 @@ if need_enter:
     print()
 
 num_page_links = len(page_links)
+
+'''===========================================================================
+Posts download
+==========================================================================='''
+page_fns = utils.get_file_list(utils.PAGES_DIR, num_page_links)
+start_link_idx = int(os.path.split(sorted(page_fns)[-1])[-1]
+                         .replace(utils.DATA_EXT, '')) \
+                     if len(page_fns) > 0 else \
+                 0
+texts_total = 0
+
+if texts_total < utils.TEXTS_FOR_SOURCE:
+    need_enter = False
+    driver = _facebook.init(silent=False)
+    for link_no, (link, _) in enumerate(page_links, start=1):
+        if texts_total >= utils.TEXTS_FOR_SOURCE:
+            break
+        #link = 'https://www.facebook.com/profile.php?id=100003259844721'
+        page_fn = utils.get_data_path(utils.PAGES_DIR, num_links, link_no)
+        text_fn = utils.get_data_path(utils.TEXTS_DIR, num_links, link_no)
+        page = None
+        if link_no > start_link_idx:
+            text, page = _facebook.get_post_text(
+                link,
+                min_words=_utils.MIN_CHUNK_WORDS,
+                max_words=_utils.MAX_CHUNK_WORDS,
+                post_limit=_utils.POST_LIMIT,
+                driver=driver,
+                silent=True
+            )
+        else:
+            if not os.path.isfile(page_fn):
+                continue
+            if os.path.isfile(text_fn):
+                texts_total += 1
+                continue
+            #with open(page_fn, 'rt', encoding='utf-8') as f:
+            #    link = f.readline().rstrip()
+            #    page = f.read()
+        if text:
+            texts_total += 1
+            with open(page_fn, 'wt', encoding='utf-8') as f:
+                print(link, file=f)
+                f.write(page)
+            with open(text_fn, 'wt', encoding='utf-8') as f:
+                print(link, file=f)
+                f.write(text)
+            print('\r{} (of {})'.format(texts_total,
+                                        min(utils.TEXTS_FOR_SOURCE,
+                                            num_page_links)),
+                  end='')
+            need_enter = True
+        #exit()
+    driver.quit()
+    if need_enter:
+        print()
+exit()
 
 '''===========================================================================
 Texts download and parse
@@ -140,6 +198,7 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
     if need_enter:
         print()
 exit()
+
 '''===========================================================================
 Chunks creation
 ==========================================================================='''

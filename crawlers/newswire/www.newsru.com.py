@@ -61,10 +61,10 @@ num_links = len(links)
 '''===========================================================================
 Texts download and parse
 ==========================================================================='''
-pages_fns = utils.get_file_list(utils.PAGES_DIR, num_links)
-start_link_idx = int(os.path.split(sorted(pages_fns)[-1])[-1]
+page_fns = utils.get_file_list(utils.PAGES_DIR, num_links)
+start_link_idx = int(os.path.split(sorted(page_fns)[-1])[-1]
                          .replace(utils.DATA_EXT, '')) \
-                     if len(pages_fns) > 0 else \
+                     if len(page_fns) > 0 else \
                  0
 texts_total = 0
 
