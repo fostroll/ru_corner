@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions \
     import ElementClickInterceptedException, NoSuchElementException, \
-           TimeoutException
+           StaleElementReferenceException, TimeoutException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -180,31 +180,34 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                 elems = \
                     post.find_elements_by_css_selector('div[role="button"]')
                 for elem in elems:
-                    if elem.text == "See more":
-                        if not silent:
-                            print('See more')
-                        action = webdriver.common.action_chains \
-                                                 .ActionChains(driver)
-                        action.move_to_element_with_offset(elem, 5, 5)
-                        action.perform()
-                        for try_ in range(3):
-                            try:
-                                elem.click()
-                                break
-                            except ElementClickInterceptedException:
-                                driver.execute_script(
-                                    'window.scrollBy(0, 100);'
-                                )
-                        else:
-                            post = None
-                        while True:
-                            try:
-                                WebDriverWait(driver, 10) \
-                                    .until(EC.staleness_of(elem))
-                                break
-                            except TimeoutException:
-                                print('WARNING: Timeout while post '
-                                      'expanding. Retrying...')
+                    try:
+                        if elem.text == "See more":
+                            if not silent:
+                                print('See more')
+                            action = webdriver.common.action_chains \
+                                                     .ActionChains(driver)
+                            action.move_to_element_with_offset(elem, 5, 5)
+                            action.perform()
+                            for try_ in range(3):
+                                try:
+                                    elem.click()
+                                    break
+                                except ElementClickInterceptedException:
+                                    driver.execute_script(
+                                        'window.scrollBy(0, 100);'
+                                    )
+                            else:
+                                post = None
+                            while True:
+                                try:
+                                    WebDriverWait(driver, 10) \
+                                        .until(EC.staleness_of(elem))
+                                    break
+                                except TimeoutException:
+                                    print('WARNING: Timeout while post '
+                                          'expanding. Retrying...')
+                    except StaleElementReferenceException:
+                        pass
                 if not post:
                     break
                 page = post.get_attribute('innerHTML')
