@@ -182,12 +182,12 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                 for elem in elems:
                     if elem.text == "See more":
                         if not silent:
-                            print('more')
+                            print('See more')
                         action = webdriver.common.action_chains \
                                                  .ActionChains(driver)
                         action.move_to_element_with_offset(elem, 5, 5)
                         action.perform()
-                        while True:
+                        for try_ in range(3):
                             try:
                                 elem.click()
                                 break
@@ -195,6 +195,8 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                                 driver.execute_script(
                                     'window.scrollBy(0, 100);'
                                 )
+                        else:
+                            post = None
                         while True:
                             try:
                                 WebDriverWait(driver, 10) \
@@ -203,6 +205,8 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                             except TimeoutException:
                                 print('WARNING: Timeout while post '
                                       'expanding. Retrying...')
+                if not post:
+                    break
                 page = post.get_attribute('innerHTML')
                 elems = post.find_elements_by_css_selector(
                     'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
