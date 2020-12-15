@@ -184,11 +184,11 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                         if elem.text == "See more":
                             if not silent:
                                 print('See more')
-                            action = webdriver.common.action_chains \
-                                                     .ActionChains(driver)
-                            action.move_to_element_with_offset(elem, 5, 5)
-                            action.perform()
                             for try_ in range(3):
+                                action = webdriver.common.action_chains \
+                                                         .ActionChains(driver)
+                                action.move_to_element_with_offset(elem, 5, 5)
+                                action.perform()
                                 try:
                                     elem.click()
                                     break
@@ -198,6 +198,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                                     )
                             else:
                                 post = None
+                                break
                             while True:
                                 try:
                                     WebDriverWait(driver, 10) \
