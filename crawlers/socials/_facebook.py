@@ -187,7 +187,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                             for try_ in range(3):
                                 action = webdriver.common.action_chains \
                                                          .ActionChains(driver)
-                                action.move_to_element_with_offset(elem, 5, 5)
+                                action.move_to_element_with_offset(elem, 3, 3)
                                 action.perform()
                                 try:
                                     elem.click()
