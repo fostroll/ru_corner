@@ -134,9 +134,9 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
             if os.path.isfile(text_fn):
                 texts_total += 1
                 continue
-            #with open(page_fn, 'rt', encoding='utf-8') as f:
-            #    link = f.readline().rstrip()
-            #    page = f.read()
+            with open(page_fn, 'rt', encoding='utf-8') as f:
+                link = f.readline().rstrip()
+                page = f.read()
         if text:
             texts_total += 1
             with open(page_fn, 'wt', encoding='utf-8') as f:
