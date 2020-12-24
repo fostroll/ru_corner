@@ -12,9 +12,9 @@ import sys
 import time
 from toxine.text_preprocessor import TextPreprocessor
 
+from _utils_add import _path, _sub_idx, DATA_DIR_NAME
 
-PRJNAME = 'ru_corner'
-DATA_DIR_NAME = '_data'
+
 CURR_PATH = os.path.abspath(sys.argv[0])
 CURR_DIR = os.path.dirname(CURR_PATH)
 DATA_EXT = '.txt'
@@ -22,29 +22,6 @@ GET_URL_TIMEOUT = 10  # seconds
 GET_URL_RETRY_TIMEOUT = 20  # seconds
 GET_URL_RETRY_CONNERROR = 60  # seconds
 
-def splitall(path):
-    allparts = []
-    while 1:
-        parts = os.path.split(path)
-        if parts[0] == path:  # sentinel for absolute paths
-            allparts.insert(0, parts[0])
-            break
-        elif parts[1] == path: # sentinel for relative paths
-            allparts.insert(0, parts[1])
-            break
-        else:
-            path = parts[0]
-            allparts.insert(0, parts[1])
-    return allparts
-
-_path = splitall(CURR_PATH)
-_sub_idx = None
-for idx, dir_ in reversed(list(enumerate(_path))):
-    if dir_.lower() == PRJNAME.lower():
-        _sub_idx = idx + 1
-        break
-else:
-    raise ValueError('ERROR: invalid path')
 #TEMP_DIR = os.path.join(*_path[:_sub_idx], DATA_DIR_NAME, '_tmp')
 #if not os.path.isdir(TEMP_DIR):
 #    os.makedirs(TEMP_DIR)
@@ -61,7 +38,7 @@ CONLL_DIR = setdir_('conll')
 LINKS_FN = os.path.join(PAGES_DIR, 'links')
 TEXTS_FOR_DOMAIN = 10000
 _cnt = len([x for x in glob.glob(os.path.join(CURR_DIR, '*.py'))
-                if not os.path.basename(x).startswith('_')])
+              if not os.path.basename(x).startswith('_')])
 TEXTS_FOR_SOURCE = TEXTS_FOR_DOMAIN // _cnt \
                  + (TEXTS_FOR_DOMAIN % _cnt != 0)
 CHUNKS_FOR_DOMAIN = TEXTS_FOR_DOMAIN
