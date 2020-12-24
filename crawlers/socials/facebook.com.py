@@ -1,7 +1,6 @@
 #!/usr/bin/python -u
 #-*- encoding: utf-8 -*-
 
-from bs4 import BeautifulSoup as bs
 from collections import OrderedDict
 import os
 import random
@@ -55,6 +54,7 @@ else:
         f.write('\n'.join(links))
 
 num_links = len(links)
+NUM_AUTHORS = utils.TEXTS_FOR_DOMAIN // num_links
 
 '''===========================================================================
 Search for page links

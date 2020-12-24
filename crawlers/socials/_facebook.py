@@ -13,39 +13,21 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 import time
 
+import _utils
+
 
 LOGIN_URL = 'https://facebook.com'
 ROOT_URL = 'https://www.facebook.com'
 CREDENTIALS_FN = '_facebook.credentials.txt'
 CREDENTIALS = ['email', 'password']
 
-def parse_credentials(creds_fn):
-    def parse(token):
-        token = token.strip()
-        if token[0] in '\'"' and token[-1] in '\'"':
-            token = token[1:-1].strip()
-        assert token, 'ERROR: line "{}" in credentials file is ' \
-                      'not a valid credential'.format(line)
-        return token
-
-    with open(creds_fn) as f:
-        for line in f:
-            line = line.strip()
-            if not line.startswith('#'):
-                creds = line.split('=', maxsplit=1)
-                assert len(creds) == 2, \
-                    'ERROR: line "{}" in credentials file is ' \
-                    'not a valid credential'.format(line)
-                yield parse(creds[0]).lower(), parse(creds[1])
-
-creds = dict(parse_credentials(CREDENTIALS_FN))
+creds = dict(_utils.parse_credentials(CREDENTIALS_FN))
 assert len(creds) == 2, 'ERROR: invalid credentials file ' + CREDENTIALS_FN
 LOGIN, PASSWORD = [creds.get(x) for x in CREDENTIALS]
 del creds
 
 def login(driver, login, password, cookies=None):
     driver.get(LOGIN_URL)
-    driver.maximize_window()
     if cookies:
         for cookie in cookies:
             driver.add_cookie(cookie)
@@ -63,23 +45,11 @@ def login(driver, login, password, cookies=None):
                 print('WARNING: Login timeout. Retrying...')
 
 def init(cookies=None, silent=False):
-    options = Options()
-    options.add_argument('--disable-infobars')
-    options.add_argument('start-maximized')
-    options.add_argument('--disable-extensions')
-    options.add_experimental_option("prefs", {
-        "profile.default_content_setting_values.notifications": 1,
-        # disable images
-        "profile.default_content_settings": {"images": 2},
-        "profile.managed_default_content_settings": {"images": 2}
-        ###
-    })
-    options.headless = silent
-    driver = webdriver.Chrome(executable_path='chromedriver', options=options)
+    driver = _utils.selenium_init(silent)
     login(driver, LOGIN, PASSWORD, cookies)
     return driver
 
-def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
+def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                   driver=None, cookies=None, silent=False):
     re0 = re.compile(r'\W|\d')
     re1 = re.compile(r'[^ЁА-Яёа-я]')
@@ -106,37 +76,12 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                 if not silent:
                     print('post #{}...'.format(post_no))
                 post = None
-                '''
-                try:
-                    post = driver.find_element_by_css_selector(
-                        'div[aria-posinset="{}"]'.format(post_no)
-                    )
-                    break
-                except NoSuchElementException:
-                    if not silent:
-                        print('post #{} is not found'.format(post_no))
-                    page_len = driver.execute_script(
-                        'window.scrollTo(0, document.body.scrollHeight);'
-                        'var lenOfPage=document.body.scrollHeight;'
-                        'return lenOfPage;'
-                    )
-                    time.sleep(5)  # TODO: replace to some load detection
-                                   #       method
-                    if page_len == prev_page_len:
-                        raise PageEndException()
-                    prev_page_len = page_len
-                '''
                 posts = driver.find_elements_by_css_selector(
                     'div[aria-labelledby]'
                 )
                 if not silent:
                     print(len(posts))
                 for post_ in posts:
-                    #print(post_.get_attribute('aria-describedby'))
-                    #print(post_.get_attribute('aria-labelledby'))
-                    #attrs = driver.execute_script('var items = {}; for (index = 0; index < arguments[0].attributes.length; ++index) { items[arguments[0].attributes[index].name] = arguments[0].attributes[index].value }; return items;', post_)
-                    #print(attrs)
-                    #exit()
                     label = post_.get_attribute('aria-labelledby')
                     #print(label, labels)
                     if label not in labels:
@@ -147,13 +92,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                 else:
                     if not silent:
                         print('post #{} is not found'.format(post_no))
-                    page_len = driver.execute_script(
-                        'window.scrollTo(0, document.body.scrollHeight);'
-                        'var lenOfPage=document.body.scrollHeight;'
-                        'return lenOfPage;'
-                    )
-                    time.sleep(5)  # TODO: replace to some load detection
-                                   #       method
+                    page_len = _utils.selenium_scroll_to_bottom(driver)
                     if page_len == prev_page_len:
                         if tries >= 2:
                             raise PageEndException()
@@ -165,11 +104,6 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                     break
 
             if post:
-                #oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz
-                #rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8
-                #oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso
-                #i1ao9s8h esuyzwwr f1sip0of lzcic4wl oo9gr5id gpro0wi8
-                #lrazzd5p
                 try:
                     post = post.find_element_by_css_selector(
                         'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
@@ -193,9 +127,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                                     elem.click()
                                     break
                                 except ElementClickInterceptedException:
-                                    driver.execute_script(
-                                        'window.scrollBy(0, 100);'
-                                    )
+                                    _utils.selenium_scroll_by(driver, 0, 100)
                             else:
                                 post = None
                                 break
@@ -226,11 +158,6 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                         #print('{' + text_ + '}')
                         if text_:
                             text += text_ + '\n'
-                    #if elem.tag_name == 'div':
-                    #    text += '\n' + elem.text.replace('\n', '').strip() \
-                    #          + '\n'
-                    #else:
-                    #    text += elem.text
                 text = text.replace('\n\n', '\n').strip()
                 text0 = re0.sub('', text)
                 text1 = re1.sub('', text0)
@@ -263,8 +190,7 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
     if not silent:
         print('START', page_url)
     if driver:
-        driver.execute_script('window.open("{}");'.format(page_url))
-        driver.switch_to.window(driver.window_handles[-1])
+        _utils.selenium_open_new_window(driver, page_url)
     else:
         driver = init(cookies)
         driver.get(page_url)
@@ -287,37 +213,12 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                 if not silent:
                     print('post #{}...'.format(post_no))
                 post = None
-                '''
-                try:
-                    post = driver.find_element_by_css_selector(
-                        'div[aria-posinset="{}"]'.format(post_no)
-                    )
-                    break
-                except NoSuchElementException:
-                    if not silent:
-                        print('post #{} is not found'.format(post_no))
-                    page_len = driver.execute_script(
-                        'window.scrollTo(0, document.body.scrollHeight);'
-                        'var lenOfPage=document.body.scrollHeight;'
-                        'return lenOfPage;'
-                    )
-                    time.sleep(5)  # TODO: replace to some load detection
-                                   #       method
-                    if page_len == prev_page_len:
-                        raise PageEndException()
-                    prev_page_len = page_len
-                '''
                 posts = driver.find_elements_by_css_selector(
                     'div[aria-labelledby]'
                 )
                 if not silent:
                     print(len(posts))
                 for post_ in posts:
-                    #print(post_.get_attribute('aria-describedby'))
-                    #print(post_.get_attribute('aria-labelledby'))
-                    #attrs = driver.execute_script('var items = {}; for (index = 0; index < arguments[0].attributes.length; ++index) { items[arguments[0].attributes[index].name] = arguments[0].attributes[index].value }; return items;', post_)
-                    #print(attrs)
-                    #exit()
                     label = post_.get_attribute('aria-labelledby')
                     #print(label, labels)
                     if label not in labels:
@@ -328,13 +229,7 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                 else:
                     if not silent:
                         print('post #{} is not found'.format(post_no))
-                    page_len = driver.execute_script(
-                        'window.scrollTo(0, document.body.scrollHeight);'
-                        'var lenOfPage=document.body.scrollHeight;'
-                        'return lenOfPage;'
-                    )
-                    time.sleep(5)  # TODO: replace to some load detection
-                                   #       method
+                    page_len = _utils.selenium_scroll_to_bottom(driver)
                     if page_len == prev_page_len:
                         if tries >= 2:
                             raise PageEndException()
@@ -439,11 +334,7 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
     except (PageEndException, AuthorsEnoughException):
         pass
 
-    if len(driver.window_handles) > 1:
-        driver.close()
-        driver.switch_to.window(driver.window_handles[-1])
-    else:
-        driver.quit()
+    _utils.selenium_close_window(driver)
     if not silent:
         print(authors)
         print(len(authors))
