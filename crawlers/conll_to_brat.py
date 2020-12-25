@@ -34,4 +34,11 @@ for fn in glob.glob(CONLL_DIR + '/*/*/*.txt', recursive=True):
             for tok_no, tok in enumerate(sent[0]):
                 if tok_no:
                     print('   ', end='', file=out_f)
-                print(tok['FORM'], end='', file=out_f)
+                form, misc = tok['FORM'], tok['MISC']
+                has_entity = False
+                for feat, value in misc.items():
+                    if feat.startswith('Entity'):
+                        assert not has_entity
+                        form = value
+                        has_entity = True
+                print(form, end='', file=out_f)

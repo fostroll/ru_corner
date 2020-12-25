@@ -4,6 +4,7 @@ from collections import OrderedDict
 from corpuscula import Conllu
 import glob
 import os
+import re
 import requests
 requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning
@@ -89,8 +90,14 @@ def get_url(url, headers=None, cookies=None, encoding=None):
     return res
 
 def norm_text(text):
-    text = text.replace('Й', 'Й').replace('й', 'й') \
-               .replace('Ё', 'Ё').replace('ё', 'ё')
+    text = text.replace('*', ' ') \
+               .replace('Й', 'Й').replace('й', 'й') \
+               .replace('Ё', 'Ё').replace('ё', 'ё') \
+               .replace('<..>', ' ').replace('<...>', ' ') \
+               .replace('❝', '«').replace('❞', '»')
+    text = re.sub('([А-Яа-я])ó', r'\g<1>о', text)
+    text = re.sub('ó([а-я])', r'о\g<1>', text)
+
     if '‛' in text or '‘' in text:
         text = text.replace('‛', '«').replace('‘', '«').replace('’', '»')
     return text
@@ -129,8 +136,7 @@ def tokenize(num_links, isdialog=True):
             doc_id = fn_to_id(conll_fn)
             tp.new_doc(doc_id=doc_id, metadata=[])
             tp.new_pars(pars, doc_id=doc_id)
-            tp.do_all(tag_email=False, tag_phone=False, tag_date=False,
-                      silent=True)
+            tp.do_all(tag_phone=False, tag_date=False, silent=True)
             conll = list(tp.save(doc_id=doc_id))
             tp.remove_doc(doc_id)
 
