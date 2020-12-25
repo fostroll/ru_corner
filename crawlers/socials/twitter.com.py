@@ -154,7 +154,7 @@ if start_link_idx is not None:
     _utils.save_page_links(None, page_links)
 if need_enter:
     print()
-exit()
+
 num_page_links = len(page_links)
 
 '''===========================================================================
@@ -173,10 +173,12 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
     for link_no, (link, _) in enumerate(page_links, start=1):
         if texts_total >= utils.TEXTS_FOR_SOURCE:
             break
-        #link = 'http://twitter.com/lentaruofficial'
-        page_fn = utils.get_data_path(utils.PAGES_DIR, num_links, link_no)
-        text_fn = utils.get_data_path(utils.TEXTS_DIR, num_links, link_no)
-        page = None
+        #link = 'https://twitter.com/VasinEvgeny'
+        page_fn = utils.get_data_path(utils.PAGES_DIR,
+                                      num_page_links, link_no)
+        text_fn = utils.get_data_path(utils.TEXTS_DIR,
+                                      num_page_links, link_no)
+        text, page = None, None
         if link_no > start_link_idx:
             if not driver:
                 driver = _twitter.init(silent=False)

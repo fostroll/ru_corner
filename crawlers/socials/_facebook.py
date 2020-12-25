@@ -49,11 +49,11 @@ def init(cookies=None, silent=False):
     login(driver, LOGIN, PASSWORD, cookies)
     return driver
 
+re0 = re.compile(r'\W|\d')
+re1 = re.compile(r'[^ЁА-Яёа-я]')
+re2 = re.compile(r'\s+')
 def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                   driver=None, cookies=None, silent=False):
-    re0 = re.compile(r'\W|\d')
-    re1 = re.compile(r'[^ЁА-Яёа-я]')
-    re2 = re.compile(r'\s+')
     if not silent:
         print('START', page_url)
     if driver:

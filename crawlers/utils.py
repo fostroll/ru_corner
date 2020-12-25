@@ -88,6 +88,13 @@ def get_url(url, headers=None, cookies=None, encoding=None):
         errors += 1
     return res
 
+def norm_text(text):
+    text = text.replace('Й', 'Й').replace('й', 'й') \
+               .replace('Ё', 'Ё').replace('ё', 'ё')
+    if '‛' in text or '‘' in text:
+        text = text.replace('‛', '«').replace('‘', '«').replace('’', '»')
+    return text
+
 def tokenize(num_links, isdialog=True):
     tp = TextPreprocessor()
     chunk_fns = get_file_list(CHUNKS_DIR, num_links)
@@ -99,7 +106,7 @@ def tokenize(num_links, isdialog=True):
         assert conll_fn != chunk_fn, 'ERROR: invalid path to chunk file'
         if not os.path.isfile(conll_fn):
             with open(chunk_fn, 'rt', encoding='utf-8') as f_in:
-                pars = f_in.read().split('\n')
+                pars = norm_text(f_in.read()).split('\n')
 
             if isdialog:
                 text = [x.split('\t') for x in pars if x]
@@ -122,7 +129,8 @@ def tokenize(num_links, isdialog=True):
             doc_id = fn_to_id(conll_fn)
             tp.new_doc(doc_id=doc_id, metadata=[])
             tp.new_pars(pars, doc_id=doc_id)
-            tp.do_all(silent=True)
+            tp.do_all(tag_email=False, tag_phone=False, tag_date=False,
+                      silent=True)
             conll = list(tp.save(doc_id=doc_id))
             tp.remove_doc(doc_id)
 

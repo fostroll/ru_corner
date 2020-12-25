@@ -53,50 +53,94 @@ def init(cookies=None, silent=False):
     #login(driver, LOGIN, PASSWORD, cookies)
     return driver
 
+re0 = re.compile(r'\W|\d')
+re1 = re.compile(r'[^ЁА-Яёа-я]')
 def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                   driver=None, cookies=None, silent=False):
-    re0 = re.compile(r'\W|\d')
-    re1 = re.compile(r'[^ЁА-Яёа-я]')
-    re2 = re.compile(r'\s+')
+    need_quit = False
     if not silent:
         print('START', page_url)
-    if driver:
-        _utils.selenium_open_new_window(driver, page_url)
-    else:
+    if not driver:
         driver = init(cookies)
-        driver.get(page_url)
+        need_quit = True
+    driver.get(page_url)
     time.sleep(LOAD_TIMEOUT)
     page, text = None, None
 
     class PageEndException(Exception):
         pass
 
+    class PostLimitException(Exception):
+        pass
+
+    class PostFoundException(Exception):
+        pass
+
     try:
         labels = set()
-        post, prev_page_len = None, -1
-        for post_no in range(1, post_limit + 1):
-            tries = 0
-            while True:
-                if not silent:
-                    print('post #{}...'.format(post_no))
-                post = None
+        posts, prev_page_len = None, -1
+        tries, prev_num_labels = 0, 0
+        while True:
+            try:
                 posts = driver.find_elements_by_css_selector(
-                    'div[aria-labelledby]'
+                    #'article[role="article"]'
+                    'div[data-testid="tweet"]'
                 )
                 if not silent:
                     print(len(posts))
-                for post_ in posts:
-                    label = post_.get_attribute('aria-labelledby')
-                    #print(label, labels)
+                post_no, post = 0, None
+                for post_no, post in enumerate(posts):
+                    try:
+                        post = post.find_element_by_xpath(
+                            './div/div/div/div[@class="css-901oao r-18jsvk2 r-1qd0xha r-a023e6 r-16dba41 r-ad9z0x r-bcqeeo r-bnwqim r-qvutc0"]'
+                        )
+                    except NoSuchElementException:
+                        continue
+                    label = post.text
                     if label not in labels:
+                        if not silent:
+                            print('post #{} has found'.format(len(labels)))
+                        elems = post.find_elements_by_xpath('./*')
+                        #text = ' '.join(x.text for x in elems if x.text).strip()
+                        text = ''
+                        for elem in elems:
+                            if elem.tag_name != 'span':
+                                text = ''
+                                break
+                            text += elem.text + ' '
+                        text0 = re0.sub('', text)
+                        text1 = re1.sub('', text0)
+                        if not silent:
+                            print(text)
+                        if text0 and len(text1) / len(text0) >= .9:
+                            num_words = len(text.split())
+                            if not silent:
+                                print('<russian>')
+                                print(num_words)
+                            if num_words >= min_words \
+                           and num_words <= max_words:
+                                page = post.get_attribute('innerHTML')
+                                raise PostFoundException()
+                        elif not silent:
+                            print('<foreign>')
                         labels.add(label)
-                        post = post_
-                        tries = 0
-                        break
+                        if len(labels) >= post_limit:
+                            text = None
+                            raise PostLimitException()
+                        text, tries = None, 0
                 else:
+                    if post:
+                        _utils.selenium_scroll_into_view(driver, post)
+                    if len(labels) > prev_num_labels:
+                        prev_num_labels = len(labels)
+                        continue
                     if not silent:
-                        print('post #{} is not found'.format(post_no))
-                    page_len = _utils.selenium_scroll_to_bottom(driver)
+                        print('post #{} is not found'.format(len(labels)))
+                    page_len = \
+                        _utils.selenium_scroll_to_bottom(driver,
+                                                         sleep=LOAD_TIMEOUT)
+                    if not silent:
+                        print('page_len =', page_len)
                     if page_len == prev_page_len:
                         if tries >= 2:
                             raise PageEndException()
@@ -104,81 +148,15 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                     else:
                         tries = 0
                     prev_page_len = page_len
-                if post:
-                    break
+            except StaleElementReferenceException:
+                _utils.selenium_scroll_to_bottom(driver,
+                                                 sleep=LOAD_TIMEOUT)
+                posts = None
 
-            if post:
-                try:
-                    post = post.find_element_by_css_selector(
-                        'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
-                    )
-                    post = post.find_element_by_xpath('..')
-                except NoSuchElementException:
-                    continue
-                elems = \
-                    post.find_elements_by_css_selector('div[role="button"]')
-                for elem in elems:
-                    try:
-                        if elem.text == "See more":
-                            if not silent:
-                                print('See more')
-                            for try_ in range(3):
-                                _utils.selenium_scroll_into_view(driver, elem)
-                                _utils.selenium_move_to_element(elem)
-                                try:
-                                    _utils.selenium_click(driver, elem,
-                                        timeout_warning= \
-                                            'WARNING: Timeout while post '
-                                            'expanding. Retrying...'
-                                    )
-                                    break
-                                except ElementClickInterceptedException:
-                                    _utils.selenium_scroll_by(driver, 0, 100)
-                            else:
-                                post = None
-                                break
-                    except StaleElementReferenceException:
-                        pass
-                if not post:
-                    break
-                page = post.get_attribute('innerHTML')
-                elems = post.find_elements_by_css_selector(
-                    'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
-                )
-                #text = ''.join(x.text for x in elems if x.text).strip()
-                text = ''
-                for elem in elems:
-                    #print('[' + elem.text + ']')
-                    elem = elem.find_elements_by_xpath('.//div')
-                    for elem_ in elem:
-                        text_ = re2.sub(' ', elem_.text.replace('\n', '')) \
-                                   .strip()
-                        #print('{' + text_ + '}')
-                        if text_:
-                            text += text_ + '\n'
-                text = text.replace('\n\n', '\n').strip()
-                text0 = re0.sub('', text)
-                text1 = re1.sub('', text0)
-                if not silent:
-                    print(text)
-                if text0 and len(text1) / len(text0) >= .9:
-                    num_words = len(text.split())
-                    if not silent:
-                        print('<russian>')
-                        print(num_words)
-                    if num_words >= min_words and num_words <= max_words:
-                        break
-                elif not silent:
-                    print('<foreign>')
-                page, text = None, None
-
-    except PageEndException:
+    except (PageEndException, PostLimitException, PostFoundException):
         pass
 
-    if len(driver.window_handles) > 1:
-        driver.close()
-        driver.switch_to.window(driver.window_handles[-1])
-    else:
+    if need_quit:
         driver.quit()
     return text, page
 
@@ -220,8 +198,8 @@ def get_comment_authors(page_url, num_authors=10, depth=2, post_limit=20,
                         )
                         if not silent:
                             print(len(posts))
-                    post_no = 0
-                    for post_no, post_ in enumerate(posts):
+                    post_no_ = 0
+                    for post_no_, post_ in enumerate(posts):
                         try:
                             post_ = post_.find_element_by_xpath(
                                 './div/div/div/div/span[@class="css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0"]'
@@ -252,8 +230,8 @@ def get_comment_authors(page_url, num_authors=10, depth=2, post_limit=20,
                         prev_page_len = page_len
                         posts = None
                         continue
-                    if post_no:
-                        posts = posts[:post_no]
+                    if post_no_:
+                        posts = posts[:post_no_]
                 except StaleElementReferenceException:
                     _utils.selenium_scroll_to_bottom(driver)
                     posts = None
@@ -370,10 +348,12 @@ def get_trend_authors(trend, num_authors=10, skip_first=0,
                       authors_ignore=None, driver=None, cookies=None,
                       silent=False):
     page_url = ROOT_URL + '/search?q=' + trend + '&src=typed_query'
+    need_quit = False
     if not silent:
         print('START', page_url)
     if not driver:
         driver = init(cookies)
+        need_quit = True
     driver.get(page_url)
     time.sleep(LOAD_TIMEOUT)
     authors = OrderedDict()
@@ -389,7 +369,7 @@ def get_trend_authors(trend, num_authors=10, skip_first=0,
     try:
         post, prev_page_len = None, -1
         while True:
-            posts, tries, errs = None, 0, 0
+            tries, errs = 0, 0
             while True:
                 try:
                     time.sleep(1)
@@ -428,7 +408,7 @@ def get_trend_authors(trend, num_authors=10, skip_first=0,
                                     exit()
                                 time.sleep(10)
                                 errs += 1
-                    for post_no, post in enumerate(posts):
+                    for post in enumerate(posts):
                         try:
                             post = post.find_element_by_css_selector(
                                 'a[class="css-4rbku5 css-18t94o4 css-1dbjc4n r-1loqt21 r-1wbh5a2 r-dnmrzs r-1ny4l3l"]'
@@ -457,13 +437,12 @@ def get_trend_authors(trend, num_authors=10, skip_first=0,
                     else:
                         tries = 0
                     prev_page_len = page_len
-                    posts = None
                     continue
                     #if post:
                     #    _utils.selenium_scroll_into_view(driver, post_)
                 except StaleElementReferenceException:
-                    _utils.selenium_scroll_to_bottom(driver)
-                    posts = None
+                    _utils.selenium_scroll_to_bottom(driver,
+                                                     sleep=LOAD_TIMEOUT)
 
     except (PageEndException, AuthorsEnoughException):
         pass
@@ -472,4 +451,6 @@ def get_trend_authors(trend, num_authors=10, skip_first=0,
     if not silent:
         print(authors)
         print(len(authors))
+    if need_quit:
+        driver.quit()
     return authors

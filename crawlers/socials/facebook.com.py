@@ -114,9 +114,11 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
         if texts_total >= utils.TEXTS_FOR_SOURCE:
             break
         #link = 'https://www.facebook.com/profile.php?id=100003259844721'
-        page_fn = utils.get_data_path(utils.PAGES_DIR, num_links, link_no)
-        text_fn = utils.get_data_path(utils.TEXTS_DIR, num_links, link_no)
-        page = None
+        page_fn = utils.get_data_path(utils.PAGES_DIR,
+                                      num_page_links, link_no)
+        text_fn = utils.get_data_path(utils.TEXTS_DIR,
+                                      num_page_links, link_no)
+        text, page = None, None
         if link_no > start_link_idx:
             if not driver:
                 driver = _facebook.init(silent=False)
