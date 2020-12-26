@@ -100,7 +100,7 @@ for link_no, link in enumerate(links, start=1):
     page_fn = utils.get_data_path(utils.PAGES_DIR, num_links, link_no)
     text_fn = utils.get_data_path(utils.TEXTS_DIR, num_links, link_no)
     page = None
-    if False:#link_no > start_link_idx:
+    if link_no > start_link_idx:
         res = utils.get_url(link)
         page = res = res.text
     else:

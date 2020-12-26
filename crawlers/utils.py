@@ -109,7 +109,10 @@ def norm_text(text):
         text = text.replace('’', "'")
     text = text.strip()
 
-    if any(x > 'ё' and x <= '\u04ff' for x in text):
+    if any(x in 'ЀЂЃЄЅІЇЈЉЊЋЌЍЎЏѐђѓєѕіїјљњћќѝўџѠѡѢѣѤѥѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵѶѷѸѹѺѻѼѽ'
+                'ѾѿҀҁ҂҃҄҅҆҇҈҉ҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩҪҫҬҭҮүҰұҲҳҴҵҶҷҸҹ'
+                'ҺһҼҽҾҿӀӁӂӃӄӅӆӇӈӉӊӋӌӍӎӏӐӑӒӓӔӕӖӗӘәӚӛӜӝӞӟӠӡӢӣӤӥӦӧӨөӪӫӬӭӮӯӰӱӲӳӴӵ'
+                'ӶӷӸӹӺӻӼӽӾӿ' for x in text):
        text = None
 #    a = ''.join(sorted(set(x for x in text if x > 'ё' and ord(x) <= 0x4ff)))
 #        '–—―−“”„…'
