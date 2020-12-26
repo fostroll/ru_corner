@@ -108,6 +108,8 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                                 text = ''
                                 break
                             text += elem.text + ' '
+                        text = unescape(text).replace('\u200b', '') \
+                                             .replace('\ufeff', '').strip()
                         text0 = re0.sub('', text)
                         text1 = re1.sub('', text0)
                         if not silent:

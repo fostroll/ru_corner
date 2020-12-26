@@ -90,30 +90,52 @@ def get_url(url, headers=None, cookies=None, encoding=None):
     return res
 
 def norm_text(text):
-    text = text.replace('*', ' ') \
+    text = text.replace('*', ' ').replace('•', ' ').replace('⁄', '/') \
                .replace('Й', 'Й').replace('й', 'й') \
                .replace('Ё', 'Ё').replace('ё', 'ё') \
                .replace('<..>', ' ').replace('<...>', ' ') \
                .replace('❝', '«').replace('❞', '»')
     text = re.sub('([А-Яа-я])ó', r'\g<1>о', text)
     text = re.sub('ó([а-я])', r'о\g<1>', text)
+    text = re.sub('['
+        '\ufff0-\uffff'
+        '\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF'
+        '\U00020000-\U0002A6DF\U0002A700-\U0002CEAF\U0002F800-\U0002FA1F'
+    ']', ' ', text)
 
     if '‛' in text or '‘' in text:
         text = text.replace('‛', '«').replace('‘', '«').replace('’', '»')
+    else:
+        text = text.replace('’', "'")
+    text = text.strip()
+
+    if any(x > 'ё' and x <= '\u04ff' for x in text):
+       text = None
+#    a = ''.join(sorted(set(x for x in text if x > 'ё' and ord(x) <= 0x4ff)))
+#        '–—―−“”„…'
+#      + '₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿'
+#      + '№'
+#      + '\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u2060\u3000'
+#      + ''.join(chr(x) for x in range(0x2600, 0x26ff)))))
+#    if a:
+#        print('[' + a + ']')
+
     return text
 
 def tokenize(num_links, isdialog=True):
     tp = TextPreprocessor()
     chunk_fns = get_file_list(CHUNKS_DIR, num_links)
     max_conll = min(CONLL_FOR_SOURCE, len(chunk_fns))
-    texts_processed = 0
-    for chunk_idx, chunk_fn in enumerate(chunk_fns[:CONLL_FOR_SOURCE],
-                                         start=1):
+    chunk_no, texts_processed = 1, 0
+    for chunk_fn in chunk_fns:
         conll_fn = chunk_fn.replace(CHUNKS_DIR, CONLL_DIR)
         assert conll_fn != chunk_fn, 'ERROR: invalid path to chunk file'
         if not os.path.isfile(conll_fn):
             with open(chunk_fn, 'rt', encoding='utf-8') as f_in:
-                pars = norm_text(f_in.read()).split('\n')
+                text = norm_text(f_in.read())
+                if not text:
+                    continue
+                pars = text.split('\n')
 
             if isdialog:
                 text = [x.split('\t') for x in pars if x]
@@ -150,8 +172,11 @@ def tokenize(num_links, isdialog=True):
                         meta['speaker'] = speaker_list[next(speakers)]
 
             Conllu.save(conll, conll_fn, log_file=None)
-            print('\r{} (of {})'.format(chunk_idx, max_conll),
+            print('\r{} (of {})'.format(chunk_no, max_conll),
                   end='')
             texts_processed += 1
+        chunk_no += 1
+        if chunk_no > max_conll:
+            break
     if texts_processed:
         print()

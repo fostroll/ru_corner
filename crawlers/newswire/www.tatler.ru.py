@@ -79,6 +79,8 @@ re2 = re.compile(r'<.*?>|\(.*?\)')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     link, header = link.split('\t')
+    header = unescape(header).replace('\u200b', '') \
+                             .replace('\ufeff', '').strip()
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.interfax.ru/interview/374150'
@@ -103,7 +105,7 @@ for link_no, link in enumerate(links, start=1):
     res = re1.findall(res)
     lines = []
     for line in res:
-        line = line.strip()
+        line = line.replace('\u200b', '').replace('\ufeff', '').strip()
         if (line.startswith('<em>') and line.endswith('</em>')) \
         or line.startswith('<strong>Смотрите и&nbsp;читайте Tatler там, где вам удобно:'):
             break

@@ -51,8 +51,11 @@
 15	классное	_	_	_	_	_	_	_	_
 
 # newpar id = 00079-p3
-# par_text = (ΦωΦ)♡ 
+# par_text = (ΦωΦ)♡
 # sent_id = 00079-p3-s1
-# text = (ΦωΦ)♡
-0.1	_	_	_	_	_	_	_	_	EntityUnk=(ΦωΦ)♡
+# text = (ΦωΦ) ♡
+1	(	_	_	_	_	_	_	_	SpaceAfter=No
+1.1	_	_	_	_	_	_	_	_	EntityUnk=ΦωΦ|SpaceAfter=No
+2	)	_	_	_	_	_	_	_	_
+2.1	_	_	_	_	_	_	_	_	EntityEmoji=♡
 

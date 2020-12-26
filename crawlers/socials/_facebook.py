@@ -158,7 +158,9 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                         #print('{' + text_ + '}')
                         if text_:
                             text += text_ + '\n'
-                text = text.replace('\n\n', '\n').strip()
+                text = unescape(text).replace('\u200b', '') \
+                                     .replace('\ufeff', '') \
+                                     .replace('\n\n', '\n').strip()
                 text0 = re0.sub('', text)
                 text1 = re1.sub('', text0)
                 if not silent:
