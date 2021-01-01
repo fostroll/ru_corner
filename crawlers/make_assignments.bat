@@ -1,1 +1,1 @@
-python make_assignments.py steysie fostroll Fl1sk
+python make_assignments.py venus dashleo

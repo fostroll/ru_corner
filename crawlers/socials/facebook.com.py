@@ -2,6 +2,7 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+from html import unescape
 import os
 import random
 import re
@@ -9,9 +10,7 @@ import re
 ###
 import sys
 sys.path.append('../')
-#sys.path.append(r'C:\prj-git\facebook-post-scraper')
 ###
-#from scraper import extract
 import utils
 import _facebook
 import _utils
@@ -54,7 +53,7 @@ else:
         f.write('\n'.join(links))
 
 num_links = len(links)
-NUM_AUTHORS = utils.TEXTS_FOR_DOMAIN // num_links
+NUM_AUTHORS = max(utils.TEXTS_FOR_DOMAIN // num_links, 10)
 
 '''===========================================================================
 Search for page links
@@ -74,7 +73,7 @@ if start_link_idx is not None:
             #link = 'https://www.facebook.com/elftorgovec'
             page_links_ = _facebook.get_comment_authors(
                 link,
-                num_authors=_utils.NUM_AUTHORS,
+                num_authors=NUM_AUTHORS,
                 depth=_utils.SEARCH_DEPTH,
                 post_limit=_utils.POST_LIMIT,
                 authors_ignore=list(page_links) + links,
@@ -113,7 +112,7 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
     for link_no, (link, _) in enumerate(page_links, start=1):
         if texts_total >= utils.TEXTS_FOR_SOURCE:
             break
-        #link = 'https://www.facebook.com/profile.php?id=100003259844721'
+        #link = 'https://www.facebook.com/dmitry.gubin.127'
         page_fn = utils.get_data_path(utils.PAGES_DIR,
                                       num_page_links, link_no)
         text_fn = utils.get_data_path(utils.TEXTS_DIR,
@@ -139,6 +138,25 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
             with open(page_fn, 'rt', encoding='utf-8') as f:
                 link = f.readline().rstrip()
                 page = f.read()
+        if page:
+            text0 = re.sub(r'<img [^>]+ alt="([^"]{1,2})" src="[^"]+emoji\.php[^"]+">', r'\g<1>', page)
+            text0 = re.sub(r'<(?:/?a|img)[^>]*>', '', text0)
+            while text0 != text:
+                text = text0
+                text0 = re.sub(r'<span[^>]*>([^>]*)</span>', r'\g<1>', text0)
+                text0 = re.sub(r'<div dir="auto" style="text-align: start;">([^>]*)</div>', r'\n\g<1>\n', text0)
+                text0 = re.sub(r'<div class="\w+ cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q">([^>]*)</div>', r'\n\g<1>\n', text0)
+                text0 = re.sub(r'<div[^>]*>([^>]*)</div>', r'\g<1>', text0)
+            text0 = []
+            for line in text.split('\n'):
+                line = line.strip()
+                if line:
+                    text0.append(re.sub(r'\s+', ' ', line))
+            text = '\n'.join(text0)
+            text = unescape(text).replace('\u200b', '') \
+                                 .replace('\ufeff', '') \
+                                 .replace('й', 'й').replace('ё', 'ё') \
+                                 .replace('\n\n', '\n').strip()
         if text:
             texts_total += 1
             with open(page_fn, 'wt', encoding='utf-8') as f:

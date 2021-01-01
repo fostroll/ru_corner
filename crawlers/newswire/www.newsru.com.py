@@ -75,8 +75,8 @@ re3 = re.compile(r'<.*?>')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     link, header = link.split('\t')
-    header = unescape(header).replace('\u200b', '') \
-                             .replace('\ufeff', '').strip()
+    header = unescape(header).replace('\u200b', '').replace('\ufeff', '') \
+                             .replace('й', 'й').replace('ё', 'ё').strip()
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.newsru.com/sport/11oct2020/ukrger.html'

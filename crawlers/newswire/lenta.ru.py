@@ -98,7 +98,10 @@ for link_no, link in enumerate(links, start=1):
     lines = []
     for line in res:
         line = unescape(re1.sub('', line)).replace('\u200b', '') \
-                                          .replace('\ufeff', '').strip()
+                                          .replace('\ufeff', '') \
+                                          .replace('й', 'й') \
+                                          .replace('ё', 'ё') \
+                                          .strip()
         if line:
             lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:

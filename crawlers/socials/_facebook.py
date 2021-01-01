@@ -1,6 +1,7 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+from html import unescape
 import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -45,13 +46,15 @@ def login(driver, login, password, cookies=None):
                 print('WARNING: Login timeout. Retrying...')
 
 def init(cookies=None, silent=False):
-    driver = _utils.selenium_init(silent)
+    driver = _utils.selenium_init(silent=silent)
     login(driver, LOGIN, PASSWORD, cookies)
     return driver
 
 re0 = re.compile(r'\W|\d')
 re1 = re.compile(r'[^ЁА-Яёа-я]')
 re2 = re.compile(r'\s+')
+re4 = re.compile(r'#\b\S+\b')
+re5 = re.compile(r'\W')
 def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                   driver=None, cookies=None, silent=False):
     if not silent:
@@ -151,7 +154,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                 text = ''
                 for elem in elems:
                     #print('[' + elem.text + ']')
-                    elem = elem.find_elements_by_xpath('.//div')
+                    elem = elem.find_elements_by_xpath('./div')
                     for elem_ in elem:
                         text_ = re2.sub(' ', elem_.text.replace('\n', '')) \
                                    .strip()
@@ -160,13 +163,15 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                             text += text_ + '\n'
                 text = unescape(text).replace('\u200b', '') \
                                      .replace('\ufeff', '') \
+                                     .replace('й', 'й').replace('ё', 'ё') \
                                      .replace('\n\n', '\n').strip()
                 text0 = re0.sub('', text)
                 text1 = re1.sub('', text0)
                 if not silent:
                     print(text)
                 if text0 and len(text1) / len(text0) >= .9:
-                    num_words = len(text.split())
+                    num_words = len([x for x in re4.sub('', text).split()
+                                       if re5.sub('', x)])
                     if not silent:
                         print('<russian>')
                         print(num_words)

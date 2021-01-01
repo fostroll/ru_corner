@@ -107,7 +107,7 @@ for link_no, link in enumerate(links, start=1):
     prev_speaker = None
     for line in res:
         line = unescape(line).replace('\u200b', '').replace('\ufeff', '') \
-                             .strip()
+                             .replace('й', 'й').replace('ё', 'ё').strip()
         if line.startswith('<b>') or line.startswith('<strong>'):
             speaker = SPEAKER_A
         elif not prev_speaker:

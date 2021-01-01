@@ -249,7 +249,8 @@ for link_no, link in enumerate(links, start=1):
                              .replace('<br>', '\n').replace('</p>', '\n')
                     res = re4.sub(' ', '<' + res)
                     txt = unescape(res).replace('\u200b', '') \
-                                       .replace('\ufeff', '')
+                                       .replace('\ufeff', '') \
+                                       .replace('й', 'й').replace('ё', 'ё')
                     lines = []
                     maybe_caption = False
                     for line in [x.strip() for x in txt.split('\n')]:

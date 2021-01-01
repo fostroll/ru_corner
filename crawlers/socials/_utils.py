@@ -149,14 +149,18 @@ def selenium_close_window(driver):
     else:
         driver.quit()
 
-def selenium_click(driver, elem, stale_elem=None, max_tries=None,
-                   timeout_warning=None):
+def selenium_click(driver, elem, stale_elem=None, visible_elem=None,
+                   max_tries=None, timeout_warning=None):
     try_ = 1
     while True:
         try:
             elem.click()
-            WebDriverWait(driver, 10) \
-                .until(EC.staleness_of(stale_elem or elem))
+            if stale_elem or not visible_elem:
+                WebDriverWait(driver, 10) \
+                    .until(EC.staleness_of(stale_elem or elem))
+            if visible_elem:
+                WebDriverWait(driver, 10) \
+                    .until(EC.visibility_of_element_located(visible_elem))
             break
         except TimeoutException as e:
             if try_ >= max_tries:
@@ -171,8 +175,12 @@ def selenium_ctrl_click(driver, elem, sleep=5):
     driver.switch_to.window(driver.window_handles[-1])
     time.sleep(sleep)
 
-def selenium_move_to_element(elem, x=3, y=3):
-    action = webdriver.common.action_chains \
-                             .ActionChains(driver)
-    action.move_to_element_with_offset(elem, x, y)
+def selenium_move_to_element(driver, elem, x=None, y=None, sleep=0):
+    action = webdriver.ActionChains(driver)
+    if x is None or y is None:
+        action.move_to_element(elem)
+    else:
+        action.move_to_element_with_offset(elem, x, y)
     action.perform()
+    time.sleep(sleep)
+

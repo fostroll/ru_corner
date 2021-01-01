@@ -27,7 +27,6 @@ ROOT_URL = 'https://www.twitter.com/'
 #https://twitter.com/search?q=%23%D1%8F%D1%83%D0%B2%D0%B0%D0%B6%D0%B0%D1%8E%D0%B4%D0%B6%D1%83%D0%BC&src=typed_query
 TIME_FN = os.path.join(utils.PAGES_DIR, 'time.tmp')
 AUTHORS_IGNORE_FN = os.path.join(utils.PAGES_DIR, 'authors_ignore.tmp')
-SKIP_FIRST_TREND_AUTHORS = 5
 
 if SEED:
     random.seed(SEED)
@@ -107,6 +106,7 @@ if need_enter:
 
 num_links = len(links)
 NUM_AUTHORS = max(utils.TEXTS_FOR_DOMAIN // num_links, 10)
+SKIP_FIRST_TREND_AUTHORS = 5
 
 '''===========================================================================
 Search for page links

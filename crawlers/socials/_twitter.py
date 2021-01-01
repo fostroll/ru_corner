@@ -1,6 +1,7 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+from html import unescape
 import json
 import os
 import re
@@ -49,12 +50,14 @@ def login(driver, login, password, cookies=None):
 #            f.write(json.dumps(driver.get_cookies()))
 
 def init(cookies=None, silent=False):
-    driver = _utils.selenium_init(silent)
+    driver = _utils.selenium_init(silent=silent)
     #login(driver, LOGIN, PASSWORD, cookies)
     return driver
 
 re0 = re.compile(r'\W|\d')
 re1 = re.compile(r'[^ЁА-Яёа-я]')
+re4 = re.compile(r'#\b\S+\b')
+re5 = re.compile(r'\W')
 def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                   driver=None, cookies=None, silent=False):
     need_quit = False
@@ -109,13 +112,18 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
                                 break
                             text += elem.text + ' '
                         text = unescape(text).replace('\u200b', '') \
-                                             .replace('\ufeff', '').strip()
+                                             .replace('\ufeff', '') \
+                                             .replace('й', 'й') \
+                                             .replace('ё', 'ё') \
+                                             .strip()
                         text0 = re0.sub('', text)
                         text1 = re1.sub('', text0)
                         if not silent:
                             print(text)
                         if text0 and len(text1) / len(text0) >= .9:
-                            num_words = len(text.split())
+                            num_words = len([x for x in re4.sub('', text)
+                                                           .split()
+                                               if re5.sub('', x)])
                             if not silent:
                                 print('<russian>')
                                 print(num_words)

@@ -135,7 +135,8 @@ for link_no, link in enumerate(links, start=1):
     lines = []
     isdiv = False
     for line in res:
-        line = line.replace('\u200b', '').replace('\ufeff', '').strip()
+        line = line.replace('\u200b', '').replace('\ufeff', '') \
+                    .replace('й', 'й').replace('ё', 'ё').strip()
         if '</div' in line:#.startswith('</div'):
             isdiv = False
         if isdiv:
