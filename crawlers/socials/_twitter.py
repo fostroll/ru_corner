@@ -18,7 +18,7 @@ LOGIN_URL = 'https://twitter.com'
 ROOT_URL = 'https://twitter.com'
 CREDENTIALS_FN = '_twitter.credentials.txt'
 CREDENTIALS = ['email', 'password']
-COOKIES_FN = '_twitter.cookies.txt'
+#COOKIES_FN = '_twitter.cookies.txt'
 LOAD_TIMEOUT = 3
 
 creds = dict(_utils.parse_credentials(CREDENTIALS_FN))
@@ -182,8 +182,9 @@ def get_comment_authors(page_url, num_authors=10, depth=2, post_limit=20,
         driver.get(page_url)
     time.sleep(LOAD_TIMEOUT)
     authors = OrderedDict()
-    authors_ignore = set(authors_ignore if authors_ignore else [])
-    authors_ignore.add(page_url)
+    if authors_ignore is None:
+        authors_ignore = OrderedDict()
+    authors_ignore[page_url] = 1
 
     class PageEndException(Exception):
         pass
@@ -289,7 +290,7 @@ def get_comment_authors(page_url, num_authors=10, depth=2, post_limit=20,
                         if not silent:
                             print(author_name, author)
                         if author not in authors_ignore:
-                            authors_ignore.add(author)
+                            authors_ignore[author] = 1
                             if depth > 1:
                                 authors.update(
                                     get_comment_authors(

@@ -18,6 +18,7 @@ import _utils
 SEED = 42
 INIT_URL = 'https://citifox.ru/2019/11/07/top-1000-interesnykh-person-russkogo-feys/'
 ROOT_URL = 'https://www.facebook.com/'
+AUTHORS_IGNORE_FN = os.path.join(utils.PAGES_DIR, 'authors_ignore.tmp')
 
 if SEED:
     random.seed(SEED)
@@ -53,7 +54,7 @@ else:
         f.write('\n'.join(links))
 
 num_links = len(links)
-NUM_AUTHORS = max(utils.TEXTS_FOR_DOMAIN // num_links, 10)
+NUM_AUTHORS = max(utils.TEXTS_FOR_DOMAIN // num_links, 100)
 
 '''===========================================================================
 Search for page links
@@ -61,39 +62,51 @@ Search for page links
 start_link_idx, page_links = _utils.load_page_links()
 need_enter = False
 if start_link_idx is not None:
+    authors_ignore = OrderedDict(page_links)
     page_links = OrderedDict(page_links)
+    if os.path.isfile(AUTHORS_IGNORE_FN):
+        with open(AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
+            authors_ignore.update({x: 1 for x in f.read().split('\n') if x})
     links = links[start_link_idx:]
     if links:
         driver = _facebook.init(silent=False)
         for link_no, link in enumerate(links, start=start_link_idx):
-            print('\rpage links: {}; root links processed: ({} of {})'
-                      .format(len(page_links), link_no, num_links),
-                  end='')
+            #print('\rpage links: {}; root links processed: ({} of {})'
+            print('page links: {}; root links processed: ({} of {})'
+                      .format(len(page_links), link_no, num_links))
+            #      end='')
             #link = 'https://www.facebook.com/profile.php?id=100003259844721'
             #link = 'https://www.facebook.com/elftorgovec'
+            num_authors_ignore = len(authors_ignore)
             page_links_ = _facebook.get_comment_authors(
                 link,
                 num_authors=NUM_AUTHORS,
                 depth=_utils.SEARCH_DEPTH,
                 post_limit=_utils.POST_LIMIT,
-                authors_ignore=list(page_links) + links,
+                authors_ignore=authors_ignore,
                 driver=driver,
                 silent=True
             )
             page_links.update(page_links_)
             _utils.save_page_links(link_no + 1, list(page_links.items()))
+            if len(authors_ignore) > num_authors_ignore:
+                with open(AUTHORS_IGNORE_FN, 'at', encoding='utf-8') as f:
+                    for author_ignore \
+                     in list(authors_ignore)[num_authors_ignore:]:
+                        print(author_ignore, file=f)
             need_enter = True
             #exit()
-        print('\rpage links: {}; root links processed: {} (of {})'
-                  .format(len(page_links), link_no + 1, num_links),
-              end='')
+        #print('\rpage links: {}; root links processed: {} (of {})'
+        print('page links: {}; root links processed: {} (of {})'
+                  .format(len(page_links), link_no + 1, num_links))
+        #      end='')
         driver.quit()
     page_links = list(page_links.items())
     random.shuffle(page_links)
     _utils.save_page_links(None, page_links)
 if need_enter:
     print()
-
+exit()
 num_page_links = len(page_links)
 
 '''===========================================================================

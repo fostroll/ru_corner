@@ -202,8 +202,9 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
         driver = init(cookies)
         driver.get(page_url)
     authors = OrderedDict()
-    authors_ignore = set(authors_ignore if authors_ignore else [])
-    authors_ignore.add(page_url)
+    if authors_ignore is None:
+        authors_ignore = OrderedDict()
+    authors_ignore[page_url] = 1
 
     class PageEndException(Exception):
         pass
@@ -214,6 +215,7 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
     try:
         labels = set()
         post, prev_page_len = None, -1
+        prev_post = None
         for post_no in range(1, post_limit + 1):
             tries = 0
             while True:
@@ -230,7 +232,7 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                     #print(label, labels)
                     if label not in labels:
                         labels.add(label)
-                        post = post_
+                        post = prev_post = post_
                         tries = 0
                         break
                 else:
@@ -240,6 +242,9 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                     if page_len == prev_page_len:
                         if tries >= 2:
                             raise PageEndException()
+                        if prev_post:
+                            _utils.selenium_scroll_into_view(driver,
+                                                             prev_post)
                         tries += 1
                     else:
                         tries = 0
@@ -284,7 +289,7 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                                             ).text
                                         if not silent:
                                             print(author_name, author)
-                                        authors_ignore.add(author)
+                                        authors_ignore[author] = 1
                                         if depth > 1:
                                             authors.update(
                                                 get_comment_authors(
@@ -326,15 +331,23 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                                                          .ActionChains(driver)
                                 action.move_to_element_with_offset(elem, 5, 5)
                                 action.perform()
+                                tries = 0
                                 while True:
                                     try:
                                         elem.click()
                                         WebDriverWait(driver, 10) \
                                             .until(EC.staleness_of(elem))
+                                        if tries:
+                                            print()
                                         break
                                     except TimeoutException:
-                                        print('WARNING: Comments loading '
-                                              'timeout. Retrying...')
+                                        print('\rWARNING: Comments loading '
+                                              'timeout. Retrying...', end='')
+                                        if tries >= 2:
+                                            print('\rWARNING: Comments loading '
+                                                  'timeout. Skipped')
+                                            break
+                                        tries += 1
                         except:
                             pass
 

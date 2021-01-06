@@ -58,6 +58,18 @@ def init(cookies=None, silent=False):
     login(driver, LOGIN, PASSWORD, cookies)
     return driver
 
+def iferror(driver):
+    return
+    try:
+        a = driver.find_element_by_css_selector('body.p-error')
+    except NoSuchElementException:
+        pass
+    else:
+        print('ERROR: Body class: {}'
+                  .format(driver.find_element_by_tag_name('body')
+                                .get_attribute('class')))
+        exit()
+
 re0 = re.compile(r'\W|\d')
 re1 = re.compile(r'[^ЁА-Яёа-я]')
 re2 = re.compile(r'[^\S\n]+')
@@ -71,6 +83,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
     if not driver:
         driver = init(cookies)
     driver.get(page_url)
+    iferror(driver)
     link, page, text = None, None, None
 
     class PageEndException(Exception):
@@ -178,6 +191,7 @@ def get_likers(page_url, num_likers=10, skip=(0, 0), post_limit=20,
     if not driver:
         driver = init(cookies)
     driver.get(page_url)
+    iferror(driver)
     likers = OrderedDict()
     if likers_ignore is None:
         likers_ignore = OrderedDict()

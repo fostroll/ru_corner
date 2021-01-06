@@ -2,6 +2,7 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+from html import unescape
 import os
 import random
 import re
@@ -122,7 +123,6 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
         if texts_total >= utils.TEXTS_FOR_SOURCE:
             break
         #link = 'https://www.instagram.com/stkim91/'
-        #link = 'https://www.instagram.com/oleggabidullin/'
         page_fn = utils.get_data_path(utils.PAGES_DIR,
                                       num_page_links, link_no)
         text_fn = utils.get_data_path(utils.TEXTS_DIR,
@@ -131,7 +131,6 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
         if link_no > start_link_idx:
             if not driver:
                 driver = _instagram.init(silent=False)
-                #driver = _utils.selenium_init(silent=False)
             text, page, p_link = _instagram.get_post_text(
                 link,
                 min_words=_utils.MIN_CHUNK_WORDS,
@@ -147,8 +146,22 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
                 texts_total += 1
                 continue
             with open(page_fn, 'rt', encoding='utf-8') as f:
-                link = f.readline().rstrip()
+                link, p_link = f.readline().rstrip().split()
+                p_link = p_link[1:-1]
                 page = f.read()
+        if page:
+            text = re.sub(r'<br>', '\n', page)
+            text = re.sub(r'<[^>]*>', '', text)
+            text0 = []
+            for line in text.split('\n'):
+                line = unescape(line).replace('\u00a0', ' ') \
+                                     .replace('\u200b', '') \
+                                     .replace('\ufeff', '') \
+                                     .replace('й', 'й').replace('ё', 'ё') \
+                                     .strip()
+                if line:
+                    text0.append(re.sub(r'\s+', ' ', line))
+            text = '\n'.join(text0)
         if text:
             texts_total += 1
             with open(page_fn, 'wt', encoding='utf-8') as f:
@@ -167,7 +180,7 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
         driver.quit()
     if need_enter:
         print()
-exit()
+
 '''===========================================================================
 Chunks creation
 ==========================================================================='''

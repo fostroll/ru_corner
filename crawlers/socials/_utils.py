@@ -1,6 +1,7 @@
 #-*- encoding: utf-8 -*-
 
 import os
+import re
 from selenium.common.exceptions import TimeoutException
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -73,15 +74,15 @@ def save_page_links(start_link_idx, page_links):
     with open(fn, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(lines))
 
-def make_chunks():
-    for fn in os.listdir(utils.TEXTS_DIR):
-        src = os.path.join(utils.TEXTS_DIR, fn)
-        dst = os.path.join(utils.CHUNKS_DIR, fn)
-        if os.path.isdir(src):
-            raise ValueError()
-            shutil.copytree(s, d, symlinks, ignore)
-        else:
-            shutil.copy2(src, dst)
+#def make_chunks():
+#    for fn in os.listdir(utils.TEXTS_DIR):
+#        src = os.path.join(utils.TEXTS_DIR, fn)
+#        dst = os.path.join(utils.CHUNKS_DIR, fn)
+#        if os.path.isdir(src):
+#            raise ValueError()
+#            shutil.copytree(s, d, symlinks, ignore)
+#        else:
+#            shutil.copy2(src, dst)
 
 def make_chunks(num_links, min_chunk_lines=MIN_CHUNK_LINES):
     text_fns = utils.get_file_list(utils.TEXTS_DIR, num_links)
@@ -94,8 +95,11 @@ def make_chunks(num_links, min_chunk_lines=MIN_CHUNK_LINES):
         if not os.path.isfile(chunk_fn):
             with open(text_fn, 'rt', encoding='utf-8') as f_in, \
                  open(chunk_fn, 'wt', encoding='utf-8') as f_out:
-                lines = f_in.read().split('\n')[1:]
-                f_out.write('\n'.join(lines))
+                f_in.readline()
+                text = f_in.read()
+                text = re.sub(r'[\u2800\uFE00-\uFE0F]', '', text)
+                lines = (x.strip() for x in text.split('\n'))
+                f_out.write('\n'.join(x for x in lines if x))
                 print('\r{} (of {})'.format(text_idx, max_chunks),
                       end='')
                 texts_processed += 1
@@ -183,4 +187,3 @@ def selenium_move_to_element(driver, elem, x=None, y=None, sleep=0):
         action.move_to_element_with_offset(elem, x, y)
     action.perform()
     time.sleep(sleep)
-
