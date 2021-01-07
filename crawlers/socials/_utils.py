@@ -98,7 +98,10 @@ def make_chunks(num_links, min_chunk_lines=MIN_CHUNK_LINES):
                 f_in.readline()
                 text = f_in.read()
                 text = re.sub(r'[\u2800\uFE00-\uFE0F]', '', text)
-                lines = (x.strip() for x in text.split('\n'))
+                lines = (x.strip() for x in text.split('\n')
+                                   if re.search('\w', x)
+                                  and not all(x.startswith('#')
+                                                  for x in x.split()))
                 f_out.write('\n'.join(x for x in lines if x))
                 print('\r{} (of {})'.format(text_idx, max_chunks),
                       end='')
