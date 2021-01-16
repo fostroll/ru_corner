@@ -43,7 +43,7 @@ def login(driver, login, password, cookies=None):
         elem = driver.find_element_by_css_selector(
             'div[data-testid="LoginForm_Login_Button"]'
         )
-        _utils.selenium_click(driver, elem,
+        _utils.selenium_click(driver, elem=elem,
             timeout_warning='WARNING: Login timeout. Retrying...'
         )
 #        with open(COOKIES_FN, 'wt', encoding='utf-8') as f:
@@ -58,14 +58,17 @@ re0 = re.compile(r'\W|\d')
 re1 = re.compile(r'[^ЁА-Яёа-я]')
 re4 = re.compile(r'#\b\S+\b')
 re5 = re.compile(r'\W')
-def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
+def get_post_text(page_url,
+                  min_words=_utils.MIN_CHUNK_WORDS,
+                  max_words=_utils.MAX_CHUNK_WORDS,
+                  post_limit=_utils.POST_LIMIT,
                   driver=None, cookies=None, silent=False):
     need_quit = False
     if not silent:
         print('START', page_url)
     if not driver:
-        driver = init(cookies)
         need_quit = True
+        driver = init(cookies)
     driver.get(page_url)
     time.sleep(LOAD_TIMEOUT)
     page, text = None, None
@@ -170,191 +173,6 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=100,
         driver.quit()
     return text, page
 
-def get_comment_authors(page_url, num_authors=10, depth=2, post_limit=20,
-                        authors_ignore=None, driver=None, cookies=None,
-                        silent=False):
-    if not silent:
-        print('START', page_url)
-    if driver:
-        _utils.selenium_open_new_window(driver, page_url)
-    else:
-        driver = init(cookies)
-        driver.get(page_url)
-    time.sleep(LOAD_TIMEOUT)
-    authors = OrderedDict()
-    if authors_ignore is None:
-        authors_ignore = OrderedDict()
-    authors_ignore[page_url] = 1
-
-    class PageEndException(Exception):
-        pass
-
-    class AuthorsEnoughException(Exception):
-        pass
-
-    try:
-        labels = set()
-        post, prev_page_len = None, -1
-        for post_no in range(1, post_limit + 1):
-            posts, tries = None, 0
-            while True:
-                try:
-                    if not silent:
-                        print('post #{}...'.format(post_no))
-                    post = None
-                    if not posts:
-                        posts = driver.find_elements_by_css_selector(
-                            #'article[role="article"]'
-                            'div[data-testid="tweet"]'
-                        )
-                        if not silent:
-                            print(len(posts))
-                    post_no_ = 0
-                    for post_no_, post_ in enumerate(posts):
-                        try:
-                            post_ = post_.find_element_by_xpath(
-                                './div/div/div/div/span[@class="css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0"]'
-                             #' | ./div/div/div/div/span[@class="css-901oao css-16my406 r-4qtqp9 r-ip8ujx r-sjv1od r-zw8f10 r-bnwqim r-h9hxbl"]'
-                            )
-                        except NoSuchElementException:
-                            continue
-                        _utils.selenium_scroll_into_view(driver, post_)
-                        label = post_.text
-                        #print(label, labels)
-                        if label not in labels:
-                            labels.add(label)
-                            post = post_
-                            tries = 0
-                            break
-                    else:
-                        if not silent:
-                            print('post #{} is not found'.format(post_no))
-                        page_len = _utils.selenium_scroll_to_bottom(driver)
-                        if not silent:
-                            print('page_len =', page_len)
-                        if page_len == prev_page_len:
-                            if tries >= 2:
-                                raise PageEndException()
-                            tries += 1
-                        else:
-                            tries = 0
-                        prev_page_len = page_len
-                        posts = None
-                        continue
-                    if post_no_:
-                        posts = posts[:post_no_]
-                except StaleElementReferenceException:
-                    _utils.selenium_scroll_to_bottom(driver)
-                    posts = None
-                if post:
-                    break
-
-            if post:
-                _utils.selenium_scroll_into_view(driver, post)
-                _utils.selenium_scroll_by(driver, 0, -100)
-                _utils.selenium_ctrl_click(driver, post)
-                #post.click()
-                _utils.selenium_scroll_to_bottom(driver)
-
-                comment_elems, author_elems = set(), set()
-                while True:
-                    comments = driver.find_elements_by_css_selector(
-                        #'article[role="article"]'
-                        'div[data-testid="tweet"]'
-                    )
-                    if not silent:
-                        print(len(comments))
-                    comment = None
-                    retry = False
-                    for comment_ in comments:
-                        if not silent:
-                            print('COMMENT ', end='')
-                        try:
-                            link = comment_.find_element_by_xpath(
-                                './div/div/div/div/div/div/a[@role="link"]'
-                            )
-                        except NoSuchElementException:
-                            if not silent:
-                                print('not found')
-                            continue
-                        except StaleElementReferenceException:
-                            retry = True
-                            break
-                        if not silent:
-                            print('found')
-                        comment = comment_
-                        _utils.selenium_scroll_into_view(driver, link)
-                        author = link.get_attribute('href')
-                        author_name = link.find_element_by_tag_name('span') \
-                                          .text
-                        if not silent:
-                            print(author_name, author)
-                        if author not in authors_ignore:
-                            authors_ignore[author] = 1
-                            if depth > 1:
-                                authors.update(
-                                    get_comment_authors(
-                                        author,
-                                        num_authors=\
-                                            num_authors - len(authors),
-                                        depth=depth - 1,
-                                        post_limit=post_limit,
-                                        authors_ignore=\
-                                            authors_ignore,
-                                        driver=driver,
-                                        #cookies=\
-                                        #    driver.get_cookies()
-                                        silent=silent
-                                ))
-                            else:
-                                authors[author] = author_name
-                            if not silent:
-                                print('len(authors) =', len(authors))
-                            if len(authors) >= num_authors:
-                                raise AuthorsEnoughException()
-                    if retry:
-                        if not silent:
-                           print('RETRY')
-                        continue
-                    if comment:
-                        elem = comment.find_element_by_xpath(
-                            '..' + ('/..' * 7)
-                        )
-                        try:
-                            elemMore = comment.find_element_by_css_selector(
-                                'div[class="css-18t94o4 css-1dbjc4n r-1777fci r-1jayybb r-1ny4l3l r-o7ynqc r-6416eg r-13qz1uu"]'
-                            )
-                            if not silent:
-                                print('MORE')
-                            _utils.selenium_click(elemMore, max_tries=5,
-                                timeout_warning='WARNING: Comments loading '
-                                                'timeout. Retrying...'
-                            )
-                        except NoSuchElementException:
-                            break
-                    else:
-                        break
-
-                _utils.selenium_close_window(driver)
-                #if not silent:
-                #    print('BACK')
-                #back = driver.find_element_by_css_selector(
-                #    'div[class="css-18t94o4 css-1dbjc4n '
-                #    'r-1niwhzg r-42olwf r-sdzlij r-1phboty r-rs99b7 r-1w2pmg '
-                #    'r-1vuscfd r-53xb7h r-1ny4l3l r-mk0yit r-o7ynqc r-6416eg '
-                #    'r-lrvibr"]'
-                #)
-                #back.click()
-
-    except (PageEndException, AuthorsEnoughException):
-        pass
-
-    _utils.selenium_close_window(driver)
-    if not silent:
-        print(authors)
-        print(len(authors))
-    return list(authors.items())[:num_authors]
-
 def get_trend_authors(trend, num_authors=10, skip_first=0,
                       authors_ignore=None, driver=None, cookies=None,
                       silent=False):
@@ -363,8 +181,8 @@ def get_trend_authors(trend, num_authors=10, skip_first=0,
     if not silent:
         print('START', page_url)
     if not driver:
-        driver = init(cookies)
         need_quit = True
+        driver = init(cookies)
     driver.get(page_url)
     time.sleep(LOAD_TIMEOUT)
     authors = OrderedDict()
@@ -400,7 +218,7 @@ def get_trend_authors(trend, num_authors=10, skip_first=0,
                             #print(btn.get_attribute('class'))
                             #print('Twitter raise an error. '
                             #      'Pushing the button...')
-                            _utils.selenium_click(driver, btn, max_tries=3)  # exit with error if timeout
+                            _utils.selenium_click(driver, elem=btn, max_tries=3)  # exit with error if timeout
                             time.sleep(10)
                             driver.refresh()
                             time.sleep(LOAD_TIMEOUT)

@@ -135,6 +135,12 @@ def selenium_scroll_to_bottom(driver, sleep=5):
     time.sleep(sleep)  # TODO: replace to some load detection method
     return page_len
 
+def selenium_scroll_to_top(driver, sleep=0):
+    page_len = driver.execute_script(
+        'window.scrollTo(0, 0);'
+    )
+    time.sleep(sleep)
+
 def selenium_scroll_into_view(driver, elem, sleep=1):
     driver.execute_script(
         'arguments[0].scrollIntoView(true);', elem
@@ -156,12 +162,13 @@ def selenium_close_window(driver):
     else:
         driver.quit()
 
-def selenium_click(driver, elem, stale_elem=None, visible_elem=None,
+def selenium_click(driver, elem=None, stale_elem=None, visible_elem=None,
                    max_tries=None, timeout_warning=None):
     try_ = 1
     while True:
         try:
-            elem.click()
+            if elem:
+                elem.click()
             if stale_elem or not visible_elem:
                 WebDriverWait(driver, 10) \
                     .until(EC.staleness_of(stale_elem or elem))
@@ -170,7 +177,7 @@ def selenium_click(driver, elem, stale_elem=None, visible_elem=None,
                     .until(EC.visibility_of_element_located(visible_elem))
             break
         except TimeoutException as e:
-            if try_ >= max_tries:
+            if max_tries and try_ >= max_tries:
                 raise e
             if timeout_warning:
                 print(timeout_warning)
@@ -190,3 +197,9 @@ def selenium_move_to_element(driver, elem, x=None, y=None, sleep=0):
         action.move_to_element_with_offset(elem, x, y)
     action.perform()
     time.sleep(sleep)
+
+def selenium_remove(driver, elem):
+    driver.execute_script(
+       'var element = arguments[0]; element.parentNode.removeChild(element);',
+       elem
+    )

@@ -76,11 +76,16 @@ re2 = re.compile(r'[^\S\n]+')
 re3 = re.compile(r'\n+')
 re4 = re.compile(r'#\b\S+\b')
 re5 = re.compile(r'\W')
-def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
+def get_post_text(page_url,
+                  min_words=_utils.MIN_CHUNK_WORDS,
+                  max_words=_utils.MAX_CHUNK_WORDS,
+                  post_limit=_utils.POST_LIMIT,
                   driver=None, cookies=None, silent=False):
+    need_quit = False
     if not silent:
         print('START', page_url)
     if not driver:
+        need_quit = True
         driver = init(cookies)
     driver.get(page_url)
     iferror(driver)
@@ -182,13 +187,18 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
     except PageEndException:
         pass
 
+    if need_quit:
+        driver.quit()
     return text, page, link
 
-def get_likers(page_url, num_likers=10, skip=(0, 0), post_limit=20,
-               likers_ignore=None, driver=None, cookies=None, silent=False):
+def get_likers(page_url, num_likers=10, skip=(0, 0),
+               post_limit=_utils.POST_LIMIT, likers_ignore=None, driver=None,
+               cookies=None, silent=False):
+    need_quit = False
     if not silent:
         print('START', page_url)
     if not driver:
+        need_quit = True
         driver = init(cookies)
     driver.get(page_url)
     iferror(driver)
@@ -268,7 +278,7 @@ def get_likers(page_url, num_likers=10, skip=(0, 0), post_limit=20,
                                '                                       ' \
                                '                          "]'
                 try:
-                    _utils.selenium_click(driver, elem, 
+                    _utils.selenium_click(driver, elem=elem, 
                                           visible_elem=(By.CSS_SELECTOR,
                                                         css_selector),
                                           max_tries=1)
@@ -342,4 +352,6 @@ def get_likers(page_url, num_likers=10, skip=(0, 0), post_limit=20,
     if not silent:
         print(likers)
         print(len(likers))
+    if need_quit:
+        driver.quit()
     return list(likers.items())[:num_likers]

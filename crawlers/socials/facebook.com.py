@@ -69,7 +69,7 @@ if start_link_idx is not None:
             authors_ignore.update({x: 1 for x in f.read().split('\n') if x})
     links = links[start_link_idx:]
     if links:
-        driver = _facebook.init(silent=False)
+        driver = _facebook.init()
         for link_no, link in enumerate(links, start=start_link_idx):
             #print('\rpage links: {}; root links processed: ({} of {})'
             print('page links: {}; root links processed: ({} of {})'
@@ -106,7 +106,6 @@ if start_link_idx is not None:
     _utils.save_page_links(None, page_links)
 if need_enter:
     print()
-exit()
 num_page_links = len(page_links)
 
 '''===========================================================================
@@ -133,7 +132,7 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
         text, page = None, None
         if link_no > start_link_idx:
             if not driver:
-                driver = _facebook.init(silent=False)
+                driver = _facebook.init()
             text, page = _facebook.get_post_text(
                 link,
                 min_words=_utils.MIN_CHUNK_WORDS,

@@ -69,7 +69,7 @@ if start_link_idx is not None:
             likers_ignore.update({x: 1 for x in f.read().split('\n') if x})
     links = links[start_link_idx:]
     if links:
-        driver = _instagram.init(silent=False)
+        driver = _instagram.init()
         for link_no, link in enumerate(links, start=start_link_idx):
             print('\rpage links: {}; root links processed: ({} of {})'
                       .format(len(page_links), link_no, num_links),
@@ -130,7 +130,7 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
         text, page = None, None
         if link_no > start_link_idx:
             if not driver:
-                driver = _instagram.init(silent=False)
+                driver = _instagram.init()
             text, page, p_link = _instagram.get_post_text(
                 link,
                 min_words=_utils.MIN_CHUNK_WORDS,

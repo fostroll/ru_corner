@@ -40,6 +40,7 @@ need_enter = False
 if os.path.isfile(utils.LINKS_FN):
     with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
         links = [x for x in f.read().split('\n') if x]
+
 else:
     links = OrderedDict()
     if os.path.isfile(utils.LINKS_FN + '.tmp'):
@@ -56,7 +57,7 @@ else:
                                          - timedelta(days=1)).date()),
                               '%Y-%m-%d %H:%M:%S.%f')
     href_prefix = INIT_URL + 'trend/'
-    driver = _utils.selenium_init(silent=True)
+    driver = _utils.selenium_init(silent=False)
     try:
         while len(links) < utils.TEXTS_FOR_DOMAIN:
             with open(TIME_FN, 'wt', encoding='utf-8') as f:
@@ -121,7 +122,7 @@ if start_link_idx is not None:
             authors_ignore.update({x: 1 for x in f.read().split('\n') if x})
     links = links[start_link_idx:]
     if links:
-        driver = _twitter.init(silent=False)
+        driver = _twitter.init()
         for link_no, link in enumerate(links, start=start_link_idx):
             print('\rpage links: {}; root links processed: ({} of {})'
                       .format(len(page_links), link_no, num_links),
@@ -181,7 +182,7 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
         text, page = None, None
         if link_no > start_link_idx:
             if not driver:
-                driver = _twitter.init(silent=False)
+                driver = _twitter.init()
             text, page = _twitter.get_post_text(
                 link,
                 min_words=_utils.MIN_CHUNK_WORDS,

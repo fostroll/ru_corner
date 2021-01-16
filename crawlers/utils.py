@@ -5,23 +5,16 @@ from corpuscula import Conllu
 import glob
 import os
 import re
-import requests
-requests.packages.urllib3.disable_warnings(
-    requests.packages.urllib3.exceptions.InsecureRequestWarning
-)
 import sys
 import time
 from toxine.text_preprocessor import TextPreprocessor
 
-from _utils_add import _path, _sub_idx, DATA_DIR_NAME
+from _utils_add import get_url, _path, _sub_idx, DATA_DIR_NAME
 
 
 CURR_PATH = os.path.abspath(sys.argv[0])
 CURR_DIR = os.path.dirname(CURR_PATH)
 DATA_EXT = '.txt'
-GET_URL_TIMEOUT = 10  # seconds
-GET_URL_RETRY_TIMEOUT = 20  # seconds
-GET_URL_RETRY_CONNERROR = 60  # seconds
 
 #TEMP_DIR = os.path.join(*_path[:_sub_idx], DATA_DIR_NAME, '_tmp')
 #if not os.path.isdir(TEMP_DIR):
@@ -61,33 +54,6 @@ def get_file_list(data_dir, max_files):
 
 def fn_to_id(fn):
     return os.path.split(fn)[-1].replace(DATA_EXT, '')
-
-def get_url(url, headers=None, cookies=None, encoding=None):
-    errors = 0
-    while True:
-        try:
-            res = requests.get(url, headers=headers, cookies=cookies,
-                               allow_redirects=True, timeout=GET_URL_TIMEOUT,
-                               verify=False)
-            if encoding:
-                res.encoding = encoding
-            break
-        except requests.exceptions.Timeout:
-            print('{}Connect timeout #{}. Waiting...'
-                      .format('' if errors else '\n', errors),
-                  end='', file=sys.stderr)
-            time.sleep(GET_URL_RETRY_TIMEOUT)
-            print('\rConnect timeout #{}. Retrying...'.format(errors),
-                  file=sys.stderr)
-        except requests.exceptions.ConnectionError:
-            print('{}Connection error #{}. Waiting...'
-                      .format('' if errors else '\n', errors),
-                  end='', file=sys.stderr)
-            time.sleep(GET_URL_RETRY_CONNERROR)
-            print('\rConnection error #{}. Retrying...'.format(errors),
-                  file=sys.stderr)
-        errors += 1
-    return res
 
 def norm_text(text):
     text = text.replace('*', ' ').replace('•', ' ').replace('⁄', '/') \

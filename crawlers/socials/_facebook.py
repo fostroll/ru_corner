@@ -55,16 +55,18 @@ re1 = re.compile(r'[^ЁА-Яёа-я]')
 re2 = re.compile(r'\s+')
 re4 = re.compile(r'#\b\S+\b')
 re5 = re.compile(r'\W')
-def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
+def get_post_text(page_url,
+                  min_words=_utils.MIN_CHUNK_WORDS,
+                  max_words=_utils.MAX_CHUNK_WORDS,
+                  post_limit=_utils.POST_LIMIT,
                   driver=None, cookies=None, silent=False):
+    need_quit = False
     if not silent:
         print('START', page_url)
-    if driver:
-        driver.execute_script('window.open("{}");'.format(page_url))
-        driver.switch_to.window(driver.window_handles[-1])
-    else:
+    if not driver:
+        need_quit = True
         driver = init(cookies)
-        driver.get(page_url)
+    driver.get(page_url)
     page, text = None, None
 
     class PageEndException(Exception):
@@ -73,6 +75,7 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
     try:
         labels = set()
         post, prev_page_len = None, -1
+        prev_post = None
         for post_no in range(1, post_limit + 1):
             tries = 0
             while True:
@@ -89,7 +92,14 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                     #print(label, labels)
                     if label not in labels:
                         labels.add(label)
-                        post = post_
+                        try:
+                            # if repost, continue
+                            elem = \
+                                post_.find_element_by_class_name('hqeojc4l')
+                            continue
+                        except NoSuchElementException:
+                            pass
+                        post = prev_post = post_
                         tries = 0
                         break
                 else:
@@ -99,6 +109,9 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                     if page_len == prev_page_len:
                         if tries >= 2:
                             raise PageEndException()
+                        if prev_post:
+                            _utils.selenium_scroll_into_view(driver,
+                                                             prev_post)
                         tries += 1
                     else:
                         tries = 0
@@ -146,10 +159,13 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
                         pass
                 if not post:
                     break
-                page = post.get_attribute('innerHTML')
-                elems = post.find_elements_by_css_selector(
-                    'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
-                )
+                try:
+                    page = post.get_attribute('innerHTML')
+                    elems = post.find_elements_by_css_selector(
+                        'div.cxmmr5t8.oygrvhab.hcukyx3x.c1et5uql.ii04i59q'
+                    )
+                except StaleElementReferenceException:
+                    continue
                 #text = ''.join(x.text for x in elems if x.text).strip()
                 text = ''
                 for elem in elems:
@@ -184,16 +200,13 @@ def get_post_text(page_url, min_words=20, max_words=200, post_limit=20,
     except PageEndException:
         pass
 
-    if len(driver.window_handles) > 1:
-        driver.close()
-        driver.switch_to.window(driver.window_handles[-1])
-    else:
+    if need_quit:
         driver.quit()
     return text, page
 
-def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
-                        authors_ignore=None, driver=None, cookies=None,
-                        silent=False):
+def get_comment_authors(page_url, num_authors=10, depth=_utils.SEARCH_DEPTH,
+                        post_limit=_utils.POST_LIMIT, authors_ignore=None,
+                        driver=None, cookies=None, silent=False):
     if not silent:
         print('START', page_url)
     if driver:
@@ -345,7 +358,7 @@ def get_comment_authors(page_url, num_authors=10, depth=1, post_limit=20,
                                               'timeout. Retrying...', end='')
                                         if tries >= 2:
                                             print('\rWARNING: Comments loading '
-                                                  'timeout. Skipped')
+                                                  'timeout. Skipped    ')
                                             break
                                         tries += 1
                         except:
