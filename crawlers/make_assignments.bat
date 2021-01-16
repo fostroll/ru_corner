@@ -1,1 +1,1 @@
-python make_assignments.py venus dashleo
+python make_assignments.py -d newswire venus dashleo

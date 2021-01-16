@@ -93,7 +93,7 @@ re0 = re.compile(r'<p>((?:.|\n)*?)</p>')
 re1 = re.compile(r'<.*?>|\(.*?\)')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
-    if texts_total >= utils.TEXTS_FOR_SOURCE:
+    if texts_total >= 1000:#utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.svoboda.org/a/27016704.html'
     #link_no = 1490

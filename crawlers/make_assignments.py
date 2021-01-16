@@ -9,8 +9,16 @@ import sys
 from _utils_add import _path, _sub_idx, DATA_DIR_NAME
 
 
-opers = sys.argv[1:]
-assert opers, 'ERROR: Usage: {} <oper1> <oper2> ...'.format(sys.argv[0])
+domain, opers = None, sys.argv[1:]
+if opers:
+    if opers[0] == '-d':
+        opers = opers[1:]
+        if opers:
+            domain = opers[0]
+            opers = opers[1:]
+assert opers, \
+       'ERROR: Usage: {} [-d domain[,domain,...]] <oper1> <oper2> ...' \
+           .format(sys.argv[0])
 
 def setdir_(suffix):
     dir_ = os.path.join(*_path[:_sub_idx], DATA_DIR_NAME, suffix)
@@ -28,7 +36,9 @@ assert not os.path.isdir(ASSIGNMENTS_DIR), \
     'ERROR: The directory {} already exists'.format(ASSIGNMENTS_DIR)
 
 max_pass, oper_no, max_oper = len(opers) + 1, 0, len(opers) - 1
-for fn in sorted(glob.glob(UNTAGGED_DIR + '/*/*/*.txt', recursive=True)):
+for fn in sorted(glob.glob(UNTAGGED_DIR
+                         + '/{}/*/*.txt'.format(domain if domain else '*'),
+                           recursive=True)):
     for pass_no in range(1, max_pass):
         out_fn = fn.replace(UNTAGGED_DIR,
                             os.path.join(ASSIGNMENTS_DIR,
