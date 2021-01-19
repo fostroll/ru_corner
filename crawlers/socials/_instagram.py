@@ -1,7 +1,6 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
-from html import unescape
 import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -152,15 +151,16 @@ def get_post_text(page_url,
                     print(text)
                 _utils.selenium_close_window(driver)
                 text = re3.sub('\n', re2.sub(' ',
-                    unescape(text).replace('\u200b', '') \
-                                  .replace('\ufeff', '') \
-                                  .replace('й', 'й').replace('ё', 'ё') \
-                                  .strip()
+                    #unescape(text).replace('\u200b', '') \
+                    #              .replace('\ufeff', '') \
+                    #              .replace('й', 'й').replace('ё', 'ё') \
+                    #              .strip()
+                    utils.norm_text2(text)
                 ))
-                text0 = re0.sub('', re4.sub('', text))
-                text1 = re1.sub('', text0)
                 if not silent:
                     print(text)
+                text0 = re0.sub('', re4.sub('', text))
+                text1 = re1.sub('', text0)
                 if text0 and len(text1) / len(text0) >= .9:
                     num_words = len([x for x in re4.sub('', text).split()
                                        if re5.sub('', x)])

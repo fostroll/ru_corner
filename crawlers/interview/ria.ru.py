@@ -116,9 +116,10 @@ for link_no, link in enumerate(links, start=1):
     issent = False
     prev_speaker, prev_strong, curr_speaker = None, None, None
     for line in res:
-        line = unescape(line).replace('\u200b', '').replace('\ufeff', '') \
-                             .replace('й', 'й').replace('ё', 'ё') \
-                             .replace('</strong><strong>', '')
+        #line = unescape(line).replace('\u200b', '').replace('\ufeff', '') \
+        #                     .replace('й', 'й').replace('ё', 'ё') \
+        #                     .replace('</strong><strong>', '')
+        line = utils.norm_text2(line).replace('</strong><strong>', '')
         line = re1.sub(r'{\g<1>}', line)
         line = re2.sub('', line)
         line = re2a.sub(' ', line).strip()

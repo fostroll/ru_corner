@@ -2,7 +2,6 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
-from html import unescape
 import os
 import random
 import re
@@ -165,10 +164,11 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
                 if line:
                     text0.append(re.sub(r'\s+', ' ', line))
             text = '\n'.join(text0)
-            text = unescape(text).replace('\u200b', '') \
-                                 .replace('\ufeff', '') \
-                                 .replace('й', 'й').replace('ё', 'ё') \
-                                 .replace('\n\n', '\n').strip()
+            #text = unescape(text).replace('\u200b', '') \
+            #                     .replace('\ufeff', '') \
+            #                     .replace('й', 'й').replace('ё', 'ё') \
+            #                     .replace('\n\n', '\n').strip()
+            text = utils.norm_text2(text).replace('\n\n', '\n')
         if text:
             texts_total += 1
             with open(page_fn, 'wt', encoding='utf-8') as f:

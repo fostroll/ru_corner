@@ -78,8 +78,9 @@ re1 = re.compile(r'<.*?>')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     link, header = link.split('\t')
-    header = unescape(header).replace('\u200b', '').replace('\ufeff', '') \
-                             .replace('й', 'й').replace('ё', 'ё').strip()
+    #header = unescape(header).replace('\u200b', '').replace('\ufeff', '') \
+    #                         .replace('й', 'й').replace('ё', 'ё').strip()
+    header = utils.norm_text2(header)
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.interfax.ru/interview/374150'
@@ -109,8 +110,9 @@ for link_no, link in enumerate(links, start=1):
         continue
     lines = []
     for line in res:
-        line = unescape(re1.sub('', line)).replace('\u200b', '') \
-                                          .replace('\ufeff', '').strip()
+        #line = unescape(re1.sub('', line)).replace('\u200b', '') \
+        #                                  .replace('\ufeff', '').strip()
+        line = utils.norm_text2(re1.sub('', line))
         #if line in ['ЕЩЕ ПО ТЕМЕ', 'МЕЖДУ ТЕМ', 'ПО ТЕМЕ', 'ЧИТАЙТЕ ТАКЖЕ']:
         if len(line) > 5 and line.isupper() \
                          and line.replace(' ', '').isalpha():

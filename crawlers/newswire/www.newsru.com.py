@@ -75,8 +75,9 @@ re3 = re.compile(r'<.*?>')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     link, header = link.split('\t')
-    header = unescape(header).replace('\u200b', '').replace('\ufeff', '') \
-                             .replace('й', 'й').replace('ё', 'ё').strip()
+    #header = unescape(header).replace('\u200b', '').replace('\ufeff', '') \
+    #                         .replace('й', 'й').replace('ё', 'ё').strip()
+    header = utils.norm_text2(header)
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.newsru.com/sport/11oct2020/ukrger.html'
@@ -100,8 +101,9 @@ for link_no, link in enumerate(links, start=1):
     res = res.group(1).split('<p class="maintext">')
     lines = []
     for line in res:
-        line = unescape(re3.sub('', re2.sub('', re1.sub('', line)))) \
-                   .replace('\u200b', '').replace('\ufeff', '').strip()
+        #line = unescape(re3.sub('', re2.sub('', re1.sub('', line)))) \
+        #           .replace('\u200b', '').replace('\ufeff', '').strip()
+        line = utils.norm_text2(re3.sub('', re2.sub('', re1.sub('', line))))
         if any(x.isalpha() for x in line):
             lines.append(' '.join(line.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:

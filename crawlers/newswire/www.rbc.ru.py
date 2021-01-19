@@ -99,8 +99,9 @@ re1 = re.compile(r'<.*?>')
 need_enter = False
 for link_no, link in enumerate(links, start=1):
     link, header = link.split('\t')
-    header = unescape(header).replace('\u200b', '').replace('\ufeff', '') \
-                             .replace('й', 'й').replace('ё', 'ё').strip()
+    #header = unescape(header).replace('\u200b', '').replace('\ufeff', '') \
+    #                         .replace('й', 'й').replace('ё', 'ё').strip()
+    header = utils.norm_text2(header)
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
     #link = 'https://www.interfax.ru/interview/374150'
@@ -132,9 +133,10 @@ for link_no, link in enumerate(links, start=1):
     for line in res:
         if '<div' not in line:
             for line_ in line.split('<br />'):
-                line_ = unescape(re1.sub('', line_)).replace('\u200b', '') \
-                                                    .replace('\ufeff', '') \
-                                                    .strip()
+                #line_ = unescape(re1.sub('', line_)).replace('\u200b', '') \
+                #                                    .replace('\ufeff', '') \
+                #                                    .strip()
+                line_ = utils.norm_text2(re1.sub('', line_))
                 if line_:
                     lines.append(' '.join(line_.split()))
     if len(lines) >= _utils.MIN_TEXT_LINES:

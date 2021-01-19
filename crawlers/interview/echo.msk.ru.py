@@ -248,9 +248,10 @@ for link_no, link in enumerate(links, start=1):
                     res = res.replace('\r', '') \
                              .replace('<br>', '\n').replace('</p>', '\n')
                     res = re4.sub(' ', '<' + res)
-                    txt = unescape(res).replace('\u200b', '') \
-                                       .replace('\ufeff', '') \
-                                       .replace('й', 'й').replace('ё', 'ё')
+                    #txt = unescape(res).replace('\u200b', '') \
+                    #                   .replace('\ufeff', '') \
+                    #                   .replace('й', 'й').replace('ё', 'ё')
+                    txt = utils.norm_text2(res)
                     lines = []
                     maybe_caption = False
                     for line in [x.strip() for x in txt.split('\n')]:

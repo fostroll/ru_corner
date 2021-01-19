@@ -1,5 +1,6 @@
 #-*- encoding: utf-8 -*-
 
+from html import unescape
 import os
 import requests
 requests.packages.urllib3.disable_warnings(
@@ -66,3 +67,9 @@ def get_url(url, headers=None, cookies=None, encoding=None):
                   file=sys.stderr)
         errors += 1
     return res
+
+def norm_text2(text):
+     return unescape(text).replace('\u00a0', ' ') \
+                          .replace('\u200b', '').replace('\ufeff', '') \
+                          .replace('й', 'й').replace('ё', 'ё') \
+                          .strip()

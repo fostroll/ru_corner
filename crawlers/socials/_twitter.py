@@ -1,7 +1,6 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
-from html import unescape
 import json
 import os
 import re
@@ -114,15 +113,16 @@ def get_post_text(page_url,
                                 text = ''
                                 break
                             text += elem.text + ' '
-                        text = unescape(text).replace('\u200b', '') \
-                                             .replace('\ufeff', '') \
-                                             .replace('й', 'й') \
-                                             .replace('ё', 'ё') \
-                                             .strip()
-                        text0 = re0.sub('', text)
-                        text1 = re1.sub('', text0)
+                        #text = unescape(text).replace('\u200b', '') \
+                        #                     .replace('\ufeff', '') \
+                        #                     .replace('й', 'й') \
+                        #                     .replace('ё', 'ё') \
+                        #                     .strip()
+                        text = utils.norm_text2(text)
                         if not silent:
                             print(text)
+                        text0 = re0.sub('', text)
+                        text1 = re1.sub('', text0)
                         if text0 and len(text1) / len(text0) >= .9:
                             num_words = len([x for x in re4.sub('', text)
                                                            .split()

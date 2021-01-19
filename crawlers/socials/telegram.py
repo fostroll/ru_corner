@@ -132,9 +132,10 @@ if texts_total < utils.TEXTS_FOR_SOURCE:
             if text.endswith('</a>'):
                 pos = text.rfind('<a')
                 text = text[:pos]
-            text = unescape(re.sub(r'<[^>]*>', '', text))
-            text = text.replace('\u200b', '').replace('\ufeff', '') \
-                       .replace('й', 'й').replace('ё', 'ё')
+            #text = unescape(re.sub(r'<[^>]*>', '', text))
+            #text = text.replace('\u200b', '').replace('\ufeff', '') \
+            #           .replace('й', 'й').replace('ё', 'ё')
+            text = utils.norm_text2(re.sub(r'<[^>]*>', '', text))
             text = re.sub(r'[^\S\n]+', ' ', text)
             text = '\n'.join(x for x in (x.strip() for x in text.split('\n'))
                                if x)

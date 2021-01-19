@@ -2,7 +2,6 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
-from html import unescape
 import os
 import random
 import re
@@ -66,11 +65,12 @@ def parse_page(page):
     text = re.sub(r'<[^>]*>', '', text)
     text0 = []
     for line in text.split('\n'):
-        line = unescape(line).replace('\u00a0', ' ') \
-                             .replace('\u200b', '') \
-                             .replace('\ufeff', '') \
-                             .replace('й', 'й').replace('ё', 'ё') \
-                             .strip()
+        #line = unescape(line).replace('\u00a0', ' ') \
+        #                     .replace('\u200b', '') \
+        #                     .replace('\ufeff', '') \
+        #                     .replace('й', 'й').replace('ё', 'ё') \
+        #                     .strip()
+        line = utils.norm_text2(line)
         if line:
             text0.append(re.sub(r'\s+', ' ', line))
     return '\n'.join(text0)
