@@ -4,6 +4,7 @@
 from collections import OrderedDict
 import json
 import os
+import random
 import re
 import time
 
@@ -40,6 +41,9 @@ MAX_FILES = 10000
 MIN_DEPTH = 3
 SKIP_FIRST = 4
 SILENT = False
+
+if SEED:
+    random.seed(SEED)
 
 '''===========================================================================
 Texts download and parse
@@ -122,7 +126,7 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
                     break
                 authors[author_id] = author
                 docs = comment['media']['richtextContent']['document']
-                line = assemble_text(docs).strip()
+                line = assemble_text(docs).strip(), author, author_id
                 if not line:
                     break
                 lines.append(line)
@@ -143,10 +147,12 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
         while True:
             if len(lines) < MIN_DEPTH:
                 break
-            text = '\n\n'.join(lines)
+            text_ = '\n'.join(x[0] for x in lines)
+            text = '\n'.join(x[1] + ' (' + x[2] + ')\t'
+                           + x[0].replace('\n', '\n\t') for x in lines)
             if not SILENT:
                 print(text)
-            text_ = re6.sub('', text)
+            text_ = re6.sub('', text_)
             text0 = re0.sub('', text_)
             text1 = re1.sub('', text0)
             if text0 and len(text1) / len(text0) >= .9:
@@ -176,7 +182,7 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
                 print(header, file=f)
                 json.dump(comments, f, indent=4, ensure_ascii=False)
             with open(text_fn, 'wt', encoding='utf-8') as f:
-                print(header, file=f)
+                print('{} ({})'.format(texts_total, header), file=f)
                 f.write(text)
             if authors_ignore is not None:
                 need_enter = os.path.isfile(AUTHORS_IGNORE_FN)
@@ -195,7 +201,7 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
             f.readline()
             comments = json.load(f)
         post_id_candidates = [comments[0]['postId']]
-        skip, SKIP_FIRST
+        skip = SKIP_FIRST
         if os.path.isfile(page_fn.replace(utils.PAGES_DIR, utils.TEXTS_DIR)):
             continue
         parse_comments(comments, None)
@@ -275,6 +281,15 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
                         time.sleep(1)
                     res = res.get('comments')
                     inprogress = False
+
+                    def store_post_id(post_id):
+                        posts_ignore.add(post_id)
+                        with open(POSTS_IGNORE_FN, 'at',
+                                  encoding='utf-8') as f:
+                            print(post_id, file=f)
+                        if texts_total > utils.TEXTS_FOR_SOURCE:
+                            raise OverflowError()
+
                     for comment in res.values():
                         depth = comment['depth']
                         if depth == 0:
@@ -285,16 +300,17 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
                                                          authors_ignore):
                             texts_total += 1
                             need_enter = True
-                            posts_ignore.add(post_id)
-                            with open(POSTS_IGNORE_FN, 'at',
-                                      encoding='utf-8') as f:
-                                print(post_id, file=f)
-                            if texts_total > utils.TEXTS_FOR_SOURCE:
-                                raise OverflowError()
+                            store_post_id(post_id)
                             inprogress = False
                         if inprogress:
                             comments[depth:] = [comment]
                             num_comments = depth
+                    if inprogress and num_comments >= MIN_DEPTH \
+                                  and parse_comments(comments,
+                                                     authors_ignore):
+                        texts_total += 1
+                        need_enter = True
+                        store_post_id(post_id)
         with open('error.log', 'wt',
                   encoding='utf-8') as f:
             print('NO POSTS. Last success url:', file=f)
@@ -305,12 +321,23 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
 if need_enter:
     print()
 
+if os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR, MAX_FILES,1)):
+    print('WARNING: Chunks are already exist. '
+          'Delete them if you want to recreate')
+    exit()
+
+page_fns = utils.get_file_list(utils.PAGES_DIR, MAX_FILES)
+text_fns = utils.get_file_list(utils.TEXTS_DIR, MAX_FILES)
+assert len(page_fns) == len(text_fns)
+#new_order = utils.shuffle_file_list(page_fns)
+utils.shuffle_file_list(text_fns, new_order=None)
+
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-_utils.make_chunks(num_links)
+_utils.make_chunks(MAX_FILES)
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(num_links, isdialog=False)
+utils.tokenize(MAX_FILES, isdialog=True)

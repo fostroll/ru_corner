@@ -9,7 +9,8 @@ import sys
 import time
 from toxine.text_preprocessor import TextPreprocessor
 
-from _utils_add import _path, _sub_idx, DATA_DIR_NAME, get_url, norm_text2
+from _utils_add import _path, _sub_idx, DATA_DIR_NAME, \
+                       get_url, norm_text2, shuffle_file_list
 
 
 CURR_PATH = os.path.abspath(sys.argv[0])

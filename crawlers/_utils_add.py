@@ -2,6 +2,7 @@
 
 from html import unescape
 import os
+import random
 import requests
 requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning
@@ -73,3 +74,19 @@ def norm_text2(text):
                           .replace('\u200b', '').replace('\ufeff', '') \
                           .replace('й', 'й').replace('ё', 'ё') \
                           .strip()
+
+def shuffle_file_list(fns, new_order=None, keep_first=0):
+     fns = sorted(fns)
+     if keep_first:
+         fns = fns[prevent_first:]
+     if not new_order:
+         new_order = list(range(len(fns)))
+         random.shuffle(new_order)
+     assert len(new_order) == len(fns)
+     new_fns = [fns[i] for i in new_order]
+     tmp_fns = [x + '$' for x in new_fns]
+     for fn, new_fn in zip(fns, tmp_fns):
+         os.rename(fn, new_fn)
+     for fn, new_fn in zip(tmp_fns, new_fns):
+         os.rename(fn, new_fn)
+     return new_order
