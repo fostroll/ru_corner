@@ -125,11 +125,11 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
         return res
 
     for texts_total, page_fn in enumerate(page_fns, start=1):
+        if os.path.isfile(page_fn.replace(utils.PAGES_DIR, utils.TEXTS_DIR)):
+            continue
         with open(page_fn, 'rt', encoding='utf-8') as f:
             header = f.readline().strip()
             comments = json.load(f)
-        if os.path.isfile(page_fn.replace(utils.PAGES_DIR, utils.TEXTS_DIR)):
-            continue
         parse_comments(comments, header, None)
 
     texts_total += 1
