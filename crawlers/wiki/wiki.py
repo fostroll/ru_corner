@@ -107,13 +107,11 @@ if not page_fns:
                         print(article_no, end='', file=f)
                         f.write('\n'.join([id_, title + '\n', text]))
                     texts_total += 1
-                    print('\n{} (of {}); ETA: {}                    \n'
+                    print('\n{} (of {}); ETA: {}'
                               .format(texts_total,
                                       num_articles,#utils.TEXTS_FOR_SOURCE,
-                                      seconds_to_strtime(eta)),
-                          end='')
-    time1 = time.time()
-    print('Total time:', seconds_to_strtime(time1 - time0))
+                                      seconds_to_strtime(eta)))
+    print('Total time:', seconds_to_strtime(time.time() - time0))
 
 chunks_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
 if chunks_fns and len(chunks_fns) < utils.CHUNKS_FOR_SOURCE:

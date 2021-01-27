@@ -2,7 +2,6 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
-import datetime
 from html import unescape
 import os
 import random
@@ -50,56 +49,43 @@ else:
             'ERROR: Only {} books on {}'.format(len(res), url)
         for book in res:
             token = '<a href="'
-            pos = res.find(token)
-            book_url = res[pos + token:]
-            pos = book_url.find('"')
-            book_url = book_url[:pos]
-                            <div class="media">
-                                <div class="media-left">
-                                    <div>
-                                        <a href="https://www.rulit.me/tag/samizdat/sledovatel-i-demon-si-download-625617.html"><img alt="Следователь и Демон [СИ]" src="https://www.rulit.me/data/programs/images/sledovatel-i-demon-si_625617.jpg" width="150" style="margin-top: 15px; margin-left: 15px;"/></a>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <div class="post-content">
-                                        <div class="entry-header text-left text-uppercase">
-                                            <a href="https://www.rulit.me/tag/samizdat" class="post-cat">Самиздат</a>, <a href="https://www.rulit.me/tag/fantasy" class="post-cat">Фэнтези</a>                                            <h4><a href="https://www.rulit.me/tag/samizdat/sledovatel-i-demon-si-download-625617.html"><strong>Следователь и Демон [СИ]</strong></a></h4>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>
-                                            <div class="book_info">Автор: <a href="https://www.rulit.me/author/aleksandrov-aleksandr-n">Александров Александр Н. <span class=ls_nick></span></a></div>                                            <div class="book_info">Серия: <a href="https://www.rulit.me/series/figaro-sledovatel-departamenta-drugih-del">Фигаро, следователь Департамента Других Дел</a> #2</div>                                                                                        <div class="book_info">Язык: <span class="date_value">русский</span></div>
-
-    res = re.sub(r'<!--(:?.|\n)+?-->\n*', '', res) \
-            .replace('Привет всем твоим!', '')
-    re0 = re.compile(
-        r'<li><tt><small>(?:<A HREF=.+?>)?<b>(dir|www|огл)</b>'
-        r'.+?</small></tt> <A HREF=(.+?)><b>(.+?)</b></A>$'
-    )
-    for line in (x for x in res.split('\n') if x):
-        line = unescape(line.rstrip())
-        match = re0.match(line)
-        if match:
-            type_, link, author = match.groups()
-            if not link.startswith('http:'):
-                link = (ROOT_URL if link.startswith('/') else url) + link
-            if link not in links:
-                links[link] = (author, type_)
-        elif line == '<br>':
-            pass
-        elif line.startswith('</pre>') \
-        or line.startswith('<dir><dir><a name='):
-            break
-        else:
-            raise ValueError('ERROR: Unknown line format:\n{}\non {}'
-                                 .format(line, url))
+            pos = book.find(token)
+            book = book[pos + len(token):]
+            pos = book.find('"')
+            book_url = book[:pos]
+            token = '<div class="book_info">Автор: <a href="'
+            pos = book.find(token)
+            book = book[pos + len(token):]
+            pos = book.find('">')
+            author_url = book[:pos]
+            book = book[pos + 2:]
+            pos = book.find('</a>')
+            author_name = re.sub('<.*?>', '', book[:pos]).strip()
+            token = '<div class="book_info">Язык: <span class="date_value">'
+            pos = book.find(token)
+            book = book[pos + len(token):]
+            pos = book.find('<')
+            lang = book[:pos]
+            if lang == 'русский':
+                links[book_url] = (author_url, author_name)
+        print('\r{} (of {})'.format(page_no, max_page_no), end='')
     links = list('\t'.join([x, '\t'.join(y)]) for x, y in links.items())
 
     random.shuffle(links)
     with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
     print()
-exit()
+
+links_, links = links, OrderedDict()
+for link in links_:
+    book_url, author_url, author_name = link.split('\t')
+    if author_url in links:
+        links[author_url].append(book_url)
+    else:
+        links[author_url] = [book_url]
 num_links = len(links)
+print(num_links)
+exit()
 
 '''===========================================================================
 Texts download and parse
