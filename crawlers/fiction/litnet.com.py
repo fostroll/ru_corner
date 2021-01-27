@@ -170,6 +170,7 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
                             break
                 book, author, book_url = match.groups()
                 book_url = ROOT_URL + book_url
+                #book_url = 'https://litnet.com/ru/reader/kosmos-yuli-chaikinoi-b79691?c=660003'
                 if not SILENT:
                     print(link_no, book_url)
                 res = utils.get_url(book_url, cookies=cookies)
@@ -301,17 +302,17 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
                        .replace('<o:p>', '').replace('</o:p>', '')
             line = re32.sub('', re31.sub('', re30.sub('', line)))
             #if not lines:
-            line0 = line.lower().strip()
-            if line0.startswith('глава') or line0.startswith('часть') \
-                                         or re20.match(line0) \
-            or '©' in line or re21.search(line) or re22.search(line):
-                continue
             line0 = re0.sub('', line)
             if '<' in line:
                 assert 0, 'ERROR: Invalid token: url {}, line:\n{}' \
                               .format(link, line)
             line = utils.norm_text2(line).strip() if line0 else None
             if line and re23.search(line):
+                line0 = line.lower().strip()
+                if line0.startswith('глава') or line0.startswith('часть') \
+                                             or re20.match(line0) \
+                or '©' in line or re21.search(line) or re22.search(line):
+                    continue
                 lines.append(line)
                 #print(line)
                 if len(lines) >= MAX_TEXT_LINES:
