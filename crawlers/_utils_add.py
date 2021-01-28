@@ -8,6 +8,7 @@ requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning
 )
 import sys
+import textract
 import time
 
 
@@ -70,10 +71,11 @@ def get_url(url, headers=None, cookies=None, encoding=None):
     return res
 
 def norm_text2(text):
-     return unescape(text).replace('\u00a0', ' ') \
-                          .replace('\u200b', '').replace('\ufeff', '') \
-                          .replace('й', 'й').replace('ё', 'ё') \
-                          .strip()
+     return unescape(text.replace('&shy;', '')) \
+         .replace('\u00a0', ' ') \
+         .replace('\u200b', '').replace('\ufeff', '') \
+         .replace('й', 'й').replace('ё', 'ё') \
+         .strip()
 
 def shuffle_file_list(fns, new_order=None, keep_first=0):
      fns = sorted(fns)
@@ -90,3 +92,15 @@ def shuffle_file_list(fns, new_order=None, keep_first=0):
      for fn, new_fn in zip(tmp_fns, new_fns):
          os.rename(fn, new_fn)
      return new_order
+
+def read_doc(fn):
+    lang = os.environ.get('LANG')
+    os.environ['LANG'] = 'ru_RU.UTF-8'
+    encoding='utf-8'
+    text = textract.process(fn, encoding=encoding)
+    text = text.decode(encoding)
+    if lang:
+        os.environ['LANG'] = lang
+    else:
+        del os.environ['LANG']
+    return text

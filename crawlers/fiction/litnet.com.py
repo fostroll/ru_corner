@@ -25,7 +25,7 @@ MIN_CHUNK_WORDS = 40
 MAX_CHUNK_WORDS = 200
 SILENT = True
 INVALID_URLS = set(
-    '/ru/book/medved-i-zayac-b37435'
+#    '/ru/book/medved-i-zayac-b37435'
 )
 
 if SEED:
@@ -167,7 +167,7 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
                     else:
                         if not SILENT:
                             print('document possible removed')
-                            break
+                        break
                 book, author, book_url = match.groups()
                 book_url = ROOT_URL + book_url
                 #book_url = 'https://litnet.com/ru/reader/kosmos-yuli-chaikinoi-b79691?c=660003'
@@ -252,6 +252,7 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
     res = re.sub('<p [^>]+</p>', '', res)
     res = re.sub('<a [^>]*href="#[^>"]*"[^>]*>[^<]*</a>', '', res)
     res = re.sub('<!--.*?-->', '', res)
+    is_invalid = False
     while True:
         end_token = '</p>'
         pos = res.find('<p')
@@ -304,8 +305,10 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
             #if not lines:
             line0 = re0.sub('', line)
             if '<' in line:
-                assert 0, 'ERROR: Invalid token: url {}, line:\n{}' \
-                              .format(link, line)
+                print('\nWARNING: Invalid token: url {}, line: {}'
+                              .format(link, line))
+                is_invalid = True
+                break
             line = utils.norm_text2(line).strip() if line0 else None
             if line and re23.search(line):
                 line0 = line.lower().strip()
@@ -317,7 +320,7 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
                 #print(line)
                 if len(lines) >= MAX_TEXT_LINES:
                     break
-        if len(lines) >= MAX_TEXT_LINES:
+        if len(lines) >= MAX_TEXT_LINES or is_invalid:
             break
     res, text = False, None
     while len(lines) >= MIN_TEXT_LINES:
@@ -389,24 +392,25 @@ Chunks creation
 ==========================================================================='''
 
 chunks_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
-if chunks_fns and len(chunks_fns) < utils.CHUNKS_FOR_SOURCE:
+if not chunks_fns:
+    text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
+    text_idx = 0
+    for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
+                                       start=1):
+        chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
+        assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
+        with open(text_fn, 'rt', encoding='utf-8') as f_in, \
+             open(chunk_fn, 'wt', encoding='utf-8') as f_out:
+            f_in.readline()
+            f_out.write(f_in.read())
+            print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
+                  end='')
+    if text_idx:
+        print()
+elif len(chunks_fns) < utils.CHUNKS_FOR_SOURCE:
     print('The chunks directory is not empty but not full. '
           'Delete all .txt files from there to recreate chunks')
     exit()
-text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
-text_idx = 0
-for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
-                                   start=1):
-    chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
-    assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
-    with open(text_fn, 'rt', encoding='utf-8') as f_in, \
-         open(chunk_fn, 'wt', encoding='utf-8') as f_out:
-        f_in.readline()
-        f_out.write(f_in.read())
-        print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
-              end='')
-if text_idx:
-    print()
 
 '''===========================================================================
 Tokenization
