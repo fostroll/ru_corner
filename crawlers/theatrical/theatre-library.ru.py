@@ -150,7 +150,7 @@ else:
     time1 = time.time()
     print('\nTotal time:', seconds_to_strtime(time1 - time0))
 
-links_, links = links, OrderedDict()
+links_, links, author_links = links, [], OrderedDict()
 langs, genres, centures, formats = {}, {}, {}, {}
 for link in links_:
     book_url, lang, genre, centure, format, author_url, author_name = \
@@ -166,11 +166,11 @@ for link in links_:
         'Теоретическая работа, монография',
         'Учебник, учебное пособие'
     ]:
-        links[book_url] = author_url
-        #if author_url in links:
-        #    links[author_url].append(book_url)
-        #else:
-        #    links[author_url] = [book_url]
+        links.append(book_url)
+        if author_url in author_links:
+            author_links[author_url].append(book_url)
+        else:
+            author_links[author_url] = [book_url]
 '''
     langs[lang] = langs.get(lang, 0) + 1
     genres[genre] = genres.get(genre, 0) + 1
@@ -188,9 +188,9 @@ with open('formats', 'wt', encoding='utf-8') as f:
 num_links = len(links)
 
 '''===========================================================================
-Texts download
+Files download
 ==========================================================================='''
-for link_no, link in enumerate(links):
+for link_no, link in enumerate(links, start=1):
     pos = link.rfind('/')
     page_fn = os.path.join(utils.PAGES_DIR, link[pos + 1:])
     if not os.path.isfile(page_fn):
@@ -199,38 +199,62 @@ for link_no, link in enumerate(links):
             f.write(page.content)
     print('\r{} (of {})'.format(link_no, num_links), end='')
 print()
-exit()
+
+'''===========================================================================
+Texts collection
+==========================================================================='''
+text_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
+if not chunk_fns:
+    text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
+    text_idx = 0
+    for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
+                                       start=1):
+        chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
+        assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
+        with open(text_fn, 'rt', encoding='utf-8') as f_in, \
+             open(chunk_fn, 'wt', encoding='utf-8') as f_out:
+            f_in.readline()
+            f_out.write(f_in.read())
+            print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
+                  end='')
+    if text_idx:
+        print()
+elif len(chunk_fns) < utils.CHUNKS_FOR_SOURCE:
+    print('The chunks directory is not empty but not full. '
+          'Delete all .txt files from there to recreate chunks')
+    exit()
 
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-
-chunks_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
-if chunks_fns and len(chunks_fns) < utils.CHUNKS_FOR_SOURCE:
+chunk_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
+if not chunk_fns:
+    text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
+    text_idx = 0
+    for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
+                                       start=1):
+        chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
+        assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
+        with open(text_fn, 'rt', encoding='utf-8') as f_in, \
+             open(chunk_fn, 'wt', encoding='utf-8') as f_out:
+            f_in.readline()
+            f_out.write(f_in.read())
+            print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
+                  end='')
+    if text_idx:
+        print()
+elif len(chunk_fns) < utils.CHUNKS_FOR_SOURCE:
     print('The chunks directory is not empty but not full. '
           'Delete all .txt files from there to recreate chunks')
     exit()
-text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
-text_idx = 0
-for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
-                                   start=1):
-    chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
-    assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
-    with open(text_fn, 'rt', encoding='utf-8') as f_in, \
-         open(chunk_fn, 'wt', encoding='utf-8') as f_out:
-        f_in.readline()
-        f_out.write(f_in.read())
-        print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
-              end='')
-if text_idx:
-    print()
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
 conll_fns = utils.get_file_list(utils.CONLL_DIR, utils.TEXTS_FOR_SOURCE)
-if conll_fns and len(conll_fns) < utils.CONLL_FOR_SOURCE:
+if not conll_fns:
+    utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)
+elif len(conll_fns) < utils.CONLL_FOR_SOURCE:
     print('The conll directory is not empty but not full. '
           'Delete all .txt files from there to recreate conll')
     exit()
-utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)

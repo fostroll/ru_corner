@@ -390,9 +390,8 @@ if need_enter:
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-
-chunks_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
-if not chunks_fns:
+chunk_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
+if not chunk_fns:
     text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
     text_idx = 0
     for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
@@ -407,7 +406,7 @@ if not chunks_fns:
                   end='')
     if text_idx:
         print()
-elif len(chunks_fns) < utils.CHUNKS_FOR_SOURCE:
+elif len(chunk_fns) < utils.CHUNKS_FOR_SOURCE:
     print('The chunks directory is not empty but not full. '
           'Delete all .txt files from there to recreate chunks')
     exit()
@@ -416,8 +415,9 @@ elif len(chunks_fns) < utils.CHUNKS_FOR_SOURCE:
 Tokenization
 ==========================================================================='''
 conll_fns = utils.get_file_list(utils.CONLL_DIR, utils.TEXTS_FOR_SOURCE)
-if conll_fns and len(conll_fns) < utils.CONLL_FOR_SOURCE:
+if not conll_fns:
+    utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)
+elif len(conll_fns) < utils.CONLL_FOR_SOURCE:
     print('The conll directory is not empty but not full. '
           'Delete all .txt files from there to recreate conll')
     exit()
-utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)

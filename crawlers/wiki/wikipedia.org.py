@@ -22,6 +22,9 @@ MAX_CHUNK_WORDS = 200
 if SEED:
     random.seed(SEED)
 
+'''===========================================================================
+Headers collection
+==========================================================================='''
 ARTICLE_NOS_FN = os.path.join(utils.PAGES_DIR, 'article_nos')
 if os.path.isfile(ARTICLE_NOS_FN):
     with open(ARTICLE_NOS_FN, 'rt') as f:
@@ -42,6 +45,9 @@ else:
         print(num_articles_total, file=f)
         f.write('\n'.join(str(x) for x in article_nos))
 
+'''===========================================================================
+Texts collection
+==========================================================================='''
 texts_total, num_articles = 0, len(article_nos)
 article_nos = {y: x for x, y in enumerate(article_nos)}
 page_fns = utils.get_file_list(utils.PAGES_DIR, utils.TEXTS_FOR_SOURCE)
@@ -113,8 +119,11 @@ if not page_fns:
                                       seconds_to_strtime(eta)))
     print('Total time:', seconds_to_strtime(time.time() - time0))
 
-chunks_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
-if not chunks_fns:
+'''===========================================================================
+Chunks creation
+==========================================================================='''
+chunk_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
+if not chunk_fns:
     text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
     text_idx = 0
     for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
@@ -129,14 +138,18 @@ if not chunks_fns:
                   end='')
     if text_idx:
         print()
-elif len(chunks_fns) < utils.CHUNKS_FOR_SOURCE:
+elif len(chunk_fns) < utils.CHUNKS_FOR_SOURCE:
     print('The chunks directory is not empty but not full. '
           'Delete all .txt files from there to recreate chunks')
     exit()
 
+'''===========================================================================
+Tokenization
+==========================================================================='''
 conll_fns = utils.get_file_list(utils.CONLL_DIR, utils.TEXTS_FOR_SOURCE)
-if conll_fns and len(conll_fns) < utils.CONLL_FOR_SOURCE:
+if not conll_fns:
+    utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)
+elif len(conll_fns) < utils.CONLL_FOR_SOURCE:
     print('The conll directory is not empty but not full. '
           'Delete all .txt files from there to recreate conll')
     exit()
-utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)
