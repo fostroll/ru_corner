@@ -1,13 +1,18 @@
 #-*- encoding: utf-8 -*-
 
+from bs4 import BeautifulSoup
 from html import unescape
+from html.parser import HTMLParser
 import os
 import random
+import re
 import requests
 requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning
 )
+from subprocess import Popen, PIPE
 import sys
+import tempfile
 import textract
 import time
 
@@ -18,6 +23,8 @@ CURR_PATH = os.path.abspath(sys.argv[0])
 GET_URL_TIMEOUT = 10  # seconds
 GET_URL_RETRY_TIMEOUT = 20  # seconds
 GET_URL_RETRY_CONNERROR = 60  # seconds
+SOFFICE = r'"C:\Program Files\LibreOffice\program\soffice.com"'
+PDFTOTEXT = r'pdftotext.exe'
 
 def splitall(path):
     allparts = []
@@ -93,7 +100,7 @@ def shuffle_file_list(fns, new_order=None, keep_first=0):
          os.rename(fn, new_fn)
      return new_order
 
-def read_doc(fn):
+def convert_doc(fn_in, fn_out=None):
     lang = os.environ.get('LANG')
     os.environ['LANG'] = 'ru_RU.UTF-8'
     encoding='utf-8'
@@ -103,4 +110,82 @@ def read_doc(fn):
         os.environ['LANG'] = lang
     else:
         del os.environ['LANG']
+    if fn_out:
+        with open(fn_out, 'wt', encoding='utf-8') as f:
+             f.write(text)
+    return text
+
+def convert_odt(fn_in, fn_out=None):
+#    proc = Popen('{} --nolockcheck --headless --convert-to txt:Text {}'
+#                     .format(SOFFICE, fn_in))
+    proc = Popen('{} --nolockcheck --cat {}'.format(SOFFICE, fn_in),
+                 shell=True, stdout=PIPE)
+    text = b''
+    for line in proc.stdout:
+        text += line
+#        sys.stdout.buffer.write(line)
+#        sys.stdout.buffer.flush()
+    proc.stdout.close()
+    proc.wait()
+    text = text.decode('cp1251')
+    if fn_out:
+        with open(fn_out, 'wt', encoding='utf-8') as f:
+             f.write(text)
+    return text
+
+def convert_pdf(fn_in, fn_out=None):
+    #pdftotext -enc UTF-8 [-layout] [-raw] [-simple] [-simple2] -nopgbrk pdf_fn txt_fn
+    fn_out_ = fn_out if fn_out else next(tempfile._get_candidate_names())
+    try:
+        for key in ['simple', 'raw']:
+            proc = Popen('{} -enc UTF-8 -{} -nopgbrk {} {}'
+                              .format(PDFTOTEXT, key, fn_in, fn_out_),
+                         shell=True, stdout=None)
+            proc.wait()
+            with open(fn_out_, 'rt', encoding='utf-8') as f:
+                text = f.read()
+            if len([x for x in text.split('\n') if ' ' * 20 in x]) < 20:
+                break
+    finally:
+        if not fn_out:
+            os.remove(fn_out_)
+    return text
+
+class HTMLFilter(HTMLParser):
+    text = ''
+    def handle_data(self, data):
+        self.text += data
+
+def convert_html(fn_in, fn_out=None):
+
+    def norm(text):
+        text = re.sub(r'\s+', ' ', text).replace('\n', ' ')
+        text = re.sub(r'(<(?:(?:[pP]|[dD][dD]|[hH]\d)[ >]|[bB][rR][> /]))',
+                      r'\n\g<1>', text)
+        text = re.sub(r'(</(?:[pP]|[dD][dD]|[hH]\d|[bB][rR])>)',
+                      r'\g<1>\n', text)
+        text = re.sub(r'</(?:[bB]|strong|STRONG)>\s*<(?:[bB]|strong|STRONG)>',
+                      '', text)
+        text = re.sub(r'<(/)?(?:[bB]|strong|STRONG)>', r'[[\g<1>b]]', text)
+        return text
+
+    with open(fn_in, 'rt', encoding='utf=8') as f:
+        pres = re.split('<[pP][rR][eE][^>]*>', f.read())
+        text = norm(pres[0])
+        for pre in pres[1:]:
+            chunks = re.split('</[pP][rR][eE]>', pre)
+            text += '<pre>' + chunks[0] + '</pre>'
+            chunks = norm(' '.join(chunks[1:]))
+            text += chunks
+        f = HTMLFilter()
+        f.feed(text)
+        text = f.text
+        #bs = BeautifulSoup(text, features='lxml')
+        #text = bs.get_text()
+    text = re.sub(r'(^|\n)\s*\[\[b]](.+?)\[\[/b]]', r'\g<1>\g<2>: ', text)
+    text = text.replace('[[b]]', '')
+    text = text.replace('[[/b]]', '')
+    if fn_out:
+        with open(fn_out, 'wt', encoding='utf-8') as f:
+             f.write(text)
     return text

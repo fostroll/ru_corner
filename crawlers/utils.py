@@ -10,6 +10,7 @@ import time
 from toxine.text_preprocessor import TextPreprocessor
 
 from _utils_add import _path, _sub_idx, DATA_DIR_NAME, \
+                       convert_doc, convert_html, convert_odt, convert_pdf, \
                        get_url, norm_text2, shuffle_file_list
 
 

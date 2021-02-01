@@ -2,18 +2,15 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
-from junky import seconds_to_strtime
-from html import unescape
 import os
 import random
 import re
-import time
 
 ###
 import sys
 sys.path.append('../')
 ###
-import utils  # txt = read_doc(fn)
+import utils
 
 
 SEED = 42
@@ -23,7 +20,8 @@ MIN_TEXT_LINES = 4
 MAX_TEXT_LINES = 20
 MIN_CHUNK_WORDS = 40
 MAX_CHUNK_WORDS = 200
-SILENT = True
+SKIP_FIRST = 100
+SILENT = False
 
 if SEED:
     random.seed(SEED)
@@ -48,7 +46,6 @@ else:
     pos = res.find('"')
     assert pos >= 0, "ERROR: Can't find authors on {}".format(url)
     max_page_no = int(res[:pos])
-    time0 = time.time()
     for page_no in range(1, max_page_no + 1):
         url = INIT_URL.format(page_no)
         res = utils.get_url(url)
@@ -135,20 +132,13 @@ else:
                 'ERROR: Not found: {}\n{}\n{}'.format(url, token, book)
             format = book_[:pos]
             links[book_url] = (lang, genre, centure, format, author_url, author_name)
-        time1 = time.time()
-        eta = (time1 - time0) * (max_page_no + 1 - page_no) / page_no
-        print('\r', ' ' * 60, end='')
-        print('\r{} (of {}); ETA: {}'
-                  .format(page_no, max_page_no,
-                          seconds_to_strtime(eta)),
-              end='')
+        print('\r{} (of {})'.format(page_no, max_page_no), end='')
     links = list('\t'.join([x, '\t'.join(y)]) for x, y in links.items())
 
     random.shuffle(links)
     with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
-    time1 = time.time()
-    print('\nTotal time:', seconds_to_strtime(time1 - time0))
+    print()
 
 links_, links, author_links = links, [], OrderedDict()
 langs, genres, centures, formats = {}, {}, {}, {}
@@ -168,9 +158,9 @@ for link in links_:
     ]:
         links.append(book_url)
         if author_url in author_links:
-            author_links[author_url].append(book_url)
+            author_links[author_url].append((book_url, format))
         else:
-            author_links[author_url] = [book_url]
+            author_links[author_url] = [(book_url, format)]
 '''
     langs[lang] = langs.get(lang, 0) + 1
     genres[genre] = genres.get(genre, 0) + 1
@@ -190,7 +180,7 @@ num_links = len(links)
 '''===========================================================================
 Files download
 ==========================================================================='''
-for link_no, link in enumerate(links, start=1):
+'''for link_no, link in enumerate(links, start=1):
     pos = link.rfind('/')
     page_fn = os.path.join(utils.PAGES_DIR, link[pos + 1:])
     if not os.path.isfile(page_fn):
@@ -199,31 +189,330 @@ for link_no, link in enumerate(links, start=1):
             f.write(page.content)
     print('\r{} (of {})'.format(link_no, num_links), end='')
 print()
-
+'''
 '''===========================================================================
 Texts collection
 ==========================================================================='''
-text_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
-if not chunk_fns:
-    text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
-    text_idx = 0
-    for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
-                                       start=1):
-        chunk_fn = text_fn.replace(utils.TEXTS_DIR, utils.CHUNKS_DIR)
-        assert chunk_fn != text_fn, 'ERROR: invalid path to text file'
-        with open(text_fn, 'rt', encoding='utf-8') as f_in, \
-             open(chunk_fn, 'wt', encoding='utf-8') as f_out:
-            f_in.readline()
-            f_out.write(f_in.read())
-            print('\r{} (of {})'.format(text_idx, utils.CHUNKS_FOR_SOURCE),
-                  end='')
-    if text_idx:
-        print()
-elif len(chunk_fns) < utils.CHUNKS_FOR_SOURCE:
-    print('The chunks directory is not empty but not full. '
-          'Delete all .txt files from there to recreate chunks')
-    exit()
+text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
+if False:#text_fns:
+    print('INFO: The texts directory is not empty. The stage skipped')
+else:
+    FMT_DELIM = '|'
+    NODLG_FIRST = 3
+    RU_UP, RU_LO = 'ЁА-Я', 'ёа-я'
+    RU_ALL = RU_UP, RU_LO
+    INT_UP, INT_LO = RU_UP + 'A-Z', RU_LO + 'a-z'
+    INT_ALL = INT_UP + INT_LO
+    INT_ALL_LETTERS = 'Ё' \
+                   + ''.join(chr(x) for x in list(range(ord('А'), ord('Я')))) \
+                   + 'ё' \
+                   + ''.join(chr(x) for x in list(range(ord('а'), ord('я')))) \
+                   + ''.join(chr(x) for x in list(range(ord('A'), ord('Z')))) \
+                   + ''.join(chr(x) for x in list(range(ord('a'), ord('z'))))
+    re0 = re.compile(r'\W|\d')
+    re1 = re.compile(r'[^{}]'.format(RU_ALL))
+    re5 = re.compile(r'\W')
+    re8 = re.compile(r'\s{2,}')
+    re10 = re.compile(r'(?:\(.*?\)|/.*?/)')
+    sent_tpl_up = r'(\W?? *[{0}](?:[^{1}].*)?\W$)'.format(INT_UP, INT_UP)
+    sent_tpl_all = r'(\W?? *[{0}]?(?:[^{1}й].*)??\W$)'.format(INT_UP, INT_UP)
+    rex0 = [
+        # АЛЕКСАНДР СЕРГЕЕВИЧ. Ааа ааа аааа...
+        # СЕМЁН-АЛЕКСАНДР:Ааа ааа аааа...
+        # РОБОТ, БАРАН Ааа ааа аааа....
+        re.compile(r'(["«<]?(?:\d+-(?:й|я|ый|ая) )?[\d{0}]+(?:(?:-| |[.,] | и ?)[\d{0}]+){{,6}}["»>]?)([.:] ?| -|- | ){3}'
+                        .format(INT_UP, INT_LO, INT_ALL, sent_tpl_up)),
+        # Петя к Марии. Ааа ааа аааа...
+        re.compile(r'([\d{0}][\d{1}]*(?:(?:[ -]| к )[\d{0}][\d{1}]*){{,2}})([.:] ?| -|- ){3}'
+                        .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
+        # Первый актер. Ааа ааа аааа...
+        re.compile(r'(["«<]?[\d{0}]-?[\d{1}]*(?:[ -][\d{1}]+){{,2}}["»>]?)([.:] ?| -|- ){3}'
+                        .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
+        # 1-й М а к - К и н л и: Ааа ааа аааа...
+        re.compile(r'((?:\d+-(?:й|я|ый|ая) )?[\d{0}]:?(?:[ _][\d{1}-])*(?: [\d{0}](?:[ _][\d{1}-])*)*)([.:] ?| -|- ){3}'
+                        .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
+        # Петя Иванов. ааа ааа аааа...
+        re.compile(r'([\d{0}][\d{1}]*(?:[ -][\d{0}][\d{1}]*){{,2}})([.:]| -|- ){3}'
+                        .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
+        re.compile(r'(-)( ?)(.+?$)') 
+    ]
 
+    def check_text(lines):
+        res = False
+        text = '\n'.join(x[1] for x in lines)
+        text0 = re0.sub('', text)
+        text1 = re1.sub('', text0)
+        if any(x in 'ЀЂЃЄЅІЇЈЉЊЋЌЍЎЏѐђѓєѕіїјљњћќѝўџѠѡѢѣѤѥѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵѶѷѸѹ'
+                    'ѺѻѼѽѾѿҀҁ҂҃҄҅҆҇҈҉ҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩҪҫҬҭҮүҰұ'
+                    'ҲҳҴҵҶҷҸҹҺһҼҽҾҿӀӁӂӃӄӅӆӇӈӉӊӋӌӍӎӏӐӑӒӓӔӕӖӗӘәӚӛӜӝӞӟӠӡӢӣӤӥӦӧӨө'
+                    'ӪӫӬӭӮӯӰӱӲӳӴӵӶӷӸӹӺӻӼӽӾӿ' for x in text0):
+            if not SILENT:
+                print(text)
+                print('non-Russian')
+        if text0 and len(text1) / len(text0) >= .9:
+            num_words = len([x for x in text.split()
+                               if re5.sub('', x)])
+            #print(num_words)
+            if num_words > MAX_CHUNK_WORDS:
+                res = 1
+            if num_words >= MIN_CHUNK_WORDS:
+                res = True
+            else:
+                res = -1
+        else:
+            if not SILENT:
+                print(text)
+                print(text0)
+                print(text1)
+                print(len(text1) / len(text0))
+                print('non-Cyrillic')
+        return res
+
+    num_links = len(author_links)
+    texts_total, need_enter = 0, False
+    for link_no, (author_url, book_infos) in enumerate(author_links.items(),
+                                                       start=1):
+        #if texts_total >= utils.TEXTS_FOR_SOURCE:
+        #    break
+        text_fn = utils.get_data_path(utils.TEXTS_DIR,
+                                      utils.TEXTS_FOR_SOURCE, link_no)
+        for book_url, book_format in book_infos:
+            text = None
+            pos = book_url.rfind('/')
+            page_fn = os.path.join(utils.PAGES_DIR, book_url[pos + 1:])
+            #TODO:
+            #page_fn_ = page_fn.replace(utils.PAGES_DIR, os.path.join(utils.TEXTS_DIR, '0'))
+            #if os.path.isfile(page_fn_):
+            #    texts_total += 1
+            #    print('\r{}\r{}'.format(' ' * 60, texts_total), end='')
+            #    continue
+            #####
+            if not os.path.isfile(page_fn):
+                continue
+            if not SILENT:
+                print(book_url[pos + 1:])
+            if book_format in ['doc', 'docx', 'rtf']:
+                #text = utils.read_doc(page_fn)
+                text = utils.convert_odt(page_fn)
+            elif book_format == 'pdf':
+                #pdftotext -enc UTF-8 [-layout] [-raw] [-simple] [-simple2] -nopgbrk page_fn text_fn
+                #pdftohtml -nofonts -skipinvisible page_fn <output_dir>
+                text = utils.convert_pdf(page_fn)
+            elif book_format == 'html':
+                text = utils.convert_html(page_fn)
+                with open('1111', 'wt', encoding='utf-8') as f:
+                    f.write(text)
+            elif book_format == 'txt':
+                with open(page_fn, 'rt', encoding='utf=8') as f:
+                    text = f.read()
+            #TODO:
+            #if text:
+            #    with open(page_fn_, 'wt', encoding='utf-8') as f:
+            #        print(ROOT_URL + book_url, file=f)
+            #        f.write(text)
+            #texts_total += 1
+            #print('\r{}\r{}'.format(' ' * 60, texts_total), end='')
+            #continue
+            #####
+            # убираем текст в скобках, сжимаем пробелы, разбиваем на строки
+            # и оставляем только непустые
+            text = utils.norm_text2(text)
+            # workarounds:
+            koi_chars = '▀└┘▒▓⌠■√≈⌡═╗╘╚╦╧╩' + '╬'
+            win_chars = '‹„…‘’“”–—› Ё©«ё№»' + '…'
+            for koi_, win_ in zip(koi_chars, win_chars):
+                text = text.replace(koi_, win_)
+            text = text.replace('–', '-').replace('—', '-') \
+                       .replace('―', '-').replace('--', '-') \
+                       .replace('. -', '.').replace(': -', ':')
+            text = re.sub(r'²(.*?)›', r'«\g<1>»', text)
+            ###
+            if text:
+                lines_ = text.split('\n')
+                lines = []
+                is_opened = False
+                for line in lines_:
+                    line = line.strip()
+                    if line:
+                        if is_opened:
+                            lines[-1] += ' ' + line
+                        else:
+                            lines.append(line)
+                        if line[-1] in INT_ALL_LETTERS + '0123456789,:;-':
+                            is_opened = True
+                            continue
+                    is_opened = False
+                lines = [re.sub(r'([.?!-]) [.:]',
+                                r'\g<1>', x.replace('...', '…'))
+                           .replace(' :', ':').replace(' .', '.')
+                             for x in (re8.sub(' ', re10.sub('', x).strip())
+                                           for x in lines)
+                             if x]
+                # workaround
+                lines = [re.sub(r'^№\s*', '',
+                         re.sub(r'^(\w{1,3})\. ?(\d:)', r'\g<1>\g<2>',
+                         re.sub(r'^([{0}])\. ?([{1}]\.)'.format(INT_UP, INT_ALL),
+                                r'\g<1>\g<2>',
+                         re.sub(r'^([{0}])\.([{0}])(\.([{0}]))?'.format(INT_UP),
+                                r'\g<1>\g<2>\g<3>', x))))
+                             for x in lines]
+                ###
+                # ищем подходящий формат файла
+                speaker_fmts = {}
+                for line in lines:
+                    #print(line)
+                    for rex_no, rex, in enumerate(rex0):
+                        match = rex.match(line)
+                        if match:
+                            #print(match)
+                            speaker, fmt_ending, _ = match.groups()
+                            fmt_ending = fmt_ending.strip()
+                            speaker_fmt = str(rex_no) + FMT_DELIM + fmt_ending
+                            speaker_fmts[speaker_fmt] = \
+                                speaker_fmts.get(speaker_fmt, 0) + 1
+                #print(speaker_fmts)
+                if all(x < (MIN_TEXT_LINES + MAX_TEXT_LINES) // 2
+                           for x in speaker_fmts.values()):
+                    # book doesn't have proper formatting
+                    if not SILENT:
+                        print('WARINIG: Format is unknown '
+                              '(or text is too short)')
+                    continue
+                speaker_fmt, speaker_fmt_ending = \
+                    max(speaker_fmts.items(),
+                        key=lambda x: x[1])[0].split(FMT_DELIM)
+                REX = rex0[int(speaker_fmt)]
+                # ищем всех спикеров
+                speakers = {}
+                for line in lines:
+                    match = REX.match(line)
+                    if match:
+                        speaker = match.group(1)
+                        speakers[speaker] = speakers.get(speaker, 0) + 1
+                # ищем диалоги. между ними м.б. несколько ремарок, но
+                # не особо много
+                all_dlg_lines = []
+                nodlg, dlg_lines = 0, []
+                for line in lines:#[start_line_no:]:
+                    #print(line)
+                    if re.match(r'[\d{},;:-]'.format(INT_ALL), line[-1]):
+                        if len(dlg_lines) >= MIN_TEXT_LINES:
+                            all_dlg_lines.append(dlg_lines)
+                        #print('ENDING')
+                        nodlg, dlg_lines = 0, []
+                        continue
+                    match = REX.match(line)
+                    if match:
+                        speaker, fmt_ending, sentence = match.groups()
+                        fmt_ending = fmt_ending.strip()
+                        if speakers.get(speaker, 0) < 3:
+                            #print('RARE')
+                            if len(dlg_lines) >= MIN_TEXT_LINES:
+                                all_dlg_lines.append(dlg_lines)
+                            nodlg, dlg_lines = 0, []
+                            continue
+                        if True:#fmt_ending == speaker_fmt_ending or not fmt_ending:
+                            if nodlg >= NODLG_FIRST:
+                                #print('NODLG')
+                                if len(dlg_lines) >= MIN_TEXT_LINES:
+                                    all_dlg_lines.append(dlg_lines)
+                                nodlg, dlg_lines = 0, []
+                            #print('OK')
+                            if not sentence.startswith('..'):
+                                sentence = re.sub(r'^[-:.]?\s*',
+                                                  '', sentence)
+                            dlg_lines.append((speaker, sentence))
+                        else:
+                            #print('ENDING: {} vs {}'.format(fmt_ending, speaker_fmt_ending))
+                            nodlg += 1
+                            # cheat mode on
+                            if len(dlg_lines) >= MIN_TEXT_LINES:
+                                all_dlg_lines.append(dlg_lines)
+                            nodlg, dlg_lines = 0, []
+                    else:
+                        #print('NO MATCH')
+                        nodlg += 1
+                        # cheat mode on
+                        if len(dlg_lines) >= MIN_TEXT_LINES:
+                            all_dlg_lines.append(dlg_lines)
+                        nodlg, dlg_lines = 0, []
+                if len(dlg_lines) >= MIN_TEXT_LINES:
+                    all_dlg_lines.append(dlg_lines)
+                #print(all_dlg_lines)
+                if not all_dlg_lines:
+                    if not SILENT:
+                        print("WARINIG: Can't collect a fragment")
+                    continue
+                '''
+                dlg_lines = max(all_dlg_lines,
+                                key=lambda x: len(x))[:MAX_TEXT_LINES]
+                check_result = None
+                print(dlg_lines)
+                while True:
+                    check_result = check_text(dlg_lines)
+                    # Note: isinstance(True, int) == True
+                    if not isinstance(check_result, bool):
+                        if check_result < 0:
+                            check_result = False
+                        elif check_result > 0:
+                            dlg_lines = dlg_lines[:-1]
+                            continue
+                    break
+                if not check_result:
+                    if not SILENT:
+                        print('WARINIG: Fragment is too short')
+                    break
+                '''
+                check_result = None
+                for dlg_lines_ in sorted(all_dlg_lines, key=lambda x: len(x),
+                                         reverse=True):
+                    for start_idx in range(max(1, len(dlg_lines_)
+                                                - MAX_TEXT_LINES)):
+                        dlg_lines = \
+                            dlg_lines_[start_idx:start_idx + MAX_TEXT_LINES]
+                        #print(dlg_lines)
+                        while True:
+                            check_result = check_text(dlg_lines)
+                            # Note: isinstance(True, int) == True
+                            if not isinstance(check_result, bool):
+                                if check_result < 0:
+                                    check_result = False
+                                elif check_result > 0:
+                                    dlg_lines = dlg_lines[:-1]
+                                    continue
+                            break
+                        # too lazy to defne an exception
+                        if check_result:
+                            break
+                    if check_result:
+                        break
+                if not check_result:
+                    if not SILENT:
+                        print('WARINIG: Fragment is too short')
+                    break
+                texts_total += 1
+                text = '\n'.join('\t'.join(x) for x in dlg_lines)
+                with open(text_fn, 'wt', encoding='utf-8') as f:
+                    print(ROOT_URL + book_url, file=f)
+                    f.write(text)
+                #TODO:!!!
+                os.remove(page_fn)
+                page_fn_ = page_fn.replace(utils.PAGES_DIR, os.path.join(utils.TEXTS_DIR, '0'))
+                if os.path.isfile(page_fn_):
+                    os.remove(page_fn_)
+                #####
+            print('\r{}\r{} (of {})'
+                      .format(' ' * 60, texts_total,
+                              min(utils.TEXTS_FOR_SOURCE, num_links)),
+                  end='')
+            need_enter = True
+            break
+    if need_enter:
+        print('\r{}\r{} (of {})'
+                  .format(' ' * 60, texts_total,
+                          min(utils.TEXTS_FOR_SOURCE,
+                              num_links + texts_total - link_no)))
+exit()
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
