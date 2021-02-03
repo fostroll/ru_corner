@@ -82,7 +82,7 @@ def norm_text2(text):
          .replace('\u00a0', ' ') \
          .replace('\u200b', '').replace('\ufeff', '') \
          .replace('й', 'й').replace('ё', 'ё') \
-         .strip()
+         .replace('΄', '').strip()
 
 def shuffle_file_list(fns, new_order=None, keep_first=0):
      fns = sorted(fns)
@@ -100,21 +100,6 @@ def shuffle_file_list(fns, new_order=None, keep_first=0):
          os.rename(fn, new_fn)
      return new_order
 
-def convert_doc(fn_in, fn_out=None):
-    lang = os.environ.get('LANG')
-    os.environ['LANG'] = 'ru_RU.UTF-8'
-    encoding='utf-8'
-    text = textract.process(fn, encoding=encoding)
-    text = text.decode(encoding)
-    if lang:
-        os.environ['LANG'] = lang
-    else:
-        del os.environ['LANG']
-    if fn_out:
-        with open(fn_out, 'wt', encoding='utf-8') as f:
-             f.write(text)
-    return text
-
 def convert_odt(fn_in, fn_out=None):
 #    proc = Popen('{} --nolockcheck --headless --convert-to txt:Text {}'
 #                     .format(SOFFICE, fn_in))
@@ -127,10 +112,32 @@ def convert_odt(fn_in, fn_out=None):
 #        sys.stdout.buffer.flush()
     proc.stdout.close()
     proc.wait()
-    text = text.decode('cp1251')
+    text = text.decode('cp1251', errors='strict')
     if fn_out:
         with open(fn_out, 'wt', encoding='utf-8') as f:
              f.write(text)
+    return text
+
+def convert_doc(fn_in, fn_out=None):
+    lang = os.environ.get('LANG')
+    for LANG in ['ru_RU.UTF-8', 'ru_RU.CP1251']:
+        try:
+            os.environ['LANG'] = LANG
+            text = textract.process(fn_in, encoding='utf-8')
+            text = text.decode('utf-8')
+            if fn_out:
+                with open(fn_out, 'wt', encoding='utf-8') as f:
+                     f.write(text)
+            break
+        except (textract.exceptions.ShellError,
+                UnicodeDecodeError, TypeError) as e:
+            pass
+    else:
+        text = convert_odt(fn_in, fn_out)
+    if lang:
+        os.environ['LANG'] = lang
+    else:
+        del os.environ['LANG']
     return text
 
 def convert_pdf(fn_in, fn_out=None):
@@ -151,12 +158,12 @@ def convert_pdf(fn_in, fn_out=None):
             os.remove(fn_out_)
     return text
 
-class HTMLFilter(HTMLParser):
-    text = ''
-    def handle_data(self, data):
-        self.text += data
-
 def convert_html(fn_in, fn_out=None):
+
+    class HTMLFilter(HTMLParser):
+        text = ''
+        def handle_data(self, data):
+            self.text += data
 
     def norm(text):
         text = re.sub(r'\s+', ' ', text).replace('\n', ' ')

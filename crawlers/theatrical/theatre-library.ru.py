@@ -33,7 +33,8 @@ Authors download
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
     with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
-        links = [x for x in f.read().split('\n') if x]
+        links = [x for x in f.read().split('\n')
+                   if x and not x.startswith('#')]
 
 else:
     links = OrderedDict()
@@ -194,7 +195,7 @@ print()
 Texts collection
 ==========================================================================='''
 text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
-if False:#text_fns:
+if text_fns:
     print('INFO: The texts directory is not empty. The stage skipped')
 else:
     FMT_DELIM = '|'
@@ -204,36 +205,39 @@ else:
     INT_UP, INT_LO = RU_UP + 'A-Z', RU_LO + 'a-z'
     INT_ALL = INT_UP + INT_LO
     INT_ALL_LETTERS = 'Ё' \
-                   + ''.join(chr(x) for x in list(range(ord('А'), ord('Я')))) \
+                   + ''.join(chr(x) for x in list(range(ord('А'), ord('Я') + 1))) \
                    + 'ё' \
-                   + ''.join(chr(x) for x in list(range(ord('а'), ord('я')))) \
-                   + ''.join(chr(x) for x in list(range(ord('A'), ord('Z')))) \
-                   + ''.join(chr(x) for x in list(range(ord('a'), ord('z'))))
+                   + ''.join(chr(x) for x in list(range(ord('а'), ord('я') + 1))) \
+                   + ''.join(chr(x) for x in list(range(ord('A'), ord('Z') + 1))) \
+                   + ''.join(chr(x) for x in list(range(ord('a'), ord('z') + 1)))
     re0 = re.compile(r'\W|\d')
     re1 = re.compile(r'[^{}]'.format(RU_ALL))
     re5 = re.compile(r'\W')
-    re8 = re.compile(r'\s{2,}')
-    re10 = re.compile(r'(?:\(.*?\)|/.*?/)')
+    #re8 = re.compile(r'(\S) {1,3}(\S)')
+    re10 = re.compile(r'(?:\(.*?\)|/.*?/|\[.*?])')
     sent_tpl_up = r'(\W?? *[{0}](?:[^{1}].*)?\W$)'.format(INT_UP, INT_UP)
+    sent_tpl_lo = r'(\W?? *[{0}](?:[^{1}].*)?\W$)'.format(INT_LO, INT_UP)
     sent_tpl_all = r'(\W?? *[{0}]?(?:[^{1}й].*)??\W$)'.format(INT_UP, INT_UP)
     rex0 = [
         # АЛЕКСАНДР СЕРГЕЕВИЧ. Ааа ааа аааа...
         # СЕМЁН-АЛЕКСАНДР:Ааа ааа аааа...
-        # РОБОТ, БАРАН Ааа ааа аааа....
-        re.compile(r'(["«<]?(?:\d+-(?:й|я|ый|ая) )?[\d{0}]+(?:(?:-| |[.,] | и ?)[\d{0}]+){{,6}}["»>]?)([.:] ?| -|- | ){3}'
+        # РОБОТ, БАРАН Ааа ааа аааа...
+        re.compile(r'(["«<]?(?:\d+-(?:й|я|ый|ая|ий|вый|тий) )?[\d{0}]+(?:(?:-| {{1,2}}|[.,] | и ?)[\d{0}]+){{,6}}["»>]?)([.:] ?| -|- | +){3}'
                         .format(INT_UP, INT_LO, INT_ALL, sent_tpl_up)),
+        re.compile(r'(["«<]?(?:\d+-(?:й|я|ый|ая|ий|вый|тий) )?[\d{0}]{{2,}}(?:(?:-| |[.,] | и ?)[\d{0}]{{2,}}){{,6}}["»>]?)([.:] ?| -|- | +){3}'
+                        .format(INT_UP, INT_LO, INT_ALL, sent_tpl_lo)),
         # Петя к Марии. Ааа ааа аааа...
-        re.compile(r'([\d{0}][\d{1}]*(?:(?:[ -]| к )[\d{0}][\d{1}]*){{,2}})([.:] ?| -|- ){3}'
+        re.compile(r'([\d{0}][\d{1}]*(?:(?:[ -]| к )[\d{0}][\d{1}]*){{,2}})([.:] ?| -|- |  ){3}'
                         .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
         # Первый актер. Ааа ааа аааа...
-        re.compile(r'(["«<]?[\d{0}]-?[\d{1}]*(?:[ -][\d{1}]+){{,2}}["»>]?)([.:] ?| -|- ){3}'
+        re.compile(r'(["«<]?[\d{0}]-?[\d{1}]*(?:[ -][\d{1}]+){{,2}}["»>]?)([.:] ?| -|- |  ){3}'
                         .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
         # 1-й М а к - К и н л и: Ааа ааа аааа...
-        re.compile(r'((?:\d+-(?:й|я|ый|ая) )?[\d{0}]:?(?:[ _][\d{1}-])*(?: [\d{0}](?:[ _][\d{1}-])*)*)([.:] ?| -|- ){3}'
+        re.compile(r'((?:\d+-(?:й|я|ый|ая|ий|вый|тий) )?[\d{0}]:?(?:[ _][\d{1}-])*(?: {{1,3}}[\d{0}](?:[ _][\d{1}-])*)*)([.:] ?| -|- |  ){3}'
                         .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
         # Петя Иванов. ааа ааа аааа...
-        re.compile(r'([\d{0}][\d{1}]*(?:[ -][\d{0}][\d{1}]*){{,2}})([.:]| -|- ){3}'
-                        .format(INT_UP, INT_LO, INT_ALL, sent_tpl_all)),
+        re.compile(r'([\d{0}][\d{0}]*(?:[ -][\d{1}][\d{2}]*){{,2}})([.:]| -|- |  ){3}'
+                        .format(INT_ALL, INT_UP, INT_LO, sent_tpl_all)),
         re.compile(r'(-)( ?)(.+?$)') 
     ]
 
@@ -249,7 +253,7 @@ else:
             if not SILENT:
                 print(text)
                 print('non-Russian')
-        if text0 and len(text1) / len(text0) >= .9:
+        elif text0 and len(text1) / len(text0) >= .9:
             num_words = len([x for x in text.split()
                                if re5.sub('', x)])
             #print(num_words)
@@ -292,19 +296,21 @@ else:
             if not SILENT:
                 print(book_url[pos + 1:])
             if book_format in ['doc', 'docx', 'rtf']:
-                #text = utils.read_doc(page_fn)
-                text = utils.convert_odt(page_fn)
+                text = utils.convert_doc(page_fn)
+                #text = utils.convert_odt(page_fn)
+            elif book_format == 'html':
+                text = utils.convert_html(page_fn)
             elif book_format == 'pdf':
                 #pdftotext -enc UTF-8 [-layout] [-raw] [-simple] [-simple2] -nopgbrk page_fn text_fn
                 #pdftohtml -nofonts -skipinvisible page_fn <output_dir>
                 text = utils.convert_pdf(page_fn)
-            elif book_format == 'html':
-                text = utils.convert_html(page_fn)
-                with open('1111', 'wt', encoding='utf-8') as f:
-                    f.write(text)
             elif book_format == 'txt':
                 with open(page_fn, 'rt', encoding='utf=8') as f:
                     text = f.read()
+            DUMP = False
+            if DUMP:
+                with open('1111', 'wt', encoding='utf-8') as f:
+                    f.write(text)
             #TODO:
             #if text:
             #    with open(page_fn_, 'wt', encoding='utf-8') as f:
@@ -325,52 +331,80 @@ else:
             text = text.replace('–', '-').replace('—', '-') \
                        .replace('―', '-').replace('--', '-') \
                        .replace('. -', '.').replace(': -', ':')
-            text = re.sub(r'²(.*?)›', r'«\g<1>»', text)
+            text = re.sub(r'²(.*?)›', r'“\g<1>”', text)
             ###
             if text:
-                lines_ = text.split('\n')
-                lines = []
-                is_opened = False
-                for line in lines_:
-                    line = line.strip()
+                lines, is_opened, is_table_opened = [], False, False
+                for line in text.split('\n'):
+                    line = re.sub(r'(^|[^!?] *)\. *\. *([^!?]|$)',
+                                  r'\g<1>… \g<2>',
+                           re.sub(r'(?:[.,] *){3,}', r'… ', line)) \
+                             .replace('\t', ' ' * 4).strip()
+                    line_ = re.sub(r'^\|([^|]+)\|([^|]+)\|$',
+                                   r'\g<1>    \g<2>', line)
+                    if line_ != line:
+                        line = line_.strip()
+                        if not line_.startswith(' '):
+                            is_table_opened = True
+                        elif lines:
+                            if not line_:
+                                is_table_opened = False
+                            if is_table_opened:
+                                is_opened = True
+                    line = re.sub(r'^\|(.*)\|$', r'\g<1>', line).strip()
+                    #print(is_opened)
+                    #print(line)
                     if line:
-                        if is_opened:
-                            lines[-1] += ' ' + line
+                        if is_opened and ' ' * 3 not in line:
+                            lines[-1] += (' ' * 3) + line
                         else:
                             lines.append(line)
                         if line[-1] in INT_ALL_LETTERS + '0123456789,:;-':
                             is_opened = True
                             continue
                     is_opened = False
-                lines = [re.sub(r'([.?!-]) [.:]',
-                                r'\g<1>', x.replace('...', '…'))
-                           .replace(' :', ':').replace(' .', '.')
-                             for x in (re8.sub(' ', re10.sub('', x).strip())
-                                           for x in lines)
-                             if x]
                 # workaround
-                lines = [re.sub(r'^№\s*', '',
-                         re.sub(r'^(\w{1,3})\. ?(\d:)', r'\g<1>\g<2>',
-                         re.sub(r'^([{0}])\. ?([{1}]\.)'.format(INT_UP, INT_ALL),
-                                r'\g<1>\g<2>',
-                         re.sub(r'^([{0}])\.([{0}])(\.([{0}]))?'.format(INT_UP),
-                                r'\g<1>\g<2>\g<3>', x))))
-                             for x in lines]
+                lines = [x for x in (
+                    re.sub(r'…\.+', '…',
+                    re.sub(r'^[№•]\s*', '', re.sub(r'^\?{2,}\s*', '',
+                    re.sub(r'^([{0}])\.([{1}])'
+                               .format(INT_UP, INT_LO),
+                           r'\g<1>\g<2>',
+                    re.sub(r'^(\w{1,3})\. ?(\d:)', r'\g<1>\g<2>',
+                    re.sub(r'^([{0}])\. ?([{1}]\.)'
+                               .format(INT_UP, INT_ALL),
+                           r'\g<1>\g<2>',
+                    re.sub(r'^([{0}])\. ?([{0}])(\. ?([{0}]))?'
+                               .format(INT_UP),
+                           r'\g<1>\g<2>\g<3>',
+                    re.sub(r' +([.:])', r'\g<1>',
+                    re.sub(r'([.?!-]) +[.:]', r'\g<1>',
+                    re10.sub('', x)))))))))).strip()
+                        for x in lines
+                ) if x]
                 ###
+                if DUMP:
+                    with open('2222', 'wt', encoding='utf-8') as f:
+                        f.write('\n'.join(lines))
                 # ищем подходящий формат файла
+                TRACE0 = False
                 speaker_fmts = {}
                 for line in lines:
-                    #print(line)
+                    if TRACE0:
+                        print(line)
                     for rex_no, rex, in enumerate(rex0):
                         match = rex.match(line)
                         if match:
-                            #print(match)
+                            if TRACE0:
+                                print(match)
                             speaker, fmt_ending, _ = match.groups()
                             fmt_ending = fmt_ending.strip()
                             speaker_fmt = str(rex_no) + FMT_DELIM + fmt_ending
                             speaker_fmts[speaker_fmt] = \
                                 speaker_fmts.get(speaker_fmt, 0) + 1
-                #print(speaker_fmts)
+                TRACE1 = False
+                if TRACE0 or TRACE1:
+                    print(speaker_fmts)
                 if all(x < (MIN_TEXT_LINES + MAX_TEXT_LINES) // 2
                            for x in speaker_fmts.values()):
                     # book doesn't have proper formatting
@@ -382,6 +416,8 @@ else:
                     max(speaker_fmts.items(),
                         key=lambda x: x[1])[0].split(FMT_DELIM)
                 REX = rex0[int(speaker_fmt)]
+                if TRACE1 == True:
+                    print(REX)
                 # ищем всех спикеров
                 speakers = {}
                 for line in lines:
@@ -394,43 +430,52 @@ else:
                 all_dlg_lines = []
                 nodlg, dlg_lines = 0, []
                 for line in lines:#[start_line_no:]:
-                    #print(line)
+                    if TRACE1 == True:
+                        print(line)
                     if re.match(r'[\d{},;:-]'.format(INT_ALL), line[-1]):
                         if len(dlg_lines) >= MIN_TEXT_LINES:
                             all_dlg_lines.append(dlg_lines)
-                        #print('ENDING')
+                        if TRACE1 == True:
+                            print('ENDING')
                         nodlg, dlg_lines = 0, []
                         continue
                     match = REX.match(line)
                     if match:
                         speaker, fmt_ending, sentence = match.groups()
                         fmt_ending = fmt_ending.strip()
-                        if speakers.get(speaker, 0) < 3:
-                            #print('RARE')
+                        if speakers.get(speaker, 0) < 6:
+                            if TRACE1 == True:
+                                print('RARE')
                             if len(dlg_lines) >= MIN_TEXT_LINES:
                                 all_dlg_lines.append(dlg_lines)
                             nodlg, dlg_lines = 0, []
                             continue
-                        if True:#fmt_ending == speaker_fmt_ending or not fmt_ending:
+                        if fmt_ending == speaker_fmt_ending:# or not fmt_ending:
                             if nodlg >= NODLG_FIRST:
-                                #print('NODLG')
+                                if TRACE1 == True:
+                                    print('NODLG')
                                 if len(dlg_lines) >= MIN_TEXT_LINES:
                                     all_dlg_lines.append(dlg_lines)
                                 nodlg, dlg_lines = 0, []
-                            #print('OK')
+                            if TRACE1 == True:
+                                print('OK')
                             if not sentence.startswith('..'):
-                                sentence = re.sub(r'^[-:.]?\s*',
-                                                  '', sentence)
+                                sentence = re.sub(r'^\s*[-:.,;]?\s*', '',
+                                           re.sub(r'\s+', ' ', sentence))
                             dlg_lines.append((speaker, sentence))
                         else:
-                            #print('ENDING: {} vs {}'.format(fmt_ending, speaker_fmt_ending))
+                            if TRACE1 == True:
+                                print('ENDING: {} vs {}'
+                                          .format(fmt_ending,
+                                                  speaker_fmt_ending))
                             nodlg += 1
                             # cheat mode on
                             if len(dlg_lines) >= MIN_TEXT_LINES:
                                 all_dlg_lines.append(dlg_lines)
                             nodlg, dlg_lines = 0, []
                     else:
-                        #print('NO MATCH')
+                        if TRACE1 == True:
+                            print('NO MATCH')
                         nodlg += 1
                         # cheat mode on
                         if len(dlg_lines) >= MIN_TEXT_LINES:
@@ -443,26 +488,6 @@ else:
                     if not SILENT:
                         print("WARINIG: Can't collect a fragment")
                     continue
-                '''
-                dlg_lines = max(all_dlg_lines,
-                                key=lambda x: len(x))[:MAX_TEXT_LINES]
-                check_result = None
-                print(dlg_lines)
-                while True:
-                    check_result = check_text(dlg_lines)
-                    # Note: isinstance(True, int) == True
-                    if not isinstance(check_result, bool):
-                        if check_result < 0:
-                            check_result = False
-                        elif check_result > 0:
-                            dlg_lines = dlg_lines[:-1]
-                            continue
-                    break
-                if not check_result:
-                    if not SILENT:
-                        print('WARINIG: Fragment is too short')
-                    break
-                '''
                 check_result = None
                 for dlg_lines_ in sorted(all_dlg_lines, key=lambda x: len(x),
                                          reverse=True):
@@ -489,17 +514,17 @@ else:
                 if not check_result:
                     if not SILENT:
                         print('WARINIG: Fragment is too short')
-                    break
+                    continue
                 texts_total += 1
                 text = '\n'.join('\t'.join(x) for x in dlg_lines)
                 with open(text_fn, 'wt', encoding='utf-8') as f:
                     print(ROOT_URL + book_url, file=f)
                     f.write(text)
                 #TODO:!!!
-                os.remove(page_fn)
-                page_fn_ = page_fn.replace(utils.PAGES_DIR, os.path.join(utils.TEXTS_DIR, '0'))
-                if os.path.isfile(page_fn_):
-                    os.remove(page_fn_)
+                #os.remove(page_fn)
+                #page_fn_ = page_fn.replace(utils.PAGES_DIR, os.path.join(utils.TEXTS_DIR, '0'))
+                #if os.path.isfile(page_fn_):
+                #    os.remove(page_fn_)
                 #####
             print('\r{}\r{} (of {})'
                       .format(' ' * 60, texts_total,
@@ -512,12 +537,14 @@ else:
                   .format(' ' * 60, texts_total,
                           min(utils.TEXTS_FOR_SOURCE,
                               num_links + texts_total - link_no)))
-exit()
+
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
 chunk_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
-if not chunk_fns:
+if text_fns:
+    print('INFO: The chunks directory is not empty. The stage skipped')
+else:
     text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
     text_idx = 0
     for text_idx, text_fn in enumerate(text_fns[:utils.CHUNKS_FOR_SOURCE],
@@ -532,17 +559,13 @@ if not chunk_fns:
                   end='')
     if text_idx:
         print()
-elif len(chunk_fns) < utils.CHUNKS_FOR_SOURCE:
-    print('The chunks directory is not empty but not full. '
-          'Delete all .txt files from there to recreate chunks')
-    exit()
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
 conll_fns = utils.get_file_list(utils.CONLL_DIR, utils.TEXTS_FOR_SOURCE)
 if not conll_fns:
-    utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)
+    utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=True)
 elif len(conll_fns) < utils.CONLL_FOR_SOURCE:
     print('The conll directory is not empty but not full. '
           'Delete all .txt files from there to recreate conll')
