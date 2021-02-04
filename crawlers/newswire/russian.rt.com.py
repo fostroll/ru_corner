@@ -71,6 +71,8 @@ start_link_idx = int(os.path.split(sorted(page_fns)[-1])[-1]
                  0
 texts_total = 0
 
+re0a = re.compile(r'<div class="article__summary article__summary_article-page'
+                 r'[^">]*">(.+?)</div>')
 re0 = re.compile(r'<div class="article__text article__text_article-page'
                  r'[^">]*">(.+?)</div>')
 re1 = re.compile(r'<p>((?:.|\n)*?)</p>')
@@ -100,11 +102,16 @@ for link_no, link in enumerate(links, start=1):
         with open(page_fn, 'rt', encoding='utf-8') as f:
             link = f.readline().rstrip()
             page = f.read()
+    lines = []
+    res = re0.search(page)
+    if res:
+        line = utils.norm_text2(re2.sub('', res))
+        if line:
+            lines.append(' '.join(line.split()))
     res = re0.search(page)
     assert res, 'ERROR: no news text on page with link #{} ({})' \
                     .format(link_no, link)
     res = re1.findall(res.group(1))
-    lines = []
     for line in res:
         #line = unescape(re2.sub('', line)).replace('\u200b', '') \
         #                                  .replace('\ufeff', '') \
