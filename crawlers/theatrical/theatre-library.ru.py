@@ -542,7 +542,7 @@ else:
 Chunks creation
 ==========================================================================='''
 chunk_fns = utils.get_file_list(utils.CHUNKS_DIR, utils.TEXTS_FOR_SOURCE)
-if text_fns:
+if chunk_fns:
     print('INFO: The chunks directory is not empty. The stage skipped')
 else:
     text_fns = utils.get_file_list(utils.TEXTS_DIR, utils.TEXTS_FOR_SOURCE)
