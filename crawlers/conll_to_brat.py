@@ -19,6 +19,7 @@ BRAT_DIR = setdir_('brat')
 UNTAGGED_DIR = os.path.join(BRAT_DIR, 'untagged')
 
 for fn in glob.glob(CONLL_DIR + '/*/*/*.txt', recursive=True):
+#for fn in [r'C:\prj-git\_mine\ru_corner\_data\conll\newswire\lenta.ru\0021.txt']:
     out_fn = fn.replace(CONLL_DIR, UNTAGGED_DIR)
     out_dir = os.path.dirname(out_fn)
     if not os.path.isdir(out_dir):

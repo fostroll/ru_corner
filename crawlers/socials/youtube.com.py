@@ -82,7 +82,7 @@ for page_fn in page_fns:
         texts_total += 1
         continue
     with open(page_fn, 'rt', encoding='utf-8') as f:
-        link = f.readline()
+        link = f.readline().strip()
         page = f.read()
     text = parse_page(page)
     if text:

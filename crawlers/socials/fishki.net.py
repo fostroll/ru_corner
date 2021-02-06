@@ -243,7 +243,7 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
 if need_enter:
     print()
 
-if os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR, MAX_FILES,1)):
+if os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR, MAX_FILES, 1)):
     print('WARNING: Chunks are already exist. '
           'Delete them if you want to recreate')
     exit()

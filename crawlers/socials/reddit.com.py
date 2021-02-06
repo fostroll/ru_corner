@@ -86,7 +86,7 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
                 need_space = need_space_
         else:
             e = doc['e']
-            if e in ['blockquote', 'spoilertext']:
+            if e in ['blockquote', 'code', 'spoilertext']:
                 res = ''
             elif e in ['br', 'hr', 'table']:
                 res = '\n'
@@ -106,6 +106,9 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
             or (len(e) == 2 and e[1] == '/' and e[0] >= 'a' and e[0] <= 'z'):
                 res = utils.norm_text2(doc['t'])
             else:
+                from pprint import pprint
+                with open('1111', 'wt', encoding='utf-8') as f:
+                    pprint(doc, stream=f)
                 assert 0, 'ERROR: Unknown type "{}"'.format(e)
         if res:
             res = re2.sub(' ', re3.sub('\n', res))
@@ -321,7 +324,7 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
 if need_enter:
     print()
 
-if os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR, MAX_FILES,1)):
+if os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR, MAX_FILES, 1)):
     print('WARNING: Chunks are already exist. '
           'Delete them if you want to recreate')
     exit()

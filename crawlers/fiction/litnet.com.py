@@ -409,7 +409,7 @@ if not chunk_fns:
 elif len(chunk_fns) < utils.CHUNKS_FOR_SOURCE:
     print('The chunks directory is not empty but not full. '
           'Delete all .txt files from there to recreate chunks')
-    exit()
+#    exit()
 
 '''===========================================================================
 Tokenization

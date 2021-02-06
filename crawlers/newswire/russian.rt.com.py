@@ -103,9 +103,9 @@ for link_no, link in enumerate(links, start=1):
             link = f.readline().rstrip()
             page = f.read()
     lines = []
-    res = re0.search(page)
+    res = re0a.search(page)
     if res:
-        line = utils.norm_text2(re2.sub('', res))
+        line = utils.norm_text2(re2.sub('', res.group(1)))
         if line:
             lines.append(' '.join(line.split()))
     res = re0.search(page)

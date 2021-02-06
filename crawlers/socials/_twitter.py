@@ -10,6 +10,11 @@ from selenium.common.exceptions \
            StaleElementReferenceException
 import time
 
+###
+import sys
+sys.path.append('../')
+###
+import _utils_add
 import _utils
 
 

@@ -13,6 +13,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 import time
 
+###
+import sys
+sys.path.append('../')
+###
+import _utils_add
 import _utils
 
 
@@ -180,7 +185,7 @@ def get_post_text(page_url,
                 #                     .replace('\ufeff', '') \
                 #                     .replace('й', 'й').replace('ё', 'ё') \
                 #                     .replace('\n\n', '\n').strip()
-                text = utils.norm_text2(text).replace('\n\n', '\n')
+                text = _utils_add.norm_text2(text).replace('\n\n', '\n')
                 if not silent:
                     print(text)
                 text0 = re0.sub('', text)
