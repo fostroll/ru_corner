@@ -1,0 +1,40 @@
+T1	Person-property 13 23	журналисты
+T2	GPE 59 69	Белоруссии
+T3	Event 43 69	протестах   в   Белоруссии
+T4	Organization 90 94	ТАСС
+A1	Media T4
+T5	Organization 101 124	РИА   ``   Новости   ''
+A2	Media T5
+T6	Person-property 73 124	Корреспонденты   ТАСС   и   РИА   ``   Новости   ''
+A3	Plural T6
+T7	GPE 180 188	Минске  
+T8	Event 157 188	акции   протеста   в   Минске  
+#1	AnnotatorNotes T3	?
+#2	AnnotatorNotes T8	?
+T9	Person-property 232 244	Журналисты  
+T10	Person-property 264 276	силовиками  
+T11	Person-property 361 374	журналистов  
+T12	Organization 423 441	центральное   РУВД
+T13	Organization 485 489	ТАСС
+A4	Media T13
+T14	Person-property 469 489	корреспондент   ТАСС
+T15	Person 469 505	корреспондент   ТАСС   Юрий   Шамшур
+T16	GPE 528 540	Белоруссии  
+T17	Event 513 540	Протесты   в   Белоруссии  
+#3	AnnotatorNotes T17	?
+T18	Ordinal 556 562	третий
+T19	Date-duration 556 579	третий   месяц   подряд
+T20	Organization 627 643	ЦИК   республики
+T21	Person 656 678	Александра   Лукашенко
+T22	Date-absolute 744 755	9   августа
+T23	Organization 769 803	штабы   оппозиционных   кандидатов
+#4	AnnotatorNotes T23	?
+T24	Person-property 987 997	Силовики  
+T25	Person-property 1114 1156	экс-кандидат   в   президенты   республики
+T26	Person 1114 1181	экс-кандидат   в   президенты   республики   Светлана   Тихановская
+T27	Organization 1223 1260	Координационного   совета   оппозиции
+T28	Person 1327 1338	Лукашенко  
+T29	Person-property 1447 1462	членов   совета
+#5	AnnotatorNotes T29	?
+T30	Date-period 1470 1486	С   26   октября
+T31	Person 1489 1502	Тихановская  

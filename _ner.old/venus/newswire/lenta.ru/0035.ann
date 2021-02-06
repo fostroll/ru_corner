@@ -1,0 +1,37 @@
+T1	Organization 0 14	Первый   канал
+T2	Work-of-art 60 81	шоу   ``   Голос   ''
+T3	Organization 99 115	Первого   канала
+T5	Person 189 269	председателя   ЦК   партии   ``   Коммунисты   России   ''   Максима   Сурайкина
+T6	Person-property 276 286	журналиста
+T7	Person 276 306	журналиста   Сергея   Соседова
+T8	Person-property 313 319	актера
+T9	Person 313 346	актера   Станислава   Садальского
+T10	Work-of-art 367 388	шоу   ``   Голос   ''
+T11	Organization 494 512	``   Ленте.ру   ''
+T12	Organization 593 609	Первого   канала
+T13	Work-of-art 994 1010	``   Голоса   ''
+T14	Person 1116 1124	Сурайкин
+T15	Person 1131 1138	Соседов
+T16	Person 1145 1155	Садальский
+T17	Person-property 1177 1208	ведущих   шоу   ``   Голос   ''
+T18	Work-of-art 1187 1208	шоу   ``   Голос   ''
+T19	Person-property 1239 1266	ведущего   Первого   канала
+T20	Organization 1250 1266	Первого   канала
+T22	Person 1336 1350	дочерью   Алсу
+T4	Person-property 189 247	председателя   ЦК   партии   ``   Коммунисты   России   ''
+T23	Organization 204 247	ЦК   партии   ``   Коммунисты   России   ''
+A1	Department T23
+T24	Organization 209 247	партии   ``   Коммунисты   России   ''
+A2	Media T1
+A3	Media T3
+A4	Media T11
+A5	Media T12
+T26	Family 1336 1345	дочерью  
+A6	Media T20
+T27	Organization 1472 1493	пресс-службе   канала
+A7	Department T27
+T28	Person 1346 1350	Алсу
+A8	Media T27
+T25	Family 1230 1238	дочери  
+T29	Person 1230 1292	дочери   ведущего   Первого   канала   Александре   Будниковой
+T21	Family 1450 1457	детки  
