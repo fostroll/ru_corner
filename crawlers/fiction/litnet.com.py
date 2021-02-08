@@ -3,7 +3,6 @@
 
 from collections import OrderedDict
 from junky import seconds_to_strtime
-from html import unescape
 import os
 import random
 import re
@@ -352,10 +351,9 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
     if not res:
         if not SILENT:
             if not text:
-                if not SILENT:
-                    print('no text')
-                    #if nop:
-                    #    exit()
+                print('no text')
+                #if nop:
+                #    exit()
             else:
                 print('text beyond limits:')
                 print(text)
@@ -378,8 +376,7 @@ for link_no, (author_url, book_urls) in enumerate(links.items(), start=1):
                                 min(utils.TEXTS_FOR_SOURCE, num_links)),
           end='')
     if eta:
-        print('; ETA: {}'.format(seconds_to_strtime(eta)),
-              end='')
+        print('; ETA: {}'.format(seconds_to_strtime(eta)), end='')
     need_enter = True
     #exit()
 if need_enter:

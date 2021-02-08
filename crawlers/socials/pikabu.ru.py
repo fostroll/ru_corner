@@ -43,8 +43,8 @@ Texts download and parse
 ==========================================================================='''
 page_fns = utils.get_file_list(utils.PAGES_DIR, MAX_FILES)
 
-need_enter = False
 if len(page_fns) < utils.TEXTS_FOR_SOURCE:
+    need_enter = False
     texts_total = 0
     re0 = re.compile(r'\W|\d')
     re1 = re.compile(r'[^ЁА-Яёа-я]')
@@ -273,8 +273,8 @@ if len(page_fns) < utils.TEXTS_FOR_SOURCE:
         assert 0
     except OverflowError:
         pass
-if need_enter:
-    print()
+    if need_enter:
+        print()
 
 if os.path.isfile(utils.get_data_path(utils.CHUNKS_DIR, MAX_FILES, 1)):
     print('WARNING: Chunks are already exist. '

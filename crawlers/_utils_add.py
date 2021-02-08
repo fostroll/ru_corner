@@ -50,13 +50,24 @@ for idx, dir_ in reversed(list(enumerate(_path))):
 else:
     raise ValueError('ERROR: invalid path')
 
-def get_url(url, headers=None, cookies=None, encoding=None):
+def get_url(url, headers=None, cookies=None, encoding=None, data=None):
+    """If *data* is not None (it should be a dict in that case), we use POST
+    method.
+
+    :param headers: dict({name: value})
+    :param cookies: dict({name: value})
+    """
     errors = 0
     while True:
         try:
-            res = requests.get(url, headers=headers, cookies=cookies,
-                               allow_redirects=True, timeout=GET_URL_TIMEOUT,
-                               verify=False)
+            if data is None:
+                res = requests.get(url, headers=headers, cookies=cookies,
+                                   allow_redirects=True,
+                                   timeout=GET_URL_TIMEOUT, verify=False)
+            else:
+                res = requests.get(url, headers=headers, cookies=cookies,
+                                   data=data, allow_redirects=True,
+                                   timeout=GET_URL_TIMEOUT, verify=False)
             if encoding:
                 res.encoding = encoding
             break

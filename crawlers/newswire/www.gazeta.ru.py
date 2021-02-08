@@ -111,7 +111,7 @@ for link_no, link in enumerate(links, start=1):
         #line = unescape(re1.sub('', line)).replace('\u200b', '') \
         #                                  .replace('\ufeff', '').strip()
         line = utils.norm_text2(re1.sub('', line))
-        if line.startswith('НОВОСТИ ПО ТЕМЕ:'):
+        if line.startswith('НОВОСТИ ПО ТЕМЕ'):
             break
         if line:
             lines.append(' '.join(line.split()))

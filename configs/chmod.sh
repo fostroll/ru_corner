@@ -1,5 +1,5 @@
 #!/bin/sh
 
-#find . -type f \( -name *.txt -o -name *.ann \) -exec chmod 666 {} ';'
-find . -type f -name *.ann -exec chmod 666 {} ';'
-find . -type d -exec chmod 777 {} ';'
+find . -type d -exec touch {}/.stats_cache ';'
+find . -type f \( -name *.ann -o -name .stats_cache \) -exec chmod 666 {} ';'
+#find . -type d -exec chmod 777 {} ';'
