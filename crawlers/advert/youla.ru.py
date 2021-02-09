@@ -2,10 +2,13 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+import itertools
+import json
 import os
+from pprint import pprint
 import random
 import re
-import time
+#import time
 
 ###
 import sys
@@ -16,18 +19,12 @@ import _utils
 
 
 SEED = 42
-ROOT_URL = 'https://irecommend.ru'
-INIT_URL = ROOT_URL + '/mainpage_json/2aa7fd3048c6c2a21c190e5c911ba154/{}/new?pages={}&_={}'
-URL = ROOT_URL + '/lastreviews/{}/'
-COOKIES = {
-    'ab_var': '7',
-    'ss_uid': '16127689059357592',
-    'stats_s_a': '5yCWdE3qKpSukMFxtXnHmRdpqnhedr%2FgdxiGEyUzvhJy9IMakAA1QAIUJJmDZ1qw',
-    'stats_u_a': 'fko5IxLNzat9avMj9v1UDtc%2FaNsBQ9K%2F7bgS3UyoDyQxVgRqM9UZj1fkEHoCwRfjoIGOB0J0vA68i3JY9db6LrfNh6VCLOvq',
-    'statsactivity': '5',
-    'statstimer': '4'
-}
+ROOT_URL = 'https://youla.ru'
+INIT_URL = 'https://api.youla.io/api/v1/products?app_id=web/2&uid=602245c3ce39c&timestamp={}&page={}&limit=60&features=banners,serp_id,boosts&view_type=tile&search_id='
+#URL = ROOT_URL + '/lastreviews/{}/'
+MAX_LINKS = utils.TEXTS_FOR_SOURCE * 2
 SILENT = False
+DUMP = True
 
 if SEED:
     random.seed(SEED)
@@ -37,58 +34,63 @@ Links download
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
     with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
+        #TIMESTAMP = f.readline().strip()
         links = [x for x in f.read().split('\n') if x]
 else:
+    #TIMESTAMP = int(time.time())
     links = []
 
-if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
+if len(links) < MAX_LINKS:
+    driver = _utils.selenium_init()
     links = OrderedDict({x: 1 for x in links})
     if os.path.isfile(_utils.AUTHORS_IGNORE_FN):
         with open(_utils.AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
             authors_ignore = set(x for x in f.read().split('\n') if x)
     else:
         authors_ignore = set()
-    MAX_LINKS = utils.TEXTS_FOR_SOURCE * 2
-    offset = 0
-    while True:
-        url = INIT_URL.format(offset, 1, time.time_ns() // 1000000)
-        res = utils.get_url(url, headers=_utils.HEADERS, cookies=COOKIES)
-        res = res.json()
-        offset = res['offset']
-        output = res['output']
-        with open('1111.html', 'wt', encoding='utf-8') as f:
-            f.write(output)
-        if not output:
-            break
-        res = output.split('<div class="smTeaser')[1:]
-        res_len = len(res)
-        if res_len != 20:
-            assert res_len, 'ERROR: No links on page "{}"!'.format(url)
-            print('WARNING: {} links on page "{}" (must be 20)'
-                      .format(res_len, url))
+    for page_no in itertools.count(1):
+        #url = INIT_URL.format(TIMESTAMP, page_no)
+        url = INIT_URL.format('', page_no)
+        if not SILENT:
+            print(url)
+        driver.get(url)
+        res = driver.page_source
+        if DUMP:
+            with open('1111.html', 'wt', encoding='utf-8') as f:
+                f.write(res)
+        pos = res.find('{')
+        assert pos >= 0, 'ERROR: No json start on page "{}"!'.format(url)
+        res = res[pos:]
+        pos = res.rfind('}')
+        assert pos >= 0, 'ERROR: No json end on page "{}"!'.format(url)
+        res = res[:pos + 1]
+        #res = res.json()
+        res = json.loads(res)
+        if DUMP:
+            with open('1111.txt', 'wt', encoding='utf-8') as f:
+                pprint(res, stream=f)
+        items = res.get('data')
+        if not items:
+            print('WARNING: No more items on page "{}"!'.format(url))
+            driver.quit()
+            exit()
         need_break = False
-        for rec_no, rec in enumerate(res):
-            token = '<a class="productPhoto" href="/content/'
-            pos = rec.find(token)
-            assert pos >= 0, "ERROR: Can't find product on {}, record {}" \
-                                 .format(url, rec_no)
-            product = rec = rec[pos + len(token):]
-            pos = product.find('"')
-            assert pos >= 0, "ERROR: Can't find product on {}, record {}" \
-                                 .format(url, rec_no)
-            product = product[:pos]
-            link = '{}/content/{}'.format(ROOT_URL, product)
+        for item_no, item in enumerate(items):
+            link = item.get('url')
+            if not link:
+                with open('2222.txt', 'wt', encoding='utf-8') as f:
+                    pprint(item, stream=f)
+                assert link, 'ERROR: No url on page "{}", item {}!' \
+                                 .format(url, item_no)
+            link = ROOT_URL + link
             if link in links:
                 continue
-            token = '<div class="authorName"><a href="/users/'
-            pos = rec.find(token)
-            assert pos >= 0, "ERROR: Can't find user on {}, record {}" \
-                                 .format(url, rec_no)
-            author = rec[pos + len(token):]
-            pos = author.find('"')
-            assert pos >= 0, "ERROR: Can't find user on {}, record {}" \
-                                 .format(url, rec_no)
-            author = author[:pos]
+            author = item.get('owner', {}).get('id')
+            if not author:
+                with open('2222.txt', 'wt', encoding='utf-8') as f:
+                    pprint(item, stream=f)
+                assert author, 'ERROR: No owner on page "{}", item {}!' \
+                                   .format(url, item_no)
             if author in authors_ignore:
                 continue
             authors_ignore.add(author)
@@ -96,17 +98,20 @@ if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
             if len(links) >= MAX_LINKS:
                 need_break = True
                 break
+        with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
+            #print(TIMESTAMP, file=f)
+            f.write('\n'.join(links))
+        with open(_utils.AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
+            f.write('\n'.join(authors_ignore))
         print('\r{} (of {})'.format(len(links), MAX_LINKS), end='')
         if need_break:
             break
-    with open(_utils.AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
-        f.write('\n'.join(authors_ignore))
     links = list(links)
     random.shuffle(links)
     with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
     print()
-
+exit()
 '''===========================================================================
 Texts download and parse
 ==========================================================================='''

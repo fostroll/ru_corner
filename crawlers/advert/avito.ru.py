@@ -2,7 +2,9 @@
 #-*- encoding: utf-8 -*-
 
 from collections import OrderedDict
+import json
 import os
+from pprint import pprint
 import random
 import re
 import time
@@ -16,18 +18,34 @@ import _utils
 
 
 SEED = 42
-ROOT_URL = 'https://irecommend.ru'
-INIT_URL = ROOT_URL + '/mainpage_json/2aa7fd3048c6c2a21c190e5c911ba154/{}/new?pages={}&_={}'
-URL = ROOT_URL + '/lastreviews/{}/'
+ROOT_URL = 'https://www.avito.ru'
+INIT_URL = ROOT_URL + '/web/1/main/items?forceLocation=false&locationId={}&lastStamp={}&limit=30&offset={}'
+#637640 1612858924 30 30
+#URL = ROOT_URL + '/lastreviews/{}/'
+'''
 COOKIES = {
-    'ab_var': '7',
-    'ss_uid': '16127689059357592',
-    'stats_s_a': '5yCWdE3qKpSukMFxtXnHmRdpqnhedr%2FgdxiGEyUzvhJy9IMakAA1QAIUJJmDZ1qw',
-    'stats_u_a': 'fko5IxLNzat9avMj9v1UDtc%2FaNsBQ9K%2F7bgS3UyoDyQxVgRqM9UZj1fkEHoCwRfjoIGOB0J0vA68i3JY9db6LrfNh6VCLOvq',
-    'statsactivity': '5',
-    'statstimer': '4'
+    '__cfduid': 'd53060364c421f40d4bb516eddc509b281612858818',
+    'buyer_laas_location': '637640',
+    'buyer_local_priority_v2': '0',
+    'buyer_location_id': '637640',
+    'buyer_selected_search_radius4': '0_general',
+    'dfp_group': '66',
+    'f': '5.10a94bb89dd075604b5abdd419952845a68643d4d8df96e9a68643d4d8df96e9a68643d4d8df96e9a68643d4d8df96e94f9572e6986d0c624f9572e6986d0c624f9572e6986d0c62ba029cd346349f36c1e8912fd5a48d02c1e8912fd5a48d0246b8ae4e81acb9fa1a2a574992f83a9246b8ae4e81acb9fad99271d186dc1cd0e992ad2cc54b8aa8fbcd99d4b9f4cbda2157fc552fc064112de6947c9626acff915ac1de0d034112dc0d86d9e44006d81a2a574992f83a9246b8ae4e81acb9fae2415097439d404746b8ae4e81acb9fad99271d186dc1cd0b5b87f59517a23f2c772035eab81f5e1c772035eab81f5e1c772035eab81f5e1fb0fb526bb39450a143114829cf33ca7bed76bde8afb15d28e3a80a29e104a6c2c61f4550df136d822df23874cf735ffd6a90fb62fab5a15021dce8db01be7bf510cbb367c10574b83cf065b75e4d46e53bc326cd5f74c8ba12a61c8a29e59f7b94fd65f3f32b4e22ebf3cb6fd35a0ac0df103df0c26013a28a353c4323c7a3a140a384acbddd748cb826f1b0f1a3c963de19da9ed218fe23de19da9ed218fe2555de5d65c04a913e400aa21d50ae3851e84d92bdde8b2a6',
+    'lastViewingTime': '1612858818943',
+    'luri': 'moskva',
+    'no-ssr': '1',
+    'SEARCH_HISTORY_IDS': '4',
+    'sessid': '6653f10991c7236c677fdc818379bcb2.1609918004',
+    'showedStoryIds': '57-56-51-50-49-48-47-42-32',
+    'so': '1609918004',
+    'sx': 'H4sIAAAAAAACA1XNQY7DIAyF4buw7sIkBkxuA25CI09LJdJxlSp3H7roaGb99H%2FvZYYHWxrhNpwFgaRAa1y0ajPTy3ybySzrclF8xov2WSpBRakKUopUZjAnM5vJejtEDODscTJ4LTu3LNuG2LBn3SRh%2BCXjXlbf8teegFVECqu%2BXxlRmegv6QaCTs68brQ993tAKqid08oAUD%2BkT8lCTnb0QNnHMaCjcXa4YDg74DQ76zIv%2FN%2BO4Th%2BABYobNoDAQAA',
+    'u': '2kcmdlxa.hc3c8d.aptu5qhg2ng0',
+    'v': '1612858817'
 }
+'''
+MAX_LINKS = utils.TEXTS_FOR_SOURCE * 10
 SILENT = False
+DUMP = True
 
 if SEED:
     random.seed(SEED)
@@ -37,76 +55,70 @@ Links download
 ==========================================================================='''
 if os.path.isfile(utils.LINKS_FN):
     with open(utils.LINKS_FN, 'rt', encoding='utf-8') as f:
+        TIMESTAMP, OFFSET = f.readline().strip().split(':')
+        OFFSET = int(OFFSET)
         links = [x for x in f.read().split('\n') if x]
 else:
+    TIMESTAMP, OFFSET = int(time.time()), 0
     links = []
 
-if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
+if len(links) < MAX_LINKS:
+    driver = _utils.selenium_init()
     links = OrderedDict({x: 1 for x in links})
-    if os.path.isfile(_utils.AUTHORS_IGNORE_FN):
-        with open(_utils.AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
-            authors_ignore = set(x for x in f.read().split('\n') if x)
-    else:
-        authors_ignore = set()
-    MAX_LINKS = utils.TEXTS_FOR_SOURCE * 2
-    offset = 0
     while True:
-        url = INIT_URL.format(offset, 1, time.time_ns() // 1000000)
-        res = utils.get_url(url, headers=_utils.HEADERS, cookies=COOKIES)
-        res = res.json()
-        offset = res['offset']
-        output = res['output']
-        with open('1111.html', 'wt', encoding='utf-8') as f:
-            f.write(output)
-        if not output:
-            break
-        res = output.split('<div class="smTeaser')[1:]
-        res_len = len(res)
-        if res_len != 20:
-            assert res_len, 'ERROR: No links on page "{}"!'.format(url)
-            print('WARNING: {} links on page "{}" (must be 20)'
-                      .format(res_len, url))
+        url = INIT_URL.format('', TIMESTAMP, OFFSET)
+        if not SILENT:
+            print(url)
+        driver.get(url)
+        res = driver.page_source
+        if DUMP:
+            with open('1111.html', 'wt', encoding='utf-8') as f:
+                f.write(res)
+        pos = res.find('{')
+        assert pos >= 0, 'ERROR: No json start on page "{}"!'.format(url)
+        res = res[pos:]
+        pos = res.rfind('}')
+        assert pos >= 0, 'ERROR: No json end on page "{}"!'.format(url)
+        res = res[:pos + 1]
+        #res = res.json()
+        res = json.loads(res)
+        if DUMP:
+            with open('1111.txt', 'wt', encoding='utf-8') as f:
+                pprint(res, stream=f)
+        items = res.get('items')
+        assert items, 'ERROR: No items on page "{}"!'.format(url)
         need_break = False
-        for rec_no, rec in enumerate(res):
-            token = '<a class="productPhoto" href="/content/'
-            pos = rec.find(token)
-            assert pos >= 0, "ERROR: Can't find product on {}, record {}" \
-                                 .format(url, rec_no)
-            product = rec = rec[pos + len(token):]
-            pos = product.find('"')
-            assert pos >= 0, "ERROR: Can't find product on {}, record {}" \
-                                 .format(url, rec_no)
-            product = product[:pos]
-            link = '{}/content/{}'.format(ROOT_URL, product)
+        for item_no, item in enumerate(items):
+            link = item.get('urlPath')
+            if not link:
+                if 'bannerId' in item:
+                    continue
+                else:
+                    with open('2222.txt', 'wt', encoding='utf-8') as f:
+                        pprint(item, stream=f)
+                    assert link, 'ERROR: No url on page "{}", item {}!' \
+                                     .format(url, item_no)
+            link = ROOT_URL + link
             if link in links:
                 continue
-            token = '<div class="authorName"><a href="/users/'
-            pos = rec.find(token)
-            assert pos >= 0, "ERROR: Can't find user on {}, record {}" \
-                                 .format(url, rec_no)
-            author = rec[pos + len(token):]
-            pos = author.find('"')
-            assert pos >= 0, "ERROR: Can't find user on {}, record {}" \
-                                 .format(url, rec_no)
-            author = author[:pos]
-            if author in authors_ignore:
-                continue
-            authors_ignore.add(author)
             links[link] = 1
             if len(links) >= MAX_LINKS:
                 need_break = True
                 break
+        OFFSET += item_no + 1
+        with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
+            print('{}:{}'.format(TIMESTAMP, OFFSET), file=f)
+            f.write('\n'.join(links))
         print('\r{} (of {})'.format(len(links), MAX_LINKS), end='')
         if need_break:
             break
-    with open(_utils.AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
-        f.write('\n'.join(authors_ignore))
+        time.sleep(5)
     links = list(links)
     random.shuffle(links)
     with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
     print()
-
+exit()
 '''===========================================================================
 Texts download and parse
 ==========================================================================='''
