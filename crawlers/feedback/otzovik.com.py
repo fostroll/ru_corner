@@ -12,21 +12,12 @@ import sys
 sys.path.append('../')
 ###
 import utils
+import _utils
 
 
 SEED = 42
 ROOT_URL = 'https://otzovik.com'
 URL = ROOT_URL + '/lastreviews/{}/'
-AUTHORS_IGNORE_FN = os.path.join(utils.PAGES_DIR, 'authors_ignore.tmp')
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'TE': 'Trailers'
-}
 COOKIES = {
     'csid': '4103094974',
     'guid': 'dc1ad8f971955ac140b17825109a50b3',
@@ -34,9 +25,7 @@ COOKIES = {
     'ROBINBOBIN': '2812f2963c1610e6a5c1621217',
     'ssid': '4103094974'
 }
-MIN_TEXT_LINES = 1
-MIN_CHUNK_WORDS = 20
-MAX_CHUNK_WORDS = 200
+MAX_PAGE = 10000
 SILENT = False
 
 if SEED:
@@ -54,8 +43,8 @@ else:
 if len(links) < utils.TEXTS_FOR_SOURCE:
     FIRST_LINK_IDS = []
     links = OrderedDict((x, 1) for x in links)
-    if os.path.isfile(AUTHORS_IGNORE_FN):
-        with open(AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
+    if os.path.isfile(_utils.AUTHORS_IGNORE_FN):
+        with open(_utils.AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
             authors_ignore = OrderedDict(x.split('\t')
                                              for x in f.read().split('\n')
                                              if x)
@@ -63,7 +52,7 @@ if len(links) < utils.TEXTS_FOR_SOURCE:
         authors_ignore = OrderedDict()
     for page_no in range(1, 21):
         url = URL.format(page_no)
-        res = utils.get_url(url, headers=HEADERS, cookies=COOKIES)
+        res = utils.get_url(url, headers=_utils.HEADERS, cookies=COOKIES)
         while True:
             page = res.text
             res = page.split('<div class="item mshow0" data-id="')[1:]
@@ -142,7 +131,7 @@ if len(links) < utils.TEXTS_FOR_SOURCE:
                  for x in range(FIRST_LINK_ID - utils.TEXTS_FOR_SOURCE * 100,
                                 FIRST_LINK_ID)]
     '''
-    with open(AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
+    with open(_utils.AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join('\t'.join(x) for x in authors_ignore.items()))
     links = list(links)
     '''
@@ -154,7 +143,6 @@ if len(links) < utils.TEXTS_FOR_SOURCE:
 '''===========================================================================
 Texts download and parse
 ==========================================================================='''
-MAX_PAGE = 10000
 page_fns = utils.get_file_list(utils.PAGES_DIR, MAX_PAGE)
 start_link_idx = int(os.path.split(sorted(page_fns)[-1])[-1]
                          .replace(utils.DATA_EXT, '')) \
@@ -170,6 +158,7 @@ re11 = re.compile(r'<div class="review-body description" itemprop="description">
 re12 = re.compile(r'<(?P<tag>\S+)[^>]*>.*?</(?P=tag)>')
 re13 = re.compile(r'<(?:[^/].*)?>')
 need_enter = False
+#while False:
 for link_no, link in enumerate(links, start=1):
     if texts_total >= utils.TEXTS_FOR_SOURCE:
         break
@@ -197,6 +186,9 @@ for link_no, link in enumerate(links, start=1):
     match = re10.search(page)
     assert match, "ERROR: Can't find header on page {}".format(link)
     header = utils.norm_text2(match.group(1))
+    token = 'Отзыв: '
+    if header.startswith(token):
+        header = header[len(token):]
     match = re11.search(page)
     assert match, "ERROR: Can't find review on page {}".format(link)
     text = match.group(1)
@@ -209,7 +201,7 @@ for link_no, link in enumerate(links, start=1):
     text = utils.norm_text2(text)
     lines = [header] + [x for x in (x.strip() for x in text.split('\n')) if x]
     res, text = False, None
-    while len(lines) >= MIN_TEXT_LINES:
+    while len(lines) >= _utils.MIN_TEXT_LINES:
         text = '\n'.join(lines)
         text0 = re0.sub('', text)
         text1 = re1.sub('', text0)
@@ -225,10 +217,10 @@ for link_no, link in enumerate(links, start=1):
             num_words = len([x for x in text.split()
                                if re5.sub('', x)])
             #print(num_words)
-            if num_words > MAX_CHUNK_WORDS:
+            if num_words > _utils.MAX_CHUNK_WORDS:
                 lines = lines[:-1]
                 continue
-            if num_words >= MIN_CHUNK_WORDS:
+            if num_words >= _utils.MIN_CHUNK_WORDS:
                 res = True
         else:
             if not SILENT:
@@ -258,13 +250,13 @@ for link_no, link in enumerate(links, start=1):
     #exit()
 if need_enter:
     print()
-exit()
+
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-_utils.make_chunks(num_links)
+_utils.make_chunks(MAX_PAGE)
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(num_links, isdialog=False)
+utils.tokenize(MAX_PAGE, isdialog=False)

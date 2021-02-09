@@ -13,22 +13,13 @@ import sys
 sys.path.append('../')
 ###
 import utils
+import _utils
 
 
 SEED = 42
 ROOT_URL = 'https://irecommend.ru'
 INIT_URL = ROOT_URL + '/mainpage_json/2aa7fd3048c6c2a21c190e5c911ba154/{}/new?pages={}&_={}'
 URL = ROOT_URL + '/lastreviews/{}/'
-AUTHORS_IGNORE_FN = os.path.join(utils.PAGES_DIR, 'authors_ignore.tmp')
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'TE': 'Trailers'
-}
 COOKIES = {
     'ab_var': '7',
     'ss_uid': '16127689059357592',
@@ -37,9 +28,6 @@ COOKIES = {
     'statsactivity': '5',
     'statstimer': '4'
 }
-MIN_TEXT_LINES = 1
-MIN_CHUNK_WORDS = 20
-MAX_CHUNK_WORDS = 250
 SILENT = False
 
 if SEED:
@@ -56,8 +44,8 @@ else:
 
 if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
     links = OrderedDict({x: 1 for x in links})
-    if os.path.isfile(AUTHORS_IGNORE_FN):
-        with open(AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
+    if os.path.isfile(_utils.AUTHORS_IGNORE_FN):
+        with open(_utils.AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
             authors_ignore = set(x for x in f.read().split('\n') if x)
     else:
         authors_ignore = set()
@@ -65,7 +53,7 @@ if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
     offset = 0
     while True:
         url = INIT_URL.format(offset, 1, time.time_ns() // 1000000)
-        res = utils.get_url(url, headers=HEADERS, cookies=COOKIES)
+        res = utils.get_url(url, headers=_utils.HEADERS, cookies=COOKIES)
         res = res.json()
         offset = res['offset']
         output = res['output']
@@ -112,7 +100,7 @@ if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
         print('\r{} (of {})'.format(len(links), MAX_LINKS), end='')
         if need_break:
             break
-    with open(AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
+    with open(_utils.AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(authors_ignore))
     links = list(links)
     random.shuffle(links)
@@ -123,6 +111,9 @@ if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
 '''===========================================================================
 Texts download and parse
 ==========================================================================='''
+REDO_TEXT = False if utils.get_file_list(utils.TEXTS_DIR,
+                                         utils.TEXTS_FOR_SOURCE) else True
+
 page_fns = utils.get_file_list(utils.PAGES_DIR, utils.TEXTS_FOR_SOURCE)
 start_link_idx = int(os.path.split(sorted(page_fns)[-1])[-1]
                          .replace(utils.DATA_EXT, '')) \
@@ -159,8 +150,12 @@ for link_no, link in enumerate(links, start=1):
     page = None
     #link = 'https://irecommend.ru/content/venus-sensitive-s-5-lezviyami-i-ego-otlichie-ot-obychnykh-venus-foto-sravneniya-i-lichnoe-mn'
     #link = 'https://irecommend.ru/content/paletka-kotoraya-tait-v-sebe-syurprizy'
-    if not os.path.isfile(page_fn):#link_no > start_link_idx:
-        #time.sleep(2)
+    #if link_no > start_link_idx:
+#TODO:
+    if not os.path.isfile(page_fn):
+        if link_no <= start_link_idx and not REDO_TEXT:
+            continue
+###
         res = utils.get_url(link, headers=HEADERS, cookies=COOKIES)
         page = res.text
         with open(page_fn, 'wt', encoding='utf-8') as f:
@@ -173,6 +168,10 @@ for link_no, link in enumerate(links, start=1):
         or page.find('<h1 class="not-found-title">') > 0:
             continue
     else:
+#TODO:
+        if link_no <= start_link_idx and not REDO_TEXT:
+            continue
+###
         if not os.path.isfile(page_fn):
             continue
         if os.path.isfile(text_fn):
@@ -229,7 +228,7 @@ for link_no, link in enumerate(links, start=1):
     text = utils.norm_text2(text)
     lines = [header] + [x for x in (x.strip() for x in text.split('\n')) if x]
     res, text = False, None
-    while len(lines) >= MIN_TEXT_LINES:
+    while len(lines) >= _utils.MIN_TEXT_LINES:
         text = '\n'.join(lines)
         text0 = re0.sub('', text)
         text1 = re1.sub('', text0)
@@ -245,10 +244,10 @@ for link_no, link in enumerate(links, start=1):
             num_words = len([x for x in text.split()
                                if re5.sub('', x)])
             #print(num_words)
-            if num_words > MAX_CHUNK_WORDS:
+            if num_words > _utils.MAX_CHUNK_WORDS:
                 lines = lines[:-1]
                 continue
-            if num_words >= MIN_CHUNK_WORDS:
+            if num_words >= _utils.MIN_CHUNK_WORDS:
                 res = True
         else:
             if not SILENT:
@@ -274,13 +273,13 @@ for link_no, link in enumerate(links, start=1):
     #exit()
 if need_enter:
     print()
-exit()
+
 '''===========================================================================
 Chunks creation
 ==========================================================================='''
-_utils.make_chunks(num_links)
+_utils.make_chunks(utils.TEXTS_FOR_SOURCE)
 
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(num_links, isdialog=False)
+utils.tokenize(utils.TEXTS_FOR_SOURCE, isdialog=False)
