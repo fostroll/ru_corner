@@ -105,56 +105,62 @@
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p4-s2
-# text = « Ооооо, какая ты красивая!
-1	``	_	_	_	_	_	_	_	QuotationStart=«
+# text = «Ооооо, какая ты красивая!»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 2	Ооооо	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	какая	_	_	_	_	_	_	_	_
 5	ты	_	_	_	_	_	_	_	_
 6	красивая	_	_	_	_	_	_	_	SpaceAfter=No
-7	!	_	_	_	_	_	_	_	_
+7	!	_	_	_	_	_	_	_	SpaceAfter=No
+1	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p4-s3
-# text = '', ``Потрясающая женщина'', ``Наслаждайся своим отдыхом'', ``Прекрасная у тебя фигурка'', ``Каким спортом ты занимаешься?
-1	''	_	_	_	_	_	_	_	SpaceAfter=No
-2	,	_	_	_	_	_	_	_	_
-3	``	_	_	_	_	_	_	_	SpaceAfter=No
+# text = «Потрясающая женщина»,
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 4	Потрясающая	_	_	_	_	_	_	_	_
 5	женщина	_	_	_	_	_	_	_	SpaceAfter=No
-6	''	_	_	_	_	_	_	_	SpaceAfter=No
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = 0085-p4-s4
+# text = «Наслаждайся своим отдыхом»,
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 9	Наслаждайся	_	_	_	_	_	_	_	_
 10	своим	_	_	_	_	_	_	_	_
 11	отдыхом	_	_	_	_	_	_	_	SpaceAfter=No
-12	''	_	_	_	_	_	_	_	SpaceAfter=No
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
-14	``	_	_	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = 0085-p4-s5
+# text = «Прекрасная у тебя фигурка»,
+14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 15	Прекрасная	_	_	_	_	_	_	_	_
 16	у	_	_	_	_	_	_	_	_
 17	тебя	_	_	_	_	_	_	_	_
 18	фигурка	_	_	_	_	_	_	_	SpaceAfter=No
-19	''	_	_	_	_	_	_	_	SpaceAfter=No
+19	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
-21	``	_	_	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = 0085-p4-s6
+# text = «Каким спортом ты занимаешься?
+21	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 22	Каким	_	_	_	_	_	_	_	_
 23	спортом	_	_	_	_	_	_	_	_
 24	ты	_	_	_	_	_	_	_	_
 25	занимаешься	_	_	_	_	_	_	_	SpaceAfter=No
 26	?	_	_	_	_	_	_	_	_
 
-# sent_id = 0085-p4-s4
-# text = Я тоже хочу такое тело! »
+# sent_id = 0085-p4-s7
+# text = Я тоже хочу такое тело!» - писали они в комментариях.
 1	Я	_	_	_	_	_	_	_	_
 2	тоже	_	_	_	_	_	_	_	_
 3	хочу	_	_	_	_	_	_	_	_
 4	такое	_	_	_	_	_	_	_	_
 5	тело	_	_	_	_	_	_	_	SpaceAfter=No
-6	!	_	_	_	_	_	_	_	_
+6	!	_	_	_	_	_	_	_	SpaceAfter=No
 7	''	_	_	_	_	_	_	_	QuotationEnd=»
-
-# sent_id = 0085-p4-s5
-# text = - писали они в комментариях.
 1	-	_	_	_	_	_	_	_	_
 2	писали	_	_	_	_	_	_	_	_
 3	они	_	_	_	_	_	_	_	_

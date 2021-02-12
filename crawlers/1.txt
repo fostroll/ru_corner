@@ -1,0 +1,4 @@
+___final_brat.py:	_data/brat/_tagged -> _data/brat/final
+cp 			_data/brat/final -> corpus/ner/brat
+brat_to_conll.py:	corpus/ner/brat -> _data/brat/conll
+conll_merge.py:		_data/conll + _data/brat/conll -> corpus/ner/conll

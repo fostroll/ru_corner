@@ -1,0 +1,245 @@
+# newdoc id = 0096
+# newpar id = 0096-p1
+# par_text = Армия США получит «убийцу» российской «Арматы»
+# sent_id = 0096-p1-s1
+# text = Армия США получит ``убийцу'' российской ``Арматы''
+1	Армия	_	_	_	_	_	_	_	bratT3=Organization
+2	США	_	_	_	_	_	_	_	bratT3=Organization|bratT5=GPE
+3	получит	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No
+5	убийцу	_	_	_	_	_	_	_	SpaceAfter=No
+6	''	_	_	_	_	_	_	_	_
+7	российской	_	_	_	_	_	_	_	bratT2=Product
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
+9	Арматы	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
+10	''	_	_	_	_	_	_	_	bratT2=Product
+
+# newpar id = 0096-p2
+# par_text = Армия США планирует вооружиться семейством беспилотных боевых машин Robotic Combat Vehicle (RCV), пишет Breaking Defense.
+# sent_id = 0096-p2-s1
+# text = Армия США планирует вооружиться семейством беспилотных боевых машин Robotic Combat Vehicle (RCV), пишет Breaking Defense.
+1	Армия	_	_	_	_	_	_	_	bratT4=Organization
+2	США	_	_	_	_	_	_	_	bratT4=Organization|bratT6=GPE
+3	планирует	_	_	_	_	_	_	_	_
+4	вооружиться	_	_	_	_	_	_	_	_
+5	семейством	_	_	_	_	_	_	_	bratA7=T1:Trademark|bratT1=Product
+6	беспилотных	_	_	_	_	_	_	_	bratA7=T1:Trademark|bratT1=Product
+7	боевых	_	_	_	_	_	_	_	bratA7=T1:Trademark|bratT1=Product
+8	машин	_	_	_	_	_	_	_	bratA7=T1:Trademark|bratT1=Product
+9	Robotic	_	_	_	_	_	_	_	bratA7=T1:Trademark|bratT1=Product
+10	Combat	_	_	_	_	_	_	_	bratA7=T1:Trademark|bratT1=Product
+11	Vehicle	_	_	_	_	_	_	_	bratA7=T1:Trademark|bratT1=Product
+12	(	_	_	_	_	_	_	_	SpaceAfter=No
+13	RCV	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T31:Trademark|bratT31=Product
+14	)	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	пишет	_	_	_	_	_	_	_	_
+17	Breaking	_	_	_	_	_	_	_	bratA4=T7:Media|bratT7=Organization
+18	Defense	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Media|bratT7=Organization
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p3
+# par_text = Согласно изданию, соответствующая линейка должна включать роботов от легкой машины-разведчика, вооруженного одной противотанковой ракетой, до 30-тонного беспилотного танка, «такого же прочного, как 70-тонный M1 Abrams». 10-тонные машины, занимающие промежуточное положение между двумя вышеперечисленными, должны получить пулемет, ракетное вооружение и 30-миллиметровую пушку.
+# sent_id = 0096-p3-s1
+# text = Согласно изданию, соответствующая линейка должна включать роботов от легкой машины-разведчика, вооруженного одной противотанковой ракетой, до 30-тонного беспилотного танка, ``такого же прочного, как 70-тонный M1 Abrams''.
+1	Согласно	_	_	_	_	_	_	_	_
+2	изданию	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	соответствующая	_	_	_	_	_	_	_	_
+5	линейка	_	_	_	_	_	_	_	_
+6	должна	_	_	_	_	_	_	_	_
+7	включать	_	_	_	_	_	_	_	_
+8	роботов	_	_	_	_	_	_	_	_
+9	от	_	_	_	_	_	_	_	_
+10	легкой	_	_	_	_	_	_	_	_
+11	машины-разведчика	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	вооруженного	_	_	_	_	_	_	_	_
+14	одной	_	_	_	_	_	_	_	_
+15	противотанковой	_	_	_	_	_	_	_	_
+16	ракетой	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	до	_	_	_	_	_	_	_	_
+19	30-тонного	_	_	_	_	_	_	_	bratT12=Quantity
+20	беспилотного	_	_	_	_	_	_	_	_
+21	танка	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	``	_	_	_	_	_	_	_	SpaceAfter=No
+24	такого	_	_	_	_	_	_	_	_
+25	же	_	_	_	_	_	_	_	_
+26	прочного	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	как	_	_	_	_	_	_	_	_
+29	70-тонный	_	_	_	_	_	_	_	bratT9=Quantity
+30	M1	_	_	_	_	_	_	_	bratT8=Product
+31	Abrams	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Product
+32	''	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0096-p3-s2
+# text = 10-тонные машины, занимающие промежуточное положение между двумя вышеперечисленными, должны получить пулемет, ракетное вооружение и 30-миллиметровую пушку.
+1	10-тонные	_	_	_	_	_	_	_	bratT11=Quantity
+2	машины	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	занимающие	_	_	_	_	_	_	_	_
+5	промежуточное	_	_	_	_	_	_	_	_
+6	положение	_	_	_	_	_	_	_	_
+7	между	_	_	_	_	_	_	_	_
+8	двумя	_	_	_	_	_	_	_	bratT22=Quantity
+9	вышеперечисленными	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+10	,	_	_	_	_	_	_	_	_
+11	должны	_	_	_	_	_	_	_	_
+12	получить	_	_	_	_	_	_	_	_
+13	пулемет	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	ракетное	_	_	_	_	_	_	_	_
+16	вооружение	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	30-миллиметровую	_	_	_	_	_	_	_	bratT10=Quantity
+19	пушку	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p4
+# par_text = Popular Mechanics пишет, что тяжелые машины RCV будут способны «убивать» российские и китайские танки, в частности, Т-14 «Армата» и Type 99. «Машины будут выполнять одни из самых опасных задач солдат», — отмечает издание.
+# sent_id = 0096-p4-s1
+# text = Popular Mechanics пишет, что тяжелые машины RCV будут способны ``убивать'' российские и китайские танки, в частности, Т-14 ``Армата'' и Type 99.
+1	Popular	_	_	_	_	_	_	_	bratA3=T13:Media|bratT13=Organization
+2	Mechanics	_	_	_	_	_	_	_	bratA3=T13:Media|bratT13=Organization
+3	пишет	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	тяжелые	_	_	_	_	_	_	_	bratT14=Product
+7	машины	_	_	_	_	_	_	_	bratT14=Product
+8	RCV	_	_	_	_	_	_	_	bratT14=Product
+9	будут	_	_	_	_	_	_	_	_
+10	способны	_	_	_	_	_	_	_	_
+11	``	_	_	_	_	_	_	_	SpaceAfter=No
+12	убивать	_	_	_	_	_	_	_	SpaceAfter=No
+13	''	_	_	_	_	_	_	_	_
+14	российские	_	_	_	_	_	_	_	_
+15	и	_	_	_	_	_	_	_	_
+16	китайские	_	_	_	_	_	_	_	_
+17	танки	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	частности	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	Т-14	_	_	_	_	_	_	_	bratT15=Product
+23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
+24	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
+25	''	_	_	_	_	_	_	_	bratT15=Product
+26	и	_	_	_	_	_	_	_	_
+27	Type	_	_	_	_	_	_	_	bratT33=Product
+28	99	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Product
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0096-p4-s2
+# text = ``Машины будут выполнять одни из самых опасных задач солдат'', - отмечает издание.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Машины	_	_	_	_	_	_	_	_
+3	будут	_	_	_	_	_	_	_	_
+4	выполнять	_	_	_	_	_	_	_	_
+5	одни	_	_	_	_	_	_	_	_
+6	из	_	_	_	_	_	_	_	_
+7	самых	_	_	_	_	_	_	_	_
+8	опасных	_	_	_	_	_	_	_	_
+9	задач	_	_	_	_	_	_	_	_
+10	солдат	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+11	''	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	-	_	_	_	_	_	_	_	_
+14	отмечает	_	_	_	_	_	_	_	_
+15	издание	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p5
+# par_text = В июле немецкий концерн Rheinmetall выложил в Twitter ролик с, вероятно, британским боевым танком Challenger 2, получившим новые броню и пушку. Агентство Defence Express, ссылаясь на разработчиков, назвало показанное Германией оружие «убийцей» российского танка Т-14 «Армата».
+# sent_id = 0096-p5-s1
+# text = В июле немецкий концерн Rheinmetall выложил в Twitter ролик с, вероятно, британским боевым танком Challenger 2, получившим новые броню и пушку.
+1	В	_	_	_	_	_	_	_	bratT16=Date-absolute
+2	июле	_	_	_	_	_	_	_	bratT16=Date-absolute
+3	немецкий	_	_	_	_	_	_	_	bratT17=Organization
+4	концерн	_	_	_	_	_	_	_	bratT17=Organization
+5	Rheinmetall	_	_	_	_	_	_	_	bratT17=Organization
+6	выложил	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	Twitter	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Service
+9	ролик	_	_	_	_	_	_	_	_
+10	с	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	вероятно	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	британским	_	_	_	_	_	_	_	bratT19=Product
+15	боевым	_	_	_	_	_	_	_	bratT19=Product
+16	танком	_	_	_	_	_	_	_	bratT19=Product
+17	Challenger	_	_	_	_	_	_	_	bratT19=Product
+18	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Product
+19	,	_	_	_	_	_	_	_	_
+20	получившим	_	_	_	_	_	_	_	_
+21	новые	_	_	_	_	_	_	_	_
+22	броню	_	_	_	_	_	_	_	_
+23	и	_	_	_	_	_	_	_	_
+24	пушку	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0096-p5-s2
+# text = Агентство Defence Express, ссылаясь на разработчиков, назвало показанное Германией оружие ``убийцей'' российского танка Т-14 ``Армата''.
+1	Агентство	_	_	_	_	_	_	_	bratA5=T20:Media|bratT20=Organization
+2	Defence	_	_	_	_	_	_	_	bratA5=T20:Media|bratT20=Organization
+3	Express	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T20:Media|bratT20=Organization
+4	,	_	_	_	_	_	_	_	_
+5	ссылаясь	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	разработчиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property
+8	,	_	_	_	_	_	_	_	_
+9	назвало	_	_	_	_	_	_	_	_
+10	показанное	_	_	_	_	_	_	_	_
+11	Германией	_	_	_	_	_	_	_	bratT21=GPE
+12	оружие	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	SpaceAfter=No
+14	убийцей	_	_	_	_	_	_	_	SpaceAfter=No
+15	''	_	_	_	_	_	_	_	_
+16	российского	_	_	_	_	_	_	_	bratT23=Product
+17	танка	_	_	_	_	_	_	_	bratT23=Product
+18	Т-14	_	_	_	_	_	_	_	bratT23=Product
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Product
+20	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Product
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Product
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p6
+# par_text = В феврале американская компания Bell выпустила в Twitter рекламный ролик, в котором вертолет 360 Invictus «убивает» перспективные российские боевые машины Т-14 и Т-15 платформы «Армата».
+# sent_id = 0096-p6-s1
+# text = В феврале американская компания Bell выпустила в Twitter рекламный ролик, в котором вертолет 360 Invictus ``убивает'' перспективные российские боевые машины Т-14 и Т-15 платформы ``Армата''.
+1	В	_	_	_	_	_	_	_	bratT24=Date-absolute
+2	феврале	_	_	_	_	_	_	_	bratT24=Date-absolute
+3	американская	_	_	_	_	_	_	_	_
+4	компания	_	_	_	_	_	_	_	bratT28=Organization
+5	Bell	_	_	_	_	_	_	_	bratT28=Organization
+6	выпустила	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	Twitter	_	_	_	_	_	_	_	bratA9=T25:Media|bratT25=Service
+9	рекламный	_	_	_	_	_	_	_	_
+10	ролик	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	котором	_	_	_	_	_	_	_	_
+14	вертолет	_	_	_	_	_	_	_	bratT26=Product
+15	360	_	_	_	_	_	_	_	bratT26=Product
+16	Invictus	_	_	_	_	_	_	_	bratT26=Product
+17	``	_	_	_	_	_	_	_	SpaceAfter=No
+18	убивает	_	_	_	_	_	_	_	SpaceAfter=No
+19	''	_	_	_	_	_	_	_	_
+20	перспективные	_	_	_	_	_	_	_	_
+21	российские	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+22	боевые	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+23	машины	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+24	Т-14	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+25	и	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+26	Т-15	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+27	платформы	_	_	_	_	_	_	_	bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+28	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+29	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+30	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+31	.	_	_	_	_	_	_	_	_
+
