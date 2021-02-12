@@ -93,7 +93,7 @@ def norm_text(text):
 
     return text
 
-def tokenize(num_links, isdialog=True):
+def tokenize(num_links, isdialog=True, norm_punct=False):
     tp = TextPreprocessor()
     chunk_fns = get_file_list(CHUNKS_DIR, num_links)
     max_conll = min(CONLL_FOR_SOURCE, len(chunk_fns))
@@ -129,7 +129,8 @@ def tokenize(num_links, isdialog=True):
             doc_id = fn_to_id(conll_fn)
             tp.new_doc(doc_id=doc_id, metadata=[])
             tp.new_pars(pars, doc_id=doc_id)
-            tp.do_all(tag_phone=False, tag_date=False, silent=True)
+            tp.do_all(tag_phone=False, tag_date=False, norm_punct=norm_punct,
+                      silent=True)
             conll = list(tp.save(doc_id=doc_id))
             tp.remove_doc(doc_id)
 

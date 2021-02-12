@@ -249,4 +249,4 @@ _utils.make_chunks(MAX_LINKS)
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(MAX_LINKS, isdialog=False)
+utils.tokenize(MAX_LINKS, isdialog=False, norm_punct=False)

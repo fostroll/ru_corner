@@ -33,7 +33,8 @@ def make_chunks(num_links, min_chunk_lines=MIN_CHUNK_LINES):
             with open(chunk_fn, 'wt', encoding='utf-8') as f_out:
                 lines, chunk_words = [], 0
                 for line_no, line in enumerate(text):
-                    line = re.sub(r'[\u2800\uFE00-\uFE0F]', '', line).strip()
+                    line = re.sub('\s+', ' ',
+                           re.sub(r'[\u2800\uFE00-\uFE0F]', '', line)).strip()
                     if not line:
                         continue
                     chunk_words += len(line.split())

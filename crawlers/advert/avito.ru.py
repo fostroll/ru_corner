@@ -146,6 +146,7 @@ if len(utils.get_file_list(utils.TEXTS_DIR,
             with open(page_fn, 'wt', encoding='utf-8') as f:
                 print(link, file=f)
                 f.write(page)
+            check_ignore = True
         else:
             if not os.path.isfile(page_fn):
                 continue
@@ -155,6 +156,7 @@ if len(utils.get_file_list(utils.TEXTS_DIR,
             with open(page_fn, 'rt', encoding='utf-8') as f:
                 link = f.readline().rstrip()
                 page = f.read()
+            check_ignore = False
         if DUMP:
             with open('1111.html', 'wt', encoding='utf-8') as f:
                 f.write(page)
@@ -206,7 +208,7 @@ if len(utils.get_file_list(utils.TEXTS_DIR,
         res = res[pos + len(token):]
         pos = res.find('/')
         author = res[:pos]
-        if author in authors_ignore:
+        if check_ignore and author in authors_ignore:
             continue
         lines = [header] + [x for x in (x.strip() for x in text.split('\n'))
                               if x]
@@ -248,9 +250,10 @@ if len(utils.get_file_list(utils.TEXTS_DIR,
                     print(text)
             continue
         texts_total += 1
-        authors_ignore.add(author)
-        with open(_utils.AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
-            f.write('\n'.join(authors_ignore))
+        if check_ignore:
+            authors_ignore.add(author)
+            with open(_utils.AUTHORS_IGNORE_FN, 'wt', encoding='utf-8') as f:
+                f.write('\n'.join(authors_ignore))
         with open(text_fn, 'wt', encoding='utf-8') as f:
             print(link, file=f)
             f.write(text)
@@ -271,4 +274,4 @@ _utils.make_chunks(MAX_LINKS)
 '''===========================================================================
 Tokenization
 ==========================================================================='''
-utils.tokenize(MAX_LINKS, isdialog=False)
+utils.tokenize(MAX_LINKS, isdialog=False, norm_punct=False)
