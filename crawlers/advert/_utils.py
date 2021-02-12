@@ -2,6 +2,7 @@
 
 from collections import OrderedDict
 import os
+import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -15,20 +16,8 @@ import utils
 MIN_TEXT_LINES = 1
 MIN_CHUNK_LINES = 1
 MIN_CHUNK_WORDS = 20
-MAX_CHUNK_WORDS = 250
+MAX_CHUNK_WORDS = 200
 AUTHORS_IGNORE_FN = os.path.join(utils.PAGES_DIR, 'authors_ignore.tmp')
-HEADERS = {
-    'Host': 'www.avito.ru',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'Pragma': 'no-cache',
-    'Cache-Control': 'max-age=0',
-    'TE': 'Trailers'
-}
 
 def make_chunks(num_links, min_chunk_lines=MIN_CHUNK_LINES):
     text_fns = utils.get_file_list(utils.TEXTS_DIR, num_links)
@@ -44,8 +33,10 @@ def make_chunks(num_links, min_chunk_lines=MIN_CHUNK_LINES):
             with open(chunk_fn, 'wt', encoding='utf-8') as f_out:
                 lines, chunk_words = [], 0
                 for line_no, line in enumerate(text):
-                    if line_no > 0:
-                        chunk_words += len(line.split())
+                    line = re.sub(r'[\u2800\uFE00-\uFE0F]', '', line).strip()
+                    if not line:
+                        continue
+                    chunk_words += len(line.split())
                     if line_no < min_chunk_lines \
                     or chunk_words <= MAX_CHUNK_WORDS:
                         lines.append(line)
@@ -66,8 +57,8 @@ def selenium_init(silent=False):
     options.add_experimental_option("prefs", {
         "profile.default_content_setting_values.notifications": 1,
         # disable images
-        "profile.default_content_settings": {"images": 2},
-        "profile.managed_default_content_settings": {"images": 2}
+        #"profile.default_content_settings": {"images": 2},
+        #"profile.managed_default_content_settings": {"images": 2}
         ###
     })
     options.headless = silent

@@ -41,7 +41,8 @@ if os.path.isfile(utils.LINKS_FN):
 else:
     links = []
 
-if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
+if len(links) < utils.TEXTS_FOR_SOURCE:
+#if len(links) < 1:
     links = OrderedDict({x: 1 for x in links})
     if os.path.isfile(_utils.AUTHORS_IGNORE_FN):
         with open(_utils.AUTHORS_IGNORE_FN, 'rt', encoding='utf-8') as f:
@@ -68,7 +69,7 @@ if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
                       .format(res_len, url))
         need_break = False
         for rec_no, rec in enumerate(res):
-            token = '<a class="productPhoto" href="/content/'
+            token = '<a class="productPhoto" href="'
             pos = rec.find(token)
             assert pos >= 0, "ERROR: Can't find product on {}, record {}" \
                                  .format(url, rec_no)
@@ -77,7 +78,7 @@ if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
             assert pos >= 0, "ERROR: Can't find product on {}, record {}" \
                                  .format(url, rec_no)
             product = product[:pos]
-            link = '{}/content/{}'.format(ROOT_URL, product)
+            link = '{}{}'.format(ROOT_URL, product)
             if link in links:
                 continue
             token = '<div class="authorName"><a href="/users/'
@@ -106,7 +107,7 @@ if len(links) < 1:#utils.TEXTS_FOR_SOURCE:
     with open(utils.LINKS_FN, 'wt', encoding='utf-8') as f:
         f.write('\n'.join(links))
     print()
-
+exit()
 '''===========================================================================
 Texts download and parse
 ==========================================================================='''
