@@ -1,0 +1,157 @@
+# newdoc id = 0099
+# newpar id = 0099-p1
+# par_text = ВКС России получили на вооружение все 50 истребителей Су-35С
+# sent_id = 0099-p1-s1
+# text = ВКС России получили на вооружение все 50 истребителей Су-35С
+1	ВКС	_	_	_	_	_	_	_	bratT1=Organization
+2	России	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+3	получили	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	вооружение	_	_	_	_	_	_	_	_
+6	все	_	_	_	_	_	_	_	_
+7	50	_	_	_	_	_	_	_	bratT4=Quantity
+8	истребителей	_	_	_	_	_	_	_	bratT3=Product|bratT4=Quantity
+9	Су-35С	_	_	_	_	_	_	_	bratT3=Product
+
+# newpar id = 0099-p2
+# par_text = Воздушно-космические силы России получили на вооружение все 50 истребителей Су-35С в рамках заключённого в 2015 году контракта, сообщили в Минобороны.
+# sent_id = 0099-p2-s1
+# text = Воздушно-космические силы России получили на вооружение все 50 истребителей Су-35С в рамках заключённого в 2015 году контракта, сообщили в Минобороны.
+1	Воздушно-космические	_	_	_	_	_	_	_	bratT32=Organization
+2	силы	_	_	_	_	_	_	_	bratT32=Organization
+3	России	_	_	_	_	_	_	_	bratT32=Organization|bratT33=GPE
+4	получили	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	вооружение	_	_	_	_	_	_	_	_
+7	все	_	_	_	_	_	_	_	_
+8	50	_	_	_	_	_	_	_	bratT34=Quantity
+9	истребителей	_	_	_	_	_	_	_	bratT34=Quantity|bratT35=Product
+10	Су-35С	_	_	_	_	_	_	_	bratT35=Product
+11	в	_	_	_	_	_	_	_	_
+12	рамках	_	_	_	_	_	_	_	_
+13	заключённого	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	bratT36=Date-absolute
+15	2015	_	_	_	_	_	_	_	bratT36=Date-absolute
+16	году	_	_	_	_	_	_	_	bratT36=Date-absolute
+17	контракта	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	сообщили	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p3
+# par_text = «Специалистами 485-го военного представительства Минобороны России приняты три многоцелевых истребителя Су-35С поколения «4++». Самолёты передислоцированы с Комсомольского-на-Амуре завода на аэродромы постоянного базирования ВКС России», — приводит сообщение ТАСС.
+# sent_id = 0099-p3-s1
+# text = ``Специалистами 485-го военного представительства Минобороны России приняты три многоцелевых истребителя Су-35С поколения ``4++''.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Специалистами	_	_	_	_	_	_	_	bratT8=Person-property
+3	485-го	_	_	_	_	_	_	_	bratA1=T7:Department|bratT31=Ordinal|bratT7=Organization|bratT8=Person-property
+4	военного	_	_	_	_	_	_	_	bratA1=T7:Department|bratT7=Organization|bratT8=Person-property
+5	представительства	_	_	_	_	_	_	_	bratA1=T7:Department|bratT7=Organization|bratT8=Person-property
+6	Минобороны	_	_	_	_	_	_	_	bratA1=T7:Department|bratT6=Organization|bratT7=Organization|bratT8=Person-property
+7	России	_	_	_	_	_	_	_	bratA1=T7:Department|bratT5=GPE|bratT6=Organization|bratT7=Organization|bratT8=Person-property
+8	приняты	_	_	_	_	_	_	_	_
+9	три	_	_	_	_	_	_	_	bratT10=Quantity
+10	многоцелевых	_	_	_	_	_	_	_	bratT10=Quantity|bratT9=Product
+11	истребителя	_	_	_	_	_	_	_	bratT10=Quantity|bratT9=Product
+12	Су-35С	_	_	_	_	_	_	_	bratT9=Product
+13	поколения	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	SpaceAfter=No
+15	4++	_	_	_	_	_	_	_	SpaceAfter=No
+16	''	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0099-p3-s2
+# text = Самолёты передислоцированы с Комсомольского-на-Амуре завода на аэродромы постоянного базирования ВКС России'', - приводит сообщение ТАСС.
+1	Самолёты	_	_	_	_	_	_	_	_
+2	передислоцированы	_	_	_	_	_	_	_	_
+3	с	_	_	_	_	_	_	_	_
+4	Комсомольского-на-Амуре	_	_	_	_	_	_	_	bratT15=Organization
+5	завода	_	_	_	_	_	_	_	bratT15=Organization
+6	на	_	_	_	_	_	_	_	_
+7	аэродромы	_	_	_	_	_	_	_	_
+8	постоянного	_	_	_	_	_	_	_	_
+9	базирования	_	_	_	_	_	_	_	_
+10	ВКС	_	_	_	_	_	_	_	bratT14=Organization
+11	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=GPE|bratT14=Organization
+12	''	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	приводит	_	_	_	_	_	_	_	_
+16	сообщение	_	_	_	_	_	_	_	_
+17	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratT11=Organization
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p4
+# par_text = Два истребителя поступят в центр подготовки авиационного персонала и войсковых испытаний Минобороны в Липецке, ещё один — в 23-й истребительный авиационный Таллинский полк в Комсомольске-на-Амуре.
+# sent_id = 0099-p4-s1
+# text = Два истребителя поступят в центр подготовки авиационного персонала и войсковых испытаний Минобороны в Липецке, ещё один - в 23-й истребительный авиационный Таллинский полк в Комсомольске-на-Амуре.
+1	Два	_	_	_	_	_	_	_	bratT16=Quantity
+2	истребителя	_	_	_	_	_	_	_	bratT16=Quantity
+3	поступят	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	центр	_	_	_	_	_	_	_	bratA4=T18:Department|bratT18=Organization
+6	подготовки	_	_	_	_	_	_	_	bratA4=T18:Department|bratT18=Organization
+7	авиационного	_	_	_	_	_	_	_	bratA4=T18:Department|bratT18=Organization
+8	персонала	_	_	_	_	_	_	_	bratA4=T18:Department|bratT18=Organization
+9	и	_	_	_	_	_	_	_	bratA4=T18:Department|bratT18=Organization
+10	войсковых	_	_	_	_	_	_	_	bratA4=T18:Department|bratT18=Organization
+11	испытаний	_	_	_	_	_	_	_	bratA4=T18:Department|bratT18=Organization
+12	Минобороны	_	_	_	_	_	_	_	bratA4=T18:Department|bratT17=Organization|bratT18=Organization
+13	в	_	_	_	_	_	_	_	_
+14	Липецке	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE
+15	,	_	_	_	_	_	_	_	_
+16	ещё	_	_	_	_	_	_	_	_
+17	один	_	_	_	_	_	_	_	bratT20=Quantity
+18	-	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	23-й	_	_	_	_	_	_	_	bratT21=Organization
+21	истребительный	_	_	_	_	_	_	_	bratT21=Organization
+22	авиационный	_	_	_	_	_	_	_	bratT21=Organization
+23	Таллинский	_	_	_	_	_	_	_	bratT21=Organization
+24	полк	_	_	_	_	_	_	_	bratT21=Organization
+25	в	_	_	_	_	_	_	_	_
+26	Комсомольске-на-Амуре	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=GPE
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p5
+# par_text = Всего в строевые полки ВКС поставлено 50 самолётов Су-35С.
+# sent_id = 0099-p5-s1
+# text = Всего в строевые полки ВКС поставлено 50 самолётов Су-35С.
+1	Всего	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	строевые	_	_	_	_	_	_	_	_
+4	полки	_	_	_	_	_	_	_	_
+5	ВКС	_	_	_	_	_	_	_	bratT23=Organization
+6	поставлено	_	_	_	_	_	_	_	_
+7	50	_	_	_	_	_	_	_	bratT24=Quantity
+8	самолётов	_	_	_	_	_	_	_	bratT24=Quantity|bratT25=Product
+9	Су-35С	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Product
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p6
+# par_text = В августе сообщалось, что Минобороны до конца 2020 года закупит новую партию истребителей Су-35С на 70 млрд рублей.
+# sent_id = 0099-p6-s1
+# text = В августе сообщалось, что Минобороны до конца 2020 года закупит новую партию истребителей Су-35С на 70 млрд рублей.
+1	В	_	_	_	_	_	_	_	bratT26=Date-absolute
+2	августе	_	_	_	_	_	_	_	bratT26=Date-absolute
+3	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	Минобороны	_	_	_	_	_	_	_	bratT27=Organization
+7	до	_	_	_	_	_	_	_	bratT28=Date-period
+8	конца	_	_	_	_	_	_	_	bratT28=Date-period
+9	2020	_	_	_	_	_	_	_	bratT28=Date-period
+10	года	_	_	_	_	_	_	_	bratT28=Date-period
+11	закупит	_	_	_	_	_	_	_	_
+12	новую	_	_	_	_	_	_	_	_
+13	партию	_	_	_	_	_	_	_	_
+14	истребителей	_	_	_	_	_	_	_	bratT29=Product
+15	Су-35С	_	_	_	_	_	_	_	bratT29=Product
+16	на	_	_	_	_	_	_	_	_
+17	70	_	_	_	_	_	_	_	bratT30=Money
+18	млрд	_	_	_	_	_	_	_	bratT30=Money
+19	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Money
+20	.	_	_	_	_	_	_	_	_
+

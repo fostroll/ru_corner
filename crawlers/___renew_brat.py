@@ -12,4 +12,8 @@ brat.renew_ann(r'C:\prj-git\_mine\ru_corner\_ner.old\dashleo\newswire\russian.rt
                r'C:\prj-git\_mine\ru_corner\_ner.old\dashleo\newswire\russian.rt.com\0065.ann',
                r'C:\prj-git\_mine\ru_corner\_data\brat\assignments\pass1\dashleo\newswire\russian.rt.com\0065.txt',
                r'C:\prj-git\_mine\ru_corner\_data\brat\assignments\pass1\dashleo\newswire\russian.rt.com\0065.ann')
+brat.renew_ann(r'0064.txt',
+               r'0064.ann',
+               r'0064a.txt',
+               r'0064a.ann')
 '''
