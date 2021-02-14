@@ -1,0 +1,151 @@
+# newdoc id = 0052
+# newpar id = 0052-p1
+# par_text = Суд огласит приговор экс-гендиректору издательства «Известия»
+# sent_id = 0052-p1-s1
+# text = Суд огласит приговор экс-гендиректору издательства ``Известия''
+1	Суд	_	_	_	_	_	_	_	_
+2	огласит	_	_	_	_	_	_	_	_
+3	приговор	_	_	_	_	_	_	_	_
+4	экс-гендиректору	_	_	_	_	_	_	_	bratT2=Person-property
+5	издательства	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+7	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+8	''	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+
+# newpar id = 0052-p2
+# par_text = Гагаринский суд Москвы огласит приговор политологу и бывшему гендиректору издательства «Известия» Эраста Галумова, обвиняемого в мошенничестве. Об этом сообщает РИА «Новости».
+# sent_id = 0052-p2-s1
+# text = Гагаринский суд Москвы огласит приговор политологу и бывшему гендиректору издательства ``Известия'' Эраста Галумова, обвиняемого в мошенничестве.
+1	Гагаринский	_	_	_	_	_	_	_	bratT4=Organization
+2	суд	_	_	_	_	_	_	_	bratT4=Organization
+3	Москвы	_	_	_	_	_	_	_	bratT3=GPE|bratT4=Organization
+4	огласит	_	_	_	_	_	_	_	_
+5	приговор	_	_	_	_	_	_	_	_
+6	политологу	_	_	_	_	_	_	_	bratT23=Person-property|bratT8=Person
+7	и	_	_	_	_	_	_	_	bratT8=Person
+8	бывшему	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
+9	гендиректору	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
+10	издательства	_	_	_	_	_	_	_	bratA1=T6:Media|bratT6=Organization|bratT7=Person-property|bratT8=Person
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization|bratT7=Person-property|bratT8=Person
+12	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization|bratT7=Person-property|bratT8=Person
+13	''	_	_	_	_	_	_	_	bratA1=T6:Media|bratT6=Organization|bratT7=Person-property|bratT8=Person
+14	Эраста	_	_	_	_	_	_	_	bratT8=Person
+15	Галумова	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+16	,	_	_	_	_	_	_	_	_
+17	обвиняемого	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	мошенничестве	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0052-p2-s2
+# text = Об этом сообщает РИА ``Новости''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	РИА	_	_	_	_	_	_	_	bratA3=T5:Media|bratT5=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T5:Media|bratT5=Organization
+6	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T5:Media|bratT5=Organization
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T5:Media|bratT5=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0052-p3
+# par_text = Галумову вменяется мошенничество в особо крупном размере и грозит до десяти лет колонии. Слушание дела в суде заняло более года.
+# sent_id = 0052-p3-s1
+# text = Галумову вменяется мошенничество в особо крупном размере и грозит до десяти лет колонии.
+1	Галумову	_	_	_	_	_	_	_	bratT10=Person
+2	вменяется	_	_	_	_	_	_	_	_
+3	мошенничество	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	особо	_	_	_	_	_	_	_	_
+6	крупном	_	_	_	_	_	_	_	_
+7	размере	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	грозит	_	_	_	_	_	_	_	_
+10	до	_	_	_	_	_	_	_	bratT12=Date-duration
+11	десяти	_	_	_	_	_	_	_	bratT12=Date-duration
+12	лет	_	_	_	_	_	_	_	bratT12=Date-duration
+13	колонии	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0052-p3-s2
+# text = Слушание дела в суде заняло более года.
+1	Слушание	_	_	_	_	_	_	_	_
+2	дела	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	суде	_	_	_	_	_	_	_	_
+5	заняло	_	_	_	_	_	_	_	_
+6	более	_	_	_	_	_	_	_	bratT13=Date-duration
+7	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Date-duration
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0052-p4
+# par_text = По версии обвинения, Галумов и другие фигуранты дела составили фиктивные договоры на демонтаж полиграфического оборудования и работы по электроснабжению.
+# sent_id = 0052-p4-s1
+# text = По версии обвинения, Галумов и другие фигуранты дела составили фиктивные договоры на демонтаж полиграфического оборудования и работы по электроснабжению.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	обвинения	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	Галумов	_	_	_	_	_	_	_	bratT14=Person
+6	и	_	_	_	_	_	_	_	_
+7	другие	_	_	_	_	_	_	_	_
+8	фигуранты	_	_	_	_	_	_	_	_
+9	дела	_	_	_	_	_	_	_	_
+10	составили	_	_	_	_	_	_	_	_
+11	фиктивные	_	_	_	_	_	_	_	_
+12	договоры	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	демонтаж	_	_	_	_	_	_	_	_
+15	полиграфического	_	_	_	_	_	_	_	_
+16	оборудования	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	работы	_	_	_	_	_	_	_	_
+19	по	_	_	_	_	_	_	_	_
+20	электроснабжению	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0052-p5
+# par_text = Как сообщалось, кадровые перестановки могут объясняться коррупционным скандалом в управлении: два следователя ФСБ Алексей Колбов и Сергей Белоусов вымогали взятку в 65 млн руб. у экс-гендиректора «Издательство «Известия» Эраста Галумова, обвиняемого в мошенничестве.
+# sent_id = 0052-p5-s1
+# text = Как сообщалось, кадровые перестановки могут объясняться коррупционным скандалом в управлении: два следователя ФСБ Алексей Колбов и Сергей Белоусов вымогали взятку в 65 млн руб. у экс-гендиректора ``Издательство ``Известия'' Эраста Галумова, обвиняемого в мошенничестве.
+1	Как	_	_	_	_	_	_	_	_
+2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	кадровые	_	_	_	_	_	_	_	_
+5	перестановки	_	_	_	_	_	_	_	_
+6	могут	_	_	_	_	_	_	_	_
+7	объясняться	_	_	_	_	_	_	_	_
+8	коррупционным	_	_	_	_	_	_	_	_
+9	скандалом	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	управлении	_	_	_	_	_	_	_	SpaceAfter=No
+12	:	_	_	_	_	_	_	_	_
+13	два	_	_	_	_	_	_	_	bratT15=Quantity
+14	следователя	_	_	_	_	_	_	_	bratA2=T17:Plural|bratT15=Quantity|bratT16=Person-property|bratT17=Person
+15	ФСБ	_	_	_	_	_	_	_	bratA2=T17:Plural|bratT16=Person-property|bratT17=Person|bratT9=Organization
+16	Алексей	_	_	_	_	_	_	_	bratA2=T17:Plural|bratT17=Person
+17	Колбов	_	_	_	_	_	_	_	bratA2=T17:Plural|bratT17=Person
+18	и	_	_	_	_	_	_	_	bratA2=T17:Plural|bratT17=Person
+19	Сергей	_	_	_	_	_	_	_	bratA2=T17:Plural|bratT17=Person
+20	Белоусов	_	_	_	_	_	_	_	bratA2=T17:Plural|bratT17=Person
+21	вымогали	_	_	_	_	_	_	_	_
+22	взятку	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	_
+24	65	_	_	_	_	_	_	_	bratT18=Money
+25	млн	_	_	_	_	_	_	_	bratT18=Money
+26	руб.	_	_	_	_	_	_	_	bratT18=Money
+27	у	_	_	_	_	_	_	_	_
+28	экс-гендиректора	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Person
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+30	Издательство	_	_	_	_	_	_	_	bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+32	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+33	''	_	_	_	_	_	_	_	bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+34	Эраста	_	_	_	_	_	_	_	bratT21=Person
+35	Галумова	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person
+36	,	_	_	_	_	_	_	_	_
+37	обвиняемого	_	_	_	_	_	_	_	_
+38	в	_	_	_	_	_	_	_	_
+39	мошенничестве	_	_	_	_	_	_	_	SpaceAfter=No
+40	.	_	_	_	_	_	_	_	_
+

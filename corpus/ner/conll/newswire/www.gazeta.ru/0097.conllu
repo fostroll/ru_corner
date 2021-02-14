@@ -1,0 +1,158 @@
+# newdoc id = 0097
+# newpar id = 0097-p1
+# par_text = В мире за сутки коронавирусом заразились почти 600 тысяч человек
+# sent_id = 0097-p1-s1
+# text = В мире за сутки коронавирусом заразились почти 600 тысяч человек
+1	В	_	_	_	_	_	_	_	_
+2	мире	_	_	_	_	_	_	_	_
+3	за	_	_	_	_	_	_	_	bratT1=Date-duration
+4	сутки	_	_	_	_	_	_	_	bratT1=Date-duration
+5	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term
+6	заразились	_	_	_	_	_	_	_	_
+7	почти	_	_	_	_	_	_	_	bratT8=Quantity
+8	600	_	_	_	_	_	_	_	bratT8=Quantity
+9	тысяч	_	_	_	_	_	_	_	bratT8=Quantity
+10	человек	_	_	_	_	_	_	_	bratT8=Quantity
+
+# newpar id = 0097-p2
+# par_text = В мире за сутки коронавирусом заразились 594 тыс. человек, пишет ТАСС со ссылкой на ВОЗ.
+# sent_id = 0097-p2-s1
+# text = В мире за сутки коронавирусом заразились 594 тыс. человек, пишет ТАСС со ссылкой на ВОЗ.
+1	В	_	_	_	_	_	_	_	_
+2	мире	_	_	_	_	_	_	_	_
+3	за	_	_	_	_	_	_	_	bratT4=Date-duration
+4	сутки	_	_	_	_	_	_	_	bratT4=Date-duration
+5	коронавирусом	_	_	_	_	_	_	_	bratT6=Other-term
+6	заразились	_	_	_	_	_	_	_	_
+7	594	_	_	_	_	_	_	_	bratT7=Quantity
+8	тыс.	_	_	_	_	_	_	_	bratT7=Quantity
+9	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity
+10	,	_	_	_	_	_	_	_	_
+11	пишет	_	_	_	_	_	_	_	_
+12	ТАСС	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
+13	со	_	_	_	_	_	_	_	_
+14	ссылкой	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	ВОЗ	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0097-p3
+# par_text = Более 42% заражений приходится на Европейский регион (254 649), на втором месте — Северная и Южная Америка (231 754), на третьем — Юго-Восточная Азия (55 350).
+# sent_id = 0097-p3-s1
+# text = Более 42 % заражений приходится на Европейский регион (254 649), на втором месте - Северная и Южная Америка (231 754), на третьем - Юго-Восточная Азия (55 350).
+1	Более	_	_	_	_	_	_	_	bratT11=Percent
+2	42	_	_	_	_	_	_	_	bratT11=Percent
+3	%	_	_	_	_	_	_	_	bratT11=Percent
+4	заражений	_	_	_	_	_	_	_	_
+5	приходится	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	Европейский	_	_	_	_	_	_	_	bratT12=GPE
+8	регион	_	_	_	_	_	_	_	bratT12=GPE
+9	(	_	_	_	_	_	_	_	SpaceAfter=No
+10	254	_	_	_	_	_	_	_	bratT13=Quantity
+11	649	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+12	)	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	на	_	_	_	_	_	_	_	_
+15	втором	_	_	_	_	_	_	_	bratT14=Ordinal
+16	месте	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_
+18	Северная	_	_	_	_	_	_	_	bratA2=T15:Plural|bratT15=GPE
+19	и	_	_	_	_	_	_	_	bratA2=T15:Plural|bratT15=GPE
+20	Южная	_	_	_	_	_	_	_	bratA2=T15:Plural|bratT15=GPE
+21	Америка	_	_	_	_	_	_	_	bratA2=T15:Plural|bratT15=GPE
+22	(	_	_	_	_	_	_	_	SpaceAfter=No
+23	231	_	_	_	_	_	_	_	bratT16=Quantity
+24	754	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
+25	)	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	на	_	_	_	_	_	_	_	_
+28	третьем	_	_	_	_	_	_	_	bratT17=Ordinal
+29	-	_	_	_	_	_	_	_	_
+30	Юго-Восточная	_	_	_	_	_	_	_	bratT18=GPE
+31	Азия	_	_	_	_	_	_	_	bratT18=GPE
+32	(	_	_	_	_	_	_	_	SpaceAfter=No
+33	55	_	_	_	_	_	_	_	bratT19=Quantity
+34	350	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Quantity
+35	)	_	_	_	_	_	_	_	SpaceAfter=No
+36	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0097-p4
+# par_text = Число смертей за 24 часа увеличилось на 10 тыс. Всего в сначала пандемии заболели 55,92 млн, скончались 1,34 млн человек.
+# sent_id = 0097-p4-s1
+# text = Число смертей за 24 часа увеличилось на 10 тыс.
+1	Число	_	_	_	_	_	_	_	_
+2	смертей	_	_	_	_	_	_	_	_
+3	за	_	_	_	_	_	_	_	bratT20=Date-duration
+4	24	_	_	_	_	_	_	_	bratT20=Date-duration
+5	часа	_	_	_	_	_	_	_	bratT20=Date-duration
+6	увеличилось	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	bratT21=Quantity
+8	10	_	_	_	_	_	_	_	bratT21=Quantity
+9	тыс.	_	_	_	_	_	_	_	bratT21=Quantity
+
+# sent_id = 0097-p4-s2
+# text = Всего в сначала пандемии заболели 55,92 млн, скончались 1,34 млн человек.
+1	Всего	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	bratT34=Date-period
+3	сначала	_	_	_	_	_	_	_	bratT34=Date-period
+4	пандемии	_	_	_	_	_	_	_	bratT34=Date-period|bratT5=Event
+5	заболели	_	_	_	_	_	_	_	_
+6	55,92	_	_	_	_	_	_	_	bratT22=Quantity
+7	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+8	,	_	_	_	_	_	_	_	_
+9	скончались	_	_	_	_	_	_	_	_
+10	1,34	_	_	_	_	_	_	_	bratT23=Quantity
+11	млн	_	_	_	_	_	_	_	bratT23=Quantity
+12	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Quantity
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0097-p5
+# par_text = Больше всего случаев в США (11 249 228). Далее идут Индия (8 958 483), Бразилия (5 911 758), Франция (2 027 727) и Россия (2 015 608).
+# sent_id = 0097-p5-s1
+# text = Больше всего случаев в США (11 249 228).
+1	Больше	_	_	_	_	_	_	_	_
+2	всего	_	_	_	_	_	_	_	_
+3	случаев	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	США	_	_	_	_	_	_	_	bratT24=GPE
+6	(	_	_	_	_	_	_	_	SpaceAfter=No
+7	11	_	_	_	_	_	_	_	bratT25=Quantity
+8	249	_	_	_	_	_	_	_	bratT25=Quantity
+9	228	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Quantity
+10	)	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0097-p5-s2
+# text = Далее идут Индия (8 958 483), Бразилия (5 911 758), Франция (2 027 727) и Россия (2 015 608).
+1	Далее	_	_	_	_	_	_	_	_
+2	идут	_	_	_	_	_	_	_	_
+3	Индия	_	_	_	_	_	_	_	bratT26=GPE
+4	(	_	_	_	_	_	_	_	SpaceAfter=No
+5	8	_	_	_	_	_	_	_	bratT27=Quantity
+6	958	_	_	_	_	_	_	_	bratT27=Quantity
+7	483	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Quantity
+8	)	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	Бразилия	_	_	_	_	_	_	_	bratT28=GPE
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	5	_	_	_	_	_	_	_	bratT29=Quantity
+13	911	_	_	_	_	_	_	_	bratT29=Quantity
+14	758	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity
+15	)	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	Франция	_	_	_	_	_	_	_	bratT30=GPE
+18	(	_	_	_	_	_	_	_	SpaceAfter=No
+19	2	_	_	_	_	_	_	_	bratT31=Quantity
+20	027	_	_	_	_	_	_	_	bratT31=Quantity
+21	727	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Quantity
+22	)	_	_	_	_	_	_	_	_
+23	и	_	_	_	_	_	_	_	_
+24	Россия	_	_	_	_	_	_	_	bratT32=GPE
+25	(	_	_	_	_	_	_	_	SpaceAfter=No
+26	2	_	_	_	_	_	_	_	bratT33=Quantity
+27	015	_	_	_	_	_	_	_	bratT33=Quantity
+28	608	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
+29	)	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+

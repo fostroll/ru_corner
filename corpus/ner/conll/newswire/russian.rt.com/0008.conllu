@@ -11,8 +11,8 @@
 6	новых	_	_	_	_	_	_	_	bratT3=Quantity
 7	случаев	_	_	_	_	_	_	_	bratT3=Quantity
 8	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term
-9	за	_	_	_	_	_	_	_	bratT5=Date-period
-10	сутки	_	_	_	_	_	_	_	bratT5=Date-period
+9	за	_	_	_	_	_	_	_	bratT5=Time-duration
+10	сутки	_	_	_	_	_	_	_	bratT5=Time-duration
 
 # newpar id = 0008-p2
 # par_text = На Украине выявили 12 079 новых случаев коронавирусной инфекции COVID-19 за сутки. Всего в стране было зафиксировано 624 744 случая заболевания коронавирусом.
@@ -28,8 +28,8 @@
 8	коронавирусной	_	_	_	_	_	_	_	bratT28=Other-term
 9	инфекции	_	_	_	_	_	_	_	bratT28=Other-term
 10	COVID-19	_	_	_	_	_	_	_	bratT28=Other-term
-11	за	_	_	_	_	_	_	_	bratT29=Date-duration
-12	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Date-duration
+11	за	_	_	_	_	_	_	_	bratT29=Time-duration
+12	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Time-duration
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0008-p2-s2
@@ -82,9 +82,9 @@
 # sent_id = 0008-p4-s2
 # text = Также за минувшие сутки госпитализировано 1134 человека'', - заявил Степанов.
 1	Также	_	_	_	_	_	_	_	_
-2	за	_	_	_	_	_	_	_	bratT14=Date-period
-3	минувшие	_	_	_	_	_	_	_	bratT14=Date-period
-4	сутки	_	_	_	_	_	_	_	bratT14=Date-period
+2	за	_	_	_	_	_	_	_	bratT14=Time-period
+3	минувшие	_	_	_	_	_	_	_	bratT14=Time-period
+4	сутки	_	_	_	_	_	_	_	bratT14=Time-period
 5	госпитализировано	_	_	_	_	_	_	_	_
 6	1134	_	_	_	_	_	_	_	bratT15=Quantity
 7	человека	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity
@@ -120,9 +120,9 @@
 # sent_id = 0008-p6-s1
 # text = Всего с начала пандемии на Украине зафиксировали 10 951 летальный случай коронавируса, 286 917 человек вылечились.
 1	Всего	_	_	_	_	_	_	_	_
-2	с	_	_	_	_	_	_	_	_
-3	начала	_	_	_	_	_	_	_	_
-4	пандемии	_	_	_	_	_	_	_	_
+2	с	_	_	_	_	_	_	_	bratT33=Date-period
+3	начала	_	_	_	_	_	_	_	bratT33=Date-period
+4	пандемии	_	_	_	_	_	_	_	bratT32=Event|bratT33=Date-period
 5	на	_	_	_	_	_	_	_	_
 6	Украине	_	_	_	_	_	_	_	bratT20=GPE
 7	зафиксировали	_	_	_	_	_	_	_	_

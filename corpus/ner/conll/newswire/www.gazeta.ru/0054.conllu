@@ -1,0 +1,239 @@
+# newdoc id = 0054
+# newpar id = 0054-p1
+# par_text = Семин прокомментировал новость о возможном назначении Ротенберга на должность директора «Локомотива»
+# sent_id = 0054-p1-s1
+# text = Семин прокомментировал новость о возможном назначении Ротенберга на должность директора ``Локомотива''
+1	Семин	_	_	_	_	_	_	_	bratT1=Person
+2	прокомментировал	_	_	_	_	_	_	_	_
+3	новость	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	возможном	_	_	_	_	_	_	_	_
+6	назначении	_	_	_	_	_	_	_	_
+7	Ротенберга	_	_	_	_	_	_	_	bratT2=Person
+8	на	_	_	_	_	_	_	_	_
+9	должность	_	_	_	_	_	_	_	_
+10	директора	_	_	_	_	_	_	_	bratT5=Person-property
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization|bratT5=Person-property
+12	Локомотива	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization|bratT5=Person-property
+13	''	_	_	_	_	_	_	_	bratT3=Organization|bratT5=Person-property
+
+# newpar id = 0054-p2
+# par_text = Бывший главный тренер «Локомотива» Юрий Семин прокомментировал новость о возможном назначении Бориса Ротенберга на должность генерального директора московского клуба, передает «Спорт-Экспресс».
+# sent_id = 0054-p2-s1
+# text = Бывший главный тренер ``Локомотива'' Юрий Семин прокомментировал новость о возможном назначении Бориса Ротенберга на должность генерального директора московского клуба, передает ``Спорт-Экспресс''.
+1	Бывший	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
+2	главный	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
+3	тренер	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT7=Organization|bratT9=Person-property
+5	Локомотива	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT7=Organization|bratT9=Person-property
+6	''	_	_	_	_	_	_	_	bratT11=Person|bratT7=Organization|bratT9=Person-property
+7	Юрий	_	_	_	_	_	_	_	bratT11=Person
+8	Семин	_	_	_	_	_	_	_	bratT11=Person
+9	прокомментировал	_	_	_	_	_	_	_	_
+10	новость	_	_	_	_	_	_	_	_
+11	о	_	_	_	_	_	_	_	_
+12	возможном	_	_	_	_	_	_	_	_
+13	назначении	_	_	_	_	_	_	_	_
+14	Бориса	_	_	_	_	_	_	_	bratT10=Person
+15	Ротенберга	_	_	_	_	_	_	_	bratT10=Person
+16	на	_	_	_	_	_	_	_	_
+17	должность	_	_	_	_	_	_	_	_
+18	генерального	_	_	_	_	_	_	_	bratT12=Person-property
+19	директора	_	_	_	_	_	_	_	bratT12=Person-property
+20	московского	_	_	_	_	_	_	_	bratT12=Person-property
+21	клуба	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
+22	,	_	_	_	_	_	_	_	_
+23	передает	_	_	_	_	_	_	_	_
+24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Media|bratT13=Organization
+25	Спорт-Экспресс	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Media|bratT13=Organization
+26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Media|bratT13=Organization
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0054-p3
+# par_text = Напомним, что о возможном назначении Ротенберга на должность генерального директора «Локомотива» сообщал Telegram-канал «Честность — не порок».
+# sent_id = 0054-p3-s1
+# text = Напомним, что о возможном назначении Ротенберга на должность генерального директора ``Локомотива'' сообщал Telegram-канал ``Честность - не порок''.
+1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	возможном	_	_	_	_	_	_	_	_
+6	назначении	_	_	_	_	_	_	_	_
+7	Ротенберга	_	_	_	_	_	_	_	bratT16=Person
+8	на	_	_	_	_	_	_	_	_
+9	должность	_	_	_	_	_	_	_	_
+10	генерального	_	_	_	_	_	_	_	bratT18=Person-property
+11	директора	_	_	_	_	_	_	_	bratT18=Person-property
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT18=Person-property
+13	Локомотива	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT18=Person-property
+14	''	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Person-property
+15	сообщал	_	_	_	_	_	_	_	_
+16	Telegram-канал	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T19:Media|bratT19=Service
+18	Честность	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
+19	-	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
+20	не	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
+21	порок	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T19:Media|bratT19=Service
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T19:Media|bratT19=Service
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0054-p4
+# par_text = По словам тренера, Ротенберг в состоянии работать на любой должности и имеет большой опыт в футболе. Семин отмечает, что у него нет информации и он не может комментировать.
+# sent_id = 0054-p4-s1
+# text = По словам тренера, Ротенберг в состоянии работать на любой должности и имеет большой опыт в футболе.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	тренера	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property
+4	,	_	_	_	_	_	_	_	_
+5	Ротенберг	_	_	_	_	_	_	_	bratT21=Person
+6	в	_	_	_	_	_	_	_	_
+7	состоянии	_	_	_	_	_	_	_	_
+8	работать	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	любой	_	_	_	_	_	_	_	_
+11	должности	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	имеет	_	_	_	_	_	_	_	_
+14	большой	_	_	_	_	_	_	_	_
+15	опыт	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	футболе	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0054-p4-s2
+# text = Семин отмечает, что у него нет информации и он не может комментировать.
+1	Семин	_	_	_	_	_	_	_	bratT22=Person
+2	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	у	_	_	_	_	_	_	_	_
+6	него	_	_	_	_	_	_	_	_
+7	нет	_	_	_	_	_	_	_	_
+8	информации	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	он	_	_	_	_	_	_	_	_
+11	не	_	_	_	_	_	_	_	_
+12	может	_	_	_	_	_	_	_	_
+13	комментировать	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0054-p5
+# par_text = «Если это произойдет, то у «Локомотива» будет хороший специалист, знающий свое дело», — добавил он.
+# sent_id = 0054-p5-s1
+# text = ``Если это произойдет, то у ``Локомотива'' будет хороший специалист, знающий свое дело'', - добавил он.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Если	_	_	_	_	_	_	_	_
+3	это	_	_	_	_	_	_	_	_
+4	произойдет	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	то	_	_	_	_	_	_	_	_
+7	у	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+9	Локомотива	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+10	''	_	_	_	_	_	_	_	bratT23=Organization
+11	будет	_	_	_	_	_	_	_	_
+12	хороший	_	_	_	_	_	_	_	_
+13	специалист	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	знающий	_	_	_	_	_	_	_	_
+16	свое	_	_	_	_	_	_	_	_
+17	дело	_	_	_	_	_	_	_	SpaceAfter=No
+18	''	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	-	_	_	_	_	_	_	_	_
+21	добавил	_	_	_	_	_	_	_	_
+22	он	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0054-p6
+# par_text = Борис Ротенберг — предприниматель и владелец футбольного клуба «Сочи».
+# sent_id = 0054-p6-s1
+# text = Борис Ротенберг - предприниматель и владелец футбольного клуба ``Сочи''.
+1	Борис	_	_	_	_	_	_	_	bratT24=Person
+2	Ротенберг	_	_	_	_	_	_	_	bratT24=Person
+3	-	_	_	_	_	_	_	_	_
+4	предприниматель	_	_	_	_	_	_	_	bratT26=Person-property
+5	и	_	_	_	_	_	_	_	_
+6	владелец	_	_	_	_	_	_	_	bratT4=Person-property
+7	футбольного	_	_	_	_	_	_	_	bratT25=Organization|bratT4=Person-property
+8	клуба	_	_	_	_	_	_	_	bratT25=Organization|bratT4=Person-property
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT4=Person-property
+10	Сочи	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT4=Person-property
+11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT4=Person-property
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0054-p7
+# par_text = После 14 туров Российской премьер-лиги московский «Локомотив» набрал 21 очко и расположился на восьмой строчке в турнирной таблице. Футбольный клуб «Сочи» имеет 23 очка и идет на пятой позиции. Первое место с 31 очком занимает московский ЦСКА.
+# sent_id = 0054-p7-s1
+# text = После 14 туров Российской премьер-лиги московский ``Локомотив'' набрал 21 очко и расположился на восьмой строчке в турнирной таблице.
+1	После	_	_	_	_	_	_	_	_
+2	14	_	_	_	_	_	_	_	bratT27=Quantity
+3	туров	_	_	_	_	_	_	_	bratT27=Quantity
+4	Российской	_	_	_	_	_	_	_	bratT28=Event
+5	премьер-лиги	_	_	_	_	_	_	_	bratT28=Event
+6	московский	_	_	_	_	_	_	_	bratT29=Organization
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+8	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+9	''	_	_	_	_	_	_	_	bratT29=Organization
+10	набрал	_	_	_	_	_	_	_	_
+11	21	_	_	_	_	_	_	_	bratT30=Quantity
+12	очко	_	_	_	_	_	_	_	bratT30=Quantity
+13	и	_	_	_	_	_	_	_	_
+14	расположился	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	восьмой	_	_	_	_	_	_	_	bratT31=Ordinal
+17	строчке	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	турнирной	_	_	_	_	_	_	_	_
+20	таблице	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0054-p7-s2
+# text = Футбольный клуб ``Сочи'' имеет 23 очка и идет на пятой позиции.
+1	Футбольный	_	_	_	_	_	_	_	bratT32=Organization
+2	клуб	_	_	_	_	_	_	_	bratT32=Organization
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+4	Сочи	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+5	''	_	_	_	_	_	_	_	bratT32=Organization
+6	имеет	_	_	_	_	_	_	_	_
+7	23	_	_	_	_	_	_	_	bratT33=Quantity
+8	очка	_	_	_	_	_	_	_	bratT33=Quantity
+9	и	_	_	_	_	_	_	_	_
+10	идет	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	пятой	_	_	_	_	_	_	_	bratT34=Ordinal
+13	позиции	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0054-p7-s3
+# text = Первое место с 31 очком занимает московский ЦСКА.
+1	Первое	_	_	_	_	_	_	_	bratT35=Ordinal
+2	место	_	_	_	_	_	_	_	_
+3	с	_	_	_	_	_	_	_	bratT36=Quantity
+4	31	_	_	_	_	_	_	_	bratT36=Quantity
+5	очком	_	_	_	_	_	_	_	bratT36=Quantity
+6	занимает	_	_	_	_	_	_	_	_
+7	московский	_	_	_	_	_	_	_	bratT37=Organization
+8	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0054-p8
+# par_text = Ранее сообщалось, что сборная России опустилась в третью корзину жеребьевки отбора к ЧМ-2022.
+# sent_id = 0054-p8-s1
+# text = Ранее сообщалось, что сборная России опустилась в третью корзину жеребьевки отбора к ЧМ-2022.
+1	Ранее	_	_	_	_	_	_	_	_
+2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	сборная	_	_	_	_	_	_	_	bratT39=Organization
+6	России	_	_	_	_	_	_	_	bratT38=GPE|bratT39=Organization
+7	опустилась	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	третью	_	_	_	_	_	_	_	bratT40=Ordinal
+10	корзину	_	_	_	_	_	_	_	_
+11	жеребьевки	_	_	_	_	_	_	_	_
+12	отбора	_	_	_	_	_	_	_	_
+13	к	_	_	_	_	_	_	_	_
+14	ЧМ-2022	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
+15	.	_	_	_	_	_	_	_	_
+

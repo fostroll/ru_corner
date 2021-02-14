@@ -98,9 +98,9 @@
 7	,	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	России	_	_	_	_	_	_	_	bratT14=GPE
-10	в	_	_	_	_	_	_	_	bratT10=Date-duration
-11	течение	_	_	_	_	_	_	_	bratT10=Date-duration
-12	суток	_	_	_	_	_	_	_	bratT10=Date-duration
+10	в	_	_	_	_	_	_	_	bratT10=Time-duration
+11	течение	_	_	_	_	_	_	_	bratT10=Time-duration
+12	суток	_	_	_	_	_	_	_	bratT10=Time-duration
 13	выявили	_	_	_	_	_	_	_	_
 14	24	_	_	_	_	_	_	_	bratT11=Quantity
 15	326	_	_	_	_	_	_	_	bratT11=Quantity
@@ -117,9 +117,9 @@
 2	число	_	_	_	_	_	_	_	_
 3	подтверждённых	_	_	_	_	_	_	_	_
 4	эпизодов	_	_	_	_	_	_	_	_
-5	с	_	_	_	_	_	_	_	_
-6	начала	_	_	_	_	_	_	_	_
-7	эпидемии	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	bratT19=Date-period
+6	начала	_	_	_	_	_	_	_	bratT19=Date-period
+7	эпидемии	_	_	_	_	_	_	_	bratT18=Event|bratT19=Date-period
 8	в	_	_	_	_	_	_	_	_
 9	стране	_	_	_	_	_	_	_	_
 10	достигло	_	_	_	_	_	_	_	_

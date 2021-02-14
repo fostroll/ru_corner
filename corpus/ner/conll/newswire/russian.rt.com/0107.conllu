@@ -5,8 +5,8 @@
 # text = Во Франции за сутки выявили более 22 тысяч случаев коронавируса
 1	Во	_	_	_	_	_	_	_	_
 2	Франции	_	_	_	_	_	_	_	bratT1=GPE
-3	за	_	_	_	_	_	_	_	bratT2=Date-duration
-4	сутки	_	_	_	_	_	_	_	bratT2=Date-duration
+3	за	_	_	_	_	_	_	_	bratT2=Time-duration
+4	сутки	_	_	_	_	_	_	_	bratT2=Time-duration
 5	выявили	_	_	_	_	_	_	_	_
 6	более	_	_	_	_	_	_	_	bratT3=Quantity
 7	22	_	_	_	_	_	_	_	bratT3=Quantity
@@ -26,8 +26,8 @@
 6	инфекцией	_	_	_	_	_	_	_	bratT15=Other-term
 7	во	_	_	_	_	_	_	_	_
 8	Франции	_	_	_	_	_	_	_	bratT16=GPE
-9	за	_	_	_	_	_	_	_	bratT17=Date-duration
-10	сутки	_	_	_	_	_	_	_	bratT17=Date-duration
+9	за	_	_	_	_	_	_	_	bratT17=Time-duration
+10	сутки	_	_	_	_	_	_	_	bratT17=Time-duration
 11	выросло	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	bratT18=Quantity
 13	22	_	_	_	_	_	_	_	bratT18=Quantity
@@ -70,8 +70,8 @@
 11	с	_	_	_	_	_	_	_	_
 12	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
 13	,	_	_	_	_	_	_	_	_
-14	за	_	_	_	_	_	_	_	bratT8=Date-duration
-15	сутки	_	_	_	_	_	_	_	bratT8=Date-duration
+14	за	_	_	_	_	_	_	_	bratT8=Time-duration
+15	сутки	_	_	_	_	_	_	_	bratT8=Time-duration
 16	-	_	_	_	_	_	_	_	_
 17	386	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Quantity
 18	.	_	_	_	_	_	_	_	_
@@ -89,7 +89,7 @@
 7	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
-10	пандемия	_	_	_	_	_	_	_	_
+10	пандемия	_	_	_	_	_	_	_	bratT21=Event
 11	сильно	_	_	_	_	_	_	_	_
 12	повлияла	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_

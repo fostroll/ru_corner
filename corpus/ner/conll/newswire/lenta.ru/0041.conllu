@@ -25,7 +25,7 @@
 9	два	_	_	_	_	_	_	_	bratT28=Quantity
 10	раза	_	_	_	_	_	_	_	bratT28=Quantity
 11	за	_	_	_	_	_	_	_	bratT5=Date-period
-12	последние	_	_	_	_	_	_	_	bratT5=Date-period
+12	последние	_	_	_	_	_	_	_	bratT29=Ordinal|bratT5=Date-period
 13	20	_	_	_	_	_	_	_	bratT5=Date-period
 14	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-period
 15	,	_	_	_	_	_	_	_	_
@@ -74,8 +74,8 @@
 4	что	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	условиях	_	_	_	_	_	_	_	_
-7	пандемии	_	_	_	_	_	_	_	bratT12=Other-term
-8	коронавируса	_	_	_	_	_	_	_	bratT12=Other-term
+7	пандемии	_	_	_	_	_	_	_	bratT12=Event
+8	коронавируса	_	_	_	_	_	_	_	bratT12=Event
 9	практически	_	_	_	_	_	_	_	_
 10	во	_	_	_	_	_	_	_	_
 11	всех	_	_	_	_	_	_	_	_
@@ -203,7 +203,7 @@
 17	период	_	_	_	_	_	_	_	_
 18	кризиса	_	_	_	_	_	_	_	_
 19	и	_	_	_	_	_	_	_	_
-20	пандемии	_	_	_	_	_	_	_	SpaceAfter=No
+20	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event
 21	''	_	_	_	_	_	_	_	SpaceAfter=No
 22	.	_	_	_	_	_	_	_	_
 

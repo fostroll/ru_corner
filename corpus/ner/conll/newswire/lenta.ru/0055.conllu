@@ -130,7 +130,7 @@
 23	до	_	_	_	_	_	_	_	bratT9=Percent
 24	10-20	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Percent
 25	,	_	_	_	_	_	_	_	_
-26	вторичное	_	_	_	_	_	_	_	_
+26	вторичное	_	_	_	_	_	_	_	bratT14=Ordinal
 27	жилье	_	_	_	_	_	_	_	_
 28	-	_	_	_	_	_	_	_	_
 29	до	_	_	_	_	_	_	_	bratT10=Percent
@@ -235,10 +235,10 @@
 13	сдача	_	_	_	_	_	_	_	_
 14	которых	_	_	_	_	_	_	_	_
 15	состоится	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	_
-17	следующем	_	_	_	_	_	_	_	_
-18	и	_	_	_	_	_	_	_	_
-19	последующих	_	_	_	_	_	_	_	_
-20	годах	_	_	_	_	_	_	_	SpaceAfter=No
+16	в	_	_	_	_	_	_	_	bratT17=Date-relative
+17	следующем	_	_	_	_	_	_	_	bratT15=Ordinal|bratT17=Date-relative
+18	и	_	_	_	_	_	_	_	bratT17=Date-relative
+19	последующих	_	_	_	_	_	_	_	bratT16=Ordinal|bratT17=Date-relative
+20	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Date-relative
 21	.	_	_	_	_	_	_	_	_
 

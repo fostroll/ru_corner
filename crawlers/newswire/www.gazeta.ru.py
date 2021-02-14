@@ -110,7 +110,8 @@ for link_no, link in enumerate(links, start=1):
     for line in res:
         #line = unescape(re1.sub('', line)).replace('\u200b', '') \
         #                                  .replace('\ufeff', '').strip()
-        line = utils.norm_text2(re1.sub('', line))
+        line = utils.norm_text2(re1.sub('', line.replace('<...>',
+                                                         '(...)')))
         if line.startswith('НОВОСТИ ПО ТЕМЕ'):
             break
         if line:

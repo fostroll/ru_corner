@@ -164,7 +164,7 @@
 5	спецзаписке	_	_	_	_	_	_	_	_
 6	начальника	_	_	_	_	_	_	_	bratT18=Person|bratT25=Person-property
 7	СМЕРШ	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT28=Organization
-8	11-й	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization
+8	11-й	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization|bratT38=Ordinal
 9	гвардейской	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization
 10	армии	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization
 11	гвардии	_	_	_	_	_	_	_	bratT18=Person|bratT22=Person-property
@@ -229,9 +229,9 @@
 3	Митрофанова	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person
 4	,	_	_	_	_	_	_	_	_
 5	там	_	_	_	_	_	_	_	_
-6	во	_	_	_	_	_	_	_	_
-7	время	_	_	_	_	_	_	_	_
-8	оккупации	_	_	_	_	_	_	_	bratT36=Event
+6	во	_	_	_	_	_	_	_	bratT32=Date-period
+7	время	_	_	_	_	_	_	_	bratT32=Date-period
+8	оккупации	_	_	_	_	_	_	_	bratT32=Date-period|bratT36=Event
 9	было	_	_	_	_	_	_	_	_
 10	казнено	_	_	_	_	_	_	_	_
 11	свыше	_	_	_	_	_	_	_	bratT37=Quantity

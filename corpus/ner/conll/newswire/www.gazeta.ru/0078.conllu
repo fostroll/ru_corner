@@ -1,0 +1,127 @@
+# newdoc id = 0078
+# newpar id = 0078-p1
+# par_text = Азмун и Дриусси отправились с «Зенитом» на матч Лиги чемпионов против «Лацио»
+# sent_id = 0078-p1-s1
+# text = Азмун и Дриусси отправились с ``Зенитом'' на матч Лиги чемпионов против ``Лацио''
+1	Азмун	_	_	_	_	_	_	_	bratT1=Person
+2	и	_	_	_	_	_	_	_	_
+3	Дриусси	_	_	_	_	_	_	_	bratT2=Person
+4	отправились	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+7	Зенитом	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+8	''	_	_	_	_	_	_	_	bratT3=Organization
+9	на	_	_	_	_	_	_	_	_
+10	матч	_	_	_	_	_	_	_	bratT5=Event
+11	Лиги	_	_	_	_	_	_	_	bratT26=Event|bratT5=Event
+12	чемпионов	_	_	_	_	_	_	_	bratT26=Event|bratT5=Event
+13	против	_	_	_	_	_	_	_	bratT5=Event
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Event
+15	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Event
+16	''	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Event
+
+# newpar id = 0078-p2
+# par_text = Нападающие Сердар Азмун и Себастьян Дриусси отправились вместе с петербургским «Зенитом» в Италию на матч четвертого тура группового этапа Лиги чемпионов против римского «Лацио», сообщает «Спорт-Экспресс».
+# sent_id = 0078-p2-s1
+# text = Нападающие Сердар Азмун и Себастьян Дриусси отправились вместе с петербургским ``Зенитом'' в Италию на матч четвертого тура группового этапа Лиги чемпионов против римского ``Лацио'', сообщает ``Спорт-Экспресс''.
+1	Нападающие	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT6=Person-property|bratT7=Person
+2	Сердар	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT7=Person
+3	Азмун	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT7=Person
+4	и	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT7=Person
+5	Себастьян	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT7=Person
+6	Дриусси	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT7=Person
+7	отправились	_	_	_	_	_	_	_	_
+8	вместе	_	_	_	_	_	_	_	_
+9	с	_	_	_	_	_	_	_	_
+10	петербургским	_	_	_	_	_	_	_	bratT8=Organization
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
+12	Зенитом	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
+13	''	_	_	_	_	_	_	_	bratT8=Organization
+14	в	_	_	_	_	_	_	_	_
+15	Италию	_	_	_	_	_	_	_	bratT9=GPE
+16	на	_	_	_	_	_	_	_	_
+17	матч	_	_	_	_	_	_	_	bratT12=Event
+18	четвертого	_	_	_	_	_	_	_	bratT10=Ordinal|bratT12=Event|bratT28=Event
+19	тура	_	_	_	_	_	_	_	bratT12=Event|bratT28=Event
+20	группового	_	_	_	_	_	_	_	bratT12=Event|bratT27=Event|bratT28=Event
+21	этапа	_	_	_	_	_	_	_	bratT12=Event|bratT27=Event|bratT28=Event
+22	Лиги	_	_	_	_	_	_	_	bratT12=Event|bratT27=Event|bratT28=Event|bratT29=Event
+23	чемпионов	_	_	_	_	_	_	_	bratT12=Event|bratT27=Event|bratT28=Event|bratT29=Event
+24	против	_	_	_	_	_	_	_	_
+25	римского	_	_	_	_	_	_	_	bratT11=Organization
+26	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+27	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+28	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+29	,	_	_	_	_	_	_	_	_
+30	сообщает	_	_	_	_	_	_	_	_
+31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Media|bratT13=Organization
+32	Спорт-Экспресс	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Media|bratT13=Organization
+33	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Media|bratT13=Organization
+34	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0078-p3
+# par_text = Напомним, что Азмун и Дриусси пропустили четыре ноябрьские встречи петербургского клуба.
+# sent_id = 0078-p3-s1
+# text = Напомним, что Азмун и Дриусси пропустили четыре ноябрьские встречи петербургского клуба.
+1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	Азмун	_	_	_	_	_	_	_	bratT14=Person
+5	и	_	_	_	_	_	_	_	_
+6	Дриусси	_	_	_	_	_	_	_	bratT15=Person
+7	пропустили	_	_	_	_	_	_	_	_
+8	четыре	_	_	_	_	_	_	_	bratT16=Quantity
+9	ноябрьские	_	_	_	_	_	_	_	bratT16=Quantity
+10	встречи	_	_	_	_	_	_	_	bratT16=Quantity
+11	петербургского	_	_	_	_	_	_	_	_
+12	клуба	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0078-p4
+# par_text = Игра «Лацио» — «Зенит» состоится 24-го ноября. Начало — 23:00 мск.
+# sent_id = 0078-p4-s1
+# text = Игра ``Лацио'' - ``Зенит'' состоится 24-го ноября.
+1	Игра	_	_	_	_	_	_	_	bratT19=Event
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT19=Event
+3	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT19=Event
+4	''	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Event
+5	-	_	_	_	_	_	_	_	bratT19=Event
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT19=Event
+7	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT19=Event
+8	''	_	_	_	_	_	_	_	bratT18=Organization|bratT19=Event
+9	состоится	_	_	_	_	_	_	_	_
+10	24-го	_	_	_	_	_	_	_	bratT20=Date-absolute
+11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-absolute
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0078-p4-s2
+# text = Начало - 23:00 мск.
+1	Начало	_	_	_	_	_	_	_	_
+2	-	_	_	_	_	_	_	_	_
+3	23:00	_	_	_	_	_	_	_	bratT30=Time-absolute
+4	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Time-absolute
+5	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0078-p5
+# par_text = Ранее сообщалось, что матч «Атлетико» — «Локомотив» обслужит бригада арбитров из Словении.
+# sent_id = 0078-p5-s1
+# text = Ранее сообщалось, что матч ``Атлетико'' - ``Локомотив'' обслужит бригада арбитров из Словении.
+1	Ранее	_	_	_	_	_	_	_	_
+2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	матч	_	_	_	_	_	_	_	bratT23=Event
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT23=Event
+7	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT23=Event
+8	''	_	_	_	_	_	_	_	bratT21=Organization|bratT23=Event
+9	-	_	_	_	_	_	_	_	bratT23=Event
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization|bratT23=Event
+11	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization|bratT23=Event
+12	''	_	_	_	_	_	_	_	bratT22=Organization|bratT23=Event
+13	обслужит	_	_	_	_	_	_	_	_
+14	бригада	_	_	_	_	_	_	_	_
+15	арбитров	_	_	_	_	_	_	_	bratT25=Person-property
+16	из	_	_	_	_	_	_	_	_
+17	Словении	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=GPE
+18	.	_	_	_	_	_	_	_	_
+

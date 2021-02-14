@@ -158,9 +158,9 @@
 
 # sent_id = 0118-p5-s2
 # text = За последние сутки в Петербурге скончались 74 зараженных, в столице - 73.
-1	За	_	_	_	_	_	_	_	bratT21=Date-period
-2	последние	_	_	_	_	_	_	_	bratT21=Date-period
-3	сутки	_	_	_	_	_	_	_	bratT21=Date-period
+1	За	_	_	_	_	_	_	_	bratT21=Time-period
+2	последние	_	_	_	_	_	_	_	bratT21=Time-period|bratT6=Ordinal
+3	сутки	_	_	_	_	_	_	_	bratT21=Time-period
 4	в	_	_	_	_	_	_	_	_
 5	Петербурге	_	_	_	_	_	_	_	bratT22=GPE
 6	скончались	_	_	_	_	_	_	_	_

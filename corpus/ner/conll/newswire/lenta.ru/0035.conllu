@@ -3,7 +3,7 @@
 # par_text = Первый канал подаст в суд за клевету против шоу «Голос»
 # sent_id = 0035-p1-s1
 # text = Первый канал подаст в суд за клевету против шоу ``Голос''
-1	Первый	_	_	_	_	_	_	_	bratA2=T1:Media|bratT1=Organization
+1	Первый	_	_	_	_	_	_	_	bratA2=T1:Media|bratT1=Organization|bratT32=Ordinal
 2	канал	_	_	_	_	_	_	_	bratA2=T1:Media|bratT1=Organization
 3	подаст	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
@@ -21,7 +21,7 @@
 # sent_id = 0035-p2-s1
 # text = Руководство Первого канала сообщило о подготовке судебных исков против высказываний председателя ЦК партии ``Коммунисты России'' Максима Сурайкина, журналиста Сергея Соседова и актера Станислава Садальского о победителях шоу ``Голос''.
 1	Руководство	_	_	_	_	_	_	_	_
-2	Первого	_	_	_	_	_	_	_	bratA3=T3:Media|bratT3=Organization
+2	Первого	_	_	_	_	_	_	_	bratA3=T3:Media|bratT3=Organization|bratT33=Ordinal
 3	канала	_	_	_	_	_	_	_	bratA3=T3:Media|bratT3=Organization
 4	сообщило	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
@@ -88,7 +88,7 @@
 3	беспрецедентный	_	_	_	_	_	_	_	_
 4	шаг	_	_	_	_	_	_	_	_
 5	для	_	_	_	_	_	_	_	_
-6	Первого	_	_	_	_	_	_	_	bratA5=T12:Media|bratT12=Organization
+6	Первого	_	_	_	_	_	_	_	bratA5=T12:Media|bratT12=Organization|bratT31=Ordinal
 7	канала	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T12:Media|bratT12=Organization
 8	,	_	_	_	_	_	_	_	_
 9	который	_	_	_	_	_	_	_	_
@@ -177,7 +177,7 @@
 14	подсуживании	_	_	_	_	_	_	_	_
 15	дочери	_	_	_	_	_	_	_	bratT25=Family|bratT29=Person
 16	ведущего	_	_	_	_	_	_	_	bratT19=Person-property|bratT29=Person
-17	Первого	_	_	_	_	_	_	_	bratA6=T20:Media|bratT19=Person-property|bratT20=Organization|bratT29=Person
+17	Первого	_	_	_	_	_	_	_	bratA6=T20:Media|bratT19=Person-property|bratT20=Organization|bratT29=Person|bratT30=Ordinal
 18	канала	_	_	_	_	_	_	_	bratA6=T20:Media|bratT19=Person-property|bratT20=Organization|bratT29=Person
 19	Александре	_	_	_	_	_	_	_	bratT29=Person
 20	Будниковой	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person

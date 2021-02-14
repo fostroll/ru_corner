@@ -90,7 +90,7 @@
 # sent_id = 0110-p4-s1
 # text = На следующий день после торжества у нее появилось ``щекотание в груди'' и пропало обоняние.
 1	На	_	_	_	_	_	_	_	bratT11=Date-relative
-2	следующий	_	_	_	_	_	_	_	bratT11=Date-relative
+2	следующий	_	_	_	_	_	_	_	bratT11=Date-relative|bratT12=Ordinal
 3	день	_	_	_	_	_	_	_	bratT11=Date-relative
 4	после	_	_	_	_	_	_	_	bratT11=Date-relative
 5	торжества	_	_	_	_	_	_	_	_
@@ -288,7 +288,7 @@
 11	в	_	_	_	_	_	_	_	_
 12	отделение	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization
 13	пульмонологии	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization
-14	№1	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization
+14	№1	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization|bratT28=Ordinal
 15	краевой	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization|bratT26=Organization
 16	больницы	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Department|bratT25=Organization|bratT26=Organization
 17	.	_	_	_	_	_	_	_	_

@@ -42,7 +42,7 @@
 24	до	_	_	_	_	_	_	_	bratT7=Date-period
 25	конца	_	_	_	_	_	_	_	bratT7=Date-period
 26	января	_	_	_	_	_	_	_	bratT7=Date-period
-27	следующего	_	_	_	_	_	_	_	bratT7=Date-period
+27	следующего	_	_	_	_	_	_	_	bratT34=Ordinal|bratT7=Date-period
 28	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-period
 29	.	_	_	_	_	_	_	_	_
 
@@ -231,12 +231,12 @@
 20	как	_	_	_	_	_	_	_	_
 21	это	_	_	_	_	_	_	_	_
 22	было	_	_	_	_	_	_	_	_
-23	весной	_	_	_	_	_	_	_	_
-24	во	_	_	_	_	_	_	_	_
-25	время	_	_	_	_	_	_	_	_
-26	первой	_	_	_	_	_	_	_	bratT29=Ordinal
-27	волны	_	_	_	_	_	_	_	_
-28	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term
+23	весной	_	_	_	_	_	_	_	bratT33=Date-period
+24	во	_	_	_	_	_	_	_	bratT33=Date-period
+25	время	_	_	_	_	_	_	_	bratT33=Date-period
+26	первой	_	_	_	_	_	_	_	bratT29=Ordinal|bratT32=Event|bratT33=Date-period
+27	волны	_	_	_	_	_	_	_	bratT32=Event|bratT33=Date-period
+28	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term|bratT32=Event|bratT33=Date-period
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0086-p6-s2
