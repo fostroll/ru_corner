@@ -9,9 +9,9 @@
 4	показательном	_	_	_	_	_	_	_	bratT2=Event
 5	выступлении	_	_	_	_	_	_	_	bratT2=Event
 6	Загитовой	_	_	_	_	_	_	_	bratT2=Event|bratT5=Person
-7	на	_	_	_	_	_	_	_	bratT2=Event
-8	Гран-при	_	_	_	_	_	_	_	bratT2=Event|bratT3=Event
-9	России	_	_	_	_	_	_	_	bratT2=Event|bratT3=Event|bratT4=GPE
+7	на	_	_	_	_	_	_	_	_
+8	Гран-при	_	_	_	_	_	_	_	bratT3=Event
+9	России	_	_	_	_	_	_	_	bratT3=Event|bratT4=GPE
 
 # newpar id = 0083-p2
 # par_text = Экс-фигуристка Наталья Бестемьянова высказалась о показательном выступлении Алины Загитовой на Гран-при России, передает «Чемпионат.com».
@@ -26,9 +26,9 @@
 7	выступлении	_	_	_	_	_	_	_	bratT8=Event
 8	Алины	_	_	_	_	_	_	_	bratT8=Event|bratT9=Person
 9	Загитовой	_	_	_	_	_	_	_	bratT8=Event|bratT9=Person
-10	на	_	_	_	_	_	_	_	bratT8=Event
-11	Гран-при	_	_	_	_	_	_	_	bratT10=Event|bratT8=Event
-12	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=GPE|bratT8=Event
+10	на	_	_	_	_	_	_	_	_
+11	Гран-при	_	_	_	_	_	_	_	bratT10=Event
+12	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=GPE
 13	,	_	_	_	_	_	_	_	_
 14	передает	_	_	_	_	_	_	_	_
 15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
@@ -87,7 +87,7 @@
 # text = Напомним, сейчас Загитова ведет шоу ``Ледниковый период''.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	сейчас	_	_	_	_	_	_	_	_
+3	сейчас	_	_	_	_	_	_	_	bratT23=Date-relative
 4	Загитова	_	_	_	_	_	_	_	bratT15=Person
 5	ведет	_	_	_	_	_	_	_	_
 6	шоу	_	_	_	_	_	_	_	bratT16=Work-of-art
@@ -106,8 +106,8 @@
 5	показательный	_	_	_	_	_	_	_	bratT18=Event
 6	прокат	_	_	_	_	_	_	_	bratT18=Event
 7	Загитовой	_	_	_	_	_	_	_	bratT18=Event|bratT21=Person
-8	на	_	_	_	_	_	_	_	bratT18=Event
-9	Гран-при	_	_	_	_	_	_	_	bratT18=Event|bratT19=Event
-10	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event|bratT19=Event|bratT20=GPE
+8	на	_	_	_	_	_	_	_	_
+9	Гран-при	_	_	_	_	_	_	_	bratT19=Event
+10	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event|bratT20=GPE
 11	.	_	_	_	_	_	_	_	_
 

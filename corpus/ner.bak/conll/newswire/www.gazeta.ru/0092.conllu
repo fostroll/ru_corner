@@ -1,0 +1,191 @@
+# newdoc id = 0092
+# newpar id = 0092-p1
+# par_text = Трамп выступит с заявлением
+# sent_id = 0092-p1-s1
+# text = Трамп выступит с заявлением
+1	Трамп	_	_	_	_	_	_	_	bratT1=Person
+2	выступит	_	_	_	_	_	_	_	_
+3	с	_	_	_	_	_	_	_	_
+4	заявлением	_	_	_	_	_	_	_	_
+
+# newpar id = 0092-p2
+# par_text = Президент США Дональд Трамп в ближайшие минуты выступит с заявлением, сообщил Белый дом.
+# sent_id = 0092-p2-s1
+# text = Президент США Дональд Трамп в ближайшие минуты выступит с заявлением, сообщил Белый дом.
+1	Президент	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
+2	США	_	_	_	_	_	_	_	bratT2=GPE|bratT3=Person-property|bratT4=Person
+3	Дональд	_	_	_	_	_	_	_	bratT4=Person
+4	Трамп	_	_	_	_	_	_	_	bratT4=Person
+5	в	_	_	_	_	_	_	_	bratT48=Time-period
+6	ближайшие	_	_	_	_	_	_	_	bratT48=Time-period
+7	минуты	_	_	_	_	_	_	_	bratT48=Time-period
+8	выступит	_	_	_	_	_	_	_	_
+9	с	_	_	_	_	_	_	_	_
+10	заявлением	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	сообщил	_	_	_	_	_	_	_	_
+13	Белый	_	_	_	_	_	_	_	bratT5=Organization
+14	дом	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0092-p3
+# par_text = Трамп должен был начать выступление в 12.30 (20.30 мск), об этом сообщили за три минуты. Пока политик задерживается.
+# sent_id = 0092-p3-s1
+# text = Трамп должен был начать выступление в 12.30 (20.30 мск), об этом сообщили за три минуты.
+1	Трамп	_	_	_	_	_	_	_	bratT6=Person
+2	должен	_	_	_	_	_	_	_	_
+3	был	_	_	_	_	_	_	_	_
+4	начать	_	_	_	_	_	_	_	_
+5	выступление	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	bratT7=Time-absolute
+7	12.30	_	_	_	_	_	_	_	bratT7=Time-absolute
+8	(	_	_	_	_	_	_	_	SpaceAfter=No
+9	20.30	_	_	_	_	_	_	_	bratT8=Time-absolute
+10	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Time-absolute
+11	)	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	об	_	_	_	_	_	_	_	_
+14	этом	_	_	_	_	_	_	_	_
+15	сообщили	_	_	_	_	_	_	_	_
+16	за	_	_	_	_	_	_	_	bratT9=Time-relative
+17	три	_	_	_	_	_	_	_	bratT9=Time-relative
+18	минуты	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Time-relative
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0092-p3-s2
+# text = Пока политик задерживается.
+1	Пока	_	_	_	_	_	_	_	_
+2	политик	_	_	_	_	_	_	_	bratT10=Person-property
+3	задерживается	_	_	_	_	_	_	_	SpaceAfter=No
+4	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0092-p4
+# par_text = За последние сутки сразу три ключевых штата — Пенсильвания, Мичиган и Невада — подтвердили победу демократа Джо Байдена на президентских выборах.
+# sent_id = 0092-p4-s1
+# text = За последние сутки сразу три ключевых штата - Пенсильвания, Мичиган и Невада - подтвердили победу демократа Джо Байдена на президентских выборах.
+1	За	_	_	_	_	_	_	_	bratT11=Date-period
+2	последние	_	_	_	_	_	_	_	bratT11=Date-period|bratT47=Ordinal
+3	сутки	_	_	_	_	_	_	_	bratT11=Date-period
+4	сразу	_	_	_	_	_	_	_	_
+5	три	_	_	_	_	_	_	_	bratT12=Quantity
+6	ключевых	_	_	_	_	_	_	_	bratT12=Quantity
+7	штата	_	_	_	_	_	_	_	bratT12=Quantity
+8	-	_	_	_	_	_	_	_	_
+9	Пенсильвания	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=GPE
+10	,	_	_	_	_	_	_	_	_
+11	Мичиган	_	_	_	_	_	_	_	bratT39=GPE
+12	и	_	_	_	_	_	_	_	_
+13	Невада	_	_	_	_	_	_	_	bratT40=GPE
+14	-	_	_	_	_	_	_	_	_
+15	подтвердили	_	_	_	_	_	_	_	_
+16	победу	_	_	_	_	_	_	_	_
+17	демократа	_	_	_	_	_	_	_	bratT16=Political-group|bratT17=Person
+18	Джо	_	_	_	_	_	_	_	bratT17=Person
+19	Байдена	_	_	_	_	_	_	_	bratT17=Person
+20	на	_	_	_	_	_	_	_	_
+21	президентских	_	_	_	_	_	_	_	bratT45=Event
+22	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Event
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0092-p5
+# par_text = 3 ноября в США прошли президентские выборы, основными претендентами на пост главы государства являются демократ Джо Байден и действующий президент, республиканец Дональд Трамп.
+# sent_id = 0092-p5-s1
+# text = 3 ноября в США прошли президентские выборы, основными претендентами на пост главы государства являются демократ Джо Байден и действующий президент, республиканец Дональд Трамп.
+1	3	_	_	_	_	_	_	_	bratT18=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratT18=Date-absolute
+3	в	_	_	_	_	_	_	_	_
+4	США	_	_	_	_	_	_	_	bratT19=GPE
+5	прошли	_	_	_	_	_	_	_	_
+6	президентские	_	_	_	_	_	_	_	bratT20=Event
+7	выборы	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Event
+8	,	_	_	_	_	_	_	_	_
+9	основными	_	_	_	_	_	_	_	_
+10	претендентами	_	_	_	_	_	_	_	bratT46=Person-property
+11	на	_	_	_	_	_	_	_	bratT46=Person-property
+12	пост	_	_	_	_	_	_	_	bratT46=Person-property
+13	главы	_	_	_	_	_	_	_	bratT14=Person-property|bratT46=Person-property
+14	государства	_	_	_	_	_	_	_	bratT14=Person-property|bratT46=Person-property
+15	являются	_	_	_	_	_	_	_	_
+16	демократ	_	_	_	_	_	_	_	bratT15=Political-group|bratT21=Person
+17	Джо	_	_	_	_	_	_	_	bratT21=Person
+18	Байден	_	_	_	_	_	_	_	bratT21=Person
+19	и	_	_	_	_	_	_	_	_
+20	действующий	_	_	_	_	_	_	_	bratT22=Person-property|bratT24=Person
+21	президент	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property|bratT24=Person
+22	,	_	_	_	_	_	_	_	bratT24=Person
+23	республиканец	_	_	_	_	_	_	_	bratT23=Political-group|bratT24=Person
+24	Дональд	_	_	_	_	_	_	_	bratT24=Person
+25	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person
+26	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0092-p6
+# par_text = 7 ноября ведущие американские СМИ — ABC News, FOX News, CNN, AP и NBC — объявили о победе демократа Джо Байдена на президентских выборах в США. Официально итоги еще не были подведены.
+# sent_id = 0092-p6-s1
+# text = 7 ноября ведущие американские СМИ - ABC News, FOX News, CNN, AP и NBC - объявили о победе демократа Джо Байдена на президентских выборах в США.
+1	7	_	_	_	_	_	_	_	bratT25=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratT25=Date-absolute
+3	ведущие	_	_	_	_	_	_	_	_
+4	американские	_	_	_	_	_	_	_	_
+5	СМИ	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_
+7	ABC	_	_	_	_	_	_	_	bratA2=T26:Media|bratT26=Organization
+8	News	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T26:Media|bratT26=Organization
+9	,	_	_	_	_	_	_	_	_
+10	FOX	_	_	_	_	_	_	_	bratA1=T41:Media|bratT41=Organization
+11	News	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T41:Media|bratT41=Organization
+12	,	_	_	_	_	_	_	_	_
+13	CNN	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T42:Media|bratT42=Organization
+14	,	_	_	_	_	_	_	_	_
+15	AP	_	_	_	_	_	_	_	bratA5=T43:Media|bratT43=Organization
+16	и	_	_	_	_	_	_	_	_
+17	NBC	_	_	_	_	_	_	_	bratA6=T44:Media|bratT44=Organization
+18	-	_	_	_	_	_	_	_	_
+19	объявили	_	_	_	_	_	_	_	_
+20	о	_	_	_	_	_	_	_	_
+21	победе	_	_	_	_	_	_	_	_
+22	демократа	_	_	_	_	_	_	_	bratT27=Political-group|bratT28=Person
+23	Джо	_	_	_	_	_	_	_	bratT28=Person
+24	Байдена	_	_	_	_	_	_	_	bratT28=Person
+25	на	_	_	_	_	_	_	_	_
+26	президентских	_	_	_	_	_	_	_	bratT30=Event
+27	выборах	_	_	_	_	_	_	_	bratT30=Event
+28	в	_	_	_	_	_	_	_	bratT30=Event
+29	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE|bratT30=Event
+30	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0092-p6-s2
+# text = Официально итоги еще не были подведены.
+1	Официально	_	_	_	_	_	_	_	_
+2	итоги	_	_	_	_	_	_	_	_
+3	еще	_	_	_	_	_	_	_	_
+4	не	_	_	_	_	_	_	_	_
+5	были	_	_	_	_	_	_	_	_
+6	подведены	_	_	_	_	_	_	_	SpaceAfter=No
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0092-p7
+# par_text = Байдену направили поздравления многие мировые лидеры, среди которых король Саудовской Аравии, генсек ООН, президенты Турции и Словении.
+# sent_id = 0092-p7-s1
+# text = Байдену направили поздравления многие мировые лидеры, среди которых король Саудовской Аравии, генсек ООН, президенты Турции и Словении.
+1	Байдену	_	_	_	_	_	_	_	bratT31=Person
+2	направили	_	_	_	_	_	_	_	_
+3	поздравления	_	_	_	_	_	_	_	_
+4	многие	_	_	_	_	_	_	_	_
+5	мировые	_	_	_	_	_	_	_	_
+6	лидеры	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	среди	_	_	_	_	_	_	_	_
+9	которых	_	_	_	_	_	_	_	_
+10	король	_	_	_	_	_	_	_	bratT33=Person-property
+11	Саудовской	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property
+12	Аравии	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=GPE|bratT33=Person-property
+13	,	_	_	_	_	_	_	_	_
+14	генсек	_	_	_	_	_	_	_	bratT35=Person-property
+15	ООН	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=Person-property
+16	,	_	_	_	_	_	_	_	_
+17	президенты	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Person-property
+18	Турции	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT36=GPE|bratT38=Person-property
+19	и	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Person-property
+20	Словении	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T38:Plural|bratT37=GPE|bratT38=Person-property
+21	.	_	_	_	_	_	_	_	_
+

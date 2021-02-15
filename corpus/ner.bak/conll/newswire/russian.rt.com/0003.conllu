@@ -1,0 +1,122 @@
+# newdoc id = 0003
+# newpar id = 0003-p1
+# par_text = В Москве число выздоровевших от коронавируса превысило 400 тысяч
+# sent_id = 0003-p1-s1
+# text = В Москве число выздоровевших от коронавируса превысило 400 тысяч
+1	В	_	_	_	_	_	_	_	bratT1=GPE
+2	Москве	_	_	_	_	_	_	_	bratT1=GPE
+3	число	_	_	_	_	_	_	_	_
+4	выздоровевших	_	_	_	_	_	_	_	_
+5	от	_	_	_	_	_	_	_	_
+6	коронавируса	_	_	_	_	_	_	_	bratT2=Other-term
+7	превысило	_	_	_	_	_	_	_	_
+8	400	_	_	_	_	_	_	_	bratT3=Quantity
+9	тысяч	_	_	_	_	_	_	_	bratT3=Quantity
+
+# newpar id = 0003-p2
+# par_text = За сутки ещё 6080 пациентов вылечились от коронавирусной инфекции COVID-19 в Москве, общее число выздоровевших достигло 400 332.
+# sent_id = 0003-p2-s1
+# text = За сутки ещё 6080 пациентов вылечились от коронавирусной инфекции COVID-19 в Москве, общее число выздоровевших достигло 400 332.
+1	За	_	_	_	_	_	_	_	bratT22=Time-duration
+2	сутки	_	_	_	_	_	_	_	bratT22=Time-duration
+3	ещё	_	_	_	_	_	_	_	bratT23=Quantity
+4	6080	_	_	_	_	_	_	_	bratT23=Quantity
+5	пациентов	_	_	_	_	_	_	_	bratT23=Quantity
+6	вылечились	_	_	_	_	_	_	_	_
+7	от	_	_	_	_	_	_	_	_
+8	коронавирусной	_	_	_	_	_	_	_	bratT24=Other-term
+9	инфекции	_	_	_	_	_	_	_	bratT24=Other-term
+10	COVID-19	_	_	_	_	_	_	_	bratT24=Other-term
+11	в	_	_	_	_	_	_	_	_
+12	Москве	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE
+13	,	_	_	_	_	_	_	_	_
+14	общее	_	_	_	_	_	_	_	_
+15	число	_	_	_	_	_	_	_	_
+16	выздоровевших	_	_	_	_	_	_	_	_
+17	достигло	_	_	_	_	_	_	_	_
+18	400	_	_	_	_	_	_	_	bratT26=Quantity
+19	332	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0003-p3
+# par_text = Об этом информирует сайт «Москва 24» со ссылкой на оперативный штаб по контролю и мониторингу ситуации с COVID-19.
+# sent_id = 0003-p3-s1
+# text = Об этом информирует сайт ``Москва 24'' со ссылкой на оперативный штаб по контролю и мониторингу ситуации с COVID-19.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	информирует	_	_	_	_	_	_	_	_
+4	сайт	_	_	_	_	_	_	_	bratA2=T4:Media|bratT4=Service
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Media|bratT4=Service
+6	Москва	_	_	_	_	_	_	_	bratA2=T4:Media|bratT4=Service
+7	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Media|bratT4=Service
+8	''	_	_	_	_	_	_	_	bratA2=T4:Media|bratT4=Service
+9	со	_	_	_	_	_	_	_	_
+10	ссылкой	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	оперативный	_	_	_	_	_	_	_	bratT5=Organization
+13	штаб	_	_	_	_	_	_	_	bratT5=Organization
+14	по	_	_	_	_	_	_	_	bratT5=Organization
+15	контролю	_	_	_	_	_	_	_	bratT5=Organization
+16	и	_	_	_	_	_	_	_	bratT5=Organization
+17	мониторингу	_	_	_	_	_	_	_	bratT5=Organization
+18	ситуации	_	_	_	_	_	_	_	bratT5=Organization
+19	с	_	_	_	_	_	_	_	bratT5=Organization
+20	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0003-p4
+# par_text = Ранее премьер-министр России Михаил Мишустин поручил еженедельно докладывать правительству о наличии препаратов для лечения коронавирусной инфекции.
+# sent_id = 0003-p4-s1
+# text = Ранее премьер-министр России Михаил Мишустин поручил еженедельно докладывать правительству о наличии препаратов для лечения коронавирусной инфекции.
+1	Ранее	_	_	_	_	_	_	_	_
+2	премьер-министр	_	_	_	_	_	_	_	bratT6=Person-property|bratT8=Person
+3	России	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=GPE|bratT8=Person
+4	Михаил	_	_	_	_	_	_	_	bratT8=Person
+5	Мишустин	_	_	_	_	_	_	_	bratT8=Person
+6	поручил	_	_	_	_	_	_	_	_
+7	еженедельно	_	_	_	_	_	_	_	_
+8	докладывать	_	_	_	_	_	_	_	_
+9	правительству	_	_	_	_	_	_	_	bratT9=Organization
+10	о	_	_	_	_	_	_	_	_
+11	наличии	_	_	_	_	_	_	_	_
+12	препаратов	_	_	_	_	_	_	_	_
+13	для	_	_	_	_	_	_	_	_
+14	лечения	_	_	_	_	_	_	_	_
+15	коронавирусной	_	_	_	_	_	_	_	bratT10=Other-term
+16	инфекции	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0003-p5
+# par_text = Депутат Госдумы III—V созывов доктор медицинских наук, профессор, академик РАН заслуженный деятель науки России Сергей Колесников в беседе с ФАН напомнил об особенностях коронавируса.
+# sent_id = 0003-p5-s1
+# text = Депутат Госдумы III - V созывов доктор медицинских наук, профессор, академик РАН заслуженный деятель науки России Сергей Колесников в беседе с ФАН напомнил об особенностях коронавируса.
+1	Депутат	_	_	_	_	_	_	_	bratT11=Person-property|bratT18=Person
+2	Госдумы	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Organization|bratT18=Person
+3	III	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Organization|bratT18=Person|bratT21=Ordinal
+4	-	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Organization|bratT18=Person
+5	V	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Organization|bratT18=Person|bratT27=Ordinal
+6	созывов	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Organization|bratT18=Person
+7	доктор	_	_	_	_	_	_	_	bratT13=Person-property|bratT18=Person
+8	медицинских	_	_	_	_	_	_	_	bratT13=Person-property|bratT18=Person
+9	наук	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property|bratT18=Person
+10	,	_	_	_	_	_	_	_	bratT18=Person
+11	профессор	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property|bratT18=Person
+12	,	_	_	_	_	_	_	_	bratT18=Person
+13	академик	_	_	_	_	_	_	_	bratT15=Person-property|bratT18=Person
+14	РАН	_	_	_	_	_	_	_	bratT15=Person-property|bratT18=Person
+15	заслуженный	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person
+16	деятель	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person
+17	науки	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person
+18	России	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=GPE|bratT18=Person
+19	Сергей	_	_	_	_	_	_	_	bratT18=Person
+20	Колесников	_	_	_	_	_	_	_	bratT18=Person
+21	в	_	_	_	_	_	_	_	_
+22	беседе	_	_	_	_	_	_	_	_
+23	с	_	_	_	_	_	_	_	_
+24	ФАН	_	_	_	_	_	_	_	bratA1=T19:Media|bratT19=Organization
+25	напомнил	_	_	_	_	_	_	_	_
+26	об	_	_	_	_	_	_	_	_
+27	особенностях	_	_	_	_	_	_	_	_
+28	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+29	.	_	_	_	_	_	_	_	_
+

@@ -20,9 +20,9 @@
 2	боец	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
 3	смешанных	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
 4	единоборств	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
-6	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term|bratT7=Person
-7	)	_	_	_	_	_	_	_	bratT7=Person
+5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT7=Person
+6	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Other-term|bratT7=Person
+7	)	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
 8	Магомед	_	_	_	_	_	_	_	bratT7=Person
 9	Исмаилов	_	_	_	_	_	_	_	bratT7=Person
 10	на	_	_	_	_	_	_	_	_
@@ -43,8 +43,8 @@
 25	Абсолютного	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT14=Organization
 26	бойцовского	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT14=Organization
 27	чемпионата	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT14=Organization
-28	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
-29	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT15=Organization
+28	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT13=Person-property
+29	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT13=Person-property|bratT15=Organization
 30	)	_	_	_	_	_	_	_	bratT12=Person
 31	Адама	_	_	_	_	_	_	_	bratT12=Person
 32	Яндиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person

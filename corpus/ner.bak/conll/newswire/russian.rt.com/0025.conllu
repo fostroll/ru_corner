@@ -1,0 +1,129 @@
+# newdoc id = 0025
+# newpar id = 0025-p1
+# par_text = Василевский назван лучшим вратарём НХЛ по версии NHL Network
+# sent_id = 0025-p1-s1
+# text = Василевский назван лучшим вратарём НХЛ по версии NHL Network
+1	Василевский	_	_	_	_	_	_	_	bratT1=Person
+2	назван	_	_	_	_	_	_	_	_
+3	лучшим	_	_	_	_	_	_	_	_
+4	вратарём	_	_	_	_	_	_	_	bratT2=Person-property
+5	НХЛ	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
+6	по	_	_	_	_	_	_	_	_
+7	версии	_	_	_	_	_	_	_	_
+8	NHL	_	_	_	_	_	_	_	bratA2=T4:Media|bratT4=Organization
+9	Network	_	_	_	_	_	_	_	bratA2=T4:Media|bratT4=Organization
+
+# newpar id = 0025-p2
+# par_text = Эксперты NHL Network составили топ-10 лучших голкиперов Национальной хоккейной лиги (НХЛ).
+# sent_id = 0025-p2-s1
+# text = Эксперты NHL Network составили топ-10 лучших голкиперов Национальной хоккейной лиги (НХЛ).
+1	Эксперты	_	_	_	_	_	_	_	bratT24=Person-property
+2	NHL	_	_	_	_	_	_	_	bratA3=T25:Media|bratT24=Person-property|bratT25=Organization
+3	Network	_	_	_	_	_	_	_	bratA3=T25:Media|bratT24=Person-property|bratT25=Organization
+4	составили	_	_	_	_	_	_	_	_
+5	топ-10	_	_	_	_	_	_	_	bratT29=Quantity
+6	лучших	_	_	_	_	_	_	_	_
+7	голкиперов	_	_	_	_	_	_	_	bratT28=Person-property
+8	Национальной	_	_	_	_	_	_	_	bratT26=Organization
+9	хоккейной	_	_	_	_	_	_	_	bratT26=Organization
+10	лиги	_	_	_	_	_	_	_	bratT26=Organization
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	НХЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+13	)	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0025-p3
+# par_text = Согласно рейтингу, первое место занял российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский. На второй позиции расположился финский вратарь «Бостон Брюинз» Туукка Раск. Замкнул тройку американец Коннор Хеллебайк из «Виннипег Джетс».
+# sent_id = 0025-p3-s1
+# text = Согласно рейтингу, первое место занял российский голкипер ``Тампа-Бэй Лайтнинг'' Андрей Василевский.
+1	Согласно	_	_	_	_	_	_	_	_
+2	рейтингу	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	первое	_	_	_	_	_	_	_	bratT6=Ordinal
+5	место	_	_	_	_	_	_	_	_
+6	занял	_	_	_	_	_	_	_	_
+7	российский	_	_	_	_	_	_	_	bratT5=Person-property|bratT8=Person
+8	голкипер	_	_	_	_	_	_	_	bratT5=Person-property|bratT8=Person
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT7=Organization|bratT8=Person
+10	Тампа-Бэй	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Organization|bratT8=Person
+11	Лайтнинг	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT7=Organization|bratT8=Person
+12	''	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Organization|bratT8=Person
+13	Андрей	_	_	_	_	_	_	_	bratT8=Person
+14	Василевский	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0025-p3-s2
+# text = На второй позиции расположился финский вратарь ``Бостон Брюинз'' Туукка Раск.
+1	На	_	_	_	_	_	_	_	_
+2	второй	_	_	_	_	_	_	_	bratT9=Ordinal
+3	позиции	_	_	_	_	_	_	_	_
+4	расположился	_	_	_	_	_	_	_	_
+5	финский	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=Person
+6	вратарь	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=Person
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT11=Organization|bratT12=Person
+8	Бостон	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT12=Person
+9	Брюинз	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT11=Organization|bratT12=Person
+10	''	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT12=Person
+11	Туукка	_	_	_	_	_	_	_	bratT12=Person
+12	Раск	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0025-p3-s3
+# text = Замкнул тройку американец Коннор Хеллебайк из ``Виннипег Джетс''.
+1	Замкнул	_	_	_	_	_	_	_	_
+2	тройку	_	_	_	_	_	_	_	bratT30=Quantity
+3	американец	_	_	_	_	_	_	_	bratA1=T13:Citizenship|bratT13=Nationality
+4	Коннор	_	_	_	_	_	_	_	bratT14=Person
+5	Хеллебайк	_	_	_	_	_	_	_	bratT14=Person
+6	из	_	_	_	_	_	_	_	_
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+8	Виннипег	_	_	_	_	_	_	_	bratT15=Organization
+9	Джетс	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0025-p4
+# par_text = Российский страж ворот «Даллас Старз» Антон Худобин также попал в десятку лучших, расположившись на последней строчке рейтинга.
+# sent_id = 0025-p4-s1
+# text = Российский страж ворот ``Даллас Старз'' Антон Худобин также попал в десятку лучших, расположившись на последней строчке рейтинга.
+1	Российский	_	_	_	_	_	_	_	bratT17=Person|bratT21=Person-property
+2	страж	_	_	_	_	_	_	_	bratT17=Person|bratT21=Person-property
+3	ворот	_	_	_	_	_	_	_	bratT17=Person|bratT21=Person-property
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT17=Person|bratT21=Person-property
+5	Даллас	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person|bratT21=Person-property
+6	Старз	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT17=Person|bratT21=Person-property
+7	''	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person|bratT21=Person-property
+8	Антон	_	_	_	_	_	_	_	bratT17=Person
+9	Худобин	_	_	_	_	_	_	_	bratT17=Person
+10	также	_	_	_	_	_	_	_	_
+11	попал	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	десятку	_	_	_	_	_	_	_	bratT23=Quantity
+14	лучших	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Quantity
+15	,	_	_	_	_	_	_	_	_
+16	расположившись	_	_	_	_	_	_	_	_
+17	на	_	_	_	_	_	_	_	_
+18	последней	_	_	_	_	_	_	_	bratT22=Ordinal
+19	строчке	_	_	_	_	_	_	_	_
+20	рейтинга	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0025-p5
+# par_text = Ранее сообщалось, что вратарь «Далласа» Худобин полностью восстановился после травмы.
+# sent_id = 0025-p5-s1
+# text = Ранее сообщалось, что вратарь ``Далласа'' Худобин полностью восстановился после травмы.
+1	Ранее	_	_	_	_	_	_	_	_
+2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	вратарь	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Person
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT19=Organization|bratT20=Person
+7	Далласа	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT19=Organization|bratT20=Person
+8	''	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Organization|bratT20=Person
+9	Худобин	_	_	_	_	_	_	_	bratT20=Person
+10	полностью	_	_	_	_	_	_	_	_
+11	восстановился	_	_	_	_	_	_	_	_
+12	после	_	_	_	_	_	_	_	_
+13	травмы	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+

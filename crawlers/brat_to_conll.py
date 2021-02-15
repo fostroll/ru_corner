@@ -28,5 +28,5 @@ for fn in glob.glob(BRAT_DIR + '/{}/{}/*.txt'.format(domain, source),
     out_dir = os.path.dirname(out_fn)
     if not os.path.isdir(out_dir):
         os.makedirs(out_dir)
-    #brat.brat_to_conllu(fn, save_to=out_fn, keep_tokens='smart')
-    brat.brat_to_conllu(fn, save_to=out_fn, keep_tokens=True)
+    brat.brat_to_conllu(fn, save_to=out_fn, keep_tokens='smart')
+    #brat.brat_to_conllu(fn, save_to=out_fn, keep_tokens=True)

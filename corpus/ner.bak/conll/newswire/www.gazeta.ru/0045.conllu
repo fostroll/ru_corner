@@ -1,0 +1,109 @@
+# newdoc id = 0045
+# newpar id = 0045-p1
+# par_text = Новая «Чудо-женщина» выйдет в российский прокат в январе
+# sent_id = 0045-p1-s1
+# text = Новая ``Чудо-женщина'' выйдет в российский прокат в январе
+1	Новая	_	_	_	_	_	_	_	_
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Work-of-art
+3	Чудо-женщина	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Work-of-art
+4	''	_	_	_	_	_	_	_	bratT1=Work-of-art
+5	выйдет	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	российский	_	_	_	_	_	_	_	_
+8	прокат	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	bratT2=Date-absolute
+10	январе	_	_	_	_	_	_	_	bratT2=Date-absolute
+
+# newpar id = 0045-p2
+# par_text = Сиквел фильма «Чудо-женщина» выйдет в российских кинотеатрах 14 января 2021 года, сообщает «Бюллетень кинопрокатчика».
+# sent_id = 0045-p2-s1
+# text = Сиквел фильма ``Чудо-женщина'' выйдет в российских кинотеатрах 14 января 2021 года, сообщает ``Бюллетень кинопрокатчика''.
+1	Сиквел	_	_	_	_	_	_	_	bratT3=Work-of-art
+2	фильма	_	_	_	_	_	_	_	bratT14=Work-of-art|bratT3=Work-of-art
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Work-of-art|bratT3=Work-of-art
+4	Чудо-женщина	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Work-of-art|bratT3=Work-of-art
+5	''	_	_	_	_	_	_	_	bratT14=Work-of-art|bratT3=Work-of-art
+6	выйдет	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	российских	_	_	_	_	_	_	_	_
+9	кинотеатрах	_	_	_	_	_	_	_	_
+10	14	_	_	_	_	_	_	_	bratT4=Date-absolute
+11	января	_	_	_	_	_	_	_	bratT4=Date-absolute
+12	2021	_	_	_	_	_	_	_	bratT4=Date-absolute
+13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Date-absolute
+14	,	_	_	_	_	_	_	_	_
+15	сообщает	_	_	_	_	_	_	_	_
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
+17	Бюллетень	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
+18	кинопрокатчика	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
+19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0045-p3
+# par_text = У «Чудо-женщины: 1984» будет превью в кинотеатрах IMAX с 7 января.
+# sent_id = 0045-p3-s1
+# text = У ``Чудо-женщины: 1984'' будет превью в кинотеатрах IMAX с 7 января.
+1	У	_	_	_	_	_	_	_	_
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
+3	Чудо-женщины	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
+4	:	_	_	_	_	_	_	_	bratT6=Work-of-art
+5	1984	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
+6	''	_	_	_	_	_	_	_	bratT6=Work-of-art
+7	будет	_	_	_	_	_	_	_	_
+8	превью	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	кинотеатрах	_	_	_	_	_	_	_	bratT7=Service
+11	IMAX	_	_	_	_	_	_	_	bratT7=Service
+12	с	_	_	_	_	_	_	_	bratT8=Date-period
+13	7	_	_	_	_	_	_	_	bratT8=Date-period
+14	января	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-period
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0045-p4
+# par_text = В американских кинотеатрах и на стриминговом сервисе HBO Max премьера состоится 25 декабря 2020 года, а в странах, где нет сервиса — 16 декабря.
+# sent_id = 0045-p4-s1
+# text = В американских кинотеатрах и на стриминговом сервисе HBO Max премьера состоится 25 декабря 2020 года, а в странах, где нет сервиса - 16 декабря.
+1	В	_	_	_	_	_	_	_	_
+2	американских	_	_	_	_	_	_	_	_
+3	кинотеатрах	_	_	_	_	_	_	_	_
+4	и	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	стриминговом	_	_	_	_	_	_	_	bratT9=Service
+7	сервисе	_	_	_	_	_	_	_	bratT9=Service
+8	HBO	_	_	_	_	_	_	_	bratT9=Service
+9	Max	_	_	_	_	_	_	_	bratT9=Service
+10	премьера	_	_	_	_	_	_	_	_
+11	состоится	_	_	_	_	_	_	_	_
+12	25	_	_	_	_	_	_	_	bratT10=Date-absolute
+13	декабря	_	_	_	_	_	_	_	bratT10=Date-absolute
+14	2020	_	_	_	_	_	_	_	bratT10=Date-absolute
+15	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-absolute
+16	,	_	_	_	_	_	_	_	_
+17	а	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	странах	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	где	_	_	_	_	_	_	_	_
+22	нет	_	_	_	_	_	_	_	_
+23	сервиса	_	_	_	_	_	_	_	_
+24	-	_	_	_	_	_	_	_	_
+25	16	_	_	_	_	_	_	_	bratT11=Date-absolute
+26	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0045-p5
+# par_text = Причины переноса супергеройского боевика студия Warner Bros. пока не называет.
+# sent_id = 0045-p5-s1
+# text = Причины переноса супергеройского боевика студия Warner Bros. пока не называет.
+1	Причины	_	_	_	_	_	_	_	_
+2	переноса	_	_	_	_	_	_	_	_
+3	супергеройского	_	_	_	_	_	_	_	_
+4	боевика	_	_	_	_	_	_	_	_
+5	студия	_	_	_	_	_	_	_	bratT12=Organization
+6	Warner	_	_	_	_	_	_	_	bratT12=Organization
+7	Bros.	_	_	_	_	_	_	_	bratT12=Organization
+8	пока	_	_	_	_	_	_	_	_
+9	не	_	_	_	_	_	_	_	_
+10	называет	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
