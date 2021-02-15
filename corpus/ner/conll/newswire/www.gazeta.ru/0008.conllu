@@ -24,10 +24,10 @@
 7	''	_	_	_	_	_	_	_	bratA2=T5:Media|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property
 8	были	_	_	_	_	_	_	_	_
 9	задержаны	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	_
-11	ходе	_	_	_	_	_	_	_	_
-12	акции	_	_	_	_	_	_	_	bratT32=Event
-13	протеста	_	_	_	_	_	_	_	bratT32=Event
+10	в	_	_	_	_	_	_	_	bratT34=Date-period
+11	ходе	_	_	_	_	_	_	_	bratT34=Date-period
+12	акции	_	_	_	_	_	_	_	bratT32=Event|bratT34=Date-period
+13	протеста	_	_	_	_	_	_	_	bratT32=Event|bratT34=Date-period
 14	в	_	_	_	_	_	_	_	_
 15	Минске	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
 16	.	_	_	_	_	_	_	_	_
