@@ -97,9 +97,9 @@
 6	станция	_	_	_	_	_	_	_	bratT20=Facility
 7	получила	_	_	_	_	_	_	_	_
 8	название	_	_	_	_	_	_	_	_
-9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Unconscious|bratT9=Person
-10	Тяньгун	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Unconscious|bratT9=Person
-11	''	_	_	_	_	_	_	_	bratA4=T9:Unconscious|bratT9=Person
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Unconscious|bratT9=Person
+10	Тяньгун	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Unconscious|bratT9=Person
+11	''	_	_	_	_	_	_	_	bratA3=T9:Unconscious|bratT9=Person
 12	(	_	_	_	_	_	_	_	SpaceAfter=No
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	Небесный	_	_	_	_	_	_	_	_
@@ -116,10 +116,10 @@
 25	космонавта	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Quantity
 26	,	_	_	_	_	_	_	_	_
 27	а	_	_	_	_	_	_	_	_
-28	во	_	_	_	_	_	_	_	_
-29	время	_	_	_	_	_	_	_	_
-30	смены	_	_	_	_	_	_	_	_
-31	экипажа	_	_	_	_	_	_	_	_
+28	во	_	_	_	_	_	_	_	bratT24=Date-period
+29	время	_	_	_	_	_	_	_	bratT24=Date-period
+30	смены	_	_	_	_	_	_	_	bratT24=Date-period
+31	экипажа	_	_	_	_	_	_	_	bratT24=Date-period
 32	-	_	_	_	_	_	_	_	_
 33	шесть	_	_	_	_	_	_	_	bratT11=Quantity
 34	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity

@@ -1,0 +1,234 @@
+# newdoc id = 0105
+# newpar id = 0105-p1
+# par_text = «Наполи» не смогли вылететь на игру «Болоньей»
+# sent_id = 0105-p1-s1
+# text = ``Наполи'' не смогли вылететь на игру ``Болоньей''
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+2	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+3	''	_	_	_	_	_	_	_	bratT1=Organization
+4	не	_	_	_	_	_	_	_	_
+5	смогли	_	_	_	_	_	_	_	_
+6	вылететь	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	_
+8	игру	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+10	Болоньей	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+11	''	_	_	_	_	_	_	_	bratT2=Organization
+
+# newpar id = 0105-p2
+# par_text = Футболисты и тренерский штаб «Наполи» не сумели отправиться на выездную игру седьмого тура Серии А чемпионата Италии с «Болоньей» из-за поломки самолёта.
+# sent_id = 0105-p2-s1
+# text = Футболисты и тренерский штаб ``Наполи'' не сумели отправиться на выездную игру седьмого тура Серии А чемпионата Италии с ``Болоньей'' из-за поломки самолёта.
+1	Футболисты	_	_	_	_	_	_	_	bratT3=Person-property
+2	и	_	_	_	_	_	_	_	_
+3	тренерский	_	_	_	_	_	_	_	_
+4	штаб	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
+6	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
+7	''	_	_	_	_	_	_	_	bratT4=Organization
+8	не	_	_	_	_	_	_	_	_
+9	сумели	_	_	_	_	_	_	_	_
+10	отправиться	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	выездную	_	_	_	_	_	_	_	bratT5=Event
+13	игру	_	_	_	_	_	_	_	bratT5=Event
+14	седьмого	_	_	_	_	_	_	_	bratT28=Ordinal|bratT5=Event|bratT6=Event
+15	тура	_	_	_	_	_	_	_	bratT5=Event|bratT6=Event
+16	Серии	_	_	_	_	_	_	_	bratT45=Event|bratT5=Event|bratT6=Event
+17	А	_	_	_	_	_	_	_	bratT45=Event|bratT5=Event|bratT6=Event
+18	чемпионата	_	_	_	_	_	_	_	bratT45=Event|bratT5=Event|bratT6=Event|bratT7=Event
+19	Италии	_	_	_	_	_	_	_	bratT45=Event|bratT5=Event|bratT6=Event|bratT7=Event|bratT8=GPE
+20	с	_	_	_	_	_	_	_	bratT5=Event
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Event|bratT9=Organization
+22	Болоньей	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Event|bratT9=Organization
+23	''	_	_	_	_	_	_	_	bratT5=Event|bratT9=Organization
+24	из-за	_	_	_	_	_	_	_	_
+25	поломки	_	_	_	_	_	_	_	_
+26	самолёта	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0105-p3
+# par_text = Как сообщает портал Football-Italia, команда Дженнаро Гаттузо должна была вылететь из Неаполя вечером в субботу, 7 ноября, но по прибытии в аэропорт выяснилось, что у самолета, на котором футболисты должны были лететь, возникли неполадки. В итоге в футбольный клуб принял решение перенести вылет на утро воскресенья, 8 ноября
+# sent_id = 0105-p3-s1
+# text = Как сообщает портал Football-Italia, команда Дженнаро Гаттузо должна была вылететь из Неаполя вечером в субботу, 7 ноября, но по прибытии в аэропорт выяснилось, что у самолета, на котором футболисты должны были лететь, возникли неполадки.
+1	Как	_	_	_	_	_	_	_	_
+2	сообщает	_	_	_	_	_	_	_	_
+3	портал	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Service
+4	Football-Italia	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Service
+5	,	_	_	_	_	_	_	_	_
+6	команда	_	_	_	_	_	_	_	_
+7	Дженнаро	_	_	_	_	_	_	_	bratT11=Person
+8	Гаттузо	_	_	_	_	_	_	_	bratT11=Person
+9	должна	_	_	_	_	_	_	_	_
+10	была	_	_	_	_	_	_	_	_
+11	вылететь	_	_	_	_	_	_	_	_
+12	из	_	_	_	_	_	_	_	_
+13	Неаполя	_	_	_	_	_	_	_	bratT12=GPE
+14	вечером	_	_	_	_	_	_	_	bratT40=Time-period
+15	в	_	_	_	_	_	_	_	bratT13=Date-absolute
+16	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Date-absolute
+17	,	_	_	_	_	_	_	_	bratT13=Date-absolute
+18	7	_	_	_	_	_	_	_	bratT13=Date-absolute
+19	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Date-absolute
+20	,	_	_	_	_	_	_	_	_
+21	но	_	_	_	_	_	_	_	_
+22	по	_	_	_	_	_	_	_	_
+23	прибытии	_	_	_	_	_	_	_	_
+24	в	_	_	_	_	_	_	_	_
+25	аэропорт	_	_	_	_	_	_	_	_
+26	выяснилось	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	что	_	_	_	_	_	_	_	_
+29	у	_	_	_	_	_	_	_	_
+30	самолета	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	_	_	_	_	_	_	_	_
+32	на	_	_	_	_	_	_	_	_
+33	котором	_	_	_	_	_	_	_	_
+34	футболисты	_	_	_	_	_	_	_	bratT14=Person-property
+35	должны	_	_	_	_	_	_	_	_
+36	были	_	_	_	_	_	_	_	_
+37	лететь	_	_	_	_	_	_	_	SpaceAfter=No
+38	,	_	_	_	_	_	_	_	_
+39	возникли	_	_	_	_	_	_	_	_
+40	неполадки	_	_	_	_	_	_	_	SpaceAfter=No
+41	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0105-p3-s2
+# text = В итоге в футбольный клуб принял решение перенести вылет на утро воскресенья, 8 ноября
+1	В	_	_	_	_	_	_	_	_
+2	итоге	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	футбольный	_	_	_	_	_	_	_	_
+5	клуб	_	_	_	_	_	_	_	_
+6	принял	_	_	_	_	_	_	_	_
+7	решение	_	_	_	_	_	_	_	_
+8	перенести	_	_	_	_	_	_	_	_
+9	вылет	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	утро	_	_	_	_	_	_	_	bratT39=Time-period
+12	воскресенья	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-absolute
+13	,	_	_	_	_	_	_	_	bratT15=Date-absolute
+14	8	_	_	_	_	_	_	_	bratT15=Date-absolute
+15	ноября	_	_	_	_	_	_	_	bratT15=Date-absolute
+
+# newpar id = 0105-p4
+# par_text = Сам матч должен пройти в воскресенье, 8 ноября, в 20:00 по московскому времени.
+# sent_id = 0105-p4-s1
+# text = Сам матч должен пройти в воскресенье, 8 ноября, в 20:00 по московскому времени.
+1	Сам	_	_	_	_	_	_	_	_
+2	матч	_	_	_	_	_	_	_	_
+3	должен	_	_	_	_	_	_	_	_
+4	пройти	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-absolute
+7	,	_	_	_	_	_	_	_	bratT16=Date-absolute
+8	8	_	_	_	_	_	_	_	bratT16=Date-absolute
+9	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-absolute
+10	,	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	20:00	_	_	_	_	_	_	_	bratT17=Time-absolute
+13	по	_	_	_	_	_	_	_	bratT17=Time-absolute
+14	московскому	_	_	_	_	_	_	_	bratT17=Time-absolute
+15	времени	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Time-absolute
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0105-p5
+# par_text = Напомним, накануне «ПСЖ» установил рекорд в чемпионате Франции, одержав пять побед кряду и забив при этом не менее трех мячей в каждом матче. В субботу, 7 ноября, парижская команда обыграла «Ренн» со счетом 3:0 в матче десятого тура Лиги 1 чемпионата Франции. В предыдущих четырех матчах «ПСЖ» победил «Нант» с таким же счетом (3:0), «Дижон» (4:0), «Анже» (6:1) и «Ним».
+# sent_id = 0105-p5-s1
+# text = Напомним, накануне ``ПСЖ'' установил рекорд в чемпионате Франции, одержав пять побед кряду и забив при этом не менее трех мячей в каждом матче.
+1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	накануне	_	_	_	_	_	_	_	bratT47=Date-relative
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+5	ПСЖ	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+6	''	_	_	_	_	_	_	_	bratT18=Organization
+7	установил	_	_	_	_	_	_	_	_
+8	рекорд	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	чемпионате	_	_	_	_	_	_	_	bratT19=Event
+11	Франции	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event|bratT20=GPE
+12	,	_	_	_	_	_	_	_	_
+13	одержав	_	_	_	_	_	_	_	_
+14	пять	_	_	_	_	_	_	_	bratT21=Quantity
+15	побед	_	_	_	_	_	_	_	bratT21=Quantity
+16	кряду	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	забив	_	_	_	_	_	_	_	_
+19	при	_	_	_	_	_	_	_	_
+20	этом	_	_	_	_	_	_	_	_
+21	не	_	_	_	_	_	_	_	bratT22=Quantity
+22	менее	_	_	_	_	_	_	_	bratT22=Quantity
+23	трех	_	_	_	_	_	_	_	bratT22=Quantity
+24	мячей	_	_	_	_	_	_	_	bratT22=Quantity
+25	в	_	_	_	_	_	_	_	_
+26	каждом	_	_	_	_	_	_	_	_
+27	матче	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0105-p5-s2
+# text = В субботу, 7 ноября, парижская команда обыграла ``Ренн'' со счетом 3:0 в матче десятого тура Лиги 1 чемпионата Франции.
+1	В	_	_	_	_	_	_	_	bratT23=Date-absolute
+2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-absolute
+3	,	_	_	_	_	_	_	_	bratT23=Date-absolute
+4	7	_	_	_	_	_	_	_	bratT23=Date-absolute
+5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-absolute
+6	,	_	_	_	_	_	_	_	_
+7	парижская	_	_	_	_	_	_	_	_
+8	команда	_	_	_	_	_	_	_	_
+9	обыграла	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+11	Ренн	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+12	''	_	_	_	_	_	_	_	bratT24=Organization
+13	со	_	_	_	_	_	_	_	_
+14	счетом	_	_	_	_	_	_	_	_
+15	3:0	_	_	_	_	_	_	_	bratT25=Cardinal
+16	в	_	_	_	_	_	_	_	_
+17	матче	_	_	_	_	_	_	_	bratT26=Event
+18	десятого	_	_	_	_	_	_	_	bratT26=Event|bratT29=Ordinal|bratT46=Event
+19	тура	_	_	_	_	_	_	_	bratT26=Event|bratT46=Event
+20	Лиги	_	_	_	_	_	_	_	bratT26=Event|bratT44=Event|bratT46=Event
+21	1	_	_	_	_	_	_	_	bratT26=Event|bratT44=Event|bratT46=Event
+22	чемпионата	_	_	_	_	_	_	_	bratT26=Event|bratT41=Event|bratT44=Event|bratT46=Event
+23	Франции	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Event|bratT27=GPE|bratT41=Event|bratT44=Event|bratT46=Event
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0105-p5-s3
+# text = В предыдущих четырех матчах ``ПСЖ'' победил ``Нант'' с таким же счетом (3:0), ``Дижон'' (4:0), ``Анже'' (6:1) и ``Ним''.
+1	В	_	_	_	_	_	_	_	_
+2	предыдущих	_	_	_	_	_	_	_	bratT42=Ordinal
+3	четырех	_	_	_	_	_	_	_	bratT30=Quantity
+4	матчах	_	_	_	_	_	_	_	bratT30=Quantity
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+6	ПСЖ	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+7	''	_	_	_	_	_	_	_	bratT31=Organization
+8	победил	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+10	Нант	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+11	''	_	_	_	_	_	_	_	bratT32=Organization
+12	с	_	_	_	_	_	_	_	_
+13	таким	_	_	_	_	_	_	_	_
+14	же	_	_	_	_	_	_	_	_
+15	счетом	_	_	_	_	_	_	_	_
+16	(	_	_	_	_	_	_	_	SpaceAfter=No
+17	3:0	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Cardinal
+18	)	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+21	Дижон	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+22	''	_	_	_	_	_	_	_	bratT34=Organization
+23	(	_	_	_	_	_	_	_	SpaceAfter=No
+24	4:0	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Cardinal
+25	)	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+28	Анже	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+29	''	_	_	_	_	_	_	_	bratT36=Organization
+30	(	_	_	_	_	_	_	_	SpaceAfter=No
+31	6:1	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Cardinal
+32	)	_	_	_	_	_	_	_	_
+33	и	_	_	_	_	_	_	_	_
+34	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+35	Ним	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+36	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+37	.	_	_	_	_	_	_	_	_
+

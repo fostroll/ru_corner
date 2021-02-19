@@ -23,12 +23,12 @@
 2	Россия	_	_	_	_	_	_	_	bratT7=Organization|bratT8=GPE
 3	уступает	_	_	_	_	_	_	_	_
 4	Сербии	_	_	_	_	_	_	_	bratT9=GPE
-5	после	_	_	_	_	_	_	_	_
-6	первого	_	_	_	_	_	_	_	bratT10=Ordinal
-7	тайма	_	_	_	_	_	_	_	_
-8	матча	_	_	_	_	_	_	_	bratT11=Event
-9	Лиги	_	_	_	_	_	_	_	bratT11=Event|bratT12=Event
-10	наций	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Event|bratT12=Event
+5	после	_	_	_	_	_	_	_	bratT16=Date-period
+6	первого	_	_	_	_	_	_	_	bratT10=Ordinal|bratT16=Date-period|bratT24=Event
+7	тайма	_	_	_	_	_	_	_	bratT16=Date-period|bratT24=Event
+8	матча	_	_	_	_	_	_	_	bratT11=Event|bratT24=Event
+9	Лиги	_	_	_	_	_	_	_	bratT11=Event|bratT12=Event|bratT24=Event
+10	наций	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Event|bratT12=Event|bratT24=Event
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0025-p3
@@ -77,7 +77,7 @@
 
 # sent_id = 0025-p4-s3
 # text = Ранее стали известны стартовые составы на матч Лиги наций Сербия - Россия.
-1	Ранее	_	_	_	_	_	_	_	_
+1	Ранее	_	_	_	_	_	_	_	bratT5=Date-relative
 2	стали	_	_	_	_	_	_	_	_
 3	известны	_	_	_	_	_	_	_	_
 4	стартовые	_	_	_	_	_	_	_	_

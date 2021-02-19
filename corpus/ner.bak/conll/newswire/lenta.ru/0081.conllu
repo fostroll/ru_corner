@@ -83,20 +83,20 @@
 13	России	_	_	_	_	_	_	_	bratT13=Law|bratT3=GPE
 14	-	_	_	_	_	_	_	_	_
 15	105	_	_	_	_	_	_	_	bratT14=Law
-16	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Law
-17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Law
-18	Убийство	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Law
-19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Law
-20	)	_	_	_	_	_	_	_	bratT14=Law
+16	(	_	_	_	_	_	_	_	SpaceAfter=No
+17	``	_	_	_	_	_	_	_	SpaceAfter=No
+18	Убийство	_	_	_	_	_	_	_	SpaceAfter=No
+19	''	_	_	_	_	_	_	_	SpaceAfter=No
+20	)	_	_	_	_	_	_	_	_
 21	и	_	_	_	_	_	_	_	_
 22	108	_	_	_	_	_	_	_	bratT15=Law
-23	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Law
-24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Law
-25	Превышение	_	_	_	_	_	_	_	bratT15=Law
-26	необходимой	_	_	_	_	_	_	_	bratT15=Law
-27	обороны	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Law
-28	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Law
-29	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Law
+23	(	_	_	_	_	_	_	_	SpaceAfter=No
+24	``	_	_	_	_	_	_	_	SpaceAfter=No
+25	Превышение	_	_	_	_	_	_	_	_
+26	необходимой	_	_	_	_	_	_	_	_
+27	обороны	_	_	_	_	_	_	_	SpaceAfter=No
+28	''	_	_	_	_	_	_	_	SpaceAfter=No
+29	)	_	_	_	_	_	_	_	SpaceAfter=No
 30	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p3-s2
@@ -108,13 +108,13 @@
 5	на	_	_	_	_	_	_	_	_
 6	статью	_	_	_	_	_	_	_	bratT16=Law
 7	109	_	_	_	_	_	_	_	bratT16=Law
-8	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Law
-9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Law
-10	Убийство	_	_	_	_	_	_	_	bratT16=Law
-11	по	_	_	_	_	_	_	_	bratT16=Law
-12	неосторожности	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Law
-13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Law
-14	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Law
+8	(	_	_	_	_	_	_	_	SpaceAfter=No
+9	``	_	_	_	_	_	_	_	SpaceAfter=No
+10	Убийство	_	_	_	_	_	_	_	_
+11	по	_	_	_	_	_	_	_	_
+12	неосторожности	_	_	_	_	_	_	_	SpaceAfter=No
+13	''	_	_	_	_	_	_	_	SpaceAfter=No
+14	)	_	_	_	_	_	_	_	SpaceAfter=No
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p3-s3
@@ -202,7 +202,7 @@
 # par_text = Вечером 7 марта рядом с квартирой судьи Саяпина было обнаружено тело подростка с огнестрельным ранением. Выяснилось, что погибший и его сверстники вместе смотрели в квартире хоккей и около 21:00 сын судьи, достав отцовское ружье, застрелил одного из друзей. Затем подозреваемый, по словам свидетеля, вынес тело на лестницу и сбежал. Мать погибшего подростка назвала произошедшее трагической случайностью.
 # sent_id = 0081-p5-s1
 # text = Вечером 7 марта рядом с квартирой судьи Саяпина было обнаружено тело подростка с огнестрельным ранением.
-1	Вечером	_	_	_	_	_	_	_	_
+1	Вечером	_	_	_	_	_	_	_	bratT38=Time-period
 2	7	_	_	_	_	_	_	_	bratT22=Date-absolute
 3	марта	_	_	_	_	_	_	_	bratT22=Date-absolute
 4	рядом	_	_	_	_	_	_	_	_

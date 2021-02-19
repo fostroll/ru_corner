@@ -5,8 +5,8 @@
 # text = ABC: несколько человек пострадали при стрельбе в Висконсине
 1	ABC	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Media|bratT1=Organization
 2	:	_	_	_	_	_	_	_	_
-3	несколько	_	_	_	_	_	_	_	_
-4	человек	_	_	_	_	_	_	_	_
+3	несколько	_	_	_	_	_	_	_	bratT16=Quantity
+4	человек	_	_	_	_	_	_	_	bratT16=Quantity
 5	пострадали	_	_	_	_	_	_	_	_
 6	при	_	_	_	_	_	_	_	_
 7	стрельбе	_	_	_	_	_	_	_	_
@@ -28,8 +28,8 @@
 9	стрельба	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	пострадали	_	_	_	_	_	_	_	_
-12	несколько	_	_	_	_	_	_	_	_
-13	человек	_	_	_	_	_	_	_	SpaceAfter=No
+12	несколько	_	_	_	_	_	_	_	bratT15=Quantity
+13	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p3
@@ -84,7 +84,7 @@
 4	работают	_	_	_	_	_	_	_	_
 5	около	_	_	_	_	_	_	_	bratT8=Quantity
 6	75	_	_	_	_	_	_	_	bratT8=Quantity
-7	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Quantity
+7	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT8=Quantity
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p7

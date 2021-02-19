@@ -38,9 +38,9 @@
 # par_text = За минувшие сутки проведено 590 тыс. исследований.
 # sent_id = 0071-p3-s1
 # text = За минувшие сутки проведено 590 тыс. исследований.
-1	За	_	_	_	_	_	_	_	bratT9=Date-duration
-2	минувшие	_	_	_	_	_	_	_	bratT9=Date-duration
-3	сутки	_	_	_	_	_	_	_	bratT9=Date-duration
+1	За	_	_	_	_	_	_	_	bratT9=Time-period
+2	минувшие	_	_	_	_	_	_	_	bratT9=Time-period
+3	сутки	_	_	_	_	_	_	_	bratT9=Time-period
 4	проведено	_	_	_	_	_	_	_	_
 5	590	_	_	_	_	_	_	_	bratT10=Quantity
 6	тыс.	_	_	_	_	_	_	_	bratT10=Quantity
@@ -62,9 +62,9 @@
 9	подозрения	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	COVID-19	_	_	_	_	_	_	_	bratT11=Other-term
-12	на	_	_	_	_	_	_	_	_
-13	сегодняшний	_	_	_	_	_	_	_	_
-14	день	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	bratT20=Date-relative
+13	сегодняшний	_	_	_	_	_	_	_	bratT20=Date-relative
+14	день	_	_	_	_	_	_	_	bratT20=Date-relative
 15	остаются	_	_	_	_	_	_	_	_
 16	478	_	_	_	_	_	_	_	bratT12=Quantity
 17	806	_	_	_	_	_	_	_	bratT12=Quantity

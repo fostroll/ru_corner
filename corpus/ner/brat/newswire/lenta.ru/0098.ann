@@ -5,7 +5,7 @@ T4	Person 272 295	врач   Нил   Эльаттрахе
 T5	Organization 243 257	Yahoo   Sports
 T6	Person-property 272 276	врач
 T7	Person-property 315 322	доктора
-T8	Date-relative 365 389	за   шесть   недель   до
+T8	Date-relative 365 395	за   шесть   недель   до   боя
 T9	Person 416 425	Ломаченко
 T10	Person 743 762	Василия   Ломаченко
 T11	Person 774 790	Теофима   Лопеса
@@ -38,7 +38,7 @@ T40	Date-absolute 1518 1522	2008
 T41	Date-absolute 1529 1533	2012
 T42	Date-absolute 1568 1572	2009
 T43	Date-absolute 1579 1583	2011
-T44	Quantity 1592 1601	23-летний
+T44	Age 1592 1601	23-летний
 T46	Event 732 790	Поединок   Василия   Ломаченко   против   Теофима   Лопеса
 T33	Quantity 1315 1325	14   побед
 T34	Quantity 1347 1360	10   нокаутом
@@ -56,3 +56,7 @@ A6	Plural T39
 T26	Event 160 163	бой
 T28	Event 66 101	боем   за   титул   чемпиона   мира
 A7	Media T5
+T30	Date-period 44 49	перед
+T47	Date-period 506 522	После   поединка
+T54	GPE 97 101	мира
+T55	GPE 1557 1561	мира

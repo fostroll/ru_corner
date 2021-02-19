@@ -27,6 +27,7 @@ COOKIES = {
     'statsactivity': '5',
     'statstimer': '4'
 }
+MAX_LINKS = utils.TEXTS_FOR_SOURCE * 2
 SILENT = False
 
 if SEED:
@@ -41,7 +42,7 @@ if os.path.isfile(utils.LINKS_FN):
 else:
     links = []
 
-if len(links) < utils.TEXTS_FOR_SOURCE:
+if len(links) < MAX_LINKS:
 #if len(links) < 1:
     links = OrderedDict({x: 1 for x in links})
     if os.path.isfile(_utils.AUTHORS_IGNORE_FN):
@@ -49,7 +50,6 @@ if len(links) < utils.TEXTS_FOR_SOURCE:
             authors_ignore = set(x for x in f.read().split('\n') if x)
     else:
         authors_ignore = set()
-    MAX_LINKS = utils.TEXTS_FOR_SOURCE * 2
     offset = 0
     while True:
         url = INIT_URL.format(offset, 1, time.time_ns() // 1000000)

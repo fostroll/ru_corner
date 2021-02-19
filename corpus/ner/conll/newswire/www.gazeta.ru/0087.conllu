@@ -59,8 +59,8 @@
 6	в	_	_	_	_	_	_	_	_
 7	главном	_	_	_	_	_	_	_	bratT11=Organization
 8	управлении	_	_	_	_	_	_	_	bratT11=Organization
-9	полиции	_	_	_	_	_	_	_	bratT11=Organization
-10	Джакарты	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT12=GPE
+9	полиции	_	_	_	_	_	_	_	bratT11=Organization|bratT26=Organization
+10	Джакарты	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT12=GPE|bratT26=Organization
 11	,	_	_	_	_	_	_	_	_
 12	где	_	_	_	_	_	_	_	_
 13	он	_	_	_	_	_	_	_	_
@@ -153,7 +153,7 @@
 # par_text = Ранее в 2014 году Орешников запросил политическое убежище на Украине, а затем получил гражданство страны.
 # sent_id = 0087-p6-s1
 # text = Ранее в 2014 году Орешников запросил политическое убежище на Украине, а затем получил гражданство страны.
-1	Ранее	_	_	_	_	_	_	_	_
+1	Ранее	_	_	_	_	_	_	_	bratT20=Date-absolute
 2	в	_	_	_	_	_	_	_	bratT20=Date-absolute
 3	2014	_	_	_	_	_	_	_	bratT20=Date-absolute
 4	году	_	_	_	_	_	_	_	bratT20=Date-absolute
@@ -165,7 +165,7 @@
 10	Украине	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=GPE
 11	,	_	_	_	_	_	_	_	_
 12	а	_	_	_	_	_	_	_	_
-13	затем	_	_	_	_	_	_	_	_
+13	затем	_	_	_	_	_	_	_	bratT27=Date-relative
 14	получил	_	_	_	_	_	_	_	_
 15	гражданство	_	_	_	_	_	_	_	_
 16	страны	_	_	_	_	_	_	_	SpaceAfter=No
