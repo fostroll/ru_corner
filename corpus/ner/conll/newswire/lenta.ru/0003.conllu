@@ -89,8 +89,8 @@
 35	оружия	_	_	_	_	_	_	_	SpaceAfter=No
 36	''	_	_	_	_	_	_	_	SpaceAfter=No
 37	)	_	_	_	_	_	_	_	_
-38	УК	_	_	_	_	_	_	_	bratA1=T10:Plural|bratT10=Law
-39	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Plural|bratT10=Law
+38	УК	_	_	_	_	_	_	_	bratT10=Law
+39	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Law
 40	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0003-p3-s2
@@ -99,9 +99,9 @@
 2	словам	_	_	_	_	_	_	_	_
 3	юриста	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property
 4	,	_	_	_	_	_	_	_	_
-5	после	_	_	_	_	_	_	_	bratT43=Date-period
-6	предъявленных	_	_	_	_	_	_	_	bratT43=Date-period
-7	обвинений	_	_	_	_	_	_	_	bratT43=Date-period
+5	после	_	_	_	_	_	_	_	bratA4=T43:Past|bratT43=Date-relative
+6	предъявленных	_	_	_	_	_	_	_	bratA4=T43:Past|bratT43=Date-relative
+7	обвинений	_	_	_	_	_	_	_	bratA4=T43:Past|bratT43=Date-relative
 8	Макаров	_	_	_	_	_	_	_	bratT12=Person
 9	отказался	_	_	_	_	_	_	_	_
 10	давать	_	_	_	_	_	_	_	_
@@ -129,29 +129,29 @@
 # par_text = 11 ноября суд арестовал Макарова на два месяца, до 8 января 2021 года.
 # sent_id = 0003-p5-s1
 # text = 11 ноября суд арестовал Макарова на два месяца, до 8 января 2021 года.
-1	11	_	_	_	_	_	_	_	bratT14=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT14=Date-absolute
+1	11	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute
 3	суд	_	_	_	_	_	_	_	_
 4	арестовал	_	_	_	_	_	_	_	_
 5	Макарова	_	_	_	_	_	_	_	bratT15=Person
-6	на	_	_	_	_	_	_	_	bratT32=Date-duration
-7	два	_	_	_	_	_	_	_	bratT32=Date-duration
-8	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Date-duration
-9	,	_	_	_	_	_	_	_	_
-10	до	_	_	_	_	_	_	_	bratT16=Date-period
-11	8	_	_	_	_	_	_	_	bratT16=Date-period
-12	января	_	_	_	_	_	_	_	bratT16=Date-period
-13	2021	_	_	_	_	_	_	_	bratT16=Date-period
-14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-period
+6	на	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period
+7	два	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period|bratT32=Duration
+8	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period|bratT32=Duration
+9	,	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period
+10	до	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period
+11	8	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period|bratT51=Date-absolute
+12	января	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period|bratT51=Date-absolute
+13	2021	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period|bratT51=Date-absolute
+14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period|bratT51=Date-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0003-p6
 # par_text = Утром 9 ноября 20-летний Антон Макаров, находясь в наряде на военном аэродроме Балтимор в Воронежской области, впал в ярость после замечания дежурного по полку 38-летнего майора Сергея Ермолаева. Макаров снял с пожарного щита топор, подкараулил офицера и ударил его по голове, затем забрал у него табельный пистолет с патронами и начал стрелять.
 # sent_id = 0003-p6-s1
 # text = Утром 9 ноября 20-летний Антон Макаров, находясь в наряде на военном аэродроме Балтимор в Воронежской области, впал в ярость после замечания дежурного по полку 38-летнего майора Сергея Ермолаева.
-1	Утром	_	_	_	_	_	_	_	bratT39=Time-period
-2	9	_	_	_	_	_	_	_	bratT17=Date-absolute
-3	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+1	Утром	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute|bratT39=Time-absolute
+2	9	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
+3	ноября	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
 4	20-летний	_	_	_	_	_	_	_	bratT18=Age|bratT19=Person
 5	Антон	_	_	_	_	_	_	_	bratT19=Person
 6	Макаров	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
@@ -170,8 +170,8 @@
 19	впал	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
 21	ярость	_	_	_	_	_	_	_	_
-22	после	_	_	_	_	_	_	_	bratT44=Date-period
-23	замечания	_	_	_	_	_	_	_	bratT44=Date-period
+22	после	_	_	_	_	_	_	_	bratA5=T44:Past|bratT44=Date-relative
+23	замечания	_	_	_	_	_	_	_	bratA5=T44:Past|bratT44=Date-relative
 24	дежурного	_	_	_	_	_	_	_	bratT24=Person|bratT33=Person-property
 25	по	_	_	_	_	_	_	_	bratT24=Person|bratT33=Person-property
 26	полку	_	_	_	_	_	_	_	bratT24=Person|bratT33=Person-property
@@ -198,7 +198,7 @@
 13	по	_	_	_	_	_	_	_	_
 14	голове	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
-16	затем	_	_	_	_	_	_	_	bratT45=Date-relative
+16	затем	_	_	_	_	_	_	_	bratT45=Time-relative
 17	забрал	_	_	_	_	_	_	_	_
 18	у	_	_	_	_	_	_	_	_
 19	него	_	_	_	_	_	_	_	_
@@ -223,8 +223,8 @@
 6	ранил	_	_	_	_	_	_	_	_
 7	одного	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Quantity
 8	,	_	_	_	_	_	_	_	_
-9	после	_	_	_	_	_	_	_	bratT46=Date-period
-10	чего	_	_	_	_	_	_	_	bratT46=Date-period
+9	после	_	_	_	_	_	_	_	bratT46=Time-relative
+10	чего	_	_	_	_	_	_	_	bratT46=Time-relative
 11	сбежал	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
 13	пистолетом	_	_	_	_	_	_	_	SpaceAfter=No
@@ -246,9 +246,9 @@
 12	которые	_	_	_	_	_	_	_	_
 13	воспитывали	_	_	_	_	_	_	_	_
 14	его	_	_	_	_	_	_	_	_
-15	после	_	_	_	_	_	_	_	bratT47=Date-period
-16	развода	_	_	_	_	_	_	_	bratT47=Date-period
-17	родителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Family
+15	после	_	_	_	_	_	_	_	bratA1=T47:Past|bratT47=Date-period
+16	развода	_	_	_	_	_	_	_	bratA1=T47:Past|bratT47=Date-period|bratT52=Event
+17	родителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Family|bratT52=Event
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0003-p7-s3

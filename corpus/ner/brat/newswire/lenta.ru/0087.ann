@@ -3,7 +3,7 @@ T2	Other-term 56 69	коронавирусом
 T3	Organization 85 126	Всемирная   организация   здравоохранения
 T4	Organization 133 136	ВОЗ
 T5	Other-term 193 206	коронавирусом
-T6	Date-duration 270 286	за   семь   дней
+T6	Date-period 270 286	за   семь   дней
 T7	Quantity 299 318	на   3,6   миллиона
 T8	Date-absolute 335 362	в   среду   ,   11   ноября
 T9	Organization 380 384	ТАСС
@@ -14,7 +14,7 @@ T12	Date-period 572 595	За   последнюю   неделю
 T13	Other-term 624 632	COVID-19
 T14	Percent 645 663	на   8   процентов
 T15	Quantity 725 747	более   3,6   миллиона
-T16	Date-duration 790 806	за   семь   дней
+T16	Date-period 790 806	за   семь   дней
 T17	GPE 841 861	Европейский   регион
 T18	Percent 905 931	более   чем   о   половине
 T19	Percent 956 969	54   процента
@@ -35,7 +35,7 @@ T33	Quantity 1603 1617	51   395   233
 T34	Event 1635 1643	пандемии
 T35	Quantity 1646 1669	1   270   706   человек
 T36	Quantity 1691 1714	более   33,4   миллиона
-T37	Date-duration 72 83	за   неделю
+T37	Duration 77 83	неделю
 T38	Date-period 209 231	за   минувшую   неделю
 T39	Date-relative 545 561	неделей   раньше
 T40	Ordinal 687 697	предыдущей
@@ -46,3 +46,22 @@ T44	Ordinal 577 586	последнюю
 T45	Ordinal 1491 1500	последним
 T46	GPE 263 267	мире
 T47	GPE 1585 1589	мире
+A2	Present T8
+A3	Past T22
+T53	Duration 275 286	семь   дней
+T54	Duration 795 806	семь   дней
+T55	Date-period 72 83	за   неделю
+A4	Past T55
+A6	Past T6
+A9	Past T16
+A12	Past T42
+A10	Past T43
+A5	Past T39
+T51	Date-absolute 214 231	минувшую   неделю
+A11	Past T51
+T52	Ordinal 214 222	минувшую
+T48	Duration 545 552	неделей
+T49	Date-absolute 577 595	последнюю   неделю
+A13	Past T49
+T50	Date-relative 687 707	предыдущей   неделей
+A7	Past T50

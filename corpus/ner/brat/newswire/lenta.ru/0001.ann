@@ -9,15 +9,14 @@ T16	GPE 1423 1433	Белоруссии
 T17	Person 1386 1458	бывший   кандидат   в   президенты   Белоруссии   Светлана   Тихановская
 T18	Person 1758 1767	Лукашенко
 T19	GPE 1777 1787	Белоруссии
-T20	Date-period 1790 1804	третий   месяц
+T20	Duration 1790 1804	третий   месяц
 T21	Date-absolute 1902 1913	9   августа
 T22	Person 1980 2001	Александр   Лукашенко
 T23	Percent 2013 2027	80   процентов
 T26	Other-group 890 908	лидеры   инициатив
 T28	Political-group 1347 1372	представитель   оппозиции
 T30	Other-group 2042 2053	Митингующих
-T11	Date-absolute 601 617	к   26   октября
-T13	Date-relative 817 838	на   прошлой   неделе
+T13	Date-absolute 817 838	на   прошлой   неделе
 T7	Organization 320 345	Координационного   совета
 T24	Organization 702 727	Координационного   совета
 T31	Event 1876 1899	президентских   выборов
@@ -34,5 +33,16 @@ T1	Organization 0 23	Белорусская   оппозиция
 T4	Organization 99 122	Белорусская   оппозиция
 A3	Media T9
 T25	Ordinal 1790 1796	третий
-T27	Date-relative 1378 1383	Ранее
+T27	Time-relative 1378 1383	Ранее
 T29	Date-period 1040 1046	отныне
+T32	Event 1818 1837	массовые   протесты
+T33	Ordinal 1964 1970	шестой
+A4	Future T5
+A7	Past T21
+T39	Date-absolute 601 617	к   26   октября
+T34	Date-period 1790 1804	третий   месяц
+A8	Future T29
+A9	Past T13
+A10	Future T39
+T11	Ordinal 822 829	прошлой
+A5	Present T34

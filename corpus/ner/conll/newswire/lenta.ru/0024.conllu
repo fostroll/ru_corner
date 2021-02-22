@@ -63,10 +63,10 @@
 
 # sent_id = 0024-p3-s2
 # text = Во время церемонии открытия на экране демонстрировались ролики с участием собак соответствующей породы.
-1	Во	_	_	_	_	_	_	_	bratT27=Date-period
-2	время	_	_	_	_	_	_	_	bratT27=Date-period
-3	церемонии	_	_	_	_	_	_	_	bratT12=Event|bratT27=Date-period
-4	открытия	_	_	_	_	_	_	_	bratT12=Event|bratT27=Date-period
+1	Во	_	_	_	_	_	_	_	bratA5=T27:Past|bratT27=Date-period
+2	время	_	_	_	_	_	_	_	bratA5=T27:Past|bratT27=Date-period
+3	церемонии	_	_	_	_	_	_	_	bratA5=T27:Past|bratT12=Event|bratT27=Date-period
+4	открытия	_	_	_	_	_	_	_	bratA5=T27:Past|bratT12=Event|bratT27=Date-period
 5	на	_	_	_	_	_	_	_	_
 6	экране	_	_	_	_	_	_	_	_
 7	демонстрировались	_	_	_	_	_	_	_	_
@@ -82,10 +82,10 @@
 # par_text = В мае 2019 года Бердымухамедов подарил щенка породы алабай премьер-министру России Дмитрию Медведеву.
 # sent_id = 0024-p4-s1
 # text = В мае 2019 года Бердымухамедов подарил щенка породы алабай премьер-министру России Дмитрию Медведеву.
-1	В	_	_	_	_	_	_	_	_
-2	мае	_	_	_	_	_	_	_	bratT17=Date-absolute
-3	2019	_	_	_	_	_	_	_	bratT17=Date-absolute
-4	года	_	_	_	_	_	_	_	bratT17=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
+2	мае	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
+3	2019	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
 5	Бердымухамедов	_	_	_	_	_	_	_	bratT13=Person
 6	подарил	_	_	_	_	_	_	_	_
 7	щенка	_	_	_	_	_	_	_	_
@@ -124,9 +124,9 @@
 
 # sent_id = 0024-p5-s3
 # text = В 2017 году один из позолоченных памятников Ниязову демонтировали.
-1	В	_	_	_	_	_	_	_	bratT22=Date-absolute
-2	2017	_	_	_	_	_	_	_	bratT22=Date-absolute
-3	году	_	_	_	_	_	_	_	bratT22=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-absolute
+2	2017	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-absolute
 4	один	_	_	_	_	_	_	_	bratT30=Quantity
 5	из	_	_	_	_	_	_	_	bratT30=Quantity
 6	позолоченных	_	_	_	_	_	_	_	bratT23=Facility
@@ -138,9 +138,9 @@
 # sent_id = 0024-p5-s4
 # text = Установленный в 2015 году памятник действующему президенту Бердымухамедову по-прежнему стоит в Ашхабаде.
 1	Установленный	_	_	_	_	_	_	_	_
-2	в	_	_	_	_	_	_	_	bratT25=Date-absolute
-3	2015	_	_	_	_	_	_	_	bratT25=Date-absolute
-4	году	_	_	_	_	_	_	_	bratT25=Date-absolute
+2	в	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
+3	2015	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
+4	году	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
 5	памятник	_	_	_	_	_	_	_	bratT26=Facility
 6	действующему	_	_	_	_	_	_	_	bratT26=Facility|bratT28=Person|bratT29=Person-property
 7	президенту	_	_	_	_	_	_	_	bratT26=Facility|bratT28=Person|bratT29=Person-property

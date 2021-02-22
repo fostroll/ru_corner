@@ -1,7 +1,7 @@
 T1	GPE 38 45	Украине
 T2	Organization 313 332	``   СТРАНА.ua   ''
 A1	Media T2
-T3	Time-duration 369 384	на   60   суток
+T3	Date-period 369 384	на   60   суток
 T4	Person-property 495 504	прокурора
 T5	Person 572 578	Кривош
 T6	Organization 606 642	Львовскую   областную   психбольницу
@@ -10,16 +10,25 @@ T8	Date-absolute 965 974	21   июля
 T9	GPE 990 995	Луцка
 T10	Person 1098 1143	Украинский   президент   Владимир   Зеленский
 T11	Person-property 1098 1120	Украинский   президент
-T12	Time-duration 1199 1224	семь   -   десять   минут
+T12	Duration 1199 1224	семь   -   десять   минут
 T13	Other-group 1047 1058	заложниками
 T14	Service 524 567	стационарной   психиатрической   экспертизы
 T15	Service 707 759	комплексной   психолого-психиатрической   экспертизы
 T16	Organization 78 136	Луцкий   горрайонный   суд   Волынской   области   Украины
 T17	GPE 129 136	Украины
 T18	GPE 107 136	Волынской   области   Украины
-T19	Date-duration 150 167	на   два   месяца
+T19	Date-period 150 167	на   два   месяца
 T21	Person 203 220	Максима   Кривоша
 T20	Date-absolute 237 245	в   июле
-T22	Date-period 15 20	летом
-T23	Time-period 1063 1070	Вечером
-T24	Date-relative 680 687	ранее  
+T22	Date-absolute 15 20	летом
+T23	Time-absolute 1063 1070	Вечером
+T24	Time-relative 680 685	ранее
+T25	Duration 155 167	два   месяца
+T26	Duration 374 384	60   суток
+T27	Date-period 1199 1224	семь   -   десять   минут
+A3	Past T27
+A4	Past T22
+A5	Past T20
+A6	Past T8
+T28	Date-relative 1063 1070	Вечером
+A7	Past T28

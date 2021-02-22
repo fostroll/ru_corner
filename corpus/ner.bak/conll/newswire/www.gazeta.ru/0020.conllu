@@ -16,7 +16,7 @@
 # sent_id = 0020-p2-s1
 # text = Чемпион мира 1986 года Диего Марадона скончался в возрасте 60 лет.
 1	Чемпион	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-2	мира	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
+2	мира	_	_	_	_	_	_	_	bratT31=GPE|bratT5=Person-property|bratT6=Person
 3	1986	_	_	_	_	_	_	_	bratT4=Date-absolute|bratT5=Person-property|bratT6=Person
 4	года	_	_	_	_	_	_	_	bratT4=Date-absolute|bratT5=Person-property|bratT6=Person
 5	Диего	_	_	_	_	_	_	_	bratT6=Person
@@ -94,7 +94,7 @@
 12	подготовки	_	_	_	_	_	_	_	bratT29=Date-period
 13	к	_	_	_	_	_	_	_	_
 14	чемпионату	_	_	_	_	_	_	_	bratT19=Event
-15	мира	_	_	_	_	_	_	_	bratT19=Event
+15	мира	_	_	_	_	_	_	_	bratT19=Event|bratT32=GPE
 16	2018	_	_	_	_	_	_	_	bratT18=Date-absolute|bratT19=Event
 17	года	_	_	_	_	_	_	_	bratT18=Date-absolute|bratT19=Event
 18	и	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 # par_text = Ранее умер Диего Марадона.
 # sent_id = 0020-p7-s1
 # text = Ранее умер Диего Марадона.
-1	Ранее	_	_	_	_	_	_	_	_
+1	Ранее	_	_	_	_	_	_	_	bratT30=Date-relative
 2	умер	_	_	_	_	_	_	_	_
 3	Диего	_	_	_	_	_	_	_	bratT25=Person
 4	Марадона	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person

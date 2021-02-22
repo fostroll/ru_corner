@@ -6,7 +6,7 @@ T7	Organization 224 264	пресс-службы   ФГУП   ``   Атомфло
 A1	Department T7
 T8	Organization 239 264	ФГУП   ``   Атомфлот   ''
 T9	Location 317 332	Карскому   морю
-T10	Date-duration 376 388	три   недели
+T10	Duration 376 388	три   недели
 T11	Ordinal 552 558	Второй
 T12	Facility 572 612	акваторию   Серверного   морского   пути
 T13	Person 615 632	``   Арктика   ''
@@ -15,8 +15,6 @@ T15	GPE 854 860	России
 T16	Date-period 863 892	за   ближайшие   десять   лет
 T18	Age 1032 1040	37   лет
 T19	Age 1142 1150	29   лет
-T20	Date-absolute 1153 1168	к   2024   году
-T21	Date-absolute 1191 1202	к   2030-му
 T22	Age 1180 1188	25   лет
 T23	Quantity 789 807	до   трех   метров
 T17	Quantity 919 945	десять   новых   ледоколов
@@ -26,7 +24,20 @@ A3	Unconscious T24
 T25	Person 87 104	``   Арктика   ''
 A4	Unconscious T25
 A5	Unconscious T13
-T1	Date-relative 950 971	В   настоящее   время
-T4	Date-relative 492 511	в   данный   момент
-T26	Date-relative 813 818	Ранее
+T1	Date-absolute 950 971	В   настоящее   время
+T4	Date-absolute 492 511	в   данный   момент
+T26	Time-relative 813 818	Ранее
 T27	GPE 731 735	мире
+A6	Future T14
+T28	Date-absolute 1153 1168	к   2024   году
+T29	Date-absolute 1191 1202	к   2030-му
+T30	Duration 880 892	десять   лет
+T31	Date-period 376 388	три   недели
+A7	Future T31
+A9	Present T4
+A10	Present T1
+A11	Future T28
+A13	Future T29
+T20	Date-absolute 868 892	ближайшие   десять   лет
+A12	Future T20
+T21	Ordinal 868 877	ближайшие

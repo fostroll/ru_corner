@@ -27,7 +27,7 @@
 6	Беллы	_	_	_	_	_	_	_	bratT3=Person
 7	Хадид	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person
 8	,	_	_	_	_	_	_	_	_
-9	ранее	_	_	_	_	_	_	_	bratT32=Date-relative
+9	ранее	_	_	_	_	_	_	_	bratT32=Time-relative
 10	признанной	_	_	_	_	_	_	_	_
 11	самой	_	_	_	_	_	_	_	_
 12	красивой	_	_	_	_	_	_	_	_
@@ -80,9 +80,9 @@
 24	,	_	_	_	_	_	_	_	_
 25	стала	_	_	_	_	_	_	_	_
 26	популярной	_	_	_	_	_	_	_	_
-27	во	_	_	_	_	_	_	_	bratT30=Date-period
-28	время	_	_	_	_	_	_	_	bratT30=Date-period
-29	режима	_	_	_	_	_	_	_	bratT30=Date-period|bratT35=Event
+27	во	_	_	_	_	_	_	_	bratA3=T30:Past|bratT30=Date-period
+28	время	_	_	_	_	_	_	_	bratA3=T30:Past|bratT30=Date-period
+29	режима	_	_	_	_	_	_	_	bratA3=T30:Past|bratT30=Date-period|bratT35=Event
 30	изоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Event
 31	,	_	_	_	_	_	_	_	_
 32	введенного	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	которую	_	_	_	_	_	_	_	_
-12	теперь	_	_	_	_	_	_	_	bratT31=Date-relative
+12	теперь	_	_	_	_	_	_	_	bratA4=T31:Present|bratT31=Date-absolute
 13	подписаны	_	_	_	_	_	_	_	_
 14	больше	_	_	_	_	_	_	_	bratT21=Quantity
 15	200	_	_	_	_	_	_	_	bratT21=Quantity
@@ -172,7 +172,7 @@
 
 # sent_id = 0021-p4-s2
 # text = Сперва на кадрах появляется надпись: ``Когда люди говорят, что им не нравятся толстые девушки'', а затем звучит строка песни: ``честно говоря, я этого совсем не понимаю''.
-1	Сперва	_	_	_	_	_	_	_	bratT33=Date-relative
+1	Сперва	_	_	_	_	_	_	_	bratT33=Time-relative
 2	на	_	_	_	_	_	_	_	_
 3	кадрах	_	_	_	_	_	_	_	_
 4	появляется	_	_	_	_	_	_	_	_
@@ -192,7 +192,7 @@
 18	''	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	а	_	_	_	_	_	_	_	_
-21	затем	_	_	_	_	_	_	_	bratT34=Date-relative
+21	затем	_	_	_	_	_	_	_	bratT34=Time-relative
 22	звучит	_	_	_	_	_	_	_	_
 23	строка	_	_	_	_	_	_	_	_
 24	песни	_	_	_	_	_	_	_	SpaceAfter=No

@@ -15,14 +15,13 @@ T16	Product 507 524	``   Луна-25   ''
 T17	Person-property 611 618	эксперт
 T18	Person 747 782	Космический   аппарат   Chang'e   5
 T19	Product 842 867	советские   серии   E-8-5
-T20	Date-period 893 916	в   1960-1970-х   годах
 T21	Person-property 1064 1071	эксперт
 T22	Date-absolute 1195 1205	В   ноябре
 T23	GPE 1212 1217	Китае
 T24	Facility 1224 1244	космодрома   Вэньчан
 T26	Product 1299 1320	миссией   Chang'e   5
-T27	Time-duration 1362 1386	в   течение   23   суток
-T28	Date-relative 1493 1509	40   лет   назад
+T27	Duration 1376 1386	23   суток
+T28	Date-absolute 1485 1509	около   40   лет   назад
 T29	Location 120 152	естественному   спутнику   Земли
 T30	Location 941 946	Землю
 T31	Location 1057 1061	Луну
@@ -45,7 +44,18 @@ A8	Project T26
 T25	Person 1259 1292	тяжелую   ракету   Long   March-5
 A9	Unconscious T25
 A10	Unconscious T18
-T38	Date-relative 226 232	сейчас
+T38	Date-absolute 226 232	сейчас
 T39	Date-period 1327 1345	в   ходе   которой
-T40	Date-period 654 684	после   многолетних   задержек
-T41	Age 662 673	многолетних
+T40	Date-relative 654 684	после   многолетних   задержек
+T41	Duration 662 673	многолетних
+A11	Past T7
+T43	Date-absolute 893 916	в   1960-1970-х   годах
+A13	Past T22
+T44	Duration 1485 1501	около   40   лет
+T42	Date-period 1362 1386	в   течение   23   суток
+A12	Past T43
+A14	Future T39
+A16	Present T38
+A17	Past T40
+A18	Past T28
+A15	Future T42

@@ -8,13 +8,13 @@
 3	о	_	_	_	_	_	_	_	_
 4	травме	_	_	_	_	_	_	_	_
 5	Ломаченко	_	_	_	_	_	_	_	bratT1=Person
-6	перед	_	_	_	_	_	_	_	_
+6	перед	_	_	_	_	_	_	_	bratT30=Date-period
 7	проигранным	_	_	_	_	_	_	_	_
 8	боем	_	_	_	_	_	_	_	bratT28=Event
 9	за	_	_	_	_	_	_	_	bratT28=Event
 10	титул	_	_	_	_	_	_	_	bratT28=Event
 11	чемпиона	_	_	_	_	_	_	_	bratT28=Event
-12	мира	_	_	_	_	_	_	_	bratT28=Event
+12	мира	_	_	_	_	_	_	_	bratT28=Event|bratT54=GPE
 
 # newpar id = 0098-p2
 # par_text = Украинский боксер Василий Ломаченко вышел на бой против американца Теофимо Лопеса с травмой плеча. Об этом Yahoo Sports рассказал врач Нил Эльаттрахе.
@@ -63,7 +63,7 @@
 9	шесть	_	_	_	_	_	_	_	bratT8=Date-relative
 10	недель	_	_	_	_	_	_	_	bratT8=Date-relative
 11	до	_	_	_	_	_	_	_	bratT8=Date-relative
-12	боя	_	_	_	_	_	_	_	SpaceAfter=No
+12	боя	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-relative
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p3-s2
@@ -83,8 +83,8 @@
 
 # sent_id = 0098-p3-s3
 # text = После поединка у боксера выявили ушиб ротаторной манжеты, кроме того, у него откололся кусок хряща.
-1	После	_	_	_	_	_	_	_	_
-2	поединка	_	_	_	_	_	_	_	_
+1	После	_	_	_	_	_	_	_	bratT47=Date-period
+2	поединка	_	_	_	_	_	_	_	bratT47=Date-period
 3	у	_	_	_	_	_	_	_	_
 4	боксера	_	_	_	_	_	_	_	bratT16=Person-property
 5	выявили	_	_	_	_	_	_	_	_
@@ -245,7 +245,7 @@
 13	)	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Event
 14	и	_	_	_	_	_	_	_	_
 15	чемпионата	_	_	_	_	_	_	_	bratA6=T39:Plural|bratT39=Event
-16	мира	_	_	_	_	_	_	_	bratA6=T39:Plural|bratT39=Event
+16	мира	_	_	_	_	_	_	_	bratA6=T39:Plural|bratT39=Event|bratT55=GPE
 17	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T39:Plural|bratT39=Event
 18	2009	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T39:Plural|bratT39=Event|bratT42=Date-absolute
 19	,	_	_	_	_	_	_	_	bratA6=T39:Plural|bratT39=Event
@@ -255,7 +255,7 @@
 
 # sent_id = 0098-p5-s4
 # text = 23-летний Лопес одержал 16-ю победу при отсутствии поражений.
-1	23-летний	_	_	_	_	_	_	_	bratT44=Quantity
+1	23-летний	_	_	_	_	_	_	_	bratT44=Age
 2	Лопес	_	_	_	_	_	_	_	bratT14=Person
 3	одержал	_	_	_	_	_	_	_	_
 4	16-ю	_	_	_	_	_	_	_	bratT45=Ordinal

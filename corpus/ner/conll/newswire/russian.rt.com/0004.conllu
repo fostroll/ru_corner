@@ -77,20 +77,20 @@
 6	объёмы	_	_	_	_	_	_	_	_
 7	совместной	_	_	_	_	_	_	_	_
 8	работы	_	_	_	_	_	_	_	_
-9	после	_	_	_	_	_	_	_	bratT24=Date-period
-10	его	_	_	_	_	_	_	_	bratT24=Date-period
-11	вступления	_	_	_	_	_	_	_	bratT24=Date-period
-12	в	_	_	_	_	_	_	_	_
-13	должность	_	_	_	_	_	_	_	_
-14	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property
+9	после	_	_	_	_	_	_	_	bratA2=T24:Future|bratT24=Date-relative
+10	его	_	_	_	_	_	_	_	bratA2=T24:Future|bratT24=Date-relative|bratT25=Event
+11	вступления	_	_	_	_	_	_	_	bratA2=T24:Future|bratT24=Date-relative|bratT25=Event
+12	в	_	_	_	_	_	_	_	bratT25=Event
+13	должность	_	_	_	_	_	_	_	bratT25=Event
+14	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event|bratT7=Person-property
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0004-p6
 # par_text = 6 ноября Нэнси Пелоси объявила, что кандидат в президенты Джо Байден «получил мандат» избирателей и скоро станет главой государства.
 # sent_id = 0004-p6-s1
 # text = 6 ноября Нэнси Пелоси объявила, что кандидат в президенты Джо Байден ``получил мандат'' избирателей и скоро станет главой государства.
-1	6	_	_	_	_	_	_	_	bratT8=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT8=Date-absolute
+1	6	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
 3	Нэнси	_	_	_	_	_	_	_	bratT9=Person
 4	Пелоси	_	_	_	_	_	_	_	bratT9=Person
 5	объявила	_	_	_	_	_	_	_	SpaceAfter=No
@@ -107,7 +107,7 @@
 16	''	_	_	_	_	_	_	_	_
 17	избирателей	_	_	_	_	_	_	_	bratT12=Other-group
 18	и	_	_	_	_	_	_	_	_
-19	скоро	_	_	_	_	_	_	_	_
+19	скоро	_	_	_	_	_	_	_	bratA4=T26:Future|bratT26=Date-absolute
 20	станет	_	_	_	_	_	_	_	_
 21	главой	_	_	_	_	_	_	_	bratT13=Person-property
 22	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property

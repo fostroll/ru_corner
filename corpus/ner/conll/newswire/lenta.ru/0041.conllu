@@ -25,9 +25,9 @@
 9	два	_	_	_	_	_	_	_	bratT28=Quantity
 10	раза	_	_	_	_	_	_	_	bratT28=Quantity
 11	за	_	_	_	_	_	_	_	bratT5=Date-period
-12	последние	_	_	_	_	_	_	_	bratT29=Ordinal|bratT5=Date-period
-13	20	_	_	_	_	_	_	_	bratT5=Date-period
-14	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-period
+12	последние	_	_	_	_	_	_	_	bratA7=T37:Past|bratT29=Ordinal|bratT37=Date-absolute|bratT5=Date-period
+13	20	_	_	_	_	_	_	_	bratA7=T37:Past|bratT34=Duration|bratT37=Date-absolute|bratT5=Date-period
+14	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T37:Past|bratT34=Duration|bratT37=Date-absolute|bratT5=Date-period
 15	,	_	_	_	_	_	_	_	_
 16	хотя	_	_	_	_	_	_	_	_
 17	нынешняя	_	_	_	_	_	_	_	_
@@ -118,9 +118,9 @@
 2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT15=Date-absolute
-6	2000	_	_	_	_	_	_	_	bratT15=Date-absolute
-7	году	_	_	_	_	_	_	_	bratT15=Date-absolute
+5	в	_	_	_	_	_	_	_	bratA2=T15:Past|bratT15=Date-absolute
+6	2000	_	_	_	_	_	_	_	bratA2=T15:Past|bratT15=Date-absolute
+7	году	_	_	_	_	_	_	_	bratA2=T15:Past|bratT15=Date-absolute
 8	за	_	_	_	_	_	_	_	_
 9	чертой	_	_	_	_	_	_	_	_
 10	бедности	_	_	_	_	_	_	_	_
@@ -162,8 +162,8 @@
 # par_text = 27 октября глава Счетной палаты Алексей Кудрин заявил, что самую серьезную нищету в стране преодолели уже давно. Он также призывал власти принимать более решительные меры для снижения уровня бедности, «особенно в период кризиса и пандемии». Летом 2020-го Россия объявила о ликвидации крайней нищеты, а к 2024 году уровень бедности в стране собираются сократить как минимум в два раза.
 # sent_id = 0041-p5-s1
 # text = 27 октября глава Счетной палаты Алексей Кудрин заявил, что самую серьезную нищету в стране преодолели уже давно.
-1	27	_	_	_	_	_	_	_	bratT19=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT19=Date-absolute
+1	27	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 3	глава	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person
 4	Счетной	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT22=Person
 5	палаты	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT22=Person
@@ -199,18 +199,18 @@
 13	,	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No
 15	особенно	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	bratT30=Date-period
-17	период	_	_	_	_	_	_	_	bratT30=Date-period
-18	кризиса	_	_	_	_	_	_	_	bratT30=Date-period
-19	и	_	_	_	_	_	_	_	bratT30=Date-period
-20	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event|bratT30=Date-period
+16	в	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period
+17	период	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period
+18	кризиса	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period|bratT35=Event
+19	и	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period
+20	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T30:Present|bratT2=Event|bratT30=Date-period
 21	''	_	_	_	_	_	_	_	SpaceAfter=No
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0041-p5-s3
 # text = Летом 2020-го Россия объявила о ликвидации крайней нищеты, а к 2024 году уровень бедности в стране собираются сократить как минимум в два раза.
-1	Летом	_	_	_	_	_	_	_	bratT23=Date-period
-2	2020-го	_	_	_	_	_	_	_	bratT23=Date-period
+1	Летом	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-absolute
+2	2020-го	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-absolute
 3	Россия	_	_	_	_	_	_	_	bratT24=GPE
 4	объявила	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
@@ -219,9 +219,9 @@
 8	нищеты	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
-11	к	_	_	_	_	_	_	_	bratT25=Date-absolute
-12	2024	_	_	_	_	_	_	_	bratT25=Date-absolute
-13	году	_	_	_	_	_	_	_	bratT25=Date-absolute
+11	к	_	_	_	_	_	_	_	bratT25=Date-period
+12	2024	_	_	_	_	_	_	_	bratA5=T36:Future|bratT25=Date-period|bratT36=Date-absolute
+13	году	_	_	_	_	_	_	_	bratA5=T36:Future|bratT25=Date-period|bratT36=Date-absolute
 14	уровень	_	_	_	_	_	_	_	_
 15	бедности	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_

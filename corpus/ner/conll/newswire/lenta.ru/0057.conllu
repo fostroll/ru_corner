@@ -13,8 +13,8 @@
 8	от	_	_	_	_	_	_	_	_
 9	COVID-19	_	_	_	_	_	_	_	bratT2=Other-term
 10	до	_	_	_	_	_	_	_	bratT4=Date-period
-11	конца	_	_	_	_	_	_	_	bratT4=Date-period
-12	года	_	_	_	_	_	_	_	bratT4=Date-period
+11	конца	_	_	_	_	_	_	_	bratA3=T40:Future|bratT4=Date-period|bratT40=Date-absolute
+12	года	_	_	_	_	_	_	_	bratA3=T40:Future|bratT4=Date-period|bratT40=Date-absolute
 
 # newpar id = 0057-p2
 # par_text = Директор центра Гамалеи Александр Гинцбург озвучил план по вакцинации от коронавируса жителей России в эфире телеканала «Россия 24», передает РИА Новости.
@@ -63,14 +63,14 @@
 11	от	_	_	_	_	_	_	_	_
 12	COVID-19	_	_	_	_	_	_	_	bratT14=Other-term
 13	уже	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	bratT15=Date-relative
-15	этом	_	_	_	_	_	_	_	bratT15=Date-relative
-16	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-relative
+14	в	_	_	_	_	_	_	_	bratA5=T15:Future|bratT15=Date-absolute
+15	этом	_	_	_	_	_	_	_	bratA5=T15:Future|bratT15=Date-absolute|bratT42=Ordinal
+16	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T15:Future|bratT15=Date-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0057-p3-s2
 # text = Сейчас в стране получили вакцину около 40-45 тысяч человек, заявил специалист.
-1	Сейчас	_	_	_	_	_	_	_	bratT37=Date-relative
+1	Сейчас	_	_	_	_	_	_	_	bratT37=Time-relative
 2	в	_	_	_	_	_	_	_	_
 3	стране	_	_	_	_	_	_	_	_
 4	получили	_	_	_	_	_	_	_	_
@@ -88,15 +88,15 @@
 # par_text = Ранее Гинцбург сообщил, что в ходе пострегистрационных исследований первой российской вакцины от коронавируса «Спутник V» не было выявлено новых побочных эффектов. По его словам, все побочные эффекты уже были перечислены в инструкции по применению в результате первой и второй фаз исследований. Они же проявились и на большой выборке в 16 тысяч человек.
 # sent_id = 0057-p4-s1
 # text = Ранее Гинцбург сообщил, что в ходе пострегистрационных исследований первой российской вакцины от коронавируса ``Спутник V'' не было выявлено новых побочных эффектов.
-1	Ранее	_	_	_	_	_	_	_	bratT39=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT39=Time-relative
 2	Гинцбург	_	_	_	_	_	_	_	bratT17=Person
 3	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT38=Date-period
-7	ходе	_	_	_	_	_	_	_	bratT38=Date-period
-8	пострегистрационных	_	_	_	_	_	_	_	bratT38=Date-period
-9	исследований	_	_	_	_	_	_	_	bratT38=Date-period
+6	в	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period
+7	ходе	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period
+8	пострегистрационных	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period|bratT41=Event
+9	исследований	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period|bratT41=Event
 10	первой	_	_	_	_	_	_	_	bratT32=Ordinal
 11	российской	_	_	_	_	_	_	_	bratT20=Product
 12	вакцины	_	_	_	_	_	_	_	bratT18=Other-term|bratT20=Product

@@ -38,9 +38,9 @@
 5	Комсомольская	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 6	правда	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization
 7	''	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
-8	в	_	_	_	_	_	_	_	_
-9	пятницу	_	_	_	_	_	_	_	SpaceAfter=No
-10	,	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratT5=Date-absolute
+9	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
+10	,	_	_	_	_	_	_	_	bratT5=Date-absolute
 11	20	_	_	_	_	_	_	_	bratT5=Date-absolute
 12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
 13	.	_	_	_	_	_	_	_	_
@@ -59,7 +59,7 @@
 8	Мария	_	_	_	_	_	_	_	bratT8=Person
 9	обратилась	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
-11	полицию	_	_	_	_	_	_	_	_
+11	полицию	_	_	_	_	_	_	_	bratT33=Organization
 12	и	_	_	_	_	_	_	_	_
 13	рассказала	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
@@ -80,8 +80,8 @@
 
 # sent_id = 0037-p3-s2
 # text = Сотрудники МЧС отправились в дом к артистке и обнаружили ее лежащей в луже крови.
-1	Сотрудники	_	_	_	_	_	_	_	bratT33=Person-property
-2	МЧС	_	_	_	_	_	_	_	bratT33=Person-property|bratT9=Organization
+1	Сотрудники	_	_	_	_	_	_	_	bratT39=Person-property
+2	МЧС	_	_	_	_	_	_	_	bratT39=Person-property|bratT9=Organization
 3	отправились	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	дом	_	_	_	_	_	_	_	_
@@ -121,8 +121,8 @@
 3	случившегося	_	_	_	_	_	_	_	_
 4	будет	_	_	_	_	_	_	_	_
 5	установлена	_	_	_	_	_	_	_	_
-6	после	_	_	_	_	_	_	_	_
-7	проведения	_	_	_	_	_	_	_	_
+6	после	_	_	_	_	_	_	_	bratT37=Date-period
+7	проведения	_	_	_	_	_	_	_	bratT37=Date-period
 8	медицинской	_	_	_	_	_	_	_	bratT27=Other-term
 9	экспертизы	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term
 10	.	_	_	_	_	_	_	_	_

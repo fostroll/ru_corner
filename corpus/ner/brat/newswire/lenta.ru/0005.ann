@@ -2,7 +2,7 @@ T1	Person 0 7	Роналду
 T6	Person 48 130	Португальский   нападающий   туринского   ``   Ювентуса   ''   Криштиану   Роналду
 T7	Person 202 218	Диего   Марадоны
 T8	Person-property 1132 1139	адвокат
-T9	Date-absolute 1084 1095	25   ноября
+T9	Date-absolute 1076 1095	ранее   25   ноября
 T4	Person 38 46	Марадоны
 T2	Person-property 161 199	бывшего   игрока   сборной   Аргентины
 T10	GPE 190 199	Аргентины
@@ -19,12 +19,12 @@ T22	Nationality 985 996	англичанина
 T23	Person 1046 1054	Марадоны
 T24	Person-property 1189 1199	журналисты
 T26	Organization 1202 1224	аргентинского   Clarin
-T27	Date-period 1229 1239	В   ноябре
+T27	Date-absolute 1229 1239	В   ноябре
 T28	Person 1242 1250	Марадона
 T30	Person 1427 1435	Марадона
 T32	Organization 77 108	туринского   ``   Ювентуса   ''
 T35	GPE 1587 1596	Аргентины
-T3	Date-relative 286 293	Сегодня
+T3	Date-absolute 286 293	Сегодня
 T5	Organization 1479 1498	``   Барселону   ''
 T11	Organization 1505 1521	``   Наполи   ''
 T25	Organization 1528 1558	``   Ньюэллс   Олд   Бойз   ''
@@ -48,10 +48,15 @@ T42	Quantity 1662 1672	одним   из
 T47	Event 943 963	кончине   аргентинца
 A2	Media T13
 T48	Ordinal 1150 1157	первыми
-T49	Date-relative 713 718	Ранее
-T50	Date-relative 1314 1319	позже
+T49	Time-relative 713 718	Ранее
+T50	Time-relative 1314 1319	позже
 T51	GPE 774 778	мира
 T52	GPE 882 886	мира
 T53	Date-absolute 893 897	1986
 T55	GPE 332 342	весь   мир
 T56	GPE 1623 1627	мира
+A3	Past T9
+A4	Past T27
+A5	Past T33
+A6	Present T3
+T54	Time-relative 1076 1081	ранее

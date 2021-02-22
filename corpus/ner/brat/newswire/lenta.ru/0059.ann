@@ -1,6 +1,6 @@
 T1	GPE 4 10	России
-T8	Date-relative 599 617	В   прошлом   году
-T11	Date-relative 714 729	В   этом   году
+T8	Date-absolute 599 617	В   прошлом   году
+T11	Date-absolute 714 729	В   этом   году
 T12	Date-period 781 834	с   16   ноября   по   15   декабря   текущего   года
 T13	Date-period 849 904	с   1   декабря   по   28   февраля   следующего   года
 T15	Organization 1120 1170	АНО   ``   Россия   -   страна   возможностей   ''
@@ -16,14 +16,13 @@ T5	Quantity 258 264	третий
 T10	Quantity 687 709	свыше   7500   желаний
 T2	Product 26 70	ежегодная   акция   ``   Елка   желаний   ''
 T6	Product 285 334	предновогоднюю   акцию   ``   Елка   желаний   ''
-T9	Product 633 665	акции   ``   Елка   желаний   ''
+T9	Event 633 665	акции   ``   Елка   желаний   ''
 T7	Organization 415 433	``   Ленты.ру   ''
 A1	Media T7
 T14	Event 934 970	конкурса   ``   Лидеры   России   ''
 A2	Project T4
 A3	Project T2
 A4	Project T6
-A5	Project T9
 T23	Age 1743 1765	от   3   до   17   лет
 T24	Age 1772 1785	от   60   лет
 A6	Project T3
@@ -34,3 +33,18 @@ T28	Family 1557 1561	дети
 T29	Ordinal 887 897	следующего
 T30	Family 1586 1592	семьях
 T18	Service 1267 1289	сайте   елкажеланий.рф
+T31	Date-absolute 785 796	16   ноября
+T32	Date-absolute 804 834	15   декабря   текущего   года
+T33	Date-absolute 853 864	1   декабря
+T34	Date-absolute 872 904	28   февраля   следующего   года
+A7	Future T31
+A8	Future T32
+A9	Future T33
+A10	Future T34
+A11	Past T8
+A12	Future T11
+T35	Date-period 599 638	В   прошлом   году   в   рамках   акции
+A13	Past T35
+T36	Ordinal 603 610	прошлом
+T37	Ordinal 819 827	текущего
+T38	Ordinal 718 722	этом

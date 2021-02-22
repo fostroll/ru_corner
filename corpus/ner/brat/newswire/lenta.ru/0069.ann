@@ -6,7 +6,7 @@ T5	Quantity 428 454	в   четыре   раза   больше
 T6	Quantity 478 506	965   крупнейших   компаниях
 T7	Organization 554 563	Bloomberg
 T8	Organization 595 656	сервиса   по   подбору   персонала   Heidrick   &   Struggles
-T9	Other-term 888 897	локдаунов
+T9	Event 888 897	локдаунов
 T10	Date-period 1195 1223	за   последнее   десятилетие
 T11	Person-property 1043 1053	экономисты
 T12	Person-property 1485 1509	генерального   директора
@@ -17,14 +17,24 @@ T16	Person-property 662 670	Эксперты
 T17	Organization 140 143	ВОЗ
 T18	Other-term 1719 1728	S&P   500
 T15	Event 396 404	эпидемии
-T19	Date-period 391 404	до   эпидемии
+T19	Date-relative 391 404	до   эпидемии
 T20	Ordinal 1087 1093	первой
 T21	Ordinal 1200 1209	последнее
 T22	Date-period 875 897	во   время   локдаунов
-T23	Date-relative 1564 1585	В   настоящее   время
-T24	Date-relative 1288 1294	сейчас
-T25	Date-relative 284 290	сейчас
-T26	Date-relative 1371 1377	теперь
+T23	Date-absolute 1564 1585	В   настоящее   время
+T24	Date-absolute 1288 1294	сейчас
+T25	Date-absolute 284 290	сейчас
+T26	Date-absolute 1371 1377	теперь
 T27	Family 994 1000	детьми
 T28	Other-term 176 188	коронавируса
 T29	GPE 514 526	всему   миру
+T30	Date-absolute 62 81	марта   2020   года
+A2	Past T30
+T31	Duration 1212 1223	десятилетие
+A3	Past T22
+A4	Past T10
+A5	Present T25
+A6	Past T19
+A7	Present T24
+A9	Present T23
+A8	Present T26

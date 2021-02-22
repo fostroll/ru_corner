@@ -1,4 +1,4 @@
-T1	Cardinal 56 64	60   млн
+T1	Quantity 56 64	60   млн
 T2	Other-term 18 30	коронавируса
 T3	Quantity 331 355	60   037   735   случаев
 T4	Quantity 414 437	1   414   513   человек
@@ -11,8 +11,10 @@ T10	Quantity 171 179	60   млн
 T11	Organization 208 239	Университет   Джонса   Хопкинса
 T12	Event 390 398	пандемии
 T13	Date-period 377 398	С   начала   пандемии
-T14	Date-relative 277 301	к   настоящему   времени
-T15	Date-relative 527 534	Ранее  
+T14	Date-period 277 301	к   настоящему   времени
+T15	Time-relative 527 532	Ранее
 T16	GPE 37 41	мире
 T17	GPE 152 156	мире
 T18	GPE 308 312	мире
+A1	Past T13
+A2	Present T14

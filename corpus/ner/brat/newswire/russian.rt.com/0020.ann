@@ -10,7 +10,7 @@ T7	Person 382 388	Трампа
 T8	Other-term 507 519	коронавируса
 T9	Person-property 548 563	президент   США
 T10	GPE 560 563	США
-T11	Time-duration 577 591	менее   минуты
+T11	Duration 577 591	менее   минуты
 T12	Person-property 636 647	журналистов
 T14	Person-property 675 695	американский   лидер
 T15	Event 824 847	президентских   выборах
@@ -20,4 +20,8 @@ T17	GPE 73 76	США
 T18	Person 61 94	Президент   США   Дональд   Трамп
 T19	Nationality 109 129	американский   народ
 A4	Citizenship T19
-T13	Date-relative 667 674	Ранее  
+T13	Time-relative 667 672	Ранее
+T20	Date-period 577 591	менее   минуты
+A5	Past T20
+T21	Date-absolute 719 724	скоро
+A6	Future T21

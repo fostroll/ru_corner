@@ -50,17 +50,17 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Нашу	_	_	_	_	_	_	_	_
 3	озабоченность	_	_	_	_	_	_	_	_
-4	в	_	_	_	_	_	_	_	bratT16=Date-relative
-5	данный	_	_	_	_	_	_	_	bratT16=Date-relative
-6	момент	_	_	_	_	_	_	_	bratT16=Date-relative
+4	в	_	_	_	_	_	_	_	bratA1=T16:Present|bratT16=Date-absolute
+5	данный	_	_	_	_	_	_	_	bratA1=T16:Present|bratT16=Date-absolute
+6	момент	_	_	_	_	_	_	_	bratA1=T16:Present|bratT16=Date-absolute
 7	вызывает	_	_	_	_	_	_	_	_
 8	будущее	_	_	_	_	_	_	_	_
 9	компании	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	которой	_	_	_	_	_	_	_	_
-12	не	_	_	_	_	_	_	_	bratT17=Date-relative
-13	так	_	_	_	_	_	_	_	bratT17=Date-relative
-14	давно	_	_	_	_	_	_	_	bratT17=Date-relative
+12	не	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
+13	так	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
+14	давно	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
 15	были	_	_	_	_	_	_	_	_
 16	предъявлены	_	_	_	_	_	_	_	_
 17	требования	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 
 # sent_id = 0063-p2-s3
 # text = Недавно все счета предприятия были арестованы в связи с возбуждением данного исполнительного производства, что ставит под угрозу выплату заработной платы и продолжение существования компании.
-1	Недавно	_	_	_	_	_	_	_	bratT18=Date-relative
+1	Недавно	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-absolute
 2	все	_	_	_	_	_	_	_	_
 3	счета	_	_	_	_	_	_	_	_
 4	предприятия	_	_	_	_	_	_	_	_
@@ -132,9 +132,9 @@
 7	гибель	_	_	_	_	_	_	_	_
 8	нашей	_	_	_	_	_	_	_	_
 9	компании	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT15=Date-period
-11	ближайшие	_	_	_	_	_	_	_	bratT15=Date-period
-12	дни	_	_	_	_	_	_	_	bratT15=Date-period
+10	в	_	_	_	_	_	_	_	bratA4=T15:Future|bratT15=Date-absolute
+11	ближайшие	_	_	_	_	_	_	_	bratA4=T15:Future|bratT15=Date-absolute|bratT19=Ordinal
+12	дни	_	_	_	_	_	_	_	bratA4=T15:Future|bratT15=Date-absolute
 13	из-за	_	_	_	_	_	_	_	_
 14	невозможности	_	_	_	_	_	_	_	_
 15	исполнять	_	_	_	_	_	_	_	_

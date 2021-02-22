@@ -19,9 +19,9 @@ T19	Date-absolute 964 976	27   октября
 T20	Person-property 979 1003	глава   Счетной   палаты
 T21	Organization 987 1003	Счетной   палаты
 T22	Person 979 1022	глава   Счетной   палаты   Алексей   Кудрин
-T23	Date-period 1291 1306	Летом   2020-го
+T23	Date-absolute 1291 1306	Летом   2020-го
 T24	GPE 1309 1315	Россия
-T25	Date-absolute 1373 1388	к   2024   году
+T25	Date-period 1373 1388	к   2024   году
 T26	Quantity 1466 1480	в   два   раза
 T27	Event 262 326	форуме   ``   ВТБ   капитала   ''   ``   Россия   зовет   !   ''
 T28	Quantity 95 123	более   чем   в   два   раза
@@ -32,3 +32,13 @@ T31	Other-term 444 456	коронавируса
 T32	GPE 478 499	всех   странах   мира
 T33	Service 327 337	Трансляцию
 A1	Media T33
+T34	Duration 143 151	20   лет
+A2	Past T15
+A3	Past T19
+A4	Past T23
+T36	Date-absolute 1377 1388	2024   году
+A5	Future T36
+T35	Event 1259 1266	кризиса
+A8	Present T30
+T37	Date-absolute 131 151	последние   20   лет
+A7	Past T37

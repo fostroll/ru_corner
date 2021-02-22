@@ -156,8 +156,8 @@
 # par_text = В июле немецкий концерн Rheinmetall выложил в Twitter ролик с, вероятно, британским боевым танком Challenger 2, получившим новые броню и пушку. Агентство Defence Express, ссылаясь на разработчиков, назвало показанное Германией оружие «убийцей» российского танка Т-14 «Армата».
 # sent_id = 0096-p5-s1
 # text = В июле немецкий концерн Rheinmetall выложил в Twitter ролик с, вероятно, британским боевым танком Challenger 2, получившим новые броню и пушку.
-1	В	_	_	_	_	_	_	_	bratT16=Date-absolute
-2	июле	_	_	_	_	_	_	_	bratT16=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA1=T16:Past|bratT16=Date-absolute
+2	июле	_	_	_	_	_	_	_	bratA1=T16:Past|bratT16=Date-absolute
 3	немецкий	_	_	_	_	_	_	_	bratT17=Organization
 4	концерн	_	_	_	_	_	_	_	bratT17=Organization
 5	Rheinmetall	_	_	_	_	_	_	_	bratT17=Organization
@@ -211,8 +211,8 @@
 # par_text = В феврале американская компания Bell выпустила в Twitter рекламный ролик, в котором вертолет 360 Invictus «убивает» перспективные российские боевые машины Т-14 и Т-15 платформы «Армата».
 # sent_id = 0096-p6-s1
 # text = В феврале американская компания Bell выпустила в Twitter рекламный ролик, в котором вертолет 360 Invictus ``убивает'' перспективные российские боевые машины Т-14 и Т-15 платформы ``Армата''.
-1	В	_	_	_	_	_	_	_	bratT24=Date-absolute
-2	феврале	_	_	_	_	_	_	_	bratT24=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA9=T24:Past|bratT24=Date-absolute
+2	феврале	_	_	_	_	_	_	_	bratA9=T24:Past|bratT24=Date-absolute
 3	американская	_	_	_	_	_	_	_	_
 4	компания	_	_	_	_	_	_	_	bratT28=Organization
 5	Bell	_	_	_	_	_	_	_	bratT28=Organization
@@ -234,9 +234,9 @@
 21	российские	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
 22	боевые	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
 23	машины	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
-24	Т-14	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+24	Т-14	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product|bratT34=Product
 25	и	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
-26	Т-15	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+26	Т-15	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product|bratT35=Product
 27	платформы	_	_	_	_	_	_	_	bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
 28	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
 29	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product

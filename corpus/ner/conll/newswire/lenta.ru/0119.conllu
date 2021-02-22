@@ -18,7 +18,7 @@
 # text = В Подмосковье зимой будут работать катки, лыжные трассы, появятся маршруты на квадроциклах, рассказал губернатор Московской области Андрей Воробьев.
 1	В	_	_	_	_	_	_	_	_
 2	Подмосковье	_	_	_	_	_	_	_	bratT3=GPE
-3	зимой	_	_	_	_	_	_	_	bratT27=Date-period
+3	зимой	_	_	_	_	_	_	_	bratA3=T27:Future|bratT27=Date-absolute
 4	будут	_	_	_	_	_	_	_	_
 5	работать	_	_	_	_	_	_	_	_
 6	катки	_	_	_	_	_	_	_	SpaceAfter=No
@@ -43,11 +43,11 @@
 # text = Его РИАМО в среду, 25 ноября.
 1	Его	_	_	_	_	_	_	_	_
 2	РИАМО	_	_	_	_	_	_	_	bratA1=T23:Media|bratT23=Organization
-3	в	_	_	_	_	_	_	_	bratT24=Date-absolute
-4	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT24=Date-absolute
-6	25	_	_	_	_	_	_	_	bratT24=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
+4	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T24:Past|bratT24=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
+6	25	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T24:Past|bratT24=Date-absolute
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0119-p3
@@ -167,7 +167,7 @@
 # par_text = Накануне Воробьев заявил, что региональные власти не собираются вводить новые ограничения из-за коронавируса, а, наоборот, хотят ослабить уже существующие к Новому году.
 # sent_id = 0119-p6-s1
 # text = Накануне Воробьев заявил, что региональные власти не собираются вводить новые ограничения из-за коронавируса, а, наоборот, хотят ослабить уже существующие к Новому году.
-1	Накануне	_	_	_	_	_	_	_	bratT28=Date-relative
+1	Накануне	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
 2	Воробьев	_	_	_	_	_	_	_	bratT19=Person
 3	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -190,8 +190,8 @@
 21	ослабить	_	_	_	_	_	_	_	_
 22	уже	_	_	_	_	_	_	_	_
 23	существующие	_	_	_	_	_	_	_	_
-24	к	_	_	_	_	_	_	_	bratT26=Date-absolute
-25	Новому	_	_	_	_	_	_	_	bratT21=Event|bratT26=Date-absolute
-26	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event|bratT26=Date-absolute
+24	к	_	_	_	_	_	_	_	bratA6=T26:Future|bratT26=Date-relative
+25	Новому	_	_	_	_	_	_	_	bratA6=T26:Future|bratT21=Event|bratT26=Date-relative
+26	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Future|bratT21=Event|bratT26=Date-relative
 27	.	_	_	_	_	_	_	_	_
 

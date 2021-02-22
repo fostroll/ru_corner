@@ -11,8 +11,8 @@ T12	Person 666 673	Макаров
 T13	Person 712 720	Горюнова
 T14	Date-absolute 832 843	11   ноября
 T15	Person 864 872	Макарова
-T16	Date-period 899 928	до   8   января   2021   года
-T17	Date-absolute 942 952	9   ноября
+T16	Date-period 875 928	на   два   месяца   ,   до   8   января   2021   года
+T17	Date-absolute 934 952	Утром   9   ноября
 T18	Age 955 964	20-летний
 T19	Person 955 982	20-летний   Антон   Макаров
 T20	Facility 1018 1048	военном   аэродроме   Балтимор
@@ -26,7 +26,7 @@ T27	Person 1399 1406	Макаров
 T28	Person-property 1424 1438	военнослужащих
 T29	GPE 1542 1561	Орловской   области
 T31	Other-term 744 782	психолого-психиатрическая   экспертиза
-T32	Date-duration 875 892	на   два   месяца
+T32	Duration 880 892	два   месяца
 T33	Person-property 1123 1145	дежурного   по   полку
 T34	Person-property 790 802	подзащитному
 T35	Family 1568 1575	бабушки
@@ -38,15 +38,22 @@ T9	Person-property 290 298	адвоката
 T40	Person 290 315	адвоката   Яну   Горюнову
 T41	Quantity 1416 1438	троих   военнослужащих
 T42	Quantity 1453 1459	одного
-A1	Plural T10
 A2	Media T8
 T38	Event 14 19	бойню
-T39	Time-period 934 939	Утром
-T43	Date-period 630 663	после   предъявленных   обвинений
-T44	Date-period 1103 1120	после   замечания
-T45	Date-relative 1306 1311	затем
-T46	Date-period 1466 1478	после   чего
+T39	Time-absolute 934 939	Утром
+T43	Date-relative 630 663	после   предъявленных   обвинений
+T44	Date-relative 1103 1120	после   замечания
+T45	Time-relative 1306 1311	затем
+T46	Time-relative 1466 1478	после   чего
 T47	Date-period 1626 1641	после   развода
 T48	Law 413 460	пункту   ``   а   ''   части   2   статьи   105
 T49	Law 523 547	части   4   статьи   226
 T50	Age 321 329	Молодого
+T51	Date-absolute 904 928	8   января   2021   года
+A3	Past T14
+A6	Past T17
+T52	Event 1634 1653	развода   родителей
+A1	Past T47
+A4	Past T43
+A5	Past T44
+A7	Past T16

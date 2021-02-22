@@ -12,9 +12,26 @@ T11	Money 852 881	от   12,5   миллиона   рублей
 T12	Quantity 940 966	24,2   квадратного   метра
 T13	Money 1019 1043	2,6   миллиарда   рублей
 T14	Quantity 1081 1115	2,1   тысячи   квадратных   метров
-T15	Date-period 279 300	с   прошлым   месяцем
-T16	Date-relative 722 737	прошлого   года
 A1	Media T7
 T17	Person-property 1121 1129	Эксперты
 T18	Person-property 1288 1299	специалисты
-T19	Date-relative 743 763	На   данный   момент
+T19	Date-absolute 743 763	На   данный   момент
+T20	Date-absolute 205 226	октябре   2020   года
+A2	Past T20
+T22	Date-absolute 346 377	начала   лета   текущего   года
+T23	Date-absolute 526 532	января
+A3	Past T23
+T24	Date-absolute 540 557	октябрь   2020-го
+A4	Past T24
+T25	Date-period 697 737	аналогичным   периодом   прошлого   года
+T16	Date-absolute 697 737	аналогичным   периодом   прошлого   года
+T15	Date-period 283 300	прошлым   месяцем
+T21	Date-relative 283 300	прошлым   месяцем
+A5	Past T21
+A6	Past T22
+A7	Past T16
+A8	Present T19
+T26	Ordinal 283 290	прошлым
+T27	Ordinal 722 730	прошлого
+T28	Ordinal 362 370	текущего
+T29	Duration 697 719	аналогичным   периодом

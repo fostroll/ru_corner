@@ -23,9 +23,9 @@
 8	Крыма	_	_	_	_	_	_	_	bratT2=GPE
 9	распроданы	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	bratT3=Date-period
-11	пару	_	_	_	_	_	_	_	bratT3=Date-period
-12	лет	_	_	_	_	_	_	_	bratT3=Date-period
-13	вперед	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Date-period
+11	пару	_	_	_	_	_	_	_	bratA3=T21:Future|bratT19=Duration|bratT21=Date-absolute|bratT3=Date-period
+12	лет	_	_	_	_	_	_	_	bratA3=T21:Future|bratT19=Duration|bratT21=Date-absolute|bratT3=Date-period
+13	вперед	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T21:Future|bratT21=Date-absolute|bratT3=Date-period
 14	,	_	_	_	_	_	_	_	_
 15	а	_	_	_	_	_	_	_	_
 16	квадратные	_	_	_	_	_	_	_	_
@@ -55,7 +55,7 @@
 # text = По словам экспертов, бум на рынке недвижимости полуострова начался в середине июля, сразу после снятия карантинных ограничений.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No
+3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	бум	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
@@ -63,15 +63,15 @@
 8	недвижимости	_	_	_	_	_	_	_	_
 9	полуострова	_	_	_	_	_	_	_	_
 10	начался	_	_	_	_	_	_	_	_
-11	в	_	_	_	_	_	_	_	bratT6=Date-absolute
-12	середине	_	_	_	_	_	_	_	bratT6=Date-absolute
-13	июля	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Date-absolute
+11	в	_	_	_	_	_	_	_	bratA2=T6:Past|bratT6=Date-absolute
+12	середине	_	_	_	_	_	_	_	bratA2=T6:Past|bratT6=Date-absolute
+13	июля	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Past|bratT6=Date-absolute
 14	,	_	_	_	_	_	_	_	_
-15	сразу	_	_	_	_	_	_	_	_
-16	после	_	_	_	_	_	_	_	bratT18=Date-period
-17	снятия	_	_	_	_	_	_	_	bratT18=Date-period
-18	карантинных	_	_	_	_	_	_	_	bratT18=Date-period
-19	ограничений	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Date-period
+15	сразу	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-relative
+16	после	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-relative
+17	снятия	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-relative|bratT24=Event
+18	карантинных	_	_	_	_	_	_	_	bratT24=Event
+19	ограничений	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Event
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0055-p3-s2
@@ -106,8 +106,8 @@
 # sent_id = 0055-p4-s1
 # text = ``К августу число сделок превысило число докризисных, а цены продолжали расти: апартаменты - до 15-20 процентов, новостройки - до 10-20, вторичное жилье - до 15-25 процентов'', - сообщил агентству сотрудник одного из крымских агентств недвижимости.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	К	_	_	_	_	_	_	_	_
-3	августу	_	_	_	_	_	_	_	_
+2	К	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-absolute
+3	августу	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-absolute
 4	число	_	_	_	_	_	_	_	_
 5	сделок	_	_	_	_	_	_	_	_
 6	превысило	_	_	_	_	_	_	_	_
@@ -142,8 +142,8 @@
 35	сообщил	_	_	_	_	_	_	_	_
 36	агентству	_	_	_	_	_	_	_	_
 37	сотрудник	_	_	_	_	_	_	_	_
-38	одного	_	_	_	_	_	_	_	_
-39	из	_	_	_	_	_	_	_	_
+38	одного	_	_	_	_	_	_	_	bratT23=Quantity
+39	из	_	_	_	_	_	_	_	bratT23=Quantity
 40	крымских	_	_	_	_	_	_	_	_
 41	агентств	_	_	_	_	_	_	_	_
 42	недвижимости	_	_	_	_	_	_	_	SpaceAfter=No
@@ -235,10 +235,10 @@
 13	сдача	_	_	_	_	_	_	_	_
 14	которых	_	_	_	_	_	_	_	_
 15	состоится	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	bratT17=Date-relative
-17	следующем	_	_	_	_	_	_	_	bratT15=Ordinal|bratT17=Date-relative
-18	и	_	_	_	_	_	_	_	bratT17=Date-relative
-19	последующих	_	_	_	_	_	_	_	bratT16=Ordinal|bratT17=Date-relative
-20	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Date-relative
+16	в	_	_	_	_	_	_	_	bratA8=T17:Future|bratT17=Date-absolute
+17	следующем	_	_	_	_	_	_	_	bratA8=T17:Future|bratT15=Ordinal|bratT17=Date-absolute
+18	и	_	_	_	_	_	_	_	bratA8=T17:Future|bratT17=Date-absolute
+19	последующих	_	_	_	_	_	_	_	bratA8=T17:Future|bratT16=Ordinal|bratT17=Date-absolute
+20	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T17:Future|bratT17=Date-absolute
 21	.	_	_	_	_	_	_	_	_
 

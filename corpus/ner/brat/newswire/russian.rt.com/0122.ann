@@ -11,7 +11,7 @@ T10	Organization 739 755	президиума   РАН
 A2	Department T10
 T11	Organization 752 755	РАН
 T12	Organization 792 804	Белом   доме
-T13	Date-period 807 840	после   20   января   2021   года
+T13	Date-absolute 807 840	после   20   января   2021   года
 T14	Person-property 1004 1015	замминистра
 T15	GPE 1115 1121	Москвы
 T16	GPE 1128 1138	Вашингтона
@@ -30,4 +30,8 @@ T28	Organization 286 303	российского   МИД
 T29	Person 275 321	замглавы   российского   МИД   Сергей   Рябков
 T9	Ordinal 432 441	последние
 T30	Date-period 427 448	за   последние   годы
-T31	Date-relative 1144 1151	Ранее  
+T31	Time-relative 1144 1149	Ранее
+A3	Future T13
+T32	Duration 444 448	годы
+T33	Date-absolute 432 448	последние   годы
+A4	Past T33

@@ -19,7 +19,7 @@ T18	Other-group 905 914	пациентку
 T19	Person-property 1096 1101	врачи
 T20	Person-property 1108 1116	санитары
 T21	Person-property 1123 1132	медсестры
-T22	Date-duration 1460 1473	девять   дней
+T22	Duration 1460 1473	девять   дней
 T23	Person-property 1512 1518	врачей
 T24	Other-term 1545 1554	консилиум
 T25	Organization 1832 1883	отделение   пульмонологии   №1   краевой   больницы
@@ -30,8 +30,20 @@ A4	Media T7
 T9	Person-property 1616 1623	доктора
 T12	Ordinal 563 572	следующий
 T28	Ordinal 1860 1862	№1
-T29	Date-relative 1888 1912	К   настоящему   времени
-T30	Date-duration 1804 1825	на   несколько   дней
-T31	Date-period 453 476	после   своей   свадьбы
+T29	Date-absolute 1888 1912	К   настоящему   времени
+T30	Date-period 1804 1825	на   несколько   дней
+T31	Date-relative 453 476	после   своей   свадьбы
 T32	Age 1086 1093	Молодые
 T33	Age 1191 1198	молодые
+T34	Date-period 1460 1473	девять   дней
+T35	Duration 1809 1825	несколько   дней
+A5	Past T34
+A6	Past T30
+A7	Past T31
+T36	Event 461 476	своей   свадьбы
+T37	Event 590 599	торжества
+A8	Past T11
+A9	Past T29
+T38	Event 540 552	беременности
+T40	Date-relative 520 552	на   7-м   месяце   беременности
+A10	Past T40

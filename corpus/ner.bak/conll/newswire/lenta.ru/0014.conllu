@@ -123,9 +123,9 @@
 4	приходят	_	_	_	_	_	_	_	_
 5	туда	_	_	_	_	_	_	_	_
 6	уже	_	_	_	_	_	_	_	_
-7	не	_	_	_	_	_	_	_	_
-8	первый	_	_	_	_	_	_	_	bratT26=Ordinal
-9	день	_	_	_	_	_	_	_	SpaceAfter=No
+7	не	_	_	_	_	_	_	_	bratT26=Ordinal|bratT48=Date-duration
+8	первый	_	_	_	_	_	_	_	bratT26=Ordinal|bratT48=Date-duration
+9	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Date-duration
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p4-s3
@@ -137,7 +137,7 @@
 5	из	_	_	_	_	_	_	_	_
 6	трех	_	_	_	_	_	_	_	bratT13=Quantity
 7	десятков	_	_	_	_	_	_	_	bratT13=Quantity
-8	полицейских	_	_	_	_	_	_	_	bratT13=Quantity
+8	полицейских	_	_	_	_	_	_	_	bratT13=Quantity|bratT49=Person-property
 9	на	_	_	_	_	_	_	_	_
 10	велосипедах	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
@@ -146,7 +146,7 @@
 # par_text = Ранее адвокат Дональда Трампа Рудольф Джулиани заявил о возможных планах подать судебный иск по выборам на федеральном уровне. Также он пообещал искать «мертвые души» на выборах в Пенсильвании, конкретно в Филадельфии.
 # sent_id = 0014-p5-s1
 # text = Ранее адвокат Дональда Трампа Рудольф Джулиани заявил о возможных планах подать судебный иск по выборам на федеральном уровне.
-1	Ранее	_	_	_	_	_	_	_	_
+1	Ранее	_	_	_	_	_	_	_	bratT47=Date-relative
 2	адвокат	_	_	_	_	_	_	_	bratT14=Person-property|bratT16=Person
 3	Дональда	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person|bratT16=Person
 4	Трампа	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person|bratT16=Person

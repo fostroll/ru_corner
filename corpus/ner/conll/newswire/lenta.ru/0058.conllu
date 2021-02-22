@@ -152,9 +152,9 @@
 7	в	_	_	_	_	_	_	_	_
 8	городе	_	_	_	_	_	_	_	_
 9	начались	_	_	_	_	_	_	_	_
-10	больше	_	_	_	_	_	_	_	bratT5=Date-relative
-11	месяца	_	_	_	_	_	_	_	bratT5=Date-relative
-12	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-relative
+10	больше	_	_	_	_	_	_	_	bratA3=T5:Past|bratT13=Duration|bratT5=Date-absolute
+11	месяца	_	_	_	_	_	_	_	bratA3=T5:Past|bratT13=Duration|bratT5=Date-absolute
+12	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T5:Past|bratT5=Date-absolute
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p4-s3
@@ -177,8 +177,8 @@
 
 # sent_id = 0058-p4-s4
 # text = После случившегося журналисты задались вопросом, обвалится ли весь торговый центр, если тротуар не отремонтируют.
-1	После	_	_	_	_	_	_	_	bratT11=Date-period
-2	случившегося	_	_	_	_	_	_	_	bratT11=Date-period
+1	После	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-relative
+2	случившегося	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-relative
 3	журналисты	_	_	_	_	_	_	_	bratT6=Person-property
 4	задались	_	_	_	_	_	_	_	_
 5	вопросом	_	_	_	_	_	_	_	SpaceAfter=No
@@ -199,11 +199,11 @@
 # par_text = В октябре 2020 года недавно отремонтированный тротуар ушел под землю на пересечении двух улиц в Саратове и фактически превратился в ловушку для жителей. В углублении появилась вода и стала заметна труба. Местные журналисты предупредили, что в темное время суток горожане могут упасть в яму, так как коммунальщики никак не обозначили опасный участок.
 # sent_id = 0058-p5-s1
 # text = В октябре 2020 года недавно отремонтированный тротуар ушел под землю на пересечении двух улиц в Саратове и фактически превратился в ловушку для жителей.
-1	В	_	_	_	_	_	_	_	bratT7=Date-absolute
-2	октябре	_	_	_	_	_	_	_	bratT7=Date-absolute
-3	2020	_	_	_	_	_	_	_	bratT7=Date-absolute
-4	года	_	_	_	_	_	_	_	bratT7=Date-absolute
-5	недавно	_	_	_	_	_	_	_	bratT12=Date-relative
+1	В	_	_	_	_	_	_	_	bratA1=T7:Past|bratT7=Date-absolute
+2	октябре	_	_	_	_	_	_	_	bratA1=T7:Past|bratT7=Date-absolute
+3	2020	_	_	_	_	_	_	_	bratA1=T7:Past|bratT7=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA1=T7:Past|bratT7=Date-absolute
+5	недавно	_	_	_	_	_	_	_	bratA5=T12:Past|bratT12=Date-relative
 6	отремонтированный	_	_	_	_	_	_	_	_
 7	тротуар	_	_	_	_	_	_	_	_
 8	ушел	_	_	_	_	_	_	_	_
@@ -243,10 +243,10 @@
 3	предупредили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT4=Time-period
-7	темное	_	_	_	_	_	_	_	bratT4=Time-period
-8	время	_	_	_	_	_	_	_	bratT4=Time-period
-9	суток	_	_	_	_	_	_	_	bratT4=Time-period
+6	в	_	_	_	_	_	_	_	bratT4=Time-absolute
+7	темное	_	_	_	_	_	_	_	bratT4=Time-absolute
+8	время	_	_	_	_	_	_	_	bratT4=Time-absolute
+9	суток	_	_	_	_	_	_	_	bratT4=Time-absolute
 10	горожане	_	_	_	_	_	_	_	_
 11	могут	_	_	_	_	_	_	_	_
 12	упасть	_	_	_	_	_	_	_	_

@@ -187,11 +187,11 @@
 # par_text = В ночь на 10 ноября Армения, Азербайджан и Россия подписали заявление о прекращении боевых действий в Нагорном Карабахе. Воюющие стороны остаются на занятых позициях, а в регион входят миротворцы Российской Федерации.
 # sent_id = 0078-p5-s1
 # text = В ночь на 10 ноября Армения, Азербайджан и Россия подписали заявление о прекращении боевых действий в Нагорном Карабахе.
-1	В	_	_	_	_	_	_	_	bratT40=Time-period
-2	ночь	_	_	_	_	_	_	_	bratT40=Time-period
-3	на	_	_	_	_	_	_	_	bratT40=Time-period
-4	10	_	_	_	_	_	_	_	bratT32=Date-absolute
-5	ноября	_	_	_	_	_	_	_	bratT32=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA5=T32:Past|bratT32=Date-absolute|bratT40=Time-absolute
+2	ночь	_	_	_	_	_	_	_	bratA5=T32:Past|bratT32=Date-absolute|bratT40=Time-absolute
+3	на	_	_	_	_	_	_	_	bratA5=T32:Past|bratT32=Date-absolute|bratT40=Time-absolute
+4	10	_	_	_	_	_	_	_	bratA5=T32:Past|bratT32=Date-absolute
+5	ноября	_	_	_	_	_	_	_	bratA5=T32:Past|bratT32=Date-absolute
 6	Армения	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
 7	,	_	_	_	_	_	_	_	_
 8	Азербайджан	_	_	_	_	_	_	_	bratT37=GPE

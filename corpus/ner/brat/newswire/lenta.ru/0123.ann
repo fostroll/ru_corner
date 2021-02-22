@@ -37,5 +37,9 @@ T19	Person 784 790	Бенсон
 T2	Person-property 624 692	сотрудники   избирательных   участков   и   избирательных   комиссий
 A2	Plural T2
 T25	Date-period 695 717	с   момента   подсчета
-T29	Date-relative 878 883	Ранее
-T39	Date-period 973 989	После   подсчета
+T29	Time-relative 878 883	Ранее
+T39	Date-relative 973 989	После   подсчета
+T40	Event 709 717	подсчета
+A3	Past T25
+A4	Past T39
+T41	Event 981 1016	подсчета   99   процентов   голосов

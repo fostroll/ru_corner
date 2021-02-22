@@ -30,9 +30,9 @@
 11	в	_	_	_	_	_	_	_	_
 12	рамках	_	_	_	_	_	_	_	_
 13	заключённого	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	bratT36=Date-absolute
-15	2015	_	_	_	_	_	_	_	bratT36=Date-absolute
-16	году	_	_	_	_	_	_	_	bratT36=Date-absolute
+14	в	_	_	_	_	_	_	_	bratA3=T36:Past|bratT36=Date-absolute
+15	2015	_	_	_	_	_	_	_	bratA3=T36:Past|bratT36=Date-absolute
+16	году	_	_	_	_	_	_	_	bratA3=T36:Past|bratT36=Date-absolute
 17	контракта	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	сообщили	_	_	_	_	_	_	_	_
@@ -134,16 +134,16 @@
 # par_text = В августе сообщалось, что Минобороны до конца 2020 года закупит новую партию истребителей Су-35С на 70 млрд рублей.
 # sent_id = 0099-p6-s1
 # text = В августе сообщалось, что Минобороны до конца 2020 года закупит новую партию истребителей Су-35С на 70 млрд рублей.
-1	В	_	_	_	_	_	_	_	bratT26=Date-absolute
-2	августе	_	_	_	_	_	_	_	bratT26=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA5=T26:Past|bratT26=Date-absolute
+2	августе	_	_	_	_	_	_	_	bratA5=T26:Past|bratT26=Date-absolute
 3	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	Минобороны	_	_	_	_	_	_	_	bratT27=Organization
-7	до	_	_	_	_	_	_	_	bratT28=Date-period
-8	конца	_	_	_	_	_	_	_	bratT28=Date-period
-9	2020	_	_	_	_	_	_	_	bratT28=Date-period
-10	года	_	_	_	_	_	_	_	bratT28=Date-period
+7	до	_	_	_	_	_	_	_	bratA7=T28:Future|bratT28=Date-absolute
+8	конца	_	_	_	_	_	_	_	bratA7=T28:Future|bratT28=Date-absolute
+9	2020	_	_	_	_	_	_	_	bratA7=T28:Future|bratT28=Date-absolute
+10	года	_	_	_	_	_	_	_	bratA7=T28:Future|bratT28=Date-absolute
 11	закупит	_	_	_	_	_	_	_	_
 12	новую	_	_	_	_	_	_	_	_
 13	партию	_	_	_	_	_	_	_	_

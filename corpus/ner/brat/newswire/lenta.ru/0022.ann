@@ -14,7 +14,6 @@ T16	GPE 1039 1045	Англии
 T17	Service 1058 1063	Excel
 T18	Organization 1068 1117	Служба   общественного   здравоохранения   Англии
 T20	Service 1184 1201	Microsoft   Excel
-T21	Date-absolute 1264 1277	3-4   октября
 T22	GPE 1384 1390	Англии
 T23	Quantity 1426 1446	16   тысяч   случаев
 T3	Quantity 97 123	Более   200   австралийцев
@@ -29,4 +28,9 @@ T27	Person-property 669 680	специалисты
 T28	Person-property 960 971	специалисты
 T11	GPE 1111 1117	Англии
 T4	Organization 1124 1127	PHE
-T19	Date-relative 379 384	ранее
+T19	Time-relative 379 384	ранее
+A5	Past T14
+T30	Date-absolute 1264 1277	3-4   октября
+A7	Past T30
+T21	Other-term 785 786	B
+T29	Other-term 793 794	C

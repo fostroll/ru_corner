@@ -114,9 +114,9 @@
 # sent_id = 0011-p4-s2
 # text = Однако на данный момент в России слишком маленькая база геномных данных для анализа.
 1	Однако	_	_	_	_	_	_	_	_
-2	на	_	_	_	_	_	_	_	bratT10=Date-relative
-3	данный	_	_	_	_	_	_	_	bratT10=Date-relative
-4	момент	_	_	_	_	_	_	_	bratT10=Date-relative
+2	на	_	_	_	_	_	_	_	bratA3=T10:Present|bratT10=Date-absolute
+3	данный	_	_	_	_	_	_	_	bratA3=T10:Present|bratT10=Date-absolute
+4	момент	_	_	_	_	_	_	_	bratA3=T10:Present|bratT10=Date-absolute
 5	в	_	_	_	_	_	_	_	_
 6	России	_	_	_	_	_	_	_	bratT12=GPE
 7	слишком	_	_	_	_	_	_	_	_
@@ -147,8 +147,8 @@
 13	трансформации	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
 14	федеральных	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
 15	ведомств	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
-16	12	_	_	_	_	_	_	_	bratT15=Date-absolute
-17	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-absolute
+16	12	_	_	_	_	_	_	_	bratA2=T15:Past|bratT15=Date-absolute
+17	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Past|bratT15=Date-absolute
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p5-s2

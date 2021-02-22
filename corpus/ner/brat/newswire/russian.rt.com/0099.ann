@@ -27,7 +27,7 @@ T24	Quantity 919 933	50   самолётов
 T25	Product 924 942	самолётов   Су-35С
 T26	Date-absolute 948 959	В   августе
 T27	Organization 985 995	Минобороны
-T28	Date-period 998 1022	до   конца   2020   года
+T28	Date-absolute 998 1022	до   конца   2020   года
 T29	Product 1052 1073	истребителей   Су-35С
 T30	Money 1081 1099	70   млрд   рублей
 T31	Ordinal 295 301	485-го
@@ -38,3 +38,6 @@ T35	Product 157 178	истребителей   Су-35С
 T36	Date-absolute 209 224	в   2015   году
 T37	Organization 258 268	Минобороны
 T12	Ordinal 780 784	23-й
+A3	Past T36
+A5	Past T26
+A7	Future T28

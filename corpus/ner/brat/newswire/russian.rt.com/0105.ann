@@ -9,12 +9,18 @@ T8	GPE 524 555	Первомайского   района   города
 T9	Quantity 568 577	20   тыс.
 T10	Organization 637 662	``   Примтеплоэнерго   ''
 T11	GPE 739 747	Приморье
-T4	Date-relative 230 236	завтра
+T4	Date-absolute 230 249	завтра   к   вечеру
 T12	Person-property 78 104	Глава   Приморского   края
 T13	GPE 86 104	Приморского   края
 T14	Person 78 122	Глава   Приморского   края   Олег   Кожемяко
 T15	GPE 154 166	Владивостоке
-T16	Time-period 601 619	в   течение   ночи
-T17	Time-period 239 249	к   вечеру
-T18	Date-relative 625 632	Ранее  
-T19	Date-period 750 781	после   аварийного   отключения
+T16	Date-period 601 619	в   течение   ночи
+T18	Time-relative 625 630	Ранее
+T20	Time-absolute 239 249	к   вечеру
+A2	Future T4
+A3	Future T5
+T21	Date-absolute 615 619	ночи
+T22	Event 758 781	аварийного   отключения
+A5	Future T21
+T23	Time-absolute 615 619	ночи
+T24	Time-relative 750 755	после

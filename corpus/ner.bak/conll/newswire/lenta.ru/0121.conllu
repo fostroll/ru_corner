@@ -81,7 +81,7 @@
 8	сдал	_	_	_	_	_	_	_	_
 9	экзамен	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
-11	позже	_	_	_	_	_	_	_	_
+11	позже	_	_	_	_	_	_	_	bratT14=Date-relative
 12	выяснилось	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
@@ -116,8 +116,8 @@
 8	сотрудник	_	_	_	_	_	_	_	bratT12=Person-property
 9	экзаменационного	_	_	_	_	_	_	_	bratT12=Person-property
 10	подразделения	_	_	_	_	_	_	_	bratT12=Person-property
-11	после	_	_	_	_	_	_	_	_
-12	проверки	_	_	_	_	_	_	_	SpaceAfter=No
+11	после	_	_	_	_	_	_	_	bratT15=Date-period
+12	проверки	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-period
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0121-p3-s3
@@ -149,9 +149,9 @@
 4	планируют	_	_	_	_	_	_	_	_
 5	сократить	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
-7	17	_	_	_	_	_	_	_	bratT9=Cardinal
+7	17	_	_	_	_	_	_	_	bratT9=Quantity
 8	до	_	_	_	_	_	_	_	_
-9	15	_	_	_	_	_	_	_	bratT10=Cardinal
+9	15	_	_	_	_	_	_	_	bratT10=Quantity
 10	количество	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
 12	грубых	_	_	_	_	_	_	_	SpaceAfter=No

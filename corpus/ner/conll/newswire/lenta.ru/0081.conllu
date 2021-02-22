@@ -48,11 +48,11 @@
 # text = Об этом в четверг, 29 октября, ``Ленте.ру'' сообщил источник в правоохранительных органах.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT11=Date-absolute
-4	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT11=Date-absolute
-6	29	_	_	_	_	_	_	_	bratT11=Date-absolute
-7	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-absolute
+4	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Past|bratT11=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-absolute
+6	29	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-absolute
+7	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Past|bratT11=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
 10	Ленте.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
@@ -101,7 +101,7 @@
 
 # sent_id = 0081-p3-s2
 # text = Позднее дело было переквалифицировано на статью 109 (``Убийство по неосторожности'').
-1	Позднее	_	_	_	_	_	_	_	bratT39=Date-relative
+1	Позднее	_	_	_	_	_	_	_	bratT39=Time-relative
 2	дело	_	_	_	_	_	_	_	_
 3	было	_	_	_	_	_	_	_	_
 4	переквалифицировано	_	_	_	_	_	_	_	_
@@ -202,9 +202,9 @@
 # par_text = Вечером 7 марта рядом с квартирой судьи Саяпина было обнаружено тело подростка с огнестрельным ранением. Выяснилось, что погибший и его сверстники вместе смотрели в квартире хоккей и около 21:00 сын судьи, достав отцовское ружье, застрелил одного из друзей. Затем подозреваемый, по словам свидетеля, вынес тело на лестницу и сбежал. Мать погибшего подростка назвала произошедшее трагической случайностью.
 # sent_id = 0081-p5-s1
 # text = Вечером 7 марта рядом с квартирой судьи Саяпина было обнаружено тело подростка с огнестрельным ранением.
-1	Вечером	_	_	_	_	_	_	_	bratT38=Time-period
-2	7	_	_	_	_	_	_	_	bratT22=Date-absolute
-3	марта	_	_	_	_	_	_	_	bratT22=Date-absolute
+1	Вечером	_	_	_	_	_	_	_	bratA4=T22:Past|bratT22=Date-absolute|bratT38=Time-absolute
+2	7	_	_	_	_	_	_	_	bratA4=T22:Past|bratT22=Date-absolute
+3	марта	_	_	_	_	_	_	_	bratA4=T22:Past|bratT22=Date-absolute
 4	рядом	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	квартирой	_	_	_	_	_	_	_	_
@@ -234,8 +234,8 @@
 11	квартире	_	_	_	_	_	_	_	_
 12	хоккей	_	_	_	_	_	_	_	_
 13	и	_	_	_	_	_	_	_	_
-14	около	_	_	_	_	_	_	_	bratT25=Time-absolute
-15	21:00	_	_	_	_	_	_	_	bratT25=Time-absolute
+14	около	_	_	_	_	_	_	_	bratA5=T45:Past|bratT25=Time-absolute|bratT45=Date-relative
+15	21:00	_	_	_	_	_	_	_	bratA5=T45:Past|bratT25=Time-absolute|bratT45=Date-relative
 16	сын	_	_	_	_	_	_	_	bratT26=Family|bratT28=Person
 17	судьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property|bratT28=Person
 18	,	_	_	_	_	_	_	_	_
@@ -251,7 +251,7 @@
 
 # sent_id = 0081-p5-s3
 # text = Затем подозреваемый, по словам свидетеля, вынес тело на лестницу и сбежал.
-1	Затем	_	_	_	_	_	_	_	bratT40=Date-relative
+1	Затем	_	_	_	_	_	_	_	bratT40=Time-relative
 2	подозреваемый	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property
 3	,	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_

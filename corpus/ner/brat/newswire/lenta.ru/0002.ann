@@ -6,19 +6,17 @@ T6	Person 202 220	Александр   Бурков
 T7	GPE 263 269	Москве
 T8	Other-term 244 256	коронавируса
 T9	Organization 297 310	РИА   Новости
-T10	Date-absolute 313 341	в   четверг   ,   5   ноября
 T11	Person-property 347 354	Политик
 T12	Other-term 400 413	коронавирусом
 T13	GPE 453 459	Москву
 T14	GPE 530 536	Москве
 T15	Organization 564 580	Роспотребнадзора
-T16	Date-duration 647 659	три   недели
+T16	Date-period 647 659	три   недели
 T17	Person 782 788	Бурков
 T18	GPE 666 672	Москве
-T19	Date-duration 820 826	неделя
 T20	Ordinal 811 817	первая
 T21	Ordinal 863 869	второй
-T22	Date-relative 936 955	Ранее   в   четверг
+T22	Date-absolute 936 955	Ранее   в   четверг
 T23	Person 958 964	Бурков
 T26	Organization 1162 1171	Минздраве
 T27	Service 1219 1226	скорыми
@@ -41,5 +39,18 @@ T43	GPE 499 506	столицу
 A1	Media T9
 T44	Family 728 735	ребенка
 T45	Family 742 746	жены
-T35	Date-period 416 446	во   время   рабочей   поездки
-T37	Date-period 1469 1489	После   случившегося
+T35	Date-relative 416 446	во   время   рабочей   поездки
+T37	Date-relative 1469 1489	После   случившегося
+A2	Past T29
+A3	Present T10
+T38	Duration 647 659	три   недели
+T46	Date-period 811 826	первая   неделя
+A4	Past T16
+A5	Past T46
+A6	Past T35
+A7	Past T22
+A8	Past T37
+T47	Date-period 858 869	со   второй
+A9	Past T47
+T10	Date-absolute 313 341	в   четверг   ,   5   ноября
+T48	Time-relative 936 941	Ранее

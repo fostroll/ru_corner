@@ -8,9 +8,9 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	пик	_	_	_	_	_	_	_	_
-6	кризиса	_	_	_	_	_	_	_	_
-7	после	_	_	_	_	_	_	_	bratT19=Date-period
-8	циклона	_	_	_	_	_	_	_	bratT19=Date-period|bratT20=Event
+6	кризиса	_	_	_	_	_	_	_	bratT25=Event
+7	после	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-period|bratT25=Event
+8	циклона	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-period|bratT20=Event|bratT25=Event
 9	в	_	_	_	_	_	_	_	_
 10	Приморье	_	_	_	_	_	_	_	bratT1=GPE
 11	пройден	_	_	_	_	_	_	_	_
@@ -20,9 +20,9 @@
 # sent_id = 0014-p2-s1
 # text = Пик кризиса после циклона в Приморском крае пройден, заявил глава Минвостокразвития Алексей Чекунков.
 1	Пик	_	_	_	_	_	_	_	_
-2	кризиса	_	_	_	_	_	_	_	_
-3	после	_	_	_	_	_	_	_	bratT22=Date-period
-4	циклона	_	_	_	_	_	_	_	bratT21=Event|bratT22=Date-period
+2	кризиса	_	_	_	_	_	_	_	bratT26=Event
+3	после	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-period|bratT26=Event
+4	циклона	_	_	_	_	_	_	_	bratA5=T22:Past|bratT21=Event|bratT22=Date-period|bratT26=Event
 5	в	_	_	_	_	_	_	_	_
 6	Приморском	_	_	_	_	_	_	_	bratT13=GPE
 7	крае	_	_	_	_	_	_	_	bratT13=GPE
@@ -87,9 +87,9 @@
 19	их	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	либо	_	_	_	_	_	_	_	_
-22	в	_	_	_	_	_	_	_	bratT4=Time-period
-23	ближайшие	_	_	_	_	_	_	_	bratT4=Time-period
-24	сутки	_	_	_	_	_	_	_	bratT4=Time-period
+22	в	_	_	_	_	_	_	_	bratA3=T4:Future|bratT4=Date-absolute
+23	ближайшие	_	_	_	_	_	_	_	bratA3=T4:Future|bratT24=Ordinal|bratT4=Date-absolute
+24	сутки	_	_	_	_	_	_	_	bratA3=T4:Future|bratT23=Duration|bratT4=Date-absolute
 25	получат	_	_	_	_	_	_	_	SpaceAfter=No
 26	''	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
@@ -118,7 +118,7 @@
 # par_text = Ранее премьер-министр России Михаил Мишустин поручил предоставить Приморью максимальные ресурсы для ликвидации последствий снежного циклона.
 # sent_id = 0014-p6-s1
 # text = Ранее премьер-министр России Михаил Мишустин поручил предоставить Приморью максимальные ресурсы для ликвидации последствий снежного циклона.
-1	Ранее	_	_	_	_	_	_	_	bratT18=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT18=Time-relative
 2	премьер-министр	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
 3	России	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=GPE
 4	Михаил	_	_	_	_	_	_	_	bratT6=Person

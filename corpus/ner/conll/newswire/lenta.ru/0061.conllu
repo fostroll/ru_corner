@@ -134,9 +134,9 @@
 4	напомнил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	во	_	_	_	_	_	_	_	bratT29=Date-period
-8	время	_	_	_	_	_	_	_	bratT29=Date-period
-9	регистрации	_	_	_	_	_	_	_	bratT29=Date-period
+7	во	_	_	_	_	_	_	_	bratT29=Time-relative
+8	время	_	_	_	_	_	_	_	bratT29=Time-relative
+9	регистрации	_	_	_	_	_	_	_	_
 10	самозанятые	_	_	_	_	_	_	_	bratT24=Person-property
 11	получают	_	_	_	_	_	_	_	_
 12	налоговый	_	_	_	_	_	_	_	_
@@ -148,9 +148,9 @@
 18	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Money
 19	,	_	_	_	_	_	_	_	_
 20	а	_	_	_	_	_	_	_	_
-21	на	_	_	_	_	_	_	_	bratT27=Date-period
-22	время	_	_	_	_	_	_	_	bratT27=Date-period
-23	пандемии	_	_	_	_	_	_	_	bratT16=Event|bratT27=Date-period
+21	на	_	_	_	_	_	_	_	bratA2=T27:Present|bratT27=Date-period
+22	время	_	_	_	_	_	_	_	bratA2=T27:Present|bratT27=Date-period
+23	пандемии	_	_	_	_	_	_	_	bratA2=T27:Present|bratT16=Event|bratT27=Date-period
 24	коронавируса	_	_	_	_	_	_	_	bratT16=Event|bratT30=Other-term
 25	введен	_	_	_	_	_	_	_	_
 26	дополнительный	_	_	_	_	_	_	_	_

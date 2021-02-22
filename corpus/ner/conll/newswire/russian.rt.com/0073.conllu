@@ -17,9 +17,9 @@
 1	В	_	_	_	_	_	_	_	_
 2	Китае	_	_	_	_	_	_	_	bratT21=GPE
 3	планируют	_	_	_	_	_	_	_	_
-4	в	_	_	_	_	_	_	_	bratT22=Date-absolute
-5	2021	_	_	_	_	_	_	_	bratT22=Date-absolute
-6	году	_	_	_	_	_	_	_	bratT22=Date-absolute
+4	в	_	_	_	_	_	_	_	bratA4=T22:Future|bratT22=Date-absolute
+5	2021	_	_	_	_	_	_	_	bratA4=T22:Future|bratT22=Date-absolute
+6	году	_	_	_	_	_	_	_	bratA4=T22:Future|bratT22=Date-absolute
 7	начать	_	_	_	_	_	_	_	_
 8	строительство	_	_	_	_	_	_	_	_
 9	собственной	_	_	_	_	_	_	_	_
@@ -60,8 +60,8 @@
 # text = ``Со следующего года мы собираемся начать выполнять пуски в рамках миссии по строительству космической станции нашей страны'', - цитирует его РИА Новости.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Со	_	_	_	_	_	_	_	bratT7=Date-period
-3	следующего	_	_	_	_	_	_	_	bratT23=Ordinal|bratT7=Date-period
-4	года	_	_	_	_	_	_	_	bratT7=Date-period
+3	следующего	_	_	_	_	_	_	_	bratA6=T28:Future|bratT23=Ordinal|bratT28=Date-absolute|bratT7=Date-period
+4	года	_	_	_	_	_	_	_	bratA6=T28:Future|bratT28=Date-absolute|bratT7=Date-period
 5	мы	_	_	_	_	_	_	_	_
 6	собираемся	_	_	_	_	_	_	_	_
 7	начать	_	_	_	_	_	_	_	_
@@ -97,9 +97,9 @@
 6	станция	_	_	_	_	_	_	_	bratT20=Facility
 7	получила	_	_	_	_	_	_	_	_
 8	название	_	_	_	_	_	_	_	_
-9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Unconscious|bratT9=Person
-10	Тяньгун	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Unconscious|bratT9=Person
-11	''	_	_	_	_	_	_	_	bratA3=T9:Unconscious|bratT9=Person
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Facility
+10	Тяньгун	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Facility
+11	''	_	_	_	_	_	_	_	bratT9=Facility
 12	(	_	_	_	_	_	_	_	SpaceAfter=No
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	Небесный	_	_	_	_	_	_	_	_
@@ -110,16 +110,16 @@
 19	на	_	_	_	_	_	_	_	_
 20	ней	_	_	_	_	_	_	_	_
 21	смогут	_	_	_	_	_	_	_	_
-22	одновременно	_	_	_	_	_	_	_	_
+22	одновременно	_	_	_	_	_	_	_	bratT27=Time-relative
 23	находиться	_	_	_	_	_	_	_	_
 24	три	_	_	_	_	_	_	_	bratT10=Quantity
 25	космонавта	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Quantity
 26	,	_	_	_	_	_	_	_	_
 27	а	_	_	_	_	_	_	_	_
-28	во	_	_	_	_	_	_	_	bratT24=Date-period
-29	время	_	_	_	_	_	_	_	bratT24=Date-period
-30	смены	_	_	_	_	_	_	_	bratT24=Date-period
-31	экипажа	_	_	_	_	_	_	_	bratT24=Date-period
+28	во	_	_	_	_	_	_	_	bratT24=Time-relative
+29	время	_	_	_	_	_	_	_	bratT24=Time-relative
+30	смены	_	_	_	_	_	_	_	bratT29=Event
+31	экипажа	_	_	_	_	_	_	_	bratT29=Event
 32	-	_	_	_	_	_	_	_	_
 33	шесть	_	_	_	_	_	_	_	bratT11=Quantity
 34	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
@@ -134,9 +134,9 @@
 3	,	_	_	_	_	_	_	_	_
 4	станцию	_	_	_	_	_	_	_	_
 5	построят	_	_	_	_	_	_	_	_
-6	к	_	_	_	_	_	_	_	bratT12=Date-absolute
-7	2022	_	_	_	_	_	_	_	bratT12=Date-absolute
-8	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-absolute
+6	к	_	_	_	_	_	_	_	bratA5=T12:Future|bratT12=Date-absolute
+7	2022	_	_	_	_	_	_	_	bratA5=T12:Future|bratT12=Date-absolute
+8	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T12:Future|bratT12=Date-absolute
 9	,	_	_	_	_	_	_	_	_
 10	для	_	_	_	_	_	_	_	_
 11	этого	_	_	_	_	_	_	_	_
@@ -150,7 +150,7 @@
 # par_text = Ранее сообщалось, что Китай запустил ракету-носитель с возвращаемым аппаратом «Чанъэ-5», который должен совершить посадку на Луну, собрать там образцы грунта, а после вернуться на Землю.
 # sent_id = 0073-p7-s1
 # text = Ранее сообщалось, что Китай запустил ракету-носитель с возвращаемым аппаратом ``Чанъэ-5'', который должен совершить посадку на Луну, собрать там образцы грунта, а после вернуться на Землю.
-1	Ранее	_	_	_	_	_	_	_	bratT25=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT25=Time-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -177,7 +177,7 @@
 25	грунта	_	_	_	_	_	_	_	SpaceAfter=No
 26	,	_	_	_	_	_	_	_	_
 27	а	_	_	_	_	_	_	_	_
-28	после	_	_	_	_	_	_	_	bratT26=Date-relative
+28	после	_	_	_	_	_	_	_	bratT26=Time-relative
 29	вернуться	_	_	_	_	_	_	_	_
 30	на	_	_	_	_	_	_	_	_
 31	Землю	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Location

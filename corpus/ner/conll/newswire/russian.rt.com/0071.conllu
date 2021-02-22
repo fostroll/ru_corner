@@ -57,9 +57,9 @@
 9	сформироваться	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	Москве	_	_	_	_	_	_	_	bratT4=GPE
-12	к	_	_	_	_	_	_	_	bratT5=Date-absolute
-13	1	_	_	_	_	_	_	_	bratT5=Date-absolute
-14	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
+12	к	_	_	_	_	_	_	_	bratA2=T5:Future|bratT5=Date-absolute
+13	1	_	_	_	_	_	_	_	bratA2=T5:Future|bratT5=Date-absolute
+14	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Future|bratT5=Date-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0071-p5
@@ -73,8 +73,8 @@
 5	снег	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	выпавший	_	_	_	_	_	_	_	_
-8	26	_	_	_	_	_	_	_	bratT6=Date-absolute
-9	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Date-absolute
+8	26	_	_	_	_	_	_	_	bratA3=T6:Past|bratT6=Date-absolute
+9	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T6:Past|bratT6=Date-absolute
 10	,	_	_	_	_	_	_	_	_
 11	растает	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 # par_text = Ранее сообщалось, что циклон «Таня» станет причиной ухудшения погоды в Москве 26 ноября.
 # sent_id = 0071-p6-s1
 # text = Ранее сообщалось, что циклон ``Таня'' станет причиной ухудшения погоды в Москве 26 ноября.
-1	Ранее	_	_	_	_	_	_	_	bratT10=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT10=Time-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -97,7 +97,7 @@
 12	погоды	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	Москве	_	_	_	_	_	_	_	bratT8=GPE
-15	26	_	_	_	_	_	_	_	bratT7=Date-absolute
-16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-absolute
+15	26	_	_	_	_	_	_	_	bratA4=T7:Future|bratT7=Date-absolute
+16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Future|bratT7=Date-absolute
 17	.	_	_	_	_	_	_	_	_
 

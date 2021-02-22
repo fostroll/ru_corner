@@ -123,9 +123,9 @@
 3	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT16=Date-relative
-7	настоящее	_	_	_	_	_	_	_	bratT16=Date-relative
-8	время	_	_	_	_	_	_	_	bratT16=Date-relative
+6	в	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute
+7	настоящее	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute
+8	время	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute
 9	средняя	_	_	_	_	_	_	_	_
 10	доля	_	_	_	_	_	_	_	_
 11	вакансий	_	_	_	_	_	_	_	_
@@ -181,11 +181,11 @@
 2	Штаты	_	_	_	_	_	_	_	_
 3	центральных	_	_	_	_	_	_	_	_
 4	аппаратов	_	_	_	_	_	_	_	_
-5	с	_	_	_	_	_	_	_	bratT24=Date-period
-6	1	_	_	_	_	_	_	_	bratT24=Date-period
-7	января	_	_	_	_	_	_	_	bratT24=Date-period
-8	2021	_	_	_	_	_	_	_	bratT24=Date-period
-9	года	_	_	_	_	_	_	_	bratT24=Date-period
+5	с	_	_	_	_	_	_	_	bratT19=Date-period
+6	1	_	_	_	_	_	_	_	bratT19=Date-period|bratT24=Date-absolute
+7	января	_	_	_	_	_	_	_	bratT19=Date-period|bratT24=Date-absolute
+8	2021	_	_	_	_	_	_	_	bratT19=Date-period|bratT24=Date-absolute
+9	года	_	_	_	_	_	_	_	bratT19=Date-period|bratT24=Date-absolute
 10	должны	_	_	_	_	_	_	_	_
 11	быть	_	_	_	_	_	_	_	_
 12	сокращены	_	_	_	_	_	_	_	_
@@ -220,8 +220,8 @@
 # par_text = 17 ноября глава думского комитета по информационной политике, информационным технологиям и связи Александр Хинштейн заявил, что в правительстве России в рамках предложенной премьер-министром Михаилом Мишустиным реформы системы управления обсуждается вопрос ликвидации федеральных агентств Россвязь и Роспечать. В правительстве информацию подтвердили.
 # sent_id = 0010-p6-s1
 # text = 17 ноября глава думского комитета по информационной политике, информационным технологиям и связи Александр Хинштейн заявил, что в правительстве России в рамках предложенной премьер-министром Михаилом Мишустиным реформы системы управления обсуждается вопрос ликвидации федеральных агентств Россвязь и Роспечать.
-1	17	_	_	_	_	_	_	_	bratT28=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT28=Date-absolute
+1	17	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
 3	глава	_	_	_	_	_	_	_	bratT29=Person-property|bratT31=Person
 4	думского	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
 5	комитета	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
@@ -255,9 +255,9 @@
 33	ликвидации	_	_	_	_	_	_	_	_
 34	федеральных	_	_	_	_	_	_	_	bratA2=T36:Plural|bratT36=Organization
 35	агентств	_	_	_	_	_	_	_	bratA2=T36:Plural|bratT36=Organization
-36	Россвязь	_	_	_	_	_	_	_	bratA2=T36:Plural|bratT36=Organization
+36	Россвязь	_	_	_	_	_	_	_	bratA2=T36:Plural|bratT22=Organization|bratT36=Organization
 37	и	_	_	_	_	_	_	_	bratA2=T36:Plural|bratT36=Organization
-38	Роспечать	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T36:Plural|bratT36=Organization
+38	Роспечать	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T36:Plural|bratT26=Organization|bratT36=Organization
 39	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0010-p6-s2

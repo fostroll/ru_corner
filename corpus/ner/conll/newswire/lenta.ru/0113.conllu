@@ -11,8 +11,8 @@
 6	на	_	_	_	_	_	_	_	bratT1=Quantity
 7	30	_	_	_	_	_	_	_	bratT1=Quantity
 8	килограммов	_	_	_	_	_	_	_	bratT1=Quantity
-9	за	_	_	_	_	_	_	_	bratT2=Date-duration
-10	год	_	_	_	_	_	_	_	bratT2=Date-duration
+9	за	_	_	_	_	_	_	_	bratT2=Time-period
+10	год	_	_	_	_	_	_	_	bratT2=Time-period|bratT38=Duration
 
 # newpar id = 0113-p2
 # par_text = Спортивный комментатор Майкл Коул раскрыл секрет похудения на 30 килограммов за год. Его слова приводит The Sun.
@@ -28,8 +28,8 @@
 8	на	_	_	_	_	_	_	_	bratT6=Quantity
 9	30	_	_	_	_	_	_	_	bratT6=Quantity
 10	килограммов	_	_	_	_	_	_	_	bratT6=Quantity
-11	за	_	_	_	_	_	_	_	bratT7=Date-duration
-12	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-duration
+11	за	_	_	_	_	_	_	_	bratT7=Time-period
+12	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Duration|bratT7=Time-period
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0113-p2-s2
@@ -93,8 +93,8 @@
 7	питаться	_	_	_	_	_	_	_	_
 8	шесть	_	_	_	_	_	_	_	bratT11=Quantity
 9	раз	_	_	_	_	_	_	_	bratT11=Quantity
-10	в	_	_	_	_	_	_	_	bratT12=Date-duration
-11	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-duration
+10	в	_	_	_	_	_	_	_	bratT12=Time-period
+11	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Time-period|bratT34=Duration
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0113-p4
@@ -111,15 +111,15 @@
 8	начал	_	_	_	_	_	_	_	_
 9	два-три	_	_	_	_	_	_	_	bratT14=Quantity
 10	раза	_	_	_	_	_	_	_	bratT14=Quantity
-11	в	_	_	_	_	_	_	_	bratT15=Date-duration
-12	неделю	_	_	_	_	_	_	_	bratT15=Date-duration
+11	в	_	_	_	_	_	_	_	bratT15=Time-period
+12	неделю	_	_	_	_	_	_	_	bratT15=Time-period|bratT35=Duration
 13	заниматься	_	_	_	_	_	_	_	_
 14	кардиотренировками	_	_	_	_	_	_	_	bratT30=Other-term
 15	и	_	_	_	_	_	_	_	_
 16	два-три	_	_	_	_	_	_	_	bratT16=Quantity
 17	раза	_	_	_	_	_	_	_	bratT16=Quantity
-18	в	_	_	_	_	_	_	_	bratT17=Date-duration
-19	неделю	_	_	_	_	_	_	_	bratT17=Date-duration
+18	в	_	_	_	_	_	_	_	bratT17=Time-period
+19	неделю	_	_	_	_	_	_	_	bratT17=Time-period|bratT36=Duration
 20	делать	_	_	_	_	_	_	_	_
 21	силовые	_	_	_	_	_	_	_	_
 22	упражнения	_	_	_	_	_	_	_	_
@@ -146,10 +146,10 @@
 # par_text = В июле этого года американскому бойцу смешанного стиля (MMA) Хорхе Масвидалю удалось сбросить девять килограммов за четыре дня. Спортсмен сделал это ради участия в турнире Абсолютного бойцовского чемпионата (UFC) на острове Яс в Абу-Даби.
 # sent_id = 0113-p5-s1
 # text = В июле этого года американскому бойцу смешанного стиля (MMA) Хорхе Масвидалю удалось сбросить девять килограммов за четыре дня.
-1	В	_	_	_	_	_	_	_	bratT20=Date-absolute
-2	июле	_	_	_	_	_	_	_	bratT20=Date-absolute
-3	этого	_	_	_	_	_	_	_	bratT20=Date-absolute
-4	года	_	_	_	_	_	_	_	bratT20=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
+2	июле	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
+3	этого	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT40=Ordinal
+4	года	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
 5	американскому	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
 6	бойцу	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
 7	смешанного	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
@@ -163,9 +163,9 @@
 15	сбросить	_	_	_	_	_	_	_	_
 16	девять	_	_	_	_	_	_	_	bratT24=Quantity
 17	килограммов	_	_	_	_	_	_	_	bratT24=Quantity
-18	за	_	_	_	_	_	_	_	bratT25=Date-duration
-19	четыре	_	_	_	_	_	_	_	bratT25=Date-duration
-20	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Date-duration
+18	за	_	_	_	_	_	_	_	bratT25=Time-period
+19	четыре	_	_	_	_	_	_	_	bratT25=Time-period|bratT37=Duration
+20	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Time-period|bratT37=Duration
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0113-p5-s2

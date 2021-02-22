@@ -115,10 +115,10 @@
 5	намерен	_	_	_	_	_	_	_	_
 6	сменить	_	_	_	_	_	_	_	_
 7	команду	_	_	_	_	_	_	_	_
-8	в	_	_	_	_	_	_	_	bratT20=Date-relative
-9	начале	_	_	_	_	_	_	_	bratT20=Date-relative
-10	2021	_	_	_	_	_	_	_	bratT20=Date-relative
-11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-relative
+8	в	_	_	_	_	_	_	_	bratT20=Date-absolute
+9	начале	_	_	_	_	_	_	_	bratT20=Date-absolute
+10	2021	_	_	_	_	_	_	_	bratT20=Date-absolute
+11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-absolute
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0031-p4
@@ -220,8 +220,8 @@
 
 # sent_id = 0031-p6-s1
 # text = До этого бразилец представлял ``Порту''.
-1	До	_	_	_	_	_	_	_	_
-2	этого	_	_	_	_	_	_	_	_
+1	До	_	_	_	_	_	_	_	bratT38=Date-period
+2	этого	_	_	_	_	_	_	_	bratT38=Date-period
 3	бразилец	_	_	_	_	_	_	_	bratA2=T33:Citizenship|bratT33=Nationality
 4	представлял	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization

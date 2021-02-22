@@ -29,10 +29,10 @@
 # sent_id = 0076-p2-s2
 # text = Материалы времен Великой Отечественной войны предоставило РИА Новости Управление ФСБ России по Омской области, где хранятся архивные документы военной контрразведки СМЕРШ (сокращение от « Смерть шпионам! »).
 1	Материалы	_	_	_	_	_	_	_	_
-2	времен	_	_	_	_	_	_	_	bratT39=Date-period
-3	Великой	_	_	_	_	_	_	_	bratT39=Date-period|bratT5=Event
-4	Отечественной	_	_	_	_	_	_	_	bratT39=Date-period|bratT5=Event
-5	войны	_	_	_	_	_	_	_	bratT39=Date-period|bratT5=Event
+2	времен	_	_	_	_	_	_	_	bratA9=T39:Past|bratT39=Date-period
+3	Великой	_	_	_	_	_	_	_	bratA9=T39:Past|bratT39=Date-period|bratT5=Event
+4	Отечественной	_	_	_	_	_	_	_	bratA9=T39:Past|bratT39=Date-period|bratT5=Event
+5	войны	_	_	_	_	_	_	_	bratA9=T39:Past|bratT39=Date-period|bratT5=Event
 6	предоставило	_	_	_	_	_	_	_	_
 7	РИА	_	_	_	_	_	_	_	bratA5=T6:Media|bratT6=Organization
 8	Новости	_	_	_	_	_	_	_	bratA5=T6:Media|bratT6=Organization
@@ -73,11 +73,11 @@
 6	собранных	_	_	_	_	_	_	_	_
 7	органами	_	_	_	_	_	_	_	bratT11=Organization
 8	СМЕРШ	_	_	_	_	_	_	_	bratT11=Organization
-9	в	_	_	_	_	_	_	_	bratT12=Date-absolute
-10	1943	_	_	_	_	_	_	_	bratT12=Date-absolute
-11	году	_	_	_	_	_	_	_	bratT12=Date-absolute
-12	после	_	_	_	_	_	_	_	bratT41=Date-period
-13	освобождения	_	_	_	_	_	_	_	bratT40=Event|bratT41=Date-period
+9	в	_	_	_	_	_	_	_	bratA6=T12:Past|bratT12=Date-absolute
+10	1943	_	_	_	_	_	_	_	bratA6=T12:Past|bratT12=Date-absolute
+11	году	_	_	_	_	_	_	_	bratA6=T12:Past|bratT12=Date-absolute
+12	после	_	_	_	_	_	_	_	bratA10=T41:Past|bratA6=T12:Past|bratT12=Date-absolute|bratT41=Date-relative
+13	освобождения	_	_	_	_	_	_	_	bratA10=T41:Past|bratA6=T12:Past|bratT12=Date-absolute|bratT40=Event|bratT41=Date-relative
 14	Орловской	_	_	_	_	_	_	_	bratT27=GPE|bratT40=Event
 15	области	_	_	_	_	_	_	_	bratT27=GPE|bratT40=Event
 16	советскими	_	_	_	_	_	_	_	bratT40=Event
@@ -179,10 +179,10 @@
 20	генерал-лейтенанту	_	_	_	_	_	_	_	bratT19=Person|bratT20=Person-property
 21	Павлу	_	_	_	_	_	_	_	bratT19=Person
 22	Зеленину	_	_	_	_	_	_	_	bratT19=Person
-23	в	_	_	_	_	_	_	_	bratT13=Date-absolute
-24	августе	_	_	_	_	_	_	_	bratT13=Date-absolute
-25	1943	_	_	_	_	_	_	_	bratT13=Date-absolute
-26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Date-absolute
+23	в	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-absolute
+24	августе	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-absolute
+25	1943	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-absolute
+26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T13:Past|bratT13=Date-absolute
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0076-p4-s3
@@ -211,10 +211,10 @@
 22	,	_	_	_	_	_	_	_	_
 23	созданный	_	_	_	_	_	_	_	_
 24	немцами	_	_	_	_	_	_	_	bratT34=Nationality
-25	в	_	_	_	_	_	_	_	bratT14=Date-absolute
-26	июне	_	_	_	_	_	_	_	bratT14=Date-absolute
-27	1942	_	_	_	_	_	_	_	bratT14=Date-absolute
-28	года	_	_	_	_	_	_	_	bratT14=Date-absolute
+25	в	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
+26	июне	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
+27	1942	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
+28	года	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
 29	во	_	_	_	_	_	_	_	_
 30	главе	_	_	_	_	_	_	_	_
 31	с	_	_	_	_	_	_	_	_
@@ -229,9 +229,9 @@
 3	Митрофанова	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person
 4	,	_	_	_	_	_	_	_	_
 5	там	_	_	_	_	_	_	_	_
-6	во	_	_	_	_	_	_	_	bratT32=Date-period
-7	время	_	_	_	_	_	_	_	bratT32=Date-period
-8	оккупации	_	_	_	_	_	_	_	bratT32=Date-period|bratT36=Event
+6	во	_	_	_	_	_	_	_	bratA11=T32:Past|bratT32=Date-relative
+7	время	_	_	_	_	_	_	_	bratA11=T32:Past|bratT32=Date-relative
+8	оккупации	_	_	_	_	_	_	_	bratA11=T32:Past|bratT32=Date-relative|bratT36=Event
 9	было	_	_	_	_	_	_	_	_
 10	казнено	_	_	_	_	_	_	_	_
 11	свыше	_	_	_	_	_	_	_	bratT37=Quantity

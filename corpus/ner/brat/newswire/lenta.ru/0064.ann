@@ -15,7 +15,7 @@ T14	Person 801 820	Вагаршак   Арутюнян
 T15	Organization 843 853	Минобороны
 T16	Date-period 856 877	в   1999-2000   годах
 T17	GPE 887 894	Ереване
-T18	Date-absolute 913 924	10   ноября
+T18	Date-absolute 897 924	в   ночь   на   10   ноября
 T19	Person 1002 1010	Пашиняна
 T20	Person-property 1058 1083	премьер-министр   Армении
 T21	GPE 1076 1083	Армении
@@ -30,6 +30,14 @@ T33	GPE 1133 1139	России
 A1	Plural T24
 T34	Person 1099 1187	президентами   Азербайджана   и   России   Ильхамом   Алиевым   и   Владимиром   Путиным
 A2	Plural T34
-T23	Date-period 342 360	В   ходе   визитов
-T30	Time-period 897 910	в   ночь   на
-T31	Date-period 1033 1055	после   того   ,   как
+T23	Date-relative 342 360	В   ходе   визитов
+T30	Time-absolute 897 910	в   ночь   на
+T31	Time-relative 1033 1055	после   того   ,   как
+A3	Past T10
+T35	Date-absolute 860 877	1999-2000   годах
+A5	Past T35
+A6	Past T18
+T32	Person 1142 1160	Ильхамом   Алиевым
+T36	Person 1167 1187	Владимиром   Путиным
+T37	Event 353 360	визитов
+A4	Past T23

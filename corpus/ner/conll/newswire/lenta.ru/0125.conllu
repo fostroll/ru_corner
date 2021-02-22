@@ -72,7 +72,7 @@
 6	Анталье	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE
 7	,	_	_	_	_	_	_	_	_
 8	победил	_	_	_	_	_	_	_	_
-9	одновременно	_	_	_	_	_	_	_	_
+9	одновременно	_	_	_	_	_	_	_	bratT20=Time-relative
 10	в	_	_	_	_	_	_	_	_
 11	номинациях	_	_	_	_	_	_	_	_
 12	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -113,9 +113,9 @@
 16	в	_	_	_	_	_	_	_	_
 17	своей	_	_	_	_	_	_	_	_
 18	категории	_	_	_	_	_	_	_	_
-19	12	_	_	_	_	_	_	_	bratT12=Date-period
-20	лет	_	_	_	_	_	_	_	bratT12=Date-period
-21	подряд	_	_	_	_	_	_	_	SpaceAfter=No
+19	12	_	_	_	_	_	_	_	bratA3=T19:Past|bratT12=Duration|bratT19=Date-period
+20	лет	_	_	_	_	_	_	_	bratA3=T19:Past|bratT12=Duration|bratT19=Date-period
+21	подряд	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T19:Past|bratT19=Date-period
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0125-p4

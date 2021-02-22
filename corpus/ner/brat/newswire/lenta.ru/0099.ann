@@ -16,7 +16,7 @@ T14	Person-property 533 569	восьмым   заместителем   губе
 T15	Person 574 583	Макаревич
 T16	Person-property 613 628	главы   Тамбова
 T17	GPE 621 628	Тамбова
-T18	Date-duration 631 650	чуть   более   года
+T18	Duration 631 650	чуть   более   года
 T19	Date-absolute 655 667	30   октября
 T20	Person-property 670 710	депутаты   Тамбовской   городской   думы
 T21	Organization 681 710	Тамбовской   городской   думы
@@ -28,7 +28,7 @@ T26	GPE 948 955	Вьетнам
 T27	Event 971 994	пандемии   коронавируса
 T28	GPE 1044 1051	Вьетнам
 T29	Date-absolute 1054 1064	16   марта
-T30	Date-relative 1133 1154	В   том   же   месяце
+T30	Date-absolute 1133 1154	В   том   же   месяце
 T31	Person-property 1157 1197	депутаты   Тамбовской   городской   думы
 T32	Organization 1168 1197	Тамбовской   городской   думы
 T33	Quantity 1243 1289	двух   ежемесячных   денежных   вознаграждений
@@ -41,9 +41,20 @@ T39	Money 1412 1440	около   200   тысяч   рублей
 T40	Person-property 1513 1522	депутатов
 T41	Person-property 1529 1551	членов   администрации
 T42	Quantity 1554 1576	два   или   три   раза
-T43	Date-duration 1579 1586	в   год
+T43	Time-period 1579 1586	в   год
 T44	Ordinal 533 540	восьмым
 T45	Event 757 777	досрочную   отставку
-T46	Date-relative 958 994	в   разгар   пандемии   коронавируса
-T47	Date-period 54 70	после   скандала
+T46	Date-relative 958 979	в   разгар   пандемии
 T48	Other-term 982 994	коронавируса
+A2	Past T6
+A3	Past T19
+A4	Past T24
+A5	Past T29
+T49	Date-period 631 650	чуть   более   года
+T50	Duration 1583 1586	год
+A6	Past T49
+T47	Event 62 99	скандала   с   отпуском   и   премией
+T51	Time-relative 54 59	после
+A7	Past T46
+A8	Past T30
+T52	Ordinal 1137 1145	том   же

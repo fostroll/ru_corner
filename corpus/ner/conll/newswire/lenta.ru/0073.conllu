@@ -59,12 +59,12 @@
 2	этом	_	_	_	_	_	_	_	_
 3	он	_	_	_	_	_	_	_	_
 4	заявил	_	_	_	_	_	_	_	_
-5	16	_	_	_	_	_	_	_	bratT11=Date-absolute
-6	ноября	_	_	_	_	_	_	_	bratT11=Date-absolute
-7	в	_	_	_	_	_	_	_	bratT51=Date-period
-8	ходе	_	_	_	_	_	_	_	bratT51=Date-period
-9	онлайн	_	_	_	_	_	_	_	bratT51=Date-period
-10	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Date-period
+5	16	_	_	_	_	_	_	_	bratA2=T11:Past|bratT11=Date-absolute
+6	ноября	_	_	_	_	_	_	_	bratA2=T11:Past|bratT11=Date-absolute
+7	в	_	_	_	_	_	_	_	bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative
+8	ходе	_	_	_	_	_	_	_	bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative
+9	онлайн	_	_	_	_	_	_	_	bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative|bratT54=Event
+10	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative|bratT54=Event
 11	,	_	_	_	_	_	_	_	_
 12	передает	_	_	_	_	_	_	_	_
 13	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
@@ -130,8 +130,8 @@
 3	Нагорном	_	_	_	_	_	_	_	bratT20=GPE|bratT57=Event
 4	Карабахе	_	_	_	_	_	_	_	bratT20=GPE|bratT57=Event
 5	начались	_	_	_	_	_	_	_	_
-6	27	_	_	_	_	_	_	_	bratT21=Date-absolute
-7	сентября	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Date-absolute
+6	27	_	_	_	_	_	_	_	bratA3=T21:Past|bratT21=Date-absolute
+7	сентября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T21:Past|bratT21=Date-absolute
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p4-s2
@@ -206,8 +206,8 @@
 # par_text = 9 ноября президент России Владимир Путин, азербайджанский лидер Ильхам Алиев и Никол Пашинян подписали совместное заявление о полном прекращении боев в Нагорном Карабахе. По документу воюющие стороны остаются на занятых ими позициях. До 1 декабря под контроль Баку передают три района. В регион входят российские миротворцы.
 # sent_id = 0073-p6-s1
 # text = 9 ноября президент России Владимир Путин, азербайджанский лидер Ильхам Алиев и Никол Пашинян подписали совместное заявление о полном прекращении боев в Нагорном Карабахе.
-1	9	_	_	_	_	_	_	_	bratT33=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT33=Date-absolute
+1	9	_	_	_	_	_	_	_	bratA4=T33:Past|bratT33=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA4=T33:Past|bratT33=Date-absolute
 3	президент	_	_	_	_	_	_	_	bratT34=Person-property|bratT36=Person
 4	России	_	_	_	_	_	_	_	bratT34=Person-property|bratT35=GPE|bratT36=Person
 5	Владимир	_	_	_	_	_	_	_	bratT36=Person
@@ -248,8 +248,8 @@
 # sent_id = 0073-p6-s3
 # text = До 1 декабря под контроль Баку передают три района.
 1	До	_	_	_	_	_	_	_	bratT40=Date-period
-2	1	_	_	_	_	_	_	_	bratT40=Date-period
-3	декабря	_	_	_	_	_	_	_	bratT40=Date-period
+2	1	_	_	_	_	_	_	_	bratA5=T59:Future|bratT40=Date-period|bratT59=Date-absolute
+3	декабря	_	_	_	_	_	_	_	bratA5=T59:Future|bratT40=Date-period|bratT59=Date-absolute
 4	под	_	_	_	_	_	_	_	_
 5	контроль	_	_	_	_	_	_	_	_
 6	Баку	_	_	_	_	_	_	_	bratT41=GPE

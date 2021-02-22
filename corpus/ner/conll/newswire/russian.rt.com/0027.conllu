@@ -105,9 +105,9 @@
 # par_text = К настоящему моменту полиция ещё не задержала кого-либо по факту данного нападения.
 # sent_id = 0027-p6-s1
 # text = К настоящему моменту полиция ещё не задержала кого-либо по факту данного нападения.
-1	К	_	_	_	_	_	_	_	bratT7=Date-relative
-2	настоящему	_	_	_	_	_	_	_	bratT7=Date-relative
-3	моменту	_	_	_	_	_	_	_	bratT7=Date-relative
+1	К	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-period
+2	настоящему	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-period
+3	моменту	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-period
 4	полиция	_	_	_	_	_	_	_	bratT14=Organization
 5	ещё	_	_	_	_	_	_	_	_
 6	не	_	_	_	_	_	_	_	_
@@ -123,8 +123,8 @@
 # par_text = В октябре во французской Ницце мужчина совершил нападение с ножом на людей. В результате данной атаки есть погибшие.
 # sent_id = 0027-p7-s1
 # text = В октябре во французской Ницце мужчина совершил нападение с ножом на людей.
-1	В	_	_	_	_	_	_	_	bratT8=Date-absolute
-2	октябре	_	_	_	_	_	_	_	bratT8=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA4=T8:Past|bratT8=Date-absolute
+2	октябре	_	_	_	_	_	_	_	bratA4=T8:Past|bratT8=Date-absolute
 3	во	_	_	_	_	_	_	_	_
 4	французской	_	_	_	_	_	_	_	bratT9=GPE
 5	Ницце	_	_	_	_	_	_	_	bratT9=GPE

@@ -26,11 +26,11 @@
 10	Патрик	_	_	_	_	_	_	_	bratT3=Person
 11	Куинн	_	_	_	_	_	_	_	bratT3=Person
 12	умер	_	_	_	_	_	_	_	_
-13	в	_	_	_	_	_	_	_	bratT4=Date-absolute
-14	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Date-absolute
-15	,	_	_	_	_	_	_	_	bratT4=Date-absolute
-16	22	_	_	_	_	_	_	_	bratT4=Date-absolute
-17	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Date-absolute
+13	в	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
+14	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Past|bratT4=Date-absolute
+15	,	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
+16	22	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
+17	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Past|bratT4=Date-absolute
 18	,	_	_	_	_	_	_	_	_
 19	ему	_	_	_	_	_	_	_	_
 20	было	_	_	_	_	_	_	_	_
@@ -71,9 +71,9 @@
 13	был	_	_	_	_	_	_	_	_
 14	поставлен	_	_	_	_	_	_	_	_
 15	ему	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	bratT10=Date-absolute
-17	2013	_	_	_	_	_	_	_	bratT10=Date-absolute
-18	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-absolute
+16	в	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
+17	2013	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
+18	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Past|bratT10=Date-absolute
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0045-p3-s2
@@ -91,9 +91,9 @@
 11	что	_	_	_	_	_	_	_	_
 12	Патрик	_	_	_	_	_	_	_	bratT11=Person
 13	умер	_	_	_	_	_	_	_	_
-14	сегодня	_	_	_	_	_	_	_	bratT34=Date-relative
-15	рано	_	_	_	_	_	_	_	bratT35=Time-period
-16	утром	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Time-period
+14	сегодня	_	_	_	_	_	_	_	bratA5=T34:Past|bratT34=Date-absolute
+15	рано	_	_	_	_	_	_	_	bratA5=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
+16	утром	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0045-p3-s3
@@ -159,9 +159,9 @@
 19	,	_	_	_	_	_	_	_	_
 20	Куинн	_	_	_	_	_	_	_	bratT14=Person
 21	стал	_	_	_	_	_	_	_	_
-22	в	_	_	_	_	_	_	_	bratT15=Date-absolute
-23	2014	_	_	_	_	_	_	_	bratT15=Date-absolute
-24	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-absolute
+22	в	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
+23	2014	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
+24	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T15:Past|bratT15=Date-absolute
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0045-p4-s2

@@ -12,7 +12,12 @@ T11	Organization 1191 1212	ООО   ``   Томет   ''
 T12	Quantity 112 123	одного   из
 T13	Quantity 126 163	четырех   крупнейших   производителей
 T14	Percent 1215 1231	почти   половина
-T15	Date-period 1031 1050	в   ближайшие   дни
-T16	Date-relative 370 389	в   данный   момент
-T17	Date-relative 438 454	не   так   давно
-T18	Date-relative 717 724	Недавно
+T15	Date-absolute 1031 1050	в   ближайшие   дни
+T16	Date-absolute 370 389	в   данный   момент
+T17	Date-absolute 438 454	не   так   давно
+T18	Date-absolute 717 724	Недавно
+A1	Present T16
+A2	Past T17
+A3	Past T18
+A4	Future T15
+T19	Ordinal 1035 1044	ближайшие

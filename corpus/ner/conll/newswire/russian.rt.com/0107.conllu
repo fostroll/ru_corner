@@ -5,8 +5,8 @@
 # text = Во Франции за сутки выявили более 22 тысяч случаев коронавируса
 1	Во	_	_	_	_	_	_	_	_
 2	Франции	_	_	_	_	_	_	_	bratT1=GPE
-3	за	_	_	_	_	_	_	_	bratT2=Time-duration
-4	сутки	_	_	_	_	_	_	_	bratT2=Time-duration
+3	за	_	_	_	_	_	_	_	bratT25=Date-period
+4	сутки	_	_	_	_	_	_	_	bratA5=T28:Past|bratT2=Duration|bratT25=Date-period|bratT28=Date-absolute
 5	выявили	_	_	_	_	_	_	_	_
 6	более	_	_	_	_	_	_	_	bratT3=Quantity
 7	22	_	_	_	_	_	_	_	bratT3=Quantity
@@ -26,8 +26,8 @@
 6	инфекцией	_	_	_	_	_	_	_	bratT15=Other-term
 7	во	_	_	_	_	_	_	_	_
 8	Франции	_	_	_	_	_	_	_	bratT16=GPE
-9	за	_	_	_	_	_	_	_	bratT17=Time-duration
-10	сутки	_	_	_	_	_	_	_	bratT17=Time-duration
+9	за	_	_	_	_	_	_	_	bratT24=Date-period
+10	сутки	_	_	_	_	_	_	_	bratA4=T26:Past|bratT17=Duration|bratT24=Date-period|bratT26=Date-absolute
 11	выросло	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	bratT18=Quantity
 13	22	_	_	_	_	_	_	_	bratT18=Quantity
@@ -60,9 +60,9 @@
 1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	за	_	_	_	_	_	_	_	bratT20=Date-period
-5	всё	_	_	_	_	_	_	_	bratT20=Date-period
-6	время	_	_	_	_	_	_	_	bratT20=Date-period
+4	за	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-period
+5	всё	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-period|bratT29=Duration
+6	время	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-period|bratT29=Duration
 7	скончались	_	_	_	_	_	_	_	_
 8	48	_	_	_	_	_	_	_	bratT6=Quantity
 9	265	_	_	_	_	_	_	_	bratT6=Quantity
@@ -70,8 +70,8 @@
 11	с	_	_	_	_	_	_	_	_
 12	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
 13	,	_	_	_	_	_	_	_	_
-14	за	_	_	_	_	_	_	_	bratT8=Time-duration
-15	сутки	_	_	_	_	_	_	_	bratT8=Time-duration
+14	за	_	_	_	_	_	_	_	bratT23=Date-period
+15	сутки	_	_	_	_	_	_	_	bratA3=T27:Past|bratT23=Date-period|bratT27=Date-absolute|bratT8=Duration
 16	-	_	_	_	_	_	_	_	_
 17	386	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Quantity
 18	.	_	_	_	_	_	_	_	_
@@ -80,7 +80,7 @@
 # par_text = Ранее министр здравоохранения Франции Оливье Веран заявил, что пандемия сильно повлияла на психическое состояние французов.
 # sent_id = 0107-p5-s1
 # text = Ранее министр здравоохранения Франции Оливье Веран заявил, что пандемия сильно повлияла на психическое состояние французов.
-1	Ранее	_	_	_	_	_	_	_	bratT22=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT22=Time-relative
 2	министр	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
 3	здравоохранения	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
 4	Франции	_	_	_	_	_	_	_	bratT10=GPE|bratT11=Person-property|bratT12=Person

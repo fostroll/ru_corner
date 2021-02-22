@@ -8,11 +8,11 @@
 3	пригласил	_	_	_	_	_	_	_	_
 4	Байдена	_	_	_	_	_	_	_	bratT3=Person
 5	на	_	_	_	_	_	_	_	_
-6	спецвстречу	_	_	_	_	_	_	_	_
-7	ЕС	_	_	_	_	_	_	_	_
-8	в	_	_	_	_	_	_	_	bratT5=Date-absolute
-9	2021	_	_	_	_	_	_	_	bratT5=Date-absolute
-10	году	_	_	_	_	_	_	_	bratT5=Date-absolute
+6	спецвстречу	_	_	_	_	_	_	_	bratT23=Event
+7	ЕС	_	_	_	_	_	_	_	bratT23=Event|bratT24=GPE
+8	в	_	_	_	_	_	_	_	bratA1=T5:Future|bratT5=Date-absolute
+9	2021	_	_	_	_	_	_	_	bratA1=T5:Future|bratT5=Date-absolute
+10	году	_	_	_	_	_	_	_	bratA1=T5:Future|bratT5=Date-absolute
 
 # newpar id = 0082-p2
 # par_text = Глава Евросовета Шарль Мишель в разговоре с кандидатом в президенты США Джо Байденом пригласил его принять участие в специальной встрече ЕС в 2021 году.
@@ -36,12 +36,12 @@
 16	принять	_	_	_	_	_	_	_	_
 17	участие	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
-19	специальной	_	_	_	_	_	_	_	_
-20	встрече	_	_	_	_	_	_	_	_
-21	ЕС	_	_	_	_	_	_	_	bratT19=Organization
-22	в	_	_	_	_	_	_	_	bratT21=Date-absolute
-23	2021	_	_	_	_	_	_	_	bratT21=Date-absolute
-24	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Date-absolute
+19	специальной	_	_	_	_	_	_	_	bratT22=Event
+20	встрече	_	_	_	_	_	_	_	bratT22=Event
+21	ЕС	_	_	_	_	_	_	_	bratT19=GPE|bratT22=Event
+22	в	_	_	_	_	_	_	_	bratA2=T21:Future|bratT21=Date-absolute
+23	2021	_	_	_	_	_	_	_	bratA2=T21:Future|bratT21=Date-absolute
+24	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Future|bratT21=Date-absolute
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0082-p3
@@ -65,9 +65,9 @@
 15	встречу	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
 17	Брюсселе	_	_	_	_	_	_	_	bratT8=GPE
-18	в	_	_	_	_	_	_	_	bratT9=Date-relative
-19	следующем	_	_	_	_	_	_	_	bratT4=Ordinal|bratT9=Date-relative
-20	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-relative
+18	в	_	_	_	_	_	_	_	bratA4=T9:Future|bratT9=Date-absolute
+19	следующем	_	_	_	_	_	_	_	bratA4=T9:Future|bratT4=Ordinal|bratT9=Date-absolute
+20	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Future|bratT9=Date-absolute
 21	''	_	_	_	_	_	_	_	SpaceAfter=No
 22	,	_	_	_	_	_	_	_	_
 23	-	_	_	_	_	_	_	_	_
@@ -85,9 +85,9 @@
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT20=Date-relative
-6	настоящее	_	_	_	_	_	_	_	bratT20=Date-relative
-7	время	_	_	_	_	_	_	_	bratT20=Date-relative
+5	в	_	_	_	_	_	_	_	bratA3=T20:Present|bratT20=Date-absolute
+6	настоящее	_	_	_	_	_	_	_	bratA3=T20:Present|bratT20=Date-absolute
+7	время	_	_	_	_	_	_	_	bratA3=T20:Present|bratT20=Date-absolute
 8	необходимо	_	_	_	_	_	_	_	_
 9	объединить	_	_	_	_	_	_	_	_
 10	усилия	_	_	_	_	_	_	_	_

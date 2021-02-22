@@ -8,7 +8,7 @@ A1	Media T6
 T7	Organization 272 281	Минздрава
 T8	Person-property 261 281	замглавы   Минздрава
 T9	Person 261 300	замглавы   Минздрава   Олега   Гриднева
-T10	Time-duration 343 353	за   сутки
+T10	Duration 348 353	сутки
 T11	GPE 360 366	России
 T12	Quantity 393 405	491   случай
 T13	Other-term 450 458	COVID-19
@@ -18,4 +18,8 @@ T16	GPE 114 120	России
 T17	Percent 136 143	1,7   %
 T18	Date-period 465 481	за   всё   время
 T19	Ordinal 369 376	впервые
-T20	Date-relative 306 313	Ранее  
+T20	Time-relative 306 311	Ранее
+T21	Date-period 343 353	за   сутки
+A2	Past T21
+A3	Past T18
+T22	Duration 470 481	всё   время

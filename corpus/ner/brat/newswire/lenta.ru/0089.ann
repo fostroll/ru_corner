@@ -1,6 +1,6 @@
 T1	GPE 4 10	России
 T2	Quantity 24 42	десять   ледоколов
-T3	Date-duration 45 62	за   десять   лет
+T3	Date-period 45 62	за   десять   лет
 T4	Organization 64 84	``   Росморпорт   ''
 T5	Quantity 97 123	десять   новых   ледоколов
 T6	GPE 165 171	России
@@ -16,9 +16,9 @@ T14	Organization 447 456	Минтранса
 T15	Organization 577 598	``   Росморпорта   ''
 T16	Age 618 626	37   лет
 T17	Age 728 736	29   лет
-T18	Date-absolute 739 754	к   2024   году
+T18	Date-period 739 754	к   2024   году
 T19	Age 766 774	25   лет
-T20	Date-absolute 777 788	к   2030-му
+T20	Date-period 777 788	к   2030-му
 T21	Organization 822 843	``   Росморпорта   ''
 T22	Quantity 878 921	36   ледоколов   и   ледокольных   буксиров
 T23	Product 976 1082	нацпроекта   ``   Комплексный   план   модернизации   и   расширения   магистральной   инфраструктуры   ''
@@ -27,5 +27,21 @@ T24	Date-period 1105 1121	до   2030   года
 T25	Quantity 1126 1136	Одной   из
 T26	GPE 1229 1235	России
 T27	Money 1479 1513	свыше   трех   триллионов   рублей
-T28	Date-relative 486 507	в   настоящее   время
-T29	Date-relative 846 866	на   данный   момент
+T28	Date-absolute 486 507	в   настоящее   время
+T29	Date-absolute 846 866	на   данный   момент
+T30	Duration 190 202	десять   лет
+T31	Date-absolute 402 413	2030   года
+A3	Future T31
+T32	Date-absolute 1110 1121	2030   года
+A4	Future T32
+T33	Date-absolute 743 754	2024   году
+A5	Future T33
+T34	Date-absolute 781 788	2030-му
+A6	Future T34
+T35	Duration 50 62	десять   лет
+A7	Future T3
+A9	Present T28
+A10	Present T29
+T36	Ordinal 178 187	ближайшие
+T37	Date-absolute 178 202	ближайшие   десять   лет
+A8	Future T37

@@ -18,8 +18,8 @@
 # text = В мире за сутки выявлено более 542 тыс. заболевших коронавирусной инфекцией, общее число выявленных случаев COVID-19 увеличилось до 58 425 681.
 1	В	_	_	_	_	_	_	_	_
 2	мире	_	_	_	_	_	_	_	bratT19=GPE
-3	за	_	_	_	_	_	_	_	bratT12=Time-duration
-4	сутки	_	_	_	_	_	_	_	bratT12=Time-duration
+3	за	_	_	_	_	_	_	_	bratT23=Date-period
+4	сутки	_	_	_	_	_	_	_	bratA2=T24:Past|bratT12=Duration|bratT23=Date-period|bratT24=Date-absolute
 5	выявлено	_	_	_	_	_	_	_	_
 6	более	_	_	_	_	_	_	_	bratT13=Quantity
 7	542	_	_	_	_	_	_	_	bratT13=Quantity
@@ -75,7 +75,7 @@
 # par_text = Ранее глава ВОЗ Тедрос Адханом Гебрейесус заявил, что организация обеспокоена ситуацией со здравоохранением в странах Европы, Северной и Южной Америки из-за роста числа случаев заболевания коронавирусом.
 # sent_id = 0016-p5-s1
 # text = Ранее глава ВОЗ Тедрос Адханом Гебрейесус заявил, что организация обеспокоена ситуацией со здравоохранением в странах Европы, Северной и Южной Америки из-за роста числа случаев заболевания коронавирусом.
-1	Ранее	_	_	_	_	_	_	_	bratT17=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT17=Time-relative
 2	глава	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
 3	ВОЗ	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=Organization
 4	Тедрос	_	_	_	_	_	_	_	bratT6=Person
@@ -93,9 +93,9 @@
 16	странах	_	_	_	_	_	_	_	_
 17	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE
 18	,	_	_	_	_	_	_	_	_
-19	Северной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
+19	Северной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT21=GPE|bratT9=GPE
 20	и	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
-21	Южной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
+21	Южной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT22=GPE|bratT9=GPE
 22	Америки	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
 23	из-за	_	_	_	_	_	_	_	_
 24	роста	_	_	_	_	_	_	_	_

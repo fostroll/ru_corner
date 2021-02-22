@@ -10,12 +10,19 @@ T9	Person-property 426 477	глава   прогностического   це�
 T10	Organization 434 477	прогностического   центра   ``   Метео   ''
 T11	Organization 519 525	URA.RU
 A1	Media T11
-T13	Date-relative 588 606	на   этой   неделе
+T13	Date-period 588 606	на   этой   неделе
 T14	GPE 56 62	Москве
 T15	Date-absolute 65 94	в   четверг   ,   26   ноября
 T16	Quantity 113 124	до   0   °С
 T17	Organization 152 174	Гидрометцентр   России
 T18	GPE 168 174	России
 T19	GPE 579 585	России
-T12	Time-period 248 252	днём
-T20	Date-relative 418 425	Ранее  
+T12	Time-absolute 248 252	днём
+T20	Time-relative 418 423	Ранее
+A2	Future T2
+A3	Future T15
+T21	Date-absolute 248 252	днём
+T22	Duration 600 606	неделе
+T23	Date-absolute 593 606	этой   неделе
+A6	Present T23
+A4	Future T21

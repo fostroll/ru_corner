@@ -7,7 +7,7 @@ T6	Person 169 224	официальный   представитель   Крем
 T7	Person-property 169 205	официальный   представитель   Кремля
 T8	Organization 246 259	РИА   Новости
 T9	Date-absolute 262 290	в   четверг   ,   5   ноября
-T11	Date-relative 381 400	Ранее   в   четверг
+T11	Date-absolute 381 400	Ранее   в   четверг
 T12	Person-property 403 415	мэр   Москвы
 T13	GPE 409 415	Москвы
 T14	Person 403 434	мэр   Москвы   Сергей   Собянин
@@ -21,7 +21,7 @@ T24	GPE 899 910	Подмосковье
 T25	Quantity 884 888	1093
 T26	Quantity 917 920	588
 T28	Quantity 1014 1027	1   712   858
-T16	Time-period 639 661	За   последние   сутки
+T16	Date-period 639 661	За   последние   сутки
 T19	Quantity 719 738	19   404   человека
 T20	Quantity 745 758	85   регионах
 T29	Organization 199 205	Кремля
@@ -31,3 +31,9 @@ T27	Event 992 1000	пандемии
 T30	Event 301 309	Эпидемия
 T31	Date-period 979 1000	с   начала   пандемии
 T32	Ordinal 644 653	последние
+A2	Present T9
+A3	Past T11
+A4	Past T16
+A6	Past T31
+T34	Time-relative 381 386	Ранее
+T33	Duration 656 661	сутки

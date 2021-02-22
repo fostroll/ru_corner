@@ -18,8 +18,8 @@ T17	Organization 1459 1486	британской   версии   Vogue
 T18	Age 1500 1509	71-летний
 T19	Person-property 1512 1528	принц   Уэльский
 T20	Person 1512 1537	принц   Уэльский   Чарльз
-T21	Product 1764 1797	брендом   Anderson   &   Sheppard
-T22	Date-relative 1800 1816	30   лет   назад
+T21	Organization 1764 1797	брендом   Anderson   &   Sheppard
+T22	Date-absolute 1800 1816	30   лет   назад
 T23	Person-property 1687 1693	принце
 T24	Organization 1110 1124	i-D   Magazine
 T25	Organization 1131 1137	Grazia
@@ -27,8 +27,11 @@ T26	Person-property 626 634	балерины
 A1	Media T15
 A2	Media T24
 A3	Media T25
-A4	Trademark T21
 A5	Media T17
 A6	Media T2
 A7	Media T6
 T27	Ordinal 764 774	следующего
+A8	Past T16
+T28	Duration 1800 1808	30   лет
+A9	Past T22
+T29	Time-relative 1423 1428	Ранее

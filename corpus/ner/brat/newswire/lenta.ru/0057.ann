@@ -12,7 +12,7 @@ T11	Organization 233 267	телеканала   ``   Россия   24   ''
 T12	Organization 285 298	РИА   Новости
 T13	Quantity 328 365	не   менее   1,5   миллиона   граждан
 T14	Other-term 385 393	COVID-19
-T15	Date-relative 402 417	в   этом   году
+T15	Date-absolute 402 417	в   этом   году
 T16	Quantity 465 496	около   40-45   тысяч   человек
 T17	Person 536 544	Гинцбург
 T18	Other-term 637 644	вакцины
@@ -36,6 +36,12 @@ T33	Ordinal 1354 1360	Второй
 T34	Ordinal 876 882	первой
 T35	Ordinal 889 895	второй
 T36	Ordinal 1032 1038	первая
-T37	Date-relative 422 428	Сейчас
+T37	Time-relative 422 428	Сейчас
 T38	Date-period 567 612	в   ходе   пострегистрационных   исследований
-T39	Date-relative 528 533	Ранее
+T39	Time-relative 528 533	Ранее
+T40	Date-absolute 80 92	конца   года
+A3	Future T40
+T41	Event 578 612	пострегистрационных   исследований
+A4	Past T38
+A5	Future T15
+T42	Ordinal 406 410	этом

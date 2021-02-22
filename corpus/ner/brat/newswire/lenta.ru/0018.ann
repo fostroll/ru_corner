@@ -15,7 +15,7 @@ T16	Person 573 577	Ягги
 T17	Person 662 667	Кедри
 T18	Event 762 778	Универсиада-2023
 T19	Date-period 791 816	с   8   по   19   августа
-T20	Date-period 821 833	Екатеринбург
+T20	GPE 821 833	Екатеринбург
 T21	Person 906 913	Матыцин
 T22	Person-property 945 962	министра   спорта
 T23	Date-absolute 965 991	21   января   этого   года
@@ -29,3 +29,9 @@ A5	Fiction T16
 A6	Fiction T13
 T28	Date-absolute 175 186	2023   года
 T15	Ordinal 282 288	Первом
+T29	Date-absolute 795 796	8
+T30	Date-absolute 804 816	19   августа
+A2	Future T29
+A3	Future T30
+A7	Past T23
+T26	Ordinal 979 984	этого

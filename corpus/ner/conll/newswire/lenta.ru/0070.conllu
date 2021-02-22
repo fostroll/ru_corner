@@ -82,8 +82,8 @@
 # text = Кристофер Кэссиди 22 октября вернется с МКС на Землю вместе с российскими космонавтами Анатолием Иванишиными и Иваном Вагнером на корабле ``Союз МС-16''.
 1	Кристофер	_	_	_	_	_	_	_	bratT9=Person
 2	Кэссиди	_	_	_	_	_	_	_	bratT9=Person
-3	22	_	_	_	_	_	_	_	bratT14=Date-absolute
-4	октября	_	_	_	_	_	_	_	bratT14=Date-absolute
+3	22	_	_	_	_	_	_	_	bratA9=T14:Future|bratT14=Date-absolute
+4	октября	_	_	_	_	_	_	_	bratA9=T14:Future|bratT14=Date-absolute
 5	вернется	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
 7	МКС	_	_	_	_	_	_	_	bratT32=Facility
@@ -93,11 +93,11 @@
 11	с	_	_	_	_	_	_	_	_
 12	российскими	_	_	_	_	_	_	_	_
 13	космонавтами	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT16=Person-property
-14	Анатолием	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person
-15	Иванишиными	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person
+14	Анатолием	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT44=Person
+15	Иванишиными	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT44=Person
 16	и	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person
-17	Иваном	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person
-18	Вагнером	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person
+17	Иваном	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT45=Person
+18	Вагнером	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT45=Person
 19	на	_	_	_	_	_	_	_	_
 20	корабле	_	_	_	_	_	_	_	bratA7=T17:Unconscious|bratT17=Person
 21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
@@ -124,9 +124,9 @@
 14	на	_	_	_	_	_	_	_	_
 15	МКС	_	_	_	_	_	_	_	bratT34=Facility
 16	до	_	_	_	_	_	_	_	bratT23=Date-period
-17	апреля	_	_	_	_	_	_	_	bratT23=Date-period
-18	2021	_	_	_	_	_	_	_	bratT23=Date-period
-19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-period
+17	апреля	_	_	_	_	_	_	_	bratA12=T43:Future|bratT23=Date-period|bratT43=Date-absolute
+18	2021	_	_	_	_	_	_	_	bratA12=T43:Future|bratT23=Date-period|bratT43=Date-absolute
+19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Future|bratT23=Date-period|bratT43=Date-absolute
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0070-p5
@@ -134,8 +134,8 @@
 # sent_id = 0070-p5-s1
 # text = В последнее время на МКС участились случаи нештатных ситуаций.
 1	В	_	_	_	_	_	_	_	bratT40=Date-period
-2	последнее	_	_	_	_	_	_	_	bratT35=Ordinal|bratT40=Date-period
-3	время	_	_	_	_	_	_	_	bratT40=Date-period
+2	последнее	_	_	_	_	_	_	_	bratA15=T47:Past|bratT35=Ordinal|bratT40=Date-period|bratT47=Date-absolute
+3	время	_	_	_	_	_	_	_	bratA15=T47:Past|bratT40=Date-period|bratT47=Date-absolute
 4	на	_	_	_	_	_	_	_	_
 5	МКС	_	_	_	_	_	_	_	bratT37=Facility
 6	участились	_	_	_	_	_	_	_	_
@@ -148,8 +148,8 @@
 # text = Так, 11 октября в российском сегменте уже ломался туалет, на его починку потребовался день.
 1	Так	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	11	_	_	_	_	_	_	_	bratT24=Date-absolute
-4	октября	_	_	_	_	_	_	_	bratT24=Date-absolute
+3	11	_	_	_	_	_	_	_	bratA10=T24:Past|bratT24=Date-absolute
+4	октября	_	_	_	_	_	_	_	bratA10=T24:Past|bratT24=Date-absolute
 5	в	_	_	_	_	_	_	_	_
 6	российском	_	_	_	_	_	_	_	_
 7	сегменте	_	_	_	_	_	_	_	_
@@ -161,7 +161,7 @@
 13	его	_	_	_	_	_	_	_	_
 14	починку	_	_	_	_	_	_	_	_
 15	потребовался	_	_	_	_	_	_	_	_
-16	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Date-duration
+16	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Past|bratT33=Duration|bratT46=Date-period
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0070-p5-s3
@@ -198,8 +198,8 @@
 
 # sent_id = 0070-p5-s5
 # text = 15 октября утечка была найдена, трещина достигает двух-четырех сантиметров, ее заклеили каптоновой лентой.
-1	15	_	_	_	_	_	_	_	bratT27=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT27=Date-absolute
+1	15	_	_	_	_	_	_	_	bratA11=T27:Past|bratT27=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA11=T27:Past|bratT27=Date-absolute
 3	утечка	_	_	_	_	_	_	_	_
 4	была	_	_	_	_	_	_	_	_
 5	найдена	_	_	_	_	_	_	_	SpaceAfter=No

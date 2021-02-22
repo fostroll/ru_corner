@@ -70,9 +70,9 @@
 12	-	_	_	_	_	_	_	_	_
 13	сказал	_	_	_	_	_	_	_	_
 14	министр	_	_	_	_	_	_	_	bratT12=Person-property
-15	в	_	_	_	_	_	_	_	bratT46=Date-period
-16	ходе	_	_	_	_	_	_	_	bratT46=Date-period
-17	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Date-period
+15	в	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-relative
+16	ходе	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-relative
+17	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T46:Past|bratT46=Date-relative|bratT54=Event
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0083-p4
@@ -100,7 +100,7 @@
 19	из	_	_	_	_	_	_	_	bratT15=Quantity
 20	них	_	_	_	_	_	_	_	_
 21	он	_	_	_	_	_	_	_	_
-22	увеличился	_	_	_	_	_	_	_	bratT16=Percent
+22	увеличился	_	_	_	_	_	_	_	_
 23	до	_	_	_	_	_	_	_	bratT16=Percent
 24	50	_	_	_	_	_	_	_	bratT16=Percent
 25	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Percent
@@ -114,9 +114,9 @@
 2	данным	_	_	_	_	_	_	_	_
 3	министерства	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	на	_	_	_	_	_	_	_	bratT17=Date-absolute
-6	25	_	_	_	_	_	_	_	bratT17=Date-absolute
-7	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+5	на	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
+6	25	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
+7	ноября	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
 8	в	_	_	_	_	_	_	_	_
 9	Турции	_	_	_	_	_	_	_	bratT18=GPE
 10	зафиксирован	_	_	_	_	_	_	_	_
@@ -124,8 +124,8 @@
 12	по	_	_	_	_	_	_	_	_
 13	числу	_	_	_	_	_	_	_	_
 14	умерших	_	_	_	_	_	_	_	_
-15	за	_	_	_	_	_	_	_	bratT19=Time-duration
-16	сутки	_	_	_	_	_	_	_	bratT19=Time-duration
+15	за	_	_	_	_	_	_	_	bratT19=Time-period
+16	сутки	_	_	_	_	_	_	_	bratT19=Time-period|bratT58=Duration
 17	из-за	_	_	_	_	_	_	_	_
 18	COVID-19	_	_	_	_	_	_	_	bratT20=Other-term
 19	-	_	_	_	_	_	_	_	_
@@ -144,8 +144,8 @@
 7	Турции	_	_	_	_	_	_	_	bratT22=GPE
 8	был	_	_	_	_	_	_	_	_
 9	зафиксирован	_	_	_	_	_	_	_	_
-10	24	_	_	_	_	_	_	_	bratT24=Date-absolute
-11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-absolute
+10	24	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-absolute
+11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T24:Past|bratT24=Date-absolute
 12	,	_	_	_	_	_	_	_	_
 13	когда	_	_	_	_	_	_	_	_
 14	умерли	_	_	_	_	_	_	_	_
@@ -157,9 +157,9 @@
 # par_text = С начала пандемии общее число зараженных коронавирусной инфекцией превысило 460 тысяч, умерли 12 672 человека, выздоровели 381 569 пациентов.
 # sent_id = 0083-p6-s1
 # text = С начала пандемии общее число зараженных коронавирусной инфекцией превысило 460 тысяч, умерли 12 672 человека, выздоровели 381 569 пациентов.
-1	С	_	_	_	_	_	_	_	bratT41=Date-period
-2	начала	_	_	_	_	_	_	_	bratT41=Date-period
-3	пандемии	_	_	_	_	_	_	_	bratT4=Event|bratT41=Date-period
+1	С	_	_	_	_	_	_	_	bratA11=T41:Past|bratT41=Date-period
+2	начала	_	_	_	_	_	_	_	bratA11=T41:Past|bratT41=Date-period
+3	пандемии	_	_	_	_	_	_	_	bratA11=T41:Past|bratT4=Event|bratT41=Date-period
 4	общее	_	_	_	_	_	_	_	_
 5	число	_	_	_	_	_	_	_	_
 6	зараженных	_	_	_	_	_	_	_	_
@@ -184,9 +184,9 @@
 # par_text = Ранее в ноябре сообщалось, что Турция захотела производить у себя российскую вакцину от коронавируса SARS-CoV-2 «Спутник V». Министры здравоохранения России и Турции Михаил Мурашко и Фахреттин Коджа встретились по инициативе турецкой стороны. В пресс-службе Минздрава России заявили, что Анкара заинтересована в производстве «на мощностях турецких фармпроизводителей после проведения токсикологических исследований, предусмотренных локальным законодательством».
 # sent_id = 0083-p7-s1
 # text = Ранее в ноябре сообщалось, что Турция захотела производить у себя российскую вакцину от коронавируса SARS-CoV-2 ``Спутник V''.
-1	Ранее	_	_	_	_	_	_	_	bratT29=Date-absolute
-2	в	_	_	_	_	_	_	_	bratT29=Date-absolute
-3	ноябре	_	_	_	_	_	_	_	bratT29=Date-absolute
+1	Ранее	_	_	_	_	_	_	_	bratA7=T29:Past|bratT29=Date-absolute|bratT55=Time-relative
+2	в	_	_	_	_	_	_	_	bratA7=T29:Past|bratT29=Date-absolute
+3	ноябре	_	_	_	_	_	_	_	bratA7=T29:Past|bratT29=Date-absolute
 4	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -213,11 +213,11 @@
 3	России	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT34=GPE|bratT36=Person
 4	и	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT36=Person
 5	Турции	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT35=GPE|bratT36=Person
-6	Михаил	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person
-7	Мурашко	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person
+6	Михаил	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person|bratT56=Person
+7	Мурашко	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person|bratT56=Person
 8	и	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person
-9	Фахреттин	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person
-10	Коджа	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person
+9	Фахреттин	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person|bratT57=Person
+10	Коджа	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person|bratT57=Person
 11	встретились	_	_	_	_	_	_	_	_
 12	по	_	_	_	_	_	_	_	_
 13	инициативе	_	_	_	_	_	_	_	_
@@ -243,8 +243,8 @@
 14	мощностях	_	_	_	_	_	_	_	_
 15	турецких	_	_	_	_	_	_	_	_
 16	фармпроизводителей	_	_	_	_	_	_	_	_
-17	после	_	_	_	_	_	_	_	bratT48=Date-period
-18	проведения	_	_	_	_	_	_	_	bratT48=Date-period
+17	после	_	_	_	_	_	_	_	bratA10=T48:Future|bratT48=Date-relative
+18	проведения	_	_	_	_	_	_	_	bratA10=T48:Future|bratT48=Date-relative
 19	токсикологических	_	_	_	_	_	_	_	_
 20	исследований	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_

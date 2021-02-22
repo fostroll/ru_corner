@@ -57,8 +57,8 @@
 3	вступивший	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	силу	_	_	_	_	_	_	_	_
-6	19	_	_	_	_	_	_	_	bratT4=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Date-absolute
+6	19	_	_	_	_	_	_	_	bratA3=T4:Past|bratT4=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T4:Past|bratT4=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	включает	_	_	_	_	_	_	_	_
 10	живую	_	_	_	_	_	_	_	_
@@ -109,8 +109,8 @@
 # par_text = 23 октября диагноз «грипп птиц» подтвердили в Муслюмовском и Дрожжановском районах Татарстана.
 # sent_id = 0028-p6-s1
 # text = 23 октября диагноз ``грипп птиц'' подтвердили в Муслюмовском и Дрожжановском районах Татарстана.
-1	23	_	_	_	_	_	_	_	bratT5=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT5=Date-absolute
+1	23	_	_	_	_	_	_	_	bratA4=T5:Past|bratT5=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA4=T5:Past|bratT5=Date-absolute
 3	диагноз	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No
 5	грипп	_	_	_	_	_	_	_	bratT11=Other-term
@@ -118,9 +118,9 @@
 7	''	_	_	_	_	_	_	_	_
 8	подтвердили	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	Муслюмовском	_	_	_	_	_	_	_	bratA2=T6:Plural|bratT6=GPE
+10	Муслюмовском	_	_	_	_	_	_	_	bratA2=T6:Plural|bratT12=GPE|bratT6=GPE
 11	и	_	_	_	_	_	_	_	bratA2=T6:Plural|bratT6=GPE
-12	Дрожжановском	_	_	_	_	_	_	_	bratA2=T6:Plural|bratT6=GPE
+12	Дрожжановском	_	_	_	_	_	_	_	bratA2=T6:Plural|bratT13=GPE|bratT6=GPE
 13	районах	_	_	_	_	_	_	_	bratA2=T6:Plural|bratT6=GPE
 14	Татарстана	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Plural|bratT6=GPE|bratT7=GPE
 15	.	_	_	_	_	_	_	_	_

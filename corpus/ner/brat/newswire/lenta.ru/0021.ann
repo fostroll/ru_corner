@@ -30,11 +30,13 @@ T28	Service 877 885	страницу
 A2	Media T28
 T29	Ordinal 1012 1021	последних
 T30	Date-period 565 584	во   время   режима
-T31	Date-relative 923 929	теперь
-T32	Date-relative 189 194	ранее
-T33	Date-relative 1197 1203	Сперва
-T34	Date-relative 1341 1346	затем
+T31	Date-absolute 923 929	теперь
+T32	Time-relative 189 194	ранее
+T33	Time-relative 1197 1203	Сперва
+T34	Time-relative 1341 1346	затем
 T35	Event 578 595	режима   изоляции
 T36	Other-term 634 646	коронавируса
 T37	GPE 57 61	мире
 T38	GPE 233 237	мире
+A3	Past T30
+A4	Present T31

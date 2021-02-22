@@ -44,7 +44,7 @@
 # sent_id = 0005-p3-s1
 # text = ``Сегодня я прощаюсь с другом, а весь мир - с гением.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Сегодня	_	_	_	_	_	_	_	bratT3=Date-relative
+2	Сегодня	_	_	_	_	_	_	_	bratA6=T3:Present|bratT3=Date-absolute
 3	я	_	_	_	_	_	_	_	_
 4	прощаюсь	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
@@ -131,7 +131,7 @@
 # par_text = Ранее на смерть отреагировал трехкратный чемпион мира в составе сборной Бразилии Пеле. Соперник Марадоны по четвертьфиналу чемпионата мира-1986 Гари Линекер также посвятил пост кончине аргентинца. Однако слова англичанина были поняты неоднозначно.
 # sent_id = 0005-p4-s1
 # text = Ранее на смерть отреагировал трехкратный чемпион мира в составе сборной Бразилии Пеле.
-1	Ранее	_	_	_	_	_	_	_	bratT49=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT49=Time-relative
 2	на	_	_	_	_	_	_	_	_
 3	смерть	_	_	_	_	_	_	_	_
 4	отреагировал	_	_	_	_	_	_	_	_
@@ -183,9 +183,9 @@
 3	Марадоны	_	_	_	_	_	_	_	bratT23=Person|bratT38=Event
 4	стало	_	_	_	_	_	_	_	_
 5	известно	_	_	_	_	_	_	_	_
-6	ранее	_	_	_	_	_	_	_	_
-7	25	_	_	_	_	_	_	_	bratT9=Date-absolute
-8	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
+6	ранее	_	_	_	_	_	_	_	bratA3=T9:Past|bratT54=Time-relative|bratT9=Date-absolute
+7	25	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
+8	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Past|bratT9=Date-absolute
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p5-s2
@@ -207,8 +207,8 @@
 
 # sent_id = 0005-p5-s3
 # text = В ноябре Марадона был госпитализирован с кровоизлиянием в мозг и позже выписан.
-1	В	_	_	_	_	_	_	_	bratT27=Date-period
-2	ноябре	_	_	_	_	_	_	_	bratT27=Date-period
+1	В	_	_	_	_	_	_	_	bratA4=T27:Past|bratT27=Date-absolute
+2	ноябре	_	_	_	_	_	_	_	bratA4=T27:Past|bratT27=Date-absolute
 3	Марадона	_	_	_	_	_	_	_	bratT28=Person
 4	был	_	_	_	_	_	_	_	_
 5	госпитализирован	_	_	_	_	_	_	_	_
@@ -217,7 +217,7 @@
 8	в	_	_	_	_	_	_	_	bratT44=Other-term
 9	мозг	_	_	_	_	_	_	_	bratT44=Other-term
 10	и	_	_	_	_	_	_	_	_
-11	позже	_	_	_	_	_	_	_	bratT50=Date-relative
+11	позже	_	_	_	_	_	_	_	bratT50=Time-relative
 12	выписан	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 
@@ -268,9 +268,9 @@
 6	стал	_	_	_	_	_	_	_	_
 7	чемпионом	_	_	_	_	_	_	_	bratT31=Person-property
 8	мира	_	_	_	_	_	_	_	bratT31=Person-property|bratT56=GPE
-9	в	_	_	_	_	_	_	_	bratT33=Date-absolute
-10	1986	_	_	_	_	_	_	_	bratT33=Date-absolute
-11	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Date-absolute
+9	в	_	_	_	_	_	_	_	bratA5=T33:Past|bratT33=Date-absolute
+10	1986	_	_	_	_	_	_	_	bratA5=T33:Past|bratT33=Date-absolute
+11	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Past|bratT33=Date-absolute
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p6-s3

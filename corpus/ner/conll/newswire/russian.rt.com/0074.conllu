@@ -21,11 +21,11 @@
 2	президент	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
 3	Ильхам	_	_	_	_	_	_	_	bratT25=Person
 4	Алиев	_	_	_	_	_	_	_	bratT25=Person
-5	в	_	_	_	_	_	_	_	bratT30=Date-period
-6	ходе	_	_	_	_	_	_	_	bratT30=Date-period
-7	обращения	_	_	_	_	_	_	_	bratT30=Date-period
-8	к	_	_	_	_	_	_	_	bratT30=Date-period
-9	нации	_	_	_	_	_	_	_	bratT30=Date-period
+5	в	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-relative
+6	ходе	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-relative
+7	обращения	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-relative|bratT33=Event
+8	к	_	_	_	_	_	_	_	bratT33=Event
+9	нации	_	_	_	_	_	_	_	bratT33=Event
 10	объявил	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
@@ -64,7 +64,7 @@
 2	Дорогие	_	_	_	_	_	_	_	_
 3	соотечественники	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	сегодня	_	_	_	_	_	_	_	bratT31=Date-relative
+5	сегодня	_	_	_	_	_	_	_	bratA5=T31:Past|bratT31=Date-absolute
 6	Кельбаджарский	_	_	_	_	_	_	_	bratT6=GPE
 7	район	_	_	_	_	_	_	_	bratT6=GPE
 8	освобождён	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 # par_text = Ранее в Минобороны Азербайджана сообщили, что азербайджанские войска вошли в Кельбаджарский район согласно трёхстороннему заявлению по Карабаху.
 # sent_id = 0074-p5-s1
 # text = Ранее в Минобороны Азербайджана сообщили, что азербайджанские войска вошли в Кельбаджарский район согласно трёхстороннему заявлению по Карабаху.
-1	Ранее	_	_	_	_	_	_	_	bratT32=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT32=Time-relative
 2	в	_	_	_	_	_	_	_	_
 3	Минобороны	_	_	_	_	_	_	_	bratT9=Organization
 4	Азербайджана	_	_	_	_	_	_	_	bratT10=GPE|bratT9=Organization
@@ -118,11 +118,11 @@
 # par_text = В ночь на 10 ноября российский лидер Владимир Путин, президент Азербайджана Ильхам Алиев и премьер-министр Армении Никол Пашинян подписали заявление о прекращении огня в Карабахе.
 # sent_id = 0074-p6-s1
 # text = В ночь на 10 ноября российский лидер Владимир Путин, президент Азербайджана Ильхам Алиев и премьер-министр Армении Никол Пашинян подписали заявление о прекращении огня в Карабахе.
-1	В	_	_	_	_	_	_	_	bratT29=Time-period
-2	ночь	_	_	_	_	_	_	_	bratT29=Time-period
-3	на	_	_	_	_	_	_	_	bratT29=Time-period
-4	10	_	_	_	_	_	_	_	bratT14=Date-absolute
-5	ноября	_	_	_	_	_	_	_	bratT14=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute|bratT29=Time-absolute
+2	ночь	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute|bratT29=Time-absolute
+3	на	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute|bratT29=Time-absolute
+4	10	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
+5	ноября	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
 6	российский	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property
 7	лидер	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property
 8	Владимир	_	_	_	_	_	_	_	bratT15=Person

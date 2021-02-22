@@ -4,8 +4,8 @@ T5	Service 389 420	портале   правовой   информации
 T6	Person 440 448	Мишустин
 T7	Money 493 521	более   11,2   млрд   рублей
 T8	Other-term 581 618	коронавирусной   инфекцией   COVID-19
-T9	Date-absolute 661 672	24   ноября
-T10	Time-duration 692 711	в   течение   суток
+T9	Date-absolute 656 672	на   24   ноября
+T10	Duration 706 711	суток
 T11	Quantity 724 742	24   326   случаев
 T12	Other-term 759 796	коронавирусной   инфекцией   COVID-19
 T13	Quantity 893 906	2   138   828
@@ -18,3 +18,11 @@ T16	Date-period 166 197	до   31   декабря   2021   года
 T17	Other-term 292 329	коронавирусной   инфекцией   COVID-19
 T18	Event 858 866	эпидемии
 T19	Date-period 845 866	с   начала   эпидемии
+T20	Date-period 692 711	в   течение   суток
+A2	Past T20
+T21	Organization 644 653	оперштаба
+T22	Date-absolute 171 197	31   декабря   2021   года
+A4	Future T22
+A3	Past T3
+A5	Past T9
+A6	Past T19

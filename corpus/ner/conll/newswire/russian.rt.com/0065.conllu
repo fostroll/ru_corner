@@ -66,9 +66,9 @@
 20	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
 21	,	_	_	_	_	_	_	_	_
 22	а	_	_	_	_	_	_	_	_
-23	на	_	_	_	_	_	_	_	bratT9=Date-relative
-24	пятый	_	_	_	_	_	_	_	bratT8=Ordinal|bratT9=Date-relative
-25	день	_	_	_	_	_	_	_	bratT9=Date-relative
+23	на	_	_	_	_	_	_	_	bratT9=Time-relative
+24	пятый	_	_	_	_	_	_	_	bratT8=Ordinal|bratT9=Time-relative
+25	день	_	_	_	_	_	_	_	bratT9=Time-relative
 26	пребывания	_	_	_	_	_	_	_	_
 27	на	_	_	_	_	_	_	_	_
 28	острове	_	_	_	_	_	_	_	_
@@ -164,7 +164,7 @@
 12	Гавану	_	_	_	_	_	_	_	bratT14=GPE
 13	иностранцев	_	_	_	_	_	_	_	_
 14	установлен	_	_	_	_	_	_	_	_
-15	семидневный	_	_	_	_	_	_	_	bratT30=Date-duration
+15	семидневный	_	_	_	_	_	_	_	bratT30=Duration|bratT32=Time-period
 16	режим	_	_	_	_	_	_	_	_
 17	изоляции	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
@@ -245,8 +245,8 @@
 14	территорию	_	_	_	_	_	_	_	_
 15	страны	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	bratT18=Date-period
-17	1	_	_	_	_	_	_	_	bratT18=Date-period
-18	декабря	_	_	_	_	_	_	_	bratT18=Date-period
+17	1	_	_	_	_	_	_	_	bratT18=Date-period|bratT33=Date-absolute
+18	декабря	_	_	_	_	_	_	_	bratT18=Date-period|bratT33=Date-absolute
 19	кубинское	_	_	_	_	_	_	_	bratT19=Organization
 20	правительство	_	_	_	_	_	_	_	bratT19=Organization
 21	установило	_	_	_	_	_	_	_	_

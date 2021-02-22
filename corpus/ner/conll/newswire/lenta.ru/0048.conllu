@@ -69,8 +69,8 @@
 3	,	_	_	_	_	_	_	_	_
 4	который	_	_	_	_	_	_	_	_
 5	займет	_	_	_	_	_	_	_	_
-6	три	_	_	_	_	_	_	_	bratT10=Date-duration
-7	недели	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-duration
+6	три	_	_	_	_	_	_	_	bratA7=T31:Future|bratT10=Duration|bratT31=Date-period
+7	недели	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T31:Future|bratT10=Duration|bratT31=Date-period
 8	,	_	_	_	_	_	_	_	_
 9	поможет	_	_	_	_	_	_	_	_
 10	протестировать	_	_	_	_	_	_	_	_
@@ -83,9 +83,9 @@
 17	,	_	_	_	_	_	_	_	_
 18	так	_	_	_	_	_	_	_	_
 19	как	_	_	_	_	_	_	_	_
-20	в	_	_	_	_	_	_	_	bratT4=Date-relative
-21	данный	_	_	_	_	_	_	_	bratT4=Date-relative
-22	момент	_	_	_	_	_	_	_	bratT4=Date-relative
+20	в	_	_	_	_	_	_	_	bratA9=T4:Present|bratT4=Date-absolute
+21	данный	_	_	_	_	_	_	_	bratA9=T4:Present|bratT4=Date-absolute
+22	момент	_	_	_	_	_	_	_	bratA9=T4:Present|bratT4=Date-absolute
 23	идет	_	_	_	_	_	_	_	_
 24	процесс	_	_	_	_	_	_	_	_
 25	ледообразования	_	_	_	_	_	_	_	SpaceAfter=No
@@ -107,9 +107,9 @@
 10	''	_	_	_	_	_	_	_	bratA5=T13:Unconscious|bratT13=Person
 11	сделает	_	_	_	_	_	_	_	_
 12	только	_	_	_	_	_	_	_	_
-13	в	_	_	_	_	_	_	_	bratT14=Date-absolute
-14	конце	_	_	_	_	_	_	_	bratT14=Date-absolute
-15	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Date-absolute
+13	в	_	_	_	_	_	_	_	bratA6=T14:Future|bratT14=Date-absolute
+14	конце	_	_	_	_	_	_	_	bratA6=T14:Future|bratT14=Date-absolute
+15	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T14:Future|bratT14=Date-absolute
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0048-p4-s2
@@ -136,7 +136,7 @@
 # par_text = Ранее стало известно, что в России за ближайшие десять лет планируют построить десять новых ледоколов. В настоящее время средний возраст российских ледоколов составляет 37 лет. Введение же в эксплуатацию новых судов позволит снизить этот показатель до 29 лет к 2024 году и до 25 лет к 2030-му.
 # sent_id = 0048-p5-s1
 # text = Ранее стало известно, что в России за ближайшие десять лет планируют построить десять новых ледоколов.
-1	Ранее	_	_	_	_	_	_	_	bratT26=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT26=Time-relative
 2	стало	_	_	_	_	_	_	_	_
 3	известно	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -144,9 +144,9 @@
 6	в	_	_	_	_	_	_	_	_
 7	России	_	_	_	_	_	_	_	bratT15=GPE
 8	за	_	_	_	_	_	_	_	bratT16=Date-period
-9	ближайшие	_	_	_	_	_	_	_	bratT16=Date-period
-10	десять	_	_	_	_	_	_	_	bratT16=Date-period
-11	лет	_	_	_	_	_	_	_	bratT16=Date-period
+9	ближайшие	_	_	_	_	_	_	_	bratA12=T20:Future|bratT16=Date-period|bratT20=Date-absolute|bratT21=Ordinal
+10	десять	_	_	_	_	_	_	_	bratA12=T20:Future|bratT16=Date-period|bratT20=Date-absolute|bratT30=Duration
+11	лет	_	_	_	_	_	_	_	bratA12=T20:Future|bratT16=Date-period|bratT20=Date-absolute|bratT30=Duration
 12	планируют	_	_	_	_	_	_	_	_
 13	построить	_	_	_	_	_	_	_	_
 14	десять	_	_	_	_	_	_	_	bratT17=Quantity
@@ -156,9 +156,9 @@
 
 # sent_id = 0048-p5-s2
 # text = В настоящее время средний возраст российских ледоколов составляет 37 лет.
-1	В	_	_	_	_	_	_	_	bratT1=Date-relative
-2	настоящее	_	_	_	_	_	_	_	bratT1=Date-relative
-3	время	_	_	_	_	_	_	_	bratT1=Date-relative
+1	В	_	_	_	_	_	_	_	bratA10=T1:Present|bratT1=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA10=T1:Present|bratT1=Date-absolute
+3	время	_	_	_	_	_	_	_	bratA10=T1:Present|bratT1=Date-absolute
 4	средний	_	_	_	_	_	_	_	_
 5	возраст	_	_	_	_	_	_	_	_
 6	российских	_	_	_	_	_	_	_	_
@@ -183,14 +183,14 @@
 11	до	_	_	_	_	_	_	_	_
 12	29	_	_	_	_	_	_	_	bratT19=Age
 13	лет	_	_	_	_	_	_	_	bratT19=Age
-14	к	_	_	_	_	_	_	_	bratT20=Date-absolute
-15	2024	_	_	_	_	_	_	_	bratT20=Date-absolute
-16	году	_	_	_	_	_	_	_	bratT20=Date-absolute
+14	к	_	_	_	_	_	_	_	bratA11=T28:Future|bratT28=Date-absolute
+15	2024	_	_	_	_	_	_	_	bratA11=T28:Future|bratT28=Date-absolute
+16	году	_	_	_	_	_	_	_	bratA11=T28:Future|bratT28=Date-absolute
 17	и	_	_	_	_	_	_	_	_
 18	до	_	_	_	_	_	_	_	_
 19	25	_	_	_	_	_	_	_	bratT22=Age
 20	лет	_	_	_	_	_	_	_	bratT22=Age
-21	к	_	_	_	_	_	_	_	bratT21=Date-absolute
-22	2030-му	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Date-absolute
+21	к	_	_	_	_	_	_	_	bratA13=T29:Future|bratT29=Date-absolute
+22	2030-му	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T29:Future|bratT29=Date-absolute
 23	.	_	_	_	_	_	_	_	_
 

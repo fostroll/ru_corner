@@ -61,7 +61,7 @@
 2	признались	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	ранее	_	_	_	_	_	_	_	bratT19=Date-relative
+5	ранее	_	_	_	_	_	_	_	bratT19=Time-relative
 6	использовали	_	_	_	_	_	_	_	_
 7	одни	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
@@ -116,9 +116,9 @@
 13	ВИЧ	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
 14	,	_	_	_	_	_	_	_	_
 15	гепатитом	_	_	_	_	_	_	_	bratA4=T13:Plural|bratT13=Other-term
-16	B	_	_	_	_	_	_	_	bratA4=T13:Plural|bratT13=Other-term
+16	B	_	_	_	_	_	_	_	bratA4=T13:Plural|bratT13=Other-term|bratT21=Other-term
 17	и	_	_	_	_	_	_	_	bratA4=T13:Plural|bratT13=Other-term
-18	C	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Plural|bratT13=Other-term
+18	C	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Plural|bratT13=Other-term|bratT29=Other-term
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0022-p3-s4
@@ -142,8 +142,8 @@
 # par_text = 5 октября специалисты из объяснили снижение числа случаев коронавируса в Англии ошибкой Excel. Служба общественного здравоохранения Англии (PHE) хранит данные о зараженных в таблицах Microsoft Excel. Однако сбой, который произошел в программе 3-4 октября, мог привести к утрате информации о лабораторных исследованиях. Из-за этого в Англии могли не учесть примерно 16 тысяч случаев заражения.
 # sent_id = 0022-p4-s1
 # text = 5 октября специалисты из объяснили снижение числа случаев коронавируса в Англии ошибкой Excel.
-1	5	_	_	_	_	_	_	_	bratT14=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT14=Date-absolute
+1	5	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute
 3	специалисты	_	_	_	_	_	_	_	bratT28=Person-property
 4	из	_	_	_	_	_	_	_	_
 5	объяснили	_	_	_	_	_	_	_	_
@@ -185,8 +185,8 @@
 5	произошел	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	программе	_	_	_	_	_	_	_	_
-8	3-4	_	_	_	_	_	_	_	bratT21=Date-absolute
-9	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Date-absolute
+8	3-4	_	_	_	_	_	_	_	bratA7=T30:Past|bratT30=Date-absolute
+9	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T30:Past|bratT30=Date-absolute
 10	,	_	_	_	_	_	_	_	_
 11	мог	_	_	_	_	_	_	_	_
 12	привести	_	_	_	_	_	_	_	_

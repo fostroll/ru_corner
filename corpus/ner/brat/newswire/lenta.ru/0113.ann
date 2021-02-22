@@ -1,28 +1,28 @@
 T1	Quantity 58 79	на   30   килограммов
-T2	Date-duration 82 90	за   год
+T2	Time-period 82 90	за   год
 T3	Person-property 0 24	Спортивный   комментатор
 T4	Person 92 131	Спортивный   комментатор   Майкл   Коул
 T5	Person-property 92 116	Спортивный   комментатор
 T6	Quantity 165 186	на   30   килограммов
-T7	Date-duration 189 197	за   год
+T7	Time-period 189 197	за   год
 T8	Organization 227 236	The   Sun
 A1	Media T8
 T9	Person 274 278	Коул
 T10	Person-property 400 411	Комментатор
 T11	Quantity 544 555	шесть   раз
-T12	Date-duration 558 566	в   день
+T12	Time-period 558 566	в   день
 T13	Person-property 591 600	журналист
 T14	Quantity 633 647	два-три   раза
-T15	Date-duration 650 660	в   неделю
+T15	Time-period 650 660	в   неделю
 T16	Quantity 701 715	два-три   раза
-T17	Date-duration 718 728	в   неделю
+T17	Time-period 718 728	в   неделю
 T18	Person-property 784 791	тренера
 T19	Person 796 800	Коул
 T20	Date-absolute 900 923	В   июле   этого   года
 T21	Person 926 1002	американскому   бойцу   смешанного   стиля   (   MMA   )   Хорхе   Масвидалю
 T23	Person-property 926 982	американскому   бойцу   смешанного   стиля   (   MMA   )
 T24	Quantity 1026 1046	девять   килограммов
-T25	Date-duration 1049 1066	за   четыре   дня
+T25	Time-period 1049 1066	за   четыре   дня
 T26	Person-property 1071 1080	Спортсмен
 T27	Event 1119 1181	турнире   Абсолютного   бойцовского   чемпионата   (   UFC   )
 T28	Location 1189 1201	острове   Яс
@@ -32,3 +32,11 @@ T22	Person-property 883 894	спортсменов
 T31	Organization 1174 1177	UFC
 T32	Organization 1129 1167	Абсолютного   бойцовского   чемпионата
 T33	Other-term 975 978	MMA
+A2	Past T20
+T34	Duration 562 566	день
+T35	Duration 654 660	неделю
+T36	Duration 722 728	неделю
+T37	Duration 1054 1066	четыре   дня
+T38	Duration 87 90	год
+T39	Duration 194 197	год
+T40	Ordinal 911 916	этого

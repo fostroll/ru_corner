@@ -162,21 +162,21 @@
 # par_text = 22 ноября Сарамутин рассказал, что после убийства чернокожего Джорджа Флойда в мае этого года игроков Объединенной футбольной лиги (USL) попросили вставать на колено в поддержку движения BLM перед матчами, однако он не стал этого делать и перестал попадать в заявку команды. После случившегося игроком заинтересовались российские клубы.
 # sent_id = 0106-p4-s1
 # text = 22 ноября Сарамутин рассказал, что после убийства чернокожего Джорджа Флойда в мае этого года игроков Объединенной футбольной лиги (USL) попросили вставать на колено в поддержку движения BLM перед матчами, однако он не стал этого делать и перестал попадать в заявку команды.
-1	22	_	_	_	_	_	_	_	bratT17=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+1	22	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
 3	Сарамутин	_	_	_	_	_	_	_	bratT18=Person
 4	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	после	_	_	_	_	_	_	_	bratT39=Date-period
-8	убийства	_	_	_	_	_	_	_	bratT20=Event|bratT39=Date-period
+7	после	_	_	_	_	_	_	_	bratA5=T39:Past|bratT39=Date-relative
+8	убийства	_	_	_	_	_	_	_	bratA5=T39:Past|bratT20=Event|bratT39=Date-relative
 9	чернокожего	_	_	_	_	_	_	_	bratT19=Person|bratT20=Event
 10	Джорджа	_	_	_	_	_	_	_	bratT19=Person|bratT20=Event
 11	Флойда	_	_	_	_	_	_	_	bratT19=Person|bratT20=Event
-12	в	_	_	_	_	_	_	_	bratT21=Date-absolute
-13	мае	_	_	_	_	_	_	_	bratT21=Date-absolute
-14	этого	_	_	_	_	_	_	_	bratT21=Date-absolute
-15	года	_	_	_	_	_	_	_	bratT21=Date-absolute
+12	в	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
+13	мае	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
+14	этого	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute|bratT42=Ordinal
+15	года	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
 16	игроков	_	_	_	_	_	_	_	bratT23=Person-property
 17	Объединенной	_	_	_	_	_	_	_	bratT22=Organization|bratT23=Person-property
 18	футбольной	_	_	_	_	_	_	_	bratT22=Organization|bratT23=Person-property
@@ -192,8 +192,8 @@
 28	поддержку	_	_	_	_	_	_	_	_
 29	движения	_	_	_	_	_	_	_	bratT24=Event
 30	BLM	_	_	_	_	_	_	_	bratT24=Event
-31	перед	_	_	_	_	_	_	_	bratT40=Date-period
-32	матчами	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Date-period
+31	перед	_	_	_	_	_	_	_	bratT40=Time-relative
+32	матчами	_	_	_	_	_	_	_	SpaceAfter=No
 33	,	_	_	_	_	_	_	_	_
 34	однако	_	_	_	_	_	_	_	_
 35	он	_	_	_	_	_	_	_	_
@@ -211,8 +211,8 @@
 
 # sent_id = 0106-p4-s2
 # text = После случившегося игроком заинтересовались российские клубы.
-1	После	_	_	_	_	_	_	_	bratT41=Date-period
-2	случившегося	_	_	_	_	_	_	_	bratT41=Date-period
+1	После	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-relative
+2	случившегося	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-relative
 3	игроком	_	_	_	_	_	_	_	bratT26=Person-property
 4	заинтересовались	_	_	_	_	_	_	_	_
 5	российские	_	_	_	_	_	_	_	_
@@ -243,10 +243,10 @@
 
 # sent_id = 0106-p5-s2
 # text = В начале 2019 года хавбек переехал в Остин.
-1	В	_	_	_	_	_	_	_	bratT34=Date-absolute
-2	начале	_	_	_	_	_	_	_	bratT34=Date-absolute
-3	2019	_	_	_	_	_	_	_	bratT34=Date-absolute
-4	года	_	_	_	_	_	_	_	bratT34=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
+2	начале	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
+3	2019	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
 5	хавбек	_	_	_	_	_	_	_	bratT38=Person-property
 6	переехал	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_

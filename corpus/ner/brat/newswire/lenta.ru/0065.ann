@@ -14,18 +14,28 @@ T12	Quantity 1415 1433	четыре   километра
 T13	Quantity 1366 1376	Пять   раз
 T14	Quantity 1548 1558	три   раза
 T15	Quantity 1731 1741	пять   раз
-T16	Date-duration 1379 1389	в   неделю
-T17	Date-duration 1561 1571	в   неделю
-T18	Date-duration 1744 1754	в   неделю
-T19	Date-duration 626 634	за   год
-T20	Date-duration 170 199	менее   чем   за   два   года
-T4	Date-duration 62 77	за   два   года
+T16	Time-period 1379 1389	в   неделю
+T17	Time-period 1561 1571	в   неделю
+T18	Time-period 1744 1754	в   неделю
+T19	Time-period 626 634	за   год
+T20	Duration 170 199	менее   чем   за   два   года
+T4	Date-period 62 77	за   два   года
 T24	Organization 224 236	Daily   Mail
 A3	Media T24
 T21	Person 265 284	Xanthia   Efthymiou
-T22	Date-duration 1436 1444	в   день
+T22	Time-period 1436 1444	в   день
 T23	Ordinal 1006 1012	первый
 T25	Ordinal 1480 1486	первые
 T26	Ordinal 328 338	последнему
-T27	Date-relative 1658 1665	Позднее
-T28	Date-period 1514 1527	После   этого
+T27	Time-relative 1658 1665	Позднее
+T28	Time-relative 1514 1527	После   этого
+T29	Duration 631 634	год
+T30	Duration 67 77	два   года
+T31	Date-period 170 199	менее   чем   за   два   года
+T32	Duration 1383 1389	неделю
+T33	Duration 1440 1444	день
+T34	Duration 1565 1571	неделю
+T35	Duration 1748 1754	неделю
+T36	Time-relative 746 752	дальше
+A4	Past T31
+A5	Past T4

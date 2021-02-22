@@ -37,5 +37,14 @@ T34	Organization 1325 1340	``   Порту   ''
 A3	Media T8
 T36	GPE 218 224	Европы
 T35	Quantity 191 201	одном   из
-T37	Date-period 775 780	Летом
-T38	Date-period 1287 1297	До   этого
+T37	Date-absolute 775 780	Летом
+T38	Date-relative 1287 1297	До   этого
+A4	Future T20
+A5	Past T37
+A6	Future T25
+A7	Past T28
+T39	Date-absolute 1260 1264	2012
+A8	Past T39
+T40	Date-absolute 1272 1282	2016   год
+A9	Past T40
+A10	Past T38

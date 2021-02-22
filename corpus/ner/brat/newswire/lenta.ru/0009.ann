@@ -2,16 +2,16 @@ T1	GPE 4 10	России
 T2	GPE 99 105	России
 T3	Date-period 144 184	с   января   по   сентябрь   2020   года
 T13	Percent 1087 1103	8-10   процентов
-T15	Date-relative 992 1007	прошлого   года
+T15	Date-absolute 967 1007	аналогичным   периодом   прошлого   года
 T16	Date-period 1052 1069	до   конца   года
-T19	Date-relative 1419 1434	прошлого   года
-T5	Date-period 226 237	В   октябре
+T19	Date-absolute 1396 1434	аналогичный   период   прошлого   года
+T5	Date-absolute 230 237	октябре
 T4	Organization 202 220	``   Автостат   ''
 T11	Quantity 320 346	15   автомобильных   марок
 T12	Quantity 903 925	554,6   тысячи   машин
 T17	Quantity 1305 1341	706   тысяч   легковых   автомобилей
-T20	Date-relative 562 578	к   концу   года
-T14	Date-period 932 943	в   августе
+T20	Date-period 562 578	к   концу   года
+T14	Date-absolute 936 943	августе
 T6	Percent 122 141	на   12   процентов
 T7	Percent 459 481	на   25-30   процентов
 T8	Percent 603 622	на   20   процентов
@@ -24,5 +24,31 @@ T18	Percent 1354 1383	на   30,1   процента   меньше
 A1	Media T4
 T24	Ordinal 819 828	вторичном
 T25	Ordinal 632 641	последние
-T26	Date-relative 549 555	дальше
 T27	Other-term 1232 1244	коронавируса
+T28	Date-absolute 148 154	января
+T29	Date-absolute 162 184	сентябрь   2020   года
+T30	Duration 644 655	шесть   лет
+T31	Date-period 932 943	в   августе
+T32	Date-period 967 1007	аналогичным   периодом   прошлого   года
+T33	Date-absolute 1057 1069	конца   года
+T35	Date-absolute 1254 1284	восемь   месяцев   2020   года
+T34	Date-period 1396 1434	аналогичный   период   прошлого   года
+T36	Date-period 226 237	В   октябре
+T37	Duration 1254 1270	восемь   месяцев
+T38	Date-absolute 566 578	концу   года
+A2	Past T28
+A3	Past T29
+A4	Past T5
+A5	Future T38
+A6	Past T14
+A7	Future T33
+A8	Past T35
+A10	Past T15
+A11	Past T19
+T39	Duration 967 989	аналогичным   периодом
+T42	Duration 1396 1416	аналогичный   период
+T41	Ordinal 992 1000	прошлого
+T43	Ordinal 1419 1427	прошлого
+T26	Time-relative 549 555	дальше
+T40	Date-absolute 632 655	последние   шесть   лет
+A12	Past T40

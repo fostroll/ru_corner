@@ -31,9 +31,15 @@ T29	Person-property 1568 1586	российский   лидер
 T30	Quantity 607 617	одной   из
 T31	Ordinal 620 626	первых
 T32	Ordinal 1495 1501	Первым
-T33	Date-period 372 391	в   ближайшие   дни
+T33	Date-absolute 372 391	в   ближайшие   дни
 T34	Quantity 1005 1021	десятков   стран
-T35	Date-period 499 504	летом
-T36	Date-relative 1398 1422	К   настоящему   моменту
-T37	Date-relative 929 934	Ранее
+T35	Date-absolute 499 504	летом
+T36	Date-absolute 1398 1422	К   настоящему   моменту
+T37	Time-relative 929 934	Ранее
 T38	Other-term 1057 1069	коронавируса
+T40	Duration 388 391	дни
+A2	Past T35
+A3	Past T26
+A4	Future T33
+A5	Past T36
+T39	Ordinal 376 385	ближайшие

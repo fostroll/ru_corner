@@ -92,8 +92,8 @@
 # par_text = В октябре гендиректор «Роскосмоса» Дмитрий Рогозин отказался подписывать с НАСА соглашения по совместному освоению Луны, заявив, что программа Artemis и связанная с ней окололунная станция Gateway являются «американоцентричными». К соответствующем документу присоединились США, Австралия, Канада, Япония, Люксембург, Италия, Объединенные Арабские Эмираты и Великобритания.
 # sent_id = 0046-p4-s1
 # text = В октябре гендиректор ``Роскосмоса'' Дмитрий Рогозин отказался подписывать с НАСА соглашения по совместному освоению Луны, заявив, что программа Artemis и связанная с ней окололунная станция Gateway являются ``американоцентричными''.
-1	В	_	_	_	_	_	_	_	bratT15=Date-absolute
-2	октябре	_	_	_	_	_	_	_	bratT15=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
+2	октябре	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
 3	гендиректор	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT18=Person
 5	Роскосмоса	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT18=Person
@@ -157,10 +157,10 @@
 # par_text = В январе 2019 года историк космонавтики Джим Оберг заявил, что российская космическая промышленность за последние три десятилетия на неопределенное время утратила способность изготавливать модули орбитальной станции, а также создавать и запускать научные миссии к Луне и планетам.
 # sent_id = 0046-p5-s1
 # text = В январе 2019 года историк космонавтики Джим Оберг заявил, что российская космическая промышленность за последние три десятилетия на неопределенное время утратила способность изготавливать модули орбитальной станции, а также создавать и запускать научные миссии к Луне и планетам.
-1	В	_	_	_	_	_	_	_	bratT24=Date-absolute
-2	январе	_	_	_	_	_	_	_	bratT24=Date-absolute
-3	2019	_	_	_	_	_	_	_	bratT24=Date-absolute
-4	года	_	_	_	_	_	_	_	bratT24=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA5=T24:Past|bratT24=Date-absolute
+2	январе	_	_	_	_	_	_	_	bratA5=T24:Past|bratT24=Date-absolute
+3	2019	_	_	_	_	_	_	_	bratA5=T24:Past|bratT24=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA5=T24:Past|bratT24=Date-absolute
 5	историк	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
 6	космонавтики	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
 7	Джим	_	_	_	_	_	_	_	bratT26=Person
@@ -172,12 +172,12 @@
 13	космическая	_	_	_	_	_	_	_	_
 14	промышленность	_	_	_	_	_	_	_	_
 15	за	_	_	_	_	_	_	_	bratT27=Date-period
-16	последние	_	_	_	_	_	_	_	bratT13=Ordinal|bratT27=Date-period
-17	три	_	_	_	_	_	_	_	bratT27=Date-period
-18	десятилетия	_	_	_	_	_	_	_	bratT27=Date-period
+16	последние	_	_	_	_	_	_	_	bratA7=T44:Past|bratT13=Ordinal|bratT27=Date-period|bratT44=Date-absolute
+17	три	_	_	_	_	_	_	_	bratA7=T44:Past|bratT27=Date-period|bratT41=Duration|bratT44=Date-absolute
+18	десятилетия	_	_	_	_	_	_	_	bratA7=T44:Past|bratT27=Date-period|bratT41=Duration|bratT44=Date-absolute
 19	на	_	_	_	_	_	_	_	bratT40=Date-period
-20	неопределенное	_	_	_	_	_	_	_	bratT40=Date-period
-21	время	_	_	_	_	_	_	_	bratT40=Date-period
+20	неопределенное	_	_	_	_	_	_	_	bratA9=T45:Future|bratT40=Date-period|bratT42=Duration|bratT45=Date-absolute
+21	время	_	_	_	_	_	_	_	bratA9=T45:Future|bratT40=Date-period|bratT42=Duration|bratT45=Date-absolute
 22	утратила	_	_	_	_	_	_	_	_
 23	способность	_	_	_	_	_	_	_	_
 24	изготавливать	_	_	_	_	_	_	_	_
@@ -195,6 +195,6 @@
 36	к	_	_	_	_	_	_	_	_
 37	Луне	_	_	_	_	_	_	_	bratT28=Location
 38	и	_	_	_	_	_	_	_	_
-39	планетам	_	_	_	_	_	_	_	SpaceAfter=No
+39	планетам	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Location
 40	.	_	_	_	_	_	_	_	_
 

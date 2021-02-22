@@ -17,7 +17,7 @@ T17	Quantity 536 550	двум   статьям
 T18	Age 831 839	16   лет
 T21	Organization 1416 1434	``   Ленты.ру   ''
 A2	Media T21
-T22	Date-absolute 1450 1459	7   марта
+T22	Date-absolute 1440 1459	Вечером   7   марта
 T23	Person-property 1486 1491	судьи
 T24	Person 1486 1501	судьи   Саяпина
 T25	Time-absolute 1681 1694	около   21:00
@@ -37,10 +37,14 @@ T34	Person-property 1082 1087	судьи
 T35	Person-property 1205 1234	начальнику   отдела   полиции
 T36	Person-property 1827 1836	свидетеля
 T37	Ordinal 202 210	Третьего
-T38	Time-period 1440 1447	Вечером
-T39	Date-relative 673 680	Позднее
-T40	Date-relative 1785 1790	Затем
+T38	Time-absolute 1440 1447	Вечером
+T39	Time-relative 673 680	Позднее
+T40	Time-relative 1785 1790	Затем
 T41	Age 1284 1303	несовершеннолетнего
 T42	Age 1531 1540	подростка
 T43	Age 1908 1917	подростка
 T44	Organization 1218 1234	отдела   полиции
+A3	Past T11
+A4	Past T22
+T45	Date-relative 1681 1694	около   21:00
+A5	Past T45

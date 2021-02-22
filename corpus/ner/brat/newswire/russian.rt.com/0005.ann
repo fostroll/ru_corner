@@ -8,7 +8,7 @@ T8	Person-property 941 950	президент
 T9	GPE 968 974	Сербии
 A1	Media T7
 T10	Other-group 730 737	больных
-T11	Date-relative 293 300	сегодня
+T11	Date-absolute 293 300	сегодня
 T12	Person-property 88 106	Президент   Сербии
 T13	GPE 100 106	Сербии
 T14	Person 88 126	Президент   Сербии   Александр   Вучич
@@ -17,8 +17,16 @@ T5	Event 535 543	эпидемии
 T16	Date-period 522 543	с   начала   эпидемии
 T17	Event 65 73	эпидемии
 T18	Ordinal 383 392	следующих
-T19	Date-period 371 399	несколько   следующих   дней
-T20	Date-relative 619 641	в   настоящий   момент
-T21	Time-period 434 439	утром
-T22	Date-relative 956 963	Ранее  
+T19	Duration 371 399	несколько   следующих   дней
+T20	Date-absolute 619 641	в   настоящий   момент
+T21	Time-absolute 434 439	утром
+T22	Time-relative 956 961	Ранее
 T23	Other-term 229 241	коронавируса
+A2	Present T11
+A3	Past T16
+T24	Date-period 371 399	несколько   следующих   дней
+T25	Date-absolute 434 439	утром
+A6	Present T20
+T26	Date-absolute 371 399	несколько   следующих   дней
+A7	Future T26
+A4	Present T25

@@ -141,10 +141,10 @@
 # par_text = В течение двух дней участники «Мастеров гостеприимства» пройдут заключительные оценочные испытания и презентуют свои проекты. По итогам конкурсанты получат обратную связь и экспертную оценку. Соревнования объединят 186 финалистов и продлятся два дня, в течение которых участников ждут оценочные испытания и защита проектов. Победителей будет 50, их ждут образовательные и поощрительные призы.
 # sent_id = 0077-p4-s1
 # text = В течение двух дней участники ``Мастеров гостеприимства'' пройдут заключительные оценочные испытания и презентуют свои проекты.
-1	В	_	_	_	_	_	_	_	bratT16=Date-duration
-2	течение	_	_	_	_	_	_	_	bratT16=Date-duration
-3	двух	_	_	_	_	_	_	_	bratT16=Date-duration
-4	дней	_	_	_	_	_	_	_	bratT16=Date-duration
+1	В	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period
+2	течение	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period
+3	двух	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period|bratT21=Duration
+4	дней	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period|bratT21=Duration
 5	участники	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
 7	Мастеров	_	_	_	_	_	_	_	bratT17=Event
@@ -181,12 +181,12 @@
 4	финалистов	_	_	_	_	_	_	_	bratT18=Quantity
 5	и	_	_	_	_	_	_	_	_
 6	продлятся	_	_	_	_	_	_	_	_
-7	два	_	_	_	_	_	_	_	bratT19=Date-duration
-8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Date-duration
+7	два	_	_	_	_	_	_	_	bratA4=T23:Future|bratT19=Duration|bratT23=Date-period
+8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T23:Future|bratT19=Duration|bratT23=Date-period
 9	,	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT21=Date-period
-11	течение	_	_	_	_	_	_	_	bratT21=Date-period
-12	которых	_	_	_	_	_	_	_	bratT21=Date-period
+10	в	_	_	_	_	_	_	_	_
+11	течение	_	_	_	_	_	_	_	_
+12	которых	_	_	_	_	_	_	_	_
 13	участников	_	_	_	_	_	_	_	_
 14	ждут	_	_	_	_	_	_	_	_
 15	оценочные	_	_	_	_	_	_	_	_

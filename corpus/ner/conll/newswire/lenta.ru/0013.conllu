@@ -20,8 +20,8 @@
 3	комнаты	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	Москве	_	_	_	_	_	_	_	bratT2=GPE
-6	осенью	_	_	_	_	_	_	_	bratT3=Date-period
-7	2020-го	_	_	_	_	_	_	_	bratT3=Date-period
+6	осенью	_	_	_	_	_	_	_	bratA3=T3:Present|bratT3=Date-absolute
+7	2020-го	_	_	_	_	_	_	_	bratA3=T3:Present|bratT3=Date-absolute
 8	составляет	_	_	_	_	_	_	_	_
 9	4,22	_	_	_	_	_	_	_	bratT4=Money
 10	миллиона	_	_	_	_	_	_	_	bratT4=Money
@@ -84,11 +84,11 @@
 7	комнаты	_	_	_	_	_	_	_	_
 8	предлагаются	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	Новомосковском	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=GPE
+10	Новомосковском	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=GPE|bratT30=GPE
 11	и	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=GPE
-12	Южном	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=GPE
+12	Южном	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=GPE|bratT31=GPE
 13	округах	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=GPE
-14	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=GPE
+14	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Plural|bratT11=GPE|bratT24=GPE
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0013-p3-s2
@@ -99,7 +99,7 @@
 4	купить	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
 6	цене	_	_	_	_	_	_	_	_
-7	от	_	_	_	_	_	_	_	_
+7	от	_	_	_	_	_	_	_	bratT14=Money
 8	2,19	_	_	_	_	_	_	_	bratT14=Money
 9	миллиона	_	_	_	_	_	_	_	bratT14=Money
 10	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Money
@@ -149,8 +149,8 @@
 6	в	_	_	_	_	_	_	_	_
 7	Москве	_	_	_	_	_	_	_	bratT12=GPE
 8	в	_	_	_	_	_	_	_	bratT19=Date-period
-9	октябре	_	_	_	_	_	_	_	bratT19=Date-period
-10	2020-го	_	_	_	_	_	_	_	bratT19=Date-period
+9	октябре	_	_	_	_	_	_	_	bratA4=T27:Past|bratT19=Date-period|bratT27=Date-absolute
+10	2020-го	_	_	_	_	_	_	_	bratA4=T27:Past|bratT19=Date-period|bratT27=Date-absolute
 11	вырос	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	bratT20=Percent
 13	14	_	_	_	_	_	_	_	bratT20=Percent
@@ -158,7 +158,7 @@
 15	по	_	_	_	_	_	_	_	_
 16	сравнению	_	_	_	_	_	_	_	_
 17	с	_	_	_	_	_	_	_	_
-18	сентябрьским	_	_	_	_	_	_	_	bratT21=Date-period
+18	сентябрьским	_	_	_	_	_	_	_	bratA6=T29:Past|bratT21=Date-period|bratT29=Date-absolute
 19	показателем	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	определили	_	_	_	_	_	_	_	_
@@ -168,15 +168,15 @@
 # sent_id = 0013-p4-s2
 # text = С начала года интерес к данному формату жилья увеличился почти на 8 процентов.
 1	С	_	_	_	_	_	_	_	bratT23=Date-period
-2	начала	_	_	_	_	_	_	_	bratT23=Date-period
-3	года	_	_	_	_	_	_	_	bratT23=Date-period
+2	начала	_	_	_	_	_	_	_	bratA5=T28:Past|bratT23=Date-period|bratT28=Date-absolute
+3	года	_	_	_	_	_	_	_	bratA5=T28:Past|bratT23=Date-period|bratT28=Date-absolute
 4	интерес	_	_	_	_	_	_	_	_
 5	к	_	_	_	_	_	_	_	_
 6	данному	_	_	_	_	_	_	_	_
 7	формату	_	_	_	_	_	_	_	_
 8	жилья	_	_	_	_	_	_	_	_
 9	увеличился	_	_	_	_	_	_	_	_
-10	почти	_	_	_	_	_	_	_	_
+10	почти	_	_	_	_	_	_	_	bratT22=Percent
 11	на	_	_	_	_	_	_	_	bratT22=Percent
 12	8	_	_	_	_	_	_	_	bratT22=Percent
 13	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Percent

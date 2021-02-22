@@ -32,11 +32,11 @@
 # text = Об этом в пятницу, 20 ноября, сообщает ТАСС.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT8=Date-absolute
-4	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT8=Date-absolute
-6	20	_	_	_	_	_	_	_	bratT8=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA6=T8:Present|bratT8=Date-absolute
+4	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Present|bratT8=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA6=T8:Present|bratT8=Date-absolute
+6	20	_	_	_	_	_	_	_	bratA6=T8:Present|bratT8=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Present|bratT8=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	сообщает	_	_	_	_	_	_	_	_
 10	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
@@ -92,7 +92,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Мы	_	_	_	_	_	_	_	_
 3	присутствуем	_	_	_	_	_	_	_	_
-4	сегодня	_	_	_	_	_	_	_	bratT30=Date-relative
+4	сегодня	_	_	_	_	_	_	_	bratA7=T30:Present|bratT30=Date-absolute
 5	при	_	_	_	_	_	_	_	_
 6	уникальном	_	_	_	_	_	_	_	_
 7	событии	_	_	_	_	_	_	_	SpaceAfter=No
@@ -111,13 +111,13 @@
 20	-	_	_	_	_	_	_	_	_
 21	подчеркнул	_	_	_	_	_	_	_	_
 22	Мишустин	_	_	_	_	_	_	_	bratT20=Person
-23	в	_	_	_	_	_	_	_	bratT29=Date-period
-24	ходе	_	_	_	_	_	_	_	bratT29=Date-period
-25	своей	_	_	_	_	_	_	_	bratT29=Date-period
-26	встречи	_	_	_	_	_	_	_	bratT29=Date-period
-27	с	_	_	_	_	_	_	_	_
-28	молодыми	_	_	_	_	_	_	_	bratT31=Age
-29	учеными	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
+23	в	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
+24	ходе	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
+25	своей	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
+26	встречи	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative|bratT32=Event
+27	с	_	_	_	_	_	_	_	bratT32=Event
+28	молодыми	_	_	_	_	_	_	_	bratT31=Age|bratT32=Event
+29	учеными	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT32=Event
 30	,	_	_	_	_	_	_	_	_
 31	которые	_	_	_	_	_	_	_	_
 32	принимали	_	_	_	_	_	_	_	_

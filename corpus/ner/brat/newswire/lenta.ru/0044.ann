@@ -1,17 +1,17 @@
 T1	GPE 4 10	России
 T3	Other-term 43 56	коронавирусом
-T4	Time-duration 59 69	за   сутки
-T5	Time-duration 84 94	за   сутки
+T4	Date-period 59 69	за   сутки
+T5	Date-period 84 94	за   сутки
 T6	GPE 75 81	России
 T8	Other-term 127 140	коронавирусом
 T9	Organization 168 249	оперативный   штаб   по   контролю   и   борьбе   с   распространением   инфекции
 T10	Service 264 279	Telegram-канале
-T11	Date-absolute 286 310	четверг   ,   5   ноября
-T15	Time-period 400 426	За   последние   24   часа
+T11	Date-absolute 282 310	в   четверг   ,   5   ноября
+T15	Date-period 400 426	За   последние   24   часа
 T16	GPE 433 439	России
 T17	Quantity 496 513	в   85   регионах
 T18	Other-term 481 493	коронавируса
-T20	Date-relative 600 619	Ранее   в   четверг
+T20	Date-absolute 600 619	Ранее   в   четверг
 T21	Person-property 622 634	мэр   Москвы
 T22	GPE 628 634	Москвы
 T23	Person 622 653	мэр   Москвы   Сергей   Собянин
@@ -32,3 +32,17 @@ T30	Event 337 345	пандемии
 T31	Date-period 324 345	с   начала   пандемии
 T32	Ordinal 868 875	впервые
 T33	Ordinal 405 414	последние
+A2	Present T11
+A3	Past T20
+A4	Past T26
+T35	Duration 417 426	24   часа
+T36	Date-absolute 64 69	сутки
+T37	Duration 89 94	сутки
+A5	Past T31
+T34	Time-relative 600 605	Ранее
+A9	Past T36
+T39	Duration 64 69	сутки
+T40	Date-absolute 89 94	сутки
+A10	Past T40
+T38	Date-absolute 405 426	последние   24   часа
+A6	Past T38

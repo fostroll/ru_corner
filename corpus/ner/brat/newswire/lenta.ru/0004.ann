@@ -20,7 +20,7 @@ T20	Person 1191 1222	мэр   Москвы   Сергей   Собянин
 T21	Person-property 1252 1261	студентов
 T22	Other-term 1331 1343	коронавируса
 T24	GPE 1551 1557	России
-T25	Time-period 1560 1582	за   последние   сутки
+T25	Date-period 1560 1582	за   последние   сутки
 T27	Other-term 1635 1648	коронавирусом
 T29	Other-term 1699 1711	коронавируса
 T30	GPE 1718 1724	России
@@ -44,3 +44,15 @@ T40	Person-property 1498 1506	учащихся
 T41	Family 1069 1074	детей
 T42	Date-period 1727 1748	с   начала   пандемии
 T43	Ordinal 1565 1574	последние
+T44	Date-absolute 391 420	13   ноября   текущего   года
+T45	Date-absolute 428 449	6   февраля   2021-го
+T47	Event 1740 1748	пандемии
+A4	Future T45
+A5	Past T17
+A6	Future T44
+T48	Date-absolute 1565 1582	последние   сутки
+A9	Past T48
+T49	Date-relative 1731 1748	начала   пандемии
+A8	Past T49
+T50	Ordinal 405 413	текущего
+T46	Duration 1577 1582	сутки

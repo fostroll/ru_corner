@@ -17,7 +17,7 @@ T16	Quantity 787 798	20   матчей
 T17	Organization 835 854	``   Барселона   ''
 T18	Organization 869 887	``   Атлетико   ''
 T19	Event 894 901	Примере
-T20	Cardinal 634 637	2:1
+T20	Quantity 634 637	2:1
 T21	Ordinal 420 426	первой
 T22	Organization 92 123	Мадридский   ``   Атлетико   ''
 T23	Organization 184 218	каталонской   ``   Барселоной   ''
@@ -26,4 +26,7 @@ T25	Event 373 380	Примеры
 T26	Event 349 380	нынешнего   розыгрыша   Примеры
 T27	Event 259 315	Победа   ``   Атлетико   ''   над   ``   Барселоной   ''
 T28	Ordinal 67 74	впервые
-T29	Date-relative 804 811	Ранее  
+T29	Time-relative 804 809	Ранее
+A1	Past T11
+T30	Duration 82 90	10   лет
+A2	Present T4

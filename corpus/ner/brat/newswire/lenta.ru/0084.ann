@@ -13,13 +13,19 @@ T12	Person 807 817	Элькаббасс
 T13	Service 835 871	благотворительном   сайте   GoFundMe
 T14	Person 1172 1182	Элькаббасс
 T15	Person 1289 1294	Ирвин
-T16	Date-absolute 1514 1529	в   2016   году
+T16	Date-absolute 1514 1554	в   2016   году   после   того   ,   как
 T17	Person 302 320	Nicole   Elkabbass
 T18	Person 756 767	Ben   Irwin
 T19	Family 1083 1089	матери
 T20	Family 1198 1202	дочь
 T21	Family 1219 1223	мать
 T22	Service 874 882	страницу
-T23	Date-period 1532 1554	после   того   ,   как
-T24	Date-relative 1240 1247	недавно
+T24	Date-absolute 1240 1247	недавно
 A1	Media T22
+T25	Date-absolute 364 371	февраля
+A2	Past T25
+T26	Date-absolute 379 399	август   2018   года
+A3	Past T26
+A4	Past T16
+A5	Past T24
+T23	Time-relative 1532 1554	после   того   ,   как

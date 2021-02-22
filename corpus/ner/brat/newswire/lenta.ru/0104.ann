@@ -21,7 +21,7 @@ T21	Quantity 969 985	пять   пациентов
 T22	Organization 1005 1027	отделении   реанимации
 A1	Department T22
 T23	Date-absolute 1093 1105	12   октября
-T24	Time-duration 1126 1136	два   часа
+T24	Duration 1126 1136	два   часа
 T25	Organization 1345 1361	``   161.ру   ''
 T26	Organization 1506 1552	управлении   здравоохранения   Ростова-на-Дону
 T27	GPE 1537 1552	Ростова-на-Дону
@@ -38,7 +38,18 @@ A3	Media T16
 A4	Media T25
 T17	Organization 770 796	городской   больнице   №20
 T29	Ordinal 793 796	№20
-T37	Date-period 857 893	во   время   продолжительной   паузы
-T38	Date-relative 609 614	Ранее
-T39	Date-period 127 145	после   публикации
+T37	Date-relative 857 893	во   время   продолжительной   паузы
+T38	Time-relative 609 614	Ранее
+T39	Date-relative 127 145	после   публикации
 T40	Other-term 1850 1863	коронавирусом
+A5	Present T8
+A6	Past T23
+A7	Past T28
+T41	Date-period 1126 1153	два   часа   (   подряд   )
+A8	Past T41
+T42	Event 870 922	продолжительной   паузы   в   снабжении   кислородом
+A9	Past T39
+T43	Event 135 145	публикации
+T44	Event 40 58	смерти   пациентов
+T45	Event 175 193	смерти   пациентов
+A10	Past T37

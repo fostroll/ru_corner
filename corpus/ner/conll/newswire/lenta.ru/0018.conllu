@@ -121,15 +121,15 @@
 2	Универсиада-2023	_	_	_	_	_	_	_	bratT18=Event
 3	пройдет	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	bratT19=Date-period
-5	8	_	_	_	_	_	_	_	bratT19=Date-period
+5	8	_	_	_	_	_	_	_	bratA2=T29:Future|bratT19=Date-period|bratT29=Date-absolute
 6	по	_	_	_	_	_	_	_	bratT19=Date-period
-7	19	_	_	_	_	_	_	_	bratT19=Date-period
-8	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Date-period
+7	19	_	_	_	_	_	_	_	bratA3=T30:Future|bratT19=Date-period|bratT30=Date-absolute
+8	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T30:Future|bratT19=Date-period|bratT30=Date-absolute
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0018-p4-s2
 # text = Екатеринбург был единственным кандидатом на проведение соревнований.
-1	Екатеринбург	_	_	_	_	_	_	_	bratT20=Date-period
+1	Екатеринбург	_	_	_	_	_	_	_	bratT20=GPE
 2	был	_	_	_	_	_	_	_	_
 3	единственным	_	_	_	_	_	_	_	_
 4	кандидатом	_	_	_	_	_	_	_	_
@@ -149,10 +149,10 @@
 5	пост	_	_	_	_	_	_	_	_
 6	министра	_	_	_	_	_	_	_	bratT22=Person-property
 7	спорта	_	_	_	_	_	_	_	bratT22=Person-property
-8	21	_	_	_	_	_	_	_	bratT23=Date-absolute
-9	января	_	_	_	_	_	_	_	bratT23=Date-absolute
-10	этого	_	_	_	_	_	_	_	bratT23=Date-absolute
-11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-absolute
+8	21	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-absolute
+9	января	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-absolute
+10	этого	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-absolute|bratT26=Ordinal
+11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T23:Past|bratT23=Date-absolute
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0018-p5-s2

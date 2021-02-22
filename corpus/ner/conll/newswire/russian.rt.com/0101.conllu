@@ -46,19 +46,19 @@
 # text = Встреча продолжалась 2 часа 42 минуты и завершилась со счётом 4:6, 7:6, 6:4 в пользу россиянина.
 1	Встреча	_	_	_	_	_	_	_	_
 2	продолжалась	_	_	_	_	_	_	_	_
-3	2	_	_	_	_	_	_	_	bratT4=Time-duration
-4	часа	_	_	_	_	_	_	_	bratT4=Time-duration
-5	42	_	_	_	_	_	_	_	bratT4=Time-duration
-6	минуты	_	_	_	_	_	_	_	bratT4=Time-duration
+3	2	_	_	_	_	_	_	_	bratA2=T30:Past|bratT30=Date-period|bratT4=Duration
+4	часа	_	_	_	_	_	_	_	bratA2=T30:Past|bratT30=Date-period|bratT4=Duration
+5	42	_	_	_	_	_	_	_	bratA2=T30:Past|bratT30=Date-period|bratT4=Duration
+6	минуты	_	_	_	_	_	_	_	bratA2=T30:Past|bratT30=Date-period|bratT4=Duration
 7	и	_	_	_	_	_	_	_	_
 8	завершилась	_	_	_	_	_	_	_	_
 9	со	_	_	_	_	_	_	_	_
 10	счётом	_	_	_	_	_	_	_	_
-11	4:6	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Cardinal
+11	4:6	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Quantity
 12	,	_	_	_	_	_	_	_	_
-13	7:6	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Cardinal
+13	7:6	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Quantity
 14	,	_	_	_	_	_	_	_	_
-15	6:4	_	_	_	_	_	_	_	bratT7=Cardinal
+15	6:4	_	_	_	_	_	_	_	bratT7=Quantity
 16	в	_	_	_	_	_	_	_	_
 17	пользу	_	_	_	_	_	_	_	_
 18	россиянина	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Citizenship|bratT8=Nationality
@@ -82,7 +82,7 @@
 # par_text = Ранее сообщалось, что Рафаэль Надаль назвал Медведева одним из лучших теннисистов мира.
 # sent_id = 0101-p5-s1
 # text = Ранее сообщалось, что Рафаэль Надаль назвал Медведева одним из лучших теннисистов мира.
-1	Ранее	_	_	_	_	_	_	_	bratT28=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT28=Time-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

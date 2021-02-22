@@ -1,9 +1,9 @@
 T1	GPE 4 10	Турции
-T2	Time-duration 13 23	за   сутки
+T2	Duration 18 23	сутки
 T3	Quantity 36 66	более   семи   тысяч   случаев
 T4	Other-term 69 81	коронавируса
 T5	Quantity 283 292	460   916
-T6	Time-duration 321 331	за   сутки
+T6	Duration 326 331	сутки
 T7	Quantity 346 359	161   пациент
 T8	Other-term 366 392	коронавирусной   инфекцией
 T9	Quantity 416 435	12   672   человека
@@ -15,8 +15,17 @@ T14	Organization 599 602	НСН
 A1	Media T14
 T15	Other-term 661 669	COVID-19
 T16	GPE 87 93	Турции
-T17	Time-duration 96 106	за   сутки
+T17	Duration 101 106	сутки
 T18	Quantity 119 140	7381   новый   случай
 T19	Other-term 143 165	заболевания   COVID-19
 T20	Organization 209 227	Минздрава   страны
-T21	Date-relative 498 505	Ранее  
+T21	Time-relative 498 503	Ранее
+T22	Date-period 13 23	за   сутки
+T23	Date-period 96 106	за   сутки
+T24	Date-period 321 331	за   сутки
+T25	Date-absolute 101 106	сутки
+A3	Past T25
+T26	Date-absolute 18 23	сутки
+A2	Past T26
+T27	Date-absolute 326 331	сутки
+A5	Past T27

@@ -18,5 +18,9 @@ T16	Quantity 260 273	345   человек
 T17	Person-property 122 163	сотрудники   правоохранительных   органов
 T18	Date-period 175 204	во   время   акций   протеста
 T19	Event 188 204	акций   протеста
-T20	Date-relative 433 438	вчера
-T21	Date-relative 715 722	Ранее  
+T20	Date-absolute 433 438	вчера
+T21	Time-relative 715 720	Ранее
+A2	Past T15
+A3	Past T20
+T22	Date-period 433 438	вчера
+A4	Past T18

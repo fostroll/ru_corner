@@ -38,11 +38,11 @@
 5	Комсомольская	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 6	правда	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization
 7	''	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
-8	в	_	_	_	_	_	_	_	bratT5=Date-absolute
-9	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
-10	,	_	_	_	_	_	_	_	bratT5=Date-absolute
-11	20	_	_	_	_	_	_	_	bratT5=Date-absolute
-12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
+8	в	_	_	_	_	_	_	_	bratA2=T5:Present|bratT5=Date-absolute
+9	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Present|bratT5=Date-absolute
+10	,	_	_	_	_	_	_	_	bratA2=T5:Present|bratT5=Date-absolute
+11	20	_	_	_	_	_	_	_	bratA2=T5:Present|bratT5=Date-absolute
+12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Present|bratT5=Date-absolute
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0037-p3
@@ -121,8 +121,8 @@
 3	случившегося	_	_	_	_	_	_	_	_
 4	будет	_	_	_	_	_	_	_	_
 5	установлена	_	_	_	_	_	_	_	_
-6	после	_	_	_	_	_	_	_	bratT37=Date-period
-7	проведения	_	_	_	_	_	_	_	bratT37=Date-period
+6	после	_	_	_	_	_	_	_	bratA4=T37:Future|bratT37=Date-relative
+7	проведения	_	_	_	_	_	_	_	bratA4=T37:Future|bratT37=Date-relative
 8	медицинской	_	_	_	_	_	_	_	bratT27=Other-term
 9	экспертизы	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term
 10	.	_	_	_	_	_	_	_	_
@@ -191,8 +191,8 @@
 # par_text = 18 ноября стало известно о смерти белорусской актрисы театра и кино Любови Румянцевой. О причинах смерти звезды фильма «Альпийская баллада» не сообщалось. Ей было 77 лет.
 # sent_id = 0037-p6-s1
 # text = 18 ноября стало известно о смерти белорусской актрисы театра и кино Любови Румянцевой.
-1	18	_	_	_	_	_	_	_	bratT19=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT19=Date-absolute
+1	18	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 3	стало	_	_	_	_	_	_	_	_
 4	известно	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_

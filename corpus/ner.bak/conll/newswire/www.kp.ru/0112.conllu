@@ -1,0 +1,199 @@
+# newdoc id = 0112
+# newpar id = 0112-p1
+# par_text = В Турции заявили об отправке своих военных в Азербайджан
+# sent_id = 0112-p1-s1
+# text = В Турции заявили об отправке своих военных в Азербайджан
+1	В	_	_	_	_	_	_	_	_
+2	Турции	_	_	_	_	_	_	_	bratT1=GPE
+3	заявили	_	_	_	_	_	_	_	_
+4	об	_	_	_	_	_	_	_	_
+5	отправке	_	_	_	_	_	_	_	_
+6	своих	_	_	_	_	_	_	_	_
+7	военных	_	_	_	_	_	_	_	bratT3=Person-property
+8	в	_	_	_	_	_	_	_	_
+9	Азербайджан	_	_	_	_	_	_	_	bratT2=GPE
+
+# newpar id = 0112-p2
+# par_text = Военнослужащие сухопутных войск Турции могут вскоре отправиться в Азербайджан. Об этом сообщил министр национальной обороны республики Хулуси Акар, отметив, что турецкие военные уже завершили подготовку
+# sent_id = 0112-p2-s1
+# text = Военнослужащие сухопутных войск Турции могут вскоре отправиться в Азербайджан.
+1	Военнослужащие	_	_	_	_	_	_	_	bratT4=Person-property
+2	сухопутных	_	_	_	_	_	_	_	bratT4=Person-property|bratT6=Organization
+3	войск	_	_	_	_	_	_	_	bratT4=Person-property|bratT6=Organization
+4	Турции	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=GPE|bratT6=Organization
+5	могут	_	_	_	_	_	_	_	_
+6	вскоре	_	_	_	_	_	_	_	bratT53=Date-relative
+7	отправиться	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	Азербайджан	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0112-p2-s2
+# text = Об этом сообщил министр национальной обороны республики Хулуси Акар, отметив, что турецкие военные уже завершили подготовку
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщил	_	_	_	_	_	_	_	_
+4	министр	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Person
+5	национальной	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Person
+6	обороны	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Person
+7	республики	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Person
+8	Хулуси	_	_	_	_	_	_	_	bratT9=Person
+9	Акар	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person
+10	,	_	_	_	_	_	_	_	_
+11	отметив	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	что	_	_	_	_	_	_	_	_
+14	турецкие	_	_	_	_	_	_	_	bratT10=Person-property
+15	военные	_	_	_	_	_	_	_	bratT10=Person-property
+16	уже	_	_	_	_	_	_	_	_
+17	завершили	_	_	_	_	_	_	_	_
+18	подготовку	_	_	_	_	_	_	_	_
+
+# newpar id = 0112-p3
+# par_text = «Турецкие военные вскоре отправятся в Азербайджан, сухопутные войска ВС Турции завершили подготовку», - приводит заявление главы турецкого военного ведомства Anadolu.
+# sent_id = 0112-p3-s1
+# text = ``Турецкие военные вскоре отправятся в Азербайджан, сухопутные войска ВС Турции завершили подготовку'', - приводит заявление главы турецкого военного ведомства Anadolu.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Турецкие	_	_	_	_	_	_	_	bratT11=Person-property
+3	военные	_	_	_	_	_	_	_	bratT11=Person-property
+4	вскоре	_	_	_	_	_	_	_	bratT52=Date-relative
+5	отправятся	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	Азербайджан	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=GPE
+8	,	_	_	_	_	_	_	_	_
+9	сухопутные	_	_	_	_	_	_	_	bratT14=Organization
+10	войска	_	_	_	_	_	_	_	bratT14=Organization
+11	ВС	_	_	_	_	_	_	_	bratT14=Organization
+12	Турции	_	_	_	_	_	_	_	bratT13=GPE|bratT14=Organization
+13	завершили	_	_	_	_	_	_	_	_
+14	подготовку	_	_	_	_	_	_	_	SpaceAfter=No
+15	''	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_
+18	приводит	_	_	_	_	_	_	_	_
+19	заявление	_	_	_	_	_	_	_	_
+20	главы	_	_	_	_	_	_	_	bratT16=Person-property
+21	турецкого	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property
+22	военного	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property
+23	ведомства	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property
+24	Anadolu	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization|bratT16=Person-property
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0112-p4
+# par_text = Напомним, 9 ноября президент России Владимир Путин, глава Азербайджана Ильхам Алиев и премьер-министр Армении Никол Пашинян подписали совместное заявление о полном прекращении военных действий в Нагорном Карабахе, которое вступило в силу 10 ноября.
+# sent_id = 0112-p4-s1
+# text = Напомним, 9 ноября президент России Владимир Путин, глава Азербайджана Ильхам Алиев и премьер-министр Армении Никол Пашинян подписали совместное заявление о полном прекращении военных действий в Нагорном Карабахе, которое вступило в силу 10 ноября.
+1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	9	_	_	_	_	_	_	_	bratT17=Date-absolute
+4	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+5	президент	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Person
+6	России	_	_	_	_	_	_	_	bratT18=GPE|bratT19=Person-property|bratT20=Person
+7	Владимир	_	_	_	_	_	_	_	bratT20=Person
+8	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person
+9	,	_	_	_	_	_	_	_	_
+10	глава	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
+11	Азербайджана	_	_	_	_	_	_	_	bratT21=GPE|bratT22=Person-property|bratT23=Person
+12	Ильхам	_	_	_	_	_	_	_	bratT23=Person
+13	Алиев	_	_	_	_	_	_	_	bratT23=Person
+14	и	_	_	_	_	_	_	_	_
+15	премьер-министр	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
+16	Армении	_	_	_	_	_	_	_	bratT24=GPE|bratT25=Person-property|bratT26=Person
+17	Никол	_	_	_	_	_	_	_	bratT26=Person
+18	Пашинян	_	_	_	_	_	_	_	bratT26=Person
+19	подписали	_	_	_	_	_	_	_	_
+20	совместное	_	_	_	_	_	_	_	_
+21	заявление	_	_	_	_	_	_	_	_
+22	о	_	_	_	_	_	_	_	_
+23	полном	_	_	_	_	_	_	_	_
+24	прекращении	_	_	_	_	_	_	_	_
+25	военных	_	_	_	_	_	_	_	_
+26	действий	_	_	_	_	_	_	_	_
+27	в	_	_	_	_	_	_	_	_
+28	Нагорном	_	_	_	_	_	_	_	bratT27=GPE
+29	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=GPE
+30	,	_	_	_	_	_	_	_	_
+31	которое	_	_	_	_	_	_	_	_
+32	вступило	_	_	_	_	_	_	_	_
+33	в	_	_	_	_	_	_	_	_
+34	силу	_	_	_	_	_	_	_	_
+35	10	_	_	_	_	_	_	_	bratT28=Date-absolute
+36	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Date-absolute
+37	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0112-p5
+# par_text = На следующий день, 11 ноября, после переговоров глава Минобороны России Сергея Шойгу и министр национальной обороны Турции Хулуси Акара подписали меморандум о создании совместного российско-турецкого центра по контролю за прекращением огня в Нагорном Карабахе, после чего президент Турции Реджепа Тайипа Эрдогана подготовил указ об отправке военнослужащих республики в Азербайджан. В Кремле заявили, что касается обеспечения работы совместного мониторингового центра Анкары и Москвы.
+# sent_id = 0112-p5-s1
+# text = На следующий день, 11 ноября, после переговоров глава Минобороны России Сергея Шойгу и министр национальной обороны Турции Хулуси Акара подписали меморандум о создании совместного российско-турецкого центра по контролю за прекращением огня в Нагорном Карабахе, после чего президент Турции Реджепа Тайипа Эрдогана подготовил указ об отправке военнослужащих республики в Азербайджан.
+1	На	_	_	_	_	_	_	_	bratT48=Date-relative
+2	следующий	_	_	_	_	_	_	_	bratT48=Date-relative|bratT49=Ordinal
+3	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Date-relative
+4	,	_	_	_	_	_	_	_	_
+5	11	_	_	_	_	_	_	_	bratT29=Date-absolute
+6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Date-absolute
+7	,	_	_	_	_	_	_	_	_
+8	после	_	_	_	_	_	_	_	bratT50=Date-period
+9	переговоров	_	_	_	_	_	_	_	bratT50=Date-period
+10	глава	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Person
+11	Минобороны	_	_	_	_	_	_	_	bratT31=Organization|bratT32=Person-property|bratT33=Person
+12	России	_	_	_	_	_	_	_	bratT30=GPE|bratT31=Organization|bratT32=Person-property|bratT33=Person
+13	Сергея	_	_	_	_	_	_	_	bratT33=Person
+14	Шойгу	_	_	_	_	_	_	_	bratT33=Person
+15	и	_	_	_	_	_	_	_	_
+16	министр	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Person
+17	национальной	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Person
+18	обороны	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Person
+19	Турции	_	_	_	_	_	_	_	bratT34=GPE|bratT35=Person-property|bratT36=Person
+20	Хулуси	_	_	_	_	_	_	_	bratT36=Person
+21	Акара	_	_	_	_	_	_	_	bratT36=Person
+22	подписали	_	_	_	_	_	_	_	_
+23	меморандум	_	_	_	_	_	_	_	_
+24	о	_	_	_	_	_	_	_	_
+25	создании	_	_	_	_	_	_	_	_
+26	совместного	_	_	_	_	_	_	_	bratT37=Organization
+27	российско-турецкого	_	_	_	_	_	_	_	bratT37=Organization
+28	центра	_	_	_	_	_	_	_	bratT37=Organization
+29	по	_	_	_	_	_	_	_	bratT37=Organization
+30	контролю	_	_	_	_	_	_	_	bratT37=Organization
+31	за	_	_	_	_	_	_	_	bratT37=Organization
+32	прекращением	_	_	_	_	_	_	_	bratT37=Organization
+33	огня	_	_	_	_	_	_	_	bratT37=Organization
+34	в	_	_	_	_	_	_	_	bratT37=Organization
+35	Нагорном	_	_	_	_	_	_	_	bratT37=Organization|bratT38=GPE
+36	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization|bratT38=GPE
+37	,	_	_	_	_	_	_	_	_
+38	после	_	_	_	_	_	_	_	bratT51=Date-period
+39	чего	_	_	_	_	_	_	_	bratT51=Date-period
+40	президент	_	_	_	_	_	_	_	bratT40=Person-property|bratT41=Person
+41	Турции	_	_	_	_	_	_	_	bratT39=GPE|bratT40=Person-property|bratT41=Person
+42	Реджепа	_	_	_	_	_	_	_	bratT41=Person
+43	Тайипа	_	_	_	_	_	_	_	bratT41=Person
+44	Эрдогана	_	_	_	_	_	_	_	bratT41=Person
+45	подготовил	_	_	_	_	_	_	_	_
+46	указ	_	_	_	_	_	_	_	_
+47	об	_	_	_	_	_	_	_	_
+48	отправке	_	_	_	_	_	_	_	_
+49	военнослужащих	_	_	_	_	_	_	_	bratT42=Person-property
+50	республики	_	_	_	_	_	_	_	_
+51	в	_	_	_	_	_	_	_	_
+52	Азербайджан	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=GPE
+53	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0112-p5-s2
+# text = В Кремле заявили, что касается обеспечения работы совместного мониторингового центра Анкары и Москвы.
+1	В	_	_	_	_	_	_	_	_
+2	Кремле	_	_	_	_	_	_	_	bratT44=Organization
+3	заявили	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	касается	_	_	_	_	_	_	_	_
+7	обеспечения	_	_	_	_	_	_	_	_
+8	работы	_	_	_	_	_	_	_	_
+9	совместного	_	_	_	_	_	_	_	bratT47=Organization
+10	мониторингового	_	_	_	_	_	_	_	bratT47=Organization
+11	центра	_	_	_	_	_	_	_	bratT47=Organization
+12	Анкары	_	_	_	_	_	_	_	bratT45=GPE|bratT47=Organization
+13	и	_	_	_	_	_	_	_	bratT47=Organization
+14	Москвы	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=GPE|bratT47=Organization
+15	.	_	_	_	_	_	_	_	_
+

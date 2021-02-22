@@ -56,14 +56,14 @@
 4	будет	_	_	_	_	_	_	_	_
 5	действовать	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	bratT12=Date-period
-7	13	_	_	_	_	_	_	_	bratT12=Date-period
-8	ноября	_	_	_	_	_	_	_	bratT12=Date-period
-9	текущего	_	_	_	_	_	_	_	bratT12=Date-period
-10	года	_	_	_	_	_	_	_	bratT12=Date-period
+7	13	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute
+8	ноября	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute
+9	текущего	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute|bratT50=Ordinal
+10	года	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute
 11	по	_	_	_	_	_	_	_	bratT12=Date-period
-12	6	_	_	_	_	_	_	_	bratT12=Date-period
-13	февраля	_	_	_	_	_	_	_	bratT12=Date-period
-14	2021-го	_	_	_	_	_	_	_	bratT12=Date-period
+12	6	_	_	_	_	_	_	_	bratA4=T45:Future|bratT12=Date-period|bratT45=Date-absolute
+13	февраля	_	_	_	_	_	_	_	bratA4=T45:Future|bratT12=Date-period|bratT45=Date-absolute
+14	2021-го	_	_	_	_	_	_	_	bratA4=T45:Future|bratT12=Date-period|bratT45=Date-absolute
 15	в	_	_	_	_	_	_	_	_
 16	связи	_	_	_	_	_	_	_	_
 17	с	_	_	_	_	_	_	_	_
@@ -158,8 +158,8 @@
 # par_text = 10 ноября мэр Москвы Сергей Собянин распорядился перевести студентов на дистанционное обучение в связи с распространением коронавируса. Столичные власти порекомендовали принять аналогичные решения федеральным и частным вузам и колледжам. Транспортные карты учащихся будут временно заблокированы.
 # sent_id = 0004-p5-s1
 # text = 10 ноября мэр Москвы Сергей Собянин распорядился перевести студентов на дистанционное обучение в связи с распространением коронавируса.
-1	10	_	_	_	_	_	_	_	bratT17=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+1	10	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
 3	мэр	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Person
 4	Москвы	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=GPE|bratT20=Person
 5	Сергей	_	_	_	_	_	_	_	bratT20=Person
@@ -209,9 +209,9 @@
 # text = В России за последние сутки выявили 19 851 новый случай заражения коронавирусом в 85 регионах.
 1	В	_	_	_	_	_	_	_	_
 2	России	_	_	_	_	_	_	_	bratT24=GPE
-3	за	_	_	_	_	_	_	_	bratT25=Time-period
-4	последние	_	_	_	_	_	_	_	bratT25=Time-period|bratT43=Ordinal
-5	сутки	_	_	_	_	_	_	_	bratT25=Time-period
+3	за	_	_	_	_	_	_	_	bratT25=Date-period
+4	последние	_	_	_	_	_	_	_	bratA9=T48:Past|bratT25=Date-period|bratT43=Ordinal|bratT48=Date-absolute
+5	сутки	_	_	_	_	_	_	_	bratA9=T48:Past|bratT25=Date-period|bratT46=Duration|bratT48=Date-absolute
 6	выявили	_	_	_	_	_	_	_	_
 7	19	_	_	_	_	_	_	_	bratT26=Quantity
 8	851	_	_	_	_	_	_	_	bratT26=Quantity
@@ -233,8 +233,8 @@
 5	в	_	_	_	_	_	_	_	_
 6	России	_	_	_	_	_	_	_	bratT30=GPE
 7	с	_	_	_	_	_	_	_	bratT42=Date-period
-8	начала	_	_	_	_	_	_	_	bratT42=Date-period
-9	пандемии	_	_	_	_	_	_	_	bratT42=Date-period
+8	начала	_	_	_	_	_	_	_	bratA8=T49:Past|bratT42=Date-period|bratT49=Date-relative
+9	пандемии	_	_	_	_	_	_	_	bratA8=T49:Past|bratT42=Date-period|bratT47=Event|bratT49=Date-relative
 10	составило	_	_	_	_	_	_	_	_
 11	1	_	_	_	_	_	_	_	bratT31=Quantity
 12	836	_	_	_	_	_	_	_	bratT31=Quantity

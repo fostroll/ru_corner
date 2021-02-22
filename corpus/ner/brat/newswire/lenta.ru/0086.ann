@@ -19,7 +19,7 @@ T19	Other-term 942 955	коронавирусом
 T20	Person-property 980 994	канцлера   ФРГ
 T21	GPE 991 994	ФРГ
 T22	Person 980 1013	канцлера   ФРГ   Ангелы   Меркель
-T23	Date-absolute 1334 1353	Ранее   в   октябре
+T23	Date-absolute 1342 1353	в   октябре
 T24	Quantity 1276 1300	более   десяти   человек
 T25	Person 1356 1363	Меркель
 T26	GPE 1386 1394	Германия
@@ -30,6 +30,24 @@ T13	Quantity 399 424	16   федеральных   земель
 T30	Event 36 44	карантин
 T31	Event 1654 1663	пандемией
 T32	Event 1531 1560	первой   волны   коронавируса
-T33	Date-period 1509 1545	весной   во   время   первой   волны
+T33	Date-relative 1518 1545	во   время   первой   волны
 T34	Ordinal 278 288	следующего
-T35	Date-relative 231 243	впоследствии
+T35	Time-relative 231 243	впоследствии
+T36	Date-absolute 52 64	конца   года
+A1	Future T36
+T37	Date-absolute 185 197	20   декабря
+A2	Future T37
+T38	Date-absolute 261 295	конца   января   следующего   года
+T39	Date-absolute 147 161	конца   ноября
+A3	Past T11
+T40	Date-absolute 517 529	20   декабря
+T41	Date-absolute 693 708	начала   января
+A4	Future T41
+A5	Past T16
+A6	Past T23
+A7	Future T38
+A8	Future T40
+A9	Past T33
+T42	Date-absolute 1509 1545	весной   во   время   первой   волны
+A10	Past T42
+T43	Time-relative 1334 1339	Ранее

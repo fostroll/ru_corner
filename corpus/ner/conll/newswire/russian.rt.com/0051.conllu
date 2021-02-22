@@ -38,9 +38,9 @@
 20	,	_	_	_	_	_	_	_	_
 21	что	_	_	_	_	_	_	_	_
 22	были	_	_	_	_	_	_	_	_
-23	в	_	_	_	_	_	_	_	bratT9=Date-absolute
-24	начале	_	_	_	_	_	_	_	bratT9=Date-absolute
-25	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
+23	в	_	_	_	_	_	_	_	bratA1=T9:Past|bratT9=Date-absolute
+24	начале	_	_	_	_	_	_	_	bratA1=T9:Past|bratT9=Date-absolute
+25	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Past|bratT9=Date-absolute
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0051-p2-s2
@@ -68,7 +68,7 @@
 # text = ``Мы сегодня видим определённые элементы стабилизации ситуации, но как только мы ослабим свои усилия, ситуация может вернуться к тому же темпу прироста, который мы видели в начале ноября'', - сказала она.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Мы	_	_	_	_	_	_	_	_
-3	сегодня	_	_	_	_	_	_	_	bratT15=Date-relative
+3	сегодня	_	_	_	_	_	_	_	bratA2=T15:Present|bratT15=Date-absolute
 4	видим	_	_	_	_	_	_	_	_
 5	определённые	_	_	_	_	_	_	_	_
 6	элементы	_	_	_	_	_	_	_	_
@@ -95,9 +95,9 @@
 27	который	_	_	_	_	_	_	_	_
 28	мы	_	_	_	_	_	_	_	_
 29	видели	_	_	_	_	_	_	_	_
-30	в	_	_	_	_	_	_	_	bratT3=Date-absolute
-31	начале	_	_	_	_	_	_	_	bratT3=Date-absolute
-32	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Date-absolute
+30	в	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
+31	начале	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
+32	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T3:Past|bratT3=Date-absolute
 33	''	_	_	_	_	_	_	_	SpaceAfter=No
 34	,	_	_	_	_	_	_	_	_
 35	-	_	_	_	_	_	_	_	_
@@ -188,8 +188,8 @@
 13	активизироваться	_	_	_	_	_	_	_	_
 14	каждый	_	_	_	_	_	_	_	_
 15	год	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	bratT14=Date-period
-17	холодный	_	_	_	_	_	_	_	bratT14=Date-period
-18	сезон	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Date-period
+16	в	_	_	_	_	_	_	_	bratT14=Time-absolute
+17	холодный	_	_	_	_	_	_	_	bratT14=Time-absolute
+18	сезон	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Time-absolute
 19	.	_	_	_	_	_	_	_	_
 

@@ -53,11 +53,11 @@
 # sent_id = 0033-p4-s1
 # text = ``После срабатывания системы экстренного предупреждения был обнаружен запуск одного снаряда из сектора Газа по территории Израиля'', - говорится в заявлении.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	После	_	_	_	_	_	_	_	bratT17=Date-period
-3	срабатывания	_	_	_	_	_	_	_	bratT17=Date-period
-4	системы	_	_	_	_	_	_	_	bratT17=Date-period
-5	экстренного	_	_	_	_	_	_	_	_
-6	предупреждения	_	_	_	_	_	_	_	_
+2	После	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-relative
+3	срабатывания	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-relative|bratT18=Event
+4	системы	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-relative|bratT18=Event
+5	экстренного	_	_	_	_	_	_	_	bratT18=Event
+6	предупреждения	_	_	_	_	_	_	_	bratT18=Event
 7	был	_	_	_	_	_	_	_	_
 8	обнаружен	_	_	_	_	_	_	_	_
 9	запуск	_	_	_	_	_	_	_	_
@@ -81,8 +81,8 @@
 # par_text = 22 октября израильская армия сообщала о запуске двух ракет из сектора Газа.
 # sent_id = 0033-p5-s1
 # text = 22 октября израильская армия сообщала о запуске двух ракет из сектора Газа.
-1	22	_	_	_	_	_	_	_	bratT11=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT11=Date-absolute
+1	22	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-absolute
 3	израильская	_	_	_	_	_	_	_	bratT10=Organization
 4	армия	_	_	_	_	_	_	_	bratT10=Organization
 5	сообщала	_	_	_	_	_	_	_	_

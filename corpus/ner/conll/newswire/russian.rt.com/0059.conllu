@@ -126,7 +126,7 @@
 # par_text = Ранее эксперты спрогнозировали, что до 35 банков в стране могут лишиться лицензий в течение 2021 года.
 # sent_id = 0059-p6-s1
 # text = Ранее эксперты спрогнозировали, что до 35 банков в стране могут лишиться лицензий в течение 2021 года.
-1	Ранее	_	_	_	_	_	_	_	bratT4=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT4=Time-relative
 2	эксперты	_	_	_	_	_	_	_	bratT9=Person-property
 3	спрогнозировали	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -141,7 +141,7 @@
 13	лицензий	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	bratT11=Date-period
 15	течение	_	_	_	_	_	_	_	bratT11=Date-period
-16	2021	_	_	_	_	_	_	_	bratT11=Date-period
-17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-period
+16	2021	_	_	_	_	_	_	_	bratA2=T18:Future|bratT11=Date-period|bratT18=Date-absolute
+17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T18:Future|bratT11=Date-period|bratT18=Date-absolute
 18	.	_	_	_	_	_	_	_	_
 

@@ -1,11 +1,11 @@
 T1	GPE 4 10	Италии
-T2	Time-duration 13 23	за   сутки
+T2	Duration 18 23	сутки
 T3	Quantity 36 64	более   22   тысяч   случаев
 T4	Other-term 67 79	коронавируса
 T5	Organization 281 291	Rai   News
 A1	Media T5
 T6	Organization 314 353	Министерство   здравоохранения   страны
-T7	Time-duration 359 369	За   сутки
+T7	Duration 364 369	сутки
 T8	GPE 376 382	Италии
 T9	Quantity 394 409	630   пациентов
 T10	Other-term 416 429	коронавирусом
@@ -17,9 +17,18 @@ T15	Organization 593 598	kp.ru
 T16	Other-term 678 689	коронавирус
 A2	Media T15
 T17	GPE 85 91	Италии
-T18	Time-duration 94 104	за   сутки
+T18	Duration 99 104	сутки
 T19	Quantity 117 135	22   930   случаев
 T20	Other-term 152 178	коронавирусной   инфекцией
 T21	Other-term 217 225	COVID-19
 T22	Quantity 239 252	1   431   795
-T23	Date-relative 491 492	а
+T23	Time-relative 490 495	Ранее
+T24	Date-period 359 369	За   сутки
+T25	Date-period 94 104	за   сутки
+T26	Date-period 13 23	за   сутки
+T27	Date-absolute 18 23	сутки
+A5	Past T27
+T28	Date-absolute 99 104	сутки
+A4	Past T28
+T29	Date-absolute 364 369	сутки
+A3	Past T29

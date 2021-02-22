@@ -10,7 +10,6 @@ T8	GPE 390 397	Лондона
 T9	Date-absolute 408 419	13   ноября
 T10	Date-absolute 474 482	в   июле
 T11	Quantity 487 496	49-летний
-T13	Date-absolute 547 565	15   и   16   июля
 T14	Money 622 634	100   фунтов
 T15	Money 641 658	10   000   рублей
 T16	Nationality 676 684	британец
@@ -27,7 +26,18 @@ T25	Person-property 1401 1436	члене   парламента   Великоб
 A3	Media T6
 A4	Media T21
 T26	Other-term 1336 1349	коронавирусом
-T12	Date-duration 239 248	два   дня
+T12	Duration 239 248	два   дня
 T27	Quantity 836 860	еще   нескольких   людей
-T28	Date-relative 1195 1200	Ранее
-T29	Date-period 1300 1316	после   контакта
+T28	Time-relative 1195 1200	Ранее
+T29	Date-relative 1300 1316	после   контакта
+A5	Past T9
+A6	Past T10
+T32	Date-period 239 257	два   дня   подряд
+A11	Past T32
+A12	Past T29
+T13	Date-absolute 547 565	15   и   16   июля
+A7	Past T13
+T30	Date-absolute 547 549	15
+A8	Past T30
+T31	Date-absolute 556 565	16   июля
+A9	Past T31

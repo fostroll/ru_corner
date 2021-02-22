@@ -32,18 +32,18 @@
 14	на	_	_	_	_	_	_	_	_
 15	нее	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	bratT3=Date-period
-17	октябре	_	_	_	_	_	_	_	bratT3=Date-period
-18	2020	_	_	_	_	_	_	_	bratT3=Date-period
-19	года	_	_	_	_	_	_	_	bratT3=Date-period
+17	октябре	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT3=Date-period
+18	2020	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT3=Date-period
+19	года	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT3=Date-period
 20	вырос	_	_	_	_	_	_	_	_
 21	на	_	_	_	_	_	_	_	bratT4=Percent
 22	четыре	_	_	_	_	_	_	_	bratT4=Percent
 23	процента	_	_	_	_	_	_	_	bratT4=Percent
 24	по	_	_	_	_	_	_	_	_
 25	сравнению	_	_	_	_	_	_	_	_
-26	с	_	_	_	_	_	_	_	bratT15=Date-period
-27	прошлым	_	_	_	_	_	_	_	bratT15=Date-period
-28	месяцем	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-period
+26	с	_	_	_	_	_	_	_	_
+27	прошлым	_	_	_	_	_	_	_	bratA5=T21:Past|bratT15=Date-period|bratT21=Date-relative|bratT26=Ordinal
+28	месяцем	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Past|bratT15=Date-period|bratT21=Date-relative
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0025-p2-s2
@@ -53,10 +53,10 @@
 3	запросов	_	_	_	_	_	_	_	_
 4	растет	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	bratT5=Date-period
-6	начала	_	_	_	_	_	_	_	bratT5=Date-period
-7	лета	_	_	_	_	_	_	_	bratT5=Date-period
-8	текущего	_	_	_	_	_	_	_	bratT5=Date-period
-9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-period
+6	начала	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute|bratT5=Date-period
+7	лета	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute|bratT5=Date-period
+8	текущего	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute|bratT28=Ordinal|bratT5=Date-period
+9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T22:Past|bratT22=Date-absolute|bratT5=Date-period
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0025-p2-s3
@@ -84,10 +84,10 @@
 # text = Всего с января по октябрь 2020-го количество обращений касаемо покупки недвижимости в деловом центре выросло на 25,3 процента по сравнению с аналогичным периодом прошлого года.
 1	Всего	_	_	_	_	_	_	_	_
 2	с	_	_	_	_	_	_	_	bratT8=Date-period
-3	января	_	_	_	_	_	_	_	bratT8=Date-period
+3	января	_	_	_	_	_	_	_	bratA3=T23:Past|bratT23=Date-absolute|bratT8=Date-period
 4	по	_	_	_	_	_	_	_	bratT8=Date-period
-5	октябрь	_	_	_	_	_	_	_	bratT8=Date-period
-6	2020-го	_	_	_	_	_	_	_	bratT8=Date-period
+5	октябрь	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute|bratT8=Date-period
+6	2020-го	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute|bratT8=Date-period
 7	количество	_	_	_	_	_	_	_	_
 8	обращений	_	_	_	_	_	_	_	_
 9	касаемо	_	_	_	_	_	_	_	_
@@ -103,19 +103,19 @@
 19	по	_	_	_	_	_	_	_	_
 20	сравнению	_	_	_	_	_	_	_	_
 21	с	_	_	_	_	_	_	_	_
-22	аналогичным	_	_	_	_	_	_	_	_
-23	периодом	_	_	_	_	_	_	_	_
-24	прошлого	_	_	_	_	_	_	_	bratT16=Date-relative
-25	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-relative
+22	аналогичным	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-absolute|bratT25=Date-period|bratT29=Duration
+23	периодом	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-absolute|bratT25=Date-period|bratT29=Duration
+24	прошлого	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-absolute|bratT25=Date-period|bratT27=Ordinal
+25	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-absolute|bratT25=Date-period
 26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0025-p4
 # par_text = На данный момент самый бюджетный жилой объект в «Москва-Сити» можно приобрести от 12,5 миллиона рублей. За такие деньги продается студия площадью 24,2 квадратного метра. Наиболее дорогой лот экспонируется за 2,6 миллиарда рублей. Площадь объекта составляет 2,1 тысячи квадратных метров.
 # sent_id = 0025-p4-s1
 # text = На данный момент самый бюджетный жилой объект в ``Москва-Сити'' можно приобрести от 12,5 миллиона рублей.
-1	На	_	_	_	_	_	_	_	bratT19=Date-relative
-2	данный	_	_	_	_	_	_	_	bratT19=Date-relative
-3	момент	_	_	_	_	_	_	_	bratT19=Date-relative
+1	На	_	_	_	_	_	_	_	bratA8=T19:Present|bratT19=Date-absolute
+2	данный	_	_	_	_	_	_	_	bratA8=T19:Present|bratT19=Date-absolute
+3	момент	_	_	_	_	_	_	_	bratA8=T19:Present|bratT19=Date-absolute
 4	самый	_	_	_	_	_	_	_	_
 5	бюджетный	_	_	_	_	_	_	_	_
 6	жилой	_	_	_	_	_	_	_	_

@@ -7,7 +7,7 @@ T8	GPE 191 199	Воронеже
 T9	Organization 288 292	Life
 T10	Person 360 367	Макаров
 T11	Organization 559 564	армию
-T12	Date-absolute 708 718	9   ноября
+T12	Date-absolute 700 718	Утром   9   ноября
 T13	Age 721 730	20-летний
 T14	Person 733 748	Антон   Макаров
 T15	Facility 784 824	военном   аэродроме   ``   Балтимор   ''
@@ -30,10 +30,18 @@ T29	Family 1495 1500	семье
 T30	Family 1440 1449	родителей
 T31	Person-property 1454 1462	Срочника
 T32	Date-period 241 260	во   время   службы
-T33	Time-relative 700 705	Утром
-T34	Date-relative 621 633	впоследствии
-T35	Date-period 879 896	после   замечания
-T36	Date-relative 1084 1089	затем
-T37	Date-period 1254 1267	После   бойни
+T33	Time-absolute 700 705	Утром
+T34	Time-relative 621 633	впоследствии
+T35	Date-relative 879 896	после   замечания
+T36	Time-relative 1084 1089	затем
+T37	Date-relative 1254 1267	После   бойни
 T38	Date-period 1422 1437	после   развода
 T39	Age 567 574	молодой
+A1	Past T12
+T40	Event 1430 1449	развода   родителей
+T41	Event 254 260	службы
+A2	Past T38
+A3	Past T32
+A4	Past T35
+A5	Past T37
+T42	Event 1262 1267	бойни

@@ -73,9 +73,9 @@
 9	уже	_	_	_	_	_	_	_	_
 10	должно	_	_	_	_	_	_	_	_
 11	начаться	_	_	_	_	_	_	_	_
-12	до	_	_	_	_	_	_	_	bratT8=Date-period
-13	Нового	_	_	_	_	_	_	_	bratT8=Date-period
-14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-period
+12	до	_	_	_	_	_	_	_	bratA5=T8:Future|bratT8=Date-relative
+13	Нового	_	_	_	_	_	_	_	bratA5=T8:Future|bratT36=Event|bratT8=Date-relative
+14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T8:Future|bratT36=Event|bratT8=Date-relative
 15	,	_	_	_	_	_	_	_	_
 16	ожидания	_	_	_	_	_	_	_	_
 17	такие	_	_	_	_	_	_	_	SpaceAfter=No
@@ -149,7 +149,7 @@
 # sent_id = 0041-p7-s2
 # text = Как сейчас перед каждым государством стоит эта задача, так и перед нами'', - добавил он.
 1	Как	_	_	_	_	_	_	_	_
-2	сейчас	_	_	_	_	_	_	_	bratT33=Date-relative
+2	сейчас	_	_	_	_	_	_	_	bratA3=T33:Present|bratT33=Date-absolute
 3	перед	_	_	_	_	_	_	_	_
 4	каждым	_	_	_	_	_	_	_	_
 5	государством	_	_	_	_	_	_	_	_
@@ -172,7 +172,7 @@
 # par_text = Ранее премьер-министр России Михаил Мишустин подписал распоряжение о включении вакцин от коронавируса в перечень жизненно важных препаратов.
 # sent_id = 0041-p8-s1
 # text = Ранее премьер-министр России Михаил Мишустин подписал распоряжение о включении вакцин от коронавируса в перечень жизненно важных препаратов.
-1	Ранее	_	_	_	_	_	_	_	bratT34=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT34=Time-relative
 2	премьер-министр	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=Person
 3	России	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT12=Person
 4	Михаил	_	_	_	_	_	_	_	bratT12=Person
@@ -221,14 +221,14 @@
 1	Согласно	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
 3	оперштаба	_	_	_	_	_	_	_	bratT19=Organization
-4	на	_	_	_	_	_	_	_	bratT18=Date-absolute
-5	26	_	_	_	_	_	_	_	bratT18=Date-absolute
-6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Date-absolute
+4	на	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-absolute
+5	26	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-absolute
+6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T18:Past|bratT18=Date-absolute
 7	,	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	России	_	_	_	_	_	_	_	bratT20=GPE
-10	за	_	_	_	_	_	_	_	bratT21=Time-duration
-11	сутки	_	_	_	_	_	_	_	bratT21=Time-duration
+10	за	_	_	_	_	_	_	_	bratA1=T35:Past|bratT35=Date-period
+11	сутки	_	_	_	_	_	_	_	bratA1=T35:Past|bratT21=Duration|bratT35=Date-period
 12	выявили	_	_	_	_	_	_	_	_
 13	25	_	_	_	_	_	_	_	bratT22=Quantity
 14	487	_	_	_	_	_	_	_	bratT22=Quantity
@@ -238,8 +238,8 @@
 18	инфекции	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Other-term
 19	,	_	_	_	_	_	_	_	_
 20	за	_	_	_	_	_	_	_	bratT32=Date-period
-21	всё	_	_	_	_	_	_	_	bratT32=Date-period
-22	время	_	_	_	_	_	_	_	bratT32=Date-period
+21	всё	_	_	_	_	_	_	_	bratT32=Date-period|bratT37=Duration
+22	время	_	_	_	_	_	_	_	bratT32=Date-period|bratT37=Duration
 23	в	_	_	_	_	_	_	_	_
 24	стране	_	_	_	_	_	_	_	_
 25	зарегистрировано	_	_	_	_	_	_	_	_

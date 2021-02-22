@@ -21,11 +21,15 @@ T14	Person-property 674 683	профессор
 A1	Media T19
 T21	Ordinal 616 619	III
 A2	Media T4
-T22	Time-duration 82 92	За   сутки
+T22	Duration 87 92	сутки
 T23	Quantity 95 117	ещё   6080   пациентов
 T24	Other-term 138 174	коронавирусной   инфекции   COVID-19
 T25	GPE 181 187	Москве
 T26	Quantity 237 246	400   332
 T27	Ordinal 626 627	V
-T28	Date-relative 413 420	Ранее  
+T28	Time-relative 413 418	Ранее
 T29	Other-term 399 407	COVID-19
+T30	Date-period 82 92	За   сутки
+A3	Past T30
+T31	Date-absolute 87 92	сутки
+A4	Past T31

@@ -1,12 +1,12 @@
 T1	GPE 4 10	Москве
-T2	Date-absolute 48 69	В   октябре   2020-го
+T2	Date-period 48 69	В   октябре   2020-го
 T3	GPE 76 82	Москве
 T5	Percent 195 223	на   65   процентов   больше
-T6	Date-absolute 236 267	в   том   же   месяце   2019-го
+T6	Date-period 236 267	в   том   же   месяце   2019-го
 T7	Organization 302 338	столичного   управления   Росреестра
 T8	Organization 363 392	редакцию   ``   Ленты.ру   ''
 T9	Date-period 438 469	за   сентябрь   текущего   года
-T10	Percent 508 535	упали   на   17   процентов
+T10	Percent 516 535	на   17   процентов
 T11	Person-property 555 564	аналитики
 T12	Date-absolute 636 643	октябрь
 T13	GPE 721 727	Москвы
@@ -22,9 +22,23 @@ T26	Quantity 1465 1489	25   квадратных   метров
 T28	GPE 1595 1603	Калмыкии
 T30	Quantity 1718 1742	50   квадратных   метров
 T4	Quantity 102 116	9895   квартир
-T20	Quantity 978 1005	на   2   тысячи   договоров
+T20	Quantity 970 1005	почти   на   2   тысячи   договоров
 T31	Organization 328 338	Росреестра
 A1	Department T8
 T32	Organization 374 392	``   Ленты.ру   ''
 A2	Media T32
 T21	Ordinal 701 710	первичном
+T22	Date-absolute 52 69	октябре   2020-го
+A3	Past T22
+T25	Date-absolute 240 267	том   же   месяце   2019-го
+A4	Past T25
+T27	Date-absolute 443 469	сентябрь   текущего   года
+A5	Past T12
+T29	Date-period 636 643	октябрь
+A6	Past T14
+T33	Date-period 792 800	сентябрь
+A7	Past T23
+A9	Past T27
+T35	Ordinal 454 462	текущего
+T36	Time-relative 1299 1304	Ранее
+T34	Ordinal 240 248	том   же

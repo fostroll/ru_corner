@@ -36,9 +36,9 @@
 # text = ``Надеемся завтра к вечеру подключить всё теплоснабжение по городу Владивостоку'', - цитирует его ТАСС.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Надеемся	_	_	_	_	_	_	_	_
-3	завтра	_	_	_	_	_	_	_	bratT4=Date-relative
-4	к	_	_	_	_	_	_	_	bratT17=Time-period
-5	вечеру	_	_	_	_	_	_	_	bratT17=Time-period
+3	завтра	_	_	_	_	_	_	_	bratA2=T4:Future|bratT4=Date-absolute
+4	к	_	_	_	_	_	_	_	bratA2=T4:Future|bratT20=Time-absolute|bratT4=Date-absolute
+5	вечеру	_	_	_	_	_	_	_	bratA2=T4:Future|bratT20=Time-absolute|bratT4=Date-absolute
 6	подключить	_	_	_	_	_	_	_	_
 7	всё	_	_	_	_	_	_	_	_
 8	теплоснабжение	_	_	_	_	_	_	_	_
@@ -60,8 +60,8 @@
 1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	23	_	_	_	_	_	_	_	bratT5=Date-absolute
-5	ноября	_	_	_	_	_	_	_	bratT5=Date-absolute
+4	23	_	_	_	_	_	_	_	bratA3=T5:Future|bratT5=Date-absolute
+5	ноября	_	_	_	_	_	_	_	bratA3=T5:Future|bratT5=Date-absolute
 6	будут	_	_	_	_	_	_	_	_
 7	подключены	_	_	_	_	_	_	_	_
 8	12	_	_	_	_	_	_	_	bratT6=Quantity
@@ -87,16 +87,16 @@
 28	тыс.	_	_	_	_	_	_	_	bratT9=Quantity
 29	будут	_	_	_	_	_	_	_	_
 30	подключены	_	_	_	_	_	_	_	_
-31	в	_	_	_	_	_	_	_	bratT16=Time-period
-32	течение	_	_	_	_	_	_	_	bratT16=Time-period
-33	ночи	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Time-period
+31	в	_	_	_	_	_	_	_	bratT16=Date-period
+32	течение	_	_	_	_	_	_	_	bratT16=Date-period
+33	ночи	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Future|bratT16=Date-period|bratT21=Date-absolute|bratT23=Time-absolute
 34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0105-p5
 # par_text = Ранее в «Примтеплоэнерго» рассказали о ситуации с возобновлением работы котельных в Приморье после аварийного отключения из-за ледяного дождя.
 # sent_id = 0105-p5-s1
 # text = Ранее в ``Примтеплоэнерго'' рассказали о ситуации с возобновлением работы котельных в Приморье после аварийного отключения из-за ледяного дождя.
-1	Ранее	_	_	_	_	_	_	_	bratT18=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratT18=Time-relative
 2	в	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 4	Примтеплоэнерго	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
@@ -110,9 +110,9 @@
 12	котельных	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	Приморье	_	_	_	_	_	_	_	bratT11=GPE
-15	после	_	_	_	_	_	_	_	bratT19=Date-period
-16	аварийного	_	_	_	_	_	_	_	bratT19=Date-period
-17	отключения	_	_	_	_	_	_	_	bratT19=Date-period
+15	после	_	_	_	_	_	_	_	bratT24=Time-relative
+16	аварийного	_	_	_	_	_	_	_	bratT22=Event
+17	отключения	_	_	_	_	_	_	_	bratT22=Event
 18	из-за	_	_	_	_	_	_	_	_
 19	ледяного	_	_	_	_	_	_	_	_
 20	дождя	_	_	_	_	_	_	_	SpaceAfter=No

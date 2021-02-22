@@ -8,9 +8,9 @@
 3	построят	_	_	_	_	_	_	_	_
 4	десять	_	_	_	_	_	_	_	bratT2=Quantity
 5	ледоколов	_	_	_	_	_	_	_	bratT2=Quantity
-6	за	_	_	_	_	_	_	_	bratT3=Date-duration
-7	десять	_	_	_	_	_	_	_	bratT3=Date-duration
-8	лет	_	_	_	_	_	_	_	bratT3=Date-duration
+6	за	_	_	_	_	_	_	_	bratA7=T3:Future|bratT3=Date-period
+7	десять	_	_	_	_	_	_	_	bratA7=T3:Future|bratT3=Date-period|bratT35=Duration
+8	лет	_	_	_	_	_	_	_	bratA7=T3:Future|bratT3=Date-period|bratT35=Duration
 
 # newpar id = 0089-p2
 # par_text = «Росморпорт» получит десять новых ледоколов, которые должны построить в России в ближайшие десять лет. Об этом сообщил министр транспорта Евгений Дитрих, передает ТАСС.
@@ -30,9 +30,9 @@
 12	в	_	_	_	_	_	_	_	_
 13	России	_	_	_	_	_	_	_	bratT6=GPE
 14	в	_	_	_	_	_	_	_	bratT7=Date-period
-15	ближайшие	_	_	_	_	_	_	_	bratT7=Date-period
-16	десять	_	_	_	_	_	_	_	bratT7=Date-period
-17	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-period
+15	ближайшие	_	_	_	_	_	_	_	bratA8=T37:Future|bratT36=Ordinal|bratT37=Date-absolute|bratT7=Date-period
+16	десять	_	_	_	_	_	_	_	bratA8=T37:Future|bratT30=Duration|bratT37=Date-absolute|bratT7=Date-period
+17	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T37:Future|bratT30=Duration|bratT37=Date-absolute|bratT7=Date-period
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p2-s2
@@ -65,8 +65,8 @@
 10	быть	_	_	_	_	_	_	_	_
 11	построены	_	_	_	_	_	_	_	_
 12	до	_	_	_	_	_	_	_	bratT12=Date-period
-13	2030	_	_	_	_	_	_	_	bratT12=Date-period
-14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-period
+13	2030	_	_	_	_	_	_	_	bratA3=T31:Future|bratT12=Date-period|bratT31=Date-absolute
+14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T31:Future|bratT12=Date-period|bratT31=Date-absolute
 15	''	_	_	_	_	_	_	_	SpaceAfter=No
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
@@ -83,9 +83,9 @@
 2	его	_	_	_	_	_	_	_	_
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT28=Date-relative
-6	настоящее	_	_	_	_	_	_	_	bratT28=Date-relative
-7	время	_	_	_	_	_	_	_	bratT28=Date-relative
+5	в	_	_	_	_	_	_	_	bratA9=T28:Present|bratT28=Date-absolute
+6	настоящее	_	_	_	_	_	_	_	bratA9=T28:Present|bratT28=Date-absolute
+7	время	_	_	_	_	_	_	_	bratA9=T28:Present|bratT28=Date-absolute
 8	средний	_	_	_	_	_	_	_	_
 9	возраст	_	_	_	_	_	_	_	_
 10	ледоколов	_	_	_	_	_	_	_	SpaceAfter=No
@@ -117,15 +117,15 @@
 11	до	_	_	_	_	_	_	_	_
 12	29	_	_	_	_	_	_	_	bratT17=Age
 13	лет	_	_	_	_	_	_	_	bratT17=Age
-14	к	_	_	_	_	_	_	_	bratT18=Date-absolute
-15	2024	_	_	_	_	_	_	_	bratT18=Date-absolute
-16	году	_	_	_	_	_	_	_	bratT18=Date-absolute
+14	к	_	_	_	_	_	_	_	bratT18=Date-period
+15	2024	_	_	_	_	_	_	_	bratA5=T33:Future|bratT18=Date-period|bratT33=Date-absolute
+16	году	_	_	_	_	_	_	_	bratA5=T33:Future|bratT18=Date-period|bratT33=Date-absolute
 17	и	_	_	_	_	_	_	_	_
 18	до	_	_	_	_	_	_	_	_
 19	25	_	_	_	_	_	_	_	bratT19=Age
 20	лет	_	_	_	_	_	_	_	bratT19=Age
-21	к	_	_	_	_	_	_	_	bratT20=Date-absolute
-22	2030-му	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-absolute
+21	к	_	_	_	_	_	_	_	bratT20=Date-period
+22	2030-му	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T34:Future|bratT20=Date-period|bratT34=Date-absolute
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p4-s3
@@ -137,9 +137,9 @@
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
 6	Росморпорта	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
 7	''	_	_	_	_	_	_	_	bratT21=Organization
-8	на	_	_	_	_	_	_	_	bratT29=Date-relative
-9	данный	_	_	_	_	_	_	_	bratT29=Date-relative
-10	момент	_	_	_	_	_	_	_	bratT29=Date-relative
+8	на	_	_	_	_	_	_	_	bratA10=T29:Present|bratT29=Date-absolute
+9	данный	_	_	_	_	_	_	_	bratA10=T29:Present|bratT29=Date-absolute
+10	момент	_	_	_	_	_	_	_	bratA10=T29:Present|bratT29=Date-absolute
 11	входят	_	_	_	_	_	_	_	_
 12	36	_	_	_	_	_	_	_	bratT22=Quantity
 13	ледоколов	_	_	_	_	_	_	_	bratT22=Quantity
@@ -170,8 +170,8 @@
 16	,	_	_	_	_	_	_	_	_
 17	рассчитанного	_	_	_	_	_	_	_	_
 18	до	_	_	_	_	_	_	_	bratT24=Date-period
-19	2030	_	_	_	_	_	_	_	bratT24=Date-period
-20	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period
+19	2030	_	_	_	_	_	_	_	bratA4=T32:Future|bratT24=Date-period|bratT32=Date-absolute
+20	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T32:Future|bratT24=Date-period|bratT32=Date-absolute
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p5-s2

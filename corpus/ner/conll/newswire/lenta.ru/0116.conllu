@@ -59,7 +59,7 @@
 10	выходного	_	_	_	_	_	_	_	bratT12=Event
 11	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
 12	,	_	_	_	_	_	_	_	_
-13	ранее	_	_	_	_	_	_	_	bratT10=Date-relative
+13	ранее	_	_	_	_	_	_	_	bratT10=Time-relative
 14	введенный	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	стране	_	_	_	_	_	_	_	SpaceAfter=No
@@ -188,8 +188,8 @@
 # par_text = 11 ноября на Украине ввели карантин выходного дня. С 00:00 субботы до 00:00 понедельника могут работать только объекты критической инфраструктуры: продуктовые магазины, аптеки, транспорт. Многие представители бизнеса и сотрудники сферы услуг вышли на акции протеста с требованием отменить карантин, который лишает их заработка.
 # sent_id = 0116-p5-s1
 # text = 11 ноября на Украине ввели карантин выходного дня.
-1	11	_	_	_	_	_	_	_	bratT17=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+1	11	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
 3	на	_	_	_	_	_	_	_	_
 4	Украине	_	_	_	_	_	_	_	bratT18=GPE
 5	ввели	_	_	_	_	_	_	_	_
@@ -200,12 +200,12 @@
 
 # sent_id = 0116-p5-s2
 # text = С 00:00 субботы до 00:00 понедельника могут работать только объекты критической инфраструктуры: продуктовые магазины, аптеки, транспорт.
-1	С	_	_	_	_	_	_	_	bratT20=Date-period
-2	00:00	_	_	_	_	_	_	_	bratT20=Date-period|bratT3=Time-absolute
-3	субботы	_	_	_	_	_	_	_	bratT20=Date-period
-4	до	_	_	_	_	_	_	_	bratT20=Date-period
-5	00:00	_	_	_	_	_	_	_	bratT20=Date-period|bratT8=Time-absolute
-6	понедельника	_	_	_	_	_	_	_	bratT20=Date-period
+1	С	_	_	_	_	_	_	_	bratT20=Time-period
+2	00:00	_	_	_	_	_	_	_	bratT20=Time-period|bratT3=Time-absolute
+3	субботы	_	_	_	_	_	_	_	bratT20=Time-period|bratT3=Time-absolute
+4	до	_	_	_	_	_	_	_	bratT20=Time-period
+5	00:00	_	_	_	_	_	_	_	bratT20=Time-period|bratT8=Time-absolute
+6	понедельника	_	_	_	_	_	_	_	bratT20=Time-period|bratT8=Time-absolute
 7	могут	_	_	_	_	_	_	_	_
 8	работать	_	_	_	_	_	_	_	_
 9	только	_	_	_	_	_	_	_	_

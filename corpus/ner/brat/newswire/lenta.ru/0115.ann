@@ -12,7 +12,6 @@ T13	Money 444 484	(   более   3,6   миллиарда   рублей   )
 T14	Organization 502 519	New   York   Post
 A3	Media T14
 T15	Person 525 533	Хилфигер
-T16	Date-absolute 651 677	в   сентябре   2020   года
 T17	Person-property 716 725	модельеру
 T18	Quantity 813 849	четырем   потенциальным   владельцам
 T19	Quantity 856 865	трое   из
@@ -26,3 +25,9 @@ T5	Person-property 764 773	бизнесмен
 T25	Event 1115 1123	пандемии
 T26	Date-relative 572 621	спустя   несколько   месяцев   после   публикации
 T27	Family 379 386	Супруги
+T28	Duration 581 600	несколько   месяцев
+A2	Past T22
+T29	Event 611 648	публикации   объявления   о   продаже
+A4	Past T26
+T16	Date-absolute 651 677	в   сентябре   2020   года
+A1	Past T16

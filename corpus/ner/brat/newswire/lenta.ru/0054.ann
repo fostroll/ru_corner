@@ -11,7 +11,7 @@ T10	Person-property 331 336	актер
 T11	Organization 427 448	``   Москве   24   ''
 T12	Person 468 478	Мельникова
 T13	Organization 556 560	СИЗО
-T14	Date-duration 563 580	около   14   дней
+T14	Duration 563 580	около   14   дней
 T15	Person 605 613	Ефремова
 T16	Person 730 737	Ефремов
 T17	Person-property 794 806	заключенными
@@ -34,4 +34,7 @@ T21	GPE 257 279	Белгородской   области
 A1	Media T11
 T33	Organization 113 165	Международного   комитета   защиты   прав   человека
 T34	Person-property 485 496	осужденному
-T35	Date-relative 644 664	со   дня   на   день
+T35	Date-absolute 644 664	со   дня   на   день
+T36	Date-period 563 580	около   14   дней
+A2	Future T36
+A3	Future T35

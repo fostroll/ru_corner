@@ -8,9 +8,9 @@
 3	о	_	_	_	_	_	_	_	_
 4	травме	_	_	_	_	_	_	_	_
 5	Ломаченко	_	_	_	_	_	_	_	bratT1=Person
-6	перед	_	_	_	_	_	_	_	bratT30=Date-period
-7	проигранным	_	_	_	_	_	_	_	_
-8	боем	_	_	_	_	_	_	_	bratT28=Event
+6	перед	_	_	_	_	_	_	_	bratA10=T30:Past|bratT30=Date-relative
+7	проигранным	_	_	_	_	_	_	_	bratA10=T30:Past|bratT30=Date-relative
+8	боем	_	_	_	_	_	_	_	bratA10=T30:Past|bratT28=Event|bratT30=Date-relative
 9	за	_	_	_	_	_	_	_	bratT28=Event
 10	титул	_	_	_	_	_	_	_	bratT28=Event
 11	чемпиона	_	_	_	_	_	_	_	bratT28=Event
@@ -59,11 +59,11 @@
 5	спортсмен	_	_	_	_	_	_	_	bratT17=Person-property
 6	получил	_	_	_	_	_	_	_	_
 7	повреждение	_	_	_	_	_	_	_	_
-8	за	_	_	_	_	_	_	_	bratT8=Date-relative
-9	шесть	_	_	_	_	_	_	_	bratT8=Date-relative
-10	недель	_	_	_	_	_	_	_	bratT8=Date-relative
-11	до	_	_	_	_	_	_	_	bratT8=Date-relative
-12	боя	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-relative
+8	за	_	_	_	_	_	_	_	bratA11=T8:Past|bratT8=Date-relative
+9	шесть	_	_	_	_	_	_	_	bratA11=T8:Past|bratT56=Duration|bratT8=Date-relative
+10	недель	_	_	_	_	_	_	_	bratA11=T8:Past|bratT56=Duration|bratT8=Date-relative
+11	до	_	_	_	_	_	_	_	bratA11=T8:Past|bratT8=Date-relative
+12	боя	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Past|bratT25=Event|bratT8=Date-relative
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p3-s2
@@ -83,8 +83,8 @@
 
 # sent_id = 0098-p3-s3
 # text = После поединка у боксера выявили ушиб ротаторной манжеты, кроме того, у него откололся кусок хряща.
-1	После	_	_	_	_	_	_	_	bratT47=Date-period
-2	поединка	_	_	_	_	_	_	_	bratT47=Date-period
+1	После	_	_	_	_	_	_	_	bratA12=T47:Past|bratT47=Date-relative
+2	поединка	_	_	_	_	_	_	_	bratA12=T47:Past|bratT27=Event|bratT47=Date-relative
 3	у	_	_	_	_	_	_	_	_
 4	боксера	_	_	_	_	_	_	_	bratT16=Person-property
 5	выявили	_	_	_	_	_	_	_	_
@@ -104,11 +104,11 @@
 
 # sent_id = 0098-p3-s4
 # text = В понедельник, 19 октября, украинец перенес операцию на плече.
-1	В	_	_	_	_	_	_	_	bratT20=Date-absolute
-2	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-absolute
-3	,	_	_	_	_	_	_	_	bratT20=Date-absolute
-4	19	_	_	_	_	_	_	_	bratT20=Date-absolute
-5	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA8=T20:Past|bratT20=Date-absolute
+2	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Past|bratT20=Date-absolute
+3	,	_	_	_	_	_	_	_	bratA8=T20:Past|bratT20=Date-absolute
+4	19	_	_	_	_	_	_	_	bratA8=T20:Past|bratT20=Date-absolute
+5	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Past|bratT20=Date-absolute
 6	,	_	_	_	_	_	_	_	_
 7	украинец	_	_	_	_	_	_	_	bratA2=T21:Citizenship|bratT21=Nationality
 8	перенес	_	_	_	_	_	_	_	_
@@ -131,11 +131,11 @@
 8	в	_	_	_	_	_	_	_	_
 9	американском	_	_	_	_	_	_	_	bratT22=GPE
 10	Лас-Вегасе	_	_	_	_	_	_	_	bratT22=GPE
-11	в	_	_	_	_	_	_	_	bratT23=Date-absolute
-12	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-absolute
-13	,	_	_	_	_	_	_	_	bratT23=Date-absolute
-14	18	_	_	_	_	_	_	_	bratT23=Date-absolute
-15	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-absolute
+11	в	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute
+12	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T23:Past|bratT23=Date-absolute
+13	,	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute
+14	18	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute
+15	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T23:Past|bratT23=Date-absolute
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p4-s2
@@ -145,11 +145,11 @@
 3	судейским	_	_	_	_	_	_	_	_
 4	решением	_	_	_	_	_	_	_	_
 5	-	_	_	_	_	_	_	_	_
-6	116-112	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Cardinal
+6	116-112	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Quantity
 7	,	_	_	_	_	_	_	_	_
-8	119-109	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Cardinal
+8	119-109	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Quantity
 9	,	_	_	_	_	_	_	_	_
-10	117-111	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Cardinal
+10	117-111	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p4-s3

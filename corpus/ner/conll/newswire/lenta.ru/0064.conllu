@@ -55,9 +55,9 @@
 
 # sent_id = 0064-p3-s2
 # text = В ходе визитов он рассмотрел производимые в Армении системы огнестрельного оружия и боевые снаряды.
-1	В	_	_	_	_	_	_	_	bratT23=Date-period
-2	ходе	_	_	_	_	_	_	_	bratT23=Date-period
-3	визитов	_	_	_	_	_	_	_	bratT23=Date-period
+1	В	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-relative
+2	ходе	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-relative
+3	визитов	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-relative|bratT37=Event
 4	он	_	_	_	_	_	_	_	_
 5	рассмотрел	_	_	_	_	_	_	_	_
 6	производимые	_	_	_	_	_	_	_	_
@@ -99,8 +99,8 @@
 # par_text = 20 ноября министр обороны Армении Давид Тоноян подал в отставку. Новым главой ведомства был назначен Вагаршак Арутюнян, возглавлявший Минобороны в 1999-2000 годах.
 # sent_id = 0064-p5-s1
 # text = 20 ноября министр обороны Армении Давид Тоноян подал в отставку.
-1	20	_	_	_	_	_	_	_	bratT10=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT10=Date-absolute
+1	20	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
 3	министр	_	_	_	_	_	_	_	bratT11=Person-property|bratT13=Person
 4	обороны	_	_	_	_	_	_	_	bratT11=Person-property|bratT13=Person
 5	Армении	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE|bratT13=Person
@@ -124,8 +124,8 @@
 9	возглавлявший	_	_	_	_	_	_	_	_
 10	Минобороны	_	_	_	_	_	_	_	bratT15=Organization
 11	в	_	_	_	_	_	_	_	bratT16=Date-period
-12	1999-2000	_	_	_	_	_	_	_	bratT16=Date-period
-13	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-period
+12	1999-2000	_	_	_	_	_	_	_	bratA5=T35:Past|bratT16=Date-period|bratT35=Date-absolute
+13	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T35:Past|bratT16=Date-period|bratT35=Date-absolute
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0064-p6
@@ -134,11 +134,11 @@
 # text = В Ереване в ночь на 10 ноября начались массовые беспорядки и митинги с требованием ухода Пашиняна.
 1	В	_	_	_	_	_	_	_	_
 2	Ереване	_	_	_	_	_	_	_	bratT17=GPE
-3	в	_	_	_	_	_	_	_	bratT30=Time-period
-4	ночь	_	_	_	_	_	_	_	bratT30=Time-period
-5	на	_	_	_	_	_	_	_	bratT30=Time-period
-6	10	_	_	_	_	_	_	_	bratT18=Date-absolute
-7	ноября	_	_	_	_	_	_	_	bratT18=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA6=T18:Past|bratT18=Date-absolute|bratT30=Time-absolute
+4	ночь	_	_	_	_	_	_	_	bratA6=T18:Past|bratT18=Date-absolute|bratT30=Time-absolute
+5	на	_	_	_	_	_	_	_	bratA6=T18:Past|bratT18=Date-absolute|bratT30=Time-absolute
+6	10	_	_	_	_	_	_	_	bratA6=T18:Past|bratT18=Date-absolute
+7	ноября	_	_	_	_	_	_	_	bratA6=T18:Past|bratT18=Date-absolute
 8	начались	_	_	_	_	_	_	_	_
 9	массовые	_	_	_	_	_	_	_	_
 10	беспорядки	_	_	_	_	_	_	_	_
@@ -154,10 +154,10 @@
 # text = Это произошло после того, как премьер-министр Армении вместе с президентами Азербайджана и России Ильхамом Алиевым и Владимиром Путиным подписал заявление о прекращении боев в Нагорном Карабахе.
 1	Это	_	_	_	_	_	_	_	_
 2	произошло	_	_	_	_	_	_	_	_
-3	после	_	_	_	_	_	_	_	bratT31=Date-period
-4	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Date-period
-5	,	_	_	_	_	_	_	_	bratT31=Date-period
-6	как	_	_	_	_	_	_	_	bratT31=Date-period
+3	после	_	_	_	_	_	_	_	bratT31=Time-relative
+4	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Time-relative
+5	,	_	_	_	_	_	_	_	bratT31=Time-relative
+6	как	_	_	_	_	_	_	_	bratT31=Time-relative
 7	премьер-министр	_	_	_	_	_	_	_	bratT20=Person-property
 8	Армении	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=GPE
 9	вместе	_	_	_	_	_	_	_	_
@@ -166,11 +166,11 @@
 12	Азербайджана	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT22=GPE|bratT24=Person-property|bratT34=Person
 13	и	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT24=Person-property|bratT34=Person
 14	России	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT24=Person-property|bratT33=GPE|bratT34=Person
-15	Ильхамом	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person
-16	Алиевым	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person
+15	Ильхамом	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person
+16	Алиевым	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person
 17	и	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person
-18	Владимиром	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person
-19	Путиным	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person
+18	Владимиром	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person
+19	Путиным	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person
 20	подписал	_	_	_	_	_	_	_	_
 21	заявление	_	_	_	_	_	_	_	_
 22	о	_	_	_	_	_	_	_	_

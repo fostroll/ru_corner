@@ -13,10 +13,11 @@ T16	Person-property 1165 1172	политик
 T17	Date-absolute 1178 1189	11   ноября
 T18	GPE 1197 1204	Украине
 T19	Event 1215 1241	карантин   выходного   дня
-T20	Date-period 1246 1293	С   00:00   субботы   до   00:00   понедельника
+T20	Time-period 1246 1293	С   00:00   субботы   до   00:00   понедельника
 A1	Media T9
-T3	Time-absolute 1250 1255	00:00
-T8	Time-absolute 1273 1278	00:00
-T10	Date-relative 384 389	ранее
+T3	Time-absolute 1250 1265	00:00   субботы
+T8	Time-absolute 1273 1293	00:00   понедельника
+T10	Time-relative 384 389	ранее
 T12	Event 351 377	карантин   выходного   дня
 T21	Organization 673 680	полиция
+A2	Past T17

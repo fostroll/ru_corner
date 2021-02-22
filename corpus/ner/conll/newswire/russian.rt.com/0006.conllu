@@ -112,8 +112,8 @@
 # par_text = 4 ноября землетрясение магнитудой 5 произошло у Северо-Курильска.
 # sent_id = 0006-p5-s1
 # text = 4 ноября землетрясение магнитудой 5 произошло у Северо-Курильска.
-1	4	_	_	_	_	_	_	_	bratT9=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT9=Date-absolute
+1	4	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
 3	землетрясение	_	_	_	_	_	_	_	bratT10=Event
 4	магнитудой	_	_	_	_	_	_	_	bratT10=Event
 5	5	_	_	_	_	_	_	_	bratT10=Event|bratT13=Quantity

@@ -76,12 +76,12 @@
 9	в	_	_	_	_	_	_	_	bratT12=Date-absolute
 10	1943	_	_	_	_	_	_	_	bratT12=Date-absolute
 11	году	_	_	_	_	_	_	_	bratT12=Date-absolute
-12	после	_	_	_	_	_	_	_	_
-13	освобождения	_	_	_	_	_	_	_	_
-14	Орловской	_	_	_	_	_	_	_	bratT27=GPE
-15	области	_	_	_	_	_	_	_	bratT27=GPE
-16	советскими	_	_	_	_	_	_	_	_
-17	войсками	_	_	_	_	_	_	_	SpaceAfter=No
+12	после	_	_	_	_	_	_	_	bratT41=Date-period
+13	освобождения	_	_	_	_	_	_	_	bratT40=Event|bratT41=Date-period
+14	Орловской	_	_	_	_	_	_	_	bratT27=GPE|bratT40=Event
+15	области	_	_	_	_	_	_	_	bratT27=GPE|bratT40=Event
+16	советскими	_	_	_	_	_	_	_	bratT40=Event
+17	войсками	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0076-p3-s2
@@ -104,7 +104,7 @@
 16	в	_	_	_	_	_	_	_	_
 17	том	_	_	_	_	_	_	_	_
 18	числе	_	_	_	_	_	_	_	_
-19	детей	_	_	_	_	_	_	_	SpaceAfter=No
+19	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Age
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0076-p3-s3

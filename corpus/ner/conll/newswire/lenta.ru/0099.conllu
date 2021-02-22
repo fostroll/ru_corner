@@ -10,12 +10,12 @@
 5	получила	_	_	_	_	_	_	_	_
 6	новый	_	_	_	_	_	_	_	_
 7	пост	_	_	_	_	_	_	_	_
-8	после	_	_	_	_	_	_	_	bratT47=Date-period
-9	скандала	_	_	_	_	_	_	_	bratT47=Date-period
-10	с	_	_	_	_	_	_	_	_
-11	отпуском	_	_	_	_	_	_	_	_
-12	и	_	_	_	_	_	_	_	_
-13	премией	_	_	_	_	_	_	_	_
+8	после	_	_	_	_	_	_	_	bratT51=Time-relative
+9	скандала	_	_	_	_	_	_	_	bratT47=Event
+10	с	_	_	_	_	_	_	_	bratT47=Event
+11	отпуском	_	_	_	_	_	_	_	bratT47=Event
+12	и	_	_	_	_	_	_	_	bratT47=Event
+13	премией	_	_	_	_	_	_	_	bratT47=Event
 
 # newpar id = 0099-p2
 # par_text = Бывший мэр Тамбова Наталия Макаревич, ушедшая в отставку в начале ноября, получила пост исполняющей обязанности заместителя главы администрации Тамбовской области. Об этом ТАСС сообщила начальник управления информационной политики региона Татьяна Самотойлова.
@@ -30,9 +30,9 @@
 7	ушедшая	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	отставку	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT6=Date-absolute
-11	начале	_	_	_	_	_	_	_	bratT6=Date-absolute
-12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA2=T6:Past|bratT6=Date-absolute
+11	начале	_	_	_	_	_	_	_	bratA2=T6:Past|bratT6=Date-absolute
+12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Past|bratT6=Date-absolute
 13	,	_	_	_	_	_	_	_	_
 14	получила	_	_	_	_	_	_	_	_
 15	пост	_	_	_	_	_	_	_	_
@@ -91,15 +91,15 @@
 4	посту	_	_	_	_	_	_	_	_
 5	главы	_	_	_	_	_	_	_	bratT16=Person-property
 6	Тамбова	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=GPE
-7	чуть	_	_	_	_	_	_	_	bratT18=Date-duration
-8	более	_	_	_	_	_	_	_	bratT18=Date-duration
-9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Date-duration
+7	чуть	_	_	_	_	_	_	_	bratA6=T49:Past|bratT18=Duration|bratT49=Date-period
+8	более	_	_	_	_	_	_	_	bratA6=T49:Past|bratT18=Duration|bratT49=Date-period
+9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T49:Past|bratT18=Duration|bratT49=Date-period
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0099-p3-s4
 # text = 30 октября депутаты Тамбовской городской думы на очередном заседании приняли ее досрочную отставку.
-1	30	_	_	_	_	_	_	_	bratT19=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT19=Date-absolute
+1	30	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property
 4	Тамбовской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
 5	городской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
@@ -127,8 +127,8 @@
 # par_text = В марте Макаревич оказалась в центре скандала из-за того, что уехала отдыхать во Вьетнам в разгар пандемии коронавируса. Она рассказала, что вылетела во Вьетнам 16 марта, «когда еще не было никаких ограничений». В том же месяце депутаты Тамбовской городской думы решили выписать премию в размере двух ежемесячных денежных вознаграждений главе города и другим чиновникам. Один из депутатов пояснил, что зарплата мэра составляет около 200 тысяч рублей. По его словам, в новом созыве решили премировать депутатов и членов администрации два или три раза в год «под тем или иным предлогом».
 # sent_id = 0099-p4-s1
 # text = В марте Макаревич оказалась в центре скандала из-за того, что уехала отдыхать во Вьетнам в разгар пандемии коронавируса.
-1	В	_	_	_	_	_	_	_	bratT24=Date-absolute
-2	марте	_	_	_	_	_	_	_	bratT24=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
+2	марте	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
 3	Макаревич	_	_	_	_	_	_	_	bratT25=Person
 4	оказалась	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -142,10 +142,10 @@
 13	отдыхать	_	_	_	_	_	_	_	_
 14	во	_	_	_	_	_	_	_	_
 15	Вьетнам	_	_	_	_	_	_	_	bratT26=GPE
-16	в	_	_	_	_	_	_	_	bratT46=Date-relative
-17	разгар	_	_	_	_	_	_	_	bratT46=Date-relative
-18	пандемии	_	_	_	_	_	_	_	bratT27=Event|bratT46=Date-relative
-19	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT46=Date-relative|bratT48=Other-term
+16	в	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-relative
+17	разгар	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-relative
+18	пандемии	_	_	_	_	_	_	_	bratA7=T46:Past|bratT27=Event|bratT46=Date-relative
+19	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT48=Other-term
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0099-p4-s2
@@ -157,8 +157,8 @@
 5	вылетела	_	_	_	_	_	_	_	_
 6	во	_	_	_	_	_	_	_	_
 7	Вьетнам	_	_	_	_	_	_	_	bratT28=GPE
-8	16	_	_	_	_	_	_	_	bratT29=Date-absolute
-9	марта	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Date-absolute
+8	16	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute
+9	марта	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T29:Past|bratT29=Date-absolute
 10	,	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
 12	когда	_	_	_	_	_	_	_	_
@@ -172,10 +172,10 @@
 
 # sent_id = 0099-p4-s3
 # text = В том же месяце депутаты Тамбовской городской думы решили выписать премию в размере двух ежемесячных денежных вознаграждений главе города и другим чиновникам.
-1	В	_	_	_	_	_	_	_	bratT30=Date-relative
-2	том	_	_	_	_	_	_	_	bratT30=Date-relative
-3	же	_	_	_	_	_	_	_	bratT30=Date-relative
-4	месяце	_	_	_	_	_	_	_	bratT30=Date-relative
+1	В	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute
+2	том	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
+3	же	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
+4	месяце	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute
 5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property
 6	Тамбовской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
 7	городской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
@@ -232,8 +232,8 @@
 15	или	_	_	_	_	_	_	_	bratT42=Quantity
 16	три	_	_	_	_	_	_	_	bratT42=Quantity
 17	раза	_	_	_	_	_	_	_	bratT42=Quantity
-18	в	_	_	_	_	_	_	_	bratT43=Date-duration
-19	год	_	_	_	_	_	_	_	bratT43=Date-duration
+18	в	_	_	_	_	_	_	_	bratT43=Time-period
+19	год	_	_	_	_	_	_	_	bratT43=Time-period|bratT50=Duration
 20	``	_	_	_	_	_	_	_	SpaceAfter=No
 21	под	_	_	_	_	_	_	_	_
 22	тем	_	_	_	_	_	_	_	_

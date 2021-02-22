@@ -13,7 +13,7 @@
 8	за	_	_	_	_	_	_	_	bratT47=Date-period
 9	время	_	_	_	_	_	_	_	bratT47=Date-period
 10	пандемии	_	_	_	_	_	_	_	bratT21=Event|bratT47=Date-period
-11	коронавируса	_	_	_	_	_	_	_	bratT21=Event|bratT3=Other-term|bratT47=Date-period
+11	коронавируса	_	_	_	_	_	_	_	bratT21=Event|bratT3=Other-term
 
 # newpar id = 0100-p2
 # par_text = Младший сын певицы Валерии Арсений Шульгин обогатился на термометрах и масках за время пандемии коронавируса. Об этом он сообщил в сторис в своем Instagram-аккаунте.
@@ -33,7 +33,7 @@
 12	за	_	_	_	_	_	_	_	bratT46=Date-period
 13	время	_	_	_	_	_	_	_	bratT46=Date-period
 14	пандемии	_	_	_	_	_	_	_	bratT22=Event|bratT46=Date-period
-15	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event|bratT46=Date-period|bratT8=Other-term
+15	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event|bratT8=Other-term
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0100-p2-s2
@@ -69,8 +69,8 @@
 14	столкнулся	_	_	_	_	_	_	_	_
 15	его	_	_	_	_	_	_	_	_
 16	бизнес	_	_	_	_	_	_	_	_
-17	в	_	_	_	_	_	_	_	_
-18	начале	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	bratT12=Date-absolute
+18	начале	_	_	_	_	_	_	_	bratT12=Date-absolute
 19	2020	_	_	_	_	_	_	_	bratT12=Date-absolute
 20	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-absolute
 21	.	_	_	_	_	_	_	_	_
@@ -271,7 +271,7 @@
 5	певицы	_	_	_	_	_	_	_	bratT30=Person|bratT31=Person-property|bratT45=Person
 6	Валерии	_	_	_	_	_	_	_	bratT30=Person|bratT45=Person
 7	от	_	_	_	_	_	_	_	_
-8	второго	_	_	_	_	_	_	_	bratT37=Ordinal
+8	второго	_	_	_	_	_	_	_	bratT37=Ordinal|bratT43=Family
 9	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Family
 10	,	_	_	_	_	_	_	_	_
 11	ее	_	_	_	_	_	_	_	_

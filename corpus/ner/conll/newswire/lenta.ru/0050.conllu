@@ -116,8 +116,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	bratT8=Date-period
-7	последние	_	_	_	_	_	_	_	bratT11=Ordinal|bratT8=Date-period
-8	десятилетия	_	_	_	_	_	_	_	bratT8=Date-period
+7	последние	_	_	_	_	_	_	_	bratA5=T22:Past|bratT11=Ordinal|bratT22=Date-absolute|bratT8=Date-period
+8	десятилетия	_	_	_	_	_	_	_	bratA5=T22:Past|bratT21=Duration|bratT22=Date-absolute|bratT8=Date-period
 9	политика	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	области	_	_	_	_	_	_	_	_
@@ -148,9 +148,9 @@
 # par_text = В настоящее время специалисты обсуждают ослабление такой политики. В частности, решается вопрос о том, будет ли разрешено китайским парам иметь до трех детей или же политика ограничения рождаемости будет отменена.
 # sent_id = 0050-p5-s1
 # text = В настоящее время специалисты обсуждают ослабление такой политики.
-1	В	_	_	_	_	_	_	_	bratT18=Date-relative
-2	настоящее	_	_	_	_	_	_	_	bratT18=Date-relative
-3	время	_	_	_	_	_	_	_	bratT18=Date-relative
+1	В	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
+3	время	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
 4	специалисты	_	_	_	_	_	_	_	_
 5	обсуждают	_	_	_	_	_	_	_	_
 6	ослабление	_	_	_	_	_	_	_	_

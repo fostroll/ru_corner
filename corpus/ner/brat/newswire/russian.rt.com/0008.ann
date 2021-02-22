@@ -1,7 +1,7 @@
 T2	GPE 5 12	Украине
 T3	Quantity 25 51	12   079   новых   случаев
 T4	Other-term 54 66	коронавируса
-T5	Time-duration 69 79	за   сутки
+T5	Duration 74 79	сутки
 T6	Service 311 319	Facebook
 T7	Person 332 387	министр   здравоохранения   Украины   Максим   Степанов
 T8	Person-property 332 367	министр   здравоохранения   Украины
@@ -9,7 +9,7 @@ T9	GPE 360 367	Украины
 T11	Quantity 429 440	489   детей
 T12	Quantity 447 466	375   медработников
 T13	Person-property 453 466	медработников
-T14	Time-period 479 500	за   минувшие   сутки
+T14	Date-period 479 500	за   минувшие   сутки
 T15	Quantity 523 538	1134   человека
 T16	Person 563 571	Степанов
 T17	Date-period 596 622	за   прошедшие   24   часа
@@ -27,10 +27,25 @@ A1	Media T6
 T1	GPE 86 93	Украине
 T10	Quantity 106 132	12   079   новых   случаев
 T28	Other-term 135 171	коронавирусной   инфекции   COVID-19
-T29	Time-duration 174 184	за   сутки
+T29	Duration 179 184	сутки
 T30	Quantity 233 251	624   744   случая
 T31	Other-term 268 281	коронавирусом
 T32	Event 709 717	пандемии
 T33	Date-period 696 717	с   начала   пандемии
-T34	Date-relative 840 847	Ранее  
+T34	Time-relative 840 845	Ранее
 T35	Age 435 440	детей
+T36	Date-period 69 79	за   сутки
+T37	Date-period 174 184	за   сутки
+T38	Duration 495 500	сутки
+T39	Duration 613 622	24   часа
+A6	Past T33
+T40	Date-absolute 484 500	минувшие   сутки
+A7	Past T40
+T41	Date-absolute 74 79	сутки
+A2	Past T41
+T42	Date-absolute 179 184	сутки
+A3	Past T42
+T43	Ordinal 484 492	минувшие
+T44	Ordinal 601 610	прошедшие
+T45	Date-absolute 601 622	прошедшие   24   часа
+A4	Past T45
