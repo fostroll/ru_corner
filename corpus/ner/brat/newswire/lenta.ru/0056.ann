@@ -1,16 +1,14 @@
 T1	GPE 4 10	Москве
-T2	Date-period 48 69	В   октябре   2020-го
+T2	Date-period-absolute 48 69	В   октябре   2020-го
 T3	GPE 76 82	Москве
 T5	Percent 195 223	на   65   процентов   больше
-T6	Date-period 236 267	в   том   же   месяце   2019-го
+T6	Date-period-absolute 236 267	в   том   же   месяце   2019-го
 T7	Organization 302 338	столичного   управления   Росреестра
 T8	Organization 363 392	редакцию   ``   Ленты.ру   ''
-T9	Date-period 438 469	за   сентябрь   текущего   года
+T9	Date-period-absolute 438 469	за   сентябрь   текущего   года
 T10	Percent 516 535	на   17   процентов
 T11	Person-property 555 564	аналитики
-T12	Date-absolute 636 643	октябрь
 T13	GPE 721 727	Москвы
-T14	Date-absolute 792 800	сентябрь
 T15	Person-property 826 834	эксперты
 T16	Organization 874 897	столичным   Росреестром
 T17	Other-term 124 154	договорам   долевого   участия
@@ -28,17 +26,17 @@ A1	Department T8
 T32	Organization 374 392	``   Ленты.ру   ''
 A2	Media T32
 T21	Ordinal 701 710	первичном
-T22	Date-absolute 52 69	октябре   2020-го
-A3	Past T22
-T25	Date-absolute 240 267	том   же   месяце   2019-го
-A4	Past T25
-T27	Date-absolute 443 469	сентябрь   текущего   года
-A5	Past T12
-T29	Date-period 636 643	октябрь
-A6	Past T14
-T33	Date-period 792 800	сентябрь
+T29	Date-period-absolute 636 643	октябрь
+T33	Date-period-absolute 792 800	сентябрь
 A7	Past T23
-A9	Past T27
 T35	Ordinal 454 462	текущего
-T36	Time-relative 1299 1304	Ранее
+T36	Date-relative 1299 1304	Ранее
 T34	Ordinal 240 248	том   же
+A8	Past T2
+A4	Past T6
+A9	Past T9
+A10	Past T29
+A5	Past T33
+A3	Past T36
+T12	GPE 302 312	столичного
+T14	GPE 874 883	столичным

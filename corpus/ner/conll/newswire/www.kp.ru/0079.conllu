@@ -10,8 +10,8 @@
 5	увеличили	_	_	_	_	_	_	_	_
 6	свой	_	_	_	_	_	_	_	_
 7	капитал	_	_	_	_	_	_	_	_
-8	после	_	_	_	_	_	_	_	bratT55=Date-period
-9	выборов	_	_	_	_	_	_	_	bratT55=Date-period
+8	после	_	_	_	_	_	_	_	bratA1=T55:Past-Pres|bratT55=Date-period-absolute
+9	выборов	_	_	_	_	_	_	_	bratA1=T55:Past-Pres|bratT53=Event|bratT55=Date-period-absolute
 10	в	_	_	_	_	_	_	_	_
 11	США	_	_	_	_	_	_	_	bratT2=GPE
 
@@ -19,11 +19,11 @@
 # par_text = В первый день после выборов президента США состояние десяти богатейших людей мира выросло на 34,4 миллиарда долларов. Об этом свидетельствуют данные рейтинга Forbes Real-Time.
 # sent_id = 0079-p2-s1
 # text = В первый день после выборов президента США состояние десяти богатейших людей мира выросло на 34,4 миллиарда долларов.
-1	В	_	_	_	_	_	_	_	bratT52=Date-relative
-2	первый	_	_	_	_	_	_	_	bratT5=Ordinal|bratT52=Date-relative
-3	день	_	_	_	_	_	_	_	bratT52=Date-relative
-4	после	_	_	_	_	_	_	_	bratT52=Date-relative
-5	выборов	_	_	_	_	_	_	_	bratT3=Event|bratT52=Date-relative
+1	В	_	_	_	_	_	_	_	bratA2=T52:Past|bratT52=Date-period-absolute
+2	первый	_	_	_	_	_	_	_	bratA2=T52:Past|bratT5=Ordinal|bratT52=Date-period-absolute
+3	день	_	_	_	_	_	_	_	bratA2=T52:Past|bratT52=Date-period-absolute|bratT61=Duration
+4	после	_	_	_	_	_	_	_	bratA2=T52:Past|bratT52=Date-period-absolute
+5	выборов	_	_	_	_	_	_	_	bratA2=T52:Past|bratT3=Event|bratT52=Date-period-absolute
 6	президента	_	_	_	_	_	_	_	bratT3=Event|bratT41=Person-property
 7	США	_	_	_	_	_	_	_	bratT3=Event|bratT4=GPE|bratT41=Person-property
 8	состояние	_	_	_	_	_	_	_	_
@@ -76,7 +76,7 @@
 
 # sent_id = 0079-p3-s2
 # text = Теперь в его казне 190,6 миллиардов долларов.
-1	Теперь	_	_	_	_	_	_	_	bratT57=Date-relative
+1	Теперь	_	_	_	_	_	_	_	bratA3=T57:Present|bratT57=Date-absolute
 2	в	_	_	_	_	_	_	_	_
 3	его	_	_	_	_	_	_	_	_
 4	казне	_	_	_	_	_	_	_	_
@@ -104,7 +104,7 @@
 13	8	_	_	_	_	_	_	_	bratT18=Money
 14	миллиардов	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Money
 15	,	_	_	_	_	_	_	_	_
-16	теперь	_	_	_	_	_	_	_	bratT58=Date-relative
+16	теперь	_	_	_	_	_	_	_	bratA4=T58:Present|bratT58=Date-absolute
 17	его	_	_	_	_	_	_	_	_
 18	состояние	_	_	_	_	_	_	_	_
 19	составляет	_	_	_	_	_	_	_	_
@@ -158,8 +158,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	кто	_	_	_	_	_	_	_	_
 6	потерял	_	_	_	_	_	_	_	_
-7	после	_	_	_	_	_	_	_	bratT56=Date-period
-8	голосования	_	_	_	_	_	_	_	bratT56=Date-period
+7	после	_	_	_	_	_	_	_	bratA5=T56:Past-Pres|bratT56=Date-period-absolute
+8	голосования	_	_	_	_	_	_	_	bratA5=T56:Past-Pres|bratT56=Date-period-absolute
 9	немалую	_	_	_	_	_	_	_	_
 10	сумму	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
@@ -234,11 +234,11 @@
 6	прошли	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	США	_	_	_	_	_	_	_	bratT45=GPE
-9	во	_	_	_	_	_	_	_	_
-10	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Date-absolute
-11	,	_	_	_	_	_	_	_	bratT46=Date-absolute
-12	3	_	_	_	_	_	_	_	bratT46=Date-absolute
-13	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Date-absolute
+9	во	_	_	_	_	_	_	_	bratA6=T46:Past|bratT46=Date-absolute
+10	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T46:Past|bratT46=Date-absolute
+11	,	_	_	_	_	_	_	_	bratA6=T46:Past|bratT46=Date-absolute
+12	3	_	_	_	_	_	_	_	bratA6=T46:Past|bratT46=Date-absolute
+13	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T46:Past|bratT46=Date-absolute
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0079-p7-s2
@@ -253,9 +253,9 @@
 
 # sent_id = 0079-p7-s3
 # text = В данный период лидирует демократ Джо Байден - 264 голоса.
-1	В	_	_	_	_	_	_	_	bratT54=Date-period
-2	данный	_	_	_	_	_	_	_	bratT54=Date-period
-3	период	_	_	_	_	_	_	_	bratT54=Date-period
+1	В	_	_	_	_	_	_	_	bratA7=T54:Present|bratT54=Date-absolute
+2	данный	_	_	_	_	_	_	_	bratA7=T54:Present|bratT54=Date-absolute
+3	период	_	_	_	_	_	_	_	bratA7=T54:Present|bratT54=Date-absolute
 4	лидирует	_	_	_	_	_	_	_	_
 5	демократ	_	_	_	_	_	_	_	bratT47=Person|bratT48=Political-group
 6	Джо	_	_	_	_	_	_	_	bratT47=Person

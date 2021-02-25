@@ -9,19 +9,22 @@ T8	Percent 1044 1057	выше   95   %
 T10	Organization 1118 1131	правительстве
 T11	GPE 1166 1172	России
 T12	Other-term 1180 1192	коронавируса
-T13	Date-absolute 1213 1224	2021   года
 T14	Other-term 721 728	вакцины
 T15	Other-term 964 971	вакцины
 T9	Ordinal 1065 1069	42-й
-T16	Date-relative 1060 1076	на   42-й   день
+T16	Date-absolute 1060 1091	на   42-й   день   исследования
 T17	Organization 95 134	Российский   фонд   прямых   инвестиций
 T18	Organization 141 145	РФПИ
 T19	Product 196 227	вакцины   ``   Спутник   V   ''
 T20	Other-term 235 247	коронавируса
 T21	Service 396 401	сайте
 A1	Media T21
-T22	Time-relative 899 904	ранее
+T22	Date-relative 899 904	ранее
 T23	Product 404 424	российской   вакцины
 A2	Past T16
-A3	Future T13
-T24	Date-period 1209 1224	с   2021   года
+T24	Date-period-absolute 1209 1224	с   2021   года
+A4	Fut T24
+A3	Past T22
+T13	Duration 1072 1076	день
+T25	GPE 95 105	Российский
+T26	GPE 404 414	российской

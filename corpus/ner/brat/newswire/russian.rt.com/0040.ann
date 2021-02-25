@@ -18,7 +18,7 @@ T17	Person-property 559 568	президент
 T18	Event 1361 1382	массовая   вакцинация
 T19	Other-term 1403 1411	COVID-19
 T20	GPE 1389 1395	России
-T21	Date-period 1428 1443	с   2021   года
+T21	Date-period-absolute 1428 1443	с   2021   года
 T22	Other-term 1091 1120	несертифицированную   вакцину
 T23	Person-property 107 126	главы   государства
 T24	Person-property 144 155	добровольца
@@ -30,8 +30,18 @@ T29	Person-property 362 373	журналистов
 T30	Person-property 730 741	добровольца
 T31	Person-property 912 923	добровольца
 T32	Date-absolute 1131 1137	Сейчас
-T33	Time-relative 1297 1302	Ранее
-T34	Time-relative 1185 1190	потом
+T33	Date-relative 1297 1302	Ранее
+T34	Date-relative 1185 1190	потом
 A1	Future T32
-T35	Date-absolute 1432 1443	2021   года
-A2	Future T35
+A3	Fut T21
+A2	Past T33
+A4	Future T34
+T35	Person-surname 38 43	Путин
+T36	GPE 291 302	российского
+T37	Person-forename 314 321	Дмитрий
+T38	Person-surname 324 330	Песков
+T39	Person-forename 571 579	Владимир
+T40	Person-surname 582 587	Путин
+T41	Person-surname 994 1000	Песков
+T42	Person-forename 1320 1327	Татьяна
+T43	Person-surname 1330 1338	Голикова

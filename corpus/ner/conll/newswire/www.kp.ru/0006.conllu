@@ -49,11 +49,11 @@
 # text = Об этом в четверг, 12 ноября, рассказал советник главы офиса президента Михаил Подоляк.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT7=Date-absolute
-4	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT7=Date-absolute
-6	12	_	_	_	_	_	_	_	bratT7=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA4=T7:Past|bratT7=Date-absolute
+4	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Past|bratT7=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA4=T7:Past|bratT7=Date-absolute
+6	12	_	_	_	_	_	_	_	bratA4=T7:Past|bratT7=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Past|bratT7=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	рассказал	_	_	_	_	_	_	_	_
 10	советник	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
@@ -138,15 +138,15 @@
 9	тесте	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	коронавирус	_	_	_	_	_	_	_	bratT17=Other-term
-12	в	_	_	_	_	_	_	_	bratT18=Date-relative
-13	минувший	_	_	_	_	_	_	_	bratT18=Date-relative
-14	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Date-relative
+12	в	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-absolute
+13	минувший	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-absolute|bratT34=Ordinal
+14	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Past|bratT18=Date-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p4-s2
 # text = Чуть позже глава офиса президента Украины Андрей Ермак также сообщил, что заразился инфекцией.
-1	Чуть	_	_	_	_	_	_	_	bratT32=Date-relative
-2	позже	_	_	_	_	_	_	_	bratT32=Date-relative
+1	Чуть	_	_	_	_	_	_	_	bratA2=T32:Past|bratT32=Date-relative
+2	позже	_	_	_	_	_	_	_	bratA2=T32:Past|bratT32=Date-relative
 3	глава	_	_	_	_	_	_	_	bratT21=Person
 4	офиса	_	_	_	_	_	_	_	bratT21=Person|bratT29=Organization
 5	президента	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Person|bratT29=Organization

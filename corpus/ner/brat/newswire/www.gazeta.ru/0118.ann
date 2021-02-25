@@ -21,11 +21,16 @@ T19	Nationality 750 771	белорусского   народа
 A2	Citizenship T19
 T20	GPE 832 842	Белоруссии
 T21	Event 817 825	Протесты
-T22	Date-period 860 871	с   августа
+T22	Date-period-absolute 860 871	с   августа
 T23	Organization 918 934	ЦИК   республики
 T24	Person 947 969	Александра   Лукашенко
 T25	Event 986 1009	президентских   выборов
 T26	Date-absolute 1035 1046	9   августа
-T27	Date-period 237 258	во   время   которого
+T27	Date-absolute 237 258	во   время   которого
 T28	Event 209 230	телефонный   разговор
-T29	Date-period 893 915	после   того   ,   как
+T29	Date-relative 893 915	после   того   ,   как
+A3	RCont T22
+A4	Past-Pres T22
+A5	Past T29
+A6	Past T26
+A7	Past T27

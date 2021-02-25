@@ -12,7 +12,7 @@ T12	Person-property 869 916	председатель   комитета   по  
 T13	Organization 884 916	комитета   по   туризму   Москвы
 T14	GPE 910 916	Москвы
 T15	Person 869 940	председатель   комитета   по   туризму   Москвы   Екатерина   Проничева
-T16	Date-period 946 971	В   течение   двух   дней
+T16	Date-period-relative 946 971	В   течение   двух   дней
 T17	Event 986 1021	``   Мастеров   гостеприимства   ''
 T18	Quantity 1223 1239	186   финалистов
 T19	Duration 1258 1267	два   дня
@@ -22,6 +22,8 @@ A3	Department T2
 T8	Organization 264 336	президентской   платформы   ``   Россия   -   страна   возможностей   ''
 T22	GPE 672 676	миру
 T21	Duration 960 971	двух   дней
-T23	Date-period 1258 1267	два   дня
-A2	Future T16
-A4	Future T23
+T23	Date-period-relative 1258 1267	два   дня
+A2	Fut T16
+A4	Fut T23
+T24	Person-forename 919 928	Екатерина
+T25	Person-surname 931 940	Проничева

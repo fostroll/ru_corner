@@ -21,5 +21,7 @@ T19	Event 713 730	Гран-при   России
 T20	GPE 724 730	России
 T21	Person 696 705	Загитовой
 T22	Person-property 366 376	фигуристка
-T23	Date-relative 566 572	сейчас
-T24	Date-relative 634 641	Ранее  
+T23	Date-absolute 566 572	сейчас
+T24	Date-relative 634 639	Ранее
+A2	Present T23
+A3	Past T24

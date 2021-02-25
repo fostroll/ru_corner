@@ -42,14 +42,14 @@ T39	GPE 1550 1556	Анкара
 T2	GPE 563 591	всех   турецких   провинциях
 T4	Event 995 1003	пандемии
 T40	Event 127 166	пандемии   коронавируса   нового   типа
-T41	Date-period 982 1003	С   начала   пандемии
+T41	Date-period-absolute 982 1003	С   начала   пандемии
 T42	Ordinal 112 118	третий
 T43	Ordinal 316 322	третий
 T44	Ordinal 29 35	третий
 T45	Ordinal 831 841	Предыдущий
-T46	Date-relative 428 456	в   ходе   пресс-конференции
+T46	Date-absolute 428 456	в   ходе   пресс-конференции
 T47	Quantity 62 85	нескольких   провинциях
-T48	Date-relative 1649 1667	после   проведения
+T48	Date-absolute 1649 1667	после   проведения
 T49	Other-term 138 150	коронавируса
 T50	Other-term 44 56	коронавируса
 T51	Event 29 56	третий   пик   коронавируса
@@ -64,5 +64,16 @@ T57	Person 1415 1432	Фахреттин   Коджа
 T58	Duration 782 787	сутки
 A9	Past T46
 A10	Future T48
-A11	Past T41
-T55	Time-relative 1170 1175	Ранее
+T55	Date-relative 1170 1175	Ранее
+A8	Past-Pres T41
+A11	Past T55
+T59	GPE 570 578	турецких
+T60	GPE 1259 1269	российскую
+T61	GPE 1617 1625	турецких
+T62	Person-forename 229 238	Фахреттин
+T63	Person-surname 241 246	Коджа
+T64	Person-surname 481 486	Коджа
+T65	Person-forename 1392 1398	Михаил
+T66	Person-surname 1401 1408	Мурашко
+T67	Person-forename 1415 1424	Фахреттин
+T68	Person-surname 1427 1432	Коджа

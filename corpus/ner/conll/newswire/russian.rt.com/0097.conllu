@@ -12,9 +12,9 @@
 7	коронавирусу	_	_	_	_	_	_	_	bratT2=Other-term
 8	могут	_	_	_	_	_	_	_	_
 9	сохранить	_	_	_	_	_	_	_	_
-10	до	_	_	_	_	_	_	_	bratT27=Date-period
-11	тёплой	_	_	_	_	_	_	_	bratA8=T35:Future|bratT27=Date-period|bratT35=Date-absolute
-12	весны	_	_	_	_	_	_	_	bratA8=T35:Future|bratT27=Date-period|bratT35=Date-absolute
+10	до	_	_	_	_	_	_	_	bratA13=T27:LCont|bratA14=T27:Pres-Fut|bratT27=Date-period-absolute
+11	тёплой	_	_	_	_	_	_	_	bratA13=T27:LCont|bratA14=T27:Pres-Fut|bratT27=Date-period-absolute
+12	весны	_	_	_	_	_	_	_	bratA13=T27:LCont|bratA14=T27:Pres-Fut|bratT27=Date-period-absolute
 
 # newpar id = 0097-p2
 # par_text = Меры, введённые для борьбы с распространением коронавирусной инфекции COVID-19, вероятно, будут действовать в России до тёплой весны. С таким мнением выступила глава Роспотребнадзора Анна Попова.
@@ -37,9 +37,9 @@
 15	действовать	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
 17	России	_	_	_	_	_	_	_	bratT19=GPE
-18	до	_	_	_	_	_	_	_	bratT26=Date-period
-19	тёплой	_	_	_	_	_	_	_	bratA9=T36:Future|bratT26=Date-period|bratT36=Date-absolute
-20	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T36:Future|bratT26=Date-period|bratT36=Date-absolute
+18	до	_	_	_	_	_	_	_	bratA15=T26:Past-Fut|bratT26=Date-period-absolute
+19	тёплой	_	_	_	_	_	_	_	bratA15=T26:Past-Fut|bratT26=Date-period-absolute
+20	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T26:Past-Fut|bratT26=Date-period-absolute
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0097-p2-s2
@@ -73,9 +73,9 @@
 13	будем	_	_	_	_	_	_	_	_
 14	так	_	_	_	_	_	_	_	_
 15	жить	_	_	_	_	_	_	_	_
-16	ещё	_	_	_	_	_	_	_	bratT23=Date-period
-17	какое-то	_	_	_	_	_	_	_	bratA7=T33:Future|bratT23=Date-period|bratT30=Duration|bratT33=Date-absolute
-18	время	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T33:Future|bratT23=Date-period|bratT30=Duration|bratT33=Date-absolute
+16	ещё	_	_	_	_	_	_	_	bratA8=T23:LCont|bratA9=T23:Pres-Fut|bratT23=Date-period-absolute
+17	какое-то	_	_	_	_	_	_	_	bratA8=T23:LCont|bratA9=T23:Pres-Fut|bratT23=Date-period-absolute|bratT30=Duration
+18	время	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T23:LCont|bratA9=T23:Pres-Fut|bratT23=Date-period-absolute|bratT30=Duration
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0097-p3-s2
@@ -83,12 +83,12 @@
 1	Хорошо	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	если	_	_	_	_	_	_	_	_
-4	меньше	_	_	_	_	_	_	_	SpaceAfter=No
-5	,	_	_	_	_	_	_	_	_
-6	чем	_	_	_	_	_	_	_	_
-7	до	_	_	_	_	_	_	_	bratT24=Date-period
-8	тёплой	_	_	_	_	_	_	_	bratA11=T38:Future|bratT24=Date-period|bratT38=Date-absolute
-9	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Future|bratT24=Date-period|bratT38=Date-absolute
+4	меньше	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T24:Pres-Fut|bratT24=Date-period-absolute
+5	,	_	_	_	_	_	_	_	bratA7=T24:Pres-Fut|bratT24=Date-period-absolute
+6	чем	_	_	_	_	_	_	_	bratA7=T24:Pres-Fut|bratT24=Date-period-absolute
+7	до	_	_	_	_	_	_	_	bratA7=T24:Pres-Fut|bratT24=Date-period-absolute
+8	тёплой	_	_	_	_	_	_	_	bratA7=T24:Pres-Fut|bratT24=Date-period-absolute
+9	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T24:Pres-Fut|bratT24=Date-period-absolute
 10	,	_	_	_	_	_	_	_	_
 11	но	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -99,9 +99,9 @@
 17	будем	_	_	_	_	_	_	_	_
 18	беречься	_	_	_	_	_	_	_	_
 19	так	_	_	_	_	_	_	_	_
-20	до	_	_	_	_	_	_	_	bratT25=Date-period
-21	тёплой	_	_	_	_	_	_	_	bratA10=T37:Future|bratT25=Date-period|bratT37=Date-absolute
-22	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Future|bratT25=Date-period|bratT37=Date-absolute
+20	до	_	_	_	_	_	_	_	bratA11=T25:Pres-Fut|bratT25=Date-period-absolute
+21	тёплой	_	_	_	_	_	_	_	bratA11=T25:Pres-Fut|bratT25=Date-period-absolute
+22	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T25:Pres-Fut|bratT25=Date-period-absolute
 23	''	_	_	_	_	_	_	_	SpaceAfter=No
 24	,	_	_	_	_	_	_	_	_
 25	-	_	_	_	_	_	_	_	_
@@ -120,9 +120,9 @@
 2	считает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT5=Date-period
-6	нынешнем	_	_	_	_	_	_	_	bratA12=T39:Future|bratT39=Date-absolute|bratT5=Date-period
-7	году	_	_	_	_	_	_	_	bratA12=T39:Future|bratT39=Date-absolute|bratT5=Date-period
+5	в	_	_	_	_	_	_	_	bratA10=T5:Pres-Fut|bratT5=Date-period-absolute
+6	нынешнем	_	_	_	_	_	_	_	bratA10=T5:Pres-Fut|bratT5=Date-period-absolute
+7	году	_	_	_	_	_	_	_	bratA10=T5:Pres-Fut|bratT5=Date-period-absolute
 8	у	_	_	_	_	_	_	_	_
 9	россиян	_	_	_	_	_	_	_	bratA2=T6:Citizenship|bratT6=Nationality
 10	не	_	_	_	_	_	_	_	_
@@ -148,7 +148,7 @@
 # par_text = Ранее вирусолог, бывший заведующий лабораторией центра «Вектор» Александр Чепурнов в беседе с URA.RU не исключил, что с частичными ограничениями в России придётся жить «ещё год-два», пока не начнётся правильное использование вакцин.
 # sent_id = 0097-p5-s1
 # text = Ранее вирусолог, бывший заведующий лабораторией центра ``Вектор'' Александр Чепурнов в беседе с URA.RU не исключил, что с частичными ограничениями в России придётся жить ``ещё год-два'', пока не начнётся правильное использование вакцин.
-1	Ранее	_	_	_	_	_	_	_	bratT29=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA16=T29:Past|bratT29=Date-relative
 2	вирусолог	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT8=Person-property
 3	,	_	_	_	_	_	_	_	bratT12=Person
 4	бывший	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
@@ -176,8 +176,8 @@
 26	придётся	_	_	_	_	_	_	_	_
 27	жить	_	_	_	_	_	_	_	_
 28	``	_	_	_	_	_	_	_	SpaceAfter=No
-29	ещё	_	_	_	_	_	_	_	bratT15=Date-period
-30	год-два	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T34:Future|bratT15=Date-period|bratT32=Duration|bratT34=Date-absolute
+29	ещё	_	_	_	_	_	_	_	bratA12=T15:Pres-Fut|bratA5=T15:LCont|bratT15=Date-period-absolute
+30	год-два	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T15:Pres-Fut|bratA5=T15:LCont|bratT15=Date-period-absolute|bratT32=Duration
 31	''	_	_	_	_	_	_	_	SpaceAfter=No
 32	,	_	_	_	_	_	_	_	_
 33	пока	_	_	_	_	_	_	_	_

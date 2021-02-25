@@ -1,4 +1,4 @@
-T1	Date-period 58 81	С   марта   2020   года
+T1	Date-period-absolute 58 81	С   марта   2020   года
 T2	Organization 92 133	Всемирная   организация   здравоохранения
 T3	Event 165 188	пандемии   коронавируса
 T4	Percent 317 330	3   процентах
@@ -7,7 +7,7 @@ T6	Quantity 478 506	965   крупнейших   компаниях
 T7	Organization 554 563	Bloomberg
 T8	Organization 595 656	сервиса   по   подбору   персонала   Heidrick   &   Struggles
 T9	Event 888 897	локдаунов
-T10	Date-period 1195 1223	за   последнее   десятилетие
+T10	Date-period-absolute 1195 1223	за   последнее   десятилетие
 T11	Person-property 1043 1053	экономисты
 T12	Person-property 1485 1509	генерального   директора
 T13	Percent 1616 1641	около   шести   процентов
@@ -17,10 +17,10 @@ T16	Person-property 662 670	Эксперты
 T17	Organization 140 143	ВОЗ
 T18	Other-term 1719 1728	S&P   500
 T15	Event 396 404	эпидемии
-T19	Date-relative 391 404	до   эпидемии
+T19	Date-absolute 391 404	до   эпидемии
 T20	Ordinal 1087 1093	первой
 T21	Ordinal 1200 1209	последнее
-T22	Date-period 875 897	во   время   локдаунов
+T22	Date-period-absolute 875 897	во   время   локдаунов
 T23	Date-absolute 1564 1585	В   настоящее   время
 T24	Date-absolute 1288 1294	сейчас
 T25	Date-absolute 284 290	сейчас
@@ -38,3 +38,7 @@ A6	Past T19
 A7	Present T24
 A9	Present T23
 A8	Present T26
+A10	Past-Pres T1
+T32	Event 1087 1115	первой   женской   рецессией
+T33	Person-property 1439 1445	лидера
+T34	Ordinal 1568 1577	настоящее

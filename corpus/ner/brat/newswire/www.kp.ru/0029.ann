@@ -2,7 +2,6 @@ T1	Person-property 0 23	Российские   миротворцы
 T2	Other-group 78 87	беженцами
 T3	GPE 95 102	Армении
 T4	GPE 109 120	Степанакерт
-T5	Date-absolute 137 148	20   ноября
 T6	Person-property 155 178	российские   миротворцы
 T7	GPE 280 298	Нагорный   Карабах
 T8	GPE 318 325	Армения
@@ -17,16 +16,16 @@ T16	GPE 546 548	РФ
 T17	Quantity 561 574	23   автобуса
 T18	Quantity 581 598	250   автомобилей
 T19	Other-group 631 640	беженцами
-T20	Time-period 658 679	за   минувшие   сутки
+T20	Date-period-absolute 658 679	за   минувшие   сутки
 T21	Quantity 712 734	более   1900   человек
 T22	Organization 947 1004	Межведомственного   центра   гуманитарного   реагирования
 T23	Organization 1049 1059	Минобороны
-T24	Date-period 1065 1080	С   14   ноября
+T24	Date-period-absolute 1065 1080	С   14   ноября
 T25	GPE 1087 1098	Степанакерт
 T26	Quantity 1119 1160	более   шести   тысяч   местных   жителей
 T27	Service 1281 1293	сайт   kp.ru
 A1	Media T27
-T28	Date-absolute 1308 1318	9   ноября
+T28	Date-absolute 1300 1318	ночью   9   ноября
 T29	Person 1321 1358	президент   России   Владимир   Путин
 T30	Person-property 1321 1339	президент   России
 T31	GPE 1333 1339	России
@@ -41,12 +40,20 @@ T39	GPE 1501 1520	Нагорном   Карабахе
 T40	Person-property 1555 1588	глава   российского   государства
 T41	GPE 1563 1588	российского   государства
 T42	Event 1723 1754	нагорнокарабахского   конфликта
-T44	Date-absolute 1798 1823	10   ноября   2020   года
+T44	Date-period-absolute 1757 1823	с   00:00   по   московскому   времени   10   ноября   2020   года
 T45	Person-property 1879 1903	российских   миротворцев
 T46	GPE 1910 1917	Карабах
-T43	Time-absolute 1757 1795	с   00:00   по   московскому   времени
-T47	Date-relative 122 130	Накануне
-T48	Time-period 1300 1305	ночью
-T49	Date-relative 1177 1182	ранее
+T43	Time-absolute 1761 1795	00:00   по   московскому   времени
+T47	Date-absolute 122 148	Накануне   ,   20   ноября
+T48	Time-absolute 1300 1305	ночью
+T49	Date-period-relative 1177 1182	ранее
 T50	Organization 1288 1293	kp.ru
 A2	Media T50
+T51	Duration 674 679	сутки
+A3	Past T20
+A4	UNK-Fut T44
+A5	Past T28
+T52	Ordinal 663 671	минувшие
+A6	Past-Pres T24
+A7	Past T49
+A8	Past T47

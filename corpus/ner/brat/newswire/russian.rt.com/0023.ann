@@ -14,15 +14,20 @@ A1	Media T5
 T2	Other-term 70 78	COVID-19
 T4	Person-property 80 100	Российский   премьер
 T15	Person 80 120	Российский   премьер   Михаил   Мишустин
-T16	Date-period 166 197	до   31   декабря   2021   года
+T16	Date-period-absolute 166 197	до   31   декабря   2021   года
 T17	Other-term 292 329	коронавирусной   инфекцией   COVID-19
 T18	Event 858 866	эпидемии
-T19	Date-period 845 866	с   начала   эпидемии
-T20	Date-period 692 711	в   течение   суток
-A2	Past T20
+T19	Date-period-absolute 845 866	с   начала   эпидемии
+T20	Date-period-relative 692 711	в   течение   суток
 T21	Organization 644 653	оперштаба
-T22	Date-absolute 171 197	31   декабря   2021   года
-A4	Future T22
 A3	Past T3
 A5	Past T9
-A6	Past T19
+A4	Past-Pres T19
+A2	Past T20
+A6	LCont T16
+A7	Fut T16
+T22	Person-surname 0 8	Мишустин
+T23	GPE 80 90	Российский
+T24	Person-forename 103 109	Михаил
+T25	Person-surname 112 120	Мишустин
+T26	Person-surname 440 448	Мишустин

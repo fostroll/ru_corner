@@ -11,7 +11,7 @@ T10	Person-property 186 236	лидерами   России   ,   Армении
 T11	GPE 293 312	Нагорном   Карабахе
 T12	Organization 423 449	армянского   правительства
 T13	Person-property 415 449	глава   армянского   правительства
-T14	Date-absolute 462 491	в   четверг   ,   12   ноября
+T14	Date-absolute 462 541	в   четверг   ,   12   ноября   ,   во   время   своего   обращения   к   нации
 T15	GPE 633 652	Нагорном   Карабахе
 T16	Person 867 882	Никол   Пашинян
 T17	Person-property 888 895	Политик
@@ -27,8 +27,13 @@ T25	GPE 1242 1250	Карабахе
 T26	GPE 1302 1309	Армении
 T27	Organization 1294 1309	армия   Армении
 A2	Plural T10
-T28	Date-period 498 529	во   время   своего   обращения
-T29	Date-period 814 829	по   сей   день
+T29	Date-period-relative 814 829	по   сей   день
 T30	Quantity 1381 1406	еще   несколько   городов
 T31	Organization 1131 1136	Kp.ru
 A3	Media T31
+T28	Event 520 541	обращения   к   нации
+A4	Past T14
+T32	Date-relative 779 784	тогда
+A5	Past T32
+A6	Past-Pres T29
+A7	RCont T29

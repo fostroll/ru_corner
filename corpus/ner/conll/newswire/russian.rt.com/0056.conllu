@@ -7,7 +7,7 @@
 2	COVID-19	_	_	_	_	_	_	_	bratT1=Other-term
 3	глава	_	_	_	_	_	_	_	bratT2=Person-property
 4	офиса	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
-5	Зеленского	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=Person
+5	Зеленского	_	_	_	_	_	_	_	bratT2=Person-property|bratT20=Person-surname|bratT3=Organization|bratT4=Person
 6	заявил	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
 8	выздоровлении	_	_	_	_	_	_	_	_
@@ -20,8 +20,8 @@
 2	офиса	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=Organization|bratT17=Person
 3	президента	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=Organization|bratT15=Person-property|bratT17=Person
 4	Украины	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=Organization|bratT15=Person-property|bratT16=GPE|bratT17=Person
-5	Андрей	_	_	_	_	_	_	_	bratT17=Person
-6	Ермак	_	_	_	_	_	_	_	bratT17=Person
+5	Андрей	_	_	_	_	_	_	_	bratT17=Person|bratT21=Person-forename
+6	Ермак	_	_	_	_	_	_	_	bratT17=Person|bratT22=Person-surname
 7	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
@@ -79,10 +79,10 @@
 6	что	_	_	_	_	_	_	_	_
 7	президент	_	_	_	_	_	_	_	bratT10=Person-property|bratT8=Person
 8	Украины	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT8=Person
-9	Владимир	_	_	_	_	_	_	_	bratT8=Person
-10	Зеленский	_	_	_	_	_	_	_	bratT8=Person
+9	Владимир	_	_	_	_	_	_	_	bratT23=Person-forename|bratT8=Person
+10	Зеленский	_	_	_	_	_	_	_	bratT24=Person-surname|bratT8=Person
 11	и	_	_	_	_	_	_	_	_
-12	Ермак	_	_	_	_	_	_	_	bratT9=Person
+12	Ермак	_	_	_	_	_	_	_	bratT25=Person-surname|bratT9=Person
 13	находятся	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
 15	больнице	_	_	_	_	_	_	_	_

@@ -7,7 +7,7 @@
 2	снизить	_	_	_	_	_	_	_	_
 3	налоги	_	_	_	_	_	_	_	_
 4	удивило	_	_	_	_	_	_	_	_
-5	российских	_	_	_	_	_	_	_	_
+5	российских	_	_	_	_	_	_	_	bratT32=GPE
 6	налоговиков	_	_	_	_	_	_	_	_
 
 # newpar id = 0061-p2
@@ -21,8 +21,8 @@
 5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=Person
 6	ФНС	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization|bratT3=Person-property|bratT4=Person
 7	)	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-8	Даниил	_	_	_	_	_	_	_	bratT4=Person
-9	Егоров	_	_	_	_	_	_	_	bratT4=Person
+8	Даниил	_	_	_	_	_	_	_	bratT33=Person-forename|bratT4=Person
+9	Егоров	_	_	_	_	_	_	_	bratT34=Person-surname|bratT4=Person
 10	удивился	_	_	_	_	_	_	_	_
 11	предложению	_	_	_	_	_	_	_	_
 12	Торгово-промышленной	_	_	_	_	_	_	_	bratT2=Organization
@@ -92,7 +92,7 @@
 
 # sent_id = 0061-p3-s2
 # text = Егоров отметил, что действующая ставка в 4-6 процентов выглядит скорее ``социальным проектом''.
-1	Егоров	_	_	_	_	_	_	_	bratT11=Person
+1	Егоров	_	_	_	_	_	_	_	bratT11=Person|bratT35=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -134,9 +134,9 @@
 4	напомнил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	во	_	_	_	_	_	_	_	bratT29=Time-relative
-8	время	_	_	_	_	_	_	_	bratT29=Time-relative
-9	регистрации	_	_	_	_	_	_	_	_
+7	во	_	_	_	_	_	_	_	bratA3=T29:Present|bratT29=Date-absolute
+8	время	_	_	_	_	_	_	_	bratA3=T29:Present|bratT29=Date-absolute
+9	регистрации	_	_	_	_	_	_	_	bratA3=T29:Present|bratT29=Date-absolute|bratT31=Event
 10	самозанятые	_	_	_	_	_	_	_	bratT24=Person-property
 11	получают	_	_	_	_	_	_	_	_
 12	налоговый	_	_	_	_	_	_	_	_
@@ -148,9 +148,9 @@
 18	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Money
 19	,	_	_	_	_	_	_	_	_
 20	а	_	_	_	_	_	_	_	_
-21	на	_	_	_	_	_	_	_	bratA2=T27:Present|bratT27=Date-period
-22	время	_	_	_	_	_	_	_	bratA2=T27:Present|bratT27=Date-period
-23	пандемии	_	_	_	_	_	_	_	bratA2=T27:Present|bratT16=Event|bratT27=Date-period
+21	на	_	_	_	_	_	_	_	bratA2=T27:Past-Fut|bratT27=Date-period-absolute
+22	время	_	_	_	_	_	_	_	bratA2=T27:Past-Fut|bratT27=Date-period-absolute
+23	пандемии	_	_	_	_	_	_	_	bratA2=T27:Past-Fut|bratT16=Event|bratT27=Date-period-absolute
 24	коронавируса	_	_	_	_	_	_	_	bratT16=Event|bratT30=Other-term
 25	введен	_	_	_	_	_	_	_	_
 26	дополнительный	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 2	образом	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	подчеркнул	_	_	_	_	_	_	_	_
-5	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+5	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT36=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	налог	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -232,7 +232,7 @@
 # sent_id = 0061-p6-s1
 # text = Однако Егоров заметил, что если налоги в каждом субъекте Федерации будут разные, то их станет сложнее администрировать, что приведет к дополнительным расходам.
 1	Однако	_	_	_	_	_	_	_	_
-2	Егоров	_	_	_	_	_	_	_	bratT20=Person
+2	Егоров	_	_	_	_	_	_	_	bratT20=Person|bratT37=Person-surname
 3	заметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

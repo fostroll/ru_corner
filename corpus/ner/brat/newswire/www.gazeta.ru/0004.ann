@@ -18,7 +18,7 @@ T17	GPE 648 654	России
 T18	GPE 661 668	Армении
 T19	GPE 675 687	Азербайджана
 T20	GPE 754 773	Нагорном   Карабахе
-T21	Date-period 776 791	с   10   ноября
+T21	Date-period-absolute 776 791	с   10   ноября
 T22	Person-property 796 819	Российские   миротворцы
 T23	GPE 846 866	Карабахский   регион
 T24	Nationality 871 891	Армянские   граждане
@@ -26,16 +26,23 @@ A3	Citizenship T24
 T25	GPE 981 988	Ереване
 T26	Person-property 1048 1073	премьер-министра   страны
 T27	Person 1048 1093	премьер-министра   страны   Никола   Пашиняна
-T28	Date-period 1211 1227	До   15   ноября
+T28	Date-period-absolute 1211 1227	До   15   ноября
 T29	GPE 1230 1237	Армения
 T30	GPE 1253 1275	Кельбаджарский   район
-T31	Date-period 1286 1302	до   1   декабря
+T31	Date-period-absolute 1286 1302	до   1   декабря
 T32	GPE 1309 1326	Лачинский   район
 T33	Organization 341 347	Кремля
 T34	GPE 1140 1157	Агдамский   район
 T35	GPE 1175 1187	Азербайджану
-T36	Date-period 1190 1206	до   20   ноября
+T36	Date-period-absolute 1190 1206	до   20   ноября
 T37	Service 333 338	сайте
 A4	Media T37
-T10	Date-period 128 162	в   ходе   телефонного   разговора
-T38	Date-relative 632 639	Ранее  
+T10	Date-absolute 128 162	в   ходе   телефонного   разговора
+T38	Date-relative 632 637	Ранее
+T39	Event 139 162	телефонного   разговора
+A1	Past T10
+A5	Past T9
+A9	Pres-Fut T36
+A6	Pres-Fut T28
+A10	Pres-Fut T31
+A7	Past T38

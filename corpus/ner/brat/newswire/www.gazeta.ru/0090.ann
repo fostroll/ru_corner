@@ -1,12 +1,12 @@
 T1	Quantity 48 72	10   тысяч   сотрудников
-T2	Date-period 110 125	за   два   года
+T2	Date-period-absolute 110 125	за   два   года
 T3	Quantity 156 180	10   тысяч   сотрудников
 T4	Organization 195 199	ТАСС
 A1	Media T4
 T5	Person-property 222 308	замгендиректора   госкорпорации   по   административным   и   корпоративным   вопросам
 T6	Person 222 327	замгендиректора   госкорпорации   по   административным   и   корпоративным   вопросам   Ивана   Харченко
-T7	Date-period 338 365	За   последние   два   года
-T8	Date-period 372 393	с   мая   2018   года
+T7	Date-period-absolute 338 365	За   последние   два   года
+T8	Date-period-absolute 372 393	с   мая   2018   года
 T9	Quantity 496 521	на   10   тысяч   человек
 T10	Quantity 528 551	с   180   900   человек
 T11	Organization 679 699	``   Роскосмоса   ''
@@ -18,3 +18,8 @@ T16	Quantity 554 578	до   170   500   человек
 T17	Person 603 611	Харченко
 T18	Ordinal 412 421	следующие
 T19	Ordinal 343 352	последние
+T20	Date-relative 879 898	В   то   же   время
+A2	Past-Pres T2
+A3	Past-Pres T7
+A4	Past-Pres T8
+A5	Past T20

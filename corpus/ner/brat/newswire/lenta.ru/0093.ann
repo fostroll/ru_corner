@@ -13,8 +13,9 @@ T13	Product 144 192	двигателя   самолета   Ан-124   ``   Ру
 T15	Event 220 239	аварийную   посадку
 T14	Event 782 799	жесткую   посадку
 A2	Media T5
-T4	Time-relative 492 497	Ранее
-T16	Date-relative 1071 1093	сразу   после   вылета
+T4	Date-relative 492 497	Ранее
+T16	Date-absolute 1071 1093	сразу   после   вылета
 A1	Past T11
 A3	Past T16
 T17	Event 1087 1093	вылета
+A4	Past T4

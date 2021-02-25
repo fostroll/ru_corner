@@ -3,26 +3,26 @@
 # par_text = В 2023 году пройдут празднования двухсотлетия со дня рождения Островского
 # sent_id = 0046-p1-s1
 # text = В 2023 году пройдут празднования двухсотлетия со дня рождения Островского
-1	В	_	_	_	_	_	_	_	bratT1=Date-absolute
-2	2023	_	_	_	_	_	_	_	bratT1=Date-absolute
-3	году	_	_	_	_	_	_	_	bratT1=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA4=T1:Future|bratT1=Date-absolute
+2	2023	_	_	_	_	_	_	_	bratA4=T1:Future|bratT1=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA4=T1:Future|bratT1=Date-absolute
 4	пройдут	_	_	_	_	_	_	_	_
 5	празднования	_	_	_	_	_	_	_	_
-6	двухсотлетия	_	_	_	_	_	_	_	bratT2=Age|bratT39=Date-relative|bratT4=Event
-7	со	_	_	_	_	_	_	_	bratT39=Date-relative|bratT4=Event
-8	дня	_	_	_	_	_	_	_	bratT39=Date-relative|bratT4=Event
-9	рождения	_	_	_	_	_	_	_	bratT35=Event|bratT39=Date-relative|bratT4=Event
+6	двухсотлетия	_	_	_	_	_	_	_	bratA5=T39:Future|bratT2=Age|bratT39=Date-absolute|bratT4=Event
+7	со	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute|bratT4=Event
+8	дня	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute|bratT4=Event
+9	рождения	_	_	_	_	_	_	_	bratA5=T39:Future|bratT35=Event|bratT39=Date-absolute|bratT4=Event
 10	Островского	_	_	_	_	_	_	_	bratT3=Person|bratT35=Event|bratT4=Event
 
 # newpar id = 0046-p2
 # par_text = В пятницу, 13 ноября, президент России Владимир Путин подписал указ о праздновании двухсотлетия со дня рождения русского классика, драматурга Александра Островского. Мероприятия, приуроченные к юбилейной дате, состоятся в 2023 году.
 # sent_id = 0046-p2-s1
 # text = В пятницу, 13 ноября, президент России Владимир Путин подписал указ о праздновании двухсотлетия со дня рождения русского классика, драматурга Александра Островского.
-1	В	_	_	_	_	_	_	_	bratT5=Date-absolute
-2	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
-3	,	_	_	_	_	_	_	_	bratT5=Date-absolute
-4	13	_	_	_	_	_	_	_	bratT5=Date-absolute
-5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA10=T5:Past|bratT5=Date-absolute
+2	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T5:Past|bratT5=Date-absolute
+3	,	_	_	_	_	_	_	_	bratA10=T5:Past|bratT5=Date-absolute
+4	13	_	_	_	_	_	_	_	bratA10=T5:Past|bratT5=Date-absolute
+5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T5:Past|bratT5=Date-absolute
 6	,	_	_	_	_	_	_	_	_
 7	президент	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
 8	России	_	_	_	_	_	_	_	bratT6=GPE|bratT7=Person-property|bratT8=Person
@@ -32,10 +32,10 @@
 12	указ	_	_	_	_	_	_	_	bratT13=Law
 13	о	_	_	_	_	_	_	_	bratT13=Law
 14	праздновании	_	_	_	_	_	_	_	bratT13=Law
-15	двухсотлетия	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-relative|bratT9=Age
-16	со	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-relative
-17	дня	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-relative
-18	рождения	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT37=Event|bratT40=Date-relative
+15	двухсотлетия	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-absolute|bratT9=Age
+16	со	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-absolute
+17	дня	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-absolute
+18	рождения	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT37=Event|bratT40=Date-absolute
 19	русского	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT36=Person-property|bratT37=Event
 20	классика	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event|bratT13=Law|bratT36=Person-property|bratT37=Event
 21	,	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT37=Event
@@ -54,9 +54,9 @@
 6	дате	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	состоятся	_	_	_	_	_	_	_	_
-9	в	_	_	_	_	_	_	_	bratT14=Date-absolute
-10	2023	_	_	_	_	_	_	_	bratT14=Date-absolute
-11	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Date-absolute
+9	в	_	_	_	_	_	_	_	bratA3=T14:Future|bratT14=Date-absolute
+10	2023	_	_	_	_	_	_	_	bratA3=T14:Future|bratT14=Date-absolute
+11	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Future|bratT14=Date-absolute
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0046-p3
@@ -64,17 +64,17 @@
 # sent_id = 0046-p3-s1
 # text = Провести в 2023 году мероприятия, посвященные празднованию 200-летия со дня рождения А. Н. Островского'', - говорится в документе, опубликованном на официальном портале правовой информации.
 1	Провести	_	_	_	_	_	_	_	_
-2	в	_	_	_	_	_	_	_	bratT15=Date-absolute
-3	2023	_	_	_	_	_	_	_	bratT15=Date-absolute
-4	году	_	_	_	_	_	_	_	bratT15=Date-absolute
+2	в	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
+3	2023	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
+4	году	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
 5	мероприятия	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	посвященные	_	_	_	_	_	_	_	_
 8	празднованию	_	_	_	_	_	_	_	_
-9	200-летия	_	_	_	_	_	_	_	bratT16=Age|bratT26=Event|bratT41=Date-relative
-10	со	_	_	_	_	_	_	_	bratT26=Event|bratT41=Date-relative
-11	дня	_	_	_	_	_	_	_	bratT26=Event|bratT41=Date-relative
-12	рождения	_	_	_	_	_	_	_	bratT18=Event|bratT26=Event|bratT41=Date-relative
+9	200-летия	_	_	_	_	_	_	_	bratA7=T41:Future|bratT16=Age|bratT26=Event|bratT41=Date-absolute
+10	со	_	_	_	_	_	_	_	bratA7=T41:Future|bratT26=Event|bratT41=Date-absolute
+11	дня	_	_	_	_	_	_	_	bratA7=T41:Future|bratT26=Event|bratT41=Date-absolute
+12	рождения	_	_	_	_	_	_	_	bratA7=T41:Future|bratT18=Event|bratT26=Event|bratT41=Date-absolute
 13	А.	_	_	_	_	_	_	_	bratT17=Person|bratT18=Event|bratT26=Event
 14	Н.	_	_	_	_	_	_	_	bratT17=Person|bratT18=Event|bratT26=Event
 15	Островского	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT18=Event|bratT26=Event
@@ -105,10 +105,10 @@
 6	членам	_	_	_	_	_	_	_	bratT22=Person-property
 7	правительства	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
 8	страны	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
-9	за	_	_	_	_	_	_	_	bratT28=Date-period
-10	ближайшие	_	_	_	_	_	_	_	bratT28=Date-period
-11	три	_	_	_	_	_	_	_	bratT28=Date-period
-12	месяца	_	_	_	_	_	_	_	bratT28=Date-period
+9	за	_	_	_	_	_	_	_	bratA2=T28:Pres-Fut|bratT28=Date-period-absolute
+10	ближайшие	_	_	_	_	_	_	_	bratA2=T28:Pres-Fut|bratT28=Date-period-absolute|bratT43=Ordinal
+11	три	_	_	_	_	_	_	_	bratA2=T28:Pres-Fut|bratT28=Date-period-absolute|bratT44=Duration
+12	месяца	_	_	_	_	_	_	_	bratA2=T28:Pres-Fut|bratT28=Date-period-absolute|bratT44=Duration
 13	образовать	_	_	_	_	_	_	_	_
 14	организационный	_	_	_	_	_	_	_	bratT23=Organization
 15	комитет	_	_	_	_	_	_	_	bratT23=Organization
@@ -117,10 +117,10 @@
 18	и	_	_	_	_	_	_	_	bratT23=Organization
 19	проведения	_	_	_	_	_	_	_	bratT23=Organization
 20	празднования	_	_	_	_	_	_	_	bratT23=Organization
-21	двухсотлетия	_	_	_	_	_	_	_	bratT23=Organization|bratT25=Age|bratT38=Event|bratT42=Date-relative
-22	со	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-relative
-23	дня	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-relative
-24	рождения	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-relative
+21	двухсотлетия	_	_	_	_	_	_	_	bratT23=Organization|bratT25=Age|bratT38=Event|bratT42=Date-absolute
+22	со	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-absolute
+23	дня	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-absolute
+24	рождения	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-absolute
 25	русского	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT38=Event
 26	классика	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT24=Person-property|bratT38=Event
 27	.	_	_	_	_	_	_	_	_
@@ -130,9 +130,9 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	за	_	_	_	_	_	_	_	bratT27=Date-period
-5	указанный	_	_	_	_	_	_	_	bratT27=Date-period
-6	срок	_	_	_	_	_	_	_	bratT27=Date-period
+4	за	_	_	_	_	_	_	_	bratA8=T27:Pres-Fut|bratT27=Date-period-relative
+5	указанный	_	_	_	_	_	_	_	bratA8=T27:Pres-Fut|bratT27=Date-period-relative
+6	срок	_	_	_	_	_	_	_	bratA8=T27:Pres-Fut|bratT27=Date-period-relative
 7	необходимо	_	_	_	_	_	_	_	_
 8	утвердить	_	_	_	_	_	_	_	_
 9	план	_	_	_	_	_	_	_	_
@@ -172,10 +172,10 @@
 4	Николаевич	_	_	_	_	_	_	_	bratT30=Person
 5	Островский	_	_	_	_	_	_	_	bratT30=Person
 6	родился	_	_	_	_	_	_	_	_
-7	12	_	_	_	_	_	_	_	bratT31=Date-absolute
-8	апреля	_	_	_	_	_	_	_	bratT31=Date-absolute
-9	1823	_	_	_	_	_	_	_	bratT31=Date-absolute
-10	года	_	_	_	_	_	_	_	bratT31=Date-absolute
+7	12	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
+8	апреля	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
+9	1823	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
+10	года	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
 11	и	_	_	_	_	_	_	_	_
 12	вошёл	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_

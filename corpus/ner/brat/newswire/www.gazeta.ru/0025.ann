@@ -16,10 +16,15 @@ T18	Event 480 521	матч   Лиги   наций   Сербия   -   Росс
 T19	Event 487 499	Лиги   наций
 T20	GPE 502 508	Сербия
 T21	GPE 515 521	Россия
-T22	Cardinal 218 221	0:4
-T23	Time-relative 183 201	После   45   минут
+T22	Quantity 218 221	0:4
 T17	Organization 363 382	``   Газета.Ru   ''
 A1	Media T17
-T5	Date-relative 426 433	Ранее  
-T16	Date-period 131 154	после   первого   тайма
+T5	Date-relative 426 431	Ранее
+T16	Date-absolute 131 154	после   первого   тайма
 T24	Event 139 177	первого   тайма   матча   Лиги   наций
+T25	Duration 191 201	45   минут
+T26	Date-absolute 183 208	После   45   минут   игры
+A2	Present T26
+T23	Event 204 208	игры
+A3	Present T16
+A4	Past T5

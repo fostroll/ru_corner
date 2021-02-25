@@ -33,11 +33,15 @@ T28	GPE 1190 1202	Азербайджана
 T29	Person-property 1155 1202	главы   России   ,   Армении   и   Азербайджана
 A6	Plural T29
 T30	GPE 1269 1288	Нагорном   Карабахе
-T32	Date-period 1291 1306	с   10   ноября
+T32	Date-period-absolute 1291 1306	с   10   ноября
 T33	GPE 1315 1335	карабахский   регион
 T34	Person-property 1358 1381	российские   миротворцы
 T35	Date-absolute 1386 1397	16   ноября
 T36	GPE 1404 1411	Карабах
 T37	Other-group 1438 1445	беженцы
-T31	Date-relative 1147 1154	Ранее  
-T38	Date-period 1487 1501	после   начала
+T31	Date-relative 1147 1152	Ранее
+T38	Date-absolute 1487 1521	после   начала   боевых   действий
+T39	Event 1504 1521	боевых   действий
+A4	Past T35
+A7	Past T38
+A8	Past T31

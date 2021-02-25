@@ -26,7 +26,12 @@ T19	Quantity 1306 1321	28   километров
 T20	GPE 1348 1358	Вашингтоне
 T21	GPE 1381 1384	США
 T22	GPE 1441 1447	России
-T23	Date-period 82 102	в   ходе   испытаний
-T24	Date-period 290 318	в   ходе   новых   испытаний
-T25	Date-period 1326 1341	После   запуска
-T26	Date-period 1487 1510	в   ходе   формирования
+T23	Date-absolute 82 102	в   ходе   испытаний
+T24	Date-absolute 290 318	в   ходе   новых   испытаний
+T25	Date-absolute 1326 1341	После   запуска
+T27	Ordinal 360 365	этого
+A7	Future T23
+A8	Future T24
+A9	Future T5
+A10	Past T11
+A11	Past T25

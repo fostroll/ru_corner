@@ -22,7 +22,11 @@ T20	Other-term 901 909	COVID-19
 T21	Organization 944 967	НИЦЭМ   имени   Гамалеи
 T22	Product 1048 1069	``   Спутник   V   ''
 T23	Organization 986 1027	Российским   фондом   прямых   инвестиций
-T24	Date-relative 447 468	В   ближайшее   время
-T25	Date-relative 102 123	в   ближайшее   время
-T26	Date-relative 612 617	после
+T24	Date-absolute 447 468	В   ближайшее   время
+T25	Date-absolute 102 123	в   ближайшее   время
+T26	Date-period-absolute 612 617	после
 T27	GPE 854 858	мире
+A2	Future T24
+A3	Future T25
+A4	Fut T26
+T28	Event 631 656	третья   фаза   испытаний

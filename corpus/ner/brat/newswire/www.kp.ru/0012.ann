@@ -1,6 +1,6 @@
 T1	Other-term 23 36	коронавирусом
 T2	Quantity 62 76	58   миллионов
-T3	Date-absolute 78 111	К   воскресенью   ,   22   ноября
+T3	Date-period-absolute 78 111	К   воскресенью   ,   22   ноября
 T4	Other-term 141 165	коронавирусом   COVID-19
 T6	Quantity 199 213	58   миллионов
 T7	Person 270 287	Джонса   Хопкинса
@@ -25,10 +25,14 @@ T25	Ordinal 1193 1200	третьем
 T26	GPE 1211 1219	Бразилия
 T27	Quantity 1226 1268	свыше   шести   миллионов   инфицированных
 T5	Event 716 724	пандемии
-T28	Date-period 703 724	с   начала   пандемии
+T28	Date-period-absolute 703 724	с   начала   пандемии
 T29	Event 932 940	пандемии
-T30	Date-period 919 940	с   начала   пандемии
-T31	Date-relative 594 614	на   данный   момент
+T30	Date-period-absolute 919 940	с   начала   пандемии
+T31	Date-absolute 594 614	на   данный   момент
 T32	GPE 43 47	мире
 T33	GPE 173 184	всем   мире
 T34	GPE 587 591	мире
+A1	Past T3
+A2	Past-Pres T28
+A3	Past-Pres T30
+A4	Present T31

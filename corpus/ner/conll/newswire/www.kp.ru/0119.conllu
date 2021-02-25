@@ -129,11 +129,11 @@
 # text = Напомним, в субботу, 14 ноября, по обвинению в попытке узурпации власти и подготовке убийства премьер-министра Армении был задержан Ванецян.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT20=Date-absolute
-4	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT20=Date-absolute
-6	14	_	_	_	_	_	_	_	bratT20=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
+4	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Past|bratT20=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
+6	14	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Past|bratT20=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	по	_	_	_	_	_	_	_	_
 10	обвинению	_	_	_	_	_	_	_	_

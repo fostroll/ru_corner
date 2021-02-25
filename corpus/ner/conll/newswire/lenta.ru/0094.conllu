@@ -3,7 +3,7 @@
 # par_text = Украинских учителей собрались репрессировать за упоминание Великой Отечественной
 # sent_id = 0094-p1-s1
 # text = Украинских учителей собрались репрессировать за упоминание Великой Отечественной
-1	Украинских	_	_	_	_	_	_	_	bratT5=Person-property
+1	Украинских	_	_	_	_	_	_	_	bratT35=GPE|bratT5=Person-property
 2	учителей	_	_	_	_	_	_	_	bratT5=Person-property
 3	собрались	_	_	_	_	_	_	_	_
 4	репрессировать	_	_	_	_	_	_	_	_
@@ -16,7 +16,7 @@
 # par_text = Украинских учителей предложили репрессировать за упоминание Великой Отечественной войны. Об этом со ссылкой на документ Министерства образования и науки Украины сообщил бывший депутат Верховной рады Алексей Журавко в своем Facebook.
 # sent_id = 0094-p2-s1
 # text = Украинских учителей предложили репрессировать за упоминание Великой Отечественной войны.
-1	Украинских	_	_	_	_	_	_	_	bratT6=Person-property
+1	Украинских	_	_	_	_	_	_	_	bratT36=GPE|bratT6=Person-property
 2	учителей	_	_	_	_	_	_	_	bratT6=Person-property
 3	предложили	_	_	_	_	_	_	_	_
 4	репрессировать	_	_	_	_	_	_	_	_
@@ -45,8 +45,8 @@
 14	депутат	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
 15	Верховной	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person|bratT9=Person-property
 16	рады	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person|bratT9=Person-property
-17	Алексей	_	_	_	_	_	_	_	bratT11=Person
-18	Журавко	_	_	_	_	_	_	_	bratT11=Person
+17	Алексей	_	_	_	_	_	_	_	bratT11=Person|bratT39=Person-forename
+18	Журавко	_	_	_	_	_	_	_	bratT11=Person|bratT40=Person-surname
 19	в	_	_	_	_	_	_	_	_
 20	своем	_	_	_	_	_	_	_	_
 21	Facebook	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Service
@@ -67,8 +67,8 @@
 9	и	_	_	_	_	_	_	_	bratT14=Person-property|bratT16=Person
 10	науки	_	_	_	_	_	_	_	bratT14=Person-property|bratT16=Person
 11	Украины	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=GPE|bratT16=Person
-12	Любомирой	_	_	_	_	_	_	_	bratT16=Person
-13	Мандзий	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person
+12	Любомирой	_	_	_	_	_	_	_	bratT16=Person|bratT41=Person-forename
+13	Мандзий	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT42=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0094-p4
@@ -104,8 +104,8 @@
 8	и	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Person
 9	науки	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Person
 10	Украины	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=GPE|bratT21=Person
-11	Любомира	_	_	_	_	_	_	_	bratT21=Person
-12	Мандзий	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person
+11	Любомира	_	_	_	_	_	_	_	bratT21=Person|bratT43=Person-forename
+12	Мандзий	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT44=Person-surname
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0094-p4-s4
@@ -119,7 +119,7 @@
 7	понимают	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
 9	новую	_	_	_	_	_	_	_	_
-10	украинскую	_	_	_	_	_	_	_	_
+10	украинскую	_	_	_	_	_	_	_	bratT37=GPE
 11	историю	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
 13	сегодняшнюю	_	_	_	_	_	_	_	_
@@ -139,7 +139,7 @@
 27	,	_	_	_	_	_	_	_	_
 28	-	_	_	_	_	_	_	_	_
 29	написал	_	_	_	_	_	_	_	_
-30	Журавко	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person
+30	Журавко	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT45=Person-surname
 31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0094-p5
@@ -150,13 +150,13 @@
 2	тексте	_	_	_	_	_	_	_	_
 3	говорится	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
-5	периоде	_	_	_	_	_	_	_	bratT24=Date-period
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period
-7	советской	_	_	_	_	_	_	_	bratT24=Date-period|bratT25=Event
-8	оккупации	_	_	_	_	_	_	_	bratT24=Date-period|bratT25=Event
-9	1919-1991	_	_	_	_	_	_	_	bratT24=Date-period|bratT25=Event|bratT36=Date-absolute
-10	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period|bratT25=Event|bratT36=Date-absolute
-11	''	_	_	_	_	_	_	_	bratT24=Date-period
+5	периоде	_	_	_	_	_	_	_	bratT24=Date-period-absolute
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute
+7	советской	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event
+8	оккупации	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event
+9	1919-1991	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event
+10	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute|bratT25=Event
+11	''	_	_	_	_	_	_	_	bratT24=Date-period-absolute
 12	и	_	_	_	_	_	_	_	_
 13	запрещается	_	_	_	_	_	_	_	_
 14	употреблять	_	_	_	_	_	_	_	_
@@ -172,7 +172,7 @@
 # text = Вместо него украинским педагогам предлагается использовать фразу ``советско-немецкая фаза Второй мировой войны''.
 1	Вместо	_	_	_	_	_	_	_	_
 2	него	_	_	_	_	_	_	_	_
-3	украинским	_	_	_	_	_	_	_	_
+3	украинским	_	_	_	_	_	_	_	bratT26=Person-property|bratT38=GPE
 4	педагогам	_	_	_	_	_	_	_	bratT26=Person-property
 5	предлагается	_	_	_	_	_	_	_	_
 6	использовать	_	_	_	_	_	_	_	_
@@ -190,7 +190,7 @@
 # par_text = Журавко также сообщил, что Минобрнауки Украины рекомендует употреблять по отношению к ослушавшимся педагогам истории меры дисциплинарного и административного воздействия. В том числе за «несоблюдение принципов методических рекомендаций» предлагается увольнять учителей или информировать правоохранительные органы о нарушении закона.
 # sent_id = 0094-p6-s1
 # text = Журавко также сообщил, что Минобрнауки Украины рекомендует употреблять по отношению к ослушавшимся педагогам истории меры дисциплинарного и административного воздействия.
-1	Журавко	_	_	_	_	_	_	_	bratT27=Person
+1	Журавко	_	_	_	_	_	_	_	bratT27=Person|bratT46=Person-surname
 2	также	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_

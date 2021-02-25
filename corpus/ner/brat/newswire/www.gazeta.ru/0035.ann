@@ -10,11 +10,14 @@ T11	Person-property 296 306	футболиста
 T12	Organization 326 359	английский   ``   Вест   Хэм   ''
 T13	Organization 366 382	``   Монако   ''
 T14	Person-property 387 393	Хавбек
-T15	Date-period 444 459	с   2011   года
+T15	Date-period-absolute 444 459	с   2011   года
 T16	Person 544 557	Артем   Дзюба
 T17	Event 519 531	Кубке   лиги
 T18	Quantity 501 512	два   матча
 T6	Organization 256 268	fichajes.net
 A1	Media T6
 T10	Event 597 610	секс-скандала
-T19	Date-relative 536 543	Ранее  
+T19	Date-relative 536 541	Ранее
+A2	RCont T15
+A3	Past-Pres T15
+A4	Past T19

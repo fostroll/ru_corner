@@ -12,9 +12,9 @@
 7	пациентов	_	_	_	_	_	_	_	bratT2=Quantity
 8	с	_	_	_	_	_	_	_	_
 9	COVID-19	_	_	_	_	_	_	_	bratT3=Other-term
-10	за	_	_	_	_	_	_	_	bratT39=Date-period
-11	время	_	_	_	_	_	_	_	bratT39=Date-period
-12	пандемии	_	_	_	_	_	_	_	bratT36=Event|bratT39=Date-period
+10	за	_	_	_	_	_	_	_	bratA1=T39:Past|bratT39=Date-period-absolute
+11	время	_	_	_	_	_	_	_	bratA1=T39:Past|bratT39=Date-period-absolute
+12	пандемии	_	_	_	_	_	_	_	bratA1=T39:Past|bratT36=Event|bratT39=Date-period-absolute
 
 # newpar id = 0023-p2
 # par_text = В Москве за сутки скончались еще 76 пациентов с коронавирусом SARS-CoV-2. Об этом сообщает оперштаб Москвы.
@@ -22,8 +22,8 @@
 # text = В Москве за сутки скончались еще 76 пациентов с коронавирусом SARS-CoV-2.
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT4=GPE
-3	за	_	_	_	_	_	_	_	bratT5=Time-period
-4	сутки	_	_	_	_	_	_	_	bratT5=Time-period
+3	за	_	_	_	_	_	_	_	bratA2=T5:Past-Pres|bratT5=Date-period-absolute
+4	сутки	_	_	_	_	_	_	_	bratA2=T5:Past-Pres|bratT44=Duration|bratT5=Date-period-absolute
 5	скончались	_	_	_	_	_	_	_	_
 6	еще	_	_	_	_	_	_	_	bratT6=Quantity
 7	76	_	_	_	_	_	_	_	bratT6=Quantity
@@ -68,7 +68,7 @@
 4	диагноз	_	_	_	_	_	_	_	_
 5	пневмония	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
 6	,	_	_	_	_	_	_	_	_
-7	ранее	_	_	_	_	_	_	_	bratT40=Date-relative
+7	ранее	_	_	_	_	_	_	_	bratA5=T40:Past|bratT40=Date-relative
 8	они	_	_	_	_	_	_	_	_
 9	получили	_	_	_	_	_	_	_	_
 10	положительный	_	_	_	_	_	_	_	_
@@ -85,9 +85,9 @@
 1	Всего	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
 3	мире	_	_	_	_	_	_	_	bratT41=GPE
-4	с	_	_	_	_	_	_	_	bratT38=Date-period
-5	начала	_	_	_	_	_	_	_	bratT38=Date-period
-6	пандемии	_	_	_	_	_	_	_	bratT37=Event|bratT38=Date-period
+4	с	_	_	_	_	_	_	_	bratA3=T38:Past-Pres|bratT38=Date-period-absolute
+5	начала	_	_	_	_	_	_	_	bratA3=T38:Past-Pres|bratT38=Date-period-absolute
+6	пандемии	_	_	_	_	_	_	_	bratA3=T38:Past-Pres|bratT37=Event|bratT38=Date-period-absolute
 7	зарегистрировано	_	_	_	_	_	_	_	_
 8	свыше	_	_	_	_	_	_	_	bratT14=Quantity
 9	55,5	_	_	_	_	_	_	_	bratT14=Quantity
@@ -163,8 +163,8 @@
 
 # sent_id = 0023-p5-s6
 # text = 15 октября президент России Владимир Путин рассказал о регистрации второй вакцины от COVID-19, которая получила название ``ЭпиВакКорона''.
-1	15	_	_	_	_	_	_	_	bratT25=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT25=Date-absolute
+1	15	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
 3	президент	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property
 4	России	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property|bratT28=GPE
 5	Владимир	_	_	_	_	_	_	_	bratT26=Person

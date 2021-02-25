@@ -99,8 +99,8 @@
 11	о	_	_	_	_	_	_	_	_
 12	русской	_	_	_	_	_	_	_	_
 13	деревне	_	_	_	_	_	_	_	_
-14	после	_	_	_	_	_	_	_	bratT35=Date-period
-15	войны	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Date-period
+14	после	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-absolute
+15	войны	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T35:Past|bratT35=Date-absolute|bratT37=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0050-p3-s3
@@ -130,7 +130,7 @@
 7	гвардия	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Work-of-art
 8	''	_	_	_	_	_	_	_	bratT25=Work-of-art
 9	(	_	_	_	_	_	_	_	SpaceAfter=No
-10	1947	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-absolute
+10	1947	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Past|bratT24=Date-absolute
 11	)	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	где	_	_	_	_	_	_	_	_
@@ -148,9 +148,9 @@
 1	Нонна	_	_	_	_	_	_	_	bratT29=Person
 2	Мордюкова	_	_	_	_	_	_	_	bratT29=Person
 3	скончалась	_	_	_	_	_	_	_	_
-4	в	_	_	_	_	_	_	_	bratT30=Date-absolute
-5	2008	_	_	_	_	_	_	_	bratT30=Date-absolute
-6	году	_	_	_	_	_	_	_	bratT30=Date-absolute
+4	в	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute
+5	2008	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute
+6	году	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute
 7	в	_	_	_	_	_	_	_	_
 8	возрасте	_	_	_	_	_	_	_	_
 9	82	_	_	_	_	_	_	_	bratT31=Age

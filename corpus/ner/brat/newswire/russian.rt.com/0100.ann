@@ -3,7 +3,7 @@ T3	Organization 340 354	Гидрометцентра
 T4	GPE 560 567	столице
 T5	GPE 67 73	Москве
 T6	Time-period 597 619	с   10:00   до   22:00
-T7	Date-period 597 633	с   10:00   до   22:00   22   ноября
+T7	Date-period-absolute 597 633	с   10:00   до   22:00   22   ноября
 T8	Person-property 647 656	синоптики
 T9	Date-absolute 764 804	днём   в   воскресенье   ,   22   ноября
 T10	GPE 755 761	Москву
@@ -16,11 +16,8 @@ T14	GPE 110 121	Подмосковье
 T15	Date-absolute 124 157	в   воскресенье   ,   22   ноября
 T16	Quantity 254 267	до   17   м/c
 T17	Time-absolute 764 768	днём
-T18	Time-relative 639 644	Ранее
-A2	Past T15
-A3	Future T15
-T19	Time-absolute 601 606	10:00
-T20	Time-absolute 614 619	22:00
-A5	Future T9
-T21	Date-absolute 597 633	с   10:00   до   22:00   22   ноября
-A6	Future T21
+T18	Date-relative 639 644	Ранее
+A4	Fut T7
+A6	Past T18
+A2	Future T15
+A3	Future T9

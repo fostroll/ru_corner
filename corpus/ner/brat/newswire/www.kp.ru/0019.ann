@@ -25,7 +25,7 @@ T22	Person-property 1487 1518	судей   Конституционного   с
 T23	Person 0 9	Зеленский
 T24	Person-property 543 549	Лидеры
 T25	Date-relative 1386 1391	ранее
-T26	Date-relative 489 495	теперь
+T26	Date-absolute 489 495	теперь
 T27	Product 83 110	антикоррупционной   реформе
 A3	Project T27
 T28	Product 272 299	антикоррупционную   реформу
@@ -33,3 +33,6 @@ A4	Project T28
 T29	Event 196 243	скандальное   решение   Конституционного   суда
 T30	Organization 1401 1406	KP.ru
 A5	Media T30
+A6	Past T11
+A7	Past T25
+A8	Present T26

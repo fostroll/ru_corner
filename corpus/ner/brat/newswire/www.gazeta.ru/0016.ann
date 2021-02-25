@@ -15,16 +15,20 @@ T14	Person-property 407 428	глава   правительства
 T15	Person 407 448	глава   правительства   Михаил   Мишустин
 T16	Person 503 510	Живулин
 T17	Organization 527 567	Министерстве   экономического   развития
-T18	Date-period 572 587	С   2011   года
+T18	Date-period-absolute 572 587	С   2011   года
 T19	Organization 617 668	департамента   оценки   регулирующего   воздействия
 T20	Person-property 601 668	руководителем   департамента   оценки   регулирующего   воздействия
 T21	Date-absolute 673 683	В   2018-м
 T22	Person-property 693 716	заместителем   министра
-T23	Date-period 759 782	до   июня   2020   года
+T23	Date-period-absolute 759 782	до   июня   2020   года
 T24	Person 816 823	Живулин
 T25	Organization 855 868	правительства
 T26	Organization 41 54	правительства
 T27	Organization 160 173	правительства
 T28	Organization 290 303	правительства
 T29	Organization 415 428	правительства
-T30	Date-relative 495 502	Ранее  
+T30	Date-relative 495 500	Ранее
+A1	Past T18
+A2	Past T21
+A3	Past T23
+A4	Past T30

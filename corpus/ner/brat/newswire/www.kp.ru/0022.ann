@@ -1,31 +1,31 @@
 T1	Organization 0 3	ВОЗ
 T2	Other-term 55 68	коронавирусом
-T3	Date-period 71 82	за   неделю
-T4	Date-period 84 106	За   минувшую   неделю
+T3	Date-period-absolute 71 82	за   неделю
+T4	Date-period-absolute 84 106	За   минувшую   неделю
 T5	Other-term 175 201	коронавирусной   инфекцией
 T6	Quantity 238 275	еще   3,6   миллиона   инфицированных
 T7	Other-term 301 313	коронавируса
-T8	Date-period 340 356	за   семь   дней
+T8	Date-period-absolute 340 356	за   семь   дней
 T9	Quantity 373 389	на   54   тысячи
 T10	Date-relative 437 451	неделе   ранее
 T11	Date-absolute 468 495	в   среду   ,   11   ноября
 T12	Organization 513 554	Всемирная   организация   здравоохранения
 T13	Other-term 614 626	коронавируса
 T14	Percent 639 662	на   восемь   процентов
-T15	Date-period 564 588	За   последнюю   неделею
+T15	Date-period-absolute 564 588	За   последнюю   неделею
 T16	Date-absolute 672 682	8   ноября
 T17	Quantity 712 748	примерно   49,7   миллиона   случаев
 T18	Quantity 767 799	более   1,2   миллиона   смертей
-T19	Date-period 842 858	за   семь   дней
+T19	Date-period-absolute 842 858	за   семь   дней
 T20	GPE 865 871	Европе
-T21	Date-period 987 1021	с   26   октября   по   1   ноября
+T21	Date-period-absolute 987 1021	с   26   октября   по   1   ноября
 T22	Quantity 1028 1052	3,3   миллиона   случаев
 T23	GPE 1061 1067	Европе
 T24	GPE 1232 1235	США
-T25	Time-period 1070 1099	за   последние   семь   суток
+T25	Date-period-absolute 1070 1099	за   последние   семь   суток
 T26	Quantity 1115 1149	почти   1,99   миллиона   человека
 T27	Quantity 1209 1223	13   миллионов
-T28	Date-period 1275 1286	за   неделю
+T28	Date-period-absolute 1275 1286	за   неделю
 T29	Quantity 1289 1320	более   чем   на   684   тысячи
 T30	GPE 1332 1352	территории   Франции
 T31	Quantity 1359 1390	более   чем   на   382   тысячи
@@ -35,13 +35,33 @@ T33	Other-term 1476 1483	вакцину
 T34	Other-term 1491 1516	коронавирусной   инфекции
 T35	Organization 1524 1562	американской   фармкорпорации   Pfizer
 T36	Event 329 337	пандемии
-T37	Date-period 316 337	с   начала   пандемии
+T37	Date-period-absolute 316 337	с   начала   пандемии
 T38	Quantity 396 424	на   девять   тысяч   больше
 T39	Ordinal 569 578	последнюю
 T40	Ordinal 944 954	Предыдущий
 T41	Ordinal 1075 1084	последние
-T42	Date-period 1765 1781	после   прививки
+T42	Time-relative 1765 1770	после
 T43	Organization 1419 1424	Kp.ru
 A2	Media T43
 T44	GPE 113 117	мире
 T45	GPE 689 693	мире
+T46	Duration 1087 1099	семь   суток
+A3	Past-Pres T25
+T47	Duration 76 82	неделю
+T48	Duration 345 356	семь   дней
+T50	Duration 847 858	семь   дней
+T51	Duration 1280 1286	неделю
+A4	Past T21
+A5	Past-Pres T28
+A6	Past-Pres T19
+A7	Past-Pres T15
+A8	Past T11
+A9	Past T4
+T49	Duration 581 588	неделею
+T52	Duration 100 106	неделю
+T53	Ordinal 89 97	минувшую
+A10	Past-Pres T3
+A11	Past-Pres T37
+A12	Past-Pres T8
+A13	Past T10
+T54	Duration 437 443	неделе

@@ -11,9 +11,9 @@
 6	получить	_	_	_	_	_	_	_	_
 7	рекордную	_	_	_	_	_	_	_	_
 8	прибыль	_	_	_	_	_	_	_	_
-9	в	_	_	_	_	_	_	_	bratT2=Date-absolute
-10	2020	_	_	_	_	_	_	_	bratT2=Date-absolute
-11	году	_	_	_	_	_	_	_	bratT2=Date-absolute
+9	в	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
+10	2020	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
+11	году	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
 
 # newpar id = 0002-p2
 # par_text = По итогам 2020 года, российские страховщики могут получить рекордные 305 миллиардов рублей. Такие результаты обусловлены влиянием пандемии коронавируса, отмечают в НКР.
@@ -21,8 +21,8 @@
 # text = По итогам 2020 года, российские страховщики могут получить рекордные 305 миллиардов рублей.
 1	По	_	_	_	_	_	_	_	_
 2	итогам	_	_	_	_	_	_	_	_
-3	2020	_	_	_	_	_	_	_	bratT3=Date-absolute
-4	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Date-absolute
+3	2020	_	_	_	_	_	_	_	bratA3=T3:Past-Fut|bratT3=Date-period-absolute
+4	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T3:Past-Fut|bratT3=Date-period-absolute
 5	,	_	_	_	_	_	_	_	_
 6	российские	_	_	_	_	_	_	_	bratT4=Person-property
 7	страховщики	_	_	_	_	_	_	_	bratT4=Person-property
@@ -74,18 +74,18 @@
 2	уже	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	итогу	_	_	_	_	_	_	_	_
-5	девяти	_	_	_	_	_	_	_	bratT8=Date-period
-6	месяцев	_	_	_	_	_	_	_	bratT8=Date-period
-7	текущего	_	_	_	_	_	_	_	bratT8=Date-period
-8	года	_	_	_	_	_	_	_	bratT8=Date-period
+5	девяти	_	_	_	_	_	_	_	bratA5=T8:Past|bratT31=Duration|bratT8=Date-period-absolute
+6	месяцев	_	_	_	_	_	_	_	bratA5=T8:Past|bratT31=Duration|bratT8=Date-period-absolute
+7	текущего	_	_	_	_	_	_	_	bratA5=T8:Past|bratT33=Ordinal|bratT8=Date-period-absolute
+8	года	_	_	_	_	_	_	_	bratA5=T8:Past|bratT8=Date-period-absolute
 9	произошло	_	_	_	_	_	_	_	_
 10	восстановление	_	_	_	_	_	_	_	_
 11	сборов	_	_	_	_	_	_	_	_
 12	премий	_	_	_	_	_	_	_	_
 13	до	_	_	_	_	_	_	_	_
 14	уровня	_	_	_	_	_	_	_	_
-15	прошлого	_	_	_	_	_	_	_	bratT16=Date-relative
-16	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-relative
+15	прошлого	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-period-absolute|bratT34=Ordinal
+16	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T16:Past|bratT16=Date-period-absolute
 17	''	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	-	_	_	_	_	_	_	_	_
@@ -113,9 +113,9 @@
 2	прогнозам	_	_	_	_	_	_	_	_
 3	НКР	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
 4	,	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT15=Date-absolute
-6	2021	_	_	_	_	_	_	_	bratT15=Date-absolute
-7	году	_	_	_	_	_	_	_	bratT15=Date-absolute
+5	в	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
+6	2021	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
+7	году	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
 8	страховые	_	_	_	_	_	_	_	_
 9	компании	_	_	_	_	_	_	_	_
 10	смогут	_	_	_	_	_	_	_	_
@@ -146,18 +146,18 @@
 # sent_id = 0002-p5-s1
 # text = Зато в последующие два года страховщикам вряд ли удастся повторить рекорд 2020 года, считают в НКР.
 1	Зато	_	_	_	_	_	_	_	_
-2	в	_	_	_	_	_	_	_	bratT19=Date-period
-3	последующие	_	_	_	_	_	_	_	bratT19=Date-period|bratT27=Ordinal
-4	два	_	_	_	_	_	_	_	bratT19=Date-period
-5	года	_	_	_	_	_	_	_	bratT19=Date-period
+2	в	_	_	_	_	_	_	_	bratA8=T19:Future|bratT19=Date-relative
+3	последующие	_	_	_	_	_	_	_	bratA8=T19:Future|bratT19=Date-relative|bratT27=Ordinal
+4	два	_	_	_	_	_	_	_	bratA8=T19:Future|bratT19=Date-relative|bratT32=Duration
+5	года	_	_	_	_	_	_	_	bratA8=T19:Future|bratT19=Date-relative|bratT32=Duration
 6	страховщикам	_	_	_	_	_	_	_	bratT20=Person-property
 7	вряд	_	_	_	_	_	_	_	_
 8	ли	_	_	_	_	_	_	_	_
 9	удастся	_	_	_	_	_	_	_	_
 10	повторить	_	_	_	_	_	_	_	_
 11	рекорд	_	_	_	_	_	_	_	_
-12	2020	_	_	_	_	_	_	_	bratT21=Date-absolute
-13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Date-absolute
+12	2020	_	_	_	_	_	_	_	bratA7=T21:Past|bratT21=Date-absolute
+13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T21:Past|bratT21=Date-absolute
 14	,	_	_	_	_	_	_	_	_
 15	считают	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
@@ -185,9 +185,9 @@
 17	которых	_	_	_	_	_	_	_	_
 18	они	_	_	_	_	_	_	_	_
 19	были	_	_	_	_	_	_	_	_
-20	до	_	_	_	_	_	_	_	bratT28=Date-period
-21	начала	_	_	_	_	_	_	_	bratT28=Date-period
-22	пандемии	_	_	_	_	_	_	_	bratT23=Event|bratT28=Date-period
+20	до	_	_	_	_	_	_	_	bratA9=T28:Past|bratT28=Date-absolute
+21	начала	_	_	_	_	_	_	_	bratA9=T28:Past|bratT28=Date-absolute
+22	пандемии	_	_	_	_	_	_	_	bratA9=T28:Past|bratT23=Event|bratT28=Date-absolute
 23	коронавирса	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event|bratT29=Other-term
 24	.	_	_	_	_	_	_	_	_
 

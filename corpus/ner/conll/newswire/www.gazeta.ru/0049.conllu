@@ -35,8 +35,8 @@
 16	которой	_	_	_	_	_	_	_	_
 17	чемпионат	_	_	_	_	_	_	_	bratT7=Event
 18	мира	_	_	_	_	_	_	_	bratT31=GPE|bratT7=Event
-19	2021	_	_	_	_	_	_	_	bratT7=Event|bratT8=Date-absolute
-20	года	_	_	_	_	_	_	_	bratT7=Event|bratT8=Date-absolute
+19	2021	_	_	_	_	_	_	_	bratA2=T8:Future|bratT7=Event|bratT8=Date-absolute
+20	года	_	_	_	_	_	_	_	bratA2=T8:Future|bratT7=Event|bratT8=Date-absolute
 21	может	_	_	_	_	_	_	_	_
 22	быть	_	_	_	_	_	_	_	_
 23	перенесен	_	_	_	_	_	_	_	_
@@ -61,12 +61,12 @@
 5	Риге	_	_	_	_	_	_	_	bratT12=GPE
 6	и	_	_	_	_	_	_	_	_
 7	Минске	_	_	_	_	_	_	_	bratT13=GPE
-8	с	_	_	_	_	_	_	_	bratT14=Date-period
-9	21	_	_	_	_	_	_	_	bratT14=Date-period
-10	мая	_	_	_	_	_	_	_	bratT14=Date-period
-11	по	_	_	_	_	_	_	_	bratT14=Date-period
-12	6	_	_	_	_	_	_	_	bratT14=Date-period
-13	июня	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Date-period
+8	с	_	_	_	_	_	_	_	bratA3=T14:Fut|bratT14=Date-period-absolute
+9	21	_	_	_	_	_	_	_	bratA3=T14:Fut|bratT14=Date-period-absolute
+10	мая	_	_	_	_	_	_	_	bratA3=T14:Fut|bratT14=Date-period-absolute
+11	по	_	_	_	_	_	_	_	bratA3=T14:Fut|bratT14=Date-period-absolute
+12	6	_	_	_	_	_	_	_	bratA3=T14:Fut|bratT14=Date-period-absolute
+13	июня	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Fut|bratT14=Date-period-absolute
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0049-p3-s2
@@ -76,9 +76,9 @@
 3	протестов	_	_	_	_	_	_	_	bratT27=Event
 4	в	_	_	_	_	_	_	_	_
 5	Белоруссии	_	_	_	_	_	_	_	bratT15=GPE
-6	после	_	_	_	_	_	_	_	bratT29=Date-period
-7	президентских	_	_	_	_	_	_	_	bratT26=Event|bratT29=Date-period
-8	выборов	_	_	_	_	_	_	_	bratT26=Event|bratT29=Date-period
+6	после	_	_	_	_	_	_	_	bratA4=T29:Past|bratT29=Date-absolute
+7	президентских	_	_	_	_	_	_	_	bratA4=T29:Past|bratT26=Event|bratT29=Date-absolute
+8	выборов	_	_	_	_	_	_	_	bratA4=T29:Past|bratT26=Event|bratT29=Date-absolute
 9	встал	_	_	_	_	_	_	_	_
 10	вопрос	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
@@ -133,7 +133,7 @@
 # par_text = Ранее сообщалось, что чемпионат мира по хоккею в 2021 году перенесут из Белоруссии в Россию.
 # sent_id = 0049-p5-s1
 # text = Ранее сообщалось, что чемпионат мира по хоккею в 2021 году перенесут из Белоруссии в Россию.
-1	Ранее	_	_	_	_	_	_	_	bratT28=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA6=T28:Past|bratT28=Date-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -141,9 +141,9 @@
 6	мира	_	_	_	_	_	_	_	bratT22=Event|bratT33=GPE
 7	по	_	_	_	_	_	_	_	bratT22=Event
 8	хоккею	_	_	_	_	_	_	_	bratT22=Event
-9	в	_	_	_	_	_	_	_	bratT23=Date-absolute
-10	2021	_	_	_	_	_	_	_	bratT23=Date-absolute
-11	году	_	_	_	_	_	_	_	bratT23=Date-absolute
+9	в	_	_	_	_	_	_	_	bratA5=T23:Future|bratT23=Date-absolute
+10	2021	_	_	_	_	_	_	_	bratA5=T23:Future|bratT23=Date-absolute
+11	году	_	_	_	_	_	_	_	bratA5=T23:Future|bratT23=Date-absolute
 12	перенесут	_	_	_	_	_	_	_	_
 13	из	_	_	_	_	_	_	_	_
 14	Белоруссии	_	_	_	_	_	_	_	bratT24=GPE

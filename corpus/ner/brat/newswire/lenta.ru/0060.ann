@@ -29,13 +29,13 @@ T28	Family 1378 1385	дедушки
 T29	Family 1495 1500	семье
 T30	Family 1440 1449	родителей
 T31	Person-property 1454 1462	Срочника
-T32	Date-period 241 260	во   время   службы
+T32	Date-period-absolute 241 260	во   время   службы
 T33	Time-absolute 700 705	Утром
 T34	Time-relative 621 633	впоследствии
-T35	Date-relative 879 896	после   замечания
-T36	Time-relative 1084 1089	затем
-T37	Date-relative 1254 1267	После   бойни
-T38	Date-period 1422 1437	после   развода
+T35	Date-absolute 879 896	после   замечания
+T36	Date-relative 1084 1089	затем
+T37	Date-absolute 1254 1267	После   бойни
+T38	Date-period-absolute 1422 1437	после   развода
 T39	Age 567 574	молодой
 A1	Past T12
 T40	Event 1430 1449	развода   родителей
@@ -45,3 +45,14 @@ A3	Past T32
 A4	Past T35
 A5	Past T37
 T42	Event 1262 1267	бойни
+A6	Past T36
+T43	Person-forename 100 106	Антону
+T44	Person-surname 109 117	Макарову
+T45	Person-surname 360 367	Макаров
+T46	Person-forename 733 738	Антон
+T47	Person-surname 741 748	Макаров
+T48	Person-forename 950 956	Сергея
+T49	Person-surname 959 968	Ермолаева
+T50	Person-surname 973 980	Макаров
+T51	Person-surname 1270 1277	Макаров
+T52	Person-surname 1547 1555	Макарова

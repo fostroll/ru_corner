@@ -19,11 +19,11 @@
 # par_text = В субботу, 7 ноября, в украинском городе Кривой Рог (Днепропетровская область) произошло нападение с ножом. В результате два человека были убиты, еще восемь, в том числе ребенок, получили ножевые ранения различной степени тяжести. Предполагаемый нападавший задержан.
 # sent_id = 0083-p2-s1
 # text = В субботу, 7 ноября, в украинском городе Кривой Рог (Днепропетровская область) произошло нападение с ножом.
-1	В	_	_	_	_	_	_	_	bratT4=Date-absolute
-2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Date-absolute
-3	,	_	_	_	_	_	_	_	bratT4=Date-absolute
-4	7	_	_	_	_	_	_	_	bratT4=Date-absolute
-5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-absolute
+2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T4:Past|bratT4=Date-absolute
+3	,	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-absolute
+4	7	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-absolute
+5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T4:Past|bratT4=Date-absolute
 6	,	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	украинском	_	_	_	_	_	_	_	bratT5=GPE
@@ -91,15 +91,15 @@
 13	на	_	_	_	_	_	_	_	_
 14	случайных	_	_	_	_	_	_	_	_
 15	прохожих	_	_	_	_	_	_	_	_
-16	около	_	_	_	_	_	_	_	bratT12=Time-absolute
-17	15:20	_	_	_	_	_	_	_	bratT12=Time-absolute
-18	по	_	_	_	_	_	_	_	bratT12=Time-absolute
-19	местному	_	_	_	_	_	_	_	bratT12=Time-absolute
-20	времени	_	_	_	_	_	_	_	bratT12=Time-absolute
-21	(	_	_	_	_	_	_	_	SpaceAfter=No
-22	16:20	_	_	_	_	_	_	_	bratT13=Time-absolute
-23	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Time-absolute
-24	)	_	_	_	_	_	_	_	_
+16	около	_	_	_	_	_	_	_	bratA4=T25:Past|bratT12=Time-absolute|bratT25=Date-relative
+17	15:20	_	_	_	_	_	_	_	bratA4=T25:Past|bratT12=Time-absolute|bratT25=Date-relative
+18	по	_	_	_	_	_	_	_	bratA4=T25:Past|bratT12=Time-absolute|bratT25=Date-relative
+19	местному	_	_	_	_	_	_	_	bratA4=T25:Past|bratT12=Time-absolute|bratT25=Date-relative
+20	времени	_	_	_	_	_	_	_	bratA4=T25:Past|bratT12=Time-absolute|bratT25=Date-relative
+21	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Past|bratT25=Date-relative
+22	16:20	_	_	_	_	_	_	_	bratA4=T25:Past|bratT13=Time-absolute|bratT25=Date-relative
+23	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Past|bratT13=Time-absolute|bratT25=Date-relative
+24	)	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-relative
 25	на	_	_	_	_	_	_	_	_
 26	улице	_	_	_	_	_	_	_	_
 27	в	_	_	_	_	_	_	_	_

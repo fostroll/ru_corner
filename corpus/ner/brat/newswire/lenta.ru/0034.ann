@@ -45,17 +45,26 @@ T25	Person 1259 1292	тяжелую   ракету   Long   March-5
 A9	Unconscious T25
 A10	Unconscious T18
 T38	Date-absolute 226 232	сейчас
-T39	Date-period 1327 1345	в   ходе   которой
-T40	Date-relative 654 684	после   многолетних   задержек
+T39	Date-period-relative 1327 1345	в   ходе   которой
+T40	Date-absolute 654 684	после   многолетних   задержек
 T41	Duration 662 673	многолетних
 A11	Past T7
 T43	Date-absolute 893 916	в   1960-1970-х   годах
 A13	Past T22
 T44	Duration 1485 1501	около   40   лет
-T42	Date-period 1362 1386	в   течение   23   суток
+T42	Date-period-relative 1362 1386	в   течение   23   суток
 A12	Past T43
-A14	Future T39
 A16	Present T38
-A17	Past T40
 A18	Past T28
-A15	Future T42
+A14	Past-Fut T39
+A15	Past-Fut T42
+A17	Present T40
+T20	GPE 10 20	российскую
+T45	GPE 74 84	российская
+T46	GPE 256 265	китайской
+T47	GPE 445 454	китайская
+T48	GPE 573 583	российской
+T49	GPE 842 851	советские
+T50	GPE 1031 1040	китайской
+T51	Person-forename 395 403	Джонатан
+T52	Person-surname 406 415	МакДауэлл

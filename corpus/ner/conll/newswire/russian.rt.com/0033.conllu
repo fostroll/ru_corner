@@ -27,8 +27,8 @@
 9	Газа	_	_	_	_	_	_	_	bratT15=GPE
 10	в	_	_	_	_	_	_	_	_
 11	сторону	_	_	_	_	_	_	_	_
-12	израильской	_	_	_	_	_	_	_	_
-13	территории	_	_	_	_	_	_	_	SpaceAfter=No
+12	израильской	_	_	_	_	_	_	_	bratT19=GPE
+13	территории	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0033-p3
@@ -53,9 +53,9 @@
 # sent_id = 0033-p4-s1
 # text = ``После срабатывания системы экстренного предупреждения был обнаружен запуск одного снаряда из сектора Газа по территории Израиля'', - говорится в заявлении.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	После	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-relative
-3	срабатывания	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-relative|bratT18=Event
-4	системы	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-relative|bratT18=Event
+2	После	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute
+3	срабатывания	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute|bratT18=Event
+4	системы	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute|bratT18=Event
 5	экстренного	_	_	_	_	_	_	_	bratT18=Event
 6	предупреждения	_	_	_	_	_	_	_	bratT18=Event
 7	был	_	_	_	_	_	_	_	_

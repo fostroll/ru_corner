@@ -68,10 +68,10 @@
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
 4	женщина	_	_	_	_	_	_	_	_
-5	перед	_	_	_	_	_	_	_	_
-6	смертью	_	_	_	_	_	_	_	_
-7	несколько	_	_	_	_	_	_	_	bratT26=Date-duration
-8	дней	_	_	_	_	_	_	_	bratT26=Date-duration
+5	перед	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-period-absolute
+6	смертью	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-period-absolute|bratT28=Event
+7	несколько	_	_	_	_	_	_	_	bratA3=T27:Past|bratT26=Duration|bratT27=Date-period-absolute
+8	дней	_	_	_	_	_	_	_	bratA3=T27:Past|bratT26=Duration|bratT27=Date-period-absolute
 9	оставалась	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	коме	_	_	_	_	_	_	_	SpaceAfter=No
@@ -90,9 +90,9 @@
 7	пост	_	_	_	_	_	_	_	_
 8	президента	_	_	_	_	_	_	_	bratT19=Person-property
 9	страны	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT20=Date-absolute
-11	2018	_	_	_	_	_	_	_	bratT20=Date-absolute
-12	году	_	_	_	_	_	_	_	bratT20=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA4=T20:Past|bratT20=Date-absolute
+11	2018	_	_	_	_	_	_	_	bratA4=T20:Past|bratT20=Date-absolute
+12	году	_	_	_	_	_	_	_	bratA4=T20:Past|bratT20=Date-absolute
 13	и	_	_	_	_	_	_	_	_
 14	был	_	_	_	_	_	_	_	_
 15	назначен	_	_	_	_	_	_	_	_

@@ -9,13 +9,13 @@ A2	Citizenship T6
 T7	Person 368 376	Рыжикову
 T8	Person 310 317	Кэссиди
 T9	Person 503 522	Кристофер   Кэссиди
-T10	Person 601 663	космонавтами   Анатолием   Иванишиными   и   Иваном   Вагнером
+T10	Person 587 663	российскими   космонавтами   Анатолием   Иванишиными   и   Иваном   Вагнером
 T11	Organization 291 304	РИА   Новости
 T12	Organization 269 273	НАСА
-T13	Facility 339 355	модуле   Destiny
+T13	Facility 324 355	американском   модуле   Destiny
 T14	Date-absolute 525 537	22   октября
 T15	Location 566 571	Землю
-T16	Person-property 601 613	космонавтами
+T16	Person-property 587 613	российскими   космонавтами
 T17	Person 671 703	корабле   ``   Союз   МС-16   ''
 T18	Person 708 724	Сергей   Рыжиков
 T19	Nationality 740 751	россиянином
@@ -24,7 +24,7 @@ T20	Person 740 779	россиянином   Сергеем   Кудь-Сверч
 T21	Nationality 786 797	американкой
 A5	Citizenship T21
 T22	Person 786 815	американкой   Кэтлин   Рубинс
-T23	Date-period 849 874	до   апреля   2021   года
+T23	Date-period-absolute 849 874	до   апреля   2021   года
 T24	Date-absolute 972 984	11   октября
 T25	Person-property 1108 1118	космонавты
 T26	Quantity 1361 1387	двух-четырех   сантиметров
@@ -47,15 +47,36 @@ A7	Unconscious T17
 T30	Service 261 266	сайте
 A8	Media T30
 T35	Ordinal 884 893	последнее
-T40	Date-period 880 901	В   последнее   время
+T40	Date-period-absolute 880 901	В   последнее   время
 A9	Future T14
 A10	Past T24
 A11	Past T27
-T43	Date-absolute 854 874	апреля   2021   года
-A12	Future T43
 T44	Person 616 639	Анатолием   Иванишиными
 T45	Person 646 663	Иваном   Вагнером
-T46	Date-period 1080 1084	день
+T46	Date-period-relative 1080 1084	день
 A14	Past T46
-T47	Date-absolute 884 901	последнее   время
-A15	Past T47
+A13	Pres-Fut T23
+A12	RCont T40
+A15	Past-Pres T40
+T43	GPE 37 47	Российский
+T47	GPE 324 336	американском
+T48	GPE 587 598	российскими
+T49	GPE 991 1001	российском
+T50	Person-forename 62 68	Сергей
+T51	Person-surname 71 78	Рыжиков
+T52	Person-forename 197 207	Кристофера
+T53	Person-surname 210 217	Кэссиди
+T54	Person-forename 310 317	Кэссиди
+T55	Person-surname 368 376	Рыжикову
+T56	Person-forename 503 512	Кристофер
+T57	Person-surname 515 522	Кэссиди
+T58	Person-forename 616 625	Анатолием
+T59	Person-surname 628 639	Иванишиными
+T60	Person-forename 646 652	Иваном
+T61	Person-surname 655 663	Вагнером
+T62	Person-forename 708 714	Сергей
+T63	Person-surname 717 724	Рыжиков
+T64	Person-forename 754 761	Сергеем
+T65	Person-surname 764 779	Кудь-Сверчковым
+T66	Person-forename 800 806	Кэтлин
+T67	Person-surname 809 815	Рубинс

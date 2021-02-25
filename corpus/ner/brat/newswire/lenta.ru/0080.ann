@@ -11,7 +11,6 @@ T12	Other-group 659 669	Поклонники
 T13	Person-property 720 727	актрисе
 T14	Date-absolute 1379 1398	Ранее   в   октябре
 T15	Person-property 1465 1470	звезд
-T16	Date-absolute 1473 1479	2000-х
 T17	Quantity 1613 1634	на   30   килограммов
 T18	Other-term 1744 1752	резекцию
 T19	Other-group 1358 1373	недоброжелатели
@@ -23,7 +22,17 @@ T23	Person 38 52	Оззи   Осборна
 T24	Person 108 138	рок-музыканта   Оззи   Осборна
 T2	Date-absolute 802 808	сейчас
 A2	Past T14
-T10	Date-period 1473 1479	2000-х
-A3	Past T16
+T10	Date-period-absolute 1473 1479	2000-х
 A4	Present T2
-T25	Time-relative 1379 1384	Ранее
+T25	Date-relative 1379 1384	Ранее
+A5	Past T10
+A3	Past T25
+T16	Person-forename 38 42	Оззи
+T26	Person-surname 45 52	Осборна
+T27	Person-forename 124 128	Оззи
+T28	Person-surname 131 138	Осборна
+T29	Person-forename 168 173	Келли
+T30	Person-surname 176 182	Осборн
+T31	Person-surname 1045 1051	Осборн
+T32	Person-forename 1510 1515	Келли
+T33	Person-surname 1518 1523	Осбор

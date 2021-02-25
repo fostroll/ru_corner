@@ -15,7 +15,7 @@ T15	Ordinal 689 695	вторую
 T16	Quantity 745 754	одна   из
 T17	Organization 886 914	издание   Luzerner   Zeitung
 A3	Media T17
-T18	Date-relative 920 939	В   начале   ноября
+T18	Date-absolute 920 939	В   начале   ноября
 T19	GPE 977 984	Австрии
 T20	Other-group 999 1010	экстремисты
 T21	Facility 1039 1059	еврейском   квартале
@@ -28,3 +28,7 @@ T27	Person-property 731 738	полиции
 T3	Facility 1070 1078	синагоги
 T4	Event 1103 1108	взрыв
 T28	Event 1130 1151	стрельба   по   людям
+A1	Past T18
+T29	Date-relative 989 996	Сначала
+A4	Past T29
+A5	Past T23

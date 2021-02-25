@@ -16,11 +16,13 @@ T14	GPE 89 99	Белоруссии
 T15	Date-absolute 230 241	22   ноября
 T16	Quantity 260 273	345   человек
 T17	Person-property 122 163	сотрудники   правоохранительных   органов
-T18	Date-period 175 204	во   время   акций   протеста
+T18	Date-period-absolute 175 204	во   время   акций   протеста
 T19	Event 188 204	акций   протеста
-T20	Date-absolute 433 438	вчера
-T21	Time-relative 715 720	Ранее
+T21	Date-relative 715 720	Ранее
 A2	Past T15
-A3	Past T20
-T22	Date-period 433 438	вчера
+T22	Date-period-absolute 433 438	вчера
 A4	Past T18
+A5	Past T22
+A3	Past T21
+T20	Person-forename 366 371	Ольга
+T23	Person-surname 374 384	Чемоданова

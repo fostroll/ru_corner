@@ -29,9 +29,9 @@ T27	Person-property 275 303	замглавы   российского   МИД
 T28	Organization 286 303	российского   МИД
 T29	Person 275 321	замглавы   российского   МИД   Сергей   Рябков
 T9	Ordinal 432 441	последние
-T30	Date-period 427 448	за   последние   годы
-T31	Time-relative 1144 1149	Ранее
+T30	Date-period-absolute 427 448	за   последние   годы
+T31	Date-relative 1144 1149	Ранее
 A3	Future T13
 T32	Duration 444 448	годы
-T33	Date-absolute 432 448	последние   годы
-A4	Past T33
+A5	Past-Pres T30
+A4	Past T31

@@ -8,9 +8,9 @@
 3	продлили	_	_	_	_	_	_	_	_
 4	жесткий	_	_	_	_	_	_	_	_
 5	карантин	_	_	_	_	_	_	_	bratT30=Event
-6	до	_	_	_	_	_	_	_	bratT2=Date-period
-7	конца	_	_	_	_	_	_	_	bratA1=T36:Future|bratT2=Date-period|bratT36=Date-absolute
-8	года	_	_	_	_	_	_	_	bratA1=T36:Future|bratT2=Date-period|bratT36=Date-absolute
+6	до	_	_	_	_	_	_	_	bratA11=T2:Pres-Fut|bratT2=Date-period-absolute
+7	конца	_	_	_	_	_	_	_	bratA11=T2:Pres-Fut|bratT2=Date-period-absolute
+8	года	_	_	_	_	_	_	_	bratA11=T2:Pres-Fut|bratT2=Date-period-absolute
 
 # newpar id = 0086-p2
 # par_text = Жесткий карантин в Германии, который изначально действовал до конца ноября, продлится до 20 декабря и, вероятно, будет впоследствии продлен до конца января следующего года. Об этом заявила канцлер ФРГ Ангела Меркель по итогам переговоров с главами 16 федеральных земель.
@@ -24,26 +24,26 @@
 6	который	_	_	_	_	_	_	_	_
 7	изначально	_	_	_	_	_	_	_	_
 8	действовал	_	_	_	_	_	_	_	_
-9	до	_	_	_	_	_	_	_	bratT5=Date-period
-10	конца	_	_	_	_	_	_	_	bratT39=Date-absolute|bratT5=Date-period
-11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Date-absolute|bratT5=Date-period
+9	до	_	_	_	_	_	_	_	bratA2=T5:Past-Fut|bratT5=Date-period-absolute
+10	конца	_	_	_	_	_	_	_	bratA2=T5:Past-Fut|bratT39=Date-absolute|bratT5=Date-period-absolute
+11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Past-Fut|bratT39=Date-absolute|bratT5=Date-period-absolute
 12	,	_	_	_	_	_	_	_	_
 13	продлится	_	_	_	_	_	_	_	_
-14	до	_	_	_	_	_	_	_	bratT6=Date-period
-15	20	_	_	_	_	_	_	_	bratA2=T37:Future|bratT37=Date-absolute|bratT6=Date-period
-16	декабря	_	_	_	_	_	_	_	bratA2=T37:Future|bratT37=Date-absolute|bratT6=Date-period
+14	до	_	_	_	_	_	_	_	bratA1=T6:Past-Fut|bratT6=Date-period-absolute
+15	20	_	_	_	_	_	_	_	bratA1=T6:Past-Fut|bratT6=Date-period-absolute
+16	декабря	_	_	_	_	_	_	_	bratA1=T6:Past-Fut|bratT6=Date-period-absolute
 17	и	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	вероятно	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	будет	_	_	_	_	_	_	_	_
-22	впоследствии	_	_	_	_	_	_	_	bratT35=Time-relative
+22	впоследствии	_	_	_	_	_	_	_	bratA9=T35:Future|bratT35=Date-absolute
 23	продлен	_	_	_	_	_	_	_	_
-24	до	_	_	_	_	_	_	_	bratT7=Date-period
-25	конца	_	_	_	_	_	_	_	bratA7=T38:Future|bratT38=Date-absolute|bratT7=Date-period
-26	января	_	_	_	_	_	_	_	bratA7=T38:Future|bratT38=Date-absolute|bratT7=Date-period
-27	следующего	_	_	_	_	_	_	_	bratA7=T38:Future|bratT34=Ordinal|bratT38=Date-absolute|bratT7=Date-period
-28	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T38:Future|bratT38=Date-absolute|bratT7=Date-period
+24	до	_	_	_	_	_	_	_	bratA12=T7:Fut|bratA14=T7:LCont|bratT7=Date-period-absolute
+25	конца	_	_	_	_	_	_	_	bratA12=T7:Fut|bratA14=T7:LCont|bratT7=Date-period-absolute
+26	января	_	_	_	_	_	_	_	bratA12=T7:Fut|bratA14=T7:LCont|bratT7=Date-period-absolute
+27	следующего	_	_	_	_	_	_	_	bratA12=T7:Fut|bratA14=T7:LCont|bratT34=Ordinal|bratT7=Date-period-absolute
+28	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T7:Fut|bratA14=T7:LCont|bratT7=Date-period-absolute
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0086-p2-s2
@@ -53,8 +53,8 @@
 3	заявила	_	_	_	_	_	_	_	_
 4	канцлер	_	_	_	_	_	_	_	bratT10=Person|bratT8=Person-property
 5	ФРГ	_	_	_	_	_	_	_	bratT10=Person|bratT8=Person-property|bratT9=GPE
-6	Ангела	_	_	_	_	_	_	_	bratT10=Person
-7	Меркель	_	_	_	_	_	_	_	bratT10=Person
+6	Ангела	_	_	_	_	_	_	_	bratT10=Person|bratT37=Person-forename
+7	Меркель	_	_	_	_	_	_	_	bratT10=Person|bratT38=Person-surname
 8	по	_	_	_	_	_	_	_	_
 9	итогам	_	_	_	_	_	_	_	_
 10	переговоров	_	_	_	_	_	_	_	_
@@ -83,9 +83,9 @@
 # sent_id = 0086-p3-s2
 # text = Пока до 20 декабря'', - сказала она.
 1	Пока	_	_	_	_	_	_	_	_
-2	до	_	_	_	_	_	_	_	bratT12=Date-period
-3	20	_	_	_	_	_	_	_	bratA8=T40:Future|bratT12=Date-period|bratT40=Date-absolute
-4	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T40:Future|bratT12=Date-period|bratT40=Date-absolute
+2	до	_	_	_	_	_	_	_	bratA7=T12:Pres-Fut|bratT12=Date-period-absolute
+3	20	_	_	_	_	_	_	_	bratA7=T12:Pres-Fut|bratT12=Date-period-absolute
+4	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Pres-Fut|bratT12=Date-period-absolute
 5	''	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
@@ -113,14 +113,14 @@
 16	будет	_	_	_	_	_	_	_	_
 17	сохранить	_	_	_	_	_	_	_	_
 18	и	_	_	_	_	_	_	_	_
-19	до	_	_	_	_	_	_	_	bratT14=Date-period
-20	начала	_	_	_	_	_	_	_	bratA4=T41:Future|bratT14=Date-period|bratT41=Date-absolute
-21	января	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T41:Future|bratT14=Date-period|bratT41=Date-absolute
+19	до	_	_	_	_	_	_	_	bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
+20	начала	_	_	_	_	_	_	_	bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
+21	января	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
 22	''	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
 24	-	_	_	_	_	_	_	_	_
 25	уточнила	_	_	_	_	_	_	_	_
-26	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person
+26	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person|bratT40=Person-surname
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p4
@@ -128,9 +128,9 @@
 # sent_id = 0086-p4-s1
 # text = Однако на рождественские каникулы в стране предполагается сделать послабления.
 1	Однако	_	_	_	_	_	_	_	_
-2	на	_	_	_	_	_	_	_	_
-3	рождественские	_	_	_	_	_	_	_	_
-4	каникулы	_	_	_	_	_	_	_	_
+2	на	_	_	_	_	_	_	_	bratA13=T36:Fut|bratT36=Date-period-absolute
+3	рождественские	_	_	_	_	_	_	_	bratA13=T36:Fut|bratT33=Event|bratT36=Date-period-absolute
+4	каникулы	_	_	_	_	_	_	_	bratA13=T36:Fut|bratT33=Event|bratT36=Date-period-absolute
 5	в	_	_	_	_	_	_	_	_
 6	стране	_	_	_	_	_	_	_	_
 7	предполагается	_	_	_	_	_	_	_	_
@@ -162,8 +162,8 @@
 2	распоряжению	_	_	_	_	_	_	_	_
 3	канцлера	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person
 4	ФРГ	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=GPE|bratT22=Person
-5	Ангелы	_	_	_	_	_	_	_	bratT22=Person
-6	Меркель	_	_	_	_	_	_	_	bratT22=Person
+5	Ангелы	_	_	_	_	_	_	_	bratT22=Person|bratT41=Person-forename
+6	Меркель	_	_	_	_	_	_	_	bratT22=Person|bratT44=Person-surname
 7	закрылись	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -209,10 +209,10 @@
 # par_text = Ранее в октябре Меркель заявила, что Германия не может себе позволить с экономической точки зрения нового локдауна, как это было весной во время первой волны коронавируса. Она отметила, что необходимо срочно взять под контроль ситуацию с пандемией.
 # sent_id = 0086-p6-s1
 # text = Ранее в октябре Меркель заявила, что Германия не может себе позволить с экономической точки зрения нового локдауна, как это было весной во время первой волны коронавируса.
-1	Ранее	_	_	_	_	_	_	_	bratT43=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA4=T43:Past|bratA6=T23:Past|bratT23=Date-absolute|bratT43=Date-relative
 2	в	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
 3	октябре	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
-4	Меркель	_	_	_	_	_	_	_	bratT25=Person
+4	Меркель	_	_	_	_	_	_	_	bratT25=Person|bratT45=Person-surname
 5	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -232,10 +232,10 @@
 21	это	_	_	_	_	_	_	_	_
 22	было	_	_	_	_	_	_	_	_
 23	весной	_	_	_	_	_	_	_	bratA10=T42:Past|bratT42=Date-absolute
-24	во	_	_	_	_	_	_	_	bratA10=T42:Past|bratA9=T33:Past|bratT33=Date-relative|bratT42=Date-absolute
-25	время	_	_	_	_	_	_	_	bratA10=T42:Past|bratA9=T33:Past|bratT33=Date-relative|bratT42=Date-absolute
-26	первой	_	_	_	_	_	_	_	bratA10=T42:Past|bratA9=T33:Past|bratT29=Ordinal|bratT32=Event|bratT33=Date-relative|bratT42=Date-absolute
-27	волны	_	_	_	_	_	_	_	bratA10=T42:Past|bratA9=T33:Past|bratT32=Event|bratT33=Date-relative|bratT42=Date-absolute
+24	во	_	_	_	_	_	_	_	bratA10=T42:Past|bratT42=Date-absolute
+25	время	_	_	_	_	_	_	_	bratA10=T42:Past|bratT42=Date-absolute
+26	первой	_	_	_	_	_	_	_	bratA10=T42:Past|bratT29=Ordinal|bratT32=Event|bratT42=Date-absolute
+27	волны	_	_	_	_	_	_	_	bratA10=T42:Past|bratT32=Event|bratT42=Date-absolute
 28	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term|bratT32=Event
 29	.	_	_	_	_	_	_	_	_
 

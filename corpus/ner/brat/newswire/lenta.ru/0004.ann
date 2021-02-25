@@ -8,7 +8,7 @@ T7	GPE 181 197	Санкт-Петербурга
 T9	Person-property 272 289	глава   ведомства
 T10	Person 272 309	глава   ведомства   Валерий   Фальков
 T11	Organization 327 331	ТАСС
-T12	Date-period 387 449	с   13   ноября   текущего   года   по   6   февраля   2021-го
+T12	Date-period-absolute 387 449	с   13   ноября   текущего   года   по   6   февраля   2021-го
 T13	Other-term 487 499	коронавируса
 T14	Person-property 758 767	студентов
 T15	Person 587 594	Фальков
@@ -20,7 +20,7 @@ T20	Person 1191 1222	мэр   Москвы   Сергей   Собянин
 T21	Person-property 1252 1261	студентов
 T22	Other-term 1331 1343	коронавируса
 T24	GPE 1551 1557	России
-T25	Date-period 1560 1582	за   последние   сутки
+T25	Date-period-absolute 1560 1582	за   последние   сутки
 T27	Other-term 1635 1648	коронавирусом
 T29	Other-term 1699 1711	коронавируса
 T30	GPE 1718 1724	России
@@ -42,17 +42,18 @@ A2	Plural T23
 A3	Media T11
 T40	Person-property 1498 1506	учащихся
 T41	Family 1069 1074	детей
-T42	Date-period 1727 1748	с   начала   пандемии
+T42	Date-period-absolute 1727 1748	с   начала   пандемии
 T43	Ordinal 1565 1574	последние
-T44	Date-absolute 391 420	13   ноября   текущего   года
-T45	Date-absolute 428 449	6   февраля   2021-го
 T47	Event 1740 1748	пандемии
-A4	Future T45
 A5	Past T17
-A6	Future T44
-T48	Date-absolute 1565 1582	последние   сутки
-A9	Past T48
-T49	Date-relative 1731 1748	начала   пандемии
-A8	Past T49
 T50	Ordinal 405 413	текущего
 T46	Duration 1577 1582	сутки
+A8	Fut T12
+A7	Past-Pres T42
+A10	Past-Pres T25
+T44	GPE 1348 1357	Столичные
+T45	Person-forename 292 299	Валерий
+T48	Person-surname 302 309	Фальков
+T49	Person-surname 587 594	Фальков
+T51	Person-forename 1206 1212	Сергей
+T52	Person-surname 1215 1222	Собянин

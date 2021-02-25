@@ -10,8 +10,8 @@
 5	чтобы	_	_	_	_	_	_	_	_
 6	улучшить	_	_	_	_	_	_	_	_
 7	иммунитет	_	_	_	_	_	_	_	_
-8	в	_	_	_	_	_	_	_	bratT27=Date-period
-9	пандемию	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event|bratT27=Date-period
+8	в	_	_	_	_	_	_	_	bratA5=T27:Past-Fut|bratT27=Date-period-absolute
+9	пандемию	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T27:Past-Fut|bratT23=Event|bratT27=Date-period-absolute
 10	,	_	_	_	_	_	_	_	_
 11	посоветовала	_	_	_	_	_	_	_	_
 12	педиатр	_	_	_	_	_	_	_	bratT1=Person-property
@@ -34,9 +34,9 @@
 11	и	_	_	_	_	_	_	_	_
 12	правильный	_	_	_	_	_	_	_	_
 13	рацион	_	_	_	_	_	_	_	_
-14	во	_	_	_	_	_	_	_	bratT25=Date-period
-15	время	_	_	_	_	_	_	_	bratT25=Date-period
-16	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Event|bratT25=Date-period
+14	во	_	_	_	_	_	_	_	bratA6=T25:Past-Fut|bratT25=Date-period-absolute
+15	время	_	_	_	_	_	_	_	bratA6=T25:Past-Fut|bratT25=Date-period-absolute
+16	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Past-Fut|bratT24=Event|bratT25=Date-period-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0095-p2-s2
@@ -200,9 +200,9 @@
 # par_text = В данное время привычную норму потребления «молочки» нужно увеличить на 25%.
 # sent_id = 0095-p6-s1
 # text = В данное время привычную норму потребления ``молочки'' нужно увеличить на 25 %.
-1	В	_	_	_	_	_	_	_	bratT26=Date-relative
-2	данное	_	_	_	_	_	_	_	bratT26=Date-relative
-3	время	_	_	_	_	_	_	_	bratT26=Date-relative
+1	В	_	_	_	_	_	_	_	bratA8=T26:Past-Fut|bratT26=Date-period-absolute
+2	данное	_	_	_	_	_	_	_	bratA8=T26:Past-Fut|bratT26=Date-period-absolute
+3	время	_	_	_	_	_	_	_	bratA8=T26:Past-Fut|bratT26=Date-period-absolute
 4	привычную	_	_	_	_	_	_	_	_
 5	норму	_	_	_	_	_	_	_	_
 6	потребления	_	_	_	_	_	_	_	_

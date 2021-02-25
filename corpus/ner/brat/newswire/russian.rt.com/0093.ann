@@ -16,10 +16,11 @@ T14	Quantity 488 496	37   031
 T15	Other-term 95 107	коронавируса
 T16	GPE 114 120	России
 T17	Percent 136 143	1,7   %
-T18	Date-period 465 481	за   всё   время
+T18	Date-period-absolute 465 481	за   всё   время
 T19	Ordinal 369 376	впервые
-T20	Time-relative 306 311	Ранее
-T21	Date-period 343 353	за   сутки
+T20	Date-relative 306 311	Ранее
+T21	Date-period-relative 343 353	за   сутки
 A2	Past T21
-A3	Past T18
 T22	Duration 470 481	всё   время
+A3	Past-Pres T18
+A4	Past T20

@@ -10,17 +10,17 @@
 5	100	_	_	_	_	_	_	_	bratT1=Money
 6	млн	_	_	_	_	_	_	_	bratT1=Money
 7	рублей	_	_	_	_	_	_	_	bratT1=Money
-8	с	_	_	_	_	_	_	_	bratT18=Date-period
-9	начала	_	_	_	_	_	_	_	bratT18=Date-period
-10	пандемии	_	_	_	_	_	_	_	bratT17=Event|bratT18=Date-period
+8	с	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT18=Date-period-absolute
+9	начала	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT18=Date-period-absolute
+10	пандемии	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT17=Event|bratT18=Date-period-absolute
 
 # newpar id = 0117-p2
 # par_text = С начала марта нижегородские предприятия народных художественных промыслов (НХП) получили 100 млн рублей субсидий по оплате труда работникам и оплату ЖКУ. Об этом сообщил губернатор Глеб Никитин.
 # sent_id = 0117-p2-s1
 # text = С начала марта нижегородские предприятия народных художественных промыслов (НХП) получили 100 млн рублей субсидий по оплате труда работникам и оплату ЖКУ.
-1	С	_	_	_	_	_	_	_	bratT2=Date-period
-2	начала	_	_	_	_	_	_	_	bratT2=Date-period
-3	марта	_	_	_	_	_	_	_	bratT2=Date-period
+1	С	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
+2	начала	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
+3	марта	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
 4	нижегородские	_	_	_	_	_	_	_	_
 5	предприятия	_	_	_	_	_	_	_	_
 6	народных	_	_	_	_	_	_	_	_
@@ -82,9 +82,9 @@
 
 # sent_id = 0117-p3-s2
 # text = С начала пандемии стали работать над решением вопроса о поддержке отрасли: по нашей инициативе сферу НХП включили в федеральный перечень отраслей, наиболее пострадавших от распространения коронавируса.
-1	С	_	_	_	_	_	_	_	bratT20=Date-period
-2	начала	_	_	_	_	_	_	_	bratT20=Date-period
-3	пандемии	_	_	_	_	_	_	_	bratT19=Event|bratT20=Date-period
+1	С	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT20=Date-period-absolute
+2	начала	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT20=Date-period-absolute
+3	пандемии	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT19=Event|bratT20=Date-period-absolute
 4	стали	_	_	_	_	_	_	_	_
 5	работать	_	_	_	_	_	_	_	_
 6	над	_	_	_	_	_	_	_	_
@@ -178,11 +178,11 @@
 11	и	_	_	_	_	_	_	_	_
 12	туризма	_	_	_	_	_	_	_	_
 13	продлили	_	_	_	_	_	_	_	_
-14	до	_	_	_	_	_	_	_	bratT9=Date-period
-15	31	_	_	_	_	_	_	_	bratT9=Date-period
-16	декабря	_	_	_	_	_	_	_	bratT9=Date-period
-17	2020	_	_	_	_	_	_	_	bratT9=Date-period
-18	года	_	_	_	_	_	_	_	bratT9=Date-period
+14	до	_	_	_	_	_	_	_	bratA4=T9:UNK-Fut|bratA5=T9:LCont|bratT9=Date-period-absolute
+15	31	_	_	_	_	_	_	_	bratA4=T9:UNK-Fut|bratA5=T9:LCont|bratT9=Date-period-absolute
+16	декабря	_	_	_	_	_	_	_	bratA4=T9:UNK-Fut|bratA5=T9:LCont|bratT9=Date-period-absolute
+17	2020	_	_	_	_	_	_	_	bratA4=T9:UNK-Fut|bratA5=T9:LCont|bratT9=Date-period-absolute
+18	года	_	_	_	_	_	_	_	bratA4=T9:UNK-Fut|bratA5=T9:LCont|bratT9=Date-period-absolute
 19	срок	_	_	_	_	_	_	_	_
 20	выплаты	_	_	_	_	_	_	_	_
 21	субсидий	_	_	_	_	_	_	_	SpaceAfter=No
@@ -195,11 +195,11 @@
 3	на	_	_	_	_	_	_	_	_
 4	выплаты	_	_	_	_	_	_	_	_
 5	можно	_	_	_	_	_	_	_	_
-6	до	_	_	_	_	_	_	_	bratT10=Date-period
-7	31	_	_	_	_	_	_	_	bratT10=Date-period
-8	января	_	_	_	_	_	_	_	bratT10=Date-period
-9	2021	_	_	_	_	_	_	_	bratT10=Date-period
-10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-period
+6	до	_	_	_	_	_	_	_	bratA6=T10:Pres-Fut|bratT10=Date-period-absolute
+7	31	_	_	_	_	_	_	_	bratA6=T10:Pres-Fut|bratT10=Date-period-absolute
+8	января	_	_	_	_	_	_	_	bratA6=T10:Pres-Fut|bratT10=Date-period-absolute
+9	2021	_	_	_	_	_	_	_	bratA6=T10:Pres-Fut|bratT10=Date-period-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Pres-Fut|bratT10=Date-period-absolute
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0117-p5

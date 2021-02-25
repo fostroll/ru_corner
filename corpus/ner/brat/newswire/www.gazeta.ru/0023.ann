@@ -2,7 +2,7 @@ T1	GPE 4 10	Москве
 T2	Quantity 26 54	свыше   8   тыс.   пациентов
 T3	Other-term 61 69	COVID-19
 T4	GPE 99 105	Москве
-T5	Time-period 108 118	за   сутки
+T5	Date-period-absolute 108 118	за   сутки
 T6	Quantity 134 154	еще   76   пациентов
 T7	Other-term 161 187	коронавирусом   SARS-CoV-2
 T8	Organization 215 232	оперштаб   Москвы
@@ -35,8 +35,14 @@ T34	Other-term 799 806	вакцину
 T35	Other-term 1081 1088	вакцины
 T36	Event 85 93	пандемии
 T37	Event 499 507	пандемии
-T38	Date-period 486 507	с   начала   пандемии
-T39	Date-period 72 93	за   время   пандемии
-T40	Date-relative 384 391	ранее  
+T38	Date-period-absolute 486 507	с   начала   пандемии
+T39	Date-period-absolute 72 93	за   время   пандемии
+T40	Date-relative 384 389	ранее
 T41	GPE 479 483	мире
 T42	GPE 767 771	мире
+T44	Duration 113 118	сутки
+A2	Past-Pres T5
+A1	Past T39
+A3	Past-Pres T38
+A4	Past T25
+A5	Past T40

@@ -35,5 +35,9 @@ T32	Organization 255 283	канал   ``   Россия   1   ''
 A3	Media T32
 T33	Family 26 31	Родню
 T34	Family 411 416	Родня
-T35	Date-period 628 641	после   войны
+T35	Date-absolute 628 641	после   войны
 T36	Age 775 782	Молодая
+A4	Past T35
+A5	Past T24
+T37	Event 636 641	войны
+A6	Past T30

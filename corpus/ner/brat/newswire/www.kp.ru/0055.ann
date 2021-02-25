@@ -11,7 +11,7 @@ T10	Organization 783 823	радио   ``   Комсомольская   прав
 A1	Media T10
 T11	Person-property 921 928	артисты
 T12	Person 1077 1086	Жванецкий
-T13	Time-duration 1150 1162	семь   минут
+T13	Duration 1150 1162	семь   минут
 T14	Person-property 1199 1208	директору
 T15	Person-property 1340 1345	актер
 T16	Person-property 1382 1391	сатириком
@@ -26,10 +26,19 @@ T24	Person 1959 1968	Жванецкий
 T25	Organization 114 135	``   Квартет   И   ''
 T26	Person 1277 1282	Ларин
 T27	Person-property 763 768	актер
-T28	Date-relative 1721 1751	В   начале   прошлого   месяца
+T28	Date-absolute 1721 1751	В   начале   прошлого   месяца
 T29	Person-property 305 310	актер
-T30	Date-period 1324 1337	после   этого
-T31	Date-period 1833 1846	После   этого
+T30	Date-relative 1324 1337	после   этого
+T31	Date-relative 1833 1846	После   этого
 T32	Date-relative 969 974	потом
 T33	Date-relative 1173 1178	потом
 T35	Ordinal 1696 1701	67-ом
+T34	Date-period-absolute 1150 1162	семь   минут
+A2	Past T34
+T36	Ordinal 1734 1742	прошлого
+A3	Past T28
+A4	Past T31
+A5	Past T32
+A6	Past T33
+A7	Past T30
+A8	Past T21

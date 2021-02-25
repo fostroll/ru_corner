@@ -9,8 +9,8 @@
 4	6075	_	_	_	_	_	_	_	bratT2=Quantity
 5	случаев	_	_	_	_	_	_	_	bratT2=Quantity
 6	коронавируса	_	_	_	_	_	_	_	bratT3=Other-term
-7	за	_	_	_	_	_	_	_	bratT4=Time-duration
-8	сутки	_	_	_	_	_	_	_	bratT4=Time-duration
+7	за	_	_	_	_	_	_	_	bratA2=T4:Past-Pres|bratT4=Date-period-absolute
+8	сутки	_	_	_	_	_	_	_	bratA2=T4:Past-Pres|bratT4=Date-period-absolute|bratT40=Duration
 
 # newpar id = 0120-p2
 # par_text = В Москве за последние сутки выявили 6075 новых случаев коронавируса, в том числе 1759 пациентов с инфекцией были госпитализированы. Об этом сообщает оперативный штаб по мониторингу ситуации с COVID-19.
@@ -18,9 +18,9 @@
 # text = В Москве за последние сутки выявили 6075 новых случаев коронавируса, в том числе 1759 пациентов с инфекцией были госпитализированы.
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT5=GPE
-3	за	_	_	_	_	_	_	_	bratT7=Time-period
-4	последние	_	_	_	_	_	_	_	bratT34=Ordinal|bratT7=Time-period
-5	сутки	_	_	_	_	_	_	_	bratT7=Time-period
+3	за	_	_	_	_	_	_	_	bratA5=T7:Past-Pres|bratT7=Date-period-absolute
+4	последние	_	_	_	_	_	_	_	bratA5=T7:Past-Pres|bratT34=Ordinal|bratT7=Date-period-absolute
+5	сутки	_	_	_	_	_	_	_	bratA5=T7:Past-Pres|bratT43=Duration|bratT7=Date-period-absolute
 6	выявили	_	_	_	_	_	_	_	_
 7	6075	_	_	_	_	_	_	_	bratT8=Quantity
 8	новых	_	_	_	_	_	_	_	bratT8=Quantity
@@ -57,9 +57,9 @@
 # sent_id = 0120-p3-s1
 # text = Всего с начала пандемии в столице зафиксировали 577 177 случаев коронавирусной инфекции.
 1	Всего	_	_	_	_	_	_	_	_
-2	с	_	_	_	_	_	_	_	bratT36=Date-period
-3	начала	_	_	_	_	_	_	_	bratT36=Date-period
-4	пандемии	_	_	_	_	_	_	_	bratT35=Event|bratT36=Date-period
+2	с	_	_	_	_	_	_	_	bratA1=T36:Past-Pres|bratT36=Date-period-absolute
+3	начала	_	_	_	_	_	_	_	bratA1=T36:Past-Pres|bratT36=Date-period-absolute
+4	пандемии	_	_	_	_	_	_	_	bratA1=T36:Past-Pres|bratT35=Event|bratT36=Date-period-absolute
 5	в	_	_	_	_	_	_	_	_
 6	столице	_	_	_	_	_	_	_	bratT13=GPE
 7	зафиксировали	_	_	_	_	_	_	_	_
@@ -74,17 +74,17 @@
 # text = Жертвами болезни за весь период стали 8 603 человека, за последние сутки зарегистрировано 73 летальных исхода.
 1	Жертвами	_	_	_	_	_	_	_	_
 2	болезни	_	_	_	_	_	_	_	_
-3	за	_	_	_	_	_	_	_	bratT38=Date-period
-4	весь	_	_	_	_	_	_	_	bratT38=Date-period
-5	период	_	_	_	_	_	_	_	bratT38=Date-period
+3	за	_	_	_	_	_	_	_	bratA3=T38:Past-Pres|bratT38=Date-period-absolute
+4	весь	_	_	_	_	_	_	_	bratA3=T38:Past-Pres|bratT38=Date-period-absolute
+5	период	_	_	_	_	_	_	_	bratA3=T38:Past-Pres|bratT38=Date-period-absolute
 6	стали	_	_	_	_	_	_	_	_
 7	8	_	_	_	_	_	_	_	bratT16=Quantity
 8	603	_	_	_	_	_	_	_	bratT16=Quantity
 9	человека	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
 10	,	_	_	_	_	_	_	_	_
-11	за	_	_	_	_	_	_	_	bratT17=Time-period
-12	последние	_	_	_	_	_	_	_	bratT17=Time-period|bratT32=Ordinal
-13	сутки	_	_	_	_	_	_	_	bratT17=Time-period
+11	за	_	_	_	_	_	_	_	bratA6=T17:Past-Pres|bratT17=Date-period-absolute
+12	последние	_	_	_	_	_	_	_	bratA6=T17:Past-Pres|bratT17=Date-period-absolute|bratT32=Ordinal
+13	сутки	_	_	_	_	_	_	_	bratA6=T17:Past-Pres|bratT17=Date-period-absolute|bratT44=Duration
 14	зарегистрировано	_	_	_	_	_	_	_	_
 15	73	_	_	_	_	_	_	_	bratT6=Quantity
 16	летальных	_	_	_	_	_	_	_	bratT6=Quantity
@@ -97,9 +97,9 @@
 # text = При этом за все время от коронавируса вылечились 428 418 пациентов (6 229 за последние 24 часа).
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	за	_	_	_	_	_	_	_	bratT37=Date-period
-4	все	_	_	_	_	_	_	_	bratT37=Date-period
-5	время	_	_	_	_	_	_	_	bratT37=Date-period
+3	за	_	_	_	_	_	_	_	bratA4=T37:Past-Pres|bratT37=Date-period-absolute
+4	все	_	_	_	_	_	_	_	bratA4=T37:Past-Pres|bratT37=Date-period-absolute
+5	время	_	_	_	_	_	_	_	bratA4=T37:Past-Pres|bratT37=Date-period-absolute
 6	от	_	_	_	_	_	_	_	_
 7	коронавируса	_	_	_	_	_	_	_	bratT18=Other-term
 8	вылечились	_	_	_	_	_	_	_	_
@@ -109,10 +109,10 @@
 12	(	_	_	_	_	_	_	_	SpaceAfter=No
 13	6	_	_	_	_	_	_	_	bratT20=Quantity
 14	229	_	_	_	_	_	_	_	bratT20=Quantity
-15	за	_	_	_	_	_	_	_	bratT21=Time-period
-16	последние	_	_	_	_	_	_	_	bratT21=Time-period|bratT33=Ordinal
-17	24	_	_	_	_	_	_	_	bratT21=Time-period
-18	часа	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Time-period
+15	за	_	_	_	_	_	_	_	bratA7=T21:Past-Pres|bratT21=Date-period-absolute
+16	последние	_	_	_	_	_	_	_	bratA7=T21:Past-Pres|bratT21=Date-period-absolute|bratT33=Ordinal
+17	24	_	_	_	_	_	_	_	bratA7=T21:Past-Pres|bratT21=Date-period-absolute|bratT46=Duration
+18	часа	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T21:Past-Pres|bratT21=Date-period-absolute|bratT46=Duration
 19	)	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
 

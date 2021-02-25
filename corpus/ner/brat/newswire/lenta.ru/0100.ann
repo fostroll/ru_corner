@@ -16,7 +16,7 @@ T17	Date-absolute 872 882	В   апреле
 T18	Person 885 902	Арсений   Шульгин
 T19	Person 1259 1266	Шульгин
 T23	Organization 1424 1442	``   Ленты.ру   ''
-T24	Date-period 1495 1505	За   сутки
+T24	Date-period-absolute 1495 1514	За   сутки   продаж
 T26	Money 1553 1573	100   тысяч   рублей
 T27	Person 1598 1615	Арсений   Шульгин
 T28	Person-property 1678 1697	бывшего   продюсера
@@ -41,16 +41,30 @@ A1	Media T23
 T42	Family 1622 1625	сын
 T43	Family 1652 1666	второго   мужа
 T44	Family 1807 1811	жены
-T45	Person 1622 1644	сын   певицы   Валерии
 T21	Event 74 97	пандемии   коронавируса
 A2	Media T9
-T47	Date-period 61 82	за   время   пандемии
+T47	Date-period-absolute 61 82	за   время   пандемии
 A3	Past T17
 A4	Past T32
 A5	Past T12
 T22	Event 212 235	пандемии   коронавируса
-T46	Date-period 199 220	за   время   пандемии
+T46	Date-period-absolute 199 220	за   время   пандемии
 T48	Duration 1500 1505	сутки
 A6	Past T24
-A7	Past T47
 A8	Past T46
+A7	Past T47
+T49	Person-forename 6 13	Валерии
+T50	Person-forename 124 131	Валерии
+T51	Person-forename 134 141	Арсений
+T52	Person-surname 144 151	Шульгин
+T53	Person-surname 635 642	Шульгин
+T54	Person-forename 654 661	Валерии
+T55	Person-forename 885 892	Арсений
+T56	Person-surname 895 902	Шульгин
+T57	Person-surname 1259 1266	Шульгин
+T58	Person-forename 1598 1605	Арсений
+T59	Person-surname 1608 1615	Шульгин
+T60	Person-forename 1637 1644	Валерии
+T61	Person-forename 1700 1710	Александра
+T62	Person-surname 1713 1721	Шульгина
+T63	Person-forename 1814 1819	Лианы

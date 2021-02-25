@@ -20,8 +20,8 @@
 # text = Спортивный комментатор Майкл Коул раскрыл секрет похудения на 30 килограммов за год.
 1	Спортивный	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
 2	комментатор	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-3	Майкл	_	_	_	_	_	_	_	bratT4=Person
-4	Коул	_	_	_	_	_	_	_	bratT4=Person
+3	Майкл	_	_	_	_	_	_	_	bratT4=Person|bratT42=Person-forename
+4	Коул	_	_	_	_	_	_	_	bratT4=Person|bratT43=Person-surname
 5	раскрыл	_	_	_	_	_	_	_	_
 6	секрет	_	_	_	_	_	_	_	_
 7	похудения	_	_	_	_	_	_	_	_
@@ -49,7 +49,7 @@
 2	информации	_	_	_	_	_	_	_	_
 3	издания	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	Коул	_	_	_	_	_	_	_	bratT9=Person
+5	Коул	_	_	_	_	_	_	_	bratT44=Person-surname|bratT9=Person
 6	отказался	_	_	_	_	_	_	_	_
 7	от	_	_	_	_	_	_	_	_
 8	пива	_	_	_	_	_	_	_	SpaceAfter=No
@@ -130,7 +130,7 @@
 
 # sent_id = 0113-p4-s2
 # text = Коул, специализирующийся на рестлинге, был вдохновлен тренировками спортсменов.
-1	Коул	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+1	Коул	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT45=Person-surname
 2	,	_	_	_	_	_	_	_	_
 3	специализирующийся	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
@@ -150,15 +150,15 @@
 2	июле	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
 3	этого	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT40=Ordinal
 4	года	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
-5	американскому	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
+5	американскому	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property|bratT41=GPE
 6	бойцу	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
 7	смешанного	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
 8	стиля	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
 9	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT23=Person-property
 10	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT23=Person-property|bratT33=Other-term
 11	)	_	_	_	_	_	_	_	bratT21=Person|bratT23=Person-property
-12	Хорхе	_	_	_	_	_	_	_	bratT21=Person
-13	Масвидалю	_	_	_	_	_	_	_	bratT21=Person
+12	Хорхе	_	_	_	_	_	_	_	bratT21=Person|bratT46=Person-forename
+13	Масвидалю	_	_	_	_	_	_	_	bratT21=Person|bratT47=Person-surname
 14	удалось	_	_	_	_	_	_	_	_
 15	сбросить	_	_	_	_	_	_	_	_
 16	девять	_	_	_	_	_	_	_	bratT24=Quantity

@@ -9,7 +9,7 @@ T9	Person 233 281	бывшего   бойца   Bellator   Сергея   Хар
 T10	Person-property 233 259	бывшего   бойца   Bellator
 T11	Organization 251 259	Bellator
 T12	Person 288 376	бывшего   бойца   Абсолютного   бойцовского   чемпионата   (   UFC   )   Адама   Яндиева
-T13	Person-property 288 356	бывшего   бойца   Абсолютного   бойцовского   чемпионата   (   UFC  
+T13	Person-property 288 354	бывшего   бойца   Абсолютного   бойцовского   чемпионата   (   UFC
 T14	Organization 306 344	Абсолютного   бойцовского   чемпионата
 T15	Organization 351 354	UFC
 T16	Date-absolute 397 411	13-го   ноября
@@ -25,7 +25,10 @@ T25	Person 1005 1016	Харитоновым
 T7	Person 82 160	Российский   боец   смешанных   единоборств   (   MMA   )   Магомед   Исмаилов
 A1	Media T8
 T26	Quantity 480 498	несколько   ударов
-T27	Date-relative 909 916	Ранее  
-T28	Date-period 708 720	После   чего
+T27	Date-relative 909 914	Ранее
+T28	Date-relative 708 720	После   чего
 T29	Organization 681 688	полицию
 T30	Service 191 200	Instagram
+A2	Past T16
+A3	Past T28
+A4	Past T27

@@ -8,7 +8,7 @@
 3	объяснили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	почему	_	_	_	_	_	_	_	_
-6	Путин	_	_	_	_	_	_	_	bratT2=Person
+6	Путин	_	_	_	_	_	_	_	bratT2=Person|bratT35=Person-surname
 7	пока	_	_	_	_	_	_	_	_
 8	не	_	_	_	_	_	_	_	_
 9	сделал	_	_	_	_	_	_	_	_
@@ -44,10 +44,10 @@
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
 4	пресс-секретарь	_	_	_	_	_	_	_	bratT26=Person-property|bratT28=Person
-5	российского	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Person-property|bratT28=Person
+5	российского	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Person-property|bratT28=Person|bratT36=GPE
 6	лидера	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Person-property|bratT28=Person
-7	Дмитрий	_	_	_	_	_	_	_	bratT28=Person
-8	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person
+7	Дмитрий	_	_	_	_	_	_	_	bratT28=Person|bratT37=Person-forename
+8	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person|bratT38=Person-surname
 9	,	_	_	_	_	_	_	_	_
 10	отвечая	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
@@ -90,8 +90,8 @@
 5	,	_	_	_	_	_	_	_	_
 6	почему	_	_	_	_	_	_	_	_
 7	президент	_	_	_	_	_	_	_	bratT17=Person-property|bratT5=Person
-8	Владимир	_	_	_	_	_	_	_	bratT5=Person
-9	Путин	_	_	_	_	_	_	_	bratT5=Person
+8	Владимир	_	_	_	_	_	_	_	bratT39=Person-forename|bratT5=Person
+9	Путин	_	_	_	_	_	_	_	bratT40=Person-surname|bratT5=Person
 10	ещё	_	_	_	_	_	_	_	_
 11	не	_	_	_	_	_	_	_	_
 12	сделал	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
 19	пояснил	_	_	_	_	_	_	_	_
-20	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
+20	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT41=Person-surname
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0040-p6
@@ -187,7 +187,7 @@
 6	процедуры	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
-9	потом	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Time-relative
+9	потом	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T34:Future|bratT34=Date-relative
 10	,	_	_	_	_	_	_	_	_
 11	если	_	_	_	_	_	_	_	_
 12	он	_	_	_	_	_	_	_	_
@@ -209,10 +209,10 @@
 # par_text = Ранее вице-премьер Татьяна Голикова заявила, что массовая вакцинация в России от COVID-19 планируется с 2021 года.
 # sent_id = 0040-p8-s1
 # text = Ранее вице-премьер Татьяна Голикова заявила, что массовая вакцинация в России от COVID-19 планируется с 2021 года.
-1	Ранее	_	_	_	_	_	_	_	bratT33=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA2=T33:Past|bratT33=Date-relative
 2	вице-премьер	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property
-3	Татьяна	_	_	_	_	_	_	_	bratT15=Person
-4	Голикова	_	_	_	_	_	_	_	bratT15=Person
+3	Татьяна	_	_	_	_	_	_	_	bratT15=Person|bratT42=Person-forename
+4	Голикова	_	_	_	_	_	_	_	bratT15=Person|bratT43=Person-surname
 5	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -223,8 +223,8 @@
 12	от	_	_	_	_	_	_	_	_
 13	COVID-19	_	_	_	_	_	_	_	bratT19=Other-term
 14	планируется	_	_	_	_	_	_	_	_
-15	с	_	_	_	_	_	_	_	bratT21=Date-period
-16	2021	_	_	_	_	_	_	_	bratA2=T35:Future|bratT21=Date-period|bratT35=Date-absolute
-17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T35:Future|bratT21=Date-period|bratT35=Date-absolute
+15	с	_	_	_	_	_	_	_	bratA3=T21:Fut|bratT21=Date-period-absolute
+16	2021	_	_	_	_	_	_	_	bratA3=T21:Fut|bratT21=Date-period-absolute
+17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T21:Fut|bratT21=Date-period-absolute
 18	.	_	_	_	_	_	_	_	_
 

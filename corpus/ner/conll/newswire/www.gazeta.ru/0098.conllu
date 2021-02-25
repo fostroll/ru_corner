@@ -81,9 +81,9 @@
 2	пояснила	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT18=Date-period
-6	период	_	_	_	_	_	_	_	bratT18=Date-period
-7	пандемии	_	_	_	_	_	_	_	bratT17=Event|bratT18=Date-period
+5	в	_	_	_	_	_	_	_	bratT18=Date-period-absolute
+6	период	_	_	_	_	_	_	_	bratT18=Date-period-absolute
+7	пандемии	_	_	_	_	_	_	_	bratT17=Event|bratT18=Date-period-absolute
 8	сочетание	_	_	_	_	_	_	_	_
 9	респираторных	_	_	_	_	_	_	_	_
 10	симптомов	_	_	_	_	_	_	_	_
@@ -102,10 +102,10 @@
 
 # sent_id = 0098-p4-s2
 # text = В то же время даже такая комбинация клинических признаков заболевания не является специфической и встречается при других заболеваниях, добавила Пшеничная.
-1	В	_	_	_	_	_	_	_	_
-2	то	_	_	_	_	_	_	_	_
-3	же	_	_	_	_	_	_	_	_
-4	время	_	_	_	_	_	_	_	_
+1	В	_	_	_	_	_	_	_	bratT21=Time-relative
+2	то	_	_	_	_	_	_	_	bratT21=Time-relative
+3	же	_	_	_	_	_	_	_	bratT21=Time-relative
+4	время	_	_	_	_	_	_	_	bratT21=Time-relative
 5	даже	_	_	_	_	_	_	_	_
 6	такая	_	_	_	_	_	_	_	_
 7	комбинация	_	_	_	_	_	_	_	_
@@ -129,9 +129,9 @@
 # par_text = С начала пандемии в мире выявлено почти 59 млн заболевших коронавирусом.
 # sent_id = 0098-p5-s1
 # text = С начала пандемии в мире выявлено почти 59 млн заболевших коронавирусом.
-1	С	_	_	_	_	_	_	_	bratT19=Date-period
-2	начала	_	_	_	_	_	_	_	bratT19=Date-period
-3	пандемии	_	_	_	_	_	_	_	bratT16=Event|bratT19=Date-period
+1	С	_	_	_	_	_	_	_	bratA1=T19:Past-Pres|bratT19=Date-period-absolute
+2	начала	_	_	_	_	_	_	_	bratA1=T19:Past-Pres|bratT19=Date-period-absolute
+3	пандемии	_	_	_	_	_	_	_	bratA1=T19:Past-Pres|bratT16=Event|bratT19=Date-period-absolute
 4	в	_	_	_	_	_	_	_	_
 5	мире	_	_	_	_	_	_	_	bratT20=GPE
 6	выявлено	_	_	_	_	_	_	_	_

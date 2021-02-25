@@ -11,21 +11,21 @@ T8	GPE 506 521	Пермском   крае
 T9	Other-term 577 603	коронавирусной   инфекцией
 T10	Other-term 58 70	коронавируса
 T11	GPE 89 105	Санкт-Петербурге
-T12	Date-period 108 129	за   минувшие   сутки
+T12	Date-period-absolute 108 129	за   минувшие   сутки
 T13	Quantity 142 164	3179   новых   случаев
 T14	Other-term 167 191	коронавирусной   инфекци
 T15	Quantity 257 271	2926   случаев
 T16	Event 364 372	пандемии
-T17	Date-period 351 372	с   начала   пандемии
-T18	Time-relative 462 467	ранее
-T19	Time-relative 197 202	Ранее
+T17	Date-period-absolute 351 372	с   начала   пандемии
+T18	Date-relative 462 467	ранее
+T19	Date-relative 197 202	Ранее
 T20	Date-absolute 246 254	накануне
-T21	Date-period 73 83	за   сутки
+T21	Date-period-absolute 73 83	за   сутки
 A5	Past T20
-A6	Past T17
 T23	Ordinal 113 121	минувшие
-T24	Date-absolute 78 83	сутки
-A3	Past T24
-T25	Date-absolute 113 129	минувшие   сутки
-A4	Past T25
 T22	Duration 124 129	сутки
+A7	Past-Pres T21
+A3	Past T12
+A4	Past-Pres T17
+A6	Past T18
+A8	Past T19

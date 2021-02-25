@@ -2,7 +2,7 @@ T1	GPE 4 10	Москве
 T2	Other-term 29 37	COVID-19
 T3	Quantity 52 66	восемь   тысяч
 T4	GPE 72 78	Москве
-T5	Time-duration 81 91	за   сутки
+T5	Date-period-absolute 81 91	за   сутки
 T6	Quantity 107 127	еще   76   пациентов
 T7	Other-term 203 215	коронавируса
 T8	GPE 275 282	столице
@@ -15,17 +15,25 @@ A1	Media T13
 T14	Organization 713 728	Роспотребнадзор
 T15	Quantity 738 759	три   новых   правила
 T16	Other-term 775 782	ковидом
-T17	Time-duration 904 914	48   часов
-T18	Date-duration 990 1016	по   истечении   14   дней
+T17	Duration 904 914	48   часов
+T18	Time-relative 990 1016	по   истечении   14   дней
 T19	Quantity 1135 1171	одного   отрицательного   результата
 T20	Quantity 1199 1203	двух
-T21	Date-period 285 329	за   все   время   распространения   болезни
+T21	Date-period-absolute 285 329	за   все   время   распространения   болезни
 T22	Other-term 869 875	корону
 T23	Date-relative 672 677	Ранее
-T24	Date-relative 827 833	теперь
+T24	Date-period-absolute 827 833	теперь
 T25	Organization 687 692	kp.ru
 A2	Media T25
 T26	GPE 611 618	столице
 T27	Organization 402 439	оперштаб   по   борьбе   с   covid-19
 T28	Other-term 1041 1050	ПЦР-теста
 T29	Other-term 1174 1183	ПЦР-теста
+T30	Duration 1007 1016	14   дней
+T31	Time-period 904 914	48   часов
+T32	Duration 86 91	сутки
+A3	Past-Pres T5
+A4	Pres-Fut T24
+A5	Past-Pres T21
+A6	Past T10
+A7	Past T23

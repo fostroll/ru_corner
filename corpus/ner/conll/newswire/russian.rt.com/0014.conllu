@@ -7,10 +7,10 @@
 2	считают	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	пик	_	_	_	_	_	_	_	_
-6	кризиса	_	_	_	_	_	_	_	bratT25=Event
-7	после	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-period|bratT25=Event
-8	циклона	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-period|bratT20=Event|bratT25=Event
+5	пик	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-absolute
+6	кризиса	_	_	_	_	_	_	_	bratA6=T27:Past|bratT25=Event|bratT27=Date-absolute
+7	после	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratA6=T27:Past|bratA8=T19:RCont|bratT19=Date-period-absolute|bratT25=Event|bratT27=Date-absolute
+8	циклона	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratA6=T27:Past|bratA8=T19:RCont|bratT19=Date-period-absolute|bratT20=Event|bratT25=Event|bratT27=Date-absolute
 9	в	_	_	_	_	_	_	_	_
 10	Приморье	_	_	_	_	_	_	_	bratT1=GPE
 11	пройден	_	_	_	_	_	_	_	_
@@ -19,10 +19,10 @@
 # par_text = Пик кризиса после циклона в Приморском крае пройден, заявил глава Минвостокразвития Алексей Чекунков.
 # sent_id = 0014-p2-s1
 # text = Пик кризиса после циклона в Приморском крае пройден, заявил глава Минвостокразвития Алексей Чекунков.
-1	Пик	_	_	_	_	_	_	_	_
-2	кризиса	_	_	_	_	_	_	_	bratT26=Event
-3	после	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-period|bratT26=Event
-4	циклона	_	_	_	_	_	_	_	bratA5=T22:Past|bratT21=Event|bratT22=Date-period|bratT26=Event
+1	Пик	_	_	_	_	_	_	_	bratA7=T28:Past|bratT28=Date-absolute
+2	кризиса	_	_	_	_	_	_	_	bratA7=T28:Past|bratT26=Event|bratT28=Date-absolute
+3	после	_	_	_	_	_	_	_	bratA5=T22:Past-Pres|bratA7=T28:Past|bratA9=T22:RCont|bratT22=Date-period-absolute|bratT26=Event|bratT28=Date-absolute
+4	циклона	_	_	_	_	_	_	_	bratA5=T22:Past-Pres|bratA7=T28:Past|bratA9=T22:RCont|bratT21=Event|bratT22=Date-period-absolute|bratT26=Event|bratT28=Date-absolute
 5	в	_	_	_	_	_	_	_	_
 6	Приморском	_	_	_	_	_	_	_	bratT13=GPE
 7	крае	_	_	_	_	_	_	_	bratT13=GPE
@@ -31,8 +31,8 @@
 10	заявил	_	_	_	_	_	_	_	bratT16=Person
 11	глава	_	_	_	_	_	_	_	bratT14=Person-property|bratT16=Person
 12	Минвостокразвития	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Organization|bratT16=Person
-13	Алексей	_	_	_	_	_	_	_	bratT16=Person
-14	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person
+13	Алексей	_	_	_	_	_	_	_	bratT16=Person|bratT29=Person-forename
+14	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT30=Person-surname
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p3
@@ -49,8 +49,8 @@
 8	с	_	_	_	_	_	_	_	_
 9	главой	_	_	_	_	_	_	_	bratT10=Person-property|bratT3=Person
 10	региона	_	_	_	_	_	_	_	bratT10=Person-property|bratT3=Person
-11	Олегом	_	_	_	_	_	_	_	bratT3=Person
-12	Кожемяко	_	_	_	_	_	_	_	bratT3=Person
+11	Олегом	_	_	_	_	_	_	_	bratT3=Person|bratT31=Person-forename
+12	Кожемяко	_	_	_	_	_	_	_	bratT3=Person|bratT32=Person-surname
 13	и	_	_	_	_	_	_	_	_
 14	провёл	_	_	_	_	_	_	_	_
 15	совещание	_	_	_	_	_	_	_	_
@@ -87,15 +87,15 @@
 19	их	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	либо	_	_	_	_	_	_	_	_
-22	в	_	_	_	_	_	_	_	bratA3=T4:Future|bratT4=Date-absolute
-23	ближайшие	_	_	_	_	_	_	_	bratA3=T4:Future|bratT24=Ordinal|bratT4=Date-absolute
-24	сутки	_	_	_	_	_	_	_	bratA3=T4:Future|bratT23=Duration|bratT4=Date-absolute
+22	в	_	_	_	_	_	_	_	bratA3=T4:Fut|bratT4=Date-period-absolute
+23	ближайшие	_	_	_	_	_	_	_	bratA3=T4:Fut|bratT24=Ordinal|bratT4=Date-period-absolute
+24	сутки	_	_	_	_	_	_	_	bratA3=T4:Fut|bratT23=Duration|bratT4=Date-period-absolute
 25	получат	_	_	_	_	_	_	_	SpaceAfter=No
 26	''	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
 28	-	_	_	_	_	_	_	_	_
 29	сказал	_	_	_	_	_	_	_	_
-30	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+30	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-surname|bratT5=Person
 31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p5
@@ -118,11 +118,11 @@
 # par_text = Ранее премьер-министр России Михаил Мишустин поручил предоставить Приморью максимальные ресурсы для ликвидации последствий снежного циклона.
 # sent_id = 0014-p6-s1
 # text = Ранее премьер-министр России Михаил Мишустин поручил предоставить Приморью максимальные ресурсы для ликвидации последствий снежного циклона.
-1	Ранее	_	_	_	_	_	_	_	bratT18=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA10=T18:Past|bratT18=Date-relative
 2	премьер-министр	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
 3	России	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=GPE
-4	Михаил	_	_	_	_	_	_	_	bratT6=Person
-5	Мишустин	_	_	_	_	_	_	_	bratT6=Person
+4	Михаил	_	_	_	_	_	_	_	bratT34=Person-forename|bratT6=Person
+5	Мишустин	_	_	_	_	_	_	_	bratT35=Person-surname|bratT6=Person
 6	поручил	_	_	_	_	_	_	_	_
 7	предоставить	_	_	_	_	_	_	_	_
 8	Приморью	_	_	_	_	_	_	_	bratT9=GPE

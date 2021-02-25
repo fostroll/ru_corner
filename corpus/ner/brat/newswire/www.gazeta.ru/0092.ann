@@ -4,11 +4,9 @@ T3	Person-property 35 50	Президент   США
 T4	Person 35 68	Президент   США   Дональд   Трамп
 T5	Organization 138 149	Белый   дом
 T6	Person 155 160	Трамп
-T7	Time-absolute 201 210	в   12.30
-T8	Time-absolute 217 228	20.30   мск
-T9	Time-relative 262 279	за   три   минуты
+T7	Date-relative 201 232	в   12.30   (   20.30   мск   )
+T9	Date-relative 262 279	за   три   минуты
 T10	Person-property 291 298	политик
-T11	Time-period 320 342	За   последние   сутки
 T12	Quantity 353 375	три   ключевых   штата
 T13	GPE 382 394	Пенсильвания
 T16	Political-group 451 460	демократа
@@ -51,4 +49,17 @@ A6	Media T44
 T45	Event 484 507	президентских   выборах
 T46	Person-property 586 633	претендентами   на   пост   главы   государства
 T47	Ordinal 325 334	последние
-T48	Time-period 71 93	в   ближайшие   минуты
+T48	Date-absolute 71 93	в   ближайшие   минуты
+T49	Duration 87 93	минуты
+A7	Future T48
+T50	Ordinal 75 84	ближайшие
+T51	Duration 267 279	три   минуты
+A8	Past T9
+A9	Past T7
+T52	Duration 337 342	сутки
+T53	Date-period-absolute 320 342	За   последние   сутки
+A12	Past-Pres T53
+T11	Time-absolute 201 210	в   12.30
+T54	Time-absolute 217 228	20.30   мск
+A11	Past T18
+A13	Past T25

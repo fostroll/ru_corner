@@ -11,6 +11,10 @@ T9	Quantity 803 821	двумя   компаниями
 T10	Person-property 879 890	Полицейские
 T11	Law 1070 1109	статье   ``   Мелкое   хулиганство   ''
 T12	GPE 178 194	Санкт-Петербурга
-T13	Date-relative 563 570	Ранее  
-T14	Date-period 594 611	после   конфликта
-T15	Date-period 837 852	после   которой
+T13	Date-relative 563 568	Ранее
+T14	Date-absolute 594 611	после   конфликта
+T15	Date-relative 837 852	после   которой
+A2	Past T14
+T16	Event 787 792	драку
+A3	Past T15
+A4	Past T13

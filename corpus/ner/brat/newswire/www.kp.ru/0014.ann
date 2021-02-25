@@ -1,7 +1,7 @@
 T1	Person-property 0 5	Юрист
 T2	Nationality 68 75	Россиян
 A1	Citizenship T2
-T3	Date-period 141 157	С   28   октября
+T3	Date-period-absolute 141 157	С   28   октября
 T4	Organization 160 175	Роспотребнадзор
 T5	GPE 550 552	РФ
 T6	Law 525 552	статьи   20.6.1   КоАП   РФ
@@ -19,7 +19,9 @@ T16	Other-term 1718 1730	коронавируса
 T17	Event 1701 1730	вторую   волну   коронавируса
 T18	Person-property 1735 1745	Специалист
 T19	Other-term 1885 1895	депрессией
-T20	Date-period 1530 1548	после   того   как
+T20	Time-relative 1530 1548	после   того   как
 T21	Date-relative 1624 1629	Ранее
 T22	Quantity 1754 1773	несколько   советов
 T23	Law 543 552	КоАП   РФ
+A3	UNK-Fut T3
+A4	Past T21

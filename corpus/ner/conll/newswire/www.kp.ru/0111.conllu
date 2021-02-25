@@ -28,11 +28,11 @@
 11	подтвердил	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	bratT9=Date-absolute
-15	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
-16	,	_	_	_	_	_	_	_	bratT9=Date-absolute
-17	23	_	_	_	_	_	_	_	bratT9=Date-absolute
-18	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
+14	в	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
+15	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Past|bratT9=Date-absolute
+16	,	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
+17	23	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
+18	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Past|bratT9=Date-absolute
 19	,	_	_	_	_	_	_	_	_
 20	началась	_	_	_	_	_	_	_	_
 21	процедура	_	_	_	_	_	_	_	_
@@ -146,7 +146,7 @@
 # par_text = Ранее сайт KP.ru сообщил, что действующий президент США Дональд Трамп распорядился начать процедуру передачи власти команде Джо Байдена "в лучших интересах страны".
 # sent_id = 0111-p5-s1
 # text = Ранее сайт KP.ru сообщил, что действующий президент США Дональд Трамп распорядился начать процедуру передачи власти команде Джо Байдена ``в лучших интересах страны''.
-1	Ранее	_	_	_	_	_	_	_	bratT28=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA4=T28:Past|bratT28=Date-relative
 2	сайт	_	_	_	_	_	_	_	bratA1=T22:Media|bratT22=Service
 3	KP.ru	_	_	_	_	_	_	_	bratA1=T22:Media|bratA2=T29:Media|bratT22=Service|bratT29=Organization
 4	сообщил	_	_	_	_	_	_	_	SpaceAfter=No

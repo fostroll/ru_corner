@@ -80,9 +80,9 @@
 
 # sent_id = 0048-p3-s3
 # text = Перед тем как начать задержания, в сторону митингующих был распылен слезоточивый газ из баллончиков.
-1	Перед	_	_	_	_	_	_	_	bratT4=Date-period
-2	тем	_	_	_	_	_	_	_	bratT4=Date-period
-3	как	_	_	_	_	_	_	_	bratT4=Date-period
+1	Перед	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-relative
+2	тем	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-relative
+3	как	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-relative
 4	начать	_	_	_	_	_	_	_	_
 5	задержания	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_

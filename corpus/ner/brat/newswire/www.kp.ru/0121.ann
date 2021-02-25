@@ -13,9 +13,9 @@ T11	Event 1227 1263	пандемии   коронавирусной   инфек
 T12	Nationality 1003 1011	россияне
 A2	Citizenship T12
 T13	Event 69 77	пандемии
-T14	Date-period 465 487	во   время   заседания
+T14	Date-absolute 465 487	во   время   заседания
 T15	Organization 1112 1125	правительство
-T16	Date-relative 1128 1135	сегодня
+T16	Date-absolute 1128 1135	сегодня
 T17	Family 258 263	семьи
 T18	Family 780 785	семьи
 T19	Family 270 276	детьми
@@ -26,3 +26,6 @@ T23	Other-term 142 167	коронавирусной   инфекции
 T24	Other-term 1238 1263	коронавирусной   инфекции
 T25	Organization 1100 1105	Kp.ru
 A3	Media T25
+A4	Past T4
+A5	Past T14
+A6	Present T16

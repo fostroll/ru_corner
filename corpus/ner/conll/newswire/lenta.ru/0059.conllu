@@ -93,12 +93,12 @@
 # sent_id = 0059-p4-s1
 # text = ``В прошлом году в рамках акции ``Елка желаний'' было исполнено свыше 7500 желаний.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	В	_	_	_	_	_	_	_	bratA11=T8:Past|bratA13=T35:Past|bratT35=Date-period|bratT8=Date-absolute
-3	прошлом	_	_	_	_	_	_	_	bratA11=T8:Past|bratA13=T35:Past|bratT35=Date-period|bratT36=Ordinal|bratT8=Date-absolute
-4	году	_	_	_	_	_	_	_	bratA11=T8:Past|bratA13=T35:Past|bratT35=Date-period|bratT8=Date-absolute
-5	в	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period
-6	рамках	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period
-7	акции	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period|bratT9=Event
+2	В	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period-absolute
+3	прошлом	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period-absolute|bratT36=Ordinal
+4	году	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period-absolute
+5	в	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period-absolute
+6	рамках	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period-absolute
+7	акции	_	_	_	_	_	_	_	bratA13=T35:Past|bratT35=Date-period-absolute|bratT9=Event
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Event
 9	Елка	_	_	_	_	_	_	_	bratT9=Event
 10	желаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Event
@@ -121,28 +121,28 @@
 7	мы	_	_	_	_	_	_	_	_
 8	будем	_	_	_	_	_	_	_	_
 9	принимать	_	_	_	_	_	_	_	_
-10	с	_	_	_	_	_	_	_	bratT12=Date-period
-11	16	_	_	_	_	_	_	_	bratA7=T31:Future|bratT12=Date-period|bratT31=Date-absolute
-12	ноября	_	_	_	_	_	_	_	bratA7=T31:Future|bratT12=Date-period|bratT31=Date-absolute
-13	по	_	_	_	_	_	_	_	bratT12=Date-period
-14	15	_	_	_	_	_	_	_	bratA8=T32:Future|bratT12=Date-period|bratT32=Date-absolute
-15	декабря	_	_	_	_	_	_	_	bratA8=T32:Future|bratT12=Date-period|bratT32=Date-absolute
-16	текущего	_	_	_	_	_	_	_	bratA8=T32:Future|bratT12=Date-period|bratT32=Date-absolute|bratT37=Ordinal
-17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T32:Future|bratT12=Date-period|bratT32=Date-absolute
+10	с	_	_	_	_	_	_	_	bratA5=T12:Fut|bratT12=Date-period-absolute
+11	16	_	_	_	_	_	_	_	bratA5=T12:Fut|bratT12=Date-period-absolute
+12	ноября	_	_	_	_	_	_	_	bratA5=T12:Fut|bratT12=Date-period-absolute
+13	по	_	_	_	_	_	_	_	bratA5=T12:Fut|bratT12=Date-period-absolute
+14	15	_	_	_	_	_	_	_	bratA5=T12:Fut|bratT12=Date-period-absolute
+15	декабря	_	_	_	_	_	_	_	bratA5=T12:Fut|bratT12=Date-period-absolute
+16	текущего	_	_	_	_	_	_	_	bratA5=T12:Fut|bratT12=Date-period-absolute|bratT37=Ordinal
+17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T12:Fut|bratT12=Date-period-absolute
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0059-p4-s3
 # text = А уже с 1 декабря по 28 февраля следующего года партнеры, участники конкурса ``Лидеры России'' и другие неравнодушные люди исполнят новогодние желания'', - приводятся в сообщении слова генерального директора АНО ``Россия - страна возможностей'' Алексея Комиссарова.
 1	А	_	_	_	_	_	_	_	_
 2	уже	_	_	_	_	_	_	_	_
-3	с	_	_	_	_	_	_	_	bratT13=Date-period
-4	1	_	_	_	_	_	_	_	bratA9=T33:Future|bratT13=Date-period|bratT33=Date-absolute
-5	декабря	_	_	_	_	_	_	_	bratA9=T33:Future|bratT13=Date-period|bratT33=Date-absolute
-6	по	_	_	_	_	_	_	_	bratT13=Date-period
-7	28	_	_	_	_	_	_	_	bratA10=T34:Future|bratT13=Date-period|bratT34=Date-absolute
-8	февраля	_	_	_	_	_	_	_	bratA10=T34:Future|bratT13=Date-period|bratT34=Date-absolute
-9	следующего	_	_	_	_	_	_	_	bratA10=T34:Future|bratT13=Date-period|bratT29=Ordinal|bratT34=Date-absolute
-10	года	_	_	_	_	_	_	_	bratA10=T34:Future|bratT13=Date-period|bratT34=Date-absolute
+3	с	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute
+4	1	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute
+5	декабря	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute
+6	по	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute
+7	28	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute
+8	февраля	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute
+9	следующего	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute|bratT29=Ordinal
+10	года	_	_	_	_	_	_	_	bratA11=T13:Fut|bratT13=Date-period-absolute
 11	партнеры	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	участники	_	_	_	_	_	_	_	_
@@ -174,8 +174,8 @@
 39	страна	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property|bratT17=Person
 40	возможностей	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization|bratT16=Person-property|bratT17=Person
 41	''	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property|bratT17=Person
-42	Алексея	_	_	_	_	_	_	_	bratT17=Person
-43	Комиссарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person
+42	Алексея	_	_	_	_	_	_	_	bratT17=Person|bratT8=Person-forename
+43	Комиссарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT31=Person-surname
 44	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0059-p5

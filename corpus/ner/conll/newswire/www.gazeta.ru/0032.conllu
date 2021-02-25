@@ -60,17 +60,17 @@
 6	на	_	_	_	_	_	_	_	_
 7	пост	_	_	_	_	_	_	_	_
 8	сроком	_	_	_	_	_	_	_	_
-9	на	_	_	_	_	_	_	_	bratT10=Date-duration
-10	три	_	_	_	_	_	_	_	bratT10=Date-duration
-11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-duration
+9	на	_	_	_	_	_	_	_	bratA2=T26:UNK-Fut|bratT26=Date-period-absolute
+10	три	_	_	_	_	_	_	_	bratA2=T26:UNK-Fut|bratT10=Duration|bratT26=Date-period-absolute
+11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T26:UNK-Fut|bratT10=Duration|bratT26=Date-period-absolute
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0032-p4
 # par_text = До этого гендиректором РЭО был Илья Гудков. Его сняли с должности в конце октября.
 # sent_id = 0032-p4-s1
 # text = До этого гендиректором РЭО был Илья Гудков.
-1	До	_	_	_	_	_	_	_	bratT22=Date-period
-2	этого	_	_	_	_	_	_	_	bratT22=Date-period
+1	До	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-period-relative
+2	этого	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-period-relative
 3	гендиректором	_	_	_	_	_	_	_	bratT12=Person-property
 4	РЭО	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property
 5	был	_	_	_	_	_	_	_	_
@@ -84,9 +84,9 @@
 2	сняли	_	_	_	_	_	_	_	_
 3	с	_	_	_	_	_	_	_	_
 4	должности	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT14=Date-absolute
-6	конце	_	_	_	_	_	_	_	bratT14=Date-absolute
-7	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Date-absolute
+5	в	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
+6	конце	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
+7	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Past|bratT14=Date-absolute
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0032-p5
@@ -97,15 +97,15 @@
 2	занимал	_	_	_	_	_	_	_	_
 3	этот	_	_	_	_	_	_	_	_
 4	пост	_	_	_	_	_	_	_	_
-5	с	_	_	_	_	_	_	_	bratT16=Date-period
-6	февраля	_	_	_	_	_	_	_	bratT16=Date-period
-7	до	_	_	_	_	_	_	_	bratT16=Date-period
-8	ноября	_	_	_	_	_	_	_	bratT16=Date-period
-9	2019	_	_	_	_	_	_	_	bratT16=Date-period
-10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-period
+5	с	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-period-absolute
+6	февраля	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-period-absolute
+7	до	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-period-absolute
+8	ноября	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-period-absolute
+9	2019	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-period-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Past|bratT16=Date-period-absolute
 11	,	_	_	_	_	_	_	_	_
 12	а	_	_	_	_	_	_	_	_
-13	затем	_	_	_	_	_	_	_	bratT23=Date-relative
+13	затем	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-relative
 14	принял	_	_	_	_	_	_	_	_
 15	решение	_	_	_	_	_	_	_	_
 16	досрочно	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 
 # sent_id = 0032-p5-s2
 # text = Затем он был назначен на пост первого заместителя губернатора Белгородской области.
-1	Затем	_	_	_	_	_	_	_	bratT24=Date-relative
+1	Затем	_	_	_	_	_	_	_	bratA7=T24:Past|bratT24=Date-relative
 2	он	_	_	_	_	_	_	_	_
 3	был	_	_	_	_	_	_	_	_
 4	назначен	_	_	_	_	_	_	_	_

@@ -20,10 +20,9 @@ T18	GPE 690 711	Республики   Беларусь
 T19	Person-property 983 991	Силовики
 T20	Organization 1016 1020	СИЗО
 T21	Person-property 1160 1170	президента
-T22	Date-duration 1217 1232	до   двух   лет
 T23	Event 1238 1246	Протесты
 T24	GPE 1253 1263	Белоруссии
-T25	Date-period 1281 1295	третий   месяц
+T25	Date-period-absolute 1281 1304	третий   месяц   подряд
 T26	Organization 1351 1367	ЦИК   республики
 T27	Person 1380 1402	Александра   Лукашенко
 T28	Date-absolute 1468 1479	9   августа
@@ -36,9 +35,18 @@ T33	Organization 827 839	пресс-службе
 A1	Department T33
 T34	Ordinal 1281 1287	третий
 T35	Organization 1491 1525	штабы   оппозиционных   кандидатов
-T36	Date-period 1049 1063	до   окончания
-T37	Date-period 1326 1348	после   того   ,   как
+T36	Date-period-absolute 1049 1063	до   окончания
+T37	Date-relative 1326 1348	после   того   ,   как
 T38	Service 311 328	публичных   чатов
 A4	Media T38
 T39	Service 551 556	чатов
 A5	Media T39
+T40	Duration 1217 1232	до   двух   лет
+T22	Time-period 1217 1232	до   двух   лет
+A6	Past T14
+A7	Past-Fut T36
+A8	LCont T25
+A9	Past-Pres T25
+A10	Past T28
+A11	Past T37
+T41	Duration 1290 1295	месяц

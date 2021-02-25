@@ -14,11 +14,11 @@
 # par_text = В понедельник, 2 ноября, совершено нападение на синагогу в центре Вены, были слышны выстрелы. В результате инцидента один человек погиб, еще несколько пострадали.
 # sent_id = 0021-p2-s1
 # text = В понедельник, 2 ноября, совершено нападение на синагогу в центре Вены, были слышны выстрелы.
-1	В	_	_	_	_	_	_	_	bratT2=Date-absolute
-2	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Date-absolute
-3	,	_	_	_	_	_	_	_	bratT2=Date-absolute
-4	2	_	_	_	_	_	_	_	bratT2=Date-absolute
-5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA3=T2:Past|bratT2=Date-absolute
+2	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T2:Past|bratT2=Date-absolute
+3	,	_	_	_	_	_	_	_	bratA3=T2:Past|bratT2=Date-absolute
+4	2	_	_	_	_	_	_	_	bratA3=T2:Past|bratT2=Date-absolute
+5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T2:Past|bratT2=Date-absolute
 6	,	_	_	_	_	_	_	_	_
 7	совершено	_	_	_	_	_	_	_	_
 8	нападение	_	_	_	_	_	_	_	bratT3=Event
@@ -132,9 +132,9 @@
 3	центральной	_	_	_	_	_	_	_	_
 4	части	_	_	_	_	_	_	_	_
 5	города	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT22=Date-relative
-7	настоящее	_	_	_	_	_	_	_	bratT22=Date-relative
-8	время	_	_	_	_	_	_	_	bratT22=Date-relative
+6	в	_	_	_	_	_	_	_	bratA5=T22:Present|bratT22=Date-absolute
+7	настоящее	_	_	_	_	_	_	_	bratA5=T22:Present|bratT22=Date-absolute|bratT31=Ordinal
+8	время	_	_	_	_	_	_	_	bratA5=T22:Present|bratT22=Date-absolute
 9	проводится	_	_	_	_	_	_	_	_
 10	крупная	_	_	_	_	_	_	_	_
 11	полицейская	_	_	_	_	_	_	_	_
@@ -153,9 +153,9 @@
 # text = Обстоятельства произошедшего в настоящее время выясняются'', - заявила полиция Вены.
 1	Обстоятельства	_	_	_	_	_	_	_	_
 2	произошедшего	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT23=Date-relative
-4	настоящее	_	_	_	_	_	_	_	bratT23=Date-relative
-5	время	_	_	_	_	_	_	_	bratT23=Date-relative
+3	в	_	_	_	_	_	_	_	bratA6=T23:Present|bratT23=Date-absolute
+4	настоящее	_	_	_	_	_	_	_	bratA6=T23:Present|bratT23=Date-absolute|bratT32=Ordinal
+5	время	_	_	_	_	_	_	_	bratA6=T23:Present|bratT23=Date-absolute
 6	выясняются	_	_	_	_	_	_	_	SpaceAfter=No
 7	''	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
@@ -188,8 +188,8 @@
 # text = Напомним, днем ранее произошло нападение в историческом старом районе Квебека.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	днем	_	_	_	_	_	_	_	bratT24=Date-relative
-4	ранее	_	_	_	_	_	_	_	bratT24=Date-relative
+3	днем	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-relative|bratT30=Duration
+4	ранее	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-relative
 5	произошло	_	_	_	_	_	_	_	_
 6	нападение	_	_	_	_	_	_	_	bratT28=Event
 7	в	_	_	_	_	_	_	_	_

@@ -70,9 +70,9 @@
 5	красных	_	_	_	_	_	_	_	_
 6	дьяволов	_	_	_	_	_	_	_	SpaceAfter=No
 7	''	_	_	_	_	_	_	_	_
-8	с	_	_	_	_	_	_	_	bratT15=Date-period
-9	2011	_	_	_	_	_	_	_	bratT15=Date-period
-10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-period
+8	с	_	_	_	_	_	_	_	bratA2=T15:RCont|bratA3=T15:Past-Pres|bratT15=Date-period-absolute
+9	2011	_	_	_	_	_	_	_	bratA2=T15:RCont|bratA3=T15:Past-Pres|bratT15=Date-period-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:RCont|bratA3=T15:Past-Pres|bratT15=Date-period-absolute
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0035-p3-s3
@@ -91,7 +91,7 @@
 
 # sent_id = 0035-p3-s4
 # text = Ранее Артем Дзюба вернулся к тренировкам после секс-скандала.
-1	Ранее	_	_	_	_	_	_	_	bratT19=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-relative
 2	Артем	_	_	_	_	_	_	_	bratT16=Person
 3	Дзюба	_	_	_	_	_	_	_	bratT16=Person
 4	вернулся	_	_	_	_	_	_	_	_

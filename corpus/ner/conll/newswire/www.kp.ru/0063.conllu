@@ -45,11 +45,11 @@
 
 # sent_id = 0063-p2-s2
 # text = В четверг, 19 ноября, анализы подтвердили, что куры, погибшие на двух фермах, были заражены птичьим гриппом, сообщает агентство Kyodo.
-1	В	_	_	_	_	_	_	_	bratT8=Date-absolute
-2	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-absolute
-3	,	_	_	_	_	_	_	_	bratT8=Date-absolute
-4	19	_	_	_	_	_	_	_	bratT8=Date-absolute
-5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA9=T8:Past|bratT8=Date-absolute
+2	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T8:Past|bratT8=Date-absolute
+3	,	_	_	_	_	_	_	_	bratA9=T8:Past|bratT8=Date-absolute
+4	19	_	_	_	_	_	_	_	bratA9=T8:Past|bratT8=Date-absolute
+5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T8:Past|bratT8=Date-absolute
 6	,	_	_	_	_	_	_	_	_
 7	анализы	_	_	_	_	_	_	_	_
 8	подтвердили	_	_	_	_	_	_	_	SpaceAfter=No
@@ -76,9 +76,9 @@
 # par_text = В начале ноября был выявлен первый случай заражения на птицеферме в городе Митоё, владельцам которой пришлось уничтожить более 330 тысяч кур. Затем власти запретили продавать птицу со всех ферм в радиусе 10 километров от Митоё. Сейчас в городе зафиксировано уже шесть случае заражения, и ещё один в городе Хигасикагава.
 # sent_id = 0063-p3-s1
 # text = В начале ноября был выявлен первый случай заражения на птицеферме в городе Митоё, владельцам которой пришлось уничтожить более 330 тысяч кур.
-1	В	_	_	_	_	_	_	_	bratT28=Date-absolute
-2	начале	_	_	_	_	_	_	_	bratT28=Date-absolute
-3	ноября	_	_	_	_	_	_	_	bratT28=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA10=T28:Past|bratT28=Date-absolute
+2	начале	_	_	_	_	_	_	_	bratA10=T28:Past|bratT28=Date-absolute
+3	ноября	_	_	_	_	_	_	_	bratA10=T28:Past|bratT28=Date-absolute
 4	был	_	_	_	_	_	_	_	_
 5	выявлен	_	_	_	_	_	_	_	_
 6	первый	_	_	_	_	_	_	_	bratT30=Ordinal
@@ -102,7 +102,7 @@
 
 # sent_id = 0063-p3-s2
 # text = Затем власти запретили продавать птицу со всех ферм в радиусе 10 километров от Митоё.
-1	Затем	_	_	_	_	_	_	_	bratT38=Date-relative
+1	Затем	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-relative
 2	власти	_	_	_	_	_	_	_	_
 3	запретили	_	_	_	_	_	_	_	_
 4	продавать	_	_	_	_	_	_	_	_
@@ -120,7 +120,7 @@
 
 # sent_id = 0063-p3-s3
 # text = Сейчас в городе зафиксировано уже шесть случае заражения, и ещё один в городе Хигасикагава.
-1	Сейчас	_	_	_	_	_	_	_	bratT35=Date-relative
+1	Сейчас	_	_	_	_	_	_	_	bratA6=T35:Present|bratT35=Date-absolute
 2	в	_	_	_	_	_	_	_	_
 3	городе	_	_	_	_	_	_	_	_
 4	зафиксировано	_	_	_	_	_	_	_	_
@@ -153,9 +153,9 @@
 10	в	_	_	_	_	_	_	_	_
 11	Россию	_	_	_	_	_	_	_	bratT18=GPE
 12	запрещены	_	_	_	_	_	_	_	_
-13	с	_	_	_	_	_	_	_	bratT19=Date-absolute
-14	11	_	_	_	_	_	_	_	bratT19=Date-absolute
-15	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Date-absolute
+13	с	_	_	_	_	_	_	_	bratA5=T19:Past-Fut|bratT19=Date-period-absolute
+14	11	_	_	_	_	_	_	_	bratA5=T19:Past-Fut|bratT19=Date-period-absolute
+15	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T19:Past-Fut|bratT19=Date-period-absolute
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0063-p4-s2
@@ -173,7 +173,7 @@
 # par_text = Ранее, как сообщал сайт KP.ru, власти Дании приняли решение уничтожить всех норок на всех зверофермах в стране из-за заражения животных коронавирусом. Через неделю министр по вопросам гендерного равенства, продовольствия и рыболовства пищевых продуктов Могенс Енсен признал это решение ошибкой, и истребление популяции норок было остановлено. К тому моменту из 14-17 миллионов животных было убито 2,4 миллиона.
 # sent_id = 0063-p5-s1
 # text = Ранее, как сообщал сайт KP.ru, власти Дании приняли решение уничтожить всех норок на всех зверофермах в стране из-за заражения животных коронавирусом.
-1	Ранее	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Date-relative
+1	Ранее	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T39:Past|bratT39=Date-relative
 2	,	_	_	_	_	_	_	_	_
 3	как	_	_	_	_	_	_	_	_
 4	сообщал	_	_	_	_	_	_	_	_
@@ -200,8 +200,8 @@
 
 # sent_id = 0063-p5-s2
 # text = Через неделю министр по вопросам гендерного равенства, продовольствия и рыболовства пищевых продуктов Могенс Енсен признал это решение ошибкой, и истребление популяции норок было остановлено.
-1	Через	_	_	_	_	_	_	_	bratT23=Date-relative
-2	неделю	_	_	_	_	_	_	_	bratT23=Date-relative
+1	Через	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-relative
+2	неделю	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-relative|bratT36=Duration
 3	министр	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
 4	по	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
 5	вопросам	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
@@ -230,9 +230,9 @@
 
 # sent_id = 0063-p5-s3
 # text = К тому моменту из 14-17 миллионов животных было убито 2,4 миллиона.
-1	К	_	_	_	_	_	_	_	bratT37=Date-relative
-2	тому	_	_	_	_	_	_	_	bratT37=Date-relative
-3	моменту	_	_	_	_	_	_	_	bratT37=Date-relative
+1	К	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-relative
+2	тому	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-relative
+3	моменту	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-relative
 4	из	_	_	_	_	_	_	_	bratT26=Quantity
 5	14-17	_	_	_	_	_	_	_	bratT26=Quantity
 6	миллионов	_	_	_	_	_	_	_	bratT26=Quantity

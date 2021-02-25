@@ -11,8 +11,8 @@ T8	Person 419 428	Заводника
 T9	Person-property 541 551	футболиста
 T10	Person 582 587	Дзюбы
 T11	Organization 594 611	``   Зенитом   ''
-T12	Date-period 626 642	до   2022   года
-T13	Date-duration 733 740	в   год
+T12	Date-period-absolute 626 642	до   2022   года
+T13	Time-period 733 740	в   год
 T14	Money 714 730	3,6   млн   евро
 T15	Person-property 690 700	нападающий
 T16	Person-property 853 859	игрока
@@ -28,8 +28,13 @@ T25	Person-property 0 7	Эксперт
 T26	Quantity 435 445	одним   из
 T27	Ordinal 1481 1487	первую
 T28	Quantity 1565 1573	не   раз
-T29	Date-period 324 340	после   скандала
+T29	Date-absolute 324 340	после   скандала
 T30	Event 332 358	скандала   с   интим-видео
 T31	Event 105 119	интим-скандала
-T32	Date-period 97 119	после   интим-скандала
+T32	Date-period-absolute 97 119	после   интим-скандала
 T33	Date-relative 647 652	Ранее
+T34	Duration 737 740	год
+A3	Pres-Fut T32
+A4	Past-Fut T12
+A5	Past T33
+A6	Past T29

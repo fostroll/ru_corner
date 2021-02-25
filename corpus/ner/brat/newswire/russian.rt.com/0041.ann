@@ -23,19 +23,30 @@ T24	Quantity 1558 1583	2   187   990   пациентов
 T25	Other-term 1590 1598	COVID-19
 T26	Other-term 46 58	коронавируса
 T27	Other-term 28 38	вакцинация
-T8	Date-relative 448 466	до   Нового   года
+T8	Date-absolute 448 466	до   Нового   года
 T4	Person-property 80 118	Пресс-секретарь   российского   лидера
 T28	Person-property 98 118	российского   лидера
 T29	Person 80 137	Пресс-секретарь   российского   лидера   Дмитрий   Песков
 T30	Other-term 159 169	вакцинация
 T31	Other-term 177 213	коронавирусной   инфекции   COVID-19
 T33	Date-absolute 896 902	сейчас
-T34	Time-relative 1020 1025	Ранее
-T35	Date-period 1423 1433	за   сутки
-A1	Past T35
+T34	Date-relative 1020 1025	Ранее
+T35	Date-period-relative 1423 1433	за   сутки
 A2	Past T18
 A3	Present T33
 T36	Event 453 466	Нового   года
 A5	Future T8
-T32	Date-period 1507 1523	за   всё   время
+T32	Date-period-absolute 1507 1523	за   всё   время
 T37	Duration 1512 1523	всё   время
+A1	Past T35
+A4	Past-Pres T32
+A6	Past T34
+T38	Person-surname 0 6	Песков
+T39	GPE 98 109	российского
+T40	Person-forename 121 128	Дмитрий
+T41	Person-surname 131 137	Песков
+T42	Person-surname 311 317	Песков
+T43	Person-surname 677 683	Песков
+T44	Person-forename 1055 1061	Михаил
+T45	Person-surname 1064 1072	Мишустин
+T46	Person-surname 1205 1213	Мишустин

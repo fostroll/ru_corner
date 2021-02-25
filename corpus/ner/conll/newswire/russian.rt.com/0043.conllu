@@ -7,7 +7,7 @@
 2	Франции	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
 3	оценил	_	_	_	_	_	_	_	_
 4	сравнение	_	_	_	_	_	_	_	_
-5	Макрона	_	_	_	_	_	_	_	bratT3=Person
+5	Макрона	_	_	_	_	_	_	_	bratT3=Person|bratT40=Person-surname
 6	с	_	_	_	_	_	_	_	_
 7	нацистами	_	_	_	_	_	_	_	bratT4=Political-group
 8	министром	_	_	_	_	_	_	_	bratT5=Person-property
@@ -27,14 +27,14 @@
 8	правам	_	_	_	_	_	_	_	bratT32=Person-property|bratT34=Person
 9	человека	_	_	_	_	_	_	_	bratT32=Person-property|bratT34=Person
 10	Пакистана	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=GPE|bratT34=Person
-11	Ширин	_	_	_	_	_	_	_	bratT34=Person
-12	Мазари	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person
+11	Ширин	_	_	_	_	_	_	_	bratT34=Person|bratT41=Person-forename
+12	Мазари	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person|bratT42=Person-surname
 13	,	_	_	_	_	_	_	_	_
 14	сравнившей	_	_	_	_	_	_	_	_
-15	французского	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Person
+15	французского	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Person|bratT45=GPE
 16	президента	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Person
-17	Эммануэля	_	_	_	_	_	_	_	bratT36=Person
-18	Макрона	_	_	_	_	_	_	_	bratT36=Person
+17	Эммануэля	_	_	_	_	_	_	_	bratT36=Person|bratT43=Person-forename
+18	Макрона	_	_	_	_	_	_	_	bratT36=Person|bratT44=Person-surname
 19	с	_	_	_	_	_	_	_	_
 20	нацистами	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Political-group
 21	.	_	_	_	_	_	_	_	_
@@ -87,7 +87,7 @@
 # sent_id = 0043-p5-s1
 # text = Слова пакистанского министра в МИД Франции назвали ``бесстыдной ложью, пропитанной идеологией ненависти и насилия''.
 1	Слова	_	_	_	_	_	_	_	_
-2	пакистанского	_	_	_	_	_	_	_	bratT11=Person-property
+2	пакистанского	_	_	_	_	_	_	_	bratT11=Person-property|bratT46=GPE
 3	министра	_	_	_	_	_	_	_	bratT11=Person-property
 4	в	_	_	_	_	_	_	_	_
 5	МИД	_	_	_	_	_	_	_	bratT12=Organization
@@ -128,7 +128,7 @@
 3	РИА	_	_	_	_	_	_	_	bratA2=T15:Media|bratT15=Organization
 4	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
 5	,	_	_	_	_	_	_	_	_
-6	Мазари	_	_	_	_	_	_	_	bratT16=Person
+6	Мазари	_	_	_	_	_	_	_	bratT16=Person|bratT47=Person-surname
 7	в	_	_	_	_	_	_	_	_
 8	своём	_	_	_	_	_	_	_	_
 9	Twitter	_	_	_	_	_	_	_	bratA3=T17:Media|bratT17=Service
@@ -136,7 +136,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
-14	Макрон	_	_	_	_	_	_	_	bratT18=Person
+14	Макрон	_	_	_	_	_	_	_	bratT18=Person|bratT48=Person-surname
 15	делает	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
 17	мусульманами	_	_	_	_	_	_	_	bratT19=Religious-group
@@ -177,7 +177,7 @@
 # par_text = Ранее Франция отозвала своего посла в Анкаре из-за слов президента Турции Реджепа Тайипа Эрдогана о Макроне.
 # sent_id = 0043-p8-s1
 # text = Ранее Франция отозвала своего посла в Анкаре из-за слов президента Турции Реджепа Тайипа Эрдогана о Макроне.
-1	Ранее	_	_	_	_	_	_	_	bratT38=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-relative
 2	Франция	_	_	_	_	_	_	_	bratT23=GPE
 3	отозвала	_	_	_	_	_	_	_	_
 4	своего	_	_	_	_	_	_	_	_
@@ -188,10 +188,10 @@
 9	слов	_	_	_	_	_	_	_	_
 10	президента	_	_	_	_	_	_	_	bratT26=Person-property|bratT28=Person
 11	Турции	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=GPE|bratT28=Person
-12	Реджепа	_	_	_	_	_	_	_	bratT28=Person
-13	Тайипа	_	_	_	_	_	_	_	bratT28=Person
-14	Эрдогана	_	_	_	_	_	_	_	bratT28=Person
+12	Реджепа	_	_	_	_	_	_	_	bratT28=Person|bratT49=Person-forename
+13	Тайипа	_	_	_	_	_	_	_	bratT28=Person|bratT49=Person-forename
+14	Эрдогана	_	_	_	_	_	_	_	bratT28=Person|bratT50=Person-surname
 15	о	_	_	_	_	_	_	_	_
-16	Макроне	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person
+16	Макроне	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person|bratT51=Person-surname
 17	.	_	_	_	_	_	_	_	_
 

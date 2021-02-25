@@ -45,11 +45,11 @@
 8	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Quantity
 9	,	_	_	_	_	_	_	_	_
 10	сообщает	_	_	_	_	_	_	_	_
-11	в	_	_	_	_	_	_	_	bratT7=Date-absolute
-12	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-absolute
-13	,	_	_	_	_	_	_	_	bratT7=Date-absolute
-14	2	_	_	_	_	_	_	_	bratT7=Date-absolute
-15	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-absolute
+11	в	_	_	_	_	_	_	_	bratA3=T7:Present|bratT7=Date-absolute
+12	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T7:Present|bratT7=Date-absolute
+13	,	_	_	_	_	_	_	_	bratA3=T7:Present|bratT7=Date-absolute
+14	2	_	_	_	_	_	_	_	bratA3=T7:Present|bratT7=Date-absolute
+15	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T7:Present|bratT7=Date-absolute
 16	,	_	_	_	_	_	_	_	_
 17	пресс-служба	_	_	_	_	_	_	_	bratA1=T8:Department|bratT8=Organization
 18	турецкого	_	_	_	_	_	_	_	bratA1=T8:Department|bratT8=Organization|bratT9=Organization
@@ -83,9 +83,9 @@
 
 # sent_id = 0087-p3-s3
 # text = В настоящее время медики оказываются помощь еще 218 раненым, - говорится в сообщении ведомства.
-1	В	_	_	_	_	_	_	_	bratT27=Date-relative
-2	настоящее	_	_	_	_	_	_	_	bratT27=Date-relative
-3	время	_	_	_	_	_	_	_	bratT27=Date-relative
+1	В	_	_	_	_	_	_	_	bratA2=T27:Present|bratT27=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA2=T27:Present|bratT27=Date-absolute|bratT32=Ordinal
+3	время	_	_	_	_	_	_	_	bratA2=T27:Present|bratT27=Date-absolute
 4	медики	_	_	_	_	_	_	_	bratT12=Person-property
 5	оказываются	_	_	_	_	_	_	_	_
 6	помощь	_	_	_	_	_	_	_	_
@@ -111,9 +111,9 @@
 5	магнитудой	_	_	_	_	_	_	_	bratT14=Event
 6	6,7	_	_	_	_	_	_	_	bratT14=Event|bratT15=Quantity
 7	случилось	_	_	_	_	_	_	_	_
-8	в	_	_	_	_	_	_	_	bratT28=Date-relative
-9	минувшую	_	_	_	_	_	_	_	bratT28=Date-relative
-10	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Date-relative
+8	в	_	_	_	_	_	_	_	bratA4=T28:Past|bratT28=Date-absolute
+9	минувшую	_	_	_	_	_	_	_	bratA4=T28:Past|bratT28=Date-absolute|bratT31=Ordinal
+10	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T28:Past|bratT28=Date-absolute
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0087-p4-s2
@@ -173,8 +173,8 @@
 # par_text = В воскресенье власти Турции, по сообщению главы местного министерства экологии и градостроительства, начали выплачивать материальную помощь пострадавшим.
 # sent_id = 0087-p5-s1
 # text = В воскресенье власти Турции, по сообщению главы местного министерства экологии и градостроительства, начали выплачивать материальную помощь пострадавшим.
-1	В	_	_	_	_	_	_	_	bratT29=Date-relative
-2	воскресенье	_	_	_	_	_	_	_	bratT29=Date-relative
+1	В	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute
+2	воскресенье	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute
 3	власти	_	_	_	_	_	_	_	_
 4	Турции	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=GPE
 5	,	_	_	_	_	_	_	_	_

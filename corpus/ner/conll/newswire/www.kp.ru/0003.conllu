@@ -15,9 +15,9 @@
 10	к	_	_	_	_	_	_	_	_
 11	больному	_	_	_	_	_	_	_	_
 12	только	_	_	_	_	_	_	_	_
-13	на	_	_	_	_	_	_	_	bratT3=Time-relative
-14	9-е	_	_	_	_	_	_	_	bratT26=Ordinal|bratT3=Time-relative
-15	сутки	_	_	_	_	_	_	_	bratT3=Time-relative
+13	на	_	_	_	_	_	_	_	bratT3=Time-period
+14	9-е	_	_	_	_	_	_	_	bratT26=Ordinal|bratT3=Time-period
+15	сутки	_	_	_	_	_	_	_	bratT3=Time-period|bratT31=Duration
 
 # newpar id = 0003-p2
 # par_text = Говоря о проблемах в лечении больных коронавирусом, президент НИИ неотложной детской хирургии и травматологии Леонид Рошаль подчеркнул: «Здесь все дело - в состоянии и в организации здравоохранения на местах. И, конечно, растет нагрузка на врачей. Ну, о кадровой проблеме - и Национальная медицинская палата, и Общероссийский народный фронт говорили давно, и сейчас мы не упускаем это из виду».
@@ -90,7 +90,7 @@
 17	давно	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	и	_	_	_	_	_	_	_	_
-20	сейчас	_	_	_	_	_	_	_	bratT29=Date-relative
+20	сейчас	_	_	_	_	_	_	_	bratA2=T29:Present|bratT29=Date-absolute
 21	мы	_	_	_	_	_	_	_	_
 22	не	_	_	_	_	_	_	_	_
 23	упускаем	_	_	_	_	_	_	_	_
@@ -117,8 +117,8 @@
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
 13	врачи	_	_	_	_	_	_	_	bratT12=Person-property
-14	в	_	_	_	_	_	_	_	bratT23=Date-duration
-15	день	_	_	_	_	_	_	_	bratT23=Date-duration
+14	в	_	_	_	_	_	_	_	bratT23=Duration|bratT33=Time-period
+15	день	_	_	_	_	_	_	_	bratT23=Duration|bratT33=Time-period
 16	успевают	_	_	_	_	_	_	_	_
 17	выполнить	_	_	_	_	_	_	_	_
 18	только	_	_	_	_	_	_	_	_
@@ -162,9 +162,9 @@
 6	врач	_	_	_	_	_	_	_	bratT14=Person-property
 7	приходил	_	_	_	_	_	_	_	_
 8	только	_	_	_	_	_	_	_	_
-9	на	_	_	_	_	_	_	_	bratT15=Time-relative
-10	9-е	_	_	_	_	_	_	_	bratT15=Time-relative|bratT27=Ordinal
-11	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Time-relative
+9	на	_	_	_	_	_	_	_	bratT15=Time-period
+10	9-е	_	_	_	_	_	_	_	bratT15=Time-period|bratT27=Ordinal
+11	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Time-period|bratT32=Duration
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	добавил	_	_	_	_	_	_	_	_
@@ -194,7 +194,7 @@
 # sent_id = 0003-p4-s2
 # text = - Сейчас текущая, как мы говорим, потребность составляет около 3 тысяч машин.
 1	-	_	_	_	_	_	_	_	_
-2	Сейчас	_	_	_	_	_	_	_	bratT28=Date-relative
+2	Сейчас	_	_	_	_	_	_	_	bratA1=T28:Present|bratT28=Date-absolute
 3	текущая	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	как	_	_	_	_	_	_	_	_

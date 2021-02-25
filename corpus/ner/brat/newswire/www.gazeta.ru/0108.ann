@@ -5,7 +5,7 @@ T4	Person 100 107	Бескова
 T5	Organization 200 263	столичными   клубами   ``   Спартак   ''   и   ``   Динамо   ''
 A1	Plural T5
 T6	Event 143 189	матч   Российской   премьер-лиги   (   РПЛ   )
-T7	Time-relative 109 125	В   эти   минуты
+T7	Date-absolute 109 125	В   эти   минуты
 T8	Person-property 368 375	тренера
 T9	Person 368 399	тренера   Константина   Бескова
 T10	Organization 405 422	``   Спартак   ''
@@ -21,6 +21,8 @@ T19	Organization 150 175	Российской   премьер-лиги
 T20	Organization 182 185	РПЛ
 T21	Organization 915 918	РПЛ
 T18	Event 908 918	матч   РПЛ
-T22	Date-relative 822 829	Ранее  
+T22	Date-relative 822 827	Ранее
 T23	Organization 223 240	``   Спартак   ''
 T24	Organization 247 263	``   Динамо   ''
+A3	Present T7
+A4	Past T22

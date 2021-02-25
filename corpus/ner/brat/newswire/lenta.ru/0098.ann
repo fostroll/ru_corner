@@ -5,7 +5,7 @@ T4	Person 272 295	врач   Нил   Эльаттрахе
 T5	Organization 243 257	Yahoo   Sports
 T6	Person-property 272 276	врач
 T7	Person-property 315 322	доктора
-T8	Date-relative 365 395	за   шесть   недель   до   боя
+T8	Date-absolute 365 395	за   шесть   недель   до   боя
 T9	Person 416 425	Ломаченко
 T10	Person 743 762	Василия   Ломаченко
 T11	Person 774 790	Теофима   Лопеса
@@ -54,8 +54,8 @@ A6	Plural T39
 T26	Event 160 163	бой
 T28	Event 66 101	боем   за   титул   чемпиона   мира
 A7	Media T5
-T30	Date-relative 44 70	перед   проигранным   боем
-T47	Date-relative 506 522	После   поединка
+T30	Date-absolute 44 70	перед   проигранным   боем
+T47	Date-absolute 506 522	После   поединка
 T54	GPE 97 101	мира
 T55	GPE 1557 1561	мира
 T56	Duration 370 384	шесть   недель
@@ -68,3 +68,20 @@ T25	Event 392 395	боя
 A11	Past T8
 T27	Event 514 522	поединка
 A12	Past T47
+T59	GPE 103 113	Украинский
+T60	GPE 806 818	американском
+T61	Person-surname 32 41	Ломаченко
+T62	Person-forename 125 132	Василий
+T63	Person-surname 135 144	Ломаченко
+T64	Person-forename 188 195	Теофимо
+T65	Person-surname 198 204	Лопеса
+T66	Person-forename 279 282	Нил
+T67	Person-surname 285 295	Эльаттрахе
+T68	Person-surname 416 425	Ломаченко
+T69	Person-forename 743 750	Василия
+T70	Person-surname 753 762	Ломаченко
+T71	Person-forename 774 781	Теофима
+T72	Person-surname 784 790	Лопеса
+T73	Person-surname 1219 1228	Ломаченко
+T74	Person-surname 1303 1312	Ломаченко
+T75	Person-surname 1604 1609	Лопес

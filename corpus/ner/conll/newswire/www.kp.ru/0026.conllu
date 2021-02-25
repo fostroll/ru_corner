@@ -48,11 +48,11 @@
 # text = Об этом в понедельник, 2 ноября, пишет газета ``Известия''.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT9=Date-absolute
-4	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT9=Date-absolute
-6	2	_	_	_	_	_	_	_	bratT9=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA2=T9:Present|bratT9=Date-absolute
+4	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Present|bratT9=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA2=T9:Present|bratT9=Date-absolute
+6	2	_	_	_	_	_	_	_	bratA2=T9:Present|bratT9=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Present|bratT9=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	пишет	_	_	_	_	_	_	_	_
 10	газета	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization

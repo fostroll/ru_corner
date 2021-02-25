@@ -34,7 +34,7 @@ T33	Organization 1117 1121	УЕФА
 T34	Event 1052 1168	матч   третьего   тура   группового   этапа   Лиги   чемпионов   УЕФА   ``   Локомотив   ''   -   ``   Атлетико   ''
 T35	GPE 1184 1190	Москве
 T36	Date-absolute 1193 1206	3-го   ноября
-T37	Cardinal 1240 1243	1:1
+T37	Quantity 1240 1243	1:1
 T38	Organization 1283 1287	ЦСКА
 T40	Event 150 187	группового   этапа   Лиги   чемпионов
 T41	Event 171 187	Лиги   чемпионов
@@ -46,5 +46,13 @@ T45	Event 1098 1121	Лиги   чемпионов   УЕФА
 T46	Event 1077 1121	группового   этапа   Лиги   чемпионов   УЕФА
 T47	Other-term 597 600	VAR
 T39	Organization 1351 1354	РПЛ
-T48	Date-period 1330 1354	во   время   матча   РПЛ
-T49	Date-relative 1249 1256	Ранее  
+T48	Date-absolute 1330 1348	во   время   матча
+T49	Date-relative 1249 1254	Ранее
+T50	Date-relative 1014 1025	23:00   мск
+A1	Future T50
+A3	Past T20
+A4	Future T28
+A5	Past T36
+A6	Past T48
+T51	Event 1343 1354	матча   РПЛ
+A7	Past T49

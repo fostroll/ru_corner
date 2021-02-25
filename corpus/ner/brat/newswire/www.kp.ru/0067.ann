@@ -22,10 +22,10 @@ T20	Age 1361 1380	около   40-50   лет
 T21	Service 1395 1414	сайт   argumenti.ru
 A2	Media T21
 T22	Event 542 554	коронакризис
-T23	Date-relative 506 512	Сейчас
-T24	Date-relative 839 845	сейчас
+T23	Date-absolute 506 512	Сейчас
+T24	Date-absolute 839 845	сейчас
 T25	Ordinal 1173 1182	последним
-T26	Date-relative 1053 1059	теперь
+T26	Date-absolute 1053 1059	теперь
 T27	Other-term 304 316	коронавируса
 T28	Event 64 70	теракт
 T29	Event 121 128	теракты
@@ -33,3 +33,7 @@ T30	Nationality 319 328	европейцы
 A3	Citizenship T30
 T31	Organization 1402 1414	argumenti.ru
 A4	Media T31
+A5	Present T23
+A6	Future T26
+A7	Future T24
+A8	Past T17

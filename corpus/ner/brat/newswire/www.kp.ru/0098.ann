@@ -10,7 +10,7 @@ T8	Organization 236 239	СNN
 A2	Media T8
 T9	Person-property 245 266	Избранный   президент
 T10	Person 245 281	Избранный   президент   Джо   Байден
-T11	Date-relative 308 319	в   субботу
+T11	Date-absolute 308 359	в   субботу   в   20:00   по   восточному   времени
 T12	Time-absolute 322 359	в   20:00   по   восточному   времени
 T13	Person 442 457	Байдена-Харриса
 T14	Political-group 492 502	демократов
@@ -36,11 +36,18 @@ T32	Political-group 1000 1009	демократу
 T33	Person 1080 1087	Байдена
 T34	Person 1090 1105	Дональд   Трамп
 T35	Person 1186 1193	Байдена
-T36	Date-period 1215 1231	С   понедельника
+T36	Date-period-absolute 1215 1231	С   понедельника
 T37	Person 1290 1296	Трампа
 T38	Organization 1282 1296	штаба   Трампа
 T39	GPE 1241 1247	штатов
 T40	Organization 1234 1247	суды   штатов
-T41	Date-period 546 562	после   подсчета
+T41	Date-absolute 546 562	после   подсчета
 T42	Date-relative 463 468	Ранее
-T43	Date-relative 658 664	Теперь
+T43	Date-absolute 658 664	Теперь
+A4	Future T11
+T44	Date-relative 145 208	в   20.00   по   восточному   времени   (   4.00   по   мск   )
+A5	Future T44
+A7	Past T42
+A8	Past T41
+A9	Present T43
+A10	Fut T36

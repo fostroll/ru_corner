@@ -3,7 +3,7 @@
 # par_text = Путин оценил уровень бедности в России
 # sent_id = 0041-p1-s1
 # text = Путин оценил уровень бедности в России
-1	Путин	_	_	_	_	_	_	_	bratT1=Person
+1	Путин	_	_	_	_	_	_	_	bratT1=Person|bratT36=Person-surname
 2	оценил	_	_	_	_	_	_	_	_
 3	уровень	_	_	_	_	_	_	_	_
 4	бедности	_	_	_	_	_	_	_	_
@@ -24,10 +24,10 @@
 8	в	_	_	_	_	_	_	_	bratT28=Quantity
 9	два	_	_	_	_	_	_	_	bratT28=Quantity
 10	раза	_	_	_	_	_	_	_	bratT28=Quantity
-11	за	_	_	_	_	_	_	_	bratT5=Date-period
-12	последние	_	_	_	_	_	_	_	bratA7=T37:Past|bratT29=Ordinal|bratT37=Date-absolute|bratT5=Date-period
-13	20	_	_	_	_	_	_	_	bratA7=T37:Past|bratT34=Duration|bratT37=Date-absolute|bratT5=Date-period
-14	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T37:Past|bratT34=Duration|bratT37=Date-absolute|bratT5=Date-period
+11	за	_	_	_	_	_	_	_	bratA6=T5:Past-Pres|bratT5=Date-period-absolute
+12	последние	_	_	_	_	_	_	_	bratA6=T5:Past-Pres|bratT29=Ordinal|bratT5=Date-period-absolute
+13	20	_	_	_	_	_	_	_	bratA6=T5:Past-Pres|bratT34=Duration|bratT5=Date-period-absolute
+14	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Past-Pres|bratT34=Duration|bratT5=Date-period-absolute
 15	,	_	_	_	_	_	_	_	_
 16	хотя	_	_	_	_	_	_	_	_
 17	нынешняя	_	_	_	_	_	_	_	_
@@ -38,8 +38,8 @@
 22	,	_	_	_	_	_	_	_	_
 23	заявил	_	_	_	_	_	_	_	_
 24	президент	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-25	Владимир	_	_	_	_	_	_	_	bratT7=Person
-26	Путин	_	_	_	_	_	_	_	bratT7=Person
+25	Владимир	_	_	_	_	_	_	_	bratT37=Person-forename|bratT7=Person
+26	Путин	_	_	_	_	_	_	_	bratT38=Person-surname|bratT7=Person
 27	на	_	_	_	_	_	_	_	_
 28	форуме	_	_	_	_	_	_	_	bratT27=Event
 29	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT27=Event|bratT8=Organization
@@ -68,7 +68,7 @@
 # par_text = Путин отметил, что в условиях пандемии коронавируса практически во всех странах мира увеличивается число людей, живущих за чертой бедности. «К сожалению, это имеет место и в России», — сказал он.
 # sent_id = 0041-p3-s1
 # text = Путин отметил, что в условиях пандемии коронавируса практически во всех странах мира увеличивается число людей, живущих за чертой бедности.
-1	Путин	_	_	_	_	_	_	_	bratT11=Person
+1	Путин	_	_	_	_	_	_	_	bratT11=Person|bratT39=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 14	уменьшилось	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	подытожил	_	_	_	_	_	_	_	_
-17	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+17	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT40=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0041-p5
@@ -167,8 +167,8 @@
 3	глава	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person
 4	Счетной	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT22=Person
 5	палаты	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT22=Person
-6	Алексей	_	_	_	_	_	_	_	bratT22=Person
-7	Кудрин	_	_	_	_	_	_	_	bratT22=Person
+6	Алексей	_	_	_	_	_	_	_	bratT22=Person|bratT41=Person-forename
+7	Кудрин	_	_	_	_	_	_	_	bratT22=Person|bratT42=Person-surname
 8	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
@@ -199,11 +199,11 @@
 13	,	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No
 15	особенно	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period
-17	период	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period
-18	кризиса	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period|bratT35=Event
-19	и	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-period
-20	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T30:Present|bratT2=Event|bratT30=Date-period
+16	в	_	_	_	_	_	_	_	bratA7=T30:Past-UNK|bratT30=Date-period-absolute
+17	период	_	_	_	_	_	_	_	bratA7=T30:Past-UNK|bratT30=Date-period-absolute
+18	кризиса	_	_	_	_	_	_	_	bratA7=T30:Past-UNK|bratT30=Date-period-absolute|bratT35=Event
+19	и	_	_	_	_	_	_	_	bratA7=T30:Past-UNK|bratT30=Date-period-absolute
+20	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T30:Past-UNK|bratT2=Event|bratT30=Date-period-absolute
 21	''	_	_	_	_	_	_	_	SpaceAfter=No
 22	.	_	_	_	_	_	_	_	_
 
@@ -219,9 +219,9 @@
 8	нищеты	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
-11	к	_	_	_	_	_	_	_	bratT25=Date-period
-12	2024	_	_	_	_	_	_	_	bratA5=T36:Future|bratT25=Date-period|bratT36=Date-absolute
-13	году	_	_	_	_	_	_	_	bratA5=T36:Future|bratT25=Date-period|bratT36=Date-absolute
+11	к	_	_	_	_	_	_	_	bratA8=T25:Pres-Fut|bratT25=Date-period-absolute
+12	2024	_	_	_	_	_	_	_	bratA8=T25:Pres-Fut|bratT25=Date-period-absolute
+13	году	_	_	_	_	_	_	_	bratA8=T25:Pres-Fut|bratT25=Date-period-absolute
 14	уровень	_	_	_	_	_	_	_	_
 15	бедности	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_

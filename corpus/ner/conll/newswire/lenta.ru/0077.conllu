@@ -133,18 +133,18 @@
 22	по	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Organization|bratT15=Person
 23	туризму	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Organization|bratT15=Person
 24	Москвы	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Organization|bratT14=GPE|bratT15=Person
-25	Екатерина	_	_	_	_	_	_	_	bratT15=Person
-26	Проничева	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person
+25	Екатерина	_	_	_	_	_	_	_	bratT15=Person|bratT24=Person-forename
+26	Проничева	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person|bratT25=Person-surname
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0077-p4
 # par_text = В течение двух дней участники «Мастеров гостеприимства» пройдут заключительные оценочные испытания и презентуют свои проекты. По итогам конкурсанты получат обратную связь и экспертную оценку. Соревнования объединят 186 финалистов и продлятся два дня, в течение которых участников ждут оценочные испытания и защита проектов. Победителей будет 50, их ждут образовательные и поощрительные призы.
 # sent_id = 0077-p4-s1
 # text = В течение двух дней участники ``Мастеров гостеприимства'' пройдут заключительные оценочные испытания и презентуют свои проекты.
-1	В	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period
-2	течение	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period
-3	двух	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period|bratT21=Duration
-4	дней	_	_	_	_	_	_	_	bratA2=T16:Future|bratT16=Date-period|bratT21=Duration
+1	В	_	_	_	_	_	_	_	bratA2=T16:Fut|bratT16=Date-period-relative
+2	течение	_	_	_	_	_	_	_	bratA2=T16:Fut|bratT16=Date-period-relative
+3	двух	_	_	_	_	_	_	_	bratA2=T16:Fut|bratT16=Date-period-relative|bratT21=Duration
+4	дней	_	_	_	_	_	_	_	bratA2=T16:Fut|bratT16=Date-period-relative|bratT21=Duration
 5	участники	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
 7	Мастеров	_	_	_	_	_	_	_	bratT17=Event
@@ -181,8 +181,8 @@
 4	финалистов	_	_	_	_	_	_	_	bratT18=Quantity
 5	и	_	_	_	_	_	_	_	_
 6	продлятся	_	_	_	_	_	_	_	_
-7	два	_	_	_	_	_	_	_	bratA4=T23:Future|bratT19=Duration|bratT23=Date-period
-8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T23:Future|bratT19=Duration|bratT23=Date-period
+7	два	_	_	_	_	_	_	_	bratA4=T23:Fut|bratT19=Duration|bratT23=Date-period-relative
+8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T23:Fut|bratT19=Duration|bratT23=Date-period-relative
 9	,	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	течение	_	_	_	_	_	_	_	_

@@ -54,10 +54,10 @@
 # sent_id = 0078-p4-s1
 # text = ``В ходе следственных действий по подозрению в совершении преступления, предусмотренного ч. 2 ст. 205.4 УК России задержаны ещё четыре лица, ранее отбывавшие наказание в ФКУ ИК-2 управления ФСИН России по Республике Калмыкия'', - заявили в СК.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	В	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-relative
-3	ходе	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-relative
-4	следственных	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-relative
-5	действий	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-relative
+2	В	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-absolute
+3	ходе	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-absolute
+4	следственных	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-absolute
+5	действий	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-absolute
 6	по	_	_	_	_	_	_	_	_
 7	подозрению	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -76,7 +76,7 @@
 21	четыре	_	_	_	_	_	_	_	bratT7=Quantity
 22	лица	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity
 23	,	_	_	_	_	_	_	_	_
-24	ранее	_	_	_	_	_	_	_	bratT30=Time-relative
+24	ранее	_	_	_	_	_	_	_	bratA5=T30:Past|bratT30=Date-relative
 25	отбывавшие	_	_	_	_	_	_	_	_
 26	наказание	_	_	_	_	_	_	_	_
 27	в	_	_	_	_	_	_	_	_
@@ -114,8 +114,8 @@
 12	из	_	_	_	_	_	_	_	_
 13	исправительного	_	_	_	_	_	_	_	_
 14	учреждения	_	_	_	_	_	_	_	_
-15	после	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-relative
-16	отбытия	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-relative
+15	после	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-absolute
+16	отбытия	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-absolute
 17	наказания	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
 

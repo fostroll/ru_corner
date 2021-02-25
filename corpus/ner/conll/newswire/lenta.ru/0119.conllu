@@ -3,7 +3,7 @@
 # par_text = Воробьев рассказал о доступных зимних развлечениях в Подмосковье
 # sent_id = 0119-p1-s1
 # text = Воробьев рассказал о доступных зимних развлечениях в Подмосковье
-1	Воробьев	_	_	_	_	_	_	_	bratT1=Person
+1	Воробьев	_	_	_	_	_	_	_	bratT1=Person|bratT29=Person-surname
 2	рассказал	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	доступных	_	_	_	_	_	_	_	_
@@ -35,8 +35,8 @@
 17	губернатор	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person-property
 18	Московской	_	_	_	_	_	_	_	bratT4=Person|bratT5=GPE|bratT6=Person-property
 19	области	_	_	_	_	_	_	_	bratT4=Person|bratT5=GPE|bratT6=Person-property
-20	Андрей	_	_	_	_	_	_	_	bratT4=Person
-21	Воробьев	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person
+20	Андрей	_	_	_	_	_	_	_	bratT30=Person-forename|bratT4=Person
+21	Воробьев	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-surname|bratT4=Person
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0119-p2-s2
@@ -103,7 +103,7 @@
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
 17	написал	_	_	_	_	_	_	_	_
-18	Воробьев	_	_	_	_	_	_	_	bratT9=Person
+18	Воробьев	_	_	_	_	_	_	_	bratT32=Person-surname|bratT9=Person
 19	в	_	_	_	_	_	_	_	_
 20	своем	_	_	_	_	_	_	_	_
 21	Instagram	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Media|bratT10=Service
@@ -168,7 +168,7 @@
 # sent_id = 0119-p6-s1
 # text = Накануне Воробьев заявил, что региональные власти не собираются вводить новые ограничения из-за коронавируса, а, наоборот, хотят ослабить уже существующие к Новому году.
 1	Накануне	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
-2	Воробьев	_	_	_	_	_	_	_	bratT19=Person
+2	Воробьев	_	_	_	_	_	_	_	bratT19=Person|bratT33=Person-surname
 3	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

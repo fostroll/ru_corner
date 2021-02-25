@@ -11,7 +11,7 @@
 6	центра	_	_	_	_	_	_	_	bratT1=Organization
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT27=Organization
 8	Свидетелей	_	_	_	_	_	_	_	bratT1=Organization|bratT27=Organization
-9	Иеговы	_	_	_	_	_	_	_	bratT1=Organization|bratT27=Organization
+9	Иеговы	_	_	_	_	_	_	_	bratA5=T36:Fiction|bratT1=Organization|bratT27=Organization|bratT36=Person
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT27=Organization
 
 # newpar id = 0096-p2
@@ -28,7 +28,7 @@
 8	центра	_	_	_	_	_	_	_	bratT3=Organization
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization|bratT3=Organization
 10	Свидетелей	_	_	_	_	_	_	_	bratT28=Organization|bratT3=Organization
-11	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization|bratT3=Organization
+11	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T37:Fiction|bratT28=Organization|bratT3=Organization|bratT37=Person
 12	''	_	_	_	_	_	_	_	bratT28=Organization|bratT3=Organization
 13	(	_	_	_	_	_	_	_	SpaceAfter=No
 14	организация	_	_	_	_	_	_	_	_
@@ -67,10 +67,10 @@
 # par_text = В апреле 2017 года Верховный суд Российской Федерации запретил работу «Управленческого центра Свидетелей Иеговы в России» (организация запрещена в России)  и входящих в него местных религиозных организаций.
 # sent_id = 0096-p3-s1
 # text = В апреле 2017 года Верховный суд Российской Федерации запретил работу ``Управленческого центра Свидетелей Иеговы в России'' (организация запрещена в России) и входящих в него местных религиозных организаций.
-1	В	_	_	_	_	_	_	_	bratT12=Date-absolute
-2	апреле	_	_	_	_	_	_	_	bratT12=Date-absolute
-3	2017	_	_	_	_	_	_	_	bratT12=Date-absolute
-4	года	_	_	_	_	_	_	_	bratT12=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute
+2	апреле	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute
+3	2017	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute
 5	Верховный	_	_	_	_	_	_	_	bratT14=Organization
 6	суд	_	_	_	_	_	_	_	bratT14=Organization
 7	Российской	_	_	_	_	_	_	_	bratT13=GPE|bratT14=Organization
@@ -81,7 +81,7 @@
 12	Управленческого	_	_	_	_	_	_	_	bratT15=Organization
 13	центра	_	_	_	_	_	_	_	bratT15=Organization
 14	Свидетелей	_	_	_	_	_	_	_	bratT15=Organization|bratT30=Organization
-15	Иеговы	_	_	_	_	_	_	_	bratT15=Organization|bratT30=Organization
+15	Иеговы	_	_	_	_	_	_	_	bratA8=T39:Fiction|bratT15=Organization|bratT30=Organization|bratT39=Person
 16	в	_	_	_	_	_	_	_	bratT15=Organization
 17	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization|bratT16=GPE
 18	''	_	_	_	_	_	_	_	bratT15=Organization
@@ -155,7 +155,7 @@
 17	Управленческого	_	_	_	_	_	_	_	bratT21=Organization
 18	центра	_	_	_	_	_	_	_	bratT21=Organization
 19	Свидетелей	_	_	_	_	_	_	_	bratT21=Organization|bratT31=Organization
-20	Иеговы	_	_	_	_	_	_	_	bratT21=Organization|bratT31=Organization
+20	Иеговы	_	_	_	_	_	_	_	bratA7=T38:Fiction|bratT21=Organization|bratT31=Organization|bratT38=Person
 21	в	_	_	_	_	_	_	_	bratT21=Organization
 22	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT32=GPE
 23	''	_	_	_	_	_	_	_	bratT21=Organization
@@ -175,9 +175,9 @@
 # par_text = В настоящее время в столице и более чем в 20 российских субъектах проводятся обыски. Уже установлены личности ряда организаторов и участников движения, они задержаны.
 # sent_id = 0096-p6-s1
 # text = В настоящее время в столице и более чем в 20 российских субъектах проводятся обыски.
-1	В	_	_	_	_	_	_	_	bratT24=Date-relative
-2	настоящее	_	_	_	_	_	_	_	bratT24=Date-relative
-3	время	_	_	_	_	_	_	_	bratT24=Date-relative
+1	В	_	_	_	_	_	_	_	bratA1=T24:Present|bratT24=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA1=T24:Present|bratT24=Date-absolute|bratT40=Ordinal
+3	время	_	_	_	_	_	_	_	bratA1=T24:Present|bratT24=Date-absolute
 4	в	_	_	_	_	_	_	_	_
 5	столице	_	_	_	_	_	_	_	bratT33=GPE
 6	и	_	_	_	_	_	_	_	_
@@ -220,9 +220,9 @@
 8	Москве	_	_	_	_	_	_	_	bratT25=GPE
 9	была	_	_	_	_	_	_	_	_
 10	организована	_	_	_	_	_	_	_	_
-11	с	_	_	_	_	_	_	_	bratT26=Date-period
-12	июня	_	_	_	_	_	_	_	bratT26=Date-period
-13	2019	_	_	_	_	_	_	_	bratT26=Date-period
-14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Date-period
+11	с	_	_	_	_	_	_	_	bratA4=T26:Past-Pres|bratT26=Date-period-absolute
+12	июня	_	_	_	_	_	_	_	bratA4=T26:Past-Pres|bratT26=Date-period-absolute
+13	2019	_	_	_	_	_	_	_	bratA4=T26:Past-Pres|bratT26=Date-period-absolute
+14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T26:Past-Pres|bratT26=Date-period-absolute
 15	.	_	_	_	_	_	_	_	_
 

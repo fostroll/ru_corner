@@ -16,11 +16,11 @@ T12	Person 673 679	Хермес
 T13	Product 706 749	проект   ``   Северный   поток   -   2   ''
 T14	Quantity 761 772	две   ниток
 T15	Quantity 809 837	55   миллиардов   кубометров
-T16	Date-duration 847 854	в   год
+T16	Time-period 847 854	в   год
 T17	GPE 894 900	России
 T18	Location 911 928	Балтийское   море
 T19	GPE 936 944	Германии
-T20	Date-period 1024 1048	до   конца   2020   года
+T20	Date-period-absolute 1024 1048	до   конца   2020   года
 T21	GPE 1053 1056	США
 T22	GPE 1131 1137	Европу
 T23	Date-absolute 1180 1191	В   октябре
@@ -30,3 +30,8 @@ T25	GPE 1194 1203	Вашингтон
 T27	Date-relative 447 452	Ранее
 T28	Date-relative 971 976	ранее
 A5	Project T13
+T26	Duration 851 854	год
+A6	Past T27
+A7	Past T28
+A8	Past-UNK T20
+A9	Past T23

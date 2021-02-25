@@ -1,4 +1,4 @@
-T1	GPE 0 10	В   Москве
+T1	GPE 4 10	Москве
 T2	Other-term 42 54	коронавируса
 T3	Quantity 69 80	400   тысяч
 T4	Service 278 306	сайт   ``   Москва   24   ''
@@ -27,9 +27,14 @@ T24	Other-term 138 174	коронавирусной   инфекции   COVID-1
 T25	GPE 181 187	Москве
 T26	Quantity 237 246	400   332
 T27	Ordinal 626 627	V
-T28	Time-relative 413 418	Ранее
+T28	Date-relative 413 418	Ранее
 T29	Other-term 399 407	COVID-19
-T30	Date-period 82 92	За   сутки
-A3	Past T30
-T31	Date-absolute 87 92	сутки
-A4	Past T31
+T30	Date-period-absolute 82 92	За   сутки
+A3	Past-Pres T30
+A4	Past T28
+T32	Person-forename 448 454	Михаил
+T33	Person-surname 457 465	Мишустин
+T34	Person-forename 748 754	Сергей
+T35	Person-surname 757 767	Колесников
+T31	Organization 285 306	``   Москва   24   ''
+A5	Media T31

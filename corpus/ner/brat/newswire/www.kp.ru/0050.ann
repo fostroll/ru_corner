@@ -5,7 +5,7 @@ T4	Organization 81 103	Правительство   России
 T5	Organization 116 176	федеральный   центр   лекарственного   обеспечения   граждан
 T6	Other-term 467 474	вакцины
 T7	Organization 773 782	Минздраву
-T8	Date-duration 796 816	в   течение   месяца
+T8	Date-period-absolute 796 816	в   течение   месяца
 T9	Service 939 951	сайт   KP.ru
 A1	Media T9
 T10	Organization 918 925	кабмина
@@ -27,3 +27,6 @@ T22	Organization 946 951	KP.ru
 A5	Media T22
 T23	Other-term 340 349	орфанными
 T24	Other-term 356 371	онкологическими
+T25	Duration 810 816	месяца
+A6	Past-Fut T8
+A7	Past T21

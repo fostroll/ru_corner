@@ -20,10 +20,10 @@
 # par_text = В ходе телефонного разговора российский лидер Владимир Путин обсудил с исполняющим обязанности киргизского президента, премьер-министром Садыром Жапаровым состояние и перспективы российско-киргизских отношений, а также выразил надежду на стабилизацию ситуации в Киргизии и скорейшее урегулирование внутриполитических проблем. Об этом сообщили в Кремле.
 # sent_id = 0040-p2-s1
 # text = В ходе телефонного разговора российский лидер Владимир Путин обсудил с исполняющим обязанности киргизского президента, премьер-министром Садыром Жапаровым состояние и перспективы российско-киргизских отношений, а также выразил надежду на стабилизацию ситуации в Киргизии и скорейшее урегулирование внутриполитических проблем.
-1	В	_	_	_	_	_	_	_	bratT34=Date-period
-2	ходе	_	_	_	_	_	_	_	bratT34=Date-period
-3	телефонного	_	_	_	_	_	_	_	bratT34=Date-period
-4	разговора	_	_	_	_	_	_	_	bratT34=Date-period
+1	В	_	_	_	_	_	_	_	bratA1=T34:Past|bratT34=Date-absolute
+2	ходе	_	_	_	_	_	_	_	bratA1=T34:Past|bratT34=Date-absolute
+3	телефонного	_	_	_	_	_	_	_	bratA1=T34:Past|bratT34=Date-absolute
+4	разговора	_	_	_	_	_	_	_	bratA1=T34:Past|bratT34=Date-absolute
 5	российский	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
 6	лидер	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
 7	Владимир	_	_	_	_	_	_	_	bratT5=Person
@@ -98,10 +98,10 @@
 11	событий	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	произошедших	_	_	_	_	_	_	_	_
-14	после	_	_	_	_	_	_	_	bratT36=Date-period
-15	октябрьских	_	_	_	_	_	_	_	bratT13=Event|bratT36=Date-period
-16	парламентских	_	_	_	_	_	_	_	bratT13=Event|bratT36=Date-period
-17	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Event|bratT36=Date-period
+14	после	_	_	_	_	_	_	_	bratA4=T36:Past|bratT36=Date-period-relative
+15	октябрьских	_	_	_	_	_	_	_	bratA4=T36:Past|bratT13=Event|bratT36=Date-period-relative
+16	парламентских	_	_	_	_	_	_	_	bratA4=T36:Past|bratT13=Event|bratT36=Date-period-relative
+17	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T36:Past|bratT13=Event|bratT36=Date-period-relative
 18	''	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
@@ -137,8 +137,8 @@
 # text = Напомним, 15 октября, президент Киргизии Сооронбай Жээнбеков заявил о своем решение уйти в отставку.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	15	_	_	_	_	_	_	_	bratT16=Date-absolute
-4	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-absolute
+3	15	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute
+4	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Past|bratT16=Date-absolute
 5	,	_	_	_	_	_	_	_	_
 6	президент	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
 7	Киргизии	_	_	_	_	_	_	_	bratT17=GPE|bratT18=Person-property|bratT19=Person
@@ -195,10 +195,10 @@
 4	главы	_	_	_	_	_	_	_	bratT28=Person-property|bratT33=Event
 5	государства	_	_	_	_	_	_	_	bratT28=Person-property|bratT33=Event
 6	назаначено	_	_	_	_	_	_	_	_
-7	10	_	_	_	_	_	_	_	bratT29=Date-absolute
-8	января	_	_	_	_	_	_	_	bratT29=Date-absolute
-9	следующего	_	_	_	_	_	_	_	bratT29=Date-absolute|bratT35=Ordinal
-10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Date-absolute
+7	10	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-absolute
+8	января	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-absolute
+9	следующего	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-absolute|bratT35=Ordinal
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T29:Future|bratT29=Date-absolute
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0040-p6

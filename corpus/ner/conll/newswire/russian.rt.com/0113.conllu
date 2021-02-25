@@ -11,8 +11,8 @@
 6	тысяч	_	_	_	_	_	_	_	bratT2=Quantity
 7	случаев	_	_	_	_	_	_	_	bratT2=Quantity
 8	коронавируса	_	_	_	_	_	_	_	bratT10=Other-term
-9	за	_	_	_	_	_	_	_	bratT21=Date-period
-10	сутки	_	_	_	_	_	_	_	bratA3=T24:Past|bratT21=Date-period|bratT24=Date-absolute|bratT3=Duration
+9	за	_	_	_	_	_	_	_	bratA7=T21:Past-Pres|bratT21=Date-period-absolute
+10	сутки	_	_	_	_	_	_	_	bratA7=T21:Past-Pres|bratT21=Date-period-absolute|bratT3=Duration
 
 # newpar id = 0113-p2
 # par_text = В Санкт-Петербурге за минувшие сутки выявили 3179 новых случаев коронавирусной инфекции. Ранее антирекордом стали зафиксированные накануне 2926 случаев.
@@ -20,9 +20,9 @@
 # text = В Санкт-Петербурге за минувшие сутки выявили 3179 новых случаев коронавирусной инфекции.
 1	В	_	_	_	_	_	_	_	_
 2	Санкт-Петербурге	_	_	_	_	_	_	_	bratT11=GPE
-3	за	_	_	_	_	_	_	_	bratT12=Date-period
-4	минувшие	_	_	_	_	_	_	_	bratA4=T25:Past|bratT12=Date-period|bratT23=Ordinal|bratT25=Date-absolute
-5	сутки	_	_	_	_	_	_	_	bratA4=T25:Past|bratT12=Date-period|bratT22=Duration|bratT25=Date-absolute
+3	за	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-period-absolute
+4	минувшие	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-period-absolute|bratT23=Ordinal
+5	сутки	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-period-absolute|bratT22=Duration
 6	выявили	_	_	_	_	_	_	_	_
 7	3179	_	_	_	_	_	_	_	bratT13=Quantity
 8	новых	_	_	_	_	_	_	_	bratT13=Quantity
@@ -33,7 +33,7 @@
 
 # sent_id = 0113-p2-s2
 # text = Ранее антирекордом стали зафиксированные накануне 2926 случаев.
-1	Ранее	_	_	_	_	_	_	_	bratT19=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA8=T19:Past|bratT19=Date-relative
 2	антирекордом	_	_	_	_	_	_	_	_
 3	стали	_	_	_	_	_	_	_	_
 4	зафиксированные	_	_	_	_	_	_	_	_
@@ -61,9 +61,9 @@
 # sent_id = 0113-p4-s1
 # text = Всего с начала пандемии в Петербурге было зафиксировано более 100 тыс. инфицированных.
 1	Всего	_	_	_	_	_	_	_	_
-2	с	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-period
-3	начала	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-period
-4	пандемии	_	_	_	_	_	_	_	bratA6=T17:Past|bratT16=Event|bratT17=Date-period
+2	с	_	_	_	_	_	_	_	bratA4=T17:Past-Pres|bratT17=Date-period-absolute
+3	начала	_	_	_	_	_	_	_	bratA4=T17:Past-Pres|bratT17=Date-period-absolute
+4	пандемии	_	_	_	_	_	_	_	bratA4=T17:Past-Pres|bratT16=Event|bratT17=Date-period-absolute
 5	в	_	_	_	_	_	_	_	_
 6	Петербурге	_	_	_	_	_	_	_	bratT5=GPE
 7	было	_	_	_	_	_	_	_	_
@@ -79,7 +79,7 @@
 # sent_id = 0113-p5-s1
 # text = Как ранее сообщал портал URA.RU, в Пермском крае прокомментировали ситуацию с заболеваемостью коронавирусной инфекцией.
 1	Как	_	_	_	_	_	_	_	_
-2	ранее	_	_	_	_	_	_	_	bratT18=Time-relative
+2	ранее	_	_	_	_	_	_	_	bratA6=T18:Past|bratT18=Date-relative
 3	сообщал	_	_	_	_	_	_	_	_
 4	портал	_	_	_	_	_	_	_	bratA2=T7:Media|bratT7=Organization
 5	URA.RU	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Media|bratT7=Organization

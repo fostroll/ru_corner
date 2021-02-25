@@ -30,13 +30,15 @@ T29	Event 1045 1053	пандемии
 T30	Quantity 1114 1146	более   239   тысяч   заболевших
 T31	Quantity 1151 1183	Более   3,9   миллиона   человек
 T32	Service 287 292	сайте
-T33	Date-period 133 154	за   время   пандемии
-T34	Date-period 1032 1053	с   начала   пандемии
+T33	Date-period-absolute 133 154	за   время   пандемии
+T34	Date-period-absolute 1032 1053	с   начала   пандемии
 T35	Date-absolute 408 414	сейчас
-T36	Time-relative 496 501	ранее
+T36	Date-absolute 496 501	ранее
 T37	Other-term 157 169	коронавируса
 A1	Media T32
 A2	Past T22
 A3	Past T33
 A5	Present T35
-A6	Past T34
+A4	Past-Pres T34
+A6	Past T36
+T38	GPE 99 111	американским

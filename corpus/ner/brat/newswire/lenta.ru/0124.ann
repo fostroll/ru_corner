@@ -7,7 +7,7 @@ T6	Person 201 234	директор   театра   Мамед   Агаев
 T7	Person 326 349	Александр   Анатольевич
 T8	Date-absolute 377 392	в   понедельник
 T9	Other-term 414 427	коронавирусом
-T10	Person 476 481	Агаев
+T10	Person-surname 476 481	Агаев
 T11	Person-property 510 534	худрук   Театра   сатиры
 T12	Organization 519 534	Театра   сатиры
 T13	Date-absolute 605 616	25   ноября
@@ -26,5 +26,17 @@ T24	Duration 822 838	несколько   дней
 A2	Present T21
 A3	Past T8
 A4	Past T13
-T25	Date-period 822 838	несколько   дней
+T25	Date-period-relative 822 838	несколько   дней
 A5	Future T22
+T26	Person-forename 23 33	Александра
+T27	Person-surname 36 45	Ширвиндта
+T28	Person-forename 165 175	Александра
+T29	Person-surname 178 187	Ширвиндта
+T30	Person-forename 221 226	Мамед
+T31	Person-surname 229 234	Агаев
+T32	Person-forename 326 335	Александр
+T33	Person-patronym 338 349	Анатольевич
+T34	Person 476 481	Агаев
+T35	Person-surname 682 691	Ширвиндта
+T36	Person-forename 711 718	Натальи
+T37	Person-surname 721 731	Белоусовой

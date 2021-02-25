@@ -77,14 +77,14 @@
 12	персональной	_	_	_	_	_	_	_	bratT12=Law
 13	информации	_	_	_	_	_	_	_	bratT12=Law
 14	и	_	_	_	_	_	_	_	_
-15	с	_	_	_	_	_	_	_	bratT13=Date-period
-16	мая	_	_	_	_	_	_	_	bratT13=Date-period
-17	2012	_	_	_	_	_	_	_	bratT13=Date-period
-18	года	_	_	_	_	_	_	_	bratT13=Date-period
-19	по	_	_	_	_	_	_	_	bratT13=Date-period
-20	июнь	_	_	_	_	_	_	_	bratT13=Date-period
-21	2018	_	_	_	_	_	_	_	bratT13=Date-period
-22	года	_	_	_	_	_	_	_	bratT13=Date-period
+15	с	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
+16	мая	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
+17	2012	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
+18	года	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
+19	по	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
+20	июнь	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
+21	2018	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
+22	года	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-period-absolute
 23	передала	_	_	_	_	_	_	_	_
 24	личные	_	_	_	_	_	_	_	_
 25	данные	_	_	_	_	_	_	_	_
@@ -180,8 +180,8 @@
 # text = Напомним, в апреле суд США принял ходатайство американской Федеральной комиссии по торговле (ФКТ) взыскал с Facebook штраф в размере пяти миллиардов долларов за передачу личные данные пользователей одноименной социальной сети сторонней фирме для использования в маркетинговых целях.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT19=Date-absolute
-4	апреле	_	_	_	_	_	_	_	bratT19=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
+4	апреле	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 5	суд	_	_	_	_	_	_	_	_
 6	США	_	_	_	_	_	_	_	bratT20=GPE
 7	принял	_	_	_	_	_	_	_	_

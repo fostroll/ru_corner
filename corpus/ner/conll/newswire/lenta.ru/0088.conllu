@@ -3,7 +3,7 @@
 # par_text = Пашинян заявил об исчерпавшем все резервы Азербайджане
 # sent_id = 0088-p1-s1
 # text = Пашинян заявил об исчерпавшем все резервы Азербайджане
-1	Пашинян	_	_	_	_	_	_	_	bratT1=Person
+1	Пашинян	_	_	_	_	_	_	_	bratT1=Person|bratT37=Person-surname
 2	заявил	_	_	_	_	_	_	_	_
 3	об	_	_	_	_	_	_	_	_
 4	исчерпавшем	_	_	_	_	_	_	_	_
@@ -17,8 +17,8 @@
 # text = Премьер-министр Армении Никол Пашинян призвал страну мобилизоваться для победы.
 1	Премьер-министр	_	_	_	_	_	_	_	bratT2=Person|bratT7=Person-property
 2	Армении	_	_	_	_	_	_	_	bratT2=Person|bratT35=GPE|bratT7=Person-property
-3	Никол	_	_	_	_	_	_	_	bratT2=Person
-4	Пашинян	_	_	_	_	_	_	_	bratT2=Person
+3	Никол	_	_	_	_	_	_	_	bratT2=Person|bratT38=Person-forename
+4	Пашинян	_	_	_	_	_	_	_	bratT2=Person|bratT39=Person-surname
 5	призвал	_	_	_	_	_	_	_	_
 6	страну	_	_	_	_	_	_	_	_
 7	мобилизоваться	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 # par_text = Пашинян считает, что Баку не соглашается на гуманитарное перемирие, чтобы не допустить попадания домой тел десяти тысяч погибших военнослужащих на фоне эйфории от победных заявлений президента Азербайджана Ильхама Алиева. «Во-вторых, в случае выноса тел с поля боя выяснится, что среди погибших есть наемники и турецкие солдаты. Мировое сообщество это уже поняло, но Азербайджан пытается скрыть очевидные доказательства», — убежден глава правительства.
 # sent_id = 0088-p4-s1
 # text = Пашинян считает, что Баку не соглашается на гуманитарное перемирие, чтобы не допустить попадания домой тел десяти тысяч погибших военнослужащих на фоне эйфории от победных заявлений президента Азербайджана Ильхама Алиева.
-1	Пашинян	_	_	_	_	_	_	_	bratT3=Person
+1	Пашинян	_	_	_	_	_	_	_	bratT3=Person|bratT40=Person-surname
 2	считает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -123,8 +123,8 @@
 27	заявлений	_	_	_	_	_	_	_	_
 28	президента	_	_	_	_	_	_	_	bratT16=Person-property|bratT4=Person
 29	Азербайджана	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=GPE|bratT4=Person
-30	Ильхама	_	_	_	_	_	_	_	bratT4=Person
-31	Алиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person
+30	Ильхама	_	_	_	_	_	_	_	bratT4=Person|bratT41=Person-forename
+31	Алиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person|bratT42=Person-surname
 32	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0088-p4-s2
@@ -147,7 +147,7 @@
 16	есть	_	_	_	_	_	_	_	_
 17	наемники	_	_	_	_	_	_	_	bratT19=Person-property
 18	и	_	_	_	_	_	_	_	_
-19	турецкие	_	_	_	_	_	_	_	bratT21=Person-property
+19	турецкие	_	_	_	_	_	_	_	bratT21=Person-property|bratT30=GPE
 20	солдаты	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
 21	.	_	_	_	_	_	_	_	_
 
@@ -177,7 +177,7 @@
 # par_text = Пашинян призвал повторить то, что армяне сделали в прошлом во время первой войны в Карабахе. Он напомнил, ситуация была намного сложнее, но народ выстоял и победил.
 # sent_id = 0088-p5-s1
 # text = Пашинян призвал повторить то, что армяне сделали в прошлом во время первой войны в Карабахе.
-1	Пашинян	_	_	_	_	_	_	_	bratT5=Person
+1	Пашинян	_	_	_	_	_	_	_	bratT43=Person-surname|bratT5=Person
 2	призвал	_	_	_	_	_	_	_	_
 3	повторить	_	_	_	_	_	_	_	_
 4	то	_	_	_	_	_	_	_	SpaceAfter=No
@@ -187,10 +187,10 @@
 8	сделали	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	прошлом	_	_	_	_	_	_	_	_
-11	во	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-relative
-12	время	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-relative
-13	первой	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-relative|bratT32=Ordinal|bratT33=Event
-14	войны	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-relative|bratT33=Event
+11	во	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
+12	время	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
+13	первой	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT32=Ordinal|bratT33=Event
+14	войны	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT33=Event
 15	в	_	_	_	_	_	_	_	_
 16	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=GPE
 17	.	_	_	_	_	_	_	_	_
@@ -242,13 +242,13 @@
 9	по	_	_	_	_	_	_	_	_
 10	гуманитарным	_	_	_	_	_	_	_	_
 11	соображениям	_	_	_	_	_	_	_	_
-12	c	_	_	_	_	_	_	_	bratT29=Date-period
-13	00:00	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period|bratT30=Date-absolute
-14	по	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period|bratT30=Date-absolute
-15	местному	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period|bratT30=Date-absolute
-16	времени	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period|bratT30=Date-absolute
-17	18	_	_	_	_	_	_	_	bratT29=Date-period|bratT30=Date-absolute
-18	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Date-period|bratT30=Date-absolute
+12	c	_	_	_	_	_	_	_	bratT29=Date-period-absolute
+13	00:00	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period-absolute
+14	по	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period-absolute
+15	местному	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period-absolute
+16	времени	_	_	_	_	_	_	_	bratT28=Time-absolute|bratT29=Date-period-absolute
+17	18	_	_	_	_	_	_	_	bratT29=Date-period-absolute
+18	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Date-period-absolute
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0088-p6-s3

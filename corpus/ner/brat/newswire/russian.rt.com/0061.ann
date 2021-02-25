@@ -1,6 +1,6 @@
 T1	GPE 4 15	Подмосковье
 T2	Other-term 63 74	коронавирус
-T3	Date-period 306 329	за   прошедшую   неделю
+T3	Date-period-absolute 306 329	за   прошедшую   неделю
 T4	Quantity 398 429	30   -   35   тыс.   ПЦР-тестов
 T5	Other-term 437 448	коронавирус
 T6	Organization 510 523	РИА   Новости
@@ -15,10 +15,14 @@ T13	GPE 89 109	Московской   области
 T14	Person 76 129	Губернатор   Московской   области   Андрей   Воробьёв
 T15	Other-term 176 212	коронавирусную   инфекцию   COVID-19
 T16	GPE 219 230	Подмосковье
-T10	Date-relative 573 597	во   время   выступления
-T17	Time-relative 649 654	Ранее
+T10	Date-absolute 573 597	во   время   выступления
+T17	Date-relative 649 654	Ранее
 T18	Ordinal 311 320	прошедшую
 A3	Past T10
 A4	Present T11
-T19	Date-absolute 311 329	прошедшую   неделю
-A5	Past T19
+A5	Past T3
+T19	Event 605 643	заседании   областного   правительства
+A6	Past T17
+T20	Person-forename 112 118	Андрей
+T21	Person-surname 121 129	Воробьёв
+T22	Person-surname 657 665	Воробьёв

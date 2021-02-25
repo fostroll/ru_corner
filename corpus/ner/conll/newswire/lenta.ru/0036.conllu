@@ -46,8 +46,8 @@
 4	официальный	_	_	_	_	_	_	_	bratT6=Person-property|bratT8=Person
 5	представитель	_	_	_	_	_	_	_	bratT6=Person-property|bratT8=Person
 6	ВОЗ	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization|bratT8=Person
-7	Кэтрин	_	_	_	_	_	_	_	bratT8=Person
-8	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+7	Кэтрин	_	_	_	_	_	_	_	bratT35=Person-forename|bratT8=Person
+8	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-surname|bratT8=Person
 9	,	_	_	_	_	_	_	_	_
 10	комментируя	_	_	_	_	_	_	_	_
 11	подобные	_	_	_	_	_	_	_	_
@@ -56,9 +56,9 @@
 14	в	_	_	_	_	_	_	_	_
 15	Дании	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=GPE
 16	,	_	_	_	_	_	_	_	_
-17	в	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-relative
-18	ходе	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-relative
-19	трансляции	_	_	_	_	_	_	_	bratA3=T30:Media|bratA4=T31:Past|bratT30=Service|bratT31=Date-relative
+17	в	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-absolute
+18	ходе	_	_	_	_	_	_	_	bratA4=T31:Past|bratT31=Date-absolute
+19	трансляции	_	_	_	_	_	_	_	bratA3=T30:Media|bratA4=T31:Past|bratT30=Service|bratT31=Date-absolute
 20	в	_	_	_	_	_	_	_	_
 21	Facebook	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Service
 22	.	_	_	_	_	_	_	_	_
@@ -120,7 +120,7 @@
 # sent_id = 0036-p4-s1
 # text = ``Датские власти довольно быстро начали предпринимать различные действия, включая уничтожение большой, а на самом деле всей популяции норки в Дании.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Датские	_	_	_	_	_	_	_	_
+2	Датские	_	_	_	_	_	_	_	bratT34=GPE
 3	власти	_	_	_	_	_	_	_	_
 4	довольно	_	_	_	_	_	_	_	_
 5	быстро	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
 21	добавила	_	_	_	_	_	_	_	_
-22	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+22	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT37=Person-surname
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0036-p5
@@ -214,7 +214,7 @@
 # sent_id = 0036-p5-s3
 # text = В настоящее время зарегистрировано 12 человек с таким вирусом.
 1	В	_	_	_	_	_	_	_	bratA5=T28:Present|bratT28=Date-absolute
-2	настоящее	_	_	_	_	_	_	_	bratA5=T28:Present|bratT28=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA5=T28:Present|bratT28=Date-absolute|bratT38=Ordinal
 3	время	_	_	_	_	_	_	_	bratA5=T28:Present|bratT28=Date-absolute
 4	зарегистрировано	_	_	_	_	_	_	_	_
 5	12	_	_	_	_	_	_	_	bratT18=Quantity

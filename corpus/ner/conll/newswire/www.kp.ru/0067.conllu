@@ -87,7 +87,7 @@
 # sent_id = 0067-p4-s1
 # text = ``Сейчас катализатором является коронакризис, затронувший основное население, которое предъявляет претензии к правительству.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Сейчас	_	_	_	_	_	_	_	bratT23=Date-relative
+2	Сейчас	_	_	_	_	_	_	_	bratA5=T23:Present|bratT23=Date-absolute
 3	катализатором	_	_	_	_	_	_	_	_
 4	является	_	_	_	_	_	_	_	_
 5	коронакризис	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event
@@ -129,7 +129,7 @@
 3	думаю	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	сейчас	_	_	_	_	_	_	_	bratT24=Date-relative
+6	сейчас	_	_	_	_	_	_	_	bratA7=T24:Future|bratT24=Date-absolute
 7	Европа	_	_	_	_	_	_	_	bratT10=GPE
 8	уже	_	_	_	_	_	_	_	_
 9	не	_	_	_	_	_	_	_	_
@@ -161,7 +161,7 @@
 3	эксперта	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	Австрия	_	_	_	_	_	_	_	bratT14=GPE
-6	теперь	_	_	_	_	_	_	_	bratT26=Date-relative
+6	теперь	_	_	_	_	_	_	_	bratA6=T26:Future|bratT26=Date-absolute
 7	может	_	_	_	_	_	_	_	_
 8	временно	_	_	_	_	_	_	_	_
 9	закрыть	_	_	_	_	_	_	_	_
@@ -195,8 +195,8 @@
 
 # sent_id = 0067-p6-s2
 # text = 3 ноября в клинике Оттакринг скончалась еще одна пострадавшая, ей было около 40-50 лет, пишет сайт argumenti.ru.
-1	3	_	_	_	_	_	_	_	bratT17=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+1	3	_	_	_	_	_	_	_	bratA8=T17:Past|bratT17=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA8=T17:Past|bratT17=Date-absolute
 3	в	_	_	_	_	_	_	_	_
 4	клинике	_	_	_	_	_	_	_	bratT18=Organization
 5	Оттакринг	_	_	_	_	_	_	_	bratT18=Organization

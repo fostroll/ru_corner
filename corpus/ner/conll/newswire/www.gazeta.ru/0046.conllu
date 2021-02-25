@@ -52,9 +52,9 @@
 2	данным	_	_	_	_	_	_	_	_
 3	ведомства	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	за	_	_	_	_	_	_	_	bratT9=Time-period
-6	последние	_	_	_	_	_	_	_	bratT39=Ordinal|bratT9=Time-period
-7	сутки	_	_	_	_	_	_	_	bratT9=Time-period
+5	за	_	_	_	_	_	_	_	bratA3=T9:Past-Pres|bratT9=Date-period-absolute
+6	последние	_	_	_	_	_	_	_	bratA3=T9:Past-Pres|bratT39=Ordinal|bratT9=Date-period-absolute
+7	сутки	_	_	_	_	_	_	_	bratA3=T9:Past-Pres|bratT44=Duration|bratT9=Date-period-absolute
 8	в	_	_	_	_	_	_	_	_
 9	Бразилии	_	_	_	_	_	_	_	bratT10=GPE
 10	зарегистрировали	_	_	_	_	_	_	_	_
@@ -85,10 +85,10 @@
 # text = При этом с момента начала пандемии там вылечились 5 422 102 пациента.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	с	_	_	_	_	_	_	_	bratT40=Date-period
-4	момента	_	_	_	_	_	_	_	bratT40=Date-period
-5	начала	_	_	_	_	_	_	_	bratT40=Date-period
-6	пандемии	_	_	_	_	_	_	_	bratT37=Event
+3	с	_	_	_	_	_	_	_	bratA2=T40:Past-Pres|bratT40=Date-period-absolute
+4	момента	_	_	_	_	_	_	_	bratA2=T40:Past-Pres|bratT40=Date-period-absolute
+5	начала	_	_	_	_	_	_	_	bratA2=T40:Past-Pres|bratT40=Date-period-absolute
+6	пандемии	_	_	_	_	_	_	_	bratA2=T40:Past-Pres|bratT37=Event|bratT40=Date-period-absolute
 7	там	_	_	_	_	_	_	_	_
 8	вылечились	_	_	_	_	_	_	_	_
 9	5	_	_	_	_	_	_	_	bratT14=Quantity
@@ -104,9 +104,9 @@
 1	Всего	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
 3	мире	_	_	_	_	_	_	_	bratT42=GPE
-4	с	_	_	_	_	_	_	_	bratT41=Date-period
-5	начала	_	_	_	_	_	_	_	bratT41=Date-period
-6	пандемии	_	_	_	_	_	_	_	bratT38=Event|bratT41=Date-period
+4	с	_	_	_	_	_	_	_	bratA4=T41:Past-Pres|bratT41=Date-period-absolute
+5	начала	_	_	_	_	_	_	_	bratA4=T41:Past-Pres|bratT41=Date-period-absolute
+6	пандемии	_	_	_	_	_	_	_	bratA4=T41:Past-Pres|bratT38=Event|bratT41=Date-period-absolute
 7	зарегистрировано	_	_	_	_	_	_	_	_
 8	более	_	_	_	_	_	_	_	bratT17=Quantity
 9	57	_	_	_	_	_	_	_	bratT17=Quantity
@@ -182,8 +182,8 @@
 
 # sent_id = 0046-p5-s6
 # text = 15 октября президент России Владимир Путин рассказал о регистрации второй вакцины от COVID-19, которая получила название ``ЭпиВакКорона''.
-1	15	_	_	_	_	_	_	_	bratT28=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT28=Date-absolute
+1	15	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
 3	президент	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
 4	России	_	_	_	_	_	_	_	bratT29=GPE|bratT30=Person-property|bratT31=Person
 5	Владимир	_	_	_	_	_	_	_	bratT31=Person

@@ -3,10 +3,10 @@
 # par_text = Мишустин запустил ускоритель российского мегасайенс-проекта
 # sent_id = 0082-p1-s1
 # text = Мишустин запустил ускоритель российского мегасайенс-проекта
-1	Мишустин	_	_	_	_	_	_	_	bratT1=Person
+1	Мишустин	_	_	_	_	_	_	_	bratT1=Person|bratT34=Person-surname
 2	запустил	_	_	_	_	_	_	_	_
 3	ускоритель	_	_	_	_	_	_	_	_
-4	российского	_	_	_	_	_	_	_	_
+4	российского	_	_	_	_	_	_	_	bratT33=GPE
 5	мегасайенс-проекта	_	_	_	_	_	_	_	_
 
 # newpar id = 0082-p2
@@ -15,8 +15,8 @@
 # text = Премьер-министр России Михаил Мишустин запустил в работу сверхпроводящий ускоритель тяжелых ионов мегасайенс-проекта NICA.
 1	Премьер-министр	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
 2	России	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=GPE|bratT5=Person
-3	Михаил	_	_	_	_	_	_	_	bratT5=Person
-4	Мишустин	_	_	_	_	_	_	_	bratT5=Person
+3	Михаил	_	_	_	_	_	_	_	bratT35=Person-forename|bratT5=Person
+4	Мишустин	_	_	_	_	_	_	_	bratT36=Person-surname|bratT5=Person
 5	запустил	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	работу	_	_	_	_	_	_	_	_
@@ -76,13 +76,13 @@
 4	приняли	_	_	_	_	_	_	_	_
 5	участие	_	_	_	_	_	_	_	_
 6	вице-премьер	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person
-7	Дмитрий	_	_	_	_	_	_	_	bratT15=Person
-8	Чернышенко	_	_	_	_	_	_	_	bratT15=Person
+7	Дмитрий	_	_	_	_	_	_	_	bratT15=Person|bratT37=Person-forename
+8	Чернышенко	_	_	_	_	_	_	_	bratT15=Person|bratT38=Person-surname
 9	и	_	_	_	_	_	_	_	_
 10	глава	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person
 11	Минобрнауки	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization|bratT18=Person
-12	Валерий	_	_	_	_	_	_	_	bratT18=Person
-13	Фальков	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+12	Валерий	_	_	_	_	_	_	_	bratT18=Person|bratT39=Person-forename
+13	Фальков	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT40=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0082-p4
@@ -92,7 +92,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Мы	_	_	_	_	_	_	_	_
 3	присутствуем	_	_	_	_	_	_	_	_
-4	сегодня	_	_	_	_	_	_	_	bratA7=T30:Present|bratT30=Date-absolute
+4	сегодня	_	_	_	_	_	_	_	bratA7=T30:Past|bratT30=Date-absolute
 5	при	_	_	_	_	_	_	_	_
 6	уникальном	_	_	_	_	_	_	_	_
 7	событии	_	_	_	_	_	_	_	SpaceAfter=No
@@ -110,11 +110,11 @@
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
 21	подчеркнул	_	_	_	_	_	_	_	_
-22	Мишустин	_	_	_	_	_	_	_	bratT20=Person
-23	в	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
-24	ходе	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
-25	своей	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
-26	встречи	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative|bratT32=Event
+22	Мишустин	_	_	_	_	_	_	_	bratT20=Person|bratT41=Person-surname
+23	в	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
+24	ходе	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
+25	своей	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
+26	встречи	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute|bratT32=Event
 27	с	_	_	_	_	_	_	_	bratT32=Event
 28	молодыми	_	_	_	_	_	_	_	bratT31=Age|bratT32=Event
 29	учеными	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT32=Event

@@ -10,7 +10,7 @@
 5	получила	_	_	_	_	_	_	_	_
 6	новый	_	_	_	_	_	_	_	_
 7	пост	_	_	_	_	_	_	_	_
-8	после	_	_	_	_	_	_	_	bratT51=Time-relative
+8	после	_	_	_	_	_	_	_	bratA9=T51:Past|bratT51=Date-relative
 9	скандала	_	_	_	_	_	_	_	bratT47=Event
 10	с	_	_	_	_	_	_	_	bratT47=Event
 11	отпуском	_	_	_	_	_	_	_	bratT47=Event
@@ -24,8 +24,8 @@
 1	Бывший	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
 2	мэр	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
 3	Тамбова	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=GPE|bratT5=Person
-4	Наталия	_	_	_	_	_	_	_	bratT5=Person
-5	Макаревич	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+4	Наталия	_	_	_	_	_	_	_	bratT5=Person|bratT55=Person-forename
+5	Макаревич	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person|bratT56=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	ушедшая	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -56,8 +56,8 @@
 7	информационной	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
 8	политики	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
 9	региона	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-10	Татьяна	_	_	_	_	_	_	_	bratT12=Person
-11	Самотойлова	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+10	Татьяна	_	_	_	_	_	_	_	bratT12=Person|bratT57=Person-forename
+11	Самотойлова	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT58=Person-surname
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p3
@@ -85,15 +85,15 @@
 
 # sent_id = 0099-p3-s3
 # text = Макаревич проработала на посту главы Тамбова чуть более года.
-1	Макаревич	_	_	_	_	_	_	_	bratT15=Person
+1	Макаревич	_	_	_	_	_	_	_	bratT15=Person|bratT59=Person-surname
 2	проработала	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	посту	_	_	_	_	_	_	_	_
 5	главы	_	_	_	_	_	_	_	bratT16=Person-property
 6	Тамбова	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=GPE
-7	чуть	_	_	_	_	_	_	_	bratA6=T49:Past|bratT18=Duration|bratT49=Date-period
-8	более	_	_	_	_	_	_	_	bratA6=T49:Past|bratT18=Duration|bratT49=Date-period
-9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T49:Past|bratT18=Duration|bratT49=Date-period
+7	чуть	_	_	_	_	_	_	_	bratA6=T49:Past|bratT18=Duration|bratT49=Date-period-relative
+8	более	_	_	_	_	_	_	_	bratA6=T49:Past|bratT18=Duration|bratT49=Date-period-relative
+9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T49:Past|bratT18=Duration|bratT49=Date-period-relative
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0099-p3-s4
@@ -101,7 +101,7 @@
 1	30	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property
-4	Тамбовской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
+4	Тамбовской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT53=GPE
 5	городской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
 6	думы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
 7	на	_	_	_	_	_	_	_	_
@@ -119,8 +119,8 @@
 2	главой	_	_	_	_	_	_	_	bratT22=Person-property
 3	города	_	_	_	_	_	_	_	bratT22=Person-property
 4	стал	_	_	_	_	_	_	_	_
-5	Максим	_	_	_	_	_	_	_	bratT23=Person
-6	Косенков	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person
+5	Максим	_	_	_	_	_	_	_	bratT23=Person|bratT60=Person-forename
+6	Косенков	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT61=Person-surname
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p4
@@ -129,7 +129,7 @@
 # text = В марте Макаревич оказалась в центре скандала из-за того, что уехала отдыхать во Вьетнам в разгар пандемии коронавируса.
 1	В	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
 2	марте	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
-3	Макаревич	_	_	_	_	_	_	_	bratT25=Person
+3	Макаревич	_	_	_	_	_	_	_	bratT25=Person|bratT62=Person-surname
 4	оказалась	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	центре	_	_	_	_	_	_	_	_
@@ -142,9 +142,9 @@
 13	отдыхать	_	_	_	_	_	_	_	_
 14	во	_	_	_	_	_	_	_	_
 15	Вьетнам	_	_	_	_	_	_	_	bratT26=GPE
-16	в	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-relative
-17	разгар	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-relative
-18	пандемии	_	_	_	_	_	_	_	bratA7=T46:Past|bratT27=Event|bratT46=Date-relative
+16	в	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-absolute
+17	разгар	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-absolute
+18	пандемии	_	_	_	_	_	_	_	bratA7=T46:Past|bratT27=Event|bratT46=Date-absolute
 19	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT48=Other-term
 20	.	_	_	_	_	_	_	_	_
 
@@ -177,7 +177,7 @@
 3	же	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
 4	месяце	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute
 5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property
-6	Тамбовской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
+6	Тамбовской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT54=GPE
 7	городской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
 8	думы	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
 9	решили	_	_	_	_	_	_	_	_

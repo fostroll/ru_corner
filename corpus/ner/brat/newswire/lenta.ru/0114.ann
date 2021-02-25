@@ -13,7 +13,7 @@ T13	Person 564 577	Джигарханяном
 T14	Person-property 642 649	актером
 T17	Organization 762 792	Театре   Армена   Джигарханяна
 T18	Person-property 809 815	артист
-T19	Date-period 831 846	с   1996   года
+T19	Date-period-absolute 831 846	с   1996   года
 T20	Person 851 862	Джигарханян
 T21	Date-absolute 872 909	утром   в   субботу   ,   14   ноября
 T22	Age 931 939	85   лет
@@ -30,11 +30,22 @@ T6	Ordinal 155 164	последнее
 T16	Ordinal 392 401	последней
 T30	Ordinal 35 44	последнее
 T31	Time-absolute 872 877	утром
-T32	Time-relative 457 462	Ранее
+T32	Date-relative 457 462	Ранее
 T33	Date-relative 375 418	Незадолго   до   последней   госпитализации
 T34	Family 174 178	отца
-T35	Date-absolute 835 846	1996   года
-A2	Past T35
 A3	Past T21
 A4	Past T33
 T36	Event 392 418	последней   госпитализации
+A5	Past T19
+A2	Past T32
+T35	Person-surname 6 18	Джигарханяна
+T37	Person-forename 113 119	Армена
+T38	Person-surname 122 134	Джигарханяна
+T39	Person-forename 346 354	Татьяной
+T40	Person-surname 357 365	Власовой
+T41	Person-forename 482 487	Артур
+T42	Person-surname 490 499	Согомонян
+T43	Person-surname 564 577	Джигарханяном
+T44	Person-forename 771 777	Армена
+T45	Person-surname 780 792	Джигарханяна
+T46	Person-surname 851 862	Джигарханян

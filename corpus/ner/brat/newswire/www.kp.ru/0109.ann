@@ -33,12 +33,21 @@ T30	Organization 1093 1096	МВД
 T31	Organization 1117 1129	Минэкономики
 T32	Organization 1136 1145	Минздрава
 T33	Organization 1103 1110	Минюста
-T34	Date-period 49 69	в   ходе   протестов
-T35	Date-period 82 102	В   ходе   протестов
+T34	Date-period-absolute 49 69	в   ходе   протестов
+T35	Date-period-absolute 82 102	В   ходе   протестов
 T36	Percent 788 804	более   половины
-T37	Date-duration 474 487	шестой   дней
+T37	Date-period-absolute 474 487	шестой   дней
 T38	Other-term 299 309	импичмента
-T39	Date-period 678 704	после   жесткого   разгона
+T39	Date-absolute 678 704	после   жесткого   разгона
 T40	Event 686 745	жесткого   разгона   полицией   массовых   акций   протеста
 T41	Event 718 745	массовых   акций   протеста
 T42	Person-property 707 715	полицией
+A3	Past-Pres T37
+A4	RCont T37
+A5	Past T34
+A6	Past T35
+T43	Event 251 287	вторая   национальная   манифестация
+A7	Past T7
+A8	Past T26
+A9	Past T21
+A10	Past T39

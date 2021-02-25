@@ -12,9 +12,9 @@
 7	Ми-35	_	_	_	_	_	_	_	bratT3=Product
 8	у	_	_	_	_	_	_	_	_
 9	России	_	_	_	_	_	_	_	bratT4=GPE
-10	в	_	_	_	_	_	_	_	bratT5=Date-absolute
-11	2021	_	_	_	_	_	_	_	bratT5=Date-absolute
-12	году	_	_	_	_	_	_	_	bratT5=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
+11	2021	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
+12	году	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
 
 # newpar id = 0005-p2
 # par_text = Власти Республики Беларусь намерены в 2021 году закупить у России военную технику. В частности речь идет о самолетах и вертолетах. Об этом заявил глава Минобороны страны Виктор Хренин в эфире телеканала "Беларусь-1".
@@ -24,9 +24,9 @@
 2	Республики	_	_	_	_	_	_	_	bratT6=GPE
 3	Беларусь	_	_	_	_	_	_	_	bratT6=GPE
 4	намерены	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT7=Date-absolute
-6	2021	_	_	_	_	_	_	_	bratT7=Date-absolute
-7	году	_	_	_	_	_	_	_	bratT7=Date-absolute
+5	в	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
+6	2021	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
+7	году	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
 8	закупить	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_
 10	России	_	_	_	_	_	_	_	bratT8=GPE
@@ -97,9 +97,9 @@
 6	самолетам	_	_	_	_	_	_	_	bratT16=Product
 7	Су-30СМ	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Product
 8	,	_	_	_	_	_	_	_	_
-9	в	_	_	_	_	_	_	_	bratT17=Date-relative
-10	следующем	_	_	_	_	_	_	_	bratT17=Date-relative|bratT31=Ordinal
-11	году	_	_	_	_	_	_	_	bratT17=Date-relative
+9	в	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
+10	следующем	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute|bratT31=Ordinal
+11	году	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
 12	мы	_	_	_	_	_	_	_	_
 13	планируем	_	_	_	_	_	_	_	_
 14	еще	_	_	_	_	_	_	_	bratT18=Quantity
@@ -172,9 +172,9 @@
 7	анонсировал	_	_	_	_	_	_	_	_
 8	самые	_	_	_	_	_	_	_	_
 9	масштабные	_	_	_	_	_	_	_	_
-10	за	_	_	_	_	_	_	_	bratT30=Date-period
-11	последние	_	_	_	_	_	_	_	bratT30=Date-period|bratT32=Ordinal
-12	годы	_	_	_	_	_	_	_	bratT30=Date-period
+10	за	_	_	_	_	_	_	_	bratA3=T30:Past-Pres|bratT30=Date-period-absolute
+11	последние	_	_	_	_	_	_	_	bratA3=T30:Past-Pres|bratT30=Date-period-absolute|bratT32=Ordinal
+12	годы	_	_	_	_	_	_	_	bratA3=T30:Past-Pres|bratT30=Date-period-absolute|bratT34=Duration
 13	учения	_	_	_	_	_	_	_	_
 14	с	_	_	_	_	_	_	_	_
 15	Россией	_	_	_	_	_	_	_	bratT27=GPE

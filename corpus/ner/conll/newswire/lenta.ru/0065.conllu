@@ -10,9 +10,9 @@
 5	на	_	_	_	_	_	_	_	bratT1=Quantity
 6	44	_	_	_	_	_	_	_	bratT1=Quantity
 7	килограмма	_	_	_	_	_	_	_	bratT1=Quantity
-8	за	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-period
-9	два	_	_	_	_	_	_	_	bratA5=T4:Past|bratT30=Duration|bratT4=Date-period
-10	года	_	_	_	_	_	_	_	bratA5=T4:Past|bratT30=Duration|bratT4=Date-period
+8	за	_	_	_	_	_	_	_	bratT4=Time-period
+9	два	_	_	_	_	_	_	_	bratT30=Duration|bratT4=Time-period
+10	года	_	_	_	_	_	_	_	bratT30=Duration|bratT4=Time-period
 
 # newpar id = 0065-p2
 # par_text = Австралийка рассказала о том, как ей удалось сбросить 44 килограмма менее чем за два года. Об этом пишет Daily Mail.
@@ -29,11 +29,11 @@
 9	сбросить	_	_	_	_	_	_	_	_
 10	44	_	_	_	_	_	_	_	bratT3=Quantity
 11	килограмма	_	_	_	_	_	_	_	bratT3=Quantity
-12	менее	_	_	_	_	_	_	_	bratA4=T31:Past|bratT20=Duration|bratT31=Date-period
-13	чем	_	_	_	_	_	_	_	bratA4=T31:Past|bratT20=Duration|bratT31=Date-period
-14	за	_	_	_	_	_	_	_	bratA4=T31:Past|bratT20=Duration|bratT31=Date-period
-15	два	_	_	_	_	_	_	_	bratA4=T31:Past|bratT20=Duration|bratT31=Date-period
-16	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T31:Past|bratT20=Duration|bratT31=Date-period
+12	менее	_	_	_	_	_	_	_	bratA6=T31:Past|bratT20=Duration|bratT31=Date-period-absolute
+13	чем	_	_	_	_	_	_	_	bratA6=T31:Past|bratT20=Duration|bratT31=Date-period-absolute
+14	за	_	_	_	_	_	_	_	bratA6=T31:Past|bratT20=Duration|bratT31=Date-period-absolute
+15	два	_	_	_	_	_	_	_	bratA6=T31:Past|bratT20=Duration|bratT31=Date-period-absolute
+16	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T31:Past|bratT20=Duration|bratT31=Date-period-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0065-p2-s2
@@ -49,11 +49,11 @@
 # par_text = Сантия Эфтимиу (Xanthia Efthymiou) располнела еще в школе. К последнему классу она весила 114 килограммов и каждый день объедалась бургерами из фастфуда. Девушка задумалась о похудении, когда из-за избыточного веса у нее начались боли в спине. «Я пошла к врачу и обнаружила, что за год набрала еще 20 килограммов, — вспоминает она. — Мне сказали, что если я и дальше буду так полнеть, у меня появятся серьезные проблемы со здоровьем».
 # sent_id = 0065-p3-s1
 # text = Сантия Эфтимиу (Xanthia Efthymiou) располнела еще в школе.
-1	Сантия	_	_	_	_	_	_	_	bratT5=Person
-2	Эфтимиу	_	_	_	_	_	_	_	bratT5=Person
+1	Сантия	_	_	_	_	_	_	_	bratT37=Person-forename|bratT5=Person
+2	Эфтимиу	_	_	_	_	_	_	_	bratT38=Person-surname|bratT5=Person
 3	(	_	_	_	_	_	_	_	SpaceAfter=No
-4	Xanthia	_	_	_	_	_	_	_	bratT21=Person
-5	Efthymiou	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person
+4	Xanthia	_	_	_	_	_	_	_	bratT21=Person|bratT39=Person-forename
+5	Efthymiou	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT40=Person-surname
 6	)	_	_	_	_	_	_	_	_
 7	располнела	_	_	_	_	_	_	_	_
 8	еще	_	_	_	_	_	_	_	_
@@ -150,7 +150,7 @@
 # par_text = Сантия понимала, что для похудения ей необходимо изменить свой рацион и увеличить физическую активность, но сделать первый шаг было непросто. «Я всегда боялась заниматься спортом на людях, — объясняет она. — Мне казалось, что люди услышат мое тяжелое дыхание, поймут, какая я нетренированная, и будут плохо обо мне думать».
 # sent_id = 0065-p4-s1
 # text = Сантия понимала, что для похудения ей необходимо изменить свой рацион и увеличить физическую активность, но сделать первый шаг было непросто.
-1	Сантия	_	_	_	_	_	_	_	bratT9=Person
+1	Сантия	_	_	_	_	_	_	_	bratT41=Person-forename|bratT9=Person
 2	понимала	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -254,8 +254,8 @@
 
 # sent_id = 0065-p5-s3
 # text = После этого девушка стала три раза в неделю посещать спортзал для интервальных тренировок высокой интенсивности.
-1	После	_	_	_	_	_	_	_	bratT28=Time-relative
-2	этого	_	_	_	_	_	_	_	bratT28=Time-relative
+1	После	_	_	_	_	_	_	_	bratA4=T28:Past|bratT28=Date-relative
+2	этого	_	_	_	_	_	_	_	bratA4=T28:Past|bratT28=Date-relative
 3	девушка	_	_	_	_	_	_	_	_
 4	стала	_	_	_	_	_	_	_	_
 5	три	_	_	_	_	_	_	_	bratT14=Quantity
@@ -273,7 +273,7 @@
 
 # sent_id = 0065-p5-s4
 # text = Позднее она перешла к занятиям со свободными весами по пять раз в неделю.
-1	Позднее	_	_	_	_	_	_	_	bratT27=Time-relative
+1	Позднее	_	_	_	_	_	_	_	bratA5=T27:Past|bratT27=Date-relative
 2	она	_	_	_	_	_	_	_	_
 3	перешла	_	_	_	_	_	_	_	_
 4	к	_	_	_	_	_	_	_	_

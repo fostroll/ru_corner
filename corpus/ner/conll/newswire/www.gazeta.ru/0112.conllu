@@ -83,9 +83,9 @@
 
 # sent_id = 0112-p4-s2
 # text = В настоящее время Церцвадзе проходит курс лечения дома.
-1	В	_	_	_	_	_	_	_	bratT30=Date-relative
-2	настоящее	_	_	_	_	_	_	_	bratT30=Date-relative
-3	время	_	_	_	_	_	_	_	bratT30=Date-relative
+1	В	_	_	_	_	_	_	_	bratA2=T30:Present|bratT30=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA2=T30:Present|bratT30=Date-absolute|bratT32=Ordinal
+3	время	_	_	_	_	_	_	_	bratA2=T30:Present|bratT30=Date-absolute
 4	Церцвадзе	_	_	_	_	_	_	_	bratT14=Person
 5	проходит	_	_	_	_	_	_	_	_
 6	курс	_	_	_	_	_	_	_	_
@@ -126,11 +126,11 @@
 2	правительство	_	_	_	_	_	_	_	bratT22=Organization
 3	поручило	_	_	_	_	_	_	_	_
 4	Цервадзе	_	_	_	_	_	_	_	bratT23=Person
-5	в	_	_	_	_	_	_	_	bratT29=Date-period
-6	первые	_	_	_	_	_	_	_	bratT27=Ordinal|bratT29=Date-period
-7	дни	_	_	_	_	_	_	_	bratT29=Date-period
-8	пандемии	_	_	_	_	_	_	_	bratT28=Event|bratT29=Date-period
-9	коронавируса	_	_	_	_	_	_	_	bratT24=Other-term|bratT28=Event|bratT29=Date-period
+5	в	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-period-absolute
+6	первые	_	_	_	_	_	_	_	bratA3=T29:Past|bratT27=Ordinal|bratT29=Date-period-absolute
+7	дни	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-period-absolute|bratT31=Duration
+8	пандемии	_	_	_	_	_	_	_	bratA3=T29:Past|bratT28=Event|bratT29=Date-period-absolute
+9	коронавируса	_	_	_	_	_	_	_	bratA3=T29:Past|bratT24=Other-term|bratT28=Event|bratT29=Date-period-absolute
 10	встать	_	_	_	_	_	_	_	_
 11	во	_	_	_	_	_	_	_	_
 12	главе	_	_	_	_	_	_	_	_

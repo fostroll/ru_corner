@@ -29,7 +29,7 @@ T25	GPE 1727 1735	Вьетнаме
 T26	GPE 1767 1782	городе   Нячанг
 T27	Facility 1835 1861	моста   через   реку   Кай
 T28	Quantity 1868 1874	трижды
-T29	Other-group 103 109	турист
+T29	Other-group 90 109	Российский   турист
 T31	Event 1335 1343	Протесты
 T33	Other-group 1816 1824	туристке
 T34	Family 82 88	дочери
@@ -37,12 +37,23 @@ T35	Family 447 452	женой
 T36	Family 471 478	дочерью
 A5	Media T4
 T37	Event 1425 1485	годовщине   ``   Студенческой   революции   ''   1973   года
-T9	Date-period 141 186	во   время   антиправительственного   митинга
-T30	Time-relative 975 982	Позднее
-T32	Time-relative 846 851	затем
-T38	Time-relative 1065 1077	впоследствии
+T9	Date-period-absolute 141 186	во   время   антиправительственного   митинга
+T30	Date-relative 975 982	Позднее
+T32	Date-relative 846 851	затем
+T38	Date-relative 1065 1077	впоследствии
 T39	Age 889 896	ребенка
 T40	Event 154 186	антиправительственного   митинга
 A6	Past T19
 A7	Past T24
 A8	Past T9
+A9	Past T32
+A10	Past T30
+A11	Past T38
+T41	GPE 90 100	Российский
+T42	GPE 193 204	таиландской
+T43	GPE 1698 1708	российскую
+T44	Other-group 1698 1719	российскую   туристку
+T45	Person-forename 366 375	Владислав
+T46	Person-surname 378 385	Тимохин
+T47	Person-forename 1589 1596	Тханома
+T48	Person-surname 1599 1610	Киттикачона

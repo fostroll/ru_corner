@@ -148,9 +148,9 @@
 5	комнаты	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	Москве	_	_	_	_	_	_	_	bratT12=GPE
-8	в	_	_	_	_	_	_	_	bratT19=Date-period
-9	октябре	_	_	_	_	_	_	_	bratA4=T27:Past|bratT19=Date-period|bratT27=Date-absolute
-10	2020-го	_	_	_	_	_	_	_	bratA4=T27:Past|bratT19=Date-period|bratT27=Date-absolute
+8	в	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-period-absolute
+9	октябре	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-period-absolute
+10	2020-го	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-period-absolute
 11	вырос	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	bratT20=Percent
 13	14	_	_	_	_	_	_	_	bratT20=Percent
@@ -158,18 +158,18 @@
 15	по	_	_	_	_	_	_	_	_
 16	сравнению	_	_	_	_	_	_	_	_
 17	с	_	_	_	_	_	_	_	_
-18	сентябрьским	_	_	_	_	_	_	_	bratA6=T29:Past|bratT21=Date-period|bratT29=Date-absolute
+18	сентябрьским	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-period-absolute
 19	показателем	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	определили	_	_	_	_	_	_	_	_
-22	специалисты	_	_	_	_	_	_	_	SpaceAfter=No
+22	специалисты	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0013-p4-s2
 # text = С начала года интерес к данному формату жилья увеличился почти на 8 процентов.
-1	С	_	_	_	_	_	_	_	bratT23=Date-period
-2	начала	_	_	_	_	_	_	_	bratA5=T28:Past|bratT23=Date-period|bratT28=Date-absolute
-3	года	_	_	_	_	_	_	_	bratA5=T28:Past|bratT23=Date-period|bratT28=Date-absolute
+1	С	_	_	_	_	_	_	_	bratA7=T23:Past-Pres|bratT23=Date-period-absolute
+2	начала	_	_	_	_	_	_	_	bratA7=T23:Past-Pres|bratT23=Date-period-absolute
+3	года	_	_	_	_	_	_	_	bratA7=T23:Past-Pres|bratT23=Date-period-absolute
 4	интерес	_	_	_	_	_	_	_	_
 5	к	_	_	_	_	_	_	_	_
 6	данному	_	_	_	_	_	_	_	_

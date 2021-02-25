@@ -5,8 +5,8 @@
 # text = В Москве за сутки скончались еще 75 пациентов с коронавирусом
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT1=GPE
-3	за	_	_	_	_	_	_	_	bratT2=Time-duration
-4	сутки	_	_	_	_	_	_	_	bratT2=Time-duration
+3	за	_	_	_	_	_	_	_	bratA4=T2:Past-Pres|bratT2=Date-period-absolute
+4	сутки	_	_	_	_	_	_	_	bratA4=T2:Past-Pres|bratT2=Date-period-absolute|bratT21=Duration
 5	скончались	_	_	_	_	_	_	_	_
 6	еще	_	_	_	_	_	_	_	bratT3=Quantity
 7	75	_	_	_	_	_	_	_	bratT3=Quantity
@@ -20,8 +20,8 @@
 # text = В Москве за сутки скончались еще 75 пациентов с коронавирусом, пишет РИА ``Новости'' со ссылкой на оперштаб.
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT5=GPE
-3	за	_	_	_	_	_	_	_	bratT6=Time-duration
-4	сутки	_	_	_	_	_	_	_	bratT6=Time-duration
+3	за	_	_	_	_	_	_	_	bratA5=T6:Past-Pres|bratT6=Date-period-absolute
+4	сутки	_	_	_	_	_	_	_	bratA5=T6:Past-Pres|bratT24=Duration|bratT6=Date-period-absolute
 5	скончались	_	_	_	_	_	_	_	_
 6	еще	_	_	_	_	_	_	_	bratT7=Quantity
 7	75	_	_	_	_	_	_	_	bratT7=Quantity
@@ -77,8 +77,8 @@
 # par_text = Днем ранее сообщалось о 74 погибших.
 # sent_id = 0053-p4-s1
 # text = Днем ранее сообщалось о 74 погибших.
-1	Днем	_	_	_	_	_	_	_	bratT20=Date-relative
-2	ранее	_	_	_	_	_	_	_	bratT20=Date-relative
+1	Днем	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute|bratT22=Duration
+2	ранее	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
 3	сообщалось	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
 5	74	_	_	_	_	_	_	_	bratT13=Quantity

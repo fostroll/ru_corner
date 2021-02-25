@@ -44,9 +44,9 @@
 7	Чапаре	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
 8	,	_	_	_	_	_	_	_	_
 9	открытой	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT5=Date-absolute
-11	2004	_	_	_	_	_	_	_	bratT5=Date-absolute
-12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
+11	2004	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
+12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T5:Past|bratT5=Date-absolute
 13	,	_	_	_	_	_	_	_	_
 14	передаваться	_	_	_	_	_	_	_	_
 15	человеку	_	_	_	_	_	_	_	SpaceAfter=No
@@ -138,11 +138,11 @@
 3	вирусом	_	_	_	_	_	_	_	_
 4	людей	_	_	_	_	_	_	_	_
 5	обнаружили	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT10=Date-period
-7	2003	_	_	_	_	_	_	_	bratT10=Date-period
-8	-	_	_	_	_	_	_	_	bratT10=Date-period
-9	2004	_	_	_	_	_	_	_	bratT10=Date-period
-10	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-period
+6	в	_	_	_	_	_	_	_	bratA6=T10:Past|bratT10=Date-period-absolute
+7	2003	_	_	_	_	_	_	_	bratA6=T10:Past|bratT10=Date-period-absolute
+8	-	_	_	_	_	_	_	_	bratA6=T10:Past|bratT10=Date-period-absolute
+9	2004	_	_	_	_	_	_	_	bratA6=T10:Past|bratT10=Date-period-absolute
+10	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Past|bratT10=Date-period-absolute
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0113-p4-s2
@@ -164,9 +164,9 @@
 # sent_id = 0113-p4-s3
 # text = Однако в прошлом году вспышка болезни случилась вновь.
 1	Однако	_	_	_	_	_	_	_	_
-2	в	_	_	_	_	_	_	_	bratT12=Date-relative
-3	прошлом	_	_	_	_	_	_	_	bratT12=Date-relative
-4	году	_	_	_	_	_	_	_	bratT12=Date-relative
+2	в	_	_	_	_	_	_	_	bratA2=T12:Past|bratT12=Date-absolute
+3	прошлом	_	_	_	_	_	_	_	bratA2=T12:Past|bratT12=Date-absolute|bratT6=Ordinal
+4	году	_	_	_	_	_	_	_	bratA2=T12:Past|bratT12=Date-absolute
 5	вспышка	_	_	_	_	_	_	_	_
 6	болезни	_	_	_	_	_	_	_	_
 7	случилась	_	_	_	_	_	_	_	_
@@ -244,9 +244,9 @@
 # par_text = На сегодняшний день неизвестно точное число заразившихся, однако местным жителям и туристам рекомендуется уделить особое внимание здоровью и в случае появления подомных симптомов немедленно обращаться за помощью к врачам.
 # sent_id = 0113-p6-s1
 # text = На сегодняшний день неизвестно точное число заразившихся, однако местным жителям и туристам рекомендуется уделить особое внимание здоровью и в случае появления подомных симптомов немедленно обращаться за помощью к врачам.
-1	На	_	_	_	_	_	_	_	bratT22=Date-relative
-2	сегодняшний	_	_	_	_	_	_	_	bratT22=Date-relative
-3	день	_	_	_	_	_	_	_	bratT22=Date-relative
+1	На	_	_	_	_	_	_	_	bratA3=T22:Present|bratT22=Date-absolute
+2	сегодняшний	_	_	_	_	_	_	_	bratA3=T22:Present|bratT22=Date-absolute
+3	день	_	_	_	_	_	_	_	bratA3=T22:Present|bratT22=Date-absolute
 4	неизвестно	_	_	_	_	_	_	_	_
 5	точное	_	_	_	_	_	_	_	_
 6	число	_	_	_	_	_	_	_	_
@@ -282,7 +282,7 @@
 # text = Напомним, ранее международная группа ученых обнаружила новое заболевание, получившие название VEXAS.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	ранее	_	_	_	_	_	_	_	bratT23=Date-relative
+3	ранее	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-relative
 4	международная	_	_	_	_	_	_	_	_
 5	группа	_	_	_	_	_	_	_	_
 6	ученых	_	_	_	_	_	_	_	bratT19=Person-property

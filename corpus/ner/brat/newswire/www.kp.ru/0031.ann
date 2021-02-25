@@ -27,7 +27,10 @@ T24	GPE 1263 1271	Авиньоне
 T25	GPE 1292 1298	Париже
 T26	GPE 1309 1314	Лионе
 T27	Quantity 288 298	одной   из
-T28	Date-relative 752 759	сегодня
-T29	Date-relative 863 870	сегодня
+T28	Date-absolute 752 759	сегодня
+T29	Date-absolute 863 870	сегодня
 T30	Organization 1203 1208	KP.ru
 A8	Media T30
+A1	Present T28
+A2	Present T29
+A3	Past T18

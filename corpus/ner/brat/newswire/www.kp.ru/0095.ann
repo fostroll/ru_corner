@@ -24,14 +24,17 @@ T21	Other-term 1496 1521	коронавирусной   инфекции
 T22	Percent 1622 1633	на   25   %
 T23	Event 63 71	пандемию
 T24	Event 252 260	пандемии
-T25	Date-period 239 260	во   время   пандемии
-T26	Date-relative 1527 1545	В   данное   время
+T25	Date-period-absolute 239 260	во   время   пандемии
+T26	Date-period-absolute 1527 1545	В   данное   время
 T28	Person-property 1144 1241	эксперт   ,   главный   педиатр   Минздрава   России   в   Северо-Западном   федеральном   округе
 T11	Family 151 160	родителям
 T29	Family 186 191	детям
 T30	Family 340 348	родители
 A4	Plural T28
-T27	Date-period 59 71	в   пандемию
+T27	Date-period-absolute 59 71	в   пандемию
 T31	Age 16 21	детей
 T32	Person-property 1144 1151	эксперт
 T33	Person-property 1158 1175	главный   педиатр
+A5	Past-Fut T27
+A6	Past-Fut T25
+A8	Past-Fut T26

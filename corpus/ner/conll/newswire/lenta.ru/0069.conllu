@@ -14,10 +14,10 @@
 # par_text = С марта 2020 года когда Всемирная организация здравоохранения (ВОЗ) объявила о пандемии коронавируса, женщинам стали реже доверять руководящие посты: такие должности они сейчас занимают только в 3 процентах крупнейших мировых компаний. Для сравнения, до эпидемии женщины получили в четыре раза больше рабочих мест в 965 крупнейших компаниях по всему миру. Об этом сообщает Bloomberg со ссылкой на данные сервиса по подбору персонала Heidrick & Struggles.
 # sent_id = 0069-p2-s1
 # text = С марта 2020 года когда Всемирная организация здравоохранения (ВОЗ) объявила о пандемии коронавируса, женщинам стали реже доверять руководящие посты: такие должности они сейчас занимают только в 3 процентах крупнейших мировых компаний.
-1	С	_	_	_	_	_	_	_	bratT1=Date-period
-2	марта	_	_	_	_	_	_	_	bratA2=T30:Past|bratT1=Date-period|bratT30=Date-absolute
-3	2020	_	_	_	_	_	_	_	bratA2=T30:Past|bratT1=Date-period|bratT30=Date-absolute
-4	года	_	_	_	_	_	_	_	bratA2=T30:Past|bratT1=Date-period|bratT30=Date-absolute
+1	С	_	_	_	_	_	_	_	bratA10=T1:Past-Pres|bratT1=Date-period-absolute
+2	марта	_	_	_	_	_	_	_	bratA10=T1:Past-Pres|bratA2=T30:Past|bratT1=Date-period-absolute|bratT30=Date-absolute
+3	2020	_	_	_	_	_	_	_	bratA10=T1:Past-Pres|bratA2=T30:Past|bratT1=Date-period-absolute|bratT30=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA10=T1:Past-Pres|bratA2=T30:Past|bratT1=Date-period-absolute|bratT30=Date-absolute
 5	когда	_	_	_	_	_	_	_	_
 6	Всемирная	_	_	_	_	_	_	_	bratT2=Organization
 7	организация	_	_	_	_	_	_	_	bratT2=Organization
@@ -56,8 +56,8 @@
 1	Для	_	_	_	_	_	_	_	_
 2	сравнения	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	до	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-relative
-5	эпидемии	_	_	_	_	_	_	_	bratA6=T19:Past|bratT15=Event|bratT19=Date-relative
+4	до	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-absolute
+5	эпидемии	_	_	_	_	_	_	_	bratA6=T19:Past|bratT15=Event|bratT19=Date-absolute
 6	женщины	_	_	_	_	_	_	_	_
 7	получили	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	bratT5=Quantity
@@ -123,9 +123,9 @@
 23	сильнее	_	_	_	_	_	_	_	_
 24	всего	_	_	_	_	_	_	_	_
 25	пострадали	_	_	_	_	_	_	_	_
-26	во	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-period
-27	время	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-period
-28	локдаунов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Past|bratT22=Date-period|bratT9=Event
+26	во	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-period-absolute
+27	время	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-period-absolute
+28	локдаунов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Past|bratT22=Date-period-absolute|bratT9=Event
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0069-p3-s2
@@ -156,9 +156,9 @@
 4	такой	_	_	_	_	_	_	_	_
 5	спад	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No
-7	первой	_	_	_	_	_	_	_	bratT20=Ordinal
-8	женской	_	_	_	_	_	_	_	_
-9	рецессией	_	_	_	_	_	_	_	SpaceAfter=No
+7	первой	_	_	_	_	_	_	_	bratT20=Ordinal|bratT32=Event
+8	женской	_	_	_	_	_	_	_	bratT32=Event
+9	рецессией	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Event
 10	''	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	которая	_	_	_	_	_	_	_	_
@@ -168,9 +168,9 @@
 16	прогресс	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	достигнутый	_	_	_	_	_	_	_	_
-19	за	_	_	_	_	_	_	_	bratA4=T10:Past|bratT10=Date-period
-20	последнее	_	_	_	_	_	_	_	bratA4=T10:Past|bratT10=Date-period|bratT21=Ordinal
-21	десятилетие	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Past|bratT10=Date-period|bratT31=Duration
+19	за	_	_	_	_	_	_	_	bratA4=T10:Past|bratT10=Date-period-absolute
+20	последнее	_	_	_	_	_	_	_	bratA4=T10:Past|bratT10=Date-period-absolute|bratT21=Ordinal
+21	десятилетие	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Past|bratT10=Date-period-absolute|bratT31=Duration
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0069-p4
@@ -202,7 +202,7 @@
 23	вероятностью	_	_	_	_	_	_	_	_
 24	выберут	_	_	_	_	_	_	_	_
 25	нового	_	_	_	_	_	_	_	_
-26	лидера	_	_	_	_	_	_	_	SpaceAfter=No
+26	лидера	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property
 27	,	_	_	_	_	_	_	_	_
 28	который	_	_	_	_	_	_	_	_
 29	уже	_	_	_	_	_	_	_	_
@@ -222,7 +222,7 @@
 # sent_id = 0069-p4-s2
 # text = В настоящее время женщины занимают лишь около шести процентов должностей генеральных директоров в компаниях, входящих в S&P 500.
 1	В	_	_	_	_	_	_	_	bratA9=T23:Present|bratT23=Date-absolute
-2	настоящее	_	_	_	_	_	_	_	bratA9=T23:Present|bratT23=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA9=T23:Present|bratT23=Date-absolute|bratT34=Ordinal
 3	время	_	_	_	_	_	_	_	bratA9=T23:Present|bratT23=Date-absolute
 4	женщины	_	_	_	_	_	_	_	_
 5	занимают	_	_	_	_	_	_	_	_

@@ -7,7 +7,7 @@
 2	рассказал	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	будущем	_	_	_	_	_	_	_	_
-5	Ефремова	_	_	_	_	_	_	_	bratT2=Person
+5	Ефремова	_	_	_	_	_	_	_	bratT2=Person|bratT40=Person-surname
 6	в	_	_	_	_	_	_	_	_
 7	колонии	_	_	_	_	_	_	_	_
 
@@ -16,21 +16,21 @@
 # sent_id = 0054-p2-s1
 # text = Вице-президент российского подразделения Международного комитета защиты прав человека Иван Мельников рассказал о будущем актера Михаила Ефремова в колонии Белгородской области.
 1	Вице-президент	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
-2	российского	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Organization|bratT5=Person
-3	подразделения	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Organization|bratT5=Person
-4	Международного	_	_	_	_	_	_	_	bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
-5	комитета	_	_	_	_	_	_	_	bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
-6	защиты	_	_	_	_	_	_	_	bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
-7	прав	_	_	_	_	_	_	_	bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
-8	человека	_	_	_	_	_	_	_	bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
-9	Иван	_	_	_	_	_	_	_	bratT5=Person
-10	Мельников	_	_	_	_	_	_	_	bratT5=Person
+2	российского	_	_	_	_	_	_	_	bratA4=T4:Department|bratT3=Person-property|bratT39=GPE|bratT4=Organization|bratT5=Person
+3	подразделения	_	_	_	_	_	_	_	bratA4=T4:Department|bratT3=Person-property|bratT4=Organization|bratT5=Person
+4	Международного	_	_	_	_	_	_	_	bratA4=T4:Department|bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
+5	комитета	_	_	_	_	_	_	_	bratA4=T4:Department|bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
+6	защиты	_	_	_	_	_	_	_	bratA4=T4:Department|bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
+7	прав	_	_	_	_	_	_	_	bratA4=T4:Department|bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
+8	человека	_	_	_	_	_	_	_	bratA4=T4:Department|bratT3=Person-property|bratT33=Organization|bratT4=Organization|bratT5=Person
+9	Иван	_	_	_	_	_	_	_	bratT41=Person-forename|bratT5=Person
+10	Мельников	_	_	_	_	_	_	_	bratT42=Person-surname|bratT5=Person
 11	рассказал	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
 13	будущем	_	_	_	_	_	_	_	_
 14	актера	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-15	Михаила	_	_	_	_	_	_	_	bratT7=Person
-16	Ефремова	_	_	_	_	_	_	_	bratT7=Person
+15	Михаила	_	_	_	_	_	_	_	bratT43=Person-forename|bratT7=Person
+16	Ефремова	_	_	_	_	_	_	_	bratT44=Person-surname|bratT7=Person
 17	в	_	_	_	_	_	_	_	_
 18	колонии	_	_	_	_	_	_	_	bratT8=Organization
 19	Белгородской	_	_	_	_	_	_	_	bratT21=GPE|bratT8=Organization
@@ -69,26 +69,26 @@
 # text = По словам Мельникова, осужденному сначала придется отсидеть карантин в местном СИЗО около 14 дней.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Мельникова	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+3	Мельникова	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT45=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	осужденному	_	_	_	_	_	_	_	bratT34=Person-property
-6	сначала	_	_	_	_	_	_	_	_
+6	сначала	_	_	_	_	_	_	_	bratT38=Time-relative
 7	придется	_	_	_	_	_	_	_	_
 8	отсидеть	_	_	_	_	_	_	_	_
 9	карантин	_	_	_	_	_	_	_	bratT37=Other-term
 10	в	_	_	_	_	_	_	_	_
 11	местном	_	_	_	_	_	_	_	_
 12	СИЗО	_	_	_	_	_	_	_	bratT13=Organization
-13	около	_	_	_	_	_	_	_	bratA2=T36:Future|bratT14=Duration|bratT36=Date-period
-14	14	_	_	_	_	_	_	_	bratA2=T36:Future|bratT14=Duration|bratT36=Date-period
-15	дней	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T36:Future|bratT14=Duration|bratT36=Date-period
+13	около	_	_	_	_	_	_	_	bratA2=T36:Fut|bratT14=Duration|bratT36=Date-period-absolute
+14	14	_	_	_	_	_	_	_	bratA2=T36:Fut|bratT14=Duration|bratT36=Date-period-absolute
+15	дней	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T36:Fut|bratT14=Duration|bratT36=Date-period-absolute
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0054-p3-s2
 # text = Однако прибытие Ефремова на место возможно и со дня на день, уверен Мельников.
 1	Однако	_	_	_	_	_	_	_	_
 2	прибытие	_	_	_	_	_	_	_	_
-3	Ефремова	_	_	_	_	_	_	_	bratT15=Person
+3	Ефремова	_	_	_	_	_	_	_	bratT15=Person|bratT46=Person-surname
 4	на	_	_	_	_	_	_	_	_
 5	место	_	_	_	_	_	_	_	_
 6	возможно	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 11	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T35:Future|bratT35=Date-absolute
 12	,	_	_	_	_	_	_	_	_
 13	уверен	_	_	_	_	_	_	_	_
-14	Мельников	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person
+14	Мельников	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person|bratT47=Person-surname
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0054-p4
@@ -110,7 +110,7 @@
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	Ефремов	_	_	_	_	_	_	_	bratT16=Person
+5	Ефремов	_	_	_	_	_	_	_	bratT16=Person|bratT48=Person-surname
 6	будет	_	_	_	_	_	_	_	_
 7	находиться	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -179,11 +179,11 @@
 # par_text = Мельников уточнил, что Ефремову придется работать наравне со всеми: например, на швейном производстве, где шьют маски для медицинских работников. Артиста могут обязать готовить еду и работать на ее раздаче или отправить в библиотеку. «Возможно, ему пойдут навстречу и создадут под него отдельную вакансию, скажем, руководителя театральной самодеятельности», — предположил Мельников. При этом Ефремов будет получать зарплату, размер которой в учреждениях ФСИН не может быть меньше МРОТ.
 # sent_id = 0054-p5-s1
 # text = Мельников уточнил, что Ефремову придется работать наравне со всеми: например, на швейном производстве, где шьют маски для медицинских работников.
-1	Мельников	_	_	_	_	_	_	_	bratT24=Person
+1	Мельников	_	_	_	_	_	_	_	bratT24=Person|bratT49=Person-surname
 2	уточнил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	Ефремову	_	_	_	_	_	_	_	bratT25=Person
+5	Ефремову	_	_	_	_	_	_	_	bratT25=Person|bratT50=Person-surname
 6	придется	_	_	_	_	_	_	_	_
 7	работать	_	_	_	_	_	_	_	_
 8	наравне	_	_	_	_	_	_	_	_
@@ -246,14 +246,14 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	предположил	_	_	_	_	_	_	_	_
-23	Мельников	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person
+23	Мельников	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person|bratT51=Person-surname
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0054-p5-s4
 # text = При этом Ефремов будет получать зарплату, размер которой в учреждениях ФСИН не может быть меньше МРОТ.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	Ефремов	_	_	_	_	_	_	_	bratT29=Person
+3	Ефремов	_	_	_	_	_	_	_	bratT29=Person|bratT52=Person-surname
 4	будет	_	_	_	_	_	_	_	_
 5	получать	_	_	_	_	_	_	_	_
 6	зарплату	_	_	_	_	_	_	_	SpaceAfter=No

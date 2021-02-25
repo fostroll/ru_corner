@@ -18,9 +18,9 @@
 1	В	_	_	_	_	_	_	_	_
 2	ракетно-космической	_	_	_	_	_	_	_	_
 3	отрасли	_	_	_	_	_	_	_	_
-4	за	_	_	_	_	_	_	_	bratT2=Date-period
-5	два	_	_	_	_	_	_	_	bratT2=Date-period
-6	года	_	_	_	_	_	_	_	bratT2=Date-period
+4	за	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
+5	два	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
+6	года	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
 7	сократили	_	_	_	_	_	_	_	_
 8	или	_	_	_	_	_	_	_	_
 9	уволили	_	_	_	_	_	_	_	_
@@ -49,15 +49,15 @@
 # sent_id = 0090-p3-s1
 # text = ``За последние два года, с мая 2018 года, произошли следующие изменения: общая численность персонала отрасли снизилась на 10 тысяч человек - с 180 900 человек до 170 500 человек'', - сказал Харченко.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	За	_	_	_	_	_	_	_	bratT7=Date-period
-3	последние	_	_	_	_	_	_	_	bratT19=Ordinal|bratT7=Date-period
-4	два	_	_	_	_	_	_	_	bratT7=Date-period
-5	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-period
+2	За	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
+3	последние	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT19=Ordinal|bratT7=Date-period-absolute
+4	два	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
+5	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T7:Past-Pres|bratT7=Date-period-absolute
 6	,	_	_	_	_	_	_	_	_
-7	с	_	_	_	_	_	_	_	bratT8=Date-period
-8	мая	_	_	_	_	_	_	_	bratT8=Date-period
-9	2018	_	_	_	_	_	_	_	bratT8=Date-period
-10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-period
+7	с	_	_	_	_	_	_	_	bratA4=T8:Past-Pres|bratT8=Date-period-absolute
+8	мая	_	_	_	_	_	_	_	bratA4=T8:Past-Pres|bratT8=Date-period-absolute
+9	2018	_	_	_	_	_	_	_	bratA4=T8:Past-Pres|bratT8=Date-period-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Past-Pres|bratT8=Date-period-absolute
 11	,	_	_	_	_	_	_	_	_
 12	произошли	_	_	_	_	_	_	_	_
 13	следующие	_	_	_	_	_	_	_	bratT18=Ordinal
@@ -127,10 +127,10 @@
 
 # sent_id = 0090-p5-s2
 # text = В то же время производительность труда выросла на 16 %.
-1	В	_	_	_	_	_	_	_	_
-2	то	_	_	_	_	_	_	_	_
-3	же	_	_	_	_	_	_	_	_
-4	время	_	_	_	_	_	_	_	_
+1	В	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-relative
+2	то	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-relative
+3	же	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-relative
+4	время	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-relative
 5	производительность	_	_	_	_	_	_	_	_
 6	труда	_	_	_	_	_	_	_	_
 7	выросла	_	_	_	_	_	_	_	_

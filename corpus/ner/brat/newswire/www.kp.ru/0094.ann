@@ -6,15 +6,15 @@ T5	Person-property 90 117	Армянский   премьер-министр
 T6	Person 90 135	Армянский   премьер-министр   Никол   Пашинян
 T7	Person-property 175 199	российских   миротворцев
 T8	GPE 206 225	Нагорном   Карабахе
-T9	Date-duration 247 266	пятилетним   сроком
+T9	Duration 247 266	пятилетним   сроком
 T10	Person-property 283 290	политик
 T11	Organization 318 322	ТАСС
 A1	Media T11
 T12	Date-absolute 325 352	в   среду   ,   25   ноября
-T13	Date-duration 362 377	За   пять   лет
+T13	Date-period-absolute 362 377	За   пять   лет
 T14	Event 473 495	Карабахский   конфликт
 T15	Person-property 549 573	российских   миротворцев
-T16	Date-duration 596 615	пятилетним   сроком
+T16	Duration 596 615	пятилетним   сроком
 T17	Person 653 660	Пашинян
 T18	Quantity 918 935	трех   государств
 T19	Person-property 902 915	руководителей
@@ -41,6 +41,16 @@ T38	GPE 690 697	Армении
 T39	GPE 737 745	Карабахе
 T40	Organization 748 773	миротворческих   сил   РФ
 T41	GPE 771 773	РФ
-T42	Date-relative 1097 1118	В   настоящее   время
+T42	Date-absolute 1097 1118	В   настоящее   время
 T43	Organization 1453 1458	kp.ru
 A3	Media T43
+T44	Duration 367 377	пять   лет
+A4	Pres-Fut T13
+T45	Date-period-relative 596 615	пятилетним   сроком
+A5	Past-Fut T45
+T46	Date-period-relative 247 266	пятилетним   сроком
+A6	Past-Fut T46
+T47	Ordinal 1101 1110	настоящее
+A7	Present T42
+A8	Past T26
+A9	Past T12

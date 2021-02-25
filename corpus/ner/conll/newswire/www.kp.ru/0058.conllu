@@ -25,10 +25,10 @@
 8	может	_	_	_	_	_	_	_	_
 9	стартовать	_	_	_	_	_	_	_	_
 10	уже	_	_	_	_	_	_	_	_
-11	в	_	_	_	_	_	_	_	bratT7=Date-relative
-12	конце	_	_	_	_	_	_	_	bratT7=Date-relative
-13	текущего	_	_	_	_	_	_	_	bratT7=Date-relative
-14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-relative
+11	в	_	_	_	_	_	_	_	bratA2=T7:Future|bratT7=Date-absolute
+12	конце	_	_	_	_	_	_	_	bratA2=T7:Future|bratT7=Date-absolute
+13	текущего	_	_	_	_	_	_	_	bratA2=T7:Future|bratT30=Ordinal|bratT7=Date-absolute
+14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Future|bratT7=Date-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p2-s2
@@ -109,9 +109,9 @@
 11	от	_	_	_	_	_	_	_	_
 12	состояния	_	_	_	_	_	_	_	_
 13	иммунитета	_	_	_	_	_	_	_	bratT15=Other-term
-14	на	_	_	_	_	_	_	_	bratT27=Date-relative
-15	момент	_	_	_	_	_	_	_	bratT27=Date-relative
-16	вакцинации	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Service|bratT27=Date-relative
+14	на	_	_	_	_	_	_	_	bratT27=Time-relative
+15	момент	_	_	_	_	_	_	_	bratT27=Time-relative
+16	вакцинации	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Service
 17	,	_	_	_	_	_	_	_	_
 18	правильной	_	_	_	_	_	_	_	_
 19	техники	_	_	_	_	_	_	_	_
@@ -214,14 +214,14 @@
 3	проверять	_	_	_	_	_	_	_	_
 4	иммунный	_	_	_	_	_	_	_	_
 5	статус	_	_	_	_	_	_	_	_
-6	перед	_	_	_	_	_	_	_	bratT28=Date-period
-7	вакцинацией	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Service|bratT28=Date-period
+6	перед	_	_	_	_	_	_	_	bratT28=Time-relative
+7	вакцинацией	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Service
 8	,	_	_	_	_	_	_	_	_
 9	решает	_	_	_	_	_	_	_	_
 10	врач	_	_	_	_	_	_	_	bratT23=Person-property
 11	иммунолог-аллерголог	_	_	_	_	_	_	_	bratT23=Person-property
-12	после	_	_	_	_	_	_	_	bratT29=Date-period
-13	обследования	_	_	_	_	_	_	_	bratT29=Date-period
+12	после	_	_	_	_	_	_	_	bratT29=Time-relative
+13	обследования	_	_	_	_	_	_	_	_
 14	конкретного	_	_	_	_	_	_	_	_
 15	пациента	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-group
 16	,	_	_	_	_	_	_	_	_

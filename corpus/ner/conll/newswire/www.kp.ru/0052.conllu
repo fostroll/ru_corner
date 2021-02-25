@@ -32,9 +32,9 @@
 # text = Самарская область не первый год в графике акции.
 1	Самарская	_	_	_	_	_	_	_	bratT5=GPE
 2	область	_	_	_	_	_	_	_	bratT5=GPE
-3	не	_	_	_	_	_	_	_	bratT6=Ordinal|bratT7=Date-duration
-4	первый	_	_	_	_	_	_	_	bratT6=Ordinal|bratT7=Date-duration
-5	год	_	_	_	_	_	_	_	bratT7=Date-duration
+3	не	_	_	_	_	_	_	_	bratA2=T7:Past-Pres|bratA3=T7:RCont|bratT6=Ordinal|bratT7=Date-period-absolute
+4	первый	_	_	_	_	_	_	_	bratA2=T7:Past-Pres|bratA3=T7:RCont|bratT6=Ordinal|bratT7=Date-period-absolute
+5	год	_	_	_	_	_	_	_	bratA2=T7:Past-Pres|bratA3=T7:RCont|bratT44=Duration|bratT7=Date-period-absolute
 6	в	_	_	_	_	_	_	_	_
 7	графике	_	_	_	_	_	_	_	_
 8	акции	_	_	_	_	_	_	_	SpaceAfter=No
@@ -80,9 +80,9 @@
 
 # sent_id = 0052-p2-s4
 # text = В ходе акции свой ВИЧ-статус узнали более 400 человек.
-1	В	_	_	_	_	_	_	_	bratT43=Date-period
-2	ходе	_	_	_	_	_	_	_	bratT43=Date-period
-3	акции	_	_	_	_	_	_	_	bratT43=Date-period
+1	В	_	_	_	_	_	_	_	bratA6=T43:Past|bratT43=Date-period-absolute
+2	ходе	_	_	_	_	_	_	_	bratA6=T43:Past|bratT43=Date-period-absolute
+3	акции	_	_	_	_	_	_	_	bratA6=T43:Past|bratT43=Date-period-absolute
 4	свой	_	_	_	_	_	_	_	_
 5	ВИЧ-статус	_	_	_	_	_	_	_	bratT27=Other-term
 6	узнали	_	_	_	_	_	_	_	_
@@ -175,7 +175,7 @@
 # par_text = 1. Заразиться может любой
 # sent_id = 0052-p6-s1
 # text = 1. Заразиться может любой
-1	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Cardinal
+1	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Ordinal
 2	.	_	_	_	_	_	_	_	_
 3	Заразиться	_	_	_	_	_	_	_	_
 4	может	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 # par_text = Сегодня порядка 60% заражений случается через половые контакты между мужчинами и женщинами, в том числе в семьях. По статистике, из 30 тысяч новых случаев заражения в год треть — это секс с одним партнером. То есть принцип «я замужем/женат, и мне ничего не угрожает» уже не работает.
 # sent_id = 0052-p7-s1
 # text = Сегодня порядка 60 % заражений случается через половые контакты между мужчинами и женщинами, в том числе в семьях.
-1	Сегодня	_	_	_	_	_	_	_	bratT35=Date-relative
+1	Сегодня	_	_	_	_	_	_	_	bratA5=T35:Present|bratT35=Date-absolute
 2	порядка	_	_	_	_	_	_	_	bratT30=Percent
 3	60	_	_	_	_	_	_	_	bratT30=Percent
 4	%	_	_	_	_	_	_	_	bratT30=Percent
@@ -217,8 +217,8 @@
 7	новых	_	_	_	_	_	_	_	bratT31=Quantity
 8	случаев	_	_	_	_	_	_	_	bratT31=Quantity
 9	заражения	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT37=Date-duration
-11	год	_	_	_	_	_	_	_	bratT37=Date-duration
+10	в	_	_	_	_	_	_	_	bratT37=Time-period
+11	год	_	_	_	_	_	_	_	bratT37=Time-period|bratT45=Duration
 12	треть	_	_	_	_	_	_	_	bratT38=Percent
 13	-	_	_	_	_	_	_	_	_
 14	это	_	_	_	_	_	_	_	_
@@ -254,7 +254,7 @@
 # par_text = 2. У женщин находят чаще
 # sent_id = 0052-p8-s1
 # text = 2. У женщин находят чаще
-1	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Cardinal
+1	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Ordinal
 2	.	_	_	_	_	_	_	_	_
 3	У	_	_	_	_	_	_	_	_
 4	женщин	_	_	_	_	_	_	_	_
@@ -271,7 +271,7 @@
 4	статистике	_	_	_	_	_	_	_	_
 5	чаще	_	_	_	_	_	_	_	_
 6	ВИЧ	_	_	_	_	_	_	_	bratT32=Other-term
-7	сейчас	_	_	_	_	_	_	_	bratT41=Date-relative
+7	сейчас	_	_	_	_	_	_	_	bratA4=T41:Present|bratT41=Date-absolute
 8	находят	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_
 10	женщин	_	_	_	_	_	_	_	SpaceAfter=No
@@ -305,7 +305,7 @@
 # par_text = 3. Возраст не имеет значения
 # sent_id = 0052-p10-s1
 # text = 3. Возраст не имеет значения
-1	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Cardinal
+1	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Ordinal
 2	.	_	_	_	_	_	_	_	_
 3	Возраст	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_

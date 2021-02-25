@@ -7,10 +7,10 @@
 2	известно	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	травме	_	_	_	_	_	_	_	_
-5	Ломаченко	_	_	_	_	_	_	_	bratT1=Person
-6	перед	_	_	_	_	_	_	_	bratA10=T30:Past|bratT30=Date-relative
-7	проигранным	_	_	_	_	_	_	_	bratA10=T30:Past|bratT30=Date-relative
-8	боем	_	_	_	_	_	_	_	bratA10=T30:Past|bratT28=Event|bratT30=Date-relative
+5	Ломаченко	_	_	_	_	_	_	_	bratT1=Person|bratT61=Person-surname
+6	перед	_	_	_	_	_	_	_	bratA10=T30:Past|bratT30=Date-absolute
+7	проигранным	_	_	_	_	_	_	_	bratA10=T30:Past|bratT30=Date-absolute
+8	боем	_	_	_	_	_	_	_	bratA10=T30:Past|bratT28=Event|bratT30=Date-absolute
 9	за	_	_	_	_	_	_	_	bratT28=Event
 10	титул	_	_	_	_	_	_	_	bratT28=Event
 11	чемпиона	_	_	_	_	_	_	_	bratT28=Event
@@ -20,17 +20,17 @@
 # par_text = Украинский боксер Василий Ломаченко вышел на бой против американца Теофимо Лопеса с травмой плеча. Об этом Yahoo Sports рассказал врач Нил Эльаттрахе.
 # sent_id = 0098-p2-s1
 # text = Украинский боксер Василий Ломаченко вышел на бой против американца Теофимо Лопеса с травмой плеча.
-1	Украинский	_	_	_	_	_	_	_	bratT15=Person-property|bratT2=Person
+1	Украинский	_	_	_	_	_	_	_	bratT15=Person-property|bratT2=Person|bratT59=GPE
 2	боксер	_	_	_	_	_	_	_	bratT15=Person-property|bratT2=Person
-3	Василий	_	_	_	_	_	_	_	bratT2=Person
-4	Ломаченко	_	_	_	_	_	_	_	bratT2=Person
+3	Василий	_	_	_	_	_	_	_	bratT2=Person|bratT62=Person-forename
+4	Ломаченко	_	_	_	_	_	_	_	bratT2=Person|bratT63=Person-surname
 5	вышел	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	бой	_	_	_	_	_	_	_	bratT26=Event
 8	против	_	_	_	_	_	_	_	_
 9	американца	_	_	_	_	_	_	_	bratA1=T18:Citizenship|bratT18=Nationality|bratT3=Person
-10	Теофимо	_	_	_	_	_	_	_	bratT3=Person
-11	Лопеса	_	_	_	_	_	_	_	bratT3=Person
+10	Теофимо	_	_	_	_	_	_	_	bratT3=Person|bratT64=Person-forename
+11	Лопеса	_	_	_	_	_	_	_	bratT3=Person|bratT65=Person-surname
 12	с	_	_	_	_	_	_	_	_
 13	травмой	_	_	_	_	_	_	_	_
 14	плеча	_	_	_	_	_	_	_	SpaceAfter=No
@@ -44,8 +44,8 @@
 4	Sports	_	_	_	_	_	_	_	bratA7=T5:Media|bratT5=Organization
 5	рассказал	_	_	_	_	_	_	_	_
 6	врач	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person-property
-7	Нил	_	_	_	_	_	_	_	bratT4=Person
-8	Эльаттрахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person
+7	Нил	_	_	_	_	_	_	_	bratT4=Person|bratT66=Person-forename
+8	Эльаттрахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person|bratT67=Person-surname
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p3
@@ -59,18 +59,18 @@
 5	спортсмен	_	_	_	_	_	_	_	bratT17=Person-property
 6	получил	_	_	_	_	_	_	_	_
 7	повреждение	_	_	_	_	_	_	_	_
-8	за	_	_	_	_	_	_	_	bratA11=T8:Past|bratT8=Date-relative
-9	шесть	_	_	_	_	_	_	_	bratA11=T8:Past|bratT56=Duration|bratT8=Date-relative
-10	недель	_	_	_	_	_	_	_	bratA11=T8:Past|bratT56=Duration|bratT8=Date-relative
-11	до	_	_	_	_	_	_	_	bratA11=T8:Past|bratT8=Date-relative
-12	боя	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Past|bratT25=Event|bratT8=Date-relative
+8	за	_	_	_	_	_	_	_	bratA11=T8:Past|bratT8=Date-absolute
+9	шесть	_	_	_	_	_	_	_	bratA11=T8:Past|bratT56=Duration|bratT8=Date-absolute
+10	недель	_	_	_	_	_	_	_	bratA11=T8:Past|bratT56=Duration|bratT8=Date-absolute
+11	до	_	_	_	_	_	_	_	bratA11=T8:Past|bratT8=Date-absolute
+12	боя	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Past|bratT25=Event|bratT8=Date-absolute
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p3-s2
 # text = Из-за этого Ломаченко испытывал болевые ощущения и не мог нормально тренироваться.
 1	Из-за	_	_	_	_	_	_	_	_
 2	этого	_	_	_	_	_	_	_	_
-3	Ломаченко	_	_	_	_	_	_	_	bratT9=Person
+3	Ломаченко	_	_	_	_	_	_	_	bratT68=Person-surname|bratT9=Person
 4	испытывал	_	_	_	_	_	_	_	_
 5	болевые	_	_	_	_	_	_	_	_
 6	ощущения	_	_	_	_	_	_	_	_
@@ -83,8 +83,8 @@
 
 # sent_id = 0098-p3-s3
 # text = После поединка у боксера выявили ушиб ротаторной манжеты, кроме того, у него откололся кусок хряща.
-1	После	_	_	_	_	_	_	_	bratA12=T47:Past|bratT47=Date-relative
-2	поединка	_	_	_	_	_	_	_	bratA12=T47:Past|bratT27=Event|bratT47=Date-relative
+1	После	_	_	_	_	_	_	_	bratA12=T47:Past|bratT47=Date-absolute
+2	поединка	_	_	_	_	_	_	_	bratA12=T47:Past|bratT27=Event|bratT47=Date-absolute
 3	у	_	_	_	_	_	_	_	_
 4	боксера	_	_	_	_	_	_	_	bratT16=Person-property
 5	выявили	_	_	_	_	_	_	_	_
@@ -122,14 +122,14 @@
 # sent_id = 0098-p4-s1
 # text = Поединок Василия Ломаченко против Теофима Лопеса прошел в американском Лас-Вегасе в воскресенье, 18 октября.
 1	Поединок	_	_	_	_	_	_	_	bratT46=Event
-2	Василия	_	_	_	_	_	_	_	bratT10=Person|bratT46=Event
-3	Ломаченко	_	_	_	_	_	_	_	bratT10=Person|bratT46=Event
+2	Василия	_	_	_	_	_	_	_	bratT10=Person|bratT46=Event|bratT69=Person-forename
+3	Ломаченко	_	_	_	_	_	_	_	bratT10=Person|bratT46=Event|bratT70=Person-surname
 4	против	_	_	_	_	_	_	_	bratT46=Event
-5	Теофима	_	_	_	_	_	_	_	bratT11=Person|bratT46=Event
-6	Лопеса	_	_	_	_	_	_	_	bratT11=Person|bratT46=Event
+5	Теофима	_	_	_	_	_	_	_	bratT11=Person|bratT46=Event|bratT71=Person-forename
+6	Лопеса	_	_	_	_	_	_	_	bratT11=Person|bratT46=Event|bratT72=Person-surname
 7	прошел	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	американском	_	_	_	_	_	_	_	bratT22=GPE
+9	американском	_	_	_	_	_	_	_	bratT22=GPE|bratT60=GPE
 10	Лас-Вегасе	_	_	_	_	_	_	_	bratT22=GPE
 11	в	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute
 12	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T23:Past|bratT23=Date-absolute
@@ -190,7 +190,7 @@
 # sent_id = 0098-p4-s4
 # text = Сам Ломаченко также остался недоволен судейством.
 1	Сам	_	_	_	_	_	_	_	_
-2	Ломаченко	_	_	_	_	_	_	_	bratT12=Person
+2	Ломаченко	_	_	_	_	_	_	_	bratT12=Person|bratT73=Person-surname
 3	также	_	_	_	_	_	_	_	_
 4	остался	_	_	_	_	_	_	_	_
 5	недоволен	_	_	_	_	_	_	_	_
@@ -204,7 +204,7 @@
 1	На	_	_	_	_	_	_	_	_
 2	счету	_	_	_	_	_	_	_	_
 3	32-летнего	_	_	_	_	_	_	_	bratT32=Age
-4	Ломаченко	_	_	_	_	_	_	_	bratT13=Person
+4	Ломаченко	_	_	_	_	_	_	_	bratT13=Person|bratT74=Person-surname
 5	14	_	_	_	_	_	_	_	bratT33=Quantity
 6	побед	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
 7	,	_	_	_	_	_	_	_	_
@@ -256,7 +256,7 @@
 # sent_id = 0098-p5-s4
 # text = 23-летний Лопес одержал 16-ю победу при отсутствии поражений.
 1	23-летний	_	_	_	_	_	_	_	bratT44=Age
-2	Лопес	_	_	_	_	_	_	_	bratT14=Person
+2	Лопес	_	_	_	_	_	_	_	bratT14=Person|bratT75=Person-surname
 3	одержал	_	_	_	_	_	_	_	_
 4	16-ю	_	_	_	_	_	_	_	bratT45=Ordinal
 5	победу	_	_	_	_	_	_	_	_

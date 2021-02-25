@@ -13,7 +13,7 @@ T12	GPE 703 710	Армении
 T13	Person 683 727	министр   обороны   Армении   Давид   Тоноян
 T14	Person 801 820	Вагаршак   Арутюнян
 T15	Organization 843 853	Минобороны
-T16	Date-period 856 877	в   1999-2000   годах
+T16	Date-period-absolute 856 877	в   1999-2000   годах
 T17	GPE 887 894	Ереване
 T18	Date-absolute 897 924	в   ночь   на   10   ноября
 T19	Person 1002 1010	Пашиняна
@@ -30,14 +30,28 @@ T33	GPE 1133 1139	России
 A1	Plural T24
 T34	Person 1099 1187	президентами   Азербайджана   и   России   Ильхамом   Алиевым   и   Владимиром   Путиным
 A2	Plural T34
-T23	Date-relative 342 360	В   ходе   визитов
+T23	Date-absolute 342 360	В   ходе   визитов
 T30	Time-absolute 897 910	в   ночь   на
-T31	Time-relative 1033 1055	после   того   ,   как
+T31	Date-relative 1033 1055	после   того   ,   как
 A3	Past T10
-T35	Date-absolute 860 877	1999-2000   годах
-A5	Past T35
 A6	Past T18
 T32	Person 1142 1160	Ильхамом   Алиевым
 T36	Person 1167 1187	Владимиром   Путиным
 T37	Event 353 360	визитов
 A4	Past T23
+A7	Past T16
+A5	Past T31
+T35	GPE 1392 1402	российские
+T38	Person-surname 0 7	Пашинян
+T39	Person-forename 87 92	Никол
+T40	Person-surname 95 102	Пашинян
+T41	Person-surname 214 221	Пашинян
+T42	Person-forename 713 718	Давид
+T43	Person-surname 721 727	Тоноян
+T44	Person-forename 801 809	Вагаршак
+T45	Person-surname 812 820	Арутюнян
+T46	Person-surname 1002 1010	Пашиняна
+T47	Person-forename 1142 1150	Ильхамом
+T48	Person-surname 1153 1160	Алиевым
+T49	Person-forename 1167 1177	Владимиром
+T50	Person-surname 1180 1187	Путиным

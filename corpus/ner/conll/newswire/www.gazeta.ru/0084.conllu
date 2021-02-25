@@ -31,9 +31,9 @@
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
 13	он	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	bratT17=Date-period
-15	последнее	_	_	_	_	_	_	_	bratT16=Ordinal|bratT17=Date-period
-16	время	_	_	_	_	_	_	_	bratT17=Date-period
+14	в	_	_	_	_	_	_	_	bratA1=T17:Past-Pres|bratA2=T17:RCont|bratT17=Date-period-absolute
+15	последнее	_	_	_	_	_	_	_	bratA1=T17:Past-Pres|bratA2=T17:RCont|bratT16=Ordinal|bratT17=Date-period-absolute
+16	время	_	_	_	_	_	_	_	bratA1=T17:Past-Pres|bratA2=T17:RCont|bratT17=Date-period-absolute
 17	не	_	_	_	_	_	_	_	_
 18	вырабатывает	_	_	_	_	_	_	_	_
 19	полезных	_	_	_	_	_	_	_	_
@@ -47,7 +47,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Совет	_	_	_	_	_	_	_	bratT9=Organization
 3	Безопасности	_	_	_	_	_	_	_	bratT9=Organization
-4	сегодня	_	_	_	_	_	_	_	bratT18=Date-relative
+4	сегодня	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
 5	не	_	_	_	_	_	_	_	_
 6	предлагает	_	_	_	_	_	_	_	_
 7	полезных	_	_	_	_	_	_	_	_

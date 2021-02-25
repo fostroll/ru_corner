@@ -22,9 +22,9 @@ T20	GPE 1057 1063	Москве
 T21	Organization 1081 1150	``   Управленческого   центра   Свидетелей   Иеговы   в   России   ''
 T22	Organization 1210 1227	Верховным   судом
 T23	Quantity 1309 1354	более   чем   в   20   российских   субъектах
-T24	Date-relative 1267 1288	В   настоящее   время
+T24	Date-absolute 1267 1288	В   настоящее   время
 T25	GPE 1550 1556	Москве
-T26	Date-period 1581 1603	с   июня   2019   года
+T26	Date-period-absolute 1581 1603	с   июня   2019   года
 T27	Organization 66 95	``   Свидетелей   Иеговы   ``
 T28	Organization 188 217	``   Свидетелей   Иеговы   ''
 T29	Person-property 326 396	руководителя   столичного   главка   Следственного   комитета   России
@@ -34,3 +34,15 @@ T32	GPE 1139 1145	России
 T33	GPE 1295 1302	столице
 T34	Law 867 874	УК   РФ
 T35	GPE 872 874	РФ
+A1	Present T24
+A3	Past T12
+A4	Past-Pres T26
+T36	Person 84 90	Иеговы
+A5	Fiction T36
+T37	Person 206 212	Иеговы
+A6	Fiction T37
+T38	Person 1126 1132	Иеговы
+A7	Fiction T38
+T39	Person 595 601	Иеговы
+A8	Fiction T39
+T40	Ordinal 1271 1280	настоящее

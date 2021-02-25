@@ -10,13 +10,17 @@ T9	Person 750 757	Собянин
 T10	Organization 772 805	телеканала   ``   Россия   1   ''
 A1	Media T10
 T11	Person-property 938 941	Мэр
-T12	Date-period 1069 1093	последние   две   недели
-T13	Date-absolute 1107 1135	в   первую   неделю   ноября
+T12	Date-period-absolute 1069 1093	последние   две   недели
+T13	Date-period-absolute 1107 1135	в   первую   неделю   ноября
 T14	GPE 1142 1148	Москве
 T15	GPE 1224 1231	столице
 T16	Other-term 190 197	локдаун
 T17	Other-term 496 514	полных   локдаунов
-T18	Date-period 625 644	на   данном   этапе
-T19	Date-relative 860 866	сейчас
+T18	Date-absolute 625 644	на   данном   этапе
+T19	Date-absolute 860 866	сейчас
 T20	Ordinal 1069 1078	последние
 T21	Ordinal 1111 1117	первую
+A2	Present T19
+A3	Past-Pres T12
+A4	Past T13
+A5	Present T18

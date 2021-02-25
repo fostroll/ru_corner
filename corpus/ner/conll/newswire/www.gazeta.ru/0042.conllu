@@ -52,9 +52,9 @@
 4	МКС	_	_	_	_	_	_	_	bratT8=Facility
 5	была	_	_	_	_	_	_	_	_
 6	совершена	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	bratT9=Time-absolute
-8	07.00	_	_	_	_	_	_	_	bratT9=Time-absolute
-9	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Time-absolute
+7	в	_	_	_	_	_	_	_	bratA5=T9:Past|bratT30=Time-absolute|bratT9=Date-relative
+8	07.00	_	_	_	_	_	_	_	bratA5=T9:Past|bratT30=Time-absolute|bratT9=Date-relative
+9	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Past|bratT30=Time-absolute|bratT9=Date-relative
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0042-p4
@@ -66,10 +66,10 @@
 3	стартовал	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	орбиту	_	_	_	_	_	_	_	_
-6	16	_	_	_	_	_	_	_	bratT11=Date-absolute
-7	ноября	_	_	_	_	_	_	_	bratT11=Date-absolute
-8	03.27	_	_	_	_	_	_	_	bratT12=Time-absolute
-9	мск	_	_	_	_	_	_	_	bratT12=Time-absolute
+6	16	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+7	ноября	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+8	03.27	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute|bratT12=Time-absolute
+9	мск	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute|bratT12=Time-absolute
 10	с	_	_	_	_	_	_	_	_
 11	космодрома	_	_	_	_	_	_	_	bratT13=Facility
 12	на	_	_	_	_	_	_	_	_

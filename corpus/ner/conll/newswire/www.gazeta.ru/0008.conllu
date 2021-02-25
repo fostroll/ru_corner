@@ -24,9 +24,9 @@
 7	''	_	_	_	_	_	_	_	bratA2=T5:Media|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property
 8	были	_	_	_	_	_	_	_	_
 9	задержаны	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT34=Date-period
-11	ходе	_	_	_	_	_	_	_	bratT34=Date-period
-12	акции	_	_	_	_	_	_	_	bratT32=Event|bratT34=Date-period
+10	в	_	_	_	_	_	_	_	bratA5=T34:Past|bratT34=Date-absolute
+11	ходе	_	_	_	_	_	_	_	bratA5=T34:Past|bratT34=Date-absolute
+12	акции	_	_	_	_	_	_	_	bratA5=T34:Past|bratT32=Event|bratT34=Date-absolute
 13	протеста	_	_	_	_	_	_	_	bratT32=Event
 14	в	_	_	_	_	_	_	_	_
 15	Минске	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
@@ -48,9 +48,9 @@
 2	были	_	_	_	_	_	_	_	_
 3	задержаны	_	_	_	_	_	_	_	_
 4	силовиками	_	_	_	_	_	_	_	bratT10=Person-property
-5	во	_	_	_	_	_	_	_	bratT29=Date-period
-6	время	_	_	_	_	_	_	_	bratT29=Date-period
-7	освещения	_	_	_	_	_	_	_	bratT29=Date-period
+5	во	_	_	_	_	_	_	_	bratA6=T29:Past|bratT29=Date-absolute
+6	время	_	_	_	_	_	_	_	bratA6=T29:Past|bratT29=Date-absolute
+7	освещения	_	_	_	_	_	_	_	bratA6=T29:Past|bratT29=Date-absolute
 8	акций	_	_	_	_	_	_	_	_
 9	протестов	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_
@@ -91,19 +91,19 @@
 2	в	_	_	_	_	_	_	_	_
 3	Белоруссии	_	_	_	_	_	_	_	bratT16=GPE
 4	продолжаются	_	_	_	_	_	_	_	_
-5	третий	_	_	_	_	_	_	_	bratT18=Ordinal|bratT19=Date-period
-6	месяц	_	_	_	_	_	_	_	bratT19=Date-period
-7	подряд	_	_	_	_	_	_	_	SpaceAfter=No
+5	третий	_	_	_	_	_	_	_	bratA7=T19:RCont|bratA8=T19:Past-Pres|bratT18=Ordinal|bratT19=Date-period-absolute
+6	месяц	_	_	_	_	_	_	_	bratA7=T19:RCont|bratA8=T19:Past-Pres|bratT19=Date-period-absolute|bratT38=Duration
+7	подряд	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T19:RCont|bratA8=T19:Past-Pres|bratT19=Date-period-absolute
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0008-p5-s2
 # text = Они начались после того, как ЦИК республики объявил Александра Лукашенко победителем президентских выборов, которые прошли 9 августа.
 1	Они	_	_	_	_	_	_	_	_
 2	начались	_	_	_	_	_	_	_	_
-3	после	_	_	_	_	_	_	_	bratT37=Date-period
-4	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Date-period
-5	,	_	_	_	_	_	_	_	bratT37=Date-period
-6	как	_	_	_	_	_	_	_	bratT37=Date-period
+3	после	_	_	_	_	_	_	_	bratA9=T37:Past|bratT37=Date-relative
+4	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T37:Past|bratT37=Date-relative
+5	,	_	_	_	_	_	_	_	bratA9=T37:Past|bratT37=Date-relative
+6	как	_	_	_	_	_	_	_	bratA9=T37:Past|bratT37=Date-relative
 7	ЦИК	_	_	_	_	_	_	_	bratT20=Organization
 8	республики	_	_	_	_	_	_	_	bratT20=Organization
 9	объявил	_	_	_	_	_	_	_	_
@@ -115,8 +115,8 @@
 15	,	_	_	_	_	_	_	_	_
 16	которые	_	_	_	_	_	_	_	_
 17	прошли	_	_	_	_	_	_	_	_
-18	9	_	_	_	_	_	_	_	bratT22=Date-absolute
-19	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-absolute
+18	9	_	_	_	_	_	_	_	bratA10=T22:Past|bratT22=Date-absolute
+19	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T22:Past|bratT22=Date-absolute
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0008-p6
@@ -168,7 +168,7 @@
 # par_text = Позже экс-кандидат в президенты республики Светлана Тихановская объявила о создании в стране Координационного совета оппозиции, который должен способствовать трансферу власти. Лукашенко же обвинил в протестах западные страны и потребовал возбудить уголовные дела против членов совета.
 # sent_id = 0008-p7-s1
 # text = Позже экс-кандидат в президенты республики Светлана Тихановская объявила о создании в стране Координационного совета оппозиции, который должен способствовать трансферу власти.
-1	Позже	_	_	_	_	_	_	_	bratT36=Date-relative
+1	Позже	_	_	_	_	_	_	_	bratA11=T36:Past|bratT36=Date-relative
 2	экс-кандидат	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
 3	в	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
 4	президенты	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
@@ -214,9 +214,9 @@
 # par_text = С 26 октября Тихановская объявила в стране общенациональную забастовку.
 # sent_id = 0008-p8-s1
 # text = С 26 октября Тихановская объявила в стране общенациональную забастовку.
-1	С	_	_	_	_	_	_	_	bratT30=Date-period
-2	26	_	_	_	_	_	_	_	bratT30=Date-period
-3	октября	_	_	_	_	_	_	_	bratT30=Date-period
+1	С	_	_	_	_	_	_	_	bratA12=T30:Past-UNK|bratT30=Date-period-absolute
+2	26	_	_	_	_	_	_	_	bratA12=T30:Past-UNK|bratT30=Date-period-absolute
+3	октября	_	_	_	_	_	_	_	bratA12=T30:Past-UNK|bratT30=Date-period-absolute
 4	Тихановская	_	_	_	_	_	_	_	bratT31=Person
 5	объявила	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_

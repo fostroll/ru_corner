@@ -7,9 +7,9 @@ T7	Organization 553 616	Американского   общества   троп
 A1	Media T7
 T8	Person-property 660 672	специалистов
 T9	Quantity 801 848	540-850   тысяч   неизвестных   науке   вирусов
-T10	Date-period 960 987	в   2003   -   2004   годах
+T10	Date-period-absolute 960 987	в   2003   -   2004   годах
 T11	Person-property 1000 1006	ученые
-T12	Date-relative 1099 1117	в   прошлом   году
+T12	Date-absolute 1099 1117	в   прошлом   году
 T13	Person-property 1240 1250	медсестрам
 T14	Person-property 1181 1188	фермера
 T15	Person-property 1255 1266	Специалисты
@@ -18,6 +18,12 @@ T18	Person-property 1906 1912	врачам
 T19	Person-property 1966 1972	ученых
 T20	Other-term 2038 2043	VEXAS
 T21	Ordinal 906 913	Впервые
-T22	Date-relative 1633 1656	На   сегодняшний   день
+T22	Date-absolute 1633 1656	На   сегодняшний   день
 T23	Date-relative 1933 1938	ранее
 T24	Age 2115 2123	взрослых
+T6	Ordinal 1103 1110	прошлом
+A2	Past T12
+A3	Present T22
+A4	Past T23
+A5	Past T5
+A6	Past T10

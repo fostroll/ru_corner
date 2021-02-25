@@ -1,4 +1,4 @@
-T2	Person 70 79	Лукашенко
+T2	Person-surname 70 79	Лукашенко
 T3	Person-property 1386 1433	бывший   кандидат   в   президенты   Белоруссии
 T5	Date-absolute 261 273	26   октября
 T8	Person 300 363	член   президиума   Координационного   совета   Павел   Латушко
@@ -33,16 +33,33 @@ T1	Organization 0 23	Белорусская   оппозиция
 T4	Organization 99 122	Белорусская   оппозиция
 A3	Media T9
 T25	Ordinal 1790 1796	третий
-T27	Time-relative 1378 1383	Ранее
-T29	Date-period 1040 1046	отныне
+T27	Date-relative 1378 1383	Ранее
+T29	Date-period-absolute 1040 1046	отныне
 T32	Event 1818 1837	массовые   протесты
 T33	Ordinal 1964 1970	шестой
 A4	Future T5
 A7	Past T21
 T39	Date-absolute 601 617	к   26   октября
-T34	Date-period 1790 1804	третий   месяц
-A8	Future T29
+T34	Date-period-absolute 1790 1804	третий   месяц
 A9	Past T13
 A10	Future T39
 T11	Ordinal 822 829	прошлой
-A5	Present T34
+A6	Pres-Fut T29
+A8	Past T27
+A5	RCont T34
+A11	Past-Pres T34
+T40	Duration 1799 1804	месяц
+T41	GPE 0 11	Белорусская
+T42	GPE 99 110	Белорусская
+T43	GPE 1488 1499	белорусским
+T44	Person-forename 348 353	Павел
+T45	Person-surname 356 363	Латушко
+T46	Person-forename 540 549	Александр
+T47	Person-surname 552 561	Лукашенко
+T48	Person-forename 1436 1444	Светлана
+T49	Person-surname 1447 1458	Тихановская
+T50	Person 70 79	Лукашенко
+T51	Person-forename 1980 1989	Александр
+T52	Person-surname 1992 2001	Лукашенко
+T53	Person-surname 1758 1767	Лукашенко
+T54	Person-surname 1010 1017	Латушко

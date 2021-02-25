@@ -19,11 +19,11 @@
 # par_text = В субботу, 21 ноября, Газовый баллон взорвался в кафе в столице Казахстана. В результате инцидента в Нур-Султане один человек погиб и больше 30 пострадали. Об этом пресс-служба управления общественного здравоохранения города.
 # sent_id = 0016-p2-s1
 # text = В субботу, 21 ноября, Газовый баллон взорвался в кафе в столице Казахстана.
-1	В	_	_	_	_	_	_	_	bratT3=Date-absolute
-2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Date-absolute
-3	,	_	_	_	_	_	_	_	bratT3=Date-absolute
-4	21	_	_	_	_	_	_	_	bratT3=Date-absolute
-5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
+2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T3:Past|bratT3=Date-absolute
+3	,	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
+4	21	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
+5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T3:Past|bratT3=Date-absolute
 6	,	_	_	_	_	_	_	_	_
 7	Газовый	_	_	_	_	_	_	_	_
 8	баллон	_	_	_	_	_	_	_	_
@@ -80,9 +80,9 @@
 12	газового	_	_	_	_	_	_	_	bratT26=Event
 13	баллона	_	_	_	_	_	_	_	bratT26=Event
 14	поступило	_	_	_	_	_	_	_	_
-15	днем	_	_	_	_	_	_	_	bratT25=Time-period
-16	в	_	_	_	_	_	_	_	bratT10=Date-relative
-17	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-relative
+15	днем	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-absolute|bratT25=Time-absolute
+16	в	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-absolute
+17	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Past|bratT10=Date-absolute
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0016-p3-s2
@@ -196,8 +196,8 @@
 # text = Напомним, 18 ноября произошел разрыв трубы с кислородом в больнице в Коммунарке, расположенной в Новой Москве.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	18	_	_	_	_	_	_	_	bratT18=Date-absolute
-4	ноября	_	_	_	_	_	_	_	bratT18=Date-absolute
+3	18	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-absolute
+4	ноября	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-absolute
 5	произошел	_	_	_	_	_	_	_	_
 6	разрыв	_	_	_	_	_	_	_	bratT28=Event
 7	трубы	_	_	_	_	_	_	_	bratT28=Event
@@ -219,7 +219,7 @@
 1	Инцидент	_	_	_	_	_	_	_	_
 2	произошел	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	недавно	_	_	_	_	_	_	_	bratT29=Date-relative
+4	недавно	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute
 5	возведенном	_	_	_	_	_	_	_	_
 6	блоке	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_

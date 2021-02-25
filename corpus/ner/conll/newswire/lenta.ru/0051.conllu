@@ -46,8 +46,8 @@
 4	министр	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
 5	здравоохранения	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
 6	страны	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-7	Оливье	_	_	_	_	_	_	_	bratT10=Person
-8	Веран	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+7	Оливье	_	_	_	_	_	_	_	bratT10=Person|bratT35=Person-forename
+8	Веран	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT36=Person-surname
 9	,	_	_	_	_	_	_	_	_
 10	сообщает	_	_	_	_	_	_	_	_
 11	портал	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
@@ -79,9 +79,9 @@
 # sent_id = 0051-p3-s2
 # text = Уже десять дней подряд число новых случаев снижается'', - приводит издание слова министра.
 1	Уже	_	_	_	_	_	_	_	_
-2	десять	_	_	_	_	_	_	_	bratA4=T6:Present|bratT14=Duration|bratT6=Date-period
-3	дней	_	_	_	_	_	_	_	bratA4=T6:Present|bratT14=Duration|bratT6=Date-period
-4	подряд	_	_	_	_	_	_	_	bratA4=T6:Present|bratT6=Date-period
+2	десять	_	_	_	_	_	_	_	bratA4=T6:RCont|bratA7=T6:Past-Pres|bratT14=Duration|bratT6=Date-period-absolute
+3	дней	_	_	_	_	_	_	_	bratA4=T6:RCont|bratA7=T6:Past-Pres|bratT14=Duration|bratT6=Date-period-absolute
+4	подряд	_	_	_	_	_	_	_	bratA4=T6:RCont|bratA7=T6:Past-Pres|bratT6=Date-period-absolute
 5	число	_	_	_	_	_	_	_	_
 6	новых	_	_	_	_	_	_	_	_
 7	случаев	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 # par_text = Веран подчеркнул, что власти страны снова получают контроль над эпидемией, и это хорошие новости, но до победы над болезнью далеко, и расслабляться еще слишком рано. Он спрогнозировал, что три или четыре французских фирмы в начале следующего года представят свои версии вакцины.
 # sent_id = 0051-p4-s1
 # text = Веран подчеркнул, что власти страны снова получают контроль над эпидемией, и это хорошие новости, но до победы над болезнью далеко, и расслабляться еще слишком рано.
-1	Веран	_	_	_	_	_	_	_	bratT16=Person
+1	Веран	_	_	_	_	_	_	_	bratT16=Person|bratT37=Person-surname
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -136,11 +136,11 @@
 2	спрогнозировал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	три	_	_	_	_	_	_	_	_
-6	или	_	_	_	_	_	_	_	_
-7	четыре	_	_	_	_	_	_	_	_
-8	французских	_	_	_	_	_	_	_	_
-9	фирмы	_	_	_	_	_	_	_	_
+5	три	_	_	_	_	_	_	_	bratT31=Quantity
+6	или	_	_	_	_	_	_	_	bratT31=Quantity
+7	четыре	_	_	_	_	_	_	_	bratT31=Quantity
+8	французских	_	_	_	_	_	_	_	bratT31=Quantity|bratT32=GPE
+9	фирмы	_	_	_	_	_	_	_	bratT31=Quantity
 10	в	_	_	_	_	_	_	_	bratA5=T26:Future|bratT26=Date-absolute
 11	начале	_	_	_	_	_	_	_	bratA5=T26:Future|bratT26=Date-absolute
 12	следующего	_	_	_	_	_	_	_	bratA5=T26:Future|bratT25=Ordinal|bratT26=Date-absolute
@@ -148,7 +148,7 @@
 14	представят	_	_	_	_	_	_	_	_
 15	свои	_	_	_	_	_	_	_	_
 16	версии	_	_	_	_	_	_	_	_
-17	вакцины	_	_	_	_	_	_	_	SpaceAfter=No
+17	вакцины	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-term
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0051-p5
@@ -213,9 +213,9 @@
 22	что	_	_	_	_	_	_	_	_
 23	позволит	_	_	_	_	_	_	_	_
 24	прийти	_	_	_	_	_	_	_	_
-25	к	_	_	_	_	_	_	_	_
-26	рождественскому	_	_	_	_	_	_	_	_
-27	сезону	_	_	_	_	_	_	_	_
+25	к	_	_	_	_	_	_	_	bratA6=T29:Future|bratT29=Date-absolute
+26	рождественскому	_	_	_	_	_	_	_	bratA6=T29:Future|bratT29=Date-absolute|bratT30=Event
+27	сезону	_	_	_	_	_	_	_	bratA6=T29:Future|bratT29=Date-absolute|bratT30=Event
 28	в	_	_	_	_	_	_	_	_
 29	достаточно	_	_	_	_	_	_	_	_
 30	спокойной	_	_	_	_	_	_	_	_
@@ -229,8 +229,8 @@
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
 3	института	_	_	_	_	_	_	_	bratT21=Organization
-4	Джонса	_	_	_	_	_	_	_	bratT21=Organization
-5	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
+4	Джонса	_	_	_	_	_	_	_	bratT21=Organization|bratT34=Person|bratT38=Person-forename
+5	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT34=Person|bratT39=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	стране	_	_	_	_	_	_	_	_

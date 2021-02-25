@@ -26,7 +26,6 @@ T25	Person-property 672 697	премьер-министр   Армении
 T26	Person 672 715	премьер-министр   Армении   Никол   Пашинян
 T27	GPE 807 826	Нагорном   Карабахе
 T28	Date-absolute 865 876	10   ноября
-T29	Date-absolute 910 921	11   ноября
 T30	GPE 971 977	России
 T31	Organization 958 977	Минобороны   России
 T32	Person-property 950 977	глава   Минобороны   России
@@ -45,9 +44,17 @@ T44	Organization 1376 1382	Кремле
 T45	GPE 1480 1486	Анкары
 T46	GPE 1493 1499	Москвы
 T47	Organization 1439 1499	совместного   мониторингового   центра   Анкары   и   Москвы
-T48	Date-relative 882 903	На   следующий   день
+T48	Date-absolute 882 947	На   следующий   день   ,   11   ноября   ,   после   переговоров
 T49	Ordinal 887 896	следующий
-T50	Date-period 928 947	после   переговоров
-T51	Date-period 1220 1232	после   чего
-T52	Date-relative 359 365	вскоре
-T53	Date-relative 129 135	вскоре
+T51	Date-relative 1220 1232	после   чего
+T52	Date-absolute 359 365	вскоре
+T53	Date-absolute 129 135	вскоре
+A1	Past T28
+T29	Event 936 947	переговоров
+A2	Past T48
+T50	Date-relative 882 903	На   следующий   день
+A3	Past T50
+A4	Past T17
+A5	Past T51
+A6	Future T53
+A7	Future T52

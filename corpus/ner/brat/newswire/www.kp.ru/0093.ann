@@ -28,8 +28,12 @@ T26	Service 1791 1798	Twitter
 A2	Media T26
 T29	Event 1725 1731	выборы
 T30	Event 1908 1915	выборах
-T31	Date-period 84 100	после   закрытия
-T32	Date-period 232 248	после   закрытия
+T31	Date-absolute 84 100	после   закрытия
+T32	Date-absolute 232 248	после   закрытия
 T33	Date-relative 1771 1776	Ранее
 T27	Event 240 275	закрытия   избирательных   участков
 T28	Event 92 111	закрытия   участков
+A3	Past T31
+A4	Past T32
+A5	Past T5
+A6	Past T33

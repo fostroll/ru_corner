@@ -4,15 +4,15 @@
 # sent_id = 0100-p1-s1
 # text = Сын Валерии обогатился на термометрах и масках за время пандемии коронавируса
 1	Сын	_	_	_	_	_	_	_	bratT2=Person|bratT7=Family
-2	Валерии	_	_	_	_	_	_	_	bratT1=Person|bratT2=Person
+2	Валерии	_	_	_	_	_	_	_	bratT1=Person|bratT2=Person|bratT49=Person-forename
 3	обогатился	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	термометрах	_	_	_	_	_	_	_	_
 6	и	_	_	_	_	_	_	_	_
 7	масках	_	_	_	_	_	_	_	_
-8	за	_	_	_	_	_	_	_	bratA7=T47:Past|bratT47=Date-period
-9	время	_	_	_	_	_	_	_	bratA7=T47:Past|bratT47=Date-period
-10	пандемии	_	_	_	_	_	_	_	bratA7=T47:Past|bratT21=Event|bratT47=Date-period
+8	за	_	_	_	_	_	_	_	bratA7=T47:Past|bratT47=Date-period-absolute
+9	время	_	_	_	_	_	_	_	bratA7=T47:Past|bratT47=Date-period-absolute
+10	пандемии	_	_	_	_	_	_	_	bratA7=T47:Past|bratT21=Event|bratT47=Date-period-absolute
 11	коронавируса	_	_	_	_	_	_	_	bratT21=Event|bratT3=Other-term
 
 # newpar id = 0100-p2
@@ -22,17 +22,17 @@
 1	Младший	_	_	_	_	_	_	_	bratT39=Family|bratT6=Person
 2	сын	_	_	_	_	_	_	_	bratT39=Family|bratT6=Person
 3	певицы	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person|bratT6=Person
-4	Валерии	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person
-5	Арсений	_	_	_	_	_	_	_	bratT6=Person
-6	Шульгин	_	_	_	_	_	_	_	bratT6=Person
+4	Валерии	_	_	_	_	_	_	_	bratT5=Person|bratT50=Person-forename|bratT6=Person
+5	Арсений	_	_	_	_	_	_	_	bratT51=Person-forename|bratT6=Person
+6	Шульгин	_	_	_	_	_	_	_	bratT52=Person-surname|bratT6=Person
 7	обогатился	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	термометрах	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
 11	масках	_	_	_	_	_	_	_	_
-12	за	_	_	_	_	_	_	_	bratA8=T46:Past|bratT46=Date-period
-13	время	_	_	_	_	_	_	_	bratA8=T46:Past|bratT46=Date-period
-14	пандемии	_	_	_	_	_	_	_	bratA8=T46:Past|bratT22=Event|bratT46=Date-period
+12	за	_	_	_	_	_	_	_	bratA8=T46:Past|bratT46=Date-period-absolute
+13	время	_	_	_	_	_	_	_	bratA8=T46:Past|bratT46=Date-period-absolute
+14	пандемии	_	_	_	_	_	_	_	bratA8=T46:Past|bratT22=Event|bratT46=Date-period-absolute
 15	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event|bratT8=Other-term
 16	.	_	_	_	_	_	_	_	_
 
@@ -105,7 +105,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
 12	отметил	_	_	_	_	_	_	_	_
-13	Шульгин	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+13	Шульгин	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT53=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0100-p4
@@ -113,7 +113,7 @@
 # sent_id = 0100-p4-s1
 # text = Сын Валерии заявил, что подобная стрессовая ситуация придала ему сил.
 1	Сын	_	_	_	_	_	_	_	bratT40=Family|bratT41=Person
-2	Валерии	_	_	_	_	_	_	_	bratT15=Person|bratT41=Person
+2	Валерии	_	_	_	_	_	_	_	bratT15=Person|bratT41=Person|bratT54=Person-forename
 3	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -154,8 +154,8 @@
 # text = В апреле Арсений Шульгин начал ``тестировать множество разных гипотез''.
 1	В	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
 2	апреле	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
-3	Арсений	_	_	_	_	_	_	_	bratT18=Person
-4	Шульгин	_	_	_	_	_	_	_	bratT18=Person
+3	Арсений	_	_	_	_	_	_	_	bratT18=Person|bratT55=Person-forename
+4	Шульгин	_	_	_	_	_	_	_	bratT18=Person|bratT56=Person-surname
 5	начал	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No
 7	тестировать	_	_	_	_	_	_	_	_
@@ -207,7 +207,7 @@
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
 19	заявил	_	_	_	_	_	_	_	_
-20	Шульгин	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+20	Шульгин	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT57=Person-surname
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0100-p6-s2
@@ -246,9 +246,9 @@
 
 # sent_id = 0100-p7-s2
 # text = За сутки продаж две его компании заработали 100 тысяч рублей чистой прибыли.
-1	За	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-period
-2	сутки	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-period|bratT48=Duration
-3	продаж	_	_	_	_	_	_	_	_
+1	За	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-period-absolute
+2	сутки	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-period-absolute|bratT48=Duration
+3	продаж	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-period-absolute
 4	две	_	_	_	_	_	_	_	bratT25=Quantity
 5	его	_	_	_	_	_	_	_	bratT25=Quantity
 6	компании	_	_	_	_	_	_	_	bratT25=Quantity
@@ -264,12 +264,12 @@
 # par_text = Арсений Шульгин — сын певицы Валерии от второго мужа, ее бывшего продюсера Александра Шульгина. В октябре 22-летний предприниматель объявил о беременности своей жены Лианы.
 # sent_id = 0100-p8-s1
 # text = Арсений Шульгин - сын певицы Валерии от второго мужа, ее бывшего продюсера Александра Шульгина.
-1	Арсений	_	_	_	_	_	_	_	bratT27=Person
-2	Шульгин	_	_	_	_	_	_	_	bratT27=Person
+1	Арсений	_	_	_	_	_	_	_	bratT27=Person|bratT58=Person-forename
+2	Шульгин	_	_	_	_	_	_	_	bratT27=Person|bratT59=Person-surname
 3	-	_	_	_	_	_	_	_	_
-4	сын	_	_	_	_	_	_	_	bratT42=Family|bratT45=Person
-5	певицы	_	_	_	_	_	_	_	bratT30=Person|bratT31=Person-property|bratT45=Person
-6	Валерии	_	_	_	_	_	_	_	bratT30=Person|bratT45=Person
+4	сын	_	_	_	_	_	_	_	bratT42=Family
+5	певицы	_	_	_	_	_	_	_	bratT30=Person|bratT31=Person-property
+6	Валерии	_	_	_	_	_	_	_	bratT30=Person|bratT60=Person-forename
 7	от	_	_	_	_	_	_	_	_
 8	второго	_	_	_	_	_	_	_	bratT37=Ordinal|bratT43=Family
 9	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Family
@@ -277,8 +277,8 @@
 11	ее	_	_	_	_	_	_	_	_
 12	бывшего	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
 13	продюсера	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
-14	Александра	_	_	_	_	_	_	_	bratT29=Person
-15	Шульгина	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person
+14	Александра	_	_	_	_	_	_	_	bratT29=Person|bratT61=Person-forename
+15	Шульгина	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person|bratT62=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0100-p8-s2
@@ -292,6 +292,6 @@
 7	беременности	_	_	_	_	_	_	_	_
 8	своей	_	_	_	_	_	_	_	_
 9	жены	_	_	_	_	_	_	_	bratT44=Family
-10	Лианы	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person
+10	Лианы	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person|bratT63=Person-forename
 11	.	_	_	_	_	_	_	_	_
 

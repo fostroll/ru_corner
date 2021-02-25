@@ -1,6 +1,6 @@
 T1	Organization 0 18	``   Атлетико   ''
 T2	Organization 31 50	``   Барселону   ''
-T4	Date-period 77 90	за   10   лет
+T4	Date-period-relative 77 90	за   10   лет
 T3	Event 57 64	Примере
 T5	Organization 268 286	``   Атлетико   ''
 T6	Organization 295 315	``   Барселоной   ''
@@ -26,7 +26,15 @@ T25	Event 373 380	Примеры
 T26	Event 349 380	нынешнего   розыгрыша   Примеры
 T27	Event 259 315	Победа   ``   Атлетико   ''   над   ``   Барселоной   ''
 T28	Ordinal 67 74	впервые
-T29	Time-relative 804 809	Ранее
+T29	Date-relative 804 809	Ранее
 A1	Past T11
 T30	Duration 82 90	10   лет
-A2	Present T4
+A2	Past-Pres T4
+A3	Past T29
+T31	GPE 92 102	Мадридский
+T32	GPE 184 195	каталонской
+T33	GPE 234 243	испанской
+T34	Ordinal 349 358	нынешнего
+T35	GPE 397 407	мадридской
+T36	GPE 659 669	мадридская
+T37	GPE 699 710	каталонскую

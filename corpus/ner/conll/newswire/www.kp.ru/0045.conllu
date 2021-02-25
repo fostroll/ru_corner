@@ -93,9 +93,9 @@
 4	что	_	_	_	_	_	_	_	_
 5	система	_	_	_	_	_	_	_	_
 6	здравоохранения	_	_	_	_	_	_	_	_
-7	на	_	_	_	_	_	_	_	bratT18=Date-period
-8	данном	_	_	_	_	_	_	_	bratT18=Date-period
-9	этапе	_	_	_	_	_	_	_	bratT18=Date-period
+7	на	_	_	_	_	_	_	_	bratA5=T18:Present|bratT18=Date-absolute
+8	данном	_	_	_	_	_	_	_	bratA5=T18:Present|bratT18=Date-absolute
+9	этапе	_	_	_	_	_	_	_	bratA5=T18:Present|bratT18=Date-absolute
 10	вполне	_	_	_	_	_	_	_	_
 11	справляется	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
@@ -129,7 +129,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	расслабляться	_	_	_	_	_	_	_	_
-7	сейчас	_	_	_	_	_	_	_	bratT19=Date-relative
+7	сейчас	_	_	_	_	_	_	_	bratA2=T19:Present|bratT19=Date-absolute
 8	нельзя	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	поскольку	_	_	_	_	_	_	_	_
@@ -158,18 +158,18 @@
 14	по	_	_	_	_	_	_	_	_
 15	числу	_	_	_	_	_	_	_	_
 16	госпитализаций	_	_	_	_	_	_	_	_
-17	последние	_	_	_	_	_	_	_	bratT12=Date-period|bratT20=Ordinal
-18	две	_	_	_	_	_	_	_	bratT12=Date-period
-19	недели	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-period
+17	последние	_	_	_	_	_	_	_	bratA3=T12:Past-Pres|bratT12=Date-period-absolute|bratT20=Ordinal
+18	две	_	_	_	_	_	_	_	bratA3=T12:Past-Pres|bratT12=Date-period-absolute
+19	недели	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Past-Pres|bratT12=Date-period-absolute
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0045-p4-s3
 # text = Однако в первую неделю ноября в Москве снова начался рост числа случаев заражения, поэтому в столице расширили тестирование.
 1	Однако	_	_	_	_	_	_	_	_
-2	в	_	_	_	_	_	_	_	bratT13=Date-absolute
-3	первую	_	_	_	_	_	_	_	bratT13=Date-absolute|bratT21=Ordinal
-4	неделю	_	_	_	_	_	_	_	bratT13=Date-absolute
-5	ноября	_	_	_	_	_	_	_	bratT13=Date-absolute
+2	в	_	_	_	_	_	_	_	bratA4=T13:Past|bratT13=Date-period-absolute
+3	первую	_	_	_	_	_	_	_	bratA4=T13:Past|bratT13=Date-period-absolute|bratT21=Ordinal
+4	неделю	_	_	_	_	_	_	_	bratA4=T13:Past|bratT13=Date-period-absolute
+5	ноября	_	_	_	_	_	_	_	bratA4=T13:Past|bratT13=Date-period-absolute
 6	в	_	_	_	_	_	_	_	_
 7	Москве	_	_	_	_	_	_	_	bratT14=GPE
 8	снова	_	_	_	_	_	_	_	_

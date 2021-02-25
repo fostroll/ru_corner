@@ -27,12 +27,16 @@ T24	GPE 1099 1120	белорусской   столицы
 T25	Facility 430 443	Кальварийской
 T26	Other-group 330 342	протестующих
 T27	Other-term 565 580	первую   помощь
-T28	Date-period 449 464	После   разгона
+T28	Date-period-absolute 449 464	После   разгона
 T29	Event 35 62	разгоне   акции   оппозиции
 T30	Event 83 154	разгоне   колонны   участников   несанкционированной   акции   протеста
-T31	Date-period 649 680	после   президентских   выборов
+T31	Date-absolute 649 680	после   президентских   выборов
 T32	Organization 754 759	kp.ru
 A3	Media T32
 T33	Person-property 307 315	силовики
 T34	Event 601 618	акции   оппозиции
 T35	Event 1125 1142	Акции   оппозиции
+A4	Past-Pres T28
+A5	Past T10
+A6	Past T31
+A7	Future T12

@@ -10,17 +10,17 @@
 5	находиться	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	организме	_	_	_	_	_	_	_	_
-8	до	_	_	_	_	_	_	_	bratT3=Date-duration
-9	двух	_	_	_	_	_	_	_	bratT3=Date-duration
-10	месяцев	_	_	_	_	_	_	_	bratT3=Date-duration
+8	до	_	_	_	_	_	_	_	bratT3=Duration|bratT36=Time-period
+9	двух	_	_	_	_	_	_	_	bratT3=Duration|bratT36=Time-period
+10	месяцев	_	_	_	_	_	_	_	bratT3=Duration|bratT36=Time-period
 
 # newpar id = 0096-p2
 # par_text = На данный момент существует множество данных, которые говорят о том, что возбудитель коронавируса достаточно долго может циркулировать в организме. Об этом в эфире Радио «Комсомольская правда» сообщил директор Научного информационного центра по профилактике и лечению вирусных инфекций, врач-инфекционист-аллерголог-иммунолог Георгий Христович Викулов, уточнив, что по есть данные о том, что COVID-19 потенциально может находиться в организме до двух месяцев.
 # sent_id = 0096-p2-s1
 # text = На данный момент существует множество данных, которые говорят о том, что возбудитель коронавируса достаточно долго может циркулировать в организме.
-1	На	_	_	_	_	_	_	_	bratT31=Date-relative
-2	данный	_	_	_	_	_	_	_	bratT31=Date-relative
-3	момент	_	_	_	_	_	_	_	bratT31=Date-relative
+1	На	_	_	_	_	_	_	_	bratA6=T31:Present|bratT31=Date-absolute
+2	данный	_	_	_	_	_	_	_	bratA6=T31:Present|bratT31=Date-absolute
+3	момент	_	_	_	_	_	_	_	bratA6=T31:Present|bratT31=Date-absolute
 4	существует	_	_	_	_	_	_	_	_
 5	множество	_	_	_	_	_	_	_	_
 6	данных	_	_	_	_	_	_	_	SpaceAfter=No
@@ -85,9 +85,9 @@
 40	находиться	_	_	_	_	_	_	_	_
 41	в	_	_	_	_	_	_	_	_
 42	организме	_	_	_	_	_	_	_	_
-43	до	_	_	_	_	_	_	_	bratT11=Date-duration
-44	двух	_	_	_	_	_	_	_	bratT11=Date-duration
-45	месяцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-duration
+43	до	_	_	_	_	_	_	_	bratT11=Duration|bratT23=Time-period
+44	двух	_	_	_	_	_	_	_	bratT11=Duration|bratT23=Time-period
+45	месяцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Duration|bratT23=Time-period
 46	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0096-p3
@@ -107,15 +107,15 @@
 11	привыкли	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	bratT13=Date-duration
-15	течение	_	_	_	_	_	_	_	bratT13=Date-duration
-16	10	_	_	_	_	_	_	_	bratT13=Date-duration
-17	дней	_	_	_	_	_	_	_	bratT13=Date-duration
+14	в	_	_	_	_	_	_	_	bratT13=Time-period
+15	течение	_	_	_	_	_	_	_	bratT13=Time-period
+16	10	_	_	_	_	_	_	_	bratT13=Time-period|bratT29=Duration
+17	дней	_	_	_	_	_	_	_	bratT13=Time-period|bratT29=Duration
 18	(	_	_	_	_	_	_	_	SpaceAfter=No
-19	максимум	_	_	_	_	_	_	_	bratT14=Date-duration
-20	-	_	_	_	_	_	_	_	bratT14=Date-duration
-21	двух	_	_	_	_	_	_	_	bratT14=Date-duration
-22	недель	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Date-duration
+19	максимум	_	_	_	_	_	_	_	bratT14=Duration|bratT34=Time-period
+20	-	_	_	_	_	_	_	_	bratT14=Duration|bratT34=Time-period
+21	двух	_	_	_	_	_	_	_	bratT14=Duration|bratT34=Time-period
+22	недель	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Duration|bratT34=Time-period
 23	)	_	_	_	_	_	_	_	_
 24	инфекция	_	_	_	_	_	_	_	_
 25	полностью	_	_	_	_	_	_	_	_
@@ -146,10 +146,10 @@
 50	они	_	_	_	_	_	_	_	_
 51	должны	_	_	_	_	_	_	_	_
 52	решать	_	_	_	_	_	_	_	_
-53	в	_	_	_	_	_	_	_	bratT26=Date-relative
-54	самое	_	_	_	_	_	_	_	bratT26=Date-relative
-55	ближайшее	_	_	_	_	_	_	_	bratT26=Date-relative
-56	время	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Date-relative
+53	в	_	_	_	_	_	_	_	bratA4=T26:Future|bratT26=Date-absolute
+54	самое	_	_	_	_	_	_	_	bratA4=T26:Future|bratT26=Date-absolute
+55	ближайшее	_	_	_	_	_	_	_	bratA4=T26:Future|bratT26=Date-absolute|bratT37=Ordinal
+56	время	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T26:Future|bratT26=Date-absolute
 57	''	_	_	_	_	_	_	_	_
 58	для	_	_	_	_	_	_	_	_
 59	понимания	_	_	_	_	_	_	_	_
@@ -162,8 +162,8 @@
 66	насколько	_	_	_	_	_	_	_	_
 67	необходим	_	_	_	_	_	_	_	_
 68	контроль	_	_	_	_	_	_	_	_
-69	после	_	_	_	_	_	_	_	bratT32=Date-period
-70	выздоровления	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Date-period
+69	после	_	_	_	_	_	_	_	bratT32=Time-relative
+70	выздоровления	_	_	_	_	_	_	_	SpaceAfter=No
 71	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0096-p4
@@ -180,9 +180,9 @@
 8	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
-11	за	_	_	_	_	_	_	_	bratT28=Date-period
-12	время	_	_	_	_	_	_	_	bratT28=Date-period
-13	пандемии	_	_	_	_	_	_	_	bratT27=Event|bratT28=Date-period
+11	за	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute
+12	время	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute
+13	пандемии	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT27=Event|bratT28=Date-period-absolute
 14	коронавируса	_	_	_	_	_	_	_	bratT19=Other-term|bratT27=Event
 15	учеными	_	_	_	_	_	_	_	bratT24=Person-property
 16	проделана	_	_	_	_	_	_	_	_
@@ -192,9 +192,9 @@
 
 # sent_id = 0096-p4-s2
 # text = На данный момент есть вакцина от коронавируса, а это облегчает ситуацию и снимает напряжение с людей.
-1	На	_	_	_	_	_	_	_	bratT30=Date-relative
-2	данный	_	_	_	_	_	_	_	bratT30=Date-relative
-3	момент	_	_	_	_	_	_	_	bratT30=Date-relative
+1	На	_	_	_	_	_	_	_	bratT30=Date-absolute
+2	данный	_	_	_	_	_	_	_	bratT30=Date-absolute
+3	момент	_	_	_	_	_	_	_	bratT30=Date-absolute
 4	есть	_	_	_	_	_	_	_	_
 5	вакцина	_	_	_	_	_	_	_	bratT25=Other-term
 6	от	_	_	_	_	_	_	_	_

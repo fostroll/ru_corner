@@ -23,11 +23,11 @@
 2	Москве	_	_	_	_	_	_	_	bratT13=GPE
 3	и	_	_	_	_	_	_	_	_
 4	Подмосковье	_	_	_	_	_	_	_	bratT14=GPE
-5	в	_	_	_	_	_	_	_	bratA2=T15:Past|bratA3=T15:Future|bratT15=Date-absolute
-6	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Past|bratA3=T15:Future|bratT15=Date-absolute
-7	,	_	_	_	_	_	_	_	bratA2=T15:Past|bratA3=T15:Future|bratT15=Date-absolute
-8	22	_	_	_	_	_	_	_	bratA2=T15:Past|bratA3=T15:Future|bratT15=Date-absolute
-9	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Past|bratA3=T15:Future|bratT15=Date-absolute
+5	в	_	_	_	_	_	_	_	bratA2=T15:Future|bratT15=Date-absolute
+6	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Future|bratT15=Date-absolute
+7	,	_	_	_	_	_	_	_	bratA2=T15:Future|bratT15=Date-absolute
+8	22	_	_	_	_	_	_	_	bratA2=T15:Future|bratT15=Date-absolute
+9	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Future|bratT15=Date-absolute
 10	,	_	_	_	_	_	_	_	_
 11	объявлен	_	_	_	_	_	_	_	_
 12	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -96,19 +96,19 @@
 8	и	_	_	_	_	_	_	_	_
 9	Московской	_	_	_	_	_	_	_	bratT12=GPE
 10	области	_	_	_	_	_	_	_	bratT12=GPE
-11	с	_	_	_	_	_	_	_	bratA6=T21:Future|bratT21=Date-absolute|bratT6=Time-period|bratT7=Date-period
-12	10:00	_	_	_	_	_	_	_	bratA6=T21:Future|bratT19=Time-absolute|bratT21=Date-absolute|bratT6=Time-period|bratT7=Date-period
-13	до	_	_	_	_	_	_	_	bratA6=T21:Future|bratT21=Date-absolute|bratT6=Time-period|bratT7=Date-period
-14	22:00	_	_	_	_	_	_	_	bratA6=T21:Future|bratT20=Time-absolute|bratT21=Date-absolute|bratT6=Time-period|bratT7=Date-period
-15	22	_	_	_	_	_	_	_	bratA6=T21:Future|bratT21=Date-absolute|bratT7=Date-period
-16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T21:Future|bratT21=Date-absolute|bratT7=Date-period
+11	с	_	_	_	_	_	_	_	bratA4=T7:Fut|bratT6=Time-period|bratT7=Date-period-absolute
+12	10:00	_	_	_	_	_	_	_	bratA4=T7:Fut|bratT6=Time-period|bratT7=Date-period-absolute
+13	до	_	_	_	_	_	_	_	bratA4=T7:Fut|bratT6=Time-period|bratT7=Date-period-absolute
+14	22:00	_	_	_	_	_	_	_	bratA4=T7:Fut|bratT6=Time-period|bratT7=Date-period-absolute
+15	22	_	_	_	_	_	_	_	bratA4=T7:Fut|bratT7=Date-period-absolute
+16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Fut|bratT7=Date-period-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0100-p6
 # par_text = Ранее синоптики предупредили о циклоне «Сара», который принесёт сильный снегопад в Москву днём в воскресенье, 22 ноября.
 # sent_id = 0100-p6-s1
 # text = Ранее синоптики предупредили о циклоне ``Сара'', который принесёт сильный снегопад в Москву днём в воскресенье, 22 ноября.
-1	Ранее	_	_	_	_	_	_	_	bratT18=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA6=T18:Past|bratT18=Date-relative
 2	синоптики	_	_	_	_	_	_	_	bratT8=Person-property
 3	предупредили	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
@@ -123,11 +123,11 @@
 13	снегопад	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
 15	Москву	_	_	_	_	_	_	_	bratT10=GPE
-16	днём	_	_	_	_	_	_	_	bratA5=T9:Future|bratT17=Time-absolute|bratT9=Date-absolute
-17	в	_	_	_	_	_	_	_	bratA5=T9:Future|bratT9=Date-absolute
-18	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Future|bratT9=Date-absolute
-19	,	_	_	_	_	_	_	_	bratA5=T9:Future|bratT9=Date-absolute
-20	22	_	_	_	_	_	_	_	bratA5=T9:Future|bratT9=Date-absolute
-21	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Future|bratT9=Date-absolute
+16	днём	_	_	_	_	_	_	_	bratA3=T9:Future|bratT17=Time-absolute|bratT9=Date-absolute
+17	в	_	_	_	_	_	_	_	bratA3=T9:Future|bratT9=Date-absolute
+18	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Future|bratT9=Date-absolute
+19	,	_	_	_	_	_	_	_	bratA3=T9:Future|bratT9=Date-absolute
+20	22	_	_	_	_	_	_	_	bratA3=T9:Future|bratT9=Date-absolute
+21	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Future|bratT9=Date-absolute
 22	.	_	_	_	_	_	_	_	_
 

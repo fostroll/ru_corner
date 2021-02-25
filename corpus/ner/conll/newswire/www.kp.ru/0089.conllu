@@ -6,8 +6,8 @@
 1	Четверо	_	_	_	_	_	_	_	bratT1=Quantity
 2	полицейских	_	_	_	_	_	_	_	bratT1=Quantity|bratT2=Person-property
 3	пострадали	_	_	_	_	_	_	_	_
-4	после	_	_	_	_	_	_	_	bratT42=Date-period
-5	столкновений	_	_	_	_	_	_	_	bratT42=Date-period
+4	после	_	_	_	_	_	_	_	bratA6=T42:Past|bratT42=Date-absolute
+5	столкновений	_	_	_	_	_	_	_	bratA6=T42:Past|bratT42=Date-absolute
 6	между	_	_	_	_	_	_	_	_
 7	сторонниками	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
@@ -20,21 +20,21 @@
 # par_text = Вечером в субботу, 14 ноября, в Вашингтоне пострадали четверо полицейских во время столкновений между сторонниками и противниками президента США Дональда Трампа. Об этом сообщил официальный представитель полиции американской столицы Брианна Джордан, уточнив, что жизни пострадавших правоохранителей ничего не угрожает.
 # sent_id = 0089-p2-s1
 # text = Вечером в субботу, 14 ноября, в Вашингтоне пострадали четверо полицейских во время столкновений между сторонниками и противниками президента США Дональда Трампа.
-1	Вечером	_	_	_	_	_	_	_	bratT37=Time-period
-2	в	_	_	_	_	_	_	_	bratT5=Date-absolute
-3	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
-4	,	_	_	_	_	_	_	_	bratT5=Date-absolute
-5	14	_	_	_	_	_	_	_	bratT5=Date-absolute
-6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
+1	Вечером	_	_	_	_	_	_	_	bratA2=T5:Past|bratT37=Time-absolute|bratT5=Date-absolute
+2	в	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute
+3	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Past|bratT5=Date-absolute
+4	,	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute
+5	14	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute
+6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Past|bratT5=Date-absolute
 7	,	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	Вашингтоне	_	_	_	_	_	_	_	bratT6=GPE
 10	пострадали	_	_	_	_	_	_	_	_
 11	четверо	_	_	_	_	_	_	_	bratT7=Quantity
 12	полицейских	_	_	_	_	_	_	_	bratT44=Person-property|bratT7=Quantity
-13	во	_	_	_	_	_	_	_	bratT41=Date-period
-14	время	_	_	_	_	_	_	_	bratT41=Date-period
-15	столкновений	_	_	_	_	_	_	_	bratT41=Date-period
+13	во	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
+14	время	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
+15	столкновений	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
 16	между	_	_	_	_	_	_	_	_
 17	сторонниками	_	_	_	_	_	_	_	_
 18	и	_	_	_	_	_	_	_	_
@@ -74,8 +74,8 @@
 # sent_id = 0089-p3-s1
 # text = ``Прошлой ночью полиция провела 21 задержание за различные правонарушения, четверо полицейских пострадали, их жизням не угрожает опасность'', - приводит ТАСС слова представителя полиции.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Прошлой	_	_	_	_	_	_	_	bratT38=Time-period
-3	ночью	_	_	_	_	_	_	_	bratT38=Time-period
+2	Прошлой	_	_	_	_	_	_	_	bratA3=T38:Past|bratT38=Date-absolute|bratT47=Ordinal
+3	ночью	_	_	_	_	_	_	_	bratA3=T38:Past|bratT38=Date-absolute|bratT46=Time-absolute
 4	полиция	_	_	_	_	_	_	_	bratT45=Person-property
 5	провела	_	_	_	_	_	_	_	_
 6	21	_	_	_	_	_	_	_	bratT15=Quantity
@@ -141,10 +141,10 @@
 5	американского	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Event
 6	лидера	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Event
 7	началась	_	_	_	_	_	_	_	_
-8	вечером	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Time-period
-9	,	_	_	_	_	_	_	_	_
-10	14	_	_	_	_	_	_	_	bratT25=Date-absolute
-11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Date-absolute
+8	вечером	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Past|bratT25=Date-absolute|bratT39=Time-absolute
+9	,	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
+10	14	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
+11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Past|bratT25=Date-absolute
 12	,	_	_	_	_	_	_	_	_
 13	когда	_	_	_	_	_	_	_	_
 14	тысячи	_	_	_	_	_	_	_	bratT40=Quantity
@@ -178,7 +178,7 @@
 
 # sent_id = 0089-p5-s3
 # text = Позже к акции присоединились радикалы, которые устроили массовые погромы и беспорядки.
-1	Позже	_	_	_	_	_	_	_	bratT43=Date-relative
+1	Позже	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-relative
 2	к	_	_	_	_	_	_	_	_
 3	акции	_	_	_	_	_	_	_	_
 4	присоединились	_	_	_	_	_	_	_	_

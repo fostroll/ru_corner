@@ -107,7 +107,7 @@
 # text = Она еще летом призналась, что влюблена и это чувство взаимно.
 1	Она	_	_	_	_	_	_	_	_
 2	еще	_	_	_	_	_	_	_	_
-3	летом	_	_	_	_	_	_	_	bratT16=Date-absolute
+3	летом	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute
 4	призналась	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -233,15 +233,15 @@
 3	заняты	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	пересекаются	_	_	_	_	_	_	_	_
-6	на	_	_	_	_	_	_	_	bratT15=Time-duration
-7	непродолжительное	_	_	_	_	_	_	_	bratT15=Time-duration
-8	время	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Time-duration
+6	на	_	_	_	_	_	_	_	bratT15=Time-period
+7	непродолжительное	_	_	_	_	_	_	_	bratT13=Duration|bratT15=Time-period
+8	время	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Duration|bratT15=Time-period
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
-11	в	_	_	_	_	_	_	_	bratT17=Date-period
-12	пандемию	_	_	_	_	_	_	_	bratT14=Event|bratT17=Date-period
-13	три	_	_	_	_	_	_	_	bratT9=Date-duration
-14	месяца	_	_	_	_	_	_	_	bratT9=Date-duration
+11	в	_	_	_	_	_	_	_	bratA3=T17:Past-UNK|bratT17=Date-period-absolute
+12	пандемию	_	_	_	_	_	_	_	bratA3=T17:Past-UNK|bratT14=Event|bratT17=Date-period-absolute
+13	три	_	_	_	_	_	_	_	bratA3=T17:Past-UNK|bratT17=Date-period-absolute|bratT9=Duration
+14	месяца	_	_	_	_	_	_	_	bratA3=T17:Past-UNK|bratT17=Date-period-absolute|bratT9=Duration
 15	никуда	_	_	_	_	_	_	_	SpaceAfter=No
 16	.	_	_	_	_	_	_	_	_
 

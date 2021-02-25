@@ -39,11 +39,14 @@ T36	Event 1829 1836	выборов
 T37	Service 806 814	странице
 A4	Media T37
 T38	Quantity 1607 1617	одном   из
-T39	Time-period 989 996	вечером
+T39	Time-absolute 989 996	вечером
 T40	Date-relative 1391 1396	Ранее
 T41	Date-relative 849 854	ранее
 T42	Organization 1406 1411	kp.ru
 A1	Media T42
 T43	Organization 1784 1789	kp.ru
 T44	Quantity 272 293	целом   ряде   штатов
-T46	Date-relative 978 986	накануне
+T46	Date-relative 978 996	накануне   вечером
+A5	Past T46
+A6	Past T41
+A7	Past T40

@@ -13,8 +13,8 @@
 8	выступил	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	речью	_	_	_	_	_	_	_	_
-11	после	_	_	_	_	_	_	_	bratT31=Date-period
-12	закрытия	_	_	_	_	_	_	_	bratT28=Event|bratT31=Date-period
+11	после	_	_	_	_	_	_	_	bratA3=T31:Past|bratT31=Date-absolute
+12	закрытия	_	_	_	_	_	_	_	bratA3=T31:Past|bratT28=Event|bratT31=Date-absolute
 13	участков	_	_	_	_	_	_	_	bratT28=Event
 
 # newpar id = 0093-p2
@@ -27,14 +27,14 @@
 4	Дональд	_	_	_	_	_	_	_	bratT2=Person
 5	Трамп	_	_	_	_	_	_	_	bratT2=Person
 6	выступил	_	_	_	_	_	_	_	_
-7	4	_	_	_	_	_	_	_	bratT5=Date-absolute
-8	ноября	_	_	_	_	_	_	_	bratT5=Date-absolute
+7	4	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
+8	ноября	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
 9	на	_	_	_	_	_	_	_	_
 10	пресс-конференции	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
 12	журналистами	_	_	_	_	_	_	_	bratT6=Person-property
-13	после	_	_	_	_	_	_	_	bratT32=Date-period
-14	закрытия	_	_	_	_	_	_	_	bratT27=Event|bratT32=Date-period
+13	после	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute
+14	закрытия	_	_	_	_	_	_	_	bratA4=T32:Past|bratT27=Event|bratT32=Date-absolute
 15	избирательных	_	_	_	_	_	_	_	bratT27=Event
 16	участков	_	_	_	_	_	_	_	bratT27=Event
 17	в	_	_	_	_	_	_	_	_
@@ -302,7 +302,7 @@
 # par_text = Ранее в своем Twitter он анонсировал свое выступление, отметив, что он объявит о большой победе на выборах.
 # sent_id = 0093-p8-s1
 # text = Ранее в своем Twitter он анонсировал свое выступление, отметив, что он объявит о большой победе на выборах.
-1	Ранее	_	_	_	_	_	_	_	bratT33=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA6=T33:Past|bratT33=Date-relative
 2	в	_	_	_	_	_	_	_	_
 3	своем	_	_	_	_	_	_	_	_
 4	Twitter	_	_	_	_	_	_	_	bratA2=T26:Media|bratT26=Service

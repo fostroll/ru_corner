@@ -26,7 +26,7 @@ T25	Organization 1245 1269	республиканской   партии
 T26	Ordinal 1143 1149	первый
 T27	Ordinal 1170 1177	первого
 T28	Date-absolute 1170 1201	первого   понедельника   ноября
-T29	Date-relative 1139 1201	в   первый   вторник   после   первого   понедельника   ноября
+T29	Date-absolute 1139 1201	в   первый   вторник   после   первого   понедельника   ноября
 T30	Person-property 1288 1326	действующий   американский   президент
 T31	Person 1288 1344	действующий   американский   президент   Дональд   Трамп
 T32	GPE 1389 1396	Америку
@@ -44,10 +44,18 @@ T43	Organization 473 486	Белого   дома
 T44	Organization 461 486	пресс-пул   Белого   дома
 A1	Media T44
 A2	Department T44
-T45	Date-period 745 753	в   день
+T45	Date-absolute 745 763	в   день   выборов
 T46	Service 1101 1113	сайт   kp.ru
 A3	Media T46
-T47	Date-relative 1120 1127	сегодня
-T48	Time-period 172 177	утром
+T47	Date-absolute 1120 1127	сегодня
+T48	Time-absolute 172 177	утром
 T49	Organization 1108 1113	kp.ru
 A4	Media T49
+A5	Past T8
+A6	Past T28
+A7	Past T29
+A8	Present T3
+A9	Past T10
+A10	Present T18
+A11	Past T22
+A12	Present T47

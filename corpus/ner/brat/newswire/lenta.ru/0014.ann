@@ -45,10 +45,32 @@ T38	Organization 1850 1865	штабе   Байдена
 T24	Other-group 1816 1827	избирателей
 T39	Event 1740 1763	президентских   выборов
 T45	Time-absolute 275 301	с   наступлением   темноты
-T47	Time-relative 876 881	Ранее
-T48	Date-period 761 779	не   первый   день
+T47	Date-relative 876 881	Ранее
+T48	Date-period-absolute 761 779	не   первый   день
 T49	Person-property 840 851	полицейских
 T50	Duration 761 779	не   первый   день
-A2	Present T48
 T51	Date-relative 275 301	с   наступлением   темноты
 A3	Past T51
+A5	Past T47
+A2	RCont T48
+A4	Past-Pres T48
+T52	Duration 775 779	день
+T53	Person-surname 13 19	Трампа
+T54	Person-forename 114 122	Дональда
+T55	Person-surname 125 131	Трампа
+T56	Person-surname 356 361	Трамп
+T57	Person-surname 368 372	Пенс
+T58	Person-forename 894 902	Дональда
+T59	Person-surname 905 911	Трампа
+T60	Person-forename 914 921	Рудольф
+T61	Person-surname 924 932	Джулиани
+T62	Person-forename 1357 1364	Дональд
+T63	Person-surname 1367 1372	Трамп
+T64	Person-forename 1390 1393	Джо
+T65	Person-surname 1396 1402	Байден
+T66	Person-forename 1453 1459	Бараке
+T67	Person-surname 1462 1467	Обаме
+T68	Person-surname 1608 1615	Байдена
+T69	Person-surname 1658 1664	Трампа
+T70	Person-surname 1782 1787	Трамп
+T71	Person-surname 1858 1865	Байдена

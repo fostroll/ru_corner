@@ -97,13 +97,13 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	сказал	_	_	_	_	_	_	_	_
-23	Юань	_	_	_	_	_	_	_	bratT4=Person
-24	Синь	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person
-25	,	_	_	_	_	_	_	_	bratT4=Person
-26	вице-президент	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-27	Китайской	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization
-28	ассоциации	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization
-29	народонаселения	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person|bratT5=Person-property|bratT6=Organization
+23	Юань	_	_	_	_	_	_	_	bratT24=Person-forename|bratT4=Person
+24	Синь	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-surname|bratT4=Person
+25	,	_	_	_	_	_	_	_	_
+26	вице-президент	_	_	_	_	_	_	_	bratT5=Person-property
+27	Китайской	_	_	_	_	_	_	_	bratT22=GPE|bratT5=Person-property|bratT6=Organization
+28	ассоциации	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization
+29	народонаселения	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Organization
 30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0050-p4
@@ -115,9 +115,9 @@
 3	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT8=Date-period
-7	последние	_	_	_	_	_	_	_	bratA5=T22:Past|bratT11=Ordinal|bratT22=Date-absolute|bratT8=Date-period
-8	десятилетия	_	_	_	_	_	_	_	bratA5=T22:Past|bratT21=Duration|bratT22=Date-absolute|bratT8=Date-period
+6	в	_	_	_	_	_	_	_	bratA3=T8:Past-Pres|bratT8=Date-period-absolute
+7	последние	_	_	_	_	_	_	_	bratA3=T8:Past-Pres|bratT11=Ordinal|bratT8=Date-period-absolute
+8	десятилетия	_	_	_	_	_	_	_	bratA3=T8:Past-Pres|bratT21=Duration|bratT8=Date-period-absolute
 9	политика	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	области	_	_	_	_	_	_	_	_
@@ -149,7 +149,7 @@
 # sent_id = 0050-p5-s1
 # text = В настоящее время специалисты обсуждают ослабление такой политики.
 1	В	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
-2	настоящее	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute|bratT27=Ordinal
 3	время	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
 4	специалисты	_	_	_	_	_	_	_	_
 5	обсуждают	_	_	_	_	_	_	_	_
@@ -171,7 +171,7 @@
 9	будет	_	_	_	_	_	_	_	_
 10	ли	_	_	_	_	_	_	_	_
 11	разрешено	_	_	_	_	_	_	_	_
-12	китайским	_	_	_	_	_	_	_	_
+12	китайским	_	_	_	_	_	_	_	bratT23=GPE
 13	парам	_	_	_	_	_	_	_	bratT19=Family
 14	иметь	_	_	_	_	_	_	_	_
 15	до	_	_	_	_	_	_	_	bratT9=Quantity
@@ -192,7 +192,7 @@
 # text = По словам Синя, новые правила следует вводить на основе ситуации в конкретном регионе.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Синя	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+3	Синя	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT26=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	новые	_	_	_	_	_	_	_	_
 6	правила	_	_	_	_	_	_	_	_

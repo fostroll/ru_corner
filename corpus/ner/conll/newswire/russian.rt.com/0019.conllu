@@ -3,11 +3,11 @@
 # par_text = Помпео: ряд арабских стран заключат соглашения с Израилем
 # sent_id = 0019-p1-s1
 # text = Помпео: ряд арабских стран заключат соглашения с Израилем
-1	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person
+1	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT26=Person-surname
 2	:	_	_	_	_	_	_	_	_
 3	ряд	_	_	_	_	_	_	_	_
-4	арабских	_	_	_	_	_	_	_	_
-5	стран	_	_	_	_	_	_	_	_
+4	арабских	_	_	_	_	_	_	_	bratT27=GPE
+5	стран	_	_	_	_	_	_	_	bratT27=GPE
 6	заключат	_	_	_	_	_	_	_	_
 7	соглашения	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
@@ -18,8 +18,8 @@
 # sent_id = 0019-p2-s1
 # text = Ряд арабских стран заключат мирные соглашения с Израилем.
 1	Ряд	_	_	_	_	_	_	_	_
-2	арабских	_	_	_	_	_	_	_	_
-3	стран	_	_	_	_	_	_	_	_
+2	арабских	_	_	_	_	_	_	_	bratT28=GPE
+3	стран	_	_	_	_	_	_	_	bratT28=GPE
 4	заключат	_	_	_	_	_	_	_	_
 5	мирные	_	_	_	_	_	_	_	_
 6	соглашения	_	_	_	_	_	_	_	_
@@ -34,8 +34,8 @@
 3	заявил	_	_	_	_	_	_	_	_
 4	госсекретарь	_	_	_	_	_	_	_	bratT22=Person-property|bratT24=Person
 5	США	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=GPE|bratT24=Person
-6	Майк	_	_	_	_	_	_	_	bratT24=Person
-7	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person
+6	Майк	_	_	_	_	_	_	_	bratT24=Person|bratT29=Person-forename
+7	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT30=Person-surname
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p3
@@ -44,8 +44,8 @@
 # text = ``Есть арабские страны, которые присоединятся к мирным соглашениям с Израилем'', - приводит Al Arabiya слова Помпео.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Есть	_	_	_	_	_	_	_	_
-3	арабские	_	_	_	_	_	_	_	_
-4	страны	_	_	_	_	_	_	_	SpaceAfter=No
+3	арабские	_	_	_	_	_	_	_	bratT31=GPE
+4	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE
 5	,	_	_	_	_	_	_	_	_
 6	которые	_	_	_	_	_	_	_	_
 7	присоединятся	_	_	_	_	_	_	_	_
@@ -61,7 +61,7 @@
 17	Al	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 18	Arabiya	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 19	слова	_	_	_	_	_	_	_	_
-20	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+20	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-surname|bratT5=Person
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p4
@@ -87,7 +87,7 @@
 # par_text = Ранее Израиль нормализовал отношения с Бахрейном и ОАЭ.
 # sent_id = 0019-p5-s1
 # text = Ранее Израиль нормализовал отношения с Бахрейном и ОАЭ.
-1	Ранее	_	_	_	_	_	_	_	bratT25=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA2=T25:Past|bratT25=Date-relative
 2	Израиль	_	_	_	_	_	_	_	bratT7=GPE
 3	нормализовал	_	_	_	_	_	_	_	_
 4	отношения	_	_	_	_	_	_	_	_
@@ -104,24 +104,24 @@
 1	Также	_	_	_	_	_	_	_	_
 2	госсекретарь	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=Person
 3	США	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT12=Person
-4	Майк	_	_	_	_	_	_	_	bratT12=Person
-5	Помпео	_	_	_	_	_	_	_	bratT12=Person
+4	Майк	_	_	_	_	_	_	_	bratT12=Person|bratT33=Person-forename
+5	Помпео	_	_	_	_	_	_	_	bratT12=Person|bratT34=Person-surname
 6	провёл	_	_	_	_	_	_	_	_
 7	переговоры	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
 9	премьер-министром	_	_	_	_	_	_	_	bratT13=Person-property|bratT15=Person
 10	Израиля	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=GPE|bratT15=Person
-11	Биньямином	_	_	_	_	_	_	_	bratT15=Person
-12	Нетаньяху	_	_	_	_	_	_	_	bratT15=Person
+11	Биньямином	_	_	_	_	_	_	_	bratT15=Person|bratT35=Person-forename
+12	Нетаньяху	_	_	_	_	_	_	_	bratT15=Person|bratT36=Person-surname
 13	и	_	_	_	_	_	_	_	_
 14	главой	_	_	_	_	_	_	_	bratT16=Person-property|bratT19=Person
 15	МИД	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization|bratT19=Person
 16	Бахрейна	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=GPE|bratT19=Person
-17	Абдулом	_	_	_	_	_	_	_	bratT19=Person
-18	Латифом	_	_	_	_	_	_	_	bratT19=Person
-19	бен	_	_	_	_	_	_	_	bratT19=Person
-20	Рашедом	_	_	_	_	_	_	_	bratT19=Person
-21	аль-Заяни	_	_	_	_	_	_	_	bratT19=Person
+17	Абдулом	_	_	_	_	_	_	_	bratT19=Person|bratT37=Person-forename
+18	Латифом	_	_	_	_	_	_	_	bratT19=Person|bratT37=Person-forename
+19	бен	_	_	_	_	_	_	_	bratT19=Person|bratT38=Person-patronym
+20	Рашедом	_	_	_	_	_	_	_	bratT19=Person|bratT38=Person-patronym
+21	аль-Заяни	_	_	_	_	_	_	_	bratT19=Person|bratT39=Person-affix
 22	в	_	_	_	_	_	_	_	_
 23	Иерусалиме	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE
 24	.	_	_	_	_	_	_	_	_

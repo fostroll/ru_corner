@@ -6,9 +6,9 @@ T5	Person-property 55 142	Астронавты   пилотируемого   к
 T6	Facility 167 204	Международной   космической   станции
 T7	Organization 246 250	NASA
 T8	Facility 281 284	МКС
-T9	Time-absolute 306 321	в   07.00   мск
+T9	Date-relative 306 321	в   07.00   мск
 T10	Product 327 340	Crew   Dragon
-T11	Date-absolute 369 380	16   ноября
+T11	Date-absolute 369 394	16   ноября   03.27   мск
 T12	Time-absolute 383 394	03.27   мск
 T13	Facility 401 411	космодрома
 T14	Location 419 435	мысе   Канаверал
@@ -30,3 +30,6 @@ A3	Department T24
 T26	Person 589 604	Майкл   Хопкинс
 T27	Person 611 626	Виктор   Гловер
 T29	Person 633 647	Шэннон   Уокер
+A4	Past T11
+A5	Past T9
+T30	Time-absolute 306 321	в   07.00   мск

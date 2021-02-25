@@ -15,7 +15,7 @@ T14	Quantity 703 715	38   человек
 T15	Person 736 754	Вячеслав   Володин
 T16	Organization 784 806	Государственной   думе
 T17	Quantity 817 832	450   депутатов
-T18	Time-period 859 880	за   минувшие   сутки
+T18	Date-period-absolute 859 880	за   минувшие   сутки
 T19	Person-property 896 901	врачи
 T20	Quantity 914 938	еще   20   977   случаев
 T21	Other-term 1039 1052	коронавирусом
@@ -23,15 +23,29 @@ T22	Quantity 1068 1100	более   1,8   миллиона   россиян
 T23	Nationality 1093 1100	россиян
 A1	Citizenship T23
 T24	Organization 1105 1120	Роспотребнадзор
-T25	Date-relative 591 612	на   прошлой   неделе
+T25	Date-absolute 591 612	на   прошлой   неделе
 T26	Other-term 953 979	коронавирусной   инфекцией
-T27	Date-relative 196 217	в   настоящее   время
-T28	Date-relative 427 434	сегодня
-T29	Date-relative 654 661	Сегодня
-T30	Date-period 1015 1036	с   начала   эпидемии
+T27	Date-absolute 196 217	в   настоящее   время
+T28	Date-absolute 427 434	сегодня
+T29	Date-absolute 654 661	Сегодня
+T30	Date-period-absolute 1015 1036	с   начала   эпидемии
 T31	Event 1028 1036	эпидемии
-T32	Date-period 332 365	в   ходе   пленарного   заседания
+T32	Date-absolute 332 365	в   ходе   пленарного   заседания
 T33	Event 343 365	пленарного   заседания
-T34	Date-relative 506 513	сегодня
-T35	Date-relative 558 564	сейчас
+T34	Date-absolute 506 513	сегодня
+T35	Date-absolute 558 564	сейчас
 T36	Organization 293 308	нижней   палаты
+T37	Duration 875 880	сутки
+A2	Past T18
+A3	Past T27
+A4	Past T32
+A6	Present T35
+A5	Present T34
+A7	Present T28
+A8	Past T9
+A9	Past T25
+A10	Present T29
+A11	Past-Pres T30
+T38	Ordinal 864 872	минувшие
+T39	Ordinal 200 209	настоящее
+T40	Ordinal 596 603	прошлой

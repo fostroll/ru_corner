@@ -20,7 +20,7 @@ T20	Ordinal 956 964	третьего
 T21	GPE 1017 1034	стран   Евросоюза
 T22	Organization 1011 1034	МИД   стран   Евросоюза
 T23	Person-property 1003 1034	главы   МИД   стран   Евросоюза
-T24	Date-duration 1073 1091	несколько   недель
+T24	Duration 1073 1091	несколько   недель
 T25	Organization 1097 1100	КГБ
 T26	Service 1124 1147	telegram-канала   NEXTA
 A1	Media T26
@@ -35,12 +35,18 @@ T33	GPE 1606 1617	Нидерландов
 T34	Organization 1590 1617	правительства   Нидерландов
 T35	Person-property 1581 1617	главой   правительства   Нидерландов
 T36	Person 1581 1634	главой   правительства   Нидерландов   Марком   Рютте
-T37	Date-period 1551 1574	в   ходе   ее   встречи
-T38	Date-relative 97 103	сейчас
+T37	Date-absolute 1551 1574	в   ходе   ее   встречи
+T38	Date-absolute 97 103	сейчас
 T39	Ordinal 32 41	последние
 T40	Ordinal 580 589	Следующий
-T41	Date-relative 721 727	теперь
+T41	Date-absolute 721 727	теперь
 T6	Event 568 574	стачке
 T42	Event 1567 1634	встречи   с   главой   правительства   Нидерландов   Марком   Рютте
 T43	Person 1150 1166	Степана   Путило
 T44	Person 1173 1193	Романа   Протасевича
+T45	Date-period-absolute 1073 1091	несколько   недель
+A3	Pres-Fut T45
+A4	Present T38
+A5	Present T3
+A6	Future T41
+A7	Past T37

@@ -6,7 +6,7 @@ T4	Person 341 352	Набиуллиной
 T5	Organization 386 393	Госдуме
 T6	Organization 421 435	Банка   России
 T7	Percent 506 524	до   4   -   5   %
-T8	Date-period 531 546	в   2021   году
+T8	Date-period-absolute 531 546	в   2021   году
 T9	Percent 566 584	на   3   -   4   %
 T10	GPE 71 77	России
 T11	Date-absolute 129 155	в   середине   2022   года
@@ -14,14 +14,13 @@ T12	Person-property 172 182	глава   ЦБ
 T13	Organization 180 182	ЦБ
 T14	Person 172 205	глава   ЦБ   Эльвира   Набиуллина
 T15	Event 118 126	пандемии
-T16	Date-relative 104 126	до   начала   пандемии
-T17	Date-relative 355 379	во   время   выступления
+T16	Date-absolute 104 126	до   начала   пандемии
+T17	Date-absolute 355 379	во   время   выступления
 T18	Ordinal 478 485	текущем
-T19	Date-absolute 474 492	в   текущем   году
-A2	Present T19
+T19	Date-period-absolute 474 492	в   текущем   году
 A3	Future T11
 A4	Future T2
 A5	Past T17
 A6	Past T16
-T20	Date-absolute 535 546	2021   году
-A7	Future T20
+A2	Past-Fut T19
+A8	Fut T8

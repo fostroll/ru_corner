@@ -5,7 +5,7 @@ T4	Organization 281 339	Китайской   корпорации   космич
 T5	Person 213 368	замруководителя   проекта   ракеты-носителя   ``   Чанчжэн-5   ''   Китайской   корпорации   космической   науки   и   техники   (   CASC   )   Цюй   Игуан
 T6	Organization 565 578	РИА   Новости
 A1	Media T6
-T7	Date-period 379 401	Со   следующего   года
+T7	Date-period-absolute 379 401	Со   следующего   года
 T9	Facility 661 678	``   Тяньгун   ''
 T10	Quantity 771 787	три   космонавта
 T11	Quantity 833 848	шесть   человек
@@ -24,11 +24,12 @@ T21	GPE 73 78	Китае
 T22	Date-absolute 93 108	в   2021   году
 T23	Ordinal 384 394	следующего
 T24	Time-relative 798 808	во   время
-T25	Time-relative 970 975	Ранее
-T26	Time-relative 1193 1198	после
+T25	Date-relative 970 975	Ранее
+T26	Date-relative 1193 1198	после
 T27	Time-relative 743 755	одновременно
 A4	Future T22
 A5	Future T12
-T28	Date-absolute 384 401	следующего   года
-A6	Future T28
 T29	Event 811 826	смены   экипажа
+A3	Fut T7
+A6	Past T25
+A7	Future T26

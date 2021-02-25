@@ -18,9 +18,9 @@
 4	запрет	_	_	_	_	_	_	_	_
 5	приложения	_	_	_	_	_	_	_	bratT2=Service
 6	TikTok	_	_	_	_	_	_	_	bratT2=Service
-7	до	_	_	_	_	_	_	_	bratT3=Date-period
-8	4	_	_	_	_	_	_	_	bratA4=T31:Future|bratT3=Date-period|bratT31=Date-absolute
-9	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T31:Future|bratT3=Date-period|bratT31=Date-absolute
+7	до	_	_	_	_	_	_	_	bratA8=T3:UNK-Fut|bratT3=Date-period-absolute
+8	4	_	_	_	_	_	_	_	bratA8=T3:UNK-Fut|bratT3=Date-period-absolute
+9	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T3:UNK-Fut|bratT3=Date-period-absolute
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0012-p2-s2
@@ -57,25 +57,25 @@
 12	была	_	_	_	_	_	_	_	_
 13	предоставлена	_	_	_	_	_	_	_	_
 14	отсрочка	_	_	_	_	_	_	_	_
-15	еще	_	_	_	_	_	_	_	bratT8=Date-period
-16	на	_	_	_	_	_	_	_	bratT8=Date-period
-17	неделю	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-period|bratT9=Duration
-18	,	_	_	_	_	_	_	_	bratT8=Date-period
-19	с	_	_	_	_	_	_	_	bratT8=Date-period
-20	27	_	_	_	_	_	_	_	bratT32=Date-absolute|bratT8=Date-period
-21	ноября	_	_	_	_	_	_	_	bratT32=Date-absolute|bratT8=Date-period
-22	до	_	_	_	_	_	_	_	bratT8=Date-period
-23	4	_	_	_	_	_	_	_	bratT33=Date-absolute|bratT8=Date-period
-24	декабря	_	_	_	_	_	_	_	bratT33=Date-absolute|bratT8=Date-period
-25	2020	_	_	_	_	_	_	_	bratT33=Date-absolute|bratT8=Date-period
-26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Date-absolute|bratT8=Date-period
+15	еще	_	_	_	_	_	_	_	_
+16	на	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+17	неделю	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T8:LCont|bratT8=Date-period-absolute|bratT9=Duration
+18	,	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+19	с	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+20	27	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+21	ноября	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+22	до	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+23	4	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+24	декабря	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+25	2020	_	_	_	_	_	_	_	bratA10=T8:LCont|bratT8=Date-period-absolute
+26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T8:LCont|bratT8=Date-period-absolute
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0012-p4
 # par_text = Ранее США отложили крайний срок заключения сделки по отказу компании ByteDance от всех связанных с TikTok активов в стране на 15 дней. Как следует из заявления компании, Комитет по иностранным инвестициям США предоставил срок до 27 ноября для достижения соглашения, продлив ранее назначенный срок, который истекал в четверг, 12 ноября. В TikTok отказались комментировать поданную заявку.
 # sent_id = 0012-p4-s1
 # text = Ранее США отложили крайний срок заключения сделки по отказу компании ByteDance от всех связанных с TikTok активов в стране на 15 дней.
-1	Ранее	_	_	_	_	_	_	_	bratT25=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-relative
 2	США	_	_	_	_	_	_	_	bratT12=GPE
 3	отложили	_	_	_	_	_	_	_	_
 4	крайний	_	_	_	_	_	_	_	_
@@ -94,9 +94,9 @@
 17	активов	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	стране	_	_	_	_	_	_	_	_
-20	на	_	_	_	_	_	_	_	bratT15=Date-period
-21	15	_	_	_	_	_	_	_	bratT15=Date-period|bratT37=Duration
-22	дней	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-period|bratT37=Duration
+20	на	_	_	_	_	_	_	_	bratA12=T15:LCont|bratA13=T15:Past-UNK|bratT15=Date-period-relative
+21	15	_	_	_	_	_	_	_	bratA12=T15:LCont|bratA13=T15:Past-UNK|bratT15=Date-period-relative|bratT37=Duration
+22	дней	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T15:LCont|bratA13=T15:Past-UNK|bratT15=Date-period-relative|bratT37=Duration
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0012-p4-s2
@@ -114,25 +114,25 @@
 11	США	_	_	_	_	_	_	_	bratT16=Organization|bratT17=GPE
 12	предоставил	_	_	_	_	_	_	_	_
 13	срок	_	_	_	_	_	_	_	_
-14	до	_	_	_	_	_	_	_	bratT18=Date-period
-15	27	_	_	_	_	_	_	_	bratT18=Date-period|bratT34=Date-absolute
-16	ноября	_	_	_	_	_	_	_	bratT18=Date-period|bratT34=Date-absolute
+14	до	_	_	_	_	_	_	_	bratA6=T18:Past-UNK|bratT18=Date-period-absolute
+15	27	_	_	_	_	_	_	_	bratA6=T18:Past-UNK|bratT18=Date-period-absolute
+16	ноября	_	_	_	_	_	_	_	bratA6=T18:Past-UNK|bratT18=Date-period-absolute
 17	для	_	_	_	_	_	_	_	_
 18	достижения	_	_	_	_	_	_	_	_
 19	соглашения	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	продлив	_	_	_	_	_	_	_	_
-22	ранее	_	_	_	_	_	_	_	bratT29=Time-relative
+22	ранее	_	_	_	_	_	_	_	bratA9=T29:Past|bratT29=Date-relative
 23	назначенный	_	_	_	_	_	_	_	_
 24	срок	_	_	_	_	_	_	_	SpaceAfter=No
 25	,	_	_	_	_	_	_	_	_
 26	который	_	_	_	_	_	_	_	_
 27	истекал	_	_	_	_	_	_	_	_
-28	в	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
-29	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T23:Past|bratT23=Date-absolute
-30	,	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
-31	12	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
-32	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T23:Past|bratT23=Date-absolute
+28	в	_	_	_	_	_	_	_	bratT23=Date-absolute
+29	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-absolute
+30	,	_	_	_	_	_	_	_	bratT23=Date-absolute
+31	12	_	_	_	_	_	_	_	bratT23=Date-absolute
+32	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Date-absolute
 33	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0012-p4-s3
@@ -191,7 +191,7 @@
 15	и	_	_	_	_	_	_	_	bratA2=T24:Plural|bratT24=Organization
 16	Google	_	_	_	_	_	_	_	bratA2=T24:Plural|bratT24=Organization|bratT36=Organization
 17	удалить	_	_	_	_	_	_	_	_
-18	китайские	_	_	_	_	_	_	_	_
+18	китайские	_	_	_	_	_	_	_	bratT31=GPE
 19	приложения	_	_	_	_	_	_	_	_
 20	со	_	_	_	_	_	_	_	_
 21	своих	_	_	_	_	_	_	_	_

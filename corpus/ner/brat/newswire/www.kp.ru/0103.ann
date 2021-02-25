@@ -4,8 +4,8 @@ T3	Person-property 86 94	премьера
 T4	GPE 100 107	Ереване
 T5	Political-group 110 139	члены   армянской   оппозиции
 T6	Organization 118 139	армянской   оппозиции
-T7	Date-absolute 165 194	в   четверг   ,   12   ноября
-T8	Time-absolute 205 210	17:00
+T7	Date-absolute 165 237	в   четверг   ,   12   ноября   ,   в   17:00   (   16:00   по   мск   )
+T8	Time-absolute 201 210	в   17:00
 T9	Time-absolute 217 233	16:00   по   мск
 T10	Person 297 342	премьер-министра   страны   Никола   Пашиняна
 T11	Person-property 297 322	премьер-министра   страны
@@ -26,3 +26,7 @@ T24	Person-property 1108 1115	полицей
 T25	Event 248 265	протестный   марш
 T26	Date-relative 765 773	накануне
 T27	Event 805 811	митинг
+A2	Future T7
+A3	Past T23
+A4	Past T26
+A5	Future T2

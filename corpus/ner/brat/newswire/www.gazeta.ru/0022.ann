@@ -1,5 +1,5 @@
 T1	GPE 4 25	Челябинской   области
-T3	Date-absolute 156 167	11   ноября
+T3	Date-absolute 151 167	от   11   ноября
 T4	Organization 202 206	ТАСС
 A1	Media T4
 T5	GPE 240 261	Челябинской   области
@@ -9,7 +9,13 @@ T8	Other-group 387 396	пациентов
 T9	Other-group 643 651	пациенты
 T10	Service 685 705	медицинскую   помощь
 T2	Event 48 82	подтопление   в   новой   больнице
-T11	Date-relative 485 505	На   данный   момент
-T12	Time-period 793 798	ночью
-T13	Date-relative 760 767	Ранее  
-T14	Date-relative 293 300	ранее  
+T11	Date-absolute 485 505	На   данный   момент
+T12	Time-absolute 793 798	ночью
+T13	Date-relative 760 765	Ранее
+T14	Date-absolute 293 298	ранее
+T15	Date-relative 793 798	ночью
+A2	Past T15
+A3	Past T3
+A4	Present T11
+A5	Past T13
+A6	Past T14

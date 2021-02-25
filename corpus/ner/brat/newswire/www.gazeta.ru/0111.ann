@@ -9,17 +9,24 @@ T7	Organization 182 193	прокуратуры
 T8	Organization 200 224	Следственного   комитета
 T9	Organization 252 279	газета   ``   Известия   ''
 A2	Media T9
-T10	Date-period 357 384	на   ближайшие   три   года
+T10	Date-period-absolute 357 384	на   ближайшие   три   года
 T11	Quantity 455 469	в   1,5   раза
 T12	Percent 530 537	3,8   %
-T13	Date-absolute 540 555	в   2021   году
+T13	Date-period-absolute 540 555	в   2021   году
 T14	Person-property 602 613	госслужащих
 T16	Person-property 733 756	менеджеров   Роскосмоса
 T17	Organization 746 756	Роскосмоса
 T18	Percent 771 791	на   15   -   20   %
-T19	Date-period 109 129	в   следующем   году
-T15	Date-period 636 658	в   предстоящем   году
+T19	Date-absolute 109 129	в   следующем   году
+T15	Date-absolute 636 658	в   предстоящем   году
 T20	Other-term 479 487	инфляции
 T21	Ordinal 318 325	второму
 T22	Ordinal 113 122	следующем
-T23	Date-relative 691 698	Ранее  
+T23	Date-relative 691 696	Ранее
+T24	Ordinal 362 371	ближайшие
+A3	Future T19
+A4	Fut T13
+T25	Duration 374 384	три   года
+A5	Fut T10
+A6	Future T15
+A7	Past T23

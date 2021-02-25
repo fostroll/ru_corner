@@ -14,7 +14,7 @@ T13	Organization 302 304	RT
 A1	Media T13
 T14	Person 315 319	Шапи
 T15	Person 425 429	Шапи
-T16	Date-relative 470 492	года   полтора   назад
+T16	Date-absolute 470 492	года   полтора   назад
 T17	Person 517 525	Бушманов
 T18	Date-absolute 546 557	24   ноября
 T19	Event 591 607	Лиге   чемпионов
@@ -23,5 +23,9 @@ T21	Person 661 675	Мурад   Мусаев
 T22	Person 695 712	Матвея   Сафонова
 T23	Organization 734 751	``   Севильи   ''
 T24	Organization 234 254	``   Краснодара   ''
-T25	Date-relative 416 422	Сейчас
-T26	Date-relative 653 660	Ранее  
+T25	Date-absolute 416 422	Сейчас
+T26	Date-relative 653 658	Ранее
+A2	Future T18
+A3	Past T16
+A4	Present T25
+A5	Past T26

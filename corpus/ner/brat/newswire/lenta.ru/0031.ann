@@ -30,7 +30,7 @@ T28	Date-absolute 1140 1155	в   2016   году
 T29	Money 1189 1209	32   миллиона   евро
 T30	Person 1215 1219	Халк
 T31	Organization 1238 1253	``   Зенит   ''
-T32	Date-period 1256 1282	с   2012   по   2016   год
+T32	Date-period-absolute 1256 1282	с   2012   по   2016   год
 T33	Nationality 1300 1308	бразилец
 A2	Citizenship T33
 T34	Organization 1325 1340	``   Порту   ''
@@ -43,8 +43,15 @@ A4	Future T20
 A5	Past T37
 A6	Future T25
 A7	Past T28
-T39	Date-absolute 1260 1264	2012
-A8	Past T39
-T40	Date-absolute 1272 1282	2016   год
-A9	Past T40
 A10	Past T38
+A11	Past T32
+T39	GPE 84 95	Бразильский
+T40	GPE 438 451	португальским
+T41	GPE 476 489	петербургским
+T42	GPE 1013 1022	китайским
+T43	Person-alias 0 4	Халк
+T44	Person-alias 137 141	Халк
+T45	Person-alias 541 545	Халк
+T46	Person-alias 783 787	Халк
+T47	Person-alias 1001 1006	Халка
+T48	Person-alias 1215 1219	Халк

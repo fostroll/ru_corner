@@ -2,7 +2,7 @@ T1	GPE 67 75	Приморье
 T2	Organization 237 250	РИА   Новости
 A1	Media T2
 T3	Person 284 320	главой   региона   Олегом   Кожемяко
-T4	Date-absolute 549 570	в   ближайшие   сутки
+T4	Date-period-absolute 549 570	в   ближайшие   сутки
 T5	Person 605 613	Чекунков
 T6	Person 699 743	премьер-министр   России   Михаил   Мишустин
 T7	Person-property 699 723	премьер-министр   России
@@ -17,15 +17,29 @@ T14	Person-property 168 193	глава   Минвостокразвития
 T15	Organization 176 193	Минвостокразвития
 T16	Person 159 214	заявил   глава   Минвостокразвития   Алексей   Чекунков
 T17	Percent 442 457	большая   часть
-T18	Time-relative 691 696	Ранее
+T18	Date-relative 691 696	Ранее
 T20	Event 53 60	циклона
 T21	Event 111 118	циклона
 T23	Duration 565 570	сутки
 T24	Ordinal 553 562	ближайшие
-A3	Future T4
-T19	Date-period 45 60	после   циклона
-A4	Past T19
-T22	Date-period 103 118	после   циклона
-A5	Past T22
+T19	Date-period-absolute 45 60	после   циклона
+T22	Date-period-absolute 103 118	после   циклона
 T25	Event 35 60	кризиса   после   циклона
 T26	Event 93 118	кризиса   после   циклона
+T27	Date-absolute 29 60	пик   кризиса   после   циклона
+A6	Past T27
+T28	Date-absolute 87 118	Пик   кризиса   после   циклона
+A7	Past T28
+A5	Past-Pres T22
+A4	Past-Pres T19
+A8	RCont T19
+A9	RCont T22
+A10	Past T18
+T29	Person-forename 196 203	Алексей
+T30	Person-surname 206 214	Чекунков
+T31	Person-forename 303 309	Олегом
+T32	Person-surname 312 320	Кожемяко
+T33	Person-surname 605 613	Чекунков
+T34	Person-forename 726 732	Михаил
+T35	Person-surname 735 743	Мишустин
+A3	Fut T4

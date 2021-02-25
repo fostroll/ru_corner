@@ -19,17 +19,15 @@ T16	GPE 162 169	Франции
 T17	Duration 177 182	сутки
 T18	Quantity 195 208	на   22   882
 T19	Quantity 226 239	2   109   170
-T20	Date-period 340 356	за   всё   время
+T20	Date-period-absolute 340 356	за   всё   время
 T21	Event 525 533	пандемия
-T22	Time-relative 443 448	Ранее
-T23	Date-period 417 427	за   сутки
-T24	Date-period 172 182	за   сутки
-T25	Date-period 15 25	за   сутки
-T26	Date-absolute 177 182	сутки
-A4	Past T26
-T27	Date-absolute 422 427	сутки
-A3	Past T27
-T28	Date-absolute 20 25	сутки
-A5	Past T28
+T22	Date-relative 443 448	Ранее
+T23	Date-period-absolute 417 427	за   сутки
+T24	Date-period-absolute 172 182	за   сутки
+T25	Date-period-absolute 15 25	за   сутки
 T29	Duration 345 356	всё   время
-A6	Past T20
+A7	Past-Pres T25
+A5	Past-Pres T24
+A4	Past-Pres T23
+A3	Past-Pres T20
+A6	Past T22

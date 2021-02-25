@@ -18,11 +18,17 @@ T16	GPE 754 756	РФ
 T17	Person-property 780 787	блогера
 T18	Person-property 790 808	украинский   посол
 T19	Date-absolute 972 982	6   ноября
-T20	Date-absolute 988 1011	Ранее   в   2014   году
 T21	Person 1014 1023	Орешников
 T22	GPE 1067 1074	Украине
 T23	Other-term 191 202	экстрадиция
 T24	Other-term 437 448	экстрадиции
-T25	Date-relative 304 324	На   данный   момент
-T27	Date-relative 1085 1092	затем  
+T25	Date-absolute 304 324	На   данный   момент
+T27	Date-relative 1085 1090	затем
 T26	Organization 376 394	полиции   Джакарты
+T28	Date-absolute 988 1011	Ранее   в   2014   году
+A2	Past T28
+A3	Present T25
+A4	Past T19
+A5	Past T27
+T20	Date-relative 988 993	Ранее
+A6	Past T20

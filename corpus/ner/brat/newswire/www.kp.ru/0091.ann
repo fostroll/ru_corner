@@ -13,12 +13,19 @@ T12	Organization 524 530	SpaceX
 T13	Facility 564 569	Землю
 T14	Ordinal 572 578	первую
 T15	Facility 630 647	базе   Ванденберг
-T16	Time-relative 650 689	через   восемь   минут   после   старта
 T17	Facility 851 891	Метеорологический   спутник   Sentinel-6
 T18	Organization 920 924	NASA
 T19	Organization 931 970	Европейского   космического   агентства
 T20	Organization 973 976	ЕКА
-T21	Date-duration 1116 1142	пять   с   половиной   лет
+T21	Duration 1105 1142	примерно   пять   с   половиной   лет
 T22	Location 1280 1317	атлантическим   течением   Гольфстрим
 T23	Service 297 316	официальном   сайте
 A1	Media T23
+T24	Date-relative 466 504	в   20:17   по   московскому   времени
+A2	Past T24
+T25	Duration 658 672	восемь   минут
+T26	Date-absolute 650 689	через   восемь   минут   после   старта
+A3	Past T26
+T16	Date-period-absolute 1105 1142	примерно   пять   с   половиной   лет
+A4	Pres-Fut T16
+A5	Past T3

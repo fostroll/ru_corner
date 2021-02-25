@@ -10,7 +10,7 @@ T9	Organization 789 791	RT
 A1	Media T9
 T10	Organization 992 994	RT
 A2	Media T10
-T11	Date-period 1082 1112	до   19   января   2021   года
+T11	Date-period-absolute 1082 1112	до   19   января   2021   года
 T12	Date-absolute 1138 1151	28   сентября
 T13	Age 759 778	несовершеннолетнего
 T14	Person-property 1118 1126	Школьник
@@ -29,10 +29,8 @@ T26	Event 20 39	похищение   ребёнка
 T27	Event 137 163	похищении   первоклассника
 T28	Law 842 853	УК   России
 T29	Age 32 39	ребёнка
-T30	Date-absolute 1087 1112	19   января   2021   года
-A4	Future T30
 A5	Past T12
-T33	Date-period 1212 1229	Всё   это   время
+T33	Date-period-relative 1212 1229	Всё   это   время
 A6	Past T15
 T25	Duration 1173 1185	два   месяца
 T34	Duration 1212 1229	Всё   это   время

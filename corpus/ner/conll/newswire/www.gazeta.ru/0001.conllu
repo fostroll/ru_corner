@@ -11,9 +11,9 @@
 6	по	_	_	_	_	_	_	_	_
 7	данным	_	_	_	_	_	_	_	_
 8	соцсети	_	_	_	_	_	_	_	_
-9	за	_	_	_	_	_	_	_	bratT3=Date-period
-10	2020	_	_	_	_	_	_	_	bratT3=Date-period
-11	год	_	_	_	_	_	_	_	bratT3=Date-period
+9	за	_	_	_	_	_	_	_	bratA6=T3:Past|bratT3=Date-period-absolute
+10	2020	_	_	_	_	_	_	_	bratA6=T3:Past|bratT3=Date-period-absolute
+11	год	_	_	_	_	_	_	_	bratA6=T3:Past|bratT3=Date-period-absolute
 
 # newpar id = 0001-p2
 # par_text = Компания Facebook заявила, что российские власти направляли в ее адрес 19 запросов на предоставление данных об учетных записях пользователей. Об этом сообщается на сайте компании.
@@ -66,12 +66,12 @@
 9	направлены	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	период	_	_	_	_	_	_	_	_
-12	с	_	_	_	_	_	_	_	bratT7=Date-period
-13	января	_	_	_	_	_	_	_	bratT7=Date-period
-14	по	_	_	_	_	_	_	_	bratT7=Date-period
-15	июнь	_	_	_	_	_	_	_	bratT7=Date-period
-16	2020	_	_	_	_	_	_	_	bratT7=Date-period
-17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-period
+12	с	_	_	_	_	_	_	_	bratA2=T7:Past|bratT7=Date-period-absolute
+13	января	_	_	_	_	_	_	_	bratA2=T7:Past|bratT7=Date-period-absolute
+14	по	_	_	_	_	_	_	_	bratA2=T7:Past|bratT7=Date-period-absolute
+15	июнь	_	_	_	_	_	_	_	bratA2=T7:Past|bratT7=Date-period-absolute
+16	2020	_	_	_	_	_	_	_	bratA2=T7:Past|bratT7=Date-period-absolute
+17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Past|bratT7=Date-period-absolute
 18	,	_	_	_	_	_	_	_	_
 19	и	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	_
@@ -132,9 +132,9 @@
 6	рассказали	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	с	_	_	_	_	_	_	_	bratT14=Date-period
-10	2013	_	_	_	_	_	_	_	bratT14=Date-period
-11	года	_	_	_	_	_	_	_	bratT14=Date-period
+9	с	_	_	_	_	_	_	_	bratA3=T14:Past-Pres|bratT14=Date-period-absolute
+10	2013	_	_	_	_	_	_	_	bratA3=T14:Past-Pres|bratT14=Date-period-absolute
+11	года	_	_	_	_	_	_	_	bratA3=T14:Past-Pres|bratT14=Date-period-absolute
 12	со	_	_	_	_	_	_	_	_
 13	стороны	_	_	_	_	_	_	_	_
 14	России	_	_	_	_	_	_	_	bratT12=GPE

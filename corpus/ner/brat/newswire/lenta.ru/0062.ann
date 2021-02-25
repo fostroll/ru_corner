@@ -8,16 +8,14 @@ T7	Person 1562 1577	Donavan   Smith
 T8	Person-property 1525 1538	Морской   гид
 T9	Quantity 1603 1623	в   400   километрах
 T10	GPE 1631 1640	Кейптауна
-T12	Date-period 385 411	С   2010   по   2016   год
+T12	Date-period-absolute 385 411	С   2010   по   2016   год
 T14	Time-period 483 490	в   год
 T15	Date-absolute 495 505	В   2015-м
 T17	Date-relative 642 661	Спустя   два   года
 T18	GPE 681 716	южноафриканского   города   Хансбай
 T22	Date-absolute 1037 1052	в   этом   году
-T23	Date-absolute 1138 1149	2018   году
 T24	Location 1156 1173	районе   Фолс-Бэй
-T26	Date-absolute 1275 1281	2019-м
-T27	Date-period 1338 1353	в   2020   году
+T27	Date-period-absolute 1338 1353	в   2020   году
 T28	Date-absolute 1411 1421	в   январе
 T29	Date-absolute 1438 1449	в   феврале
 T13	Quantity 463 480	более   200   раз
@@ -40,23 +38,31 @@ T34	Quantity 1232 1247	вчетверо   реже
 T35	Quantity 1318 1327	ни   разу
 T36	Quantity 1381 1388	однажды
 T37	Ordinal 522 529	впервые
-T38	Time-relative 911 918	Позднее
-T39	Time-relative 1058 1080	Вскоре   после   этого
-T40	Date-absolute 389 393	2010
-A6	Past T40
-T41	Date-absolute 401 411	2016   год
-A7	Past T41
+T38	Date-relative 911 918	Позднее
+T39	Date-relative 1058 1080	Вскоре   после   этого
 A8	Past T15
 T42	Duration 651 661	два   года
-A9	Past T23
-A10	Past T26
-T45	Date-absolute 1342 1353	2020   году
-A11	Past T45
 A12	Past T28
 A13	Past T29
 T46	Duration 487 490	год
 A14	Past T22
 A15	Past T17
-T43	Date-period 1271 1281	В   2019-м
-T44	Date-period 1134 1149	В   2018   году
+T43	Date-period-absolute 1271 1281	В   2019-м
+T44	Date-period-absolute 1134 1149	В   2018   году
 T47	Ordinal 1041 1045	этом
+A16	Past T12
+A17	Past T44
+A9	Past T43
+A18	Past T27
+A6	Past T38
+A7	Past T39
+T23	Person-property 56 67	Специалисты
+T26	GPE 681 697	южноафриканского
+T40	Person-alias 588 592	Порт
+T41	Person-alias 599 608	Старбоард
+T45	Person-alias 615 620	Левый
+T48	Person-alias 627 633	Правый
+T49	Person-forename 1541 1548	Донаван
+T50	Person-surname 1551 1555	Смит
+T51	Person-forename 1562 1569	Donavan
+T52	Person-surname 1572 1577	Smith

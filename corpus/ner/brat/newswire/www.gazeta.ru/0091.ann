@@ -1,7 +1,7 @@
 T1	GPE 4 10	Москве
 T3	Quantity 40 49	до   -3°С
 T4	GPE 55 61	Москве
-T2	Date-relative 13 25	во   вторник
+T2	Date-absolute 13 25	во   вторник
 T5	Date-absolute 64 94	во   вторник   ,   17   ноября
 T7	Service 177 182	сайте
 A1	Media T7
@@ -16,7 +16,16 @@ T15	Person-property 235 244	синоптики
 T16	Quantity 376 385	до   -6°С
 T17	Quantity 404 413	до   -9°С
 T18	GPE 320 340	Московской   области
-T6	Time-period 214 218	Днем
-T19	Time-period 343 347	днем
-T20	Time-period 392 397	ночью
-T21	Time-period 290 295	ночью
+T6	Date-relative 214 218	Днем
+T19	Date-relative 343 347	днем
+T21	Time-absolute 290 295	ночью
+T22	Date-relative 290 295	ночью
+T23	Date-relative 392 397	ночью
+T24	Time-absolute 343 347	днем
+T25	Time-absolute 214 218	Днем
+A6	Present T2
+A7	Present T5
+A5	Future T6
+A4	Future T19
+A2	Future T22
+A3	Future T23

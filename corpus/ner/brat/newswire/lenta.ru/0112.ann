@@ -19,7 +19,7 @@ T22	GPE 1173 1201	саудовском   городе   Джидда
 T23	Political-group 1206 1212	Хуситы
 T24	Organization 1301 1320	Саудовской   Аравии
 T25	Event 1450 1470	Йеменский   конфликт
-T26	Date-period 1507 1522	с   2014   года
+T26	Date-period-absolute 1507 1522	с   2014   года
 T27	Political-group 1527 1545	Повстанцев-хуситов
 T28	GPE 1590 1594	Иран
 T29	Organization 1601 1619	``   Хезболла   ''
@@ -36,5 +36,13 @@ T6	Facility 258 278	в   пределах   порта
 T9	Person 313 328	Танкер   Agrari
 A4	Unconscious T9
 A5	Past T14
-T8	Date-absolute 1511 1522	2014   года
-A6	Past T8
+A7	Past-Pres T26
+T8	GPE 191 201	британскую
+T19	GPE 389 398	греческой
+T36	GPE 626 636	Британская
+T37	GPE 786 796	саудовские
+T38	GPE 959 968	йеменских
+T39	GPE 1173 1183	саудовском
+T40	GPE 1675 1691	арабских   стран
+T41	Person-forename 1042 1046	Яхья
+T42	Person-surname 1049 1054	Сариа

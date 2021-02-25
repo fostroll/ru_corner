@@ -6,7 +6,7 @@ T4	Percent 485 491	90   %
 T5	Date-absolute 885 904	В   начале   ноября
 T6	Person 907 915	Вуйнович
 T7	Other-term 1002 1028	коронавирусной   инфекцией
-T8	Date-period 938 984	в   течение   следующих   нескольких   месяцев
+T8	Date-period-absolute 938 984	в   течение   следующих   нескольких   месяцев
 T9	Person-property 0 19	Представитель   ВОЗ
 T10	Organization 101 142	Всемирной   организации   здравоохранения
 T11	Person-property 85 155	Представитель   Всемирной   организации   здравоохранения   в   России
@@ -23,5 +23,7 @@ T19	Other-term 346 358	коронавируса
 A4	Present T18
 A5	Past T5
 T20	Duration 964 984	нескольких   месяцев
-T21	Date-absolute 952 984	следующих   нескольких   месяцев
-A6	Future T21
+A7	Past-Fut T8
+T21	Person-forename 158 164	Мелита
+T22	Person-surname 167 175	Вуйнович
+T23	Person-surname 907 915	Вуйнович

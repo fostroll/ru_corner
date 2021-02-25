@@ -33,8 +33,9 @@ T32	Event 102 135	столкновения   двух   автомобилей
 T33	Facility 308 340	автодороги   Орёл   -   Новосиль
 T34	GPE 321 325	Орёл
 T35	GPE 332 340	Новосиль
-T26	Time-relative 952 957	Ранее
-T36	Date-relative 990 1004	после   гибели
+T26	Date-relative 952 957	Ранее
+T36	Date-absolute 990 1004	после   гибели
 A2	Past T5
 T37	Event 998 1017	гибели   двух   лиц
 A3	Past T36
+A4	Past T26

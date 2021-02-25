@@ -5,7 +5,6 @@ T6	Family 187 191	сына
 T7	Person-property 194 199	судьи
 T8	Organization 202 254	Третьего   кассационного   суда   общей   юрисдикции
 T9	Person 194 274	судьи   Третьего   кассационного   суда   общей   юрисдикции   Виталия   Саяпина
-T10	Person 187 274	сына   судьи   Третьего   кассационного   суда   общей   юрисдикции   Виталия   Саяпина
 T11	Date-absolute 340 370	в   четверг   ,   29   октября
 T12	Organization 377 395	``   Ленте.ру   ''
 A1	Media T12
@@ -30,7 +29,7 @@ T31	Family 1889 1893	Мать
 T1	Organization 93 124	Следственный   комитет   России
 T3	GPE 558 564	России
 T19	Family 32 36	сына
-T20	Person-property 53 58	судьи
+T20	Person-property 39 58	российского   судьи
 T32	Person-property 1016 1025	школьника
 T33	Family 1075 1079	сына
 T34	Person-property 1082 1087	судьи
@@ -38,8 +37,8 @@ T35	Person-property 1205 1234	начальнику   отдела   полици
 T36	Person-property 1827 1836	свидетеля
 T37	Ordinal 202 210	Третьего
 T38	Time-absolute 1440 1447	Вечером
-T39	Time-relative 673 680	Позднее
-T40	Time-relative 1785 1790	Затем
+T39	Date-relative 673 680	Позднее
+T40	Date-relative 1785 1790	Затем
 T41	Age 1284 1303	несовершеннолетнего
 T42	Age 1531 1540	подростка
 T43	Age 1908 1917	подростка
@@ -48,3 +47,10 @@ A3	Past T11
 A4	Past T22
 T45	Date-relative 1681 1694	около   21:00
 A5	Past T45
+A6	Past T39
+A7	Past T40
+T46	GPE 39 50	российского
+T47	Family 1724 1733	отцовское
+T48	Person-forename 257 264	Виталия
+T49	Person-surname 267 274	Саяпина
+T50	Person-surname 1494 1501	Саяпина

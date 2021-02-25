@@ -7,9 +7,8 @@ T6	Person-property 87 108	президента   Молдавии
 T7	Ordinal 62 68	Второй
 T8	Event 62 108	Второй   тур   выборов   президента   Молдавии
 T9	Date-absolute 138 171	в   воскресенье   ,   15   ноября
-T10	Time-absolute 197 234	в   8:00   по   московскому   времени
 T11	Time-absolute 241 265	7   утра   по   местному
-T12	Time-period 332 342	до   22:00
+T12	Date-period-absolute 332 342	до   22:00
 T13	GPE 361 382	территории   Молдавии
 T14	Quantity 419 466	более   двух   тысяч   избирательных   участков
 T15	Quantity 473 492	еще   139   пунктов
@@ -40,5 +39,16 @@ T39	Event 585 621	эпидемии   коронавирусной   инфекц
 T40	Other-group 673 684	избирателей
 T41	Event 1022 1048	выборов   главы   Молдавии
 T42	Event 1392 1415	президентских   выборов
-T43	Date-relative 385 406	в   настоящее   время
-T44	Date-relative 515 535	в   скором   времени
+T43	Date-absolute 385 406	в   настоящее   время
+T44	Date-absolute 515 535	в   скором   времени
+T45	Time-absolute 197 234	в   8:00   по   московскому   времени
+T10	Time-absolute 337 342	22:00
+A1	UNK-Fut T12
+T46	Date-relative 197 269	в   8:00   по   московскому   времени   (   7   утра   по   местному   )
+A2	Past T46
+T47	Ordinal 1073 1081	текущего
+A3	Past T22
+T48	Ordinal 389 398	настоящее
+A4	Present T43
+A5	Future T44
+A6	Past T9

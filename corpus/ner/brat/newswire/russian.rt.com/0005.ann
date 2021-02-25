@@ -14,19 +14,23 @@ T13	GPE 100 106	Сербии
 T14	Person 88 126	Президент   Сербии   Александр   Вучич
 T15	Event 218 241	эпидемии   коронавируса
 T5	Event 535 543	эпидемии
-T16	Date-period 522 543	с   начала   эпидемии
+T16	Date-period-absolute 522 543	с   начала   эпидемии
 T17	Event 65 73	эпидемии
 T18	Ordinal 383 392	следующих
 T19	Duration 371 399	несколько   следующих   дней
 T20	Date-absolute 619 641	в   настоящий   момент
 T21	Time-absolute 434 439	утром
-T22	Time-relative 956 961	Ранее
+T22	Date-relative 956 961	Ранее
 T23	Other-term 229 241	коронавируса
 A2	Present T11
-A3	Past T16
-T24	Date-period 371 399	несколько   следующих   дней
+T24	Date-period-absolute 371 399	несколько   следующих   дней
 T25	Date-absolute 434 439	утром
 A6	Present T20
-T26	Date-absolute 371 399	несколько   следующих   дней
-A7	Future T26
 A4	Present T25
+A3	Past-Pres T16
+A7	Past T22
+A5	Fut T24
+T26	Person-surname 0 5	Вучич
+T27	Person-forename 109 118	Александр
+T28	Person-surname 121 126	Вучич
+T29	Ordinal 623 632	настоящий

@@ -1,25 +1,25 @@
 T1	GPE 4 10	России
-T2	Time-duration 13 23	за   сутки
+T2	Date-period-absolute 13 23	за   сутки
 T3	Other-term 65 78	коронавирусом
 T4	Quantity 37 62	19   404   инфицированных
 T5	GPE 84 90	России
-T6	Time-duration 93 103	за   сутки
+T6	Date-period-absolute 93 103	за   сутки
 T7	Other-term 145 158	коронавирусом
 T8	Quantity 117 142	19   404   инфицированных
 T9	Quantity 161 178	в   85   регионах
 T10	Percent 194 202	25,9   %
 T11	Organization 270 278	оперштаб
-T12	Time-period 306 332	за   последние   24   часа
+T12	Date-period-absolute 306 332	за   последние   24   часа
 T13	Quantity 343 357	292   пациента
 T14	Quantity 378 396	12   238   человек
-T15	Time-duration 437 446	в   сутки
+T15	Time-period 437 446	в   сутки
 T16	GPE 460 466	Москва
 T17	Quantity 487 494	5   255
 T18	GPE 501 516	Санкт-Петербург
 T19	Quantity 573 589	1093   пациентов
 T20	Other-term 596 604	COVID-19
 T21	Organization 818 821	ВОЗ
-T22	Time-period 649 671	за   последние   сутки
+T22	Date-period-absolute 649 671	за   последние   сутки
 T23	GPE 615 635	Московской   области
 T24	Quantity 674 687	588   случаев
 T25	GPE 718 731	Нижегородская
@@ -38,7 +38,7 @@ T37	Person-property 1250 1258	эксперты
 T38	GPE 1282 1288	Россия
 T39	Other-term 1342 1355	коронавирусом
 T40	Other-group 1332 1355	больных   коронавирусом
-T41	Time-duration 1358 1367	в   сутки
+T41	Time-period 1358 1367	в   сутки
 T42	Event 839 862	пандемии   коронавируса
 T44	Date-absolute 1370 1388	не   ранее   весны
 T45	Quantity 1020 1032	неоднократно
@@ -46,3 +46,16 @@ T46	Ordinal 311 320	последние
 T47	Ordinal 654 663	последние
 T48	Date-relative 1242 1247	Ранее
 T43	GPE 924 928	мире
+T49	Duration 323 332	24   часа
+A1	Past-Pres T12
+T50	Duration 666 671	сутки
+A2	Past-Pres T22
+A3	Past-Pres T2
+T51	Duration 18 23	сутки
+T52	Duration 98 103	сутки
+A4	Past-Pres T6
+T53	Duration 441 446	сутки
+T54	Duration 1362 1367	сутки
+A5	Past T30
+A6	Past T48
+A7	Future T44

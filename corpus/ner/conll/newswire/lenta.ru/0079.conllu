@@ -55,13 +55,13 @@
 10	''	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 11	дали	_	_	_	_	_	_	_	_
 12	пресс-секретарь	_	_	_	_	_	_	_	bratT5=Person-property|bratT8=Person
-13	Московской	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization|bratT8=Person
+13	Московской	_	_	_	_	_	_	_	bratT29=GPE|bratT5=Person-property|bratT6=Organization|bratT8=Person
 14	областной	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization|bratT8=Person
 15	епархии	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Organization|bratT8=Person
 16	,	_	_	_	_	_	_	_	bratT8=Person
 17	священник	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-18	Александр	_	_	_	_	_	_	_	bratT8=Person
-19	Сухарев	_	_	_	_	_	_	_	bratT8=Person
+18	Александр	_	_	_	_	_	_	_	bratT30=Person-forename|bratT8=Person
+19	Сухарев	_	_	_	_	_	_	_	bratT31=Person-surname|bratT8=Person
 20	и	_	_	_	_	_	_	_	_
 21	заместитель	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
 22	управляющего	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
@@ -71,9 +71,9 @@
 26	,	_	_	_	_	_	_	_	bratT11=Person
 27	епископ	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
 28	Зеленоградский	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-29	Савва	_	_	_	_	_	_	_	bratT11=Person
+29	Савва	_	_	_	_	_	_	_	bratT11=Person|bratT32=Person-alias
 30	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
-31	Тутунов	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
+31	Тутунов	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT33=Person-surname
 32	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
 33	.	_	_	_	_	_	_	_	_
 
@@ -82,7 +82,7 @@
 # sent_id = 0079-p3-s1
 # text = Епископ Савва отметил, что в подобном погребении нет ничего оскорбительного для покойного, тем более что в России отпевание часто происходит с открытым гробом, и окружающие видят тело.
 1	Епископ	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person
-2	Савва	_	_	_	_	_	_	_	bratT15=Person
+2	Савва	_	_	_	_	_	_	_	bratT15=Person|bratT34=Person-forename
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -116,8 +116,8 @@
 # sent_id = 0079-p3-s2
 # text = Священник Александр Сухарев добавил, что для церкви важны не детали погребения, которые могут отличаться в зависимости от культуры и различных обстоятельств, а молитва об усопшем, которая ``есть долг христианской любви''.
 1	Священник	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Person
-2	Александр	_	_	_	_	_	_	_	bratT18=Person
-3	Сухарев	_	_	_	_	_	_	_	bratT18=Person
+2	Александр	_	_	_	_	_	_	_	bratT18=Person|bratT35=Person-forename
+3	Сухарев	_	_	_	_	_	_	_	bratT18=Person|bratT36=Person-surname
 4	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -157,14 +157,14 @@
 # par_text = Ранее директор ГБУ «Ритуал» Артем Екимов сообщил о нововведении в захоронении умерших зараженных коронавирусом. Для таких случаев семьям предложат закрытые гробы с крышкой из оргстекла, которая будет устанавливаться в дополнение к основной. Это позволит близким провести традиционную церемонию прощания. Позже в Telegram-канале телеканала «360» появилось видео с демонстрацией таких гробов стоимостью 49 тысяч рублей.
 # sent_id = 0079-p4-s1
 # text = Ранее директор ГБУ ``Ритуал'' Артем Екимов сообщил о нововведении в захоронении умерших зараженных коронавирусом.
-1	Ранее	_	_	_	_	_	_	_	bratT12=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-relative
 2	директор	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Person
 3	ГБУ	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Organization|bratT21=Person
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT20=Organization|bratT21=Person
 5	Ритуал	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT20=Organization|bratT21=Person
 6	''	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Organization|bratT21=Person
-7	Артем	_	_	_	_	_	_	_	bratT21=Person
-8	Екимов	_	_	_	_	_	_	_	bratT21=Person
+7	Артем	_	_	_	_	_	_	_	bratT21=Person|bratT37=Person-forename
+8	Екимов	_	_	_	_	_	_	_	bratT21=Person|bratT38=Person-surname
 9	сообщил	_	_	_	_	_	_	_	_
 10	о	_	_	_	_	_	_	_	_
 11	нововведении	_	_	_	_	_	_	_	_
@@ -211,7 +211,7 @@
 
 # sent_id = 0079-p4-s4
 # text = Позже в Telegram-канале телеканала ``360'' появилось видео с демонстрацией таких гробов стоимостью 49 тысяч рублей.
-1	Позже	_	_	_	_	_	_	_	bratT26=Time-relative
+1	Позже	_	_	_	_	_	_	_	bratA5=T26:Past|bratT26=Date-relative
 2	в	_	_	_	_	_	_	_	_
 3	Telegram-канале	_	_	_	_	_	_	_	bratA3=T23:Media|bratT23=Service
 4	телеканала	_	_	_	_	_	_	_	bratA2=T24:Media|bratT24=Organization

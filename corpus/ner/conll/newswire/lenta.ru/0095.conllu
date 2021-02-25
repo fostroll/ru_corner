@@ -8,7 +8,7 @@
 3	новых	_	_	_	_	_	_	_	_
 4	технологий	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
-6	мировой	_	_	_	_	_	_	_	_
+6	мировой	_	_	_	_	_	_	_	bratT31=GPE
 7	рынок	_	_	_	_	_	_	_	_
 8	труда	_	_	_	_	_	_	_	_
 
@@ -20,16 +20,16 @@
 2	могут	_	_	_	_	_	_	_	_
 3	вытеснить	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
-5	мирового	_	_	_	_	_	_	_	_
+5	мирового	_	_	_	_	_	_	_	bratT32=GPE
 6	рынка	_	_	_	_	_	_	_	_
 7	труда	_	_	_	_	_	_	_	_
 8	85	_	_	_	_	_	_	_	bratT1=Quantity
 9	миллионов	_	_	_	_	_	_	_	bratT1=Quantity
 10	рабочих	_	_	_	_	_	_	_	bratT1=Quantity
 11	мест	_	_	_	_	_	_	_	bratT1=Quantity
-12	к	_	_	_	_	_	_	_	bratT2=Date-period
-13	2025	_	_	_	_	_	_	_	bratA3=T31:Future|bratT2=Date-period|bratT31=Date-absolute
-14	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T31:Future|bratT2=Date-period|bratT31=Date-absolute
+12	к	_	_	_	_	_	_	_	bratA10=T2:Pres-Fut|bratT2=Date-period-absolute
+13	2025	_	_	_	_	_	_	_	bratA10=T2:Pres-Fut|bratT2=Date-period-absolute
+14	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T2:Pres-Fut|bratT2=Date-period-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0095-p2-s2
@@ -59,9 +59,9 @@
 # par_text = В ходе исследования были опрошены руководители высшего звена порядка 300 крупных и средних по размеру компаний в 15 отраслях экономики.
 # sent_id = 0095-p3-s1
 # text = В ходе исследования были опрошены руководители высшего звена порядка 300 крупных и средних по размеру компаний в 15 отраслях экономики.
-1	В	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period
-2	ходе	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period
-3	исследования	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period|bratT39=Event
+1	В	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+2	ходе	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+3	исследования	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute|bratT39=Event
 4	были	_	_	_	_	_	_	_	_
 5	опрошены	_	_	_	_	_	_	_	_
 6	руководители	_	_	_	_	_	_	_	bratT5=Person-property
@@ -126,9 +126,9 @@
 2	результатам	_	_	_	_	_	_	_	_
 3	опроса	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	к	_	_	_	_	_	_	_	bratT10=Date-period
-6	2025	_	_	_	_	_	_	_	bratA4=T32:Future|bratT10=Date-period|bratT32=Date-absolute
-7	году	_	_	_	_	_	_	_	bratA4=T32:Future|bratT10=Date-period|bratT32=Date-absolute
+5	к	_	_	_	_	_	_	_	bratA3=T10:Pres-Fut|bratT10=Date-period-absolute
+6	2025	_	_	_	_	_	_	_	bratA3=T10:Pres-Fut|bratT10=Date-period-absolute
+7	году	_	_	_	_	_	_	_	bratA3=T10:Pres-Fut|bratT10=Date-period-absolute
 8	43	_	_	_	_	_	_	_	bratT11=Percent
 9	процента	_	_	_	_	_	_	_	bratT11=Percent
 10	работодателей	_	_	_	_	_	_	_	_
@@ -168,9 +168,9 @@
 5	трансформации	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	компаниях	_	_	_	_	_	_	_	_
-8	к	_	_	_	_	_	_	_	bratT14=Date-period
-9	2025	_	_	_	_	_	_	_	bratA5=T33:Future|bratT14=Date-period|bratT33=Date-absolute
-10	году	_	_	_	_	_	_	_	bratA5=T33:Future|bratT14=Date-period|bratT33=Date-absolute
+8	к	_	_	_	_	_	_	_	bratA4=T14:Pres-Fut|bratT14=Date-period-absolute
+9	2025	_	_	_	_	_	_	_	bratA4=T14:Pres-Fut|bratT14=Date-period-absolute
+10	году	_	_	_	_	_	_	_	bratA4=T14:Pres-Fut|bratT14=Date-period-absolute
 11	приведут	_	_	_	_	_	_	_	_
 12	к	_	_	_	_	_	_	_	_
 13	изменению	_	_	_	_	_	_	_	_
@@ -219,12 +219,12 @@
 6	том	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	после	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period
-10	снятия	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period
-11	введенных	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period|bratT38=Event
-12	из-за	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period|bratT38=Event
-13	коронавируса	_	_	_	_	_	_	_	bratA12=T29:Past|bratT16=Other-term|bratT29=Date-period|bratT38=Event
-14	ограничений	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period|bratT38=Event
+9	после	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute
+10	снятия	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute
+11	введенных	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute|bratT38=Event
+12	из-за	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute|bratT38=Event
+13	коронавируса	_	_	_	_	_	_	_	bratA12=T29:Past|bratT16=Other-term|bratT29=Date-period-absolute|bratT38=Event
+14	ограничений	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute|bratT38=Event
 15	россиянам	_	_	_	_	_	_	_	bratA2=T18:Citizenship|bratT18=Nationality
 16	не	_	_	_	_	_	_	_	_
 17	хватает	_	_	_	_	_	_	_	_
@@ -238,8 +238,8 @@
 2	данным	_	_	_	_	_	_	_	_
 3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
 4	,	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT20=Date-period
-6	июне	_	_	_	_	_	_	_	bratA7=T34:Past|bratT20=Date-period|bratT34=Date-absolute
+5	в	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-period-absolute
+6	июне	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-period-absolute
 7	на	_	_	_	_	_	_	_	_
 8	одну	_	_	_	_	_	_	_	bratT21=Quantity
 9	вакансию	_	_	_	_	_	_	_	bratT21=Quantity
@@ -256,13 +256,13 @@
 # text = При этом до введения режима самоизоляции, в марте, на каждого безработного приходилось два свободных рабочих места.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	до	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-period
-4	введения	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-period
-5	режима	_	_	_	_	_	_	_	bratA9=T30:Past|bratT25=Event|bratT30=Date-period
+3	до	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-period-absolute
+4	введения	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-period-absolute
+5	режима	_	_	_	_	_	_	_	bratA9=T30:Past|bratT25=Event|bratT30=Date-period-absolute
 6	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event
 7	,	_	_	_	_	_	_	_	_
-8	в	_	_	_	_	_	_	_	bratT24=Date-period
-9	марте	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T35:Past|bratT24=Date-period|bratT35=Date-absolute
+8	в	_	_	_	_	_	_	_	bratA7=T24:Past|bratT24=Date-period-absolute
+9	марте	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T24:Past|bratT24=Date-period-absolute
 10	,	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	каждого	_	_	_	_	_	_	_	_

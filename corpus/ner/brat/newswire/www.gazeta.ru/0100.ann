@@ -19,7 +19,7 @@ T19	GPE 1158 1170	Азербайджана
 T20	Person-property 1123 1170	главы   России   ,   Армении   и   Азербайджана
 A2	Plural T20
 T21	GPE 1237 1256	Нагорном   Карабахе
-T23	Date-period 1259 1274	с   10   ноября
+T23	Date-period-absolute 1259 1274	с   10   ноября
 T24	GPE 1283 1303	карабахский   регион
 T25	Person-property 1326 1349	российские   миротворцы
 T26	Date-absolute 1354 1365	16   ноября
@@ -27,5 +27,8 @@ T27	GPE 1372 1379	Карабах
 T28	Other-group 1406 1413	беженцы
 T29	Person-property 657 675	Российский   лидер
 T30	Organization 724 780	Организации   Договора   о   коллективной   безопасности
-T12	Date-relative 1115 1122	Ранее  
-T14	Date-period 1455 1469	после   начала
+T12	Date-relative 1115 1120	Ранее
+T22	Event 1472 1489	боевых   действий
+T14	Date-period-absolute 1455 1489	после   начала   боевых   действий
+A3	Past T14
+A4	Past T12

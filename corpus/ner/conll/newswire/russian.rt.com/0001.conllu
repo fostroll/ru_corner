@@ -5,18 +5,18 @@
 # text = Умерла актриса Малени Моралес
 1	Умерла	_	_	_	_	_	_	_	_
 2	актриса	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Person
-3	Малени	_	_	_	_	_	_	_	bratT2=Person
-4	Моралес	_	_	_	_	_	_	_	bratT2=Person
+3	Малени	_	_	_	_	_	_	_	bratT2=Person|bratT26=Person-forename
+4	Моралес	_	_	_	_	_	_	_	bratT2=Person|bratT27=Person-surname
 
 # newpar id = 0001-p2
 # par_text = Скончалась мексиканская актриса Малени Моралес.
 # sent_id = 0001-p2-s1
 # text = Скончалась мексиканская актриса Малени Моралес.
 1	Скончалась	_	_	_	_	_	_	_	_
-2	мексиканская	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person
+2	мексиканская	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person|bratT30=GPE
 3	актриса	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person
-4	Малени	_	_	_	_	_	_	_	bratT24=Person
-5	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person
+4	Малени	_	_	_	_	_	_	_	bratT24=Person|bratT28=Person-forename
+5	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT29=Person-surname
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p3
@@ -33,7 +33,7 @@
 8	на	_	_	_	_	_	_	_	_
 9	Национальную	_	_	_	_	_	_	_	bratT4=Organization
 10	ассоциацию	_	_	_	_	_	_	_	bratT4=Organization
-11	актёров	_	_	_	_	_	_	_	bratT4=Organization
+11	актёров	_	_	_	_	_	_	_	bratT31=Person-property|bratT4=Organization
 12	Мексики	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=GPE
 13	.	_	_	_	_	_	_	_	_
 
@@ -44,15 +44,15 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Национальная	_	_	_	_	_	_	_	bratT6=Organization
 3	ассоциация	_	_	_	_	_	_	_	bratT6=Organization
-4	актёров	_	_	_	_	_	_	_	bratT6=Organization
+4	актёров	_	_	_	_	_	_	_	bratT32=Person-property|bratT6=Organization
 5	глубоко	_	_	_	_	_	_	_	_
 6	сожалеет	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
 8	смерти	_	_	_	_	_	_	_	_
 9	нашей	_	_	_	_	_	_	_	_
 10	коллеги	_	_	_	_	_	_	_	_
-11	Малени	_	_	_	_	_	_	_	bratT7=Person
-12	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
+11	Малени	_	_	_	_	_	_	_	bratT33=Person-forename|bratT7=Person
+12	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-surname|bratT7=Person
 13	,	_	_	_	_	_	_	_	_
 14	члена	_	_	_	_	_	_	_	bratT8=Other-group
 15	нашего	_	_	_	_	_	_	_	bratT8=Other-group
@@ -79,7 +79,7 @@
 2	пишет	_	_	_	_	_	_	_	_
 3	агентство	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	Моралес	_	_	_	_	_	_	_	bratT10=Person
+5	Моралес	_	_	_	_	_	_	_	bratT10=Person|bratT35=Person-surname
 6	снималась	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	таких	_	_	_	_	_	_	_	_
@@ -107,7 +107,7 @@
 # par_text = Ранее сообщалось, что актриса, хореограф и танцовщица Мардж Чемпион, ставшая прообразом главной героини мультфильма «Белоснежка и семь гномов» 1937 года компании Walt Disney, скончалась в возрасте 101 года.
 # sent_id = 0001-p5-s1
 # text = Ранее сообщалось, что актриса, хореограф и танцовщица Мардж Чемпион, ставшая прообразом главной героини мультфильма ``Белоснежка и семь гномов'' 1937 года компании Walt Disney, скончалась в возрасте 101 года.
-1	Ранее	_	_	_	_	_	_	_	bratT25=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -116,8 +116,8 @@
 7	хореограф	_	_	_	_	_	_	_	bratT15=Person-property|bratT17=Person
 8	и	_	_	_	_	_	_	_	bratT17=Person
 9	танцовщица	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person
-10	Мардж	_	_	_	_	_	_	_	bratT17=Person
-11	Чемпион	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person
+10	Мардж	_	_	_	_	_	_	_	bratT17=Person|bratT36=Person-forename
+11	Чемпион	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT37=Person-surname
 12	,	_	_	_	_	_	_	_	_
 13	ставшая	_	_	_	_	_	_	_	_
 14	прообразом	_	_	_	_	_	_	_	_

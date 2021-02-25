@@ -13,7 +13,7 @@
 # par_text = Специалисты назвали таинственного убийцу, виновного в исчезновении акул-людоедов, которые обитали у берегов ЮАР. Их выводы изложены в отчете, подготовленном для Министерства окружающей среды, лесных и рыбных ресуров ЮАР, пишет издание Daily Mail.
 # sent_id = 0062-p2-s1
 # text = Специалисты назвали таинственного убийцу, виновного в исчезновении акул-людоедов, которые обитали у берегов ЮАР.
-1	Специалисты	_	_	_	_	_	_	_	_
+1	Специалисты	_	_	_	_	_	_	_	bratT23=Person-property
 2	назвали	_	_	_	_	_	_	_	_
 3	таинственного	_	_	_	_	_	_	_	_
 4	убийцу	_	_	_	_	_	_	_	SpaceAfter=No
@@ -60,11 +60,11 @@
 # par_text = С 2010 по 2016 год акул-людоедов видели в заливе Фолс-Бэй более 200 раз в год. В 2015-м в регионе впервые заметили пару косаток, получивших прозвища Порт и Старбоард (Левый и Правый). Спустя два года на пляже у южноафриканского города Хансбай нашли пять растерзанных акул-людоедов. У мертвых рыб отсутствовала печень, а повреждения свидетельствовали о том, что они стали жертвами косаток. Позднее были обнаружены еще две акулы, убитые тем же способом, причем одна из них погибла в этом году.
 # sent_id = 0062-p3-s1
 # text = С 2010 по 2016 год акул-людоедов видели в заливе Фолс-Бэй более 200 раз в год.
-1	С	_	_	_	_	_	_	_	bratT12=Date-period
-2	2010	_	_	_	_	_	_	_	bratA6=T40:Past|bratT12=Date-period|bratT40=Date-absolute
-3	по	_	_	_	_	_	_	_	bratT12=Date-period
-4	2016	_	_	_	_	_	_	_	bratA7=T41:Past|bratT12=Date-period|bratT41=Date-absolute
-5	год	_	_	_	_	_	_	_	bratA7=T41:Past|bratT12=Date-period|bratT41=Date-absolute
+1	С	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-period-absolute
+2	2010	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-period-absolute
+3	по	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-period-absolute
+4	2016	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-period-absolute
+5	год	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-period-absolute
 6	акул-людоедов	_	_	_	_	_	_	_	_
 7	видели	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -90,13 +90,13 @@
 9	,	_	_	_	_	_	_	_	_
 10	получивших	_	_	_	_	_	_	_	_
 11	прозвища	_	_	_	_	_	_	_	_
-12	Порт	_	_	_	_	_	_	_	bratA2=T30:Unconscious|bratT30=Person
+12	Порт	_	_	_	_	_	_	_	bratA2=T30:Unconscious|bratT30=Person|bratT40=Person-alias
 13	и	_	_	_	_	_	_	_	_
-14	Старбоард	_	_	_	_	_	_	_	bratA3=T31:Unconscious|bratT31=Person
+14	Старбоард	_	_	_	_	_	_	_	bratA3=T31:Unconscious|bratT31=Person|bratT41=Person-alias
 15	(	_	_	_	_	_	_	_	SpaceAfter=No
-16	Левый	_	_	_	_	_	_	_	bratA4=T32:Unconscious|bratT32=Person
+16	Левый	_	_	_	_	_	_	_	bratA4=T32:Unconscious|bratT32=Person|bratT45=Person-alias
 17	и	_	_	_	_	_	_	_	_
-18	Правый	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Unconscious|bratT33=Person
+18	Правый	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Unconscious|bratT33=Person|bratT48=Person-alias
 19	)	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
 
@@ -108,7 +108,7 @@
 4	на	_	_	_	_	_	_	_	_
 5	пляже	_	_	_	_	_	_	_	_
 6	у	_	_	_	_	_	_	_	_
-7	южноафриканского	_	_	_	_	_	_	_	bratT18=GPE
+7	южноафриканского	_	_	_	_	_	_	_	bratT18=GPE|bratT26=GPE
 8	города	_	_	_	_	_	_	_	bratT18=GPE
 9	Хансбай	_	_	_	_	_	_	_	bratT18=GPE
 10	нашли	_	_	_	_	_	_	_	_
@@ -140,7 +140,7 @@
 
 # sent_id = 0062-p3-s5
 # text = Позднее были обнаружены еще две акулы, убитые тем же способом, причем одна из них погибла в этом году.
-1	Позднее	_	_	_	_	_	_	_	bratT38=Time-relative
+1	Позднее	_	_	_	_	_	_	_	bratA6=T38:Past|bratT38=Date-relative
 2	были	_	_	_	_	_	_	_	_
 3	обнаружены	_	_	_	_	_	_	_	_
 4	еще	_	_	_	_	_	_	_	_
@@ -166,9 +166,9 @@
 # par_text = Вскоре после этого началось быстрое сокращение числа акул. В 2018 году в районе Фолс-Бэй этих рыб видели лишь 50 раз, то есть вчетверо реже, чем прежде. В 2019-м акулы-людоеды не появлялись ни разу, а в 2020 году их заметили только однажды. Это произошло в январе, а уже в феврале охота косаток на большую белую акулу попала на видео. Морской гид Донаван Смит (Donavan Smith) снял нападение в 400 километрах от Кейптауна.
 # sent_id = 0062-p4-s1
 # text = Вскоре после этого началось быстрое сокращение числа акул.
-1	Вскоре	_	_	_	_	_	_	_	bratT39=Time-relative
-2	после	_	_	_	_	_	_	_	bratT39=Time-relative
-3	этого	_	_	_	_	_	_	_	bratT39=Time-relative
+1	Вскоре	_	_	_	_	_	_	_	bratA7=T39:Past|bratT39=Date-relative
+2	после	_	_	_	_	_	_	_	bratA7=T39:Past|bratT39=Date-relative
+3	этого	_	_	_	_	_	_	_	bratA7=T39:Past|bratT39=Date-relative
 4	началось	_	_	_	_	_	_	_	_
 5	быстрое	_	_	_	_	_	_	_	_
 6	сокращение	_	_	_	_	_	_	_	_
@@ -178,9 +178,9 @@
 
 # sent_id = 0062-p4-s2
 # text = В 2018 году в районе Фолс-Бэй этих рыб видели лишь 50 раз, то есть вчетверо реже, чем прежде.
-1	В	_	_	_	_	_	_	_	bratT44=Date-period
-2	2018	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute|bratT44=Date-period
-3	году	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute|bratT44=Date-period
+1	В	_	_	_	_	_	_	_	bratA17=T44:Past|bratT44=Date-period-absolute
+2	2018	_	_	_	_	_	_	_	bratA17=T44:Past|bratT44=Date-period-absolute
+3	году	_	_	_	_	_	_	_	bratA17=T44:Past|bratT44=Date-period-absolute
 4	в	_	_	_	_	_	_	_	_
 5	районе	_	_	_	_	_	_	_	bratT24=Location
 6	Фолс-Бэй	_	_	_	_	_	_	_	bratT24=Location
@@ -202,8 +202,8 @@
 
 # sent_id = 0062-p4-s3
 # text = В 2019-м акулы-людоеды не появлялись ни разу, а в 2020 году их заметили только однажды.
-1	В	_	_	_	_	_	_	_	bratT43=Date-period
-2	2019-м	_	_	_	_	_	_	_	bratA10=T26:Past|bratT26=Date-absolute|bratT43=Date-period
+1	В	_	_	_	_	_	_	_	bratA9=T43:Past|bratT43=Date-period-absolute
+2	2019-м	_	_	_	_	_	_	_	bratA9=T43:Past|bratT43=Date-period-absolute
 3	акулы-людоеды	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_
 5	появлялись	_	_	_	_	_	_	_	_
@@ -211,9 +211,9 @@
 7	разу	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Quantity
 8	,	_	_	_	_	_	_	_	_
 9	а	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT27=Date-period
-11	2020	_	_	_	_	_	_	_	bratA11=T45:Past|bratT27=Date-period|bratT45=Date-absolute
-12	году	_	_	_	_	_	_	_	bratA11=T45:Past|bratT27=Date-period|bratT45=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-period-absolute
+11	2020	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-period-absolute
+12	году	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-period-absolute
 13	их	_	_	_	_	_	_	_	_
 14	заметили	_	_	_	_	_	_	_	_
 15	только	_	_	_	_	_	_	_	_
@@ -246,11 +246,11 @@
 # text = Морской гид Донаван Смит (Donavan Smith) снял нападение в 400 километрах от Кейптауна.
 1	Морской	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property
 2	гид	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property
-3	Донаван	_	_	_	_	_	_	_	bratT6=Person
-4	Смит	_	_	_	_	_	_	_	bratT6=Person
+3	Донаван	_	_	_	_	_	_	_	bratT49=Person-forename|bratT6=Person
+4	Смит	_	_	_	_	_	_	_	bratT50=Person-surname|bratT6=Person
 5	(	_	_	_	_	_	_	_	SpaceAfter=No
-6	Donavan	_	_	_	_	_	_	_	bratT7=Person
-7	Smith	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
+6	Donavan	_	_	_	_	_	_	_	bratT51=Person-forename|bratT7=Person
+7	Smith	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Person-surname|bratT7=Person
 8	)	_	_	_	_	_	_	_	_
 9	снял	_	_	_	_	_	_	_	_
 10	нападение	_	_	_	_	_	_	_	_

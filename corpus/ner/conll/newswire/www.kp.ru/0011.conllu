@@ -12,9 +12,9 @@
 7	матчах	_	_	_	_	_	_	_	bratT2=Event
 8	Российской	_	_	_	_	_	_	_	bratT2=Event|bratT3=Organization
 9	премьер-лиги	_	_	_	_	_	_	_	bratT2=Event|bratT3=Organization
-10	до	_	_	_	_	_	_	_	bratT4=Date-period
-11	конца	_	_	_	_	_	_	_	bratT4=Date-period
-12	года	_	_	_	_	_	_	_	bratT4=Date-period
+10	до	_	_	_	_	_	_	_	bratA7=T4:Pres-Fut|bratT4=Date-period-absolute
+11	конца	_	_	_	_	_	_	_	bratA7=T4:Pres-Fut|bratT4=Date-period-absolute
+12	года	_	_	_	_	_	_	_	bratA7=T4:Pres-Fut|bratT4=Date-period-absolute
 
 # newpar id = 0011-p2
 # par_text = Власти Москвы установили квоту посещаемости в 25 процентов от вместимости стадионов на матчах Тинькофф - Российской премьер-лиги (РПЛ). Такое ограничение будет действовать до конца текущего года. Об этом сообщает пресс-служба лиги.
@@ -48,10 +48,10 @@
 2	ограничение	_	_	_	_	_	_	_	_
 3	будет	_	_	_	_	_	_	_	_
 4	действовать	_	_	_	_	_	_	_	_
-5	до	_	_	_	_	_	_	_	bratT10=Date-period
-6	конца	_	_	_	_	_	_	_	bratT10=Date-period
-7	текущего	_	_	_	_	_	_	_	bratT10=Date-period
-8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-period
+5	до	_	_	_	_	_	_	_	bratA4=T10:Pres-Fut|bratT10=Date-period-absolute
+6	конца	_	_	_	_	_	_	_	bratA4=T10:Pres-Fut|bratT10=Date-period-absolute
+7	текущего	_	_	_	_	_	_	_	bratA4=T10:Pres-Fut|bratT10=Date-period-absolute|bratT17=Ordinal
+8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Pres-Fut|bratT10=Date-period-absolute
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p2-s3
@@ -107,7 +107,7 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	уже	_	_	_	_	_	_	_	_
-4	ранее	_	_	_	_	_	_	_	bratT19=Date-relative
+4	ранее	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-relative
 5	проведение	_	_	_	_	_	_	_	_
 6	массовых	_	_	_	_	_	_	_	_
 7	спортивных	_	_	_	_	_	_	_	_
@@ -133,16 +133,16 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	с	_	_	_	_	_	_	_	bratT15=Date-period
-5	13	_	_	_	_	_	_	_	bratT15=Date-period
-6	ноября	_	_	_	_	_	_	_	bratT15=Date-period
-7	2020	_	_	_	_	_	_	_	bratT15=Date-period
-8	года	_	_	_	_	_	_	_	bratT15=Date-period
-9	до	_	_	_	_	_	_	_	bratT15=Date-period
-10	15	_	_	_	_	_	_	_	bratT15=Date-period
-11	января	_	_	_	_	_	_	_	bratT15=Date-period
-12	2021	_	_	_	_	_	_	_	bratT15=Date-period
-13	года	_	_	_	_	_	_	_	bratT15=Date-period
+4	с	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+5	13	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+6	ноября	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+7	2020	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+8	года	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+9	до	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+10	15	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+11	января	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+12	2021	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
+13	года	_	_	_	_	_	_	_	bratA5=T15:UNK-Fut|bratT15=Date-period-absolute
 14	число	_	_	_	_	_	_	_	_
 15	зрителей	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
@@ -178,10 +178,10 @@
 46	в	_	_	_	_	_	_	_	bratT18=Time-period
 47	ночное	_	_	_	_	_	_	_	bratT18=Time-period
 48	время	_	_	_	_	_	_	_	bratT18=Time-period
-49	-	_	_	_	_	_	_	_	_
-50	с	_	_	_	_	_	_	_	bratT17=Time-period
-51	23.00	_	_	_	_	_	_	_	bratT17=Time-period
-52	до	_	_	_	_	_	_	_	bratT17=Time-period
-53	6.00	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Time-period
+49	-	_	_	_	_	_	_	_	bratT18=Time-period
+50	с	_	_	_	_	_	_	_	bratT18=Time-period
+51	23.00	_	_	_	_	_	_	_	bratT18=Time-period
+52	до	_	_	_	_	_	_	_	bratT18=Time-period
+53	6.00	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Time-period
 54	.	_	_	_	_	_	_	_	_
 

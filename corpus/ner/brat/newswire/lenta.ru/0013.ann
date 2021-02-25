@@ -15,23 +15,21 @@ T16	Quantity 782 807	8,3   квадратного   метра
 T17	Quantity 842 856	девятиметровый
 T18	Facility 887 923	станции   метро   ``   Царицыно   ''
 T12	GPE 968 974	Москве
-T19	Date-period 977 998	в   октябре   2020-го
+T19	Date-period-absolute 977 998	в   октябре   2020-го
 T20	Percent 1009 1028	на   14   процентов
-T21	Date-period 1052 1064	сентябрьским
+T21	Date-period-absolute 1052 1064	сентябрьским
 T22	Percent 1189 1215	почти   на   8   процентов
-T23	Date-period 1114 1131	С   начала   года
+T23	Date-period-absolute 1114 1131	С   начала   года
 T11	GPE 587 633	Новомосковском   и   Южном   округах   столицы
 A1	Plural T11
 A2	Media T10
 T24	GPE 626 633	столицы
 T25	Person-property 1284 1292	эксперты
 T26	Ordinal 1391 1397	Второй
-T27	Date-absolute 981 998	октябре   2020-го
-T28	Date-absolute 1118 1131	начала   года
 A3	Present T3
-A4	Past T27
-A5	Past T28
-T29	Date-absolute 1052 1064	сентябрьским
-A6	Past T29
 T30	GPE 587 601	Новомосковском
 T31	GPE 608 613	Южном
+A4	Past T19
+A6	Past T21
+A7	Past-Pres T23
+T27	Person-property 1098 1109	специалисты

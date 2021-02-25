@@ -19,9 +19,9 @@
 # text = Правительство предложило в следующем году повысить на 5,7 % зарплаты работникам прокуратуры и Следственного комитета.
 1	Правительство	_	_	_	_	_	_	_	bratT4=Organization
 2	предложило	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT19=Date-period
-4	следующем	_	_	_	_	_	_	_	bratT19=Date-period|bratT22=Ordinal
-5	году	_	_	_	_	_	_	_	bratT19=Date-period
+3	в	_	_	_	_	_	_	_	bratA3=T19:Future|bratT19=Date-absolute
+4	следующем	_	_	_	_	_	_	_	bratA3=T19:Future|bratT19=Date-absolute|bratT22=Ordinal
+5	году	_	_	_	_	_	_	_	bratA3=T19:Future|bratT19=Date-absolute
 6	повысить	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	bratT5=Percent
 8	5,7	_	_	_	_	_	_	_	bratT5=Percent
@@ -52,10 +52,10 @@
 14	чтению	_	_	_	_	_	_	_	_
 15	проекта	_	_	_	_	_	_	_	_
 16	бюджета	_	_	_	_	_	_	_	_
-17	на	_	_	_	_	_	_	_	bratT10=Date-period
-18	ближайшие	_	_	_	_	_	_	_	bratT10=Date-period
-19	три	_	_	_	_	_	_	_	bratT10=Date-period
-20	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-period
+17	на	_	_	_	_	_	_	_	bratA5=T10:Fut|bratT10=Date-period-absolute
+18	ближайшие	_	_	_	_	_	_	_	bratA5=T10:Fut|bratT10=Date-period-absolute|bratT24=Ordinal
+19	три	_	_	_	_	_	_	_	bratA5=T10:Fut|bratT10=Date-period-absolute|bratT25=Duration
+20	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Fut|bratT10=Date-period-absolute|bratT25=Duration
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0111-p3
@@ -81,9 +81,9 @@
 17	уровне	_	_	_	_	_	_	_	_
 18	3,8	_	_	_	_	_	_	_	bratT12=Percent
 19	%	_	_	_	_	_	_	_	bratT12=Percent
-20	в	_	_	_	_	_	_	_	bratT13=Date-absolute
-21	2021	_	_	_	_	_	_	_	bratT13=Date-absolute
-22	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Date-absolute
+20	в	_	_	_	_	_	_	_	bratA4=T13:Fut|bratT13=Date-period-absolute
+21	2021	_	_	_	_	_	_	_	bratA4=T13:Fut|bratT13=Date-period-absolute
+22	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Fut|bratT13=Date-period-absolute
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0111-p4
@@ -98,9 +98,9 @@
 6	госслужащих	_	_	_	_	_	_	_	bratT14=Person-property
 7	других	_	_	_	_	_	_	_	_
 8	ведомств	_	_	_	_	_	_	_	_
-9	в	_	_	_	_	_	_	_	bratT15=Date-period
-10	предстоящем	_	_	_	_	_	_	_	bratT15=Date-period
-11	году	_	_	_	_	_	_	_	bratT15=Date-period
+9	в	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
+10	предстоящем	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
+11	году	_	_	_	_	_	_	_	bratA6=T15:Future|bratT15=Date-absolute
 12	планируется	_	_	_	_	_	_	_	_
 13	сэкономить	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
@@ -109,7 +109,7 @@
 # par_text = Ранее сообщалось, что зарплаты менеджеров Роскосмоса сократили на 15–20%.
 # sent_id = 0111-p5-s1
 # text = Ранее сообщалось, что зарплаты менеджеров Роскосмоса сократили на 15 - 20 %.
-1	Ранее	_	_	_	_	_	_	_	bratT23=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

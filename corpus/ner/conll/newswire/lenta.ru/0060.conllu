@@ -17,8 +17,8 @@
 # sent_id = 0060-p2-s1
 # text = Солдату-срочнику Антону Макарову, убившему троих военнослужащих на военном аэродроме в Воронеже, отказывались выдавать оружие во время службы.
 1	Солдату-срочнику	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-2	Антону	_	_	_	_	_	_	_	bratT4=Person
-3	Макарову	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person
+2	Антону	_	_	_	_	_	_	_	bratT4=Person|bratT43=Person-forename
+3	Макарову	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person|bratT44=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	убившему	_	_	_	_	_	_	_	_
 6	троих	_	_	_	_	_	_	_	bratT5=Quantity
@@ -32,9 +32,9 @@
 14	отказывались	_	_	_	_	_	_	_	_
 15	выдавать	_	_	_	_	_	_	_	_
 16	оружие	_	_	_	_	_	_	_	_
-17	во	_	_	_	_	_	_	_	bratA3=T32:Past|bratT32=Date-period
-18	время	_	_	_	_	_	_	_	bratA3=T32:Past|bratT32=Date-period
-19	службы	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T32:Past|bratT32=Date-period|bratT41=Event
+17	во	_	_	_	_	_	_	_	bratA3=T32:Past|bratT32=Date-period-absolute
+18	время	_	_	_	_	_	_	_	bratA3=T32:Past|bratT32=Date-period-absolute
+19	службы	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T32:Past|bratT32=Date-period-absolute|bratT41=Event
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0060-p2-s2
@@ -58,7 +58,7 @@
 7	то	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
-10	Макаров	_	_	_	_	_	_	_	bratT10=Person
+10	Макаров	_	_	_	_	_	_	_	bratT10=Person|bratT45=Person-surname
 11	провалил	_	_	_	_	_	_	_	_
 12	психологические	_	_	_	_	_	_	_	_
 13	тесты	_	_	_	_	_	_	_	SpaceAfter=No
@@ -113,8 +113,8 @@
 2	9	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
 3	ноября	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
 4	20-летний	_	_	_	_	_	_	_	bratT13=Age
-5	Антон	_	_	_	_	_	_	_	bratT14=Person
-6	Макаров	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+5	Антон	_	_	_	_	_	_	_	bratT14=Person|bratT46=Person-forename
+6	Макаров	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT47=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	находясь	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -132,21 +132,21 @@
 21	впал	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	_
 23	ярость	_	_	_	_	_	_	_	_
-24	после	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-relative
-25	замечания	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-relative
+24	после	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-absolute
+25	замечания	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-absolute
 26	дежурного	_	_	_	_	_	_	_	bratT17=Person-property
 27	по	_	_	_	_	_	_	_	bratT17=Person-property
 28	полку	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
 29	,	_	_	_	_	_	_	_	_
 30	38-летнего	_	_	_	_	_	_	_	bratT18=Age
 31	майора	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Person
-32	Сергея	_	_	_	_	_	_	_	bratT20=Person
-33	Ермолаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person
+32	Сергея	_	_	_	_	_	_	_	bratT20=Person|bratT48=Person-forename
+33	Ермолаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person|bratT49=Person-surname
 34	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0060-p5-s2
 # text = Макаров снял с пожарного щита топор, подкараулил офицера и ударил по голове, а затем забрал у него табельный пистолет с патронами и начал стрелять.
-1	Макаров	_	_	_	_	_	_	_	bratT21=Person
+1	Макаров	_	_	_	_	_	_	_	bratT21=Person|bratT50=Person-surname
 2	снял	_	_	_	_	_	_	_	_
 3	с	_	_	_	_	_	_	_	_
 4	пожарного	_	_	_	_	_	_	_	_
@@ -161,7 +161,7 @@
 13	голове	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	а	_	_	_	_	_	_	_	_
-16	затем	_	_	_	_	_	_	_	bratT36=Time-relative
+16	затем	_	_	_	_	_	_	_	bratA6=T36:Past|bratT36=Date-relative
 17	забрал	_	_	_	_	_	_	_	_
 18	у	_	_	_	_	_	_	_	_
 19	него	_	_	_	_	_	_	_	_
@@ -191,9 +191,9 @@
 
 # sent_id = 0060-p6-s2
 # text = После бойни Макаров сбежал с пистолетом и планировал скрыться в Орловской области у бабушки и дедушки, которые воспитывали его после развода родителей.
-1	После	_	_	_	_	_	_	_	bratA5=T37:Past|bratT37=Date-relative
-2	бойни	_	_	_	_	_	_	_	bratA5=T37:Past|bratT37=Date-relative|bratT42=Event
-3	Макаров	_	_	_	_	_	_	_	bratT25=Person
+1	После	_	_	_	_	_	_	_	bratA5=T37:Past|bratT37=Date-absolute
+2	бойни	_	_	_	_	_	_	_	bratA5=T37:Past|bratT37=Date-absolute|bratT42=Event
+3	Макаров	_	_	_	_	_	_	_	bratT25=Person|bratT51=Person-surname
 4	сбежал	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	пистолетом	_	_	_	_	_	_	_	_
@@ -211,8 +211,8 @@
 18	которые	_	_	_	_	_	_	_	_
 19	воспитывали	_	_	_	_	_	_	_	_
 20	его	_	_	_	_	_	_	_	_
-21	после	_	_	_	_	_	_	_	bratA2=T38:Past|bratT38=Date-period
-22	развода	_	_	_	_	_	_	_	bratA2=T38:Past|bratT38=Date-period|bratT40=Event
+21	после	_	_	_	_	_	_	_	bratA2=T38:Past|bratT38=Date-period-absolute
+22	развода	_	_	_	_	_	_	_	bratA2=T38:Past|bratT38=Date-period-absolute|bratT40=Event
 23	родителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Family|bratT40=Event
 24	.	_	_	_	_	_	_	_	_
 
@@ -232,6 +232,6 @@
 2	ходатайствует	_	_	_	_	_	_	_	_
 3	об	_	_	_	_	_	_	_	_
 4	аресте	_	_	_	_	_	_	_	_
-5	Макарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person
+5	Макарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person|bratT52=Person-surname
 6	.	_	_	_	_	_	_	_	_
 

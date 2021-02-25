@@ -8,9 +8,9 @@
 3	ограничения	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
 5	коронавирусу	_	_	_	_	_	_	_	bratT2=Other-term
-6	до	_	_	_	_	_	_	_	bratT3=Date-period
-7	конца	_	_	_	_	_	_	_	bratT3=Date-period
-8	года	_	_	_	_	_	_	_	bratT3=Date-period
+6	до	_	_	_	_	_	_	_	bratA2=T3:LCont|bratA3=T3:UNK-Fut|bratT3=Date-period-absolute
+7	конца	_	_	_	_	_	_	_	bratA2=T3:LCont|bratA3=T3:UNK-Fut|bratT3=Date-period-absolute
+8	года	_	_	_	_	_	_	_	bratA2=T3:LCont|bratA3=T3:UNK-Fut|bratT3=Date-period-absolute
 
 # newpar id = 0009-p2
 # par_text = Германия продлила ограничения по коронавирусу до конца года, объявила канцлер страны Ангела Меркель по итогам переговоров с главами земель. Об этом пишет РИА «Новости».
@@ -21,9 +21,9 @@
 3	ограничения	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
 5	коронавирусу	_	_	_	_	_	_	_	bratT5=Other-term
-6	до	_	_	_	_	_	_	_	bratT6=Date-period
-7	конца	_	_	_	_	_	_	_	bratT6=Date-period
-8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Date-period
+6	до	_	_	_	_	_	_	_	bratA4=T6:LCont|bratA5=T6:UNK-Fut|bratT6=Date-period-absolute
+7	конца	_	_	_	_	_	_	_	bratA4=T6:LCont|bratA5=T6:UNK-Fut|bratT6=Date-period-absolute
+8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T6:LCont|bratA5=T6:UNK-Fut|bratT6=Date-period-absolute
 9	,	_	_	_	_	_	_	_	_
 10	объявила	_	_	_	_	_	_	_	_
 11	канцлер	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property
@@ -57,8 +57,8 @@
 2	Меры	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	принятые	_	_	_	_	_	_	_	_
-5	28	_	_	_	_	_	_	_	bratT11=Date-absolute
-6	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
+5	28	_	_	_	_	_	_	_	bratA6=T11:Past|bratT11=Date-absolute
+6	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T11:Past|bratT11=Date-absolute
 7	,	_	_	_	_	_	_	_	_
 8	продолжают	_	_	_	_	_	_	_	_
 9	действовать	_	_	_	_	_	_	_	SpaceAfter=No
@@ -67,9 +67,9 @@
 # sent_id = 0009-p3-s2
 # text = Пока до 20 декабря'', - сказала Меркель.
 1	Пока	_	_	_	_	_	_	_	_
-2	до	_	_	_	_	_	_	_	bratT12=Date-period
-3	20	_	_	_	_	_	_	_	bratT12=Date-period
-4	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-period
+2	до	_	_	_	_	_	_	_	bratA7=T12:Pres-Fut|bratT12=Date-period-absolute
+3	20	_	_	_	_	_	_	_	bratA7=T12:Pres-Fut|bratT12=Date-period-absolute
+4	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Pres-Fut|bratT12=Date-period-absolute
 5	''	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
@@ -85,8 +85,8 @@
 2	ввела	_	_	_	_	_	_	_	_
 3	частичный	_	_	_	_	_	_	_	bratT21=Event
 4	карантин	_	_	_	_	_	_	_	bratT21=Event
-5	2	_	_	_	_	_	_	_	bratT15=Date-absolute
-6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-absolute
+5	2	_	_	_	_	_	_	_	bratA8=T15:Past|bratT15=Date-absolute
+6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Past|bratT15=Date-absolute
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0009-p4-s2

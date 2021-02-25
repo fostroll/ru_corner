@@ -33,8 +33,8 @@
 # sent_id = 0115-p3-s1
 # text = ``Какое-то время мы встречались.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Какое-то	_	_	_	_	_	_	_	bratT19=Date-duration
-3	время	_	_	_	_	_	_	_	bratT19=Date-duration
+2	Какое-то	_	_	_	_	_	_	_	bratA2=T22:Past|bratT19=Duration|bratT22=Date-period-relative
+3	время	_	_	_	_	_	_	_	bratA2=T22:Past|bratT19=Duration|bratT22=Date-period-relative
 4	мы	_	_	_	_	_	_	_	_
 5	встречались	_	_	_	_	_	_	_	SpaceAfter=No
 6	.	_	_	_	_	_	_	_	_
@@ -94,13 +94,13 @@
 4	является	_	_	_	_	_	_	_	_
 5	чемпионом	_	_	_	_	_	_	_	bratT14=Person-property
 6	мира	_	_	_	_	_	_	_	bratT14=Person-property|bratT21=GPE
-7	2002	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Date-absolute
-8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property|bratT15=Date-absolute
+7	2002	_	_	_	_	_	_	_	bratA3=T15:Past|bratT14=Person-property|bratT15=Date-absolute
+8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T15:Past|bratT14=Person-property|bratT15=Date-absolute
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0115-p4-s2
 # text = Ранее Авербуху не понравилось судейство Елены Исинбаевой на ``Ледниковом периоде''.
-1	Ранее	_	_	_	_	_	_	_	bratT20=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA4=T20:Past|bratT20=Date-relative
 2	Авербуху	_	_	_	_	_	_	_	bratT16=Person
 3	не	_	_	_	_	_	_	_	_
 4	понравилось	_	_	_	_	_	_	_	_

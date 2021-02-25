@@ -9,7 +9,7 @@ T8	Organization 163 180	сборная   Испании
 T9	GPE 228 236	Германии
 T10	Organization 203 236	национальную   команду   Германии
 T11	GPE 265 272	Севилье
-T12	Cardinal 307 310	6:0
+T12	Quantity 307 310	6:0
 T13	GPE 366 374	Германии
 T14	Organization 356 374	сборной   Германии
 T15	Person-property 331 374	генеральный   менеджер   сборной   Германии
@@ -17,7 +17,7 @@ T16	Person-property 416 434	главного   тренера
 T17	Person 416 451	главного   тренера   Йоахима   Лева
 T18	Service 469 490	Twitter   DW   Sports
 T19	Person 552 566	Йоахиму   Леву
-T20	Date-period 720 735	с   1931   года
+T20	Date-period-absolute 720 735	с   1931   года
 T21	GPE 647 654	Испании
 T22	Organization 637 654	сборной   Испании
 T23	GPE 696 704	Германии
@@ -28,5 +28,11 @@ T27	Event 103 160	шестого   тура   группового   этапа 
 T28	Event 120 160	группового   этапа   Лиги   наций   УЕФА
 T29	Organization 156 160	УЕФА
 A1	Media T18
-T30	Date-relative 741 748	Ранее  
-T31	Date-period 316 328	После   игры
+T30	Date-relative 741 746	Ранее
+T31	Date-absolute 316 328	После   игры
+A2	Past T31
+A3	Past T20
+T32	Event 95 160	матче   шестого   тура   группового   этапа   Лиги   наций   УЕФА
+T33	Date-absolute 91 100	В   матче
+A4	Past T33
+A5	Past T30

@@ -14,7 +14,7 @@ T14	Location 545 550	Уралу
 T16	Person 573 577	Ягги
 T17	Person 662 667	Кедри
 T18	Event 762 778	Универсиада-2023
-T19	Date-period 791 816	с   8   по   19   августа
+T19	Date-period-absolute 791 816	с   8   по   19   августа
 T20	GPE 821 833	Екатеринбург
 T21	Person 906 913	Матыцин
 T22	Person-property 945 962	министра   спорта
@@ -29,9 +29,12 @@ A5	Fiction T16
 A6	Fiction T13
 T28	Date-absolute 175 186	2023   года
 T15	Ordinal 282 288	Первом
-T29	Date-absolute 795 796	8
-T30	Date-absolute 804 816	19   августа
-A2	Future T29
-A3	Future T30
 A7	Past T23
 T26	Ordinal 979 984	этого
+A8	Fut T19
+T29	Person-forename 340 344	Олег
+T30	Person-surname 347 354	Матыцин
+T31	Person-alias 420 425	Хитти
+T32	Person-alias 573 577	Ягги
+T33	Person-alias 662 667	Кедри
+T34	Person-surname 906 913	Матыцин

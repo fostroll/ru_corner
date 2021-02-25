@@ -2,11 +2,11 @@ T1	Nationality 0 8	Китайцев
 A1	Citizenship T1
 T2	GPE 43 48	Китае
 T3	Organization 280 293	China   Daily
-T4	Person 650 725	Юань   Синь   ,   вице-президент   Китайской   ассоциации   народонаселения
+T4	Person 650 661	Юань   Синь
 T5	Person-property 668 725	вице-президент   Китайской   ассоциации   народонаселения
 T6	Organization 685 725	Китайской   ассоциации   народонаселения
 T7	Ordinal 331 338	второго
-T8	Date-period 767 794	в   последние   десятилетия
+T8	Date-period-absolute 767 794	в   последние   десятилетия
 T10	Person 1300 1304	Синя
 T12	Other-term 822 832	демографии
 T9	Quantity 1194 1211	до   трех   детей
@@ -22,5 +22,10 @@ T19	Family 1178 1183	парам
 T20	Family 1206 1211	детей
 T21	Duration 783 794	десятилетия
 A4	Present T18
-T22	Date-absolute 771 794	последние   десятилетия
-A5	Past T22
+A3	Past-Pres T8
+T22	GPE 685 694	Китайской
+T23	GPE 1166 1175	китайским
+T24	Person-forename 650 654	Юань
+T25	Person-surname 657 661	Синь
+T26	Person-surname 1300 1304	Синя
+T27	Ordinal 1007 1016	настоящее

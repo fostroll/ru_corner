@@ -26,20 +26,20 @@
 9	инфекцию	_	_	_	_	_	_	_	bratT8=Other-term
 10	или	_	_	_	_	_	_	_	_
 11	болеют	_	_	_	_	_	_	_	_
-12	в	_	_	_	_	_	_	_	bratT27=Date-relative
-13	настоящее	_	_	_	_	_	_	_	bratT27=Date-relative
-14	время	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Date-relative
+12	в	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-absolute
+13	настоящее	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-absolute|bratT39=Ordinal
+14	время	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T27:Past|bratT27=Date-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0007-p2-s2
 # text = Об этом во вторник, 10 ноября, рассказала спикер нижней палаты Вячеслав Володин в ходе пленарного заседания.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	во	_	_	_	_	_	_	_	bratT9=Date-absolute
-4	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT9=Date-absolute
-6	10	_	_	_	_	_	_	_	bratT9=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-absolute
+3	во	_	_	_	_	_	_	_	bratA8=T9:Past|bratT9=Date-absolute
+4	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T9:Past|bratT9=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA8=T9:Past|bratT9=Date-absolute
+6	10	_	_	_	_	_	_	_	bratA8=T9:Past|bratT9=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T9:Past|bratT9=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	рассказала	_	_	_	_	_	_	_	_
 10	спикер	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property
@@ -47,10 +47,10 @@
 12	палаты	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT36=Organization
 13	Вячеслав	_	_	_	_	_	_	_	bratT10=Person
 14	Володин	_	_	_	_	_	_	_	bratT10=Person
-15	в	_	_	_	_	_	_	_	bratT32=Date-period
-16	ходе	_	_	_	_	_	_	_	bratT32=Date-period
-17	пленарного	_	_	_	_	_	_	_	bratT32=Date-period|bratT33=Event
-18	заседания	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Date-period|bratT33=Event
+15	в	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute
+16	ходе	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute
+17	пленарного	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute|bratT33=Event
+18	заседания	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T32:Past|bratT32=Date-absolute|bratT33=Event
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0007-p3
@@ -66,7 +66,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	кто	_	_	_	_	_	_	_	_
 9	более	_	_	_	_	_	_	_	_
-10	сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Date-relative
+10	сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Present|bratT28=Date-absolute
 11	,	_	_	_	_	_	_	_	_
 12	то	_	_	_	_	_	_	_	_
 13	получается	_	_	_	_	_	_	_	_
@@ -78,7 +78,7 @@
 19	те	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	кто	_	_	_	_	_	_	_	_
-22	сегодня	_	_	_	_	_	_	_	bratT34=Date-relative
+22	сегодня	_	_	_	_	_	_	_	bratA5=T34:Present|bratT34=Date-absolute
 23	уже	_	_	_	_	_	_	_	_
 24	переболели	_	_	_	_	_	_	_	SpaceAfter=No
 25	,	_	_	_	_	_	_	_	_
@@ -86,7 +86,7 @@
 27	те	_	_	_	_	_	_	_	SpaceAfter=No
 28	,	_	_	_	_	_	_	_	_
 29	кто	_	_	_	_	_	_	_	_
-30	сейчас	_	_	_	_	_	_	_	bratT35=Date-relative
+30	сейчас	_	_	_	_	_	_	_	bratA6=T35:Present|bratT35=Date-absolute
 31	заражен	_	_	_	_	_	_	_	SpaceAfter=No
 32	.	_	_	_	_	_	_	_	_
 
@@ -94,9 +94,9 @@
 # text = Пик был на прошлой неделе - тогда болело 42 депутата.
 1	Пик	_	_	_	_	_	_	_	_
 2	был	_	_	_	_	_	_	_	_
-3	на	_	_	_	_	_	_	_	bratT25=Date-relative
-4	прошлой	_	_	_	_	_	_	_	bratT25=Date-relative
-5	неделе	_	_	_	_	_	_	_	bratT25=Date-relative
+3	на	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute
+4	прошлой	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute|bratT40=Ordinal
+5	неделе	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute
 6	-	_	_	_	_	_	_	_	_
 7	тогда	_	_	_	_	_	_	_	_
 8	болело	_	_	_	_	_	_	_	_
@@ -106,7 +106,7 @@
 
 # sent_id = 0007-p3-s3
 # text = Сегодня на больничных койках находятся 38 человек, - сообщил Вячеслав Володин.
-1	Сегодня	_	_	_	_	_	_	_	bratT29=Date-relative
+1	Сегодня	_	_	_	_	_	_	_	bratA10=T29:Present|bratT29=Date-absolute
 2	на	_	_	_	_	_	_	_	_
 3	больничных	_	_	_	_	_	_	_	_
 4	койках	_	_	_	_	_	_	_	_
@@ -140,9 +140,9 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	за	_	_	_	_	_	_	_	bratT18=Time-period
-5	минувшие	_	_	_	_	_	_	_	bratT18=Time-period
-6	сутки	_	_	_	_	_	_	_	bratT18=Time-period
+4	за	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-period-absolute
+5	минувшие	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-period-absolute|bratT38=Ordinal
+6	сутки	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-period-absolute|bratT37=Duration
 7	российские	_	_	_	_	_	_	_	_
 8	врачи	_	_	_	_	_	_	_	bratT19=Person-property
 9	выявили	_	_	_	_	_	_	_	_
@@ -161,9 +161,9 @@
 # sent_id = 0007-p4-s2
 # text = Всего с начала эпидемии коронавирусом заразились более 1,8 миллиона россиян.
 1	Всего	_	_	_	_	_	_	_	_
-2	с	_	_	_	_	_	_	_	bratT30=Date-period
-3	начала	_	_	_	_	_	_	_	bratT30=Date-period
-4	эпидемии	_	_	_	_	_	_	_	bratT30=Date-period|bratT31=Event
+2	с	_	_	_	_	_	_	_	bratA11=T30:Past-Pres|bratT30=Date-period-absolute
+3	начала	_	_	_	_	_	_	_	bratA11=T30:Past-Pres|bratT30=Date-period-absolute
+4	эпидемии	_	_	_	_	_	_	_	bratA11=T30:Past-Pres|bratT30=Date-period-absolute|bratT31=Event
 5	коронавирусом	_	_	_	_	_	_	_	bratT21=Other-term
 6	заразились	_	_	_	_	_	_	_	_
 7	более	_	_	_	_	_	_	_	bratT22=Quantity

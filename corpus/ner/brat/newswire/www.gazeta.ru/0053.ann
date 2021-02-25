@@ -1,9 +1,9 @@
 T1	GPE 4 10	Москве
-T2	Time-duration 13 23	за   сутки
+T2	Date-period-absolute 13 23	за   сутки
 T3	Quantity 39 59	еще   75   пациентов
 T4	Other-term 66 79	коронавирусом
 T5	GPE 85 91	Москве
-T6	Time-duration 94 104	за   сутки
+T6	Date-period-absolute 94 104	за   сутки
 T7	Quantity 120 140	еще   75   пациентов
 T8	Other-term 147 160	коронавирусом
 T9	Organization 175 198	РИА   ``   Новости   ''
@@ -18,4 +18,10 @@ T16	Quantity 586 595	400   332
 T17	Quantity 611 629	8   233   человека
 T18	Other-term 331 340	пневмония
 T19	Organization 221 229	оперштаб
-T20	Date-relative 471 483	Днем   ранее
+T20	Date-absolute 471 483	Днем   ранее
+T21	Duration 18 23	сутки
+T24	Duration 99 104	сутки
+A4	Past-Pres T2
+A5	Past-Pres T6
+T22	Duration 471 475	Днем
+A2	Past T20

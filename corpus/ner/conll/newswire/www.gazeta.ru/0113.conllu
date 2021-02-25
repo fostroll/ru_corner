@@ -22,10 +22,10 @@
 4	водителей	_	_	_	_	_	_	_	bratT3=Person-property
 5	надевают	_	_	_	_	_	_	_	_
 6	маску	_	_	_	_	_	_	_	_
-7	после	_	_	_	_	_	_	_	bratT22=Date-period
-8	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-period
-9	,	_	_	_	_	_	_	_	bratT22=Date-period
-10	как	_	_	_	_	_	_	_	bratT22=Date-period
+7	после	_	_	_	_	_	_	_	bratT22=Time-relative
+8	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Time-relative
+9	,	_	_	_	_	_	_	_	bratT22=Time-relative
+10	как	_	_	_	_	_	_	_	bratT22=Time-relative
 11	выходят	_	_	_	_	_	_	_	_
 12	из	_	_	_	_	_	_	_	_
 13	машины	_	_	_	_	_	_	_	SpaceAfter=No
@@ -166,9 +166,9 @@
 # par_text = Во время поездок в такси 55% опрошенных используют базовые средства защиты. Однако большинство из них (42%) ограничиваются только маской.
 # sent_id = 0113-p6-s1
 # text = Во время поездок в такси 55 % опрошенных используют базовые средства защиты.
-1	Во	_	_	_	_	_	_	_	bratT21=Date-period
-2	время	_	_	_	_	_	_	_	bratT21=Date-period
-3	поездок	_	_	_	_	_	_	_	bratT21=Date-period
+1	Во	_	_	_	_	_	_	_	bratT21=Time-relative
+2	время	_	_	_	_	_	_	_	bratT21=Time-relative
+3	поездок	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	такси	_	_	_	_	_	_	_	_
 6	55	_	_	_	_	_	_	_	bratT17=Percent

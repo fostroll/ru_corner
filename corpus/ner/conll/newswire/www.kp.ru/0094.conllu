@@ -32,8 +32,8 @@
 13	Карабахе	_	_	_	_	_	_	_	bratT8=GPE
 14	не	_	_	_	_	_	_	_	_
 15	ограничится	_	_	_	_	_	_	_	_
-16	пятилетним	_	_	_	_	_	_	_	bratT9=Date-duration
-17	сроком	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Date-duration
+16	пятилетним	_	_	_	_	_	_	_	bratA6=T46:Past-Fut|bratT46=Date-period-relative|bratT9=Duration
+17	сроком	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T46:Past-Fut|bratT46=Date-period-relative|bratT9=Duration
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0094-p2-s2
@@ -45,11 +45,11 @@
 5	в	_	_	_	_	_	_	_	_
 6	интервью	_	_	_	_	_	_	_	_
 7	ТАСС	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
-8	в	_	_	_	_	_	_	_	bratT12=Date-absolute
-9	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-absolute
-10	,	_	_	_	_	_	_	_	bratT12=Date-absolute
-11	25	_	_	_	_	_	_	_	bratT12=Date-absolute
-12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-absolute
+8	в	_	_	_	_	_	_	_	bratA9=T12:Past|bratT12=Date-absolute
+9	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Past|bratT12=Date-absolute
+10	,	_	_	_	_	_	_	_	bratA9=T12:Past|bratT12=Date-absolute
+11	25	_	_	_	_	_	_	_	bratA9=T12:Past|bratT12=Date-absolute
+12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Past|bratT12=Date-absolute
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0094-p3
@@ -57,9 +57,9 @@
 # sent_id = 0094-p3-s1
 # text = - За пять лет необходимо успеть создать гарантии безопасности и стабильности в регионе.
 1	-	_	_	_	_	_	_	_	_
-2	За	_	_	_	_	_	_	_	bratT13=Date-duration
-3	пять	_	_	_	_	_	_	_	bratT13=Date-duration
-4	лет	_	_	_	_	_	_	_	bratT13=Date-duration
+2	За	_	_	_	_	_	_	_	bratA4=T13:Pres-Fut|bratT13=Date-period-absolute
+3	пять	_	_	_	_	_	_	_	bratA4=T13:Pres-Fut|bratT13=Date-period-absolute|bratT44=Duration
+4	лет	_	_	_	_	_	_	_	bratA4=T13:Pres-Fut|bratT13=Date-period-absolute|bratT44=Duration
 5	необходимо	_	_	_	_	_	_	_	_
 6	успеть	_	_	_	_	_	_	_	_
 7	создать	_	_	_	_	_	_	_	_
@@ -86,8 +86,8 @@
 11	миротворцев	_	_	_	_	_	_	_	bratT15=Person-property
 12	там	_	_	_	_	_	_	_	_
 13	ограничится	_	_	_	_	_	_	_	_
-14	пятилетним	_	_	_	_	_	_	_	bratT16=Date-duration
-15	сроком	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-duration
+14	пятилетним	_	_	_	_	_	_	_	bratA5=T45:Past-Fut|bratT16=Duration|bratT45=Date-period-relative
+15	сроком	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T45:Past-Fut|bratT16=Duration|bratT45=Date-period-relative
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	объяснил	_	_	_	_	_	_	_	_
@@ -155,9 +155,9 @@
 # sent_id = 0094-p5-s1
 # text = - В настоящее время главный вопрос - обеспечить стабильность в Нагорном Карабахе и в регионе, и обеспечить безопасность граждан.
 1	-	_	_	_	_	_	_	_	_
-2	В	_	_	_	_	_	_	_	bratT42=Date-relative
-3	настоящее	_	_	_	_	_	_	_	bratT42=Date-relative
-4	время	_	_	_	_	_	_	_	bratT42=Date-relative
+2	В	_	_	_	_	_	_	_	bratA7=T42:Present|bratT42=Date-absolute
+3	настоящее	_	_	_	_	_	_	_	bratA7=T42:Present|bratT42=Date-absolute|bratT47=Ordinal
+4	время	_	_	_	_	_	_	_	bratA7=T42:Present|bratT42=Date-absolute
 5	главный	_	_	_	_	_	_	_	_
 6	вопрос	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
@@ -209,8 +209,8 @@
 3	сайт	_	_	_	_	_	_	_	bratA2=T25:Media|bratT25=Service
 4	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T25:Media|bratA3=T43:Media|bratT25=Service|bratT43=Organization
 5	,	_	_	_	_	_	_	_	_
-6	9	_	_	_	_	_	_	_	bratT26=Date-absolute
-7	ноября	_	_	_	_	_	_	_	bratT26=Date-absolute
+6	9	_	_	_	_	_	_	_	bratA8=T26:Past|bratT26=Date-absolute
+7	ноября	_	_	_	_	_	_	_	bratA8=T26:Past|bratT26=Date-absolute
 8	российский	_	_	_	_	_	_	_	bratT27=Person-property|bratT28=Person
 9	лидер	_	_	_	_	_	_	_	bratT27=Person-property|bratT28=Person
 10	Владимир	_	_	_	_	_	_	_	bratT28=Person

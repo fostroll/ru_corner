@@ -85,8 +85,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	у	_	_	_	_	_	_	_	_
 6	женщины	_	_	_	_	_	_	_	_
-7	долгое	_	_	_	_	_	_	_	_
-8	время	_	_	_	_	_	_	_	_
+7	долгое	_	_	_	_	_	_	_	bratA9=T37:Past|bratT36=Duration|bratT37=Date-period-relative
+8	время	_	_	_	_	_	_	_	bratA9=T37:Past|bratT36=Duration|bratT37=Date-period-relative
 9	были	_	_	_	_	_	_	_	_
 10	плохие	_	_	_	_	_	_	_	_
 11	отношения	_	_	_	_	_	_	_	_
@@ -163,9 +163,9 @@
 7	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Family
 8	,	_	_	_	_	_	_	_	_
 9	а	_	_	_	_	_	_	_	_
-10	через	_	_	_	_	_	_	_	bratT21=Time-relative
-11	несколько	_	_	_	_	_	_	_	bratT21=Time-relative|bratT35=Duration
-12	часов	_	_	_	_	_	_	_	bratT21=Time-relative|bratT35=Duration
+10	через	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-relative
+11	несколько	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-relative|bratT35=Duration
+12	часов	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-relative|bratT35=Duration
 13	правоохранители	_	_	_	_	_	_	_	bratT22=Person-property
 14	провели	_	_	_	_	_	_	_	_
 15	обыск	_	_	_	_	_	_	_	_
@@ -206,7 +206,7 @@
 
 # sent_id = 0040-p4-s5
 # text = Позже сотрудники ФСБ разоблачили полицейских, подбросивших наркотики невиновному человеку.
-1	Позже	_	_	_	_	_	_	_	bratT39=Time-relative
+1	Позже	_	_	_	_	_	_	_	bratA7=T39:Past|bratT39=Date-relative
 2	сотрудники	_	_	_	_	_	_	_	bratT23=Person-property
 3	ФСБ	_	_	_	_	_	_	_	bratT23=Person-property|bratT33=Organization
 4	разоблачили	_	_	_	_	_	_	_	_
@@ -222,7 +222,7 @@
 # par_text = Теперь перед судом предстанут силовики. Им вменяется незаконный оборот наркотиков в крупном размере и превышение должностных полномочий, а их сообщница обвиняется в пособничестве.
 # sent_id = 0040-p5-s1
 # text = Теперь перед судом предстанут силовики.
-1	Теперь	_	_	_	_	_	_	_	bratT40=Time-relative
+1	Теперь	_	_	_	_	_	_	_	bratA8=T40:Future|bratT40=Date-absolute
 2	перед	_	_	_	_	_	_	_	_
 3	судом	_	_	_	_	_	_	_	_
 4	предстанут	_	_	_	_	_	_	_	_

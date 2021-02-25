@@ -7,19 +7,26 @@ T6	Person 190 204	Денис   Буцаев
 T7	Person 224 262	премьер-министра   Михаила   Мишустина
 T8	Person-property 224 240	премьер-министра
 T9	Organization 316 343	российского   правительства
-T10	Date-duration 409 424	на   три   года
+T10	Duration 414 424	три   года
 T11	Organization 459 462	РЭО
 T12	Person-property 443 462	гендиректором   РЭО
 T13	Person 471 484	Илья   Гудков
 T14	Date-absolute 519 538	в   конце   октября
 T15	Person 544 550	Буцаев
-T16	Date-period 577 616	с   февраля   до   ноября   2019   года
+T16	Date-period-absolute 577 616	с   февраля   до   ноября   2019   года
 T17	Ordinal 742 749	первого
 T18	Organization 780 802	Белгородской   области
 T19	Person-property 742 802	первого   заместителя   губернатора   Белгородской   области
 T20	Organization 165 168	РЭО
 T21	Service 308 313	сайте
 A1	Media T21
-T22	Date-period 430 440	До   этого
-T23	Date-relative 627 634	затем  
-T24	Date-relative 700 707	Затем  
+T22	Date-period-relative 430 440	До   этого
+T23	Date-relative 627 632	затем
+T24	Date-relative 700 705	Затем
+T26	Date-period-absolute 409 424	на   три   года
+A2	UNK-Fut T26
+A3	Past T22
+A4	Past T14
+A5	Past T16
+A6	Past T23
+A7	Past T24

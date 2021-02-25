@@ -9,10 +9,10 @@ T9	GPE 360 367	Украины
 T11	Quantity 429 440	489   детей
 T12	Quantity 447 466	375   медработников
 T13	Person-property 453 466	медработников
-T14	Date-period 479 500	за   минувшие   сутки
+T14	Date-period-absolute 479 500	за   минувшие   сутки
 T15	Quantity 523 538	1134   человека
 T16	Person 563 571	Степанов
-T17	Date-period 596 622	за   прошедшие   24   часа
+T17	Date-period-absolute 596 622	за   прошедшие   24   часа
 T18	Quantity 647 662	138   пациентов
 T19	Other-term 669 682	коронавирусом
 T20	GPE 725 732	Украине
@@ -31,21 +31,22 @@ T29	Duration 179 184	сутки
 T30	Quantity 233 251	624   744   случая
 T31	Other-term 268 281	коронавирусом
 T32	Event 709 717	пандемии
-T33	Date-period 696 717	с   начала   пандемии
-T34	Time-relative 840 845	Ранее
+T33	Date-period-absolute 696 717	с   начала   пандемии
+T34	Date-relative 840 845	Ранее
 T35	Age 435 440	детей
-T36	Date-period 69 79	за   сутки
-T37	Date-period 174 184	за   сутки
+T36	Date-period-absolute 69 79	за   сутки
+T37	Date-period-absolute 174 184	за   сутки
 T38	Duration 495 500	сутки
 T39	Duration 613 622	24   часа
-A6	Past T33
-T40	Date-absolute 484 500	минувшие   сутки
-A7	Past T40
-T41	Date-absolute 74 79	сутки
-A2	Past T41
-T42	Date-absolute 179 184	сутки
-A3	Past T42
 T43	Ordinal 484 492	минувшие
 T44	Ordinal 601 610	прошедшие
-T45	Date-absolute 601 622	прошедшие   24   часа
-A4	Past T45
+A5	Past-Pres T36
+A2	Past-Pres T37
+A6	Past-Pres T33
+A4	Past T17
+A3	Past T14
+A7	Past T34
+T40	Person-forename 370 376	Максим
+T41	Person-surname 379 387	Степанов
+T42	Person-forename 870 878	Владимир
+T45	Person-surname 881 890	Зеленский

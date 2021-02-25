@@ -63,9 +63,9 @@
 # sent_id = 0104-p3-s1
 # text = ``В настоящий момент Михаил Мень находится на допросе у следователя'', - сказал собеседник агентства.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	В	_	_	_	_	_	_	_	bratT12=Date-relative
-3	настоящий	_	_	_	_	_	_	_	bratT12=Date-relative
-4	момент	_	_	_	_	_	_	_	bratT12=Date-relative
+2	В	_	_	_	_	_	_	_	bratA3=T12:Present|bratT12=Date-absolute
+3	настоящий	_	_	_	_	_	_	_	bratA3=T12:Present|bratT12=Date-absolute|bratT25=Ordinal
+4	момент	_	_	_	_	_	_	_	bratA3=T12:Present|bratT12=Date-absolute
 5	Михаил	_	_	_	_	_	_	_	bratT13=Person
 6	Мень	_	_	_	_	_	_	_	bratT13=Person
 7	находится	_	_	_	_	_	_	_	_
@@ -93,8 +93,8 @@
 6	МВД	_	_	_	_	_	_	_	bratA2=T18:Plural|bratT16=Organization|bratT18=Person-property
 7	и	_	_	_	_	_	_	_	bratA2=T18:Plural|bratT18=Person-property
 8	ФСБ	_	_	_	_	_	_	_	bratA2=T18:Plural|bratT17=Organization|bratT18=Person-property
-9	18	_	_	_	_	_	_	_	bratT19=Date-absolute
-10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Date-absolute
+9	18	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
+10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T19:Past|bratT19=Date-absolute
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p4-s2
@@ -110,9 +110,9 @@
 9	бюджета	_	_	_	_	_	_	_	_
 10	Ивановской	_	_	_	_	_	_	_	bratT21=GPE
 11	области	_	_	_	_	_	_	_	bratT21=GPE
-12	в	_	_	_	_	_	_	_	bratT22=Date-absolute
-13	2011	_	_	_	_	_	_	_	bratT22=Date-absolute
-14	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-absolute
+12	в	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-absolute
+13	2011	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-absolute
+14	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Past|bratT22=Date-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p4-s3

@@ -32,10 +32,10 @@
 15	французской	_	_	_	_	_	_	_	bratT4=Organization
 16	сети	_	_	_	_	_	_	_	bratT4=Organization
 17	Carrefour	_	_	_	_	_	_	_	bratT4=Organization
-18	после	_	_	_	_	_	_	_	bratT24=Date-period
-19	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period
-20	,	_	_	_	_	_	_	_	bratT24=Date-period
-21	как	_	_	_	_	_	_	_	bratT24=Date-period
+18	после	_	_	_	_	_	_	_	bratA3=T24:Past|bratT24=Date-relative
+19	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T24:Past|bratT24=Date-relative
+20	,	_	_	_	_	_	_	_	bratA3=T24:Past|bratT24=Date-relative
+21	как	_	_	_	_	_	_	_	bratA3=T24:Past|bratT24=Date-relative
 22	охранники	_	_	_	_	_	_	_	bratT6=Person-property
 23	одного	_	_	_	_	_	_	_	bratT23=Quantity
 24	из	_	_	_	_	_	_	_	bratT23=Quantity
@@ -144,7 +144,7 @@
 # par_text = Накануне сорокалетний Жоау Сильвейра был убит охранниками торгового центра в городе Порту-Алегри, когда совершал покупки вместе с женой. По предварительным данным, причиной смерти стало удушение.
 # sent_id = 0006-p6-s1
 # text = Накануне сорокалетний Жоау Сильвейра был убит охранниками торгового центра в городе Порту-Алегри, когда совершал покупки вместе с женой.
-1	Накануне	_	_	_	_	_	_	_	bratT25=Date-relative
+1	Накануне	_	_	_	_	_	_	_	bratA1=T25:Past|bratT25=Date-absolute
 2	сорокалетний	_	_	_	_	_	_	_	bratT17=Age
 3	Жоау	_	_	_	_	_	_	_	bratT18=Person
 4	Сильвейра	_	_	_	_	_	_	_	bratT18=Person

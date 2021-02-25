@@ -39,8 +39,8 @@
 3	подписал	_	_	_	_	_	_	_	_
 4	глава	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
 5	ведомства	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-6	Валерий	_	_	_	_	_	_	_	bratT10=Person
-7	Фальков	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+6	Валерий	_	_	_	_	_	_	_	bratT10=Person|bratT45=Person-forename
+7	Фальков	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT48=Person-surname
 8	,	_	_	_	_	_	_	_	_
 9	передает	_	_	_	_	_	_	_	_
 10	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Media|bratT11=Organization
@@ -55,15 +55,15 @@
 3	обучения	_	_	_	_	_	_	_	_
 4	будет	_	_	_	_	_	_	_	_
 5	действовать	_	_	_	_	_	_	_	_
-6	с	_	_	_	_	_	_	_	bratT12=Date-period
-7	13	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute
-8	ноября	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute
-9	текущего	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute|bratT50=Ordinal
-10	года	_	_	_	_	_	_	_	bratA6=T44:Future|bratT12=Date-period|bratT44=Date-absolute
-11	по	_	_	_	_	_	_	_	bratT12=Date-period
-12	6	_	_	_	_	_	_	_	bratA4=T45:Future|bratT12=Date-period|bratT45=Date-absolute
-13	февраля	_	_	_	_	_	_	_	bratA4=T45:Future|bratT12=Date-period|bratT45=Date-absolute
-14	2021-го	_	_	_	_	_	_	_	bratA4=T45:Future|bratT12=Date-period|bratT45=Date-absolute
+6	с	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
+7	13	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
+8	ноября	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
+9	текущего	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute|bratT50=Ordinal
+10	года	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
+11	по	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
+12	6	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
+13	февраля	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
+14	2021-го	_	_	_	_	_	_	_	bratA8=T12:Fut|bratT12=Date-period-absolute
 15	в	_	_	_	_	_	_	_	_
 16	связи	_	_	_	_	_	_	_	_
 17	с	_	_	_	_	_	_	_	_
@@ -84,7 +84,7 @@
 
 # sent_id = 0004-p3-s3
 # text = Фальков поручил руководителям вузов предусмотреть проведение зимних сессий удаленно и разработать меры дополнительной материальной поддержки студентов.
-1	Фальков	_	_	_	_	_	_	_	bratT15=Person
+1	Фальков	_	_	_	_	_	_	_	bratT15=Person|bratT49=Person-surname
 2	поручил	_	_	_	_	_	_	_	_
 3	руководителям	_	_	_	_	_	_	_	bratT36=Person-property
 4	вузов	_	_	_	_	_	_	_	bratT36=Person-property
@@ -162,8 +162,8 @@
 2	ноября	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
 3	мэр	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Person
 4	Москвы	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=GPE|bratT20=Person
-5	Сергей	_	_	_	_	_	_	_	bratT20=Person
-6	Собянин	_	_	_	_	_	_	_	bratT20=Person
+5	Сергей	_	_	_	_	_	_	_	bratT20=Person|bratT51=Person-forename
+6	Собянин	_	_	_	_	_	_	_	bratT20=Person|bratT52=Person-surname
 7	распорядился	_	_	_	_	_	_	_	_
 8	перевести	_	_	_	_	_	_	_	_
 9	студентов	_	_	_	_	_	_	_	bratT21=Person-property
@@ -179,7 +179,7 @@
 
 # sent_id = 0004-p5-s2
 # text = Столичные власти порекомендовали принять аналогичные решения федеральным и частным вузам и колледжам.
-1	Столичные	_	_	_	_	_	_	_	_
+1	Столичные	_	_	_	_	_	_	_	bratT44=GPE
 2	власти	_	_	_	_	_	_	_	_
 3	порекомендовали	_	_	_	_	_	_	_	_
 4	принять	_	_	_	_	_	_	_	_
@@ -209,9 +209,9 @@
 # text = В России за последние сутки выявили 19 851 новый случай заражения коронавирусом в 85 регионах.
 1	В	_	_	_	_	_	_	_	_
 2	России	_	_	_	_	_	_	_	bratT24=GPE
-3	за	_	_	_	_	_	_	_	bratT25=Date-period
-4	последние	_	_	_	_	_	_	_	bratA9=T48:Past|bratT25=Date-period|bratT43=Ordinal|bratT48=Date-absolute
-5	сутки	_	_	_	_	_	_	_	bratA9=T48:Past|bratT25=Date-period|bratT46=Duration|bratT48=Date-absolute
+3	за	_	_	_	_	_	_	_	bratA10=T25:Past-Pres|bratT25=Date-period-absolute
+4	последние	_	_	_	_	_	_	_	bratA10=T25:Past-Pres|bratT25=Date-period-absolute|bratT43=Ordinal
+5	сутки	_	_	_	_	_	_	_	bratA10=T25:Past-Pres|bratT25=Date-period-absolute|bratT46=Duration
 6	выявили	_	_	_	_	_	_	_	_
 7	19	_	_	_	_	_	_	_	bratT26=Quantity
 8	851	_	_	_	_	_	_	_	bratT26=Quantity
@@ -232,9 +232,9 @@
 4	коронавируса	_	_	_	_	_	_	_	bratT29=Other-term
 5	в	_	_	_	_	_	_	_	_
 6	России	_	_	_	_	_	_	_	bratT30=GPE
-7	с	_	_	_	_	_	_	_	bratT42=Date-period
-8	начала	_	_	_	_	_	_	_	bratA8=T49:Past|bratT42=Date-period|bratT49=Date-relative
-9	пандемии	_	_	_	_	_	_	_	bratA8=T49:Past|bratT42=Date-period|bratT47=Event|bratT49=Date-relative
+7	с	_	_	_	_	_	_	_	bratA7=T42:Past-Pres|bratT42=Date-period-absolute
+8	начала	_	_	_	_	_	_	_	bratA7=T42:Past-Pres|bratT42=Date-period-absolute
+9	пандемии	_	_	_	_	_	_	_	bratA7=T42:Past-Pres|bratT42=Date-period-absolute|bratT47=Event
 10	составило	_	_	_	_	_	_	_	_
 11	1	_	_	_	_	_	_	_	bratT31=Quantity
 12	836	_	_	_	_	_	_	_	bratT31=Quantity

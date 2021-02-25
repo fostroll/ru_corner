@@ -17,7 +17,7 @@ T15	Quantity 870 880	ещё   один
 T16	GPE 887 908	городе   Хигасикагава
 T17	GPE 967 973	Японии
 T18	GPE 980 986	Россию
-T19	Date-absolute 1001 1016	с   11   ноября
+T19	Date-period-absolute 1001 1016	с   11   ноября
 T20	Service 1113 1125	сайт   KP.ru
 A2	Media T20
 T21	GPE 1141 1146	Дании
@@ -34,9 +34,18 @@ T31	Other-term 70 87	птичьего   гриппа
 T32	Other-term 428 445	птичьим   гриппом
 T33	Other-term 241 258	птичьего   гриппа
 T34	Other-term 275 288	патогенностью
-T35	Date-relative 789 795	Сейчас
+T35	Date-absolute 789 795	Сейчас
 T37	Date-relative 1532 1550	К   тому   моменту
 T38	Date-relative 674 679	Затем
 T39	Date-relative 1085 1090	Ранее
 T41	Organization 1120 1125	KP.ru
 A3	Media T41
+A4	Past T39
+A5	Past-Fut T19
+A6	Present T35
+A7	Past T37
+A8	Past T23
+T36	Duration 1293 1299	неделю
+A9	Past T8
+A10	Past T28
+A11	Past T38

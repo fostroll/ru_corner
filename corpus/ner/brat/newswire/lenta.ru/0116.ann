@@ -7,7 +7,7 @@ T7	Person 70 145	Глава   Исполнительного   комитета 
 T9	Organization 248 283	телеканала   ``   Украина   24   ''
 T11	Person-property 303 311	политика
 T13	Person 829 839	Саакашвили
-T14	Other-term 929 938	стагнации
+T14	Event 929 938	стагнации
 T15	Quantity 1113 1138	миллионов   новых   людей
 T16	Person-property 1165 1172	политик
 T17	Date-absolute 1178 1189	11   ноября
@@ -15,9 +15,12 @@ T18	GPE 1197 1204	Украине
 T19	Event 1215 1241	карантин   выходного   дня
 T20	Time-period 1246 1293	С   00:00   субботы   до   00:00   понедельника
 A1	Media T9
-T3	Time-absolute 1250 1265	00:00   субботы
-T8	Time-absolute 1273 1293	00:00   понедельника
-T10	Time-relative 384 389	ранее
+T10	Date-absolute 384 389	ранее
 T12	Event 351 377	карантин   выходного   дня
 T21	Organization 673 680	полиция
 A2	Past T17
+A3	Past T10
+T3	Person-surname 0 10	Саакашвили
+T8	Person-forename 126 132	Михаил
+T22	Person-surname 135 145	Саакашвили
+T23	Person-surname 829 839	Саакашвили

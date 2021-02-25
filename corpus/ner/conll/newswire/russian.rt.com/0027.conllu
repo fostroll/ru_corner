@@ -29,7 +29,7 @@
 9	в	_	_	_	_	_	_	_	_
 10	церкви	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
-12	американском	_	_	_	_	_	_	_	bratT6=GPE
+12	американском	_	_	_	_	_	_	_	bratT15=GPE|bratT6=GPE
 13	городе	_	_	_	_	_	_	_	bratT6=GPE
 14	Сан-Хосе	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
 15	,	_	_	_	_	_	_	_	_
@@ -105,9 +105,9 @@
 # par_text = К настоящему моменту полиция ещё не задержала кого-либо по факту данного нападения.
 # sent_id = 0027-p6-s1
 # text = К настоящему моменту полиция ещё не задержала кого-либо по факту данного нападения.
-1	К	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-period
-2	настоящему	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-period
-3	моменту	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-period
+1	К	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
+2	настоящему	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
+3	моменту	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
 4	полиция	_	_	_	_	_	_	_	bratT14=Organization
 5	ещё	_	_	_	_	_	_	_	_
 6	не	_	_	_	_	_	_	_	_
@@ -126,7 +126,7 @@
 1	В	_	_	_	_	_	_	_	bratA4=T8:Past|bratT8=Date-absolute
 2	октябре	_	_	_	_	_	_	_	bratA4=T8:Past|bratT8=Date-absolute
 3	во	_	_	_	_	_	_	_	_
-4	французской	_	_	_	_	_	_	_	bratT9=GPE
+4	французской	_	_	_	_	_	_	_	bratT16=GPE|bratT9=GPE
 5	Ницце	_	_	_	_	_	_	_	bratT9=GPE
 6	мужчина	_	_	_	_	_	_	_	_
 7	совершил	_	_	_	_	_	_	_	_

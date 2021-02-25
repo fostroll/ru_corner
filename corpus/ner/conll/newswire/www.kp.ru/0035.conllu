@@ -12,9 +12,9 @@
 7	будут	_	_	_	_	_	_	_	_
 8	максимально	_	_	_	_	_	_	_	_
 9	востребованы	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT2=Date-absolute
-11	2021	_	_	_	_	_	_	_	bratT2=Date-absolute
-12	году	_	_	_	_	_	_	_	bratT2=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA2=T2:UNK-Fut|bratT2=Date-period-absolute
+11	2021	_	_	_	_	_	_	_	bratA2=T2:UNK-Fut|bratT2=Date-period-absolute
+12	году	_	_	_	_	_	_	_	bratA2=T2:UNK-Fut|bratT2=Date-period-absolute
 
 # newpar id = 0035-p2
 # par_text = В Минтруда и ВНИИ, рассказали, как меняется поведение работодателей в пандемию и назвали самые профессии, которые будут максимально востребованы в 2021 году.
@@ -31,8 +31,8 @@
 9	меняется	_	_	_	_	_	_	_	_
 10	поведение	_	_	_	_	_	_	_	_
 11	работодателей	_	_	_	_	_	_	_	_
-12	в	_	_	_	_	_	_	_	bratT48=Date-period
-13	пандемию	_	_	_	_	_	_	_	bratT45=Event|bratT48=Date-period
+12	в	_	_	_	_	_	_	_	bratA4=T48:Past-Fut|bratT48=Date-period-absolute
+13	пандемию	_	_	_	_	_	_	_	bratA4=T48:Past-Fut|bratT45=Event|bratT48=Date-period-absolute
 14	и	_	_	_	_	_	_	_	_
 15	назвали	_	_	_	_	_	_	_	_
 16	самые	_	_	_	_	_	_	_	_
@@ -42,9 +42,9 @@
 20	будут	_	_	_	_	_	_	_	_
 21	максимально	_	_	_	_	_	_	_	_
 22	востребованы	_	_	_	_	_	_	_	_
-23	в	_	_	_	_	_	_	_	bratT5=Date-absolute
-24	2021	_	_	_	_	_	_	_	bratT5=Date-absolute
-25	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
+23	в	_	_	_	_	_	_	_	bratA3=T5:UNK-Fut|bratT5=Date-period-absolute
+24	2021	_	_	_	_	_	_	_	bratA3=T5:UNK-Fut|bratT5=Date-period-absolute
+25	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T5:UNK-Fut|bratT5=Date-period-absolute
 26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p3
@@ -54,10 +54,10 @@
 1	Самые	_	_	_	_	_	_	_	_
 2	востребованные	_	_	_	_	_	_	_	_
 3	специалисты	_	_	_	_	_	_	_	bratT46=Person-property
-4	в	_	_	_	_	_	_	_	bratT6=Date-absolute
-5	3	_	_	_	_	_	_	_	bratT6=Date-absolute
-6	кв.2020	_	_	_	_	_	_	_	bratT6=Date-absolute
-7	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Date-absolute
+4	в	_	_	_	_	_	_	_	bratT6=Date-period-absolute
+5	3	_	_	_	_	_	_	_	bratT6=Date-period-absolute
+6	кв.2020	_	_	_	_	_	_	_	bratT6=Date-period-absolute
+7	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Date-period-absolute
 8	:	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p4
@@ -261,9 +261,9 @@
 # sent_id = 0035-p15-s1
 # text = - В третьем квартале видим увеличение размещенных вакансий
 1	-	_	_	_	_	_	_	_	_
-2	В	_	_	_	_	_	_	_	bratT30=Date-absolute
-3	третьем	_	_	_	_	_	_	_	bratT30=Date-absolute|bratT47=Ordinal
-4	квартале	_	_	_	_	_	_	_	bratT30=Date-absolute
+2	В	_	_	_	_	_	_	_	bratA5=T30:Fut|bratT30=Date-period-absolute
+3	третьем	_	_	_	_	_	_	_	bratA5=T30:Fut|bratT30=Date-period-absolute|bratT47=Ordinal
+4	квартале	_	_	_	_	_	_	_	bratA5=T30:Fut|bratT30=Date-period-absolute
 5	видим	_	_	_	_	_	_	_	_
 6	увеличение	_	_	_	_	_	_	_	_
 7	размещенных	_	_	_	_	_	_	_	_
@@ -290,9 +290,9 @@
 7	сопоставим	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
 9	показателями	_	_	_	_	_	_	_	_
-10	февраля	_	_	_	_	_	_	_	bratT31=Date-absolute
-11	2020	_	_	_	_	_	_	_	bratT31=Date-absolute
-12	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Date-absolute
+10	февраля	_	_	_	_	_	_	_	bratA6=T31:Past|bratT31=Date-absolute
+11	2020	_	_	_	_	_	_	_	bratA6=T31:Past|bratT31=Date-absolute
+12	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T31:Past|bratT31=Date-absolute
 13	,	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
 15	пояснили	_	_	_	_	_	_	_	_
@@ -309,9 +309,9 @@
 2	самых	_	_	_	_	_	_	_	_
 3	востребованных	_	_	_	_	_	_	_	_
 4	профессий	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT33=Date-absolute
-6	2021	_	_	_	_	_	_	_	bratT33=Date-absolute
-7	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Date-absolute
+5	в	_	_	_	_	_	_	_	bratT33=Date-period-absolute
+6	2021	_	_	_	_	_	_	_	bratT33=Date-period-absolute
+7	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Date-period-absolute
 8	:	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p17

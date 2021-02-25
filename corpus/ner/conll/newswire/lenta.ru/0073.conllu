@@ -3,7 +3,7 @@
 # par_text = Пашинян назвал главную причину неудачи армян в Карабахе
 # sent_id = 0073-p1-s1
 # text = Пашинян назвал главную причину неудачи армян в Карабахе
-1	Пашинян	_	_	_	_	_	_	_	bratT1=Person
+1	Пашинян	_	_	_	_	_	_	_	bratT1=Person|bratT64=Person-surname
 2	назвал	_	_	_	_	_	_	_	_
 3	главную	_	_	_	_	_	_	_	_
 4	причину	_	_	_	_	_	_	_	_
@@ -18,8 +18,8 @@
 # text = Премьер-министр Армении Никол Пашинян полагает, что армянские силы потерпели неудачу в Нагорном Карабахе из-за того, что воевали не только с армией Азербайджана, но также с турецкой армией и террористами из Ближнего Востока.
 1	Премьер-министр	_	_	_	_	_	_	_	bratT4=Person-property|bratT6=Person
 2	Армении	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=GPE|bratT6=Person
-3	Никол	_	_	_	_	_	_	_	bratT6=Person
-4	Пашинян	_	_	_	_	_	_	_	bratT6=Person
+3	Никол	_	_	_	_	_	_	_	bratT6=Person|bratT65=Person-forename
+4	Пашинян	_	_	_	_	_	_	_	bratT6=Person|bratT66=Person-surname
 5	полагает	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -44,7 +44,7 @@
 26	но	_	_	_	_	_	_	_	_
 27	также	_	_	_	_	_	_	_	_
 28	с	_	_	_	_	_	_	_	_
-29	турецкой	_	_	_	_	_	_	_	bratT52=Organization
+29	турецкой	_	_	_	_	_	_	_	bratT51=GPE|bratT52=Organization
 30	армией	_	_	_	_	_	_	_	bratT52=Organization
 31	и	_	_	_	_	_	_	_	_
 32	террористами	_	_	_	_	_	_	_	bratT10=Person-property
@@ -61,10 +61,10 @@
 4	заявил	_	_	_	_	_	_	_	_
 5	16	_	_	_	_	_	_	_	bratA2=T11:Past|bratT11=Date-absolute
 6	ноября	_	_	_	_	_	_	_	bratA2=T11:Past|bratT11=Date-absolute
-7	в	_	_	_	_	_	_	_	bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative
-8	ходе	_	_	_	_	_	_	_	bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative
-9	онлайн	_	_	_	_	_	_	_	bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative|bratT54=Event
-10	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Past|bratA6=T51:Past|bratT11=Date-absolute|bratT51=Date-relative|bratT54=Event
+7	в	_	_	_	_	_	_	_	bratA2=T11:Past|bratT11=Date-absolute
+8	ходе	_	_	_	_	_	_	_	bratA2=T11:Past|bratT11=Date-absolute
+9	онлайн	_	_	_	_	_	_	_	bratA2=T11:Past|bratT11=Date-absolute|bratT54=Event
+10	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Past|bratT11=Date-absolute|bratT54=Event
 11	,	_	_	_	_	_	_	_	_
 12	передает	_	_	_	_	_	_	_	_
 13	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
@@ -93,7 +93,7 @@
 17	мы	_	_	_	_	_	_	_	_
 18	готовы	_	_	_	_	_	_	_	_
 19	к	_	_	_	_	_	_	_	_
-20	войне	_	_	_	_	_	_	_	_
+20	войне	_	_	_	_	_	_	_	bratT60=Event
 21	с	_	_	_	_	_	_	_	_
 22	армией	_	_	_	_	_	_	_	bratT13=Organization
 23	Азербайджана	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT14=GPE
@@ -107,7 +107,7 @@
 4	нашей	_	_	_	_	_	_	_	_
 5	неудачи	_	_	_	_	_	_	_	_
 6	была	_	_	_	_	_	_	_	_
-7	война	_	_	_	_	_	_	_	_
+7	война	_	_	_	_	_	_	_	bratT59=Event
 8	с	_	_	_	_	_	_	_	_
 9	Азербайджаном	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=GPE
 10	,	_	_	_	_	_	_	_	_
@@ -118,7 +118,7 @@
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
 17	сказал	_	_	_	_	_	_	_	_
-18	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+18	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT67=Person-surname
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p4
@@ -198,7 +198,7 @@
 13	наемники	_	_	_	_	_	_	_	bratT19=Person-property
 14	воюют	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
-16	армянской	_	_	_	_	_	_	_	_
+16	армянской	_	_	_	_	_	_	_	bratT61=GPE
 17	стороне	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
 
@@ -210,16 +210,16 @@
 2	ноября	_	_	_	_	_	_	_	bratA4=T33:Past|bratT33=Date-absolute
 3	президент	_	_	_	_	_	_	_	bratT34=Person-property|bratT36=Person
 4	России	_	_	_	_	_	_	_	bratT34=Person-property|bratT35=GPE|bratT36=Person
-5	Владимир	_	_	_	_	_	_	_	bratT36=Person
-6	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person
+5	Владимир	_	_	_	_	_	_	_	bratT36=Person|bratT68=Person-forename
+6	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person|bratT69=Person-surname
 7	,	_	_	_	_	_	_	_	_
-8	азербайджанский	_	_	_	_	_	_	_	bratT37=Person|bratT56=Person-property
+8	азербайджанский	_	_	_	_	_	_	_	bratT37=Person|bratT56=Person-property|bratT62=GPE
 9	лидер	_	_	_	_	_	_	_	bratT37=Person|bratT56=Person-property
-10	Ильхам	_	_	_	_	_	_	_	bratT37=Person
-11	Алиев	_	_	_	_	_	_	_	bratT37=Person
+10	Ильхам	_	_	_	_	_	_	_	bratT37=Person|bratT70=Person-forename
+11	Алиев	_	_	_	_	_	_	_	bratT37=Person|bratT71=Person-surname
 12	и	_	_	_	_	_	_	_	_
-13	Никол	_	_	_	_	_	_	_	bratT38=Person
-14	Пашинян	_	_	_	_	_	_	_	bratT38=Person
+13	Никол	_	_	_	_	_	_	_	bratT38=Person|bratT72=Person-forename
+14	Пашинян	_	_	_	_	_	_	_	bratT38=Person|bratT73=Person-surname
 15	подписали	_	_	_	_	_	_	_	_
 16	совместное	_	_	_	_	_	_	_	_
 17	заявление	_	_	_	_	_	_	_	_
@@ -247,9 +247,9 @@
 
 # sent_id = 0073-p6-s3
 # text = До 1 декабря под контроль Баку передают три района.
-1	До	_	_	_	_	_	_	_	bratT40=Date-period
-2	1	_	_	_	_	_	_	_	bratA5=T59:Future|bratT40=Date-period|bratT59=Date-absolute
-3	декабря	_	_	_	_	_	_	_	bratA5=T59:Future|bratT40=Date-period|bratT59=Date-absolute
+1	До	_	_	_	_	_	_	_	bratA7=T40:Pres-Fut|bratT40=Date-period-absolute
+2	1	_	_	_	_	_	_	_	bratA7=T40:Pres-Fut|bratT40=Date-period-absolute
+3	декабря	_	_	_	_	_	_	_	bratA7=T40:Pres-Fut|bratT40=Date-period-absolute
 4	под	_	_	_	_	_	_	_	_
 5	контроль	_	_	_	_	_	_	_	_
 6	Баку	_	_	_	_	_	_	_	bratT41=GPE
@@ -263,7 +263,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	регион	_	_	_	_	_	_	_	_
 3	входят	_	_	_	_	_	_	_	_
-4	российские	_	_	_	_	_	_	_	bratT46=Person-property
+4	российские	_	_	_	_	_	_	_	bratT46=Person-property|bratT63=GPE
 5	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property
 6	.	_	_	_	_	_	_	_	_
 
@@ -287,6 +287,6 @@
 6	с	_	_	_	_	_	_	_	_
 7	требованием	_	_	_	_	_	_	_	_
 8	отставки	_	_	_	_	_	_	_	_
-9	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person
+9	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person|bratT74=Person-surname
 10	.	_	_	_	_	_	_	_	_
 

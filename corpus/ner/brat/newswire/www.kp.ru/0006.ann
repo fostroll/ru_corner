@@ -15,7 +15,7 @@ T15	Organization 821 860	изданию   ``   Украинская   правд
 A1	Media T15
 T16	Person 887 896	Зеленский
 T17	Other-term 950 961	коронавирус
-T18	Date-relative 964 990	в   минувший   понедельник
+T18	Date-absolute 964 990	в   минувший   понедельник
 T19	GPE 1039 1046	Украины
 T20	Person-property 1026 1046	президента   Украины
 T21	Person 1010 1063	глава   офиса   президента   Украины   Андрей   Ермак
@@ -32,3 +32,7 @@ T8	Organization 423 441	офиса   президента
 T31	Organization 1300 1318	офиса   президента
 T32	Date-relative 995 1007	Чуть   позже
 T33	Service 757 766	спецсвязь
+A2	Past T32
+A3	Past T18
+A4	Past T7
+T34	Ordinal 968 976	минувший

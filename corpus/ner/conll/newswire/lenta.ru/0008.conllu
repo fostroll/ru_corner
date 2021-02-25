@@ -4,7 +4,7 @@
 # sent_id = 0008-p1-s1
 # text = У американских безработных украли миллиард долларов
 1	У	_	_	_	_	_	_	_	_
-2	американских	_	_	_	_	_	_	_	bratT2=Person-property
+2	американских	_	_	_	_	_	_	_	bratT2=Person-property|bratT5=GPE
 3	безработных	_	_	_	_	_	_	_	bratT2=Person-property
 4	украли	_	_	_	_	_	_	_	_
 5	миллиард	_	_	_	_	_	_	_	bratT1=Money
@@ -22,9 +22,9 @@
 6	помощи	_	_	_	_	_	_	_	bratT3=Service
 7	безработным	_	_	_	_	_	_	_	bratT27=Person-property|bratT3=Service
 8	в	_	_	_	_	_	_	_	_
-9	американском	_	_	_	_	_	_	_	bratT5=GPE
-10	штате	_	_	_	_	_	_	_	bratT5=GPE
-11	Калифорния	_	_	_	_	_	_	_	bratT5=GPE
+9	американском	_	_	_	_	_	_	_	bratT30=GPE|bratT33=GPE
+10	штате	_	_	_	_	_	_	_	bratT30=GPE
+11	Калифорния	_	_	_	_	_	_	_	bratT30=GPE
 12	около	_	_	_	_	_	_	_	bratT6=Money
 13	миллиарда	_	_	_	_	_	_	_	bratT6=Money
 14	долларов	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Money
@@ -44,7 +44,7 @@
 4	привлечены	_	_	_	_	_	_	_	_
 5	десятки	_	_	_	_	_	_	_	bratT4=Quantity
 6	тысяч	_	_	_	_	_	_	_	bratT4=Quantity
-7	заключенных	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Quantity
+7	заключенных	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT4=Quantity
 8	,	_	_	_	_	_	_	_	_
 9	сообщает	_	_	_	_	_	_	_	_
 10	издание	_	_	_	_	_	_	_	SpaceAfter=No
@@ -55,7 +55,7 @@
 1	Около	_	_	_	_	_	_	_	bratT8=Quantity
 2	35	_	_	_	_	_	_	_	bratT8=Quantity
 3	тысяч	_	_	_	_	_	_	_	bratT8=Quantity
-4	осужденных	_	_	_	_	_	_	_	bratT8=Quantity
+4	осужденных	_	_	_	_	_	_	_	bratT32=Person-property|bratT8=Quantity
 5	подали	_	_	_	_	_	_	_	_
 6	заявки	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
@@ -83,8 +83,8 @@
 1	Прокурор	_	_	_	_	_	_	_	bratT12=Person-property|bratT14=Person
 2	округа	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=GPE|bratT14=Person
 3	Сакраменто	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=GPE|bratT14=Person
-4	Энн	_	_	_	_	_	_	_	bratT14=Person
-5	Шубертг	_	_	_	_	_	_	_	bratT14=Person
+4	Энн	_	_	_	_	_	_	_	bratT14=Person|bratT34=Person-forename
+5	Шубертг	_	_	_	_	_	_	_	bratT14=Person|bratT35=Person-surname
 6	назвала	_	_	_	_	_	_	_	_
 7	масштабы	_	_	_	_	_	_	_	_
 8	хищения	_	_	_	_	_	_	_	_
@@ -119,7 +119,7 @@
 # sent_id = 0008-p4-s1
 # text = В настоящее время возбуждено несколько уголовных дел, но часть денег уже была выведена из страны, шансов вернуть их в казну нет, отмечает прокурор.
 1	В	_	_	_	_	_	_	_	bratA3=T28:Present|bratT28=Date-absolute
-2	настоящее	_	_	_	_	_	_	_	bratA3=T28:Present|bratT28=Date-absolute
+2	настоящее	_	_	_	_	_	_	_	bratA3=T28:Present|bratT28=Date-absolute|bratT36=Ordinal
 3	время	_	_	_	_	_	_	_	bratA3=T28:Present|bratT28=Date-absolute
 4	возбуждено	_	_	_	_	_	_	_	_
 5	несколько	_	_	_	_	_	_	_	bratT29=Quantity

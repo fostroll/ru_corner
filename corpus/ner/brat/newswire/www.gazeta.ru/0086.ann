@@ -1,7 +1,7 @@
 T1	Organization 12 30	``   Спартака   ''
 T2	Person-property 0 30	Наставник   ``   Спартака   ''
 T3	Person 0 40	Наставник   ``   Спартака   ''   Тедеско
-T4	Date-period 43 57	с   7   ноября
+T4	Date-period-absolute 43 57	с   7   ноября
 T5	GPE 76 84	Германии
 T6	Organization 98 130	московского   ``   Спартака   ''
 T7	Person-property 86 130	Наставник   московского   ``   Спартака   ''
@@ -19,7 +19,14 @@ T18	Organization 703 720	``   Спартак   ''
 T19	Person 739 758	Дональдом   Трампом
 T20	Organization 170 195	Российской   премьер-лиги
 T21	Organization 202 205	РПЛ
-T22	Date-duration 283 296	десятидневный
-T23	Date-relative 695 702	Ранее  
+T22	Duration 283 296	десятидневный
+T23	Date-relative 695 700	Ранее
 T24	Family 339 344	семье
-T25	Date-period 154 167	после   матча
+T25	Date-absolute 154 167	после   матча
+T26	Date-period-relative 283 296	десятидневный
+A1	Past-UNK T26
+A2	Past-Pres T4
+A3	RCont T4
+A4	Past T25
+A5	Future T14
+A6	Past T23

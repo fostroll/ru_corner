@@ -1,7 +1,7 @@
-T1	Date-absolute 34 52	18   ноября   2020
+T1	Date-absolute 22 52	на   утро   18   ноября   2020
 T2	Person-property 59 63	Врач
 T3	Other-term 103 115	коронавируса
-T4	Date-absolute 193 218	18   ноября   2020   года
+T4	Date-absolute 181 218	на   утро   18   ноября   2020   года
 T5	Other-term 269 281	коронавируса
 T6	Other-term 354 362	инфекции
 T7	Person-property 426 431	врачи
@@ -16,7 +16,7 @@ T15	GPE 746 752	Москве
 T16	Other-term 771 796	коронавирусной   инфекции
 T17	Other-group 763 796	жертв   коронавирусной   инфекции
 T18	Quantity 811 835	восемь   тысяч   человек
-T19	Time-period 840 861	За   минувшие   сутки
+T19	Date-period-absolute 840 861	За   минувшие   сутки
 T20	Quantity 891 905	76   пациентов
 T21	GPE 911 918	Израиль
 T22	Organization 941 958	сирийской   армии
@@ -34,11 +34,18 @@ T33	Person-property 1627 1665	пресс-секретаря   российско
 T34	Person-property 1672 1682	президенту
 T35	Person 1817 1822	Путин
 T36	GPE 868 875	столице
-T37	Date-relative 1585 1591	сейчас
+T37	Date-absolute 1585 1591	сейчас
 T38	Event 1761 1769	пандемии
-T39	Time-period 27 31	утро
-T40	Time-period 186 190	утро
+T39	Time-absolute 22 31	на   утро
+T40	Time-absolute 181 190	на   утро
 T42	Ordinal 159 168	Последние
 T43	Ordinal 0 9	Последние
-T44	Date-relative 603 609	раньше
+T44	Date-period-absolute 603 609	раньше
 T45	Quantity 630 662	целого   ряда   других   вирусов
+T41	Duration 856 861	сутки
+A1	Past T19
+A2	Past T1
+A3	Past T4
+T46	Ordinal 845 853	минувшие
+A4	Past T44
+A5	Present T37

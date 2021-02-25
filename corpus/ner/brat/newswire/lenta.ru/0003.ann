@@ -11,7 +11,7 @@ T12	Person 666 673	Макаров
 T13	Person 712 720	Горюнова
 T14	Date-absolute 832 843	11   ноября
 T15	Person 864 872	Макарова
-T16	Date-period 875 928	на   два   месяца   ,   до   8   января   2021   года
+T16	Date-period-absolute 875 928	на   два   месяца   ,   до   8   января   2021   года
 T17	Date-absolute 934 952	Утром   9   ноября
 T18	Age 955 964	20-летний
 T19	Person 955 982	20-летний   Антон   Макаров
@@ -41,19 +41,33 @@ T42	Quantity 1453 1459	одного
 A2	Media T8
 T38	Event 14 19	бойню
 T39	Time-absolute 934 939	Утром
-T43	Date-relative 630 663	после   предъявленных   обвинений
-T44	Date-relative 1103 1120	после   замечания
-T45	Time-relative 1306 1311	затем
-T46	Time-relative 1466 1478	после   чего
-T47	Date-period 1626 1641	после   развода
+T43	Date-absolute 630 663	после   предъявленных   обвинений
+T44	Date-absolute 1103 1120	после   замечания
+T45	Date-relative 1306 1311	затем
+T46	Date-relative 1466 1478	после   чего
+T47	Date-period-absolute 1626 1641	после   развода
 T48	Law 413 460	пункту   ``   а   ''   части   2   статьи   105
 T49	Law 523 547	части   4   статьи   226
 T50	Age 321 329	Молодого
-T51	Date-absolute 904 928	8   января   2021   года
 A3	Past T14
 A6	Past T17
 T52	Event 1634 1653	развода   родителей
 A1	Past T47
 A4	Past T43
 A5	Past T44
-A7	Past T16
+A7	Past-UNK T16
+A8	Past T46
+A9	Past T45
+T51	Person-forename 107 113	Антону
+T53	Person-surname 116 124	Макарову
+T54	Person-forename 301 304	Яну
+T55	Person-surname 307 315	Горюнову
+T56	Person-surname 666 673	Макаров
+T57	Person-surname 712 720	Горюнова
+T58	Person-surname 864 872	Макарова
+T59	Person-forename 967 972	Антон
+T60	Person-surname 975 982	Макаров
+T61	Person-forename 1170 1176	Сергея
+T62	Person-surname 1179 1188	Ермолаева
+T63	Person-surname 1193 1200	Макаров
+T64	Person-surname 1399 1406	Макаров

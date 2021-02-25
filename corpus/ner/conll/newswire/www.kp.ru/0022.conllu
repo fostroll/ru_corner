@@ -10,16 +10,16 @@
 5	числа	_	_	_	_	_	_	_	_
 6	заражений	_	_	_	_	_	_	_	_
 7	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term
-8	за	_	_	_	_	_	_	_	bratT3=Date-period
-9	неделю	_	_	_	_	_	_	_	bratT3=Date-period
+8	за	_	_	_	_	_	_	_	bratA10=T3:Past-Pres|bratT3=Date-period-absolute
+9	неделю	_	_	_	_	_	_	_	bratA10=T3:Past-Pres|bratT3=Date-period-absolute|bratT47=Duration
 
 # newpar id = 0022-p2
 # par_text = За минувшую неделю в мире был выявлен рекордный рост числа заражений коронавирусной инфекцией: во всех странах нашли еще 3,6 миллиона инфицированных. Летальные случаи коронавируса с начала пандемии за семь дней увеличились на 54 тысячи – на девять тысяч больше, чем неделе ранее. Об этом в среду, 11 ноября, сообщила Всемирная организация здравоохранения.
 # sent_id = 0022-p2-s1
 # text = За минувшую неделю в мире был выявлен рекордный рост числа заражений коронавирусной инфекцией: во всех странах нашли еще 3,6 миллиона инфицированных.
-1	За	_	_	_	_	_	_	_	bratT4=Date-period
-2	минувшую	_	_	_	_	_	_	_	bratT4=Date-period
-3	неделю	_	_	_	_	_	_	_	bratT4=Date-period
+1	За	_	_	_	_	_	_	_	bratA9=T4:Past|bratT4=Date-period-absolute
+2	минувшую	_	_	_	_	_	_	_	bratA9=T4:Past|bratT4=Date-period-absolute|bratT53=Ordinal
+3	неделю	_	_	_	_	_	_	_	bratA9=T4:Past|bratT4=Date-period-absolute|bratT52=Duration
 4	в	_	_	_	_	_	_	_	_
 5	мире	_	_	_	_	_	_	_	bratT44=GPE
 6	был	_	_	_	_	_	_	_	_
@@ -46,12 +46,12 @@
 1	Летальные	_	_	_	_	_	_	_	_
 2	случаи	_	_	_	_	_	_	_	_
 3	коронавируса	_	_	_	_	_	_	_	bratT7=Other-term
-4	с	_	_	_	_	_	_	_	bratT37=Date-period
-5	начала	_	_	_	_	_	_	_	bratT37=Date-period
-6	пандемии	_	_	_	_	_	_	_	bratT36=Event|bratT37=Date-period
-7	за	_	_	_	_	_	_	_	bratT8=Date-period
-8	семь	_	_	_	_	_	_	_	bratT8=Date-period
-9	дней	_	_	_	_	_	_	_	bratT8=Date-period
+4	с	_	_	_	_	_	_	_	bratA11=T37:Past-Pres|bratT37=Date-period-absolute
+5	начала	_	_	_	_	_	_	_	bratA11=T37:Past-Pres|bratT37=Date-period-absolute
+6	пандемии	_	_	_	_	_	_	_	bratA11=T37:Past-Pres|bratT36=Event|bratT37=Date-period-absolute
+7	за	_	_	_	_	_	_	_	bratA12=T8:Past-Pres|bratT8=Date-period-absolute
+8	семь	_	_	_	_	_	_	_	bratA12=T8:Past-Pres|bratT48=Duration|bratT8=Date-period-absolute
+9	дней	_	_	_	_	_	_	_	bratA12=T8:Past-Pres|bratT48=Duration|bratT8=Date-period-absolute
 10	увеличились	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	bratT9=Quantity
 12	54	_	_	_	_	_	_	_	bratT9=Quantity
@@ -63,19 +63,19 @@
 18	больше	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity
 19	,	_	_	_	_	_	_	_	_
 20	чем	_	_	_	_	_	_	_	_
-21	неделе	_	_	_	_	_	_	_	bratT10=Date-relative
-22	ранее	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-relative
+21	неделе	_	_	_	_	_	_	_	bratA13=T10:Past|bratT10=Date-relative|bratT54=Duration
+22	ранее	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T10:Past|bratT10=Date-relative
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0022-p2-s3
 # text = Об этом в среду, 11 ноября, сообщила Всемирная организация здравоохранения.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT11=Date-absolute
-4	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT11=Date-absolute
-6	11	_	_	_	_	_	_	_	bratT11=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA8=T11:Past|bratT11=Date-absolute
+4	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T11:Past|bratT11=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA8=T11:Past|bratT11=Date-absolute
+6	11	_	_	_	_	_	_	_	bratA8=T11:Past|bratT11=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T11:Past|bratT11=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	сообщила	_	_	_	_	_	_	_	_
 10	Всемирная	_	_	_	_	_	_	_	bratT12=Organization
@@ -88,9 +88,9 @@
 # sent_id = 0022-p3-s1
 # text = - За последнюю неделею количество случаев коронавируса выросло на восемь процентов.
 1	-	_	_	_	_	_	_	_	_
-2	За	_	_	_	_	_	_	_	bratT15=Date-period
-3	последнюю	_	_	_	_	_	_	_	bratT15=Date-period|bratT39=Ordinal
-4	неделею	_	_	_	_	_	_	_	bratT15=Date-period
+2	За	_	_	_	_	_	_	_	bratA7=T15:Past-Pres|bratT15=Date-period-absolute
+3	последнюю	_	_	_	_	_	_	_	bratA7=T15:Past-Pres|bratT15=Date-period-absolute|bratT39=Ordinal
+4	неделею	_	_	_	_	_	_	_	bratA7=T15:Past-Pres|bratT15=Date-period-absolute|bratT49=Duration
 5	количество	_	_	_	_	_	_	_	_
 6	случаев	_	_	_	_	_	_	_	_
 7	коронавируса	_	_	_	_	_	_	_	bratT13=Other-term
@@ -126,9 +126,9 @@
 2	доля	_	_	_	_	_	_	_	_
 3	новых	_	_	_	_	_	_	_	_
 4	случаев	_	_	_	_	_	_	_	_
-5	за	_	_	_	_	_	_	_	bratT19=Date-period
-6	семь	_	_	_	_	_	_	_	bratT19=Date-period
-7	дней	_	_	_	_	_	_	_	bratT19=Date-period
+5	за	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute
+6	семь	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute|bratT50=Duration
+7	дней	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute|bratT50=Duration
 8	в	_	_	_	_	_	_	_	_
 9	Европе	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE
 10	,	_	_	_	_	_	_	_	_
@@ -148,12 +148,12 @@
 2	рекорд	_	_	_	_	_	_	_	_
 3	был	_	_	_	_	_	_	_	_
 4	зафиксирован	_	_	_	_	_	_	_	_
-5	с	_	_	_	_	_	_	_	bratT21=Date-period
-6	26	_	_	_	_	_	_	_	bratT21=Date-period
-7	октября	_	_	_	_	_	_	_	bratT21=Date-period
-8	по	_	_	_	_	_	_	_	bratT21=Date-period
-9	1	_	_	_	_	_	_	_	bratT21=Date-period
-10	ноября	_	_	_	_	_	_	_	bratT21=Date-period
+5	с	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
+6	26	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
+7	октября	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
+8	по	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
+9	1	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
+10	ноября	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
 11	-	_	_	_	_	_	_	_	_
 12	3,3	_	_	_	_	_	_	_	bratT22=Quantity
 13	миллиона	_	_	_	_	_	_	_	bratT22=Quantity
@@ -164,10 +164,10 @@
 # text = В Европе за последние семь суток заразились почти 1,99 миллиона человека, общее число заражений достигло отметки в 13 миллионов.
 1	В	_	_	_	_	_	_	_	_
 2	Европе	_	_	_	_	_	_	_	bratT23=GPE
-3	за	_	_	_	_	_	_	_	bratT25=Time-period
-4	последние	_	_	_	_	_	_	_	bratT25=Time-period|bratT41=Ordinal
-5	семь	_	_	_	_	_	_	_	bratT25=Time-period
-6	суток	_	_	_	_	_	_	_	bratT25=Time-period
+3	за	_	_	_	_	_	_	_	bratA3=T25:Past-Pres|bratT25=Date-period-absolute
+4	последние	_	_	_	_	_	_	_	bratA3=T25:Past-Pres|bratT25=Date-period-absolute|bratT41=Ordinal
+5	семь	_	_	_	_	_	_	_	bratA3=T25:Past-Pres|bratT25=Date-period-absolute|bratT46=Duration
+6	суток	_	_	_	_	_	_	_	bratA3=T25:Past-Pres|bratT25=Date-period-absolute|bratT46=Duration
 7	заразились	_	_	_	_	_	_	_	_
 8	почти	_	_	_	_	_	_	_	bratT26=Quantity
 9	1,99	_	_	_	_	_	_	_	bratT26=Quantity
@@ -191,8 +191,8 @@
 3	число	_	_	_	_	_	_	_	_
 4	заразившихся	_	_	_	_	_	_	_	_
 5	увеличилось	_	_	_	_	_	_	_	_
-6	за	_	_	_	_	_	_	_	bratT28=Date-period
-7	неделю	_	_	_	_	_	_	_	bratT28=Date-period
+6	за	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute
+7	неделю	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute|bratT51=Duration
 8	более	_	_	_	_	_	_	_	bratT29=Quantity
 9	чем	_	_	_	_	_	_	_	bratT29=Quantity
 10	на	_	_	_	_	_	_	_	bratT29=Quantity
@@ -259,8 +259,8 @@
 14	,	_	_	_	_	_	_	_	_
 15	сравнив	_	_	_	_	_	_	_	_
 16	ощущения	_	_	_	_	_	_	_	_
-17	после	_	_	_	_	_	_	_	bratT42=Date-period
-18	прививки	_	_	_	_	_	_	_	bratT42=Date-period
+17	после	_	_	_	_	_	_	_	bratT42=Time-relative
+18	прививки	_	_	_	_	_	_	_	_
 19	с	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No
 21	тяжелым	_	_	_	_	_	_	_	_

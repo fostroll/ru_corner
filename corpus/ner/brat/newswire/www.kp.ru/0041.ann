@@ -7,14 +7,14 @@ T5	Organization 771 780	Минздраве
 T6	Person-property 810 815	врачи
 T7	Person-property 1002 1013	пенсионеров
 T8	Person-property 1255 1266	полицейские
-T9	Date-absolute 1543 1558	в   2019   году
+T9	Date-period-absolute 1543 1558	в   2019   году
 T10	Organization 1565 1568	МВД
 T11	Quantity 1583 1604	180   523   заявления
 T12	Quantity 1657 1666	163   328
 T13	Quantity 1760 1774	13   655   лиц
-T14	Date-relative 397 418	В   настоящее   время
+T14	Date-absolute 397 418	В   настоящее   время
 T15	Quantity 597 607	Одним   из
-T16	Date-relative 786 807	В   настоящее   время
+T16	Date-absolute 786 807	В   настоящее   время
 T17	Person-property 1152 1158	медики
 T18	Family 1327 1332	семьи
 T19	Family 1273 1285	родственники
@@ -23,3 +23,8 @@ T21	Organization 759 764	mk.ru
 A2	Media T21
 T22	Organization 197 204	полицию
 T23	Organization 850 857	полицию
+T24	Ordinal 401 410	настоящее
+A3	Present T14
+T25	Ordinal 790 799	настоящее
+A4	Present T16
+A5	Past T9

@@ -5,9 +5,9 @@
 # text = В России с начала года из-за преступлений погибли более 19 тысяч человек
 1	В	_	_	_	_	_	_	_	_
 2	России	_	_	_	_	_	_	_	bratT1=GPE
-3	с	_	_	_	_	_	_	_	bratT24=Date-period
-4	начала	_	_	_	_	_	_	_	bratT24=Date-period
-5	года	_	_	_	_	_	_	_	bratT24=Date-period
+3	с	_	_	_	_	_	_	_	bratA3=T24:Past-Pres|bratT24=Date-period-absolute
+4	начала	_	_	_	_	_	_	_	bratA3=T24:Past-Pres|bratT24=Date-period-absolute
+5	года	_	_	_	_	_	_	_	bratA3=T24:Past-Pres|bratT24=Date-period-absolute
 6	из-за	_	_	_	_	_	_	_	_
 7	преступлений	_	_	_	_	_	_	_	_
 8	погибли	_	_	_	_	_	_	_	_
@@ -22,11 +22,11 @@
 # text = В России за 10 месяцев 2020 года жертвами преступлений стали почти 20 тысяч граждан.
 1	В	_	_	_	_	_	_	_	_
 2	России	_	_	_	_	_	_	_	bratT3=GPE
-3	за	_	_	_	_	_	_	_	bratT4=Date-period
-4	10	_	_	_	_	_	_	_	bratT4=Date-period
-5	месяцев	_	_	_	_	_	_	_	bratT4=Date-period
-6	2020	_	_	_	_	_	_	_	bratT4=Date-period
-7	года	_	_	_	_	_	_	_	bratT4=Date-period
+3	за	_	_	_	_	_	_	_	bratA4=T4:Past-Pres|bratT4=Date-period-absolute
+4	10	_	_	_	_	_	_	_	bratA4=T4:Past-Pres|bratT31=Duration|bratT4=Date-period-absolute
+5	месяцев	_	_	_	_	_	_	_	bratA4=T4:Past-Pres|bratT31=Duration|bratT4=Date-period-absolute
+6	2020	_	_	_	_	_	_	_	bratA4=T4:Past-Pres|bratT4=Date-period-absolute
+7	года	_	_	_	_	_	_	_	bratA4=T4:Past-Pres|bratT4=Date-period-absolute
 8	жертвами	_	_	_	_	_	_	_	_
 9	преступлений	_	_	_	_	_	_	_	_
 10	стали	_	_	_	_	_	_	_	_
@@ -68,11 +68,11 @@
 14	меньше	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Percent
 15	,	_	_	_	_	_	_	_	_
 16	чем	_	_	_	_	_	_	_	_
-17	за	_	_	_	_	_	_	_	_
-18	аналогичный	_	_	_	_	_	_	_	_
-19	период	_	_	_	_	_	_	_	_
-20	прошлого	_	_	_	_	_	_	_	bratT10=Date-relative
-21	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-relative
+17	за	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-period-absolute
+18	аналогичный	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-period-absolute|bratT30=Duration
+19	период	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-period-absolute|bratT30=Duration
+20	прошлого	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-period-absolute|bratT26=Ordinal
+21	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Past|bratT10=Date-period-absolute
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0084-p4
@@ -109,8 +109,8 @@
 16	по	_	_	_	_	_	_	_	_
 17	сравнению	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
-19	прошлым	_	_	_	_	_	_	_	bratT13=Date-relative
-20	годом	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Date-relative
+19	прошлым	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-period-absolute|bratT27=Ordinal
+20	годом	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Past|bratT13=Date-period-absolute
 21	,	_	_	_	_	_	_	_	_
 22	-	_	_	_	_	_	_	_	_
 23	говорится	_	_	_	_	_	_	_	_
@@ -188,9 +188,9 @@
 9	преступниками	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	то	_	_	_	_	_	_	_	_
-12	за	_	_	_	_	_	_	_	bratT19=Date-period
-13	текущий	_	_	_	_	_	_	_	bratT19=Date-period
-14	год	_	_	_	_	_	_	_	bratT19=Date-period
+12	за	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute
+13	текущий	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute|bratT29=Ordinal
+14	год	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute
 15	эта	_	_	_	_	_	_	_	_
 16	сумма	_	_	_	_	_	_	_	_
 17	превысила	_	_	_	_	_	_	_	_
@@ -218,8 +218,8 @@
 13	по	_	_	_	_	_	_	_	_
 14	сравнению	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
-16	прошлым	_	_	_	_	_	_	_	bratT22=Date-relative
-17	годом	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-relative
+16	прошлым	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-period-absolute|bratT28=Ordinal
+17	годом	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Past|bratT22=Date-period-absolute
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0084-p6-s3

@@ -34,9 +34,9 @@
 15	которыми	_	_	_	_	_	_	_	_
 16	человечество	_	_	_	_	_	_	_	_
 17	столкнулось	_	_	_	_	_	_	_	_
-18	в	_	_	_	_	_	_	_	bratT7=Date-absolute
-19	2020	_	_	_	_	_	_	_	bratT7=Date-absolute
-20	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Date-absolute
+18	в	_	_	_	_	_	_	_	bratA3=T7:Past-UNK|bratT7=Date-period-absolute
+19	2020	_	_	_	_	_	_	_	bratA3=T7:Past-UNK|bratT7=Date-period-absolute
+20	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T7:Past-UNK|bratT7=Date-period-absolute
 21	,	_	_	_	_	_	_	_	_
 22	беспрецедентен	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_
@@ -61,10 +61,10 @@
 16	мир	_	_	_	_	_	_	_	bratT29=GPE
 17	не	_	_	_	_	_	_	_	_
 18	знал	_	_	_	_	_	_	_	_
-19	со	_	_	_	_	_	_	_	bratT18=Date-period
-20	времен	_	_	_	_	_	_	_	bratT18=Date-period
-21	Великой	_	_	_	_	_	_	_	bratT18=Date-period|bratT9=Event
-22	депрессии	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Date-period|bratT9=Event
+19	со	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-period-absolute
+20	времен	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-period-absolute
+21	Великой	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-period-absolute|bratT9=Event
+22	депрессии	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T18:Past|bratT18=Date-period-absolute|bratT9=Event
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0042-p3
@@ -79,9 +79,9 @@
 6	которыми	_	_	_	_	_	_	_	_
 7	человечество	_	_	_	_	_	_	_	_
 8	столкнулось	_	_	_	_	_	_	_	_
-9	в	_	_	_	_	_	_	_	bratT10=Date-relative
-10	этом	_	_	_	_	_	_	_	bratT10=Date-relative
-11	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-relative
+9	в	_	_	_	_	_	_	_	bratA2=T10:Past-Pres|bratT10=Date-period-absolute
+10	этом	_	_	_	_	_	_	_	bratA2=T10:Past-Pres|bratT10=Date-period-absolute
+11	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Past-Pres|bratT10=Date-period-absolute
 12	,	_	_	_	_	_	_	_	_
 13	является	_	_	_	_	_	_	_	_
 14	по-настоящему	_	_	_	_	_	_	_	_
@@ -109,19 +109,19 @@
 17	никто	_	_	_	_	_	_	_	_
 18	не	_	_	_	_	_	_	_	_
 19	знал	_	_	_	_	_	_	_	_
-20	со	_	_	_	_	_	_	_	bratT28=Date-period
-21	времен	_	_	_	_	_	_	_	bratT28=Date-period
-22	Великой	_	_	_	_	_	_	_	bratT12=Event|bratT28=Date-period
-23	депрессии	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event|bratT28=Date-period
+20	со	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-period-absolute
+21	времен	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-period-absolute
+22	Великой	_	_	_	_	_	_	_	bratA5=T28:Past|bratT12=Event|bratT28=Date-period-absolute
+23	депрессии	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T28:Past|bratT12=Event|bratT28=Date-period-absolute
 24	,	_	_	_	_	_	_	_	_
 25	-	_	_	_	_	_	_	_	_
 26	отметил	_	_	_	_	_	_	_	_
 27	Владимир	_	_	_	_	_	_	_	bratT13=Person
 28	Путин	_	_	_	_	_	_	_	bratT13=Person
-29	во	_	_	_	_	_	_	_	bratT25=Date-period
-30	время	_	_	_	_	_	_	_	bratT25=Date-period
-31	своего	_	_	_	_	_	_	_	bratT25=Date-period
-32	выступления	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Date-period
+29	во	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute
+30	время	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute
+31	своего	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute
+32	выступления	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Past|bratT25=Date-absolute
 33	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0042-p4
@@ -140,9 +140,9 @@
 10	всех	_	_	_	_	_	_	_	bratT30=GPE
 11	стран	_	_	_	_	_	_	_	bratT30=GPE
 12	мира	_	_	_	_	_	_	_	bratT30=GPE
-13	в	_	_	_	_	_	_	_	bratT26=Date-relative
-14	этом	_	_	_	_	_	_	_	bratT26=Date-relative
-15	году	_	_	_	_	_	_	_	bratT26=Date-relative
+13	в	_	_	_	_	_	_	_	bratA1=T26:Past-Pres|bratT26=Date-period-absolute
+14	этом	_	_	_	_	_	_	_	bratA1=T26:Past-Pres|bratT26=Date-period-absolute
+15	году	_	_	_	_	_	_	_	bratA1=T26:Past-Pres|bratT26=Date-period-absolute
 16	на	_	_	_	_	_	_	_	_
 17	фоне	_	_	_	_	_	_	_	_
 18	пандемии	_	_	_	_	_	_	_	bratT27=Event

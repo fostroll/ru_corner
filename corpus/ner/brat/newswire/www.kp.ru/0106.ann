@@ -25,7 +25,14 @@ A3	Media T21
 T22	Event 365 373	пандемии
 T24	Political-group 883 893	демократам
 T25	Event 1195 1201	выборы
-T26	Date-relative 200 220	На   данный   момент
+T26	Date-absolute 200 220	На   данный   момент
 T27	Quantity 258 274	одно   сообщение
-T23	Date-period 15 38	до   оглашения   итогов
+T23	Date-absolute 15 29	до   оглашения
 T28	Date-relative 899 904	Ранее
+T29	Event 41 48	выборов
+T30	Event 20 48	оглашения   итогов   выборов
+A4	Past T23
+A5	Present T26
+A6	Past T28
+T31	Duration 662 666	день
+A7	Future T10

@@ -33,7 +33,7 @@
 5	со	_	_	_	_	_	_	_	_
 6	ссылкой	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	британскую	_	_	_	_	_	_	_	bratT4=Organization
+8	британскую	_	_	_	_	_	_	_	bratT4=Organization|bratT8=GPE
 9	охранную	_	_	_	_	_	_	_	bratT4=Organization
 10	компанию	_	_	_	_	_	_	_	bratT4=Organization
 11	Ambrey	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
@@ -65,7 +65,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	но	_	_	_	_	_	_	_	_
 9	принадлежал	_	_	_	_	_	_	_	_
-10	греческой	_	_	_	_	_	_	_	bratT7=Organization
+10	греческой	_	_	_	_	_	_	_	bratT19=GPE|bratT7=Organization
 11	фирме	_	_	_	_	_	_	_	bratT7=Organization
 12	TMS	_	_	_	_	_	_	_	bratT7=Organization
 13	Tankers	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
@@ -106,7 +106,7 @@
 
 # sent_id = 0112-p4-s3
 # text = Британская компания предположила, что танкер подорвался на мине.
-1	Британская	_	_	_	_	_	_	_	_
+1	Британская	_	_	_	_	_	_	_	bratT36=GPE
 2	компания	_	_	_	_	_	_	_	_
 3	предположила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 9	в	_	_	_	_	_	_	_	_
 10	том	_	_	_	_	_	_	_	_
 11	числе	_	_	_	_	_	_	_	_
-12	саудовские	_	_	_	_	_	_	_	bratT34=Person-property
+12	саудовские	_	_	_	_	_	_	_	bratT34=Person-property|bratT37=GPE
 13	чиновники	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property
 14	.	_	_	_	_	_	_	_	_
 
@@ -157,7 +157,7 @@
 3	представитель	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person
 4	вооруженных	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person|bratT35=Organization
 5	сил	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person|bratT35=Organization
-6	йеменских	_	_	_	_	_	_	_	bratT15=Political-group|bratT16=Person-property|bratT18=Person|bratT35=Organization
+6	йеменских	_	_	_	_	_	_	_	bratT15=Political-group|bratT16=Person-property|bratT18=Person|bratT35=Organization|bratT38=GPE
 7	повстанцев	_	_	_	_	_	_	_	bratT15=Political-group|bratT16=Person-property|bratT18=Person|bratT35=Organization
 8	из	_	_	_	_	_	_	_	bratT15=Political-group|bratT16=Person-property|bratT18=Person|bratT35=Organization
 9	движения	_	_	_	_	_	_	_	bratT15=Political-group|bratT16=Person-property|bratT17=Organization|bratT18=Person|bratT35=Organization
@@ -168,8 +168,8 @@
 14	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT18=Person|bratT35=Organization
 15	хуситы	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT18=Person|bratT33=Political-group|bratT35=Organization
 16	)	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=Person|bratT35=Organization
-17	Яхья	_	_	_	_	_	_	_	bratT18=Person
-18	Сариа	_	_	_	_	_	_	_	bratT18=Person
+17	Яхья	_	_	_	_	_	_	_	bratT18=Person|bratT41=Person-forename
+18	Сариа	_	_	_	_	_	_	_	bratT18=Person|bratT42=Person-surname
 19	сообщил	_	_	_	_	_	_	_	_
 20	о	_	_	_	_	_	_	_	_
 21	ракетном	_	_	_	_	_	_	_	_
@@ -181,7 +181,7 @@
 27	Saudi	_	_	_	_	_	_	_	bratT21=Organization
 28	Aramco	_	_	_	_	_	_	_	bratT21=Organization
 29	в	_	_	_	_	_	_	_	_
-30	саудовском	_	_	_	_	_	_	_	bratT22=GPE
+30	саудовском	_	_	_	_	_	_	_	bratT22=GPE|bratT39=GPE
 31	городе	_	_	_	_	_	_	_	bratT22=GPE
 32	Джидда	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=GPE
 33	.	_	_	_	_	_	_	_	_
@@ -225,9 +225,9 @@
 4	в	_	_	_	_	_	_	_	_
 5	активной	_	_	_	_	_	_	_	_
 6	фазе	_	_	_	_	_	_	_	_
-7	с	_	_	_	_	_	_	_	bratT26=Date-period
-8	2014	_	_	_	_	_	_	_	bratA6=T8:Past|bratT26=Date-period|bratT8=Date-absolute
-9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Past|bratT26=Date-period|bratT8=Date-absolute
+7	с	_	_	_	_	_	_	_	bratA7=T26:Past-Pres|bratT26=Date-period-absolute
+8	2014	_	_	_	_	_	_	_	bratA7=T26:Past-Pres|bratT26=Date-period-absolute
+9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T26:Past-Pres|bratT26=Date-period-absolute
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0112-p6-s2
@@ -253,8 +253,8 @@
 5	Йемена	_	_	_	_	_	_	_	bratT30=Organization|bratT5=GPE
 6	и	_	_	_	_	_	_	_	_
 7	коалиция	_	_	_	_	_	_	_	bratT31=Organization
-8	арабских	_	_	_	_	_	_	_	bratT31=Organization
-9	стран	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+8	арабских	_	_	_	_	_	_	_	bratT31=Organization|bratT40=GPE
+9	стран	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization|bratT40=GPE
 10	,	_	_	_	_	_	_	_	_
 11	возглавляемая	_	_	_	_	_	_	_	_
 12	Саудовской	_	_	_	_	_	_	_	bratT32=GPE

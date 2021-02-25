@@ -45,9 +45,9 @@
 10	торговых	_	_	_	_	_	_	_	bratT23=Law
 11	представительствах	_	_	_	_	_	_	_	bratT23=Law
 12	еще	_	_	_	_	_	_	_	_
-13	три	_	_	_	_	_	_	_	bratT10=Date-relative
-14	месяца	_	_	_	_	_	_	_	bratT10=Date-relative
-15	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-relative
+13	три	_	_	_	_	_	_	_	bratA5=T10:Past|bratT10=Date-absolute
+14	месяца	_	_	_	_	_	_	_	bratA5=T10:Past|bratT10=Date-absolute
+15	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Past|bratT10=Date-absolute
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0053-p3-s2
@@ -80,7 +80,7 @@
 # text = Напомним, ранее сообщалось, что Российская Федерация ликвидировала торговые представительства на территории Литвы и Украины.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	ранее	_	_	_	_	_	_	_	bratT30=Date-relative
+3	ранее	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-relative
 4	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -113,13 +113,13 @@
 # par_text = До этого момента в сентябре 2020 года с предложение закрыть эти торговые представительства выступили эксперты российского Минпромторга. Специалисты ведомства отметили, что прошлым летом украинское правительство прекратило действие соглашения взаимном учреждении торгпредставительств с российской стороной. В целом у России после данного заявления в мире остались торгпредства в 58 странах.
 # sent_id = 0053-p5-s1
 # text = До этого момента в сентябре 2020 года с предложение закрыть эти торговые представительства выступили эксперты российского Минпромторга.
-1	До	_	_	_	_	_	_	_	bratT28=Date-period
-2	этого	_	_	_	_	_	_	_	bratT28=Date-period
-3	момента	_	_	_	_	_	_	_	bratT28=Date-period
-4	в	_	_	_	_	_	_	_	bratT18=Date-absolute
-5	сентябре	_	_	_	_	_	_	_	bratT18=Date-absolute
-6	2020	_	_	_	_	_	_	_	bratT18=Date-absolute
-7	года	_	_	_	_	_	_	_	bratT18=Date-absolute
+1	До	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+2	этого	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute|bratT28=Ordinal
+3	момента	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+4	в	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+5	сентябре	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+6	2020	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+7	года	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 8	с	_	_	_	_	_	_	_	_
 9	предложение	_	_	_	_	_	_	_	_
 10	закрыть	_	_	_	_	_	_	_	_
@@ -139,8 +139,8 @@
 3	отметили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	прошлым	_	_	_	_	_	_	_	bratT26=Date-relative
-7	летом	_	_	_	_	_	_	_	bratT26=Date-relative
+6	прошлым	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute|bratT32=Ordinal
+7	летом	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute
 8	украинское	_	_	_	_	_	_	_	bratT27=Organization
 9	правительство	_	_	_	_	_	_	_	bratT27=Organization
 10	прекратило	_	_	_	_	_	_	_	_
@@ -160,9 +160,9 @@
 2	целом	_	_	_	_	_	_	_	_
 3	у	_	_	_	_	_	_	_	_
 4	России	_	_	_	_	_	_	_	bratT21=GPE
-5	после	_	_	_	_	_	_	_	bratT29=Date-period
-6	данного	_	_	_	_	_	_	_	bratT29=Date-period
-7	заявления	_	_	_	_	_	_	_	bratT29=Date-period
+5	после	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-absolute
+6	данного	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-absolute
+7	заявления	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-absolute
 8	в	_	_	_	_	_	_	_	_
 9	мире	_	_	_	_	_	_	_	bratT31=GPE
 10	остались	_	_	_	_	_	_	_	_

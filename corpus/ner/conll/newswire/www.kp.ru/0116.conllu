@@ -69,11 +69,11 @@
 # text = Об этом во вторник, 10 ноября, заявила официальный представитель российского МИД Мария Захарова.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	во	_	_	_	_	_	_	_	bratT16=Date-absolute
-4	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT16=Date-absolute
-6	10	_	_	_	_	_	_	_	bratT16=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-absolute
+3	во	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
+4	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period-absolute
+5	,	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
+6	10	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period-absolute
 8	,	_	_	_	_	_	_	_	_
 9	заявила	_	_	_	_	_	_	_	_
 10	официальный	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
@@ -209,7 +209,7 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	вчера	_	_	_	_	_	_	_	bratT35=Date-relative
+4	вчера	_	_	_	_	_	_	_	bratA5=T35:Past|bratT35=Date-absolute
 5	лидеры	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Person-property
 6	России	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT36=GPE|bratT38=Person-property
 7	и	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Person-property
@@ -229,9 +229,9 @@
 21	,	_	_	_	_	_	_	_	_
 22	которое	_	_	_	_	_	_	_	_
 23	начинается	_	_	_	_	_	_	_	_
-24	с	_	_	_	_	_	_	_	bratT42=Date-period
-25	10	_	_	_	_	_	_	_	bratT42=Date-period
-26	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Date-period
+24	с	_	_	_	_	_	_	_	bratA6=T42:Fut|bratT42=Date-period-absolute
+25	10	_	_	_	_	_	_	_	bratA6=T42:Fut|bratT42=Date-period-absolute
+26	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T42:Fut|bratT42=Date-period-absolute
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0116-p6-s2

@@ -22,13 +22,11 @@ T19	Quantity 117 135	22   930   случаев
 T20	Other-term 152 178	коронавирусной   инфекцией
 T21	Other-term 217 225	COVID-19
 T22	Quantity 239 252	1   431   795
-T23	Time-relative 490 495	Ранее
-T24	Date-period 359 369	За   сутки
-T25	Date-period 94 104	за   сутки
-T26	Date-period 13 23	за   сутки
-T27	Date-absolute 18 23	сутки
-A5	Past T27
-T28	Date-absolute 99 104	сутки
-A4	Past T28
-T29	Date-absolute 364 369	сутки
-A3	Past T29
+T23	Date-relative 490 495	Ранее
+T24	Date-period-absolute 359 369	За   сутки
+T25	Date-period-absolute 94 104	за   сутки
+T26	Date-period-absolute 13 23	за   сутки
+A6	Past-Pres T26
+A5	Past-Pres T25
+A4	Past-Pres T24
+A3	Past T23

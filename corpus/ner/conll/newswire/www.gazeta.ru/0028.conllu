@@ -101,9 +101,9 @@
 10	(	_	_	_	_	_	_	_	SpaceAfter=No
 11	случилось	_	_	_	_	_	_	_	SpaceAfter=No
 12	)	_	_	_	_	_	_	_	_
-13	десять	_	_	_	_	_	_	_	bratT12=Date-relative
-14	лет	_	_	_	_	_	_	_	bratT12=Date-relative
-15	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Date-relative
+13	десять	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute|bratT27=Duration
+14	лет	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute|bratT27=Duration
+15	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Past|bratT12=Date-absolute
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
@@ -142,8 +142,8 @@
 6	МВД	_	_	_	_	_	_	_	bratA2=T18:Plural|bratT16=Organization|bratT18=Person-property
 7	и	_	_	_	_	_	_	_	bratA2=T18:Plural|bratT18=Person-property
 8	ФСБ	_	_	_	_	_	_	_	bratA2=T18:Plural|bratT17=Organization|bratT18=Person-property
-9	18	_	_	_	_	_	_	_	bratT19=Date-absolute
-10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Date-absolute
+9	18	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
+10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T19:Past|bratT19=Date-absolute
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0028-p5-s2
@@ -160,9 +160,9 @@
 10	бюджета	_	_	_	_	_	_	_	_
 11	Ивановской	_	_	_	_	_	_	_	bratT21=GPE
 12	области	_	_	_	_	_	_	_	bratT21=GPE
-13	в	_	_	_	_	_	_	_	bratT22=Date-absolute
-14	2011	_	_	_	_	_	_	_	bratT22=Date-absolute
-15	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-absolute
+13	в	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-absolute
+14	2011	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-absolute
+15	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Past|bratT22=Date-absolute
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0028-p5-s3

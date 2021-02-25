@@ -14,7 +14,7 @@ T14	Product 484 502	самолета   Су-30СМ
 T15	Product 509 526	вертолеты   Ми-35
 T13	Quantity 470 481	по   четыре
 T16	Product 568 587	самолетам   Су-30СМ
-T17	Date-relative 594 614	в   следующем   году
+T17	Date-absolute 594 614	в   следующем   году
 T18	Quantity 634 646	еще   четыре
 T19	GPE 677 700	Российской   Федерацией
 T20	Quantity 797 831	два   механизированных   батальона
@@ -28,7 +28,12 @@ T27	GPE 1179 1186	Россией
 T28	Event 1189 1209	``   Запад-2021   ''
 T10	Person-property 290 317	глава   Минобороны   страны
 T29	Person-property 737 744	министр
-T30	Date-period 1142 1163	за   последние   годы
+T30	Date-period-absolute 1142 1163	за   последние   годы
 T31	Ordinal 598 607	следующем
 T32	Ordinal 1147 1156	последние
 T33	Ordinal 971 980	последних
+A2	Future T17
+T34	Duration 1159 1163	годы
+A3	Past-Pres T30
+A4	Future T5
+A5	Future T7

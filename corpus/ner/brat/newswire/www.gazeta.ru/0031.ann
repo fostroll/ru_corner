@@ -22,7 +22,7 @@ T21	GPE 1177 1184	Франции
 T22	GPE 1315 1321	России
 T23	Person-property 1307 1354	главы   России   ,   Армении   и   Азербайджана
 T24	GPE 1421 1440	Нагорном   Карабахе
-T25	Date-relative 1443 1458	с   10   ноября
+T25	Date-period-absolute 1443 1458	с   10   ноября
 T26	Person-property 1463 1486	Российские   миротворцы
 T27	GPE 1513 1533	Карабахский   регион
 T28	Nationality 1538 1558	Армянские   граждане
@@ -35,8 +35,13 @@ T33	GPE 1328 1335	Армении
 T34	GPE 1342 1354	Азербайджана
 A1	Plural T23
 T35	Ordinal 887 896	последние
-T36	Date-period 883 905	в   последние   недели
-T37	Date-period 286 308	в   ходе   переговоров
-T38	Date-period 1029 1046	в   ходе   беседы
-T39	Date-relative 1299 1306	Ранее  
-T40	Date-period 583 602	после   прекращения
+T36	Date-period-absolute 883 905	в   последние   недели
+T37	Date-absolute 286 308	в   ходе   переговоров
+T38	Date-absolute 1029 1046	в   ходе   беседы
+T39	Date-relative 1299 1304	Ранее
+T40	Date-period-absolute 583 602	после   прекращения
+A3	Past T37
+A4	UNK-Fut T40
+A5	Past-Pres T36
+A6	Past T38
+A7	Past T39

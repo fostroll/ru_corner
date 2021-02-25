@@ -8,7 +8,6 @@ T7	Person-property 129 137	офицеров
 T8	Organization 140 167	Вооруженных   сил   Армении
 T9	GPE 160 167	Армении
 T10	GPE 232 251	Нагорном   Карабахе
-T11	Date-absolute 305 334	понедельник   ,   16   ноября
 T12	Person 351 396	армянский   премьер-министр   Никол   Пашинян
 T13	Person-property 351 378	армянский   премьер-министр
 T15	Person-property 508 514	солдат
@@ -30,23 +29,30 @@ T29	Person-property 1442 1465	российские   миротворцы
 T30	GPE 1484 1490	Ереван
 T31	Quantity 1503 1523	еще   20   самолетов
 T32	Person-property 1530 1559	российскими   военнослужащими
-T33	Date-period 268 298	во   время   пресс-конференции
-T34	Date-relative 1470 1477	Сегодня
-T35	Date-period 194 225	во   время   военных   действий
+T33	Date-absolute 268 316	во   время   пресс-конференции   в   понедельник
+T34	Date-absolute 1470 1477	Сегодня
+T35	Date 194 225	во   время   военных   действий
 T36	Quantity 488 514	несколько   сотен   солдат
-T37	Date-period 570 592	после   того   ,   как
-T38	Date-period 744 762	после   завершения
-T39	Date-period 841 855	после   обмена
+T37	Date-relative 570 592	после   того   ,   как
+T38	Date-absolute 744 771	после   завершения   обмена
+T39	Date-absolute 841 864	после   обмена   телами
 T40	Event 765 780	обмена   телами
 T41	Event 811 827	обмен   пленными
 T42	Event 849 875	обмена   телами   погибших
 T43	Event 1001 1006	войны
-T44	Date-period 993 1006	после   войны
+T44	Date-period-absolute 993 1006	после   войны
 T45	Quantity 96 122	Несколько   сотен   солдат
 T14	Event 207 225	военных   действий
-T48	Date-period 406 436	С   начала   боевых   действий
+T48	Date-period-absolute 406 436	С   начала   боевых   действий
 T49	Event 419 436	боевых   действий
 T50	GPE 443 451	Карабахе
 T51	Event 554 567	день   траура
 T52	Event 685 698	день   траура
 T46	Event 1378 1394	обмен   пленными
+A2	Past T33
+A3	Past-Pres T48
+A4	Future T37
+A5	Future T38
+A6	Future T39
+A7	Past T23
+A8	Present T34

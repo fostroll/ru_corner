@@ -1,14 +1,13 @@
 T1	Organization 0 7	Минтруд
 T2	GPE 78 84	России
-T3	Date-period 312 327	в   2020   году
+T3	Date-period-absolute 312 327	в   2020   году
 T4	Quantity 441 450	907   272
-T5	Date-period 518 533	в   2020   году
+T5	Date-period-absolute 518 533	в   2020   году
 T6	Money 536 555	11   882,28   рубля
 T7	Organization 622 626	ТАСС
 A1	Media T7
 T8	Date-absolute 649 664	на   1   ноября
 T9	Money 707 728	90,75   млрд   рублей
-T11	Date-absolute 839 849	2020   год
 T12	Money 889 908	126   млрд   рублей
 T13	Person 922 1044	старший   преподаватель   департамента   правовых   дисциплин   университета   ``   Синергия   ''   Наталия   Пшеничникова
 T14	Person-property 922 1019	старший   преподаватель   департамента   правовых   дисциплин   университета   ``   Синергия   ''
@@ -21,20 +20,18 @@ A2	Department T19
 T10	Percent 735 743	72,3   %
 T20	Family 287 292	семей
 T21	GPE 178 184	России
-T22	Date-absolute 191 202	2020   году
 T23	Money 216 232	11   882   рубля
 T24	Organization 254 262	Минтруде
 T25	Family 63 71	первенца
 T26	Family 163 171	первенца
 T27	Family 405 422	первого   ребёнка
-T28	Time-relative 914 919	Ранее
-A3	Past T22
-T29	Date-period 187 202	в   2020   году
-T30	Date-absolute 316 327	2020   году
-A4	Past T30
-T31	Date-absolute 522 533	2020   году
-A5	Past T31
-A6	Present T11
-T32	Date-period 834 849	на   2020   год
+T28	Date-relative 914 919	Ранее
+T29	Date-period-absolute 187 202	в   2020   году
+T32	Date-period-absolute 834 849	на   2020   год
 A7	Past T8
 A8	Past T16
+A9	Past T29
+A3	Past-Pres T3
+A4	Past T5
+A5	UNK-Fut T32
+A6	Past T28

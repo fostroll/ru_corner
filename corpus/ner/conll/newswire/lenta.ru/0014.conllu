@@ -4,7 +4,7 @@
 # sent_id = 0014-p1-s1
 # text = Противники Трампа начали собираться около Белого дома
 1	Противники	_	_	_	_	_	_	_	_
-2	Трампа	_	_	_	_	_	_	_	bratT1=Person
+2	Трампа	_	_	_	_	_	_	_	bratT1=Person|bratT53=Person-surname
 3	начали	_	_	_	_	_	_	_	_
 4	собираться	_	_	_	_	_	_	_	_
 5	около	_	_	_	_	_	_	_	_
@@ -19,8 +19,8 @@
 2	действующего	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
 3	президента	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
 4	США	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=GPE|bratT5=Person
-5	Дональда	_	_	_	_	_	_	_	bratT5=Person
-6	Трампа	_	_	_	_	_	_	_	bratT5=Person
+5	Дональда	_	_	_	_	_	_	_	bratT5=Person|bratT54=Person-forename
+6	Трампа	_	_	_	_	_	_	_	bratT5=Person|bratT55=Person-surname
 7	начали	_	_	_	_	_	_	_	_
 8	собираться	_	_	_	_	_	_	_	_
 9	около	_	_	_	_	_	_	_	_
@@ -55,9 +55,9 @@
 12	с	_	_	_	_	_	_	_	_
 13	криками	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-15	Трамп	_	_	_	_	_	_	_	bratT8=Person
+15	Трамп	_	_	_	_	_	_	_	bratT56=Person-surname|bratT8=Person
 16	и	_	_	_	_	_	_	_	_
-17	Пенс	_	_	_	_	_	_	_	bratT10=Person
+17	Пенс	_	_	_	_	_	_	_	bratT10=Person|bratT57=Person-surname
 18	-	_	_	_	_	_	_	_	_
 19	вон	_	_	_	_	_	_	_	SpaceAfter=No
 20	!	_	_	_	_	_	_	_	SpaceAfter=No
@@ -123,9 +123,9 @@
 4	приходят	_	_	_	_	_	_	_	_
 5	туда	_	_	_	_	_	_	_	_
 6	уже	_	_	_	_	_	_	_	_
-7	не	_	_	_	_	_	_	_	bratA2=T48:Present|bratT26=Ordinal|bratT48=Date-period|bratT50=Duration
-8	первый	_	_	_	_	_	_	_	bratA2=T48:Present|bratT26=Ordinal|bratT48=Date-period|bratT50=Duration
-9	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T48:Present|bratT48=Date-period|bratT50=Duration
+7	не	_	_	_	_	_	_	_	bratA2=T48:RCont|bratA4=T48:Past-Pres|bratT26=Ordinal|bratT48=Date-period-absolute|bratT50=Duration
+8	первый	_	_	_	_	_	_	_	bratA2=T48:RCont|bratA4=T48:Past-Pres|bratT26=Ordinal|bratT48=Date-period-absolute|bratT50=Duration
+9	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T48:RCont|bratA4=T48:Past-Pres|bratT48=Date-period-absolute|bratT50=Duration|bratT52=Duration
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p4-s3
@@ -146,12 +146,12 @@
 # par_text = Ранее адвокат Дональда Трампа Рудольф Джулиани заявил о возможных планах подать судебный иск по выборам на федеральном уровне. Также он пообещал искать «мертвые души» на выборах в Пенсильвании, конкретно в Филадельфии.
 # sent_id = 0014-p5-s1
 # text = Ранее адвокат Дональда Трампа Рудольф Джулиани заявил о возможных планах подать судебный иск по выборам на федеральном уровне.
-1	Ранее	_	_	_	_	_	_	_	bratT47=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA5=T47:Past|bratT47=Date-relative
 2	адвокат	_	_	_	_	_	_	_	bratT14=Person-property|bratT16=Person
-3	Дональда	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person|bratT16=Person
-4	Трампа	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person|bratT16=Person
-5	Рудольф	_	_	_	_	_	_	_	bratT16=Person
-6	Джулиани	_	_	_	_	_	_	_	bratT16=Person
+3	Дональда	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person|bratT16=Person|bratT58=Person-forename
+4	Трампа	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person|bratT16=Person|bratT59=Person-surname
+5	Рудольф	_	_	_	_	_	_	_	bratT16=Person|bratT60=Person-forename
+6	Джулиани	_	_	_	_	_	_	_	bratT16=Person|bratT61=Person-surname
 7	заявил	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
 9	возможных	_	_	_	_	_	_	_	_
@@ -214,19 +214,19 @@
 7	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property|bratT43=Person
 8	,	_	_	_	_	_	_	_	bratT43=Person
 9	республиканец	_	_	_	_	_	_	_	bratT30=Political-group|bratT43=Person
-10	Дональд	_	_	_	_	_	_	_	bratT43=Person
-11	Трамп	_	_	_	_	_	_	_	bratT43=Person
+10	Дональд	_	_	_	_	_	_	_	bratT43=Person|bratT62=Person-forename
+11	Трамп	_	_	_	_	_	_	_	bratT43=Person|bratT63=Person-surname
 12	и	_	_	_	_	_	_	_	_
 13	демократ	_	_	_	_	_	_	_	bratT31=Political-group|bratT33=Person
-14	Джо	_	_	_	_	_	_	_	bratT33=Person
-15	Байден	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person
+14	Джо	_	_	_	_	_	_	_	bratT33=Person|bratT64=Person-forename
+15	Байден	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person|bratT65=Person-surname
 16	,	_	_	_	_	_	_	_	_
 17	занимавший	_	_	_	_	_	_	_	_
 18	пост	_	_	_	_	_	_	_	_
 19	вице-президента	_	_	_	_	_	_	_	bratT34=Person-property
 20	при	_	_	_	_	_	_	_	_
-21	Бараке	_	_	_	_	_	_	_	bratT35=Person
-22	Обаме	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person
+21	Бараке	_	_	_	_	_	_	_	bratT35=Person|bratT66=Person-forename
+22	Обаме	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT67=Person-surname
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p6-s3
@@ -250,14 +250,14 @@
 # text = Пока у Байдена 264 голоса выборщиков, а у Трампа - 214.
 1	Пока	_	_	_	_	_	_	_	_
 2	у	_	_	_	_	_	_	_	_
-3	Байдена	_	_	_	_	_	_	_	bratT36=Person
+3	Байдена	_	_	_	_	_	_	_	bratT36=Person|bratT68=Person-surname
 4	264	_	_	_	_	_	_	_	bratT23=Quantity
 5	голоса	_	_	_	_	_	_	_	bratT23=Quantity
 6	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_
-10	Трампа	_	_	_	_	_	_	_	bratT37=Person
+10	Трампа	_	_	_	_	_	_	_	bratT37=Person|bratT69=Person-surname
 11	-	_	_	_	_	_	_	_	_
 12	214	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Quantity
 13	.	_	_	_	_	_	_	_	_
@@ -276,7 +276,7 @@
 10	еще	_	_	_	_	_	_	_	_
 11	нет	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
-13	Трамп	_	_	_	_	_	_	_	bratT40=Person
+13	Трамп	_	_	_	_	_	_	_	bratT40=Person|bratT70=Person-surname
 14	уже	_	_	_	_	_	_	_	_
 15	поздравил	_	_	_	_	_	_	_	_
 16	своих	_	_	_	_	_	_	_	_
@@ -289,7 +289,7 @@
 # text = В штабе Байдена также выразили уверенность в победе.
 1	В	_	_	_	_	_	_	_	_
 2	штабе	_	_	_	_	_	_	_	bratT38=Organization
-3	Байдена	_	_	_	_	_	_	_	bratT38=Organization|bratT41=Person
+3	Байдена	_	_	_	_	_	_	_	bratT38=Organization|bratT41=Person|bratT71=Person-surname
 4	также	_	_	_	_	_	_	_	_
 5	выразили	_	_	_	_	_	_	_	_
 6	уверенность	_	_	_	_	_	_	_	_

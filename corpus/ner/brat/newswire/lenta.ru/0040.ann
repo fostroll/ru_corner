@@ -21,7 +21,7 @@ T17	Other-term 46 56	наркотиков
 T18	Other-term 214 223	наркотики
 T19	Other-term 1041 1066	наркотическим   веществом
 T20	Person-property 895 903	силовики
-T21	Time-relative 1130 1155	через   несколько   часов
+T21	Date-relative 1130 1155	через   несколько   часов
 T22	Person-property 1158 1173	правоохранители
 T23	Person-property 1431 1447	сотрудники   ФСБ
 T24	Person-property 1464 1475	полицейских
@@ -36,7 +36,13 @@ T31	Family 840 844	жена
 T32	Family 1115 1119	мужа
 T33	Organization 1444 1447	ФСБ
 T34	Organization 336 369	Следственного   комитета   России
-T39	Time-relative 1423 1428	Позже
-T40	Time-relative 1537 1543	Теперь
+T39	Date-relative 1423 1428	Позже
+T40	Date-absolute 1537 1543	Теперь
 A5	Past T15
 T35	Duration 1138 1155	несколько   часов
+A6	Past T21
+A7	Past T39
+A8	Future T40
+T36	Duration 600 614	долгое   время
+T37	Date-period-relative 600 614	долгое   время
+A9	Past T37

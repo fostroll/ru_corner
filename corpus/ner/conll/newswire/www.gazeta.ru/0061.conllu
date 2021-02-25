@@ -61,7 +61,7 @@
 4	диагноз	_	_	_	_	_	_	_	_
 5	пневмония	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-term
 6	,	_	_	_	_	_	_	_	_
-7	ранее	_	_	_	_	_	_	_	bratT35=Date-relative
+7	ранее	_	_	_	_	_	_	_	bratA3=T35:Past|bratT35=Date-relative
 8	они	_	_	_	_	_	_	_	_
 9	получили	_	_	_	_	_	_	_	_
 10	положительный	_	_	_	_	_	_	_	_
@@ -78,9 +78,9 @@
 1	Всего	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
 3	мире	_	_	_	_	_	_	_	bratT36=GPE
-4	с	_	_	_	_	_	_	_	bratT34=Date-period
-5	начала	_	_	_	_	_	_	_	bratT34=Date-period
-6	пандемии	_	_	_	_	_	_	_	bratT33=Event|bratT34=Date-period
+4	с	_	_	_	_	_	_	_	bratA1=T34:Past-Pres|bratT34=Date-period-absolute
+5	начала	_	_	_	_	_	_	_	bratA1=T34:Past-Pres|bratT34=Date-period-absolute
+6	пандемии	_	_	_	_	_	_	_	bratA1=T34:Past-Pres|bratT33=Event|bratT34=Date-period-absolute
 7	зарегистрировано	_	_	_	_	_	_	_	_
 8	свыше	_	_	_	_	_	_	_	bratT10=Quantity
 9	59,5	_	_	_	_	_	_	_	bratT10=Quantity
@@ -156,19 +156,19 @@
 
 # sent_id = 0061-p5-s6
 # text = 15 октября президент России Владимир Путин рассказал о регистрации второй вакцины от COVID-19, которая получила название ``ЭпиВакКорона''.
-1	15	_	_	_	_	_	_	_	bratT22=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT22=Date-absolute
+1	15	_	_	_	_	_	_	_	bratA2=T22:Past|bratT22=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA2=T22:Past|bratT22=Date-absolute
 3	президент	_	_	_	_	_	_	_	bratT23=Person|bratT24=Person-property
 4	России	_	_	_	_	_	_	_	bratT23=Person|bratT24=Person-property|bratT25=GPE
 5	Владимир	_	_	_	_	_	_	_	bratT23=Person
 6	Путин	_	_	_	_	_	_	_	bratT23=Person
 7	рассказал	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
-9	регистрации	_	_	_	_	_	_	_	_
-10	второй	_	_	_	_	_	_	_	bratT26=Ordinal
-11	вакцины	_	_	_	_	_	_	_	bratT31=Other-term
-12	от	_	_	_	_	_	_	_	_
-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term
+9	регистрации	_	_	_	_	_	_	_	bratT38=Event
+10	второй	_	_	_	_	_	_	_	bratT26=Ordinal|bratT38=Event
+11	вакцины	_	_	_	_	_	_	_	bratT31=Other-term|bratT38=Event
+12	от	_	_	_	_	_	_	_	bratT38=Event
+13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term|bratT38=Event
 14	,	_	_	_	_	_	_	_	_
 15	которая	_	_	_	_	_	_	_	_
 16	получила	_	_	_	_	_	_	_	_

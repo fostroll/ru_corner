@@ -8,7 +8,7 @@ T6	Date-absolute 383 394	21   ноября
 T7	GPE 411 417	Ереван
 T8	GPE 424 428	Баку
 T9	Quantity 544 556	трёх   стран
-T10	Date-absolute 564 574	9   ноября
+T10	Date-absolute 559 574	от   9   ноября
 T11	Person-property 667 691	российских   миротворцев
 T12	GPE 698 727	районе   Нагорного   Карабаха
 T13	Person 984 989	Путин
@@ -29,17 +29,30 @@ T27	Person 161 210	премьер-министром   Армении   Нико
 T28	Person-property 217 243	президентом   Азербайджана
 T29	GPE 231 243	Азербайджана
 T30	Person 217 264	президентом   Азербайджана   Ильхамом   Алиевым
-T31	Date-relative 593 615	в   ходе   переговоров
-T32	Time-relative 976 981	Ранее
+T31	Date-absolute 593 615	в   ходе   переговоров
+T32	Date-relative 976 981	Ранее
 T33	Age 1303 1314	многолетнем
 A2	Past T24
 A3	Plural T24
-T34	Date-absolute 99 101	23
-A4	Past T34
-T35	Date-absolute 108 119	24   ноября
-A5	Past T35
 A6	Past T6
 T36	Person-property 534 556	лидеров   трёх   стран
 A7	Past T10
 T37	Event 604 615	переговоров
 A8	Past T31
+A4	Past T32
+T34	Person-surname 0 5	Путин
+T35	Person-surname 34 43	Пашиняном
+T38	Person-surname 50 57	Алиевым
+T39	Person-forename 80 88	Владимир
+T40	Person-surname 91 96	Путин
+T41	Person-forename 191 198	Николом
+T42	Person-surname 201 210	Пашиняном
+T43	Person-forename 246 254	Ильхамом
+T44	Person-surname 257 264	Алиевым
+T45	GPE 59 69	Российский
+T46	GPE 431 441	российской
+T47	GPE 667 677	российских
+T48	Person-surname 984 989	Путин
+T49	Person-surname 1228 1233	Алиев
+T50	Person-surname 1337 1344	Пашинян
+T51	GPE 1409 1419	российских

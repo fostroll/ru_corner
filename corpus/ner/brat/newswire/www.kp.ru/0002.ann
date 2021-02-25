@@ -1,6 +1,6 @@
 T1	Person-property 23 34	страховщики
 T2	Date-absolute 78 93	в   2020   году
-T3	Date-absolute 109 120	2020   года
+T3	Date-period-absolute 109 120	2020   года
 T4	Person-property 127 151	российские   страховщики
 T5	Money 185 210	305   миллиардов   рублей
 T6	Event 261 284	пандемии   коронавируса
@@ -13,19 +13,31 @@ T13	Organization 682 711	``   Российская   газета   ''
 A1	Media T13
 T14	Organization 734 737	НКР
 T15	Date-absolute 744 759	в   2021   году
-T16	Date-relative 555 570	прошлого   года
+T16	Date-period-absolute 555 570	прошлого   года
 T17	Person-property 893 905	страховщиков
 T18	Percent 921 933	на   7,3   %
-T19	Date-period 946 974	в   последующие   два   года
+T19	Date-relative 946 974	в   последующие   два   года
 T20	Person-property 977 989	страховщикам
 T21	Date-absolute 1035 1046	2020   года
 T22	Organization 1067 1070	НКР
 T23	Event 1260 1282	пандемии   коронавирса
-T8	Date-period 457 491	девяти   месяцев   текущего   года
+T8	Date-period-absolute 457 491	девяти   месяцев   текущего   года
 T24	Event 12 20	пандемии
 T25	Event 334 342	пандемия
 T26	Event 349 371	вынужденный   карантин
 T27	Ordinal 950 961	последующие
-T28	Date-period 1246 1268	до   начала   пандемии
+T28	Date-absolute 1246 1268	до   начала   пандемии
 T29	Other-term 1271 1282	коронавирса
 T30	Other-term 272 284	коронавируса
+A2	Future T2
+A3	Past-Fut T3
+A4	Past T16
+A5	Past T8
+T31	Duration 457 473	девяти   месяцев
+A6	Future T15
+A7	Past T21
+T32	Duration 964 974	два   года
+A8	Future T19
+A9	Past T28
+T33	Ordinal 476 484	текущего
+T34	Ordinal 555 563	прошлого

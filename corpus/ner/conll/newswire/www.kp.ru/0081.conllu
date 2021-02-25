@@ -42,7 +42,7 @@
 6	происходившем	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	роковую	_	_	_	_	_	_	_	_
-9	ночь	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Time-period
+9	ночь	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T32:Past|bratT19=Time-absolute|bratT32=Date-period-relative
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p3
@@ -50,9 +50,9 @@
 # sent_id = 0081-p3-s1
 # text = Наталья в тот вечер с другом пошла в кинотеатр.
 1	Наталья	_	_	_	_	_	_	_	bratT6=Person
-2	в	_	_	_	_	_	_	_	bratT20=Time-period
-3	тот	_	_	_	_	_	_	_	bratT20=Time-period
-4	вечер	_	_	_	_	_	_	_	bratT20=Time-period
+2	в	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-relative
+3	тот	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-relative
+4	вечер	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-relative|bratT33=Time-absolute
 5	с	_	_	_	_	_	_	_	_
 6	другом	_	_	_	_	_	_	_	_
 7	пошла	_	_	_	_	_	_	_	_
@@ -64,10 +64,10 @@
 # text = Это был последний день перед локдауном, поэтому на улицах было шумно.
 1	Это	_	_	_	_	_	_	_	_
 2	был	_	_	_	_	_	_	_	_
-3	последний	_	_	_	_	_	_	_	bratT21=Ordinal|bratT22=Date-period
-4	день	_	_	_	_	_	_	_	bratT22=Date-period
-5	перед	_	_	_	_	_	_	_	bratT22=Date-period
-6	локдауном	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-period|bratT28=Event
+3	последний	_	_	_	_	_	_	_	bratA7=T22:Past|bratT21=Ordinal|bratT22=Date-absolute
+4	день	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-absolute|bratT34=Duration
+5	перед	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-absolute
+6	локдауном	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Past|bratT22=Date-absolute|bratT28=Event
 7	,	_	_	_	_	_	_	_	_
 8	поэтому	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
@@ -81,9 +81,9 @@
 # sent_id = 0081-p4-s1
 # text = - Перед началом сеанса я сидела в кафе и ждала друга.
 1	-	_	_	_	_	_	_	_	_
-2	Перед	_	_	_	_	_	_	_	bratT23=Date-period
-3	началом	_	_	_	_	_	_	_	bratT23=Date-period
-4	сеанса	_	_	_	_	_	_	_	bratT23=Date-period
+2	Перед	_	_	_	_	_	_	_	bratA12=T23:Past|bratT23=Date-absolute
+3	началом	_	_	_	_	_	_	_	bratA12=T23:Past|bratT23=Date-absolute
+4	сеанса	_	_	_	_	_	_	_	bratA12=T23:Past|bratT23=Date-absolute
 5	я	_	_	_	_	_	_	_	_
 6	сидела	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
@@ -96,8 +96,8 @@
 # sent_id = 0081-p4-s2
 # text = Было около 20.00.
 1	Было	_	_	_	_	_	_	_	_
-2	около	_	_	_	_	_	_	_	bratT7=Time-absolute
-3	20.00	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Time-absolute
+2	около	_	_	_	_	_	_	_	bratA8=T35:Past|bratT35=Date-relative|bratT7=Time-absolute
+3	20.00	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T35:Past|bratT35=Date-relative|bratT7=Time-absolute
 4	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p4-s3
@@ -126,8 +126,8 @@
 # par_text = Долгое время никаких новостей о трагедии не было, а спустя час людям стали приходить сообщения, что а городе теракт, в центре слышны выстрелы.
 # sent_id = 0081-p5-s1
 # text = Долгое время никаких новостей о трагедии не было, а спустя час людям стали приходить сообщения, что а городе теракт, в центре слышны выстрелы.
-1	Долгое	_	_	_	_	_	_	_	bratT24=Date-duration
-2	время	_	_	_	_	_	_	_	bratT24=Date-duration
+1	Долгое	_	_	_	_	_	_	_	bratA13=T38:Past|bratT24=Duration|bratT38=Date-period-relative
+2	время	_	_	_	_	_	_	_	bratA13=T38:Past|bratT24=Duration|bratT38=Date-period-relative
 3	никаких	_	_	_	_	_	_	_	_
 4	новостей	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
@@ -136,8 +136,8 @@
 8	было	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
-11	спустя	_	_	_	_	_	_	_	bratT17=Time-relative
-12	час	_	_	_	_	_	_	_	bratT17=Time-relative
+11	спустя	_	_	_	_	_	_	_	bratA10=T17:Past|bratT17=Date-relative
+12	час	_	_	_	_	_	_	_	bratA10=T17:Past|bratT17=Date-relative|bratT36=Duration
 13	людям	_	_	_	_	_	_	_	_
 14	стали	_	_	_	_	_	_	_	_
 15	приходить	_	_	_	_	_	_	_	_
@@ -206,9 +206,9 @@
 11	города	_	_	_	_	_	_	_	_
 12	был	_	_	_	_	_	_	_	_
 13	оцеплен	_	_	_	_	_	_	_	_
-14	до	_	_	_	_	_	_	_	bratT12=Time-period
-15	часа	_	_	_	_	_	_	_	bratT12=Time-period
-16	ночи	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Time-period
+14	до	_	_	_	_	_	_	_	bratA9=T12:Past|bratT12=Date-period-relative
+15	часа	_	_	_	_	_	_	_	bratA9=T12:Past|bratT12=Date-period-relative|bratT37=Time-absolute
+16	ночи	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Past|bratT12=Date-period-relative|bratT37=Time-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p8
@@ -277,9 +277,9 @@
 
 # sent_id = 0081-p9-s2
 # text = В момент трагедии она находилась на окраине, но даже там были слышны выстрелы и тревожные звуки сирен.
-1	В	_	_	_	_	_	_	_	bratT26=Date-relative
-2	момент	_	_	_	_	_	_	_	bratT26=Date-relative
-3	трагедии	_	_	_	_	_	_	_	bratT26=Date-relative
+1	В	_	_	_	_	_	_	_	bratA11=T26:Past|bratT26=Date-absolute
+2	момент	_	_	_	_	_	_	_	bratA11=T26:Past|bratT26=Date-absolute
+3	трагедии	_	_	_	_	_	_	_	bratA11=T26:Past|bratT26=Date-absolute
 4	она	_	_	_	_	_	_	_	_
 5	находилась	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_

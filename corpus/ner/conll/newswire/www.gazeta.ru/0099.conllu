@@ -42,7 +42,7 @@
 2	завершилась	_	_	_	_	_	_	_	_
 3	со	_	_	_	_	_	_	_	_
 4	счетом	_	_	_	_	_	_	_	_
-5	3:1	_	_	_	_	_	_	_	bratT8=Cardinal
+5	3:1	_	_	_	_	_	_	_	bratT8=Quantity
 6	в	_	_	_	_	_	_	_	_
 7	пользу	_	_	_	_	_	_	_	_
 8	клуба	_	_	_	_	_	_	_	_
@@ -61,10 +61,10 @@
 5	итальянский	_	_	_	_	_	_	_	_
 6	клуб	_	_	_	_	_	_	_	_
 7	уже	_	_	_	_	_	_	_	_
-8	на	_	_	_	_	_	_	_	bratT10=Time-relative
-9	3-й	_	_	_	_	_	_	_	bratT10=Time-relative|bratT53=Ordinal
-10	минуте	_	_	_	_	_	_	_	bratT10=Time-relative
-11	игры	_	_	_	_	_	_	_	SpaceAfter=No
+8	на	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-absolute
+9	3-й	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-absolute|bratT53=Ordinal
+10	минуте	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-absolute
+11	игры	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Past|bratT10=Date-absolute
 12	,	_	_	_	_	_	_	_	_
 13	отличился	_	_	_	_	_	_	_	_
 14	Чиро	_	_	_	_	_	_	_	bratT11=Person
@@ -73,18 +73,18 @@
 
 # sent_id = 0099-p4-s2
 # text = На 22-й минуте Марко Пароло удвоил счет, однако через три минуты Артем Дзюба сумел отыграть один мяч петербургской команды.
-1	На	_	_	_	_	_	_	_	bratT12=Time-relative
-2	22-й	_	_	_	_	_	_	_	bratT12=Time-relative|bratT54=Ordinal
-3	минуте	_	_	_	_	_	_	_	bratT12=Time-relative
+1	На	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-relative
+2	22-й	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-relative|bratT54=Ordinal
+3	минуте	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-relative
 4	Марко	_	_	_	_	_	_	_	bratT45=Person
 5	Пароло	_	_	_	_	_	_	_	bratT45=Person
 6	удвоил	_	_	_	_	_	_	_	_
 7	счет	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	однако	_	_	_	_	_	_	_	_
-10	через	_	_	_	_	_	_	_	bratT46=Time-relative
-11	три	_	_	_	_	_	_	_	bratT46=Time-relative
-12	минуты	_	_	_	_	_	_	_	bratT46=Time-relative
+10	через	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-relative
+11	три	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-relative|bratT57=Duration
+12	минуты	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-relative|bratT57=Duration
 13	Артем	_	_	_	_	_	_	_	bratT47=Person
 14	Дзюба	_	_	_	_	_	_	_	bratT47=Person
 15	сумел	_	_	_	_	_	_	_	_
@@ -99,9 +99,9 @@
 # par_text = На 55-й минуте Иммобиле оформил дубль, реализовав пенальти.
 # sent_id = 0099-p5-s1
 # text = На 55-й минуте Иммобиле оформил дубль, реализовав пенальти.
-1	На	_	_	_	_	_	_	_	bratT49=Time-relative
-2	55-й	_	_	_	_	_	_	_	bratT49=Time-relative|bratT52=Ordinal
-3	минуте	_	_	_	_	_	_	_	bratT49=Time-relative
+1	На	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-relative
+2	55-й	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-relative|bratT52=Ordinal
+3	минуте	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-relative
 4	Иммобиле	_	_	_	_	_	_	_	bratT13=Person
 5	оформил	_	_	_	_	_	_	_	_
 6	дубль	_	_	_	_	_	_	_	SpaceAfter=No
@@ -127,9 +127,9 @@
 # par_text = После четвертого тура «Лацио» идет на второй строчке в группе, имея 8 очков. «Зенит» расположился на последней, набрав всего один балл.
 # sent_id = 0099-p7-s1
 # text = После четвертого тура ``Лацио'' идет на второй строчке в группе, имея 8 очков.
-1	После	_	_	_	_	_	_	_	bratT56=Date-period
-2	четвертого	_	_	_	_	_	_	_	bratT16=Ordinal|bratT56=Date-period
-3	тура	_	_	_	_	_	_	_	bratT56=Date-period
+1	После	_	_	_	_	_	_	_	bratA6=T56:Present|bratT56=Date-absolute
+2	четвертого	_	_	_	_	_	_	_	bratA6=T56:Present|bratT16=Ordinal|bratT56=Date-absolute
+3	тура	_	_	_	_	_	_	_	bratA6=T56:Present|bratT56=Date-absolute
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
 5	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
 6	''	_	_	_	_	_	_	_	bratT17=Organization
@@ -164,7 +164,7 @@
 # par_text = Ранее сообщалось, что «Краснодар» потерял шансы выйти в плей-офф Лиги чемпионов.
 # sent_id = 0099-p8-s1
 # text = Ранее сообщалось, что ``Краснодар'' потерял шансы выйти в плей-офф Лиги чемпионов.
-1	Ранее	_	_	_	_	_	_	_	bratT55=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA7=T55:Past|bratT55=Date-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -209,31 +209,31 @@
 12	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE|bratT50=Event
 13	)	_	_	_	_	_	_	_	bratT50=Event
 14	-	_	_	_	_	_	_	_	_
-15	3:1	_	_	_	_	_	_	_	bratT32=Cardinal
+15	3:1	_	_	_	_	_	_	_	bratT32=Quantity
 
 # sent_id = 0099-p9-s4
 # text = Голы: 1:0 - Иммобиле, 3; 2:0 - Пароло, 22; 2:1 - Дзюба, 25; 3:1 - Иммобиле (пенальти), 55.
 1	Голы	_	_	_	_	_	_	_	SpaceAfter=No
 2	:	_	_	_	_	_	_	_	_
-3	1:0	_	_	_	_	_	_	_	bratT33=Cardinal
+3	1:0	_	_	_	_	_	_	_	bratT33=Quantity
 4	-	_	_	_	_	_	_	_	_
 5	Иммобиле	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person
 6	,	_	_	_	_	_	_	_	_
-7	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Cardinal
+7	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity
 8	;	_	_	_	_	_	_	_	_
-9	2:0	_	_	_	_	_	_	_	bratT35=Cardinal
+9	2:0	_	_	_	_	_	_	_	bratT35=Quantity
 10	-	_	_	_	_	_	_	_	_
 11	Пароло	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person
 12	,	_	_	_	_	_	_	_	_
-13	22	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Cardinal
+13	22	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Quantity
 14	;	_	_	_	_	_	_	_	_
-15	2:1	_	_	_	_	_	_	_	bratT37=Cardinal
+15	2:1	_	_	_	_	_	_	_	bratT37=Quantity
 16	-	_	_	_	_	_	_	_	_
-17	Дзюба	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Cardinal
+17	Дзюба	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person
 18	,	_	_	_	_	_	_	_	_
-19	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Cardinal
+19	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Quantity
 20	;	_	_	_	_	_	_	_	_
-21	3:1	_	_	_	_	_	_	_	bratT42=Cardinal
+21	3:1	_	_	_	_	_	_	_	bratT42=Quantity
 22	-	_	_	_	_	_	_	_	_
 23	Иммобиле	_	_	_	_	_	_	_	bratT43=Person
 24	(	_	_	_	_	_	_	_	SpaceAfter=No

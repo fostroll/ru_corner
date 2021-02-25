@@ -28,16 +28,17 @@ A4	Media T21
 T26	Other-term 1336 1349	коронавирусом
 T12	Duration 239 248	два   дня
 T27	Quantity 836 860	еще   нескольких   людей
-T28	Time-relative 1195 1200	Ранее
-T29	Date-relative 1300 1316	после   контакта
+T28	Date-relative 1195 1200	Ранее
+T29	Date-absolute 1300 1316	после   контакта
 A5	Past T9
 A6	Past T10
-T32	Date-period 239 257	два   дня   подряд
+T32	Date-period-relative 239 257	два   дня   подряд
 A11	Past T32
 A12	Past T29
 T13	Date-absolute 547 565	15   и   16   июля
 A7	Past T13
-T30	Date-absolute 547 549	15
-A8	Past T30
-T31	Date-absolute 556 565	16   июля
-A9	Past T31
+A8	Past T28
+T30	Person-forename 1255 1260	Борис
+T31	Person-surname 1263 1270	Джонсон
+T33	Person-forename 1439 1441	Ли
+T34	Person-surname 1444 1453	Андерсоне

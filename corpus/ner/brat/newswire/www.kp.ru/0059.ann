@@ -14,9 +14,9 @@ T13	Person-property 503 511	эксперты
 T14	Quantity 545 578	более   74   тысяч   добровольцев
 T15	Quantity 585 612	26   российских   субъектах
 T16	Ordinal 619 625	второй
-T18	Date-period 647 691	в   сентябре   и   октября   текущего   года
+T18	Date-period-absolute 647 691	в   сентябре   и   октября   текущего   года
 T19	Ordinal 698 704	третий
-T20	Date-period 715 729	ноябре-декабре
+T20	Date-period-absolute 715 729	ноябре-декабре
 T21	Ordinal 750 757	первого
 T22	Percent 819 844	4,3   -   50,2   процента
 T23	Ordinal 860 867	второму
@@ -34,5 +34,14 @@ T33	Person-property 1121 1137	московский   мэр
 T34	Other-term 1200 1225	коронавирусной   инфекции
 T35	Quantity 1245 1283	примерно   2,5-3   миллионов   жителей
 T36	GPE 1286 1306	российской   столицы
-T38	Date-period 739 765	В   ходе   первого   этапа
-T39	Date-relative 1113 1118	Ранее
+T38	Date-period-absolute 739 765	В   ходе   первого   этапа
+T17	Ordinal 337 342	этого
+T37	Ordinal 676 684	текущего
+A2	Past T18
+A3	Past T20
+A4	Past T9
+A5	Past T38
+T40	Date-absolute 855 867	ко   второму
+A6	Past T40
+T41	Date-relative 1113 1118	Ранее
+A7	Past T41

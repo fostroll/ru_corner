@@ -12,10 +12,10 @@
 # par_text = Российский космонавт Сергей Рыжиков стал командиром Международной космической станции (МКС), приняв эстафету от американца Кристофера Кэссиди. Трансляция церемонии велась на сайте НАСА, передает РИА Новости.
 # sent_id = 0070-p2-s1
 # text = Российский космонавт Сергей Рыжиков стал командиром Международной космической станции (МКС), приняв эстафету от американца Кристофера Кэссиди.
-1	Российский	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
+1	Российский	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person|bratT43=GPE
 2	космонавт	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-3	Сергей	_	_	_	_	_	_	_	bratT4=Person
-4	Рыжиков	_	_	_	_	_	_	_	bratT4=Person
+3	Сергей	_	_	_	_	_	_	_	bratT4=Person|bratT50=Person-forename
+4	Рыжиков	_	_	_	_	_	_	_	bratT4=Person|bratT51=Person-surname
 5	стал	_	_	_	_	_	_	_	_
 6	командиром	_	_	_	_	_	_	_	bratT28=Person-property
 7	Международной	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Organization
@@ -29,8 +29,8 @@
 15	эстафету	_	_	_	_	_	_	_	_
 16	от	_	_	_	_	_	_	_	_
 17	американца	_	_	_	_	_	_	_	bratA2=T6:Citizenship|bratT5=Person|bratT6=Nationality
-18	Кристофера	_	_	_	_	_	_	_	bratT5=Person
-19	Кэссиди	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+18	Кристофера	_	_	_	_	_	_	_	bratT5=Person|bratT52=Person-forename
+19	Кэссиди	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person|bratT53=Person-surname
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0070-p2-s2
@@ -51,13 +51,13 @@
 # par_text = Кэссиди в американском модуле Destiny передал Рыжикову символический ключ от МКС. Церемония прошла в присутствии шестерых членов объединенного экипажа.
 # sent_id = 0070-p3-s1
 # text = Кэссиди в американском модуле Destiny передал Рыжикову символический ключ от МКС.
-1	Кэссиди	_	_	_	_	_	_	_	bratT8=Person
+1	Кэссиди	_	_	_	_	_	_	_	bratT54=Person-forename|bratT8=Person
 2	в	_	_	_	_	_	_	_	_
-3	американском	_	_	_	_	_	_	_	_
+3	американском	_	_	_	_	_	_	_	bratT13=Facility|bratT47=GPE
 4	модуле	_	_	_	_	_	_	_	bratT13=Facility
 5	Destiny	_	_	_	_	_	_	_	bratT13=Facility
 6	передал	_	_	_	_	_	_	_	_
-7	Рыжикову	_	_	_	_	_	_	_	bratT7=Person
+7	Рыжикову	_	_	_	_	_	_	_	bratT55=Person-surname|bratT7=Person
 8	символический	_	_	_	_	_	_	_	_
 9	ключ	_	_	_	_	_	_	_	_
 10	от	_	_	_	_	_	_	_	_
@@ -80,8 +80,8 @@
 # par_text = Кристофер Кэссиди 22 октября вернется с МКС на Землю вместе с российскими космонавтами Анатолием Иванишиными и Иваном Вагнером на корабле «Союз МС-16». Сергей Рыжиков вместе с россиянином Сергеем Кудь-Сверчковым и американкой Кэтлин Рубинс продолжит полет на МКС до апреля 2021 года.
 # sent_id = 0070-p4-s1
 # text = Кристофер Кэссиди 22 октября вернется с МКС на Землю вместе с российскими космонавтами Анатолием Иванишиными и Иваном Вагнером на корабле ``Союз МС-16''.
-1	Кристофер	_	_	_	_	_	_	_	bratT9=Person
-2	Кэссиди	_	_	_	_	_	_	_	bratT9=Person
+1	Кристофер	_	_	_	_	_	_	_	bratT56=Person-forename|bratT9=Person
+2	Кэссиди	_	_	_	_	_	_	_	bratT57=Person-surname|bratT9=Person
 3	22	_	_	_	_	_	_	_	bratA9=T14:Future|bratT14=Date-absolute
 4	октября	_	_	_	_	_	_	_	bratA9=T14:Future|bratT14=Date-absolute
 5	вернется	_	_	_	_	_	_	_	_
@@ -91,13 +91,13 @@
 9	Землю	_	_	_	_	_	_	_	bratT15=Location
 10	вместе	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
-12	российскими	_	_	_	_	_	_	_	_
+12	российскими	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT16=Person-property|bratT48=GPE
 13	космонавтами	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT16=Person-property
-14	Анатолием	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT44=Person
-15	Иванишиными	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT44=Person
+14	Анатолием	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT44=Person|bratT58=Person-forename
+15	Иванишиными	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT44=Person|bratT59=Person-surname
 16	и	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person
-17	Иваном	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT45=Person
-18	Вагнером	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT45=Person
+17	Иваном	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT45=Person|bratT60=Person-forename
+18	Вагнером	_	_	_	_	_	_	_	bratA6=T10:Plural|bratT10=Person|bratT45=Person|bratT61=Person-surname
 19	на	_	_	_	_	_	_	_	_
 20	корабле	_	_	_	_	_	_	_	bratA7=T17:Unconscious|bratT17=Person
 21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
@@ -108,34 +108,34 @@
 
 # sent_id = 0070-p4-s2
 # text = Сергей Рыжиков вместе с россиянином Сергеем Кудь-Сверчковым и американкой Кэтлин Рубинс продолжит полет на МКС до апреля 2021 года.
-1	Сергей	_	_	_	_	_	_	_	bratT18=Person
-2	Рыжиков	_	_	_	_	_	_	_	bratT18=Person
+1	Сергей	_	_	_	_	_	_	_	bratT18=Person|bratT62=Person-forename
+2	Рыжиков	_	_	_	_	_	_	_	bratT18=Person|bratT63=Person-surname
 3	вместе	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
 5	россиянином	_	_	_	_	_	_	_	bratA4=T19:Citizenship|bratT19=Nationality|bratT20=Person
-6	Сергеем	_	_	_	_	_	_	_	bratT20=Person
-7	Кудь-Сверчковым	_	_	_	_	_	_	_	bratT20=Person
+6	Сергеем	_	_	_	_	_	_	_	bratT20=Person|bratT64=Person-forename
+7	Кудь-Сверчковым	_	_	_	_	_	_	_	bratT20=Person|bratT65=Person-surname
 8	и	_	_	_	_	_	_	_	_
 9	американкой	_	_	_	_	_	_	_	bratA5=T21:Citizenship|bratT21=Nationality|bratT22=Person
-10	Кэтлин	_	_	_	_	_	_	_	bratT22=Person
-11	Рубинс	_	_	_	_	_	_	_	bratT22=Person
+10	Кэтлин	_	_	_	_	_	_	_	bratT22=Person|bratT66=Person-forename
+11	Рубинс	_	_	_	_	_	_	_	bratT22=Person|bratT67=Person-surname
 12	продолжит	_	_	_	_	_	_	_	_
 13	полет	_	_	_	_	_	_	_	_
 14	на	_	_	_	_	_	_	_	_
 15	МКС	_	_	_	_	_	_	_	bratT34=Facility
-16	до	_	_	_	_	_	_	_	bratT23=Date-period
-17	апреля	_	_	_	_	_	_	_	bratA12=T43:Future|bratT23=Date-period|bratT43=Date-absolute
-18	2021	_	_	_	_	_	_	_	bratA12=T43:Future|bratT23=Date-period|bratT43=Date-absolute
-19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Future|bratT23=Date-period|bratT43=Date-absolute
+16	до	_	_	_	_	_	_	_	bratA13=T23:Pres-Fut|bratT23=Date-period-absolute
+17	апреля	_	_	_	_	_	_	_	bratA13=T23:Pres-Fut|bratT23=Date-period-absolute
+18	2021	_	_	_	_	_	_	_	bratA13=T23:Pres-Fut|bratT23=Date-period-absolute
+19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T23:Pres-Fut|bratT23=Date-period-absolute
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0070-p5
 # par_text = В последнее время на МКС участились случаи нештатных ситуаций. Так, 11 октября в российском сегменте уже ломался туалет, на его починку потребовался день. Кроме того, космонавты столкнулись с утечкой воздуха. Дырку долго не могли обнаружить, для ее поиска предлагались варианты с ватой и чайными пакетиками. 15 октября утечка была найдена, трещина достигает двух-четырех сантиметров, ее заклеили каптоновой лентой.
 # sent_id = 0070-p5-s1
 # text = В последнее время на МКС участились случаи нештатных ситуаций.
-1	В	_	_	_	_	_	_	_	bratT40=Date-period
-2	последнее	_	_	_	_	_	_	_	bratA15=T47:Past|bratT35=Ordinal|bratT40=Date-period|bratT47=Date-absolute
-3	время	_	_	_	_	_	_	_	bratA15=T47:Past|bratT40=Date-period|bratT47=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA12=T40:RCont|bratA15=T40:Past-Pres|bratT40=Date-period-absolute
+2	последнее	_	_	_	_	_	_	_	bratA12=T40:RCont|bratA15=T40:Past-Pres|bratT35=Ordinal|bratT40=Date-period-absolute
+3	время	_	_	_	_	_	_	_	bratA12=T40:RCont|bratA15=T40:Past-Pres|bratT40=Date-period-absolute
 4	на	_	_	_	_	_	_	_	_
 5	МКС	_	_	_	_	_	_	_	bratT37=Facility
 6	участились	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 3	11	_	_	_	_	_	_	_	bratA10=T24:Past|bratT24=Date-absolute
 4	октября	_	_	_	_	_	_	_	bratA10=T24:Past|bratT24=Date-absolute
 5	в	_	_	_	_	_	_	_	_
-6	российском	_	_	_	_	_	_	_	_
+6	российском	_	_	_	_	_	_	_	bratT49=GPE
 7	сегменте	_	_	_	_	_	_	_	_
 8	уже	_	_	_	_	_	_	_	_
 9	ломался	_	_	_	_	_	_	_	_
@@ -161,7 +161,7 @@
 13	его	_	_	_	_	_	_	_	_
 14	починку	_	_	_	_	_	_	_	_
 15	потребовался	_	_	_	_	_	_	_	_
-16	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Past|bratT33=Duration|bratT46=Date-period
+16	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Past|bratT33=Duration|bratT46=Date-period-relative
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0070-p5-s3

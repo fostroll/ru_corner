@@ -10,7 +10,7 @@
 5	выборах	_	_	_	_	_	_	_	bratT5=Event
 6	президента	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Event
 7	США	_	_	_	_	_	_	_	bratT2=GPE|bratT4=Person-property|bratT5=Event
-8	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Date-absolute|bratT5=Event
+8	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T3:Present|bratT3=Date-absolute|bratT5=Event
 9	:	_	_	_	_	_	_	_	_
 10	первая	_	_	_	_	_	_	_	bratT6=Ordinal|bratT7=Person-property
 11	леди	_	_	_	_	_	_	_	bratT7=Person-property
@@ -27,12 +27,12 @@
 # par_text = Во вторник утром, 3 ноября, состоялось голосование Меланьи Трамп на выборах президента Соединённых Штатов 2020 года. Супруга американского лидера проголосовала на избирательном участке в Палм-Бич, в штате Флорида. Об этом сообщает пресс-пул Белого дома.
 # sent_id = 0122-p2-s1
 # text = Во вторник утром, 3 ноября, состоялось голосование Меланьи Трамп на выборах президента Соединённых Штатов 2020 года.
-1	Во	_	_	_	_	_	_	_	bratT8=Date-absolute
-2	вторник	_	_	_	_	_	_	_	bratT8=Date-absolute
-3	утром	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Time-period|bratT8=Date-absolute
-4	,	_	_	_	_	_	_	_	bratT8=Date-absolute
-5	3	_	_	_	_	_	_	_	bratT8=Date-absolute
-6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-absolute
+1	Во	_	_	_	_	_	_	_	bratA5=T8:Past|bratT8=Date-absolute
+2	вторник	_	_	_	_	_	_	_	bratA5=T8:Past|bratT8=Date-absolute
+3	утром	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T8:Past|bratT48=Time-absolute|bratT8=Date-absolute
+4	,	_	_	_	_	_	_	_	bratA5=T8:Past|bratT8=Date-absolute
+5	3	_	_	_	_	_	_	_	bratA5=T8:Past|bratT8=Date-absolute
+6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T8:Past|bratT8=Date-absolute
 7	,	_	_	_	_	_	_	_	_
 8	состоялось	_	_	_	_	_	_	_	_
 9	голосование	_	_	_	_	_	_	_	_
@@ -43,8 +43,8 @@
 14	президента	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Event
 15	Соединённых	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Person-property|bratT13=Event
 16	Штатов	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Person-property|bratT13=Event
-17	2020	_	_	_	_	_	_	_	bratT10=Date-absolute|bratT13=Event
-18	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-absolute|bratT13=Event
+17	2020	_	_	_	_	_	_	_	bratA9=T10:Past|bratT10=Date-absolute|bratT13=Event
+18	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T10:Past|bratT10=Date-absolute|bratT13=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0122-p2-s2
@@ -112,9 +112,9 @@
 32	хотела	_	_	_	_	_	_	_	_
 33	седлать	_	_	_	_	_	_	_	_
 34	это	_	_	_	_	_	_	_	_
-35	в	_	_	_	_	_	_	_	bratT45=Date-period
-36	день	_	_	_	_	_	_	_	bratT17=Event|bratT45=Date-period
-37	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
+35	в	_	_	_	_	_	_	_	bratT45=Date-absolute
+36	день	_	_	_	_	_	_	_	bratT17=Event|bratT45=Date-absolute
+37	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT45=Date-absolute
 38	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0122-p3-s2
@@ -124,7 +124,7 @@
 3	хотела	_	_	_	_	_	_	_	_
 4	прийти	_	_	_	_	_	_	_	_
 5	проголосовать	_	_	_	_	_	_	_	_
-6	сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Date-relative
+6	сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Present|bratT18=Date-relative
 7	''	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
@@ -152,11 +152,11 @@
 
 # sent_id = 0122-p4-s2
 # text = В субботу, 24 октября, американский лидер проголосовал ``за парня по имени Трамп''.
-1	В	_	_	_	_	_	_	_	bratT22=Date-absolute
-2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-absolute
-3	,	_	_	_	_	_	_	_	bratT22=Date-absolute
-4	24	_	_	_	_	_	_	_	bratT22=Date-absolute
-5	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute
+2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T22:Past|bratT22=Date-absolute
+3	,	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute
+4	24	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute
+5	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T22:Past|bratT22=Date-absolute
 6	,	_	_	_	_	_	_	_	_
 7	американский	_	_	_	_	_	_	_	bratT23=Person-property
 8	лидер	_	_	_	_	_	_	_	bratT23=Person-property
@@ -179,16 +179,16 @@
 3	сайт	_	_	_	_	_	_	_	bratA3=T46:Media|bratT46=Service
 4	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T46:Media|bratA4=T49:Media|bratT46=Service|bratT49=Organization
 5	,	_	_	_	_	_	_	_	_
-6	сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Date-relative
+6	сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T47:Present|bratT47=Date-absolute
 7	,	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
-9	в	_	_	_	_	_	_	_	bratT29=Date-relative
-10	первый	_	_	_	_	_	_	_	bratT26=Ordinal|bratT29=Date-relative
-11	вторник	_	_	_	_	_	_	_	bratT29=Date-relative
-12	после	_	_	_	_	_	_	_	bratT29=Date-relative
-13	первого	_	_	_	_	_	_	_	bratT27=Ordinal|bratT28=Date-absolute|bratT29=Date-relative
-14	понедельника	_	_	_	_	_	_	_	bratT28=Date-absolute|bratT29=Date-relative
-15	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Date-absolute|bratT29=Date-relative
+9	в	_	_	_	_	_	_	_	bratA7=T29:Past|bratT29=Date-absolute
+10	первый	_	_	_	_	_	_	_	bratA7=T29:Past|bratT26=Ordinal|bratT29=Date-absolute
+11	вторник	_	_	_	_	_	_	_	bratA7=T29:Past|bratT29=Date-absolute
+12	после	_	_	_	_	_	_	_	bratA7=T29:Past|bratT29=Date-absolute
+13	первого	_	_	_	_	_	_	_	bratA6=T28:Past|bratA7=T29:Past|bratT27=Ordinal|bratT28=Date-absolute|bratT29=Date-absolute
+14	понедельника	_	_	_	_	_	_	_	bratA6=T28:Past|bratA7=T29:Past|bratT28=Date-absolute|bratT29=Date-absolute
+15	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T28:Past|bratA7=T29:Past|bratT28=Date-absolute|bratT29=Date-absolute
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	началось	_	_	_	_	_	_	_	_

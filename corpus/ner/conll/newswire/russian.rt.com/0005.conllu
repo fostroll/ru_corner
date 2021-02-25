@@ -3,7 +3,7 @@
 # par_text = Вучич рассказал о катастрофическом сценарии развития эпидемии в Сербии
 # sent_id = 0005-p1-s1
 # text = Вучич рассказал о катастрофическом сценарии развития эпидемии в Сербии
-1	Вучич	_	_	_	_	_	_	_	bratT1=Person
+1	Вучич	_	_	_	_	_	_	_	bratT1=Person|bratT26=Person-surname
 2	рассказал	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	катастрофическом	_	_	_	_	_	_	_	_
@@ -19,8 +19,8 @@
 # text = Президент Сербии Александр Вучич заявил, что страна приближается к катастрофическому сценарию развития эпидемии коронавируса.
 1	Президент	_	_	_	_	_	_	_	bratT12=Person-property|bratT14=Person
 2	Сербии	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=GPE|bratT14=Person
-3	Александр	_	_	_	_	_	_	_	bratT14=Person
-4	Вучич	_	_	_	_	_	_	_	bratT14=Person
+3	Александр	_	_	_	_	_	_	_	bratT14=Person|bratT27=Person-forename
+4	Вучич	_	_	_	_	_	_	_	bratT14=Person|bratT28=Person-surname
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -55,9 +55,9 @@
 15	,	_	_	_	_	_	_	_	_
 16	вероятно	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
-18	несколько	_	_	_	_	_	_	_	bratA7=T26:Future|bratT19=Duration|bratT24=Date-period|bratT26=Date-absolute
-19	следующих	_	_	_	_	_	_	_	bratA7=T26:Future|bratT18=Ordinal|bratT19=Duration|bratT24=Date-period|bratT26=Date-absolute
-20	дней	_	_	_	_	_	_	_	bratA7=T26:Future|bratT19=Duration|bratT24=Date-period|bratT26=Date-absolute
+18	несколько	_	_	_	_	_	_	_	bratA5=T24:Fut|bratT19=Duration|bratT24=Date-period-absolute
+19	следующих	_	_	_	_	_	_	_	bratA5=T24:Fut|bratT18=Ordinal|bratT19=Duration|bratT24=Date-period-absolute
+20	дней	_	_	_	_	_	_	_	bratA5=T24:Fut|bratT19=Duration|bratT24=Date-period-absolute
 21	будут	_	_	_	_	_	_	_	_
 22	ещё	_	_	_	_	_	_	_	_
 23	тяжелее	_	_	_	_	_	_	_	SpaceAfter=No
@@ -78,9 +78,9 @@
 11	самым	_	_	_	_	_	_	_	_
 12	большим	_	_	_	_	_	_	_	_
 13	числом	_	_	_	_	_	_	_	_
-14	с	_	_	_	_	_	_	_	bratA3=T16:Past|bratT16=Date-period
-15	начала	_	_	_	_	_	_	_	bratA3=T16:Past|bratT16=Date-period
-16	эпидемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Past|bratT16=Date-period|bratT5=Event
+14	с	_	_	_	_	_	_	_	bratA3=T16:Past-Pres|bratT16=Date-period-absolute
+15	начала	_	_	_	_	_	_	_	bratA3=T16:Past-Pres|bratT16=Date-period-absolute
+16	эпидемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Past-Pres|bratT16=Date-period-absolute|bratT5=Event
 17	''	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	-	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	bratA6=T20:Present|bratT20=Date-absolute
-7	настоящий	_	_	_	_	_	_	_	bratA6=T20:Present|bratT20=Date-absolute
+7	настоящий	_	_	_	_	_	_	_	bratA6=T20:Present|bratT20=Date-absolute|bratT29=Ordinal
 8	момент	_	_	_	_	_	_	_	bratA6=T20:Present|bratT20=Date-absolute
 9	ситуация	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
@@ -148,7 +148,7 @@
 # par_text = Ранее в Сербии ввели ограничения на работу кафе и торговых точек.
 # sent_id = 0005-p6-s1
 # text = Ранее в Сербии ввели ограничения на работу кафе и торговых точек.
-1	Ранее	_	_	_	_	_	_	_	bratT22=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-relative
 2	в	_	_	_	_	_	_	_	_
 3	Сербии	_	_	_	_	_	_	_	bratT9=GPE
 4	ввели	_	_	_	_	_	_	_	_

@@ -31,7 +31,11 @@ T30	Other-term 744 751	вакцину
 T31	Other-term 1026 1033	вакцины
 T32	Organization 170 190	столичный   опрештаб
 T33	Event 448 456	пандемии
-T34	Date-period 435 456	с   начала   пандемии
-T35	Date-relative 333 340	ранее  
+T34	Date-period-absolute 435 456	с   начала   пандемии
+T35	Date-relative 333 338	ранее
 T36	GPE 428 432	мире
 T37	GPE 712 716	мире
+A1	Past-Pres T34
+A2	Past T22
+T38	Event 1003 1049	регистрации   второй   вакцины   от   COVID-19
+A3	Past T35

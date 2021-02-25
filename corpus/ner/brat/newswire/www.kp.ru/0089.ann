@@ -2,7 +2,7 @@ T1	Quantity 0 21	Четверо   полицейских
 T2	Person-property 10 21	полицейских
 T3	Person 102 108	Трампа
 T4	GPE 115 125	Вашингтоне
-T5	Date-absolute 137 166	в   субботу   ,   14   ноября
+T5	Date-absolute 127 166	Вечером   в   субботу   ,   14   ноября
 T6	GPE 177 187	Вашингтоне
 T7	Quantity 203 224	четверо   полицейских
 T8	Person 297 333	президента   США   Дональда   Трампа
@@ -23,7 +23,7 @@ T21	Person 789 796	Джордан
 T22	Person-property 819 834	правоохранители
 T23	Other-group 850 863	демонстрантов
 T24	Quantity 866 881	восемь   единиц
-T25	Date-absolute 1090 1101	14   ноября
+T25	Date-absolute 1076 1101	вечером   ,   14   ноября
 T26	Facility 1153 1179	зданию   Верховного   суда
 T27	Organization 1162 1179	Верховного   суда
 T28	Person 1230 1236	Трампа
@@ -35,12 +35,20 @@ T33	Event 1018 1062	акция   сторонников   американско
 T34	Other-group 1351 1359	радикалы
 T35	Other-group 985 997	протестующих
 T36	GPE 400 422	американской   столицы
-T37	Time-period 127 134	Вечером
-T38	Time-period 544 559	Прошлой   ночью
-T39	Time-period 1076 1083	вечером
+T37	Time-absolute 127 134	Вечером
+T38	Date-absolute 544 559	Прошлой   ночью
+T39	Time-absolute 1076 1083	вечером
 T40	Quantity 1116 1132	тысячи   человек
-T41	Date-period 227 252	во   время   столкновений
-T42	Date-period 37 57	после   столкновений
+T41	Date-absolute 227 252	во   время   столкновений
+T42	Date-absolute 37 57	после   столкновений
 T43	Date-relative 1314 1319	Позже
 T44	Person-property 213 224	полицейских
 T45	Person-property 562 569	полиция
+A2	Past T5
+T46	Time-absolute 554 559	ночью
+A3	Past T38
+A4	Past T25
+A5	Past T43
+T47	Ordinal 544 551	Прошлой
+A6	Past T42
+A7	Past T41

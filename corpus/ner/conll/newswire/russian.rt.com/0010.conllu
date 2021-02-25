@@ -11,7 +11,7 @@
 6	мере	_	_	_	_	_	_	_	_
 7	пресечения	_	_	_	_	_	_	_	_
 8	аудитору	_	_	_	_	_	_	_	bratT1=Person|bratT2=Person-property
-9	Меню	_	_	_	_	_	_	_	bratT1=Person
+9	Меню	_	_	_	_	_	_	_	bratT1=Person|bratT26=Person-surname
 
 # newpar id = 0010-p2
 # par_text = Защита аудитора Счётной палаты, экс-губернатора Ивановской области Михаила Меня подала апелляцию на решение суда, который ранее в качестве меры пресечения назначил чиновнику запрет определённых действий.
@@ -25,8 +25,8 @@
 6	экс-губернатора	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Person
 7	Ивановской	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=GPE|bratT20=Person
 8	области	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=GPE|bratT20=Person
-9	Михаила	_	_	_	_	_	_	_	bratT20=Person
-10	Меня	_	_	_	_	_	_	_	bratT20=Person
+9	Михаила	_	_	_	_	_	_	_	bratT20=Person|bratT27=Person-forename
+10	Меня	_	_	_	_	_	_	_	bratT20=Person|bratT28=Person-surname
 11	подала	_	_	_	_	_	_	_	_
 12	апелляцию	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
@@ -34,7 +34,7 @@
 15	суда	_	_	_	_	_	_	_	SpaceAfter=No
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
-18	ранее	_	_	_	_	_	_	_	bratT22=Time-relative
+18	ранее	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-relative
 19	в	_	_	_	_	_	_	_	_
 20	качестве	_	_	_	_	_	_	_	_
 21	меры	_	_	_	_	_	_	_	_
@@ -67,21 +67,21 @@
 15	ТАСС	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
 16	слова	_	_	_	_	_	_	_	_
 17	адвоката	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-18	Меня	_	_	_	_	_	_	_	bratT15=Person|bratT6=Person|bratT7=Person-property
-19	Мурада	_	_	_	_	_	_	_	bratT6=Person
-20	Мусаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person
+18	Меня	_	_	_	_	_	_	_	bratT15=Person|bratT29=Person-surname|bratT6=Person|bratT7=Person-property
+19	Мурада	_	_	_	_	_	_	_	bratT30=Person-forename|bratT6=Person
+20	Мусаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-surname|bratT6=Person
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0010-p4
 # par_text = Ранее Басманный суд Москвы избрал Меню меру пресечения в виде запрета определённых действий: ему запретили покидать место фактического проживания, за исключением двухчасовых прогулок.
 # sent_id = 0010-p4-s1
 # text = Ранее Басманный суд Москвы избрал Меню меру пресечения в виде запрета определённых действий: ему запретили покидать место фактического проживания, за исключением двухчасовых прогулок.
-1	Ранее	_	_	_	_	_	_	_	bratT23=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA2=T23:Past|bratT23=Date-relative
 2	Басманный	_	_	_	_	_	_	_	bratT8=Organization
 3	суд	_	_	_	_	_	_	_	bratT8=Organization
 4	Москвы	_	_	_	_	_	_	_	bratT8=Organization|bratT9=GPE
 5	избрал	_	_	_	_	_	_	_	_
-6	Меню	_	_	_	_	_	_	_	bratT10=Person
+6	Меню	_	_	_	_	_	_	_	bratT10=Person|bratT32=Person-surname
 7	меру	_	_	_	_	_	_	_	_
 8	пресечения	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -107,7 +107,7 @@
 # par_text = Меню предъявлено обвинение по ч. 4 ст. 160 УК России (присвоение или растрата, совершённые организованной группой либо в особо крупном размере).
 # sent_id = 0010-p5-s1
 # text = Меню предъявлено обвинение по ч. 4 ст. 160 УК России (присвоение или растрата, совершённые организованной группой либо в особо крупном размере).
-1	Меню	_	_	_	_	_	_	_	bratT14=Person
+1	Меню	_	_	_	_	_	_	_	bratT14=Person|bratT33=Person-surname
 2	предъявлено	_	_	_	_	_	_	_	_
 3	обвинение	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_

@@ -11,7 +11,7 @@ A1	Media T9
 T10	Organization 272 303	телеканала   ``   РЕН   ТВ   ''
 A2	Media T10
 T11	Person 349 357	Кубарева
-T12	Date-absolute 376 390	23-го   ноября
+T12	Date-absolute 368 390	утром   23-го   ноября
 T13	Other-term 615 651	острая   сердечная   недостаточность
 T14	Person 678 695	Алексей   Кубарев
 T15	Person-property 704 770	президентом   ``   Союза   контактного   спорта   Кутузовский   ''
@@ -23,5 +23,7 @@ T20	Organization 871 876	Ахмат
 T21	Person-property 460 466	бойцом
 T23	Person-property 601 608	тренера
 T24	Facility 159 220	здании   ``   Союза   контактного   спорта   Кутузовский   ''
-T22	Time-period 368 373	утром
-T25	Date-relative 776 783	Ранее  
+T22	Time-absolute 368 373	утром
+T25	Date-relative 776 781	Ранее
+A3	Past T12
+A4	Past T25

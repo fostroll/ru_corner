@@ -1,9 +1,9 @@
 T1	GPE 15 20	Крыму
 T2	GPE 110 115	Крыма
-T3	Date-period 131 155	на   пару   лет   вперед
+T3	Date-period-absolute 131 155	на   пару   лет   вперед
 T4	Organization 233 246	РИА   Новости
 T5	Person-property 288 297	риелторов
-T6	Date-absolute 391 410	в   середине   июля
+T6	Date-absolute 391 439	в   середине   июля   ,   сразу   после   снятия
 T7	Money 598 626	от   10   миллионов   рублей
 T8	Percent 771 793	до   15-20   процентов
 T9	Percent 818 828	до   10-20
@@ -16,15 +16,12 @@ T14	Ordinal 835 844	вторичное
 T15	Ordinal 1579 1588	следующем
 T16	Ordinal 1595 1606	последующих
 T17	Date-absolute 1575 1614	в   следующем   и   последующих   годах
-T18	Date-relative 417 439	сразу   после   снятия
 A2	Past T6
 T19	Duration 136 146	пару   лет
 T20	Person-property 317 326	экспертов
 T22	Date-absolute 648 659	К   августу
 T23	Quantity 931 942	одного   из
-A5	Past T18
 T24	Event 433 467	снятия   карантинных   ограничений
 A7	Past T22
 A8	Future T17
-T21	Date-absolute 136 155	пару   лет   вперед
-A3	Future T21
+A4	Pres-Fut T3

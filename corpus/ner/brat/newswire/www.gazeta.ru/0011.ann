@@ -30,10 +30,13 @@ T29	Quantity 1314 1328	не   более   7
 T30	Person-property 1408 1439	бывший   российский   президент
 T31	Person-property 1465 1473	сенатора
 T32	Organization 1503 1509	Совфед
-T33	Date-period 1620 1670	в   течение   3   месяцев   со   дня   прекращения
+T33	Time-relative 1620 1656	в   течение   3   месяцев   со   дня
 T34	Person-property 1701 1710	президент
-T35	Date-period 1830 1879	в   течение   3   месяцев   со   дня   вступления
+T35	Date-absolute 1830 1879	в   течение   3   месяцев   со   дня   вступления
 T37	Ordinal 152 153	I
-T6	Date-period 1476 1496	с   момента   подачи
-T36	Date-period 224 243	после   прекращения
-T38	Date-period 1754 1767	до   принятия
+T6	Time-relative 1476 1487	с   момента
+T36	Time-relative 224 229	после
+T38	Date-absolute 1754 1767	до   принятия
+A2	Past T38
+T39	Duration 1844 1855	3   месяцев
+T40	Duration 1634 1645	3   месяцев

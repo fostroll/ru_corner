@@ -4,7 +4,7 @@ T3	Other-term 150 153	ВИЧ
 T4	Quantity 95 113	5   важных   вещей
 T5	GPE 155 174	Самарская   область
 T6	Ordinal 177 188	не   первый
-T7	Date-duration 177 194	не   первый   год
+T7	Date-period-absolute 177 194	не   первый   год
 T8	Product 248 254	ГАЗели
 T9	GPE 403 410	Сызрани
 T10	GPE 417 425	Тольятти
@@ -32,13 +32,20 @@ T30	Percent 1236 1252	порядка   60   %
 T31	Quantity 1403 1436	из   30   тысяч   новых   случаев
 T32	Other-term 1709 1712	ВИЧ
 T33	Other-term 1890 1893	ВИЧ
-T34	Cardinal 1190 1191	1
-T35	Date-relative 1226 1233	Сегодня
+T34	Ordinal 1190 1191	1
+T35	Date-absolute 1226 1233	Сегодня
 T36	Family 1370 1376	семьях
-T37	Date-duration 1451 1458	в   год
+T37	Time-period 1451 1458	в   год
 T38	Percent 1461 1466	треть
 T39	Quantity 1490 1507	одним   партнером
-T40	Cardinal 1634 1635	2
-T41	Date-relative 1715 1721	сейчас
-T42	Cardinal 1912 1913	3
-T43	Date-period 482 498	В   ходе   акции
+T40	Ordinal 1634 1635	2
+T41	Date-absolute 1715 1721	сейчас
+T42	Ordinal 1912 1913	3
+T43	Date-period-absolute 482 498	В   ходе   акции
+A2	Past-Pres T7
+A3	RCont T7
+T44	Duration 191 194	год
+T45	Duration 1455 1458	год
+A4	Present T41
+A5	Present T35
+A6	Past T43

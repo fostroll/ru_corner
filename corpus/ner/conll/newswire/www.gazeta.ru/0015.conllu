@@ -71,8 +71,8 @@
 
 # sent_id = 0015-p3-s2
 # text = До войны бюджет миссии в Карабахе составлял ₣10 млн, на 2021 год он составит ₣45 млн.
-1	До	_	_	_	_	_	_	_	bratT46=Date-period
-2	войны	_	_	_	_	_	_	_	bratT46=Date-period
+1	До	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-period-absolute
+2	войны	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-period-absolute
 3	бюджет	_	_	_	_	_	_	_	_
 4	миссии	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -81,9 +81,9 @@
 8	₣10	_	_	_	_	_	_	_	bratT13=Money
 9	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Money
 10	,	_	_	_	_	_	_	_	_
-11	на	_	_	_	_	_	_	_	bratT14=Date-absolute
-12	2021	_	_	_	_	_	_	_	bratT14=Date-absolute
-13	год	_	_	_	_	_	_	_	bratT14=Date-absolute
+11	на	_	_	_	_	_	_	_	bratA2=T14:Fut|bratT14=Date-period-absolute
+12	2021	_	_	_	_	_	_	_	bratA2=T14:Fut|bratT14=Date-period-absolute
+13	год	_	_	_	_	_	_	_	bratA2=T14:Fut|bratT14=Date-period-absolute
 14	он	_	_	_	_	_	_	_	_
 15	составит	_	_	_	_	_	_	_	_
 16	₣45	_	_	_	_	_	_	_	bratT15=Money
@@ -143,8 +143,8 @@
 # par_text = 9 ноября главы России, Армении и Азербайджана приняли совместное заявление о прекращении огня в Нагорном Карабахе с 10 ноября. Российские миротворцы были направлены в Карабахский регион. Армянские граждане восприняли подписание договора как капитуляцию, в связи с чем в Ереване прошли акции протеста с требованием отставки премьер-министра страны Никола Пашиняна.
 # sent_id = 0015-p5-s1
 # text = 9 ноября главы России, Армении и Азербайджана приняли совместное заявление о прекращении огня в Нагорном Карабахе с 10 ноября.
-1	9	_	_	_	_	_	_	_	bratT25=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT25=Date-absolute
+1	9	_	_	_	_	_	_	_	bratA5=T25:Past|bratT25=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA5=T25:Past|bratT25=Date-absolute
 3	главы	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=GPE
 4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE
 5	,	_	_	_	_	_	_	_	bratT29=GPE
@@ -160,9 +160,9 @@
 15	в	_	_	_	_	_	_	_	_
 16	Нагорном	_	_	_	_	_	_	_	bratT26=GPE
 17	Карабахе	_	_	_	_	_	_	_	bratT26=GPE
-18	с	_	_	_	_	_	_	_	bratT27=Date-absolute
-19	10	_	_	_	_	_	_	_	bratT27=Date-absolute
-20	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Date-absolute
+18	с	_	_	_	_	_	_	_	bratT27=Date-period-absolute
+19	10	_	_	_	_	_	_	_	bratT27=Date-period-absolute
+20	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Date-period-absolute
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0015-p5-s2
@@ -208,8 +208,8 @@
 # par_text = 13 ноября президент России Владимир Путин подписал указ о создании межведомственного центра гуманитарного реагирования для Нагорного Карабаха. Так, 20 ноября в регион были направлены конвои с гуманитарной помощью.
 # sent_id = 0015-p6-s1
 # text = 13 ноября президент России Владимир Путин подписал указ о создании межведомственного центра гуманитарного реагирования для Нагорного Карабаха.
-1	13	_	_	_	_	_	_	_	bratT34=Date-absolute
-2	ноября	_	_	_	_	_	_	_	bratT34=Date-absolute
+1	13	_	_	_	_	_	_	_	bratA6=T34:Past|bratT34=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA6=T34:Past|bratT34=Date-absolute
 3	президент	_	_	_	_	_	_	_	bratT35=Person|bratT36=Person-property
 4	России	_	_	_	_	_	_	_	bratT35=Person|bratT36=Person-property|bratT37=GPE
 5	Владимир	_	_	_	_	_	_	_	bratT35=Person
@@ -231,8 +231,8 @@
 # text = Так, 20 ноября в регион были направлены конвои с гуманитарной помощью.
 1	Так	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	20	_	_	_	_	_	_	_	bratT41=Date-absolute
-4	ноября	_	_	_	_	_	_	_	bratT41=Date-absolute
+3	20	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
+4	ноября	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
 5	в	_	_	_	_	_	_	_	_
 6	регион	_	_	_	_	_	_	_	_
 7	были	_	_	_	_	_	_	_	_

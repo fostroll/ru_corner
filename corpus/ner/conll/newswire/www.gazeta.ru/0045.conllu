@@ -11,8 +11,8 @@
 6	в	_	_	_	_	_	_	_	_
 7	российский	_	_	_	_	_	_	_	_
 8	прокат	_	_	_	_	_	_	_	_
-9	в	_	_	_	_	_	_	_	bratT2=Date-absolute
-10	январе	_	_	_	_	_	_	_	bratT2=Date-absolute
+9	в	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
+10	январе	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
 
 # newpar id = 0045-p2
 # par_text = Сиквел фильма «Чудо-женщина» выйдет в российских кинотеатрах 14 января 2021 года, сообщает «Бюллетень кинопрокатчика».
@@ -27,10 +27,10 @@
 7	в	_	_	_	_	_	_	_	_
 8	российских	_	_	_	_	_	_	_	_
 9	кинотеатрах	_	_	_	_	_	_	_	_
-10	14	_	_	_	_	_	_	_	bratT4=Date-absolute
-11	января	_	_	_	_	_	_	_	bratT4=Date-absolute
-12	2021	_	_	_	_	_	_	_	bratT4=Date-absolute
-13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Date-absolute
+10	14	_	_	_	_	_	_	_	bratA3=T4:Future|bratT4=Date-absolute
+11	января	_	_	_	_	_	_	_	bratA3=T4:Future|bratT4=Date-absolute
+12	2021	_	_	_	_	_	_	_	bratA3=T4:Future|bratT4=Date-absolute
+13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T4:Future|bratT4=Date-absolute
 14	,	_	_	_	_	_	_	_	_
 15	сообщает	_	_	_	_	_	_	_	_
 16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
@@ -47,16 +47,16 @@
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
 3	Чудо-женщины	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
 4	:	_	_	_	_	_	_	_	bratT6=Work-of-art
-5	1984	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
+5	1984	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Date-absolute|bratT6=Work-of-art
 6	''	_	_	_	_	_	_	_	bratT6=Work-of-art
 7	будет	_	_	_	_	_	_	_	_
 8	превью	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	кинотеатрах	_	_	_	_	_	_	_	bratT7=Service
 11	IMAX	_	_	_	_	_	_	_	bratT7=Service
-12	с	_	_	_	_	_	_	_	bratT8=Date-period
-13	7	_	_	_	_	_	_	_	bratT8=Date-period
-14	января	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-period
+12	с	_	_	_	_	_	_	_	bratA4=T8:Fut|bratT8=Date-period-absolute
+13	7	_	_	_	_	_	_	_	bratA4=T8:Fut|bratT8=Date-period-absolute
+14	января	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Fut|bratT8=Date-period-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0045-p4
@@ -74,10 +74,10 @@
 9	Max	_	_	_	_	_	_	_	bratT9=Service
 10	премьера	_	_	_	_	_	_	_	_
 11	состоится	_	_	_	_	_	_	_	_
-12	25	_	_	_	_	_	_	_	bratT10=Date-absolute
-13	декабря	_	_	_	_	_	_	_	bratT10=Date-absolute
-14	2020	_	_	_	_	_	_	_	bratT10=Date-absolute
-15	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-absolute
+12	25	_	_	_	_	_	_	_	bratA5=T10:Future|bratT10=Date-absolute
+13	декабря	_	_	_	_	_	_	_	bratA5=T10:Future|bratT10=Date-absolute
+14	2020	_	_	_	_	_	_	_	bratA5=T10:Future|bratT10=Date-absolute
+15	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Future|bratT10=Date-absolute
 16	,	_	_	_	_	_	_	_	_
 17	а	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
@@ -87,8 +87,8 @@
 22	нет	_	_	_	_	_	_	_	_
 23	сервиса	_	_	_	_	_	_	_	_
 24	-	_	_	_	_	_	_	_	_
-25	16	_	_	_	_	_	_	_	bratT11=Date-absolute
-26	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
+25	16	_	_	_	_	_	_	_	bratA6=T11:Future|bratT11=Date-absolute
+26	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T11:Future|bratT11=Date-absolute
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0045-p5

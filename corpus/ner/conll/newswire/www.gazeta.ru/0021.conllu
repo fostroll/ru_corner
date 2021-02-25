@@ -30,10 +30,10 @@
 10	Украины	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT8=Organization|bratT9=GPE
 11	Борис	_	_	_	_	_	_	_	bratT4=Person
 12	Грызлов	_	_	_	_	_	_	_	bratT4=Person
-13	после	_	_	_	_	_	_	_	bratT36=Date-period
-14	очередного	_	_	_	_	_	_	_	bratT36=Date-period
-15	ее	_	_	_	_	_	_	_	bratT36=Date-period
-16	заседания	_	_	_	_	_	_	_	bratT36=Date-period
+13	после	_	_	_	_	_	_	_	bratA4=T36:Past|bratT36=Date-absolute
+14	очередного	_	_	_	_	_	_	_	bratA4=T36:Past|bratT36=Date-absolute
+15	ее	_	_	_	_	_	_	_	bratA4=T36:Past|bratT36=Date-absolute
+16	заседания	_	_	_	_	_	_	_	bratA4=T36:Past|bratT36=Date-absolute
 17	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	что	_	_	_	_	_	_	_	_
@@ -104,9 +104,9 @@
 14	мир	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	Донбассе	_	_	_	_	_	_	_	bratT14=GPE
-17	в	_	_	_	_	_	_	_	bratT17=Date-duration
-18	течение	_	_	_	_	_	_	_	bratT17=Date-duration
-19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Date-duration
+17	в	_	_	_	_	_	_	_	bratA3=T38:Past-UNK|bratT38=Date-period-relative
+18	течение	_	_	_	_	_	_	_	bratA3=T38:Past-UNK|bratT38=Date-period-relative
+19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Past-UNK|bratT17=Duration|bratT38=Date-period-relative
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0021-p5
@@ -114,7 +114,7 @@
 # sent_id = 0021-p5-s1
 # text = ``Год прошел, а результата нет.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Год	_	_	_	_	_	_	_	bratT18=Date-duration
+2	Год	_	_	_	_	_	_	_	bratA2=T39:Past-Pres|bratT18=Duration|bratT39=Date-period-absolute
 3	прошел	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	а	_	_	_	_	_	_	_	_
@@ -156,9 +156,9 @@
 7	особом	_	_	_	_	_	_	_	bratT34=Law
 8	статусе	_	_	_	_	_	_	_	bratT34=Law
 9	Донбасса	_	_	_	_	_	_	_	bratT23=GPE|bratT34=Law
-10	в	_	_	_	_	_	_	_	bratT22=Date-absolute
-11	2014	_	_	_	_	_	_	_	bratT22=Date-absolute
-12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-absolute
+11	2014	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-absolute
+12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Past|bratT22=Date-absolute
 13	,	_	_	_	_	_	_	_	_
 14	но	_	_	_	_	_	_	_	_
 15	он	_	_	_	_	_	_	_	_
@@ -173,20 +173,20 @@
 
 # sent_id = 0021-p6-s2
 # text = В 2018 году Украина продлила его до конца 2019 года, а после встречи в Париже ``нормандской четверки'' (РФ, ФРГ, Франция, Украина) - до 31 декабря 2020 года.
-1	В	_	_	_	_	_	_	_	bratT24=Date-absolute
-2	2018	_	_	_	_	_	_	_	bratT24=Date-absolute
-3	году	_	_	_	_	_	_	_	bratT24=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-absolute
+2	2018	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-absolute
 4	Украина	_	_	_	_	_	_	_	bratT25=GPE
 5	продлила	_	_	_	_	_	_	_	_
 6	его	_	_	_	_	_	_	_	_
-7	до	_	_	_	_	_	_	_	bratT26=Date-period
-8	конца	_	_	_	_	_	_	_	bratT26=Date-period
-9	2019	_	_	_	_	_	_	_	bratT26=Date-period
-10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Date-period
+7	до	_	_	_	_	_	_	_	bratA8=T26:LCont|bratT26=Date-period-absolute
+8	конца	_	_	_	_	_	_	_	bratA8=T26:LCont|bratT26=Date-period-absolute
+9	2019	_	_	_	_	_	_	_	bratA8=T26:LCont|bratT26=Date-period-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:LCont|bratT26=Date-period-absolute
 11	,	_	_	_	_	_	_	_	_
 12	а	_	_	_	_	_	_	_	_
-13	после	_	_	_	_	_	_	_	bratT37=Date-period
-14	встречи	_	_	_	_	_	_	_	bratT31=Event|bratT37=Date-period
+13	после	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-absolute
+14	встречи	_	_	_	_	_	_	_	bratA7=T37:Past|bratT31=Event|bratT37=Date-absolute
 15	в	_	_	_	_	_	_	_	_
 16	Париже	_	_	_	_	_	_	_	bratT27=GPE
 17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
@@ -203,10 +203,10 @@
 28	Украина	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
 29	)	_	_	_	_	_	_	_	_
 30	-	_	_	_	_	_	_	_	_
-31	до	_	_	_	_	_	_	_	bratT30=Date-period
-32	31	_	_	_	_	_	_	_	bratT30=Date-period
-33	декабря	_	_	_	_	_	_	_	bratT30=Date-period
-34	2020	_	_	_	_	_	_	_	bratT30=Date-period
-35	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Date-period
+31	до	_	_	_	_	_	_	_	bratA9=T30:LCont|bratT30=Date-period-absolute
+32	31	_	_	_	_	_	_	_	bratA9=T30:LCont|bratT30=Date-period-absolute
+33	декабря	_	_	_	_	_	_	_	bratA9=T30:LCont|bratT30=Date-period-absolute
+34	2020	_	_	_	_	_	_	_	bratA9=T30:LCont|bratT30=Date-period-absolute
+35	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T30:LCont|bratT30=Date-period-absolute
 36	.	_	_	_	_	_	_	_	_
 

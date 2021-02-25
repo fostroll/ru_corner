@@ -21,8 +21,9 @@ T20	GPE 126 146	Московской   области
 T21	GPE 193 204	Подмосковье
 T22	Other-term 212 224	коронавируса
 T8	Event 500 508	пандемии
-T23	Date-period 487 508	за   время   пандемии
-T24	Date-period 243 263	на   данный   момент
-T25	Time-relative 608 613	Ранее
-A2	Present T24
-A3	Past T23
+T23	Date-period-absolute 487 508	за   время   пандемии
+T24	Date-period-absolute 243 263	на   данный   момент
+T25	Date-relative 608 613	Ранее
+A4	Past-Pres T24
+A3	Past T25
+A2	Past T23

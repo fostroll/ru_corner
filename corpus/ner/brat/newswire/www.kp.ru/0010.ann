@@ -2,7 +2,7 @@ T1	Other-term 0 11	Коронавирус
 T2	Date-absolute 58 83	11   ноября   2020   года
 T3	Event 109 131	новогодние   праздники
 T4	GPE 137 143	Москве
-T5	Date-relative 195 212	два   дня   назад
+T5	Date-absolute 195 212	два   дня   назад
 T6	Quantity 226 240	6897   случаев
 T7	Other-term 257 270	коронавирусом
 T8	Date-absolute 298 307	в   марте
@@ -14,26 +14,41 @@ T13	Percent 607 619	до   7,5   %
 T14	GPE 761 767	Москвы
 T15	Person-property 755 767	мэр   Москвы
 T16	Person 755 786	мэр   Москвы   Сергей   Собянин
-T17	Date-period 652 674	в   ближайшие   недели
-T18	Date-period 872 902	до   15   января   2021   года
+T17	Date-period-absolute 652 674	в   ближайшие   недели
+T18	Date-period-absolute 872 902	до   15   января   2021   года
 T19	GPE 1042 1048	Москвы
 T20	Person-property 1036 1048	Мэр   Москвы
 T21	GPE 1003 1010	столице
 T22	Event 969 977	локдауне
-T23	Date-period 1076 1105	на   ближайшие   2,5   месяца
+T23	Date-period-absolute 1076 1105	на   ближайшие   2,5   месяца
 T24	Person-property 1137 1145	студенты
 T25	Person-property 1202 1211	Школьники
 T26	Time-period 1387 1408	с   23.00   до   6.00
 T27	Percent 1497 1517	не   больше   25   %
 T28	Organization 1615 1631	Роспотребнадзора
-T29	Date-period 104 131	на   новогодние   праздники
+T29	Date-absolute 104 131	на   новогодние   праздники
 T30	Event 180 188	пандемии
-T31	Date-period 159 188	за   весь   период   пандемии
+T31	Date-period-absolute 159 188	за   весь   период   пандемии
 T32	Event 385 393	эпидемии
 T33	Quantity 447 463	100   ПЦР-тестов
 T34	Ordinal 31 40	последние
-T35	Date-period 1579 1599	после   согласования
+T35	Time-relative 1579 1584	после
 T36	Date-relative 314 319	потом
 T37	Date-relative 591 596	затем
 T38	GPE 18 24	Москве
 T39	Age 1888 1893	детей
+A1	Past T2
+A2	Future T29
+A3	Past-Pres T31
+A4	Past T5
+A5	Past T8
+A6	Past T36
+A7	Past T9
+A8	Past T11
+A9	Past T37
+A10	Pres-Fut T17
+A11	LCont T17
+A12	Past-UNK T18
+A13	Pres-Fut T23
+T40	Ordinal 1081 1090	ближайшие
+T41	Ordinal 656 665	ближайшие

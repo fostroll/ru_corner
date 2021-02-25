@@ -9,8 +9,8 @@
 4	прирост	_	_	_	_	_	_	_	_
 5	заражений	_	_	_	_	_	_	_	_
 6	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term
-7	за	_	_	_	_	_	_	_	bratA4=T55:Past|bratT55=Date-period
-8	неделю	_	_	_	_	_	_	_	bratA4=T55:Past|bratT37=Duration|bratT55=Date-period
+7	за	_	_	_	_	_	_	_	bratA4=T55:Past-Pres|bratT55=Date-period-absolute
+8	неделю	_	_	_	_	_	_	_	bratA4=T55:Past-Pres|bratT37=Duration|bratT55=Date-period-absolute
 
 # newpar id = 0087-p2
 # par_text = Всемирная организация здравоохранения (ВОЗ) зафиксировала рекордный прирост заражений коронавирусом за минувшую неделю: число зараженных в мире за семь дней выросло на 3,6 миллиона. Об этом в среду, 11 ноября, сообщает ТАСС.
@@ -27,17 +27,17 @@
 9	прирост	_	_	_	_	_	_	_	_
 10	заражений	_	_	_	_	_	_	_	_
 11	коронавирусом	_	_	_	_	_	_	_	bratT5=Other-term
-12	за	_	_	_	_	_	_	_	bratT38=Date-period
-13	минувшую	_	_	_	_	_	_	_	bratA11=T51:Past|bratT38=Date-period|bratT51=Date-absolute|bratT52=Ordinal
-14	неделю	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T51:Past|bratT38=Date-period|bratT51=Date-absolute
+12	за	_	_	_	_	_	_	_	bratA8=T38:Past|bratT38=Date-period-absolute
+13	минувшую	_	_	_	_	_	_	_	bratA8=T38:Past|bratT38=Date-period-absolute|bratT52=Ordinal
+14	неделю	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T38:Past|bratT38=Date-period-absolute|bratT49=Duration
 15	:	_	_	_	_	_	_	_	_
 16	число	_	_	_	_	_	_	_	_
 17	зараженных	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	мире	_	_	_	_	_	_	_	bratT46=GPE
-20	за	_	_	_	_	_	_	_	bratA6=T6:Past|bratT6=Date-period
-21	семь	_	_	_	_	_	_	_	bratA6=T6:Past|bratT53=Duration|bratT6=Date-period
-22	дней	_	_	_	_	_	_	_	bratA6=T6:Past|bratT53=Duration|bratT6=Date-period
+20	за	_	_	_	_	_	_	_	bratA6=T6:Past-Pres|bratT6=Date-period-absolute
+21	семь	_	_	_	_	_	_	_	bratA6=T6:Past-Pres|bratT53=Duration|bratT6=Date-period-absolute
+22	дней	_	_	_	_	_	_	_	bratA6=T6:Past-Pres|bratT53=Duration|bratT6=Date-period-absolute
 23	выросло	_	_	_	_	_	_	_	_
 24	на	_	_	_	_	_	_	_	bratT7=Quantity
 25	3,6	_	_	_	_	_	_	_	bratT7=Quantity
@@ -92,9 +92,9 @@
 # sent_id = 0087-p4-s1
 # text = ``За последнюю неделю общее число случаев COVID-19 выросло на 8 процентов по сравнению с предыдущей неделей, составив более 3,6 миллиона.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	За	_	_	_	_	_	_	_	bratT12=Date-period
-3	последнюю	_	_	_	_	_	_	_	bratA13=T49:Past|bratT12=Date-period|bratT44=Ordinal|bratT49=Date-absolute
-4	неделю	_	_	_	_	_	_	_	bratA13=T49:Past|bratT12=Date-period|bratT49=Date-absolute
+2	За	_	_	_	_	_	_	_	bratA11=T12:Past-Pres|bratT12=Date-period-absolute
+3	последнюю	_	_	_	_	_	_	_	bratA11=T12:Past-Pres|bratT12=Date-period-absolute|bratT44=Ordinal
+4	неделю	_	_	_	_	_	_	_	bratA11=T12:Past-Pres|bratT12=Date-period-absolute
 5	общее	_	_	_	_	_	_	_	_
 6	число	_	_	_	_	_	_	_	_
 7	случаев	_	_	_	_	_	_	_	_
@@ -106,8 +106,8 @@
 13	по	_	_	_	_	_	_	_	_
 14	сравнению	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
-16	предыдущей	_	_	_	_	_	_	_	bratA7=T50:Past|bratT40=Ordinal|bratT41=Date-period|bratT50=Date-relative
-17	неделей	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T50:Past|bratT41=Date-period|bratT50=Date-relative
+16	предыдущей	_	_	_	_	_	_	_	bratA13=T41:Past|bratT40=Ordinal|bratT41=Date-period-relative
+17	неделей	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T41:Past|bratT41=Date-period-relative
 18	,	_	_	_	_	_	_	_	_
 19	составив	_	_	_	_	_	_	_	_
 20	более	_	_	_	_	_	_	_	bratT15=Quantity
@@ -121,9 +121,9 @@
 2	доля	_	_	_	_	_	_	_	_
 3	новых	_	_	_	_	_	_	_	_
 4	случаев	_	_	_	_	_	_	_	_
-5	за	_	_	_	_	_	_	_	bratA9=T16:Past|bratT16=Date-period
-6	семь	_	_	_	_	_	_	_	bratA9=T16:Past|bratT16=Date-period|bratT54=Duration
-7	дней	_	_	_	_	_	_	_	bratA9=T16:Past|bratT16=Date-period|bratT54=Duration
+5	за	_	_	_	_	_	_	_	bratA7=T16:Past-Pres|bratT16=Date-period-absolute
+6	семь	_	_	_	_	_	_	_	bratA7=T16:Past-Pres|bratT16=Date-period-absolute|bratT54=Duration
+7	дней	_	_	_	_	_	_	_	bratA7=T16:Past-Pres|bratT16=Date-period-absolute|bratT54=Duration
 8	по-прежнему	_	_	_	_	_	_	_	_
 9	приходится	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
@@ -198,9 +198,9 @@
 1	Всего	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
 3	стране	_	_	_	_	_	_	_	_
-4	с	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-period
-5	начала	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-period
-6	пандемии	_	_	_	_	_	_	_	bratA12=T42:Past|bratT29=Event|bratT42=Date-period
+4	с	_	_	_	_	_	_	_	bratA9=T42:Past-Pres|bratT42=Date-period-absolute
+5	начала	_	_	_	_	_	_	_	bratA9=T42:Past-Pres|bratT42=Date-period-absolute
+6	пандемии	_	_	_	_	_	_	_	bratA9=T42:Past-Pres|bratT29=Event|bratT42=Date-period-absolute
 7	заразились	_	_	_	_	_	_	_	_
 8	10,2	_	_	_	_	_	_	_	bratT28=Quantity
 9	миллиона	_	_	_	_	_	_	_	bratT28=Quantity
@@ -245,9 +245,9 @@
 
 # sent_id = 0087-p6-s2
 # text = С начала пандемии 1 270 706 человек умерли, еще более 33,4 миллиона излечились.
-1	С	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-period
-2	начала	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-period
-3	пандемии	_	_	_	_	_	_	_	bratA10=T43:Past|bratT34=Event|bratT43=Date-period
+1	С	_	_	_	_	_	_	_	bratA10=T43:Past-Pres|bratT43=Date-period-absolute
+2	начала	_	_	_	_	_	_	_	bratA10=T43:Past-Pres|bratT43=Date-period-absolute
+3	пандемии	_	_	_	_	_	_	_	bratA10=T43:Past-Pres|bratT34=Event|bratT43=Date-period-absolute
 4	1	_	_	_	_	_	_	_	bratT35=Quantity
 5	270	_	_	_	_	_	_	_	bratT35=Quantity
 6	706	_	_	_	_	_	_	_	bratT35=Quantity

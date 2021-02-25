@@ -5,7 +5,7 @@
 # text = В США российскую ``Луну-25'' назвали рудиментом
 1	В	_	_	_	_	_	_	_	_
 2	США	_	_	_	_	_	_	_	bratT2=GPE
-3	российскую	_	_	_	_	_	_	_	bratA2=T13:Project|bratT13=Product
+3	российскую	_	_	_	_	_	_	_	bratA2=T13:Project|bratT13=Product|bratT20=GPE
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Project|bratT13=Product
 5	Луну-25	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Project|bratT13=Product
 6	''	_	_	_	_	_	_	_	bratA2=T13:Project|bratT13=Product
@@ -17,7 +17,7 @@
 # sent_id = 0034-p2-s1
 # text = Первая российская миссия ``Луна-25'' к естественному спутнику Земли ``выглядела бы хорошо в начале 2000 года'', а сейчас менее амбициозна китайской Chang'e 4, заявил РИА Новости научный сотрудник Гарвард-Смитсоновского центра астрофизики (США) Джонатан МакДауэлл.
 1	Первая	_	_	_	_	_	_	_	bratT34=Ordinal
-2	российская	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product
+2	российская	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product|bratT45=GPE
 3	миссия	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product
 5	Луна-25	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product
@@ -40,7 +40,7 @@
 22	сейчас	_	_	_	_	_	_	_	bratA16=T38:Present|bratT38=Date-absolute
 23	менее	_	_	_	_	_	_	_	_
 24	амбициозна	_	_	_	_	_	_	_	_
-25	китайской	_	_	_	_	_	_	_	bratA4=T14:Project|bratT14=Product
+25	китайской	_	_	_	_	_	_	_	bratA4=T14:Project|bratT14=Product|bratT46=GPE
 26	Chang'e	_	_	_	_	_	_	_	bratA4=T14:Project|bratT14=Product
 27	4	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Project|bratT14=Product
 28	,	_	_	_	_	_	_	_	_
@@ -55,8 +55,8 @@
 37	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person
 38	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT6=GPE
 39	)	_	_	_	_	_	_	_	bratT1=Person
-40	Джонатан	_	_	_	_	_	_	_	bratT1=Person
-41	МакДауэлл	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person
+40	Джонатан	_	_	_	_	_	_	_	bratT1=Person|bratT51=Person-forename
+41	МакДауэлл	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT52=Person-surname
 42	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0034-p3
@@ -67,7 +67,7 @@
 2	его	_	_	_	_	_	_	_	_
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	китайская	_	_	_	_	_	_	_	bratA5=T15:Project|bratT15=Product
+5	китайская	_	_	_	_	_	_	_	bratA5=T15:Project|bratT15=Product|bratT47=GPE
 6	Chang'e	_	_	_	_	_	_	_	bratA5=T15:Project|bratT15=Product
 7	5	_	_	_	_	_	_	_	bratA5=T15:Project|bratT15=Product
 8	создает	_	_	_	_	_	_	_	_
@@ -87,7 +87,7 @@
 # text = Говоря о российской лунной программе, эксперт отметил ее ``отставание после многолетних задержек'' от соответствующих проектов США и Китая.
 1	Говоря	_	_	_	_	_	_	_	_
 2	о	_	_	_	_	_	_	_	_
-3	российской	_	_	_	_	_	_	_	bratA7=T36:Project|bratT36=Product
+3	российской	_	_	_	_	_	_	_	bratA7=T36:Project|bratT36=Product|bratT48=GPE
 4	лунной	_	_	_	_	_	_	_	bratA7=T36:Project|bratT36=Product
 5	программе	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T36:Project|bratT36=Product
 6	,	_	_	_	_	_	_	_	_
@@ -96,9 +96,9 @@
 9	ее	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
 11	отставание	_	_	_	_	_	_	_	_
-12	после	_	_	_	_	_	_	_	bratA17=T40:Past|bratT40=Date-relative
-13	многолетних	_	_	_	_	_	_	_	bratA17=T40:Past|bratT40=Date-relative|bratT41=Duration
-14	задержек	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T40:Past|bratT40=Date-relative
+12	после	_	_	_	_	_	_	_	bratA17=T40:Present|bratT40=Date-absolute
+13	многолетних	_	_	_	_	_	_	_	bratA17=T40:Present|bratT40=Date-absolute|bratT41=Duration
+14	задержек	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T40:Present|bratT40=Date-absolute
 15	''	_	_	_	_	_	_	_	_
 16	от	_	_	_	_	_	_	_	_
 17	соответствующих	_	_	_	_	_	_	_	_
@@ -122,7 +122,7 @@
 8	функциональным	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	чем	_	_	_	_	_	_	_	_
-11	советские	_	_	_	_	_	_	_	bratT19=Product
+11	советские	_	_	_	_	_	_	_	bratT19=Product|bratT49=GPE
 12	серии	_	_	_	_	_	_	_	bratT19=Product
 13	E-8-5	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Product
 14	,	_	_	_	_	_	_	_	_
@@ -146,7 +146,7 @@
 3	в	_	_	_	_	_	_	_	_
 4	реализации	_	_	_	_	_	_	_	_
 5	данной	_	_	_	_	_	_	_	_
-6	китайской	_	_	_	_	_	_	_	_
+6	китайской	_	_	_	_	_	_	_	bratT50=GPE
 7	миссии	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	Луну	_	_	_	_	_	_	_	bratT31=Location
@@ -186,14 +186,14 @@
 15	Chang'e	_	_	_	_	_	_	_	bratA8=T26:Project|bratT26=Product
 16	5	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:Project|bratT26=Product
 17	,	_	_	_	_	_	_	_	_
-18	в	_	_	_	_	_	_	_	bratA14=T39:Future|bratT39=Date-period
-19	ходе	_	_	_	_	_	_	_	bratA14=T39:Future|bratT39=Date-period
-20	которой	_	_	_	_	_	_	_	bratA14=T39:Future|bratT39=Date-period
+18	в	_	_	_	_	_	_	_	bratA14=T39:Past-Fut|bratT39=Date-period-relative
+19	ходе	_	_	_	_	_	_	_	bratA14=T39:Past-Fut|bratT39=Date-period-relative
+20	которой	_	_	_	_	_	_	_	bratA14=T39:Past-Fut|bratT39=Date-period-relative
 21	планируется	_	_	_	_	_	_	_	_
-22	в	_	_	_	_	_	_	_	bratA15=T42:Future|bratT42=Date-period
-23	течение	_	_	_	_	_	_	_	bratA15=T42:Future|bratT42=Date-period
-24	23	_	_	_	_	_	_	_	bratA15=T42:Future|bratT27=Duration|bratT42=Date-period
-25	суток	_	_	_	_	_	_	_	bratA15=T42:Future|bratT27=Duration|bratT42=Date-period
+22	в	_	_	_	_	_	_	_	bratA15=T42:Past-Fut|bratT42=Date-period-relative
+23	течение	_	_	_	_	_	_	_	bratA15=T42:Past-Fut|bratT42=Date-period-relative
+24	23	_	_	_	_	_	_	_	bratA15=T42:Past-Fut|bratT27=Duration|bratT42=Date-period-relative
+25	суток	_	_	_	_	_	_	_	bratA15=T42:Past-Fut|bratT27=Duration|bratT42=Date-period-relative
 26	доставить	_	_	_	_	_	_	_	_
 27	на	_	_	_	_	_	_	_	_
 28	Землю	_	_	_	_	_	_	_	bratT33=Location

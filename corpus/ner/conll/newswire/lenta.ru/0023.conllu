@@ -3,11 +3,11 @@
 # par_text = Кадыров шесть раз похвалил Путина в одном посте про Карабах
 # sent_id = 0023-p1-s1
 # text = Кадыров шесть раз похвалил Путина в одном посте про Карабах
-1	Кадыров	_	_	_	_	_	_	_	bratT1=Person
+1	Кадыров	_	_	_	_	_	_	_	bratT1=Person|bratT45=Person-surname
 2	шесть	_	_	_	_	_	_	_	bratT5=Quantity
 3	раз	_	_	_	_	_	_	_	bratT5=Quantity
 4	похвалил	_	_	_	_	_	_	_	_
-5	Путина	_	_	_	_	_	_	_	bratT4=Person
+5	Путина	_	_	_	_	_	_	_	bratT4=Person|bratT46=Person-surname
 6	в	_	_	_	_	_	_	_	_
 7	одном	_	_	_	_	_	_	_	bratT6=Quantity
 8	посте	_	_	_	_	_	_	_	bratT6=Quantity
@@ -20,15 +20,15 @@
 # text = Глава Чечни Рамзан Кадыров шесть раз похвалил президента России Владимира Путина в одном посте об исходе конфликта в Нагорном Карабахе.
 1	Глава	_	_	_	_	_	_	_	bratT3=Person-property|bratT8=Person
 2	Чечни	_	_	_	_	_	_	_	bratT3=Person-property|bratT7=GPE|bratT8=Person
-3	Рамзан	_	_	_	_	_	_	_	bratT8=Person
-4	Кадыров	_	_	_	_	_	_	_	bratT8=Person
+3	Рамзан	_	_	_	_	_	_	_	bratT49=Person-forename|bratT8=Person
+4	Кадыров	_	_	_	_	_	_	_	bratT50=Person-surname|bratT8=Person
 5	шесть	_	_	_	_	_	_	_	bratT9=Quantity
 6	раз	_	_	_	_	_	_	_	bratT9=Quantity
 7	похвалил	_	_	_	_	_	_	_	_
 8	президента	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=Person
 9	России	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT12=Person
-10	Владимира	_	_	_	_	_	_	_	bratT12=Person
-11	Путина	_	_	_	_	_	_	_	bratT12=Person
+10	Владимира	_	_	_	_	_	_	_	bratT12=Person|bratT47=Person-forename
+11	Путина	_	_	_	_	_	_	_	bratT12=Person|bratT48=Person-surname
 12	в	_	_	_	_	_	_	_	_
 13	одном	_	_	_	_	_	_	_	bratT13=Quantity
 14	посте	_	_	_	_	_	_	_	bratT13=Quantity
@@ -55,10 +55,10 @@
 # text = По словам Кадырова, решить карабахский вопрос и принять решение о полном прекращении огня получилось ``благодаря личному участию в урегулировании конфликта Президента России Владимира Путина''.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Кадырова	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person
+3	Кадырова	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT51=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	решить	_	_	_	_	_	_	_	_
-6	карабахский	_	_	_	_	_	_	_	_
+6	карабахский	_	_	_	_	_	_	_	bratT40=GPE
 7	вопрос	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
 9	принять	_	_	_	_	_	_	_	_
@@ -77,8 +77,8 @@
 22	конфликта	_	_	_	_	_	_	_	_
 23	Президента	_	_	_	_	_	_	_	bratT17=Person-property|bratT19=Person
 24	России	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=GPE|bratT19=Person
-25	Владимира	_	_	_	_	_	_	_	bratT19=Person
-26	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+25	Владимира	_	_	_	_	_	_	_	bratT19=Person|bratT43=Person-forename
+26	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT44=Person-surname
 27	''	_	_	_	_	_	_	_	SpaceAfter=No
 28	.	_	_	_	_	_	_	_	_
 
@@ -123,13 +123,13 @@
 # text = В публикации Кадыров в том числе отметил харизму российского президента и его профессиональные качества: ``Успехи в таких сложных вопросах достигают только очень сильные, харизматичные люди, имеющие абсолютно безусловный авторитет'', - написал он.
 1	В	_	_	_	_	_	_	_	_
 2	публикации	_	_	_	_	_	_	_	_
-3	Кадыров	_	_	_	_	_	_	_	bratT22=Person
+3	Кадыров	_	_	_	_	_	_	_	bratT22=Person|bratT52=Person-surname
 4	в	_	_	_	_	_	_	_	_
 5	том	_	_	_	_	_	_	_	_
 6	числе	_	_	_	_	_	_	_	_
 7	отметил	_	_	_	_	_	_	_	_
 8	харизму	_	_	_	_	_	_	_	_
-9	российского	_	_	_	_	_	_	_	bratT23=Person-property
+9	российского	_	_	_	_	_	_	_	bratT23=Person-property|bratT41=GPE
 10	президента	_	_	_	_	_	_	_	bratT23=Person-property
 11	и	_	_	_	_	_	_	_	_
 12	его	_	_	_	_	_	_	_	_
@@ -168,9 +168,9 @@
 1	В	_	_	_	_	_	_	_	_
 2	четвертый	_	_	_	_	_	_	_	bratT24=Ordinal
 3	раз	_	_	_	_	_	_	_	_
-4	Кадыров	_	_	_	_	_	_	_	bratT25=Person
+4	Кадыров	_	_	_	_	_	_	_	bratT25=Person|bratT53=Person-surname
 5	похвалил	_	_	_	_	_	_	_	_
-6	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person
+6	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person|bratT54=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	когда	_	_	_	_	_	_	_	_
 9	указал	_	_	_	_	_	_	_	SpaceAfter=No
@@ -182,7 +182,7 @@
 15	''	_	_	_	_	_	_	_	_
 16	пытаются	_	_	_	_	_	_	_	_
 17	обвинить	_	_	_	_	_	_	_	_
-18	российского	_	_	_	_	_	_	_	bratT27=Person-property
+18	российского	_	_	_	_	_	_	_	bratT27=Person-property|bratT42=GPE
 19	президента	_	_	_	_	_	_	_	bratT27=Person-property
 20	в	_	_	_	_	_	_	_	_
 21	развязывании	_	_	_	_	_	_	_	_
@@ -196,8 +196,8 @@
 # sent_id = 0023-p5-s2
 # text = ``Владимир Путин на деле показывает, что в первую очередь он сторонник мирного разрешения ситуации и приверженец всевозможных мер, позволяющих предотвратить обострение конфликта в той или иной горячей точке'', - заявил Кадыров.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Владимир	_	_	_	_	_	_	_	bratT28=Person
-3	Путин	_	_	_	_	_	_	_	bratT28=Person
+2	Владимир	_	_	_	_	_	_	_	bratT28=Person|bratT55=Person-forename
+3	Путин	_	_	_	_	_	_	_	bratT28=Person|bratT56=Person-surname
 4	на	_	_	_	_	_	_	_	_
 5	деле	_	_	_	_	_	_	_	_
 6	показывает	_	_	_	_	_	_	_	SpaceAfter=No
@@ -230,7 +230,7 @@
 33	,	_	_	_	_	_	_	_	_
 34	-	_	_	_	_	_	_	_	_
 35	заявил	_	_	_	_	_	_	_	_
-36	Кадыров	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person
+36	Кадыров	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person|bratT57=Person-surname
 37	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0023-p6

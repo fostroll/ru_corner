@@ -17,7 +17,7 @@ T17	Event 770 793	пандемии   коронавируса
 T18	Person 829 875	Народный   артист   СССР   Армен   Джигарханян
 T19	Person-property 829 853	Народный   артист   СССР
 T20	GPE 849 853	СССР
-T21	Date-absolute 906 917	14   ноября
+T21	Date-absolute 890 917	в   ночь   на   14   ноября
 T22	Age 935 943	85   лет
 T23	Person-property 1148 1154	актера
 T24	Person-property 88 94	актера
@@ -26,5 +26,8 @@ T26	Event 229 244	смерти   актера
 T8	Organization 272 285	sobesednik.ru
 A1	Media T8
 T27	Person 17 29	Джигарханяна
-T28	Time-period 890 903	в   ночь   на
+T28	Time-absolute 890 903	в   ночь   на
 T29	Other-term 781 793	коронавируса
+A2	Past T21
+A3	Past T12
+A4	Past T14

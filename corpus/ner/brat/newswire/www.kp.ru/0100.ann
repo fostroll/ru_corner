@@ -24,8 +24,8 @@ T24	Person-property 701 726	премьер-министр   Армении
 T25	GPE 745 751	России
 T26	Person-property 733 751	президент   России
 T27	GPE 833 841	Карабахе
-T28	Date-absolute 947 958	10   ноября
-T29	Time-period 932 944	с   полуночи
+T28	Date-period-absolute 932 958	с   полуночи   10   ноября
+T29	Time-absolute 936 944	полуночи
 T30	Person-property 1053 1076	российские   миротворцы
 T31	Ordinal 1145 1147	15
 T32	Organization 1214 1246	Центрального   военного   округа
@@ -33,3 +33,7 @@ T33	Organization 1129 1246	подразделения   15   отдельной 
 A3	Department T33
 T3	Date-relative 1002 1007	ранее
 T34	Date-relative 371 376	Ранее
+A2	Past T3
+A4	Past T34
+A1	Past-Fut T28
+A5	Past T20

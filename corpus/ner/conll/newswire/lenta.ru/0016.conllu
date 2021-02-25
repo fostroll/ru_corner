@@ -23,8 +23,8 @@
 4	по	_	_	_	_	_	_	_	bratA1=T29:Department|bratT29=Organization|bratT4=Person|bratT5=Person-property
 5	международным	_	_	_	_	_	_	_	bratA1=T29:Department|bratT29=Organization|bratT4=Person|bratT5=Person-property
 6	делам	_	_	_	_	_	_	_	bratA1=T29:Department|bratT29=Organization|bratT4=Person|bratT5=Person-property
-7	Сергей	_	_	_	_	_	_	_	bratT4=Person
-8	Железняк	_	_	_	_	_	_	_	bratT4=Person
+7	Сергей	_	_	_	_	_	_	_	bratT38=Person-forename|bratT4=Person
+8	Железняк	_	_	_	_	_	_	_	bratT39=Person-surname|bratT4=Person
 9	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
@@ -36,8 +36,8 @@
 17	администрация	_	_	_	_	_	_	_	bratT7=Organization
 18	президента	_	_	_	_	_	_	_	bratT30=Person-property|bratT6=Person|bratT7=Organization
 19	США	_	_	_	_	_	_	_	bratT30=Person-property|bratT6=Person|bratT7=Organization|bratT8=GPE
-20	Дональда	_	_	_	_	_	_	_	bratT6=Person|bratT7=Organization
-21	Трампа	_	_	_	_	_	_	_	bratT6=Person|bratT7=Organization
+20	Дональда	_	_	_	_	_	_	_	bratT40=Person-forename|bratT6=Person|bratT7=Organization
+21	Трампа	_	_	_	_	_	_	_	bratT41=Person-surname|bratT6=Person|bratT7=Organization
 22	против	_	_	_	_	_	_	_	_
 23	предприятий	_	_	_	_	_	_	_	_
 24	оборонной	_	_	_	_	_	_	_	_
@@ -49,7 +49,7 @@
 30	направлены	_	_	_	_	_	_	_	_
 31	на	_	_	_	_	_	_	_	_
 32	сдерживание	_	_	_	_	_	_	_	_
-33	российского	_	_	_	_	_	_	_	_
+33	российского	_	_	_	_	_	_	_	bratT34=GPE
 34	военно-промышленного	_	_	_	_	_	_	_	_
 35	комплекса	_	_	_	_	_	_	_	SpaceAfter=No
 36	.	_	_	_	_	_	_	_	_
@@ -107,7 +107,7 @@
 # text = По словам Железняка, Вашингтон путем недобросовестной конкуренции стремится вытеснить российских производителей современного оружия.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Железняка	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+3	Железняка	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT42=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	Вашингтон	_	_	_	_	_	_	_	bratT13=GPE
 6	путем	_	_	_	_	_	_	_	_
@@ -115,7 +115,7 @@
 8	конкуренции	_	_	_	_	_	_	_	_
 9	стремится	_	_	_	_	_	_	_	_
 10	вытеснить	_	_	_	_	_	_	_	_
-11	российских	_	_	_	_	_	_	_	_
+11	российских	_	_	_	_	_	_	_	bratT35=GPE
 12	производителей	_	_	_	_	_	_	_	_
 13	современного	_	_	_	_	_	_	_	_
 14	оружия	_	_	_	_	_	_	_	SpaceAfter=No
@@ -125,13 +125,13 @@
 # par_text = Ранее сообщалось, что администрация действующего американского лидера планирует ввести новые санкции в отношении России. Так, согласно предварительному варианту документа, под санкции может попасть Минобороны России. Также ограничительные меры затронут 28 организаций: научные центры и предприятия, занятые в авиационной, ракетно-космической, атомной отраслях и отрасли приборо- и двигателестроения.
 # sent_id = 0016-p5-s1
 # text = Ранее сообщалось, что администрация действующего американского лидера планирует ввести новые санкции в отношении России.
-1	Ранее	_	_	_	_	_	_	_	bratT22=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-relative
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	администрация	_	_	_	_	_	_	_	bratT27=Organization
 6	действующего	_	_	_	_	_	_	_	bratT21=Person-property|bratT27=Organization
-7	американского	_	_	_	_	_	_	_	bratT21=Person-property|bratT27=Organization
+7	американского	_	_	_	_	_	_	_	bratT21=Person-property|bratT27=Organization|bratT36=GPE
 8	лидера	_	_	_	_	_	_	_	bratT21=Person-property|bratT27=Organization
 9	планирует	_	_	_	_	_	_	_	_
 10	ввести	_	_	_	_	_	_	_	_
@@ -205,7 +205,7 @@
 11	в	_	_	_	_	_	_	_	_
 12	отношении	_	_	_	_	_	_	_	_
 13	трех	_	_	_	_	_	_	_	bratT23=Quantity
-14	российских	_	_	_	_	_	_	_	bratT23=Quantity
+14	российских	_	_	_	_	_	_	_	bratT23=Quantity|bratT37=GPE
 15	организаций	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Quantity
 16	.	_	_	_	_	_	_	_	_
 

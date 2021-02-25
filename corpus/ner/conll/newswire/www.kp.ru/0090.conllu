@@ -78,8 +78,8 @@
 10	100	_	_	_	_	_	_	_	bratT10=Money
 11	тысяч	_	_	_	_	_	_	_	bratT10=Money
 12	рублей	_	_	_	_	_	_	_	bratT10=Money
-13	в	_	_	_	_	_	_	_	bratT11=Date-duration
-14	месяц	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-duration
+13	в	_	_	_	_	_	_	_	bratT11=Time-period
+14	месяц	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Time-period|bratT46=Duration
 15	,	_	_	_	_	_	_	_	_
 16	а	_	_	_	_	_	_	_	_
 17	доля	_	_	_	_	_	_	_	_
@@ -118,8 +118,8 @@
 19	более	_	_	_	_	_	_	_	bratT16=Money
 20	100	_	_	_	_	_	_	_	bratT16=Money
 21	тысяч	_	_	_	_	_	_	_	bratT16=Money
-22	в	_	_	_	_	_	_	_	bratT17=Date-duration
-23	месяц	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Date-duration
+22	в	_	_	_	_	_	_	_	bratT17=Time-period
+23	месяц	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Time-period|bratT47=Duration
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p6
@@ -232,8 +232,8 @@
 11	100	_	_	_	_	_	_	_	bratT41=Money
 12	тысяч	_	_	_	_	_	_	_	bratT41=Money
 13	рублей	_	_	_	_	_	_	_	bratT41=Money
-14	в	_	_	_	_	_	_	_	bratT42=Date-duration
-15	месяц	_	_	_	_	_	_	_	bratT42=Date-duration
+14	в	_	_	_	_	_	_	_	bratT42=Time-period
+15	месяц	_	_	_	_	_	_	_	bratT42=Time-period|bratT48=Duration
 16	и	_	_	_	_	_	_	_	_
 17	выше	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
@@ -242,7 +242,7 @@
 # par_text = Ранее сервис поиска работы и сотрудников HeadHunter показал, что наиболее престижной россияне считают работу в нефтегазовой отрасли, сфере IT и государственных организациях.
 # sent_id = 0090-p9-s1
 # text = Ранее сервис поиска работы и сотрудников HeadHunter показал, что наиболее престижной россияне считают работу в нефтегазовой отрасли, сфере IT и государственных организациях.
-1	Ранее	_	_	_	_	_	_	_	bratT45=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA3=T45:Past|bratT45=Date-relative
 2	сервис	_	_	_	_	_	_	_	bratT43=Organization
 3	поиска	_	_	_	_	_	_	_	bratT43=Organization
 4	работы	_	_	_	_	_	_	_	bratT43=Organization

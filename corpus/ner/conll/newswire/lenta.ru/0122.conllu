@@ -108,7 +108,7 @@
 # sent_id = 0122-p4-s2
 # text = Вспыхнула война, которая закончилась перемирием, но оно периодически нарушалось.
 1	Вспыхнула	_	_	_	_	_	_	_	_
-2	война	_	_	_	_	_	_	_	SpaceAfter=No
+2	война	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Event
 3	,	_	_	_	_	_	_	_	_
 4	которая	_	_	_	_	_	_	_	_
 5	закончилась	_	_	_	_	_	_	_	_
@@ -140,7 +140,7 @@
 2	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	армянские	_	_	_	_	_	_	_	bratT20=Organization
+5	армянские	_	_	_	_	_	_	_	bratT17=GPE|bratT20=Organization
 6	войска	_	_	_	_	_	_	_	bratT20=Organization
 7	атаковали	_	_	_	_	_	_	_	_
 8	его	_	_	_	_	_	_	_	_
@@ -172,7 +172,7 @@
 1	В	_	_	_	_	_	_	_	bratA8=T9:Past|bratT9=Date-relative
 2	ходе	_	_	_	_	_	_	_	bratA8=T9:Past|bratT9=Date-relative
 3	боев	_	_	_	_	_	_	_	bratA8=T9:Past|bratT16=Event|bratT9=Date-relative
-4	азербайджанская	_	_	_	_	_	_	_	bratT24=Organization
+4	азербайджанская	_	_	_	_	_	_	_	bratT21=GPE|bratT24=Organization
 5	армия	_	_	_	_	_	_	_	bratT24=Organization
 6	заняла	_	_	_	_	_	_	_	_
 7	часть	_	_	_	_	_	_	_	_
@@ -195,18 +195,18 @@
 2	ноября	_	_	_	_	_	_	_	bratA6=T26:Past|bratT26=Date-absolute
 3	президент	_	_	_	_	_	_	_	bratT27=Person-property|bratT29=Person
 4	России	_	_	_	_	_	_	_	bratT27=Person-property|bratT28=GPE|bratT29=Person
-5	Владимир	_	_	_	_	_	_	_	bratT29=Person
-6	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person
+5	Владимир	_	_	_	_	_	_	_	bratT29=Person|bratT41=Person-forename
+6	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person|bratT42=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	президент	_	_	_	_	_	_	_	bratT30=Person-property|bratT32=Person
 9	Азербайджана	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=GPE|bratT32=Person
-10	Ильхам	_	_	_	_	_	_	_	bratT32=Person
-11	Алиев	_	_	_	_	_	_	_	bratT32=Person
+10	Ильхам	_	_	_	_	_	_	_	bratT32=Person|bratT43=Person-forename
+11	Алиев	_	_	_	_	_	_	_	bratT32=Person|bratT44=Person-surname
 12	и	_	_	_	_	_	_	_	_
 13	премьер-министр	_	_	_	_	_	_	_	bratT33=Person-property|bratT35=Person
 14	Армении	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=GPE|bratT35=Person
-15	Никол	_	_	_	_	_	_	_	bratT35=Person
-16	Пашинян	_	_	_	_	_	_	_	bratT35=Person
+15	Никол	_	_	_	_	_	_	_	bratT35=Person|bratT45=Person-forename
+16	Пашинян	_	_	_	_	_	_	_	bratT35=Person|bratT46=Person-surname
 17	подписали	_	_	_	_	_	_	_	_
 18	совместное	_	_	_	_	_	_	_	_
 19	заявление	_	_	_	_	_	_	_	_
@@ -229,9 +229,9 @@
 
 # sent_id = 0122-p6-s4
 # text = До 1 декабря под контроль Баку передаются три района.
-1	До	_	_	_	_	_	_	_	bratT36=Date-period
-2	1	_	_	_	_	_	_	_	bratA7=T15:Future|bratT15=Date-absolute|bratT36=Date-period
-3	декабря	_	_	_	_	_	_	_	bratA7=T15:Future|bratT15=Date-absolute|bratT36=Date-period
+1	До	_	_	_	_	_	_	_	bratA9=T36:Pres-Fut|bratT36=Date-period-absolute
+2	1	_	_	_	_	_	_	_	bratA9=T36:Pres-Fut|bratT36=Date-period-absolute
+3	декабря	_	_	_	_	_	_	_	bratA9=T36:Pres-Fut|bratT36=Date-period-absolute
 4	под	_	_	_	_	_	_	_	_
 5	контроль	_	_	_	_	_	_	_	_
 6	Баку	_	_	_	_	_	_	_	bratT37=GPE
@@ -246,7 +246,7 @@
 2	регионе	_	_	_	_	_	_	_	_
 3	будут	_	_	_	_	_	_	_	_
 4	действовать	_	_	_	_	_	_	_	_
-5	российские	_	_	_	_	_	_	_	bratT39=Person-property
+5	российские	_	_	_	_	_	_	_	bratT39=Person-property|bratT40=GPE
 6	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-property
 7	.	_	_	_	_	_	_	_	_
 

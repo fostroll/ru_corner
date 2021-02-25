@@ -23,8 +23,8 @@
 7	Ice	_	_	_	_	_	_	_	bratT2=Event|bratT27=Person-property|bratT3=Person
 8	Bucket	_	_	_	_	_	_	_	bratT2=Event|bratT27=Person-property|bratT3=Person
 9	Challenge	_	_	_	_	_	_	_	bratT2=Event|bratT27=Person-property|bratT3=Person
-10	Патрик	_	_	_	_	_	_	_	bratT3=Person
-11	Куинн	_	_	_	_	_	_	_	bratT3=Person
+10	Патрик	_	_	_	_	_	_	_	bratT3=Person|bratT36=Person-forename
+11	Куинн	_	_	_	_	_	_	_	bratT3=Person|bratT37=Person-surname
 12	умер	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
 14	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Past|bratT4=Date-absolute
@@ -56,7 +56,7 @@
 # par_text = Куинн скончался от бокового амиотрофического склероза (ALS), этот диагноз был поставлен ему в 2013 году. «Мы с глубокой печалью должны сообщить о том, что Патрик умер сегодня рано утром. Он был во многих отношениях подлинным подарком судьбы для всех нас. Мы будем помнить его за способность воодушевлять и мужество, проявленные в его неустанной борьбе с ALS», — говорится в сообщении.
 # sent_id = 0045-p3-s1
 # text = Куинн скончался от бокового амиотрофического склероза (ALS), этот диагноз был поставлен ему в 2013 году.
-1	Куинн	_	_	_	_	_	_	_	bratT7=Person
+1	Куинн	_	_	_	_	_	_	_	bratT38=Person-surname|bratT7=Person
 2	скончался	_	_	_	_	_	_	_	_
 3	от	_	_	_	_	_	_	_	_
 4	бокового	_	_	_	_	_	_	_	bratT8=Other-term
@@ -89,7 +89,7 @@
 9	том	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
-12	Патрик	_	_	_	_	_	_	_	bratT11=Person
+12	Патрик	_	_	_	_	_	_	_	bratT11=Person|bratT39=Person-forename
 13	умер	_	_	_	_	_	_	_	_
 14	сегодня	_	_	_	_	_	_	_	bratA5=T34:Past|bratT34=Date-absolute
 15	рано	_	_	_	_	_	_	_	bratA5=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
@@ -157,7 +157,7 @@
 17	нервной	_	_	_	_	_	_	_	_
 18	системы	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
-20	Куинн	_	_	_	_	_	_	_	bratT14=Person
+20	Куинн	_	_	_	_	_	_	_	bratT14=Person|bratT40=Person-surname
 21	стал	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
 23	2014	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
@@ -213,23 +213,23 @@
 11	числе	_	_	_	_	_	_	_	_
 12	основатель	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
 13	Microsoft	_	_	_	_	_	_	_	bratT17=Organization|bratT28=Person-property|bratT29=Person
-14	Билл	_	_	_	_	_	_	_	bratT29=Person
-15	Гейтс	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person
+14	Билл	_	_	_	_	_	_	_	bratT29=Person|bratT41=Person-forename
+15	Гейтс	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person|bratT42=Person-surname
 16	,	_	_	_	_	_	_	_	_
 17	основатель	_	_	_	_	_	_	_	bratT20=Person|bratT30=Person-property
 18	Facebook	_	_	_	_	_	_	_	bratT19=Organization|bratT20=Person|bratT30=Person-property
-19	Марк	_	_	_	_	_	_	_	bratT20=Person
-20	Цукерберг	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person
+19	Марк	_	_	_	_	_	_	_	bratT20=Person|bratT43=Person-forename
+20	Цукерберг	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person|bratT44=Person-surname
 21	,	_	_	_	_	_	_	_	_
 22	бывший	_	_	_	_	_	_	_	bratT21=Person|bratT22=Person-property
 23	президент	_	_	_	_	_	_	_	bratT21=Person|bratT22=Person-property
 24	США	_	_	_	_	_	_	_	bratT21=Person|bratT22=Person-property|bratT23=GPE
-25	Джордж	_	_	_	_	_	_	_	bratT21=Person
-26	Буш	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person
+25	Джордж	_	_	_	_	_	_	_	bratT21=Person|bratT45=Person-forename
+26	Буш	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT46=Person-surname
 27	,	_	_	_	_	_	_	_	_
 28	писатель	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
-29	Стивен	_	_	_	_	_	_	_	bratT25=Person
-30	Кинг	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person
+29	Стивен	_	_	_	_	_	_	_	bratT25=Person|bratT47=Person-forename
+30	Кинг	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person|bratT48=Person-surname
 31	,	_	_	_	_	_	_	_	_
 32	музыканты	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property
 33	,	_	_	_	_	_	_	_	_

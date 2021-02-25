@@ -7,7 +7,7 @@ T6	Quantity 241 255	один   человек
 T7	Quantity 270 281	больше   30
 T8	GPE 446 457	Нур-Султана
 T9	Organization 399 457	департамента   по   чрезвычайным   ситуациям   Нур-Султана
-T10	Date-relative 529 540	в   субботу
+T10	Date-absolute 522 540	днем   в   субботу
 T11	Person-property 710 719	Спасатели
 T12	Quantity 746 769	15   газовых   баллонов
 T13	Quantity 851 865	один   человек
@@ -23,8 +23,12 @@ T22	Organization 311 379	пресс-служба   управления   общ
 A1	Department T22
 T23	Service 967 987	медицинская   помощь
 T24	Person-property 1026 1053	профильными   специалистами
-T25	Time-period 522 526	днем
+T25	Time-absolute 522 526	днем
 T26	Event 480 507	взрыве   газового   баллона
 T27	Person-property 1060 1084	медицинским   персоналом
 T28	Event 1288 1334	разрыв   трубы   с   кислородом   в   больнице
-T29	Date-relative 1424 1431	недавно
+T29	Date-absolute 1424 1431	недавно
+A2	Past T10
+A3	Past T3
+A4	Past T18
+A5	Past T29

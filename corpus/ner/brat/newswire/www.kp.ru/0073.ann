@@ -5,7 +5,7 @@ T3	Money 54 79	19,3   миллиарда   рублей
 T4	Organization 107 126	AliExpress   Россия
 T5	GPE 120 126	Россия
 T6	Event 146 173	главной   распродажи   года
-T7	Date-duration 169 173	года
+T7	Date-period-absolute 169 173	года
 T8	Nationality 200 208	россияне
 A2	Citizenship T8
 T9	Money 255 280	19,3   миллиарда   рублей
@@ -14,12 +14,12 @@ T11	Money 365 391	почти   четыре   миллиарда
 T12	Person-property 447 469	российских   продавцов
 T13	Money 483 507	3,3   миллиарда   рублей
 T14	Quantity 520 543	в   1,3   раза   больше
-T15	Date-relative 574 589	прошлого   года
+T15	Date-period-absolute 574 589	прошлого   года
 T16	Quantity 657 685	четырех   миллионов   единиц
 T17	Quantity 704 727	в   пять   раз   больше
-T18	Date-relative 740 758	в   прошлом   году
+T18	Date-period-absolute 740 758	в   прошлом   году
 T19	Money 871 895	660   миллионов   рублей
-T20	Date-relative 915 930	в   этом   году
+T20	Date-period-absolute 915 930	в   этом   году
 T21	Quantity 1104 1124	в   двенадцать   раз
 T22	GPE 1298 1304	России
 T23	Person 1383 1447	генеральный   директор   AliExpress   Россия   Дмитрий   Сергеев
@@ -30,7 +30,7 @@ T27	GPE 1499 1505	России
 T29	Other-group 1682 1693	покупателей
 T30	Other-group 1888 1898	покупатели
 T31	Person-property 1259 1266	селлеры
-T32	Time-period 302 332	первый   же   час   распродажи
+T32	Date-period-absolute 302 332	первый   же   час   распродажи
 T28	GPE 1906 1912	Москвы
 T33	GPE 1919 1935	Санкт-Петербурга
 T34	GPE 1942 1955	Екатеринбурга
@@ -41,11 +41,22 @@ T38	GPE 2024 2030	Казани
 T39	GPE 2037 2052	Ростова-на-Дону
 T40	GPE 2059 2065	Самары
 T41	GPE 2072 2075	Уфы
-T42	Date-period 82 105	за   время   распродажи
-T43	Date-period 178 197	За   время   скидок
+T42	Date-period-absolute 82 105	за   время   распродажи
+T43	Date-period-absolute 178 197	За   время   скидок
 T45	Percent 978 993	большая   часть
 T46	Event 95 105	распродажи
 T47	Organization 409 432	пресс-служба   компании
 A3	Department T47
 T48	Event 561 589	распродаже   прошлого   года
-T49	Date-period 556 589	на   распродаже   прошлого   года
+T49	Date-period-absolute 556 589	на   распродаже   прошлого   года
+T44	Duration 316 319	час
+A4	Past T32
+A5	Past T43
+A6	Past T42
+A7	Past-Pres T7
+A8	Past-Pres T20
+A9	Past T18
+A10	Past T15
+A11	Past T49
+T50	Ordinal 574 582	прошлого
+T51	Ordinal 744 751	прошлом

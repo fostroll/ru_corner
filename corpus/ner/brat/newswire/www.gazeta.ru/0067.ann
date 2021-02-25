@@ -16,18 +16,23 @@ T13	Person-property 1267 1311	глава   проекта   ``   Трезвая 
 T14	Person 1362 1423	министру   промышленности   и   торговли   Денису   Мантурову
 T15	Person-property 1362 1402	министру   промышленности   и   торговли
 T16	Person 1512 1520	Хамзаева
-T17	Date-absolute 74 92	1   и   2   января
-T18	Date-absolute 311 329	1   и   2   января
-T20	Date-period 94 119	В   новогодние   каникулы
-T21	Date-period 1034 1062	В   первую   декаду   января
+T17	Time-absolute 74 92	1   и   2   января
+T18	Time-absolute 311 329	1   и   2   января
+T20	Time-absolute 94 119	В   новогодние   каникулы
+T21	Time-absolute 1034 1062	В   первую   декаду   января
 T22	Ordinal 893 902	последней
 T23	Quantity 1136 1145	утроенной
 T24	Service 929 944	скорая   помощь
 T25	Service 1114 1129	скорая   помощь
-T26	Date-absolute 1474 1492	1   и   2   января
+T26	Time-absolute 1474 1492	1   и   2   января
 T27	Service 1641 1671	скорой   медицинской   помощью
 T19	Event 1527 1548	январские   праздники
-T28	Date-relative 820 826	Сейчас
-T29	Date-relative 645 651	сейчас
-T30	Date-relative 1259 1266	Ранее  
-T31	Date-period 921 928	потом  
+T28	Date-absolute 820 826	Сейчас
+T29	Date-absolute 645 651	сейчас
+T30	Date-relative 1259 1264	Ранее
+T31	Date-absolute 921 926	потом
+T32	Event 98 119	новогодние   каникулы
+A3	Future T28
+A4	Future T31
+A5	Future T29
+A6	Past T30

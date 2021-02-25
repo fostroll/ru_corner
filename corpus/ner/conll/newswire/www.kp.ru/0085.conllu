@@ -255,10 +255,10 @@
 # text = Сокращение отмечается на протяжении последних пяти лет.
 1	Сокращение	_	_	_	_	_	_	_	_
 2	отмечается	_	_	_	_	_	_	_	_
-3	на	_	_	_	_	_	_	_	bratT21=Date-period
-4	протяжении	_	_	_	_	_	_	_	bratT21=Date-period
-5	последних	_	_	_	_	_	_	_	bratT21=Date-period|bratT25=Ordinal
-6	пяти	_	_	_	_	_	_	_	bratT21=Date-period
-7	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Date-period
+3	на	_	_	_	_	_	_	_	bratA8=T21:Past-Pres|bratT21=Date-period-absolute
+4	протяжении	_	_	_	_	_	_	_	bratA8=T21:Past-Pres|bratT21=Date-period-absolute
+5	последних	_	_	_	_	_	_	_	bratA8=T21:Past-Pres|bratT21=Date-period-absolute|bratT25=Ordinal
+6	пяти	_	_	_	_	_	_	_	bratA8=T21:Past-Pres|bratT21=Date-period-absolute|bratT29=Duration
+7	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Past-Pres|bratT21=Date-period-absolute|bratT29=Duration
 8	.	_	_	_	_	_	_	_	_
 

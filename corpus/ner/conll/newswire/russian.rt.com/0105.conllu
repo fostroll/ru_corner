@@ -87,16 +87,16 @@
 28	тыс.	_	_	_	_	_	_	_	bratT9=Quantity
 29	будут	_	_	_	_	_	_	_	_
 30	подключены	_	_	_	_	_	_	_	_
-31	в	_	_	_	_	_	_	_	bratT16=Date-period
-32	течение	_	_	_	_	_	_	_	bratT16=Date-period
-33	ночи	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Future|bratT16=Date-period|bratT21=Date-absolute|bratT23=Time-absolute
+31	в	_	_	_	_	_	_	_	bratA4=T16:Fut|bratT16=Date-period-absolute
+32	течение	_	_	_	_	_	_	_	bratA4=T16:Fut|bratT16=Date-period-absolute
+33	ночи	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T16:Fut|bratT16=Date-period-absolute|bratT23=Time-absolute
 34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0105-p5
 # par_text = Ранее в «Примтеплоэнерго» рассказали о ситуации с возобновлением работы котельных в Приморье после аварийного отключения из-за ледяного дождя.
 # sent_id = 0105-p5-s1
 # text = Ранее в ``Примтеплоэнерго'' рассказали о ситуации с возобновлением работы котельных в Приморье после аварийного отключения из-за ледяного дождя.
-1	Ранее	_	_	_	_	_	_	_	bratT18=Time-relative
+1	Ранее	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-relative
 2	в	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 4	Примтеплоэнерго	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
@@ -110,7 +110,7 @@
 12	котельных	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	Приморье	_	_	_	_	_	_	_	bratT11=GPE
-15	после	_	_	_	_	_	_	_	bratT24=Time-relative
+15	после	_	_	_	_	_	_	_	bratA6=T24:Past|bratT24=Date-relative
 16	аварийного	_	_	_	_	_	_	_	bratT22=Event
 17	отключения	_	_	_	_	_	_	_	bratT22=Event
 18	из-за	_	_	_	_	_	_	_	_

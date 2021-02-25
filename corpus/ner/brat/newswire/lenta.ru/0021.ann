@@ -23,15 +23,14 @@ T23	Person 1056 1069	Беллы   Хадид
 A1	Media T4
 T24	Person 454 469	Иоланды   Хадид
 T25	Person 485 490	Беллы
-T26	Person 514 537	Лео   ван   де   Херика
 T27	Person 1034 1069	двоюродная   сестра   Беллы   Хадид
 T10	Family 446 451	брата
 T28	Service 877 885	страницу
 A2	Media T28
 T29	Ordinal 1012 1021	последних
-T30	Date-period 565 584	во   время   режима
+T30	Date-period-absolute 565 584	во   время   режима
 T31	Date-absolute 923 929	теперь
-T32	Time-relative 189 194	ранее
+T32	Date-absolute 189 194	ранее
 T33	Time-relative 1197 1203	Сперва
 T34	Time-relative 1341 1346	затем
 T35	Event 578 595	режима   изоляции
@@ -40,3 +39,19 @@ T37	GPE 57 61	мире
 T38	GPE 233 237	мире
 A3	Past T30
 A4	Present T31
+A5	Past T32
+T39	GPE 137 150	палестинского
+T40	Nationality 137 166	палестинского   происхождения
+A6	Citizenship T40
+T41	Person-forename 169 174	Беллы
+T42	Person-surname 177 182	Хадид
+T43	Person-forename 383 389	Джоанн
+T44	Person-surname 392 408	ван   де   Херик
+T45	Person-forename 454 461	Иоланды
+T46	Person-surname 464 469	Хадид
+T47	Person-forename 485 490	Беллы
+T48	Person-forename 514 517	Лео
+T49	Person-surname 520 537	ван   де   Херика
+T50	Person-surname 861 866	Херик
+T51	Person-forename 1056 1061	Беллы
+T52	Person-surname 1064 1069	Хадид

@@ -29,9 +29,9 @@
 10	ребенка	_	_	_	_	_	_	_	bratT30=Family
 11	в	_	_	_	_	_	_	_	_
 12	России	_	_	_	_	_	_	_	bratT4=GPE
-13	в	_	_	_	_	_	_	_	bratT5=Date-relative
-14	текущем	_	_	_	_	_	_	_	bratT5=Date-relative
-15	году	_	_	_	_	_	_	_	bratT5=Date-relative
+13	в	_	_	_	_	_	_	_	bratA3=T5:Past-Pres|bratT5=Date-period-absolute
+14	текущем	_	_	_	_	_	_	_	bratA3=T5:Past-Pres|bratT37=Ordinal|bratT5=Date-period-absolute
+15	году	_	_	_	_	_	_	_	bratA3=T5:Past-Pres|bratT5=Date-period-absolute
 16	составил	_	_	_	_	_	_	_	_
 17	11	_	_	_	_	_	_	_	bratT6=Money
 18	882	_	_	_	_	_	_	_	bratT6=Money
@@ -40,8 +40,8 @@
 
 # sent_id = 0008-p2-s2
 # text = За год данные средства получили более 900 тысяч семей в стране, говорится в разработанном Минтрудом РФ проекте распоряжения кабмина.
-1	За	_	_	_	_	_	_	_	bratT8=Date-duration
-2	год	_	_	_	_	_	_	_	bratT8=Date-duration
+1	За	_	_	_	_	_	_	_	bratA2=T35:Past|bratT35=Date-period-absolute
+2	год	_	_	_	_	_	_	_	bratA2=T35:Past|bratT35=Date-period-absolute|bratT8=Duration
 3	данные	_	_	_	_	_	_	_	_
 4	средства	_	_	_	_	_	_	_	_
 5	получили	_	_	_	_	_	_	_	_
@@ -71,9 +71,9 @@
 3	семей	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	получающих	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT12=Date-absolute
-7	2020	_	_	_	_	_	_	_	bratT12=Date-absolute
-8	году	_	_	_	_	_	_	_	bratT12=Date-absolute
+6	в	_	_	_	_	_	_	_	bratA4=T12:Past-Pres|bratA9=T12:RCont|bratT12=Date-period-absolute
+7	2020	_	_	_	_	_	_	_	bratA4=T12:Past-Pres|bratA9=T12:RCont|bratT12=Date-period-absolute
+8	году	_	_	_	_	_	_	_	bratA4=T12:Past-Pres|bratA9=T12:RCont|bratT12=Date-period-absolute
 9	выплаты	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	связи	_	_	_	_	_	_	_	_
@@ -97,9 +97,9 @@
 4	ежемесячной	_	_	_	_	_	_	_	_
 5	выплаты	_	_	_	_	_	_	_	_
 6	составил	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	bratT14=Date-relative
-8	этом	_	_	_	_	_	_	_	bratT14=Date-relative
-9	году	_	_	_	_	_	_	_	bratT14=Date-relative
+7	в	_	_	_	_	_	_	_	bratA5=T14:Past-Pres|bratT14=Date-period-absolute
+8	этом	_	_	_	_	_	_	_	bratA5=T14:Past-Pres|bratT14=Date-period-absolute
+9	году	_	_	_	_	_	_	_	bratA5=T14:Past-Pres|bratT14=Date-period-absolute
 10	11	_	_	_	_	_	_	_	bratT15=Money
 11	882	_	_	_	_	_	_	_	bratT15=Money
 12	рубля	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Money
@@ -113,11 +113,11 @@
 20	цитирует	_	_	_	_	_	_	_	_
 21	агентство	_	_	_	_	_	_	_	bratA1=T16:Media|bratT16=Organization
 22	ТАСС	_	_	_	_	_	_	_	bratA1=T16:Media|bratT16=Organization
-23	в	_	_	_	_	_	_	_	bratT17=Date-absolute
-24	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Date-absolute
-25	,	_	_	_	_	_	_	_	bratT17=Date-absolute
-26	25	_	_	_	_	_	_	_	bratT17=Date-absolute
-27	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Date-absolute
+23	в	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
+24	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T17:Past|bratT17=Date-absolute
+25	,	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
+26	25	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
+27	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T17:Past|bratT17=Date-absolute
 28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0008-p4
@@ -126,9 +126,9 @@
 # text = По состоянию на начало ноября объем израсходованных средств на данные цели составил около 90,7 миллиарда рублей, то есть более 72 процентов от предусмотренного объема.
 1	По	_	_	_	_	_	_	_	_
 2	состоянию	_	_	_	_	_	_	_	_
-3	на	_	_	_	_	_	_	_	bratT18=Date-absolute
-4	начало	_	_	_	_	_	_	_	bratT18=Date-absolute
-5	ноября	_	_	_	_	_	_	_	bratT18=Date-absolute
+3	на	_	_	_	_	_	_	_	bratA7=T18:Past-Pres|bratT18=Date-period-absolute
+4	начало	_	_	_	_	_	_	_	bratA7=T18:Past-Pres|bratT18=Date-period-absolute
+5	ноября	_	_	_	_	_	_	_	bratA7=T18:Past-Pres|bratT18=Date-period-absolute
 6	объем	_	_	_	_	_	_	_	_
 7	израсходованных	_	_	_	_	_	_	_	_
 8	средств	_	_	_	_	_	_	_	_
@@ -195,10 +195,10 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	с	_	_	_	_	_	_	_	bratT25=Date-period
-5	января	_	_	_	_	_	_	_	bratT25=Date-period
-6	текущего	_	_	_	_	_	_	_	bratT25=Date-period
-7	года	_	_	_	_	_	_	_	bratT25=Date-period
+4	с	_	_	_	_	_	_	_	bratA10=T25:UNK-Fut|bratA8=T25:Past-Pres|bratT25=Date-period-absolute
+5	января	_	_	_	_	_	_	_	bratA10=T25:UNK-Fut|bratA8=T25:Past-Pres|bratT25=Date-period-absolute
+6	текущего	_	_	_	_	_	_	_	bratA10=T25:UNK-Fut|bratA8=T25:Past-Pres|bratT25=Date-period-absolute|bratT36=Ordinal
+7	года	_	_	_	_	_	_	_	bratA10=T25:UNK-Fut|bratA8=T25:Past-Pres|bratT25=Date-period-absolute
 8	в	_	_	_	_	_	_	_	_
 9	России	_	_	_	_	_	_	_	bratT26=GPE
 10	изменили	_	_	_	_	_	_	_	_

@@ -11,7 +11,7 @@ T11	Person 964 969	Скляр
 T10	Service 1000 1008	Facebook
 T12	Person 1022 1037	Стас   Михайлов
 T13	Person-property 204 212	артистов
-T14	Time-duration 238 248	60   минут
+T14	Duration 238 248	60   минут
 T15	Work-of-art 221 253	программе   ``   60   минут   ''
 T16	Person 256 264	Михайлов
 T17	Person-property 317 325	артистов
@@ -20,10 +20,15 @@ T19	Person-property 369 375	Артист
 T21	Event 694 702	пандемии
 T22	Event 1098 1106	пандемии
 T23	Event 341 364	пандемии   коронавируса
-T24	Date-period 328 349	в   период   пандемии
-T25	Date-period 675 702	За   все   время   пандемии
-T26	Date-period 496 514	во   время   эфира
-T20	Date-period 600 623	во   время   отсутствия
-T27	Date-relative 1014 1021	Ранее  
+T24	Date-absolute 328 349	в   период   пандемии
+T25	Date-period-absolute 675 702	За   все   время   пандемии
+T26	Date-absolute 496 514	во   время   эфира
+T20	Date-period-absolute 600 623	во   время   отсутствия
+T27	Date-relative 1014 1019	Ранее
 T28	Service 985 993	странице
 A1	Media T28
+T29	Time-period 238 248	60   минут
+A2	Past T26
+A3	Past-Fut T20
+A4	Past T25
+A5	Past T27

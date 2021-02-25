@@ -8,20 +8,20 @@
 3	объяснили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	почему	_	_	_	_	_	_	_	_
-6	Путин	_	_	_	_	_	_	_	bratT2=Person
+6	Путин	_	_	_	_	_	_	_	bratT2=Person|bratT31=Person-surname
 7	пока	_	_	_	_	_	_	_	_
 8	не	_	_	_	_	_	_	_	_
 9	поздравил	_	_	_	_	_	_	_	_
-10	Байдена	_	_	_	_	_	_	_	bratT3=Person
+10	Байдена	_	_	_	_	_	_	_	bratT3=Person|bratT32=Person-surname
 
 # newpar id = 0018-p2
 # par_text = Российский лидер Владимир Путин своевременно поздравит нового президента США, официальных итогов выборов пока нет. Об этом заявил пресс-секретарь главы государства Дмитрий Песков, отвечая на вопросы журналистов.
 # sent_id = 0018-p2-s1
 # text = Российский лидер Владимир Путин своевременно поздравит нового президента США, официальных итогов выборов пока нет.
-1	Российский	_	_	_	_	_	_	_	bratT12=Person-property|bratT20=Person
+1	Российский	_	_	_	_	_	_	_	bratT12=Person-property|bratT20=Person|bratT46=GPE
 2	лидер	_	_	_	_	_	_	_	bratT12=Person-property|bratT20=Person
-3	Владимир	_	_	_	_	_	_	_	bratT20=Person
-4	Путин	_	_	_	_	_	_	_	bratT20=Person
+3	Владимир	_	_	_	_	_	_	_	bratT20=Person|bratT33=Person-forename
+4	Путин	_	_	_	_	_	_	_	bratT20=Person|bratT34=Person-surname
 5	своевременно	_	_	_	_	_	_	_	_
 6	поздравит	_	_	_	_	_	_	_	_
 7	нового	_	_	_	_	_	_	_	bratT21=Person-property
@@ -43,8 +43,8 @@
 4	пресс-секретарь	_	_	_	_	_	_	_	bratT23=Person-property|bratT25=Person
 5	главы	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person-property|bratT25=Person
 6	государства	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person-property|bratT25=Person
-7	Дмитрий	_	_	_	_	_	_	_	bratT25=Person
-8	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person
+7	Дмитрий	_	_	_	_	_	_	_	bratT25=Person|bratT35=Person-forename
+8	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person|bratT36=Person-surname
 9	,	_	_	_	_	_	_	_	_
 10	отвечая	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
@@ -71,10 +71,10 @@
 4	президента	_	_	_	_	_	_	_	bratT5=Person-property
 5	США	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=GPE
 6	своевременно	_	_	_	_	_	_	_	_
-7	после	_	_	_	_	_	_	_	bratT29=Time-relative
-8	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Time-relative
-9	,	_	_	_	_	_	_	_	bratT29=Time-relative
-10	как	_	_	_	_	_	_	_	bratT29=Time-relative
+7	после	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-relative
+8	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T29:Future|bratT29=Date-relative
+9	,	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-relative
+10	как	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-relative
 11	будут	_	_	_	_	_	_	_	_
 12	подведены	_	_	_	_	_	_	_	_
 13	итоги	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 8	что	_	_	_	_	_	_	_	_
 9	отсутствие	_	_	_	_	_	_	_	_
 10	поздравления	_	_	_	_	_	_	_	_
-11	Байдену	_	_	_	_	_	_	_	bratT8=Person
+11	Байдену	_	_	_	_	_	_	_	bratT37=Person-surname|bratT8=Person
 12	могут	_	_	_	_	_	_	_	_
 13	воспринять	_	_	_	_	_	_	_	_
 14	как	_	_	_	_	_	_	_	_
@@ -120,16 +120,16 @@
 # par_text = Ранее Песков отмечал, что решения американского президента Дональда Трампа начать процесс передачи власти ещё не достаточно, чтобы Путин официально поздравил Байдена.
 # sent_id = 0018-p5-s1
 # text = Ранее Песков отмечал, что решения американского президента Дональда Трампа начать процесс передачи власти ещё не достаточно, чтобы Путин официально поздравил Байдена.
-1	Ранее	_	_	_	_	_	_	_	bratT27=Time-relative
-2	Песков	_	_	_	_	_	_	_	bratT10=Person
+1	Ранее	_	_	_	_	_	_	_	bratA2=T27:Past|bratT27=Date-relative
+2	Песков	_	_	_	_	_	_	_	bratT10=Person|bratT38=Person-surname
 3	отмечал	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	решения	_	_	_	_	_	_	_	_
-7	американского	_	_	_	_	_	_	_	bratT11=Person|bratT13=Person-property
+7	американского	_	_	_	_	_	_	_	bratT11=Person|bratT13=Person-property|bratT45=GPE
 8	президента	_	_	_	_	_	_	_	bratT11=Person|bratT13=Person-property
-9	Дональда	_	_	_	_	_	_	_	bratT11=Person
-10	Трампа	_	_	_	_	_	_	_	bratT11=Person
+9	Дональда	_	_	_	_	_	_	_	bratT11=Person|bratT39=Person-forename
+10	Трампа	_	_	_	_	_	_	_	bratT11=Person|bratT40=Person-surname
 11	начать	_	_	_	_	_	_	_	_
 12	процесс	_	_	_	_	_	_	_	_
 13	передачи	_	_	_	_	_	_	_	_
@@ -139,10 +139,10 @@
 17	достаточно	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	чтобы	_	_	_	_	_	_	_	_
-20	Путин	_	_	_	_	_	_	_	bratT14=Person
+20	Путин	_	_	_	_	_	_	_	bratT14=Person|bratT41=Person-surname
 21	официально	_	_	_	_	_	_	_	_
 22	поздравил	_	_	_	_	_	_	_	_
-23	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person
+23	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person|bratT42=Person-surname
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0018-p6
@@ -153,10 +153,10 @@
 2	заявлял	_	_	_	_	_	_	_	_
 3	президент	_	_	_	_	_	_	_	bratT16=Person|bratT17=Person-property
 4	Мексики	_	_	_	_	_	_	_	bratT16=Person|bratT17=Person-property|bratT18=GPE
-5	Андрес	_	_	_	_	_	_	_	bratT16=Person
-6	Мануэль	_	_	_	_	_	_	_	bratT16=Person
-7	Лопес	_	_	_	_	_	_	_	bratT16=Person
-8	Обрадор	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person
+5	Андрес	_	_	_	_	_	_	_	bratT16=Person|bratT43=Person-forename
+6	Мануэль	_	_	_	_	_	_	_	bratT16=Person|bratT43=Person-forename
+7	Лопес	_	_	_	_	_	_	_	bratT16=Person|bratT44=Person-surname
+8	Обрадор	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT44=Person-surname
 9	,	_	_	_	_	_	_	_	_
 10	он	_	_	_	_	_	_	_	_
 11	не	_	_	_	_	_	_	_	_
@@ -168,9 +168,9 @@
 17	выборов	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	США	_	_	_	_	_	_	_	bratT19=GPE
-20	до	_	_	_	_	_	_	_	bratT28=Date-period
-21	официального	_	_	_	_	_	_	_	bratT28=Date-period|bratT30=Event
-22	объявления	_	_	_	_	_	_	_	bratT28=Date-period|bratT30=Event
+20	до	_	_	_	_	_	_	_	bratA1=T28:Pres-Fut|bratT28=Date-period-absolute
+21	официального	_	_	_	_	_	_	_	bratA1=T28:Pres-Fut|bratT28=Date-period-absolute|bratT30=Event
+22	объявления	_	_	_	_	_	_	_	bratA1=T28:Pres-Fut|bratT28=Date-period-absolute|bratT30=Event
 23	окончательных	_	_	_	_	_	_	_	bratT30=Event
 24	итогов	_	_	_	_	_	_	_	bratT30=Event
 25	голосования	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event

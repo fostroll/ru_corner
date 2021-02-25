@@ -25,8 +25,16 @@ T24	Person-property 903 914	самозанятые
 T25	GPE 1641 1650	Федерации
 T1	Organization 77 109	Федеральной   налоговой   службы
 T26	Organization 116 119	ФНС
-T27	Date-period 992 1013	на   время   пандемии
+T27	Date-period-absolute 992 1013	на   время   пандемии
 T28	Event 1314 1322	эпидемии
-T29	Time-relative 876 886	во   время
+T29	Date-absolute 876 900	во   время   регистрации
 T30	Other-term 1016 1028	коронавируса
-A2	Present T27
+A2	Past-Fut T27
+A3	Present T29
+T31	Event 889 900	регистрации
+T32	GPE 43 53	российских
+T33	Person-forename 126 132	Даниил
+T34	Person-surname 135 141	Егоров
+T35	Person-surname 585 591	Егоров
+T36	Person-surname 1142 1148	Егоров
+T37	Person-surname 1572 1578	Егоров

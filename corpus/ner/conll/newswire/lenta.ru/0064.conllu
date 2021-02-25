@@ -3,7 +3,7 @@
 # par_text = Пашинян поручил нарастить производство вооружений
 # sent_id = 0064-p1-s1
 # text = Пашинян поручил нарастить производство вооружений
-1	Пашинян	_	_	_	_	_	_	_	bratT1=Person
+1	Пашинян	_	_	_	_	_	_	_	bratT1=Person|bratT38=Person-surname
 2	поручил	_	_	_	_	_	_	_	_
 3	нарастить	_	_	_	_	_	_	_	_
 4	производство	_	_	_	_	_	_	_	_
@@ -15,8 +15,8 @@
 # text = Премьер-министр Армении Никол Пашинян поручил нарастить производство вооружений.
 1	Премьер-министр	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Person
 2	Армении	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=GPE|bratT4=Person
-3	Никол	_	_	_	_	_	_	_	bratT4=Person
-4	Пашинян	_	_	_	_	_	_	_	bratT4=Person
+3	Никол	_	_	_	_	_	_	_	bratT39=Person-forename|bratT4=Person
+4	Пашинян	_	_	_	_	_	_	_	bratT4=Person|bratT40=Person-surname
 5	поручил	_	_	_	_	_	_	_	_
 6	нарастить	_	_	_	_	_	_	_	_
 7	производство	_	_	_	_	_	_	_	_
@@ -37,7 +37,7 @@
 # par_text = Пашинян посетил научно-производственное объединение «Гарни Лер» и военный завод «Арсенал». В ходе визитов он рассмотрел производимые в Армении системы огнестрельного оружия и боевые снаряды.
 # sent_id = 0064-p3-s1
 # text = Пашинян посетил научно-производственное объединение ``Гарни Лер'' и военный завод ``Арсенал''.
-1	Пашинян	_	_	_	_	_	_	_	bratT6=Person
+1	Пашинян	_	_	_	_	_	_	_	bratT41=Person-surname|bratT6=Person
 2	посетил	_	_	_	_	_	_	_	_
 3	научно-производственное	_	_	_	_	_	_	_	bratT7=Organization
 4	объединение	_	_	_	_	_	_	_	bratT7=Organization
@@ -55,9 +55,9 @@
 
 # sent_id = 0064-p3-s2
 # text = В ходе визитов он рассмотрел производимые в Армении системы огнестрельного оружия и боевые снаряды.
-1	В	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-relative
-2	ходе	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-relative
-3	визитов	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-relative|bratT37=Event
+1	В	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-absolute
+2	ходе	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-absolute
+3	визитов	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-absolute|bratT37=Event
 4	он	_	_	_	_	_	_	_	_
 5	рассмотрел	_	_	_	_	_	_	_	_
 6	производимые	_	_	_	_	_	_	_	_
@@ -104,8 +104,8 @@
 3	министр	_	_	_	_	_	_	_	bratT11=Person-property|bratT13=Person
 4	обороны	_	_	_	_	_	_	_	bratT11=Person-property|bratT13=Person
 5	Армении	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE|bratT13=Person
-6	Давид	_	_	_	_	_	_	_	bratT13=Person
-7	Тоноян	_	_	_	_	_	_	_	bratT13=Person
+6	Давид	_	_	_	_	_	_	_	bratT13=Person|bratT42=Person-forename
+7	Тоноян	_	_	_	_	_	_	_	bratT13=Person|bratT43=Person-surname
 8	подал	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	отставку	_	_	_	_	_	_	_	SpaceAfter=No
@@ -118,14 +118,14 @@
 3	ведомства	_	_	_	_	_	_	_	bratT29=Person-property
 4	был	_	_	_	_	_	_	_	_
 5	назначен	_	_	_	_	_	_	_	_
-6	Вагаршак	_	_	_	_	_	_	_	bratT14=Person
-7	Арутюнян	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+6	Вагаршак	_	_	_	_	_	_	_	bratT14=Person|bratT44=Person-forename
+7	Арутюнян	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT45=Person-surname
 8	,	_	_	_	_	_	_	_	_
 9	возглавлявший	_	_	_	_	_	_	_	_
 10	Минобороны	_	_	_	_	_	_	_	bratT15=Organization
-11	в	_	_	_	_	_	_	_	bratT16=Date-period
-12	1999-2000	_	_	_	_	_	_	_	bratA5=T35:Past|bratT16=Date-period|bratT35=Date-absolute
-13	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T35:Past|bratT16=Date-period|bratT35=Date-absolute
+11	в	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
+12	1999-2000	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
+13	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period-absolute
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0064-p6
@@ -147,17 +147,17 @@
 13	с	_	_	_	_	_	_	_	_
 14	требованием	_	_	_	_	_	_	_	_
 15	ухода	_	_	_	_	_	_	_	_
-16	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+16	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT46=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0064-p6-s2
 # text = Это произошло после того, как премьер-министр Армении вместе с президентами Азербайджана и России Ильхамом Алиевым и Владимиром Путиным подписал заявление о прекращении боев в Нагорном Карабахе.
 1	Это	_	_	_	_	_	_	_	_
 2	произошло	_	_	_	_	_	_	_	_
-3	после	_	_	_	_	_	_	_	bratT31=Time-relative
-4	того	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Time-relative
-5	,	_	_	_	_	_	_	_	bratT31=Time-relative
-6	как	_	_	_	_	_	_	_	bratT31=Time-relative
+3	после	_	_	_	_	_	_	_	bratA5=T31:Past|bratT31=Date-relative
+4	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T31:Past|bratT31=Date-relative
+5	,	_	_	_	_	_	_	_	bratA5=T31:Past|bratT31=Date-relative
+6	как	_	_	_	_	_	_	_	bratA5=T31:Past|bratT31=Date-relative
 7	премьер-министр	_	_	_	_	_	_	_	bratT20=Person-property
 8	Армении	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=GPE
 9	вместе	_	_	_	_	_	_	_	_
@@ -166,11 +166,11 @@
 12	Азербайджана	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT22=GPE|bratT24=Person-property|bratT34=Person
 13	и	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT24=Person-property|bratT34=Person
 14	России	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT24=Person-property|bratT33=GPE|bratT34=Person
-15	Ильхамом	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person
-16	Алиевым	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person
+15	Ильхамом	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person|bratT47=Person-forename
+16	Алиевым	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person|bratT48=Person-surname
 17	и	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person
-18	Владимиром	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person
-19	Путиным	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person
+18	Владимиром	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person|bratT49=Person-forename
+19	Путиным	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person|bratT50=Person-surname
 20	подписал	_	_	_	_	_	_	_	_
 21	заявление	_	_	_	_	_	_	_	_
 22	о	_	_	_	_	_	_	_	_
@@ -197,7 +197,7 @@
 12	регионе	_	_	_	_	_	_	_	_
 13	будут	_	_	_	_	_	_	_	_
 14	находиться	_	_	_	_	_	_	_	_
-15	российские	_	_	_	_	_	_	_	bratT27=Person-property
+15	российские	_	_	_	_	_	_	_	bratT27=Person-property|bratT35=GPE
 16	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property
 17	.	_	_	_	_	_	_	_	_
 

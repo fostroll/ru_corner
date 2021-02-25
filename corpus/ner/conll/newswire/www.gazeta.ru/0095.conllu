@@ -138,11 +138,11 @@
 # text = Исследование проводилось с 9 по 15 ноября среди 4184 жителей России.
 1	Исследование	_	_	_	_	_	_	_	_
 2	проводилось	_	_	_	_	_	_	_	_
-3	с	_	_	_	_	_	_	_	bratT11=Date-period
-4	9	_	_	_	_	_	_	_	bratT11=Date-period
-5	по	_	_	_	_	_	_	_	bratT11=Date-period
-6	15	_	_	_	_	_	_	_	bratT11=Date-period
-7	ноября	_	_	_	_	_	_	_	bratT11=Date-period
+3	с	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-period-absolute
+4	9	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-period-absolute
+5	по	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-period-absolute
+6	15	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-period-absolute
+7	ноября	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-period-absolute
 8	среди	_	_	_	_	_	_	_	_
 9	4184	_	_	_	_	_	_	_	bratT12=Quantity
 10	жителей	_	_	_	_	_	_	_	bratT12=Quantity

@@ -22,7 +22,7 @@
 3	войск	_	_	_	_	_	_	_	bratT4=Person-property|bratT6=Organization
 4	Турции	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=GPE|bratT6=Organization
 5	могут	_	_	_	_	_	_	_	_
-6	вскоре	_	_	_	_	_	_	_	bratT53=Date-relative
+6	вскоре	_	_	_	_	_	_	_	bratA6=T53:Future|bratT53=Date-absolute
 7	отправиться	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	Азербайджан	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
@@ -56,7 +56,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Турецкие	_	_	_	_	_	_	_	bratT11=Person-property
 3	военные	_	_	_	_	_	_	_	bratT11=Person-property
-4	вскоре	_	_	_	_	_	_	_	bratT52=Date-relative
+4	вскоре	_	_	_	_	_	_	_	bratA7=T52:Future|bratT52=Date-absolute
 5	отправятся	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	Азербайджан	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=GPE
@@ -85,8 +85,8 @@
 # text = Напомним, 9 ноября президент России Владимир Путин, глава Азербайджана Ильхам Алиев и премьер-министр Армении Никол Пашинян подписали совместное заявление о полном прекращении военных действий в Нагорном Карабахе, которое вступило в силу 10 ноября.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	9	_	_	_	_	_	_	_	bratT17=Date-absolute
-4	ноября	_	_	_	_	_	_	_	bratT17=Date-absolute
+3	9	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute
+4	ноября	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute
 5	президент	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Person
 6	России	_	_	_	_	_	_	_	bratT18=GPE|bratT19=Person-property|bratT20=Person
 7	Владимир	_	_	_	_	_	_	_	bratT20=Person
@@ -117,23 +117,23 @@
 32	вступило	_	_	_	_	_	_	_	_
 33	в	_	_	_	_	_	_	_	_
 34	силу	_	_	_	_	_	_	_	_
-35	10	_	_	_	_	_	_	_	bratT28=Date-absolute
-36	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Date-absolute
+35	10	_	_	_	_	_	_	_	bratA1=T28:Past|bratT28=Date-absolute
+36	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T28:Past|bratT28=Date-absolute
 37	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0112-p5
 # par_text = На следующий день, 11 ноября, после переговоров глава Минобороны России Сергея Шойгу и министр национальной обороны Турции Хулуси Акара подписали меморандум о создании совместного российско-турецкого центра по контролю за прекращением огня в Нагорном Карабахе, после чего президент Турции Реджепа Тайипа Эрдогана подготовил указ об отправке военнослужащих республики в Азербайджан. В Кремле заявили, что касается обеспечения работы совместного мониторингового центра Анкары и Москвы.
 # sent_id = 0112-p5-s1
 # text = На следующий день, 11 ноября, после переговоров глава Минобороны России Сергея Шойгу и министр национальной обороны Турции Хулуси Акара подписали меморандум о создании совместного российско-турецкого центра по контролю за прекращением огня в Нагорном Карабахе, после чего президент Турции Реджепа Тайипа Эрдогана подготовил указ об отправке военнослужащих республики в Азербайджан.
-1	На	_	_	_	_	_	_	_	bratT48=Date-relative
-2	следующий	_	_	_	_	_	_	_	bratT48=Date-relative|bratT49=Ordinal
-3	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Date-relative
-4	,	_	_	_	_	_	_	_	_
-5	11	_	_	_	_	_	_	_	bratT29=Date-absolute
-6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Date-absolute
-7	,	_	_	_	_	_	_	_	_
-8	после	_	_	_	_	_	_	_	bratT50=Date-period
-9	переговоров	_	_	_	_	_	_	_	bratT50=Date-period
+1	На	_	_	_	_	_	_	_	bratA2=T48:Past|bratA3=T50:Past|bratT48=Date-absolute|bratT50=Date-relative
+2	следующий	_	_	_	_	_	_	_	bratA2=T48:Past|bratA3=T50:Past|bratT48=Date-absolute|bratT49=Ordinal|bratT50=Date-relative
+3	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T48:Past|bratA3=T50:Past|bratT48=Date-absolute|bratT50=Date-relative
+4	,	_	_	_	_	_	_	_	bratA2=T48:Past|bratT48=Date-absolute
+5	11	_	_	_	_	_	_	_	bratA2=T48:Past|bratT48=Date-absolute
+6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T48:Past|bratT48=Date-absolute
+7	,	_	_	_	_	_	_	_	bratA2=T48:Past|bratT48=Date-absolute
+8	после	_	_	_	_	_	_	_	bratA2=T48:Past|bratT48=Date-absolute
+9	переговоров	_	_	_	_	_	_	_	bratA2=T48:Past|bratT29=Event|bratT48=Date-absolute
 10	глава	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Person
 11	Минобороны	_	_	_	_	_	_	_	bratT31=Organization|bratT32=Person-property|bratT33=Person
 12	России	_	_	_	_	_	_	_	bratT30=GPE|bratT31=Organization|bratT32=Person-property|bratT33=Person
@@ -162,8 +162,8 @@
 35	Нагорном	_	_	_	_	_	_	_	bratT37=Organization|bratT38=GPE
 36	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization|bratT38=GPE
 37	,	_	_	_	_	_	_	_	_
-38	после	_	_	_	_	_	_	_	bratT51=Date-period
-39	чего	_	_	_	_	_	_	_	bratT51=Date-period
+38	после	_	_	_	_	_	_	_	bratA5=T51:Past|bratT51=Date-relative
+39	чего	_	_	_	_	_	_	_	bratA5=T51:Past|bratT51=Date-relative
 40	президент	_	_	_	_	_	_	_	bratT40=Person-property|bratT41=Person
 41	Турции	_	_	_	_	_	_	_	bratT39=GPE|bratT40=Person-property|bratT41=Person
 42	Реджепа	_	_	_	_	_	_	_	bratT41=Person

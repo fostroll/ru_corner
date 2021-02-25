@@ -20,8 +20,15 @@ T17	GPE 73 76	США
 T18	Person 61 94	Президент   США   Дональд   Трамп
 T19	Nationality 109 129	американский   народ
 A4	Citizenship T19
-T13	Time-relative 667 672	Ранее
-T20	Date-period 577 591	менее   минуты
+T13	Date-relative 667 672	Ранее
+T20	Date-period-relative 577 591	менее   минуты
 A5	Past T20
 T21	Date-absolute 719 724	скоро
 A6	Future T21
+A7	Past T13
+T22	Person-surname 0 5	Трамп
+T23	Person-forename 79 86	Дональд
+T24	Person-surname 89 94	Трамп
+T25	Person-surname 382 388	Трампа
+T26	GPE 109 121	американский
+T27	GPE 675 687	американский

@@ -30,6 +30,11 @@ T24	Facility 176 204	американского   модуля   МКС
 T25	Organization 488 524	японского   космического   агентства
 T26	Organization 550 571	64-го   экипажа   МКС
 A7	Department T26
-T27	Date-relative 669 690	В   настоящее   время
-T28	Date-period 957 986	во   время   старта   корабля
-T29	Date-period 868 883	В   это   время
+T27	Date-absolute 669 690	В   настоящее   время
+T28	Date-absolute 957 986	во   время   старта   корабля
+T29	Date-relative 868 883	В   это   время
+A5	Present T27
+A8	Past T29
+A9	Past T28
+T30	Event 970 986	старта   корабля
+T31	Ordinal 673 682	настоящее

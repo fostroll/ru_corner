@@ -12,9 +12,9 @@
 7	граждан	_	_	_	_	_	_	_	_
 8	от	_	_	_	_	_	_	_	_
 9	COVID-19	_	_	_	_	_	_	_	bratT2=Other-term
-10	до	_	_	_	_	_	_	_	bratT4=Date-period
-11	конца	_	_	_	_	_	_	_	bratA3=T40:Future|bratT4=Date-period|bratT40=Date-absolute
-12	года	_	_	_	_	_	_	_	bratA3=T40:Future|bratT4=Date-period|bratT40=Date-absolute
+10	до	_	_	_	_	_	_	_	bratA6=T4:Pres-Fut|bratT4=Date-period-absolute
+11	конца	_	_	_	_	_	_	_	bratA6=T4:Pres-Fut|bratT4=Date-period-absolute
+12	года	_	_	_	_	_	_	_	bratA6=T4:Pres-Fut|bratT4=Date-period-absolute
 
 # newpar id = 0057-p2
 # par_text = Директор центра Гамалеи Александр Гинцбург озвучил план по вакцинации от коронавируса жителей России в эфире телеканала «Россия 24», передает РИА Новости.
@@ -23,16 +23,16 @@
 1	Директор	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
 2	центра	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization|bratT7=Person
 3	Гамалеи	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization|bratT7=Person
-4	Александр	_	_	_	_	_	_	_	bratT7=Person
-5	Гинцбург	_	_	_	_	_	_	_	bratT7=Person
+4	Александр	_	_	_	_	_	_	_	bratT44=Person-forename|bratT7=Person
+5	Гинцбург	_	_	_	_	_	_	_	bratT45=Person-surname|bratT7=Person
 6	озвучил	_	_	_	_	_	_	_	_
 7	план	_	_	_	_	_	_	_	_
 8	по	_	_	_	_	_	_	_	_
 9	вакцинации	_	_	_	_	_	_	_	bratT8=Other-term
 10	от	_	_	_	_	_	_	_	_
 11	коронавируса	_	_	_	_	_	_	_	bratT9=Other-term
-12	жителей	_	_	_	_	_	_	_	_
-13	России	_	_	_	_	_	_	_	bratT10=GPE
+12	жителей	_	_	_	_	_	_	_	bratA8=T47:Citizenship|bratT47=Nationality
+13	России	_	_	_	_	_	_	_	bratA8=T47:Citizenship|bratT10=GPE|bratT47=Nationality
 14	в	_	_	_	_	_	_	_	_
 15	эфире	_	_	_	_	_	_	_	_
 16	телеканала	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
@@ -63,14 +63,14 @@
 11	от	_	_	_	_	_	_	_	_
 12	COVID-19	_	_	_	_	_	_	_	bratT14=Other-term
 13	уже	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	bratA5=T15:Future|bratT15=Date-absolute
-15	этом	_	_	_	_	_	_	_	bratA5=T15:Future|bratT15=Date-absolute|bratT42=Ordinal
-16	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T15:Future|bratT15=Date-absolute
+14	в	_	_	_	_	_	_	_	bratA5=T15:Pres-Fut|bratT15=Date-period-absolute
+15	этом	_	_	_	_	_	_	_	bratA5=T15:Pres-Fut|bratT15=Date-period-absolute|bratT42=Ordinal
+16	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T15:Pres-Fut|bratT15=Date-period-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0057-p3-s2
 # text = Сейчас в стране получили вакцину около 40-45 тысяч человек, заявил специалист.
-1	Сейчас	_	_	_	_	_	_	_	bratT37=Time-relative
+1	Сейчас	_	_	_	_	_	_	_	bratA3=T37:Present|bratT37=Date-absolute
 2	в	_	_	_	_	_	_	_	_
 3	стране	_	_	_	_	_	_	_	_
 4	получили	_	_	_	_	_	_	_	_
@@ -88,17 +88,17 @@
 # par_text = Ранее Гинцбург сообщил, что в ходе пострегистрационных исследований первой российской вакцины от коронавируса «Спутник V» не было выявлено новых побочных эффектов. По его словам, все побочные эффекты уже были перечислены в инструкции по применению в результате первой и второй фаз исследований. Они же проявились и на большой выборке в 16 тысяч человек.
 # sent_id = 0057-p4-s1
 # text = Ранее Гинцбург сообщил, что в ходе пострегистрационных исследований первой российской вакцины от коронавируса ``Спутник V'' не было выявлено новых побочных эффектов.
-1	Ранее	_	_	_	_	_	_	_	bratT39=Time-relative
-2	Гинцбург	_	_	_	_	_	_	_	bratT17=Person
+1	Ранее	_	_	_	_	_	_	_	bratA7=T39:Past|bratT39=Date-relative
+2	Гинцбург	_	_	_	_	_	_	_	bratT17=Person|bratT46=Person-surname
 3	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period
-7	ходе	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period
-8	пострегистрационных	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period|bratT41=Event
-9	исследований	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period|bratT41=Event
+6	в	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period-absolute
+7	ходе	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period-absolute
+8	пострегистрационных	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period-absolute|bratT41=Event
+9	исследований	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period-absolute|bratT41=Event
 10	первой	_	_	_	_	_	_	_	bratT32=Ordinal
-11	российской	_	_	_	_	_	_	_	bratT20=Product
+11	российской	_	_	_	_	_	_	_	bratT18=Other-term|bratT20=Product|bratT40=GPE
 12	вакцины	_	_	_	_	_	_	_	bratT18=Other-term|bratT20=Product
 13	от	_	_	_	_	_	_	_	bratT20=Product
 14	коронавируса	_	_	_	_	_	_	_	bratT19=Other-term|bratT20=Product
@@ -165,7 +165,7 @@
 5	-	_	_	_	_	_	_	_	_
 6	первая	_	_	_	_	_	_	_	bratT36=Ordinal
 7	зарегистрированная	_	_	_	_	_	_	_	_
-8	российская	_	_	_	_	_	_	_	_
+8	российская	_	_	_	_	_	_	_	bratT28=Other-term|bratT43=GPE
 9	вакцина	_	_	_	_	_	_	_	bratT28=Other-term
 10	от	_	_	_	_	_	_	_	_
 11	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term

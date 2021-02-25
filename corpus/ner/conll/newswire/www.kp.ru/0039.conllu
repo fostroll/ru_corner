@@ -72,7 +72,7 @@
 # par_text = Ранее стало известно, что Вашингтон предупредил участников проекта газопровода о новых возможных санкциях.
 # sent_id = 0039-p3-s1
 # text = Ранее стало известно, что Вашингтон предупредил участников проекта газопровода о новых возможных санкциях.
-1	Ранее	_	_	_	_	_	_	_	bratT27=Date-relative
+1	Ранее	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-relative
 2	стало	_	_	_	_	_	_	_	_
 3	известно	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -130,8 +130,8 @@
 18	миллиардов	_	_	_	_	_	_	_	bratT15=Quantity
 19	кубометров	_	_	_	_	_	_	_	bratT15=Quantity
 20	газа	_	_	_	_	_	_	_	_
-21	в	_	_	_	_	_	_	_	bratT16=Date-duration
-22	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-duration
+21	в	_	_	_	_	_	_	_	bratT16=Time-period
+22	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Time-period|bratT26=Duration
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0039-p5-s2
@@ -152,17 +152,17 @@
 # text = Участники проекта ранее заявляли, что он будет закончен до конца 2020 года.
 1	Участники	_	_	_	_	_	_	_	_
 2	проекта	_	_	_	_	_	_	_	_
-3	ранее	_	_	_	_	_	_	_	bratT28=Date-relative
+3	ранее	_	_	_	_	_	_	_	bratA7=T28:Past|bratT28=Date-relative
 4	заявляли	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	он	_	_	_	_	_	_	_	_
 8	будет	_	_	_	_	_	_	_	_
 9	закончен	_	_	_	_	_	_	_	_
-10	до	_	_	_	_	_	_	_	bratT20=Date-period
-11	конца	_	_	_	_	_	_	_	bratT20=Date-period
-12	2020	_	_	_	_	_	_	_	bratT20=Date-period
-13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-period
+10	до	_	_	_	_	_	_	_	bratA8=T20:Past-UNK|bratT20=Date-period-absolute
+11	конца	_	_	_	_	_	_	_	bratA8=T20:Past-UNK|bratT20=Date-period-absolute
+12	2020	_	_	_	_	_	_	_	bratA8=T20:Past-UNK|bratT20=Date-period-absolute
+13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Past-UNK|bratT20=Date-period-absolute
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0039-p5-s4
@@ -186,8 +186,8 @@
 # par_text = В октябре Вашингтон усилил санкции в отношении "Северного потока — 2". Они касались компаний, которые предоставляют услуги судам, занимающимся укладкой газопровода.
 # sent_id = 0039-p6-s1
 # text = В октябре Вашингтон усилил санкции в отношении ``Северного потока - 2''.
-1	В	_	_	_	_	_	_	_	bratT23=Date-absolute
-2	октябре	_	_	_	_	_	_	_	bratT23=Date-absolute
+1	В	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute
+2	октябре	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-absolute
 3	Вашингтон	_	_	_	_	_	_	_	bratT25=GPE
 4	усилил	_	_	_	_	_	_	_	_
 5	санкции	_	_	_	_	_	_	_	_

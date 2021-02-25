@@ -3,7 +3,7 @@
 # par_text = Саакашвили предрек экономике Украины неизбежную катастрофу
 # sent_id = 0116-p1-s1
 # text = Саакашвили предрек экономике Украины неизбежную катастрофу
-1	Саакашвили	_	_	_	_	_	_	_	bratT1=Person
+1	Саакашвили	_	_	_	_	_	_	_	bratT1=Person|bratT3=Person-surname
 2	предрек	_	_	_	_	_	_	_	_
 3	экономике	_	_	_	_	_	_	_	_
 4	Украины	_	_	_	_	_	_	_	bratT2=GPE
@@ -19,8 +19,8 @@
 3	комитета	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT7=Person
 4	реформ	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT7=Person
 5	Украины	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT6=GPE|bratT7=Person
-6	Михаил	_	_	_	_	_	_	_	bratT7=Person
-7	Саакашвили	_	_	_	_	_	_	_	bratT7=Person
+6	Михаил	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-forename
+7	Саакашвили	_	_	_	_	_	_	_	bratT22=Person-surname|bratT7=Person
 8	предрек	_	_	_	_	_	_	_	_
 9	экономике	_	_	_	_	_	_	_	_
 10	страны	_	_	_	_	_	_	_	_
@@ -59,7 +59,7 @@
 10	выходного	_	_	_	_	_	_	_	bratT12=Event
 11	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
 12	,	_	_	_	_	_	_	_	_
-13	ранее	_	_	_	_	_	_	_	bratT10=Time-relative
+13	ранее	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
 14	введенный	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	стране	_	_	_	_	_	_	_	SpaceAfter=No
@@ -133,7 +133,7 @@
 10	нет	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	добавил	_	_	_	_	_	_	_	_
-13	Саакашвили	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person
+13	Саакашвили	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person|bratT23=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0116-p4-s2
@@ -149,7 +149,7 @@
 9	и	_	_	_	_	_	_	_	_
 10	очень	_	_	_	_	_	_	_	_
 11	тяжелой	_	_	_	_	_	_	_	_
-12	стагнации	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Other-term
+12	стагнации	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
 13	,	_	_	_	_	_	_	_	_
 14	и	_	_	_	_	_	_	_	_
 15	поэтому	_	_	_	_	_	_	_	_
@@ -201,11 +201,11 @@
 # sent_id = 0116-p5-s2
 # text = С 00:00 субботы до 00:00 понедельника могут работать только объекты критической инфраструктуры: продуктовые магазины, аптеки, транспорт.
 1	С	_	_	_	_	_	_	_	bratT20=Time-period
-2	00:00	_	_	_	_	_	_	_	bratT20=Time-period|bratT3=Time-absolute
-3	субботы	_	_	_	_	_	_	_	bratT20=Time-period|bratT3=Time-absolute
+2	00:00	_	_	_	_	_	_	_	bratT20=Time-period
+3	субботы	_	_	_	_	_	_	_	bratT20=Time-period
 4	до	_	_	_	_	_	_	_	bratT20=Time-period
-5	00:00	_	_	_	_	_	_	_	bratT20=Time-period|bratT8=Time-absolute
-6	понедельника	_	_	_	_	_	_	_	bratT20=Time-period|bratT8=Time-absolute
+5	00:00	_	_	_	_	_	_	_	bratT20=Time-period
+6	понедельника	_	_	_	_	_	_	_	bratT20=Time-period
 7	могут	_	_	_	_	_	_	_	_
 8	работать	_	_	_	_	_	_	_	_
 9	только	_	_	_	_	_	_	_	_

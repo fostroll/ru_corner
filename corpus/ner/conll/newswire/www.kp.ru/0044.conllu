@@ -9,11 +9,11 @@
 4	собираются	_	_	_	_	_	_	_	_
 5	делать	_	_	_	_	_	_	_	_
 6	покупки	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Event
-9	черную	_	_	_	_	_	_	_	bratT3=Event
-10	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Event
-11	''	_	_	_	_	_	_	_	bratT3=Event
+7	в	_	_	_	_	_	_	_	bratA8=T34:Fut|bratT34=Date-period-absolute
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T34:Fut|bratT3=Event|bratT34=Date-period-absolute
+9	черную	_	_	_	_	_	_	_	bratA8=T34:Fut|bratT3=Event|bratT34=Date-period-absolute
+10	пятницу	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T34:Fut|bratT3=Event|bratT34=Date-period-absolute
+11	''	_	_	_	_	_	_	_	bratA8=T34:Fut|bratT3=Event|bratT34=Date-period-absolute
 
 # newpar id = 0044-p2
 # par_text = До «черной пятницы» осталось два дня. 60 миллионов россиян планируют делать покупки в день скидок. По оценкам экспертов, в этом году аудитория сильно повзрослеет.
@@ -25,8 +25,8 @@
 4	пятницы	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Event
 5	''	_	_	_	_	_	_	_	bratT4=Event
 6	осталось	_	_	_	_	_	_	_	_
-7	два	_	_	_	_	_	_	_	bratT5=Date-duration
-8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-duration
+7	два	_	_	_	_	_	_	_	bratA5=T33:Pres-Fut|bratT33=Date-period-absolute|bratT5=Duration
+8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Pres-Fut|bratT33=Date-period-absolute|bratT5=Duration
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0044-p2-s2
@@ -37,8 +37,8 @@
 4	планируют	_	_	_	_	_	_	_	_
 5	делать	_	_	_	_	_	_	_	_
 6	покупки	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	bratT31=Date-period
-8	день	_	_	_	_	_	_	_	bratT31=Date-period|bratT32=Event
+7	в	_	_	_	_	_	_	_	bratA9=T31:Fut|bratT31=Date-period-absolute
+8	день	_	_	_	_	_	_	_	bratA9=T31:Fut|bratT31=Date-period-absolute|bratT32=Event
 9	скидок	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Event
 10	.	_	_	_	_	_	_	_	_
 
@@ -48,9 +48,9 @@
 2	оценкам	_	_	_	_	_	_	_	_
 3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
 4	,	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT23=Date-relative
-6	этом	_	_	_	_	_	_	_	bratT23=Date-relative
-7	году	_	_	_	_	_	_	_	bratT23=Date-relative
+5	в	_	_	_	_	_	_	_	bratA6=T23:Future|bratT23=Date-absolute
+6	этом	_	_	_	_	_	_	_	bratA6=T23:Future|bratT23=Date-absolute
+7	году	_	_	_	_	_	_	_	bratA6=T23:Future|bratT23=Date-absolute
 8	аудитория	_	_	_	_	_	_	_	_
 9	сильно	_	_	_	_	_	_	_	_
 10	повзрослеет	_	_	_	_	_	_	_	SpaceAfter=No
@@ -105,9 +105,9 @@
 9	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Quantity
 10	,	_	_	_	_	_	_	_	_
 11	то	_	_	_	_	_	_	_	_
-12	в	_	_	_	_	_	_	_	bratT11=Date-relative
-13	этом	_	_	_	_	_	_	_	bratT11=Date-relative
-14	году	_	_	_	_	_	_	_	bratT11=Date-relative
+12	в	_	_	_	_	_	_	_	bratA7=T11:Future|bratT11=Date-absolute
+13	этом	_	_	_	_	_	_	_	bratA7=T11:Future|bratT11=Date-absolute
+14	году	_	_	_	_	_	_	_	bratA7=T11:Future|bratT11=Date-absolute
 15	цифра	_	_	_	_	_	_	_	_
 16	увеличится	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	bratT12=Percent
@@ -243,9 +243,9 @@
 15	стать	_	_	_	_	_	_	_	_
 16	жертвой	_	_	_	_	_	_	_	_
 17	мошенника	_	_	_	_	_	_	_	bratT21=Other-group
-18	во	_	_	_	_	_	_	_	bratT30=Date-period
-19	время	_	_	_	_	_	_	_	bratT30=Date-period
-20	ажиотаж	_	_	_	_	_	_	_	bratT30=Date-period
+18	во	_	_	_	_	_	_	_	bratT30=Time-relative
+19	время	_	_	_	_	_	_	_	bratT30=Time-relative
+20	ажиотаж	_	_	_	_	_	_	_	_
 21	очень	_	_	_	_	_	_	_	_
 22	легко	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_

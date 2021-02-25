@@ -1,11 +1,11 @@
 T1	Person 0 8	Голикова
 T2	Other-term 53 66	коронавирусом
 T3	Quantity 77 91	в   2,5   раза
-T4	Date-period 94 109	с   1   октября
+T4	Date-absolute 94 109	с   1   октября
 T5	Person 111 174	Заместитель   председателя   правительства   Татьяна   Голикова
 T6	Person-property 111 153	Заместитель   председателя   правительства
 T7	Person-property 125 153	председателя   правительства
-T8	Date-period 198 213	с   1   октября
+T8	Date-absolute 198 213	с   1   октября
 T9	Quantity 229 243	в   2,5   раза
 T10	GPE 220 226	России
 T11	Other-term 300 313	коронавирусом
@@ -15,17 +15,27 @@ T14	Person-property 931 949	замглавы   кабмина
 T15	Service 955 967	Сайт   KP.ru
 A1	Media T15
 T16	GPE 994 1000	России
-T17	Time-period 1003 1024	за   минувшие   сутки
+T17	Date-period-absolute 1003 1024	за   минувшие   сутки
 T18	Quantity 1038 1064	20   985   новых   случаев
 T19	Other-term 1079 1092	коронавирусом
-T20	Date-duration 1116 1130	за   24   часа
+T20	Date-period-relative 1116 1130	за   24   часа
 T21	Quantity 1170 1183	456   человек
 T22	Other-term 1260 1272	коронавируса
 T23	Quantity 1275 1293	25   179   человек
-T24	Time-duration 15 23	Суточный
-T25	Time-duration 260 268	суточное
-T26	Date-relative 692 715	На   сегодняшний   день
-T27	Date-period 1223 1242	после   прохождения
+T24	Duration 15 23	Суточный
+T25	Duration 260 268	суточное
+T26	Date-absolute 692 715	На   сегодняшний   день
+T27	Time-relative 1223 1228	после
 T28	Organization 962 967	KP.ru
 A2	Media T28
 T29	Service 1245 1272	лечения   от   коронавируса
+T30	Duration 1019 1024	сутки
+A3	Past T17
+T31	Time-period 260 268	суточное
+T32	Time-period 15 23	Суточный
+A4	Past T20
+T33	Duration 1121 1130	24   часа
+T34	Ordinal 1008 1016	минувшие
+A5	Past T4
+A6	Past T8
+A7	Present T26

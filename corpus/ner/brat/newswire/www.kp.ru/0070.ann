@@ -12,10 +12,10 @@ T10	Person 907 918	Рыбальченко
 T11	Organization 921 928	NEWS.ru
 A2	Media T11
 T12	Organization 951 958	Госдума
-T13	Time-duration 1085 1109	в   течение   24   часов
+T13	Time-period 1085 1109	в   течение   24   часов
 T14	Organization 1185 1212	газета   ``   Известия   ''
 A3	Media T14
-T15	Date-period 961 978	до   конца   года
+T15	Date-absolute 961 978	до   конца   года
 T17	Family 228 233	семьи
 T18	Family 320 325	семьи
 T19	Family 671 676	семьи
@@ -26,3 +26,5 @@ T22	Family 1042 1047	детей
 T23	Age 332 337	детей
 T24	Organization 1347 1354	церковь
 T25	Person-property 1327 1340	общественники
+T26	Duration 1099 1109	24   часов
+A4	Future T15

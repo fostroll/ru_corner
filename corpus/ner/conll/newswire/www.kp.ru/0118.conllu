@@ -53,11 +53,11 @@
 # text = Указ президента в четверг, 5 ноября, опубликован на официальном сайте правовой информации.
 1	Указ	_	_	_	_	_	_	_	_
 2	президента	_	_	_	_	_	_	_	bratT10=Person-property
-3	в	_	_	_	_	_	_	_	bratT11=Date-absolute
-4	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
-5	,	_	_	_	_	_	_	_	bratT11=Date-absolute
-6	5	_	_	_	_	_	_	_	bratT11=Date-absolute
-7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+4	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Past|bratT11=Date-absolute
+5	,	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+6	5	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Past|bratT11=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	опубликован	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
@@ -73,10 +73,10 @@
 # text = Случилась трагедия 26 мая этого года недалеко от села Калинино.
 1	Случилась	_	_	_	_	_	_	_	_
 2	трагедия	_	_	_	_	_	_	_	_
-3	26	_	_	_	_	_	_	_	bratT13=Date-absolute
-4	мая	_	_	_	_	_	_	_	bratT13=Date-absolute
-5	этого	_	_	_	_	_	_	_	bratT13=Date-absolute
-6	года	_	_	_	_	_	_	_	bratT13=Date-absolute
+3	26	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
+4	мая	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
+5	этого	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute|bratT32=Ordinal
+6	года	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
 7	недалеко	_	_	_	_	_	_	_	_
 8	от	_	_	_	_	_	_	_	_
 9	села	_	_	_	_	_	_	_	bratT14=GPE

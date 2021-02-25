@@ -43,17 +43,26 @@ T43	Other-term 305 314	Real-Time
 T44	Person-property 1489 1499	президента
 T40	Event 1480 1499	выборы   президента
 T45	GPE 1515 1518	США
-T46	Date-absolute 1526 1550	вторник   ,   3   ноября
+T46	Date-absolute 1521 1550	во   вторник   ,   3   ноября
 T47	Person 1648 1671	демократ   Джо   Байден
 T48	Political-group 1648 1656	демократ
 T49	Quantity 1678 1690	264   голоса
 T50	Quantity 1740 1751	6   голосов
 T51	Ordinal 1251 1257	шестую
-T52	Date-relative 93 128	В   первый   день   после   выборов
-T54	Date-period 1615 1634	В   данный   период
-T55	Date-period 66 81	после   выборов
-T56	Date-period 993 1012	после   голосования
-T57	Date-relative 490 496	Теперь
-T58	Date-relative 662 668	теперь
+T52	Date-period-absolute 93 128	В   первый   день   после   выборов
+T54	Date-absolute 1615 1634	В   данный   период
+T55	Date-period-absolute 66 81	после   выборов
+T56	Date-period-absolute 993 1012	после   голосования
+T57	Date-absolute 490 496	Теперь
+T58	Date-absolute 662 668	теперь
 T59	GPE 30 34	мира
 T60	GPE 192 196	мира
+A1	Past-Pres T55
+T53	Event 74 81	выборов
+A2	Past T52
+A3	Present T57
+A4	Present T58
+A5	Past-Pres T56
+A6	Past T46
+A7	Present T54
+T61	Duration 106 110	день

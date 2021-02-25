@@ -31,14 +31,13 @@ T9	Person-property 1616 1623	доктора
 T12	Ordinal 563 572	следующий
 T28	Ordinal 1860 1862	№1
 T29	Date-absolute 1888 1912	К   настоящему   времени
-T30	Date-period 1804 1825	на   несколько   дней
+T30	Date-period-relative 1804 1825	на   несколько   дней
 T31	Date-relative 453 476	после   своей   свадьбы
 T32	Age 1086 1093	Молодые
 T33	Age 1191 1198	молодые
-T34	Date-period 1460 1473	девять   дней
+T34	Date-period-relative 1460 1473	девять   дней
 T35	Duration 1809 1825	несколько   дней
 A5	Past T34
-A6	Past T30
 A7	Past T31
 T36	Event 461 476	своей   свадьбы
 T37	Event 590 599	торжества
@@ -47,3 +46,7 @@ A9	Past T29
 T38	Event 540 552	беременности
 T40	Date-relative 520 552	на   7-м   месяце   беременности
 A10	Past T40
+A6	Past-UNK T30
+T39	Duration 531 537	месяце
+T41	Duration 575 579	день
+T42	GPE 260 272	Красноярской

@@ -1,7 +1,7 @@
 T1	Person 0 5	Путин
 T3	GPE 42 48	России
 T4	GPE 75 81	России
-T5	Date-period 126 151	за   последние   20   лет
+T5	Date-period-absolute 126 151	за   последние   20   лет
 T6	Person-property 226 235	президент
 T7	Person 226 254	президент   Владимир   Путин
 T8	Organization 271 295	``   ВТБ   капитала   ''
@@ -21,13 +21,13 @@ T21	Organization 987 1003	Счетной   палаты
 T22	Person 979 1022	глава   Счетной   палаты   Алексей   Кудрин
 T23	Date-absolute 1291 1306	Летом   2020-го
 T24	GPE 1309 1315	Россия
-T25	Date-period 1373 1388	к   2024   году
+T25	Date-period-absolute 1373 1388	к   2024   году
 T26	Quantity 1466 1480	в   два   раза
 T27	Event 262 326	форуме   ``   ВТБ   капитала   ''   ``   Россия   зовет   !   ''
 T28	Quantity 95 123	более   чем   в   два   раза
 T2	Event 1273 1281	пандемии
 T29	Ordinal 131 140	последние
-T30	Date-period 1246 1281	в   период   кризиса   и   пандемии
+T30	Date-period-absolute 1246 1281	в   период   кризиса   и   пандемии
 T31	Other-term 444 456	коронавируса
 T32	GPE 478 499	всех   странах   мира
 T33	Service 327 337	Трансляцию
@@ -36,9 +36,14 @@ T34	Duration 143 151	20   лет
 A2	Past T15
 A3	Past T19
 A4	Past T23
-T36	Date-absolute 1377 1388	2024   году
-A5	Future T36
 T35	Event 1259 1266	кризиса
-A8	Present T30
-T37	Date-absolute 131 151	последние   20   лет
-A7	Past T37
+A6	Past-Pres T5
+A7	Past-UNK T30
+A8	Pres-Fut T25
+T36	Person-surname 0 5	Путин
+T37	Person-forename 238 246	Владимир
+T38	Person-surname 249 254	Путин
+T39	Person-surname 390 395	Путин
+T40	Person-surname 953 958	Путин
+T41	Person-forename 1006 1013	Алексей
+T42	Person-surname 1016 1022	Кудрин

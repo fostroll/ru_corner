@@ -25,12 +25,15 @@ T23	GPE 970 982	Азербайджана
 T24	Person-property 935 982	главы   России   ,   Армении   и   Азербайджана
 A2	Plural T24
 T25	GPE 1049 1068	Нагорном   Карабахе
-T27	Date-period 1071 1086	с   10   ноября
+T27	Date-period-absolute 1071 1086	с   10   ноября
 T28	GPE 1095 1115	карабахский   регион
 T29	Person-property 1138 1161	российские   миротворцы
 T30	Date-absolute 1167 1177	9   ноября
 T31	Product 1287 1305	российский   Ми-24
 T32	GPE 1231 1238	Армении
 T33	GPE 1310 1321	Азербайджан
-T26	Date-relative 716 723	Ранее  
+T26	Date-relative 716 721	Ранее
 T34	Date-relative 922 932	До   этого
+A3	Past T30
+A4	Past T34
+A5	Past T26

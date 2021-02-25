@@ -146,11 +146,11 @@
 1	Суд	_	_	_	_	_	_	_	_
 2	арестовал	_	_	_	_	_	_	_	_
 3	подозреваемого	_	_	_	_	_	_	_	_
-4	до	_	_	_	_	_	_	_	bratT11=Date-period
-5	19	_	_	_	_	_	_	_	bratA4=T30:Future|bratT11=Date-period|bratT30=Date-absolute
-6	января	_	_	_	_	_	_	_	bratA4=T30:Future|bratT11=Date-period|bratT30=Date-absolute
-7	2021	_	_	_	_	_	_	_	bratA4=T30:Future|bratT11=Date-period|bratT30=Date-absolute
-8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T30:Future|bratT11=Date-period|bratT30=Date-absolute
+4	до	_	_	_	_	_	_	_	bratT11=Date-period-absolute
+5	19	_	_	_	_	_	_	_	bratT11=Date-period-absolute
+6	января	_	_	_	_	_	_	_	bratT11=Date-period-absolute
+7	2021	_	_	_	_	_	_	_	bratT11=Date-period-absolute
+8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Date-period-absolute
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0111-p5
@@ -176,9 +176,9 @@
 
 # sent_id = 0111-p5-s3
 # text = Всё это время похититель держал его взаперти у себя дома, в 20 км от деревни, где жил мальчик.
-1	Всё	_	_	_	_	_	_	_	bratT33=Date-period|bratT34=Duration
-2	это	_	_	_	_	_	_	_	bratT33=Date-period|bratT34=Duration
-3	время	_	_	_	_	_	_	_	bratT33=Date-period|bratT34=Duration
+1	Всё	_	_	_	_	_	_	_	bratT33=Date-period-relative|bratT34=Duration
+2	это	_	_	_	_	_	_	_	bratT33=Date-period-relative|bratT34=Duration
+3	время	_	_	_	_	_	_	_	bratT33=Date-period-relative|bratT34=Duration
 4	похититель	_	_	_	_	_	_	_	bratT18=Other-group
 5	держал	_	_	_	_	_	_	_	_
 6	его	_	_	_	_	_	_	_	_

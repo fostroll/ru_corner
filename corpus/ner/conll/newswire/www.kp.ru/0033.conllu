@@ -5,7 +5,7 @@
 # text = Голикова: Суточный прирост заболеваемости коронавирусом вырос в 2,5 раза с 1 октября
 1	Голикова	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person
 2	:	_	_	_	_	_	_	_	_
-3	Суточный	_	_	_	_	_	_	_	bratT24=Time-duration
+3	Суточный	_	_	_	_	_	_	_	bratT24=Duration|bratT32=Time-period
 4	прирост	_	_	_	_	_	_	_	_
 5	заболеваемости	_	_	_	_	_	_	_	_
 6	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term
@@ -13,9 +13,9 @@
 8	в	_	_	_	_	_	_	_	bratT3=Quantity
 9	2,5	_	_	_	_	_	_	_	bratT3=Quantity
 10	раза	_	_	_	_	_	_	_	bratT3=Quantity
-11	с	_	_	_	_	_	_	_	bratT4=Date-period
-12	1	_	_	_	_	_	_	_	bratT4=Date-period
-13	октября	_	_	_	_	_	_	_	bratT4=Date-period
+11	с	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-absolute
+12	1	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-absolute
+13	октября	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-absolute
 
 # newpar id = 0033-p2
 # par_text = Заместитель председателя правительства Татьяна Голикова сообщила, что с 1 октября в России в 2,5 раза увеличилось суточное число новых заражённых коронавирусом.
@@ -29,16 +29,16 @@
 6	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	с	_	_	_	_	_	_	_	bratT8=Date-period
-10	1	_	_	_	_	_	_	_	bratT8=Date-period
-11	октября	_	_	_	_	_	_	_	bratT8=Date-period
+9	с	_	_	_	_	_	_	_	bratA6=T8:Past|bratT8=Date-absolute
+10	1	_	_	_	_	_	_	_	bratA6=T8:Past|bratT8=Date-absolute
+11	октября	_	_	_	_	_	_	_	bratA6=T8:Past|bratT8=Date-absolute
 12	в	_	_	_	_	_	_	_	_
 13	России	_	_	_	_	_	_	_	bratT10=GPE
 14	в	_	_	_	_	_	_	_	bratT9=Quantity
 15	2,5	_	_	_	_	_	_	_	bratT9=Quantity
 16	раза	_	_	_	_	_	_	_	bratT9=Quantity
 17	увеличилось	_	_	_	_	_	_	_	_
-18	суточное	_	_	_	_	_	_	_	bratT25=Time-duration
+18	суточное	_	_	_	_	_	_	_	bratT25=Duration|bratT31=Time-period
 19	число	_	_	_	_	_	_	_	_
 20	новых	_	_	_	_	_	_	_	_
 21	заражённых	_	_	_	_	_	_	_	_
@@ -104,9 +104,9 @@
 
 # sent_id = 0033-p4-s3
 # text = На сегодняшний день масочный режим введён во всех регионах страны, в 79 регионах закрыты рестораны и массово-зрелищные мероприятия.
-1	На	_	_	_	_	_	_	_	bratT26=Date-relative
-2	сегодняшний	_	_	_	_	_	_	_	bratT26=Date-relative
-3	день	_	_	_	_	_	_	_	bratT26=Date-relative
+1	На	_	_	_	_	_	_	_	bratA7=T26:Present|bratT26=Date-absolute
+2	сегодняшний	_	_	_	_	_	_	_	bratA7=T26:Present|bratT26=Date-absolute
+3	день	_	_	_	_	_	_	_	bratA7=T26:Present|bratT26=Date-absolute
 4	масочный	_	_	_	_	_	_	_	_
 5	режим	_	_	_	_	_	_	_	_
 6	введён	_	_	_	_	_	_	_	_
@@ -151,9 +151,9 @@
 5	что	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	России	_	_	_	_	_	_	_	bratT16=GPE
-8	за	_	_	_	_	_	_	_	bratT17=Time-period
-9	минувшие	_	_	_	_	_	_	_	bratT17=Time-period
-10	сутки	_	_	_	_	_	_	_	bratT17=Time-period
+8	за	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute
+9	минувшие	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute|bratT34=Ordinal
+10	сутки	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute|bratT30=Duration
 11	выявлено	_	_	_	_	_	_	_	_
 12	20	_	_	_	_	_	_	_	bratT18=Quantity
 13	985	_	_	_	_	_	_	_	bratT18=Quantity
@@ -167,9 +167,9 @@
 # text = Число погибших за 24 часа оказалось рекордным: умерло 456 человек.
 1	Число	_	_	_	_	_	_	_	_
 2	погибших	_	_	_	_	_	_	_	_
-3	за	_	_	_	_	_	_	_	bratT20=Date-duration
-4	24	_	_	_	_	_	_	_	bratT20=Date-duration
-5	часа	_	_	_	_	_	_	_	bratT20=Date-duration
+3	за	_	_	_	_	_	_	_	bratA4=T20:Past|bratT20=Date-period-relative
+4	24	_	_	_	_	_	_	_	bratA4=T20:Past|bratT20=Date-period-relative|bratT33=Duration
+5	часа	_	_	_	_	_	_	_	bratA4=T20:Past|bratT20=Date-period-relative|bratT33=Duration
 6	оказалось	_	_	_	_	_	_	_	_
 7	рекордным	_	_	_	_	_	_	_	SpaceAfter=No
 8	:	_	_	_	_	_	_	_	_
@@ -184,8 +184,8 @@
 2	этом	_	_	_	_	_	_	_	_
 3	смогли	_	_	_	_	_	_	_	_
 4	выписаться	_	_	_	_	_	_	_	_
-5	после	_	_	_	_	_	_	_	bratT27=Date-period
-6	прохождения	_	_	_	_	_	_	_	bratT27=Date-period
+5	после	_	_	_	_	_	_	_	bratT27=Time-relative
+6	прохождения	_	_	_	_	_	_	_	_
 7	лечения	_	_	_	_	_	_	_	bratT29=Service
 8	от	_	_	_	_	_	_	_	bratT29=Service
 9	коронавируса	_	_	_	_	_	_	_	bratT22=Other-term|bratT29=Service

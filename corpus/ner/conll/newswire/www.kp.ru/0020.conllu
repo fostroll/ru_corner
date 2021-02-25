@@ -23,11 +23,11 @@
 3	в	_	_	_	_	_	_	_	bratT6=Organization
 4	Ереване	_	_	_	_	_	_	_	bratT6=Organization|bratT7=GPE
 5	опровергло	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratT8=Date-absolute
-7	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-absolute
-8	,	_	_	_	_	_	_	_	bratT8=Date-absolute
-9	1	_	_	_	_	_	_	_	bratT8=Date-absolute
-10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Date-absolute
+6	в	_	_	_	_	_	_	_	bratA7=T8:Past|bratT8=Date-absolute
+7	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Past|bratT8=Date-absolute
+8	,	_	_	_	_	_	_	_	bratA7=T8:Past|bratT8=Date-absolute
+9	1	_	_	_	_	_	_	_	bratA7=T8:Past|bratT8=Date-absolute
+10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Past|bratT8=Date-absolute
 11	,	_	_	_	_	_	_	_	_
 12	слухи	_	_	_	_	_	_	_	_
 13	о	_	_	_	_	_	_	_	_
@@ -129,8 +129,8 @@
 9	с	_	_	_	_	_	_	_	_
 10	новой	_	_	_	_	_	_	_	_
 11	силой	_	_	_	_	_	_	_	_
-12	27	_	_	_	_	_	_	_	bratT16=Date-absolute
-13	сентября	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Date-absolute
+12	27	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
+13	сентября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T16:Past|bratT16=Date-absolute
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0020-p5
@@ -173,8 +173,8 @@
 # text = Бои продолжались несколько недель.
 1	Бои	_	_	_	_	_	_	_	_
 2	продолжались	_	_	_	_	_	_	_	_
-3	несколько	_	_	_	_	_	_	_	bratT19=Date-duration
-4	недель	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Date-duration
+3	несколько	_	_	_	_	_	_	_	bratA5=T29:Past|bratT19=Duration|bratT29=Date-period-relative
+4	недель	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T29:Past|bratT19=Duration|bratT29=Date-period-relative
 5	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0020-p7-s2
@@ -197,8 +197,8 @@
 2	инициативе	_	_	_	_	_	_	_	_
 3	российской	_	_	_	_	_	_	_	_
 4	стороны	_	_	_	_	_	_	_	_
-5	9	_	_	_	_	_	_	_	bratT21=Date-absolute
-6	октября	_	_	_	_	_	_	_	bratT21=Date-absolute
+5	9	_	_	_	_	_	_	_	bratA8=T21:Past|bratT21=Date-absolute
+6	октября	_	_	_	_	_	_	_	bratA8=T21:Past|bratT21=Date-absolute
 7	в	_	_	_	_	_	_	_	_
 8	Москве	_	_	_	_	_	_	_	bratT22=GPE
 9	состоялась	_	_	_	_	_	_	_	_
@@ -222,10 +222,10 @@
 5	огонь	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	Карабахе	_	_	_	_	_	_	_	bratT27=GPE
-8	с	_	_	_	_	_	_	_	bratT29=Time-period
-9	полудня	_	_	_	_	_	_	_	bratT29=Time-period
-10	10	_	_	_	_	_	_	_	bratT28=Date-absolute
-11	октября	_	_	_	_	_	_	_	bratT28=Date-absolute
+8	с	_	_	_	_	_	_	_	bratT28=Date-period-absolute
+9	полудня	_	_	_	_	_	_	_	bratT28=Date-period-absolute|bratT37=Time-absolute
+10	10	_	_	_	_	_	_	_	bratT28=Date-period-absolute
+11	октября	_	_	_	_	_	_	_	bratT28=Date-period-absolute
 12	и	_	_	_	_	_	_	_	_
 13	провести	_	_	_	_	_	_	_	_
 14	обмен	_	_	_	_	_	_	_	_
@@ -248,9 +248,9 @@
 # sent_id = 0020-p9-s1
 # text = Однако в назначенный день стороны стали обвинять друг друга в нарушениях перемирия.
 1	Однако	_	_	_	_	_	_	_	_
-2	в	_	_	_	_	_	_	_	_
-3	назначенный	_	_	_	_	_	_	_	_
-4	день	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-relative
+3	назначенный	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-relative
+4	день	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-relative
 5	стороны	_	_	_	_	_	_	_	_
 6	стали	_	_	_	_	_	_	_	_
 7	обвинять	_	_	_	_	_	_	_	_
@@ -265,8 +265,8 @@
 # par_text = 17 октября стороны предприняли вторую попытку договориться и организовать гуманитарное перемирие. Оно должно было начаться в ночь на 18 октября. Но и в этот раз стороны нарушили соглашение.
 # sent_id = 0020-p10-s1
 # text = 17 октября стороны предприняли вторую попытку договориться и организовать гуманитарное перемирие.
-1	17	_	_	_	_	_	_	_	bratT30=Date-absolute
-2	октября	_	_	_	_	_	_	_	bratT30=Date-absolute
+1	17	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-absolute
 3	стороны	_	_	_	_	_	_	_	_
 4	предприняли	_	_	_	_	_	_	_	_
 5	вторую	_	_	_	_	_	_	_	bratT31=Ordinal
@@ -284,11 +284,11 @@
 2	должно	_	_	_	_	_	_	_	_
 3	было	_	_	_	_	_	_	_	_
 4	начаться	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	bratT38=Time-period
-6	ночь	_	_	_	_	_	_	_	bratT38=Time-period
-7	на	_	_	_	_	_	_	_	bratT38=Time-period
-8	18	_	_	_	_	_	_	_	bratT32=Date-absolute
-9	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Date-absolute
+5	в	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute|bratT38=Time-absolute
+6	ночь	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute|bratT38=Time-absolute
+7	на	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute|bratT38=Time-absolute
+8	18	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute
+9	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T32:Past|bratT32=Date-absolute
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0020-p10-s3

@@ -22,13 +22,16 @@ A1	Department T20
 T21	Organization 625 629	ТАСС
 A2	Media T21
 T22	GPE 660 668	Приморье
-T23	Date-relative 736 744	четверга
+T23	Date-period-absolute 725 744	С   ночи   четверга
 T24	Quantity 890 919	около   170   тысяч   человек
 T25	Quantity 1039 1059	Десяток   авиарейсов
 T26	Person-property 1077 1088	Специалисты
 T27	Event 60 62	ЧС
 A3	Plural T18
 T28	Service 572 607	помощь   пострадавшим   от   стихии
-T29	Time-period 725 733	С   ночи
-T30	Date-relative 1112 1134	в   настоящий   момент
+T29	Time-absolute 729 733	ночи
+T30	Date-absolute 1112 1134	в   настоящий   момент
 T31	Event 683 693	режим   ЧС
+A4	Past-Pres T23
+A5	Present T30
+T32	Ordinal 1116 1125	настоящий

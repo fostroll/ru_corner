@@ -39,15 +39,28 @@ T37	Quantity 1738 1771	свыше   200   советских   граждан
 T28	Organization 1154 1188	СМЕРШ   11-й   гвардейской   армии
 A4	Department T28
 A5	Media T6
-T32	Date-relative 1696 1718	во   время   оккупации
+T32	Date-absolute 1696 1718	во   время   оккупации
 T38	Ordinal 1162 1166	11-й
-T39	Date-period 193 233	времен   Великой   Отечественной   войны
+T39	Date-period-absolute 193 233	времен   Великой   Отечественной   войны
 T40	Event 551 609	освобождения   Орловской   области   советскими   войсками
-T41	Date-relative 543 563	после   освобождения
 T42	Age 773 778	детей
 A6	Past T12
 A7	Past T13
 A8	Past T14
 A9	Past T39
-A10	Past T41
 A11	Past T32
+T41	GPE 40 49	советских
+T43	GPE 129 138	советских
+T44	GPE 588 598	советскими
+T45	GPE 690 700	советского
+T46	GPE 1450 1469	Орловской   области
+T47	GPE 1540 1550	Украинская
+T48	Nationality 1752 1771	советских   граждан
+A10	Citizenship T48
+T49	GPE 1752 1761	советских
+T50	Person-forename 1214 1221	Николая
+T51	Person-surname 1224 1235	Митрофанова
+T52	Person-forename 1314 1319	Павлу
+T53	Person-surname 1322 1330	Зеленину
+T54	Person-surname 1645 1653	Гетманым
+T55	Person-surname 1672 1683	Митрофанова

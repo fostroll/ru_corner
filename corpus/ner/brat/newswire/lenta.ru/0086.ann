@@ -1,16 +1,16 @@
 T1	GPE 4 12	Германии
-T2	Date-period 47 64	до   конца   года
+T2	Date-period-absolute 47 64	до   конца   года
 T3	Event 76 84	карантин
 T4	GPE 91 99	Германии
-T5	Date-period 142 161	до   конца   ноября
-T6	Date-period 180 197	до   20   декабря
-T7	Date-period 256 295	до   конца   января   следующего   года
+T5	Date-period-absolute 142 161	до   конца   ноября
+T6	Date-period-absolute 180 197	до   20   декабря
+T7	Date-period-absolute 256 295	до   конца   января   следующего   года
 T8	Person-property 322 335	канцлер   ФРГ
 T9	GPE 332 335	ФРГ
 T10	Person 322 354	канцлер   ФРГ   Ангела   Меркель
 T11	Date-absolute 457 469	28   октября
-T12	Date-period 512 529	до   20   декабря
-T14	Date-period 688 708	до   начала   января
+T12	Date-period-absolute 512 529	до   20   декабря
+T14	Date-period-absolute 688 708	до   начала   января
 T15	Person 735 742	Меркель
 T16	Date-absolute 847 857	2   ноября
 T17	GPE 860 868	Германия
@@ -19,7 +19,7 @@ T19	Other-term 942 955	коронавирусом
 T20	Person-property 980 994	канцлера   ФРГ
 T21	GPE 991 994	ФРГ
 T22	Person 980 1013	канцлера   ФРГ   Ангелы   Меркель
-T23	Date-absolute 1342 1353	в   октябре
+T23	Date-absolute 1334 1353	Ранее   в   октябре
 T24	Quantity 1276 1300	более   десяти   человек
 T25	Person 1356 1363	Меркель
 T26	GPE 1386 1394	Германия
@@ -30,24 +30,30 @@ T13	Quantity 399 424	16   федеральных   земель
 T30	Event 36 44	карантин
 T31	Event 1654 1663	пандемией
 T32	Event 1531 1560	первой   волны   коронавируса
-T33	Date-relative 1518 1545	во   время   первой   волны
 T34	Ordinal 278 288	следующего
-T35	Time-relative 231 243	впоследствии
-T36	Date-absolute 52 64	конца   года
-A1	Future T36
-T37	Date-absolute 185 197	20   декабря
-A2	Future T37
-T38	Date-absolute 261 295	конца   января   следующего   года
+T35	Date-absolute 231 243	впоследствии
 T39	Date-absolute 147 161	конца   ноября
 A3	Past T11
-T40	Date-absolute 517 529	20   декабря
-T41	Date-absolute 693 708	начала   января
-A4	Future T41
 A5	Past T16
 A6	Past T23
-A7	Future T38
-A8	Future T40
-A9	Past T33
 T42	Date-absolute 1509 1545	весной   во   время   первой   волны
 A10	Past T42
-T43	Time-relative 1334 1339	Ранее
+T43	Date-relative 1334 1339	Ранее
+A11	Pres-Fut T2
+A2	Past-Fut T5
+A12	Fut T7
+A7	Pres-Fut T12
+A8	Pres-Fut T14
+A4	Past T43
+A9	Future T35
+A14	LCont T7
+A1	Past-Fut T6
+T33	Event 762 787	рождественские   каникулы
+T36	Date-period-absolute 757 787	на   рождественские   каникулы
+A13	Fut T36
+T37	Person-forename 338 344	Ангела
+T38	Person-surname 347 354	Меркель
+T40	Person-surname 735 742	Меркель
+T41	Person-forename 997 1003	Ангелы
+T44	Person-surname 1006 1013	Меркель
+T45	Person-surname 1356 1363	Меркель

@@ -1,9 +1,9 @@
 T1	Organization 4 12	Минтруда
-T2	Date-absolute 94 109	в   2021   году
+T2	Date-period-absolute 94 109	в   2021   году
 T3	Organization 115 123	Минтруда
 T4	Organization 130 134	ВНИИ
-T5	Date-absolute 303 318	в   2021   году
-T6	Date-absolute 363 385	в   3   кв.2020   года
+T5	Date-period-absolute 303 318	в   2021   году
+T6	Date-period-absolute 363 385	в   3   кв.2020   года
 T7	Person-property 391 431	Менеджеры   по   продажам   и   закупкам
 T8	Money 438 472	от   28   до   400   тысяч   рулей
 T9	Money 497 540	от   20   тысяч   до   150   тысяч   рублей
@@ -27,11 +27,11 @@ T26	Money 1110 1153	от   30   тысяч   до   350   тысяч   рубл�
 T27	Money 1176 1219	от   16   тысяч   до   170   тысяч   рублей
 T28	Person-property 1163 1169	Повара
 T29	Organization 1233 1241	Минтруда
-T30	Date-absolute 1334 1356	В   третьем   квартале
+T30	Date-period-absolute 1334 1356	В   третьем   квартале
 T31	Date-absolute 1553 1574	февраля   2020   года
 T32	Organization 1596 1603	NEWS.ru
 A1	Media T32
-T33	Date-absolute 1668 1683	в   2021   году
+T33	Date-period-absolute 1668 1683	в   2021   году
 T34	Person-property 1689 1715	Продажники   в   Интернете
 T35	Person-property 1721 1733	Медработники
 T36	Person-property 1739 1747	Продавцы
@@ -46,4 +46,9 @@ T44	Person-property 1847 1861	IT-специалисты
 T45	Event 207 215	пандемию
 T46	Person-property 349 360	специалисты
 T47	Ordinal 1338 1345	третьем
-T48	Date-period 203 215	в   пандемию
+T48	Date-period-absolute 203 215	в   пандемию
+A2	UNK-Fut T2
+A3	UNK-Fut T5
+A4	Past-Fut T48
+A5	Fut T30
+A6	Past T31

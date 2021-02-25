@@ -21,7 +21,7 @@ T24	GPE 899 910	Подмосковье
 T25	Quantity 884 888	1093
 T26	Quantity 917 920	588
 T28	Quantity 1014 1027	1   712   858
-T16	Date-period 639 661	За   последние   сутки
+T16	Date-period-absolute 639 661	За   последние   сутки
 T19	Quantity 719 738	19   404   человека
 T20	Quantity 745 758	85   регионах
 T29	Organization 199 205	Кремля
@@ -29,11 +29,16 @@ A1	Media T8
 T10	GPE 502 509	столице
 T27	Event 992 1000	пандемии
 T30	Event 301 309	Эпидемия
-T31	Date-period 979 1000	с   начала   пандемии
+T31	Date-period-absolute 979 1000	с   начала   пандемии
 T32	Ordinal 644 653	последние
 A2	Present T9
 A3	Past T11
-A4	Past T16
-A6	Past T31
-T34	Time-relative 381 386	Ранее
+T34	Date-relative 381 386	Ранее
 T33	Duration 656 661	сутки
+A4	Past-Pres T16
+A5	Past-Pres T31
+A6	Past T34
+T35	Person-forename 208 215	Дмитрий
+T36	Person-surname 218 224	Песков
+T37	Person-forename 418 424	Сергей
+T38	Person-surname 427 434	Собянин

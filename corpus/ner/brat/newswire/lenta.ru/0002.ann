@@ -11,7 +11,7 @@ T12	Other-term 400 413	коронавирусом
 T13	GPE 453 459	Москву
 T14	GPE 530 536	Москве
 T15	Organization 564 580	Роспотребнадзора
-T16	Date-period 647 659	три   недели
+T16	Date-period-relative 647 659	три   недели
 T17	Person 782 788	Бурков
 T18	GPE 666 672	Москве
 T20	Ordinal 811 817	первая
@@ -39,18 +39,27 @@ T43	GPE 499 506	столицу
 A1	Media T9
 T44	Family 728 735	ребенка
 T45	Family 742 746	жены
-T35	Date-relative 416 446	во   время   рабочей   поездки
+T35	Date-absolute 416 446	во   время   рабочей   поездки
 T37	Date-relative 1469 1489	После   случившегося
 A2	Past T29
 A3	Present T10
 T38	Duration 647 659	три   недели
-T46	Date-period 811 826	первая   неделя
+T46	Date-period-relative 811 826	первая   неделя
 A4	Past T16
 A5	Past T46
 A6	Past T35
 A7	Past T22
-A8	Past T37
-T47	Date-period 858 869	со   второй
+T47	Date-period-relative 858 869	со   второй
 A9	Past T47
 T10	Date-absolute 313 341	в   четверг   ,   5   ноября
-T48	Time-relative 936 941	Ранее
+T48	Date-relative 936 941	Ранее
+A8	Past T37
+A10	Past T48
+T19	Duration 820 826	неделя
+T49	GPE 0 6	Омский
+T50	Person-forename 202 211	Александр
+T51	Person-surname 214 220	Бурков
+T52	Person-surname 782 788	Бурков
+T53	Person-surname 958 964	Бурков
+T54	Person-forename 1592 1601	Анастасию
+T55	Person-surname 1604 1610	Малову

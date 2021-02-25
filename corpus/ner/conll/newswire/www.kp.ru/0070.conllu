@@ -144,9 +144,9 @@
 1	Тем	_	_	_	_	_	_	_	_
 2	временем	_	_	_	_	_	_	_	_
 3	Госдума	_	_	_	_	_	_	_	bratT12=Organization
-4	до	_	_	_	_	_	_	_	bratT15=Date-period
-5	конца	_	_	_	_	_	_	_	bratT15=Date-period
-6	года	_	_	_	_	_	_	_	bratT15=Date-period
+4	до	_	_	_	_	_	_	_	bratA4=T15:Future|bratT15=Date-absolute
+5	конца	_	_	_	_	_	_	_	bratA4=T15:Future|bratT15=Date-absolute
+6	года	_	_	_	_	_	_	_	bratA4=T15:Future|bratT15=Date-absolute
 7	может	_	_	_	_	_	_	_	_
 8	принять	_	_	_	_	_	_	_	_
 9	законопроект	_	_	_	_	_	_	_	SpaceAfter=No
@@ -159,10 +159,10 @@
 16	по	_	_	_	_	_	_	_	_
 17	решению	_	_	_	_	_	_	_	_
 18	суда	_	_	_	_	_	_	_	_
-19	в	_	_	_	_	_	_	_	bratT13=Time-duration
-20	течение	_	_	_	_	_	_	_	bratT13=Time-duration
-21	24	_	_	_	_	_	_	_	bratT13=Time-duration
-22	часов	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Time-duration
+19	в	_	_	_	_	_	_	_	bratT13=Time-period
+20	течение	_	_	_	_	_	_	_	bratT13=Time-period
+21	24	_	_	_	_	_	_	_	bratT13=Time-period|bratT26=Duration
+22	часов	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Time-period|bratT26=Duration
 23	,	_	_	_	_	_	_	_	_
 24	если	_	_	_	_	_	_	_	_
 25	существует	_	_	_	_	_	_	_	_

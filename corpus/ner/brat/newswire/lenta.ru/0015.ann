@@ -5,21 +5,21 @@ T6	Money 129 154	3,25   триллиона   рублей
 T7	Organization 182 185	РБК
 T8	Organization 235 251	``   Дом.РФ   ''
 T9	Organization 258 268	Frank   RG
-T10	Date-period 338 363	в   течение   2018   года
+T10	Date-period-absolute 338 363	в   течение   2018   года
 T12	Money 491 516	3,01   триллиона   рублей
-T13	Date-period 521 539	В   прошлом   году
+T13	Date-period-absolute 521 539	В   прошлом   году
 T14	Money 579 595	2,85   триллиона
 T16	Money 706 731	550   миллиардов   рублей
 T17	Date-absolute 836 844	в   июле
-T15	Date-period 631 652	в   октябре   2020-го
+T15	Date-period-absolute 631 652	в   октябре   2020-го
 T18	Money 851 875	362   миллиарда   рублей
 T20	Money 900 915	393   миллиарда
 T21	Date-absolute 926 934	сентябре
 T22	Money 941 956	504   миллиарда
 T23	Percent 1131 1153	около   7,3   процента
 T24	Organization 1176 1192	``   Дом.РФ   ''
-T25	Date-period 1211 1229	за   текущий   год
-T3	Date-period 44 68	C   начала   2020   года
+T25	Date-period-absolute 1211 1229	за   текущий   год
+T3	Date-period-absolute 44 68	C   начала   2020   года
 T26	Quantity 1256 1289	более   1,5   миллиона   кредитов
 T27	Money 1305 1337	около   3,7   триллиона   рублей
 A3	Media T8
@@ -28,23 +28,21 @@ T2	Time-period 1064 1074	за   месяц
 A5	Media T24
 A6	Media T7
 T5	GPE 458 464	России
-T11	Date-period 969 987	За   этот   период
-T28	Time-relative 776 786	До   этого
-T29	Date-absolute 48 68	начала   2020   года
-A2	Past T29
-T30	Date-absolute 525 539	прошлом   году
-T31	Date-absolute 635 652	октябре   2020-го
-A7	Past T31
+T11	Date-period-relative 969 987	За   этот   период
+T28	Date-relative 776 786	До   этого
 T19	Date-absolute 886 893	августе
 A8	Past T17
 A9	Past T19
 A10	Past T21
-T32	Date-absolute 1216 1229	текущий   год
-T33	Date-absolute 352 363	2018   года
-A11	Past T33
 T34	Duration 1069 1074	месяц
-A12	Past T30
 A13	Past T11
-A14	Present T32
 T35	Ordinal 525 532	прошлом
 T36	Ordinal 1216 1223	текущий
+A15	Past-Pres T3
+A2	Past T10
+A11	Past T13
+A12	Past T15
+A7	Past-Fut T25
+A14	Past T28
+T29	Nationality 449 464	жители   России
+A16	Citizenship T29

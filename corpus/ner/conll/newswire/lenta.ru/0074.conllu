@@ -3,7 +3,7 @@
 # par_text = Макгрегор показал новую прическу и был высмеян фанатами
 # sent_id = 0074-p1-s1
 # text = Макгрегор показал новую прическу и был высмеян фанатами
-1	Макгрегор	_	_	_	_	_	_	_	bratT1=Person
+1	Макгрегор	_	_	_	_	_	_	_	bratT1=Person|bratT32=Person-surname
 2	показал	_	_	_	_	_	_	_	_
 3	новую	_	_	_	_	_	_	_	_
 4	прическу	_	_	_	_	_	_	_	_
@@ -16,15 +16,15 @@
 # par_text = Ирландский боец смешанного стиля (MMA) Конор Макгрегор показал новую прическу в Instagram и был высмеян пользователями сети.
 # sent_id = 0074-p2-s1
 # text = Ирландский боец смешанного стиля (MMA) Конор Макгрегор показал новую прическу в Instagram и был высмеян пользователями сети.
-1	Ирландский	_	_	_	_	_	_	_	bratT2=Person|bratT6=Person-property
+1	Ирландский	_	_	_	_	_	_	_	bratT2=Person|bratT30=GPE|bratT6=Person-property
 2	боец	_	_	_	_	_	_	_	bratT2=Person|bratT6=Person-property
 3	смешанного	_	_	_	_	_	_	_	bratT2=Person|bratT6=Person-property
 4	стиля	_	_	_	_	_	_	_	bratT2=Person|bratT6=Person-property
 5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person|bratT6=Person-property
 6	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person|bratT27=Other-term|bratT6=Person-property
 7	)	_	_	_	_	_	_	_	bratT2=Person|bratT6=Person-property
-8	Конор	_	_	_	_	_	_	_	bratT2=Person
-9	Макгрегор	_	_	_	_	_	_	_	bratT2=Person
+8	Конор	_	_	_	_	_	_	_	bratT2=Person|bratT33=Person-forename
+9	Макгрегор	_	_	_	_	_	_	_	bratT2=Person|bratT34=Person-surname
 10	показал	_	_	_	_	_	_	_	_
 11	новую	_	_	_	_	_	_	_	_
 12	прическу	_	_	_	_	_	_	_	_
@@ -109,8 +109,8 @@
 3	кто	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No
-6	Мистер	_	_	_	_	_	_	_	bratA1=T28:Fiction|bratT28=Person
-7	Пропер	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T28:Fiction|bratT28=Person
+6	Мистер	_	_	_	_	_	_	_	bratA1=T28:Fiction|bratT28=Person|bratT35=Person-affix
+7	Пропер	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T28:Fiction|bratT28=Person|bratT36=Person-alias
 8	''	_	_	_	_	_	_	_	SpaceAfter=No
 9	?	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 10	''	_	_	_	_	_	_	_	_
@@ -125,11 +125,11 @@
 # text = 5 ноября британские журналисты подсчитали заработок Макгрегора за карьеру в Абсолютном бойцовском чемпионате (UFC).
 1	5	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
-3	британские	_	_	_	_	_	_	_	bratT12=Person-property
+3	британские	_	_	_	_	_	_	_	bratT12=Person-property|bratT31=GPE
 4	журналисты	_	_	_	_	_	_	_	bratT12=Person-property
 5	подсчитали	_	_	_	_	_	_	_	_
 6	заработок	_	_	_	_	_	_	_	_
-7	Макгрегора	_	_	_	_	_	_	_	bratT3=Person
+7	Макгрегора	_	_	_	_	_	_	_	bratT3=Person|bratT37=Person-surname
 8	за	_	_	_	_	_	_	_	_
 9	карьеру	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
@@ -168,8 +168,8 @@
 # par_text = Конор Макгрегор провел 26 поединков в смешанных единоборствах, выиграл в 22, в четырех — проиграл. Он бывший чемпион UFC в двух весовых категориях. Ирландец трижды объявлял об уходе из спорта, но каждый раз менял решение. Следующим его соперником должен стать американец Дастин Порье.
 # sent_id = 0074-p5-s1
 # text = Конор Макгрегор провел 26 поединков в смешанных единоборствах, выиграл в 22, в четырех - проиграл.
-1	Конор	_	_	_	_	_	_	_	bratT4=Person
-2	Макгрегор	_	_	_	_	_	_	_	bratT4=Person
+1	Конор	_	_	_	_	_	_	_	bratT38=Person-forename|bratT4=Person
+2	Макгрегор	_	_	_	_	_	_	_	bratT39=Person-surname|bratT4=Person
 3	провел	_	_	_	_	_	_	_	_
 4	26	_	_	_	_	_	_	_	bratT11=Quantity
 5	поединков	_	_	_	_	_	_	_	bratT11=Quantity
@@ -224,7 +224,7 @@
 4	должен	_	_	_	_	_	_	_	_
 5	стать	_	_	_	_	_	_	_	_
 6	американец	_	_	_	_	_	_	_	bratA2=T21:Citizenship|bratT21=Nationality|bratT5=Person
-7	Дастин	_	_	_	_	_	_	_	bratT5=Person
-8	Порье	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+7	Дастин	_	_	_	_	_	_	_	bratT40=Person-forename|bratT5=Person
+8	Порье	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Person-surname|bratT5=Person
 9	.	_	_	_	_	_	_	_	_
 

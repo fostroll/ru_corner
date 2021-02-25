@@ -14,13 +14,14 @@ T12	Person-property 78 104	Глава   Приморского   края
 T13	GPE 86 104	Приморского   края
 T14	Person 78 122	Глава   Приморского   края   Олег   Кожемяко
 T15	GPE 154 166	Владивостоке
-T16	Date-period 601 619	в   течение   ночи
-T18	Time-relative 625 630	Ранее
+T16	Date-period-absolute 601 619	в   течение   ночи
+T18	Date-relative 625 630	Ранее
 T20	Time-absolute 239 249	к   вечеру
 A2	Future T4
 A3	Future T5
-T21	Date-absolute 615 619	ночи
 T22	Event 758 781	аварийного   отключения
-A5	Future T21
 T23	Time-absolute 615 619	ночи
-T24	Time-relative 750 755	после
+T24	Date-relative 750 755	после
+A4	Fut T16
+A5	Past T18
+A6	Past T24

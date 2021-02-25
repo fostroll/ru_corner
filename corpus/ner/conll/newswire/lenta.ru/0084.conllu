@@ -17,10 +17,10 @@
 # par_text = Жительница английского города Бродстейрс, графство Кент, симулировала рак, чтобы собрать пожертвования. Об этом сообщает издание Daily Star.
 # sent_id = 0084-p2-s1
 # text = Жительница английского города Бродстейрс, графство Кент, симулировала рак, чтобы собрать пожертвования.
-1	Жительница	_	_	_	_	_	_	_	_
-2	английского	_	_	_	_	_	_	_	bratT2=GPE
-3	города	_	_	_	_	_	_	_	bratT2=GPE
-4	Бродстейрс	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=GPE
+1	Жительница	_	_	_	_	_	_	_	bratA3=T38:Resident|bratT38=Nationality
+2	английского	_	_	_	_	_	_	_	bratA3=T38:Resident|bratT2=GPE|bratT26=GPE|bratT38=Nationality
+3	города	_	_	_	_	_	_	_	bratA3=T38:Resident|bratT2=GPE|bratT38=Nationality
+4	Бродстейрс	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Resident|bratT2=GPE|bratT38=Nationality
 5	,	_	_	_	_	_	_	_	_
 6	графство	_	_	_	_	_	_	_	bratT3=GPE
 7	Кент	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=GPE
@@ -48,23 +48,23 @@
 # sent_id = 0084-p3-s1
 # text = 42-летняя Николь Элькаббасс (Nicole Elkabbass) обвиняется в том, что с февраля по август 2018 года симулировала онкологическое заболевание и обманным путем получила около 45 тысяч фунтов (4,5 миллиона рублей) пожертвований на лечение.
 1	42-летняя	_	_	_	_	_	_	_	bratT5=Quantity
-2	Николь	_	_	_	_	_	_	_	bratT6=Person
-3	Элькаббасс	_	_	_	_	_	_	_	bratT6=Person
+2	Николь	_	_	_	_	_	_	_	bratT27=Person-forename|bratT6=Person
+3	Элькаббасс	_	_	_	_	_	_	_	bratT28=Person-surname|bratT6=Person
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
-5	Nicole	_	_	_	_	_	_	_	bratT17=Person
-6	Elkabbass	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person
+5	Nicole	_	_	_	_	_	_	_	bratT17=Person|bratT29=Person-forename
+6	Elkabbass	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT30=Person-surname
 7	)	_	_	_	_	_	_	_	_
 8	обвиняется	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	том	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	с	_	_	_	_	_	_	_	bratT7=Date-period
-14	февраля	_	_	_	_	_	_	_	bratA2=T25:Past|bratT25=Date-absolute|bratT7=Date-period
-15	по	_	_	_	_	_	_	_	bratT7=Date-period
-16	август	_	_	_	_	_	_	_	bratA3=T26:Past|bratT26=Date-absolute|bratT7=Date-period
-17	2018	_	_	_	_	_	_	_	bratA3=T26:Past|bratT26=Date-absolute|bratT7=Date-period
-18	года	_	_	_	_	_	_	_	bratA3=T26:Past|bratT26=Date-absolute|bratT7=Date-period
+13	с	_	_	_	_	_	_	_	bratA6=T7:Past|bratT7=Date-period-absolute
+14	февраля	_	_	_	_	_	_	_	bratA6=T7:Past|bratT7=Date-period-absolute
+15	по	_	_	_	_	_	_	_	bratA6=T7:Past|bratT7=Date-period-absolute
+16	август	_	_	_	_	_	_	_	bratA6=T7:Past|bratT7=Date-period-absolute
+17	2018	_	_	_	_	_	_	_	bratA6=T7:Past|bratT7=Date-period-absolute
+18	года	_	_	_	_	_	_	_	bratA6=T7:Past|bratT7=Date-period-absolute
 19	симулировала	_	_	_	_	_	_	_	_
 20	онкологическое	_	_	_	_	_	_	_	_
 21	заболевание	_	_	_	_	_	_	_	_
@@ -112,18 +112,18 @@
 # sent_id = 0084-p4-s1
 # text = Прокурор Бен Ирвин (Ben Irwin) в суде рассказал, что Элькаббасс создала на благотворительном сайте GoFundMe страницу, где собирала деньги якобы на лечение рака яичников.
 1	Прокурор	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-2	Бен	_	_	_	_	_	_	_	bratT11=Person
-3	Ирвин	_	_	_	_	_	_	_	bratT11=Person
+2	Бен	_	_	_	_	_	_	_	bratT11=Person|bratT31=Person-forename
+3	Ирвин	_	_	_	_	_	_	_	bratT11=Person|bratT32=Person-surname
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
-5	Ben	_	_	_	_	_	_	_	bratT18=Person
-6	Irwin	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+5	Ben	_	_	_	_	_	_	_	bratT18=Person|bratT33=Person-forename
+6	Irwin	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT34=Person-surname
 7	)	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	суде	_	_	_	_	_	_	_	_
 10	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	Элькаббасс	_	_	_	_	_	_	_	bratT12=Person
+13	Элькаббасс	_	_	_	_	_	_	_	bratT12=Person|bratT35=Person-surname
 14	создала	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	благотворительном	_	_	_	_	_	_	_	bratT13=Service
@@ -176,7 +176,7 @@
 5	говорилось	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	Элькаббасс	_	_	_	_	_	_	_	bratT14=Person
+8	Элькаббасс	_	_	_	_	_	_	_	bratT14=Person|bratT36=Person-surname
 9	прекрасная	_	_	_	_	_	_	_	_
 10	дочь	_	_	_	_	_	_	_	bratT20=Family
 11	и	_	_	_	_	_	_	_	_
@@ -194,7 +194,7 @@
 # par_text = Ирвин подчеркнул, что фотография, на которой женщина лежит на спине на больничной койке под одеялом с закрытыми глазами и открытым ртом, на самом деле была сделана в 2016 году после того, как ей провели операцию по удалению желчного пузыря.
 # sent_id = 0084-p6-s1
 # text = Ирвин подчеркнул, что фотография, на которой женщина лежит на спине на больничной койке под одеялом с закрытыми глазами и открытым ртом, на самом деле была сделана в 2016 году после того, как ей провели операцию по удалению желчного пузыря.
-1	Ирвин	_	_	_	_	_	_	_	bratT15=Person
+1	Ирвин	_	_	_	_	_	_	_	bratT15=Person|bratT37=Person-surname
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -226,16 +226,16 @@
 30	в	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
 31	2016	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
 32	году	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
-33	после	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute|bratT23=Time-relative
-34	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T16:Past|bratT16=Date-absolute|bratT23=Time-relative
-35	,	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute|bratT23=Time-relative
-36	как	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute|bratT23=Time-relative
+33	после	_	_	_	_	_	_	_	bratA2=T23:Past|bratA4=T16:Past|bratT16=Date-absolute|bratT23=Date-relative
+34	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T23:Past|bratA4=T16:Past|bratT16=Date-absolute|bratT23=Date-relative
+35	,	_	_	_	_	_	_	_	bratA2=T23:Past|bratA4=T16:Past|bratT16=Date-absolute|bratT23=Date-relative
+36	как	_	_	_	_	_	_	_	bratA2=T23:Past|bratA4=T16:Past|bratT16=Date-absolute|bratT23=Date-relative
 37	ей	_	_	_	_	_	_	_	_
 38	провели	_	_	_	_	_	_	_	_
-39	операцию	_	_	_	_	_	_	_	_
-40	по	_	_	_	_	_	_	_	_
-41	удалению	_	_	_	_	_	_	_	_
-42	желчного	_	_	_	_	_	_	_	_
-43	пузыря	_	_	_	_	_	_	_	SpaceAfter=No
+39	операцию	_	_	_	_	_	_	_	bratT25=Event
+40	по	_	_	_	_	_	_	_	bratT25=Event
+41	удалению	_	_	_	_	_	_	_	bratT25=Event
+42	желчного	_	_	_	_	_	_	_	bratT25=Event
+43	пузыря	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event
 44	.	_	_	_	_	_	_	_	_
 

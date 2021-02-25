@@ -18,7 +18,7 @@
 # par_text = В субботу, 21 ноября, в Грузии прошел второй тур выборов в однопалатный парламент республики. Голосование состоялось в 17 из 30 одномандатных округов, причем восемь из них – в Тбилиси.
 # sent_id = 0069-p2-s1
 # text = В субботу, 21 ноября, в Грузии прошел второй тур выборов в однопалатный парламент республики.
-1	В	_	_	_	_	_	_	_	_
+1	В	_	_	_	_	_	_	_	bratT5=Date-absolute
 2	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Date-absolute
 3	,	_	_	_	_	_	_	_	bratT5=Date-absolute
 4	21	_	_	_	_	_	_	_	bratT5=Date-absolute
@@ -94,12 +94,12 @@
 7	:	_	_	_	_	_	_	_	_
 8	по	_	_	_	_	_	_	_	_
 9	состоянию	_	_	_	_	_	_	_	_
-10	на	_	_	_	_	_	_	_	_
-11	20:00	_	_	_	_	_	_	_	bratT18=Time-absolute
-12	(	_	_	_	_	_	_	_	SpaceAfter=No
-13	19:00	_	_	_	_	_	_	_	bratT19=Time-absolute
-14	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Time-absolute
-15	)	_	_	_	_	_	_	_	SpaceAfter=No
+10	на	_	_	_	_	_	_	_	bratA4=T43:Past|bratT18=Time-absolute|bratT43=Date-relative
+11	20:00	_	_	_	_	_	_	_	bratA4=T43:Past|bratT18=Time-absolute|bratT43=Date-relative
+12	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T43:Past|bratT43=Date-relative
+13	19:00	_	_	_	_	_	_	_	bratA4=T43:Past|bratT19=Time-absolute|bratT43=Date-relative
+14	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T43:Past|bratT19=Time-absolute|bratT43=Date-relative
+15	)	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T43:Past|bratT43=Date-relative
 16	,	_	_	_	_	_	_	_	_
 17	когда	_	_	_	_	_	_	_	_
 18	закрылись	_	_	_	_	_	_	_	_
@@ -127,8 +127,8 @@
 3	явка	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	прошедшем	_	_	_	_	_	_	_	_
-6	31	_	_	_	_	_	_	_	bratT22=Date-absolute
-7	октября	_	_	_	_	_	_	_	bratT22=Date-absolute
+6	31	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
+7	октября	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
 8	первом	_	_	_	_	_	_	_	bratT23=Ordinal|bratT24=Event
 9	туре	_	_	_	_	_	_	_	bratT24=Event
 10	парламентских	_	_	_	_	_	_	_	bratT24=Event|bratT25=Event

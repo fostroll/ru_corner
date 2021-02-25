@@ -34,7 +34,7 @@ T36	Person 1342 1379	президент   России   Владимир   Пу
 T37	Person 1386 1426	азербайджанский   лидер   Ильхам   Алиев
 T38	Person 1433 1448	Никол   Пашинян
 T39	GPE 1526 1545	Нагорном   Карабахе
-T40	Date-period 1632 1648	До   1   декабря
+T40	Date-period-absolute 1632 1648	До   1   декабря
 T41	GPE 1668 1672	Баку
 T42	GPE 1754 1765	Азербайджан
 T43	GPE 1807 1814	Ереване
@@ -55,11 +55,25 @@ T47	Event 1515 1545	боев   в   Нагорном   Карабахе
 T48	Facility 521 528	границе
 T12	Organization 465 469	ТАСС
 A1	Media T12
-T51	Date-relative 410 447	в   ходе   онлайн   пресс-конференции
 A2	Past T11
 T54	Event 421 447	онлайн   пресс-конференции
 A3	Past T21
 A4	Past T33
-T59	Date-absolute 1637 1648	1   декабря
-A5	Future T59
-A6	Past T51
+A7	Pres-Fut T40
+T51	GPE 303 311	турецкой
+T59	Event 704 709	война
+T60	Event 610 615	войне
+T61	GPE 1304 1313	армянской
+T62	GPE 1386 1401	азербайджанский
+T63	GPE 1725 1735	российские
+T64	Person-surname 0 7	Пашинян
+T65	Person-forename 99 104	Никол
+T66	Person-surname 107 114	Пашинян
+T67	Person-surname 787 794	Пашинян
+T68	Person-forename 1363 1371	Владимир
+T69	Person-surname 1374 1379	Путин
+T70	Person-forename 1412 1418	Ильхам
+T71	Person-surname 1421 1426	Алиев
+T72	Person-forename 1433 1438	Никол
+T73	Person-surname 1441 1448	Пашинян
+T74	Person-surname 1881 1889	Пашиняна

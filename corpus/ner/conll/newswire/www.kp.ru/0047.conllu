@@ -72,10 +72,10 @@
 11	долларов	_	_	_	_	_	_	_	bratT18=Money
 12	против	_	_	_	_	_	_	_	_
 13	меня	_	_	_	_	_	_	_	_
-14	во	_	_	_	_	_	_	_	bratT20=Date-period
-15	время	_	_	_	_	_	_	_	bratT20=Date-period
-16	предвыборной	_	_	_	_	_	_	_	bratT20=Date-period
-17	кампании	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Date-period
+14	во	_	_	_	_	_	_	_	bratA1=T20:Past|bratT20=Date-period-absolute
+15	время	_	_	_	_	_	_	_	bratA1=T20:Past|bratT20=Date-period-absolute
+16	предвыборной	_	_	_	_	_	_	_	bratA1=T20:Past|bratT20=Date-period-absolute|bratT25=Event
+17	кампании	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T20:Past|bratT20=Date-period-absolute|bratT25=Event
 18	,	_	_	_	_	_	_	_	_
 19	которую	_	_	_	_	_	_	_	_
 20	я	_	_	_	_	_	_	_	_
@@ -152,9 +152,9 @@
 12	специально	_	_	_	_	_	_	_	_
 13	не	_	_	_	_	_	_	_	_
 14	стала	_	_	_	_	_	_	_	_
-15	до	_	_	_	_	_	_	_	bratT21=Date-period
-16	президентских	_	_	_	_	_	_	_	bratT16=Event|bratT21=Date-period
-17	выборов	_	_	_	_	_	_	_	bratT16=Event|bratT21=Date-period
+15	до	_	_	_	_	_	_	_	bratA2=T21:Past|bratT21=Date-period-absolute
+16	президентских	_	_	_	_	_	_	_	bratA2=T21:Past|bratT16=Event|bratT21=Date-period-absolute
+17	выборов	_	_	_	_	_	_	_	bratA2=T21:Past|bratT16=Event|bratT21=Date-period-absolute
 18	объявлять	_	_	_	_	_	_	_	_
 19	о	_	_	_	_	_	_	_	_
 20	высокой	_	_	_	_	_	_	_	_
@@ -182,16 +182,16 @@
 # sent_id = 0047-p6-s2
 # text = А потом решили сделать объявление уже спустя несколько дней после выборов'', - заявил он.
 1	А	_	_	_	_	_	_	_	_
-2	потом	_	_	_	_	_	_	_	bratT23=Date-relative
+2	потом	_	_	_	_	_	_	_	bratA3=T23:Past|bratT23=Date-relative
 3	решили	_	_	_	_	_	_	_	_
 4	сделать	_	_	_	_	_	_	_	_
 5	объявление	_	_	_	_	_	_	_	_
 6	уже	_	_	_	_	_	_	_	_
-7	спустя	_	_	_	_	_	_	_	bratT19=Date-relative
-8	несколько	_	_	_	_	_	_	_	bratT19=Date-relative
-9	дней	_	_	_	_	_	_	_	bratT19=Date-relative
-10	после	_	_	_	_	_	_	_	bratT19=Date-relative
-11	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Date-relative
+7	спустя	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
+8	несколько	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute|bratT26=Duration
+9	дней	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute|bratT26=Duration
+10	после	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
+11	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T19:Past|bratT19=Date-absolute|bratT27=Event
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
@@ -205,14 +205,14 @@
 # text = Напомним, накануне была закончена третья фаза клинических испытаний вакцин немецкой фармацевтической компании BioNTech и ее американского партнера Pfizer, которые показали еще большую эффективность.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	накануне	_	_	_	_	_	_	_	bratT24=Date-relative
+3	накануне	_	_	_	_	_	_	_	bratA5=T24:Past|bratT24=Date-absolute
 4	была	_	_	_	_	_	_	_	_
 5	закончена	_	_	_	_	_	_	_	_
-6	третья	_	_	_	_	_	_	_	bratT9=Ordinal
-7	фаза	_	_	_	_	_	_	_	_
-8	клинических	_	_	_	_	_	_	_	_
-9	испытаний	_	_	_	_	_	_	_	_
-10	вакцин	_	_	_	_	_	_	_	_
+6	третья	_	_	_	_	_	_	_	bratT28=Event|bratT9=Ordinal
+7	фаза	_	_	_	_	_	_	_	bratT28=Event
+8	клинических	_	_	_	_	_	_	_	bratT28=Event
+9	испытаний	_	_	_	_	_	_	_	bratT28=Event
+10	вакцин	_	_	_	_	_	_	_	bratT28=Event
 11	немецкой	_	_	_	_	_	_	_	bratT10=Organization
 12	фармацевтической	_	_	_	_	_	_	_	bratT10=Organization
 13	компании	_	_	_	_	_	_	_	bratT10=Organization
@@ -246,8 +246,8 @@
 
 # sent_id = 0047-p7-s3
 # text = После чего компании подали запрос о регистрации препарата в Соединённых Штатах
-1	После	_	_	_	_	_	_	_	bratT22=Date-period
-2	чего	_	_	_	_	_	_	_	bratT22=Date-period
+1	После	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-relative
+2	чего	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-relative
 3	компании	_	_	_	_	_	_	_	_
 4	подали	_	_	_	_	_	_	_	_
 5	запрос	_	_	_	_	_	_	_	_

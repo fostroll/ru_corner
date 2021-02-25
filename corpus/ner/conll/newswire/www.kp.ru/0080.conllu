@@ -53,11 +53,11 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	_
-4	в	_	_	_	_	_	_	_	bratT15=Date-absolute
-5	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-absolute
-6	,	_	_	_	_	_	_	_	bratT15=Date-absolute
-7	21	_	_	_	_	_	_	_	bratT15=Date-absolute
-8	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Date-absolute
+4	в	_	_	_	_	_	_	_	bratA3=T15:Past|bratT15=Date-absolute
+5	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T15:Past|bratT15=Date-absolute
+6	,	_	_	_	_	_	_	_	bratA3=T15:Past|bratT15=Date-absolute
+7	21	_	_	_	_	_	_	_	bratA3=T15:Past|bratT15=Date-absolute
+8	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T15:Past|bratT15=Date-absolute
 9	,	_	_	_	_	_	_	_	_
 10	МИДД	_	_	_	_	_	_	_	bratT17=Organization
 11	России	_	_	_	_	_	_	_	bratT16=GPE|bratT17=Organization
@@ -145,8 +145,8 @@
 4	министерство	_	_	_	_	_	_	_	_
 5	привело	_	_	_	_	_	_	_	_
 6	фотографию	_	_	_	_	_	_	_	_
-7	прошлого	_	_	_	_	_	_	_	bratT25=Date-absolute
-8	года	_	_	_	_	_	_	_	bratT25=Date-absolute
+7	прошлого	_	_	_	_	_	_	_	bratA2=T25:Past|bratT25=Date-absolute|bratT45=Ordinal
+8	года	_	_	_	_	_	_	_	bratA2=T25:Past|bratT25=Date-absolute
 9	с	_	_	_	_	_	_	_	_
 10	переговоров	_	_	_	_	_	_	_	_
 11	Лаврова	_	_	_	_	_	_	_	bratT26=Person
@@ -184,11 +184,11 @@
 10	президентом	_	_	_	_	_	_	_	bratT33=Person-property
 11	Армении	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property
 12	состоялась	_	_	_	_	_	_	_	_
-13	в	_	_	_	_	_	_	_	bratT34=Date-absolute
-14	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Date-absolute
-15	,	_	_	_	_	_	_	_	bratT34=Date-absolute
-16	21	_	_	_	_	_	_	_	bratT34=Date-absolute
-17	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Date-absolute
+13	в	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
+14	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T34:Past|bratT34=Date-absolute
+15	,	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
+16	21	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
+17	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T34:Past|bratT34=Date-absolute
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0080-p5-s2
@@ -196,9 +196,9 @@
 1	Глава	_	_	_	_	_	_	_	bratT37=Person-property
 2	МИД	_	_	_	_	_	_	_	bratT35=Organization|bratT37=Person-property
 3	России	_	_	_	_	_	_	_	bratT36=GPE|bratT37=Person-property
-4	во	_	_	_	_	_	_	_	bratT42=Date-period
-5	время	_	_	_	_	_	_	_	bratT42=Date-period
-6	переговоров	_	_	_	_	_	_	_	bratT42=Date-period
+4	во	_	_	_	_	_	_	_	bratA5=T42:Past|bratT42=Date-absolute
+5	время	_	_	_	_	_	_	_	bratA5=T42:Past|bratT42=Date-absolute
+6	переговоров	_	_	_	_	_	_	_	bratA5=T42:Past|bratT42=Date-absolute
 7	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
@@ -224,9 +224,9 @@
 29	прекращение	_	_	_	_	_	_	_	_
 30	боевых	_	_	_	_	_	_	_	_
 31	действий	_	_	_	_	_	_	_	_
-32	от	_	_	_	_	_	_	_	_
-33	9	_	_	_	_	_	_	_	bratT40=Date-absolute
-34	ноября	_	_	_	_	_	_	_	bratT40=Date-absolute
+32	от	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute
+33	9	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute
+34	ноября	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute
 35	являются	_	_	_	_	_	_	_	_
 36	безальтернативным	_	_	_	_	_	_	_	SpaceAfter=No
 37	.	_	_	_	_	_	_	_	_
