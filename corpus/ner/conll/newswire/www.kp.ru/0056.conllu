@@ -3,7 +3,7 @@
 # par_text = Путин назвал слишком долгим ожидание тестов на коронавирус по 48 часов
 # sent_id = 0056-p1-s1
 # text = Путин назвал слишком долгим ожидание тестов на коронавирус по 48 часов
-1	Путин	_	_	_	_	_	_	_	bratT1=Person
+1	Путин	_	_	_	_	_	_	_	bratT1=Person|bratT41=Person-surname
 2	назвал	_	_	_	_	_	_	_	_
 3	слишком	_	_	_	_	_	_	_	_
 4	долгим	_	_	_	_	_	_	_	_
@@ -35,8 +35,8 @@
 14	заявил	_	_	_	_	_	_	_	_
 15	президент	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
 16	России	_	_	_	_	_	_	_	bratT5=GPE|bratT6=Person-property|bratT7=Person
-17	Владимир	_	_	_	_	_	_	_	bratT7=Person
-18	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
+17	Владимир	_	_	_	_	_	_	_	bratT42=Person-forename|bratT7=Person
+18	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-surname|bratT7=Person
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0056-p2-s2
@@ -65,8 +65,8 @@
 1	Заместитель	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person
 2	председателя	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person
 3	правительства	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property|bratT13=Person
-4	Татьяна	_	_	_	_	_	_	_	bratT13=Person
-5	Голикова	_	_	_	_	_	_	_	bratT13=Person
+4	Татьяна	_	_	_	_	_	_	_	bratT13=Person|bratT44=Person-forename
+5	Голикова	_	_	_	_	_	_	_	bratT13=Person|bratT45=Person-surname
 6	заявила	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	ответ	_	_	_	_	_	_	_	SpaceAfter=No
@@ -121,8 +121,8 @@
 3	подписала	_	_	_	_	_	_	_	_
 4	глава	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
 5	Роспотребнадзора	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-6	Анна	_	_	_	_	_	_	_	bratT25=Person
-7	Попова	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person
+6	Анна	_	_	_	_	_	_	_	bratT25=Person|bratT46=Person-forename
+7	Попова	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person|bratT47=Person-surname
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0056-p4-s3

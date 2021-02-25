@@ -3,8 +3,8 @@
 # par_text = Михаил Мишустин поручил ликвидировать последствий ЧС в Приморье
 # sent_id = 0086-p1-s1
 # text = Михаил Мишустин поручил ликвидировать последствий ЧС в Приморье
-1	Михаил	_	_	_	_	_	_	_	bratT1=Person
-2	Мишустин	_	_	_	_	_	_	_	bratT1=Person
+1	Михаил	_	_	_	_	_	_	_	bratT1=Person|bratT33=Person-forename
+2	Мишустин	_	_	_	_	_	_	_	bratT1=Person|bratT34=Person-surname
 3	поручил	_	_	_	_	_	_	_	_
 4	ликвидировать	_	_	_	_	_	_	_	_
 5	последствий	_	_	_	_	_	_	_	_
@@ -18,8 +18,8 @@
 # text = Премьер-министр России Михаил Мишустин поручил министру по развитию Дальнего Востока и Арктики Алексею Чекункову вылететь во Владивосток для сбора рабочей группы по ликвидации последствий ледяного дождя.
 1	Премьер-министр	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
 2	России	_	_	_	_	_	_	_	bratT3=GPE|bratT4=Person-property|bratT5=Person
-3	Михаил	_	_	_	_	_	_	_	bratT5=Person
-4	Мишустин	_	_	_	_	_	_	_	bratT5=Person
+3	Михаил	_	_	_	_	_	_	_	bratT35=Person-forename|bratT5=Person
+4	Мишустин	_	_	_	_	_	_	_	bratT36=Person-surname|bratT5=Person
 5	поручил	_	_	_	_	_	_	_	_
 6	министру	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person
 7	по	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person
@@ -28,8 +28,8 @@
 10	Востока	_	_	_	_	_	_	_	bratT6=GPE|bratT8=Person|bratT9=Person
 11	и	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person
 12	Арктики	_	_	_	_	_	_	_	bratT7=GPE|bratT8=Person|bratT9=Person
-13	Алексею	_	_	_	_	_	_	_	bratT9=Person
-14	Чекункову	_	_	_	_	_	_	_	bratT9=Person
+13	Алексею	_	_	_	_	_	_	_	bratT37=Person-forename|bratT9=Person
+14	Чекункову	_	_	_	_	_	_	_	bratT38=Person-surname|bratT9=Person
 15	вылететь	_	_	_	_	_	_	_	_
 16	во	_	_	_	_	_	_	_	_
 17	Владивосток	_	_	_	_	_	_	_	bratT10=GPE

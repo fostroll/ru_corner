@@ -3,9 +3,9 @@
 # par_text = Путин освободил Цуканова от должности полпреда президента в Уральском федеральном округе
 # sent_id = 0062-p1-s1
 # text = Путин освободил Цуканова от должности полпреда президента в Уральском федеральном округе
-1	Путин	_	_	_	_	_	_	_	bratT1=Person
+1	Путин	_	_	_	_	_	_	_	bratT1=Person|bratT20=Person-surname
 2	освободил	_	_	_	_	_	_	_	_
-3	Цуканова	_	_	_	_	_	_	_	bratT2=Person
+3	Цуканова	_	_	_	_	_	_	_	bratT2=Person|bratT40=Person-surname
 4	от	_	_	_	_	_	_	_	_
 5	должности	_	_	_	_	_	_	_	_
 6	полпреда	_	_	_	_	_	_	_	bratT4=Person-property
@@ -21,11 +21,11 @@
 # text = Президент России Владимир Путин освободил Николая Цуканова от должности полпреда главы государства в Уральском федеральном округе.
 1	Президент	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
 2	России	_	_	_	_	_	_	_	bratT6=GPE|bratT7=Person-property|bratT8=Person
-3	Владимир	_	_	_	_	_	_	_	bratT8=Person
-4	Путин	_	_	_	_	_	_	_	bratT8=Person
+3	Владимир	_	_	_	_	_	_	_	bratT45=Person-forename|bratT8=Person
+4	Путин	_	_	_	_	_	_	_	bratT46=Person-surname|bratT8=Person
 5	освободил	_	_	_	_	_	_	_	_
-6	Николая	_	_	_	_	_	_	_	bratT9=Person
-7	Цуканова	_	_	_	_	_	_	_	bratT9=Person
+6	Николая	_	_	_	_	_	_	_	bratT47=Person-forename|bratT9=Person
+7	Цуканова	_	_	_	_	_	_	_	bratT48=Person-surname|bratT9=Person
 8	от	_	_	_	_	_	_	_	_
 9	должности	_	_	_	_	_	_	_	_
 10	полпреда	_	_	_	_	_	_	_	bratT11=Person-property
@@ -48,8 +48,8 @@
 7	назначен	_	_	_	_	_	_	_	_
 8	глава	_	_	_	_	_	_	_	bratT35=Person-property|bratT37=Person
 9	Минстроя	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Organization|bratT37=Person
-10	Владимир	_	_	_	_	_	_	_	bratT37=Person
-11	Якушев	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person
+10	Владимир	_	_	_	_	_	_	_	bratT37=Person|bratT49=Person-forename
+11	Якушев	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person|bratT50=Person-surname
 12	,	_	_	_	_	_	_	_	_
 13	который	_	_	_	_	_	_	_	_
 14	теперь	_	_	_	_	_	_	_	bratA4=T42:Present|bratT42=Date-absolute
@@ -65,9 +65,9 @@
 # text = ``Освободить Цуканова Николая Николаевича от должности полномочного представителя Президента Российской Федерации в Уральском федеральном округе'', - говорится в президентском указе, опубликованном на сайте Кремля.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Освободить	_	_	_	_	_	_	_	_
-3	Цуканова	_	_	_	_	_	_	_	bratT13=Person
-4	Николая	_	_	_	_	_	_	_	bratT13=Person
-5	Николаевича	_	_	_	_	_	_	_	bratT13=Person
+3	Цуканова	_	_	_	_	_	_	_	bratT13=Person|bratT51=Person-surname
+4	Николая	_	_	_	_	_	_	_	bratT13=Person|bratT52=Person-forename
+5	Николаевича	_	_	_	_	_	_	_	bratT13=Person|bratT53=Person-patronym
 6	от	_	_	_	_	_	_	_	_
 7	должности	_	_	_	_	_	_	_	_
 8	полномочного	_	_	_	_	_	_	_	bratT17=Person-property
@@ -116,7 +116,7 @@
 # par_text = Российский лидер также подписал указ об отставке министра транспорта Евгения Дитриха и главы Минприроды Дмитрия Кобылкина.
 # sent_id = 0062-p5-s1
 # text = Российский лидер также подписал указ об отставке министра транспорта Евгения Дитриха и главы Минприроды Дмитрия Кобылкина.
-1	Российский	_	_	_	_	_	_	_	bratT21=Person-property
+1	Российский	_	_	_	_	_	_	_	bratT21=Person-property|bratT58=GPE
 2	лидер	_	_	_	_	_	_	_	bratT21=Person-property
 3	также	_	_	_	_	_	_	_	_
 4	подписал	_	_	_	_	_	_	_	_
@@ -125,13 +125,13 @@
 7	отставке	_	_	_	_	_	_	_	_
 8	министра	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
 9	транспорта	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
-10	Евгения	_	_	_	_	_	_	_	bratT23=Person
-11	Дитриха	_	_	_	_	_	_	_	bratT23=Person
+10	Евгения	_	_	_	_	_	_	_	bratT23=Person|bratT54=Person-forename
+11	Дитриха	_	_	_	_	_	_	_	bratT23=Person|bratT55=Person-surname
 12	и	_	_	_	_	_	_	_	_
 13	главы	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
 14	Минприроды	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property|bratT26=Person
-15	Дмитрия	_	_	_	_	_	_	_	bratT26=Person
-16	Кобылкина	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person
+15	Дмитрия	_	_	_	_	_	_	_	bratT26=Person|bratT56=Person-forename
+16	Кобылкина	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person|bratT57=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0062-p6

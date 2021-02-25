@@ -80,8 +80,8 @@
 11	представитель	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
 12	российского	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Person-property|bratT19=Person
 13	МИД	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Person-property|bratT19=Person
-14	Мария	_	_	_	_	_	_	_	bratT19=Person
-15	Захарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+14	Мария	_	_	_	_	_	_	_	bratT19=Person|bratT48=Person-forename
+15	Захарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT49=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0116-p3
@@ -99,11 +99,11 @@
 9	прописан	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	заявлении	_	_	_	_	_	_	_	_
-12	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person
+12	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT50=Person-surname
 13	,	_	_	_	_	_	_	_	_
-14	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person
+14	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person|bratT51=Person-surname
 15	,	_	_	_	_	_	_	_	_
-16	Алиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person
+16	Алиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT52=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0116-p3-s2
@@ -167,8 +167,8 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	сказала	_	_	_	_	_	_	_	_
-19	Мария	_	_	_	_	_	_	_	bratT30=Person
-20	Захарова	_	_	_	_	_	_	_	bratT30=Person
+19	Мария	_	_	_	_	_	_	_	bratT30=Person|bratT53=Person-forename
+20	Захарова	_	_	_	_	_	_	_	bratT30=Person|bratT54=Person-surname
 21	на	_	_	_	_	_	_	_	_
 22	радио	_	_	_	_	_	_	_	bratA3=T31:Media|bratT31=Organization
 23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T31:Media|bratT31=Organization

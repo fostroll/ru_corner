@@ -24,8 +24,8 @@
 5	поручению	_	_	_	_	_	_	_	_
 6	Президента	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
 7	России	_	_	_	_	_	_	_	bratT2=GPE|bratT3=Person-property|bratT4=Person
-8	Владимира	_	_	_	_	_	_	_	bratT4=Person
-9	Путина	_	_	_	_	_	_	_	bratT4=Person
+8	Владимира	_	_	_	_	_	_	_	bratT27=Person-forename|bratT4=Person
+9	Путина	_	_	_	_	_	_	_	bratT28=Person-surname|bratT4=Person
 10	для	_	_	_	_	_	_	_	_
 11	того	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -36,8 +36,8 @@
 17	запросы	_	_	_	_	_	_	_	_
 18	и	_	_	_	_	_	_	_	_
 19	проблемы	_	_	_	_	_	_	_	_
-20	жителей	_	_	_	_	_	_	_	_
-21	Чувашии	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE
+20	жителей	_	_	_	_	_	_	_	bratA3=T23:Resident|bratT23=Nationality
+21	Чувашии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T23:Resident|bratT23=Nationality|bratT5=GPE
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p2-s2
@@ -113,8 +113,8 @@
 16	чтобы	_	_	_	_	_	_	_	_
 17	взаимодействие	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
-19	жителями	_	_	_	_	_	_	_	_
-20	республики	_	_	_	_	_	_	_	_
+19	жителями	_	_	_	_	_	_	_	bratA5=T25:Resident|bratT25=Nationality
+20	республики	_	_	_	_	_	_	_	bratA5=T25:Resident|bratT25=Nationality
 21	было	_	_	_	_	_	_	_	_
 22	оперативнее	_	_	_	_	_	_	_	_
 23	и	_	_	_	_	_	_	_	_
@@ -131,8 +131,8 @@
 34	Главы	_	_	_	_	_	_	_	bratA1=T10:Department|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT9=Person-property
 35	Чувашской	_	_	_	_	_	_	_	bratA1=T10:Department|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT8=Organization|bratT9=Person-property
 36	Республики	_	_	_	_	_	_	_	bratA1=T10:Department|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT8=Organization|bratT9=Person-property
-37	Вячеслав	_	_	_	_	_	_	_	bratT12=Person
-38	Борисов	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+37	Вячеслав	_	_	_	_	_	_	_	bratT12=Person|bratT29=Person-forename
+38	Борисов	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT30=Person-surname
 39	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0114-p4
@@ -168,11 +168,11 @@
 27	и	_	_	_	_	_	_	_	_
 28	характер	_	_	_	_	_	_	_	_
 29	обращений	_	_	_	_	_	_	_	_
-30	жителей	_	_	_	_	_	_	_	_
-31	городов	_	_	_	_	_	_	_	_
-32	и	_	_	_	_	_	_	_	_
-33	районов	_	_	_	_	_	_	_	_
-34	республики	_	_	_	_	_	_	_	SpaceAfter=No
+30	жителей	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
+31	городов	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
+32	и	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
+33	районов	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
+34	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Resident|bratT26=Nationality
 35	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p4-s2
@@ -203,8 +203,8 @@
 9	ответственность	_	_	_	_	_	_	_	_
 10	Глава	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person
 11	Чувашии	_	_	_	_	_	_	_	bratT15=GPE|bratT16=Person-property|bratT17=Person
-12	Олег	_	_	_	_	_	_	_	bratT17=Person
-13	Николаев	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person
+12	Олег	_	_	_	_	_	_	_	bratT17=Person|bratT31=Person-forename
+13	Николаев	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT32=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p5-s2
@@ -287,7 +287,7 @@
 15	цифрового	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=Person
 16	развития	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=Person
 17	региона	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=Person
-18	Михаил	_	_	_	_	_	_	_	bratT22=Person
-19	Анисимов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person
+18	Михаил	_	_	_	_	_	_	_	bratT22=Person|bratT33=Person-forename
+19	Анисимов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person|bratT34=Person-surname
 20	.	_	_	_	_	_	_	_	_
 

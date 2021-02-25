@@ -3,7 +3,7 @@
 # par_text = Мишустин оценил ситуацию с экономикой России на фоне пандемии
 # sent_id = 0121-p1-s1
 # text = Мишустин оценил ситуацию с экономикой России на фоне пандемии
-1	Мишустин	_	_	_	_	_	_	_	bratT1=Person
+1	Мишустин	_	_	_	_	_	_	_	bratT1=Person|bratT27=Person-surname
 2	оценил	_	_	_	_	_	_	_	_
 3	ситуацию	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
@@ -36,8 +36,8 @@
 1	Многие	_	_	_	_	_	_	_	_
 2	предприятия	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	жители	_	_	_	_	_	_	_	_
-5	страны	_	_	_	_	_	_	_	SpaceAfter=No
+4	жители	_	_	_	_	_	_	_	bratA7=T26:Resident|bratT26=Nationality
+5	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T26:Resident|bratT26=Nationality
 6	,	_	_	_	_	_	_	_	_
 7	семьи	_	_	_	_	_	_	_	bratT17=Family
 8	с	_	_	_	_	_	_	_	_
@@ -66,8 +66,8 @@
 10	глава	_	_	_	_	_	_	_	bratT5=Person
 11	российского	_	_	_	_	_	_	_	bratT5=Person
 12	правительства	_	_	_	_	_	_	_	bratT5=Person
-13	Михаил	_	_	_	_	_	_	_	bratT5=Person
-14	Мишустин	_	_	_	_	_	_	_	bratT5=Person
+13	Михаил	_	_	_	_	_	_	_	bratT28=Person-forename|bratT5=Person
+14	Мишустин	_	_	_	_	_	_	_	bratT29=Person-surname|bratT5=Person
 15	во	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute
 16	время	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute
 17	заседания	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute|bratT21=Event
@@ -131,8 +131,8 @@
 # par_text = Михаил Мишустин отметил, что правительство России должно сделать всё необходимое для решения проблем, с которыми столкнулись россияне и представители бизнеса в эти сложные времена.
 # sent_id = 0121-p4-s1
 # text = Михаил Мишустин отметил, что правительство России должно сделать всё необходимое для решения проблем, с которыми столкнулись россияне и представители бизнеса в эти сложные времена.
-1	Михаил	_	_	_	_	_	_	_	bratT7=Person
-2	Мишустин	_	_	_	_	_	_	_	bratT7=Person
+1	Михаил	_	_	_	_	_	_	_	bratT30=Person-forename|bratT7=Person
+2	Мишустин	_	_	_	_	_	_	_	bratT31=Person-surname|bratT7=Person
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

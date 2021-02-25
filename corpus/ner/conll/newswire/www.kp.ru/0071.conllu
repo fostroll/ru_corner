@@ -71,14 +71,14 @@
 # text = Это - Антон Заболотный, Александр Ерохин и Даниил Лесовой.
 1	Это	_	_	_	_	_	_	_	_
 2	-	_	_	_	_	_	_	_	_
-3	Антон	_	_	_	_	_	_	_	bratT17=Person
-4	Заболотный	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person
+3	Антон	_	_	_	_	_	_	_	bratT17=Person|bratT51=Person-forename
+4	Заболотный	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT52=Person-surname
 5	,	_	_	_	_	_	_	_	_
-6	Александр	_	_	_	_	_	_	_	bratT18=Person
-7	Ерохин	_	_	_	_	_	_	_	bratT18=Person
+6	Александр	_	_	_	_	_	_	_	bratT18=Person|bratT53=Person-forename
+7	Ерохин	_	_	_	_	_	_	_	bratT18=Person|bratT54=Person-surname
 8	и	_	_	_	_	_	_	_	_
-9	Даниил	_	_	_	_	_	_	_	bratT19=Person
-10	Лесовой	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+9	Даниил	_	_	_	_	_	_	_	bratT19=Person|bratT55=Person-forename
+10	Лесовой	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT56=Person-surname
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0071-p3
@@ -189,8 +189,8 @@
 13	нападающий	_	_	_	_	_	_	_	bratT35=Person|bratT43=Person-property
 14	московского	_	_	_	_	_	_	_	bratT35=Person|bratT36=Organization|bratT43=Person-property
 15	ЦСКА	_	_	_	_	_	_	_	bratT35=Person|bratT36=Organization|bratT43=Person-property
-16	Фёдор	_	_	_	_	_	_	_	bratT35=Person
-17	Чалов	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person
+16	Фёдор	_	_	_	_	_	_	_	bratT35=Person|bratT57=Person-forename
+17	Чалов	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT58=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p4-s2
@@ -231,13 +231,13 @@
 16	на	_	_	_	_	_	_	_	_
 17	коронавирус	_	_	_	_	_	_	_	bratT39=Other-term
 18	сдали	_	_	_	_	_	_	_	_
-19	Георгий	_	_	_	_	_	_	_	bratT40=Person
-20	Джикия	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person
+19	Георгий	_	_	_	_	_	_	_	bratT40=Person|bratT59=Person-forename
+20	Джикия	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person|bratT60=Person-surname
 21	,	_	_	_	_	_	_	_	_
-22	Маринато	_	_	_	_	_	_	_	bratT41=Person
-23	Гильерме	_	_	_	_	_	_	_	bratT41=Person
+22	Маринато	_	_	_	_	_	_	_	bratT41=Person|bratT61=Person-forename
+23	Гильерме	_	_	_	_	_	_	_	bratT41=Person|bratT62=Person-surname
 24	и	_	_	_	_	_	_	_	_
-25	Марио	_	_	_	_	_	_	_	bratT42=Person
-26	Фернандес	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person
+25	Марио	_	_	_	_	_	_	_	bratT42=Person|bratT63=Person-forename
+26	Фернандес	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person|bratT64=Person-surname
 27	.	_	_	_	_	_	_	_	_
 

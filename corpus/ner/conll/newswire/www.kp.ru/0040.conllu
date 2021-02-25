@@ -3,11 +3,11 @@
 # par_text = Путин в разговоре с Жапаровым выразил надежду на стабилизацию ситуации в Киргизии
 # sent_id = 0040-p1-s1
 # text = Путин в разговоре с Жапаровым выразил надежду на стабилизацию ситуации в Киргизии
-1	Путин	_	_	_	_	_	_	_	bratT1=Person
+1	Путин	_	_	_	_	_	_	_	bratT1=Person|bratT37=Person-surname
 2	в	_	_	_	_	_	_	_	_
 3	разговоре	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
-5	Жапаровым	_	_	_	_	_	_	_	bratT2=Person
+5	Жапаровым	_	_	_	_	_	_	_	bratT2=Person|bratT38=Person-surname
 6	выразил	_	_	_	_	_	_	_	_
 7	надежду	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
@@ -24,10 +24,10 @@
 2	ходе	_	_	_	_	_	_	_	bratA1=T34:Past|bratT34=Date-absolute
 3	телефонного	_	_	_	_	_	_	_	bratA1=T34:Past|bratT34=Date-absolute
 4	разговора	_	_	_	_	_	_	_	bratA1=T34:Past|bratT34=Date-absolute
-5	российский	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
+5	российский	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person|bratT51=GPE
 6	лидер	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-7	Владимир	_	_	_	_	_	_	_	bratT5=Person
-8	Путин	_	_	_	_	_	_	_	bratT5=Person
+7	Владимир	_	_	_	_	_	_	_	bratT39=Person-forename|bratT5=Person
+8	Путин	_	_	_	_	_	_	_	bratT40=Person-surname|bratT5=Person
 9	обсудил	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
 11	исполняющим	_	_	_	_	_	_	_	bratT31=Person-property|bratT8=Person
@@ -36,8 +36,8 @@
 14	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT6=Person-property|bratT8=Person
 15	,	_	_	_	_	_	_	_	bratT8=Person
 16	премьер-министром	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-17	Садыром	_	_	_	_	_	_	_	bratT8=Person
-18	Жапаровым	_	_	_	_	_	_	_	bratT8=Person
+17	Садыром	_	_	_	_	_	_	_	bratT41=Person-forename|bratT8=Person
+18	Жапаровым	_	_	_	_	_	_	_	bratT42=Person-surname|bratT8=Person
 19	состояние	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
 21	перспективы	_	_	_	_	_	_	_	_
@@ -85,8 +85,8 @@
 
 # sent_id = 0040-p3-s2
 # text = Садыр Жапаров информировал о развитии ситуации в республике с учетом событий, произошедших после октябрьских парламентских выборов'', - говорится в заявлении Кремля
-1	Садыр	_	_	_	_	_	_	_	bratT11=Person
-2	Жапаров	_	_	_	_	_	_	_	bratT11=Person
+1	Садыр	_	_	_	_	_	_	_	bratT11=Person|bratT43=Person-forename
+2	Жапаров	_	_	_	_	_	_	_	bratT11=Person|bratT44=Person-surname
 3	информировал	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
 5	развитии	_	_	_	_	_	_	_	_
@@ -142,8 +142,8 @@
 5	,	_	_	_	_	_	_	_	_
 6	президент	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
 7	Киргизии	_	_	_	_	_	_	_	bratT17=GPE|bratT18=Person-property|bratT19=Person
-8	Сооронбай	_	_	_	_	_	_	_	bratT19=Person
-9	Жээнбеков	_	_	_	_	_	_	_	bratT19=Person
+8	Сооронбай	_	_	_	_	_	_	_	bratT19=Person|bratT45=Person-forename
+9	Жээнбеков	_	_	_	_	_	_	_	bratT19=Person|bratT46=Person-surname
 10	заявил	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	своем	_	_	_	_	_	_	_	_
@@ -166,8 +166,8 @@
 9	перейти	_	_	_	_	_	_	_	_
 10	спикеру	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person
 11	парламента	_	_	_	_	_	_	_	bratT22=Organization|bratT23=Person-property|bratT24=Person
-12	Канату	_	_	_	_	_	_	_	bratT24=Person
-13	Исаеву	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person
+12	Канату	_	_	_	_	_	_	_	bratT24=Person|bratT47=Person-forename
+13	Исаеву	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT48=Person-surname
 14	,	_	_	_	_	_	_	_	_
 15	который	_	_	_	_	_	_	_	_
 16	также	_	_	_	_	_	_	_	_
@@ -184,7 +184,7 @@
 27	перешли	_	_	_	_	_	_	_	_
 28	премьер-министру	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Person
 29	страны	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Person
-30	Жапарову	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person
+30	Жапарову	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person|bratT49=Person-surname
 31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p5-s3
@@ -207,7 +207,7 @@
 # text = Свое решения Жээнбеков объяснил тем, что агрессия на улицах не утихает, а требование его немедленной отставки продолжается, и он готов покинуть пост, поскольку не держится за власть.
 1	Свое	_	_	_	_	_	_	_	_
 2	решения	_	_	_	_	_	_	_	_
-3	Жээнбеков	_	_	_	_	_	_	_	bratT30=Person
+3	Жээнбеков	_	_	_	_	_	_	_	bratT30=Person|bratT50=Person-surname
 4	объяснил	_	_	_	_	_	_	_	_
 5	тем	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_

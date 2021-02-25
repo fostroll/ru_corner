@@ -5,7 +5,7 @@
 # text = Зараженного коронавирусом Зеленского госпитализировали
 1	Зараженного	_	_	_	_	_	_	_	_
 2	коронавирусом	_	_	_	_	_	_	_	bratT1=Other-term
-3	Зеленского	_	_	_	_	_	_	_	bratT2=Person
+3	Зеленского	_	_	_	_	_	_	_	bratT2=Person|bratT35=Person-surname
 4	госпитализировали	_	_	_	_	_	_	_	_
 
 # newpar id = 0006-p2
@@ -17,8 +17,8 @@
 3	инфекцией	_	_	_	_	_	_	_	bratT3=Other-term
 4	украинского	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
 5	президента	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-6	Владимир	_	_	_	_	_	_	_	bratT5=Person
-7	Зеленского	_	_	_	_	_	_	_	bratT5=Person
+6	Владимир	_	_	_	_	_	_	_	bratT36=Person-forename|bratT5=Person
+7	Зеленского	_	_	_	_	_	_	_	bratT37=Person-surname|bratT5=Person
 8	госпитализировали	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	медицинское	_	_	_	_	_	_	_	_
@@ -60,8 +60,8 @@
 11	главы	_	_	_	_	_	_	_	bratT10=Person|bratT27=Person-property|bratT9=Person-property
 12	офиса	_	_	_	_	_	_	_	bratT10=Person|bratT27=Person-property|bratT8=Organization|bratT9=Person-property
 13	президента	_	_	_	_	_	_	_	bratT10=Person|bratT27=Person-property|bratT28=Person-property|bratT8=Organization|bratT9=Person-property
-14	Михаил	_	_	_	_	_	_	_	bratT10=Person
-15	Подоляк	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+14	Михаил	_	_	_	_	_	_	_	bratT10=Person|bratT38=Person-forename
+15	Подоляк	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT39=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0006-p3
@@ -79,7 +79,7 @@
 
 # sent_id = 0006-p3-s2
 # text = Зеленский находится в Феофании, где есть оборудованный специальный кабинет, в котором президент может проводить совещания.
-1	Зеленский	_	_	_	_	_	_	_	bratT11=Person
+1	Зеленский	_	_	_	_	_	_	_	bratT11=Person|bratT40=Person-surname
 2	находится	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	Феофании	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
@@ -112,8 +112,8 @@
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
 12	сообщил	_	_	_	_	_	_	_	_
-13	Михаил	_	_	_	_	_	_	_	bratT14=Person
-14	Подоляк	_	_	_	_	_	_	_	bratT14=Person
+13	Михаил	_	_	_	_	_	_	_	bratT14=Person|bratT41=Person-forename
+14	Подоляк	_	_	_	_	_	_	_	bratT14=Person|bratT42=Person-surname
 15	в	_	_	_	_	_	_	_	_
 16	интервью	_	_	_	_	_	_	_	_
 17	изданию	_	_	_	_	_	_	_	bratA1=T15:Media|bratT15=Organization
@@ -130,7 +130,7 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	Зеленский	_	_	_	_	_	_	_	bratT16=Person
+4	Зеленский	_	_	_	_	_	_	_	bratT16=Person|bratT43=Person-surname
 5	сообщил	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
 7	своем	_	_	_	_	_	_	_	_
@@ -151,8 +151,8 @@
 4	офиса	_	_	_	_	_	_	_	bratT21=Person|bratT29=Organization
 5	президента	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Person|bratT29=Organization
 6	Украины	_	_	_	_	_	_	_	bratT19=GPE|bratT20=Person-property|bratT21=Person|bratT29=Organization
-7	Андрей	_	_	_	_	_	_	_	bratT21=Person
-8	Ермак	_	_	_	_	_	_	_	bratT21=Person
+7	Андрей	_	_	_	_	_	_	_	bratT21=Person|bratT44=Person-forename
+8	Ермак	_	_	_	_	_	_	_	bratT21=Person|bratT45=Person-surname
 9	также	_	_	_	_	_	_	_	_
 10	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	Ермак	_	_	_	_	_	_	_	bratT22=Person
+4	Ермак	_	_	_	_	_	_	_	bratT22=Person|bratT46=Person-surname
 5	тоже	_	_	_	_	_	_	_	_
 6	находится	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
@@ -198,13 +198,13 @@
 
 # sent_id = 0006-p5-s3
 # text = Подоляк добавил, что Зеленский и Ермак также не видятся в больнице, они общаются по телефону.
-1	Подоляк	_	_	_	_	_	_	_	bratT24=Person
+1	Подоляк	_	_	_	_	_	_	_	bratT24=Person|bratT47=Person-surname
 2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	Зеленский	_	_	_	_	_	_	_	bratT25=Person
+5	Зеленский	_	_	_	_	_	_	_	bratT25=Person|bratT48=Person-surname
 6	и	_	_	_	_	_	_	_	_
-7	Ермак	_	_	_	_	_	_	_	bratT26=Person
+7	Ермак	_	_	_	_	_	_	_	bratT26=Person|bratT49=Person-surname
 8	также	_	_	_	_	_	_	_	_
 9	не	_	_	_	_	_	_	_	_
 10	видятся	_	_	_	_	_	_	_	_

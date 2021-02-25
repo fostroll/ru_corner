@@ -4,8 +4,8 @@
 # sent_id = 0122-p1-s1
 # text = Голосование Меланьи Трамп на выборах президента США 2020: первая леди сообщила, что чувствует себя ``замечательно''
 1	Голосование	_	_	_	_	_	_	_	_
-2	Меланьи	_	_	_	_	_	_	_	bratT1=Person
-3	Трамп	_	_	_	_	_	_	_	bratT1=Person
+2	Меланьи	_	_	_	_	_	_	_	bratT1=Person|bratT50=Person-forename
+3	Трамп	_	_	_	_	_	_	_	bratT1=Person|bratT51=Person-surname
 4	на	_	_	_	_	_	_	_	_
 5	выборах	_	_	_	_	_	_	_	bratT5=Event
 6	президента	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Event
@@ -36,8 +36,8 @@
 7	,	_	_	_	_	_	_	_	_
 8	состоялось	_	_	_	_	_	_	_	_
 9	голосование	_	_	_	_	_	_	_	_
-10	Меланьи	_	_	_	_	_	_	_	bratT9=Person
-11	Трамп	_	_	_	_	_	_	_	bratT9=Person
+10	Меланьи	_	_	_	_	_	_	_	bratT52=Person-forename|bratT9=Person
+11	Трамп	_	_	_	_	_	_	_	bratT53=Person-surname|bratT9=Person
 12	на	_	_	_	_	_	_	_	_
 13	выборах	_	_	_	_	_	_	_	bratT13=Event
 14	президента	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Event
@@ -78,8 +78,8 @@
 # par_text = Меланья Трамп сообщила, что чувствует себя «замечательно», а на вопрос, почему она не проголосовала досрочно, как ее супруг Дональд Трамп, она заявила, что хотела седлать это в день выборов. «Я хотела прийти проголосовать сегодня», - отметила она.
 # sent_id = 0122-p3-s1
 # text = Меланья Трамп сообщила, что чувствует себя ``замечательно'', а на вопрос, почему она не проголосовала досрочно, как ее супруг Дональд Трамп, она заявила, что хотела седлать это в день выборов.
-1	Меланья	_	_	_	_	_	_	_	bratT14=Person
-2	Трамп	_	_	_	_	_	_	_	bratT14=Person
+1	Меланья	_	_	_	_	_	_	_	bratT14=Person|bratT54=Person-forename
+2	Трамп	_	_	_	_	_	_	_	bratT14=Person|bratT55=Person-surname
 3	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -102,8 +102,8 @@
 22	как	_	_	_	_	_	_	_	_
 23	ее	_	_	_	_	_	_	_	_
 24	супруг	_	_	_	_	_	_	_	bratT16=Family
-25	Дональд	_	_	_	_	_	_	_	bratT15=Person
-26	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person
+25	Дональд	_	_	_	_	_	_	_	bratT15=Person|bratT56=Person-forename
+26	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person|bratT57=Person-surname
 27	,	_	_	_	_	_	_	_	_
 28	она	_	_	_	_	_	_	_	_
 29	заявила	_	_	_	_	_	_	_	SpaceAfter=No
@@ -158,7 +158,7 @@
 4	24	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute
 5	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T22:Past|bratT22=Date-absolute
 6	,	_	_	_	_	_	_	_	_
-7	американский	_	_	_	_	_	_	_	bratT23=Person-property
+7	американский	_	_	_	_	_	_	_	bratT23=Person-property|bratT63=GPE
 8	лидер	_	_	_	_	_	_	_	bratT23=Person-property
 9	проголосовал	_	_	_	_	_	_	_	bratT23=Person-property
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -166,7 +166,7 @@
 12	парня	_	_	_	_	_	_	_	bratT24=Person
 13	по	_	_	_	_	_	_	_	bratT24=Person
 14	имени	_	_	_	_	_	_	_	bratT24=Person
-15	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person
+15	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT58=Person-surname
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	.	_	_	_	_	_	_	_	_
 
@@ -202,10 +202,10 @@
 3	партии	_	_	_	_	_	_	_	bratT25=Organization
 4	баллотируется	_	_	_	_	_	_	_	_
 5	действующий	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
-6	американский	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
+6	американский	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person|bratT64=GPE
 7	президент	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
-8	Дональд	_	_	_	_	_	_	_	bratT31=Person
-9	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person
+8	Дональд	_	_	_	_	_	_	_	bratT31=Person|bratT59=Person-forename
+9	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person|bratT60=Person-surname
 10	,	_	_	_	_	_	_	_	_
 11	который	_	_	_	_	_	_	_	_
 12	пообещал	_	_	_	_	_	_	_	_
@@ -227,8 +227,8 @@
 5	главы	_	_	_	_	_	_	_	bratT34=Person-property
 6	государства	_	_	_	_	_	_	_	bratT34=Person-property
 7	баллотируется	_	_	_	_	_	_	_	_
-8	Джозеф	_	_	_	_	_	_	_	bratT35=Person
-9	Байден	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person
+8	Джозеф	_	_	_	_	_	_	_	bratT35=Person|bratT61=Person-forename
+9	Байден	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT62=Person-surname
 10	,	_	_	_	_	_	_	_	_
 11	который	_	_	_	_	_	_	_	_
 12	согласно	_	_	_	_	_	_	_	_

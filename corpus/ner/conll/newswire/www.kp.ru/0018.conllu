@@ -94,13 +94,13 @@
 # text = 35-летний адвокат Мохаммед Малик и 29-летняя врач Нур Шах купались в океане.
 1	35-летний	_	_	_	_	_	_	_	bratT9=Age
 2	адвокат	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-3	Мохаммед	_	_	_	_	_	_	_	bratT11=Person
-4	Малик	_	_	_	_	_	_	_	bratT11=Person
+3	Мохаммед	_	_	_	_	_	_	_	bratT11=Person|bratT49=Person-forename
+4	Малик	_	_	_	_	_	_	_	bratT11=Person|bratT50=Person-surname
 5	и	_	_	_	_	_	_	_	_
 6	29-летняя	_	_	_	_	_	_	_	bratT12=Age
 7	врач	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=Person
-8	Нур	_	_	_	_	_	_	_	bratT14=Person
-9	Шах	_	_	_	_	_	_	_	bratT14=Person
+8	Нур	_	_	_	_	_	_	_	bratT14=Person|bratT51=Person-forename
+9	Шах	_	_	_	_	_	_	_	bratT14=Person|bratT52=Person-surname
 10	купались	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
 12	океане	_	_	_	_	_	_	_	SpaceAfter=No
@@ -162,11 +162,11 @@
 # sent_id = 0018-p5-s1
 # text = Свадьбу Мохаммед Малик и Нур Шах отпраздновали всего за несколько дней до смерти, 24 октября.
 1	Свадьбу	_	_	_	_	_	_	_	bratT44=Event
-2	Мохаммед	_	_	_	_	_	_	_	bratT19=Person
-3	Малик	_	_	_	_	_	_	_	bratT19=Person
+2	Мохаммед	_	_	_	_	_	_	_	bratT19=Person|bratT53=Person-forename
+3	Малик	_	_	_	_	_	_	_	bratT19=Person|bratT54=Person-surname
 4	и	_	_	_	_	_	_	_	_
-5	Нур	_	_	_	_	_	_	_	bratT20=Person
-6	Шах	_	_	_	_	_	_	_	bratT20=Person
+5	Нур	_	_	_	_	_	_	_	bratT20=Person|bratT55=Person-forename
+6	Шах	_	_	_	_	_	_	_	bratT20=Person|bratT56=Person-surname
 7	отпраздновали	_	_	_	_	_	_	_	_
 8	всего	_	_	_	_	_	_	_	_
 9	за	_	_	_	_	_	_	_	bratA10=T21:Past|bratT21=Date-absolute

@@ -3,7 +3,7 @@
 # par_text = Байден еще до оглашения итогов выборов запустил сайт по переходу власти
 # sent_id = 0106-p1-s1
 # text = Байден еще до оглашения итогов выборов запустил сайт по переходу власти
-1	Байден	_	_	_	_	_	_	_	bratT1=Person
+1	Байден	_	_	_	_	_	_	_	bratT1=Person|bratT32=Person-surname
 2	еще	_	_	_	_	_	_	_	_
 3	до	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-absolute
 4	оглашения	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-absolute|bratT30=Event
@@ -23,8 +23,8 @@
 2	президенты	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
 3	США	_	_	_	_	_	_	_	bratT2=GPE|bratT3=Person-property|bratT5=Person
 4	демократ	_	_	_	_	_	_	_	bratT4=Political-group|bratT5=Person
-5	Джо	_	_	_	_	_	_	_	bratT5=Person
-6	Байден	_	_	_	_	_	_	_	bratT5=Person
+5	Джо	_	_	_	_	_	_	_	bratT33=Person-forename|bratT5=Person
+6	Байден	_	_	_	_	_	_	_	bratT34=Person-surname|bratT5=Person
 7	запустил	_	_	_	_	_	_	_	_
 8	свой	_	_	_	_	_	_	_	_
 9	сайт	_	_	_	_	_	_	_	bratA2=T20:Media|bratT20=Service
@@ -84,9 +84,9 @@
 33	,	_	_	_	_	_	_	_	_
 34	чтобы	_	_	_	_	_	_	_	_
 35	администрация	_	_	_	_	_	_	_	bratT6=Organization
-36	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization|bratT7=Person
+36	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-surname|bratT6=Organization|bratT7=Person
 37	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
-38	Харрис	_	_	_	_	_	_	_	bratT6=Organization|bratT8=Person
+38	Харрис	_	_	_	_	_	_	_	bratT36=Person-surname|bratT6=Organization|bratT8=Person
 39	могла	_	_	_	_	_	_	_	_
 40	приступить	_	_	_	_	_	_	_	_
 41	к	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 9	Fox	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
 10	News	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
 11	,	_	_	_	_	_	_	_	_
-12	Байден	_	_	_	_	_	_	_	bratT12=Person
+12	Байден	_	_	_	_	_	_	_	bratT12=Person|bratT37=Person-surname
 13	заручился	_	_	_	_	_	_	_	_
 14	поддержкой	_	_	_	_	_	_	_	_
 15	264	_	_	_	_	_	_	_	bratT14=Quantity
@@ -157,8 +157,8 @@
 3	,	_	_	_	_	_	_	_	_
 4	действующий	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
 5	лидер	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
-6	Дональд	_	_	_	_	_	_	_	bratT16=Person
-7	Трамп	_	_	_	_	_	_	_	bratT16=Person
+6	Дональд	_	_	_	_	_	_	_	bratT16=Person|bratT38=Person-forename
+7	Трамп	_	_	_	_	_	_	_	bratT16=Person|bratT39=Person-surname
 8	получил	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	предварительно	_	_	_	_	_	_	_	SpaceAfter=No

@@ -12,38 +12,38 @@ T9	Person-property 245 266	Избранный   президент
 T10	Person 245 281	Избранный   президент   Джо   Байден
 T11	Date-absolute 308 359	в   субботу   в   20:00   по   восточному   времени
 T12	Time-absolute 322 359	в   20:00   по   восточному   времени
-T13	Person 442 457	Байдена-Харриса
-T14	Political-group 492 502	демократов
-T15	GPE 579 591	Пенсильвании
+T13	Person 442 449	Байдена
+T14	Political-group 498 508	демократов
+T15	GPE 585 597	Пенсильвании
 T16	GPE 366 377	Уилмингтоне
 T17	GPE 384 398	штат   Делавэр
-T18	Person-property 471 502	представитель   от   демократов
-T19	Person 671 678	Байдена
-T20	Quantity 681 693	273   голоса
-T21	Person 804 814	президента
-T22	Event 794 814	выборах   президента
-T23	Person 820 827	Байдена
-T24	GPE 871 879	Германии
-T25	GPE 886 893	Франции
-T26	GPE 900 907	Украины
-T27	GPE 914 928	Великобритании
-T28	Person-property 863 928	главы   Германии   ,   Франции   ,   Украины   ,   Великобритании
+T18	Person-property 477 508	представитель   от   демократов
+T19	Person 677 684	Байдена
+T20	Quantity 687 699	273   голоса
+T21	Person-property 810 820	президента
+T22	Event 800 820	выборах   президента
+T23	Person 826 833	Байдена
+T24	GPE 877 885	Германии
+T25	GPE 892 899	Франции
+T26	GPE 906 913	Украины
+T27	GPE 920 934	Великобритании
+T28	Person-property 869 934	главы   Германии   ,   Франции   ,   Украины   ,   Великобритании
 A3	Plural T28
-T29	GPE 962 965	США
-T30	Person-property 941 965	бывший   президент   США
-T31	Person 941 981	бывший   президент   США   Барак   Обама
-T32	Political-group 1000 1009	демократу
-T33	Person 1080 1087	Байдена
-T34	Person 1090 1105	Дональд   Трамп
-T35	Person 1186 1193	Байдена
-T36	Date-period-absolute 1215 1231	С   понедельника
-T37	Person 1290 1296	Трампа
-T38	Organization 1282 1296	штаба   Трампа
-T39	GPE 1241 1247	штатов
-T40	Organization 1234 1247	суды   штатов
-T41	Date-absolute 546 562	после   подсчета
-T42	Date-relative 463 468	Ранее
-T43	Date-absolute 658 664	Теперь
+T29	GPE 968 971	США
+T30	Person-property 947 971	бывший   президент   США
+T31	Person 947 987	бывший   президент   США   Барак   Обама
+T32	Political-group 1006 1015	демократу
+T33	Person 1086 1093	Байдена
+T34	Person 1096 1111	Дональд   Трамп
+T35	Person 1192 1199	Байдена
+T36	Date-period-absolute 1221 1237	С   понедельника
+T37	Person 1296 1302	Трампа
+T38	Organization 1288 1302	штаба   Трампа
+T39	GPE 1247 1253	штатов
+T40	Organization 1240 1253	суды   штатов
+T41	Date-absolute 552 568	после   подсчета
+T42	Date-relative 469 474	Ранее
+T43	Date-absolute 664 670	Теперь
 A4	Future T11
 T44	Date-relative 145 208	в   20.00   по   восточному   времени   (   4.00   по   мск   )
 A5	Future T44
@@ -51,3 +51,20 @@ A7	Past T42
 A8	Past T41
 A9	Present T43
 A10	Fut T36
+T45	Person-surname 0 6	Байден
+T46	Person-forename 90 93	Джо
+T47	Person-surname 96 102	Байден
+T48	Person-forename 269 272	Джо
+T49	Person-surname 275 281	Байден
+T50	Person 456 463	Харриса
+T51	Person-forename 442 449	Байдена
+T52	Person-surname 456 463	Харриса
+T54	Person-surname 677 684	Байдена
+T55	Person-surname 826 833	Байдена
+T56	Person-forename 974 979	Барак
+T57	Person-surname 982 987	Обама
+T58	Person-surname 1086 1093	Байдена
+T59	Person-forename 1096 1103	Дональд
+T60	Person-surname 1106 1111	Трамп
+T61	Person-surname 1192 1199	Байдена
+T62	Person-surname 1296 1302	Трампа

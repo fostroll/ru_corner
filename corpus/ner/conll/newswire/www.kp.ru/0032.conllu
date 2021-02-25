@@ -7,7 +7,7 @@
 2	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	как	_	_	_	_	_	_	_	_
-5	Трамп	_	_	_	_	_	_	_	bratT2=Person
+5	Трамп	_	_	_	_	_	_	_	bratT2=Person|bratT30=Person-surname
 6	попал	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	фильм	_	_	_	_	_	_	_	bratT3=Work-of-art
@@ -34,8 +34,8 @@
 11	в	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
 12	Нью-Йорке	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art|bratT6=Person
 13	''	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-14	Крис	_	_	_	_	_	_	_	bratT6=Person
-15	Коламбус	_	_	_	_	_	_	_	bratT6=Person
+14	Крис	_	_	_	_	_	_	_	bratT31=Person-forename|bratT6=Person
+15	Коламбус	_	_	_	_	_	_	_	bratT32=Person-surname|bratT6=Person
 16	в	_	_	_	_	_	_	_	_
 17	интервью	_	_	_	_	_	_	_	_
 18	изданию	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
@@ -47,8 +47,8 @@
 24	нынешнему	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
 25	президенту	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
 26	США	_	_	_	_	_	_	_	bratT10=Person|bratT8=GPE|bratT9=Person-property
-27	Дональду	_	_	_	_	_	_	_	bratT10=Person
-28	Трампу	_	_	_	_	_	_	_	bratT10=Person
+27	Дональду	_	_	_	_	_	_	_	bratT10=Person|bratT33=Person-forename
+28	Трампу	_	_	_	_	_	_	_	bratT10=Person|bratT34=Person-surname
 29	удалось	_	_	_	_	_	_	_	_
 30	сыграть	_	_	_	_	_	_	_	_
 31	самого	_	_	_	_	_	_	_	_
@@ -64,7 +64,7 @@
 # par_text = Коламбус поведал, что когда съемочная группа выбрала для съемок принадлежавший тогда республиканцу отель «Плаза», тот неожиданно выдвинул условие: он должен появиться в кадре.
 # sent_id = 0032-p3-s1
 # text = Коламбус поведал, что когда съемочная группа выбрала для съемок принадлежавший тогда республиканцу отель ``Плаза'', тот неожиданно выдвинул условие: он должен появиться в кадре.
-1	Коламбус	_	_	_	_	_	_	_	bratT11=Person
+1	Коламбус	_	_	_	_	_	_	_	bratT11=Person|bratT35=Person-surname
 2	поведал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 30	,	_	_	_	_	_	_	_	_
 31	заявил	_	_	_	_	_	_	_	_
 32	ему	_	_	_	_	_	_	_	_
-33	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+33	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT36=Person-surname
 34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0032-p5
@@ -162,8 +162,8 @@
 23	картины	_	_	_	_	_	_	_	SpaceAfter=No
 24	,	_	_	_	_	_	_	_	_
 25	поэтому	_	_	_	_	_	_	_	_
-26	Крис	_	_	_	_	_	_	_	bratT16=Person
-27	Коламбус	_	_	_	_	_	_	_	bratT16=Person
+26	Крис	_	_	_	_	_	_	_	bratT16=Person|bratT37=Person-forename
+27	Коламбус	_	_	_	_	_	_	_	bratT16=Person|bratT38=Person-surname
 28	решил	_	_	_	_	_	_	_	_
 29	ее	_	_	_	_	_	_	_	_
 30	не	_	_	_	_	_	_	_	_
@@ -203,7 +203,7 @@
 27	в	_	_	_	_	_	_	_	_
 28	нем	_	_	_	_	_	_	_	_
 29	снялся	_	_	_	_	_	_	_	_
-30	Дональд	_	_	_	_	_	_	_	bratT20=Person
-31	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person
+30	Дональд	_	_	_	_	_	_	_	bratT20=Person|bratT39=Person-forename
+31	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person|bratT40=Person-surname
 32	.	_	_	_	_	_	_	_	_
 

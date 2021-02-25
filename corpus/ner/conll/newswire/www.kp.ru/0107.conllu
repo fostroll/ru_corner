@@ -10,8 +10,8 @@
 5	пледом	_	_	_	_	_	_	_	SpaceAfter=No
 6	''	_	_	_	_	_	_	_	SpaceAfter=No
 7	:	_	_	_	_	_	_	_	_
-8	Эвелина	_	_	_	_	_	_	_	bratT1=Person
-9	Бледанс	_	_	_	_	_	_	_	bratT1=Person
+8	Эвелина	_	_	_	_	_	_	_	bratT1=Person|bratT18=Person-forename
+9	Бледанс	_	_	_	_	_	_	_	bratT1=Person|bratT19=Person-surname
 10	назвала	_	_	_	_	_	_	_	_
 11	признаки	_	_	_	_	_	_	_	_
 12	настоящей	_	_	_	_	_	_	_	_
@@ -24,8 +24,8 @@
 1	Актриса	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
 2	и	_	_	_	_	_	_	_	bratT2=Person
 3	телеведущая	_	_	_	_	_	_	_	bratT2=Person|bratT4=Person-property
-4	Эвелина	_	_	_	_	_	_	_	bratT2=Person
-5	Бледанс	_	_	_	_	_	_	_	bratT2=Person
+4	Эвелина	_	_	_	_	_	_	_	bratT2=Person|bratT20=Person-forename
+5	Бледанс	_	_	_	_	_	_	_	bratT2=Person|bratT21=Person-surname
 6	назвала	_	_	_	_	_	_	_	_
 7	качества	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
@@ -98,7 +98,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	говорит	_	_	_	_	_	_	_	_
-11	Бледанс	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person
+11	Бледанс	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-surname|bratT6=Person
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0107-p4
@@ -148,7 +148,7 @@
 24	,	_	_	_	_	_	_	_	_
 25	-	_	_	_	_	_	_	_	_
 26	отмечает	_	_	_	_	_	_	_	_
-27	Эвелина	_	_	_	_	_	_	_	bratT7=Person
+27	Эвелина	_	_	_	_	_	_	_	bratT23=Person-forename|bratT7=Person
 28	в	_	_	_	_	_	_	_	_
 29	беседе	_	_	_	_	_	_	_	_
 30	с	_	_	_	_	_	_	_	_
@@ -255,6 +255,6 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	подчеркнула	_	_	_	_	_	_	_	_
-9	Бледанс	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+9	Бледанс	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT24=Person-surname
 10	.	_	_	_	_	_	_	_	_
 

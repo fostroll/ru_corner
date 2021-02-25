@@ -54,10 +54,10 @@
 10	ноября	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	сообщил	_	_	_	_	_	_	_	_
-13	армянский	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property
+13	армянский	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT54=GPE
 14	премьер-министр	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property
-15	Никол	_	_	_	_	_	_	_	bratT12=Person
-16	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+15	Никол	_	_	_	_	_	_	_	bratT12=Person|bratT47=Person-forename
+16	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT53=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0097-p3
@@ -107,7 +107,7 @@
 # text = По мнению Пашиняна, этот день траура целесообразно установить в Армении после завершения обмена телами.
 1	По	_	_	_	_	_	_	_	_
 2	мнению	_	_	_	_	_	_	_	_
-3	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person
+3	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-surname|bratT17=Person
 4	,	_	_	_	_	_	_	_	_
 5	этот	_	_	_	_	_	_	_	_
 6	день	_	_	_	_	_	_	_	bratT52=Event

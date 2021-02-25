@@ -3,7 +3,7 @@
 # par_text = Байден обратится к американской нации
 # sent_id = 0098-p1-s1
 # text = Байден обратится к американской нации
-1	Байден	_	_	_	_	_	_	_	bratT1=Person
+1	Байден	_	_	_	_	_	_	_	bratT1=Person|bratT45=Person-surname
 2	обратится	_	_	_	_	_	_	_	_
 3	к	_	_	_	_	_	_	_	_
 4	американской	_	_	_	_	_	_	_	bratA1=T2:Citizenship|bratT2=Nationality
@@ -17,8 +17,8 @@
 2	от	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
 3	демократической	_	_	_	_	_	_	_	bratT3=Organization|bratT4=Person-property|bratT5=Person
 4	партии	_	_	_	_	_	_	_	bratT3=Organization|bratT4=Person-property|bratT5=Person
-5	Джо	_	_	_	_	_	_	_	bratT5=Person
-6	Байден	_	_	_	_	_	_	_	bratT5=Person
+5	Джо	_	_	_	_	_	_	_	bratT46=Person-forename|bratT5=Person
+6	Байден	_	_	_	_	_	_	_	bratT47=Person-surname|bratT5=Person
 7	выступит	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
 9	обращением	_	_	_	_	_	_	_	_
@@ -50,8 +50,8 @@
 # text = Избранный президент Джо Байден обратится к нации в субботу в 20:00 по восточному времени в Уилмингтоне, штат Делавэр, согласно пресс-релизу кампании Байдена-Харриса.
 1	Избранный	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
 2	президент	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-3	Джо	_	_	_	_	_	_	_	bratT10=Person
-4	Байден	_	_	_	_	_	_	_	bratT10=Person
+3	Джо	_	_	_	_	_	_	_	bratT10=Person|bratT48=Person-forename
+4	Байден	_	_	_	_	_	_	_	bratT10=Person|bratT49=Person-surname
 5	обратится	_	_	_	_	_	_	_	_
 6	к	_	_	_	_	_	_	_	_
 7	нации	_	_	_	_	_	_	_	_
@@ -71,8 +71,10 @@
 21	согласно	_	_	_	_	_	_	_	_
 22	пресс-релизу	_	_	_	_	_	_	_	_
 23	кампании	_	_	_	_	_	_	_	_
-24	Байдена-Харриса	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person
-25	.	_	_	_	_	_	_	_	_
+24	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person|bratT51=Person-forename
+25	-	_	_	_	_	_	_	_	SpaceAfter=No
+26	Харриса	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Person|bratT52=Person-surname
+27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p4
 # par_text = Ранее представитель от демократов досрочно заявил о своей победе после подсчета голосов в Пенсильвании, где он набрал недостающие для победы голоса. Теперь у Байдена 273 голоса, а это даже больше, чем нужно для того, чтобы одержать победу на выборах президента.
@@ -106,7 +108,7 @@
 # text = Теперь у Байдена 273 голоса, а это даже больше, чем нужно для того, чтобы одержать победу на выборах президента.
 1	Теперь	_	_	_	_	_	_	_	bratA9=T43:Present|bratT43=Date-absolute
 2	у	_	_	_	_	_	_	_	_
-3	Байдена	_	_	_	_	_	_	_	bratT19=Person
+3	Байдена	_	_	_	_	_	_	_	bratT19=Person|bratT54=Person-surname
 4	273	_	_	_	_	_	_	_	bratT20=Quantity
 5	голоса	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity
 6	,	_	_	_	_	_	_	_	_
@@ -125,14 +127,14 @@
 19	победу	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	_
 21	выборах	_	_	_	_	_	_	_	bratT22=Event
-22	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT22=Event
+22	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT22=Event
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p5
 # par_text = Байдена уже поздравили с победой главы Германии, Франции, Украины, Великобритании. Также бывший президент США Барак Обама обратился к демократу с поздравлениями в своем аккаунте.
 # sent_id = 0098-p5-s1
 # text = Байдена уже поздравили с победой главы Германии, Франции, Украины, Великобритании.
-1	Байдена	_	_	_	_	_	_	_	bratT23=Person
+1	Байдена	_	_	_	_	_	_	_	bratT23=Person|bratT55=Person-surname
 2	уже	_	_	_	_	_	_	_	_
 3	поздравили	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
@@ -153,8 +155,8 @@
 2	бывший	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
 3	президент	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
 4	США	_	_	_	_	_	_	_	bratT29=GPE|bratT30=Person-property|bratT31=Person
-5	Барак	_	_	_	_	_	_	_	bratT31=Person
-6	Обама	_	_	_	_	_	_	_	bratT31=Person
+5	Барак	_	_	_	_	_	_	_	bratT31=Person|bratT56=Person-forename
+6	Обама	_	_	_	_	_	_	_	bratT31=Person|bratT57=Person-surname
 7	обратился	_	_	_	_	_	_	_	_
 8	к	_	_	_	_	_	_	_	_
 9	демократу	_	_	_	_	_	_	_	bratT32=Political-group
@@ -171,9 +173,9 @@
 # text = Главный соперник Байдена Дональд Трамп пока не признал поражения и заявил, что слова о победе Байдена преждевременны.
 1	Главный	_	_	_	_	_	_	_	_
 2	соперник	_	_	_	_	_	_	_	_
-3	Байдена	_	_	_	_	_	_	_	bratT33=Person
-4	Дональд	_	_	_	_	_	_	_	bratT34=Person
-5	Трамп	_	_	_	_	_	_	_	bratT34=Person
+3	Байдена	_	_	_	_	_	_	_	bratT33=Person|bratT58=Person-surname
+4	Дональд	_	_	_	_	_	_	_	bratT34=Person|bratT59=Person-forename
+5	Трамп	_	_	_	_	_	_	_	bratT34=Person|bratT60=Person-surname
 6	пока	_	_	_	_	_	_	_	_
 7	не	_	_	_	_	_	_	_	_
 8	признал	_	_	_	_	_	_	_	_
@@ -185,7 +187,7 @@
 14	слова	_	_	_	_	_	_	_	_
 15	о	_	_	_	_	_	_	_	_
 16	победе	_	_	_	_	_	_	_	_
-17	Байдена	_	_	_	_	_	_	_	bratT35=Person
+17	Байдена	_	_	_	_	_	_	_	bratT35=Person|bratT61=Person-surname
 18	преждевременны	_	_	_	_	_	_	_	SpaceAfter=No
 19	.	_	_	_	_	_	_	_	_
 
@@ -199,7 +201,7 @@
 6	рассмотрение	_	_	_	_	_	_	_	_
 7	исков	_	_	_	_	_	_	_	_
 8	штаба	_	_	_	_	_	_	_	bratT38=Organization
-9	Трампа	_	_	_	_	_	_	_	bratT37=Person|bratT38=Organization
+9	Трампа	_	_	_	_	_	_	_	bratT37=Person|bratT38=Organization|bratT62=Person-surname
 10	о	_	_	_	_	_	_	_	_
 11	фальсификации	_	_	_	_	_	_	_	_
 12	голосов	_	_	_	_	_	_	_	SpaceAfter=No

@@ -13,8 +13,8 @@
 8	убийства	_	_	_	_	_	_	_	_
 9	премьер-министра	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property
 10	страны	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property
-11	Никола	_	_	_	_	_	_	_	bratT26=Person
-12	Пашиняна	_	_	_	_	_	_	_	bratT26=Person
+11	Никола	_	_	_	_	_	_	_	bratT26=Person|bratT34=Person-forename
+12	Пашиняна	_	_	_	_	_	_	_	bratT26=Person|bratT35=Person-surname
 
 # newpar id = 0119-p2
 # par_text = Служба национальной безопасности Армении заявила, что пресекла попытку убийства премьер-министра страны Никола Пашиняна
@@ -32,8 +32,8 @@
 10	убийства	_	_	_	_	_	_	_	_
 11	премьер-министра	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
 12	страны	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
-13	Никола	_	_	_	_	_	_	_	bratT5=Person
-14	Пашиняна	_	_	_	_	_	_	_	bratT5=Person
+13	Никола	_	_	_	_	_	_	_	bratT36=Person-forename|bratT5=Person
+14	Пашиняна	_	_	_	_	_	_	_	bratT37=Person-surname|bratT5=Person
 
 # newpar id = 0119-p3
 # par_text = Как сообщили в СНБ, по подозрению в подготовке покушения на главу правительства задержаны бывший глава Службы национальной безопасности Армении и лидер партии «Отечество» Артур Ванецян, бывший руководитель парламентской фракции Республиканской партии Ваграм Багдасарян, член партии «Дашнакцутюн», командир добровольческого отряда.
@@ -65,8 +65,8 @@
 24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT28=Person-property|bratT9=Person
 25	Отечество	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT28=Person-property|bratT9=Person
 26	''	_	_	_	_	_	_	_	bratT13=Organization|bratT28=Person-property|bratT9=Person
-27	Артур	_	_	_	_	_	_	_	bratT9=Person
-28	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person
+27	Артур	_	_	_	_	_	_	_	bratT38=Person-forename|bratT9=Person
+28	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-surname|bratT9=Person
 29	,	_	_	_	_	_	_	_	_
 30	бывший	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
 31	руководитель	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
@@ -74,8 +74,8 @@
 33	фракции	_	_	_	_	_	_	_	bratA1=T31:Department|bratT14=Person|bratT15=Person-property|bratT31=Organization
 34	Республиканской	_	_	_	_	_	_	_	bratA1=T31:Department|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization
 35	партии	_	_	_	_	_	_	_	bratA1=T31:Department|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization
-36	Ваграм	_	_	_	_	_	_	_	bratT14=Person
-37	Багдасарян	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+36	Ваграм	_	_	_	_	_	_	_	bratT14=Person|bratT40=Person-forename
+37	Багдасарян	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT41=Person-surname
 38	,	_	_	_	_	_	_	_	_
 39	член	_	_	_	_	_	_	_	bratT16=Political-group
 40	партии	_	_	_	_	_	_	_	bratT16=Political-group|bratT29=Organization
@@ -100,7 +100,7 @@
 6	собирались	_	_	_	_	_	_	_	_
 7	лишить	_	_	_	_	_	_	_	_
 8	жизни	_	_	_	_	_	_	_	_
-9	Пашиняна	_	_	_	_	_	_	_	bratT17=Person
+9	Пашиняна	_	_	_	_	_	_	_	bratT17=Person|bratT42=Person-surname
 10	и	_	_	_	_	_	_	_	_
 11	узурпировать	_	_	_	_	_	_	_	_
 12	власть	_	_	_	_	_	_	_	SpaceAfter=No
@@ -148,7 +148,7 @@
 19	Армении	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=GPE
 20	был	_	_	_	_	_	_	_	_
 21	задержан	_	_	_	_	_	_	_	_
-22	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person
+22	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT43=Person-surname
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0119-p5-s2
@@ -159,8 +159,8 @@
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Person-property|bratT33=Organization
 5	Отечества	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Person-property|bratT33=Organization
 6	''	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property|bratT33=Organization
-7	Сос	_	_	_	_	_	_	_	bratT24=Person
-8	Акопян	_	_	_	_	_	_	_	bratT24=Person
+7	Сос	_	_	_	_	_	_	_	bratT24=Person|bratT44=Person-forename
+8	Акопян	_	_	_	_	_	_	_	bratT24=Person|bratT45=Person-surname
 9	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_

@@ -14,12 +14,12 @@
 
 # sent_id = 0055-p1-s2
 # text = Камиль Ларин вспоминает, как Жванецкий впервые увидел ``Квартет И''
-1	Камиль	_	_	_	_	_	_	_	bratT1=Person
-2	Ларин	_	_	_	_	_	_	_	bratT1=Person
+1	Камиль	_	_	_	_	_	_	_	bratT1=Person|bratT37=Person-forename
+2	Ларин	_	_	_	_	_	_	_	bratT1=Person|bratT38=Person-surname
 3	вспоминает	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	как	_	_	_	_	_	_	_	_
-6	Жванецкий	_	_	_	_	_	_	_	bratT2=Person
+6	Жванецкий	_	_	_	_	_	_	_	bratT2=Person|bratT39=Person-surname
 7	впервые	_	_	_	_	_	_	_	_
 8	увидел	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
@@ -44,8 +44,8 @@
 11	связывают	_	_	_	_	_	_	_	_
 12	их	_	_	_	_	_	_	_	_
 13	с	_	_	_	_	_	_	_	_
-14	Михаилом	_	_	_	_	_	_	_	bratT3=Person
-15	Жванецким	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person
+14	Михаилом	_	_	_	_	_	_	_	bratT3=Person|bratT40=Person-forename
+15	Жванецким	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person|bratT41=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0055-p2-s2
@@ -53,8 +53,8 @@
 1	Так	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	актер	_	_	_	_	_	_	_	bratT29=Person-property|bratT5=Person
-4	Камиль	_	_	_	_	_	_	_	bratT5=Person
-5	Ларин	_	_	_	_	_	_	_	bratT5=Person
+4	Камиль	_	_	_	_	_	_	_	bratT42=Person-forename|bratT5=Person
+5	Ларин	_	_	_	_	_	_	_	bratT43=Person-surname|bratT5=Person
 6	признался	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
@@ -68,7 +68,7 @@
 16	очень	_	_	_	_	_	_	_	_
 17	многим	_	_	_	_	_	_	_	_
 18	обязан	_	_	_	_	_	_	_	_
-19	Жванецкому	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
+19	Жванецкому	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person-surname|bratT7=Person
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0055-p3
@@ -106,8 +106,8 @@
 2	мы	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	обход	_	_	_	_	_	_	_	_
-5	Михаила	_	_	_	_	_	_	_	bratT8=Person
-6	Михайловича	_	_	_	_	_	_	_	bratT8=Person
+5	Михаила	_	_	_	_	_	_	_	bratT45=Person-forename|bratT8=Person
+6	Михайловича	_	_	_	_	_	_	_	bratT46=Person-patronym|bratT8=Person
 7	назвались	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
 9	Студия	_	_	_	_	_	_	_	bratT9=Organization
@@ -171,7 +171,7 @@
 25	них	_	_	_	_	_	_	_	_
 26	и	_	_	_	_	_	_	_	_
 27	сам	_	_	_	_	_	_	_	_
-28	Жванецкий	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+28	Жванецкий	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT47=Person-surname
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0055-p5
@@ -205,7 +205,7 @@
 25	,	_	_	_	_	_	_	_	_
 26	-	_	_	_	_	_	_	_	_
 27	вспоминает	_	_	_	_	_	_	_	_
-28	Ларин	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person
+28	Ларин	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person|bratT48=Person-surname
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0055-p6
@@ -232,9 +232,9 @@
 # par_text = Ларин назвал Жванецкого не просто талантливым, но и очень умным и проницательным человеком. По словам актера, он всегда мог дать нужный совет и показать правильный вектор.
 # sent_id = 0055-p7-s1
 # text = Ларин назвал Жванецкого не просто талантливым, но и очень умным и проницательным человеком.
-1	Ларин	_	_	_	_	_	_	_	bratT17=Person
+1	Ларин	_	_	_	_	_	_	_	bratT17=Person|bratT49=Person-surname
 2	назвал	_	_	_	_	_	_	_	_
-3	Жванецкого	_	_	_	_	_	_	_	bratT18=Person
+3	Жванецкого	_	_	_	_	_	_	_	bratT18=Person|bratT50=Person-surname
 4	не	_	_	_	_	_	_	_	_
 5	просто	_	_	_	_	_	_	_	_
 6	талантливым	_	_	_	_	_	_	_	SpaceAfter=No
@@ -272,8 +272,8 @@
 # text = Напомним, Михаил Жванецкий скончался 6 ноября на 67-ом году жизни.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	Михаил	_	_	_	_	_	_	_	bratT20=Person
-4	Жванецкий	_	_	_	_	_	_	_	bratT20=Person
+3	Михаил	_	_	_	_	_	_	_	bratT20=Person|bratT51=Person-forename
+4	Жванецкий	_	_	_	_	_	_	_	bratT20=Person|bratT52=Person-surname
 5	скончался	_	_	_	_	_	_	_	_
 6	6	_	_	_	_	_	_	_	bratA8=T21:Past|bratT21=Date-absolute
 7	ноября	_	_	_	_	_	_	_	bratA8=T21:Past|bratT21=Date-absolute
@@ -320,7 +320,7 @@
 3	знали	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	Жванецкий	_	_	_	_	_	_	_	bratT24=Person
+6	Жванецкий	_	_	_	_	_	_	_	bratT24=Person|bratT53=Person-surname
 7	серьезно	_	_	_	_	_	_	_	_
 8	болен	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_

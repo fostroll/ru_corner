@@ -40,8 +40,8 @@
 21	Пастера	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Organization
 22	академик	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
 23	РАН	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT8=Organization
-24	Арег	_	_	_	_	_	_	_	bratT5=Person
-25	Тотолян	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+24	Арег	_	_	_	_	_	_	_	bratT42=Person-forename|bratT5=Person
+25	Тотолян	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-surname|bratT5=Person
 26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0059-p3
@@ -128,8 +128,8 @@
 23	,	_	_	_	_	_	_	_	_
 24	-	_	_	_	_	_	_	_	_
 25	отметил	_	_	_	_	_	_	_	_
-26	Арег	_	_	_	_	_	_	_	bratT25=Person
-27	Тотолян	_	_	_	_	_	_	_	bratT25=Person
+26	Арег	_	_	_	_	_	_	_	bratT25=Person|bratT44=Person-forename
+27	Тотолян	_	_	_	_	_	_	_	bratT25=Person|bratT45=Person-surname
 28	в	_	_	_	_	_	_	_	_
 29	интервью	_	_	_	_	_	_	_	_
 30	РИА	_	_	_	_	_	_	_	bratA1=T26:Media|bratT26=Organization
@@ -163,10 +163,10 @@
 # sent_id = 0059-p6-s1
 # text = Ранее московский мэр Сергей Собянин сообщил, что иммунитет против коронавирусной инфекции есть уже у примерно 2,5-3 миллионов жителей российской столицы.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-relative
-2	московский	_	_	_	_	_	_	_	bratT32=Person|bratT33=Person-property
+2	московский	_	_	_	_	_	_	_	bratT32=Person|bratT33=Person-property|bratT48=GPE
 3	мэр	_	_	_	_	_	_	_	bratT32=Person|bratT33=Person-property
-4	Сергей	_	_	_	_	_	_	_	bratT32=Person
-5	Собянин	_	_	_	_	_	_	_	bratT32=Person
+4	Сергей	_	_	_	_	_	_	_	bratT32=Person|bratT46=Person-forename
+5	Собянин	_	_	_	_	_	_	_	bratT32=Person|bratT47=Person-surname
 6	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
@@ -180,8 +180,8 @@
 16	примерно	_	_	_	_	_	_	_	bratT35=Quantity
 17	2,5-3	_	_	_	_	_	_	_	bratT35=Quantity
 18	миллионов	_	_	_	_	_	_	_	bratT35=Quantity
-19	жителей	_	_	_	_	_	_	_	bratT35=Quantity
-20	российской	_	_	_	_	_	_	_	bratT36=GPE
-21	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE
+19	жителей	_	_	_	_	_	_	_	bratA8=T39:Resident|bratT35=Quantity|bratT39=Nationality
+20	российской	_	_	_	_	_	_	_	bratA8=T39:Resident|bratT36=GPE|bratT39=Nationality
+21	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T39:Resident|bratT36=GPE|bratT39=Nationality
 22	.	_	_	_	_	_	_	_	_
 

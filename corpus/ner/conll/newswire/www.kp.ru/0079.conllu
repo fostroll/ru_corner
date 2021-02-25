@@ -55,8 +55,8 @@
 # text = Глава Amazon Джефф Безос, занимающий первую строчку рейтинга богатейших людей, увеличил свой капитал на 10,5 миллиарда долларов.
 1	Глава	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
 2	Amazon	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT9=Person
-3	Джефф	_	_	_	_	_	_	_	bratT9=Person
-4	Безос	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person
+3	Джефф	_	_	_	_	_	_	_	bratT62=Person-forename|bratT9=Person
+4	Безос	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Person-surname|bratT9=Person
 5	,	_	_	_	_	_	_	_	_
 6	занимающий	_	_	_	_	_	_	_	_
 7	первую	_	_	_	_	_	_	_	bratT12=Ordinal
@@ -91,8 +91,8 @@
 # text = Глава Facebook Марк Цукерберг (4 место в списке) разбогател на 8 миллиардов, теперь его состояние составляет 105,5 миллиарда долларов.
 1	Глава	_	_	_	_	_	_	_	bratT16=Person-property|bratT8=Person
 2	Facebook	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property|bratT8=Person
-3	Марк	_	_	_	_	_	_	_	bratT8=Person
-4	Цукерберг	_	_	_	_	_	_	_	bratT8=Person
+3	Марк	_	_	_	_	_	_	_	bratT64=Person-forename|bratT8=Person
+4	Цукерберг	_	_	_	_	_	_	_	bratT65=Person-surname|bratT8=Person
 5	(	_	_	_	_	_	_	_	SpaceAfter=No
 6	4	_	_	_	_	_	_	_	bratT17=Ordinal
 7	место	_	_	_	_	_	_	_	_
@@ -122,8 +122,8 @@
 3	холдинга	_	_	_	_	_	_	_	bratT20=Person|bratT21=Person-property|bratT22=Organization
 4	Reliance	_	_	_	_	_	_	_	bratT20=Person|bratT21=Person-property|bratT22=Organization
 5	Industries	_	_	_	_	_	_	_	bratT20=Person|bratT21=Person-property|bratT22=Organization
-6	Мукеша	_	_	_	_	_	_	_	bratT20=Person
-7	Амбани	_	_	_	_	_	_	_	bratT20=Person
+6	Мукеша	_	_	_	_	_	_	_	bratT20=Person|bratT66=Person-forename
+7	Амбани	_	_	_	_	_	_	_	bratT20=Person|bratT67=Person-surname
 8	(	_	_	_	_	_	_	_	SpaceAfter=No
 9	10	_	_	_	_	_	_	_	bratT23=Ordinal
 10	место	_	_	_	_	_	_	_	_
@@ -173,8 +173,8 @@
 5	Tesla	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property|bratT28=Organization
 6	и	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property
 7	SpaceX	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property|bratT29=Organization
-8	Илон	_	_	_	_	_	_	_	bratT26=Person
-9	Маск	_	_	_	_	_	_	_	bratT26=Person
+8	Илон	_	_	_	_	_	_	_	bratT26=Person|bratT68=Person-forename
+9	Маск	_	_	_	_	_	_	_	bratT26=Person|bratT69=Person-surname
 10	недосчитался	_	_	_	_	_	_	_	_
 11	547	_	_	_	_	_	_	_	bratT30=Money
 12	миллионов	_	_	_	_	_	_	_	bratT30=Money
@@ -191,8 +191,8 @@
 # sent_id = 0079-p6-s3
 # text = Инвестор Уоррен Баффет, занимающий шестую строчку, лишился 291 миллиона долларов от своего капитала, а убытки основателя Oracle Ларри Эллисона (8 место) составили 379 миллионов долларов.
 1	Инвестор	_	_	_	_	_	_	_	bratT32=Person|bratT33=Person-property
-2	Уоррен	_	_	_	_	_	_	_	bratT32=Person
-3	Баффет	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person
+2	Уоррен	_	_	_	_	_	_	_	bratT32=Person|bratT70=Person-forename
+3	Баффет	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person|bratT71=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	занимающий	_	_	_	_	_	_	_	_
 6	шестую	_	_	_	_	_	_	_	bratT51=Ordinal
@@ -210,8 +210,8 @@
 18	убытки	_	_	_	_	_	_	_	_
 19	основателя	_	_	_	_	_	_	_	bratT35=Person|bratT36=Person-property
 20	Oracle	_	_	_	_	_	_	_	bratT35=Person|bratT36=Person-property|bratT37=Organization
-21	Ларри	_	_	_	_	_	_	_	bratT35=Person
-22	Эллисона	_	_	_	_	_	_	_	bratT35=Person
+21	Ларри	_	_	_	_	_	_	_	bratT35=Person|bratT72=Person-forename
+22	Эллисона	_	_	_	_	_	_	_	bratT35=Person|bratT73=Person-surname
 23	(	_	_	_	_	_	_	_	SpaceAfter=No
 24	8	_	_	_	_	_	_	_	bratT38=Ordinal
 25	место	_	_	_	_	_	_	_	SpaceAfter=No
@@ -258,8 +258,8 @@
 3	период	_	_	_	_	_	_	_	bratA7=T54:Present|bratT54=Date-absolute
 4	лидирует	_	_	_	_	_	_	_	_
 5	демократ	_	_	_	_	_	_	_	bratT47=Person|bratT48=Political-group
-6	Джо	_	_	_	_	_	_	_	bratT47=Person
-7	Байден	_	_	_	_	_	_	_	bratT47=Person
+6	Джо	_	_	_	_	_	_	_	bratT47=Person|bratT74=Person-forename
+7	Байден	_	_	_	_	_	_	_	bratT47=Person|bratT75=Person-surname
 8	-	_	_	_	_	_	_	_	_
 9	264	_	_	_	_	_	_	_	bratT49=Quantity
 10	голоса	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Quantity

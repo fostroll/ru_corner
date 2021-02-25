@@ -12,7 +12,7 @@
 7	со	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute|bratT4=Event
 8	дня	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute|bratT4=Event
 9	рождения	_	_	_	_	_	_	_	bratA5=T39:Future|bratT35=Event|bratT39=Date-absolute|bratT4=Event
-10	Островского	_	_	_	_	_	_	_	bratT3=Person|bratT35=Event|bratT4=Event
+10	Островского	_	_	_	_	_	_	_	bratT3=Person|bratT35=Event|bratT4=Event|bratT47=Person-surname
 
 # newpar id = 0046-p2
 # par_text = В пятницу, 13 ноября, президент России Владимир Путин подписал указ о праздновании двухсотлетия со дня рождения русского классика, драматурга Александра Островского. Мероприятия, приуроченные к юбилейной дате, состоятся в 2023 году.
@@ -26,8 +26,8 @@
 6	,	_	_	_	_	_	_	_	_
 7	президент	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
 8	России	_	_	_	_	_	_	_	bratT6=GPE|bratT7=Person-property|bratT8=Person
-9	Владимир	_	_	_	_	_	_	_	bratT8=Person
-10	Путин	_	_	_	_	_	_	_	bratT8=Person
+9	Владимир	_	_	_	_	_	_	_	bratT45=Person-forename|bratT8=Person
+10	Путин	_	_	_	_	_	_	_	bratT46=Person-surname|bratT8=Person
 11	подписал	_	_	_	_	_	_	_	_
 12	указ	_	_	_	_	_	_	_	bratT13=Law
 13	о	_	_	_	_	_	_	_	bratT13=Law
@@ -40,8 +40,8 @@
 20	классика	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event|bratT13=Law|bratT36=Person-property|bratT37=Event
 21	,	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT37=Event
 22	драматурга	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person|bratT12=Event|bratT13=Law|bratT37=Event
-23	Александра	_	_	_	_	_	_	_	bratT11=Person|bratT12=Event|bratT13=Law|bratT37=Event
-24	Островского	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT12=Event|bratT13=Law|bratT37=Event
+23	Александра	_	_	_	_	_	_	_	bratT11=Person|bratT12=Event|bratT13=Law|bratT37=Event|bratT48=Person-forename
+24	Островского	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT12=Event|bratT13=Law|bratT37=Event|bratT49=Person-surname
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0046-p2-s2
@@ -75,9 +75,9 @@
 10	со	_	_	_	_	_	_	_	bratA7=T41:Future|bratT26=Event|bratT41=Date-absolute
 11	дня	_	_	_	_	_	_	_	bratA7=T41:Future|bratT26=Event|bratT41=Date-absolute
 12	рождения	_	_	_	_	_	_	_	bratA7=T41:Future|bratT18=Event|bratT26=Event|bratT41=Date-absolute
-13	А.	_	_	_	_	_	_	_	bratT17=Person|bratT18=Event|bratT26=Event
-14	Н.	_	_	_	_	_	_	_	bratT17=Person|bratT18=Event|bratT26=Event
-15	Островского	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT18=Event|bratT26=Event
+13	А.	_	_	_	_	_	_	_	bratT17=Person|bratT18=Event|bratT26=Event|bratT51=Person-initial
+14	Н.	_	_	_	_	_	_	_	bratT17=Person|bratT18=Event|bratT26=Event|bratT52=Person-initial
+15	Островского	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT18=Event|bratT26=Event|bratT50=Person-surname
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 # text = Своим указом российский лидер поручил членам правительства страны за ближайшие три месяца образовать организационный комитет для подготовки и проведения празднования двухсотлетия со дня рождения русского классика.
 1	Своим	_	_	_	_	_	_	_	_
 2	указом	_	_	_	_	_	_	_	_
-3	российский	_	_	_	_	_	_	_	bratT20=Person-property
+3	российский	_	_	_	_	_	_	_	bratT20=Person-property|bratT56=GPE
 4	лидер	_	_	_	_	_	_	_	bratT20=Person-property
 5	поручил	_	_	_	_	_	_	_	_
 6	членам	_	_	_	_	_	_	_	bratT22=Person-property
@@ -168,9 +168,9 @@
 # text = Напомним, Александр Николаевич Островский родился 12 апреля 1823 года и вошёл в историю русской литературы как автор знаменитых пьес, таких как ``Бесприданница'', ``Бедность не порок'', ``Гроза'' и других.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	Александр	_	_	_	_	_	_	_	bratT30=Person
-4	Николаевич	_	_	_	_	_	_	_	bratT30=Person
-5	Островский	_	_	_	_	_	_	_	bratT30=Person
+3	Александр	_	_	_	_	_	_	_	bratT30=Person|bratT53=Person-forename
+4	Николаевич	_	_	_	_	_	_	_	bratT30=Person|bratT55=Person-patronym
+5	Островский	_	_	_	_	_	_	_	bratT30=Person|bratT54=Person-surname
 6	родился	_	_	_	_	_	_	_	_
 7	12	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
 8	апреля	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute

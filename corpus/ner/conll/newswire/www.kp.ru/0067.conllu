@@ -29,8 +29,8 @@
 2	от	_	_	_	_	_	_	_	_
 3	властей	_	_	_	_	_	_	_	_
 4	потребуют	_	_	_	_	_	_	_	_
-5	местные	_	_	_	_	_	_	_	_
-6	жители	_	_	_	_	_	_	_	SpaceAfter=No
+5	местные	_	_	_	_	_	_	_	bratA9=T32:Resident|bratT32=Nationality
+6	жители	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T32:Resident|bratT32=Nationality
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0067-p2-s3
@@ -39,8 +39,8 @@
 2	мнение	_	_	_	_	_	_	_	_
 3	выразил	_	_	_	_	_	_	_	_
 4	политолог	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-5	Илья	_	_	_	_	_	_	_	bratT4=Person
-6	Геращенков	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person
+5	Илья	_	_	_	_	_	_	_	bratT33=Person-forename|bratT4=Person
+6	Геращенков	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-surname|bratT4=Person
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0067-p3
@@ -145,7 +145,7 @@
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
 21	цитирует	_	_	_	_	_	_	_	_
-22	Геращенко	_	_	_	_	_	_	_	bratT11=Person
+22	Геращенко	_	_	_	_	_	_	_	bratT11=Person|bratT35=Person-surname
 23	телеканал	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Organization
 24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
 25	360	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization

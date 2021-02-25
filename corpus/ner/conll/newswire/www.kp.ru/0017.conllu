@@ -47,8 +47,8 @@
 10	и	_	_	_	_	_	_	_	bratT3=Person
 11	академик	_	_	_	_	_	_	_	bratT3=Person|bratT5=Person-property
 12	РАН	_	_	_	_	_	_	_	bratT16=Organization|bratT3=Person|bratT5=Person-property
-13	Виктор	_	_	_	_	_	_	_	bratT3=Person
-14	Тутельян	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person
+13	Виктор	_	_	_	_	_	_	_	bratT3=Person|bratT7=Person-forename
+14	Тутельян	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-surname|bratT3=Person
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0017-p3
@@ -119,8 +119,8 @@
 # par_text = Виктор Тутельян отметил, что для похудения также потребуются значительная сила воли и занятия физической активностью. Он добавил, что неплохим закрепленным результатом можно считать похудение на три килограмма за месяц.
 # sent_id = 0017-p4-s1
 # text = Виктор Тутельян отметил, что для похудения также потребуются значительная сила воли и занятия физической активностью.
-1	Виктор	_	_	_	_	_	_	_	bratT8=Person
-2	Тутельян	_	_	_	_	_	_	_	bratT8=Person
+1	Виктор	_	_	_	_	_	_	_	bratT26=Person-forename|bratT8=Person
+2	Тутельян	_	_	_	_	_	_	_	bratT27=Person-surname|bratT8=Person
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -219,8 +219,8 @@
 4	среди	_	_	_	_	_	_	_	_
 5	знаменитостей	_	_	_	_	_	_	_	_
 6	диетолог	_	_	_	_	_	_	_	bratT13=Person
-7	Пьер	_	_	_	_	_	_	_	bratT13=Person
-8	Дюкан	_	_	_	_	_	_	_	bratT13=Person
+7	Пьер	_	_	_	_	_	_	_	bratT13=Person|bratT28=Person-forename
+8	Дюкан	_	_	_	_	_	_	_	bratT13=Person|bratT29=Person-surname
 9	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_

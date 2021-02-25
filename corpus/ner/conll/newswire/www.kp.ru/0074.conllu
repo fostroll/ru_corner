@@ -18,10 +18,10 @@
 # par_text = Армянский лидер Армен Саркисян заявил, что узнал о соглашении о прекращении войны в Нагорном Карабахе из средств массовой информации. В заявлении президента на его официальном сайте говорится, что он принял во внимание озабоченность людей и немедленно инициирует политические консультации по данному вопросу.
 # sent_id = 0074-p2-s1
 # text = Армянский лидер Армен Саркисян заявил, что узнал о соглашении о прекращении войны в Нагорном Карабахе из средств массовой информации.
-1	Армянский	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person
-2	лидер	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person
-3	Армен	_	_	_	_	_	_	_	bratT5=Person
-4	Саркисян	_	_	_	_	_	_	_	bratT5=Person
+1	Армянский	_	_	_	_	_	_	_	bratT35=GPE|bratT4=Person-property|bratT5=Person
+2	лидер	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
+3	Армен	_	_	_	_	_	_	_	bratT31=Person-forename|bratT5=Person
+4	Саркисян	_	_	_	_	_	_	_	bratT32=Person-surname|bratT5=Person
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -205,8 +205,8 @@
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
 17	добавил	_	_	_	_	_	_	_	_
-18	Армен	_	_	_	_	_	_	_	bratT19=Person
-19	Саркисян	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+18	Армен	_	_	_	_	_	_	_	bratT19=Person|bratT33=Person-forename
+19	Саркисян	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT34=Person-surname
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0074-p6

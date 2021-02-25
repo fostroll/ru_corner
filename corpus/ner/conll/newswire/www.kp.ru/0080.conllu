@@ -12,9 +12,9 @@
 7	РФ	_	_	_	_	_	_	_	bratT3=GPE
 8	на	_	_	_	_	_	_	_	_
 9	встрече	_	_	_	_	_	_	_	_
-10	Лаврова	_	_	_	_	_	_	_	bratT4=Person
+10	Лаврова	_	_	_	_	_	_	_	bratT4=Person|bratT46=Person-surname
 11	с	_	_	_	_	_	_	_	_
-12	Пашиняном	_	_	_	_	_	_	_	bratT5=Person
+12	Пашиняном	_	_	_	_	_	_	_	bratT47=Person-surname|bratT5=Person
 
 # newpar id = 0080-p2
 # par_text = Установка только армянского флага на переговорах главы российского министерства иностранных дел Сергея Лаврова, премьер-министра Армении Никола Пашиняна и президента Армена Саркисяна объясняется протокольной практикой Еревана. Об этом сообщил в субботу, 21 ноября, МИДД России в своем Telegram-канале.
@@ -31,17 +31,17 @@
 9	министерства	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
 10	иностранных	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
 11	дел	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-12	Сергея	_	_	_	_	_	_	_	bratT8=Person
-13	Лаврова	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+12	Сергея	_	_	_	_	_	_	_	bratT48=Person-forename|bratT8=Person
+13	Лаврова	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person-surname|bratT8=Person
 14	,	_	_	_	_	_	_	_	_
 15	премьер-министра	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
 16	Армении	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person|bratT9=GPE
-17	Никола	_	_	_	_	_	_	_	bratT11=Person
-18	Пашиняна	_	_	_	_	_	_	_	bratT11=Person
+17	Никола	_	_	_	_	_	_	_	bratT11=Person|bratT50=Person-forename
+18	Пашиняна	_	_	_	_	_	_	_	bratT11=Person|bratT51=Person-surname
 19	и	_	_	_	_	_	_	_	_
 20	президента	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person
-21	Армена	_	_	_	_	_	_	_	bratT13=Person
-22	Саркисяна	_	_	_	_	_	_	_	bratT13=Person
+21	Армена	_	_	_	_	_	_	_	bratT13=Person|bratT52=Person-forename
+22	Саркисяна	_	_	_	_	_	_	_	bratT13=Person|bratT53=Person-surname
 23	объясняется	_	_	_	_	_	_	_	_
 24	протокольной	_	_	_	_	_	_	_	_
 25	практикой	_	_	_	_	_	_	_	_
@@ -149,9 +149,9 @@
 8	года	_	_	_	_	_	_	_	bratA2=T25:Past|bratT25=Date-absolute
 9	с	_	_	_	_	_	_	_	_
 10	переговоров	_	_	_	_	_	_	_	_
-11	Лаврова	_	_	_	_	_	_	_	bratT26=Person
+11	Лаврова	_	_	_	_	_	_	_	bratT26=Person|bratT54=Person-surname
 12	и	_	_	_	_	_	_	_	_
-13	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person
+13	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person|bratT55=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0080-p4-s2
@@ -176,8 +176,8 @@
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
 4	встреча	_	_	_	_	_	_	_	_
-5	Сергея	_	_	_	_	_	_	_	bratT30=Person
-6	Лаврова	_	_	_	_	_	_	_	bratT30=Person
+5	Сергея	_	_	_	_	_	_	_	bratT30=Person|bratT56=Person-forename
+6	Лаврова	_	_	_	_	_	_	_	bratT30=Person|bratT57=Person-surname
 7	с	_	_	_	_	_	_	_	_
 8	премьер-министром	_	_	_	_	_	_	_	bratT31=Person-property
 9	и	_	_	_	_	_	_	_	_

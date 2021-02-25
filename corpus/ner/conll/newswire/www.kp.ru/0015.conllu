@@ -28,8 +28,8 @@
 7	меры	_	_	_	_	_	_	_	_
 8	для	_	_	_	_	_	_	_	_
 9	пожилых	_	_	_	_	_	_	_	bratT22=Age
-10	жителей	_	_	_	_	_	_	_	_
-11	столицы	_	_	_	_	_	_	_	bratT20=GPE
+10	жителей	_	_	_	_	_	_	_	bratA4=T24:Resident|bratT24=Nationality
+11	столицы	_	_	_	_	_	_	_	bratA4=T24:Resident|bratT20=GPE|bratT24=Nationality
 12	и	_	_	_	_	_	_	_	_
 13	людей	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
@@ -58,8 +58,8 @@
 10	руководитель	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
 11	Главконтроля	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization
 12	Москвы	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization|bratT7=GPE
-13	Евгений	_	_	_	_	_	_	_	bratT4=Person
-14	Данчиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person
+13	Евгений	_	_	_	_	_	_	_	bratT25=Person-forename|bratT4=Person
+14	Данчиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-surname|bratT4=Person
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0015-p3
@@ -136,8 +136,8 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	отметил	_	_	_	_	_	_	_	_
-11	Евгений	_	_	_	_	_	_	_	bratT8=Person
-12	Данчиков	_	_	_	_	_	_	_	bratT8=Person
+11	Евгений	_	_	_	_	_	_	_	bratT29=Person-forename|bratT8=Person
+12	Данчиков	_	_	_	_	_	_	_	bratT30=Person-surname|bratT8=Person
 13	в	_	_	_	_	_	_	_	_
 14	эфире	_	_	_	_	_	_	_	_
 15	телеканала	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
@@ -156,8 +156,8 @@
 4	мэр	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property
 5	российской	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT17=GPE
 6	столицы	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT17=GPE
-7	Сергей	_	_	_	_	_	_	_	bratT10=Person
-8	Собянин	_	_	_	_	_	_	_	bratT10=Person
+7	Сергей	_	_	_	_	_	_	_	bratT10=Person|bratT27=Person-forename
+8	Собянин	_	_	_	_	_	_	_	bratT10=Person|bratT28=Person-surname
 9	сообщил	_	_	_	_	_	_	_	_
 10	о	_	_	_	_	_	_	_	_
 11	введении	_	_	_	_	_	_	_	_

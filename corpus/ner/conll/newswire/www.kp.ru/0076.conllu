@@ -18,7 +18,7 @@
 # par_text = Британский журнал Times Higher Education составил топ-250 высших учебных заведений, которые посчитал наиболее привлекательными для работодателей по всему миру. В нем оказались и российские МГУ, МГТУ и МФТИ.
 # sent_id = 0076-p2-s1
 # text = Британский журнал Times Higher Education составил топ-250 высших учебных заведений, которые посчитал наиболее привлекательными для работодателей по всему миру.
-1	Британский	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
+1	Британский	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT52=GPE
 2	журнал	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 3	Times	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 4	Higher	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
@@ -76,11 +76,11 @@
 1	В	_	_	_	_	_	_	_	_
 2	топ-3	_	_	_	_	_	_	_	bratT9=Quantity
 3	-	_	_	_	_	_	_	_	_
-4	Калифорнийский	_	_	_	_	_	_	_	bratT10=Organization
+4	Калифорнийский	_	_	_	_	_	_	_	bratT10=Organization|bratT53=GPE
 5	технологический	_	_	_	_	_	_	_	bratT10=Organization
 6	институт	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 7	,	_	_	_	_	_	_	_	_
-8	Массачусетский	_	_	_	_	_	_	_	bratT11=Organization
+8	Массачусетский	_	_	_	_	_	_	_	bratT11=Organization|bratT54=GPE
 9	технологический	_	_	_	_	_	_	_	bratT11=Organization
 10	институт	_	_	_	_	_	_	_	bratT11=Organization
 11	и	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 5	мнению	_	_	_	_	_	_	_	_
 6	работодателей	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
-8	британский	_	_	_	_	_	_	_	bratT13=Organization
+8	британский	_	_	_	_	_	_	_	bratT13=Organization|bratT56=GPE
 9	Оксфорд	_	_	_	_	_	_	_	bratT13=Organization
 10	и	_	_	_	_	_	_	_	_
 11	Кембридж	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
@@ -110,7 +110,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	десятку	_	_	_	_	_	_	_	bratT16=Quantity
 3	вошли	_	_	_	_	_	_	_	_
-4	Токийский	_	_	_	_	_	_	_	bratT15=Organization
+4	Токийский	_	_	_	_	_	_	_	bratT15=Organization|bratT57=GPE
 5	университет	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
 6	,	_	_	_	_	_	_	_	_
 7	Стэнфордский	_	_	_	_	_	_	_	bratT17=Organization
@@ -147,7 +147,7 @@
 5	оказался	_	_	_	_	_	_	_	_
 6	МГУ	_	_	_	_	_	_	_	bratT27=Organization
 7	им.	_	_	_	_	_	_	_	bratT27=Organization
-8	Ломоносова	_	_	_	_	_	_	_	bratT26=Person|bratT27=Organization
+8	Ломоносова	_	_	_	_	_	_	_	bratT26=Person|bratT27=Organization|bratT51=Person-surname
 9	-	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	общем	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 8	139-ю	_	_	_	_	_	_	_	bratT31=Ordinal
 9	позицию	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
-11	Московский	_	_	_	_	_	_	_	bratT32=Organization
+11	Московский	_	_	_	_	_	_	_	bratT32=Organization|bratT55=GPE
 12	физико-технический	_	_	_	_	_	_	_	bratT32=Organization
 13	институт	_	_	_	_	_	_	_	bratT32=Organization
 14	(	_	_	_	_	_	_	_	SpaceAfter=No
@@ -220,7 +220,7 @@
 # par_text = Британский журнал основывал свои подсчеты на данных, предоставленных компанией Emerging, которая занимается подбором персонала. Также журналисты побеседовали с HR-специалистами из многих крупных международных корпораций. Именно в отделах кадров лучше всего знают, специалисты каких вузов наиболее подготовлены к работе после выпуска и у кого из них больше перспектив.
 # sent_id = 0076-p7-s1
 # text = Британский журнал основывал свои подсчеты на данных, предоставленных компанией Emerging, которая занимается подбором персонала.
-1	Британский	_	_	_	_	_	_	_	_
+1	Британский	_	_	_	_	_	_	_	bratT58=GPE
 2	журнал	_	_	_	_	_	_	_	_
 3	основывал	_	_	_	_	_	_	_	_
 4	свои	_	_	_	_	_	_	_	_

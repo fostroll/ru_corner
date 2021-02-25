@@ -12,7 +12,7 @@
 7	сторонниками	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
 9	противниками	_	_	_	_	_	_	_	_
-10	Трампа	_	_	_	_	_	_	_	bratT3=Person
+10	Трампа	_	_	_	_	_	_	_	bratT3=Person|bratT48=Person-surname
 11	в	_	_	_	_	_	_	_	_
 12	Вашингтоне	_	_	_	_	_	_	_	bratT4=GPE
 
@@ -41,8 +41,8 @@
 19	противниками	_	_	_	_	_	_	_	_
 20	президента	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
 21	США	_	_	_	_	_	_	_	bratT10=GPE|bratT8=Person|bratT9=Person-property
-22	Дональда	_	_	_	_	_	_	_	bratT8=Person
-23	Трампа	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+22	Дональда	_	_	_	_	_	_	_	bratT49=Person-forename|bratT8=Person
+23	Трампа	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Person-surname|bratT8=Person
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p2-s2
@@ -55,8 +55,8 @@
 6	полиции	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT13=Organization
 7	американской	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT13=Organization|bratT36=GPE
 8	столицы	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT13=Organization|bratT36=GPE
-9	Брианна	_	_	_	_	_	_	_	bratT11=Person
-10	Джордан	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
+9	Брианна	_	_	_	_	_	_	_	bratT11=Person|bratT51=Person-forename
+10	Джордан	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT52=Person-surname
 11	,	_	_	_	_	_	_	_	_
 12	уточнив	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
@@ -107,7 +107,7 @@
 # par_text = Джордан сообщил, что правоохранители изъяли у демонстрантов восемь единиц огнестрельного оружия, а также использовали перцовые баллончики для сдерживания протестующих.
 # sent_id = 0089-p4-s1
 # text = Джордан сообщил, что правоохранители изъяли у демонстрантов восемь единиц огнестрельного оружия, а также использовали перцовые баллончики для сдерживания протестующих.
-1	Джордан	_	_	_	_	_	_	_	bratT21=Person
+1	Джордан	_	_	_	_	_	_	_	bratT21=Person|bratT53=Person-surname
 2	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -163,7 +163,7 @@
 # sent_id = 0089-p5-s2
 # text = Противники Трампа встретили их криками ``проиграл'' и ``убирайся''.
 1	Противники	_	_	_	_	_	_	_	_
-2	Трампа	_	_	_	_	_	_	_	bratT28=Person
+2	Трампа	_	_	_	_	_	_	_	bratT28=Person|bratT54=Person-surname
 3	встретили	_	_	_	_	_	_	_	_
 4	их	_	_	_	_	_	_	_	_
 5	криками	_	_	_	_	_	_	_	_

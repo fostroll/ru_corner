@@ -3,7 +3,7 @@
 # par_text = Мурашко рассказал, как обстоит ситуация с обеспечением лекарствами в регионах
 # sent_id = 0110-p1-s1
 # text = Мурашко рассказал, как обстоит ситуация с обеспечением лекарствами в регионах
-1	Мурашко	_	_	_	_	_	_	_	bratT1=Person
+1	Мурашко	_	_	_	_	_	_	_	bratT1=Person|bratT23=Person-surname
 2	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	как	_	_	_	_	_	_	_	_
@@ -22,8 +22,8 @@
 1	Министр	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
 2	здравоохранения	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
 3	РФ	_	_	_	_	_	_	_	bratT2=GPE|bratT3=Person-property|bratT4=Person
-4	Михаил	_	_	_	_	_	_	_	bratT4=Person
-5	Мурашко	_	_	_	_	_	_	_	bratT4=Person
+4	Михаил	_	_	_	_	_	_	_	bratT24=Person-forename|bratT4=Person
+5	Мурашко	_	_	_	_	_	_	_	bratT25=Person-surname|bratT4=Person
 6	на	_	_	_	_	_	_	_	_
 7	заседании	_	_	_	_	_	_	_	_
 8	президиума	_	_	_	_	_	_	_	bratT5=Organization
@@ -82,7 +82,7 @@
 # par_text = Мурашко отметил, что 58 субъектов РФ "отработали неплохо" выделенные для закупки лекарственных препаратов средства.
 # sent_id = 0110-p4-s1
 # text = Мурашко отметил, что 58 субъектов РФ ``отработали неплохо'' выделенные для закупки лекарственных препаратов средства.
-1	Мурашко	_	_	_	_	_	_	_	bratT7=Person
+1	Мурашко	_	_	_	_	_	_	_	bratT26=Person-surname|bratT7=Person
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -170,8 +170,8 @@
 2	заседании	_	_	_	_	_	_	_	_
 3	глава	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person
 4	Роспотребнадзора	_	_	_	_	_	_	_	bratT13=Organization|bratT14=Person-property|bratT15=Person
-5	Анна	_	_	_	_	_	_	_	bratT15=Person
-6	Попова	_	_	_	_	_	_	_	bratT15=Person
+5	Анна	_	_	_	_	_	_	_	bratT15=Person|bratT27=Person-forename
+6	Попова	_	_	_	_	_	_	_	bratT15=Person|bratT28=Person-surname
 7	прокомментировала	_	_	_	_	_	_	_	_
 8	ситуацию	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
