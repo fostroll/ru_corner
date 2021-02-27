@@ -56,8 +56,8 @@
 7	может	_	_	_	_	_	_	_	_
 8	привести	_	_	_	_	_	_	_	_
 9	карантин	_	_	_	_	_	_	_	bratT12=Event
-10	выходного	_	_	_	_	_	_	_	bratT12=Event
-11	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
+10	выходного	_	_	_	_	_	_	_	bratT12=Event|bratT24=Time-period
+11	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event|bratT24=Time-period
 12	,	_	_	_	_	_	_	_	_
 13	ранее	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
 14	введенный	_	_	_	_	_	_	_	_
@@ -86,8 +86,8 @@
 # text = ``Я на выходных был во многих местах, где спокойно работают кафе, рестораны'', - сказал он, добавив, что полиция ``спокойно крышует'' открытые заведения.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Я	_	_	_	_	_	_	_	_
-3	на	_	_	_	_	_	_	_	_
-4	выходных	_	_	_	_	_	_	_	_
+3	на	_	_	_	_	_	_	_	bratA7=T25:Past|bratT25=Date-absolute
+4	выходных	_	_	_	_	_	_	_	bratA7=T25:Past|bratT25=Date-absolute
 5	был	_	_	_	_	_	_	_	_
 6	во	_	_	_	_	_	_	_	_
 7	многих	_	_	_	_	_	_	_	_
@@ -194,8 +194,8 @@
 4	Украине	_	_	_	_	_	_	_	bratT18=GPE
 5	ввели	_	_	_	_	_	_	_	_
 6	карантин	_	_	_	_	_	_	_	bratT19=Event
-7	выходного	_	_	_	_	_	_	_	bratT19=Event
-8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event
+7	выходного	_	_	_	_	_	_	_	bratT19=Event|bratT26=Time-period
+8	дня	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event|bratT26=Time-period
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0116-p5-s2
