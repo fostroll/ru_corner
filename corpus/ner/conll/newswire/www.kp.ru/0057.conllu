@@ -35,16 +35,16 @@
 1	Инициатива	_	_	_	_	_	_	_	_
 2	поступила	_	_	_	_	_	_	_	_
 3	от	_	_	_	_	_	_	_	_
-4	координатора	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person-property
-5	общественного	_	_	_	_	_	_	_	bratT4=Person|bratT5=Organization|bratT6=Person-property
-6	движения	_	_	_	_	_	_	_	bratT4=Person|bratT5=Organization|bratT6=Person-property
-7	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT4=Person|bratT5=Organization|bratT6=Person-property
-8	За	_	_	_	_	_	_	_	bratT4=Person|bratT5=Organization|bratT6=Person-property
-9	жизнь	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person|bratT5=Organization|bratT6=Person-property
-10	!	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person|bratT5=Organization|bratT6=Person-property
-11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT4=Person|bratT5=Organization|bratT6=Person-property
-12	Сергея	_	_	_	_	_	_	_	bratT21=Person-forename|bratT4=Person
-13	Чеснокова	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-surname|bratT4=Person
+4	координатора	_	_	_	_	_	_	_	bratA8=T4:Male|bratT4=Person|bratT6=Person-property
+5	общественного	_	_	_	_	_	_	_	bratA8=T4:Male|bratT4=Person|bratT5=Organization|bratT6=Person-property
+6	движения	_	_	_	_	_	_	_	bratA8=T4:Male|bratT4=Person|bratT5=Organization|bratT6=Person-property
+7	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA8=T4:Male|bratT4=Person|bratT5=Organization|bratT6=Person-property
+8	За	_	_	_	_	_	_	_	bratA8=T4:Male|bratT4=Person|bratT5=Organization|bratT6=Person-property
+9	жизнь	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T4:Male|bratT4=Person|bratT5=Organization|bratT6=Person-property
+10	!	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T4:Male|bratT4=Person|bratT5=Organization|bratT6=Person-property
+11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA8=T4:Male|bratT4=Person|bratT5=Organization|bratT6=Person-property
+12	Сергея	_	_	_	_	_	_	_	bratA8=T4:Male|bratT21=Person-forename|bratT4=Person
+13	Чеснокова	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T4:Male|bratT33=Person-surname|bratT4=Person
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0057-p3
@@ -103,7 +103,7 @@
 12	-	_	_	_	_	_	_	_	_
 13	комментирует	_	_	_	_	_	_	_	_
 14	NEWS.ru	_	_	_	_	_	_	_	bratA2=T8:Media|bratT8=Organization
-15	Чесноков	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-surname|bratT9=Person
+15	Чесноков	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T9:Male|bratT34=Person-surname|bratT9=Person
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0057-p5
@@ -241,7 +241,7 @@
 14	выплаты	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Quantity
 15	,	_	_	_	_	_	_	_	_
 16	уверен	_	_	_	_	_	_	_	_
-17	Чесноков	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT35=Person-surname
+17	Чесноков	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Male|bratT14=Person|bratT35=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0057-p9

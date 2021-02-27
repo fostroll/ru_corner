@@ -3,7 +3,7 @@
 # par_text = Санду заявила, что при ней Молдавия построит прагматичный диалог с РФ и США
 # sent_id = 0114-p1-s1
 # text = Санду заявила, что при ней Молдавия построит прагматичный диалог с РФ и США
-1	Санду	_	_	_	_	_	_	_	bratT1=Person
+1	Санду	_	_	_	_	_	_	_	bratA4=T1:Female|bratT1=Person|bratT43=Person-surname
 2	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -27,8 +27,8 @@
 3	выборах	_	_	_	_	_	_	_	bratT7=Event
 4	президента	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Event
 5	Молдавии	_	_	_	_	_	_	_	bratT5=GPE|bratT6=Person-property|bratT7=Event
-6	Майя	_	_	_	_	_	_	_	bratT8=Person
-7	Санду	_	_	_	_	_	_	_	bratT8=Person
+6	Майя	_	_	_	_	_	_	_	bratA5=T8:Female|bratT44=Person-forename|bratT8=Person
+7	Санду	_	_	_	_	_	_	_	bratA5=T8:Female|bratT45=Person-surname|bratT8=Person
 8	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
@@ -87,7 +87,7 @@
 25	,	_	_	_	_	_	_	_	_
 26	Украину	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=GPE
 27	,	_	_	_	_	_	_	_	_
-28	европейские	_	_	_	_	_	_	_	_
+28	европейские	_	_	_	_	_	_	_	bratA11=T55:Adjective|bratT55=GPE
 29	страны	_	_	_	_	_	_	_	SpaceAfter=No
 30	,	_	_	_	_	_	_	_	_
 31	Россию	_	_	_	_	_	_	_	bratT15=GPE
@@ -137,21 +137,21 @@
 15	выборов	_	_	_	_	_	_	_	bratT40=Event|bratT41=Event
 16	объявил	_	_	_	_	_	_	_	_
 17	победителем	_	_	_	_	_	_	_	_
-18	главу	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
-19	проевропейской	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
-20	партии	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT24=Person-property|bratT25=Person
-22	Действие	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-23	и	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-24	солидарность	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT24=Person-property|bratT25=Person
-25	''	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-26	Майю	_	_	_	_	_	_	_	bratT25=Person
-27	Санду	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person
+18	главу	_	_	_	_	_	_	_	bratA6=T25:Female|bratT24=Person-property|bratT25=Person
+19	проевропейской	_	_	_	_	_	_	_	bratA6=T25:Female|bratT24=Person-property|bratT25=Person
+20	партии	_	_	_	_	_	_	_	bratA6=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+22	Действие	_	_	_	_	_	_	_	bratA6=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+23	и	_	_	_	_	_	_	_	bratA6=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+24	солидарность	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+25	''	_	_	_	_	_	_	_	bratA6=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+26	Майю	_	_	_	_	_	_	_	bratA6=T25:Female|bratT25=Person|bratT46=Person-forename
+27	Санду	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Female|bratT25=Person|bratT47=Person-surname
 28	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p5-s2
 # text = Санду набрала 57,75 % голосов.
-1	Санду	_	_	_	_	_	_	_	bratT26=Person
+1	Санду	_	_	_	_	_	_	_	bratA7=T26:Female|bratT26=Person|bratT48=Person-surname
 2	набрала	_	_	_	_	_	_	_	_
 3	57,75	_	_	_	_	_	_	_	bratT27=Percent
 4	%	_	_	_	_	_	_	_	bratT27=Percent
@@ -160,10 +160,10 @@
 
 # sent_id = 0114-p5-s3
 # text = Действующий президент Игорь Додон получил 42,25 %.
-1	Действующий	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
-2	президент	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
-3	Игорь	_	_	_	_	_	_	_	bratT29=Person
-4	Додон	_	_	_	_	_	_	_	bratT29=Person
+1	Действующий	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
+2	президент	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
+3	Игорь	_	_	_	_	_	_	_	bratA8=T29:Male|bratT29=Person|bratT49=Person-forename
+4	Додон	_	_	_	_	_	_	_	bratA8=T29:Male|bratT29=Person|bratT50=Person-surname
 5	получил	_	_	_	_	_	_	_	_
 6	42,25	_	_	_	_	_	_	_	bratT30=Percent
 7	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Percent
@@ -187,20 +187,20 @@
 2	этот	_	_	_	_	_	_	_	bratA3=T42:Past|bratT42=Date-relative
 3	же	_	_	_	_	_	_	_	bratA3=T42:Past|bratT42=Date-relative
 4	день	_	_	_	_	_	_	_	bratA3=T42:Past|bratT42=Date-relative
-5	президент	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Person
-6	России	_	_	_	_	_	_	_	bratT32=Organization|bratT33=Person-property|bratT34=Person
-7	Владимир	_	_	_	_	_	_	_	bratT34=Person
-8	Путин	_	_	_	_	_	_	_	bratT34=Person
+5	президент	_	_	_	_	_	_	_	bratA9=T34:Male|bratT33=Person-property|bratT34=Person
+6	России	_	_	_	_	_	_	_	bratA9=T34:Male|bratT32=Organization|bratT33=Person-property|bratT34=Person
+7	Владимир	_	_	_	_	_	_	_	bratA9=T34:Male|bratT34=Person|bratT51=Person-forename
+8	Путин	_	_	_	_	_	_	_	bratA9=T34:Male|bratT34=Person|bratT52=Person-surname
 9	направил	_	_	_	_	_	_	_	_
-10	лидеру	_	_	_	_	_	_	_	bratT36=Person-property|bratT37=Person
-11	партии	_	_	_	_	_	_	_	bratT35=Organization|bratT36=Person-property|bratT37=Person
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization|bratT36=Person-property|bratT37=Person
-13	Действие	_	_	_	_	_	_	_	bratT35=Organization|bratT36=Person-property|bratT37=Person
-14	и	_	_	_	_	_	_	_	bratT35=Organization|bratT36=Person-property|bratT37=Person
-15	солидарность	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization|bratT36=Person-property|bratT37=Person
-16	''	_	_	_	_	_	_	_	bratT35=Organization|bratT36=Person-property|bratT37=Person
-17	Майе	_	_	_	_	_	_	_	bratT37=Person
-18	Санду	_	_	_	_	_	_	_	bratT37=Person
+10	лидеру	_	_	_	_	_	_	_	bratA10=T37:Female|bratT36=Person-property|bratT37=Person
+11	партии	_	_	_	_	_	_	_	bratA10=T37:Female|bratT35=Organization|bratT36=Person-property|bratT37=Person
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Female|bratT35=Organization|bratT36=Person-property|bratT37=Person
+13	Действие	_	_	_	_	_	_	_	bratA10=T37:Female|bratT35=Organization|bratT36=Person-property|bratT37=Person
+14	и	_	_	_	_	_	_	_	bratA10=T37:Female|bratT35=Organization|bratT36=Person-property|bratT37=Person
+15	солидарность	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Female|bratT35=Organization|bratT36=Person-property|bratT37=Person
+16	''	_	_	_	_	_	_	_	bratA10=T37:Female|bratT35=Organization|bratT36=Person-property|bratT37=Person
+17	Майе	_	_	_	_	_	_	_	bratA10=T37:Female|bratT37=Person|bratT53=Person-forename
+18	Санду	_	_	_	_	_	_	_	bratA10=T37:Female|bratT37=Person|bratT54=Person-surname
 19	телеграмму	_	_	_	_	_	_	_	_
 20	с	_	_	_	_	_	_	_	_
 21	поздравлениями	_	_	_	_	_	_	_	_

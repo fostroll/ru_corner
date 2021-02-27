@@ -3,12 +3,12 @@
 # par_text = Бестемьянова высказалась о показательном выступлении Загитовой на Гран-при России
 # sent_id = 0083-p1-s1
 # text = Бестемьянова высказалась о показательном выступлении Загитовой на Гран-при России
-1	Бестемьянова	_	_	_	_	_	_	_	bratT1=Person
+1	Бестемьянова	_	_	_	_	_	_	_	bratA4=T1:Female|bratT1=Person|bratT25=Person-surname
 2	высказалась	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	показательном	_	_	_	_	_	_	_	bratT2=Event
 5	выступлении	_	_	_	_	_	_	_	bratT2=Event
-6	Загитовой	_	_	_	_	_	_	_	bratT2=Event|bratT5=Person
+6	Загитовой	_	_	_	_	_	_	_	bratA5=T5:Female|bratT2=Event|bratT26=Person-surname|bratT5=Person
 7	на	_	_	_	_	_	_	_	_
 8	Гран-при	_	_	_	_	_	_	_	bratT3=Event
 9	России	_	_	_	_	_	_	_	bratT3=Event|bratT4=GPE
@@ -17,15 +17,15 @@
 # par_text = Экс-фигуристка Наталья Бестемьянова высказалась о показательном выступлении Алины Загитовой на Гран-при России, передает «Чемпионат.com».
 # sent_id = 0083-p2-s1
 # text = Экс-фигуристка Наталья Бестемьянова высказалась о показательном выступлении Алины Загитовой на Гран-при России, передает ``Чемпионат.com''.
-1	Экс-фигуристка	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-2	Наталья	_	_	_	_	_	_	_	bratT6=Person
-3	Бестемьянова	_	_	_	_	_	_	_	bratT6=Person
+1	Экс-фигуристка	_	_	_	_	_	_	_	bratA6=T6:Female|bratT6=Person|bratT7=Person-property
+2	Наталья	_	_	_	_	_	_	_	bratA6=T6:Female|bratT27=Person-forename|bratT6=Person
+3	Бестемьянова	_	_	_	_	_	_	_	bratA6=T6:Female|bratT28=Person-surname|bratT6=Person
 4	высказалась	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	показательном	_	_	_	_	_	_	_	bratT8=Event
 7	выступлении	_	_	_	_	_	_	_	bratT8=Event
-8	Алины	_	_	_	_	_	_	_	bratT8=Event|bratT9=Person
-9	Загитовой	_	_	_	_	_	_	_	bratT8=Event|bratT9=Person
+8	Алины	_	_	_	_	_	_	_	bratA7=T9:Female|bratT29=Person-forename|bratT8=Event|bratT9=Person
+9	Загитовой	_	_	_	_	_	_	_	bratA7=T9:Female|bratT30=Person-surname|bratT8=Event|bratT9=Person
 10	на	_	_	_	_	_	_	_	_
 11	Гран-при	_	_	_	_	_	_	_	bratT10=Event
 12	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=GPE
@@ -41,7 +41,7 @@
 # sent_id = 0083-p3-s1
 # text = ``Загитова очень хороша для показательных выступлений.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Загитова	_	_	_	_	_	_	_	bratT13=Person
+2	Загитова	_	_	_	_	_	_	_	bratA8=T13:Female|bratT13=Person|bratT31=Person-surname
 3	очень	_	_	_	_	_	_	_	_
 4	хороша	_	_	_	_	_	_	_	_
 5	для	_	_	_	_	_	_	_	_
@@ -78,7 +78,7 @@
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
 17	сказала	_	_	_	_	_	_	_	_
-18	Бестемьянова	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+18	Бестемьянова	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T14:Female|bratT14=Person|bratT32=Person-surname
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0083-p4
@@ -88,7 +88,7 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	сейчас	_	_	_	_	_	_	_	bratA2=T23:Present|bratT23=Date-absolute
-4	Загитова	_	_	_	_	_	_	_	bratT15=Person
+4	Загитова	_	_	_	_	_	_	_	bratA10=T15:Female|bratT15=Person|bratT33=Person-surname
 5	ведет	_	_	_	_	_	_	_	_
 6	шоу	_	_	_	_	_	_	_	bratT16=Work-of-art
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Work-of-art
@@ -100,12 +100,12 @@
 # sent_id = 0083-p4-s2
 # text = Ранее Александр Жулин оценил показательный прокат Загитовой на Гран-при России.
 1	Ранее	_	_	_	_	_	_	_	bratA3=T24:Past|bratT24=Date-relative
-2	Александр	_	_	_	_	_	_	_	bratT17=Person
-3	Жулин	_	_	_	_	_	_	_	bratT17=Person
+2	Александр	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT35=Person-forename
+3	Жулин	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT34=Person-surname
 4	оценил	_	_	_	_	_	_	_	_
 5	показательный	_	_	_	_	_	_	_	bratT18=Event
 6	прокат	_	_	_	_	_	_	_	bratT18=Event
-7	Загитовой	_	_	_	_	_	_	_	bratT18=Event|bratT21=Person
+7	Загитовой	_	_	_	_	_	_	_	bratA12=T21:Female|bratT18=Event|bratT21=Person|bratT36=Person-surname
 8	на	_	_	_	_	_	_	_	_
 9	Гран-при	_	_	_	_	_	_	_	bratT19=Event
 10	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event|bratT20=GPE

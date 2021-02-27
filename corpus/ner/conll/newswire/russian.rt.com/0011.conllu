@@ -16,14 +16,14 @@
 # par_text = Представитель Всемирной организации здравоохранения в России Мелита Вуйнович в эфире телеканала «Россия 24» посоветовала россиянам отказаться от участия в многочисленных корпоративах в связи с эпидемией коронавируса.
 # sent_id = 0011-p2-s1
 # text = Представитель Всемирной организации здравоохранения в России Мелита Вуйнович в эфире телеканала ``Россия 24'' посоветовала россиянам отказаться от участия в многочисленных корпоративах в связи с эпидемией коронавируса.
-1	Представитель	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-2	Всемирной	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT12=Person
-3	организации	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT12=Person
-4	здравоохранения	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT12=Person
-5	в	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-6	России	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person|bratT16=GPE
-7	Мелита	_	_	_	_	_	_	_	bratT12=Person|bratT21=Person-forename
-8	Вуйнович	_	_	_	_	_	_	_	bratT12=Person|bratT22=Person-surname
+1	Представитель	_	_	_	_	_	_	_	bratA6=T12:Female|bratT11=Person-property|bratT12=Person
+2	Всемирной	_	_	_	_	_	_	_	bratA6=T12:Female|bratA9=T24:Adjective|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT24=GPE
+3	организации	_	_	_	_	_	_	_	bratA6=T12:Female|bratT10=Organization|bratT11=Person-property|bratT12=Person
+4	здравоохранения	_	_	_	_	_	_	_	bratA6=T12:Female|bratT10=Organization|bratT11=Person-property|bratT12=Person
+5	в	_	_	_	_	_	_	_	bratA6=T12:Female|bratT11=Person-property|bratT12=Person
+6	России	_	_	_	_	_	_	_	bratA6=T12:Female|bratT11=Person-property|bratT12=Person|bratT16=GPE
+7	Мелита	_	_	_	_	_	_	_	bratA6=T12:Female|bratT12=Person|bratT21=Person-forename
+8	Вуйнович	_	_	_	_	_	_	_	bratA6=T12:Female|bratT12=Person|bratT22=Person-surname
 9	в	_	_	_	_	_	_	_	_
 10	эфире	_	_	_	_	_	_	_	_
 11	телеканала	_	_	_	_	_	_	_	bratA2=T13:Media|bratT13=Organization
@@ -133,7 +133,7 @@
 1	В	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
 2	начале	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
 3	ноября	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
-4	Вуйнович	_	_	_	_	_	_	_	bratT23=Person-surname|bratT6=Person
+4	Вуйнович	_	_	_	_	_	_	_	bratA8=T6:Female|bratT23=Person-surname|bratT6=Person
 5	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_

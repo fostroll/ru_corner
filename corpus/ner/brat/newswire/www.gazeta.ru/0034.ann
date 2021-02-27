@@ -15,7 +15,7 @@ T15	Person 978 989	Емельяненко
 T16	Organization 1012 1029	``   Р-Спорт   ''
 A1	Media T16
 T17	Person 1086 1088	Ян
-T18	Person 1130 1152	Алджамейна   Стерлинга
+T18	Person 1111 1152	претендента   №1   Алджамейна   Стерлинга
 T19	Ordinal 1125 1127	№1
 T20	Person 1166 1177	Емельяненко
 T21	Person 1209 1231	Хабиба   Нурмагомедова
@@ -24,3 +24,32 @@ T8	Ordinal 1063 1072	следующий
 T22	Time-relative 429 439	во   время
 T24	Date-relative 1158 1163	Ранее
 A2	Past T24
+T25	Person-forename 0 5	Федор
+T26	Person-surname 8 19	Емельяненко
+T27	Person-forename 38 43	Петра
+T28	Person-surname 46 49	Яна
+A3	Male T2
+A4	Male T1
+T29	Person-forename 97 102	Федор
+T30	Person-surname 105 116	Емельяненко
+A5	Male T4
+A6	Male T7
+T31	Person-forename 256 261	Петре
+T32	Person-surname 264 267	Яне
+T33	Person-surname 402 404	Ян
+A7	Male T9
+T34	Person-surname 978 989	Емельяненко
+A8	Male T15
+T35	Person-surname 1086 1088	Ян
+A9	Male T17
+T36	Person-forename 1130 1140	Алджамейна
+T37	Person-surname 1143 1152	Стерлинга
+A10	Male T18
+T38	Person-property 1111 1127	претендента   №1
+A11	Male T20
+T39	Person-surname 1166 1177	Емельяненко
+T40	Person-forename 1209 1215	Хабиба
+T41	Person-surname 1218 1231	Нурмагомедова
+A12	Male T21
+T42	GPE 71 81	Российский
+A13	Adjective T42

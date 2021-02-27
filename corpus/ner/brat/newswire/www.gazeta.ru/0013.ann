@@ -12,7 +12,7 @@ T11	Person 247 260	Джо   Байдену
 T12	Organization 278 301	РИА   ``   Новости   ''
 A1	Media T12
 T13	Person 369 403	действующему   президенту   Трампу
-T14	Person-property 384 394	президенту
+T14	Person-property 369 394	действующему   президенту
 T15	Person 465 472	Байдену
 T16	Person 497 502	Путин
 T17	Date-absolute 508 518	3   ноября
@@ -42,3 +42,38 @@ T36	Person-property 418 427	кандидату
 T21	Person-property 604 623	главы   государства
 A7	Past T17
 A8	Past T26
+A9	Male T1
+T37	Person-surname 0 5	Путин
+T38	Person-surname 46 52	Трампу
+T39	Person-surname 59 66	Байдену
+A10	Male T4
+A11	Male T3
+T40	Person-forename 93 101	Владимир
+T41	Person-surname 104 109	Путин
+A12	Male T5
+T42	Person-forename 188 196	Дональду
+T43	Person-surname 199 205	Трампу
+A13	Male T8
+T44	Person-forename 247 250	Джо
+T45	Person-surname 253 260	Байдену
+A14	Male T11
+T46	Person-surname 397 403	Трампу
+A15	Male T13
+A16	Male T15
+A17	Male T16
+T47	Person-surname 497 502	Путин
+T48	Person-surname 465 472	Байдену
+T49	Person-forename 641 644	Джо
+T50	Person-surname 647 653	Байден
+A18	Male T22
+T51	Person-forename 676 683	Дональд
+T52	Person-surname 686 691	Трамп
+A19	Male T24
+T53	Person-surname 832 839	Байдена
+A20	Male T29
+T54	Person-surname 844 849	Трамп
+A21	Male T30
+T55	GPE 68 78	Российский
+A22	Adjective T55
+T56	GPE 720 732	американские
+A23	Adjective T56

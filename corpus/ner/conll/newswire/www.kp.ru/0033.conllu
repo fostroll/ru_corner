@@ -3,7 +3,7 @@
 # par_text = Голикова: Суточный прирост заболеваемости коронавирусом вырос в 2,5 раза с 1 октября
 # sent_id = 0033-p1-s1
 # text = Голикова: Суточный прирост заболеваемости коронавирусом вырос в 2,5 раза с 1 октября
-1	Голикова	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT35=Person-surname
+1	Голикова	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T1:Female|bratT1=Person|bratT35=Person-surname
 2	:	_	_	_	_	_	_	_	_
 3	Суточный	_	_	_	_	_	_	_	bratT24=Duration|bratT32=Time-period
 4	прирост	_	_	_	_	_	_	_	_
@@ -21,11 +21,11 @@
 # par_text = Заместитель председателя правительства Татьяна Голикова сообщила, что с 1 октября в России в 2,5 раза увеличилось суточное число новых заражённых коронавирусом.
 # sent_id = 0033-p2-s1
 # text = Заместитель председателя правительства Татьяна Голикова сообщила, что с 1 октября в России в 2,5 раза увеличилось суточное число новых заражённых коронавирусом.
-1	Заместитель	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
-2	председателя	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Person-property
-3	правительства	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Person-property
-4	Татьяна	_	_	_	_	_	_	_	bratT36=Person-forename|bratT5=Person
-5	Голикова	_	_	_	_	_	_	_	bratT37=Person-surname|bratT5=Person
+1	Заместитель	_	_	_	_	_	_	_	bratA9=T5:Female|bratT5=Person|bratT6=Person-property
+2	председателя	_	_	_	_	_	_	_	bratA9=T5:Female|bratT5=Person|bratT6=Person-property|bratT7=Person-property
+3	правительства	_	_	_	_	_	_	_	bratA9=T5:Female|bratT5=Person|bratT6=Person-property|bratT7=Person-property
+4	Татьяна	_	_	_	_	_	_	_	bratA9=T5:Female|bratT36=Person-forename|bratT5=Person
+5	Голикова	_	_	_	_	_	_	_	bratA9=T5:Female|bratT37=Person-surname|bratT5=Person
 6	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_

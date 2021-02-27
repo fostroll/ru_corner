@@ -3,7 +3,7 @@
 # par_text = Трамп обвинил фармацевтические компании в попытке помешать его победе на выборах
 # sent_id = 0047-p1-s1
 # text = Трамп обвинил фармацевтические компании в попытке помешать его победе на выборах
-1	Трамп	_	_	_	_	_	_	_	bratT1=Person|bratT29=Person-surname
+1	Трамп	_	_	_	_	_	_	_	bratA7=T1:Male|bratT1=Person|bratT29=Person-surname
 2	обвинил	_	_	_	_	_	_	_	_
 3	фармацевтические	_	_	_	_	_	_	_	_
 4	компании	_	_	_	_	_	_	_	_
@@ -19,11 +19,11 @@
 # par_text = Действующий американский лидер Дональд Трамп обвинил крупные фармацевтические компании в попытках добиться его поражения на президентских выборах, запустив многомиллионную рекламную кампанию, а также затягивая объявление об успешных испытаниях вакцины от коронавирусной инфекции.
 # sent_id = 0047-p2-s1
 # text = Действующий американский лидер Дональд Трамп обвинил крупные фармацевтические компании в попытках добиться его поражения на президентских выборах, запустив многомиллионную рекламную кампанию, а также затягивая объявление об успешных испытаниях вакцины от коронавирусной инфекции.
-1	Действующий	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-2	американский	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT33=GPE
-3	лидер	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-4	Дональд	_	_	_	_	_	_	_	bratT2=Person|bratT30=Person-forename
-5	Трамп	_	_	_	_	_	_	_	bratT2=Person|bratT31=Person-surname
+1	Действующий	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT3=Person-property
+2	американский	_	_	_	_	_	_	_	bratA10=T33:Adjective|bratA8=T2:Male|bratT2=Person|bratT3=Person-property|bratT33=GPE
+3	лидер	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT3=Person-property
+4	Дональд	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT30=Person-forename
+5	Трамп	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT31=Person-surname
 6	обвинил	_	_	_	_	_	_	_	_
 7	крупные	_	_	_	_	_	_	_	_
 8	фармацевтические	_	_	_	_	_	_	_	_
@@ -104,7 +104,7 @@
 # text = По словам Трампа, он получил почти 74 млн голосов избирателей, тогда как против него были крупные фармацевтические компании, но и крупные СМИ, а также технологические компании.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Трампа	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-surname|bratT5=Person
+3	Трампа	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T5:Male|bratT32=Person-surname|bratT5=Person
 4	,	_	_	_	_	_	_	_	_
 5	он	_	_	_	_	_	_	_	_
 6	получил	_	_	_	_	_	_	_	_
@@ -213,13 +213,13 @@
 8	клинических	_	_	_	_	_	_	_	bratT28=Event
 9	испытаний	_	_	_	_	_	_	_	bratT28=Event
 10	вакцин	_	_	_	_	_	_	_	bratT28=Event
-11	немецкой	_	_	_	_	_	_	_	bratT10=Organization
+11	немецкой	_	_	_	_	_	_	_	bratA11=T34:Adjective|bratT10=Organization|bratT34=GPE
 12	фармацевтической	_	_	_	_	_	_	_	bratT10=Organization
 13	компании	_	_	_	_	_	_	_	bratT10=Organization
 14	BioNTech	_	_	_	_	_	_	_	bratT10=Organization
 15	и	_	_	_	_	_	_	_	_
 16	ее	_	_	_	_	_	_	_	_
-17	американского	_	_	_	_	_	_	_	_
+17	американского	_	_	_	_	_	_	_	bratA12=T35:Adjective|bratT35=GPE
 18	партнера	_	_	_	_	_	_	_	_
 19	Pfizer	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
 20	,	_	_	_	_	_	_	_	_

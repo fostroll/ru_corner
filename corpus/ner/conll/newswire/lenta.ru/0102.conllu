@@ -28,11 +28,11 @@
 10	контролем	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	заявил	_	_	_	_	_	_	_	_
-13	официальный	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-14	представитель	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-15	Кремля	_	_	_	_	_	_	_	bratT29=Organization|bratT6=Person|bratT7=Person-property
-16	Дмитрий	_	_	_	_	_	_	_	bratT35=Person-forename|bratT6=Person
-17	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-surname|bratT6=Person
+13	официальный	_	_	_	_	_	_	_	bratA7=T6:Male|bratT6=Person|bratT7=Person-property
+14	представитель	_	_	_	_	_	_	_	bratA7=T6:Male|bratT6=Person|bratT7=Person-property
+15	Кремля	_	_	_	_	_	_	_	bratA7=T6:Male|bratT29=Organization|bratT6=Person|bratT7=Person-property
+16	Дмитрий	_	_	_	_	_	_	_	bratA7=T6:Male|bratT35=Person-forename|bratT6=Person
+17	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Male|bratT36=Person-surname|bratT6=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0102-p2-s2
@@ -72,10 +72,10 @@
 1	Ранее	_	_	_	_	_	_	_	bratA3=T11:Past|bratA6=T34:Past|bratT11=Date-absolute|bratT34=Date-relative
 2	в	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-absolute
 3	четверг	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-absolute
-4	мэр	_	_	_	_	_	_	_	bratT12=Person-property|bratT14=Person
-5	Москвы	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=GPE|bratT14=Person
-6	Сергей	_	_	_	_	_	_	_	bratT14=Person|bratT37=Person-forename
-7	Собянин	_	_	_	_	_	_	_	bratT14=Person|bratT38=Person-surname
+4	мэр	_	_	_	_	_	_	_	bratA8=T14:Male|bratT12=Person-property|bratT14=Person
+5	Москвы	_	_	_	_	_	_	_	bratA8=T14:Male|bratT12=Person-property|bratT13=GPE|bratT14=Person
+6	Сергей	_	_	_	_	_	_	_	bratA8=T14:Male|bratT14=Person|bratT37=Person-forename
+7	Собянин	_	_	_	_	_	_	_	bratA8=T14:Male|bratT14=Person|bratT38=Person-surname
 8	заявил	_	_	_	_	_	_	_	_
 9	об	_	_	_	_	_	_	_	_
 10	обострении	_	_	_	_	_	_	_	_

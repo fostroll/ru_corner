@@ -7,7 +7,7 @@
 2	документы	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	казнях	_	_	_	_	_	_	_	_
-5	советских	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality|bratT41=GPE
+5	советских	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratA12=T41:Adjective|bratT1=Nationality|bratT41=GPE
 6	граждан	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
 7	пособниками	_	_	_	_	_	_	_	_
 8	гитлеровцев	_	_	_	_	_	_	_	bratT2=Political-group
@@ -20,7 +20,7 @@
 2	документы	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	казнях	_	_	_	_	_	_	_	_
-5	советских	_	_	_	_	_	_	_	bratA2=T3:Citizenship|bratT3=Nationality|bratT43=GPE
+5	советских	_	_	_	_	_	_	_	bratA13=T43:Adjective|bratA2=T3:Citizenship|bratT3=Nationality|bratT43=GPE
 6	граждан	_	_	_	_	_	_	_	bratA2=T3:Citizenship|bratT3=Nationality
 7	пособниками	_	_	_	_	_	_	_	_
 8	гитлеровцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Political-group
@@ -80,7 +80,7 @@
 13	освобождения	_	_	_	_	_	_	_	bratA6=T12:Past|bratT12=Date-absolute|bratT40=Event
 14	Орловской	_	_	_	_	_	_	_	bratT27=GPE|bratT40=Event
 15	области	_	_	_	_	_	_	_	bratT27=GPE|bratT40=Event
-16	советскими	_	_	_	_	_	_	_	bratT40=Event|bratT44=GPE
+16	советскими	_	_	_	_	_	_	_	bratA14=T44:Adjective|bratT40=Event|bratT44=GPE
 17	войсками	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 18	.	_	_	_	_	_	_	_	_
 
@@ -94,7 +94,7 @@
 6	из	_	_	_	_	_	_	_	_
 7	числа	_	_	_	_	_	_	_	_
 8	предателей	_	_	_	_	_	_	_	_
-9	советского	_	_	_	_	_	_	_	bratA3=T30:Citizenship|bratT30=Nationality|bratT45=GPE
+9	советского	_	_	_	_	_	_	_	bratA15=T45:Adjective|bratA3=T30:Citizenship|bratT30=Nationality|bratT45=GPE
 10	народа	_	_	_	_	_	_	_	bratA3=T30:Citizenship|bratT30=Nationality
 11	массово	_	_	_	_	_	_	_	_
 12	казнили	_	_	_	_	_	_	_	_
@@ -162,23 +162,23 @@
 3	говорится	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	спецзаписке	_	_	_	_	_	_	_	_
-6	начальника	_	_	_	_	_	_	_	bratT18=Person|bratT25=Person-property
-7	СМЕРШ	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT28=Organization
-8	11-й	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization|bratT38=Ordinal
-9	гвардейской	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization
-10	армии	_	_	_	_	_	_	_	bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization
-11	гвардии	_	_	_	_	_	_	_	bratT18=Person|bratT22=Person-property
-12	полковника	_	_	_	_	_	_	_	bratT18=Person|bratT22=Person-property
-13	Николая	_	_	_	_	_	_	_	bratT18=Person|bratT50=Person-forename
-14	Митрофанова	_	_	_	_	_	_	_	bratT18=Person|bratT51=Person-surname
-15	начальнику	_	_	_	_	_	_	_	bratT19=Person|bratT23=Person-property
-16	управления	_	_	_	_	_	_	_	bratT19=Person|bratT23=Person-property|bratT24=Organization
-17	СМЕРШ	_	_	_	_	_	_	_	bratT19=Person|bratT23=Person-property|bratT24=Organization
-18	Западного	_	_	_	_	_	_	_	bratT19=Person|bratT23=Person-property|bratT24=Organization
-19	фронта	_	_	_	_	_	_	_	bratT19=Person|bratT23=Person-property|bratT24=Organization
-20	генерал-лейтенанту	_	_	_	_	_	_	_	bratT19=Person|bratT20=Person-property
-21	Павлу	_	_	_	_	_	_	_	bratT19=Person|bratT52=Person-forename
-22	Зеленину	_	_	_	_	_	_	_	bratT19=Person|bratT53=Person-surname
+6	начальника	_	_	_	_	_	_	_	bratA16=T18:Male|bratT18=Person|bratT25=Person-property
+7	СМЕРШ	_	_	_	_	_	_	_	bratA16=T18:Male|bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT28=Organization
+8	11-й	_	_	_	_	_	_	_	bratA16=T18:Male|bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization|bratT38=Ordinal
+9	гвардейской	_	_	_	_	_	_	_	bratA16=T18:Male|bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization
+10	армии	_	_	_	_	_	_	_	bratA16=T18:Male|bratA4=T28:Department|bratT18=Person|bratT25=Person-property|bratT26=Organization|bratT28=Organization
+11	гвардии	_	_	_	_	_	_	_	bratA16=T18:Male|bratT18=Person|bratT22=Person-property
+12	полковника	_	_	_	_	_	_	_	bratA16=T18:Male|bratT18=Person|bratT22=Person-property
+13	Николая	_	_	_	_	_	_	_	bratA16=T18:Male|bratT18=Person|bratT50=Person-forename
+14	Митрофанова	_	_	_	_	_	_	_	bratA16=T18:Male|bratT18=Person|bratT51=Person-surname
+15	начальнику	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT23=Person-property
+16	управления	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT23=Person-property|bratT24=Organization
+17	СМЕРШ	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT23=Person-property|bratT24=Organization
+18	Западного	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT23=Person-property|bratT24=Organization
+19	фронта	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT23=Person-property|bratT24=Organization
+20	генерал-лейтенанту	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT20=Person-property
+21	Павлу	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT52=Person-forename
+22	Зеленину	_	_	_	_	_	_	_	bratA17=T19:Male|bratT19=Person|bratT53=Person-surname
 23	в	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-absolute
 24	августе	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-absolute
 25	1943	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-absolute
@@ -205,7 +205,7 @@
 16	под	_	_	_	_	_	_	_	bratT33=Organization
 17	названием	_	_	_	_	_	_	_	bratT33=Organization
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
-19	Украинская	_	_	_	_	_	_	_	bratT33=Organization|bratT47=GPE
+19	Украинская	_	_	_	_	_	_	_	bratA18=T47:Adjective|bratT33=Organization|bratT47=GPE
 20	компания	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
 21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
 22	,	_	_	_	_	_	_	_	_
@@ -219,14 +219,14 @@
 30	главе	_	_	_	_	_	_	_	_
 31	с	_	_	_	_	_	_	_	_
 32	неким	_	_	_	_	_	_	_	_
-33	Гетманым	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT54=Person-surname
+33	Гетманым	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T21:Male|bratT21=Person|bratT54=Person-surname
 34	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0076-p4-s4
 # text = По словам Митрофанова, там во время оккупации было казнено свыше 200 советских граждан.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Митрофанова	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT55=Person-surname
+3	Митрофанова	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T35:Male|bratT35=Person|bratT55=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	там	_	_	_	_	_	_	_	_
 6	во	_	_	_	_	_	_	_	bratA11=T32:Past|bratT32=Date-absolute
@@ -236,7 +236,7 @@
 10	казнено	_	_	_	_	_	_	_	_
 11	свыше	_	_	_	_	_	_	_	bratT37=Quantity
 12	200	_	_	_	_	_	_	_	bratT37=Quantity
-13	советских	_	_	_	_	_	_	_	bratA10=T48:Citizenship|bratT37=Quantity|bratT48=Nationality|bratT49=GPE
+13	советских	_	_	_	_	_	_	_	bratA10=T48:Citizenship|bratA21=T49:Adjective|bratT37=Quantity|bratT48=Nationality|bratT49=GPE
 14	граждан	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T48:Citizenship|bratT37=Quantity|bratT48=Nationality
 15	.	_	_	_	_	_	_	_	_
 

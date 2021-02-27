@@ -18,9 +18,9 @@
 # par_text = Врач-дерматолог Алексей Едемский в беседе с радио Sputnik рассказал, как ухаживать за кожей рук при использовании дезинфицирующих средств.
 # sent_id = 0042-p2-s1
 # text = Врач-дерматолог Алексей Едемский в беседе с радио Sputnik рассказал, как ухаживать за кожей рук при использовании дезинфицирующих средств.
-1	Врач-дерматолог	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Person
-2	Алексей	_	_	_	_	_	_	_	bratT17=Person-forename|bratT4=Person
-3	Едемский	_	_	_	_	_	_	_	bratT18=Person-surname|bratT4=Person
+1	Врач-дерматолог	_	_	_	_	_	_	_	bratA4=T4:Male|bratT2=Person-property|bratT4=Person
+2	Алексей	_	_	_	_	_	_	_	bratA4=T4:Male|bratT17=Person-forename|bratT4=Person
+3	Едемский	_	_	_	_	_	_	_	bratA4=T4:Male|bratT18=Person-surname|bratT4=Person
 4	в	_	_	_	_	_	_	_	_
 5	беседе	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 # par_text = Едемский отметил, что состав крема был максимально простым. По его словам, из-за большого количества компонентов увеличивается вероятность аллергической реакции.
 # sent_id = 0042-p5-s1
 # text = Едемский отметил, что состав крема был максимально простым.
-1	Едемский	_	_	_	_	_	_	_	bratT14=Person|bratT19=Person-surname
+1	Едемский	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT19=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

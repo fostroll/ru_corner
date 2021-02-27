@@ -3,13 +3,13 @@
 # par_text = Семин прокомментировал новость о возможном назначении Ротенберга на должность директора «Локомотива»
 # sent_id = 0054-p1-s1
 # text = Семин прокомментировал новость о возможном назначении Ротенберга на должность директора ``Локомотива''
-1	Семин	_	_	_	_	_	_	_	bratT1=Person
+1	Семин	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT14=Person-surname
 2	прокомментировал	_	_	_	_	_	_	_	_
 3	новость	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
 5	возможном	_	_	_	_	_	_	_	_
 6	назначении	_	_	_	_	_	_	_	_
-7	Ротенберга	_	_	_	_	_	_	_	bratT2=Person
+7	Ротенберга	_	_	_	_	_	_	_	bratA6=T2:Male|bratT15=Person-surname|bratT2=Person
 8	на	_	_	_	_	_	_	_	_
 9	должность	_	_	_	_	_	_	_	_
 10	директора	_	_	_	_	_	_	_	bratT5=Person-property
@@ -21,26 +21,26 @@
 # par_text = Бывший главный тренер «Локомотива» Юрий Семин прокомментировал новость о возможном назначении Бориса Ротенберга на должность генерального директора московского клуба, передает «Спорт-Экспресс».
 # sent_id = 0054-p2-s1
 # text = Бывший главный тренер ``Локомотива'' Юрий Семин прокомментировал новость о возможном назначении Бориса Ротенберга на должность генерального директора московского клуба, передает ``Спорт-Экспресс''.
-1	Бывший	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-2	главный	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-3	тренер	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT7=Organization|bratT9=Person-property
-5	Локомотива	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT7=Organization|bratT9=Person-property
-6	''	_	_	_	_	_	_	_	bratT11=Person|bratT7=Organization|bratT9=Person-property
-7	Юрий	_	_	_	_	_	_	_	bratT11=Person
-8	Семин	_	_	_	_	_	_	_	bratT11=Person
+1	Бывший	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT9=Person-property
+2	главный	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT9=Person-property
+3	тренер	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT9=Person-property
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T11:Male|bratT11=Person|bratT7=Organization|bratT9=Person-property
+5	Локомотива	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T11:Male|bratT11=Person|bratT7=Organization|bratT9=Person-property
+6	''	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT7=Organization|bratT9=Person-property
+7	Юрий	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT41=Person-forename
+8	Семин	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT43=Person-surname
 9	прокомментировал	_	_	_	_	_	_	_	_
 10	новость	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	возможном	_	_	_	_	_	_	_	_
 13	назначении	_	_	_	_	_	_	_	_
-14	Бориса	_	_	_	_	_	_	_	bratT10=Person
-15	Ротенберга	_	_	_	_	_	_	_	bratT10=Person
+14	Бориса	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT44=Person-forename
+15	Ротенберга	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT45=Person-surname
 16	на	_	_	_	_	_	_	_	_
 17	должность	_	_	_	_	_	_	_	_
 18	генерального	_	_	_	_	_	_	_	bratT12=Person-property
 19	директора	_	_	_	_	_	_	_	bratT12=Person-property
-20	московского	_	_	_	_	_	_	_	bratT12=Person-property
+20	московского	_	_	_	_	_	_	_	bratA13=T51:Adjective|bratT12=Person-property|bratT51=GPE
 21	клуба	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
 22	,	_	_	_	_	_	_	_	_
 23	передает	_	_	_	_	_	_	_	_
@@ -59,7 +59,7 @@
 4	о	_	_	_	_	_	_	_	_
 5	возможном	_	_	_	_	_	_	_	_
 6	назначении	_	_	_	_	_	_	_	_
-7	Ротенберга	_	_	_	_	_	_	_	bratT16=Person
+7	Ротенберга	_	_	_	_	_	_	_	bratA9=T16:Male|bratT16=Person|bratT46=Person-surname
 8	на	_	_	_	_	_	_	_	_
 9	должность	_	_	_	_	_	_	_	_
 10	генерального	_	_	_	_	_	_	_	bratT18=Person-property
@@ -85,7 +85,7 @@
 2	словам	_	_	_	_	_	_	_	_
 3	тренера	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property
 4	,	_	_	_	_	_	_	_	_
-5	Ротенберг	_	_	_	_	_	_	_	bratT21=Person
+5	Ротенберг	_	_	_	_	_	_	_	bratA10=T21:Male|bratT21=Person|bratT47=Person-surname
 6	в	_	_	_	_	_	_	_	_
 7	состоянии	_	_	_	_	_	_	_	_
 8	работать	_	_	_	_	_	_	_	_
@@ -102,7 +102,7 @@
 
 # sent_id = 0054-p4-s2
 # text = Семин отмечает, что у него нет информации и он не может комментировать.
-1	Семин	_	_	_	_	_	_	_	bratT22=Person
+1	Семин	_	_	_	_	_	_	_	bratA11=T22:Male|bratT22=Person|bratT48=Person-surname
 2	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -149,8 +149,8 @@
 # par_text = Борис Ротенберг — предприниматель и владелец футбольного клуба «Сочи».
 # sent_id = 0054-p6-s1
 # text = Борис Ротенберг - предприниматель и владелец футбольного клуба ``Сочи''.
-1	Борис	_	_	_	_	_	_	_	bratT24=Person
-2	Ротенберг	_	_	_	_	_	_	_	bratT24=Person
+1	Борис	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT49=Person-forename
+2	Ротенберг	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT50=Person-surname
 3	-	_	_	_	_	_	_	_	_
 4	предприниматель	_	_	_	_	_	_	_	bratT26=Person-property
 5	и	_	_	_	_	_	_	_	_
@@ -169,9 +169,9 @@
 1	После	_	_	_	_	_	_	_	bratA2=T8:Past|bratT8=Date-absolute
 2	14	_	_	_	_	_	_	_	bratA2=T8:Past|bratT27=Quantity|bratT8=Date-absolute
 3	туров	_	_	_	_	_	_	_	bratA2=T8:Past|bratT27=Quantity|bratT8=Date-absolute
-4	Российской	_	_	_	_	_	_	_	bratT28=Event
+4	Российской	_	_	_	_	_	_	_	bratA15=T53:Adjective|bratT28=Event|bratT53=GPE
 5	премьер-лиги	_	_	_	_	_	_	_	bratT28=Event
-6	московский	_	_	_	_	_	_	_	bratT29=Organization
+6	московский	_	_	_	_	_	_	_	bratA14=T52:Adjective|bratT29=Organization|bratT52=GPE
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
 8	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
 9	''	_	_	_	_	_	_	_	bratT29=Organization
@@ -213,7 +213,7 @@
 4	31	_	_	_	_	_	_	_	bratT36=Quantity
 5	очком	_	_	_	_	_	_	_	bratT36=Quantity
 6	занимает	_	_	_	_	_	_	_	_
-7	московский	_	_	_	_	_	_	_	bratT37=Organization
+7	московский	_	_	_	_	_	_	_	bratA16=T54:Adjective|bratT37=Organization|bratT54=GPE
 8	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
 9	.	_	_	_	_	_	_	_	_
 

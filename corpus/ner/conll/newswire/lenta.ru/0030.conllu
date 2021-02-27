@@ -6,7 +6,7 @@
 1	Продвижение	_	_	_	_	_	_	_	_
 2	Instagram-аккаунтов	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Service
 3	семьи	_	_	_	_	_	_	_	bratT29=Family
-4	Кадырова	_	_	_	_	_	_	_	bratT1=Person|bratT42=Person-surname
+4	Кадырова	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT42=Person-surname
 5	за	_	_	_	_	_	_	_	_
 6	2,4	_	_	_	_	_	_	_	bratT2=Money
 7	миллиона	_	_	_	_	_	_	_	bratT2=Money
@@ -19,10 +19,10 @@
 # text = Раскрутка Instagram-аккаунтов главы Чечни Рамзана Кадырова и членов его семьи объясняется желанием увеличить их популярность и позиционировать как лидеров среди молодежи.
 1	Раскрутка	_	_	_	_	_	_	_	_
 2	Instagram-аккаунтов	_	_	_	_	_	_	_	bratA3=T4:Media|bratT4=Service
-3	главы	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-4	Чечни	_	_	_	_	_	_	_	bratT31=GPE|bratT5=Person-property|bratT6=Person
-5	Рамзана	_	_	_	_	_	_	_	bratT43=Person-forename|bratT6=Person
-6	Кадырова	_	_	_	_	_	_	_	bratT44=Person-surname|bratT6=Person
+3	главы	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
+4	Чечни	_	_	_	_	_	_	_	bratA5=T6:Male|bratT31=GPE|bratT5=Person-property|bratT6=Person
+5	Рамзана	_	_	_	_	_	_	_	bratA5=T6:Male|bratT43=Person-forename|bratT6=Person
+6	Кадырова	_	_	_	_	_	_	_	bratA5=T6:Male|bratT44=Person-surname|bratT6=Person
 7	и	_	_	_	_	_	_	_	_
 8	членов	_	_	_	_	_	_	_	_
 9	его	_	_	_	_	_	_	_	_
@@ -46,7 +46,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	заявили	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Media|bratT7=Organization
-5	Кавказскому	_	_	_	_	_	_	_	bratA2=T7:Media|bratT7=Organization
+5	Кавказскому	_	_	_	_	_	_	_	bratA16=T58:Adjective|bratA2=T7:Media|bratT58=GPE|bratT7=Organization
 6	узлу	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Media|bratT7=Organization
 7	''	_	_	_	_	_	_	_	bratA2=T7:Media|bratT7=Organization
 8	опрошенные	_	_	_	_	_	_	_	_
@@ -59,10 +59,10 @@
 # text = По словам чеченского блогера Тумсо Абдурахманова, выступающего с критикой властей республики, ``практика принуждения бюджетников'' в случае с продвижением соцсетей не так эффективна, в связи с чем сотрудники Кадырова привлекают платных специалистов.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	чеченского	_	_	_	_	_	_	_	bratT10=Person|bratT41=GPE|bratT9=Person-property
-4	блогера	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-5	Тумсо	_	_	_	_	_	_	_	bratT10=Person|bratT45=Person-forename
-6	Абдурахманова	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT46=Person-surname
+3	чеченского	_	_	_	_	_	_	_	bratA6=T10:Male|bratA7=T41:Adjective|bratT10=Person|bratT41=GPE|bratT9=Person-property
+4	блогера	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT9=Person-property
+5	Тумсо	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT45=Person-forename
+6	Абдурахманова	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT46=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	выступающего	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
@@ -89,7 +89,7 @@
 30	с	_	_	_	_	_	_	_	_
 31	чем	_	_	_	_	_	_	_	_
 32	сотрудники	_	_	_	_	_	_	_	_
-33	Кадырова	_	_	_	_	_	_	_	bratT11=Person|bratT47=Person-surname
+33	Кадырова	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT47=Person-surname
 34	привлекают	_	_	_	_	_	_	_	_
 35	платных	_	_	_	_	_	_	_	_
 36	специалистов	_	_	_	_	_	_	_	SpaceAfter=No
@@ -97,7 +97,7 @@
 
 # sent_id = 0030-p3-s2
 # text = Абдурахманов считает, что для главы Чечни важна раскрутка аккаунтов, так как соцсети набирают популярность, а интернет в России пользуется большим доверием, чем телевидение.
-1	Абдурахманов	_	_	_	_	_	_	_	bratT13=Person|bratT48=Person-surname
+1	Абдурахманов	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT48=Person-surname
 2	считает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -150,7 +150,7 @@
 
 # sent_id = 0030-p3-s5
 # text = Кадыров хочет ассоциироваться как лидер молодежи'', - добавил блогер.
-1	Кадыров	_	_	_	_	_	_	_	bratT15=Person|bratT49=Person-surname
+1	Кадыров	_	_	_	_	_	_	_	bratA13=T15:Male|bratT15=Person|bratT49=Person-surname
 2	хочет	_	_	_	_	_	_	_	_
 3	ассоциироваться	_	_	_	_	_	_	_	_
 4	как	_	_	_	_	_	_	_	_
@@ -167,13 +167,13 @@
 # par_text = Правозащитница Светлана Ганнушкина отметила, что Кадыров может позволить себе тратить деньги, чем он и занимается. «У Кадыровых денег много, вот и тратят», — заявила она. Ганнушкина считает, что продвижение аккаунтов родственников для главы Чечни тоже важно, так как это элемент культуры — «не он один, а род».
 # sent_id = 0030-p4-s1
 # text = Правозащитница Светлана Ганнушкина отметила, что Кадыров может позволить себе тратить деньги, чем он и занимается.
-1	Правозащитница	_	_	_	_	_	_	_	bratT16=Person|bratT30=Person-property
-2	Светлана	_	_	_	_	_	_	_	bratT16=Person|bratT50=Person-forename
-3	Ганнушкина	_	_	_	_	_	_	_	bratT16=Person|bratT51=Person-surname
+1	Правозащитница	_	_	_	_	_	_	_	bratA10=T16:Female|bratT16=Person|bratT30=Person-property
+2	Светлана	_	_	_	_	_	_	_	bratA10=T16:Female|bratT16=Person|bratT50=Person-forename
+3	Ганнушкина	_	_	_	_	_	_	_	bratA10=T16:Female|bratT16=Person|bratT51=Person-surname
 4	отметила	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	Кадыров	_	_	_	_	_	_	_	bratT17=Person|bratT52=Person-surname
+7	Кадыров	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT52=Person-surname
 8	может	_	_	_	_	_	_	_	_
 9	позволить	_	_	_	_	_	_	_	_
 10	себе	_	_	_	_	_	_	_	_
@@ -206,7 +206,7 @@
 
 # sent_id = 0030-p4-s3
 # text = Ганнушкина считает, что продвижение аккаунтов родственников для главы Чечни тоже важно, так как это элемент культуры - ``не он один, а род''.
-1	Ганнушкина	_	_	_	_	_	_	_	bratT18=Person|bratT54=Person-surname
+1	Ганнушкина	_	_	_	_	_	_	_	bratA12=T18:Female|bratT18=Person|bratT54=Person-surname
 2	считает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -239,14 +239,14 @@
 # par_text = Старший научный сотрудник Института востоковедения РАН Михаил Рощин считает, что сумма в 2,4 миллиона рублей, потраченная на продвижение аккаунтов Кадырова и его родственников, не так велика. По его мнению, коллективная раскрутка может быть связана с возможными политическими целями.
 # sent_id = 0030-p5-s1
 # text = Старший научный сотрудник Института востоковедения РАН Михаил Рощин считает, что сумма в 2,4 миллиона рублей, потраченная на продвижение аккаунтов Кадырова и его родственников, не так велика.
-1	Старший	_	_	_	_	_	_	_	bratT19=Person|bratT22=Person-property
-2	научный	_	_	_	_	_	_	_	bratT19=Person|bratT22=Person-property
-3	сотрудник	_	_	_	_	_	_	_	bratT19=Person|bratT22=Person-property
-4	Института	_	_	_	_	_	_	_	bratT19=Person|bratT22=Person-property|bratT23=Organization
-5	востоковедения	_	_	_	_	_	_	_	bratT19=Person|bratT22=Person-property|bratT23=Organization
-6	РАН	_	_	_	_	_	_	_	bratT19=Person|bratT22=Person-property|bratT23=Organization
-7	Михаил	_	_	_	_	_	_	_	bratT19=Person|bratT55=Person-forename
-8	Рощин	_	_	_	_	_	_	_	bratT19=Person|bratT56=Person-surname
+1	Старший	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT22=Person-property
+2	научный	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT22=Person-property
+3	сотрудник	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT22=Person-property
+4	Института	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT22=Person-property|bratT23=Organization
+5	востоковедения	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT22=Person-property|bratT23=Organization
+6	РАН	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT22=Person-property|bratT23=Organization
+7	Михаил	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT55=Person-forename
+8	Рощин	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT56=Person-surname
 9	считает	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
@@ -260,7 +260,7 @@
 19	на	_	_	_	_	_	_	_	_
 20	продвижение	_	_	_	_	_	_	_	_
 21	аккаунтов	_	_	_	_	_	_	_	_
-22	Кадырова	_	_	_	_	_	_	_	bratT20=Person|bratT57=Person-surname
+22	Кадырова	_	_	_	_	_	_	_	bratA15=T20:Male|bratT20=Person|bratT57=Person-surname
 23	и	_	_	_	_	_	_	_	_
 24	его	_	_	_	_	_	_	_	_
 25	родственников	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Family

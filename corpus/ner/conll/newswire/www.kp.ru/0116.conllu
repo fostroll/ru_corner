@@ -22,7 +22,7 @@
 # par_text = Российское министерство иностранных дел сообщило, что Турция поддержала ночное заявление лидеров России, Армении и Азербайджана по полному прекращению военных действий в Нагорном Карабахе. При этом на линии соприкосновения в регионе будут размещены только российские миротворцы. Об этом во вторник, 10 ноября, заявила официальный представитель российского МИД Мария Захарова.
 # sent_id = 0116-p2-s1
 # text = Российское министерство иностранных дел сообщило, что Турция поддержала ночное заявление лидеров России, Армении и Азербайджана по полному прекращению военных действий в Нагорном Карабахе.
-1	Российское	_	_	_	_	_	_	_	bratT8=Organization
+1	Российское	_	_	_	_	_	_	_	bratA13=T55:Adjective|bratT55=GPE|bratT8=Organization
 2	министерство	_	_	_	_	_	_	_	bratT8=Organization
 3	иностранных	_	_	_	_	_	_	_	bratT8=Organization
 4	дел	_	_	_	_	_	_	_	bratT8=Organization
@@ -61,7 +61,7 @@
 8	будут	_	_	_	_	_	_	_	_
 9	размещены	_	_	_	_	_	_	_	_
 10	только	_	_	_	_	_	_	_	_
-11	российские	_	_	_	_	_	_	_	bratT15=Person-property
+11	российские	_	_	_	_	_	_	_	bratA14=T56:Adjective|bratT15=Person-property|bratT56=GPE
 12	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
 13	.	_	_	_	_	_	_	_	_
 
@@ -76,12 +76,12 @@
 7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period-absolute
 8	,	_	_	_	_	_	_	_	_
 9	заявила	_	_	_	_	_	_	_	_
-10	официальный	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
-11	представитель	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
-12	российского	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Person-property|bratT19=Person
-13	МИД	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Person-property|bratT19=Person
-14	Мария	_	_	_	_	_	_	_	bratT19=Person|bratT48=Person-forename
-15	Захарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT49=Person-surname
+10	официальный	_	_	_	_	_	_	_	bratA8=T19:Female|bratT18=Person-property|bratT19=Person
+11	представитель	_	_	_	_	_	_	_	bratA8=T19:Female|bratT18=Person-property|bratT19=Person
+12	российского	_	_	_	_	_	_	_	bratA15=T57:Adjective|bratA8=T19:Female|bratT17=Organization|bratT18=Person-property|bratT19=Person|bratT57=GPE
+13	МИД	_	_	_	_	_	_	_	bratA8=T19:Female|bratT17=Organization|bratT18=Person-property|bratT19=Person
+14	Мария	_	_	_	_	_	_	_	bratA8=T19:Female|bratT19=Person|bratT48=Person-forename
+15	Захарова	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Female|bratT19=Person|bratT49=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0116-p3
@@ -99,11 +99,11 @@
 9	прописан	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	заявлении	_	_	_	_	_	_	_	_
-12	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT50=Person-surname
+12	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T21:Male|bratT21=Person|bratT50=Person-surname
 13	,	_	_	_	_	_	_	_	_
-14	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person|bratT51=Person-surname
+14	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T22:Male|bratT22=Person|bratT51=Person-surname
 15	,	_	_	_	_	_	_	_	_
-16	Алиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT52=Person-surname
+16	Алиева	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T23:Male|bratT23=Person|bratT52=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0116-p3-s2
@@ -167,8 +167,8 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	сказала	_	_	_	_	_	_	_	_
-19	Мария	_	_	_	_	_	_	_	bratT30=Person|bratT53=Person-forename
-20	Захарова	_	_	_	_	_	_	_	bratT30=Person|bratT54=Person-surname
+19	Мария	_	_	_	_	_	_	_	bratA12=T30:Female|bratT30=Person|bratT53=Person-forename
+20	Захарова	_	_	_	_	_	_	_	bratA12=T30:Female|bratT30=Person|bratT54=Person-surname
 21	на	_	_	_	_	_	_	_	_
 22	радио	_	_	_	_	_	_	_	bratA3=T31:Media|bratT31=Organization
 23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T31:Media|bratT31=Organization
@@ -263,7 +263,7 @@
 5	Карабахе	_	_	_	_	_	_	_	bratT46=GPE
 6	будут	_	_	_	_	_	_	_	_
 7	размещены	_	_	_	_	_	_	_	_
-8	российские	_	_	_	_	_	_	_	bratT47=Person-property
+8	российские	_	_	_	_	_	_	_	bratA16=T58:Adjective|bratT47=Person-property|bratT58=GPE
 9	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person-property
 10	.	_	_	_	_	_	_	_	_
 

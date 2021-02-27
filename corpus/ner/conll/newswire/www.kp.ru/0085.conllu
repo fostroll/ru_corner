@@ -112,8 +112,8 @@
 7	ведет	_	_	_	_	_	_	_	_
 8	к	_	_	_	_	_	_	_	_
 9	вымиранию	_	_	_	_	_	_	_	_
-10	русского	_	_	_	_	_	_	_	_
-11	народа	_	_	_	_	_	_	_	SpaceAfter=No
+10	русского	_	_	_	_	_	_	_	bratT35=Nationality
+11	народа	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Nationality
 12	,	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
 14	отметил	_	_	_	_	_	_	_	_
@@ -121,16 +121,16 @@
 16	разговоре	_	_	_	_	_	_	_	_
 17	с	_	_	_	_	_	_	_	_
 18	NEWS.ru	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
-19	председатель	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property
-20	совета	_	_	_	_	_	_	_	bratA7=T28:Department|bratT12=Person|bratT13=Person-property|bratT28=Organization
-21	общественного	_	_	_	_	_	_	_	bratA7=T28:Department|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
-22	движения	_	_	_	_	_	_	_	bratA7=T28:Department|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
-23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Department|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
-24	Мужской	_	_	_	_	_	_	_	bratA7=T28:Department|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
-25	путь	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Department|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
-26	''	_	_	_	_	_	_	_	bratA7=T28:Department|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
-27	Андрей	_	_	_	_	_	_	_	bratT12=Person|bratT30=Person-forename
-28	Брезгин	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT31=Person-surname
+19	председатель	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT13=Person-property
+20	совета	_	_	_	_	_	_	_	bratA7=T28:Department|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT28=Organization
+21	общественного	_	_	_	_	_	_	_	bratA7=T28:Department|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
+22	движения	_	_	_	_	_	_	_	bratA7=T28:Department|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
+23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Department|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
+24	Мужской	_	_	_	_	_	_	_	bratA7=T28:Department|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
+25	путь	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Department|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
+26	''	_	_	_	_	_	_	_	bratA7=T28:Department|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT28=Organization
+27	Андрей	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT30=Person-forename
+28	Брезгин	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT31=Person-surname
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0085-p5
@@ -220,7 +220,7 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	заявил	_	_	_	_	_	_	_	_
-23	Брезгин	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT32=Person-surname
+23	Брезгин	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T16:Male|bratT16=Person|bratT32=Person-surname
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0085-p7
@@ -230,10 +230,10 @@
 1	Тем	_	_	_	_	_	_	_	_
 2	временем	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	детский	_	_	_	_	_	_	_	bratT17=Person|bratT18=Person-property
-5	омбудсмен	_	_	_	_	_	_	_	bratT17=Person|bratT18=Person-property
-6	Анна	_	_	_	_	_	_	_	bratT17=Person|bratT33=Person-forename
-7	Кузнецова	_	_	_	_	_	_	_	bratT17=Person|bratT34=Person-surname
+4	детский	_	_	_	_	_	_	_	bratA11=T17:Female|bratT17=Person|bratT18=Person-property
+5	омбудсмен	_	_	_	_	_	_	_	bratA11=T17:Female|bratT17=Person|bratT18=Person-property
+6	Анна	_	_	_	_	_	_	_	bratA11=T17:Female|bratT17=Person|bratT33=Person-forename
+7	Кузнецова	_	_	_	_	_	_	_	bratA11=T17:Female|bratT17=Person|bratT34=Person-surname
 8	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_

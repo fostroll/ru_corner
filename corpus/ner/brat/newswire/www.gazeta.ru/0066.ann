@@ -1,7 +1,7 @@
 T1	Person 0 7	Рогозин
 T3	Money 68 88	300   тысяч   рублей
 T4	Organization 98 118	``   Роскосмоса   ''
-T5	Person 90 118	Глава   ``   Роскосмоса   ''
+T5	Person-property 90 118	Глава   ``   Роскосмоса   ''
 T6	Person 90 138	Глава   ``   Роскосмоса   ''   Дмитрий   Рогозин
 T8	Money 209 226	300   тыс.   руб.
 T9	Organization 268 291	РИА   ``   Новости   ''
@@ -18,3 +18,12 @@ A4	Media T16
 T17	Quantity 891 914	два   физических   лица
 T18	Date-absolute 953 965	15   декабря
 A5	Future T18
+T2	Person-surname 0 7	Рогозин
+A6	Male T1
+T7	Person-forename 121 128	Дмитрий
+T10	Person-surname 131 138	Рогозин
+A7	Male T6
+A8	Male T12
+T19	Person-surname 540 547	Рогозин
+T20	Person-surname 724 732	Рогозине
+A9	Male T13

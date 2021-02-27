@@ -44,26 +44,26 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	первый	_	_	_	_	_	_	_	bratT7=Ordinal|bratT8=Person-property|bratT9=Person
-5	замглавы	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Person
-6	МИД	_	_	_	_	_	_	_	bratT6=Organization|bratT8=Person-property|bratT9=Person
-7	РФ	_	_	_	_	_	_	_	bratT5=GPE|bratT6=Organization|bratT8=Person-property|bratT9=Person
-8	Владимир	_	_	_	_	_	_	_	bratT9=Person
-9	Титов	_	_	_	_	_	_	_	bratT9=Person
+4	первый	_	_	_	_	_	_	_	bratA2=T9:Male|bratT7=Ordinal|bratT8=Person-property|bratT9=Person
+5	замглавы	_	_	_	_	_	_	_	bratA2=T9:Male|bratT8=Person-property|bratT9=Person
+6	МИД	_	_	_	_	_	_	_	bratA2=T9:Male|bratT6=Organization|bratT8=Person-property|bratT9=Person
+7	РФ	_	_	_	_	_	_	_	bratA2=T9:Male|bratT5=GPE|bratT6=Organization|bratT8=Person-property|bratT9=Person
+8	Владимир	_	_	_	_	_	_	_	bratA2=T9:Male|bratT23=Person-forename|bratT9=Person
+9	Титов	_	_	_	_	_	_	_	bratA2=T9:Male|bratT24=Person-surname|bratT9=Person
 10	на	_	_	_	_	_	_	_	_
 11	встрече	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
-13	послом	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-14	ФРГ	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT12=Person
-15	Гезой	_	_	_	_	_	_	_	bratT12=Person
-16	Андреасом	_	_	_	_	_	_	_	bratT12=Person
-17	фон	_	_	_	_	_	_	_	bratT12=Person
-18	Гайром	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+13	послом	_	_	_	_	_	_	_	bratA3=T12:Male|bratT11=Person-property|bratT12=Person
+14	ФРГ	_	_	_	_	_	_	_	bratA3=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person
+15	Гезой	_	_	_	_	_	_	_	bratA3=T12:Male|bratT12=Person|bratT26=Person-forename
+16	Андреасом	_	_	_	_	_	_	_	bratA3=T12:Male|bratT12=Person|bratT26=Person-forename
+17	фон	_	_	_	_	_	_	_	bratA3=T12:Male|bratT12=Person|bratT25=Person-surname
+18	Гайром	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Male|bratT12=Person|bratT25=Person-surname
 19	,	_	_	_	_	_	_	_	_
 20	сообщается	_	_	_	_	_	_	_	_
 21	на	_	_	_	_	_	_	_	_
 22	сайте	_	_	_	_	_	_	_	bratA1=T14:Media|bratT14=Service
-23	российского	_	_	_	_	_	_	_	bratT13=Organization
+23	российского	_	_	_	_	_	_	_	bratA6=T29:Adjective|bratT13=Organization|bratT29=GPE
 24	внешнеполитического	_	_	_	_	_	_	_	bratT13=Organization
 25	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
 26	.	_	_	_	_	_	_	_	_
@@ -73,7 +73,7 @@
 # sent_id = 0106-p3-s1
 # text = ``Германской стороне был адресован призыв отказаться от агрессивной риторики, методов сдерживания и давления и вернуться в плоскость взаимоуважительного диалога с целью продвижения позитивной повестки дня в двусторонних отношениях и внешнеполитическом взаимодействии'', - говорится в сообщении.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Германской	_	_	_	_	_	_	_	_
+2	Германской	_	_	_	_	_	_	_	bratA7=T30:Adjective|bratT30=GPE
 3	стороне	_	_	_	_	_	_	_	_
 4	был	_	_	_	_	_	_	_	_
 5	адресован	_	_	_	_	_	_	_	_
@@ -138,10 +138,10 @@
 # sent_id = 0106-p5-s1
 # text = Также Титов и фон Гайр обменялись мнениями по ситуации в непризнанном Нагорном Карабахе, Сирии, Ливии и Белоруссии.
 1	Также	_	_	_	_	_	_	_	_
-2	Титов	_	_	_	_	_	_	_	bratT17=Person
+2	Титов	_	_	_	_	_	_	_	bratA4=T17:Male|bratT17=Person|bratT28=Person-surname
 3	и	_	_	_	_	_	_	_	_
-4	фон	_	_	_	_	_	_	_	bratT18=Person
-5	Гайр	_	_	_	_	_	_	_	bratT18=Person
+4	фон	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT27=Person-surname
+5	Гайр	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT27=Person-surname
 6	обменялись	_	_	_	_	_	_	_	_
 7	мнениями	_	_	_	_	_	_	_	_
 8	по	_	_	_	_	_	_	_	_

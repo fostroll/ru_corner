@@ -7,7 +7,7 @@
 2	планирует	_	_	_	_	_	_	_	_
 3	построить	_	_	_	_	_	_	_	_
 4	собственную	_	_	_	_	_	_	_	_
-5	космическую	_	_	_	_	_	_	_	_
+5	космическую	_	_	_	_	_	_	_	bratA11=T33:Adjective|bratT33=Location
 6	станцию	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p2
@@ -24,7 +24,7 @@
 8	строительство	_	_	_	_	_	_	_	_
 9	собственной	_	_	_	_	_	_	_	_
 10	орбитальной	_	_	_	_	_	_	_	_
-11	космической	_	_	_	_	_	_	_	_
+11	космической	_	_	_	_	_	_	_	bratA12=T34:Adjective|bratT34=Location
 12	станции	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 
@@ -35,23 +35,23 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	_
-4	замруководителя	_	_	_	_	_	_	_	bratT2=Person-property|bratT5=Person
-5	проекта	_	_	_	_	_	_	_	bratA2=T3:Project|bratT2=Person-property|bratT3=Product|bratT5=Person
-6	ракеты-носителя	_	_	_	_	_	_	_	bratA2=T3:Project|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
-7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Project|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
-8	Чанчжэн-5	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Project|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
-9	''	_	_	_	_	_	_	_	bratA2=T3:Project|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
-10	Китайской	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization|bratT5=Person
-11	корпорации	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization|bratT5=Person
-12	космической	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization|bratT5=Person
-13	науки	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization|bratT5=Person
-14	и	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization|bratT5=Person
-15	техники	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization|bratT5=Person
-16	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person-property|bratT5=Person
-17	CASC	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT2=Person-property|bratT5=Person
-18	)	_	_	_	_	_	_	_	bratT2=Person-property|bratT5=Person
-19	Цюй	_	_	_	_	_	_	_	bratT5=Person
-20	Игуан	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+4	замруководителя	_	_	_	_	_	_	_	bratA8=T5:Male|bratT2=Person-property|bratT5=Person
+5	проекта	_	_	_	_	_	_	_	bratA2=T3:Project|bratA8=T5:Male|bratT2=Person-property|bratT3=Product|bratT5=Person
+6	ракеты-носителя	_	_	_	_	_	_	_	bratA2=T3:Project|bratA8=T5:Male|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Project|bratA8=T5:Male|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
+8	Чанчжэн-5	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Project|bratA8=T5:Male|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
+9	''	_	_	_	_	_	_	_	bratA2=T3:Project|bratA8=T5:Male|bratT2=Person-property|bratT3=Product|bratT5=Person|bratT8=Product
+10	Китайской	_	_	_	_	_	_	_	bratA8=T5:Male|bratA9=T28:Adjective|bratT2=Person-property|bratT28=GPE|bratT4=Organization|bratT5=Person
+11	корпорации	_	_	_	_	_	_	_	bratA8=T5:Male|bratT2=Person-property|bratT4=Organization|bratT5=Person
+12	космической	_	_	_	_	_	_	_	bratA8=T5:Male|bratT2=Person-property|bratT4=Organization|bratT5=Person
+13	науки	_	_	_	_	_	_	_	bratA8=T5:Male|bratT2=Person-property|bratT4=Organization|bratT5=Person
+14	и	_	_	_	_	_	_	_	bratA8=T5:Male|bratT2=Person-property|bratT4=Organization|bratT5=Person
+15	техники	_	_	_	_	_	_	_	bratA8=T5:Male|bratT2=Person-property|bratT4=Organization|bratT5=Person
+16	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T5:Male|bratT2=Person-property|bratT5=Person
+17	CASC	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T5:Male|bratT18=Organization|bratT2=Person-property|bratT5=Person
+18	)	_	_	_	_	_	_	_	bratA8=T5:Male|bratT2=Person-property|bratT5=Person
+19	Цюй	_	_	_	_	_	_	_	bratA8=T5:Male|bratT30=Person-surname|bratT5=Person
+20	Игуан	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T5:Male|bratT31=Person-forename|bratT5=Person
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p4
@@ -72,7 +72,7 @@
 12	миссии	_	_	_	_	_	_	_	_
 13	по	_	_	_	_	_	_	_	_
 14	строительству	_	_	_	_	_	_	_	_
-15	космической	_	_	_	_	_	_	_	_
+15	космической	_	_	_	_	_	_	_	bratA13=T35:Adjective|bratT35=Location
 16	станции	_	_	_	_	_	_	_	_
 17	нашей	_	_	_	_	_	_	_	_
 18	страны	_	_	_	_	_	_	_	SpaceAfter=No
@@ -91,7 +91,7 @@
 # text = По словам китайского специалиста, станция получила название ``Тяньгун'' (``Небесный дворец''), на ней смогут одновременно находиться три космонавта, а во время смены экипажа - шесть человек.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	китайского	_	_	_	_	_	_	_	bratT19=Person-property
+3	китайского	_	_	_	_	_	_	_	bratA10=T32:Adjective|bratT19=Person-property|bratT32=Nationality
 4	специалиста	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
 5	,	_	_	_	_	_	_	_	_
 6	станция	_	_	_	_	_	_	_	bratT20=Facility

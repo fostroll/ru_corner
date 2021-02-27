@@ -65,10 +65,10 @@
 
 # sent_id = 0102-p3-s2
 # text = Водитель экскаватора Шамиль Магомедов, услышав крики о помощи, подъехал к дому и с помощью ковша вызволил троих человек.
-1	Водитель	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-2	экскаватора	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-3	Шамиль	_	_	_	_	_	_	_	bratT8=Person
-4	Магомедов	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+1	Водитель	_	_	_	_	_	_	_	bratA5=T8:Male|bratT7=Person-property|bratT8=Person
+2	экскаватора	_	_	_	_	_	_	_	bratA5=T8:Male|bratT7=Person-property|bratT8=Person
+3	Шамиль	_	_	_	_	_	_	_	bratA5=T8:Male|bratT21=Person-forename|bratT8=Person
+4	Магомедов	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T8:Male|bratT22=Person-surname|bratT8=Person
 5	,	_	_	_	_	_	_	_	_
 6	услышав	_	_	_	_	_	_	_	_
 7	крики	_	_	_	_	_	_	_	_

@@ -10,8 +10,8 @@
 5	в	_	_	_	_	_	_	_	_
 6	память	_	_	_	_	_	_	_	_
 7	об	_	_	_	_	_	_	_	_
-8	Абдулманапе	_	_	_	_	_	_	_	bratT2=Person
-9	Нурмагомедове	_	_	_	_	_	_	_	bratT2=Person
+8	Абдулманапе	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT25=Person-forename
+9	Нурмагомедове	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT27=Person-surname
 
 # newpar id = 0030-p2
 # par_text = В Махачкале разбили аллею в память об отце бойца Абсолютного бойцовского чемпионата (UFC) Хабиба Нурмагомедова Абдулманапе Нурмагомедове, передает Sport24 со ссылкой на оргкомитет акции «Сохраним лес».
@@ -24,18 +24,18 @@
 5	в	_	_	_	_	_	_	_	_
 6	память	_	_	_	_	_	_	_	_
 7	об	_	_	_	_	_	_	_	_
-8	отце	_	_	_	_	_	_	_	bratT8=Family|bratT9=Person
-9	бойца	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person|bratT9=Person
-10	Абсолютного	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
-11	бойцовского	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
-12	чемпионата	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
-13	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT7=Person|bratT9=Person
-14	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
-15	)	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person|bratT9=Person
-16	Хабиба	_	_	_	_	_	_	_	bratT7=Person|bratT9=Person
-17	Нурмагомедова	_	_	_	_	_	_	_	bratT7=Person|bratT9=Person
-18	Абдулманапе	_	_	_	_	_	_	_	bratT9=Person
-19	Нурмагомедове	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person
+8	отце	_	_	_	_	_	_	_	bratA6=T9:Male|bratT8=Family|bratT9=Person
+9	бойца	_	_	_	_	_	_	_	bratA6=T9:Male|bratA7=T7:Male|bratT6=Person-property|bratT7=Person|bratT9=Person
+10	Абсолютного	_	_	_	_	_	_	_	bratA6=T9:Male|bratA7=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
+11	бойцовского	_	_	_	_	_	_	_	bratA6=T9:Male|bratA7=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
+12	чемпионата	_	_	_	_	_	_	_	bratA6=T9:Male|bratA7=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
+13	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T9:Male|bratA7=T7:Male|bratT6=Person-property|bratT7=Person|bratT9=Person
+14	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T9:Male|bratA7=T7:Male|bratT24=Organization|bratT6=Person-property|bratT7=Person|bratT9=Person
+15	)	_	_	_	_	_	_	_	bratA6=T9:Male|bratA7=T7:Male|bratT6=Person-property|bratT7=Person|bratT9=Person
+16	Хабиба	_	_	_	_	_	_	_	bratA6=T9:Male|bratA7=T7:Male|bratT28=Person-forename|bratT7=Person|bratT9=Person
+17	Нурмагомедова	_	_	_	_	_	_	_	bratA6=T9:Male|bratA7=T7:Male|bratT29=Person-surname|bratT7=Person|bratT9=Person
+18	Абдулманапе	_	_	_	_	_	_	_	bratA6=T9:Male|bratT30=Person-forename|bratT9=Person
+19	Нурмагомедове	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T9:Male|bratT31=Person-surname|bratT9=Person
 20	,	_	_	_	_	_	_	_	_
 21	передает	_	_	_	_	_	_	_	_
 22	Sport24	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
@@ -78,8 +78,10 @@
 4	оазис	_	_	_	_	_	_	_	_
 5	было	_	_	_	_	_	_	_	_
 6	мечтой	_	_	_	_	_	_	_	_
-7	Нурмагомедова-старшего	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person
-8	.	_	_	_	_	_	_	_	_
+7	Нурмагомедова	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Male|bratT15=Person|bratT32=Person-surname
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Male|bratT15=Person
+9	старшего	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Male|bratT15=Person|bratT33=Person-affix
+10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p4
 # par_text = «Мы постараемся сделать все, чтобы здесь был хороший здоровый лес. Последующее поколение должно знать кому нужно быть благодарными, когда будут гулять здесь», — сказал врио председателя комитета по лесному хозяйству республики Вагаб Абдулхамидов.
@@ -118,15 +120,15 @@
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
 17	сказал	_	_	_	_	_	_	_	_
-18	врио	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Person
-19	председателя	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Person
-20	комитета	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person-property|bratT18=Person
-21	по	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person-property|bratT18=Person
-22	лесному	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person-property|bratT18=Person
-23	хозяйству	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person-property|bratT18=Person
-24	республики	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person-property|bratT18=Person
-25	Вагаб	_	_	_	_	_	_	_	bratT18=Person
-26	Абдулхамидов	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+18	врио	_	_	_	_	_	_	_	bratA9=T18:Male|bratT17=Person-property|bratT18=Person
+19	председателя	_	_	_	_	_	_	_	bratA9=T18:Male|bratT17=Person-property|bratT18=Person
+20	комитета	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
+21	по	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
+22	лесному	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
+23	хозяйству	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
+24	республики	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
+25	Вагаб	_	_	_	_	_	_	_	bratA9=T18:Male|bratT18=Person|bratT34=Person-forename
+26	Абдулхамидов	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T18:Male|bratT18=Person|bratT35=Person-surname
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p5
@@ -135,8 +137,8 @@
 # text = Напомним, Абдулманап Нурмагомедов умер 3 июля 2020 года.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	Абдулманап	_	_	_	_	_	_	_	bratT19=Person
-4	Нурмагомедов	_	_	_	_	_	_	_	bratT19=Person
+3	Абдулманап	_	_	_	_	_	_	_	bratA10=T19:Male|bratT19=Person|bratT36=Person-forename
+4	Нурмагомедов	_	_	_	_	_	_	_	bratA10=T19:Male|bratT19=Person|bratT37=Person-surname
 5	умер	_	_	_	_	_	_	_	_
 6	3	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
 7	июля	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-absolute
@@ -149,7 +151,7 @@
 # sent_id = 0030-p6-s1
 # text = Ранее Хабиб призвал жителей Дагестана соблюдать ПДД.
 1	Ранее	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-relative
-2	Хабиб	_	_	_	_	_	_	_	bratT21=Person
+2	Хабиб	_	_	_	_	_	_	_	bratA11=T21:Male|bratT21=Person|bratT38=Person-forename
 3	призвал	_	_	_	_	_	_	_	_
 4	жителей	_	_	_	_	_	_	_	_
 5	Дагестана	_	_	_	_	_	_	_	bratT22=GPE

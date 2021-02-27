@@ -3,7 +3,7 @@
 # par_text = Собянин призвал не заниматься самолечением при коронавирусе
 # sent_id = 0070-p1-s1
 # text = Собянин призвал не заниматься самолечением при коронавирусе
-1	Собянин	_	_	_	_	_	_	_	bratT1=Person
+1	Собянин	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT19=Person-surname
 2	призвал	_	_	_	_	_	_	_	_
 3	не	_	_	_	_	_	_	_	_
 4	заниматься	_	_	_	_	_	_	_	_
@@ -15,10 +15,10 @@
 # par_text = Мэр Москвы Сергей Собянин в эфире телеканала «Россия 24» призвал граждан не заниматься самолечением при заболевании коронавирусной инфекцией COVID-19.
 # sent_id = 0070-p2-s1
 # text = Мэр Москвы Сергей Собянин в эфире телеканала ``Россия 24'' призвал граждан не заниматься самолечением при заболевании коронавирусной инфекцией COVID-19.
-1	Мэр	_	_	_	_	_	_	_	bratT14=Person-property|bratT16=Person
-2	Москвы	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=GPE|bratT16=Person
-3	Сергей	_	_	_	_	_	_	_	bratT16=Person
-4	Собянин	_	_	_	_	_	_	_	bratT16=Person
+1	Мэр	_	_	_	_	_	_	_	bratA3=T16:Male|bratT14=Person-property|bratT16=Person
+2	Москвы	_	_	_	_	_	_	_	bratA3=T16:Male|bratT14=Person-property|bratT15=GPE|bratT16=Person
+3	Сергей	_	_	_	_	_	_	_	bratA3=T16:Male|bratT16=Person|bratT20=Person-forename
+4	Собянин	_	_	_	_	_	_	_	bratA3=T16:Male|bratT16=Person|bratT21=Person-surname
 5	в	_	_	_	_	_	_	_	_
 6	эфире	_	_	_	_	_	_	_	_
 7	телеканала	_	_	_	_	_	_	_	bratA1=T17:Media|bratT17=Organization
@@ -42,7 +42,7 @@
 # par_text = Собянин заявил, что категорически против, чтобы люди запасались «какими-либо антиковидными лекарствами без назначения врача».
 # sent_id = 0070-p3-s1
 # text = Собянин заявил, что категорически против, чтобы люди запасались ``какими-либо антиковидными лекарствами без назначения врача''.
-1	Собянин	_	_	_	_	_	_	_	bratT3=Person
+1	Собянин	_	_	_	_	_	_	_	bratA4=T3:Male|bratT22=Person-surname|bratT3=Person
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -208,7 +208,7 @@
 14	,	_	_	_	_	_	_	_	_
 15	-	_	_	_	_	_	_	_	_
 16	сказал	_	_	_	_	_	_	_	_
-17	Собянин	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person
+17	Собянин	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Male|bratT13=Person|bratT23=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0070-p8

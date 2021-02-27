@@ -28,11 +28,11 @@
 7	крае	_	_	_	_	_	_	_	bratT13=GPE
 8	пройден	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
-10	заявил	_	_	_	_	_	_	_	bratT16=Person
-11	глава	_	_	_	_	_	_	_	bratT14=Person-property|bratT16=Person
-12	Минвостокразвития	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Organization|bratT16=Person
-13	Алексей	_	_	_	_	_	_	_	bratT16=Person|bratT29=Person-forename
-14	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT30=Person-surname
+10	заявил	_	_	_	_	_	_	_	bratA11=T16:Male|bratT16=Person
+11	глава	_	_	_	_	_	_	_	bratA11=T16:Male|bratT14=Person-property|bratT16=Person
+12	Минвостокразвития	_	_	_	_	_	_	_	bratA11=T16:Male|bratT14=Person-property|bratT15=Organization|bratT16=Person
+13	Алексей	_	_	_	_	_	_	_	bratA11=T16:Male|bratT16=Person|bratT29=Person-forename
+14	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T16:Male|bratT16=Person|bratT30=Person-surname
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p3
@@ -47,10 +47,10 @@
 6	министр	_	_	_	_	_	_	_	bratT11=Person-property
 7	встретился	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	главой	_	_	_	_	_	_	_	bratT10=Person-property|bratT3=Person
-10	региона	_	_	_	_	_	_	_	bratT10=Person-property|bratT3=Person
-11	Олегом	_	_	_	_	_	_	_	bratT3=Person|bratT31=Person-forename
-12	Кожемяко	_	_	_	_	_	_	_	bratT3=Person|bratT32=Person-surname
+9	главой	_	_	_	_	_	_	_	bratA12=T3:Male|bratT10=Person-property|bratT3=Person
+10	региона	_	_	_	_	_	_	_	bratA12=T3:Male|bratT10=Person-property|bratT3=Person
+11	Олегом	_	_	_	_	_	_	_	bratA12=T3:Male|bratT3=Person|bratT31=Person-forename
+12	Кожемяко	_	_	_	_	_	_	_	bratA12=T3:Male|bratT3=Person|bratT32=Person-surname
 13	и	_	_	_	_	_	_	_	_
 14	провёл	_	_	_	_	_	_	_	_
 15	совещание	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 27	,	_	_	_	_	_	_	_	_
 28	-	_	_	_	_	_	_	_	_
 29	сказал	_	_	_	_	_	_	_	_
-30	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-surname|bratT5=Person
+30	Чекунков	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T5:Male|bratT33=Person-surname|bratT5=Person
 31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p5
@@ -119,10 +119,10 @@
 # sent_id = 0014-p6-s1
 # text = Ранее премьер-министр России Михаил Мишустин поручил предоставить Приморью максимальные ресурсы для ликвидации последствий снежного циклона.
 1	Ранее	_	_	_	_	_	_	_	bratA10=T18:Past|bratT18=Date-relative
-2	премьер-министр	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-3	России	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=GPE
-4	Михаил	_	_	_	_	_	_	_	bratT34=Person-forename|bratT6=Person
-5	Мишустин	_	_	_	_	_	_	_	bratT35=Person-surname|bratT6=Person
+2	премьер-министр	_	_	_	_	_	_	_	bratA13=T6:Male|bratT6=Person|bratT7=Person-property
+3	России	_	_	_	_	_	_	_	bratA13=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
+4	Михаил	_	_	_	_	_	_	_	bratA13=T6:Male|bratT34=Person-forename|bratT6=Person
+5	Мишустин	_	_	_	_	_	_	_	bratA13=T6:Male|bratT35=Person-surname|bratT6=Person
 6	поручил	_	_	_	_	_	_	_	_
 7	предоставить	_	_	_	_	_	_	_	_
 8	Приморью	_	_	_	_	_	_	_	bratT9=GPE

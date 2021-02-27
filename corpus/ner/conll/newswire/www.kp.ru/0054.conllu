@@ -3,7 +3,7 @@
 # par_text = Песков прокомментировал применение силы к протестующим в Белоруссии
 # sent_id = 0054-p1-s1
 # text = Песков прокомментировал применение силы к протестующим в Белоруссии
-1	Песков	_	_	_	_	_	_	_	bratT2=Person|bratT32=Person-surname
+1	Песков	_	_	_	_	_	_	_	bratA6=T2:Male|bratT2=Person|bratT32=Person-surname
 2	прокомментировал	_	_	_	_	_	_	_	_
 3	применение	_	_	_	_	_	_	_	_
 4	силы	_	_	_	_	_	_	_	_
@@ -59,11 +59,11 @@
 12	17	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
 13	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Past|bratT8=Date-absolute
 14	,	_	_	_	_	_	_	_	_
-15	официальный	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-16	представитель	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-17	Кремля	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person|bratT9=Organization
-18	Дмитрий	_	_	_	_	_	_	_	bratT11=Person|bratT34=Person-forename
-19	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT35=Person-surname
+15	официальный	_	_	_	_	_	_	_	bratA5=T11:Male|bratT10=Person-property|bratT11=Person
+16	представитель	_	_	_	_	_	_	_	bratA5=T11:Male|bratT10=Person-property|bratT11=Person
+17	Кремля	_	_	_	_	_	_	_	bratA5=T11:Male|bratT10=Person-property|bratT11=Person|bratT9=Organization
+18	Дмитрий	_	_	_	_	_	_	_	bratA5=T11:Male|bratT11=Person|bratT34=Person-forename
+19	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T11:Male|bratT11=Person|bratT35=Person-surname
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0054-p3
@@ -113,7 +113,7 @@
 21	-	_	_	_	_	_	_	_	_
 22	сказал	_	_	_	_	_	_	_	_
 23	пресс-секретарь	_	_	_	_	_	_	_	bratT14=Person-property
-24	российского	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=Person-property
+24	российского	_	_	_	_	_	_	_	bratA10=T41:Adjective|bratT13=Person-property|bratT14=Person-property|bratT41=GPE
 25	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property|bratT14=Person-property
 26	.	_	_	_	_	_	_	_	_
 
@@ -121,12 +121,12 @@
 # par_text = Дмитрий Песков отметил, что российская сторона внимательно следит за происходящим в республике, поскольку Белоруссия является для России союзным государством и братским народом. Представитель Кремля отметил, что Белоруссия должна быть «свободной от какого-либо влияния извне».
 # sent_id = 0054-p4-s1
 # text = Дмитрий Песков отметил, что российская сторона внимательно следит за происходящим в республике, поскольку Белоруссия является для России союзным государством и братским народом.
-1	Дмитрий	_	_	_	_	_	_	_	bratT15=Person|bratT36=Person-forename
-2	Песков	_	_	_	_	_	_	_	bratT15=Person|bratT37=Person-surname
+1	Дмитрий	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT36=Person-forename
+2	Песков	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT37=Person-surname
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	российская	_	_	_	_	_	_	_	_
+6	российская	_	_	_	_	_	_	_	bratA11=T42:Adjective|bratT42=GPE
 7	сторона	_	_	_	_	_	_	_	_
 8	внимательно	_	_	_	_	_	_	_	_
 9	следит	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 21	,	_	_	_	_	_	_	_	_
 22	-	_	_	_	_	_	_	_	_
 23	заключил	_	_	_	_	_	_	_	_
-24	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person|bratT38=Person-surname
+24	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T22:Male|bratT22=Person|bratT38=Person-surname
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0054-p6
@@ -221,7 +221,7 @@
 19	которых	_	_	_	_	_	_	_	_
 20	победу	_	_	_	_	_	_	_	_
 21	одержал	_	_	_	_	_	_	_	_
-22	Александр	_	_	_	_	_	_	_	bratT27=Person|bratT39=Person-forename
-23	Лукашенко	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person|bratT40=Person-surname
+22	Александр	_	_	_	_	_	_	_	bratA9=T27:Male|bratT27=Person|bratT39=Person-forename
+23	Лукашенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Male|bratT27=Person|bratT40=Person-surname
 24	.	_	_	_	_	_	_	_	_
 

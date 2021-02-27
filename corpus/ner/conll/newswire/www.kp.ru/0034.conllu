@@ -35,8 +35,8 @@
 8	врачебной	_	_	_	_	_	_	_	_
 9	тайны	_	_	_	_	_	_	_	_
 10	о	_	_	_	_	_	_	_	_
-11	Романе	_	_	_	_	_	_	_	bratT46=Person-forename|bratT5=Person
-12	Бондаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person-surname|bratT5=Person
+11	Романе	_	_	_	_	_	_	_	bratA8=T5:Male|bratT46=Person-forename|bratT5=Person
+12	Бондаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T5:Male|bratT47=Person-surname|bratT5=Person
 13	,	_	_	_	_	_	_	_	_
 14	погибшем	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
@@ -123,11 +123,11 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	глава	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
-5	европейской	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Person-property|bratT19=Person
-6	дипломатии	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Person-property|bratT19=Person
-7	Жозеп	_	_	_	_	_	_	_	bratT19=Person|bratT48=Person-forename
-8	Боррель	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT49=Person-surname
+4	глава	_	_	_	_	_	_	_	bratA9=T19:Male|bratT18=Person-property|bratT19=Person
+5	европейской	_	_	_	_	_	_	_	bratA15=T58:Adjective|bratA9=T19:Male|bratT17=Organization|bratT18=Person-property|bratT19=Person|bratT58=GPE
+6	дипломатии	_	_	_	_	_	_	_	bratA9=T19:Male|bratT17=Organization|bratT18=Person-property|bratT19=Person
+7	Жозеп	_	_	_	_	_	_	_	bratA9=T19:Male|bratT19=Person|bratT48=Person-forename
+8	Боррель	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T19:Male|bratT19=Person|bratT49=Person-surname
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0034-p5
@@ -163,14 +163,14 @@
 # text = КГБ внес основателей telegram-канала NEXTA Степана Путило и Романа Протасевича в список лиц, причастных к террористической деятельности.
 1	КГБ	_	_	_	_	_	_	_	bratT25=Organization
 2	внес	_	_	_	_	_	_	_	_
-3	основателей	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT27=Person-property|bratT28=Person
-4	telegram-канала	_	_	_	_	_	_	_	bratA1=T26:Media|bratA2=T28:Plural|bratT26=Service|bratT27=Person-property|bratT28=Person
-5	NEXTA	_	_	_	_	_	_	_	bratA1=T26:Media|bratA2=T28:Plural|bratT26=Service|bratT27=Person-property|bratT28=Person
-6	Степана	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person|bratT43=Person|bratT50=Person-forename
-7	Путило	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person|bratT43=Person|bratT51=Person-surname
-8	и	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person
-9	Романа	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person|bratT44=Person|bratT52=Person-forename
-10	Протасевича	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person|bratT44=Person|bratT53=Person-surname
+3	основателей	_	_	_	_	_	_	_	bratA12=T28:Male|bratA2=T28:Plural|bratT27=Person-property|bratT28=Person
+4	telegram-канала	_	_	_	_	_	_	_	bratA1=T26:Media|bratA12=T28:Male|bratA2=T28:Plural|bratT26=Service|bratT27=Person-property|bratT28=Person
+5	NEXTA	_	_	_	_	_	_	_	bratA1=T26:Media|bratA12=T28:Male|bratA2=T28:Plural|bratT26=Service|bratT27=Person-property|bratT28=Person
+6	Степана	_	_	_	_	_	_	_	bratA10=T43:Male|bratA12=T28:Male|bratA2=T28:Plural|bratT28=Person|bratT43=Person|bratT50=Person-forename
+7	Путило	_	_	_	_	_	_	_	bratA10=T43:Male|bratA12=T28:Male|bratA2=T28:Plural|bratT28=Person|bratT43=Person|bratT51=Person-surname
+8	и	_	_	_	_	_	_	_	bratA12=T28:Male|bratA2=T28:Plural|bratT28=Person
+9	Романа	_	_	_	_	_	_	_	bratA11=T44:Male|bratA12=T28:Male|bratA2=T28:Plural|bratT28=Person|bratT44=Person|bratT52=Person-forename
+10	Протасевича	_	_	_	_	_	_	_	bratA11=T44:Male|bratA12=T28:Male|bratA2=T28:Plural|bratT28=Person|bratT44=Person|bratT53=Person-surname
 11	в	_	_	_	_	_	_	_	_
 12	список	_	_	_	_	_	_	_	_
 13	лиц	_	_	_	_	_	_	_	SpaceAfter=No
@@ -185,15 +185,15 @@
 # par_text = Экс-кандидат в президенты Белоруссии, лидер оппозиции Светлана Тихановская заверила, что протесты в республике не имеют антироссийского характера и являются "продемократическими". Соответствующее заявление прозвучало в ходе ее встречи с главой правительства Нидерландов Марком Рютте.
 # sent_id = 0034-p7-s1
 # text = Экс-кандидат в президенты Белоруссии, лидер оппозиции Светлана Тихановская заверила, что протесты в республике не имеют антироссийского характера и являются ``продемократическими''.
-1	Экс-кандидат	_	_	_	_	_	_	_	bratT30=Person-property|bratT32=Person
-2	в	_	_	_	_	_	_	_	bratT30=Person-property|bratT32=Person
-3	президенты	_	_	_	_	_	_	_	bratT30=Person-property|bratT32=Person
-4	Белоруссии	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE|bratT30=Person-property|bratT32=Person
-5	,	_	_	_	_	_	_	_	bratT32=Person
-6	лидер	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Person
-7	оппозиции	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Person
-8	Светлана	_	_	_	_	_	_	_	bratT32=Person|bratT54=Person-forename
-9	Тихановская	_	_	_	_	_	_	_	bratT32=Person|bratT55=Person-surname
+1	Экс-кандидат	_	_	_	_	_	_	_	bratA13=T32:Female|bratT30=Person-property|bratT32=Person
+2	в	_	_	_	_	_	_	_	bratA13=T32:Female|bratT30=Person-property|bratT32=Person
+3	президенты	_	_	_	_	_	_	_	bratA13=T32:Female|bratT30=Person-property|bratT32=Person
+4	Белоруссии	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T32:Female|bratT29=GPE|bratT30=Person-property|bratT32=Person
+5	,	_	_	_	_	_	_	_	bratA13=T32:Female|bratT32=Person
+6	лидер	_	_	_	_	_	_	_	bratA13=T32:Female|bratT31=Person-property|bratT32=Person
+7	оппозиции	_	_	_	_	_	_	_	bratA13=T32:Female|bratT31=Person-property|bratT32=Person
+8	Светлана	_	_	_	_	_	_	_	bratA13=T32:Female|bratT32=Person|bratT54=Person-forename
+9	Тихановская	_	_	_	_	_	_	_	bratA13=T32:Female|bratT32=Person|bratT55=Person-surname
 10	заверила	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
@@ -221,10 +221,10 @@
 6	ее	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-absolute
 7	встречи	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-absolute|bratT42=Event
 8	с	_	_	_	_	_	_	_	_
-9	главой	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Person
-10	правительства	_	_	_	_	_	_	_	bratT34=Organization|bratT35=Person-property|bratT36=Person
-11	Нидерландов	_	_	_	_	_	_	_	bratT33=GPE|bratT34=Organization|bratT35=Person-property|bratT36=Person
-12	Марком	_	_	_	_	_	_	_	bratT36=Person|bratT56=Person-forename
-13	Рютте	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person|bratT57=Person-surname
+9	главой	_	_	_	_	_	_	_	bratA14=T36:Male|bratT35=Person-property|bratT36=Person
+10	правительства	_	_	_	_	_	_	_	bratA14=T36:Male|bratT34=Organization|bratT35=Person-property|bratT36=Person
+11	Нидерландов	_	_	_	_	_	_	_	bratA14=T36:Male|bratT33=GPE|bratT34=Organization|bratT35=Person-property|bratT36=Person
+12	Марком	_	_	_	_	_	_	_	bratA14=T36:Male|bratT36=Person|bratT56=Person-forename
+13	Рютте	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T36:Male|bratT36=Person|bratT57=Person-surname
 14	.	_	_	_	_	_	_	_	_
 

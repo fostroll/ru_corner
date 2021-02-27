@@ -16,12 +16,12 @@
 # par_text = Член Конституционного совещания Киргизии Садирдин Торалиев предложил лишить русский язык статуса официального, передает kp.ru.
 # sent_id = 0043-p2-s1
 # text = Член Конституционного совещания Киргизии Садирдин Торалиев предложил лишить русский язык статуса официального, передает kp.ru.
-1	Член	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-2	Конституционного	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Organization
-3	совещания	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Organization
-4	Киргизии	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Organization|bratT5=GPE
-5	Садирдин	_	_	_	_	_	_	_	bratT2=Person
-6	Торалиев	_	_	_	_	_	_	_	bratT2=Person
+1	Член	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property
+2	Конституционного	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Organization
+3	совещания	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Organization
+4	Киргизии	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Organization|bratT5=GPE
+5	Садирдин	_	_	_	_	_	_	_	bratA3=T2:Male|bratT19=Person-forename|bratT2=Person
+6	Торалиев	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT20=Person-surname
 7	предложил	_	_	_	_	_	_	_	_
 8	лишить	_	_	_	_	_	_	_	_
 9	русский	_	_	_	_	_	_	_	bratT11=Language
@@ -89,7 +89,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	считает	_	_	_	_	_	_	_	_
-9	Торалиев	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
+9	Торалиев	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Male|bratT21=Person-surname|bratT7=Person
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0043-p5
@@ -98,7 +98,7 @@
 # text = Остальные языки Торалиев предложил развивать другими законами.
 1	Остальные	_	_	_	_	_	_	_	_
 2	языки	_	_	_	_	_	_	_	_
-3	Торалиев	_	_	_	_	_	_	_	bratT8=Person
+3	Торалиев	_	_	_	_	_	_	_	bratA5=T8:Male|bratT22=Person-surname|bratT8=Person
 4	предложил	_	_	_	_	_	_	_	_
 5	развивать	_	_	_	_	_	_	_	_
 6	другими	_	_	_	_	_	_	_	_

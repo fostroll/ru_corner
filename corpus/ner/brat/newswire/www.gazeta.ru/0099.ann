@@ -37,12 +37,12 @@ T35	Quantity 1191 1194	2:0
 T36	Person 1201 1207	Пароло
 T37	Quantity 1223 1226	2:1
 T38	Person 1233 1238	Дзюба
-T39	Quantity 1183 1184	3
-T40	Quantity 1214 1216	22
-T41	Quantity 1245 1247	25
+T39	Ordinal 1183 1184	3
+T40	Ordinal 1214 1216	22
+T41	Ordinal 1245 1247	25
 T42	Quantity 1254 1257	3:1
 T43	Person 1264 1272	Иммобиле
-T44	Cardinal 1298 1300	55
+T44	Ordinal 1298 1300	55
 T45	Person 410 424	Марко   Пароло
 T46	Date-relative 456 476	через   три   минуты
 T47	Person 479 492	Артем   Дзюба
@@ -62,3 +62,31 @@ A4	Past T46
 A5	Past T49
 A6	Present T56
 A7	Past T55
+T58	GPE 954 963	Краснодар
+T59	Person-forename 369 373	Чиро
+T60	Person-surname 376 384	Иммобиле
+A8	Male T11
+T61	Person-forename 410 415	Марко
+T62	Person-surname 418 424	Пароло
+A9	Male T45
+T63	Person-forename 479 484	Артем
+T64	Person-surname 487 492	Дзюба
+A10	Male T47
+T65	Person-surname 577 585	Иммобиле
+A11	Male T13
+T66	Person-surname 1168 1176	Иммобиле
+A12	Male T34
+T67	Person-surname 1201 1207	Пароло
+A13	Male T36
+T68	Person-surname 1233 1238	Дзюба
+A14	Male T38
+A15	Male T43
+T69	Person-surname 1264 1272	Иммобиле
+T70	GPE 69 82	Петербургский
+A16	Adjective T70
+T71	GPE 113 125	итальянскому
+A17	Adjective T71
+T72	GPE 299 310	итальянский
+A18	Adjective T72
+T73	GPE 527 540	петербургской
+A19	Adjective T73

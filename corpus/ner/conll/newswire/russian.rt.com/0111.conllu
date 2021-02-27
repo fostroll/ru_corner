@@ -55,7 +55,7 @@
 # sent_id = 0111-p3-s1
 # text = ``Камешковский районный суд Владимирской области удовлетворил постановление... об избрании меры пресечения в виде заключения под стражу в отношении 26-летнего жителя Камешковского района Владимирской области К., подозреваемого в совершении преступлений, предусмотренных п. ``д'' ч. 2 ст. 126 (похищение несовершеннолетнего. - RT), п. ``б'' ч. 4 ст. 132 УК России (насильственные действия сексуального характера в отношении лица, не достигшего 14-летнего возраста. - RT)'', - следует из пресс-релиза.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Камешковский	_	_	_	_	_	_	_	bratT3=Organization
+2	Камешковский	_	_	_	_	_	_	_	bratA4=T30:Adjective|bratT3=Organization|bratT30=GPE
 3	районный	_	_	_	_	_	_	_	bratT3=Organization
 4	суд	_	_	_	_	_	_	_	bratT3=Organization
 5	Владимирской	_	_	_	_	_	_	_	bratT2=GPE|bratT3=Organization
@@ -89,13 +89,13 @@
 33	,	_	_	_	_	_	_	_	_
 34	предусмотренных	_	_	_	_	_	_	_	_
 35	п.	_	_	_	_	_	_	_	bratT6=Law
-36	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Law
-37	д	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Law
-38	''	_	_	_	_	_	_	_	bratT6=Law
+36	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Ordinal|bratT6=Law
+37	д	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Ordinal|bratT6=Law
+38	''	_	_	_	_	_	_	_	bratT36=Ordinal|bratT6=Law
 39	ч.	_	_	_	_	_	_	_	bratT6=Law
-40	2	_	_	_	_	_	_	_	bratT6=Law
+40	2	_	_	_	_	_	_	_	bratT37=Ordinal|bratT6=Law
 41	ст.	_	_	_	_	_	_	_	bratT6=Law
-42	126	_	_	_	_	_	_	_	bratT6=Law
+42	126	_	_	_	_	_	_	_	bratT38=Ordinal|bratT6=Law
 43	(	_	_	_	_	_	_	_	SpaceAfter=No
 44	похищение	_	_	_	_	_	_	_	_
 45	несовершеннолетнего	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Age
@@ -105,15 +105,15 @@
 49	)	_	_	_	_	_	_	_	SpaceAfter=No
 50	,	_	_	_	_	_	_	_	_
 51	п.	_	_	_	_	_	_	_	bratT7=Law
-52	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Law
-53	б	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Law
-54	''	_	_	_	_	_	_	_	bratT7=Law
+52	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Ordinal|bratT7=Law
+53	б	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Ordinal|bratT7=Law
+54	''	_	_	_	_	_	_	_	bratT35=Ordinal|bratT7=Law
 55	ч.	_	_	_	_	_	_	_	bratT7=Law
-56	4	_	_	_	_	_	_	_	bratT7=Law
+56	4	_	_	_	_	_	_	_	bratT31=Ordinal|bratT7=Law
 57	ст.	_	_	_	_	_	_	_	bratT7=Law
-58	132	_	_	_	_	_	_	_	bratT7=Law
+58	132	_	_	_	_	_	_	_	bratT32=Ordinal|bratT7=Law
 59	УК	_	_	_	_	_	_	_	bratT28=Law|bratT7=Law
-60	России	_	_	_	_	_	_	_	bratT28=Law|bratT7=Law
+60	России	_	_	_	_	_	_	_	bratT28=Law|bratT39=GPE|bratT7=Law
 61	(	_	_	_	_	_	_	_	SpaceAfter=No
 62	насильственные	_	_	_	_	_	_	_	_
 63	действия	_	_	_	_	_	_	_	_

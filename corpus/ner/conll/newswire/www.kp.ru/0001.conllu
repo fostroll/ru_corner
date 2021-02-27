@@ -4,7 +4,7 @@
 # sent_id = 0001-p1-s1
 # text = Папе римскому понравилось откровенное фото модели в Instagram
 1	Папе	_	_	_	_	_	_	_	bratT1=Person-property
-2	римскому	_	_	_	_	_	_	_	bratT1=Person-property
+2	римскому	_	_	_	_	_	_	_	bratA9=T28:Adjective|bratT1=Person-property|bratT28=GPE
 3	понравилось	_	_	_	_	_	_	_	_
 4	откровенное	_	_	_	_	_	_	_	_
 5	фото	_	_	_	_	_	_	_	_
@@ -19,10 +19,10 @@
 1	Под	_	_	_	_	_	_	_	_
 2	откровенной	_	_	_	_	_	_	_	_
 3	фотографией	_	_	_	_	_	_	_	_
-4	бразильской	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-5	модели	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-6	Наталии	_	_	_	_	_	_	_	bratT22=Person-forename|bratT5=Person
-7	Гариботто	_	_	_	_	_	_	_	bratT23=Person-surname|bratT5=Person
+4	бразильской	_	_	_	_	_	_	_	bratA4=T27:Adjective|bratA5=T5:Female|bratT27=GPE|bratT4=Person-property|bratT5=Person
+5	модели	_	_	_	_	_	_	_	bratA5=T5:Female|bratT4=Person-property|bratT5=Person
+6	Наталии	_	_	_	_	_	_	_	bratA5=T5:Female|bratT22=Person-forename|bratT5=Person
+7	Гариботто	_	_	_	_	_	_	_	bratA5=T5:Female|bratT23=Person-surname|bratT5=Person
 8	в	_	_	_	_	_	_	_	_
 9	социальной	_	_	_	_	_	_	_	bratT6=Service
 10	сети	_	_	_	_	_	_	_	bratT6=Service
@@ -30,9 +30,9 @@
 12	появился	_	_	_	_	_	_	_	_
 13	лайк	_	_	_	_	_	_	_	_
 14	от	_	_	_	_	_	_	_	_
-15	папы	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-16	римского	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-17	Франциска	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-forename|bratT8=Person
+15	папы	_	_	_	_	_	_	_	bratA6=T8:Male|bratT7=Person-property|bratT8=Person
+16	римского	_	_	_	_	_	_	_	bratA10=T29:Adjective|bratA6=T8:Male|bratT29=GPE|bratT7=Person-property|bratT8=Person
+17	Франциска	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Male|bratT24=Person-forename|bratT8=Person
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p3
@@ -75,7 +75,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	странице	_	_	_	_	_	_	_	_
-6	Наталии	_	_	_	_	_	_	_	bratT10=Person|bratT25=Person-forename
+6	Наталии	_	_	_	_	_	_	_	bratA7=T10:Female|bratT10=Person|bratT25=Person-forename
 7	практически	_	_	_	_	_	_	_	_
 8	все	_	_	_	_	_	_	_	_
 9	фотографии	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 4	83-летнего	_	_	_	_	_	_	_	bratT12=Age
 5	понтифика	_	_	_	_	_	_	_	bratT13=Person-property
 6	и	_	_	_	_	_	_	_	_
-7	Гариботто	_	_	_	_	_	_	_	bratT14=Person|bratT26=Person-surname
+7	Гариботто	_	_	_	_	_	_	_	bratA8=T14:Female|bratT14=Person|bratT26=Person-surname
 8	отправила	_	_	_	_	_	_	_	_
 9	ему	_	_	_	_	_	_	_	_
 10	личное	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 1	Возможно	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	Папа	_	_	_	_	_	_	_	bratT18=Person-property
-4	римский	_	_	_	_	_	_	_	bratT18=Person-property
+4	римский	_	_	_	_	_	_	_	bratA11=T30:Adjective|bratT18=Person-property|bratT30=GPE
 5	не	_	_	_	_	_	_	_	_
 6	сам	_	_	_	_	_	_	_	_
 7	ведет	_	_	_	_	_	_	_	_

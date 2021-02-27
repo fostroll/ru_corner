@@ -38,19 +38,19 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	глава	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
-5	Федеральной	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Organization
-6	налоговой	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Organization
-7	службы	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Organization
-8	Даниил	_	_	_	_	_	_	_	bratT5=Person
-9	Егоров	_	_	_	_	_	_	_	bratT5=Person
+4	глава	_	_	_	_	_	_	_	bratA6=T5:Male|bratT5=Person|bratT6=Person-property
+5	Федеральной	_	_	_	_	_	_	_	bratA6=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
+6	налоговой	_	_	_	_	_	_	_	bratA6=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
+7	службы	_	_	_	_	_	_	_	bratA6=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
+8	Даниил	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-forename|bratT5=Person
+9	Егоров	_	_	_	_	_	_	_	bratA6=T5:Male|bratT24=Person-surname|bratT5=Person
 10	на	_	_	_	_	_	_	_	_
 11	встрече	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
-13	президентом	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-14	РФ	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-15	Владимиром	_	_	_	_	_	_	_	bratT8=Person
-16	Путиным	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+13	президентом	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+14	РФ	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+15	Владимиром	_	_	_	_	_	_	_	bratA7=T8:Male|bratT25=Person-forename|bratT8=Person
+16	Путиным	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Male|bratT26=Person-surname|bratT8=Person
 17	,	_	_	_	_	_	_	_	_
 18	передает	_	_	_	_	_	_	_	_
 19	РИА	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
@@ -128,7 +128,7 @@
 24	,	_	_	_	_	_	_	_	_
 25	-	_	_	_	_	_	_	_	_
 26	уточнил	_	_	_	_	_	_	_	_
-27	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+27	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T14:Male|bratT14=Person|bratT27=Person-surname
 28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0027-p5
@@ -200,6 +200,6 @@
 41	,	_	_	_	_	_	_	_	_
 42	-	_	_	_	_	_	_	_	_
 43	добавил	_	_	_	_	_	_	_	_
-44	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+44	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T18:Male|bratT18=Person|bratT28=Person-surname
 45	.	_	_	_	_	_	_	_	_
 

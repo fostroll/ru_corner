@@ -15,12 +15,12 @@
 # par_text = Профессор Джонджо Макфадден (Johnjoe McFadden) из Университета Суррея (Великобритания) предложил новую теорию, согласно которой электромагнитные поля в мозгу человека играют ведущую роль в появлении сознания и способности осознанно мыслить. Об исследовании, опубликованном в журнале Neuroscience of Consciousness, сообщается в пресс-релизе на MedicalXpress.
 # sent_id = 0049-p2-s1
 # text = Профессор Джонджо Макфадден (Johnjoe McFadden) из Университета Суррея (Великобритания) предложил новую теорию, согласно которой электромагнитные поля в мозгу человека играют ведущую роль в появлении сознания и способности осознанно мыслить.
-1	Профессор	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Person
-2	Джонджо	_	_	_	_	_	_	_	bratT13=Person-forename|bratT2=Person
-3	Макфадден	_	_	_	_	_	_	_	bratT14=Person-surname|bratT2=Person
+1	Профессор	_	_	_	_	_	_	_	bratA3=T2:Male|bratT1=Person-property|bratT2=Person
+2	Джонджо	_	_	_	_	_	_	_	bratA3=T2:Male|bratT13=Person-forename|bratT2=Person
+3	Макфадден	_	_	_	_	_	_	_	bratA3=T2:Male|bratT14=Person-surname|bratT2=Person
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
-5	Johnjoe	_	_	_	_	_	_	_	bratT15=Person-forename|bratT6=Person
-6	McFadden	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-surname|bratT6=Person
+5	Johnjoe	_	_	_	_	_	_	_	bratA4=T6:Male|bratT15=Person-forename|bratT6=Person
+6	McFadden	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T6:Male|bratT16=Person-surname|bratT6=Person
 7	)	_	_	_	_	_	_	_	_
 8	из	_	_	_	_	_	_	_	_
 9	Университета	_	_	_	_	_	_	_	bratT4=Organization
@@ -76,7 +76,7 @@
 # text = Как пишет Макфадден, ключевым аспектом сознания является его способность репрезентировать связанную информацию, а значит, должен существовать некий физический субстрат сознания, кодирующий интегрированную информацию в мозге.
 1	Как	_	_	_	_	_	_	_	_
 2	пишет	_	_	_	_	_	_	_	_
-3	Макфадден	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-surname|bratT8=Person
+3	Макфадден	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T8:Male|bratT17=Person-surname|bratT8=Person
 4	,	_	_	_	_	_	_	_	_
 5	ключевым	_	_	_	_	_	_	_	_
 6	аспектом	_	_	_	_	_	_	_	_

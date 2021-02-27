@@ -58,11 +58,11 @@
 5	тенденцию	_	_	_	_	_	_	_	_
 6	полюбила	_	_	_	_	_	_	_	_
 7	46-летняя	_	_	_	_	_	_	_	bratT4=Age
-8	певица	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-9	и	_	_	_	_	_	_	_	bratT6=Person
-10	дизайнер	_	_	_	_	_	_	_	bratT17=Person-property|bratT6=Person
-11	Виктория	_	_	_	_	_	_	_	bratT28=Person-forename|bratT6=Person
-12	Бекхэм	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-surname|bratT6=Person
+8	певица	_	_	_	_	_	_	_	bratA3=T6:Female|bratT5=Person-property|bratT6=Person
+9	и	_	_	_	_	_	_	_	bratA3=T6:Female|bratT6=Person
+10	дизайнер	_	_	_	_	_	_	_	bratA3=T6:Female|bratT17=Person-property|bratT6=Person
+11	Виктория	_	_	_	_	_	_	_	bratA3=T6:Female|bratT28=Person-forename|bratT6=Person
+12	Бекхэм	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T6:Female|bratT29=Person-surname|bratT6=Person
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0038-p3-s2
@@ -74,10 +74,10 @@
 5	продемонстрировала	_	_	_	_	_	_	_	_
 6	черное	_	_	_	_	_	_	_	_
 7	платье	_	_	_	_	_	_	_	bratT8=Product
-8	собственного	_	_	_	_	_	_	_	bratT8=Product
-9	бренда	_	_	_	_	_	_	_	bratT8=Product
-10	Victoria	_	_	_	_	_	_	_	bratT8=Product
-11	Beckham	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Product
+8	собственного	_	_	_	_	_	_	_	bratA4=T38:Trademark|bratT38=Product|bratT8=Product
+9	бренда	_	_	_	_	_	_	_	bratA4=T38:Trademark|bratT38=Product|bratT8=Product
+10	Victoria	_	_	_	_	_	_	_	bratA4=T38:Trademark|bratT38=Product|bratT8=Product
+11	Beckham	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T38:Trademark|bratT38=Product|bratT8=Product
 12	,	_	_	_	_	_	_	_	_
 13	которое	_	_	_	_	_	_	_	_
 14	оформлено	_	_	_	_	_	_	_	_
@@ -112,12 +112,12 @@
 # par_text = Участница группы Little Mix Ли-Энн Пиннок, в свою очередь, попозировала в белом облегающем платье с боковым вырезом, оголяющим талию, живот и часть бедра, в то время как британская певица Элли Голдинг прошлась по улицам в наряде красного цвета: на ней были мини-шорты, бюстгальтер с вырезами, легкое пальто и ботинки на массивной подошве.
 # sent_id = 0038-p4-s1
 # text = Участница группы Little Mix Ли-Энн Пиннок, в свою очередь, попозировала в белом облегающем платье с боковым вырезом, оголяющим талию, живот и часть бедра, в то время как британская певица Элли Голдинг прошлась по улицам в наряде красного цвета: на ней были мини-шорты, бюстгальтер с вырезами, легкое пальто и ботинки на массивной подошве.
-1	Участница	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property
-2	группы	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT25=Organization
-3	Little	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT25=Organization
-4	Mix	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT25=Organization
-5	Ли-Энн	_	_	_	_	_	_	_	bratT11=Person|bratT30=Person-forename
-6	Пиннок	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT31=Person-surname
+1	Участница	_	_	_	_	_	_	_	bratA5=T11:Female|bratT11=Person|bratT12=Person-property
+2	группы	_	_	_	_	_	_	_	bratA5=T11:Female|bratT11=Person|bratT12=Person-property|bratT25=Organization
+3	Little	_	_	_	_	_	_	_	bratA5=T11:Female|bratT11=Person|bratT12=Person-property|bratT25=Organization
+4	Mix	_	_	_	_	_	_	_	bratA5=T11:Female|bratT11=Person|bratT12=Person-property|bratT25=Organization
+5	Ли-Энн	_	_	_	_	_	_	_	bratA5=T11:Female|bratT11=Person|bratT30=Person-forename
+6	Пиннок	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T11:Female|bratT11=Person|bratT31=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	свою	_	_	_	_	_	_	_	_
@@ -144,10 +144,10 @@
 30	то	_	_	_	_	_	_	_	_
 31	время	_	_	_	_	_	_	_	_
 32	как	_	_	_	_	_	_	_	_
-33	британская	_	_	_	_	_	_	_	bratT13=Person|bratT14=Person-property|bratT24=GPE
-34	певица	_	_	_	_	_	_	_	bratT13=Person|bratT14=Person-property
-35	Элли	_	_	_	_	_	_	_	bratT13=Person|bratT32=Person-forename
-36	Голдинг	_	_	_	_	_	_	_	bratT13=Person|bratT33=Person-surname
+33	британская	_	_	_	_	_	_	_	bratA6=T13:Female|bratA7=T24:Adjective|bratT13=Person|bratT14=Person-property|bratT24=GPE
+34	певица	_	_	_	_	_	_	_	bratA6=T13:Female|bratT13=Person|bratT14=Person-property
+35	Элли	_	_	_	_	_	_	_	bratA6=T13:Female|bratT13=Person|bratT32=Person-forename
+36	Голдинг	_	_	_	_	_	_	_	bratA6=T13:Female|bratT13=Person|bratT33=Person-surname
 37	прошлась	_	_	_	_	_	_	_	_
 38	по	_	_	_	_	_	_	_	_
 39	улицам	_	_	_	_	_	_	_	_
@@ -190,8 +190,8 @@
 1	Например	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	49-летняя	_	_	_	_	_	_	_	bratT18=Age
-4	Аманда	_	_	_	_	_	_	_	bratT19=Person|bratT34=Person-forename
-5	Холден	_	_	_	_	_	_	_	bratT19=Person|bratT35=Person-surname
+4	Аманда	_	_	_	_	_	_	_	bratA8=T19:Female|bratT19=Person|bratT34=Person-forename
+5	Холден	_	_	_	_	_	_	_	bratA8=T19:Female|bratT19=Person|bratT35=Person-surname
 6	опубликовала	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	своем	_	_	_	_	_	_	_	_
@@ -219,8 +219,8 @@
 2	этом	_	_	_	_	_	_	_	_
 3	ее	_	_	_	_	_	_	_	_
 4	коллега	_	_	_	_	_	_	_	_
-5	Майя	_	_	_	_	_	_	_	bratT21=Person|bratT36=Person-forename
-6	Джама	_	_	_	_	_	_	_	bratT21=Person|bratT37=Person-surname
+5	Майя	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person|bratT36=Person-forename
+6	Джама	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person|bratT37=Person-surname
 7	сфотографировалась	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	темно-коричневом	_	_	_	_	_	_	_	_

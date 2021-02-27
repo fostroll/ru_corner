@@ -139,7 +139,7 @@
 5	три	_	_	_	_	_	_	_	bratT31=Quantity
 6	или	_	_	_	_	_	_	_	bratT31=Quantity
 7	четыре	_	_	_	_	_	_	_	bratT31=Quantity
-8	французских	_	_	_	_	_	_	_	bratT31=Quantity|bratT32=GPE
+8	французских	_	_	_	_	_	_	_	bratA8=T32:Adjective|bratT31=Quantity|bratT32=GPE
 9	фирмы	_	_	_	_	_	_	_	bratT31=Quantity
 10	в	_	_	_	_	_	_	_	bratA5=T26:Future|bratT26=Date-absolute
 11	начале	_	_	_	_	_	_	_	bratA5=T26:Future|bratT26=Date-absolute
@@ -229,8 +229,8 @@
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
 3	института	_	_	_	_	_	_	_	bratT21=Organization
-4	Джонса	_	_	_	_	_	_	_	bratT21=Organization|bratT34=Person|bratT38=Person-forename
-5	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT34=Person|bratT39=Person-surname
+4	Джонса	_	_	_	_	_	_	_	bratA9=T34:Male|bratT21=Organization|bratT34=Person|bratT38=Person-forename
+5	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T34:Male|bratT21=Organization|bratT34=Person|bratT39=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	стране	_	_	_	_	_	_	_	_

@@ -8,8 +8,8 @@
 3	феноменальные	_	_	_	_	_	_	_	SpaceAfter=No
 4	''	_	_	_	_	_	_	_	SpaceAfter=No
 5	:	_	_	_	_	_	_	_	_
-6	Дональд	_	_	_	_	_	_	_	bratT1=Person|bratT34=Person-forename
-7	Трамп	_	_	_	_	_	_	_	bratT1=Person|bratT35=Person-surname
+6	Дональд	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT34=Person-forename
+7	Трамп	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT35=Person-surname
 8	выступил	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	речью	_	_	_	_	_	_	_	_
@@ -21,11 +21,11 @@
 # par_text = Кандидат от республиканцев Дональд Трамп выступил 4 ноября на пресс-конференции с журналистами после закрытия избирательных участков в стране.
 # sent_id = 0093-p2-s1
 # text = Кандидат от республиканцев Дональд Трамп выступил 4 ноября на пресс-конференции с журналистами после закрытия избирательных участков в стране.
-1	Кандидат	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-2	от	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-3	республиканцев	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Political-group
-4	Дональд	_	_	_	_	_	_	_	bratT2=Person|bratT36=Person-forename
-5	Трамп	_	_	_	_	_	_	_	bratT2=Person|bratT37=Person-surname
+1	Кандидат	_	_	_	_	_	_	_	bratA9=T2:Male|bratT2=Person|bratT3=Person-property
+2	от	_	_	_	_	_	_	_	bratA9=T2:Male|bratT2=Person|bratT3=Person-property
+3	республиканцев	_	_	_	_	_	_	_	bratA9=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Political-group
+4	Дональд	_	_	_	_	_	_	_	bratA9=T2:Male|bratT2=Person|bratT36=Person-forename
+5	Трамп	_	_	_	_	_	_	_	bratA9=T2:Male|bratT2=Person|bratT37=Person-surname
 6	выступил	_	_	_	_	_	_	_	_
 7	4	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
 8	ноября	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
@@ -47,7 +47,7 @@
 # text = Он поблагодарил американский народ, свою партию и супругу за поддержку.
 1	Он	_	_	_	_	_	_	_	_
 2	поблагодарил	_	_	_	_	_	_	_	_
-3	американский	_	_	_	_	_	_	_	bratA1=T7:Citizenship|bratT7=Nationality
+3	американский	_	_	_	_	_	_	_	bratA1=T7:Citizenship|bratA13=T43:Adjective|bratT43=GPE|bratT7=Nationality
 4	народ	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Citizenship|bratT7=Nationality
 5	,	_	_	_	_	_	_	_	_
 6	свою	_	_	_	_	_	_	_	_
@@ -78,7 +78,7 @@
 
 # sent_id = 0093-p3-s3
 # text = Трамп заявил, что его партия выиграла там, где он даже не ожидал: ``Результаты феноменальные''.
-1	Трамп	_	_	_	_	_	_	_	bratT10=Person|bratT38=Person-surname
+1	Трамп	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT38=Person-surname
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -103,8 +103,8 @@
 # par_text = Дональд Трамп оценил результаты голосования и подчеркнул, что за него преимущественное количество голосов отдали в Аризоне, Пенсильвании, Висконсине и Техасе. Но в некоторых штатах затрудняются дать точные результаты.
 # sent_id = 0093-p4-s1
 # text = Дональд Трамп оценил результаты голосования и подчеркнул, что за него преимущественное количество голосов отдали в Аризоне, Пенсильвании, Висконсине и Техасе.
-1	Дональд	_	_	_	_	_	_	_	bratT11=Person|bratT39=Person-forename
-2	Трамп	_	_	_	_	_	_	_	bratT11=Person|bratT40=Person-surname
+1	Дональд	_	_	_	_	_	_	_	bratA10=T11:Male|bratT11=Person|bratT39=Person-forename
+2	Трамп	_	_	_	_	_	_	_	bratA10=T11:Male|bratT11=Person|bratT40=Person-surname
 3	оценил	_	_	_	_	_	_	_	_
 4	результаты	_	_	_	_	_	_	_	_
 5	голосования	_	_	_	_	_	_	_	_
@@ -219,14 +219,14 @@
 9	,	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_
 11	сказал	_	_	_	_	_	_	_	_
-12	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person|bratT41=Person-surname
+12	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T20:Male|bratT20=Person|bratT41=Person-surname
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0093-p6
 # par_text = Трамп отметил, что в некоторых штатах подсчет голосов остановился.
 # sent_id = 0093-p6-s1
 # text = Трамп отметил, что в некоторых штатах подсчет голосов остановился.
-1	Трамп	_	_	_	_	_	_	_	bratT21=Person|bratT42=Person-surname
+1	Трамп	_	_	_	_	_	_	_	bratA12=T21:Male|bratT21=Person|bratT42=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

@@ -45,16 +45,16 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщила	_	_	_	_	_	_	_	_
-4	старший	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-5	помощник	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-6	руководителя	_	_	_	_	_	_	_	bratT10=Person|bratT29=Person-property|bratT9=Person-property
-7	столичного	_	_	_	_	_	_	_	bratT10=Person|bratT29=Person-property|bratT8=Organization|bratT9=Person-property
-8	главка	_	_	_	_	_	_	_	bratT10=Person|bratT29=Person-property|bratT8=Organization|bratT9=Person-property
-9	Следственного	_	_	_	_	_	_	_	bratT10=Person|bratT29=Person-property|bratT7=Organization|bratT8=Organization|bratT9=Person-property
-10	комитета	_	_	_	_	_	_	_	bratT10=Person|bratT29=Person-property|bratT7=Organization|bratT8=Organization|bratT9=Person-property
-11	России	_	_	_	_	_	_	_	bratT10=Person|bratT29=Person-property|bratT6=GPE|bratT7=Organization|bratT8=Organization|bratT9=Person-property
-12	Юлия	_	_	_	_	_	_	_	bratT10=Person
-13	Иванова	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+4	старший	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT9=Person-property
+5	помощник	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT9=Person-property
+6	руководителя	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT9=Person-property
+7	столичного	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT8=Organization|bratT9=Person-property
+8	главка	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT8=Organization|bratT9=Person-property
+9	Следственного	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT7=Organization|bratT8=Organization|bratT9=Person-property
+10	комитета	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT7=Organization|bratT8=Organization|bratT9=Person-property
+11	России	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT6=GPE|bratT7=Organization|bratT8=Organization|bratT9=Person-property
+12	Юлия	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT41=Person-forename
+13	Иванова	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T10:Female|bratT10=Person|bratT42=Person-surname
 14	,	_	_	_	_	_	_	_	_
 15	передает	_	_	_	_	_	_	_	_
 16	РИА	_	_	_	_	_	_	_	bratA2=T11:Media|bratT11=Organization
@@ -115,22 +115,26 @@
 9	дело	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
 11	ч.ч.	_	_	_	_	_	_	_	bratT18=Law
-12	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law
+12	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT45=Ordinal
 13	,	_	_	_	_	_	_	_	bratT18=Law
-14	1.1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law
-15	,	_	_	_	_	_	_	_	bratT18=Law
-16	2	_	_	_	_	_	_	_	bratT18=Law
-17	ст.	_	_	_	_	_	_	_	bratT18=Law
-18	282.1	_	_	_	_	_	_	_	bratT18=Law
-19	УК	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law
-20	РФ	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law|bratT35=GPE
-21	(	_	_	_	_	_	_	_	SpaceAfter=No
-22	организация	_	_	_	_	_	_	_	_
-23	деятельности	_	_	_	_	_	_	_	_
-24	экстремистской	_	_	_	_	_	_	_	_
-25	организации	_	_	_	_	_	_	_	SpaceAfter=No
-26	)	_	_	_	_	_	_	_	SpaceAfter=No
-27	.	_	_	_	_	_	_	_	_
+14	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT46=Ordinal
+15	.	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law
+16	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT47=Ordinal
+17	,	_	_	_	_	_	_	_	bratT18=Law
+18	2	_	_	_	_	_	_	_	bratT18=Law|bratT48=Ordinal
+19	ст.	_	_	_	_	_	_	_	bratT18=Law
+20	282	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT49=Ordinal
+21	.	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law
+22	1	_	_	_	_	_	_	_	bratT18=Law|bratT50=Ordinal
+23	УК	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law
+24	РФ	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law|bratT35=GPE
+25	(	_	_	_	_	_	_	_	SpaceAfter=No
+26	организация	_	_	_	_	_	_	_	_
+27	деятельности	_	_	_	_	_	_	_	_
+28	экстремистской	_	_	_	_	_	_	_	_
+29	организации	_	_	_	_	_	_	_	SpaceAfter=No
+30	)	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0096-p5
 # par_text = По словам Ивановой, дело было возбуждено на основании материалов об организации в Москве деятельности «Управленческого центра Свидетелей Иеговы в России»  и его структурных подразделений, признанных Верховным судом экстремистскими организациями.
@@ -138,7 +142,7 @@
 # text = По словам Ивановой, дело было возбуждено на основании материалов об организации в Москве деятельности ``Управленческого центра Свидетелей Иеговы в России'' и его структурных подразделений, признанных Верховным судом экстремистскими организациями.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Ивановой	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+3	Ивановой	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T19:Female|bratT19=Person|bratT43=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	дело	_	_	_	_	_	_	_	_
 6	было	_	_	_	_	_	_	_	_
@@ -185,7 +189,7 @@
 8	чем	_	_	_	_	_	_	_	bratT23=Quantity
 9	в	_	_	_	_	_	_	_	bratT23=Quantity
 10	20	_	_	_	_	_	_	_	bratT23=Quantity
-11	российских	_	_	_	_	_	_	_	bratT23=Quantity
+11	российских	_	_	_	_	_	_	_	bratA11=T44:Adjective|bratT23=Quantity|bratT44=GPE
 12	субъектах	_	_	_	_	_	_	_	bratT23=Quantity
 13	проводятся	_	_	_	_	_	_	_	_
 14	обыски	_	_	_	_	_	_	_	SpaceAfter=No

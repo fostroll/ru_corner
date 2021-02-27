@@ -6,9 +6,9 @@
 1	Внешний	_	_	_	_	_	_	_	_
 2	вид	_	_	_	_	_	_	_	_
 3	похудевшей	_	_	_	_	_	_	_	_
-4	дочери	_	_	_	_	_	_	_	bratT1=Person|bratT20=Family
-5	Оззи	_	_	_	_	_	_	_	bratT1=Person|bratT16=Person-forename|bratT23=Person
-6	Осборна	_	_	_	_	_	_	_	bratT1=Person|bratT23=Person|bratT26=Person-surname
+4	дочери	_	_	_	_	_	_	_	bratA6=T1:Female|bratT1=Person|bratT20=Family
+5	Оззи	_	_	_	_	_	_	_	bratA6=T1:Female|bratA7=T23:Male|bratT1=Person|bratT16=Person-forename|bratT23=Person
+6	Осборна	_	_	_	_	_	_	_	bratA6=T1:Female|bratA7=T23:Male|bratT1=Person|bratT23=Person|bratT26=Person-surname
 7	в	_	_	_	_	_	_	_	_
 8	облегающем	_	_	_	_	_	_	_	_
 9	наряде	_	_	_	_	_	_	_	_
@@ -19,16 +19,16 @@
 # par_text = Дочь рок-музыканта Оззи Осборна, актриса и певица Келли Осборн вышла в свет в облегающем наряде и вызвала споры в сети по поводу своего внешнего вида. Соответствующий материал публикует Daily Mail.
 # sent_id = 0080-p2-s1
 # text = Дочь рок-музыканта Оззи Осборна, актриса и певица Келли Осборн вышла в свет в облегающем наряде и вызвала споры в сети по поводу своего внешнего вида.
-1	Дочь	_	_	_	_	_	_	_	bratT21=Family|bratT3=Person
-2	рок-музыканта	_	_	_	_	_	_	_	bratT24=Person|bratT3=Person|bratT7=Person-property
-3	Оззи	_	_	_	_	_	_	_	bratT24=Person|bratT27=Person-forename|bratT3=Person
-4	Осборна	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT28=Person-surname|bratT3=Person
-5	,	_	_	_	_	_	_	_	bratT3=Person
-6	актриса	_	_	_	_	_	_	_	bratT3=Person|bratT8=Person-property
-7	и	_	_	_	_	_	_	_	bratT3=Person
-8	певица	_	_	_	_	_	_	_	bratT22=Person-property|bratT3=Person
-9	Келли	_	_	_	_	_	_	_	bratT29=Person-forename|bratT3=Person
-10	Осборн	_	_	_	_	_	_	_	bratT3=Person|bratT30=Person-surname
+1	Дочь	_	_	_	_	_	_	_	bratA9=T3:Female|bratT21=Family|bratT3=Person
+2	рок-музыканта	_	_	_	_	_	_	_	bratA8=T24:Male|bratA9=T3:Female|bratT24=Person|bratT3=Person|bratT7=Person-property
+3	Оззи	_	_	_	_	_	_	_	bratA8=T24:Male|bratA9=T3:Female|bratT24=Person|bratT27=Person-forename|bratT3=Person
+4	Осборна	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T24:Male|bratA9=T3:Female|bratT24=Person|bratT28=Person-surname|bratT3=Person
+5	,	_	_	_	_	_	_	_	bratA9=T3:Female|bratT3=Person
+6	актриса	_	_	_	_	_	_	_	bratA9=T3:Female|bratT3=Person|bratT8=Person-property
+7	и	_	_	_	_	_	_	_	bratA9=T3:Female|bratT3=Person
+8	певица	_	_	_	_	_	_	_	bratA9=T3:Female|bratT22=Person-property|bratT3=Person
+9	Келли	_	_	_	_	_	_	_	bratA9=T3:Female|bratT29=Person-forename|bratT3=Person
+10	Осборн	_	_	_	_	_	_	_	bratA9=T3:Female|bratT3=Person|bratT30=Person-surname
 11	вышла	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	свет	_	_	_	_	_	_	_	_
@@ -172,7 +172,7 @@
 4	сети	_	_	_	_	_	_	_	_
 5	раскритиковали	_	_	_	_	_	_	_	_
 6	внешность	_	_	_	_	_	_	_	_
-7	Осборн	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-surname|bratT4=Person
+7	Осборн	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T4:Female|bratT31=Person-surname|bratT4=Person
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0080-p5-s2
@@ -244,8 +244,8 @@
 1	Среди	_	_	_	_	_	_	_	_
 2	них	_	_	_	_	_	_	_	_
 3	оказалась	_	_	_	_	_	_	_	_
-4	Келли	_	_	_	_	_	_	_	bratT32=Person-forename|bratT5=Person
-5	Осборн	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-surname|bratT5=Person
+4	Келли	_	_	_	_	_	_	_	bratA11=T5:Female|bratT32=Person-forename|bratT5=Person
+5	Осборн	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T5:Female|bratT33=Person-surname|bratT5=Person
 6	,	_	_	_	_	_	_	_	_
 7	которая	_	_	_	_	_	_	_	_
 8	отказалась	_	_	_	_	_	_	_	_

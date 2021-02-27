@@ -1,6 +1,6 @@
 T1	GPE 4 12	Германии
 T2	Date-period-absolute 47 64	до   конца   года
-T3	Event 76 84	карантин
+T3	Event 66 84	Жесткий   карантин
 T4	GPE 91 99	Германии
 T5	Date-period-absolute 142 161	до   конца   ноября
 T6	Date-period-absolute 180 197	до   20   декабря
@@ -27,7 +27,7 @@ T27	Other-term 1548 1560	коронавируса
 T28	Other-term 1475 1483	локдауна
 T29	Ordinal 1531 1537	первой
 T13	Quantity 399 424	16   федеральных   земель
-T30	Event 36 44	карантин
+T30	Event 26 44	жесткий   карантин
 T31	Event 1654 1663	пандемией
 T32	Event 1531 1560	первой   волны   коронавируса
 T34	Ordinal 278 288	следующего
@@ -57,3 +57,9 @@ T40	Person-surname 735 742	Меркель
 T41	Person-forename 997 1003	Ангелы
 T44	Person-surname 1006 1013	Меркель
 T45	Person-surname 1356 1363	Меркель
+T46	Nationality 1216 1232	Жителям   страны
+A15	Resident T46
+A16	Female T10
+A18	Female T25
+A17	Female T22
+A19	Female T15

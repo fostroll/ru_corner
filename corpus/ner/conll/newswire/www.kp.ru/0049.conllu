@@ -3,8 +3,8 @@
 # par_text = Майя Санду принимает поздравления с победой на выборах президента Молдавии
 # sent_id = 0049-p1-s1
 # text = Майя Санду принимает поздравления с победой на выборах президента Молдавии
-1	Майя	_	_	_	_	_	_	_	bratT1=Person|bratT38=Person-forename
-2	Санду	_	_	_	_	_	_	_	bratT1=Person|bratT39=Person-surname
+1	Майя	_	_	_	_	_	_	_	bratA5=T1:Female|bratT1=Person|bratT38=Person-forename
+2	Санду	_	_	_	_	_	_	_	bratA5=T1:Female|bratT1=Person|bratT39=Person-surname
 3	принимает	_	_	_	_	_	_	_	_
 4	поздравления	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
@@ -18,15 +18,15 @@
 # par_text = Лидер партии «Действие и солидарность» Майя Санду принимает поздравления с победой на выборах президента Молдавии. К этому часу Центризбирком республики обработал почти все бюллетени – более 99%, и на исход голосования оставшиеся протоколы уже повлиять не смогут.
 # sent_id = 0049-p2-s1
 # text = Лидер партии ``Действие и солидарность'' Майя Санду принимает поздравления с победой на выборах президента Молдавии.
-1	Лидер	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
-2	партии	_	_	_	_	_	_	_	bratT35=Organization|bratT5=Person|bratT6=Person-property
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization|bratT5=Person|bratT6=Person-property
-4	Действие	_	_	_	_	_	_	_	bratT35=Organization|bratT5=Person|bratT6=Person-property
-5	и	_	_	_	_	_	_	_	bratT35=Organization|bratT5=Person|bratT6=Person-property
-6	солидарность	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization|bratT5=Person|bratT6=Person-property
-7	''	_	_	_	_	_	_	_	bratT35=Organization|bratT5=Person|bratT6=Person-property
-8	Майя	_	_	_	_	_	_	_	bratT40=Person-forename|bratT5=Person
-9	Санду	_	_	_	_	_	_	_	bratT41=Person-surname|bratT5=Person
+1	Лидер	_	_	_	_	_	_	_	bratA6=T5:Female|bratT5=Person|bratT6=Person-property
+2	партии	_	_	_	_	_	_	_	bratA6=T5:Female|bratT35=Organization|bratT5=Person|bratT6=Person-property
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Female|bratT35=Organization|bratT5=Person|bratT6=Person-property
+4	Действие	_	_	_	_	_	_	_	bratA6=T5:Female|bratT35=Organization|bratT5=Person|bratT6=Person-property
+5	и	_	_	_	_	_	_	_	bratA6=T5:Female|bratT35=Organization|bratT5=Person|bratT6=Person-property
+6	солидарность	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Female|bratT35=Organization|bratT5=Person|bratT6=Person-property
+7	''	_	_	_	_	_	_	_	bratA6=T5:Female|bratT35=Organization|bratT5=Person|bratT6=Person-property
+8	Майя	_	_	_	_	_	_	_	bratA6=T5:Female|bratT40=Person-forename|bratT5=Person
+9	Санду	_	_	_	_	_	_	_	bratA6=T5:Female|bratT41=Person-surname|bratT5=Person
 10	принимает	_	_	_	_	_	_	_	_
 11	поздравления	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
@@ -70,15 +70,15 @@
 # sent_id = 0049-p3-s1
 # text = За Майю Санду отдали свои голоса более половины граждан страны, пришедших 15 ноября на избирательные участки.
 1	За	_	_	_	_	_	_	_	_
-2	Майю	_	_	_	_	_	_	_	bratT12=Person|bratT42=Person-forename
-3	Санду	_	_	_	_	_	_	_	bratT12=Person|bratT43=Person-surname
+2	Майю	_	_	_	_	_	_	_	bratA7=T12:Female|bratT12=Person|bratT42=Person-forename
+3	Санду	_	_	_	_	_	_	_	bratA7=T12:Female|bratT12=Person|bratT43=Person-surname
 4	отдали	_	_	_	_	_	_	_	_
 5	свои	_	_	_	_	_	_	_	_
 6	голоса	_	_	_	_	_	_	_	_
 7	более	_	_	_	_	_	_	_	bratT32=Percent
 8	половины	_	_	_	_	_	_	_	bratT32=Percent
-9	граждан	_	_	_	_	_	_	_	_
-10	страны	_	_	_	_	_	_	_	SpaceAfter=No
+9	граждан	_	_	_	_	_	_	_	bratA14=T54:Citizenship|bratT54=Nationality
+10	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Citizenship|bratT54=Nationality
 11	,	_	_	_	_	_	_	_	_
 12	пришедших	_	_	_	_	_	_	_	_
 13	15	_	_	_	_	_	_	_	bratA4=T13:Past|bratT13=Date-absolute
@@ -108,11 +108,11 @@
 16	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
 17	,	_	_	_	_	_	_	_	_
 18	а	_	_	_	_	_	_	_	_
-19	действующего	_	_	_	_	_	_	_	bratT17=Person|bratT18=Person-property
-20	молдавского	_	_	_	_	_	_	_	bratT17=Person|bratT18=Person-property
-21	лидера	_	_	_	_	_	_	_	bratT17=Person|bratT18=Person-property
-22	Игоря	_	_	_	_	_	_	_	bratT17=Person|bratT44=Person-forename
-23	Додона	_	_	_	_	_	_	_	bratT17=Person|bratT45=Person-surname
+19	действующего	_	_	_	_	_	_	_	bratA8=T17:Male|bratT17=Person|bratT18=Person-property
+20	молдавского	_	_	_	_	_	_	_	bratA12=T52:Adjective|bratA8=T17:Male|bratT17=Person|bratT18=Person-property|bratT52=GPE
+21	лидера	_	_	_	_	_	_	_	bratA8=T17:Male|bratT17=Person|bratT18=Person-property
+22	Игоря	_	_	_	_	_	_	_	bratA8=T17:Male|bratT17=Person|bratT44=Person-forename
+23	Додона	_	_	_	_	_	_	_	bratA8=T17:Male|bratT17=Person|bratT45=Person-surname
 24	поддержали	_	_	_	_	_	_	_	_
 25	42.91	_	_	_	_	_	_	_	bratT19=Percent
 26	%	_	_	_	_	_	_	_	bratT19=Percent
@@ -130,8 +130,8 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Поздравляем	_	_	_	_	_	_	_	_
 3	госпожу	_	_	_	_	_	_	_	_
-4	Майю	_	_	_	_	_	_	_	bratT21=Person|bratT46=Person-forename
-5	Санду	_	_	_	_	_	_	_	bratT21=Person|bratT47=Person-surname
+4	Майю	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person|bratT46=Person-forename
+5	Санду	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person|bratT47=Person-surname
 6	с	_	_	_	_	_	_	_	_
 7	решительной	_	_	_	_	_	_	_	_
 8	победой	_	_	_	_	_	_	_	_
@@ -142,7 +142,7 @@
 13	кто	_	_	_	_	_	_	_	_
 14	мечтает	_	_	_	_	_	_	_	_
 15	о	_	_	_	_	_	_	_	_
-16	европейской	_	_	_	_	_	_	_	_
+16	европейской	_	_	_	_	_	_	_	bratA13=T53:Adjective|bratT53=GPE
 17	Молдове	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=GPE
 18	,	_	_	_	_	_	_	_	_
 19	справедливости	_	_	_	_	_	_	_	_
@@ -159,35 +159,35 @@
 30	странице	_	_	_	_	_	_	_	bratA1=T23:Media|bratT23=Service
 31	в	_	_	_	_	_	_	_	_
 32	Facebook	_	_	_	_	_	_	_	bratT33=Service
-33	глава	_	_	_	_	_	_	_	bratT24=Person|bratT36=Person-property
-34	партии	_	_	_	_	_	_	_	bratT24=Person|bratT25=Organization|bratT36=Person-property
-35	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Organization|bratT36=Person-property
-36	Платформа	_	_	_	_	_	_	_	bratT24=Person|bratT25=Organization|bratT36=Person-property
-37	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Organization|bratT36=Person-property
-38	Достоинство	_	_	_	_	_	_	_	bratT24=Person|bratT25=Organization|bratT36=Person-property
-39	и	_	_	_	_	_	_	_	bratT24=Person|bratT25=Organization|bratT36=Person-property
-40	правда	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Organization|bratT36=Person-property
-41	''	_	_	_	_	_	_	_	bratT24=Person|bratT25=Organization|bratT36=Person-property
-42	Андрей	_	_	_	_	_	_	_	bratT24=Person|bratT48=Person-forename
-43	Нэстасе	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT49=Person-surname
+33	глава	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT36=Person-property
+34	партии	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+35	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+36	Платформа	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+37	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+38	Достоинство	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+39	и	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+40	правда	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+41	''	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT25=Organization|bratT36=Person-property
+42	Андрей	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT48=Person-forename
+43	Нэстасе	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T24:Male|bratT24=Person|bratT49=Person-surname
 44	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0049-p5
 # par_text = Лидер парламентской группы «Про-Молдова», бывший спикер парламента Андриан Канду тоже поздравил новоизбранного президента. Он отметил, что «Республика Молдова сделала важный шаг для перезагрузки государства», передает ТАСС.
 # sent_id = 0049-p5-s1
 # text = Лидер парламентской группы ``Про-Молдова'', бывший спикер парламента Андриан Канду тоже поздравил новоизбранного президента.
-1	Лидер	_	_	_	_	_	_	_	bratT26=Person|bratT34=Person-property
-2	парламентской	_	_	_	_	_	_	_	bratT26=Person|bratT27=Organization|bratT34=Person-property
-3	группы	_	_	_	_	_	_	_	bratT26=Person|bratT27=Organization|bratT34=Person-property
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person|bratT27=Organization|bratT34=Person-property
-5	Про-Молдова	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person|bratT27=Organization|bratT34=Person-property
-6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person|bratT27=Organization|bratT34=Person-property
-7	,	_	_	_	_	_	_	_	bratT26=Person
-8	бывший	_	_	_	_	_	_	_	bratT26=Person|bratT28=Person-property
-9	спикер	_	_	_	_	_	_	_	bratT26=Person|bratT28=Person-property
-10	парламента	_	_	_	_	_	_	_	bratT26=Person|bratT28=Person-property
-11	Андриан	_	_	_	_	_	_	_	bratT26=Person|bratT50=Person-forename
-12	Канду	_	_	_	_	_	_	_	bratT26=Person|bratT51=Person-surname
+1	Лидер	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT34=Person-property
+2	парламентской	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT27=Organization|bratT34=Person-property
+3	группы	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT27=Organization|bratT34=Person-property
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T26:Male|bratT26=Person|bratT27=Organization|bratT34=Person-property
+5	Про-Молдова	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T26:Male|bratT26=Person|bratT27=Organization|bratT34=Person-property
+6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T26:Male|bratT26=Person|bratT27=Organization|bratT34=Person-property
+7	,	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person
+8	бывший	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT28=Person-property
+9	спикер	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT28=Person-property
+10	парламента	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT28=Person-property
+11	Андриан	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT50=Person-forename
+12	Канду	_	_	_	_	_	_	_	bratA11=T26:Male|bratT26=Person|bratT51=Person-surname
 13	тоже	_	_	_	_	_	_	_	_
 14	поздравил	_	_	_	_	_	_	_	_
 15	новоизбранного	_	_	_	_	_	_	_	bratT29=Person-property

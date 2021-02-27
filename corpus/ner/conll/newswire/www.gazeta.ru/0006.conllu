@@ -16,7 +16,7 @@
 # sent_id = 0006-p2-s1
 # text = В бразильском Сан-Паулу протестующие под лозунгом движения Black Lives Matter разгромили и подожгли супермаркет французской сети Carrefour после того, как охранники одного из магазинов забили до смерти 40-летнего посетителя.
 1	В	_	_	_	_	_	_	_	_
-2	бразильском	_	_	_	_	_	_	_	bratT2=GPE
+2	бразильском	_	_	_	_	_	_	_	bratA6=T28:Adjective|bratT2=GPE|bratT28=GPE
 3	Сан-Паулу	_	_	_	_	_	_	_	bratT2=GPE
 4	протестующие	_	_	_	_	_	_	_	_
 5	под	_	_	_	_	_	_	_	_
@@ -29,7 +29,7 @@
 12	и	_	_	_	_	_	_	_	_
 13	подожгли	_	_	_	_	_	_	_	_
 14	супермаркет	_	_	_	_	_	_	_	_
-15	французской	_	_	_	_	_	_	_	bratT4=Organization
+15	французской	_	_	_	_	_	_	_	bratA5=T29:Adjective|bratT29=GPE|bratT4=Organization
 16	сети	_	_	_	_	_	_	_	bratT4=Organization
 17	Carrefour	_	_	_	_	_	_	_	bratT4=Organization
 18	после	_	_	_	_	_	_	_	bratA3=T24:Past|bratT24=Date-relative
@@ -146,8 +146,8 @@
 # text = Накануне сорокалетний Жоау Сильвейра был убит охранниками торгового центра в городе Порту-Алегри, когда совершал покупки вместе с женой.
 1	Накануне	_	_	_	_	_	_	_	bratA1=T25:Past|bratT25=Date-absolute
 2	сорокалетний	_	_	_	_	_	_	_	bratT17=Age
-3	Жоау	_	_	_	_	_	_	_	bratT18=Person
-4	Сильвейра	_	_	_	_	_	_	_	bratT18=Person
+3	Жоау	_	_	_	_	_	_	_	bratA4=T18:Male|bratT18=Person|bratT26=Person-forename
+4	Сильвейра	_	_	_	_	_	_	_	bratA4=T18:Male|bratT18=Person|bratT27=Person-surname
 5	был	_	_	_	_	_	_	_	_
 6	убит	_	_	_	_	_	_	_	_
 7	охранниками	_	_	_	_	_	_	_	bratT19=Person-property

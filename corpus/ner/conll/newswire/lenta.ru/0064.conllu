@@ -3,7 +3,7 @@
 # par_text = Пашинян поручил нарастить производство вооружений
 # sent_id = 0064-p1-s1
 # text = Пашинян поручил нарастить производство вооружений
-1	Пашинян	_	_	_	_	_	_	_	bratT1=Person|bratT38=Person-surname
+1	Пашинян	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT38=Person-surname
 2	поручил	_	_	_	_	_	_	_	_
 3	нарастить	_	_	_	_	_	_	_	_
 4	производство	_	_	_	_	_	_	_	_
@@ -13,10 +13,10 @@
 # par_text = Премьер-министр Армении Никол Пашинян поручил нарастить производство вооружений. Об этом сообщает сайт главы правительства.
 # sent_id = 0064-p2-s1
 # text = Премьер-министр Армении Никол Пашинян поручил нарастить производство вооружений.
-1	Премьер-министр	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Person
-2	Армении	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=GPE|bratT4=Person
-3	Никол	_	_	_	_	_	_	_	bratT39=Person-forename|bratT4=Person
-4	Пашинян	_	_	_	_	_	_	_	bratT4=Person|bratT40=Person-surname
+1	Премьер-министр	_	_	_	_	_	_	_	bratA9=T4:Male|bratT2=Person-property|bratT4=Person
+2	Армении	_	_	_	_	_	_	_	bratA9=T4:Male|bratT2=Person-property|bratT3=GPE|bratT4=Person
+3	Никол	_	_	_	_	_	_	_	bratA9=T4:Male|bratT39=Person-forename|bratT4=Person
+4	Пашинян	_	_	_	_	_	_	_	bratA9=T4:Male|bratT4=Person|bratT40=Person-surname
 5	поручил	_	_	_	_	_	_	_	_
 6	нарастить	_	_	_	_	_	_	_	_
 7	производство	_	_	_	_	_	_	_	_
@@ -37,7 +37,7 @@
 # par_text = Пашинян посетил научно-производственное объединение «Гарни Лер» и военный завод «Арсенал». В ходе визитов он рассмотрел производимые в Армении системы огнестрельного оружия и боевые снаряды.
 # sent_id = 0064-p3-s1
 # text = Пашинян посетил научно-производственное объединение ``Гарни Лер'' и военный завод ``Арсенал''.
-1	Пашинян	_	_	_	_	_	_	_	bratT41=Person-surname|bratT6=Person
+1	Пашинян	_	_	_	_	_	_	_	bratA10=T6:Male|bratT41=Person-surname|bratT6=Person
 2	посетил	_	_	_	_	_	_	_	_
 3	научно-производственное	_	_	_	_	_	_	_	bratT7=Organization
 4	объединение	_	_	_	_	_	_	_	bratT7=Organization
@@ -101,11 +101,11 @@
 # text = 20 ноября министр обороны Армении Давид Тоноян подал в отставку.
 1	20	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
-3	министр	_	_	_	_	_	_	_	bratT11=Person-property|bratT13=Person
-4	обороны	_	_	_	_	_	_	_	bratT11=Person-property|bratT13=Person
-5	Армении	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE|bratT13=Person
-6	Давид	_	_	_	_	_	_	_	bratT13=Person|bratT42=Person-forename
-7	Тоноян	_	_	_	_	_	_	_	bratT13=Person|bratT43=Person-surname
+3	министр	_	_	_	_	_	_	_	bratA11=T13:Male|bratT11=Person-property|bratT13=Person
+4	обороны	_	_	_	_	_	_	_	bratA11=T13:Male|bratT11=Person-property|bratT13=Person
+5	Армении	_	_	_	_	_	_	_	bratA11=T13:Male|bratT11=Person-property|bratT12=GPE|bratT13=Person
+6	Давид	_	_	_	_	_	_	_	bratA11=T13:Male|bratT13=Person|bratT42=Person-forename
+7	Тоноян	_	_	_	_	_	_	_	bratA11=T13:Male|bratT13=Person|bratT43=Person-surname
 8	подал	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	отставку	_	_	_	_	_	_	_	SpaceAfter=No
@@ -118,8 +118,8 @@
 3	ведомства	_	_	_	_	_	_	_	bratT29=Person-property
 4	был	_	_	_	_	_	_	_	_
 5	назначен	_	_	_	_	_	_	_	_
-6	Вагаршак	_	_	_	_	_	_	_	bratT14=Person|bratT44=Person-forename
-7	Арутюнян	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT45=Person-surname
+6	Вагаршак	_	_	_	_	_	_	_	bratA12=T14:Male|bratT14=Person|bratT44=Person-forename
+7	Арутюнян	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T14:Male|bratT14=Person|bratT45=Person-surname
 8	,	_	_	_	_	_	_	_	_
 9	возглавлявший	_	_	_	_	_	_	_	_
 10	Минобороны	_	_	_	_	_	_	_	bratT15=Organization
@@ -166,11 +166,11 @@
 12	Азербайджана	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT22=GPE|bratT24=Person-property|bratT34=Person
 13	и	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT24=Person-property|bratT34=Person
 14	России	_	_	_	_	_	_	_	bratA1=T24:Plural|bratA2=T34:Plural|bratT24=Person-property|bratT33=GPE|bratT34=Person
-15	Ильхамом	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person|bratT47=Person-forename
-16	Алиевым	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT32=Person|bratT34=Person|bratT48=Person-surname
+15	Ильхамом	_	_	_	_	_	_	_	bratA13=T32:Male|bratA2=T34:Plural|bratT32=Person|bratT34=Person|bratT47=Person-forename
+16	Алиевым	_	_	_	_	_	_	_	bratA13=T32:Male|bratA2=T34:Plural|bratT32=Person|bratT34=Person|bratT48=Person-surname
 17	и	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person
-18	Владимиром	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person|bratT49=Person-forename
-19	Путиным	_	_	_	_	_	_	_	bratA2=T34:Plural|bratT34=Person|bratT36=Person|bratT50=Person-surname
+18	Владимиром	_	_	_	_	_	_	_	bratA14=T36:Male|bratA2=T34:Plural|bratT34=Person|bratT36=Person|bratT49=Person-forename
+19	Путиным	_	_	_	_	_	_	_	bratA14=T36:Male|bratA2=T34:Plural|bratT34=Person|bratT36=Person|bratT50=Person-surname
 20	подписал	_	_	_	_	_	_	_	_
 21	заявление	_	_	_	_	_	_	_	_
 22	о	_	_	_	_	_	_	_	_
@@ -197,7 +197,7 @@
 12	регионе	_	_	_	_	_	_	_	_
 13	будут	_	_	_	_	_	_	_	_
 14	находиться	_	_	_	_	_	_	_	_
-15	российские	_	_	_	_	_	_	_	bratT27=Person-property|bratT35=GPE
+15	российские	_	_	_	_	_	_	_	bratA15=T35:Adjective|bratT27=Person-property|bratT35=GPE
 16	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property
 17	.	_	_	_	_	_	_	_	_
 

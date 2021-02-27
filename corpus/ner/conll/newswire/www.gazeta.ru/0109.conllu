@@ -3,7 +3,7 @@
 # par_text = Хабибу подарили медаль с надписью «Лучшая мама»
 # sent_id = 0109-p1-s1
 # text = Хабибу подарили медаль с надписью ``Лучшая мама''
-1	Хабибу	_	_	_	_	_	_	_	bratT1=Person
+1	Хабибу	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT8=Person-forename
 2	подарили	_	_	_	_	_	_	_	_
 3	медаль	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
@@ -17,15 +17,15 @@
 # par_text = Бойцу Абсолютного бойцовского чемпионата (UFC) Хабибу Нурмагомедову в Дербенте подарили медаль с надписью «Лучшая мама».
 # sent_id = 0109-p2-s1
 # text = Бойцу Абсолютного бойцовского чемпионата (UFC) Хабибу Нурмагомедову в Дербенте подарили медаль с надписью ``Лучшая мама''.
-1	Бойцу	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-2	Абсолютного	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Organization
-3	бойцовского	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Organization
-4	чемпионата	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Organization
-5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person|bratT3=Person-property
-6	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person|bratT3=Person-property|bratT5=Organization
-7	)	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-8	Хабибу	_	_	_	_	_	_	_	bratT2=Person
-9	Нурмагомедову	_	_	_	_	_	_	_	bratT2=Person
+1	Бойцу	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property
+2	Абсолютного	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Organization
+3	бойцовского	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Organization
+4	чемпионата	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Organization
+5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T2:Male|bratT2=Person|bratT3=Person-property
+6	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T2:Male|bratT2=Person|bratT3=Person-property|bratT5=Organization
+7	)	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT3=Person-property
+8	Хабибу	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT20=Person-forename
+9	Нурмагомедову	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT21=Person-surname
 10	в	_	_	_	_	_	_	_	_
 11	Дербенте	_	_	_	_	_	_	_	bratT6=GPE
 12	подарили	_	_	_	_	_	_	_	_
@@ -67,7 +67,7 @@
 10	-	_	_	_	_	_	_	_	_
 11	подписал	_	_	_	_	_	_	_	_
 12	снимок	_	_	_	_	_	_	_	_
-13	Хабиб	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+13	Хабиб	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Male|bratT10=Person|bratT22=Person-forename
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0109-p5
@@ -75,7 +75,7 @@
 # sent_id = 0109-p5-s1
 # text = Также Хабиб провел встречу с местной молодежью.
 1	Также	_	_	_	_	_	_	_	_
-2	Хабиб	_	_	_	_	_	_	_	bratT11=Person
+2	Хабиб	_	_	_	_	_	_	_	bratA5=T11:Male|bratT11=Person|bratT23=Person-forename
 3	провел	_	_	_	_	_	_	_	_
 4	встречу	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
@@ -107,5 +107,5 @@
 5	граффити	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
 7	портретом	_	_	_	_	_	_	_	_
-8	Хабиба	_	_	_	_	_	_	_	bratT13=Person
+8	Хабиба	_	_	_	_	_	_	_	bratA6=T13:Male|bratT13=Person|bratT24=Person-forename
 

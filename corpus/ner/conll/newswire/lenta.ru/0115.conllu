@@ -3,7 +3,7 @@
 # par_text = Американский модельер избавился от своего поместья в рекордные сроки
 # sent_id = 0115-p1-s1
 # text = Американский модельер избавился от своего поместья в рекордные сроки
-1	Американский	_	_	_	_	_	_	_	bratT1=Person-property|bratT30=GPE
+1	Американский	_	_	_	_	_	_	_	bratA8=T30:Adjective|bratT1=Person-property|bratT30=GPE
 2	модельер	_	_	_	_	_	_	_	bratT1=Person-property
 3	избавился	_	_	_	_	_	_	_	_
 4	от	_	_	_	_	_	_	_	_
@@ -17,26 +17,26 @@
 # par_text = Американский модельер и основатель одноименного бренда Томми Хилфигер (Tommy Hilfiger) и его жена Ди Оклеппо (Dee Ocleppo) в рекордные сроки избавились от своего поместья в американском городе Гринуич штата Коннектикут. Супруги выручили от продажи 47,5 миллиона долларов (более 3,6 миллиарда рублей), сообщает New York Post.
 # sent_id = 0115-p2-s1
 # text = Американский модельер и основатель одноименного бренда Томми Хилфигер (Tommy Hilfiger) и его жена Ди Оклеппо (Dee Ocleppo) в рекордные сроки избавились от своего поместья в американском городе Гринуич штата Коннектикут.
-1	Американский	_	_	_	_	_	_	_	bratT3=Person|bratT31=GPE|bratT4=Person-property
-2	модельер	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-3	и	_	_	_	_	_	_	_	bratT3=Person
-4	основатель	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Person
-5	одноименного	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Person
-6	бренда	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Person
-7	Томми	_	_	_	_	_	_	_	bratT3=Person|bratT33=Person-forename
-8	Хилфигер	_	_	_	_	_	_	_	bratT3=Person|bratT34=Person-surname
+1	Американский	_	_	_	_	_	_	_	bratA5=T3:Male|bratA9=T31:Adjective|bratT3=Person|bratT31=GPE|bratT4=Person-property
+2	модельер	_	_	_	_	_	_	_	bratA5=T3:Male|bratT3=Person|bratT4=Person-property
+3	и	_	_	_	_	_	_	_	bratA5=T3:Male|bratT3=Person
+4	основатель	_	_	_	_	_	_	_	bratA5=T3:Male|bratT2=Person-property|bratT3=Person
+5	одноименного	_	_	_	_	_	_	_	bratA5=T3:Male|bratT2=Person-property|bratT3=Person
+6	бренда	_	_	_	_	_	_	_	bratA5=T3:Male|bratT2=Person-property|bratT3=Person
+7	Томми	_	_	_	_	_	_	_	bratA5=T3:Male|bratT3=Person|bratT33=Person-forename
+8	Хилфигер	_	_	_	_	_	_	_	bratA5=T3:Male|bratT3=Person|bratT34=Person-surname
 9	(	_	_	_	_	_	_	_	SpaceAfter=No
-10	Tommy	_	_	_	_	_	_	_	bratT35=Person-forename|bratT6=Person
-11	Hilfiger	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-surname|bratT6=Person
+10	Tommy	_	_	_	_	_	_	_	bratA6=T6:Male|bratT35=Person-forename|bratT6=Person
+11	Hilfiger	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT36=Person-surname|bratT6=Person
 12	)	_	_	_	_	_	_	_	_
 13	и	_	_	_	_	_	_	_	_
 14	его	_	_	_	_	_	_	_	_
 15	жена	_	_	_	_	_	_	_	bratT7=Family
-16	Ди	_	_	_	_	_	_	_	bratT37=Person-forename|bratT8=Person
-17	Оклеппо	_	_	_	_	_	_	_	bratT38=Person-surname|bratT8=Person
+16	Ди	_	_	_	_	_	_	_	bratA10=T8:Female|bratT37=Person-forename|bratT8=Person
+17	Оклеппо	_	_	_	_	_	_	_	bratA10=T8:Female|bratT38=Person-surname|bratT8=Person
 18	(	_	_	_	_	_	_	_	SpaceAfter=No
-19	Dee	_	_	_	_	_	_	_	bratT39=Person-forename|bratT9=Person
-20	Ocleppo	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-surname|bratT9=Person
+19	Dee	_	_	_	_	_	_	_	bratA11=T9:Female|bratT39=Person-forename|bratT9=Person
+20	Ocleppo	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T9:Female|bratT40=Person-surname|bratT9=Person
 21	)	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	_
 23	рекордные	_	_	_	_	_	_	_	_
@@ -46,7 +46,7 @@
 27	своего	_	_	_	_	_	_	_	_
 28	поместья	_	_	_	_	_	_	_	_
 29	в	_	_	_	_	_	_	_	_
-30	американском	_	_	_	_	_	_	_	bratT10=GPE|bratT32=GPE
+30	американском	_	_	_	_	_	_	_	bratA7=T32:Adjective|bratT10=GPE|bratT32=GPE
 31	городе	_	_	_	_	_	_	_	bratT10=GPE
 32	Гринуич	_	_	_	_	_	_	_	bratT10=GPE
 33	штата	_	_	_	_	_	_	_	bratT10=GPE|bratT11=GPE
@@ -79,7 +79,7 @@
 # par_text = Хилфигер нашел покупателя на участок спустя несколько месяцев после публикации объявления о продаже в сентябре 2020 года. Источник, приближенный к модельеру, рассказал изданию, что бизнесмен показывал особняк всего лишь четырем потенциальным владельцам, трое из которых пожелали заключить сделку. По словам экспертов, такой спрос и скорость продажи объекта среди обеспеченных жителей говорят о стремительном развитии рынка загородной недвижимости на фоне пандемии.
 # sent_id = 0115-p3-s1
 # text = Хилфигер нашел покупателя на участок спустя несколько месяцев после публикации объявления о продаже в сентябре 2020 года.
-1	Хилфигер	_	_	_	_	_	_	_	bratT15=Person|bratT41=Person-surname
+1	Хилфигер	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person|bratT41=Person-surname
 2	нашел	_	_	_	_	_	_	_	_
 3	покупателя	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_

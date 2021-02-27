@@ -2,7 +2,7 @@ T1	Person 0 7	Мурашко
 T2	Other-term 71 83	коронавируса
 T3	Other-term 57 63	вакцин
 T5	Organization 875 879	ТАСС
-T6	Person 882 889	Мурашко
+T6	Person-surname 882 889	Мурашко
 T7	Person-property 903 927	премьер-министр   России
 T8	GPE 921 927	России
 T9	Person 903 947	премьер-министр   России   Михаил   Мишустин
@@ -45,7 +45,7 @@ T40	Person-surname 128 135	Мурашко
 T41	GPE 93 104	российского
 T4	Date-period-absolute 619 643	в   декабре   -   январе
 A5	Fut T4
-T42	Person-surname 882 889	Мурашко
+T42	Person 882 889	Мурашко
 T43	Person-forename 930 936	Михаил
 T44	Person-surname 939 947	Мишустин
 T45	Person-surname 1080 1088	Мишустин
@@ -53,3 +53,10 @@ T46	Person-forename 1386 1392	Сергей
 T47	Person-surname 1395 1405	Колесников
 T48	Ordinal 320 329	настоящее
 T49	Time-relative 736 743	сначала
+A7	Male T1
+A8	Male T28
+A9	Male T42
+A10	Male T9
+A11	Male T12
+A12	Male T22
+A13	Adjective T41

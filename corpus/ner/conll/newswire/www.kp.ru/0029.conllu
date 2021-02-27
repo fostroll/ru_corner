@@ -3,7 +3,7 @@
 # par_text = Российские миротворцы сопроводили очередную колонну автобусов с беженцами из Армении в Степанакерт
 # sent_id = 0029-p1-s1
 # text = Российские миротворцы сопроводили очередную колонну автобусов с беженцами из Армении в Степанакерт
-1	Российские	_	_	_	_	_	_	_	bratT1=Person-property
+1	Российские	_	_	_	_	_	_	_	bratA13=T59:Adjective|bratT1=Person-property|bratT59=GPE
 2	миротворцы	_	_	_	_	_	_	_	bratT1=Person-property
 3	сопроводили	_	_	_	_	_	_	_	_
 4	очередную	_	_	_	_	_	_	_	_
@@ -25,7 +25,7 @@
 3	20	_	_	_	_	_	_	_	bratA8=T47:Past|bratT47=Date-absolute
 4	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T47:Past|bratT47=Date-absolute
 5	,	_	_	_	_	_	_	_	_
-6	российские	_	_	_	_	_	_	_	bratT6=Person-property
+6	российские	_	_	_	_	_	_	_	bratA14=T60:Adjective|bratT6=Person-property|bratT60=GPE
 7	миротворцы	_	_	_	_	_	_	_	bratT6=Person-property
 8	сопроводили	_	_	_	_	_	_	_	_
 9	очередную	_	_	_	_	_	_	_	_
@@ -179,20 +179,20 @@
 8	ночью	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute|bratT48=Time-absolute
 9	9	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
 10	ноября	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
-11	президент	_	_	_	_	_	_	_	bratT29=Person|bratT30=Person-property
-12	России	_	_	_	_	_	_	_	bratT29=Person|bratT30=Person-property|bratT31=GPE
-13	Владимир	_	_	_	_	_	_	_	bratT29=Person|bratT53=Person-forename
-14	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person|bratT54=Person-surname
+11	президент	_	_	_	_	_	_	_	bratA10=T29:Male|bratT29=Person|bratT30=Person-property
+12	России	_	_	_	_	_	_	_	bratA10=T29:Male|bratT29=Person|bratT30=Person-property|bratT31=GPE
+13	Владимир	_	_	_	_	_	_	_	bratA10=T29:Male|bratT29=Person|bratT53=Person-forename
+14	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T29:Male|bratT29=Person|bratT54=Person-surname
 15	,	_	_	_	_	_	_	_	_
-16	премьер	_	_	_	_	_	_	_	bratT32=Person|bratT33=Person-property
-17	Армении	_	_	_	_	_	_	_	bratT32=Person|bratT33=Person-property|bratT34=GPE
-18	Никол	_	_	_	_	_	_	_	bratT32=Person|bratT55=Person-forename
-19	Пашинян	_	_	_	_	_	_	_	bratT32=Person|bratT56=Person-surname
+16	премьер	_	_	_	_	_	_	_	bratA11=T32:Male|bratT32=Person|bratT33=Person-property
+17	Армении	_	_	_	_	_	_	_	bratA11=T32:Male|bratT32=Person|bratT33=Person-property|bratT34=GPE
+18	Никол	_	_	_	_	_	_	_	bratA11=T32:Male|bratT32=Person|bratT55=Person-forename
+19	Пашинян	_	_	_	_	_	_	_	bratA11=T32:Male|bratT32=Person|bratT56=Person-surname
 20	и	_	_	_	_	_	_	_	_
-21	лидер	_	_	_	_	_	_	_	bratT35=Person|bratT36=Person-property
-22	Азербайджана	_	_	_	_	_	_	_	bratT35=Person|bratT36=Person-property|bratT37=GPE
-23	Ильхам	_	_	_	_	_	_	_	bratT35=Person|bratT57=Person-forename
-24	Алиев	_	_	_	_	_	_	_	bratT35=Person|bratT58=Person-surname
+21	лидер	_	_	_	_	_	_	_	bratA12=T35:Male|bratT35=Person|bratT36=Person-property
+22	Азербайджана	_	_	_	_	_	_	_	bratA12=T35:Male|bratT35=Person|bratT36=Person-property|bratT37=GPE
+23	Ильхам	_	_	_	_	_	_	_	bratA12=T35:Male|bratT35=Person|bratT57=Person-forename
+24	Алиев	_	_	_	_	_	_	_	bratA12=T35:Male|bratT35=Person|bratT58=Person-surname
 25	подписали	_	_	_	_	_	_	_	_
 26	заявление	_	_	_	_	_	_	_	_
 27	о	_	_	_	_	_	_	_	_
@@ -229,7 +229,7 @@
 22	действий	_	_	_	_	_	_	_	_
 23	в	_	_	_	_	_	_	_	_
 24	зоне	_	_	_	_	_	_	_	_
-25	нагорнокарабахского	_	_	_	_	_	_	_	bratT42=Event
+25	нагорнокарабахского	_	_	_	_	_	_	_	bratA15=T61:Adjective|bratT42=Event|bratT61=GPE
 26	конфликта	_	_	_	_	_	_	_	bratT42=Event
 27	с	_	_	_	_	_	_	_	bratA4=T44:UNK-Fut|bratT44=Date-period-absolute
 28	00:00	_	_	_	_	_	_	_	bratA4=T44:UNK-Fut|bratT43=Time-absolute|bratT44=Date-period-absolute
@@ -252,7 +252,7 @@
 5	сообщил	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
 7	вводе	_	_	_	_	_	_	_	_
-8	российских	_	_	_	_	_	_	_	bratT45=Person-property
+8	российских	_	_	_	_	_	_	_	bratA16=T62:Adjective|bratT45=Person-property|bratT62=GPE
 9	миротворцев	_	_	_	_	_	_	_	bratT45=Person-property
 10	в	_	_	_	_	_	_	_	_
 11	Карабах	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=GPE

@@ -9,18 +9,18 @@
 4	высказался	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	смерти	_	_	_	_	_	_	_	bratT26=Event
-7	Марадоны	_	_	_	_	_	_	_	bratT26=Event|bratT3=Person
+7	Марадоны	_	_	_	_	_	_	_	bratA8=T3:Male|bratT26=Event|bratT3=Person|bratT33=Person-surname
 
 # newpar id = 0020-p2
 # par_text = Чемпион мира 1986 года Диего Марадона скончался в возрасте 60 лет.
 # sent_id = 0020-p2-s1
 # text = Чемпион мира 1986 года Диего Марадона скончался в возрасте 60 лет.
-1	Чемпион	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-2	мира	_	_	_	_	_	_	_	bratT31=GPE|bratT5=Person-property|bratT6=Person
-3	1986	_	_	_	_	_	_	_	bratA3=T4:Past|bratT4=Date-absolute|bratT5=Person-property|bratT6=Person
-4	года	_	_	_	_	_	_	_	bratA3=T4:Past|bratT4=Date-absolute|bratT5=Person-property|bratT6=Person
-5	Диего	_	_	_	_	_	_	_	bratT6=Person
-6	Марадона	_	_	_	_	_	_	_	bratT6=Person
+1	Чемпион	_	_	_	_	_	_	_	bratA9=T6:Male|bratT5=Person-property|bratT6=Person
+2	мира	_	_	_	_	_	_	_	bratA9=T6:Male|bratT31=GPE|bratT5=Person-property|bratT6=Person
+3	1986	_	_	_	_	_	_	_	bratA3=T4:Past|bratA9=T6:Male|bratT4=Date-absolute|bratT5=Person-property|bratT6=Person
+4	года	_	_	_	_	_	_	_	bratA3=T4:Past|bratA9=T6:Male|bratT4=Date-absolute|bratT5=Person-property|bratT6=Person
+5	Диего	_	_	_	_	_	_	_	bratA9=T6:Male|bratT34=Person-forename|bratT6=Person
+6	Марадона	_	_	_	_	_	_	_	bratA9=T6:Male|bratT36=Person-surname|bratT6=Person
 7	скончался	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	возрасте	_	_	_	_	_	_	_	_
@@ -33,7 +33,7 @@
 # sent_id = 0020-p3-s1
 # text = Легенда мирового футбола умер от сердечного приступа в собственном доме в Буэнос-Айресе 25 ноября.
 1	Легенда	_	_	_	_	_	_	_	_
-2	мирового	_	_	_	_	_	_	_	_
+2	мирового	_	_	_	_	_	_	_	bratA17=T45:Adjective|bratT45=GPE
 3	футбола	_	_	_	_	_	_	_	_
 4	умер	_	_	_	_	_	_	_	_
 5	от	_	_	_	_	_	_	_	_
@@ -52,23 +52,23 @@
 # par_text = Бывший президент Российского футбольного союза (РФС) Виталий Мутко выразил соболезнования в связи со смертью Марадоны, передает «Спорт-Экспресс».
 # sent_id = 0020-p4-s1
 # text = Бывший президент Российского футбольного союза (РФС) Виталий Мутко выразил соболезнования в связи со смертью Марадоны, передает ``Спорт-Экспресс''.
-1	Бывший	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-2	президент	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-3	Российского	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT12=Person
-4	футбольного	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT12=Person
-5	союза	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT12=Person
-6	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT12=Person
-7	РФС	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT12=Person|bratT28=Organization
-8	)	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-9	Виталий	_	_	_	_	_	_	_	bratT12=Person
-10	Мутко	_	_	_	_	_	_	_	bratT12=Person
+1	Бывший	_	_	_	_	_	_	_	bratA10=T12:Male|bratT11=Person-property|bratT12=Person
+2	президент	_	_	_	_	_	_	_	bratA10=T12:Male|bratT11=Person-property|bratT12=Person
+3	Российского	_	_	_	_	_	_	_	bratA10=T12:Male|bratA16=T44:Adjective|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT44=GPE
+4	футбольного	_	_	_	_	_	_	_	bratA10=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person
+5	союза	_	_	_	_	_	_	_	bratA10=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person
+6	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T12:Male|bratT11=Person-property|bratT12=Person
+7	РФС	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T12:Male|bratT11=Person-property|bratT12=Person|bratT28=Organization
+8	)	_	_	_	_	_	_	_	bratA10=T12:Male|bratT11=Person-property|bratT12=Person
+9	Виталий	_	_	_	_	_	_	_	bratA10=T12:Male|bratT12=Person|bratT35=Person-forename
+10	Мутко	_	_	_	_	_	_	_	bratA10=T12:Male|bratT12=Person|bratT37=Person-surname
 11	выразил	_	_	_	_	_	_	_	_
 12	соболезнования	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	связи	_	_	_	_	_	_	_	_
 15	со	_	_	_	_	_	_	_	_
 16	смертью	_	_	_	_	_	_	_	bratT27=Event
-17	Марадоны	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person|bratT27=Event
+17	Марадоны	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Male|bratT13=Person|bratT27=Event|bratT38=Person-forename
 18	,	_	_	_	_	_	_	_	_
 19	передает	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T14:Media|bratT14=Organization
@@ -85,7 +85,7 @@
 3	бывшего	_	_	_	_	_	_	_	bratT15=Person-property
 4	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
 5	,	_	_	_	_	_	_	_	_
-6	Марадона	_	_	_	_	_	_	_	bratT16=Person
+6	Марадона	_	_	_	_	_	_	_	bratA12=T16:Male|bratT16=Person|bratT39=Person-surname
 7	неоднократно	_	_	_	_	_	_	_	_
 8	посещал	_	_	_	_	_	_	_	_
 9	Россию	_	_	_	_	_	_	_	bratT17=GPE
@@ -112,7 +112,7 @@
 
 # sent_id = 0020-p5-s2
 # text = Мутко отмечает, что аргентинец был великим и в мыслях, и в поступках, и в делах.
-1	Мутко	_	_	_	_	_	_	_	bratT21=Person
+1	Мутко	_	_	_	_	_	_	_	bratA13=T21:Male|bratT21=Person|bratT40=Person-surname
 2	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -137,7 +137,7 @@
 # sent_id = 0020-p6-s1
 # text = ``Диего очень любил Россию.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Диего	_	_	_	_	_	_	_	bratT23=Person
+2	Диего	_	_	_	_	_	_	_	bratA14=T23:Male|bratT23=Person|bratT41=Person-surname
 3	очень	_	_	_	_	_	_	_	_
 4	любил	_	_	_	_	_	_	_	_
 5	Россию	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=GPE
@@ -170,7 +170,7 @@
 # text = Ранее умер Диего Марадона.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T30:Past|bratT30=Date-relative
 2	умер	_	_	_	_	_	_	_	_
-3	Диего	_	_	_	_	_	_	_	bratT25=Person
-4	Марадона	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person
+3	Диего	_	_	_	_	_	_	_	bratA15=T25:Male|bratT25=Person|bratT42=Person-forename
+4	Марадона	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T25:Male|bratT25=Person|bratT43=Person-surname
 5	.	_	_	_	_	_	_	_	_
 

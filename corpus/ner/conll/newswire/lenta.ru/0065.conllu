@@ -49,11 +49,11 @@
 # par_text = Сантия Эфтимиу (Xanthia Efthymiou) располнела еще в школе. К последнему классу она весила 114 килограммов и каждый день объедалась бургерами из фастфуда. Девушка задумалась о похудении, когда из-за избыточного веса у нее начались боли в спине. «Я пошла к врачу и обнаружила, что за год набрала еще 20 килограммов, — вспоминает она. — Мне сказали, что если я и дальше буду так полнеть, у меня появятся серьезные проблемы со здоровьем».
 # sent_id = 0065-p3-s1
 # text = Сантия Эфтимиу (Xanthia Efthymiou) располнела еще в школе.
-1	Сантия	_	_	_	_	_	_	_	bratT37=Person-forename|bratT5=Person
-2	Эфтимиу	_	_	_	_	_	_	_	bratT38=Person-surname|bratT5=Person
+1	Сантия	_	_	_	_	_	_	_	bratA7=T5:Female|bratT37=Person-forename|bratT5=Person
+2	Эфтимиу	_	_	_	_	_	_	_	bratA7=T5:Female|bratT38=Person-surname|bratT5=Person
 3	(	_	_	_	_	_	_	_	SpaceAfter=No
-4	Xanthia	_	_	_	_	_	_	_	bratT21=Person|bratT39=Person-forename
-5	Efthymiou	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person|bratT40=Person-surname
+4	Xanthia	_	_	_	_	_	_	_	bratA8=T21:Female|bratT21=Person|bratT39=Person-forename
+5	Efthymiou	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Female|bratT21=Person|bratT40=Person-surname
 6	)	_	_	_	_	_	_	_	_
 7	располнела	_	_	_	_	_	_	_	_
 8	еще	_	_	_	_	_	_	_	_
@@ -150,7 +150,7 @@
 # par_text = Сантия понимала, что для похудения ей необходимо изменить свой рацион и увеличить физическую активность, но сделать первый шаг было непросто. «Я всегда боялась заниматься спортом на людях, — объясняет она. — Мне казалось, что люди услышат мое тяжелое дыхание, поймут, какая я нетренированная, и будут плохо обо мне думать».
 # sent_id = 0065-p4-s1
 # text = Сантия понимала, что для похудения ей необходимо изменить свой рацион и увеличить физическую активность, но сделать первый шаг было непросто.
-1	Сантия	_	_	_	_	_	_	_	bratT41=Person-forename|bratT9=Person
+1	Сантия	_	_	_	_	_	_	_	bratA9=T9:Female|bratT41=Person-forename|bratT9=Person
 2	понимала	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

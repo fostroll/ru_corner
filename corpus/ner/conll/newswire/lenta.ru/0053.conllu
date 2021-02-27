@@ -35,11 +35,11 @@
 # text = Об этом вице-президент горно-металлургической компании Андрей Грачев рассказал на форуме ``Дни Арктики и Антарктики в Москве'', передает ТАСС.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	вице-президент	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-4	горно-металлургической	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-5	компании	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-6	Андрей	_	_	_	_	_	_	_	bratT28=Person-forename|bratT5=Person
-7	Грачев	_	_	_	_	_	_	_	bratT29=Person-surname|bratT5=Person
+3	вице-президент	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person
+4	горно-металлургической	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person
+5	компании	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person
+6	Андрей	_	_	_	_	_	_	_	bratA4=T5:Male|bratT28=Person-forename|bratT5=Person
+7	Грачев	_	_	_	_	_	_	_	bratA4=T5:Male|bratT29=Person-surname|bratT5=Person
 8	рассказал	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	форуме	_	_	_	_	_	_	_	bratT6=Event
@@ -102,7 +102,7 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	сказал	_	_	_	_	_	_	_	_
-23	Грачев	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person|bratT30=Person-surname
+23	Грачев	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Male|bratT13=Person|bratT30=Person-surname
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0053-p4
@@ -153,7 +153,7 @@
 12	туристско-рекреационного	_	_	_	_	_	_	_	bratT17=Facility
 13	кластера	_	_	_	_	_	_	_	bratT17=Facility
 14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
-15	Арктический	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
+15	Арктический	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T31:Adjective|bratT17=Facility|bratT31=Location
 16	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
 17	,	_	_	_	_	_	_	_	_
 18	который	_	_	_	_	_	_	_	_

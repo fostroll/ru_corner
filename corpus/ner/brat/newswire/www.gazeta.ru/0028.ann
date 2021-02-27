@@ -1,7 +1,7 @@
 T1	Person 0 4	Мень
 T2	Organization 100 116	Счетной   палаты
 T3	Person-property 90 116	Аудитор   Счетной   палаты
-T4	Organization 140 160	Ивановской   области
+T4	GPE 140 160	Ивановской   области
 T5	Person-property 123 160	экс-губернатор   Ивановской   области
 T6	Person 90 176	Аудитор   Счетной   палаты   ,   экс-губернатор   Ивановской   области   Михаил   Мень
 T7	GPE 438 444	Москвы
@@ -30,3 +30,18 @@ A3	Past T12
 T27	Duration 650 662	десять   лет
 A4	Past T19
 A5	Past T22
+T28	Person-surname 0 4	Мень
+A6	Male T1
+T29	Person-forename 163 169	Михаил
+T30	Person-surname 172 176	Мень
+A7	Male T6
+T31	Person-surname 695 699	Мень
+A8	Male T13
+T32	Person-forename 447 454	Алексей
+T33	Person-surname 457 466	Мельников
+A9	Male T10
+T34	Person-surname 718 722	Мень
+A10	Male T14
+T35	Person-forename 813 819	Михаил
+T36	Person-surname 822 826	Мень
+A11	Male T15

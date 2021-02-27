@@ -18,18 +18,18 @@
 # par_text = Доктор медицинских наук врач-иммунолог, специалист по особо опасным инфекциям Владислав Жемчугов рассказал, при каком условии прирост числа новых случаев коронавирусной инфекции COVID-19 в России затормозится.
 # sent_id = 0098-p2-s1
 # text = Доктор медицинских наук врач-иммунолог, специалист по особо опасным инфекциям Владислав Жемчугов рассказал, при каком условии прирост числа новых случаев коронавирусной инфекции COVID-19 в России затормозится.
-1	Доктор	_	_	_	_	_	_	_	bratT20=Person-property|bratT23=Person
-2	медицинских	_	_	_	_	_	_	_	bratT20=Person-property|bratT23=Person
-3	наук	_	_	_	_	_	_	_	bratT20=Person-property|bratT23=Person
-4	врач-иммунолог	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT23=Person
-5	,	_	_	_	_	_	_	_	bratT23=Person
-6	специалист	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
-7	по	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
-8	особо	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
-9	опасным	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
-10	инфекциям	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person
-11	Владислав	_	_	_	_	_	_	_	bratT23=Person
-12	Жемчугов	_	_	_	_	_	_	_	bratT23=Person
+1	Доктор	_	_	_	_	_	_	_	bratA7=T23:Male|bratT20=Person-property|bratT23=Person
+2	медицинских	_	_	_	_	_	_	_	bratA7=T23:Male|bratT20=Person-property|bratT23=Person
+3	наук	_	_	_	_	_	_	_	bratA7=T23:Male|bratT20=Person-property|bratT23=Person
+4	врач-иммунолог	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T23:Male|bratT21=Person-property|bratT23=Person
+5	,	_	_	_	_	_	_	_	bratA7=T23:Male|bratT23=Person
+6	специалист	_	_	_	_	_	_	_	bratA7=T23:Male|bratT22=Person-property|bratT23=Person
+7	по	_	_	_	_	_	_	_	bratA7=T23:Male|bratT22=Person-property|bratT23=Person
+8	особо	_	_	_	_	_	_	_	bratA7=T23:Male|bratT22=Person-property|bratT23=Person
+9	опасным	_	_	_	_	_	_	_	bratA7=T23:Male|bratT22=Person-property|bratT23=Person
+10	инфекциям	_	_	_	_	_	_	_	bratA7=T23:Male|bratT22=Person-property|bratT23=Person
+11	Владислав	_	_	_	_	_	_	_	bratA7=T23:Male|bratT23=Person|bratT30=Person-forename
+12	Жемчугов	_	_	_	_	_	_	_	bratA7=T23:Male|bratT23=Person|bratT31=Person-surname
 13	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	при	_	_	_	_	_	_	_	_
@@ -139,15 +139,15 @@
 # sent_id = 0098-p6-s1
 # text = Ранее иммунолог-аллерголог Владимир Болибок в беседе с ``Вечерней Москвой'' назвал условие повторного заболевания коронавирусом.
 1	Ранее	_	_	_	_	_	_	_	bratA4=T27:Past|bratT27=Date-relative
-2	иммунолог-аллерголог	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-3	Владимир	_	_	_	_	_	_	_	bratT8=Person
-4	Болибок	_	_	_	_	_	_	_	bratT8=Person
+2	иммунолог-аллерголог	_	_	_	_	_	_	_	bratA8=T8:Male|bratT8=Person|bratT9=Person-property
+3	Владимир	_	_	_	_	_	_	_	bratA8=T8:Male|bratT32=Person-forename|bratT8=Person
+4	Болибок	_	_	_	_	_	_	_	bratA8=T8:Male|bratT33=Person-surname|bratT8=Person
 5	в	_	_	_	_	_	_	_	_
 6	беседе	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Media|bratT10=Organization
 9	Вечерней	_	_	_	_	_	_	_	bratA2=T10:Media|bratT10=Organization
-10	Москвой	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Media|bratT10=Organization
+10	Москвой	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Media|bratT10=Organization|bratT36=GPE
 11	''	_	_	_	_	_	_	_	bratA2=T10:Media|bratT10=Organization
 12	назвал	_	_	_	_	_	_	_	_
 13	условие	_	_	_	_	_	_	_	_
@@ -162,15 +162,15 @@
 # text = 18 ноября вирусолог, член-корреспондент РАН доктор биологических наук Сергей Нетёсов заявил, что в коронавирусе объединились особенности, ранее встречавшиеся у ряда других вирусов.
 1	18	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute
-3	вирусолог	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person|bratT14=Person-property
-4	,	_	_	_	_	_	_	_	bratT13=Person
-5	член-корреспондент	_	_	_	_	_	_	_	bratT13=Person|bratT18=Person-property
-6	РАН	_	_	_	_	_	_	_	bratT13=Person|bratT15=Organization|bratT18=Person-property
-7	доктор	_	_	_	_	_	_	_	bratT13=Person|bratT19=Person-property
-8	биологических	_	_	_	_	_	_	_	bratT13=Person|bratT19=Person-property
-9	наук	_	_	_	_	_	_	_	bratT13=Person|bratT19=Person-property
-10	Сергей	_	_	_	_	_	_	_	bratT13=Person
-11	Нетёсов	_	_	_	_	_	_	_	bratT13=Person
+3	вирусолог	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T13:Male|bratT13=Person|bratT14=Person-property
+4	,	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person
+5	член-корреспондент	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT18=Person-property
+6	РАН	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT15=Organization|bratT18=Person-property
+7	доктор	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT19=Person-property
+8	биологических	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT19=Person-property
+9	наук	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT19=Person-property
+10	Сергей	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT34=Person-forename
+11	Нетёсов	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT35=Person-surname
 12	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_

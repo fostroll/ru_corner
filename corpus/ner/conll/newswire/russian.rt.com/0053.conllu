@@ -20,7 +20,7 @@
 # par_text = Норвежская компания Det Norske Veritas — Germanischer Lloyd (DNV GL), которая является сертификатором «Северного потока — 2», вышла из проекта из-за угрозы санкций со стороны США. Об этом пишет РИА Новости со ссылкой на заявление компании.
 # sent_id = 0053-p2-s1
 # text = Норвежская компания Det Norske Veritas - Germanischer Lloyd (DNV GL), которая является сертификатором ``Северного потока - 2'', вышла из проекта из-за угрозы санкций со стороны США.
-1	Норвежская	_	_	_	_	_	_	_	bratT17=Organization|bratT24=GPE
+1	Норвежская	_	_	_	_	_	_	_	bratA8=T24:Adjective|bratT17=Organization|bratT24=GPE
 2	компания	_	_	_	_	_	_	_	bratT17=Organization
 3	Det	_	_	_	_	_	_	_	bratT17=Organization
 4	Norske	_	_	_	_	_	_	_	bratT17=Organization
@@ -88,7 +88,7 @@
 14	защите	_	_	_	_	_	_	_	bratT3=Law
 15	энергетической	_	_	_	_	_	_	_	bratT3=Law
 16	безопасности	_	_	_	_	_	_	_	bratT3=Law
-17	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Law
+17	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=GPE|bratT3=Law
 18	''	_	_	_	_	_	_	_	bratT3=Law
 19	(	_	_	_	_	_	_	_	SpaceAfter=No
 20	PEESA	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Law
@@ -149,7 +149,7 @@
 18	говорится	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
 20	сообщении	_	_	_	_	_	_	_	_
-21	норвежской	_	_	_	_	_	_	_	_
+21	норвежской	_	_	_	_	_	_	_	bratA11=T28:Adjective|bratT28=GPE
 22	компании	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_
 
@@ -239,7 +239,7 @@
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	защищать	_	_	_	_	_	_	_	_
-8	европейские	_	_	_	_	_	_	_	bratT25=GPE
+8	европейские	_	_	_	_	_	_	_	bratA9=T25:Adjective|bratT25=GPE
 9	компании	_	_	_	_	_	_	_	_
 10	от	_	_	_	_	_	_	_	_
 11	незаконных	_	_	_	_	_	_	_	_
@@ -248,7 +248,7 @@
 14	должны	_	_	_	_	_	_	_	_
 15	правительства	_	_	_	_	_	_	_	_
 16	и	_	_	_	_	_	_	_	_
-17	Европейская	_	_	_	_	_	_	_	bratT11=Organization|bratT26=GPE
+17	Европейская	_	_	_	_	_	_	_	bratA10=T26:Adjective|bratT11=Organization|bratT26=GPE
 18	комиссия	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
 19	''	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_

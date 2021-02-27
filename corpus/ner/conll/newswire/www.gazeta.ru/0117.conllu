@@ -3,10 +3,10 @@
 # par_text = Супруга экс-президента Армении Саргсяна скончалась от COVID-19
 # sent_id = 0117-p1-s1
 # text = Супруга экс-президента Армении Саргсяна скончалась от COVID-19
-1	Супруга	_	_	_	_	_	_	_	bratT1=Person|bratT23=Family
-2	экс-президента	_	_	_	_	_	_	_	bratT1=Person|bratT2=Person-property|bratT24=Person
-3	Армении	_	_	_	_	_	_	_	bratT1=Person|bratT2=Person-property|bratT24=Person|bratT9=GPE
-4	Саргсяна	_	_	_	_	_	_	_	bratT1=Person|bratT24=Person
+1	Супруга	_	_	_	_	_	_	_	bratA6=T1:Female|bratT1=Person|bratT23=Family
+2	экс-президента	_	_	_	_	_	_	_	bratA5=T24:Male|bratA6=T1:Female|bratT1=Person|bratT2=Person-property|bratT24=Person
+3	Армении	_	_	_	_	_	_	_	bratA5=T24:Male|bratA6=T1:Female|bratT1=Person|bratT2=Person-property|bratT24=Person|bratT9=GPE
+4	Саргсяна	_	_	_	_	_	_	_	bratA5=T24:Male|bratA6=T1:Female|bratT1=Person|bratT24=Person|bratT29=Person-surname
 5	скончалась	_	_	_	_	_	_	_	_
 6	от	_	_	_	_	_	_	_	_
 7	COVID-19	_	_	_	_	_	_	_	bratT3=Other-term
@@ -15,14 +15,14 @@
 # par_text = Жена бывшего президента Армении Сержа Саргсяна Рита Саргсян скончалась от коронавируса в возрасте 58 лет, сообщает ТАСС со ссылкой на канцелярию экс-главы республики.
 # sent_id = 0117-p2-s1
 # text = Жена бывшего президента Армении Сержа Саргсяна Рита Саргсян скончалась от коронавируса в возрасте 58 лет, сообщает ТАСС со ссылкой на канцелярию экс-главы республики.
-1	Жена	_	_	_	_	_	_	_	bratT4=Person|bratT5=Family
-2	бывшего	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person|bratT7=Person-property
-3	президента	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person|bratT7=Person-property
-4	Армении	_	_	_	_	_	_	_	bratT10=GPE|bratT4=Person|bratT6=Person|bratT7=Person-property
-5	Сержа	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person
-6	Саргсяна	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person
-7	Рита	_	_	_	_	_	_	_	bratT4=Person
-8	Саргсян	_	_	_	_	_	_	_	bratT4=Person
+1	Жена	_	_	_	_	_	_	_	bratA7=T4:Female|bratT4=Person|bratT5=Family
+2	бывшего	_	_	_	_	_	_	_	bratA7=T4:Female|bratA8=T6:Male|bratT4=Person|bratT6=Person|bratT7=Person-property
+3	президента	_	_	_	_	_	_	_	bratA7=T4:Female|bratA8=T6:Male|bratT4=Person|bratT6=Person|bratT7=Person-property
+4	Армении	_	_	_	_	_	_	_	bratA7=T4:Female|bratA8=T6:Male|bratT10=GPE|bratT4=Person|bratT6=Person|bratT7=Person-property
+5	Сержа	_	_	_	_	_	_	_	bratA7=T4:Female|bratA8=T6:Male|bratT30=Person-forename|bratT4=Person|bratT6=Person
+6	Саргсяна	_	_	_	_	_	_	_	bratA7=T4:Female|bratA8=T6:Male|bratT31=Person-surname|bratT4=Person|bratT6=Person
+7	Рита	_	_	_	_	_	_	_	bratA7=T4:Female|bratT32=Person-forename|bratT4=Person
+8	Саргсян	_	_	_	_	_	_	_	bratA7=T4:Female|bratT33=Person-surname|bratT4=Person
 9	скончалась	_	_	_	_	_	_	_	_
 10	от	_	_	_	_	_	_	_	_
 11	коронавируса	_	_	_	_	_	_	_	bratT8=Other-term
@@ -49,8 +49,8 @@
 2	К	_	_	_	_	_	_	_	_
 3	сожалению	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	Рита	_	_	_	_	_	_	_	bratT15=Person
-6	Саргсян	_	_	_	_	_	_	_	bratT15=Person
+5	Рита	_	_	_	_	_	_	_	bratA9=T15:Female|bratT15=Person|bratT34=Person-forename
+6	Саргсян	_	_	_	_	_	_	_	bratA9=T15:Female|bratT15=Person|bratT35=Person-surname
 7	умерла	_	_	_	_	_	_	_	SpaceAfter=No
 8	''	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
@@ -81,11 +81,11 @@
 # par_text = Бывший президент Армении Серж Саргсян покинул пост президента страны в 2018 году и был назначен премьер-министром. Это вызвало массовые протесты в республике, что вынудило Саргсяна подать в отставку.
 # sent_id = 0117-p5-s1
 # text = Бывший президент Армении Серж Саргсян покинул пост президента страны в 2018 году и был назначен премьер-министром.
-1	Бывший	_	_	_	_	_	_	_	bratT16=Person|bratT17=Person-property
-2	президент	_	_	_	_	_	_	_	bratT16=Person|bratT17=Person-property
-3	Армении	_	_	_	_	_	_	_	bratT16=Person|bratT17=Person-property|bratT18=GPE
-4	Серж	_	_	_	_	_	_	_	bratT16=Person
-5	Саргсян	_	_	_	_	_	_	_	bratT16=Person
+1	Бывший	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT17=Person-property
+2	президент	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT17=Person-property
+3	Армении	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT17=Person-property|bratT18=GPE
+4	Серж	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT36=Person-forename
+5	Саргсян	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT37=Person-surname
 6	покинул	_	_	_	_	_	_	_	_
 7	пост	_	_	_	_	_	_	_	_
 8	президента	_	_	_	_	_	_	_	bratT19=Person-property
@@ -110,7 +110,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	вынудило	_	_	_	_	_	_	_	_
-10	Саргсяна	_	_	_	_	_	_	_	bratT22=Person
+10	Саргсяна	_	_	_	_	_	_	_	bratA11=T22:Male|bratT22=Person|bratT38=Person-surname
 11	подать	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	отставку	_	_	_	_	_	_	_	SpaceAfter=No

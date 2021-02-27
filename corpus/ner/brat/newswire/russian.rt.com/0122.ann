@@ -12,16 +12,16 @@ A2	Department T10
 T11	Organization 752 755	РАН
 T12	Organization 792 804	Белом   доме
 T13	Date-absolute 807 840	после   20   января   2021   года
-T14	Person-property 1004 1015	замминистра
-T15	GPE 1115 1121	Москвы
-T16	GPE 1128 1138	Вашингтона
-T17	Person 1152 1158	Рябков
-T18	GPE 1184 1190	России
-T19	Person 1239 1302	кандидата   от   Демократической   партии   США   Джо   Байдена
-T20	Person-property 1239 1286	кандидата   от   Демократической   партии   США
-T21	Organization 1256 1286	Демократической   партии   США
-T22	GPE 1283 1286	США
-T23	Event 1349 1372	президентских   выборах
+T14	Person-property 1010 1021	замминистра
+T15	GPE 1121 1127	Москвы
+T16	GPE 1134 1144	Вашингтона
+T17	Person 1158 1164	Рябков
+T18	GPE 1190 1196	России
+T19	Person 1245 1308	кандидата   от   Демократической   партии   США   Джо   Байдена
+T20	Person-property 1245 1292	кандидата   от   Демократической   партии   США
+T21	Organization 1262 1292	Демократической   партии   США
+T22	GPE 1289 1292	США
+T23	Event 1355 1378	президентских   выборах
 T24	GPE 157 163	России
 T25	GPE 170 173	США
 T26	Person-property 230 241	президентом
@@ -30,8 +30,24 @@ T28	Organization 286 303	российского   МИД
 T29	Person 275 321	замглавы   российского   МИД   Сергей   Рябков
 T9	Ordinal 432 441	последние
 T30	Date-period-absolute 427 448	за   последние   годы
-T31	Date-relative 1144 1149	Ранее
+T31	Date-relative 1150 1155	Ранее
 A3	Future T13
 T32	Duration 444 448	годы
 A5	Past-Pres T30
 A4	Past T31
+A6	Male T29
+T33	Person-forename 306 312	Сергей
+T34	Person-surname 315 321	Рябков
+A7	Male T8
+T35	Person-surname 687 694	Рябкова
+T36	GPE 908 936	российско   -   американских
+A8	Adjective T36
+T38	Person-forename 1295 1298	Джо
+T39	Person-surname 1301 1308	Байдена
+A9	Male T19
+A10	Male T17
+T40	Person-surname 1158 1164	Рябков
+T41	Political-group 1262 1277	Демократической
+A11	Adjective T41
+T42	GPE 286 297	российского
+A12	Adjective T42

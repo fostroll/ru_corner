@@ -3,7 +3,7 @@
 # par_text = Дзюба высказался о тренере сборной России
 # sent_id = 0077-p1-s1
 # text = Дзюба высказался о тренере сборной России
-1	Дзюба	_	_	_	_	_	_	_	bratT1=Person
+1	Дзюба	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT26=Person-surname
 2	высказался	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	тренере	_	_	_	_	_	_	_	bratT2=Person-property
@@ -14,23 +14,23 @@
 # par_text = Нападающий петербургского «Зенита» Артем Дзюба высказался о тренере вратарей сборной России по футболу Гинтарасе Стауче.
 # sent_id = 0077-p2-s1
 # text = Нападающий петербургского ``Зенита'' Артем Дзюба высказался о тренере вратарей сборной России по футболу Гинтарасе Стауче.
-1	Нападающий	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
-2	петербургского	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Organization
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person|bratT6=Person-property|bratT7=Organization
-4	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person|bratT6=Person-property|bratT7=Organization
-5	''	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property|bratT7=Organization
-6	Артем	_	_	_	_	_	_	_	bratT5=Person
-7	Дзюба	_	_	_	_	_	_	_	bratT5=Person
+1	Нападающий	_	_	_	_	_	_	_	bratA5=T5:Male|bratT5=Person|bratT6=Person-property
+2	петербургского	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratA5=T5:Male|bratT38=GPE|bratT5=Person|bratT6=Person-property|bratT7=Organization
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
+4	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
+5	''	_	_	_	_	_	_	_	bratA5=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
+6	Артем	_	_	_	_	_	_	_	bratA5=T5:Male|bratT27=Person-forename|bratT5=Person
+7	Дзюба	_	_	_	_	_	_	_	bratA5=T5:Male|bratT28=Person-surname|bratT5=Person
 8	высказался	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
-10	тренере	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-11	вратарей	_	_	_	_	_	_	_	bratT24=Person-property|bratT8=Person|bratT9=Person-property
-12	сборной	_	_	_	_	_	_	_	bratT10=Organization|bratT24=Person-property|bratT8=Person|bratT9=Person-property
-13	России	_	_	_	_	_	_	_	bratT10=Organization|bratT11=GPE|bratT24=Person-property|bratT8=Person|bratT9=Person-property
-14	по	_	_	_	_	_	_	_	bratT10=Organization|bratT24=Person-property|bratT8=Person|bratT9=Person-property
-15	футболу	_	_	_	_	_	_	_	bratT10=Organization|bratT24=Person-property|bratT8=Person|bratT9=Person-property
-16	Гинтарасе	_	_	_	_	_	_	_	bratT8=Person
-17	Стауче	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+10	тренере	_	_	_	_	_	_	_	bratA6=T8:Male|bratT8=Person|bratT9=Person-property
+11	вратарей	_	_	_	_	_	_	_	bratA6=T8:Male|bratT24=Person-property|bratT8=Person|bratT9=Person-property
+12	сборной	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Organization|bratT24=Person-property|bratT8=Person|bratT9=Person-property
+13	России	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Organization|bratT11=GPE|bratT24=Person-property|bratT8=Person|bratT9=Person-property
+14	по	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Organization|bratT24=Person-property|bratT8=Person|bratT9=Person-property
+15	футболу	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Organization|bratT24=Person-property|bratT8=Person|bratT9=Person-property
+16	Гинтарасе	_	_	_	_	_	_	_	bratA6=T8:Male|bratT29=Person-forename|bratT8=Person
+17	Стауче	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Male|bratT30=Person-surname|bratT8=Person
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0077-p3
@@ -49,7 +49,7 @@
 10	тренера	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
 11	,	_	_	_	_	_	_	_	_
 12	ведь	_	_	_	_	_	_	_	_
-13	Гинтарас	_	_	_	_	_	_	_	bratT14=Person
+13	Гинтарас	_	_	_	_	_	_	_	bratA7=T14:Male|bratT14=Person|bratT31=Person-surname
 14	очень	_	_	_	_	_	_	_	_
 15	позитивный	_	_	_	_	_	_	_	SpaceAfter=No
 16	.	_	_	_	_	_	_	_	_
@@ -77,7 +77,7 @@
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
 19	добавил	_	_	_	_	_	_	_	_
-20	Дзюба	_	_	_	_	_	_	_	bratT15=Person
+20	Дзюба	_	_	_	_	_	_	_	bratA8=T15:Male|bratT15=Person|bratT32=Person-surname
 21	в	_	_	_	_	_	_	_	_
 22	эфире	_	_	_	_	_	_	_	_
 23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T16:Media|bratT16=Organization
@@ -93,8 +93,8 @@
 3	18	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
 4	ноября	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
 5	подопечные	_	_	_	_	_	_	_	_
-6	Станислава	_	_	_	_	_	_	_	bratT18=Person
-7	Черчесова	_	_	_	_	_	_	_	bratT18=Person
+6	Станислава	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT33=Person-forename
+7	Черчесова	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT34=Person-surname
 8	сыграют	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	матче	_	_	_	_	_	_	_	bratT19=Event
@@ -107,12 +107,12 @@
 # sent_id = 0077-p4-s3
 # text = Ранее Юрий Семин высказался о видео с Дзюбой.
 1	Ранее	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-relative
-2	Юрий	_	_	_	_	_	_	_	bratT22=Person
-3	Семин	_	_	_	_	_	_	_	bratT22=Person
+2	Юрий	_	_	_	_	_	_	_	bratA9=T22:Male|bratT22=Person|bratT36=Person-forename
+3	Семин	_	_	_	_	_	_	_	bratA9=T22:Male|bratT22=Person|bratT37=Person-surname
 4	высказался	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	видео	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
-8	Дзюбой	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person
+8	Дзюбой	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T23:Male|bratT23=Person|bratT35=Person-surname
 9	.	_	_	_	_	_	_	_	_
 

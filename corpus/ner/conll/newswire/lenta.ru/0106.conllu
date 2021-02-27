@@ -3,7 +3,7 @@
 # par_text = Роднина высказалась об отстранении в США россиянина за отказ преклонить колено
 # sent_id = 0106-p1-s1
 # text = Роднина высказалась об отстранении в США россиянина за отказ преклонить колено
-1	Роднина	_	_	_	_	_	_	_	bratT2=Person|bratT47=Person-surname
+1	Роднина	_	_	_	_	_	_	_	bratA8=T2:Female|bratT2=Person|bratT47=Person-surname
 2	высказалась	_	_	_	_	_	_	_	_
 3	об	_	_	_	_	_	_	_	_
 4	отстранении	_	_	_	_	_	_	_	_
@@ -26,23 +26,23 @@
 5	фигурному	_	_	_	_	_	_	_	bratT4=Person-property
 6	катанию	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person-property
 7	,	_	_	_	_	_	_	_	_
-8	депутат	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-9	Госдумы	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization|bratT7=Person
-10	Ирина	_	_	_	_	_	_	_	bratT48=Person-forename|bratT7=Person
-11	Роднина	_	_	_	_	_	_	_	bratT49=Person-surname|bratT7=Person
+8	депутат	_	_	_	_	_	_	_	bratA9=T7:Female|bratT5=Person-property|bratT7=Person
+9	Госдумы	_	_	_	_	_	_	_	bratA9=T7:Female|bratT5=Person-property|bratT6=Organization|bratT7=Person
+10	Ирина	_	_	_	_	_	_	_	bratA9=T7:Female|bratT48=Person-forename|bratT7=Person
+11	Роднина	_	_	_	_	_	_	_	bratA9=T7:Female|bratT49=Person-surname|bratT7=Person
 12	высказалась	_	_	_	_	_	_	_	_
 13	об	_	_	_	_	_	_	_	_
 14	отстранении	_	_	_	_	_	_	_	_
-15	российского	_	_	_	_	_	_	_	bratT43=GPE|bratT8=Person-property|bratT9=Person
-16	футболиста	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Person
-17	Валерия	_	_	_	_	_	_	_	bratT50=Person-forename|bratT9=Person
-18	Сарамутина	_	_	_	_	_	_	_	bratT51=Person-surname|bratT9=Person
+15	российского	_	_	_	_	_	_	_	bratA10=T9:Male|bratA17=T43:Adjective|bratT43=GPE|bratT8=Person-property|bratT9=Person
+16	футболиста	_	_	_	_	_	_	_	bratA10=T9:Male|bratT8=Person-property|bratT9=Person
+17	Валерия	_	_	_	_	_	_	_	bratA10=T9:Male|bratT50=Person-forename|bratT9=Person
+18	Сарамутина	_	_	_	_	_	_	_	bratA10=T9:Male|bratT51=Person-surname|bratT9=Person
 19	от	_	_	_	_	_	_	_	_
 20	матчей	_	_	_	_	_	_	_	_
-21	техасского	_	_	_	_	_	_	_	bratT11=Organization|bratT44=GPE
+21	техасского	_	_	_	_	_	_	_	bratA11=T44:Adjective|bratT11=Organization|bratT44=GPE
 22	клуба	_	_	_	_	_	_	_	bratT11=Organization
 23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
-24	Остин	_	_	_	_	_	_	_	bratT11=Organization
+24	Остин	_	_	_	_	_	_	_	bratT11=Organization|bratT61=GPE
 25	Боулд	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
 26	''	_	_	_	_	_	_	_	bratT11=Organization
 27	в	_	_	_	_	_	_	_	_
@@ -72,7 +72,7 @@
 # par_text = Роднина заявила, что сложно оценивать ситуацию, так как в США действует своя система контрактов, согласно которой команды могут выставлять особые условия. При этом она добавила, что никогда не будет участвовать в акции Black Lives Matter («Жизнь чернокожих имеет значение»). «Моя страна и мой народ не участвовали в рабовладельческих делах. Кто себя чувствует виновным, тот пускай и встает», — подытожила депутат.
 # sent_id = 0106-p3-s1
 # text = Роднина заявила, что сложно оценивать ситуацию, так как в США действует своя система контрактов, согласно которой команды могут выставлять особые условия.
-1	Роднина	_	_	_	_	_	_	_	bratT13=Person|bratT52=Person-forename
+1	Роднина	_	_	_	_	_	_	_	bratA12=T13:Female|bratT13=Person|bratT52=Person-forename
 2	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -118,7 +118,7 @@
 16	(	_	_	_	_	_	_	_	SpaceAfter=No
 17	``	_	_	_	_	_	_	_	SpaceAfter=No
 18	Жизнь	_	_	_	_	_	_	_	_
-19	чернокожих	_	_	_	_	_	_	_	_
+19	чернокожих	_	_	_	_	_	_	_	bratT60=Other-group
 20	имеет	_	_	_	_	_	_	_	_
 21	значение	_	_	_	_	_	_	_	SpaceAfter=No
 22	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -164,15 +164,15 @@
 # text = 22 ноября Сарамутин рассказал, что после убийства чернокожего Джорджа Флойда в мае этого года игроков Объединенной футбольной лиги (USL) попросили вставать на колено в поддержку движения BLM перед матчами, однако он не стал этого делать и перестал попадать в заявку команды.
 1	22	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
-3	Сарамутин	_	_	_	_	_	_	_	bratT18=Person|bratT53=Person-surname
+3	Сарамутин	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT53=Person-surname
 4	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	после	_	_	_	_	_	_	_	bratA5=T39:Past|bratT39=Date-relative
 8	убийства	_	_	_	_	_	_	_	bratA5=T39:Past|bratT20=Event|bratT39=Date-relative
-9	чернокожего	_	_	_	_	_	_	_	bratT19=Person|bratT20=Event
-10	Джорджа	_	_	_	_	_	_	_	bratT19=Person|bratT20=Event|bratT54=Person-forename
-11	Флойда	_	_	_	_	_	_	_	bratT19=Person|bratT20=Event|bratT55=Person-surname
+9	чернокожего	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT20=Event|bratT59=Other-group
+10	Джорджа	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT20=Event|bratT54=Person-forename
+11	Флойда	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT20=Event|bratT55=Person-surname
 12	в	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
 13	мае	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
 14	этого	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute|bratT42=Ordinal
@@ -215,7 +215,7 @@
 2	случившегося	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-relative
 3	игроком	_	_	_	_	_	_	_	bratT26=Person-property
 4	заинтересовались	_	_	_	_	_	_	_	_
-5	российские	_	_	_	_	_	_	_	bratT45=GPE
+5	российские	_	_	_	_	_	_	_	bratA16=T45:Adjective|bratT45=GPE
 6	клубы	_	_	_	_	_	_	_	SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_
 
@@ -223,7 +223,7 @@
 # par_text = Сарамутин родился в США, но выступал за московское «Динамо» и «Велес». В начале 2019 года хавбек переехал в Остин. «Остин Боулд» — новый клуб USL, второй по силе футбольной лиги США.
 # sent_id = 0106-p5-s1
 # text = Сарамутин родился в США, но выступал за московское ``Динамо'' и ``Велес''.
-1	Сарамутин	_	_	_	_	_	_	_	bratT27=Person|bratT56=Person-surname
+1	Сарамутин	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person|bratT56=Person-surname
 2	родился	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=GPE
@@ -231,7 +231,7 @@
 6	но	_	_	_	_	_	_	_	_
 7	выступал	_	_	_	_	_	_	_	_
 8	за	_	_	_	_	_	_	_	_
-9	московское	_	_	_	_	_	_	_	bratT29=Organization
+9	московское	_	_	_	_	_	_	_	bratA18=T58:Adjective|bratT29=Organization|bratT58=GPE
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
 11	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
 12	''	_	_	_	_	_	_	_	bratT29=Organization
@@ -256,7 +256,7 @@
 # sent_id = 0106-p5-s3
 # text = ``Остин Боулд'' - новый клуб USL, второй по силе футбольной лиги США.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-2	Остин	_	_	_	_	_	_	_	bratT31=Organization
+2	Остин	_	_	_	_	_	_	_	bratT31=Organization|bratT57=GPE
 3	Боулд	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
 4	''	_	_	_	_	_	_	_	bratT31=Organization
 5	-	_	_	_	_	_	_	_	_

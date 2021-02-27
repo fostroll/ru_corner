@@ -3,7 +3,7 @@
 # par_text = Путин сравнил экономический кризис из-за пандемии с Великой депрессией
 # sent_id = 0042-p1-s1
 # text = Путин сравнил экономический кризис из-за пандемии с Великой депрессией
-1	Путин	_	_	_	_	_	_	_	bratT1=Person|bratT31=Person-surname
+1	Путин	_	_	_	_	_	_	_	bratA7=T1:Male|bratT1=Person|bratT31=Person-surname
 2	сравнил	_	_	_	_	_	_	_	_
 3	экономический	_	_	_	_	_	_	_	bratT21=Event
 4	кризис	_	_	_	_	_	_	_	bratT21=Event
@@ -17,10 +17,10 @@
 # par_text = Российский президент Владимир Путин на саммите G20 заявил, что масштаб проблем, с которыми человечество столкнулось в 2020 году, беспрецедентен. Глава государства обратил внимание на то, что отмечается системный экономический кризис, масштаб которого мир не знал со времен Великой депрессии.
 # sent_id = 0042-p2-s1
 # text = Российский президент Владимир Путин на саммите G20 заявил, что масштаб проблем, с которыми человечество столкнулось в 2020 году, беспрецедентен.
-1	Российский	_	_	_	_	_	_	_	bratT3=Person-property|bratT36=GPE|bratT4=Person
-2	президент	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-3	Владимир	_	_	_	_	_	_	_	bratT32=Person-forename|bratT4=Person
-4	Путин	_	_	_	_	_	_	_	bratT33=Person-surname|bratT4=Person
+1	Российский	_	_	_	_	_	_	_	bratA10=T36:Adjective|bratA8=T4:Male|bratT3=Person-property|bratT36=GPE|bratT4=Person
+2	президент	_	_	_	_	_	_	_	bratA8=T4:Male|bratT3=Person-property|bratT4=Person
+3	Владимир	_	_	_	_	_	_	_	bratA8=T4:Male|bratT32=Person-forename|bratT4=Person
+4	Путин	_	_	_	_	_	_	_	bratA8=T4:Male|bratT33=Person-surname|bratT4=Person
 5	на	_	_	_	_	_	_	_	_
 6	саммите	_	_	_	_	_	_	_	bratT6=Event
 7	G20	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Event
@@ -116,8 +116,8 @@
 24	,	_	_	_	_	_	_	_	_
 25	-	_	_	_	_	_	_	_	_
 26	отметил	_	_	_	_	_	_	_	_
-27	Владимир	_	_	_	_	_	_	_	bratT13=Person|bratT34=Person-forename
-28	Путин	_	_	_	_	_	_	_	bratT13=Person|bratT35=Person-surname
+27	Владимир	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT34=Person-forename
+28	Путин	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT35=Person-surname
 29	во	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute
 30	время	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute
 31	своего	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute

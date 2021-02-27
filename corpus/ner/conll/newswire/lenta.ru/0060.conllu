@@ -58,7 +58,7 @@
 7	то	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
-10	Макаров	_	_	_	_	_	_	_	bratT10=Person|bratT45=Person-surname
+10	Макаров	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT45=Person-surname
 11	провалил	_	_	_	_	_	_	_	_
 12	психологические	_	_	_	_	_	_	_	_
 13	тесты	_	_	_	_	_	_	_	SpaceAfter=No
@@ -113,8 +113,8 @@
 2	9	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
 3	ноября	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
 4	20-летний	_	_	_	_	_	_	_	bratT13=Age
-5	Антон	_	_	_	_	_	_	_	bratT14=Person|bratT46=Person-forename
-6	Макаров	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT47=Person-surname
+5	Антон	_	_	_	_	_	_	_	bratA8=T14:Male|bratT14=Person|bratT46=Person-forename
+6	Макаров	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T14:Male|bratT14=Person|bratT47=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	находясь	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -139,14 +139,14 @@
 28	полку	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
 29	,	_	_	_	_	_	_	_	_
 30	38-летнего	_	_	_	_	_	_	_	bratT18=Age
-31	майора	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Person
-32	Сергея	_	_	_	_	_	_	_	bratT20=Person|bratT48=Person-forename
-33	Ермолаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person|bratT49=Person-surname
+31	майора	_	_	_	_	_	_	_	bratA9=T20:Male|bratT19=Person-property|bratT20=Person
+32	Сергея	_	_	_	_	_	_	_	bratA9=T20:Male|bratT20=Person|bratT48=Person-forename
+33	Ермолаева	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T20:Male|bratT20=Person|bratT49=Person-surname
 34	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0060-p5-s2
 # text = Макаров снял с пожарного щита топор, подкараулил офицера и ударил по голове, а затем забрал у него табельный пистолет с патронами и начал стрелять.
-1	Макаров	_	_	_	_	_	_	_	bratT21=Person|bratT50=Person-surname
+1	Макаров	_	_	_	_	_	_	_	bratA10=T21:Male|bratT21=Person|bratT50=Person-surname
 2	снял	_	_	_	_	_	_	_	_
 3	с	_	_	_	_	_	_	_	_
 4	пожарного	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 # text = После бойни Макаров сбежал с пистолетом и планировал скрыться в Орловской области у бабушки и дедушки, которые воспитывали его после развода родителей.
 1	После	_	_	_	_	_	_	_	bratA5=T37:Past|bratT37=Date-absolute
 2	бойни	_	_	_	_	_	_	_	bratA5=T37:Past|bratT37=Date-absolute|bratT42=Event
-3	Макаров	_	_	_	_	_	_	_	bratT25=Person|bratT51=Person-surname
+3	Макаров	_	_	_	_	_	_	_	bratA11=T25:Male|bratT25=Person|bratT51=Person-surname
 4	сбежал	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	пистолетом	_	_	_	_	_	_	_	_
@@ -232,6 +232,6 @@
 2	ходатайствует	_	_	_	_	_	_	_	_
 3	об	_	_	_	_	_	_	_	_
 4	аресте	_	_	_	_	_	_	_	_
-5	Макарова	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person|bratT52=Person-surname
+5	Макарова	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T27:Male|bratT27=Person|bratT52=Person-surname
 6	.	_	_	_	_	_	_	_	_
 

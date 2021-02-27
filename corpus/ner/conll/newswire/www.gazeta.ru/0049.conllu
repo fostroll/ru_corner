@@ -17,17 +17,17 @@
 # par_text = Вице-президент Международной федерации хоккея на льду (ИИХФ) Калерво Куммола прокомментировал информацию, согласно которой чемпионат мира 2021 года может быть перенесен из Белоруссии в Россию, передает MTV Uutiset.
 # sent_id = 0049-p2-s1
 # text = Вице-президент Международной федерации хоккея на льду (ИИХФ) Калерво Куммола прокомментировал информацию, согласно которой чемпионат мира 2021 года может быть перенесен из Белоруссии в Россию, передает MTV Uutiset.
-1	Вице-президент	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-2	Международной	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property|bratT5=Organization
-3	федерации	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property|bratT5=Organization
-4	хоккея	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property|bratT5=Organization
-5	на	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property|bratT5=Organization
-6	льду	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property|bratT5=Organization
-7	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person|bratT4=Person-property
-8	ИИХФ	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person|bratT4=Person-property|bratT6=Organization
-9	)	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-10	Калерво	_	_	_	_	_	_	_	bratT3=Person
-11	Куммола	_	_	_	_	_	_	_	bratT3=Person
+1	Вице-президент	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+2	Международной	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+3	федерации	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+4	хоккея	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+5	на	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+6	льду	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+7	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+8	ИИХФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT6=Organization
+9	)	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+10	Калерво	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT34=Person-forename
+11	Куммола	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT35=Person-surname
 12	прокомментировал	_	_	_	_	_	_	_	_
 13	информацию	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
@@ -92,7 +92,7 @@
 # text = При этом Куммола считает маловероятным проведение матчей в России из-за пандемии коронавируса.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	Куммола	_	_	_	_	_	_	_	bratT17=Person
+3	Куммола	_	_	_	_	_	_	_	bratA8=T17:Male|bratT17=Person|bratT36=Person-surname
 4	считает	_	_	_	_	_	_	_	_
 5	маловероятным	_	_	_	_	_	_	_	_
 6	проведение	_	_	_	_	_	_	_	_

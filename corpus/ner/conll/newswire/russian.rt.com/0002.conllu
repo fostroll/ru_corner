@@ -19,7 +19,7 @@
 # sent_id = 0002-p2-s1
 # text = Во Всемирной организации здравоохранения допускают, что в мире было несколько первичных случаев инфицирования коронавирусной инфекцией COVID-19 от различных источников.
 1	Во	_	_	_	_	_	_	_	_
-2	Всемирной	_	_	_	_	_	_	_	bratT18=Organization
+2	Всемирной	_	_	_	_	_	_	_	bratA8=T36:Adjective|bratT18=Organization|bratT36=GPE
 3	организации	_	_	_	_	_	_	_	bratT18=Organization
 4	здравоохранения	_	_	_	_	_	_	_	bratT18=Organization
 5	допускают	_	_	_	_	_	_	_	SpaceAfter=No
@@ -45,17 +45,17 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	директор	_	_	_	_	_	_	_	bratT21=Person-property|bratT24=Person
-5	программы	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT24=Person
-6	ВОЗ	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT23=Organization|bratT24=Person
-7	по	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT24=Person
-8	чрезвычайным	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT24=Person
-9	ситуациям	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT24=Person
-10	в	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT24=Person
-11	области	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT24=Person
-12	здравоохранения	_	_	_	_	_	_	_	bratA2=T22:Project|bratT21=Person-property|bratT22=Product|bratT24=Person
-13	Майкл	_	_	_	_	_	_	_	bratT24=Person|bratT31=Person-forename
-14	Райан	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT32=Person-surname
+4	директор	_	_	_	_	_	_	_	bratA5=T24:Male|bratT21=Person-property|bratT24=Person
+5	программы	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT24=Person
+6	ВОЗ	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT23=Organization|bratT24=Person
+7	по	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT24=Person
+8	чрезвычайным	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT24=Person
+9	ситуациям	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT24=Person
+10	в	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT24=Person
+11	области	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT24=Person
+12	здравоохранения	_	_	_	_	_	_	_	bratA2=T22:Project|bratA5=T24:Male|bratT21=Person-property|bratT22=Product|bratT24=Person
+13	Майкл	_	_	_	_	_	_	_	bratA5=T24:Male|bratT24=Person|bratT31=Person-forename
+14	Райан	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Male|bratT24=Person|bratT32=Person-surname
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0002-p3
@@ -127,7 +127,7 @@
 # par_text = Райан не сомневается, что вирус имеет естественное происхождение. Эксперт рассказал, что передача COVID-19 могла происходить через множественные источники и даже в различные периоды времени.
 # sent_id = 0002-p4-s1
 # text = Райан не сомневается, что вирус имеет естественное происхождение.
-1	Райан	_	_	_	_	_	_	_	bratT33=Person-surname|bratT6=Person
+1	Райан	_	_	_	_	_	_	_	bratA6=T6:Male|bratT33=Person-surname|bratT6=Person
 2	не	_	_	_	_	_	_	_	_
 3	сомневается	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -212,7 +212,7 @@
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
 21	уточнил	_	_	_	_	_	_	_	_
-22	Райан	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-surname|bratT9=Person
+22	Райан	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T9:Male|bratT34=Person-surname|bratT9=Person
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0002-p6

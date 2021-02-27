@@ -11,7 +11,7 @@ T11	Person 413 430	Армен   Борисович
 T12	Date-absolute 440 454	14-го   ноября
 T13	GPE 465 472	Америке
 T14	Date-absolute 488 506	пятница   ,   13-е
-T15	Person 575 581	Степан
+T15	Person-forename 575 581	Степан
 T16	GPE 675 681	Москву
 T17	Event 770 793	пандемии   коронавируса
 T18	Person 829 875	Народный   артист   СССР   Армен   Джигарханян
@@ -31,3 +31,19 @@ T29	Other-term 781 793	коронавируса
 A2	Past T21
 A3	Past T12
 A4	Past T14
+T30	Person-surname 17 29	Джигарханяна
+A5	Male T27
+A6	Male T1
+T31	Person-forename 142 148	Армена
+T32	Person-surname 151 163	Джигарханяна
+T33	Person-forename 166 172	Степан
+A7	Male T3
+A8	Male T4
+A9	Male T11
+T34	Person-forename 413 418	Армен
+T35	Person-surname 421 430	Борисович
+T36	Person 575 581	Степан
+A10	Male T36
+T37	Person-forename 856 861	Армен
+T38	Person-surname 864 875	Джигарханян
+A11	Male T18

@@ -97,11 +97,11 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	сказал	_	_	_	_	_	_	_	_
-23	Юань	_	_	_	_	_	_	_	bratT24=Person-forename|bratT4=Person
-24	Синь	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-surname|bratT4=Person
+23	Юань	_	_	_	_	_	_	_	bratA5=T4:Male|bratT24=Person-forename|bratT4=Person
+24	Синь	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T4:Male|bratT25=Person-surname|bratT4=Person
 25	,	_	_	_	_	_	_	_	_
 26	вице-президент	_	_	_	_	_	_	_	bratT5=Person-property
-27	Китайской	_	_	_	_	_	_	_	bratT22=GPE|bratT5=Person-property|bratT6=Organization
+27	Китайской	_	_	_	_	_	_	_	bratA6=T22:Adjective|bratT22=GPE|bratT5=Person-property|bratT6=Organization
 28	ассоциации	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization
 29	народонаселения	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Organization
 30	.	_	_	_	_	_	_	_	_
@@ -171,7 +171,7 @@
 9	будет	_	_	_	_	_	_	_	_
 10	ли	_	_	_	_	_	_	_	_
 11	разрешено	_	_	_	_	_	_	_	_
-12	китайским	_	_	_	_	_	_	_	bratT23=GPE
+12	китайским	_	_	_	_	_	_	_	bratA7=T23:Adjective|bratT23=GPE
 13	парам	_	_	_	_	_	_	_	bratT19=Family
 14	иметь	_	_	_	_	_	_	_	_
 15	до	_	_	_	_	_	_	_	bratT9=Quantity
@@ -192,7 +192,7 @@
 # text = По словам Синя, новые правила следует вводить на основе ситуации в конкретном регионе.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Синя	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT26=Person-surname
+3	Синя	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T10:Male|bratT10=Person|bratT26=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	новые	_	_	_	_	_	_	_	_
 6	правила	_	_	_	_	_	_	_	_

@@ -3,7 +3,7 @@
 # par_text = Эрдоган призвал ЕС сдержать обещания по членству Турции в Евросоюзе
 # sent_id = 0077-p1-s1
 # text = Эрдоган призвал ЕС сдержать обещания по членству Турции в Евросоюзе
-1	Эрдоган	_	_	_	_	_	_	_	bratT1=Person
+1	Эрдоган	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT22=Person-surname
 2	призвал	_	_	_	_	_	_	_	_
 3	ЕС	_	_	_	_	_	_	_	bratT2=GPE
 4	сдержать	_	_	_	_	_	_	_	_
@@ -18,20 +18,20 @@
 # par_text = Президент Турции Тайип Эрдоган призвал Европейский союз сдержать обещание по членству республики в Евросоюзе.
 # sent_id = 0077-p2-s1
 # text = Президент Турции Тайип Эрдоган призвал Европейский союз сдержать обещание по членству республики в Евросоюзе.
-1	Президент	_	_	_	_	_	_	_	bratT15=Person-property|bratT17=Person
-2	Турции	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=GPE|bratT17=Person
-3	Тайип	_	_	_	_	_	_	_	bratT17=Person
-4	Эрдоган	_	_	_	_	_	_	_	bratT17=Person
+1	Президент	_	_	_	_	_	_	_	bratA5=T17:Male|bratT15=Person-property|bratT17=Person
+2	Турции	_	_	_	_	_	_	_	bratA5=T17:Male|bratT15=Person-property|bratT16=GPE|bratT17=Person
+3	Тайип	_	_	_	_	_	_	_	bratA5=T17:Male|bratT17=Person|bratT23=Person-forename
+4	Эрдоган	_	_	_	_	_	_	_	bratA5=T17:Male|bratT17=Person|bratT24=Person-surname
 5	призвал	_	_	_	_	_	_	_	_
-6	Европейский	_	_	_	_	_	_	_	bratT18=Organization
-7	союз	_	_	_	_	_	_	_	bratT18=Organization
+6	Европейский	_	_	_	_	_	_	_	bratT18=GPE
+7	союз	_	_	_	_	_	_	_	bratT18=GPE
 8	сдержать	_	_	_	_	_	_	_	_
 9	обещание	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
 11	членству	_	_	_	_	_	_	_	_
 12	республики	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	Евросоюзе	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
+14	Евросоюзе	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0077-p3
@@ -87,7 +87,7 @@
 # par_text = Эрдоган также накануне заявил, что Анкара полна решимости к евроинтеграции и стремится строить своё будущее с Европой.
 # sent_id = 0077-p4-s1
 # text = Эрдоган также накануне заявил, что Анкара полна решимости к евроинтеграции и стремится строить своё будущее с Европой.
-1	Эрдоган	_	_	_	_	_	_	_	bratT8=Person
+1	Эрдоган	_	_	_	_	_	_	_	bratA6=T8:Male|bratT25=Person-surname|bratT8=Person
 2	также	_	_	_	_	_	_	_	_
 3	накануне	_	_	_	_	_	_	_	bratA2=T21:Past|bratT21=Date-absolute
 4	заявил	_	_	_	_	_	_	_	SpaceAfter=No
@@ -118,20 +118,20 @@
 5	о	_	_	_	_	_	_	_	_
 6	неприемлемости	_	_	_	_	_	_	_	_
 7	слов	_	_	_	_	_	_	_	_
-8	турецкого	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person
-9	президента	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person
-10	Реджепа	_	_	_	_	_	_	_	bratT13=Person
-11	Тайипа	_	_	_	_	_	_	_	bratT13=Person
-12	Эрдогана	_	_	_	_	_	_	_	bratT13=Person
+8	турецкого	_	_	_	_	_	_	_	bratA7=T26:Adjective|bratA8=T13:Male|bratT12=Person-property|bratT13=Person|bratT26=GPE
+9	президента	_	_	_	_	_	_	_	bratA8=T13:Male|bratT12=Person-property|bratT13=Person
+10	Реджепа	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT27=Person-forename
+11	Тайипа	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT27=Person-forename
+12	Эрдогана	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT28=Person-surname
 13	о	_	_	_	_	_	_	_	_
 14	том	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	что	_	_	_	_	_	_	_	_
 17	его	_	_	_	_	_	_	_	_
-18	французскому	_	_	_	_	_	_	_	_
+18	французскому	_	_	_	_	_	_	_	bratA9=T29:Adjective|bratT29=GPE
 19	коллеге	_	_	_	_	_	_	_	_
-20	Эммануэлю	_	_	_	_	_	_	_	bratT14=Person
-21	Макрону	_	_	_	_	_	_	_	bratT14=Person
+20	Эммануэлю	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT30=Person-forename
+21	Макрону	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT31=Person-surname
 22	нужно	_	_	_	_	_	_	_	_
 23	``	_	_	_	_	_	_	_	SpaceAfter=No
 24	проверить	_	_	_	_	_	_	_	_

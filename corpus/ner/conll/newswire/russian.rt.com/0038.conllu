@@ -3,7 +3,7 @@
 # par_text = Путин рассказал о проблемах избирательной системы США
 # sent_id = 0038-p1-s1
 # text = Путин рассказал о проблемах избирательной системы США
-1	Путин	_	_	_	_	_	_	_	bratT1=Person|bratT38=Person-surname
+1	Путин	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT38=Person-surname
 2	рассказал	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	проблемах	_	_	_	_	_	_	_	_
@@ -15,10 +15,10 @@
 # par_text = Российский лидер Владимир Путин в интервью ведущему программы «Москва. Кремль. Путин» телеканала «Россия 1» заявил, что в избирательной системе США есть проблемы, но это является внутренним делом американских граждан.
 # sent_id = 0038-p2-s1
 # text = Российский лидер Владимир Путин в интервью ведущему программы ``Москва. Кремль. Путин'' телеканала ``Россия 1'' заявил, что в избирательной системе США есть проблемы, но это является внутренним делом американских граждан.
-1	Российский	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Person|bratT44=GPE
-2	лидер	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Person
-3	Владимир	_	_	_	_	_	_	_	bratT32=Person|bratT45=Person-forename
-4	Путин	_	_	_	_	_	_	_	bratT32=Person|bratT46=Person-surname
+1	Российский	_	_	_	_	_	_	_	bratA16=T44:Adjective|bratA6=T32:Male|bratT31=Person-property|bratT32=Person|bratT44=GPE
+2	лидер	_	_	_	_	_	_	_	bratA6=T32:Male|bratT31=Person-property|bratT32=Person
+3	Владимир	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT45=Person-forename
+4	Путин	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT46=Person-surname
 5	в	_	_	_	_	_	_	_	_
 6	интервью	_	_	_	_	_	_	_	_
 7	ведущему	_	_	_	_	_	_	_	bratT33=Person-property
@@ -28,7 +28,7 @@
 11	.	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Work-of-art
 12	Кремль	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property|bratT34=Work-of-art|bratT41=Organization
 13	.	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Work-of-art
-14	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property|bratT34=Work-of-art|bratT42=Person|bratT47=Person-surname
+14	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T42:Male|bratT33=Person-property|bratT34=Work-of-art|bratT42=Person|bratT47=Person-surname
 15	''	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Work-of-art
 16	телеканала	_	_	_	_	_	_	_	bratA3=T35:Media|bratT35=Organization
 17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T35:Media|bratT35=Organization
@@ -50,7 +50,7 @@
 33	является	_	_	_	_	_	_	_	_
 34	внутренним	_	_	_	_	_	_	_	_
 35	делом	_	_	_	_	_	_	_	_
-36	американских	_	_	_	_	_	_	_	bratA4=T39:Citizenship|bratT39=Nationality|bratT48=GPE
+36	американских	_	_	_	_	_	_	_	bratA11=T48:Adjective|bratA4=T39:Citizenship|bratT39=Nationality|bratT48=GPE
 37	граждан	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T39:Citizenship|bratT39=Nationality
 38	.	_	_	_	_	_	_	_	_
 
@@ -91,7 +91,7 @@
 31	цитирует	_	_	_	_	_	_	_	_
 32	РИА	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
 33	Новости	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
-34	российского	_	_	_	_	_	_	_	bratT49=GPE|bratT6=Person-property
+34	российского	_	_	_	_	_	_	_	bratA12=T49:Adjective|bratT49=GPE|bratT6=Person-property
 35	лидера	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property
 36	.	_	_	_	_	_	_	_	_
 
@@ -99,7 +99,7 @@
 # par_text = Путин напомнил, что в США кандидат, который выигрывает в том или ином штате, забирает голоса всех выборщиков.
 # sent_id = 0038-p4-s1
 # text = Путин напомнил, что в США кандидат, который выигрывает в том или ином штате, забирает голоса всех выборщиков.
-1	Путин	_	_	_	_	_	_	_	bratT50=Person-surname|bratT7=Person
+1	Путин	_	_	_	_	_	_	_	bratA8=T7:Male|bratT50=Person-surname|bratT7=Person
 2	напомнил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	сказал	_	_	_	_	_	_	_	_
-23	российский	_	_	_	_	_	_	_	bratT15=Person-property|bratT51=GPE
+23	российский	_	_	_	_	_	_	_	bratA9=T51:Adjective|bratT15=Person-property|bratT51=GPE
 24	президент	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
 25	.	_	_	_	_	_	_	_	_
 
@@ -212,7 +212,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	одна	_	_	_	_	_	_	_	bratT30=Quantity
 6	из	_	_	_	_	_	_	_	bratT30=Quantity
-7	американских	_	_	_	_	_	_	_	bratT52=GPE
+7	американских	_	_	_	_	_	_	_	bratA10=T52:Adjective|bratT52=GPE
 8	коллег	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	прошлом	_	_	_	_	_	_	_	_
@@ -266,7 +266,7 @@
 # sent_id = 0038-p9-s1
 # text = Также российский лидер объяснил, почему не поздравил с победой на президентских выборах в США кандидата от Демократической партии Джо Байдена.
 1	Также	_	_	_	_	_	_	_	_
-2	российский	_	_	_	_	_	_	_	bratT23=Person-property|bratT53=GPE
+2	российский	_	_	_	_	_	_	_	bratA13=T53:Adjective|bratT23=Person-property|bratT53=GPE
 3	лидер	_	_	_	_	_	_	_	bratT23=Person-property
 4	объяснил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
@@ -280,11 +280,11 @@
 13	выборах	_	_	_	_	_	_	_	bratT24=Event
 14	в	_	_	_	_	_	_	_	_
 15	США	_	_	_	_	_	_	_	bratT25=GPE
-16	кандидата	_	_	_	_	_	_	_	bratT26=Person|bratT28=Person-property
-17	от	_	_	_	_	_	_	_	bratT26=Person|bratT28=Person-property
-18	Демократической	_	_	_	_	_	_	_	bratT26=Person|bratT27=Organization|bratT28=Person-property
-19	партии	_	_	_	_	_	_	_	bratT26=Person|bratT27=Organization|bratT28=Person-property
-20	Джо	_	_	_	_	_	_	_	bratT26=Person|bratT54=Person-forename
-21	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person|bratT55=Person-surname
+16	кандидата	_	_	_	_	_	_	_	bratA14=T26:Male|bratT26=Person|bratT28=Person-property
+17	от	_	_	_	_	_	_	_	bratA14=T26:Male|bratT26=Person|bratT28=Person-property
+18	Демократической	_	_	_	_	_	_	_	bratA14=T26:Male|bratA15=T56:Adjective|bratT26=Person|bratT27=Organization|bratT28=Person-property|bratT56=Political-group
+19	партии	_	_	_	_	_	_	_	bratA14=T26:Male|bratT26=Person|bratT27=Organization|bratT28=Person-property
+20	Джо	_	_	_	_	_	_	_	bratA14=T26:Male|bratT26=Person|bratT54=Person-forename
+21	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T26:Male|bratT26=Person|bratT55=Person-surname
 22	.	_	_	_	_	_	_	_	_
 

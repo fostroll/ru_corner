@@ -3,7 +3,7 @@
 # par_text = Онищенко назвал нереализуемой идею запрета продажи алкоголя 1 и 2 января
 # sent_id = 0067-p1-s1
 # text = Онищенко назвал нереализуемой идею запрета продажи алкоголя 1 и 2 января
-1	Онищенко	_	_	_	_	_	_	_	bratT1=Person
+1	Онищенко	_	_	_	_	_	_	_	bratA7=T1:Male|bratT1=Person|bratT33=Person-surname
 2	назвал	_	_	_	_	_	_	_	_
 3	нереализуемой	_	_	_	_	_	_	_	_
 4	идею	_	_	_	_	_	_	_	_
@@ -66,16 +66,16 @@
 7	Газетой.Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Media|bratT2=Organization
 8	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T2:Media|bratT2=Organization
 9	высказал	_	_	_	_	_	_	_	_
-10	депутат	_	_	_	_	_	_	_	bratT4=Person-property|bratT6=Person
-11	Госдумы	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT6=Person
-12	и	_	_	_	_	_	_	_	bratT6=Person
-13	бывший	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-14	главный	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-15	санитарный	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-16	врач	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-17	России	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=GPE
-18	Геннадий	_	_	_	_	_	_	_	bratT6=Person
-19	Онищенко	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person
+10	депутат	_	_	_	_	_	_	_	bratA8=T6:Male|bratT4=Person-property|bratT6=Person
+11	Госдумы	_	_	_	_	_	_	_	bratA8=T6:Male|bratT4=Person-property|bratT5=Organization|bratT6=Person
+12	и	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person
+13	бывший	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+14	главный	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+15	санитарный	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+16	врач	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+17	России	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
+18	Геннадий	_	_	_	_	_	_	_	bratA8=T6:Male|bratT34=Person-forename|bratT6=Person
+19	Онищенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T6:Male|bratT35=Person-surname|bratT6=Person
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0067-p4
@@ -195,24 +195,24 @@
 # sent_id = 0067-p5-s1
 # text = Ранее глава проекта ``Трезвая Россия'' Султан Хамзаев обратился в письме к министру промышленности и торговли Денису Мантурову с просьбой запретить продажу алкоголя 1 и 2 января.
 1	Ранее	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-relative
-2	глава	_	_	_	_	_	_	_	bratT11=Person|bratT13=Person-property
-3	проекта	_	_	_	_	_	_	_	bratA2=T12:Project|bratT11=Person|bratT12=Product|bratT13=Person-property
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Project|bratT11=Person|bratT12=Product|bratT13=Person-property
-5	Трезвая	_	_	_	_	_	_	_	bratA2=T12:Project|bratT11=Person|bratT12=Product|bratT13=Person-property
-6	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Project|bratT11=Person|bratT12=Product|bratT13=Person-property
-7	''	_	_	_	_	_	_	_	bratA2=T12:Project|bratT11=Person|bratT12=Product|bratT13=Person-property
-8	Султан	_	_	_	_	_	_	_	bratT11=Person
-9	Хамзаев	_	_	_	_	_	_	_	bratT11=Person
+2	глава	_	_	_	_	_	_	_	bratA9=T11:Male|bratT11=Person|bratT13=Person-property
+3	проекта	_	_	_	_	_	_	_	bratA2=T12:Project|bratA9=T11:Male|bratT11=Person|bratT12=Product|bratT13=Person-property
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Project|bratA9=T11:Male|bratT11=Person|bratT12=Product|bratT13=Person-property
+5	Трезвая	_	_	_	_	_	_	_	bratA2=T12:Project|bratA9=T11:Male|bratT11=Person|bratT12=Product|bratT13=Person-property
+6	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Project|bratA9=T11:Male|bratT11=Person|bratT12=Product|bratT13=Person-property|bratT41=GPE
+7	''	_	_	_	_	_	_	_	bratA2=T12:Project|bratA9=T11:Male|bratT11=Person|bratT12=Product|bratT13=Person-property
+8	Султан	_	_	_	_	_	_	_	bratA9=T11:Male|bratT11=Person|bratT36=Person-forename
+9	Хамзаев	_	_	_	_	_	_	_	bratA9=T11:Male|bratT11=Person|bratT37=Person-surname
 10	обратился	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
 12	письме	_	_	_	_	_	_	_	_
 13	к	_	_	_	_	_	_	_	_
-14	министру	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
-15	промышленности	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
-16	и	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
-17	торговли	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
-18	Денису	_	_	_	_	_	_	_	bratT14=Person
-19	Мантурову	_	_	_	_	_	_	_	bratT14=Person
+14	министру	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT15=Person-property
+15	промышленности	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT15=Person-property
+16	и	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT15=Person-property
+17	торговли	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT15=Person-property
+18	Денису	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT38=Person-forename
+19	Мантурову	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT39=Person-surname
 20	с	_	_	_	_	_	_	_	_
 21	просьбой	_	_	_	_	_	_	_	_
 22	запретить	_	_	_	_	_	_	_	_
@@ -230,7 +230,7 @@
 # text = По словам Хамзаева, январские праздники приводят к всплеску алкогольных отравлений и росту числа обращений за скорой медицинской помощью.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	Хамзаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person
+3	Хамзаева	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T16:Male|bratT16=Person|bratT40=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	январские	_	_	_	_	_	_	_	bratT19=Event
 6	праздники	_	_	_	_	_	_	_	bratT19=Event

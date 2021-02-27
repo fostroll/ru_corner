@@ -8,28 +8,28 @@
 3	Испании	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Organization|bratT3=Person-property
 4	обсудила	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
-6	Лавровым	_	_	_	_	_	_	_	bratT4=Person
+6	Лавровым	_	_	_	_	_	_	_	bratA2=T4:Male|bratT24=Person-surname|bratT4=Person
 7	пандемию	_	_	_	_	_	_	_	bratT13=Event
 
 # newpar id = 0121-p2
 # par_text = Глава МИД Испании Аранча Гонсалес Лая провела телефонный разговор со своим российским коллегой Сергеем Лавровым.
 # sent_id = 0121-p2-s1
 # text = Глава МИД Испании Аранча Гонсалес Лая провела телефонный разговор со своим российским коллегой Сергеем Лавровым.
-1	Глава	_	_	_	_	_	_	_	bratT17=Person-property|bratT20=Person
-2	МИД	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Organization|bratT20=Person
-3	Испании	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Organization|bratT19=GPE|bratT20=Person
-4	Аранча	_	_	_	_	_	_	_	bratT20=Person
-5	Гонсалес	_	_	_	_	_	_	_	bratT20=Person
-6	Лая	_	_	_	_	_	_	_	bratT20=Person
+1	Глава	_	_	_	_	_	_	_	bratA3=T20:Female|bratT17=Person-property|bratT20=Person
+2	МИД	_	_	_	_	_	_	_	bratA3=T20:Female|bratT17=Person-property|bratT18=Organization|bratT20=Person
+3	Испании	_	_	_	_	_	_	_	bratA3=T20:Female|bratT17=Person-property|bratT18=Organization|bratT19=GPE|bratT20=Person
+4	Аранча	_	_	_	_	_	_	_	bratA3=T20:Female|bratT20=Person|bratT25=Person-forename
+5	Гонсалес	_	_	_	_	_	_	_	bratA3=T20:Female|bratT20=Person|bratT26=Person-surname
+6	Лая	_	_	_	_	_	_	_	bratA3=T20:Female|bratT20=Person|bratT26=Person-surname
 7	провела	_	_	_	_	_	_	_	_
 8	телефонный	_	_	_	_	_	_	_	_
 9	разговор	_	_	_	_	_	_	_	_
 10	со	_	_	_	_	_	_	_	_
 11	своим	_	_	_	_	_	_	_	_
-12	российским	_	_	_	_	_	_	_	_
+12	российским	_	_	_	_	_	_	_	bratA6=T31:Adjective|bratT31=GPE
 13	коллегой	_	_	_	_	_	_	_	_
-14	Сергеем	_	_	_	_	_	_	_	bratT21=Person
-15	Лавровым	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person
+14	Сергеем	_	_	_	_	_	_	_	bratA4=T21:Male|bratT21=Person|bratT27=Person-forename
+15	Лавровым	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T21:Male|bratT21=Person|bratT28=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0121-p3
@@ -37,23 +37,23 @@
 # sent_id = 0121-p3-s1
 # text = ``Аранча Гонсалес Лая побеседовала со своим российским коллегой Сергеем Лавровым'', - говорится в сообщении испанского МИД в Twitter.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Аранча	_	_	_	_	_	_	_	bratT5=Person
-3	Гонсалес	_	_	_	_	_	_	_	bratT5=Person
-4	Лая	_	_	_	_	_	_	_	bratT5=Person
+2	Аранча	_	_	_	_	_	_	_	bratA5=T5:Female|bratT29=Person-forename|bratT5=Person
+3	Гонсалес	_	_	_	_	_	_	_	bratA5=T5:Female|bratT30=Person-surname|bratT5=Person
+4	Лая	_	_	_	_	_	_	_	bratA5=T5:Female|bratT30=Person-surname|bratT5=Person
 5	побеседовала	_	_	_	_	_	_	_	_
 6	со	_	_	_	_	_	_	_	_
 7	своим	_	_	_	_	_	_	_	_
-8	российским	_	_	_	_	_	_	_	_
+8	российским	_	_	_	_	_	_	_	bratA7=T32:Adjective|bratT32=GPE
 9	коллегой	_	_	_	_	_	_	_	_
-10	Сергеем	_	_	_	_	_	_	_	bratT6=Person
-11	Лавровым	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person
+10	Сергеем	_	_	_	_	_	_	_	bratA8=T6:Male|bratT33=Person-forename|bratT6=Person
+11	Лавровым	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T6:Male|bratT34=Person-surname|bratT6=Person
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
 15	говорится	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
 17	сообщении	_	_	_	_	_	_	_	_
-18	испанского	_	_	_	_	_	_	_	bratT8=Organization
+18	испанского	_	_	_	_	_	_	_	bratA9=T35:Adjective|bratT35=GPE|bratT8=Organization
 19	МИД	_	_	_	_	_	_	_	bratT8=Organization
 20	в	_	_	_	_	_	_	_	_
 21	Twitter	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Service

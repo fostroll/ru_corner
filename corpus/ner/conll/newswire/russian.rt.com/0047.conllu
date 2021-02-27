@@ -46,14 +46,14 @@
 3	говорится	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	заявлении	_	_	_	_	_	_	_	_
-6	уполномоченной	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-7	правительства	_	_	_	_	_	_	_	bratT18=Organization|bratT5=Person-property|bratT7=Person
-8	ФРГ	_	_	_	_	_	_	_	bratT18=Organization|bratT5=Person-property|bratT6=GPE|bratT7=Person
-9	по	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-10	правам	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-11	человека	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-12	Бэрбель	_	_	_	_	_	_	_	bratT26=Person-forename|bratT7=Person
-13	Кофлер	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-surname|bratT7=Person
+6	уполномоченной	_	_	_	_	_	_	_	bratA3=T7:Female|bratT5=Person-property|bratT7=Person
+7	правительства	_	_	_	_	_	_	_	bratA3=T7:Female|bratT18=Organization|bratT5=Person-property|bratT7=Person
+8	ФРГ	_	_	_	_	_	_	_	bratA3=T7:Female|bratT18=Organization|bratT5=Person-property|bratT6=GPE|bratT7=Person
+9	по	_	_	_	_	_	_	_	bratA3=T7:Female|bratT5=Person-property|bratT7=Person
+10	правам	_	_	_	_	_	_	_	bratA3=T7:Female|bratT5=Person-property|bratT7=Person
+11	человека	_	_	_	_	_	_	_	bratA3=T7:Female|bratT5=Person-property|bratT7=Person
+12	Бэрбель	_	_	_	_	_	_	_	bratA3=T7:Female|bratT26=Person-forename|bratT7=Person
+13	Кофлер	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T7:Female|bratT27=Person-surname|bratT7=Person
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0047-p4
@@ -104,7 +104,7 @@
 # par_text = Кофлер заявила, что крайне необходимо, чтобы МККК и другие гуманитарные организации имели беспрепятственный доступ к людям.
 # sent_id = 0047-p6-s1
 # text = Кофлер заявила, что крайне необходимо, чтобы МККК и другие гуманитарные организации имели беспрепятственный доступ к людям.
-1	Кофлер	_	_	_	_	_	_	_	bratT13=Person|bratT28=Person-surname
+1	Кофлер	_	_	_	_	_	_	_	bratA4=T13:Female|bratT13=Person|bratT28=Person-surname
 2	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

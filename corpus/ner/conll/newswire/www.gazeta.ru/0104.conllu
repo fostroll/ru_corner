@@ -3,10 +3,10 @@
 # par_text = Аудитор Счетной палаты Мень находится на допросе в СК
 # sent_id = 0104-p1-s1
 # text = Аудитор Счетной палаты Мень находится на допросе в СК
-1	Аудитор	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Person
-2	Счетной	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property|bratT3=Person
-3	палаты	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property|bratT3=Person
-4	Мень	_	_	_	_	_	_	_	bratT3=Person
+1	Аудитор	_	_	_	_	_	_	_	bratA6=T3:Male|bratT2=Person-property|bratT3=Person
+2	Счетной	_	_	_	_	_	_	_	bratA6=T3:Male|bratT1=Organization|bratT2=Person-property|bratT3=Person
+3	палаты	_	_	_	_	_	_	_	bratA6=T3:Male|bratT1=Organization|bratT2=Person-property|bratT3=Person
+4	Мень	_	_	_	_	_	_	_	bratA6=T3:Male|bratT26=Person-surname|bratT3=Person
 5	находится	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	допросе	_	_	_	_	_	_	_	_
@@ -17,12 +17,12 @@
 # par_text = Аудитор Счетной палаты РФ Михаил Мень, который подозревается в хищении 700 млн руб., находится на допросе в Следственном комитете. Об этом сообщает РИА «Новости» со ссылкой на источник в правоохранительных органах.
 # sent_id = 0104-p2-s1
 # text = Аудитор Счетной палаты РФ Михаил Мень, который подозревается в хищении 700 млн руб., находится на допросе в Следственном комитете.
-1	Аудитор	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-2	Счетной	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-3	палаты	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-4	РФ	_	_	_	_	_	_	_	bratT5=GPE|bratT6=Organization|bratT7=Person-property|bratT8=Person
-5	Михаил	_	_	_	_	_	_	_	bratT8=Person
-6	Мень	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+1	Аудитор	_	_	_	_	_	_	_	bratA7=T8:Male|bratT7=Person-property|bratT8=Person
+2	Счетной	_	_	_	_	_	_	_	bratA7=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+3	палаты	_	_	_	_	_	_	_	bratA7=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+4	РФ	_	_	_	_	_	_	_	bratA7=T8:Male|bratT5=GPE|bratT6=Organization|bratT7=Person-property|bratT8=Person
+5	Михаил	_	_	_	_	_	_	_	bratA7=T8:Male|bratT27=Person-forename|bratT8=Person
+6	Мень	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Male|bratT28=Person-surname|bratT8=Person
 7	,	_	_	_	_	_	_	_	_
 8	который	_	_	_	_	_	_	_	_
 9	подозревается	_	_	_	_	_	_	_	_
@@ -66,8 +66,8 @@
 2	В	_	_	_	_	_	_	_	bratA3=T12:Present|bratT12=Date-absolute
 3	настоящий	_	_	_	_	_	_	_	bratA3=T12:Present|bratT12=Date-absolute|bratT25=Ordinal
 4	момент	_	_	_	_	_	_	_	bratA3=T12:Present|bratT12=Date-absolute
-5	Михаил	_	_	_	_	_	_	_	bratT13=Person
-6	Мень	_	_	_	_	_	_	_	bratT13=Person
+5	Михаил	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT29=Person-forename
+6	Мень	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT30=Person-surname
 7	находится	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	допросе	_	_	_	_	_	_	_	_
@@ -85,8 +85,8 @@
 # par_text = Михаил Мень был задержан сотрудниками МВД и ФСБ 18 ноября. Его подозревают в хищении 700 млн руб. из бюджета Ивановской области в 2011 году. Согласие на задержание чиновника выдал Совет Федерации.
 # sent_id = 0104-p4-s1
 # text = Михаил Мень был задержан сотрудниками МВД и ФСБ 18 ноября.
-1	Михаил	_	_	_	_	_	_	_	bratT15=Person
-2	Мень	_	_	_	_	_	_	_	bratT15=Person
+1	Михаил	_	_	_	_	_	_	_	bratA9=T15:Male|bratT15=Person|bratT31=Person-forename
+2	Мень	_	_	_	_	_	_	_	bratA9=T15:Male|bratT15=Person|bratT32=Person-surname
 3	был	_	_	_	_	_	_	_	_
 4	задержан	_	_	_	_	_	_	_	_
 5	сотрудниками	_	_	_	_	_	_	_	bratA2=T18:Plural|bratT18=Person-property

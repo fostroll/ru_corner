@@ -7,7 +7,7 @@
 2	проведет	_	_	_	_	_	_	_	_
 3	токсикологическое	_	_	_	_	_	_	_	_
 4	изучение	_	_	_	_	_	_	_	_
-5	российской	_	_	_	_	_	_	_	bratT3=Other-term
+5	российской	_	_	_	_	_	_	_	bratA8=T33:Adjective|bratT3=Other-term|bratT33=GPE
 6	вакцины	_	_	_	_	_	_	_	bratT3=Other-term
 7	от	_	_	_	_	_	_	_	_
 8	коронавируса	_	_	_	_	_	_	_	bratT2=Other-term
@@ -24,15 +24,15 @@
 6	к	_	_	_	_	_	_	_	_
 7	токсикологическому	_	_	_	_	_	_	_	_
 8	изучению	_	_	_	_	_	_	_	_
-9	российской	_	_	_	_	_	_	_	bratT8=Other-term
+9	российской	_	_	_	_	_	_	_	bratA9=T34:Adjective|bratT34=GPE|bratT8=Other-term
 10	вакцины	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-term
 11	,	_	_	_	_	_	_	_	_
 12	сообщил	_	_	_	_	_	_	_	_
-13	министр	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-14	здравоохранения	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-15	республики	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-16	Фахреттин	_	_	_	_	_	_	_	bratT6=Person
-17	Коджа	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person
+13	министр	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
+14	здравоохранения	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
+15	республики	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
+16	Фахреттин	_	_	_	_	_	_	_	bratA5=T6:Male|bratT29=Person-forename|bratT6=Person
+17	Коджа	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T6:Male|bratT30=Person-surname|bratT6=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p2-s2
@@ -50,7 +50,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	С	_	_	_	_	_	_	_	_
 3	(	_	_	_	_	_	_	_	SpaceAfter=No
-4	российской	_	_	_	_	_	_	_	SpaceAfter=No
+4	российской	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Adjective|bratT35=GPE
 5	)	_	_	_	_	_	_	_	_
 6	вакциной	_	_	_	_	_	_	_	bratT9=Other-term
 7	была	_	_	_	_	_	_	_	_
@@ -80,7 +80,7 @@
 12	,	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
 14	сказал	_	_	_	_	_	_	_	_
-15	Коджа	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+15	Коджа	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT31=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p4
@@ -102,7 +102,7 @@
 # par_text = Коджа также объявил, что Турция заключила соглашение на приобретение 50 млн доз вакцины китайской компании Sinovac.
 # sent_id = 0014-p5-s1
 # text = Коджа также объявил, что Турция заключила соглашение на приобретение 50 млн доз вакцины китайской компании Sinovac.
-1	Коджа	_	_	_	_	_	_	_	bratT12=Person
+1	Коджа	_	_	_	_	_	_	_	bratA7=T12:Male|bratT12=Person|bratT32=Person-surname
 2	также	_	_	_	_	_	_	_	_
 3	объявил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 12	млн	_	_	_	_	_	_	_	bratT14=Quantity
 13	доз	_	_	_	_	_	_	_	bratT14=Quantity
 14	вакцины	_	_	_	_	_	_	_	bratT16=Other-term
-15	китайской	_	_	_	_	_	_	_	bratT15=Organization
+15	китайской	_	_	_	_	_	_	_	bratA11=T36:Adjective|bratT15=Organization|bratT36=GPE
 16	компании	_	_	_	_	_	_	_	bratT15=Organization
 17	Sinovac	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
 18	.	_	_	_	_	_	_	_	_
@@ -148,7 +148,7 @@
 6	Гамалеи	_	_	_	_	_	_	_	bratT21=Organization
 7	совместно	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	Российским	_	_	_	_	_	_	_	bratT23=Organization
+9	Российским	_	_	_	_	_	_	_	bratA12=T37:Adjective|bratT23=Organization|bratT37=GPE
 10	фондом	_	_	_	_	_	_	_	bratT23=Organization
 11	прямых	_	_	_	_	_	_	_	bratT23=Organization
 12	инвестиций	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization

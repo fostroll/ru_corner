@@ -6,7 +6,7 @@
 1	Сотрудник	_	_	_	_	_	_	_	bratT25=Person-property
 2	компании	_	_	_	_	_	_	_	bratT1=Organization|bratT25=Person-property
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT25=Person-property
-4	Томское	_	_	_	_	_	_	_	bratT1=Organization|bratT25=Person-property
+4	Томское	_	_	_	_	_	_	_	bratA6=T28:Adjective|bratT1=Organization|bratT25=Person-property|bratT28=GPE
 5	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT25=Person-property
 6	''	_	_	_	_	_	_	_	bratT1=Organization|bratT25=Person-property
 7	задержан	_	_	_	_	_	_	_	_
@@ -26,7 +26,7 @@
 3	сотрудника	_	_	_	_	_	_	_	bratT26=Person-property
 4	компании	_	_	_	_	_	_	_	bratT26=Person-property|bratT3=Organization
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT3=Organization
-6	Томское	_	_	_	_	_	_	_	bratT26=Person-property|bratT3=Organization
+6	Томское	_	_	_	_	_	_	_	bratA7=T29:Adjective|bratT26=Person-property|bratT29=GPE|bratT3=Organization
 7	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT3=Organization
 8	''	_	_	_	_	_	_	_	bratT26=Person-property|bratT3=Organization
 9	по	_	_	_	_	_	_	_	_
@@ -72,7 +72,7 @@
 11	введя	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	заблуждение	_	_	_	_	_	_	_	_
-14	томского	_	_	_	_	_	_	_	bratT12=Person-property
+14	томского	_	_	_	_	_	_	_	bratA8=T30:Adjective|bratT12=Person-property|bratT30=GPE
 15	предпринимателя	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
 16	,	_	_	_	_	_	_	_	_
 17	подготовил	_	_	_	_	_	_	_	_
@@ -103,7 +103,7 @@
 2	основании	_	_	_	_	_	_	_	_
 3	договора	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
-5	Томское	_	_	_	_	_	_	_	bratT15=Organization
+5	Томское	_	_	_	_	_	_	_	bratA9=T31:Adjective|bratT15=Organization|bratT31=GPE
 6	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
 7	''	_	_	_	_	_	_	_	bratT15=Organization
 8	завладело	_	_	_	_	_	_	_	_
@@ -154,14 +154,14 @@
 5	мэра	_	_	_	_	_	_	_	bratT19=Person-property
 6	Томска	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=GPE|bratT19=Person-property
 7	,	_	_	_	_	_	_	_	_
-8	бенефициара	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=Person
-9	компании	_	_	_	_	_	_	_	bratT20=Organization|bratT21=Person-property|bratT22=Person
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT21=Person-property|bratT22=Person
-11	Томское	_	_	_	_	_	_	_	bratT20=Organization|bratT21=Person-property|bratT22=Person
-12	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT21=Person-property|bratT22=Person
-13	''	_	_	_	_	_	_	_	bratT20=Organization|bratT21=Person-property|bratT22=Person
-14	Ивана	_	_	_	_	_	_	_	bratT22=Person
-15	Кляйна	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person
+8	бенефициара	_	_	_	_	_	_	_	bratA5=T22:Male|bratT21=Person-property|bratT22=Person
+9	компании	_	_	_	_	_	_	_	bratA5=T22:Male|bratT20=Organization|bratT21=Person-property|bratT22=Person
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT20=Organization|bratT21=Person-property|bratT22=Person
+11	Томское	_	_	_	_	_	_	_	bratA10=T32:Adjective|bratA5=T22:Male|bratT20=Organization|bratT21=Person-property|bratT22=Person|bratT32=GPE
+12	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT20=Organization|bratT21=Person-property|bratT22=Person
+13	''	_	_	_	_	_	_	_	bratA5=T22:Male|bratT20=Organization|bratT21=Person-property|bratT22=Person
+14	Ивана	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person|bratT23=Person-forename
+15	Кляйна	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT22=Person|bratT27=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0080-p6-s2

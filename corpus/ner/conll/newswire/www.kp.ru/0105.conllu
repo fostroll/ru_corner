@@ -57,8 +57,8 @@
 4	Football-Italia	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
 5	,	_	_	_	_	_	_	_	_
 6	команда	_	_	_	_	_	_	_	_
-7	Дженнаро	_	_	_	_	_	_	_	bratT11=Person|bratT43=Person-forename
-8	Гаттузо	_	_	_	_	_	_	_	bratT11=Person|bratT48=Person-surname
+7	Дженнаро	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT43=Person-forename
+8	Гаттузо	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT48=Person-surname
 9	должна	_	_	_	_	_	_	_	_
 10	была	_	_	_	_	_	_	_	_
 11	вылететь	_	_	_	_	_	_	_	_
@@ -128,7 +128,7 @@
 11	в	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
 12	20:00	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
 13	по	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
-14	московскому	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
+14	московскому	_	_	_	_	_	_	_	bratA3=T16:Future|bratA7=T49:Adjective|bratT16=Date-absolute|bratT17=Time-absolute|bratT49=GPE
 15	времени	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
 16	.	_	_	_	_	_	_	_	_
 
@@ -173,7 +173,7 @@
 4	7	_	_	_	_	_	_	_	bratA5=T23:Past|bratT23=Date-absolute
 5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Past|bratT23=Date-absolute
 6	,	_	_	_	_	_	_	_	_
-7	парижская	_	_	_	_	_	_	_	_
+7	парижская	_	_	_	_	_	_	_	bratA8=T50:Adjective|bratT50=GPE
 8	команда	_	_	_	_	_	_	_	_
 9	обыграла	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization

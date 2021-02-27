@@ -3,8 +3,8 @@
 # par_text = Дядя Нурмагомедова отреагировал на порчу граффити с портретом бойца
 # sent_id = 0019-p1-s1
 # text = Дядя Нурмагомедова отреагировал на порчу граффити с портретом бойца
-1	Дядя	_	_	_	_	_	_	_	bratT1=Family|bratT21=Person
-2	Нурмагомедова	_	_	_	_	_	_	_	bratT2=Person|bratT21=Person|bratT28=Person-surname
+1	Дядя	_	_	_	_	_	_	_	bratA5=T21:Male|bratT1=Family|bratT21=Person
+2	Нурмагомедова	_	_	_	_	_	_	_	bratA4=T2:Male|bratA5=T21:Male|bratT2=Person|bratT21=Person|bratT28=Person-surname
 3	отреагировал	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	порчу	_	_	_	_	_	_	_	_
@@ -17,18 +17,18 @@
 # par_text = Дядя российского бойца смешанного стиля (MMA) Хабиба Нурмагомедова Нурмагомед Нурмагомедов отреагировал на действия вандалов в Челябинске, которые испортили граффити с портретом бойца. Его слова приводит Sport24.
 # sent_id = 0019-p2-s1
 # text = Дядя российского бойца смешанного стиля (MMA) Хабиба Нурмагомедова Нурмагомед Нурмагомедов отреагировал на действия вандалов в Челябинске, которые испортили граффити с портретом бойца.
-1	Дядя	_	_	_	_	_	_	_	bratT10=Family|bratT5=Person
-2	российского	_	_	_	_	_	_	_	bratT27=GPE|bratT3=Person-property|bratT4=Person|bratT5=Person
-3	бойца	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person|bratT5=Person
-4	смешанного	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person|bratT5=Person
-5	стиля	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person|bratT5=Person
-6	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=Person|bratT5=Person
-7	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term|bratT3=Person-property|bratT4=Person|bratT5=Person
-8	)	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person|bratT5=Person
-9	Хабиба	_	_	_	_	_	_	_	bratT29=Person-forename|bratT4=Person|bratT5=Person
-10	Нурмагомедова	_	_	_	_	_	_	_	bratT30=Person-surname|bratT4=Person|bratT5=Person
-11	Нурмагомед	_	_	_	_	_	_	_	bratT31=Person-forename|bratT5=Person
-12	Нурмагомедов	_	_	_	_	_	_	_	bratT32=Person-surname|bratT5=Person
+1	Дядя	_	_	_	_	_	_	_	bratA7=T5:Male|bratT10=Family|bratT5=Person
+2	российского	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T5:Male|bratA8=T27:Adjective|bratT27=GPE|bratT3=Person-property|bratT4=Person|bratT5=Person
+3	бойца	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T5:Male|bratT3=Person-property|bratT4=Person|bratT5=Person
+4	смешанного	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T5:Male|bratT3=Person-property|bratT4=Person|bratT5=Person
+5	стиля	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T5:Male|bratT3=Person-property|bratT4=Person|bratT5=Person
+6	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T4:Male|bratA7=T5:Male|bratT3=Person-property|bratT4=Person|bratT5=Person
+7	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T4:Male|bratA7=T5:Male|bratT24=Other-term|bratT3=Person-property|bratT4=Person|bratT5=Person
+8	)	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T5:Male|bratT3=Person-property|bratT4=Person|bratT5=Person
+9	Хабиба	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T5:Male|bratT29=Person-forename|bratT4=Person|bratT5=Person
+10	Нурмагомедова	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T5:Male|bratT30=Person-surname|bratT4=Person|bratT5=Person
+11	Нурмагомед	_	_	_	_	_	_	_	bratA7=T5:Male|bratT31=Person-forename|bratT5=Person
+12	Нурмагомедов	_	_	_	_	_	_	_	bratA7=T5:Male|bratT32=Person-surname|bratT5=Person
 13	отреагировал	_	_	_	_	_	_	_	_
 14	на	_	_	_	_	_	_	_	_
 15	действия	_	_	_	_	_	_	_	_
@@ -68,7 +68,7 @@
 
 # sent_id = 0019-p3-s2
 # text = Нурмагомедов связал это с недавней инициативой присвоить отечественному спортсмену звание Героя России.
-1	Нурмагомедов	_	_	_	_	_	_	_	bratT33=Person-surname|bratT8=Person
+1	Нурмагомедов	_	_	_	_	_	_	_	bratA9=T8:Male|bratT33=Person-surname|bratT8=Person
 2	связал	_	_	_	_	_	_	_	_
 3	это	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
@@ -127,7 +127,7 @@
 8	граффити	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	изображением	_	_	_	_	_	_	_	_
-11	Нурмагомедова	_	_	_	_	_	_	_	bratT15=Person|bratT34=Person-surname
+11	Нурмагомедова	_	_	_	_	_	_	_	bratA10=T15:Male|bratT15=Person|bratT34=Person-surname
 12	в	_	_	_	_	_	_	_	_
 13	Челябинске	_	_	_	_	_	_	_	bratT16=GPE
 14	было	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 # par_text = Нурмагомедов известен по выступлениям в Абсолютном бойцовском чемпионате (UFC). Он трижды защитил пояс чемпиона организации в легком весе. На счету бойца 29 побед в 29 поединках.
 # sent_id = 0019-p5-s1
 # text = Нурмагомедов известен по выступлениям в Абсолютном бойцовском чемпионате (UFC).
-1	Нурмагомедов	_	_	_	_	_	_	_	bratT17=Person|bratT35=Person-surname
+1	Нурмагомедов	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT35=Person-surname
 2	известен	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	выступлениям	_	_	_	_	_	_	_	_

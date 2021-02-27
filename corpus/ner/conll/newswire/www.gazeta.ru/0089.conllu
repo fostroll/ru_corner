@@ -3,33 +3,33 @@
 # par_text = Ягудин хочет восхищаться учениками Плющенко
 # sent_id = 0089-p1-s1
 # text = Ягудин хочет восхищаться учениками Плющенко
-1	Ягудин	_	_	_	_	_	_	_	bratT1=Person
+1	Ягудин	_	_	_	_	_	_	_	bratA7=T33:Male|bratT1=Person-surname|bratT33=Person
 2	хочет	_	_	_	_	_	_	_	_
 3	восхищаться	_	_	_	_	_	_	_	_
 4	учениками	_	_	_	_	_	_	_	_
-5	Плющенко	_	_	_	_	_	_	_	bratT2=Person
+5	Плющенко	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT34=Person-surname
 
 # newpar id = 0089-p2
 # par_text = Олимпийский чемпион по фигурному катанию Алексей Ягудин высказался о соперничестве между тренерами Этери Тутберидзе и Евгением Плющенко.
 # sent_id = 0089-p2-s1
 # text = Олимпийский чемпион по фигурному катанию Алексей Ягудин высказался о соперничестве между тренерами Этери Тутберидзе и Евгением Плющенко.
-1	Олимпийский	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-2	чемпион	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-3	по	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-4	фигурному	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-5	катанию	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-6	Алексей	_	_	_	_	_	_	_	bratT3=Person
-7	Ягудин	_	_	_	_	_	_	_	bratT3=Person
+1	Олимпийский	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT4=Person-property
+2	чемпион	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT4=Person-property
+3	по	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT4=Person-property
+4	фигурному	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT4=Person-property
+5	катанию	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT4=Person-property
+6	Алексей	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT35=Person-forename
+7	Ягудин	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT36=Person-surname
 8	высказался	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	соперничестве	_	_	_	_	_	_	_	_
 11	между	_	_	_	_	_	_	_	_
 12	тренерами	_	_	_	_	_	_	_	bratA1=T5:Plural|bratT31=Person-property|bratT5=Person
-13	Этери	_	_	_	_	_	_	_	bratA1=T5:Plural|bratT5=Person|bratT7=Person
-14	Тутберидзе	_	_	_	_	_	_	_	bratA1=T5:Plural|bratT5=Person|bratT7=Person
+13	Этери	_	_	_	_	_	_	_	bratA1=T5:Plural|bratA10=T7:Female|bratT37=Person-forename|bratT5=Person|bratT7=Person
+14	Тутберидзе	_	_	_	_	_	_	_	bratA1=T5:Plural|bratA10=T7:Female|bratT38=Person-surname|bratT5=Person|bratT7=Person
 15	и	_	_	_	_	_	_	_	bratA1=T5:Plural|bratT5=Person
-16	Евгением	_	_	_	_	_	_	_	bratA1=T5:Plural|bratT32=Person|bratT5=Person
-17	Плющенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Plural|bratT32=Person|bratT5=Person
+16	Евгением	_	_	_	_	_	_	_	bratA1=T5:Plural|bratA11=T32:Male|bratT32=Person|bratT39=Person-forename|bratT5=Person
+17	Плющенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Plural|bratA11=T32:Male|bratT32=Person|bratT40=Person-surname|bratT5=Person
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0089-p3
@@ -41,13 +41,13 @@
 3	2020	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
 4	года	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
 5	от	_	_	_	_	_	_	_	_
-6	Тутберидзе	_	_	_	_	_	_	_	bratT9=Person
+6	Тутберидзе	_	_	_	_	_	_	_	bratA12=T9:Female|bratT41=Person-surname|bratT9=Person
 7	в	_	_	_	_	_	_	_	_
 8	академию	_	_	_	_	_	_	_	bratT10=Organization
-9	Плющенко	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person
+9	Плющенко	_	_	_	_	_	_	_	bratA13=T11:Male|bratT10=Organization|bratT11=Person|bratT42=Person-surname
 10	перешла	_	_	_	_	_	_	_	_
-11	Александра	_	_	_	_	_	_	_	bratT12=Person
-12	Трусова	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+11	Александра	_	_	_	_	_	_	_	bratA14=T12:Female|bratT12=Person|bratT43=Person-forename
+12	Трусова	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T12:Female|bratT12=Person|bratT44=Person-surname
 13	,	_	_	_	_	_	_	_	_
 14	которая	_	_	_	_	_	_	_	_
 15	владеет	_	_	_	_	_	_	_	_
@@ -65,12 +65,12 @@
 6	том	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	чемпионка	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property
-10	Европы	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property|bratT17=GPE
-11	-	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property
-12	2020	_	_	_	_	_	_	_	bratA5=T18:Past|bratT15=Person|bratT16=Person-property|bratT18=Date-absolute
-13	Алена	_	_	_	_	_	_	_	bratT15=Person
-14	Косторная	_	_	_	_	_	_	_	bratT15=Person
+9	чемпионка	_	_	_	_	_	_	_	bratA15=T15:Female|bratT15=Person|bratT16=Person-property
+10	Европы	_	_	_	_	_	_	_	bratA15=T15:Female|bratT15=Person|bratT16=Person-property|bratT17=GPE
+11	-	_	_	_	_	_	_	_	bratA15=T15:Female|bratT15=Person|bratT16=Person-property
+12	2020	_	_	_	_	_	_	_	bratA15=T15:Female|bratA5=T18:Past|bratT15=Person|bratT16=Person-property|bratT18=Date-absolute
+13	Алена	_	_	_	_	_	_	_	bratA15=T15:Female|bratT15=Person|bratT45=Person-forename
+14	Косторная	_	_	_	_	_	_	_	bratA15=T15:Female|bratT15=Person|bratT46=Person-surname
 15	также	_	_	_	_	_	_	_	_
 16	прекратила	_	_	_	_	_	_	_	_
 17	сотрудничество	_	_	_	_	_	_	_	_
@@ -97,11 +97,11 @@
 4	,	_	_	_	_	_	_	_	_
 5	чтобы	_	_	_	_	_	_	_	_
 6	и	_	_	_	_	_	_	_	_
-7	Этери	_	_	_	_	_	_	_	bratT22=Person
+7	Этери	_	_	_	_	_	_	_	bratA16=T22:Female|bratT22=Person|bratT47=Person-forename
 8	выводила	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
-11	Женя	_	_	_	_	_	_	_	bratT23=Person
+11	Женя	_	_	_	_	_	_	_	bratA17=T23:Male|bratT23=Person|bratT48=Person-forename
 12	выводил	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 
@@ -127,8 +127,8 @@
 18	выступлениями	_	_	_	_	_	_	_	_
 19	и	_	_	_	_	_	_	_	_
 20	учениками	_	_	_	_	_	_	_	bratT24=Person-property
-21	Жени	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
-22	Плющенко	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT25=Person
+21	Жени	_	_	_	_	_	_	_	bratA18=T25:Male|bratT24=Person-property|bratT25=Person|bratT49=Person-forename
+22	Плющенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T25:Male|bratT24=Person-property|bratT25=Person|bratT50=Person-surname
 23	,	_	_	_	_	_	_	_	_
 24	и	_	_	_	_	_	_	_	_
 25	учениками	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property
@@ -145,7 +145,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	-	_	_	_	_	_	_	_	_
 9	сказал	_	_	_	_	_	_	_	_
-10	Ягудин	_	_	_	_	_	_	_	bratT28=Person
+10	Ягудин	_	_	_	_	_	_	_	bratA19=T28:Male|bratT28=Person|bratT51=Person-surname
 11	в	_	_	_	_	_	_	_	_
 12	эфире	_	_	_	_	_	_	_	_
 13	радио	_	_	_	_	_	_	_	bratA2=T29:Media|bratT29=Organization
@@ -163,8 +163,8 @@
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	Алина	_	_	_	_	_	_	_	bratT30=Person
-6	Загитова	_	_	_	_	_	_	_	bratT30=Person
+5	Алина	_	_	_	_	_	_	_	bratA20=T30:Female|bratT30=Person|bratT52=Person-forename
+6	Загитова	_	_	_	_	_	_	_	bratA20=T30:Female|bratT30=Person|bratT53=Person-surname
 7	объяснила	_	_	_	_	_	_	_	_
 8	зрителям	_	_	_	_	_	_	_	_
 9	принципы	_	_	_	_	_	_	_	_

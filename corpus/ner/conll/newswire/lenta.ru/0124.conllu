@@ -5,8 +5,8 @@
 # text = Ухудшение здоровья Александра Ширвиндта опровергли
 1	Ухудшение	_	_	_	_	_	_	_	_
 2	здоровья	_	_	_	_	_	_	_	_
-3	Александра	_	_	_	_	_	_	_	bratT1=Person|bratT26=Person-forename
-4	Ширвиндта	_	_	_	_	_	_	_	bratT1=Person|bratT27=Person-surname
+3	Александра	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT26=Person-forename
+4	Ширвиндта	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT27=Person-surname
 5	опровергли	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p2
@@ -15,19 +15,19 @@
 # text = Ухудшение здоровья художественного руководителя Московского академического Театра сатиры Александра Ширвиндта опроверг директор театра Мамед Агаев.
 1	Ухудшение	_	_	_	_	_	_	_	_
 2	здоровья	_	_	_	_	_	_	_	_
-3	художественного	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Person
-4	руководителя	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Person
-5	Московского	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=Person
-6	академического	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=Person
-7	Театра	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=Person
-8	сатиры	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=Person
-9	Александра	_	_	_	_	_	_	_	bratT28=Person-forename|bratT4=Person
-10	Ширвиндта	_	_	_	_	_	_	_	bratT29=Person-surname|bratT4=Person
+3	художественного	_	_	_	_	_	_	_	bratA7=T4:Male|bratT2=Person-property|bratT4=Person
+4	руководителя	_	_	_	_	_	_	_	bratA7=T4:Male|bratT2=Person-property|bratT4=Person
+5	Московского	_	_	_	_	_	_	_	bratA13=T38:Adjective|bratA7=T4:Male|bratT2=Person-property|bratT3=Organization|bratT38=GPE|bratT4=Person
+6	академического	_	_	_	_	_	_	_	bratA7=T4:Male|bratT2=Person-property|bratT3=Organization|bratT4=Person
+7	Театра	_	_	_	_	_	_	_	bratA7=T4:Male|bratT2=Person-property|bratT3=Organization|bratT4=Person
+8	сатиры	_	_	_	_	_	_	_	bratA7=T4:Male|bratT2=Person-property|bratT3=Organization|bratT4=Person
+9	Александра	_	_	_	_	_	_	_	bratA7=T4:Male|bratT28=Person-forename|bratT4=Person
+10	Ширвиндта	_	_	_	_	_	_	_	bratA7=T4:Male|bratT29=Person-surname|bratT4=Person
 11	опроверг	_	_	_	_	_	_	_	_
-12	директор	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-13	театра	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-14	Мамед	_	_	_	_	_	_	_	bratT30=Person-forename|bratT6=Person
-15	Агаев	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-surname|bratT6=Person
+12	директор	_	_	_	_	_	_	_	bratA8=T6:Male|bratT5=Person-property|bratT6=Person
+13	театра	_	_	_	_	_	_	_	bratA8=T6:Male|bratT5=Person-property|bratT6=Person
+14	Мамед	_	_	_	_	_	_	_	bratA8=T6:Male|bratT30=Person-forename|bratT6=Person
+15	Агаев	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T6:Male|bratT31=Person-surname|bratT6=Person
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p2-s2
@@ -51,8 +51,8 @@
 # sent_id = 0124-p3-s1
 # text = ``Александр Анатольевич был госпитализирован в понедельник в больницу с коронавирусом в легкой форме'', - рассказал Агаев.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Александр	_	_	_	_	_	_	_	bratT32=Person-forename|bratT7=Person
-3	Анатольевич	_	_	_	_	_	_	_	bratT33=Person-patronym|bratT7=Person
+2	Александр	_	_	_	_	_	_	_	bratA9=T7:Male|bratT32=Person-forename|bratT7=Person
+3	Анатольевич	_	_	_	_	_	_	_	bratA9=T7:Male|bratT33=Person-patronym|bratT7=Person
 4	был	_	_	_	_	_	_	_	_
 5	госпитализирован	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
@@ -68,7 +68,7 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	рассказал	_	_	_	_	_	_	_	_
-19	Агаев	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-surname|bratT34=Person
+19	Агаев	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T34:Male|bratT10=Person-surname|bratT34=Person
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p3-s2
@@ -102,12 +102,12 @@
 6	госпитализации	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
 8	пневмонией	_	_	_	_	_	_	_	bratT14=Other-term
-9	Ширвиндта	_	_	_	_	_	_	_	bratT15=Person|bratT35=Person-surname
+9	Ширвиндта	_	_	_	_	_	_	_	bratA11=T15:Male|bratT15=Person|bratT35=Person-surname
 10	и	_	_	_	_	_	_	_	_
 11	его	_	_	_	_	_	_	_	_
 12	жены	_	_	_	_	_	_	_	bratT19=Family
-13	Натальи	_	_	_	_	_	_	_	bratT16=Person|bratT36=Person-forename
-14	Белоусовой	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT37=Person-surname
+13	Натальи	_	_	_	_	_	_	_	bratA12=T16:Female|bratT16=Person|bratT36=Person-forename
+14	Белоусовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T16:Female|bratT16=Person|bratT37=Person-surname
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p4-s2

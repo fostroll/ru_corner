@@ -3,12 +3,12 @@
 # par_text = Путин назвал условие увеличения контингента российских миротворцев в Карабахе
 # sent_id = 0057-p1-s1
 # text = Путин назвал условие увеличения контингента российских миротворцев в Карабахе
-1	Путин	_	_	_	_	_	_	_	bratT1=Person
+1	Путин	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT26=Person-surname
 2	назвал	_	_	_	_	_	_	_	_
 3	условие	_	_	_	_	_	_	_	_
 4	увеличения	_	_	_	_	_	_	_	_
 5	контингента	_	_	_	_	_	_	_	_
-6	российских	_	_	_	_	_	_	_	bratT2=Person-property
+6	российских	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT2=Person-property|bratT29=GPE
 7	миротворцев	_	_	_	_	_	_	_	bratT2=Person-property
 8	в	_	_	_	_	_	_	_	_
 9	Карабахе	_	_	_	_	_	_	_	bratT3=GPE
@@ -17,10 +17,10 @@
 # par_text = Президент РФ Владимир Путин заявил, что в Карабахе присутствует достаточно российских миротворцев, но если потребуется изменить их количество, это можно будет сделать с согласия Армении и Азербайджана. Об этом сообщает РИА «Новости».
 # sent_id = 0057-p2-s1
 # text = Президент РФ Владимир Путин заявил, что в Карабахе присутствует достаточно российских миротворцев, но если потребуется изменить их количество, это можно будет сделать с согласия Армении и Азербайджана.
-1	Президент	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-2	РФ	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=GPE
-3	Владимир	_	_	_	_	_	_	_	bratT4=Person
-4	Путин	_	_	_	_	_	_	_	bratT4=Person
+1	Президент	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT5=Person-property
+2	РФ	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=GPE
+3	Владимир	_	_	_	_	_	_	_	bratA4=T4:Male|bratT24=Person-forename|bratT4=Person
+4	Путин	_	_	_	_	_	_	_	bratA4=T4:Male|bratT25=Person-surname|bratT4=Person
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -28,7 +28,7 @@
 9	Карабахе	_	_	_	_	_	_	_	bratT7=GPE
 10	присутствует	_	_	_	_	_	_	_	_
 11	достаточно	_	_	_	_	_	_	_	_
-12	российских	_	_	_	_	_	_	_	bratT8=Person-property
+12	российских	_	_	_	_	_	_	_	bratA7=T28:Adjective|bratT28=GPE|bratT8=Person-property
 13	миротворцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person-property
 14	,	_	_	_	_	_	_	_	_
 15	но	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
 21	сказал	_	_	_	_	_	_	_	_
-22	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+22	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T12:Male|bratT12=Person|bratT27=Person-surname
 23	,	_	_	_	_	_	_	_	_
 24	отвечая	_	_	_	_	_	_	_	_
 25	на	_	_	_	_	_	_	_	_
@@ -136,7 +136,7 @@
 11	ввод	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	регион	_	_	_	_	_	_	_	_
-14	российских	_	_	_	_	_	_	_	bratT22=Person-property
+14	российских	_	_	_	_	_	_	_	bratA9=T30:Adjective|bratT22=Person-property|bratT30=GPE
 15	миротворцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property
 16	.	_	_	_	_	_	_	_	_
 

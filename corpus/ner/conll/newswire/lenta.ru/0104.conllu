@@ -58,12 +58,12 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	По	_	_	_	_	_	_	_	_
 3	поручению	_	_	_	_	_	_	_	_
-4	министра	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-5	здравоохранения	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-6	Российской	_	_	_	_	_	_	_	bratT10=GPE|bratT11=Person|bratT9=Person-property
-7	Федерации	_	_	_	_	_	_	_	bratT10=GPE|bratT11=Person|bratT9=Person-property
-8	Михаила	_	_	_	_	_	_	_	bratT11=Person|bratT46=Person-forename
-9	Мурашко	_	_	_	_	_	_	_	bratT11=Person|bratT47=Person-surname
+4	министра	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT9=Person-property
+5	здравоохранения	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT9=Person-property
+6	Российской	_	_	_	_	_	_	_	bratA13=T11:Male|bratT10=GPE|bratT11=Person|bratT9=Person-property
+7	Федерации	_	_	_	_	_	_	_	bratA13=T11:Male|bratT10=GPE|bratT11=Person|bratT9=Person-property
+8	Михаила	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT46=Person-forename
+9	Мурашко	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT47=Person-surname
 10	территориальный	_	_	_	_	_	_	_	bratT12=Organization
 11	орган	_	_	_	_	_	_	_	bratT12=Organization
 12	Росздравнадзора	_	_	_	_	_	_	_	bratT12=Organization
@@ -265,16 +265,16 @@
 # par_text = Начальник регионального пресс-центра по мониторингу ситуации с коронавирусом Сергей Тюрин назвал фейком информацию о связи смерти пациентов с дефицитом медицинского кислорода в больнице.
 # sent_id = 0104-p8-s1
 # text = Начальник регионального пресс-центра по мониторингу ситуации с коронавирусом Сергей Тюрин назвал фейком информацию о связи смерти пациентов с дефицитом медицинского кислорода в больнице.
-1	Начальник	_	_	_	_	_	_	_	bratT31=Person-property|bratT33=Person
-2	регионального	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT33=Person
-3	пресс-центра	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT33=Person
-4	по	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT33=Person
-5	мониторингу	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT33=Person
-6	ситуации	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT33=Person
-7	с	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT33=Person
-8	коронавирусом	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT33=Person|bratT40=Other-term
-9	Сергей	_	_	_	_	_	_	_	bratT33=Person|bratT48=Person-forename
-10	Тюрин	_	_	_	_	_	_	_	bratT33=Person|bratT49=Person-surname
+1	Начальник	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT33=Person
+2	регионального	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
+3	пресс-центра	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
+4	по	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
+5	мониторингу	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
+6	ситуации	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
+7	с	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
+8	коронавирусом	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person|bratT40=Other-term
+9	Сергей	_	_	_	_	_	_	_	bratA12=T33:Male|bratT33=Person|bratT48=Person-forename
+10	Тюрин	_	_	_	_	_	_	_	bratA12=T33:Male|bratT33=Person|bratT49=Person-surname
 11	назвал	_	_	_	_	_	_	_	_
 12	фейком	_	_	_	_	_	_	_	bratT34=Other-term
 13	информацию	_	_	_	_	_	_	_	_

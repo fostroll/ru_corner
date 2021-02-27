@@ -9,7 +9,7 @@
 4	судить	_	_	_	_	_	_	_	_
 5	за	_	_	_	_	_	_	_	_
 6	оскорбление	_	_	_	_	_	_	_	_
-7	Лукашенко	_	_	_	_	_	_	_	bratT2=Person
+7	Лукашенко	_	_	_	_	_	_	_	bratA12=T2:Male|bratT2=Person|bratT42=Person-surname
 8	в	_	_	_	_	_	_	_	_
 9	сети	_	_	_	_	_	_	_	_
 
@@ -35,10 +35,10 @@
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
 18	оскорбил	_	_	_	_	_	_	_	_
-19	президента	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property
-20	страны	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property
-21	Александра	_	_	_	_	_	_	_	bratT7=Person
-22	Лукашенко	_	_	_	_	_	_	_	bratT7=Person
+19	президента	_	_	_	_	_	_	_	bratA13=T7:Male|bratT7=Person|bratT8=Person-property
+20	страны	_	_	_	_	_	_	_	bratA13=T7:Male|bratT7=Person|bratT8=Person-property
+21	Александра	_	_	_	_	_	_	_	bratA13=T7:Male|bratT43=Person-forename|bratT7=Person
+22	Лукашенко	_	_	_	_	_	_	_	bratA13=T7:Male|bratT44=Person-surname|bratT7=Person
 23	в	_	_	_	_	_	_	_	_
 24	одном	_	_	_	_	_	_	_	bratT9=Quantity
 25	из	_	_	_	_	_	_	_	bratT9=Quantity
@@ -159,7 +159,7 @@
 # sent_id = 0037-p5-s1
 # text = Согласно белорусскому законодательству, оскорбление президента карается лишением свободы на срок до двух лет.
 1	Согласно	_	_	_	_	_	_	_	_
-2	белорусскому	_	_	_	_	_	_	_	_
+2	белорусскому	_	_	_	_	_	_	_	bratA15=T47:Adjective|bratT47=GPE
 3	законодательству	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	оскорбление	_	_	_	_	_	_	_	_
@@ -198,8 +198,8 @@
 7	ЦИК	_	_	_	_	_	_	_	bratT26=Organization
 8	республики	_	_	_	_	_	_	_	bratT26=Organization
 9	объявил	_	_	_	_	_	_	_	_
-10	Александра	_	_	_	_	_	_	_	bratT27=Person
-11	Лукашенко	_	_	_	_	_	_	_	bratT27=Person
+10	Александра	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT45=Person-forename
+11	Лукашенко	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT46=Person-surname
 12	победителем	_	_	_	_	_	_	_	_
 13	президентских	_	_	_	_	_	_	_	bratT31=Event
 14	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Event

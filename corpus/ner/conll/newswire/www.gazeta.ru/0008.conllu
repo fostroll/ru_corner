@@ -3,7 +3,7 @@
 # par_text = Российские журналисты задержаны на протестах в Белоруссии
 # sent_id = 0008-p1-s1
 # text = Российские журналисты задержаны на протестах в Белоруссии
-1	Российские	_	_	_	_	_	_	_	bratT1=Person-property
+1	Российские	_	_	_	_	_	_	_	bratA18=T47:Adjective|bratT1=Person-property|bratT47=GPE
 2	журналисты	_	_	_	_	_	_	_	bratT1=Person-property
 3	задержаны	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
@@ -77,10 +77,10 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	рассказал	_	_	_	_	_	_	_	_
-19	корреспондент	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person
-20	ТАСС	_	_	_	_	_	_	_	bratA4=T13:Media|bratT13=Organization|bratT14=Person-property|bratT15=Person
-21	Юрий	_	_	_	_	_	_	_	bratT15=Person
-22	Шамшур	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person
+19	корреспондент	_	_	_	_	_	_	_	bratA13=T15:Male|bratT14=Person-property|bratT15=Person
+20	ТАСС	_	_	_	_	_	_	_	bratA13=T15:Male|bratA4=T13:Media|bratT13=Organization|bratT14=Person-property|bratT15=Person
+21	Юрий	_	_	_	_	_	_	_	bratA13=T15:Male|bratT15=Person|bratT39=Person-forename
+22	Шамшур	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T15:Male|bratT15=Person|bratT40=Person-surname
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0008-p5
@@ -107,8 +107,8 @@
 7	ЦИК	_	_	_	_	_	_	_	bratT20=Organization
 8	республики	_	_	_	_	_	_	_	bratT20=Organization
 9	объявил	_	_	_	_	_	_	_	_
-10	Александра	_	_	_	_	_	_	_	bratT21=Person
-11	Лукашенко	_	_	_	_	_	_	_	bratT21=Person
+10	Александра	_	_	_	_	_	_	_	bratA14=T21:Male|bratT21=Person|bratT41=Person-forename
+11	Лукашенко	_	_	_	_	_	_	_	bratA14=T21:Male|bratT21=Person|bratT42=Person-surname
 12	победителем	_	_	_	_	_	_	_	_
 13	президентских	_	_	_	_	_	_	_	bratT3=Event
 14	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Event
@@ -169,12 +169,12 @@
 # sent_id = 0008-p7-s1
 # text = Позже экс-кандидат в президенты республики Светлана Тихановская объявила о создании в стране Координационного совета оппозиции, который должен способствовать трансферу власти.
 1	Позже	_	_	_	_	_	_	_	bratA11=T36:Past|bratT36=Date-relative
-2	экс-кандидат	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
-3	в	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
-4	президенты	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
-5	республики	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
-6	Светлана	_	_	_	_	_	_	_	bratT26=Person
-7	Тихановская	_	_	_	_	_	_	_	bratT26=Person
+2	экс-кандидат	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
+3	в	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
+4	президенты	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
+5	республики	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
+6	Светлана	_	_	_	_	_	_	_	bratA15=T26:Female|bratT26=Person|bratT43=Person-forename
+7	Тихановская	_	_	_	_	_	_	_	bratA15=T26:Female|bratT26=Person|bratT44=Person-surname
 8	объявила	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	создании	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 
 # sent_id = 0008-p7-s2
 # text = Лукашенко же обвинил в протестах западные страны и потребовал возбудить уголовные дела против членов совета.
-1	Лукашенко	_	_	_	_	_	_	_	bratT28=Person
+1	Лукашенко	_	_	_	_	_	_	_	bratA16=T28:Male|bratT28=Person|bratT45=Person-surname
 2	же	_	_	_	_	_	_	_	_
 3	обвинил	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
@@ -217,7 +217,7 @@
 1	С	_	_	_	_	_	_	_	bratA12=T30:Past-UNK|bratT30=Date-period-absolute
 2	26	_	_	_	_	_	_	_	bratA12=T30:Past-UNK|bratT30=Date-period-absolute
 3	октября	_	_	_	_	_	_	_	bratA12=T30:Past-UNK|bratT30=Date-period-absolute
-4	Тихановская	_	_	_	_	_	_	_	bratT31=Person
+4	Тихановская	_	_	_	_	_	_	_	bratA17=T31:Female|bratT31=Person|bratT46=Person-surname
 5	объявила	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	стране	_	_	_	_	_	_	_	_

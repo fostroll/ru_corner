@@ -3,8 +3,8 @@
 # par_text = Леонид Рошаль: Были случаи, когда врач приходил к больному только на 9-е сутки
 # sent_id = 0003-p1-s1
 # text = Леонид Рошаль: Были случаи, когда врач приходил к больному только на 9-е сутки
-1	Леонид	_	_	_	_	_	_	_	bratT1=Person|bratT34=Person-forename
-2	Рошаль	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT35=Person-surname
+1	Леонид	_	_	_	_	_	_	_	bratA3=T1:Male|bratT1=Person|bratT34=Person-forename
+2	Рошаль	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T1:Male|bratT1=Person|bratT35=Person-surname
 3	:	_	_	_	_	_	_	_	_
 4	Были	_	_	_	_	_	_	_	_
 5	случаи	_	_	_	_	_	_	_	SpaceAfter=No
@@ -31,15 +31,15 @@
 6	больных	_	_	_	_	_	_	_	_
 7	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
 8	,	_	_	_	_	_	_	_	_
-9	президент	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-10	НИИ	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-11	неотложной	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-12	детской	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-13	хирургии	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-14	и	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-15	травматологии	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-16	Леонид	_	_	_	_	_	_	_	bratT36=Person-forename|bratT7=Person
-17	Рошаль	_	_	_	_	_	_	_	bratT37=Person-surname|bratT7=Person
+9	президент	_	_	_	_	_	_	_	bratA4=T7:Male|bratT6=Person-property|bratT7=Person
+10	НИИ	_	_	_	_	_	_	_	bratA4=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+11	неотложной	_	_	_	_	_	_	_	bratA4=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+12	детской	_	_	_	_	_	_	_	bratA4=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+13	хирургии	_	_	_	_	_	_	_	bratA4=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+14	и	_	_	_	_	_	_	_	bratA4=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+15	травматологии	_	_	_	_	_	_	_	bratA4=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+16	Леонид	_	_	_	_	_	_	_	bratA4=T7:Male|bratT36=Person-forename|bratT7=Person
+17	Рошаль	_	_	_	_	_	_	_	bratA4=T7:Male|bratT37=Person-surname|bratT7=Person
 18	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 19	:	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -168,7 +168,7 @@
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	добавил	_	_	_	_	_	_	_	_
-15	Рошаль	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT38=Person-surname
+15	Рошаль	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Male|bratT16=Person|bratT38=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0003-p4
@@ -187,8 +187,8 @@
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
 12	заявил	_	_	_	_	_	_	_	_
-13	Леонид	_	_	_	_	_	_	_	bratT18=Person|bratT39=Person-forename
-14	Михайлович	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT40=Person-patronym
+13	Леонид	_	_	_	_	_	_	_	bratA6=T18:Male|bratT18=Person|bratT39=Person-forename
+14	Михайлович	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT18=Person|bratT40=Person-patronym
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0003-p4-s2

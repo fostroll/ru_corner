@@ -1,5 +1,5 @@
 T1	Person 0 8	Медведев
-T2	Person 21 25	Тима
+T2	Person-surname 21 25	Тима
 T3	Event 32 66	финале   Итогового   турнира   ATP
 T4	Duration 307 329	2   часа   42   минуты
 T5	Quantity 364 367	4:6
@@ -10,7 +10,7 @@ A1	Citizenship T8
 T9	Person 425 434	Медведева
 T10	Ordinal 443 450	девятый
 T11	Person 523 539	Рафаэль   Надаль
-T12	Person 551 560	Медведева
+T12	Person-surname 551 560	Медведева
 T13	Quantity 563 573	одним   из
 T14	Person-property 585 596	теннисистов
 T16	Event 41 66	Итогового   турнира   ATP
@@ -32,3 +32,18 @@ T30	Date-period-relative 307 329	2   часа   42   минуты
 A2	Past T30
 T31	Event 282 289	Встреча
 A3	Past T28
+T32	Person-surname 0 8	Медведев
+A4	Male T1
+T33	Person-forename 96 102	Даниил
+T34	Person-surname 105 113	Медведев
+A5	Male T18
+A6	Male T20
+T35	Person-forename 154 163	Домиником
+T36	Person-surname 166 171	Тимом
+T37	Person-surname 425 434	Медведева
+A7	Male T9
+T38	Person-forename 523 530	Рафаэль
+T39	Person-surname 533 539	Надаль
+A8	Male T11
+T40	Person 551 560	Медведева
+A9	Male T40

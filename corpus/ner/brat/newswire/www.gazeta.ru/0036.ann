@@ -1,12 +1,12 @@
 T1	Person 0 8	Черчесов
 T2	GPE 50 56	России
 T3	Organization 40 56	сборной   России
-T4	Cardinal 73 76	0:5
+T4	Quantity 73 76	0:5
 T5	GPE 107 113	России
 T6	Organization 97 113	сборной   России
 T7	Person-property 78 113	Главный   тренер   сборной   России
 T8	Person 78 136	Главный   тренер   сборной   России   Станислав   Черчесов
-T9	Cardinal 185 188	0:5
+T9	Quantity 185 188	0:5
 T10	GPE 221 227	Сербии
 T11	Organization 196 227	национальной   команды   Сербии
 T12	Organization 268 272	УЕФА
@@ -28,3 +28,10 @@ T24	Event 253 272	Лиги   наций   УЕФА
 T25	Event 1167 1179	Лиги   наций
 T26	Date-relative 1103 1108	Ранее
 A4	Past T26
+T27	Person-surname 0 8	Черчесов
+A5	Male T1
+T28	Person-forename 116 125	Станислав
+T29	Person-surname 128 136	Черчесов
+A6	Male T8
+A7	Male T17
+T30	Person-surname 994 1003	Черчесова

@@ -3,11 +3,11 @@
 # par_text = Федор Емельяненко раскритиковал Петра Яна за говорливость
 # sent_id = 0034-p1-s1
 # text = Федор Емельяненко раскритиковал Петра Яна за говорливость
-1	Федор	_	_	_	_	_	_	_	bratT1=Person
-2	Емельяненко	_	_	_	_	_	_	_	bratT1=Person
+1	Федор	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT25=Person-forename
+2	Емельяненко	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT26=Person-surname
 3	раскритиковал	_	_	_	_	_	_	_	_
-4	Петра	_	_	_	_	_	_	_	bratT2=Person
-5	Яна	_	_	_	_	_	_	_	bratT2=Person
+4	Петра	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT27=Person-forename
+5	Яна	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT28=Person-surname
 6	за	_	_	_	_	_	_	_	_
 7	говорливость	_	_	_	_	_	_	_	_
 
@@ -15,28 +15,28 @@
 # par_text = Российский боец ММА Федор Емельяненко высказался о своем соотечественнике, чемпионе Абсолютного бойцовского чемпионата (UFC) в легчайшем весе Петре Яне.
 # sent_id = 0034-p2-s1
 # text = Российский боец ММА Федор Емельяненко высказался о своем соотечественнике, чемпионе Абсолютного бойцовского чемпионата (UFC) в легчайшем весе Петре Яне.
-1	Российский	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-2	боец	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-3	ММА	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-4	Федор	_	_	_	_	_	_	_	bratT4=Person
-5	Емельяненко	_	_	_	_	_	_	_	bratT4=Person
+1	Российский	_	_	_	_	_	_	_	bratA13=T42:Adjective|bratA5=T4:Male|bratT3=Person-property|bratT4=Person|bratT42=GPE
+2	боец	_	_	_	_	_	_	_	bratA5=T4:Male|bratT3=Person-property|bratT4=Person
+3	ММА	_	_	_	_	_	_	_	bratA5=T4:Male|bratT3=Person-property|bratT4=Person
+4	Федор	_	_	_	_	_	_	_	bratA5=T4:Male|bratT29=Person-forename|bratT4=Person
+5	Емельяненко	_	_	_	_	_	_	_	bratA5=T4:Male|bratT30=Person-surname|bratT4=Person
 6	высказался	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
 8	своем	_	_	_	_	_	_	_	_
 9	соотечественнике	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
-11	чемпионе	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-12	Абсолютного	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-13	бойцовского	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-14	чемпионата	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property|bratT7=Person
-15	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT7=Person
-16	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT6=Person-property|bratT7=Person
-17	)	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-18	в	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-19	легчайшем	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-20	весе	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-21	Петре	_	_	_	_	_	_	_	bratT7=Person
-22	Яне	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
+11	чемпионе	_	_	_	_	_	_	_	bratA6=T7:Male|bratT6=Person-property|bratT7=Person
+12	Абсолютного	_	_	_	_	_	_	_	bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+13	бойцовского	_	_	_	_	_	_	_	bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+14	чемпионата	_	_	_	_	_	_	_	bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+15	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T7:Male|bratT6=Person-property|bratT7=Person
+16	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T7:Male|bratT23=Organization|bratT6=Person-property|bratT7=Person
+17	)	_	_	_	_	_	_	_	bratA6=T7:Male|bratT6=Person-property|bratT7=Person
+18	в	_	_	_	_	_	_	_	bratA6=T7:Male|bratT6=Person-property|bratT7=Person
+19	легчайшем	_	_	_	_	_	_	_	bratA6=T7:Male|bratT6=Person-property|bratT7=Person
+20	весе	_	_	_	_	_	_	_	bratA6=T7:Male|bratT6=Person-property|bratT7=Person
+21	Петре	_	_	_	_	_	_	_	bratA6=T7:Male|bratT31=Person-forename|bratT7=Person
+22	Яне	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T7:Male|bratT32=Person-surname|bratT7=Person
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0034-p3
@@ -58,7 +58,7 @@
 13	которому	_	_	_	_	_	_	_	_
 14	часто	_	_	_	_	_	_	_	_
 15	прибегают	_	_	_	_	_	_	_	_
-16	Ян	_	_	_	_	_	_	_	bratT9=Person
+16	Ян	_	_	_	_	_	_	_	bratA7=T9:Male|bratT33=Person-surname|bratT9=Person
 17	и	_	_	_	_	_	_	_	_
 18	другие	_	_	_	_	_	_	_	_
 19	атлеты	_	_	_	_	_	_	_	bratT10=Person-property
@@ -157,7 +157,7 @@
 12	-	_	_	_	_	_	_	_	_
 13	поделился	_	_	_	_	_	_	_	_
 14	мнением	_	_	_	_	_	_	_	_
-15	Емельяненко	_	_	_	_	_	_	_	bratT15=Person
+15	Емельяненко	_	_	_	_	_	_	_	bratA8=T15:Male|bratT15=Person|bratT34=Person-surname
 16	в	_	_	_	_	_	_	_	_
 17	разговоре	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
@@ -176,13 +176,13 @@
 4	свой	_	_	_	_	_	_	_	_
 5	следующий	_	_	_	_	_	_	_	bratT8=Ordinal
 6	поединок	_	_	_	_	_	_	_	_
-7	Ян	_	_	_	_	_	_	_	bratT17=Person
+7	Ян	_	_	_	_	_	_	_	bratA9=T17:Male|bratT17=Person|bratT35=Person-surname
 8	проведет	_	_	_	_	_	_	_	_
 9	против	_	_	_	_	_	_	_	_
-10	претендента	_	_	_	_	_	_	_	_
-11	№1	_	_	_	_	_	_	_	bratT19=Ordinal
-12	Алджамейна	_	_	_	_	_	_	_	bratT18=Person
-13	Стерлинга	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+10	претендента	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT38=Person-property
+11	№1	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT19=Ordinal|bratT38=Person-property
+12	Алджамейна	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT36=Person-forename
+13	Стерлинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Male|bratT18=Person|bratT37=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0034-p6
@@ -190,11 +190,11 @@
 # sent_id = 0034-p6-s1
 # text = Ранее Емельяненко прокомментировал решение Хабиба Нурмагомедова завершить профессиональную карьеру.
 1	Ранее	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-relative
-2	Емельяненко	_	_	_	_	_	_	_	bratT20=Person
+2	Емельяненко	_	_	_	_	_	_	_	bratA11=T20:Male|bratT20=Person|bratT39=Person-surname
 3	прокомментировал	_	_	_	_	_	_	_	_
 4	решение	_	_	_	_	_	_	_	_
-5	Хабиба	_	_	_	_	_	_	_	bratT21=Person
-6	Нурмагомедова	_	_	_	_	_	_	_	bratT21=Person
+5	Хабиба	_	_	_	_	_	_	_	bratA12=T21:Male|bratT21=Person|bratT40=Person-forename
+6	Нурмагомедова	_	_	_	_	_	_	_	bratA12=T21:Male|bratT21=Person|bratT41=Person-surname
 7	завершить	_	_	_	_	_	_	_	_
 8	профессиональную	_	_	_	_	_	_	_	_
 9	карьеру	_	_	_	_	_	_	_	SpaceAfter=No

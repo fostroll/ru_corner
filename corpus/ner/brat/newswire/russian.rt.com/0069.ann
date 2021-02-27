@@ -5,7 +5,7 @@ T5	Person-property 346 360	директор   ОАО
 T7	Organization 412 444	Департамент   имущества   Москвы
 T8	GPE 438 444	Москвы
 T9	GPE 797 804	столицы
-T10	Money 874 904	превышает   600   млн   рублей
+T10	Money 886 904	600   млн   рублей
 T11	Organization 927 940	РИА   Новости
 A1	Media T11
 T12	Law 984 1007	ч.   4   ст.   159   УК
@@ -23,3 +23,13 @@ A2	Future T4
 A3	Past T4
 A4	Past T13
 A5	Past T19
+T21	GPE 36 47	московского
+T22	GPE 161 172	московского
+T23	Person-forename 280 285	Ирина
+T24	Person-surname 288 292	Волк
+T25	GPE 1192 1209	Северный   Кавказ
+A6	Female T18
+A7	Adjective T21
+A8	Adjective T22
+T26	Ordinal 989 990	4
+T27	Ordinal 999 1002	159

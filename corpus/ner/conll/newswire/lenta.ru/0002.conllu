@@ -3,7 +3,7 @@
 # par_text = Омский губернатор объяснил лечение коронавируса в Москве
 # sent_id = 0002-p1-s1
 # text = Омский губернатор объяснил лечение коронавируса в Москве
-1	Омский	_	_	_	_	_	_	_	bratT2=Person-property|bratT49=GPE
+1	Омский	_	_	_	_	_	_	_	bratA11=T49:Adjective|bratT2=Person-property|bratT49=GPE
 2	губернатор	_	_	_	_	_	_	_	bratT2=Person-property
 3	объяснил	_	_	_	_	_	_	_	_
 4	лечение	_	_	_	_	_	_	_	_
@@ -31,8 +31,8 @@
 14	нехватки	_	_	_	_	_	_	_	_
 15	мест	_	_	_	_	_	_	_	SpaceAfter=No
 16	,	_	_	_	_	_	_	_	_
-17	Александр	_	_	_	_	_	_	_	bratT50=Person-forename|bratT6=Person
-18	Бурков	_	_	_	_	_	_	_	bratT51=Person-surname|bratT6=Person
+17	Александр	_	_	_	_	_	_	_	bratA12=T6:Male|bratT50=Person-forename|bratT6=Person
+18	Бурков	_	_	_	_	_	_	_	bratA12=T6:Male|bratT51=Person-surname|bratT6=Person
 19	объяснил	_	_	_	_	_	_	_	_
 20	лечение	_	_	_	_	_	_	_	_
 21	коронавируса	_	_	_	_	_	_	_	bratT8=Other-term
@@ -135,7 +135,7 @@
 # par_text = Бурков отметил, что первая неделя была самая тяжелая, со второй он уже включился в работу в удаленном режиме.
 # sent_id = 0002-p5-s1
 # text = Бурков отметил, что первая неделя была самая тяжелая, со второй он уже включился в работу в удаленном режиме.
-1	Бурков	_	_	_	_	_	_	_	bratT17=Person|bratT52=Person-surname
+1	Бурков	_	_	_	_	_	_	_	bratA13=T17:Male|bratT17=Person|bratT52=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -164,7 +164,7 @@
 1	Ранее	_	_	_	_	_	_	_	bratA10=T48:Past|bratA7=T22:Past|bratT22=Date-absolute|bratT48=Date-relative
 2	в	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-absolute
 3	четверг	_	_	_	_	_	_	_	bratA7=T22:Past|bratT22=Date-absolute
-4	Бурков	_	_	_	_	_	_	_	bratT23=Person|bratT53=Person-surname
+4	Бурков	_	_	_	_	_	_	_	bratA14=T23:Male|bratT23=Person|bratT53=Person-surname
 5	назвал	_	_	_	_	_	_	_	_
 6	преступной	_	_	_	_	_	_	_	_
 7	халатностью	_	_	_	_	_	_	_	_
@@ -245,10 +245,10 @@
 6	отстранил	_	_	_	_	_	_	_	_
 7	от	_	_	_	_	_	_	_	_
 8	должности	_	_	_	_	_	_	_	_
-9	замминистра	_	_	_	_	_	_	_	bratT28=Person-property|bratT36=Person
-10	здравоохранения	_	_	_	_	_	_	_	bratT28=Person-property|bratT36=Person
-11	региона	_	_	_	_	_	_	_	bratT28=Person-property|bratT36=Person
-12	Анастасию	_	_	_	_	_	_	_	bratT36=Person|bratT54=Person-forename
-13	Малову	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person|bratT55=Person-surname
+9	замминистра	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person
+10	здравоохранения	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person
+11	региона	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person
+12	Анастасию	_	_	_	_	_	_	_	bratA15=T36:Male|bratT36=Person|bratT54=Person-forename
+13	Малову	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T36:Male|bratT36=Person|bratT55=Person-surname
 14	.	_	_	_	_	_	_	_	_
 

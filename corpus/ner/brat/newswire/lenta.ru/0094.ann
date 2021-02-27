@@ -1,7 +1,7 @@
 T1	Event 71 94	Великой   Отечественной
 T2	Event 168 199	Великой   Отечественной   войны
 T3	Event 1138 1169	Великая   Отечественная   война
-T4	Event 1263 1314	советско-немецкая   фаза   Второй   мировой   войны
+T4	Event 1263 1320	советско   -   немецкая   фаза   Второй   мировой   войны
 T5	Person-property 0 21	Украинских   учителей
 T6	Person-property 96 117	Украинских   учителей
 T7	Organization 247 295	Министерства   образования   и   науки   Украины
@@ -22,17 +22,17 @@ T22	Person-property 775 783	учителей
 T23	Person 986 993	Журавко
 T25	Event 1043 1084	советской   оккупации   1919-1991   годов
 T26	Person-property 1195 1217	украинским   педагогам
-T27	Person 1325 1332	Журавко
-T28	Organization 1363 1384	Минобрнауки   Украины
-T29	GPE 1377 1384	Украины
-T30	Person-property 1451 1460	педагогам
-T31	Person-property 1655 1663	учителей
+T27	Person 1331 1338	Журавко
+T28	Organization 1369 1390	Минобрнауки   Украины
+T29	GPE 1383 1390	Украины
+T30	Person-property 1457 1466	педагогам
+T31	Person-property 1661 1669	учителей
 T32	Other-term 538 544	Террор
 T33	Other-term 551 561	шизофрения
 A1	Media T12
-T18	Ordinal 1290 1296	Второй
+T18	Ordinal 1296 1302	Второй
 T24	Date-period-absolute 1028 1089	периоде   ``   советской   оккупации   1919-1991   годов   ''
-T34	Event 1290 1314	Второй   мировой   войны
+T34	Event 1296 1320	Второй   мировой   войны
 T35	GPE 0 10	Украинских
 T36	GPE 96 106	Украинских
 T37	GPE 829 839	украинскую
@@ -44,4 +44,21 @@ T42	Person-surname 520 527	Мандзий
 T43	Person-forename 733 741	Любомира
 T44	Person-surname 744 751	Мандзий
 T45	Person-surname 986 993	Журавко
-T46	Person-surname 1325 1332	Журавко
+T46	Person-surname 1331 1338	Журавко
+T47	GPE 1305 1312	мировой
+A2	Adjective T47
+A3	Adjective T35
+A4	Adjective T36
+A5	Male T11
+A6	Female T16
+A7	Female T21
+A8	Male T23
+A9	Adjective T38
+T49	GPE 1263 1271	советско
+A10	Adjective T49
+A11	Male T27
+A12	Adjective T37
+T50	GPE 1278 1286	немецкая
+A13	Adjective T50
+T51	GPE 1043 1052	советской
+A14	Adjective T51

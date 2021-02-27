@@ -3,7 +3,7 @@
 # par_text = Медведев о финале Итогового турнира ATP: матч получился потрясающим
 # sent_id = 0057-p1-s1
 # text = Медведев о финале Итогового турнира ATP: матч получился потрясающим
-1	Медведев	_	_	_	_	_	_	_	bratT1=Person|bratT38=Person-surname
+1	Медведев	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT38=Person-surname
 2	о	_	_	_	_	_	_	_	_
 3	финале	_	_	_	_	_	_	_	bratT2=Event
 4	Итогового	_	_	_	_	_	_	_	bratT18=Event|bratT2=Event
@@ -26,7 +26,7 @@
 6	прокомментировал	_	_	_	_	_	_	_	_
 7	победу	_	_	_	_	_	_	_	_
 8	над	_	_	_	_	_	_	_	_
-9	австрийцем	_	_	_	_	_	_	_	bratT23=Nationality
+9	австрийцем	_	_	_	_	_	_	_	bratA10=T23:Citizenship|bratT23=Nationality
 10	Домиником	_	_	_	_	_	_	_	bratT24=Person|bratT41=Person-forename
 11	Тимом	_	_	_	_	_	_	_	bratT24=Person|bratT42=Person-surname
 12	в	_	_	_	_	_	_	_	_
@@ -70,7 +70,7 @@
 # text = Поздравляю, Доминик, с тем, чего ты достиг за карьеру.
 1	Поздравляю	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	Доминик	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person|bratT43=Person-forename
+3	Доминик	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T3:Male|bratT3=Person|bratT43=Person-forename
 4	,	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	тем	_	_	_	_	_	_	_	SpaceAfter=No
@@ -140,7 +140,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	заявил	_	_	_	_	_	_	_	_
-11	Медведев	_	_	_	_	_	_	_	bratT4=Person|bratT44=Person-surname
+11	Медведев	_	_	_	_	_	_	_	bratA7=T4:Male|bratT4=Person|bratT44=Person-surname
 12	после	_	_	_	_	_	_	_	bratA3=T35:Past|bratT35=Date-absolute
 13	матча	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T35:Past|bratT35=Date-absolute|bratT37=Event
 14	.	_	_	_	_	_	_	_	_
@@ -166,7 +166,7 @@
 15	6:4	_	_	_	_	_	_	_	bratT10=Quantity
 16	в	_	_	_	_	_	_	_	_
 17	пользу	_	_	_	_	_	_	_	_
-18	Даниила	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT45=Person-forename
+18	Даниила	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T11:Male|bratT11=Person|bratT45=Person-forename
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0057-p5
@@ -177,7 +177,7 @@
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	Медведев	_	_	_	_	_	_	_	bratT12=Person|bratT46=Person-surname
+5	Медведев	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT46=Person-surname
 6	стал	_	_	_	_	_	_	_	_
 7	вторым	_	_	_	_	_	_	_	bratT33=Ordinal
 8	россиянином	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Citizenship|bratT13=Nationality

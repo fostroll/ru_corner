@@ -17,16 +17,16 @@
 # par_text = Заместитель директора по клинико-аналитической работе ЦНИИ эпидемиологии Роспотребнадзора Наталья Пшеничная назвала «самый грозный симптом» COVID-19, сообщает ТАСС.
 # sent_id = 0098-p2-s1
 # text = Заместитель директора по клинико-аналитической работе ЦНИИ эпидемиологии Роспотребнадзора Наталья Пшеничная назвала ``самый грозный симптом'' COVID-19, сообщает ТАСС.
-1	Заместитель	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-2	директора	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-3	по	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-4	клинико-аналитической	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-5	работе	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-6	ЦНИИ	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property|bratT6=Person
-7	эпидемиологии	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property|bratT6=Person
-8	Роспотребнадзора	_	_	_	_	_	_	_	bratT3=Organization|bratT4=Organization|bratT5=Person-property|bratT6=Person
-9	Наталья	_	_	_	_	_	_	_	bratT6=Person
-10	Пшеничная	_	_	_	_	_	_	_	bratT6=Person
+1	Заместитель	_	_	_	_	_	_	_	bratA3=T6:Female|bratT5=Person-property|bratT6=Person
+2	директора	_	_	_	_	_	_	_	bratA3=T6:Female|bratT5=Person-property|bratT6=Person
+3	по	_	_	_	_	_	_	_	bratA3=T6:Female|bratT5=Person-property|bratT6=Person
+4	клинико-аналитической	_	_	_	_	_	_	_	bratA3=T6:Female|bratT5=Person-property|bratT6=Person
+5	работе	_	_	_	_	_	_	_	bratA3=T6:Female|bratT5=Person-property|bratT6=Person
+6	ЦНИИ	_	_	_	_	_	_	_	bratA3=T6:Female|bratT4=Organization|bratT5=Person-property|bratT6=Person
+7	эпидемиологии	_	_	_	_	_	_	_	bratA3=T6:Female|bratT4=Organization|bratT5=Person-property|bratT6=Person
+8	Роспотребнадзора	_	_	_	_	_	_	_	bratA3=T6:Female|bratT3=Organization|bratT4=Organization|bratT5=Person-property|bratT6=Person
+9	Наталья	_	_	_	_	_	_	_	bratA3=T6:Female|bratT22=Person-forename|bratT6=Person
+10	Пшеничная	_	_	_	_	_	_	_	bratA3=T6:Female|bratT23=Person-surname|bratT6=Person
 11	назвала	_	_	_	_	_	_	_	_
 12	``	_	_	_	_	_	_	_	SpaceAfter=No
 13	самый	_	_	_	_	_	_	_	_
@@ -58,7 +58,7 @@
 13	,	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
 15	сказала	_	_	_	_	_	_	_	_
-16	Пшеничная	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person
+16	Пшеничная	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Female|bratT24=Person-surname|bratT9=Person
 17	,	_	_	_	_	_	_	_	_
 18	отметив	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
@@ -122,7 +122,7 @@
 18	заболеваниях	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	добавила	_	_	_	_	_	_	_	_
-21	Пшеничная	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person
+21	Пшеничная	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Female|bratT13=Person|bratT25=Person-surname
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p5

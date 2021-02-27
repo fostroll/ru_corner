@@ -19,10 +19,10 @@
 # par_text = Премьер-министр Армении Никол Пашинян заявил, что подписанный лидерами России, Армении и Азербайджана документ по прекращению боевых действий в Нагорном Карабахе не предполагает окончательного решения вопроса урегулирования конфликта. Об этом глава армянского правительства сообщил в четверг, 12 ноября, во время своего обращения к нации.
 # sent_id = 0108-p2-s1
 # text = Премьер-министр Армении Никол Пашинян заявил, что подписанный лидерами России, Армении и Азербайджана документ по прекращению боевых действий в Нагорном Карабахе не предполагает окончательного решения вопроса урегулирования конфликта.
-1	Премьер-министр	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-2	Армении	_	_	_	_	_	_	_	bratT4=GPE|bratT5=Person-property|bratT6=Person
-3	Никол	_	_	_	_	_	_	_	bratT33=Person-forename|bratT6=Person
-4	Пашинян	_	_	_	_	_	_	_	bratT34=Person-surname|bratT6=Person
+1	Премьер-министр	_	_	_	_	_	_	_	bratA8=T6:Male|bratT5=Person-property|bratT6=Person
+2	Армении	_	_	_	_	_	_	_	bratA8=T6:Male|bratT4=GPE|bratT5=Person-property|bratT6=Person
+3	Никол	_	_	_	_	_	_	_	bratA8=T6:Male|bratT33=Person-forename|bratT6=Person
+4	Пашинян	_	_	_	_	_	_	_	bratA8=T6:Male|bratT34=Person-surname|bratT6=Person
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -55,7 +55,7 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	глава	_	_	_	_	_	_	_	bratT13=Person-property
-4	армянского	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Person-property
+4	армянского	_	_	_	_	_	_	_	bratA11=T39:Adjective|bratT12=Organization|bratT13=Person-property|bratT39=GPE
 5	правительства	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Person-property
 6	сообщил	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
@@ -123,8 +123,8 @@
 17	объяснил	_	_	_	_	_	_	_	_
 18	свое	_	_	_	_	_	_	_	_
 19	мнение	_	_	_	_	_	_	_	_
-20	Никол	_	_	_	_	_	_	_	bratT16=Person|bratT35=Person-forename
-21	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT36=Person-surname
+20	Никол	_	_	_	_	_	_	_	bratA9=T16:Male|bratT16=Person|bratT35=Person-forename
+21	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Male|bratT16=Person|bratT36=Person-surname
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0108-p4
@@ -166,8 +166,8 @@
 3	сайт	_	_	_	_	_	_	_	bratA1=T23:Media|bratT23=Service
 4	Kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratA3=T31:Media|bratT23=Service|bratT31=Organization
 5	,	_	_	_	_	_	_	_	_
-6	Никол	_	_	_	_	_	_	_	bratT24=Person|bratT37=Person-forename
-7	Пашинян	_	_	_	_	_	_	_	bratT24=Person|bratT38=Person-surname
+6	Никол	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT37=Person-forename
+7	Пашинян	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT38=Person-surname
 8	объяснил	_	_	_	_	_	_	_	_
 9	свое	_	_	_	_	_	_	_	_
 10	решение	_	_	_	_	_	_	_	_

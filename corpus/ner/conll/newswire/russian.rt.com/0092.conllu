@@ -3,7 +3,7 @@
 # par_text = Набиуллина прокомментировала ситуацию в экономике
 # sent_id = 0092-p1-s1
 # text = Набиуллина прокомментировала ситуацию в экономике
-1	Набиуллина	_	_	_	_	_	_	_	bratT1=Person
+1	Набиуллина	_	_	_	_	_	_	_	bratA7=T1:Female|bratT1=Person|bratT20=Person-surname
 2	прокомментировала	_	_	_	_	_	_	_	_
 3	ситуацию	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
@@ -27,10 +27,10 @@
 12	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Future|bratT11=Date-absolute
 13	,	_	_	_	_	_	_	_	_
 14	заявила	_	_	_	_	_	_	_	_
-15	глава	_	_	_	_	_	_	_	bratT12=Person-property|bratT14=Person
-16	ЦБ	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Organization|bratT14=Person
-17	Эльвира	_	_	_	_	_	_	_	bratT14=Person
-18	Набиуллина	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person
+15	глава	_	_	_	_	_	_	_	bratA9=T14:Female|bratT12=Person-property|bratT14=Person
+16	ЦБ	_	_	_	_	_	_	_	bratA9=T14:Female|bratT12=Person-property|bratT13=Organization|bratT14=Person
+17	Эльвира	_	_	_	_	_	_	_	bratA9=T14:Female|bratT14=Person|bratT21=Person-forename
+18	Набиуллина	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T14:Female|bratT14=Person|bratT22=Person-surname
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0092-p3
@@ -53,7 +53,7 @@
 14	РИА	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization
 15	Новости	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization
 16	слова	_	_	_	_	_	_	_	_
-17	Набиуллиной	_	_	_	_	_	_	_	bratT4=Person
+17	Набиуллиной	_	_	_	_	_	_	_	bratA10=T4:Female|bratT23=Person-surname|bratT4=Person
 18	во	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
 19	время	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
 20	выступления	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
@@ -71,7 +71,7 @@
 4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
 5	,	_	_	_	_	_	_	_	_
 6	спад	_	_	_	_	_	_	_	_
-7	российской	_	_	_	_	_	_	_	_
+7	российской	_	_	_	_	_	_	_	bratA11=T24:Adjective|bratT24=GPE
 8	экономики	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	bratA2=T19:Past-Fut|bratT19=Date-period-absolute
 10	текущем	_	_	_	_	_	_	_	bratA2=T19:Past-Fut|bratT18=Ordinal|bratT19=Date-period-absolute

@@ -18,7 +18,7 @@
 # par_text = Всемирная организация здравоохранения (ВОЗ) подтвердила восприимчивость норок к коронавирусу, что делает их опасными для людей. Об этом заявила официальный представитель ВОЗ Кэтрин Смолвуд, комментируя подобные случаи заражения в Дании, в ходе трансляции в Facebook.
 # sent_id = 0036-p2-s1
 # text = Всемирная организация здравоохранения (ВОЗ) подтвердила восприимчивость норок к коронавирусу, что делает их опасными для людей.
-1	Всемирная	_	_	_	_	_	_	_	bratT3=Organization
+1	Всемирная	_	_	_	_	_	_	_	bratA6=T39:Adjective|bratT3=Organization|bratT39=GPE
 2	организация	_	_	_	_	_	_	_	bratT3=Organization
 3	здравоохранения	_	_	_	_	_	_	_	bratT3=Organization
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
@@ -43,11 +43,11 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявила	_	_	_	_	_	_	_	_
-4	официальный	_	_	_	_	_	_	_	bratT6=Person-property|bratT8=Person
-5	представитель	_	_	_	_	_	_	_	bratT6=Person-property|bratT8=Person
-6	ВОЗ	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization|bratT8=Person
-7	Кэтрин	_	_	_	_	_	_	_	bratT35=Person-forename|bratT8=Person
-8	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-surname|bratT8=Person
+4	официальный	_	_	_	_	_	_	_	bratA7=T8:Female|bratT6=Person-property|bratT8=Person
+5	представитель	_	_	_	_	_	_	_	bratA7=T8:Female|bratT6=Person-property|bratT8=Person
+6	ВОЗ	_	_	_	_	_	_	_	bratA7=T8:Female|bratT6=Person-property|bratT7=Organization|bratT8=Person
+7	Кэтрин	_	_	_	_	_	_	_	bratA7=T8:Female|bratT35=Person-forename|bratT8=Person
+8	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Female|bratT36=Person-surname|bratT8=Person
 9	,	_	_	_	_	_	_	_	_
 10	комментируя	_	_	_	_	_	_	_	_
 11	подобные	_	_	_	_	_	_	_	_
@@ -120,7 +120,7 @@
 # sent_id = 0036-p4-s1
 # text = ``Датские власти довольно быстро начали предпринимать различные действия, включая уничтожение большой, а на самом деле всей популяции норки в Дании.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Датские	_	_	_	_	_	_	_	bratT34=GPE
+2	Датские	_	_	_	_	_	_	_	bratA8=T34:Adjective|bratT34=GPE
 3	власти	_	_	_	_	_	_	_	_
 4	довольно	_	_	_	_	_	_	_	_
 5	быстро	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
 21	добавила	_	_	_	_	_	_	_	_
-22	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT37=Person-surname
+22	Смолвуд	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T14:Female|bratT14=Person|bratT37=Person-surname
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0036-p5

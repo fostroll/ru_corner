@@ -38,17 +38,17 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	_
-4	главный	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-5	внештатный	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-6	специалист-диетолог	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-7	российского	_	_	_	_	_	_	_	bratT15=Organization|bratT3=Person|bratT4=Person-property
-8	министерства	_	_	_	_	_	_	_	bratT15=Organization|bratT3=Person|bratT4=Person-property
-9	здравоохранения	_	_	_	_	_	_	_	bratT15=Organization|bratT3=Person|bratT4=Person-property
-10	и	_	_	_	_	_	_	_	bratT3=Person
-11	академик	_	_	_	_	_	_	_	bratT3=Person|bratT5=Person-property
-12	РАН	_	_	_	_	_	_	_	bratT16=Organization|bratT3=Person|bratT5=Person-property
-13	Виктор	_	_	_	_	_	_	_	bratT3=Person|bratT7=Person-forename
-14	Тутельян	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-surname|bratT3=Person
+4	главный	_	_	_	_	_	_	_	bratA3=T3:Male|bratT3=Person|bratT4=Person-property
+5	внештатный	_	_	_	_	_	_	_	bratA3=T3:Male|bratT3=Person|bratT4=Person-property
+6	специалист-диетолог	_	_	_	_	_	_	_	bratA3=T3:Male|bratT3=Person|bratT4=Person-property
+7	российского	_	_	_	_	_	_	_	bratA3=T3:Male|bratA6=T30:Adjective|bratT15=Organization|bratT3=Person|bratT30=GPE|bratT4=Person-property
+8	министерства	_	_	_	_	_	_	_	bratA3=T3:Male|bratT15=Organization|bratT3=Person|bratT4=Person-property
+9	здравоохранения	_	_	_	_	_	_	_	bratA3=T3:Male|bratT15=Organization|bratT3=Person|bratT4=Person-property
+10	и	_	_	_	_	_	_	_	bratA3=T3:Male|bratT3=Person
+11	академик	_	_	_	_	_	_	_	bratA3=T3:Male|bratT3=Person|bratT5=Person-property
+12	РАН	_	_	_	_	_	_	_	bratA3=T3:Male|bratT16=Organization|bratT3=Person|bratT5=Person-property
+13	Виктор	_	_	_	_	_	_	_	bratA3=T3:Male|bratT3=Person|bratT7=Person-forename
+14	Тутельян	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T3:Male|bratT25=Person-surname|bratT3=Person
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0017-p3
@@ -119,8 +119,8 @@
 # par_text = Виктор Тутельян отметил, что для похудения также потребуются значительная сила воли и занятия физической активностью. Он добавил, что неплохим закрепленным результатом можно считать похудение на три килограмма за месяц.
 # sent_id = 0017-p4-s1
 # text = Виктор Тутельян отметил, что для похудения также потребуются значительная сила воли и занятия физической активностью.
-1	Виктор	_	_	_	_	_	_	_	bratT26=Person-forename|bratT8=Person
-2	Тутельян	_	_	_	_	_	_	_	bratT27=Person-surname|bratT8=Person
+1	Виктор	_	_	_	_	_	_	_	bratA4=T8:Male|bratT26=Person-forename|bratT8=Person
+2	Тутельян	_	_	_	_	_	_	_	bratA4=T8:Male|bratT27=Person-surname|bratT8=Person
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -218,15 +218,15 @@
 3	популярный	_	_	_	_	_	_	_	_
 4	среди	_	_	_	_	_	_	_	_
 5	знаменитостей	_	_	_	_	_	_	_	_
-6	диетолог	_	_	_	_	_	_	_	bratT13=Person
-7	Пьер	_	_	_	_	_	_	_	bratT13=Person|bratT28=Person-forename
-8	Дюкан	_	_	_	_	_	_	_	bratT13=Person|bratT29=Person-surname
+6	диетолог	_	_	_	_	_	_	_	bratA5=T13:Male|bratT13=Person
+7	Пьер	_	_	_	_	_	_	_	bratA5=T13:Male|bratT13=Person|bratT28=Person-forename
+8	Дюкан	_	_	_	_	_	_	_	bratA5=T13:Male|bratT13=Person|bratT29=Person-surname
 9	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
 12	любит	_	_	_	_	_	_	_	_
 13	традиционную	_	_	_	_	_	_	_	_
-14	русскую	_	_	_	_	_	_	_	_
+14	русскую	_	_	_	_	_	_	_	bratA7=T31:Adjective|bratT31=Nationality
 15	кухню	_	_	_	_	_	_	_	SpaceAfter=No
 16	:	_	_	_	_	_	_	_	_
 17	эксперту	_	_	_	_	_	_	_	bratT20=Person-property

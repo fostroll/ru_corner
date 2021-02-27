@@ -6,7 +6,7 @@
 1	У	_	_	_	_	_	_	_	_
 2	главного	_	_	_	_	_	_	_	bratT1=Person-property
 3	адвоката	_	_	_	_	_	_	_	bratT1=Person-property
-4	Трампа	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Person
+4	Трампа	_	_	_	_	_	_	_	bratA2=T2:Male|bratT1=Person-property|bratT17=Person-surname|bratT2=Person
 5	не	_	_	_	_	_	_	_	_
 6	подтвердился	_	_	_	_	_	_	_	_
 7	коронавирус	_	_	_	_	_	_	_	bratT3=Other-term
@@ -15,13 +15,13 @@
 # par_text = Адвокат президента США Дональда Трампа Рудольф Джулиани сдал отрицательный тест на заболевание коронавирусом.
 # sent_id = 0096-p2-s1
 # text = Адвокат президента США Дональда Трампа Рудольф Джулиани сдал отрицательный тест на заболевание коронавирусом.
-1	Адвокат	_	_	_	_	_	_	_	bratT11=Person-property|bratT15=Person
-2	президента	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person-property|bratT14=Person|bratT15=Person
-3	США	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person-property|bratT13=GPE|bratT14=Person|bratT15=Person
-4	Дональда	_	_	_	_	_	_	_	bratT11=Person-property|bratT14=Person|bratT15=Person
-5	Трампа	_	_	_	_	_	_	_	bratT11=Person-property|bratT14=Person|bratT15=Person
-6	Рудольф	_	_	_	_	_	_	_	bratT15=Person
-7	Джулиани	_	_	_	_	_	_	_	bratT15=Person
+1	Адвокат	_	_	_	_	_	_	_	bratA4=T15:Male|bratT11=Person-property|bratT15=Person
+2	президента	_	_	_	_	_	_	_	bratA3=T14:Male|bratA4=T15:Male|bratT11=Person-property|bratT12=Person-property|bratT14=Person|bratT15=Person
+3	США	_	_	_	_	_	_	_	bratA3=T14:Male|bratA4=T15:Male|bratT11=Person-property|bratT12=Person-property|bratT13=GPE|bratT14=Person|bratT15=Person
+4	Дональда	_	_	_	_	_	_	_	bratA3=T14:Male|bratA4=T15:Male|bratT11=Person-property|bratT14=Person|bratT15=Person|bratT18=Person-forename
+5	Трампа	_	_	_	_	_	_	_	bratA3=T14:Male|bratA4=T15:Male|bratT11=Person-property|bratT14=Person|bratT15=Person|bratT19=Person-surname
+6	Рудольф	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT20=Person-forename
+7	Джулиани	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT21=Person-surname
 8	сдал	_	_	_	_	_	_	_	_
 9	отрицательный	_	_	_	_	_	_	_	_
 10	тест	_	_	_	_	_	_	_	_
@@ -42,18 +42,18 @@
 6	COVID-19	_	_	_	_	_	_	_	bratT4=Other-term
 7	и	_	_	_	_	_	_	_	_
 8	теста	_	_	_	_	_	_	_	_
-9	Руди	_	_	_	_	_	_	_	bratT5=Person
-10	Джулиани	_	_	_	_	_	_	_	bratT5=Person
+9	Руди	_	_	_	_	_	_	_	bratA5=T5:Male|bratT22=Person-forename|bratT5=Person
+10	Джулиани	_	_	_	_	_	_	_	bratA5=T5:Male|bratT23=Person-surname|bratT5=Person
 11	отрицательный	_	_	_	_	_	_	_	SpaceAfter=No
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
 15	написала	_	_	_	_	_	_	_	_
-16	советник	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-17	штаба	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT9=Organization
-18	Трампа	_	_	_	_	_	_	_	bratT10=Person|bratT6=Person|bratT7=Person-property|bratT9=Organization
-19	Дженна	_	_	_	_	_	_	_	bratT6=Person
-20	Эллис	_	_	_	_	_	_	_	bratT6=Person
+16	советник	_	_	_	_	_	_	_	bratA6=T6:Female|bratT6=Person|bratT7=Person-property
+17	штаба	_	_	_	_	_	_	_	bratA6=T6:Female|bratT6=Person|bratT7=Person-property|bratT9=Organization
+18	Трампа	_	_	_	_	_	_	_	bratA6=T6:Female|bratT10=Person|bratT6=Person|bratT7=Person-property|bratT9=Organization
+19	Дженна	_	_	_	_	_	_	_	bratA6=T6:Female|bratT24=Person-forename|bratT6=Person
+20	Эллис	_	_	_	_	_	_	_	bratA6=T6:Female|bratT25=Person-surname|bratT6=Person
 21	в	_	_	_	_	_	_	_	_
 22	своём	_	_	_	_	_	_	_	_
 23	Twitter	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Media|bratT8=Service

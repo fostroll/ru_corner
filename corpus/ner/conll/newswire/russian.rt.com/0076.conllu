@@ -3,7 +3,7 @@
 # par_text = Шойгу прибыл в Ереван в составе делегации
 # sent_id = 0076-p1-s1
 # text = Шойгу прибыл в Ереван в составе делегации
-1	Шойгу	_	_	_	_	_	_	_	bratT1=Person
+1	Шойгу	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT24=Person-surname
 2	прибыл	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	Ереван	_	_	_	_	_	_	_	bratT2=GPE
@@ -15,15 +15,15 @@
 # par_text = Министр обороны России Сергей Шойгу прибыл в столицу Армении в составе межведомственной делегации.
 # sent_id = 0076-p2-s1
 # text = Министр обороны России Сергей Шойгу прибыл в столицу Армении в составе межведомственной делегации.
-1	Министр	_	_	_	_	_	_	_	bratT17=Person-property|bratT19=Person
-2	обороны	_	_	_	_	_	_	_	bratT17=Person-property|bratT19=Person
-3	России	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=GPE|bratT19=Person
-4	Сергей	_	_	_	_	_	_	_	bratT19=Person
-5	Шойгу	_	_	_	_	_	_	_	bratT19=Person
+1	Министр	_	_	_	_	_	_	_	bratA5=T19:Male|bratT17=Person-property|bratT19=Person
+2	обороны	_	_	_	_	_	_	_	bratA5=T19:Male|bratT17=Person-property|bratT19=Person
+3	России	_	_	_	_	_	_	_	bratA5=T19:Male|bratT17=Person-property|bratT18=GPE|bratT19=Person
+4	Сергей	_	_	_	_	_	_	_	bratA5=T19:Male|bratT19=Person|bratT25=Person-forename
+5	Шойгу	_	_	_	_	_	_	_	bratA5=T19:Male|bratT19=Person|bratT26=Person-surname
 6	прибыл	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	столицу	_	_	_	_	_	_	_	bratT20=GPE
-9	Армении	_	_	_	_	_	_	_	bratT20=GPE
+9	Армении	_	_	_	_	_	_	_	bratT20=GPE|bratT36=GPE
 10	в	_	_	_	_	_	_	_	_
 11	составе	_	_	_	_	_	_	_	_
 12	межведомственной	_	_	_	_	_	_	_	_
@@ -50,8 +50,8 @@
 # sent_id = 0076-p4-s1
 # text = ``Сергей Шойгу прибыл в Ереван.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Сергей	_	_	_	_	_	_	_	bratT6=Person
-3	Шойгу	_	_	_	_	_	_	_	bratT6=Person
+2	Сергей	_	_	_	_	_	_	_	bratA6=T6:Male|bratT27=Person-forename|bratT6=Person
+3	Шойгу	_	_	_	_	_	_	_	bratA6=T6:Male|bratT28=Person-surname|bratT6=Person
 4	прибыл	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	Ереван	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
@@ -61,21 +61,21 @@
 # text = Ожидается прибытие министра иностранных дел Сергея Лаврова, а также вице-премьеров России Александра Новака, Алексея Оверчука и других'', - сказал он.
 1	Ожидается	_	_	_	_	_	_	_	_
 2	прибытие	_	_	_	_	_	_	_	_
-3	министра	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-4	иностранных	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-5	дел	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-6	Сергея	_	_	_	_	_	_	_	bratT8=Person
-7	Лаврова	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person
+3	министра	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+4	иностранных	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+5	дел	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+6	Сергея	_	_	_	_	_	_	_	bratA7=T8:Male|bratT29=Person-forename|bratT8=Person
+7	Лаврова	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Male|bratT30=Person-surname|bratT8=Person
 8	,	_	_	_	_	_	_	_	_
 9	а	_	_	_	_	_	_	_	_
 10	также	_	_	_	_	_	_	_	_
 11	вице-премьеров	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT11=Person-property
 12	России	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT11=Person-property|bratT12=GPE
-13	Александра	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT22=Person
-14	Новака	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Plural|bratT10=Person|bratT22=Person
+13	Александра	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA8=T22:Male|bratT10=Person|bratT22=Person|bratT31=Person-forename
+14	Новака	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Plural|bratA8=T22:Male|bratT10=Person|bratT22=Person|bratT32=Person-surname
 15	,	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person
-16	Алексея	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT23=Person
-17	Оверчука	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT23=Person
+16	Алексея	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA9=T23:Male|bratT10=Person|bratT23=Person|bratT33=Person-forename
+17	Оверчука	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA9=T23:Male|bratT10=Person|bratT23=Person|bratT34=Person-surname
 18	и	_	_	_	_	_	_	_	_
 19	других	_	_	_	_	_	_	_	SpaceAfter=No
 20	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -96,7 +96,7 @@
 5	заявили	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	российская	_	_	_	_	_	_	_	_
+8	российская	_	_	_	_	_	_	_	bratA10=T35:Adjective|bratT35=GPE
 9	межведомственная	_	_	_	_	_	_	_	_
 10	делегация	_	_	_	_	_	_	_	_
 11	посетит	_	_	_	_	_	_	_	_

@@ -18,12 +18,12 @@
 # par_text = Петербургский «Зенит» уступил итальянскому «Лацио» в четвертом туре Лиги чемпионов.
 # sent_id = 0099-p2-s1
 # text = Петербургский ``Зенит'' уступил итальянскому ``Лацио'' в четвертом туре Лиги чемпионов.
-1	Петербургский	_	_	_	_	_	_	_	bratT4=Organization
+1	Петербургский	_	_	_	_	_	_	_	bratA16=T70:Adjective|bratT4=Organization|bratT70=GPE
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
 3	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
 4	''	_	_	_	_	_	_	_	bratT4=Organization
 5	уступил	_	_	_	_	_	_	_	_
-6	итальянскому	_	_	_	_	_	_	_	bratT5=Organization
+6	итальянскому	_	_	_	_	_	_	_	bratA17=T71:Adjective|bratT5=Organization|bratT71=GPE
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
 8	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
 9	''	_	_	_	_	_	_	_	bratT5=Organization
@@ -58,7 +58,7 @@
 2	в	_	_	_	_	_	_	_	_
 3	матче	_	_	_	_	_	_	_	_
 4	открыл	_	_	_	_	_	_	_	_
-5	итальянский	_	_	_	_	_	_	_	_
+5	итальянский	_	_	_	_	_	_	_	bratA18=T72:Adjective|bratT72=GPE
 6	клуб	_	_	_	_	_	_	_	_
 7	уже	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	bratA2=T10:Past|bratT10=Date-absolute
@@ -67,8 +67,8 @@
 11	игры	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Past|bratT10=Date-absolute
 12	,	_	_	_	_	_	_	_	_
 13	отличился	_	_	_	_	_	_	_	_
-14	Чиро	_	_	_	_	_	_	_	bratT11=Person
-15	Иммобиле	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
+14	Чиро	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT59=Person-forename
+15	Иммобиле	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T11:Male|bratT11=Person|bratT60=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0099-p4-s2
@@ -76,8 +76,8 @@
 1	На	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-relative
 2	22-й	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-relative|bratT54=Ordinal
 3	минуте	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-relative
-4	Марко	_	_	_	_	_	_	_	bratT45=Person
-5	Пароло	_	_	_	_	_	_	_	bratT45=Person
+4	Марко	_	_	_	_	_	_	_	bratA9=T45:Male|bratT45=Person|bratT61=Person-forename
+5	Пароло	_	_	_	_	_	_	_	bratA9=T45:Male|bratT45=Person|bratT62=Person-surname
 6	удвоил	_	_	_	_	_	_	_	_
 7	счет	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
@@ -85,13 +85,13 @@
 10	через	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-relative
 11	три	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-relative|bratT57=Duration
 12	минуты	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-relative|bratT57=Duration
-13	Артем	_	_	_	_	_	_	_	bratT47=Person
-14	Дзюба	_	_	_	_	_	_	_	bratT47=Person
+13	Артем	_	_	_	_	_	_	_	bratA10=T47:Male|bratT47=Person|bratT63=Person-forename
+14	Дзюба	_	_	_	_	_	_	_	bratA10=T47:Male|bratT47=Person|bratT64=Person-surname
 15	сумел	_	_	_	_	_	_	_	_
 16	отыграть	_	_	_	_	_	_	_	_
 17	один	_	_	_	_	_	_	_	bratT48=Quantity
 18	мяч	_	_	_	_	_	_	_	bratT48=Quantity
-19	петербургской	_	_	_	_	_	_	_	_
+19	петербургской	_	_	_	_	_	_	_	bratA19=T73:Adjective|bratT73=GPE
 20	команды	_	_	_	_	_	_	_	SpaceAfter=No
 21	.	_	_	_	_	_	_	_	_
 
@@ -102,7 +102,7 @@
 1	На	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-relative
 2	55-й	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-relative|bratT52=Ordinal
 3	минуте	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-relative
-4	Иммобиле	_	_	_	_	_	_	_	bratT13=Person
+4	Иммобиле	_	_	_	_	_	_	_	bratA11=T13:Male|bratT13=Person|bratT65=Person-surname
 5	оформил	_	_	_	_	_	_	_	_
 6	дубль	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
@@ -169,7 +169,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
-6	Краснодар	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
+6	Краснодар	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization|bratT58=GPE
 7	''	_	_	_	_	_	_	_	bratT22=Organization
 8	потерял	_	_	_	_	_	_	_	_
 9	шансы	_	_	_	_	_	_	_	_
@@ -217,29 +217,29 @@
 2	:	_	_	_	_	_	_	_	_
 3	1:0	_	_	_	_	_	_	_	bratT33=Quantity
 4	-	_	_	_	_	_	_	_	_
-5	Иммобиле	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person
+5	Иммобиле	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T34:Male|bratT34=Person|bratT66=Person-surname
 6	,	_	_	_	_	_	_	_	_
-7	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity
+7	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Ordinal
 8	;	_	_	_	_	_	_	_	_
 9	2:0	_	_	_	_	_	_	_	bratT35=Quantity
 10	-	_	_	_	_	_	_	_	_
-11	Пароло	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person
+11	Пароло	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T36:Male|bratT36=Person|bratT67=Person-surname
 12	,	_	_	_	_	_	_	_	_
-13	22	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Quantity
+13	22	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Ordinal
 14	;	_	_	_	_	_	_	_	_
 15	2:1	_	_	_	_	_	_	_	bratT37=Quantity
 16	-	_	_	_	_	_	_	_	_
-17	Дзюба	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person
+17	Дзюба	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T38:Male|bratT38=Person|bratT68=Person-surname
 18	,	_	_	_	_	_	_	_	_
-19	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Quantity
+19	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Ordinal
 20	;	_	_	_	_	_	_	_	_
 21	3:1	_	_	_	_	_	_	_	bratT42=Quantity
 22	-	_	_	_	_	_	_	_	_
-23	Иммобиле	_	_	_	_	_	_	_	bratT43=Person
+23	Иммобиле	_	_	_	_	_	_	_	bratA15=T43:Male|bratT43=Person|bratT69=Person-surname
 24	(	_	_	_	_	_	_	_	SpaceAfter=No
 25	пенальти	_	_	_	_	_	_	_	SpaceAfter=No
 26	)	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
-28	55	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Cardinal
+28	55	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Ordinal
 29	.	_	_	_	_	_	_	_	_
 

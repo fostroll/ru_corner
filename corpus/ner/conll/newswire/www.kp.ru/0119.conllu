@@ -11,10 +11,10 @@
 6	пресекла	_	_	_	_	_	_	_	_
 7	попытку	_	_	_	_	_	_	_	_
 8	убийства	_	_	_	_	_	_	_	_
-9	премьер-министра	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property
-10	страны	_	_	_	_	_	_	_	bratT26=Person|bratT27=Person-property
-11	Никола	_	_	_	_	_	_	_	bratT26=Person|bratT34=Person-forename
-12	Пашиняна	_	_	_	_	_	_	_	bratT26=Person|bratT35=Person-surname
+9	премьер-министра	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT27=Person-property
+10	страны	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT27=Person-property
+11	Никола	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT34=Person-forename
+12	Пашиняна	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT35=Person-surname
 
 # newpar id = 0119-p2
 # par_text = Служба национальной безопасности Армении заявила, что пресекла попытку убийства премьер-министра страны Никола Пашиняна
@@ -30,10 +30,10 @@
 8	пресекла	_	_	_	_	_	_	_	_
 9	попытку	_	_	_	_	_	_	_	_
 10	убийства	_	_	_	_	_	_	_	_
-11	премьер-министра	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
-12	страны	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person-property
-13	Никола	_	_	_	_	_	_	_	bratT36=Person-forename|bratT5=Person
-14	Пашиняна	_	_	_	_	_	_	_	bratT37=Person-surname|bratT5=Person
+11	премьер-министра	_	_	_	_	_	_	_	bratA4=T5:Male|bratT5=Person|bratT6=Person-property
+12	страны	_	_	_	_	_	_	_	bratA4=T5:Male|bratT5=Person|bratT6=Person-property
+13	Никола	_	_	_	_	_	_	_	bratA4=T5:Male|bratT36=Person-forename|bratT5=Person
+14	Пашиняна	_	_	_	_	_	_	_	bratA4=T5:Male|bratT37=Person-surname|bratT5=Person
 
 # newpar id = 0119-p3
 # par_text = Как сообщили в СНБ, по подозрению в подготовке покушения на главу правительства задержаны бывший глава Службы национальной безопасности Армении и лидер партии «Отечество» Артур Ванецян, бывший руководитель парламентской фракции Республиканской партии Ваграм Багдасарян, член партии «Дашнакцутюн», командир добровольческого отряда.
@@ -53,29 +53,29 @@
 12	главу	_	_	_	_	_	_	_	bratT8=Person-property
 13	правительства	_	_	_	_	_	_	_	bratT8=Person-property
 14	задержаны	_	_	_	_	_	_	_	_
-15	бывший	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-16	глава	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-17	Службы	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT9=Person
-18	национальной	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT9=Person
-19	безопасности	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT9=Person
-20	Армении	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT12=GPE|bratT9=Person
-21	и	_	_	_	_	_	_	_	bratT9=Person
-22	лидер	_	_	_	_	_	_	_	bratT28=Person-property|bratT9=Person
-23	партии	_	_	_	_	_	_	_	bratT13=Organization|bratT28=Person-property|bratT9=Person
-24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT28=Person-property|bratT9=Person
-25	Отечество	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT28=Person-property|bratT9=Person
-26	''	_	_	_	_	_	_	_	bratT13=Organization|bratT28=Person-property|bratT9=Person
-27	Артур	_	_	_	_	_	_	_	bratT38=Person-forename|bratT9=Person
-28	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-surname|bratT9=Person
+15	бывший	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT9=Person
+16	глава	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT9=Person
+17	Службы	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
+18	национальной	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
+19	безопасности	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
+20	Армении	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT11=Organization|bratT12=GPE|bratT9=Person
+21	и	_	_	_	_	_	_	_	bratA5=T9:Male|bratT9=Person
+22	лидер	_	_	_	_	_	_	_	bratA5=T9:Male|bratT28=Person-property|bratT9=Person
+23	партии	_	_	_	_	_	_	_	bratA5=T9:Male|bratT13=Organization|bratT28=Person-property|bratT9=Person
+24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Male|bratT13=Organization|bratT28=Person-property|bratT9=Person
+25	Отечество	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Male|bratT13=Organization|bratT28=Person-property|bratT9=Person
+26	''	_	_	_	_	_	_	_	bratA5=T9:Male|bratT13=Organization|bratT28=Person-property|bratT9=Person
+27	Артур	_	_	_	_	_	_	_	bratA5=T9:Male|bratT38=Person-forename|bratT9=Person
+28	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Male|bratT39=Person-surname|bratT9=Person
 29	,	_	_	_	_	_	_	_	_
-30	бывший	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
-31	руководитель	_	_	_	_	_	_	_	bratT14=Person|bratT15=Person-property
-32	парламентской	_	_	_	_	_	_	_	bratA1=T31:Department|bratT14=Person|bratT15=Person-property|bratT31=Organization
-33	фракции	_	_	_	_	_	_	_	bratA1=T31:Department|bratT14=Person|bratT15=Person-property|bratT31=Organization
-34	Республиканской	_	_	_	_	_	_	_	bratA1=T31:Department|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization
-35	партии	_	_	_	_	_	_	_	bratA1=T31:Department|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization
-36	Ваграм	_	_	_	_	_	_	_	bratT14=Person|bratT40=Person-forename
-37	Багдасарян	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT41=Person-surname
+30	бывший	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT15=Person-property
+31	руководитель	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT15=Person-property
+32	парламентской	_	_	_	_	_	_	_	bratA1=T31:Department|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT31=Organization
+33	фракции	_	_	_	_	_	_	_	bratA1=T31:Department|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT31=Organization
+34	Республиканской	_	_	_	_	_	_	_	bratA1=T31:Department|bratA10=T46:Adjective|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization|bratT46=Political-group
+35	партии	_	_	_	_	_	_	_	bratA1=T31:Department|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization
+36	Ваграм	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT40=Person-forename
+37	Багдасарян	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T14:Male|bratT14=Person|bratT41=Person-surname
 38	,	_	_	_	_	_	_	_	_
 39	член	_	_	_	_	_	_	_	bratT16=Political-group
 40	партии	_	_	_	_	_	_	_	bratT16=Political-group|bratT29=Organization
@@ -100,7 +100,7 @@
 6	собирались	_	_	_	_	_	_	_	_
 7	лишить	_	_	_	_	_	_	_	_
 8	жизни	_	_	_	_	_	_	_	_
-9	Пашиняна	_	_	_	_	_	_	_	bratT17=Person|bratT42=Person-surname
+9	Пашиняна	_	_	_	_	_	_	_	bratA7=T17:Male|bratT17=Person|bratT42=Person-surname
 10	и	_	_	_	_	_	_	_	_
 11	узурпировать	_	_	_	_	_	_	_	_
 12	власть	_	_	_	_	_	_	_	SpaceAfter=No
@@ -148,19 +148,19 @@
 19	Армении	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=GPE
 20	был	_	_	_	_	_	_	_	_
 21	задержан	_	_	_	_	_	_	_	_
-22	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT43=Person-surname
+22	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T23:Male|bratT23=Person|bratT43=Person-surname
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0119-p5-s2
 # text = Член совета партии ``Отечества'' Сос Акопян заявил, что таким образом власти страны пытаются всячески ``обезглавить'' партию.
-1	Член	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-2	совета	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-3	партии	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property|bratT33=Organization
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Person-property|bratT33=Organization
-5	Отечества	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Person-property|bratT33=Organization
-6	''	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property|bratT33=Organization
-7	Сос	_	_	_	_	_	_	_	bratT24=Person|bratT44=Person-forename
-8	Акопян	_	_	_	_	_	_	_	bratT24=Person|bratT45=Person-surname
+1	Член	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property
+2	совета	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property
+3	партии	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
+5	Отечества	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
+6	''	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
+7	Сос	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT44=Person-forename
+8	Акопян	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT45=Person-surname
 9	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_

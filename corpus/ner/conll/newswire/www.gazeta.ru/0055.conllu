@@ -14,10 +14,10 @@
 # par_text = Глава МВД Владимир Колокольцев утвердил изменения в водительские удостоверения и паспорт транспортного средства. Соответствующий приказ уже подписан, сообщает ТАСС.
 # sent_id = 0055-p2-s1
 # text = Глава МВД Владимир Колокольцев утвердил изменения в водительские удостоверения и паспорт транспортного средства.
-1	Глава	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-2	МВД	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property|bratT4=Organization
-3	Владимир	_	_	_	_	_	_	_	bratT2=Person
-4	Колокольцев	_	_	_	_	_	_	_	bratT2=Person
+1	Глава	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT3=Person-property
+2	МВД	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT3=Person-property|bratT4=Organization
+3	Владимир	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT21=Person-forename
+4	Колокольцев	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT22=Person-surname
 5	утвердил	_	_	_	_	_	_	_	_
 6	изменения	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_

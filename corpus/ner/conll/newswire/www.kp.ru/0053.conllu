@@ -15,12 +15,12 @@
 # par_text = Министр иностранных дел Украины Дмитрий Кулеба прокомментировал ситуацию по ликвидации торгпредств России.
 # sent_id = 0053-p2-s1
 # text = Министр иностранных дел Украины Дмитрий Кулеба прокомментировал ситуацию по ликвидации торгпредств России.
-1	Министр	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person-property
-2	иностранных	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person-property
-3	дел	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person-property
-4	Украины	_	_	_	_	_	_	_	bratT4=Person|bratT6=Person-property|bratT7=GPE
-5	Дмитрий	_	_	_	_	_	_	_	bratT33=Person-forename|bratT4=Person
-6	Кулеба	_	_	_	_	_	_	_	bratT34=Person-surname|bratT4=Person
+1	Министр	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT6=Person-property
+2	иностранных	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT6=Person-property
+3	дел	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT6=Person-property
+4	Украины	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT6=Person-property|bratT7=GPE
+5	Дмитрий	_	_	_	_	_	_	_	bratA4=T4:Male|bratT33=Person-forename|bratT4=Person
+6	Кулеба	_	_	_	_	_	_	_	bratA4=T4:Male|bratT34=Person-surname|bratT4=Person
 7	прокомментировал	_	_	_	_	_	_	_	_
 8	ситуацию	_	_	_	_	_	_	_	_
 9	по	_	_	_	_	_	_	_	_
@@ -39,16 +39,18 @@
 4	инициативе	_	_	_	_	_	_	_	_
 5	МИД	_	_	_	_	_	_	_	bratT9=Organization
 6	разорвала	_	_	_	_	_	_	_	_
-7	российско-украинское	_	_	_	_	_	_	_	bratT23=Law
-8	соглашение	_	_	_	_	_	_	_	bratT23=Law
-9	о	_	_	_	_	_	_	_	bratT23=Law
-10	торговых	_	_	_	_	_	_	_	bratT23=Law
-11	представительствах	_	_	_	_	_	_	_	bratT23=Law
-12	еще	_	_	_	_	_	_	_	_
-13	три	_	_	_	_	_	_	_	bratA5=T10:Past|bratT10=Date-absolute
-14	месяца	_	_	_	_	_	_	_	bratA5=T10:Past|bratT10=Date-absolute
-15	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Past|bratT10=Date-absolute
-16	.	_	_	_	_	_	_	_	_
+7	российско	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T35:Adjective|bratT23=Law|bratT35=GPE
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Law
+9	украинское	_	_	_	_	_	_	_	bratA9=T36:Adjective|bratT23=Law|bratT36=GPE
+10	соглашение	_	_	_	_	_	_	_	bratT23=Law
+11	о	_	_	_	_	_	_	_	bratT23=Law
+12	торговых	_	_	_	_	_	_	_	bratT23=Law
+13	представительствах	_	_	_	_	_	_	_	bratT23=Law
+14	еще	_	_	_	_	_	_	_	_
+15	три	_	_	_	_	_	_	_	bratA5=T10:Past|bratT10=Date-absolute
+16	месяца	_	_	_	_	_	_	_	bratA5=T10:Past|bratT10=Date-absolute
+17	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Past|bratT10=Date-absolute
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0053-p3-s2
 # text = Мы не против того, что Россия их закрыла и для себя, - говорится в его посте в Твиттере.
@@ -128,7 +130,7 @@
 13	представительства	_	_	_	_	_	_	_	_
 14	выступили	_	_	_	_	_	_	_	_
 15	эксперты	_	_	_	_	_	_	_	bratT19=Person-property
-16	российского	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Organization
+16	российского	_	_	_	_	_	_	_	bratA10=T38:Adjective|bratT19=Person-property|bratT20=Organization|bratT38=GPE
 17	Минпромторга	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT20=Organization
 18	.	_	_	_	_	_	_	_	_
 
@@ -141,7 +143,7 @@
 5	что	_	_	_	_	_	_	_	_
 6	прошлым	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute|bratT32=Ordinal
 7	летом	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute
-8	украинское	_	_	_	_	_	_	_	bratT27=Organization
+8	украинское	_	_	_	_	_	_	_	bratA11=T39:Adjective|bratT27=Organization|bratT39=GPE
 9	правительство	_	_	_	_	_	_	_	bratT27=Organization
 10	прекратило	_	_	_	_	_	_	_	_
 11	действие	_	_	_	_	_	_	_	_
@@ -150,7 +152,7 @@
 14	учреждении	_	_	_	_	_	_	_	_
 15	торгпредставительств	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
-17	российской	_	_	_	_	_	_	_	_
+17	российской	_	_	_	_	_	_	_	bratA12=T40:Adjective|bratT40=GPE
 18	стороной	_	_	_	_	_	_	_	SpaceAfter=No
 19	.	_	_	_	_	_	_	_	_
 

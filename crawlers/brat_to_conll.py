@@ -24,6 +24,7 @@ CONLL_DIR = setdir_('brat', 'conll')
 
 for fn in glob.glob(BRAT_DIR + '/{}/{}/*.txt'.format(domain, source),
                     recursive=True):
+    print(fn)
     out_fn = fn.replace(BRAT_DIR, CONLL_DIR)
     out_dir = os.path.dirname(out_fn)
     if not os.path.isdir(out_dir):

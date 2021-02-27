@@ -10,7 +10,7 @@
 5	граффити	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
 7	портретом	_	_	_	_	_	_	_	_
-8	Нурмагомедова	_	_	_	_	_	_	_	bratT1=Person|bratT35=Person-surname
+8	Нурмагомедова	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT35=Person-surname
 
 # newpar id = 0091-p2
 # par_text = Вандалы испортили граффити с портретом российского бойца смешанного стиля (MMA) Хабиба Нурмагомедова в Челябинске. Об этом сообщается в сообществе «Регион-74 | Челябинск» во «ВКонтакте».
@@ -21,15 +21,15 @@
 3	граффити	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
 5	портретом	_	_	_	_	_	_	_	_
-6	российского	_	_	_	_	_	_	_	bratT3=GPE|bratT4=Person-property|bratT5=Person
-7	бойца	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-8	смешанного	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-9	стиля	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-10	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person-property|bratT5=Person
-11	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Other-term|bratT4=Person-property|bratT5=Person
-12	)	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-13	Хабиба	_	_	_	_	_	_	_	bratT36=Person-forename|bratT5=Person
-14	Нурмагомедова	_	_	_	_	_	_	_	bratT38=Person-surname|bratT5=Person
+6	российского	_	_	_	_	_	_	_	bratA6=T5:Male|bratA9=T3:Adjective|bratT3=GPE|bratT4=Person-property|bratT5=Person
+7	бойца	_	_	_	_	_	_	_	bratA6=T5:Male|bratT4=Person-property|bratT5=Person
+8	смешанного	_	_	_	_	_	_	_	bratA6=T5:Male|bratT4=Person-property|bratT5=Person
+9	стиля	_	_	_	_	_	_	_	bratA6=T5:Male|bratT4=Person-property|bratT5=Person
+10	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Male|bratT4=Person-property|bratT5=Person
+11	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Male|bratT37=Other-term|bratT4=Person-property|bratT5=Person
+12	)	_	_	_	_	_	_	_	bratA6=T5:Male|bratT4=Person-property|bratT5=Person
+13	Хабиба	_	_	_	_	_	_	_	bratA6=T5:Male|bratT36=Person-forename|bratT5=Person
+14	Нурмагомедова	_	_	_	_	_	_	_	bratA6=T5:Male|bratT38=Person-surname|bratT5=Person
 15	в	_	_	_	_	_	_	_	_
 16	Челябинске	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
 17	.	_	_	_	_	_	_	_	_
@@ -43,7 +43,7 @@
 5	сообществе	_	_	_	_	_	_	_	bratA2=T33:Media|bratT33=Service
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T33:Media|bratT33=Service
 7	Регион-74	_	_	_	_	_	_	_	bratA2=T33:Media|bratT33=Service
-8	Челябинск	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T33:Media|bratT33=Service
+8	Челябинск	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T33:Media|bratT33=Service|bratT48=GPE
 9	''	_	_	_	_	_	_	_	bratA2=T33:Media|bratT33=Service
 10	во	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Service
@@ -64,10 +64,10 @@
 7	строений	_	_	_	_	_	_	_	_
 8	города	_	_	_	_	_	_	_	_
 9	нарисовал	_	_	_	_	_	_	_	_
-10	местный	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-11	граффити-художник	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-12	Тимур	_	_	_	_	_	_	_	bratT10=Person|bratT42=Person-forename
-13	Бразил	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT43=Person-surname
+10	местный	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT9=Person-property
+11	граффити-художник	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT9=Person-property
+12	Тимур	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT42=Person-forename
+13	Бразил	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T10:Male|bratT10=Person|bratT43=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p3-s2
@@ -94,7 +94,7 @@
 # text = В октябре Нурмагомедов, известный по выступлениям в Абсолютном бойцовском чемпионате (UFC), резко высказался в адрес президента Франции Эммануэля Макрона.
 1	В	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
 2	октябре	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
-3	Нурмагомедов	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT39=Person-surname
+3	Нурмагомедов	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT39=Person-surname
 4	,	_	_	_	_	_	_	_	_
 5	известный	_	_	_	_	_	_	_	_
 6	по	_	_	_	_	_	_	_	_
@@ -111,10 +111,10 @@
 17	высказался	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	адрес	_	_	_	_	_	_	_	_
-20	президента	_	_	_	_	_	_	_	bratT15=Person-property|bratT17=Person
-21	Франции	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=GPE|bratT17=Person
-22	Эммануэля	_	_	_	_	_	_	_	bratT17=Person|bratT40=Person-forename
-23	Макрона	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT41=Person-surname
+20	президента	_	_	_	_	_	_	_	bratA10=T17:Male|bratT15=Person-property|bratT17=Person
+21	Франции	_	_	_	_	_	_	_	bratA10=T17:Male|bratT15=Person-property|bratT16=GPE|bratT17=Person
+22	Эммануэля	_	_	_	_	_	_	_	bratA10=T17:Male|bratT17=Person|bratT40=Person-forename
+23	Макрона	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T17:Male|bratT17=Person|bratT41=Person-surname
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p4-s2
@@ -130,7 +130,7 @@
 9	приезжих	_	_	_	_	_	_	_	_
 10	мусульман	_	_	_	_	_	_	_	bratT19=Religious-group
 11	во	_	_	_	_	_	_	_	_
-12	французское	_	_	_	_	_	_	_	bratT34=GPE
+12	французское	_	_	_	_	_	_	_	bratA11=T34:Adjective|bratT34=GPE
 13	общество	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
 
@@ -142,10 +142,10 @@
 4	президента	_	_	_	_	_	_	_	bratT20=Person-property
 5	стало	_	_	_	_	_	_	_	_
 6	убийство	_	_	_	_	_	_	_	bratT21=Event
-7	школьного	_	_	_	_	_	_	_	bratT21=Event|bratT22=Person-property|bratT23=Person
-8	учителя	_	_	_	_	_	_	_	bratT21=Event|bratT22=Person-property|bratT23=Person
-9	Самюэля	_	_	_	_	_	_	_	bratT21=Event|bratT23=Person|bratT44=Person-forename
-10	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event|bratT23=Person|bratT45=Person-surname
+7	школьного	_	_	_	_	_	_	_	bratA12=T23:Male|bratT21=Event|bratT22=Person-property|bratT23=Person
+8	учителя	_	_	_	_	_	_	_	bratA12=T23:Male|bratT21=Event|bratT22=Person-property|bratT23=Person
+9	Самюэля	_	_	_	_	_	_	_	bratA12=T23:Male|bratT21=Event|bratT23=Person|bratT44=Person-forename
+10	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T23:Male|bratT21=Event|bratT23=Person|bratT45=Person-surname
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p4-s4
@@ -162,15 +162,15 @@
 10	ученикам	_	_	_	_	_	_	_	bratT24=Person-property
 11	карикатуры	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
-13	пророка	_	_	_	_	_	_	_	bratA1=T25:Fiction|bratA3=T26:Fiction|bratT25=Person|bratT26=Person-property
-14	Мухаммеда	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T25:Fiction|bratT25=Person|bratT46=Person-forename
+13	пророка	_	_	_	_	_	_	_	bratA1=T25:Fiction|bratA13=T25:Male|bratA3=T26:Fiction|bratT25=Person|bratT26=Person-property
+14	Мухаммеда	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T25:Fiction|bratA13=T25:Male|bratT25=Person|bratT46=Person-forename
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0091-p5
 # par_text = Нурмагомедов трижды защитил титул чемпиона UFC в легком весе и объявил об уходе из спорта. Всего на его счету 29 побед в 29 поединках.
 # sent_id = 0091-p5-s1
 # text = Нурмагомедов трижды защитил титул чемпиона UFC в легком весе и объявил об уходе из спорта.
-1	Нурмагомедов	_	_	_	_	_	_	_	bratT27=Person|bratT47=Person-surname
+1	Нурмагомедов	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT47=Person-surname
 2	трижды	_	_	_	_	_	_	_	bratT28=Quantity
 3	защитил	_	_	_	_	_	_	_	_
 4	титул	_	_	_	_	_	_	_	_

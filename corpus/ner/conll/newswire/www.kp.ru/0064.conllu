@@ -38,7 +38,7 @@
 4	в	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
 5	8:00	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
 6	по	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
-7	московскому	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
+7	московскому	_	_	_	_	_	_	_	bratA2=T46:Past|bratA9=T53:Adjective|bratT45=Time-absolute|bratT46=Date-relative|bratT53=GPE
 8	времени	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
 9	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T46:Past|bratT46=Date-relative
 10	7	_	_	_	_	_	_	_	bratA2=T46:Past|bratT11=Time-absolute|bratT46=Date-relative
@@ -172,15 +172,15 @@
 3	результате	_	_	_	_	_	_	_	_
 4	голосования	_	_	_	_	_	_	_	_
 5	одержала	_	_	_	_	_	_	_	_
-6	кандидат	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
-7	от	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Person
-8	проевропейской	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-9	Партии	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-10	действия	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-11	и	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-12	солидарности	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT25=Person
-13	Майя	_	_	_	_	_	_	_	bratT25=Person|bratT49=Person-forename
-14	Санду	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person|bratT50=Person-surname
+6	кандидат	_	_	_	_	_	_	_	bratA7=T25:Female|bratT24=Person-property|bratT25=Person
+7	от	_	_	_	_	_	_	_	bratA7=T25:Female|bratT24=Person-property|bratT25=Person
+8	проевропейской	_	_	_	_	_	_	_	bratA7=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+9	Партии	_	_	_	_	_	_	_	bratA7=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+10	действия	_	_	_	_	_	_	_	bratA7=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+11	и	_	_	_	_	_	_	_	bratA7=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+12	солидарности	_	_	_	_	_	_	_	bratA7=T25:Female|bratT23=Organization|bratT24=Person-property|bratT25=Person
+13	Майя	_	_	_	_	_	_	_	bratA7=T25:Female|bratT25=Person|bratT49=Person-forename
+14	Санду	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T25:Female|bratT25=Person|bratT50=Person-surname
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0064-p5-s3
@@ -194,11 +194,11 @@
 7	32,61	_	_	_	_	_	_	_	bratT27=Percent
 8	процента	_	_	_	_	_	_	_	bratT27=Percent
 9	голосов	_	_	_	_	_	_	_	_
-10	действующего	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
-11	президента	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
-12	республики	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Person
-13	Игоря	_	_	_	_	_	_	_	bratT29=Person|bratT51=Person-forename
-14	Додона	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person|bratT52=Person-surname
+10	действующего	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
+11	президента	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
+12	республики	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
+13	Игоря	_	_	_	_	_	_	_	bratA8=T29:Male|bratT29=Person|bratT51=Person-forename
+14	Додона	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T29:Male|bratT29=Person|bratT52=Person-surname
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0064-p6

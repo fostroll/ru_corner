@@ -15,14 +15,14 @@
 # par_text = Вице-премьер, руководитель аппарата правительства России Дмитрий Григоренко раскрыл число сокращений во власти в рамках оптимизации системы госуправления. Он рассказал «Российской газете», что всего будет сокращено более 34 тысяч должностей в центральных аппаратах федеральных органов власти и территориальных отделах.
 # sent_id = 0010-p2-s1
 # text = Вице-премьер, руководитель аппарата правительства России Дмитрий Григоренко раскрыл число сокращений во власти в рамках оптимизации системы госуправления.
-1	Вице-премьер	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person-property|bratT5=Person
-2	,	_	_	_	_	_	_	_	bratT5=Person
-3	руководитель	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
-4	аппарата	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person|bratT8=Organization
-5	правительства	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person|bratT8=Organization
-6	России	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=GPE|bratT5=Person|bratT8=Organization
-7	Дмитрий	_	_	_	_	_	_	_	bratT24=Person-forename|bratT5=Person
-8	Григоренко	_	_	_	_	_	_	_	bratT32=Person-surname|bratT5=Person
+1	Вице-премьер	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Male|bratT2=Person-property|bratT5=Person
+2	,	_	_	_	_	_	_	_	bratA6=T5:Male|bratT5=Person
+3	руководитель	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person
+4	аппарата	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person|bratT8=Organization
+5	правительства	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person|bratT8=Organization
+6	России	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT4=GPE|bratT5=Person|bratT8=Organization
+7	Дмитрий	_	_	_	_	_	_	_	bratA6=T5:Male|bratT24=Person-forename|bratT5=Person
+8	Григоренко	_	_	_	_	_	_	_	bratA6=T5:Male|bratT32=Person-surname|bratT5=Person
 9	раскрыл	_	_	_	_	_	_	_	_
 10	число	_	_	_	_	_	_	_	_
 11	сокращений	_	_	_	_	_	_	_	_
@@ -40,7 +40,7 @@
 1	Он	_	_	_	_	_	_	_	_
 2	рассказал	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
-4	Российской	_	_	_	_	_	_	_	bratA1=T6:Media|bratT6=Organization
+4	Российской	_	_	_	_	_	_	_	bratA1=T6:Media|bratA11=T44:Adjective|bratT44=GPE|bratT6=Organization
 5	газете	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
 6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
 7	,	_	_	_	_	_	_	_	_
@@ -111,7 +111,7 @@
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
 19	сказал	_	_	_	_	_	_	_	_
-20	Григоренко	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT37=Person-surname
+20	Григоренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Male|bratT17=Person|bratT37=Person-surname
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0010-p4
@@ -155,7 +155,7 @@
 
 # sent_id = 0010-p4-s3
 # text = Григоренко объяснил, что власти решили пойти по пути сокращения ``искусственно поддерживаемых пустующих ставок''.
-1	Григоренко	_	_	_	_	_	_	_	bratT21=Person|bratT38=Person-surname
+1	Григоренко	_	_	_	_	_	_	_	bratA8=T21:Male|bratT21=Person|bratT38=Person-surname
 2	объяснил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -222,19 +222,19 @@
 # text = 17 ноября глава думского комитета по информационной политике, информационным технологиям и связи Александр Хинштейн заявил, что в правительстве России в рамках предложенной премьер-министром Михаилом Мишустиным реформы системы управления обсуждается вопрос ликвидации федеральных агентств Россвязь и Роспечать.
 1	17	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
-3	глава	_	_	_	_	_	_	_	bratT29=Person-property|bratT31=Person
-4	думского	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-5	комитета	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-6	по	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-7	информационной	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-8	политике	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-9	,	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-10	информационным	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-11	технологиям	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-12	и	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-13	связи	_	_	_	_	_	_	_	bratA3=T30:Department|bratT29=Person-property|bratT30=Organization|bratT31=Person
-14	Александр	_	_	_	_	_	_	_	bratT31=Person|bratT39=Person-forename
-15	Хинштейн	_	_	_	_	_	_	_	bratT31=Person|bratT40=Person-surname
+3	глава	_	_	_	_	_	_	_	bratA9=T31:Male|bratT29=Person-property|bratT31=Person
+4	думского	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+5	комитета	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+6	по	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+7	информационной	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+8	политике	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+9	,	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+10	информационным	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+11	технологиям	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+12	и	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+13	связи	_	_	_	_	_	_	_	bratA3=T30:Department|bratA9=T31:Male|bratT29=Person-property|bratT30=Organization|bratT31=Person
+14	Александр	_	_	_	_	_	_	_	bratA9=T31:Male|bratT31=Person|bratT39=Person-forename
+15	Хинштейн	_	_	_	_	_	_	_	bratA9=T31:Male|bratT31=Person|bratT40=Person-surname
 16	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	что	_	_	_	_	_	_	_	_
@@ -244,9 +244,9 @@
 22	в	_	_	_	_	_	_	_	_
 23	рамках	_	_	_	_	_	_	_	_
 24	предложенной	_	_	_	_	_	_	_	_
-25	премьер-министром	_	_	_	_	_	_	_	bratT34=Person-property|bratT35=Person
-26	Михаилом	_	_	_	_	_	_	_	bratT35=Person|bratT41=Person-forename
-27	Мишустиным	_	_	_	_	_	_	_	bratT35=Person|bratT42=Person-surname
+25	премьер-министром	_	_	_	_	_	_	_	bratA10=T35:Male|bratT34=Person-property|bratT35=Person
+26	Михаилом	_	_	_	_	_	_	_	bratA10=T35:Male|bratT35=Person|bratT41=Person-forename
+27	Мишустиным	_	_	_	_	_	_	_	bratA10=T35:Male|bratT35=Person|bratT42=Person-surname
 28	реформы	_	_	_	_	_	_	_	_
 29	системы	_	_	_	_	_	_	_	_
 30	управления	_	_	_	_	_	_	_	_

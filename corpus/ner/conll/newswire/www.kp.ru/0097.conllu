@@ -54,10 +54,10 @@
 10	ноября	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	сообщил	_	_	_	_	_	_	_	_
-13	армянский	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT54=GPE
-14	премьер-министр	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property
-15	Никол	_	_	_	_	_	_	_	bratT12=Person|bratT47=Person-forename
-16	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT53=Person-surname
+13	армянский	_	_	_	_	_	_	_	bratA11=T54:Adjective|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT54=GPE
+14	премьер-министр	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT13=Person-property
+15	Никол	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT47=Person-forename
+16	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT53=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0097-p3
@@ -107,7 +107,7 @@
 # text = По мнению Пашиняна, этот день траура целесообразно установить в Армении после завершения обмена телами.
 1	По	_	_	_	_	_	_	_	_
 2	мнению	_	_	_	_	_	_	_	_
-3	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-surname|bratT17=Person
+3	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T17:Male|bratT11=Person-surname|bratT17=Person
 4	,	_	_	_	_	_	_	_	_
 5	этот	_	_	_	_	_	_	_	_
 6	день	_	_	_	_	_	_	_	bratT52=Event
@@ -209,7 +209,7 @@
 21	зоне	_	_	_	_	_	_	_	_
 22	конфликта	_	_	_	_	_	_	_	_
 23	размещаются	_	_	_	_	_	_	_	_
-24	российские	_	_	_	_	_	_	_	bratT29=Person-property
+24	российские	_	_	_	_	_	_	_	bratA12=T55:Adjective|bratT29=Person-property|bratT55=GPE
 25	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
 26	.	_	_	_	_	_	_	_	_
 
@@ -223,7 +223,7 @@
 6	20	_	_	_	_	_	_	_	bratT31=Quantity
 7	самолетов	_	_	_	_	_	_	_	bratT31=Quantity
 8	с	_	_	_	_	_	_	_	_
-9	российскими	_	_	_	_	_	_	_	bratT32=Person-property
+9	российскими	_	_	_	_	_	_	_	bratA13=T56:Adjective|bratT32=Person-property|bratT56=GPE
 10	военнослужащими	_	_	_	_	_	_	_	bratT32=Person-property
 11	и	_	_	_	_	_	_	_	_
 12	техникой	_	_	_	_	_	_	_	_

@@ -48,7 +48,7 @@
 7	на	_	_	_	_	_	_	_	_
 8	официального	_	_	_	_	_	_	_	bratT10=Person-property
 9	представителя	_	_	_	_	_	_	_	bratT10=Person-property
-10	французского	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Organization
+10	французского	_	_	_	_	_	_	_	bratA11=T44:Adjective|bratT10=Person-property|bratT44=GPE|bratT9=Organization
 11	МИДа	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT9=Organization
 12	.	_	_	_	_	_	_	_	_
 
@@ -59,21 +59,21 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	По	_	_	_	_	_	_	_	_
 3	указанию	_	_	_	_	_	_	_	_
-4	президента	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person
-5	Франции	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Person-property|bratT13=Person
-6	Эммануэля	_	_	_	_	_	_	_	bratT13=Person
-7	Макрона	_	_	_	_	_	_	_	bratT13=Person
+4	президента	_	_	_	_	_	_	_	bratA9=T13:Male|bratT12=Person-property|bratT13=Person
+5	Франции	_	_	_	_	_	_	_	bratA9=T13:Male|bratT11=GPE|bratT12=Person-property|bratT13=Person
+6	Эммануэля	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT40=Person-forename
+7	Макрона	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT41=Person-surname
 8	и	_	_	_	_	_	_	_	_
-9	министра	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
-10	по	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
-11	делам	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
-12	Европы	_	_	_	_	_	_	_	bratT14=GPE|bratT15=Person-property|bratT16=Person
-13	и	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
-14	иностранных	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
-15	дел	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Person
-16	Жан-Ива	_	_	_	_	_	_	_	bratT16=Person
-17	Ле	_	_	_	_	_	_	_	bratT16=Person
-18	Дриана	_	_	_	_	_	_	_	bratT16=Person
+9	министра	_	_	_	_	_	_	_	bratA10=T16:Male|bratT15=Person-property|bratT16=Person
+10	по	_	_	_	_	_	_	_	bratA10=T16:Male|bratT15=Person-property|bratT16=Person
+11	делам	_	_	_	_	_	_	_	bratA10=T16:Male|bratT15=Person-property|bratT16=Person
+12	Европы	_	_	_	_	_	_	_	bratA10=T16:Male|bratT14=GPE|bratT15=Person-property|bratT16=Person
+13	и	_	_	_	_	_	_	_	bratA10=T16:Male|bratT15=Person-property|bratT16=Person
+14	иностранных	_	_	_	_	_	_	_	bratA10=T16:Male|bratT15=Person-property|bratT16=Person
+15	дел	_	_	_	_	_	_	_	bratA10=T16:Male|bratT15=Person-property|bratT16=Person
+16	Жан-Ива	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT43=Person-forename
+17	Ле	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT42=Person-surname
+18	Дриана	_	_	_	_	_	_	_	bratA10=T16:Male|bratT16=Person|bratT42=Person-surname
 19	Франция	_	_	_	_	_	_	_	bratT17=GPE
 20	начинает	_	_	_	_	_	_	_	_
 21	осуществлять	_	_	_	_	_	_	_	_
@@ -84,8 +84,8 @@
 26	на	_	_	_	_	_	_	_	_
 27	оказание	_	_	_	_	_	_	_	_
 28	помощи	_	_	_	_	_	_	_	_
-29	армянскому	_	_	_	_	_	_	_	bratA5=T18:Citizenship|bratT18=Nationality
-30	населению	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T18:Citizenship|bratT18=Nationality
+29	армянскому	_	_	_	_	_	_	_	bratT18=Nationality
+30	населению	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Nationality
 31	,	_	_	_	_	_	_	_	_
 32	пострадавшему	_	_	_	_	_	_	_	_
 33	от	_	_	_	_	_	_	_	_
@@ -109,7 +109,7 @@
 1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	французской	_	_	_	_	_	_	_	_
+4	французской	_	_	_	_	_	_	_	bratA5=T45:Adjective|bratT45=GPE
 5	стороной	_	_	_	_	_	_	_	_
 6	будет	_	_	_	_	_	_	_	_
 7	организован	_	_	_	_	_	_	_	_
@@ -187,7 +187,7 @@
 3	регион	_	_	_	_	_	_	_	bratT33=GPE
 4	были	_	_	_	_	_	_	_	_
 5	направлены	_	_	_	_	_	_	_	_
-6	российские	_	_	_	_	_	_	_	bratT34=Person-property
+6	российские	_	_	_	_	_	_	_	bratA12=T46:Adjective|bratT34=Person-property|bratT46=GPE
 7	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property
 8	.	_	_	_	_	_	_	_	_
 

@@ -3,7 +3,7 @@
 # par_text = Помпео: ряд арабских стран заключат соглашения с Израилем
 # sent_id = 0019-p1-s1
 # text = Помпео: ряд арабских стран заключат соглашения с Израилем
-1	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT26=Person-surname
+1	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T1:Male|bratT1=Person|bratT26=Person-surname
 2	:	_	_	_	_	_	_	_	_
 3	ряд	_	_	_	_	_	_	_	_
 4	арабских	_	_	_	_	_	_	_	bratT27=GPE
@@ -32,10 +32,10 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	госсекретарь	_	_	_	_	_	_	_	bratT22=Person-property|bratT24=Person
-5	США	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=GPE|bratT24=Person
-6	Майк	_	_	_	_	_	_	_	bratT24=Person|bratT29=Person-forename
-7	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT30=Person-surname
+4	госсекретарь	_	_	_	_	_	_	_	bratA4=T24:Male|bratT22=Person-property|bratT24=Person
+5	США	_	_	_	_	_	_	_	bratA4=T24:Male|bratT22=Person-property|bratT23=GPE|bratT24=Person
+6	Майк	_	_	_	_	_	_	_	bratA4=T24:Male|bratT24=Person|bratT29=Person-forename
+7	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T24:Male|bratT24=Person|bratT30=Person-surname
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p3
@@ -61,7 +61,7 @@
 17	Al	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 18	Arabiya	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 19	слова	_	_	_	_	_	_	_	_
-20	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-surname|bratT5=Person
+20	Помпео	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T5:Male|bratT32=Person-surname|bratT5=Person
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p4
@@ -102,26 +102,26 @@
 # sent_id = 0019-p6-s1
 # text = Также госсекретарь США Майк Помпео провёл переговоры с премьер-министром Израиля Биньямином Нетаньяху и главой МИД Бахрейна Абдулом Латифом бен Рашедом аль-Заяни в Иерусалиме.
 1	Также	_	_	_	_	_	_	_	_
-2	госсекретарь	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=Person
-3	США	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT12=Person
-4	Майк	_	_	_	_	_	_	_	bratT12=Person|bratT33=Person-forename
-5	Помпео	_	_	_	_	_	_	_	bratT12=Person|bratT34=Person-surname
+2	госсекретарь	_	_	_	_	_	_	_	bratA6=T12:Male|bratT10=Person-property|bratT12=Person
+3	США	_	_	_	_	_	_	_	bratA6=T12:Male|bratT10=Person-property|bratT11=GPE|bratT12=Person
+4	Майк	_	_	_	_	_	_	_	bratA6=T12:Male|bratT12=Person|bratT33=Person-forename
+5	Помпео	_	_	_	_	_	_	_	bratA6=T12:Male|bratT12=Person|bratT34=Person-surname
 6	провёл	_	_	_	_	_	_	_	_
 7	переговоры	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	премьер-министром	_	_	_	_	_	_	_	bratT13=Person-property|bratT15=Person
-10	Израиля	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=GPE|bratT15=Person
-11	Биньямином	_	_	_	_	_	_	_	bratT15=Person|bratT35=Person-forename
-12	Нетаньяху	_	_	_	_	_	_	_	bratT15=Person|bratT36=Person-surname
+9	премьер-министром	_	_	_	_	_	_	_	bratA7=T15:Male|bratT13=Person-property|bratT15=Person
+10	Израиля	_	_	_	_	_	_	_	bratA7=T15:Male|bratT13=Person-property|bratT14=GPE|bratT15=Person
+11	Биньямином	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT35=Person-forename
+12	Нетаньяху	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT36=Person-surname
 13	и	_	_	_	_	_	_	_	_
-14	главой	_	_	_	_	_	_	_	bratT16=Person-property|bratT19=Person
-15	МИД	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization|bratT19=Person
-16	Бахрейна	_	_	_	_	_	_	_	bratT16=Person-property|bratT18=GPE|bratT19=Person
-17	Абдулом	_	_	_	_	_	_	_	bratT19=Person|bratT37=Person-forename
-18	Латифом	_	_	_	_	_	_	_	bratT19=Person|bratT37=Person-forename
-19	бен	_	_	_	_	_	_	_	bratT19=Person|bratT38=Person-patronym
-20	Рашедом	_	_	_	_	_	_	_	bratT19=Person|bratT38=Person-patronym
-21	аль-Заяни	_	_	_	_	_	_	_	bratT19=Person|bratT39=Person-affix
+14	главой	_	_	_	_	_	_	_	bratA8=T19:Male|bratT16=Person-property|bratT19=Person
+15	МИД	_	_	_	_	_	_	_	bratA8=T19:Male|bratT16=Person-property|bratT17=Organization|bratT19=Person
+16	Бахрейна	_	_	_	_	_	_	_	bratA8=T19:Male|bratT16=Person-property|bratT18=GPE|bratT19=Person
+17	Абдулом	_	_	_	_	_	_	_	bratA8=T19:Male|bratT19=Person|bratT37=Person-forename
+18	Латифом	_	_	_	_	_	_	_	bratA8=T19:Male|bratT19=Person|bratT37=Person-forename
+19	бен	_	_	_	_	_	_	_	bratA8=T19:Male|bratT19=Person|bratT38=Person-patronym
+20	Рашедом	_	_	_	_	_	_	_	bratA8=T19:Male|bratT19=Person|bratT38=Person-patronym
+21	аль-Заяни	_	_	_	_	_	_	_	bratA8=T19:Male|bratT19=Person|bratT39=Person-affix
 22	в	_	_	_	_	_	_	_	_
 23	Иерусалиме	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE
 24	.	_	_	_	_	_	_	_	_

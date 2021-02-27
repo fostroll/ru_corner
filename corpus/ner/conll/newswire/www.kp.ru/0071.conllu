@@ -71,14 +71,14 @@
 # text = Это - Антон Заболотный, Александр Ерохин и Даниил Лесовой.
 1	Это	_	_	_	_	_	_	_	_
 2	-	_	_	_	_	_	_	_	_
-3	Антон	_	_	_	_	_	_	_	bratT17=Person|bratT51=Person-forename
-4	Заболотный	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT52=Person-surname
+3	Антон	_	_	_	_	_	_	_	bratA10=T17:Male|bratT17=Person|bratT51=Person-forename
+4	Заболотный	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T17:Male|bratT17=Person|bratT52=Person-surname
 5	,	_	_	_	_	_	_	_	_
-6	Александр	_	_	_	_	_	_	_	bratT18=Person|bratT53=Person-forename
-7	Ерохин	_	_	_	_	_	_	_	bratT18=Person|bratT54=Person-surname
+6	Александр	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT53=Person-forename
+7	Ерохин	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT54=Person-surname
 8	и	_	_	_	_	_	_	_	_
-9	Даниил	_	_	_	_	_	_	_	bratT19=Person|bratT55=Person-forename
-10	Лесовой	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT56=Person-surname
+9	Даниил	_	_	_	_	_	_	_	bratA12=T19:Male|bratT19=Person|bratT55=Person-forename
+10	Лесовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T19:Male|bratT19=Person|bratT56=Person-surname
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0071-p3
@@ -157,7 +157,7 @@
 2	него	_	_	_	_	_	_	_	_
 3	имеется	_	_	_	_	_	_	_	_
 4	высокий	_	_	_	_	_	_	_	_
-5	титр	_	_	_	_	_	_	_	_
+5	титр	_	_	_	_	_	_	_	bratT65=Other-term
 6	соответствующих	_	_	_	_	_	_	_	_
 7	антител	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
@@ -186,11 +186,11 @@
 10	России	_	_	_	_	_	_	_	bratT33=Organization|bratT34=GPE
 11	получил	_	_	_	_	_	_	_	_
 12	вызов	_	_	_	_	_	_	_	_
-13	нападающий	_	_	_	_	_	_	_	bratT35=Person|bratT43=Person-property
-14	московского	_	_	_	_	_	_	_	bratT35=Person|bratT36=Organization|bratT43=Person-property
-15	ЦСКА	_	_	_	_	_	_	_	bratT35=Person|bratT36=Organization|bratT43=Person-property
-16	Фёдор	_	_	_	_	_	_	_	bratT35=Person|bratT57=Person-forename
-17	Чалов	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT58=Person-surname
+13	нападающий	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT43=Person-property
+14	московского	_	_	_	_	_	_	_	bratA13=T35:Male|bratA17=T66:Adjective|bratT35=Person|bratT36=Organization|bratT43=Person-property|bratT66=GPE
+15	ЦСКА	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT36=Organization|bratT43=Person-property
+16	Фёдор	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT57=Person-forename
+17	Чалов	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T35:Male|bratT35=Person|bratT58=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p4-s2
@@ -231,13 +231,13 @@
 16	на	_	_	_	_	_	_	_	_
 17	коронавирус	_	_	_	_	_	_	_	bratT39=Other-term
 18	сдали	_	_	_	_	_	_	_	_
-19	Георгий	_	_	_	_	_	_	_	bratT40=Person|bratT59=Person-forename
-20	Джикия	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person|bratT60=Person-surname
+19	Георгий	_	_	_	_	_	_	_	bratA14=T40:Male|bratT40=Person|bratT59=Person-forename
+20	Джикия	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T40:Male|bratT40=Person|bratT60=Person-surname
 21	,	_	_	_	_	_	_	_	_
-22	Маринато	_	_	_	_	_	_	_	bratT41=Person|bratT61=Person-forename
-23	Гильерме	_	_	_	_	_	_	_	bratT41=Person|bratT62=Person-surname
+22	Маринато	_	_	_	_	_	_	_	bratA15=T41:Male|bratT41=Person|bratT61=Person-forename
+23	Гильерме	_	_	_	_	_	_	_	bratA15=T41:Male|bratT41=Person|bratT62=Person-surname
 24	и	_	_	_	_	_	_	_	_
-25	Марио	_	_	_	_	_	_	_	bratT42=Person|bratT63=Person-forename
-26	Фернандес	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person|bratT64=Person-surname
+25	Марио	_	_	_	_	_	_	_	bratA16=T42:Male|bratT42=Person|bratT63=Person-forename
+26	Фернандес	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T42:Male|bratT42=Person|bratT64=Person-surname
 27	.	_	_	_	_	_	_	_	_
 

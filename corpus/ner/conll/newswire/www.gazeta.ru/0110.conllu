@@ -3,7 +3,7 @@
 # par_text = Пашинян заявил, что дорога через Лачинский коридор откроется 16 ноября
 # sent_id = 0110-p1-s1
 # text = Пашинян заявил, что дорога через Лачинский коридор откроется 16 ноября
-1	Пашинян	_	_	_	_	_	_	_	bratT1=Person
+1	Пашинян	_	_	_	_	_	_	_	bratA10=T1:Male|bratT1=Person|bratT20=Person-surname
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -19,10 +19,10 @@
 # par_text = Премьер-министр Армении Никол Пашинян заявил, что соединяющий республику и Нагорный Карабах Лачинский коридор откроется 16 ноября и будет безопасно функционировать, передает ТАСС.
 # sent_id = 0110-p2-s1
 # text = Премьер-министр Армении Никол Пашинян заявил, что соединяющий республику и Нагорный Карабах Лачинский коридор откроется 16 ноября и будет безопасно функционировать, передает ТАСС.
-1	Премьер-министр	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-2	Армении	_	_	_	_	_	_	_	bratT4=GPE|bratT5=Person-property|bratT6=Person
-3	Никол	_	_	_	_	_	_	_	bratT6=Person
-4	Пашинян	_	_	_	_	_	_	_	bratT6=Person
+1	Премьер-министр	_	_	_	_	_	_	_	bratA11=T6:Male|bratT5=Person-property|bratT6=Person
+2	Армении	_	_	_	_	_	_	_	bratA11=T6:Male|bratT4=GPE|bratT5=Person-property|bratT6=Person
+3	Никол	_	_	_	_	_	_	_	bratA11=T6:Male|bratT42=Person-forename|bratT6=Person
+4	Пашинян	_	_	_	_	_	_	_	bratA11=T6:Male|bratT43=Person-surname|bratT6=Person
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -92,7 +92,7 @@
 
 # sent_id = 0110-p4-s2
 # text = Российские миротворцы были направлены в Карабахский регион.
-1	Российские	_	_	_	_	_	_	_	bratT21=Person-property
+1	Российские	_	_	_	_	_	_	_	bratA15=T49:Adjective|bratT21=Person-property|bratT49=GPE
 2	миротворцы	_	_	_	_	_	_	_	bratT21=Person-property
 3	были	_	_	_	_	_	_	_	_
 4	направлены	_	_	_	_	_	_	_	_
@@ -103,7 +103,7 @@
 
 # sent_id = 0110-p4-s3
 # text = Армянские граждане восприняли подписание договора как капитуляцию, в связи с чем в Ереване прошли акции протеста с требованием отставки премьер-министра страны Никола Пашиняна.
-1	Армянские	_	_	_	_	_	_	_	bratA4=T23:Citizenship|bratT23=Nationality
+1	Армянские	_	_	_	_	_	_	_	bratA16=T50:Adjective|bratA4=T23:Citizenship|bratT23=Nationality|bratT50=GPE
 2	граждане	_	_	_	_	_	_	_	bratA4=T23:Citizenship|bratT23=Nationality
 3	восприняли	_	_	_	_	_	_	_	_
 4	подписание	_	_	_	_	_	_	_	_
@@ -123,10 +123,10 @@
 18	с	_	_	_	_	_	_	_	_
 19	требованием	_	_	_	_	_	_	_	_
 20	отставки	_	_	_	_	_	_	_	_
-21	премьер-министра	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
-22	страны	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Person
-23	Никола	_	_	_	_	_	_	_	bratT26=Person
-24	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person
+21	премьер-министра	_	_	_	_	_	_	_	bratA12=T26:Male|bratT25=Person-property|bratT26=Person
+22	страны	_	_	_	_	_	_	_	bratA12=T26:Male|bratT25=Person-property|bratT26=Person
+23	Никола	_	_	_	_	_	_	_	bratA12=T26:Male|bratT26=Person|bratT44=Person-forename
+24	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T26:Male|bratT26=Person|bratT45=Person-surname
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0110-p5
@@ -170,7 +170,7 @@
 # par_text = Пашинян заявил, что решение подписать соглашение было для него крайне тяжелым. Он отметил, что если бы договор не был подписан, Армения потеряла бы еще больше территорий. Президент Азербайджана Ильхам Алиев, в свою очередь, назвал подписание заявления капитуляцией Армении.
 # sent_id = 0110-p6-s1
 # text = Пашинян заявил, что решение подписать соглашение было для него крайне тяжелым.
-1	Пашинян	_	_	_	_	_	_	_	bratT35=Person
+1	Пашинян	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT46=Person-surname
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -207,10 +207,10 @@
 
 # sent_id = 0110-p6-s3
 # text = Президент Азербайджана Ильхам Алиев, в свою очередь, назвал подписание заявления капитуляцией Армении.
-1	Президент	_	_	_	_	_	_	_	bratT38=Person-property|bratT39=Person
-2	Азербайджана	_	_	_	_	_	_	_	bratT37=GPE|bratT38=Person-property|bratT39=Person
-3	Ильхам	_	_	_	_	_	_	_	bratT39=Person
-4	Алиев	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person
+1	Президент	_	_	_	_	_	_	_	bratA14=T39:Male|bratT38=Person-property|bratT39=Person
+2	Азербайджана	_	_	_	_	_	_	_	bratA14=T39:Male|bratT37=GPE|bratT38=Person-property|bratT39=Person
+3	Ильхам	_	_	_	_	_	_	_	bratA14=T39:Male|bratT39=Person|bratT47=Person-forename
+4	Алиев	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T39:Male|bratT39=Person|bratT48=Person-surname
 5	,	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	свою	_	_	_	_	_	_	_	_

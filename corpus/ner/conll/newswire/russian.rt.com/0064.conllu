@@ -5,7 +5,7 @@
 # text = КГБ: Бабарико не признал обвинения в получении взяток
 1	КГБ	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
 2	:	_	_	_	_	_	_	_	_
-3	Бабарико	_	_	_	_	_	_	_	bratT2=Person|bratT32=Person-surname
+3	Бабарико	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT32=Person-surname
 4	не	_	_	_	_	_	_	_	_
 5	признал	_	_	_	_	_	_	_	_
 6	обвинения	_	_	_	_	_	_	_	_
@@ -17,14 +17,14 @@
 # par_text = Экс-председатель правления ОАО «Белгазпромбанк» Виктор Бабарико, которому предъявлено обвинение по фактам получения взяток организованной группой в особо крупном размере и легализации средств, полученных преступным путём, не признал свою вину. Об этом сообщила пресс-служба белорусского КГБ.
 # sent_id = 0064-p2-s1
 # text = Экс-председатель правления ОАО ``Белгазпромбанк'' Виктор Бабарико, которому предъявлено обвинение по фактам получения взяток организованной группой в особо крупном размере и легализации средств, полученных преступным путём, не признал свою вину.
-1	Экс-председатель	_	_	_	_	_	_	_	bratT26=Person-property|bratT38=Person
-2	правления	_	_	_	_	_	_	_	bratT26=Person-property|bratT38=Person
-3	ОАО	_	_	_	_	_	_	_	bratT26=Person-property|bratT37=Organization|bratT38=Person
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT37=Organization|bratT38=Person
-5	Белгазпромбанк	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT37=Organization|bratT38=Person
-6	''	_	_	_	_	_	_	_	bratT26=Person-property|bratT37=Organization|bratT38=Person
-7	Виктор	_	_	_	_	_	_	_	bratT33=Person-forename|bratT38=Person
-8	Бабарико	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-surname|bratT38=Person
+1	Экс-председатель	_	_	_	_	_	_	_	bratA6=T38:Male|bratT26=Person-property|bratT38=Person
+2	правления	_	_	_	_	_	_	_	bratA6=T38:Male|bratT26=Person-property|bratT38=Person
+3	ОАО	_	_	_	_	_	_	_	bratA6=T38:Male|bratT26=Person-property|bratT37=Organization|bratT38=Person
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T38:Male|bratT26=Person-property|bratT37=Organization|bratT38=Person
+5	Белгазпромбанк	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T38:Male|bratT26=Person-property|bratT37=Organization|bratT38=Person
+6	''	_	_	_	_	_	_	_	bratA6=T38:Male|bratT26=Person-property|bratT37=Organization|bratT38=Person
+7	Виктор	_	_	_	_	_	_	_	bratA6=T38:Male|bratT33=Person-forename|bratT38=Person
+8	Бабарико	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T38:Male|bratT34=Person-surname|bratT38=Person
 9	,	_	_	_	_	_	_	_	_
 10	которому	_	_	_	_	_	_	_	_
 11	предъявлено	_	_	_	_	_	_	_	_
@@ -59,7 +59,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщила	_	_	_	_	_	_	_	_
 4	пресс-служба	_	_	_	_	_	_	_	bratA2=T39:Department|bratT39=Organization
-5	белорусского	_	_	_	_	_	_	_	bratA2=T39:Department|bratT35=GPE|bratT39=Organization|bratT40=Organization
+5	белорусского	_	_	_	_	_	_	_	bratA11=T35:Adjective|bratA2=T39:Department|bratT35=GPE|bratT39=Organization|bratT40=Organization
 6	КГБ	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T39:Department|bratT39=Organization|bratT40=Organization
 7	.	_	_	_	_	_	_	_	_
 
@@ -97,15 +97,15 @@
 3	преступной	_	_	_	_	_	_	_	_
 4	деятельности	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
-6	бывшему	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-7	председателю	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-8	правления	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-9	ОАО	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=Organization
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person|bratT7=Person-property|bratT8=Organization
-11	Белгазпромбанк	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person|bratT7=Person-property|bratT8=Organization
-12	''	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=Organization
-13	Виктору	_	_	_	_	_	_	_	bratT36=Person-forename|bratT6=Person
-14	Бабарико	_	_	_	_	_	_	_	bratT41=Person-surname|bratT6=Person
+6	бывшему	_	_	_	_	_	_	_	bratA9=T6:Male|bratT6=Person|bratT7=Person-property
+7	председателю	_	_	_	_	_	_	_	bratA9=T6:Male|bratT6=Person|bratT7=Person-property
+8	правления	_	_	_	_	_	_	_	bratA9=T6:Male|bratT6=Person|bratT7=Person-property
+9	ОАО	_	_	_	_	_	_	_	bratA9=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+11	Белгазпромбанк	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+12	''	_	_	_	_	_	_	_	bratA9=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+13	Виктору	_	_	_	_	_	_	_	bratA9=T6:Male|bratT36=Person-forename|bratT6=Person
+14	Бабарико	_	_	_	_	_	_	_	bratA9=T6:Male|bratT41=Person-surname|bratT6=Person
 15	предъявлено	_	_	_	_	_	_	_	_
 16	обвинение	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
@@ -114,14 +114,14 @@
 20	,	_	_	_	_	_	_	_	_
 21	предусмотренных	_	_	_	_	_	_	_	_
 22	ч.	_	_	_	_	_	_	_	bratT9=Law
-23	3	_	_	_	_	_	_	_	bratT9=Law
+23	3	_	_	_	_	_	_	_	bratT47=Ordinal|bratT9=Law
 24	ст.	_	_	_	_	_	_	_	bratT9=Law
-25	430	_	_	_	_	_	_	_	bratT9=Law
+25	430	_	_	_	_	_	_	_	bratT48=Ordinal|bratT9=Law
 26	и	_	_	_	_	_	_	_	bratT9=Law
 27	ч.	_	_	_	_	_	_	_	bratT9=Law
-28	2	_	_	_	_	_	_	_	bratT9=Law
+28	2	_	_	_	_	_	_	_	bratT49=Ordinal|bratT9=Law
 29	ст.	_	_	_	_	_	_	_	bratT9=Law
-30	235	_	_	_	_	_	_	_	bratT9=Law
+30	235	_	_	_	_	_	_	_	bratT50=Ordinal|bratT9=Law
 31	УК	_	_	_	_	_	_	_	bratT31=Law|bratT9=Law
 32	Республики	_	_	_	_	_	_	_	bratT11=GPE|bratT31=Law|bratT9=Law
 33	Беларусь	_	_	_	_	_	_	_	bratT11=GPE|bratT31=Law|bratT9=Law
@@ -181,7 +181,7 @@
 14	,	_	_	_	_	_	_	_	_
 15	за	_	_	_	_	_	_	_	_
 16	исключением	_	_	_	_	_	_	_	_
-17	Бабарико	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT42=Person-surname
+17	Бабарико	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T12:Male|bratT12=Person|bratT42=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0064-p6
@@ -224,8 +224,8 @@
 # text = Были задержаны Виктор Бабарико, претендовавший на пост президента Белоруссии, и его сын Эдуард, который возглавлял избирательный штаб отца.
 1	Были	_	_	_	_	_	_	_	_
 2	задержаны	_	_	_	_	_	_	_	_
-3	Виктор	_	_	_	_	_	_	_	bratT17=Person|bratT43=Person-forename
-4	Бабарико	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT44=Person-surname
+3	Виктор	_	_	_	_	_	_	_	bratA13=T17:Male|bratT17=Person|bratT43=Person-forename
+4	Бабарико	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T17:Male|bratT17=Person|bratT44=Person-surname
 5	,	_	_	_	_	_	_	_	_
 6	претендовавший	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
@@ -236,7 +236,7 @@
 12	и	_	_	_	_	_	_	_	_
 13	его	_	_	_	_	_	_	_	_
 14	сын	_	_	_	_	_	_	_	bratT21=Family
-15	Эдуард	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person
+15	Эдуард	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T20:Male|bratT20=Person
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
 18	возглавлял	_	_	_	_	_	_	_	_
@@ -272,10 +272,10 @@
 11	президента	_	_	_	_	_	_	_	bratT25=Person-property
 12	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
 13	,	_	_	_	_	_	_	_	_
-14	экс-главе	_	_	_	_	_	_	_	bratT27=Person|bratT28=Person-property
-15	Белгазпромбанка	_	_	_	_	_	_	_	bratT27=Person|bratT28=Person-property|bratT29=Organization
-16	Виктору	_	_	_	_	_	_	_	bratT27=Person|bratT45=Person-forename
-17	Бабарико	_	_	_	_	_	_	_	bratT27=Person|bratT46=Person-surname
+14	экс-главе	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT28=Person-property
+15	Белгазпромбанка	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT28=Person-property|bratT29=Organization
+16	Виктору	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT45=Person-forename
+17	Бабарико	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT46=Person-surname
 18	срок	_	_	_	_	_	_	_	_
 19	содержания	_	_	_	_	_	_	_	_
 20	под	_	_	_	_	_	_	_	_

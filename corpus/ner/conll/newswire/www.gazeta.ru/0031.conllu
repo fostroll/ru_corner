@@ -3,7 +3,7 @@
 # par_text = Макрон заявил о готовности Франции защитить наследие Карабаха
 # sent_id = 0031-p1-s1
 # text = Макрон заявил о готовности Франции защитить наследие Карабаха
-1	Макрон	_	_	_	_	_	_	_	bratT1=Person
+1	Макрон	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT41=Person-surname
 2	заявил	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	готовности	_	_	_	_	_	_	_	_
@@ -16,10 +16,10 @@
 # par_text = Президент Франции Эммануэль Макрон заявил, что Париж готов предпринять меры для защиты религиозного и культурного наследия Нагорного Карабаха. Об этом он сказал в ходе переговоров по видеосвязи с президентом Азербайджана Ильхамом Алиевым и премьер-министром Армении Николом Пашиняном. Об этом говорится в заявлении Елисейского дворца.
 # sent_id = 0031-p2-s1
 # text = Президент Франции Эммануэль Макрон заявил, что Париж готов предпринять меры для защиты религиозного и культурного наследия Нагорного Карабаха.
-1	Президент	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-2	Франции	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=GPE
-3	Эммануэль	_	_	_	_	_	_	_	bratT4=Person
-4	Макрон	_	_	_	_	_	_	_	bratT4=Person
+1	Президент	_	_	_	_	_	_	_	bratA9=T4:Male|bratT4=Person|bratT5=Person-property
+2	Франции	_	_	_	_	_	_	_	bratA9=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=GPE
+3	Эммануэль	_	_	_	_	_	_	_	bratA9=T4:Male|bratT4=Person|bratT42=Person-forename
+4	Макрон	_	_	_	_	_	_	_	bratA9=T4:Male|bratT4=Person|bratT43=Person-surname
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -49,15 +49,15 @@
 8	по	_	_	_	_	_	_	_	_
 9	видеосвязи	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
-11	президентом	_	_	_	_	_	_	_	bratT11=Person-property|bratT9=Person
-12	Азербайджана	_	_	_	_	_	_	_	bratT11=Person-property|bratT13=GPE|bratT9=Person
-13	Ильхамом	_	_	_	_	_	_	_	bratT9=Person
-14	Алиевым	_	_	_	_	_	_	_	bratT9=Person
+11	президентом	_	_	_	_	_	_	_	bratA11=T9:Male|bratT11=Person-property|bratT9=Person
+12	Азербайджана	_	_	_	_	_	_	_	bratA11=T9:Male|bratT11=Person-property|bratT13=GPE|bratT9=Person
+13	Ильхамом	_	_	_	_	_	_	_	bratA11=T9:Male|bratT44=Person-forename|bratT9=Person
+14	Алиевым	_	_	_	_	_	_	_	bratA11=T9:Male|bratT45=Person-surname|bratT9=Person
 15	и	_	_	_	_	_	_	_	_
-16	премьер-министром	_	_	_	_	_	_	_	bratT10=Person|bratT12=Person-property
-17	Армении	_	_	_	_	_	_	_	bratT10=Person|bratT12=Person-property|bratT14=GPE
-18	Николом	_	_	_	_	_	_	_	bratT10=Person
-19	Пашиняном	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person
+16	премьер-министром	_	_	_	_	_	_	_	bratA10=T10:Male|bratT10=Person|bratT12=Person-property
+17	Армении	_	_	_	_	_	_	_	bratA10=T10:Male|bratT10=Person|bratT12=Person-property|bratT14=GPE
+18	Николом	_	_	_	_	_	_	_	bratA10=T10:Male|bratT10=Person|bratT46=Person-forename
+19	Пашиняном	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T10:Male|bratT10=Person|bratT47=Person-surname
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0031-p2-s3
@@ -78,7 +78,7 @@
 1	Как	_	_	_	_	_	_	_	_
 2	сообщается	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	Макрон	_	_	_	_	_	_	_	bratT16=Person
+4	Макрон	_	_	_	_	_	_	_	bratA12=T16:Male|bratT16=Person|bratT48=Person-surname
 5	обсудил	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
 7	ними	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	французский	_	_	_	_	_	_	_	bratT20=Person-property
+4	французский	_	_	_	_	_	_	_	bratA14=T51:Adjective|bratT20=Person-property|bratT51=GPE
 5	лидер	_	_	_	_	_	_	_	bratT20=Person-property
 6	в	_	_	_	_	_	_	_	bratA6=T38:Past|bratT38=Date-absolute
 7	ходе	_	_	_	_	_	_	_	bratA6=T38:Past|bratT38=Date-absolute
@@ -205,7 +205,7 @@
 
 # sent_id = 0031-p6-s2
 # text = Российские миротворцы были направлены в Карабахский регион.
-1	Российские	_	_	_	_	_	_	_	bratT26=Person-property
+1	Российские	_	_	_	_	_	_	_	bratA15=T52:Adjective|bratT26=Person-property|bratT52=GPE
 2	миротворцы	_	_	_	_	_	_	_	bratT26=Person-property
 3	были	_	_	_	_	_	_	_	_
 4	направлены	_	_	_	_	_	_	_	_
@@ -216,7 +216,7 @@
 
 # sent_id = 0031-p6-s3
 # text = Армянские граждане восприняли подписание договора как капитуляцию, в связи с чем в Ереване прошли акции протеста с требованием отставки премьер-министра страны Никола Пашиняна.
-1	Армянские	_	_	_	_	_	_	_	bratA2=T28:Citizenship|bratT28=Nationality
+1	Армянские	_	_	_	_	_	_	_	bratA16=T53:Adjective|bratA2=T28:Citizenship|bratT28=Nationality|bratT53=GPE
 2	граждане	_	_	_	_	_	_	_	bratA2=T28:Citizenship|bratT28=Nationality
 3	восприняли	_	_	_	_	_	_	_	_
 4	подписание	_	_	_	_	_	_	_	_
@@ -236,9 +236,9 @@
 18	с	_	_	_	_	_	_	_	_
 19	требованием	_	_	_	_	_	_	_	_
 20	отставки	_	_	_	_	_	_	_	_
-21	премьер-министра	_	_	_	_	_	_	_	bratT31=Person|bratT32=Person-property
-22	страны	_	_	_	_	_	_	_	bratT31=Person|bratT32=Person-property
-23	Никола	_	_	_	_	_	_	_	bratT31=Person
-24	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person
+21	премьер-министра	_	_	_	_	_	_	_	bratA13=T31:Male|bratT31=Person|bratT32=Person-property
+22	страны	_	_	_	_	_	_	_	bratA13=T31:Male|bratT31=Person|bratT32=Person-property
+23	Никола	_	_	_	_	_	_	_	bratA13=T31:Male|bratT31=Person|bratT49=Person-forename
+24	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T31:Male|bratT31=Person|bratT50=Person-surname
 25	.	_	_	_	_	_	_	_	_
 

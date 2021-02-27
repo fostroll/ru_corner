@@ -21,13 +21,13 @@
 # par_text = Глава Восточного комитета немецкой экономики Оливер Хермес выразил мнение о ситуации строительства "Северного потока — 2". Он призвал США уважительно относиться к европейскому суверенитету и продолжить сотрудничество с властями Германии. Об этом пишет газета Welt.
 # sent_id = 0039-p2-s1
 # text = Глава Восточного комитета немецкой экономики Оливер Хермес выразил мнение о ситуации строительства ``Северного потока - 2''.
-1	Глава	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-2	Восточного	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization
-3	комитета	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization
-4	немецкой	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization
-5	экономики	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property|bratT6=Organization
-6	Оливер	_	_	_	_	_	_	_	bratT30=Person-forename|bratT4=Person
-7	Хермес	_	_	_	_	_	_	_	bratT31=Person-surname|bratT4=Person
+1	Глава	_	_	_	_	_	_	_	bratA10=T4:Male|bratT4=Person|bratT5=Person-property
+2	Восточного	_	_	_	_	_	_	_	bratA10=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
+3	комитета	_	_	_	_	_	_	_	bratA10=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
+4	немецкой	_	_	_	_	_	_	_	bratA10=T4:Male|bratA12=T32:Adjective|bratT32=GPE|bratT4=Person|bratT5=Person-property|bratT6=Organization
+5	экономики	_	_	_	_	_	_	_	bratA10=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
+6	Оливер	_	_	_	_	_	_	_	bratA10=T4:Male|bratT30=Person-forename|bratT4=Person
+7	Хермес	_	_	_	_	_	_	_	bratA10=T4:Male|bratT31=Person-surname|bratT4=Person
 8	выразил	_	_	_	_	_	_	_	_
 9	мнение	_	_	_	_	_	_	_	_
 10	о	_	_	_	_	_	_	_	_
@@ -49,7 +49,7 @@
 4	уважительно	_	_	_	_	_	_	_	_
 5	относиться	_	_	_	_	_	_	_	_
 6	к	_	_	_	_	_	_	_	_
-7	европейскому	_	_	_	_	_	_	_	_
+7	европейскому	_	_	_	_	_	_	_	bratA13=T33:Adjective|bratT33=GPE
 8	суверенитету	_	_	_	_	_	_	_	_
 9	и	_	_	_	_	_	_	_	_
 10	продолжить	_	_	_	_	_	_	_	_
@@ -103,7 +103,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_
 11	сказал	_	_	_	_	_	_	_	_
-12	Хермес	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT29=Person-surname
+12	Хермес	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T12:Male|bratT12=Person|bratT29=Person-surname
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0039-p5

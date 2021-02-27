@@ -5,7 +5,7 @@
 # text = В США российскую ``Луну-25'' назвали рудиментом
 1	В	_	_	_	_	_	_	_	_
 2	США	_	_	_	_	_	_	_	bratT2=GPE
-3	российскую	_	_	_	_	_	_	_	bratA2=T13:Project|bratT13=Product|bratT20=GPE
+3	российскую	_	_	_	_	_	_	_	bratA19=T20:Adjective|bratA2=T13:Project|bratT13=Product|bratT20=GPE
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Project|bratT13=Product
 5	Луну-25	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Project|bratT13=Product
 6	''	_	_	_	_	_	_	_	bratA2=T13:Project|bratT13=Product
@@ -17,7 +17,7 @@
 # sent_id = 0034-p2-s1
 # text = Первая российская миссия ``Луна-25'' к естественному спутнику Земли ``выглядела бы хорошо в начале 2000 года'', а сейчас менее амбициозна китайской Chang'e 4, заявил РИА Новости научный сотрудник Гарвард-Смитсоновского центра астрофизики (США) Джонатан МакДауэлл.
 1	Первая	_	_	_	_	_	_	_	bratT34=Ordinal
-2	российская	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product|bratT45=GPE
+2	российская	_	_	_	_	_	_	_	bratA20=T45:Adjective|bratA3=T12:Project|bratT12=Product|bratT45=GPE
 3	миссия	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product
 5	Луна-25	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product
@@ -40,23 +40,23 @@
 22	сейчас	_	_	_	_	_	_	_	bratA16=T38:Present|bratT38=Date-absolute
 23	менее	_	_	_	_	_	_	_	_
 24	амбициозна	_	_	_	_	_	_	_	_
-25	китайской	_	_	_	_	_	_	_	bratA4=T14:Project|bratT14=Product|bratT46=GPE
+25	китайской	_	_	_	_	_	_	_	bratA22=T46:Adjective|bratA4=T14:Project|bratT14=Product|bratT46=GPE
 26	Chang'e	_	_	_	_	_	_	_	bratA4=T14:Project|bratT14=Product
 27	4	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Project|bratT14=Product
 28	,	_	_	_	_	_	_	_	_
 29	заявил	_	_	_	_	_	_	_	_
 30	РИА	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization
 31	Новости	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization
-32	научный	_	_	_	_	_	_	_	bratT1=Person|bratT4=Person-property
-33	сотрудник	_	_	_	_	_	_	_	bratT1=Person|bratT4=Person-property
-34	Гарвард-Смитсоновского	_	_	_	_	_	_	_	bratT1=Person|bratT4=Person-property|bratT5=Organization
-35	центра	_	_	_	_	_	_	_	bratT1=Person|bratT4=Person-property|bratT5=Organization
-36	астрофизики	_	_	_	_	_	_	_	bratT1=Person|bratT4=Person-property|bratT5=Organization
-37	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person
-38	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT6=GPE
-39	)	_	_	_	_	_	_	_	bratT1=Person
-40	Джонатан	_	_	_	_	_	_	_	bratT1=Person|bratT51=Person-forename
-41	МакДауэлл	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person|bratT52=Person-surname
+32	научный	_	_	_	_	_	_	_	bratA21=T1:Male|bratT1=Person|bratT4=Person-property
+33	сотрудник	_	_	_	_	_	_	_	bratA21=T1:Male|bratT1=Person|bratT4=Person-property
+34	Гарвард-Смитсоновского	_	_	_	_	_	_	_	bratA21=T1:Male|bratT1=Person|bratT4=Person-property|bratT5=Organization
+35	центра	_	_	_	_	_	_	_	bratA21=T1:Male|bratT1=Person|bratT4=Person-property|bratT5=Organization
+36	астрофизики	_	_	_	_	_	_	_	bratA21=T1:Male|bratT1=Person|bratT4=Person-property|bratT5=Organization
+37	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T1:Male|bratT1=Person
+38	США	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T1:Male|bratT1=Person|bratT6=GPE
+39	)	_	_	_	_	_	_	_	bratA21=T1:Male|bratT1=Person
+40	Джонатан	_	_	_	_	_	_	_	bratA21=T1:Male|bratT1=Person|bratT51=Person-forename
+41	МакДауэлл	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T1:Male|bratT1=Person|bratT52=Person-surname
 42	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0034-p3
@@ -67,7 +67,7 @@
 2	его	_	_	_	_	_	_	_	_
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	китайская	_	_	_	_	_	_	_	bratA5=T15:Project|bratT15=Product|bratT47=GPE
+5	китайская	_	_	_	_	_	_	_	bratA23=T47:Adjective|bratA5=T15:Project|bratT15=Product|bratT47=GPE
 6	Chang'e	_	_	_	_	_	_	_	bratA5=T15:Project|bratT15=Product
 7	5	_	_	_	_	_	_	_	bratA5=T15:Project|bratT15=Product
 8	создает	_	_	_	_	_	_	_	_
@@ -87,7 +87,7 @@
 # text = Говоря о российской лунной программе, эксперт отметил ее ``отставание после многолетних задержек'' от соответствующих проектов США и Китая.
 1	Говоря	_	_	_	_	_	_	_	_
 2	о	_	_	_	_	_	_	_	_
-3	российской	_	_	_	_	_	_	_	bratA7=T36:Project|bratT36=Product|bratT48=GPE
+3	российской	_	_	_	_	_	_	_	bratA24=T48:Adjective|bratA7=T36:Project|bratT36=Product|bratT48=GPE
 4	лунной	_	_	_	_	_	_	_	bratA7=T36:Project|bratT36=Product
 5	программе	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T36:Project|bratT36=Product
 6	,	_	_	_	_	_	_	_	_
@@ -112,7 +112,7 @@
 # par_text = Космический аппарат Chang'e 5 специалист назвал более функциональным, чем советские серии E-8-5, использовавшиеся в 1960-1970-х годах для доставки на Землю образцов лунного грунта. Возможные трудности в реализации данной китайской миссии на Луну эксперт связал с необходимостью осуществления стыковки на окололунной орбите при возвращении на Землю.
 # sent_id = 0034-p4-s1
 # text = Космический аппарат Chang'e 5 специалист назвал более функциональным, чем советские серии E-8-5, использовавшиеся в 1960-1970-х годах для доставки на Землю образцов лунного грунта.
-1	Космический	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratT18=Person
+1	Космический	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratA27=T53:Adjective|bratT18=Person|bratT53=Location
 2	аппарат	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratT18=Person
 3	Chang'e	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratT18=Person
 4	5	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratT18=Person
@@ -122,7 +122,7 @@
 8	функциональным	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	чем	_	_	_	_	_	_	_	_
-11	советские	_	_	_	_	_	_	_	bratT19=Product|bratT49=GPE
+11	советские	_	_	_	_	_	_	_	bratA25=T49:Adjective|bratT19=Product|bratT49=GPE
 12	серии	_	_	_	_	_	_	_	bratT19=Product
 13	E-8-5	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Product
 14	,	_	_	_	_	_	_	_	_
@@ -146,7 +146,7 @@
 3	в	_	_	_	_	_	_	_	_
 4	реализации	_	_	_	_	_	_	_	_
 5	данной	_	_	_	_	_	_	_	_
-6	китайской	_	_	_	_	_	_	_	bratT50=GPE
+6	китайской	_	_	_	_	_	_	_	bratA26=T50:Adjective|bratT50=GPE
 7	миссии	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	Луну	_	_	_	_	_	_	_	bratT31=Location

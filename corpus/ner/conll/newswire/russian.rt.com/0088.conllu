@@ -11,18 +11,18 @@
 6	разбитых	_	_	_	_	_	_	_	bratT1=Work-of-art
 7	фонарей	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Work-of-art
 8	''	_	_	_	_	_	_	_	bratT1=Work-of-art
-9	актриса	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-10	Светлана	_	_	_	_	_	_	_	bratT2=Person
-11	Обидина	_	_	_	_	_	_	_	bratT2=Person
+9	актриса	_	_	_	_	_	_	_	bratA2=T2:Female|bratT2=Person|bratT3=Person-property
+10	Светлана	_	_	_	_	_	_	_	bratA2=T2:Female|bratT2=Person|bratT22=Person-forename
+11	Обидина	_	_	_	_	_	_	_	bratA2=T2:Female|bratT2=Person|bratT23=Person-surname
 
 # newpar id = 0088-p2
 # par_text = Российская актриса Светлана Обидина, известная по ролям в сериалах «Улица разбитых фонарей 1» и «Мажор 3», скончалась в возрасте 45 лет, сообщил Театр-фестиваль «Балтийский дом».
 # sent_id = 0088-p2-s1
 # text = Российская актриса Светлана Обидина, известная по ролям в сериалах ``Улица разбитых фонарей 1'' и ``Мажор 3'', скончалась в возрасте 45 лет, сообщил Театр-фестиваль ``Балтийский дом''.
-1	Российская	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person
-2	актриса	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person
-3	Светлана	_	_	_	_	_	_	_	bratT17=Person
-4	Обидина	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person
+1	Российская	_	_	_	_	_	_	_	bratA3=T17:Female|bratA4=T26:Adjective|bratT16=Person-property|bratT17=Person|bratT26=GPE
+2	актриса	_	_	_	_	_	_	_	bratA3=T17:Female|bratT16=Person-property|bratT17=Person
+3	Светлана	_	_	_	_	_	_	_	bratA3=T17:Female|bratT17=Person|bratT24=Person-forename
+4	Обидина	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T17:Female|bratT17=Person|bratT25=Person-surname
 5	,	_	_	_	_	_	_	_	_
 6	известная	_	_	_	_	_	_	_	_
 7	по	_	_	_	_	_	_	_	_
@@ -33,12 +33,12 @@
 12	Улица	_	_	_	_	_	_	_	bratT18=Work-of-art
 13	разбитых	_	_	_	_	_	_	_	bratT18=Work-of-art
 14	фонарей	_	_	_	_	_	_	_	bratT18=Work-of-art
-15	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art
+15	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art|bratT39=Ordinal
 16	''	_	_	_	_	_	_	_	bratT18=Work-of-art
 17	и	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
 19	Мажор	_	_	_	_	_	_	_	bratT19=Work-of-art
-20	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
+20	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art|bratT38=Ordinal
 21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
 22	,	_	_	_	_	_	_	_	_
 23	скончалась	_	_	_	_	_	_	_	_
@@ -50,7 +50,7 @@
 29	сообщил	_	_	_	_	_	_	_	_
 30	Театр-фестиваль	_	_	_	_	_	_	_	bratT21=Organization
 31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
-32	Балтийский	_	_	_	_	_	_	_	bratT21=Organization
+32	Балтийский	_	_	_	_	_	_	_	bratA10=T34:Adjective|bratT21=Organization|bratT34=Location
 33	дом	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
 34	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
 35	.	_	_	_	_	_	_	_	_
@@ -70,8 +70,8 @@
 9	актрисы	_	_	_	_	_	_	_	bratT4=Person-property
 10	нашего	_	_	_	_	_	_	_	_
 11	театра	_	_	_	_	_	_	_	_
-12	Светланы	_	_	_	_	_	_	_	bratT5=Person
-13	Обидиной	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person
+12	Светланы	_	_	_	_	_	_	_	bratA5=T5:Female|bratT27=Person-forename|bratT5=Person
+13	Обидиной	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T5:Female|bratT28=Person-surname|bratT5=Person
 14	''	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
@@ -96,13 +96,13 @@
 # par_text = Обидина также снималась в фильмах «Довлатов», «Дуэлянт» и «Петербург. Только по любви».
 # sent_id = 0088-p5-s1
 # text = Обидина также снималась в фильмах ``Довлатов'', ``Дуэлянт'' и ``Петербург. Только по любви''.
-1	Обидина	_	_	_	_	_	_	_	bratT14=Person
+1	Обидина	_	_	_	_	_	_	_	bratA7=T14:Female|bratT14=Person|bratT31=Person-surname
 2	также	_	_	_	_	_	_	_	_
 3	снималась	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	фильмах	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Work-of-art
-7	Довлатов	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Work-of-art
+7	Довлатов	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T36:Male|bratT36=Person|bratT37=Person-surname|bratT7=Work-of-art
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Work-of-art
 9	,	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Work-of-art
@@ -110,7 +110,7 @@
 12	''	_	_	_	_	_	_	_	bratT8=Work-of-art
 13	и	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
-15	Петербург	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+15	Петербург	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art|bratT35=GPE
 16	.	_	_	_	_	_	_	_	bratT13=Work-of-art
 17	Только	_	_	_	_	_	_	_	bratT13=Work-of-art
 18	по	_	_	_	_	_	_	_	bratT13=Work-of-art
@@ -126,14 +126,14 @@
 2	сообщалось	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	смерти	_	_	_	_	_	_	_	bratT12=Event
-5	советской	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT12=Event
-6	и	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT12=Event
-7	белорусской	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT12=Event
-8	актрисы	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT12=Event
-9	театра	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT12=Event
-10	и	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT12=Event
-11	кино	_	_	_	_	_	_	_	bratT10=Person|bratT11=Person-property|bratT12=Event
-12	Любови	_	_	_	_	_	_	_	bratT10=Person|bratT12=Event
-13	Румянцевой	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT12=Event
+5	советской	_	_	_	_	_	_	_	bratA6=T10:Female|bratA8=T32:Adjective|bratT10=Person|bratT11=Person-property|bratT12=Event|bratT32=GPE
+6	и	_	_	_	_	_	_	_	bratA6=T10:Female|bratT10=Person|bratT11=Person-property|bratT12=Event
+7	белорусской	_	_	_	_	_	_	_	bratA6=T10:Female|bratA9=T33:Adjective|bratT10=Person|bratT11=Person-property|bratT12=Event|bratT33=GPE
+8	актрисы	_	_	_	_	_	_	_	bratA6=T10:Female|bratT10=Person|bratT11=Person-property|bratT12=Event
+9	театра	_	_	_	_	_	_	_	bratA6=T10:Female|bratT10=Person|bratT11=Person-property|bratT12=Event
+10	и	_	_	_	_	_	_	_	bratA6=T10:Female|bratT10=Person|bratT11=Person-property|bratT12=Event
+11	кино	_	_	_	_	_	_	_	bratA6=T10:Female|bratT10=Person|bratT11=Person-property|bratT12=Event
+12	Любови	_	_	_	_	_	_	_	bratA6=T10:Female|bratT10=Person|bratT12=Event|bratT29=Person-forename
+13	Румянцевой	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Female|bratT10=Person|bratT12=Event|bratT30=Person-surname
 14	.	_	_	_	_	_	_	_	_
 

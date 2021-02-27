@@ -3,28 +3,28 @@
 # par_text = Российский боец MMA прокомментировал конфликт Харитонова и Яндиева
 # sent_id = 0029-p1-s1
 # text = Российский боец MMA прокомментировал конфликт Харитонова и Яндиева
-1	Российский	_	_	_	_	_	_	_	bratT1=Person-property
+1	Российский	_	_	_	_	_	_	_	bratA18=T47:Adjective|bratT1=Person-property|bratT47=GPE
 2	боец	_	_	_	_	_	_	_	bratT1=Person-property
 3	MMA	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
 4	прокомментировал	_	_	_	_	_	_	_	_
 5	конфликт	_	_	_	_	_	_	_	_
-6	Харитонова	_	_	_	_	_	_	_	bratT3=Person
+6	Харитонова	_	_	_	_	_	_	_	bratA5=T3:Male|bratT3=Person|bratT31=Person-surname
 7	и	_	_	_	_	_	_	_	_
-8	Яндиева	_	_	_	_	_	_	_	bratT4=Person
+8	Яндиева	_	_	_	_	_	_	_	bratA6=T4:Male|bratT32=Person-surname|bratT4=Person
 
 # newpar id = 0029-p2
 # par_text = Российский боец смешанных единоборств (MMA) Магомед Исмаилов на своей странице в Instagram прокомментировал конфликт бывшего бойца Bellator Сергея Харитонова и бывшего бойца Абсолютного бойцовского чемпионата (UFC) Адама Яндиева.
 # sent_id = 0029-p2-s1
 # text = Российский боец смешанных единоборств (MMA) Магомед Исмаилов на своей странице в Instagram прокомментировал конфликт бывшего бойца Bellator Сергея Харитонова и бывшего бойца Абсолютного бойцовского чемпионата (UFC) Адама Яндиева.
-1	Российский	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-2	боец	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-3	смешанных	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-4	единоборств	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT7=Person
-6	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Other-term|bratT7=Person
-7	)	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-8	Магомед	_	_	_	_	_	_	_	bratT7=Person
-9	Исмаилов	_	_	_	_	_	_	_	bratT7=Person
+1	Российский	_	_	_	_	_	_	_	bratA19=T48:Adjective|bratA7=T7:Male|bratT48=GPE|bratT5=Person-property|bratT7=Person
+2	боец	_	_	_	_	_	_	_	bratA7=T7:Male|bratT5=Person-property|bratT7=Person
+3	смешанных	_	_	_	_	_	_	_	bratA7=T7:Male|bratT5=Person-property|bratT7=Person
+4	единоборств	_	_	_	_	_	_	_	bratA7=T7:Male|bratT5=Person-property|bratT7=Person
+5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Male|bratT5=Person-property|bratT7=Person
+6	MMA	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Male|bratT5=Person-property|bratT6=Other-term|bratT7=Person
+7	)	_	_	_	_	_	_	_	bratA7=T7:Male|bratT5=Person-property|bratT7=Person
+8	Магомед	_	_	_	_	_	_	_	bratA7=T7:Male|bratT33=Person-forename|bratT7=Person
+9	Исмаилов	_	_	_	_	_	_	_	bratA7=T7:Male|bratT34=Person-surname|bratT7=Person
 10	на	_	_	_	_	_	_	_	_
 11	своей	_	_	_	_	_	_	_	_
 12	странице	_	_	_	_	_	_	_	bratA1=T8:Media|bratT8=Service
@@ -32,22 +32,22 @@
 14	Instagram	_	_	_	_	_	_	_	bratT30=Service
 15	прокомментировал	_	_	_	_	_	_	_	_
 16	конфликт	_	_	_	_	_	_	_	_
-17	бывшего	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-18	бойца	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-19	Bellator	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT9=Person
-20	Сергея	_	_	_	_	_	_	_	bratT9=Person
-21	Харитонова	_	_	_	_	_	_	_	bratT9=Person
+17	бывшего	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT9=Person
+18	бойца	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT9=Person
+19	Bellator	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
+20	Сергея	_	_	_	_	_	_	_	bratA8=T9:Male|bratT35=Person-forename|bratT9=Person
+21	Харитонова	_	_	_	_	_	_	_	bratA8=T9:Male|bratT36=Person-surname|bratT9=Person
 22	и	_	_	_	_	_	_	_	_
-23	бывшего	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property
-24	бойца	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property
-25	Абсолютного	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT14=Organization
-26	бойцовского	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT14=Organization
-27	чемпионата	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT14=Organization
-28	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT13=Person-property
-29	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT13=Person-property|bratT15=Organization
-30	)	_	_	_	_	_	_	_	bratT12=Person
-31	Адама	_	_	_	_	_	_	_	bratT12=Person
-32	Яндиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+23	бывшего	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT13=Person-property
+24	бойца	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT13=Person-property
+25	Абсолютного	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization
+26	бойцовского	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization
+27	чемпионата	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization
+28	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT13=Person-property
+29	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT13=Person-property|bratT15=Organization
+30	)	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person
+31	Адама	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT37=Person-forename
+32	Яндиева	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT38=Person-surname
 33	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0029-p3
@@ -60,10 +60,10 @@
 4	ноября	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute
 5	в	_	_	_	_	_	_	_	_
 6	Москве	_	_	_	_	_	_	_	bratT18=GPE
-7	Яндиев	_	_	_	_	_	_	_	bratT17=Person
+7	Яндиев	_	_	_	_	_	_	_	bratA10=T17:Male|bratT17=Person|bratT39=Person-surname
 8	напал	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	Харитонова	_	_	_	_	_	_	_	bratT19=Person
+10	Харитонова	_	_	_	_	_	_	_	bratA11=T19:Male|bratT19=Person|bratT40=Person-surname
 11	и	_	_	_	_	_	_	_	_
 12	нанес	_	_	_	_	_	_	_	_
 13	ему	_	_	_	_	_	_	_	_
@@ -93,13 +93,13 @@
 # sent_id = 0029-p4-s1
 # text = Далее Харитонов написал заявление в полицию на Яндиева.
 1	Далее	_	_	_	_	_	_	_	_
-2	Харитонов	_	_	_	_	_	_	_	bratT20=Person
+2	Харитонов	_	_	_	_	_	_	_	bratA12=T20:Male|bratT20=Person|bratT41=Person-surname
 3	написал	_	_	_	_	_	_	_	_
 4	заявление	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	полицию	_	_	_	_	_	_	_	bratT29=Organization
 7	на	_	_	_	_	_	_	_	_
-8	Яндиева	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person
+8	Яндиева	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratT21=Person|bratT42=Person-surname
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0029-p4-s2
@@ -116,7 +116,7 @@
 # text = ``Оскорбить Адама и не ждать ответной реакции - глупым надо быть!
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Оскорбить	_	_	_	_	_	_	_	_
-3	Адама	_	_	_	_	_	_	_	bratT22=Person
+3	Адама	_	_	_	_	_	_	_	bratA14=T22:Male|bratT22=Person|bratT43=Person-forename
 4	и	_	_	_	_	_	_	_	_
 5	не	_	_	_	_	_	_	_	_
 6	ждать	_	_	_	_	_	_	_	_
@@ -136,7 +136,7 @@
 2	в	_	_	_	_	_	_	_	_
 3	шоке	_	_	_	_	_	_	_	_
 4	от	_	_	_	_	_	_	_	_
-5	Харитонова	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person
+5	Харитонова	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T23:Male|bratT23=Person|bratT44=Person-surname
 6	!	_	_	_	_	_	_	_	SpaceAfter=No
 7	''	_	_	_	_	_	_	_	_
 8	-	_	_	_	_	_	_	_	_
@@ -152,13 +152,13 @@
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	Яндиеву	_	_	_	_	_	_	_	bratT24=Person
+5	Яндиеву	_	_	_	_	_	_	_	bratA16=T24:Male|bratT24=Person|bratT45=Person-surname
 6	официально	_	_	_	_	_	_	_	_
 7	предъявили	_	_	_	_	_	_	_	_
 8	обвинение	_	_	_	_	_	_	_	_
 9	за	_	_	_	_	_	_	_	_
 10	драку	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
-12	Харитоновым	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person
+12	Харитоновым	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T25:Male|bratT25=Person|bratT46=Person-surname
 13	.	_	_	_	_	_	_	_	_
 

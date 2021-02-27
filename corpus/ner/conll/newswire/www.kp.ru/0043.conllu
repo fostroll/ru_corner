@@ -3,11 +3,11 @@
 # par_text = Гиперзвуковую ракету «Циркон» запустят на тысячу километров в ходе испытаний
 # sent_id = 0043-p1-s1
 # text = Гиперзвуковую ракету ``Циркон'' запустят на тысячу километров в ходе испытаний
-1	Гиперзвуковую	_	_	_	_	_	_	_	bratA1=T1:Unconscious|bratT1=Person
-2	ракету	_	_	_	_	_	_	_	bratA1=T1:Unconscious|bratT1=Person
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Unconscious|bratT1=Person
-4	Циркон	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Unconscious|bratT1=Person
-5	''	_	_	_	_	_	_	_	bratA1=T1:Unconscious|bratT1=Person
+1	Гиперзвуковую	_	_	_	_	_	_	_	bratT1=Product
+2	ракету	_	_	_	_	_	_	_	bratT1=Product
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Product
+4	Циркон	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Product
+5	''	_	_	_	_	_	_	_	bratT1=Product
 6	запустят	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	bratT2=Quantity
 8	тысячу	_	_	_	_	_	_	_	bratT2=Quantity
@@ -20,12 +20,12 @@
 # par_text = Гиперзвуковую противокорабельную ракету «Циркон» планируют запустить на расстояние около тысячи километров по имитирующей корабль противника цели в ходе новых испытаний, которые намечены на ноябрь этого года
 # sent_id = 0043-p2-s1
 # text = Гиперзвуковую противокорабельную ракету ``Циркон'' планируют запустить на расстояние около тысячи километров по имитирующей корабль противника цели в ходе новых испытаний, которые намечены на ноябрь этого года
-1	Гиперзвуковую	_	_	_	_	_	_	_	bratA2=T3:Unconscious|bratT3=Person
-2	противокорабельную	_	_	_	_	_	_	_	bratA2=T3:Unconscious|bratT3=Person
-3	ракету	_	_	_	_	_	_	_	bratA2=T3:Unconscious|bratT3=Person
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Unconscious|bratT3=Person
-5	Циркон	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Unconscious|bratT3=Person
-6	''	_	_	_	_	_	_	_	bratA2=T3:Unconscious|bratT3=Person
+1	Гиперзвуковую	_	_	_	_	_	_	_	bratT3=Product
+2	противокорабельную	_	_	_	_	_	_	_	bratT3=Product
+3	ракету	_	_	_	_	_	_	_	bratT3=Product
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Product
+5	Циркон	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Product
+6	''	_	_	_	_	_	_	_	bratT3=Product
 7	планируют	_	_	_	_	_	_	_	_
 8	запустить	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
@@ -54,11 +54,11 @@
 # par_text = «Гиперзвуковой «Циркон» по плану ноябрьского испытательного пуска должен преодолеть расстояние порядка тысячи километров», - приводит ТАСС сообщение источника в оборонно-промышленном комплексе.
 # sent_id = 0043-p3-s1
 # text = ``Гиперзвуковой ``Циркон'' по плану ноябрьского испытательного пуска должен преодолеть расстояние порядка тысячи километров'', - приводит ТАСС сообщение источника в оборонно-промышленном комплексе.
-1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T6:Unconscious|bratT6=Person
-2	Гиперзвуковой	_	_	_	_	_	_	_	bratA3=T6:Unconscious|bratT6=Person
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T6:Unconscious|bratT6=Person
-4	Циркон	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T6:Unconscious|bratT6=Person
-5	''	_	_	_	_	_	_	_	bratA3=T6:Unconscious|bratT6=Person
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Product
+2	Гиперзвуковой	_	_	_	_	_	_	_	bratT6=Product
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Product
+4	Циркон	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Product
+5	''	_	_	_	_	_	_	_	bratT6=Product
 6	по	_	_	_	_	_	_	_	_
 7	плану	_	_	_	_	_	_	_	_
 8	ноябрьского	_	_	_	_	_	_	_	_
@@ -109,8 +109,8 @@
 21	Северного	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT10=Organization|bratT9=Person
 22	флота	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT10=Organization|bratT9=Person
 23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Unconscious|bratT9=Person
-24	Адмирал	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT29=Person-property|bratT30=Person|bratT9=Person
-25	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Unconscious|bratT26=Person-surname|bratT30=Person|bratT9=Person
+24	Адмирал	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT9=Person
+25	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Unconscious|bratT9=Person
 26	''	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT9=Person
 
 # newpar id = 0043-p5
@@ -129,10 +129,10 @@
 10	головной	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
 11	фрегат	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
 12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Unconscious|bratT13=Person
-13	Адмирал	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person|bratT31=Person|bratT32=Person-property
-14	Флота	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person|bratT31=Person|bratT32=Person-property
-15	СССР	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person|bratT31=Person|bratT32=Person-property|bratT33=GPE
-16	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Unconscious|bratT13=Person|bratT28=Person-surname|bratT31=Person
+13	Адмирал	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
+14	Флота	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
+15	СССР	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
+16	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Unconscious|bratT13=Person
 17	''	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
 18	в	_	_	_	_	_	_	_	_
 19	первый	_	_	_	_	_	_	_	bratT14=Ordinal

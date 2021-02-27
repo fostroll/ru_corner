@@ -17,7 +17,7 @@
 # par_text = Российский Союз потребителей и эксперты Международной конфедерации обществ потребителей предложили возмещать затраты жителей страны на тестирование для диагностики коронавирусной инфекции в частных клиниках из бюджета. Об этом в понедельник, 2 ноября, пишет газета «Известия».
 # sent_id = 0026-p2-s1
 # text = Российский Союз потребителей и эксперты Международной конфедерации обществ потребителей предложили возмещать затраты жителей страны на тестирование для диагностики коронавирусной инфекции в частных клиниках из бюджета.
-1	Российский	_	_	_	_	_	_	_	bratT3=Organization|bratT44=GPE
+1	Российский	_	_	_	_	_	_	_	bratA10=T44:Adjective|bratT3=Organization|bratT44=GPE
 2	Союз	_	_	_	_	_	_	_	bratT3=Organization
 3	потребителей	_	_	_	_	_	_	_	bratT3=Organization
 4	и	_	_	_	_	_	_	_	_
@@ -65,11 +65,11 @@
 # par_text = Глава Союза потребителей Петр Шелищ отметил, что в организацию стали поступать обращения от близких пациентов, которым врачи поставили диагноз коронавирус. Общественник объяснил, что на фоне больших очередей в государственных поликлиниках, в которых тест на коронавирусную инфекцию можно сделать бесплатно, пациенты вынуждены сдавать ПЦР в частных клиниках, оплачивая диагностику из своего кармана.
 # sent_id = 0026-p3-s1
 # text = Глава Союза потребителей Петр Шелищ отметил, что в организацию стали поступать обращения от близких пациентов, которым врачи поставили диагноз коронавирус.
-1	Глава	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person
-2	Союза	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property|bratT13=Person
-3	потребителей	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property|bratT13=Person
-4	Петр	_	_	_	_	_	_	_	bratT13=Person|bratT36=Person-forename
-5	Шелищ	_	_	_	_	_	_	_	bratT13=Person|bratT37=Person-surname
+1	Глава	_	_	_	_	_	_	_	bratA6=T13:Male|bratT12=Person-property|bratT13=Person
+2	Союза	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Organization|bratT12=Person-property|bratT13=Person
+3	потребителей	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Organization|bratT12=Person-property|bratT13=Person
+4	Петр	_	_	_	_	_	_	_	bratA6=T13:Male|bratT13=Person|bratT36=Person-forename
+5	Шелищ	_	_	_	_	_	_	_	bratA6=T13:Male|bratT13=Person|bratT37=Person-surname
 6	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
@@ -178,8 +178,8 @@
 7	,	_	_	_	_	_	_	_	_
 8	-	_	_	_	_	_	_	_	_
 9	подчеркнул	_	_	_	_	_	_	_	_
-10	Петр	_	_	_	_	_	_	_	bratT25=Person|bratT38=Person-forename
-11	Шелищ	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person|bratT39=Person-surname
+10	Петр	_	_	_	_	_	_	_	bratA7=T25:Male|bratT25=Person|bratT38=Person-forename
+11	Шелищ	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T25:Male|bratT25=Person|bratT39=Person-surname
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0026-p5
@@ -190,27 +190,27 @@
 2	предложение	_	_	_	_	_	_	_	_
 3	уже	_	_	_	_	_	_	_	_
 4	направили	_	_	_	_	_	_	_	_
-5	главе	_	_	_	_	_	_	_	bratT29=Person-property|bratT30=Person
-6	межведомственной	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-7	комиссии	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-8	Совета	_	_	_	_	_	_	_	bratA3=T28:Department|bratT27=Organization|bratT28=Organization|bratT29=Person-property|bratT30=Person
-9	безопасности	_	_	_	_	_	_	_	bratA3=T28:Department|bratT27=Organization|bratT28=Organization|bratT29=Person-property|bratT30=Person
-10	России	_	_	_	_	_	_	_	bratA3=T28:Department|bratT26=GPE|bratT27=Organization|bratT28=Organization|bratT29=Person-property|bratT30=Person
-11	по	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-12	вопросам	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-13	создания	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-14	национальной	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-15	системы	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-16	защиты	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-17	от	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-18	новых	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-19	инфекций	_	_	_	_	_	_	_	bratA3=T28:Department|bratT28=Organization|bratT29=Person-property|bratT30=Person
-20	Дмитрию	_	_	_	_	_	_	_	bratT30=Person|bratT42=Person-forename
-21	Медведеву	_	_	_	_	_	_	_	bratT30=Person|bratT43=Person-surname
+5	главе	_	_	_	_	_	_	_	bratA8=T30:Male|bratT29=Person-property|bratT30=Person
+6	межведомственной	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+7	комиссии	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+8	Совета	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT27=Organization|bratT28=Organization|bratT29=Person-property|bratT30=Person
+9	безопасности	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT27=Organization|bratT28=Organization|bratT29=Person-property|bratT30=Person
+10	России	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT26=GPE|bratT27=Organization|bratT28=Organization|bratT29=Person-property|bratT30=Person
+11	по	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+12	вопросам	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+13	создания	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+14	национальной	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+15	системы	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+16	защиты	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+17	от	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+18	новых	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+19	инфекций	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+20	Дмитрию	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT42=Person-forename
+21	Медведеву	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT43=Person-surname
 22	и	_	_	_	_	_	_	_	_
-23	руководителю	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Person
-24	Роспотребнадзора	_	_	_	_	_	_	_	bratT31=Organization|bratT32=Person-property|bratT33=Person
-25	Анне	_	_	_	_	_	_	_	bratT33=Person|bratT40=Person-forename
-26	Поповой	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person|bratT41=Person-surname
+23	руководителю	_	_	_	_	_	_	_	bratA9=T33:Female|bratT32=Person-property|bratT33=Person
+24	Роспотребнадзора	_	_	_	_	_	_	_	bratA9=T33:Female|bratT31=Organization|bratT32=Person-property|bratT33=Person
+25	Анне	_	_	_	_	_	_	_	bratA9=T33:Female|bratT33=Person|bratT40=Person-forename
+26	Поповой	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T33:Female|bratT33=Person|bratT41=Person-surname
 27	.	_	_	_	_	_	_	_	_
 

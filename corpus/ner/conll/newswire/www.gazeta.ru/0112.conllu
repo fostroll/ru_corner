@@ -13,19 +13,19 @@
 # par_text = Глава Научно-практического центра инфекционной патологии, СПИДа и клинической иммунологии Грузии Тенгиз Церцвадзе заразился коронавирусом. Об этом сообщает «Интерфакс».
 # sent_id = 0112-p2-s1
 # text = Глава Научно-практического центра инфекционной патологии, СПИДа и клинической иммунологии Грузии Тенгиз Церцвадзе заразился коронавирусом.
-1	Глава	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-2	Научно-практического	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-3	центра	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-4	инфекционной	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-5	патологии	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization|bratT7=Person-property|bratT8=Person
-6	,	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-7	СПИДа	_	_	_	_	_	_	_	bratT4=Other-term|bratT6=Organization|bratT7=Person-property|bratT8=Person
-8	и	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-9	клинической	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-10	иммунологии	_	_	_	_	_	_	_	bratT6=Organization|bratT7=Person-property|bratT8=Person
-11	Грузии	_	_	_	_	_	_	_	bratT5=GPE|bratT6=Organization|bratT7=Person-property|bratT8=Person
-12	Тенгиз	_	_	_	_	_	_	_	bratT8=Person
-13	Церцвадзе	_	_	_	_	_	_	_	bratT8=Person
+1	Глава	_	_	_	_	_	_	_	bratA4=T8:Male|bratT7=Person-property|bratT8=Person
+2	Научно-практического	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+3	центра	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+4	инфекционной	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+5	патологии	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+6	,	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+7	СПИДа	_	_	_	_	_	_	_	bratA4=T8:Male|bratT4=Other-term|bratT6=Organization|bratT7=Person-property|bratT8=Person
+8	и	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+9	клинической	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+10	иммунологии	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+11	Грузии	_	_	_	_	_	_	_	bratA4=T8:Male|bratT5=GPE|bratT6=Organization|bratT7=Person-property|bratT8=Person
+12	Тенгиз	_	_	_	_	_	_	_	bratA4=T8:Male|bratT33=Person-forename|bratT8=Person
+13	Церцвадзе	_	_	_	_	_	_	_	bratA4=T8:Male|bratT34=Person-surname|bratT8=Person
 14	заразился	_	_	_	_	_	_	_	_
 15	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Other-term
 16	.	_	_	_	_	_	_	_	_
@@ -86,7 +86,7 @@
 1	В	_	_	_	_	_	_	_	bratA2=T30:Present|bratT30=Date-absolute
 2	настоящее	_	_	_	_	_	_	_	bratA2=T30:Present|bratT30=Date-absolute|bratT32=Ordinal
 3	время	_	_	_	_	_	_	_	bratA2=T30:Present|bratT30=Date-absolute
-4	Церцвадзе	_	_	_	_	_	_	_	bratT14=Person
+4	Церцвадзе	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT35=Person-surname
 5	проходит	_	_	_	_	_	_	_	_
 6	курс	_	_	_	_	_	_	_	_
 7	лечения	_	_	_	_	_	_	_	_
@@ -97,7 +97,7 @@
 # par_text = Церцвадзе является ведущим инфекционистом в Грузии. Еще в годы СССР он основал в Грузии Центр исследования СПИДа. Грузинское правительство поручило Цервадзе в первые дни пандемии коронавируса встать во главе группы специалистов для разработки руководств по диагностике и лечению COVID-19.
 # sent_id = 0112-p5-s1
 # text = Церцвадзе является ведущим инфекционистом в Грузии.
-1	Церцвадзе	_	_	_	_	_	_	_	bratT15=Person
+1	Церцвадзе	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT36=Person-surname
 2	является	_	_	_	_	_	_	_	_
 3	ведущим	_	_	_	_	_	_	_	bratT16=Person-property
 4	инфекционистом	_	_	_	_	_	_	_	bratT16=Person-property
@@ -122,10 +122,10 @@
 
 # sent_id = 0112-p5-s3
 # text = Грузинское правительство поручило Цервадзе в первые дни пандемии коронавируса встать во главе группы специалистов для разработки руководств по диагностике и лечению COVID-19.
-1	Грузинское	_	_	_	_	_	_	_	bratT22=Organization
+1	Грузинское	_	_	_	_	_	_	_	bratA8=T38:Adjective|bratT22=Organization|bratT38=GPE
 2	правительство	_	_	_	_	_	_	_	bratT22=Organization
 3	поручило	_	_	_	_	_	_	_	_
-4	Цервадзе	_	_	_	_	_	_	_	bratT23=Person
+4	Цервадзе	_	_	_	_	_	_	_	bratA7=T23:Male|bratT23=Person|bratT37=Person-surname
 5	в	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-period-absolute
 6	первые	_	_	_	_	_	_	_	bratA3=T29:Past|bratT27=Ordinal|bratT29=Date-period-absolute
 7	дни	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-period-absolute|bratT31=Duration

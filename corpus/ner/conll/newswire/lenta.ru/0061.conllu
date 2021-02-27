@@ -7,22 +7,22 @@
 2	снизить	_	_	_	_	_	_	_	_
 3	налоги	_	_	_	_	_	_	_	_
 4	удивило	_	_	_	_	_	_	_	_
-5	российских	_	_	_	_	_	_	_	bratT32=GPE
+5	российских	_	_	_	_	_	_	_	bratA6=T32:Adjective|bratT32=GPE
 6	налоговиков	_	_	_	_	_	_	_	_
 
 # newpar id = 0061-p2
 # par_text = Глава Федеральной налоговой службы (ФНС) Даниил Егоров удивился предложению Торгово-промышленной палаты (ТПП) России снизить налоги для самозанятых до 1 процента. Об этом он рассказал на Всероссийском налоговом форуме в ТПП, сообщает РБК.
 # sent_id = 0061-p2-s1
 # text = Глава Федеральной налоговой службы (ФНС) Даниил Егоров удивился предложению Торгово-промышленной палаты (ТПП) России снизить налоги для самозанятых до 1 процента.
-1	Глава	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-2	Федеральной	_	_	_	_	_	_	_	bratT1=Organization|bratT3=Person-property|bratT4=Person
-3	налоговой	_	_	_	_	_	_	_	bratT1=Organization|bratT3=Person-property|bratT4=Person
-4	службы	_	_	_	_	_	_	_	bratT1=Organization|bratT3=Person-property|bratT4=Person
-5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=Person
-6	ФНС	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization|bratT3=Person-property|bratT4=Person
-7	)	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-8	Даниил	_	_	_	_	_	_	_	bratT33=Person-forename|bratT4=Person
-9	Егоров	_	_	_	_	_	_	_	bratT34=Person-surname|bratT4=Person
+1	Глава	_	_	_	_	_	_	_	bratA4=T4:Male|bratT3=Person-property|bratT4=Person
+2	Федеральной	_	_	_	_	_	_	_	bratA4=T4:Male|bratT1=Organization|bratT3=Person-property|bratT4=Person
+3	налоговой	_	_	_	_	_	_	_	bratA4=T4:Male|bratT1=Organization|bratT3=Person-property|bratT4=Person
+4	службы	_	_	_	_	_	_	_	bratA4=T4:Male|bratT1=Organization|bratT3=Person-property|bratT4=Person
+5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T4:Male|bratT3=Person-property|bratT4=Person
+6	ФНС	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T4:Male|bratT26=Organization|bratT3=Person-property|bratT4=Person
+7	)	_	_	_	_	_	_	_	bratA4=T4:Male|bratT3=Person-property|bratT4=Person
+8	Даниил	_	_	_	_	_	_	_	bratA4=T4:Male|bratT33=Person-forename|bratT4=Person
+9	Егоров	_	_	_	_	_	_	_	bratA4=T4:Male|bratT34=Person-surname|bratT4=Person
 10	удивился	_	_	_	_	_	_	_	_
 11	предложению	_	_	_	_	_	_	_	_
 12	Торгово-промышленной	_	_	_	_	_	_	_	bratT2=Organization
@@ -92,7 +92,7 @@
 
 # sent_id = 0061-p3-s2
 # text = Егоров отметил, что действующая ставка в 4-6 процентов выглядит скорее ``социальным проектом''.
-1	Егоров	_	_	_	_	_	_	_	bratT11=Person|bratT35=Person-surname
+1	Егоров	_	_	_	_	_	_	_	bratA5=T11:Male|bratT11=Person|bratT35=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 2	образом	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	подчеркнул	_	_	_	_	_	_	_	_
-5	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT36=Person-surname
+5	Егоров	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T18:Male|bratT18=Person|bratT36=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	налог	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -232,7 +232,7 @@
 # sent_id = 0061-p6-s1
 # text = Однако Егоров заметил, что если налоги в каждом субъекте Федерации будут разные, то их станет сложнее администрировать, что приведет к дополнительным расходам.
 1	Однако	_	_	_	_	_	_	_	_
-2	Егоров	_	_	_	_	_	_	_	bratT20=Person|bratT37=Person-surname
+2	Егоров	_	_	_	_	_	_	_	bratA8=T20:Male|bratT20=Person|bratT37=Person-surname
 3	заметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

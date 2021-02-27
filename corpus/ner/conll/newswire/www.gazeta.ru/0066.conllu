@@ -3,7 +3,7 @@
 # par_text = Рогозин подал иск о защите чести и достоинства на 300 тысяч рублей
 # sent_id = 0066-p1-s1
 # text = Рогозин подал иск о защите чести и достоинства на 300 тысяч рублей
-1	Рогозин	_	_	_	_	_	_	_	bratT1=Person
+1	Рогозин	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT2=Person-surname
 2	подал	_	_	_	_	_	_	_	_
 3	иск	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
@@ -20,12 +20,12 @@
 # par_text = Глава »Роскосмоса» Дмитрий Рогозин подал в суд иск о защите чести и достоинства на 300 тыс. руб. против некоторых СМИ, пишет РИА «Новости» со ссылкой на пресс-службу корпорации.
 # sent_id = 0066-p2-s1
 # text = Глава ``Роскосмоса'' Дмитрий Рогозин подал в суд иск о защите чести и достоинства на 300 тыс. руб. против некоторых СМИ, пишет РИА ``Новости'' со ссылкой на пресс-службу корпорации.
-1	Глава	_	_	_	_	_	_	_	bratT5=Person|bratT6=Person
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person|bratT6=Person
-3	Роскосмоса	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person|bratT6=Person
-4	''	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person|bratT6=Person
-5	Дмитрий	_	_	_	_	_	_	_	bratT6=Person
-6	Рогозин	_	_	_	_	_	_	_	bratT6=Person
+1	Глава	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Person-property|bratT6=Person
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Male|bratT4=Organization|bratT5=Person-property|bratT6=Person
+3	Роскосмоса	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Male|bratT4=Organization|bratT5=Person-property|bratT6=Person
+4	''	_	_	_	_	_	_	_	bratA7=T6:Male|bratT4=Organization|bratT5=Person-property|bratT6=Person
+5	Дмитрий	_	_	_	_	_	_	_	bratA7=T6:Male|bratT6=Person|bratT7=Person-forename
+6	Рогозин	_	_	_	_	_	_	_	bratA7=T6:Male|bratT10=Person-surname|bratT6=Person
 7	подал	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	суд	_	_	_	_	_	_	_	_
@@ -88,7 +88,7 @@
 # par_text = Рогозин также заявил, что взысканные суммы передаст в детский дом.
 # sent_id = 0066-p4-s1
 # text = Рогозин также заявил, что взысканные суммы передаст в детский дом.
-1	Рогозин	_	_	_	_	_	_	_	bratT12=Person
+1	Рогозин	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person|bratT19=Person-surname
 2	также	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 9	критически	_	_	_	_	_	_	_	_
 10	отозвавшихся	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
-12	Рогозине	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person
+12	Рогозине	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T13:Male|bratT13=Person|bratT20=Person-surname
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p5-s2

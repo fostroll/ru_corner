@@ -13,17 +13,37 @@ A1	Media T11
 T12	Product 316 348	акции   ``   Сохраним   лес   ''
 T13	Organization 303 348	оргкомитет   акции   ``   Сохраним   лес   ''
 T14	Quantity 412 422	58   сосен
-T15	Person 524 546	Нурмагомедова-старшего
-T16	Organization 808 856	комитета   по   лесному   хозяйству   республики
-T17	Person-property 786 856	врио   председателя   комитета   по   лесному   хозяйству   республики
-T18	Person 786 879	врио   председателя   комитета   по   лесному   хозяйству   республики   Вагаб   Абдулхамидов
-T19	Person 900 925	Абдулманап   Нурмагомедов
-T20	Date-absolute 935 957	3   июля   2020   года
-T21	Person 971 976	Хабиб
-T22	GPE 999 1008	Дагестана
+T15	Person 524 552	Нурмагомедова   -   старшего
+T16	Organization 814 862	комитета   по   лесному   хозяйству   республики
+T17	Person-property 792 862	врио   председателя   комитета   по   лесному   хозяйству   республики
+T18	Person 792 885	врио   председателя   комитета   по   лесному   хозяйству   республики   Вагаб   Абдулхамидов
+T19	Person 906 931	Абдулманап   Нурмагомедов
+T20	Date-absolute 941 963	3   июля   2020   года
+T21	Person 977 982	Хабиб
+T22	GPE 1005 1014	Дагестана
 T24	Organization 193 196	UFC
 A3	Project T12
-T23	Ordinal 647 658	Последующее
-T26	Date-relative 963 968	Ранее
+T23	Ordinal 653 664	Последующее
+T26	Date-relative 969 974	Ранее
 A2	Past T20
 A4	Past T26
+T25	Person-forename 52 63	Абдулманапе
+T27	Person-surname 66 79	Нурмагомедове
+A5	Male T2
+T28	Person-forename 203 209	Хабиба
+T29	Person-surname 212 225	Нурмагомедова
+T30	Person-forename 228 239	Абдулманапе
+T31	Person-surname 242 255	Нурмагомедове
+A6	Male T9
+A7	Male T7
+T32	Person-surname 524 537	Нурмагомедова
+T33	Person-affix 544 552	старшего
+A8	Male T15
+T34	Person-forename 865 870	Вагаб
+T35	Person-surname 873 885	Абдулхамидов
+A9	Male T18
+T36	Person-forename 906 916	Абдулманап
+T37	Person-surname 919 931	Нурмагомедов
+A10	Male T19
+T38	Person-forename 977 982	Хабиб
+A11	Male T21

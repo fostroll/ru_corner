@@ -3,7 +3,7 @@
 # par_text = Путин: Россия готова поставить вакцину нуждающимся странам
 # sent_id = 0084-p1-s1
 # text = Путин: Россия готова поставить вакцину нуждающимся странам
-1	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person
+1	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T1:Male|bratT1=Person|bratT21=Person-surname
 2	:	_	_	_	_	_	_	_	_
 3	Россия	_	_	_	_	_	_	_	bratT2=GPE
 4	готова	_	_	_	_	_	_	_	_
@@ -16,14 +16,14 @@
 # par_text = Президент России Владимир Путин заявил, что российская сторона готова поставить разработанные Россией вакцины от коронавирусной инфекции COVID-19 нуждающимся странам. Об этом он сказал в ходе выступления на саммите G20 в режиме видеоконференции.
 # sent_id = 0084-p2-s1
 # text = Президент России Владимир Путин заявил, что российская сторона готова поставить разработанные Россией вакцины от коронавирусной инфекции COVID-19 нуждающимся странам.
-1	Президент	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=Person
-2	России	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT12=Person
-3	Владимир	_	_	_	_	_	_	_	bratT12=Person
-4	Путин	_	_	_	_	_	_	_	bratT12=Person
+1	Президент	_	_	_	_	_	_	_	bratA4=T12:Male|bratT10=Person-property|bratT12=Person
+2	России	_	_	_	_	_	_	_	bratA4=T12:Male|bratT10=Person-property|bratT11=GPE|bratT12=Person
+3	Владимир	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT22=Person-forename
+4	Путин	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT23=Person-surname
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	российская	_	_	_	_	_	_	_	_
+8	российская	_	_	_	_	_	_	_	bratA5=T24:Adjective|bratT24=GPE
 9	сторона	_	_	_	_	_	_	_	_
 10	готова	_	_	_	_	_	_	_	_
 11	поставить	_	_	_	_	_	_	_	_

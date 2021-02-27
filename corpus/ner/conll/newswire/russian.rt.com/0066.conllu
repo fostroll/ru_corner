@@ -14,11 +14,11 @@
 # par_text = Глава МЧС России Евгений Зиничев прибыл в Ереван в составе межведомственной делегации с целью обсуждения гуманитарных задач и вопросов реализации трёхстороннего заявления по Нагорному Карабаху. Об этом информирует ТАСС со ссылкой на пресс-службу ведомства.
 # sent_id = 0066-p2-s1
 # text = Глава МЧС России Евгений Зиничев прибыл в Ереван в составе межведомственной делегации с целью обсуждения гуманитарных задач и вопросов реализации трёхстороннего заявления по Нагорному Карабаху.
-1	Глава	_	_	_	_	_	_	_	bratT26=Person-property|bratT29=Person
-2	МЧС	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization|bratT29=Person
-3	России	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization|bratT29=Person
-4	Евгений	_	_	_	_	_	_	_	bratT29=Person
-5	Зиничев	_	_	_	_	_	_	_	bratT29=Person
+1	Глава	_	_	_	_	_	_	_	bratA8=T29:Male|bratT26=Person-property|bratT29=Person
+2	МЧС	_	_	_	_	_	_	_	bratA8=T29:Male|bratT26=Person-property|bratT27=Organization|bratT29=Person
+3	России	_	_	_	_	_	_	_	bratA8=T29:Male|bratT26=Person-property|bratT27=Organization|bratT29=Person
+4	Евгений	_	_	_	_	_	_	_	bratA8=T29:Male|bratT29=Person|bratT39=Person-forename
+5	Зиничев	_	_	_	_	_	_	_	bratA8=T29:Male|bratT29=Person|bratT40=Person-surname
 6	прибыл	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	Ереван	_	_	_	_	_	_	_	bratT30=GPE
@@ -59,33 +59,33 @@
 # sent_id = 0066-p3-s1
 # text = ``Евгений Зиничев проведёт 21 ноября рабочую встречу с министром по чрезвычайным ситуациям Республики Армения Андраником Пилояном и министром по чрезвычайным ситуациям Азербайджанской Республики Гейдаровым Кямаледдином Фаттах оглы'', - рассказали в пресс-службе.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Евгений	_	_	_	_	_	_	_	bratT4=Person
-3	Зиничев	_	_	_	_	_	_	_	bratT4=Person
+2	Евгений	_	_	_	_	_	_	_	bratA9=T4:Male|bratT4=Person|bratT41=Person-forename
+3	Зиничев	_	_	_	_	_	_	_	bratA9=T4:Male|bratT4=Person|bratT42=Person-surname
 4	проведёт	_	_	_	_	_	_	_	_
 5	21	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
 6	ноября	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
 7	рабочую	_	_	_	_	_	_	_	bratT23=Event
 8	встречу	_	_	_	_	_	_	_	bratT23=Event
 9	с	_	_	_	_	_	_	_	_
-10	министром	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-11	по	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-12	чрезвычайным	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-13	ситуациям	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-14	Республики	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=GPE
-15	Армения	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=GPE
-16	Андраником	_	_	_	_	_	_	_	bratT6=Person
-17	Пилояном	_	_	_	_	_	_	_	bratT6=Person
+10	министром	_	_	_	_	_	_	_	bratA10=T6:Male|bratT6=Person|bratT7=Person-property
+11	по	_	_	_	_	_	_	_	bratA10=T6:Male|bratT6=Person|bratT7=Person-property
+12	чрезвычайным	_	_	_	_	_	_	_	bratA10=T6:Male|bratT6=Person|bratT7=Person-property
+13	ситуациям	_	_	_	_	_	_	_	bratA10=T6:Male|bratT6=Person|bratT7=Person-property
+14	Республики	_	_	_	_	_	_	_	bratA10=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
+15	Армения	_	_	_	_	_	_	_	bratA10=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
+16	Андраником	_	_	_	_	_	_	_	bratA10=T6:Male|bratT43=Person-forename|bratT6=Person
+17	Пилояном	_	_	_	_	_	_	_	bratA10=T6:Male|bratT44=Person-surname|bratT6=Person
 18	и	_	_	_	_	_	_	_	_
-19	министром	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-20	по	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-21	чрезвычайным	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-22	ситуациям	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Person
-23	Азербайджанской	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT9=Person
-24	Республики	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=GPE|bratT9=Person
-25	Гейдаровым	_	_	_	_	_	_	_	bratT9=Person
-26	Кямаледдином	_	_	_	_	_	_	_	bratT9=Person
-27	Фаттах	_	_	_	_	_	_	_	bratT9=Person
-28	оглы	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person
+19	министром	_	_	_	_	_	_	_	bratA11=T9:Male|bratT10=Person-property|bratT9=Person
+20	по	_	_	_	_	_	_	_	bratA11=T9:Male|bratT10=Person-property|bratT9=Person
+21	чрезвычайным	_	_	_	_	_	_	_	bratA11=T9:Male|bratT10=Person-property|bratT9=Person
+22	ситуациям	_	_	_	_	_	_	_	bratA11=T9:Male|bratT10=Person-property|bratT9=Person
+23	Азербайджанской	_	_	_	_	_	_	_	bratA11=T9:Male|bratT10=Person-property|bratT11=GPE|bratT9=Person
+24	Республики	_	_	_	_	_	_	_	bratA11=T9:Male|bratT10=Person-property|bratT11=GPE|bratT9=Person
+25	Гейдаровым	_	_	_	_	_	_	_	bratA11=T9:Male|bratT45=Person-surname|bratT9=Person
+26	Кямаледдином	_	_	_	_	_	_	_	bratA11=T9:Male|bratT46=Person-forename|bratT9=Person
+27	Фаттах	_	_	_	_	_	_	_	bratA11=T9:Male|bratT47=Person-patronym|bratT9=Person
+28	оглы	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T9:Male|bratT47=Person-patronym|bratT9=Person
 29	''	_	_	_	_	_	_	_	SpaceAfter=No
 30	,	_	_	_	_	_	_	_	_
 31	-	_	_	_	_	_	_	_	_
@@ -110,10 +110,10 @@
 10	сегодня	_	_	_	_	_	_	_	bratA5=T25:Future|bratT25=Date-absolute
 11	встречу	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
-13	премьер-министром	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property
-14	Армении	_	_	_	_	_	_	_	bratT12=Person|bratT13=Person-property|bratT14=GPE
-15	Николом	_	_	_	_	_	_	_	bratT12=Person
-16	Пашиняном	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person
+13	премьер-министром	_	_	_	_	_	_	_	bratA12=T12:Male|bratT12=Person|bratT13=Person-property
+14	Армении	_	_	_	_	_	_	_	bratA12=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=GPE
+15	Николом	_	_	_	_	_	_	_	bratA12=T12:Male|bratT12=Person|bratT48=Person-forename
+16	Пашиняном	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T12:Male|bratT12=Person|bratT49=Person-surname
 17	''	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
 
@@ -122,32 +122,32 @@
 # sent_id = 0066-p5-s1
 # text = Ранее министр обороны России Сергей Шойгу в ходе встречи с армянским премьером Николом Пашиняном и министром обороны Армении Вагаршаком Арутюняном рассказал о миротворческой операции в зоне нагорнокарабахского конфликта.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-relative
-2	министр	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property
-3	обороны	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property
-4	России	_	_	_	_	_	_	_	bratT15=Person|bratT16=Person-property|bratT17=GPE
-5	Сергей	_	_	_	_	_	_	_	bratT15=Person
-6	Шойгу	_	_	_	_	_	_	_	bratT15=Person
+2	министр	_	_	_	_	_	_	_	bratA15=T15:Male|bratT15=Person|bratT16=Person-property
+3	обороны	_	_	_	_	_	_	_	bratA15=T15:Male|bratT15=Person|bratT16=Person-property
+4	России	_	_	_	_	_	_	_	bratA15=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=GPE
+5	Сергей	_	_	_	_	_	_	_	bratA15=T15:Male|bratT15=Person|bratT50=Person-forename
+6	Шойгу	_	_	_	_	_	_	_	bratA15=T15:Male|bratT15=Person|bratT51=Person-surname
 7	в	_	_	_	_	_	_	_	bratA6=T36:Past|bratT36=Date-absolute
 8	ходе	_	_	_	_	_	_	_	bratA6=T36:Past|bratT36=Date-absolute
 9	встречи	_	_	_	_	_	_	_	bratA6=T36:Past|bratT36=Date-absolute|bratT38=Event
 10	с	_	_	_	_	_	_	_	_
-11	армянским	_	_	_	_	_	_	_	bratT18=Person|bratT19=Person-property
-12	премьером	_	_	_	_	_	_	_	bratT18=Person|bratT19=Person-property
-13	Николом	_	_	_	_	_	_	_	bratT18=Person
-14	Пашиняном	_	_	_	_	_	_	_	bratT18=Person
+11	армянским	_	_	_	_	_	_	_	bratA13=T18:Male|bratA17=T52:Adjective|bratT18=Person|bratT19=Person-property|bratT52=GPE
+12	премьером	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT19=Person-property
+13	Николом	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT53=Person-forename
+14	Пашиняном	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT54=Person-surname
 15	и	_	_	_	_	_	_	_	_
-16	министром	_	_	_	_	_	_	_	bratT20=Person|bratT21=Person-property
-17	обороны	_	_	_	_	_	_	_	bratT20=Person|bratT21=Person-property
-18	Армении	_	_	_	_	_	_	_	bratT20=Person|bratT21=Person-property|bratT24=GPE
-19	Вагаршаком	_	_	_	_	_	_	_	bratT20=Person
-20	Арутюняном	_	_	_	_	_	_	_	bratT20=Person
+16	министром	_	_	_	_	_	_	_	bratA14=T20:Male|bratT20=Person|bratT21=Person-property
+17	обороны	_	_	_	_	_	_	_	bratA14=T20:Male|bratT20=Person|bratT21=Person-property
+18	Армении	_	_	_	_	_	_	_	bratA14=T20:Male|bratT20=Person|bratT21=Person-property|bratT24=GPE
+19	Вагаршаком	_	_	_	_	_	_	_	bratA14=T20:Male|bratT20=Person|bratT55=Person-forename
+20	Арутюняном	_	_	_	_	_	_	_	bratA14=T20:Male|bratT20=Person|bratT56=Person-surname
 21	рассказал	_	_	_	_	_	_	_	_
 22	о	_	_	_	_	_	_	_	_
 23	миротворческой	_	_	_	_	_	_	_	_
 24	операции	_	_	_	_	_	_	_	_
 25	в	_	_	_	_	_	_	_	_
 26	зоне	_	_	_	_	_	_	_	_
-27	нагорнокарабахского	_	_	_	_	_	_	_	bratT22=Event
+27	нагорнокарабахского	_	_	_	_	_	_	_	bratA16=T57:Adjective|bratT22=Event|bratT57=GPE
 28	конфликта	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event
 29	.	_	_	_	_	_	_	_	_
 

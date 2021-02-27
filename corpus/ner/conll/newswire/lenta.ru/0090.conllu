@@ -19,7 +19,7 @@
 # sent_id = 0090-p2-s1
 # text = Модель популярного бренда Fashion Nova снялась в нижнем белье и взволновала подписчиков.
 1	Модель	_	_	_	_	_	_	_	bratT5=Person-property
-2	популярного	_	_	_	_	_	_	_	bratT5=Person-property
+2	популярного	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
 3	бренда	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
 4	Fashion	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
 5	Nova	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
@@ -49,11 +49,11 @@
 # sent_id = 0090-p3-s1
 # text = 25-летнюю Паулин Танто (Pauline Tantot) запечатлели лежащей на ковре рядом с окном.
 1	25-летнюю	_	_	_	_	_	_	_	bratT7=Quantity
-2	Паулин	_	_	_	_	_	_	_	bratT22=Person-forename|bratT8=Person
-3	Танто	_	_	_	_	_	_	_	bratT23=Person-surname|bratT8=Person
+2	Паулин	_	_	_	_	_	_	_	bratA5=T8:Female|bratT22=Person-forename|bratT8=Person
+3	Танто	_	_	_	_	_	_	_	bratA5=T8:Female|bratT23=Person-surname|bratT8=Person
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
-5	Pauline	_	_	_	_	_	_	_	bratT19=Person|bratT24=Person-forename
-6	Tantot	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT25=Person-surname
+5	Pauline	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT24=Person-forename
+6	Tantot	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Female|bratT19=Person|bratT25=Person-surname
 7	)	_	_	_	_	_	_	_	_
 8	запечатлели	_	_	_	_	_	_	_	_
 9	лежащей	_	_	_	_	_	_	_	_
@@ -182,8 +182,8 @@
 1	Ранее	_	_	_	_	_	_	_	bratA3=T14:Past|bratA4=T21:Past|bratT14=Date-absolute|bratT21=Date-relative
 2	в	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute
 3	октябре	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute
-4	Паулин	_	_	_	_	_	_	_	bratT15=Person|bratT27=Person-forename
-5	Танто	_	_	_	_	_	_	_	bratT15=Person|bratT28=Person-surname
+4	Паулин	_	_	_	_	_	_	_	bratA7=T15:Female|bratT15=Person|bratT27=Person-forename
+5	Танто	_	_	_	_	_	_	_	bratA7=T15:Female|bratT15=Person|bratT28=Person-surname
 6	поделилась	_	_	_	_	_	_	_	_
 7	кадрами	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_

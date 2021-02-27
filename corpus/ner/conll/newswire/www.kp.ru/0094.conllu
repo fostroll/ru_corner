@@ -8,7 +8,7 @@
 3	оценил	_	_	_	_	_	_	_	_
 4	срок	_	_	_	_	_	_	_	_
 5	пребывания	_	_	_	_	_	_	_	_
-6	российских	_	_	_	_	_	_	_	bratT3=Person-property
+6	российских	_	_	_	_	_	_	_	bratA16=T62:Adjective|bratT3=Person-property|bratT62=GPE
 7	миротворцев	_	_	_	_	_	_	_	bratT3=Person-property
 8	в	_	_	_	_	_	_	_	_
 9	Карабахе	_	_	_	_	_	_	_	bratT4=GPE
@@ -17,15 +17,15 @@
 # par_text = Армянский премьер-министр Никол Пашинян предположил, что нахождение российских миротворцев в Нагорном Карабахе не ограничится пятилетним сроком. Об этом политик сообщил в интервью ТАСС в среду, 25 ноября.
 # sent_id = 0094-p2-s1
 # text = Армянский премьер-министр Никол Пашинян предположил, что нахождение российских миротворцев в Нагорном Карабахе не ограничится пятилетним сроком.
-1	Армянский	_	_	_	_	_	_	_	bratT5=Person-property|bratT59=GPE|bratT6=Person
-2	премьер-министр	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Person
-3	Никол	_	_	_	_	_	_	_	bratT48=Person-forename|bratT6=Person
-4	Пашинян	_	_	_	_	_	_	_	bratT49=Person-surname|bratT6=Person
+1	Армянский	_	_	_	_	_	_	_	bratA10=T6:Male|bratA17=T59:Adjective|bratT5=Person-property|bratT59=GPE|bratT6=Person
+2	премьер-министр	_	_	_	_	_	_	_	bratA10=T6:Male|bratT5=Person-property|bratT6=Person
+3	Никол	_	_	_	_	_	_	_	bratA10=T6:Male|bratT48=Person-forename|bratT6=Person
+4	Пашинян	_	_	_	_	_	_	_	bratA10=T6:Male|bratT49=Person-surname|bratT6=Person
 5	предположил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
 8	нахождение	_	_	_	_	_	_	_	_
-9	российских	_	_	_	_	_	_	_	bratT7=Person-property
+9	российских	_	_	_	_	_	_	_	bratA18=T63:Adjective|bratT63=GPE|bratT7=Person-property
 10	миротворцев	_	_	_	_	_	_	_	bratT7=Person-property
 11	в	_	_	_	_	_	_	_	_
 12	Нагорном	_	_	_	_	_	_	_	bratT8=GPE
@@ -73,7 +73,7 @@
 
 # sent_id = 0094-p3-s2
 # text = Карабахский конфликт затяжной, не думаю, что нахождение российских миротворцев там ограничится пятилетним сроком, - объяснил свое мнение Пашинян.
-1	Карабахский	_	_	_	_	_	_	_	bratT14=Event|bratT60=GPE
+1	Карабахский	_	_	_	_	_	_	_	bratA19=T60:Adjective|bratT14=Event|bratT60=GPE
 2	конфликт	_	_	_	_	_	_	_	bratT14=Event
 3	затяжной	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -82,7 +82,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	нахождение	_	_	_	_	_	_	_	_
-10	российских	_	_	_	_	_	_	_	bratT15=Person-property
+10	российских	_	_	_	_	_	_	_	bratA20=T64:Adjective|bratT15=Person-property|bratT64=GPE
 11	миротворцев	_	_	_	_	_	_	_	bratT15=Person-property
 12	там	_	_	_	_	_	_	_	_
 13	ограничится	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 18	объяснил	_	_	_	_	_	_	_	_
 19	свое	_	_	_	_	_	_	_	_
 20	мнение	_	_	_	_	_	_	_	_
-21	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT50=Person-surname
+21	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T17:Male|bratT17=Person|bratT50=Person-surname
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0094-p4
@@ -196,8 +196,8 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	добавил	_	_	_	_	_	_	_	_
-19	Никол	_	_	_	_	_	_	_	bratT24=Person|bratT51=Person-forename
-20	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT52=Person-surname
+19	Никол	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT51=Person-forename
+20	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T24:Male|bratT24=Person|bratT52=Person-surname
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0094-p6
@@ -211,20 +211,20 @@
 5	,	_	_	_	_	_	_	_	_
 6	9	_	_	_	_	_	_	_	bratA8=T26:Past|bratT26=Date-absolute
 7	ноября	_	_	_	_	_	_	_	bratA8=T26:Past|bratT26=Date-absolute
-8	российский	_	_	_	_	_	_	_	bratT27=Person-property|bratT28=Person|bratT61=GPE
-9	лидер	_	_	_	_	_	_	_	bratT27=Person-property|bratT28=Person
-10	Владимир	_	_	_	_	_	_	_	bratT28=Person|bratT53=Person-forename
-11	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person|bratT54=Person-surname
+8	российский	_	_	_	_	_	_	_	bratA13=T28:Male|bratA21=T61:Adjective|bratT27=Person-property|bratT28=Person|bratT61=GPE
+9	лидер	_	_	_	_	_	_	_	bratA13=T28:Male|bratT27=Person-property|bratT28=Person
+10	Владимир	_	_	_	_	_	_	_	bratA13=T28:Male|bratT28=Person|bratT53=Person-forename
+11	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T28:Male|bratT28=Person|bratT54=Person-surname
 12	,	_	_	_	_	_	_	_	_
-13	президент	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
-14	Азербайджана	_	_	_	_	_	_	_	bratT29=GPE|bratT30=Person-property|bratT31=Person
-15	Ильхам	_	_	_	_	_	_	_	bratT31=Person|bratT55=Person-forename
-16	Алиев	_	_	_	_	_	_	_	bratT31=Person|bratT56=Person-surname
+13	президент	_	_	_	_	_	_	_	bratA14=T31:Male|bratT30=Person-property|bratT31=Person
+14	Азербайджана	_	_	_	_	_	_	_	bratA14=T31:Male|bratT29=GPE|bratT30=Person-property|bratT31=Person
+15	Ильхам	_	_	_	_	_	_	_	bratA14=T31:Male|bratT31=Person|bratT55=Person-forename
+16	Алиев	_	_	_	_	_	_	_	bratA14=T31:Male|bratT31=Person|bratT56=Person-surname
 17	и	_	_	_	_	_	_	_	_
-18	премьер-министр	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Person
-19	Армении	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property|bratT34=Person
-20	Никол	_	_	_	_	_	_	_	bratT34=Person|bratT57=Person-forename
-21	Пашинян	_	_	_	_	_	_	_	bratT34=Person|bratT58=Person-surname
+18	премьер-министр	_	_	_	_	_	_	_	bratA15=T34:Male|bratT33=Person-property|bratT34=Person
+19	Армении	_	_	_	_	_	_	_	bratA15=T34:Male|bratT32=GPE|bratT33=Person-property|bratT34=Person
+20	Никол	_	_	_	_	_	_	_	bratA15=T34:Male|bratT34=Person|bratT57=Person-forename
+21	Пашинян	_	_	_	_	_	_	_	bratA15=T34:Male|bratT34=Person|bratT58=Person-surname
 22	подписали	_	_	_	_	_	_	_	_
 23	заявление	_	_	_	_	_	_	_	_
 24	о	_	_	_	_	_	_	_	_

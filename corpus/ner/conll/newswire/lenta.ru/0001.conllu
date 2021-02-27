@@ -3,14 +3,14 @@
 # par_text = Белорусская оппозиция раскрыла план действий при отказе Лукашенко покинуть пост
 # sent_id = 0001-p1-s1
 # text = Белорусская оппозиция раскрыла план действий при отказе Лукашенко покинуть пост
-1	Белорусская	_	_	_	_	_	_	_	bratT1=Organization|bratT41=GPE
+1	Белорусская	_	_	_	_	_	_	_	bratA13=T41:Adjective|bratT1=Organization|bratT41=GPE
 2	оппозиция	_	_	_	_	_	_	_	bratT1=Organization
 3	раскрыла	_	_	_	_	_	_	_	_
 4	план	_	_	_	_	_	_	_	_
 5	действий	_	_	_	_	_	_	_	_
 6	при	_	_	_	_	_	_	_	_
 7	отказе	_	_	_	_	_	_	_	_
-8	Лукашенко	_	_	_	_	_	_	_	bratT2=Person-surname|bratT50=Person
+8	Лукашенко	_	_	_	_	_	_	_	bratA12=T50:Male|bratT2=Person-surname|bratT50=Person
 9	покинуть	_	_	_	_	_	_	_	_
 10	пост	_	_	_	_	_	_	_	_
 
@@ -18,7 +18,7 @@
 # par_text = Белорусская оппозиция будет наращивать свою активность по мере истечения срока «народного ультиматума» к властям республики 26 октября. Об этом сообщил член президиума Координационного совета Павел Латушко, передает РИА Новости.
 # sent_id = 0001-p2-s1
 # text = Белорусская оппозиция будет наращивать свою активность по мере истечения срока ``народного ультиматума'' к властям республики 26 октября.
-1	Белорусская	_	_	_	_	_	_	_	bratT4=Organization|bratT42=GPE
+1	Белорусская	_	_	_	_	_	_	_	bratA14=T42:Adjective|bratT4=Organization|bratT42=GPE
 2	оппозиция	_	_	_	_	_	_	_	bratT4=Organization
 3	будет	_	_	_	_	_	_	_	_
 4	наращивать	_	_	_	_	_	_	_	_
@@ -44,12 +44,12 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	_
-4	член	_	_	_	_	_	_	_	bratT6=Person-property|bratT8=Person
-5	президиума	_	_	_	_	_	_	_	bratA1=T37:Department|bratT37=Organization|bratT6=Person-property|bratT8=Person
-6	Координационного	_	_	_	_	_	_	_	bratA1=T37:Department|bratT37=Organization|bratT6=Person-property|bratT7=Organization|bratT8=Person
-7	совета	_	_	_	_	_	_	_	bratA1=T37:Department|bratT37=Organization|bratT6=Person-property|bratT7=Organization|bratT8=Person
-8	Павел	_	_	_	_	_	_	_	bratT44=Person-forename|bratT8=Person
-9	Латушко	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-surname|bratT8=Person
+4	член	_	_	_	_	_	_	_	bratA15=T8:Male|bratT6=Person-property|bratT8=Person
+5	президиума	_	_	_	_	_	_	_	bratA1=T37:Department|bratA15=T8:Male|bratT37=Organization|bratT6=Person-property|bratT8=Person
+6	Координационного	_	_	_	_	_	_	_	bratA1=T37:Department|bratA15=T8:Male|bratT37=Organization|bratT6=Person-property|bratT7=Organization|bratT8=Person
+7	совета	_	_	_	_	_	_	_	bratA1=T37:Department|bratA15=T8:Male|bratT37=Organization|bratT6=Person-property|bratT7=Organization|bratT8=Person
+8	Павел	_	_	_	_	_	_	_	bratA15=T8:Male|bratT44=Person-forename|bratT8=Person
+9	Латушко	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T8:Male|bratT45=Person-surname|bratT8=Person
 10	,	_	_	_	_	_	_	_	_
 11	передает	_	_	_	_	_	_	_	_
 12	РИА	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Organization
@@ -76,10 +76,10 @@
 14	случай	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	если	_	_	_	_	_	_	_	_
-17	президент	_	_	_	_	_	_	_	bratT10=Person-property|bratT36=Person
-18	Белоруссии	_	_	_	_	_	_	_	bratT10=Person-property|bratT35=GPE|bratT36=Person
-19	Александр	_	_	_	_	_	_	_	bratT36=Person|bratT46=Person-forename
-20	Лукашенко	_	_	_	_	_	_	_	bratT36=Person|bratT47=Person-surname
+17	президент	_	_	_	_	_	_	_	bratA16=T36:Male|bratT10=Person-property|bratT36=Person
+18	Белоруссии	_	_	_	_	_	_	_	bratA16=T36:Male|bratT10=Person-property|bratT35=GPE|bratT36=Person
+19	Александр	_	_	_	_	_	_	_	bratA16=T36:Male|bratT36=Person|bratT46=Person-forename
+20	Лукашенко	_	_	_	_	_	_	_	bratA16=T36:Male|bratT36=Person|bratT47=Person-surname
 21	откажется	_	_	_	_	_	_	_	_
 22	покинуть	_	_	_	_	_	_	_	_
 23	свой	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	раскрывать	_	_	_	_	_	_	_	_
 4	детали	_	_	_	_	_	_	_	_
-5	политик	_	_	_	_	_	_	_	_
+5	политик	_	_	_	_	_	_	_	bratT55=Person-property
 6	отказался	_	_	_	_	_	_	_	SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_
 
@@ -149,7 +149,7 @@
 # par_text = Латушко отметил, что отныне каждый день от оппозиции «будут поступать четкие сигналы». «Наши действия направлены на реализацию этого ультиматума, и власть должна понимать, что количество действий и инициатив будет только нарастать», — указал представитель оппозиции.
 # sent_id = 0001-p5-s1
 # text = Латушко отметил, что отныне каждый день от оппозиции ``будут поступать четкие сигналы''.
-1	Латушко	_	_	_	_	_	_	_	bratT15=Person|bratT54=Person-surname
+1	Латушко	_	_	_	_	_	_	_	bratA17=T15:Male|bratT15=Person|bratT54=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -203,16 +203,16 @@
 # sent_id = 0001-p6-s1
 # text = Ранее бывший кандидат в президенты Белоруссии Светлана Тихановская предъявила действующим белорусским властям ``ультиматум'', указав, что в стране начнется забастовка всех предприятий, если ключевые требования оппозиции не будут выполнены.
 1	Ранее	_	_	_	_	_	_	_	bratA8=T27:Past|bratT27=Date-relative
-2	бывший	_	_	_	_	_	_	_	bratT17=Person|bratT3=Person-property
-3	кандидат	_	_	_	_	_	_	_	bratT17=Person|bratT3=Person-property
-4	в	_	_	_	_	_	_	_	bratT17=Person|bratT3=Person-property
-5	президенты	_	_	_	_	_	_	_	bratT17=Person|bratT3=Person-property
-6	Белоруссии	_	_	_	_	_	_	_	bratT16=GPE|bratT17=Person|bratT3=Person-property
-7	Светлана	_	_	_	_	_	_	_	bratT17=Person|bratT48=Person-forename
-8	Тихановская	_	_	_	_	_	_	_	bratT17=Person|bratT49=Person-surname
+2	бывший	_	_	_	_	_	_	_	bratA18=T17:Female|bratT17=Person|bratT3=Person-property
+3	кандидат	_	_	_	_	_	_	_	bratA18=T17:Female|bratT17=Person|bratT3=Person-property
+4	в	_	_	_	_	_	_	_	bratA18=T17:Female|bratT17=Person|bratT3=Person-property
+5	президенты	_	_	_	_	_	_	_	bratA18=T17:Female|bratT17=Person|bratT3=Person-property
+6	Белоруссии	_	_	_	_	_	_	_	bratA18=T17:Female|bratT16=GPE|bratT17=Person|bratT3=Person-property
+7	Светлана	_	_	_	_	_	_	_	bratA18=T17:Female|bratT17=Person|bratT48=Person-forename
+8	Тихановская	_	_	_	_	_	_	_	bratA18=T17:Female|bratT17=Person|bratT49=Person-surname
 9	предъявила	_	_	_	_	_	_	_	_
 10	действующим	_	_	_	_	_	_	_	_
-11	белорусским	_	_	_	_	_	_	_	bratT43=GPE
+11	белорусским	_	_	_	_	_	_	_	bratA19=T43:Adjective|bratT43=GPE
 12	властям	_	_	_	_	_	_	_	_
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	ультиматум	_	_	_	_	_	_	_	SpaceAfter=No
@@ -276,8 +276,8 @@
 19	на	_	_	_	_	_	_	_	_
 20	шестой	_	_	_	_	_	_	_	bratT33=Ordinal
 21	срок	_	_	_	_	_	_	_	_
-22	Александр	_	_	_	_	_	_	_	bratT22=Person|bratT51=Person-forename
-23	Лукашенко	_	_	_	_	_	_	_	bratT22=Person|bratT52=Person-surname
+22	Александр	_	_	_	_	_	_	_	bratA20=T22:Male|bratT22=Person|bratT51=Person-forename
+23	Лукашенко	_	_	_	_	_	_	_	bratA20=T22:Male|bratT22=Person|bratT52=Person-surname
 24	набрал	_	_	_	_	_	_	_	_
 25	80	_	_	_	_	_	_	_	bratT23=Percent
 26	процентов	_	_	_	_	_	_	_	bratT23=Percent

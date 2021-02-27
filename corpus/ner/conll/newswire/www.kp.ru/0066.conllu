@@ -10,8 +10,8 @@
 5	ареста	_	_	_	_	_	_	_	SpaceAfter=No
 6	''	_	_	_	_	_	_	_	SpaceAfter=No
 7	:	_	_	_	_	_	_	_	_
-8	сын	_	_	_	_	_	_	_	bratT2=Family|bratT27=Person
-9	Жасмин	_	_	_	_	_	_	_	bratT27=Person|bratT3=Person|bratT33=Person-alias
+8	сын	_	_	_	_	_	_	_	bratA4=T27:Male|bratT2=Family|bratT27=Person
+9	Жасмин	_	_	_	_	_	_	_	bratA4=T27:Male|bratA5=T3:Female|bratT27=Person|bratT3=Person|bratT33=Person-alias
 10	накопил	_	_	_	_	_	_	_	_
 11	штрафов	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
@@ -25,13 +25,13 @@
 # par_text = Старший сын певицы Жасмин 23-летний Максим Семендуев накопил штрафов за нарушение правил дорожного движения на 700 тысяч рублей. Все они выписаны за превышение скорости и за парковку в неположенном месте, а этом накопить такой долг молодой человек умудрился всего за полтора года.
 # sent_id = 0066-p2-s1
 # text = Старший сын певицы Жасмин 23-летний Максим Семендуев накопил штрафов за нарушение правил дорожного движения на 700 тысяч рублей.
-1	Старший	_	_	_	_	_	_	_	bratT6=Family
-2	сын	_	_	_	_	_	_	_	bratT6=Family
-3	певицы	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-4	Жасмин	_	_	_	_	_	_	_	bratT34=Person-alias|bratT8=Person
-5	23-летний	_	_	_	_	_	_	_	bratT9=Age
-6	Максим	_	_	_	_	_	_	_	bratT10=Person|bratT35=Person-forename
-7	Семендуев	_	_	_	_	_	_	_	bratT10=Person|bratT36=Person-surname
+1	Старший	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT6=Family
+2	сын	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT6=Family
+3	певицы	_	_	_	_	_	_	_	bratA6=T8:Female|bratA7=T10:Male|bratT10=Person|bratT7=Person-property|bratT8=Person
+4	Жасмин	_	_	_	_	_	_	_	bratA6=T8:Female|bratA7=T10:Male|bratT10=Person|bratT34=Person-alias|bratT8=Person
+5	23-летний	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT9=Age
+6	Максим	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT35=Person-forename
+7	Семендуев	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT36=Person-surname
 8	накопил	_	_	_	_	_	_	_	_
 9	штрафов	_	_	_	_	_	_	_	_
 10	за	_	_	_	_	_	_	_	_
@@ -83,18 +83,18 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	грозит	_	_	_	_	_	_	_	_
-6	сыну	_	_	_	_	_	_	_	bratT15=Family|bratT38=Person
-7	Жасмин	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT37=Person-alias|bratT38=Person
+6	сыну	_	_	_	_	_	_	_	bratA8=T38:Male|bratT15=Family|bratT38=Person
+7	Жасмин	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T38:Male|bratA9=T16:Female|bratT16=Person|bratT37=Person-alias|bratT38=Person
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p3-s2
 # text = Согласно российскому законодательству, автомобиль Семендуева может быть конфискован, его счета могут быть арестованы, а сам он может быть лишен свободы.
 1	Согласно	_	_	_	_	_	_	_	_
-2	российскому	_	_	_	_	_	_	_	_
+2	российскому	_	_	_	_	_	_	_	bratA13=T42:Adjective|bratT42=GPE
 3	законодательству	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	автомобиль	_	_	_	_	_	_	_	_
-6	Семендуева	_	_	_	_	_	_	_	bratT17=Person|bratT39=Person-surname
+6	Семендуева	_	_	_	_	_	_	_	bratA10=T17:Male|bratT17=Person|bratT39=Person-surname
 7	может	_	_	_	_	_	_	_	_
 8	быть	_	_	_	_	_	_	_	_
 9	конфискован	_	_	_	_	_	_	_	SpaceAfter=No
@@ -169,7 +169,7 @@
 # text = Как утверждает Жасмин, ее сын самодостаточен.
 1	Как	_	_	_	_	_	_	_	_
 2	утверждает	_	_	_	_	_	_	_	_
-3	Жасмин	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person|bratT40=Person-alias
+3	Жасмин	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T22:Female|bratT22=Person|bratT40=Person-alias
 4	,	_	_	_	_	_	_	_	_
 5	ее	_	_	_	_	_	_	_	_
 6	сын	_	_	_	_	_	_	_	bratT28=Family
@@ -187,7 +187,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	сам	_	_	_	_	_	_	_	_
-10	Максим	_	_	_	_	_	_	_	bratT25=Person|bratT41=Person-forename
+10	Максим	_	_	_	_	_	_	_	bratA12=T25:Male|bratT25=Person|bratT41=Person-forename
 11	живёт	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	отдельной	_	_	_	_	_	_	_	_

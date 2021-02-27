@@ -51,38 +51,38 @@
 6	радиостанцией	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization
 8	Говорит	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
-9	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization
+9	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization|bratT41=GPE
 10	''	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 11	дали	_	_	_	_	_	_	_	_
-12	пресс-секретарь	_	_	_	_	_	_	_	bratT5=Person-property|bratT8=Person
-13	Московской	_	_	_	_	_	_	_	bratT29=GPE|bratT5=Person-property|bratT6=Organization|bratT8=Person
-14	областной	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization|bratT8=Person
-15	епархии	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Organization|bratT8=Person
-16	,	_	_	_	_	_	_	_	bratT8=Person
-17	священник	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Person
-18	Александр	_	_	_	_	_	_	_	bratT30=Person-forename|bratT8=Person
-19	Сухарев	_	_	_	_	_	_	_	bratT31=Person-surname|bratT8=Person
+12	пресс-секретарь	_	_	_	_	_	_	_	bratA6=T8:Male|bratT5=Person-property|bratT8=Person
+13	Московской	_	_	_	_	_	_	_	bratA10=T29:Adjective|bratA6=T8:Male|bratT29=GPE|bratT5=Person-property|bratT6=Organization|bratT8=Person
+14	областной	_	_	_	_	_	_	_	bratA6=T8:Male|bratT5=Person-property|bratT6=Organization|bratT8=Person
+15	епархии	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Male|bratT5=Person-property|bratT6=Organization|bratT8=Person
+16	,	_	_	_	_	_	_	_	bratA6=T8:Male|bratT8=Person
+17	священник	_	_	_	_	_	_	_	bratA6=T8:Male|bratT7=Person-property|bratT8=Person
+18	Александр	_	_	_	_	_	_	_	bratA6=T8:Male|bratT30=Person-forename|bratT8=Person
+19	Сухарев	_	_	_	_	_	_	_	bratA6=T8:Male|bratT31=Person-surname|bratT8=Person
 20	и	_	_	_	_	_	_	_	_
-21	заместитель	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-22	управляющего	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-23	делами	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-24	Московской	_	_	_	_	_	_	_	bratT11=Person|bratT13=Organization|bratT9=Person-property
-25	патриархии	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT13=Organization|bratT9=Person-property
-26	,	_	_	_	_	_	_	_	bratT11=Person
-27	епископ	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-28	Зеленоградский	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-29	Савва	_	_	_	_	_	_	_	bratT11=Person|bratT32=Person-alias
-30	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
-31	Тутунов	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT33=Person-surname
-32	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person
+21	заместитель	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT9=Person-property
+22	управляющего	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT9=Person-property
+23	делами	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT9=Person-property
+24	Московской	_	_	_	_	_	_	_	bratA11=T39:Adjective|bratA7=T11:Male|bratT11=Person|bratT13=Organization|bratT39=GPE|bratT9=Person-property
+25	патриархии	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T11:Male|bratT11=Person|bratT13=Organization|bratT9=Person-property
+26	,	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person
+27	епископ	_	_	_	_	_	_	_	bratA7=T11:Male|bratT10=Person-property|bratT11=Person
+28	Зеленоградский	_	_	_	_	_	_	_	bratA12=T40:Adjective|bratA7=T11:Male|bratT10=Person-property|bratT11=Person|bratT40=GPE
+29	Савва	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT32=Person-forename
+30	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T11:Male|bratT11=Person
+31	Тутунов	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T11:Male|bratT11=Person|bratT33=Person-surname
+32	)	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T11:Male|bratT11=Person
 33	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0079-p3
 # par_text = Епископ Савва отметил, что в подобном погребении нет ничего оскорбительного для покойного, тем более что в России отпевание часто происходит с открытым гробом, и окружающие видят тело. Священник Александр Сухарев добавил, что для церкви важны не детали погребения, которые могут отличаться в зависимости от культуры и различных обстоятельств, а молитва об усопшем, которая «есть долг христианской любви».
 # sent_id = 0079-p3-s1
 # text = Епископ Савва отметил, что в подобном погребении нет ничего оскорбительного для покойного, тем более что в России отпевание часто происходит с открытым гробом, и окружающие видят тело.
-1	Епископ	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Person
-2	Савва	_	_	_	_	_	_	_	bratT15=Person|bratT34=Person-forename
+1	Епископ	_	_	_	_	_	_	_	bratA8=T15:Male|bratT14=Person-property|bratT15=Person
+2	Савва	_	_	_	_	_	_	_	bratA8=T15:Male|bratT15=Person|bratT34=Person-forename
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -115,9 +115,9 @@
 
 # sent_id = 0079-p3-s2
 # text = Священник Александр Сухарев добавил, что для церкви важны не детали погребения, которые могут отличаться в зависимости от культуры и различных обстоятельств, а молитва об усопшем, которая ``есть долг христианской любви''.
-1	Священник	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Person
-2	Александр	_	_	_	_	_	_	_	bratT18=Person|bratT35=Person-forename
-3	Сухарев	_	_	_	_	_	_	_	bratT18=Person|bratT36=Person-surname
+1	Священник	_	_	_	_	_	_	_	bratA9=T18:Male|bratT17=Person-property|bratT18=Person
+2	Александр	_	_	_	_	_	_	_	bratA9=T18:Male|bratT18=Person|bratT35=Person-forename
+3	Сухарев	_	_	_	_	_	_	_	bratA9=T18:Male|bratT18=Person|bratT36=Person-surname
 4	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -158,13 +158,13 @@
 # sent_id = 0079-p4-s1
 # text = Ранее директор ГБУ ``Ритуал'' Артем Екимов сообщил о нововведении в захоронении умерших зараженных коронавирусом.
 1	Ранее	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-relative
-2	директор	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Person
-3	ГБУ	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Organization|bratT21=Person
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT20=Organization|bratT21=Person
-5	Ритуал	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT20=Organization|bratT21=Person
-6	''	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Organization|bratT21=Person
-7	Артем	_	_	_	_	_	_	_	bratT21=Person|bratT37=Person-forename
-8	Екимов	_	_	_	_	_	_	_	bratT21=Person|bratT38=Person-surname
+2	директор	_	_	_	_	_	_	_	bratA13=T21:Male|bratT19=Person-property|bratT21=Person
+3	ГБУ	_	_	_	_	_	_	_	bratA13=T21:Male|bratT19=Person-property|bratT20=Organization|bratT21=Person
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratT19=Person-property|bratT20=Organization|bratT21=Person
+5	Ритуал	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratT19=Person-property|bratT20=Organization|bratT21=Person
+6	''	_	_	_	_	_	_	_	bratA13=T21:Male|bratT19=Person-property|bratT20=Organization|bratT21=Person
+7	Артем	_	_	_	_	_	_	_	bratA13=T21:Male|bratT21=Person|bratT37=Person-forename
+8	Екимов	_	_	_	_	_	_	_	bratA13=T21:Male|bratT21=Person|bratT38=Person-surname
 9	сообщил	_	_	_	_	_	_	_	_
 10	о	_	_	_	_	_	_	_	_
 11	нововведении	_	_	_	_	_	_	_	_

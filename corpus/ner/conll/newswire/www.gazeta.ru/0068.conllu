@@ -3,7 +3,7 @@
 # par_text = Медведев предложил ввести компенсации за ненормированный рабочий день
 # sent_id = 0068-p1-s1
 # text = Медведев предложил ввести компенсации за ненормированный рабочий день
-1	Медведев	_	_	_	_	_	_	_	bratT1=Person
+1	Медведев	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT9=Person-surname
 2	предложил	_	_	_	_	_	_	_	_
 3	ввести	_	_	_	_	_	_	_	_
 4	компенсации	_	_	_	_	_	_	_	_
@@ -16,13 +16,13 @@
 # par_text = Председатель «Единой России» Дмитрий Медведев допустил возможность введения денежных компенсаций для россиян с ненормированным рабочим днем, передает РИА «Новости».
 # sent_id = 0068-p2-s1
 # text = Председатель ``Единой России'' Дмитрий Медведев допустил возможность введения денежных компенсаций для россиян с ненормированным рабочим днем, передает РИА ``Новости''.
-1	Председатель	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT3=Person-property|bratT4=Person
-3	Единой	_	_	_	_	_	_	_	bratT2=Organization|bratT3=Person-property|bratT4=Person
-4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT3=Person-property|bratT4=Person
-5	''	_	_	_	_	_	_	_	bratT2=Organization|bratT3=Person-property|bratT4=Person
-6	Дмитрий	_	_	_	_	_	_	_	bratT4=Person
-7	Медведев	_	_	_	_	_	_	_	bratT4=Person
+1	Председатель	_	_	_	_	_	_	_	bratA6=T4:Male|bratT3=Person-property|bratT4=Person
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T4:Male|bratT2=Organization|bratT3=Person-property|bratT4=Person
+3	Единой	_	_	_	_	_	_	_	bratA6=T4:Male|bratT2=Organization|bratT3=Person-property|bratT4=Person
+4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T4:Male|bratT2=Organization|bratT3=Person-property|bratT4=Person
+5	''	_	_	_	_	_	_	_	bratA6=T4:Male|bratT2=Organization|bratT3=Person-property|bratT4=Person
+6	Дмитрий	_	_	_	_	_	_	_	bratA6=T4:Male|bratT11=Person-forename|bratT4=Person
+7	Медведев	_	_	_	_	_	_	_	bratA6=T4:Male|bratT12=Person-surname|bratT4=Person
 8	допустил	_	_	_	_	_	_	_	_
 9	возможность	_	_	_	_	_	_	_	_
 10	введения	_	_	_	_	_	_	_	_
@@ -86,7 +86,7 @@
 14	,	_	_	_	_	_	_	_	_
 15	-	_	_	_	_	_	_	_	_
 16	отметил	_	_	_	_	_	_	_	_
-17	Медведев	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person
+17	Медведев	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Male|bratT10=Person-surname|bratT7=Person
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0068-p5

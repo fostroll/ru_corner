@@ -11,19 +11,19 @@
 6	в	_	_	_	_	_	_	_	_
 7	ворота	_	_	_	_	_	_	_	bratT27=Facility
 8	ведомства	_	_	_	_	_	_	_	bratT22=Facility|bratT27=Facility
-9	Меркель	_	_	_	_	_	_	_	bratT2=Person|bratT22=Facility|bratT27=Facility
+9	Меркель	_	_	_	_	_	_	_	bratA4=T2:Female|bratT2=Person|bratT22=Facility|bratT27=Facility|bratT34=Person-surname
 10	машине	_	_	_	_	_	_	_	_
 
 # newpar id = 0085-p2
 # par_text = Официальный представитель правительства ФРГ Штеффен Зайберт прокомментировал инцидент с автомобильным тараном ворот ведомства канцлера Германии Ангелы Меркель.
 # sent_id = 0085-p2-s1
 # text = Официальный представитель правительства ФРГ Штеффен Зайберт прокомментировал инцидент с автомобильным тараном ворот ведомства канцлера Германии Ангелы Меркель.
-1	Официальный	_	_	_	_	_	_	_	bratT17=Person|bratT3=Person-property
-2	представитель	_	_	_	_	_	_	_	bratT17=Person|bratT3=Person-property
-3	правительства	_	_	_	_	_	_	_	bratT15=Organization|bratT17=Person|bratT3=Person-property
-4	ФРГ	_	_	_	_	_	_	_	bratT15=Organization|bratT16=GPE|bratT17=Person|bratT3=Person-property
-5	Штеффен	_	_	_	_	_	_	_	bratT17=Person
-6	Зайберт	_	_	_	_	_	_	_	bratT17=Person
+1	Официальный	_	_	_	_	_	_	_	bratA5=T17:Male|bratT17=Person|bratT3=Person-property
+2	представитель	_	_	_	_	_	_	_	bratA5=T17:Male|bratT17=Person|bratT3=Person-property
+3	правительства	_	_	_	_	_	_	_	bratA5=T17:Male|bratT15=Organization|bratT17=Person|bratT3=Person-property
+4	ФРГ	_	_	_	_	_	_	_	bratA5=T17:Male|bratT15=Organization|bratT16=GPE|bratT17=Person|bratT3=Person-property
+5	Штеффен	_	_	_	_	_	_	_	bratA5=T17:Male|bratT17=Person|bratT35=Person-forename
+6	Зайберт	_	_	_	_	_	_	_	bratA5=T17:Male|bratT17=Person|bratT36=Person-surname
 7	прокомментировал	_	_	_	_	_	_	_	_
 8	инцидент	_	_	_	_	_	_	_	bratT24=Event
 9	с	_	_	_	_	_	_	_	bratT24=Event
@@ -31,10 +31,10 @@
 11	тараном	_	_	_	_	_	_	_	bratT24=Event
 12	ворот	_	_	_	_	_	_	_	bratT24=Event|bratT30=Facility
 13	ведомства	_	_	_	_	_	_	_	bratT21=Facility|bratT24=Event|bratT30=Facility
-14	канцлера	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility
-15	Германии	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=GPE|bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility
-16	Ангелы	_	_	_	_	_	_	_	bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility
-17	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility
+14	канцлера	_	_	_	_	_	_	_	bratA6=T20:Female|bratT18=Person-property|bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility
+15	Германии	_	_	_	_	_	_	_	bratA6=T20:Female|bratT18=Person-property|bratT19=GPE|bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility
+16	Ангелы	_	_	_	_	_	_	_	bratA6=T20:Female|bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility|bratT37=Person-forename
+17	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T20:Female|bratT20=Person|bratT21=Facility|bratT24=Event|bratT30=Facility|bratT38=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0085-p3

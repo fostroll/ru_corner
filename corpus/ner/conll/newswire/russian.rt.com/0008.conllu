@@ -56,11 +56,11 @@
 4	своём	_	_	_	_	_	_	_	_
 5	Facebook	_	_	_	_	_	_	_	bratA1=T6:Media|bratT6=Service
 6	сообщил	_	_	_	_	_	_	_	_
-7	министр	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property
-8	здравоохранения	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property
-9	Украины	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property|bratT9=GPE
-10	Максим	_	_	_	_	_	_	_	bratT40=Person-forename|bratT7=Person
-11	Степанов	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Person-surname|bratT7=Person
+7	министр	_	_	_	_	_	_	_	bratA8=T7:Male|bratT7=Person|bratT8=Person-property
+8	здравоохранения	_	_	_	_	_	_	_	bratA8=T7:Male|bratT7=Person|bratT8=Person-property
+9	Украины	_	_	_	_	_	_	_	bratA8=T7:Male|bratT7=Person|bratT8=Person-property|bratT9=GPE
+10	Максим	_	_	_	_	_	_	_	bratA8=T7:Male|bratT40=Person-forename|bratT7=Person
+11	Степанов	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T7:Male|bratT41=Person-surname|bratT7=Person
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0008-p4
@@ -92,7 +92,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_
 11	заявил	_	_	_	_	_	_	_	_
-12	Степанов	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person
+12	Степанов	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Male|bratT16=Person
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0008-p5
@@ -143,10 +143,10 @@
 # sent_id = 0008-p7-s1
 # text = Ранее президент Украины Владимир Зеленский рассказал, что сдал ещё один положительный тест на коронавирус.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-relative
-2	президент	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-3	Украины	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-4	Владимир	_	_	_	_	_	_	_	bratT24=Person|bratT42=Person-forename
-5	Зеленский	_	_	_	_	_	_	_	bratT24=Person|bratT45=Person-surname
+2	президент	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT25=Person-property
+3	Украины	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT25=Person-property
+4	Владимир	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT42=Person-forename
+5	Зеленский	_	_	_	_	_	_	_	bratA10=T24:Male|bratT24=Person|bratT45=Person-surname
 6	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_

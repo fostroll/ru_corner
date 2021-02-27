@@ -18,7 +18,7 @@
 # sent_id = 0084-p2-s1
 # text = Жительница английского города Бродстейрс, графство Кент, симулировала рак, чтобы собрать пожертвования.
 1	Жительница	_	_	_	_	_	_	_	bratA3=T38:Resident|bratT38=Nationality
-2	английского	_	_	_	_	_	_	_	bratA3=T38:Resident|bratT2=GPE|bratT26=GPE|bratT38=Nationality
+2	английского	_	_	_	_	_	_	_	bratA3=T38:Resident|bratA7=T26:Adjective|bratT2=GPE|bratT26=GPE|bratT38=Nationality
 3	города	_	_	_	_	_	_	_	bratA3=T38:Resident|bratT2=GPE|bratT38=Nationality
 4	Бродстейрс	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Resident|bratT2=GPE|bratT38=Nationality
 5	,	_	_	_	_	_	_	_	_
@@ -48,11 +48,11 @@
 # sent_id = 0084-p3-s1
 # text = 42-летняя Николь Элькаббасс (Nicole Elkabbass) обвиняется в том, что с февраля по август 2018 года симулировала онкологическое заболевание и обманным путем получила около 45 тысяч фунтов (4,5 миллиона рублей) пожертвований на лечение.
 1	42-летняя	_	_	_	_	_	_	_	bratT5=Quantity
-2	Николь	_	_	_	_	_	_	_	bratT27=Person-forename|bratT6=Person
-3	Элькаббасс	_	_	_	_	_	_	_	bratT28=Person-surname|bratT6=Person
+2	Николь	_	_	_	_	_	_	_	bratA8=T6:Female|bratT27=Person-forename|bratT6=Person
+3	Элькаббасс	_	_	_	_	_	_	_	bratA8=T6:Female|bratT28=Person-surname|bratT6=Person
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
-5	Nicole	_	_	_	_	_	_	_	bratT17=Person|bratT29=Person-forename
-6	Elkabbass	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT30=Person-surname
+5	Nicole	_	_	_	_	_	_	_	bratA9=T17:Female|bratT17=Person|bratT29=Person-forename
+6	Elkabbass	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T17:Female|bratT17=Person|bratT30=Person-surname
 7	)	_	_	_	_	_	_	_	_
 8	обвиняется	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -111,19 +111,19 @@
 # par_text = Прокурор Бен Ирвин (Ben Irwin) в суде рассказал, что Элькаббасс создала на благотворительном сайте GoFundMe страницу, где собирала деньги якобы на лечение рака яичников. В подтверждение она выложила свою фотографию на больничной койке.
 # sent_id = 0084-p4-s1
 # text = Прокурор Бен Ирвин (Ben Irwin) в суде рассказал, что Элькаббасс создала на благотворительном сайте GoFundMe страницу, где собирала деньги якобы на лечение рака яичников.
-1	Прокурор	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-2	Бен	_	_	_	_	_	_	_	bratT11=Person|bratT31=Person-forename
-3	Ирвин	_	_	_	_	_	_	_	bratT11=Person|bratT32=Person-surname
+1	Прокурор	_	_	_	_	_	_	_	bratA12=T11:Male|bratT10=Person-property|bratT11=Person
+2	Бен	_	_	_	_	_	_	_	bratA12=T11:Male|bratT11=Person|bratT31=Person-forename
+3	Ирвин	_	_	_	_	_	_	_	bratA12=T11:Male|bratT11=Person|bratT32=Person-surname
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
-5	Ben	_	_	_	_	_	_	_	bratT18=Person|bratT33=Person-forename
-6	Irwin	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT34=Person-surname
+5	Ben	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT33=Person-forename
+6	Irwin	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T18:Male|bratT18=Person|bratT34=Person-surname
 7	)	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	суде	_	_	_	_	_	_	_	_
 10	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	Элькаббасс	_	_	_	_	_	_	_	bratT12=Person|bratT35=Person-surname
+13	Элькаббасс	_	_	_	_	_	_	_	bratA10=T12:Female|bratT12=Person|bratT35=Person-surname
 14	создала	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	благотворительном	_	_	_	_	_	_	_	bratT13=Service
@@ -176,7 +176,7 @@
 5	говорилось	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	Элькаббасс	_	_	_	_	_	_	_	bratT14=Person|bratT36=Person-surname
+8	Элькаббасс	_	_	_	_	_	_	_	bratA13=T14:Female|bratT14=Person|bratT36=Person-surname
 9	прекрасная	_	_	_	_	_	_	_	_
 10	дочь	_	_	_	_	_	_	_	bratT20=Family
 11	и	_	_	_	_	_	_	_	_
@@ -194,7 +194,7 @@
 # par_text = Ирвин подчеркнул, что фотография, на которой женщина лежит на спине на больничной койке под одеялом с закрытыми глазами и открытым ртом, на самом деле была сделана в 2016 году после того, как ей провели операцию по удалению желчного пузыря.
 # sent_id = 0084-p6-s1
 # text = Ирвин подчеркнул, что фотография, на которой женщина лежит на спине на больничной койке под одеялом с закрытыми глазами и открытым ртом, на самом деле была сделана в 2016 году после того, как ей провели операцию по удалению желчного пузыря.
-1	Ирвин	_	_	_	_	_	_	_	bratT15=Person|bratT37=Person-surname
+1	Ирвин	_	_	_	_	_	_	_	bratA14=T15:Male|bratT15=Person|bratT37=Person-surname
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

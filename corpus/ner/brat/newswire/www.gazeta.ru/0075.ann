@@ -17,7 +17,7 @@ T17	Event 269 288	Лиги   наций   УЕФА
 T18	Organization 284 288	УЕФА
 T19	Ordinal 231 238	шестого
 T20	GPE 320 328	Белграде
-T21	Cardinal 363 366	5:0
+T21	Quantity 363 366	5:0
 T22	Organization 386 402	сборной   Сербии
 T23	GPE 396 402	Сербии
 T24	Person 423 480	нападающий   мадридского   ``   Реала   ''   Лука   Йович
@@ -38,3 +38,8 @@ T9	Date-relative 700 705	Ранее
 T28	Date-absolute 219 228	в   матче
 A2	Past T28
 A3	Past T9
+T38	Person-forename 468 472	Лука
+T39	Person-surname 475 480	Йович
+A4	Male T24
+T40	GPE 436 447	мадридского
+A5	Adjective T40

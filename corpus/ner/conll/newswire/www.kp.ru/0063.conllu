@@ -20,7 +20,7 @@
 # sent_id = 0063-p2-s1
 # text = Власти японской префектуры Кагава на острове Сикоку приняли решение уничтожить 845 тысяч кур из-за двух новых вспышек птичьего гриппа с высокой патогенностью.
 1	Власти	_	_	_	_	_	_	_	_
-2	японской	_	_	_	_	_	_	_	bratT4=GPE
+2	японской	_	_	_	_	_	_	_	bratA13=T43:Adjective|bratT4=GPE|bratT43=GPE
 3	префектуры	_	_	_	_	_	_	_	bratT4=GPE
 4	Кагава	_	_	_	_	_	_	_	bratT4=GPE
 5	на	_	_	_	_	_	_	_	_
@@ -202,19 +202,19 @@
 # text = Через неделю министр по вопросам гендерного равенства, продовольствия и рыболовства пищевых продуктов Могенс Енсен признал это решение ошибкой, и истребление популяции норок было остановлено.
 1	Через	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-relative
 2	неделю	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-relative|bratT36=Duration
-3	министр	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-4	по	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-5	вопросам	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-6	гендерного	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-7	равенства	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT25=Person-property
-8	,	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-9	продовольствия	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-10	и	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-11	рыболовства	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-12	пищевых	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-13	продуктов	_	_	_	_	_	_	_	bratT24=Person|bratT25=Person-property
-14	Могенс	_	_	_	_	_	_	_	bratT24=Person|bratT40=Person-forename
-15	Енсен	_	_	_	_	_	_	_	bratT24=Person|bratT42=Person-surname
+3	министр	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+4	по	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+5	вопросам	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+6	гендерного	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+7	равенства	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+8	,	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+9	продовольствия	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+10	и	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+11	рыболовства	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+12	пищевых	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+13	продуктов	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT25=Person-property
+14	Могенс	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT40=Person-forename
+15	Енсен	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT42=Person-surname
 16	признал	_	_	_	_	_	_	_	_
 17	это	_	_	_	_	_	_	_	_
 18	решение	_	_	_	_	_	_	_	_

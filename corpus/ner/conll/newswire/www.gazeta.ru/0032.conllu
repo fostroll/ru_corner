@@ -7,8 +7,8 @@
 2	РЭО	_	_	_	_	_	_	_	bratT2=Organization|bratT3=Person-property
 3	вновь	_	_	_	_	_	_	_	_
 4	стал	_	_	_	_	_	_	_	_
-5	Денис	_	_	_	_	_	_	_	bratT1=Person
-6	Буцаев	_	_	_	_	_	_	_	bratT1=Person
+5	Денис	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT25=Person-forename
+6	Буцаев	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT27=Person-surname
 
 # newpar id = 0032-p2
 # par_text = Генеральным Директором публично-правовой компании «Российский экологический оператор» (РЭО) вновь стал Денис Буцаев. Распоряжение премьер-министра Михаила Мишустина о его назначении опубликовано на сайте российского правительства.
@@ -19,7 +19,7 @@
 3	публично-правовой	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
 4	компании	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
-6	Российский	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
+6	Российский	_	_	_	_	_	_	_	bratA13=T35:Adjective|bratT35=GPE|bratT4=Organization|bratT5=Person-property
 7	экологический	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
 8	оператор	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
 9	''	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
@@ -28,23 +28,23 @@
 12	)	_	_	_	_	_	_	_	bratT5=Person-property
 13	вновь	_	_	_	_	_	_	_	_
 14	стал	_	_	_	_	_	_	_	_
-15	Денис	_	_	_	_	_	_	_	bratT6=Person
-16	Буцаев	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person
+15	Денис	_	_	_	_	_	_	_	bratA9=T6:Male|bratT28=Person-forename|bratT6=Person
+16	Буцаев	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T6:Male|bratT29=Person-surname|bratT6=Person
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p2-s2
 # text = Распоряжение премьер-министра Михаила Мишустина о его назначении опубликовано на сайте российского правительства.
 1	Распоряжение	_	_	_	_	_	_	_	_
-2	премьер-министра	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property
-3	Михаила	_	_	_	_	_	_	_	bratT7=Person
-4	Мишустина	_	_	_	_	_	_	_	bratT7=Person
+2	премьер-министра	_	_	_	_	_	_	_	bratA10=T7:Male|bratT7=Person|bratT8=Person-property
+3	Михаила	_	_	_	_	_	_	_	bratA10=T7:Male|bratT30=Person-forename|bratT7=Person
+4	Мишустина	_	_	_	_	_	_	_	bratA10=T7:Male|bratT31=Person-surname|bratT7=Person
 5	о	_	_	_	_	_	_	_	_
 6	его	_	_	_	_	_	_	_	_
 7	назначении	_	_	_	_	_	_	_	_
 8	опубликовано	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	сайте	_	_	_	_	_	_	_	bratA1=T21:Media|bratT21=Service
-11	российского	_	_	_	_	_	_	_	bratT9=Organization
+11	российского	_	_	_	_	_	_	_	bratA14=T36:Adjective|bratT36=GPE|bratT9=Organization
 12	правительства	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
 13	.	_	_	_	_	_	_	_	_
 
@@ -74,8 +74,8 @@
 3	гендиректором	_	_	_	_	_	_	_	bratT12=Person-property
 4	РЭО	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property
 5	был	_	_	_	_	_	_	_	_
-6	Илья	_	_	_	_	_	_	_	bratT13=Person
-7	Гудков	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person
+6	Илья	_	_	_	_	_	_	_	bratA11=T13:Male|bratT13=Person|bratT32=Person-forename
+7	Гудков	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Male|bratT13=Person|bratT33=Person-surname
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p4-s2
@@ -93,7 +93,7 @@
 # par_text = Буцаев занимал этот пост с февраля до ноября 2019 года, а затем принял решение досрочно прекратить свои полномочия. Затем он был назначен на пост первого заместителя губернатора Белгородской области.
 # sent_id = 0032-p5-s1
 # text = Буцаев занимал этот пост с февраля до ноября 2019 года, а затем принял решение досрочно прекратить свои полномочия.
-1	Буцаев	_	_	_	_	_	_	_	bratT15=Person
+1	Буцаев	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person|bratT34=Person-surname
 2	занимал	_	_	_	_	_	_	_	_
 3	этот	_	_	_	_	_	_	_	_
 4	пост	_	_	_	_	_	_	_	_
@@ -125,7 +125,7 @@
 7	первого	_	_	_	_	_	_	_	bratT17=Ordinal|bratT19=Person-property
 8	заместителя	_	_	_	_	_	_	_	bratT19=Person-property
 9	губернатора	_	_	_	_	_	_	_	bratT19=Person-property
-10	Белгородской	_	_	_	_	_	_	_	bratT18=Organization|bratT19=Person-property
-11	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT19=Person-property
+10	Белгородской	_	_	_	_	_	_	_	bratT18=GPE|bratT19=Person-property
+11	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=GPE|bratT19=Person-property
 12	.	_	_	_	_	_	_	_	_
 

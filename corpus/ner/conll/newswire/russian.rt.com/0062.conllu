@@ -37,19 +37,19 @@
 18	интервью	_	_	_	_	_	_	_	_
 19	радио	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Organization
 20	Sputnik	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Organization
-21	директор	_	_	_	_	_	_	_	bratT19=Person-property|bratT22=Person
-22	Научного	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-23	информационного	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-24	центра	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-25	по	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-26	профилактике	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-27	и	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-28	лечению	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-29	вирусных	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-30	инфекций	_	_	_	_	_	_	_	bratT19=Person-property|bratT21=Organization|bratT22=Person
-31	врач-инфекционист	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person
-32	Георгий	_	_	_	_	_	_	_	bratT22=Person|bratT28=Person-forename
-33	Викулов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person|bratT29=Person-surname
+21	директор	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT22=Person
+22	Научного	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+23	информационного	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+24	центра	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+25	по	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+26	профилактике	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+27	и	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+28	лечению	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+29	вирусных	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+30	инфекций	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT21=Organization|bratT22=Person
+31	врач-инфекционист	_	_	_	_	_	_	_	bratA5=T22:Male|bratT20=Person-property|bratT22=Person
+32	Георгий	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person|bratT28=Person-forename
+33	Викулов	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT22=Person|bratT29=Person-surname
 34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0062-p3
@@ -156,7 +156,7 @@
 2	то	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-relative
 3	же	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-relative
 4	время	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-relative
-5	Викулов	_	_	_	_	_	_	_	bratT30=Person-surname|bratT5=Person
+5	Викулов	_	_	_	_	_	_	_	bratA6=T5:Male|bratT30=Person-surname|bratT5=Person
 6	призвал	_	_	_	_	_	_	_	_
 7	не	_	_	_	_	_	_	_	_
 8	выписывать	_	_	_	_	_	_	_	_
@@ -271,16 +271,16 @@
 # sent_id = 0062-p9-s1
 # text = Ранее эксперт по статистике и моделированию Центра экономических исследований Агаси Тавадян спрогнозировал начало спада заболеваемости коронавирусом в России в конце ноября.
 1	Ранее	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-relative
-2	эксперт	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-3	по	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-4	статистике	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-5	и	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-6	моделированию	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-7	Центра	_	_	_	_	_	_	_	bratT10=Organization|bratT8=Person|bratT9=Person-property
-8	экономических	_	_	_	_	_	_	_	bratT10=Organization|bratT8=Person|bratT9=Person-property
-9	исследований	_	_	_	_	_	_	_	bratT10=Organization|bratT8=Person|bratT9=Person-property
-10	Агаси	_	_	_	_	_	_	_	bratT31=Person-forename|bratT8=Person
-11	Тавадян	_	_	_	_	_	_	_	bratT32=Person-surname|bratT8=Person
+2	эксперт	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+3	по	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+4	статистике	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+5	и	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+6	моделированию	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+7	Центра	_	_	_	_	_	_	_	bratA7=T8:Male|bratT10=Organization|bratT8=Person|bratT9=Person-property
+8	экономических	_	_	_	_	_	_	_	bratA7=T8:Male|bratT10=Organization|bratT8=Person|bratT9=Person-property
+9	исследований	_	_	_	_	_	_	_	bratA7=T8:Male|bratT10=Organization|bratT8=Person|bratT9=Person-property
+10	Агаси	_	_	_	_	_	_	_	bratA7=T8:Male|bratT31=Person-forename|bratT8=Person
+11	Тавадян	_	_	_	_	_	_	_	bratA7=T8:Male|bratT32=Person-surname|bratT8=Person
 12	спрогнозировал	_	_	_	_	_	_	_	_
 13	начало	_	_	_	_	_	_	_	_
 14	спада	_	_	_	_	_	_	_	_

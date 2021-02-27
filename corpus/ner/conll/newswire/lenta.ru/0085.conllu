@@ -4,7 +4,7 @@
 # sent_id = 0085-p1-s1
 # text = Фото российской стюардессы в бикини привело иностранцев в восторг
 1	Фото	_	_	_	_	_	_	_	_
-2	российской	_	_	_	_	_	_	_	bratT1=Person-property|bratT14=GPE
+2	российской	_	_	_	_	_	_	_	bratA6=T14:Adjective|bratT1=Person-property|bratT14=GPE
 3	стюардессы	_	_	_	_	_	_	_	bratT1=Person-property
 4	в	_	_	_	_	_	_	_	_
 5	бикини	_	_	_	_	_	_	_	_
@@ -18,7 +18,7 @@
 # sent_id = 0085-p2-s1
 # text = Стюардесса российского происхождения попозировала перед камерой на пляже и привела иностранных пользователей сети в восторг.
 1	Стюардесса	_	_	_	_	_	_	_	bratT4=Person-property
-2	российского	_	_	_	_	_	_	_	bratA1=T5:Citizenship|bratT15=GPE|bratT5=Nationality
+2	российского	_	_	_	_	_	_	_	bratA1=T5:Citizenship|bratA7=T15:Adjective|bratT15=GPE|bratT5=Nationality
 3	происхождения	_	_	_	_	_	_	_	bratA1=T5:Citizenship|bratT5=Nationality
 4	попозировала	_	_	_	_	_	_	_	_
 5	перед	_	_	_	_	_	_	_	_
@@ -177,7 +177,7 @@
 3	ноябре	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute
 4	откровенные	_	_	_	_	_	_	_	_
 5	фотографии	_	_	_	_	_	_	_	_
-6	российской	_	_	_	_	_	_	_	bratT16=GPE|bratT9=Person-property
+6	российской	_	_	_	_	_	_	_	bratA8=T16:Adjective|bratT16=GPE|bratT9=Person-property
 7	стюардессы	_	_	_	_	_	_	_	bratT9=Person-property
 8	на	_	_	_	_	_	_	_	_
 9	кровати	_	_	_	_	_	_	_	SpaceAfter=No
@@ -198,7 +198,7 @@
 3	бортпроводница	_	_	_	_	_	_	_	bratT10=Person-property
 4	по	_	_	_	_	_	_	_	_
 5	имени	_	_	_	_	_	_	_	_
-6	Анастасия	_	_	_	_	_	_	_	bratT11=Person|bratT17=Person-forename
+6	Анастасия	_	_	_	_	_	_	_	bratA9=T11:Female|bratT11=Person|bratT17=Person-forename
 7	позирует	_	_	_	_	_	_	_	_
 8	перед	_	_	_	_	_	_	_	_
 9	камерой	_	_	_	_	_	_	_	_

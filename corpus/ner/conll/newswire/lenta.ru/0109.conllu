@@ -3,7 +3,7 @@
 # par_text = Дзюба объяснил поражение «Зенита» в стартовом матче Лиги чемпионов
 # sent_id = 0109-p1-s1
 # text = Дзюба объяснил поражение ``Зенита'' в стартовом матче Лиги чемпионов
-1	Дзюба	_	_	_	_	_	_	_	bratT1=Person|bratT36=Person-surname
+1	Дзюба	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT36=Person-surname
 2	объяснил	_	_	_	_	_	_	_	_
 3	поражение	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
@@ -19,12 +19,12 @@
 # par_text = Нападающий «Зенита» Артем Дзюба объяснил поражение от «Брюгге» в стартовом матче группового этапа Лиги чемпионов. Об этом сообщается на сайте Союза европейских футбольных ассоциаций (УЕФА).
 # sent_id = 0109-p2-s1
 # text = Нападающий ``Зенита'' Артем Дзюба объяснил поражение от ``Брюгге'' в стартовом матче группового этапа Лиги чемпионов.
-1	Нападающий	_	_	_	_	_	_	_	bratT5=Person-property|bratT7=Person
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Organization|bratT7=Person
-3	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Organization|bratT7=Person
-4	''	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization|bratT7=Person
-5	Артем	_	_	_	_	_	_	_	bratT37=Person-forename|bratT7=Person
-6	Дзюба	_	_	_	_	_	_	_	bratT38=Person-surname|bratT7=Person
+1	Нападающий	_	_	_	_	_	_	_	bratA7=T7:Male|bratT5=Person-property|bratT7=Person
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Male|bratT5=Person-property|bratT6=Organization|bratT7=Person
+3	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Male|bratT5=Person-property|bratT6=Organization|bratT7=Person
+4	''	_	_	_	_	_	_	_	bratA7=T7:Male|bratT5=Person-property|bratT6=Organization|bratT7=Person
+5	Артем	_	_	_	_	_	_	_	bratA7=T7:Male|bratT37=Person-forename|bratT7=Person
+6	Дзюба	_	_	_	_	_	_	_	bratA7=T7:Male|bratT38=Person-surname|bratT7=Person
 7	объяснил	_	_	_	_	_	_	_	_
 8	поражение	_	_	_	_	_	_	_	_
 9	от	_	_	_	_	_	_	_	_
@@ -48,7 +48,7 @@
 4	на	_	_	_	_	_	_	_	_
 5	сайте	_	_	_	_	_	_	_	bratA2=T28:Media|bratT28=Service
 6	Союза	_	_	_	_	_	_	_	bratT11=Organization
-7	европейских	_	_	_	_	_	_	_	bratT11=Organization
+7	европейских	_	_	_	_	_	_	_	bratA10=T43:Adjective|bratT11=Organization|bratT43=GPE
 8	футбольных	_	_	_	_	_	_	_	bratT11=Organization
 9	ассоциаций	_	_	_	_	_	_	_	bratT11=Organization
 10	(	_	_	_	_	_	_	_	SpaceAfter=No
@@ -111,7 +111,7 @@
 # par_text = Дзюба добавил, что россияне любят плохо начинать турниры и создавать себе проблемы. По мнению нападающего, поражение в первой игре заставит команду играть активнее в следующих матчах.
 # sent_id = 0109-p4-s1
 # text = Дзюба добавил, что россияне любят плохо начинать турниры и создавать себе проблемы.
-1	Дзюба	_	_	_	_	_	_	_	bratT14=Person|bratT39=Person-surname
+1	Дзюба	_	_	_	_	_	_	_	bratA8=T14:Male|bratT14=Person|bratT39=Person-surname
 2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -156,13 +156,13 @@
 5	этапа	_	_	_	_	_	_	_	bratT17=Event|bratT25=Event|bratT27=Event
 6	Лиги	_	_	_	_	_	_	_	bratT17=Event|bratT18=Event|bratT25=Event|bratT27=Event
 7	чемпионов	_	_	_	_	_	_	_	bratT17=Event|bratT18=Event|bratT25=Event|bratT27=Event
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
-9	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
-10	''	_	_	_	_	_	_	_	bratT17=Event
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT40=Organization
+9	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT40=Organization
+10	''	_	_	_	_	_	_	_	bratT17=Event|bratT40=Organization
 11	-	_	_	_	_	_	_	_	bratT17=Event
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
-13	Брюгге	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
-14	''	_	_	_	_	_	_	_	bratT17=Event
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT41=Organization
+13	Брюгге	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT41=Organization|bratT42=GPE
+14	''	_	_	_	_	_	_	_	bratT17=Event|bratT41=Organization
 15	прошел	_	_	_	_	_	_	_	_
 16	во	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 17	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T19:Past|bratT19=Date-absolute
@@ -183,7 +183,7 @@
 5	2:1	_	_	_	_	_	_	_	bratT32=Quantity
 6	в	_	_	_	_	_	_	_	_
 7	пользу	_	_	_	_	_	_	_	_
-8	бельгийской	_	_	_	_	_	_	_	bratT35=GPE
+8	бельгийской	_	_	_	_	_	_	_	bratA9=T35:Adjective|bratT35=GPE
 9	команды	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_
 

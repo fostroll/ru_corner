@@ -4,19 +4,19 @@
 # sent_id = 0001-p1-s1
 # text = Умерла актриса Малени Моралес
 1	Умерла	_	_	_	_	_	_	_	_
-2	актриса	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Person
-3	Малени	_	_	_	_	_	_	_	bratT2=Person|bratT26=Person-forename
-4	Моралес	_	_	_	_	_	_	_	bratT2=Person|bratT27=Person-surname
+2	актриса	_	_	_	_	_	_	_	bratA4=T2:Female|bratT1=Person-property|bratT2=Person
+3	Малени	_	_	_	_	_	_	_	bratA4=T2:Female|bratT2=Person|bratT26=Person-forename
+4	Моралес	_	_	_	_	_	_	_	bratA4=T2:Female|bratT2=Person|bratT27=Person-surname
 
 # newpar id = 0001-p2
 # par_text = Скончалась мексиканская актриса Малени Моралес.
 # sent_id = 0001-p2-s1
 # text = Скончалась мексиканская актриса Малени Моралес.
 1	Скончалась	_	_	_	_	_	_	_	_
-2	мексиканская	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person|bratT30=GPE
-3	актриса	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Person
-4	Малени	_	_	_	_	_	_	_	bratT24=Person|bratT28=Person-forename
-5	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT29=Person-surname
+2	мексиканская	_	_	_	_	_	_	_	bratA5=T24:Female|bratA6=T30:Adjective|bratT23=Person-property|bratT24=Person|bratT30=GPE
+3	актриса	_	_	_	_	_	_	_	bratA5=T24:Female|bratT23=Person-property|bratT24=Person
+4	Малени	_	_	_	_	_	_	_	bratA5=T24:Female|bratT24=Person|bratT28=Person-forename
+5	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Female|bratT24=Person|bratT29=Person-surname
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p3
@@ -34,7 +34,7 @@
 9	Национальную	_	_	_	_	_	_	_	bratT4=Organization
 10	ассоциацию	_	_	_	_	_	_	_	bratT4=Organization
 11	актёров	_	_	_	_	_	_	_	bratT31=Person-property|bratT4=Organization
-12	Мексики	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=GPE
+12	Мексики	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT4=Organization|bratT5=GPE
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p4
@@ -51,8 +51,8 @@
 8	смерти	_	_	_	_	_	_	_	_
 9	нашей	_	_	_	_	_	_	_	_
 10	коллеги	_	_	_	_	_	_	_	_
-11	Малени	_	_	_	_	_	_	_	bratT33=Person-forename|bratT7=Person
-12	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-surname|bratT7=Person
+11	Малени	_	_	_	_	_	_	_	bratA7=T7:Female|bratT33=Person-forename|bratT7=Person
+12	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Female|bratT34=Person-surname|bratT7=Person
 13	,	_	_	_	_	_	_	_	_
 14	члена	_	_	_	_	_	_	_	bratT8=Other-group
 15	нашего	_	_	_	_	_	_	_	bratT8=Other-group
@@ -79,7 +79,7 @@
 2	пишет	_	_	_	_	_	_	_	_
 3	агентство	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	Моралес	_	_	_	_	_	_	_	bratT10=Person|bratT35=Person-surname
+5	Моралес	_	_	_	_	_	_	_	bratA8=T10:Female|bratT10=Person|bratT35=Person-surname
 6	снималась	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	таких	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 22	''	_	_	_	_	_	_	_	bratT12=Work-of-art
 23	и	_	_	_	_	_	_	_	_
 24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
-25	Камила	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+25	Камила	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T38:Female|bratA11=T38:Fiction|bratT13=Work-of-art|bratT38=Person|bratT39=Person-forename
 26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
 27	.	_	_	_	_	_	_	_	_
 
@@ -111,13 +111,13 @@
 2	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	актриса	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property|bratT17=Person
-6	,	_	_	_	_	_	_	_	bratT17=Person
-7	хореограф	_	_	_	_	_	_	_	bratT15=Person-property|bratT17=Person
-8	и	_	_	_	_	_	_	_	bratT17=Person
-9	танцовщица	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person
-10	Мардж	_	_	_	_	_	_	_	bratT17=Person|bratT36=Person-forename
-11	Чемпион	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT37=Person-surname
+5	актриса	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T17:Female|bratT14=Person-property|bratT17=Person
+6	,	_	_	_	_	_	_	_	bratA9=T17:Female|bratT17=Person
+7	хореограф	_	_	_	_	_	_	_	bratA9=T17:Female|bratT15=Person-property|bratT17=Person
+8	и	_	_	_	_	_	_	_	bratA9=T17:Female|bratT17=Person
+9	танцовщица	_	_	_	_	_	_	_	bratA9=T17:Female|bratT16=Person-property|bratT17=Person
+10	Мардж	_	_	_	_	_	_	_	bratA9=T17:Female|bratT17=Person|bratT36=Person-forename
+11	Чемпион	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T17:Female|bratT17=Person|bratT37=Person-surname
 12	,	_	_	_	_	_	_	_	_
 13	ставшая	_	_	_	_	_	_	_	_
 14	прообразом	_	_	_	_	_	_	_	_
@@ -125,9 +125,9 @@
 16	героини	_	_	_	_	_	_	_	_
 17	мультфильма	_	_	_	_	_	_	_	bratT18=Work-of-art
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art
-19	Белоснежка	_	_	_	_	_	_	_	bratT18=Work-of-art
+19	Белоснежка	_	_	_	_	_	_	_	bratA12=T40:Fiction|bratA13=T40:Female|bratT18=Work-of-art|bratT40=Person|bratT41=Person-alias
 20	и	_	_	_	_	_	_	_	bratT18=Work-of-art
-21	семь	_	_	_	_	_	_	_	bratT18=Work-of-art
+21	семь	_	_	_	_	_	_	_	bratT18=Work-of-art|bratT42=Quantity
 22	гномов	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art
 23	''	_	_	_	_	_	_	_	bratT18=Work-of-art
 24	1937	_	_	_	_	_	_	_	bratT19=Date-absolute

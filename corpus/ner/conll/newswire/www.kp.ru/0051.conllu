@@ -43,21 +43,21 @@
 # par_text = Депутат Госдумы, глава комитета по труду, социальной политике и делам ветеранов Ярослав Нилов отметил, что для нововведения не потребуется никаких перемен на законодательном уровне, все решат нормативно-правовые акты.
 # sent_id = 0051-p3-s1
 # text = Депутат Госдумы, глава комитета по труду, социальной политике и делам ветеранов Ярослав Нилов отметил, что для нововведения не потребуется никаких перемен на законодательном уровне, все решат нормативно-правовые акты.
-1	Депутат	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-2	Госдумы	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT6=Person|bratT7=Person-property
-3	,	_	_	_	_	_	_	_	bratT6=Person
-4	глава	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property
-5	комитета	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-6	по	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-7	труду	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person|bratT8=Person-property|bratT9=Organization
-8	,	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-9	социальной	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-10	политике	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-11	и	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-12	делам	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-13	ветеранов	_	_	_	_	_	_	_	bratT6=Person|bratT8=Person-property|bratT9=Organization
-14	Ярослав	_	_	_	_	_	_	_	bratT22=Person-forename|bratT6=Person
-15	Нилов	_	_	_	_	_	_	_	bratT23=Person-surname|bratT6=Person
+1	Депутат	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT7=Person-property
+2	Госдумы	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T6:Male|bratT10=Organization|bratT6=Person|bratT7=Person-property
+3	,	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person
+4	глава	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property
+5	комитета	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+6	по	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+7	труду	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+8	,	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+9	социальной	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+10	политике	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+11	и	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+12	делам	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+13	ветеранов	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT8=Person-property|bratT9=Organization
+14	Ярослав	_	_	_	_	_	_	_	bratA5=T6:Male|bratT22=Person-forename|bratT6=Person
+15	Нилов	_	_	_	_	_	_	_	bratA5=T6:Male|bratT23=Person-surname|bratT6=Person
 16	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	что	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	подчеркнул	_	_	_	_	_	_	_	_
-9	Нилов	_	_	_	_	_	_	_	bratT12=Person|bratT24=Person-surname
+9	Нилов	_	_	_	_	_	_	_	bratA6=T12:Male|bratT12=Person|bratT24=Person-surname
 10	в	_	_	_	_	_	_	_	_
 11	беседе	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_

@@ -1,13 +1,13 @@
 T1	Person 0 9	Лукашенко
 T2	GPE 74 81	Москвой
-T3	Organization 560 564	ТАСС
+T3	Organization 566 570	ТАСС
 A1	Media T3
-T4	Person 567 576	Лукашенко
-T5	Person-property 819 828	президент
-T6	GPE 869 875	Минске
-T7	Facility 883 905	Дворце   независимости
-T8	Person 932 941	Лукашенко
-T9	Person 948 955	Лаврова
+T4	Person 573 582	Лукашенко
+T5	Person-property 825 834	президент
+T6	GPE 875 881	Минске
+T7	Facility 889 911	Дворце   независимости
+T8	Person 938 947	Лукашенко
+T9	Person 954 961	Лаврова
 T10	Person-property 83 106	Белорусский   президент
 T11	Person 83 130	Белорусский   президент   Александр   Лукашенко
 T12	Person-property 152 178	главой   российского   МИД
@@ -15,6 +15,28 @@ T13	Organization 161 178	российского   МИД
 T14	Person 152 199	главой   российского   МИД   Сергеем   Лавровым
 T15	GPE 221 226	Минск
 T16	GPE 289 296	Москвой
-T17	Event 919 955	переговоры   Лукашенко   и   Лаврова
-T18	Date-relative 834 839	Ранее
+T17	Event 925 961	переговоры   Лукашенко   и   Лаврова
+T18	Date-relative 840 845	Ранее
 A2	Past T18
+T19	Person-surname 0 9	Лукашенко
+A3	Male T1
+T20	Person-forename 109 118	Александр
+T21	Person-surname 121 130	Лукашенко
+A4	Male T11
+T22	Person-forename 181 188	Сергеем
+T23	Person-surname 191 199	Лавровым
+A5	Male T14
+T24	GPE 324 334	белорусско
+A6	Adjective T24
+T25	Person-surname 573 582	Лукашенко
+A7	Male T4
+T26	Person-surname 938 947	Лукашенко
+T27	Person-surname 954 961	Лаврова
+A8	Male T8
+A9	Male T9
+T29	GPE 83 94	Белорусский
+A10	Adjective T29
+T30	GPE 161 172	российского
+A11	Adjective T30
+T31	GPE 341 351	российских
+A12	Adjective T31

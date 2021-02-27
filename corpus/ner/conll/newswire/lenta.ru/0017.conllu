@@ -3,24 +3,24 @@
 # par_text = Жириновский предложил переименовать российскую улицу в честь Михаила Круга
 # sent_id = 0017-p1-s1
 # text = Жириновский предложил переименовать российскую улицу в честь Михаила Круга
-1	Жириновский	_	_	_	_	_	_	_	bratT1=Person|bratT33=Person-surname
+1	Жириновский	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT33=Person-surname
 2	предложил	_	_	_	_	_	_	_	_
 3	переименовать	_	_	_	_	_	_	_	_
-4	российскую	_	_	_	_	_	_	_	bratT30=GPE
+4	российскую	_	_	_	_	_	_	_	bratA6=T30:Adjective|bratT30=GPE
 5	улицу	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	честь	_	_	_	_	_	_	_	_
-8	Михаила	_	_	_	_	_	_	_	bratT3=Person|bratT34=Person-forename
-9	Круга	_	_	_	_	_	_	_	bratT3=Person|bratT35=Person-surname
+8	Михаила	_	_	_	_	_	_	_	bratA5=T3:Male|bratT3=Person|bratT34=Person-forename
+9	Круга	_	_	_	_	_	_	_	bratA5=T3:Male|bratT3=Person|bratT35=Person-surname
 
 # newpar id = 0017-p2
 # par_text = Лидер ЛДПР Владимир Жириновский предложил переименовать Трехсвятскую улицу в Твери в честь российского певца Михаила Круга. В разговоре с изданием «Подъем» политик рассказал, что в ближайшее время напишет по этому вопросу письмо в мэрию.
 # sent_id = 0017-p2-s1
 # text = Лидер ЛДПР Владимир Жириновский предложил переименовать Трехсвятскую улицу в Твери в честь российского певца Михаила Круга.
-1	Лидер	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-2	ЛДПР	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Person
-3	Владимир	_	_	_	_	_	_	_	bratT36=Person-forename|bratT5=Person
-4	Жириновский	_	_	_	_	_	_	_	bratT37=Person-surname|bratT5=Person
+1	Лидер	_	_	_	_	_	_	_	bratA7=T5:Male|bratT4=Person-property|bratT5=Person
+2	ЛДПР	_	_	_	_	_	_	_	bratA7=T5:Male|bratT4=Person-property|bratT5=Person
+3	Владимир	_	_	_	_	_	_	_	bratA7=T5:Male|bratT36=Person-forename|bratT5=Person
+4	Жириновский	_	_	_	_	_	_	_	bratA7=T5:Male|bratT37=Person-surname|bratT5=Person
 5	предложил	_	_	_	_	_	_	_	_
 6	переименовать	_	_	_	_	_	_	_	_
 7	Трехсвятскую	_	_	_	_	_	_	_	bratT6=Facility
@@ -29,10 +29,10 @@
 10	Твери	_	_	_	_	_	_	_	bratT7=GPE
 11	в	_	_	_	_	_	_	_	_
 12	честь	_	_	_	_	_	_	_	_
-13	российского	_	_	_	_	_	_	_	bratT31=GPE|bratT8=Person|bratT9=Person-property
-14	певца	_	_	_	_	_	_	_	bratT8=Person|bratT9=Person-property
-15	Михаила	_	_	_	_	_	_	_	bratT38=Person-forename|bratT8=Person
-16	Круга	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-surname|bratT8=Person
+13	российского	_	_	_	_	_	_	_	bratA8=T31:Adjective|bratA9=T8:Male|bratT31=GPE|bratT8=Person|bratT9=Person-property
+14	певца	_	_	_	_	_	_	_	bratA9=T8:Male|bratT8=Person|bratT9=Person-property
+15	Михаила	_	_	_	_	_	_	_	bratA9=T8:Male|bratT38=Person-forename|bratT8=Person
+16	Круга	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T8:Male|bratT39=Person-surname|bratT8=Person
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p2-s2
@@ -64,7 +64,7 @@
 # par_text = Жириновский заявил, что переименовывать нужно именно многолюдную улицу, а за образец взять московский Арбат, где находится стена певца Виктора Цоя. Однако лидер ЛДПР также отметил, что решение этого вопроса зависит от родственников Михаила Круга и комиссии при городской думе.
 # sent_id = 0017-p3-s1
 # text = Жириновский заявил, что переименовывать нужно именно многолюдную улицу, а за образец взять московский Арбат, где находится стена певца Виктора Цоя.
-1	Жириновский	_	_	_	_	_	_	_	bratT11=Person|bratT40=Person-surname
+1	Жириновский	_	_	_	_	_	_	_	bratA10=T11:Male|bratT11=Person|bratT40=Person-surname
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -78,15 +78,15 @@
 12	за	_	_	_	_	_	_	_	_
 13	образец	_	_	_	_	_	_	_	_
 14	взять	_	_	_	_	_	_	_	_
-15	московский	_	_	_	_	_	_	_	bratT26=Facility|bratT32=GPE
+15	московский	_	_	_	_	_	_	_	bratA11=T32:Adjective|bratT26=Facility|bratT32=GPE
 16	Арбат	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Facility
 17	,	_	_	_	_	_	_	_	_
 18	где	_	_	_	_	_	_	_	_
 19	находится	_	_	_	_	_	_	_	_
 20	стена	_	_	_	_	_	_	_	bratT29=Facility
-21	певца	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person|bratT29=Facility
-22	Виктора	_	_	_	_	_	_	_	bratT19=Person|bratT29=Facility|bratT41=Person-forename
-23	Цоя	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person|bratT29=Facility|bratT42=Person-surname
+21	певца	_	_	_	_	_	_	_	bratA12=T19:Male|bratT18=Person-property|bratT19=Person|bratT29=Facility
+22	Виктора	_	_	_	_	_	_	_	bratA12=T19:Male|bratT19=Person|bratT29=Facility|bratT41=Person-forename
+23	Цоя	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T19:Male|bratT19=Person|bratT29=Facility|bratT42=Person-surname
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p3-s2
@@ -104,8 +104,8 @@
 11	зависит	_	_	_	_	_	_	_	_
 12	от	_	_	_	_	_	_	_	_
 13	родственников	_	_	_	_	_	_	_	bratT13=Family
-14	Михаила	_	_	_	_	_	_	_	bratT14=Person|bratT43=Person-forename
-15	Круга	_	_	_	_	_	_	_	bratT14=Person|bratT44=Person-surname
+14	Михаила	_	_	_	_	_	_	_	bratA13=T14:Male|bratT14=Person|bratT43=Person-forename
+15	Круга	_	_	_	_	_	_	_	bratA13=T14:Male|bratT14=Person|bratT44=Person-surname
 16	и	_	_	_	_	_	_	_	_
 17	комиссии	_	_	_	_	_	_	_	bratA1=T15:Department|bratT15=Organization
 18	при	_	_	_	_	_	_	_	_
@@ -117,7 +117,7 @@
 # par_text = Жириновский объяснил эту идею популярностью шансонье и восхищением им большого количества людей. «Он был исполнитель, который трогал сердца миллионов людей. Он был моим другом, мы не очень давно были знакомы, но он сам пришел ко мне, и я его сделал помощником депутата. Он приглашал меня на концерты. Замечательный человек и певец. Тембр голоса его, репертуар — все это мне ложилось на душу», — сказал политик.
 # sent_id = 0017-p4-s1
 # text = Жириновский объяснил эту идею популярностью шансонье и восхищением им большого количества людей.
-1	Жириновский	_	_	_	_	_	_	_	bratT20=Person|bratT45=Person-surname
+1	Жириновский	_	_	_	_	_	_	_	bratA14=T20:Male|bratT20=Person|bratT45=Person-surname
 2	объяснил	_	_	_	_	_	_	_	_
 3	эту	_	_	_	_	_	_	_	_
 4	идею	_	_	_	_	_	_	_	_

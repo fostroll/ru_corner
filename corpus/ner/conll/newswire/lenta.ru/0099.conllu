@@ -21,11 +21,11 @@
 # par_text = Бывший мэр Тамбова Наталия Макаревич, ушедшая в отставку в начале ноября, получила пост исполняющей обязанности заместителя главы администрации Тамбовской области. Об этом ТАСС сообщила начальник управления информационной политики региона Татьяна Самотойлова.
 # sent_id = 0099-p2-s1
 # text = Бывший мэр Тамбова Наталия Макаревич, ушедшая в отставку в начале ноября, получила пост исполняющей обязанности заместителя главы администрации Тамбовской области.
-1	Бывший	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
-2	мэр	_	_	_	_	_	_	_	bratT3=Person-property|bratT5=Person
-3	Тамбова	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=GPE|bratT5=Person
-4	Наталия	_	_	_	_	_	_	_	bratT5=Person|bratT55=Person-forename
-5	Макаревич	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person|bratT56=Person-surname
+1	Бывший	_	_	_	_	_	_	_	bratA10=T5:Female|bratT3=Person-property|bratT5=Person
+2	мэр	_	_	_	_	_	_	_	bratA10=T5:Female|bratT3=Person-property|bratT5=Person
+3	Тамбова	_	_	_	_	_	_	_	bratA10=T5:Female|bratT3=Person-property|bratT4=GPE|bratT5=Person
+4	Наталия	_	_	_	_	_	_	_	bratA10=T5:Female|bratT5=Person|bratT55=Person-forename
+5	Макаревич	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T5:Female|bratT5=Person|bratT56=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	ушедшая	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 
 # sent_id = 0099-p3-s3
 # text = Макаревич проработала на посту главы Тамбова чуть более года.
-1	Макаревич	_	_	_	_	_	_	_	bratT15=Person|bratT59=Person-surname
+1	Макаревич	_	_	_	_	_	_	_	bratA11=T15:Female|bratT15=Person|bratT59=Person-surname
 2	проработала	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	посту	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 1	30	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property
-4	Тамбовской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT53=GPE
+4	Тамбовской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE
 5	городской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
 6	думы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
 7	на	_	_	_	_	_	_	_	_
@@ -119,8 +119,8 @@
 2	главой	_	_	_	_	_	_	_	bratT22=Person-property
 3	города	_	_	_	_	_	_	_	bratT22=Person-property
 4	стал	_	_	_	_	_	_	_	_
-5	Максим	_	_	_	_	_	_	_	bratT23=Person|bratT60=Person-forename
-6	Косенков	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT61=Person-surname
+5	Максим	_	_	_	_	_	_	_	bratA13=T23:Male|bratT23=Person|bratT60=Person-forename
+6	Косенков	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T23:Male|bratT23=Person|bratT61=Person-surname
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p4
@@ -129,7 +129,7 @@
 # text = В марте Макаревич оказалась в центре скандала из-за того, что уехала отдыхать во Вьетнам в разгар пандемии коронавируса.
 1	В	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
 2	марте	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-absolute
-3	Макаревич	_	_	_	_	_	_	_	bratT25=Person|bratT62=Person-surname
+3	Макаревич	_	_	_	_	_	_	_	bratA14=T25:Female|bratT25=Person|bratT62=Person-surname
 4	оказалась	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	центре	_	_	_	_	_	_	_	_
@@ -177,7 +177,7 @@
 3	же	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
 4	месяце	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute
 5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property
-6	Тамбовской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT54=GPE
+6	Тамбовской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE
 7	городской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
 8	думы	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
 9	решили	_	_	_	_	_	_	_	_

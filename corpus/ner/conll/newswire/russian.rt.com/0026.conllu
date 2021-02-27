@@ -16,11 +16,11 @@
 # par_text = Глава ГИБДД России Михаил Черников заявил, что для снижения уровня смертности на российских дорогах необходимо разделить ограждениями транспортные потоки и создать новые пешеходные переходы и зоны для пешеходов.
 # sent_id = 0026-p2-s1
 # text = Глава ГИБДД России Михаил Черников заявил, что для снижения уровня смертности на российских дорогах необходимо разделить ограждениями транспортные потоки и создать новые пешеходные переходы и зоны для пешеходов.
-1	Глава	_	_	_	_	_	_	_	bratT6=Person-property|bratT8=Person
-2	ГИБДД	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization|bratT8=Person
-3	России	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization|bratT8=Person
-4	Михаил	_	_	_	_	_	_	_	bratT13=Person-forename|bratT8=Person
-5	Черников	_	_	_	_	_	_	_	bratT14=Person-surname|bratT8=Person
+1	Глава	_	_	_	_	_	_	_	bratA6=T8:Male|bratT6=Person-property|bratT8=Person
+2	ГИБДД	_	_	_	_	_	_	_	bratA6=T8:Male|bratT6=Person-property|bratT7=Organization|bratT8=Person
+3	России	_	_	_	_	_	_	_	bratA6=T8:Male|bratT6=Person-property|bratT7=Organization|bratT8=Person
+4	Михаил	_	_	_	_	_	_	_	bratA6=T8:Male|bratT13=Person-forename|bratT8=Person
+5	Черников	_	_	_	_	_	_	_	bratA6=T8:Male|bratT14=Person-surname|bratT8=Person
 6	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
@@ -29,7 +29,7 @@
 11	уровня	_	_	_	_	_	_	_	_
 12	смертности	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
-14	российских	_	_	_	_	_	_	_	bratT15=GPE
+14	российских	_	_	_	_	_	_	_	bratA5=T15:Adjective|bratT15=GPE
 15	дорогах	_	_	_	_	_	_	_	_
 16	необходимо	_	_	_	_	_	_	_	_
 17	разделить	_	_	_	_	_	_	_	_
@@ -62,7 +62,7 @@
 # par_text = Черников отметил, что применяемый в настоящее время инструментарий показал свою эффективность. Он добавил, что необходимо внедрять «новые методы и формы».
 # sent_id = 0026-p4-s1
 # text = Черников отметил, что применяемый в настоящее время инструментарий показал свою эффективность.
-1	Черников	_	_	_	_	_	_	_	bratT16=Person-surname|bratT3=Person
+1	Черников	_	_	_	_	_	_	_	bratA4=T3:Male|bratT16=Person-surname|bratT3=Person
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

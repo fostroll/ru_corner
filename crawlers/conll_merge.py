@@ -25,6 +25,7 @@ OUT_DIR = setdir_('..', 'corpus', 'ner', 'conll')
 
 for fn in glob.glob(ORIG_DIR + '/{}/{}/*.txt'.format(domain, source),
                     recursive=True):
+    print(fn)
     brat_fn = fn.replace(ORIG_DIR, BRAT_DIR)
     out_fn = fn.replace(ORIG_DIR, OUT_DIR)[:-4] + '.conllu'
     out_dir = os.path.dirname(out_fn)

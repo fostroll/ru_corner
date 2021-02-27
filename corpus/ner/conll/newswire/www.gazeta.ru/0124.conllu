@@ -17,10 +17,10 @@
 # par_text = Депутат Госдумы Евгений Федоров предложил дать право получения бесплатного второго или последующего высшего образования, если первое получено на коммерческой основе. Об этом сообщает RT со ссылкой на соответствующее письмо на имя главы Минобрнауки Валерию Фалькову.
 # sent_id = 0124-p2-s1
 # text = Депутат Госдумы Евгений Федоров предложил дать право получения бесплатного второго или последующего высшего образования, если первое получено на коммерческой основе.
-1	Депутат	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-2	Госдумы	_	_	_	_	_	_	_	bratT2=Organization|bratT3=Person-property|bratT4=Person
-3	Евгений	_	_	_	_	_	_	_	bratT4=Person
-4	Федоров	_	_	_	_	_	_	_	bratT4=Person
+1	Депутат	_	_	_	_	_	_	_	bratA3=T4:Male|bratT3=Person-property|bratT4=Person
+2	Госдумы	_	_	_	_	_	_	_	bratA3=T4:Male|bratT2=Organization|bratT3=Person-property|bratT4=Person
+3	Евгений	_	_	_	_	_	_	_	bratA3=T4:Male|bratT24=Person-forename|bratT4=Person
+4	Федоров	_	_	_	_	_	_	_	bratA3=T4:Male|bratT25=Person-surname|bratT4=Person
 5	предложил	_	_	_	_	_	_	_	_
 6	дать	_	_	_	_	_	_	_	_
 7	право	_	_	_	_	_	_	_	_
@@ -53,10 +53,10 @@
 9	письмо	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	имя	_	_	_	_	_	_	_	_
-12	главы	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Person
-13	Минобрнауки	_	_	_	_	_	_	_	bratT7=Organization|bratT8=Person-property|bratT9=Person
-14	Валерию	_	_	_	_	_	_	_	bratT9=Person
-15	Фалькову	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person
+12	главы	_	_	_	_	_	_	_	bratA4=T9:Male|bratT8=Person-property|bratT9=Person
+13	Минобрнауки	_	_	_	_	_	_	_	bratA4=T9:Male|bratT7=Organization|bratT8=Person-property|bratT9=Person
+14	Валерию	_	_	_	_	_	_	_	bratA4=T9:Male|bratT26=Person-forename|bratT9=Person
+15	Фалькову	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Male|bratT27=Person-surname|bratT9=Person
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p3

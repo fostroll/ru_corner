@@ -7,7 +7,7 @@
 2	выявило	_	_	_	_	_	_	_	_
 3	хищение	_	_	_	_	_	_	_	_
 4	активов	_	_	_	_	_	_	_	_
-5	московского	_	_	_	_	_	_	_	_
+5	московского	_	_	_	_	_	_	_	bratA7=T21:Adjective|bratT21=GPE
 6	АО	_	_	_	_	_	_	_	_
 7	более	_	_	_	_	_	_	_	_
 8	чем	_	_	_	_	_	_	_	_
@@ -26,7 +26,7 @@
 4	факт	_	_	_	_	_	_	_	_
 5	хищения	_	_	_	_	_	_	_	_
 6	активов	_	_	_	_	_	_	_	_
-7	московского	_	_	_	_	_	_	_	_
+7	московского	_	_	_	_	_	_	_	bratA8=T22:Adjective|bratT22=GPE
 8	АО	_	_	_	_	_	_	_	_
 9	более	_	_	_	_	_	_	_	_
 10	чем	_	_	_	_	_	_	_	_
@@ -36,12 +36,12 @@
 14	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Money
 15	,	_	_	_	_	_	_	_	_
 16	сообщила	_	_	_	_	_	_	_	_
-17	официальный	_	_	_	_	_	_	_	bratT18=Person|bratT6=Person-property
-18	представитель	_	_	_	_	_	_	_	bratT18=Person|bratT6=Person-property
-19	МВД	_	_	_	_	_	_	_	bratT16=Organization|bratT18=Person|bratT6=Person-property
-20	России	_	_	_	_	_	_	_	bratT16=Organization|bratT17=GPE|bratT18=Person|bratT6=Person-property
-21	Ирина	_	_	_	_	_	_	_	bratT18=Person
-22	Волк	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person
+17	официальный	_	_	_	_	_	_	_	bratA6=T18:Female|bratT18=Person|bratT6=Person-property
+18	представитель	_	_	_	_	_	_	_	bratA6=T18:Female|bratT18=Person|bratT6=Person-property
+19	МВД	_	_	_	_	_	_	_	bratA6=T18:Female|bratT16=Organization|bratT18=Person|bratT6=Person-property
+20	России	_	_	_	_	_	_	_	bratA6=T18:Female|bratT16=Organization|bratT17=GPE|bratT18=Person|bratT6=Person-property
+21	Ирина	_	_	_	_	_	_	_	bratA6=T18:Female|bratT18=Person|bratT23=Person-forename
+22	Волк	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Female|bratT18=Person|bratT24=Person-surname
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0069-p3
@@ -116,7 +116,7 @@
 # text = Предварительный ущерб превышает 600 млн рублей.
 1	Предварительный	_	_	_	_	_	_	_	_
 2	ущерб	_	_	_	_	_	_	_	_
-3	превышает	_	_	_	_	_	_	_	bratT10=Money
+3	превышает	_	_	_	_	_	_	_	_
 4	600	_	_	_	_	_	_	_	bratT10=Money
 5	млн	_	_	_	_	_	_	_	bratT10=Money
 6	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Money
@@ -136,9 +136,9 @@
 8	дело	_	_	_	_	_	_	_	_
 9	по	_	_	_	_	_	_	_	_
 10	ч.	_	_	_	_	_	_	_	bratT12=Law
-11	4	_	_	_	_	_	_	_	bratT12=Law
+11	4	_	_	_	_	_	_	_	bratT12=Law|bratT26=Ordinal
 12	ст.	_	_	_	_	_	_	_	bratT12=Law
-13	159	_	_	_	_	_	_	_	bratT12=Law
+13	159	_	_	_	_	_	_	_	bratT12=Law|bratT27=Ordinal
 14	УК	_	_	_	_	_	_	_	bratT12=Law|bratT20=Law
 15	(	_	_	_	_	_	_	_	SpaceAfter=No
 16	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -169,8 +169,8 @@
 13	ПАО	_	_	_	_	_	_	_	bratT15=Organization
 14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
 15	Россети	_	_	_	_	_	_	_	bratT15=Organization
-16	Северный	_	_	_	_	_	_	_	bratT15=Organization
-17	Кавказ	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+16	Северный	_	_	_	_	_	_	_	bratT15=Organization|bratT25=GPE
+17	Кавказ	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization|bratT25=GPE
 18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
 19	.	_	_	_	_	_	_	_	_
 

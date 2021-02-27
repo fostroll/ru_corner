@@ -20,13 +20,13 @@
 # par_text = Наставник римского «Лацио» Симоне Индзаги поделился ожиданиями от матча Лиги чемпионов с петербургским «Зенитом», передает официальный сайт Союза европейских футбольных ассоциаций (УЕФА).
 # sent_id = 0105-p2-s1
 # text = Наставник римского ``Лацио'' Симоне Индзаги поделился ожиданиями от матча Лиги чемпионов с петербургским ``Зенитом'', передает официальный сайт Союза европейских футбольных ассоциаций (УЕФА).
-1	Наставник	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property
-2	римского	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=Organization
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person|bratT7=Person-property|bratT8=Organization
-4	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person|bratT7=Person-property|bratT8=Organization
-5	''	_	_	_	_	_	_	_	bratT6=Person|bratT7=Person-property|bratT8=Organization
-6	Симоне	_	_	_	_	_	_	_	bratT6=Person
-7	Индзаги	_	_	_	_	_	_	_	bratT6=Person
+1	Наставник	_	_	_	_	_	_	_	bratA4=T6:Male|bratT6=Person|bratT7=Person-property
+2	римского	_	_	_	_	_	_	_	bratA4=T6:Male|bratA9=T32:Adjective|bratT32=GPE|bratT6=Person|bratT7=Person-property|bratT8=Organization
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+4	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+5	''	_	_	_	_	_	_	_	bratA4=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+6	Симоне	_	_	_	_	_	_	_	bratA4=T6:Male|bratT23=Person-forename|bratT6=Person
+7	Индзаги	_	_	_	_	_	_	_	bratA4=T6:Male|bratT26=Person-surname|bratT6=Person
 8	поделился	_	_	_	_	_	_	_	_
 9	ожиданиями	_	_	_	_	_	_	_	_
 10	от	_	_	_	_	_	_	_	_
@@ -34,7 +34,7 @@
 12	Лиги	_	_	_	_	_	_	_	bratT10=Event|bratT9=Event
 13	чемпионов	_	_	_	_	_	_	_	bratT10=Event|bratT9=Event
 14	с	_	_	_	_	_	_	_	bratT9=Event
-15	петербургским	_	_	_	_	_	_	_	bratT11=Organization|bratT9=Event
+15	петербургским	_	_	_	_	_	_	_	bratA7=T30:Adjective|bratT11=Organization|bratT30=GPE|bratT9=Event
 16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT9=Event
 17	Зенитом	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT9=Event
 18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT9=Event
@@ -43,7 +43,7 @@
 21	официальный	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Service
 22	сайт	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Service
 23	Союза	_	_	_	_	_	_	_	bratT13=Organization
-24	европейских	_	_	_	_	_	_	_	bratT13=Organization
+24	европейских	_	_	_	_	_	_	_	bratA8=T31:Adjective|bratT13=Organization|bratT31=GPE
 25	футбольных	_	_	_	_	_	_	_	bratT13=Organization
 26	ассоциаций	_	_	_	_	_	_	_	bratT13=Organization
 27	(	_	_	_	_	_	_	_	SpaceAfter=No
@@ -99,7 +99,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	сказал	_	_	_	_	_	_	_	_
-11	Индзаги	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person
+11	Индзаги	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T19:Male|bratT19=Person|bratT27=Person-surname
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0105-p4
@@ -119,8 +119,8 @@
 3	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
 4	''	_	_	_	_	_	_	_	bratT21=Organization
 5	поздравил	_	_	_	_	_	_	_	_
-6	Даниила	_	_	_	_	_	_	_	bratT22=Person
-7	Медведева	_	_	_	_	_	_	_	bratT22=Person
+6	Даниила	_	_	_	_	_	_	_	bratA6=T22:Male|bratT22=Person|bratT28=Person-forename
+7	Медведева	_	_	_	_	_	_	_	bratA6=T22:Male|bratT22=Person|bratT29=Person-surname
 8	с	_	_	_	_	_	_	_	_
 9	победой	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_

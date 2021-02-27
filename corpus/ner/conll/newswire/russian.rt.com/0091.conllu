@@ -18,7 +18,7 @@
 # sent_id = 0091-p2-s1
 # text = В белорусской столице в ходе несанкционированных акций протеста задержаны более 200 человек.
 1	В	_	_	_	_	_	_	_	_
-2	белорусской	_	_	_	_	_	_	_	bratT15=GPE
+2	белорусской	_	_	_	_	_	_	_	bratA7=T27:Adjective|bratT15=GPE|bratT27=GPE
 3	столице	_	_	_	_	_	_	_	bratT15=GPE
 4	в	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 5	ходе	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
@@ -38,7 +38,7 @@
 3	информирует	_	_	_	_	_	_	_	_
 4	пресс-служба	_	_	_	_	_	_	_	bratA2=T17:Department|bratT17=Organization
 5	ГУВД	_	_	_	_	_	_	_	bratA2=T17:Department|bratT17=Organization|bratT18=Organization
-6	Минского	_	_	_	_	_	_	_	bratA2=T17:Department|bratT17=Organization|bratT18=Organization
+6	Минского	_	_	_	_	_	_	_	bratA2=T17:Department|bratA5=T23:Adjective|bratT17=Organization|bratT18=Organization|bratT23=GPE
 7	горисполкома	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Department|bratT17=Organization|bratT18=Organization
 8	.	_	_	_	_	_	_	_	_
 
@@ -101,16 +101,16 @@
 # sent_id = 0091-p5-s1
 # text = Также пресс-секретарь МВД Белоруссии Ольга Чемоданова заявила, что число протестующих в стране снижается.
 1	Также	_	_	_	_	_	_	_	_
-2	пресс-секретарь	_	_	_	_	_	_	_	bratT13=Person-property|bratT14=Person
-3	МВД	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Person-property|bratT14=Person
-4	Белоруссии	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Organization|bratT13=Person-property|bratT14=Person
-5	Ольга	_	_	_	_	_	_	_	bratT14=Person
-6	Чемоданова	_	_	_	_	_	_	_	bratT14=Person
+2	пресс-секретарь	_	_	_	_	_	_	_	bratA6=T14:Female|bratT13=Person-property|bratT14=Person
+3	МВД	_	_	_	_	_	_	_	bratA6=T14:Female|bratT12=Organization|bratT13=Person-property|bratT14=Person
+4	Белоруссии	_	_	_	_	_	_	_	bratA6=T14:Female|bratT11=GPE|bratT12=Organization|bratT13=Person-property|bratT14=Person
+5	Ольга	_	_	_	_	_	_	_	bratA6=T14:Female|bratT14=Person|bratT24=Person-forename
+6	Чемоданова	_	_	_	_	_	_	_	bratA6=T14:Female|bratT14=Person|bratT25=Person-surname
 7	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
 10	число	_	_	_	_	_	_	_	_
-11	протестующих	_	_	_	_	_	_	_	_
+11	протестующих	_	_	_	_	_	_	_	bratT26=Other-group
 12	в	_	_	_	_	_	_	_	_
 13	стране	_	_	_	_	_	_	_	_
 14	снижается	_	_	_	_	_	_	_	SpaceAfter=No

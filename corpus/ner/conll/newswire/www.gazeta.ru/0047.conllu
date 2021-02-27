@@ -15,16 +15,16 @@
 # par_text = Заместитель директора по научной работе ЦНИИ Эпидемиологии Роспотребнадзора Александр Горелов заявил, что рост заболеваемости коронавирусом в России происходит прежде всего за счет регионов, а не Москвы. Об этом сообщает РИА «Новости».
 # sent_id = 0047-p2-s1
 # text = Заместитель директора по научной работе ЦНИИ Эпидемиологии Роспотребнадзора Александр Горелов заявил, что рост заболеваемости коронавирусом в России происходит прежде всего за счет регионов, а не Москвы.
-1	Заместитель	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-2	директора	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-3	по	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-4	научной	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-5	работе	_	_	_	_	_	_	_	bratT4=Person|bratT5=Person-property
-6	ЦНИИ	_	_	_	_	_	_	_	bratA1=T6:Department|bratT4=Person|bratT5=Person-property|bratT6=Organization
-7	Эпидемиологии	_	_	_	_	_	_	_	bratA1=T6:Department|bratT4=Person|bratT5=Person-property|bratT6=Organization
-8	Роспотребнадзора	_	_	_	_	_	_	_	bratA1=T6:Department|bratT4=Person|bratT5=Person-property|bratT6=Organization|bratT7=Organization
-9	Александр	_	_	_	_	_	_	_	bratT4=Person
-10	Горелов	_	_	_	_	_	_	_	bratT4=Person
+1	Заместитель	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT5=Person-property
+2	директора	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT5=Person-property
+3	по	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT5=Person-property
+4	научной	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT5=Person-property
+5	работе	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT5=Person-property
+6	ЦНИИ	_	_	_	_	_	_	_	bratA1=T6:Department|bratA4=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
+7	Эпидемиологии	_	_	_	_	_	_	_	bratA1=T6:Department|bratA4=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
+8	Роспотребнадзора	_	_	_	_	_	_	_	bratA1=T6:Department|bratA4=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization|bratT7=Organization
+9	Александр	_	_	_	_	_	_	_	bratA4=T4:Male|bratT20=Person-forename|bratT4=Person
+10	Горелов	_	_	_	_	_	_	_	bratA4=T4:Male|bratT21=Person-surname|bratT4=Person
 11	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
@@ -119,7 +119,7 @@
 # par_text = Горелов подчеркнул, что сейчас очень важно соблюдать меры санитарно-эпидемиологической безопасности и напомнил, что, как правило, в декабре граждане начинают болеть гриппом, от которого также стоит себя защищать.
 # sent_id = 0047-p5-s1
 # text = Горелов подчеркнул, что сейчас очень важно соблюдать меры санитарно-эпидемиологической безопасности и напомнил, что, как правило, в декабре граждане начинают болеть гриппом, от которого также стоит себя защищать.
-1	Горелов	_	_	_	_	_	_	_	bratT15=Person
+1	Горелов	_	_	_	_	_	_	_	bratA5=T15:Male|bratT15=Person|bratT22=Person-surname
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

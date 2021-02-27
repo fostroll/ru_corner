@@ -3,7 +3,7 @@
 # par_text = Путин оценил уровень бедности в России
 # sent_id = 0041-p1-s1
 # text = Путин оценил уровень бедности в России
-1	Путин	_	_	_	_	_	_	_	bratT1=Person|bratT36=Person-surname
+1	Путин	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT36=Person-surname
 2	оценил	_	_	_	_	_	_	_	_
 3	уровень	_	_	_	_	_	_	_	_
 4	бедности	_	_	_	_	_	_	_	_
@@ -37,9 +37,9 @@
 21	устраивать	_	_	_	_	_	_	_	SpaceAfter=No
 22	,	_	_	_	_	_	_	_	_
 23	заявил	_	_	_	_	_	_	_	_
-24	президент	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Person
-25	Владимир	_	_	_	_	_	_	_	bratT37=Person-forename|bratT7=Person
-26	Путин	_	_	_	_	_	_	_	bratT38=Person-surname|bratT7=Person
+24	президент	_	_	_	_	_	_	_	bratA9=T7:Male|bratT6=Person-property|bratT7=Person
+25	Владимир	_	_	_	_	_	_	_	bratA9=T7:Male|bratT37=Person-forename|bratT7=Person
+26	Путин	_	_	_	_	_	_	_	bratA9=T7:Male|bratT38=Person-surname|bratT7=Person
 27	на	_	_	_	_	_	_	_	_
 28	форуме	_	_	_	_	_	_	_	bratT27=Event
 29	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT27=Event|bratT8=Organization
@@ -47,7 +47,7 @@
 31	капитала	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT8=Organization
 32	''	_	_	_	_	_	_	_	bratT27=Event|bratT8=Organization
 33	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
-34	Россия	_	_	_	_	_	_	_	bratT27=Event
+34	Россия	_	_	_	_	_	_	_	bratT27=Event|bratT43=GPE
 35	зовет	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
 36	!	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
 37	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT27=Event
@@ -59,7 +59,7 @@
 3	YouTube	_	_	_	_	_	_	_	bratT9=Service
 4	ведет	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
-6	Россия	_	_	_	_	_	_	_	bratT10=Organization
+6	Россия	_	_	_	_	_	_	_	bratT10=Organization|bratT44=GPE
 7	24	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 9	.	_	_	_	_	_	_	_	_
@@ -68,7 +68,7 @@
 # par_text = Путин отметил, что в условиях пандемии коронавируса практически во всех странах мира увеличивается число людей, живущих за чертой бедности. «К сожалению, это имеет место и в России», — сказал он.
 # sent_id = 0041-p3-s1
 # text = Путин отметил, что в условиях пандемии коронавируса практически во всех странах мира увеличивается число людей, живущих за чертой бедности.
-1	Путин	_	_	_	_	_	_	_	bratT11=Person|bratT39=Person-surname
+1	Путин	_	_	_	_	_	_	_	bratA10=T11:Male|bratT11=Person|bratT39=Person-surname
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 14	уменьшилось	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	подытожил	_	_	_	_	_	_	_	_
-17	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT40=Person-surname
+17	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T18:Male|bratT18=Person|bratT40=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0041-p5
@@ -164,11 +164,11 @@
 # text = 27 октября глава Счетной палаты Алексей Кудрин заявил, что самую серьезную нищету в стране преодолели уже давно.
 1	27	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
-3	глава	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person
-4	Счетной	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT22=Person
-5	палаты	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT22=Person
-6	Алексей	_	_	_	_	_	_	_	bratT22=Person|bratT41=Person-forename
-7	Кудрин	_	_	_	_	_	_	_	bratT22=Person|bratT42=Person-surname
+3	глава	_	_	_	_	_	_	_	bratA11=T22:Male|bratT20=Person-property|bratT22=Person
+4	Счетной	_	_	_	_	_	_	_	bratA11=T22:Male|bratT20=Person-property|bratT21=Organization|bratT22=Person
+5	палаты	_	_	_	_	_	_	_	bratA11=T22:Male|bratT20=Person-property|bratT21=Organization|bratT22=Person
+6	Алексей	_	_	_	_	_	_	_	bratA11=T22:Male|bratT22=Person|bratT41=Person-forename
+7	Кудрин	_	_	_	_	_	_	_	bratA11=T22:Male|bratT22=Person|bratT42=Person-surname
 8	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_

@@ -3,9 +3,9 @@
 # par_text = Приемный сын Джигарханяна заметил «ужасное совпадение» в смерти актера
 # sent_id = 0005-p1-s1
 # text = Приемный сын Джигарханяна заметил ``ужасное совпадение'' в смерти актера
-1	Приемный	_	_	_	_	_	_	_	bratT1=Person|bratT2=Family
-2	сын	_	_	_	_	_	_	_	bratT1=Person|bratT2=Family
-3	Джигарханяна	_	_	_	_	_	_	_	bratT1=Person|bratT27=Person
+1	Приемный	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT2=Family
+2	сын	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT2=Family
+3	Джигарханяна	_	_	_	_	_	_	_	bratA5=T27:Male|bratA6=T1:Male|bratT1=Person|bratT27=Person|bratT30=Person-surname
 4	заметил	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No
 6	ужасное	_	_	_	_	_	_	_	_
@@ -19,14 +19,14 @@
 # par_text = Приемный сын народного артиста СССР Армена Джигарханяна Степан рассказал об «ужасном совпадении» в смерти актера. Об этом сообщает sobesednik.ru.
 # sent_id = 0005-p2-s1
 # text = Приемный сын народного артиста СССР Армена Джигарханяна Степан рассказал об ``ужасном совпадении'' в смерти актера.
-1	Приемный	_	_	_	_	_	_	_	bratT3=Person|bratT7=Family
-2	сын	_	_	_	_	_	_	_	bratT3=Person|bratT7=Family
-3	народного	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person|bratT5=Person-property
-4	артиста	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person|bratT5=Person-property
-5	СССР	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person|bratT5=Person-property|bratT6=GPE
-6	Армена	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person
-7	Джигарханяна	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person
-8	Степан	_	_	_	_	_	_	_	bratT3=Person
+1	Приемный	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT7=Family
+2	сын	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT7=Family
+3	народного	_	_	_	_	_	_	_	bratA7=T3:Male|bratA8=T4:Male|bratT3=Person|bratT4=Person|bratT5=Person-property
+4	артиста	_	_	_	_	_	_	_	bratA7=T3:Male|bratA8=T4:Male|bratT3=Person|bratT4=Person|bratT5=Person-property
+5	СССР	_	_	_	_	_	_	_	bratA7=T3:Male|bratA8=T4:Male|bratT3=Person|bratT4=Person|bratT5=Person-property|bratT6=GPE
+6	Армена	_	_	_	_	_	_	_	bratA7=T3:Male|bratA8=T4:Male|bratT3=Person|bratT31=Person-forename|bratT4=Person
+7	Джигарханяна	_	_	_	_	_	_	_	bratA7=T3:Male|bratA8=T4:Male|bratT3=Person|bratT32=Person-surname|bratT4=Person
+8	Степан	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT33=Person-forename
 9	рассказал	_	_	_	_	_	_	_	_
 10	об	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -71,8 +71,8 @@
 
 # sent_id = 0005-p3-s2
 # text = Армен Борисович ушел 14-го ноября, в Америке еще была пятница, 13-е...
-1	Армен	_	_	_	_	_	_	_	bratT11=Person
-2	Борисович	_	_	_	_	_	_	_	bratT11=Person
+1	Армен	_	_	_	_	_	_	_	bratA9=T11:Male|bratT11=Person|bratT34=Person-forename
+2	Борисович	_	_	_	_	_	_	_	bratA9=T11:Male|bratT11=Person|bratT35=Person-surname
 3	ушел	_	_	_	_	_	_	_	_
 4	14-го	_	_	_	_	_	_	_	bratA3=T12:Past|bratT12=Date-absolute
 5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Past|bratT12=Date-absolute
@@ -96,7 +96,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	рассказал	_	_	_	_	_	_	_	_
-9	Степан	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person
+9	Степан	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T36:Male|bratT15=Person-forename|bratT36=Person
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0005-p4
@@ -139,11 +139,11 @@
 # par_text = Народный артист СССР Армен Джигарханян скончался в ночь на 14 ноября в возрасте 85 лет. По предварительным данным, смерть наступила из-за болезни почек и отека организма на фоне других хронических заболеваний, рассказал источник из окружения актера. Официально причина смерти не сообщалась.
 # sent_id = 0005-p5-s1
 # text = Народный артист СССР Армен Джигарханян скончался в ночь на 14 ноября в возрасте 85 лет.
-1	Народный	_	_	_	_	_	_	_	bratT18=Person|bratT19=Person-property
-2	артист	_	_	_	_	_	_	_	bratT18=Person|bratT19=Person-property
-3	СССР	_	_	_	_	_	_	_	bratT18=Person|bratT19=Person-property|bratT20=GPE
-4	Армен	_	_	_	_	_	_	_	bratT18=Person
-5	Джигарханян	_	_	_	_	_	_	_	bratT18=Person
+1	Народный	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT19=Person-property
+2	артист	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT19=Person-property
+3	СССР	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT19=Person-property|bratT20=GPE
+4	Армен	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT37=Person-forename
+5	Джигарханян	_	_	_	_	_	_	_	bratA11=T18:Male|bratT18=Person|bratT38=Person-surname
 6	скончался	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	bratA2=T21:Past|bratT21=Date-absolute|bratT28=Time-absolute
 8	ночь	_	_	_	_	_	_	_	bratA2=T21:Past|bratT21=Date-absolute|bratT28=Time-absolute

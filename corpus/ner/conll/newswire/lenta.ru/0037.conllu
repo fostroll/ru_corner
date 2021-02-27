@@ -18,10 +18,10 @@
 # par_text = Российскую актрису Людмилу Князеву нашли мертвой в собственной квартире. Об этом сообщает «Комсомольская правда» в пятницу, 20 ноября.
 # sent_id = 0037-p2-s1
 # text = Российскую актрису Людмилу Князеву нашли мертвой в собственной квартире.
-1	Российскую	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Person|bratT38=GPE
-2	актрису	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Person
-3	Людмилу	_	_	_	_	_	_	_	bratT3=Person|bratT41=Person-forename
-4	Князеву	_	_	_	_	_	_	_	bratT3=Person|bratT42=Person-surname
+1	Российскую	_	_	_	_	_	_	_	bratA10=T38:Adjective|bratA5=T3:Female|bratT2=Person-property|bratT3=Person|bratT38=GPE
+2	актрису	_	_	_	_	_	_	_	bratA5=T3:Female|bratT2=Person-property|bratT3=Person
+3	Людмилу	_	_	_	_	_	_	_	bratA5=T3:Female|bratT3=Person|bratT41=Person-forename
+4	Князеву	_	_	_	_	_	_	_	bratA5=T3:Female|bratT3=Person|bratT42=Person-surname
 5	нашли	_	_	_	_	_	_	_	_
 6	мертвой	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
@@ -50,13 +50,13 @@
 # sent_id = 0037-p3-s1
 # text = 32-летняя внучка звезды фильма ``Домовой'' Мария обратилась в полицию и рассказала, что ее бабушка не отвечает на телефонные звонки и не открывает дверь квартиры.
 1	32-летняя	_	_	_	_	_	_	_	bratT6=Age
-2	внучка	_	_	_	_	_	_	_	bratT36=Family|bratT8=Person
-3	звезды	_	_	_	_	_	_	_	bratT34=Person-property|bratT8=Person
-4	фильма	_	_	_	_	_	_	_	bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
-6	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
-7	''	_	_	_	_	_	_	_	bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
-8	Мария	_	_	_	_	_	_	_	bratT43=Person-forename|bratT8=Person
+2	внучка	_	_	_	_	_	_	_	bratA11=T8:Female|bratT36=Family|bratT8=Person
+3	звезды	_	_	_	_	_	_	_	bratA11=T8:Female|bratT34=Person-property|bratT8=Person
+4	фильма	_	_	_	_	_	_	_	bratA11=T8:Female|bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Female|bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
+6	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Female|bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
+7	''	_	_	_	_	_	_	_	bratA11=T8:Female|bratT34=Person-property|bratT7=Work-of-art|bratT8=Person
+8	Мария	_	_	_	_	_	_	_	bratA11=T8:Female|bratT43=Person-forename|bratT8=Person
 9	обратилась	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	полицию	_	_	_	_	_	_	_	bratT33=Organization
@@ -107,7 +107,7 @@
 5	на	_	_	_	_	_	_	_	_
 6	теле	_	_	_	_	_	_	_	_
 7	82-летней	_	_	_	_	_	_	_	bratT11=Age
-8	Князевой	_	_	_	_	_	_	_	bratT12=Person|bratT44=Person-surname
+8	Князевой	_	_	_	_	_	_	_	bratA6=T12:Female|bratT12=Person|bratT44=Person-surname
 9	нет	_	_	_	_	_	_	_	_
 10	следов	_	_	_	_	_	_	_	_
 11	насильственной	_	_	_	_	_	_	_	_
@@ -131,8 +131,8 @@
 # par_text = Людмила Князева известна по таким фильмам и сериалам, как «Домовой», «Давай разведемся!», «Наша Russia», «Глухарь.Возвращение», «Отчий берег», «Гражданский брак», «Товарищ Сталин» и «Между нот, или Тантрическая симфония».
 # sent_id = 0037-p5-s1
 # text = Людмила Князева известна по таким фильмам и сериалам, как ``Домовой'', ``Давай разведемся! '', ``Наша Russia'', ``Глухарь.Возвращение'', ``Отчий берег'', ``Гражданский брак'', ``Товарищ Сталин'' и ``Между нот, или Тантрическая симфония''.
-1	Людмила	_	_	_	_	_	_	_	bratT17=Person|bratT45=Person-forename
-2	Князева	_	_	_	_	_	_	_	bratT17=Person|bratT46=Person-surname
+1	Людмила	_	_	_	_	_	_	_	bratA7=T17:Female|bratT17=Person|bratT45=Person-forename
+2	Князева	_	_	_	_	_	_	_	bratA7=T17:Female|bratT17=Person|bratT46=Person-surname
 3	известна	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
 5	таким	_	_	_	_	_	_	_	_
@@ -153,7 +153,7 @@
 20	,	_	_	_	_	_	_	_	_
 21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
 22	Наша	_	_	_	_	_	_	_	bratT15=Work-of-art
-23	Russia	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
+23	Russia	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art|bratT52=GPE
 24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
 25	,	_	_	_	_	_	_	_	_
 26	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Work-of-art
@@ -174,7 +174,7 @@
 41	,	_	_	_	_	_	_	_	_
 42	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Work-of-art
 43	Товарищ	_	_	_	_	_	_	_	bratT22=Work-of-art
-44	Сталин	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Work-of-art
+44	Сталин	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T49:Male|bratT22=Work-of-art|bratT49=Person|bratT50=Person-surname
 45	''	_	_	_	_	_	_	_	bratT22=Work-of-art
 46	и	_	_	_	_	_	_	_	_
 47	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Work-of-art
@@ -197,13 +197,13 @@
 4	известно	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	смерти	_	_	_	_	_	_	_	bratT28=Event
-7	белорусской	_	_	_	_	_	_	_	bratT18=Person-property|bratT24=Person|bratT28=Event|bratT40=GPE
-8	актрисы	_	_	_	_	_	_	_	bratT18=Person-property|bratT24=Person|bratT28=Event
-9	театра	_	_	_	_	_	_	_	bratT18=Person-property|bratT24=Person|bratT28=Event
-10	и	_	_	_	_	_	_	_	bratT18=Person-property|bratT24=Person|bratT28=Event
-11	кино	_	_	_	_	_	_	_	bratT18=Person-property|bratT24=Person|bratT28=Event
-12	Любови	_	_	_	_	_	_	_	bratT24=Person|bratT28=Event|bratT47=Person-forename
-13	Румянцевой	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person|bratT28=Event|bratT48=Person-surname
+7	белорусской	_	_	_	_	_	_	_	bratA8=T24:Female|bratA9=T40:Adjective|bratT18=Person-property|bratT24=Person|bratT28=Event|bratT40=GPE
+8	актрисы	_	_	_	_	_	_	_	bratA8=T24:Female|bratT18=Person-property|bratT24=Person|bratT28=Event
+9	театра	_	_	_	_	_	_	_	bratA8=T24:Female|bratT18=Person-property|bratT24=Person|bratT28=Event
+10	и	_	_	_	_	_	_	_	bratA8=T24:Female|bratT18=Person-property|bratT24=Person|bratT28=Event
+11	кино	_	_	_	_	_	_	_	bratA8=T24:Female|bratT18=Person-property|bratT24=Person|bratT28=Event
+12	Любови	_	_	_	_	_	_	_	bratA8=T24:Female|bratT24=Person|bratT28=Event|bratT47=Person-forename
+13	Румянцевой	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T24:Female|bratT24=Person|bratT28=Event|bratT48=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p6-s2
@@ -214,7 +214,7 @@
 4	звезды	_	_	_	_	_	_	_	bratT31=Event|bratT35=Person-property
 5	фильма	_	_	_	_	_	_	_	bratT25=Work-of-art|bratT31=Event|bratT35=Person-property
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Work-of-art|bratT31=Event|bratT35=Person-property
-7	Альпийская	_	_	_	_	_	_	_	bratT25=Work-of-art|bratT31=Event|bratT35=Person-property
+7	Альпийская	_	_	_	_	_	_	_	bratA13=T51:Adjective|bratT25=Work-of-art|bratT31=Event|bratT35=Person-property|bratT51=Location
 8	баллада	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Work-of-art|bratT31=Event|bratT35=Person-property
 9	''	_	_	_	_	_	_	_	bratT25=Work-of-art|bratT31=Event|bratT35=Person-property
 10	не	_	_	_	_	_	_	_	_

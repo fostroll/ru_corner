@@ -164,7 +164,7 @@
 6	Гамалеи	_	_	_	_	_	_	_	bratT25=Organization
 7	совместно	_	_	_	_	_	_	_	bratT25=Organization
 8	с	_	_	_	_	_	_	_	_
-9	Российским	_	_	_	_	_	_	_	bratT26=Organization
+9	Российским	_	_	_	_	_	_	_	bratA7=T47:Adjective|bratT26=Organization|bratT47=GPE
 10	фондом	_	_	_	_	_	_	_	bratT26=Organization
 11	прямых	_	_	_	_	_	_	_	bratT26=Organization
 12	инвестиций	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
@@ -184,10 +184,10 @@
 # text = 15 октября президент России Владимир Путин рассказал о регистрации второй вакцины от COVID-19, которая получила название ``ЭпиВакКорона''.
 1	15	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA5=T28:Past|bratT28=Date-absolute
-3	президент	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Person
-4	России	_	_	_	_	_	_	_	bratT29=GPE|bratT30=Person-property|bratT31=Person
-5	Владимир	_	_	_	_	_	_	_	bratT31=Person
-6	Путин	_	_	_	_	_	_	_	bratT31=Person
+3	президент	_	_	_	_	_	_	_	bratA6=T31:Male|bratT30=Person-property|bratT31=Person
+4	России	_	_	_	_	_	_	_	bratA6=T31:Male|bratT29=GPE|bratT30=Person-property|bratT31=Person
+5	Владимир	_	_	_	_	_	_	_	bratA6=T31:Male|bratT31=Person|bratT45=Person-forename
+6	Путин	_	_	_	_	_	_	_	bratA6=T31:Male|bratT31=Person|bratT46=Person-surname
 7	рассказал	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
 9	регистрации	_	_	_	_	_	_	_	_
@@ -208,10 +208,10 @@
 # text = Ее разработал новосибирский центр ``Вектор''.
 1	Ее	_	_	_	_	_	_	_	_
 2	разработал	_	_	_	_	_	_	_	_
-3	новосибирский	_	_	_	_	_	_	_	bratT36=GPE
-4	центр	_	_	_	_	_	_	_	bratT36=GPE
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE
-6	Вектор	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE
-7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE
+3	новосибирский	_	_	_	_	_	_	_	bratA8=T48:Adjective|bratT36=Organization|bratT48=GPE
+4	центр	_	_	_	_	_	_	_	bratT36=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+6	Вектор	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
 8	.	_	_	_	_	_	_	_	_
 

@@ -19,7 +19,6 @@ T15	Person-property 443 497	министра   по   делам   Европы 
 T16	Person 443 521	министра   по   делам   Европы   и   иностранных   дел   Жан-Ива   Ле   Дриана
 T17	GPE 524 531	Франция
 T18	Nationality 633 655	армянскому   населению
-A5	Citizenship T18
 T19	GPE 699 718	Нагорном   Карабахе
 T20	Event 683 692	конфликта
 T21	Organization 749 779	внешнеполитическом   ведомстве
@@ -45,3 +44,15 @@ T39	Event 1504 1521	боевых   действий
 A4	Past T35
 A7	Past T38
 A8	Past T31
+T40	Person-forename 417 426	Эммануэля
+T41	Person-surname 429 436	Макрона
+A9	Male T13
+T42	Person-surname 510 521	Ле   Дриана
+T43	Person-forename 500 507	Жан-Ива
+A10	Male T16
+T44	GPE 348 360	французского
+A11	Adjective T44
+T45	GPE 808 819	французской
+A5	Adjective T45
+T46	GPE 1358 1368	российские
+A12	Adjective T46

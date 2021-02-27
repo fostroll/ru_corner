@@ -9,7 +9,7 @@
 4	оценил	_	_	_	_	_	_	_	_
 5	приоритетные	_	_	_	_	_	_	_	_
 6	проекты	_	_	_	_	_	_	_	_
-7	томского	_	_	_	_	_	_	_	bratT26=Organization
+7	томского	_	_	_	_	_	_	_	bratA10=T38:Adjective|bratT26=Organization|bratT38=GPE
 8	научно-образовательного	_	_	_	_	_	_	_	bratT26=Organization
 9	центра	_	_	_	_	_	_	_	bratT26=Organization
 
@@ -17,11 +17,11 @@
 # par_text = Губернатор Томской области Сергей Жвачкин провел в онлайн-режиме первое заседание наблюдательного совета создающегося в Томске научно-образовательного центра мирового уровня. Глава региона отметил, что создание мирового НОЦ в Томске реализуется по национальному проекту «Наука».
 # sent_id = 0115-p2-s1
 # text = Губернатор Томской области Сергей Жвачкин провел в онлайн-режиме первое заседание наблюдательного совета создающегося в Томске научно-образовательного центра мирового уровня.
-1	Губернатор	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property
-2	Томской	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property|bratT5=GPE
-3	области	_	_	_	_	_	_	_	bratT3=Person|bratT4=Person-property|bratT5=GPE
-4	Сергей	_	_	_	_	_	_	_	bratT3=Person|bratT34=Person-forename
-5	Жвачкин	_	_	_	_	_	_	_	bratT3=Person|bratT35=Person-surname
+1	Губернатор	_	_	_	_	_	_	_	bratA8=T3:Male|bratT3=Person|bratT4=Person-property
+2	Томской	_	_	_	_	_	_	_	bratA8=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=GPE
+3	области	_	_	_	_	_	_	_	bratA8=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=GPE
+4	Сергей	_	_	_	_	_	_	_	bratA8=T3:Male|bratT3=Person|bratT34=Person-forename
+5	Жвачкин	_	_	_	_	_	_	_	bratA8=T3:Male|bratT3=Person|bratT35=Person-surname
 6	провел	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	онлайн-режиме	_	_	_	_	_	_	_	_
@@ -34,7 +34,7 @@
 15	Томске	_	_	_	_	_	_	_	bratT6=GPE
 16	научно-образовательного	_	_	_	_	_	_	_	bratT29=Organization
 17	центра	_	_	_	_	_	_	_	bratT29=Organization
-18	мирового	_	_	_	_	_	_	_	_
+18	мирового	_	_	_	_	_	_	_	bratA13=T41:Adjective|bratT41=GPE
 19	уровня	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
 
@@ -46,7 +46,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	создание	_	_	_	_	_	_	_	_
-7	мирового	_	_	_	_	_	_	_	_
+7	мирового	_	_	_	_	_	_	_	bratA14=T42:Adjective|bratT42=GPE
 8	НОЦ	_	_	_	_	_	_	_	bratT8=Organization
 9	в	_	_	_	_	_	_	_	_
 10	Томске	_	_	_	_	_	_	_	bratT9=GPE
@@ -74,7 +74,7 @@
 9	войти	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	ТОП-50	_	_	_	_	_	_	_	bratT22=Quantity
-12	мировых	_	_	_	_	_	_	_	_
+12	мировых	_	_	_	_	_	_	_	bratA15=T43:Adjective|bratT43=GPE
 13	научно-образовательных	_	_	_	_	_	_	_	_
 14	центров	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
@@ -86,11 +86,11 @@
 21	совет	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event
 22	,	_	_	_	_	_	_	_	_
 23	его	_	_	_	_	_	_	_	_
-24	председатель	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT13=Person-property
-25	,	_	_	_	_	_	_	_	bratT12=Person
-26	губернатор	_	_	_	_	_	_	_	bratT12=Person|bratT14=Person-property
-27	Сергей	_	_	_	_	_	_	_	bratT12=Person|bratT36=Person-forename
-28	Жвачкин	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT37=Person-surname
+24	председатель	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT13=Person-property
+25	,	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person
+26	губернатор	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT14=Person-property
+27	Сергей	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT36=Person-forename
+28	Жвачкин	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT37=Person-surname
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0115-p3-s2
@@ -152,7 +152,7 @@
 17	концепции	_	_	_	_	_	_	_	_
 18	научно-образовательного	_	_	_	_	_	_	_	_
 19	центра	_	_	_	_	_	_	_	_
-20	мирового	_	_	_	_	_	_	_	_
+20	мирового	_	_	_	_	_	_	_	bratA12=T40:Adjective|bratT40=GPE
 21	уровня	_	_	_	_	_	_	_	SpaceAfter=No
 22	''	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 4	членами	_	_	_	_	_	_	_	bratT18=Person-property
 5	наблюдательного	_	_	_	_	_	_	_	bratA3=T19:Department|bratT18=Person-property|bratT19=Organization
 6	совета	_	_	_	_	_	_	_	bratA3=T19:Department|bratT18=Person-property|bratT19=Organization
-7	Томского	_	_	_	_	_	_	_	bratA3=T19:Department|bratT18=Person-property|bratT19=Organization|bratT20=Organization
+7	Томского	_	_	_	_	_	_	_	bratA11=T39:Adjective|bratA3=T19:Department|bratT18=Person-property|bratT19=Organization|bratT20=Organization|bratT39=GPE
 8	НОЦ	_	_	_	_	_	_	_	bratA3=T19:Department|bratT18=Person-property|bratT19=Organization|bratT20=Organization
 9	оценил	_	_	_	_	_	_	_	_
 10	главные	_	_	_	_	_	_	_	_

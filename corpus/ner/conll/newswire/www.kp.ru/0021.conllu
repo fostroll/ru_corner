@@ -53,7 +53,7 @@
 # text = Как сообщает австрийская газета Kurier, по предварительным данным, серьезно ранен вооруженный полицейский, злоумышленник скрылся, его разыскивают правоохранители.
 1	Как	_	_	_	_	_	_	_	_
 2	сообщает	_	_	_	_	_	_	_	_
-3	австрийская	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
+3	австрийская	_	_	_	_	_	_	_	bratA1=T5:Media|bratA8=T35:Adjective|bratT35=GPE|bratT5=Organization
 4	газета	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
 5	Kurier	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
 6	,	_	_	_	_	_	_	_	_
@@ -110,16 +110,16 @@
 
 # sent_id = 0021-p4-s2
 # text = Президент израильской культурной общины Оскар Дойч исключил жертв в еврейской общине.
-1	Президент	_	_	_	_	_	_	_	bratT20=Person-property|bratT8=Person
-2	израильской	_	_	_	_	_	_	_	bratT19=Organization|bratT20=Person-property|bratT8=Person
-3	культурной	_	_	_	_	_	_	_	bratT19=Organization|bratT20=Person-property|bratT8=Person
-4	общины	_	_	_	_	_	_	_	bratT19=Organization|bratT20=Person-property|bratT8=Person
-5	Оскар	_	_	_	_	_	_	_	bratT33=Person-forename|bratT8=Person
-6	Дойч	_	_	_	_	_	_	_	bratT34=Person-surname|bratT8=Person
+1	Президент	_	_	_	_	_	_	_	bratA7=T8:Male|bratT20=Person-property|bratT8=Person
+2	израильской	_	_	_	_	_	_	_	bratA7=T8:Male|bratA9=T36:Adjective|bratT19=Organization|bratT20=Person-property|bratT36=GPE|bratT8=Person
+3	культурной	_	_	_	_	_	_	_	bratA7=T8:Male|bratT19=Organization|bratT20=Person-property|bratT8=Person
+4	общины	_	_	_	_	_	_	_	bratA7=T8:Male|bratT19=Organization|bratT20=Person-property|bratT8=Person
+5	Оскар	_	_	_	_	_	_	_	bratA7=T8:Male|bratT33=Person-forename|bratT8=Person
+6	Дойч	_	_	_	_	_	_	_	bratA7=T8:Male|bratT34=Person-surname|bratT8=Person
 7	исключил	_	_	_	_	_	_	_	_
 8	жертв	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	еврейской	_	_	_	_	_	_	_	bratT9=Organization
+10	еврейской	_	_	_	_	_	_	_	bratA10=T37:Adjective|bratT37=Nationality|bratT9=Organization
 11	общине	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
 12	.	_	_	_	_	_	_	_	_
 

@@ -27,13 +27,9 @@ T21	Quantity 1009 1018	одна   из
 T25	Quantity 1205 1213	50   раз
 T30	Person 588 592	Порт
 T31	Person 599 608	Старбоард
-T32	Person 615 620	Левый
-T33	Person 627 633	Правый
 A1	Media T3
 A2	Unconscious T30
 A3	Unconscious T31
-A4	Unconscious T32
-A5	Unconscious T33
 T34	Quantity 1232 1247	вчетверо   реже
 T35	Quantity 1318 1327	ни   разу
 T36	Quantity 1381 1388	однажды
@@ -60,9 +56,10 @@ T23	Person-property 56 67	Специалисты
 T26	GPE 681 697	южноафриканского
 T40	Person-alias 588 592	Порт
 T41	Person-alias 599 608	Старбоард
-T45	Person-alias 615 620	Левый
-T48	Person-alias 627 633	Правый
 T49	Person-forename 1541 1548	Донаван
 T50	Person-surname 1551 1555	Смит
 T51	Person-forename 1562 1569	Donavan
 T52	Person-surname 1572 1577	Smith
+A10	Male T6
+A11	Male T7
+A19	Adjective T26

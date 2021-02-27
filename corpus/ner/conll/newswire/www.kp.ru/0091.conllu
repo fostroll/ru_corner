@@ -15,7 +15,7 @@
 # par_text = Американская корпорация SpaceX в субботу, 21 ноября, успешно запустила ракету-носитель с метеорологическим спутником Sentinel-6 нового поколения. Трансляция запуска ведется на официальном сайте компании.
 # sent_id = 0091-p2-s1
 # text = Американская корпорация SpaceX в субботу, 21 ноября, успешно запустила ракету-носитель с метеорологическим спутником Sentinel-6 нового поколения.
-1	Американская	_	_	_	_	_	_	_	bratT2=Organization
+1	Американская	_	_	_	_	_	_	_	bratA6=T27:Adjective|bratT2=Organization|bratT27=GPE
 2	корпорация	_	_	_	_	_	_	_	bratT2=Organization
 3	SpaceX	_	_	_	_	_	_	_	bratT2=Organization
 4	в	_	_	_	_	_	_	_	bratA5=T3:Past|bratT3=Date-absolute
@@ -66,7 +66,7 @@
 14	в	_	_	_	_	_	_	_	bratA2=T24:Past|bratT10=Time-absolute|bratT24=Date-relative
 15	20:17	_	_	_	_	_	_	_	bratA2=T24:Past|bratT10=Time-absolute|bratT24=Date-relative
 16	по	_	_	_	_	_	_	_	bratA2=T24:Past|bratT10=Time-absolute|bratT24=Date-relative
-17	московскому	_	_	_	_	_	_	_	bratA2=T24:Past|bratT10=Time-absolute|bratT24=Date-relative
+17	московскому	_	_	_	_	_	_	_	bratA2=T24:Past|bratA7=T28:Adjective|bratT10=Time-absolute|bratT24=Date-relative|bratT28=GPE
 18	времени	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T24:Past|bratT10=Time-absolute|bratT24=Date-relative
 19	.	_	_	_	_	_	_	_	_
 
@@ -125,7 +125,7 @@
 6	проект	_	_	_	_	_	_	_	_
 7	NASA	_	_	_	_	_	_	_	bratT18=Organization
 8	и	_	_	_	_	_	_	_	_
-9	Европейского	_	_	_	_	_	_	_	bratT19=Organization
+9	Европейского	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT19=Organization|bratT29=GPE
 10	космического	_	_	_	_	_	_	_	bratT19=Organization
 11	агентства	_	_	_	_	_	_	_	bratT19=Organization
 12	ЕКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
@@ -139,8 +139,8 @@
 4	отслеживания	_	_	_	_	_	_	_	_
 5	изменения	_	_	_	_	_	_	_	_
 6	уровня	_	_	_	_	_	_	_	_
-7	Мирового	_	_	_	_	_	_	_	_
-8	океана	_	_	_	_	_	_	_	SpaceAfter=No
+7	Мирового	_	_	_	_	_	_	_	bratT31=Location
+8	океана	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Location
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p4-s3
@@ -173,7 +173,7 @@
 13	наблюдения	_	_	_	_	_	_	_	_
 14	как	_	_	_	_	_	_	_	_
 15	за	_	_	_	_	_	_	_	_
-16	атлантическим	_	_	_	_	_	_	_	bratT22=Location
+16	атлантическим	_	_	_	_	_	_	_	bratA9=T30:Adjective|bratT22=Location|bratT30=Location
 17	течением	_	_	_	_	_	_	_	bratT22=Location
 18	Гольфстрим	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Location
 19	,	_	_	_	_	_	_	_	_

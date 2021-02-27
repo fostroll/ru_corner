@@ -3,7 +3,7 @@
 # par_text = Путин утвердил Стратегию государственной антинаркотической политики
 # sent_id = 0094-p1-s1
 # text = Путин утвердил Стратегию государственной антинаркотической политики
-1	Путин	_	_	_	_	_	_	_	bratT1=Person
+1	Путин	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT16=Person-surname
 2	утвердил	_	_	_	_	_	_	_	_
 3	Стратегию	_	_	_	_	_	_	_	bratA4=T2:Project|bratT2=Product
 4	государственной	_	_	_	_	_	_	_	bratA4=T2:Project|bratT2=Product
@@ -14,10 +14,10 @@
 # par_text = Российский лидер Владимир Путин утвердил Стратегию государственной антинаркотической политики на период до 2030 года.
 # sent_id = 0094-p2-s1
 # text = Российский лидер Владимир Путин утвердил Стратегию государственной антинаркотической политики на период до 2030 года.
-1	Российский	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-2	лидер	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-3	Владимир	_	_	_	_	_	_	_	bratT12=Person
-4	Путин	_	_	_	_	_	_	_	bratT12=Person
+1	Российский	_	_	_	_	_	_	_	bratA10=T12:Male|bratA9=T17:Adjective|bratT11=Person-property|bratT12=Person|bratT17=GPE
+2	лидер	_	_	_	_	_	_	_	bratA10=T12:Male|bratT11=Person-property|bratT12=Person
+3	Владимир	_	_	_	_	_	_	_	bratA10=T12:Male|bratT12=Person|bratT18=Person-forename
+4	Путин	_	_	_	_	_	_	_	bratA10=T12:Male|bratT12=Person|bratT19=Person-surname
 5	утвердил	_	_	_	_	_	_	_	_
 6	Стратегию	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
 7	государственной	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
@@ -48,7 +48,7 @@
 # sent_id = 0094-p4-s1
 # text = Ранее Путин провёл заседание Совбеза на тему совершенствования государственной антинаркотической политики в России.
 1	Ранее	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-relative
-2	Путин	_	_	_	_	_	_	_	bratT3=Person
+2	Путин	_	_	_	_	_	_	_	bratA11=T3:Male|bratT20=Person-surname|bratT3=Person
 3	провёл	_	_	_	_	_	_	_	_
 4	заседание	_	_	_	_	_	_	_	bratT15=Event
 5	Совбеза	_	_	_	_	_	_	_	bratT15=Event|bratT5=Organization

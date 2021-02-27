@@ -6,7 +6,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	Германии	_	_	_	_	_	_	_	bratT1=GPE
 3	продлили	_	_	_	_	_	_	_	_
-4	жесткий	_	_	_	_	_	_	_	_
+4	жесткий	_	_	_	_	_	_	_	bratT30=Event
 5	карантин	_	_	_	_	_	_	_	bratT30=Event
 6	до	_	_	_	_	_	_	_	bratA11=T2:Pres-Fut|bratT2=Date-period-absolute
 7	конца	_	_	_	_	_	_	_	bratA11=T2:Pres-Fut|bratT2=Date-period-absolute
@@ -16,7 +16,7 @@
 # par_text = Жесткий карантин в Германии, который изначально действовал до конца ноября, продлится до 20 декабря и, вероятно, будет впоследствии продлен до конца января следующего года. Об этом заявила канцлер ФРГ Ангела Меркель по итогам переговоров с главами 16 федеральных земель.
 # sent_id = 0086-p2-s1
 # text = Жесткий карантин в Германии, который изначально действовал до конца ноября, продлится до 20 декабря и, вероятно, будет впоследствии продлен до конца января следующего года.
-1	Жесткий	_	_	_	_	_	_	_	_
+1	Жесткий	_	_	_	_	_	_	_	bratT3=Event
 2	карантин	_	_	_	_	_	_	_	bratT3=Event
 3	в	_	_	_	_	_	_	_	_
 4	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=GPE
@@ -51,10 +51,10 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявила	_	_	_	_	_	_	_	_
-4	канцлер	_	_	_	_	_	_	_	bratT10=Person|bratT8=Person-property
-5	ФРГ	_	_	_	_	_	_	_	bratT10=Person|bratT8=Person-property|bratT9=GPE
-6	Ангела	_	_	_	_	_	_	_	bratT10=Person|bratT37=Person-forename
-7	Меркель	_	_	_	_	_	_	_	bratT10=Person|bratT38=Person-surname
+4	канцлер	_	_	_	_	_	_	_	bratA16=T10:Female|bratT10=Person|bratT8=Person-property
+5	ФРГ	_	_	_	_	_	_	_	bratA16=T10:Female|bratT10=Person|bratT8=Person-property|bratT9=GPE
+6	Ангела	_	_	_	_	_	_	_	bratA16=T10:Female|bratT10=Person|bratT37=Person-forename
+7	Меркель	_	_	_	_	_	_	_	bratA16=T10:Female|bratT10=Person|bratT38=Person-surname
 8	по	_	_	_	_	_	_	_	_
 9	итогам	_	_	_	_	_	_	_	_
 10	переговоров	_	_	_	_	_	_	_	_
@@ -120,7 +120,7 @@
 23	,	_	_	_	_	_	_	_	_
 24	-	_	_	_	_	_	_	_	_
 25	уточнила	_	_	_	_	_	_	_	_
-26	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person|bratT40=Person-surname
+26	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T15:Female|bratT15=Person|bratT40=Person-surname
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p4
@@ -160,10 +160,10 @@
 # text = По распоряжению канцлера ФРГ Ангелы Меркель закрылись, в частности, рестораны, бары, кинотеатры, развлекательные заведения, фитнес-клубы, бассейны, а также ограничивается работа магазинов.
 1	По	_	_	_	_	_	_	_	_
 2	распоряжению	_	_	_	_	_	_	_	_
-3	канцлера	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person
-4	ФРГ	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=GPE|bratT22=Person
-5	Ангелы	_	_	_	_	_	_	_	bratT22=Person|bratT41=Person-forename
-6	Меркель	_	_	_	_	_	_	_	bratT22=Person|bratT44=Person-surname
+3	канцлера	_	_	_	_	_	_	_	bratA17=T22:Female|bratT20=Person-property|bratT22=Person
+4	ФРГ	_	_	_	_	_	_	_	bratA17=T22:Female|bratT20=Person-property|bratT21=GPE|bratT22=Person
+5	Ангелы	_	_	_	_	_	_	_	bratA17=T22:Female|bratT22=Person|bratT41=Person-forename
+6	Меркель	_	_	_	_	_	_	_	bratA17=T22:Female|bratT22=Person|bratT44=Person-surname
 7	закрылись	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -191,8 +191,8 @@
 
 # sent_id = 0086-p5-s3
 # text = Жителям страны запрещено собираться в компаниях более десяти человек в общественных местах.
-1	Жителям	_	_	_	_	_	_	_	_
-2	страны	_	_	_	_	_	_	_	_
+1	Жителям	_	_	_	_	_	_	_	bratA15=T46:Resident|bratT46=Nationality
+2	страны	_	_	_	_	_	_	_	bratA15=T46:Resident|bratT46=Nationality
 3	запрещено	_	_	_	_	_	_	_	_
 4	собираться	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -212,7 +212,7 @@
 1	Ранее	_	_	_	_	_	_	_	bratA4=T43:Past|bratA6=T23:Past|bratT23=Date-absolute|bratT43=Date-relative
 2	в	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
 3	октябре	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
-4	Меркель	_	_	_	_	_	_	_	bratT25=Person|bratT45=Person-surname
+4	Меркель	_	_	_	_	_	_	_	bratA18=T25:Female|bratT25=Person|bratT45=Person-surname
 5	заявила	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_

@@ -3,9 +3,9 @@
 # par_text = Азмун и Дриусси отправились с «Зенитом» на матч Лиги чемпионов против «Лацио»
 # sent_id = 0078-p1-s1
 # text = Азмун и Дриусси отправились с ``Зенитом'' на матч Лиги чемпионов против ``Лацио''
-1	Азмун	_	_	_	_	_	_	_	bratT1=Person
+1	Азмун	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT35=Person-surname
 2	и	_	_	_	_	_	_	_	_
-3	Дриусси	_	_	_	_	_	_	_	bratT2=Person
+3	Дриусси	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT36=Person-surname
 4	отправились	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
@@ -24,16 +24,16 @@
 # par_text = Нападающие Сердар Азмун и Себастьян Дриусси отправились вместе с петербургским «Зенитом» в Италию на матч четвертого тура группового этапа Лиги чемпионов против римского «Лацио», сообщает «Спорт-Экспресс».
 # sent_id = 0078-p2-s1
 # text = Нападающие Сердар Азмун и Себастьян Дриусси отправились вместе с петербургским ``Зенитом'' в Италию на матч четвертого тура группового этапа Лиги чемпионов против римского ``Лацио'', сообщает ``Спорт-Экспресс''.
-1	Нападающие	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT6=Person-property|bratT7=Person
-2	Сердар	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT32=Person|bratT7=Person
-3	Азмун	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT32=Person|bratT7=Person
-4	и	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT7=Person
-5	Себастьян	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT33=Person|bratT7=Person
-6	Дриусси	_	_	_	_	_	_	_	bratA1=T7:Plural|bratT33=Person|bratT7=Person
+1	Нападающие	_	_	_	_	_	_	_	bratA1=T7:Plural|bratA10=T7:Male|bratT6=Person-property|bratT7=Person
+2	Сердар	_	_	_	_	_	_	_	bratA1=T7:Plural|bratA10=T7:Male|bratA9=T32:Male|bratT32=Person|bratT37=Person-forename|bratT7=Person
+3	Азмун	_	_	_	_	_	_	_	bratA1=T7:Plural|bratA10=T7:Male|bratA9=T32:Male|bratT32=Person|bratT38=Person-surname|bratT7=Person
+4	и	_	_	_	_	_	_	_	bratA1=T7:Plural|bratA10=T7:Male|bratT7=Person
+5	Себастьян	_	_	_	_	_	_	_	bratA1=T7:Plural|bratA10=T7:Male|bratA8=T33:Male|bratT33=Person|bratT39=Person-forename|bratT7=Person
+6	Дриусси	_	_	_	_	_	_	_	bratA1=T7:Plural|bratA10=T7:Male|bratA8=T33:Male|bratT33=Person|bratT40=Person-surname|bratT7=Person
 7	отправились	_	_	_	_	_	_	_	_
 8	вместе	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
-10	петербургским	_	_	_	_	_	_	_	bratT8=Organization
+10	петербургским	_	_	_	_	_	_	_	bratA13=T43:Adjective|bratT43=GPE|bratT8=Organization
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
 12	Зенитом	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
 13	''	_	_	_	_	_	_	_	bratT8=Organization
@@ -48,7 +48,7 @@
 22	Лиги	_	_	_	_	_	_	_	bratT12=Event|bratT27=Event|bratT28=Event|bratT29=Event
 23	чемпионов	_	_	_	_	_	_	_	bratT12=Event|bratT27=Event|bratT28=Event|bratT29=Event
 24	против	_	_	_	_	_	_	_	_
-25	римского	_	_	_	_	_	_	_	bratT11=Organization
+25	римского	_	_	_	_	_	_	_	bratA14=T44:Adjective|bratT11=Organization|bratT44=GPE
 26	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
 27	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
 28	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
@@ -66,14 +66,14 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	Азмун	_	_	_	_	_	_	_	bratT14=Person
+4	Азмун	_	_	_	_	_	_	_	bratA12=T14:Male|bratT14=Person|bratT41=Person-surname
 5	и	_	_	_	_	_	_	_	_
-6	Дриусси	_	_	_	_	_	_	_	bratT15=Person
+6	Дриусси	_	_	_	_	_	_	_	bratA11=T15:Male|bratT15=Person|bratT42=Person-surname
 7	пропустили	_	_	_	_	_	_	_	_
 8	четыре	_	_	_	_	_	_	_	bratT16=Quantity
 9	ноябрьские	_	_	_	_	_	_	_	bratT16=Quantity
 10	встречи	_	_	_	_	_	_	_	bratT16=Quantity
-11	петербургского	_	_	_	_	_	_	_	_
+11	петербургского	_	_	_	_	_	_	_	bratA15=T45:Adjective|bratT45=GPE
 12	клуба	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 

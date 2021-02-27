@@ -70,15 +70,15 @@
 # text = По словам вирусолога, доктора биологических наук, профессора Сергея Нетесова, в коронавирусе объединились особенности, которые раньше встречались у целого ряда других вирусов.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	вирусолога	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT8=Person-property
-4	,	_	_	_	_	_	_	_	bratT11=Person
-5	доктора	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-6	биологических	_	_	_	_	_	_	_	bratT11=Person|bratT9=Person-property
-7	наук	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT9=Person-property
-8	,	_	_	_	_	_	_	_	bratT11=Person
-9	профессора	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person
-10	Сергея	_	_	_	_	_	_	_	bratT11=Person|bratT47=Person-forename
-11	Нетесова	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT48=Person-surname
+3	вирусолога	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T11:Male|bratT11=Person|bratT8=Person-property
+4	,	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person
+5	доктора	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT9=Person-property
+6	биологических	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT9=Person-property
+7	наук	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T11:Male|bratT11=Person|bratT9=Person-property
+8	,	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person
+9	профессора	_	_	_	_	_	_	_	bratA6=T11:Male|bratT10=Person-property|bratT11=Person
+10	Сергея	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT47=Person-forename
+11	Нетесова	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T11:Male|bratT11=Person|bratT48=Person-surname
 12	,	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	коронавирусе	_	_	_	_	_	_	_	bratT12=Other-term
@@ -143,7 +143,7 @@
 2	нанес	_	_	_	_	_	_	_	_
 3	удар	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
-5	сирийской	_	_	_	_	_	_	_	bratT22=Organization
+5	сирийской	_	_	_	_	_	_	_	bratA10=T53:Adjective|bratT22=Organization|bratT53=GPE
 6	армии	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
 7	.	_	_	_	_	_	_	_	_
 
@@ -230,12 +230,12 @@
 # par_text = Дмитрий Песков рассказал, чего Путину не хватает сейчас больше всего. По словам пресс-секретаря российского лидера, президенту любит общаться с людьми и получать обратную связь. Из-за пандемии и работы в режиме видеоконференций Путин скучает по живому общению.
 # sent_id = 0036-p6-s1
 # text = Дмитрий Песков рассказал, чего Путину не хватает сейчас больше всего.
-1	Дмитрий	_	_	_	_	_	_	_	bratT30=Person|bratT51=Person-forename
-2	Песков	_	_	_	_	_	_	_	bratT30=Person|bratT52=Person-surname
+1	Дмитрий	_	_	_	_	_	_	_	bratA7=T30:Male|bratT30=Person|bratT51=Person-forename
+2	Песков	_	_	_	_	_	_	_	bratA7=T30:Male|bratT30=Person|bratT52=Person-surname
 3	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	чего	_	_	_	_	_	_	_	_
-6	Путину	_	_	_	_	_	_	_	bratT31=Person|bratT49=Person-surname
+6	Путину	_	_	_	_	_	_	_	bratA8=T31:Male|bratT31=Person|bratT49=Person-surname
 7	не	_	_	_	_	_	_	_	_
 8	хватает	_	_	_	_	_	_	_	_
 9	сейчас	_	_	_	_	_	_	_	bratA5=T37:Present|bratT37=Date-absolute
@@ -248,7 +248,7 @@
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
 3	пресс-секретаря	_	_	_	_	_	_	_	bratT33=Person-property
-4	российского	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Person-property
+4	российского	_	_	_	_	_	_	_	bratA11=T54:Adjective|bratT32=Person-property|bratT33=Person-property|bratT54=GPE
 5	лидера	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-property|bratT33=Person-property
 6	,	_	_	_	_	_	_	_	_
 7	президенту	_	_	_	_	_	_	_	bratT34=Person-property
@@ -271,7 +271,7 @@
 5	в	_	_	_	_	_	_	_	_
 6	режиме	_	_	_	_	_	_	_	_
 7	видеоконференций	_	_	_	_	_	_	_	_
-8	Путин	_	_	_	_	_	_	_	bratT35=Person|bratT50=Person-surname
+8	Путин	_	_	_	_	_	_	_	bratA9=T35:Male|bratT35=Person|bratT50=Person-surname
 9	скучает	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
 11	живому	_	_	_	_	_	_	_	_

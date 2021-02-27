@@ -19,7 +19,7 @@
 # sent_id = 0111-p2-s1
 # text = В Кембриджском университете начался ежегодный конкурс на лучшие ягодицы Cambridge Best Bums Competition.
 1	В	_	_	_	_	_	_	_	_
-2	Кембриджском	_	_	_	_	_	_	_	bratT1=Organization
+2	Кембриджском	_	_	_	_	_	_	_	bratA7=T28:Adjective|bratT1=Organization|bratT28=GPE
 3	университете	_	_	_	_	_	_	_	bratT1=Organization
 4	начался	_	_	_	_	_	_	_	_
 5	ежегодный	_	_	_	_	_	_	_	bratT3=Event
@@ -62,7 +62,7 @@
 5	фотографии	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	территории	_	_	_	_	_	_	_	_
-8	Кембриджа	_	_	_	_	_	_	_	bratT14=Organization
+8	Кембриджа	_	_	_	_	_	_	_	bratT14=Organization|bratT29=GPE
 9	в	_	_	_	_	_	_	_	_
 10	обнаженном	_	_	_	_	_	_	_	_
 11	виде	_	_	_	_	_	_	_	SpaceAfter=No
@@ -188,7 +188,7 @@
 5	студенты	_	_	_	_	_	_	_	bratA2=T13:Plural|bratT13=Person-property|bratT23=Person-property
 6	и	_	_	_	_	_	_	_	bratA2=T13:Plural|bratT13=Person-property
 7	студентки	_	_	_	_	_	_	_	bratA2=T13:Plural|bratT13=Person-property|bratT24=Person-property
-8	Кембриджского	_	_	_	_	_	_	_	bratA2=T13:Plural|bratT12=Organization|bratT13=Person-property
+8	Кембриджского	_	_	_	_	_	_	_	bratA2=T13:Plural|bratA8=T27:Adjective|bratT12=Organization|bratT13=Person-property|bratT27=GPE
 9	университета	_	_	_	_	_	_	_	bratA2=T13:Plural|bratT12=Organization|bratT13=Person-property
 10	сфотографировались	_	_	_	_	_	_	_	_
 11	без	_	_	_	_	_	_	_	_

@@ -7,35 +7,35 @@
 2	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	как	_	_	_	_	_	_	_	_
-5	Трамп	_	_	_	_	_	_	_	bratT2=Person|bratT30=Person-surname
+5	Трамп	_	_	_	_	_	_	_	bratA6=T2:Male|bratT2=Person|bratT30=Person-surname
 6	попал	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	фильм	_	_	_	_	_	_	_	bratT3=Work-of-art
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Work-of-art
-10	Один	_	_	_	_	_	_	_	bratT3=Work-of-art
+10	Один	_	_	_	_	_	_	_	bratT3=Work-of-art|bratT42=Quantity
 11	дома	_	_	_	_	_	_	_	bratT3=Work-of-art
-12	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Work-of-art
+12	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Work-of-art|bratT41=Ordinal
 13	''	_	_	_	_	_	_	_	bratT3=Work-of-art
 
 # newpar id = 0032-p2
 # par_text = Режиссер знаменитой рождественской комедии «Один дома 2: Затерянный в Нью-Йорке» Крис Коламбус в интервью изданию Insider рассказал, каким образом нынешнему президенту США Дональду Трампу удалось сыграть самого себя в одном из эпизодов фильма.
 # sent_id = 0032-p2-s1
 # text = Режиссер знаменитой рождественской комедии ``Один дома 2: Затерянный в Нью-Йорке'' Крис Коламбус в интервью изданию Insider рассказал, каким образом нынешнему президенту США Дональду Трампу удалось сыграть самого себя в одном из эпизодов фильма.
-1	Режиссер	_	_	_	_	_	_	_	bratT4=Person-property|bratT6=Person
-2	знаменитой	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-3	рождественской	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-4	комедии	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art|bratT6=Person
-6	Один	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-7	дома	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-8	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art|bratT6=Person
-9	:	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-10	Затерянный	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-11	в	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-12	Нью-Йорке	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art|bratT6=Person
-13	''	_	_	_	_	_	_	_	bratT5=Work-of-art|bratT6=Person
-14	Крис	_	_	_	_	_	_	_	bratT31=Person-forename|bratT6=Person
-15	Коламбус	_	_	_	_	_	_	_	bratT32=Person-surname|bratT6=Person
+1	Режиссер	_	_	_	_	_	_	_	bratA7=T6:Male|bratT4=Person-property|bratT6=Person
+2	знаменитой	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+3	рождественской	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+4	комедии	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+6	Один	_	_	_	_	_	_	_	bratA7=T6:Male|bratT43=Quantity|bratT5=Work-of-art|bratT6=Person
+7	дома	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+8	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Male|bratT44=Ordinal|bratT5=Work-of-art|bratT6=Person
+9	:	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+10	Затерянный	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+11	в	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+12	Нью-Йорке	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+13	''	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Work-of-art|bratT6=Person
+14	Крис	_	_	_	_	_	_	_	bratA7=T6:Male|bratT31=Person-forename|bratT6=Person
+15	Коламбус	_	_	_	_	_	_	_	bratA7=T6:Male|bratT32=Person-surname|bratT6=Person
 16	в	_	_	_	_	_	_	_	_
 17	интервью	_	_	_	_	_	_	_	_
 18	изданию	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
@@ -44,11 +44,11 @@
 21	,	_	_	_	_	_	_	_	_
 22	каким	_	_	_	_	_	_	_	_
 23	образом	_	_	_	_	_	_	_	_
-24	нынешнему	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-25	президенту	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-26	США	_	_	_	_	_	_	_	bratT10=Person|bratT8=GPE|bratT9=Person-property
-27	Дональду	_	_	_	_	_	_	_	bratT10=Person|bratT33=Person-forename
-28	Трампу	_	_	_	_	_	_	_	bratT10=Person|bratT34=Person-surname
+24	нынешнему	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT9=Person-property
+25	президенту	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT9=Person-property
+26	США	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT8=GPE|bratT9=Person-property
+27	Дональду	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT33=Person-forename
+28	Трампу	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT34=Person-surname
 29	удалось	_	_	_	_	_	_	_	_
 30	сыграть	_	_	_	_	_	_	_	_
 31	самого	_	_	_	_	_	_	_	_
@@ -64,7 +64,7 @@
 # par_text = Коламбус поведал, что когда съемочная группа выбрала для съемок принадлежавший тогда республиканцу отель «Плаза», тот неожиданно выдвинул условие: он должен появиться в кадре.
 # sent_id = 0032-p3-s1
 # text = Коламбус поведал, что когда съемочная группа выбрала для съемок принадлежавший тогда республиканцу отель ``Плаза'', тот неожиданно выдвинул условие: он должен появиться в кадре.
-1	Коламбус	_	_	_	_	_	_	_	bratT11=Person|bratT35=Person-surname
+1	Коламбус	_	_	_	_	_	_	_	bratA9=T11:Male|bratT11=Person|bratT35=Person-surname
 2	поведал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 30	,	_	_	_	_	_	_	_	_
 31	заявил	_	_	_	_	_	_	_	_
 32	ему	_	_	_	_	_	_	_	_
-33	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person|bratT36=Person-surname
+33	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Male|bratT14=Person|bratT36=Person-surname
 34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0032-p5
@@ -162,8 +162,8 @@
 23	картины	_	_	_	_	_	_	_	SpaceAfter=No
 24	,	_	_	_	_	_	_	_	_
 25	поэтому	_	_	_	_	_	_	_	_
-26	Крис	_	_	_	_	_	_	_	bratT16=Person|bratT37=Person-forename
-27	Коламбус	_	_	_	_	_	_	_	bratT16=Person|bratT38=Person-surname
+26	Крис	_	_	_	_	_	_	_	bratA11=T16:Male|bratT16=Person|bratT37=Person-forename
+27	Коламбус	_	_	_	_	_	_	_	bratA11=T16:Male|bratT16=Person|bratT38=Person-surname
 28	решил	_	_	_	_	_	_	_	_
 29	ее	_	_	_	_	_	_	_	_
 30	не	_	_	_	_	_	_	_	_
@@ -191,9 +191,9 @@
 15	о	_	_	_	_	_	_	_	_
 16	фильме	_	_	_	_	_	_	_	bratT19=Work-of-art
 17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
-18	Один	_	_	_	_	_	_	_	bratT19=Work-of-art
+18	Один	_	_	_	_	_	_	_	bratT19=Work-of-art|bratT46=Quantity
 19	дома	_	_	_	_	_	_	_	bratT19=Work-of-art
-20	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
+20	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art|bratT45=Ordinal
 21	''	_	_	_	_	_	_	_	bratT19=Work-of-art
 22	именно	_	_	_	_	_	_	_	_
 23	из-за	_	_	_	_	_	_	_	_
@@ -203,7 +203,7 @@
 27	в	_	_	_	_	_	_	_	_
 28	нем	_	_	_	_	_	_	_	_
 29	снялся	_	_	_	_	_	_	_	_
-30	Дональд	_	_	_	_	_	_	_	bratT20=Person|bratT39=Person-forename
-31	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person|bratT40=Person-surname
+30	Дональд	_	_	_	_	_	_	_	bratA12=T20:Male|bratT20=Person|bratT39=Person-forename
+31	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T20:Male|bratT20=Person|bratT40=Person-surname
 32	.	_	_	_	_	_	_	_	_
 

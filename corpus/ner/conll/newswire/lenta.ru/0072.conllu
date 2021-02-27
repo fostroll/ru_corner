@@ -137,10 +137,10 @@
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	противники	_	_	_	_	_	_	_	_
-5	действующего	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
-6	президента	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Person
-7	Дональда	_	_	_	_	_	_	_	bratT19=Person|bratT39=Person-forename
-8	Трампа	_	_	_	_	_	_	_	bratT19=Person|bratT45=Person-surname
+5	действующего	_	_	_	_	_	_	_	bratA7=T19:Male|bratT18=Person-property|bratT19=Person
+6	президента	_	_	_	_	_	_	_	bratA7=T19:Male|bratT18=Person-property|bratT19=Person
+7	Дональда	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT39=Person-forename
+8	Трампа	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT45=Person-surname
 9	с	_	_	_	_	_	_	_	_
 10	криками	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
@@ -184,17 +184,17 @@
 2	высший	_	_	_	_	_	_	_	_
 3	пост	_	_	_	_	_	_	_	_
 4	борются	_	_	_	_	_	_	_	_
-5	действующий	_	_	_	_	_	_	_	bratT24=Person-property|bratT26=Person
-6	глава	_	_	_	_	_	_	_	bratT24=Person-property|bratT26=Person
-7	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT26=Person
-8	,	_	_	_	_	_	_	_	bratT26=Person
-9	республиканец	_	_	_	_	_	_	_	bratT25=Political-group|bratT26=Person
-10	Дональд	_	_	_	_	_	_	_	bratT26=Person|bratT48=Person-forename
-11	Трамп	_	_	_	_	_	_	_	bratT26=Person|bratT49=Person-surname
+5	действующий	_	_	_	_	_	_	_	bratA8=T26:Male|bratT24=Person-property|bratT26=Person
+6	глава	_	_	_	_	_	_	_	bratA8=T26:Male|bratT24=Person-property|bratT26=Person
+7	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:Male|bratT24=Person-property|bratT26=Person
+8	,	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person
+9	республиканец	_	_	_	_	_	_	_	bratA8=T26:Male|bratT25=Political-group|bratT26=Person
+10	Дональд	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person|bratT48=Person-forename
+11	Трамп	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person|bratT49=Person-surname
 12	и	_	_	_	_	_	_	_	_
-13	демократ	_	_	_	_	_	_	_	bratT27=Political-group|bratT28=Person
-14	Джо	_	_	_	_	_	_	_	bratT28=Person|bratT50=Person-forename
-15	Байден	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person|bratT51=Person-surname
+13	демократ	_	_	_	_	_	_	_	bratA9=T28:Male|bratT27=Political-group|bratT28=Person
+14	Джо	_	_	_	_	_	_	_	bratA9=T28:Male|bratT28=Person|bratT50=Person-forename
+15	Байден	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Male|bratT28=Person|bratT51=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0072-p5-s3
@@ -218,14 +218,14 @@
 # text = Пока у Байдена 264 голоса выборщиков, а у Трампа - 214.
 1	Пока	_	_	_	_	_	_	_	_
 2	у	_	_	_	_	_	_	_	_
-3	Байдена	_	_	_	_	_	_	_	bratT29=Person|bratT52=Person-surname
+3	Байдена	_	_	_	_	_	_	_	bratA10=T29:Male|bratT29=Person|bratT52=Person-surname
 4	264	_	_	_	_	_	_	_	bratT33=Quantity
 5	голоса	_	_	_	_	_	_	_	bratT33=Quantity
 6	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_
-10	Трампа	_	_	_	_	_	_	_	bratT43=Person|bratT53=Person-surname
+10	Трампа	_	_	_	_	_	_	_	bratA11=T43:Male|bratT43=Person|bratT53=Person-surname
 11	-	_	_	_	_	_	_	_	_
 12	214	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Quantity
 13	.	_	_	_	_	_	_	_	_
@@ -243,7 +243,7 @@
 9	еще	_	_	_	_	_	_	_	_
 10	нет	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
-12	Трамп	_	_	_	_	_	_	_	bratT30=Person|bratT54=Person-surname
+12	Трамп	_	_	_	_	_	_	_	bratA12=T30:Male|bratT30=Person|bratT54=Person-surname
 13	уже	_	_	_	_	_	_	_	_
 14	поздравил	_	_	_	_	_	_	_	_
 15	своих	_	_	_	_	_	_	_	_
@@ -256,7 +256,7 @@
 # text = В штабе Байдена также выразили уверенность в победе.
 1	В	_	_	_	_	_	_	_	_
 2	штабе	_	_	_	_	_	_	_	bratT42=Organization
-3	Байдена	_	_	_	_	_	_	_	bratT35=Person|bratT42=Organization|bratT55=Person-surname
+3	Байдена	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT42=Organization|bratT55=Person-surname
 4	также	_	_	_	_	_	_	_	_
 5	выразили	_	_	_	_	_	_	_	_
 6	уверенность	_	_	_	_	_	_	_	_

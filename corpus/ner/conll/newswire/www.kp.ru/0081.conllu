@@ -34,7 +34,7 @@
 
 # sent_id = 0081-p2-s2
 # text = Русские жители страны рассказали о происходившем в роковую ночь.
-1	Русские	_	_	_	_	_	_	_	bratA14=T39:Resident|bratT18=Nationality|bratT39=Nationality
+1	Русские	_	_	_	_	_	_	_	bratA14=T39:Resident|bratA19=T18:Adjective|bratT18=Nationality|bratT39=Nationality
 2	жители	_	_	_	_	_	_	_	bratA14=T39:Resident|bratT39=Nationality
 3	страны	_	_	_	_	_	_	_	bratA14=T39:Resident|bratT39=Nationality
 4	рассказали	_	_	_	_	_	_	_	_
@@ -49,7 +49,7 @@
 # par_text = Наталья в тот вечер с другом пошла в кинотеатр. Это был последний день перед локдауном, поэтому на улицах было шумно.
 # sent_id = 0081-p3-s1
 # text = Наталья в тот вечер с другом пошла в кинотеатр.
-1	Наталья	_	_	_	_	_	_	_	bratT41=Person-forename|bratT6=Person
+1	Наталья	_	_	_	_	_	_	_	bratA16=T6:Female|bratT41=Person-forename|bratT6=Person
 2	в	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-relative
 3	тот	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-relative
 4	вечер	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-relative|bratT33=Time-absolute
@@ -193,7 +193,7 @@
 # par_text = Лиза тоже живет в Вене, по ее ловам центр города был оцеплен до часа ночи.
 # sent_id = 0081-p7-s1
 # text = Лиза тоже живет в Вене, по ее ловам центр города был оцеплен до часа ночи.
-1	Лиза	_	_	_	_	_	_	_	bratT10=Person|bratT42=Person-forename
+1	Лиза	_	_	_	_	_	_	_	bratA17=T10:Female|bratT10=Person|bratT42=Person-forename
 2	тоже	_	_	_	_	_	_	_	_
 3	живет	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
@@ -272,7 +272,7 @@
 2	одна	_	_	_	_	_	_	_	bratT25=Quantity
 3	очевидица	_	_	_	_	_	_	_	_
 4	происходящего	_	_	_	_	_	_	_	_
-5	Оксана	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person|bratT43=Person-forename
+5	Оксана	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T16:Female|bratT16=Person|bratT43=Person-forename
 6	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p9-s2

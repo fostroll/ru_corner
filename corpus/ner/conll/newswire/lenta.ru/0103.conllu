@@ -4,7 +4,7 @@
 # sent_id = 0103-p1-s1
 # text = Папа римский впервые выступил за легализацию однополых союзов
 1	Папа	_	_	_	_	_	_	_	bratT1=Person-property
-2	римский	_	_	_	_	_	_	_	bratT1=Person-property
+2	римский	_	_	_	_	_	_	_	bratA6=T31:Adjective|bratT1=Person-property|bratT31=GPE
 3	впервые	_	_	_	_	_	_	_	bratT2=Ordinal
 4	выступил	_	_	_	_	_	_	_	_
 5	за	_	_	_	_	_	_	_	_
@@ -16,9 +16,9 @@
 # par_text = Папа римский Франциск выступил за легализацию однополых союзов, поскольку, с его точки зрения, ЛГБТ-представители тоже имеют право на семью. Об этом сообщает AlJazeera со ссылкой на документальный фильм Francesco.
 # sent_id = 0103-p2-s1
 # text = Папа римский Франциск выступил за легализацию однополых союзов, поскольку, с его точки зрения, ЛГБТ-представители тоже имеют право на семью.
-1	Папа	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-2	римский	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-3	Франциск	_	_	_	_	_	_	_	bratT11=Person-forename|bratT4=Person
+1	Папа	_	_	_	_	_	_	_	bratA5=T4:Male|bratT3=Person-property|bratT4=Person
+2	римский	_	_	_	_	_	_	_	bratA5=T4:Male|bratA7=T32:Adjective|bratT3=Person-property|bratT32=GPE|bratT4=Person
+3	Франциск	_	_	_	_	_	_	_	bratA5=T4:Male|bratT11=Person-forename|bratT4=Person
 4	выступил	_	_	_	_	_	_	_	_
 5	за	_	_	_	_	_	_	_	_
 6	легализацию	_	_	_	_	_	_	_	_
@@ -51,7 +51,7 @@
 7	на	_	_	_	_	_	_	_	_
 8	документальный	_	_	_	_	_	_	_	bratT8=Work-of-art
 9	фильм	_	_	_	_	_	_	_	bratT8=Work-of-art
-10	Francesco	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Work-of-art
+10	Francesco	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T34:Male|bratT34=Person|bratT35=Person-forename|bratT8=Work-of-art
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0103-p3
@@ -93,7 +93,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
 13	сказал	_	_	_	_	_	_	_	_
-14	Франциск	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT21=Person-forename
+14	Франциск	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT21=Person-forename
 15	,	_	_	_	_	_	_	_	_
 16	рассуждая	_	_	_	_	_	_	_	_
 17	о	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 # text = Ранее папа римский провел встречу с родителями ЛГБТ-подростков, где рассказал, что бог любит всех своих детей.
 1	Ранее	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-relative
 2	папа	_	_	_	_	_	_	_	bratT18=Person-property
-3	римский	_	_	_	_	_	_	_	bratT18=Person-property
+3	римский	_	_	_	_	_	_	_	bratA9=T33:Adjective|bratT18=Person-property|bratT33=GPE
 4	провел	_	_	_	_	_	_	_	_
 5	встречу	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_

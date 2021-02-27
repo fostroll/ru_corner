@@ -17,12 +17,12 @@
 # par_text = Посол России на Кубе Андрей Гуськов рассказал в беседе с РИА Новости о требованиях кубинских властей к въезжающим в страну россиянам.
 # sent_id = 0065-p2-s1
 # text = Посол России на Кубе Андрей Гуськов рассказал в беседе с РИА Новости о требованиях кубинских властей к въезжающим в страну россиянам.
-1	Посол	_	_	_	_	_	_	_	bratT20=Person-property|bratT23=Person
-2	России	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=GPE|bratT23=Person
-3	на	_	_	_	_	_	_	_	bratT20=Person-property|bratT23=Person
-4	Кубе	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=GPE|bratT23=Person
-5	Андрей	_	_	_	_	_	_	_	bratT23=Person
-6	Гуськов	_	_	_	_	_	_	_	bratT23=Person
+1	Посол	_	_	_	_	_	_	_	bratA3=T23:Male|bratT20=Person-property|bratT23=Person
+2	России	_	_	_	_	_	_	_	bratA3=T23:Male|bratT20=Person-property|bratT21=GPE|bratT23=Person
+3	на	_	_	_	_	_	_	_	bratA3=T23:Male|bratT20=Person-property|bratT23=Person
+4	Кубе	_	_	_	_	_	_	_	bratA3=T23:Male|bratT20=Person-property|bratT22=GPE|bratT23=Person
+5	Андрей	_	_	_	_	_	_	_	bratA3=T23:Male|bratT23=Person|bratT34=Person-forename
+6	Гуськов	_	_	_	_	_	_	_	bratA3=T23:Male|bratT23=Person|bratT35=Person-surname
 7	рассказал	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	беседе	_	_	_	_	_	_	_	_
@@ -31,7 +31,7 @@
 12	Новости	_	_	_	_	_	_	_	bratA1=T24:Media|bratT24=Organization
 13	о	_	_	_	_	_	_	_	_
 14	требованиях	_	_	_	_	_	_	_	_
-15	кубинских	_	_	_	_	_	_	_	_
+15	кубинских	_	_	_	_	_	_	_	bratA8=T36:Adjective|bratT36=GPE
 16	властей	_	_	_	_	_	_	_	_
 17	к	_	_	_	_	_	_	_	_
 18	въезжающим	_	_	_	_	_	_	_	_
@@ -87,7 +87,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No
-6	российским	_	_	_	_	_	_	_	bratT5=Other-group
+6	российским	_	_	_	_	_	_	_	bratA7=T37:Adjective|bratT37=GPE|bratT5=Other-group
 7	туристам	_	_	_	_	_	_	_	bratT5=Other-group
 8	нужно	_	_	_	_	_	_	_	_
 9	быть	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 22	,	_	_	_	_	_	_	_	_
 23	-	_	_	_	_	_	_	_	_
 24	заявил	_	_	_	_	_	_	_	_
-25	Гуськов	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person
+25	Гуськов	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Male|bratT13=Person|bratT38=Person-surname
 26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0065-p6
@@ -191,7 +191,7 @@
 39	здоровья	_	_	_	_	_	_	_	_
 40	при	_	_	_	_	_	_	_	_
 41	пересечении	_	_	_	_	_	_	_	_
-42	кубинской	_	_	_	_	_	_	_	bratT15=Facility
+42	кубинской	_	_	_	_	_	_	_	bratA5=T39:Adjective|bratT15=Facility|bratT39=GPE
 43	границы	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Facility
 44	''	_	_	_	_	_	_	_	SpaceAfter=No
 45	.	_	_	_	_	_	_	_	_
@@ -247,7 +247,7 @@
 16	с	_	_	_	_	_	_	_	bratT18=Date-period-absolute
 17	1	_	_	_	_	_	_	_	bratT18=Date-period-absolute
 18	декабря	_	_	_	_	_	_	_	bratT18=Date-period-absolute
-19	кубинское	_	_	_	_	_	_	_	bratT19=Organization
+19	кубинское	_	_	_	_	_	_	_	bratA6=T40:Adjective|bratT19=Organization|bratT40=GPE
 20	правительство	_	_	_	_	_	_	_	bratT19=Organization
 21	установило	_	_	_	_	_	_	_	_
 22	сбор	_	_	_	_	_	_	_	_
