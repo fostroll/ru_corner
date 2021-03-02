@@ -49,9 +49,9 @@
 
 # sent_id = 0122-p2-s2
 # text = Супруга американского лидера проголосовала на избирательном участке в Палм-Бич, в штате Флорида.
-1	Супруга	_	_	_	_	_	_	_	bratT39=Family
-2	американского	_	_	_	_	_	_	_	bratA20=T65:Adjective|bratT40=Person-property|bratT65=GPE
-3	лидера	_	_	_	_	_	_	_	bratT40=Person-property
+1	Супруга	_	_	_	_	_	_	_	bratA25=T68:Female|bratT39=Family|bratT68=Person
+2	американского	_	_	_	_	_	_	_	bratA20=T65:Adjective|bratA25=T68:Female|bratT40=Person-property|bratT65=GPE|bratT68=Person
+3	лидера	_	_	_	_	_	_	_	bratA25=T68:Female|bratT40=Person-property|bratT68=Person
 4	проголосовала	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
 6	избирательном	_	_	_	_	_	_	_	_
@@ -100,8 +100,8 @@
 20	досрочно	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
 22	как	_	_	_	_	_	_	_	_
-23	ее	_	_	_	_	_	_	_	_
-24	супруг	_	_	_	_	_	_	_	bratT16=Family
+23	ее	_	_	_	_	_	_	_	bratA16=T15:Male|bratT15=Person
+24	супруг	_	_	_	_	_	_	_	bratA16=T15:Male|bratT15=Person|bratT16=Family
 25	Дональд	_	_	_	_	_	_	_	bratA16=T15:Male|bratT15=Person|bratT56=Person-forename
 26	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T15:Male|bratT15=Person|bratT57=Person-surname
 27	,	_	_	_	_	_	_	_	_

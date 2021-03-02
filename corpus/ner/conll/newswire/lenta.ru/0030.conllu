@@ -24,9 +24,9 @@
 5	Рамзана	_	_	_	_	_	_	_	bratA5=T6:Male|bratT43=Person-forename|bratT6=Person
 6	Кадырова	_	_	_	_	_	_	_	bratA5=T6:Male|bratT44=Person-surname|bratT6=Person
 7	и	_	_	_	_	_	_	_	_
-8	членов	_	_	_	_	_	_	_	_
-9	его	_	_	_	_	_	_	_	_
-10	семьи	_	_	_	_	_	_	_	bratT37=Family
+8	членов	_	_	_	_	_	_	_	bratT59=Person
+9	его	_	_	_	_	_	_	_	bratT59=Person
+10	семьи	_	_	_	_	_	_	_	bratT37=Family|bratT59=Person
 11	объясняется	_	_	_	_	_	_	_	_
 12	желанием	_	_	_	_	_	_	_	_
 13	увеличить	_	_	_	_	_	_	_	_
@@ -262,8 +262,8 @@
 21	аккаунтов	_	_	_	_	_	_	_	_
 22	Кадырова	_	_	_	_	_	_	_	bratA15=T20:Male|bratT20=Person|bratT57=Person-surname
 23	и	_	_	_	_	_	_	_	_
-24	его	_	_	_	_	_	_	_	_
-25	родственников	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Family
+24	его	_	_	_	_	_	_	_	bratT60=Person
+25	родственников	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Family|bratT60=Person
 26	,	_	_	_	_	_	_	_	_
 27	не	_	_	_	_	_	_	_	_
 28	так	_	_	_	_	_	_	_	_

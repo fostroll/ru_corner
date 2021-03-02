@@ -6,18 +6,18 @@ T5	Organization 268 286	``   Атлетико   ''
 T6	Organization 295 315	``   Барселоной   ''
 T7	Ordinal 331 339	десятого
 T8	Event 331 380	десятого   тура   нынешнего   розыгрыша   Примеры
-T9	Event 433 447	сезона-2009/10
-T10	Event 465 485	матче   22-го   тура
-T11	Date-absolute 504 529	в   феврале   2010   года
-T12	Organization 536 554	``   Атлетико   ''
-T13	Organization 597 617	``   Барселоной   ''
-T14	Event 726 746	чемпионата   Испании
-T15	GPE 739 746	Испании
-T16	Quantity 787 798	20   матчей
-T17	Organization 835 854	``   Барселона   ''
-T18	Organization 869 887	``   Атлетико   ''
-T19	Event 894 901	Примере
-T20	Quantity 634 637	2:1
+T9	Event 433 453	сезона   -   2009/10
+T10	Event 471 491	матче   22-го   тура
+T11	Date-absolute 510 535	в   феврале   2010   года
+T12	Organization 542 560	``   Атлетико   ''
+T13	Organization 603 623	``   Барселоной   ''
+T14	Event 732 752	чемпионата   Испании
+T15	GPE 745 752	Испании
+T16	Quantity 793 804	20   матчей
+T17	Organization 841 860	``   Барселона   ''
+T18	Organization 875 893	``   Атлетико   ''
+T19	Event 900 907	Примере
+T20	Quantity 640 643	2:1
 T21	Ordinal 420 426	первой
 T22	Organization 92 123	Мадридский   ``   Атлетико   ''
 T23	Organization 184 218	каталонской   ``   Барселоной   ''
@@ -26,7 +26,7 @@ T25	Event 373 380	Примеры
 T26	Event 349 380	нынешнего   розыгрыша   Примеры
 T27	Event 259 315	Победа   ``   Атлетико   ''   над   ``   Барселоной   ''
 T28	Ordinal 67 74	впервые
-T29	Date-relative 804 809	Ранее
+T29	Date-relative 810 815	Ранее
 A1	Past T11
 T30	Duration 82 90	10   лет
 A2	Past-Pres T4
@@ -34,10 +34,10 @@ A3	Past T29
 T31	GPE 92 102	Мадридский
 T32	GPE 184 195	каталонской
 T33	GPE 234 243	испанской
-T34	Ordinal 349 358	нынешнего
+T34	Date-absolute 349 358	нынешнего
 T35	GPE 397 407	мадридской
-T36	GPE 659 669	мадридская
-T37	GPE 699 710	каталонскую
+T36	GPE 665 675	мадридская
+T37	GPE 705 716	каталонскую
 A4	Adjective T31
 A5	Adjective T32
 A6	Adjective T33
@@ -46,5 +46,10 @@ A8	Adjective T36
 A9	Adjective T37
 T38	GPE 203 213	Барселоной
 T39	GPE 300 310	Барселоной
-T40	GPE 602 612	Барселоной
-T41	GPE 840 849	Барселона
+T40	GPE 608 618	Барселоной
+T41	GPE 846 855	Барселона
+A10	Present T34
+T42	Date-absolute 446 453	2009/10
+A11	Past T42
+T44	Date-period-absolute 429 453	с   сезона   -   2009/10
+A12	Past-Pres T44

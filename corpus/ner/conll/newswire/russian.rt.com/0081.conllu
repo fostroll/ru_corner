@@ -6,8 +6,8 @@
 1	МЮ	_	_	_	_	_	_	_	bratT1=Organization
 2	победил	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
-4	Вест	_	_	_	_	_	_	_	bratT2=Organization
-5	Бромвич	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+4	Вест	_	_	_	_	_	_	_	bratT2=Organization|bratT39=GPE
+5	Бромвич	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT39=GPE
 6	''	_	_	_	_	_	_	_	bratT2=Organization
 7	в	_	_	_	_	_	_	_	_
 8	АПЛ	_	_	_	_	_	_	_	bratT19=Event
@@ -22,15 +22,15 @@
 # sent_id = 0081-p2-s1
 # text = ``Манчестер Юнайтед'' одержал победу над ``Вест Бромвич Альбион'' в матче девятого тура Английской премьер-лиги (АПЛ).
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
-2	Манчестер	_	_	_	_	_	_	_	bratT22=Organization
+2	Манчестер	_	_	_	_	_	_	_	bratT22=Organization|bratT35=GPE
 3	Юнайтед	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
 4	''	_	_	_	_	_	_	_	bratT22=Organization
 5	одержал	_	_	_	_	_	_	_	_
 6	победу	_	_	_	_	_	_	_	_
 7	над	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
-9	Вест	_	_	_	_	_	_	_	bratT23=Organization
-10	Бромвич	_	_	_	_	_	_	_	bratT23=Organization
+9	Вест	_	_	_	_	_	_	_	bratT23=Organization|bratT38=GPE
+10	Бромвич	_	_	_	_	_	_	_	bratT23=Organization|bratT38=GPE
 11	Альбион	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
 12	''	_	_	_	_	_	_	_	bratT23=Organization
 13	в	_	_	_	_	_	_	_	_
@@ -82,7 +82,7 @@
 9	пенальти	_	_	_	_	_	_	_	bratT9=Other-term
 10	на	_	_	_	_	_	_	_	bratA1=T10:Past|bratT10=Date-relative
 11	56-й	_	_	_	_	_	_	_	bratA1=T10:Past|bratT10=Date-relative|bratT28=Ordinal
-12	минуте	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Past|bratT10=Date-relative
+12	минуте	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Past|bratT10=Date-relative|bratT34=Duration
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p5
@@ -108,8 +108,8 @@
 # sent_id = 0081-p5-s2
 # text = ``Вест Бромвич'' с 18 очками - 18-й.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
-2	Вест	_	_	_	_	_	_	_	bratT14=Organization
-3	Бромвич	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+2	Вест	_	_	_	_	_	_	_	bratT14=Organization|bratT40=GPE
+3	Бромвич	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization|bratT40=GPE
 4	''	_	_	_	_	_	_	_	bratT14=Organization
 5	с	_	_	_	_	_	_	_	bratT15=Quantity
 6	18	_	_	_	_	_	_	_	bratT15=Quantity
@@ -127,14 +127,14 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
-6	Тоттенхэм	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+6	Тоттенхэм	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT37=GPE
 7	''	_	_	_	_	_	_	_	bratT17=Organization
 8	взял	_	_	_	_	_	_	_	_
 9	верх	_	_	_	_	_	_	_	_
 10	над	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
-12	Манчестер	_	_	_	_	_	_	_	bratT18=Organization
-13	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+12	Манчестер	_	_	_	_	_	_	_	bratT18=Organization|bratT36=GPE
+13	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT36=GPE
 14	''	_	_	_	_	_	_	_	bratT18=Organization
 15	и	_	_	_	_	_	_	_	_
 16	возглавил	_	_	_	_	_	_	_	_

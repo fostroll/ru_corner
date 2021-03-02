@@ -186,10 +186,10 @@
 11	,	_	_	_	_	_	_	_	_
 12	будет	_	_	_	_	_	_	_	_
 13	активизироваться	_	_	_	_	_	_	_	_
-14	каждый	_	_	_	_	_	_	_	_
-15	год	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	bratT14=Time-absolute
-17	холодный	_	_	_	_	_	_	_	bratT14=Time-absolute
-18	сезон	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Time-absolute
+14	каждый	_	_	_	_	_	_	_	bratT20=Time-period
+15	год	_	_	_	_	_	_	_	bratT19=Duration|bratT20=Time-period
+16	в	_	_	_	_	_	_	_	bratT14=Time-absolute|bratT20=Time-period
+17	холодный	_	_	_	_	_	_	_	bratT14=Time-absolute|bratT20=Time-period
+18	сезон	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Time-absolute|bratT20=Time-period
 19	.	_	_	_	_	_	_	_	_
 

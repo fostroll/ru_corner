@@ -125,50 +125,47 @@
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0090-p4-s2
-# text = « Ты - девушка мечты'', ``Бомба'', ``Самая горячая девушка на планете'', ``Восхитительная фигура'', ``Самая красивая девушка с натуральным телом! »
-1	``	_	_	_	_	_	_	_	QuotationStart=«
+# text = «Ты - девушка мечты», «Бомба», «Самая горячая девушка на планете», «Восхитительная фигура», «Самая красивая девушка с натуральным телом!», «Ты - мое вдохновение», - высказывались поклонники.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 2	Ты	_	_	_	_	_	_	_	_
 3	-	_	_	_	_	_	_	_	_
 4	девушка	_	_	_	_	_	_	_	_
 5	мечты	_	_	_	_	_	_	_	SpaceAfter=No
-6	''	_	_	_	_	_	_	_	SpaceAfter=No
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	SpaceAfter=No
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 9	Бомба	_	_	_	_	_	_	_	SpaceAfter=No
-10	''	_	_	_	_	_	_	_	SpaceAfter=No
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
-12	``	_	_	_	_	_	_	_	SpaceAfter=No
+12	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 13	Самая	_	_	_	_	_	_	_	_
 14	горячая	_	_	_	_	_	_	_	_
 15	девушка	_	_	_	_	_	_	_	_
 16	на	_	_	_	_	_	_	_	_
 17	планете	_	_	_	_	_	_	_	SpaceAfter=No
-18	''	_	_	_	_	_	_	_	SpaceAfter=No
+18	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
-20	``	_	_	_	_	_	_	_	SpaceAfter=No
+20	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 21	Восхитительная	_	_	_	_	_	_	_	_
 22	фигура	_	_	_	_	_	_	_	SpaceAfter=No
-23	''	_	_	_	_	_	_	_	SpaceAfter=No
+23	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 24	,	_	_	_	_	_	_	_	_
-25	``	_	_	_	_	_	_	_	SpaceAfter=No
+25	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 26	Самая	_	_	_	_	_	_	_	_
 27	красивая	_	_	_	_	_	_	_	_
 28	девушка	_	_	_	_	_	_	_	_
 29	с	_	_	_	_	_	_	_	_
 30	натуральным	_	_	_	_	_	_	_	_
 31	телом	_	_	_	_	_	_	_	SpaceAfter=No
-32	!	_	_	_	_	_	_	_	_
-33	''	_	_	_	_	_	_	_	QuotationEnd=»
-
-# sent_id = 0090-p4-s3
-# text = , ``Ты - мое вдохновение'', - высказывались поклонники.
+32	!	_	_	_	_	_	_	_	SpaceAfter=No
+33	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 1	,	_	_	_	_	_	_	_	_
-2	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 3	Ты	_	_	_	_	_	_	_	_
 4	-	_	_	_	_	_	_	_	_
 5	мое	_	_	_	_	_	_	_	_
 6	вдохновение	_	_	_	_	_	_	_	SpaceAfter=No
-7	''	_	_	_	_	_	_	_	SpaceAfter=No
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	высказывались	_	_	_	_	_	_	_	_

@@ -58,7 +58,7 @@
 10	рамках	_	_	_	_	_	_	_	_
 11	десятого	_	_	_	_	_	_	_	bratT7=Ordinal|bratT8=Event
 12	тура	_	_	_	_	_	_	_	bratT8=Event
-13	нынешнего	_	_	_	_	_	_	_	bratT26=Event|bratT34=Ordinal|bratT8=Event
+13	нынешнего	_	_	_	_	_	_	_	bratA10=T34:Present|bratT26=Event|bratT34=Date-absolute|bratT8=Event
 14	розыгрыша	_	_	_	_	_	_	_	bratT26=Event|bratT8=Event
 15	Примеры	_	_	_	_	_	_	_	bratT25=Event|bratT26=Event|bratT8=Event
 16	стала	_	_	_	_	_	_	_	_
@@ -66,9 +66,11 @@
 18	мадридской	_	_	_	_	_	_	_	bratA7=T35:Adjective|bratT35=GPE
 19	команды	_	_	_	_	_	_	_	_
 20	первой	_	_	_	_	_	_	_	bratT21=Ordinal
-21	с	_	_	_	_	_	_	_	_
-22	сезона-2009/10	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Event
-23	.	_	_	_	_	_	_	_	_
+21	с	_	_	_	_	_	_	_	bratA12=T44:Past-Pres|bratT44=Date-period-absolute
+22	сезона	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T44:Past-Pres|bratT44=Date-period-absolute|bratT9=Event
+23	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T44:Past-Pres|bratT44=Date-period-absolute|bratT9=Event
+24	2009/10	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T42:Past|bratA12=T44:Past-Pres|bratT42=Date-absolute|bratT44=Date-period-absolute|bratT9=Event
+25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0022-p4
 # par_text = Тогда в матче 22-го тура, прошедшем в феврале 2010 года, «Атлетико» на своём поле взял верх над «Барселоной» со счётом 2:1.

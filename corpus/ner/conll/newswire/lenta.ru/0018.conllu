@@ -7,9 +7,11 @@
 2	стала	_	_	_	_	_	_	_	_
 3	талисманом	_	_	_	_	_	_	_	_
 4	летней	_	_	_	_	_	_	_	_
-5	Универсиады-2023	_	_	_	_	_	_	_	bratT1=Event
-6	в	_	_	_	_	_	_	_	_
-7	Екатеринбурге	_	_	_	_	_	_	_	bratT2=GPE
+5	Универсиады	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event
+7	2023	_	_	_	_	_	_	_	bratA11=T38:Future|bratT1=Event|bratT38=Date-absolute
+8	в	_	_	_	_	_	_	_	_
+9	Екатеринбурге	_	_	_	_	_	_	_	bratT2=GPE
 
 # newpar id = 0018-p2
 # par_text = Девушка-блогер, олень и соболенок стали талисманами летней Универсиады 2023 года в Екатеринбурге. Об этом в эфире программы «Вечерний Ургант» на Первом канале рассказал министр спорта России Олег Матыцин.
@@ -118,20 +120,22 @@
 # sent_id = 0018-p4-s1
 # text = Летняя Универсиада-2023 пройдет с 8 по 19 августа.
 1	Летняя	_	_	_	_	_	_	_	_
-2	Универсиада-2023	_	_	_	_	_	_	_	bratT18=Event
-3	пройдет	_	_	_	_	_	_	_	_
-4	с	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
-5	8	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
-6	по	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
-7	19	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
-8	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Fut|bratT19=Date-period-absolute
-9	.	_	_	_	_	_	_	_	_
+2	Универсиада	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event
+4	2023	_	_	_	_	_	_	_	bratA12=T40:Future|bratT18=Event|bratT40=Date-absolute
+5	пройдет	_	_	_	_	_	_	_	_
+6	с	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
+7	8	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
+8	по	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
+9	19	_	_	_	_	_	_	_	bratA8=T19:Fut|bratT19=Date-period-absolute
+10	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Fut|bratT19=Date-period-absolute
+11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0018-p4-s2
 # text = Екатеринбург был единственным кандидатом на проведение соревнований.
 1	Екатеринбург	_	_	_	_	_	_	_	bratT20=GPE
 2	был	_	_	_	_	_	_	_	_
-3	единственным	_	_	_	_	_	_	_	_
+3	единственным	_	_	_	_	_	_	_	bratT42=Quantity
 4	кандидатом	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
 6	проведение	_	_	_	_	_	_	_	_

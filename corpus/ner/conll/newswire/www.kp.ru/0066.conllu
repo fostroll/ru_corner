@@ -90,8 +90,8 @@
 # sent_id = 0066-p3-s2
 # text = Согласно российскому законодательству, автомобиль Семендуева может быть конфискован, его счета могут быть арестованы, а сам он может быть лишен свободы.
 1	Согласно	_	_	_	_	_	_	_	_
-2	российскому	_	_	_	_	_	_	_	bratA13=T42:Adjective|bratT42=GPE
-3	законодательству	_	_	_	_	_	_	_	SpaceAfter=No
+2	российскому	_	_	_	_	_	_	_	bratA13=T42:Adjective|bratT42=GPE|bratT43=Law
+3	законодательству	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Law
 4	,	_	_	_	_	_	_	_	_
 5	автомобиль	_	_	_	_	_	_	_	_
 6	Семендуева	_	_	_	_	_	_	_	bratA10=T17:Male|bratT17=Person|bratT39=Person-surname
@@ -171,16 +171,16 @@
 2	утверждает	_	_	_	_	_	_	_	_
 3	Жасмин	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T22:Female|bratT22=Person|bratT40=Person-alias
 4	,	_	_	_	_	_	_	_	_
-5	ее	_	_	_	_	_	_	_	_
-6	сын	_	_	_	_	_	_	_	bratT28=Family
+5	ее	_	_	_	_	_	_	_	bratA14=T44:Male|bratT44=Person
+6	сын	_	_	_	_	_	_	_	bratA14=T44:Male|bratT28=Family|bratT44=Person
 7	самодостаточен	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p5-s2
 # text = С его отцом певица не общается, а сам Максим живёт в отдельной квартире.
 1	С	_	_	_	_	_	_	_	_
-2	его	_	_	_	_	_	_	_	_
-3	отцом	_	_	_	_	_	_	_	bratT24=Family
+2	его	_	_	_	_	_	_	_	bratA15=T45:Male|bratT45=Person
+3	отцом	_	_	_	_	_	_	_	bratA15=T45:Male|bratT24=Family|bratT45=Person
 4	певица	_	_	_	_	_	_	_	bratT23=Person-property
 5	не	_	_	_	_	_	_	_	_
 6	общается	_	_	_	_	_	_	_	SpaceAfter=No

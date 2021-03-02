@@ -12,8 +12,8 @@
 7	россиянину	_	_	_	_	_	_	_	bratA1=T3:Citizenship|bratT3=Nationality
 8	по	_	_	_	_	_	_	_	_
 9	просьбе	_	_	_	_	_	_	_	_
-10	его	_	_	_	_	_	_	_	_
-11	жены	_	_	_	_	_	_	_	bratT27=Family
+10	его	_	_	_	_	_	_	_	bratA10=T38:Female|bratT38=Person
+11	жены	_	_	_	_	_	_	_	bratA10=T38:Female|bratT27=Family|bratT38=Person
 
 # newpar id = 0040-p2
 # par_text = В Волгограде завершено расследование уголовного дела бывших полицейских, которые подбросили наркотики россиянину по просьбе его жены. Об этом сообщает пресс-служба регионального управления Следственного комитета России.
@@ -34,8 +34,8 @@
 13	россиянину	_	_	_	_	_	_	_	bratA2=T6:Citizenship|bratT6=Nationality
 14	по	_	_	_	_	_	_	_	_
 15	просьбе	_	_	_	_	_	_	_	_
-16	его	_	_	_	_	_	_	_	_
-17	жены	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Family
+16	его	_	_	_	_	_	_	_	bratA11=T41:Female|bratT41=Person
+17	жены	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T41:Female|bratT28=Family|bratT41=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p2-s2

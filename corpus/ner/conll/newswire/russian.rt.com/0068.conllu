@@ -10,9 +10,9 @@
 5	в	_	_	_	_	_	_	_	_
 6	Подмосковье	_	_	_	_	_	_	_	bratT1=GPE
 7	подозревают	_	_	_	_	_	_	_	_
-8	сожителя	_	_	_	_	_	_	_	bratT15=Family
-9	его	_	_	_	_	_	_	_	_
-10	опекуна	_	_	_	_	_	_	_	bratT7=Family
+8	сожителя	_	_	_	_	_	_	_	bratA6=T24:Male|bratT15=Family|bratT24=Person
+9	его	_	_	_	_	_	_	_	bratA6=T24:Male|bratT24=Person|bratT25=Person
+10	опекуна	_	_	_	_	_	_	_	bratA6=T24:Male|bratT24=Person|bratT25=Person|bratT7=Family
 
 # newpar id = 0068-p2
 # par_text = В нанесении девятилетнему мальчику колото-резаных ранений в Подольске подозревают сожителя женщины, под опекой которой находился ребёнок, заявили в прокуратуре Московской области.
@@ -27,8 +27,8 @@
 7	в	_	_	_	_	_	_	_	_
 8	Подольске	_	_	_	_	_	_	_	bratT12=GPE
 9	подозревают	_	_	_	_	_	_	_	_
-10	сожителя	_	_	_	_	_	_	_	bratT16=Family
-11	женщины	_	_	_	_	_	_	_	SpaceAfter=No
+10	сожителя	_	_	_	_	_	_	_	bratA5=T23:Male|bratT16=Family|bratT23=Person
+11	женщины	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person
 12	,	_	_	_	_	_	_	_	_
 13	под	_	_	_	_	_	_	_	_
 14	опекой	_	_	_	_	_	_	_	_

@@ -4,7 +4,7 @@
 # sent_id = 0105-p1-s1
 # text = ``Наполи'' не смогли вылететь на игру ``Болоньей''
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
-2	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+2	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT51=GPE
 3	''	_	_	_	_	_	_	_	bratT1=Organization
 4	не	_	_	_	_	_	_	_	_
 5	смогли	_	_	_	_	_	_	_	_
@@ -12,7 +12,7 @@
 7	на	_	_	_	_	_	_	_	_
 8	игру	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
-10	Болоньей	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+10	Болоньей	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT54=GPE
 11	''	_	_	_	_	_	_	_	bratT2=Organization
 
 # newpar id = 0105-p2
@@ -24,7 +24,7 @@
 3	тренерский	_	_	_	_	_	_	_	_
 4	штаб	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
-6	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
+6	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT52=GPE
 7	''	_	_	_	_	_	_	_	bratT4=Organization
 8	не	_	_	_	_	_	_	_	_
 9	сумели	_	_	_	_	_	_	_	_
@@ -38,10 +38,10 @@
 17	А	_	_	_	_	_	_	_	bratT45=Event|bratT5=Event|bratT6=Event
 18	чемпионата	_	_	_	_	_	_	_	bratT45=Event|bratT5=Event|bratT6=Event|bratT7=Event
 19	Италии	_	_	_	_	_	_	_	bratT45=Event|bratT5=Event|bratT6=Event|bratT7=Event|bratT8=GPE
-20	с	_	_	_	_	_	_	_	bratT5=Event
-21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Event|bratT9=Organization
-22	Болоньей	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Event|bratT9=Organization
-23	''	_	_	_	_	_	_	_	bratT5=Event|bratT9=Organization
+20	с	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
+22	Болоньей	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=GPE|bratT9=Organization
+23	''	_	_	_	_	_	_	_	bratT9=Organization
 24	из-за	_	_	_	_	_	_	_	_
 25	поломки	_	_	_	_	_	_	_	_
 26	самолёта	_	_	_	_	_	_	_	SpaceAfter=No
