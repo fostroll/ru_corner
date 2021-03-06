@@ -143,113 +143,117 @@ if len(links) < utils.TEXTS_FOR_SOURCE:
 '''===========================================================================
 Texts download and parse
 ==========================================================================='''
-page_fns = utils.get_file_list(utils.PAGES_DIR, MAX_PAGE)
-start_link_idx = int(os.path.split(sorted(page_fns)[-1])[-1]
-                         .replace(utils.DATA_EXT, '')) \
-                     if len(page_fns) > 0 else \
-                 0
-texts_total = 0
+text_fns = utils.get_file_list(utils.TEXTS_DIR, MAX_PAGE)
+if len(text_fns) < utils.TEXTS_FOR_SOURCE:
+    page_fns = utils.get_file_list(utils.PAGES_DIR, MAX_PAGE)
+    start_link_idx = int(os.path.split(sorted(page_fns)[-1])[-1]
+                             .replace(utils.DATA_EXT, '')) \
+                         if len(page_fns) > 0 else \
+                     0
+    texts_total = 0
 
-re0 = re.compile(r'\W|\d')
-re1 = re.compile(r'[^ЁА-Яёа-я]')
-re5 = re.compile(r'\W')
-re10 = re.compile(r'<h1>((?:.|\n)*?)</h1>')
-re11 = re.compile(r'<div class="review-body description" itemprop="description">((?:.|\n)+)$')
-re12 = re.compile(r'<(?P<tag>\S+)[^>]*>.*?</(?P=tag)>')
-re13 = re.compile(r'<(?:[^/].*)?>')
-need_enter = False
-#while False:
-for link_no, link in enumerate(links, start=1):
-    if texts_total >= utils.TEXTS_FOR_SOURCE:
-        break
-    page_fn = utils.get_data_path(utils.PAGES_DIR, MAX_PAGE, link_no)
-    text_fn = utils.get_data_path(utils.TEXTS_DIR, MAX_PAGE, link_no)
-    page = None
-    #link = 'https://otzovik.com/review_11427160.html'
-    if link_no > start_link_idx:
-        time.sleep(2)
-        res = utils.get_url(link, headers=HEADERS, cookies=COOKIES)
-        page = res.text
-        with open('1111.html', 'wt', encoding='utf-8') as f:
-            f.write(page)
-        if page.find('<title>Ошибка: Страница не найдена!</title>') > 0:
-            continue
-    else:
-        if not os.path.isfile(page_fn):
-            continue
-        if os.path.isfile(text_fn):
-            texts_total += 1
-            continue
-        with open(page_fn, 'rt', encoding='utf-8') as f:
-            link = f.readline().rstrip()
-            page = f.read()
-    match = re10.search(page)
-    assert match, "ERROR: Can't find header on page {}".format(link)
-    header = utils.norm_text2(match.group(1))
-    token = 'Отзыв: '
-    if header.startswith(token):
-        header = header[len(token):]
-    match = re11.search(page)
-    assert match, "ERROR: Can't find review on page {}".format(link)
-    text = match.group(1)
-    text = re12.sub('', text).replace('\n', '').replace('<br>', '\n') \
-                             .replace('<br/>', '\n').replace('<br />', '\n')
-    text = re13.sub('', text)
-    pos = text.find('<')  ## </div>
-    if pos >= 0:
-        text = text[:pos]
-    text = utils.norm_text2(text)
-    lines = [header] + [x for x in (x.strip() for x in text.split('\n')) if x]
-    res, text = False, None
-    while len(lines) >= _utils.MIN_TEXT_LINES:
-        text = '\n'.join(lines)
-        text0 = re0.sub('', text)
-        text1 = re1.sub('', text0)
-        if any(x in 'ЀЂЃЄЅІЇЈЉЊЋЌЍЎЏѐђѓєѕіїјљњћќѝўџѠѡѢѣѤѥѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵѶѷѸѹ'
-                    'ѺѻѼѽѾѿҀҁ҂҃҄҅҆҇҈҉ҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩҪҫҬҭҮүҰұ'
-                    'ҲҳҴҵҶҷҸҹҺһҼҽҾҿӀӁӂӃӄӅӆӇӈӉӊӋӌӍӎӏӐӑӒӓӔӕӖӗӘәӚӛӜӝӞӟӠӡӢӣӤӥӦӧӨө'
-                    'ӪӫӬӭӮӯӰӱӲӳӴӵӶӷӸӹӺӻӼӽӾӿ' for x in text0):
-            if not SILENT:
-                print('{}: non-Russian'.format(link_no))
-            text = None
+    re0 = re.compile(r'\W|\d')
+    re1 = re.compile(r'[^ЁА-Яёа-я]')
+    re5 = re.compile(r'\W')
+    re10 = re.compile(r'<h1>((?:.|\n)*?)</h1>')
+    re11 = re.compile(r'<div class="review-body description" itemprop="description">((?:.|\n)+)$')
+    re12 = re.compile(r'<(?P<tag>\S+)[^>]*>.*?</(?P=tag)>')
+    re13 = re.compile(r'<(?:[^/].*)?>')
+    need_enter = False
+    #while False:
+    for link_no, link in enumerate(links, start=1):
+        if texts_total >= utils.TEXTS_FOR_SOURCE:
             break
-        if text0 and len(text1) / len(text0) >= .9:
-            num_words = len([x for x in text.split()
-                               if re5.sub('', x)])
-            #print(num_words)
-            if num_words > _utils.MAX_CHUNK_WORDS:
-                lines = lines[:-1]
+        page_fn = utils.get_data_path(utils.PAGES_DIR, MAX_PAGE, link_no)
+        text_fn = utils.get_data_path(utils.TEXTS_DIR, MAX_PAGE, link_no)
+        page = None
+        #link = 'https://otzovik.com/review_11427160.html'
+        if link_no > start_link_idx:
+            time.sleep(2)
+            res = utils.get_url(link, headers=HEADERS, cookies=COOKIES)
+            page = res.text
+            with open('1111.html', 'wt', encoding='utf-8') as f:
+                f.write(page)
+            if page.find('<title>Ошибка: Страница не найдена!</title>') > 0:
                 continue
-            if num_words >= _utils.MIN_CHUNK_WORDS:
-                res = True
         else:
-            if not SILENT:
-                print('{}: non-Cyrillic'.format(link_no))
-            text = None
-        break
-    if not res:
-        if not SILENT:
-            if not text:
-                print('no text')
-                #if nop:
-                #    exit()
+            if not os.path.isfile(page_fn):
+                continue
+            if os.path.isfile(text_fn):
+                texts_total += 1
+                continue
+            with open(page_fn, 'rt', encoding='utf-8') as f:
+                link = f.readline().rstrip()
+                page = f.read()
+        match = re10.search(page)
+        assert match, "ERROR: Can't find header on page {}".format(link)
+        header = utils.norm_text2(match.group(1))
+        token = 'Отзыв: '
+        if header.startswith(token):
+            header = header[len(token):]
+        match = re11.search(page)
+        assert match, "ERROR: Can't find review on page {}".format(link)
+        text = match.group(1)
+        text = re12.sub('', text).replace('\n', '').replace('<br>', '\n') \
+                                 .replace('<br/>', '\n').replace('<br />', '\n')
+        text = re13.sub('', text)
+        pos = text.find('<')  ## </div>
+        if pos >= 0:
+            text = text[:pos]
+        text = utils.norm_text2(text)
+        lines = [header] + [x for x in (x.strip() for x in text.split('\n'))
+                              if x]
+        res, text = False, None
+        while len(lines) >= _utils.MIN_TEXT_LINES:
+            text = '\n'.join(lines)
+            text0 = re0.sub('', text)
+            text1 = re1.sub('', text0)
+            if any(x in 'ЀЂЃЄЅІЇЈЉЊЋЌЍЎЏѐђѓєѕіїјљњћќѝўџѠѡѢѣѤѥѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵ'
+                        'ѶѷѸѹѺѻѼѽѾѿҀҁ҂҃҄҅҆҇҈҉ҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩ'
+                        'ҪҫҬҭҮүҰұҲҳҴҵҶҷҸҹҺһҼҽҾҿӀӁӂӃӄӅӆӇӈӉӊӋӌӍӎӏӐӑӒӓӔӕӖӗӘәӚӛӜӝ'
+                        'ӞӟӠӡӢӣӤӥӦӧӨөӪӫӬӭӮӯӰӱӲӳӴӵӶӷӸӹӺӻӼӽӾӿ' for x in text0):
+                if not SILENT:
+                    print('{}: non-Russian'.format(link_no))
+                text = None
+                break
+            if text0 and len(text1) / len(text0) >= .9:
+                num_words = len([x for x in text.split()
+                                   if re5.sub('', x)])
+                #print(num_words)
+                if num_words > _utils.MAX_CHUNK_WORDS:
+                    lines = lines[:-1]
+                    continue
+                if num_words >= _utils.MIN_CHUNK_WORDS:
+                    res = True
             else:
-                print('text beyond limits:')
-                print(text)
-        continue
-    texts_total += 1
-    if link_no > start_link_idx:
-        with open(page_fn, 'wt', encoding='utf-8') as f:
+                if not SILENT:
+                    print('{}: non-Cyrillic'.format(link_no))
+                text = None
+            break
+        if not res:
+            if not SILENT:
+                if not text:
+                    print('no text')
+                    #if nop:
+                    #    exit()
+                else:
+                    print('text beyond limits:')
+                    print(text)
+            continue
+        texts_total += 1
+        if link_no > start_link_idx:
+            with open(page_fn, 'wt', encoding='utf-8') as f:
+                print(link, file=f)
+                f.write(page)
+        with open(text_fn, 'wt', encoding='utf-8') as f:
             print(link, file=f)
-            f.write(page)
-    with open(text_fn, 'wt', encoding='utf-8') as f:
-        print(link, file=f)
-        f.write(text)
-    print('\r{} (of {})'.format(texts_total, utils.TEXTS_FOR_SOURCE), end='')
-    need_enter = True
-    #exit()
-if need_enter:
-    print()
+            f.write(text)
+        print('\r{} (of {})'.format(texts_total, utils.TEXTS_FOR_SOURCE),
+              end='')
+        need_enter = True
+        #exit()
+    if need_enter:
+        print()
 
 '''===========================================================================
 Chunks creation

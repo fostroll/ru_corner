@@ -64,12 +64,12 @@
 8	на	_	_	_	_	_	_	_	_
 9	выездную	_	_	_	_	_	_	_	bratT22=Event
 10	встречу	_	_	_	_	_	_	_	bratT22=Event
-11	против	_	_	_	_	_	_	_	bratT22=Event
-12	уфимского	_	_	_	_	_	_	_	bratA9=T31:Adjective|bratT13=Organization|bratT22=Event|bratT31=GPE
-13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT22=Event
-14	Салавата	_	_	_	_	_	_	_	bratT13=Organization|bratT22=Event
-15	Юлаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT22=Event
-16	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT22=Event
+11	против	_	_	_	_	_	_	_	_
+12	уфимского	_	_	_	_	_	_	_	bratA9=T31:Adjective|bratT13=Organization|bratT31=GPE
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+14	Салавата	_	_	_	_	_	_	_	bratT13=Organization
+15	Юлаева	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+16	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0121-p4
@@ -95,9 +95,9 @@
 4	клуб	_	_	_	_	_	_	_	_
 5	из	_	_	_	_	_	_	_	_
 6	Нур-Султана	_	_	_	_	_	_	_	bratT18=GPE
-7	в	_	_	_	_	_	_	_	_
-8	прошлом	_	_	_	_	_	_	_	_
-9	сезоне	_	_	_	_	_	_	_	SpaceAfter=No
+7	в	_	_	_	_	_	_	_	bratA11=T34:Past|bratT34=Date-absolute
+8	прошлом	_	_	_	_	_	_	_	bratA11=T34:Past|bratT33=Ordinal|bratT34=Date-absolute|bratT35=Event
+9	сезоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T34:Past|bratT34=Date-absolute|bratT35=Event
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0121-p4-s3

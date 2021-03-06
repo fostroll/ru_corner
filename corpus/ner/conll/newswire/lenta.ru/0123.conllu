@@ -148,8 +148,8 @@
 
 # sent_id = 0123-p6-s2
 # text = После подсчета 99 процентов голосов в штате, Джо Байден набрал 50,3 процента голосов избирателей, в то время как Трамп - 48,1 процента.
-1	После	_	_	_	_	_	_	_	bratA4=T39:Past|bratT39=Date-relative
-2	подсчета	_	_	_	_	_	_	_	bratA4=T39:Past|bratT39=Date-relative|bratT41=Event
+1	После	_	_	_	_	_	_	_	bratA4=T39:Past|bratT39=Date-absolute
+2	подсчета	_	_	_	_	_	_	_	bratA4=T39:Past|bratT39=Date-absolute|bratT41=Event
 3	99	_	_	_	_	_	_	_	bratT31=Percent|bratT41=Event
 4	процентов	_	_	_	_	_	_	_	bratT31=Percent|bratT41=Event
 5	голосов	_	_	_	_	_	_	_	bratT41=Event
