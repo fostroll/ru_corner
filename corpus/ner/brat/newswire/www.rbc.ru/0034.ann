@@ -1,0 +1,37 @@
+T1	GPE 25 31	России
+T2	Organization 0 18	Центры   занятости
+T3	GPE 93 99	России
+T4	Organization 266 295	``   Российская   газета   ''
+A1	Media T4
+T5	Person 330 401	министра   труда   и   социальной   защиты   России   Антона   Котякова
+T6	Person-property 330 381	министра   труда   и   социальной   защиты   России
+T7	GPE 375 381	России
+T8	Date-period-absolute 647 671	до   конца   2023   года
+T9	Quantity 859 882	до   4   тыс.   человек
+T10	Date-absolute 885 900	в   2021   году
+T11	Quantity 907 930	по   6   тыс.   человек
+T12	Date-period-absolute 944 983	в   период   с   2022   по   2024   год
+T13	Person-property 1031 1038	Министр
+T14	Organization 1344 1352	Минтруде
+T15	Quantity 1435 1447	61   регионе
+T16	Date-absolute 1450 1465	в   2021   году
+T17	Date-absolute 1470 1485	В   2022   году
+T18	Quantity 1523 1536	73   регионах
+T19	Date-absolute 1547 1562	к   2023   году
+T20	GPE 1607 1613	России
+T21	GPE 271 281	Российская
+A2	Adjective T21
+T22	Person-forename 384 390	Антона
+T23	Person-surname 393 401	Котякова
+A3	Male T5
+A4	UNK-Fut T8
+A5	Future T10
+T24	Time-period 933 941	ежегодно
+A6	Fut T12
+A7	Future T16
+A8	Future T17
+A9	Future T19
+T25	Duration 933 941	ежегодно
+T26	Nationality 231 238	граждан
+A10	Citizenship T26
+T27	GPE 1328 1334	стране

@@ -1,0 +1,93 @@
+T1	GPE 4 7	США
+T2	Person 52 58	Байден
+T4	Other-group 205 215	избиратели
+T5	GPE 271 274	США
+T6	Organization 282 306	Демократической   партии
+T7	Person-property 242 306	кандидату   в   президенты   США   от   Демократической   партии
+T8	Person 242 322	кандидату   в   президенты   США   от   Демократической   партии   Джо   Байдену
+T9	Organization 340 383	телеканалы   CNN   ,   NBC   и   Fox   News
+A1	Plural T9
+A2	Media T9
+T10	Person 388 394	Байден
+T11	Quantity 413 425	264   голоса
+T12	Other-group 428 438	выборщиков
+T13	Quantity 479 486	еще   6
+T14	Other-group 543 553	выборщиков
+T15	Person 665 670	Трамп
+T16	Date-absolute 898 993	К   7:00   пятницы   по   местному   времени   (   15:00   по   Москве   )   после   обновления
+T17	Time-absolute 898 906	К   7:00
+T18	Time-absolute 949 968	15:00   по   Москве
+T19	Person 1010 1016	Байден
+T20	Quantity 1030 1047	1   096   голосов
+T21	GPE 1054 1070	штате   Джорджия
+T22	Percent 1096 1106	уже   99 %
+T23	Person-surname 1162 1168	Байден
+T24	Person 1207 1213	Трампа
+T25	Quantity 1216 1234	на   917   голосов
+T26	Other-group 1279 1289	выборщиков
+T27	Quantity 1274 1289	16   выборщиков
+T28	GPE 1299 1305	Неваде
+T29	Person 1308 1315	Байдену
+T30	Quantity 1327 1351	еще   11   438   голосов
+T31	Person-property 1393 1404	кандидатами
+T32	Percent 1420 1445	0,9   процентных   пункта
+T33	Person-property 1461 1486	бывшего   вице-президента
+T34	Percent 1535 1539	89 %
+T35	Other-group 1593 1603	выборщиков
+T36	Quantity 1589 1603	6   выборщиков
+T37	Person 1680 1686	Байден
+T38	GPE 1741 1748	Аризоны
+T39	Quantity 1714 1738	еще   47   052   жителей
+T40	Percent 1785 1795	еще   10 %
+T41	Person-property 1853 1863	выборщиков
+T42	Quantity 1848 1863	11   выборщиков
+T43	Date-period-absolute 104 138	В   пятницу   в   ходе   подсчетов
+T44	Quantity 556 567	одного   из
+T45	Event 652 659	выборах
+T46	Event 797 803	выборы
+T47	Date-absolute 1491 1511	На   данный   момент
+T48	Date-relative 673 678	ранее
+A3	Male T2
+T49	Person-surname 52 58	Байден
+T50	Organization 353 356	CNN
+A4	Media T50
+T51	Organization 363 366	NBC
+T52	Organization 373 383	Fox   News
+A5	Media T52
+A6	Media T51
+T53	Person-forename 309 312	Джо
+T54	Person-surname 315 322	Байдену
+A7	Male T8
+A8	Male T10
+T55	Person-surname 388 394	Байден
+T56	Person-surname 665 670	Трамп
+A9	Male T15
+T57	Person-surname 1010 1016	Байден
+A10	Male T19
+T58	Person 1162 1168	Байден
+A11	Male T58
+A12	Male T24
+T59	Person-surname 1207 1213	Трампа
+A13	Present T47
+T60	Person-surname 1680 1686	Байден
+A14	Male T37
+A16	Past-Pres T43
+A17	Past T48
+T61	Date-absolute 1628 1645	после   обработки
+A18	Past T61
+A15	Past T16
+T62	Event 129 161	подсчетов   итогов   голосования
+T63	Event 983 1007	обновления   результатов
+T3	Percent 1648 1664	большего   числа
+T64	Event 1636 1677	обработки   большего   числа   бюллетеней
+T65	Ordinal 1496 1502	данный
+T66	Political-group 282 297	Демократической
+A19	Adjective T66
+T67	Event 25 47	обработка   бюллетеней
+T68	Nationality 1354 1369	жителей   штата
+A20	Resident T68
+T69	Nationality 1731 1748	жителей   Аризоны
+A21	Resident T69
+T70	GPE 924 932	местному
+A22	Adjective T70
+T71	GPE 962 968	Москве

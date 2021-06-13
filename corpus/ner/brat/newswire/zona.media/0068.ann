@@ -1,0 +1,60 @@
+T2	Political-group 77 91	либертарианцев
+T3	GPE 100 112	Красноярском
+T4	Organization 114 117	МВД
+T5	Other-group 200 210	активистов
+T6	Time-absolute 148 155	ночного
+T7	Organization 289 311	``   Тайге . инфо   ''
+T8	Organization 329 343	краевом   УМВД
+T10	Time-absolute 354 359	Ночью
+T11	Person-property 506 517	полицейские
+T12	Date-relative 554 572	через   два   часа
+T13	Organization 697 729	следственно-оперативную   группу
+A2	Department T13
+T14	Quantity 788 803	три   заявления
+T15	Organization 854 857	МВД
+T17	Date-absolute 1002 1025	Вечером   18   сентября
+A3	Past T17
+T18	Time-absolute 1002 1009	Вечером
+T19	Event 1042 1074	``   Крест   Каппеля   2020   ''
+T20	Date-absolute 1065 1069	2020
+T21	Organization 1098 1122	центром   Петра   Струве
+T22	Person 1108 1122	Петра   Струве
+A4	Male T22
+T23	Person-forename 1108 1113	Петра
+T24	Person-surname 1116 1122	Струве
+T25	Person 1288 1317	либертаринец   Глеб   Марьсов
+A5	Male T25
+T26	Political-group 1288 1300	либертаринец
+T27	Person-forename 1303 1307	Глеб
+T28	Person-surname 1310 1317	Марьсов
+T29	Person 1322 1350	Активист   Александр   Разин
+A6	Male T29
+T30	Person-property 1322 1330	Активист
+T31	Person-forename 1333 1342	Александр
+T32	Person-surname 1345 1350	Разин
+T33	Person-property 1373 1383	нападавшие
+T34	Person-property 1495 1505	активистам
+T35	Quantity 1595 1607	11   человек
+A7	Media T7
+T1	Organization 213 246	``   Гражданского   общества   ''
+T36	GPE 253 272	Красноярском   крае
+T9	Person-property 811 823	пострадавших
+T16	Event 38 47	нападения
+T37	Duration 562 572	два   часа
+T38	Date-absolute 739 759	На   данный   момент
+A1	Present T38
+T39	Date-absolute 1553 1559	сейчас
+T40	Date-absolute 140 167	после   ночного   нападения
+A9	Past T40
+T41	Ordinal 744 750	данный
+T42	Organization 0 7	Полиция
+T43	Organization 766 773	полицию
+T44	Date-relative 354 359	Ночью
+A10	Present T44
+A11	Past T12
+T45	Event 158 167	нападения
+T46	Event 408 417	нападение
+A8	Present T39
+T47	GPE 329 336	краевом
+A12	Adjective T47
+T48	Location 294 299	Тайге

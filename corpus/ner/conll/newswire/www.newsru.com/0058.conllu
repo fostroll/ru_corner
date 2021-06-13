@@ -1,0 +1,199 @@
+# newdoc id = 0058
+# newpar id = 0058-p1
+# par_text = ЦСКА потерпел крупнейшее за три года поражение в КХЛ
+# sent_id = 0058-p1-s1
+# text = ЦСКА потерпел крупнейшее за три года поражение в КХЛ
+1	ЦСКА	_	_	_	_	_	_	_	bratT1=Organization
+2	потерпел	_	_	_	_	_	_	_	_
+3	крупнейшее	_	_	_	_	_	_	_	_
+4	за	_	_	_	_	_	_	_	bratA1=T2:Past-Pres|bratT2=Date-period-absolute
+5	три	_	_	_	_	_	_	_	bratA1=T2:Past-Pres|bratT2=Date-period-absolute|bratT46=Duration
+6	года	_	_	_	_	_	_	_	bratA1=T2:Past-Pres|bratT2=Date-period-absolute|bratT46=Duration
+7	поражение	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	КХЛ	_	_	_	_	_	_	_	bratT3=Organization
+
+# newpar id = 0058-p2
+# par_text = Московский ЦСКА на своем льду пропустил пять шайб от "Сибири" в матче регулярного чемпионата Континентальной хоккейной лиги (КХЛ).
+# sent_id = 0058-p2-s1
+# text = Московский ЦСКА на своем льду пропустил пять шайб от ``Сибири'' в матче регулярного чемпионата Континентальной хоккейной лиги (КХЛ).
+1	Московский	_	_	_	_	_	_	_	bratA2=T47:Adjective|bratT4=Organization|bratT47=GPE
+2	ЦСКА	_	_	_	_	_	_	_	bratT4=Organization
+3	на	_	_	_	_	_	_	_	_
+4	своем	_	_	_	_	_	_	_	_
+5	льду	_	_	_	_	_	_	_	_
+6	пропустил	_	_	_	_	_	_	_	_
+7	пять	_	_	_	_	_	_	_	bratT5=Quantity
+8	шайб	_	_	_	_	_	_	_	bratT5=Quantity
+9	от	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+11	Сибири	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=GPE|bratT6=Organization
+12	''	_	_	_	_	_	_	_	bratT6=Organization
+13	в	_	_	_	_	_	_	_	_
+14	матче	_	_	_	_	_	_	_	bratT9=Event
+15	регулярного	_	_	_	_	_	_	_	bratT30=Event|bratT9=Event
+16	чемпионата	_	_	_	_	_	_	_	bratT30=Event|bratT9=Event
+17	Континентальной	_	_	_	_	_	_	_	bratT30=Event|bratT7=Organization|bratT9=Event
+18	хоккейной	_	_	_	_	_	_	_	bratT30=Event|bratT7=Organization|bratT9=Event
+19	лиги	_	_	_	_	_	_	_	bratT30=Event|bratT7=Organization|bratT9=Event
+20	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event|bratT9=Event
+21	КХЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event|bratT8=Organization|bratT9=Event
+22	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event|bratT9=Event
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0058-p3
+# par_text = Встреча на "ЦСКА-Арене" в Москве завершилась со счетом 5:1 в пользу визитеров, в составе которых отличились Олег Ли (5), Дмитрий Саюстов (14), Микаэль Руохомаа (23), Данил Романцев (34) и Андрей Ермаков (49). Гол престижа армейцев провел Максим Мамин (11).
+# sent_id = 0058-p3-s1
+# text = Встреча на ``ЦСКА-Арене'' в Москве завершилась со счетом 5:1 в пользу визитеров, в составе которых отличились Олег Ли (5), Дмитрий Саюстов (14), Микаэль Руохомаа (23), Данил Романцев (34) и Андрей Ермаков (49).
+1	Встреча	_	_	_	_	_	_	_	bratT12=Event
+2	на	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
+4	ЦСКА-Арене	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
+5	''	_	_	_	_	_	_	_	bratT10=Facility
+6	в	_	_	_	_	_	_	_	_
+7	Москве	_	_	_	_	_	_	_	bratT11=GPE
+8	завершилась	_	_	_	_	_	_	_	_
+9	со	_	_	_	_	_	_	_	_
+10	счетом	_	_	_	_	_	_	_	_
+11	5:1	_	_	_	_	_	_	_	bratT13=Quantity
+12	в	_	_	_	_	_	_	_	_
+13	пользу	_	_	_	_	_	_	_	_
+14	визитеров	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	составе	_	_	_	_	_	_	_	_
+18	которых	_	_	_	_	_	_	_	_
+19	отличились	_	_	_	_	_	_	_	_
+20	Олег	_	_	_	_	_	_	_	bratA3=T14:Male|bratT14=Person|bratT49=Person-forename
+21	Ли	_	_	_	_	_	_	_	bratA3=T14:Male|bratT14=Person|bratT50=Person-surname
+22	(	_	_	_	_	_	_	_	SpaceAfter=No
+23	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Ordinal
+24	)	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	_	_	_	_	_	_	_	_
+26	Дмитрий	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT51=Person-forename
+27	Саюстов	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT52=Person-surname
+28	(	_	_	_	_	_	_	_	SpaceAfter=No
+29	14	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Ordinal
+30	)	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	_	_	_	_	_	_	_	_
+32	Микаэль	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT53=Person-forename
+33	Руохомаа	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT54=Person-surname
+34	(	_	_	_	_	_	_	_	SpaceAfter=No
+35	23	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Ordinal
+36	)	_	_	_	_	_	_	_	SpaceAfter=No
+37	,	_	_	_	_	_	_	_	_
+38	Данил	_	_	_	_	_	_	_	bratA6=T20:Male|bratT20=Person|bratT55=Person-forename
+39	Романцев	_	_	_	_	_	_	_	bratA6=T20:Male|bratT20=Person|bratT56=Person-surname
+40	(	_	_	_	_	_	_	_	SpaceAfter=No
+41	34	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Ordinal
+42	)	_	_	_	_	_	_	_	_
+43	и	_	_	_	_	_	_	_	_
+44	Андрей	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT57=Person-forename
+45	Ермаков	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT58=Person-surname
+46	(	_	_	_	_	_	_	_	SpaceAfter=No
+47	49	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Ordinal
+48	)	_	_	_	_	_	_	_	SpaceAfter=No
+49	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p3-s2
+# text = Гол престижа армейцев провел Максим Мамин (11).
+1	Гол	_	_	_	_	_	_	_	_
+2	престижа	_	_	_	_	_	_	_	_
+3	армейцев	_	_	_	_	_	_	_	_
+4	провел	_	_	_	_	_	_	_	_
+5	Максим	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT59=Person-forename
+6	Мамин	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT60=Person-surname
+7	(	_	_	_	_	_	_	_	SpaceAfter=No
+8	11	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Ordinal
+9	)	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0058-p4
+# par_text = Это первая победа новосибирцев над ЦСКА в Москве с декабря 2010 года и крупнейшее поражение москвичей в КХЛ за три года после их неудачи в гостевой игре с финским "Йокеритом" (0:4) в сентябре 2017-го.
+# sent_id = 0058-p4-s1
+# text = Это первая победа новосибирцев над ЦСКА в Москве с декабря 2010 года и крупнейшее поражение москвичей в КХЛ за три года после их неудачи в гостевой игре с финским ``Йокеритом'' (0:4) в сентябре 2017-го.
+1	Это	_	_	_	_	_	_	_	_
+2	первая	_	_	_	_	_	_	_	bratT26=Ordinal
+3	победа	_	_	_	_	_	_	_	_
+4	новосибирцев	_	_	_	_	_	_	_	_
+5	над	_	_	_	_	_	_	_	_
+6	ЦСКА	_	_	_	_	_	_	_	bratT27=Organization
+7	в	_	_	_	_	_	_	_	_
+8	Москве	_	_	_	_	_	_	_	bratT28=GPE
+9	с	_	_	_	_	_	_	_	bratA9=T29:Past-Pres|bratT29=Date-period-absolute
+10	декабря	_	_	_	_	_	_	_	bratA9=T29:Past-Pres|bratT29=Date-period-absolute
+11	2010	_	_	_	_	_	_	_	bratA9=T29:Past-Pres|bratT29=Date-period-absolute
+12	года	_	_	_	_	_	_	_	bratA9=T29:Past-Pres|bratT29=Date-period-absolute
+13	и	_	_	_	_	_	_	_	_
+14	крупнейшее	_	_	_	_	_	_	_	_
+15	поражение	_	_	_	_	_	_	_	_
+16	москвичей	_	_	_	_	_	_	_	bratA11=T61:Resident|bratT61=Nationality
+17	в	_	_	_	_	_	_	_	_
+18	КХЛ	_	_	_	_	_	_	_	bratT31=Organization
+19	за	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute
+20	три	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute|bratT62=Duration
+21	года	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute|bratT62=Duration
+22	после	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute
+23	их	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute
+24	неудачи	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute
+25	в	_	_	_	_	_	_	_	_
+26	гостевой	_	_	_	_	_	_	_	bratT36=Event
+27	игре	_	_	_	_	_	_	_	bratT36=Event
+28	с	_	_	_	_	_	_	_	_
+29	финским	_	_	_	_	_	_	_	bratA13=T63:Adjective|bratT33=Organization|bratT63=GPE
+30	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
+31	Йокеритом	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
+32	''	_	_	_	_	_	_	_	bratT33=Organization
+33	(	_	_	_	_	_	_	_	SpaceAfter=No
+34	0:4	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Quantity
+35	)	_	_	_	_	_	_	_	_
+36	в	_	_	_	_	_	_	_	bratA12=T35:Past|bratT35=Date-absolute
+37	сентябре	_	_	_	_	_	_	_	bratA12=T35:Past|bratT35=Date-absolute
+38	2017-го	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T35:Past|bratT35=Date-absolute
+39	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0058-p5
+# par_text = Хотя ЦСКА прервал серию из пяти побед, клуб по-прежнему располагается на первой строчке в турнирной таблице Западной конференции, имея в активе 47 баллов в 30 играх. "Сибирь" идет седьмой на Востоке.
+# sent_id = 0058-p5-s1
+# text = Хотя ЦСКА прервал серию из пяти побед, клуб по-прежнему располагается на первой строчке в турнирной таблице Западной конференции, имея в активе 47 баллов в 30 играх.
+1	Хотя	_	_	_	_	_	_	_	_
+2	ЦСКА	_	_	_	_	_	_	_	bratT37=Organization
+3	прервал	_	_	_	_	_	_	_	_
+4	серию	_	_	_	_	_	_	_	_
+5	из	_	_	_	_	_	_	_	_
+6	пяти	_	_	_	_	_	_	_	bratT38=Quantity
+7	побед	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity
+8	,	_	_	_	_	_	_	_	_
+9	клуб	_	_	_	_	_	_	_	_
+10	по-прежнему	_	_	_	_	_	_	_	_
+11	располагается	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	первой	_	_	_	_	_	_	_	bratT39=Ordinal
+14	строчке	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	турнирной	_	_	_	_	_	_	_	_
+17	таблице	_	_	_	_	_	_	_	_
+18	Западной	_	_	_	_	_	_	_	bratT42=Organization
+19	конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+20	,	_	_	_	_	_	_	_	_
+21	имея	_	_	_	_	_	_	_	_
+22	в	_	_	_	_	_	_	_	_
+23	активе	_	_	_	_	_	_	_	_
+24	47	_	_	_	_	_	_	_	bratT40=Quantity
+25	баллов	_	_	_	_	_	_	_	bratT40=Quantity
+26	в	_	_	_	_	_	_	_	_
+27	30	_	_	_	_	_	_	_	bratT41=Quantity
+28	играх	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Quantity
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p5-s2
+# text = ``Сибирь'' идет седьмой на Востоке.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
+2	Сибирь	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization|bratT64=GPE
+3	''	_	_	_	_	_	_	_	bratT43=Organization
+4	идет	_	_	_	_	_	_	_	_
+5	седьмой	_	_	_	_	_	_	_	bratT44=Ordinal
+6	на	_	_	_	_	_	_	_	_
+7	Востоке	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Organization
+8	.	_	_	_	_	_	_	_	_
+

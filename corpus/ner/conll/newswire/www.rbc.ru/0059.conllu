@@ -1,0 +1,180 @@
+# newdoc id = 0059
+# newpar id = 0059-p1
+# par_text = SpaceX перенесла запуск группировки интернет-спутников Starlink
+# sent_id = 0059-p1-s1
+# text = SpaceX перенесла запуск группировки интернет-спутников Starlink
+1	SpaceX	_	_	_	_	_	_	_	bratT1=Organization
+2	перенесла	_	_	_	_	_	_	_	_
+3	запуск	_	_	_	_	_	_	_	bratT3=Event
+4	группировки	_	_	_	_	_	_	_	bratT3=Event
+5	интернет-спутников	_	_	_	_	_	_	_	bratT2=Product|bratT3=Event
+6	Starlink	_	_	_	_	_	_	_	bratT2=Product|bratT3=Event
+
+# newpar id = 0059-p2
+# par_text = Компания SpaceX Илона Маска отложила на сутки запуск ракеты-носителя Falcon 9 с очередной группировкой из 60 микроспутников Starlink. Об этом компания сообщила в Twitter.
+# sent_id = 0059-p2-s1
+# text = Компания SpaceX Илона Маска отложила на сутки запуск ракеты-носителя Falcon 9 с очередной группировкой из 60 микроспутников Starlink.
+1	Компания	_	_	_	_	_	_	_	bratT4=Organization
+2	SpaceX	_	_	_	_	_	_	_	bratT4=Organization
+3	Илона	_	_	_	_	_	_	_	bratA8=T5:Male|bratT34=Person-forename|bratT5=Person
+4	Маска	_	_	_	_	_	_	_	bratA8=T5:Male|bratT35=Person-surname|bratT5=Person
+5	отложила	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	bratA1=T6:Fut|bratT6=Date-period-relative
+7	сутки	_	_	_	_	_	_	_	bratA1=T6:Fut|bratT36=Duration|bratT6=Date-period-relative
+8	запуск	_	_	_	_	_	_	_	bratT10=Event
+9	ракеты-носителя	_	_	_	_	_	_	_	bratT7=Product
+10	Falcon	_	_	_	_	_	_	_	bratT7=Product
+11	9	_	_	_	_	_	_	_	bratT39=Ordinal|bratT7=Product
+12	с	_	_	_	_	_	_	_	_
+13	очередной	_	_	_	_	_	_	_	bratT33=Ordinal
+14	группировкой	_	_	_	_	_	_	_	_
+15	из	_	_	_	_	_	_	_	_
+16	60	_	_	_	_	_	_	_	bratT8=Quantity
+17	микроспутников	_	_	_	_	_	_	_	bratT8=Quantity|bratT9=Product
+18	Starlink	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Product
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0059-p2-s2
+# text = Об этом компания сообщила в Twitter.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	компания	_	_	_	_	_	_	_	_
+4	сообщила	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	Twitter	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Service
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0059-p3
+# par_text = «Отменяем сегодняшний запуск Starlink», — сообщили в компании.
+# sent_id = 0059-p3-s1
+# text = ``Отменяем сегодняшний запуск Starlink'', - сообщили в компании.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Отменяем	_	_	_	_	_	_	_	_
+3	сегодняшний	_	_	_	_	_	_	_	bratA7=T38:Present|bratT38=Date-absolute
+4	запуск	_	_	_	_	_	_	_	bratT13=Event
+5	Starlink	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Product|bratT13=Event
+6	''	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	-	_	_	_	_	_	_	_	_
+9	сообщили	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	компании	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0059-p4
+# par_text = В SpaceX пояснили, что ракета и груз исправны, а дополнительным временем команда воспользуется для анализа данных. Предполагается, что следующий запуск намечен на 23 ноября в 21:34 по местному времени (05:34 мск 24 ноября).
+# sent_id = 0059-p4-s1
+# text = В SpaceX пояснили, что ракета и груз исправны, а дополнительным временем команда воспользуется для анализа данных.
+1	В	_	_	_	_	_	_	_	_
+2	SpaceX	_	_	_	_	_	_	_	bratT14=Organization
+3	пояснили	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	ракета	_	_	_	_	_	_	_	_
+7	и	_	_	_	_	_	_	_	_
+8	груз	_	_	_	_	_	_	_	_
+9	исправны	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	а	_	_	_	_	_	_	_	_
+12	дополнительным	_	_	_	_	_	_	_	_
+13	временем	_	_	_	_	_	_	_	_
+14	команда	_	_	_	_	_	_	_	_
+15	воспользуется	_	_	_	_	_	_	_	_
+16	для	_	_	_	_	_	_	_	_
+17	анализа	_	_	_	_	_	_	_	_
+18	данных	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0059-p4-s2
+# text = Предполагается, что следующий запуск намечен на 23 ноября в 21:34 по местному времени (05:34 мск 24 ноября).
+1	Предполагается	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	следующий	_	_	_	_	_	_	_	bratT15=Ordinal
+5	запуск	_	_	_	_	_	_	_	_
+6	намечен	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	_
+8	23	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute
+9	ноября	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute
+10	в	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
+11	21:34	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
+12	по	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
+13	местному	_	_	_	_	_	_	_	bratA3=T16:Future|bratA5=T47:Adjective|bratT16=Date-absolute|bratT17=Time-absolute|bratT47=GPE
+14	времени	_	_	_	_	_	_	_	bratA3=T16:Future|bratT16=Date-absolute|bratT17=Time-absolute
+15	(	_	_	_	_	_	_	_	SpaceAfter=No
+16	05:34	_	_	_	_	_	_	_	bratA4=T19:Future|bratT18=Time-absolute|bratT19=Date-absolute
+17	мск	_	_	_	_	_	_	_	bratA4=T19:Future|bratT18=Time-absolute|bratT19=Date-absolute|bratT48=GPE
+18	24	_	_	_	_	_	_	_	bratA4=T19:Future|bratT19=Date-absolute
+19	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T19:Future|bratT19=Date-absolute
+20	)	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0059-p5
+# par_text = По данным Space.com, запланированный пуск мог стать 23-м запуском SpaceX в 2020 году и 100-м полетом ракеты Falcon 9, а также 16-й миссией SpaceX Starlink.
+# sent_id = 0059-p5-s1
+# text = По данным Space.com, запланированный пуск мог стать 23-м запуском SpaceX в 2020 году и 100-м полетом ракеты Falcon 9, а также 16-й миссией SpaceX Starlink.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3-5	Space.com	_	_	_	_	_	_	_	SpaceAfter=No
+3	Space	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Media|bratT20=Organization|bratT46=Web-address
+4	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Media|bratT20=Organization|bratT46=Web-address
+5	com	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Media|bratT20=Organization|bratT46=Web-address
+6	,	_	_	_	_	_	_	_	_
+7	запланированный	_	_	_	_	_	_	_	_
+8	пуск	_	_	_	_	_	_	_	bratT44=Event
+9	мог	_	_	_	_	_	_	_	_
+10	стать	_	_	_	_	_	_	_	_
+11	23-м	_	_	_	_	_	_	_	bratT21=Ordinal|bratT43=Event
+12	запуском	_	_	_	_	_	_	_	bratT43=Event
+13	SpaceX	_	_	_	_	_	_	_	bratT22=Organization
+14	в	_	_	_	_	_	_	_	bratT23=Date-absolute
+15	2020	_	_	_	_	_	_	_	bratT23=Date-absolute
+16	году	_	_	_	_	_	_	_	bratT23=Date-absolute
+17	и	_	_	_	_	_	_	_	_
+18	100-м	_	_	_	_	_	_	_	bratT24=Ordinal|bratT41=Event
+19	полетом	_	_	_	_	_	_	_	bratT41=Event
+20	ракеты	_	_	_	_	_	_	_	bratT25=Product
+21	Falcon	_	_	_	_	_	_	_	bratT25=Product
+22	9	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Product|bratT40=Ordinal
+23	,	_	_	_	_	_	_	_	_
+24	а	_	_	_	_	_	_	_	_
+25	также	_	_	_	_	_	_	_	_
+26	16-й	_	_	_	_	_	_	_	bratT26=Ordinal|bratT42=Event
+27	миссией	_	_	_	_	_	_	_	bratT42=Event
+28	SpaceX	_	_	_	_	_	_	_	bratT27=Organization
+29	Starlink	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T28:Project|bratT28=Product
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0059-p6
+# par_text = Компания запускает спутники Starlink для создания глобальной интернет-сети и улучшения интернет-покрытия по всему миру. Первые спутники SpaceX отправила на орбиту в 2019 году.
+# sent_id = 0059-p6-s1
+# text = Компания запускает спутники Starlink для создания глобальной интернет-сети и улучшения интернет-покрытия по всему миру.
+1	Компания	_	_	_	_	_	_	_	_
+2	запускает	_	_	_	_	_	_	_	_
+3	спутники	_	_	_	_	_	_	_	bratT29=Product
+4	Starlink	_	_	_	_	_	_	_	bratT29=Product
+5	для	_	_	_	_	_	_	_	_
+6	создания	_	_	_	_	_	_	_	_
+7	глобальной	_	_	_	_	_	_	_	_
+8	интернет-сети	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	улучшения	_	_	_	_	_	_	_	_
+11	интернет-покрытия	_	_	_	_	_	_	_	_
+12	по	_	_	_	_	_	_	_	_
+13	всему	_	_	_	_	_	_	_	bratT37=GPE
+14	миру	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=GPE
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0059-p6-s2
+# text = Первые спутники SpaceX отправила на орбиту в 2019 году.
+1	Первые	_	_	_	_	_	_	_	bratT30=Ordinal
+2	спутники	_	_	_	_	_	_	_	_
+3	SpaceX	_	_	_	_	_	_	_	bratT31=Organization
+4	отправила	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	орбиту	_	_	_	_	_	_	_	bratT45=Location
+7	в	_	_	_	_	_	_	_	bratA6=T32:Past|bratT32=Date-absolute
+8	2019	_	_	_	_	_	_	_	bratA6=T32:Past|bratT32=Date-absolute
+9	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T32:Past|bratT32=Date-absolute
+10	.	_	_	_	_	_	_	_	_
+

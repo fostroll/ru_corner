@@ -18,11 +18,11 @@
 # text = Пассажирский Boeing 747, принадлежащий авиакомпании British Airways, загорелся в аэропорту испанского города Кастельон-де-ла-Плана.
 1	Пассажирский	_	_	_	_	_	_	_	bratT1=Product
 2	Boeing	_	_	_	_	_	_	_	bratT1=Product
-3	747	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Product
+3	747	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Product|bratT20=Cardinal
 4	,	_	_	_	_	_	_	_	_
 5	принадлежащий	_	_	_	_	_	_	_	_
 6	авиакомпании	_	_	_	_	_	_	_	bratT2=Organization
-7	British	_	_	_	_	_	_	_	bratT2=Organization
+7	British	_	_	_	_	_	_	_	bratA5=T17:Adjective|bratT17=GPE|bratT2=Organization
 8	Airways	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
 9	,	_	_	_	_	_	_	_	_
 10	загорелся	_	_	_	_	_	_	_	_
@@ -38,7 +38,7 @@
 1	Видео	_	_	_	_	_	_	_	_
 2	с	_	_	_	_	_	_	_	_
 3	места	_	_	_	_	_	_	_	_
-4	события	_	_	_	_	_	_	_	_
+4	события	_	_	_	_	_	_	_	bratT15=Event
 5	публикует	_	_	_	_	_	_	_	_
 6	Aero	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization
 7	Telegraph	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratT3=Organization
@@ -52,7 +52,7 @@
 2	по	_	_	_	_	_	_	_	_
 3	записи	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	возгорание	_	_	_	_	_	_	_	_
+5	возгорание	_	_	_	_	_	_	_	bratT23=Event
 6	произошло	_	_	_	_	_	_	_	_
 7	прямо	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 6	место	_	_	_	_	_	_	_	_
 7	оперативно	_	_	_	_	_	_	_	_
 8	прибыли	_	_	_	_	_	_	_	_
-9	пожарные	_	_	_	_	_	_	_	bratT6=Person-property
+9	пожарные	_	_	_	_	_	_	_	bratT21=Person|bratT6=Person-property
 10	и	_	_	_	_	_	_	_	_
 11	ликвидировали	_	_	_	_	_	_	_	_
 12	огонь	_	_	_	_	_	_	_	SpaceAfter=No
@@ -93,7 +93,7 @@
 # text = В результате инцидента никто не пострадал, однако самому лайнеру был причинен существенный ущерб.
 1	В	_	_	_	_	_	_	_	_
 2	результате	_	_	_	_	_	_	_	_
-3	инцидента	_	_	_	_	_	_	_	_
+3	инцидента	_	_	_	_	_	_	_	bratT16=Event
 4	никто	_	_	_	_	_	_	_	_
 5	не	_	_	_	_	_	_	_	_
 6	пострадал	_	_	_	_	_	_	_	SpaceAfter=No
@@ -115,14 +115,17 @@
 2	отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	Вoeing	_	_	_	_	_	_	_	bratT7=Product
-5	747-400	_	_	_	_	_	_	_	bratT7=Product
-6	стоял	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	_
-8	аэропорту	_	_	_	_	_	_	_	bratT8=Facility
-9	Кастельон	_	_	_	_	_	_	_	bratT8=Facility
-10	с	_	_	_	_	_	_	_	bratA4=T9:Past|bratT9=Date-period-absolute
-11	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Past|bratT9=Date-period-absolute
-12	.	_	_	_	_	_	_	_	_
+5-7	747-400	_	_	_	_	_	_	_	_
+5	747	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Cardinal|bratT7=Product
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Product
+7	400	_	_	_	_	_	_	_	bratT19=Cardinal|bratT7=Product
+8	стоял	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	аэропорту	_	_	_	_	_	_	_	bratT8=Facility
+11	Кастельон	_	_	_	_	_	_	_	bratT8=Facility
+12	с	_	_	_	_	_	_	_	bratA4=T9:Past|bratT9=Date-period-absolute
+13	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Past|bratT9=Date-period-absolute
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0039-p4-s2
 # text = Авиакомпания отправила его туда для утилизации, и лайнер находился на стоянке в ожидании разборки.
@@ -140,7 +143,7 @@
 12	стоянке	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	ожидании	_	_	_	_	_	_	_	_
-15	разборки	_	_	_	_	_	_	_	SpaceAfter=No
+15	разборки	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0039-p4-s3
@@ -158,6 +161,6 @@
 11	предстоит	_	_	_	_	_	_	_	_
 12	установить	_	_	_	_	_	_	_	_
 13	причину	_	_	_	_	_	_	_	_
-14	пожара	_	_	_	_	_	_	_	SpaceAfter=No
+14	пожара	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
 15	.	_	_	_	_	_	_	_	_
 

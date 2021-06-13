@@ -4,7 +4,7 @@
 # sent_id = 0110-p1-s1
 # text = Беременная россиянка с коронавирусом рассказала об ужасах в ``ковидном'' госпитале
 1	Беременная	_	_	_	_	_	_	_	_
-2	россиянка	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
+2	россиянка	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratA12=T18:Female|bratT1=Nationality|bratT18=Person
 3	с	_	_	_	_	_	_	_	_
 4	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term
 5	рассказала	_	_	_	_	_	_	_	_
@@ -23,7 +23,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	Красноярске	_	_	_	_	_	_	_	bratT3=GPE
 3	беременная	_	_	_	_	_	_	_	_
-4	россиянка	_	_	_	_	_	_	_	bratA2=T4:Citizenship|bratT4=Nationality
+4	россиянка	_	_	_	_	_	_	_	bratA14=T27:Female|bratA2=T4:Citizenship|bratT27=Person|bratT4=Nationality
 5	с	_	_	_	_	_	_	_	_
 6	коронавирусом	_	_	_	_	_	_	_	bratT5=Other-term
 7	рассказала	_	_	_	_	_	_	_	_
@@ -51,28 +51,30 @@
 3	сообщает	_	_	_	_	_	_	_	_
 4	региональное	_	_	_	_	_	_	_	_
 5	издание	_	_	_	_	_	_	_	bratA4=T7:Media|bratT7=Organization
-6	NGS24	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Media|bratT7=Organization
-7	.	_	_	_	_	_	_	_	_
+6-7	NGS24	_	_	_	_	_	_	_	SpaceAfter=No
+6	NGS	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Media|bratT7=Organization
+7	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Media|bratT45=Duration|bratT7=Organization|bratT8=Time-period
+8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0110-p3
 # par_text = Имя пациентки не называется. Женщина рассказала, что заболела после своей свадьбы, которую праздновала, будучи на 7-м месяце беременности.
 # sent_id = 0110-p3-s1
 # text = Имя пациентки не называется.
 1	Имя	_	_	_	_	_	_	_	_
-2	пациентки	_	_	_	_	_	_	_	bratT8=Other-group
+2	пациентки	_	_	_	_	_	_	_	bratA15=T47:Female|bratT47=Person
 3	не	_	_	_	_	_	_	_	_
 4	называется	_	_	_	_	_	_	_	SpaceAfter=No
 5	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0110-p3-s2
 # text = Женщина рассказала, что заболела после своей свадьбы, которую праздновала, будучи на 7-м месяце беременности.
-1	Женщина	_	_	_	_	_	_	_	_
+1	Женщина	_	_	_	_	_	_	_	bratA16=T48:Female|bratT48=Person
 2	рассказала	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	заболела	_	_	_	_	_	_	_	_
 6	после	_	_	_	_	_	_	_	bratA7=T31:Past|bratT31=Date-absolute
-7	своей	_	_	_	_	_	_	_	bratA7=T31:Past|bratT31=Date-absolute|bratT36=Event
+7	своей	_	_	_	_	_	_	_	bratA7=T31:Past|bratT31=Date-absolute
 8	свадьбы	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T31:Past|bratT31=Date-absolute|bratT36=Event
 9	,	_	_	_	_	_	_	_	_
 10	которую	_	_	_	_	_	_	_	_
@@ -136,9 +138,9 @@
 
 # sent_id = 0110-p4-s3
 # text = Тогда беременную пациентку положили в больницу.
-1	Тогда	_	_	_	_	_	_	_	_
+1	Тогда	_	_	_	_	_	_	_	bratA13=T46:Past|bratT46=Date-relative
 2	беременную	_	_	_	_	_	_	_	_
-3	пациентку	_	_	_	_	_	_	_	bratT18=Other-group
+3	пациентку	_	_	_	_	_	_	_	bratA17=T49:Female|bratT49=Person
 4	положили	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	больницу	_	_	_	_	_	_	_	SpaceAfter=No
@@ -219,7 +221,7 @@
 18	,	_	_	_	_	_	_	_	_
 19	-	_	_	_	_	_	_	_	_
 20	рассказала	_	_	_	_	_	_	_	_
-21	женщина	_	_	_	_	_	_	_	SpaceAfter=No
+21	женщина	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T50:Female|bratT50=Person
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0110-p6
@@ -227,7 +229,7 @@
 # sent_id = 0110-p6-s1
 # text = Беременная женщина пролежала в отделении девять дней.
 1	Беременная	_	_	_	_	_	_	_	_
-2	женщина	_	_	_	_	_	_	_	_
+2	женщина	_	_	_	_	_	_	_	bratA19=T51:Female|bratT51=Person
 3	пролежала	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	отделении	_	_	_	_	_	_	_	_
@@ -240,7 +242,7 @@
 1	Она	_	_	_	_	_	_	_	_
 2	отметила	_	_	_	_	_	_	_	_
 3	внимательность	_	_	_	_	_	_	_	_
-4	врачей	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property
+4	врачей	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property|bratT52=Person
 5	,	_	_	_	_	_	_	_	_
 6	которые	_	_	_	_	_	_	_	_
 7	собрали	_	_	_	_	_	_	_	_
@@ -257,7 +259,7 @@
 2	ее	_	_	_	_	_	_	_	_
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	доктора	_	_	_	_	_	_	_	bratT9=Person-property
+5	доктора	_	_	_	_	_	_	_	bratT53=Person|bratT9=Person-property
 6	заботились	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
 8	том	_	_	_	_	_	_	_	SpaceAfter=No
@@ -276,7 +278,7 @@
 # sent_id = 0110-p6-s4
 # text = Когда женщине стало лучше, ее перевели на несколько дней в отделение пульмонологии №1 краевой больницы.
 1	Когда	_	_	_	_	_	_	_	_
-2	женщине	_	_	_	_	_	_	_	_
+2	женщине	_	_	_	_	_	_	_	bratA20=T54:Female|bratT54=Person
 3	стало	_	_	_	_	_	_	_	_
 4	лучше	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
@@ -288,17 +290,19 @@
 11	в	_	_	_	_	_	_	_	_
 12	отделение	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization
 13	пульмонологии	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization
-14	№1	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization|bratT28=Ordinal
-15	краевой	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization|bratT26=Organization
-16	больницы	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Department|bratT25=Organization|bratT26=Organization
-17	.	_	_	_	_	_	_	_	_
+14-15	№1	_	_	_	_	_	_	_	_
+14	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Department|bratT25=Organization|bratT28=Ordinal
+15	1	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization|bratT28=Ordinal
+16	краевой	_	_	_	_	_	_	_	bratA3=T25:Department|bratT25=Organization|bratT26=Organization
+17	больницы	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Department|bratT25=Organization|bratT26=Organization
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0110-p6-s5
 # text = К настоящему времени пациентку выписали.
 1	К	_	_	_	_	_	_	_	bratA9=T29:Past|bratT29=Date-absolute
 2	настоящему	_	_	_	_	_	_	_	bratA9=T29:Past|bratT29=Date-absolute|bratT43=Ordinal
 3	времени	_	_	_	_	_	_	_	bratA9=T29:Past|bratT29=Date-absolute
-4	пациентку	_	_	_	_	_	_	_	bratT27=Other-group
+4	пациентку	_	_	_	_	_	_	_	bratA21=T55:Female|bratT55=Person
 5	выписали	_	_	_	_	_	_	_	SpaceAfter=No
 6	.	_	_	_	_	_	_	_	_
 

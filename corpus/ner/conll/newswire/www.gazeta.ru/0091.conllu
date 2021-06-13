@@ -9,7 +9,9 @@
 4	вторник	_	_	_	_	_	_	_	bratA6=T2:Present|bratT2=Date-absolute
 5	ожидается	_	_	_	_	_	_	_	_
 6	до	_	_	_	_	_	_	_	bratT3=Quantity
-7	-3°С	_	_	_	_	_	_	_	bratT3=Quantity
+7-8	-3°С	_	_	_	_	_	_	_	_
+7	-3	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Quantity
+8	°С	_	_	_	_	_	_	_	bratT3=Quantity
 
 # newpar id = 0091-p2
 # par_text = В Москве во вторник, 17 ноября, ожидается переменная облачность без осадков, сообщается на сайте Гидрометцентра России.
@@ -46,15 +48,21 @@
 4	синоптики	_	_	_	_	_	_	_	bratT15=Person-property
 5	прогнозируют	_	_	_	_	_	_	_	_
 6	от	_	_	_	_	_	_	_	bratT11=Quantity
-7	-3°С	_	_	_	_	_	_	_	bratT11=Quantity
-8	до	_	_	_	_	_	_	_	bratT11=Quantity
-9	-1°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
-10	,	_	_	_	_	_	_	_	_
-11	ночью	_	_	_	_	_	_	_	bratA2=T22:Future|bratT21=Time-absolute|bratT22=Date-relative
-12	-	_	_	_	_	_	_	_	_
-13	до	_	_	_	_	_	_	_	bratT12=Quantity
-14	-6°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Quantity
-15	.	_	_	_	_	_	_	_	_
+7-8	-3°С	_	_	_	_	_	_	_	_
+7	-3	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
+8	°С	_	_	_	_	_	_	_	bratT11=Quantity
+9	до	_	_	_	_	_	_	_	bratT11=Quantity
+10-11	-1°С	_	_	_	_	_	_	_	SpaceAfter=No
+10	-1	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
+11	°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
+12	,	_	_	_	_	_	_	_	_
+13	ночью	_	_	_	_	_	_	_	bratA2=T22:Future|bratT21=Time-absolute|bratT22=Date-relative
+14	-	_	_	_	_	_	_	_	_
+15	до	_	_	_	_	_	_	_	bratT12=Quantity
+16-17	-6°С	_	_	_	_	_	_	_	SpaceAfter=No
+16	-6	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Quantity
+17	°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Quantity
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p3-s2
 # text = В Московской области днем температура опустится до -6°С, ночью - до -9°С.
@@ -65,13 +73,17 @@
 5	температура	_	_	_	_	_	_	_	_
 6	опустится	_	_	_	_	_	_	_	_
 7	до	_	_	_	_	_	_	_	bratT16=Quantity
-8	-6°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
-9	,	_	_	_	_	_	_	_	_
-10	ночью	_	_	_	_	_	_	_	bratA3=T23:Future|bratT23=Date-relative
-11	-	_	_	_	_	_	_	_	_
-12	до	_	_	_	_	_	_	_	bratT17=Quantity
-13	-9°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
-14	.	_	_	_	_	_	_	_	_
+8-9	-6°С	_	_	_	_	_	_	_	SpaceAfter=No
+8	-6	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
+9	°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
+10	,	_	_	_	_	_	_	_	_
+11	ночью	_	_	_	_	_	_	_	bratA3=T23:Future|bratT23=Date-relative
+12	-	_	_	_	_	_	_	_	_
+13	до	_	_	_	_	_	_	_	bratT17=Quantity
+14-15	-9°С	_	_	_	_	_	_	_	SpaceAfter=No
+14	-9	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
+15	°С	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
+16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0091-p4
 # par_text = Скорость юго-восточного ветра не превысит 10 м/с.
@@ -93,7 +105,7 @@
 1	Атмосферное	_	_	_	_	_	_	_	_
 2	давление	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	регионе	_	_	_	_	_	_	_	_
+4	регионе	_	_	_	_	_	_	_	bratT20=GPE
 5	составит	_	_	_	_	_	_	_	_
 6	765	_	_	_	_	_	_	_	bratT14=Quantity
 7	мм	_	_	_	_	_	_	_	bratT14=Quantity

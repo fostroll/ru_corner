@@ -1,0 +1,101 @@
+T1	Organization 13 30	``   Тамбова   ''
+T2	Person-property 0 30	Футболисты   ``   Тамбова   ''
+T3	Organization 70 89	``   Спартаком   ''
+T4	Event 58 62	матч
+T5	Organization 137 154	``   Тамбова   ''
+T6	Person-property 124 154	Футболисты   ``   Тамбова   ''
+T7	Date-absolute 200 216	на   5   декабря
+T8	Organization 226 251	Российской   Премьер-лиги
+T9	Organization 258 261	РПЛ
+T10	Event 219 265	матч   Российской   Премьер-лиги   (   РПЛ   )
+T11	Organization 272 304	московским   ``   Спартаком   ''
+T12	Date-absolute 388 408	На   данный   момент
+T13	GPE 425 445	Тамбовской   области
+T14	Organization 411 445	руководство   Тамбовской   области
+T15	Date-period-absolute 530 541	2020 / 2021
+T16	Organization 559 587	портал   ``   Чемпионат   ''
+A1	Media T16
+T17	Date-absolute 642 667	В   июле   перед   матчем
+T18	Event 661 716	матчем   заключительного   тура   прошлого   чемпионата
+T19	Organization 737 753	``   Тамбов   ''
+T20	GPE 768 774	Москве
+T21	Organization 786 790	ЦСКА
+T22	Person-property 801 823	футболистами   команды
+T23	Person-property 839 859	губернатор   области
+T24	Person 839 881	губернатор   области   Александр   Никитин
+T25	Date-period-absolute 940 954	до   сих   пор
+T26	Organization 1080 1099	``   Спартаком   ''
+T27	Organization 1129 1150	``   Краснодаром   ''
+T28	Organization 1157 1171	``   Уфой   ''
+T29	Event 1067 1072	матча
+T30	Other-term 1056 1064	дедлайна
+T31	Organization 1191 1202	Sports . ru
+A2	Media T31
+T32	Organization 1213 1230	``   Тамбова   ''
+T33	Money 1275 1307	около   360   миллионов   рублей
+T34	Money 1312 1321	140   млн
+T35	Person-property 1398 1406	игроками
+T36	Date-relative 1412 1417	Ранее
+T37	Organization 1456 1459	РФС
+T38	Person-property 1490 1512	бывшими   футболистами
+T39	Person-property 1556 1571	новых   игроков
+T40	Person-property 1577 1587	Губернатор
+T41	Person 1577 1597	Губернатор   Никитин
+T42	Organization 1651 1668	``   Тамбова   ''
+T43	Person-property 1638 1668	Нападающий   ``   Тамбова   ''
+T44	Person 1638 1688	Нападающий   ``   Тамбова   ''   Михаил   Костюков
+T45	Organization 1719 1742	РИА   ``   Новости   ''
+A3	Media T45
+T46	Person-property 1800 1811	губернатору
+T47	Person 1800 1835	губернатору   Александру   Никитину
+T48	Event 1877 1898	прошлого   чемпионата
+T49	Date-absolute 1865 1898	в   конце   прошлого   чемпионата
+T50	Person-property 1901 1920	правитель   области
+T51	Person-property 1947 1954	игрокам
+T52	Date-absolute 1996 2012	к   20   августа
+A4	Past T36
+T53	GPE 18 25	Тамбова
+A5	Future T7
+T54	GPE 226 236	Российской
+A6	Adjective T54
+T55	GPE 272 282	московским
+A7	Adjective T55
+T56	Date-period-absolute 318 334	до   этой   игры
+A9	Present T12
+A11	Past T17
+T57	GPE 742 748	Тамбов
+A12	Male T24
+T58	Person-forename 862 871	Александр
+T59	Person-surname 874 881	Никитин
+T60	GPE 1134 1145	Краснодаром
+T61	GPE 1162 1166	Уфой
+T62	GPE 1218 1225	Тамбова
+T63	Date-period-relative 1019 1038	До   установленного
+A15	Male T41
+T64	Person-surname 1590 1597	Никитин
+T65	GPE 1656 1663	Тамбова
+A16	Male T44
+T66	Person-forename 1671 1677	Михаил
+T67	Person-surname 1680 1688	Костюков
+A17	Male T47
+T68	Person-forename 1814 1824	Александру
+T69	Person-surname 1827 1835	Никитину
+A18	Past T49
+A19	Past T52
+T71	Event 330 334	игры
+T72	Event 670 716	заключительного   тура   прошлого   чемпионата
+T73	Event 695 716	прошлого   чемпионата
+T70	Ordinal 1877 1885	прошлого
+T74	Ordinal 695 703	прошлого
+A20	Past-Fut T15
+T75	Event 522 541	сезон - 2020 / 2021
+T76	Date-period-absolute 517 541	на   сезон - 2020 / 2021
+A10	Past-Fut T76
+A8	Pres-Fut T56
+A13	Past-Pres T25
+A14	Pres-Fut T63
+T77	Ordinal 393 399	данный
+T78	GPE 142 149	Тамбова
+T79	Web-address 1191 1202	Sports . ru
+T80	GPE 852 859	области
+T81	GPE 1913 1920	области

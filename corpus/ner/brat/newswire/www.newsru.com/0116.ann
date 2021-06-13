@@ -1,0 +1,60 @@
+T1	GPE 4 10	Москве
+T2	Date-period-absolute 75 86	2020   года
+T3	Person-property 89 99	девелоперы
+T4	Quantity 170 195	девять   новых   проектов
+T5	Date-period-absolute 216 234	в   прошлом   году
+T6	Quantity 268 281	18   проектов
+T7	Organization 329 354	компании   Knight   Frank
+T8	Organization 387 407	``   Коммерсант   ''
+A1	Media T8
+T9	Date-period-absolute 528 543	в   2018   году
+T10	Quantity 569 588	21   новый   проект
+T11	Date-period-absolute 593 617	К   концу   этого   года
+T12	GPE 674 680	Москве
+T13	Quantity 694 712	2,5   тыс.   лотов
+T14	Percent 719 723	-3 %
+T15	Date-period-absolute 741 781	аналогичного   периода   прошлого   года
+T16	Person-property 815 826	девелоперов
+T17	Person-property 849 858	аналитики
+T18	Person-property 898 910	застройщиков
+T19	Event 938 947	пандемией
+T20	Quantity 1180 1199	1,2   тыс.   сделок
+T21	Percent 1206 1214	на   2 %
+T22	Date-period-absolute 1236 1251	в   2019   году
+T23	Person-property 1266 1274	эксперты
+T24	Date-period-absolute 1318 1340	во   втором   квартале
+T25	Event 1351 1360	карантина
+T26	Ordinal 1323 1329	втором
+T27	Ordinal 1383 1390	третьем
+T28	Ordinal 1397 1406	четвертом
+T29	Date-period-absolute 1379 1418	в   третьем   и   четвертом   кварталах
+T30	Organization 1437 1451	Knight   Frank
+T31	Percent 1484 1488	25 %
+T32	Date-period-absolute 1512 1527	в   этом   году
+T33	GPE 1584 1605	районе   Дорогомилово
+T34	Date-period-absolute 1626 1644	в   прошлом   году
+T35	GPE 1674 1691	район   Хамовники
+T36	Ordinal 1720 1726	второе
+T37	GPE 1748 1754	Пресня
+T38	Ordinal 1765 1771	третье
+T39	GPE 1778 1794	Тверской   район
+T40	Date-period-absolute 1140 1144	года
+A3	Past T5
+A4	Past T9
+A6	Past T15
+T41	Duration 741 763	аналогичного   периода
+T42	Ordinal 766 774	прошлого
+T43	Ordinal 220 227	прошлом
+A8	Past T22
+T44	Duration 1332 1340	квартале
+A9	Past T24
+T45	Duration 1409 1418	кварталах
+A10	Past T29
+A12	Past T34
+T46	Ordinal 1630 1637	прошлом
+A2	Past-Fut T2
+A5	Past-Fut T11
+A7	Past-Fut T40
+T47	Event 925 957	вызванного   пандемией   кризиса
+A13	Past-Pres T32
+T48	Ordinal 605 610	этого

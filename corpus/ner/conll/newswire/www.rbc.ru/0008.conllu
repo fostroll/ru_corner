@@ -1,0 +1,288 @@
+# newdoc id = 0008
+# newpar id = 0008-p1
+# par_text = Марат Сафин объяснил неудачи российских футболистов неумением играть
+# sent_id = 0008-p1-s1
+# text = Марат Сафин объяснил неудачи российских футболистов неумением играть
+1	Марат	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT38=Person-forename
+2	Сафин	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT39=Person-surname
+3	объяснил	_	_	_	_	_	_	_	_
+4	неудачи	_	_	_	_	_	_	_	bratT69=Event
+5	российских	_	_	_	_	_	_	_	bratA6=T40:Adjective|bratT2=Person-property|bratT40=GPE
+6	футболистов	_	_	_	_	_	_	_	bratT2=Person-property
+7	неумением	_	_	_	_	_	_	_	_
+8	играть	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p2
+# par_text = Бывшая первая ракетка мира Марат Сафин объяснил неудачное выступление российских футбольных клубов в еврокубках отсутствием необходимого уровня. Об этом он сказал в интервью Sport24.
+# sent_id = 0008-p2-s1
+# text = Бывшая первая ракетка мира Марат Сафин объяснил неудачное выступление российских футбольных клубов в еврокубках отсутствием необходимого уровня.
+1	Бывшая	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person
+2	первая	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Ordinal
+3	ракетка	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+4	мира	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT50=GPE
+5	Марат	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT41=Person-forename
+6	Сафин	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT42=Person-surname
+7	объяснил	_	_	_	_	_	_	_	_
+8	неудачное	_	_	_	_	_	_	_	bratT70=Event
+9	выступление	_	_	_	_	_	_	_	bratT70=Event
+10	российских	_	_	_	_	_	_	_	bratA8=T43:Adjective|bratT43=GPE|bratT73=Organization
+11	футбольных	_	_	_	_	_	_	_	bratT73=Organization
+12	клубов	_	_	_	_	_	_	_	bratT73=Organization
+13	в	_	_	_	_	_	_	_	_
+14	еврокубках	_	_	_	_	_	_	_	bratT68=Event
+15	отсутствием	_	_	_	_	_	_	_	_
+16	необходимого	_	_	_	_	_	_	_	_
+17	уровня	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p2-s2
+# text = Об этом он сказал в интервью Sport24.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	он	_	_	_	_	_	_	_	_
+4	сказал	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	интервью	_	_	_	_	_	_	_	_
+7-8	Sport24	_	_	_	_	_	_	_	SpaceAfter=No
+7	Sport	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
+8	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization|bratT71=Duration|bratT72=Time-period
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p3
+# par_text = В нынешнем сезоне «Зенит», «Краснодар», «Локомотив» и ЦСКА не выиграли ни одного матча из 15 в групповых турнирах Лиги чемпионов и Лиги Европы. Российские команды семь раз сыграли вничью и потерпели восемь поражений.
+# sent_id = 0008-p3-s1
+# text = В нынешнем сезоне ``Зенит'', ``Краснодар'', ``Локомотив'' и ЦСКА не выиграли ни одного матча из 15 в групповых турнирах Лиги чемпионов и Лиги Европы.
+1	В	_	_	_	_	_	_	_	bratA9=T44:Past-Fut|bratT44=Date-period-absolute
+2	нынешнем	_	_	_	_	_	_	_	bratA9=T44:Past-Fut|bratT44=Date-period-absolute|bratT45=Ordinal|bratT67=Event
+3	сезоне	_	_	_	_	_	_	_	bratA9=T44:Past-Fut|bratT44=Date-period-absolute|bratT67=Event
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+5	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+7	,	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Organization
+9	Краснодар	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Organization|bratT57=GPE
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Organization
+11	,	_	_	_	_	_	_	_	_
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+13	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+14	''	_	_	_	_	_	_	_	bratT47=Organization
+15	и	_	_	_	_	_	_	_	_
+16	ЦСКА	_	_	_	_	_	_	_	bratT48=Organization
+17	не	_	_	_	_	_	_	_	_
+18	выиграли	_	_	_	_	_	_	_	_
+19	ни	_	_	_	_	_	_	_	bratT49=Quantity
+20	одного	_	_	_	_	_	_	_	bratT49=Quantity
+21	матча	_	_	_	_	_	_	_	bratT49=Quantity
+22	из	_	_	_	_	_	_	_	bratT49=Quantity
+23	15	_	_	_	_	_	_	_	bratT8=Quantity
+24	в	_	_	_	_	_	_	_	_
+25	групповых	_	_	_	_	_	_	_	bratA3=T9:Plural|bratT9=Event
+26	турнирах	_	_	_	_	_	_	_	bratA3=T9:Plural|bratT9=Event
+27	Лиги	_	_	_	_	_	_	_	bratA3=T9:Plural|bratT10=Event|bratT9=Event
+28	чемпионов	_	_	_	_	_	_	_	bratA3=T9:Plural|bratT10=Event|bratT9=Event
+29	и	_	_	_	_	_	_	_	bratA3=T9:Plural|bratT9=Event
+30	Лиги	_	_	_	_	_	_	_	bratA3=T9:Plural|bratT32=Event|bratT9=Event
+31	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Plural|bratT32=Event|bratT9=Event
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p3-s2
+# text = Российские команды семь раз сыграли вничью и потерпели восемь поражений.
+1	Российские	_	_	_	_	_	_	_	bratA4=T37:Adjective|bratT37=GPE|bratT74=Organization
+2	команды	_	_	_	_	_	_	_	bratT74=Organization
+3	семь	_	_	_	_	_	_	_	bratT11=Quantity
+4	раз	_	_	_	_	_	_	_	bratT11=Quantity
+5	сыграли	_	_	_	_	_	_	_	_
+6	вничью	_	_	_	_	_	_	_	_
+7	и	_	_	_	_	_	_	_	_
+8	потерпели	_	_	_	_	_	_	_	_
+9	восемь	_	_	_	_	_	_	_	bratT12=Quantity
+10	поражений	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Quantity
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p4
+# par_text = «У нас нет игроков мирового уровня. О чем мы говорим, когда мы не умеем играть? Если наших игроков не покупают в Европу, это показатель! У нас нет ни физики, ни мастерства, ничего», — заявил Сафин.
+# sent_id = 0008-p4-s1
+# text = ``У нас нет игроков мирового уровня.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	У	_	_	_	_	_	_	_	_
+3	нас	_	_	_	_	_	_	_	_
+4	нет	_	_	_	_	_	_	_	_
+5	игроков	_	_	_	_	_	_	_	bratT13=Person-property
+6	мирового	_	_	_	_	_	_	_	bratA2=T51:Adjective|bratT13=Person-property|bratT51=GPE
+7	уровня	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p4-s2
+# text = О чем мы говорим, когда мы не умеем играть?
+1	О	_	_	_	_	_	_	_	_
+2	чем	_	_	_	_	_	_	_	_
+3	мы	_	_	_	_	_	_	_	_
+4	говорим	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	когда	_	_	_	_	_	_	_	_
+7	мы	_	_	_	_	_	_	_	_
+8	не	_	_	_	_	_	_	_	_
+9	умеем	_	_	_	_	_	_	_	_
+10	играть	_	_	_	_	_	_	_	SpaceAfter=No
+11	?	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p4-s3
+# text = Если наших игроков не покупают в Европу, это показатель!
+1	Если	_	_	_	_	_	_	_	_
+2	наших	_	_	_	_	_	_	_	_
+3	игроков	_	_	_	_	_	_	_	bratT14=Person-property
+4	не	_	_	_	_	_	_	_	_
+5	покупают	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	Европу	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=GPE
+8	,	_	_	_	_	_	_	_	_
+9	это	_	_	_	_	_	_	_	_
+10	показатель	_	_	_	_	_	_	_	SpaceAfter=No
+11	!	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p4-s4
+# text = У нас нет ни физики, ни мастерства, ничего'', - заявил Сафин.
+1	У	_	_	_	_	_	_	_	_
+2	нас	_	_	_	_	_	_	_	_
+3	нет	_	_	_	_	_	_	_	_
+4	ни	_	_	_	_	_	_	_	_
+5	физики	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	ни	_	_	_	_	_	_	_	_
+8	мастерства	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	ничего	_	_	_	_	_	_	_	SpaceAfter=No
+11	''	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	-	_	_	_	_	_	_	_	_
+14	заявил	_	_	_	_	_	_	_	_
+15	Сафин	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T16:Male|bratT16=Person|bratT52=Person-surname
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p5
+# par_text = Из футболистов сборной России в пяти ведущих чемпионатах Европы (Англии, Испании, Германии, Италии и Франции) выступают лишь трое. Алексей Миранчук играет в «Аталанте», Александр Головин — в «Монако», Денис Черышев — в «Валенсии».
+# sent_id = 0008-p5-s1
+# text = Из футболистов сборной России в пяти ведущих чемпионатах Европы (Англии, Испании, Германии, Италии и Франции) выступают лишь трое.
+1	Из	_	_	_	_	_	_	_	_
+2	футболистов	_	_	_	_	_	_	_	bratT17=Person-property
+3	сборной	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Organization
+4	России	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Organization|bratT19=GPE
+5	в	_	_	_	_	_	_	_	_
+6	пяти	_	_	_	_	_	_	_	bratT20=Quantity
+7	ведущих	_	_	_	_	_	_	_	bratT20=Quantity
+8	чемпионатах	_	_	_	_	_	_	_	bratT20=Quantity|bratT21=Event
+9	Европы	_	_	_	_	_	_	_	bratT21=Event|bratT53=GPE
+10	(	_	_	_	_	_	_	_	SpaceAfter=No
+11	Англии	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+12	,	_	_	_	_	_	_	_	_
+13	Испании	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
+14	,	_	_	_	_	_	_	_	_
+15	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=GPE
+16	,	_	_	_	_	_	_	_	_
+17	Италии	_	_	_	_	_	_	_	bratT35=GPE
+18	и	_	_	_	_	_	_	_	_
+19	Франции	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE
+20	)	_	_	_	_	_	_	_	_
+21	выступают	_	_	_	_	_	_	_	_
+22	лишь	_	_	_	_	_	_	_	_
+23	трое	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p5-s2
+# text = Алексей Миранчук играет в ``Аталанте'', Александр Головин - в ``Монако'', Денис Черышев - в ``Валенсии''.
+1	Алексей	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT54=Person-forename
+2	Миранчук	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT55=Person-surname
+3	играет	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
+6	Аталанте	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT56=GPE
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
+8	,	_	_	_	_	_	_	_	_
+9	Александр	_	_	_	_	_	_	_	bratA12=T26:Male|bratT26=Person|bratT58=Person-forename
+10	Головин	_	_	_	_	_	_	_	bratA12=T26:Male|bratT26=Person|bratT59=Person-surname
+11	-	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+14	Монако	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization|bratT60=GPE
+15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+16	,	_	_	_	_	_	_	_	_
+17	Денис	_	_	_	_	_	_	_	bratA13=T28:Male|bratT28=Person|bratT61=Person-forename
+18	Черышев	_	_	_	_	_	_	_	bratA13=T28:Male|bratT28=Person|bratT62=Person-surname
+19	-	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+22	Валенсии	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization|bratT63=GPE
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+24	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p6
+# par_text = По словам Сафина, не стоит жить прошлыми успехами. «Нужно делать выводы, а не вспоминать, как мы в 1845 году что-то выигрывали. Ну и что теперь, что когда-то что-то было? Сейчас другая ситуация. И мы сейчас никого не можем обыграть!» — сказал он.
+# sent_id = 0008-p6-s1
+# text = По словам Сафина, не стоит жить прошлыми успехами.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	Сафина	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T30:Male|bratT30=Person|bratT64=Person-surname
+4	,	_	_	_	_	_	_	_	_
+5	не	_	_	_	_	_	_	_	_
+6	стоит	_	_	_	_	_	_	_	_
+7	жить	_	_	_	_	_	_	_	_
+8	прошлыми	_	_	_	_	_	_	_	_
+9	успехами	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p6-s2
+# text = « Нужно делать выводы, а не вспоминать, как мы в 1845 году что-то выигрывали.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Нужно	_	_	_	_	_	_	_	_
+3	делать	_	_	_	_	_	_	_	_
+4	выводы	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	а	_	_	_	_	_	_	_	_
+7	не	_	_	_	_	_	_	_	_
+8	вспоминать	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	как	_	_	_	_	_	_	_	_
+11	мы	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	bratA15=T31:Past|bratT31=Date-absolute
+13	1845	_	_	_	_	_	_	_	bratA15=T31:Past|bratT31=Date-absolute
+14	году	_	_	_	_	_	_	_	bratA15=T31:Past|bratT31=Date-absolute
+15	что-то	_	_	_	_	_	_	_	_
+16	выигрывали	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p6-s3
+# text = Ну и что теперь, что когда-то что-то было?
+1	Ну	_	_	_	_	_	_	_	_
+2	и	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	теперь	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	когда-то	_	_	_	_	_	_	_	_
+8	что-то	_	_	_	_	_	_	_	_
+9	было	_	_	_	_	_	_	_	SpaceAfter=No
+10	?	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p6-s4
+# text = Сейчас другая ситуация.
+1	Сейчас	_	_	_	_	_	_	_	bratA16=T65:Present|bratT65=Date-absolute
+2	другая	_	_	_	_	_	_	_	_
+3	ситуация	_	_	_	_	_	_	_	SpaceAfter=No
+4	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p6-s5
+# text = И мы сейчас никого не можем обыграть! » - сказал он.
+1	И	_	_	_	_	_	_	_	_
+2	мы	_	_	_	_	_	_	_	_
+3	сейчас	_	_	_	_	_	_	_	bratA17=T66:Present|bratT66=Date-absolute
+4	никого	_	_	_	_	_	_	_	_
+5	не	_	_	_	_	_	_	_	_
+6	можем	_	_	_	_	_	_	_	_
+7	обыграть	_	_	_	_	_	_	_	SpaceAfter=No
+8	!	_	_	_	_	_	_	_	SpaceAfter=No
+9	''	_	_	_	_	_	_	_	QuotationEnd=»
+10	-	_	_	_	_	_	_	_	_
+11	сказал	_	_	_	_	_	_	_	_
+12	он	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+

@@ -5,9 +5,9 @@
 # text = Мишустин запустил ускоритель российского мегасайенс-проекта
 1	Мишустин	_	_	_	_	_	_	_	bratA10=T1:Male|bratT1=Person|bratT34=Person-surname
 2	запустил	_	_	_	_	_	_	_	_
-3	ускоритель	_	_	_	_	_	_	_	_
-4	российского	_	_	_	_	_	_	_	bratT33=GPE
-5	мегасайенс-проекта	_	_	_	_	_	_	_	_
+3	ускоритель	_	_	_	_	_	_	_	bratT44=Product
+4	российского	_	_	_	_	_	_	_	bratT33=GPE|bratT44=Product
+5	мегасайенс-проекта	_	_	_	_	_	_	_	bratT44=Product
 
 # newpar id = 0082-p2
 # par_text = Премьер-министр России Михаил Мишустин запустил в работу сверхпроводящий ускоритель тяжелых ионов мегасайенс-проекта NICA. Об этом в пятницу, 20 ноября, сообщает ТАСС.
@@ -24,8 +24,8 @@
 9	ускоритель	_	_	_	_	_	_	_	bratT7=Product
 10	тяжелых	_	_	_	_	_	_	_	bratT7=Product
 11	ионов	_	_	_	_	_	_	_	bratT7=Product
-12	мегасайенс-проекта	_	_	_	_	_	_	_	bratA2=T19:Trademark|bratA3=T19:Project|bratT19=Product|bratT7=Product
-13	NICA	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T19:Trademark|bratA3=T19:Project|bratT19=Product|bratT7=Product
+12	мегасайенс-проекта	_	_	_	_	_	_	_	bratA3=T19:Project|bratT19=Product|bratT7=Product
+13	NICA	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T19:Project|bratT19=Product|bratT7=Product
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0082-p2-s2
@@ -49,12 +49,12 @@
 1	Как	_	_	_	_	_	_	_	_
 2	отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	официальная	_	_	_	_	_	_	_	_
+4	официальная	_	_	_	_	_	_	_	bratT10=Event
 5	церемония	_	_	_	_	_	_	_	bratT10=Event
 6	запуска	_	_	_	_	_	_	_	bratT10=Event
-7	первого	_	_	_	_	_	_	_	bratT10=Event|bratT11=Ordinal|bratT43=Product
-8	каскада	_	_	_	_	_	_	_	bratT10=Event|bratT43=Product
-9	проекта	_	_	_	_	_	_	_	bratT10=Event|bratT43=Product
+7	первого	_	_	_	_	_	_	_	bratT11=Ordinal|bratT43=Product
+8	каскада	_	_	_	_	_	_	_	bratT43=Product
+9	проекта	_	_	_	_	_	_	_	bratT43=Product
 10	прошла	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
 12	Объединенном	_	_	_	_	_	_	_	bratT12=Organization
@@ -92,10 +92,10 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Мы	_	_	_	_	_	_	_	_
 3	присутствуем	_	_	_	_	_	_	_	_
-4	сегодня	_	_	_	_	_	_	_	bratA7=T30:Past|bratT30=Date-absolute
+4	сегодня	_	_	_	_	_	_	_	bratA7=T30:Present|bratT30=Date-absolute
 5	при	_	_	_	_	_	_	_	_
 6	уникальном	_	_	_	_	_	_	_	_
-7	событии	_	_	_	_	_	_	_	SpaceAfter=No
+7	событии	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Event
 8	,	_	_	_	_	_	_	_	_
 9	и	_	_	_	_	_	_	_	_
 10	это	_	_	_	_	_	_	_	_
@@ -115,9 +115,9 @@
 24	ходе	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
 25	своей	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
 26	встречи	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute|bratT32=Event
-27	с	_	_	_	_	_	_	_	bratT32=Event
-28	молодыми	_	_	_	_	_	_	_	bratT31=Age|bratT32=Event
-29	учеными	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT32=Event
+27	с	_	_	_	_	_	_	_	_
+28	молодыми	_	_	_	_	_	_	_	bratT31=Age
+29	учеными	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
 30	,	_	_	_	_	_	_	_	_
 31	которые	_	_	_	_	_	_	_	_
 32	принимали	_	_	_	_	_	_	_	_

@@ -1,0 +1,276 @@
+# newdoc id = 0122
+# newpar id = 0122-p1
+# par_text = Суд в Кемерово арестовал блогеров, которые сняли нарушавшего правила дорожного движения пенсионера МВД
+# sent_id = 0122-p1-s1
+# text = Суд в Кемерово арестовал блогеров, которые сняли нарушавшего правила дорожного движения пенсионера МВД
+1	Суд	_	_	_	_	_	_	_	bratT1=Organization
+2	в	_	_	_	_	_	_	_	bratT1=Organization
+3	Кемерово	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+4	арестовал	_	_	_	_	_	_	_	_
+5	блогеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT65=Person
+6	,	_	_	_	_	_	_	_	_
+7	которые	_	_	_	_	_	_	_	_
+8	сняли	_	_	_	_	_	_	_	_
+9	нарушавшего	_	_	_	_	_	_	_	_
+10	правила	_	_	_	_	_	_	_	_
+11	дорожного	_	_	_	_	_	_	_	_
+12	движения	_	_	_	_	_	_	_	_
+13	пенсионера	_	_	_	_	_	_	_	bratA22=T66:Male|bratT4=Person-property|bratT66=Person
+14	МВД	_	_	_	_	_	_	_	bratA22=T66:Male|bratT4=Person-property|bratT5=Organization|bratT66=Person
+
+# newpar id = 0122-p2
+# par_text = Суд в Кемеровской области арестовал двоих местных блогеров по делу о хулиганстве (часть 2 статьи 213 УК), сообщает региональное управление СК.
+# sent_id = 0122-p2-s1
+# text = Суд в Кемеровской области арестовал двоих местных блогеров по делу о хулиганстве (часть 2 статьи 213 УК), сообщает региональное управление СК.
+1	Суд	_	_	_	_	_	_	_	bratT6=Organization
+2	в	_	_	_	_	_	_	_	bratT6=Organization
+3	Кемеровской	_	_	_	_	_	_	_	bratT6=Organization|bratT7=GPE
+4	области	_	_	_	_	_	_	_	bratT6=Organization|bratT7=GPE
+5	арестовал	_	_	_	_	_	_	_	_
+6	двоих	_	_	_	_	_	_	_	bratT67=Person|bratT8=Quantity
+7	местных	_	_	_	_	_	_	_	bratA23=T71:Adjective|bratT67=Person|bratT71=GPE|bratT8=Quantity
+8	блогеров	_	_	_	_	_	_	_	bratT67=Person|bratT8=Quantity|bratT9=Person-property
+9	по	_	_	_	_	_	_	_	_
+10	делу	_	_	_	_	_	_	_	_
+11	о	_	_	_	_	_	_	_	_
+12	хулиганстве	_	_	_	_	_	_	_	_
+13	(	_	_	_	_	_	_	_	SpaceAfter=No
+14	часть	_	_	_	_	_	_	_	bratT10=Law
+15	2	_	_	_	_	_	_	_	bratT10=Law|bratT45=Ordinal
+16	статьи	_	_	_	_	_	_	_	bratT10=Law
+17	213	_	_	_	_	_	_	_	bratT10=Law|bratT46=Ordinal
+18	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Law|bratT21=Law
+19	)	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	сообщает	_	_	_	_	_	_	_	_
+22	региональное	_	_	_	_	_	_	_	bratA25=T73:Adjective|bratT11=Organization|bratT73=GPE
+23	управление	_	_	_	_	_	_	_	bratT11=Organization
+24	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT47=Organization
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p3
+# par_text = По версии следствия, в апреле 2020 года приятели увидели, что водитель припарковал свой автомобиль в неположенным месте. Блогеры вызвали полицию и «стали провоцировать мужчину на конфликт».
+# sent_id = 0122-p3-s1
+# text = По версии следствия, в апреле 2020 года приятели увидели, что водитель припарковал свой автомобиль в неположенным месте.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
+6	апреле	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
+7	2020	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
+8	года	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
+9	приятели	_	_	_	_	_	_	_	bratT58=Person
+10	увидели	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	что	_	_	_	_	_	_	_	_
+13	водитель	_	_	_	_	_	_	_	bratA13=T50:Male|bratT13=Other-group|bratT50=Person
+14	припарковал	_	_	_	_	_	_	_	_
+15	свой	_	_	_	_	_	_	_	_
+16	автомобиль	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	неположенным	_	_	_	_	_	_	_	_
+19	месте	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p3-s2
+# text = Блогеры вызвали полицию и «стали провоцировать мужчину на конфликт».
+1	Блогеры	_	_	_	_	_	_	_	bratT14=Person-property|bratT59=Person
+2	вызвали	_	_	_	_	_	_	_	_
+3	полицию	_	_	_	_	_	_	_	bratT51=Person-property
+4	и	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+6	стали	_	_	_	_	_	_	_	_
+7	провоцировать	_	_	_	_	_	_	_	_
+8	мужчину	_	_	_	_	_	_	_	bratA19=T60:Male|bratT60=Person
+9	на	_	_	_	_	_	_	_	_
+10	конфликт	_	_	_	_	_	_	_	SpaceAfter=No
+11	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p4
+# par_text = Их 28-летний знакомый снимал происходящее на камеру. После прибытия полицейских блогеры продолжали «вести себя агрессивно» и распылили в газ в лицо водителю и его жене, пишет СК. У водителя выявили ожоги роговицы глаза.
+# sent_id = 0122-p4-s1
+# text = Их 28-летний знакомый снимал происходящее на камеру.
+1	Их	_	_	_	_	_	_	_	_
+2	28-летний	_	_	_	_	_	_	_	bratT15=Age
+3	знакомый	_	_	_	_	_	_	_	bratA20=T61:Male|bratT61=Person
+4	снимал	_	_	_	_	_	_	_	_
+5	происходящее	_	_	_	_	_	_	_	bratT69=Event
+6	на	_	_	_	_	_	_	_	_
+7	камеру	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p4-s2
+# text = После прибытия полицейских блогеры продолжали «вести себя агрессивно» и распылили в газ в лицо водителю и его жене, пишет СК.
+1	После	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute
+2	прибытия	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute
+3	полицейских	_	_	_	_	_	_	_	bratT17=Person-property
+4	блогеры	_	_	_	_	_	_	_	bratT18=Person-property|bratT62=Person
+5	продолжали	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+7	вести	_	_	_	_	_	_	_	_
+8	себя	_	_	_	_	_	_	_	_
+9	агрессивно	_	_	_	_	_	_	_	SpaceAfter=No
+10	''	_	_	_	_	_	_	_	QuotationEnd=»
+11	и	_	_	_	_	_	_	_	_
+12	распылили	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	газ	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	лицо	_	_	_	_	_	_	_	_
+17	водителю	_	_	_	_	_	_	_	bratA14=T53:Male|bratT19=Other-group|bratT53=Person
+18	и	_	_	_	_	_	_	_	_
+19	его	_	_	_	_	_	_	_	bratA10=T48:Female|bratT48=Person
+20	жене	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T48:Female|bratT20=Family|bratT48=Person
+21	,	_	_	_	_	_	_	_	_
+22	пишет	_	_	_	_	_	_	_	_
+23	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Organization
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p4-s3
+# text = У водителя выявили ожоги роговицы глаза.
+1	У	_	_	_	_	_	_	_	_
+2	водителя	_	_	_	_	_	_	_	bratA15=T54:Male|bratT22=Other-group|bratT54=Person
+3	выявили	_	_	_	_	_	_	_	_
+4	ожоги	_	_	_	_	_	_	_	_
+5	роговицы	_	_	_	_	_	_	_	_
+6	глаза	_	_	_	_	_	_	_	SpaceAfter=No
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p5
+# par_text = Как выяснилось позднее, водитель был пенсионером МВД. Он действительно нарушил ПДД, но к моменту происходящего на него уже составили протокол, отмечает ведомство.
+# sent_id = 0122-p5-s1
+# text = Как выяснилось позднее, водитель был пенсионером МВД.
+1	Как	_	_	_	_	_	_	_	_
+2	выяснилось	_	_	_	_	_	_	_	_
+3	позднее	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T23:Past|bratT23=Date-relative
+4	,	_	_	_	_	_	_	_	_
+5	водитель	_	_	_	_	_	_	_	bratA16=T55:Male|bratT24=Other-group|bratT55=Person
+6	был	_	_	_	_	_	_	_	_
+7	пенсионером	_	_	_	_	_	_	_	bratT25=Person-property
+8	МВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property|bratT26=Organization
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p5-s2
+# text = Он действительно нарушил ПДД, но к моменту происходящего на него уже составили протокол, отмечает ведомство.
+1	Он	_	_	_	_	_	_	_	_
+2	действительно	_	_	_	_	_	_	_	_
+3	нарушил	_	_	_	_	_	_	_	_
+4	ПДД	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	но	_	_	_	_	_	_	_	_
+7	к	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-relative
+8	моменту	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-relative
+9	происходящего	_	_	_	_	_	_	_	bratA3=T27:Past|bratT27=Date-relative|bratT68=Event
+10	на	_	_	_	_	_	_	_	_
+11	него	_	_	_	_	_	_	_	_
+12	уже	_	_	_	_	_	_	_	_
+13	составили	_	_	_	_	_	_	_	_
+14	протокол	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	отмечает	_	_	_	_	_	_	_	_
+17	ведомство	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p6
+# par_text = Местное управление Центра «Э» провело обыски, из квартир изъяли компьютеры, диски, флешки и телефоны. Проводивший съемку приятель блогеров проходит по делу подозреваевым. Пока что ему не избрали меру пресечения, сообщили «Медиазоне» в пресс-службе СК.
+# sent_id = 0122-p6-s1
+# text = Местное управление Центра «Э» провело обыски, из квартир изъяли компьютеры, диски, флешки и телефоны.
+1	Местное	_	_	_	_	_	_	_	bratA24=T72:Adjective|bratT28=Organization|bratT72=GPE
+2	управление	_	_	_	_	_	_	_	bratT28=Organization
+3	Центра	_	_	_	_	_	_	_	bratT28=Organization|bratT74=Organization
+4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT28=Organization|bratT74=Organization
+5	Э	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization|bratT74=Organization
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT28=Organization|bratT74=Organization
+7	провело	_	_	_	_	_	_	_	_
+8	обыски	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	из	_	_	_	_	_	_	_	_
+11	квартир	_	_	_	_	_	_	_	_
+12	изъяли	_	_	_	_	_	_	_	_
+13	компьютеры	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	диски	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	флешки	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	телефоны	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p6-s2
+# text = Проводивший съемку приятель блогеров проходит по делу подозреваевым.
+1	Проводивший	_	_	_	_	_	_	_	_
+2	съемку	_	_	_	_	_	_	_	_
+3	приятель	_	_	_	_	_	_	_	bratA21=T64:Male|bratT64=Person
+4	блогеров	_	_	_	_	_	_	_	bratA21=T64:Male|bratT29=Person-property|bratT63=Person|bratT64=Person
+5	проходит	_	_	_	_	_	_	_	_
+6	по	_	_	_	_	_	_	_	_
+7	делу	_	_	_	_	_	_	_	_
+8	подозреваевым	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p6-s3
+# text = Пока что ему не избрали меру пресечения, сообщили «Медиазоне» в пресс-службе СК.
+1	Пока	_	_	_	_	_	_	_	_
+2	что	_	_	_	_	_	_	_	_
+3	ему	_	_	_	_	_	_	_	_
+4	не	_	_	_	_	_	_	_	_
+5	избрали	_	_	_	_	_	_	_	_
+6	меру	_	_	_	_	_	_	_	_
+7	пресечения	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	сообщили	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA4=T30:Media|bratT30=Organization
+11	Медиазоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T30:Media|bratT30=Organization
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA4=T30:Media|bratT30=Organization
+13	в	_	_	_	_	_	_	_	_
+14	пресс-службе	_	_	_	_	_	_	_	bratA5=T31:Department|bratT31=Organization
+15	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T31:Department|bratT31=Organization|bratT32=Organization
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p7
+# par_text = Движение «Не будь инертным» опубликовало ролик с рейдом возле здания управления ФСБ по Кемерово. Оператор Сергей Каменский замечает, что кузбассовец нарушил правила дорожного движения, после чего водитель отбирает у Каменского камеру.
+# sent_id = 0122-p7-s1
+# text = Движение «Не будь инертным» опубликовало ролик с рейдом возле здания управления ФСБ по Кемерово.
+1	Движение	_	_	_	_	_	_	_	bratT33=Organization
+2	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT33=Organization
+3	Не	_	_	_	_	_	_	_	bratT33=Organization
+4	будь	_	_	_	_	_	_	_	bratT33=Organization
+5	инертным	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT33=Organization
+7	опубликовало	_	_	_	_	_	_	_	_
+8	ролик	_	_	_	_	_	_	_	_
+9	с	_	_	_	_	_	_	_	_
+10	рейдом	_	_	_	_	_	_	_	bratT70=Event
+11	возле	_	_	_	_	_	_	_	_
+12	здания	_	_	_	_	_	_	_	_
+13	управления	_	_	_	_	_	_	_	bratT34=Organization
+14	ФСБ	_	_	_	_	_	_	_	bratT34=Organization|bratT52=Organization
+15	по	_	_	_	_	_	_	_	bratT34=Organization
+16	Кемерово	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=GPE
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p7-s2
+# text = Оператор Сергей Каменский замечает, что кузбассовец нарушил правила дорожного движения, после чего водитель отбирает у Каменского камеру.
+1	Оператор	_	_	_	_	_	_	_	bratA6=T36:Male|bratT36=Person|bratT37=Person-property
+2	Сергей	_	_	_	_	_	_	_	bratA6=T36:Male|bratT36=Person|bratT38=Person-forename
+3	Каменский	_	_	_	_	_	_	_	bratA6=T36:Male|bratT36=Person|bratT39=Person-surname
+4	замечает	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	кузбассовец	_	_	_	_	_	_	_	bratA18=T57:Male|bratA7=T40:Resident|bratT40=Nationality|bratT57=Person
+8	нарушил	_	_	_	_	_	_	_	_
+9	правила	_	_	_	_	_	_	_	_
+10	дорожного	_	_	_	_	_	_	_	_
+11	движения	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	после	_	_	_	_	_	_	_	bratA11=T44:Past|bratT44=Date-relative
+14	чего	_	_	_	_	_	_	_	bratA11=T44:Past|bratT44=Date-relative
+15	водитель	_	_	_	_	_	_	_	bratA17=T56:Male|bratT41=Other-group|bratT56=Person
+16	отбирает	_	_	_	_	_	_	_	_
+17	у	_	_	_	_	_	_	_	_
+18	Каменского	_	_	_	_	_	_	_	bratA8=T42:Male|bratT42=Person|bratT43=Person-surname
+19	камеру	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+

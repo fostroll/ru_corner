@@ -1,0 +1,85 @@
+T1	Organization 0 3	ОНФ
+T2	Product 10 57	Препарата   от   COVID   ``   Фавипиравира   ''
+T3	Other-term 27 32	COVID
+T4	Percent 81 85	85 %
+T5	Other-term 153 165	коронавируса
+T6	Product 133 189	препарат   против   коронавируса   ``   Фавипиравир   ''
+T7	Percent 210 214	85 %
+T8	Organization 272 308	Общероссийского   народного   фронта
+T9	Organization 315 318	ОНФ
+T10	Organization 260 322	исполкома   Общероссийского   народного   фронта   (   ОНФ   )
+A1	Department T10
+T11	Person-property 252 322	глава   исполкома   Общероссийского   народного   фронта   (   ОНФ   )
+T12	Person 252 342	глава   исполкома   Общероссийского   народного   фронта   (   ОНФ   )   Михаил   Кузнецов
+T13	Ordinal 353 359	Первая
+T14	GPE 545 547	РФ
+T15	Person-property 532 547	президента   РФ
+T16	Person 532 568	президента   РФ   Владимира   Путина
+T17	Organization 585 598	правительства
+T18	Person-property 575 598	членами   правительства
+T19	Date-absolute 601 610	в   среду
+T20	Organization 640 659	``   Интерфакс   ''
+A2	Media T20
+T21	Person 665 682	Михаил   Кузнецов
+T22	Organization 721 724	ОНФ
+T23	Person-property 705 724	представители   ОНФ
+T24	Quantity 752 770	3,5   тыс.   аптек
+T25	Person-property 738 770	сотрудников   3,5   тыс.   аптек
+T26	Quantity 857 872	до   10   тысяч
+T27	Percent 912 916	30 %
+T28	Organization 995 1005	Минздравом
+T29	Percent 1034 1038	45 %
+T30	Other-term 1087 1101	антикоагулянты
+T31	Product 1156 1178	``   Ривароксабан   ''
+T32	Percent 1195 1203	в   63 %
+T33	Other-term 1260 1273	антибиотиками
+T34	Person 1294 1303	Кузнецова
+T35	Percent 1350 1353	9 %
+T36	Other-term 1379 1391	антибиотиков
+T37	Other-term 1427 1437	антибиотик
+T39	Product 1427 1463	антибиотик   ``   Левофлоксацин   ''
+T38	Person 1568 1591	Владимир   Владимирович
+T40	Person 1699 1716	Михаил   Кузнецов
+T41	Date-absolute 1753 1775	на   минувшей   неделе
+T42	GPE 1812 1818	Москве
+T43	GPE 1825 1954	Тульской   ,   Новосибирской   ,   Оренбургской   ,   Курганской   ,   Ивановской   ,   Калининградской   и   Липецкой   областях
+A3	Plural T43
+T44	Percent 1484 1488	73 %
+T45	GPE 88 98	российских
+A4	Adjective T45
+T46	GPE 217 227	российских
+A5	Adjective T46
+A6	Male T12
+T47	Person-forename 325 331	Михаил
+T48	Person-surname 334 342	Кузнецов
+A7	Male T16
+T49	Person-forename 550 559	Владимира
+T50	Person-surname 562 568	Путина
+A8	Past T19
+T51	Date-absolute 515 529	на   совещании
+A9	Past T51
+A10	Male T21
+T52	Person-forename 665 671	Михаил
+T53	Person-surname 674 682	Кузнецов
+T54	Person-surname 1294 1303	Кузнецова
+A11	Male T34
+A12	Male T38
+T55	Person-forename 1568 1576	Владимир
+T56	Person-patronym 1579 1591	Владимирович
+A13	Male T40
+T57	Person-forename 1699 1705	Михаил
+T58	Person-surname 1708 1716	Кузнецов
+T59	GPE 1825 1833	Тульской
+T60	GPE 1840 1853	Новосибирской
+T61	GPE 1860 1872	Оренбургской
+T62	GPE 1879 1889	Курганской
+T63	GPE 1896 1906	Ивановской
+T64	GPE 1913 1928	Калининградской
+T65	GPE 1935 1943	Липецкой
+T66	Event 520 568	совещании   президента   РФ   Владимира   Путина
+A14	Past T41
+T67	Ordinal 1758 1766	минувшей
+A15	Trademark T6
+A16	Trademark T2
+A17	Trademark T39
+A18	Trademark T31

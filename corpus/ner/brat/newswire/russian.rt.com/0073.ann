@@ -1,42 +1,41 @@
 T1	GPE 0 5	Китай
-T2	Person-property 213 354	замруководителя   проекта   ракеты-носителя   ``   Чанчжэн-5   ''   Китайской   корпорации   космической   науки   и   техники   (   CASC   )
-T3	Product 231 278	проекта   ракеты-носителя   ``   Чанчжэн-5   ''
-T4	Organization 281 339	Китайской   корпорации   космической   науки   и   техники
-T5	Person 213 368	замруководителя   проекта   ракеты-носителя   ``   Чанчжэн-5   ''   Китайской   корпорации   космической   науки   и   техники   (   CASC   )   Цюй   Игуан
-T6	Organization 565 578	РИА   Новости
+T2	Person-property 213 356	замруководителя   проекта   ракеты-носителя   ``   Чанчжэн - 5   ''   Китайской   корпорации   космической   науки   и   техники   (   CASC   )
+T3	Product 231 280	проекта   ракеты-носителя   ``   Чанчжэн - 5   ''
+T4	Organization 283 341	Китайской   корпорации   космической   науки   и   техники
+T5	Person 213 370	замруководителя   проекта   ракеты-носителя   ``   Чанчжэн - 5   ''   Китайской   корпорации   космической   науки   и   техники   (   CASC   )   Цюй   Игуан
+T6	Organization 567 580	РИА   Новости
 A1	Media T6
-T7	Date-period-absolute 379 401	Со   следующего   года
-T9	Facility 661 678	``   Тяньгун   ''
-T10	Quantity 771 787	три   космонавта
-T11	Quantity 833 848	шесть   человек
-T12	Date-absolute 897 912	к   2022   году
-T13	Quantity 953 964	12   миссий
-T14	GPE 1001 1006	Китай
-T15	Product 1042 1086	возвращаемым   аппаратом   ``   Чанъэ-5   ''
-T16	Location 1139 1143	Луну
-T17	Location 1218 1223	Землю
+T7	Date-period-absolute 381 403	Со   следующего   года
+T9	Facility 663 680	``   Тяньгун   ''
+T10	Quantity 773 789	три   космонавта
+T11	Quantity 835 850	шесть   человек
+T12	Date-absolute 899 914	к   2022   году
+T13	Quantity 955 966	12   миссий
+T14	GPE 1003 1008	Китай
+T15	Person 1044 1090	возвращаемым   аппаратом   ``   Чанъэ - 5   ''
+T16	Location 1143 1147	Луну
+T17	Location 1222 1227	Землю
 A2	Project T3
-T8	Product 241 278	ракеты-носителя   ``   Чанчжэн-5   ''
-T18	Organization 346 350	CASC
-T19	Person-property 598 622	китайского   специалиста
-T20	Facility 629 636	станция
+T18	Organization 348 352	CASC
+T19	Person-property 600 624	китайского   специалиста
+T20	Facility 631 638	станция
 T21	GPE 73 78	Китае
 T22	Date-absolute 93 108	в   2021   году
-T23	Ordinal 384 394	следующего
-T24	Time-relative 798 808	во   время
-T25	Date-relative 970 975	Ранее
-T26	Date-relative 1193 1198	после
-T27	Time-relative 743 755	одновременно
+T23	Ordinal 386 396	следующего
+T24	Time-relative 800 810	во   время
+T25	Date-relative 972 977	Ранее
+T26	Date-relative 1197 1202	после
+T27	Time-relative 745 757	одновременно
 A4	Future T22
 A5	Future T12
-T29	Event 811 826	смены   экипажа
+T29	Event 813 828	смены   экипажа
 A3	Fut T7
 A6	Past T25
 A7	Future T26
-T28	GPE 281 290	Китайской
-T30	Person-surname 357 360	Цюй
-T31	Person-forename 363 368	Игуан
-T32	Nationality 598 608	китайского
+T28	GPE 283 292	Китайской
+T30	Person-surname 359 362	Цюй
+T31	Person-forename 365 370	Игуан
+T32	Nationality 600 610	китайского
 A8	Male T5
 A9	Adjective T28
 A10	Adjective T32
@@ -44,5 +43,14 @@ T33	Location 46 57	космическую
 A11	Adjective T33
 T34	Location 164 175	космической
 A12	Adjective T34
-T35	Location 494 505	космической
+T35	Location 496 507	космической
 A13	Adjective T35
+T8	Ordinal 274 275	5
+T37	Ordinal 1084 1085	5
+T36	Location 150 161	орбитальной
+A14	Adjective T36
+T38	Facility 150 185	орбитальной   космической   станции
+T39	Facility 46 67	космическую   станцию
+T40	Facility 496 534	космической   станции   нашей   страны
+A15	Unconscious T15
+T41	GPE 520 534	нашей   страны

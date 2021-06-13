@@ -1,0 +1,91 @@
+T1	Person 0 33	Журналиста   RT   Илью   Васюнина
+A1	Male T1
+T2	Person-property 0 15	Журналиста   RT
+T3	Organization 13 15	RT
+T4	Person-forename 18 22	Илью
+T5	Person-surname 25 33	Васюнина
+T6	Money 55 74	10   тысяч   рублей
+T7	Event 82 87	пикет
+T8	Person 106 118	Ильи   Азара
+A2	Male T8
+T9	Person-forename 106 110	Ильи
+T10	Person-surname 113 118	Азара
+T11	Organization 120 160	Замоскворецкий   районный   суд   Москвы
+T12	GPE 120 145	Замоскворецкий   районный
+A3	Adjective T12
+T13	GPE 154 160	Москвы
+T14	Money 176 191	на   10   тысяч
+T15	Person 194 227	журналиста   RT   Илью   Васюнина
+A4	Male T15
+T16	Person-property 194 209	журналиста   RT
+T17	Organization 207 209	RT
+T18	Person-forename 212 216	Илью
+T19	Person-surname 219 227	Васюнина
+T20	Event 235 240	пикет
+T21	Person 259 316	журналиста   и   муниципального   депутата   Ильи   Азара
+A5	Male T21
+T23	Person-property 259 269	журналиста
+T24	Person-property 276 301	муниципального   депутата
+T25	Person-forename 304 308	Ильи
+T26	Person-surname 311 316	Азара
+T27	Service 358 366	твиттере
+T28	Person 372 380	Васюнина
+A7	Male T28
+T29	Person-surname 372 380	Васюнина
+T30	Law 410 442	части   5   статьи   20.2   КоАП
+T31	Event 513 519	пикеты
+T32	Date-relative 500 505	Ранее
+T34	Person 560 608	журналиста   ``   Дождя   ''   Михаила   Фишмана
+A9	Male T34
+T35	Person-property 560 588	журналиста   ``   Дождя   ''
+T36	Organization 573 588	``   Дождя   ''
+A10	Media T36
+T37	Person-forename 591 598	Михаила
+T38	Person-surname 601 608	Фишмана
+T39	Person-property 615 647	ведущих   ``   Эха   Москвы   ''
+T40	Organization 625 647	``   Эха   Москвы   ''
+A11	Media T40
+T41	GPE 636 642	Москвы
+T42	Person 650 672	Татьяну   Фельгенгауэр
+A12	Female T42
+T43	Person-forename 650 657	Татьяну
+T44	Person-surname 660 672	Фельгенгауэр
+T45	Person 679 699	Александра   Плющева
+A13	Male T45
+T46	Person-forename 679 689	Александра
+T47	Person-surname 692 699	Плющева
+T48	Date-absolute 705 719	В   коце   мая
+A14	Past T48
+T49	Person 722 727	Азара
+A15	Male T49
+T50	Person-surname 722 727	Азара
+T51	Event 767 772	пикет
+T52	Person 791 867	основателя   проекта   ``   Омбудсмен   полиции   ''   Владимира   Воронцова
+A16	Male T52
+T53	Service 804 843	проекта   ``   Омбудсмен   полиции   ''
+T54	Person-property 791 843	основателя   проекта   ``   Омбудсмен   полиции   ''
+T55	Person-forename 846 855	Владимира
+T56	Person-surname 858 867	Воронцова
+T57	Date-relative 872 885	После   этого
+T74	Organization 951 981	управлению   МВД   по   Москве
+T75	GPE 975 981	Москве
+T76	Date-absolute 986 1004	Во   время   акции
+T77	Event 999 1004	акции
+T79	Quantity 1029 1042	32   человека
+T22	Ordinal 418 419	5
+T80	Ordinal 431 435	20.2
+T81	Law 438 442	КоАП
+A6	Past T32
+T33	Person 615 699	ведущих   ``   Эха   Москвы   ''   Татьяну   Фельгенгауэр   и   Александра   Плющева
+A8	Plural T33
+T82	Person 538 543	Азара
+A21	Male T82
+T83	Person-surname 538 543	Азара
+A22	Past T57
+A23	Past T76
+T73	Quantity 901 921	нескольких   изданий
+T84	Organization 1007 1014	полиция
+T85	Organization 831 838	полиции
+A24	Media T53
+T86	Organization 964 967	МВД
+T58	Person-property 888 898	сотрудники

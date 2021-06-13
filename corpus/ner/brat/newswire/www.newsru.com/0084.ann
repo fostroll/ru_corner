@@ -1,0 +1,107 @@
+T1	GPE 55 61	России
+T2	GPE 68 75	Армении
+T3	GPE 82 94	Азербайджана
+T4	Organization 49 94	МИД   России   ,   Армении   и   Азербайджана
+T5	Person-property 42 94	глав   МИД   России   ,   Армении   и   Азербайджана
+T6	GPE 101 107	Москве
+T7	GPE 113 119	Москве
+T8	GPE 177 183	России
+T9	GPE 190 197	Армении
+T10	GPE 204 216	Азербайджана
+T12	Person-property 164 216	глав   МИД   России   ,   Армении   и   Азербайджана
+A1	Plural T12
+A2	Plural T5
+T13	Person 164 290	глав   МИД   России   ,   Армении   и   Азербайджана   Сергея   Лаврова   ,   Зограба   Мнацаканяна   и   Джейхуна   Байрамова
+A3	Plural T13
+T14	Organization 325 328	МИД
+T15	Person-property 295 328	Представитель   российского   МИД
+T16	Person 295 347	Представитель   российского   МИД   Мария   Захарова
+T17	Service 365 373	Facebook
+T18	Person-property 432 441	министров
+T19	GPE 533 539	Москву
+T20	GPE 490 497	Армении
+T21	GPE 504 516	Азербайджана
+T22	Organization 484 516	МИД   Армении   и   Азербайджана
+T23	Person-property 476 516	Главы   МИД   Армении   и   Азербайджана
+A5	Plural T23
+A6	Plural T4
+T11	Organization 171 216	МИД   России   ,   Армении   и   Азербайджана
+A7	Plural T11
+A8	Plural T22
+T24	Person-property 561 571	президента
+T25	Person 561 592	президента   Владимира   Путина
+T26	GPE 632 651	Нагорном   Карабахе
+T27	Event 620 625	войне
+T28	Organization 669 688	``   Интерфакс   ''
+A9	Media T28
+T29	GPE 734 746	Азербайджана
+T30	Person-property 722 746	президент   Азербайджана
+T31	Person 722 763	президент   Азербайджана   Ильхам   Алиев
+T33	Event 1105 1129	карабахского   конфликта
+T34	Organization 1472 1475	ООН
+T35	Person-property 1590 1599	Президент
+T36	Person-property 1630 1655	азербайджанские   военные
+T37	Quantity 1667 1702	еще   девять   населенных   пунктов
+T38	GPE 1709 1717	Карабахе
+T39	GPE 1724 1740	поселок   Гадрут
+T40	GPE 1747 1869	села   Чайлы   ,   Йухары   Гюзляк   ,   Геразыллы   ,   Гышлаг   ,   Гараджалы   ,   Эфендилер   ,   Сулейманлы   ,   Сур
+A10	Plural T40
+T41	Event 823 853	нагорно-карабахский   конфликт
+T42	Date-absolute 814 820	сейчас
+T43	Person-property 966 977	посредников
+T44	Person-property 984 997	руководителей
+T45	Date-absolute 1480 1486	Сейчас
+T46	Date-absolute 1533 1538	затем
+T47	Date-absolute 893 898	потом
+T49	Person 219 235	Сергея   Лаврова
+A11	Male T49
+T50	Person 242 263	Зограба   Мнацаканяна
+A12	Male T50
+T51	Person 270 290	Джейхуна   Байрамова
+A13	Male T51
+T52	Person-forename 219 225	Сергея
+T53	Person-surname 228 235	Лаврова
+T54	Person-forename 242 249	Зограба
+T55	Person-surname 252 263	Мнацаканяна
+T56	Person-forename 270 278	Джейхуна
+T57	Person-surname 281 290	Байрамова
+T58	Person-forename 331 336	Мария
+T59	Person-surname 339 347	Захарова
+T60	GPE 311 322	российского
+A14	Adjective T60
+A15	Female T16
+A16	Male T25
+T61	Person-forename 574 583	Владимира
+T62	Person-surname 586 592	Путина
+T63	Quantity 11 24	трехсторонние
+T64	Quantity 133 146	трехсторонние
+T65	Date-absolute 694 719	Перед   началом   встречи
+A17	Past T65
+A18	Male T31
+T66	Person-forename 749 755	Ильхам
+T67	Person-surname 758 763	Алиев
+T68	GPE 823 842	нагорно-карабахский
+A19	Adjective T68
+T69	GPE 1105 1117	карабахского
+A20	Adjective T69
+T32	Duration 1237 1245	30   лет
+T70	Date-period-absolute 1219 1245	На   протяжении   30   лет
+A21	Past-Pres T70
+T71	Quantity 1335 1350	ни   сантиметра
+A23	Present T45
+T72	GPE 1630 1645	азербайджанские
+A24	Adjective T72
+T73	GPE 1754 1759	Чайлы
+T74	GPE 1766 1781	Йухары   Гюзляк
+T75	GPE 1788 1797	Геразыллы
+T76	GPE 1804 1810	Гышлаг
+T77	GPE 1817 1826	Гараджалы
+T78	GPE 1833 1842	Эфендилер
+T79	GPE 1849 1859	Сулейманлы
+T80	GPE 1866 1869	Сур
+A22	Future T47
+A25	Present T42
+A26	Future T46
+T81	Event 712 719	встречи
+T48	Nationality 786 792	народу
+A4	Citizenship T48

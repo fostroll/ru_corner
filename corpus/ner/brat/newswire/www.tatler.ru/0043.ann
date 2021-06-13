@@ -1,0 +1,87 @@
+T1	Person 0 21	Принц   Карл   Филипп
+T2	Person-property 0 5	Принц
+T3	Person 28 45	принцесса   София
+T4	Person-property 28 37	принцесса
+T5	Other-term 59 72	коронавирусом
+T6	Organization 106 135	королевского   двора   Швеции
+T7	GPE 129 135	Швеции
+T8	Other-term 142 155	коронавирусом
+T9	Person 169 190	принц   Карл   Филипп
+T10	Person-property 169 174	принц
+T11	Quantity 197 215	единственный   сын
+T12	Family 212 215	сын
+T13	Person 218 269	правящего   короля   Швеции   Карла   XVI   Густава
+T14	Person 276 294	королевы   Сильвии
+T15	Person-property 218 245	правящего   короля   Швеции
+T16	GPE 239 245	Швеции
+T17	Person-property 276 284	королевы
+T18	Family 311 315	жена
+T19	Person 305 335	его   жена   принцесса   София
+T20	Person-property 318 327	принцесса
+T21	Organization 398 418	Королевском   дворце
+T22	GPE 425 435	Стокгольме
+T23	Age 474 482	4-летним
+T24	Person 485 506	принцем   Александром
+T25	Person 524 543	принцем   Габриэлем
+T26	Age 513 521	3-летним
+T27	Person-property 485 492	принцем
+T28	Person-property 524 531	принцем
+T29	Person 599 623	принца   Карла   Филиппа
+T30	Person-property 599 605	принца
+T31	Person 630 647	принцессы   Софии
+T32	Person-property 630 639	принцессы
+T33	Person-property 742 772	король   и   королева   Швеции
+A1	Plural T33
+T34	GPE 766 772	Швеции
+T35	Other-term 828 839	коронавирус
+T36	Event 945 954	похоронах
+T37	Person 957 1007	брата   королевы   Сильвии   Вальтера   Зоммерлата
+T38	Family 957 962	брата
+T39	Person 965 983	королевы   Сильвии
+T40	Person-property 965 973	королевы
+A2	Male T1
+A3	Female T3
+T41	Person-forename 8 21	Карл   Филипп
+T42	Person-forename 40 45	София
+A4	Male T9
+T43	Person-forename 177 190	Карл   Филипп
+A5	Male T13
+A6	Female T14
+T45	Person-forename 287 294	Сильвии
+A7	Female T19
+T46	Person-forename 330 335	София
+A8	Male T24
+T47	Person-forename 495 506	Александром
+A9	Male T25
+T48	Person-forename 534 543	Габриэлем
+A10	Male T29
+T49	Person-forename 608 623	Карла   Филиппа
+T50	Person-forename 642 647	Софии
+A11	Female T31
+A12	Female T39
+A13	Male T37
+T51	Person-forename 976 983	Сильвии
+T52	Person-forename 986 1007	Вальтера   Зоммерлата
+T53	Person 197 294	единственный   сын   правящего   короля   Швеции   Карла   XVI   Густава   и   королевы   Сильвии
+A14	Male T53
+T54	Person-property 742 748	король
+T55	Person-property 755 763	королева
+T56	Family 932 937	семьи
+T57	Family 364 371	супруги
+T58	Ordinal 779 788	ближайшее
+T59	Date-absolute 775 796	в   ближайшее   время
+A15	Future T59
+T60	Organization 918 937	королевской   семьи
+T61	Person-property 908 937	членами   королевской   семьи
+T62	Date-period-absolute 341 361	На   время   болезни
+A16	Past-UNK T62
+T63	Event 354 361	болезни
+T64	Other-term 721 727	гриппа
+T65	Ordinal 256 259	XVI
+T66	Person-affix 256 259	XVI
+T67	Person-forename 248 253	Карла
+T44	Person-forename 262 269	Густава
+T68	Duration 846 862	несколько   дней
+T69	Date-absolute 846 870	несколько   дней   назад
+A17	Past T69
+T70	Family 461 467	детьми

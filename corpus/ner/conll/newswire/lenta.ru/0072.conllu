@@ -6,7 +6,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	Нью-Йорке	_	_	_	_	_	_	_	bratT1=GPE
 3	начались	_	_	_	_	_	_	_	_
-4	задержания	_	_	_	_	_	_	_	_
+4	задержания	_	_	_	_	_	_	_	bratT57=Event
 5	протестующих	_	_	_	_	_	_	_	_
 
 # newpar id = 0072-p2
@@ -43,8 +43,8 @@
 # text = Как сообщил корреспондент агентства, толпа митингующих требует учета всех голосов на выборах президента США, оскорбляет стражей порядка и призывает к роспуску полиции.
 1	Как	_	_	_	_	_	_	_	_
 2	сообщил	_	_	_	_	_	_	_	_
-3	корреспондент	_	_	_	_	_	_	_	bratT6=Person-property
-4	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property
+3	корреспондент	_	_	_	_	_	_	_	bratA14=T59:Male|bratT59=Person|bratT6=Person-property
+4	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T59:Male|bratT59=Person|bratT6=Person-property
 5	,	_	_	_	_	_	_	_	_
 6	толпа	_	_	_	_	_	_	_	_
 7	митингующих	_	_	_	_	_	_	_	_
@@ -54,12 +54,12 @@
 11	голосов	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
 13	выборах	_	_	_	_	_	_	_	bratT7=Event
-14	президента	_	_	_	_	_	_	_	bratT7=Event|bratT8=Person-property
-15	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Event|bratT8=Person-property|bratT9=GPE
+14	президента	_	_	_	_	_	_	_	bratT8=Person-property
+15	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person-property|bratT9=GPE
 16	,	_	_	_	_	_	_	_	_
 17	оскорбляет	_	_	_	_	_	_	_	_
-18	стражей	_	_	_	_	_	_	_	_
-19	порядка	_	_	_	_	_	_	_	_
+18	стражей	_	_	_	_	_	_	_	bratT63=Person-property
+19	порядка	_	_	_	_	_	_	_	bratT63=Person-property
 20	и	_	_	_	_	_	_	_	_
 21	призывает	_	_	_	_	_	_	_	_
 22	к	_	_	_	_	_	_	_	_
@@ -136,11 +136,11 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	противники	_	_	_	_	_	_	_	_
-5	действующего	_	_	_	_	_	_	_	bratA7=T19:Male|bratT18=Person-property|bratT19=Person
-6	президента	_	_	_	_	_	_	_	bratA7=T19:Male|bratT18=Person-property|bratT19=Person
-7	Дональда	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT39=Person-forename
-8	Трампа	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT45=Person-surname
+4	противники	_	_	_	_	_	_	_	bratT64=Person
+5	действующего	_	_	_	_	_	_	_	bratA7=T19:Male|bratT18=Person-property|bratT19=Person|bratT64=Person
+6	президента	_	_	_	_	_	_	_	bratA7=T19:Male|bratT18=Person-property|bratT19=Person|bratT64=Person
+7	Дональда	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT39=Person-forename|bratT64=Person
+8	Трампа	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT45=Person-surname|bratT64=Person
 9	с	_	_	_	_	_	_	_	_
 10	криками	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
@@ -168,21 +168,21 @@
 1	В	_	_	_	_	_	_	_	_
 2	США	_	_	_	_	_	_	_	bratT22=GPE
 3	продолжается	_	_	_	_	_	_	_	_
-4	подсчет	_	_	_	_	_	_	_	_
-5	голосов	_	_	_	_	_	_	_	_
+4	подсчет	_	_	_	_	_	_	_	bratT58=Event
+5	голосов	_	_	_	_	_	_	_	bratT58=Event
 6	за	_	_	_	_	_	_	_	_
-7	кандидатов	_	_	_	_	_	_	_	bratT23=Person-property
-8	на	_	_	_	_	_	_	_	bratT23=Person-property
-9	пост	_	_	_	_	_	_	_	bratT23=Person-property
-10	президента	_	_	_	_	_	_	_	bratT23=Person-property
-11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property
+7	кандидатов	_	_	_	_	_	_	_	bratT23=Person-property|bratT60=Person
+8	на	_	_	_	_	_	_	_	bratT23=Person-property|bratT60=Person
+9	пост	_	_	_	_	_	_	_	bratT23=Person-property|bratT60=Person
+10	президента	_	_	_	_	_	_	_	bratT23=Person-property|bratT60=Person
+11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property|bratT60=Person
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0072-p5-s2
 # text = За высший пост борются действующий глава государства, республиканец Дональд Трамп и демократ Джо Байден.
 1	За	_	_	_	_	_	_	_	_
-2	высший	_	_	_	_	_	_	_	_
-3	пост	_	_	_	_	_	_	_	_
+2	высший	_	_	_	_	_	_	_	bratT65=Person-property
+3	пост	_	_	_	_	_	_	_	bratT65=Person-property
 4	борются	_	_	_	_	_	_	_	_
 5	действующий	_	_	_	_	_	_	_	bratA8=T26:Male|bratT24=Person-property|bratT26=Person
 6	глава	_	_	_	_	_	_	_	bratA8=T26:Male|bratT24=Person-property|bratT26=Person
@@ -204,9 +204,9 @@
 3	штатах	_	_	_	_	_	_	_	_
 4	разница	_	_	_	_	_	_	_	_
 5	между	_	_	_	_	_	_	_	_
-6	претендентами	_	_	_	_	_	_	_	_
-7	на	_	_	_	_	_	_	_	_
-8	пост	_	_	_	_	_	_	_	_
+6	претендентами	_	_	_	_	_	_	_	bratT31=Person-property
+7	на	_	_	_	_	_	_	_	bratT31=Person-property
+8	пост	_	_	_	_	_	_	_	bratT31=Person-property
 9	президента	_	_	_	_	_	_	_	bratT31=Person-property
 10	составляет	_	_	_	_	_	_	_	_
 11	десятые	_	_	_	_	_	_	_	bratT32=Percent
@@ -221,7 +221,7 @@
 3	Байдена	_	_	_	_	_	_	_	bratA10=T29:Male|bratT29=Person|bratT52=Person-surname
 4	264	_	_	_	_	_	_	_	bratT33=Quantity
 5	голоса	_	_	_	_	_	_	_	bratT33=Quantity
-6	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No
+6	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Person|bratT62=Person-property
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_

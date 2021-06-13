@@ -1,0 +1,262 @@
+# newdoc id = 0087
+# newpar id = 0087-p1
+# par_text = В Хакасии приговорили к восьми годам колонии экс-полицейского, снявшего видео о «крышевании» наркотрафика силовиками
+# sent_id = 0087-p1-s1
+# text = В Хакасии приговорили к восьми годам колонии экс-полицейского, снявшего видео о ``крышевании'' наркотрафика силовиками
+1	В	_	_	_	_	_	_	_	_
+2	Хакасии	_	_	_	_	_	_	_	bratT1=GPE
+3	приговорили	_	_	_	_	_	_	_	_
+4	к	_	_	_	_	_	_	_	bratA5=T2:Past-UNK|bratT2=Date-period-relative
+5	восьми	_	_	_	_	_	_	_	bratA5=T2:Past-UNK|bratT2=Date-period-relative|bratT25=Duration
+6	годам	_	_	_	_	_	_	_	bratA5=T2:Past-UNK|bratT2=Date-period-relative|bratT25=Duration
+7	колонии	_	_	_	_	_	_	_	_
+8	экс-полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property
+9	,	_	_	_	_	_	_	_	_
+10	снявшего	_	_	_	_	_	_	_	_
+11	видео	_	_	_	_	_	_	_	_
+12	о	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	SpaceAfter=No
+14	крышевании	_	_	_	_	_	_	_	SpaceAfter=No
+15	''	_	_	_	_	_	_	_	_
+16	наркотрафика	_	_	_	_	_	_	_	_
+17	силовиками	_	_	_	_	_	_	_	bratT4=Person-property
+
+# newpar id = 0087-p2
+# par_text = Верховный суд Хакасии приговорил к восьми годам колонии общего режима бывшего начальника отдела наркоконтроля республиканского управления МВД Юрия Зайцева. Об этом «Тайге.инфо» сообщила его жена Елена.
+# sent_id = 0087-p2-s1
+# text = Верховный суд Хакасии приговорил к восьми годам колонии общего режима бывшего начальника отдела наркоконтроля республиканского управления МВД Юрия Зайцева.
+1	Верховный	_	_	_	_	_	_	_	bratT5=Organization
+2	суд	_	_	_	_	_	_	_	bratT5=Organization
+3	Хакасии	_	_	_	_	_	_	_	bratT5=Organization|bratT6=GPE
+4	приговорил	_	_	_	_	_	_	_	_
+5	к	_	_	_	_	_	_	_	bratA17=T7:Past-UNK|bratT7=Date-period-relative
+6	восьми	_	_	_	_	_	_	_	bratA17=T7:Past-UNK|bratT64=Duration|bratT7=Date-period-relative
+7	годам	_	_	_	_	_	_	_	bratA17=T7:Past-UNK|bratT64=Duration|bratT7=Date-period-relative
+8	колонии	_	_	_	_	_	_	_	_
+9	общего	_	_	_	_	_	_	_	_
+10	режима	_	_	_	_	_	_	_	_
+11	бывшего	_	_	_	_	_	_	_	bratA1=T8:Male|bratT8=Person|bratT9=Person-property
+12	начальника	_	_	_	_	_	_	_	bratA1=T8:Male|bratT8=Person|bratT9=Person-property
+13	отдела	_	_	_	_	_	_	_	bratA1=T8:Male|bratA2=T10:Department|bratT10=Organization|bratT8=Person|bratT9=Person-property
+14	наркоконтроля	_	_	_	_	_	_	_	bratA1=T8:Male|bratA2=T10:Department|bratT10=Organization|bratT8=Person|bratT9=Person-property
+15	республиканского	_	_	_	_	_	_	_	bratA1=T8:Male|bratA2=T10:Department|bratA26=T73:Adjective|bratT10=Organization|bratT11=Organization|bratT73=GPE|bratT8=Person|bratT9=Person-property
+16	управления	_	_	_	_	_	_	_	bratA1=T8:Male|bratA2=T10:Department|bratT10=Organization|bratT11=Organization|bratT8=Person|bratT9=Person-property
+17	МВД	_	_	_	_	_	_	_	bratA1=T8:Male|bratA2=T10:Department|bratT10=Organization|bratT11=Organization|bratT65=Organization|bratT8=Person|bratT9=Person-property
+18	Юрия	_	_	_	_	_	_	_	bratA1=T8:Male|bratT12=Person-forename|bratT8=Person
+19	Зайцева	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Male|bratT13=Person-surname|bratT8=Person
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p2-s2
+# text = Об этом ``Тайге.инфо'' сообщила его жена Елена.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
+4-6	Тайге.инфо	_	_	_	_	_	_	_	SpaceAfter=No
+4	Тайге	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
+5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
+6	инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
+7	''	_	_	_	_	_	_	_	bratA16=T14:Media|bratT14=Organization
+8	сообщила	_	_	_	_	_	_	_	_
+9	его	_	_	_	_	_	_	_	bratA3=T16:Female|bratT16=Person
+10	жена	_	_	_	_	_	_	_	bratA3=T16:Female|bratT15=Family|bratT16=Person
+11	Елена	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Female|bratT16=Person|bratT17=Person-forename
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p3
+# par_text = 37-летнего Зайцева признали виновным в получении взятки и в разглашении гостайны (часть 3 статья 290, часть 1 статья 283 УК). По версии следствия, в декабре 2018 года он за 52 тысячи рублей в криптовалюте рассказал администратору интернет-магазина Killer Diller по сбыту наркотиков о планируемых задержаниях.
+# sent_id = 0087-p3-s1
+# text = 37-летнего Зайцева признали виновным в получении взятки и в разглашении гостайны (часть 3 статья 290, часть 1 статья 283 УК).
+1	37-летнего	_	_	_	_	_	_	_	bratT18=Age
+2	Зайцева	_	_	_	_	_	_	_	bratA4=T19:Male|bratT19=Person|bratT20=Person-surname
+3	признали	_	_	_	_	_	_	_	_
+4	виновным	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	получении	_	_	_	_	_	_	_	_
+7	взятки	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	разглашении	_	_	_	_	_	_	_	_
+11	гостайны	_	_	_	_	_	_	_	_
+12	(	_	_	_	_	_	_	_	SpaceAfter=No
+13	часть	_	_	_	_	_	_	_	bratT21=Law
+14	3	_	_	_	_	_	_	_	bratT21=Law|bratT66=Ordinal
+15	статья	_	_	_	_	_	_	_	bratT21=Law
+16	290	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Law|bratT67=Ordinal
+17	,	_	_	_	_	_	_	_	bratT21=Law
+18	часть	_	_	_	_	_	_	_	bratT21=Law
+19	1	_	_	_	_	_	_	_	bratT21=Law|bratT69=Ordinal
+20	статья	_	_	_	_	_	_	_	bratT21=Law
+21	283	_	_	_	_	_	_	_	bratT21=Law|bratT70=Ordinal
+22	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Law|bratT72=Law
+23	)	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p3-s2
+# text = По версии следствия, в декабре 2018 года он за 52 тысячи рублей в криптовалюте рассказал администратору интернет-магазина Killer Diller по сбыту наркотиков о планируемых задержаниях.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
+6	декабре	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
+7	2018	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
+8	года	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
+9	он	_	_	_	_	_	_	_	_
+10	за	_	_	_	_	_	_	_	_
+11	52	_	_	_	_	_	_	_	bratT23=Money
+12	тысячи	_	_	_	_	_	_	_	bratT23=Money
+13	рублей	_	_	_	_	_	_	_	bratT23=Money
+14	в	_	_	_	_	_	_	_	_
+15	криптовалюте	_	_	_	_	_	_	_	_
+16	рассказал	_	_	_	_	_	_	_	_
+17	администратору	_	_	_	_	_	_	_	bratT24=Person-property
+18	интернет-магазина	_	_	_	_	_	_	_	bratT24=Person-property|bratT26=Service
+19	Killer	_	_	_	_	_	_	_	bratT24=Person-property|bratT26=Service
+20	Diller	_	_	_	_	_	_	_	bratT24=Person-property|bratT26=Service
+21	по	_	_	_	_	_	_	_	_
+22	сбыту	_	_	_	_	_	_	_	_
+23	наркотиков	_	_	_	_	_	_	_	_
+24	о	_	_	_	_	_	_	_	_
+25	планируемых	_	_	_	_	_	_	_	_
+26	задержаниях	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p4
+# par_text = Дело возбудили в марте 2019 года — через месяц после увольнения Зайцева из органов внутренних дел по результатами за «проступок, порочащий честь сотрудника органов внутренних дел». Елена Зайцева рассказывала, что до этого ее муж жаловался руководству республиканского МВД на участие руководства хакасского наркоконтроля в незаконной наркоторговле.
+# sent_id = 0087-p4-s1
+# text = Дело возбудили в марте 2019 года - через месяц после увольнения Зайцева из органов внутренних дел по результатами за ``проступок, порочащий честь сотрудника органов внутренних дел''.
+1	Дело	_	_	_	_	_	_	_	_
+2	возбудили	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+4	марте	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+5	2019	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+6	года	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+7	-	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+8	через	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+9	месяц	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+10	после	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+11	увольнения	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+12	Зайцева	_	_	_	_	_	_	_	bratA7=T30:Male|bratT30=Person|bratT31=Person-surname
+13	из	_	_	_	_	_	_	_	_
+14	органов	_	_	_	_	_	_	_	bratT28=Organization
+15	внутренних	_	_	_	_	_	_	_	bratT28=Organization
+16	дел	_	_	_	_	_	_	_	bratT28=Organization
+17	по	_	_	_	_	_	_	_	_
+18	результатами	_	_	_	_	_	_	_	_
+19	за	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No
+21	проступок	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	порочащий	_	_	_	_	_	_	_	_
+24	честь	_	_	_	_	_	_	_	_
+25	сотрудника	_	_	_	_	_	_	_	bratT33=Person-property
+26	органов	_	_	_	_	_	_	_	bratT33=Person-property|bratT58=Organization
+27	внутренних	_	_	_	_	_	_	_	bratT33=Person-property|bratT58=Organization
+28	дел	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property|bratT58=Organization
+29	''	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p4-s2
+# text = Елена Зайцева рассказывала, что до этого ее муж жаловался руководству республиканского МВД на участие руководства хакасского наркоконтроля в незаконной наркоторговле.
+1	Елена	_	_	_	_	_	_	_	bratA8=T35:Female|bratT35=Person|bratT36=Person-forename
+2	Зайцева	_	_	_	_	_	_	_	bratA8=T35:Female|bratT35=Person|bratT37=Person-surname
+3	рассказывала	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	до	_	_	_	_	_	_	_	bratA23=T45:Past|bratT45=Date-relative
+7	этого	_	_	_	_	_	_	_	bratA23=T45:Past|bratT45=Date-relative
+8	ее	_	_	_	_	_	_	_	bratA20=T29:Male|bratT29=Person
+9	муж	_	_	_	_	_	_	_	bratA20=T29:Male|bratT29=Person|bratT38=Family
+10	жаловался	_	_	_	_	_	_	_	_
+11	руководству	_	_	_	_	_	_	_	bratA24=T39:Department|bratT39=Organization
+12	республиканского	_	_	_	_	_	_	_	bratA19=T71:Adjective|bratA24=T39:Department|bratT39=Organization|bratT40=Organization|bratT71=GPE
+13	МВД	_	_	_	_	_	_	_	bratA24=T39:Department|bratT39=Organization|bratT40=Organization
+14	на	_	_	_	_	_	_	_	_
+15	участие	_	_	_	_	_	_	_	_
+16	руководства	_	_	_	_	_	_	_	bratA25=T41:Department|bratT41=Organization
+17	хакасского	_	_	_	_	_	_	_	bratA25=T41:Department|bratA9=T43:Adjective|bratT41=Organization|bratT42=Organization|bratT43=GPE
+18	наркоконтроля	_	_	_	_	_	_	_	bratA25=T41:Department|bratT41=Organization|bratT42=Organization
+19	в	_	_	_	_	_	_	_	_
+20	незаконной	_	_	_	_	_	_	_	_
+21	наркоторговле	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p5
+# par_text = После задержания в марте 2019 года Зайцева арестовали, однако через полгода перевели под домашний арест. Когда 3 ноября 2019 года его жена опубликовала в ютьюбе его видеообращение к президенту Владимиру Путину о работе наркополицейских, его по ходатайству СК вновь поместили в СИЗО. За публикацию в ютьюбе распечатки переписки с наркодилером из материалов своего дела на Зайцева в октябре завели дело о разглашении гостайны.
+# sent_id = 0087-p5-s1
+# text = После задержания в марте 2019 года Зайцева арестовали, однако через полгода перевели под домашний арест.
+1	После	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
+2	задержания	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
+4	марте	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
+5	2019	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
+6	года	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
+7	Зайцева	_	_	_	_	_	_	_	bratA11=T46:Male|bratT46=Person|bratT47=Person-surname
+8	арестовали	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	однако	_	_	_	_	_	_	_	_
+11	через	_	_	_	_	_	_	_	bratA10=T48:Past|bratT48=Date-relative
+12	полгода	_	_	_	_	_	_	_	bratA10=T48:Past|bratT32=Duration|bratT48=Date-relative
+13	перевели	_	_	_	_	_	_	_	_
+14	под	_	_	_	_	_	_	_	_
+15	домашний	_	_	_	_	_	_	_	bratT68=Event
+16	арест	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Event
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p5-s2
+# text = Когда 3 ноября 2019 года его жена опубликовала в ютьюбе его видеообращение к президенту Владимиру Путину о работе наркополицейских, его по ходатайству СК вновь поместили в СИЗО.
+1	Когда	_	_	_	_	_	_	_	_
+2	3	_	_	_	_	_	_	_	bratA12=T49:Past|bratT49=Date-absolute
+3	ноября	_	_	_	_	_	_	_	bratA12=T49:Past|bratT49=Date-absolute
+4	2019	_	_	_	_	_	_	_	bratA12=T49:Past|bratT49=Date-absolute
+5	года	_	_	_	_	_	_	_	bratA12=T49:Past|bratT49=Date-absolute
+6	его	_	_	_	_	_	_	_	bratA22=T34:Female|bratT34=Person
+7	жена	_	_	_	_	_	_	_	bratA22=T34:Female|bratT34=Person|bratT50=Family
+8	опубликовала	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	ютьюбе	_	_	_	_	_	_	_	bratT51=Service
+11	его	_	_	_	_	_	_	_	_
+12	видеообращение	_	_	_	_	_	_	_	_
+13	к	_	_	_	_	_	_	_	_
+14	президенту	_	_	_	_	_	_	_	bratA13=T52:Male|bratT52=Person|bratT53=Person-property
+15	Владимиру	_	_	_	_	_	_	_	bratA13=T52:Male|bratT52=Person|bratT54=Person-forename
+16	Путину	_	_	_	_	_	_	_	bratA13=T52:Male|bratT52=Person|bratT55=Person-surname
+17	о	_	_	_	_	_	_	_	_
+18	работе	_	_	_	_	_	_	_	_
+19	наркополицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Person-property
+20	,	_	_	_	_	_	_	_	_
+21	его	_	_	_	_	_	_	_	_
+22	по	_	_	_	_	_	_	_	_
+23	ходатайству	_	_	_	_	_	_	_	_
+24	СК	_	_	_	_	_	_	_	bratT57=Organization
+25	вновь	_	_	_	_	_	_	_	_
+26	поместили	_	_	_	_	_	_	_	_
+27	в	_	_	_	_	_	_	_	_
+28	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p5-s3
+# text = За публикацию в ютьюбе распечатки переписки с наркодилером из материалов своего дела на Зайцева в октябре завели дело о разглашении гостайны.
+1	За	_	_	_	_	_	_	_	_
+2	публикацию	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	ютьюбе	_	_	_	_	_	_	_	bratT59=Service
+5	распечатки	_	_	_	_	_	_	_	_
+6	переписки	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	_
+8	наркодилером	_	_	_	_	_	_	_	bratT60=Person-property
+9	из	_	_	_	_	_	_	_	_
+10	материалов	_	_	_	_	_	_	_	_
+11	своего	_	_	_	_	_	_	_	_
+12	дела	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	Зайцева	_	_	_	_	_	_	_	bratA14=T61:Male|bratT61=Person|bratT62=Person-surname
+15	в	_	_	_	_	_	_	_	bratA15=T63:Past|bratT63=Date-absolute
+16	октябре	_	_	_	_	_	_	_	bratA15=T63:Past|bratT63=Date-absolute
+17	завели	_	_	_	_	_	_	_	_
+18	дело	_	_	_	_	_	_	_	_
+19	о	_	_	_	_	_	_	_	_
+20	разглашении	_	_	_	_	_	_	_	_
+21	гостайны	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
+

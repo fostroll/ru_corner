@@ -3,8 +3,8 @@
 # par_text = Папа римский впервые выступил за легализацию однополых союзов
 # sent_id = 0103-p1-s1
 # text = Папа римский впервые выступил за легализацию однополых союзов
-1	Папа	_	_	_	_	_	_	_	bratT1=Person-property
-2	римский	_	_	_	_	_	_	_	bratA6=T31:Adjective|bratT1=Person-property|bratT31=GPE
+1	Папа	_	_	_	_	_	_	_	bratA15=T46:Male|bratT1=Person-property|bratT46=Person
+2	римский	_	_	_	_	_	_	_	bratA15=T46:Male|bratA6=T31:Adjective|bratT1=Person-property|bratT31=GPE|bratT46=Person
 3	впервые	_	_	_	_	_	_	_	bratT2=Ordinal
 4	выступил	_	_	_	_	_	_	_	_
 5	за	_	_	_	_	_	_	_	_
@@ -32,6 +32,7 @@
 14	точки	_	_	_	_	_	_	_	_
 15	зрения	_	_	_	_	_	_	_	SpaceAfter=No
 16	,	_	_	_	_	_	_	_	_
+17-19	ЛГБТ-представители	_	_	_	_	_	_	_	_
 17	ЛГБТ	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-group
 18	-	_	_	_	_	_	_	_	SpaceAfter=No
 19	представители	_	_	_	_	_	_	_	_
@@ -72,7 +73,7 @@
 # text = Они дети Божьи и имеют право на семью.
 1	Они	_	_	_	_	_	_	_	_
 2	дети	_	_	_	_	_	_	_	bratT10=Family
-3	Божьи	_	_	_	_	_	_	_	bratA11=T39:Fiction|bratT39=Person
+3	Божьи	_	_	_	_	_	_	_	bratA11=T39:Fiction|bratA18=T39:Male|bratT39=Person
 4	и	_	_	_	_	_	_	_	_
 5	имеют	_	_	_	_	_	_	_	_
 6	право	_	_	_	_	_	_	_	_
@@ -100,6 +101,7 @@
 16	рассуждая	_	_	_	_	_	_	_	_
 17	о	_	_	_	_	_	_	_	_
 18	правах	_	_	_	_	_	_	_	_
+19-21	ЛГБТ-сообщества	_	_	_	_	_	_	_	SpaceAfter=No
 19	ЛГБТ	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-group
 20	-	_	_	_	_	_	_	_	SpaceAfter=No
 21	сообщества	_	_	_	_	_	_	_	SpaceAfter=No
@@ -127,7 +129,7 @@
 1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	папа	_	_	_	_	_	_	_	bratT14=Person-property
+4	папа	_	_	_	_	_	_	_	bratA12=T43:Male|bratT14=Person-property|bratT43=Person
 5	стал	_	_	_	_	_	_	_	_
 6	первым	_	_	_	_	_	_	_	bratT15=Ordinal
 7	понтификом	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property
@@ -158,12 +160,13 @@
 # sent_id = 0103-p5-s1
 # text = Ранее папа римский провел встречу с родителями ЛГБТ-подростков, где рассказал, что бог любит всех своих детей.
 1	Ранее	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-relative
-2	папа	_	_	_	_	_	_	_	bratT18=Person-property
-3	римский	_	_	_	_	_	_	_	bratA9=T33:Adjective|bratT18=Person-property|bratT33=GPE
+2	папа	_	_	_	_	_	_	_	bratA13=T44:Male|bratT18=Person-property|bratT44=Person
+3	римский	_	_	_	_	_	_	_	bratA13=T44:Male|bratA9=T33:Adjective|bratT18=Person-property|bratT33=GPE|bratT44=Person
 4	провел	_	_	_	_	_	_	_	_
-5	встречу	_	_	_	_	_	_	_	_
+5	встречу	_	_	_	_	_	_	_	bratT41=Event
 6	с	_	_	_	_	_	_	_	_
 7	родителями	_	_	_	_	_	_	_	bratT19=Family
+8-10	ЛГБТ-подростков	_	_	_	_	_	_	_	SpaceAfter=No
 8	ЛГБТ	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group
 9	-	_	_	_	_	_	_	_	SpaceAfter=No
 10	подростков	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Age
@@ -172,7 +175,7 @@
 13	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	что	_	_	_	_	_	_	_	_
-16	бог	_	_	_	_	_	_	_	bratA3=T22:Fiction|bratT22=Person
+16	бог	_	_	_	_	_	_	_	bratA16=T22:Male|bratA3=T22:Fiction|bratT22=Person
 17	любит	_	_	_	_	_	_	_	_
 18	всех	_	_	_	_	_	_	_	_
 19	своих	_	_	_	_	_	_	_	_
@@ -183,15 +186,16 @@
 # text = При этом понтифик не говорил, что бог любит ``именно ЛГБТ-детей'', однако из его слов было понятно, что он не делает исключений и для подростков-гомосексуалов.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	понтифик	_	_	_	_	_	_	_	bratT24=Person-property
+3	понтифик	_	_	_	_	_	_	_	bratA14=T45:Male|bratT24=Person-property|bratT45=Person
 4	не	_	_	_	_	_	_	_	_
 5	говорил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	бог	_	_	_	_	_	_	_	bratA4=T25:Fiction|bratT25=Person
+8	бог	_	_	_	_	_	_	_	bratA17=T25:Male|bratA4=T25:Fiction|bratT25=Person
 9	любит	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
 11	именно	_	_	_	_	_	_	_	_
+12-14	ЛГБТ-детей	_	_	_	_	_	_	_	SpaceAfter=No
 12	ЛГБТ	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-group
 13	-	_	_	_	_	_	_	_	SpaceAfter=No
 14	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Age
@@ -211,6 +215,7 @@
 28	исключений	_	_	_	_	_	_	_	_
 29	и	_	_	_	_	_	_	_	_
 30	для	_	_	_	_	_	_	_	_
+31-33	подростков-гомосексуалов	_	_	_	_	_	_	_	SpaceAfter=No
 31	подростков	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Age
 32	-	_	_	_	_	_	_	_	SpaceAfter=No
 33	гомосексуалов	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-group

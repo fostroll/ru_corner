@@ -101,7 +101,7 @@
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0055-p3-s2
-# text = И мы в обход Михаила Михайловича назвались ``Студия под руководством М.М. Жванецкого'', - рассказал актер в эфире радио ``Комсомольская правда''.
+# text = И мы в обход Михаила Михайловича назвались ``Студия под руководством М. М. Жванецкого'', - рассказал актер в эфире радио ``Комсомольская правда''.
 1	И	_	_	_	_	_	_	_	_
 2	мы	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
@@ -113,21 +113,22 @@
 9	Студия	_	_	_	_	_	_	_	bratT9=Organization
 10	под	_	_	_	_	_	_	_	bratT9=Organization
 11	руководством	_	_	_	_	_	_	_	bratT9=Organization
-12	М.М.	_	_	_	_	_	_	_	bratT9=Organization
-13	Жванецкого	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
-14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
-15	,	_	_	_	_	_	_	_	_
-16	-	_	_	_	_	_	_	_	_
-17	рассказал	_	_	_	_	_	_	_	_
-18	актер	_	_	_	_	_	_	_	bratT27=Person-property
-19	в	_	_	_	_	_	_	_	_
-20	эфире	_	_	_	_	_	_	_	_
-21	радио	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
-22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
-23	Комсомольская	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
-24	правда	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
-25	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
-26	.	_	_	_	_	_	_	_	_
+12	М.	_	_	_	_	_	_	_	bratA13=T7:Male|bratT54=Person-initial|bratT7=Person|bratT9=Organization
+13	М.	_	_	_	_	_	_	_	bratA13=T7:Male|bratT56=Person-initial|bratT7=Person|bratT9=Organization
+14	Жванецкого	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T7:Male|bratT55=Person-surname|bratT7=Person|bratT9=Organization
+15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
+16	,	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_
+18	рассказал	_	_	_	_	_	_	_	_
+19	актер	_	_	_	_	_	_	_	bratT27=Person-property
+20	в	_	_	_	_	_	_	_	_
+21	эфире	_	_	_	_	_	_	_	_
+22	радио	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
+23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
+24	Комсомольская	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
+25	правда	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
+26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
+27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0055-p4
 # par_text = Но на этом его история не закончилась. Однажды под таким псевдонимом артисты вышли на сцену, и только потом заметили, что в зале очень много известных людей, а среди них и сам Жванецкий.
@@ -280,7 +281,7 @@
 8	на	_	_	_	_	_	_	_	bratT22=Age
 9	67-ом	_	_	_	_	_	_	_	bratT22=Age|bratT35=Ordinal
 10	году	_	_	_	_	_	_	_	bratT22=Age
-11	жизни	_	_	_	_	_	_	_	SpaceAfter=No
+11	жизни	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Age
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0055-p8-s2

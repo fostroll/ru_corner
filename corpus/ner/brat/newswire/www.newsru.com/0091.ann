@@ -1,0 +1,104 @@
+T1	GPE 0 8	Молдавию
+T2	Ordinal 21 27	второй
+T3	Event 21 59	второй   тур   президентских   выборов
+T4	Event 36 59	президентских   выборов
+T5	Ordinal 70 76	первом
+T6	Person 119 169	Бывший   премьер-министр   Молдавии   Майя   Санду
+T7	Person-property 119 154	Бывший   премьер-министр   Молдавии
+T8	GPE 146 154	Молдавии
+T9	Percent 182 189	35,96 %
+T10	Percent 253 257	99 %
+T11	Service 291 296	сайте
+A1	Media T11
+T12	Organization 299 346	Центральной   избирательной   комиссии   страны
+T13	Person 351 390	Действующий   президент   Игорь   Додон
+T14	Percent 402 409	32,74 %
+T15	Person-property 351 374	Действующий   президент
+T16	Quantity 436 442	тройку
+T17	Person 445 523	лидер   ``   Нашей   Партии   ''   ,   мэр   города   Бельцы   Ренато   Усатый
+T18	Organization 453 477	``   Нашей   Партии   ''
+T19	Person-property 484 505	мэр   города   Бельцы
+T20	GPE 490 505	города   Бельцы
+T21	Percent 530 536	16,9 %
+T22	Person 543 600	кандидат   от   партии   ``   Шор   ''   Виолета   Иванов
+T23	Person-property 543 581	кандидат   от   партии   ``   Шор   ''
+T24	Political-group 559 581	партии   ``   Шор   ''
+T25	Percent 613 619	6,52 %
+T26	Percent 659 670	менее   5 %
+T27	Person 686 691	Додон
+T28	Person-property 636 645	кандидаты
+T29	Ordinal 775 781	второй
+T30	Ordinal 896 902	первом
+T31	Person-property 912 938	кандидату   в   президенты
+T32	Person-property 928 938	президенты
+T33	Percent 964 968	50 %
+T34	Quantity 971 990	плюс   один   голос
+T35	Ordinal 1054 1060	второй
+T36	Organization 1114 1118	ТАСС
+A2	Media T36
+T37	GPE 1148 1156	Молдавии
+T38	Event 1163 1201	второй   тур   президентских   выборов
+T39	Event 1178 1201	президентских   выборов
+T40	Date-absolute 1231 1247	на   15   ноября
+T41	Person 1253 1258	Додон
+T42	Person-property 1272 1300	пост   президента   Молдавии
+T43	Date-period-absolute 1303 1318	с   2016   года
+T44	GPE 1292 1300	Молдавии
+T45	Person-property 1347 1394	министром   экономики   и   торговли   Молдавии
+T46	Person-property 1413 1436	первым   вице-премьером
+T47	Ordinal 1413 1419	первым
+T48	GPE 1386 1394	Молдавии
+T49	Person-surname 1441 1446	Санду
+T50	Person-property 1460 1489	пост   министра   просвещения
+T51	Date-period-absolute 1492 1522	с   2012-го   по   2015   годы
+T52	Date-period-absolute 1529 1565	с   июня   по   ноябрь   2019   года
+T53	Person-property 1579 1607	премьер-министром   Молдавии
+T54	GPE 1599 1607	Молдавии
+T55	GPE 1678 1686	Румынией
+T56	GPE 1693 1696	США
+T57	GPE 1703 1711	Украиной
+T58	Organization 1718 1738	Европейским   союзом
+T59	Person 1759 1764	Додон
+T60	GPE 1842 1849	Россией
+T61	Person-property 819 829	кандидатов
+T62	Event 207 230	президентских   выборах
+T63	Date-absolute 233 250	после   обработки
+T64	Person-property 445 477	лидер   ``   Нашей   Партии   ''
+T65	Event 775 787	второй   тур
+T66	Event 896 909	первом   туре
+T67	Event 1054 1066	второй   тур
+T68	Ordinal 1163 1169	второй
+T69	Date-relative 1323 1333	До   этого
+T70	Date-relative 1401 1406	затем
+T71	Political-group 90 117	сторонница   евроинтеграции
+T72	Person-forename 157 161	Майя
+T73	Person-surname 164 169	Санду
+A3	Female T6
+A4	Past T63
+T74	Person-forename 377 382	Игорь
+T75	Person-surname 385 390	Додон
+A5	Male T13
+T76	Person-forename 508 514	Ренато
+T77	Person-surname 517 523	Усатый
+T78	Person-forename 584 591	Виолета
+T79	Person-surname 594 600	Иванов
+A6	Male T17
+A7	Female T22
+A8	Male T27
+T80	Person-surname 686 691	Додон
+A9	Future T40
+A10	Male T41
+T81	Person-surname 1253 1258	Додон
+A11	Past-Pres T43
+A12	Past T69
+T82	Person 1441 1446	Санду
+A13	Female T82
+A14	Past T51
+A15	Past T52
+T83	Person-surname 1759 1764	Додон
+A16	Male T59
+T84	GPE 1718 1729	Европейским
+A17	Adjective T84
+A18	Past T70
+T85	Event 241 267	обработки   99 %   голосов
+T86	GPE 340 346	страны

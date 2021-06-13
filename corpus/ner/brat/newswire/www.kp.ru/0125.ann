@@ -1,34 +1,34 @@
 T1	Percent 83 93	на   треть
-T2	Percent 147 153	66   %
-T3	Nationality 156 163	россиян
+T2	Percent 147 151	66 %
+T3	Nationality 154 161	россиян
 A1	Citizenship T3
-T4	Date-absolute 259 274	в   2018   году
-T5	Percent 302 308	54   %
-T6	Organization 354 374	сервиса   HeadHunter
-T7	Percent 469 475	72   %
-T8	Percent 647 653	21   %
-T9	Date-absolute 675 690	в   2018   году
-T10	Percent 721 727	32   %
-T11	Percent 780 785	5   %
-T12	Percent 815 820	9   %
-T13	Date-absolute 904 919	в   2020   году
-T14	Person 1135 1151	Мария   Игнатова
-T15	Organization 1154 1183	``   Российской   газете   ''
+T4	Date-absolute 257 272	в   2018   году
+T5	Percent 300 304	54 %
+T6	Organization 350 370	сервиса   HeadHunter
+T7	Percent 465 469	72 %
+T8	Percent 641 645	21 %
+T9	Date-absolute 667 682	в   2018   году
+T10	Percent 713 717	32 %
+T11	Percent 770 773	5 %
+T12	Percent 803 806	9 %
+T13	Date-absolute 890 905	в   2020   году
+T14	Person 1121 1137	Мария   Игнатова
+T15	Organization 1140 1169	``   Российской   газете   ''
 A2	Media T15
-T16	Person-property 1189 1196	Эксперт
-T18	Percent 1529 1535	90   %
-T19	Percent 1573 1579	89   %
-T17	Person-property 788 808	наемных   работников
-T20	Date-period-absolute 181 202	за   последние   годы
-T21	Event 933 941	пандемия
-T22	Ordinal 186 195	последние
+T16	Person-property 1175 1182	Эксперт
+T18	Percent 1515 1519	90 %
+T19	Percent 1557 1561	89 %
+T17	Person-property 776 796	наемных   работников
+T20	Date-period-absolute 179 200	за   последние   годы
+T21	Event 919 927	пандемия
+T22	Ordinal 184 193	последние
 A3	Past T4
 A4	Past T9
 A5	Past T13
 A6	Past-Pres T20
-T23	Duration 198 202	годы
-T24	Person-forename 1135 1140	Мария
-T25	Person-surname 1143 1151	Игнатова
+T23	Duration 196 200	годы
+T24	Person-forename 1121 1126	Мария
+T25	Person-surname 1129 1137	Игнатова
 A7	Female T14
-T26	GPE 1159 1169	Российской
+T26	GPE 1145 1155	Российской
 A8	Adjective T26

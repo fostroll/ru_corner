@@ -8,23 +8,23 @@ T7	Person 140 225	бойца   Абсолютного   бойцовского  
 T8	Family 133 137	отце
 T9	Person 133 255	отце   бойца   Абсолютного   бойцовского   чемпионата   (   UFC   )   Хабиба   Нурмагомедова   Абдулманапе   Нурмагомедове
 T10	Facility 107 112	аллею
-T11	Organization 273 280	Sport24
+T11	Organization 273 281	Sport 24
 A1	Media T11
-T12	Product 316 348	акции   ``   Сохраним   лес   ''
-T13	Organization 303 348	оргкомитет   акции   ``   Сохраним   лес   ''
-T14	Quantity 412 422	58   сосен
-T15	Person 524 552	Нурмагомедова   -   старшего
-T16	Organization 814 862	комитета   по   лесному   хозяйству   республики
-T17	Person-property 792 862	врио   председателя   комитета   по   лесному   хозяйству   республики
-T18	Person 792 885	врио   председателя   комитета   по   лесному   хозяйству   республики   Вагаб   Абдулхамидов
-T19	Person 906 931	Абдулманап   Нурмагомедов
-T20	Date-absolute 941 963	3   июля   2020   года
-T21	Person 977 982	Хабиб
-T22	GPE 1005 1014	Дагестана
+T12	Product 317 349	акции   ``   Сохраним   лес   ''
+T13	Organization 304 349	оргкомитет   акции   ``   Сохраним   лес   ''
+T14	Quantity 413 423	58   сосен
+T15	Person 525 549	Нурмагомедова - старшего
+T16	Organization 811 859	комитета   по   лесному   хозяйству   республики
+T17	Person-property 789 859	врио   председателя   комитета   по   лесному   хозяйству   республики
+T18	Person 789 882	врио   председателя   комитета   по   лесному   хозяйству   республики   Вагаб   Абдулхамидов
+T19	Person 903 928	Абдулманап   Нурмагомедов
+T20	Date-absolute 938 960	3   июля   2020   года
+T21	Person 974 979	Хабиб
+T22	GPE 1002 1011	Дагестана
 T24	Organization 193 196	UFC
 A3	Project T12
-T23	Ordinal 653 664	Последующее
-T26	Date-relative 969 974	Ранее
+T23	Ordinal 650 661	Последующее
+T26	Date-relative 966 971	Ранее
 A2	Past T20
 A4	Past T26
 T25	Person-forename 52 63	Абдулманапе
@@ -36,14 +36,19 @@ T30	Person-forename 228 239	Абдулманапе
 T31	Person-surname 242 255	Нурмагомедове
 A6	Male T9
 A7	Male T7
-T32	Person-surname 524 537	Нурмагомедова
-T33	Person-affix 544 552	старшего
+T32	Person-surname 525 538	Нурмагомедова
+T33	Person-affix 541 549	старшего
 A8	Male T15
-T34	Person-forename 865 870	Вагаб
-T35	Person-surname 873 885	Абдулхамидов
+T34	Person-forename 862 867	Вагаб
+T35	Person-surname 870 882	Абдулхамидов
 A9	Male T18
-T36	Person-forename 906 916	Абдулманап
-T37	Person-surname 919 931	Нурмагомедов
+T36	Person-forename 903 913	Абдулманап
+T37	Person-surname 916 928	Нурмагомедов
 A10	Male T19
-T38	Person-forename 977 982	Хабиб
+T38	Person-forename 974 979	Хабиб
 A11	Male T21
+T39	Time-period 279 281	24
+T41	Duration 279 281	24
+T40	Nationality 992 1011	жителей   Дагестана
+A12	Resident T40
+T42	GPE 849 859	республики

@@ -1,0 +1,70 @@
+T1	Person-forename 7 11	Кейт
+T2	Person-surname 14 22	Миддлтон
+T3	Person 7 22	Кейт   Миддлтон
+A1	Female T3
+T4	Family 0 4	Дядя
+T5	Person 0 22	Дядя   Кейт   Миддлтон
+A2	Male T5
+T6	Person-forename 45 50	Гарри
+T7	Person-property 36 42	принца
+T8	Person 36 50	принца   Гарри
+A3	Male T8
+T9	Person-forename 57 62	Меган
+T10	Person-surname 65 70	Маркл
+T11	Person 57 70	Меган   Маркл
+A4	Female T11
+T12	Person-forename 131 136	Меган
+T13	Person-surname 139 144	Маркл
+T14	Person 131 144	Меган   Маркл
+A5	Female T14
+T15	Family 116 128	родственники
+T16	Person-forename 294 298	Кейт
+T17	Person-surname 301 309	Миддлтон
+T18	Person 294 309	Кейт   Миддлтон
+A6	Female T18
+T19	Family 286 291	семья
+T20	Date-relative 328 334	раньше
+A7	Past T20
+T22	Ordinal 365 369	этот
+T23	GPE 431 443	Кембриджской
+A9	Adjective T23
+T24	Person-forename 446 450	Гэри
+T25	Person-surname 453 461	Голдсмит
+T26	Person-forename 484 488	Кейт
+T27	Person 484 488	Кейт
+A10	Female T27
+T28	Family 475 481	матери
+T29	Person 475 488	матери   Кейт
+A11	Female T29
+T30	Family 468 472	брат
+T31	Person-property 419 443	герцогини   Кембриджской
+T32	Family 412 416	дядя
+T33	Person 412 488	дядя   герцогини   Кембриджской   Гэри   Голдсмит   ,   брат   матери   Кейт
+A12	Male T33
+T34	Service 529 547	соцсети   LinkedIn
+T35	Family 683 693	племяннице
+T36	Person-forename 713 718	Гарри
+T37	Person-forename 725 730	Меган
+T38	Person-surname 733 738	Маркл
+T39	Person 725 738	Меган   Маркл
+A14	Female T39
+T40	Person-property 704 710	принцу
+T41	Person 704 718	принцу   Гарри
+A15	Male T41
+T42	Quantity 805 816	две   куклы
+T43	Family 906 913	ребенка
+T44	Person-forename 1015 1020	Гарри
+T45	Person 1015 1020	Гарри
+A16	Male T45
+T46	Person-forename 1075 1080	Меган
+T47	Person 1075 1080	Меган
+A17	Female T47
+T48	Person-surname 1233 1241	Голдсмит
+T49	Person 1233 1241	Голдсмит
+A18	Male T49
+T50	Service 518 522	пост
+A13	Media T50
+T51	Date-relative 558 563	затем
+T52	Person 897 913	своего   ребенка
+A8	Past T51
+T21	GPE 753 757	мире

@@ -39,9 +39,9 @@
 19	ссылкой	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	_
 21	ГУ	_	_	_	_	_	_	_	bratT6=Organization
-22	МЧС	_	_	_	_	_	_	_	bratT6=Organization
+22	МЧС	_	_	_	_	_	_	_	bratT35=Organization|bratT6=Organization
 23	по	_	_	_	_	_	_	_	bratT6=Organization
-24	региону	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+24	региону	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=GPE|bratT6=Organization
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0012-p3
@@ -101,13 +101,16 @@
 10	ноября	_	_	_	_	_	_	_	bratA2=T15:Past|bratT15=Date-absolute
 11	на	_	_	_	_	_	_	_	_
 12	перегоне	_	_	_	_	_	_	_	bratT21=Facility
-13	Новки-1	_	_	_	_	_	_	_	bratT21=Facility|bratT26=GPE
-14	-	_	_	_	_	_	_	_	bratT21=Facility
-15	Тереховицы	_	_	_	_	_	_	_	bratT21=Facility|bratT27=GPE
-16	в	_	_	_	_	_	_	_	_
-17	Камешковском	_	_	_	_	_	_	_	bratT16=GPE
-18	районе	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
-19	.	_	_	_	_	_	_	_	_
+13-15	Новки-1	_	_	_	_	_	_	_	_
+13	Новки	_	_	_	_	_	_	_	bratT21=Facility|bratT26=GPE
+14	-	_	_	_	_	_	_	_	bratT21=Facility|bratT26=GPE
+15	1	_	_	_	_	_	_	_	bratT21=Facility|bratT26=GPE|bratT33=Ordinal
+16	-	_	_	_	_	_	_	_	bratT21=Facility
+17	Тереховицы	_	_	_	_	_	_	_	bratT21=Facility|bratT27=GPE
+18	в	_	_	_	_	_	_	_	_
+19	Камешковском	_	_	_	_	_	_	_	bratT16=GPE
+20	районе	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0012-p4-s2
 # text = В результате разлились шесть цистерн с мазутом на площади 12,5 тыс. кв. м.

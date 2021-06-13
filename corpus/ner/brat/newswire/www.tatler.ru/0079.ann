@@ -1,0 +1,31 @@
+T1	Event 0 27	Церемонию   ``   Оскар   ''
+T2	Date-absolute 30 45	в   2021   году
+T3	Event 91 142	церемонии   вручения   кинонаград   ``   Оскар   ''
+T4	Other-term 12 27	``   Оскар   ''
+T5	Other-term 127 142	``   Оскар   ''
+T6	Date-period-absolute 145 175	еще   целых   девять   месяцев
+T7	Organization 182 209	Американская   киноакадемия
+T8	Event 355 378	пандемия   коронавируса
+T9	Organization 463 480	издание   Variety
+A1	Media T9
+T10	Organization 597 609	Киноакадемия
+T11	GPE 857 870	Лос-Анджелеса
+T12	Time-period 809 818	недельный
+T13	Person 1074 1129	Президент   Американской   киноакадемии   Дэвид   Рубин
+T14	Person-property 1074 1113	Президент   Американской   киноакадемии
+T15	Organization 1086 1113	Американской   киноакадемии
+A2	Future T2
+T16	Duration 159 175	девять   месяцев
+T17	GPE 182 194	Американская
+A4	Adjective T17
+T18	Duration 809 818	недельный
+A5	Male T13
+T19	GPE 1086 1098	Американской
+A6	Adjective T19
+T20	Person-forename 1116 1121	Дэвид
+T21	Person-surname 1124 1129	Рубин
+T22	Date-relative 589 594	Ранее
+A7	Past T22
+T23	Ordinal 79 88	следующей
+T24	Other-term 366 378	коронавируса
+A3	Pres-Fut T6

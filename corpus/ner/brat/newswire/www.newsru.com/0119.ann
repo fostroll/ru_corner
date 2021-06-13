@@ -1,0 +1,123 @@
+T1	Person-property 6 29	украинские   футболисты
+T2	Other-term 50 62	коронавируса
+T3	Date-absolute 65 94	через   день   после   отмены
+T4	Other-term 145 156	коронавирус
+T5	Organization 163 210	национальной   сборной   Украины   по   футболу
+T6	GPE 188 195	Украины
+T7	Event 270 282	Лиги   наций
+T8	GPE 289 298	Швейцарии
+T9	Service 366 371	сайте
+A1	Media T9
+T10	Organization 374 407	Украинской   ассоциации   футбола
+T11	Organization 414 417	УАФ
+T12	Facility 452 461	Борисполь
+T13	Date-absolute 464 475	18   ноября
+T14	Other-term 525 534	ПЦР-тесты
+T15	Other-term 542 552	COVID - 19
+T16	Organization 705 709	УЕФА
+T17	GPE 716 723	Украине
+T18	Organization 757 790	Украинской   ассоциации   футбола
+T19	Person-property 879 934	футболистов   Сергея   Кривцова   и   Жуниора   Мораеса
+A2	Plural T19
+T20	Person 893 910	Сергея   Кривцова
+T21	Person 917 934	Жуниора   Мораеса
+T22	Organization 978 981	УАФ
+T23	Other-term 1020 1032	коронавируса
+T24	Event 1078 1097	матч   Лиги   наций
+T25	Event 1085 1097	Лиги   наций
+T26	GPE 1104 1111	Люцерне
+T27	GPE 1123 1132	Швейцарии
+T28	Quantity 1180 1194	семь   случаев
+T29	Person-property 1313 1413	игроки   Эдуард   Соболь   ,   Евгений   Макаренко   ,   Дмитрий   Ризнык   и   Руслан   Малиновский
+A3	Plural T29
+T30	Person 1322 1337	Эдуард   Соболь
+T31	Person 1344 1363	Евгений   Макаренко
+T32	Person 1370 1386	Дмитрий   Ризнык
+T33	Person 1393 1413	Руслан   Малиновский
+T34	Person 1432 1477	тренер   по   физподготовке   Иван   Баштовой
+T35	Person-property 1432 1459	тренер   по   физподготовке
+T36	Person 1482 1489	Кривцов
+T37	Person 1496 1502	Мораес
+T38	Other-term 1526 1539	коронавирусом
+T39	Nationality 1594 1605	швейцарцами
+A4	Citizenship T39
+T40	Organization 1623 1627	УЕФА
+T41	Person-property 1670 1677	игрокам
+T42	Date-absolute 1737 1758	на   прошлой   неделе
+T43	Other-term 1789 1799	COVID - 19
+T44	Quantity 1810 1828	трое   футболистов
+T45	Person-property 1817 1847	футболистов   сборной   России
+T46	Organization 1831 1847	сборной   России
+T47	GPE 1841 1847	России
+T48	Organization 1906 1968	отечественном   Федеральном   медико-биологическом   агентстве
+T49	Organization 1975 1979	ФМБА
+T50	Date-absolute 245 259	после   отмены
+T51	Date-absolute 728 745	После   обработки
+T52	Date-absolute 987 999	Во   вторник
+T53	Event 1010 1032	вспышки   коронавируса
+T54	Event 262 282	матча   Лиги   наций
+T55	Date-relative 1505 1510	ранее
+T56	Quantity 2005 2042	ни   одного   подозрительного   теста
+T57	Ordinal 1861 1870	повторная
+T58	Person-property 651 678	специалистами   лаборатории
+T59	GPE 6 16	украинские
+A5	Adjective T59
+A6	Past T3
+A7	Past T50
+T60	GPE 374 384	Украинской
+A8	Adjective T60
+T61	GPE 492 502	украинской
+A9	Adjective T61
+A10	Past T13
+A11	Past T51
+T62	GPE 757 767	Украинской
+A12	Adjective T62
+A13	Male T20
+T63	Person-forename 893 899	Сергея
+T64	Person-forename 917 924	Жуниора
+A14	Male T21
+T65	Person-surname 902 910	Кривцова
+T66	Person-surname 927 934	Мораеса
+A15	Past T52
+T67	GPE 1039 1049	украинской
+A16	Adjective T67
+T68	Person-forename 1322 1328	Эдуард
+T69	Person-forename 1344 1351	Евгений
+T70	Person-forename 1370 1377	Дмитрий
+T71	Person-forename 1393 1399	Руслан
+T72	Person-surname 1331 1337	Соболь
+T73	Person-surname 1354 1363	Макаренко
+T74	Person-surname 1380 1386	Ризнык
+T75	Person-surname 1402 1413	Малиновский
+A17	Male T34
+T76	Person-forename 1462 1466	Иван
+T77	Person-surname 1469 1477	Баштовой
+A18	Male T30
+A19	Male T31
+A20	Male T32
+A21	Male T33
+T78	Person-surname 1482 1489	Кривцов
+T79	Person-surname 1496 1502	Мораес
+A22	Male T36
+A23	Male T37
+A24	Past T55
+T80	Ordinal 1742 1749	прошлой
+A25	Past T42
+T81	Event 88 102	отмены   матча
+T82	Event 253 282	отмены   матча   Лиги   наций
+T83	Duration 73 77	день
+T84	Event 736 754	обработки   тестов
+T85	Event 97 102	матча
+T86	Event 1582 1587	матче
+T87	GPE 1906 1919	отечественном
+T88	Cardinal 550 552	19
+T89	Cardinal 1797 1799	19
+T90	Organization 1639 1655	местные   власти
+T91	Organization 1243 1259	местные   власти
+A26	Adjective T87
+T92	GPE 1243 1250	местные
+A27	Adjective T92
+T93	GPE 1639 1646	местные
+A28	Adjective T93
+T94	GPE 163 175	национальной
+A29	Adjective T94

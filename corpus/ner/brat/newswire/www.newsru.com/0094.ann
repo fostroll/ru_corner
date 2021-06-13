@@ -1,0 +1,116 @@
+T1	Person 0 8	Шварцман
+T2	Event 28 49	``   Формуле - 1   ''
+T3	GPE 83 91	Абу-Даби
+T4	Event 115 136	``   Формулы - 2   ''
+T5	Person-property 93 136	Российский   гонщик   ``   Формулы - 2   ''
+T6	Person 93 156	Российский   гонщик   ``   Формулы - 2   ''   Роберт   Шварцман
+T7	Date-absolute 159 171	11   декабря
+T8	Ordinal 189 195	первой
+T9	Event 260 315	чемпионата   ``   Формулы - 1   ''   нынешнего   сезона
+T10	Event 234 315	заключительного   этапа   чемпионата   ``   Формулы - 1   ''   нынешнего   сезона
+T11	GPE 333 341	Абу-Даби
+T12	Event 322 341	Гран-при   Абу-Даби
+T14	Organization 396 437	молодежной   академии   ``   Феррари   ''
+T15	Person-property 387 437	пилота   молодежной   академии   ``   Феррари   ''
+T16	Product 444 506	программы   развития   российского   автоспорта   SMP   Racing
+A2	Project T16
+T17	Age 610 619	21-летний
+T18	Nationality 622 631	россиянин
+T19	Event 752 773	``   Формуле - 1   ''
+T21	Organization 811 839	академии   ``   Феррари   ''
+T22	Person-property 802 839	пилота   академии   ``   Феррари   ''
+T23	Quantity 787 808	два   других   пилота
+T24	Person 802 881	пилота   академии   ``   Феррари   ''   -   Мик   Шумахер   и   Каллум   Айлотт
+A4	Plural T24
+T25	Person 887 894	Шумахер
+T26	Person 901 907	Айлотт
+T27	Event 948 965	Гран-при   Айфеля
+T28	Date-absolute 968 979	9   октября
+T20	Organization 997 1050	команд   ``   Альфа   Ромео   ''   и   ``   Хаас   ''
+A3	Plural T20
+T13	Event 1112 1120	Гран-при
+T29	Person 1123 1140	Роберт   Шварцман
+T30	Event 1176 1197	``   Формулы - 1   ''
+T31	GPE 1267 1274	Фьорано
+T32	Facility 1236 1259	итальянском   автодроме
+T33	Product 1307 1322	болид   SF 71 H
+T34	Organization 1344 1371	команда   ``   Феррари   ''
+T35	Date-absolute 1386 1401	в   2018   году
+T36	Person-property 1847 1866	директор   академии
+T37	Person 1847 1882	директор   академии   Лоран   Мекис
+T38	Event 1706 1727	``   Формулы - 1   ''
+T39	Event 513 543	``   королевских   гонках   ''
+T40	Person-property 1519 1526	пилотов
+T41	Quantity 1485 1489	трое
+T42	Ordinal 370 378	дебютным
+T43	Date-absolute 704 725	в   ближайшее   время
+T44	Ordinal 728 736	дебютные
+T46	Date-absolute 1808 1814	сейчас
+T47	Date-absolute 1200 1228	во   время   тестового   дня
+A1	Citizenship T18
+A5	Male T1
+T48	Person-surname 0 8	Шварцман
+T49	GPE 93 103	Российский
+A6	Adjective T49
+A8	Male T6
+T57	Person-forename 139 145	Роберт
+T58	Person-surname 148 156	Шварцман
+A9	Future T7
+A10	Future T43
+T62	Person 846 859	Мик   Шумахер
+T63	Person 866 881	Каллум   Айлотт
+A12	Male T62
+T64	Person-forename 846 849	Мик
+T65	Person-surname 852 859	Шумахер
+A13	Male T63
+T66	Person-forename 866 872	Каллум
+T67	Person-surname 875 881	Айлотт
+A14	Male T25
+T68	Person-surname 887 894	Шумахер
+T69	Person-surname 901 907	Айлотт
+A15	Male T26
+T70	Date-absolute 925 934	пятничной
+A16	Future T70
+A17	Future T28
+T71	Organization 1006 1029	``   Альфа   Ромео   ''
+T72	Organization 1036 1050	``   Хаас   ''
+T73	Date-absolute 1073 1096	Перед   своим   дебютом
+A18	Future T73
+A19	Male T29
+T74	Person-forename 1123 1129	Роберт
+T75	Person-surname 1132 1140	Шварцман
+A20	Future T47
+T78	GPE 1236 1247	итальянском
+A21	Adjective T78
+A23	Past T35
+A24	Present T46
+A25	Male T37
+T82	Person-forename 1869 1874	Лоран
+T83	Person-surname 1877 1882	Мекис
+T84	GPE 467 478	российского
+A26	Adjective T84
+T85	Ordinal 297 306	нынешнего
+T54	Organization 420 437	``   Феррари   ''
+T55	Organization 822 839	``   Феррари   ''
+T45	Event 1089 1096	дебютом
+T50	Event 937 965	практике   Гран-при   Айфеля
+T51	Event 1213 1228	тестового   дня
+T52	Organization 1858 1866	академии
+T53	Date-absolute 221 257	в   рамках   заключительного   этапа
+A7	Future T53
+T56	Ordinal 708 717	ближайшее
+T59	Age 1509 1516	молодых
+T60	Ordinal 767 768	1
+T76	Ordinal 288 289	1
+T79	Ordinal 130 131	2
+T86	Ordinal 43 44	1
+T87	Cardinal 1318 1320	71
+T89	Ordinal 1721 1722	1
+T61	Event 273 294	``   Формулы - 1   ''
+T77	Ordinal 1191 1192	1
+T80	Location 959 965	Айфеля
+T81	Event 189 218	первой   свободной   практике
+T88	Event 57 76	свободных   заездах
+T90	Event 728 745	дебютные   заезды
+T91	Event 1447 1464	тестовую   сессию
+T92	Event 1585 1596	мероприятии

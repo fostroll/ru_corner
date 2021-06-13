@@ -6,23 +6,30 @@
 1	Беларусь	_	_	_	_	_	_	_	bratT1=GPE
 2	закупит	_	_	_	_	_	_	_	_
 3	самолеты	_	_	_	_	_	_	_	bratT2=Product
-4	Су-30СМ	_	_	_	_	_	_	_	bratT2=Product
-5	и	_	_	_	_	_	_	_	_
-6	вертолеты	_	_	_	_	_	_	_	bratT3=Product
-7	Ми-35	_	_	_	_	_	_	_	bratT3=Product
-8	у	_	_	_	_	_	_	_	_
-9	России	_	_	_	_	_	_	_	bratT4=GPE
-10	в	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
-11	2021	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
-12	году	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
+4-7	Су-30СМ	_	_	_	_	_	_	_	_
+4	Су	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
+6	30	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product|bratT42=Cardinal
+7	СМ	_	_	_	_	_	_	_	bratT2=Product
+8	и	_	_	_	_	_	_	_	_
+9	вертолеты	_	_	_	_	_	_	_	bratT3=Product
+10-12	Ми-35	_	_	_	_	_	_	_	_
+10	Ми	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Product
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Product
+12	35	_	_	_	_	_	_	_	bratT3=Product|bratT40=Cardinal
+13	у	_	_	_	_	_	_	_	_
+14	России	_	_	_	_	_	_	_	bratT4=GPE
+15	в	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
+16	2021	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
+17	году	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
 
 # newpar id = 0005-p2
 # par_text = Власти Республики Беларусь намерены в 2021 году закупить у России военную технику. В частности речь идет о самолетах и вертолетах. Об этом заявил глава Минобороны страны Виктор Хренин в эфире телеканала "Беларусь-1".
 # sent_id = 0005-p2-s1
 # text = Власти Республики Беларусь намерены в 2021 году закупить у России военную технику.
-1	Власти	_	_	_	_	_	_	_	_
-2	Республики	_	_	_	_	_	_	_	bratT6=GPE
-3	Беларусь	_	_	_	_	_	_	_	bratT6=GPE
+1	Власти	_	_	_	_	_	_	_	bratT45=Organization
+2	Республики	_	_	_	_	_	_	_	bratT45=Organization|bratT6=GPE
+3	Беларусь	_	_	_	_	_	_	_	bratT45=Organization|bratT6=GPE
 4	намерены	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
 6	2021	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
@@ -53,16 +60,19 @@
 3	заявил	_	_	_	_	_	_	_	_
 4	глава	_	_	_	_	_	_	_	bratA6=T9:Male|bratT10=Person-property|bratT9=Person
 5	Минобороны	_	_	_	_	_	_	_	bratA6=T9:Male|bratT10=Person-property|bratT24=Organization|bratT9=Person
-6	страны	_	_	_	_	_	_	_	bratA6=T9:Male|bratT10=Person-property|bratT9=Person
+6	страны	_	_	_	_	_	_	_	bratA6=T9:Male|bratT10=Person-property|bratT47=GPE|bratT9=Person
 7	Виктор	_	_	_	_	_	_	_	bratA6=T9:Male|bratT35=Person-forename|bratT9=Person
 8	Хренин	_	_	_	_	_	_	_	bratA6=T9:Male|bratT36=Person-surname|bratT9=Person
 9	в	_	_	_	_	_	_	_	_
 10	эфире	_	_	_	_	_	_	_	_
 11	телеканала	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
 12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
-13	Беларусь-1	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
-14	''	_	_	_	_	_	_	_	SpaceAfter=No
-15	.	_	_	_	_	_	_	_	_
+13-15	Беларусь-1	_	_	_	_	_	_	_	SpaceAfter=No
+13	Беларусь	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization|bratT43=GPE
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
+15	1	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization|bratT41=Ordinal
+16	''	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0005-p3
 # par_text = Представитель ведомства отметил, что Минск планирует приобрести по четыре самолета Су-30СМ и вертолеты Ми-35.
@@ -79,11 +89,18 @@
 9	по	_	_	_	_	_	_	_	bratT13=Quantity
 10	четыре	_	_	_	_	_	_	_	bratT13=Quantity
 11	самолета	_	_	_	_	_	_	_	bratT14=Product
-12	Су-30СМ	_	_	_	_	_	_	_	bratT14=Product
-13	и	_	_	_	_	_	_	_	_
-14	вертолеты	_	_	_	_	_	_	_	bratT15=Product
-15	Ми-35	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
-16	.	_	_	_	_	_	_	_	_
+12-15	Су-30СМ	_	_	_	_	_	_	_	_
+12	Су	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Product
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Product
+14	30	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Product|bratT44=Cardinal
+15	СМ	_	_	_	_	_	_	_	bratT14=Product
+16	и	_	_	_	_	_	_	_	_
+17	вертолеты	_	_	_	_	_	_	_	bratT15=Product
+18-20	Ми-35	_	_	_	_	_	_	_	_
+18	Ми	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
+19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
+20	35	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product|bratT46=Cardinal
+21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0005-p4
 # par_text = - Мы продолжим закупки по самолетам Су-30СМ, в следующем году мы планируем еще четыре закупить. Контракт с Российской Федерацией уже подписан, - сказал министр.
@@ -94,18 +111,22 @@
 3	продолжим	_	_	_	_	_	_	_	_
 4	закупки	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
-6	самолетам	_	_	_	_	_	_	_	bratT16=Product
-7	Су-30СМ	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Product
-8	,	_	_	_	_	_	_	_	_
-9	в	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
-10	следующем	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute|bratT31=Ordinal
-11	году	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
-12	мы	_	_	_	_	_	_	_	_
-13	планируем	_	_	_	_	_	_	_	_
-14	еще	_	_	_	_	_	_	_	bratT18=Quantity
-15	четыре	_	_	_	_	_	_	_	bratT18=Quantity
-16	закупить	_	_	_	_	_	_	_	SpaceAfter=No
-17	.	_	_	_	_	_	_	_	_
+6	самолетам	_	_	_	_	_	_	_	bratA9=T16:Trademark|bratT16=Product
+7-10	Су-30СМ	_	_	_	_	_	_	_	SpaceAfter=No
+7	Су	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Trademark|bratT16=Product
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Trademark|bratT16=Product
+9	30	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Trademark|bratT16=Product|bratT48=Cardinal
+10	СМ	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Trademark|bratT16=Product
+11	,	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
+13	следующем	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute|bratT31=Ordinal
+14	году	_	_	_	_	_	_	_	bratA2=T17:Future|bratT17=Date-absolute
+15	мы	_	_	_	_	_	_	_	_
+16	планируем	_	_	_	_	_	_	_	_
+17	еще	_	_	_	_	_	_	_	bratT18=Quantity
+18	четыре	_	_	_	_	_	_	_	bratT18=Quantity
+19	закупить	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p4-s2
 # text = Контракт с Российской Федерацией уже подписан, - сказал министр.
@@ -133,14 +154,18 @@
 6	механизированных	_	_	_	_	_	_	_	bratT20=Quantity
 7	батальона	_	_	_	_	_	_	_	bratT20=Quantity
 8	на	_	_	_	_	_	_	_	_
-9	БТР-82А	_	_	_	_	_	_	_	bratT21=Product
-10	и	_	_	_	_	_	_	_	_
-11	закупить	_	_	_	_	_	_	_	_
-12	дополнительные	_	_	_	_	_	_	_	_
-13	средства	_	_	_	_	_	_	_	_
-14	радиоэлектронной	_	_	_	_	_	_	_	_
-15	связи	_	_	_	_	_	_	_	SpaceAfter=No
-16	.	_	_	_	_	_	_	_	_
+9-12	БТР-82А	_	_	_	_	_	_	_	_
+9	БТР	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Product
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Product
+11	82	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Product|bratT50=Cardinal
+12	А	_	_	_	_	_	_	_	bratT21=Product
+13	и	_	_	_	_	_	_	_	_
+14	закупить	_	_	_	_	_	_	_	_
+15	дополнительные	_	_	_	_	_	_	_	_
+16	средства	_	_	_	_	_	_	_	_
+17	радиоэлектронной	_	_	_	_	_	_	_	_
+18	связи	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p5-s2
 # text = Хренин отметил, что при приобретении последних, предпочтение будет отдаваться отечественным разработкам.
@@ -155,7 +180,7 @@
 9	предпочтение	_	_	_	_	_	_	_	_
 10	будет	_	_	_	_	_	_	_	_
 11	отдаваться	_	_	_	_	_	_	_	_
-12	отечественным	_	_	_	_	_	_	_	_
+12	отечественным	_	_	_	_	_	_	_	bratA10=T39:Adjective|bratT39=GPE
 13	разработкам	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
 
@@ -179,6 +204,7 @@
 14	с	_	_	_	_	_	_	_	_
 15	Россией	_	_	_	_	_	_	_	bratT27=GPE
 16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Event
+17-19	Запад-2021	_	_	_	_	_	_	_	SpaceAfter=No
 17	Запад	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Event
 18	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Event
 19	2021	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T38:Future|bratT28=Event|bratT38=Date-absolute

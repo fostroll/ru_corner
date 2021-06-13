@@ -104,7 +104,7 @@
 5	поручил	_	_	_	_	_	_	_	_
 6	членам	_	_	_	_	_	_	_	bratT22=Person-property
 7	правительства	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
-8	страны	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
+8	страны	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property|bratT62=GPE
 9	за	_	_	_	_	_	_	_	bratA2=T28:Pres-Fut|bratT28=Date-period-absolute
 10	ближайшие	_	_	_	_	_	_	_	bratA2=T28:Pres-Fut|bratT28=Date-period-absolute|bratT43=Ordinal
 11	три	_	_	_	_	_	_	_	bratA2=T28:Pres-Fut|bratT28=Date-period-absolute|bratT44=Duration
@@ -155,11 +155,11 @@
 9	празднования	_	_	_	_	_	_	_	_
 10	рекомендовано	_	_	_	_	_	_	_	_
 11	принять	_	_	_	_	_	_	_	_
-12	органам	_	_	_	_	_	_	_	_
-13	исполнительной	_	_	_	_	_	_	_	_
-14	власти	_	_	_	_	_	_	_	_
-15	российских	_	_	_	_	_	_	_	bratA19=T59:Adjective|bratT59=GPE
-16	регионов	_	_	_	_	_	_	_	SpaceAfter=No
+12	органам	_	_	_	_	_	_	_	bratT61=Organization
+13	исполнительной	_	_	_	_	_	_	_	bratT61=Organization
+14	власти	_	_	_	_	_	_	_	bratT61=Organization
+15	российских	_	_	_	_	_	_	_	bratA19=T59:Adjective|bratT59=GPE|bratT61=Organization
+16	регионов	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0046-p6

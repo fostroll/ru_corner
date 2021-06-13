@@ -1,0 +1,219 @@
+# newdoc id = 0022
+# newpar id = 0022-p1
+# par_text = Возле Верховного суда начались задержания перед заседанием по «ростовскому делу»
+# sent_id = 0022-p1-s1
+# text = Возле Верховного суда начались задержания перед заседанием по ``ростовскому делу''
+1	Возле	_	_	_	_	_	_	_	_
+2	Верховного	_	_	_	_	_	_	_	bratT1=Organization
+3	суда	_	_	_	_	_	_	_	bratT1=Organization
+4	начались	_	_	_	_	_	_	_	_
+5	задержания	_	_	_	_	_	_	_	_
+6	перед	_	_	_	_	_	_	_	bratA2=T2:Past|bratT2=Date-absolute
+7	заседанием	_	_	_	_	_	_	_	bratA2=T2:Past|bratT2=Date-absolute|bratT66=Event
+8	по	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No
+10	ростовскому	_	_	_	_	_	_	_	_
+11	делу	_	_	_	_	_	_	_	SpaceAfter=No
+12	''	_	_	_	_	_	_	_	_
+
+# newpar id = 0022-p2
+# par_text = Полицейские задержали несколько человек возле здания Верховного суда, где сегодня должно пройти рассмотрение кассационной жалобы на приговор по «ростовскому делу». Об этом сообщают телеграм-канал «Ростовское дело» и активистка Александра Калистратова.
+# sent_id = 0022-p2-s1
+# text = Полицейские задержали несколько человек возле здания Верховного суда, где сегодня должно пройти рассмотрение кассационной жалобы на приговор по ``ростовскому делу''.
+1	Полицейские	_	_	_	_	_	_	_	bratT4=Person-property
+2	задержали	_	_	_	_	_	_	_	_
+3	несколько	_	_	_	_	_	_	_	bratT5=Quantity
+4	человек	_	_	_	_	_	_	_	bratT5=Quantity
+5	возле	_	_	_	_	_	_	_	_
+6	здания	_	_	_	_	_	_	_	_
+7	Верховного	_	_	_	_	_	_	_	bratT6=Organization
+8	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+9	,	_	_	_	_	_	_	_	_
+10	где	_	_	_	_	_	_	_	_
+11	сегодня	_	_	_	_	_	_	_	bratA1=T7:Future|bratT7=Date-absolute
+12	должно	_	_	_	_	_	_	_	_
+13	пройти	_	_	_	_	_	_	_	_
+14	рассмотрение	_	_	_	_	_	_	_	bratT67=Event
+15	кассационной	_	_	_	_	_	_	_	bratT67=Event
+16	жалобы	_	_	_	_	_	_	_	bratT67=Event
+17	на	_	_	_	_	_	_	_	_
+18	приговор	_	_	_	_	_	_	_	_
+19	по	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No
+21	ростовскому	_	_	_	_	_	_	_	_
+22	делу	_	_	_	_	_	_	_	SpaceAfter=No
+23	''	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0022-p2-s2
+# text = Об этом сообщают телеграм-канал ``Ростовское дело'' и активистка Александра Калистратова.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщают	_	_	_	_	_	_	_	_
+4	телеграм-канал	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Service
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Media|bratT9=Service
+6	Ростовское	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Service
+7	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Media|bratT9=Service
+8	''	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Service
+9	и	_	_	_	_	_	_	_	_
+10	активистка	_	_	_	_	_	_	_	bratA4=T10:Female|bratT10=Person|bratT11=Person-property
+11	Александра	_	_	_	_	_	_	_	bratA4=T10:Female|bratT10=Person|bratT12=Person-forename
+12	Калистратова	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Female|bratT10=Person|bratT13=Person-surname
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0022-p3
+# par_text = Как рассказали в пресс-службе незарегистрированной партии «Другая Россия», в Москве задержаны четверо активистов: Михаил Галяшкин, Андрей Плыгач, Тимофей Филин и Наталья Криволапова.
+# sent_id = 0022-p3-s1
+# text = Как рассказали в пресс-службе незарегистрированной партии ``Другая Россия'', в Москве задержаны четверо активистов: Михаил Галяшкин, Андрей Плыгач, Тимофей Филин и Наталья Криволапова.
+1	Как	_	_	_	_	_	_	_	_
+2	рассказали	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	пресс-службе	_	_	_	_	_	_	_	bratA5=T14:Department|bratT14=Organization
+5	незарегистрированной	_	_	_	_	_	_	_	bratA5=T14:Department|bratT14=Organization|bratT15=Organization
+6	партии	_	_	_	_	_	_	_	bratA5=T14:Department|bratT14=Organization|bratT15=Organization
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T14:Department|bratT14=Organization|bratT15=Organization
+8	Другая	_	_	_	_	_	_	_	bratA5=T14:Department|bratT14=Organization|bratT15=Organization
+9	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T14:Department|bratT14=Organization|bratT15=Organization|bratT64=GPE
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T14:Department|bratT14=Organization|bratT15=Organization
+11	,	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	Москве	_	_	_	_	_	_	_	bratT16=GPE
+14	задержаны	_	_	_	_	_	_	_	_
+15	четверо	_	_	_	_	_	_	_	bratT17=Quantity
+16	активистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity|bratT18=Other-group
+17	:	_	_	_	_	_	_	_	_
+18	Михаил	_	_	_	_	_	_	_	bratA7=T20:Male|bratT20=Person|bratT24=Person-forename
+19	Галяшкин	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T20:Male|bratT20=Person|bratT25=Person-surname
+20	,	_	_	_	_	_	_	_	_
+21	Андрей	_	_	_	_	_	_	_	bratA8=T21:Male|bratT21=Person|bratT26=Person-forename
+22	Плыгач	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Male|bratT21=Person|bratT27=Person-surname
+23	,	_	_	_	_	_	_	_	_
+24	Тимофей	_	_	_	_	_	_	_	bratA9=T22:Male|bratT22=Person|bratT28=Person-forename
+25	Филин	_	_	_	_	_	_	_	bratA9=T22:Male|bratT22=Person|bratT29=Person-surname
+26	и	_	_	_	_	_	_	_	_
+27	Наталья	_	_	_	_	_	_	_	bratA10=T23:Female|bratT23=Person|bratT30=Person-forename
+28	Криволапова	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T23:Female|bratT23=Person|bratT31=Person-surname
+29	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0022-p4
+# par_text = В итоге заседание перенесли на 30 июля. Задержанных увезли в ОВД «Арбат».
+# sent_id = 0022-p4-s1
+# text = В итоге заседание перенесли на 30 июля.
+1	В	_	_	_	_	_	_	_	_
+2	итоге	_	_	_	_	_	_	_	_
+3	заседание	_	_	_	_	_	_	_	_
+4	перенесли	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	bratT32=Date-absolute
+6	30	_	_	_	_	_	_	_	bratT32=Date-absolute
+7	июля	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Date-absolute
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0022-p4-s2
+# text = Задержанных увезли в ОВД ``Арбат''.
+1	Задержанных	_	_	_	_	_	_	_	bratT33=Person-property
+2	увезли	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	ОВД	_	_	_	_	_	_	_	bratT34=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+6	Арбат	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0022-p5
+# par_text = Позже в телеграм-канале движения сообщили, что на Криволапову и Плыгача составили протоколы по части 5 статьи 20.2 КоАП (нарушение правил проведения акции). Галяшкина и Филина отпустили из отдела без протоколов, так как они не стояли с пикетами.
+# sent_id = 0022-p5-s1
+# text = Позже в телеграм-канале движения сообщили, что на Криволапову и Плыгача составили протоколы по части 5 статьи 20.2 КоАП (нарушение правил проведения акции).
+1	Позже	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	телеграм-канале	_	_	_	_	_	_	_	bratA12=T35:Media|bratT35=Service
+4	движения	_	_	_	_	_	_	_	_
+5	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	_
+9	Криволапову	_	_	_	_	_	_	_	bratA14=T37:Female|bratT37=Person|bratT38=Person-surname
+10	и	_	_	_	_	_	_	_	_
+11	Плыгача	_	_	_	_	_	_	_	bratA15=T39:Male|bratT39=Person|bratT40=Person-surname
+12	составили	_	_	_	_	_	_	_	_
+13	протоколы	_	_	_	_	_	_	_	_
+14	по	_	_	_	_	_	_	_	_
+15	части	_	_	_	_	_	_	_	bratT41=Law
+16	5	_	_	_	_	_	_	_	bratT3=Ordinal|bratT41=Law
+17	статьи	_	_	_	_	_	_	_	bratT41=Law
+18	20.2	_	_	_	_	_	_	_	bratT41=Law|bratT8=Ordinal
+19	КоАП	_	_	_	_	_	_	_	bratT19=Law|bratT41=Law
+20	(	_	_	_	_	_	_	_	SpaceAfter=No
+21	нарушение	_	_	_	_	_	_	_	_
+22	правил	_	_	_	_	_	_	_	_
+23	проведения	_	_	_	_	_	_	_	_
+24	акции	_	_	_	_	_	_	_	SpaceAfter=No
+25	)	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0022-p5-s2
+# text = Галяшкина и Филина отпустили из отдела без протоколов, так как они не стояли с пикетами.
+1	Галяшкина	_	_	_	_	_	_	_	bratA17=T43:Male|bratT43=Person|bratT44=Person-surname
+2	и	_	_	_	_	_	_	_	_
+3	Филина	_	_	_	_	_	_	_	bratA18=T46:Male|bratT45=Person-surname|bratT46=Person
+4	отпустили	_	_	_	_	_	_	_	_
+5	из	_	_	_	_	_	_	_	_
+6	отдела	_	_	_	_	_	_	_	_
+7	без	_	_	_	_	_	_	_	_
+8	протоколов	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	так	_	_	_	_	_	_	_	_
+11	как	_	_	_	_	_	_	_	_
+12	они	_	_	_	_	_	_	_	_
+13	не	_	_	_	_	_	_	_	_
+14	стояли	_	_	_	_	_	_	_	_
+15	с	_	_	_	_	_	_	_	_
+16	пикетами	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0022-p6
+# par_text = В 2019 году суд в Ростове-на-Дону приговорил Владислава Мордасова и Яна Сидорова к срокам до шести лет и семи месяцев по делу о массовых беспорядках (часть 3 статьи 30, часть 1 статьи 212 УК) из-за чата в телеграме.
+# sent_id = 0022-p6-s1
+# text = В 2019 году суд в Ростове-на-Дону приговорил Владислава Мордасова и Яна Сидорова к срокам до шести лет и семи месяцев по делу о массовых беспорядках (часть 3 статьи 30, часть 1 статьи 212 УК) из-за чата в телеграме.
+1	В	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-absolute
+2	2019	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-absolute
+4	суд	_	_	_	_	_	_	_	bratT48=Organization
+5	в	_	_	_	_	_	_	_	bratT48=Organization
+6	Ростове-на-Дону	_	_	_	_	_	_	_	bratT48=Organization|bratT49=GPE
+7	приговорил	_	_	_	_	_	_	_	_
+8	Владислава	_	_	_	_	_	_	_	bratA21=T51:Male|bratT51=Person|bratT52=Person-forename
+9	Мордасова	_	_	_	_	_	_	_	bratA21=T51:Male|bratT51=Person|bratT53=Person-surname
+10	и	_	_	_	_	_	_	_	_
+11	Яна	_	_	_	_	_	_	_	bratA22=T54:Male|bratT54=Person|bratT55=Person-forename
+12	Сидорова	_	_	_	_	_	_	_	bratA22=T54:Male|bratT54=Person|bratT56=Person-surname
+13	к	_	_	_	_	_	_	_	_
+14	срокам	_	_	_	_	_	_	_	_
+15	до	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
+16	шести	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
+17	лет	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
+18	и	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
+19	семи	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
+20	месяцев	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
+21	по	_	_	_	_	_	_	_	_
+22	делу	_	_	_	_	_	_	_	_
+23	о	_	_	_	_	_	_	_	_
+24	массовых	_	_	_	_	_	_	_	_
+25	беспорядках	_	_	_	_	_	_	_	_
+26	(	_	_	_	_	_	_	_	SpaceAfter=No
+27	часть	_	_	_	_	_	_	_	bratT58=Law
+28	3	_	_	_	_	_	_	_	bratT36=Ordinal|bratT58=Law
+29	статьи	_	_	_	_	_	_	_	bratT58=Law
+30	30	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Ordinal|bratT58=Law
+31	,	_	_	_	_	_	_	_	bratT58=Law
+32	часть	_	_	_	_	_	_	_	bratT58=Law
+33	1	_	_	_	_	_	_	_	bratT50=Ordinal|bratT58=Law
+34	статьи	_	_	_	_	_	_	_	bratT58=Law
+35	212	_	_	_	_	_	_	_	bratT58=Law|bratT60=Ordinal
+36	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Law|bratT65=Law
+37	)	_	_	_	_	_	_	_	_
+38	из-за	_	_	_	_	_	_	_	_
+39	чата	_	_	_	_	_	_	_	bratA6=T61:Media|bratT61=Service
+40	в	_	_	_	_	_	_	_	_
+41	телеграме	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Service
+42	.	_	_	_	_	_	_	_	_
+

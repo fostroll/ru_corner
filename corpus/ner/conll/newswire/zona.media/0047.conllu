@@ -1,0 +1,166 @@
+# newdoc id = 0047
+# newpar id = 0047-p1
+# par_text = Нацбол Александр Аверин, осужденный по делу о контрабанде оружия, вышел на свободу
+# sent_id = 0047-p1-s1
+# text = Нацбол Александр Аверин, осужденный по делу о контрабанде оружия, вышел на свободу
+1	Нацбол	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT2=Political-group
+2	Александр	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Person-forename
+3	Аверин	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT4=Person-surname
+4	,	_	_	_	_	_	_	_	_
+5	осужденный	_	_	_	_	_	_	_	_
+6	по	_	_	_	_	_	_	_	_
+7	делу	_	_	_	_	_	_	_	_
+8	о	_	_	_	_	_	_	_	_
+9	контрабанде	_	_	_	_	_	_	_	_
+10	оружия	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	вышел	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	свободу	_	_	_	_	_	_	_	_
+
+# newpar id = 0047-p2
+# par_text = Нацбол Александр Аверин, осужденный по делу о контрабанде оружия на три года колонии, вышел на свободу. Об этом сообщает незарегистрированная партия «Другая Россия Э.В. Лимонова».
+# sent_id = 0047-p2-s1
+# text = Нацбол Александр Аверин, осужденный по делу о контрабанде оружия на три года колонии, вышел на свободу.
+1	Нацбол	_	_	_	_	_	_	_	bratA2=T6:Male|bratT6=Person|bratT7=Political-group
+2	Александр	_	_	_	_	_	_	_	bratA2=T6:Male|bratT6=Person|bratT8=Person-forename
+3	Аверин	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Male|bratT6=Person|bratT9=Person-surname
+4	,	_	_	_	_	_	_	_	_
+5	осужденный	_	_	_	_	_	_	_	_
+6	по	_	_	_	_	_	_	_	_
+7	делу	_	_	_	_	_	_	_	_
+8	о	_	_	_	_	_	_	_	_
+9	контрабанде	_	_	_	_	_	_	_	_
+10	оружия	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	bratA3=T5:Past|bratT5=Date-period-relative
+12	три	_	_	_	_	_	_	_	bratA3=T5:Past|bratT10=Duration|bratT5=Date-period-relative
+13	года	_	_	_	_	_	_	_	bratA3=T5:Past|bratT10=Duration|bratT5=Date-period-relative
+14	колонии	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	вышел	_	_	_	_	_	_	_	_
+17	на	_	_	_	_	_	_	_	_
+18	свободу	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p2-s2
+# text = Об этом сообщает незарегистрированная партия ``Другая Россия Э. В. Лимонова''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	незарегистрированная	_	_	_	_	_	_	_	bratT11=Organization
+5	партия	_	_	_	_	_	_	_	bratT11=Organization
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+7	Другая	_	_	_	_	_	_	_	bratT11=Organization
+8	Россия	_	_	_	_	_	_	_	bratT11=Organization|bratT15=GPE
+9	Э.	_	_	_	_	_	_	_	bratA4=T13:Male|bratT11=Organization|bratT12=Person-initial|bratT13=Person
+10	В.	_	_	_	_	_	_	_	bratA4=T13:Male|bratT11=Organization|bratT13=Person|bratT34=Person-initial
+11	Лимонова	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Male|bratT11=Organization|bratT13=Person|bratT14=Person-surname
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0047-p3
+# par_text = В апреле 2018 года Аверина задержали в Ростовской области при переходе границы с самопровозглашенной ДНР. Нацбол говорил, что силовики подбросили ему пистолет Макарова и обойму.
+# sent_id = 0047-p3-s1
+# text = В апреле 2018 года Аверина задержали в Ростовской области при переходе границы с самопровозглашенной ДНР.
+1	В	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-absolute
+2	апреле	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-absolute
+3	2018	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-absolute
+5	Аверина	_	_	_	_	_	_	_	bratA6=T17:Male|bratT17=Person|bratT18=Person-surname
+6	задержали	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	Ростовской	_	_	_	_	_	_	_	bratT19=GPE
+9	области	_	_	_	_	_	_	_	bratT19=GPE
+10	при	_	_	_	_	_	_	_	_
+11	переходе	_	_	_	_	_	_	_	_
+12	границы	_	_	_	_	_	_	_	bratT44=Facility
+13	с	_	_	_	_	_	_	_	_
+14	самопровозглашенной	_	_	_	_	_	_	_	bratT20=GPE
+15	ДНР	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p3-s2
+# text = Нацбол говорил, что силовики подбросили ему пистолет Макарова и обойму.
+1	Нацбол	_	_	_	_	_	_	_	bratT21=Political-group
+2	говорил	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	силовики	_	_	_	_	_	_	_	bratT22=Person-property
+6	подбросили	_	_	_	_	_	_	_	_
+7	ему	_	_	_	_	_	_	_	_
+8	пистолет	_	_	_	_	_	_	_	bratT25=Product
+9	Макарова	_	_	_	_	_	_	_	bratA7=T23:Male|bratT23=Person|bratT24=Person-surname|bratT25=Product
+10	и	_	_	_	_	_	_	_	_
+11	обойму	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0047-p4
+# par_text = Аверина обвинили в покушении на контрабанду оружия (статья 30, часть 1 статьи 226.1 УК) и в хранении оружия (часть 1 статьи 222 УК). Суд оправдал нацбола по статье о хранения оружия, однако признал виновным в контрабанде. Соратники Аверина считают уголовное дело провокацией со стороны ФСБ и Центра «Э».
+# sent_id = 0047-p4-s1
+# text = Аверина обвинили в покушении на контрабанду оружия (статья 30, часть 1 статьи 226.1 УК) и в хранении оружия (часть 1 статьи 222 УК).
+1	Аверина	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person|bratT27=Person-surname
+2	обвинили	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	покушении	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	контрабанду	_	_	_	_	_	_	_	_
+7	оружия	_	_	_	_	_	_	_	_
+8	(	_	_	_	_	_	_	_	SpaceAfter=No
+9	статья	_	_	_	_	_	_	_	bratT28=Law
+10	30	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Law|bratT37=Ordinal
+11	,	_	_	_	_	_	_	_	bratT28=Law
+12	часть	_	_	_	_	_	_	_	bratT28=Law
+13	1	_	_	_	_	_	_	_	bratT28=Law|bratT38=Ordinal
+14	статьи	_	_	_	_	_	_	_	bratT28=Law
+15	226.1	_	_	_	_	_	_	_	bratT28=Law|bratT39=Ordinal
+16	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Law|bratT40=Law
+17	)	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	хранении	_	_	_	_	_	_	_	_
+21	оружия	_	_	_	_	_	_	_	_
+22	(	_	_	_	_	_	_	_	SpaceAfter=No
+23	часть	_	_	_	_	_	_	_	bratT29=Law
+24	1	_	_	_	_	_	_	_	bratT29=Law|bratT41=Ordinal
+25	статьи	_	_	_	_	_	_	_	bratT29=Law
+26	222	_	_	_	_	_	_	_	bratT29=Law|bratT42=Ordinal
+27	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Law|bratT43=Law
+28	)	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p4-s2
+# text = Суд оправдал нацбола по статье о хранения оружия, однако признал виновным в контрабанде.
+1	Суд	_	_	_	_	_	_	_	_
+2	оправдал	_	_	_	_	_	_	_	_
+3	нацбола	_	_	_	_	_	_	_	bratT30=Political-group
+4	по	_	_	_	_	_	_	_	_
+5	статье	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	хранения	_	_	_	_	_	_	_	_
+8	оружия	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	однако	_	_	_	_	_	_	_	_
+11	признал	_	_	_	_	_	_	_	_
+12	виновным	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	контрабанде	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p4-s3
+# text = Соратники Аверина считают уголовное дело провокацией со стороны ФСБ и Центра ``Э''.
+1	Соратники	_	_	_	_	_	_	_	bratT31=Other-group
+2	Аверина	_	_	_	_	_	_	_	bratA10=T32:Male|bratT31=Other-group|bratT32=Person|bratT33=Person-surname
+3	считают	_	_	_	_	_	_	_	_
+4	уголовное	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	_
+6	провокацией	_	_	_	_	_	_	_	_
+7	со	_	_	_	_	_	_	_	_
+8	стороны	_	_	_	_	_	_	_	_
+9	ФСБ	_	_	_	_	_	_	_	bratT35=Organization
+10	и	_	_	_	_	_	_	_	_
+11	Центра	_	_	_	_	_	_	_	bratT36=Organization
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+13	Э	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+15	.	_	_	_	_	_	_	_	_
+

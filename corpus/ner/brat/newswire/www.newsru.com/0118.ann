@@ -1,0 +1,50 @@
+T1	Person-property 0 21	Испанский   теннисист
+T2	Event 74 108	турнира   ``   Ролан   Гаррос   ''
+T3	Organization 58 108	организаторов   турнира   ``   Ролан   Гаррос   ''
+T4	Person-property 110 131	Испанский   теннисист
+T5	Person 110 153	Испанский   теннисист   Фернандо   Вердаско
+T6	Event 187 211	``   Ролан   Гаррос   ''
+T7	Other-term 252 263	коронавирус
+T8	Person-property 320 343	организаторов   турнира
+T9	Nationality 394 401	испанец
+A1	Citizenship T9
+T10	Quantity 404 416	ещё   дважды
+T11	Other-term 441 452	коронавирус
+T12	Service 239 263	теста   на   коронавирус
+T13	Service 428 452	тесты   на   коронавирус
+T14	Quantity 476 481	обоих
+T15	Organization 561 585	``   Ролан   Гаррос   ''
+T16	Organization 871 890	``   Чемпионат   ''
+A2	Media T16
+T17	Person 905 913	Вердаско
+T18	Organization 931 953	изданию   Cadena   Ser
+A3	Media T18
+T19	Date-period-absolute 1016 1031	в   этом   году
+T20	Event 1101 1125	``   Ролан   Гаррос   ''
+T21	Organization 1086 1125	Организаторы   ``   Ролан   Гаррос   ''
+T22	Person-property 1219 1226	игроков
+T23	Date-absolute 1266 1312	На   следующий   день   после   моего   снятия
+T24	Event 658 665	турнире
+T25	Event 1319 1326	турнира
+T26	Ordinal 1381 1387	второй
+T27	Ordinal 1413 1422	последней
+T28	Nationality 1457 1464	исапнец
+A4	Citizenship T28
+T29	GPE 0 9	Испанский
+A5	Adjective T29
+T30	GPE 110 119	Испанский
+A6	Adjective T30
+T31	Person-forename 134 142	Фернандо
+T32	Person-surname 145 153	Вердаско
+A7	Male T5
+T33	Date-absolute 349 372	После   своего   снятия
+A8	Past T33
+A9	Male T17
+T34	Person-surname 905 913	Вердаско
+A11	Past T23
+T35	Ordinal 1271 1280	следующий
+T36	Event 1306 1326	снятия   с   турнира
+T37	Event 366 391	снятия   с   соревнований
+A10	Pres-Fut T19
+T38	Duration 1283 1287	день
+T39	Event 336 343	турнира

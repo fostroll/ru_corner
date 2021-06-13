@@ -1,0 +1,54 @@
+T1	Person-property 0 13	Мэра   Томска
+T2	GPE 7 13	Томска
+T3	Organization 84 119	Кировский   районный   суд   Томска
+T4	GPE 84 104	Кировский   районный
+A1	Adjective T4
+T5	GPE 113 119	Томска
+T6	Person 134 164	мэра   города   Ивана   Кляйна
+A2	Male T6
+T7	Person-property 134 147	мэра   города
+T8	Person-forename 150 155	Ивана
+T9	Person-surname 158 164	Кляйна
+T10	Organization 182 221	пресс-служба   Следственного   комитета
+A3	Department T10
+T11	Organization 197 221	Следственного   комитета
+T12	Person 227 233	Кляйна
+A4	Male T12
+T13	Person-surname 227 233	Кляйна
+T14	Law 295 324	часть   2   статьи   286   УК
+T15	Date-absolute 369 384	в   2016   году
+T16	Person-property 398 413	предпринимателю
+T17	Organization 453 486	завода   ``   Томское   пиво   ''
+T18	GPE 467 474	Томское
+A5	Adjective T18
+T19	Date-absolute 675 700	Сегодня   ,   14   ноября
+T20	Nationality 730 747	местных   жителей
+A7	Resident T20
+T21	Person 804 810	Кляйну
+A8	Male T21
+T22	Person-surname 804 810	Кляйну
+T23	Person-property 853 871	местные   депутаты
+T24	Person-property 907 921	главу   города
+T25	Organization 944 948	ТВ 2
+A9	Media T25
+T26	Person 951 987	депутат   гордумы   Максим   Забелин
+A10	Male T26
+T27	Person-property 951 968	депутат   гордумы
+T28	Organization 961 968	гордумы
+T29	Person-forename 971 977	Максим
+T30	Person-surname 980 987	Забелин
+T31	Quantity 1010 1032	более   ста   подписей
+T32	Ordinal 303 304	2
+T33	Ordinal 316 319	286
+T34	Law 322 324	УК
+A11	Past T15
+T35	Quantity 707 747	несколько   десятков   местных   жителей
+A6	Past T19
+T36	Event 813 829	домашний   арест
+T37	Ordinal 947 948	2
+T38	GPE 730 737	местных
+A12	Adjective T38
+T39	GPE 853 860	местные
+A13	Adjective T39
+T40	GPE 141 147	города
+T41	GPE 915 921	города

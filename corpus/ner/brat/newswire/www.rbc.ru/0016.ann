@@ -1,0 +1,131 @@
+T1	Quantity 42 62	пятерку   сильнейших
+T2	Event 70 90	этапе   Кубка   мира
+T3	Event 78 90	Кубка   мира
+T4	Person 92 153	Десятикратная   чемпионка   мира   норвежка   Тереза   Йохауг
+T5	Person-property 92 124	Десятикратная   чемпионка   мира
+T6	Quantity 92 105	Десятикратная
+T7	Nationality 127 135	норвежка
+A1	Citizenship T7
+T8	Event 167 181	лыжную   гонку
+T9	Quantity 189 196	10   км
+T10	Event 255 275	этапе   Кубка   мира
+T11	Event 263 275	Кубка   мира
+T12	GPE 282 296	финской   Руке
+T13	Date-period-relative 332 363	за   25   минут   1,4   секунды
+T14	Quantity 373 390	тройку   призеров
+T15	Quantity 410 433	две   шведские   лыжниц
+T16	Person-property 427 434	лыжницы
+T17	Person 439 455	Фрида   Карлссон
+T19	Time-period 539 558	на   26,0   секунды
+T20	Person 516 532	Эбба   Андерссон
+T21	Quantity 564 584	Пятерку   сильнейших
+T22	Quantity 598 613	две   россиянки
+T23	Nationality 604 613	россиянки
+A2	Citizenship T23
+T24	Person 618 669	Татьяна   Сорина   (   в   девичестве   Алешина   )
+T26	Ordinal 736 745	четвертой
+T27	Person 771 777	Йохауг
+T28	Duration 784 798	26,1   секунды
+T29	Age 809 818	26-летней
+T30	Person-property 821 832	спортсменки
+T31	Ordinal 861 867	первым
+T32	Person 902 920	Наталья   Непряева
+T33	Ordinal 961 967	третье
+T34	Event 999 1011	Кубка   мира
+T35	Quantity 1039 1051	на   10   км
+T36	Ordinal 1054 1059	пятое
+T37	Time-period 1107 1121	30,3   секунды
+T38	Nationality 1193 1199	шведка
+A3	Citizenship T38
+T39	Person 1193 1213	шведка   Линн   Сван
+T40	GPE 1248 1252	Руке
+T41	Quantity 1291 1303	на   10   км
+T42	Ordinal 1320 1324	11-й
+T43	Ordinal 1329 1335	Второе
+T44	Person 1358 1398	ее   соотечественница   Майя   Дальквист
+T45	Ordinal 1477 1484	десятый
+T46	Person 1501 1509	Непряева
+T47	Date-absolute 1585 1618	В   воскресенье   ,   29   ноября
+T48	GPE 1663 1667	Руке
+T49	Quantity 1694 1706	на   10   км
+T50	Event 1732 1760	Второй   этап   Кубка   мира
+T51	Event 1748 1760	Кубка   мира
+T52	Date-period-absolute 1773 1794	12   -   13   декабря
+T53	GPE 1801 1821	швейцарском   Давосе
+T54	Ordinal 1529 1535	третью
+T55	Ordinal 1732 1738	Второй
+T56	Date-absolute 1220 1228	накануне
+T57	Event 1651 1656	этапе
+T58	Quantity 0 26	Две   российские   лыжницы
+T59	Person-property 19 26	лыжницы
+T60	GPE 6 16	российские
+A4	Adjective T60
+A5	Female T4
+T61	Person-forename 138 144	Тереза
+T62	Person-surname 147 153	Йохауг
+T63	GPE 120 124	мира
+T64	GPE 282 289	финской
+A6	Adjective T64
+T65	Duration 337 363	25   минут   1,4   секунды
+A7	Past T13
+T66	Duration 495 509	21,8   секунды
+T18	Time-period 490 509	на   21,8   секунды
+T67	Duration 544 558	26,0   секунды
+T68	Person-forename 439 444	Фрида
+T69	Person-surname 447 455	Карлссон
+A8	Female T17
+T70	Person-forename 516 520	Эбба
+T71	Person-surname 523 532	Андерссон
+A9	Female T20
+T72	Person-forename 618 625	Татьяна
+T73	Person-surname 628 634	Сорина
+A10	Female T24
+T74	Person-surname 658 665	Алешина
+T75	Person-surname 771 777	Йохауг
+A12	Female T27
+T76	Time-period 780 798	в   26,1   секунды
+T77	Date-period-absolute 870 886	после   рождения
+A13	Past T77
+T78	Family 889 896	ребенка
+T79	Event 878 896	рождения   ребенка
+T80	Person-forename 902 909	Наталья
+T81	Person-surname 912 920	Непряева
+A14	Female T32
+T82	Ordinal 931 938	прошлом
+T83	Date-absolute 927 947	в   прошлом   сезоне
+A15	Past T83
+T84	Ordinal 1148 1157	нынешнего
+T85	Event 1148 1166	нынешнего   сезона
+T86	Person-forename 1202 1206	Линн
+T87	Person-surname 1209 1213	Сван
+A17	Female T39
+A18	Past T56
+T88	Person-forename 1382 1386	Майя
+T89	Person-surname 1389 1398	Дальквист
+A19	Female T44
+T90	Person-surname 1501 1509	Непряева
+A20	Female T46
+A21	Future T47
+T91	GPE 1801 1812	швейцарском
+A23	Adjective T91
+T92	Ordinal 835 843	нынешний
+T25	Duration 1107 1121	30,3   секунды
+T94	Event 835 851	нынешний   сезон
+T93	Event 931 947	прошлом   сезоне
+A11	Fut T52
+T95	Date-absolute 1452 1463	в   субботу
+A16	Past T95
+T96	GPE 86 90	мира
+T97	GPE 271 275	мира
+T98	GPE 1007 1011	мира
+T99	GPE 1756 1760	мира
+T100	Event 1031 1036	гонке
+T101	Event 1268 1274	спринт
+T102	Event 1236 1241	этапе
+T103	Event 1283 1288	гонке
+T104	Event 1407 1414	спринте
+T105	Event 1670 1691	гонку   преследования
+T106	Nationality 1363 1379	соотечественница
+A22	Citizenship T106
+T107	GPE 416 424	шведские
+A24	Adjective T107

@@ -9,10 +9,10 @@
 4	``	_	_	_	_	_	_	_	SpaceAfter=No
 5	убийцу	_	_	_	_	_	_	_	SpaceAfter=No
 6	''	_	_	_	_	_	_	_	_
-7	российской	_	_	_	_	_	_	_	bratA10=T36:Adjective|bratT2=Product|bratT36=GPE
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
-9	Арматы	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
-10	''	_	_	_	_	_	_	_	bratT2=Product
+7	российской	_	_	_	_	_	_	_	bratA10=T36:Adjective|bratA18=T2:Trademark|bratT2=Product|bratT36=GPE
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T2:Trademark|bratT2=Product
+9	Арматы	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T2:Trademark|bratT2=Product
+10	''	_	_	_	_	_	_	_	bratA18=T2:Trademark|bratT2=Product
 
 # newpar id = 0096-p2
 # par_text = Армия США планирует вооружиться семейством беспилотных боевых машин Robotic Combat Vehicle (RCV), пишет Breaking Defense.
@@ -55,9 +55,9 @@
 11	машины-разведчика	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	вооруженного	_	_	_	_	_	_	_	_
-14	одной	_	_	_	_	_	_	_	_
-15	противотанковой	_	_	_	_	_	_	_	_
-16	ракетой	_	_	_	_	_	_	_	SpaceAfter=No
+14	одной	_	_	_	_	_	_	_	bratT44=Quantity
+15	противотанковой	_	_	_	_	_	_	_	bratT44=Quantity
+16	ракетой	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Quantity
 17	,	_	_	_	_	_	_	_	_
 18	до	_	_	_	_	_	_	_	_
 19	30-тонного	_	_	_	_	_	_	_	bratT12=Quantity
@@ -71,10 +71,12 @@
 27	,	_	_	_	_	_	_	_	_
 28	как	_	_	_	_	_	_	_	_
 29	70-тонный	_	_	_	_	_	_	_	bratT9=Quantity
-30	M1	_	_	_	_	_	_	_	bratT8=Product
-31	Abrams	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Product
-32	''	_	_	_	_	_	_	_	SpaceAfter=No
-33	.	_	_	_	_	_	_	_	_
+30-31	M1	_	_	_	_	_	_	_	_
+30	M	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T8:Trademark|bratT8=Product
+31	1	_	_	_	_	_	_	_	bratA19=T8:Trademark|bratT45=Ordinal|bratT8=Product
+32	Abrams	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T8:Trademark|bratT8=Product
+33	''	_	_	_	_	_	_	_	SpaceAfter=No
+34	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0096-p3-s2
 # text = 10-тонные машины, занимающие промежуточное положение между двумя вышеперечисленными, должны получить пулемет, ракетное вооружение и 30-миллиметровую пушку.
@@ -108,9 +110,9 @@
 3	пишет	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	тяжелые	_	_	_	_	_	_	_	bratT14=Product
-7	машины	_	_	_	_	_	_	_	bratT14=Product
-8	RCV	_	_	_	_	_	_	_	bratT14=Product
+6	тяжелые	_	_	_	_	_	_	_	bratA20=T14:Trademark|bratT14=Product
+7	машины	_	_	_	_	_	_	_	bratA20=T14:Trademark|bratT14=Product
+8	RCV	_	_	_	_	_	_	_	bratA20=T14:Trademark|bratT14=Product
 9	будут	_	_	_	_	_	_	_	_
 10	способны	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -124,14 +126,17 @@
 19	в	_	_	_	_	_	_	_	_
 20	частности	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
-22	Т-14	_	_	_	_	_	_	_	bratT15=Product
-23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
-24	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
-25	''	_	_	_	_	_	_	_	bratT15=Product
-26	и	_	_	_	_	_	_	_	_
-27	Type	_	_	_	_	_	_	_	bratT33=Product
-28	99	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Product
-29	.	_	_	_	_	_	_	_	_
+22-24	Т-14	_	_	_	_	_	_	_	_
+22	Т	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T15:Trademark|bratT15=Product
+23	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T15:Trademark|bratT15=Product
+24	14	_	_	_	_	_	_	_	bratA21=T15:Trademark|bratT15=Product|bratT51=Cardinal
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T15:Trademark|bratT15=Product
+26	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T15:Trademark|bratT15=Product
+27	''	_	_	_	_	_	_	_	bratA21=T15:Trademark|bratT15=Product
+28	и	_	_	_	_	_	_	_	_
+29	Type	_	_	_	_	_	_	_	bratA22=T33:Trademark|bratT33=Product
+30	99	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T33:Trademark|bratT33=Product|bratT52=Cardinal
+31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0096-p4-s2
 # text = ``Машины будут выполнять одни из самых опасных задач солдат'', - отмечает издание.
@@ -169,11 +174,11 @@
 11	,	_	_	_	_	_	_	_	_
 12	вероятно	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
-14	британским	_	_	_	_	_	_	_	bratA13=T40:Adjective|bratT19=Product|bratT40=GPE
-15	боевым	_	_	_	_	_	_	_	bratT19=Product
-16	танком	_	_	_	_	_	_	_	bratT19=Product
-17	Challenger	_	_	_	_	_	_	_	bratT19=Product
-18	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Product
+14	британским	_	_	_	_	_	_	_	bratA13=T40:Adjective|bratA23=T19:Trademark|bratT19=Product|bratT40=GPE
+15	боевым	_	_	_	_	_	_	_	bratA23=T19:Trademark|bratT19=Product
+16	танком	_	_	_	_	_	_	_	bratA23=T19:Trademark|bratT19=Product
+17	Challenger	_	_	_	_	_	_	_	bratA23=T19:Trademark|bratT19=Product
+18	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T19:Trademark|bratT19=Product|bratT57=Ordinal
 19	,	_	_	_	_	_	_	_	_
 20	получившим	_	_	_	_	_	_	_	_
 21	новые	_	_	_	_	_	_	_	_
@@ -199,13 +204,16 @@
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	убийцей	_	_	_	_	_	_	_	SpaceAfter=No
 15	''	_	_	_	_	_	_	_	_
-16	российского	_	_	_	_	_	_	_	bratA15=T41:Adjective|bratT23=Product|bratT41=GPE
-17	танка	_	_	_	_	_	_	_	bratT23=Product
-18	Т-14	_	_	_	_	_	_	_	bratT23=Product
-19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Product
-20	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Product
-21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Product
-22	.	_	_	_	_	_	_	_	_
+16	российского	_	_	_	_	_	_	_	bratA15=T41:Adjective|bratA24=T23:Trademark|bratT23=Product|bratT41=GPE
+17	танка	_	_	_	_	_	_	_	bratA24=T23:Trademark|bratT23=Product
+18-20	Т-14	_	_	_	_	_	_	_	_
+18	Т	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T23:Trademark|bratT23=Product
+19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T23:Trademark|bratT23=Product
+20	14	_	_	_	_	_	_	_	bratA24=T23:Trademark|bratT23=Product|bratT48=Cardinal
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T23:Trademark|bratT23=Product
+22	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T23:Trademark|bratT23=Product
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T23:Trademark|bratT23=Product
+24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0096-p6
 # par_text = В феврале американская компания Bell выпустила в Twitter рекламный ролик, в котором вертолет 360 Invictus «убивает» перспективные российские боевые машины Т-14 и Т-15 платформы «Армата».
@@ -225,7 +233,7 @@
 12	в	_	_	_	_	_	_	_	_
 13	котором	_	_	_	_	_	_	_	_
 14	вертолет	_	_	_	_	_	_	_	bratT26=Product
-15	360	_	_	_	_	_	_	_	bratT26=Product
+15	360	_	_	_	_	_	_	_	bratT26=Product|bratT47=Cardinal
 16	Invictus	_	_	_	_	_	_	_	bratT26=Product
 17	``	_	_	_	_	_	_	_	SpaceAfter=No
 18	убивает	_	_	_	_	_	_	_	SpaceAfter=No
@@ -234,12 +242,18 @@
 21	российские	_	_	_	_	_	_	_	bratA17=T43:Adjective|bratA2=T27:Plural|bratT27=Product|bratT43=GPE
 22	боевые	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
 23	машины	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
-24	Т-14	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product|bratT34=Product
-25	и	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
-26	Т-15	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product|bratT35=Product
-27	платформы	_	_	_	_	_	_	_	bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
-28	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
-29	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
-30	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
-31	.	_	_	_	_	_	_	_	_
+24-26	Т-14	_	_	_	_	_	_	_	_
+24	Т	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT27=Product|bratT34=Product
+25	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT27=Product|bratT34=Product
+26	14	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product|bratT34=Product|bratT54=Cardinal
+27	и	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product
+28-30	Т-15	_	_	_	_	_	_	_	_
+28	Т	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT27=Product|bratT35=Product
+29	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT27=Product|bratT35=Product
+30	15	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Product|bratT35=Product|bratT56=Cardinal
+31	платформы	_	_	_	_	_	_	_	bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+33	Армата	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+34	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratA6=T32:Trademark|bratT27=Product|bratT32=Product
+35	.	_	_	_	_	_	_	_	_
 

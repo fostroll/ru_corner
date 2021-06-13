@@ -1,0 +1,59 @@
+T1	Person-forename 13 19	Бритни
+T2	Person-surname 22 27	Спирс
+T3	Person 13 27	Бритни   Спирс
+A1	Female T3
+T4	Family 6 10	отец
+T5	Person 6 27	отец   Бритни   Спирс
+A2	Male T5
+T6	Person-property 53 59	певицы
+T7	Date-period-absolute 136 153	больше   12   лет
+A3	Past-Pres T7
+A4	RCont T7
+T8	Person-forename 235 241	Бритни
+T9	Person-surname 244 249	Спирс
+T10	Family 293 297	отец
+T11	Person-forename 300 316	Джеймс   Парнелл
+T12	Person-surname 319 324	Спирс
+T13	Person 235 249	Бритни   Спирс
+A5	Female T13
+T14	Person 293 324	отец   Джеймс   Парнелл   Спирс
+A6	Male T14
+T15	Person-property 269 286	законный   опекун
+T16	Other-group 329 344	Фанаты   звезды
+T17	Person-property 338 344	звезды
+T18	Date-absolute 442 448	Теперь
+A7	Present T18
+T19	Person-forename 585 591	Бритни
+T20	Person-surname 594 599	Спирс
+T21	Person-property 565 582	Бывший   фотограф
+T22	Person 585 599	Бритни   Спирс
+A8	Female T22
+T23	Person-forename 602 607	Эндрю
+T24	Person-surname 610 617	Гэллери
+T25	Person 565 617	Бывший   фотограф   Бритни   Спирс   Эндрю   Гэллери
+A9	Male T25
+T26	Person-property 652 658	певицы
+T27	Date-absolute 692 707	в   2009   году
+A10	Past T27
+T28	Duration 145 153	12   лет
+T29	Person-property 384 390	певицы
+T31	Service 729 735	TikTok
+T32	Person-forename 738 743	Эндрю
+T33	Person 738 743	Эндрю
+A12	Male T33
+T34	Person-forename 932 938	Бритни
+T35	Person 932 938	Бритни
+A13	Female T35
+T37	Date-period-absolute 941 988	в   2008   году   ,   во   время   ее   камбэка
+A15	Past T37
+T39	Date-relative 993 1007	В   то   время
+A16	Past T39
+T40	Date-relative 1117 1122	тогда
+A17	Past T40
+T41	Other-group 833 857	движением   #FreeBritney
+T42	Time-period 1095 1108	каждый   день
+T43	Duration 1104 1108	день
+T44	Person 264 286	ее   законный   опекун
+A18	Male T44
+T45	Other-group 414 437	движение   #FreeBritney
+T30	Family 117 122	детей

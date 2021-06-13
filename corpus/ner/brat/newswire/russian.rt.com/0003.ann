@@ -1,45 +1,49 @@
 T1	GPE 4 10	Москве
 T2	Other-term 42 54	коронавируса
 T3	Quantity 69 80	400   тысяч
-T4	Service 278 306	сайт   ``   Москва   24   ''
-T5	Organization 329 407	оперативный   штаб   по   контролю   и   мониторингу   ситуации   с   COVID-19
-T6	Person-property 421 445	премьер-министр   России
-T7	GPE 439 445	России
-T8	Person 421 465	премьер-министр   России   Михаил   Мишустин
-T9	Organization 506 519	правительству
-T10	Other-term 565 590	коронавирусной   инфекции
-T11	Person-property 596 637	Депутат   Госдумы   III   -   V   созывов
-T12	Organization 606 637	Госдумы   III   -   V   созывов
-T15	Person-property 690 704	академик   РАН
-T16	Person-property 707 745	заслуженный   деятель   науки   России
-T17	GPE 739 745	России
-T18	Person 596 767	Депутат   Госдумы   III   -   V   созывов   доктор   медицинских   наук   ,   профессор   ,   академик   РАН   заслуженный   деятель   науки   России   Сергей   Колесников
-T19	Organization 787 790	ФАН
-T20	Other-term 824 836	коронавируса
-T13	Person-property 640 667	доктор   медицинских   наук
-T14	Person-property 674 683	профессор
+T5	Organization 331 411	оперативный   штаб   по   контролю   и   мониторингу   ситуации   с   COVID - 19
+T6	Person-property 425 449	премьер-министр   России
+T7	GPE 443 449	России
+T8	Person 425 469	премьер-министр   России   Михаил   Мишустин
+T9	Organization 510 523	правительству
+T10	Other-term 569 594	коронавирусной   инфекции
+T11	Person-property 600 641	Депутат   Госдумы   III   -   V   созывов
+T12	Organization 610 641	Госдумы   III   -   V   созывов
+T15	Person-property 694 708	академик   РАН
+T16	Person-property 711 749	заслуженный   деятель   науки   России
+T17	GPE 743 749	России
+T18	Person 600 771	Депутат   Госдумы   III   -   V   созывов   доктор   медицинских   наук   ,   профессор   ,   академик   РАН   заслуженный   деятель   науки   России   Сергей   Колесников
+T19	Organization 791 794	ФАН
+T20	Other-term 828 840	коронавируса
+T13	Person-property 644 671	доктор   медицинских   наук
+T14	Person-property 678 687	профессор
 A1	Media T19
-T21	Ordinal 616 619	III
-A2	Media T4
+T21	Ordinal 620 623	III
 T22	Duration 87 92	сутки
 T23	Quantity 95 117	ещё   6080   пациентов
-T24	Other-term 138 174	коронавирусной   инфекции   COVID-19
-T25	GPE 181 187	Москве
-T26	Quantity 237 246	400   332
-T27	Ordinal 626 627	V
-T28	Date-relative 413 418	Ранее
-T29	Other-term 399 407	COVID-19
+T24	Other-term 138 176	коронавирусной   инфекции   COVID - 19
+T25	GPE 183 189	Москве
+T26	Quantity 239 248	400   332
+T27	Ordinal 630 631	V
+T28	Date-relative 417 422	Ранее
+T29	Other-term 401 411	COVID - 19
 T30	Date-period-absolute 82 92	За   сутки
 A3	Past-Pres T30
 A4	Past T28
-T32	Person-forename 448 454	Михаил
-T33	Person-surname 457 465	Мишустин
-T34	Person-forename 748 754	Сергей
-T35	Person-surname 757 767	Колесников
-T31	Organization 285 306	``   Москва   24   ''
+T32	Person-forename 452 458	Михаил
+T33	Person-surname 461 469	Мишустин
+T34	Person-forename 752 758	Сергей
+T35	Person-surname 761 771	Колесников
+T31	Organization 287 308	``   Москва   24   ''
 A5	Media T31
 A6	Male T8
 A7	Male T18
-T36	Organization 701 704	РАН
-T37	Duration 478 489	еженедельно
-T38	Time-period 478 489	еженедельно
+T36	Organization 705 708	РАН
+T37	Duration 482 493	еженедельно
+T38	Time-period 482 493	еженедельно
+T4	Service 280 308	сайт   ``   Москва   24   ''
+A2	Media T4
+T39	Cardinal 174 176	19
+T41	Cardinal 409 411	19
+T40	Time-period 301 303	24
+T42	Duration 301 303	24

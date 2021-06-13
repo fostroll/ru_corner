@@ -63,20 +63,23 @@
 4	беседе	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T2:Media|bratT2=Organization
-7	Газетой.Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Media|bratT2=Organization
-8	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T2:Media|bratT2=Organization
-9	высказал	_	_	_	_	_	_	_	_
-10	депутат	_	_	_	_	_	_	_	bratA8=T6:Male|bratT4=Person-property|bratT6=Person
-11	Госдумы	_	_	_	_	_	_	_	bratA8=T6:Male|bratT4=Person-property|bratT5=Organization|bratT6=Person
-12	и	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person
-13	бывший	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
-14	главный	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
-15	санитарный	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
-16	врач	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
-17	России	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
-18	Геннадий	_	_	_	_	_	_	_	bratA8=T6:Male|bratT34=Person-forename|bratT6=Person
-19	Онищенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T6:Male|bratT35=Person-surname|bratT6=Person
-20	.	_	_	_	_	_	_	_	_
+7-9	Газетой.Ru	_	_	_	_	_	_	_	SpaceAfter=No
+7	Газетой	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Media|bratT2=Organization
+8	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Media|bratT2=Organization
+9	Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Media|bratT2=Organization
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T2:Media|bratT2=Organization
+11	высказал	_	_	_	_	_	_	_	_
+12	депутат	_	_	_	_	_	_	_	bratA8=T6:Male|bratT4=Person-property|bratT6=Person
+13	Госдумы	_	_	_	_	_	_	_	bratA8=T6:Male|bratT4=Person-property|bratT5=Organization|bratT6=Person
+14	и	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person
+15	бывший	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+16	главный	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+17	санитарный	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+18	врач	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property
+19	России	_	_	_	_	_	_	_	bratA8=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
+20	Геннадий	_	_	_	_	_	_	_	bratA8=T6:Male|bratT34=Person-forename|bratT6=Person
+21	Онищенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T6:Male|bratT35=Person-surname|bratT6=Person
+22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0067-p4
 # par_text = «Я, конечно, поддерживаю, но это нереализуемое предложение. Потому что сейчас поросячий визг начнется: на горло людям наступают, рыночная экономика, священные правила свободной конкуренции и так далее. Сейчас на рынок выбросит всю дрянь, вплоть до самой последней бутылки. А потом скорая помощь будет ошалело собирать последствия безудержного глумления над нацией. В первую декаду января у нас вся страна бездельничает, а скорая помощь с утроенной нагрузкой работает. Для медиков – это абсолютно кошмарные дни», — сказал он.
@@ -150,7 +153,7 @@
 9	безудержного	_	_	_	_	_	_	_	_
 10	глумления	_	_	_	_	_	_	_	_
 11	над	_	_	_	_	_	_	_	_
-12	нацией	_	_	_	_	_	_	_	SpaceAfter=No
+12	нацией	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T42:Citizenship|bratT42=Nationality
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0067-p4-s5
@@ -162,7 +165,7 @@
 5	у	_	_	_	_	_	_	_	_
 6	нас	_	_	_	_	_	_	_	_
 7	вся	_	_	_	_	_	_	_	_
-8	страна	_	_	_	_	_	_	_	_
+8	страна	_	_	_	_	_	_	_	bratT43=GPE
 9	бездельничает	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	а	_	_	_	_	_	_	_	_

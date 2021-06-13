@@ -24,7 +24,7 @@ T24	Person 423 480	нападающий   мадридского   ``   Реал
 T25	Person-property 423 465	нападающий   мадридского   ``   Реала   ''
 T26	Organization 436 465	мадридского   ``   Реала   ''
 T27	Ordinal 767 773	третью
-T29	Event 812 825	ЧМ   -   2022
+T29	Event 812 821	ЧМ - 2022
 T30	Person-property 508 537	нападающий   сборной   Сербии
 T31	Organization 521 537	сборной   Сербии
 T32	GPE 531 537	Сербии
@@ -35,13 +35,16 @@ T36	Organization 641 655	``   Реал   ''
 T37	Service 673 694	Twitter   Opta   Jose
 A1	Media T37
 T9	Date-relative 700 705	Ранее
-T28	Date-absolute 219 228	в   матче
-A2	Past T28
 A3	Past T9
 T38	Person-forename 468 472	Лука
 T39	Person-surname 475 480	Йович
 A4	Male T24
 T40	GPE 436 447	мадридского
 A5	Adjective T40
-T41	Date-absolute 821 825	2022
+T41	Date-absolute 817 821	2022
 A6	Future T41
+T28	Event 294 301	Встреча
+T42	GPE 185 197	национальной
+A2	Adjective T42
+T43	GPE 548 560	национальной
+A7	Adjective T43

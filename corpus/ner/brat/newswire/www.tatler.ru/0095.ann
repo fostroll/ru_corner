@@ -1,0 +1,46 @@
+T1	Person 0 12	Билл   Гейтс
+T2	Event 19 42	пандемии   коронавируса
+T3	Date-absolute 160 175	в   2015   году
+T4	Person 211 223	Билл   Гейтс
+T5	Event 276 284	пандемии
+T6	Date-absolute 289 296	Сегодня
+T7	Person-property 384 406	основателя   Microsoft
+T8	Organization 397 406	Microsoft
+T9	Event 413 450	пандемии   коронавируса   2020   года
+T10	Date-absolute 439 450	2020   года
+T11	Person-property 497 507	миллиардер
+T12	Organization 527 561	французской   газете   Le   Figaro
+A1	Media T12
+T13	Organization 1142 1177	агентство   ``   РИА   Новости   ''
+A2	Media T13
+T14	Person 1182 1187	Гейтс
+T15	Product 191 204	проекта   TED
+T16	Date-period-relative 712 743	не   меньше   года   или   двух
+A3	Male T1
+T20	Person-forename 0 4	Билл
+T21	Person-surname 7 12	Гейтс
+A4	Past T3
+T18	Date-absolute 100 142	раньше   ,   чем   через   год   или   два
+T22	Duration 127 142	год   или   два
+A5	Male T4
+T24	Person-forename 211 215	Билл
+T25	Person-surname 218 223	Гейтс
+A6	Present T6
+T26	Duration 712 743	не   меньше   года   или   двух
+A8	Male T14
+T28	Person-surname 1182 1187	Гейтс
+A9	Project T15
+T29	GPE 245 248	мир
+T30	GPE 527 538	французской
+A10	Adjective T30
+T31	Date-absolute 1210 1216	сейчас
+A11	Present T31
+T32	Other-term 424 436	коронавируса
+T33	Other-term 30 42	коронавируса
+T34	Date-relative 955 980	до   тех   пор   ,   пока
+A12	Future T34
+A13	UNK-Fut T16
+T17	GPE 609 612	мир
+T27	GPE 466 474	мировыми
+A14	Adjective T27
+A15	Future T18

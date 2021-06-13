@@ -1,0 +1,65 @@
+T1	Organization 0 4	ЕСПЧ
+T2	Money 18 35	67   тысяч   евро
+T3	Nationality 38 52	жителю   Чечни
+A1	Resident T3
+T4	GPE 47 52	Чечни
+T5	Date-absolute 70 85	в   2005   году
+A2	Past T5
+T6	Person-property 167 176	силовиков
+T7	Organization 219 261	Европейский   суд   по   правам   человека
+T8	GPE 219 230	Европейский
+A3	Adjective T8
+T9	Money 275 292	67   тысяч   евро
+T10	Person 309 346	уроженцу   Чечни   Муслиму   Чудалову
+A4	Male T10
+T11	Nationality 309 325	уроженцу   Чечни
+T12	GPE 320 325	Чечни
+T13	Person-forename 328 335	Муслиму
+T14	Person-surname 338 346	Чудалову
+T15	Service 539 544	сайте
+A6	Media T15
+T17	Person-property 568 579	потерпевших
+T18	Organization 597 658	правозащитная   организация   ``   Правовая   инициатива   ''
+T20	GPE 714 724	российских
+A7	Adjective T20
+T21	Person 741 749	Чудалова
+A8	Male T21
+T22	Person-surname 741 749	Чудалова
+T23	Date-absolute 764 788	9   января   2005   года
+A9	Past T23
+T24	Organization 824 877	отдел   милиции   по   Ленинскому   району   Грозного
+T25	GPE 847 877	Ленинскому   району   Грозного
+T26	GPE 869 877	Грозного
+T27	Person 1079 1086	Чудалов
+A11	Male T27
+T28	Person-surname 1079 1086	Чудалов
+T29	Date-absolute 1112 1122	8   января
+A12	Past T29
+T30	Person-property 1125 1141	сотрудники   ГАИ
+T31	Organization 1138 1141	ГАИ
+T32	Organization 1278 1311	отделе   по   Ленинскому   району
+T33	GPE 1292 1311	Ленинскому   району
+T34	Person-property 1314 1325	милиционеры
+T35	Person-property 1452 1460	Силовики
+T36	Person-property 1541 1552	милиционеры
+T37	Date-relative 1533 1538	Затем
+T38	Person-property 1583 1594	задержанный
+T39	Person 1631 1638	Чудалов
+A14	Male T39
+T40	Person-surname 1631 1638	Чудалов
+T41	Date-absolute 1727 1764	После   нескольких   часов   избиений
+T42	Person 1767 1774	Чудалов
+A15	Male T42
+T43	Person-surname 1767 1774	Чудалов
+T44	Date-relative 443 448	затем
+T16	Date-relative 793 800	Позднее
+T45	Date-absolute 890 910	во   время   допроса
+A16	Past T45
+T46	Duration 1735 1753	нескольких   часов
+A17	Past T41
+T47	Date-relative 187 192	затем
+T48	Quantity 407 432	нескольких   преступлений
+A18	Past T16
+A19	Past T44
+A10	Past T37
+A5	Citizenship T11

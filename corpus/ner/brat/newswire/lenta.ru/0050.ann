@@ -2,7 +2,7 @@ T1	Nationality 0 8	Китайцев
 A1	Citizenship T1
 T2	GPE 43 48	Китае
 T3	Organization 280 293	China   Daily
-T4	Person 650 661	Юань   Синь
+T4	Person 650 725	Юань   Синь   ,   вице-президент   Китайской   ассоциации   народонаселения
 T5	Person-property 668 725	вице-президент   Китайской   ассоциации   народонаселения
 T6	Organization 685 725	Китайской   ассоциации   народонаселения
 T7	Ordinal 331 338	второго
@@ -33,3 +33,24 @@ A5	Male T4
 A6	Adjective T22
 A7	Adjective T23
 A8	Male T10
+T28	Product 320 348	политика   второго   ребенка
+A9	Project T28
+T29	Product 78 113	политику   уменьшения   рождаемости
+A10	Project T29
+T30	Nationality 210 226	граждан   страны
+A11	Citizenship T30
+T31	Product 412 443	политики   планирования   семьи
+A12	Project T31
+T33	Nationality 1166 1183	китайским   парам
+A13	Citizenship T33
+T34	Product 1225 1261	политика   ограничения   рождаемости
+A14	Project T34
+T35	Product 1579 1610	политика   планирования   семьи
+A15	Project T35
+T32	Person-property 1027 1038	специалисты
+T37	Nationality 616 625	населения
+A16	Resident T37
+T38	Nationality 710 725	народонаселения
+A17	Citizenship T38
+T39	Nationality 167 172	нации
+A18	Citizenship T39

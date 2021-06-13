@@ -22,29 +22,29 @@ T21	Person-property 1040 1081	кандидата   от   Демократиче
 T22	Person 1040 1101	кандидата   от   Демократической   партии   Джозефа   Байдена
 T23	Person 1106 1111	Трамп
 T24	Political-group 1252 1263	демократами
-T25	Service 1399 1411	сайт   kp.ru
+T25	Service 1399 1413	сайт   kp . ru
 A2	Media T25
-T26	GPE 1487 1490	США
-T27	Event 1457 1480	президентских   выборах
-T28	Person-property 1518 1552	действующий   американский   лидер
-T29	Political-group 1591 1600	демократа
-T30	GPE 1662 1668	Неваде
-T31	Person 1682 1688	Байден
-T32	GPE 1756 1771	штате   Мичиган
-T33	Political-group 1721 1734	республиканца
-T34	Service 1777 1789	Сайт   kp.ru
+T26	GPE 1489 1492	США
+T27	Event 1459 1482	президентских   выборах
+T28	Person-property 1520 1554	действующий   американский   лидер
+T29	Political-group 1593 1602	демократа
+T30	GPE 1664 1670	Неваде
+T31	Person 1684 1690	Байден
+T32	GPE 1758 1773	штате   Мичиган
+T33	Political-group 1723 1736	республиканца
+T34	Service 1779 1793	Сайт   kp . ru
 A3	Media T34
-T35	GPE 1843 1846	США
-T36	Event 1829 1836	выборов
+T35	GPE 1847 1850	США
+T36	Event 1833 1840	выборов
 T37	Service 806 814	странице
 A4	Media T37
-T38	Quantity 1607 1617	одном   из
+T38	Quantity 1609 1619	одном   из
 T39	Time-absolute 989 996	вечером
 T40	Date-relative 1391 1396	Ранее
 T41	Date-relative 849 854	ранее
-T42	Organization 1406 1411	kp.ru
+T42	Organization 1406 1413	kp . ru
 A1	Media T42
-T43	Organization 1784 1789	kp.ru
+T43	Organization 1786 1793	kp . ru
 T44	Quantity 272 293	целом   ряде   штатов
 T46	Date-relative 978 996	накануне   вечером
 A5	Past T46
@@ -57,9 +57,9 @@ T49	Person-surname 630 637	Байдена
 T50	Person-forename 1084 1091	Джозефа
 T51	Person-surname 1094 1101	Байдена
 T52	Person-surname 1106 1111	Трамп
-T53	Person-surname 1682 1688	Байден
+T53	Person-surname 1684 1690	Байден
 T54	GPE 857 869	американский
-T55	GPE 1532 1544	американский
+T55	GPE 1534 1546	американский
 T56	GPE 108 120	американский
 A8	Male T1
 A9	Male T4
@@ -76,3 +76,8 @@ A17	Adjective T54
 T59	Political-group 1057 1072	Демократической
 A18	Adjective T59
 A19	Adjective T55
+T60	Service 1804 1830	прямую   онлайн-трансляцию
+A20	Media T60
+T61	Web-address 1786 1793	kp . ru
+T62	Web-address 1406 1413	kp . ru
+T63	GPE 725 739	нашей   страны

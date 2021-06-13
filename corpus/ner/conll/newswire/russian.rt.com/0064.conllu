@@ -202,7 +202,7 @@
 # text = Комитет госконтроля республики заявил, что на базе банка действовала организованная преступная группа, выводившая деньги за границу.
 1	Комитет	_	_	_	_	_	_	_	bratT16=Organization
 2	госконтроля	_	_	_	_	_	_	_	bratT16=Organization
-3	республики	_	_	_	_	_	_	_	bratT16=Organization
+3	республики	_	_	_	_	_	_	_	bratT16=Organization|bratT53=GPE
 4	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -229,9 +229,9 @@
 5	,	_	_	_	_	_	_	_	_
 6	претендовавший	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	пост	_	_	_	_	_	_	_	_
+8	пост	_	_	_	_	_	_	_	bratT18=Person-property
 9	президента	_	_	_	_	_	_	_	bratT18=Person-property
-10	Белоруссии	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property
+10	Белоруссии	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT51=GPE
 11	,	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
 13	его	_	_	_	_	_	_	_	bratA12=T20:Male|bratT20=Person
@@ -270,7 +270,7 @@
 9	на	_	_	_	_	_	_	_	bratT25=Person-property
 10	пост	_	_	_	_	_	_	_	bratT25=Person-property
 11	президента	_	_	_	_	_	_	_	bratT25=Person-property
-12	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
+12	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property|bratT52=GPE
 13	,	_	_	_	_	_	_	_	_
 14	экс-главе	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT28=Person-property
 15	Белгазпромбанка	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT28=Person-property|bratT29=Organization

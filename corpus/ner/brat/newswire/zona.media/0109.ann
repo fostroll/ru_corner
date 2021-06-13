@@ -1,0 +1,61 @@
+T1	Person-property 1 46	сужденный   по   ``   московскому   делу   ''
+T3	Person 0 63	Осужденный   по   ``   московскому   делу   ''   Данил   Беглец
+A1	Male T3
+T4	Person-forename 49 54	Данил
+T5	Person-surname 57 63	Беглец
+T6	Person 107 163	Фигурант   ``   московского   дела   ''   Данил   Беглец
+A2	Male T6
+T7	Person-property 107 146	Фигурант   ``   московского   дела   ''
+T9	Person-forename 149 154	Данил
+T10	Person-surname 157 163	Беглец
+T11	GPE 208 245	городе   Мценск   Орловской   области
+T12	GPE 226 245	Орловской   области
+T13	Person 273 312	глава   ``   Агоры   ''   Павел   Чиков
+A3	Male T13
+T14	Person-property 273 296	глава   ``   Агоры   ''
+T15	Organization 281 296	``   Агоры   ''
+T16	Person-forename 299 304	Павел
+T17	Person-surname 307 312	Чиков
+T18	Person 335 365	адвоката   Леонида   Соловьева
+A4	Male T18
+T19	Person-property 335 343	адвоката
+T20	Person-forename 346 353	Леонида
+T21	Person-surname 356 365	Соловьева
+T22	Organization 371 396	Мценский   районный   суд
+T23	GPE 371 390	Мценский   районный
+A5	Adjective T23
+T24	Date-absolute 399 411	20   октября
+A6	Past T24
+T25	Person-property 483 495	заключенного
+T26	Date-absolute 501 527	В   сентябре   2019   года
+A7	Past T26
+T27	Date-period-relative 550 566	к   двум   годам
+T28	Law 686 715	часть   1   статьи   318   УК
+T29	Date-absolute 724 755	В   конце   марта   2020   года
+A8	Past T29
+T32	Person 911 917	Беглец
+A10	Male T32
+T33	Person-surname 911 917	Беглец
+T34	Person-property 942 954	полицейского
+T35	Other-group 984 996	протестующих
+T36	Ordinal 1001 1011	Обвиняемый
+T37	Event 1058 1065	митинге
+T38	Date-absolute 864 908	во   время   акции   27   июля   2019   года
+T39	Event 877 882	акции
+T40	Person-property 1105 1128	партнера   по   бизнесу
+T41	Person-property 1152 1160	силовики
+T42	Other-group 1174 1186	протестующих
+T43	Person-property 1268 1280	полицейского
+T44	Person 1341 1347	Беглец
+A11	Male T44
+T45	Person-surname 1341 1347	Беглец
+T2	GPE 23 34	московскому
+A12	Adjective T2
+T8	GPE 123 134	московского
+A13	Adjective T8
+T46	Duration 554 566	двум   годам
+T47	Ordinal 694 695	1
+T48	Ordinal 707 710	318
+T49	Law 713 715	УК
+A14	Past T38
+A9	Past-UNK T27

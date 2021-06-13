@@ -1,0 +1,120 @@
+T1	Organization 0 9	Мосгорсуд
+T2	Person 22 42	футболисту   Мамаеву
+A1	Male T2
+T3	Person-surname 35 42	Мамаеву
+T4	Person-property 22 32	футболисту
+T5	Organization 93 121	Московский   городской   суд
+T6	GPE 93 115	Московский   городской
+A2	Adjective T6
+T7	Person 153 210	футболистам   Павлу   Мамаеву   и   Александру   Кокорину
+A3	Plural T7
+T8	Person-property 153 164	футболистам
+T9	Person 167 182	Павлу   Мамаеву
+A4	Male T9
+T10	Person-forename 167 172	Павлу
+T11	Person-surname 175 182	Мамаеву
+T12	Person 189 210	Александру   Кокорину
+A5	Male T12
+T13	Person-forename 189 199	Александру
+T14	Person-surname 202 210	Кокорину
+T15	Organization 228 256	агентство   ``   Москва   ''
+A6	Media T15
+T16	Organization 282 285	суд
+T17	Person 298 305	Мамаеву
+A7	Male T17
+T18	Person-surname 298 305	Мамаеву
+T19	Date-period-relative 308 332	год   и   пять   месяцев
+T20	Date-period-relative 350 353	год
+T21	Duration 308 332	год   и   пять   месяцев
+T22	Duration 350 353	год
+T23	Organization 388 397	Интерфакс
+A8	Media T23
+T24	Person-property 426 436	футболиста
+T25	Law 490 519	часть   2   статьи   213   УК
+T26	Person 540 548	Кокорину
+A9	Male T26
+T27	Person-surname 540 548	Кокорину
+T28	Date-period-relative 572 586	полтора   года
+T29	Duration 572 586	полтора   года
+T31	Person 638 664	брата   Кокорина   Кирилла
+A11	Male T31
+T32	Person-property 620 631	Футболистов
+T33	Family 638 643	брата
+T34	Person 646 654	Кокорина
+A12	Male T34
+T35	Person-surname 646 654	Кокорина
+T36	Person-forename 657 664	Кирилла
+T37	Person 671 708	тренера   Александра   Протасовицкого
+A13	Male T37
+T38	Person-property 671 678	тренера
+T39	Person-forename 681 691	Александра
+T40	Person-surname 694 708	Протасовицкого
+T43	Organization 771 810	московском   кафе   ``   Кофемания   ''
+T44	GPE 771 781	московском
+A16	Adjective T44
+T45	Person 829 901	водителем   ведущей   ``   Первого   канала   ''   Виталием   Соловчуком
+A17	Male T45
+T46	Person-property 829 838	водителем
+T48	Person-property 841 877	ведущей   ``   Первого   канала   ''
+T49	Organization 851 877	``   Первого   канала   ''
+A19	Media T49
+T50	Person-forename 880 888	Виталием
+T51	Person-surname 891 901	Соловчуком
+T52	Law 944 973	часть   2   статьи   213   УК
+T53	Law 997 1014	статья   116   УК
+T54	Law 1084 1101	статья   115   УК
+T55	Date-absolute 1111 1136	В   мае   прошлого   года
+A20	Past T55
+T41	Date-absolute 724 764	осенью   2018   года   после   потасовки
+A14	Past T41
+T57	Organization 1139 1176	Пресненский   районный   суд   Москвы
+T58	GPE 1139 1161	Пресненский   районный
+A15	Adjective T58
+T59	GPE 1170 1176	Москвы
+T60	Person 1220 1254	Младший   брат   Кокорина   Кирилл
+A21	Male T60
+T61	Person 1237 1245	Кокорина
+A22	Male T61
+T62	Person-surname 1237 1245	Кокорина
+T63	Family 1220 1234	Младший   брат
+T64	Person-forename 1248 1254	Кирилл
+T65	Date-period-relative 1267 1281	полтора   года
+T66	Duration 1267 1281	полтора   года
+T67	Person 1302 1315	Протасовицкий
+A23	Male T67
+T68	Person-surname 1302 1315	Протасовицкий
+T69	Date-period-relative 1322 1346	год   и   пять   месяцев
+T70	Duration 1322 1346	год   и   пять   месяцев
+T71	Date-absolute 1361 1387	В   сентябре   2019   года
+A24	Past T71
+T73	Person-property 1390 1400	футболисты
+T74	Person-forename 1407 1413	Кирилл
+T75	Person-surname 1416 1423	Кокорин
+T76	Person 1407 1423	Кирилл   Кокорин
+A26	Male T76
+T78	Date-absolute 1462 1482	Весной   2020   года
+A27	Past T78
+T79	Organization 1485 1512	Второй   кассационный   суд
+T80	Ordinal 1485 1491	Второй
+T81	Ordinal 1121 1129	прошлого
+T82	GPE 245 251	Москва
+T83	Ordinal 498 499	2
+T84	Ordinal 511 514	213
+T85	Law 517 519	УК
+T30	Ordinal 856 863	Первого
+T47	Ordinal 952 953	2
+T86	Ordinal 965 968	213
+T87	Law 971 973	УК
+T88	Ordinal 1006 1009	116
+T89	Law 1012 1014	УК
+T90	Ordinal 1093 1096	115
+T91	Law 1099 1101	УК
+A10	Past-UNK T19
+A18	Past-UNK T20
+A25	Past-UNK T28
+A28	Past-UNK T65
+A29	Past-UNK T69
+T42	Person 841 877	ведущей   ``   Первого   канала   ''
+A30	Female T42
+T56	Event 755 764	потасовки
+T72	Event 817 822	драки

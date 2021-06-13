@@ -1,0 +1,49 @@
+T1	Person 0 16	Барбара   Палвин
+T2	Person-property 27 69	``   ангелом   ''   Victoria   's   Secret
+T3	Product 47 69	Victoria   's   Secret
+T4	Service 200 218	инстаграм-странице
+A2	Media T4
+T5	Product 221 252	бренда   Victoria   's   Secret
+A3	Trademark T5
+A4	Trademark T3
+T6	Age 295 304	25-летняя
+T7	Nationality 307 315	венгерка
+T8	Person 385 401	Барбара   Палвин
+T10	Date-absolute 371 382	2018   года
+T11	Person-property 726 768	``   ангелом   ''   Victoria   's   Secret
+A7	Fiction T11
+T12	Product 746 768	Victoria   's   Secret
+A8	Trademark T12
+T13	Person 991 993	Эд
+T14	Product 1019 1021	VS
+T15	GPE 1126 1133	Венгрию
+T16	Ordinal 1288 1294	первой
+T17	Quantity 1375 1381	дважды
+T18	Date-absolute 1432 1440	в   2012
+T19	Date-absolute 1447 1459	2018   годах
+A9	Trademark T14
+A10	Female T1
+T20	Person-forename 0 7	Барбара
+T21	Person-surname 10 16	Палвин
+A11	Female T8
+A12	Past T10
+T22	Person-forename 385 392	Барбара
+T23	Person-surname 395 401	Палвин
+A13	Male T13
+T24	Person-forename 991 993	Эд
+A14	Past T18
+A15	Past T19
+T25	Date-absolute 346 359	августовского
+A1	Past T25
+T26	Person-property 413 419	модель
+T27	Family 959 964	семья
+T28	GPE 1297 1307	венгерской
+A5	Adjective T28
+T29	Person-property 1288 1317	первой   венгерской   моделью
+T30	Duration 1402 1411	ежегодных
+T31	Time-period 1402 1411	ежегодных
+T32	Date-period-absolute 1470 1476	теперь
+T9	Organization 362 368	Tatler
+A6	Media T9
+A16	Pres-Fut T32
+T33	Person-property 1006 1021	сотрудники   VS

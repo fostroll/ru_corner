@@ -1,0 +1,97 @@
+T1	Person-property 0 23	Оппозиционный   депутат
+T2	GPE 50 58	Киргизии
+T3	Organization 38 58	парламент   Киргизии
+T4	Organization 70 115	парламентской   фракции   ``   Бир   Бол   ''
+T5	Person-property 60 147	Депутат   парламентской   фракции   ``   Бир   Бол   ''   (   ``   Будь   един   ''   )
+T7	Person 60 170	Депутат   парламентской   фракции   ``   Бир   Бол   ''   (   ``   Будь   един   ''   )   Мыктыбек   Абдылдаев
+T8	GPE 208 216	Киргизии
+T9	Organization 195 216	парламента   Киргизии
+T10	Person-property 184 216	спикером   парламента   Киргизии
+T11	Organization 234 238	ТАСС
+A1	Media T11
+T12	Organization 261 284	информагентство   Kabar
+A2	Media T12
+T15	Organization 335 345	парламента
+T16	Organization 364 368	ТАСС
+A3	Media T16
+T17	GPE 375 386	Кыргызстана
+T18	Person 397 417	Мыктыбек   Абдылдаев
+T19	Person-property 462 470	Депутаты
+T21	Person-property 505 517	председателя
+T22	Organization 536 540	ТАСС
+A4	Media T22
+T23	Organization 547 557	парламента
+T24	Facility 619 643	отеле   ``   Достук   ''
+T25	Person 649 658	Абдылдаев
+T26	Person-property 669 683	пост   спикера
+T27	Person 705 729	Дастанбека   Джумабекова
+T28	GPE 786 794	Киргизии
+T29	Organization 773 794	парламента   Киргизии
+T30	Event 745 794	внеочередного   заседания   парламента   Киргизии
+T31	Person-property 888 924	пост   премьер-министра   республики
+T32	Person-property 941 966	оппозиционного   политика
+T33	Person 941 986	оппозиционного   политика   Садыра   Жапарова
+T34	Organization 992 1020	Партия   ``   Бир   Бол   ''
+T35	Organization 1035 1058	Координационный   совет
+T36	GPE 1119 1127	Киргизии
+T37	Organization 1226 1252	временного   правительства
+T38	Person-property 1218 1252	главы   временного   правительства
+T39	Person-property 1369 1378	депутатов
+T40	Person-property 1403 1414	журналистам
+T41	GPE 1444 1452	Киргизии
+T42	Organization 1431 1452	парламента   Киргизии
+T43	Person-property 1417 1452	вице-спикер   парламента   Киргизии
+T44	Person 1417 1471	вице-спикер   парламента   Киргизии   Мирлан   Бакиров
+T45	Person-property 1511 1521	силовиками
+T46	Other-group 1492 1504	протестующих
+T47	GPE 1539 1546	Бишкеке
+T49	GPE 1641 1649	Киргизии
+T50	Organization 1629 1649	парламент   Киргизии
+T51	Event 1615 1622	выборов
+T52	Event 1748 1755	выборов
+T53	Event 1477 1521	Столкновения   протестующих   с   силовиками
+T54	Event 1885 1891	митинг
+T55	Event 1965 1983	повторные   выборы
+T56	Date-absolute 732 770	во   время   внеочередного   заседания
+A5	Male T7
+T57	Person-forename 150 158	Мыктыбек
+T58	Person-surname 161 170	Абдылдаев
+T61	Person-forename 397 405	Мыктыбек
+T62	Person-surname 408 417	Абдылдаев
+A7	Male T18
+A8	Male T25
+T63	Person-surname 649 658	Абдылдаев
+A9	Male T27
+T64	Person-forename 705 715	Дастанбека
+T65	Person-surname 718 729	Джумабекова
+A10	Past T56
+A11	Male T33
+T66	Person-forename 969 975	Садыра
+T67	Person-surname 978 986	Жапарова
+A12	Male T44
+T68	Person-forename 1455 1461	Мирлан
+T69	Person-surname 1464 1471	Бакиров
+T70	Date-absolute 1549 1585	в   понедельник   после   объявления
+A14	Past T70
+T71	Date-absolute 686 702	после   отставки
+A15	Past T71
+T14	Organization 312 328	Жогорку   Кенеша
+T13	Person-property 295 328	Пост   спикера   Жогорку   Кенеша
+T20	Person-property 492 498	торага
+T59	Event 1575 1622	объявления   предварительных   итогов   выборов
+T48	Event 694 702	отставки
+T60	Date-period-absolute 1820 1852	ходе   избирательного   процесса
+A6	Past T60
+T73	Event 1827 1852	избирательного   процесса
+T74	Quantity 1662 1696	несколько   оппозиционных   партий
+T6	Political-group 0 13	Оппозиционный
+A13	Adjective T6
+T72	Political-group 941 955	оппозиционного
+A16	Adjective T72
+T75	Political-group 1077 1091	оппозиционными
+A17	Adjective T75
+T76	Organization 1077 1116	оппозиционными   политическими   силами
+T77	Political-group 1674 1687	оппозиционных
+A18	Adjective T77
+T78	Organization 1674 1696	оппозиционных   партий
+T79	GPE 914 924	республики

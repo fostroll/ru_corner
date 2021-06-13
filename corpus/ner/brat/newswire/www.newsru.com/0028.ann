@@ -1,0 +1,70 @@
+T1	GPE 24 31	Эстонии
+T2	Person-property 0 31	Министр   образования   Эстонии
+T3	GPE 143 150	Эстонии
+T4	Person-property 131 150	Президент   Эстонии
+T5	Person 131 171	Президент   Эстонии   Керсти   Кальюлайд
+T6	Person-property 195 229	министра   образования   и   науки
+T7	Person 195 245	министра   образования   и   науки   Майлис   Репс
+T8	Person 321 325	Репс
+T9	Organization 460 499	эстонского   министерства   образования
+T10	Person-property 440 499	Бывший   водитель   эстонского   министерства   образования
+T11	Organization 514 532	изданию   Õhtuleht
+A1	Media T11
+T12	Person 561 565	Репс
+T13	Family 553 558	детей
+T14	Date-period-absolute 600 612	С   сентября
+T15	Person-property 615 620	шофер
+T16	Date-relative 750 767	через   два   дня
+T17	Person 795 799	Репс
+T18	Quantity 820 835	шестеро   детей
+T19	Person-property 1031 1039	водитель
+T20	Person-property 1119 1126	министр
+T21	Person 1381 1385	Репс
+T22	Service 1497 1505	Facebook
+T23	Person-property 1609 1617	министра
+T24	Family 1624 1630	матери
+T25	Family 94 99	детей
+T26	Family 398 403	детей
+T27	Family 830 835	детей
+T28	Family 987 992	детей
+T29	Family 1466 1471	детей
+A3	Female T5
+T30	Person-forename 153 159	Керсти
+T31	Person-surname 162 171	Кальюлайд
+A4	Female T7
+T32	Person-forename 232 238	Майлис
+T33	Person-surname 241 245	Репс
+A5	Female T8
+T34	Person-surname 321 325	Репс
+T35	GPE 460 470	эстонского
+A6	Adjective T35
+A7	Female T12
+T36	Person-surname 561 565	Репс
+T37	Duration 758 767	два   дня
+A9	Past T16
+T38	Person-surname 795 799	Репс
+A10	Female T17
+T39	Person-surname 1381 1385	Репс
+A11	Female T21
+T40	Date-absolute 842 883	после   выхода   скандальной   публикации
+A12	Past T40
+T41	Date-relative 248 270	после   того   ,   как
+A13	Past T41
+T42	Time-period 677 692	рабочее   время
+T43	Time-period 1329 1350	в   нерабочее   время
+T44	Date-absolute 56 72	после   скандала
+A2	Past T44
+A8	Past T14
+T45	Event 859 883	скандальной   публикации
+T46	Person 89 99	ее   детей
+T47	Person 393 403	ее   детей
+T48	Person 553 565	детей   Репс
+T49	Person 1458 1471	своих   детей
+T50	Event 45 53	отставку
+T51	Event 64 72	скандала
+T52	Event 184 192	отставку
+T53	Event 1401 1409	отставку
+T54	Person 1026 1039	ее   водитель
+A14	Male T54
+T55	Person 440 499	Бывший   водитель   эстонского   министерства   образования
+A15	Male T55

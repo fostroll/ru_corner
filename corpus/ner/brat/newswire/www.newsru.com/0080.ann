@@ -1,0 +1,83 @@
+T1	GPE 13 20	Бишкека
+T2	Facility 46 57	Белый   дом
+T3	Organization 64 92	госкомитет   нацбезопасности
+T4	Other-group 94 106	Протестующие
+T5	GPE 157 165	Киргизии
+T6	Event 127 150	парламентских   выборов
+T7	GPE 242 249	Бишкеке
+T8	Organization 225 235	парламента
+T9	Facility 216 235	здания   парламента
+T10	Date-absolute 315 327	во   вторник
+T11	Organization 346 366	``   Интерфакса   ''
+A1	Media T11
+T12	Person-property 330 366	корреспондент   ``   Интерфакса   ''
+T13	Quantity 435 471	порядка   3   -   5   тыс.   человек
+T14	Organization 522 530	милицией
+T15	Organization 644 654	парламента
+T16	Facility 635 654	здании   парламента
+T17	Other-group 703 716	демонстрантов
+T18	Person-property 766 776	президента
+T19	GPE 867 874	Бишкека
+T20	Person-property 917 926	президент
+T21	Person 917 950	президент   Сооронбай   Жээнбеков
+T22	Person-property 1001 1020	главы   государства
+T23	Organization 990 1020	аппарата   главы   государства
+T24	Person-property 975 1020	Руководитель   аппарата   главы   государства
+T25	Person 975 1041	Руководитель   аппарата   главы   государства   Досалы   Эсеналиев
+T26	Person-property 1048 1063	пресс-секретарь
+T27	Person 1048 1087	пресс-секретарь   Толгонай   Стамалиева
+T28	Person 1137 1158	Толгонай   Стамалиева
+T29	Organization 1171 1191	агентству   АКИpress
+A2	Media T29
+T30	Person-property 1204 1213	президент
+T31	Person 1204 1225	президент   Жээнбеков
+T32	GPE 1244 1251	Бишкеке
+T33	Person-property 1279 1298	глава   государства
+T34	Date-period-relative 1343 1367	до   двух   часов   ночи
+T35	Person-property 1452 1461	Президент
+T37	Event 1579 1595	акции   протеста
+T38	Family 1604 1617	младший   сын
+T39	Person-property 1620 1645	экс-президента   Киргизии
+T40	GPE 1637 1645	Киргизии
+T41	Person 1604 1681	младший   сын   экс-президента   Киргизии   Алмазбека   Атамбаева   -   Кадыр
+T42	Person 1686 1694	Атамбаев
+T44	Other-group 1755 1767	Демонстранты
+T45	Facility 1813 1830	СИЗО   спецслужбы
+T46	Person-property 1858 1887	бывшего   главу   государства
+T47	Date-absolute 676 716	незадолго   до   прихода   демонстрантов
+T48	Person-property 1499 1531	организаторов   акции   протеста
+T50	Date-relative 1127 1134	Позднее
+T51	Date-relative 260 265	затем
+A3	Past T47
+A4	Male T21
+T52	Person-forename 929 938	Сооронбай
+T53	Person-surname 941 950	Жээнбеков
+A5	Male T25
+T54	Person-forename 1023 1029	Досалы
+T55	Person-surname 1032 1041	Эсеналиев
+A6	Female T27
+T56	Person-forename 1066 1074	Толгонай
+T57	Person-surname 1077 1087	Стамалиева
+A7	Female T28
+T58	Person-forename 1137 1145	Толгонай
+T59	Person-surname 1148 1158	Стамалиева
+A8	Male T31
+T60	Ordinal 1216 1225	Жээнбеков
+A9	Past T34
+T61	Time-absolute 1348 1367	двух   часов   ночи
+A10	Male T41
+T62	Person-forename 1648 1657	Алмазбека
+T63	Person-surname 1660 1669	Атамбаева
+T64	Person-forename 1676 1681	Кадыр
+A12	Male T42
+T65	Person-surname 1686 1694	Атамбаев
+A13	Past T50
+A14	Past T51
+T36	Event 693 716	прихода   демонстрантов
+A15	Present T10
+T49	Person 1620 1669	экс-президента   Киргизии   Алмазбека   Атамбаева
+A11	Male T49
+T43	GPE 1009 1020	государства
+T66	GPE 1287 1298	государства
+T67	GPE 1876 1887	государства
+T68	Organization 1820 1830	спецслужбы

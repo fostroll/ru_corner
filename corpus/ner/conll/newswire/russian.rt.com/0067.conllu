@@ -27,8 +27,11 @@
 7	новый	_	_	_	_	_	_	_	bratT18=Quantity
 8	случай	_	_	_	_	_	_	_	bratT18=Quantity
 9	заболевания	_	_	_	_	_	_	_	bratT19=Other-term
-10	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
-11	.	_	_	_	_	_	_	_	_
+10-12	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+12	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT27=Cardinal
+13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0067-p2-s2
 # text = Об этом свидетельствуют данные Минздрава страны.
@@ -37,7 +40,7 @@
 3	свидетельствуют	_	_	_	_	_	_	_	_
 4	данные	_	_	_	_	_	_	_	_
 5	Минздрава	_	_	_	_	_	_	_	bratT20=Organization
-6	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+6	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT31=GPE
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0067-p3
@@ -97,7 +100,7 @@
 3	вирусологии	_	_	_	_	_	_	_	bratA6=T13:Male|bratT12=Person-property|bratT13=Person
 4	центра	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Organization|bratT12=Person-property|bratT13=Person
 5	имени	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Organization|bratT12=Person-property|bratT13=Person
-6	Гамалеи	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Organization|bratT12=Person-property|bratT13=Person
+6	Гамалеи	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Organization|bratT12=Person-property|bratT13=Person|bratT29=Person|bratT30=Person-surname
 7	Анатолий	_	_	_	_	_	_	_	bratA6=T13:Male|bratT13=Person|bratT25=Person-forename
 8	Альтштейн	_	_	_	_	_	_	_	bratA6=T13:Male|bratT13=Person|bratT26=Person-surname
 9	в	_	_	_	_	_	_	_	_
@@ -110,6 +113,9 @@
 16	при	_	_	_	_	_	_	_	_
 17	бессимптомном	_	_	_	_	_	_	_	_
 18	течении	_	_	_	_	_	_	_	_
-19	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
-20	.	_	_	_	_	_	_	_	_
+19-21	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+19	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+20	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+21	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term|bratT28=Cardinal
+22	.	_	_	_	_	_	_	_	_
 

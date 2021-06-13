@@ -1,23 +1,23 @@
 T1	Person-property 0 9	Вирусолог
-T2	Person-property 416 423	Эксперт
+T2	Person-property 418 425	Эксперт
 T3	Organization 39 61	компании   AstraZeneca
 T4	Other-term 76 83	вакцине
-T5	Product 463 507	российской   вакцины   ``   Спутник   V   ''
-T6	Percent 523 529	92   %
-T7	Percent 561 567	70   %
-T8	Percent 574 580	92   %
-T9	Percent 648 654	92   %
-T10	Other-term 672 679	вакцина
-T11	Person 795 799	Зуев
-T12	Age 863 873	92-й   год
-T13	Other-term 895 909	титр   антител
-T14	Quantity 912 925	1   на   3200
-T15	Other-term 988 995	вакцине
-T16	Organization 1103 1138	британская   компания   AstraZeneca
-T17	Other-term 1183 1190	вакцины
-T18	Other-term 1198 1234	коронавирусной   инфекции   COVID-19
-T19	Other-term 1352 1359	вакцины
-T20	Percent 1417 1423	70   %
+T5	Product 465 509	российской   вакцины   ``   Спутник   V   ''
+T6	Percent 525 529	92 %
+T7	Percent 561 565	70 %
+T8	Percent 572 576	92 %
+T9	Percent 644 648	92 %
+T10	Other-term 666 673	вакцина
+T11	Person 789 793	Зуев
+T12	Age 857 867	92-й   год
+T13	Other-term 889 903	титр   антител
+T14	Quantity 906 919	1   на   3200
+T15	Other-term 982 989	вакцине
+T16	Organization 1097 1132	британская   компания   AstraZeneca
+T17	Other-term 1177 1184	вакцины
+T18	Other-term 1192 1230	коронавирусной   инфекции   COVID - 19
+T19	Other-term 1348 1355	вакцины
+T20	Percent 1413 1417	70 %
 T21	Person-property 85 94	Вирусолог
 T22	Person-property 101 263	бывший   глава   отдела   микробиологии   латентных   инфекций   Национального   исследовательского   центра   эпидемиологии   и   микробиологии   имени   Гамалеи
 T23	Organization 118 263	отдела   микробиологии   латентных   инфекций   Национального   исследовательского   центра   эпидемиологии   и   микробиологии   имени   Гамалеи
@@ -29,20 +29,25 @@ T27	Organization 311 313	RT
 A2	Media T27
 T28	Organization 333 355	компании   AstraZeneca
 T29	Other-term 387 394	вакцины
-T30	Other-term 402 410	COVID-19
-T31	Ordinal 863 867	92-й
-T32	Date-relative 1095 1100	Ранее
-T33	Time-relative 936 949	после   этого
+T30	Other-term 402 412	COVID - 19
+T31	Ordinal 857 861	92-й
+T32	Date-relative 1089 1094	Ранее
+T33	Time-relative 930 943	после   этого
 A3	Past T32
 A4	Male T26
 T34	Person-forename 278 284	Виктор
 T35	Person-surname 287 291	Зуев
 A5	Male T11
-T36	Person-surname 795 799	Зуев
-T37	GPE 975 985	лондонской
+T36	Person-surname 789 793	Зуев
+T37	GPE 969 979	лондонской
 A6	Adjective T37
-T38	Person-property 1083 1089	спикер
-T39	GPE 1103 1113	британская
+T38	Person-property 1077 1083	спикер
+T39	GPE 1097 1107	британская
 A7	Adjective T39
-T40	GPE 463 473	российской
+T40	GPE 465 475	российской
 A8	Adjective T40
+A9	Trademark T5
+T41	Cardinal 410 412	19
+T42	Cardinal 1228 1230	19
+T43	Person 256 263	Гамалеи
+T44	Person-surname 256 263	Гамалеи

@@ -1,0 +1,156 @@
+# newdoc id = 0029
+# newpar id = 0029-p1
+# par_text = Франсуа-Анри Пино сократил свою зарплату на 25%
+# sent_id = 0029-p1-s1
+# text = Франсуа-Анри Пино сократил свою зарплату на 25%
+1	Франсуа-Анри	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT19=Person-forename
+2	Пино	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT20=Person-surname
+3	сократил	_	_	_	_	_	_	_	_
+4	свою	_	_	_	_	_	_	_	_
+5	зарплату	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	bratT2=Percent
+7-8	25%	_	_	_	_	_	_	_	_
+7	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Percent
+8	%	_	_	_	_	_	_	_	bratT2=Percent
+
+# newpar id = 0029-p2
+# par_text = Глава группы Kering, французский миллиардер Франсуа-Анри Пино принял решение сократить свою заработную плату в знак солидарности со всеми, кто страдает из-за экономического кризиса, возникшего как последствие пандемии коронавируса. До конца года бизнесмен откажется от четверти своего дохода.
+# sent_id = 0029-p2-s1
+# text = Глава группы Kering, французский миллиардер Франсуа-Анри Пино принял решение сократить свою заработную плату в знак солидарности со всеми, кто страдает из-за экономического кризиса, возникшего как последствие пандемии коронавируса.
+1	Глава	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT4=Person-property
+2	группы	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT4=Person-property|bratT6=Organization
+3	Kering	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Male|bratT3=Person|bratT4=Person-property|bratT6=Organization
+4	,	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person
+5	французский	_	_	_	_	_	_	_	bratA2=T3:Male|bratA8=T30:Adjective|bratT3=Person|bratT30=GPE|bratT5=Person-property
+6	миллиардер	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT5=Person-property
+7	Франсуа-Анри	_	_	_	_	_	_	_	bratA2=T3:Male|bratT21=Person-forename|bratT3=Person
+8	Пино	_	_	_	_	_	_	_	bratA2=T3:Male|bratT22=Person-surname|bratT3=Person
+9	принял	_	_	_	_	_	_	_	_
+10	решение	_	_	_	_	_	_	_	_
+11	сократить	_	_	_	_	_	_	_	_
+12	свою	_	_	_	_	_	_	_	_
+13	заработную	_	_	_	_	_	_	_	_
+14	плату	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	знак	_	_	_	_	_	_	_	_
+17	солидарности	_	_	_	_	_	_	_	_
+18	со	_	_	_	_	_	_	_	_
+19	всеми	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	кто	_	_	_	_	_	_	_	_
+22	страдает	_	_	_	_	_	_	_	_
+23	из-за	_	_	_	_	_	_	_	_
+24	экономического	_	_	_	_	_	_	_	_
+25	кризиса	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	возникшего	_	_	_	_	_	_	_	_
+28	как	_	_	_	_	_	_	_	_
+29	последствие	_	_	_	_	_	_	_	_
+30	пандемии	_	_	_	_	_	_	_	bratT7=Event
+31	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-term|bratT7=Event
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0029-p2-s2
+# text = До конца года бизнесмен откажется от четверти своего дохода.
+1	До	_	_	_	_	_	_	_	bratA3=T8:Pres-Fut|bratT8=Date-period-absolute
+2	конца	_	_	_	_	_	_	_	bratA3=T8:Pres-Fut|bratT8=Date-period-absolute
+3	года	_	_	_	_	_	_	_	bratA3=T8:Pres-Fut|bratT8=Date-period-absolute
+4	бизнесмен	_	_	_	_	_	_	_	bratT10=Person-property
+5	откажется	_	_	_	_	_	_	_	_
+6	от	_	_	_	_	_	_	_	_
+7	четверти	_	_	_	_	_	_	_	bratT9=Percent
+8	своего	_	_	_	_	_	_	_	_
+9	дохода	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0029-p3
+# par_text = «Учитывая текущую ситуацию с COVID-19 и ее влияние на экономическую активность, Франсуа-Анри Пино решил сократить свою зарплату на 25% с 1 апреля до конца 2020 года. Кроме того, Франсуа-Анри Пино и Жан-Франсуа Палус, управляющий директор группы, решили полностью отказаться от годового бонуса за 2020 год», — говорится в заявлении компании.
+# sent_id = 0029-p3-s1
+# text = ``Учитывая текущую ситуацию с COVID-19 и ее влияние на экономическую активность, Франсуа-Анри Пино решил сократить свою зарплату на 25% с 1 апреля до конца 2020 года.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Учитывая	_	_	_	_	_	_	_	_
+3	текущую	_	_	_	_	_	_	_	bratA9=T32:Present|bratT32=Date-absolute
+4	ситуацию	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6-8	COVID-19	_	_	_	_	_	_	_	_
+6	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term
+8	19	_	_	_	_	_	_	_	bratT11=Other-term|bratT29=Cardinal
+9	и	_	_	_	_	_	_	_	_
+10	ее	_	_	_	_	_	_	_	_
+11	влияние	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	экономическую	_	_	_	_	_	_	_	_
+14	активность	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	Франсуа-Анри	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT23=Person-forename
+17	Пино	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT24=Person-surname
+18	решил	_	_	_	_	_	_	_	_
+19	сократить	_	_	_	_	_	_	_	_
+20	свою	_	_	_	_	_	_	_	_
+21	зарплату	_	_	_	_	_	_	_	_
+22	на	_	_	_	_	_	_	_	bratT13=Percent
+23-24	25%	_	_	_	_	_	_	_	_
+23	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Percent
+24	%	_	_	_	_	_	_	_	bratT13=Percent
+25	с	_	_	_	_	_	_	_	bratA5=T14:UNK-Fut|bratT14=Date-period-absolute
+26	1	_	_	_	_	_	_	_	bratA5=T14:UNK-Fut|bratT14=Date-period-absolute
+27	апреля	_	_	_	_	_	_	_	bratA5=T14:UNK-Fut|bratT14=Date-period-absolute
+28	до	_	_	_	_	_	_	_	bratA5=T14:UNK-Fut|bratT14=Date-period-absolute
+29	конца	_	_	_	_	_	_	_	bratA5=T14:UNK-Fut|bratT14=Date-period-absolute
+30	2020	_	_	_	_	_	_	_	bratA5=T14:UNK-Fut|bratT14=Date-period-absolute
+31	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T14:UNK-Fut|bratT14=Date-period-absolute
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0029-p3-s2
+# text = Кроме того, Франсуа-Анри Пино и Жан-Франсуа Палус, управляющий директор группы, решили полностью отказаться от годового бонуса за 2020 год'', - говорится в заявлении компании.
+1	Кроме	_	_	_	_	_	_	_	_
+2	того	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	Франсуа-Анри	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT25=Person-forename
+5	Пино	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT26=Person-surname
+6	и	_	_	_	_	_	_	_	_
+7	Жан-Франсуа	_	_	_	_	_	_	_	bratA7=T16:Male|bratT16=Person|bratT27=Person-forename
+8	Палус	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Male|bratT16=Person|bratT28=Person-surname
+9	,	_	_	_	_	_	_	_	bratA7=T16:Male|bratT16=Person
+10	управляющий	_	_	_	_	_	_	_	bratA7=T16:Male|bratT16=Person|bratT17=Person-property
+11	директор	_	_	_	_	_	_	_	bratA7=T16:Male|bratT16=Person|bratT17=Person-property
+12	группы	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Male|bratT16=Person|bratT17=Person-property
+13	,	_	_	_	_	_	_	_	_
+14	решили	_	_	_	_	_	_	_	_
+15	полностью	_	_	_	_	_	_	_	_
+16	отказаться	_	_	_	_	_	_	_	_
+17	от	_	_	_	_	_	_	_	_
+18	годового	_	_	_	_	_	_	_	_
+19	бонуса	_	_	_	_	_	_	_	_
+20	за	_	_	_	_	_	_	_	bratT18=Date-period-absolute
+21	2020	_	_	_	_	_	_	_	bratT18=Date-period-absolute
+22	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Date-period-absolute
+23	''	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	-	_	_	_	_	_	_	_	_
+26	говорится	_	_	_	_	_	_	_	_
+27	в	_	_	_	_	_	_	_	_
+28	заявлении	_	_	_	_	_	_	_	_
+29	компании	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0029-p4
+# par_text = Последуют ли его примеру главы других крупных компаний, пока остается только гадать.
+# sent_id = 0029-p4-s1
+# text = Последуют ли его примеру главы других крупных компаний, пока остается только гадать.
+1	Последуют	_	_	_	_	_	_	_	_
+2	ли	_	_	_	_	_	_	_	_
+3	его	_	_	_	_	_	_	_	_
+4	примеру	_	_	_	_	_	_	_	_
+5	главы	_	_	_	_	_	_	_	bratT31=Person-property
+6	других	_	_	_	_	_	_	_	bratT31=Person-property
+7	крупных	_	_	_	_	_	_	_	bratT31=Person-property
+8	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property
+9	,	_	_	_	_	_	_	_	_
+10	пока	_	_	_	_	_	_	_	_
+11	остается	_	_	_	_	_	_	_	_
+12	только	_	_	_	_	_	_	_	_
+13	гадать	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+

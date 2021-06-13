@@ -1,0 +1,295 @@
+# newdoc id = 0109
+# newpar id = 0109-p1
+# par_text = Семья Ротенбергов названа богатейшей в России
+# sent_id = 0109-p1-s1
+# text = Семья Ротенбергов названа богатейшей в России
+1	Семья	_	_	_	_	_	_	_	bratT2=Family
+2	Ротенбергов	_	_	_	_	_	_	_	bratT1=Person|bratT75=Person-surname
+3	названа	_	_	_	_	_	_	_	_
+4	богатейшей	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	России	_	_	_	_	_	_	_	bratT3=GPE
+
+# newpar id = 0109-p2
+# par_text = Журнал Forbes опубликовал ежегодный рейтинг самых богатых кланов России. И впервые за шесть лет в нем сменился лидер: Ротенберги обошли Гуцериевых.
+# sent_id = 0109-p2-s1
+# text = Журнал Forbes опубликовал ежегодный рейтинг самых богатых кланов России.
+1	Журнал	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
+2	Forbes	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
+3	опубликовал	_	_	_	_	_	_	_	_
+4	ежегодный	_	_	_	_	_	_	_	bratA24=T105:Past-UNK|bratT104=Duration|bratT105=Date-period-relative
+5	рейтинг	_	_	_	_	_	_	_	_
+6	самых	_	_	_	_	_	_	_	_
+7	богатых	_	_	_	_	_	_	_	_
+8	кланов	_	_	_	_	_	_	_	_
+9	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0109-p2-s2
+# text = И впервые за шесть лет в нем сменился лидер: Ротенберги обошли Гуцериевых.
+1	И	_	_	_	_	_	_	_	_
+2	впервые	_	_	_	_	_	_	_	bratT6=Ordinal
+3	за	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
+4	шесть	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
+5	лет	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratT7=Date-period-absolute
+6	в	_	_	_	_	_	_	_	_
+7	нем	_	_	_	_	_	_	_	_
+8	сменился	_	_	_	_	_	_	_	_
+9	лидер	_	_	_	_	_	_	_	SpaceAfter=No
+10	:	_	_	_	_	_	_	_	_
+11	Ротенберги	_	_	_	_	_	_	_	bratT76=Person-surname|bratT8=Person
+12	обошли	_	_	_	_	_	_	_	_
+13	Гуцериевых	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Person-surname|bratT9=Person
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0109-p3
+# par_text = За год состояние семьи увеличилось на $270 млн — до $5,45 млрд. Эта сумма складывается из состояния председателя правления Федерации хоккея России, гендиректора фонда «СКД «Явара-Нева» Аркадия Ротенберга , а также активов его брата Бориса Ротенберга, совладельца СМП Банка , состояния его сына Игоря Ротенберга, председателя совета директоров ООО «Газпром бурение» и активов его дочери Лилии Ротенберг, совладелицы TPS Real Estate .
+# sent_id = 0109-p3-s1
+# text = За год состояние семьи увеличилось на $270 млн - до $5,45 млрд.
+1	За	_	_	_	_	_	_	_	bratA5=T10:Past-Pres|bratT10=Date-period-absolute
+2	год	_	_	_	_	_	_	_	bratA5=T10:Past-Pres|bratT10=Date-period-absolute
+3	состояние	_	_	_	_	_	_	_	_
+4	семьи	_	_	_	_	_	_	_	bratT11=Family
+5	увеличилось	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	bratT12=Money
+7-8	$270	_	_	_	_	_	_	_	_
+7	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Money
+8	270	_	_	_	_	_	_	_	bratT12=Money
+9	млн	_	_	_	_	_	_	_	bratT12=Money
+10	-	_	_	_	_	_	_	_	_
+11	до	_	_	_	_	_	_	_	bratT13=Money
+12-13	$5,45	_	_	_	_	_	_	_	_
+12	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Money
+13	5,45	_	_	_	_	_	_	_	bratT13=Money
+14	млрд	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Money
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0109-p3-s2
+# text = Эта сумма складывается из состояния председателя правления Федерации хоккея России, гендиректора фонда «СКД «Явара-Нева» Аркадия Ротенберга, а также активов его брата Бориса Ротенберга, совладельца СМП Банка, состояния его сына Игоря Ротенберга, председателя совета директоров ООО «Газпром бурение» и активов его дочери Лилии Ротенберг, совладелицы TPS Real Estate.
+1	Эта	_	_	_	_	_	_	_	_
+2	сумма	_	_	_	_	_	_	_	_
+3	складывается	_	_	_	_	_	_	_	_
+4	из	_	_	_	_	_	_	_	_
+5	состояния	_	_	_	_	_	_	_	_
+6	председателя	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT16=Person-property
+7	правления	_	_	_	_	_	_	_	bratA2=T17:Department|bratA7=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization
+8	Федерации	_	_	_	_	_	_	_	bratA2=T17:Department|bratA7=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization|bratT18=Organization
+9	хоккея	_	_	_	_	_	_	_	bratA2=T17:Department|bratA7=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization|bratT18=Organization
+10	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Department|bratA7=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization|bratT18=Organization|bratT19=GPE
+11	,	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person
+12	гендиректора	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT20=Person-property
+13	фонда	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
+14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
+15	СКД	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
+16	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
+17	Явара-Нева	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
+18	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
+19	Аркадия	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT80=Person-forename
+20	Ротенберга	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T15:Male|bratT15=Person|bratT81=Person-surname
+21	,	_	_	_	_	_	_	_	_
+22	а	_	_	_	_	_	_	_	_
+23	также	_	_	_	_	_	_	_	_
+24	активов	_	_	_	_	_	_	_	_
+25	его	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person
+26	брата	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT23=Family
+27	Бориса	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT79=Person-forename
+28	Ротенберга	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T22:Male|bratT22=Person|bratT78=Person-surname
+29	,	_	_	_	_	_	_	_	_
+30	совладельца	_	_	_	_	_	_	_	bratT24=Person-property
+31	СМП	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Organization
+32	Банка	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT25=Organization
+33	,	_	_	_	_	_	_	_	_
+34	состояния	_	_	_	_	_	_	_	_
+35	его	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person
+36	сына	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person|bratT27=Family
+37	Игоря	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person|bratT82=Person-forename
+38	Ротенберга	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T26:Male|bratT26=Person|bratT83=Person-surname
+39	,	_	_	_	_	_	_	_	_
+40	председателя	_	_	_	_	_	_	_	bratT28=Person-property
+41	совета	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization
+42	директоров	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization
+43	ООО	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+44	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+45	Газпром	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+46	бурение	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+47	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+48	и	_	_	_	_	_	_	_	_
+49	активов	_	_	_	_	_	_	_	_
+50	его	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person
+51	дочери	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person|bratT32=Family
+52	Лилии	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person|bratT84=Person-forename
+53	Ротенберг	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T31:Male|bratT31=Person|bratT85=Person-surname
+54	,	_	_	_	_	_	_	_	_
+55	совладелицы	_	_	_	_	_	_	_	bratT33=Person-property
+56	TPS	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Organization
+57	Real	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Organization
+58	Estate	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property|bratT34=Organization
+59	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0109-p4
+# par_text = На втором месте — Гурьевы, владеющие компанией по производству удобрений «Фосагро», с состоянием в $5,1 млрд. Активы Андрея Гурьева оцениваются в $4,7 млрд, его жены Евгении — в $400 млн, а дети Андрей и Юлия являются бенефициарами семейного траста.
+# sent_id = 0109-p4-s1
+# text = На втором месте — Гурьевы, владеющие компанией по производству удобрений «Фосагро», с состоянием в $5,1 млрд.
+1	На	_	_	_	_	_	_	_	_
+2	втором	_	_	_	_	_	_	_	bratT35=Ordinal
+3	месте	_	_	_	_	_	_	_	_
+4	-	_	_	_	_	_	_	_	_
+5	Гурьевы	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person|bratT86=Person-surname
+6	,	_	_	_	_	_	_	_	_
+7	владеющие	_	_	_	_	_	_	_	_
+8	компанией	_	_	_	_	_	_	_	bratT37=Organization
+9	по	_	_	_	_	_	_	_	bratT37=Organization
+10	производству	_	_	_	_	_	_	_	bratT37=Organization
+11	удобрений	_	_	_	_	_	_	_	bratT37=Organization
+12	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT37=Organization
+13	Фосагро	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT37=Organization
+15	,	_	_	_	_	_	_	_	_
+16	с	_	_	_	_	_	_	_	_
+17	состоянием	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19-20	$5,1	_	_	_	_	_	_	_	_
+19	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Money
+20	5,1	_	_	_	_	_	_	_	bratT38=Money
+21	млрд	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Money
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0109-p4-s2
+# text = Активы Андрея Гурьева оцениваются в $4,7 млрд, его жены Евгении - в $400 млн, а дети Андрей и Юлия являются бенефициарами семейного траста.
+1	Активы	_	_	_	_	_	_	_	_
+2	Андрея	_	_	_	_	_	_	_	bratA20=T40:Male|bratT40=Person|bratT87=Person-forename
+3	Гурьева	_	_	_	_	_	_	_	bratA20=T40:Male|bratT40=Person|bratT88=Person-surname
+4	оцениваются	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6-7	$4,7	_	_	_	_	_	_	_	_
+6	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Money
+7	4,7	_	_	_	_	_	_	_	bratT41=Money
+8	млрд	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Money
+9	,	_	_	_	_	_	_	_	_
+10	его	_	_	_	_	_	_	_	bratT89=Person-forename
+11	жены	_	_	_	_	_	_	_	bratT43=Family|bratT89=Person-forename
+12	Евгении	_	_	_	_	_	_	_	bratA12=T42:Female|bratT42=Person|bratT89=Person-forename
+13	-	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15-16	$400	_	_	_	_	_	_	_	_
+15	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Money
+16	400	_	_	_	_	_	_	_	bratT44=Money
+17	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Money
+18	,	_	_	_	_	_	_	_	_
+19	а	_	_	_	_	_	_	_	_
+20	дети	_	_	_	_	_	_	_	bratA21=T106:Plural|bratT106=Person|bratT45=Family
+21	Андрей	_	_	_	_	_	_	_	bratA13=T46:Male|bratA21=T106:Plural|bratT106=Person|bratT46=Person|bratT90=Person-forename
+22	и	_	_	_	_	_	_	_	bratA21=T106:Plural|bratT106=Person
+23	Юлия	_	_	_	_	_	_	_	bratA14=T47:Female|bratA21=T106:Plural|bratT106=Person|bratT47=Person|bratT91=Person-forename
+24	являются	_	_	_	_	_	_	_	_
+25	бенефициарами	_	_	_	_	_	_	_	bratT48=Person-property
+26	семейного	_	_	_	_	_	_	_	_
+27	траста	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0109-p5
+# par_text = Семья Гуцериевых, ранее возглавлявшая список, переместилась на третье место. Их состояние сократилось на $2,45 млрд до $3,2 млрд. Учитывались доходы владельца компании «Сафмар» Михаила, его брата Саит-Салама и сына Саида.
+# sent_id = 0109-p5-s1
+# text = Семья Гуцериевых, ранее возглавлявшая список, переместилась на третье место.
+1	Семья	_	_	_	_	_	_	_	bratT50=Family
+2	Гуцериевых	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person|bratT92=Person-surname
+3	,	_	_	_	_	_	_	_	_
+4	ранее	_	_	_	_	_	_	_	bratA22=T107:Past|bratT107=Date-relative
+5	возглавлявшая	_	_	_	_	_	_	_	_
+6	список	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	переместилась	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	третье	_	_	_	_	_	_	_	bratT51=Ordinal
+11	место	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0109-p5-s2
+# text = Их состояние сократилось на $2,45 млрд до $3,2 млрд.
+1	Их	_	_	_	_	_	_	_	_
+2	состояние	_	_	_	_	_	_	_	_
+3	сократилось	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	bratT52=Money
+5-6	$2,45	_	_	_	_	_	_	_	_
+5	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Money
+6	2,45	_	_	_	_	_	_	_	bratT52=Money
+7	млрд	_	_	_	_	_	_	_	bratT52=Money
+8	до	_	_	_	_	_	_	_	bratT53=Money
+9-10	$3,2	_	_	_	_	_	_	_	_
+9	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Money
+10	3,2	_	_	_	_	_	_	_	bratT53=Money
+11	млрд	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Money
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0109-p5-s3
+# text = Учитывались доходы владельца компании «Сафмар» Михаила, его брата Саит-Салама и сына Саида.
+1	Учитывались	_	_	_	_	_	_	_	_
+2	доходы	_	_	_	_	_	_	_	_
+3	владельца	_	_	_	_	_	_	_	bratA15=T55:Male|bratT55=Person|bratT56=Person-property
+4	компании	_	_	_	_	_	_	_	bratA15=T55:Male|bratT55=Person|bratT56=Person-property|bratT57=Organization
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA15=T55:Male|bratT55=Person|bratT56=Person-property|bratT57=Organization
+6	Сафмар	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T55:Male|bratT55=Person|bratT56=Person-property|bratT57=Organization
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA15=T55:Male|bratT55=Person|bratT56=Person-property|bratT57=Organization
+8	Михаила	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T55:Male|bratT103=Person-forename|bratT55=Person
+9	,	_	_	_	_	_	_	_	_
+10	его	_	_	_	_	_	_	_	bratT93=Person-forename
+11	брата	_	_	_	_	_	_	_	bratT60=Family|bratT93=Person-forename
+12	Саит-Салама	_	_	_	_	_	_	_	bratA16=T58:Male|bratT58=Person|bratT93=Person-forename
+13	и	_	_	_	_	_	_	_	_
+14	сына	_	_	_	_	_	_	_	bratA17=T59:Male|bratT59=Person|bratT61=Family
+15	Саида	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T59:Male|bratT59=Person|bratT94=Person-forename
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0109-p6
+# par_text = В пятерку также вошли семья Шаймиевых с состоянием $2,85 млрд и Владимира и Феликса Евтушенковых .
+# sent_id = 0109-p6-s1
+# text = В пятерку также вошли семья Шаймиевых с состоянием $2,85 млрд и Владимира и Феликса Евтушенковых.
+1	В	_	_	_	_	_	_	_	_
+2	пятерку	_	_	_	_	_	_	_	bratT62=Quantity
+3	также	_	_	_	_	_	_	_	_
+4	вошли	_	_	_	_	_	_	_	_
+5	семья	_	_	_	_	_	_	_	bratT111=Family
+6	Шаймиевых	_	_	_	_	_	_	_	bratT108=Person-surname|bratT63=Person
+7	с	_	_	_	_	_	_	_	_
+8	состоянием	_	_	_	_	_	_	_	_
+9-10	$2,85	_	_	_	_	_	_	_	_
+9	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Money
+10	2,85	_	_	_	_	_	_	_	bratT64=Money
+11	млрд	_	_	_	_	_	_	_	bratT64=Money
+12	и	_	_	_	_	_	_	_	_
+13	Владимира	_	_	_	_	_	_	_	bratA18=T65:Plural|bratA23=T109:Male|bratT109=Person|bratT65=Person|bratT95=Person-forename
+14	и	_	_	_	_	_	_	_	bratA18=T65:Plural|bratT65=Person
+15	Феликса	_	_	_	_	_	_	_	bratA18=T65:Plural|bratA19=T110:Male|bratT110=Person|bratT65=Person|bratT96=Person-forename
+16	Евтушенковых	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T65:Plural|bratT65=Person|bratT97=Person-surname
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0109-p7
+# par_text = Замыкают топ-10 богатейших семей России Бажаевы , Рахимкуловы , Саркисовы , Линники с $1,35 млрд и Михайловы с $1,1 млрд.
+# sent_id = 0109-p7-s1
+# text = Замыкают топ-10 богатейших семей России Бажаевы, Рахимкуловы, Саркисовы, Линники с $1,35 млрд и Михайловы с $1,1 млрд.
+1	Замыкают	_	_	_	_	_	_	_	_
+2	топ-10	_	_	_	_	_	_	_	bratT66=Quantity
+3	богатейших	_	_	_	_	_	_	_	_
+4	семей	_	_	_	_	_	_	_	_
+5	России	_	_	_	_	_	_	_	bratT67=GPE
+6	Бажаевы	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Person|bratT98=Person-surname
+7	,	_	_	_	_	_	_	_	_
+8	Рахимкуловы	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Person|bratT99=Person-surname
+9	,	_	_	_	_	_	_	_	_
+10	Саркисовы	_	_	_	_	_	_	_	SpaceAfter=No|bratT100=Person-surname|bratT70=Person
+11	,	_	_	_	_	_	_	_	_
+12	Линники	_	_	_	_	_	_	_	bratT101=Person-surname|bratT71=Person
+13	с	_	_	_	_	_	_	_	bratT72=Money
+14-15	$1,35	_	_	_	_	_	_	_	_
+14	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Money
+15	1,35	_	_	_	_	_	_	_	bratT72=Money
+16	млрд	_	_	_	_	_	_	_	bratT72=Money
+17	и	_	_	_	_	_	_	_	_
+18	Михайловы	_	_	_	_	_	_	_	bratT102=Person-surname|bratT73=Person
+19	с	_	_	_	_	_	_	_	bratT74=Money
+20-21	$1,1	_	_	_	_	_	_	_	_
+20	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Money
+21	1,1	_	_	_	_	_	_	_	bratT74=Money
+22	млрд	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Money
+23	.	_	_	_	_	_	_	_	_
+

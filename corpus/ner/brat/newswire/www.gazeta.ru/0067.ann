@@ -1,36 +1,36 @@
 T1	Person 0 8	Онищенко
 T3	GPE 149 155	России
-T2	Organization 411 431	``   Газетой.Ru   ''
+T2	Organization 411 433	``   Газетой . Ru   ''
 A1	Media T2
-T4	Person-property 445 462	депутат   Госдумы
-T5	Organization 455 462	Госдумы
-T6	Person 445 536	депутат   Госдумы   и   бывший   главный   санитарный   врач   России   Геннадий   Онищенко
-T7	Person-property 469 514	бывший   главный   санитарный   врач   России
-T8	GPE 508 514	России
-T9	Person-property 1179 1186	медиков
-T10	Ordinal 1038 1044	первую
-T11	Person 1267 1330	глава   проекта   ``   Трезвая   Россия   ''   Султан   Хамзаев
-T12	Product 1275 1311	проекта   ``   Трезвая   Россия   ''
+T4	Person-property 447 464	депутат   Госдумы
+T5	Organization 457 464	Госдумы
+T6	Person 447 538	депутат   Госдумы   и   бывший   главный   санитарный   врач   России   Геннадий   Онищенко
+T7	Person-property 471 516	бывший   главный   санитарный   врач   России
+T8	GPE 510 516	России
+T9	Person-property 1181 1188	медиков
+T10	Ordinal 1040 1046	первую
+T11	Person 1269 1332	глава   проекта   ``   Трезвая   Россия   ''   Султан   Хамзаев
+T12	Product 1277 1313	проекта   ``   Трезвая   Россия   ''
 A2	Project T12
-T13	Person-property 1267 1311	глава   проекта   ``   Трезвая   Россия   ''
-T14	Person 1362 1423	министру   промышленности   и   торговли   Денису   Мантурову
-T15	Person-property 1362 1402	министру   промышленности   и   торговли
-T16	Person 1512 1520	Хамзаева
+T13	Person-property 1269 1313	глава   проекта   ``   Трезвая   Россия   ''
+T14	Person 1364 1425	министру   промышленности   и   торговли   Денису   Мантурову
+T15	Person-property 1364 1404	министру   промышленности   и   торговли
+T16	Person 1514 1522	Хамзаева
 T17	Time-period 74 92	1   и   2   января
 T18	Time-period 311 329	1   и   2   января
 T20	Time-period 94 119	В   новогодние   каникулы
-T21	Time-absolute 1034 1062	В   первую   декаду   января
-T22	Ordinal 893 902	последней
-T23	Quantity 1136 1145	утроенной
-T24	Service 929 944	скорая   помощь
-T25	Service 1114 1129	скорая   помощь
-T26	Time-absolute 1474 1492	1   и   2   января
-T27	Service 1641 1671	скорой   медицинской   помощью
-T19	Event 1527 1548	январские   праздники
-T28	Date-absolute 820 826	Сейчас
-T29	Date-absolute 645 651	сейчас
-T30	Date-relative 1259 1264	Ранее
-T31	Date-absolute 921 926	потом
+T21	Time-absolute 1036 1064	В   первую   декаду   января
+T22	Ordinal 895 904	последней
+T23	Quantity 1138 1147	утроенной
+T24	Service 931 946	скорая   помощь
+T25	Service 1116 1131	скорая   помощь
+T26	Time-absolute 1476 1494	1   и   2   января
+T27	Service 1643 1673	скорой   медицинской   помощью
+T19	Event 1529 1550	январские   праздники
+T28	Date-absolute 822 828	Сейчас
+T29	Date-absolute 647 653	сейчас
+T30	Date-relative 1261 1266	Ранее
+T31	Date-absolute 923 928	потом
 T32	Event 98 119	новогодние   каникулы
 A3	Future T28
 A4	Future T31
@@ -38,15 +38,18 @@ A5	Future T29
 A6	Past T30
 A7	Male T1
 T33	Person-surname 0 8	Онищенко
-T34	Person-forename 517 525	Геннадий
-T35	Person-surname 528 536	Онищенко
+T34	Person-forename 519 527	Геннадий
+T35	Person-surname 530 538	Онищенко
 A8	Male T6
-T36	Person-forename 1314 1320	Султан
-T37	Person-surname 1323 1330	Хамзаев
+T36	Person-forename 1316 1322	Султан
+T37	Person-surname 1325 1332	Хамзаев
 A9	Male T11
-T38	Person-forename 1405 1411	Денису
-T39	Person-surname 1414 1423	Мантурову
+T38	Person-forename 1407 1413	Денису
+T39	Person-surname 1416 1425	Мантурову
 A10	Male T14
-T40	Person-surname 1512 1520	Хамзаева
+T40	Person-surname 1514 1522	Хамзаева
 A11	Male T16
-T41	GPE 1300 1306	Россия
+T41	GPE 1302 1308	Россия
+T42	Nationality 1025 1031	нацией
+A12	Citizenship T42
+T43	GPE 1083 1089	страна

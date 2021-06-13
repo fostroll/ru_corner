@@ -1,0 +1,219 @@
+# newdoc id = 0005
+# newpar id = 0005-p1
+# par_text = В Вологодской области подозреваемый в убийстве жены и ее пятилетней дочери сбежал из полиции, выпрыгнув из окна отдела
+# sent_id = 0005-p1-s1
+# text = В Вологодской области подозреваемый в убийстве жены и ее пятилетней дочери сбежал из полиции, выпрыгнув из окна отдела
+1	В	_	_	_	_	_	_	_	_
+2	Вологодской	_	_	_	_	_	_	_	bratT1=GPE
+3	области	_	_	_	_	_	_	_	bratT1=GPE
+4	подозреваемый	_	_	_	_	_	_	_	bratT2=Other-group
+5	в	_	_	_	_	_	_	_	_
+6	убийстве	_	_	_	_	_	_	_	_
+7	жены	_	_	_	_	_	_	_	bratT16=Family
+8	и	_	_	_	_	_	_	_	_
+9	ее	_	_	_	_	_	_	_	bratA3=T18:Female|bratT18=Person
+10	пятилетней	_	_	_	_	_	_	_	bratA3=T18:Female|bratT18=Person|bratT19=Age
+11	дочери	_	_	_	_	_	_	_	bratA3=T18:Female|bratT17=Family|bratT18=Person
+12	сбежал	_	_	_	_	_	_	_	_
+13	из	_	_	_	_	_	_	_	_
+14	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Organization
+15	,	_	_	_	_	_	_	_	_
+16	выпрыгнув	_	_	_	_	_	_	_	_
+17	из	_	_	_	_	_	_	_	_
+18	окна	_	_	_	_	_	_	_	_
+19	отдела	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p2
+# par_text = В Вологодской области из отдела полиции сбежал подозреваемый в убийстве беременной жены и ее пятилетней дочери, сообщается на сайте регионального управления Следственного комитета.
+# sent_id = 0005-p2-s1
+# text = В Вологодской области из отдела полиции сбежал подозреваемый в убийстве беременной жены и ее пятилетней дочери, сообщается на сайте регионального управления Следственного комитета.
+1	В	_	_	_	_	_	_	_	_
+2	Вологодской	_	_	_	_	_	_	_	bratT4=GPE
+3	области	_	_	_	_	_	_	_	bratT4=GPE
+4	из	_	_	_	_	_	_	_	_
+5	отдела	_	_	_	_	_	_	_	bratT47=Organization
+6	полиции	_	_	_	_	_	_	_	bratT47=Organization
+7	сбежал	_	_	_	_	_	_	_	_
+8	подозреваемый	_	_	_	_	_	_	_	bratT6=Other-group
+9	в	_	_	_	_	_	_	_	_
+10	убийстве	_	_	_	_	_	_	_	_
+11	беременной	_	_	_	_	_	_	_	_
+12	жены	_	_	_	_	_	_	_	bratT7=Family
+13	и	_	_	_	_	_	_	_	_
+14	ее	_	_	_	_	_	_	_	bratA1=T12:Female|bratT12=Person
+15	пятилетней	_	_	_	_	_	_	_	bratA1=T12:Female|bratT12=Person|bratT9=Age
+16	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Female|bratT12=Person|bratT8=Family
+17	,	_	_	_	_	_	_	_	_
+18	сообщается	_	_	_	_	_	_	_	_
+19	на	_	_	_	_	_	_	_	_
+20	сайте	_	_	_	_	_	_	_	bratA7=T34:Media|bratT34=Service
+21	регионального	_	_	_	_	_	_	_	bratA15=T3:Adjective|bratA8=T10:Department|bratT10=Organization|bratT3=GPE
+22	управления	_	_	_	_	_	_	_	bratA8=T10:Department|bratT10=Organization
+23	Следственного	_	_	_	_	_	_	_	bratA8=T10:Department|bratT10=Organization|bratT35=Organization
+24	комитета	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T10:Department|bratT10=Organization|bratT35=Organization
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p3
+# par_text = По информации пресс-службы, 25-летний житель деревни Ушаково, находясь в отделе во время следственных действий, выпрыгнул в наручниках из окна второго этажа и убежал.
+# sent_id = 0005-p3-s1
+# text = По информации пресс-службы, 25-летний житель деревни Ушаково, находясь в отделе во время следственных действий, выпрыгнул в наручниках из окна второго этажа и убежал.
+1	По	_	_	_	_	_	_	_	_
+2	информации	_	_	_	_	_	_	_	_
+3	пресс-службы	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	25-летний	_	_	_	_	_	_	_	bratT11=Age
+6	житель	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT36=Nationality
+7	деревни	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT13=GPE|bratT36=Nationality
+8	Ушаково	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T36:Resident|bratT13=GPE|bratT36=Nationality
+9	,	_	_	_	_	_	_	_	_
+10	находясь	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	отделе	_	_	_	_	_	_	_	_
+13	во	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute
+14	время	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute
+15	следственных	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute
+16	действий	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Past|bratT37=Date-absolute
+17	,	_	_	_	_	_	_	_	_
+18	выпрыгнул	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	наручниках	_	_	_	_	_	_	_	_
+21	из	_	_	_	_	_	_	_	_
+22	окна	_	_	_	_	_	_	_	_
+23	второго	_	_	_	_	_	_	_	bratT14=Ordinal
+24	этажа	_	_	_	_	_	_	_	_
+25	и	_	_	_	_	_	_	_	_
+26	убежал	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p4
+# par_text = Накануне мужчину задержали по подозрению в убийстве двух лиц, в том числе малолетнего (пункты «а» и «в» части 2 статьи 105 УК). По версии следствия, в ночь на 3 сентября задержанный во время ссоры зарезал свою жену и ее пятилетнюю дочь. Потом он поджег дом, попытавшись скрыть следы преступления.
+# sent_id = 0005-p4-s1
+# text = Накануне мужчину задержали по подозрению в убийстве двух лиц, в том числе малолетнего (пункты «а» и «в» части 2 статьи 105 УК).
+1	Накануне	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-absolute
+2	мужчину	_	_	_	_	_	_	_	_
+3	задержали	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	подозрению	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	убийстве	_	_	_	_	_	_	_	_
+8	двух	_	_	_	_	_	_	_	bratT20=Quantity
+9	лиц	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity
+10	,	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	том	_	_	_	_	_	_	_	_
+13	числе	_	_	_	_	_	_	_	_
+14	малолетнего	_	_	_	_	_	_	_	bratT21=Age
+15	(	_	_	_	_	_	_	_	SpaceAfter=No
+16	пункты	_	_	_	_	_	_	_	bratT22=Law
+17	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT22=Law|bratT39=Ordinal
+18	а	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Law|bratT39=Ordinal
+19	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT22=Law|bratT39=Ordinal
+20	и	_	_	_	_	_	_	_	bratT22=Law
+21	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT22=Law|bratT40=Ordinal
+22	в	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Law|bratT40=Ordinal
+23	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT22=Law|bratT40=Ordinal
+24	части	_	_	_	_	_	_	_	bratT22=Law
+25	2	_	_	_	_	_	_	_	bratT22=Law|bratT41=Ordinal
+26	статьи	_	_	_	_	_	_	_	bratT22=Law
+27	105	_	_	_	_	_	_	_	bratT22=Law|bratT42=Ordinal
+28	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Law|bratT43=Law
+29	)	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p4-s2
+# text = По версии следствия, в ночь на 3 сентября задержанный во время ссоры зарезал свою жену и ее пятилетнюю дочь.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute|bratT32=Time-absolute
+6	ночь	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute|bratT32=Time-absolute
+7	на	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute|bratT32=Time-absolute
+8	3	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
+9	сентября	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
+10	задержанный	_	_	_	_	_	_	_	bratT24=Other-group
+11	во	_	_	_	_	_	_	_	bratA14=T45:Past|bratT45=Date-absolute
+12	время	_	_	_	_	_	_	_	bratA14=T45:Past|bratT45=Date-absolute
+13	ссоры	_	_	_	_	_	_	_	bratA14=T45:Past|bratT45=Date-absolute
+14	зарезал	_	_	_	_	_	_	_	_
+15	свою	_	_	_	_	_	_	_	bratA12=T44:Female|bratT44=Person
+16	жену	_	_	_	_	_	_	_	bratA12=T44:Female|bratT26=Family|bratT44=Person
+17	и	_	_	_	_	_	_	_	_
+18	ее	_	_	_	_	_	_	_	bratA5=T25:Female|bratT25=Person
+19	пятилетнюю	_	_	_	_	_	_	_	bratA5=T25:Female|bratT25=Person|bratT28=Age
+20	дочь	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T25:Female|bratT25=Person|bratT27=Family
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p4-s3
+# text = Потом он поджег дом, попытавшись скрыть следы преступления.
+1	Потом	_	_	_	_	_	_	_	bratA4=T33:Past|bratT33=Date-relative
+2	он	_	_	_	_	_	_	_	_
+3	поджег	_	_	_	_	_	_	_	_
+4	дом	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	попытавшись	_	_	_	_	_	_	_	_
+7	скрыть	_	_	_	_	_	_	_	_
+8	следы	_	_	_	_	_	_	_	_
+9	преступления	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p5
+# par_text = «Кроме того, по предварительным выводам судебно-медицинского эксперта, женщина была беременна», — отмечает СК. Следователи обнаружили на телах погибших колото-резаные раны головы и тела.
+# sent_id = 0005-p5-s1
+# text = «Кроме того, по предварительным выводам судебно-медицинского эксперта, женщина была беременна», - отмечает СК.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Кроме	_	_	_	_	_	_	_	_
+3	того	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	по	_	_	_	_	_	_	_	_
+6	предварительным	_	_	_	_	_	_	_	_
+7	выводам	_	_	_	_	_	_	_	_
+8	судебно-медицинского	_	_	_	_	_	_	_	bratT29=Person-property
+9	эксперта	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+10	,	_	_	_	_	_	_	_	_
+11	женщина	_	_	_	_	_	_	_	_
+12	была	_	_	_	_	_	_	_	_
+13	беременна	_	_	_	_	_	_	_	SpaceAfter=No
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	-	_	_	_	_	_	_	_	_
+17	отмечает	_	_	_	_	_	_	_	_
+18	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p5-s2
+# text = Следователи обнаружили на телах погибших колото-резаные раны головы и тела.
+1	Следователи	_	_	_	_	_	_	_	bratT30=Person-property
+2	обнаружили	_	_	_	_	_	_	_	_
+3	на	_	_	_	_	_	_	_	_
+4	телах	_	_	_	_	_	_	_	_
+5	погибших	_	_	_	_	_	_	_	_
+6	колото-резаные	_	_	_	_	_	_	_	_
+7	раны	_	_	_	_	_	_	_	_
+8	головы	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	тела	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p6
+# par_text = Перед побегом подозреваемый написал явку с повинной. Сейчас он объявлен в розыск.
+# sent_id = 0005-p6-s1
+# text = Перед побегом подозреваемый написал явку с повинной.
+1	Перед	_	_	_	_	_	_	_	bratA13=T46:Past|bratT46=Date-absolute
+2	побегом	_	_	_	_	_	_	_	bratA13=T46:Past|bratT46=Date-absolute
+3	подозреваемый	_	_	_	_	_	_	_	bratT31=Other-group
+4	написал	_	_	_	_	_	_	_	_
+5	явку	_	_	_	_	_	_	_	_
+6	с	_	_	_	_	_	_	_	_
+7	повинной	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p6-s2
+# text = Сейчас он объявлен в розыск.
+1	Сейчас	_	_	_	_	_	_	_	bratA2=T5:Present|bratT5=Date-absolute
+2	он	_	_	_	_	_	_	_	_
+3	объявлен	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	розыск	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	_	_	_	_	_	_	_	_
+

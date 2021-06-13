@@ -57,12 +57,12 @@
 7	Меркель	_	_	_	_	_	_	_	bratA16=T10:Female|bratT10=Person|bratT38=Person-surname
 8	по	_	_	_	_	_	_	_	_
 9	итогам	_	_	_	_	_	_	_	_
-10	переговоров	_	_	_	_	_	_	_	_
+10	переговоров	_	_	_	_	_	_	_	bratT49=Event
 11	с	_	_	_	_	_	_	_	_
-12	главами	_	_	_	_	_	_	_	_
-13	16	_	_	_	_	_	_	_	bratT13=Quantity
-14	федеральных	_	_	_	_	_	_	_	bratT13=Quantity
-15	земель	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+12	главами	_	_	_	_	_	_	_	bratT50=Person
+13	16	_	_	_	_	_	_	_	bratT13=Quantity|bratT50=Person
+14	федеральных	_	_	_	_	_	_	_	bratT13=Quantity|bratT50=Person
+15	земель	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity|bratT50=Person
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p3
@@ -94,7 +94,7 @@
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0086-p3-s3
-# text = ``Но мы согласны с тем, что из- за высокого числа заражений их нужно будет сохранить и до начала января'', - уточнила Меркель.
+# text = ``Но мы согласны с тем, что из-за высокого числа заражений их нужно будет сохранить и до начала января'', - уточнила Меркель.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Но	_	_	_	_	_	_	_	_
 3	мы	_	_	_	_	_	_	_	_
@@ -103,25 +103,24 @@
 6	тем	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	из-	_	_	_	_	_	_	_	_
-10	за	_	_	_	_	_	_	_	_
-11	высокого	_	_	_	_	_	_	_	_
-12	числа	_	_	_	_	_	_	_	_
-13	заражений	_	_	_	_	_	_	_	_
-14	их	_	_	_	_	_	_	_	_
-15	нужно	_	_	_	_	_	_	_	_
-16	будет	_	_	_	_	_	_	_	_
-17	сохранить	_	_	_	_	_	_	_	_
-18	и	_	_	_	_	_	_	_	_
-19	до	_	_	_	_	_	_	_	bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
-20	начала	_	_	_	_	_	_	_	bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
-21	января	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
-22	''	_	_	_	_	_	_	_	SpaceAfter=No
-23	,	_	_	_	_	_	_	_	_
-24	-	_	_	_	_	_	_	_	_
-25	уточнила	_	_	_	_	_	_	_	_
-26	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T15:Female|bratT15=Person|bratT40=Person-surname
-27	.	_	_	_	_	_	_	_	_
+9	из-за	_	_	_	_	_	_	_	_
+10	высокого	_	_	_	_	_	_	_	_
+11	числа	_	_	_	_	_	_	_	_
+12	заражений	_	_	_	_	_	_	_	bratT47=Event
+13	их	_	_	_	_	_	_	_	_
+14	нужно	_	_	_	_	_	_	_	_
+15	будет	_	_	_	_	_	_	_	_
+16	сохранить	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	до	_	_	_	_	_	_	_	bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
+19	начала	_	_	_	_	_	_	_	bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
+20	января	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T14:Pres-Fut|bratT14=Date-period-absolute
+21	''	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	-	_	_	_	_	_	_	_	_
+24	уточнила	_	_	_	_	_	_	_	_
+25	Меркель	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T15:Female|bratT15=Person|bratT40=Person-surname
+26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p4
 # par_text = Однако на рождественские каникулы в стране предполагается сделать послабления.
@@ -151,9 +150,9 @@
 7	на	_	_	_	_	_	_	_	_
 8	фоне	_	_	_	_	_	_	_	_
 9	роста	_	_	_	_	_	_	_	_
-10	случаев	_	_	_	_	_	_	_	_
-11	заражения	_	_	_	_	_	_	_	_
-12	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+10	случаев	_	_	_	_	_	_	_	bratT48=Event
+11	заражения	_	_	_	_	_	_	_	bratT48=Event
+12	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT48=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0086-p5-s2
@@ -226,7 +225,7 @@
 15	точки	_	_	_	_	_	_	_	_
 16	зрения	_	_	_	_	_	_	_	_
 17	нового	_	_	_	_	_	_	_	_
-18	локдауна	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+18	локдауна	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Event
 19	,	_	_	_	_	_	_	_	_
 20	как	_	_	_	_	_	_	_	_
 21	это	_	_	_	_	_	_	_	_

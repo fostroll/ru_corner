@@ -2,61 +2,75 @@ T1	Person 64 77	Нурмагомедова
 T4	Person-property 128 182	российского   бойца   смешанного   стиля   (   MMA   )
 T5	Person 128 207	российского   бойца   смешанного   стиля   (   MMA   )   Хабиба   Нурмагомедова
 T6	GPE 214 224	Челябинске
-T7	Age 345 355	32-летнего
-T8	Person-property 358 368	спортсмена
-T9	Person-property 421 448	местный   граффити-художник
-T10	Person 421 465	местный   граффити-художник   Тимур   Бразил
-T11	Date-absolute 583 594	В   октябре
-T12	Person 597 609	Нурмагомедов
-T13	Organization 652 688	Абсолютном   бойцовском   чемпионате
-T14	Organization 695 698	UFC
-T15	Person-property 742 762	президента   Франции
-T16	GPE 755 762	Франции
-T17	Person 742 784	президента   Франции   Эммануэля   Макрона
-T18	Person-property 816 824	политика
-T19	Religious-group 886 895	мусульман
-T20	Person-property 960 970	президента
-T21	Event 981 1028	убийство   школьного   учителя   Самюэля   Пати
-T22	Person-property 992 1011	школьного   учителя
-T23	Person 992 1028	школьного   учителя   Самюэля   Пати
-T24	Person-property 1106 1114	ученикам
-T25	Person 1135 1154	пророка   Мухаммеда
+T7	Age 347 357	32-летнего
+T8	Person-property 360 370	спортсмена
+T9	Person-property 423 450	местный   граффити-художник
+T10	Person 423 467	местный   граффити-художник   Тимур   Бразил
+T11	Date-absolute 585 596	В   октябре
+T12	Person 599 611	Нурмагомедов
+T13	Event 654 690	Абсолютном   бойцовском   чемпионате
+T14	Event 697 700	UFC
+T15	Person-property 744 764	президента   Франции
+T16	GPE 757 764	Франции
+T17	Person 744 786	президента   Франции   Эммануэля   Макрона
+T18	Person-property 818 826	политика
+T19	Religious-group 888 897	мусульман
+T20	Person-property 962 972	президента
+T21	Event 983 991	убийство
+T22	Person-property 994 1013	школьного   учителя
+T23	Person 994 1030	школьного   учителя   Самюэля   Пати
+T24	Person-property 1108 1116	ученикам
+T25	Person 1137 1156	пророка   Мухаммеда
 A1	Fiction T25
-T26	Person-property 1135 1142	пророка
-T27	Person 1160 1172	Нурмагомедов
-T28	Quantity 1175 1181	трижды
-T29	Person-property 1202 1236	чемпиона   UFC   в   легком   весе
-T30	Quantity 1309 1319	29   побед
-T31	Quantity 1326 1340	29   поединках
-T32	Service 310 329	``   ВКонтакте   ''
-T33	Service 258 302	сообществе   ``   Регион-74   Челябинск   ''
+T26	Person-property 1137 1144	пророка
+T27	Person 1162 1174	Нурмагомедов
+T28	Quantity 1177 1183	трижды
+T29	Person-property 1204 1238	чемпиона   UFC   в   легком   весе
+T30	Quantity 1311 1321	29   побед
+T31	Quantity 1328 1342	29   поединках
+T32	Service 312 331	``   ВКонтакте   ''
+T33	Service 258 304	сообществе   ``   Регион - 74   Челябинск   ''
 A2	Media T33
-A3	Fiction T26
-T2	Organization 1213 1216	UFC
+T2	Organization 1215 1218	UFC
 A4	Past T11
 T3	GPE 128 139	российского
-T34	GPE 903 914	французское
+T34	GPE 905 916	французское
 T35	Person-surname 64 77	Нурмагомедова
 T36	Person-forename 185 191	Хабиба
 T37	Other-term 175 178	MMA
 T38	Person-surname 194 207	Нурмагомедова
-T39	Person-surname 597 609	Нурмагомедов
-T40	Person-forename 765 774	Эммануэля
-T41	Person-surname 777 784	Макрона
-T42	Person-forename 451 456	Тимур
-T43	Person-surname 459 465	Бразил
-T44	Person-forename 1014 1021	Самюэля
-T45	Person-surname 1024 1028	Пати
-T46	Person-forename 1145 1154	Мухаммеда
-T47	Person-surname 1160 1172	Нурмагомедов
+T39	Person-surname 599 611	Нурмагомедов
+T40	Person-forename 767 776	Эммануэля
+T41	Person-surname 779 786	Макрона
+T42	Person-forename 453 458	Тимур
+T43	Person-surname 461 467	Бразил
+T44	Person-forename 1016 1023	Самюэля
+T45	Person-surname 1026 1030	Пати
+T46	Person-forename 1147 1156	Мухаммеда
+T47	Person-surname 1162 1174	Нурмагомедов
 A5	Male T1
 A6	Male T5
 A7	Male T10
 A8	Male T12
 A9	Adjective T3
-T48	GPE 288 297	Челябинск
+T48	GPE 290 299	Челябинск
 A10	Male T17
 A11	Adjective T34
 A12	Male T23
 A13	Male T25
 A14	Male T27
+T49	Event 635 647	выступлениям
+T50	Event 948 959	выступления
+T51	Event 1260 1279	уходе   из   спорта
+T52	Event 1333 1342	поединках
+T53	Cardinal 285 287	74
+T54	Person 360 370	спортсмена
+A15	Male T54
+T55	Person 818 826	политика
+A16	Male T55
+T56	Person 962 972	президента
+T57	Person 0 7	Вандалы
+T58	Person 472 483	Неизвестные
+T59	Person 79 86	Вандалы
+T60	GPE 423 430	местный
+A3	Adjective T60

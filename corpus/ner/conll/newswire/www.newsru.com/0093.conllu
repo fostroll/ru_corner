@@ -1,0 +1,286 @@
+# newdoc id = 0093
+# newpar id = 0093-p1
+# par_text = В США обнародовано изображение перспективной пусковой установки гиперзвуковых ракет
+# sent_id = 0093-p1-s1
+# text = В США обнародовано изображение перспективной пусковой установки гиперзвуковых ракет
+1	В	_	_	_	_	_	_	_	_
+2	США	_	_	_	_	_	_	_	bratT1=GPE
+3	обнародовано	_	_	_	_	_	_	_	_
+4	изображение	_	_	_	_	_	_	_	_
+5	перспективной	_	_	_	_	_	_	_	_
+6	пусковой	_	_	_	_	_	_	_	_
+7	установки	_	_	_	_	_	_	_	_
+8	гиперзвуковых	_	_	_	_	_	_	_	_
+9	ракет	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p2
+# par_text = Армия США раскрыла внешний вид перспективной американской пусковой установки гиперзвукового ракетного комплекса наземного базирования, который должен будет поступить в американские войска к концу 2021 года, передает "Интерфакс".Разработка комплекса осуществляется в рамках программы Operational Fires (OpFires) Управления перспективных исследовательских проектов Министерства обороны США (DARPA) и контракта с корпорацией Lockheed Martin.
+# sent_id = 0093-p2-s1
+# text = Армия США раскрыла внешний вид перспективной американской пусковой установки гиперзвукового ракетного комплекса наземного базирования, который должен будет поступить в американские войска к концу 2021 года, передает ``Интерфакс''.
+1	Армия	_	_	_	_	_	_	_	bratT2=Organization
+2	США	_	_	_	_	_	_	_	bratT2=Organization|bratT3=GPE
+3	раскрыла	_	_	_	_	_	_	_	_
+4	внешний	_	_	_	_	_	_	_	_
+5	вид	_	_	_	_	_	_	_	_
+6	перспективной	_	_	_	_	_	_	_	_
+7	американской	_	_	_	_	_	_	_	bratA17=T53:Adjective|bratT53=GPE
+8	пусковой	_	_	_	_	_	_	_	_
+9	установки	_	_	_	_	_	_	_	_
+10	гиперзвукового	_	_	_	_	_	_	_	_
+11	ракетного	_	_	_	_	_	_	_	_
+12	комплекса	_	_	_	_	_	_	_	_
+13	наземного	_	_	_	_	_	_	_	_
+14	базирования	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	который	_	_	_	_	_	_	_	_
+17	должен	_	_	_	_	_	_	_	_
+18	будет	_	_	_	_	_	_	_	_
+19	поступить	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	американские	_	_	_	_	_	_	_	bratA18=T54:Adjective|bratT38=Organization|bratT54=GPE
+22	войска	_	_	_	_	_	_	_	bratT38=Organization
+23	к	_	_	_	_	_	_	_	bratA8=T4:Future|bratT4=Date-absolute
+24	концу	_	_	_	_	_	_	_	bratA8=T4:Future|bratT4=Date-absolute
+25	2021	_	_	_	_	_	_	_	bratA8=T4:Future|bratT4=Date-absolute
+26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T4:Future|bratT4=Date-absolute
+27	,	_	_	_	_	_	_	_	_
+28	передает	_	_	_	_	_	_	_	_
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
+30	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
+31	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p2-s2
+# text = Разработка комплекса осуществляется в рамках программы Operational Fires (OpFires) Управления перспективных исследовательских проектов Министерства обороны США (DARPA) и контракта с корпорацией Lockheed Martin.
+1	Разработка	_	_	_	_	_	_	_	_
+2	комплекса	_	_	_	_	_	_	_	_
+3	осуществляется	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	рамках	_	_	_	_	_	_	_	_
+6	программы	_	_	_	_	_	_	_	bratA2=T6:Project|bratT6=Product
+7	Operational	_	_	_	_	_	_	_	bratA2=T6:Project|bratT6=Product
+8	Fires	_	_	_	_	_	_	_	bratA2=T6:Project|bratT6=Product
+9	(	_	_	_	_	_	_	_	SpaceAfter=No
+10	OpFires	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T7:Project|bratT7=Product
+11	)	_	_	_	_	_	_	_	_
+12	Управления	_	_	_	_	_	_	_	bratA5=T8:Department|bratT8=Organization
+13	перспективных	_	_	_	_	_	_	_	bratA5=T8:Department|bratT8=Organization
+14	исследовательских	_	_	_	_	_	_	_	bratA5=T8:Department|bratT8=Organization
+15	проектов	_	_	_	_	_	_	_	bratA5=T8:Department|bratT8=Organization
+16	Министерства	_	_	_	_	_	_	_	bratA5=T8:Department|bratT10=Organization|bratT8=Organization
+17	обороны	_	_	_	_	_	_	_	bratA5=T8:Department|bratT10=Organization|bratT8=Organization
+18	США	_	_	_	_	_	_	_	bratA5=T8:Department|bratT10=Organization|bratT11=GPE|bratT8=Organization
+19	(	_	_	_	_	_	_	_	SpaceAfter=No
+20	DARPA	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Department|bratT9=Organization
+21	)	_	_	_	_	_	_	_	_
+22	и	_	_	_	_	_	_	_	_
+23	контракта	_	_	_	_	_	_	_	_
+24	с	_	_	_	_	_	_	_	_
+25	корпорацией	_	_	_	_	_	_	_	_
+26	Lockheed	_	_	_	_	_	_	_	bratT12=Organization
+27	Martin	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
+28	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p3
+# par_text = Согласно опубликованному изображению, армейские комплексы будут устанавливаться на тяжелых колесных транспортерах. На каждом будет размещаться по три пусковых контейнера с гиперзвуковыми ракетами.
+# sent_id = 0093-p3-s1
+# text = Согласно опубликованному изображению, армейские комплексы будут устанавливаться на тяжелых колесных транспортерах.
+1	Согласно	_	_	_	_	_	_	_	_
+2	опубликованному	_	_	_	_	_	_	_	_
+3	изображению	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	армейские	_	_	_	_	_	_	_	_
+6	комплексы	_	_	_	_	_	_	_	_
+7	будут	_	_	_	_	_	_	_	_
+8	устанавливаться	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	тяжелых	_	_	_	_	_	_	_	_
+11	колесных	_	_	_	_	_	_	_	_
+12	транспортерах	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p3-s2
+# text = На каждом будет размещаться по три пусковых контейнера с гиперзвуковыми ракетами.
+1	На	_	_	_	_	_	_	_	_
+2	каждом	_	_	_	_	_	_	_	_
+3	будет	_	_	_	_	_	_	_	_
+4	размещаться	_	_	_	_	_	_	_	_
+5	по	_	_	_	_	_	_	_	bratT13=Quantity
+6	три	_	_	_	_	_	_	_	bratT13=Quantity
+7	пусковых	_	_	_	_	_	_	_	bratT13=Quantity
+8	контейнера	_	_	_	_	_	_	_	bratT13=Quantity
+9	с	_	_	_	_	_	_	_	_
+10	гиперзвуковыми	_	_	_	_	_	_	_	_
+11	ракетами	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p4
+# par_text = Американские комплексы гиперзвукового оружия наземного базирования в ядерном и неядерном оснащении предназначены для подавления вражеских целей в любой точке планеты в течение одного часа. О дальности действия этих систем не сообщается.
+# sent_id = 0093-p4-s1
+# text = Американские комплексы гиперзвукового оружия наземного базирования в ядерном и неядерном оснащении предназначены для подавления вражеских целей в любой точке планеты в течение одного часа.
+1	Американские	_	_	_	_	_	_	_	bratA19=T55:Adjective|bratT55=GPE
+2	комплексы	_	_	_	_	_	_	_	_
+3	гиперзвукового	_	_	_	_	_	_	_	_
+4	оружия	_	_	_	_	_	_	_	_
+5	наземного	_	_	_	_	_	_	_	_
+6	базирования	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	ядерном	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	неядерном	_	_	_	_	_	_	_	_
+11	оснащении	_	_	_	_	_	_	_	_
+12	предназначены	_	_	_	_	_	_	_	_
+13	для	_	_	_	_	_	_	_	_
+14	подавления	_	_	_	_	_	_	_	_
+15	вражеских	_	_	_	_	_	_	_	_
+16	целей	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	любой	_	_	_	_	_	_	_	_
+19	точке	_	_	_	_	_	_	_	_
+20	планеты	_	_	_	_	_	_	_	bratT40=Location
+21	в	_	_	_	_	_	_	_	bratT14=Time-period
+22	течение	_	_	_	_	_	_	_	bratT14=Time-period
+23	одного	_	_	_	_	_	_	_	bratT14=Time-period|bratT47=Duration
+24	часа	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Time-period|bratT47=Duration
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p4-s2
+# text = О дальности действия этих систем не сообщается.
+1	О	_	_	_	_	_	_	_	_
+2	дальности	_	_	_	_	_	_	_	_
+3	действия	_	_	_	_	_	_	_	_
+4	этих	_	_	_	_	_	_	_	_
+5	систем	_	_	_	_	_	_	_	_
+6	не	_	_	_	_	_	_	_	_
+7	сообщается	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p5
+# par_text = Вооруженные силы США в следующем году проведут два очередных испытания планирующего гиперзвукового блока, сообщило издание Defense News, ссылаясь на директора управления Армии США по гиперзвуковому оружию генерал-лейтенанта Нила Тергуда. По его словам, еще два испытания планируется провести в апреле-июне 2022 года.Уже к осени следующего года армия США должна получить гиперзвуковой блок со штатным носителем и пусковой установкой.
+# sent_id = 0093-p5-s1
+# text = Вооруженные силы США в следующем году проведут два очередных испытания планирующего гиперзвукового блока, сообщило издание Defense News, ссылаясь на директора управления Армии США по гиперзвуковому оружию генерал-лейтенанта Нила Тергуда.
+1	Вооруженные	_	_	_	_	_	_	_	bratT15=Organization
+2	силы	_	_	_	_	_	_	_	bratT15=Organization
+3	США	_	_	_	_	_	_	_	bratT15=Organization
+4	в	_	_	_	_	_	_	_	bratA9=T37:Future|bratT37=Date-absolute
+5	следующем	_	_	_	_	_	_	_	bratA9=T37:Future|bratT37=Date-absolute|bratT45=Ordinal
+6	году	_	_	_	_	_	_	_	bratA9=T37:Future|bratT37=Date-absolute
+7	проведут	_	_	_	_	_	_	_	_
+8	два	_	_	_	_	_	_	_	bratT16=Quantity
+9	очередных	_	_	_	_	_	_	_	bratT16=Quantity
+10	испытания	_	_	_	_	_	_	_	bratT16=Quantity
+11	планирующего	_	_	_	_	_	_	_	_
+12	гиперзвукового	_	_	_	_	_	_	_	_
+13	блока	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	сообщило	_	_	_	_	_	_	_	_
+16	издание	_	_	_	_	_	_	_	bratA6=T17:Media|bratT17=Organization
+17	Defense	_	_	_	_	_	_	_	bratA6=T17:Media|bratT17=Organization
+18	News	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T17:Media|bratT17=Organization
+19	,	_	_	_	_	_	_	_	_
+20	ссылаясь	_	_	_	_	_	_	_	_
+21	на	_	_	_	_	_	_	_	_
+22	директора	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT19=Person-property
+23	управления	_	_	_	_	_	_	_	bratA10=T18:Male|bratA7=T20:Department|bratT18=Person|bratT19=Person-property|bratT20=Organization
+24	Армии	_	_	_	_	_	_	_	bratA10=T18:Male|bratA7=T20:Department|bratT18=Person|bratT19=Person-property|bratT20=Organization|bratT21=Organization
+25	США	_	_	_	_	_	_	_	bratA10=T18:Male|bratA7=T20:Department|bratT18=Person|bratT19=Person-property|bratT20=Organization|bratT21=Organization|bratT22=GPE
+26	по	_	_	_	_	_	_	_	bratA10=T18:Male|bratA7=T20:Department|bratT18=Person|bratT19=Person-property|bratT20=Organization
+27	гиперзвуковому	_	_	_	_	_	_	_	bratA10=T18:Male|bratA7=T20:Department|bratT18=Person|bratT19=Person-property|bratT20=Organization
+28	оружию	_	_	_	_	_	_	_	bratA10=T18:Male|bratA7=T20:Department|bratT18=Person|bratT19=Person-property|bratT20=Organization
+29	генерал-лейтенанта	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT41=Person-property
+30	Нила	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT48=Person-forename
+31	Тергуда	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Male|bratT18=Person|bratT49=Person-surname
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p5-s2
+# text = По его словам, еще два испытания планируется провести в апреле-июне 2022 года.
+1	По	_	_	_	_	_	_	_	_
+2	его	_	_	_	_	_	_	_	_
+3	словам	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	еще	_	_	_	_	_	_	_	bratT23=Quantity
+6	два	_	_	_	_	_	_	_	bratT23=Quantity
+7	испытания	_	_	_	_	_	_	_	bratT23=Quantity
+8	планируется	_	_	_	_	_	_	_	_
+9	провести	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11-13	апреле-июне	_	_	_	_	_	_	_	_
+11	апреле	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Fut|bratT24=Date-period-absolute
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Fut|bratT24=Date-period-absolute
+13	июне	_	_	_	_	_	_	_	bratA11=T24:Fut|bratT24=Date-period-absolute
+14	2022	_	_	_	_	_	_	_	bratA11=T24:Fut|bratT24=Date-period-absolute
+15	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Fut|bratT24=Date-period-absolute
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p5-s3
+# text = Уже к осени следующего года армия США должна получить гиперзвуковой блок со штатным носителем и пусковой установкой.
+1	Уже	_	_	_	_	_	_	_	_
+2	к	_	_	_	_	_	_	_	bratA12=T39:Future|bratT39=Date-absolute
+3	осени	_	_	_	_	_	_	_	bratA12=T39:Future|bratT39=Date-absolute
+4	следующего	_	_	_	_	_	_	_	bratA12=T39:Future|bratT39=Date-absolute|bratT46=Ordinal
+5	года	_	_	_	_	_	_	_	bratA12=T39:Future|bratT39=Date-absolute
+6	армия	_	_	_	_	_	_	_	bratT25=Organization
+7	США	_	_	_	_	_	_	_	bratT25=Organization|bratT26=GPE
+8	должна	_	_	_	_	_	_	_	_
+9	получить	_	_	_	_	_	_	_	_
+10	гиперзвуковой	_	_	_	_	_	_	_	_
+11	блок	_	_	_	_	_	_	_	_
+12	со	_	_	_	_	_	_	_	_
+13	штатным	_	_	_	_	_	_	_	_
+14	носителем	_	_	_	_	_	_	_	_
+15	и	_	_	_	_	_	_	_	_
+16	пусковой	_	_	_	_	_	_	_	_
+17	установкой	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p6
+# par_text = Министр Армии США Райан Маккарти, выступая в среду на заседании Ассоциации Армии США, сообщил, что в ходе испытания, проведенного 19 марта текущего года, американская гиперзвуковая ракета поразила цель с отклонением от нее всего на шесть дюймов (15 см).
+# sent_id = 0093-p6-s1
+# text = Министр Армии США Райан Маккарти, выступая в среду на заседании Ассоциации Армии США, сообщил, что в ходе испытания, проведенного 19 марта текущего года, американская гиперзвуковая ракета поразила цель с отклонением от нее всего на шесть дюймов (15 см).
+1	Министр	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person|bratT28=Person-property
+2	Армии	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person|bratT28=Person-property|bratT29=Organization
+3	США	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person|bratT28=Person-property|bratT29=Organization|bratT30=GPE
+4	Райан	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person|bratT50=Person-forename
+5	Маккарти	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T27:Male|bratT27=Person|bratT51=Person-surname
+6	,	_	_	_	_	_	_	_	_
+7	выступая	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA20=T42:Past|bratT42=Date-absolute
+9	среду	_	_	_	_	_	_	_	bratA20=T42:Past|bratT42=Date-absolute
+10	на	_	_	_	_	_	_	_	bratA20=T42:Past|bratT42=Date-absolute
+11	заседании	_	_	_	_	_	_	_	bratA20=T42:Past|bratT31=Event|bratT42=Date-absolute
+12	Ассоциации	_	_	_	_	_	_	_	bratT31=Event|bratT32=Organization
+13	Армии	_	_	_	_	_	_	_	bratT31=Event|bratT32=Organization
+14	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Event|bratT32=Organization|bratT33=GPE
+15	,	_	_	_	_	_	_	_	_
+16	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	что	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	bratA13=T43:Past|bratT43=Date-absolute
+20	ходе	_	_	_	_	_	_	_	bratA13=T43:Past|bratT43=Date-absolute
+21	испытания	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T43:Past|bratT43=Date-absolute
+22	,	_	_	_	_	_	_	_	_
+23	проведенного	_	_	_	_	_	_	_	_
+24	19	_	_	_	_	_	_	_	bratA14=T34:Past|bratT34=Date-absolute
+25	марта	_	_	_	_	_	_	_	bratA14=T34:Past|bratT34=Date-absolute
+26	текущего	_	_	_	_	_	_	_	bratA14=T34:Past|bratT34=Date-absolute|bratT44=Ordinal
+27	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T34:Past|bratT34=Date-absolute
+28	,	_	_	_	_	_	_	_	_
+29	американская	_	_	_	_	_	_	_	bratA16=T52:Adjective|bratT52=GPE
+30	гиперзвуковая	_	_	_	_	_	_	_	_
+31	ракета	_	_	_	_	_	_	_	_
+32	поразила	_	_	_	_	_	_	_	_
+33	цель	_	_	_	_	_	_	_	_
+34	с	_	_	_	_	_	_	_	_
+35	отклонением	_	_	_	_	_	_	_	_
+36	от	_	_	_	_	_	_	_	_
+37	нее	_	_	_	_	_	_	_	_
+38	всего	_	_	_	_	_	_	_	_
+39	на	_	_	_	_	_	_	_	bratT35=Quantity
+40	шесть	_	_	_	_	_	_	_	bratT35=Quantity
+41	дюймов	_	_	_	_	_	_	_	bratT35=Quantity
+42	(	_	_	_	_	_	_	_	SpaceAfter=No
+43	15	_	_	_	_	_	_	_	bratT36=Quantity
+44	см	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Quantity
+45	)	_	_	_	_	_	_	_	SpaceAfter=No
+46	.	_	_	_	_	_	_	_	_
+

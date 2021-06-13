@@ -1,0 +1,61 @@
+T1	Person 0 17	Ирина   Горбачева
+T2	Organization 39 60	американского   Vogue
+A1	Media T2
+T3	Organization 121 142	американского   Vogue
+A2	Media T3
+T4	Person-property 182 202	российские   актрисы
+T5	Person 278 295	Ирину   Горбачеву
+T6	Person 392 422	журналист   Лиана   Сатенштейн
+T7	Person-property 392 401	журналист
+T8	Person 486 495	Горбачева
+T9	Work-of-art 565 582	``   Аритмия   ''
+T10	Person 543 562	Бориса   Хлебникова
+T11	Quantity 606 616	одним   из
+T12	Other-term 631 661	фестиваля   ``   Кинотавр   ''
+T13	Date-absolute 664 679	в   2017   году
+T14	Person-property 692 697	автор
+T15	Person 726 731	Ирины
+T16	Date-absolute 802 831	В   декабре   прошлого   года
+T17	Person 904 914	Сатенштейн
+T18	Person-property 972 979	актрисы
+T19	GPE 987 993	России
+T20	Other-group 1199 1208	фолловеры
+T21	Person 1257 1303	поэта   20-го   века   Владимира   Маяковского
+T22	Date-period-absolute 1265 1277	20-го   века
+T23	Person-property 1257 1277	поэта   20-го   века
+A3	Female T1
+T24	Person-forename 0 5	Ирина
+T25	Person-surname 8 17	Горбачева
+A4	Female T5
+T26	Person-forename 278 283	Ирину
+T27	Person-surname 287 295	орбачеву
+A5	Female T6
+T28	Person-forename 404 409	Лиана
+T29	Person-surname 412 422	Сатенштейн
+A6	Female T8
+T30	Person-surname 486 495	Горбачева
+A7	Male T10
+T31	Person-forename 543 549	Бориса
+T32	Person-surname 552 562	Хлебникова
+A8	Female T15
+T33	Person-forename 726 731	Ирины
+A9	Past T16
+T34	Person-property 834 841	актриса
+A10	Female T17
+T35	Person-surname 904 914	Сатенштейн
+A11	Male T21
+T36	Person-forename 1280 1289	Владимира
+T37	Person-surname 1292 1303	Маяковского
+A12	Past T22
+T38	Other-group 440 449	читателям
+T39	GPE 182 192	российские
+A13	Adjective T39
+T40	GPE 39 52	американского
+A14	Adjective T40
+T41	GPE 121 134	американского
+A15	Adjective T41
+A16	Past T13
+T42	Service 365 370	сайте
+A17	Media T42
+T43	Ordinal 816 824	прошлого
+T44	Person-property 1344 1371	восходящей   женщины-звезды

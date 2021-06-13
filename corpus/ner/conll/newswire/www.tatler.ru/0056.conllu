@@ -1,0 +1,97 @@
+# newdoc id = 0056
+# newpar id = 0056-p1
+# par_text = Стартовали новые слушания по делу Меган Маркл против британского таблоида: все подробности
+# sent_id = 0056-p1-s1
+# text = Стартовали новые слушания по делу Меган Маркл против британского таблоида: все подробности
+1	Стартовали	_	_	_	_	_	_	_	_
+2	новые	_	_	_	_	_	_	_	_
+3	слушания	_	_	_	_	_	_	_	bratT31=Event
+4	по	_	_	_	_	_	_	_	bratT31=Event
+5	делу	_	_	_	_	_	_	_	bratT31=Event|bratT32=Event
+6	Меган	_	_	_	_	_	_	_	bratA1=T3:Female|bratT1=Person-forename|bratT3=Person
+7	Маркл	_	_	_	_	_	_	_	bratA1=T3:Female|bratT2=Person-surname|bratT3=Person
+8	против	_	_	_	_	_	_	_	_
+9	британского	_	_	_	_	_	_	_	bratA2=T4:Adjective|bratT4=GPE
+10	таблоида	_	_	_	_	_	_	_	SpaceAfter=No
+11	:	_	_	_	_	_	_	_	_
+12	все	_	_	_	_	_	_	_	_
+13	подробности	_	_	_	_	_	_	_	_
+
+# newpar id = 0056-p2
+# par_text = В лондонском суде стартовал второй тур предварительных слушаний по делу Меган Маркл против таблоида The Mail on Sunday. Ему предшествовала новость о том, что герцогиня Сассекская уволила своего адвоката Дэвида Шерборна и назначила на его место Джастина Рашбрука.
+# sent_id = 0056-p2-s1
+# text = В лондонском суде стартовал второй тур предварительных слушаний по делу Меган Маркл против таблоида The Mail on Sunday.
+1	В	_	_	_	_	_	_	_	_
+2	лондонском	_	_	_	_	_	_	_	bratA3=T5:Adjective|bratT5=GPE|bratT6=Organization
+3	суде	_	_	_	_	_	_	_	bratT6=Organization
+4	стартовал	_	_	_	_	_	_	_	_
+5	второй	_	_	_	_	_	_	_	bratT28=Event|bratT7=Ordinal
+6	тур	_	_	_	_	_	_	_	bratT28=Event
+7	предварительных	_	_	_	_	_	_	_	bratT27=Event|bratT28=Event
+8	слушаний	_	_	_	_	_	_	_	bratT27=Event|bratT28=Event
+9	по	_	_	_	_	_	_	_	bratT27=Event|bratT28=Event
+10	делу	_	_	_	_	_	_	_	bratT27=Event|bratT28=Event|bratT33=Event
+11	Меган	_	_	_	_	_	_	_	bratA4=T10:Female|bratT10=Person|bratT8=Person-forename
+12	Маркл	_	_	_	_	_	_	_	bratA4=T10:Female|bratT10=Person|bratT9=Person-surname
+13	против	_	_	_	_	_	_	_	_
+14	таблоида	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
+15	The	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
+16	Mail	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
+17	on	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
+18	Sunday	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T11:Media|bratT11=Organization
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0056-p2-s2
+# text = Ему предшествовала новость о том, что герцогиня Сассекская уволила своего адвоката Дэвида Шерборна и назначила на его место Джастина Рашбрука.
+1	Ему	_	_	_	_	_	_	_	_
+2	предшествовала	_	_	_	_	_	_	_	_
+3	новость	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	том	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	герцогиня	_	_	_	_	_	_	_	bratA6=T13:Female|bratT13=Person|bratT14=Person-property
+9	Сассекская	_	_	_	_	_	_	_	bratA10=T12:Adjective|bratA6=T13:Female|bratT12=GPE|bratT13=Person
+10	уволила	_	_	_	_	_	_	_	_
+11	своего	_	_	_	_	_	_	_	_
+12	адвоката	_	_	_	_	_	_	_	bratA7=T18:Male|bratT17=Person-property|bratT18=Person
+13	Дэвида	_	_	_	_	_	_	_	bratA7=T18:Male|bratT15=Person-forename|bratT18=Person
+14	Шерборна	_	_	_	_	_	_	_	bratA7=T18:Male|bratT16=Person-surname|bratT18=Person
+15	и	_	_	_	_	_	_	_	_
+16	назначила	_	_	_	_	_	_	_	_
+17	на	_	_	_	_	_	_	_	_
+18	его	_	_	_	_	_	_	_	_
+19	место	_	_	_	_	_	_	_	_
+20	Джастина	_	_	_	_	_	_	_	bratA8=T21:Male|bratT19=Person-forename|bratT21=Person
+21	Рашбрука	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Male|bratT20=Person-surname|bratT21=Person
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0056-p3
+# par_text = В первый же день предварительных слушаний Рашбрук заинтриговал общественность заявлением о том, что герцогиня планирует лично появиться в суде и дать показания.
+# sent_id = 0056-p3-s1
+# text = В первый же день предварительных слушаний Рашбрук заинтриговал общественность заявлением о том, что герцогиня планирует лично появиться в суде и дать показания.
+1	В	_	_	_	_	_	_	_	bratA11=T30:Past|bratT30=Date-absolute
+2	первый	_	_	_	_	_	_	_	bratA11=T30:Past|bratT22=Ordinal|bratT30=Date-absolute
+3	же	_	_	_	_	_	_	_	bratA11=T30:Past|bratT30=Date-absolute
+4	день	_	_	_	_	_	_	_	bratA11=T30:Past|bratT29=Duration|bratT30=Date-absolute
+5	предварительных	_	_	_	_	_	_	_	bratA11=T30:Past|bratT26=Event|bratT30=Date-absolute
+6	слушаний	_	_	_	_	_	_	_	bratA11=T30:Past|bratT26=Event|bratT30=Date-absolute
+7	Рашбрук	_	_	_	_	_	_	_	bratA9=T24:Male|bratT23=Person-surname|bratT24=Person
+8	заинтриговал	_	_	_	_	_	_	_	_
+9	общественность	_	_	_	_	_	_	_	_
+10	заявлением	_	_	_	_	_	_	_	_
+11	о	_	_	_	_	_	_	_	_
+12	том	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	что	_	_	_	_	_	_	_	_
+15	герцогиня	_	_	_	_	_	_	_	bratT25=Person-property
+16	планирует	_	_	_	_	_	_	_	_
+17	лично	_	_	_	_	_	_	_	_
+18	появиться	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	суде	_	_	_	_	_	_	_	_
+21	и	_	_	_	_	_	_	_	_
+22	дать	_	_	_	_	_	_	_	_
+23	показания	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+

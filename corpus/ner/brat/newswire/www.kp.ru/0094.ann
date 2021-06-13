@@ -17,24 +17,24 @@ T15	Person-property 549 573	российских   миротворцев
 T16	Duration 596 615	пятилетним   сроком
 T17	Person 653 660	Пашинян
 T18	Quantity 918 935	трех   государств
-T19	Person-property 902 915	руководителей
+T19	Person-property 902 935	руководителей   трех   государств
 T20	Person-property 1022 1033	миротворцев
 T21	GPE 1040 1048	Карабахе
 T22	GPE 1176 1195	Нагорном   Карабахе
 T23	Person-property 1284 1294	миротворцы
 T24	Person 1409 1424	Никол   Пашинян
-T25	Service 1446 1458	сайт   kp.ru
+T25	Service 1446 1460	сайт   kp . ru
 A2	Media T25
-T26	Date-absolute 1465 1475	9   ноября
-T27	Person-property 1478 1496	российский   лидер
-T28	Person 1478 1515	российский   лидер   Владимир   Путин
-T29	GPE 1534 1546	Азербайджана
-T30	Person-property 1522 1546	президент   Азербайджана
-T31	Person 1522 1563	президент   Азербайджана   Ильхам   Алиев
-T32	GPE 1588 1595	Армении
-T33	Person-property 1570 1595	премьер-министр   Армении
-T34	Person 1570 1613	премьер-министр   Армении   Никол   Пашинян
-T35	GPE 1669 1677	Карабахе
+T26	Date-absolute 1467 1477	9   ноября
+T27	Person-property 1480 1498	российский   лидер
+T28	Person 1480 1517	российский   лидер   Владимир   Путин
+T29	GPE 1536 1548	Азербайджана
+T30	Person-property 1524 1548	президент   Азербайджана
+T31	Person 1524 1565	президент   Азербайджана   Ильхам   Алиев
+T32	GPE 1590 1597	Армении
+T33	Person-property 1572 1597	премьер-министр   Армении
+T34	Person 1572 1615	премьер-министр   Армении   Никол   Пашинян
+T35	GPE 1671 1679	Карабахе
 T36	Person-property 666 697	Глава   правительства   Армении
 T37	Organization 674 697	правительства   Армении
 T38	GPE 690 697	Армении
@@ -42,7 +42,7 @@ T39	GPE 737 745	Карабахе
 T40	Organization 748 773	миротворческих   сил   РФ
 T41	GPE 771 773	РФ
 T42	Date-absolute 1097 1118	В   настоящее   время
-T43	Organization 1453 1458	kp.ru
+T43	Organization 1453 1460	kp . ru
 A3	Media T43
 T44	Duration 367 377	пять   лет
 A4	Pres-Fut T13
@@ -59,15 +59,15 @@ T49	Person-surname 128 135	Пашинян
 T50	Person-surname 653 660	Пашинян
 T51	Person-forename 1409 1414	Никол
 T52	Person-surname 1417 1424	Пашинян
-T53	Person-forename 1499 1507	Владимир
-T54	Person-surname 1510 1515	Путин
-T55	Person-forename 1549 1555	Ильхам
-T56	Person-surname 1558 1563	Алиев
-T57	Person-forename 1598 1603	Никол
-T58	Person-surname 1606 1613	Пашинян
+T53	Person-forename 1501 1509	Владимир
+T54	Person-surname 1512 1517	Путин
+T55	Person-forename 1551 1557	Ильхам
+T56	Person-surname 1560 1565	Алиев
+T57	Person-forename 1600 1605	Никол
+T58	Person-surname 1608 1615	Пашинян
 T59	GPE 90 99	Армянский
 T60	GPE 473 484	Карабахский
-T61	GPE 1478 1488	российский
+T61	GPE 1480 1490	российский
 A10	Male T6
 A11	Male T17
 A12	Male T24
@@ -83,3 +83,7 @@ A19	Adjective T60
 T64	GPE 549 559	российских
 A20	Adjective T64
 A21	Adjective T61
+T65	Web-address 1453 1460	kp . ru
+T66	GPE 461 468	регионе
+T67	GPE 918 935	трех   государств
+T68	GPE 1206 1213	регионе

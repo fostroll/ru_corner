@@ -1,0 +1,211 @@
+# newdoc id = 0076
+# newpar id = 0076-p1
+# par_text = Старший сын Трампа заболел COVID-19
+# sent_id = 0076-p1-s1
+# text = Старший сын Трампа заболел COVID-19
+1	Старший	_	_	_	_	_	_	_	bratA2=T5:Male|bratT4=Family|bratT5=Person
+2	сын	_	_	_	_	_	_	_	bratA2=T5:Male|bratT4=Family|bratT5=Person
+3	Трампа	_	_	_	_	_	_	_	bratA1=T3:Male|bratA2=T5:Male|bratT2=Person-surname|bratT3=Person|bratT5=Person
+4	заболел	_	_	_	_	_	_	_	_
+5-7	COVID-19	_	_	_	_	_	_	_	_
+5	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+7	19	_	_	_	_	_	_	_	bratT1=Other-term|bratT56=Cardinal
+
+# newpar id = 0076-p2
+# par_text = Старший сын президента США Дональд Трамп-младший заразился коронавирусом. Об этом сообщают Bloomberg и CBS со ссылкой на представителя Трампа-младшего.
+# sent_id = 0076-p2-s1
+# text = Старший сын президента США Дональд Трамп-младший заразился коронавирусом.
+1	Старший	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Family|bratT11=Person
+2	сын	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Family|bratT11=Person
+3	президента	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT7=Person-property
+4	США	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT6=GPE|bratT7=Person-property
+5	Дональд	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT8=Person-forename
+6-8	Трамп-младший	_	_	_	_	_	_	_	_
+6	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT9=Person-surname
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person
+8	младший	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT55=Person-affix
+9	заразился	_	_	_	_	_	_	_	_
+10	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0076-p2-s2
+# text = Об этом сообщают Bloomberg и CBS со ссылкой на представителя Трампа-младшего.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщают	_	_	_	_	_	_	_	_
+4	Bloomberg	_	_	_	_	_	_	_	bratA15=T48:Media|bratT48=Organization
+5	и	_	_	_	_	_	_	_	_
+6	CBS	_	_	_	_	_	_	_	bratA16=T49:Media|bratT49=Organization
+7	со	_	_	_	_	_	_	_	_
+8	ссылкой	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	представителя	_	_	_	_	_	_	_	bratT52=Person-property
+11-13	Трампа-младшего	_	_	_	_	_	_	_	SpaceAfter=No
+11	Трампа	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT50=Person-surname|bratT51=Person|bratT52=Person-property
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT51=Person|bratT52=Person-property
+13	младшего	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT51=Person|bratT52=Person-property|bratT59=Person-affix
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0076-p3
+# par_text = Сын американского лидера получил положительный результат теста на COVID-19 в начале недели и с тех пор находится на самоизоляции. По словам его представителя, COVID-19 протекает у него бессимптомно. Он отметил, что Трамп-младший выполняет все рекомендации врачей.
+# sent_id = 0076-p3-s1
+# text = Сын американского лидера получил положительный результат теста на COVID-19 в начале недели и с тех пор находится на самоизоляции.
+1	Сын	_	_	_	_	_	_	_	bratA4=T15:Male|bratT14=Family|bratT15=Person
+2	американского	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratA4=T15:Male|bratT13=Person-property|bratT15=Person|bratT53=GPE
+3	лидера	_	_	_	_	_	_	_	bratA4=T15:Male|bratT13=Person-property|bratT15=Person
+4	получил	_	_	_	_	_	_	_	_
+5	положительный	_	_	_	_	_	_	_	_
+6	результат	_	_	_	_	_	_	_	_
+7	теста	_	_	_	_	_	_	_	bratT17=Service
+8	на	_	_	_	_	_	_	_	bratT17=Service
+9-11	COVID-19	_	_	_	_	_	_	_	_
+9	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term|bratT17=Service
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term|bratT17=Service
+11	19	_	_	_	_	_	_	_	bratT16=Other-term|bratT17=Service|bratT57=Cardinal
+12	в	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
+13	начале	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
+14	недели	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
+15	и	_	_	_	_	_	_	_	_
+16	с	_	_	_	_	_	_	_	bratA20=T19:Past-Pres|bratA6=T19:RCont|bratT19=Date-period-relative
+17	тех	_	_	_	_	_	_	_	bratA20=T19:Past-Pres|bratA6=T19:RCont|bratT19=Date-period-relative
+18	пор	_	_	_	_	_	_	_	bratA20=T19:Past-Pres|bratA6=T19:RCont|bratT19=Date-period-relative
+19	находится	_	_	_	_	_	_	_	_
+20	на	_	_	_	_	_	_	_	_
+21	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0076-p3-s2
+# text = По словам его представителя, COVID-19 протекает у него бессимптомно.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	его	_	_	_	_	_	_	_	_
+4	представителя	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property
+5	,	_	_	_	_	_	_	_	_
+6-8	COVID-19	_	_	_	_	_	_	_	_
+6	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
+8	19	_	_	_	_	_	_	_	bratT21=Other-term|bratT60=Cardinal
+9	протекает	_	_	_	_	_	_	_	_
+10	у	_	_	_	_	_	_	_	_
+11	него	_	_	_	_	_	_	_	_
+12	бессимптомно	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0076-p3-s3
+# text = Он отметил, что Трамп-младший выполняет все рекомендации врачей.
+1	Он	_	_	_	_	_	_	_	_
+2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5-7	Трамп-младший	_	_	_	_	_	_	_	_
+5	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T23:Male|bratT22=Person-surname|bratT23=Person
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T23:Male|bratT23=Person
+7	младший	_	_	_	_	_	_	_	bratA7=T23:Male|bratT23=Person|bratT58=Person-affix
+8	выполняет	_	_	_	_	_	_	_	_
+9	все	_	_	_	_	_	_	_	_
+10	рекомендации	_	_	_	_	_	_	_	_
+11	врачей	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0076-p4
+# par_text = В октябре COVID-19 переболели сам Трамп и его жена Мелания. Американский лидер отправился на лечение в военный госпиталь в штате Мэриленд. 6 октября президента выписали. Трамп сообщал, что чувствует себя отлично. По подсчетам газеты The New York Times, его лечение от коронавируса обошлось более чем в $100 тыс.
+# sent_id = 0076-p4-s1
+# text = В октябре COVID-19 переболели сам Трамп и его жена Мелания.
+1	В	_	_	_	_	_	_	_	bratA8=T25:Past|bratT25=Date-absolute
+2	октябре	_	_	_	_	_	_	_	bratA8=T25:Past|bratT25=Date-absolute
+3-5	COVID-19	_	_	_	_	_	_	_	_
+3	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-term
+4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-term
+5	19	_	_	_	_	_	_	_	bratT26=Other-term|bratT61=Cardinal
+6	переболели	_	_	_	_	_	_	_	_
+7	сам	_	_	_	_	_	_	_	_
+8	Трамп	_	_	_	_	_	_	_	bratA9=T28:Male|bratT27=Person-surname|bratT28=Person
+9	и	_	_	_	_	_	_	_	_
+10	его	_	_	_	_	_	_	_	bratA10=T31:Female|bratT31=Person
+11	жена	_	_	_	_	_	_	_	bratA10=T31:Female|bratT30=Family|bratT31=Person
+12	Мелания	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T31:Female|bratT29=Person-forename|bratT31=Person
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0076-p4-s2
+# text = Американский лидер отправился на лечение в военный госпиталь в штате Мэриленд.
+1	Американский	_	_	_	_	_	_	_	bratA19=T54:Adjective|bratT32=Person-property|bratT54=GPE
+2	лидер	_	_	_	_	_	_	_	bratT32=Person-property
+3	отправился	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	лечение	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	военный	_	_	_	_	_	_	_	bratT34=Organization
+8	госпиталь	_	_	_	_	_	_	_	bratT34=Organization
+9	в	_	_	_	_	_	_	_	bratT34=Organization
+10	штате	_	_	_	_	_	_	_	bratT33=GPE|bratT34=Organization
+11	Мэриленд	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE|bratT34=Organization
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0076-p4-s3
+# text = 6 октября президента выписали.
+1	6	_	_	_	_	_	_	_	bratA11=T35:Past|bratT35=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA11=T35:Past|bratT35=Date-absolute
+3	президента	_	_	_	_	_	_	_	bratT36=Person-property
+4	выписали	_	_	_	_	_	_	_	SpaceAfter=No
+5	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0076-p4-s4
+# text = Трамп сообщал, что чувствует себя отлично.
+1	Трамп	_	_	_	_	_	_	_	bratA12=T38:Male|bratT37=Person-surname|bratT38=Person
+2	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	чувствует	_	_	_	_	_	_	_	_
+6	себя	_	_	_	_	_	_	_	_
+7	отлично	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0076-p4-s5
+# text = По подсчетам газеты The New York Times, его лечение от коронавируса обошлось более чем в $100 тыс.
+1	По	_	_	_	_	_	_	_	_
+2	подсчетам	_	_	_	_	_	_	_	_
+3	газеты	_	_	_	_	_	_	_	bratA13=T39:Media|bratT39=Organization
+4	The	_	_	_	_	_	_	_	bratA13=T39:Media|bratT39=Organization
+5	New	_	_	_	_	_	_	_	bratA13=T39:Media|bratT39=Organization
+6	York	_	_	_	_	_	_	_	bratA13=T39:Media|bratT39=Organization
+7	Times	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T39:Media|bratT39=Organization
+8	,	_	_	_	_	_	_	_	_
+9	его	_	_	_	_	_	_	_	_
+10	лечение	_	_	_	_	_	_	_	_
+11	от	_	_	_	_	_	_	_	_
+12	коронавируса	_	_	_	_	_	_	_	bratT40=Other-term
+13	обошлось	_	_	_	_	_	_	_	_
+14	более	_	_	_	_	_	_	_	bratT41=Money
+15	чем	_	_	_	_	_	_	_	bratT41=Money
+16	в	_	_	_	_	_	_	_	bratT41=Money
+17-18	$100	_	_	_	_	_	_	_	_
+17	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Money
+18	100	_	_	_	_	_	_	_	bratT41=Money
+19	тыс	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Money
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0076-p5
+# par_text = Позже первая леди сообщила, что их младший сын Бэррон переболел COVID-19 вместе с ними.
+# sent_id = 0076-p5-s1
+# text = Позже первая леди сообщила, что их младший сын Бэррон переболел COVID-19 вместе с ними.
+1	Позже	_	_	_	_	_	_	_	_
+2	первая	_	_	_	_	_	_	_	bratT42=Ordinal|bratT43=Person-property
+3	леди	_	_	_	_	_	_	_	bratT43=Person-property
+4	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	их	_	_	_	_	_	_	_	bratA14=T46:Male|bratT46=Person
+8	младший	_	_	_	_	_	_	_	bratA14=T46:Male|bratT45=Family|bratT46=Person
+9	сын	_	_	_	_	_	_	_	bratA14=T46:Male|bratT45=Family|bratT46=Person
+10	Бэррон	_	_	_	_	_	_	_	bratA14=T46:Male|bratT44=Person-forename|bratT46=Person
+11	переболел	_	_	_	_	_	_	_	_
+12-14	COVID-19	_	_	_	_	_	_	_	_
+12	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Other-term
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Other-term
+14	19	_	_	_	_	_	_	_	bratT47=Other-term|bratT62=Cardinal
+15	вместе	_	_	_	_	_	_	_	_
+16	с	_	_	_	_	_	_	_	_
+17	ними	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+

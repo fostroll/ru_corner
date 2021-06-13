@@ -11,7 +11,7 @@
 6	центра	_	_	_	_	_	_	_	bratT1=Organization
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT27=Organization
 8	Свидетелей	_	_	_	_	_	_	_	bratT1=Organization|bratT27=Organization
-9	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T36:Fiction|bratT1=Organization|bratT27=Organization|bratT36=Person
+9	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T36:Male|bratA5=T36:Fiction|bratT1=Organization|bratT27=Organization|bratT36=Person|bratT51=Person-forename
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT27=Organization
 
 # newpar id = 0096-p2
@@ -28,7 +28,7 @@
 8	центра	_	_	_	_	_	_	_	bratT3=Organization
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization|bratT3=Organization
 10	Свидетелей	_	_	_	_	_	_	_	bratT28=Organization|bratT3=Organization
-11	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T37:Fiction|bratT28=Organization|bratT3=Organization|bratT37=Person
+11	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T37:Male|bratA6=T37:Fiction|bratT28=Organization|bratT3=Organization|bratT37=Person|bratT52=Person-forename
 12	''	_	_	_	_	_	_	_	bratT28=Organization|bratT3=Organization
 13	(	_	_	_	_	_	_	_	SpaceAfter=No
 14	организация	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 12	Управленческого	_	_	_	_	_	_	_	bratT15=Organization
 13	центра	_	_	_	_	_	_	_	bratT15=Organization
 14	Свидетелей	_	_	_	_	_	_	_	bratT15=Organization|bratT30=Organization
-15	Иеговы	_	_	_	_	_	_	_	bratA8=T39:Fiction|bratT15=Organization|bratT30=Organization|bratT39=Person
+15	Иеговы	_	_	_	_	_	_	_	bratA14=T39:Male|bratA8=T39:Fiction|bratT15=Organization|bratT30=Organization|bratT39=Person|bratT53=Person-forename
 16	в	_	_	_	_	_	_	_	bratT15=Organization
 17	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization|bratT16=GPE
 18	''	_	_	_	_	_	_	_	bratT15=Organization
@@ -95,7 +95,7 @@
 26	входящих	_	_	_	_	_	_	_	_
 27	в	_	_	_	_	_	_	_	_
 28	него	_	_	_	_	_	_	_	_
-29	местных	_	_	_	_	_	_	_	_
+29	местных	_	_	_	_	_	_	_	bratA16=T47:Adjective|bratT47=GPE
 30	религиозных	_	_	_	_	_	_	_	_
 31	организаций	_	_	_	_	_	_	_	SpaceAfter=No
 32	.	_	_	_	_	_	_	_	_
@@ -117,24 +117,20 @@
 11	ч.ч.	_	_	_	_	_	_	_	bratT18=Law
 12	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT45=Ordinal
 13	,	_	_	_	_	_	_	_	bratT18=Law
-14	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT46=Ordinal
-15	.	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law
-16	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT47=Ordinal
-17	,	_	_	_	_	_	_	_	bratT18=Law
-18	2	_	_	_	_	_	_	_	bratT18=Law|bratT48=Ordinal
-19	ст.	_	_	_	_	_	_	_	bratT18=Law
-20	282	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT49=Ordinal
-21	.	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law
-22	1	_	_	_	_	_	_	_	bratT18=Law|bratT50=Ordinal
-23	УК	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law
-24	РФ	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law|bratT35=GPE
-25	(	_	_	_	_	_	_	_	SpaceAfter=No
-26	организация	_	_	_	_	_	_	_	_
-27	деятельности	_	_	_	_	_	_	_	_
-28	экстремистской	_	_	_	_	_	_	_	_
-29	организации	_	_	_	_	_	_	_	SpaceAfter=No
-30	)	_	_	_	_	_	_	_	SpaceAfter=No
-31	.	_	_	_	_	_	_	_	_
+14	1.1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT46=Ordinal
+15	,	_	_	_	_	_	_	_	bratT18=Law
+16	2	_	_	_	_	_	_	_	bratT18=Law|bratT48=Ordinal
+17	ст.	_	_	_	_	_	_	_	bratT18=Law
+18	282.1	_	_	_	_	_	_	_	bratT18=Law|bratT49=Ordinal
+19	УК	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law
+20	РФ	_	_	_	_	_	_	_	bratT18=Law|bratT34=Law|bratT35=GPE
+21	(	_	_	_	_	_	_	_	SpaceAfter=No
+22	организация	_	_	_	_	_	_	_	_
+23	деятельности	_	_	_	_	_	_	_	_
+24	экстремистской	_	_	_	_	_	_	_	_
+25	организации	_	_	_	_	_	_	_	SpaceAfter=No
+26	)	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0096-p5
 # par_text = По словам Ивановой, дело было возбуждено на основании материалов об организации в Москве деятельности «Управленческого центра Свидетелей Иеговы в России»  и его структурных подразделений, признанных Верховным судом экстремистскими организациями.
@@ -159,7 +155,7 @@
 17	Управленческого	_	_	_	_	_	_	_	bratT21=Organization
 18	центра	_	_	_	_	_	_	_	bratT21=Organization
 19	Свидетелей	_	_	_	_	_	_	_	bratT21=Organization|bratT31=Organization
-20	Иеговы	_	_	_	_	_	_	_	bratA7=T38:Fiction|bratT21=Organization|bratT31=Organization|bratT38=Person
+20	Иеговы	_	_	_	_	_	_	_	bratA15=T38:Male|bratA7=T38:Fiction|bratT21=Organization|bratT31=Organization|bratT38=Person|bratT54=Person-forename
 21	в	_	_	_	_	_	_	_	bratT21=Organization
 22	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT32=GPE
 23	''	_	_	_	_	_	_	_	bratT21=Organization

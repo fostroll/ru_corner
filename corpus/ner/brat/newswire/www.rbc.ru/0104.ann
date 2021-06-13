@@ -1,0 +1,100 @@
+T1	Organization 28 44	``   Зенита   ''
+T2	Person-alias 57 62	Халка
+T3	Person 57 62	Халка
+A1	Male T3
+T4	Organization 103 119	``   Зенита   ''
+T5	GPE 86 100	петербургского
+A2	Adjective T5
+T6	Person-property 64 119	Бывший   нападающий   петербургского   ``   Зенита   ''
+T7	Person-alias 122 126	Халк
+T8	Person 64 126	Бывший   нападающий   петербургского   ``   Зенита   ''   Халк
+A3	Male T8
+T9	GPE 188 201	португальское
+A4	Adjective T9
+T10	Organization 188 222	португальское   издание   A   Bola
+A5	Media T10
+T11	Organization 251 266	``   Зенит   ''
+T12	Person-alias 278 283	Халку
+T13	GPE 317 326	китайский
+A6	Adjective T13
+T14	Organization 317 359	китайский   клуб   ``   Шанхай   СИПГ   ''
+T15	Date-absolute 290 294	ныне
+T16	Person-alias 548 553	Халка
+T17	Person 548 553	Халка
+A7	Male T17
+T18	Organization 572 587	``   Порту   ''
+T19	GPE 619 633	португальского
+A8	Adjective T19
+T20	Organization 655 671	``   Зениту   ''
+T21	Quantity 674 688	в   два   раза
+T22	Money 501 510	€ 3   млн
+T23	Duration 517 520	год
+T24	Time-period 513 520	в   год
+T25	Money 695 706	€ 1,5   млн
+T26	Time-period 709 716	в   год
+T27	Duration 713 716	год
+T28	Organization 726 729	РБК
+A11	Media T28
+T29	Organization 783 803	ФК   ``   Зенит   ''
+T30	Organization 768 803	пресс-службу   ФК   ``   Зенит   ''
+A12	Department T30
+T31	Date-absolute 809 817	В   июле
+A13	Past T31
+T32	Person-alias 820 824	Халк
+T33	Person 820 824	Халк
+A14	Male T33
+T34	Organization 887 910	``   Шанхай   СИПГ   ''
+T35	Date-period-absolute 944 971	уже   более   четырех   лет
+A15	Past-Pres T35
+A16	RCont T35
+T36	Person-property 1003 1014	нападающего
+T37	Date-period-absolute 1030 1056	до   декабря   2020   года
+A17	Past-Fut T37
+T38	Date-absolute 1062 1084	В   июне   2016   года
+A18	Past T38
+T39	Person-alias 1087 1091	Халк
+T40	Person 1087 1091	Халк
+A19	Male T40
+T41	Organization 1108 1131	``   Шанхай   СИПГ   ''
+T42	Organization 1139 1155	``   Зенита   ''
+T43	Money 1189 1199	€ 55   млн
+T44	GPE 1271 1282	российского
+A20	Adjective T44
+T45	GPE 1311 1323	бразильского
+A21	Adjective T45
+T46	Person-property 1311 1334	бразильского   форварда
+T47	GPE 1341 1350	китайской
+A22	Adjective T47
+T48	Money 1376 1388	€ 16,6   млн
+T49	Time-period 1391 1398	в   год
+T50	Duration 1395 1398	год
+T51	Ordinal 1445 1451	третье
+T52	Person-property 1477 1488	футболистов
+T53	GPE 1504 1509	Китая
+T54	Event 1491 1509	чемпионата   Китая
+T55	Organization 1529 1552	``   Шанхай   СИПГ   ''
+T56	Person-alias 1555 1559	Халк
+T57	Person 1555 1559	Халк
+A24	Male T57
+T58	GPE 1572 1581	китайскую
+A25	Adjective T58
+T59	Event 1572 1593	китайскую   Суперлигу
+T60	Event 1600 1619	Суперкубок   страны
+T61	Quantity 1624 1640	В   142   матчах
+T62	Quantity 1678 1688	75   голов
+T63	Quantity 1704 1734	54   результативные   передачи
+T64	Age 403 412	34-летний
+T65	Person-property 415 424	футболист
+T66	GPE 466 479	петербургском
+A26	Adjective T66
+T67	GPE 577 582	Порту
+T68	GPE 892 898	Шанхай
+T69	Duration 950 971	более   четырех   лет
+T70	GPE 1534 1540	Шанхай
+T71	Event 1271 1295	российского   первенства
+A9	Present T15
+T72	Person 278 283	Халку
+A10	Male T72
+T73	Person 122 126	Халк
+A27	Male T73
+T74	GPE 1613 1619	страны

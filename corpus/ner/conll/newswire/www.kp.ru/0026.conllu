@@ -30,7 +30,7 @@
 11	возмещать	_	_	_	_	_	_	_	_
 12	затраты	_	_	_	_	_	_	_	_
 13	жителей	_	_	_	_	_	_	_	bratA5=T35:Resident|bratT35=Nationality
-14	страны	_	_	_	_	_	_	_	bratA5=T35:Resident|bratT35=Nationality
+14	страны	_	_	_	_	_	_	_	bratA5=T35:Resident|bratT35=Nationality|bratT45=GPE
 15	на	_	_	_	_	_	_	_	_
 16	тестирование	_	_	_	_	_	_	_	bratT8=Service
 17	для	_	_	_	_	_	_	_	bratT8=Service
@@ -80,7 +80,7 @@
 13	обращения	_	_	_	_	_	_	_	_
 14	от	_	_	_	_	_	_	_	_
 15	близких	_	_	_	_	_	_	_	_
-16	пациентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Other-group
+16	пациентов	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	которым	_	_	_	_	_	_	_	_
 19	врачи	_	_	_	_	_	_	_	bratT15=Person-property
@@ -113,7 +113,7 @@
 20	сделать	_	_	_	_	_	_	_	_
 21	бесплатно	_	_	_	_	_	_	_	SpaceAfter=No
 22	,	_	_	_	_	_	_	_	_
-23	пациенты	_	_	_	_	_	_	_	bratT19=Other-group
+23	пациенты	_	_	_	_	_	_	_	_
 24	вынуждены	_	_	_	_	_	_	_	_
 25	сдавать	_	_	_	_	_	_	_	_
 26	ПЦР	_	_	_	_	_	_	_	bratT20=Other-term
@@ -199,12 +199,12 @@
 11	по	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
 12	вопросам	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
 13	создания	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
-14	национальной	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
-15	системы	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
-16	защиты	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
-17	от	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
-18	новых	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
-19	инфекций	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+14	национальной	_	_	_	_	_	_	_	bratA11=T14:Project|bratA12=T19:Adjective|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT19=GPE|bratT28=Organization|bratT29=Person-property|bratT30=Person
+15	системы	_	_	_	_	_	_	_	bratA11=T14:Project|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT28=Organization|bratT29=Person-property|bratT30=Person
+16	защиты	_	_	_	_	_	_	_	bratA11=T14:Project|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT28=Organization|bratT29=Person-property|bratT30=Person
+17	от	_	_	_	_	_	_	_	bratA11=T14:Project|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT28=Organization|bratT29=Person-property|bratT30=Person
+18	новых	_	_	_	_	_	_	_	bratA11=T14:Project|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT28=Organization|bratT29=Person-property|bratT30=Person
+19	инфекций	_	_	_	_	_	_	_	bratA11=T14:Project|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT28=Organization|bratT29=Person-property|bratT30=Person
 20	Дмитрию	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT42=Person-forename
 21	Медведеву	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT43=Person-surname
 22	и	_	_	_	_	_	_	_	_

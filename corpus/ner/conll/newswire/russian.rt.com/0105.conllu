@@ -43,7 +43,7 @@
 7	всё	_	_	_	_	_	_	_	_
 8	теплоснабжение	_	_	_	_	_	_	_	_
 9	по	_	_	_	_	_	_	_	_
-10	городу	_	_	_	_	_	_	_	_
+10	городу	_	_	_	_	_	_	_	bratT2=GPE
 11	Владивостоку	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=GPE
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
@@ -77,10 +77,10 @@
 18	дома	_	_	_	_	_	_	_	_
 19	33	_	_	_	_	_	_	_	bratT7=Quantity
 20	тыс.	_	_	_	_	_	_	_	bratT7=Quantity
-21	жителей	_	_	_	_	_	_	_	bratT7=Quantity
-22	Первомайского	_	_	_	_	_	_	_	bratT8=GPE
-23	района	_	_	_	_	_	_	_	bratT8=GPE
-24	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=GPE
+21	жителей	_	_	_	_	_	_	_	bratA8=T21:Resident|bratT21=Nationality|bratT7=Quantity
+22	Первомайского	_	_	_	_	_	_	_	bratA8=T21:Resident|bratT21=Nationality|bratT8=GPE
+23	района	_	_	_	_	_	_	_	bratA8=T21:Resident|bratT21=Nationality|bratT8=GPE
+24	города	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Resident|bratT21=Nationality|bratT25=GPE|bratT8=GPE
 25	,	_	_	_	_	_	_	_	_
 26	ещё	_	_	_	_	_	_	_	_
 27	20	_	_	_	_	_	_	_	bratT9=Quantity

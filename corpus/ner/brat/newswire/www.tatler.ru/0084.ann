@@ -1,0 +1,65 @@
+T1	Person-forename 0 6	Джаред
+T2	Person-forename 65 71	Джаред
+T3	Person-forename 49 53	Энди
+T4	Person-forename 171 175	Энди
+T5	Person-surname 9 13	Лето
+T6	Person-surname 56 63	Уорхола
+T7	Person 0 13	Джаред   Лето
+A1	Male T7
+T8	Person 49 63	Энди   Уорхола
+A2	Male T8
+T9	Person-surname 74 78	Лето
+T10	Person 65 78	Джаред   Лето
+A3	Male T10
+T11	Person-surname 178 185	Уорхоле
+T12	Person-property 150 168	пионере   поп-арта
+T13	Person 150 185	пионере   поп-арта   Энди   Уорхоле
+A4	Male T13
+T14	Ordinal 190 197	Впервые
+T15	Date-absolute 276 292	4   года   назад
+A5	Past T15
+T16	Date-absolute 329 380	6   августа   2020   года   ,   в   день   рождения
+A6	Past T16
+T17	Person-property 383 392	художника
+T19	Person-surname 397 401	Лето
+T20	Person 397 401	Лето
+A8	Male T20
+T21	Person-forename 542 546	Энди
+T22	Person-surname 549 556	Уорхола
+T23	Person 542 556	Энди   Уорхола
+A9	Male T23
+T24	Person-property 598 603	актер
+T25	Person-forename 713 714	Э
+T26	Person 713 717	Энди
+A10	Male T26
+T27	Person-forename 844 851	Виктора
+T28	Person-surname 854 861	Бокриса
+T29	Person 844 861	Виктора   Бокриса
+A11	Male T29
+T30	Date-absolute 864 875	1989   года
+A12	Past T30
+T31	Work-of-art 836 910	книге   Виктора   Бокриса   1989   года   ``   Уорхол   :   биография   ''
+T32	Person-surname 883 889	Уорхол
+T33	Person 883 889	Уорхол
+A13	Male T33
+T34	Person-forename 940 944	Лето
+T35	Person 940 944	Лето
+A14	Male T35
+T36	Person-forename 986 993	Майклом
+T37	Person-surname 996 1006	Де   Лукой
+T38	Person-property 971 983	сопродюсером
+T39	Person 971 1006	сопродюсером   Майклом   Де   Лукой
+A15	Male T39
+T40	Person-forename 1055 1061	Теренс
+T41	Person-surname 1064 1070	Винтер
+T42	Person 1055 1070	Теренс   Винтер
+A16	Male T42
+T43	Work-of-art 1137 1177	фильму   ``   Волк   с   Уолл-стрит   ''
+T44	Facility 1162 1172	Уолл-стрит
+T45	Duration 276 284	4   года
+T46	Event 365 392	день   рождения   художника
+T47	Event 691 706	днем   рождения
+T18	Service 441 445	пост
+A7	Media T18
+T48	Service 430 438	соцсетях
+A17	Media T48

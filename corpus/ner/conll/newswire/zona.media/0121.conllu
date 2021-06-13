@@ -1,0 +1,127 @@
+# newdoc id = 0121
+# newpar id = 0121-p1
+# par_text = Саратовский полицейский, ударивший задержанного головой о дверной косяк, получил условный срок
+# sent_id = 0121-p1-s1
+# text = Саратовский полицейский, ударивший задержанного головой о дверной косяк, получил условный срок
+1	Саратовский	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+2	полицейский	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+3	,	_	_	_	_	_	_	_	_
+4	ударивший	_	_	_	_	_	_	_	_
+5	задержанного	_	_	_	_	_	_	_	bratT3=Person-property
+6	головой	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	дверной	_	_	_	_	_	_	_	_
+9	косяк	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	получил	_	_	_	_	_	_	_	_
+12	условный	_	_	_	_	_	_	_	_
+13	срок	_	_	_	_	_	_	_	_
+
+# newpar id = 0121-p2
+# par_text = Ленинский районный суд Саратова приговорил сотрудника отдела полиции №7 к трем годам лишения свободы условно, сообщается на сайте управления Следственного комитета по Саратовской области.
+# sent_id = 0121-p2-s1
+# text = Ленинский районный суд Саратова приговорил сотрудника отдела полиции №7 к трем годам лишения свободы условно, сообщается на сайте управления Следственного комитета по Саратовской области.
+1	Ленинский	_	_	_	_	_	_	_	bratA1=T5:Adjective|bratT4=Organization|bratT5=GPE
+2	районный	_	_	_	_	_	_	_	bratA1=T5:Adjective|bratT4=Organization|bratT5=GPE
+3	суд	_	_	_	_	_	_	_	bratT4=Organization
+4	Саратова	_	_	_	_	_	_	_	bratT4=Organization|bratT6=GPE
+5	приговорил	_	_	_	_	_	_	_	_
+6	сотрудника	_	_	_	_	_	_	_	bratT7=Person-property
+7	отдела	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Organization
+8	полиции	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Organization
+9-10	№7	_	_	_	_	_	_	_	_
+9	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
+10	7	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
+11	к	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative
+12	трем	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative|bratT21=Duration
+13	годам	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative|bratT21=Duration
+14	лишения	_	_	_	_	_	_	_	_
+15	свободы	_	_	_	_	_	_	_	_
+16	условно	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	сообщается	_	_	_	_	_	_	_	_
+19	на	_	_	_	_	_	_	_	_
+20	сайте	_	_	_	_	_	_	_	bratA2=T11:Media|bratT11=Service
+21	управления	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization
+22	Следственного	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization|bratT22=Organization
+23	комитета	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization|bratT22=Organization
+24	по	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization
+25	Саратовской	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization|bratT13=GPE
+26	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Department|bratT12=Organization|bratT13=GPE
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0121-p3
+# par_text = Как считает следствие, днем 28 января полицейский схватил задержанного, которого совершил административное правонарушение, и ударил его головой о дверной косяк. Происходящее зафиксировали камеры видеонаблюдения.
+# sent_id = 0121-p3-s1
+# text = Как считает следствие, днем 28 января полицейский схватил задержанного, которого совершил административное правонарушение, и ударил его головой о дверной косяк.
+1	Как	_	_	_	_	_	_	_	_
+2	считает	_	_	_	_	_	_	_	_
+3	следствие	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	днем	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute|bratT15=Time-absolute
+6	28	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute
+7	января	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute
+8	полицейский	_	_	_	_	_	_	_	bratT16=Person-property
+9	схватил	_	_	_	_	_	_	_	_
+10	задержанного	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-group
+11	,	_	_	_	_	_	_	_	_
+12	которого	_	_	_	_	_	_	_	_
+13	совершил	_	_	_	_	_	_	_	_
+14	административное	_	_	_	_	_	_	_	_
+15	правонарушение	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	ударил	_	_	_	_	_	_	_	_
+19	его	_	_	_	_	_	_	_	_
+20	головой	_	_	_	_	_	_	_	_
+21	о	_	_	_	_	_	_	_	_
+22	дверной	_	_	_	_	_	_	_	_
+23	косяк	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0121-p3-s2
+# text = Происходящее зафиксировали камеры видеонаблюдения.
+1	Происходящее	_	_	_	_	_	_	_	_
+2	зафиксировали	_	_	_	_	_	_	_	_
+3	камеры	_	_	_	_	_	_	_	_
+4	видеонаблюдения	_	_	_	_	_	_	_	SpaceAfter=No
+5	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0121-p4
+# par_text = Из-за этого полицейского обвинили в превышении полномочий с применением насилия (пункт «а» части 3 статьи 286 УК) и уволили со службы. Вину подсудимый признал.
+# sent_id = 0121-p4-s1
+# text = Из-за этого полицейского обвинили в превышении полномочий с применением насилия (пункт ``а'' части 3 статьи 286 УК) и уволили со службы.
+1	Из-за	_	_	_	_	_	_	_	_
+2	этого	_	_	_	_	_	_	_	_
+3	полицейского	_	_	_	_	_	_	_	bratT18=Person-property
+4	обвинили	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	превышении	_	_	_	_	_	_	_	_
+7	полномочий	_	_	_	_	_	_	_	_
+8	с	_	_	_	_	_	_	_	_
+9	применением	_	_	_	_	_	_	_	_
+10	насилия	_	_	_	_	_	_	_	_
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	пункт	_	_	_	_	_	_	_	bratT19=Law
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Law|bratT23=Ordinal
+14	а	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Law|bratT23=Ordinal
+15	''	_	_	_	_	_	_	_	bratT19=Law|bratT23=Ordinal
+16	части	_	_	_	_	_	_	_	bratT19=Law
+17	3	_	_	_	_	_	_	_	bratT19=Law|bratT24=Ordinal
+18	статьи	_	_	_	_	_	_	_	bratT19=Law
+19	286	_	_	_	_	_	_	_	bratT19=Law|bratT25=Ordinal
+20	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Law|bratT26=Law
+21	)	_	_	_	_	_	_	_	_
+22	и	_	_	_	_	_	_	_	_
+23	уволили	_	_	_	_	_	_	_	_
+24	со	_	_	_	_	_	_	_	_
+25	службы	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0121-p4-s2
+# text = Вину подсудимый признал.
+1	Вину	_	_	_	_	_	_	_	_
+2	подсудимый	_	_	_	_	_	_	_	bratT20=Person-property
+3	признал	_	_	_	_	_	_	_	SpaceAfter=No
+4	.	_	_	_	_	_	_	_	_
+

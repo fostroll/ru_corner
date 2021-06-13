@@ -20,14 +20,17 @@
 1	Три	_	_	_	_	_	_	_	bratT5=Quantity
 2	российских	_	_	_	_	_	_	_	bratA7=T36:Adjective|bratT36=GPE|bratT4=Product|bratT5=Quantity
 3	самолета	_	_	_	_	_	_	_	bratT4=Product|bratT5=Quantity
-4	Ил-76	_	_	_	_	_	_	_	bratT4=Product
-5	приземлились	_	_	_	_	_	_	_	_
-6	на	_	_	_	_	_	_	_	_
-7	аэродроме	_	_	_	_	_	_	_	bratT7=Facility
-8	Эребуни	_	_	_	_	_	_	_	bratT7=Facility
-9	в	_	_	_	_	_	_	_	_
-10	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
-11	.	_	_	_	_	_	_	_	_
+4-6	Ил-76	_	_	_	_	_	_	_	_
+4	Ил	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Product
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Product
+6	76	_	_	_	_	_	_	_	bratT4=Product|bratT40=Cardinal
+7	приземлились	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	_
+9	аэродроме	_	_	_	_	_	_	_	bratT7=Facility
+10	Эребуни	_	_	_	_	_	_	_	bratT7=Facility
+11	в	_	_	_	_	_	_	_	_
+12	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
+13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0100-p2-s2
 # text = Они доставили более 80 военнослужащих, бронетранспортеры, бронеавтомобили и средства связи.
@@ -63,12 +66,15 @@
 3	Армении	_	_	_	_	_	_	_	bratT11=GPE
 4	приземлился	_	_	_	_	_	_	_	_
 5	первый	_	_	_	_	_	_	_	bratT12=Ordinal
-6	Ил-76	_	_	_	_	_	_	_	bratT13=Product
-7	с	_	_	_	_	_	_	_	_
-8	командованием	_	_	_	_	_	_	_	_
-9	российских	_	_	_	_	_	_	_	bratA8=T37:Adjective|bratT14=Person-property|bratT37=GPE
-10	миротворцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property
-11	.	_	_	_	_	_	_	_	_
+6-8	Ил-76	_	_	_	_	_	_	_	_
+6	Ил	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product
+8	76	_	_	_	_	_	_	_	bratT13=Product|bratT42=Cardinal
+9	с	_	_	_	_	_	_	_	_
+10	командованием	_	_	_	_	_	_	_	_
+11	российских	_	_	_	_	_	_	_	bratA8=T37:Adjective|bratT14=Person-property|bratT37=GPE
+12	миротворцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property
+13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0100-p4
 # par_text = В общей сложности в Карабах направят 1 960 военнослужащих, 90 бронетранспортеров, 380 единиц автомобильной и специальной техники.
@@ -151,7 +157,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	регион	_	_	_	_	_	_	_	_
+10	регион	_	_	_	_	_	_	_	bratT41=GPE
 11	вводятся	_	_	_	_	_	_	_	_
 12	российские	_	_	_	_	_	_	_	bratA10=T39:Adjective|bratT30=Person-property|bratT39=GPE
 13	миротворцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property

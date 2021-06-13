@@ -12,7 +12,7 @@
 7	попытку	_	_	_	_	_	_	_	_
 8	убийства	_	_	_	_	_	_	_	_
 9	премьер-министра	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT27=Person-property
-10	страны	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT27=Person-property
+10	страны	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT27=Person-property|bratT48=GPE
 11	Никола	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT34=Person-forename
 12	Пашиняна	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT35=Person-surname
 
@@ -31,7 +31,7 @@
 9	попытку	_	_	_	_	_	_	_	_
 10	убийства	_	_	_	_	_	_	_	_
 11	премьер-министра	_	_	_	_	_	_	_	bratA4=T5:Male|bratT5=Person|bratT6=Person-property
-12	страны	_	_	_	_	_	_	_	bratA4=T5:Male|bratT5=Person|bratT6=Person-property
+12	страны	_	_	_	_	_	_	_	bratA4=T5:Male|bratT49=GPE|bratT5=Person|bratT6=Person-property
 13	Никола	_	_	_	_	_	_	_	bratA4=T5:Male|bratT36=Person-forename|bratT5=Person
 14	Пашиняна	_	_	_	_	_	_	_	bratA4=T5:Male|bratT37=Person-surname|bratT5=Person
 
@@ -70,10 +70,10 @@
 29	,	_	_	_	_	_	_	_	_
 30	бывший	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT15=Person-property
 31	руководитель	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT15=Person-property
-32	парламентской	_	_	_	_	_	_	_	bratA1=T31:Department|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT31=Organization
-33	фракции	_	_	_	_	_	_	_	bratA1=T31:Department|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT31=Organization
-34	Республиканской	_	_	_	_	_	_	_	bratA1=T31:Department|bratA10=T46:Adjective|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization|bratT46=Political-group
-35	партии	_	_	_	_	_	_	_	bratA1=T31:Department|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization
+32	парламентской	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT31=Organization
+33	фракции	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT31=Organization
+34	Республиканской	_	_	_	_	_	_	_	bratA10=T46:Adjective|bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization|bratT46=Political-group
+35	партии	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT15=Person-property|bratT30=Organization|bratT31=Organization
 36	Ваграм	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT40=Person-forename
 37	Багдасарян	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T14:Male|bratT14=Person|bratT41=Person-surname
 38	,	_	_	_	_	_	_	_	_
@@ -166,8 +166,8 @@
 11	что	_	_	_	_	_	_	_	_
 12	таким	_	_	_	_	_	_	_	_
 13	образом	_	_	_	_	_	_	_	_
-14	власти	_	_	_	_	_	_	_	_
-15	страны	_	_	_	_	_	_	_	_
+14	власти	_	_	_	_	_	_	_	bratT47=Organization
+15	страны	_	_	_	_	_	_	_	bratT47=Organization
 16	пытаются	_	_	_	_	_	_	_	_
 17	всячески	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	SpaceAfter=No

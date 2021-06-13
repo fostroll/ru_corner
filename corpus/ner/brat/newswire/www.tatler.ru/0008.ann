@@ -1,0 +1,55 @@
+T1	Person-forename 0 4	Эван
+T2	Person-surname 7 14	Шпигель
+T3	Person 0 14	Эван   Шпигель
+A1	Male T3
+T4	Person-forename 42 50	Мирандой
+T5	Person-surname 53 57	Керр
+T6	Person 42 57	Мирандой   Керр
+A2	Female T6
+T7	Family 77 82	детей
+T8	Service 97 105	Snapchat
+T9	Person-forename 108 112	Эван
+T10	Person-surname 115 122	Шпигель
+T11	Person-property 84 105	Основатель   Snapchat
+T12	Person 84 122	Основатель   Snapchat   Эван   Шпигель
+A3	Male T12
+T13	Person-forename 138 145	Миранда
+T14	Person-surname 148 152	Керр
+T15	Person-property 129 135	модель
+T16	Person 129 152	модель   Миранда   Керр
+A4	Female T16
+T17	Date-period-absolute 164 174	три   года
+A5	Past-Pres T17
+A6	RCont T17
+T18	Family 219 226	сыновей
+T19	Quantity 212 226	двое   сыновей
+T20	Person-forename 233 237	Харт
+T21	Person 233 237	Харт
+A7	Male T21
+T22	Age 264 267	два
+T23	Date-absolute 255 261	сейчас
+A8	Present T23
+T24	Person-forename 278 283	Майлз
+T25	Person 278 283	Майлз
+A9	Male T25
+T26	Age 296 312	девять   месяцев
+T27	Family 317 321	Пара
+T28	Person-forename 426 433	Миранда
+T29	Person 426 433	Миранда
+A10	Female T29
+T30	Person-property 514 526	журналистами
+T32	Person-forename 616 621	Эвана
+T33	Person 616 621	Эвана
+A12	Male T33
+T34	Event 718 726	пандемии
+T35	Date-period-absolute 700 726	Но   в   период   пандемии
+A13	Past-UNK T35
+T36	Person-property 733 743	бизнесмена
+T37	Family 863 868	женой
+T38	Organization 896 899	WSJ
+A14	Media T38
+T39	Service 877 899	диджитал-выпуска   WSJ
+A15	Media T39
+T41	Duration 164 174	три   года
+T31	Product 563 604	косметического   бренда   KORA   Organics
+A11	Trademark T31

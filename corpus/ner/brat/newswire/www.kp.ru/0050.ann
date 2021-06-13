@@ -6,16 +6,15 @@ T5	Organization 116 176	федеральный   центр   лекарстве
 T6	Other-term 467 474	вакцины
 T7	Organization 773 782	Минздраву
 T8	Date-period-absolute 796 816	в   течение   месяца
-T9	Service 939 951	сайт   KP.ru
+T9	Service 939 953	сайт   KP . ru
 A1	Media T9
 T10	Organization 918 925	кабмина
 T11	Service 910 915	сайте
 A2	Media T11
-T12	GPE 978 984	России
-T13	Organization 1083 1096	правительства
-T14	Person-property 1068 1096	председатель   правительства
-T15	Person 1068 1116	председатель   правительства   Михаил   Мишустин
-T16	Other-group 324 333	пациентов
+T12	GPE 980 986	России
+T13	Organization 1085 1098	правительства
+T14	Person-property 1070 1098	председатель   правительства
+T15	Person 1070 1118	председатель   правительства   Михаил   Мишустин
 T17	Other-term 340 387	орфанными   и   онкологическими   заболеваниями
 A3	Plural T17
 T18	Other-term 394 397	ВИЧ
@@ -23,13 +22,18 @@ T19	Other-term 404 416	туберкулезом
 T20	Product 482 518	национального   календаря   прививок
 T21	Date-relative 931 936	Ранее
 A4	Project T20
-T22	Organization 946 951	KP.ru
+T22	Organization 946 953	KP . ru
 A5	Media T22
 T23	Other-term 340 349	орфанными
 T24	Other-term 356 371	онкологическими
 T25	Duration 810 816	месяца
 A6	Past-Fut T8
 A7	Past T21
-T26	Person-forename 1099 1105	Михаил
-T27	Person-surname 1108 1116	Мишустин
+T26	Person-forename 1101 1107	Михаил
+T27	Person-surname 1110 1118	Мишустин
 A8	Male T15
+T16	Nationality 72 79	граждан
+A9	Citizenship T16
+T28	Nationality 169 176	граждан
+A10	Citizenship T28
+T29	Web-address 946 953	KP . ru

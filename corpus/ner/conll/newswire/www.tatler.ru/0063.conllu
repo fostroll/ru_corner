@@ -1,0 +1,210 @@
+# newdoc id = 0063
+# newpar id = 0063-p1
+# par_text = Бывший муж Памелы Андерсон Джон Питерс снова помолвлен
+# sent_id = 0063-p1-s1
+# text = Бывший муж Памелы Андерсон Джон Питерс снова помолвлен
+1	Бывший	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT3=Family
+2	муж	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT3=Family
+3	Памелы	_	_	_	_	_	_	_	bratA4=T1:Male|bratA5=T2:Female|bratT1=Person|bratT2=Person|bratT30=Person-forename
+4	Андерсон	_	_	_	_	_	_	_	bratA4=T1:Male|bratA5=T2:Female|bratT1=Person|bratT2=Person|bratT31=Person-surname
+5	Джон	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT32=Person-forename
+6	Питерс	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT33=Person-surname
+7	снова	_	_	_	_	_	_	_	_
+8	помолвлен	_	_	_	_	_	_	_	_
+
+# newpar id = 0063-p2
+# par_text = Джон Питерс снова собрался жениться. Об этом пишет издание US Weekly со ссылкой на свои источники. А ведь прошло чуть меньше трех недель с момента расставания с Памелой Андерсон.
+# sent_id = 0063-p2-s1
+# text = Джон Питерс снова собрался жениться.
+1	Джон	_	_	_	_	_	_	_	bratA6=T4:Male|bratT34=Person-forename|bratT4=Person
+2	Питерс	_	_	_	_	_	_	_	bratA6=T4:Male|bratT35=Person-surname|bratT4=Person
+3	снова	_	_	_	_	_	_	_	_
+4	собрался	_	_	_	_	_	_	_	_
+5	жениться	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0063-p2-s2
+# text = Об этом пишет издание US Weekly со ссылкой на свои источники.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	пишет	_	_	_	_	_	_	_	_
+4	издание	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
+5	US	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
+6	Weekly	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
+7	со	_	_	_	_	_	_	_	_
+8	ссылкой	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	свои	_	_	_	_	_	_	_	_
+11	источники	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0063-p2-s3
+# text = А ведь прошло чуть меньше трех недель с момента расставания с Памелой Андерсон.
+1	А	_	_	_	_	_	_	_	_
+2	ведь	_	_	_	_	_	_	_	_
+3	прошло	_	_	_	_	_	_	_	_
+4	чуть	_	_	_	_	_	_	_	bratA20=T7:Past-Pres|bratT38=Duration|bratT7=Date-period-absolute
+5	меньше	_	_	_	_	_	_	_	bratA20=T7:Past-Pres|bratT38=Duration|bratT7=Date-period-absolute
+6	трех	_	_	_	_	_	_	_	bratA20=T7:Past-Pres|bratT38=Duration|bratT7=Date-period-absolute
+7	недель	_	_	_	_	_	_	_	bratA20=T7:Past-Pres|bratT38=Duration|bratT7=Date-period-absolute
+8	с	_	_	_	_	_	_	_	bratA20=T7:Past-Pres|bratT7=Date-period-absolute
+9	момента	_	_	_	_	_	_	_	bratA20=T7:Past-Pres|bratT7=Date-period-absolute
+10	расставания	_	_	_	_	_	_	_	bratA20=T7:Past-Pres|bratT55=Event|bratT7=Date-period-absolute
+11	с	_	_	_	_	_	_	_	_
+12	Памелой	_	_	_	_	_	_	_	bratA7=T6:Female|bratT36=Person-forename|bratT6=Person
+13	Андерсон	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Female|bratT37=Person-surname|bratT6=Person
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0063-p3
+# par_text = Избранницей продюсера стала некая Джулия Бернхейм. О помолвке Питерс объявил во время заключительной церемонии бизнес-мероприятия NASDAQ в Нью-Йорке.
+# sent_id = 0063-p3-s1
+# text = Избранницей продюсера стала некая Джулия Бернхейм.
+1	Избранницей	_	_	_	_	_	_	_	_
+2	продюсера	_	_	_	_	_	_	_	bratT8=Person-property
+3	стала	_	_	_	_	_	_	_	_
+4	некая	_	_	_	_	_	_	_	_
+5	Джулия	_	_	_	_	_	_	_	bratA9=T9:Female|bratT40=Person-forename|bratT9=Person
+6	Бернхейм	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T9:Female|bratT41=Person-surname|bratT9=Person
+7	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0063-p3-s2
+# text = О помолвке Питерс объявил во время заключительной церемонии бизнес-мероприятия NASDAQ в Нью-Йорке.
+1	О	_	_	_	_	_	_	_	_
+2	помолвке	_	_	_	_	_	_	_	_
+3	Питерс	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT39=Person-surname
+4	объявил	_	_	_	_	_	_	_	_
+5	во	_	_	_	_	_	_	_	bratA21=T56:Past|bratT56=Date-absolute
+6	время	_	_	_	_	_	_	_	bratA21=T56:Past|bratT56=Date-absolute
+7	заключительной	_	_	_	_	_	_	_	bratA21=T56:Past|bratT11=Event|bratT56=Date-absolute
+8	церемонии	_	_	_	_	_	_	_	bratA21=T56:Past|bratT11=Event|bratT56=Date-absolute
+9	бизнес-мероприятия	_	_	_	_	_	_	_	bratT11=Event|bratT12=Event
+10	NASDAQ	_	_	_	_	_	_	_	bratT11=Event|bratT12=Event
+11	в	_	_	_	_	_	_	_	_
+12	Нью-Йорке	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=GPE
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0063-p4
+# par_text = Напомним, Памела и Джон познакомились 30 лет назад в особняке основателя Playboy Хью Хефнера. Но тогда у них случился лишь короткий роман. В январе 2020-го Памела Андерсон и кинопродюсер тайно поженились в Малибу. Но брак не продержался и двух недель — через 12 дней после свадьбы Памела рассказала о разводе порталу THO. «Мы будем благодарны за вашу поддержку в период, пока мы проведем некоторое время отдельно друг от друга, чтобы разобраться, чего мы оба хотим от жизни», — попросила Андерсон.
+# sent_id = 0063-p4-s1
+# text = Напомним, Памела и Джон познакомились 30 лет назад в особняке основателя Playboy Хью Хефнера.
+1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	Памела	_	_	_	_	_	_	_	bratA10=T42:Female|bratT14=Person-forename|bratT42=Person
+4	и	_	_	_	_	_	_	_	_
+5	Джон	_	_	_	_	_	_	_	bratA11=T43:Male|bratT15=Person-forename|bratT43=Person
+6	познакомились	_	_	_	_	_	_	_	_
+7	30	_	_	_	_	_	_	_	bratA12=T16:Past|bratT16=Date-absolute|bratT53=Duration
+8	лет	_	_	_	_	_	_	_	bratA12=T16:Past|bratT16=Date-absolute|bratT53=Duration
+9	назад	_	_	_	_	_	_	_	bratA12=T16:Past|bratT16=Date-absolute
+10	в	_	_	_	_	_	_	_	_
+11	особняке	_	_	_	_	_	_	_	_
+12	основателя	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT19=Person-property
+13	Playboy	_	_	_	_	_	_	_	bratA13=T18:Male|bratA2=T17:Media|bratT17=Organization|bratT18=Person|bratT19=Person-property
+14	Хью	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT44=Person-forename
+15	Хефнера	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T18:Male|bratT18=Person|bratT45=Person-surname
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0063-p4-s2
+# text = Но тогда у них случился лишь короткий роман.
+1	Но	_	_	_	_	_	_	_	_
+2	тогда	_	_	_	_	_	_	_	bratA23=T62:Past|bratT62=Date-relative
+3	у	_	_	_	_	_	_	_	_
+4	них	_	_	_	_	_	_	_	_
+5	случился	_	_	_	_	_	_	_	_
+6	лишь	_	_	_	_	_	_	_	_
+7	короткий	_	_	_	_	_	_	_	_
+8	роман	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0063-p4-s3
+# text = В январе 2020-го Памела Андерсон и кинопродюсер тайно поженились в Малибу.
+1	В	_	_	_	_	_	_	_	bratA14=T20:Past|bratT20=Date-absolute
+2	январе	_	_	_	_	_	_	_	bratA14=T20:Past|bratT20=Date-absolute
+3	2020-го	_	_	_	_	_	_	_	bratA14=T20:Past|bratT20=Date-absolute
+4	Памела	_	_	_	_	_	_	_	bratA15=T21:Female|bratT21=Person|bratT46=Person-forename
+5	Андерсон	_	_	_	_	_	_	_	bratA15=T21:Female|bratT21=Person|bratT47=Person-surname
+6	и	_	_	_	_	_	_	_	_
+7	кинопродюсер	_	_	_	_	_	_	_	bratT22=Person-property
+8	тайно	_	_	_	_	_	_	_	_
+9	поженились	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	Малибу	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0063-p4-s4
+# text = Но брак не продержался и двух недель - через 12 дней после свадьбы Памела рассказала о разводе порталу THO.
+1	Но	_	_	_	_	_	_	_	_
+2	брак	_	_	_	_	_	_	_	_
+3	не	_	_	_	_	_	_	_	_
+4	продержался	_	_	_	_	_	_	_	_
+5	и	_	_	_	_	_	_	_	_
+6	двух	_	_	_	_	_	_	_	bratA24=T24:Past|bratT24=Date-period-relative|bratT48=Duration
+7	недель	_	_	_	_	_	_	_	bratA24=T24:Past|bratT24=Date-period-relative|bratT48=Duration
+8	-	_	_	_	_	_	_	_	_
+9	через	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute
+10	12	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute|bratT54=Duration
+11	дней	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute|bratT54=Duration
+12	после	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute
+13	свадьбы	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute|bratT57=Event
+14	Памела	_	_	_	_	_	_	_	bratA17=T26:Female|bratT26=Person|bratT49=Person-forename
+15	рассказала	_	_	_	_	_	_	_	_
+16	о	_	_	_	_	_	_	_	_
+17	разводе	_	_	_	_	_	_	_	bratT58=Event
+18	порталу	_	_	_	_	_	_	_	bratA3=T27:Media|bratT27=Organization
+19	THO	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T27:Media|bratT27=Organization
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0063-p4-s5
+# text = ``Мы будем благодарны за вашу поддержку в период, пока мы проведем некоторое время отдельно друг от друга, чтобы разобраться, чего мы оба хотим от жизни'', - попросила Андерсон.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Мы	_	_	_	_	_	_	_	_
+3	будем	_	_	_	_	_	_	_	_
+4	благодарны	_	_	_	_	_	_	_	_
+5	за	_	_	_	_	_	_	_	_
+6	вашу	_	_	_	_	_	_	_	_
+7	поддержку	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA22=T61:Fut|bratT61=Date-period-relative
+9	период	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T61:Fut|bratT61=Date-period-relative
+10	,	_	_	_	_	_	_	_	bratA22=T61:Fut|bratT61=Date-period-relative
+11	пока	_	_	_	_	_	_	_	bratA22=T61:Fut|bratT61=Date-period-relative
+12	мы	_	_	_	_	_	_	_	_
+13	проведем	_	_	_	_	_	_	_	_
+14	некоторое	_	_	_	_	_	_	_	bratA25=T60:Fut|bratT59=Duration|bratT60=Date-period-relative
+15	время	_	_	_	_	_	_	_	bratA25=T60:Fut|bratT59=Duration|bratT60=Date-period-relative
+16	отдельно	_	_	_	_	_	_	_	_
+17	друг	_	_	_	_	_	_	_	_
+18	от	_	_	_	_	_	_	_	_
+19	друга	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	чтобы	_	_	_	_	_	_	_	_
+22	разобраться	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	чего	_	_	_	_	_	_	_	_
+25	мы	_	_	_	_	_	_	_	_
+26	оба	_	_	_	_	_	_	_	bratT63=Quantity
+27	хотим	_	_	_	_	_	_	_	_
+28	от	_	_	_	_	_	_	_	_
+29	жизни	_	_	_	_	_	_	_	SpaceAfter=No
+30	''	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	_	_	_	_	_	_	_	_
+32	-	_	_	_	_	_	_	_	_
+33	попросила	_	_	_	_	_	_	_	_
+34	Андерсон	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T28:Female|bratT28=Person|bratT50=Person-surname
+35	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0063-p5
+# par_text = У Джона Питерса своя версия того, как развивались события.
+# sent_id = 0063-p5-s1
+# text = У Джона Питерса своя версия того, как развивались события.
+1	У	_	_	_	_	_	_	_	_
+2	Джона	_	_	_	_	_	_	_	bratA19=T29:Male|bratT29=Person|bratT51=Person-forename
+3	Питерса	_	_	_	_	_	_	_	bratA19=T29:Male|bratT29=Person|bratT52=Person-surname
+4	своя	_	_	_	_	_	_	_	_
+5	версия	_	_	_	_	_	_	_	_
+6	того	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	как	_	_	_	_	_	_	_	_
+9	развивались	_	_	_	_	_	_	_	_
+10	события	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,71 @@
+T1	Person-property 0 26	Красноярский   заключенный
+T2	GPE 0 12	Красноярский
+A1	Adjective T2
+T3	Person-property 64 83	сотрудниками   ФСИН
+T4	Organization 79 83	ФСИН
+T5	GPE 115 124	Финляндию
+T6	Person 126 171	Красноярский   заключенный   Михаил   Голиков
+A2	Male T6
+T7	Person-property 126 152	Красноярский   заключенный
+T8	GPE 126 138	Красноярский
+A3	Adjective T8
+T9	Person-forename 155 161	Михаил
+T10	Person-surname 164 171	Голиков
+T11	Date-absolute 178 185	в   мае
+A4	Past T11
+T12	Organization 205 229	больницы   № 1   Ачинска
+T13	Ordinal 216 219	№ 1
+T14	GPE 222 229	Ачинска
+T15	GPE 260 270	Финляндией
+T16	Organization 287 313	``   Проспекту   Мира   ''
+A5	Media T16
+T17	Person 335 365	адвокат   Виктория   Дерменева
+A6	Female T17
+T18	Person-property 335 342	адвокат
+T19	Person-forename 345 353	Виктория
+T20	Person-surname 356 365	Дерменева
+T21	Date-absolute 376 382	Сейчас
+T22	Person 385 391	Михаил
+A7	Male T22
+T23	Person-forename 385 391	Михаил
+T24	Other-group 459 471	задержанного
+T25	Date-absolute 494 503	На   днях
+A8	Future T25
+T26	Organization 521 542	миграционную   службу
+T27	GPE 625 634	Финляндии
+T28	Person 670 677	Голиков
+A9	Male T28
+T29	Person-surname 670 677	Голиков
+T30	Organization 773 784	NGS 24 . ru
+A10	Media T30
+T31	Person-property 806 817	заключенный
+T32	GPE 836 843	Ачинска
+T33	GPE 851 863	Новосибирска
+T34	GPE 906 915	Петербург
+T35	GPE 959 969	Финляндией
+T36	Date-relative 765 770	Ранее
+T37	Person 975 982	Голиков
+A11	Male T37
+T38	Person-surname 975 982	Голиков
+T39	Date-period-relative 1001 1014	на   20   лет
+T40	Duration 1006 1014	20   лет
+T41	Date-absolute 1141 1166	В   августе   2019   года
+A12	Past T41
+T42	Person-property 1196 1205	тюремщики
+T43	Person-property 1248 1268	начальника   ИК - 27
+T44	Organization 1261 1268	ИК - 27
+T45	Person-property 1347 1358	заключенный
+T46	Organization 1426 1448	Следственный   комитет
+T47	Person 1497 1505	Голикова
+A13	Male T47
+T48	Person-surname 1497 1505	Голикова
+T49	Quantity 1517 1536	троих   сотрудников
+T50	Person-property 1525 1543	сотрудников   ФСИН
+T51	Organization 1539 1543	ФСИН
+A14	Present T21
+A15	Past T36
+A16	Past-UNK T39
+T53	Ordinal 1266 1268	27
+T52	Time-period 777 779	24
+T54	Duration 777 779	24
+T55	Web-address 773 784	NGS 24 . ru

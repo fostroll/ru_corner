@@ -9,7 +9,7 @@
 4	сообщения	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	смерти	_	_	_	_	_	_	_	bratT44=Event
-7	пациентов	_	_	_	_	_	_	_	bratT44=Event|bratT5=Other-group
+7	пациентов	_	_	_	_	_	_	_	_
 8	из-за	_	_	_	_	_	_	_	_
 9	нехватки	_	_	_	_	_	_	_	_
 10	кислорода	_	_	_	_	_	_	_	_
@@ -28,7 +28,7 @@
 8	информации	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	смерти	_	_	_	_	_	_	_	bratT45=Event
-11	пациентов	_	_	_	_	_	_	_	bratT45=Event|bratT6=Other-group
+11	пациентов	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
 13	коронавирусом	_	_	_	_	_	_	_	bratT3=Other-term
 14	в	_	_	_	_	_	_	_	_
@@ -72,18 +72,21 @@
 15	области	_	_	_	_	_	_	_	bratT12=Organization|bratT13=GPE
 16	проверит	_	_	_	_	_	_	_	_
 17	причину	_	_	_	_	_	_	_	_
-18	смерти	_	_	_	_	_	_	_	_
+18	смерти	_	_	_	_	_	_	_	bratT54=Event
 19	13	_	_	_	_	_	_	_	bratT14=Quantity
 20	пациентов	_	_	_	_	_	_	_	bratT14=Quantity
 21	с	_	_	_	_	_	_	_	_
-22	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
-23	''	_	_	_	_	_	_	_	SpaceAfter=No
-24	,	_	_	_	_	_	_	_	_
-25	-	_	_	_	_	_	_	_	_
-26	говорится	_	_	_	_	_	_	_	_
-27	в	_	_	_	_	_	_	_	_
-28	сообщении	_	_	_	_	_	_	_	SpaceAfter=No
-29	.	_	_	_	_	_	_	_	_
+22-24	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+22	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+23	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+24	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term|bratT5=Cardinal
+25	''	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	-	_	_	_	_	_	_	_	_
+28	говорится	_	_	_	_	_	_	_	_
+29	в	_	_	_	_	_	_	_	_
+30	сообщении	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0104-p4
 # par_text = Ранее издание «161.ру» со ссылкой на источник в системе здравоохранения Ростова-на-Дону сообщило, что в госпитале при городской больнице №20 скончались 13 человек. Якобы они задохнулись во время продолжительной паузы в снабжении кислородом. По словам собеседника издания, пять пациентов скончались в отделении реанимации.
@@ -92,29 +95,34 @@
 1	Ранее	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-relative
 2	издание	_	_	_	_	_	_	_	bratA3=T16:Media|bratT16=Organization
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
-4	161.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
-5	''	_	_	_	_	_	_	_	bratA3=T16:Media|bratT16=Organization
-6	со	_	_	_	_	_	_	_	_
-7	ссылкой	_	_	_	_	_	_	_	_
-8	на	_	_	_	_	_	_	_	_
-9	источник	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	_
-11	системе	_	_	_	_	_	_	_	_
-12	здравоохранения	_	_	_	_	_	_	_	_
-13	Ростова-на-Дону	_	_	_	_	_	_	_	bratT18=GPE
-14	сообщило	_	_	_	_	_	_	_	SpaceAfter=No
-15	,	_	_	_	_	_	_	_	_
-16	что	_	_	_	_	_	_	_	_
-17	в	_	_	_	_	_	_	_	_
-18	госпитале	_	_	_	_	_	_	_	bratT19=Organization
-19	при	_	_	_	_	_	_	_	bratT19=Organization
-20	городской	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization
-21	больнице	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization
-22	№20	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization|bratT29=Ordinal
-23	скончались	_	_	_	_	_	_	_	_
-24	13	_	_	_	_	_	_	_	bratT20=Quantity
-25	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity
-26	.	_	_	_	_	_	_	_	_
+4-6	161.ру	_	_	_	_	_	_	_	SpaceAfter=No
+4	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization|bratT57=Web-address|bratT6=Cardinal
+5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization|bratT57=Web-address
+6	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization|bratT57=Web-address
+7	''	_	_	_	_	_	_	_	bratA3=T16:Media|bratT16=Organization
+8	со	_	_	_	_	_	_	_	_
+9	ссылкой	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	источник	_	_	_	_	_	_	_	bratT56=Person
+12	в	_	_	_	_	_	_	_	_
+13	системе	_	_	_	_	_	_	_	_
+14	здравоохранения	_	_	_	_	_	_	_	_
+15	Ростова-на-Дону	_	_	_	_	_	_	_	bratT18=GPE
+16	сообщило	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	что	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	госпитале	_	_	_	_	_	_	_	bratT19=Organization
+21	при	_	_	_	_	_	_	_	bratT19=Organization
+22	городской	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization
+23	больнице	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization
+24-25	№20	_	_	_	_	_	_	_	_
+24	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT19=Organization|bratT29=Ordinal
+25	20	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization|bratT29=Ordinal
+26	скончались	_	_	_	_	_	_	_	_
+27	13	_	_	_	_	_	_	_	bratT20=Quantity
+28	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity
+29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p4-s2
 # text = Якобы они задохнулись во время продолжительной паузы в снабжении кислородом.
@@ -125,9 +133,9 @@
 5	время	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute
 6	продолжительной	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute|bratT42=Event
 7	паузы	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute|bratT42=Event
-8	в	_	_	_	_	_	_	_	bratT42=Event
-9	снабжении	_	_	_	_	_	_	_	bratT42=Event
-10	кислородом	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
+8	в	_	_	_	_	_	_	_	_
+9	снабжении	_	_	_	_	_	_	_	_
+10	кислородом	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p4-s3
@@ -198,21 +206,24 @@
 21	,	_	_	_	_	_	_	_	_
 22	-	_	_	_	_	_	_	_	_
 23	сказал	_	_	_	_	_	_	_	_
-24	собеседник	_	_	_	_	_	_	_	_
+24	собеседник	_	_	_	_	_	_	_	bratA14=T50:Male|bratT50=Person
 25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization
-26	161.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization
-27	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization
-28	.	_	_	_	_	_	_	_	_
+26-28	161.ру	_	_	_	_	_	_	_	SpaceAfter=No
+26	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization|bratT35=Cardinal|bratT58=Web-address
+27	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization|bratT58=Web-address
+28	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization|bratT58=Web-address
+29	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization
+30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0104-p6
 # par_text = Сотрудники так называемой красной зоны сообщили, что в медучреждении не успели пополнить запасы газа.
 # sent_id = 0104-p6-s1
 # text = Сотрудники так называемой красной зоны сообщили, что в медучреждении не успели пополнить запасы газа.
-1	Сотрудники	_	_	_	_	_	_	_	_
-2	так	_	_	_	_	_	_	_	_
-3	называемой	_	_	_	_	_	_	_	_
-4	красной	_	_	_	_	_	_	_	_
-5	зоны	_	_	_	_	_	_	_	_
+1	Сотрудники	_	_	_	_	_	_	_	bratT51=Person-property|bratT52=Person
+2	так	_	_	_	_	_	_	_	bratT51=Person-property|bratT52=Person
+3	называемой	_	_	_	_	_	_	_	bratT51=Person-property|bratT52=Person
+4	красной	_	_	_	_	_	_	_	bratT51=Person-property|bratT52=Person
+5	зоны	_	_	_	_	_	_	_	bratT51=Person-property|bratT52=Person
 6	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
@@ -248,7 +259,7 @@
 # sent_id = 0104-p7-s2
 # text = Причина смерти будет установлена по результатам патологоанатомической экспертизы, подчеркнули в управлении.
 1	Причина	_	_	_	_	_	_	_	_
-2	смерти	_	_	_	_	_	_	_	_
+2	смерти	_	_	_	_	_	_	_	bratT53=Event
 3	будет	_	_	_	_	_	_	_	_
 4	установлена	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
@@ -280,8 +291,8 @@
 13	информацию	_	_	_	_	_	_	_	_
 14	о	_	_	_	_	_	_	_	_
 15	связи	_	_	_	_	_	_	_	_
-16	смерти	_	_	_	_	_	_	_	_
-17	пациентов	_	_	_	_	_	_	_	bratT35=Other-group
+16	смерти	_	_	_	_	_	_	_	bratT55=Event
+17	пациентов	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
 19	дефицитом	_	_	_	_	_	_	_	bratT36=Other-term
 20	медицинского	_	_	_	_	_	_	_	_

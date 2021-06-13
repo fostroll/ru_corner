@@ -1,0 +1,73 @@
+T1	Organization 0 14	Первый   канал
+A1	Media T1
+T2	GPE 52 55	США
+T3	Work-of-art 64 94	``   Гудбай   ,   Америка   ''
+T4	GPE 82 89	Америка
+T5	Organization 124 155	пресс-службе   Первого   канала
+A2	Department T5
+T6	Organization 139 155	Первого   канала
+A3	Media T6
+T7	Ordinal 0 6	Первый
+T8	Ordinal 139 146	Первого
+T9	Event 36 55	протестов   в   США
+T10	Event 199 208	протестов
+T11	GPE 215 218	США
+T12	Work-of-art 277 307	``   Гудбай   ,   Америка   ''
+T13	GPE 295 302	Америка
+T14	Date-absolute 369 386	спустя   20   лет
+T15	Duration 378 386	20   лет
+T16	Organization 443 469	издание   ``   Подъем   ''
+A5	Media T16
+T17	Work-of-art 484 514	``   Гудбай   ,   Америка   ''
+T18	GPE 502 509	Америка
+T19	Work-of-art 541 559	``   Брат - 2   ''
+T20	Person 562 582	Алексея   Балабанова
+A6	Male T20
+T21	Person-forename 562 569	Алексея
+T22	Person-surname 572 582	Балабанова
+T23	Date-absolute 599 607	накануне
+T24	Organization 620 634	Первый   канал
+A7	Media T24
+T25	Ordinal 620 626	Первый
+T26	Person-property 675 694	сотрудники   канала
+T27	Event 741 750	протестов
+T28	GPE 757 760	США
+T29	Organization 808 822	Первый   канал
+A8	Media T29
+T30	Ordinal 808 814	Первый
+T31	Work-of-art 901 921	``   Братом - 2   ''
+T33	Person 968 1000	режиссера   Алексея   Балабанова
+A10	Male T33
+T34	Person-property 968 977	режиссера
+T35	Person-forename 980 987	Алексея
+T36	Person-surname 990 1000	Балабанова
+T37	Person 1007 1054	исполнителя   главной   роли   Сергея   Бодрова
+A11	Male T37
+T38	Person-property 1007 1035	исполнителя   главной   роли
+T39	Person-forename 1038 1044	Сергея
+T40	Person-surname 1047 1054	Бодрова
+T41	Organization 235 274	группы   ``   Наутилус   Помпилиус   ''
+T42	Ordinal 1137 1143	первый
+T43	Work-of-art 1154 1181	программы   ``   Время   ''
+T45	Time-absolute 1192 1209	Ровно   в   21:00
+T46	Work-of-art 1223 1250	программа   ``   Время   ''
+T47	Ordinal 1257 1263	первый
+T48	Organization 1306 1345	группы   ``   Наутилус   Помпилиус   ''
+T49	Work-of-art 1348 1378	``   Гудбай   ,   Америка   ''
+T50	GPE 1366 1373	Америка
+T51	Date-absolute 1464 1481	спустя   20   лет
+T52	Duration 1473 1481	20   лет
+A14	Present T14
+A4	Past T23
+T53	Ordinal 553 554	2
+T56	Ordinal 915 916	2
+A9	Present T51
+T32	Organization 1541 1553	пресс-службе
+A12	Department T32
+T44	Organization 1108 1120	пресс-службе
+A13	Department T44
+T57	Date-relative 1192 1209	Ровно   в   21:00
+A15	Past T57
+T58	Time-relative 1059 1072	Сразу   после
+T54	Organization 924 929	канал
+A16	Media T54

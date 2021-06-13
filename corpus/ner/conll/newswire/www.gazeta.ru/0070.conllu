@@ -5,7 +5,7 @@
 # text = Ракета Falcon 9 со спутниками Starlink стартовала в США
 1	Ракета	_	_	_	_	_	_	_	bratT1=Product
 2	Falcon	_	_	_	_	_	_	_	bratT1=Product
-3	9	_	_	_	_	_	_	_	bratT1=Product
+3	9	_	_	_	_	_	_	_	bratT1=Product|bratT15=Ordinal
 4	со	_	_	_	_	_	_	_	_
 5	спутниками	_	_	_	_	_	_	_	bratT2=Product
 6	Starlink	_	_	_	_	_	_	_	bratT2=Product
@@ -19,7 +19,7 @@
 # text = Ракета-носитель Falcon 9 с микроспутниками Starlink на борту стартовала с космодрома на мысе Канаверал, сообщила на своей странице в Twitter компания SpaceX.
 1	Ракета-носитель	_	_	_	_	_	_	_	bratT3=Product
 2	Falcon	_	_	_	_	_	_	_	bratT3=Product
-3	9	_	_	_	_	_	_	_	bratT3=Product
+3	9	_	_	_	_	_	_	_	bratT16=Ordinal|bratT3=Product
 4	с	_	_	_	_	_	_	_	_
 5	микроспутниками	_	_	_	_	_	_	_	bratT5=Product
 6	Starlink	_	_	_	_	_	_	_	bratT5=Product
@@ -48,11 +48,11 @@
 # text = ``Falcon 9 выводит Starlink на орбиту'', - говорится в сообщении.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Falcon	_	_	_	_	_	_	_	bratT10=Product
-3	9	_	_	_	_	_	_	_	bratT10=Product
+3	9	_	_	_	_	_	_	_	bratT10=Product|bratT17=Ordinal
 4	выводит	_	_	_	_	_	_	_	_
 5	Starlink	_	_	_	_	_	_	_	bratT11=Product
 6	на	_	_	_	_	_	_	_	_
-7	орбиту	_	_	_	_	_	_	_	SpaceAfter=No
+7	орбиту	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Location
 8	''	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_

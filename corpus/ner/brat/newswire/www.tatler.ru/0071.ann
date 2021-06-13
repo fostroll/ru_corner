@@ -1,0 +1,40 @@
+T1	Organization 0 27	Британский   модный   совет
+T2	Organization 34 67	Совет   американских   дизайнеров
+T3	Date-absolute 121 138	В   мае   2020-го
+T4	Person 177 199	Дрисом   Ван   Нотеном
+T5	Person-property 147 157	дизайнеров
+T6	Organization 397 420	Business   of   Fashion
+T7	Quantity 443 470	две   ключевые   институции
+T8	Organization 491 518	Британский   модный   совет
+T9	Organization 525 558	Совет   американских   дизайнеров
+T10	Organization 792 796	CFDA
+T11	Organization 803 806	BFC
+T12	Quantity 954 995	не   больше   двух   основных   коллекций
+T13	Time-period 998 1005	в   год
+T14	Event 1159 1167	пандемии
+T15	Quantity 1200 1226	одну   глобальную   Неделю
+T16	Quantity 1245 1252	четырех
+T17	GPE 0 10	Британский
+A1	Adjective T17
+T18	GPE 42 54	американских
+A2	Adjective T18
+T19	Person-property 57 67	дизайнеров
+A3	Past T3
+A4	Male T4
+T20	Person-forename 177 183	Дрисом
+T21	Person-surname 186 199	Ван   Нотеном
+T22	GPE 491 501	Британский
+A5	Adjective T22
+T23	GPE 533 545	американских
+A6	Adjective T23
+T24	Duration 1002 1005	год
+T25	Time-period 1220 1226	Неделю
+T26	Duration 1220 1226	Неделю
+T27	Date-relative 354 361	Сначала
+T28	Date-relative 431 436	потом
+T29	Date-absolute 1151 1167	После   пандемии
+A7	Future T29
+T30	Event 1220 1233	Неделю   моды
+A8	Past T27
+A9	Past T28
+T31	Person-property 382 420	коллеги   из   Business   of   Fashion

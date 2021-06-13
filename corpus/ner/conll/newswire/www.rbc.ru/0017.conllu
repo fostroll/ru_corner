@@ -1,0 +1,285 @@
+# newdoc id = 0017
+# newpar id = 0017-p1
+# par_text = «Инвитро» зафиксировала рост людей с антителами в два раза с августа
+# sent_id = 0017-p1-s1
+# text = ``Инвитро'' зафиксировала рост людей с антителами в два раза с августа
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+2	Инвитро	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+3	''	_	_	_	_	_	_	_	bratT1=Organization
+4	зафиксировала	_	_	_	_	_	_	_	_
+5	рост	_	_	_	_	_	_	_	_
+6	людей	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	_
+8	антителами	_	_	_	_	_	_	_	bratT3=Other-term
+9	в	_	_	_	_	_	_	_	bratT2=Quantity
+10	два	_	_	_	_	_	_	_	bratT2=Quantity
+11	раза	_	_	_	_	_	_	_	bratT2=Quantity
+12	с	_	_	_	_	_	_	_	bratA2=T4:Past-Pres|bratT4=Date-period-absolute
+13	августа	_	_	_	_	_	_	_	bratA2=T4:Past-Pres|bratT4=Date-period-absolute
+
+# newpar id = 0017-p2
+# par_text = В ноябре средний процент пациентов с положительным тестом на антитела к коронавирусной инфекции увеличился до 38,8%, в августе он составлял 17,9%. Об этом РБК сообщили в медицинской компании «Инвитро».
+# sent_id = 0017-p2-s1
+# text = В ноябре средний процент пациентов с положительным тестом на антитела к коронавирусной инфекции увеличился до 38,8%, в августе он составлял 17,9%.
+1	В	_	_	_	_	_	_	_	bratA3=T5:Past|bratT5=Date-absolute
+2	ноябре	_	_	_	_	_	_	_	bratA3=T5:Past|bratT5=Date-absolute
+3	средний	_	_	_	_	_	_	_	_
+4	процент	_	_	_	_	_	_	_	_
+5	пациентов	_	_	_	_	_	_	_	_
+6	с	_	_	_	_	_	_	_	_
+7	положительным	_	_	_	_	_	_	_	_
+8	тестом	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	антитела	_	_	_	_	_	_	_	bratT10=Other-term
+11	к	_	_	_	_	_	_	_	_
+12	коронавирусной	_	_	_	_	_	_	_	bratT9=Other-term
+13	инфекции	_	_	_	_	_	_	_	bratT9=Other-term
+14	увеличился	_	_	_	_	_	_	_	_
+15	до	_	_	_	_	_	_	_	bratT7=Percent
+16-17	38,8%	_	_	_	_	_	_	_	SpaceAfter=No
+16	38,8	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Percent
+17	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Percent
+18	,	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+20	августе	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+21	он	_	_	_	_	_	_	_	_
+22	составлял	_	_	_	_	_	_	_	_
+23-24	17,9%	_	_	_	_	_	_	_	SpaceAfter=No
+23	17,9	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Percent
+24	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Percent
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0017-p2-s2
+# text = Об этом РБК сообщили в медицинской компании ``Инвитро''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	РБК	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Organization
+4	сообщили	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	медицинской	_	_	_	_	_	_	_	bratT13=Organization
+7	компании	_	_	_	_	_	_	_	bratT13=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+9	Инвитро	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0017-p3
+# par_text = «Средний процент пациентов с положительными результатами теста на антитела класса G по России в ноябре вырос до 38,8%. Для сравнения в мае текущего года средний процент положительных результатов составлял 13,3%, а в августе — 17,9%», — говорится в сообщении компании.
+# sent_id = 0017-p3-s1
+# text = ``Средний процент пациентов с положительными результатами теста на антитела класса G по России в ноябре вырос до 38,8%.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Средний	_	_	_	_	_	_	_	_
+3	процент	_	_	_	_	_	_	_	_
+4	пациентов	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	положительными	_	_	_	_	_	_	_	_
+7	результатами	_	_	_	_	_	_	_	_
+8	теста	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	антитела	_	_	_	_	_	_	_	bratT14=Other-term
+11	класса	_	_	_	_	_	_	_	bratT14=Other-term
+12	G	_	_	_	_	_	_	_	bratT14=Other-term
+13	по	_	_	_	_	_	_	_	_
+14	России	_	_	_	_	_	_	_	bratT17=GPE
+15	в	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
+16	ноябре	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
+17	вырос	_	_	_	_	_	_	_	_
+18	до	_	_	_	_	_	_	_	bratT19=Percent
+19-20	38,8%	_	_	_	_	_	_	_	SpaceAfter=No
+19	38,8	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Percent
+20	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Percent
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0017-p3-s2
+# text = Для сравнения в мае текущего года средний процент положительных результатов составлял 13,3%, а в августе - 17,9%'', - говорится в сообщении компании.
+1	Для	_	_	_	_	_	_	_	_
+2	сравнения	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-absolute
+4	мае	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-absolute
+5	текущего	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-absolute|bratT64=Ordinal
+6	года	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-absolute
+7	средний	_	_	_	_	_	_	_	_
+8	процент	_	_	_	_	_	_	_	_
+9	положительных	_	_	_	_	_	_	_	_
+10	результатов	_	_	_	_	_	_	_	_
+11	составлял	_	_	_	_	_	_	_	_
+12-13	13,3%	_	_	_	_	_	_	_	SpaceAfter=No
+12	13,3	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Percent
+13	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Percent
+14	,	_	_	_	_	_	_	_	_
+15	а	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	bratA19=T22:Past|bratT22=Date-absolute
+17	августе	_	_	_	_	_	_	_	bratA19=T22:Past|bratT22=Date-absolute
+18	-	_	_	_	_	_	_	_	_
+19-20	17,9%	_	_	_	_	_	_	_	SpaceAfter=No
+19	17,9	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Percent
+20	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Percent
+21	''	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	-	_	_	_	_	_	_	_	_
+24	говорится	_	_	_	_	_	_	_	_
+25	в	_	_	_	_	_	_	_	_
+26	сообщении	_	_	_	_	_	_	_	_
+27	компании	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0017-p4
+# par_text = В компании также сообщили, что с мая в России было проведено более 1 млн тестов на антитела класса G (IgG) к коронавирусной инфекции.
+# sent_id = 0017-p4-s1
+# text = В компании также сообщили, что с мая в России было проведено более 1 млн тестов на антитела класса G (IgG) к коронавирусной инфекции.
+1	В	_	_	_	_	_	_	_	_
+2	компании	_	_	_	_	_	_	_	_
+3	также	_	_	_	_	_	_	_	_
+4	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	bratA7=T24:Past-Pres|bratT24=Date-period-absolute
+8	мая	_	_	_	_	_	_	_	bratA7=T24:Past-Pres|bratT24=Date-period-absolute
+9	в	_	_	_	_	_	_	_	_
+10	России	_	_	_	_	_	_	_	bratT25=GPE
+11	было	_	_	_	_	_	_	_	_
+12	проведено	_	_	_	_	_	_	_	_
+13	более	_	_	_	_	_	_	_	bratT26=Quantity
+14	1	_	_	_	_	_	_	_	bratT26=Quantity
+15	млн	_	_	_	_	_	_	_	bratT26=Quantity
+16	тестов	_	_	_	_	_	_	_	bratT26=Quantity
+17	на	_	_	_	_	_	_	_	_
+18	антитела	_	_	_	_	_	_	_	bratT27=Other-term
+19	класса	_	_	_	_	_	_	_	bratT27=Other-term
+20	G	_	_	_	_	_	_	_	bratT27=Other-term
+21	(	_	_	_	_	_	_	_	SpaceAfter=No
+22	IgG	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+23	)	_	_	_	_	_	_	_	_
+24	к	_	_	_	_	_	_	_	_
+25	коронавирусной	_	_	_	_	_	_	_	bratT29=Other-term
+26	инфекции	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0017-p5
+# par_text = Ранее директор Санкт-Петербургского НИИ эпидемиологии и микробиологии имени Пастера, академик РАН Арег Тотолян заявил, что в регионах замечен рост популяционного иммунитета к коронавирусной инфекции. По словам Тотоляна, в ходе первого этапа исследования, который начался в июне, уровень иммунитета находился в диапазоне 4,3–50,2%. Второй этап прошел в сентябре-октябре, тогда, по результатам исследования, уровень иммунитета достиг 5,1–65,3%. «При этом в 15 регионах зафиксирован рост иммунной прослойки в 1,5–2 раза», — отмечал академик РАН. Третий этап исследования планируется провести в конце ноября — начале декабря, добавил Тотолян.
+# sent_id = 0017-p5-s1
+# text = Ранее директор Санкт-Петербургского НИИ эпидемиологии и микробиологии имени Пастера, академик РАН Арег Тотолян заявил, что в регионах замечен рост популяционного иммунитета к коронавирусной инфекции.
+1	Ранее	_	_	_	_	_	_	_	bratA18=T31:Past|bratT31=Date-relative
+2	директор	_	_	_	_	_	_	_	bratA9=T37:Male|bratT34=Person-property|bratT37=Person
+3	Санкт-Петербургского	_	_	_	_	_	_	_	bratA17=T65:Adjective|bratA9=T37:Male|bratT33=Organization|bratT34=Person-property|bratT37=Person|bratT65=GPE
+4	НИИ	_	_	_	_	_	_	_	bratA9=T37:Male|bratT33=Organization|bratT34=Person-property|bratT37=Person
+5	эпидемиологии	_	_	_	_	_	_	_	bratA9=T37:Male|bratT33=Organization|bratT34=Person-property|bratT37=Person
+6	и	_	_	_	_	_	_	_	bratA9=T37:Male|bratT33=Organization|bratT34=Person-property|bratT37=Person
+7	микробиологии	_	_	_	_	_	_	_	bratA9=T37:Male|bratT33=Organization|bratT34=Person-property|bratT37=Person
+8	имени	_	_	_	_	_	_	_	bratA9=T37:Male|bratT33=Organization|bratT34=Person-property|bratT37=Person
+9	Пастера	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T32:Male|bratA9=T37:Male|bratT32=Person|bratT33=Organization|bratT34=Person-property|bratT37=Person|bratT57=Person-surname
+10	,	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person
+11	академик	_	_	_	_	_	_	_	bratA9=T37:Male|bratT36=Person-property|bratT37=Person
+12	РАН	_	_	_	_	_	_	_	bratA9=T37:Male|bratT35=Organization|bratT36=Person-property|bratT37=Person
+13	Арег	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person|bratT58=Person-forename
+14	Тотолян	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person|bratT59=Person-surname
+15	заявил	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	что	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	регионах	_	_	_	_	_	_	_	_
+20	замечен	_	_	_	_	_	_	_	_
+21	рост	_	_	_	_	_	_	_	_
+22	популяционного	_	_	_	_	_	_	_	bratT38=Other-term
+23	иммунитета	_	_	_	_	_	_	_	bratT38=Other-term
+24	к	_	_	_	_	_	_	_	_
+25	коронавирусной	_	_	_	_	_	_	_	bratT39=Other-term
+26	инфекции	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0017-p5-s2
+# text = По словам Тотоляна, в ходе первого этапа исследования, который начался в июне, уровень иммунитета находился в диапазоне 4,3 - 50,2%.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	Тотоляна	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T40:Male|bratT40=Person|bratT60=Person-surname
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA11=T61:Past|bratT61=Date-period-absolute
+6	ходе	_	_	_	_	_	_	_	bratA11=T61:Past|bratT61=Date-period-absolute
+7	первого	_	_	_	_	_	_	_	bratA11=T61:Past|bratT41=Ordinal|bratT6=Event|bratT61=Date-period-absolute
+8	этапа	_	_	_	_	_	_	_	bratA11=T61:Past|bratT6=Event|bratT61=Date-period-absolute
+9	исследования	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Event
+10	,	_	_	_	_	_	_	_	_
+11	который	_	_	_	_	_	_	_	_
+12	начался	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-absolute
+14	июне	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T42:Past|bratT42=Date-absolute
+15	,	_	_	_	_	_	_	_	_
+16	уровень	_	_	_	_	_	_	_	_
+17	иммунитета	_	_	_	_	_	_	_	bratT43=Other-term
+18	находился	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	диапазоне	_	_	_	_	_	_	_	_
+21	4,3	_	_	_	_	_	_	_	bratT44=Percent
+22	-	_	_	_	_	_	_	_	bratT44=Percent
+23-24	50,2%	_	_	_	_	_	_	_	SpaceAfter=No
+23	50,2	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Percent
+24	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Percent
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0017-p5-s3
+# text = Второй этап прошел в сентябре-октябре, тогда, по результатам исследования, уровень иммунитета достиг 5,1 - 65,3%.
+1	Второй	_	_	_	_	_	_	_	bratT16=Event|bratT45=Ordinal
+2	этап	_	_	_	_	_	_	_	bratT16=Event
+3	прошел	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	bratA13=T46:Past|bratT46=Date-absolute
+5	сентябре-октябре	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T46:Past|bratT46=Date-absolute
+6	,	_	_	_	_	_	_	_	_
+7	тогда	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T62:Past|bratT62=Date-relative
+8	,	_	_	_	_	_	_	_	_
+9	по	_	_	_	_	_	_	_	_
+10	результатам	_	_	_	_	_	_	_	_
+11	исследования	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	уровень	_	_	_	_	_	_	_	_
+14	иммунитета	_	_	_	_	_	_	_	bratT47=Other-term
+15	достиг	_	_	_	_	_	_	_	_
+16	5,1	_	_	_	_	_	_	_	bratT48=Percent
+17	-	_	_	_	_	_	_	_	bratT48=Percent
+18-19	65,3%	_	_	_	_	_	_	_	SpaceAfter=No
+18	65,3	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Percent
+19	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Percent
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0017-p5-s4
+# text = ``При этом в 15 регионах зафиксирован рост иммунной прослойки в 1,5 - 2 раза'', - отмечал академик РАН.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	При	_	_	_	_	_	_	_	_
+3	этом	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	15	_	_	_	_	_	_	_	bratT49=Quantity
+6	регионах	_	_	_	_	_	_	_	bratT49=Quantity
+7	зафиксирован	_	_	_	_	_	_	_	_
+8	рост	_	_	_	_	_	_	_	_
+9	иммунной	_	_	_	_	_	_	_	bratT50=Other-term
+10	прослойки	_	_	_	_	_	_	_	bratT50=Other-term
+11	в	_	_	_	_	_	_	_	bratT51=Quantity
+12	1,5	_	_	_	_	_	_	_	bratT51=Quantity
+13	-	_	_	_	_	_	_	_	bratT51=Quantity
+14	2	_	_	_	_	_	_	_	bratT51=Quantity
+15	раза	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Quantity
+16	''	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	-	_	_	_	_	_	_	_	_
+19	отмечал	_	_	_	_	_	_	_	_
+20	академик	_	_	_	_	_	_	_	bratA20=T15:Male|bratT15=Person|bratT53=Person-property
+21	РАН	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T15:Male|bratT15=Person|bratT52=Organization|bratT53=Person-property
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0017-p5-s5
+# text = Третий этап исследования планируется провести в конце ноября - начале декабря, добавил Тотолян.
+1	Третий	_	_	_	_	_	_	_	bratT30=Event|bratT54=Ordinal
+2	этап	_	_	_	_	_	_	_	bratT30=Event
+3	исследования	_	_	_	_	_	_	_	bratT30=Event
+4	планируется	_	_	_	_	_	_	_	_
+5	провести	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute
+7	конце	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute
+8	ноября	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute
+9	-	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute
+10	начале	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute
+11	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T55:Future|bratT55=Date-absolute
+12	,	_	_	_	_	_	_	_	_
+13	добавил	_	_	_	_	_	_	_	_
+14	Тотолян	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T56:Male|bratT56=Person|bratT63=Person-surname
+15	.	_	_	_	_	_	_	_	_
+

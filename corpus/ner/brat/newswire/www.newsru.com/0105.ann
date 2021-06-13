@@ -1,0 +1,36 @@
+T1	GPE 4 8	Коми
+T2	Quantity 45 59	два   человека
+T3	Facility 120 145	шахты   ``   Аяч-Яга   ''
+T4	GPE 151 155	Коми
+T5	Facility 184 209	шахте   ``   Аяч-Яга   ''
+T6	Organization 212 239	АО   ``   Воркутауголь   ''
+T7	Person-property 242 257	спасатели   МЧС
+T8	Organization 254 257	МЧС
+T9	Quantity 297 311	двух   человек
+T10	Quantity 436 452	два   сотрудника
+T11	Person-property 485 540	монтажник   и   электросварщик   ООО   ``   Катюша   ''
+A1	Plural T11
+T12	Organization 518 540	ООО   ``   Катюша   ''
+T13	Organization 563 605	пресс-служба   АО   ``   Воркутауголь   ''
+A2	Department T13
+T14	Organization 578 605	АО   ``   Воркутауголь   ''
+T15	Service 621 629	странице
+A3	Media T15
+T16	Person-property 865 872	рабочих
+T17	Organization 875 897	Следственный   комитет
+T18	Law 937 971	части   3   статьи   216   УК   РФ
+T19	Organization 1144 1155	Прокуратура
+T20	Facility 1374 1404	шахте   ``   Воргашорская   ''
+T21	Organization 1443 1476	компании   ``   Воркутауголь   ''
+T22	Quantity 1559 1575	четыре   горняка
+T23	Person-property 1568 1575	горняка
+T24	Service 636 655	``   ВКонтакте   ''
+T25	Quantity 1111 1135	двух   или   более   лиц
+T26	Date-relative 1351 1366	Месяцем   ранее
+T28	Law 964 971	УК   РФ
+T29	GPE 969 971	РФ
+T27	Facility 1501 1508	галереи
+T30	Facility 1515 1523	перехода
+A4	Past T26
+T31	Ordinal 945 946	3
+T32	Duration 1351 1358	Месяцем

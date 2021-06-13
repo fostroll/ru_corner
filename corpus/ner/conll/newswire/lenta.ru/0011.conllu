@@ -20,11 +20,11 @@
 1	МВД	_	_	_	_	_	_	_	bratT4=Organization
 2	намерено	_	_	_	_	_	_	_	_
 3	реализовать	_	_	_	_	_	_	_	_
-4	проект	_	_	_	_	_	_	_	_
-5	по	_	_	_	_	_	_	_	_
-6	внедрению	_	_	_	_	_	_	_	_
-7	искусственного	_	_	_	_	_	_	_	bratT5=Other-term
-8	интеллекта	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-term
+4	проект	_	_	_	_	_	_	_	bratA6=T23:Project|bratT23=Product
+5	по	_	_	_	_	_	_	_	bratA6=T23:Project|bratT23=Product
+6	внедрению	_	_	_	_	_	_	_	bratA6=T23:Project|bratT23=Product
+7	искусственного	_	_	_	_	_	_	_	bratA6=T23:Project|bratT23=Product|bratT5=Other-term
+8	интеллекта	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T23:Project|bratT23=Product|bratT5=Other-term
 9	,	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
 11	помощью	_	_	_	_	_	_	_	_
@@ -78,7 +78,7 @@
 9	серийных	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
 11	взаимосвязанных	_	_	_	_	_	_	_	_
-12	преступлений	_	_	_	_	_	_	_	SpaceAfter=No
+12	преступлений	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Event
 13	,	_	_	_	_	_	_	_	_
 14	а	_	_	_	_	_	_	_	_
 15	также	_	_	_	_	_	_	_	_
@@ -91,7 +91,7 @@
 22	полученному	_	_	_	_	_	_	_	_
 23	с	_	_	_	_	_	_	_	_
 24	мест	_	_	_	_	_	_	_	_
-25	преступлений	_	_	_	_	_	_	_	SpaceAfter=No
+25	преступлений	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event
 26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0011-p4
@@ -138,15 +138,15 @@
 4	на	_	_	_	_	_	_	_	_
 5	стратегической	_	_	_	_	_	_	_	bratT14=Event
 6	сессии	_	_	_	_	_	_	_	bratT14=Event
-7	по	_	_	_	_	_	_	_	bratT14=Event
-8	искусственному	_	_	_	_	_	_	_	bratT14=Event
-9	интеллекту	_	_	_	_	_	_	_	bratT14=Event
-10	для	_	_	_	_	_	_	_	bratT14=Event
-11	руководителей	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
-12	цифровой	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
-13	трансформации	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
-14	федеральных	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
-15	ведомств	_	_	_	_	_	_	_	bratT14=Event|bratT16=Person-property
+7	по	_	_	_	_	_	_	_	_
+8	искусственному	_	_	_	_	_	_	_	bratT26=Other-term
+9	интеллекту	_	_	_	_	_	_	_	bratT26=Other-term
+10	для	_	_	_	_	_	_	_	_
+11	руководителей	_	_	_	_	_	_	_	bratT16=Person-property
+12	цифровой	_	_	_	_	_	_	_	bratT16=Person-property
+13	трансформации	_	_	_	_	_	_	_	bratT16=Person-property
+14	федеральных	_	_	_	_	_	_	_	bratT16=Person-property
+15	ведомств	_	_	_	_	_	_	_	bratT16=Person-property
 16	12	_	_	_	_	_	_	_	bratA2=T15:Past|bratT15=Date-absolute
 17	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Past|bratT15=Date-absolute
 18	.	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 4	что	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
 6	итогам	_	_	_	_	_	_	_	_
-7	сессии	_	_	_	_	_	_	_	_
+7	сессии	_	_	_	_	_	_	_	bratT27=Event
 8	министерство	_	_	_	_	_	_	_	_
 9	должно	_	_	_	_	_	_	_	_
 10	обеспечить	_	_	_	_	_	_	_	_
@@ -176,7 +176,7 @@
 12	мероприятий	_	_	_	_	_	_	_	_
 13	инициатив	_	_	_	_	_	_	_	_
 14	по	_	_	_	_	_	_	_	_
-15	внедрению	_	_	_	_	_	_	_	_
+15	внедрению	_	_	_	_	_	_	_	bratT28=Event
 16	этого	_	_	_	_	_	_	_	_
 17	решения	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_

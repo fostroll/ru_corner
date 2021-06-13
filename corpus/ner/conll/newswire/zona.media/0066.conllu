@@ -1,0 +1,188 @@
+# newdoc id = 0066
+# newpar id = 0066-p1
+# par_text = Экс-координатору «Открытой России» в Краснодаре запросили 240 часов обязательных работ по делу о «нежелательной организации»
+# sent_id = 0066-p1-s1
+# text = Экс-координатору ``Открытой России'' в Краснодаре запросили 240 часов обязательных работ по делу о ``нежелательной организации''
+1	Экс-координатору	_	_	_	_	_	_	_	bratT1=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
+3	Открытой	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization|bratT3=GPE
+5	''	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+6	в	_	_	_	_	_	_	_	_
+7	Краснодаре	_	_	_	_	_	_	_	bratT4=GPE
+8	запросили	_	_	_	_	_	_	_	_
+9	240	_	_	_	_	_	_	_	bratT43=Duration|bratT5=Time-period
+10	часов	_	_	_	_	_	_	_	bratT43=Duration|bratT5=Time-period
+11	обязательных	_	_	_	_	_	_	_	_
+12	работ	_	_	_	_	_	_	_	_
+13	по	_	_	_	_	_	_	_	_
+14	делу	_	_	_	_	_	_	_	_
+15	о	_	_	_	_	_	_	_	_
+16	``	_	_	_	_	_	_	_	SpaceAfter=No
+17	нежелательной	_	_	_	_	_	_	_	_
+18	организации	_	_	_	_	_	_	_	SpaceAfter=No
+19	''	_	_	_	_	_	_	_	_
+
+# newpar id = 0066-p2
+# par_text = Прокуратура потребовала назначить 240 часов обязательных работ бывшему координатору «Открытой России» в Краснодаре Яне Антоновой по делу о «нежелательной организации» (статья 284.1 УК). Об этом сообщает «Открытка».
+# sent_id = 0066-p2-s1
+# text = Прокуратура потребовала назначить 240 часов обязательных работ бывшему координатору ``Открытой России'' в Краснодаре Яне Антоновой по делу о ``нежелательной организации'' (статья 284.1 УК).
+1	Прокуратура	_	_	_	_	_	_	_	_
+2	потребовала	_	_	_	_	_	_	_	_
+3	назначить	_	_	_	_	_	_	_	_
+4	240	_	_	_	_	_	_	_	bratT44=Duration|bratT7=Time-period
+5	часов	_	_	_	_	_	_	_	bratT44=Duration|bratT7=Time-period
+6	обязательных	_	_	_	_	_	_	_	_
+7	работ	_	_	_	_	_	_	_	_
+8	бывшему	_	_	_	_	_	_	_	bratA1=T8:Female|bratT8=Person|bratT9=Person-property
+9	координатору	_	_	_	_	_	_	_	bratA1=T8:Female|bratT8=Person|bratT9=Person-property
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Female|bratT10=Organization|bratT8=Person|bratT9=Person-property
+11	Открытой	_	_	_	_	_	_	_	bratA1=T8:Female|bratT10=Organization|bratT8=Person|bratT9=Person-property
+12	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Female|bratT10=Organization|bratT11=GPE|bratT8=Person|bratT9=Person-property
+13	''	_	_	_	_	_	_	_	bratA1=T8:Female|bratT10=Organization|bratT8=Person|bratT9=Person-property
+14	в	_	_	_	_	_	_	_	bratA1=T8:Female|bratT8=Person
+15	Краснодаре	_	_	_	_	_	_	_	bratA1=T8:Female|bratT12=GPE|bratT8=Person
+16	Яне	_	_	_	_	_	_	_	bratA1=T8:Female|bratT13=Person-forename|bratT8=Person
+17	Антоновой	_	_	_	_	_	_	_	bratA1=T8:Female|bratT14=Person-surname|bratT8=Person
+18	по	_	_	_	_	_	_	_	_
+19	делу	_	_	_	_	_	_	_	_
+20	о	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No
+22	нежелательной	_	_	_	_	_	_	_	_
+23	организации	_	_	_	_	_	_	_	SpaceAfter=No
+24	''	_	_	_	_	_	_	_	_
+25	(	_	_	_	_	_	_	_	SpaceAfter=No
+26	статья	_	_	_	_	_	_	_	bratT15=Law
+27	284.1	_	_	_	_	_	_	_	bratT15=Law|bratT6=Ordinal
+28	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Law|bratT32=Law
+29	)	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p2-s2
+# text = Об этом сообщает ``Открытка''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+5	Открытка	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0066-p3
+# par_text = Активистка, по версии следствия, зная о «наступлении общественно опасных последствий», продолжала сотрудничать с «нежелательной организацией». Формальным основанием для уголовного дела стали пикет и два репоста из группы «Открытой России» в фейсбуке.
+# sent_id = 0066-p3-s1
+# text = Активистка, по версии следствия, зная о ``наступлении общественно опасных последствий'', продолжала сотрудничать с ``нежелательной организацией''.
+1	Активистка	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+2	,	_	_	_	_	_	_	_	_
+3	по	_	_	_	_	_	_	_	_
+4	версии	_	_	_	_	_	_	_	_
+5	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	зная	_	_	_	_	_	_	_	_
+8	о	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No
+10	наступлении	_	_	_	_	_	_	_	_
+11	общественно	_	_	_	_	_	_	_	_
+12	опасных	_	_	_	_	_	_	_	_
+13	последствий	_	_	_	_	_	_	_	SpaceAfter=No
+14	''	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	продолжала	_	_	_	_	_	_	_	_
+17	сотрудничать	_	_	_	_	_	_	_	_
+18	с	_	_	_	_	_	_	_	_
+19	``	_	_	_	_	_	_	_	SpaceAfter=No
+20	нежелательной	_	_	_	_	_	_	_	_
+21	организацией	_	_	_	_	_	_	_	SpaceAfter=No
+22	''	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p3-s2
+# text = Формальным основанием для уголовного дела стали пикет и два репоста из группы ``Открытой России'' в фейсбуке.
+1	Формальным	_	_	_	_	_	_	_	_
+2	основанием	_	_	_	_	_	_	_	_
+3	для	_	_	_	_	_	_	_	_
+4	уголовного	_	_	_	_	_	_	_	_
+5	дела	_	_	_	_	_	_	_	_
+6	стали	_	_	_	_	_	_	_	_
+7	пикет	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	два	_	_	_	_	_	_	_	bratT18=Quantity
+10	репоста	_	_	_	_	_	_	_	bratA13=T45:Media|bratT18=Quantity|bratT45=Service
+11	из	_	_	_	_	_	_	_	_
+12	группы	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+14	Открытой	_	_	_	_	_	_	_	bratT40=Organization
+15	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE|bratT40=Organization
+16	''	_	_	_	_	_	_	_	bratT40=Organization
+17	в	_	_	_	_	_	_	_	_
+18	фейсбуке	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Service
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0066-p4
+# par_text = Антонова возглавляла краснодарское отделение «Открытой России» с марта 2017 по март 2019 года. Уголовное дело против нее возбудили 9 апреля 2019 года.
+# sent_id = 0066-p4-s1
+# text = Антонова возглавляла краснодарское отделение ``Открытой России'' с марта 2017 по март 2019 года.
+1	Антонова	_	_	_	_	_	_	_	bratA4=T22:Female|bratT22=Person|bratT23=Person-surname
+2	возглавляла	_	_	_	_	_	_	_	_
+3	краснодарское	_	_	_	_	_	_	_	bratA5=T25:Adjective|bratA9=T24:Department|bratT24=Organization|bratT25=GPE
+4	отделение	_	_	_	_	_	_	_	bratA9=T24:Department|bratT24=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Department|bratT24=Organization|bratT41=Organization
+6	Открытой	_	_	_	_	_	_	_	bratA9=T24:Department|bratT24=Organization|bratT41=Organization
+7	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Department|bratT24=Organization|bratT26=GPE|bratT41=Organization
+8	''	_	_	_	_	_	_	_	bratA9=T24:Department|bratT24=Organization|bratT41=Organization
+9	с	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-period-absolute
+10	марта	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-period-absolute
+11	2017	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-period-absolute
+12	по	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-period-absolute
+13	март	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-period-absolute
+14	2019	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-period-absolute
+15	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T27:Past|bratT27=Date-period-absolute
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p4-s2
+# text = Уголовное дело против нее возбудили 9 апреля 2019 года.
+1	Уголовное	_	_	_	_	_	_	_	_
+2	дело	_	_	_	_	_	_	_	_
+3	против	_	_	_	_	_	_	_	_
+4	нее	_	_	_	_	_	_	_	_
+5	возбудили	_	_	_	_	_	_	_	_
+6	9	_	_	_	_	_	_	_	bratA7=T28:Past|bratT28=Date-absolute
+7	апреля	_	_	_	_	_	_	_	bratA7=T28:Past|bratT28=Date-absolute
+8	2019	_	_	_	_	_	_	_	bratA7=T28:Past|bratT28=Date-absolute
+9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Past|bratT28=Date-absolute
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0066-p5
+# par_text = В 2017 году Генпрокуратура признала нежелательными три зарубежных организации, связанные с Михаилом Ходорковским. После этого преследованиям подверглись российские активисты «Открытой России».
+# sent_id = 0066-p5-s1
+# text = В 2017 году Генпрокуратура признала нежелательными три зарубежных организации, связанные с Михаилом Ходорковским.
+1	В	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
+2	2017	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-absolute
+4	Генпрокуратура	_	_	_	_	_	_	_	bratT30=Organization
+5	признала	_	_	_	_	_	_	_	_
+6	нежелательными	_	_	_	_	_	_	_	_
+7	три	_	_	_	_	_	_	_	bratT31=Quantity
+8	зарубежных	_	_	_	_	_	_	_	bratA14=T46:Adjective|bratT31=Quantity|bratT46=GPE
+9	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Quantity
+10	,	_	_	_	_	_	_	_	_
+11	связанные	_	_	_	_	_	_	_	_
+12	с	_	_	_	_	_	_	_	_
+13	Михаилом	_	_	_	_	_	_	_	bratA10=T33:Male|bratT33=Person|bratT34=Person-forename
+14	Ходорковским	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T33:Male|bratT33=Person|bratT35=Person-surname
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p5-s2
+# text = После этого преследованиям подверглись российские активисты ``Открытой России''.
+1	После	_	_	_	_	_	_	_	bratA12=T36:Past|bratT36=Date-relative
+2	этого	_	_	_	_	_	_	_	bratA12=T36:Past|bratT36=Date-relative
+3	преследованиям	_	_	_	_	_	_	_	_
+4	подверглись	_	_	_	_	_	_	_	_
+5	российские	_	_	_	_	_	_	_	bratA11=T38:Adjective|bratT37=Person-property|bratT38=GPE
+6	активисты	_	_	_	_	_	_	_	bratT37=Person-property
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person-property|bratT42=Organization
+8	Открытой	_	_	_	_	_	_	_	bratT37=Person-property|bratT42=Organization
+9	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person-property|bratT39=GPE|bratT42=Organization
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person-property|bratT42=Organization
+11	.	_	_	_	_	_	_	_	_
+

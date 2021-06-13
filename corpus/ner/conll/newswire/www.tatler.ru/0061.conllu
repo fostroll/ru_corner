@@ -1,0 +1,282 @@
+# newdoc id = 0061
+# newpar id = 0061-p1
+# par_text = Племянница принцессы Дианы леди Амелия Спенсер помолвлена
+# sent_id = 0061-p1-s1
+# text = Племянница принцессы Дианы леди Амелия Спенсер помолвлена
+1	Племянница	_	_	_	_	_	_	_	bratA2=T1:Female|bratT1=Person|bratT2=Family
+2	принцессы	_	_	_	_	_	_	_	bratA2=T1:Female|bratA3=T3:Female|bratT1=Person|bratT3=Person|bratT4=Person-property
+3	Дианы	_	_	_	_	_	_	_	bratA2=T1:Female|bratA3=T3:Female|bratT1=Person|bratT3=Person|bratT47=Person-forename
+4	леди	_	_	_	_	_	_	_	bratA2=T1:Female|bratT1=Person|bratT74=Person-affix
+5	Амелия	_	_	_	_	_	_	_	bratA2=T1:Female|bratT1=Person|bratT48=Person-forename
+6	Спенсер	_	_	_	_	_	_	_	bratA2=T1:Female|bratT1=Person|bratT49=Person-surname
+7	помолвлена	_	_	_	_	_	_	_	_
+
+# newpar id = 0061-p2
+# par_text = Леди Китти Спенсер и леди Амелия Спенсер — родные сестры, дочери девятого графа Спенсера Чарльза и племянницы принцессы Дианы. Обе при этом в скором времени собираются выйти замуж. И если будущую свадьбу Китти в светских кругах Великобритании обсуждают вот уже несколько месяцев, то помолвка ее младшей сестры состоялась лишь на днях. Об этом стало известно из социальных сетей — радостной новостью поделились жених и его будущий тесть.
+# sent_id = 0061-p2-s1
+# text = Леди Китти Спенсер и леди Амелия Спенсер - родные сестры, дочери девятого графа Спенсера Чарльза и племянницы принцессы Дианы.
+1	Леди	_	_	_	_	_	_	_	bratA4=T5:Female|bratT5=Person|bratT77=Person-affix
+2	Китти	_	_	_	_	_	_	_	bratA4=T5:Female|bratT5=Person|bratT50=Person-forename
+3	Спенсер	_	_	_	_	_	_	_	bratA4=T5:Female|bratT5=Person|bratT51=Person-surname
+4	и	_	_	_	_	_	_	_	_
+5	леди	_	_	_	_	_	_	_	bratA5=T6:Female|bratT6=Person|bratT78=Person-affix
+6	Амелия	_	_	_	_	_	_	_	bratA5=T6:Female|bratT52=Person-forename|bratT6=Person
+7	Спенсер	_	_	_	_	_	_	_	bratA5=T6:Female|bratT53=Person-surname|bratT6=Person
+8	-	_	_	_	_	_	_	_	_
+9	родные	_	_	_	_	_	_	_	bratT7=Family
+10	сестры	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Family
+11	,	_	_	_	_	_	_	_	_
+12	дочери	_	_	_	_	_	_	_	bratT9=Family
+13	девятого	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Person-property|bratT11=Ordinal|bratT8=Person
+14	графа	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Person-property|bratT8=Person
+15	Спенсера	_	_	_	_	_	_	_	bratA6=T8:Male|bratT54=Person-surname|bratT8=Person
+16	Чарльза	_	_	_	_	_	_	_	bratA6=T8:Male|bratT55=Person-forename|bratT8=Person
+17	и	_	_	_	_	_	_	_	_
+18	племянницы	_	_	_	_	_	_	_	bratA25=T81:Female|bratT12=Family|bratT81=Person
+19	принцессы	_	_	_	_	_	_	_	bratA25=T81:Female|bratA7=T13:Female|bratT13=Person|bratT14=Person-property|bratT81=Person
+20	Дианы	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T81:Female|bratA7=T13:Female|bratT13=Person|bratT56=Person-forename|bratT81=Person
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p2-s2
+# text = Обе при этом в скором времени собираются выйти замуж.
+1	Обе	_	_	_	_	_	_	_	bratT89=Quantity
+2	при	_	_	_	_	_	_	_	_
+3	этом	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	bratA26=T86:Future|bratT86=Date-absolute
+5	скором	_	_	_	_	_	_	_	bratA26=T86:Future|bratT86=Date-absolute
+6	времени	_	_	_	_	_	_	_	bratA26=T86:Future|bratT86=Date-absolute
+7	собираются	_	_	_	_	_	_	_	_
+8	выйти	_	_	_	_	_	_	_	_
+9	замуж	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p2-s3
+# text = И если будущую свадьбу Китти в светских кругах Великобритании обсуждают вот уже несколько месяцев, то помолвка ее младшей сестры состоялась лишь на днях.
+1	И	_	_	_	_	_	_	_	_
+2	если	_	_	_	_	_	_	_	_
+3	будущую	_	_	_	_	_	_	_	bratT15=Event
+4	свадьбу	_	_	_	_	_	_	_	bratT15=Event
+5	Китти	_	_	_	_	_	_	_	bratA8=T16:Female|bratT15=Event|bratT16=Person|bratT57=Person-forename
+6	в	_	_	_	_	_	_	_	_
+7	светских	_	_	_	_	_	_	_	_
+8	кругах	_	_	_	_	_	_	_	_
+9	Великобритании	_	_	_	_	_	_	_	bratT17=GPE
+10	обсуждают	_	_	_	_	_	_	_	_
+11	вот	_	_	_	_	_	_	_	_
+12	уже	_	_	_	_	_	_	_	_
+13	несколько	_	_	_	_	_	_	_	bratA22=T80:Past-Pres|bratA27=T80:RCont|bratT79=Duration|bratT80=Date-period-absolute
+14	месяцев	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T80:Past-Pres|bratA27=T80:RCont|bratT79=Duration|bratT80=Date-period-absolute
+15	,	_	_	_	_	_	_	_	_
+16	то	_	_	_	_	_	_	_	_
+17	помолвка	_	_	_	_	_	_	_	bratT87=Event
+18	ее	_	_	_	_	_	_	_	bratA21=T76:Female|bratT76=Person|bratT87=Event
+19	младшей	_	_	_	_	_	_	_	bratA21=T76:Female|bratT18=Family|bratT76=Person|bratT87=Event
+20	сестры	_	_	_	_	_	_	_	bratA21=T76:Female|bratT18=Family|bratT76=Person|bratT87=Event
+21	состоялась	_	_	_	_	_	_	_	_
+22	лишь	_	_	_	_	_	_	_	_
+23	на	_	_	_	_	_	_	_	_
+24	днях	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p2-s4
+# text = Об этом стало известно из социальных сетей - радостной новостью поделились жених и его будущий тесть.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	стало	_	_	_	_	_	_	_	_
+4	известно	_	_	_	_	_	_	_	_
+5	из	_	_	_	_	_	_	_	_
+6	социальных	_	_	_	_	_	_	_	bratT92=Service
+7	сетей	_	_	_	_	_	_	_	bratT92=Service
+8	-	_	_	_	_	_	_	_	_
+9	радостной	_	_	_	_	_	_	_	_
+10	новостью	_	_	_	_	_	_	_	_
+11	поделились	_	_	_	_	_	_	_	_
+12	жених	_	_	_	_	_	_	_	bratT88=Family
+13	и	_	_	_	_	_	_	_	_
+14	его	_	_	_	_	_	_	_	bratA20=T75:Male|bratT75=Person
+15	будущий	_	_	_	_	_	_	_	bratA20=T75:Male|bratT46=Family|bratT75=Person
+16	тесть	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T75:Male|bratT46=Family|bratT75=Person
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0061-p3
+# par_text = Избранник леди Спенсер — ее университетский друг Грег Маллетт. Пара познакомилась больше 10 лет назад, когда оба учились в Кейптауне. Предложение было также сделано в Южной Африке — в бутик-отеле Clouds Wine & Guest Estate, расположенном в одном из самых живописных мест региона Стелленбосе. «Лучший день в моей жизни. 22 июля 2020 года я попросил руку и сердце у любви всей моей жизни, и она ответила согласием. Невозможно представить большее счастье. Люблю тебя всем сердцем», — написал Маллетт в инстаграме. В комментариях обручившихся уже поздравила Китти Спенсер.
+# sent_id = 0061-p3-s1
+# text = Избранник леди Спенсер - ее университетский друг Грег Маллетт.
+1	Избранник	_	_	_	_	_	_	_	_
+2	леди	_	_	_	_	_	_	_	bratA9=T19:Female|bratT19=Person|bratT82=Person-affix
+3	Спенсер	_	_	_	_	_	_	_	bratA9=T19:Female|bratT19=Person|bratT58=Person-surname
+4	-	_	_	_	_	_	_	_	_
+5	ее	_	_	_	_	_	_	_	_
+6	университетский	_	_	_	_	_	_	_	_
+7	друг	_	_	_	_	_	_	_	_
+8	Грег	_	_	_	_	_	_	_	bratA10=T20:Male|bratT20=Person|bratT59=Person-forename
+9	Маллетт	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T20:Male|bratT20=Person|bratT60=Person-surname
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p3-s2
+# text = Пара познакомилась больше 10 лет назад, когда оба учились в Кейптауне.
+1	Пара	_	_	_	_	_	_	_	bratT21=Family
+2	познакомилась	_	_	_	_	_	_	_	_
+3	больше	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute|bratT83=Duration
+4	10	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute|bratT83=Duration
+5	лет	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute|bratT83=Duration
+6	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T22:Past|bratT22=Date-absolute
+7	,	_	_	_	_	_	_	_	_
+8	когда	_	_	_	_	_	_	_	_
+9	оба	_	_	_	_	_	_	_	bratT61=Quantity
+10	учились	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	Кейптауне	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p3-s3
+# text = Предложение было также сделано в Южной Африке - в бутик-отеле Clouds Wine & Guest Estate, расположенном в одном из самых живописных мест региона Стелленбосе.
+1	Предложение	_	_	_	_	_	_	_	_
+2	было	_	_	_	_	_	_	_	_
+3	также	_	_	_	_	_	_	_	_
+4	сделано	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	Южной	_	_	_	_	_	_	_	bratT24=GPE
+7	Африке	_	_	_	_	_	_	_	bratT24=GPE
+8	-	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	бутик-отеле	_	_	_	_	_	_	_	bratT25=Organization
+11	Clouds	_	_	_	_	_	_	_	bratT25=Organization
+12	Wine	_	_	_	_	_	_	_	bratT25=Organization
+13	&	_	_	_	_	_	_	_	bratT25=Organization
+14	Guest	_	_	_	_	_	_	_	bratT25=Organization
+15	Estate	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
+16	,	_	_	_	_	_	_	_	_
+17	расположенном	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	одном	_	_	_	_	_	_	_	bratT26=Quantity
+20	из	_	_	_	_	_	_	_	bratT26=Quantity
+21	самых	_	_	_	_	_	_	_	_
+22	живописных	_	_	_	_	_	_	_	_
+23	мест	_	_	_	_	_	_	_	_
+24	региона	_	_	_	_	_	_	_	bratT94=GPE
+25	Стелленбосе	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=GPE
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p3-s4
+# text = ``Лучший день в моей жизни.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Лучший	_	_	_	_	_	_	_	_
+3	день	_	_	_	_	_	_	_	bratA1=T91:Past-UNK|bratT90=Duration|bratT91=Date-period-relative
+4	в	_	_	_	_	_	_	_	_
+5	моей	_	_	_	_	_	_	_	_
+6	жизни	_	_	_	_	_	_	_	SpaceAfter=No
+7	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p3-s5
+# text = 22 июля 2020 года я попросил руку и сердце у любви всей моей жизни, и она ответила согласием.
+1	22	_	_	_	_	_	_	_	bratA12=T28:Past|bratT28=Date-absolute
+2	июля	_	_	_	_	_	_	_	bratA12=T28:Past|bratT28=Date-absolute
+3	2020	_	_	_	_	_	_	_	bratA12=T28:Past|bratT28=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA12=T28:Past|bratT28=Date-absolute
+5	я	_	_	_	_	_	_	_	_
+6	попросил	_	_	_	_	_	_	_	_
+7	руку	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	сердце	_	_	_	_	_	_	_	_
+10	у	_	_	_	_	_	_	_	_
+11	любви	_	_	_	_	_	_	_	_
+12	всей	_	_	_	_	_	_	_	_
+13	моей	_	_	_	_	_	_	_	_
+14	жизни	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	и	_	_	_	_	_	_	_	_
+17	она	_	_	_	_	_	_	_	_
+18	ответила	_	_	_	_	_	_	_	_
+19	согласием	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p3-s6
+# text = Невозможно представить большее счастье.
+1	Невозможно	_	_	_	_	_	_	_	_
+2	представить	_	_	_	_	_	_	_	_
+3	большее	_	_	_	_	_	_	_	_
+4	счастье	_	_	_	_	_	_	_	SpaceAfter=No
+5	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p3-s7
+# text = Люблю тебя всем сердцем'', - написал Маллетт в инстаграме.
+1	Люблю	_	_	_	_	_	_	_	_
+2	тебя	_	_	_	_	_	_	_	_
+3	всем	_	_	_	_	_	_	_	_
+4	сердцем	_	_	_	_	_	_	_	SpaceAfter=No
+5	''	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	-	_	_	_	_	_	_	_	_
+8	написал	_	_	_	_	_	_	_	_
+9	Маллетт	_	_	_	_	_	_	_	bratA13=T29:Male|bratT29=Person|bratT62=Person-surname
+10	в	_	_	_	_	_	_	_	_
+11	инстаграме	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Service
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p3-s8
+# text = В комментариях обручившихся уже поздравила Китти Спенсер.
+1	В	_	_	_	_	_	_	_	_
+2	комментариях	_	_	_	_	_	_	_	_
+3	обручившихся	_	_	_	_	_	_	_	_
+4	уже	_	_	_	_	_	_	_	_
+5	поздравила	_	_	_	_	_	_	_	_
+6	Китти	_	_	_	_	_	_	_	bratA14=T31:Female|bratT31=Person|bratT63=Person-forename
+7	Спенсер	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T31:Female|bratT31=Person|bratT64=Person-surname
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0061-p4
+# par_text = Известно, что Грег Маллетт занимается недвижимостью. Его дядя — бывший спортсмен и экс-тренер национальной сборной ЮАР по регби Ник Маллетт. Амелия Спенсер — одна из дочерей Чарльза Спенсера от первого брака. У нее есть сестра-близнец Элиза.
+# sent_id = 0061-p4-s1
+# text = Известно, что Грег Маллетт занимается недвижимостью.
+1	Известно	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	Грег	_	_	_	_	_	_	_	bratA15=T32:Male|bratT32=Person|bratT65=Person-forename
+5	Маллетт	_	_	_	_	_	_	_	bratA15=T32:Male|bratT32=Person|bratT66=Person-surname
+6	занимается	_	_	_	_	_	_	_	_
+7	недвижимостью	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p4-s2
+# text = Его дядя - бывший спортсмен и экс-тренер национальной сборной ЮАР по регби Ник Маллетт.
+1	Его	_	_	_	_	_	_	_	bratA23=T84:Male|bratT84=Person
+2	дядя	_	_	_	_	_	_	_	bratA23=T84:Male|bratT33=Family|bratT84=Person
+3	-	_	_	_	_	_	_	_	_
+4	бывший	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT35=Person-property
+5	спортсмен	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT35=Person-property
+6	и	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person
+7	экс-тренер	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT36=Person-property
+8	национальной	_	_	_	_	_	_	_	bratA16=T34:Male|bratA28=T93:Adjective|bratT34=Person|bratT36=Person-property|bratT37=Organization|bratT93=GPE
+9	сборной	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT36=Person-property|bratT37=Organization
+10	ЮАР	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT36=Person-property|bratT37=Organization|bratT38=GPE
+11	по	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT36=Person-property|bratT37=Organization
+12	регби	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT36=Person-property|bratT37=Organization
+13	Ник	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT67=Person-forename
+14	Маллетт	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T34:Male|bratT34=Person|bratT68=Person-surname
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p4-s3
+# text = Амелия Спенсер - одна из дочерей Чарльза Спенсера от первого брака.
+1	Амелия	_	_	_	_	_	_	_	bratA17=T39:Female|bratT39=Person|bratT69=Person-forename
+2	Спенсер	_	_	_	_	_	_	_	bratA17=T39:Female|bratT39=Person|bratT70=Person-surname
+3	-	_	_	_	_	_	_	_	_
+4	одна	_	_	_	_	_	_	_	bratT40=Quantity
+5	из	_	_	_	_	_	_	_	bratT40=Quantity
+6	дочерей	_	_	_	_	_	_	_	bratA24=T85:Female|bratT42=Family|bratT85=Person
+7	Чарльза	_	_	_	_	_	_	_	bratA18=T41:Male|bratA24=T85:Female|bratT41=Person|bratT71=Person-forename|bratT85=Person
+8	Спенсера	_	_	_	_	_	_	_	bratA18=T41:Male|bratA24=T85:Female|bratT41=Person|bratT72=Person-surname|bratT85=Person
+9	от	_	_	_	_	_	_	_	_
+10	первого	_	_	_	_	_	_	_	bratT43=Ordinal
+11	брака	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0061-p4-s4
+# text = У нее есть сестра-близнец Элиза.
+1	У	_	_	_	_	_	_	_	_
+2	нее	_	_	_	_	_	_	_	_
+3	есть	_	_	_	_	_	_	_	_
+4	сестра-близнец	_	_	_	_	_	_	_	bratA19=T73:Female|bratT44=Family|bratT73=Person
+5	Элиза	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T73:Female|bratT45=Person-forename|bratT73=Person
+6	.	_	_	_	_	_	_	_	_
+

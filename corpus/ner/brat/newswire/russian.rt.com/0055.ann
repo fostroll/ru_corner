@@ -5,14 +5,14 @@ T4	Other-term 484 535	лиофилизированной   (   сухой   )   
 T5	Quantity 583 610	от   +2   °С   до   +8   °С
 T6	Other-term 707 718	дистрибуцию
 T7	Product 994 1015	``   Спутник   V   ''
-T8	Percent 1044 1057	выше   95   %
-T10	Organization 1118 1131	правительстве
-T11	GPE 1166 1172	России
-T12	Other-term 1180 1192	коронавируса
+T8	Percent 1044 1055	выше   95 %
+T10	Organization 1116 1129	правительстве
+T11	GPE 1164 1170	России
+T12	Other-term 1178 1190	коронавируса
 T14	Other-term 721 728	вакцины
 T15	Other-term 964 971	вакцины
-T9	Ordinal 1065 1069	42-й
-T16	Date-absolute 1060 1091	на   42-й   день   исследования
+T9	Ordinal 1063 1067	42-й
+T16	Date-absolute 1058 1089	на   42-й   день   исследования
 T17	Organization 95 134	Российский   фонд   прямых   инвестиций
 T18	Organization 141 145	РФПИ
 T19	Product 196 227	вакцины   ``   Спутник   V   ''
@@ -20,13 +20,17 @@ T20	Other-term 235 247	коронавируса
 T21	Service 396 401	сайте
 A1	Media T21
 T22	Date-relative 899 904	ранее
-T23	Product 404 424	российской   вакцины
 A2	Past T16
-T24	Date-period-absolute 1209 1224	с   2021   года
+T24	Date-period-absolute 1207 1222	с   2021   года
 A4	Fut T24
 A3	Past T22
-T13	Duration 1072 1076	день
+T13	Duration 1070 1074	день
 T25	GPE 95 105	Российский
 T26	GPE 404 414	российской
 A5	Adjective T25
 A6	Adjective T26
+A7	Trademark T1
+A8	Trademark T19
+A9	Trademark T7
+T23	Product 404 424	российской   вакцины
+A10	Trademark T23

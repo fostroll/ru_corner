@@ -131,7 +131,7 @@
 7	году	_	_	_	_	_	_	_	bratA3=T10:Pres-Fut|bratT10=Date-period-absolute
 8	43	_	_	_	_	_	_	_	bratT11=Percent
 9	процента	_	_	_	_	_	_	_	bratT11=Percent
-10	работодателей	_	_	_	_	_	_	_	_
+10	работодателей	_	_	_	_	_	_	_	bratT38=Person-property
 11	планируют	_	_	_	_	_	_	_	_
 12	сократить	_	_	_	_	_	_	_	_
 13	число	_	_	_	_	_	_	_	_
@@ -213,18 +213,18 @@
 # text = В августе исследователи рассказали о том, что после снятия введенных из-за коронавируса ограничений россиянам не хватает свободных вакансий.
 1	В	_	_	_	_	_	_	_	bratA6=T15:Past|bratT15=Date-absolute
 2	августе	_	_	_	_	_	_	_	bratA6=T15:Past|bratT15=Date-absolute
-3	исследователи	_	_	_	_	_	_	_	bratT17=Person-property
+3	исследователи	_	_	_	_	_	_	_	bratT17=Person-property|bratT36=Person
 4	рассказали	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	том	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	после	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute
-10	снятия	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute
-11	введенных	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute|bratT38=Event
-12	из-за	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute|bratT38=Event
-13	коронавируса	_	_	_	_	_	_	_	bratA12=T29:Past|bratT16=Other-term|bratT29=Date-period-absolute|bratT38=Event
-14	ограничений	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute|bratT38=Event
+10	снятия	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-period-absolute|bratT35=Event
+11	введенных	_	_	_	_	_	_	_	_
+12	из-за	_	_	_	_	_	_	_	_
+13	коронавируса	_	_	_	_	_	_	_	bratT16=Other-term
+14	ограничений	_	_	_	_	_	_	_	_
 15	россиянам	_	_	_	_	_	_	_	bratA2=T18:Citizenship|bratT18=Nationality
 16	не	_	_	_	_	_	_	_	_
 17	хватает	_	_	_	_	_	_	_	_
@@ -236,11 +236,11 @@
 # text = Согласно данным экспертов, в июне на одну вакансию в России в среднем претендовали два человека.
 1	Согласно	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
+3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT37=Person
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-period-absolute
 6	июне	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-period-absolute
-7	на	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	bratT21=Quantity
 8	одну	_	_	_	_	_	_	_	bratT21=Quantity
 9	вакансию	_	_	_	_	_	_	_	bratT21=Quantity
 10	в	_	_	_	_	_	_	_	_
@@ -257,7 +257,7 @@
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	до	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-period-absolute
-4	введения	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-period-absolute
+4	введения	_	_	_	_	_	_	_	bratA9=T30:Past|bratT25=Event|bratT30=Date-period-absolute
 5	режима	_	_	_	_	_	_	_	bratA9=T30:Past|bratT25=Event|bratT30=Date-period-absolute
 6	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event
 7	,	_	_	_	_	_	_	_	_

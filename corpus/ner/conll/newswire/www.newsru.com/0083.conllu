@@ -1,0 +1,228 @@
+# newdoc id = 0083
+# newpar id = 0083-p1
+# par_text = Лауреатом Букеровской премии-2020 стал шотландский писатель Дуглас Стюарт
+# sent_id = 0083-p1-s1
+# text = Лауреатом Букеровской премии-2020 стал шотландский писатель Дуглас Стюарт
+1	Лауреатом	_	_	_	_	_	_	_	bratT2=Person-property
+2	Букеровской	_	_	_	_	_	_	_	bratT1=Other-term|bratT2=Person-property
+3-5	премии-2020	_	_	_	_	_	_	_	_
+3	премии	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term|bratT2=Person-property
+4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term|bratT2=Person-property
+5	2020	_	_	_	_	_	_	_	bratT1=Other-term|bratT2=Person-property|bratT34=Date-absolute
+6	стал	_	_	_	_	_	_	_	_
+7	шотландский	_	_	_	_	_	_	_	bratA3=T39:Adjective|bratA7=T3:Male|bratT3=Person|bratT39=GPE|bratT4=Person-property
+8	писатель	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+9	Дуглас	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT40=Person-forename
+10	Стюарт	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT41=Person-surname
+
+# newpar id = 0083-p2
+# par_text = Обладателем Букеровской премии по литературе за 2020 год стал шотландский писатель Дуглас Стюарт с дебютным романом "Shuggie Bain" ("Шагги Бейн"). О решении жюри было объявлено в четверг вечером на торжественной церемонии, пишет ТАСС.
+# sent_id = 0083-p2-s1
+# text = Обладателем Букеровской премии по литературе за 2020 год стал шотландский писатель Дуглас Стюарт с дебютным романом ``Shuggie Bain'' (``Шагги Бейн'').
+1	Обладателем	_	_	_	_	_	_	_	bratT5=Person-property
+2	Букеровской	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Other-term
+3	премии	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Other-term
+4	по	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Other-term
+5	литературе	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Other-term
+6	за	_	_	_	_	_	_	_	bratA5=T7:Past|bratT7=Date-period-absolute
+7	2020	_	_	_	_	_	_	_	bratA5=T7:Past|bratT7=Date-period-absolute
+8	год	_	_	_	_	_	_	_	bratA5=T7:Past|bratT7=Date-period-absolute
+9	стал	_	_	_	_	_	_	_	_
+10	шотландский	_	_	_	_	_	_	_	bratA4=T42:Adjective|bratA6=T8:Male|bratT42=GPE|bratT8=Person|bratT9=Person-property
+11	писатель	_	_	_	_	_	_	_	bratA6=T8:Male|bratT8=Person|bratT9=Person-property
+12	Дуглас	_	_	_	_	_	_	_	bratA6=T8:Male|bratT43=Person-forename|bratT8=Person
+13	Стюарт	_	_	_	_	_	_	_	bratA6=T8:Male|bratT44=Person-surname|bratT8=Person
+14	с	_	_	_	_	_	_	_	_
+15	дебютным	_	_	_	_	_	_	_	_
+16	романом	_	_	_	_	_	_	_	_
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art
+18	Shuggie	_	_	_	_	_	_	_	bratT10=Work-of-art
+19	Bain	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art
+20	''	_	_	_	_	_	_	_	bratT10=Work-of-art
+21	(	_	_	_	_	_	_	_	SpaceAfter=No
+22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
+23	Шагги	_	_	_	_	_	_	_	bratT11=Work-of-art
+24	Бейн	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
+25	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
+26	)	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p2-s2
+# text = О решении жюри было объявлено в четверг вечером на торжественной церемонии, пишет ТАСС.
+1	О	_	_	_	_	_	_	_	_
+2	решении	_	_	_	_	_	_	_	_
+3	жюри	_	_	_	_	_	_	_	_
+4	было	_	_	_	_	_	_	_	_
+5	объявлено	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	bratA8=T35:Past|bratT35=Date-absolute
+7	четверг	_	_	_	_	_	_	_	bratA8=T35:Past|bratT35=Date-absolute
+8	вечером	_	_	_	_	_	_	_	bratA8=T35:Past|bratT30=Time-absolute|bratT35=Date-absolute
+9	на	_	_	_	_	_	_	_	_
+10	торжественной	_	_	_	_	_	_	_	_
+11	церемонии	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	пишет	_	_	_	_	_	_	_	_
+14	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0083-p3
+# par_text = В романе, основанном на детских воспоминаниях писателя, рассказывается история ребенка, который растет в бедной семье в Глазго 1980-х годов. Мать героя, Агнес, ведет борьбу с пристрастием к алкоголю, и в конечном счете все ее дети покидают родной дом. С Агнес остается только сын Шагги, у которого есть секрет от всего остального мира. По свидетельству жюри, эта "душераздирающая история" является "отчаянно грустным, но почти обнадеживающим анализом семьи и разрушающей силы желания".
+# sent_id = 0083-p3-s1
+# text = В романе, основанном на детских воспоминаниях писателя, рассказывается история ребенка, который растет в бедной семье в Глазго 1980-х годов.
+1	В	_	_	_	_	_	_	_	_
+2	романе	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	основанном	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	детских	_	_	_	_	_	_	_	_
+7	воспоминаниях	_	_	_	_	_	_	_	_
+8	писателя	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-property
+9	,	_	_	_	_	_	_	_	_
+10	рассказывается	_	_	_	_	_	_	_	_
+11	история	_	_	_	_	_	_	_	_
+12	ребенка	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Age
+13	,	_	_	_	_	_	_	_	_
+14	который	_	_	_	_	_	_	_	_
+15	растет	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	бедной	_	_	_	_	_	_	_	_
+18	семье	_	_	_	_	_	_	_	bratT36=Family
+19	в	_	_	_	_	_	_	_	_
+20	Глазго	_	_	_	_	_	_	_	bratT13=GPE
+21	1980-х	_	_	_	_	_	_	_	bratA9=T14:Past|bratT14=Date-period-absolute
+22	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T14:Past|bratT14=Date-period-absolute
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p3-s2
+# text = Мать героя, Агнес, ведет борьбу с пристрастием к алкоголю, и в конечном счете все ее дети покидают родной дом.
+1	Мать	_	_	_	_	_	_	_	bratA17=T53:Female|bratT15=Family|bratT53=Person
+2	героя	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T53:Female|bratT53=Person
+3	,	_	_	_	_	_	_	_	_
+4	Агнес	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T16:Female|bratT16=Person|bratT45=Person-forename
+5	,	_	_	_	_	_	_	_	_
+6	ведет	_	_	_	_	_	_	_	_
+7	борьбу	_	_	_	_	_	_	_	_
+8	с	_	_	_	_	_	_	_	_
+9	пристрастием	_	_	_	_	_	_	_	_
+10	к	_	_	_	_	_	_	_	_
+11	алкоголю	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	и	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	конечном	_	_	_	_	_	_	_	_
+16	счете	_	_	_	_	_	_	_	_
+17	все	_	_	_	_	_	_	_	_
+18	ее	_	_	_	_	_	_	_	bratT54=Person
+19	дети	_	_	_	_	_	_	_	bratT37=Family|bratT54=Person
+20	покидают	_	_	_	_	_	_	_	_
+21	родной	_	_	_	_	_	_	_	_
+22	дом	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p3-s3
+# text = С Агнес остается только сын Шагги, у которого есть секрет от всего остального мира.
+1	С	_	_	_	_	_	_	_	_
+2	Агнес	_	_	_	_	_	_	_	bratA11=T17:Female|bratT17=Person|bratT46=Person-forename
+3	остается	_	_	_	_	_	_	_	_
+4	только	_	_	_	_	_	_	_	_
+5	сын	_	_	_	_	_	_	_	bratA12=T18:Male|bratT18=Person|bratT19=Family
+6	Шагги	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T18:Male|bratT18=Person|bratT47=Person-forename
+7	,	_	_	_	_	_	_	_	_
+8	у	_	_	_	_	_	_	_	_
+9	которого	_	_	_	_	_	_	_	_
+10	есть	_	_	_	_	_	_	_	_
+11	секрет	_	_	_	_	_	_	_	_
+12	от	_	_	_	_	_	_	_	_
+13	всего	_	_	_	_	_	_	_	_
+14	остального	_	_	_	_	_	_	_	_
+15	мира	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p3-s4
+# text = По свидетельству жюри, эта ``душераздирающая история'' является ``отчаянно грустным, но почти обнадеживающим анализом семьи и разрушающей силы желания''.
+1	По	_	_	_	_	_	_	_	_
+2	свидетельству	_	_	_	_	_	_	_	_
+3	жюри	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	эта	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No
+7	душераздирающая	_	_	_	_	_	_	_	_
+8	история	_	_	_	_	_	_	_	SpaceAfter=No
+9	''	_	_	_	_	_	_	_	_
+10	является	_	_	_	_	_	_	_	_
+11	``	_	_	_	_	_	_	_	SpaceAfter=No
+12	отчаянно	_	_	_	_	_	_	_	_
+13	грустным	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	но	_	_	_	_	_	_	_	_
+16	почти	_	_	_	_	_	_	_	_
+17	обнадеживающим	_	_	_	_	_	_	_	_
+18	анализом	_	_	_	_	_	_	_	_
+19	семьи	_	_	_	_	_	_	_	bratT31=Family
+20	и	_	_	_	_	_	_	_	_
+21	разрушающей	_	_	_	_	_	_	_	_
+22	силы	_	_	_	_	_	_	_	_
+23	желания	_	_	_	_	_	_	_	SpaceAfter=No
+24	''	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0083-p4
+# par_text = 44-летний Стюарт стал вторым шотландцем в истории, который был удостоен Букеровской премии. Последний раз это удавалось Джеймсу Келману, победившему в 1994 году с романом "До чего ж оно все запоздало" (How late it was, how late) и который также оказал влияние на Стюарта.
+# sent_id = 0083-p4-s1
+# text = 44-летний Стюарт стал вторым шотландцем в истории, который был удостоен Букеровской премии.
+1	44-летний	_	_	_	_	_	_	_	bratT20=Age
+2	Стюарт	_	_	_	_	_	_	_	bratA13=T21:Male|bratT21=Person|bratT48=Person-surname
+3	стал	_	_	_	_	_	_	_	_
+4	вторым	_	_	_	_	_	_	_	bratT22=Ordinal
+5	шотландцем	_	_	_	_	_	_	_	bratA2=T23:Citizenship|bratT23=Nationality
+6	в	_	_	_	_	_	_	_	_
+7	истории	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	который	_	_	_	_	_	_	_	_
+10	был	_	_	_	_	_	_	_	_
+11	удостоен	_	_	_	_	_	_	_	_
+12	Букеровской	_	_	_	_	_	_	_	bratT24=Other-term
+13	премии	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p4-s2
+# text = Последний раз это удавалось Джеймсу Келману, победившему в 1994 году с романом ``До чего ж оно все запоздало'' (How late it was, how late) и который также оказал влияние на Стюарта.
+1	Последний	_	_	_	_	_	_	_	bratT38=Ordinal
+2	раз	_	_	_	_	_	_	_	_
+3	это	_	_	_	_	_	_	_	_
+4	удавалось	_	_	_	_	_	_	_	_
+5	Джеймсу	_	_	_	_	_	_	_	bratA14=T25:Male|bratT25=Person|bratT49=Person-forename
+6	Келману	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T25:Male|bratT25=Person|bratT50=Person-surname
+7	,	_	_	_	_	_	_	_	_
+8	победившему	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	bratA15=T26:Past|bratT26=Date-absolute
+10	1994	_	_	_	_	_	_	_	bratA15=T26:Past|bratT26=Date-absolute
+11	году	_	_	_	_	_	_	_	bratA15=T26:Past|bratT26=Date-absolute
+12	с	_	_	_	_	_	_	_	_
+13	романом	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Work-of-art
+15	До	_	_	_	_	_	_	_	bratT27=Work-of-art
+16	чего	_	_	_	_	_	_	_	bratT27=Work-of-art
+17	ж	_	_	_	_	_	_	_	bratT27=Work-of-art
+18	оно	_	_	_	_	_	_	_	bratT27=Work-of-art
+19	все	_	_	_	_	_	_	_	bratT27=Work-of-art
+20	запоздало	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Work-of-art
+21	''	_	_	_	_	_	_	_	bratT27=Work-of-art
+22	(	_	_	_	_	_	_	_	SpaceAfter=No
+23	How	_	_	_	_	_	_	_	bratT28=Work-of-art
+24	late	_	_	_	_	_	_	_	bratT28=Work-of-art
+25	it	_	_	_	_	_	_	_	bratT28=Work-of-art
+26	was	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Work-of-art
+27	,	_	_	_	_	_	_	_	bratT28=Work-of-art
+28	how	_	_	_	_	_	_	_	bratT28=Work-of-art
+29	late	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Work-of-art
+30	)	_	_	_	_	_	_	_	_
+31	и	_	_	_	_	_	_	_	_
+32	который	_	_	_	_	_	_	_	_
+33	также	_	_	_	_	_	_	_	_
+34	оказал	_	_	_	_	_	_	_	_
+35	влияние	_	_	_	_	_	_	_	_
+36	на	_	_	_	_	_	_	_	_
+37	Стюарта	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T29:Male|bratT29=Person|bratT51=Person-surname
+38	.	_	_	_	_	_	_	_	_
+

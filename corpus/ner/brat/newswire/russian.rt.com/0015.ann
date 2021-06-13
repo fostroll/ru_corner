@@ -2,31 +2,37 @@ T1	Duration 5 10	сутки
 T2	GPE 17 23	Турции
 T3	Quantity 36 58	6017   новых   случаев
 T4	Other-term 61 73	коронавируса
-T5	Quantity 276 285	446   822
-T6	Duration 319 324	сутки
-T7	Quantity 340 355	139   пациентов
-T8	Other-term 362 399	коронавирусной   инфекцией   COVID-19
-T9	Quantity 423 441	12   358   человек
-T10	Quantity 481 490	374   637
-T11	Person-property 504 554	профессор   вирусологии   центра   имени   Гамалеи
-T12	Organization 530 554	центра   имени   Гамалеи
-T13	Person 504 577	профессор   вирусологии   центра   имени   Гамалеи   Анатолий   Альтштейн
-T14	Organization 597 600	НСН
-T15	Other-term 659 667	COVID-19
+T5	Quantity 278 287	446   822
+T6	Duration 321 326	сутки
+T7	Quantity 342 357	139   пациентов
+T8	Other-term 364 403	коронавирусной   инфекцией   COVID - 19
+T9	Quantity 427 445	12   358   человек
+T10	Quantity 485 494	374   637
+T11	Person-property 508 558	профессор   вирусологии   центра   имени   Гамалеи
+T12	Organization 534 558	центра   имени   Гамалеи
+T13	Person 508 581	профессор   вирусологии   центра   имени   Гамалеи   Анатолий   Альтштейн
+T14	Organization 601 604	НСН
+T15	Other-term 663 673	COVID - 19
 A1	Media T14
 T16	GPE 79 85	Турции
 T17	Duration 93 98	сутки
 T18	Quantity 111 133	6017   новых   случаев
-T19	Other-term 150 158	COVID-19
-T20	Organization 202 220	Минздрава   страны
-T21	Date-relative 496 501	Ранее
+T19	Other-term 150 160	COVID - 19
+T20	Organization 204 222	Минздрава   страны
+T21	Date-relative 500 505	Ранее
 T22	Date-period-absolute 0 10	За   сутки
 T23	Date-period-absolute 88 98	за   сутки
-T24	Date-period-absolute 314 324	за   сутки
+T24	Date-period-absolute 316 326	за   сутки
 A5	Past-Pres T22
 A2	Past-Pres T23
 A3	Past-Pres T24
 A4	Past T21
-T25	Person-forename 557 565	Анатолий
-T26	Person-surname 568 577	Альтштейн
+T25	Person-forename 561 569	Анатолий
+T26	Person-surname 572 581	Альтштейн
 A6	Male T13
+T27	Cardinal 158 160	19
+T29	Cardinal 401 403	19
+T31	Cardinal 671 673	19
+T28	Person 551 558	Гамалеи
+T30	Person-surname 551 558	Гамалеи
+T32	GPE 216 222	страны

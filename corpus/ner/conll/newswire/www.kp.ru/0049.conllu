@@ -38,19 +38,20 @@
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0049-p2-s2
-# text = К этому часу Центризбирком республики обработал почти все бюллетени - более 99 %, и на исход голосования оставшиеся протоколы уже повлиять не смогут.
+# text = К этому часу Центризбирком республики обработал почти все бюллетени - более 99%, и на исход голосования оставшиеся протоколы уже повлиять не смогут.
 1	К	_	_	_	_	_	_	_	bratA3=T37:Present|bratT37=Date-absolute
-2	этому	_	_	_	_	_	_	_	bratA3=T37:Present|bratT37=Date-absolute
+2	этому	_	_	_	_	_	_	_	bratA3=T37:Present|bratT37=Date-absolute|bratT55=Ordinal
 3	часу	_	_	_	_	_	_	_	bratA3=T37:Present|bratT37=Date-absolute
 4	Центризбирком	_	_	_	_	_	_	_	bratT10=Organization
-5	республики	_	_	_	_	_	_	_	bratT10=Organization
+5	республики	_	_	_	_	_	_	_	bratT10=Organization|bratT56=GPE
 6	обработал	_	_	_	_	_	_	_	_
 7	почти	_	_	_	_	_	_	_	_
 8	все	_	_	_	_	_	_	_	_
 9	бюллетени	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_
 11	более	_	_	_	_	_	_	_	bratT11=Percent
-12	99	_	_	_	_	_	_	_	bratT11=Percent
+12-13	99%	_	_	_	_	_	_	_	SpaceAfter=No
+12	99	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Percent
 13	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Percent
 14	,	_	_	_	_	_	_	_	_
 15	и	_	_	_	_	_	_	_	_
@@ -78,7 +79,7 @@
 7	более	_	_	_	_	_	_	_	bratT32=Percent
 8	половины	_	_	_	_	_	_	_	bratT32=Percent
 9	граждан	_	_	_	_	_	_	_	bratA14=T54:Citizenship|bratT54=Nationality
-10	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Citizenship|bratT54=Nationality
+10	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Citizenship|bratT54=Nationality|bratT57=GPE
 11	,	_	_	_	_	_	_	_	_
 12	пришедших	_	_	_	_	_	_	_	_
 13	15	_	_	_	_	_	_	_	bratA4=T13:Past|bratT13=Date-absolute
@@ -89,14 +90,15 @@
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0049-p3-s2
-# text = По данным ЦИК, она набирает 57,09 % голосов - ее поддержали свыше 917 тысяч человек, а действующего молдавского лидера Игоря Додона поддержали 42.91 % избирателей (689,3 тысячи).
+# text = По данным ЦИК, она набирает 57,09% голосов - ее поддержали свыше 917 тысяч человек, а действующего молдавского лидера Игоря Додона поддержали 42.91% избирателей (689,3 тысячи).
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
 3	ЦИК	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
 4	,	_	_	_	_	_	_	_	_
 5	она	_	_	_	_	_	_	_	_
 6	набирает	_	_	_	_	_	_	_	_
-7	57,09	_	_	_	_	_	_	_	bratT15=Percent
+7-8	57,09%	_	_	_	_	_	_	_	_
+7	57,09	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Percent
 8	%	_	_	_	_	_	_	_	bratT15=Percent
 9	голосов	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_
@@ -114,7 +116,8 @@
 22	Игоря	_	_	_	_	_	_	_	bratA8=T17:Male|bratT17=Person|bratT44=Person-forename
 23	Додона	_	_	_	_	_	_	_	bratA8=T17:Male|bratT17=Person|bratT45=Person-surname
 24	поддержали	_	_	_	_	_	_	_	_
-25	42.91	_	_	_	_	_	_	_	bratT19=Percent
+25-26	42.91%	_	_	_	_	_	_	_	_
+25	42.91	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Percent
 26	%	_	_	_	_	_	_	_	bratT19=Percent
 27	избирателей	_	_	_	_	_	_	_	_
 28	(	_	_	_	_	_	_	_	SpaceAfter=No
@@ -208,7 +211,7 @@
 10	шаг	_	_	_	_	_	_	_	_
 11	для	_	_	_	_	_	_	_	_
 12	перезагрузки	_	_	_	_	_	_	_	_
-13	государства	_	_	_	_	_	_	_	SpaceAfter=No
+13	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=GPE
 14	''	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	передает	_	_	_	_	_	_	_	_

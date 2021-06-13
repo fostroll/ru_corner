@@ -1,0 +1,58 @@
+T1	Organization 0 6	Кремль
+T2	Person-property 45 56	миротворцев
+T3	GPE 63 71	Карабахе
+T4	GPE 126 136	российские
+A1	Adjective T4
+T5	Person-property 126 149	российские   миротворцы
+T6	GPE 156 175	Нагорном   Карабахе
+T7	Organization 307 310	РБК
+A2	Media T7
+T8	Person-property 291 310	корреспондент   РБК
+T9	GPE 357 363	России
+T10	Person-property 344 363	президента   России
+T11	Person-property 326 363	пресс-секретарь   президента   России
+T12	Person-forename 366 373	Дмитрий
+T13	Person-surname 376 382	Песков
+T14	Person 326 382	пресс-секретарь   президента   России   Дмитрий   Песков
+A3	Male T14
+T15	Person-property 582 594	президентами
+T16	Quantity 574 594	двумя   президентами
+T17	Person-surname 761 767	Песков
+T18	Person 761 767	Песков
+A4	Male T18
+T19	Organization 789 795	Кремля
+T20	Person-property 773 795	Представитель   Кремля
+T21	Person-property 857 868	миротворцев
+T22	Person-surname 908 914	Песков
+T23	Person 908 914	Песков
+A5	Male T23
+T24	GPE 964 974	российские
+A6	Adjective T24
+T25	Person-property 964 987	российские   миротворцы
+T26	GPE 1374 1386	Азербайджана
+T27	Person-property 1361 1386	президента   Азербайджана
+T28	Person-forename 1389 1396	Ильхама
+T29	Person-surname 1399 1405	Алиева
+T30	Person 1361 1405	президента   Азербайджана   Ильхама   Алиева
+A7	Male T30
+T31	GPE 1454 1461	Россией
+T32	Organization 411 439	миротворческом   контингенте
+T33	Organization 1464 1486	миротворческих   силах
+T34	Person-surname 1493 1499	Песков
+T35	Person 1493 1499	Песков
+A8	Male T35
+T36	GPE 1597 1607	российской
+A9	Adjective T36
+T37	Organization 1597 1634	российской   миротворческой   бригады
+T38	Person-property 1587 1634	военных   российской   миротворческой   бригады
+T39	GPE 1641 1648	Армению
+T40	GPE 1717 1721	Баку
+T41	GPE 1728 1736	Ереваном
+T42	GPE 1743 1750	Москвой
+T43	Event 1683 1750	подписания   соглашения   между   Баку   ,   Ереваном   и   Москвой
+T44	Date-absolute 1662 1693	сразу   же   после   подписания
+A10	Past T44
+T45	Organization 1805 1834	военно-транспортная   авиация
+T46	Time-absolute 1753 1766	в   ночь   на
+T47	Date-absolute 1753 1780	в   ночь   на   10   ноября
+A11	Past T47

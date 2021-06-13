@@ -1,0 +1,68 @@
+T1	Organization 0 4	ФСИН
+T2	GPE 81 89	Кузбассе
+T3	Person-property 53 74	сотрудников   колонии
+T4	Organization 118 122	ФСИН
+T5	GPE 130 151	Кемеровской   области
+T6	Organization 95 151	Главном   управлении   ФСИН   по   Кемеровской   области
+A1	Department T6
+T7	Person-property 206 227	сотрудников   колонии
+T8	Organization 244 247	РБК
+A2	Media T8
+T9	GPE 410 416	России
+T10	GPE 424 445	Кемеровской   области
+T11	GPE 452 460	Кузбассу
+T12	Organization 401 460	ГУФСИН   России   по   Кемеровской   области   -   Кузбассу
+T13	Organization 391 460	ИК - 37   ГУФСИН   России   по   Кемеровской   области   -   Кузбассу
+A3	Department T13
+T14	Organization 630 635	УФСИН
+T15	Organization 641 663	``   Тайга . Инфо   ''
+A4	Media T15
+T16	Service 727 773	Telegram-канале   ``   Инцидент . Кузбасс   ''
+A5	Media T16
+T17	Quantity 800 814	троих   мужчин
+T18	Organization 829 833	ФСИН
+T19	Quantity 840 857	одного   человека
+T20	Person-property 965 976	продавщицей
+T21	Quantity 1010 1030	еще   один   мужчина
+T22	Family 1154 1159	женой
+T23	Time-relative 1164 1169	Далее
+T24	Organization 1244 1270	``   Тайга   .   Инфо   ''
+A6	Media T24
+T25	Organization 1428 1462	магазине   ``   Пиво   Сибири   ''
+T26	GPE 1495 1544	городе   Анжеро-Судженске   Кемеровской   области
+T27	GPE 1523 1544	Кемеровской   области
+T28	Organization 1625 1629	ФСИН
+T29	Organization 1604 1629	региональному   ГУ   ФСИН
+A7	Department T29
+T30	Date-relative 1660 1665	потом
+T31	Organization 1713 1722	ИК   № 37
+T32	Person-property 1701 1722	начальник   ИК   № 37
+T33	Person-forename 1725 1732	Евгений
+T34	Person-surname 1735 1742	Овчаров
+T35	Person 1701 1742	начальник   ИК   № 37   Евгений   Овчаров
+A8	Male T35
+T36	Organization 1773 1795	``   Тайги . Инфо   ''
+A9	Media T36
+T37	Person-forename 1871 1877	Сергей
+T38	Person-surname 1880 1888	Толканов
+T39	Person-property 1837 1868	заместитель   по   безопасности
+T40	Person 1837 1888	заместитель   по   безопасности   Сергей   Толканов
+A10	Male T40
+T41	Facility 1894 1903	ИК   № 37
+T42	GPE 1924 1936	поселке   Яя
+T43	Quantity 2001 2015	1010   человек
+T45	GPE 1451 1457	Сибири
+T46	Ordinal 1718 1722	№ 37
+T48	Ordinal 1899 1903	№ 37
+T49	Time-relative 910 922	после   чего
+A13	Past T30
+T44	Event 26 35	конфликта
+T47	Event 179 188	конфликта
+T50	Event 1277 1285	конфликт
+T51	Event 1301 1307	дракой
+T52	Event 1640 1649	конфликте
+T53	Event 1668 1673	драке
+T54	Event 1806 1815	инциденте
+T55	Ordinal 396 398	37
+T56	GPE 1604 1617	региональному
+A11	Adjective T56

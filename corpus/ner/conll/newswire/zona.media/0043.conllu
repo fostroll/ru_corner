@@ -1,0 +1,156 @@
+# newdoc id = 0043
+# newpar id = 0043-p1
+# par_text = В Свердловской области полицейского будут судить за пытки двоих задержанных электрошокером
+# sent_id = 0043-p1-s1
+# text = В Свердловской области полицейского будут судить за пытки двоих задержанных электрошокером
+1	В	_	_	_	_	_	_	_	_
+2	Свердловской	_	_	_	_	_	_	_	bratT1=GPE
+3	области	_	_	_	_	_	_	_	bratT1=GPE
+4	полицейского	_	_	_	_	_	_	_	bratT2=Person-property
+5	будут	_	_	_	_	_	_	_	_
+6	судить	_	_	_	_	_	_	_	_
+7	за	_	_	_	_	_	_	_	_
+8	пытки	_	_	_	_	_	_	_	_
+9	двоих	_	_	_	_	_	_	_	bratT3=Quantity
+10	задержанных	_	_	_	_	_	_	_	bratT3=Quantity|bratT4=Person-property
+11	электрошокером	_	_	_	_	_	_	_	_
+
+# newpar id = 0043-p2
+# par_text = В Свердловской области бывшего полицейского отдела «Сысертский» будут судить по статье о превышении полномочий (часть 3 статьи 286 УК) за пытки двоих задержанных электрошокером. Об этом сообщают «Накануне.ру» и «Уралинформбюро» со ссылкой на местную прокуратуру.
+# sent_id = 0043-p2-s1
+# text = В Свердловской области бывшего полицейского отдела «Сысертский» будут судить по статье о превышении полномочий (часть 3 статьи 286 УК) за пытки двоих задержанных электрошокером.
+1	В	_	_	_	_	_	_	_	_
+2	Свердловской	_	_	_	_	_	_	_	bratT5=GPE
+3	области	_	_	_	_	_	_	_	bratT5=GPE
+4	бывшего	_	_	_	_	_	_	_	bratT7=Person-property
+5	полицейского	_	_	_	_	_	_	_	bratT7=Person-property
+6	отдела	_	_	_	_	_	_	_	bratA1=T6:Department|bratT6=Organization|bratT7=Person-property
+7	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T6:Department|bratT6=Organization|bratT7=Person-property
+8	Сысертский	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Department|bratA8=T29:Adjective|bratT29=GPE|bratT6=Organization|bratT7=Person-property
+9	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T6:Department|bratT6=Organization|bratT7=Person-property
+10	будут	_	_	_	_	_	_	_	_
+11	судить	_	_	_	_	_	_	_	_
+12	по	_	_	_	_	_	_	_	_
+13	статье	_	_	_	_	_	_	_	_
+14	о	_	_	_	_	_	_	_	_
+15	превышении	_	_	_	_	_	_	_	_
+16	полномочий	_	_	_	_	_	_	_	_
+17	(	_	_	_	_	_	_	_	SpaceAfter=No
+18	часть	_	_	_	_	_	_	_	bratT10=Law
+19	3	_	_	_	_	_	_	_	bratT10=Law|bratT8=Ordinal
+20	статьи	_	_	_	_	_	_	_	bratT10=Law
+21	286	_	_	_	_	_	_	_	bratT10=Law|bratT11=Ordinal
+22	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Law|bratT9=Law
+23	)	_	_	_	_	_	_	_	_
+24	за	_	_	_	_	_	_	_	_
+25	пытки	_	_	_	_	_	_	_	_
+26	двоих	_	_	_	_	_	_	_	_
+27	задержанных	_	_	_	_	_	_	_	_
+28	электрошокером	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0043-p2-s2
+# text = Об этом сообщают «Накануне.ру» и «Уралинформбюро» со ссылкой на местную прокуратуру.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщают	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
+5-7	Накануне.ру	_	_	_	_	_	_	_	SpaceAfter=No
+5	Накануне	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
+6	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
+7	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
+8	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA2=T12:Media|bratT12=Organization
+9	и	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+11	Уралинформбюро	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Media|bratT14=Organization
+12	''	_	_	_	_	_	_	_	QuotationEnd=»
+13	со	_	_	_	_	_	_	_	_
+14	ссылкой	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	местную	_	_	_	_	_	_	_	bratA6=T13:Adjective|bratT13=GPE|bratT15=Organization
+17	прокуратуру	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0043-p3
+# par_text = По версии следствия, в ночь на 13 апреля полицейский дежурил в отделе и «без предупреждения и особых причин» применил электрошокер к двоим задержанным за административные правонарушения.
+# sent_id = 0043-p3-s1
+# text = По версии следствия, в ночь на 13 апреля полицейский дежурил в отделе и «без предупреждения и особых причин» применил электрошокер к двоим задержанным за административные правонарушения.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute|bratT17=Time-absolute
+6	ночь	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute|bratT17=Time-absolute
+7	на	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute|bratT17=Time-absolute
+8	13	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
+9	апреля	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
+10	полицейский	_	_	_	_	_	_	_	bratT18=Person-property
+11	дежурил	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	отделе	_	_	_	_	_	_	_	_
+14	и	_	_	_	_	_	_	_	_
+15	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+16	без	_	_	_	_	_	_	_	_
+17	предупреждения	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	особых	_	_	_	_	_	_	_	_
+20	причин	_	_	_	_	_	_	_	SpaceAfter=No
+21	''	_	_	_	_	_	_	_	QuotationEnd=»
+22	применил	_	_	_	_	_	_	_	_
+23	электрошокер	_	_	_	_	_	_	_	_
+24	к	_	_	_	_	_	_	_	_
+25	двоим	_	_	_	_	_	_	_	bratT19=Quantity
+26	задержанным	_	_	_	_	_	_	_	bratT19=Quantity|bratT20=Person-property
+27	за	_	_	_	_	_	_	_	_
+28	административные	_	_	_	_	_	_	_	_
+29	правонарушения	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0043-p4
+# par_text = «Сам он утверждал, что задержанные якобы вели себя неадекватно в камере и что специальное техническое устройство он применял не по отношению к людям, а в непосредственной близости от них», — рассказал пресс-секретарь областного управления МВД Валерий Горелых.
+# sent_id = 0043-p4-s1
+# text = «Сам он утверждал, что задержанные якобы вели себя неадекватно в камере и что специальное техническое устройство он применял не по отношению к людям, а в непосредственной близости от них», - рассказал пресс-секретарь областного управления МВД Валерий Горелых.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Сам	_	_	_	_	_	_	_	_
+3	он	_	_	_	_	_	_	_	_
+4	утверждал	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	задержанные	_	_	_	_	_	_	_	bratT21=Person-property
+8	якобы	_	_	_	_	_	_	_	_
+9	вели	_	_	_	_	_	_	_	_
+10	себя	_	_	_	_	_	_	_	_
+11	неадекватно	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	камере	_	_	_	_	_	_	_	_
+14	и	_	_	_	_	_	_	_	_
+15	что	_	_	_	_	_	_	_	_
+16	специальное	_	_	_	_	_	_	_	_
+17	техническое	_	_	_	_	_	_	_	_
+18	устройство	_	_	_	_	_	_	_	_
+19	он	_	_	_	_	_	_	_	_
+20	применял	_	_	_	_	_	_	_	_
+21	не	_	_	_	_	_	_	_	_
+22	по	_	_	_	_	_	_	_	_
+23	отношению	_	_	_	_	_	_	_	_
+24	к	_	_	_	_	_	_	_	_
+25	людям	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	а	_	_	_	_	_	_	_	_
+28	в	_	_	_	_	_	_	_	_
+29	непосредственной	_	_	_	_	_	_	_	_
+30	близости	_	_	_	_	_	_	_	_
+31	от	_	_	_	_	_	_	_	_
+32	них	_	_	_	_	_	_	_	SpaceAfter=No
+33	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+34	,	_	_	_	_	_	_	_	_
+35	-	_	_	_	_	_	_	_	_
+36	рассказал	_	_	_	_	_	_	_	_
+37	пресс-секретарь	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person|bratT23=Person-property
+38	областного	_	_	_	_	_	_	_	bratA5=T22:Male|bratA7=T27:Adjective|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT27=GPE
+39	управления	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person|bratT23=Person-property|bratT24=Organization
+40	МВД	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT28=Organization
+41	Валерий	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person|bratT25=Person-forename
+42	Горелых	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT22=Person|bratT26=Person-surname
+43	.	_	_	_	_	_	_	_	_
+

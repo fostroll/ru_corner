@@ -4,8 +4,8 @@
 # sent_id = 0062-p1-s1
 # text = Назван таинственный убийца сотен акул-людоедов
 1	Назван	_	_	_	_	_	_	_	_
-2	таинственный	_	_	_	_	_	_	_	_
-3	убийца	_	_	_	_	_	_	_	_
+2	таинственный	_	_	_	_	_	_	_	bratA11=T53:Male|bratT53=Person
+3	убийца	_	_	_	_	_	_	_	bratA11=T53:Male|bratT53=Person
 4	сотен	_	_	_	_	_	_	_	bratT11=Quantity
 5	акул-людоедов	_	_	_	_	_	_	_	bratT11=Quantity
 
@@ -13,14 +13,14 @@
 # par_text = Специалисты назвали таинственного убийцу, виновного в исчезновении акул-людоедов, которые обитали у берегов ЮАР. Их выводы изложены в отчете, подготовленном для Министерства окружающей среды, лесных и рыбных ресуров ЮАР, пишет издание Daily Mail.
 # sent_id = 0062-p2-s1
 # text = Специалисты назвали таинственного убийцу, виновного в исчезновении акул-людоедов, которые обитали у берегов ЮАР.
-1	Специалисты	_	_	_	_	_	_	_	bratT23=Person-property
+1	Специалисты	_	_	_	_	_	_	_	bratT23=Person-property|bratT48=Person
 2	назвали	_	_	_	_	_	_	_	_
-3	таинственного	_	_	_	_	_	_	_	_
-4	убийцу	_	_	_	_	_	_	_	SpaceAfter=No
+3	таинственного	_	_	_	_	_	_	_	bratA5=T54:Male|bratT54=Person
+4	убийцу	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T54:Male|bratT54=Person
 5	,	_	_	_	_	_	_	_	_
 6	виновного	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	исчезновении	_	_	_	_	_	_	_	_
+8	исчезновении	_	_	_	_	_	_	_	bratT45=Event
 9	акул-людоедов	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	которые	_	_	_	_	_	_	_	_
@@ -85,8 +85,8 @@
 4	регионе	_	_	_	_	_	_	_	_
 5	впервые	_	_	_	_	_	_	_	bratT37=Ordinal
 6	заметили	_	_	_	_	_	_	_	_
-7	пару	_	_	_	_	_	_	_	bratT16=Quantity
-8	косаток	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
+7	пару	_	_	_	_	_	_	_	bratA20=T55:Unconscious|bratT16=Quantity|bratT55=Person
+8	косаток	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T55:Unconscious|bratT16=Quantity|bratT55=Person
 9	,	_	_	_	_	_	_	_	_
 10	получивших	_	_	_	_	_	_	_	_
 11	прозвища	_	_	_	_	_	_	_	_
@@ -231,12 +231,12 @@
 7	уже	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	bratA13=T29:Past|bratT29=Date-absolute
 9	феврале	_	_	_	_	_	_	_	bratA13=T29:Past|bratT29=Date-absolute
-10	охота	_	_	_	_	_	_	_	_
-11	косаток	_	_	_	_	_	_	_	_
+10	охота	_	_	_	_	_	_	_	bratT33=Event
+11	косаток	_	_	_	_	_	_	_	bratA21=T56:Unconscious|bratT56=Person
 12	на	_	_	_	_	_	_	_	_
 13	большую	_	_	_	_	_	_	_	_
-14	белую	_	_	_	_	_	_	_	_
-15	акулу	_	_	_	_	_	_	_	_
+14	белую	_	_	_	_	_	_	_	bratA22=T57:Unconscious|bratT57=Person
+15	акулу	_	_	_	_	_	_	_	bratA22=T57:Unconscious|bratT57=Person
 16	попала	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	_
 18	видео	_	_	_	_	_	_	_	SpaceAfter=No
@@ -249,15 +249,15 @@
 3	Донаван	_	_	_	_	_	_	_	bratA10=T6:Male|bratT49=Person-forename|bratT6=Person
 4	Смит	_	_	_	_	_	_	_	bratA10=T6:Male|bratT50=Person-surname|bratT6=Person
 5	(	_	_	_	_	_	_	_	SpaceAfter=No
-6	Donavan	_	_	_	_	_	_	_	bratA11=T7:Male|bratT51=Person-forename|bratT7=Person
-7	Smith	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T7:Male|bratT52=Person-surname|bratT7=Person
+6	Donavan	_	_	_	_	_	_	_	bratA4=T7:Male|bratT51=Person-forename|bratT7=Person
+7	Smith	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T7:Male|bratT52=Person-surname|bratT7=Person
 8	)	_	_	_	_	_	_	_	_
 9	снял	_	_	_	_	_	_	_	_
-10	нападение	_	_	_	_	_	_	_	_
+10	нападение	_	_	_	_	_	_	_	bratT32=Event
 11	в	_	_	_	_	_	_	_	bratT9=Quantity
 12	400	_	_	_	_	_	_	_	bratT9=Quantity
 13	километрах	_	_	_	_	_	_	_	bratT9=Quantity
-14	от	_	_	_	_	_	_	_	_
+14	от	_	_	_	_	_	_	_	bratT9=Quantity
 15	Кейптауна	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=GPE
 16	.	_	_	_	_	_	_	_	_
 

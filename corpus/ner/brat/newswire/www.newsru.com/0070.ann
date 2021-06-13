@@ -1,0 +1,97 @@
+T1	GPE 0 7	Армения
+T2	Quantity 24 42	десятках   раненых
+T3	GPE 88 96	Карабахе
+T4	GPE 119 131	Азербайджана
+T5	Organization 98 131	Вооруженные   силы   Азербайджана
+T6	GPE 208 255	непризнанной   Нагорно-Карабахской   республики
+T7	GPE 262 265	НКР
+T8	GPE 315 322	Армении
+T9	Organization 302 322	Минобороны   Армении
+T10	Person 286 343	представитель   Минобороны   Армении   Арцрун   Ованнисян
+T11	Date-absolute 354 361	Сегодня
+T12	GPE 419 430	Степанакерт
+T13	GPE 437 441	Шуши
+T14	GPE 448 454	Гадрут
+T15	Quantity 501 518	десятки   раненых
+T16	Person 543 552	Ованнисян
+T17	Organization 608 627	``   Интерфакс   ''
+A1	Media T17
+T18	GPE 784 802	непризнанной   НКР
+T19	Person-property 771 802	омбудсмена   непризнанной   НКР
+T20	Person 771 823	омбудсмена   непризнанной   НКР   Артака   Бегларяна
+T21	GPE 828 839	Степанакерт
+T22	Date-period-absolute 859 881	с   минувшей   пятницы
+T23	GPE 888 892	Шуши
+T24	Date-period-absolute 899 914	с   воскресенья
+T25	Person 934 954	Арцруна   Ованнисяна
+T26	GPE 1055 1063	Карабаха
+T27	Organization 1047 1063	армия   Карабаха
+T28	Person 1270 1279	Ованнисян
+T30	GPE 1504 1512	Карабаха
+T31	Organization 1486 1512	армии   обороны   Карабаха
+T32	Person-property 1469 1512	военнослужащие   армии   обороны   Карабаха
+T33	Organization 1437 1456	сухопутные   войска
+T34	GPE 1522 1529	Армении
+T35	Person-property 1542 1552	резервисты
+T36	Person-property 1559 1570	добровольцы
+T37	GPE 1645 1652	Армении
+T38	Organization 1632 1652	Минобороны   Армении
+T39	Person-property 1616 1652	представителя   Минобороны   Армении
+T40	Date-absolute 1659 1683	в   среду   до   полудня
+T41	Time-absolute 1671 1683	до   полудня
+T42	Person-property 1720 1745	азербайджанских   военных
+T43	Quantity 1704 1745	260   -   280   азербайджанских   военных
+T44	Quantity 1752 1772	60   -   80   единиц
+T45	Person-property 1874 1899	азербайджанские   военные
+T46	GPE 1949 1954	Ирана
+T47	GPE 1986 1997	карабахской
+T48	GPE 2111 2116	Ирана
+T49	Organization 2057 2116	Вооруженные   силы   и   политическое   руководство   Ирана
+A2	Plural T49
+T50	Date-absolute 134 143	в   среду
+T51	Person-property 286 322	представитель   Минобороны   Армении
+T52	Time-absolute 571 578	вечером
+T53	Date-relative 981 987	сейчас
+T54	Date-absolute 1862 1871	в   среду
+T55	GPE 2212 2217	Ирана
+T56	Person 2243 2252	Ованнисян
+A3	Past T50
+A4	Male T10
+T57	Person-forename 325 331	Арцрун
+T58	Person-surname 334 343	Ованнисян
+T59	GPE 733 742	армянские
+A6	Adjective T59
+A7	Male T20
+T60	Person-forename 805 811	Артака
+T61	Person-surname 814 823	Бегларяна
+A8	Past-Pres T22
+A9	RCont T22
+A10	Past-Pres T24
+A11	RCont T24
+A12	Male T25
+T62	Person-forename 934 941	Арцруна
+T63	Person-surname 944 954	Ованнисяна
+T64	GPE 1195 1206	карабахской
+A13	Adjective T64
+A14	Male T28
+T29	Person-surname 1270 1279	Ованнисян
+A15	Past T40
+T65	GPE 1720 1735	азербайджанских
+A16	Adjective T65
+A17	Past T54
+T66	GPE 1874 1889	азербайджанские
+A18	Adjective T66
+A19	Adjective T47
+A20	Male T56
+T67	Person-surname 2243 2252	Ованнисян
+T68	Date-relative 1957 1979	после   того   ,   как
+A21	Past T68
+T69	Date-absolute 571 578	вечером
+A22	Past T69
+A23	Present T53
+T70	Ordinal 863 871	минувшей
+T71	Quantity 364 379	несколько   раз
+T72	Quantity 146 161	несколько   раз
+A5	Past T11
+T73	Organization 2057 2075	Вооруженные   силы
+T74	Organization 2082 2108	политическое   руководство

@@ -1,0 +1,202 @@
+# newdoc id = 0048
+# newpar id = 0048-p1
+# par_text = Помощника главы Россельхознадзора отправили под домашний арест по делу о совращении 13-летней школьницы
+# sent_id = 0048-p1-s1
+# text = Помощника главы Россельхознадзора отправили под домашний арест по делу о совращении 13-летней школьницы
+1	Помощника	_	_	_	_	_	_	_	bratT1=Person-property
+2	главы	_	_	_	_	_	_	_	bratT1=Person-property
+3	Россельхознадзора	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+4	отправили	_	_	_	_	_	_	_	_
+5	под	_	_	_	_	_	_	_	_
+6	домашний	_	_	_	_	_	_	_	bratT47=Event
+7	арест	_	_	_	_	_	_	_	bratT47=Event
+8	по	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	совращении	_	_	_	_	_	_	_	_
+12	13-летней	_	_	_	_	_	_	_	bratT3=Age
+13	школьницы	_	_	_	_	_	_	_	bratT4=Person-property
+
+# newpar id = 0048-p2
+# par_text = Пресненский районный суд Москвы отправил под домашний арест до 25 августа бывшего помощника главы Россельхознадзора Дмитрия Натарова по делу о совращении 13-летней девочки. Об этом сообщает агентство «Москва» со ссылкой на пресс-службу суда.
+# sent_id = 0048-p2-s1
+# text = Пресненский районный суд Москвы отправил под домашний арест до 25 августа бывшего помощника главы Россельхознадзора Дмитрия Натарова по делу о совращении 13-летней девочки.
+1	Пресненский	_	_	_	_	_	_	_	bratA1=T6:Adjective|bratT5=Organization|bratT6=GPE
+2	районный	_	_	_	_	_	_	_	bratA1=T6:Adjective|bratT5=Organization|bratT6=GPE
+3	суд	_	_	_	_	_	_	_	bratT5=Organization
+4	Москвы	_	_	_	_	_	_	_	bratT5=Organization|bratT7=GPE
+5	отправил	_	_	_	_	_	_	_	_
+6	под	_	_	_	_	_	_	_	_
+7	домашний	_	_	_	_	_	_	_	bratT54=Event
+8	арест	_	_	_	_	_	_	_	bratT54=Event
+9	до	_	_	_	_	_	_	_	bratA2=T8:Past-Fut|bratT8=Date-period-absolute
+10	25	_	_	_	_	_	_	_	bratA2=T8:Past-Fut|bratT8=Date-period-absolute
+11	августа	_	_	_	_	_	_	_	bratA2=T8:Past-Fut|bratT8=Date-period-absolute
+12	бывшего	_	_	_	_	_	_	_	_
+13	помощника	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
+14	главы	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
+15	Россельхознадзора	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
+16	Дмитрия	_	_	_	_	_	_	_	bratA3=T9:Male|bratT12=Person-forename|bratT9=Person
+17	Натарова	_	_	_	_	_	_	_	bratA3=T9:Male|bratT13=Person-surname|bratT9=Person
+18	по	_	_	_	_	_	_	_	_
+19	делу	_	_	_	_	_	_	_	_
+20	о	_	_	_	_	_	_	_	_
+21	совращении	_	_	_	_	_	_	_	_
+22	13-летней	_	_	_	_	_	_	_	bratT14=Age
+23	девочки	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p2-s2
+# text = Об этом сообщает агентство ``Москва'' со ссылкой на пресс-службу суда.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	агентство	_	_	_	_	_	_	_	bratA4=T15:Media|bratT15=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T15:Media|bratT15=Organization
+6	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T15:Media|bratT15=Organization
+7	''	_	_	_	_	_	_	_	bratA4=T15:Media|bratT15=Organization
+8	со	_	_	_	_	_	_	_	_
+9	ссылкой	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	пресс-службу	_	_	_	_	_	_	_	bratA22=T63:Department|bratT63=Organization
+12	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T63:Department|bratT63=Organization
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p3
+# par_text = Натарова обвиняют в получении взятки (статья 290 УК) и совершении развратных действий сексуального характера в отношении несовершеннолетней (статья 135 УК).
+# sent_id = 0048-p3-s1
+# text = Натарова обвиняют в получении взятки (статья 290 УК) и совершении развратных действий сексуального характера в отношении несовершеннолетней (статья 135 УК).
+1	Натарова	_	_	_	_	_	_	_	bratA5=T16:Male|bratT16=Person|bratT17=Person-surname
+2	обвиняют	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	получении	_	_	_	_	_	_	_	_
+5	взятки	_	_	_	_	_	_	_	_
+6	(	_	_	_	_	_	_	_	SpaceAfter=No
+7	статья	_	_	_	_	_	_	_	bratT18=Law
+8	290	_	_	_	_	_	_	_	bratT18=Law|bratT57=Ordinal
+9	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Law|bratT58=Law
+10	)	_	_	_	_	_	_	_	_
+11	и	_	_	_	_	_	_	_	_
+12	совершении	_	_	_	_	_	_	_	_
+13	развратных	_	_	_	_	_	_	_	_
+14	действий	_	_	_	_	_	_	_	_
+15	сексуального	_	_	_	_	_	_	_	_
+16	характера	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	отношении	_	_	_	_	_	_	_	_
+19	несовершеннолетней	_	_	_	_	_	_	_	bratT19=Age
+20	(	_	_	_	_	_	_	_	SpaceAfter=No
+21	статья	_	_	_	_	_	_	_	bratT20=Law
+22	135	_	_	_	_	_	_	_	bratT20=Law|bratT59=Ordinal
+23	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law|bratT60=Law
+24	)	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p4
+# par_text = В апреле секретарь генсовета «Единой России» Андрей Турчак попросил главу Россельхознадзора Дмитрия Патрушева уволить Натарова из-за подозрений в совращении несовершеннолетней. В тот же день помощника главы Россельхознадзора уволили с должности.
+# sent_id = 0048-p4-s1
+# text = В апреле секретарь генсовета ``Единой России'' Андрей Турчак попросил главу Россельхознадзора Дмитрия Патрушева уволить Натарова из-за подозрений в совращении несовершеннолетней.
+1	В	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
+2	апреле	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
+3	секретарь	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT23=Person-property
+4	генсовета	_	_	_	_	_	_	_	bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization
+6	Единой	_	_	_	_	_	_	_	bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT25=Organization
+7	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT25=Organization|bratT26=GPE
+8	''	_	_	_	_	_	_	_	bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization
+9	Андрей	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT27=Person-forename
+10	Турчак	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT28=Person-surname
+11	попросил	_	_	_	_	_	_	_	_
+12	главу	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT30=Person-property
+13	Россельхознадзора	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT30=Person-property|bratT31=Organization
+14	Дмитрия	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT32=Person-forename
+15	Патрушева	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT33=Person-surname
+16	уволить	_	_	_	_	_	_	_	_
+17	Натарова	_	_	_	_	_	_	_	bratA10=T34:Male|bratT34=Person|bratT35=Person-surname
+18	из-за	_	_	_	_	_	_	_	_
+19	подозрений	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	совращении	_	_	_	_	_	_	_	_
+22	несовершеннолетней	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Age
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p4-s2
+# text = В тот же день помощника главы Россельхознадзора уволили с должности.
+1	В	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
+2	тот	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
+3	же	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
+4	день	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
+5	помощника	_	_	_	_	_	_	_	bratT38=Person-property
+6	главы	_	_	_	_	_	_	_	bratT38=Person-property
+7	Россельхознадзора	_	_	_	_	_	_	_	bratT38=Person-property|bratT39=Organization
+8	уволили	_	_	_	_	_	_	_	_
+9	с	_	_	_	_	_	_	_	_
+10	должности	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Person-property
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p5
+# par_text = Ранее РЕН ТВ сообщал, что Натаров в течение нескольких лет насиловал 13-летнюю школьницу, которая была дочерью его друзей. По данным телеканала, дело возбудили только через год после подачи заявления в Следственный комитет. РЕН ТВ утверждал, что до этого Натаров «тормозил» расследование при помощи своего высокого положения.
+# sent_id = 0048-p5-s1
+# text = Ранее РЕН ТВ сообщал, что Натаров в течение нескольких лет насиловал 13-летнюю школьницу, которая была дочерью его друзей.
+1	Ранее	_	_	_	_	_	_	_	bratA19=T55:Past|bratT55=Date-relative
+2	РЕН	_	_	_	_	_	_	_	bratA12=T40:Media|bratT40=Organization
+3	ТВ	_	_	_	_	_	_	_	bratA12=T40:Media|bratT40=Organization
+4	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	Натаров	_	_	_	_	_	_	_	bratA13=T41:Male|bratT41=Person|bratT42=Person-surname
+8	в	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-relative
+9	течение	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-relative
+10	нескольких	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-relative|bratT61=Duration
+11	лет	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-relative|bratT61=Duration
+12	насиловал	_	_	_	_	_	_	_	_
+13	13-летнюю	_	_	_	_	_	_	_	bratT44=Age
+14	школьницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-property
+15	,	_	_	_	_	_	_	_	_
+16	которая	_	_	_	_	_	_	_	_
+17	была	_	_	_	_	_	_	_	_
+18	дочерью	_	_	_	_	_	_	_	bratT46=Family
+19	его	_	_	_	_	_	_	_	_
+20	друзей	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p5-s2
+# text = По данным телеканала, дело возбудили только через год после подачи заявления в Следственный комитет.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	телеканала	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	_
+6	возбудили	_	_	_	_	_	_	_	_
+7	только	_	_	_	_	_	_	_	_
+8	через	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute
+9	год	_	_	_	_	_	_	_	bratA20=T49:Past|bratT48=Duration|bratT49=Date-absolute
+10	после	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute
+11	подачи	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute
+12	заявления	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	Следственный	_	_	_	_	_	_	_	bratT50=Organization
+15	комитет	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Organization
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p5-s3
+# text = РЕН ТВ утверждал, что до этого Натаров ``тормозил'' расследование при помощи своего высокого положения.
+1	РЕН	_	_	_	_	_	_	_	bratA16=T51:Media|bratT51=Organization
+2	ТВ	_	_	_	_	_	_	_	bratA16=T51:Media|bratT51=Organization
+3	утверждал	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	до	_	_	_	_	_	_	_	bratA21=T62:Past|bratT62=Date-period-relative
+7	этого	_	_	_	_	_	_	_	bratA21=T62:Past|bratT62=Date-period-relative
+8	Натаров	_	_	_	_	_	_	_	bratA17=T52:Male|bratT52=Person|bratT53=Person-surname
+9	``	_	_	_	_	_	_	_	SpaceAfter=No
+10	тормозил	_	_	_	_	_	_	_	SpaceAfter=No
+11	''	_	_	_	_	_	_	_	_
+12	расследование	_	_	_	_	_	_	_	_
+13	при	_	_	_	_	_	_	_	_
+14	помощи	_	_	_	_	_	_	_	_
+15	своего	_	_	_	_	_	_	_	_
+16	высокого	_	_	_	_	_	_	_	_
+17	положения	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+

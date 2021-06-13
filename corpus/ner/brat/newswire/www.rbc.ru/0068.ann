@@ -1,0 +1,71 @@
+T1	GPE 4 10	Москве
+T2	Facility 60 80	Измайловском   парке
+T3	Other-group 45 53	прохожим
+T4	Organization 95 102	полиции
+T5	Person-property 82 102	Сотрудники   полиции
+T6	Other-group 168 176	прохожим
+T7	Facility 183 203	Измайловском   парке
+T8	Person-forename 290 299	Екатерина
+T9	Person-surname 302 306	Гузь
+T10	Organization 284 287	МВД
+T11	Organization 262 287	столичного   главка   МВД
+A1	Department T11
+T12	Organization 247 287	пресс-службы   столичного   главка   МВД
+A2	Department T12
+T13	Person-property 231 287	замначальника   пресс-службы   столичного   главка   МВД
+T14	Person 231 306	замначальника   пресс-службы   столичного   главка   МВД   Екатерина   Гузь
+A3	Female T14
+T15	GPE 347 353	России
+T16	GPE 361 379	району   Измайлово
+T18	Organization 330 379	полиции   ОМВД   России   по   району   Измайлово
+T19	Person-property 317 379	Сотрудники   полиции   ОМВД   России   по   району   Измайлово
+T20	Age 394 404	31-летнего
+T21	Person 545 549	Гузь
+A5	Female T21
+T22	Person-surname 545 549	Гузь
+T23	Other-group 607 615	очевидцы
+T24	Organization 586 593	полицию
+T25	Event 559 579	стрельбе   в   парке
+T26	Other-group 695 704	прохожими
+T27	Quantity 687 704	двумя   прохожими
+T28	Quantity 719 734	несколько   раз
+T29	Date-relative 711 716	затем
+T30	Other-group 802 814	Пострадавших
+T31	Organization 839 859	уголовного   розыска
+T32	Person-property 826 859	Сотрудники   уголовного   розыска
+T33	Person-property 967 978	полицейские
+T34	Quantity 1052 1067	пять   патронов
+T35	Other-group 1332 1342	нарушителя
+T36	Quantity 1358 1380	два   уголовных   дела
+T37	GPE 1405 1411	России
+T38	GPE 1467 1473	России
+T39	Law 1388 1411	ст.   213   УК   России
+T40	Other-group 1672 1686	подозреваемого
+T41	Date-absolute 1692 1714	Ранее   ,   6   ноября
+A7	Past T41
+T42	GPE 1735 1744	Подольска
+T43	Organization 1721 1744	прокуратура   Подольска
+T44	Age 1800 1821	малолетнего   ребенка
+T45	Organization 1900 1903	МВД
+T46	GPE 1876 1888	подмосковном
+A8	Adjective T46
+T47	Organization 1876 1903	подмосковном   главке   МВД
+A9	Department T47
+T48	Ordinal 1932 1936	33-м
+T49	Facility 1932 1975	33-м   км   трассы   М - 2   ``   Крым   ''
+T50	Date-relative 2065 2077	после   чего
+A10	Past T50
+T51	Law 1400 1411	УК   России
+T52	Law 1450 1473	ст.   222   УК   России
+T53	Law 1462 1473	УК   России
+T54	Date-relative 1692 1697	Ранее
+A6	Past T54
+T55	GPE 1966 1970	Крым
+T56	Ordinal 1394 1397	213
+T57	Ordinal 1456 1459	222
+T58	Organization 634 640	главка
+A11	Department T58
+T59	Date-absolute 935 952	В   ходе   обыска
+A12	Past T59
+A4	Past T29
+T17	Ordinal 1957 1958	2

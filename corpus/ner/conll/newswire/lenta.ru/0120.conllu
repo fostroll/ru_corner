@@ -5,8 +5,8 @@
 # text = Выжившую в ДТП россиянку сразу же сбила насмерть другая машина
 1	Выжившую	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
-3	ДТП	_	_	_	_	_	_	_	_
-4	россиянку	_	_	_	_	_	_	_	bratA1=T2:Citizenship|bratT2=Nationality
+3	ДТП	_	_	_	_	_	_	_	bratT41=Event
+4	россиянку	_	_	_	_	_	_	_	bratA1=T2:Citizenship|bratA13=T53:Female|bratT2=Nationality|bratT53=Person
 5	сразу	_	_	_	_	_	_	_	_
 6	же	_	_	_	_	_	_	_	_
 7	сбила	_	_	_	_	_	_	_	_
@@ -18,13 +18,13 @@
 # par_text = Жительница Стерлитамакского района Башкирии выжила в ДТП, после чего ее сразу же сбила насмерть другая машина. Об этом сообщили в пресс-службе ГИБДД республики, передает UFA1.RU.
 # sent_id = 0120-p2-s1
 # text = Жительница Стерлитамакского района Башкирии выжила в ДТП, после чего ее сразу же сбила насмерть другая машина.
-1	Жительница	_	_	_	_	_	_	_	bratA11=T24:Resident|bratT24=Nationality
-2	Стерлитамакского	_	_	_	_	_	_	_	bratA11=T24:Resident|bratT24=Nationality|bratT3=GPE
-3	района	_	_	_	_	_	_	_	bratA11=T24:Resident|bratT24=Nationality|bratT3=GPE
-4	Башкирии	_	_	_	_	_	_	_	bratA11=T24:Resident|bratT13=GPE|bratT24=Nationality|bratT3=GPE
+1	Жительница	_	_	_	_	_	_	_	bratA11=T24:Resident|bratA14=T54:Female|bratT24=Nationality|bratT54=Person
+2	Стерлитамакского	_	_	_	_	_	_	_	bratA11=T24:Resident|bratA14=T54:Female|bratT24=Nationality|bratT3=GPE|bratT54=Person
+3	района	_	_	_	_	_	_	_	bratA11=T24:Resident|bratA14=T54:Female|bratT24=Nationality|bratT3=GPE|bratT54=Person
+4	Башкирии	_	_	_	_	_	_	_	bratA11=T24:Resident|bratA14=T54:Female|bratT13=GPE|bratT24=Nationality|bratT3=GPE|bratT54=Person
 5	выжила	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	ДТП	_	_	_	_	_	_	_	SpaceAfter=No
+7	ДТП	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
 8	,	_	_	_	_	_	_	_	_
 9	после	_	_	_	_	_	_	_	bratA9=T20:Past|bratT20=Date-relative
 10	чего	_	_	_	_	_	_	_	bratA9=T20:Past|bratT20=Date-relative
@@ -48,8 +48,12 @@
 7	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Department|bratT5=Organization|bratT6=Organization
 8	,	_	_	_	_	_	_	_	_
 9	передает	_	_	_	_	_	_	_	_
-10	UFA1.RU	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Media|bratT7=Organization
-11	.	_	_	_	_	_	_	_	_
+10-13	UFA1.RU	_	_	_	_	_	_	_	SpaceAfter=No
+10	UFA	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Media|bratT66=Web-address|bratT7=Organization
+11	1	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Media|bratT55=Ordinal|bratT66=Web-address|bratT7=Organization
+12	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Media|bratT66=Web-address|bratT7=Organization
+13	RU	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Media|bratT66=Web-address|bratT7=Organization
+14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p3
 # par_text = По данным ведомства, около 20:00 25 ноября на 142-м километре трассы Уфа — Оренбург произошло две аварии. В первом случае столкнулись Mitsubishi Lancer и Lada Vesta, в другом — Kia Rio и Skoda Fabia.
@@ -72,7 +76,7 @@
 15	Оренбург	_	_	_	_	_	_	_	bratT11=Facility
 16	произошло	_	_	_	_	_	_	_	_
 17	две	_	_	_	_	_	_	_	bratT12=Quantity
-18	аварии	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Quantity
+18	аварии	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Quantity|bratT43=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p3-s2
@@ -101,8 +105,8 @@
 # par_text = Пассажирка Mitsubishi вышла на проезжую часть, и в этот момент в нее на скорости влетел автомобиль ВАЗ-2114. Из-за сильного удара россиянка погибла на месте.
 # sent_id = 0120-p4-s1
 # text = Пассажирка Mitsubishi вышла на проезжую часть, и в этот момент в нее на скорости влетел автомобиль ВАЗ-2114.
-1	Пассажирка	_	_	_	_	_	_	_	_
-2	Mitsubishi	_	_	_	_	_	_	_	bratT14=Product
+1	Пассажирка	_	_	_	_	_	_	_	bratA15=T56:Female|bratT56=Person
+2	Mitsubishi	_	_	_	_	_	_	_	bratA15=T56:Female|bratT14=Product|bratT56=Person
 3	вышла	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	проезжую	_	_	_	_	_	_	_	_
@@ -118,15 +122,18 @@
 15	скорости	_	_	_	_	_	_	_	_
 16	влетел	_	_	_	_	_	_	_	_
 17	автомобиль	_	_	_	_	_	_	_	bratT15=Product
-18	ВАЗ-2114	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
-19	.	_	_	_	_	_	_	_	_
+18-20	ВАЗ-2114	_	_	_	_	_	_	_	SpaceAfter=No
+18	ВАЗ	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
+19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product
+20	2114	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Product|bratT50=Cardinal
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p4-s2
 # text = Из-за сильного удара россиянка погибла на месте.
 1	Из-за	_	_	_	_	_	_	_	_
 2	сильного	_	_	_	_	_	_	_	_
 3	удара	_	_	_	_	_	_	_	_
-4	россиянка	_	_	_	_	_	_	_	bratA3=T16:Citizenship|bratT16=Nationality
+4	россиянка	_	_	_	_	_	_	_	bratA16=T57:Female|bratA3=T16:Citizenship|bratT16=Nationality|bratT57=Person
 5	погибла	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	месте	_	_	_	_	_	_	_	SpaceAfter=No
@@ -139,13 +146,13 @@
 1	В	_	_	_	_	_	_	_	bratA7=T17:Past|bratT17=Date-absolute
 2	октябре	_	_	_	_	_	_	_	bratA7=T17:Past|bratT17=Date-absolute
 3	пьяный	_	_	_	_	_	_	_	_
-4	житель	_	_	_	_	_	_	_	bratA12=T29:Resident|bratT29=Nationality
-5	Башкирии	_	_	_	_	_	_	_	bratA12=T29:Resident|bratT18=GPE|bratT29=Nationality
+4	житель	_	_	_	_	_	_	_	bratA12=T29:Resident|bratA17=T58:Male|bratT29=Nationality|bratT58=Person
+5	Башкирии	_	_	_	_	_	_	_	bratA12=T29:Resident|bratA17=T58:Male|bratT18=GPE|bratT29=Nationality|bratT58=Person
 6	без	_	_	_	_	_	_	_	_
 7	водительских	_	_	_	_	_	_	_	_
 8	прав	_	_	_	_	_	_	_	_
 9	сбил	_	_	_	_	_	_	_	_
-10	пенсионера	_	_	_	_	_	_	_	_
+10	пенсионера	_	_	_	_	_	_	_	bratA18=T59:Male|bratT59=Person
 11	и	_	_	_	_	_	_	_	_
 12	спрятал	_	_	_	_	_	_	_	_
 13	у	_	_	_	_	_	_	_	_
@@ -155,7 +162,7 @@
 
 # sent_id = 0120-p5-s2
 # text = Авария произошла на Октябрьской улице в деревне Константиновка.
-1	Авария	_	_	_	_	_	_	_	_
+1	Авария	_	_	_	_	_	_	_	bratT44=Event
 2	произошла	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	bratT21=Facility
 4	Октябрьской	_	_	_	_	_	_	_	bratT21=Facility
@@ -169,11 +176,11 @@
 # text = Как рассказал очевидец, россиянин посадил пешехода в автомобиль и уехал с ним с места ДТП.
 1	Как	_	_	_	_	_	_	_	_
 2	рассказал	_	_	_	_	_	_	_	_
-3	очевидец	_	_	_	_	_	_	_	SpaceAfter=No
+3	очевидец	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T60:Male|bratT60=Person
 4	,	_	_	_	_	_	_	_	_
-5	россиянин	_	_	_	_	_	_	_	bratA4=T23:Citizenship|bratT23=Nationality
+5	россиянин	_	_	_	_	_	_	_	bratA20=T61:Male|bratA4=T23:Citizenship|bratT23=Nationality|bratT61=Person
 6	посадил	_	_	_	_	_	_	_	_
-7	пешехода	_	_	_	_	_	_	_	_
+7	пешехода	_	_	_	_	_	_	_	bratA21=T62:Male|bratT62=Person
 8	в	_	_	_	_	_	_	_	_
 9	автомобиль	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
@@ -182,7 +189,7 @@
 13	ним	_	_	_	_	_	_	_	_
 14	с	_	_	_	_	_	_	_	_
 15	места	_	_	_	_	_	_	_	_
-16	ДТП	_	_	_	_	_	_	_	SpaceAfter=No
+16	ДТП	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Event
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p6
@@ -190,8 +197,8 @@
 # sent_id = 0120-p6-s1
 # text = Позднее сотрудники ГИБДД обнаружили в одной из квартир на улице Молодежной труп мужчины.
 1	Позднее	_	_	_	_	_	_	_	bratA10=T19:Past|bratT19=Date-relative
-2	сотрудники	_	_	_	_	_	_	_	bratT28=Person-property
-3	ГИБДД	_	_	_	_	_	_	_	bratT25=Organization|bratT28=Person-property
+2	сотрудники	_	_	_	_	_	_	_	bratT28=Person-property|bratT48=Person
+3	ГИБДД	_	_	_	_	_	_	_	bratT25=Organization|bratT28=Person-property|bratT48=Person
 4	обнаружили	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	одной	_	_	_	_	_	_	_	_
@@ -201,7 +208,7 @@
 10	улице	_	_	_	_	_	_	_	bratT26=Facility
 11	Молодежной	_	_	_	_	_	_	_	bratT26=Facility
 12	труп	_	_	_	_	_	_	_	_
-13	мужчины	_	_	_	_	_	_	_	SpaceAfter=No
+13	мужчины	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T63:Male|bratT63=Person
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p6-s2
@@ -209,16 +216,16 @@
 1	Там	_	_	_	_	_	_	_	_
 2	же	_	_	_	_	_	_	_	_
 3	находились	_	_	_	_	_	_	_	_
-4	двое	_	_	_	_	_	_	_	bratT27=Quantity
-5	знакомых	_	_	_	_	_	_	_	bratT27=Quantity
-6	водителя	_	_	_	_	_	_	_	bratT31=Person-property
+4	двое	_	_	_	_	_	_	_	bratT27=Quantity|bratT51=Person
+5	знакомых	_	_	_	_	_	_	_	bratT27=Quantity|bratT51=Person
+6	водителя	_	_	_	_	_	_	_	bratA25=T49:Male|bratT31=Other-group|bratT49=Person|bratT51=Person
 7	-	_	_	_	_	_	_	_	_
 8	они	_	_	_	_	_	_	_	_
 9	рассказали	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
 12	совершили	_	_	_	_	_	_	_	_
-13	аварию	_	_	_	_	_	_	_	_
+13	аварию	_	_	_	_	_	_	_	bratT46=Event
 14	и	_	_	_	_	_	_	_	_
 15	скрылись	_	_	_	_	_	_	_	SpaceAfter=No
 16	.	_	_	_	_	_	_	_	_
@@ -226,17 +233,20 @@
 # sent_id = 0120-p6-s3
 # text = Машину ВАЗ-21099 они спрятали в лесу в трех километрах от деревни.
 1	Машину	_	_	_	_	_	_	_	bratT30=Product
-2	ВАЗ-21099	_	_	_	_	_	_	_	bratT30=Product
-3	они	_	_	_	_	_	_	_	_
-4	спрятали	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	_
-6	лесу	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	bratT32=Quantity
-8	трех	_	_	_	_	_	_	_	bratT32=Quantity
-9	километрах	_	_	_	_	_	_	_	bratT32=Quantity
-10	от	_	_	_	_	_	_	_	bratT32=Quantity
-11	деревни	_	_	_	_	_	_	_	SpaceAfter=No
-12	.	_	_	_	_	_	_	_	_
+2-4	ВАЗ-21099	_	_	_	_	_	_	_	_
+2	ВАЗ	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Product
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Product
+4	21099	_	_	_	_	_	_	_	bratT30=Product|bratT52=Cardinal
+5	они	_	_	_	_	_	_	_	_
+6	спрятали	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	лесу	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	bratT32=Quantity
+10	трех	_	_	_	_	_	_	_	bratT32=Quantity
+11	километрах	_	_	_	_	_	_	_	bratT32=Quantity
+12	от	_	_	_	_	_	_	_	bratT32=Quantity
+13	деревни	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p6-s4
 # text = По предварительным данным, 60-летний мужчина шел по краю проезжей части в попутном направлении.
@@ -245,7 +255,7 @@
 3	данным	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	60-летний	_	_	_	_	_	_	_	bratT33=Age
-6	мужчина	_	_	_	_	_	_	_	_
+6	мужчина	_	_	_	_	_	_	_	bratA23=T64:Male|bratT64=Person
 7	шел	_	_	_	_	_	_	_	_
 8	по	_	_	_	_	_	_	_	_
 9	краю	_	_	_	_	_	_	_	_
@@ -273,7 +283,7 @@
 13	уже	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
 15	квартире	_	_	_	_	_	_	_	_
-16	водителя	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property
+16	водителя	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T35:Male|bratT35=Person|bratT65=Other-group
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p6-s6
@@ -281,6 +291,6 @@
 1	В	_	_	_	_	_	_	_	_
 2	ГИБДД	_	_	_	_	_	_	_	bratT34=Organization
 3	начали	_	_	_	_	_	_	_	_
-4	проверку	_	_	_	_	_	_	_	SpaceAfter=No
+4	проверку	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event
 5	.	_	_	_	_	_	_	_	_
 

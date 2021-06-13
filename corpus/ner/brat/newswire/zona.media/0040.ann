@@ -1,0 +1,42 @@
+T1	Person-property 0 26	Петербургского   активиста
+T2	GPE 0 14	Петербургского
+A1	Adjective T2
+T3	Date-period-relative 42 56	на   5   суток
+T4	Duration 47 56	5   суток
+T5	Date-absolute 64 75	февральский
+T8	Organization 325 344	Апология   протеста
+A2	Media T8
+T9	Date-period-relative 191 208	на   пять   суток
+T10	Organization 135 176	Октябрьский   районный   суд   Петербурга
+T11	GPE 166 176	Петербурга
+T12	GPE 135 157	Октябрьский   районный
+A3	Adjective T12
+T13	Duration 196 208	пять   суток
+T14	Person 211 239	активиста   Павла   Иванкина
+A4	Male T14
+T15	Person-property 211 220	активиста
+T16	Person-forename 223 228	Павла
+T17	Person-surname 231 239	Иванкина
+T18	Date-absolute 355 366	В   феврале
+A5	Past T18
+T19	Person 369 376	Иванкин
+A6	Male T19
+T20	Person-surname 369 376	Иванкин
+T21	Date-period-absolute 504 518	уже   20   лет
+A7	Past-Pres T21
+T26	Person-property 534 543	активиста
+T27	Law 574 606	части   8   статьи   20.2   КоАП
+T28	Person-property 674 685	Полицейские
+T29	Person-property 849 863	правозащитники
+T6	Law 122 133	Конституцию
+T7	Law 291 302	Конституцию
+T30	Law 441 452	Конституцию
+A9	Past-UNK T3
+A10	Past T5
+A11	Past-UNK T9
+T31	Event 78 95	одиночный   пикет
+T32	Event 247 284	одиночный   пикет   против   поправок
+A12	RCont T21
+T33	Ordinal 582 583	8
+T34	Ordinal 595 599	20.2
+T35	Law 602 606	КоАП

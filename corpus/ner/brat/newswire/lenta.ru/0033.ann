@@ -1,56 +1,56 @@
-T1	Person-property 0 32	Ведущая   ``   Дома   -   2   ''
-T2	Work-of-art 10 32	``   Дома   -   2   ''
-T5	Person-property 87 132	Ведущая   реалити-шоу   ``   Дом   -   2   ''
-T6	Work-of-art 97 132	реалити-шоу   ``   Дом   -   2   ''
-T7	Person 87 152	Ведущая   реалити-шоу   ``   Дом   -   2   ''   Ксения   Бородина
-T8	Service 167 185	Instagram-аккаунте
-T11	Person 292 300	Бородина
-T18	Person 803 812	Бородиной
-T19	Person 856 862	Маруси
-T20	Person-property 881 892	телеведущей
-T22	Person 1032 1040	Бородина
-T23	Person 1358 1366	Бородина
-T24	Person-property 501 512	телеведущей
-T3	Person 380 387	Марусей
-T4	Person 394 400	Теоной
-T9	Family 65 71	матери
-T10	Family 78 85	бабушки
-T12	Family 269 273	мать
-T13	Family 280 287	бабушка
-T14	Quantity 357 373	двумя   дочерьми
-T15	Family 365 373	дочерьми
-T25	Family 328 341	родственницам
-T26	Family 904 918	младшая   дочь
-T27	Family 1020 1026	сестры
-T28	Family 1079 1085	матери
-T29	Family 1092 1099	бабушке
-T30	Family 824 831	дочерей
-T31	Family 571 578	бабушка
-T32	Family 553 557	мать
-T33	Person 548 564	ее   мать   Инна
-T34	Person 571 587	бабушка   Галина
-T16	Person 899 926	ее   младшая   дочь   Теона
+T1	Person-property 0 28	Ведущая   ``   Дома - 2   ''
+T2	Work-of-art 10 28	``   Дома - 2   ''
+T5	Person-property 83 124	Ведущая   реалити-шоу   ``   Дом - 2   ''
+T6	Work-of-art 93 124	реалити-шоу   ``   Дом - 2   ''
+T7	Person 83 144	Ведущая   реалити-шоу   ``   Дом - 2   ''   Ксения   Бородина
+T8	Service 159 177	Instagram-аккаунте
+T11	Person 284 292	Бородина
+T18	Person 795 804	Бородиной
+T19	Person 848 854	Маруси
+T20	Person-property 873 884	телеведущей
+T22	Person 1024 1032	Бородина
+T23	Person 1350 1358	Бородина
+T24	Person-property 493 504	телеведущей
+T3	Person 372 379	Марусей
+T4	Person 386 392	Теоной
+T9	Family 61 67	матери
+T10	Family 74 81	бабушки
+T12	Family 261 265	мать
+T13	Family 272 279	бабушка
+T14	Quantity 349 365	двумя   дочерьми
+T15	Family 357 365	дочерьми
+T25	Family 320 333	родственницам
+T26	Family 896 910	младшая   дочь
+T27	Family 1012 1018	сестры
+T28	Family 1071 1077	матери
+T29	Family 1084 1091	бабушке
+T30	Family 816 823	дочерей
+T31	Family 563 570	бабушка
+T32	Family 545 549	мать
+T33	Person 545 556	мать   Инна
+T34	Person 563 579	бабушка   Галина
+T16	Person 891 918	ее   младшая   дочь   Теона
 A1	Media T8
-T17	Date-absolute 228 249	в   настоящее   время
-T21	Date-absolute 1381 1404	несколько   лет   назад
-T35	Date-relative 1252 1257	позже
-T36	Duration 1381 1396	несколько   лет
+T17	Date-absolute 220 241	в   настоящее   время
+T21	Date-absolute 1373 1396	несколько   лет   назад
+T35	Date-relative 1244 1249	позже
+T36	Duration 1373 1388	несколько   лет
 A2	Present T17
 A3	Past T21
 A4	Past T35
-T37	Person-forename 135 141	Ксения
-T38	Person-surname 144 152	Бородина
-T39	Person-surname 292 300	Бородина
-T40	Person-forename 380 387	Марусей
-T41	Person-forename 394 400	Теоной
-T42	Person-forename 560 563	Инн
-T43	Person-forename 581 587	Галина
-T44	Person-surname 803 812	Бородиной
-T45	Person-forename 856 862	Маруси
-T46	Person-forename 921 926	Теона
-T47	Person-surname 1032 1040	Бородина
-T48	Person-surname 1358 1366	Бородина
-T49	Ordinal 232 241	настоящее
+T37	Person-forename 127 133	Ксения
+T38	Person-surname 136 144	Бородина
+T39	Person-surname 284 292	Бородина
+T40	Person-forename 372 379	Марусей
+T41	Person-forename 386 392	Теоной
+T42	Person-forename 552 555	Инн
+T43	Person-forename 573 579	Галина
+T44	Person-surname 795 804	Бородиной
+T45	Person-forename 848 854	Маруси
+T46	Person-forename 913 918	Теона
+T47	Person-surname 1024 1032	Бородина
+T48	Person-surname 1350 1358	Бородина
+T49	Ordinal 224 233	настоящее
 A5	Female T7
 A6	Female T11
 A7	Female T3
@@ -61,7 +61,44 @@ A11	Female T18
 A12	Female T16
 A13	Female T22
 A14	Female T23
-T50	Ordinal 26 27	2
-T52	Ordinal 126 127	2
-T51	Person 819 831	ее   дочерей
+T50	Ordinal 22 23	2
+T52	Ordinal 118 119	2
+T51	Person 811 823	ее   дочерей
 A15	Female T51
+T53	Person 0 28	Ведущая   ``   Дома - 2   ''
+A16	Female T53
+T54	Person 53 81	своей   матери   и   бабушки
+A17	Plural T54
+A18	Female T54
+T55	Person 493 504	телеведущей
+A19	Female T55
+T56	Person 540 579	ее   мать   Инна   и   бабушка   Галина
+A20	Plural T56
+A21	Female T56
+T57	Person 873 884	телеведущей
+A22	Female T57
+T58	Person 61 67	матери
+A23	Female T58
+T59	Person 74 81	бабушки
+A24	Female T59
+T60	Person 256 279	ее   мать   и   бабушка
+A25	Plural T60
+A26	Female T60
+T61	Person 261 265	мать
+A27	Female T61
+T62	Person 272 279	бабушка
+A28	Female T62
+T63	Person 320 333	родственницам
+T64	Person 349 392	двумя   дочерьми   -   Марусей   и   Теоной
+A29	Plural T64
+A30	Female T64
+T65	Person 1012 1018	сестры
+A31	Female T65
+T66	Person 1048 1057	девочками
+A32	Female T66
+T67	Person 1071 1077	матери
+A33	Female T67
+T68	Person 1084 1091	бабушке
+A34	Female T68
+T69	Person 1189 1198	женщинами
+A35	Female T69

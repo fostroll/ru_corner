@@ -40,12 +40,15 @@
 8	предварительные	_	_	_	_	_	_	_	_
 9	данные	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA3=T8:Media|bratT8=Organization
-11	Дом.РФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT8=Organization
-12	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA3=T8:Media|bratT8=Organization
-13	и	_	_	_	_	_	_	_	_
-14	Frank	_	_	_	_	_	_	_	bratA4=T9:Media|bratT9=Organization
-15	RG	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Media|bratT9=Organization
-16	.	_	_	_	_	_	_	_	_
+11-13	Дом.РФ	_	_	_	_	_	_	_	SpaceAfter=No
+11	Дом	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT33=Web-address|bratT8=Organization
+12	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT33=Web-address|bratT8=Organization
+13	РФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT33=Web-address|bratT8=Organization
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA3=T8:Media|bratT8=Organization
+15	и	_	_	_	_	_	_	_	_
+16	Frank	_	_	_	_	_	_	_	bratA4=T9:Media|bratT9=Organization
+17	RG	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Media|bratT9=Organization
+18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0015-p3
 # par_text = Отмечается, что это больше, чем было выдано в течение 2018 года, который является рекордным для ипотечного рынка страны. Тогда жители России взяли кредитов на 3,01 триллиона рублей. В прошлом году объем выданных ссуд составил 2,85 триллиона.
@@ -76,7 +79,7 @@
 
 # sent_id = 0015-p3-s2
 # text = Тогда жители России взяли кредитов на 3,01 триллиона рублей.
-1	Тогда	_	_	_	_	_	_	_	_
+1	Тогда	_	_	_	_	_	_	_	bratA17=T31:Past|bratT31=Date-relative
 2	жители	_	_	_	_	_	_	_	bratA16=T29:Resident|bratT29=Nationality
 3	России	_	_	_	_	_	_	_	bratA16=T29:Resident|bratT29=Nationality|bratT5=GPE
 4	взяли	_	_	_	_	_	_	_	_
@@ -106,7 +109,7 @@
 # text = По данным экспертов, в октябре 2020-го жилищных кредитов было выдано на сумму 550 миллиардов рублей, что также является рекордом.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property
+3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property|bratT32=Person
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA12=T15:Past|bratT15=Date-period-absolute
 6	октябре	_	_	_	_	_	_	_	bratA12=T15:Past|bratT15=Date-period-absolute
@@ -191,26 +194,29 @@
 1	По	_	_	_	_	_	_	_	_
 2	прогнозам	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA5=T24:Media|bratT24=Organization
-4	Дом.РФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Media|bratT24=Organization
-5	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA5=T24:Media|bratT24=Organization
-6	,	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	_
-8	целом	_	_	_	_	_	_	_	_
-9	за	_	_	_	_	_	_	_	bratA7=T25:Past-Fut|bratT25=Date-period-absolute
-10	текущий	_	_	_	_	_	_	_	bratA7=T25:Past-Fut|bratT25=Date-period-absolute|bratT36=Ordinal
-11	год	_	_	_	_	_	_	_	bratA7=T25:Past-Fut|bratT25=Date-period-absolute
-12	может	_	_	_	_	_	_	_	_
-13	быть	_	_	_	_	_	_	_	_
-14	выдано	_	_	_	_	_	_	_	_
-15	более	_	_	_	_	_	_	_	bratT26=Quantity
-16	1,5	_	_	_	_	_	_	_	bratT26=Quantity
-17	миллиона	_	_	_	_	_	_	_	bratT26=Quantity
-18	кредитов	_	_	_	_	_	_	_	bratT26=Quantity
-19	на	_	_	_	_	_	_	_	_
-20	сумму	_	_	_	_	_	_	_	_
-21	около	_	_	_	_	_	_	_	bratT27=Money
-22	3,7	_	_	_	_	_	_	_	bratT27=Money
-23	триллиона	_	_	_	_	_	_	_	bratT27=Money
-24	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Money
-25	.	_	_	_	_	_	_	_	_
+4-6	Дом.РФ	_	_	_	_	_	_	_	SpaceAfter=No
+4	Дом	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Media|bratT24=Organization|bratT37=Web-address
+5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Media|bratT24=Organization|bratT37=Web-address
+6	РФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Media|bratT24=Organization|bratT37=Web-address
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA5=T24:Media|bratT24=Organization
+8	,	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	целом	_	_	_	_	_	_	_	_
+11	за	_	_	_	_	_	_	_	bratA7=T25:Past-Fut|bratT25=Date-period-absolute
+12	текущий	_	_	_	_	_	_	_	bratA7=T25:Past-Fut|bratT25=Date-period-absolute|bratT36=Ordinal
+13	год	_	_	_	_	_	_	_	bratA7=T25:Past-Fut|bratT25=Date-period-absolute
+14	может	_	_	_	_	_	_	_	_
+15	быть	_	_	_	_	_	_	_	_
+16	выдано	_	_	_	_	_	_	_	_
+17	более	_	_	_	_	_	_	_	bratT26=Quantity
+18	1,5	_	_	_	_	_	_	_	bratT26=Quantity
+19	миллиона	_	_	_	_	_	_	_	bratT26=Quantity
+20	кредитов	_	_	_	_	_	_	_	bratT26=Quantity
+21	на	_	_	_	_	_	_	_	_
+22	сумму	_	_	_	_	_	_	_	_
+23	около	_	_	_	_	_	_	_	bratT27=Money
+24	3,7	_	_	_	_	_	_	_	bratT27=Money
+25	триллиона	_	_	_	_	_	_	_	bratT27=Money
+26	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Money
+27	.	_	_	_	_	_	_	_	_
 

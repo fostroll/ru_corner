@@ -1,0 +1,172 @@
+# newdoc id = 0038
+# newpar id = 0038-p1
+# par_text = Церемония прощания с Джигарханяном пройдет в открытом формате
+# sent_id = 0038-p1-s1
+# text = Церемония прощания с Джигарханяном пройдет в открытом формате
+1	Церемония	_	_	_	_	_	_	_	bratT1=Event
+2	прощания	_	_	_	_	_	_	_	bratT1=Event
+3	с	_	_	_	_	_	_	_	bratT1=Event
+4	Джигарханяном	_	_	_	_	_	_	_	bratA3=T2:Male|bratT1=Event|bratT2=Person|bratT36=Person-surname
+5	пройдет	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	открытом	_	_	_	_	_	_	_	_
+8	формате	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p2
+# par_text = Прощание c Арменом Джигарханяном пройдет в открытом формате. Об этом РБК сообщил друг артиста Артур Согомонян.
+# sent_id = 0038-p2-s1
+# text = Прощание c Арменом Джигарханяном пройдет в открытом формате.
+1	Прощание	_	_	_	_	_	_	_	bratT3=Event
+2	c	_	_	_	_	_	_	_	bratT3=Event
+3	Арменом	_	_	_	_	_	_	_	bratA4=T4:Male|bratT3=Event|bratT37=Person-forename|bratT4=Person
+4	Джигарханяном	_	_	_	_	_	_	_	bratA4=T4:Male|bratT3=Event|bratT38=Person-surname|bratT4=Person
+5	пройдет	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	открытом	_	_	_	_	_	_	_	_
+8	формате	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0038-p2-s2
+# text = Об этом РБК сообщил друг артиста Артур Согомонян.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	РБК	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
+4	сообщил	_	_	_	_	_	_	_	_
+5	друг	_	_	_	_	_	_	_	_
+6	артиста	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT7=Person-property
+7	Артур	_	_	_	_	_	_	_	bratA5=T6:Male|bratT39=Person-forename|bratT6=Person
+8	Согомонян	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T6:Male|bratT40=Person-surname|bratT6=Person
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p3
+# par_text = «Прощание пройдет в открытом формате со всеми мерами предосторожности, с масками и социальной дистанцией в театре Армена Джигарханяна», — сказал Согомонян. Он добавил, что церемония пройдет 17 ноября с 12:00 до 14:00.
+# sent_id = 0038-p3-s1
+# text = ``Прощание пройдет в открытом формате со всеми мерами предосторожности, с масками и социальной дистанцией в театре Армена Джигарханяна'', - сказал Согомонян.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Прощание	_	_	_	_	_	_	_	_
+3	пройдет	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	открытом	_	_	_	_	_	_	_	_
+6	формате	_	_	_	_	_	_	_	_
+7	со	_	_	_	_	_	_	_	_
+8	всеми	_	_	_	_	_	_	_	_
+9	мерами	_	_	_	_	_	_	_	_
+10	предосторожности	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	с	_	_	_	_	_	_	_	_
+13	масками	_	_	_	_	_	_	_	_
+14	и	_	_	_	_	_	_	_	_
+15	социальной	_	_	_	_	_	_	_	_
+16	дистанцией	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	театре	_	_	_	_	_	_	_	bratT8=Organization
+19	Армена	_	_	_	_	_	_	_	bratA6=T9:Male|bratT41=Person-forename|bratT8=Organization|bratT9=Person
+20	Джигарханяна	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T9:Male|bratT42=Person-surname|bratT8=Organization|bratT9=Person
+21	''	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	-	_	_	_	_	_	_	_	_
+24	сказал	_	_	_	_	_	_	_	_
+25	Согомонян	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T10:Male|bratT10=Person|bratT43=Person-surname
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0038-p3-s2
+# text = Он добавил, что церемония пройдет 17 ноября с 12:00 до 14:00.
+1	Он	_	_	_	_	_	_	_	_
+2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	церемония	_	_	_	_	_	_	_	_
+6	пройдет	_	_	_	_	_	_	_	_
+7	17	_	_	_	_	_	_	_	bratA8=T11:Fut|bratT11=Date-period-absolute
+8	ноября	_	_	_	_	_	_	_	bratA8=T11:Fut|bratT11=Date-period-absolute
+9	с	_	_	_	_	_	_	_	bratA8=T11:Fut|bratT11=Date-period-absolute|bratT12=Time-period
+10	12:00	_	_	_	_	_	_	_	bratA8=T11:Fut|bratT11=Date-period-absolute|bratT12=Time-period
+11	до	_	_	_	_	_	_	_	bratA8=T11:Fut|bratT11=Date-period-absolute|bratT12=Time-period
+12	14:00	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T11:Fut|bratT11=Date-period-absolute|bratT12=Time-period
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p4
+# par_text = Ранее Согомонян сообщил РБК, что похороны артиста состоятся 17 ноября на Ваганьковском кладбище, где похоронена его дочь.
+# sent_id = 0038-p4-s1
+# text = Ранее Согомонян сообщил РБК, что похороны артиста состоятся 17 ноября на Ваганьковском кладбище, где похоронена его дочь.
+1	Ранее	_	_	_	_	_	_	_	bratA16=T54:Past|bratT54=Date-relative
+2	Согомонян	_	_	_	_	_	_	_	bratA9=T13:Male|bratT13=Person|bratT44=Person-surname
+3	сообщил	_	_	_	_	_	_	_	_
+4	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T14:Media|bratT14=Organization
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	похороны	_	_	_	_	_	_	_	bratT15=Event
+8	артиста	_	_	_	_	_	_	_	bratT15=Event|bratT16=Person-property
+9	состоятся	_	_	_	_	_	_	_	_
+10	17	_	_	_	_	_	_	_	bratA10=T17:Future|bratT17=Date-absolute
+11	ноября	_	_	_	_	_	_	_	bratA10=T17:Future|bratT17=Date-absolute
+12	на	_	_	_	_	_	_	_	_
+13	Ваганьковском	_	_	_	_	_	_	_	bratT18=Facility
+14	кладбище	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Facility
+15	,	_	_	_	_	_	_	_	_
+16	где	_	_	_	_	_	_	_	_
+17	похоронена	_	_	_	_	_	_	_	_
+18	его	_	_	_	_	_	_	_	bratA11=T45:Female|bratT45=Person
+19	дочь	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T45:Female|bratT19=Family|bratT45=Person
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p5
+# par_text = Джигарханян умер утром 14 ноября на 86-м году жизни. Предварительной причиной смерти стала остановка сердца.
+# sent_id = 0038-p5-s1
+# text = Джигарханян умер утром 14 ноября на 86-м году жизни.
+1	Джигарханян	_	_	_	_	_	_	_	bratT20=Person|bratT46=Person-surname
+2	умер	_	_	_	_	_	_	_	_
+3	утром	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute|bratT22=Time-absolute
+4	14	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+5	ноября	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+6	на	_	_	_	_	_	_	_	bratT23=Age
+7	86-м	_	_	_	_	_	_	_	bratT23=Age|bratT55=Ordinal
+8	году	_	_	_	_	_	_	_	bratT23=Age
+9	жизни	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Age
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0038-p5-s2
+# text = Предварительной причиной смерти стала остановка сердца.
+1	Предварительной	_	_	_	_	_	_	_	_
+2	причиной	_	_	_	_	_	_	_	_
+3	смерти	_	_	_	_	_	_	_	bratT47=Event
+4	стала	_	_	_	_	_	_	_	_
+5	остановка	_	_	_	_	_	_	_	_
+6	сердца	_	_	_	_	_	_	_	SpaceAfter=No
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p6
+# par_text = Соболезнования в связи со смертью артиста выразили президент России Владимир Путин, премьер-министр Армении Никол Пашинян, мэр Москвы Сергей Собянин, а также актеры, работавшие с ним.
+# sent_id = 0038-p6-s1
+# text = Соболезнования в связи со смертью артиста выразили президент России Владимир Путин, премьер-министр Армении Никол Пашинян, мэр Москвы Сергей Собянин, а также актеры, работавшие с ним.
+1	Соболезнования	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	связи	_	_	_	_	_	_	_	_
+4	со	_	_	_	_	_	_	_	_
+5	смертью	_	_	_	_	_	_	_	bratT24=Event
+6	артиста	_	_	_	_	_	_	_	bratT24=Event|bratT35=Person-property
+7	выразили	_	_	_	_	_	_	_	_
+8	президент	_	_	_	_	_	_	_	bratA13=T25:Male|bratT25=Person|bratT26=Person-property
+9	России	_	_	_	_	_	_	_	bratA13=T25:Male|bratT25=Person|bratT26=Person-property|bratT27=GPE
+10	Владимир	_	_	_	_	_	_	_	bratA13=T25:Male|bratT25=Person|bratT48=Person-forename
+11	Путин	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T25:Male|bratT25=Person|bratT49=Person-surname
+12	,	_	_	_	_	_	_	_	_
+13	премьер-министр	_	_	_	_	_	_	_	bratA14=T28:Male|bratT28=Person|bratT29=Person-property
+14	Армении	_	_	_	_	_	_	_	bratA14=T28:Male|bratT28=Person|bratT29=Person-property|bratT30=GPE
+15	Никол	_	_	_	_	_	_	_	bratA14=T28:Male|bratT28=Person|bratT50=Person-forename
+16	Пашинян	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T28:Male|bratT28=Person|bratT51=Person-surname
+17	,	_	_	_	_	_	_	_	_
+18	мэр	_	_	_	_	_	_	_	bratA15=T31:Male|bratT31=Person|bratT32=Person-property
+19	Москвы	_	_	_	_	_	_	_	bratA15=T31:Male|bratT31=Person|bratT32=Person-property|bratT33=GPE
+20	Сергей	_	_	_	_	_	_	_	bratA15=T31:Male|bratT31=Person|bratT52=Person-forename
+21	Собянин	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T31:Male|bratT31=Person|bratT53=Person-surname
+22	,	_	_	_	_	_	_	_	_
+23	а	_	_	_	_	_	_	_	_
+24	также	_	_	_	_	_	_	_	_
+25	актеры	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property
+26	,	_	_	_	_	_	_	_	_
+27	работавшие	_	_	_	_	_	_	_	_
+28	с	_	_	_	_	_	_	_	_
+29	ним	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+

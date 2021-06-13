@@ -1,0 +1,51 @@
+T1	Person-forename 0 10	Константин
+T2	Person-surname 13 22	Богомолов
+T3	Person 0 22	Константин   Богомолов
+A1	Male T3
+T4	Person-forename 34 40	Ксению
+T5	Person-surname 43 49	Собчак
+T6	Person 34 49	Ксению   Собчак
+A2	Female T6
+T7	GPE 77 87	ангарского
+A3	Adjective T7
+T8	Person-property 77 97	ангарского   маньяка
+T9	Person-forename 157 164	Ксенией
+T10	Person-surname 167 173	Собчак
+T11	Person-forename 180 192	Константином
+T12	Person-surname 195 206	Богомоловым
+T13	Person 157 173	Ксенией   Собчак
+T14	Person 180 206	Константином   Богомоловым
+A5	Male T14
+A4	Female T13
+T15	Event 225 232	свадьбы
+T16	Date-absolute 209 261	в   день   их   свадьбы   в   пятницу   тринадцатого
+A6	Past T16
+T18	Ordinal 286 292	первой
+T19	Duration 489 495	неделя
+T20	Family 506 513	супруги
+T21	Service 595 615	видеосервиса   Start
+T22	Work-of-art 584 645	сериалом   видеосервиса   Start   ``   Хороший   человек   ''
+T23	Person-property 652 662	режиссером
+T24	Person-surname 688 697	Богомолов
+T25	Person 688 697	Богомолов
+A8	Male T25
+T26	Quantity 732 741	одну   из
+T27	Service 884 894	инстаграме
+T28	Other-group 866 877	подписчикам
+T30	Person-property 951 960	режиссера
+T31	GPE 1054 1064	ангарского
+A10	Adjective T31
+T32	Person-property 1054 1074	ангарского   маньяка
+T33	Person-forename 1122 1128	Никита
+T34	Person-forename 1145 1149	Юлия
+T35	Person-surname 1131 1138	Ефремов
+T36	Person-surname 1152 1159	Снигирь
+T37	Person 1122 1138	Никита   Ефремов
+A11	Male T37
+T38	Person 1145 1159	Юлия   Снигирь
+A12	Female T38
+T39	Date-period-absolute 481 495	всего   неделя
+T40	Event 454 469	дня   праздника
+A7	Past-Pres T39
+T17	Date-absolute 449 469	Со   дня   праздника
+A9	Past T17

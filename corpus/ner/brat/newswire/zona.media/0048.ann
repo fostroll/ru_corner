@@ -1,0 +1,83 @@
+T1	Person-property 0 37	Помощника   главы   Россельхознадзора
+T2	Organization 20 37	Россельхознадзора
+T4	Person-property 118 127	школьницы
+T5	Organization 129 166	Пресненский   районный   суд   Москвы
+T6	GPE 129 151	Пресненский   районный
+A1	Adjective T6
+T7	GPE 160 166	Москвы
+T8	Date-period-absolute 205 222	до   25   августа
+A2	Past-Fut T8
+T9	Person 235 293	помощника   главы   Россельхознадзора   Дмитрия   Натарова
+A3	Male T9
+T10	Person-property 235 272	помощника   главы   Россельхознадзора
+T11	Organization 255 272	Россельхознадзора
+T12	Person-forename 275 282	Дмитрия
+T13	Person-surname 285 293	Натарова
+T14	Age 325 334	13-летней
+T15	Organization 372 400	агентство   ``   Москва   ''
+A4	Media T15
+T16	Person 448 456	Натарова
+A5	Male T16
+T17	Person-surname 448 456	Натарова
+T18	Law 499 516	статья   290   УК
+T19	Age 607 625	несовершеннолетней
+T20	Law 632 649	статья   135   УК
+T21	Date-absolute 659 669	В   апреле
+A6	Past T21
+T22	Person 672 739	секретарь   генсовета   ``   Единой   России   ''   Андрей   Турчак
+A7	Male T22
+T23	Person-property 672 721	секретарь   генсовета   ``   Единой   России   ''
+T24	Organization 684 721	генсовета   ``   Единой   России   ''
+A8	Department T24
+T25	Organization 701 716	Единой   России
+T26	GPE 710 716	России
+T27	Person-forename 724 730	Андрей
+T28	Person-surname 733 739	Турчак
+T29	Person 753 800	главу   Россельхознадзора   Дмитрия   Патрушева
+A9	Male T29
+T30	Person-property 753 778	главу   Россельхознадзора
+T31	Organization 761 778	Россельхознадзора
+T32	Person-forename 781 788	Дмитрия
+T33	Person-surname 791 800	Патрушева
+T34	Person 813 821	Натарова
+A10	Male T34
+T35	Person-surname 813 821	Натарова
+T36	Age 862 880	несовершеннолетней
+T37	Date-relative 885 904	В   тот   же   день
+A11	Past T37
+T38	Person-property 907 944	помощника   главы   Россельхознадзора
+T39	Organization 927 944	Россельхознадзора
+T40	Organization 984 992	РЕН   ТВ
+A12	Media T40
+T41	Person 1015 1022	Натаров
+A13	Male T41
+T42	Person-surname 1015 1022	Натаров
+T43	Date-period-relative 1025 1055	в   течение   нескольких   лет
+A14	Past T43
+T44	Age 1070 1079	13-летнюю
+T45	Person-property 1082 1091	школьницу
+T46	Family 1115 1122	дочерью
+T48	Duration 1209 1212	год
+T49	Date-absolute 1201 1229	через   год   после   подачи
+T50	Organization 1248 1270	Следственный   комитет
+T51	Organization 1275 1283	РЕН   ТВ
+A16	Media T51
+T52	Person 1321 1328	Натаров
+A17	Male T52
+T53	Person-surname 1321 1328	Натаров
+T3	Age 106 115	13-летней
+T55	Date-relative 976 981	Ранее
+T57	Ordinal 508 511	290
+T58	Law 514 516	УК
+T59	Ordinal 641 644	135
+T60	Law 647 649	УК
+A19	Past T55
+T61	Duration 1039 1055	нескольких   лет
+A20	Past T49
+T62	Date-period-relative 1308 1318	до   этого
+A21	Past T62
+T63	Organization 423 442	пресс-службу   суда
+A22	Department T63
+T47	Event 58 74	домашний   арест
+T54	Event 186 202	домашний   арест
+T56	Person-property 961 970	должности

@@ -1,0 +1,57 @@
+T1	Person-property 0 4	Врач
+T2	Other-term 42 54	коронавируса
+T3	Other-term 56 81	Коронавирусная   инфекция
+T4	Person 149 224	директор   Института   диабета   НМИЦ   эндокринологии   Марина   Шестакова
+T5	Person-property 149 203	директор   Института   диабета   НМИЦ   эндокринологии
+T6	Organization 160 203	Института   диабета   НМИЦ   эндокринологии
+A1	Department T6
+T7	Organization 182 203	НМИЦ   эндокринологии
+T8	Organization 242 274	``   Комсомольская   правда   ''
+A2	Media T8
+T9	Person 294 304	Шестаковой
+T10	Other-term 425 435	COVID - 19
+T11	Other-term 512 526	SARS - CoV - 2
+T12	Other-term 642 666	диабета   первого   типа
+T13	Person 687 696	Шестакова
+T14	Ordinal 652 659	первого
+T15	Other-term 742 765	диабет   первого   типа
+T16	Ordinal 751 758	первого
+T17	Person-property 912 924	эндокринолог
+T18	Event 956 977	пандемии   COVID - 19
+T19	Other-term 1111 1135	диабета   второго   типа
+T20	Ordinal 1121 1128	второго
+T21	Person-property 1153 1158	медик
+T22	Other-term 1252 1262	COVID - 19
+T23	Other-term 1288 1314	коронавирусной   инфекцией
+T24	Person 1317 1326	Шестакова
+T25	Other-term 1522 1532	COVID - 19
+T26	Person 1445 1479	врач-терапевт   Филипп   Кузьменко
+T27	Person-property 1445 1458	врач-терапевт
+T28	Other-term 1750 1775	коронавирусной   инфекции
+T29	Other-term 311 322	коронавирус
+T30	Person-forename 206 212	Марина
+T31	Person-surname 215 224	Шестакова
+A3	Female T4
+T32	Person-surname 294 304	Шестаковой
+A4	Female T9
+T33	Person-surname 687 696	Шестакова
+A5	Female T13
+T34	Age 792 797	детей
+T35	Other-term 847 853	ангины
+T36	Other-term 860 870	скарлатины
+T37	Other-term 877 881	кори
+T38	Other-term 890 898	краснухи
+T39	Person-surname 1317 1326	Шестакова
+A6	Female T24
+T40	Date-relative 1437 1442	Ранее
+A7	Past T40
+T41	Person-forename 1461 1467	Филипп
+T42	Person-surname 1470 1479	Кузьменко
+A8	Male T26
+T43	Time-relative 804 809	после
+T44	Other-term 967 977	COVID - 19
+T45	Cardinal 433 435	19
+T46	Ordinal 525 526	2
+T48	Cardinal 975 977	19
+T49	Cardinal 1260 1262	19
+T50	Cardinal 1530 1532	19

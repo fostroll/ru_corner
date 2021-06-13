@@ -1,44 +1,50 @@
 T1	Organization 4 7	ВОЗ
-T2	Other-term 57 65	COVID-19
-T3	Quantity 573 613	больше   чем   один   первичный   случай
-T5	Organization 844 857	РИА   Новости
+T2	Other-term 57 67	COVID - 19
+T3	Quantity 577 617	больше   чем   один   первичный   случай
+T5	Organization 850 863	РИА   Новости
 A1	Media T5
-T6	Person 877 882	Райан
-T7	Other-term 1006 1014	COVID-19
-T8	GPE 1414 1419	Ухани
-T9	Person 1445 1450	Райан
-T10	Organization 1468 1471	ВОЗ
-T11	GPE 1501 1507	Европе
-T12	Date-absolute 1510 1534	в   начале   2021   года
-T13	Ordinal 1557 1563	третья
-T4	Other-term 765 781	вирус   COVID-19
-T14	Person-property 963 970	Эксперт
+T6	Person 883 888	Райан
+T7	Other-term 1012 1022	COVID - 19
+T8	GPE 1422 1427	Ухани
+T9	Person 1453 1458	Райан
+T10	Organization 1476 1479	ВОЗ
+T11	GPE 1509 1515	Европе
+T12	Date-absolute 1518 1542	в   начале   2021   года
+T13	Ordinal 1565 1571	третья
+T4	Other-term 769 787	вирус   COVID - 19
+T14	Person-property 969 976	Эксперт
 T15	Ordinal 32 41	первичных
-T16	Ordinal 447 457	первичного
-T17	Ordinal 595 604	первичный
-T18	Organization 91 132	Всемирной   организации   здравоохранения
-T19	Ordinal 187 196	первичных
-T20	Other-term 225 262	коронавирусной   инфекцией   COVID-19
-T21	Person-property 318 408	директор   программы   ВОЗ   по   чрезвычайным   ситуациям   в   области   здравоохранения
-T22	Product 329 408	программы   ВОЗ   по   чрезвычайным   ситуациям   в   области   здравоохранения
+T16	Ordinal 451 461	первичного
+T17	Ordinal 599 608	первичный
+T18	Organization 93 134	Всемирной   организации   здравоохранения
+T19	Ordinal 189 198	первичных
+T20	Other-term 227 266	коронавирусной   инфекцией   COVID - 19
+T21	Person-property 322 412	директор   программы   ВОЗ   по   чрезвычайным   ситуациям   в   области   здравоохранения
+T22	Product 333 412	программы   ВОЗ   по   чрезвычайным   ситуациям   в   области   здравоохранения
 A2	Project T22
-T23	Organization 341 344	ВОЗ
-T24	Person 318 424	директор   программы   ВОЗ   по   чрезвычайным   ситуациям   в   области   здравоохранения   Майкл   Райан
-T25	Quantity 175 206	несколько   первичных   случаев
-T26	Quantity 670 699	нескольких   видов   животных
-T27	Quantity 75 84	несколько
-T28	Date-relative 1456 1461	Ранее
-T29	Other-term 1574 1599	коронавирусной   инфекции
-T30	GPE 161 165	мире
+T23	Organization 345 348	ВОЗ
+T24	Person 322 428	директор   программы   ВОЗ   по   чрезвычайным   ситуациям   в   области   здравоохранения   Майкл   Райан
+T25	Quantity 177 208	несколько   первичных   случаев
+T26	Quantity 674 703	нескольких   видов   животных
+T27	Quantity 77 86	несколько
+T28	Date-relative 1464 1469	Ранее
+T29	Other-term 1582 1607	коронавирусной   инфекции
+T30	GPE 163 167	мире
 A3	Future T12
 A4	Past T28
-T31	Person-forename 411 416	Майкл
-T32	Person-surname 419 424	Райан
-T33	Person-surname 877 882	Райан
-T34	Person-surname 1445 1450	Райан
-T35	GPE 1613 1633	европейские   страны
+T31	Person-forename 415 420	Майкл
+T32	Person-surname 423 428	Райан
+T33	Person-surname 883 888	Райан
+T34	Person-surname 1453 1458	Райан
+T35	GPE 1621 1641	европейские   страны
 A5	Male T24
 A6	Male T6
 A7	Male T9
-T36	GPE 91 100	Всемирной
+T36	GPE 93 102	Всемирной
 A8	Adjective T36
+T37	Event 451 482	первичного   случая   заражения
+T38	Event 1271 1280	заражение
+T39	Cardinal 65 67	19
+T41	Cardinal 264 266	19
+T43	Cardinal 785 787	19
+T45	Cardinal 1020 1022	19

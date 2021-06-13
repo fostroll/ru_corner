@@ -1,0 +1,74 @@
+T1	Person 0 13	Даша   Жукова
+T2	Person 37 56	Ставроса   Ниархоса
+T3	Person 144 157	Даша   Жукова
+T4	Organization 253 264	Us   Weekly
+A1	Media T4
+T5	GPE 301 307	Париже
+T6	Person-property 310 377	основательница   музея   современного   искусства   ``   Гараж   ''
+T7	Organization 327 377	музея   современного   искусства   ``   Гараж   ''
+T8	Person 419 467	греческим   миллиардером   Ставросом   Ниархосом
+T9	Person-property 419 443	греческим   миллиардером
+T10	Person 638 665	журналист   Дерек   Басберг
+T11	Person-property 638 647	журналист
+T12	Person 672 693	актриса   Майя   Хоук
+T13	Person-property 672 679	актриса
+T14	Person 700 726	ювелир   Дженнифер   Мейер
+T15	Person-property 700 706	ювелир
+T16	Person-forename 768 772	Даша
+T17	Organization 905 916	Us   Weekly
+A2	Media T17
+T19	Person 1105 1112	Жуковой
+T20	Date-absolute 1115 1138	в   июне   этого   года
+T21	Date-absolute 1182 1205	в   конце   2017   года
+T22	Organization 1266 1277	Art   Basel
+T23	GPE 1284 1290	Майами
+A4	Female T1
+T24	Person-forename 0 4	Даша
+T25	Person-surname 7 13	Жукова
+A5	Male T2
+T26	Person-forename 37 45	Ставроса
+T27	Person-surname 48 56	Ниархоса
+A6	Female T3
+T28	Person-forename 144 148	Даша
+T29	Person-surname 151 157	Жукова
+A7	Male T8
+T30	Person-forename 446 455	Ставросом
+T31	Person-surname 458 467	Ниархосом
+A8	Male T10
+A9	Female T12
+A10	Female T14
+T32	Person-forename 650 655	Дерек
+T33	Person-surname 658 665	Басберг
+T34	Person-forename 682 686	Майя
+T35	Person-surname 689 693	Хоук
+T36	Person-forename 709 718	Дженнифер
+T37	Person-surname 721 726	Мейер
+T38	Person 768 772	Даша
+A11	Female T38
+T18	Person 975 979	Даша
+A3	Female T18
+T39	Person 986 993	Ставрос
+A12	Male T39
+T40	Person-forename 975 979	Даша
+T41	Person-forename 986 993	Ставрос
+A13	Female T19
+T42	Person-surname 1105 1112	Жуковой
+A14	Past T20
+T43	Family 1156 1160	пары
+A15	Past T21
+T44	Date-absolute 271 294	на   прошлых   выходных
+A16	Past T44
+T45	Ordinal 276 283	прошлых
+T46	GPE 419 428	греческим
+A17	Adjective T46
+T47	Ordinal 792 799	прошлый
+T48	Ordinal 1126 1131	этого
+T49	Duration 1313 1328	несколько   лет
+T50	Date-period-relative 1313 1328	несколько   лет
+A18	Past T50
+T51	Date-relative 1295 1305	До   этого
+A19	Past T51
+T52	Ordinal 114 123	последних
+T53	Duration 126 129	лет
+T54	Date-period-absolute 114 129	последних   лет
+A20	Past-Pres T54

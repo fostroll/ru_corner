@@ -12,34 +12,34 @@ T8	Organization 307 369	регионального   управления   Сл
 T9	GPE 363 369	России
 T10	Person-property 398 465	экс-начальник   отдела   по   контролю   за   оборотом   наркотиков
 T11	Organization 414 465	отдела   по   контролю   за   оборотом   наркотиков
-T12	Person-property 492 503	оперативник
+T12	Person-property 478 503	подчиненный   оперативник
 T13	Age 527 536	36-летняя
-T14	Person-property 748 759	полицейским
-T15	Date-absolute 947 972	В   августе   2019   года
-T16	Person-property 975 986	полицейские
+T14	Person-property 744 755	полицейским
+T15	Date-absolute 943 968	В   августе   2019   года
+T16	Person-property 971 982	полицейские
 T17	Other-term 46 56	наркотиков
 T18	Other-term 214 223	наркотики
-T19	Other-term 1041 1066	наркотическим   веществом
-T20	Person-property 895 903	силовики
-T21	Date-relative 1130 1155	через   несколько   часов
-T22	Person-property 1158 1173	правоохранители
-T23	Person-property 1431 1447	сотрудники   ФСБ
-T24	Person-property 1464 1475	полицейских
-T25	Other-term 1497 1506	наркотики
-T26	Person-property 1575 1583	силовики
+T19	Other-term 1037 1062	наркотическим   веществом
+T20	Person-property 891 899	силовики
+T21	Date-relative 1126 1151	через   несколько   часов
+T22	Person-property 1154 1169	правоохранители
+T23	Person-property 1427 1443	сотрудники   ФСБ
+T24	Person-property 1460 1471	полицейских
+T25	Other-term 1493 1502	наркотики
+T26	Person-property 1571 1579	силовики
 T27	Family 93 97	жены
 T28	Family 260 264	жены
-T29	Family 767 771	мужа
+T29	Family 763 767	мужа
 T30	Family 649 657	супругом
 A4	Department T11
-T31	Family 840 844	жена
-T32	Family 1115 1119	мужа
-T33	Organization 1444 1447	ФСБ
+T31	Family 836 840	жена
+T32	Family 1111 1115	мужа
+T33	Organization 1440 1443	ФСБ
 T34	Organization 336 369	Следственного   комитета   России
-T39	Date-relative 1423 1428	Позже
-T40	Date-absolute 1537 1543	Теперь
+T39	Date-relative 1419 1424	Позже
+T40	Date-absolute 1533 1539	Теперь
 A5	Past T15
-T35	Duration 1138 1155	несколько   часов
+T35	Duration 1134 1151	несколько   часов
 A6	Past T21
 A7	Past T39
 A8	Future T40
@@ -50,3 +50,39 @@ T38	Person 87 97	его   жены
 A10	Female T38
 T41	Person 254 264	его   жены
 A11	Female T41
+T42	Event 1182 1187	обыск
+T44	Person 164 184	бывших   полицейских
+T45	Person 398 465	экс-начальник   отдела   по   контролю   за   оборотом   наркотиков
+A12	Male T45
+T46	Person 472 503	его   подчиненный   оперативник
+T47	Person 724 755	своим   приятелям - полицейским
+T48	Person 891 899	силовики
+T49	Person 971 982	полицейские
+T50	Person 1154 1169	правоохранители
+T51	Person 1427 1443	сотрудники   ФСБ
+T53	Person 1571 1579	силовики
+T43	Person 17 28	полицейских
+T52	Person 1460 1471	полицейских
+T54	Person 59 69	россиянину
+A13	Male T54
+T55	Person 226 236	россиянину
+A14	Male T55
+T56	Person 522 551	их   36-летняя   приятельница
+A15	Female T56
+A16	Male T46
+T57	Person 590 597	женщины
+A17	Female T57
+T58	Person 649 657	супругом
+A18	Male T58
+T59	Person 763 767	мужа
+A19	Male T59
+T60	Person 836 840	жена
+A20	Female T60
+T61	Person 996 1008	приятельнице
+A21	Female T61
+T62	Person 1111 1115	мужа
+A22	Male T62
+T63	Person 1223 1230	мужчины
+A23	Male T63
+T64	Person 1717 1726	сообщница
+A24	Female T64

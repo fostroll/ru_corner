@@ -1,0 +1,167 @@
+# newdoc id = 0064
+# newpar id = 0064-p1
+# par_text = Чиновник из Беларуси стал вице-мэром Ялты; через четыре дня его уволили за поддержку протестов
+# sent_id = 0064-p1-s1
+# text = Чиновник из Беларуси стал вице-мэром Ялты; через четыре дня его уволили за поддержку протестов
+1	Чиновник	_	_	_	_	_	_	_	bratT1=Person-property
+2	из	_	_	_	_	_	_	_	bratT1=Person-property
+3	Беларуси	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+4	стал	_	_	_	_	_	_	_	_
+5	вице-мэром	_	_	_	_	_	_	_	bratT3=Person-property
+6	Ялты	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=GPE
+7	;	_	_	_	_	_	_	_	_
+8	через	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative
+9	четыре	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative|bratT6=Duration
+10	дня	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative|bratT6=Duration
+11	его	_	_	_	_	_	_	_	_
+12	уволили	_	_	_	_	_	_	_	_
+13	за	_	_	_	_	_	_	_	_
+14	поддержку	_	_	_	_	_	_	_	_
+15	протестов	_	_	_	_	_	_	_	bratT51=Event
+
+# newpar id = 0064-p2
+# par_text = Глава Ялты Иван Имгрунт уволил бывшего беларуского чиновника Михаила Загорцева, четыре дня назад назначенного вице-мэром города. Об этом сообщил сам Имгрунт. Он уточнил, что Загорцева сняли с должности «по факту поддержки оппозиции Белоруссии».
+# sent_id = 0064-p2-s1
+# text = Глава Ялты Иван Имгрунт уволил бывшего беларуского чиновника Михаила Загорцева, четыре дня назад назначенного вице-мэром города.
+1	Глава	_	_	_	_	_	_	_	bratA1=T7:Male|bratT7=Person|bratT8=Person-property
+2	Ялты	_	_	_	_	_	_	_	bratA1=T7:Male|bratT7=Person|bratT8=Person-property|bratT9=GPE
+3	Иван	_	_	_	_	_	_	_	bratA1=T7:Male|bratT10=Person-forename|bratT7=Person
+4	Имгрунт	_	_	_	_	_	_	_	bratA1=T7:Male|bratT11=Person-surname|bratT7=Person
+5	уволил	_	_	_	_	_	_	_	_
+6	бывшего	_	_	_	_	_	_	_	bratA2=T12:Male|bratT12=Person|bratT14=Person-property
+7	беларуского	_	_	_	_	_	_	_	bratA2=T12:Male|bratA3=T13:Adjective|bratT12=Person|bratT13=GPE|bratT14=Person-property
+8	чиновника	_	_	_	_	_	_	_	bratA2=T12:Male|bratT12=Person|bratT14=Person-property
+9	Михаила	_	_	_	_	_	_	_	bratA2=T12:Male|bratT12=Person|bratT15=Person-forename
+10	Загорцева	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Male|bratT12=Person|bratT16=Person-surname
+11	,	_	_	_	_	_	_	_	_
+12	четыре	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute|bratT18=Duration
+13	дня	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute|bratT18=Duration
+14	назад	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute
+15	назначенного	_	_	_	_	_	_	_	_
+16	вице-мэром	_	_	_	_	_	_	_	bratT19=Person-property
+17	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT42=GPE
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0064-p2-s2
+# text = Об этом сообщил сам Имгрунт.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщил	_	_	_	_	_	_	_	_
+4	сам	_	_	_	_	_	_	_	_
+5	Имгрунт	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT22=Person|bratT23=Person-surname
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0064-p2-s3
+# text = Он уточнил, что Загорцева сняли с должности «по факту поддержки оппозиции Белоруссии».
+1	Он	_	_	_	_	_	_	_	_
+2	уточнил	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	Загорцева	_	_	_	_	_	_	_	bratA6=T24:Male|bratT24=Person|bratT25=Person-surname
+6	сняли	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	_
+8	должности	_	_	_	_	_	_	_	bratT48=Person-property
+9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+10	по	_	_	_	_	_	_	_	_
+11	факту	_	_	_	_	_	_	_	_
+12	поддержки	_	_	_	_	_	_	_	_
+13	оппозиции	_	_	_	_	_	_	_	bratT20=Organization
+14	Белоруссии	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT26=GPE
+15	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0064-p3
+# par_text = Загорцева назначили заместителем главы администрации Ялты 21 сентября. До этого он возглавлял Бобруйский городской совет депутатов и Смолевичский районный исполнительный комитет.
+# sent_id = 0064-p3-s1
+# text = Загорцева назначили заместителем главы администрации Ялты 21 сентября.
+1	Загорцева	_	_	_	_	_	_	_	bratA7=T27:Male|bratT27=Person|bratT28=Person-surname
+2	назначили	_	_	_	_	_	_	_	_
+3	заместителем	_	_	_	_	_	_	_	bratT29=Person-property
+4	главы	_	_	_	_	_	_	_	bratT29=Person-property
+5	администрации	_	_	_	_	_	_	_	bratT29=Person-property|bratT30=Organization
+6	Ялты	_	_	_	_	_	_	_	bratT29=Person-property|bratT30=Organization|bratT31=GPE
+7	21	_	_	_	_	_	_	_	bratA8=T32:Past|bratT32=Date-absolute
+8	сентября	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T32:Past|bratT32=Date-absolute
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0064-p3-s2
+# text = До этого он возглавлял Бобруйский городской совет депутатов и Смолевичский районный исполнительный комитет.
+1	До	_	_	_	_	_	_	_	bratA17=T21:Past|bratT21=Date-relative
+2	этого	_	_	_	_	_	_	_	bratA17=T21:Past|bratT21=Date-relative
+3	он	_	_	_	_	_	_	_	_
+4	возглавлял	_	_	_	_	_	_	_	_
+5	Бобруйский	_	_	_	_	_	_	_	bratA9=T34:Adjective|bratT33=Organization|bratT34=GPE
+6	городской	_	_	_	_	_	_	_	bratA9=T34:Adjective|bratT33=Organization|bratT34=GPE
+7	совет	_	_	_	_	_	_	_	bratT33=Organization
+8	депутатов	_	_	_	_	_	_	_	bratT33=Organization
+9	и	_	_	_	_	_	_	_	_
+10	Смолевичский	_	_	_	_	_	_	_	bratA10=T36:Adjective|bratT35=Organization|bratT36=GPE
+11	районный	_	_	_	_	_	_	_	bratA10=T36:Adjective|bratT35=Organization|bratT36=GPE
+12	исполнительный	_	_	_	_	_	_	_	bratT35=Organization
+13	комитет	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0064-p4
+# par_text = TUT.by отмечает, что обращение в поддержку протестующих Загорцев записал еще в августе, вскоре после президентских выборов. Он сказал, что «гордится своими детьми, которые пошли с первого дня на баррикады», и пригрозил россиянам «сорок первым — сорок пятым годом» за вмешательство в протесты.
+# sent_id = 0064-p4-s1
+# text = TUT.by отмечает, что обращение в поддержку протестующих Загорцев записал еще в августе, вскоре после президентских выборов.
+1-3	TUT.by	_	_	_	_	_	_	_	_
+1	TUT	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T38:Media|bratT37=Web-address|bratT38=Organization
+2	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T38:Media|bratT37=Web-address|bratT38=Organization
+3	by	_	_	_	_	_	_	_	bratA12=T38:Media|bratT37=Web-address|bratT38=Organization
+4	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	обращение	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	поддержку	_	_	_	_	_	_	_	_
+10	протестующих	_	_	_	_	_	_	_	bratT39=Other-group
+11	Загорцев	_	_	_	_	_	_	_	bratA13=T40:Male|bratT40=Person|bratT41=Person-surname
+12	записал	_	_	_	_	_	_	_	_
+13	еще	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	bratA18=T44:Past|bratT44=Date-absolute
+15	августе	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T44:Past|bratT44=Date-absolute
+16	,	_	_	_	_	_	_	_	bratA18=T44:Past|bratT44=Date-absolute
+17	вскоре	_	_	_	_	_	_	_	bratA18=T44:Past|bratT44=Date-absolute
+18	после	_	_	_	_	_	_	_	bratA18=T44:Past|bratT44=Date-absolute
+19	президентских	_	_	_	_	_	_	_	bratA18=T44:Past|bratT43=Event|bratT44=Date-absolute
+20	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T44:Past|bratT43=Event|bratT44=Date-absolute
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0064-p4-s2
+# text = Он сказал, что «гордится своими детьми, которые пошли с первого дня на баррикады», и пригрозил россиянам «сорок первым - сорок пятым годом» за вмешательство в протесты.
+1	Он	_	_	_	_	_	_	_	_
+2	сказал	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+6	гордится	_	_	_	_	_	_	_	_
+7	своими	_	_	_	_	_	_	_	_
+8	детьми	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	которые	_	_	_	_	_	_	_	_
+11	пошли	_	_	_	_	_	_	_	_
+12	с	_	_	_	_	_	_	_	bratA20=T49:Past-UNK|bratT49=Date-period-relative
+13	первого	_	_	_	_	_	_	_	bratA20=T49:Past-UNK|bratT45=Ordinal|bratT49=Date-period-relative
+14	дня	_	_	_	_	_	_	_	bratA20=T49:Past-UNK|bratT49=Date-period-relative
+15	на	_	_	_	_	_	_	_	_
+16	баррикады	_	_	_	_	_	_	_	SpaceAfter=No
+17	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	и	_	_	_	_	_	_	_	_
+20	пригрозил	_	_	_	_	_	_	_	_
+21	россиянам	_	_	_	_	_	_	_	bratA14=T46:Citizenship|bratT46=Nationality
+22	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+23	сорок	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-period-absolute
+24	первым	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-period-absolute
+25	-	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-period-absolute
+26	сорок	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-period-absolute
+27	пятым	_	_	_	_	_	_	_	bratA19=T47:Past|bratT47=Date-period-absolute
+28	годом	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T47:Past|bratT47=Date-period-absolute
+29	''	_	_	_	_	_	_	_	QuotationEnd=»
+30	за	_	_	_	_	_	_	_	_
+31	вмешательство	_	_	_	_	_	_	_	_
+32	в	_	_	_	_	_	_	_	_
+33	протесты	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
+34	.	_	_	_	_	_	_	_	_
+

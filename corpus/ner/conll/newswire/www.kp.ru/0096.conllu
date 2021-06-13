@@ -79,16 +79,19 @@
 34	том	_	_	_	_	_	_	_	SpaceAfter=No
 35	,	_	_	_	_	_	_	_	_
 36	что	_	_	_	_	_	_	_	_
-37	COVID-19	_	_	_	_	_	_	_	bratT10=Other-term
-38	потенциально	_	_	_	_	_	_	_	_
-39	может	_	_	_	_	_	_	_	_
-40	находиться	_	_	_	_	_	_	_	_
-41	в	_	_	_	_	_	_	_	_
-42	организме	_	_	_	_	_	_	_	_
-43	до	_	_	_	_	_	_	_	bratT11=Duration|bratT23=Time-period
-44	двух	_	_	_	_	_	_	_	bratT11=Duration|bratT23=Time-period
-45	месяцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Duration|bratT23=Time-period
-46	.	_	_	_	_	_	_	_	_
+37-39	COVID-19	_	_	_	_	_	_	_	_
+37	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term
+38	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term
+39	19	_	_	_	_	_	_	_	bratT10=Other-term|bratT43=Cardinal
+40	потенциально	_	_	_	_	_	_	_	_
+41	может	_	_	_	_	_	_	_	_
+42	находиться	_	_	_	_	_	_	_	_
+43	в	_	_	_	_	_	_	_	_
+44	организме	_	_	_	_	_	_	_	_
+45	до	_	_	_	_	_	_	_	bratT11=Duration|bratT23=Time-period
+46	двух	_	_	_	_	_	_	_	bratT11=Duration|bratT23=Time-period
+47	месяцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Duration|bratT23=Time-period
+48	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0096-p3
 # par_text = «То есть это не классическая ОРВИ, как мы привыкли, что в течение 10 дней (максимум – двух недель) инфекция полностью прекращается», - заявил он, отметив, что такое условие ставит перед врачами и учеными «множество вопросов и задач, которые они должны решать в самое ближайшее время» для понимания того, насколько длительный иммунитет, насколько необходим контроль после выздоровления.
@@ -173,22 +176,25 @@
 1	Как	_	_	_	_	_	_	_	_
 2	писал	_	_	_	_	_	_	_	_
 3	сайт	_	_	_	_	_	_	_	bratA2=T17:Media|bratT17=Service
-4	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA3=T35:Media|bratT17=Service|bratT35=Organization
-5	,	_	_	_	_	_	_	_	_
-6	специалист	_	_	_	_	_	_	_	bratT18=Person-property
-7	также	_	_	_	_	_	_	_	_
-8	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
-9	,	_	_	_	_	_	_	_	_
-10	что	_	_	_	_	_	_	_	_
-11	за	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute
-12	время	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute
-13	пандемии	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT27=Event|bratT28=Date-period-absolute
-14	коронавируса	_	_	_	_	_	_	_	bratT19=Other-term|bratT27=Event
-15	учеными	_	_	_	_	_	_	_	bratT24=Person-property
-16	проделана	_	_	_	_	_	_	_	_
-17	большая	_	_	_	_	_	_	_	_
-18	работа	_	_	_	_	_	_	_	SpaceAfter=No
-19	.	_	_	_	_	_	_	_	_
+4-6	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No
+4	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA3=T35:Media|bratT17=Service|bratT35=Organization|bratT44=Web-address
+5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA3=T35:Media|bratT17=Service|bratT35=Organization|bratT44=Web-address
+6	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA3=T35:Media|bratT17=Service|bratT35=Organization|bratT44=Web-address
+7	,	_	_	_	_	_	_	_	_
+8	специалист	_	_	_	_	_	_	_	bratT18=Person-property
+9	также	_	_	_	_	_	_	_	_
+10	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	что	_	_	_	_	_	_	_	_
+13	за	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute
+14	время	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT28=Date-period-absolute
+15	пандемии	_	_	_	_	_	_	_	bratA5=T28:Past-Pres|bratT27=Event|bratT28=Date-period-absolute
+16	коронавируса	_	_	_	_	_	_	_	bratT19=Other-term|bratT27=Event
+17	учеными	_	_	_	_	_	_	_	bratT24=Person-property
+18	проделана	_	_	_	_	_	_	_	_
+19	большая	_	_	_	_	_	_	_	_
+20	работа	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0096-p4-s2
 # text = На данный момент есть вакцина от коронавируса, а это облегчает ситуацию и снимает напряжение с людей.

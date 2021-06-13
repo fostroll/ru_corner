@@ -1,0 +1,402 @@
+# newdoc id = 0120
+# newpar id = 0120-p1
+# par_text = ФИФА объявила номинантов на титул лучшего футболиста уходящего года
+# sent_id = 0120-p1-s1
+# text = ФИФА объявила номинантов на титул лучшего футболиста уходящего года
+1	ФИФА	_	_	_	_	_	_	_	bratT1=Organization
+2	объявила	_	_	_	_	_	_	_	_
+3	номинантов	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	титул	_	_	_	_	_	_	_	_
+6	лучшего	_	_	_	_	_	_	_	bratT3=Person-property
+7	футболиста	_	_	_	_	_	_	_	bratT3=Person-property
+8	уходящего	_	_	_	_	_	_	_	bratA3=T2:Past-Fut|bratT2=Date-period-absolute|bratT4=Ordinal
+9	года	_	_	_	_	_	_	_	bratA3=T2:Past-Fut|bratT2=Date-period-absolute
+
+# newpar id = 0120-p2
+# par_text = Международная федерация футбола (ФИФА) на своем сайте опубликовала шорт-листы номинантов на семь индивидуальных трофеев, которые будут вручены 17 декабря на онлайн-церемонии The Best FIFA Football Awards.
+# sent_id = 0120-p2-s1
+# text = Международная федерация футбола (ФИФА) на своем сайте опубликовала шорт-листы номинантов на семь индивидуальных трофеев, которые будут вручены 17 декабря на онлайн-церемонии The Best FIFA Football Awards.
+1	Международная	_	_	_	_	_	_	_	bratT5=Organization
+2	федерация	_	_	_	_	_	_	_	bratT5=Organization
+3	футбола	_	_	_	_	_	_	_	bratT5=Organization
+4	(	_	_	_	_	_	_	_	SpaceAfter=No
+5	ФИФА	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+6	)	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	_
+8	своем	_	_	_	_	_	_	_	_
+9	сайте	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
+10	опубликовала	_	_	_	_	_	_	_	_
+11	шорт-листы	_	_	_	_	_	_	_	_
+12	номинантов	_	_	_	_	_	_	_	bratT16=Other-group
+13	на	_	_	_	_	_	_	_	bratT16=Other-group
+14	семь	_	_	_	_	_	_	_	bratT16=Other-group|bratT9=Quantity
+15	индивидуальных	_	_	_	_	_	_	_	bratT16=Other-group|bratT9=Quantity
+16	трофеев	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-group|bratT9=Quantity
+17	,	_	_	_	_	_	_	_	_
+18	которые	_	_	_	_	_	_	_	_
+19	будут	_	_	_	_	_	_	_	_
+20	вручены	_	_	_	_	_	_	_	_
+21	17	_	_	_	_	_	_	_	bratA4=T8:Future|bratT8=Date-absolute
+22	декабря	_	_	_	_	_	_	_	bratA4=T8:Future|bratT8=Date-absolute
+23	на	_	_	_	_	_	_	_	_
+24	онлайн-церемонии	_	_	_	_	_	_	_	bratT10=Event
+25	The	_	_	_	_	_	_	_	bratT10=Event
+26	Best	_	_	_	_	_	_	_	bratT10=Event
+27	FIFA	_	_	_	_	_	_	_	bratT10=Event
+28	Football	_	_	_	_	_	_	_	bratT10=Event
+29	Awards	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0120-p3
+# par_text = Награды достанутся лучшим футболистам, вратарям и тренерам по итогам уходящего года среди мужчин и женщин, а также автору самого красивого гола.
+# sent_id = 0120-p3-s1
+# text = Награды достанутся лучшим футболистам, вратарям и тренерам по итогам уходящего года среди мужчин и женщин, а также автору самого красивого гола.
+1	Награды	_	_	_	_	_	_	_	_
+2	достанутся	_	_	_	_	_	_	_	_
+3	лучшим	_	_	_	_	_	_	_	bratA2=T11:Plural|bratT11=Person-property
+4	футболистам	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Plural|bratT11=Person-property|bratT15=Person-property
+5	,	_	_	_	_	_	_	_	bratA2=T11:Plural|bratT11=Person-property
+6	вратарям	_	_	_	_	_	_	_	bratA2=T11:Plural|bratT11=Person-property|bratT92=Person-property
+7	и	_	_	_	_	_	_	_	bratA2=T11:Plural|bratT11=Person-property
+8	тренерам	_	_	_	_	_	_	_	bratA2=T11:Plural|bratT11=Person-property|bratT93=Person-property
+9	по	_	_	_	_	_	_	_	_
+10	итогам	_	_	_	_	_	_	_	_
+11	уходящего	_	_	_	_	_	_	_	bratA5=T12:Past-Fut|bratT12=Date-period-absolute|bratT94=Ordinal
+12	года	_	_	_	_	_	_	_	bratA5=T12:Past-Fut|bratT12=Date-period-absolute
+13	среди	_	_	_	_	_	_	_	_
+14	мужчин	_	_	_	_	_	_	_	_
+15	и	_	_	_	_	_	_	_	_
+16	женщин	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	а	_	_	_	_	_	_	_	_
+19	также	_	_	_	_	_	_	_	_
+20	автору	_	_	_	_	_	_	_	bratT13=Person-property
+21	самого	_	_	_	_	_	_	_	bratT13=Person-property
+22	красивого	_	_	_	_	_	_	_	bratT13=Person-property
+23	гола	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
+24	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0120-p4
+# par_text = На награду лучшему игроку у мужчин претендуют: Тиаго Алькантара ("Бавария"), Криштиану Роналду ("Ювентус"), Кевин де Брейне ("Манчестер Сити"), Роберт Левандовский ("Бавария"), Садио Мане, Мохамед Салах и Вирджил ван Дейк (все - "Ливерпуль"), Килиан Мбаппе и Неймар (оба - "Пари Сен-Жермен"), Лионель Месси ("Барселона"), Серхио Рамос ("Реал").
+# sent_id = 0120-p4-s1
+# text = На награду лучшему игроку у мужчин претендуют: Тиаго Алькантара (``Бавария''), Криштиану Роналду (``Ювентус''), Кевин де Брейне (``Манчестер Сити''), Роберт Левандовский (``Бавария''), Садио Мане, Мохамед Салах и Вирджил ван Дейк (все - ``Ливерпуль''), Килиан Мбаппе и Неймар (оба - ``Пари Сен-Жермен''), Лионель Месси (``Барселона''), Серхио Рамос (``Реал'').
+1	На	_	_	_	_	_	_	_	_
+2	награду	_	_	_	_	_	_	_	_
+3	лучшему	_	_	_	_	_	_	_	bratT14=Person-property
+4	игроку	_	_	_	_	_	_	_	bratT14=Person-property
+5	у	_	_	_	_	_	_	_	_
+6	мужчин	_	_	_	_	_	_	_	_
+7	претендуют	_	_	_	_	_	_	_	SpaceAfter=No
+8	:	_	_	_	_	_	_	_	_
+9	Тиаго	_	_	_	_	_	_	_	bratA6=T17:Male|bratT17=Person|bratT97=Person-forename
+10	Алькантара	_	_	_	_	_	_	_	bratA6=T17:Male|bratT132=Person-surname|bratT17=Person
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+13	Бавария	_	_	_	_	_	_	_	SpaceAfter=No|bratT178=GPE|bratT18=Organization
+14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+15	)	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	Криштиану	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT98=Person-forename
+18	Роналду	_	_	_	_	_	_	_	bratA7=T19:Male|bratT133=Person-surname|bratT19=Person
+19	(	_	_	_	_	_	_	_	SpaceAfter=No
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+21	Ювентус	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+23	)	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	Кевин	_	_	_	_	_	_	_	bratA8=T21:Male|bratT21=Person|bratT99=Person-forename
+26	де	_	_	_	_	_	_	_	bratA8=T21:Male|bratT134=Person-surname|bratT21=Person
+27	Брейне	_	_	_	_	_	_	_	bratA8=T21:Male|bratT134=Person-surname|bratT21=Person
+28	(	_	_	_	_	_	_	_	SpaceAfter=No
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
+30	Манчестер	_	_	_	_	_	_	_	bratT146=GPE|bratT22=Organization
+31	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT146=GPE|bratT22=Organization
+32	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
+33	)	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	_	_	_	_	_	_	_	_
+35	Роберт	_	_	_	_	_	_	_	bratA9=T23:Male|bratT100=Person-forename|bratT23=Person
+36	Левандовский	_	_	_	_	_	_	_	bratA9=T23:Male|bratT135=Person-surname|bratT23=Person
+37	(	_	_	_	_	_	_	_	SpaceAfter=No
+38	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+39	Бавария	_	_	_	_	_	_	_	SpaceAfter=No|bratT179=GPE|bratT24=Organization
+40	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+41	)	_	_	_	_	_	_	_	SpaceAfter=No
+42	,	_	_	_	_	_	_	_	_
+43	Садио	_	_	_	_	_	_	_	bratA10=T25:Male|bratT101=Person-forename|bratT25=Person
+44	Мане	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T25:Male|bratT136=Person-surname|bratT25=Person
+45	,	_	_	_	_	_	_	_	_
+46	Мохамед	_	_	_	_	_	_	_	bratA11=T26:Male|bratT102=Person-forename|bratT26=Person
+47	Салах	_	_	_	_	_	_	_	bratA11=T26:Male|bratT137=Person-surname|bratT26=Person
+48	и	_	_	_	_	_	_	_	_
+49	Вирджил	_	_	_	_	_	_	_	bratA12=T27:Male|bratT103=Person-forename|bratT27=Person
+50	ван	_	_	_	_	_	_	_	bratA12=T27:Male|bratT138=Person-surname|bratT27=Person
+51	Дейк	_	_	_	_	_	_	_	bratA12=T27:Male|bratT138=Person-surname|bratT27=Person
+52	(	_	_	_	_	_	_	_	SpaceAfter=No
+53	все	_	_	_	_	_	_	_	_
+54	-	_	_	_	_	_	_	_	_
+55	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+56	Ливерпуль	_	_	_	_	_	_	_	SpaceAfter=No|bratT148=GPE|bratT28=Organization
+57	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+58	)	_	_	_	_	_	_	_	SpaceAfter=No
+59	,	_	_	_	_	_	_	_	_
+60	Килиан	_	_	_	_	_	_	_	bratA13=T29:Male|bratT104=Person-forename|bratT29=Person
+61	Мбаппе	_	_	_	_	_	_	_	bratA13=T29:Male|bratT139=Person-surname|bratT29=Person
+62	и	_	_	_	_	_	_	_	_
+63	Неймар	_	_	_	_	_	_	_	bratA14=T30:Male|bratT105=Person-forename|bratT30=Person
+64	(	_	_	_	_	_	_	_	SpaceAfter=No
+65	оба	_	_	_	_	_	_	_	bratT182=Quantity
+66	-	_	_	_	_	_	_	_	_
+67	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+68	Пари	_	_	_	_	_	_	_	bratT183=GPE|bratT31=Organization
+69	Сен-Жермен	_	_	_	_	_	_	_	SpaceAfter=No|bratT183=GPE|bratT31=Organization
+70	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+71	)	_	_	_	_	_	_	_	SpaceAfter=No
+72	,	_	_	_	_	_	_	_	_
+73	Лионель	_	_	_	_	_	_	_	bratA15=T32:Male|bratT106=Person-forename|bratT32=Person
+74	Месси	_	_	_	_	_	_	_	bratA15=T32:Male|bratT140=Person-surname|bratT32=Person
+75	(	_	_	_	_	_	_	_	SpaceAfter=No
+76	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
+77	Барселона	_	_	_	_	_	_	_	SpaceAfter=No|bratT142=GPE|bratT33=Organization
+78	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
+79	)	_	_	_	_	_	_	_	SpaceAfter=No
+80	,	_	_	_	_	_	_	_	_
+81	Серхио	_	_	_	_	_	_	_	bratA16=T34:Male|bratT107=Person-forename|bratT34=Person
+82	Рамос	_	_	_	_	_	_	_	bratA16=T34:Male|bratT141=Person-surname|bratT34=Person
+83	(	_	_	_	_	_	_	_	SpaceAfter=No
+84	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization
+85	Реал	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization
+86	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization
+87	)	_	_	_	_	_	_	_	SpaceAfter=No
+88	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0120-p5
+# par_text = За звание лучшего тренера поспорят Марсело Бьелса ("Лидс"), Ханс-Дитер Флик ("Бавария"), Юрген Клопп ("Ливерпуль"), Хулен Лопетеги ("Севилья") и Зинедин Зидан ("Реал").
+# sent_id = 0120-p5-s1
+# text = За звание лучшего тренера поспорят Марсело Бьелса (``Лидс''), Ханс-Дитер Флик (``Бавария''), Юрген Клопп (``Ливерпуль''), Хулен Лопетеги (``Севилья'') и Зинедин Зидан (``Реал'').
+1	За	_	_	_	_	_	_	_	_
+2	звание	_	_	_	_	_	_	_	bratT37=Person-property
+3	лучшего	_	_	_	_	_	_	_	bratT37=Person-property
+4	тренера	_	_	_	_	_	_	_	bratT36=Person-property|bratT37=Person-property
+5	поспорят	_	_	_	_	_	_	_	_
+6	Марсело	_	_	_	_	_	_	_	bratA17=T38:Male|bratT108=Person-forename|bratT38=Person
+7	Бьелса	_	_	_	_	_	_	_	bratA17=T38:Male|bratT151=Person-surname|bratT38=Person
+8	(	_	_	_	_	_	_	_	SpaceAfter=No
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
+10	Лидс	_	_	_	_	_	_	_	SpaceAfter=No|bratT176=GPE|bratT39=Organization
+11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
+12	)	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	Ханс-Дитер	_	_	_	_	_	_	_	bratA18=T40:Male|bratT109=Person-forename|bratT40=Person
+15	Флик	_	_	_	_	_	_	_	bratA18=T40:Male|bratT145=Person-surname|bratT40=Person
+16	(	_	_	_	_	_	_	_	SpaceAfter=No
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
+18	Бавария	_	_	_	_	_	_	_	SpaceAfter=No|bratT177=GPE|bratT41=Organization
+19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
+20	)	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	Юрген	_	_	_	_	_	_	_	bratA19=T42:Male|bratT110=Person-forename|bratT42=Person
+23	Клопп	_	_	_	_	_	_	_	bratA19=T42:Male|bratT147=Person-surname|bratT42=Person
+24	(	_	_	_	_	_	_	_	SpaceAfter=No
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
+26	Ливерпуль	_	_	_	_	_	_	_	SpaceAfter=No|bratT149=GPE|bratT43=Organization
+27	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
+28	)	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	_	_	_	_	_	_	_	_
+30	Хулен	_	_	_	_	_	_	_	bratA20=T44:Male|bratT111=Person-forename|bratT44=Person
+31	Лопетеги	_	_	_	_	_	_	_	bratA20=T44:Male|bratT152=Person-surname|bratT44=Person
+32	(	_	_	_	_	_	_	_	SpaceAfter=No
+33	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Organization
+34	Севилья	_	_	_	_	_	_	_	SpaceAfter=No|bratT150=GPE|bratT45=Organization
+35	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Organization
+36	)	_	_	_	_	_	_	_	_
+37	и	_	_	_	_	_	_	_	_
+38	Зинедин	_	_	_	_	_	_	_	bratA21=T46:Male|bratT112=Person-forename|bratT46=Person
+39	Зидан	_	_	_	_	_	_	_	bratA21=T46:Male|bratT153=Person-surname|bratT46=Person
+40	(	_	_	_	_	_	_	_	SpaceAfter=No
+41	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+42	Реал	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+43	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+44	)	_	_	_	_	_	_	_	SpaceAfter=No
+45	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0120-p6
+# par_text = Список претендентов на титул вратаря года: Алиссон ("Ливерпуль"), Кейлор Навас ("Пари Сен-Жермен"), Тибо Куртуа ("Реал"), Мануэль Нойер ("Бавария"), Ян Облак ("Атлетико" Мадрид), Марк-Андре тер Штеген ("Барселона").
+# sent_id = 0120-p6-s1
+# text = Список претендентов на титул вратаря года: Алиссон (``Ливерпуль''), Кейлор Навас (``Пари Сен-Жермен''), Тибо Куртуа (``Реал''), Мануэль Нойер (``Бавария''), Ян Облак (``Атлетико'' Мадрид), Марк-Андре тер Штеген (``Барселона'').
+1	Список	_	_	_	_	_	_	_	_
+2	претендентов	_	_	_	_	_	_	_	bratT53=Other-group
+3	на	_	_	_	_	_	_	_	bratT53=Other-group
+4	титул	_	_	_	_	_	_	_	bratT50=Person-property|bratT53=Other-group
+5	вратаря	_	_	_	_	_	_	_	bratT48=Person-property|bratT50=Person-property|bratT53=Other-group
+6	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA41=T49:Past-Fut|bratT49=Date-period-absolute|bratT50=Person-property|bratT53=Other-group
+7	:	_	_	_	_	_	_	_	_
+8	Алиссон	_	_	_	_	_	_	_	bratA22=T51:Male|bratT113=Person-forename|bratT51=Person
+9	(	_	_	_	_	_	_	_	SpaceAfter=No
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+11	Ливерпуль	_	_	_	_	_	_	_	SpaceAfter=No|bratT154=GPE|bratT52=Organization
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+13	)	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	Кейлор	_	_	_	_	_	_	_	bratA23=T54:Male|bratT114=Person-forename|bratT54=Person
+16	Навас	_	_	_	_	_	_	_	bratA23=T54:Male|bratT143=Person-surname|bratT54=Person
+17	(	_	_	_	_	_	_	_	SpaceAfter=No
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
+19	Пари	_	_	_	_	_	_	_	bratT184=GPE|bratT55=Organization
+20	Сен-Жермен	_	_	_	_	_	_	_	SpaceAfter=No|bratT184=GPE|bratT55=Organization
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
+22	)	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	Тибо	_	_	_	_	_	_	_	bratA24=T56:Male|bratT115=Person-forename|bratT56=Person
+25	Куртуа	_	_	_	_	_	_	_	bratA24=T56:Male|bratT144=Person-surname|bratT56=Person
+26	(	_	_	_	_	_	_	_	SpaceAfter=No
+27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Organization
+28	Реал	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Organization
+29	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Organization
+30	)	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	_	_	_	_	_	_	_	_
+32	Мануэль	_	_	_	_	_	_	_	bratA25=T58:Male|bratT116=Person-forename|bratT58=Person
+33	Нойер	_	_	_	_	_	_	_	bratA25=T58:Male|bratT155=Person-surname|bratT58=Person
+34	(	_	_	_	_	_	_	_	SpaceAfter=No
+35	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Organization
+36	Бавария	_	_	_	_	_	_	_	SpaceAfter=No|bratT180=GPE|bratT59=Organization
+37	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Organization
+38	)	_	_	_	_	_	_	_	SpaceAfter=No
+39	,	_	_	_	_	_	_	_	_
+40	Ян	_	_	_	_	_	_	_	bratA26=T60:Male|bratT117=Person-forename|bratT60=Person
+41	Облак	_	_	_	_	_	_	_	bratA26=T60:Male|bratT156=Person-surname|bratT60=Person
+42	(	_	_	_	_	_	_	_	SpaceAfter=No
+43	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Organization
+44	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Organization
+45	''	_	_	_	_	_	_	_	bratT61=Organization
+46	Мадрид	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=GPE
+47	)	_	_	_	_	_	_	_	SpaceAfter=No
+48	,	_	_	_	_	_	_	_	_
+49	Марк-Андре	_	_	_	_	_	_	_	bratA27=T63:Male|bratT118=Person-forename|bratT63=Person
+50	тер	_	_	_	_	_	_	_	bratA27=T63:Male|bratT157=Person-surname|bratT63=Person
+51	Штеген	_	_	_	_	_	_	_	bratA27=T63:Male|bratT157=Person-surname|bratT63=Person
+52	(	_	_	_	_	_	_	_	SpaceAfter=No
+53	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Organization
+54	Барселона	_	_	_	_	_	_	_	SpaceAfter=No|bratT165=GPE|bratT64=Organization
+55	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Organization
+56	)	_	_	_	_	_	_	_	SpaceAfter=No
+57	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0120-p7
+# par_text = Также будет разыграна традиционная премия имени Ференца Пушкаша за самый красивый гол года.
+# sent_id = 0120-p7-s1
+# text = Также будет разыграна традиционная премия имени Ференца Пушкаша за самый красивый гол года.
+1	Также	_	_	_	_	_	_	_	_
+2	будет	_	_	_	_	_	_	_	_
+3	разыграна	_	_	_	_	_	_	_	_
+4	традиционная	_	_	_	_	_	_	_	bratT67=Event
+5	премия	_	_	_	_	_	_	_	bratT67=Event
+6	имени	_	_	_	_	_	_	_	bratT67=Event
+7	Ференца	_	_	_	_	_	_	_	bratA40=T65:Male|bratT158=Person-forename|bratT65=Person|bratT67=Event
+8	Пушкаша	_	_	_	_	_	_	_	bratA40=T65:Male|bratT159=Person-surname|bratT65=Person|bratT67=Event
+9	за	_	_	_	_	_	_	_	bratT67=Event
+10	самый	_	_	_	_	_	_	_	bratT67=Event
+11	красивый	_	_	_	_	_	_	_	bratT67=Event
+12	гол	_	_	_	_	_	_	_	bratT67=Event
+13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA42=T66:Past-Fut|bratT181=Duration|bratT66=Date-period-absolute|bratT67=Event
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0120-p8
+# par_text = Среди номинантов значатся Сон Хын Мин ("Тоттенхэм"), Каролин Вейра ("Манчестер Сити"), Андре-Пьер Жиньяк ("Тигрес"), Леонель Киньонес "Макара", Златко Юнузович ("Ред Булл Зальцбург"), Софи Ингл ("Челси"), Джорджиан де Арраскаэта ("Фламенго"), Ширли Круз (сборная Коста-Рики), Хломфо Кекана ("Мамелоди Сандаунс"), Джордан Флорес ("Дандолк"), Луис Суарес ("Барселона").
+# sent_id = 0120-p8-s1
+# text = Среди номинантов значатся Сон Хын Мин (``Тоттенхэм''), Каролин Вейра (``Манчестер Сити''), Андре-Пьер Жиньяк (``Тигрес''), Леонель Киньонес ``Макара'', Златко Юнузович (``Ред Булл Зальцбург''), Софи Ингл (``Челси''), Джорджиан де Арраскаэта (``Фламенго''), Ширли Круз (сборная Коста-Рики), Хломфо Кекана (``Мамелоди Сандаунс''), Джордан Флорес (``Дандолк''), Луис Суарес (``Барселона'').
+1	Среди	_	_	_	_	_	_	_	_
+2	номинантов	_	_	_	_	_	_	_	bratT68=Other-group
+3	значатся	_	_	_	_	_	_	_	_
+4	Сон	_	_	_	_	_	_	_	bratA28=T69:Male|bratT119=Person-surname|bratT69=Person
+5	Хын	_	_	_	_	_	_	_	bratA28=T69:Male|bratT120=Person-forename|bratT69=Person
+6	Мин	_	_	_	_	_	_	_	bratA28=T69:Male|bratT120=Person-forename|bratT69=Person
+7	(	_	_	_	_	_	_	_	SpaceAfter=No
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Organization
+9	Тоттенхэм	_	_	_	_	_	_	_	SpaceAfter=No|bratT161=GPE|bratT70=Organization
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Organization
+11	)	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	Каролин	_	_	_	_	_	_	_	bratA29=T71:Female|bratT122=Person-forename|bratT71=Person
+14	Вейра	_	_	_	_	_	_	_	bratA29=T71:Female|bratT160=Person-surname|bratT71=Person
+15	(	_	_	_	_	_	_	_	SpaceAfter=No
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Organization
+17	Манчестер	_	_	_	_	_	_	_	bratT121=GPE|bratT72=Organization
+18	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT121=GPE|bratT72=Organization
+19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Organization
+20	)	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	Андре-Пьер	_	_	_	_	_	_	_	bratA30=T73:Male|bratT123=Person-forename|bratT73=Person
+23	Жиньяк	_	_	_	_	_	_	_	bratA30=T73:Male|bratT162=Person-surname|bratT73=Person
+24	(	_	_	_	_	_	_	_	SpaceAfter=No
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
+26	Тигрес	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
+27	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
+28	)	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	_	_	_	_	_	_	_	_
+30	Леонель	_	_	_	_	_	_	_	bratA31=T75:Male|bratT124=Person-forename|bratT75=Person
+31	Киньонес	_	_	_	_	_	_	_	bratA31=T75:Male|bratT163=Person-surname|bratT75=Person
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Organization
+33	Макара	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Organization
+34	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Organization
+35	,	_	_	_	_	_	_	_	_
+36	Златко	_	_	_	_	_	_	_	bratA32=T77:Male|bratT125=Person-forename|bratT77=Person
+37	Юнузович	_	_	_	_	_	_	_	bratA32=T77:Male|bratT164=Person-surname|bratT77=Person
+38	(	_	_	_	_	_	_	_	SpaceAfter=No
+39	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Organization
+40	Ред	_	_	_	_	_	_	_	bratA33=T95:Trademark|bratT78=Organization|bratT95=Product
+41	Булл	_	_	_	_	_	_	_	bratA33=T95:Trademark|bratT78=Organization|bratT95=Product
+42	Зальцбург	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Organization|bratT96=GPE
+43	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Organization
+44	)	_	_	_	_	_	_	_	SpaceAfter=No
+45	,	_	_	_	_	_	_	_	_
+46	Софи	_	_	_	_	_	_	_	bratA34=T79:Female|bratT126=Person-forename|bratT79=Person
+47	Ингл	_	_	_	_	_	_	_	bratA34=T79:Female|bratT168=Person-surname|bratT79=Person
+48	(	_	_	_	_	_	_	_	SpaceAfter=No
+49	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT80=Organization
+50	Челси	_	_	_	_	_	_	_	SpaceAfter=No|bratT167=GPE|bratT80=Organization
+51	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT80=Organization
+52	)	_	_	_	_	_	_	_	SpaceAfter=No
+53	,	_	_	_	_	_	_	_	_
+54	Джорджиан	_	_	_	_	_	_	_	bratA35=T81:Male|bratT127=Person-forename|bratT81=Person
+55	де	_	_	_	_	_	_	_	bratA35=T81:Male|bratT169=Person-surname|bratT81=Person
+56	Арраскаэта	_	_	_	_	_	_	_	bratA35=T81:Male|bratT169=Person-surname|bratT81=Person
+57	(	_	_	_	_	_	_	_	SpaceAfter=No
+58	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Organization
+59	Фламенго	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Organization
+60	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Organization
+61	)	_	_	_	_	_	_	_	SpaceAfter=No
+62	,	_	_	_	_	_	_	_	_
+63	Ширли	_	_	_	_	_	_	_	bratA36=T83:Female|bratT128=Person-forename|bratT83=Person
+64	Круз	_	_	_	_	_	_	_	bratA36=T83:Female|bratT170=Person-surname|bratT83=Person
+65	(	_	_	_	_	_	_	_	SpaceAfter=No
+66	сборная	_	_	_	_	_	_	_	bratT85=Organization
+67	Коста-Рики	_	_	_	_	_	_	_	SpaceAfter=No|bratT84=GPE|bratT85=Organization
+68	)	_	_	_	_	_	_	_	SpaceAfter=No
+69	,	_	_	_	_	_	_	_	_
+70	Хломфо	_	_	_	_	_	_	_	bratA37=T86:Male|bratT129=Person-forename|bratT86=Person
+71	Кекана	_	_	_	_	_	_	_	bratA37=T86:Male|bratT171=Person-surname|bratT86=Person
+72	(	_	_	_	_	_	_	_	SpaceAfter=No
+73	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT87=Organization
+74	Мамелоди	_	_	_	_	_	_	_	bratT172=GPE|bratT87=Organization
+75	Сандаунс	_	_	_	_	_	_	_	SpaceAfter=No|bratT87=Organization
+76	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT87=Organization
+77	)	_	_	_	_	_	_	_	SpaceAfter=No
+78	,	_	_	_	_	_	_	_	_
+79	Джордан	_	_	_	_	_	_	_	bratA38=T88:Male|bratT130=Person-forename|bratT88=Person
+80	Флорес	_	_	_	_	_	_	_	bratA38=T88:Male|bratT174=Person-surname|bratT88=Person
+81	(	_	_	_	_	_	_	_	SpaceAfter=No
+82	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Organization
+83	Дандолк	_	_	_	_	_	_	_	SpaceAfter=No|bratT173=GPE|bratT89=Organization
+84	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Organization
+85	)	_	_	_	_	_	_	_	SpaceAfter=No
+86	,	_	_	_	_	_	_	_	_
+87	Луис	_	_	_	_	_	_	_	bratA39=T90:Male|bratT131=Person-forename|bratT90=Person
+88	Суарес	_	_	_	_	_	_	_	bratA39=T90:Male|bratT175=Person-surname|bratT90=Person
+89	(	_	_	_	_	_	_	_	SpaceAfter=No
+90	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT91=Organization
+91	Барселона	_	_	_	_	_	_	_	SpaceAfter=No|bratT166=GPE|bratT91=Organization
+92	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT91=Organization
+93	)	_	_	_	_	_	_	_	SpaceAfter=No
+94	.	_	_	_	_	_	_	_	_
+

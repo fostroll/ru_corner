@@ -26,8 +26,8 @@
 8	в	_	_	_	_	_	_	_	_
 9	Азербайджан	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=GPE
 10	,	_	_	_	_	_	_	_	_
-11	сухопутные	_	_	_	_	_	_	_	_
-12	войска	_	_	_	_	_	_	_	_
+11	сухопутные	_	_	_	_	_	_	_	bratT54=Organization
+12	войска	_	_	_	_	_	_	_	bratT54=Organization
 13	уже	_	_	_	_	_	_	_	_
 14	завершают	_	_	_	_	_	_	_	_
 15	подготовку	_	_	_	_	_	_	_	SpaceAfter=No
@@ -72,8 +72,8 @@
 # sent_id = 0088-p3-s2
 # text = Наши сухопутные войска завершили свою подготовку'', - сказала министр обороны.
 1	Наши	_	_	_	_	_	_	_	_
-2	сухопутные	_	_	_	_	_	_	_	_
-3	войска	_	_	_	_	_	_	_	_
+2	сухопутные	_	_	_	_	_	_	_	bratT55=Organization
+3	войска	_	_	_	_	_	_	_	bratT55=Organization
 4	завершили	_	_	_	_	_	_	_	_
 5	свою	_	_	_	_	_	_	_	_
 6	подготовку	_	_	_	_	_	_	_	SpaceAfter=No
@@ -95,7 +95,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	высказывания	_	_	_	_	_	_	_	_
-7	иностранных	_	_	_	_	_	_	_	bratT14=Person-property
+7	иностранных	_	_	_	_	_	_	_	bratA17=T56:Adjective|bratT14=Person-property|bratT56=GPE
 8	политиков	_	_	_	_	_	_	_	bratT14=Person-property
 9	об	_	_	_	_	_	_	_	_
 10	уничтожении	_	_	_	_	_	_	_	_
@@ -148,10 +148,10 @@
 1	Армянские	_	_	_	_	_	_	_	bratA15=T48:Adjective|bratA3=T25:Citizenship|bratT25=Nationality|bratT48=GPE
 2	граждане	_	_	_	_	_	_	_	bratA3=T25:Citizenship|bratT25=Nationality
 3	восприняли	_	_	_	_	_	_	_	_
-4	подписание	_	_	_	_	_	_	_	_
-5	договора	_	_	_	_	_	_	_	_
+4	подписание	_	_	_	_	_	_	_	bratT52=Event
+5	договора	_	_	_	_	_	_	_	bratT52=Event
 6	как	_	_	_	_	_	_	_	_
-7	капитуляцию	_	_	_	_	_	_	_	SpaceAfter=No
+7	капитуляцию	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Event
 8	,	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	связи	_	_	_	_	_	_	_	_
@@ -160,13 +160,13 @@
 13	в	_	_	_	_	_	_	_	_
 14	Ереване	_	_	_	_	_	_	_	bratT26=GPE
 15	прошли	_	_	_	_	_	_	_	_
-16	акции	_	_	_	_	_	_	_	_
-17	протеста	_	_	_	_	_	_	_	_
+16	акции	_	_	_	_	_	_	_	bratT51=Event
+17	протеста	_	_	_	_	_	_	_	bratT51=Event
 18	с	_	_	_	_	_	_	_	_
 19	требованием	_	_	_	_	_	_	_	_
-20	отставки	_	_	_	_	_	_	_	_
+20	отставки	_	_	_	_	_	_	_	bratT50=Event
 21	премьер-министра	_	_	_	_	_	_	_	bratA9=T28:Male|bratT27=Person-property|bratT28=Person
-22	страны	_	_	_	_	_	_	_	bratA9=T28:Male|bratT27=Person-property|bratT28=Person
+22	страны	_	_	_	_	_	_	_	bratA9=T28:Male|bratT27=Person-property|bratT28=Person|bratT57=GPE
 23	Никола	_	_	_	_	_	_	_	bratA9=T28:Male|bratT28=Person|bratT40=Person-forename
 24	Пашиняна	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Male|bratT28=Person|bratT41=Person-surname
 25	.	_	_	_	_	_	_	_	_

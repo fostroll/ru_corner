@@ -5,11 +5,11 @@
 # text = В России бывший мэр получила новый пост после скандала с отпуском и премией
 1	В	_	_	_	_	_	_	_	_
 2	России	_	_	_	_	_	_	_	bratT1=GPE
-3	бывший	_	_	_	_	_	_	_	bratT2=Person-property
-4	мэр	_	_	_	_	_	_	_	bratT2=Person-property
+3	бывший	_	_	_	_	_	_	_	bratA16=T67:Female|bratT2=Person-property|bratT67=Person
+4	мэр	_	_	_	_	_	_	_	bratA16=T67:Female|bratT2=Person-property|bratT67=Person
 5	получила	_	_	_	_	_	_	_	_
 6	новый	_	_	_	_	_	_	_	_
-7	пост	_	_	_	_	_	_	_	_
+7	пост	_	_	_	_	_	_	_	bratT72=Person-property
 8	после	_	_	_	_	_	_	_	bratA9=T51:Past|bratT51=Date-relative
 9	скандала	_	_	_	_	_	_	_	bratT47=Event
 10	с	_	_	_	_	_	_	_	bratT47=Event
@@ -29,13 +29,13 @@
 6	,	_	_	_	_	_	_	_	_
 7	ушедшая	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	отставку	_	_	_	_	_	_	_	_
+9	отставку	_	_	_	_	_	_	_	bratT65=Event
 10	в	_	_	_	_	_	_	_	bratA2=T6:Past|bratT6=Date-absolute
 11	начале	_	_	_	_	_	_	_	bratA2=T6:Past|bratT6=Date-absolute
 12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Past|bratT6=Date-absolute
 13	,	_	_	_	_	_	_	_	_
 14	получила	_	_	_	_	_	_	_	_
-15	пост	_	_	_	_	_	_	_	_
+15	пост	_	_	_	_	_	_	_	bratT7=Person-property
 16	исполняющей	_	_	_	_	_	_	_	bratT7=Person-property
 17	обязанности	_	_	_	_	_	_	_	bratT7=Person-property
 18	заместителя	_	_	_	_	_	_	_	bratT7=Person-property
@@ -51,20 +51,20 @@
 2	этом	_	_	_	_	_	_	_	_
 3	ТАСС	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
 4	сообщила	_	_	_	_	_	_	_	_
-5	начальник	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-6	управления	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-7	информационной	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-8	политики	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-9	региона	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Person
-10	Татьяна	_	_	_	_	_	_	_	bratT12=Person|bratT57=Person-forename
-11	Самотойлова	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person|bratT58=Person-surname
+5	начальник	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
+6	управления	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
+7	информационной	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
+8	политики	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
+9	региона	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
+10	Татьяна	_	_	_	_	_	_	_	bratA17=T12:Female|bratT12=Person|bratT57=Person-forename
+11	Самотойлова	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T12:Female|bratT12=Person|bratT58=Person-surname
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p3
 # par_text = Чиновница будет курировать промышленность и службу занятости региона. Она стала восьмым заместителем губернатора. Макаревич проработала на посту главы Тамбова чуть более года. 30 октября депутаты Тамбовской городской думы на очередном заседании приняли ее досрочную отставку. Новым главой города стал Максим Косенков.
 # sent_id = 0099-p3-s1
 # text = Чиновница будет курировать промышленность и службу занятости региона.
-1	Чиновница	_	_	_	_	_	_	_	bratT13=Person-property
+1	Чиновница	_	_	_	_	_	_	_	bratA18=T68:Female|bratT13=Person-property|bratT68=Person
 2	будет	_	_	_	_	_	_	_	_
 3	курировать	_	_	_	_	_	_	_	_
 4	промышленность	_	_	_	_	_	_	_	_
@@ -100,10 +100,10 @@
 # text = 30 октября депутаты Тамбовской городской думы на очередном заседании приняли ее досрочную отставку.
 1	30	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
-3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property
-4	Тамбовской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE
-5	городской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
-6	думы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
+3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property|bratT69=Person
+4	Тамбовской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE|bratT69=Person
+5	городской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT69=Person
+6	думы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT69=Person
 7	на	_	_	_	_	_	_	_	_
 8	очередном	_	_	_	_	_	_	_	_
 9	заседании	_	_	_	_	_	_	_	_
@@ -133,7 +133,7 @@
 4	оказалась	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	центре	_	_	_	_	_	_	_	_
-7	скандала	_	_	_	_	_	_	_	_
+7	скандала	_	_	_	_	_	_	_	bratT66=Event
 8	из-за	_	_	_	_	_	_	_	_
 9	того	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
@@ -176,10 +176,10 @@
 2	том	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
 3	же	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
 4	месяце	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute
-5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property
-6	Тамбовской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE
-7	городской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
-8	думы	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
+5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property|bratT70=Person
+6	Тамбовской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE|bratT70=Person
+7	городской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT70=Person
+8	думы	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT70=Person
 9	решили	_	_	_	_	_	_	_	_
 10	выписать	_	_	_	_	_	_	_	_
 11	премию	_	_	_	_	_	_	_	_
@@ -198,9 +198,9 @@
 
 # sent_id = 0099-p4-s4
 # text = Один из депутатов пояснил, что зарплата мэра составляет около 200 тысяч рублей.
-1	Один	_	_	_	_	_	_	_	bratT36=Quantity
-2	из	_	_	_	_	_	_	_	bratT36=Quantity
-3	депутатов	_	_	_	_	_	_	_	bratT37=Person-property
+1	Один	_	_	_	_	_	_	_	bratT36=Quantity|bratT71=Person
+2	из	_	_	_	_	_	_	_	bratT36=Quantity|bratT71=Person
+3	депутатов	_	_	_	_	_	_	_	bratT37=Person-property|bratT71=Person
 4	пояснил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_

@@ -1,0 +1,296 @@
+# newdoc id = 0125
+# newpar id = 0125-p1
+# par_text = Эксперты зафиксировали превышающий показатели весны рост увольнений
+# sent_id = 0125-p1-s1
+# text = Эксперты зафиксировали превышающий показатели весны рост увольнений
+1	Эксперты	_	_	_	_	_	_	_	bratT1=Person-property
+2	зафиксировали	_	_	_	_	_	_	_	_
+3	превышающий	_	_	_	_	_	_	_	_
+4	показатели	_	_	_	_	_	_	_	_
+5	весны	_	_	_	_	_	_	_	bratA1=T2:Past|bratT2=Date-period-absolute
+6	рост	_	_	_	_	_	_	_	_
+7	увольнений	_	_	_	_	_	_	_	_
+
+# newpar id = 0125-p2
+# par_text = В первые месяцы осени резко возросло число увольнений на предприятиях малого и среднего бизнеса. К такому выводу пришли специалисты бухгалтерского сервиса «БухСофт» (входит в медиагруппу «Актион-МЦФЭР»). Результаты исследования компании есть у РБК.
+# sent_id = 0125-p2-s1
+# text = В первые месяцы осени резко возросло число увольнений на предприятиях малого и среднего бизнеса.
+1	В	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-period-absolute
+2	первые	_	_	_	_	_	_	_	bratA2=T4:Past|bratT3=Ordinal|bratT4=Date-period-absolute
+3	месяцы	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-period-absolute|bratT52=Duration
+4	осени	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-period-absolute
+5	резко	_	_	_	_	_	_	_	_
+6	возросло	_	_	_	_	_	_	_	_
+7	число	_	_	_	_	_	_	_	_
+8	увольнений	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	предприятиях	_	_	_	_	_	_	_	_
+11	малого	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	среднего	_	_	_	_	_	_	_	_
+14	бизнеса	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0125-p2-s2
+# text = К такому выводу пришли специалисты бухгалтерского сервиса ``БухСофт'' (входит в медиагруппу ``Актион-МЦФЭР'').
+1	К	_	_	_	_	_	_	_	_
+2	такому	_	_	_	_	_	_	_	_
+3	выводу	_	_	_	_	_	_	_	_
+4	пришли	_	_	_	_	_	_	_	_
+5	специалисты	_	_	_	_	_	_	_	bratT6=Person-property
+6	бухгалтерского	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property
+7	сервиса	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization|bratT6=Person-property
+9	БухСофт	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization|bratT6=Person-property
+10	''	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	входит	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	медиагруппу	_	_	_	_	_	_	_	bratT7=Organization
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+16	Актион-МЦФЭР	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+18	)	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0125-p2-s3
+# text = Результаты исследования компании есть у РБК.
+1	Результаты	_	_	_	_	_	_	_	_
+2	исследования	_	_	_	_	_	_	_	_
+3	компании	_	_	_	_	_	_	_	_
+4	есть	_	_	_	_	_	_	_	_
+5	у	_	_	_	_	_	_	_	_
+6	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT8=Organization
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0125-p3
+# par_text = По данным «БухСофт», в сентябре работы лишились около 9,6% сотрудников исследованных компаний, а в октябре их было уже 16,2%. При этом во время первой волны коронавируса процент лишившихся работы составлял 4,7% в апреле и 4,2% в мае.
+# sent_id = 0125-p3-s1
+# text = По данным ``БухСофт'', в сентябре работы лишились около 9,6% сотрудников исследованных компаний, а в октябре их было уже 16,2%.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
+4	БухСофт	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
+5	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
+6	,	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	bratA4=T10:Past|bratT10=Date-absolute
+8	сентябре	_	_	_	_	_	_	_	bratA4=T10:Past|bratT10=Date-absolute
+9	работы	_	_	_	_	_	_	_	_
+10	лишились	_	_	_	_	_	_	_	_
+11	около	_	_	_	_	_	_	_	bratT11=Percent
+12-13	9,6%	_	_	_	_	_	_	_	_
+12	9,6	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Percent
+13	%	_	_	_	_	_	_	_	bratT11=Percent
+14	сотрудников	_	_	_	_	_	_	_	bratT12=Person-property
+15	исследованных	_	_	_	_	_	_	_	_
+16	компаний	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	а	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
+20	октябре	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
+21	их	_	_	_	_	_	_	_	_
+22	было	_	_	_	_	_	_	_	_
+23	уже	_	_	_	_	_	_	_	_
+24-25	16,2%	_	_	_	_	_	_	_	SpaceAfter=No
+24	16,2	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Percent
+25	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Percent
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0125-p3-s2
+# text = При этом во время первой волны коронавируса процент лишившихся работы составлял 4,7% в апреле и 4,2% в мае.
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	во	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-period-absolute
+4	время	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-period-absolute
+5	первой	_	_	_	_	_	_	_	bratA6=T17:Past|bratT15=Ordinal|bratT17=Date-period-absolute|bratT53=Event
+6	волны	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-period-absolute|bratT53=Event
+7	коронавируса	_	_	_	_	_	_	_	bratA6=T17:Past|bratT16=Other-term|bratT17=Date-period-absolute|bratT53=Event
+8	процент	_	_	_	_	_	_	_	_
+9	лишившихся	_	_	_	_	_	_	_	_
+10	работы	_	_	_	_	_	_	_	_
+11	составлял	_	_	_	_	_	_	_	_
+12-13	4,7%	_	_	_	_	_	_	_	_
+12	4,7	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Percent
+13	%	_	_	_	_	_	_	_	bratT18=Percent
+14	в	_	_	_	_	_	_	_	bratA7=T19:Past|bratT19=Date-absolute
+15	апреле	_	_	_	_	_	_	_	bratA7=T19:Past|bratT19=Date-absolute
+16	и	_	_	_	_	_	_	_	_
+17-18	4,2%	_	_	_	_	_	_	_	_
+17	4,2	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
+18	%	_	_	_	_	_	_	_	bratT20=Percent
+19	в	_	_	_	_	_	_	_	bratA8=T21:Past|bratT21=Date-absolute
+20	мае	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Past|bratT21=Date-absolute
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0125-p4
+# par_text = Всплеск увольнений также был зафиксирован в июле и августе — около 5,5% и 5,9% работников соответственно.
+# sent_id = 0125-p4-s1
+# text = Всплеск увольнений также был зафиксирован в июле и августе - около 5,5% и 5,9% работников соответственно.
+1	Всплеск	_	_	_	_	_	_	_	_
+2	увольнений	_	_	_	_	_	_	_	_
+3	также	_	_	_	_	_	_	_	_
+4	был	_	_	_	_	_	_	_	_
+5	зафиксирован	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	bratA9=T22:Past|bratT22=Date-absolute
+7	июле	_	_	_	_	_	_	_	bratA9=T22:Past|bratT22=Date-absolute
+8	и	_	_	_	_	_	_	_	_
+9	августе	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute
+10	-	_	_	_	_	_	_	_	_
+11	около	_	_	_	_	_	_	_	bratT24=Percent
+12-13	5,5%	_	_	_	_	_	_	_	_
+12	5,5	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Percent
+13	%	_	_	_	_	_	_	_	bratT24=Percent
+14	и	_	_	_	_	_	_	_	_
+15-16	5,9%	_	_	_	_	_	_	_	_
+15	5,9	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Percent
+16	%	_	_	_	_	_	_	_	bratT25=Percent
+17	работников	_	_	_	_	_	_	_	bratT26=Person-property
+18	соответственно	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0125-p5
+# par_text = Исследование «БухСофт» проводилось на основе данных более 4 тыс. компаний, сотрудниками которых являются более 305 тыс. человек.
+# sent_id = 0125-p5-s1
+# text = Исследование ``БухСофт'' проводилось на основе данных более 4 тыс. компаний, сотрудниками которых являются более 305 тыс. человек.
+1	Исследование	_	_	_	_	_	_	_	_
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+3	БухСофт	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+4	''	_	_	_	_	_	_	_	bratT27=Organization
+5	проводилось	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	основе	_	_	_	_	_	_	_	_
+8	данных	_	_	_	_	_	_	_	_
+9	более	_	_	_	_	_	_	_	bratT28=Quantity
+10	4	_	_	_	_	_	_	_	bratT28=Quantity
+11	тыс.	_	_	_	_	_	_	_	bratT28=Quantity
+12	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Quantity
+13	,	_	_	_	_	_	_	_	_
+14	сотрудниками	_	_	_	_	_	_	_	bratT29=Person-property
+15	которых	_	_	_	_	_	_	_	_
+16	являются	_	_	_	_	_	_	_	_
+17	более	_	_	_	_	_	_	_	bratT30=Quantity
+18	305	_	_	_	_	_	_	_	bratT30=Quantity
+19	тыс.	_	_	_	_	_	_	_	bratT30=Quantity
+20	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Quantity
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0125-p6
+# par_text = «На период с марта по май пришлась волна отправлений сотрудников в простой — бизнес пытался следовать указаниям президента и правительства, и спасти большую часть штата», — отметила руководитель сервиса Наталья Андреева.
+# sent_id = 0125-p6-s1
+# text = ``На период с марта по май пришлась волна отправлений сотрудников в простой - бизнес пытался следовать указаниям президента и правительства, и спасти большую часть штата'', - отметила руководитель сервиса Наталья Андреева.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	На	_	_	_	_	_	_	_	bratA11=T31:Past|bratT31=Date-period-absolute
+3	период	_	_	_	_	_	_	_	bratA11=T31:Past|bratT31=Date-period-absolute
+4	с	_	_	_	_	_	_	_	bratA11=T31:Past|bratT31=Date-period-absolute
+5	марта	_	_	_	_	_	_	_	bratA11=T31:Past|bratT31=Date-period-absolute
+6	по	_	_	_	_	_	_	_	bratA11=T31:Past|bratT31=Date-period-absolute
+7	май	_	_	_	_	_	_	_	bratA11=T31:Past|bratT31=Date-period-absolute
+8	пришлась	_	_	_	_	_	_	_	_
+9	волна	_	_	_	_	_	_	_	_
+10	отправлений	_	_	_	_	_	_	_	_
+11	сотрудников	_	_	_	_	_	_	_	bratT32=Person-property
+12	в	_	_	_	_	_	_	_	_
+13	простой	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	бизнес	_	_	_	_	_	_	_	_
+16	пытался	_	_	_	_	_	_	_	_
+17	следовать	_	_	_	_	_	_	_	_
+18	указаниям	_	_	_	_	_	_	_	_
+19	президента	_	_	_	_	_	_	_	bratT33=Person-property
+20	и	_	_	_	_	_	_	_	_
+21	правительства	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+22	,	_	_	_	_	_	_	_	_
+23	и	_	_	_	_	_	_	_	_
+24	спасти	_	_	_	_	_	_	_	_
+25	большую	_	_	_	_	_	_	_	bratT35=Percent
+26	часть	_	_	_	_	_	_	_	bratT35=Percent
+27	штата	_	_	_	_	_	_	_	SpaceAfter=No
+28	''	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	_	_	_	_	_	_	_	_
+30	-	_	_	_	_	_	_	_	_
+31	отметила	_	_	_	_	_	_	_	_
+32	руководитель	_	_	_	_	_	_	_	bratA12=T39:Female|bratT36=Person-property|bratT39=Person
+33	сервиса	_	_	_	_	_	_	_	bratA12=T39:Female|bratT36=Person-property|bratT39=Person
+34	Наталья	_	_	_	_	_	_	_	bratA12=T39:Female|bratT37=Person-forename|bratT39=Person
+35	Андреева	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T39:Female|bratT38=Person-surname|bratT39=Person
+36	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0125-p7
+# par_text = Согласно данным экспертов, если в апреле и мае была приостановлена работа около 35% участвовавших в исследовании компаний, то с августа по октябрь этот показатель колебался в районе 0%.
+# sent_id = 0125-p7-s1
+# text = Согласно данным экспертов, если в апреле и мае была приостановлена работа около 35% участвовавших в исследовании компаний, то с августа по октябрь этот показатель колебался в районе 0%.
+1	Согласно	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property
+4	,	_	_	_	_	_	_	_	_
+5	если	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	bratA13=T41:Past|bratT41=Date-period-absolute
+7	апреле	_	_	_	_	_	_	_	bratA13=T41:Past|bratT41=Date-period-absolute
+8	и	_	_	_	_	_	_	_	bratA13=T41:Past|bratT41=Date-period-absolute
+9	мае	_	_	_	_	_	_	_	bratA13=T41:Past|bratT41=Date-period-absolute
+10	была	_	_	_	_	_	_	_	_
+11	приостановлена	_	_	_	_	_	_	_	_
+12	работа	_	_	_	_	_	_	_	_
+13	около	_	_	_	_	_	_	_	bratT43=Percent
+14-15	35%	_	_	_	_	_	_	_	_
+14	35	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Percent
+15	%	_	_	_	_	_	_	_	bratT43=Percent
+16	участвовавших	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	исследовании	_	_	_	_	_	_	_	_
+19	компаний	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	то	_	_	_	_	_	_	_	_
+22	с	_	_	_	_	_	_	_	bratA15=T44:Past|bratT44=Date-period-absolute
+23	августа	_	_	_	_	_	_	_	bratA15=T44:Past|bratT44=Date-period-absolute
+24	по	_	_	_	_	_	_	_	bratA15=T44:Past|bratT44=Date-period-absolute
+25	октябрь	_	_	_	_	_	_	_	bratA15=T44:Past|bratT44=Date-period-absolute
+26	этот	_	_	_	_	_	_	_	_
+27	показатель	_	_	_	_	_	_	_	_
+28	колебался	_	_	_	_	_	_	_	_
+29	в	_	_	_	_	_	_	_	bratT45=Percent
+30	районе	_	_	_	_	_	_	_	bratT45=Percent
+31-32	0%	_	_	_	_	_	_	_	SpaceAfter=No
+31	0	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Percent
+32	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Percent
+33	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0125-p8
+# par_text = Кроме того, исследование показало, что на удаленную работу перешли только 7,5% сотрудников, тогда как в апреле— мае доля таких работников составляла 32 и 21% соответственно.
+# sent_id = 0125-p8-s1
+# text = Кроме того, исследование показало, что на удаленную работу перешли только 7,5% сотрудников, тогда как в апреле - мае доля таких работников составляла 32 и 21% соответственно.
+1	Кроме	_	_	_	_	_	_	_	_
+2	того	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	исследование	_	_	_	_	_	_	_	_
+5	показало	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	_
+9	удаленную	_	_	_	_	_	_	_	_
+10	работу	_	_	_	_	_	_	_	_
+11	перешли	_	_	_	_	_	_	_	_
+12	только	_	_	_	_	_	_	_	_
+13-14	7,5%	_	_	_	_	_	_	_	_
+13	7,5	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Percent
+14	%	_	_	_	_	_	_	_	bratT46=Percent
+15	сотрудников	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person-property
+16	,	_	_	_	_	_	_	_	_
+17	тогда	_	_	_	_	_	_	_	_
+18	как	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	bratA16=T48:Past|bratT48=Date-period-absolute
+20	апреле	_	_	_	_	_	_	_	bratA16=T48:Past|bratT48=Date-period-absolute
+21	-	_	_	_	_	_	_	_	bratA16=T48:Past|bratT48=Date-period-absolute
+22	мае	_	_	_	_	_	_	_	bratA16=T48:Past|bratT48=Date-period-absolute
+23	доля	_	_	_	_	_	_	_	_
+24	таких	_	_	_	_	_	_	_	_
+25	работников	_	_	_	_	_	_	_	bratT49=Person-property
+26	составляла	_	_	_	_	_	_	_	_
+27	32	_	_	_	_	_	_	_	bratT50=Percent
+28	и	_	_	_	_	_	_	_	_
+29-30	21%	_	_	_	_	_	_	_	_
+29	21	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Percent
+30	%	_	_	_	_	_	_	_	bratT51=Percent
+31	соответственно	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	_	_	_	_	_	_	_	_
+

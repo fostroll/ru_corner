@@ -1,0 +1,48 @@
+T1	Person-property 0 16	Глава   Минцифры
+T2	Organization 8 16	Минцифры
+T3	Nationality 40 48	россияне
+A1	Citizenship T3
+T4	Date-absolute 120 135	В   2021   году
+T5	GPE 142 148	России
+T6	Date-absolute 319 346	2   ноября   на   заседании
+T7	Event 337 346	заседании
+T8	Organization 349 410	комитета   Совета   Федерации   по   экономической   политике
+A2	Department T8
+T9	Organization 360 378	Совета   Федерации
+T10	Person 413 447	глава   Минцифры   Максут   Шадаев
+T11	Person-property 413 429	глава   Минцифры
+T12	Organization 421 429	Минцифры
+T13	Person 776 783	Шадаева
+T14	Organization 786 790	ТАСС
+A3	Media T14
+T15	Person-property 796 812	Глава   Минцифры
+T16	Organization 804 812	Минцифры
+T17	Organization 1113 1116	МВД
+T18	Other-term 1468 1474	QR-код
+T19	Person 1697 1703	Шадаев
+T20	Organization 1733 1741	Минцифры
+T21	Date-absolute 1822 1842	в   следующем   году
+T22	Date-absolute 481 487	сейчас
+T23	Event 892 900	пандемии
+T25	Date-period-absolute 870 900	весной   во   время   пандемии
+T26	Date-period-absolute 1020 1042	во   время   карантина
+T27	Event 1033 1042	карантина
+T28	Ordinal 1826 1835	следующем
+A4	Male T10
+T29	Person-forename 432 438	Максут
+T30	Person-surname 441 447	Шадаев
+A5	Future T4
+A6	Past T6
+A8	Male T13
+T31	Person-surname 776 783	Шадаева
+A9	Past T25
+A10	Past T26
+T24	Person-surname 1697 1703	Шадаев
+A11	Male T19
+A12	Future T21
+A7	Present T22
+T32	Nationality 220 228	граждане
+A13	Citizenship T32
+T33	Nationality 955 963	граждане
+A14	Citizenship T33
+T34	Other-term 1571 1600	водительским   удостоверениям

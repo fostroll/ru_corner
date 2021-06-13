@@ -43,7 +43,7 @@
 3	он	_	_	_	_	_	_	_	_
 4	сообщил	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	сторис	_	_	_	_	_	_	_	_
+6	сторис	_	_	_	_	_	_	_	bratA22=T64:Media|bratT64=Service
 7	в	_	_	_	_	_	_	_	_
 8	своем	_	_	_	_	_	_	_	_
 9	Instagram-аккаунте	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Media|bratT9=Service
@@ -54,7 +54,7 @@
 # sent_id = 0100-p3-s1
 # text = 22-летний предприниматель рассказал подписчикам, как он смог преодолеть проблемы, с которыми столкнулся его бизнес в начале 2020 года.
 1	22-летний	_	_	_	_	_	_	_	bratT10=Age
-2	предприниматель	_	_	_	_	_	_	_	bratT11=Person-property
+2	предприниматель	_	_	_	_	_	_	_	bratA23=T67:Male|bratT11=Person-property|bratT67=Person
 3	рассказал	_	_	_	_	_	_	_	_
 4	подписчикам	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Other-group
 5	,	_	_	_	_	_	_	_	_
@@ -118,8 +118,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	подобная	_	_	_	_	_	_	_	_
-7	стрессовая	_	_	_	_	_	_	_	_
-8	ситуация	_	_	_	_	_	_	_	_
+7	стрессовая	_	_	_	_	_	_	_	bratT65=Event
+8	ситуация	_	_	_	_	_	_	_	bratT65=Event
 9	придала	_	_	_	_	_	_	_	_
 10	ему	_	_	_	_	_	_	_	_
 11	сил	_	_	_	_	_	_	_	SpaceAfter=No
@@ -222,18 +222,21 @@
 8	его	_	_	_	_	_	_	_	_
 9	компании	_	_	_	_	_	_	_	_
 10	стали	_	_	_	_	_	_	_	_
-11	маркетплейсы	_	_	_	_	_	_	_	_
+11	маркетплейсы	_	_	_	_	_	_	_	bratT70=Service
 12	(	_	_	_	_	_	_	_	SpaceAfter=No
-13	платформы	_	_	_	_	_	_	_	_
-14	электронной	_	_	_	_	_	_	_	_
-15	коммерции	_	_	_	_	_	_	_	_
+13	платформы	_	_	_	_	_	_	_	bratT71=Service
+14	электронной	_	_	_	_	_	_	_	bratT71=Service
+15	коммерции	_	_	_	_	_	_	_	bratT71=Service
 16	-	_	_	_	_	_	_	_	_
 17	прим.	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratT23=Organization
-19	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratT23=Organization
-20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratT23=Organization
-21	)	_	_	_	_	_	_	_	SpaceAfter=No
-22	.	_	_	_	_	_	_	_	_
+19-21	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No
+19	Ленты	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratT23=Organization
+20	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratT23=Organization
+21	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratT23=Organization
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T23:Media|bratT23=Organization
+23	)	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0100-p7
 # par_text = Показатели удивили предпринимателя. За сутки продаж две его компании заработали 100 тысяч рублей чистой прибыли.
@@ -241,7 +244,7 @@
 # text = Показатели удивили предпринимателя.
 1	Показатели	_	_	_	_	_	_	_	_
 2	удивили	_	_	_	_	_	_	_	_
-3	предпринимателя	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property
+3	предпринимателя	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T68:Male|bratT36=Person-property|bratT68=Person
 4	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0100-p7-s2
@@ -286,10 +289,10 @@
 1	В	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute
 2	октябре	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute
 3	22-летний	_	_	_	_	_	_	_	bratT35=Age
-4	предприниматель	_	_	_	_	_	_	_	bratT34=Person-property
+4	предприниматель	_	_	_	_	_	_	_	bratA25=T69:Male|bratT34=Person-property|bratT69=Person
 5	объявил	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	беременности	_	_	_	_	_	_	_	_
+7	беременности	_	_	_	_	_	_	_	bratT66=Event
 8	своей	_	_	_	_	_	_	_	bratA19=T33:Female|bratT33=Person
 9	жены	_	_	_	_	_	_	_	bratA19=T33:Female|bratT33=Person|bratT44=Family
 10	Лианы	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T33:Female|bratT33=Person|bratT63=Person-forename

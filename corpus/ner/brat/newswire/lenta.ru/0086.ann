@@ -10,35 +10,35 @@ T9	GPE 332 335	ФРГ
 T10	Person 322 354	канцлер   ФРГ   Ангела   Меркель
 T11	Date-absolute 457 469	28   октября
 T12	Date-period-absolute 512 529	до   20   декабря
-T14	Date-period-absolute 688 708	до   начала   января
-T15	Person 735 742	Меркель
-T16	Date-absolute 847 857	2   ноября
-T17	GPE 860 868	Германия
-T18	Event 879 897	жесткий   карантин
-T19	Other-term 942 955	коронавирусом
-T20	Person-property 980 994	канцлера   ФРГ
-T21	GPE 991 994	ФРГ
-T22	Person 980 1013	канцлера   ФРГ   Ангелы   Меркель
-T23	Date-absolute 1334 1353	Ранее   в   октябре
-T24	Quantity 1276 1300	более   десяти   человек
-T25	Person 1356 1363	Меркель
-T26	GPE 1386 1394	Германия
-T27	Other-term 1548 1560	коронавируса
-T28	Other-term 1475 1483	локдауна
-T29	Ordinal 1531 1537	первой
+T14	Date-period-absolute 685 705	до   начала   января
+T15	Person 732 739	Меркель
+T16	Date-absolute 844 854	2   ноября
+T17	GPE 857 865	Германия
+T18	Event 876 894	жесткий   карантин
+T19	Other-term 939 952	коронавирусом
+T20	Person-property 977 991	канцлера   ФРГ
+T21	GPE 988 991	ФРГ
+T22	Person 977 1010	канцлера   ФРГ   Ангелы   Меркель
+T23	Date-absolute 1331 1350	Ранее   в   октябре
+T24	Quantity 1273 1297	более   десяти   человек
+T25	Person 1353 1360	Меркель
+T26	GPE 1383 1391	Германия
+T27	Other-term 1545 1557	коронавируса
+T28	Event 1472 1480	локдауна
+T29	Ordinal 1528 1534	первой
 T13	Quantity 399 424	16   федеральных   земель
 T30	Event 26 44	жесткий   карантин
-T31	Event 1654 1663	пандемией
-T32	Event 1531 1560	первой   волны   коронавируса
+T31	Event 1651 1660	пандемией
+T32	Event 1528 1557	первой   волны   коронавируса
 T34	Ordinal 278 288	следующего
 T35	Date-absolute 231 243	впоследствии
 T39	Date-absolute 147 161	конца   ноября
 A3	Past T11
 A5	Past T16
 A6	Past T23
-T42	Date-absolute 1509 1545	весной   во   время   первой   волны
+T42	Date-absolute 1506 1542	весной   во   время   первой   волны
 A10	Past T42
-T43	Date-relative 1334 1339	Ранее
+T43	Date-relative 1331 1336	Ранее
 A11	Pres-Fut T2
 A2	Past-Fut T5
 A12	Fut T7
@@ -48,18 +48,22 @@ A4	Past T43
 A9	Future T35
 A14	LCont T7
 A1	Past-Fut T6
-T33	Event 762 787	рождественские   каникулы
-T36	Date-period-absolute 757 787	на   рождественские   каникулы
+T33	Event 759 784	рождественские   каникулы
+T36	Date-period-absolute 754 784	на   рождественские   каникулы
 A13	Fut T36
 T37	Person-forename 338 344	Ангела
 T38	Person-surname 347 354	Меркель
-T40	Person-surname 735 742	Меркель
-T41	Person-forename 997 1003	Ангелы
-T44	Person-surname 1006 1013	Меркель
-T45	Person-surname 1356 1363	Меркель
-T46	Nationality 1216 1232	Жителям   страны
+T40	Person-surname 732 739	Меркель
+T41	Person-forename 994 1000	Ангелы
+T44	Person-surname 1003 1010	Меркель
+T45	Person-surname 1353 1360	Меркель
+T46	Nationality 1213 1229	Жителям   страны
 A15	Resident T46
 A16	Female T10
 A18	Female T25
 A17	Female T22
 A19	Female T15
+T47	Event 636 645	заражений
+T48	Event 917 952	случаев   заражения   коронавирусом
+T49	Event 371 382	переговоров
+T50	Person 389 424	главами   16   федеральных   земель

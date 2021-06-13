@@ -13,8 +13,8 @@
 8	боем	_	_	_	_	_	_	_	bratA10=T30:Past|bratT28=Event|bratT30=Date-absolute
 9	за	_	_	_	_	_	_	_	bratT28=Event
 10	титул	_	_	_	_	_	_	_	bratT28=Event
-11	чемпиона	_	_	_	_	_	_	_	bratT28=Event
-12	мира	_	_	_	_	_	_	_	bratT28=Event|bratT54=GPE
+11	чемпиона	_	_	_	_	_	_	_	bratT28=Event|bratT83=Person-property
+12	мира	_	_	_	_	_	_	_	bratT28=Event|bratT54=GPE|bratT83=Person-property
 
 # newpar id = 0098-p2
 # par_text = Украинский боксер Василий Ломаченко вышел на бой против американца Теофимо Лопеса с травмой плеча. Об этом Yahoo Sports рассказал врач Нил Эльаттрахе.
@@ -54,9 +54,9 @@
 # text = По словам доктора, спортсмен получил повреждение за шесть недель до боя.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	доктора	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property
+3	доктора	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property|bratT80=Person
 4	,	_	_	_	_	_	_	_	_
-5	спортсмен	_	_	_	_	_	_	_	bratT17=Person-property
+5	спортсмен	_	_	_	_	_	_	_	bratA27=T81:Male|bratT17=Person-property|bratT81=Person
 6	получил	_	_	_	_	_	_	_	_
 7	повреждение	_	_	_	_	_	_	_	_
 8	за	_	_	_	_	_	_	_	bratA11=T8:Past|bratT8=Date-absolute
@@ -86,7 +86,7 @@
 1	После	_	_	_	_	_	_	_	bratA12=T47:Past|bratT47=Date-absolute
 2	поединка	_	_	_	_	_	_	_	bratA12=T47:Past|bratT27=Event|bratT47=Date-absolute
 3	у	_	_	_	_	_	_	_	_
-4	боксера	_	_	_	_	_	_	_	bratT16=Person-property
+4	боксера	_	_	_	_	_	_	_	bratA28=T82:Male|bratT16=Person-property|bratT82=Person
 5	выявили	_	_	_	_	_	_	_	_
 6	ушиб	_	_	_	_	_	_	_	bratT19=Other-term
 7	ротаторной	_	_	_	_	_	_	_	bratT19=Other-term
@@ -110,9 +110,9 @@
 4	19	_	_	_	_	_	_	_	bratA8=T20:Past|bratT20=Date-absolute
 5	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Past|bratT20=Date-absolute
 6	,	_	_	_	_	_	_	_	_
-7	украинец	_	_	_	_	_	_	_	bratA2=T21:Citizenship|bratT21=Nationality
+7	украинец	_	_	_	_	_	_	_	bratA2=T21:Citizenship|bratA29=T84:Male|bratT21=Nationality|bratT84=Person
 8	перенес	_	_	_	_	_	_	_	_
-9	операцию	_	_	_	_	_	_	_	_
+9	операцию	_	_	_	_	_	_	_	bratT79=Event
 10	на	_	_	_	_	_	_	_	_
 11	плече	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
@@ -122,8 +122,8 @@
 # sent_id = 0098-p4-s1
 # text = Поединок Василия Ломаченко против Теофима Лопеса прошел в американском Лас-Вегасе в воскресенье, 18 октября.
 1	Поединок	_	_	_	_	_	_	_	bratT46=Event
-2	Василия	_	_	_	_	_	_	_	bratA18=T10:Male|bratT10=Person|bratT46=Event|bratT69=Person-forename
-3	Ломаченко	_	_	_	_	_	_	_	bratA18=T10:Male|bratT10=Person|bratT46=Event|bratT70=Person-surname
+2	Василия	_	_	_	_	_	_	_	bratA18=T10:Male|bratT10=Person|bratT69=Person-forename
+3	Ломаченко	_	_	_	_	_	_	_	bratA18=T10:Male|bratT10=Person|bratT70=Person-surname
 4	против	_	_	_	_	_	_	_	_
 5	Теофима	_	_	_	_	_	_	_	bratA19=T11:Male|bratT11=Person|bratT71=Person-forename
 6	Лопеса	_	_	_	_	_	_	_	bratA19=T11:Male|bratT11=Person|bratT72=Person-surname
@@ -140,7 +140,7 @@
 
 # sent_id = 0098-p4-s2
 # text = Американец победил судейским решением - 116-112, 119-109, 117-111.
-1	Американец	_	_	_	_	_	_	_	bratA3=T24:Citizenship|bratT24=Nationality
+1	Американец	_	_	_	_	_	_	_	bratA3=T24:Citizenship|bratA30=T85:Male|bratT24=Nationality|bratT85=Person
 2	победил	_	_	_	_	_	_	_	_
 3	судейским	_	_	_	_	_	_	_	_
 4	решением	_	_	_	_	_	_	_	_
@@ -233,7 +233,7 @@
 1	На	_	_	_	_	_	_	_	_
 2	любительском	_	_	_	_	_	_	_	_
 3	уровне	_	_	_	_	_	_	_	_
-4	украинец	_	_	_	_	_	_	_	bratA5=T37:Citizenship|bratT37=Nationality
+4	украинец	_	_	_	_	_	_	_	bratA31=T86:Male|bratA5=T37:Citizenship|bratT37=Nationality|bratT86=Person
 5	завоевал	_	_	_	_	_	_	_	_
 6	золото	_	_	_	_	_	_	_	_
 7	Олимпийских	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Event

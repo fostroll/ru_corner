@@ -1,0 +1,248 @@
+# newdoc id = 0014
+# newpar id = 0014-p1
+# par_text = Bloomberg: умершему в Бразилии участнику испытаний вакцины AstraZeneca не вводили препарат
+# sent_id = 0014-p1-s1
+# text = Bloomberg: умершему в Бразилии участнику испытаний вакцины AstraZeneca не вводили препарат
+1	Bloomberg	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Media|bratT1=Organization
+2	:	_	_	_	_	_	_	_	_
+3	умершему	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	Бразилии	_	_	_	_	_	_	_	bratT2=GPE
+6	участнику	_	_	_	_	_	_	_	bratT4=Person-property
+7	испытаний	_	_	_	_	_	_	_	bratT4=Person-property
+8	вакцины	_	_	_	_	_	_	_	bratA21=T3:Trademark|bratT3=Product|bratT38=Other-term|bratT4=Person-property
+9	AstraZeneca	_	_	_	_	_	_	_	bratA21=T3:Trademark|bratT3=Product|bratT4=Person-property
+10	не	_	_	_	_	_	_	_	_
+11	вводили	_	_	_	_	_	_	_	_
+12	препарат	_	_	_	_	_	_	_	_
+
+# newpar id = 0014-p2
+# par_text = Умерший в Бразилии 15 октября участник национальных испытаний вакцины от коронавируса разработки Оксфордского университета и британско-шведской фармацевтической компании AstraZeneca не получал препарат компании. Об этом в среду сообщило агентство Bloomberg со ссылкой на информированные источники.
+# sent_id = 0014-p2-s1
+# text = Умерший в Бразилии 15 октября участник национальных испытаний вакцины от коронавируса разработки Оксфордского университета и британско-шведской фармацевтической компании AstraZeneca не получал препарат компании.
+1	Умерший	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	Бразилии	_	_	_	_	_	_	_	bratT5=GPE
+4	15	_	_	_	_	_	_	_	bratA8=T6:Past|bratT6=Date-absolute
+5	октября	_	_	_	_	_	_	_	bratA8=T6:Past|bratT6=Date-absolute
+6	участник	_	_	_	_	_	_	_	bratT12=Person-property
+7	национальных	_	_	_	_	_	_	_	bratA22=T50:Adjective|bratT12=Person-property|bratT50=GPE
+8	испытаний	_	_	_	_	_	_	_	bratT12=Person-property
+9	вакцины	_	_	_	_	_	_	_	bratT10=Other-term|bratT11=Product|bratT12=Person-property
+10	от	_	_	_	_	_	_	_	bratT11=Product|bratT12=Person-property
+11	коронавируса	_	_	_	_	_	_	_	bratT11=Product|bratT12=Person-property|bratT9=Other-term
+12	разработки	_	_	_	_	_	_	_	_
+13	Оксфордского	_	_	_	_	_	_	_	bratA9=T40:Adjective|bratT40=GPE|bratT7=Organization
+14	университета	_	_	_	_	_	_	_	bratT7=Organization
+15	и	_	_	_	_	_	_	_	_
+16-18	британско-шведской	_	_	_	_	_	_	_	_
+16	британско	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T41:Adjective|bratT41=GPE|bratT8=Organization
+17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
+18	шведской	_	_	_	_	_	_	_	bratA20=T49:Adjective|bratT49=GPE|bratT8=Organization
+19	фармацевтической	_	_	_	_	_	_	_	bratT8=Organization
+20	компании	_	_	_	_	_	_	_	bratT8=Organization
+21	AstraZeneca	_	_	_	_	_	_	_	bratT8=Organization
+22	не	_	_	_	_	_	_	_	_
+23	получал	_	_	_	_	_	_	_	_
+24	препарат	_	_	_	_	_	_	_	_
+25	компании	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0014-p2-s2
+# text = Об этом в среду сообщило агентство Bloomberg со ссылкой на информированные источники.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	bratA11=T13:Past|bratT13=Date-absolute
+4	среду	_	_	_	_	_	_	_	bratA11=T13:Past|bratT13=Date-absolute
+5	сообщило	_	_	_	_	_	_	_	_
+6	агентство	_	_	_	_	_	_	_	bratA2=T14:Media|bratT14=Organization
+7	Bloomberg	_	_	_	_	_	_	_	bratA2=T14:Media|bratT14=Organization
+8	со	_	_	_	_	_	_	_	_
+9	ссылкой	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	информированные	_	_	_	_	_	_	_	_
+12	источники	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0014-p3
+# par_text = В самой компании заявили, что не могут комментировать конкретные случаи из-за правил проведения испытаний и принципов конфиденциальности. В то же время агентство Reuters информирует со ссылкой на источники, что испытания препарата в Бразилии будут приостановлены, если обнаружится, что умершему добровольцу все же вводили экспериментальную вакцину.
+# sent_id = 0014-p3-s1
+# text = В самой компании заявили, что не могут комментировать конкретные случаи из-за правил проведения испытаний и принципов конфиденциальности.
+1	В	_	_	_	_	_	_	_	_
+2	самой	_	_	_	_	_	_	_	_
+3	компании	_	_	_	_	_	_	_	_
+4	заявили	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	не	_	_	_	_	_	_	_	_
+8	могут	_	_	_	_	_	_	_	_
+9	комментировать	_	_	_	_	_	_	_	_
+10	конкретные	_	_	_	_	_	_	_	_
+11	случаи	_	_	_	_	_	_	_	_
+12	из-за	_	_	_	_	_	_	_	_
+13	правил	_	_	_	_	_	_	_	_
+14	проведения	_	_	_	_	_	_	_	_
+15	испытаний	_	_	_	_	_	_	_	_
+16	и	_	_	_	_	_	_	_	_
+17	принципов	_	_	_	_	_	_	_	_
+18	конфиденциальности	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0014-p3-s2
+# text = В то же время агентство Reuters информирует со ссылкой на источники, что испытания препарата в Бразилии будут приостановлены, если обнаружится, что умершему добровольцу все же вводили экспериментальную вакцину.
+1	В	_	_	_	_	_	_	_	bratA19=T39:Past|bratT39=Date-relative
+2	то	_	_	_	_	_	_	_	bratA19=T39:Past|bratT39=Date-relative
+3	же	_	_	_	_	_	_	_	bratA19=T39:Past|bratT39=Date-relative
+4	время	_	_	_	_	_	_	_	bratA19=T39:Past|bratT39=Date-relative
+5	агентство	_	_	_	_	_	_	_	bratA3=T15:Media|bratT15=Organization
+6	Reuters	_	_	_	_	_	_	_	bratA3=T15:Media|bratT15=Organization
+7	информирует	_	_	_	_	_	_	_	_
+8	со	_	_	_	_	_	_	_	_
+9	ссылкой	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	источники	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	что	_	_	_	_	_	_	_	_
+14	испытания	_	_	_	_	_	_	_	_
+15	препарата	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	Бразилии	_	_	_	_	_	_	_	bratT16=GPE
+18	будут	_	_	_	_	_	_	_	_
+19	приостановлены	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	если	_	_	_	_	_	_	_	_
+22	обнаружится	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	что	_	_	_	_	_	_	_	_
+25	умершему	_	_	_	_	_	_	_	_
+26	добровольцу	_	_	_	_	_	_	_	bratT17=Other-group
+27	все	_	_	_	_	_	_	_	_
+28	же	_	_	_	_	_	_	_	_
+29	вводили	_	_	_	_	_	_	_	_
+30	экспериментальную	_	_	_	_	_	_	_	bratT18=Other-term
+31	вакцину	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+32	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0014-p4
+# par_text = В среду бразильская газета Globo сообщила о смерти 28-летнего волонтера и медика по профессии Жоао Педро Фейтозы "в результате осложнений COVID-19". В публикации не уточнялось, получал ли доброволец вакцину или плацебо.
+# sent_id = 0014-p4-s1
+# text = В среду бразильская газета Globo сообщила о смерти 28-летнего волонтера и медика по профессии Жоао Педро Фейтозы ``в результате осложнений COVID-19''.
+1	В	_	_	_	_	_	_	_	bratA17=T19:Past|bratT19=Date-absolute
+2	среду	_	_	_	_	_	_	_	bratA17=T19:Past|bratT19=Date-absolute
+3	бразильская	_	_	_	_	_	_	_	bratA13=T45:Adjective|bratA4=T20:Media|bratT20=Organization|bratT45=GPE
+4	газета	_	_	_	_	_	_	_	bratA4=T20:Media|bratT20=Organization
+5	Globo	_	_	_	_	_	_	_	bratA4=T20:Media|bratT20=Organization
+6	сообщила	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	смерти	_	_	_	_	_	_	_	_
+9	28-летнего	_	_	_	_	_	_	_	bratT21=Age
+10	волонтера	_	_	_	_	_	_	_	bratA12=T24:Male|bratT23=Person-property|bratT24=Person
+11	и	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person
+12	медика	_	_	_	_	_	_	_	bratA12=T24:Male|bratT22=Person-property|bratT24=Person
+13	по	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person
+14	профессии	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person
+15	Жоао	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT43=Person-forename
+16	Педро	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT43=Person-forename
+17	Фейтозы	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT44=Person-surname
+18	``	_	_	_	_	_	_	_	SpaceAfter=No
+19	в	_	_	_	_	_	_	_	_
+20	результате	_	_	_	_	_	_	_	_
+21	осложнений	_	_	_	_	_	_	_	_
+22-24	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+22	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term
+23	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term
+24	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term|bratT42=Cardinal
+25	''	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0014-p4-s2
+# text = В публикации не уточнялось, получал ли доброволец вакцину или плацебо.
+1	В	_	_	_	_	_	_	_	_
+2	публикации	_	_	_	_	_	_	_	_
+3	не	_	_	_	_	_	_	_	_
+4	уточнялось	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	получал	_	_	_	_	_	_	_	_
+7	ли	_	_	_	_	_	_	_	_
+8	доброволец	_	_	_	_	_	_	_	bratT26=Other-group
+9	вакцину	_	_	_	_	_	_	_	bratT27=Other-term
+10	или	_	_	_	_	_	_	_	_
+11	плацебо	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0014-p5
+# par_text = Известно, что год назад Фейтоза закончил обучение в Федеральном университете Рио-де-Жанейро.
+# sent_id = 0014-p5-s1
+# text = Известно, что год назад Фейтоза закончил обучение в Федеральном университете Рио-де-Жанейро.
+1	Известно	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	год	_	_	_	_	_	_	_	bratA14=T32:Past|bratT32=Date-absolute
+5	назад	_	_	_	_	_	_	_	bratA14=T32:Past|bratT32=Date-absolute
+6	Фейтоза	_	_	_	_	_	_	_	bratA15=T29:Male|bratT29=Person|bratT46=Person-surname
+7	закончил	_	_	_	_	_	_	_	_
+8	обучение	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	Федеральном	_	_	_	_	_	_	_	bratT31=Organization
+11	университете	_	_	_	_	_	_	_	bratT31=Organization
+12	Рио-де-Жанейро	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE|bratT31=Organization
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0014-p6
+# par_text = По данным Globo, Международный комитет по оценке безопасности вакцины рекомендовал продолжить испытания. Эти планы также подтвердил Оксфордский университет, передает ТАСС. Как указывает агентство Reuters, в университете отметили, что после тщательного анализа "нет опасений по поводу безопасности клинических тестов".
+# sent_id = 0014-p6-s1
+# text = По данным Globo, Международный комитет по оценке безопасности вакцины рекомендовал продолжить испытания.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	Globo	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Media|bratT33=Organization
+4	,	_	_	_	_	_	_	_	_
+5	Международный	_	_	_	_	_	_	_	bratT34=Organization
+6	комитет	_	_	_	_	_	_	_	bratT34=Organization
+7	по	_	_	_	_	_	_	_	bratT34=Organization
+8	оценке	_	_	_	_	_	_	_	bratT34=Organization
+9	безопасности	_	_	_	_	_	_	_	bratT34=Organization
+10	вакцины	_	_	_	_	_	_	_	bratT34=Organization
+11	рекомендовал	_	_	_	_	_	_	_	_
+12	продолжить	_	_	_	_	_	_	_	_
+13	испытания	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0014-p6-s2
+# text = Эти планы также подтвердил Оксфордский университет, передает ТАСС.
+1	Эти	_	_	_	_	_	_	_	_
+2	планы	_	_	_	_	_	_	_	_
+3	также	_	_	_	_	_	_	_	_
+4	подтвердил	_	_	_	_	_	_	_	_
+5	Оксфордский	_	_	_	_	_	_	_	bratA16=T47:Adjective|bratT35=Organization|bratT47=GPE
+6	университет	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization
+7	,	_	_	_	_	_	_	_	_
+8	передает	_	_	_	_	_	_	_	_
+9	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T36:Media|bratT36=Organization
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0014-p6-s3
+# text = Как указывает агентство Reuters, в университете отметили, что после тщательного анализа ``нет опасений по поводу безопасности клинических тестов''.
+1	Как	_	_	_	_	_	_	_	_
+2	указывает	_	_	_	_	_	_	_	_
+3	агентство	_	_	_	_	_	_	_	bratA7=T37:Media|bratT37=Organization
+4	Reuters	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T37:Media|bratT37=Organization
+5	,	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	университете	_	_	_	_	_	_	_	_
+8	отметили	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	что	_	_	_	_	_	_	_	_
+11	после	_	_	_	_	_	_	_	bratA18=T48:Past-Fut|bratT48=Date-period-absolute
+12	тщательного	_	_	_	_	_	_	_	bratA18=T48:Past-Fut|bratT48=Date-period-absolute
+13	анализа	_	_	_	_	_	_	_	bratA18=T48:Past-Fut|bratT48=Date-period-absolute
+14	``	_	_	_	_	_	_	_	SpaceAfter=No
+15	нет	_	_	_	_	_	_	_	_
+16	опасений	_	_	_	_	_	_	_	_
+17	по	_	_	_	_	_	_	_	_
+18	поводу	_	_	_	_	_	_	_	_
+19	безопасности	_	_	_	_	_	_	_	_
+20	клинических	_	_	_	_	_	_	_	_
+21	тестов	_	_	_	_	_	_	_	SpaceAfter=No
+22	''	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+

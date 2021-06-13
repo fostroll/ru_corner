@@ -1,0 +1,301 @@
+# newdoc id = 0096
+# newpar id = 0096-p1
+# par_text = Рекорд Лиги Европы по дальности результативного удара продержался лишь неделю
+# sent_id = 0096-p1-s1
+# text = Рекорд Лиги Европы по дальности результативного удара продержался лишь неделю
+1	Рекорд	_	_	_	_	_	_	_	_
+2	Лиги	_	_	_	_	_	_	_	bratT2=Event
+3	Европы	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Event
+4	по	_	_	_	_	_	_	_	_
+5	дальности	_	_	_	_	_	_	_	_
+6	результативного	_	_	_	_	_	_	_	_
+7	удара	_	_	_	_	_	_	_	_
+8	продержался	_	_	_	_	_	_	_	_
+9	лишь	_	_	_	_	_	_	_	_
+10	неделю	_	_	_	_	_	_	_	bratA4=T3:Past|bratT3=Date-period-relative|bratT63=Duration
+
+# newpar id = 0096-p2
+# par_text = Испанский полузащитник кипрской "Омонии" Жорди Гомес, поразивший ворота нидерландского "ПСВ Эйндховен" (1:2) в матче 2-го тура группового этапа Лиги Европы, стал автором самого дальнего забитого мяча в истории турнира. Предыдущий рекорд продержался одну неделю.
+# sent_id = 0096-p2-s1
+# text = Испанский полузащитник кипрской ``Омонии'' Жорди Гомес, поразивший ворота нидерландского ``ПСВ Эйндховен'' (1:2) в матче 2-го тура группового этапа Лиги Европы, стал автором самого дальнего забитого мяча в истории турнира.
+1	Испанский	_	_	_	_	_	_	_	bratA5=T64:Adjective|bratA6=T6:Male|bratT5=Person-property|bratT6=Person|bratT64=GPE
+2	полузащитник	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
+3	кипрской	_	_	_	_	_	_	_	bratA6=T6:Male|bratA7=T67:Adjective|bratT4=Organization|bratT5=Person-property|bratT6=Person|bratT67=GPE
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT4=Organization|bratT5=Person-property|bratT6=Person
+5	Омонии	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT4=Organization|bratT5=Person-property|bratT6=Person
+6	''	_	_	_	_	_	_	_	bratA6=T6:Male|bratT4=Organization|bratT5=Person-property|bratT6=Person
+7	Жорди	_	_	_	_	_	_	_	bratA6=T6:Male|bratT6=Person|bratT65=Person-forename
+8	Гомес	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT6=Person|bratT66=Person-surname
+9	,	_	_	_	_	_	_	_	_
+10	поразивший	_	_	_	_	_	_	_	_
+11	ворота	_	_	_	_	_	_	_	_
+12	нидерландского	_	_	_	_	_	_	_	bratA8=T68:Adjective|bratT68=GPE|bratT7=Organization
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+14	ПСВ	_	_	_	_	_	_	_	bratT7=Organization
+15	Эйндховен	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization|bratT92=GPE
+16	''	_	_	_	_	_	_	_	bratT7=Organization
+17	(	_	_	_	_	_	_	_	SpaceAfter=No
+18	1:2	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Quantity
+19	)	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	матче	_	_	_	_	_	_	_	bratT12=Event
+22	2-го	_	_	_	_	_	_	_	bratT12=Event|bratT9=Ordinal|bratT96=Event
+23	тура	_	_	_	_	_	_	_	bratT12=Event|bratT96=Event
+24	группового	_	_	_	_	_	_	_	bratT12=Event|bratT35=Event|bratT96=Event
+25	этапа	_	_	_	_	_	_	_	bratT12=Event|bratT35=Event|bratT96=Event
+26	Лиги	_	_	_	_	_	_	_	bratT11=Event|bratT12=Event|bratT35=Event|bratT96=Event
+27	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=GPE|bratT11=Event|bratT12=Event|bratT35=Event|bratT96=Event
+28	,	_	_	_	_	_	_	_	_
+29	стал	_	_	_	_	_	_	_	_
+30	автором	_	_	_	_	_	_	_	_
+31	самого	_	_	_	_	_	_	_	_
+32	дальнего	_	_	_	_	_	_	_	_
+33	забитого	_	_	_	_	_	_	_	_
+34	мяча	_	_	_	_	_	_	_	_
+35	в	_	_	_	_	_	_	_	_
+36	истории	_	_	_	_	_	_	_	_
+37	турнира	_	_	_	_	_	_	_	SpaceAfter=No|bratT94=Event
+38	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0096-p2-s2
+# text = Предыдущий рекорд продержался одну неделю.
+1	Предыдущий	_	_	_	_	_	_	_	bratT14=Ordinal
+2	рекорд	_	_	_	_	_	_	_	_
+3	продержался	_	_	_	_	_	_	_	_
+4	одну	_	_	_	_	_	_	_	bratA9=T13:Past|bratT13=Date-period-relative|bratT69=Duration
+5	неделю	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T13:Past|bratT13=Date-period-relative|bratT69=Duration
+6	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p3
+# par_text = На 29-й минуте встречи Гомесу удалось открыть счет в матче ударом со своей половины поля.
+# sent_id = 0096-p3-s1
+# text = На 29-й минуте встречи Гомесу удалось открыть счет в матче ударом со своей половины поля.
+1	На	_	_	_	_	_	_	_	bratA28=T16:Past|bratT16=Date-absolute
+2	29-й	_	_	_	_	_	_	_	bratA28=T16:Past|bratT15=Ordinal|bratT16=Date-absolute
+3	минуте	_	_	_	_	_	_	_	bratA28=T16:Past|bratT16=Date-absolute|bratT90=Duration
+4	встречи	_	_	_	_	_	_	_	bratA28=T16:Past|bratT16=Date-absolute|bratT91=Event
+5	Гомесу	_	_	_	_	_	_	_	bratA10=T17:Male|bratT17=Person|bratT70=Person-surname
+6	удалось	_	_	_	_	_	_	_	_
+7	открыть	_	_	_	_	_	_	_	_
+8	счет	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	матче	_	_	_	_	_	_	_	bratT93=Event
+11	ударом	_	_	_	_	_	_	_	_
+12	со	_	_	_	_	_	_	_	_
+13	своей	_	_	_	_	_	_	_	_
+14	половины	_	_	_	_	_	_	_	bratT71=Percent
+15	поля	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p4
+# par_text = 35-летний уроженец Каталонии и воспитанник юношеской школы "Барселоны" Жорди Гомес дебютировал на профессиональном уровне в 2008 году в составе испанского "Эспаньола", после чего успел поиграть в чемпионатах Англии и Болгарии. В кипрской "Омонии" он выступает с 2018 года.
+# sent_id = 0096-p4-s1
+# text = 35-летний уроженец Каталонии и воспитанник юношеской школы ``Барселоны'' Жорди Гомес дебютировал на профессиональном уровне в 2008 году в составе испанского ``Эспаньола'', после чего успел поиграть в чемпионатах Англии и Болгарии.
+1	35-летний	_	_	_	_	_	_	_	bratT18=Age
+2	уроженец	_	_	_	_	_	_	_	bratA1=T20:Citizenship|bratT20=Nationality
+3	Каталонии	_	_	_	_	_	_	_	bratA1=T20:Citizenship|bratT19=GPE|bratT20=Nationality
+4	и	_	_	_	_	_	_	_	_
+5	воспитанник	_	_	_	_	_	_	_	bratA11=T24:Male|bratT23=Person-property|bratT24=Person
+6	юношеской	_	_	_	_	_	_	_	bratA11=T24:Male|bratA2=T22:Department|bratT22=Organization|bratT23=Person-property|bratT24=Person
+7	школы	_	_	_	_	_	_	_	bratA11=T24:Male|bratA2=T22:Department|bratT22=Organization|bratT23=Person-property|bratT24=Person
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Male|bratA2=T22:Department|bratT21=Organization|bratT22=Organization|bratT23=Person-property|bratT24=Person
+9	Барселоны	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Male|bratA2=T22:Department|bratT21=Organization|bratT22=Organization|bratT23=Person-property|bratT24=Person|bratT72=GPE
+10	''	_	_	_	_	_	_	_	bratA11=T24:Male|bratA2=T22:Department|bratT21=Organization|bratT22=Organization|bratT23=Person-property|bratT24=Person
+11	Жорди	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT73=Person-forename
+12	Гомес	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT74=Person-surname
+13	дебютировал	_	_	_	_	_	_	_	_
+14	на	_	_	_	_	_	_	_	_
+15	профессиональном	_	_	_	_	_	_	_	_
+16	уровне	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	bratA12=T25:Past|bratT25=Date-absolute
+18	2008	_	_	_	_	_	_	_	bratA12=T25:Past|bratT25=Date-absolute
+19	году	_	_	_	_	_	_	_	bratA12=T25:Past|bratT25=Date-absolute
+20	в	_	_	_	_	_	_	_	_
+21	составе	_	_	_	_	_	_	_	_
+22	испанского	_	_	_	_	_	_	_	bratA13=T75:Adjective|bratT26=Organization|bratT75=GPE
+23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+24	Эспаньола	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+25	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+26	,	_	_	_	_	_	_	_	_
+27	после	_	_	_	_	_	_	_	bratA27=T87:Past|bratT87=Date-period-relative
+28	чего	_	_	_	_	_	_	_	bratA27=T87:Past|bratT87=Date-period-relative
+29	успел	_	_	_	_	_	_	_	_
+30	поиграть	_	_	_	_	_	_	_	_
+31	в	_	_	_	_	_	_	_	_
+32	чемпионатах	_	_	_	_	_	_	_	bratA3=T29:Plural|bratT29=Event
+33	Англии	_	_	_	_	_	_	_	bratA3=T29:Plural|bratT27=GPE|bratT29=Event
+34	и	_	_	_	_	_	_	_	bratA3=T29:Plural|bratT29=Event
+35	Болгарии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T29:Plural|bratT28=GPE|bratT29=Event
+36	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0096-p4-s2
+# text = В кипрской ``Омонии'' он выступает с 2018 года.
+1	В	_	_	_	_	_	_	_	bratT30=Organization
+2	кипрской	_	_	_	_	_	_	_	bratA14=T76:Adjective|bratT30=Organization|bratT76=GPE
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
+4	Омонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
+5	''	_	_	_	_	_	_	_	bratT30=Organization
+6	он	_	_	_	_	_	_	_	_
+7	выступает	_	_	_	_	_	_	_	_
+8	с	_	_	_	_	_	_	_	bratA15=T31:Past-Pres|bratA16=T31:RCont|bratT31=Date-period-absolute
+9	2018	_	_	_	_	_	_	_	bratA15=T31:Past-Pres|bratA16=T31:RCont|bratT31=Date-period-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T31:Past-Pres|bratA16=T31:RCont|bratT31=Date-period-absolute
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p5
+# par_text = По расчетам британской компании спортивной аналитики Opta Sports, хавбек находился на расстояния 56 метров от ворот соперника, когда наносил этот удар.
+# sent_id = 0096-p5-s1
+# text = По расчетам британской компании спортивной аналитики Opta Sports, хавбек находился на расстояния 56 метров от ворот соперника, когда наносил этот удар.
+1	По	_	_	_	_	_	_	_	_
+2	расчетам	_	_	_	_	_	_	_	_
+3	британской	_	_	_	_	_	_	_	bratA17=T77:Adjective|bratT32=Organization|bratT77=GPE
+4	компании	_	_	_	_	_	_	_	bratT32=Organization
+5	спортивной	_	_	_	_	_	_	_	bratT32=Organization
+6	аналитики	_	_	_	_	_	_	_	bratT32=Organization
+7	Opta	_	_	_	_	_	_	_	bratT32=Organization
+8	Sports	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+9	,	_	_	_	_	_	_	_	_
+10	хавбек	_	_	_	_	_	_	_	bratT33=Person-property
+11	находился	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	расстояния	_	_	_	_	_	_	_	_
+14	56	_	_	_	_	_	_	_	bratT34=Quantity
+15	метров	_	_	_	_	_	_	_	bratT34=Quantity
+16	от	_	_	_	_	_	_	_	_
+17	ворот	_	_	_	_	_	_	_	_
+18	соперника	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	когда	_	_	_	_	_	_	_	_
+21	наносил	_	_	_	_	_	_	_	_
+22	этот	_	_	_	_	_	_	_	_
+23	удар	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p6
+# par_text = Предыдущий рекорд Лиги Европы по дальности результативного удара был установлен на прошлой неделе нападающим шотландского "Рейнджерс" Кемаром Руфом в матче 1-го тура группового этапа с бельгийским "Стандардом" (2:0). Ему удалось поразить ворота с расстояния 50 метров.
+# sent_id = 0096-p6-s1
+# text = Предыдущий рекорд Лиги Европы по дальности результативного удара был установлен на прошлой неделе нападающим шотландского ``Рейнджерс'' Кемаром Руфом в матче 1-го тура группового этапа с бельгийским ``Стандардом'' (2:0).
+1	Предыдущий	_	_	_	_	_	_	_	bratT82=Ordinal
+2	рекорд	_	_	_	_	_	_	_	_
+3	Лиги	_	_	_	_	_	_	_	bratT37=Event
+4	Европы	_	_	_	_	_	_	_	bratT36=GPE|bratT37=Event
+5	по	_	_	_	_	_	_	_	_
+6	дальности	_	_	_	_	_	_	_	_
+7	результативного	_	_	_	_	_	_	_	_
+8	удара	_	_	_	_	_	_	_	_
+9	был	_	_	_	_	_	_	_	_
+10	установлен	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	bratA22=T38:Past|bratT38=Date-absolute
+12	прошлой	_	_	_	_	_	_	_	bratA22=T38:Past|bratT38=Date-absolute|bratT86=Ordinal
+13	неделе	_	_	_	_	_	_	_	bratA22=T38:Past|bratT38=Date-absolute
+14	нападающим	_	_	_	_	_	_	_	bratA23=T41:Male|bratT40=Person-property|bratT41=Person
+15	шотландского	_	_	_	_	_	_	_	bratA19=T79:Adjective|bratA23=T41:Male|bratT39=Organization|bratT40=Person-property|bratT41=Person|bratT79=GPE
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T41:Male|bratT39=Organization|bratT40=Person-property|bratT41=Person
+17	Рейнджерс	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T41:Male|bratT39=Organization|bratT40=Person-property|bratT41=Person
+18	''	_	_	_	_	_	_	_	bratA23=T41:Male|bratT39=Organization|bratT40=Person-property|bratT41=Person
+19	Кемаром	_	_	_	_	_	_	_	bratA23=T41:Male|bratT41=Person|bratT83=Person-forename
+20	Руфом	_	_	_	_	_	_	_	bratA23=T41:Male|bratT41=Person|bratT84=Person-surname
+21	в	_	_	_	_	_	_	_	_
+22	матче	_	_	_	_	_	_	_	bratT43=Event
+23	1-го	_	_	_	_	_	_	_	bratT42=Ordinal|bratT43=Event|bratT97=Event
+24	тура	_	_	_	_	_	_	_	bratT43=Event|bratT97=Event
+25	группового	_	_	_	_	_	_	_	bratT43=Event|bratT89=Event|bratT97=Event
+26	этапа	_	_	_	_	_	_	_	bratT43=Event|bratT89=Event|bratT97=Event
+27	с	_	_	_	_	_	_	_	_
+28	бельгийским	_	_	_	_	_	_	_	bratA18=T78:Adjective|bratT44=Organization|bratT78=GPE
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Organization
+30	Стандардом	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Organization
+31	''	_	_	_	_	_	_	_	bratT44=Organization
+32	(	_	_	_	_	_	_	_	SpaceAfter=No
+33	2:0	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Quantity
+34	)	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0096-p6-s2
+# text = Ему удалось поразить ворота с расстояния 50 метров.
+1	Ему	_	_	_	_	_	_	_	_
+2	удалось	_	_	_	_	_	_	_	_
+3	поразить	_	_	_	_	_	_	_	_
+4	ворота	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	расстояния	_	_	_	_	_	_	_	_
+7	50	_	_	_	_	_	_	_	bratT46=Quantity
+8	метров	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Quantity
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p7
+# par_text = Также во втором туре был установлен еще один, на этот раз "вечный" рекорд Лиги Европы. Футболистам ирландского "Дандолка" в гостевом матче против лондонского "Арсенала" (0:3) впервые в истории турнира удалось за всю игру ни разу не нарушить правила.
+# sent_id = 0096-p7-s1
+# text = Также во втором туре был установлен еще один, на этот раз ``вечный'' рекорд Лиги Европы.
+1	Также	_	_	_	_	_	_	_	_
+2	во	_	_	_	_	_	_	_	_
+3	втором	_	_	_	_	_	_	_	bratT47=Ordinal|bratT48=Event
+4	туре	_	_	_	_	_	_	_	bratT48=Event
+5	был	_	_	_	_	_	_	_	_
+6	установлен	_	_	_	_	_	_	_	_
+7	еще	_	_	_	_	_	_	_	bratT49=Quantity
+8	один	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Quantity
+9	,	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	этот	_	_	_	_	_	_	_	_
+12	раз	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	SpaceAfter=No
+14	вечный	_	_	_	_	_	_	_	SpaceAfter=No
+15	''	_	_	_	_	_	_	_	_
+16	рекорд	_	_	_	_	_	_	_	_
+17	Лиги	_	_	_	_	_	_	_	bratT51=Event
+18	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=GPE|bratT51=Event
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0096-p7-s2
+# text = Футболистам ирландского ``Дандолка'' в гостевом матче против лондонского ``Арсенала'' (0:3) впервые в истории турнира удалось за всю игру ни разу не нарушить правила.
+1	Футболистам	_	_	_	_	_	_	_	bratT52=Person-property
+2	ирландского	_	_	_	_	_	_	_	bratA20=T80:Adjective|bratT52=Person-property|bratT53=Organization|bratT80=GPE
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Person-property|bratT53=Organization
+4	Дандолка	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Person-property|bratT53=Organization|bratT88=GPE
+5	''	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization
+6	в	_	_	_	_	_	_	_	_
+7	гостевом	_	_	_	_	_	_	_	bratT55=Event
+8	матче	_	_	_	_	_	_	_	bratT55=Event
+9	против	_	_	_	_	_	_	_	_
+10	лондонского	_	_	_	_	_	_	_	bratA21=T81:Adjective|bratT54=Organization|bratT81=GPE
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
+12	Арсенала	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
+13	''	_	_	_	_	_	_	_	bratT54=Organization
+14	(	_	_	_	_	_	_	_	SpaceAfter=No
+15	0:3	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Quantity
+16	)	_	_	_	_	_	_	_	_
+17	впервые	_	_	_	_	_	_	_	bratT57=Ordinal
+18	в	_	_	_	_	_	_	_	bratA24=T85:Past-Pres|bratT85=Date-period-absolute
+19	истории	_	_	_	_	_	_	_	bratA24=T85:Past-Pres|bratT85=Date-period-absolute
+20	турнира	_	_	_	_	_	_	_	bratA24=T85:Past-Pres|bratT85=Date-period-absolute|bratT95=Event
+21	удалось	_	_	_	_	_	_	_	_
+22	за	_	_	_	_	_	_	_	bratT58=Time-period
+23	всю	_	_	_	_	_	_	_	bratT58=Time-period
+24	игру	_	_	_	_	_	_	_	bratT58=Time-period
+25	ни	_	_	_	_	_	_	_	bratT59=Quantity
+26	разу	_	_	_	_	_	_	_	bratT59=Quantity
+27	не	_	_	_	_	_	_	_	_
+28	нарушить	_	_	_	_	_	_	_	_
+29	правила	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0096-p8
+# par_text = Достижение действующих чемпионов Ирландии теперь можно будет лишь повторить, но не улучшить.
+# sent_id = 0096-p8-s1
+# text = Достижение действующих чемпионов Ирландии теперь можно будет лишь повторить, но не улучшить.
+1	Достижение	_	_	_	_	_	_	_	_
+2	действующих	_	_	_	_	_	_	_	bratT61=Person-property
+3	чемпионов	_	_	_	_	_	_	_	bratT61=Person-property
+4	Ирландии	_	_	_	_	_	_	_	bratT60=GPE|bratT61=Person-property
+5	теперь	_	_	_	_	_	_	_	bratA26=T62:Pres-Fut|bratT62=Date-period-absolute
+6	можно	_	_	_	_	_	_	_	_
+7	будет	_	_	_	_	_	_	_	_
+8	лишь	_	_	_	_	_	_	_	_
+9	повторить	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	но	_	_	_	_	_	_	_	_
+12	не	_	_	_	_	_	_	_	_
+13	улучшить	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+

@@ -46,7 +46,7 @@
 5	американское	_	_	_	_	_	_	_	bratA2=T14:Adjective|bratT14=GPE|bratT18=Organization
 6	посольство	_	_	_	_	_	_	_	bratT18=Organization
 7	в	_	_	_	_	_	_	_	bratT18=Organization
-8	республике	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+8	республике	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT23=GPE
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0024-p2-s3
@@ -201,8 +201,8 @@
 25	значимости	_	_	_	_	_	_	_	_
 26	отношений	_	_	_	_	_	_	_	_
 27	между	_	_	_	_	_	_	_	_
-28	двумя	_	_	_	_	_	_	_	_
-29	странами	_	_	_	_	_	_	_	SpaceAfter=No
+28	двумя	_	_	_	_	_	_	_	bratT25=GPE|bratT26=Quantity
+29	странами	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE|bratT26=Quantity
 30	''	_	_	_	_	_	_	_	SpaceAfter=No
 31	,	_	_	_	_	_	_	_	_
 32	-	_	_	_	_	_	_	_	_
@@ -240,6 +240,6 @@
 23	укрепления	_	_	_	_	_	_	_	_
 24	экономического	_	_	_	_	_	_	_	_
 25	процветания	_	_	_	_	_	_	_	_
-26	республики	_	_	_	_	_	_	_	SpaceAfter=No
+26	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=GPE
 27	.	_	_	_	_	_	_	_	_
 

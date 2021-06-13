@@ -63,16 +63,19 @@
 15	придали	_	_	_	_	_	_	_	_
 16	коронавирусной	_	_	_	_	_	_	_	bratT4=Other-term
 17	инфекции	_	_	_	_	_	_	_	bratT4=Other-term
-18	COVID-19	_	_	_	_	_	_	_	bratT4=Other-term
-19	новые	_	_	_	_	_	_	_	_
-20	свойства	_	_	_	_	_	_	_	SpaceAfter=No
-21	,	_	_	_	_	_	_	_	_
-22	два	_	_	_	_	_	_	_	bratT13=Quantity
-23	из	_	_	_	_	_	_	_	bratT13=Quantity
-24	которых	_	_	_	_	_	_	_	_
-25	вызывают	_	_	_	_	_	_	_	_
-26	тревогу	_	_	_	_	_	_	_	SpaceAfter=No
-27	.	_	_	_	_	_	_	_	_
+18-20	COVID-19	_	_	_	_	_	_	_	_
+18	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+20	19	_	_	_	_	_	_	_	bratT38=Cardinal|bratT4=Other-term
+21	новые	_	_	_	_	_	_	_	_
+22	свойства	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	два	_	_	_	_	_	_	_	bratT13=Quantity
+25	из	_	_	_	_	_	_	_	bratT13=Quantity
+26	которых	_	_	_	_	_	_	_	_
+27	вызывают	_	_	_	_	_	_	_	_
+28	тревогу	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0058-p4
 # par_text = Она отметила, что одним из свойств является более активное выделение вируса.
@@ -198,8 +201,11 @@
 17	,	_	_	_	_	_	_	_	_
 18	переболевших	_	_	_	_	_	_	_	_
 19	оригинальным	_	_	_	_	_	_	_	_
-20	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
-21	.	_	_	_	_	_	_	_	_
+20-22	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+22	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Cardinal|bratT7=Other-term
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p7-s2
 # text = В большинстве случаев антитела из этих сывороток не могут нейтрализовать новую версию коронавируса.
@@ -276,7 +282,7 @@
 2	директор	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT9=Person
 3	центра	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
 4	им.	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
-5	Гамалеи	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
+5	Гамалеи	_	_	_	_	_	_	_	bratA8=T9:Male|bratT10=Person-property|bratT11=Organization|bratT40=Person|bratT41=Person-surname|bratT9=Person
 6	Александр	_	_	_	_	_	_	_	bratA8=T9:Male|bratT35=Person-forename|bratT9=Person
 7	Гинцбург	_	_	_	_	_	_	_	bratA8=T9:Male|bratT36=Person-surname|bratT9=Person
 8	оценил	_	_	_	_	_	_	_	_

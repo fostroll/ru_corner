@@ -2,11 +2,11 @@ T1	Organization 16 19	ВОЗ
 T2	Nationality 33 40	россиян
 A1	Citizenship T2
 T3	Other-term 454 467	коронавирусом
-T4	Percent 485 491	90   %
-T5	Date-absolute 885 904	В   начале   ноября
-T6	Person 907 915	Вуйнович
-T7	Other-term 1002 1028	коронавирусной   инфекцией
-T8	Date-period-absolute 938 984	в   течение   следующих   нескольких   месяцев
+T4	Percent 485 489	90 %
+T5	Date-absolute 883 902	В   начале   ноября
+T6	Person 905 913	Вуйнович
+T7	Other-term 1000 1026	коронавирусной   инфекцией
+T8	Date-period-absolute 936 982	в   течение   следующих   нескольких   месяцев
 T9	Person-property 0 19	Представитель   ВОЗ
 T10	Organization 101 142	Всемирной   организации   здравоохранения
 T11	Person-property 85 155	Представитель   Всемирной   организации   здравоохранения   в   России
@@ -17,17 +17,20 @@ T14	Nationality 242 251	россиянам
 A3	Citizenship T14
 T15	Event 334 358	эпидемией   коронавируса
 T16	GPE 149 155	России
-T17	Ordinal 952 961	следующих
+T17	Ordinal 950 959	следующих
 T18	Date-absolute 387 394	сегодня
 T19	Other-term 346 358	коронавируса
 A4	Present T18
 A5	Past T5
-T20	Duration 964 984	нескольких   месяцев
+T20	Duration 962 982	нескольких   месяцев
 A7	Past-Fut T8
 T21	Person-forename 158 164	Мелита
 T22	Person-surname 167 175	Вуйнович
-T23	Person-surname 907 915	Вуйнович
+T23	Person-surname 905 913	Вуйнович
 A6	Female T12
 A8	Female T6
 T24	GPE 101 110	Всемирной
 A9	Adjective T24
+T25	Time-period 217 219	24
+T26	Duration 217 219	24
+T27	GPE 208 214	Россия

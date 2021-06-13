@@ -23,7 +23,7 @@
 6	высказался	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
 8	своем	_	_	_	_	_	_	_	_
-9	соотечественнике	_	_	_	_	_	_	_	SpaceAfter=No
+9	соотечественнике	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T44:Citizenship|bratT44=Nationality
 10	,	_	_	_	_	_	_	_	_
 11	чемпионе	_	_	_	_	_	_	_	bratA6=T7:Male|bratT6=Person-property|bratT7=Person
 12	Абсолютного	_	_	_	_	_	_	_	bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
@@ -174,16 +174,18 @@
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
 4	свой	_	_	_	_	_	_	_	_
-5	следующий	_	_	_	_	_	_	_	bratT8=Ordinal
-6	поединок	_	_	_	_	_	_	_	_
+5	следующий	_	_	_	_	_	_	_	bratT43=Event|bratT8=Ordinal
+6	поединок	_	_	_	_	_	_	_	bratT43=Event
 7	Ян	_	_	_	_	_	_	_	bratA9=T17:Male|bratT17=Person|bratT35=Person-surname
 8	проведет	_	_	_	_	_	_	_	_
 9	против	_	_	_	_	_	_	_	_
 10	претендента	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT38=Person-property
-11	№1	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT19=Ordinal|bratT38=Person-property
-12	Алджамейна	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT36=Person-forename
-13	Стерлинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Male|bratT18=Person|bratT37=Person-surname
-14	.	_	_	_	_	_	_	_	_
+11-12	№1	_	_	_	_	_	_	_	_
+11	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Male|bratT18=Person|bratT19=Ordinal|bratT38=Person-property
+12	1	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT19=Ordinal|bratT38=Person-property
+13	Алджамейна	_	_	_	_	_	_	_	bratA10=T18:Male|bratT18=Person|bratT36=Person-forename
+14	Стерлинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Male|bratT18=Person|bratT37=Person-surname
+15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0034-p6
 # par_text = Ранее Емельяненко прокомментировал решение Хабиба Нурмагомедова завершить профессиональную карьеру.

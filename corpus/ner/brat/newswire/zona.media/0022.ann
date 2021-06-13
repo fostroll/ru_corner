@@ -1,0 +1,85 @@
+T1	Organization 8 25	Верховного   суда
+T2	Date-absolute 52 70	перед   заседанием
+T4	Person-property 108 119	Полицейские
+T5	Quantity 134 153	несколько   человек
+T6	Organization 173 190	Верховного   суда
+T7	Date-absolute 203 210	сегодня
+A2	Past T2
+A1	Future T7
+T9	Service 347 391	телеграм-канал   ``   Ростовское   дело   ''
+A3	Media T9
+T10	Person 398 436	активистка   Александра   Калистратова
+A4	Female T10
+T11	Person-property 398 408	активистка
+T12	Person-forename 411 421	Александра
+T13	Person-surname 424 436	Калистратова
+T14	Organization 465 537	пресс-службе   незарегистрированной   партии   ``   Другая   Россия   ''
+A5	Department T14
+T15	Organization 480 537	незарегистрированной   партии   ``   Другая   Россия   ''
+T16	GPE 548 554	Москве
+T17	Quantity 569 589	четверо   активистов
+T18	Other-group 579 589	активистов
+T20	Person 596 613	Михаил   Галяшкин
+A7	Male T20
+T21	Person 620 635	Андрей   Плыгач
+A8	Male T21
+T22	Person 642 657	Тимофей   Филин
+A9	Male T22
+T23	Person 664 685	Наталья   Криволапова
+A10	Female T23
+T24	Person-forename 596 602	Михаил
+T25	Person-surname 605 613	Галяшкин
+T26	Person-forename 620 626	Андрей
+T27	Person-surname 629 635	Плыгач
+T28	Person-forename 642 649	Тимофей
+T29	Person-surname 652 657	Филин
+T30	Person-forename 664 671	Наталья
+T31	Person-surname 674 685	Криволапова
+T32	Date-absolute 727 741	на   30   июля
+T33	Person-property 746 757	Задержанных
+T34	Organization 773 794	ОВД   ``   Арбат   ''
+T35	Service 812 827	телеграм-канале
+A12	Media T35
+T37	Person 867 878	Криволапову
+A14	Female T37
+T38	Person-surname 867 878	Криволапову
+T39	Person 885 892	Плыгача
+A15	Male T39
+T40	Person-surname 885 892	Плыгача
+T41	Law 924 956	части   5   статьи   20.2   КоАП
+T43	Person 1011 1020	Галяшкина
+A17	Male T43
+T44	Person-surname 1011 1020	Галяшкина
+T45	Person-surname 1027 1033	Филина
+T46	Person 1027 1033	Филина
+A18	Male T46
+T47	Date-absolute 1135 1150	В   2019   году
+A19	Past T47
+T48	Organization 1153 1178	суд   в   Ростове-на-Дону
+T49	GPE 1163 1178	Ростове-на-Дону
+T51	Person 1194 1216	Владислава   Мордасова
+A21	Male T51
+T52	Person-forename 1194 1204	Владислава
+T53	Person-surname 1207 1216	Мордасова
+T54	Person 1223 1237	Яна   Сидорова
+A22	Male T54
+T55	Person-forename 1223 1226	Яна
+T56	Person-surname 1229 1237	Сидорова
+T57	Date-period-relative 1253 1290	до   шести   лет   и   семи   месяцев
+T58	Law 1338 1397	часть   3   статьи   30   ,   часть   1   статьи   212   УК
+T59	Duration 1253 1290	до   шести   лет   и   семи   месяцев
+T63	Service 1423 1432	телеграме
+T64	GPE 526 532	Россия
+T3	Ordinal 932 933	5
+T8	Ordinal 945 949	20.2
+T19	Law 952 956	КоАП
+T36	Ordinal 1346 1347	3
+T42	Ordinal 1359 1361	30
+T50	Ordinal 1376 1377	1
+T60	Ordinal 1389 1392	212
+T65	Law 1395 1397	УК
+T66	Event 60 70	заседанием
+T67	Event 231 267	рассмотрение   кассационной   жалобы
+T61	Service 1412 1416	чата
+A6	Media T61
+A11	Past-UNK T57

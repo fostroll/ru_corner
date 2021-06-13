@@ -1,0 +1,297 @@
+# newdoc id = 0106
+# newpar id = 0106-p1
+# par_text = В Москве на «Русском марше» задержали более 60 человек
+# sent_id = 0106-p1-s1
+# text = В Москве на ``Русском марше'' задержали более 60 человек
+1	В	_	_	_	_	_	_	_	_
+2	Москве	_	_	_	_	_	_	_	bratT1=GPE
+3	на	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event
+5	Русском	_	_	_	_	_	_	_	bratA11=T42:Adjective|bratT2=Event|bratT42=Nationality
+6	марше	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event
+7	''	_	_	_	_	_	_	_	bratT2=Event
+8	задержали	_	_	_	_	_	_	_	_
+9	более	_	_	_	_	_	_	_	bratT40=Quantity
+10	60	_	_	_	_	_	_	_	bratT40=Quantity
+11	человек	_	_	_	_	_	_	_	bratT40=Quantity
+
+# newpar id = 0106-p2
+# par_text = В Москве возле станции метро «Цветной бульвар» начали массово задерживать участников «Русского марша». Трансляцию ведет ютуб-канал «Другое мнение».
+# sent_id = 0106-p2-s1
+# text = В Москве возле станции метро ``Цветной бульвар'' начали массово задерживать участников ``Русского марша''.
+1	В	_	_	_	_	_	_	_	_
+2	Москве	_	_	_	_	_	_	_	bratT3=GPE
+3	возле	_	_	_	_	_	_	_	_
+4	станции	_	_	_	_	_	_	_	bratT4=Facility
+5	метро	_	_	_	_	_	_	_	bratT4=Facility
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Facility
+7	Цветной	_	_	_	_	_	_	_	bratT4=Facility
+8	бульвар	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Facility
+9	''	_	_	_	_	_	_	_	bratT4=Facility
+10	начали	_	_	_	_	_	_	_	_
+11	массово	_	_	_	_	_	_	_	_
+12	задерживать	_	_	_	_	_	_	_	_
+13	участников	_	_	_	_	_	_	_	bratT5=Other-group
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-group|bratT6=Event
+15	Русского	_	_	_	_	_	_	_	bratA10=T41:Adjective|bratT41=Nationality|bratT5=Other-group|bratT6=Event
+16	марша	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-group|bratT6=Event
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-group|bratT6=Event
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0106-p2-s2
+# text = Трансляцию ведет ютуб-канал ``Другое мнение''.
+1	Трансляцию	_	_	_	_	_	_	_	_
+2	ведет	_	_	_	_	_	_	_	_
+3	ютуб-канал	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
+5	Другое	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
+6	мнение	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0106-p3
+# par_text = Как можно заметить на видео, часть участников не успела выйти из метро, как их начали задерживать. Других находят в ближайших к метро улочках и уводят в автозак. «Задерживают даже тех, кто был без плакатов и символики», — говорит ведущая трансляции.
+# sent_id = 0106-p3-s1
+# text = Как можно заметить на видео, часть участников не успела выйти из метро, как их начали задерживать.
+1	Как	_	_	_	_	_	_	_	_
+2	можно	_	_	_	_	_	_	_	_
+3	заметить	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	видео	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	часть	_	_	_	_	_	_	_	_
+8	участников	_	_	_	_	_	_	_	bratT8=Other-group
+9	не	_	_	_	_	_	_	_	_
+10	успела	_	_	_	_	_	_	_	_
+11	выйти	_	_	_	_	_	_	_	_
+12	из	_	_	_	_	_	_	_	_
+13	метро	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	как	_	_	_	_	_	_	_	_
+16	их	_	_	_	_	_	_	_	_
+17	начали	_	_	_	_	_	_	_	_
+18	задерживать	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0106-p3-s2
+# text = Других находят в ближайших к метро улочках и уводят в автозак.
+1	Других	_	_	_	_	_	_	_	_
+2	находят	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	ближайших	_	_	_	_	_	_	_	_
+5	к	_	_	_	_	_	_	_	_
+6	метро	_	_	_	_	_	_	_	_
+7	улочках	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	уводят	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	автозак	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0106-p3-s3
+# text = ``Задерживают даже тех, кто был без плакатов и символики'', - говорит ведущая трансляции.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Задерживают	_	_	_	_	_	_	_	_
+3	даже	_	_	_	_	_	_	_	_
+4	тех	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	кто	_	_	_	_	_	_	_	_
+7	был	_	_	_	_	_	_	_	_
+8	без	_	_	_	_	_	_	_	_
+9	плакатов	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	символики	_	_	_	_	_	_	_	SpaceAfter=No
+12	''	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	говорит	_	_	_	_	_	_	_	_
+16	ведущая	_	_	_	_	_	_	_	bratT9=Person-property
+17	трансляции	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0106-p4
+# par_text = «ОВД-Инфо» отмечает, что силовики задержали 62 человек. Как пишет Sota.Vision, один автозак с задержанными уже уехал в ОВД.
+# sent_id = 0106-p4-s1
+# text = ``ОВД-Инфо'' отмечает, что силовики задержали 62 человек.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T10:Media|bratT10=Organization
+2	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T10:Media|bratT10=Organization
+3	''	_	_	_	_	_	_	_	bratA8=T10:Media|bratT10=Organization
+4	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	силовики	_	_	_	_	_	_	_	bratT11=Person-property
+8	задержали	_	_	_	_	_	_	_	_
+9	62	_	_	_	_	_	_	_	bratT12=Quantity
+10	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Quantity
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0106-p4-s2
+# text = Как пишет Sota.Vision, один автозак с задержанными уже уехал в ОВД.
+1	Как	_	_	_	_	_	_	_	_
+2	пишет	_	_	_	_	_	_	_	_
+3-5	Sota.Vision	_	_	_	_	_	_	_	SpaceAfter=No
+3	Sota	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T13:Media|bratT13=Organization|bratT51=Web-address
+4	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T13:Media|bratT13=Organization|bratT51=Web-address
+5	Vision	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T13:Media|bratT13=Organization|bratT51=Web-address
+6	,	_	_	_	_	_	_	_	_
+7	один	_	_	_	_	_	_	_	bratT14=Quantity
+8	автозак	_	_	_	_	_	_	_	bratT14=Quantity
+9	с	_	_	_	_	_	_	_	_
+10	задержанными	_	_	_	_	_	_	_	_
+11	уже	_	_	_	_	_	_	_	_
+12	уехал	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0106-p5
+# par_text = Как пишет правозащитный проект «Апология протеста», на некоторых участников шествия составили протоколы по части 6.1 статьи 20.2 КоАП (участие в митинге, повлекшем создание помех в движении транспорта или пешеходов).
+# sent_id = 0106-p5-s1
+# text = Как пишет правозащитный проект ``Апология протеста'', на некоторых участников шествия составили протоколы по части 6.1 статьи 20.2 КоАП (участие в митинге, повлекшем создание помех в движении транспорта или пешеходов).
+1	Как	_	_	_	_	_	_	_	_
+2	пишет	_	_	_	_	_	_	_	_
+3	правозащитный	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Organization
+4	проект	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+6	Апология	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Organization
+7	протеста	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+9	,	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	некоторых	_	_	_	_	_	_	_	_
+12	участников	_	_	_	_	_	_	_	bratT17=Other-group
+13	шествия	_	_	_	_	_	_	_	bratT17=Other-group
+14	составили	_	_	_	_	_	_	_	_
+15	протоколы	_	_	_	_	_	_	_	_
+16	по	_	_	_	_	_	_	_	_
+17	части	_	_	_	_	_	_	_	bratT18=Law
+18	6.1	_	_	_	_	_	_	_	bratT18=Law|bratT43=Ordinal
+19	статьи	_	_	_	_	_	_	_	bratT18=Law
+20	20.2	_	_	_	_	_	_	_	bratT18=Law|bratT44=Ordinal
+21	КоАП	_	_	_	_	_	_	_	bratT18=Law|bratT45=Law
+22	(	_	_	_	_	_	_	_	SpaceAfter=No
+23	участие	_	_	_	_	_	_	_	_
+24	в	_	_	_	_	_	_	_	_
+25	митинге	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	повлекшем	_	_	_	_	_	_	_	_
+28	создание	_	_	_	_	_	_	_	_
+29	помех	_	_	_	_	_	_	_	_
+30	в	_	_	_	_	_	_	_	_
+31	движении	_	_	_	_	_	_	_	_
+32	транспорта	_	_	_	_	_	_	_	_
+33	или	_	_	_	_	_	_	_	_
+34	пешеходов	_	_	_	_	_	_	_	SpaceAfter=No
+35	)	_	_	_	_	_	_	_	SpaceAfter=No
+36	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0106-p6
+# par_text = По версии МВД, собравшиеся «создавали помехи движению пешеходов» и мешали тем, кто не участвует в марше воспользоваться транспортом, пройти в аптеку, магазин или к цирку имени Никулина на Цветном бульваре.
+# sent_id = 0106-p6-s1
+# text = По версии МВД, собравшиеся ``создавали помехи движению пешеходов'' и мешали тем, кто не участвует в марше воспользоваться транспортом, пройти в аптеку, магазин или к цирку имени Никулина на Цветном бульваре.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	МВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
+4	,	_	_	_	_	_	_	_	_
+5	собравшиеся	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No
+7	создавали	_	_	_	_	_	_	_	_
+8	помехи	_	_	_	_	_	_	_	_
+9	движению	_	_	_	_	_	_	_	_
+10	пешеходов	_	_	_	_	_	_	_	SpaceAfter=No
+11	''	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	мешали	_	_	_	_	_	_	_	_
+14	тем	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	кто	_	_	_	_	_	_	_	_
+17	не	_	_	_	_	_	_	_	_
+18	участвует	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	марше	_	_	_	_	_	_	_	_
+21	воспользоваться	_	_	_	_	_	_	_	_
+22	транспортом	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	пройти	_	_	_	_	_	_	_	_
+25	в	_	_	_	_	_	_	_	_
+26	аптеку	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	магазин	_	_	_	_	_	_	_	_
+29	или	_	_	_	_	_	_	_	_
+30	к	_	_	_	_	_	_	_	_
+31	цирку	_	_	_	_	_	_	_	bratT20=Facility
+32	имени	_	_	_	_	_	_	_	bratT20=Facility
+33	Никулина	_	_	_	_	_	_	_	bratA3=T21:Male|bratT20=Facility|bratT21=Person|bratT22=Person-surname
+34	на	_	_	_	_	_	_	_	bratT20=Facility
+35	Цветном	_	_	_	_	_	_	_	bratT20=Facility|bratT23=Facility
+36	бульваре	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Facility|bratT23=Facility
+37	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0106-p7
+# par_text = «Русский марш» проходит в Москве и нескольких других городах России в День народного единства с 2005 года. В этом году участники должны были пройти шествием от станции метро «Цветной бульвар» до общественной приемной ФСИН и возложить там цветы, требуя провести проверку по факту смерти неонациста Максима «Тесака» Марцинкевича в челябинском СИЗО.
+# sent_id = 0106-p7-s1
+# text = ``Русский марш'' проходит в Москве и нескольких других городах России в День народного единства с 2005 года.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Event
+2	Русский	_	_	_	_	_	_	_	bratA12=T46:Adjective|bratT24=Event|bratT46=Nationality
+3	марш	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Event
+4	''	_	_	_	_	_	_	_	bratT24=Event
+5	проходит	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	Москве	_	_	_	_	_	_	_	bratT25=GPE
+8	и	_	_	_	_	_	_	_	_
+9	нескольких	_	_	_	_	_	_	_	bratT48=Quantity
+10	других	_	_	_	_	_	_	_	bratT48=Quantity
+11	городах	_	_	_	_	_	_	_	bratT48=Quantity
+12	России	_	_	_	_	_	_	_	bratT26=GPE
+13	в	_	_	_	_	_	_	_	bratT50=Time-absolute
+14	День	_	_	_	_	_	_	_	bratT27=Event|bratT50=Time-absolute
+15	народного	_	_	_	_	_	_	_	bratT27=Event|bratT50=Time-absolute
+16	единства	_	_	_	_	_	_	_	bratT27=Event|bratT50=Time-absolute
+17	с	_	_	_	_	_	_	_	bratA13=T28:RCont|bratA4=T28:Past-Pres|bratT28=Date-period-absolute
+18	2005	_	_	_	_	_	_	_	bratA13=T28:RCont|bratA4=T28:Past-Pres|bratT28=Date-period-absolute
+19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T28:RCont|bratA4=T28:Past-Pres|bratT28=Date-period-absolute
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0106-p7-s2
+# text = В этом году участники должны были пройти шествием от станции метро ``Цветной бульвар'' до общественной приемной ФСИН и возложить там цветы, требуя провести проверку по факту смерти неонациста Максима ``Тесака'' Марцинкевича в челябинском СИЗО.
+1	В	_	_	_	_	_	_	_	bratA5=T29:Present|bratT29=Date-absolute
+2	этом	_	_	_	_	_	_	_	bratA5=T29:Present|bratT29=Date-absolute|bratT47=Ordinal
+3	году	_	_	_	_	_	_	_	bratA5=T29:Present|bratT29=Date-absolute
+4	участники	_	_	_	_	_	_	_	bratT30=Other-group
+5	должны	_	_	_	_	_	_	_	_
+6	были	_	_	_	_	_	_	_	_
+7	пройти	_	_	_	_	_	_	_	_
+8	шествием	_	_	_	_	_	_	_	_
+9	от	_	_	_	_	_	_	_	_
+10	станции	_	_	_	_	_	_	_	bratT31=Facility
+11	метро	_	_	_	_	_	_	_	bratT31=Facility
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Facility
+13	Цветной	_	_	_	_	_	_	_	bratT31=Facility
+14	бульвар	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Facility
+15	''	_	_	_	_	_	_	_	bratT31=Facility
+16	до	_	_	_	_	_	_	_	_
+17	общественной	_	_	_	_	_	_	_	bratA14=T32:Department|bratT32=Organization
+18	приемной	_	_	_	_	_	_	_	bratA14=T32:Department|bratT32=Organization
+19	ФСИН	_	_	_	_	_	_	_	bratA14=T32:Department|bratT32=Organization|bratT49=Organization
+20	и	_	_	_	_	_	_	_	_
+21	возложить	_	_	_	_	_	_	_	_
+22	там	_	_	_	_	_	_	_	_
+23	цветы	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	требуя	_	_	_	_	_	_	_	_
+26	провести	_	_	_	_	_	_	_	_
+27	проверку	_	_	_	_	_	_	_	_
+28	по	_	_	_	_	_	_	_	_
+29	факту	_	_	_	_	_	_	_	_
+30	смерти	_	_	_	_	_	_	_	_
+31	неонациста	_	_	_	_	_	_	_	bratA6=T33:Male|bratT33=Person|bratT34=Political-group
+32	Максима	_	_	_	_	_	_	_	bratA6=T33:Male|bratT33=Person|bratT35=Person-forename
+33	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T33:Male|bratT33=Person|bratT36=Person-alias
+34	Тесака	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T33:Male|bratT33=Person|bratT36=Person-alias
+35	''	_	_	_	_	_	_	_	bratA6=T33:Male|bratT33=Person|bratT36=Person-alias
+36	Марцинкевича	_	_	_	_	_	_	_	bratA6=T33:Male|bratT33=Person|bratT37=Person-surname
+37	в	_	_	_	_	_	_	_	_
+38	челябинском	_	_	_	_	_	_	_	bratA7=T39:Adjective|bratT38=Facility|bratT39=GPE
+39	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Facility
+40	.	_	_	_	_	_	_	_	_
+

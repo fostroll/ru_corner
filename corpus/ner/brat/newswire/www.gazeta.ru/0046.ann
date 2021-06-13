@@ -1,56 +1,68 @@
-T1	Other-term 18 26	COVID-19
-T2	GPE 33 41	Бразилии
-T3	Quantity 56 63	6   млн
-T4	Other-term 104 116	коронавируса
-T5	GPE 139 147	Бразилии
-T6	Quantity 161 174	6   020   164
-T7	Organization 202 206	ТАСС
+T1	Other-term 18 28	COVID - 19
+T2	GPE 35 43	Бразилии
+T3	Quantity 58 65	6   млн
+T4	Other-term 106 118	коронавируса
+T5	GPE 141 149	Бразилии
+T6	Quantity 163 176	6   020   164
+T7	Organization 204 208	ТАСС
 A1	Media T7
-T8	Organization 229 246	Минздрав   страны
-T9	Date-period-absolute 282 304	за   последние   сутки
-T10	GPE 311 319	Бразилии
-T11	Quantity 341 374	38   397   новых   инфицированных
-T12	Other-term 403 428	коронавирусной   инфекции
-T13	Quantity 463 472	168   613
-T14	Quantity 543 567	5   422   102   пациента
-T15	Quantity 671 697	свыше   40   млн   человек
-T16	Quantity 722 750	более   миллиона   пациентов
-T17	Quantity 635 664	более   57   млн   заболевших
-T18	GPE 772 778	России
-T19	Quantity 791 816	свыше   2   млн   человек
-T20	Other-term 823 831	COVID-19
-T21	GPE 836 838	РФ
-T22	Ordinal 848 854	первой
-T23	Other-term 903 910	вакцину
-T24	Other-term 918 926	COVID-19
-T25	Organization 961 996	НИЦЭМ   имени   Гамалеи   совместно
-T26	Organization 1003 1044	Российским   фондом   прямых   инвестиций
-T27	Product 1065 1086	``   Спутник   V   ''
-T28	Date-absolute 1091 1103	15   октября
-T29	GPE 1118 1124	России
-T30	Person-property 1106 1124	президент   России
-T31	Person 1106 1143	президент   России   Владимир   Путин
-T32	Ordinal 1176 1182	второй
-T33	Other-term 1185 1192	вакцины
-T34	Other-term 1200 1208	COVID-19
-T35	Product 1247 1269	``   ЭпиВакКорона   ''
-T36	Organization 1292 1332	новосибирский   центр   ``   Вектор   ''
-T37	Event 513 521	пандемии
-T38	Event 605 613	пандемии
-T39	Ordinal 287 296	последние
-T40	Date-period-absolute 490 521	с   момента   начала   пандемии
-T41	Date-period-absolute 592 613	с   начала   пандемии
-T42	GPE 585 589	мире
-T43	GPE 871 875	мире
-T44	Duration 299 304	сутки
+T8	Organization 231 248	Минздрав   страны
+T9	Date-period-absolute 284 306	за   последние   сутки
+T10	GPE 313 321	Бразилии
+T11	Quantity 343 376	38   397   новых   инфицированных
+T12	Other-term 405 430	коронавирусной   инфекции
+T13	Quantity 465 474	168   613
+T14	Quantity 545 569	5   422   102   пациента
+T15	Quantity 673 699	свыше   40   млн   человек
+T16	Quantity 724 752	более   миллиона   пациентов
+T17	Quantity 637 666	более   57   млн   заболевших
+T18	GPE 774 780	России
+T19	Quantity 793 818	свыше   2   млн   человек
+T20	Other-term 825 835	COVID - 19
+T21	GPE 840 842	РФ
+T22	Ordinal 852 858	первой
+T23	Other-term 907 914	вакцину
+T24	Other-term 922 932	COVID - 19
+T25	Organization 967 1002	НИЦЭМ   имени   Гамалеи   совместно
+T26	Organization 1009 1050	Российским   фондом   прямых   инвестиций
+T27	Product 1071 1092	``   Спутник   V   ''
+T28	Date-absolute 1097 1109	15   октября
+T29	GPE 1124 1130	России
+T30	Person-property 1112 1130	президент   России
+T31	Person 1112 1149	президент   России   Владимир   Путин
+T32	Ordinal 1182 1188	второй
+T33	Other-term 1191 1198	вакцины
+T34	Other-term 1206 1216	COVID - 19
+T35	Product 1255 1277	``   ЭпиВакКорона   ''
+T36	Organization 1300 1340	новосибирский   центр   ``   Вектор   ''
+T37	Event 515 523	пандемии
+T38	Event 607 615	пандемии
+T39	Ordinal 289 298	последние
+T40	Date-period-absolute 492 523	с   момента   начала   пандемии
+T41	Date-period-absolute 594 615	с   начала   пандемии
+T42	GPE 587 591	мире
+T43	GPE 875 879	мире
+T44	Duration 301 306	сутки
 A3	Past-Pres T9
 A2	Past-Pres T40
 A4	Past-Pres T41
 A5	Past T28
-T45	Person-forename 1127 1135	Владимир
-T46	Person-surname 1138 1143	Путин
+T45	Person-forename 1133 1141	Владимир
+T46	Person-surname 1144 1149	Путин
 A6	Male T31
-T47	GPE 1003 1013	Российским
+T47	GPE 1009 1019	Российским
 A7	Adjective T47
-T48	GPE 1292 1305	новосибирский
+T48	GPE 1300 1313	новосибирский
 A8	Adjective T48
+T49	Event 1168 1179	регистрации
+A9	Trademark T27
+A10	Trademark T35
+T50	Cardinal 26 28	19
+T51	Cardinal 833 835	19
+T52	Cardinal 930 932	19
+T53	Cardinal 1214 1216	19
+T54	Person 983 990	Гамалеи
+T55	Person-surname 983 990	Гамалеи
+T56	GPE 242 248	страны
+T57	GPE 437 443	стране
+T58	GPE 861 868	страной

@@ -1,0 +1,61 @@
+T1	GPE 37 43	России
+T2	Percent 54 63	на   57 %
+T3	GPE 102 108	России
+T4	Ordinal 115 122	третьем
+T5	Date-period-absolute 111 147	в   третьем   квартале   2020   года
+T6	Percent 158 169	на   45,8 %
+T8	Percent 240 251	на   56,8 %
+T9	Ordinal 276 282	вторым
+T10	Date-period-absolute 276 294	вторым   кварталом
+T11	Person-property 464 473	аналитики
+T12	Person-property 580 588	продавца
+T13	Person-property 648 657	продавцам
+T14	Person-property 734 743	экспертов
+T15	GPE 803 809	Москве
+T16	Date-period-absolute 822 834	за   квартал
+T17	Percent 853 865	на   101,1 %
+T18	Ordinal 897 904	третьим
+T19	Date-period-absolute 897 930	третьим   кварталом   2019   года
+T20	Percent 937 948	на   66,7 %
+T21	Nationality 1155 1162	россиян
+A1	Citizenship T21
+T22	Person-property 1187 1196	аналитики
+T23	Organization 1344 1346	ЦБ
+T24	Other-group 1377 1388	покупателей
+T25	GPE 968 975	Саратов
+T26	GPE 1040 1055	Санкт-Петербург
+T27	Percent 982 989	+86,1 %
+T28	Date-period-absolute 992 1004	за   квартал
+T29	Percent 1011 1018	+39,9 %
+T30	Date-period-absolute 1021 1029	за   год
+T31	Percent 1062 1067	+83 %
+T32	Date-period-absolute 1070 1082	за   квартал
+T33	Percent 1089 1096	+48,6 %
+T34	Ordinal 13 22	вторичное
+T35	Ordinal 78 87	вторичное
+T36	Organization 342 382	сервиса   ``   Авито   Недвижимость   ''
+T37	Organization 419 422	РБК
+A2	Media T37
+T38	Ordinal 513 522	вторичное
+T39	Service 665 715	платформе   с   объявлениями   о   продаже   жилья
+T40	Ordinal 1254 1263	вторичном
+A3	Past T5
+T41	Date-period-absolute 193 233	аналогичным   периодом   прошлого   года
+T42	Duration 193 215	аналогичным   периодом
+T7	Ordinal 218 226	прошлого
+A4	Past T10
+T43	Duration 827 834	квартал
+A6	Past T19
+T44	Duration 997 1004	квартал
+T45	Duration 1026 1029	год
+T46	Duration 1075 1082	квартал
+A10	Past T41
+T47	Duration 125 133	квартале
+T48	Duration 907 916	кварталом
+T49	Duration 285 294	кварталом
+T50	Duration 1103 1110	годовом
+T51	Time-period 1099 1122	в   годовом   выражении
+A5	Past-Pres T16
+A7	Past-Pres T28
+A8	Past-Pres T30
+A9	Past-Pres T32

@@ -5,7 +5,7 @@
 # text = Байден провёл встречу с Пелоси
 1	Байден	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT27=Person-surname
 2	провёл	_	_	_	_	_	_	_	_
-3	встречу	_	_	_	_	_	_	_	_
+3	встречу	_	_	_	_	_	_	_	bratT42=Event
 4	с	_	_	_	_	_	_	_	_
 5	Пелоси	_	_	_	_	_	_	_	bratA6=T2:Female|bratT2=Person|bratT28=Person-surname
 
@@ -20,7 +20,7 @@
 5	Джо	_	_	_	_	_	_	_	bratA8=T19:Male|bratT19=Person|bratT29=Person-forename
 6	Байден	_	_	_	_	_	_	_	bratA8=T19:Male|bratT19=Person|bratT30=Person-surname
 7	провёл	_	_	_	_	_	_	_	_
-8	встречу	_	_	_	_	_	_	_	_
+8	встречу	_	_	_	_	_	_	_	bratT41=Event
 9	со	_	_	_	_	_	_	_	_
 10	спикером	_	_	_	_	_	_	_	bratA7=T21:Female|bratT20=Person-property|bratT21=Person
 11	палаты	_	_	_	_	_	_	_	bratA7=T21:Female|bratT20=Person-property|bratT21=Person|bratT22=Organization
@@ -81,7 +81,7 @@
 10	его	_	_	_	_	_	_	_	bratA2=T24:Future|bratT24=Date-absolute|bratT25=Event
 11	вступления	_	_	_	_	_	_	_	bratA2=T24:Future|bratT24=Date-absolute|bratT25=Event
 12	в	_	_	_	_	_	_	_	bratT25=Event
-13	должность	_	_	_	_	_	_	_	bratT25=Event
+13	должность	_	_	_	_	_	_	_	bratT25=Event|bratT7=Person-property
 14	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event|bratT7=Person-property
 15	.	_	_	_	_	_	_	_	_
 
@@ -110,6 +110,6 @@
 19	скоро	_	_	_	_	_	_	_	bratA4=T26:Future|bratT26=Date-absolute
 20	станет	_	_	_	_	_	_	_	_
 21	главой	_	_	_	_	_	_	_	bratT13=Person-property
-22	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
+22	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property|bratT43=GPE
 23	.	_	_	_	_	_	_	_	_
 

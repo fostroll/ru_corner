@@ -7,33 +7,33 @@ T6	GPE 89 98	Туркмении
 T7	Person 77 128	Президент   Туркмении   Гурбангулы   Бердымухамедов
 T8	GPE 144 152	Ашхабаде
 T9	Facility 155 236	золотой   памятник   собаке   породы   алабай   (   среднеазиатская   овчарка   )
-T10	Service 292 327	Telegram-канал   ``   Пул   N3   ''
-T11	Facility 333 349	Золотой   алабай
-T13	Person 573 587	Бердымухамедов
-T14	Person-property 626 651	премьер-министру   России
-T15	Person 626 673	премьер-министру   России   Дмитрию   Медведеву
-T16	GPE 645 651	России
-T17	Date-absolute 549 570	В   мае   2019   года
-T18	GPE 679 688	Туркмения
-T19	Ordinal 787 793	первом
-T20	Person-property 787 819	первом   президенте   республики
-T21	Person 787 843	первом   президенте   республики   Сапармурате   Ниязове
-T22	Date-absolute 848 863	В   2017   году
-T23	Facility 878 913	позолоченных   памятников   Ниязову
-T24	GPE 1051 1059	Ашхабаде
-T25	Date-absolute 950 965	в   2015   году
-T26	Facility 968 1022	памятник   действующему   президенту   Бердымухамедову
-T28	Person 979 1022	действующему   президенту   Бердымухамедову
-T29	Person-property 979 1004	действующему   президенту
-T30	Quantity 866 875	один   из
+T10	Service 292 328	Telegram-канал   ``   Пул   N 3   ''
+T11	Facility 334 350	Золотой   алабай
+T13	Person 574 588	Бердымухамедов
+T14	Person-property 627 652	премьер-министру   России
+T15	Person 627 674	премьер-министру   России   Дмитрию   Медведеву
+T16	GPE 646 652	России
+T17	Date-absolute 550 571	В   мае   2019   года
+T18	GPE 680 689	Туркмения
+T19	Ordinal 788 794	первом
+T20	Person-property 788 820	первом   президенте   республики
+T21	Person 788 844	первом   президенте   республики   Сапармурате   Ниязове
+T22	Date-absolute 849 864	В   2017   году
+T23	Facility 879 914	позолоченных   памятников   Ниязову
+T24	GPE 1052 1060	Ашхабаде
+T25	Date-absolute 951 966	в   2015   году
+T26	Facility 969 1023	памятник   действующему   президенту   Бердымухамедову
+T28	Person 980 1023	действующему   президенту   Бердымухамедову
+T29	Person-property 980 1005	действующему   президенту
+T30	Quantity 867 876	один   из
 A1	Media T10
-T12	Event 430 450	церемонии   открытия
-T27	Date-period-absolute 417 439	Во   время   церемонии
+T12	Event 431 451	церемонии   открытия
+T27	Date-period-absolute 418 440	Во   время   церемонии
 T31	Other-term 194 200	алабай
 T32	Other-term 207 232	среднеазиатская   овчарка
 T33	Other-term 69 75	алабаю
-T34	Other-term 343 349	алабай
-T35	Other-term 617 623	алабай
+T34	Other-term 344 350	алабай
+T35	Other-term 618 624	алабай
 A2	Past T17
 A3	Past T22
 A4	Past T25
@@ -41,18 +41,24 @@ A5	Past T27
 T36	GPE 207 222	среднеазиатская
 T37	Person-forename 101 111	Гурбангулы
 T38	Person-surname 114 128	Бердымухамедов
-T39	Person-surname 573 587	Бердымухамедов
-T40	Person-forename 654 661	Дмитрию
-T41	Person-surname 664 673	Медведеву
-T42	Person-forename 822 833	Сапармурате
-T43	Person-surname 836 843	Ниязове
-T44	Person-surname 906 913	Ниязову
-T45	Person-surname 1007 1022	Бердымухамедову
+T39	Person-surname 574 588	Бердымухамедов
+T40	Person-forename 655 662	Дмитрию
+T41	Person-surname 665 674	Медведеву
+T42	Person-forename 823 834	Сапармурате
+T43	Person-surname 837 844	Ниязове
+T44	Person-surname 907 914	Ниязову
+T45	Person-surname 1008 1023	Бердымухамедову
 A6	Male T7
 A7	Adjective T36
 A8	Male T13
 A9	Male T15
 A10	Male T21
-T46	Person 906 913	Ниязову
+T46	Person 907 914	Ниязову
 A11	Male T46
 A12	Male T28
+T47	Event 255 275	церемонии   открытия
+T49	Ordinal 322 323	3
+T48	Person 0 21	Президент   Туркмении
+A13	Male T48
+T50	Person 601 624	щенка   породы   алабай
+A14	Unconscious T50

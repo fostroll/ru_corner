@@ -1,0 +1,184 @@
+# newdoc id = 0093
+# newpar id = 0093-p1
+# par_text = В Омске задержали участников одиночных пикетов против назначения главой местного Минздрава Александра Мураховского
+# sent_id = 0093-p1-s1
+# text = В Омске задержали участников одиночных пикетов против назначения главой местного Минздрава Александра Мураховского
+1	В	_	_	_	_	_	_	_	_
+2	Омске	_	_	_	_	_	_	_	bratT1=GPE
+3	задержали	_	_	_	_	_	_	_	_
+4	участников	_	_	_	_	_	_	_	_
+5	одиночных	_	_	_	_	_	_	_	_
+6	пикетов	_	_	_	_	_	_	_	_
+7	против	_	_	_	_	_	_	_	_
+8	назначения	_	_	_	_	_	_	_	_
+9	главой	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-property
+10	местного	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization|bratT74=GPE
+11	Минздрава	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+12	Александра	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT6=Person-forename
+13	Мураховского	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT7=Person-surname
+
+# newpar id = 0093-p2
+# par_text = В Омске полицейские задержали шестерых человек во время одиночных пикетов против назначения главой Минздрава Александра Мураховского, главврача омской больницы скорой медицинской помощи №1. Об этом сообщает местный штаб Навального.
+# sent_id = 0093-p2-s1
+# text = В Омске полицейские задержали шестерых человек во время одиночных пикетов против назначения главой Минздрава Александра Мураховского, главврача омской больницы скорой медицинской помощи №1.
+1	В	_	_	_	_	_	_	_	_
+2	Омске	_	_	_	_	_	_	_	bratT8=GPE
+3	полицейские	_	_	_	_	_	_	_	bratT9=Person-property
+4	задержали	_	_	_	_	_	_	_	_
+5	шестерых	_	_	_	_	_	_	_	bratT10=Quantity
+6	человек	_	_	_	_	_	_	_	bratT10=Quantity
+7	во	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute
+8	время	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute
+9	одиночных	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute|bratT63=Event|bratT66=Quantity
+10	пикетов	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute|bratT63=Event
+11	против	_	_	_	_	_	_	_	_
+12	назначения	_	_	_	_	_	_	_	_
+13	главой	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property
+14	Минздрава	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property|bratT13=Organization
+15	Александра	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT14=Person-forename
+16	Мураховского	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Male|bratT11=Person|bratT15=Person-surname
+17	,	_	_	_	_	_	_	_	_
+18	главврача	_	_	_	_	_	_	_	bratT16=Person-property
+19	омской	_	_	_	_	_	_	_	bratA3=T18:Adjective|bratT16=Person-property|bratT17=Organization|bratT18=GPE
+20	больницы	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
+21	скорой	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
+22	медицинской	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
+23	помощи	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
+24-25	№1	_	_	_	_	_	_	_	SpaceAfter=No
+24	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT71=Ordinal
+25	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT71=Ordinal
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p2-s2
+# text = Об этом сообщает местный штаб Навального.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	местный	_	_	_	_	_	_	_	bratA12=T75:Adjective|bratT19=Organization|bratT75=GPE
+5	штаб	_	_	_	_	_	_	_	bratT19=Organization
+6	Навального	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T20:Male|bratT19=Organization|bratT20=Person|bratT21=Person-surname
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p3
+# par_text = Задержаны Дмитрий Грунин, Марк Манн, Андрей Уфимцев, Евгений Рудковский, Даниил Чебыкин и сторонник Либертарианский партии по имени Павел.
+# sent_id = 0093-p3-s1
+# text = Задержаны Дмитрий Грунин, Марк Манн, Андрей Уфимцев, Евгений Рудковский, Даниил Чебыкин и сторонник Либертарианский партии по имени Павел.
+1	Задержаны	_	_	_	_	_	_	_	_
+2	Дмитрий	_	_	_	_	_	_	_	bratA6=T23:Male|bratT23=Person|bratT29=Person-forename
+3	Грунин	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T23:Male|bratT23=Person|bratT30=Person-surname
+4	,	_	_	_	_	_	_	_	_
+5	Марк	_	_	_	_	_	_	_	bratA7=T24:Male|bratT24=Person|bratT31=Person-forename
+6	Манн	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T24:Male|bratT24=Person|bratT32=Person-surname
+7	,	_	_	_	_	_	_	_	_
+8	Андрей	_	_	_	_	_	_	_	bratA8=T25:Male|bratT25=Person|bratT33=Person-forename
+9	Уфимцев	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T25:Male|bratT25=Person|bratT34=Person-surname
+10	,	_	_	_	_	_	_	_	_
+11	Евгений	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person|bratT35=Person-forename
+12	Рудковский	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T26:Male|bratT26=Person|bratT36=Person-surname
+13	,	_	_	_	_	_	_	_	_
+14	Даниил	_	_	_	_	_	_	_	bratA10=T27:Male|bratT27=Person|bratT37=Person-forename
+15	Чебыкин	_	_	_	_	_	_	_	bratA10=T27:Male|bratT27=Person|bratT38=Person-surname
+16	и	_	_	_	_	_	_	_	_
+17	сторонник	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person|bratT40=Political-group
+18	Либертарианский	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person|bratT40=Political-group
+19	партии	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person|bratT40=Political-group
+20	по	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person
+21	имени	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person
+22	Павел	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Male|bratT28=Person|bratT39=Person-forename
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p4
+# par_text = 20 августа политика Алексея Навального, потерявшего сознание на борту самолета, доставили в БСМП-1.
+# sent_id = 0093-p4-s1
+# text = 20 августа политика Алексея Навального, потерявшего сознание на борту самолета, доставили в БСМП-1.
+1	20	_	_	_	_	_	_	_	bratA13=T42:Past|bratT42=Date-absolute
+2	августа	_	_	_	_	_	_	_	bratA13=T42:Past|bratT42=Date-absolute
+3	политика	_	_	_	_	_	_	_	bratA14=T43:Male|bratT43=Person|bratT44=Person-property
+4	Алексея	_	_	_	_	_	_	_	bratA14=T43:Male|bratT43=Person|bratT45=Person-forename
+5	Навального	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T43:Male|bratT43=Person|bratT46=Person-surname
+6	,	_	_	_	_	_	_	_	_
+7	потерявшего	_	_	_	_	_	_	_	_
+8	сознание	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	борту	_	_	_	_	_	_	_	_
+11	самолета	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	доставили	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15-17	БСМП-1	_	_	_	_	_	_	_	SpaceAfter=No
+15	БСМП	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+16	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+17	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization|bratT72=Ordinal
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p5
+# par_text = Мураховский объяснял кому оппозиционера нарушением обмена веществ и отказывался отпускать его на лечение в Берлин. 7 ноября Мураховского назначили главой местного Минздрава.
+# sent_id = 0093-p5-s1
+# text = Мураховский объяснял кому оппозиционера нарушением обмена веществ и отказывался отпускать его на лечение в Берлин.
+1	Мураховский	_	_	_	_	_	_	_	bratA15=T48:Male|bratT48=Person|bratT49=Person-surname
+2	объяснял	_	_	_	_	_	_	_	_
+3	кому	_	_	_	_	_	_	_	bratT51=Other-term
+4	оппозиционера	_	_	_	_	_	_	_	bratT50=Person-property
+5	нарушением	_	_	_	_	_	_	_	bratT52=Other-term
+6	обмена	_	_	_	_	_	_	_	bratT52=Other-term
+7	веществ	_	_	_	_	_	_	_	bratT52=Other-term
+8	и	_	_	_	_	_	_	_	_
+9	отказывался	_	_	_	_	_	_	_	_
+10	отпускать	_	_	_	_	_	_	_	_
+11	его	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	лечение	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	Берлин	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=GPE
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p5-s2
+# text = 7 ноября Мураховского назначили главой местного Минздрава.
+1	7	_	_	_	_	_	_	_	bratA16=T54:Past|bratT54=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA16=T54:Past|bratT54=Date-absolute
+3	Мураховского	_	_	_	_	_	_	_	bratA17=T55:Male|bratT55=Person|bratT56=Person-surname
+4	назначили	_	_	_	_	_	_	_	_
+5	главой	_	_	_	_	_	_	_	bratT57=Person-property
+6	местного	_	_	_	_	_	_	_	bratA18=T76:Adjective|bratT57=Person-property|bratT58=Organization|bratT76=GPE
+7	Минздрава	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Person-property|bratT58=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0093-p6
+# par_text = Специалисты Бундесвера и эксперты из лабораторий Франции, Швеции и ОЗХО нашли в анализах Навального вещество из группы «Новичок». Россия не признает, что политик был отравлен.
+# sent_id = 0093-p6-s1
+# text = Специалисты Бундесвера и эксперты из лабораторий Франции, Швеции и ОЗХО нашли в анализах Навального вещество из группы ``Новичок''.
+1	Специалисты	_	_	_	_	_	_	_	bratT59=Person-property
+2	Бундесвера	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Organization
+3	и	_	_	_	_	_	_	_	_
+4	эксперты	_	_	_	_	_	_	_	bratT61=Person-property
+5	из	_	_	_	_	_	_	_	_
+6	лабораторий	_	_	_	_	_	_	_	_
+7	Франции	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=GPE
+8	,	_	_	_	_	_	_	_	_
+9	Швеции	_	_	_	_	_	_	_	bratT64=GPE
+10	и	_	_	_	_	_	_	_	_
+11	ОЗХО	_	_	_	_	_	_	_	bratT65=Organization
+12	нашли	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	анализах	_	_	_	_	_	_	_	_
+15	Навального	_	_	_	_	_	_	_	bratA20=T67:Male|bratT67=Person|bratT68=Person-surname
+16	вещество	_	_	_	_	_	_	_	bratT41=Product
+17	из	_	_	_	_	_	_	_	bratT41=Product
+18	группы	_	_	_	_	_	_	_	bratA5=T73:Trademark|bratT41=Product|bratT73=Product
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T73:Trademark|bratT41=Product|bratT73=Product
+20	Новичок	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T73:Trademark|bratT41=Product|bratT73=Product
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T73:Trademark|bratT41=Product|bratT73=Product
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0093-p6-s2
+# text = Россия не признает, что политик был отравлен.
+1	Россия	_	_	_	_	_	_	_	bratT69=GPE
+2	не	_	_	_	_	_	_	_	_
+3	признает	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	политик	_	_	_	_	_	_	_	bratT70=Person-property
+7	был	_	_	_	_	_	_	_	_
+8	отравлен	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+

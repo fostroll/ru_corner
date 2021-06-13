@@ -56,7 +56,7 @@
 # par_text = Политик опубликовал фотографии документа, подписанного министром образования и науки Украины Любомирой Мандзий.
 # sent_id = 0094-p3-s1
 # text = Политик опубликовал фотографии документа, подписанного министром образования и науки Украины Любомирой Мандзий.
-1	Политик	_	_	_	_	_	_	_	bratT13=Person-property
+1	Политик	_	_	_	_	_	_	_	bratA16=T54:Male|bratT13=Person-property|bratT54=Person
 2	опубликовал	_	_	_	_	_	_	_	_
 3	фотографии	_	_	_	_	_	_	_	_
 4	документа	_	_	_	_	_	_	_	SpaceAfter=No
@@ -122,7 +122,7 @@
 10	украинскую	_	_	_	_	_	_	_	bratA12=T37:Adjective|bratT37=GPE
 11	историю	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
-13	сегодняшнюю	_	_	_	_	_	_	_	_
+13	сегодняшнюю	_	_	_	_	_	_	_	bratA15=T52:Present|bratT52=Date-absolute
 14	бытность	_	_	_	_	_	_	_	SpaceAfter=No
 15	''	_	_	_	_	_	_	_	_
 16	следует	_	_	_	_	_	_	_	_
@@ -145,7 +145,7 @@
 # newpar id = 0094-p5
 # par_text = В тексте говорится о периоде «советской оккупации 1919-1991 годов» и запрещается употреблять термин «Великая Отечественная война». Вместо него украинским педагогам предлагается использовать фразу «советско-немецкая фаза Второй мировой войны».
 # sent_id = 0094-p5-s1
-# text = В тексте говорится о периоде ``советской оккупации 1919-1991 годов'' и запрещается употреблять термин ``Великая Отечественная война''.
+# text = В тексте говорится о периоде ``советской оккупации 1919 - 1991 годов'' и запрещается употреблять термин ``Великая Отечественная война''.
 1	В	_	_	_	_	_	_	_	_
 2	тексте	_	_	_	_	_	_	_	_
 3	говорится	_	_	_	_	_	_	_	_
@@ -154,19 +154,21 @@
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute
 7	советской	_	_	_	_	_	_	_	bratA14=T51:Adjective|bratT24=Date-period-absolute|bratT25=Event|bratT51=GPE
 8	оккупации	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event
-9	1919-1991	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
-10	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
-11	''	_	_	_	_	_	_	_	bratT24=Date-period-absolute
-12	и	_	_	_	_	_	_	_	_
-13	запрещается	_	_	_	_	_	_	_	_
-14	употреблять	_	_	_	_	_	_	_	_
-15	термин	_	_	_	_	_	_	_	_
-16	``	_	_	_	_	_	_	_	SpaceAfter=No
-17	Великая	_	_	_	_	_	_	_	bratT3=Event
-18	Отечественная	_	_	_	_	_	_	_	bratT3=Event
-19	война	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Event
-20	''	_	_	_	_	_	_	_	SpaceAfter=No
-21	.	_	_	_	_	_	_	_	_
+9	1919	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
+10	-	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
+11	1991	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
+12	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
+13	''	_	_	_	_	_	_	_	bratT24=Date-period-absolute
+14	и	_	_	_	_	_	_	_	_
+15	запрещается	_	_	_	_	_	_	_	_
+16	употреблять	_	_	_	_	_	_	_	_
+17	термин	_	_	_	_	_	_	_	_
+18	``	_	_	_	_	_	_	_	SpaceAfter=No
+19	Великая	_	_	_	_	_	_	_	bratT3=Event
+20	Отечественная	_	_	_	_	_	_	_	bratT3=Event
+21	война	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Event
+22	''	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0094-p5-s2
 # text = Вместо него украинским педагогам предлагается использовать фразу ``советско-немецкая фаза Второй мировой войны''.
@@ -178,6 +180,7 @@
 6	использовать	_	_	_	_	_	_	_	_
 7	фразу	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
+9-11	советско-немецкая	_	_	_	_	_	_	_	SpaceAfter=No
 9	советско	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T49:Adjective|bratT4=Event|bratT49=GPE
 10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Event
 11	немецкая	_	_	_	_	_	_	_	bratA13=T50:Adjective|bratT4=Event|bratT50=GPE
@@ -231,10 +234,10 @@
 13	учителей	_	_	_	_	_	_	_	bratT31=Person-property
 14	или	_	_	_	_	_	_	_	_
 15	информировать	_	_	_	_	_	_	_	_
-16	правоохранительные	_	_	_	_	_	_	_	_
-17	органы	_	_	_	_	_	_	_	_
+16	правоохранительные	_	_	_	_	_	_	_	bratT55=Organization
+17	органы	_	_	_	_	_	_	_	bratT55=Organization
 18	о	_	_	_	_	_	_	_	_
-19	нарушении	_	_	_	_	_	_	_	_
-20	закона	_	_	_	_	_	_	_	SpaceAfter=No
+19	нарушении	_	_	_	_	_	_	_	bratT53=Event
+20	закона	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Event
 21	.	_	_	_	_	_	_	_	_
 

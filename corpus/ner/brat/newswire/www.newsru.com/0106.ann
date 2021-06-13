@@ -1,0 +1,74 @@
+T1	Person 0 23	Елизавета   Туктамышева
+T2	Event 57 92	Гран-при   по   фигурному   катанию
+T3	Event 37 92	московский   этап   Гран-при   по   фигурному   катанию
+T4	Person-property 94 117	Российская   фигуристка
+T5	Person 94 143	Российская   фигуристка   Елизавета   Туктамышева
+T6	Event 194 202	Гран-при
+T7	Event 172 202	московского   этапа   Гран-при
+T8	Person-property 154 202	победительницей   московского   этапа   Гран-при
+T9	Quantity 226 241	двух   программ
+T10	GPE 267 273	Европы
+T11	Person-property 244 287	чемпионка   мира   и   Европы   2015   года
+A1	Plural T11
+T12	Date-absolute 276 287	2015   года
+T13	Quantity 324 338	223,39   балла
+T14	Person 471 488	Алена   Косторная
+T15	Person 562 573	Туктамышева
+T16	Person-property 576 587	журналистам
+T17	Date-absolute 590 609	после   выступления
+T18	Ordinal 615 621	Второе
+T19	Person 641 658	Алена   Косторная
+T20	Quantity 665 671	220,78
+T21	Ordinal 682 688	третье
+T22	Person 695 715	Анастасия   Гулякова
+T23	Quantity 722 728	199,03
+T24	Ordinal 750 756	третье
+T25	Person 804 824	Александра   Трусова
+T26	Quantity 827 833	трижды
+T27	Ordinal 903 912	четвертой
+T28	Quantity 919 925	198,93
+T29	Event 935 956	Московский   Гран-при
+T30	Other-term 978 990	коронавируса
+T31	Event 967 990	пандемии   коронавируса
+T32	Organization 1070 1073	ISU
+T33	Event 1116 1124	Гран-при
+T34	Person-property 1173 1183	спортсмены
+T35	Person-property 1277 1286	фигуристы
+T36	Event 1405 1413	пандемии
+T37	Date-relative 1062 1067	ранее
+A2	Past T37
+A3	Female T1
+T38	Person-forename 0 9	Елизавета
+T39	Person-surname 12 23	Туктамышева
+T40	GPE 37 47	московский
+A4	Adjective T40
+T41	GPE 94 104	Российская
+A5	Adjective T41
+T42	Person-forename 120 129	Елизавета
+T43	Person-surname 132 143	Туктамышева
+A6	Female T5
+T44	GPE 172 183	московского
+A7	Adjective T44
+T45	GPE 256 260	мира
+A8	Female T14
+T46	Person-forename 471 476	Алена
+T47	Person-surname 479 488	Косторная
+A9	Female T15
+T48	Person-surname 562 573	Туктамышева
+A10	Past T17
+A11	Female T19
+T49	Person-forename 641 646	Алена
+T50	Person-surname 649 658	Косторная
+A12	Female T22
+T51	Person-forename 695 704	Анастасия
+T52	Person-surname 707 715	Гулякова
+A13	Female T25
+T53	Person-forename 804 814	Александра
+T54	Person-surname 817 824	Трусова
+T55	GPE 935 945	Московский
+A14	Adjective T55
+T56	Event 598 609	выступления
+A15	Past T12
+T57	Event 1107 1124	этапов   Гран-при
+T58	Event 1247 1253	этапов
+T59	Event 1016 1043	национальных   соревнований

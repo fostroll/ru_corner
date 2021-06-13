@@ -1,27 +1,29 @@
 T1	Person-property 0 11	Эпидемиолог
-T2	Other-term 38 46	COVID-19
-T3	GPE 53 59	России
-T4	Person 61 172	Заместитель   директора   по   научной   работе   ЦНИИ   Эпидемиологии   Роспотребнадзора   Александр   Горелов
-T5	Person-property 61 150	Заместитель   директора   по   научной   работе   ЦНИИ   Эпидемиологии   Роспотребнадзора
-T6	Organization 111 150	ЦНИИ   Эпидемиологии   Роспотребнадзора
-T7	Organization 134 150	Роспотребнадзора
+T2	Other-term 38 48	COVID - 19
+T3	GPE 55 61	России
+T4	Person 63 174	Заместитель   директора   по   научной   работе   ЦНИИ   Эпидемиологии   Роспотребнадзора   Александр   Горелов
+T5	Person-property 63 152	Заместитель   директора   по   научной   работе   ЦНИИ   Эпидемиологии   Роспотребнадзора
+T6	Organization 113 152	ЦНИИ   Эпидемиологии   Роспотребнадзора
+T7	Organization 136 152	Роспотребнадзора
 A1	Department T6
-T8	Other-term 218 231	коронавирусом
-T9	GPE 238 244	России
-T10	GPE 313 319	Москвы
-T11	Organization 347 370	РИА   ``   Новости   ''
+T8	Other-term 220 233	коронавирусом
+T9	GPE 240 246	России
+T10	GPE 315 321	Москвы
+T11	Organization 349 372	РИА   ``   Новости   ''
 A2	Media T11
-T12	Quantity 499 513	25   субъектах
-T13	Quantity 567 569	60
-T14	GPE 639 645	России
-T15	Person 743 750	Горелов
-T16	Time-absolute 915 926	в   декабре
-T17	Other-term 960 967	гриппом
-T18	Person-property 727 737	специалист
-T19	Date-absolute 776 782	сейчас
+T12	Quantity 501 515	25   субъектах
+T13	Quantity 569 571	60
+T14	GPE 641 647	России
+T15	Person 745 752	Горелов
+T16	Time-absolute 917 928	в   декабре
+T17	Other-term 962 969	гриппом
+T18	Person-property 729 739	специалист
+T19	Date-absolute 778 784	сейчас
 A3	Present T19
-T20	Person-forename 153 162	Александр
-T21	Person-surname 165 172	Горелов
+T20	Person-forename 155 164	Александр
+T21	Person-surname 167 174	Горелов
 A4	Male T4
 A5	Male T15
-T22	Person-surname 743 750	Горелов
+T22	Person-surname 745 752	Горелов
+T23	Cardinal 46 48	19
+T24	GPE 463 469	страны

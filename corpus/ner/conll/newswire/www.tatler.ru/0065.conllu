@@ -1,0 +1,120 @@
+# newdoc id = 0065
+# newpar id = 0065-p1
+# par_text = Харви Вайнштейн вылечился от коронавирусной инфекции
+# sent_id = 0065-p1-s1
+# text = Харви Вайнштейн вылечился от коронавирусной инфекции
+1	Харви	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT15=Person-forename
+2	Вайнштейн	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT16=Person-surname
+3	вылечился	_	_	_	_	_	_	_	_
+4	от	_	_	_	_	_	_	_	_
+5	коронавирусной	_	_	_	_	_	_	_	bratT2=Other-term
+6	инфекции	_	_	_	_	_	_	_	bratT2=Other-term
+
+# newpar id = 0065-p2
+# par_text = Харви Вайнштейн заразился COVID-19 вскоре после того, как суд вынес ему обвинительный приговор — 22 марта. После положительного результата тестирования продюсер был изолирован от других заключенных в тюрьме Wende Correctional Facility, что в Баффало. 10 апреля представитель Вайнштейна, слова которой приводит Fox News и ряд других изданий, сообщила, что его выписали из медицинского изолятора после двухнедельного карантина, симптомов заболевания у него нет. Предполагается, что Харви мог заразиться в тюрьме Райкерс-Айленд в Нью-Йорке, откуда его затем перевели на северо-запад штата.
+# sent_id = 0065-p2-s1
+# text = Харви Вайнштейн заразился COVID-19 вскоре после того, как суд вынес ему обвинительный приговор - 22 марта.
+1	Харви	_	_	_	_	_	_	_	bratA3=T3:Male|bratT17=Person-forename|bratT3=Person
+2	Вайнштейн	_	_	_	_	_	_	_	bratA3=T3:Male|bratT18=Person-surname|bratT3=Person
+3	заразился	_	_	_	_	_	_	_	_
+4-6	COVID-19	_	_	_	_	_	_	_	_
+4	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+6	19	_	_	_	_	_	_	_	bratT25=Cardinal|bratT4=Other-term
+7	вскоре	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-relative
+8	после	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-relative
+9	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T20:Past|bratT20=Date-relative
+10	,	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-relative
+11	как	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-relative
+12	суд	_	_	_	_	_	_	_	_
+13	вынес	_	_	_	_	_	_	_	_
+14	ему	_	_	_	_	_	_	_	_
+15	обвинительный	_	_	_	_	_	_	_	_
+16	приговор	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_
+18	22	_	_	_	_	_	_	_	bratA4=T5:Past|bratT5=Date-absolute
+19	марта	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T5:Past|bratT5=Date-absolute
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0065-p2-s2
+# text = После положительного результата тестирования продюсер был изолирован от других заключенных в тюрьме Wende Correctional Facility, что в Баффало.
+1	После	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
+2	положительного	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
+3	результата	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
+4	тестирования	_	_	_	_	_	_	_	_
+5	продюсер	_	_	_	_	_	_	_	bratT6=Person-property
+6	был	_	_	_	_	_	_	_	_
+7	изолирован	_	_	_	_	_	_	_	_
+8	от	_	_	_	_	_	_	_	_
+9	других	_	_	_	_	_	_	_	_
+10	заключенных	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	тюрьме	_	_	_	_	_	_	_	bratT7=Facility
+13	Wende	_	_	_	_	_	_	_	bratT7=Facility
+14	Correctional	_	_	_	_	_	_	_	bratT7=Facility
+15	Facility	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
+16	,	_	_	_	_	_	_	_	_
+17	что	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	Баффало	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=GPE
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0065-p2-s3
+# text = 10 апреля представитель Вайнштейна, слова которой приводит Fox News и ряд других изданий, сообщила, что его выписали из медицинского изолятора после двухнедельного карантина, симптомов заболевания у него нет.
+1	10	_	_	_	_	_	_	_	bratA5=T9:Past|bratT9=Date-absolute
+2	апреля	_	_	_	_	_	_	_	bratA5=T9:Past|bratT9=Date-absolute
+3	представитель	_	_	_	_	_	_	_	_
+4	Вайнштейна	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT19=Person-surname
+5	,	_	_	_	_	_	_	_	_
+6	слова	_	_	_	_	_	_	_	_
+7	которой	_	_	_	_	_	_	_	_
+8	приводит	_	_	_	_	_	_	_	_
+9	Fox	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
+10	News	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
+11	и	_	_	_	_	_	_	_	_
+12	ряд	_	_	_	_	_	_	_	_
+13	других	_	_	_	_	_	_	_	_
+14	изданий	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	что	_	_	_	_	_	_	_	_
+19	его	_	_	_	_	_	_	_	_
+20	выписали	_	_	_	_	_	_	_	_
+21	из	_	_	_	_	_	_	_	_
+22	медицинского	_	_	_	_	_	_	_	_
+23	изолятора	_	_	_	_	_	_	_	_
+24	после	_	_	_	_	_	_	_	bratA9=T24:Past|bratT24=Date-absolute
+25	двухнедельного	_	_	_	_	_	_	_	bratA9=T24:Past|bratT21=Duration|bratT24=Date-absolute
+26	карантина	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Past|bratT24=Date-absolute
+27	,	_	_	_	_	_	_	_	_
+28	симптомов	_	_	_	_	_	_	_	_
+29	заболевания	_	_	_	_	_	_	_	_
+30	у	_	_	_	_	_	_	_	_
+31	него	_	_	_	_	_	_	_	_
+32	нет	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0065-p2-s4
+# text = Предполагается, что Харви мог заразиться в тюрьме Райкерс-Айленд в Нью-Йорке, откуда его затем перевели на северо-запад штата.
+1	Предполагается	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	Харви	_	_	_	_	_	_	_	bratA7=T12:Male|bratT12=Person|bratT22=Person-forename
+5	мог	_	_	_	_	_	_	_	_
+6	заразиться	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	тюрьме	_	_	_	_	_	_	_	bratT13=Organization
+9	Райкерс-Айленд	_	_	_	_	_	_	_	bratT13=Organization
+10	в	_	_	_	_	_	_	_	_
+11	Нью-Йорке	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=GPE
+12	,	_	_	_	_	_	_	_	_
+13	откуда	_	_	_	_	_	_	_	_
+14	его	_	_	_	_	_	_	_	_
+15	затем	_	_	_	_	_	_	_	_
+16	перевели	_	_	_	_	_	_	_	_
+17	на	_	_	_	_	_	_	_	_
+18	северо-запад	_	_	_	_	_	_	_	_
+19	штата	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+

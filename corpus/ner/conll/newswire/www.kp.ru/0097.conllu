@@ -31,10 +31,10 @@
 9	пропали	_	_	_	_	_	_	_	_
 10	без	_	_	_	_	_	_	_	_
 11	вести	_	_	_	_	_	_	_	_
-12	во	_	_	_	_	_	_	_	bratT35=Date
-13	время	_	_	_	_	_	_	_	bratT35=Date
-14	военных	_	_	_	_	_	_	_	bratT14=Event|bratT35=Date
-15	действий	_	_	_	_	_	_	_	bratT14=Event|bratT35=Date
+12	во	_	_	_	_	_	_	_	bratA14=T35:Past|bratT35=Date-period-absolute
+13	время	_	_	_	_	_	_	_	bratA14=T35:Past|bratT35=Date-period-absolute
+14	военных	_	_	_	_	_	_	_	bratA14=T35:Past|bratT14=Event|bratT35=Date-period-absolute
+15	действий	_	_	_	_	_	_	_	bratA14=T35:Past|bratT14=Event|bratT35=Date-period-absolute
 16	в	_	_	_	_	_	_	_	_
 17	Нагорном	_	_	_	_	_	_	_	bratT10=GPE
 18	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=GPE
@@ -199,7 +199,7 @@
 11	Азербайджана	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=GPE
 12	,	_	_	_	_	_	_	_	_
 13	конфликтующие	_	_	_	_	_	_	_	_
-14	государства	_	_	_	_	_	_	_	_
+14	государства	_	_	_	_	_	_	_	bratT57=GPE
 15	проводят	_	_	_	_	_	_	_	_
 16	обмен	_	_	_	_	_	_	_	bratT46=Event
 17	пленными	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event
@@ -215,7 +215,7 @@
 
 # sent_id = 0097-p5-s3
 # text = Сегодня в Ереван прибыли еще 20 самолетов с российскими военнослужащими и техникой для проведения миротворческой операции.
-1	Сегодня	_	_	_	_	_	_	_	bratA8=T34:Present|bratT34=Date-absolute
+1	Сегодня	_	_	_	_	_	_	_	bratA8=T34:Past|bratT34=Date-absolute
 2	в	_	_	_	_	_	_	_	_
 3	Ереван	_	_	_	_	_	_	_	bratT30=GPE
 4	прибыли	_	_	_	_	_	_	_	_

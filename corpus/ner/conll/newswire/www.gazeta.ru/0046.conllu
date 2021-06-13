@@ -5,12 +5,15 @@
 # text = Число случаев COVID-19 в Бразилии превысило 6 млн
 1	Число	_	_	_	_	_	_	_	_
 2	случаев	_	_	_	_	_	_	_	_
-3	COVID-19	_	_	_	_	_	_	_	bratT1=Other-term
-4	в	_	_	_	_	_	_	_	_
-5	Бразилии	_	_	_	_	_	_	_	bratT2=GPE
-6	превысило	_	_	_	_	_	_	_	_
-7	6	_	_	_	_	_	_	_	bratT3=Quantity
-8	млн	_	_	_	_	_	_	_	bratT3=Quantity
+3-5	COVID-19	_	_	_	_	_	_	_	_
+3	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+5	19	_	_	_	_	_	_	_	bratT1=Other-term|bratT50=Cardinal
+6	в	_	_	_	_	_	_	_	_
+7	Бразилии	_	_	_	_	_	_	_	bratT2=GPE
+8	превысило	_	_	_	_	_	_	_	_
+9	6	_	_	_	_	_	_	_	bratT3=Quantity
+10	млн	_	_	_	_	_	_	_	bratT3=Quantity
 
 # newpar id = 0046-p2
 # par_text = Общее число выявленных случаев коронавируса нового типа в Бразилии достигло 6 020 164. Об этом сообщает ТАСС со ссылкой на Минздрав страны.
@@ -41,7 +44,7 @@
 6	ссылкой	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
 8	Минздрав	_	_	_	_	_	_	_	bratT8=Organization
-9	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
+9	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=GPE|bratT8=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0046-p3
@@ -74,7 +77,7 @@
 4	коронавирусной	_	_	_	_	_	_	_	bratT12=Other-term
 5	инфекции	_	_	_	_	_	_	_	bratT12=Other-term
 6	в	_	_	_	_	_	_	_	_
-7	стране	_	_	_	_	_	_	_	_
+7	стране	_	_	_	_	_	_	_	bratT57=GPE
 8	увеличилось	_	_	_	_	_	_	_	_
 9	до	_	_	_	_	_	_	_	_
 10	168	_	_	_	_	_	_	_	bratT13=Quantity
@@ -136,23 +139,29 @@
 6	млн	_	_	_	_	_	_	_	bratT19=Quantity
 7	человек	_	_	_	_	_	_	_	bratT19=Quantity
 8	с	_	_	_	_	_	_	_	_
-9	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
-10	.	_	_	_	_	_	_	_	_
+9-11	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+9	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+11	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term|bratT51=Cardinal
+12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0046-p5-s3
 # text = РФ была первой страной в мире, зарегистрировавшей вакцину от COVID-19.
 1	РФ	_	_	_	_	_	_	_	bratT21=GPE
 2	была	_	_	_	_	_	_	_	_
 3	первой	_	_	_	_	_	_	_	bratT22=Ordinal
-4	страной	_	_	_	_	_	_	_	_
+4	страной	_	_	_	_	_	_	_	bratT58=GPE
 5	в	_	_	_	_	_	_	_	_
 6	мире	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=GPE
 7	,	_	_	_	_	_	_	_	_
 8	зарегистрировавшей	_	_	_	_	_	_	_	_
 9	вакцину	_	_	_	_	_	_	_	bratT23=Other-term
 10	от	_	_	_	_	_	_	_	_
-11	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
-12	.	_	_	_	_	_	_	_	_
+11-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+11	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+13	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term|bratT52=Cardinal
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0046-p5-s4
 # text = Препарат был разработан НИЦЭМ имени Гамалеи совместно с Российским фондом прямых инвестиций.
@@ -161,7 +170,7 @@
 3	разработан	_	_	_	_	_	_	_	_
 4	НИЦЭМ	_	_	_	_	_	_	_	bratT25=Organization
 5	имени	_	_	_	_	_	_	_	bratT25=Organization
-6	Гамалеи	_	_	_	_	_	_	_	bratT25=Organization
+6	Гамалеи	_	_	_	_	_	_	_	bratT25=Organization|bratT54=Person|bratT55=Person-surname
 7	совместно	_	_	_	_	_	_	_	bratT25=Organization
 8	с	_	_	_	_	_	_	_	_
 9	Российским	_	_	_	_	_	_	_	bratA7=T47:Adjective|bratT26=Organization|bratT47=GPE
@@ -174,10 +183,10 @@
 # text = Его назвали ``Спутник V''.
 1	Его	_	_	_	_	_	_	_	_
 2	назвали	_	_	_	_	_	_	_	_
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Product
-4	Спутник	_	_	_	_	_	_	_	bratT27=Product
-5	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Product
-6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Product
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Trademark|bratT27=Product
+4	Спутник	_	_	_	_	_	_	_	bratA9=T27:Trademark|bratT27=Product
+5	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Trademark|bratT27=Product
+6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Trademark|bratT27=Product
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0046-p5-s6
@@ -190,19 +199,22 @@
 6	Путин	_	_	_	_	_	_	_	bratA6=T31:Male|bratT31=Person|bratT46=Person-surname
 7	рассказал	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
-9	регистрации	_	_	_	_	_	_	_	_
+9	регистрации	_	_	_	_	_	_	_	bratT49=Event
 10	второй	_	_	_	_	_	_	_	bratT32=Ordinal
 11	вакцины	_	_	_	_	_	_	_	bratT33=Other-term
 12	от	_	_	_	_	_	_	_	_
-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-term
-14	,	_	_	_	_	_	_	_	_
-15	которая	_	_	_	_	_	_	_	_
-16	получила	_	_	_	_	_	_	_	_
-17	название	_	_	_	_	_	_	_	_
-18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Product
-19	ЭпиВакКорона	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Product
-20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Product
-21	.	_	_	_	_	_	_	_	_
+13-15	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-term
+15	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-term|bratT53=Cardinal
+16	,	_	_	_	_	_	_	_	_
+17	которая	_	_	_	_	_	_	_	_
+18	получила	_	_	_	_	_	_	_	_
+19	название	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Trademark|bratT35=Product
+21	ЭпиВакКорона	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Trademark|bratT35=Product
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Trademark|bratT35=Product
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0046-p5-s7
 # text = Ее разработал новосибирский центр ``Вектор''.

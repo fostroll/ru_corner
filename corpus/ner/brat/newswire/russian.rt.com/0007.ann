@@ -1,41 +1,41 @@
 T1	Person 0 7	Мурашко
 T2	Other-term 71 83	коронавируса
 T3	Other-term 57 63	вакцин
-T5	Organization 875 879	ТАСС
-T6	Person-surname 882 889	Мурашко
-T7	Person-property 903 927	премьер-министр   России
-T8	GPE 921 927	России
-T9	Person 903 947	премьер-министр   России   Михаил   Мишустин
-T10	Other-term 992 998	вакцин
-T11	Other-term 1006 1018	коронавируса
-T12	Person 1080 1088	Мишустин
-T13	Other-term 1110 1120	вакцинация
-T14	Other-term 1128 1153	коронавирусной   инфекции
-T15	Person-property 1230 1271	Депутат   Госдумы   III   -   V   созывов
-T16	Organization 1240 1271	Госдумы   III   -   V   созывов
-T17	Person-property 1274 1301	доктор   медицинских   наук
-T18	Person-property 1308 1317	профессор
-T19	Person-property 1324 1338	академик   РАН
-T20	Person-property 1345 1383	заслуженный   деятель   науки   России
-T21	GPE 1377 1383	России
-T22	Person 1230 1405	Депутат   Госдумы   III   -   V   созывов   доктор   медицинских   наук   ,   профессор   ,   академик   РАН   ,   заслуженный   деятель   науки   России   Сергей   Колесников
-T23	Organization 1425 1428	ФАН
-T24	Other-term 1462 1474	коронавируса
+T5	Organization 877 881	ТАСС
+T6	Person-surname 884 891	Мурашко
+T7	Person-property 905 929	премьер-министр   России
+T8	GPE 923 929	России
+T9	Person 905 949	премьер-министр   России   Михаил   Мишустин
+T10	Other-term 994 1000	вакцин
+T11	Other-term 1008 1020	коронавируса
+T12	Person 1082 1090	Мишустин
+T13	Other-term 1112 1122	вакцинация
+T14	Other-term 1130 1155	коронавирусной   инфекции
+T15	Person-property 1232 1273	Депутат   Госдумы   III   -   V   созывов
+T16	Organization 1242 1273	Госдумы   III   -   V   созывов
+T17	Person-property 1276 1303	доктор   медицинских   наук
+T18	Person-property 1310 1319	профессор
+T19	Person-property 1326 1340	академик   РАН
+T20	Person-property 1347 1385	заслуженный   деятель   науки   России
+T21	GPE 1379 1385	России
+T22	Person 1232 1407	Депутат   Госдумы   III   -   V   созывов   доктор   медицинских   наук   ,   профессор   ,   академик   РАН   ,   заслуженный   деятель   науки   России   Сергей   Колесников
+T23	Organization 1427 1430	ФАН
+T24	Other-term 1464 1476	коронавируса
 A1	Media T5
 A2	Media T23
-T25	Ordinal 1250 1253	III
+T25	Ordinal 1252 1255	III
 T26	Person-property 85 116	Глава   российского   Минздрава
 T27	Organization 93 116	российского   Минздрава
 T28	Person 85 135	Глава   российского   Минздрава   Михаил   Мурашко
 T29	Event 143 185	XI   Всероссийском   конгрессе   пациентов
 T30	Ordinal 143 145	XI
 T31	Other-term 235 241	вакцин
-T32	Other-term 249 285	коронавирусной   инфекции   COVID-19
-T33	Ordinal 1260 1261	V
-T34	Date-absolute 316 337	в   настоящее   время
-T35	Date-absolute 480 487	сегодня
-T36	Date-relative 895 900	Ранее
-T37	Time-relative 799 804	затем
+T32	Other-term 249 287	коронавирусной   инфекции   COVID - 19
+T33	Ordinal 1262 1263	V
+T34	Date-absolute 318 339	в   настоящее   время
+T35	Date-absolute 482 489	сегодня
+T36	Date-relative 897 902	Ранее
+T37	Time-relative 801 806	затем
 A3	Present T34
 A4	Present T35
 A6	Past T36
@@ -43,16 +43,16 @@ T38	Person-surname 0 7	Мурашко
 T39	Person-forename 119 125	Михаил
 T40	Person-surname 128 135	Мурашко
 T41	GPE 93 104	российского
-T4	Date-period-absolute 619 643	в   декабре   -   январе
+T4	Date-period-absolute 621 645	в   декабре   -   январе
 A5	Fut T4
-T42	Person 882 889	Мурашко
-T43	Person-forename 930 936	Михаил
-T44	Person-surname 939 947	Мишустин
-T45	Person-surname 1080 1088	Мишустин
-T46	Person-forename 1386 1392	Сергей
-T47	Person-surname 1395 1405	Колесников
-T48	Ordinal 320 329	настоящее
-T49	Time-relative 736 743	сначала
+T42	Person 884 891	Мурашко
+T43	Person-forename 932 938	Михаил
+T44	Person-surname 941 949	Мишустин
+T45	Person-surname 1082 1090	Мишустин
+T46	Person-forename 1388 1394	Сергей
+T47	Person-surname 1397 1407	Колесников
+T48	Ordinal 322 331	настоящее
+T49	Time-relative 738 745	сначала
 A7	Male T1
 A8	Male T28
 A9	Male T42
@@ -60,3 +60,8 @@ A10	Male T9
 A11	Male T12
 A12	Male T22
 A13	Adjective T41
+T50	Cardinal 285 287	19
+T51	Nationality 781 790	населения
+A14	Resident T51
+T52	GPE 528 543	государственный
+A15	Adjective T52

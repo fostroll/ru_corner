@@ -31,11 +31,11 @@
 4	разгромное	_	_	_	_	_	_	_	_
 5	поражение	_	_	_	_	_	_	_	_
 6	от	_	_	_	_	_	_	_	_
-7	национальной	_	_	_	_	_	_	_	bratT12=Organization
+7	национальной	_	_	_	_	_	_	_	bratA2=T42:Adjective|bratT12=Organization|bratT42=GPE
 8	команды	_	_	_	_	_	_	_	bratT12=Organization
 9	Сербии	_	_	_	_	_	_	_	bratT12=Organization|bratT13=GPE
-10	в	_	_	_	_	_	_	_	bratA2=T28:Past|bratT28=Date-absolute
-11	матче	_	_	_	_	_	_	_	bratA2=T28:Past|bratT14=Event|bratT28=Date-absolute
+10	в	_	_	_	_	_	_	_	_
+11	матче	_	_	_	_	_	_	_	bratT14=Event
 12	шестого	_	_	_	_	_	_	_	bratT14=Event|bratT15=Event|bratT19=Ordinal
 13	тура	_	_	_	_	_	_	_	bratT14=Event|bratT15=Event
 14	группового	_	_	_	_	_	_	_	bratT14=Event|bratT15=Event|bratT16=Event
@@ -49,7 +49,7 @@
 # par_text = Встреча проходила в Белграде и завершилась со счетом 5:0.
 # sent_id = 0075-p3-s1
 # text = Встреча проходила в Белграде и завершилась со счетом 5:0.
-1	Встреча	_	_	_	_	_	_	_	_
+1	Встреча	_	_	_	_	_	_	_	bratT28=Event
 2	проходила	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	Белграде	_	_	_	_	_	_	_	bratT20=GPE
@@ -90,7 +90,7 @@
 5	сборной	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization
 6	Сербии	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization|bratT32=GPE
 7	забил	_	_	_	_	_	_	_	_
-8	национальной	_	_	_	_	_	_	_	bratT33=Organization
+8	национальной	_	_	_	_	_	_	_	bratA7=T43:Adjective|bratT33=Organization|bratT43=GPE
 9	команде	_	_	_	_	_	_	_	bratT33=Organization
 10	России	_	_	_	_	_	_	_	bratT33=Organization|bratT34=GPE
 11	столько	_	_	_	_	_	_	_	_
@@ -129,6 +129,7 @@
 11	жеребьевки	_	_	_	_	_	_	_	_
 12	отбора	_	_	_	_	_	_	_	_
 13	к	_	_	_	_	_	_	_	_
+14-16	ЧМ-2022	_	_	_	_	_	_	_	SpaceAfter=No
 14	ЧМ	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Event
 15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Event
 16	2022	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T41:Future|bratT29=Event|bratT41=Date-absolute

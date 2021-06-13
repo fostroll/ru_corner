@@ -1,0 +1,107 @@
+# newdoc id = 0122
+# newpar id = 0122-p1
+# par_text = Марат Сафин рассказал о своей жизненной философии, отношении к деньгам и браку
+# sent_id = 0122-p1-s1
+# text = Марат Сафин рассказал о своей жизненной философии, отношении к деньгам и браку
+1	Марат	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-forename|bratT3=Person
+2	Сафин	_	_	_	_	_	_	_	bratA1=T3:Male|bratT2=Person-surname|bratT3=Person
+3	рассказал	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	своей	_	_	_	_	_	_	_	_
+6	жизненной	_	_	_	_	_	_	_	_
+7	философии	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	отношении	_	_	_	_	_	_	_	_
+10	к	_	_	_	_	_	_	_	_
+11	деньгам	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	браку	_	_	_	_	_	_	_	bratT20=Family
+
+# newpar id = 0122-p2
+# par_text = В 2009 году один из самых титулованных российских теннисистов Марат Сафин завершил профессиональную карьеру и решил поменять большой спорт на большую политику. В течение шести лет он был депутатом Государственной Думы, а летом 2017 года решил сдать мандат. Бывший спортсмен редко общается с журналистами, но на днях он дал большое интервью интернет-порталу Sports.ru, в котором рассказал о своей личной жизни, отношении к деньгам, религии и политике.
+# sent_id = 0122-p2-s1
+# text = В 2009 году один из самых титулованных российских теннисистов Марат Сафин завершил профессиональную карьеру и решил поменять большой спорт на большую политику.
+1	В	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
+2	2009	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
+4	один	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT5=Quantity|bratT9=Person-property
+5	из	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT5=Quantity|bratT9=Person-property
+6	самых	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT9=Person-property
+7	титулованных	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT9=Person-property
+8	российских	_	_	_	_	_	_	_	bratA3=T6:Adjective|bratA4=T10:Male|bratT10=Person|bratT6=GPE|bratT9=Person-property
+9	теннисистов	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT9=Person-property
+10	Марат	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT7=Person-forename
+11	Сафин	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT8=Person-surname
+12	завершил	_	_	_	_	_	_	_	_
+13	профессиональную	_	_	_	_	_	_	_	_
+14	карьеру	_	_	_	_	_	_	_	_
+15	и	_	_	_	_	_	_	_	_
+16	решил	_	_	_	_	_	_	_	_
+17	поменять	_	_	_	_	_	_	_	_
+18	большой	_	_	_	_	_	_	_	_
+19	спорт	_	_	_	_	_	_	_	_
+20	на	_	_	_	_	_	_	_	_
+21	большую	_	_	_	_	_	_	_	_
+22	политику	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p2-s2
+# text = В течение шести лет он был депутатом Государственной Думы, а летом 2017 года решил сдать мандат.
+1	В	_	_	_	_	_	_	_	bratA5=T11:Past|bratT11=Date-period-relative
+2	течение	_	_	_	_	_	_	_	bratA5=T11:Past|bratT11=Date-period-relative
+3	шести	_	_	_	_	_	_	_	bratA5=T11:Past|bratT11=Date-period-relative|bratT12=Duration
+4	лет	_	_	_	_	_	_	_	bratA5=T11:Past|bratT11=Date-period-relative|bratT12=Duration
+5	он	_	_	_	_	_	_	_	_
+6	был	_	_	_	_	_	_	_	_
+7	депутатом	_	_	_	_	_	_	_	bratT14=Person-property
+8	Государственной	_	_	_	_	_	_	_	bratT13=Organization|bratT14=Person-property
+9	Думы	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT14=Person-property
+10	,	_	_	_	_	_	_	_	_
+11	а	_	_	_	_	_	_	_	_
+12	летом	_	_	_	_	_	_	_	bratA6=T15:Past|bratT15=Date-absolute
+13	2017	_	_	_	_	_	_	_	bratA6=T15:Past|bratT15=Date-absolute
+14	года	_	_	_	_	_	_	_	bratA6=T15:Past|bratT15=Date-absolute
+15	решил	_	_	_	_	_	_	_	_
+16	сдать	_	_	_	_	_	_	_	_
+17	мандат	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p2-s3
+# text = Бывший спортсмен редко общается с журналистами, но на днях он дал большое интервью интернет-порталу Sports.ru, в котором рассказал о своей личной жизни, отношении к деньгам, религии и политике.
+1	Бывший	_	_	_	_	_	_	_	bratT16=Person-property
+2	спортсмен	_	_	_	_	_	_	_	bratT16=Person-property
+3	редко	_	_	_	_	_	_	_	_
+4	общается	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	журналистами	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+7	,	_	_	_	_	_	_	_	_
+8	но	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+10	днях	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+11	он	_	_	_	_	_	_	_	_
+12	дал	_	_	_	_	_	_	_	_
+13	большое	_	_	_	_	_	_	_	_
+14	интервью	_	_	_	_	_	_	_	_
+15	интернет-порталу	_	_	_	_	_	_	_	bratA8=T19:Media|bratT19=Organization
+16-18	Sports.ru	_	_	_	_	_	_	_	SpaceAfter=No
+16	Sports	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Media|bratT19=Organization|bratT21=Web-address
+17	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Media|bratT19=Organization|bratT21=Web-address
+18	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Media|bratT19=Organization|bratT21=Web-address
+19	,	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	котором	_	_	_	_	_	_	_	_
+22	рассказал	_	_	_	_	_	_	_	_
+23	о	_	_	_	_	_	_	_	_
+24	своей	_	_	_	_	_	_	_	_
+25	личной	_	_	_	_	_	_	_	_
+26	жизни	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	отношении	_	_	_	_	_	_	_	_
+29	к	_	_	_	_	_	_	_	_
+30	деньгам	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	_	_	_	_	_	_	_	_
+32	религии	_	_	_	_	_	_	_	_
+33	и	_	_	_	_	_	_	_	_
+34	политике	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,73 @@
+T1	Person-forename 0 9	Анджелина
+T2	Person-surname 12 17	Джоли
+T3	Person-forename 31 36	Брэда
+T4	Person-surname 39 44	Питта
+T5	Person 0 17	Анджелина   Джоли
+A1	Female T5
+T6	Person 31 44	Брэда   Питта
+A2	Male T6
+T7	Family 105 109	пара
+T8	GPE 112 121	Голливуда
+T9	Date-absolute 163 182	после   расставания
+A3	Present T9
+T10	Person-surname 187 192	Джоли
+T11	Person-surname 199 203	Питт
+T12	Person 187 192	Джоли
+A4	Female T12
+T13	Person 199 203	Питт
+A5	Male T13
+T14	Date-absolute 218 244	в   сентябре   2016   года
+A6	Past T14
+T15	Date-period-absolute 307 322	по   сей   день
+A7	Past-Pres T15
+T16	Family 327 343	Бывшие   супруги
+T17	Family 354 359	детей
+T18	Person-forename 533 542	Анджелина
+T19	Person 533 542	Анджелина
+A8	Female T19
+T20	Person-forename 556 561	Брэда
+T21	Person 556 561	Брэда
+A9	Male T21
+T22	Person-property 634 641	актрисы
+T23	Person-property 623 641	адвоката   актрисы
+T24	Date-period-relative 664 692	в   течение   полутора   лет
+A10	Past T24
+T25	Person-surname 695 699	Питт
+T26	Person 695 699	Питт
+A11	Male T26
+T27	Quantity 718 734	шестерым   детям
+T28	Family 729 734	детям
+T29	Person-forename 788 798	Анджелиной
+T30	Person 788 798	Анджелиной
+A12	Female T30
+T31	Person-surname 884 889	Джоли
+T32	Person 884 889	Джоли
+A13	Female T32
+T33	Date-absolute 1005 1011	Теперь
+T34	Duration 678 692	полутора   лет
+T35	Person-surname 1014 1019	Джоли
+T36	Person 1014 1019	Джоли
+A14	Female T36
+T37	Family 1043 1057	бывшего   мужа
+T38	Person-property 1138 1145	актрисы
+T39	Person-property 1128 1145	адвокат   актрисы
+T40	GPE 1166 1179	Лос-Анджелеса
+T41	Organization 1160 1179	суд   Лос-Анджелеса
+T42	Family 1211 1215	пара
+T43	Date-period-absolute 1314 1344	до   официального   оформления
+T44	Family 1441 1447	детьми
+T45	Person-surname 1618 1623	Джоли
+T46	Person-surname 1630 1635	Питта
+T47	Person 1618 1623	Джоли
+A16	Female T47
+T48	Person 1630 1635	Питта
+A17	Male T48
+T49	Date-absolute 1651 1666	очень   нескоро
+A18	Future T49
+T50	Event 171 182	расставания
+A19	Present T33
+A15	Pres-Fut T43
+T51	Event 1347 1354	развода
+T52	Event 1319 1354	официального   оформления   развода
+T53	Event 271 295	бракоразводный   процесс
+A20	RCont T15

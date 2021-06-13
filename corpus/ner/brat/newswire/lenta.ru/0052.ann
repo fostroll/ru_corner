@@ -1,9 +1,7 @@
 T1	Product 38 49	iPhone   13
-T2	Product 51 89	Смартфоны   нового   поколения   Apple
 T3	Service 163 179	Twitter-аккаунте
 T4	Person-property 204 210	блогер
 T5	Person 204 227	блогер   Джон   Проссер
-T6	Person 234 247	Jon   Prosser
 T8	Person 363 370	Проссер
 T10	Product 560 590	телефоны   серии   iPhone   13
 T11	Date-absolute 630 645	на   2021   год
@@ -17,31 +15,24 @@ T19	Product 1132 1148	смартфон   Apple
 T20	Quantity 1180 1194	512   гигабайт
 T22	GPE 1209 1212	США
 T23	Product 1311 1328	смартфона   Apple
-T24	Date-absolute 1331 1342	2021   года
+T24	Age 1331 1352	2021   года   выпуска
 T25	Product 1616 1645	поколение   флагманов   Apple
 T27	Product 1468 1490	технологии   ProMotion
 T28	Other-term 1379 1386	дисплей
-T7	Quantity 307 329	с   одним   терабайтом
+T7	Quantity 311 329	одним   терабайтом
 T9	Quantity 532 547	один   терабайт
-T16	Quantity 999 1021	с   одним   терабайтом
+T16	Quantity 1003 1021	одним   терабайтом
 T29	Person-property 1563 1572	Аналитики
 T26	Quantity 1657 1675	четыре   смартфона
-T30	Product 84 89	Apple
-T21	Product 1323 1328	Apple
-T31	Product 1640 1645	Apple
+T30	Product 51 89	Смартфоны   нового   поколения   Apple
 A1	Trademark T30
-A2	Trademark T21
-A3	Trademark T31
 A4	Trademark T27
-T32	Product 1143 1148	Apple
-A5	Trademark T32
 A6	Media T3
-T33	Ordinal 499 505	ервыми
+T33	Ordinal 498 505	первыми
 T34	Ordinal 1604 1613	следующее
 T35	Date-absolute 1089 1111	В   настоящий   момент
 T36	Date-relative 1236 1241	Ранее
 A7	Future T11
-A8	Future T24
 A9	Present T35
 A10	Past T36
 T37	Person-forename 213 217	Джон
@@ -52,5 +43,16 @@ T41	Person-surname 363 370	Проссер
 T42	Person-surname 802 809	Проссер
 T43	Ordinal 1093 1102	настоящий
 A11	Male T5
-A12	Male T6
 A13	Male T14
+A2	Trademark T23
+A3	Project T25
+A8	Trademark T1
+A14	Trademark T10
+A15	Trademark T13
+A16	Trademark T15
+A5	Trademark T19
+T2	Person 664 684	сетевого   инсайдера
+T6	Person 1563 1572	Аналитики
+T21	Person 234 247	Jon   Prosser
+A12	Male T21
+T31	Person 1244 1263	сетевые   источники

@@ -6,8 +6,8 @@ T7	Ordinal 314 320	второй
 T8	Person-property 335 343	актрисой
 T9	Person 306 365	своей   второй   женой   ,   актрисой   Татьяной   Власовой
 T10	Person-property 472 479	артиста
-T11	Person 482 499	Артур   Согомонян
-T12	Event 537 577	церемонии   прощания   с   Джигарханяном
+T11	Person 465 499	друг   артиста   Артур   Согомонян
+T12	Event 537 557	церемонии   прощания
 T13	Person 564 577	Джигарханяном
 T14	Person-property 642 649	актером
 T17	Organization 762 792	Театре   Армена   Джигарханяна
@@ -62,3 +62,17 @@ A13	Male T11
 A14	Male T20
 T2	Person 104 134	актера   Армена   Джигарханяна
 A15	Male T2
+T50	Service 211 217	сторис
+A16	Media T50
+T51	Event 666 688	траурное   мероприятие
+T52	Event 721 730	Церемонию
+T53	Person 271 277	артист
+A17	Male T53
+T54	Person 472 479	артиста
+A18	Male T54
+T55	Person 642 649	актером
+A19	Male T55
+T56	Person 809 815	артист
+A20	Male T56
+T57	Person 54 58	отца
+A21	Male T57

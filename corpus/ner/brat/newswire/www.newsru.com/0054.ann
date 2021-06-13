@@ -1,0 +1,96 @@
+T1	Organization 12 22	Росреестра
+T2	Organization 79 89	Минобороны
+T3	Organization 96 99	ФСБ
+T4	Organization 65 99	руководства   Минобороны   и   ФСБ
+A1	Plural T4
+T5	Person-property 118 134	премьер-министра
+T6	Person 118 156	премьер-министра   Михаила   Мишустина
+T7	Organization 158 167	Росреестр
+T8	Organization 262 265	ФСБ
+T9	Organization 272 282	Минобороны
+T10	Organization 248 282	руководства   ФСБ   и   Минобороны
+A2	Plural T10
+T11	Person-property 322 338	премьер-министра
+T12	Person 322 360	премьер-министра   Михаила   Мишустина
+T13	Organization 408 426	``   Роснефти   ''
+T14	Person-property 367 426	главного   исполнительного   директора   ``   Роснефти   ''
+T15	Person 367 443	главного   исполнительного   директора   ``   Роснефти   ''   Игоря   Сечина
+T16	Organization 471 497	``   Открытые   медиа   ''
+A3	Media T16
+T17	Date-period-absolute 531 551	с   начала   октября
+T18	Service 618 669	Единого   государственного   реестра   недвижимости
+T19	Service 559 669	федеральной   государственной   информационной   системы   Единого   государственного   реестра   недвижимости
+T20	Service 683 687	ЕГРН
+T21	Service 676 687	ФГИС   ЕГРН
+T22	Person-property 721 731	журналисты
+T23	Person 879 893	Игоря   Сечина
+T24	Person-property 907 917	чиновников
+T25	Organization 932 941	Росреестр
+T26	Organization 1003 1013	Минобороны
+T27	Person-property 995 1013	главы   Минобороны
+T28	Person 995 1030	главы   Минобороны   Сергея   Шойгу
+T29	Person-property 1043 1054	заместителя
+T30	Person 1043 1075	заместителя   Руслана   Цаликова
+T31	Organization 1139 1146	Минфина
+T32	Person-property 1131 1146	главы   Минфина
+T33	Person 1131 1167	главы   Минфина   Антона   Силуанова
+T34	Organization 1230 1238	Генштаба
+T35	Person-property 1222 1238	главы   Генштаба
+T36	Person 1222 1261	главы   Генштаба   Валерия   Герасимова
+T37	Service 1279 1283	ФГИС
+T38	Family 1321 1328	супруги
+T39	Person-property 1331 1352	замминистра   обороны
+T40	Person 1331 1371	замминистра   обороны   Тимура   Иванова
+T41	Person-property 1378 1389	замминистра
+T42	Person 1378 1412	замминистра   Алексея   Криворучко
+T43	Organization 1453 1462	Евросоюза
+T44	Person 1486 1506	Алексея   Навального
+T45	Organization 1679 1689	Минобороны
+T46	Organization 1665 1689	руководства   Минобороны
+T47	Person-property 738 760	авторы   расследований
+T48	Event 1473 1506	отравления   Алексея   Навального
+A4	Male T6
+T49	Person-forename 137 144	Михаила
+T50	Person-surname 147 156	Мишустина
+A5	Male T12
+T51	Person-forename 341 348	Михаила
+T52	Person-surname 351 360	Мишустина
+A6	Male T15
+T53	Person-forename 429 434	Игоря
+T54	Person-surname 437 443	Сечина
+A7	Past-Pres T17
+A8	Male T23
+T55	Person-forename 879 884	Игоря
+T56	Person-surname 887 893	Сечина
+T57	Person-forename 1016 1022	Сергея
+T58	Person-surname 1025 1030	Шойгу
+A9	Male T28
+A10	Male T30
+T59	Person-forename 1057 1064	Руслана
+T60	Person-surname 1067 1075	Цаликова
+A11	Male T33
+T61	Person-forename 1149 1155	Антона
+T62	Person-surname 1158 1167	Силуанова
+A12	Male T36
+T63	Person-forename 1241 1248	Валерия
+T64	Person-surname 1251 1261	Герасимова
+T65	Person-forename 1355 1361	Тимура
+T66	Person-surname 1364 1371	Иванова
+A13	Male T40
+A14	Male T42
+T67	Person-forename 1392 1399	Алексея
+T68	Person-surname 1402 1412	Криворучко
+A15	Male T44
+T69	Person-forename 1486 1493	Алексея
+T70	Person-surname 1496 1506	Навального
+T71	Person 1321 1371	супруги   замминистра   обороны   Тимура   Иванова
+A16	Female T71
+A18	Department T10
+T72	Person 65 99	руководства   Минобороны   и   ФСБ
+T73	Person 248 282	руководства   ФСБ   и   Минобороны
+A17	Department T46
+T74	Person 1665 1689	руководства   Минобороны
+T75	GPE 628 644	государственного
+A19	Adjective T75
+T76	GPE 573 588	государственной
+A20	Adjective T76

@@ -19,7 +19,7 @@
 # text = различных субъектах страны он уже составляется от 5 до 65,3 процента, сообщил глава Санкт-Петербургского НИИ эпидемиологии и микробиологии имени Пастера академик РАН Арег Тотолян.
 1	различных	_	_	_	_	_	_	_	_
 2	субъектах	_	_	_	_	_	_	_	_
-3	страны	_	_	_	_	_	_	_	_
+3	страны	_	_	_	_	_	_	_	bratT58=GPE
 4	он	_	_	_	_	_	_	_	_
 5	уже	_	_	_	_	_	_	_	_
 6	составляется	_	_	_	_	_	_	_	_
@@ -37,7 +37,7 @@
 18	и	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
 19	микробиологии	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
 20	имени	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
-21	Пастера	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person|bratT6=Person-property|bratT7=Organization
+21	Пастера	_	_	_	_	_	_	_	bratA16=T52:Male|bratA9=T5:Male|bratT5=Person|bratT52=Person|bratT53=Person-surname|bratT6=Person-property|bratT7=Organization
 22	академик	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person|bratT6=Person-property
 23	РАН	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person|bratT6=Person-property|bratT8=Organization
 24	Арег	_	_	_	_	_	_	_	bratA9=T5:Male|bratT42=Person-forename|bratT5=Person
@@ -68,9 +68,9 @@
 # sent_id = 0059-p3-s2
 # text = На первом этапе исследования эксперты проанализировали иммунитет более 74 тысяч добровольцев в 26 российских субъектах, второй этап стартовал в сентябре и октября текущего года, третий - в ноябре-декабре.
 1	На	_	_	_	_	_	_	_	_
-2	первом	_	_	_	_	_	_	_	bratT12=Ordinal
-3	этапе	_	_	_	_	_	_	_	_
-4	исследования	_	_	_	_	_	_	_	_
+2	первом	_	_	_	_	_	_	_	bratT12=Ordinal|bratT54=Event
+3	этапе	_	_	_	_	_	_	_	bratT54=Event
+4	исследования	_	_	_	_	_	_	_	bratT54=Event
 5	эксперты	_	_	_	_	_	_	_	bratT13=Person-property
 6	проанализировали	_	_	_	_	_	_	_	_
 7	иммунитет	_	_	_	_	_	_	_	_
@@ -83,8 +83,8 @@
 14	российских	_	_	_	_	_	_	_	bratA13=T50:Adjective|bratT15=Quantity|bratT50=GPE
 15	субъектах	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity
 16	,	_	_	_	_	_	_	_	_
-17	второй	_	_	_	_	_	_	_	bratT16=Ordinal
-18	этап	_	_	_	_	_	_	_	_
+17	второй	_	_	_	_	_	_	_	bratT16=Ordinal|bratT55=Event
+18	этап	_	_	_	_	_	_	_	bratT55=Event
 19	стартовал	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-period-absolute
 21	сентябре	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-period-absolute
@@ -102,12 +102,12 @@
 # newpar id = 0059-p4
 # par_text = - В ходе первого этапа уровень иммунитета находился в диапазоне 4,3—50,2 процента, а ко второму достиг уже 5,1-65,3 процента, - отметил Арег Тотолян в интервью РИА Новости.
 # sent_id = 0059-p4-s1
-# text = - В ходе первого этапа уровень иммунитета находился в диапазоне 4,3 - 50,2 процента, а ко второму достиг уже 5,1-65,3 процента, - отметил Арег Тотолян в интервью РИА Новости.
+# text = - В ходе первого этапа уровень иммунитета находился в диапазоне 4,3 - 50,2 процента, а ко второму достиг уже 5,1 - 65,3 процента, - отметил Арег Тотолян в интервью РИА Новости.
 1	-	_	_	_	_	_	_	_	_
 2	В	_	_	_	_	_	_	_	bratA5=T38:Past|bratT38=Date-period-absolute
 3	ходе	_	_	_	_	_	_	_	bratA5=T38:Past|bratT38=Date-period-absolute
-4	первого	_	_	_	_	_	_	_	bratA5=T38:Past|bratT21=Ordinal|bratT38=Date-period-absolute
-5	этапа	_	_	_	_	_	_	_	bratA5=T38:Past|bratT38=Date-period-absolute
+4	первого	_	_	_	_	_	_	_	bratA5=T38:Past|bratT21=Ordinal|bratT38=Date-period-absolute|bratT56=Event
+5	этапа	_	_	_	_	_	_	_	bratA5=T38:Past|bratT38=Date-period-absolute|bratT56=Event
 6	уровень	_	_	_	_	_	_	_	_
 7	иммунитета	_	_	_	_	_	_	_	_
 8	находился	_	_	_	_	_	_	_	_
@@ -123,18 +123,20 @@
 18	второму	_	_	_	_	_	_	_	bratA6=T40:Past|bratT23=Ordinal|bratT40=Date-absolute
 19	достиг	_	_	_	_	_	_	_	_
 20	уже	_	_	_	_	_	_	_	_
-21	5,1-65,3	_	_	_	_	_	_	_	bratT24=Percent
-22	процента	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Percent
-23	,	_	_	_	_	_	_	_	_
-24	-	_	_	_	_	_	_	_	_
-25	отметил	_	_	_	_	_	_	_	_
-26	Арег	_	_	_	_	_	_	_	bratA10=T25:Male|bratT25=Person|bratT44=Person-forename
-27	Тотолян	_	_	_	_	_	_	_	bratA10=T25:Male|bratT25=Person|bratT45=Person-surname
-28	в	_	_	_	_	_	_	_	_
-29	интервью	_	_	_	_	_	_	_	_
-30	РИА	_	_	_	_	_	_	_	bratA1=T26:Media|bratT26=Organization
-31	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T26:Media|bratT26=Organization
-32	.	_	_	_	_	_	_	_	_
+21	5,1	_	_	_	_	_	_	_	bratT24=Percent
+22	-	_	_	_	_	_	_	_	bratT24=Percent
+23	65,3	_	_	_	_	_	_	_	bratT24=Percent
+24	процента	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Percent
+25	,	_	_	_	_	_	_	_	_
+26	-	_	_	_	_	_	_	_	_
+27	отметил	_	_	_	_	_	_	_	_
+28	Арег	_	_	_	_	_	_	_	bratA10=T25:Male|bratT25=Person|bratT44=Person-forename
+29	Тотолян	_	_	_	_	_	_	_	bratA10=T25:Male|bratT25=Person|bratT45=Person-surname
+30	в	_	_	_	_	_	_	_	_
+31	интервью	_	_	_	_	_	_	_	_
+32	РИА	_	_	_	_	_	_	_	bratA1=T26:Media|bratT26=Organization
+33	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T26:Media|bratT26=Organization
+34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0059-p5
 # par_text = Пятнадцать регионов России отличились ростом иммунной прослойки в 1,5—2 раза, добавил директор НИИ.
@@ -161,7 +163,7 @@
 # newpar id = 0059-p6
 # par_text = Ранее московский мэр Сергей Собянин сообщил, что иммунитет против коронавирусной инфекции есть уже у примерно 2,5-3 миллионов жителей российской столицы.
 # sent_id = 0059-p6-s1
-# text = Ранее московский мэр Сергей Собянин сообщил, что иммунитет против коронавирусной инфекции есть уже у примерно 2,5-3 миллионов жителей российской столицы.
+# text = Ранее московский мэр Сергей Собянин сообщил, что иммунитет против коронавирусной инфекции есть уже у примерно 2,5 - 3 миллионов жителей российской столицы.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-relative
 2	московский	_	_	_	_	_	_	_	bratA11=T32:Male|bratA14=T48:Adjective|bratT32=Person|bratT33=Person-property|bratT48=GPE
 3	мэр	_	_	_	_	_	_	_	bratA11=T32:Male|bratT32=Person|bratT33=Person-property
@@ -178,10 +180,12 @@
 14	уже	_	_	_	_	_	_	_	_
 15	у	_	_	_	_	_	_	_	_
 16	примерно	_	_	_	_	_	_	_	bratT35=Quantity
-17	2,5-3	_	_	_	_	_	_	_	bratT35=Quantity
-18	миллионов	_	_	_	_	_	_	_	bratT35=Quantity
-19	жителей	_	_	_	_	_	_	_	bratA8=T39:Resident|bratT35=Quantity|bratT39=Nationality
-20	российской	_	_	_	_	_	_	_	bratA15=T51:Adjective|bratA8=T39:Resident|bratT36=GPE|bratT39=Nationality|bratT51=GPE
-21	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T39:Resident|bratT36=GPE|bratT39=Nationality
-22	.	_	_	_	_	_	_	_	_
+17	2,5	_	_	_	_	_	_	_	bratT35=Quantity
+18	-	_	_	_	_	_	_	_	bratT35=Quantity
+19	3	_	_	_	_	_	_	_	bratT35=Quantity
+20	миллионов	_	_	_	_	_	_	_	bratT35=Quantity
+21	жителей	_	_	_	_	_	_	_	bratA8=T39:Resident|bratT35=Quantity|bratT39=Nationality
+22	российской	_	_	_	_	_	_	_	bratA15=T51:Adjective|bratA8=T39:Resident|bratT36=GPE|bratT39=Nationality|bratT51=GPE
+23	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T39:Resident|bratT36=GPE|bratT39=Nationality
+24	.	_	_	_	_	_	_	_	_
 

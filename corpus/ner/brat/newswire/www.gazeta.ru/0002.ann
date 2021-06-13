@@ -15,7 +15,7 @@ T14	Organization 356 374	сборной   Германии
 T15	Person-property 331 374	генеральный   менеджер   сборной   Германии
 T16	Person-property 416 434	главного   тренера
 T17	Person 416 451	главного   тренера   Йоахима   Лева
-T18	Service 469 490	Twitter   DW   Sports
+T18	Service 469 476	Twitter
 T19	Person 552 566	Йоахиму   Леву
 T20	Date-period-absolute 720 735	с   1931   года
 T21	GPE 647 654	Испании
@@ -42,3 +42,16 @@ A7	Male T19
 T36	Person-forename 552 559	Йоахиму
 T37	Person-surname 562 566	Леву
 A3	Past-Pres T20
+T38	Date-absolute 793 802	в   матче
+A8	Past T38
+T39	Event 797 820	матче   с   Португалией
+T40	Event 324 328	игры
+T41	Organization 479 490	DW   Sports
+A9	Media T41
+T42	Event 242 249	Встреча
+T43	Event 48 68	возможной   отставке
+T44	Event 393 413	возможной   отставке
+T45	GPE 203 215	национальную
+A10	Adjective T45
+T46	GPE 671 683	национальной
+A11	Adjective T46

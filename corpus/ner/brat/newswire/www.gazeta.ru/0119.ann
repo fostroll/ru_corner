@@ -5,20 +5,20 @@ T4	Person 79 98	Александр   Кравцов
 T5	Person-property 105 142	адвокат   бойца   Сергея   Харитонова
 T6	Person 115 142	бойца   Сергея   Харитонова
 T7	Person 211 226	Адама   Яндиева
-T8	Organization 244 251	Sport24
+T8	Organization 244 252	Sport 24
 A1	Media T8
-T9	Date-absolute 315 328	13   сентября
-T10	Person 333 342	Харитонов
-T11	Person 372 379	Яндиева
-T12	Person 400 410	Харитонова
-T13	Quantity 424 446	два   уголовных   дела
-T14	Person 708 715	Кравцов
-T15	Person 762 771	Харитонов
-T16	Person 816 824	Яндиевым
-T17	Event 272 300	драка   между   спортсменами
-T18	Person-property 288 300	спортсменами
+T9	Date-absolute 316 329	13   сентября
+T10	Person 334 343	Харитонов
+T11	Person 373 380	Яндиева
+T12	Person 401 411	Харитонова
+T13	Quantity 425 447	два   уголовных   дела
+T14	Person 709 716	Кравцов
+T15	Person 763 772	Харитонов
+T16	Person 817 825	Яндиевым
+T17	Event 273 301	драка   между   спортсменами
+T18	Person-property 289 301	спортсменами
 T19	Person-property 115 120	бойца
-T20	Date-relative 721 726	Ранее
+T20	Date-relative 722 727	Ранее
 A2	Past T9
 A3	Past T20
 A4	Male T1
@@ -34,15 +34,17 @@ A7	Male T6
 T27	Person-forename 211 216	Адама
 T28	Person-surname 219 226	Яндиева
 A8	Male T7
-T29	Person-surname 333 342	Харитонов
-T30	Person-surname 372 379	Яндиева
+T29	Person-surname 334 343	Харитонов
+T30	Person-surname 373 380	Яндиева
 A9	Male T11
 A10	Male T10
-T31	Person-surname 400 410	Харитонова
+T31	Person-surname 401 411	Харитонова
 A11	Male T12
-T32	Person-surname 708 715	Кравцов
+T32	Person-surname 709 716	Кравцов
 A12	Male T14
-T33	Person-surname 816 824	Яндиевым
+T33	Person-surname 817 825	Яндиевым
 A13	Male T16
-T34	Person-surname 762 771	Харитонов
+T34	Person-surname 763 772	Харитонов
 A14	Male T15
+T35	Time-period 250 252	24
+T37	Duration 250 252	24

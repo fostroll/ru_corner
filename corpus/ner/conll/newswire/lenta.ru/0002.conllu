@@ -3,8 +3,8 @@
 # par_text = Омский губернатор объяснил лечение коронавируса в Москве
 # sent_id = 0002-p1-s1
 # text = Омский губернатор объяснил лечение коронавируса в Москве
-1	Омский	_	_	_	_	_	_	_	bratA11=T49:Adjective|bratT2=Person-property|bratT49=GPE
-2	губернатор	_	_	_	_	_	_	_	bratT2=Person-property
+1	Омский	_	_	_	_	_	_	_	bratA11=T49:Adjective|bratA16=T41:Male|bratT2=Person-property|bratT41=Person|bratT49=GPE
+2	губернатор	_	_	_	_	_	_	_	bratA16=T41:Male|bratT2=Person-property|bratT41=Person
 3	объяснил	_	_	_	_	_	_	_	_
 4	лечение	_	_	_	_	_	_	_	_
 5	коронавируса	_	_	_	_	_	_	_	bratT5=Other-term
@@ -15,9 +15,9 @@
 # par_text = Губернатор Омской области, где скорые не могли передать больных в стационары из-за нехватки мест, Александр Бурков объяснил лечение коронавируса в Москве. Об этом сообщает РИА Новости в четверг, 5 ноября.
 # sent_id = 0002-p2-s1
 # text = Губернатор Омской области, где скорые не могли передать больных в стационары из-за нехватки мест, Александр Бурков объяснил лечение коронавируса в Москве.
-1	Губернатор	_	_	_	_	_	_	_	bratT3=Person-property
-2	Омской	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=GPE
-3	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=GPE
+1	Губернатор	_	_	_	_	_	_	_	bratA17=T42:Male|bratT3=Person-property|bratT42=Person
+2	Омской	_	_	_	_	_	_	_	bratA17=T42:Male|bratT3=Person-property|bratT4=GPE|bratT42=Person
+3	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T42:Male|bratT3=Person-property|bratT4=GPE|bratT42=Person
 4	,	_	_	_	_	_	_	_	_
 5	где	_	_	_	_	_	_	_	_
 6	скорые	_	_	_	_	_	_	_	bratT33=Service
@@ -58,18 +58,18 @@
 # par_text = Политик заявил, что узнал о заражении коронавирусом во время рабочей поездки в Москву, поэтому не стал покидать столицу.
 # sent_id = 0002-p3-s1
 # text = Политик заявил, что узнал о заражении коронавирусом во время рабочей поездки в Москву, поэтому не стал покидать столицу.
-1	Политик	_	_	_	_	_	_	_	bratT11=Person-property
+1	Политик	_	_	_	_	_	_	_	bratA18=T57:Male|bratT11=Person-property|bratT57=Person
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	узнал	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	заражении	_	_	_	_	_	_	_	_
-8	коронавирусом	_	_	_	_	_	_	_	bratT12=Other-term
+7	заражении	_	_	_	_	_	_	_	bratT56=Event
+8	коронавирусом	_	_	_	_	_	_	_	bratT12=Other-term|bratT56=Event
 9	во	_	_	_	_	_	_	_	bratA6=T35:Past|bratT35=Date-absolute
 10	время	_	_	_	_	_	_	_	bratA6=T35:Past|bratT35=Date-absolute
-11	рабочей	_	_	_	_	_	_	_	bratA6=T35:Past|bratT35=Date-absolute
-12	поездки	_	_	_	_	_	_	_	bratA6=T35:Past|bratT35=Date-absolute
+11	рабочей	_	_	_	_	_	_	_	bratA6=T35:Past|bratT35=Date-absolute|bratT59=Event
+12	поездки	_	_	_	_	_	_	_	bratA6=T35:Past|bratT35=Date-absolute|bratT59=Event
 13	в	_	_	_	_	_	_	_	_
 14	Москву	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=GPE
 15	,	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 5	назвал	_	_	_	_	_	_	_	_
 6	преступной	_	_	_	_	_	_	_	_
 7	халатностью	_	_	_	_	_	_	_	_
-8	инцидент	_	_	_	_	_	_	_	_
+8	инцидент	_	_	_	_	_	_	_	bratT60=Event
 9	со	_	_	_	_	_	_	_	_
 10	скорыми	_	_	_	_	_	_	_	bratT39=Service
 11	и	_	_	_	_	_	_	_	_
@@ -216,7 +216,7 @@
 8	помощи	_	_	_	_	_	_	_	bratT31=Service
 9	приехали	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
-11	пациентами	_	_	_	_	_	_	_	bratT41=Other-group
+11	пациентами	_	_	_	_	_	_	_	bratT62=Person
 12	к	_	_	_	_	_	_	_	_
 13	зданию	_	_	_	_	_	_	_	bratT25=Facility
 14	регионального	_	_	_	_	_	_	_	bratT25=Facility
@@ -225,7 +225,7 @@
 17	отказа	_	_	_	_	_	_	_	_
 18	стационаров	_	_	_	_	_	_	_	_
 19	принять	_	_	_	_	_	_	_	_
-20	пациентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Other-group
+20	пациентов	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	_
 23	том	_	_	_	_	_	_	_	_
@@ -239,12 +239,12 @@
 # text = После случившегося глава региона временно отстранил от должности замминистра здравоохранения региона Анастасию Малову.
 1	После	_	_	_	_	_	_	_	bratA8=T37:Past|bratT37=Date-relative
 2	случившегося	_	_	_	_	_	_	_	bratA8=T37:Past|bratT37=Date-relative
-3	глава	_	_	_	_	_	_	_	bratT34=Person-property
-4	региона	_	_	_	_	_	_	_	bratT34=Person-property
+3	глава	_	_	_	_	_	_	_	bratA19=T58:Male|bratT34=Person-property|bratT58=Person
+4	региона	_	_	_	_	_	_	_	bratA19=T58:Male|bratT34=Person-property|bratT58=Person
 5	временно	_	_	_	_	_	_	_	_
 6	отстранил	_	_	_	_	_	_	_	_
 7	от	_	_	_	_	_	_	_	_
-8	должности	_	_	_	_	_	_	_	_
+8	должности	_	_	_	_	_	_	_	bratT61=Person-property
 9	замминистра	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person
 10	здравоохранения	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person
 11	региона	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person

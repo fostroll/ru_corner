@@ -1,0 +1,270 @@
+# newdoc id = 0005
+# newpar id = 0005-p1
+# par_text = Защита Белых отозвала ходатайство о смягчении оставшегося ему срока
+# sent_id = 0005-p1-s1
+# text = Защита Белых отозвала ходатайство о смягчении оставшегося ему срока
+1	Защита	_	_	_	_	_	_	_	bratT2=Person-property|bratT54=Person
+2	Белых	_	_	_	_	_	_	_	bratA3=T1:Male|bratT1=Person|bratT2=Person-property|bratT39=Person-surname|bratT54=Person
+3	отозвала	_	_	_	_	_	_	_	_
+4	ходатайство	_	_	_	_	_	_	_	_
+5	о	_	_	_	_	_	_	_	_
+6	смягчении	_	_	_	_	_	_	_	_
+7	оставшегося	_	_	_	_	_	_	_	_
+8	ему	_	_	_	_	_	_	_	_
+9	срока	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p2
+# par_text = Защита экс-губернатора Кировской области Никиты Белых, осужденного за взяточничество, отозвала ходатайство о замене оставшегося ему срока на более мягкое наказание. Об этом сообщает «Интерфакс» со ссылкой на адвоката Белых Андрея Грохотова.
+# sent_id = 0005-p2-s1
+# text = Защита экс-губернатора Кировской области Никиты Белых, осужденного за взяточничество, отозвала ходатайство о замене оставшегося ему срока на более мягкое наказание.
+1	Защита	_	_	_	_	_	_	_	bratT55=Person|bratT6=Person-property
+2	экс-губернатора	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+3	Кировской	_	_	_	_	_	_	_	bratA4=T5:Male|bratT3=GPE|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+4	области	_	_	_	_	_	_	_	bratA4=T5:Male|bratT3=GPE|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+5	Никиты	_	_	_	_	_	_	_	bratA4=T5:Male|bratT40=Person-forename|bratT5=Person|bratT55=Person|bratT6=Person-property
+6	Белых	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T5:Male|bratT41=Person-surname|bratT5=Person|bratT55=Person|bratT6=Person-property
+7	,	_	_	_	_	_	_	_	_
+8	осужденного	_	_	_	_	_	_	_	_
+9	за	_	_	_	_	_	_	_	_
+10	взяточничество	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	отозвала	_	_	_	_	_	_	_	_
+13	ходатайство	_	_	_	_	_	_	_	_
+14	о	_	_	_	_	_	_	_	_
+15	замене	_	_	_	_	_	_	_	_
+16	оставшегося	_	_	_	_	_	_	_	_
+17	ему	_	_	_	_	_	_	_	_
+18	срока	_	_	_	_	_	_	_	_
+19	на	_	_	_	_	_	_	_	_
+20	более	_	_	_	_	_	_	_	_
+21	мягкое	_	_	_	_	_	_	_	_
+22	наказание	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p2-s2
+# text = Об этом сообщает ``Интерфакс'' со ссылкой на адвоката Белых Андрея Грохотова.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
+5	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
+6	''	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
+7	со	_	_	_	_	_	_	_	_
+8	ссылкой	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	адвоката	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT9=Person-property
+11	Белых	_	_	_	_	_	_	_	bratA5=T8:Male|bratA6=T10:Male|bratT10=Person|bratT42=Person-surname|bratT8=Person|bratT9=Person-property
+12	Андрея	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT43=Person-forename
+13	Грохотова	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT44=Person-surname
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p3
+# par_text = «Ходатайство отозвано. Заявление в суд уже поступило. В дальнейшем мы определимся. Мы взяли паузу», — сказал Грохотов.
+# sent_id = 0005-p3-s1
+# text = ``Ходатайство отозвано.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Ходатайство	_	_	_	_	_	_	_	_
+3	отозвано	_	_	_	_	_	_	_	SpaceAfter=No
+4	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p3-s2
+# text = Заявление в суд уже поступило.
+1	Заявление	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	суд	_	_	_	_	_	_	_	_
+4	уже	_	_	_	_	_	_	_	_
+5	поступило	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p3-s3
+# text = В дальнейшем мы определимся.
+1	В	_	_	_	_	_	_	_	bratA22=T11:Future|bratT11=Date-absolute
+2	дальнейшем	_	_	_	_	_	_	_	bratA22=T11:Future|bratT11=Date-absolute
+3	мы	_	_	_	_	_	_	_	_
+4	определимся	_	_	_	_	_	_	_	SpaceAfter=No
+5	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p3-s4
+# text = Мы взяли паузу'', - сказал Грохотов.
+1	Мы	_	_	_	_	_	_	_	_
+2	взяли	_	_	_	_	_	_	_	_
+3	паузу	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_
+7	сказал	_	_	_	_	_	_	_	_
+8	Грохотов	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Male|bratT12=Person|bratT45=Person-surname
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p4
+# par_text = О том, что Белых попросил о смягчении наказания, стало известно 12 ноября. Скопинский районный суд Рязанской области должен был рассмотреть ходатайство 26 ноября. На сайте суда сказано, что заявление было подано 5 ноября.
+# sent_id = 0005-p4-s1
+# text = О том, что Белых попросил о смягчении наказания, стало известно 12 ноября.
+1	О	_	_	_	_	_	_	_	_
+2	том	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	Белых	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT46=Person-surname
+6	попросил	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	смягчении	_	_	_	_	_	_	_	_
+9	наказания	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	стало	_	_	_	_	_	_	_	_
+12	известно	_	_	_	_	_	_	_	_
+13	12	_	_	_	_	_	_	_	bratA9=T14:Past|bratT14=Date-absolute
+14	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T14:Past|bratT14=Date-absolute
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p4-s2
+# text = Скопинский районный суд Рязанской области должен был рассмотреть ходатайство 26 ноября.
+1	Скопинский	_	_	_	_	_	_	_	bratA21=T53:Adjective|bratT16=Organization|bratT53=GPE
+2	районный	_	_	_	_	_	_	_	bratA21=T53:Adjective|bratT16=Organization|bratT53=GPE
+3	суд	_	_	_	_	_	_	_	bratT16=Organization
+4	Рязанской	_	_	_	_	_	_	_	bratT15=GPE|bratT16=Organization
+5	области	_	_	_	_	_	_	_	bratT15=GPE|bratT16=Organization
+6	должен	_	_	_	_	_	_	_	_
+7	был	_	_	_	_	_	_	_	_
+8	рассмотреть	_	_	_	_	_	_	_	_
+9	ходатайство	_	_	_	_	_	_	_	_
+10	26	_	_	_	_	_	_	_	bratA10=T17:Past|bratT17=Date-absolute
+11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T17:Past|bratT17=Date-absolute
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p4-s3
+# text = На сайте суда сказано, что заявление было подано 5 ноября.
+1	На	_	_	_	_	_	_	_	_
+2	сайте	_	_	_	_	_	_	_	bratA2=T18:Media|bratT18=Service
+3	суда	_	_	_	_	_	_	_	_
+4	сказано	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	заявление	_	_	_	_	_	_	_	_
+8	было	_	_	_	_	_	_	_	_
+9	подано	_	_	_	_	_	_	_	_
+10	5	_	_	_	_	_	_	_	bratA11=T19:Past|bratT19=Date-absolute
+11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T19:Past|bratT19=Date-absolute
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p5
+# par_text = Экс-губернатора задержали в июне 2016 года в Москве при передаче части взятки. По версии следствия, Белых лично или через посредника получил взятку на сумму €400 тыс. (24,1 млн руб.).
+# sent_id = 0005-p5-s1
+# text = Экс-губернатора задержали в июне 2016 года в Москве при передаче части взятки.
+1	Экс-губернатора	_	_	_	_	_	_	_	bratT20=Person-property
+2	задержали	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+4	июне	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+5	2016	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+6	года	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+7	в	_	_	_	_	_	_	_	_
+8	Москве	_	_	_	_	_	_	_	bratT22=GPE
+9	при	_	_	_	_	_	_	_	_
+10	передаче	_	_	_	_	_	_	_	_
+11	части	_	_	_	_	_	_	_	_
+12	взятки	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p5-s2
+# text = По версии следствия, Белых лично или через посредника получил взятку на сумму €400 тыс. (24,1 млн руб.).
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	Белых	_	_	_	_	_	_	_	bratA13=T23:Male|bratT23=Person|bratT47=Person-surname
+6	лично	_	_	_	_	_	_	_	_
+7	или	_	_	_	_	_	_	_	_
+8	через	_	_	_	_	_	_	_	_
+9	посредника	_	_	_	_	_	_	_	bratT24=Person-property
+10	получил	_	_	_	_	_	_	_	_
+11	взятку	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	сумму	_	_	_	_	_	_	_	_
+14-15	€400	_	_	_	_	_	_	_	_
+14	€	_	_	_	_	_	_	_	bratT25=Money
+15	400	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Money
+16	тыс.	_	_	_	_	_	_	_	bratT25=Money
+17	(	_	_	_	_	_	_	_	SpaceAfter=No
+18	24,1	_	_	_	_	_	_	_	bratT26=Money
+19	млн	_	_	_	_	_	_	_	bratT26=Money
+20	руб.	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Money
+21	)	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0005-p6
+# par_text = Белых занимал пост губернатора с 2008 года. В июле 2016 года президент Владимир Путин подписал указ о его отстранении от должности в связи с утратой доверия. В феврале 2018 года его приговорили к восьми годам колонии и штрафу в размере 48,2 млн руб. Его признали виновным по двум из трех вменяемых эпизодов взяточничества. Белых свою вину отрицал.
+# sent_id = 0005-p6-s1
+# text = Белых занимал пост губернатора с 2008 года.
+1	Белых	_	_	_	_	_	_	_	bratA14=T27:Male|bratT27=Person|bratT48=Person-surname
+2	занимал	_	_	_	_	_	_	_	_
+3	пост	_	_	_	_	_	_	_	bratT28=Person-property
+4	губернатора	_	_	_	_	_	_	_	bratT28=Person-property
+5	с	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-period-absolute
+6	2008	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-period-absolute
+7	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T29:Past|bratT29=Date-period-absolute
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p6-s2
+# text = В июле 2016 года президент Владимир Путин подписал указ о его отстранении от должности в связи с утратой доверия.
+1	В	_	_	_	_	_	_	_	bratA16=T30:Past|bratT30=Date-absolute
+2	июле	_	_	_	_	_	_	_	bratA16=T30:Past|bratT30=Date-absolute
+3	2016	_	_	_	_	_	_	_	bratA16=T30:Past|bratT30=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA16=T30:Past|bratT30=Date-absolute
+5	президент	_	_	_	_	_	_	_	bratA17=T32:Male|bratT31=Person-property|bratT32=Person
+6	Владимир	_	_	_	_	_	_	_	bratA17=T32:Male|bratT32=Person|bratT49=Person-forename
+7	Путин	_	_	_	_	_	_	_	bratA17=T32:Male|bratT32=Person|bratT50=Person-surname
+8	подписал	_	_	_	_	_	_	_	_
+9	указ	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	его	_	_	_	_	_	_	_	_
+12	отстранении	_	_	_	_	_	_	_	_
+13	от	_	_	_	_	_	_	_	_
+14	должности	_	_	_	_	_	_	_	bratT56=Person-property
+15	в	_	_	_	_	_	_	_	_
+16	связи	_	_	_	_	_	_	_	_
+17	с	_	_	_	_	_	_	_	_
+18	утратой	_	_	_	_	_	_	_	_
+19	доверия	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p6-s3
+# text = В феврале 2018 года его приговорили к восьми годам колонии и штрафу в размере 48,2 млн руб.
+1	В	_	_	_	_	_	_	_	bratA18=T33:Past|bratT33=Date-absolute
+2	феврале	_	_	_	_	_	_	_	bratA18=T33:Past|bratT33=Date-absolute
+3	2018	_	_	_	_	_	_	_	bratA18=T33:Past|bratT33=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA18=T33:Past|bratT33=Date-absolute
+5	его	_	_	_	_	_	_	_	_
+6	приговорили	_	_	_	_	_	_	_	_
+7	к	_	_	_	_	_	_	_	bratA19=T51:Past-UNK|bratT51=Date-period-relative
+8	восьми	_	_	_	_	_	_	_	bratA19=T51:Past-UNK|bratT34=Duration|bratT51=Date-period-relative
+9	годам	_	_	_	_	_	_	_	bratA19=T51:Past-UNK|bratT34=Duration|bratT51=Date-period-relative
+10	колонии	_	_	_	_	_	_	_	_
+11	и	_	_	_	_	_	_	_	_
+12	штрафу	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	размере	_	_	_	_	_	_	_	_
+15	48,2	_	_	_	_	_	_	_	bratT35=Money
+16	млн	_	_	_	_	_	_	_	bratT35=Money
+17	руб.	_	_	_	_	_	_	_	bratT35=Money
+
+# sent_id = 0005-p6-s4
+# text = Его признали виновным по двум из трех вменяемых эпизодов взяточничества.
+1	Его	_	_	_	_	_	_	_	_
+2	признали	_	_	_	_	_	_	_	_
+3	виновным	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	двум	_	_	_	_	_	_	_	bratT36=Quantity
+6	из	_	_	_	_	_	_	_	bratT36=Quantity
+7	трех	_	_	_	_	_	_	_	bratT37=Quantity
+8	вменяемых	_	_	_	_	_	_	_	bratT37=Quantity
+9	эпизодов	_	_	_	_	_	_	_	bratT37=Quantity
+10	взяточничества	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0005-p6-s5
+# text = Белых свою вину отрицал.
+1	Белых	_	_	_	_	_	_	_	bratA20=T38:Male|bratT38=Person|bratT52=Person-surname
+2	свою	_	_	_	_	_	_	_	_
+3	вину	_	_	_	_	_	_	_	_
+4	отрицал	_	_	_	_	_	_	_	SpaceAfter=No
+5	.	_	_	_	_	_	_	_	_
+

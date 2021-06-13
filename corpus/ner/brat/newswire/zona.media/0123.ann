@@ -1,0 +1,110 @@
+T1	GPE 4 11	Гатчине
+T2	Person-property 14 22	активист
+T3	Person-property 36 48	полицейского
+T4	GPE 136 159	Ленинградской   области
+T5	Event 183 223	акции   в   поддержку   крымских   татар
+T6	Other-group 171 223	участника   акции   в   поддержку   крымских   татар
+T7	Person 171 246	участника   акции   в   поддержку   крымских   татар   Владимира   Шипицына
+A1	Male T7
+T8	Person-forename 226 235	Владимира
+T9	Person-surname 238 246	Шипицына
+T10	Law 330 359	часть   1   статьи   318   УК
+T11	Person-property 311 323	полицейского
+T12	Organization 380 399	``   Медиазоне   ''
+A2	Media T12
+T13	Person 414 438	адвокат   Антон   Юпанов
+A3	Male T13
+T14	Person-forename 424 429	Антон
+T15	Person-surname 432 438	Юпанов
+T16	Person-property 414 421	адвокат
+T17	Organization 466 484	``   ОВД-Инфо   ''
+T18	Date-relative 490 498	Накануне
+A4	Past T18
+T19	GPE 505 512	Гатчине
+T20	Other-group 515 562	активисты   движения   ``   Стратегия - 18   ''
+T21	Organization 527 562	движения   ``   Стратегия - 18   ''
+T23	Event 578 640	акцию   против   уголовного   преследования   крымских   татар
+T24	Nationality 207 223	крымских   татар
+T25	GPE 207 215	крымских
+T26	Nationality 624 640	крымских   татар
+T27	GPE 624 632	крымских
+T28	Person 645 652	Шипицын
+A5	Male T28
+T29	Person-surname 645 652	Шипицын
+T30	Organization 715 731	Хизб   ут-Тахрир
+T31	Organization 780 798	``   ОВД-Инфо   ''
+T32	Person-property 824 835	полицейские
+T33	Quantity 850 868	шесть   участников
+T34	Other-group 858 876	участников   акции
+T35	Event 871 876	акции
+T36	Person 899 905	Юпанов
+A6	Male T36
+T37	Person-surname 899 905	Юпанов
+T38	Person 938 945	Шипицын
+A7	Male T38
+T39	Person-surname 938 945	Шипицын
+T40	Person-property 1026 1038	полицейского
+T41	Event 1129 1134	акции
+T42	Organization 1157 1228	следственный   отдел   по   Гатчине   управления   СК   по   Ленобласти
+A8	Department T42
+T43	Organization 1195 1228	управления   СК   по   Ленобласти
+T44	GPE 1185 1192	Гатчине
+T45	GPE 1218 1228	Ленобласти
+T46	Person-property 1251 1260	активиста
+T47	Person-property 1368 1388	сотрудника   полиции
+T48	Person 1430 1436	Юпанов
+A9	Male T48
+T49	Person-surname 1430 1436	Юпанов
+T50	Date-absolute 1442 1448	Сейчас
+A10	Present T50
+T51	Person 1451 1458	Шипицын
+A11	Male T51
+T52	Person-surname 1451 1458	Шипицын
+T53	Person-property 1487 1501	подозреваемого
+T54	Date-absolute 1548 1571	Сегодня   ,   19   июля
+T55	Date-relative 1648 1653	Позже
+T56	Person 1656 1662	Юпанов
+A13	Male T56
+T57	Person-surname 1656 1662	Юпанов
+T58	Organization 1677 1695	``   ОВД-Инфо   ''
+T59	Person-property 1714 1726	подзащитного
+T60	Person 1743 1750	Шипицын
+A14	Male T60
+T61	Person-surname 1743 1750	Шипицын
+T62	Person-property 1793 1807	подозреваемого
+T63	Person-property 1844 1853	активисту
+T64	Date-period-absolute 1888 1899	Еще   сутки
+T65	Duration 1894 1899	сутки
+T66	Person 1902 1909	Шипицын
+A15	Male T66
+T67	Person-surname 1902 1909	Шипицын
+T70	Date-period-absolute 1969 1992	48   часов   задержания
+T71	Duration 1969 1979	48   часов
+T72	Time-absolute 2010 2019	в   17:00
+A17	Media T17
+A18	Media T31
+A19	Media T58
+A20	Adjective T25
+T22	Ordinal 338 339	1
+T74	Ordinal 351 354	318
+T75	Law 357 359	УК
+A21	Adjective T27
+T76	GPE 757 767	украинский
+A22	Adjective T76
+T77	Date-absolute 1094 1126	во   время   прямой   трансляции
+A23	Past T77
+A24	Pres-Fut T64
+T73	Organization 1381 1388	полиции
+A16	Past T55
+T78	Date-absolute 2010 2019	в   17:00
+A25	Present T78
+T69	Date-absolute 912 935	во   время   задержания
+A26	Past T69
+T79	Date-relative 994 1011	в   этот   момент
+A27	Past T79
+T80	Date-relative 1051 1064	Этот   момент
+A28	Past T80
+A29	Past-Fut T70
+A12	Future T54
+T68	Ordinal 1051 1055	Этот
+T81	Ordinal 555 556	1

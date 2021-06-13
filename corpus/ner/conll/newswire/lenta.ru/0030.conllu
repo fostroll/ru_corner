@@ -50,7 +50,7 @@
 6	узлу	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Media|bratT7=Organization
 7	''	_	_	_	_	_	_	_	bratA2=T7:Media|bratT7=Organization
 8	опрошенные	_	_	_	_	_	_	_	_
-9	эксперты	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property
+9	эксперты	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property|bratT63=Person
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p3
@@ -67,8 +67,8 @@
 8	выступающего	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	критикой	_	_	_	_	_	_	_	_
-11	властей	_	_	_	_	_	_	_	_
-12	республики	_	_	_	_	_	_	_	SpaceAfter=No
+11	властей	_	_	_	_	_	_	_	bratT67=Organization
+12	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Organization
 13	,	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No
 15	практика	_	_	_	_	_	_	_	_
@@ -79,7 +79,7 @@
 20	случае	_	_	_	_	_	_	_	_
 21	с	_	_	_	_	_	_	_	_
 22	продвижением	_	_	_	_	_	_	_	_
-23	соцсетей	_	_	_	_	_	_	_	_
+23	соцсетей	_	_	_	_	_	_	_	bratT62=Service
 24	не	_	_	_	_	_	_	_	_
 25	так	_	_	_	_	_	_	_	_
 26	эффективна	_	_	_	_	_	_	_	SpaceAfter=No
@@ -102,15 +102,15 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	для	_	_	_	_	_	_	_	_
-6	главы	_	_	_	_	_	_	_	bratT12=Person-property
-7	Чечни	_	_	_	_	_	_	_	bratT12=Person-property|bratT32=GPE
+6	главы	_	_	_	_	_	_	_	bratT12=Person-property|bratT64=Person
+7	Чечни	_	_	_	_	_	_	_	bratT12=Person-property|bratT32=GPE|bratT64=Person
 8	важна	_	_	_	_	_	_	_	_
 9	раскрутка	_	_	_	_	_	_	_	_
 10	аккаунтов	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	так	_	_	_	_	_	_	_	_
 13	как	_	_	_	_	_	_	_	_
-14	соцсети	_	_	_	_	_	_	_	_
+14	соцсети	_	_	_	_	_	_	_	bratT61=Service
 15	набирают	_	_	_	_	_	_	_	_
 16	популярность	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
@@ -160,7 +160,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	добавил	_	_	_	_	_	_	_	_
-11	блогер	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
+11	блогер	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T65:Male|bratT25=Person-property|bratT65=Person
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p4
@@ -214,8 +214,8 @@
 6	аккаунтов	_	_	_	_	_	_	_	_
 7	родственников	_	_	_	_	_	_	_	bratT33=Family
 8	для	_	_	_	_	_	_	_	_
-9	главы	_	_	_	_	_	_	_	bratT24=Person-property
-10	Чечни	_	_	_	_	_	_	_	bratT24=Person-property|bratT34=GPE
+9	главы	_	_	_	_	_	_	_	bratA18=T66:Male|bratT24=Person-property|bratT66=Person
+10	Чечни	_	_	_	_	_	_	_	bratA18=T66:Male|bratT24=Person-property|bratT34=GPE|bratT66=Person
 11	тоже	_	_	_	_	_	_	_	_
 12	важно	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_

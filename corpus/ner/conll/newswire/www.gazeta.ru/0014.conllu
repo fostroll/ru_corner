@@ -7,10 +7,10 @@
 2	проведет	_	_	_	_	_	_	_	_
 3	токсикологическое	_	_	_	_	_	_	_	_
 4	изучение	_	_	_	_	_	_	_	_
-5	российской	_	_	_	_	_	_	_	bratA8=T33:Adjective|bratT3=Other-term|bratT33=GPE
-6	вакцины	_	_	_	_	_	_	_	bratT3=Other-term
-7	от	_	_	_	_	_	_	_	_
-8	коронавируса	_	_	_	_	_	_	_	bratT2=Other-term
+5	российской	_	_	_	_	_	_	_	bratA14=T3:Trademark|bratA8=T33:Adjective|bratT3=Product|bratT33=GPE
+6	вакцины	_	_	_	_	_	_	_	bratA14=T3:Trademark|bratT3=Product
+7	от	_	_	_	_	_	_	_	bratA14=T3:Trademark|bratT3=Product
+8	коронавируса	_	_	_	_	_	_	_	bratA14=T3:Trademark|bratT2=Other-term|bratT3=Product
 
 # newpar id = 0014-p2
 # par_text = Турция в ближайшее время приступит к токсикологическому изучению российской вакцины, сообщил министр здравоохранения республики Фахреттин Коджа. Об этом пишет ТАСС.
@@ -24,13 +24,13 @@
 6	к	_	_	_	_	_	_	_	_
 7	токсикологическому	_	_	_	_	_	_	_	_
 8	изучению	_	_	_	_	_	_	_	_
-9	российской	_	_	_	_	_	_	_	bratA9=T34:Adjective|bratT34=GPE|bratT8=Other-term
-10	вакцины	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-term
+9	российской	_	_	_	_	_	_	_	bratA13=T8:Trademark|bratA9=T34:Adjective|bratT34=GPE|bratT8=Product
+10	вакцины	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T8:Trademark|bratT8=Product
 11	,	_	_	_	_	_	_	_	_
 12	сообщил	_	_	_	_	_	_	_	_
 13	министр	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
 14	здравоохранения	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
-15	республики	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
+15	республики	_	_	_	_	_	_	_	bratA5=T6:Male|bratT42=GPE|bratT5=Person-property|bratT6=Person
 16	Фахреттин	_	_	_	_	_	_	_	bratA5=T6:Male|bratT29=Person-forename|bratT6=Person
 17	Коджа	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T6:Male|bratT30=Person-surname|bratT6=Person
 18	.	_	_	_	_	_	_	_	_
@@ -128,15 +128,18 @@
 1	Россия	_	_	_	_	_	_	_	bratT17=GPE
 2	была	_	_	_	_	_	_	_	_
 3	первой	_	_	_	_	_	_	_	bratT18=Ordinal
-4	страной	_	_	_	_	_	_	_	_
+4	страной	_	_	_	_	_	_	_	bratT41=GPE
 5	в	_	_	_	_	_	_	_	_
 6	мире	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=GPE
 7	,	_	_	_	_	_	_	_	_
 8	зарегистрировавшей	_	_	_	_	_	_	_	_
 9	вакцину	_	_	_	_	_	_	_	bratT19=Other-term
 10	от	_	_	_	_	_	_	_	_
-11	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
-12	.	_	_	_	_	_	_	_	_
+11-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+11	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+13	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term|bratT38=Cardinal
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p6-s2
 # text = Препарат был разработан НИЦЭМ имени Гамалеи совместно с Российским фондом прямых инвестиций.
@@ -145,7 +148,7 @@
 3	разработан	_	_	_	_	_	_	_	_
 4	НИЦЭМ	_	_	_	_	_	_	_	bratT21=Organization
 5	имени	_	_	_	_	_	_	_	bratT21=Organization
-6	Гамалеи	_	_	_	_	_	_	_	bratT21=Organization
+6	Гамалеи	_	_	_	_	_	_	_	bratT21=Organization|bratT39=Person|bratT40=Person-surname
 7	совместно	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
 9	Российским	_	_	_	_	_	_	_	bratA12=T37:Adjective|bratT23=Organization|bratT37=GPE
@@ -158,9 +161,9 @@
 # text = Его назвали ``Спутник V''.
 1	Его	_	_	_	_	_	_	_	_
 2	назвали	_	_	_	_	_	_	_	_
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Product
-4	Спутник	_	_	_	_	_	_	_	bratT22=Product
-5	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Product
-6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Product
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T22:Trademark|bratT22=Product
+4	Спутник	_	_	_	_	_	_	_	bratA15=T22:Trademark|bratT22=Product
+5	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T22:Trademark|bratT22=Product
+6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T22:Trademark|bratT22=Product
 7	.	_	_	_	_	_	_	_	_
 

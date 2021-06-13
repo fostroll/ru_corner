@@ -1,0 +1,78 @@
+T1	Person 9 14	Белых
+T2	Person-property 0 14	Защита   Белых
+T3	GPE 112 131	Кировской   области
+T4	Person-property 94 131	экс-губернатора   Кировской   области
+T5	Person 94 148	экс-губернатора   Кировской   области   Никиты   Белых
+T6	Person-property 85 148	Защита   экс-губернатора   Кировской   области   Никиты   Белых
+T7	Organization 320 339	``   Интерфакс   ''
+A1	Media T7
+T8	Person 373 378	Белых
+T9	Person-property 362 378	адвоката   Белых
+T10	Person 362 399	адвоката   Белых   Андрея   Грохотова
+T11	Date-absolute 479 493	В   дальнейшем
+T12	Person 560 568	Грохотов
+T13	Person 594 599	Белых
+T14	Date-absolute 664 675	12   ноября
+T15	GPE 710 729	Рязанской   области
+T16	Organization 680 729	Скопинский   районный   суд   Рязанской   области
+T17	Date-absolute 775 786	26   ноября
+T18	Service 796 801	сайте
+A2	Media T18
+T19	Date-absolute 859 869	5   ноября
+T20	Person-property 875 890	Экс-губернатора
+T21	Date-absolute 905 927	в   июне   2016   года
+T22	GPE 934 940	Москве
+T23	Person 1009 1014	Белых
+T24	Person-property 1039 1049	посредника
+T25	Money 1084 1096	€ 400   тыс.
+T26	Money 1103 1120	24,1   млн   руб.
+T27	Person 1130 1135	Белых
+T28	Person-property 1148 1166	пост   губернатора
+T29	Date-period-absolute 1169 1184	с   2008   года
+T30	Date-absolute 1189 1211	В   июле   2016   года
+T31	Person-property 1214 1223	президент
+T32	Person 1214 1242	президент   Владимир   Путин
+T33	Date-absolute 1342 1367	В   феврале   2018   года
+T34	Duration 1394 1408	восьми   годам
+T35	Money 1448 1465	48,2   млн   руб.
+T36	Quantity 1499 1508	двум   из
+T37	Quantity 1511 1538	трех   вменяемых   эпизодов
+T38	Person 1560 1565	Белых
+T39	Person-surname 9 14	Белых
+A3	Male T1
+T40	Person-forename 134 140	Никиты
+T41	Person-surname 143 148	Белых
+A4	Male T5
+T42	Person-surname 373 378	Белых
+A5	Male T8
+T43	Person-forename 381 387	Андрея
+T44	Person-surname 390 399	Грохотова
+A6	Male T10
+T45	Person-surname 560 568	Грохотов
+A7	Male T12
+T46	Person-surname 594 599	Белых
+A8	Male T13
+A9	Past T14
+A10	Past T17
+A11	Past T19
+A12	Past T21
+T47	Person-surname 1009 1014	Белых
+A13	Male T23
+T48	Person-surname 1130 1135	Белых
+A14	Male T27
+A15	Past T29
+A16	Past T30
+T49	Person-forename 1226 1234	Владимир
+T50	Person-surname 1237 1242	Путин
+A17	Male T32
+A18	Past T33
+T51	Date-period-relative 1390 1408	к   восьми   годам
+A19	Past-UNK T51
+T52	Person-surname 1560 1565	Белых
+A20	Male T38
+T53	GPE 680 701	Скопинский   районный
+A21	Adjective T53
+A22	Future T11
+T54	Person 0 14	Защита   Белых
+T55	Person 85 148	Защита   экс-губернатора   Кировской   области   Никиты   Белых
+T56	Person-property 1292 1301	должности

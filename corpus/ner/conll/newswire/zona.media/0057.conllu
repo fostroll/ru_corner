@@ -1,0 +1,178 @@
+# newdoc id = 0057
+# newpar id = 0057-p1
+# par_text = В подмосковном СИЗО нашли мертвым сантехника, признавшегося в семи изнасилованиях и убийствах
+# sent_id = 0057-p1-s1
+# text = В подмосковном СИЗО нашли мертвым сантехника, признавшегося в семи изнасилованиях и убийствах
+1	В	_	_	_	_	_	_	_	_
+2	подмосковном	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Facility|bratT2=GPE
+3	СИЗО	_	_	_	_	_	_	_	bratT1=Facility
+4	нашли	_	_	_	_	_	_	_	_
+5	мертвым	_	_	_	_	_	_	_	_
+6	сантехника	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property
+7	,	_	_	_	_	_	_	_	_
+8	признавшегося	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	семи	_	_	_	_	_	_	_	bratT4=Quantity
+11	изнасилованиях	_	_	_	_	_	_	_	bratT4=Quantity
+12	и	_	_	_	_	_	_	_	_
+13	убийствах	_	_	_	_	_	_	_	_
+
+# newpar id = 0057-p2
+# par_text = В подмосковном СИЗО-11 в Ногинске нашли мертвым 53-летнего сантехника Александра Ежова из Каширы, признавшегося в семи изнасилованиях и убийствах. Об этом сообщают областное управление Следственного комитета и «Московский комсомолец».
+# sent_id = 0057-p2-s1
+# text = В подмосковном СИЗО-11 в Ногинске нашли мертвым 53-летнего сантехника Александра Ежова из Каширы, признавшегося в семи изнасилованиях и убийствах.
+1	В	_	_	_	_	_	_	_	_
+2	подмосковном	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT5=Facility|bratT7=GPE
+3-5	СИЗО-11	_	_	_	_	_	_	_	_
+3	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Facility
+4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Facility
+5	11	_	_	_	_	_	_	_	bratT21=Ordinal|bratT5=Facility
+6	в	_	_	_	_	_	_	_	_
+7	Ногинске	_	_	_	_	_	_	_	bratT8=GPE
+8	нашли	_	_	_	_	_	_	_	_
+9	мертвым	_	_	_	_	_	_	_	_
+10	53-летнего	_	_	_	_	_	_	_	bratT10=Age
+11	сантехника	_	_	_	_	_	_	_	bratA3=T9:Male|bratT11=Person-property|bratT9=Person
+12	Александра	_	_	_	_	_	_	_	bratA3=T9:Male|bratT12=Person-forename|bratT9=Person
+13	Ежова	_	_	_	_	_	_	_	bratA3=T9:Male|bratT13=Person-surname|bratT9=Person
+14	из	_	_	_	_	_	_	_	_
+15	Каширы	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=GPE
+16	,	_	_	_	_	_	_	_	_
+17	признавшегося	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	семи	_	_	_	_	_	_	_	bratT15=Quantity
+20	изнасилованиях	_	_	_	_	_	_	_	bratT15=Quantity
+21	и	_	_	_	_	_	_	_	_
+22	убийствах	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0057-p2-s2
+# text = Об этом сообщают областное управление Следственного комитета и «Московский комсомолец».
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщают	_	_	_	_	_	_	_	_
+4	областное	_	_	_	_	_	_	_	bratA8=T35:Adjective|bratT17=Organization|bratT35=GPE
+5	управление	_	_	_	_	_	_	_	bratT17=Organization
+6	Следственного	_	_	_	_	_	_	_	bratT17=Organization|bratT36=Organization
+7	комитета	_	_	_	_	_	_	_	bratT17=Organization|bratT36=Organization
+8	и	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA5=T18:Media|bratT18=Organization
+10	Московский	_	_	_	_	_	_	_	bratA10=T37:Adjective|bratA5=T18:Media|bratT18=Organization|bratT37=GPE
+11	комсомолец	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T18:Media|bratT18=Organization
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA5=T18:Media|bratT18=Organization
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0057-p3
+# par_text = «По предварительным данным эксперта, смерть мужчины наступила в результате механической асфиксии», — говорят в СК. Ведомство начало проверку из-за «возможной халатности сотрудников изолятора».
+# sent_id = 0057-p3-s1
+# text = «По предварительным данным эксперта, смерть мужчины наступила в результате механической асфиксии», - говорят в СК.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	По	_	_	_	_	_	_	_	_
+3	предварительным	_	_	_	_	_	_	_	_
+4	данным	_	_	_	_	_	_	_	_
+5	эксперта	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
+6	,	_	_	_	_	_	_	_	_
+7	смерть	_	_	_	_	_	_	_	_
+8	мужчины	_	_	_	_	_	_	_	_
+9	наступила	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	результате	_	_	_	_	_	_	_	_
+12	механической	_	_	_	_	_	_	_	bratT20=Other-term
+13	асфиксии	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	-	_	_	_	_	_	_	_	_
+17	говорят	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0057-p3-s2
+# text = Ведомство начало проверку из-за «возможной халатности сотрудников изолятора».
+1	Ведомство	_	_	_	_	_	_	_	_
+2	начало	_	_	_	_	_	_	_	_
+3	проверку	_	_	_	_	_	_	_	_
+4	из-за	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+6	возможной	_	_	_	_	_	_	_	_
+7	халатности	_	_	_	_	_	_	_	_
+8	сотрудников	_	_	_	_	_	_	_	bratT22=Person-property
+9	изолятора	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property|bratT6=Organization
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0057-p4
+# par_text = Ежова арестовали 13 июня. По версии следствия, он совершал преступления в течение 10 лет — с 2010 по 2020 годы. Мужчина заходил в чужие дома, насиловал и убивал женщин, говорили следователи. Одной из жертв Ежова, по данным СК, стала 10-летняя девочка — он залез на второй этаж частного дома и изнасиловал ее.
+# sent_id = 0057-p4-s1
+# text = Ежова арестовали 13 июня.
+1	Ежова	_	_	_	_	_	_	_	bratA7=T24:Male|bratT24=Person|bratT25=Person-surname
+2	арестовали	_	_	_	_	_	_	_	_
+3	13	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-absolute
+4	июня	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T23:Past|bratT23=Date-absolute
+5	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0057-p4-s2
+# text = По версии следствия, он совершал преступления в течение 10 лет - с 2010 по 2020 годы.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	он	_	_	_	_	_	_	_	_
+6	совершал	_	_	_	_	_	_	_	_
+7	преступления	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute
+9	течение	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute
+10	10	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute|bratT27=Duration
+11	лет	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute|bratT27=Duration
+12	-	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute
+13	с	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute
+14	2010	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute
+15	по	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute
+16	2020	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-period-absolute
+17	годы	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T26:Past|bratT26=Date-period-absolute
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0057-p4-s3
+# text = Мужчина заходил в чужие дома, насиловал и убивал женщин, говорили следователи.
+1	Мужчина	_	_	_	_	_	_	_	_
+2	заходил	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	чужие	_	_	_	_	_	_	_	_
+5	дома	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	насиловал	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	убивал	_	_	_	_	_	_	_	_
+10	женщин	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	говорили	_	_	_	_	_	_	_	_
+13	следователи	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0057-p4-s4
+# text = Одной из жертв Ежова, по данным СК, стала 10-летняя девочка - он залез на второй этаж частного дома и изнасиловал ее.
+1	Одной	_	_	_	_	_	_	_	bratT34=Quantity
+2	из	_	_	_	_	_	_	_	bratT34=Quantity
+3	жертв	_	_	_	_	_	_	_	_
+4	Ежова	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Male|bratT28=Person|bratT30=Person-surname
+5	,	_	_	_	_	_	_	_	_
+6	по	_	_	_	_	_	_	_	_
+7	данным	_	_	_	_	_	_	_	_
+8	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+9	,	_	_	_	_	_	_	_	_
+10	стала	_	_	_	_	_	_	_	_
+11	10-летняя	_	_	_	_	_	_	_	bratT32=Age
+12	девочка	_	_	_	_	_	_	_	_
+13	-	_	_	_	_	_	_	_	_
+14	он	_	_	_	_	_	_	_	_
+15	залез	_	_	_	_	_	_	_	_
+16	на	_	_	_	_	_	_	_	_
+17	второй	_	_	_	_	_	_	_	bratT33=Ordinal
+18	этаж	_	_	_	_	_	_	_	_
+19	частного	_	_	_	_	_	_	_	_
+20	дома	_	_	_	_	_	_	_	_
+21	и	_	_	_	_	_	_	_	_
+22	изнасиловал	_	_	_	_	_	_	_	_
+23	ее	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+

@@ -19,28 +19,28 @@ T17	Person-property 634 641	политик
 T18	Date-absolute 729 740	16   ноября
 T19	GPE 749 757	Молдавии
 T20	Organization 743 757	ЦИК   Молдавии
-T21	Percent 786 793	100   %
-T22	Ordinal 814 820	втором
-T23	Organization 905 951	партии   ``   Действие   и   солидарность   ''
-T24	Person-property 880 951	главу   проевропейской   партии   ``   Действие   и   солидарность   ''
-T25	Person 880 966	главу   проевропейской   партии   ``   Действие   и   солидарность   ''   Майю   Санду
-T26	Person 971 976	Санду
-T27	Percent 989 998	57,75   %
-T28	Person-property 1013 1036	Действующий   президент
-T29	Person 1013 1052	Действующий   президент   Игорь   Додон
-T30	Percent 1065 1074	42,25   %
-T31	Percent 1113 1122	52,78   %
-T32	Organization 1163 1169	России
-T33	Person-property 1151 1169	президент   России
-T34	Person 1151 1188	президент   России   Владимир   Путин
-T35	Organization 1211 1257	партии   ``   Действие   и   солидарность   ''
-T36	Person-property 1202 1257	лидеру   партии   ``   Действие   и   солидарность   ''
-T37	Person 1202 1272	лидеру   партии   ``   Действие   и   солидарность   ''   Майе   Санду
-T38	GPE 1367 1375	Молдавии
-T39	Event 1337 1360	президентских   выборах
-T40	Event 814 853	втором   туре   президентских   выборов
-T41	Event 830 853	президентских   выборов
-T42	Date-relative 1128 1148	В   этот   же   день
+T21	Percent 786 791	100 %
+T22	Ordinal 812 818	втором
+T23	Organization 903 949	партии   ``   Действие   и   солидарность   ''
+T24	Person-property 878 949	главу   проевропейской   партии   ``   Действие   и   солидарность   ''
+T25	Person 878 964	главу   проевропейской   партии   ``   Действие   и   солидарность   ''   Майю   Санду
+T26	Person 969 974	Санду
+T27	Percent 987 994	57,75 %
+T28	Person-property 1009 1032	Действующий   президент
+T29	Person 1009 1048	Действующий   президент   Игорь   Додон
+T30	Percent 1061 1068	42,25 %
+T31	Percent 1107 1114	52,78 %
+T32	Organization 1155 1161	России
+T33	Person-property 1143 1161	президент   России
+T34	Person 1143 1180	президент   России   Владимир   Путин
+T35	Organization 1203 1249	партии   ``   Действие   и   солидарность   ''
+T36	Person-property 1194 1249	лидеру   партии   ``   Действие   и   солидарность   ''
+T37	Person 1194 1264	лидеру   партии   ``   Действие   и   солидарность   ''   Майе   Санду
+T38	GPE 1359 1367	Молдавии
+T39	Event 1329 1352	президентских   выборах
+T40	Event 812 851	втором   туре   президентских   выборов
+T41	Event 828 851	президентских   выборов
+T42	Date-relative 1120 1140	В   этот   же   день
 A2	Past T18
 A3	Past T42
 T43	Person-surname 0 5	Санду
@@ -48,19 +48,23 @@ A4	Female T1
 T44	Person-forename 157 161	Майя
 T45	Person-surname 164 169	Санду
 A5	Female T8
-T46	Person-forename 954 958	Майю
-T47	Person-surname 961 966	Санду
+T46	Person-forename 952 956	Майю
+T47	Person-surname 959 964	Санду
 A6	Female T25
-T48	Person-surname 971 976	Санду
+T48	Person-surname 969 974	Санду
 A7	Female T26
-T49	Person-forename 1039 1044	Игорь
-T50	Person-surname 1047 1052	Додон
+T49	Person-forename 1035 1040	Игорь
+T50	Person-surname 1043 1048	Додон
 A8	Male T29
-T51	Person-forename 1172 1180	Владимир
-T52	Person-surname 1183 1188	Путин
+T51	Person-forename 1164 1172	Владимир
+T52	Person-surname 1175 1180	Путин
 A9	Male T34
-T53	Person-forename 1260 1264	Майе
-T54	Person-surname 1267 1272	Санду
+T53	Person-forename 1252 1256	Майе
+T54	Person-surname 1259 1264	Санду
 A10	Female T37
-T55	GPE 565 576	европейские
-A11	Adjective T55
+T55	GPE 565 585	европейские   страны
+T56	Nationality 707 723	граждан   страны
+T57	Person 634 641	политик
+A12	Female T57
+T58	GPE 218 228	республики
+T59	GPE 717 723	страны

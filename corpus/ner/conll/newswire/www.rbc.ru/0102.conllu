@@ -1,0 +1,234 @@
+# newdoc id = 0102
+# newpar id = 0102-p1
+# par_text = Турецкий парламент разрешил Эрдогану отправить военных в Азербайджан
+# sent_id = 0102-p1-s1
+# text = Турецкий парламент разрешил Эрдогану отправить военных в Азербайджан
+1	Турецкий	_	_	_	_	_	_	_	bratA1=T1:Adjective|bratT1=GPE|bratT2=Organization
+2	парламент	_	_	_	_	_	_	_	bratT2=Organization
+3	разрешил	_	_	_	_	_	_	_	_
+4	Эрдогану	_	_	_	_	_	_	_	bratA2=T4:Male|bratT3=Person-surname|bratT4=Person
+5	отправить	_	_	_	_	_	_	_	_
+6	военных	_	_	_	_	_	_	_	bratT5=Person-property
+7	в	_	_	_	_	_	_	_	_
+8	Азербайджан	_	_	_	_	_	_	_	bratT6=GPE
+
+# newpar id = 0102-p2
+# par_text = Предложение главы государства поддержали депутаты правящей Партии справедливости и развития, а также Народно-республиканской партии, «Хорошей партии» и Партии националистического единства.
+# sent_id = 0102-p2-s1
+# text = Предложение главы государства поддержали депутаты правящей Партии справедливости и развития, а также Народно-республиканской партии, ``Хорошей партии'' и Партии националистического единства.
+1	Предложение	_	_	_	_	_	_	_	_
+2	главы	_	_	_	_	_	_	_	bratT7=Person-property
+3	государства	_	_	_	_	_	_	_	bratT62=GPE|bratT7=Person-property
+4	поддержали	_	_	_	_	_	_	_	_
+5	депутаты	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property
+6	правящей	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property|bratT8=Organization
+7	Партии	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property|bratT8=Organization
+8	справедливости	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property|bratT8=Organization
+9	и	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property|bratT8=Organization
+10	развития	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Plural|bratT12=Person-property|bratT8=Organization
+11	,	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property
+12	а	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property
+13	также	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property
+14	Народно-республиканской	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property|bratT9=Organization
+15	партии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Plural|bratT12=Person-property|bratT9=Organization
+16	,	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Plural|bratT10=Organization|bratT12=Person-property
+18	Хорошей	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT10=Organization|bratT12=Person-property
+19	партии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Plural|bratT10=Organization|bratT12=Person-property
+20	''	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT10=Organization|bratT12=Person-property
+21	и	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property
+22	Партии	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT11=Organization|bratT12=Person-property
+23	националистического	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT11=Organization|bratT12=Person-property
+24	единства	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Plural|bratT11=Organization|bratT12=Person-property
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0102-p3
+# par_text = Проект меморандума об отправке турецких вооруженных сил на территорию Азербайджана был вынесен на рассмотрение 16 ноября. Согласно документу военные в течение одного года будут следить за соблюдением режима прекращения огня между Баку и Ереваном.
+# sent_id = 0102-p3-s1
+# text = Проект меморандума об отправке турецких вооруженных сил на территорию Азербайджана был вынесен на рассмотрение 16 ноября.
+1	Проект	_	_	_	_	_	_	_	_
+2	меморандума	_	_	_	_	_	_	_	_
+3	об	_	_	_	_	_	_	_	_
+4	отправке	_	_	_	_	_	_	_	_
+5	турецких	_	_	_	_	_	_	_	bratA4=T14:Adjective|bratT13=Organization|bratT14=GPE
+6	вооруженных	_	_	_	_	_	_	_	bratT13=Organization
+7	сил	_	_	_	_	_	_	_	bratT13=Organization
+8	на	_	_	_	_	_	_	_	_
+9	территорию	_	_	_	_	_	_	_	bratT15=GPE
+10	Азербайджана	_	_	_	_	_	_	_	bratT15=GPE
+11	был	_	_	_	_	_	_	_	_
+12	вынесен	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	рассмотрение	_	_	_	_	_	_	_	_
+15	16	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-absolute
+16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Past|bratT16=Date-absolute
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0102-p3-s2
+# text = Согласно документу военные в течение одного года будут следить за соблюдением режима прекращения огня между Баку и Ереваном.
+1	Согласно	_	_	_	_	_	_	_	_
+2	документу	_	_	_	_	_	_	_	_
+3	военные	_	_	_	_	_	_	_	bratT17=Person-property
+4	в	_	_	_	_	_	_	_	bratA6=T18:Pres-Fut|bratT18=Date-period-absolute
+5	течение	_	_	_	_	_	_	_	bratA6=T18:Pres-Fut|bratT18=Date-period-absolute
+6	одного	_	_	_	_	_	_	_	bratA6=T18:Pres-Fut|bratT18=Date-period-absolute|bratT19=Duration
+7	года	_	_	_	_	_	_	_	bratA6=T18:Pres-Fut|bratT18=Date-period-absolute|bratT19=Duration
+8	будут	_	_	_	_	_	_	_	_
+9	следить	_	_	_	_	_	_	_	_
+10	за	_	_	_	_	_	_	_	_
+11	соблюдением	_	_	_	_	_	_	_	_
+12	режима	_	_	_	_	_	_	_	_
+13	прекращения	_	_	_	_	_	_	_	_
+14	огня	_	_	_	_	_	_	_	_
+15	между	_	_	_	_	_	_	_	_
+16	Баку	_	_	_	_	_	_	_	bratT20=GPE
+17	и	_	_	_	_	_	_	_	_
+18	Ереваном	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0102-p4
+# par_text = Власти подчеркнули, что отправка военных в зону конфликта соответствует национальным интересам Турции.
+# sent_id = 0102-p4-s1
+# text = Власти подчеркнули, что отправка военных в зону конфликта соответствует национальным интересам Турции.
+1	Власти	_	_	_	_	_	_	_	bratT61=Organization
+2	подчеркнули	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	отправка	_	_	_	_	_	_	_	_
+6	военных	_	_	_	_	_	_	_	bratT22=Person-property
+7	в	_	_	_	_	_	_	_	_
+8	зону	_	_	_	_	_	_	_	_
+9	конфликта	_	_	_	_	_	_	_	_
+10	соответствует	_	_	_	_	_	_	_	_
+11	национальным	_	_	_	_	_	_	_	_
+12	интересам	_	_	_	_	_	_	_	_
+13	Турции	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0102-p5
+# par_text = При этом, по словам министра иностранных дел России Сергея Лаврова, турецкие миротворцы не будут выезжать на территорию Нагорного Карабаха. Он пояснил, что Турция будет наблюдать за происходящим исключительно на территории Азербайджана.
+# sent_id = 0102-p5-s1
+# text = При этом, по словам министра иностранных дел России Сергея Лаврова, турецкие миротворцы не будут выезжать на территорию Нагорного Карабаха.
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	словам	_	_	_	_	_	_	_	_
+6	министра	_	_	_	_	_	_	_	bratA7=T28:Male|bratT27=Person-property|bratT28=Person
+7	иностранных	_	_	_	_	_	_	_	bratA7=T28:Male|bratT27=Person-property|bratT28=Person
+8	дел	_	_	_	_	_	_	_	bratA7=T28:Male|bratT27=Person-property|bratT28=Person
+9	России	_	_	_	_	_	_	_	bratA7=T28:Male|bratT24=GPE|bratT27=Person-property|bratT28=Person
+10	Сергея	_	_	_	_	_	_	_	bratA7=T28:Male|bratT25=Person-forename|bratT28=Person
+11	Лаврова	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Male|bratT26=Person-surname|bratT28=Person
+12	,	_	_	_	_	_	_	_	_
+13	турецкие	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT29=GPE|bratT30=Person-property
+14	миротворцы	_	_	_	_	_	_	_	bratT30=Person-property
+15	не	_	_	_	_	_	_	_	_
+16	будут	_	_	_	_	_	_	_	_
+17	выезжать	_	_	_	_	_	_	_	_
+18	на	_	_	_	_	_	_	_	_
+19	территорию	_	_	_	_	_	_	_	bratT31=GPE
+20	Нагорного	_	_	_	_	_	_	_	bratT31=GPE
+21	Карабаха	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0102-p5-s2
+# text = Он пояснил, что Турция будет наблюдать за происходящим исключительно на территории Азербайджана.
+1	Он	_	_	_	_	_	_	_	_
+2	пояснил	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	Турция	_	_	_	_	_	_	_	bratT32=GPE
+6	будет	_	_	_	_	_	_	_	_
+7	наблюдать	_	_	_	_	_	_	_	_
+8	за	_	_	_	_	_	_	_	_
+9	происходящим	_	_	_	_	_	_	_	_
+10	исключительно	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	территории	_	_	_	_	_	_	_	bratT33=GPE
+13	Азербайджана	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0102-p6
+# par_text = Впервые об участии турецких наблюдателей в урегулировании конфликта между Баку и Ереваном заговорил президент Азербайджана Ильхам Алиев. Сразу после подписания соглашения о прекращении военных действий он заявил, что у России и Турции будет совместная миротворческая миссия в Нагорном Карабахе.
+# sent_id = 0102-p6-s1
+# text = Впервые об участии турецких наблюдателей в урегулировании конфликта между Баку и Ереваном заговорил президент Азербайджана Ильхам Алиев.
+1	Впервые	_	_	_	_	_	_	_	_
+2	об	_	_	_	_	_	_	_	_
+3	участии	_	_	_	_	_	_	_	_
+4	турецких	_	_	_	_	_	_	_	bratA9=T34:Adjective|bratT34=GPE|bratT35=Person-property
+5	наблюдателей	_	_	_	_	_	_	_	bratT35=Person-property
+6	в	_	_	_	_	_	_	_	_
+7	урегулировании	_	_	_	_	_	_	_	_
+8	конфликта	_	_	_	_	_	_	_	_
+9	между	_	_	_	_	_	_	_	_
+10	Баку	_	_	_	_	_	_	_	bratT36=GPE
+11	и	_	_	_	_	_	_	_	_
+12	Ереваном	_	_	_	_	_	_	_	bratT37=GPE
+13	заговорил	_	_	_	_	_	_	_	_
+14	президент	_	_	_	_	_	_	_	bratA10=T42:Male|bratT41=Person-property|bratT42=Person
+15	Азербайджана	_	_	_	_	_	_	_	bratA10=T42:Male|bratT38=GPE|bratT41=Person-property|bratT42=Person
+16	Ильхам	_	_	_	_	_	_	_	bratA10=T42:Male|bratT39=Person-forename|bratT42=Person
+17	Алиев	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T42:Male|bratT40=Person-surname|bratT42=Person
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0102-p6-s2
+# text = Сразу после подписания соглашения о прекращении военных действий он заявил, что у России и Турции будет совместная миротворческая миссия в Нагорном Карабахе.
+1	Сразу	_	_	_	_	_	_	_	bratA11=T43:Past|bratT43=Date-absolute
+2	после	_	_	_	_	_	_	_	bratA11=T43:Past|bratT43=Date-absolute
+3	подписания	_	_	_	_	_	_	_	bratA11=T43:Past|bratT43=Date-absolute|bratT59=Event
+4	соглашения	_	_	_	_	_	_	_	bratT59=Event
+5	о	_	_	_	_	_	_	_	_
+6	прекращении	_	_	_	_	_	_	_	_
+7	военных	_	_	_	_	_	_	_	_
+8	действий	_	_	_	_	_	_	_	_
+9	он	_	_	_	_	_	_	_	_
+10	заявил	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	что	_	_	_	_	_	_	_	_
+13	у	_	_	_	_	_	_	_	_
+14	России	_	_	_	_	_	_	_	bratT44=GPE
+15	и	_	_	_	_	_	_	_	_
+16	Турции	_	_	_	_	_	_	_	bratT45=GPE
+17	будет	_	_	_	_	_	_	_	_
+18	совместная	_	_	_	_	_	_	_	_
+19	миротворческая	_	_	_	_	_	_	_	_
+20	миссия	_	_	_	_	_	_	_	_
+21	в	_	_	_	_	_	_	_	_
+22	Нагорном	_	_	_	_	_	_	_	bratT46=GPE
+23	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=GPE
+24	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0102-p7
+# par_text = Тогда пресс-секретарь президента России Дмитрий Песков опроверг его слова и сообщил, что в подписанном главами Армении, Азербайджана и России договоре не говорится о турецких миротворцах.
+# sent_id = 0102-p7-s1
+# text = Тогда пресс-секретарь президента России Дмитрий Песков опроверг его слова и сообщил, что в подписанном главами Армении, Азербайджана и России договоре не говорится о турецких миротворцах.
+1	Тогда	_	_	_	_	_	_	_	bratA15=T60:Past|bratT60=Date-relative
+2	пресс-секретарь	_	_	_	_	_	_	_	bratA12=T52:Male|bratT51=Person-property|bratT52=Person
+3	президента	_	_	_	_	_	_	_	bratA12=T52:Male|bratT50=Person-property|bratT51=Person-property|bratT52=Person
+4	России	_	_	_	_	_	_	_	bratA12=T52:Male|bratT47=GPE|bratT50=Person-property|bratT51=Person-property|bratT52=Person
+5	Дмитрий	_	_	_	_	_	_	_	bratA12=T52:Male|bratT48=Person-forename|bratT52=Person
+6	Песков	_	_	_	_	_	_	_	bratA12=T52:Male|bratT49=Person-surname|bratT52=Person
+7	опроверг	_	_	_	_	_	_	_	_
+8	его	_	_	_	_	_	_	_	_
+9	слова	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	что	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	подписанном	_	_	_	_	_	_	_	_
+16	главами	_	_	_	_	_	_	_	bratA13=T56:Plural|bratT56=Person-property
+17	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T56:Plural|bratT53=GPE|bratT56=Person-property
+18	,	_	_	_	_	_	_	_	bratA13=T56:Plural|bratT56=Person-property
+19	Азербайджана	_	_	_	_	_	_	_	bratA13=T56:Plural|bratT54=GPE|bratT56=Person-property
+20	и	_	_	_	_	_	_	_	bratA13=T56:Plural|bratT56=Person-property
+21	России	_	_	_	_	_	_	_	bratA13=T56:Plural|bratT55=GPE|bratT56=Person-property
+22	договоре	_	_	_	_	_	_	_	_
+23	не	_	_	_	_	_	_	_	_
+24	говорится	_	_	_	_	_	_	_	_
+25	о	_	_	_	_	_	_	_	_
+26	турецких	_	_	_	_	_	_	_	bratA14=T57:Adjective|bratT57=GPE|bratT58=Person-property
+27	миротворцах	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Person-property
+28	.	_	_	_	_	_	_	_	_
+

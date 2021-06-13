@@ -1,0 +1,68 @@
+T1	Person 0 15	Мелания   Трамп
+T2	Family 31 38	матерей
+T3	Person-property 41 48	военных
+T4	Date-absolute 50 58	12   мая
+T5	GPE 65 68	США
+T6	Person 177 231	первая   леди   Соединенных   Штатов   Мелания   Трамп
+T7	Person-property 177 213	первая   леди   Соединенных   Штатов
+T8	GPE 193 213	Соединенных   Штатов
+T9	Ordinal 177 183	первая
+T10	Age 279 288	13-летним
+T11	Person 291 299	Бэрроном
+T12	Person-property 329 339	президента
+T13	Family 322 326	жена
+T14	Family 384 391	матерей
+T15	Facility 420 452	Восточном   зале   Белого   дома
+T16	Person 457 486	Дональд   и   Мелания   Трамп
+A1	Plural T16
+T17	Family 669 675	матери
+T18	Person-property 678 685	военных
+T19	Person 762 769	Мелания
+T20	Ordinal 990 995	45-го
+T21	Person-property 990 1014	45-го   президента   США
+T22	Product 1041 1055	платье   Prada
+T23	Family 980 987	супруга
+T24	GPE 1011 1014	США
+T25	Family 267 272	сыном
+T26	Person-forename 0 7	Мелания
+T27	Person-surname 10 15	Трамп
+A2	Female T1
+T28	Family 113 119	матери
+A3	Female T6
+T29	Person-forename 216 223	Мелания
+T30	Person-surname 226 231	Трамп
+A4	Male T11
+T31	Person-forename 291 299	Бэрроном
+T32	Person-forename 457 464	Дональд
+T33	Person-forename 471 478	Мелания
+T34	Person-surname 481 486	Трамп
+A5	Female T19
+T35	Person-forename 762 769	Мелания
+T36	Event 106 119	День   матери
+T37	Date-absolute 311 319	накануне
+A7	Past T37
+T38	Person 322 339	жена   президента
+A8	Female T38
+T39	Facility 439 452	Белого   дома
+T40	Person 457 464	Дональд
+A9	Male T40
+T41	Person 471 486	Мелания   Трамп
+A10	Female T41
+T42	Family 752 757	детей
+T43	Person 980 1014	супруга   45-го   президента   США
+A11	Female T43
+T45	Date-relative 1162 1167	ранее
+A13	Past T45
+T46	Person 259 272	своим   сыном
+A14	Male T46
+T47	Date-absolute 394 413	во   время   приема
+A15	Past T47
+T48	Event 407 413	приема
+T49	Date-period-relative 163 174	этот   день
+A16	Fut T49
+T50	Duration 170 174	день
+T51	Ordinal 163 167	этот
+T52	Family 646 652	матери
+T54	GPE 933 937	мире
+A6	Future T4
+T44	GPE 920 926	страны

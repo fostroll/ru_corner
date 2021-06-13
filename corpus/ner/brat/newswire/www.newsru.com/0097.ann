@@ -1,0 +1,111 @@
+T1	Person 0 6	Байден
+T2	Organization 72 101	будущей   администрации   США
+T3	GPE 98 101	США
+T4	Person 129 144	Джозеф   Байден
+T5	Organization 204 233	будущей   администрации   США
+T6	GPE 230 233	США
+T7	Organization 285 289	ТАСС
+A1	Media T7
+T8	Organization 336 354	телекомпании   ABC
+A2	Media T8
+T9	Person 357 368	Рон   Клайн
+T10	Person 389 397	Байденом
+T11	Person-property 405 470	должность   руководителя   аппарата   сотрудников   Белого   дома
+T12	Organization 457 470	Белого   дома
+T13	Organization 432 470	аппарата   сотрудников   Белого   дома
+A3	Department T13
+T14	Person 581 586	Клайн
+T15	Person-property 753 774	избранный   президент
+T16	Person-property 934 982	руководителем   аппарата   вице-президента   США
+T17	Person 920 925	Клайн
+T18	Person-property 995 1005	советником
+T19	Date-period-absolute 1008 1034	с   2009   по   2011   год
+T20	Organization 950 982	аппарата   вице-президента   США
+T21	Person-property 961 982	вице-президента   США
+T22	GPE 979 982	США
+T23	Organization 1067 1110	администрации   президента   Барака   Обамы
+T24	Person 1083 1110	президента   Барака   Обамы
+T25	Person-property 1083 1093	президента
+T26	Person 1123 1129	Байден
+T27	Date-period-absolute 1148 1174	с   1995   по   1999   год
+T28	Person-property 1189 1205	вице-президентом
+T29	Organization 1212 1244	администрации   Билла   Клинтона
+T30	Person 1228 1244	Билла   Клинтона
+T31	Person 1253 1266	Альберт   Гор
+T32	Date-absolute 236 247	24   ноября
+T33	Person 1272 1331	Советник   переходной   команды   демократов   Джен   Псаки
+T34	Person-property 1272 1316	Советник   переходной   команды   демократов
+T35	Political-group 1306 1316	демократов
+T36	Organization 1376 1406	пресс-службу   Госдепартамента
+A4	Department T36
+T37	Organization 1391 1406	Госдепартамента
+T38	Organization 1493 1511	телекомпании   CNN
+A5	Media T38
+T39	Event 1615 1632	Всеобщие   выборы
+T40	Date-absolute 1654 1664	3   ноября
+T41	GPE 1639 1642	США
+T42	Person 1725 1731	Байден
+T44	Person 1849 1902	действующим   президентом   США   Дональдом   Трампом
+T45	Person-property 1849 1880	действующим   президентом   США
+T46	GPE 1877 1880	США
+T47	Person-property 1923 1949	пост   главы   государства
+T48	Ordinal 481 487	Первые
+T49	Date-period-absolute 1575 1609	в   течение   наступающей   недели
+T43	Quantity 1759 1783	более   270   выборщиков
+T50	Person 1530 1535	Псаки
+T51	Date-absolute 104 127	в   ближайший   вторник
+T52	Date-absolute 306 321	в   воскресенье
+T53	Date-absolute 538 550	во   вторник
+T54	Date-absolute 777 789	во   вторник
+A6	Male T1
+T55	Person-surname 0 6	Байден
+T56	Ordinal 108 117	ближайший
+A7	Male T4
+T57	Person-forename 129 135	Джозеф
+T58	Person-surname 138 144	Байден
+A8	Future T32
+A9	Future T51
+A10	Past T52
+A11	Male T9
+T59	Person-forename 357 360	Рон
+T60	Person-surname 363 368	Клайн
+T61	Person-surname 389 397	Байденом
+A12	Male T10
+A13	Male T14
+T62	Person-surname 581 586	Клайн
+A14	Future T54
+A15	Future T53
+A16	Male T17
+T63	Person-surname 920 925	Клайн
+A17	Past T19
+T64	Person-forename 1096 1102	Барака
+T65	Person-surname 1105 1110	Обамы
+A18	Male T24
+T66	Person-surname 1123 1129	Байден
+A19	Male T26
+A20	Past T27
+T67	Person-forename 1228 1233	Билла
+T68	Person-surname 1236 1244	Клинтона
+A21	Male T30
+T69	Person-forename 1253 1260	Альберт
+T70	Person-surname 1263 1266	Гор
+A22	Male T31
+T71	Person-forename 1319 1323	Джен
+T72	Person-surname 1326 1331	Псаки
+A23	Female T33
+A24	Fut T49
+A25	Past T40
+A26	Female T50
+T73	Person-surname 1530 1535	Псаки
+T74	Person-surname 1725 1731	Байден
+A27	Male T42
+T75	Person-forename 1883 1892	Дональдом
+T76	Person-surname 1895 1902	Трампом
+A28	Male T44
+T77	GPE 1700 1712	американских
+A29	Adjective T77
+T78	Ordinal 1589 1600	наступающей
+T79	Date-period-absolute 1348 1359	в   прошлом
+A30	Past T79
+T80	GPE 1938 1949	государства
+T81	Person-property 1056 1060	пост

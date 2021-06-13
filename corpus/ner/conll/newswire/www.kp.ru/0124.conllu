@@ -62,19 +62,22 @@
 11	представители	_	_	_	_	_	_	_	bratT5=Person-property
 12	ООО	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
-14	Лукойл-Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
-15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
-16	,	_	_	_	_	_	_	_	_
-17	одним	_	_	_	_	_	_	_	bratT6=Quantity
-18	из	_	_	_	_	_	_	_	bratT6=Quantity
-19	производственных	_	_	_	_	_	_	_	_
-20	подразделений	_	_	_	_	_	_	_	_
-21	которого	_	_	_	_	_	_	_	_
-22	является	_	_	_	_	_	_	_	_
-23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
-24	Яреганефть	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
-25	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
-26	.	_	_	_	_	_	_	_	_
+14-16	Лукойл-Коми	_	_	_	_	_	_	_	SpaceAfter=No
+14	Лукойл	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
+16	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=GPE|bratT4=Organization|bratT5=Person-property
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
+18	,	_	_	_	_	_	_	_	_
+19	одним	_	_	_	_	_	_	_	bratT6=Quantity
+20	из	_	_	_	_	_	_	_	bratT6=Quantity
+21	производственных	_	_	_	_	_	_	_	_
+22	подразделений	_	_	_	_	_	_	_	_
+23	которого	_	_	_	_	_	_	_	_
+24	является	_	_	_	_	_	_	_	_
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+26	Яреганефть	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+27	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p3
 # par_text = - По предварительной информации, причиной возгорания послужило короткое замыкание в пусковом устройстве, принадлежащем подрядной организации - ООО «Нефтегазмаш» (НГМ) при проведении ее сотрудниками буровых работ (строительстве скважин уклонного блока 3Т-4).
@@ -116,9 +119,13 @@
 34	скважин	_	_	_	_	_	_	_	_
 35	уклонного	_	_	_	_	_	_	_	bratT10=Facility
 36	блока	_	_	_	_	_	_	_	bratT10=Facility
-37	3Т-4	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
-38	)	_	_	_	_	_	_	_	SpaceAfter=No
-39	.	_	_	_	_	_	_	_	_
+37-40	3Т-4	_	_	_	_	_	_	_	SpaceAfter=No
+37	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
+38	Т	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
+39	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
+40	4	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility|bratT36=Cardinal
+41	)	_	_	_	_	_	_	_	SpaceAfter=No
+42	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p4
 # par_text = Работники ООО «НГМ» попытались самостоятельно ликвидировать возгорание, но после неудачной попытки они передали информацию заказчику - в НШПП «Яреганефть». Руководство предприятия приняло решение о незамедлительной эвакуации всех людей из нефтешахты и реализации дальнейших оперативных мер, предусмотренных в Компании в чрезвычайных ситуациях., - говорится в сообщении компании.
@@ -152,8 +159,8 @@
 
 # sent_id = 0124-p4-s2
 # text = Руководство предприятия приняло решение о незамедлительной эвакуации всех людей из нефтешахты и реализации дальнейших оперативных мер, предусмотренных в Компании в чрезвычайных ситуациях., - говорится в сообщении компании.
-1	Руководство	_	_	_	_	_	_	_	bratT14=Person-property
-2	предприятия	_	_	_	_	_	_	_	bratT14=Person-property
+1	Руководство	_	_	_	_	_	_	_	bratA6=T14:Department|bratT14=Organization
+2	предприятия	_	_	_	_	_	_	_	bratA6=T14:Department|bratT14=Organization
 3	приняло	_	_	_	_	_	_	_	_
 4	решение	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
@@ -200,10 +207,12 @@
 10	блоке	_	_	_	_	_	_	_	bratT34=Event|bratT35=Facility
 11	нефтяной	_	_	_	_	_	_	_	bratT18=Facility|bratT34=Event|bratT35=Facility
 12	шахты	_	_	_	_	_	_	_	bratT18=Facility|bratT34=Event|bratT35=Facility
-13	№3	_	_	_	_	_	_	_	bratT17=Ordinal|bratT18=Facility|bratT34=Event|bratT35=Facility
-14	в	_	_	_	_	_	_	_	_
-15	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
-16	.	_	_	_	_	_	_	_	_
+13-14	№3	_	_	_	_	_	_	_	_
+13	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Ordinal|bratT18=Facility|bratT34=Event|bratT35=Facility
+14	3	_	_	_	_	_	_	_	bratT17=Ordinal|bratT18=Facility|bratT34=Event|bratT35=Facility
+15	в	_	_	_	_	_	_	_	_
+16	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
+17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p5-s2
 # text = В момент ЧП на аварийном участке находились 82 горняка.
@@ -250,7 +259,7 @@
 # text = Следственный комитет региона организовал по факту пожара доследственную проверку.
 1	Следственный	_	_	_	_	_	_	_	bratT24=Organization
 2	комитет	_	_	_	_	_	_	_	bratT24=Organization
-3	региона	_	_	_	_	_	_	_	bratT24=Organization
+3	региона	_	_	_	_	_	_	_	bratT24=Organization|bratT27=GPE
 4	организовал	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
 6	факту	_	_	_	_	_	_	_	_

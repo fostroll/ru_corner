@@ -1,0 +1,186 @@
+# newdoc id = 0009
+# newpar id = 0009-p1
+# par_text = Россияне выбрали любимые фильмы от "Мосфильма": первую тройку заняли комедии Гайдая
+# sent_id = 0009-p1-s1
+# text = Россияне выбрали любимые фильмы от ``Мосфильма'': первую тройку заняли комедии Гайдая
+1	Россияне	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
+2	выбрали	_	_	_	_	_	_	_	_
+3	любимые	_	_	_	_	_	_	_	_
+4	фильмы	_	_	_	_	_	_	_	_
+5	от	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+7	Мосфильма	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+9	:	_	_	_	_	_	_	_	_
+10	первую	_	_	_	_	_	_	_	bratT3=Ordinal
+11	тройку	_	_	_	_	_	_	_	bratT25=Quantity
+12	заняли	_	_	_	_	_	_	_	_
+13	комедии	_	_	_	_	_	_	_	_
+14	Гайдая	_	_	_	_	_	_	_	bratA4=T4:Male|bratT28=Person-surname|bratT4=Person
+
+# newpar id = 0009-p2
+# par_text = Комедия "Кавказская пленница, или Новые приключения Шурика" возглавила рейтинг любимых россиянами фильмов киностудии "Мосфильм". За нее отдали голоса 69% опрошенных.
+# sent_id = 0009-p2-s1
+# text = Комедия ``Кавказская пленница, или Новые приключения Шурика'' возглавила рейтинг любимых россиянами фильмов киностудии ``Мосфильм''.
+1	Комедия	_	_	_	_	_	_	_	bratT5=Work-of-art
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art
+3	Кавказская	_	_	_	_	_	_	_	bratA5=T29:Adjective|bratT29=Location|bratT5=Work-of-art
+4	пленница	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art
+5	,	_	_	_	_	_	_	_	bratT5=Work-of-art
+6	или	_	_	_	_	_	_	_	bratT5=Work-of-art
+7	Новые	_	_	_	_	_	_	_	bratT5=Work-of-art
+8	приключения	_	_	_	_	_	_	_	bratT5=Work-of-art
+9	Шурика	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T30:Fiction|bratA7=T30:Male|bratT30=Person|bratT31=Person-forename|bratT5=Work-of-art
+10	''	_	_	_	_	_	_	_	bratT5=Work-of-art
+11	возглавила	_	_	_	_	_	_	_	_
+12	рейтинг	_	_	_	_	_	_	_	_
+13	любимых	_	_	_	_	_	_	_	_
+14	россиянами	_	_	_	_	_	_	_	bratA3=T23:Citizenship|bratT23=Nationality
+15	фильмов	_	_	_	_	_	_	_	_
+16	киностудии	_	_	_	_	_	_	_	bratT6=Organization
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+18	Мосфильм	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0009-p2-s2
+# text = За нее отдали голоса 69% опрошенных.
+1	За	_	_	_	_	_	_	_	_
+2	нее	_	_	_	_	_	_	_	_
+3	отдали	_	_	_	_	_	_	_	_
+4	голоса	_	_	_	_	_	_	_	_
+5-6	69%	_	_	_	_	_	_	_	_
+5	69	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Percent
+6	%	_	_	_	_	_	_	_	bratT7=Percent
+7	опрошенных	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0009-p3
+# par_text = В тройку лидеров также вошли фильмы "Иван Васильевич меняет профессию", который набрал 64% голосов, и "Бриллиантовая рука" (61%), сообщает РИА "Новости".
+# sent_id = 0009-p3-s1
+# text = В тройку лидеров также вошли фильмы ``Иван Васильевич меняет профессию'', который набрал 64% голосов, и ``Бриллиантовая рука'' (61%), сообщает РИА ``Новости''.
+1	В	_	_	_	_	_	_	_	_
+2	тройку	_	_	_	_	_	_	_	bratT26=Quantity
+3	лидеров	_	_	_	_	_	_	_	bratT26=Quantity
+4	также	_	_	_	_	_	_	_	_
+5	вошли	_	_	_	_	_	_	_	_
+6	фильмы	_	_	_	_	_	_	_	_
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Work-of-art
+8	Иван	_	_	_	_	_	_	_	bratT32=Person|bratT33=Person-forename|bratT8=Work-of-art
+9	Васильевич	_	_	_	_	_	_	_	bratT32=Person|bratT34=Person-surname|bratT8=Work-of-art
+10	меняет	_	_	_	_	_	_	_	bratT8=Work-of-art
+11	профессию	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Work-of-art
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Work-of-art
+13	,	_	_	_	_	_	_	_	_
+14	который	_	_	_	_	_	_	_	_
+15	набрал	_	_	_	_	_	_	_	_
+16-17	64%	_	_	_	_	_	_	_	_
+16	64	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Percent
+17	%	_	_	_	_	_	_	_	bratT9=Percent
+18	голосов	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	и	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art
+22	Бриллиантовая	_	_	_	_	_	_	_	bratT10=Work-of-art
+23	рука	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art
+24	''	_	_	_	_	_	_	_	bratT10=Work-of-art
+25	(	_	_	_	_	_	_	_	SpaceAfter=No
+26-27	61%	_	_	_	_	_	_	_	SpaceAfter=No
+26	61	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Percent
+27	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Percent
+28	)	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	_	_	_	_	_	_	_	_
+30	сообщает	_	_	_	_	_	_	_	_
+31	РИА	_	_	_	_	_	_	_	bratA2=T12:Media|bratT12=Organization
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
+33	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
+34	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
+35	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0009-p4
+# par_text = Также в топ-10 попали "Ирония судьбы, или С легким паром", "Двенадцать стульев", "Джентльмены удачи", "Москва слезам не верит", "Операция "Ы" и другие приключения Шурика", "Любовь и голуби" и "Девчата".
+# sent_id = 0009-p4-s1
+# text = Также в топ-10 попали ``Ирония судьбы, или С легким паром'', ``Двенадцать стульев'', ``Джентльмены удачи'', ``Москва слезам не верит'', ``Операция ``Ы'' и другие приключения Шурика'', ``Любовь и голуби'' и ``Девчата''.
+1	Также	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	топ-10	_	_	_	_	_	_	_	bratT27=Quantity
+4	попали	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+6	Ирония	_	_	_	_	_	_	_	bratT13=Work-of-art
+7	судьбы	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+8	,	_	_	_	_	_	_	_	bratT13=Work-of-art
+9	или	_	_	_	_	_	_	_	bratT13=Work-of-art
+10	С	_	_	_	_	_	_	_	bratT13=Work-of-art
+11	легким	_	_	_	_	_	_	_	bratT13=Work-of-art
+12	паром	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+14	,	_	_	_	_	_	_	_	_
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Work-of-art
+16	Двенадцать	_	_	_	_	_	_	_	bratT14=Work-of-art|bratT35=Quantity
+17	стульев	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Work-of-art|bratT35=Quantity
+18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Work-of-art
+19	,	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
+21	Джентльмены	_	_	_	_	_	_	_	bratT15=Work-of-art
+22	удачи	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
+24	,	_	_	_	_	_	_	_	_
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Work-of-art
+26	Москва	_	_	_	_	_	_	_	bratT16=Work-of-art|bratT36=GPE
+27	слезам	_	_	_	_	_	_	_	bratT16=Work-of-art
+28	не	_	_	_	_	_	_	_	bratT16=Work-of-art
+29	верит	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Work-of-art
+30	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Work-of-art
+31	,	_	_	_	_	_	_	_	_
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Work-of-art
+33	Операция	_	_	_	_	_	_	_	bratT17=Work-of-art
+34	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Work-of-art
+35	Ы	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Work-of-art
+36	''	_	_	_	_	_	_	_	bratT17=Work-of-art
+37	и	_	_	_	_	_	_	_	bratT17=Work-of-art
+38	другие	_	_	_	_	_	_	_	bratT17=Work-of-art
+39	приключения	_	_	_	_	_	_	_	bratT17=Work-of-art
+40	Шурика	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T37:Fiction|bratA9=T37:Male|bratT17=Work-of-art|bratT37=Person|bratT38=Person-forename
+41	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Work-of-art
+42	,	_	_	_	_	_	_	_	_
+43	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art
+44	Любовь	_	_	_	_	_	_	_	bratT18=Work-of-art
+45	и	_	_	_	_	_	_	_	bratT18=Work-of-art
+46	голуби	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art
+47	''	_	_	_	_	_	_	_	bratT18=Work-of-art
+48	и	_	_	_	_	_	_	_	_
+49	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
+50	Девчата	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
+51	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
+52	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0009-p5
+# par_text = А одним из любимых в народе кинокомедиографов по праву считается Леонид Гайдай - сразу пять его работ попали в список "самых любимых".
+# sent_id = 0009-p5-s1
+# text = А одним из любимых в народе кинокомедиографов по праву считается Леонид Гайдай - сразу пять его работ попали в список ``самых любимых''.
+1	А	_	_	_	_	_	_	_	_
+2	одним	_	_	_	_	_	_	_	bratT20=Quantity
+3	из	_	_	_	_	_	_	_	bratT20=Quantity
+4	любимых	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	народе	_	_	_	_	_	_	_	bratA11=T41:Citizenship|bratT41=Nationality
+7	кинокомедиографов	_	_	_	_	_	_	_	bratT21=Person-property
+8	по	_	_	_	_	_	_	_	_
+9	праву	_	_	_	_	_	_	_	_
+10	считается	_	_	_	_	_	_	_	_
+11	Леонид	_	_	_	_	_	_	_	bratA10=T22:Male|bratT22=Person|bratT39=Person-forename
+12	Гайдай	_	_	_	_	_	_	_	bratA10=T22:Male|bratT22=Person|bratT40=Person-surname
+13	-	_	_	_	_	_	_	_	_
+14	сразу	_	_	_	_	_	_	_	_
+15	пять	_	_	_	_	_	_	_	bratT24=Quantity
+16	его	_	_	_	_	_	_	_	bratT24=Quantity
+17	работ	_	_	_	_	_	_	_	bratT24=Quantity
+18	попали	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	список	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No
+22	самых	_	_	_	_	_	_	_	_
+23	любимых	_	_	_	_	_	_	_	SpaceAfter=No
+24	''	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+

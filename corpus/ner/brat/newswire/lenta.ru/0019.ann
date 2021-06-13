@@ -4,28 +4,28 @@ T3	Person-property 92 146	российского   бойца   смешанно
 T4	Person 92 171	российского   бойца   смешанного   стиля   (   MMA   )   Хабиба   Нурмагомедова
 T5	Person 85 199	Дядя   российского   бойца   смешанного   стиля   (   MMA   )   Хабиба   Нурмагомедова   Нурмагомед   Нурмагомедов
 T6	GPE 248 258	Челябинске
-T7	Organization 349 356	Sport24
-T8	Person 434 446	Нурмагомедов
+T7	Organization 349 357	Sport 24
+T8	Person 435 447	Нурмагомедов
 T10	Family 85 89	Дядя
-T11	Family 714 725	родственник
-T12	Person-property 505 532	отечественному   спортсмену
-T13	Person-property 624 633	спортсмен
-T14	Date-absolute 739 758	Ранее   16   ноября
-T15	Person 820 833	Нурмагомедова
-T16	GPE 840 850	Челябинске
-T17	Person 984 996	Нурмагомедов
-T18	Organization 1034 1070	Абсолютном   бойцовском   чемпионате
-T19	Quantity 1188 1198	29   побед
-T20	Quantity 1205 1219	29   поединках
-T9	Person-property 544 558	Героя   России
-T22	Organization 1077 1080	UFC
+T11	Family 715 726	родственник
+T12	Person-property 506 533	отечественному   спортсмену
+T13	Person-property 625 634	спортсмен
+T14	Date-absolute 740 759	Ранее   16   ноября
+T15	Person 821 834	Нурмагомедова
+T16	GPE 841 851	Челябинске
+T17	Person 985 997	Нурмагомедов
+T18	Event 1035 1071	Абсолютном   бойцовском   чемпионате
+T19	Quantity 1189 1199	29   побед
+T20	Quantity 1206 1220	29   поединках
+T9	Person-property 545 559	Героя   России
+T22	Event 1078 1081	UFC
 A1	Media T7
-T23	Person-property 728 733	бойца
-T25	Quantity 1094 1100	трижды
+T23	Person-property 729 734	бойца
+T25	Quantity 1095 1101	трижды
 T21	Person 0 20	Дядя   Нурмагомедова
 T24	Other-term 139 142	MMA
 A2	Past T14
-T26	Date-relative 739 744	Ранее
+T26	Date-relative 740 745	Ранее
 A3	Past T26
 T27	GPE 92 103	российского
 T28	Person-surname 7 20	Нурмагомедова
@@ -33,9 +33,9 @@ T29	Person-forename 149 155	Хабиба
 T30	Person-surname 158 171	Нурмагомедова
 T31	Person-forename 174 184	Нурмагомед
 T32	Person-surname 187 199	Нурмагомедов
-T33	Person-surname 434 446	Нурмагомедов
-T34	Person-surname 820 833	Нурмагомедова
-T35	Person-surname 984 996	Нурмагомедов
+T33	Person-surname 435 447	Нурмагомедов
+T34	Person-surname 821 834	Нурмагомедова
+T35	Person-surname 985 997	Нурмагомедов
 A4	Male T2
 A5	Male T21
 A6	Male T4
@@ -44,5 +44,27 @@ A8	Adjective T27
 A9	Male T8
 A10	Male T15
 A11	Male T17
-T36	Person 714 733	родственник   бойца
+T36	Person 715 734	родственник   бойца
 A12	Male T36
+T37	Event 43 59	порчу   граффити
+T38	GPE 506 520	отечественному
+T39	Event 1016 1028	выступлениям
+T40	Event 1211 1220	поединках
+T41	Time-period 355 357	24
+T43	Duration 355 357	24
+T42	Person 506 533	отечественному   спортсмену
+A13	Male T42
+T44	Person 729 734	бойца
+A14	Male T44
+T45	Person-property 78 83	бойца
+T46	Person 78 83	бойца
+A15	Male T46
+T47	Person 314 319	бойца
+T48	Person-property 314 319	бойца
+T49	Person 233 241	вандалов
+T50	Event 405 416	случившееся
+T51	Person 873 882	вандалами
+T52	Person 932 937	бойца
+T53	Person-property 932 937	бойца
+T54	Person-property 1121 1143	чемпиона   организации
+A16	Adjective T38

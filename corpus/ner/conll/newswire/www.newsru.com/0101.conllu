@@ -1,0 +1,274 @@
+# newdoc id = 0101
+# newpar id = 0101-p1
+# par_text = Члена президиума Координационного совета Белоруссии Лилию Власову перевели под домашний арест
+# sent_id = 0101-p1-s1
+# text = Члена президиума Координационного совета Белоруссии Лилию Власову перевели под домашний арест
+1	Члена	_	_	_	_	_	_	_	bratA6=T1:Female|bratT1=Person|bratT4=Person-property
+2	президиума	_	_	_	_	_	_	_	bratA1=T2:Department|bratA6=T1:Female|bratT1=Person|bratT2=Organization|bratT4=Person-property
+3	Координационного	_	_	_	_	_	_	_	bratA1=T2:Department|bratA6=T1:Female|bratT1=Person|bratT2=Organization|bratT3=Organization|bratT4=Person-property
+4	совета	_	_	_	_	_	_	_	bratA1=T2:Department|bratA6=T1:Female|bratT1=Person|bratT2=Organization|bratT3=Organization|bratT4=Person-property
+5	Белоруссии	_	_	_	_	_	_	_	bratA1=T2:Department|bratA6=T1:Female|bratT1=Person|bratT2=Organization|bratT3=Organization|bratT4=Person-property|bratT5=GPE
+6	Лилию	_	_	_	_	_	_	_	bratA6=T1:Female|bratT1=Person|bratT52=Person-forename
+7	Власову	_	_	_	_	_	_	_	bratA6=T1:Female|bratT1=Person|bratT53=Person-surname
+8	перевели	_	_	_	_	_	_	_	_
+9	под	_	_	_	_	_	_	_	_
+10	домашний	_	_	_	_	_	_	_	bratT82=Event
+11	арест	_	_	_	_	_	_	_	bratT82=Event
+
+# newpar id = 0101-p2
+# par_text = Члена президиума Координационного совета (КС) белорусской оппозиции, юриста Лилию Власову отпустили из следственного изолятора под домашний арест вслед за несколькими другими участниками встречи с президентом Белоруссии Александром Лукашенко в СИЗО КГБ.
+# sent_id = 0101-p2-s1
+# text = Члена президиума Координационного совета (КС) белорусской оппозиции, юриста Лилию Власову отпустили из следственного изолятора под домашний арест вслед за несколькими другими участниками встречи с президентом Белоруссии Александром Лукашенко в СИЗО КГБ.
+1	Члена	_	_	_	_	_	_	_	bratA7=T6:Female|bratT6=Person|bratT7=Person-property
+2	президиума	_	_	_	_	_	_	_	bratA2=T9:Department|bratA7=T6:Female|bratT6=Person|bratT7=Person-property|bratT9=Organization
+3	Координационного	_	_	_	_	_	_	_	bratA2=T9:Department|bratA7=T6:Female|bratT10=Organization|bratT6=Person|bratT7=Person-property|bratT9=Organization
+4	совета	_	_	_	_	_	_	_	bratA2=T9:Department|bratA7=T6:Female|bratT10=Organization|bratT6=Person|bratT7=Person-property|bratT9=Organization
+5	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Department|bratA7=T6:Female|bratT10=Organization|bratT6=Person|bratT7=Person-property|bratT9=Organization
+6	КС	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Department|bratA7=T6:Female|bratT10=Organization|bratT44=Organization|bratT6=Person|bratT7=Person-property|bratT9=Organization
+7	)	_	_	_	_	_	_	_	bratA2=T9:Department|bratA7=T6:Female|bratT10=Organization|bratT6=Person|bratT7=Person-property|bratT9=Organization
+8	белорусской	_	_	_	_	_	_	_	bratA2=T9:Department|bratA27=T77:Adjective|bratA7=T6:Female|bratT10=Organization|bratT6=Person|bratT7=Person-property|bratT77=GPE|bratT84=Organization|bratT9=Organization
+9	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Department|bratA7=T6:Female|bratT10=Organization|bratT6=Person|bratT7=Person-property|bratT84=Organization|bratT9=Organization
+10	,	_	_	_	_	_	_	_	bratA7=T6:Female|bratT6=Person
+11	юриста	_	_	_	_	_	_	_	bratA7=T6:Female|bratT6=Person|bratT8=Person-property
+12	Лилию	_	_	_	_	_	_	_	bratA7=T6:Female|bratT54=Person-forename|bratT6=Person
+13	Власову	_	_	_	_	_	_	_	bratA7=T6:Female|bratT55=Person-surname|bratT6=Person
+14	отпустили	_	_	_	_	_	_	_	_
+15	из	_	_	_	_	_	_	_	_
+16	следственного	_	_	_	_	_	_	_	_
+17	изолятора	_	_	_	_	_	_	_	_
+18	под	_	_	_	_	_	_	_	_
+19	домашний	_	_	_	_	_	_	_	bratT83=Event
+20	арест	_	_	_	_	_	_	_	bratT83=Event
+21	вслед	_	_	_	_	_	_	_	_
+22	за	_	_	_	_	_	_	_	_
+23	несколькими	_	_	_	_	_	_	_	bratT45=Quantity
+24	другими	_	_	_	_	_	_	_	bratT45=Quantity
+25	участниками	_	_	_	_	_	_	_	bratT45=Quantity
+26	встречи	_	_	_	_	_	_	_	_
+27	с	_	_	_	_	_	_	_	_
+28	президентом	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT12=Person-property
+29	Белоруссии	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT12=Person-property|bratT13=GPE
+30	Александром	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT56=Person-forename
+31	Лукашенко	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT57=Person-surname
+32	в	_	_	_	_	_	_	_	_
+33	СИЗО	_	_	_	_	_	_	_	bratT14=Facility
+34	КГБ	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Facility|bratT15=Organization
+35	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0101-p3
+# par_text = Бизнесмен Юрий Воскресенский, освобожденный после этой встречи одним из первых, рассказал Tut.by, что сам встретил Власову 16 октября и отвез ее домой. Информацию об изменении меры пресечения подтвердила и адвокат Власовой.
+# sent_id = 0101-p3-s1
+# text = Бизнесмен Юрий Воскресенский, освобожденный после этой встречи одним из первых, рассказал Tut.by, что сам встретил Власову 16 октября и отвез ее домой.
+1	Бизнесмен	_	_	_	_	_	_	_	bratA9=T16:Male|bratT16=Person|bratT17=Person-property
+2	Юрий	_	_	_	_	_	_	_	bratA9=T16:Male|bratT16=Person|bratT58=Person-forename
+3	Воскресенский	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Male|bratT16=Person|bratT59=Person-surname
+4	,	_	_	_	_	_	_	_	_
+5	освобожденный	_	_	_	_	_	_	_	_
+6	после	_	_	_	_	_	_	_	bratA10=T46:Past|bratT46=Date-relative
+7	этой	_	_	_	_	_	_	_	bratA10=T46:Past|bratT46=Date-relative|bratT78=Ordinal
+8	встречи	_	_	_	_	_	_	_	bratA10=T46:Past|bratT46=Date-relative|bratT79=Event
+9	одним	_	_	_	_	_	_	_	bratT41=Quantity
+10	из	_	_	_	_	_	_	_	bratT41=Quantity
+11	первых	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Ordinal
+12	,	_	_	_	_	_	_	_	_
+13	рассказал	_	_	_	_	_	_	_	_
+14-16	Tut.by	_	_	_	_	_	_	_	SpaceAfter=No
+14	Tut	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T18:Media|bratT18=Organization|bratT87=Web-address
+15	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T18:Media|bratT18=Organization|bratT87=Web-address
+16	by	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T18:Media|bratT18=Organization|bratT87=Web-address
+17	,	_	_	_	_	_	_	_	_
+18	что	_	_	_	_	_	_	_	_
+19	сам	_	_	_	_	_	_	_	_
+20	встретил	_	_	_	_	_	_	_	_
+21	Власову	_	_	_	_	_	_	_	bratA11=T19:Female|bratT19=Person|bratT60=Person-surname
+22	16	_	_	_	_	_	_	_	bratA12=T20:Past|bratT20=Date-absolute
+23	октября	_	_	_	_	_	_	_	bratA12=T20:Past|bratT20=Date-absolute
+24	и	_	_	_	_	_	_	_	_
+25	отвез	_	_	_	_	_	_	_	_
+26	ее	_	_	_	_	_	_	_	_
+27	домой	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0101-p3-s2
+# text = Информацию об изменении меры пресечения подтвердила и адвокат Власовой.
+1	Информацию	_	_	_	_	_	_	_	_
+2	об	_	_	_	_	_	_	_	_
+3	изменении	_	_	_	_	_	_	_	_
+4	меры	_	_	_	_	_	_	_	_
+5	пресечения	_	_	_	_	_	_	_	_
+6	подтвердила	_	_	_	_	_	_	_	_
+7	и	_	_	_	_	_	_	_	_
+8	адвокат	_	_	_	_	_	_	_	bratT21=Person-property
+9	Власовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T61:Female|bratT21=Person-property|bratT22=Person-surname|bratT61=Person
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0101-p4
+# par_text = Лилию Власову задержали 31 августа, в тот же день у нее дома прошел обыск. Против нее возбудили уголовное дело об уклонении от уплаты налогов. Эта статья подразумевает до 7 лет лишения свободы. По делу также проходит сын Власовой Борис. Сумма ущерба, по версии силовиков, составляет около 615 тысяч белорусских рублей.
+# sent_id = 0101-p4-s1
+# text = Лилию Власову задержали 31 августа, в тот же день у нее дома прошел обыск.
+1	Лилию	_	_	_	_	_	_	_	bratA15=T23:Female|bratT23=Person|bratT62=Person-forename
+2	Власову	_	_	_	_	_	_	_	bratA15=T23:Female|bratT23=Person|bratT63=Person-surname
+3	задержали	_	_	_	_	_	_	_	_
+4	31	_	_	_	_	_	_	_	bratA14=T24:Past|bratT24=Date-absolute
+5	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T24:Past|bratT24=Date-absolute
+6	,	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	bratA16=T47:Past|bratT47=Date-relative
+8	тот	_	_	_	_	_	_	_	bratA16=T47:Past|bratT47=Date-relative
+9	же	_	_	_	_	_	_	_	bratA16=T47:Past|bratT47=Date-relative
+10	день	_	_	_	_	_	_	_	bratA16=T47:Past|bratT47=Date-relative
+11	у	_	_	_	_	_	_	_	_
+12	нее	_	_	_	_	_	_	_	_
+13	дома	_	_	_	_	_	_	_	_
+14	прошел	_	_	_	_	_	_	_	_
+15	обыск	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0101-p4-s2
+# text = Против нее возбудили уголовное дело об уклонении от уплаты налогов.
+1	Против	_	_	_	_	_	_	_	_
+2	нее	_	_	_	_	_	_	_	_
+3	возбудили	_	_	_	_	_	_	_	_
+4	уголовное	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	_
+6	об	_	_	_	_	_	_	_	_
+7	уклонении	_	_	_	_	_	_	_	_
+8	от	_	_	_	_	_	_	_	_
+9	уплаты	_	_	_	_	_	_	_	_
+10	налогов	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0101-p4-s3
+# text = Эта статья подразумевает до 7 лет лишения свободы.
+1	Эта	_	_	_	_	_	_	_	_
+2	статья	_	_	_	_	_	_	_	_
+3	подразумевает	_	_	_	_	_	_	_	_
+4	до	_	_	_	_	_	_	_	bratT25=Time-period|bratT43=Duration
+5	7	_	_	_	_	_	_	_	bratT25=Time-period|bratT43=Duration
+6	лет	_	_	_	_	_	_	_	bratT25=Time-period|bratT43=Duration
+7	лишения	_	_	_	_	_	_	_	_
+8	свободы	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0101-p4-s4
+# text = По делу также проходит сын Власовой Борис.
+1	По	_	_	_	_	_	_	_	_
+2	делу	_	_	_	_	_	_	_	_
+3	также	_	_	_	_	_	_	_	_
+4	проходит	_	_	_	_	_	_	_	_
+5	сын	_	_	_	_	_	_	_	bratA17=T36:Male|bratT36=Person|bratT38=Family
+6	Власовой	_	_	_	_	_	_	_	bratA17=T36:Male|bratA18=T37:Female|bratT36=Person|bratT37=Person|bratT64=Person-surname
+7	Борис	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T36:Male|bratT36=Person|bratT65=Person-forename
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0101-p4-s5
+# text = Сумма ущерба, по версии силовиков, составляет около 615 тысяч белорусских рублей.
+1	Сумма	_	_	_	_	_	_	_	_
+2	ущерба	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	версии	_	_	_	_	_	_	_	_
+6	силовиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-property
+7	,	_	_	_	_	_	_	_	_
+8	составляет	_	_	_	_	_	_	_	_
+9	около	_	_	_	_	_	_	_	bratT26=Money
+10	615	_	_	_	_	_	_	_	bratT26=Money
+11	тысяч	_	_	_	_	_	_	_	bratT26=Money
+12	белорусских	_	_	_	_	_	_	_	bratA19=T66:Adjective|bratT26=Money|bratT66=GPE
+13	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Money
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0101-p5
+# par_text = Координационный совет продолжает считать Власову и освобожденного ранее адвоката Марии Колесниковой Илью Салея политзаключенными, так как изменение меры пресечения на домашний арест не является освобождением. "Сейчас Лилия Власова и Илья Салей находятся дома, но продолжают находиться в статусе обвиняемых, не имеют возможности видеться с родными, использовать средства связи и выходить из квартиры", - говорится в Telegram-канале КС.
+# sent_id = 0101-p5-s1
+# text = Координационный совет продолжает считать Власову и освобожденного ранее адвоката Марии Колесниковой Илью Салея политзаключенными, так как изменение меры пресечения на домашний арест не является освобождением.
+1	Координационный	_	_	_	_	_	_	_	bratT27=Organization
+2	совет	_	_	_	_	_	_	_	bratT27=Organization
+3	продолжает	_	_	_	_	_	_	_	_
+4	считать	_	_	_	_	_	_	_	_
+5	Власову	_	_	_	_	_	_	_	bratA20=T28:Female|bratT28=Person|bratT67=Person-surname
+6	и	_	_	_	_	_	_	_	_
+7	освобожденного	_	_	_	_	_	_	_	_
+8	ранее	_	_	_	_	_	_	_	bratA21=T48:Past|bratT48=Date-relative
+9	адвоката	_	_	_	_	_	_	_	bratA22=T29:Male|bratT29=Person|bratT30=Person-property
+10	Марии	_	_	_	_	_	_	_	bratA22=T29:Male|bratA23=T31:Female|bratT29=Person|bratT30=Person-property|bratT31=Person|bratT68=Person-forename
+11	Колесниковой	_	_	_	_	_	_	_	bratA22=T29:Male|bratA23=T31:Female|bratT29=Person|bratT30=Person-property|bratT31=Person|bratT69=Person-surname
+12	Илью	_	_	_	_	_	_	_	bratA22=T29:Male|bratT29=Person|bratT70=Person-forename
+13	Салея	_	_	_	_	_	_	_	bratA22=T29:Male|bratT29=Person|bratT71=Person-surname
+14	политзаключенными	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Other-group
+15	,	_	_	_	_	_	_	_	_
+16	так	_	_	_	_	_	_	_	_
+17	как	_	_	_	_	_	_	_	_
+18	изменение	_	_	_	_	_	_	_	_
+19	меры	_	_	_	_	_	_	_	_
+20	пресечения	_	_	_	_	_	_	_	_
+21	на	_	_	_	_	_	_	_	_
+22	домашний	_	_	_	_	_	_	_	bratT80=Event
+23	арест	_	_	_	_	_	_	_	bratT80=Event
+24	не	_	_	_	_	_	_	_	_
+25	является	_	_	_	_	_	_	_	_
+26	освобождением	_	_	_	_	_	_	_	SpaceAfter=No|bratT81=Event
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0101-p5-s2
+# text = ``Сейчас Лилия Власова и Илья Салей находятся дома, но продолжают находиться в статусе обвиняемых, не имеют возможности видеться с родными, использовать средства связи и выходить из квартиры'', - говорится в Telegram-канале КС.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Сейчас	_	_	_	_	_	_	_	bratA24=T50:Present|bratT50=Date-absolute
+3	Лилия	_	_	_	_	_	_	_	bratA25=T32:Female|bratT32=Person|bratT72=Person-forename
+4	Власова	_	_	_	_	_	_	_	bratA25=T32:Female|bratT32=Person|bratT73=Person-surname
+5	и	_	_	_	_	_	_	_	_
+6	Илья	_	_	_	_	_	_	_	bratA26=T33:Male|bratT33=Person|bratT74=Person-forename
+7	Салей	_	_	_	_	_	_	_	bratA26=T33:Male|bratT33=Person|bratT75=Person-surname
+8	находятся	_	_	_	_	_	_	_	_
+9	дома	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	но	_	_	_	_	_	_	_	_
+12	продолжают	_	_	_	_	_	_	_	_
+13	находиться	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	статусе	_	_	_	_	_	_	_	_
+16	обвиняемых	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property
+17	,	_	_	_	_	_	_	_	_
+18	не	_	_	_	_	_	_	_	_
+19	имеют	_	_	_	_	_	_	_	_
+20	возможности	_	_	_	_	_	_	_	_
+21	видеться	_	_	_	_	_	_	_	_
+22	с	_	_	_	_	_	_	_	_
+23	родными	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Family
+24	,	_	_	_	_	_	_	_	_
+25	использовать	_	_	_	_	_	_	_	_
+26	средства	_	_	_	_	_	_	_	_
+27	связи	_	_	_	_	_	_	_	_
+28	и	_	_	_	_	_	_	_	_
+29	выходить	_	_	_	_	_	_	_	_
+30	из	_	_	_	_	_	_	_	_
+31	квартиры	_	_	_	_	_	_	_	SpaceAfter=No
+32	''	_	_	_	_	_	_	_	SpaceAfter=No
+33	,	_	_	_	_	_	_	_	_
+34	-	_	_	_	_	_	_	_	_
+35	говорится	_	_	_	_	_	_	_	_
+36	в	_	_	_	_	_	_	_	_
+37	Telegram-канале	_	_	_	_	_	_	_	bratA5=T34:Media|bratT34=Service
+38	КС	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization
+39	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0101-p6
+# par_text = Оппозиция настаивает на освобождении всех политических заключенных и прекращении преследования граждан за их политические убеждения.
+# sent_id = 0101-p6-s1
+# text = Оппозиция настаивает на освобождении всех политических заключенных и прекращении преследования граждан за их политические убеждения.
+1	Оппозиция	_	_	_	_	_	_	_	bratT85=Organization
+2	настаивает	_	_	_	_	_	_	_	_
+3	на	_	_	_	_	_	_	_	_
+4	освобождении	_	_	_	_	_	_	_	_
+5	всех	_	_	_	_	_	_	_	_
+6	политических	_	_	_	_	_	_	_	bratT51=Other-group
+7	заключенных	_	_	_	_	_	_	_	bratT51=Other-group
+8	и	_	_	_	_	_	_	_	_
+9	прекращении	_	_	_	_	_	_	_	_
+10	преследования	_	_	_	_	_	_	_	_
+11	граждан	_	_	_	_	_	_	_	bratA3=T86:Citizenship|bratT86=Nationality
+12	за	_	_	_	_	_	_	_	_
+13	их	_	_	_	_	_	_	_	_
+14	политические	_	_	_	_	_	_	_	_
+15	убеждения	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+

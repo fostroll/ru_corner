@@ -1,0 +1,74 @@
+T1	Person-forename 0 5	Борис
+T2	Person-surname 8 15	Джонсон
+T3	Person 0 15	Борис   Джонсон
+A1	Male T3
+T4	Other-term 78 83	COVID
+T6	GPE 103 117	Великобритании
+T7	Person-forename 120 125	Борис
+T8	Person-surname 128 135	Джонсон
+T9	Person-property 85 117	Премьер-министр   Великобритании
+T10	Person 85 135	Премьер-министр   Великобритании   Борис   Джонсон
+A2	Male T10
+T11	Other-term 217 230	коронавирусом
+T12	Organization 248 263	The   Telegraph
+A3	Media T12
+T13	Person-property 315 323	премьера
+T14	Person-property 286 323	представителя   резиденции   премьера
+T15	Person-surname 329 336	Джонсон
+T16	Person 329 336	Джонсон
+A4	Male T16
+T17	Other-term 434 446	коронавируса
+T18	Event 422 446	пандемией   коронавируса
+T19	Person-property 479 486	премьер
+T20	Service 503 510	Twitter
+T21	Other-term 566 576	COVID - 19
+T22	Organization 663 678	The   Telegraph
+A6	Media T22
+T23	Date-absolute 685 696	в   четверг
+A7	Past T23
+T24	Person-property 699 714	премьер-министр
+T25	Quantity 791 802	одного   из
+T26	Duration 731 739	получаса
+T27	Date-period-relative 717 739	в   течение   получаса
+T28	Person-property 766 780	парламентариев
+T29	Other-term 837 848	коронавирус
+T30	GPE 854 864	Британский
+A8	Adjective T30
+T31	Person-property 854 882	Британский   премьер-министр
+T32	Other-term 897 907	COVID - 19
+T33	Date-absolute 910 919	в   марте
+A9	Past T33
+T34	Date-absolute 926 932	апреле
+A10	Past T34
+T35	Duration 1051 1064	десяти   дней
+T36	Date-period-relative 1037 1064	в   течение   десяти   дней
+T37	Date-relative 937 942	Тогда
+A11	Past T37
+T38	Facility 1074 1087	Даунинг-стрит
+T39	Person-property 1129 1145	премьер-министра
+T40	Facility 1116 1145	резиденция   премьер-министра
+T41	Person-surname 1187 1195	Джонсона
+T42	Person 1187 1195	Джонсона
+A12	Male T42
+T43	Person-property 1269 1277	политика
+T44	Date-relative 1284 1289	тогда
+A13	Past T44
+T45	Date-period-absolute 1422 1436	С   5   ноября
+A14	Past-UNK T45
+T46	GPE 1443 1451	Британии
+T47	Event 1476 1496	повторный   карантин
+T48	Other-term 1525 1537	коронавируса
+T49	Person-property 1756 1765	курьерами
+T51	GPE 1990 1998	Британии
+T52	Other-term 2035 2048	коронавирусом
+T53	Quantity 2011 2032	1,3   млн   заражений
+T54	Quantity 2064 2091	свыше   51   тыс.   человек
+A15	Past T27
+T55	Ordinal 1476 1485	повторный
+T56	Date-absolute 45 61	после   контакта
+A16	Past T56
+T57	Date-absolute 165 181	после   контакта
+A17	Past T57
+A5	Past T36
+T5	Cardinal 574 576	19
+T50	Cardinal 905 907	19

@@ -31,7 +31,7 @@
 13	и	_	_	_	_	_	_	_	bratA1=T23:Department|bratA4=T26:Male|bratT22=Person-property|bratT23=Organization|bratT24=Organization|bratT26=Person
 14	микробиологии	_	_	_	_	_	_	_	bratA1=T23:Department|bratA4=T26:Male|bratT22=Person-property|bratT23=Organization|bratT24=Organization|bratT26=Person
 15	имени	_	_	_	_	_	_	_	bratA1=T23:Department|bratA4=T26:Male|bratT22=Person-property|bratT23=Organization|bratT24=Organization|bratT26=Person
-16	Гамалеи	_	_	_	_	_	_	_	bratA1=T23:Department|bratA4=T26:Male|bratT22=Person-property|bratT23=Organization|bratT24=Organization|bratT26=Person
+16	Гамалеи	_	_	_	_	_	_	_	bratA1=T23:Department|bratA4=T26:Male|bratT22=Person-property|bratT23=Organization|bratT24=Organization|bratT26=Person|bratT43=Person|bratT44=Person-surname
 17	профессор	_	_	_	_	_	_	_	bratA4=T26:Male|bratT25=Person-property|bratT26=Person
 18	Виктор	_	_	_	_	_	_	_	bratA4=T26:Male|bratT26=Person|bratT34=Person-forename
 19	Зуев	_	_	_	_	_	_	_	bratA4=T26:Male|bratT26=Person|bratT35=Person-surname
@@ -48,45 +48,51 @@
 30	своей	_	_	_	_	_	_	_	_
 31	вакцины	_	_	_	_	_	_	_	bratT29=Other-term
 32	от	_	_	_	_	_	_	_	_
-33	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term
-34	.	_	_	_	_	_	_	_	_
+33-35	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+33	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term
+34	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term
+35	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term|bratT41=Cardinal
+36	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0125-p3
 # par_text = Эксперт напомнил, что эффективность российской вакцины «Спутник V» составляет 92%.
 # sent_id = 0125-p3-s1
-# text = Эксперт напомнил, что эффективность российской вакцины ``Спутник V'' составляет 92 %.
+# text = Эксперт напомнил, что эффективность российской вакцины ``Спутник V'' составляет 92%.
 1	Эксперт	_	_	_	_	_	_	_	bratT2=Person-property
 2	напомнил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	эффективность	_	_	_	_	_	_	_	_
-6	российской	_	_	_	_	_	_	_	bratA8=T40:Adjective|bratT40=GPE|bratT5=Product
-7	вакцины	_	_	_	_	_	_	_	bratT5=Product
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Product
-9	Спутник	_	_	_	_	_	_	_	bratT5=Product
-10	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Product
-11	''	_	_	_	_	_	_	_	bratT5=Product
+6	российской	_	_	_	_	_	_	_	bratA8=T40:Adjective|bratA9=T5:Trademark|bratT40=GPE|bratT5=Product
+7	вакцины	_	_	_	_	_	_	_	bratA9=T5:Trademark|bratT5=Product
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T5:Trademark|bratT5=Product
+9	Спутник	_	_	_	_	_	_	_	bratA9=T5:Trademark|bratT5=Product
+10	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T5:Trademark|bratT5=Product
+11	''	_	_	_	_	_	_	_	bratA9=T5:Trademark|bratT5=Product
 12	составляет	_	_	_	_	_	_	_	_
-13	92	_	_	_	_	_	_	_	bratT6=Percent
+13-14	92%	_	_	_	_	_	_	_	SpaceAfter=No
+13	92	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Percent
 14	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Percent
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0125-p4
 # par_text = «Можно сравнивать 70% и 92%? Можно, конечно, но, очевидно, в пользу 92%. Прекрасная вакцина, которая у нас создана, она уже великолепно себя показала», — считает он.
 # sent_id = 0125-p4-s1
-# text = ``Можно сравнивать 70 % и 92 %?
+# text = ``Можно сравнивать 70% и 92%?
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Можно	_	_	_	_	_	_	_	_
 3	сравнивать	_	_	_	_	_	_	_	_
-4	70	_	_	_	_	_	_	_	bratT7=Percent
+4-5	70%	_	_	_	_	_	_	_	_
+4	70	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Percent
 5	%	_	_	_	_	_	_	_	bratT7=Percent
 6	и	_	_	_	_	_	_	_	_
-7	92	_	_	_	_	_	_	_	bratT8=Percent
+7-8	92%	_	_	_	_	_	_	_	SpaceAfter=No
+7	92	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Percent
 8	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Percent
 9	?	_	_	_	_	_	_	_	_
 
 # sent_id = 0125-p4-s2
-# text = Можно, конечно, но, очевидно, в пользу 92 %.
+# text = Можно, конечно, но, очевидно, в пользу 92%.
 1	Можно	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	конечно	_	_	_	_	_	_	_	SpaceAfter=No
@@ -97,7 +103,8 @@
 8	,	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	пользу	_	_	_	_	_	_	_	_
-11	92	_	_	_	_	_	_	_	bratT9=Percent
+11-12	92%	_	_	_	_	_	_	_	SpaceAfter=No
+11	92	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Percent
 12	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Percent
 13	.	_	_	_	_	_	_	_	_
 
@@ -201,13 +208,16 @@
 10	от	_	_	_	_	_	_	_	_
 11	коронавирусной	_	_	_	_	_	_	_	bratT18=Other-term
 12	инфекции	_	_	_	_	_	_	_	bratT18=Other-term
-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
-14	.	_	_	_	_	_	_	_	_
+13-15	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+15	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term|bratT42=Cardinal
+16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0125-p8
 # par_text = Как говорится в пресс-релизе компании, промежуточный анализ клинических испытаний данной вакцины показал её среднюю эффективность на уровне 70%.
 # sent_id = 0125-p8-s1
-# text = Как говорится в пресс-релизе компании, промежуточный анализ клинических испытаний данной вакцины показал её среднюю эффективность на уровне 70 %.
+# text = Как говорится в пресс-релизе компании, промежуточный анализ клинических испытаний данной вакцины показал её среднюю эффективность на уровне 70%.
 1	Как	_	_	_	_	_	_	_	_
 2	говорится	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
@@ -226,7 +236,8 @@
 16	эффективность	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	_
 18	уровне	_	_	_	_	_	_	_	_
-19	70	_	_	_	_	_	_	_	bratT20=Percent
+19-20	70%	_	_	_	_	_	_	_	SpaceAfter=No
+19	70	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
 20	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
 21	.	_	_	_	_	_	_	_	_
 

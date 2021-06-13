@@ -4,13 +4,16 @@
 # sent_id = 0056-p1-s1
 # text = Заболевший COVID-19 глава офиса Зеленского заявил о выздоровлении
 1	Заболевший	_	_	_	_	_	_	_	_
-2	COVID-19	_	_	_	_	_	_	_	bratT1=Other-term
-3	глава	_	_	_	_	_	_	_	bratT2=Person-property
-4	офиса	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
-5	Зеленского	_	_	_	_	_	_	_	bratA3=T4:Male|bratT2=Person-property|bratT20=Person-surname|bratT3=Organization|bratT4=Person
-6	заявил	_	_	_	_	_	_	_	_
-7	о	_	_	_	_	_	_	_	_
-8	выздоровлении	_	_	_	_	_	_	_	_
+2-4	COVID-19	_	_	_	_	_	_	_	_
+2	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+4	19	_	_	_	_	_	_	_	bratT1=Other-term|bratT26=Cardinal
+5	глава	_	_	_	_	_	_	_	bratT2=Person-property
+6	офиса	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
+7	Зеленского	_	_	_	_	_	_	_	bratA3=T4:Male|bratT2=Person-property|bratT20=Person-surname|bratT3=Organization|bratT4=Person
+8	заявил	_	_	_	_	_	_	_	_
+9	о	_	_	_	_	_	_	_	_
+10	выздоровлении	_	_	_	_	_	_	_	_
 
 # newpar id = 0056-p2
 # par_text = Глава офиса президента Украины Андрей Ермак сообщил, что получил отрицательный результат теста на коронавирус.

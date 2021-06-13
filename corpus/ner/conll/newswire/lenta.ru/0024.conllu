@@ -3,8 +3,8 @@
 # par_text = Президент Туркмении открыл в Ашхабаде золотой памятник алабаю
 # sent_id = 0024-p1-s1
 # text = Президент Туркмении открыл в Ашхабаде золотой памятник алабаю
-1	Президент	_	_	_	_	_	_	_	bratT1=Person-property
-2	Туркмении	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+1	Президент	_	_	_	_	_	_	_	bratA13=T48:Male|bratT1=Person-property|bratT48=Person
+2	Туркмении	_	_	_	_	_	_	_	bratA13=T48:Male|bratT1=Person-property|bratT2=GPE|bratT48=Person
 3	открыл	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	Ашхабаде	_	_	_	_	_	_	_	bratT3=GPE
@@ -37,15 +37,17 @@
 # sent_id = 0024-p2-s2
 # text = Видеосъемку церемонии открытия опубликовал Telegram-канал ``Пул N3''.
 1	Видеосъемку	_	_	_	_	_	_	_	_
-2	церемонии	_	_	_	_	_	_	_	_
-3	открытия	_	_	_	_	_	_	_	_
+2	церемонии	_	_	_	_	_	_	_	bratT47=Event
+3	открытия	_	_	_	_	_	_	_	bratT47=Event
 4	опубликовал	_	_	_	_	_	_	_	_
 5	Telegram-канал	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Service
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Service
 7	Пул	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Service
-8	N3	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Service
-9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Service
-10	.	_	_	_	_	_	_	_	_
+8-9	N3	_	_	_	_	_	_	_	SpaceAfter=No
+8	N	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Service
+9	3	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Service|bratT49=Ordinal
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Service
+11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0024-p3
 # par_text = Золотой алабай установлен на постаменте, окруженном видеоэкраном. Во время церемонии открытия на экране демонстрировались ролики с участием собак соответствующей породы.
@@ -88,9 +90,9 @@
 4	года	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
 5	Бердымухамедов	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT39=Person-surname
 6	подарил	_	_	_	_	_	_	_	_
-7	щенка	_	_	_	_	_	_	_	_
-8	породы	_	_	_	_	_	_	_	_
-9	алабай	_	_	_	_	_	_	_	bratT35=Other-term
+7	щенка	_	_	_	_	_	_	_	bratA14=T50:Unconscious|bratT50=Person
+8	породы	_	_	_	_	_	_	_	bratA14=T50:Unconscious|bratT50=Person
+9	алабай	_	_	_	_	_	_	_	bratA14=T50:Unconscious|bratT35=Other-term|bratT50=Person
 10	премьер-министру	_	_	_	_	_	_	_	bratA9=T15:Male|bratT14=Person-property|bratT15=Person
 11	России	_	_	_	_	_	_	_	bratA9=T15:Male|bratT14=Person-property|bratT15=Person|bratT16=GPE
 12	Дмитрию	_	_	_	_	_	_	_	bratA9=T15:Male|bratT15=Person|bratT40=Person-forename

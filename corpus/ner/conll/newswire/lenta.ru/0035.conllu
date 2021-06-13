@@ -20,9 +20,9 @@
 # par_text = Руководство Первого канала сообщило о подготовке судебных исков против высказываний председателя ЦК партии «Коммунисты России» Максима Сурайкина, журналиста Сергея Соседова и актера Станислава Садальского о победителях шоу «Голос». Представители канала называют их заявления ложными и клеветническими. Об этом «Ленте.ру» рассказали в пресс-службе.
 # sent_id = 0035-p2-s1
 # text = Руководство Первого канала сообщило о подготовке судебных исков против высказываний председателя ЦК партии ``Коммунисты России'' Максима Сурайкина, журналиста Сергея Соседова и актера Станислава Садальского о победителях шоу ``Голос''.
-1	Руководство	_	_	_	_	_	_	_	_
-2	Первого	_	_	_	_	_	_	_	bratA3=T3:Media|bratT3=Organization|bratT33=Ordinal
-3	канала	_	_	_	_	_	_	_	bratA3=T3:Media|bratT3=Organization
+1	Руководство	_	_	_	_	_	_	_	bratA21=T53:Department|bratT53=Organization
+2	Первого	_	_	_	_	_	_	_	bratA21=T53:Department|bratA3=T3:Media|bratT3=Organization|bratT33=Ordinal|bratT53=Organization
+3	канала	_	_	_	_	_	_	_	bratA21=T53:Department|bratA3=T3:Media|bratT3=Organization|bratT53=Organization
 4	сообщило	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	подготовке	_	_	_	_	_	_	_	_
@@ -57,8 +57,8 @@
 
 # sent_id = 0035-p2-s2
 # text = Представители канала называют их заявления ложными и клеветническими.
-1	Представители	_	_	_	_	_	_	_	_
-2	канала	_	_	_	_	_	_	_	_
+1	Представители	_	_	_	_	_	_	_	bratT54=Person-property|bratT55=Person
+2	канала	_	_	_	_	_	_	_	bratT54=Person-property|bratT55=Person
 3	называют	_	_	_	_	_	_	_	_
 4	их	_	_	_	_	_	_	_	_
 5	заявления	_	_	_	_	_	_	_	_
@@ -72,12 +72,15 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization
-4	Ленте.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization
-5	''	_	_	_	_	_	_	_	bratA4=T11:Media|bratT11=Organization
-6	рассказали	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	_
-8	пресс-службе	_	_	_	_	_	_	_	SpaceAfter=No
-9	.	_	_	_	_	_	_	_	_
+4-6	Ленте.ру	_	_	_	_	_	_	_	SpaceAfter=No
+4	Ленте	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization
+5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization
+6	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization
+7	''	_	_	_	_	_	_	_	bratA4=T11:Media|bratT11=Organization
+8	рассказали	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	пресс-службе	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T47:Department|bratT47=Organization
+11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p3
 # par_text = «Это беспрецедентный шаг для Первого канала, который всегда терпеливо и снисходительно относился к любителям повысить свою популярность за наш счет. Однако безнаказанность окрыляет. Не чувствуя необходимости отвечать за свои слова, упомянутые спикеры транслируют обществу свои выдумки, выдавая их за факты, и цинично используют бренд "Голоса" для повышения своей упоминаемости в СМИ», — отметили сотрудники канала.
@@ -125,7 +128,7 @@
 7	слова	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	упомянутые	_	_	_	_	_	_	_	_
-10	спикеры	_	_	_	_	_	_	_	_
+10	спикеры	_	_	_	_	_	_	_	bratT56=Person
 11	транслируют	_	_	_	_	_	_	_	_
 12	обществу	_	_	_	_	_	_	_	_
 13	свои	_	_	_	_	_	_	_	_
@@ -153,8 +156,8 @@
 35	,	_	_	_	_	_	_	_	_
 36	-	_	_	_	_	_	_	_	_
 37	отметили	_	_	_	_	_	_	_	_
-38	сотрудники	_	_	_	_	_	_	_	_
-39	канала	_	_	_	_	_	_	_	SpaceAfter=No
+38	сотрудники	_	_	_	_	_	_	_	bratT48=Person-property|bratT50=Person
+39	канала	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Person-property|bratT50=Person
 40	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p4
@@ -168,17 +171,17 @@
 5	Садальский	_	_	_	_	_	_	_	bratA15=T16:Male|bratT16=Person|bratT43=Person-surname
 6	ранее	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-relative
 7	обвинили	_	_	_	_	_	_	_	_
-8	ведущих	_	_	_	_	_	_	_	bratT17=Person-property
-9	шоу	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Work-of-art
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT18=Work-of-art
-11	Голос	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT18=Work-of-art
-12	''	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Work-of-art
+8	ведущих	_	_	_	_	_	_	_	bratT17=Person-property|bratT51=Person
+9	шоу	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Work-of-art|bratT51=Person
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT18=Work-of-art|bratT51=Person
+11	Голос	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT18=Work-of-art|bratT51=Person
+12	''	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Work-of-art|bratT51=Person
 13	в	_	_	_	_	_	_	_	_
 14	подсуживании	_	_	_	_	_	_	_	_
 15	дочери	_	_	_	_	_	_	_	bratA16=T29:Female|bratT25=Family|bratT29=Person
-16	ведущего	_	_	_	_	_	_	_	bratA16=T29:Female|bratT19=Person-property|bratT29=Person
-17	Первого	_	_	_	_	_	_	_	bratA16=T29:Female|bratA6=T20:Media|bratT19=Person-property|bratT20=Organization|bratT29=Person|bratT30=Ordinal
-18	канала	_	_	_	_	_	_	_	bratA16=T29:Female|bratA6=T20:Media|bratT19=Person-property|bratT20=Organization|bratT29=Person
+16	ведущего	_	_	_	_	_	_	_	bratA16=T29:Female|bratA20=T52:Male|bratT19=Person-property|bratT29=Person|bratT52=Person
+17	Первого	_	_	_	_	_	_	_	bratA16=T29:Female|bratA20=T52:Male|bratA6=T20:Media|bratT19=Person-property|bratT20=Organization|bratT29=Person|bratT30=Ordinal|bratT52=Person
+18	канала	_	_	_	_	_	_	_	bratA16=T29:Female|bratA20=T52:Male|bratA6=T20:Media|bratT19=Person-property|bratT20=Organization|bratT29=Person|bratT52=Person
 19	Александре	_	_	_	_	_	_	_	bratA16=T29:Female|bratT29=Person|bratT45=Person-forename
 20	Будниковой	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T29:Female|bratT29=Person|bratT44=Person-surname
 21	.	_	_	_	_	_	_	_	_
@@ -199,7 +202,7 @@
 12	что	_	_	_	_	_	_	_	_
 13	победу	_	_	_	_	_	_	_	_
 14	на	_	_	_	_	_	_	_	_
-15	конкурсе	_	_	_	_	_	_	_	_
+15	конкурсе	_	_	_	_	_	_	_	bratT49=Event
 16	могут	_	_	_	_	_	_	_	_
 17	одержать	_	_	_	_	_	_	_	_
 18	только	_	_	_	_	_	_	_	_

@@ -1,0 +1,122 @@
+# newdoc id = 0072
+# newpar id = 0072-p1
+# par_text = Хватит ли у Никола Пашиняна сил удержаться у власти
+# sent_id = 0072-p1-s1
+# text = Хватит ли у Никола Пашиняна сил удержаться у власти
+1	Хватит	_	_	_	_	_	_	_	_
+2	ли	_	_	_	_	_	_	_	_
+3	у	_	_	_	_	_	_	_	_
+4	Никола	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-forename|bratT3=Person
+5	Пашиняна	_	_	_	_	_	_	_	bratA1=T3:Male|bratT2=Person-surname|bratT3=Person
+6	сил	_	_	_	_	_	_	_	_
+7	удержаться	_	_	_	_	_	_	_	_
+8	у	_	_	_	_	_	_	_	_
+9	власти	_	_	_	_	_	_	_	_
+
+# newpar id = 0072-p2
+# par_text = После подписания 10 ноября трехстороннего соглашения о прекращении огня в Нагорном Карабахе, которое по факту означает военную капитуляцию Армении, в стране начался политический кризис. В ночь, когда стало известно о договоренностях Москвы, Баку и Еревана, в армянской столице разъяренная толпа разгромила здания правительства и парламента и избила спикера Национального собрания Арарата Мирзояна; члены правящей партии «Мой шаг» избегали даже делать заявления — не то что появляться на публике. Затем несколько депутатов покинули фракцию, в отставку ушел глава МИД Армении и некоторые другие члены правительства.
+# sent_id = 0072-p2-s1
+# text = После подписания 10 ноября трехстороннего соглашения о прекращении огня в Нагорном Карабахе, которое по факту означает военную капитуляцию Армении, в стране начался политический кризис.
+1	После	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+2	подписания	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+3	10	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+4	ноября	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+5	трехстороннего	_	_	_	_	_	_	_	bratT4=Quantity
+6	соглашения	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	прекращении	_	_	_	_	_	_	_	_
+9	огня	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	Нагорном	_	_	_	_	_	_	_	bratT5=GPE
+12	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE
+13	,	_	_	_	_	_	_	_	_
+14	которое	_	_	_	_	_	_	_	_
+15	по	_	_	_	_	_	_	_	_
+16	факту	_	_	_	_	_	_	_	_
+17	означает	_	_	_	_	_	_	_	_
+18	военную	_	_	_	_	_	_	_	_
+19	капитуляцию	_	_	_	_	_	_	_	_
+20	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
+21	,	_	_	_	_	_	_	_	_
+22	в	_	_	_	_	_	_	_	_
+23	стране	_	_	_	_	_	_	_	bratT36=GPE
+24	начался	_	_	_	_	_	_	_	_
+25	политический	_	_	_	_	_	_	_	bratT8=Event
+26	кризис	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Event
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0072-p2-s2
+# text = В ночь, когда стало известно о договоренностях Москвы, Баку и Еревана, в армянской столице разъяренная толпа разгромила здания правительства и парламента и избила спикера Национального собрания Арарата Мирзояна; члены правящей партии ``Мой шаг'' избегали даже делать заявления - не то что появляться на публике.
+1	В	_	_	_	_	_	_	_	bratA6=T33:Past|bratT23=Time-absolute|bratT33=Date-relative
+2	ночь	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T33:Past|bratT23=Time-absolute|bratT33=Date-relative
+3	,	_	_	_	_	_	_	_	_
+4	когда	_	_	_	_	_	_	_	_
+5	стало	_	_	_	_	_	_	_	_
+6	известно	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	договоренностях	_	_	_	_	_	_	_	_
+9	Москвы	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=GPE
+10	,	_	_	_	_	_	_	_	_
+11	Баку	_	_	_	_	_	_	_	bratT10=GPE
+12	и	_	_	_	_	_	_	_	_
+13	Еревана	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE
+14	,	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	армянской	_	_	_	_	_	_	_	bratA7=T34:Adjective|bratT12=GPE|bratT34=GPE
+17	столице	_	_	_	_	_	_	_	bratT12=GPE
+18	разъяренная	_	_	_	_	_	_	_	_
+19	толпа	_	_	_	_	_	_	_	_
+20	разгромила	_	_	_	_	_	_	_	_
+21	здания	_	_	_	_	_	_	_	bratA4=T15:Plural|bratT15=Facility
+22	правительства	_	_	_	_	_	_	_	bratA4=T15:Plural|bratT13=Organization|bratT15=Facility
+23	и	_	_	_	_	_	_	_	bratA4=T15:Plural|bratT15=Facility
+24	парламента	_	_	_	_	_	_	_	bratA4=T15:Plural|bratT14=Organization|bratT15=Facility
+25	и	_	_	_	_	_	_	_	_
+26	избила	_	_	_	_	_	_	_	_
+27	спикера	_	_	_	_	_	_	_	bratA5=T20:Male|bratT17=Person-property|bratT20=Person
+28	Национального	_	_	_	_	_	_	_	bratA5=T20:Male|bratT16=Organization|bratT17=Person-property|bratT20=Person
+29	собрания	_	_	_	_	_	_	_	bratA5=T20:Male|bratT16=Organization|bratT17=Person-property|bratT20=Person
+30	Арарата	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=Person-forename|bratT20=Person
+31	Мирзояна	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T20:Male|bratT19=Person-surname|bratT20=Person
+32	;	_	_	_	_	_	_	_	_
+33	члены	_	_	_	_	_	_	_	bratT22=Person-property
+34	правящей	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
+35	партии	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
+36	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT22=Person-property
+37	Мой	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
+38	шаг	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization|bratT22=Person-property
+39	''	_	_	_	_	_	_	_	bratT21=Organization|bratT22=Person-property
+40	избегали	_	_	_	_	_	_	_	_
+41	даже	_	_	_	_	_	_	_	_
+42	делать	_	_	_	_	_	_	_	_
+43	заявления	_	_	_	_	_	_	_	_
+44	-	_	_	_	_	_	_	_	_
+45	не	_	_	_	_	_	_	_	_
+46	то	_	_	_	_	_	_	_	_
+47	что	_	_	_	_	_	_	_	_
+48	появляться	_	_	_	_	_	_	_	_
+49	на	_	_	_	_	_	_	_	_
+50	публике	_	_	_	_	_	_	_	SpaceAfter=No
+51	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0072-p2-s3
+# text = Затем несколько депутатов покинули фракцию, в отставку ушел глава МИД Армении и некоторые другие члены правительства.
+1	Затем	_	_	_	_	_	_	_	bratA2=T24:Past|bratT24=Date-relative
+2	несколько	_	_	_	_	_	_	_	bratT26=Quantity
+3	депутатов	_	_	_	_	_	_	_	bratT25=Person-property|bratT26=Quantity
+4	покинули	_	_	_	_	_	_	_	_
+5	фракцию	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	отставку	_	_	_	_	_	_	_	bratT35=Event
+9	ушел	_	_	_	_	_	_	_	_
+10	глава	_	_	_	_	_	_	_	bratT32=Person-property
+11	МИД	_	_	_	_	_	_	_	bratT31=Organization|bratT32=Person-property
+12	Армении	_	_	_	_	_	_	_	bratT27=GPE|bratT31=Organization|bratT32=Person-property
+13	и	_	_	_	_	_	_	_	_
+14	некоторые	_	_	_	_	_	_	_	_
+15	другие	_	_	_	_	_	_	_	bratT30=Quantity
+16	члены	_	_	_	_	_	_	_	bratT29=Person-property|bratT30=Quantity
+17	правительства	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization|bratT29=Person-property
+18	.	_	_	_	_	_	_	_	_
+

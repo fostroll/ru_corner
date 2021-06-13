@@ -1,0 +1,69 @@
+T1	GPE 4 9	Крыму
+T2	GPE 43 49	Киевом
+T3	Organization 52 55	ООН
+T4	GPE 92 99	Украина
+T5	GPE 157 162	Крыма
+T6	Nationality 147 162	жителей   Крыма
+T7	Nationality 83 90	крымчан
+T8	Organization 225 228	РБК
+A1	Media T8
+T9	Ordinal 231 237	первый
+T10	GPE 297 314	Республики   Крым
+T11	Organization 269 314	Государственного   cовета   Республики   Крым
+T12	Person-property 231 314	первый   заместитель   председателя   Государственного   cовета   Республики   Крым
+T13	Person 231 328	первый   заместитель   председателя   Государственного   cовета   Республики   Крым   Ефим   Фикс
+T14	Organization 349 352	РБК
+A2	Media T14
+T15	GPE 395 400	Киева
+T16	Ordinal 403 410	Третьим
+T17	Organization 440 443	ООН
+T18	Organization 403 491	Третьим   комитетом   Генассамблеи   ООН   по   социальным   и   гуманитарным   вопросам
+A3	Department T18
+T19	GPE 502 509	Украина
+T20	GPE 600 607	Украина
+T21	GPE 590 595	Крыму
+T22	Organization 790 793	ООН
+T23	GPE 819 826	Украина
+T24	Person 881 885	Фикс
+T25	Organization 916 919	ООН
+T26	Organization 891 919	Комитет   Генассамблеи   ООН
+A4	Department T26
+T27	GPE 1030 1035	Крыма
+T28	GPE 1038 1045	Россией
+T30	Date-absolute 1120 1146	накануне   ,   18   ноября
+T31	Quantity 1175 1186	63   страны
+T32	Quantity 1193 1214	85   -   воздержались
+T33	Quantity 1221 1244	22   выступили   против
+T34	Person-property 1263 1282	авторов   резолюции
+T36	GPE 1433 1439	Россия
+T37	GPE 1492 1497	Крыма
+T38	Nationality 1482 1497	жителей   Крыма
+T39	Nationality 1519 1535	крымских   татар
+T40	Nationality 1554 1563	украинцев
+A6	Resident T7
+A7	Resident T6
+T41	Person-forename 317 321	Ефим
+T42	Person-surname 324 328	Фикс
+A8	Male T13
+T43	GPE 661 666	Крыма
+T44	Nationality 651 666	жителей   Крыма
+A9	Resident T44
+T45	Date-absolute 773 779	Теперь
+T46	Person-surname 881 885	Фикс
+A10	Male T24
+T47	GPE 1087 1098	российского
+A11	Adjective T47
+A13	Resident T38
+T35	GPE 1320 1327	Украина
+T48	GPE 1334 1353	страны   Прибалтики
+T49	GPE 1360 1367	Франция
+T50	GPE 1374 1388	Великобритания
+T51	GPE 1395 1403	Германия
+T52	GPE 1410 1416	Грузия
+T53	GPE 1423 1426	США
+A5	Present T45
+T54	Organization 425 443	Генассамблеи   ООН
+T55	Organization 901 913	Генассамблеи
+T29	Event 976 984	аннексии
+T56	Event 1001 1022	временной   оккупации
+T57	Location 179 189	полуостров

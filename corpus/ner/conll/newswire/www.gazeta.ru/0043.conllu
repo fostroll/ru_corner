@@ -10,7 +10,7 @@
 5	русский	_	_	_	_	_	_	_	bratT10=Language
 6	язык	_	_	_	_	_	_	_	bratT10=Language
 7	статуса	_	_	_	_	_	_	_	_
-8	государственного	_	_	_	_	_	_	_	_
+8	государственного	_	_	_	_	_	_	_	bratT25=Language
 
 # newpar id = 0043-p2
 # par_text = Член Конституционного совещания Киргизии Садирдин Торалиев предложил лишить русский язык статуса официального, передает kp.ru.
@@ -30,8 +30,11 @@
 12	официального	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	передает	_	_	_	_	_	_	_	_
-15	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
-16	.	_	_	_	_	_	_	_	_
+15-17	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No
+15	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
+16	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
+17	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT6=Organization
+18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0043-p3
 # par_text = Общественный деятель объяснил, что молодежь перестала разговаривать на родном языке, поэтому необходимо создавать условия для развития киргизского языка.
@@ -46,8 +49,8 @@
 7	перестала	_	_	_	_	_	_	_	_
 8	разговаривать	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	родном	_	_	_	_	_	_	_	_
-11	языке	_	_	_	_	_	_	_	SpaceAfter=No
+10	родном	_	_	_	_	_	_	_	bratT23=Language
+11	языке	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Language
 12	,	_	_	_	_	_	_	_	_
 13	поэтому	_	_	_	_	_	_	_	_
 14	необходимо	_	_	_	_	_	_	_	_
@@ -112,9 +115,9 @@
 1	Сейчас	_	_	_	_	_	_	_	bratA2=T18:Present|bratT18=Date-absolute
 2	в	_	_	_	_	_	_	_	_
 3	Конституции	_	_	_	_	_	_	_	bratT9=Law
-4	страны	_	_	_	_	_	_	_	bratT9=Law
-5	государственным	_	_	_	_	_	_	_	_
-6	языком	_	_	_	_	_	_	_	_
+4	страны	_	_	_	_	_	_	_	bratT26=GPE|bratT9=Law
+5	государственным	_	_	_	_	_	_	_	bratT24=Language
+6	языком	_	_	_	_	_	_	_	bratT24=Language
 7	является	_	_	_	_	_	_	_	_
 8	киргизский	_	_	_	_	_	_	_	bratT16=Language
 9	язык	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Language

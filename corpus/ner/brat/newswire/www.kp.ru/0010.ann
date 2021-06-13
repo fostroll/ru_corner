@@ -9,34 +9,34 @@ T8	Date-absolute 298 307	в   марте
 T9	Date-absolute 403 425	В   середине   августа
 T10	Quantity 435 444	один   из
 T11	Date-absolute 504 523	В   конце   октября
-T12	Percent 568 580	до   5,8   %
-T13	Percent 607 619	до   7,5   %
-T14	GPE 761 767	Москвы
-T15	Person-property 755 767	мэр   Москвы
-T16	Person 755 786	мэр   Москвы   Сергей   Собянин
-T17	Date-period-absolute 652 674	в   ближайшие   недели
-T18	Date-period-absolute 872 902	до   15   января   2021   года
-T19	GPE 1042 1048	Москвы
-T20	Person-property 1036 1048	Мэр   Москвы
-T21	GPE 1003 1010	столице
-T22	Event 969 977	локдауне
-T23	Date-period-absolute 1076 1105	на   ближайшие   2,5   месяца
-T24	Person-property 1137 1145	студенты
-T25	Person-property 1202 1211	Школьники
-T26	Time-period 1387 1408	с   23.00   до   6.00
-T27	Percent 1497 1517	не   больше   25   %
-T28	Organization 1615 1631	Роспотребнадзора
+T12	Percent 568 578	до   5,8 %
+T13	Percent 605 615	до   7,5 %
+T14	GPE 757 763	Москвы
+T15	Person-property 751 763	мэр   Москвы
+T16	Person 751 782	мэр   Москвы   Сергей   Собянин
+T17	Date-period-absolute 648 670	в   ближайшие   недели
+T18	Date-period-absolute 868 898	до   15   января   2021   года
+T19	GPE 1038 1044	Москвы
+T20	Person-property 1032 1044	Мэр   Москвы
+T21	GPE 999 1006	столице
+T22	Event 965 973	локдауне
+T23	Date-period-absolute 1072 1101	на   ближайшие   2,5   месяца
+T24	Person-property 1133 1141	студенты
+T25	Person-property 1198 1207	Школьники
+T26	Time-period 1383 1404	с   23.00   до   6.00
+T27	Percent 1493 1511	не   больше   25 %
+T28	Organization 1609 1625	Роспотребнадзора
 T29	Date-absolute 104 131	на   новогодние   праздники
 T30	Event 180 188	пандемии
 T31	Date-period-absolute 159 188	за   весь   период   пандемии
 T32	Event 385 393	эпидемии
 T33	Quantity 447 463	100   ПЦР-тестов
 T34	Ordinal 31 40	последние
-T35	Time-relative 1579 1584	после
+T35	Time-relative 1573 1578	после
 T36	Date-relative 314 319	потом
-T37	Date-relative 591 596	затем
+T37	Date-relative 589 594	затем
 T38	GPE 18 24	Москве
-T39	Age 1888 1893	детей
+T39	Age 1882 1887	детей
 A1	Past T2
 A2	Future T29
 A3	Past-Pres T31
@@ -50,8 +50,17 @@ A10	Pres-Fut T17
 A11	LCont T17
 A12	Past-UNK T18
 A13	Pres-Fut T23
-T40	Ordinal 1081 1090	ближайшие
-T41	Ordinal 656 665	ближайшие
-T42	Person-forename 770 776	Сергей
-T43	Person-surname 779 786	Собянин
+T40	Ordinal 1077 1086	ближайшие
+T41	Ordinal 652 661	ближайшие
+T42	Person-forename 766 772	Сергей
+T43	Person-surname 775 782	Собянин
 A14	Male T16
+T44	Organization 811 826	власти   города
+T45	Time-absolute 1341 1347	ночные
+T46	GPE 820 826	города
+T47	GPE 1303 1309	городу
+T48	GPE 1596 1602	города
+T49	Event 1665 1673	выставки
+T50	Event 1680 1689	вернисажи
+T51	Event 1705 1729	культурные   мероприятия
+T52	Event 1844 1873	развлекательные   мероприятия

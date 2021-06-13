@@ -1,0 +1,59 @@
+T1	Percent 43 51	на   7 %
+T2	GPE 128 134	России
+T3	Date-period-absolute 137 148	в   октябре
+T4	Quantity 163 180	154   164   штуки
+T5	Percent 213 221	на   7 %
+T6	Date-period-absolute 245 267	октябрем   2019   года
+T7	Organization 299 334	Ассоциации   европейского   бизнеса
+T8	Organization 341 344	АЕБ
+T9	Date-period-absolute 367 393	10   месяцев   2020   года
+T10	Quantity 418 440	1   188   771   машину
+T11	Percent 462 473	на   12,1 %
+T12	Date-absolute 583 594	в   октябре
+T13	Date-period-absolute 750 770	октябрем   2019   г.
+T14	Percent 784 787	7 %
+T15	Date-period-absolute 832 847	в   2020   году
+T16	GPE 981 987	России
+T17	Percent 1128 1140	до   -12,1 %
+T18	Date-period-absolute 1174 1192	еще   два   месяца
+T21	Quantity 1336 1349	1   522   000
+T22	Person 1485 1554	председатель   комитета   автопроизводителей   АЕБ   Томас   Штэрцель
+T19	Organization 1251 1287	Комитетом   автопроизводителей   АЕБ
+A1	Department T19
+T20	Organization 1284 1287	АЕБ
+T23	Organization 1500 1535	комитета   автопроизводителей   АЕБ
+A2	Department T23
+T24	Organization 1532 1535	АЕБ
+T25	Ordinal 655 661	первом
+T26	Ordinal 673 677	4-го
+T27	Date-period-absolute 497 537	аналогичным   периодом   прошлого   года
+T28	Date-period-absolute 651 688	В   первом   месяце   4-го   квартала
+T31	Date-period-absolute 1097 1112	прошлым   годом
+T32	Date-absolute 1405 1421	к   концу   года
+T33	Duration 367 379	10   месяцев
+A3	Past-Pres T9
+T34	GPE 312 324	европейского
+A4	Adjective T34
+A5	Past T12
+T35	Duration 497 519	аналогичным   периодом
+A6	Past T27
+T36	Ordinal 522 530	прошлого
+A7	Past T3
+A8	Past T6
+T37	Duration 655 670	первом   месяце
+T29	Duration 680 688	квартала
+A9	Past T28
+A10	Past T13
+T38	Duration 1180 1192	два   месяца
+A12	Pres-Fut T18
+A13	Past T31
+A14	Male T22
+T39	Person-forename 1538 1543	Томас
+T40	Person-surname 1546 1554	Штэрцель
+A15	Future T32
+T41	Ordinal 1097 1104	прошлым
+T42	GPE 0 10	Российский
+A16	Adjective T42
+T43	Duration 1062 1069	годовом
+T44	Time-period 1058 1081	В   годовом   выражении
+A11	Past-Pres T15

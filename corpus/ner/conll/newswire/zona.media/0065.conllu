@@ -1,0 +1,229 @@
+# newdoc id = 0065
+# newpar id = 0065-p1
+# par_text = Суд вернул в прокуратуру дело финансиста группы «Сумма» об участии в «преступном сообществе» братьев Магомедовых
+# sent_id = 0065-p1-s1
+# text = Суд вернул в прокуратуру дело финансиста группы «Сумма» об участии в «преступном сообществе» братьев Магомедовых
+1	Суд	_	_	_	_	_	_	_	_
+2	вернул	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	прокуратуру	_	_	_	_	_	_	_	bratT22=Organization
+5	дело	_	_	_	_	_	_	_	_
+6	финансиста	_	_	_	_	_	_	_	bratT2=Person-property
+7	группы	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT1=Organization|bratT2=Person-property
+9	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT2=Person-property
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT1=Organization|bratT2=Person-property
+11	об	_	_	_	_	_	_	_	_
+12	участии	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+15	преступном	_	_	_	_	_	_	_	_
+16	сообществе	_	_	_	_	_	_	_	SpaceAfter=No
+17	''	_	_	_	_	_	_	_	QuotationEnd=»
+18	братьев	_	_	_	_	_	_	_	bratT4=Family
+19	Магомедовых	_	_	_	_	_	_	_	bratT3=Person|bratT5=Person-surname
+
+# newpar id = 0065-p2
+# par_text = Пресненский районный суд Москвы вернул в прокуратуру дело бывшего финансиста группы «Сумма» Александра Кабанова и топ-менеджера «Глобалэлектросервиса» Хачима Эристова об участии в преступном сообществе братьев Магомедовых. Обоих обвиняют по части 3 статьи 210 (участие в преступном сообществе с использованием служебного положения) и по части 4 статьи 159 УК (мошенничество в особо крупном размере). Об этом сообщает ТАСС.
+# sent_id = 0065-p2-s1
+# text = Пресненский районный суд Москвы вернул в прокуратуру дело бывшего финансиста группы «Сумма» Александра Кабанова и топ-менеджера «Глобалэлектросервиса» Хачима Эристова об участии в преступном сообществе братьев Магомедовых.
+1	Пресненский	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT6=Organization|bratT7=GPE
+2	районный	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT6=Organization|bratT7=GPE
+3	суд	_	_	_	_	_	_	_	bratT6=Organization
+4	Москвы	_	_	_	_	_	_	_	bratT6=Organization|bratT8=GPE
+5	вернул	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	прокуратуру	_	_	_	_	_	_	_	bratT9=Organization
+8	дело	_	_	_	_	_	_	_	_
+9	бывшего	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT12=Person-property
+10	финансиста	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT12=Person-property
+11	группы	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Organization|bratT12=Person-property
+12	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT11=Organization|bratT12=Person-property
+13	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT11=Organization|bratT12=Person-property
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA3=T10:Male|bratT10=Person|bratT11=Organization|bratT12=Person-property
+15	Александра	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT13=Person-forename
+16	Кабанова	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT14=Person-surname
+17	и	_	_	_	_	_	_	_	_
+18	топ-менеджера	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT16=Person-property
+19	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA4=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization
+20	Глобалэлектросервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization
+21	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA4=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization
+22	Хачима	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT18=Person-forename
+23	Эристова	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT19=Person-surname
+24	об	_	_	_	_	_	_	_	_
+25	участии	_	_	_	_	_	_	_	_
+26	в	_	_	_	_	_	_	_	_
+27	преступном	_	_	_	_	_	_	_	_
+28	сообществе	_	_	_	_	_	_	_	_
+29	братьев	_	_	_	_	_	_	_	bratT27=Law
+30	Магомедовых	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0065-p2-s2
+# text = Обоих обвиняют по части 3 статьи 210 (участие в преступном сообществе с использованием служебного положения) и по части 4 статьи 159 УК (мошенничество в особо крупном размере).
+1	Обоих	_	_	_	_	_	_	_	bratT29=Quantity
+2	обвиняют	_	_	_	_	_	_	_	_
+3	по	_	_	_	_	_	_	_	_
+4	части	_	_	_	_	_	_	_	bratT31=Law
+5	3	_	_	_	_	_	_	_	bratT31=Law|bratT76=Ordinal
+6	статьи	_	_	_	_	_	_	_	bratT31=Law
+7	210	_	_	_	_	_	_	_	bratT31=Law|bratT77=Ordinal
+8	(	_	_	_	_	_	_	_	SpaceAfter=No
+9	участие	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	преступном	_	_	_	_	_	_	_	_
+12	сообществе	_	_	_	_	_	_	_	_
+13	с	_	_	_	_	_	_	_	_
+14	использованием	_	_	_	_	_	_	_	_
+15	служебного	_	_	_	_	_	_	_	_
+16	положения	_	_	_	_	_	_	_	SpaceAfter=No
+17	)	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	по	_	_	_	_	_	_	_	_
+20	части	_	_	_	_	_	_	_	bratT32=Law
+21	4	_	_	_	_	_	_	_	bratT32=Law|bratT78=Ordinal
+22	статьи	_	_	_	_	_	_	_	bratT32=Law
+23	159	_	_	_	_	_	_	_	bratT32=Law|bratT79=Ordinal
+24	УК	_	_	_	_	_	_	_	bratT30=Law|bratT32=Law
+25	(	_	_	_	_	_	_	_	SpaceAfter=No
+26	мошенничество	_	_	_	_	_	_	_	_
+27	в	_	_	_	_	_	_	_	_
+28	особо	_	_	_	_	_	_	_	_
+29	крупном	_	_	_	_	_	_	_	_
+30	размере	_	_	_	_	_	_	_	SpaceAfter=No
+31	)	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	_	_	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = 0065-p2-s3
+# text = Об этом сообщает ТАСС.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T36:Media|bratT36=Organization
+5	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0065-p3
+# par_text = Братьев Зияввудина и Магомеда Магомедовых, совладельцев группы «Сумма» с активами в транспорте, строительстве и нефтегазовом секторе, арестовали в марте 2018 года. Их обвиняют в создании преступного сообщества и в девяти эпизодах мошенничества с общим ущербом в 11 млрд рублей.
+# sent_id = 0065-p3-s1
+# text = Братьев Зияввудина и Магомеда Магомедовых, совладельцев группы «Сумма» с активами в транспорте, строительстве и нефтегазовом секторе, арестовали в марте 2018 года.
+1	Братьев	_	_	_	_	_	_	_	bratA11=T37:Plural|bratT37=Person|bratT38=Family
+2	Зияввудина	_	_	_	_	_	_	_	bratA11=T37:Plural|bratA12=T39:Male|bratT37=Person|bratT39=Person|bratT40=Person-surname
+3	и	_	_	_	_	_	_	_	bratA11=T37:Plural|bratT37=Person
+4	Магомеда	_	_	_	_	_	_	_	bratA11=T37:Plural|bratA13=T41:Male|bratT37=Person|bratT41=Person|bratT42=Person-forename
+5	Магомедовых	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T37:Plural|bratT37=Person|bratT43=Person-surname
+6	,	_	_	_	_	_	_	_	_
+7	совладельцев	_	_	_	_	_	_	_	bratT44=Person-property
+8	группы	_	_	_	_	_	_	_	bratT44=Person-property|bratT45=Organization
+9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT44=Person-property|bratT45=Organization
+10	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person-property|bratT45=Organization
+11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT44=Person-property|bratT45=Organization
+12	с	_	_	_	_	_	_	_	_
+13	активами	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	транспорте	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	строительстве	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	нефтегазовом	_	_	_	_	_	_	_	_
+20	секторе	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	арестовали	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	bratA1=T46:Past|bratT46=Date-absolute
+24	марте	_	_	_	_	_	_	_	bratA1=T46:Past|bratT46=Date-absolute
+25	2018	_	_	_	_	_	_	_	bratA1=T46:Past|bratT46=Date-absolute
+26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T46:Past|bratT46=Date-absolute
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0065-p3-s2
+# text = Их обвиняют в создании преступного сообщества и в девяти эпизодах мошенничества с общим ущербом в 11 млрд рублей.
+1	Их	_	_	_	_	_	_	_	_
+2	обвиняют	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	создании	_	_	_	_	_	_	_	_
+5	преступного	_	_	_	_	_	_	_	_
+6	сообщества	_	_	_	_	_	_	_	_
+7	и	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	девяти	_	_	_	_	_	_	_	bratT48=Quantity
+10	эпизодах	_	_	_	_	_	_	_	bratT48=Quantity
+11	мошенничества	_	_	_	_	_	_	_	_
+12	с	_	_	_	_	_	_	_	_
+13	общим	_	_	_	_	_	_	_	_
+14	ущербом	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	11	_	_	_	_	_	_	_	bratT49=Money
+17	млрд	_	_	_	_	_	_	_	bratT49=Money
+18	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Money
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0065-p4
+# par_text = Финансового директора «Глобалэлектросервиса» Кабанова, который ранее был вице-президентом по финансам инвесткомпании «Сумма Капитал» (управляющая компания группы «Сумма»), и бывшего директора «Глобалэлектросервиса» по капстроительству Эристова также арестовали весной 2018 года. Их дело выделили в отдельное производство из дела Магомедовых. Эристова через год перевели под домашний арест.
+# sent_id = 0065-p4-s1
+# text = Финансового директора «Глобалэлектросервиса» Кабанова, который ранее был вице-президентом по финансам инвесткомпании «Сумма Капитал» (управляющая компания группы «Сумма»), и бывшего директора «Глобалэлектросервиса» по капстроительству Эристова также арестовали весной 2018 года.
+1	Финансового	_	_	_	_	_	_	_	bratA14=T50:Male|bratT50=Person|bratT51=Person-property
+2	директора	_	_	_	_	_	_	_	bratA14=T50:Male|bratT50=Person|bratT51=Person-property
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA14=T50:Male|bratT50=Person|bratT51=Person-property|bratT52=Organization
+4	Глобалэлектросервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratT50=Person|bratT51=Person-property|bratT52=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA14=T50:Male|bratT50=Person|bratT51=Person-property|bratT52=Organization
+6	Кабанова	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratT50=Person|bratT53=Person-surname
+7	,	_	_	_	_	_	_	_	_
+8	который	_	_	_	_	_	_	_	_
+9	ранее	_	_	_	_	_	_	_	bratA5=T55:Past|bratT55=Date-relative
+10	был	_	_	_	_	_	_	_	_
+11	вице-президентом	_	_	_	_	_	_	_	bratT54=Person-property
+12	по	_	_	_	_	_	_	_	bratT54=Person-property
+13	финансам	_	_	_	_	_	_	_	bratT54=Person-property
+14	инвесткомпании	_	_	_	_	_	_	_	bratT54=Person-property|bratT56=Organization
+15	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT54=Person-property|bratT56=Organization
+16	Сумма	_	_	_	_	_	_	_	bratT54=Person-property|bratT56=Organization
+17	Капитал	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Person-property|bratT56=Organization
+18	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT54=Person-property|bratT56=Organization
+19	(	_	_	_	_	_	_	_	SpaceAfter=No
+20	управляющая	_	_	_	_	_	_	_	bratT57=Organization
+21	компания	_	_	_	_	_	_	_	bratT57=Organization
+22	группы	_	_	_	_	_	_	_	bratT20=Organization|bratT57=Organization
+23	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT20=Organization|bratT57=Organization
+24	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT57=Organization
+25	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT20=Organization|bratT57=Organization
+26	)	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	и	_	_	_	_	_	_	_	_
+29	бывшего	_	_	_	_	_	_	_	bratA15=T58:Male|bratT58=Person|bratT60=Person-property
+30	директора	_	_	_	_	_	_	_	bratA15=T58:Male|bratT58=Person|bratT60=Person-property
+31	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA15=T58:Male|bratT58=Person|bratT59=Organization|bratT60=Person-property
+32	Глобалэлектросервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T58:Male|bratT58=Person|bratT59=Organization|bratT60=Person-property
+33	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA15=T58:Male|bratT58=Person|bratT59=Organization|bratT60=Person-property
+34	по	_	_	_	_	_	_	_	bratA15=T58:Male|bratT58=Person|bratT60=Person-property
+35	капстроительству	_	_	_	_	_	_	_	bratA15=T58:Male|bratT58=Person|bratT60=Person-property
+36	Эристова	_	_	_	_	_	_	_	bratA15=T58:Male|bratT58=Person|bratT67=Person-surname
+37	также	_	_	_	_	_	_	_	_
+38	арестовали	_	_	_	_	_	_	_	_
+39	весной	_	_	_	_	_	_	_	bratA16=T61:Past|bratT61=Date-absolute
+40	2018	_	_	_	_	_	_	_	bratA16=T61:Past|bratT61=Date-absolute
+41	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T61:Past|bratT61=Date-absolute
+42	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0065-p4-s4
+# text = Их дело выделили в отдельное производство из дела Магомедовых.
+1	Их	_	_	_	_	_	_	_	_
+2	дело	_	_	_	_	_	_	_	_
+3	выделили	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	отдельное	_	_	_	_	_	_	_	_
+6	производство	_	_	_	_	_	_	_	_
+7	из	_	_	_	_	_	_	_	_
+8	дела	_	_	_	_	_	_	_	_
+9	Магомедовых	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Person|bratT63=Person-surname
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0065-p4-s5
+# text = Эристова через год перевели под домашний арест.
+1	Эристова	_	_	_	_	_	_	_	bratA18=T65:Male|bratT64=Person-surname|bratT65=Person
+2	через	_	_	_	_	_	_	_	bratA6=T66:Past|bratT66=Date-relative
+3	год	_	_	_	_	_	_	_	bratA6=T66:Past|bratT66=Date-relative|bratT82=Duration
+4	перевели	_	_	_	_	_	_	_	_
+5	под	_	_	_	_	_	_	_	_
+6	домашний	_	_	_	_	_	_	_	bratT21=Event
+7	арест	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event
+8	.	_	_	_	_	_	_	_	_
+

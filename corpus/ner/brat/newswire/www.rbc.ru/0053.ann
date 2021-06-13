@@ -1,0 +1,51 @@
+T1	Person 0 5	Путин
+T2	GPE 46 62	Усолье-Сибирском
+T3	Person-property 90 99	Президент
+T4	Person 90 118	Президент   Владимир   Путин
+T5	GPE 198 245	городе   Усолье-Сибирском   Иркутской   области
+T6	GPE 226 245	Иркутской   области
+T7	GPE 437 453	Усолье-Сибирском
+T8	Organization 510 516	Кремля
+T9	Service 502 507	сайте
+A1	Media T9
+T10	GPE 724 735	государства
+T11	Person-property 716 735	глава   государства
+T12	Person-property 755 765	президента
+T13	Person-property 893 904	специалисты
+T14	Person-property 857 863	ученые
+T15	Person-property 870 877	экологи
+T16	Person 1131 1136	Путин
+T17	Date-absolute 1193 1200	сегодня
+T18	Person 1386 1391	Путин
+T19	Person-property 1450 1459	Президент
+T20	GPE 1534 1550	Усолье-Сибирском
+T21	Duration 1558 1571	десятилетиями
+T22	Person 1591 1596	Путин
+T23	Date-period-absolute 1674 1692	с   1930-х   годов
+T24	Person-surname 0 5	Путин
+A2	Male T1
+T25	Person-forename 102 110	Владимир
+T26	Person-surname 113 118	Путин
+A3	Male T4
+T27	Person-surname 1131 1136	Путин
+A4	Male T16
+A5	Present T17
+T28	Person-surname 1386 1391	Путин
+A6	Male T18
+T29	Person-surname 1591 1596	Путин
+A8	Male T22
+T30	Date-relative 1583 1588	ранее
+A10	Past T30
+T31	Event 472 479	встречи
+T32	Date-period-absolute 1558 1571	десятилетиями
+A11	Past-Pres T23
+A7	Past-Pres T32
+T33	Event 375 430	совещания   о   ликвидации   вреда   окружающей   среде
+T34	Date-absolute 364 384	в   ходе   совещания
+A12	Past T34
+A9	RCont T23
+T35	Organization 818 850	органы   власти   всех   уровней
+T36	Nationality 1790 1797	жителей
+A13	Resident T36
+T37	GPE 275 282	регионе
+T38	GPE 1823 1829	города

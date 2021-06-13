@@ -96,23 +96,26 @@
 # text = Ранее сайт KP.ru сообщал, что в России результаты теста на коронавирус будут приходить в течение 48 часов.
 1	Ранее	_	_	_	_	_	_	_	bratA3=T31:Past|bratT31=Date-relative
 2	сайт	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Service
-3	KP.ru	_	_	_	_	_	_	_	bratA1=T18:Media|bratA2=T34:Media|bratT18=Service|bratT34=Organization
-4	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
-5	,	_	_	_	_	_	_	_	_
-6	что	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	_
-8	России	_	_	_	_	_	_	_	bratT19=GPE
-9	результаты	_	_	_	_	_	_	_	_
-10	теста	_	_	_	_	_	_	_	bratT21=Service
-11	на	_	_	_	_	_	_	_	bratT21=Service
-12	коронавирус	_	_	_	_	_	_	_	bratT20=Other-term|bratT21=Service
-13	будут	_	_	_	_	_	_	_	_
-14	приходить	_	_	_	_	_	_	_	_
-15	в	_	_	_	_	_	_	_	bratT22=Time-period
-16	течение	_	_	_	_	_	_	_	bratT22=Time-period
-17	48	_	_	_	_	_	_	_	bratT22=Time-period|bratT38=Duration
-18	часов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Time-period|bratT38=Duration
-19	.	_	_	_	_	_	_	_	_
+3-5	KP.ru	_	_	_	_	_	_	_	_
+3	KP	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T18:Media|bratA2=T34:Media|bratT18=Service|bratT34=Organization|bratT49=Web-address
+4	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T18:Media|bratA2=T34:Media|bratT18=Service|bratT34=Organization|bratT49=Web-address
+5	ru	_	_	_	_	_	_	_	bratA1=T18:Media|bratA2=T34:Media|bratT18=Service|bratT34=Organization|bratT49=Web-address
+6	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	России	_	_	_	_	_	_	_	bratT19=GPE
+11	результаты	_	_	_	_	_	_	_	_
+12	теста	_	_	_	_	_	_	_	bratT21=Service
+13	на	_	_	_	_	_	_	_	bratT21=Service
+14	коронавирус	_	_	_	_	_	_	_	bratT20=Other-term|bratT21=Service
+15	будут	_	_	_	_	_	_	_	_
+16	приходить	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	bratT22=Time-period
+18	течение	_	_	_	_	_	_	_	bratT22=Time-period
+19	48	_	_	_	_	_	_	_	bratT22=Time-period|bratT38=Duration
+20	часов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Time-period|bratT38=Duration
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0056-p4-s2
 # text = Соответствующее постановление подписала глава Роспотребнадзора Анна Попова.
@@ -172,6 +175,9 @@
 12	проявились	_	_	_	_	_	_	_	_
 13	никакие	_	_	_	_	_	_	_	_
 14	симптомы	_	_	_	_	_	_	_	_
-15	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
-16	.	_	_	_	_	_	_	_	_
+15-17	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+15	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+16	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+17	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term|bratT48=Cardinal
+18	.	_	_	_	_	_	_	_	_
 

@@ -1,0 +1,98 @@
+T1	Person 0 5	Шойгу
+T2	GPE 13 20	Еревана
+T3	GPE 37 41	Баку
+T4	GPE 64 70	России
+T5	Organization 51 70	Минобороны   России
+T6	Person-property 43 70	Глава   Минобороны   России
+T7	Person 43 87	Глава   Минобороны   России   Сергей   Шойгу
+T8	GPE 131 135	Баку
+T9	Organization 153 176	``   РИА   Новости   ''
+A1	Media T9
+T10	Date-relative 182 217	За   несколько   часов   до   этого
+T11	Person-property 220 237	министр   обороны
+T12	GPE 254 261	Армении
+T13	Organization 339 343	МИДа
+T14	Person-property 331 343	глава   МИДа
+T15	Person 331 361	глава   МИДа   Сергей   Лавров
+T16	Person-property 368 381	вице-премьеры
+T17	Person 368 425	вице-премьеры   Александр   Новак   и   Алексей   Оверчук
+A2	Plural T17
+T18	GPE 435 442	Ереване
+T19	Person 445 450	Шойгу
+T20	Person-property 506 532	премьер-министром   страны
+T21	Person 506 554	премьер-министром   страны   Николом   Пашиняном
+T22	Organization 581 591	Минобороны
+T23	Person-property 573 591	главы   Минобороны
+T24	GPE 598 604	Москва
+T25	GPE 671 690	Нагорном   Карабахе
+T26	GPE 788 794	Москвы
+T27	GPE 801 808	Еревана
+T28	Person 855 862	Пашинян
+T29	Date-absolute 865 883	в   ходе   встречи
+T30	GPE 912 918	России
+T31	GPE 1066 1072	Москвы
+T32	GPE 1079 1086	Армению
+T33	GPE 1093 1104	Азербайджан
+T34	Person-property 1167 1187	российских   военных
+T35	GPE 1194 1202	Карабахе
+T36	Date-absolute 1260 1270	9   ноября
+T37	Date-absolute 1207 1238	После   подписания   соглашения
+T38	Person-property 1339 1359	российских   военных
+T39	Quantity 1320 1359	почти   2   тыс.   российских   военных
+T40	Quantity 1366 1392	несколько   сотен   единиц
+T41	Person-property 1421 1432	миротворцев
+T42	GPE 1461 1467	армяно
+T43	GPE 1650 1668	Нагорный   Карабах
+T44	GPE 1675 1682	Армению
+T45	Location 1600 1621	лачинскому   коридору
+T46	Person-surname 0 5	Шойгу
+A3	Male T1
+T47	Person-forename 73 79	Сергей
+T48	Person-surname 82 87	Шойгу
+A4	Male T7
+T49	GPE 278 288	российской
+A5	Adjective T49
+T50	Person-forename 346 352	Сергей
+T51	Person-surname 355 361	Лавров
+A6	Male T15
+T52	Person-forename 384 393	Александр
+T53	Person-surname 396 401	Новак
+T54	Person-forename 408 415	Алексей
+T55	Person-surname 418 425	Оверчук
+T56	Person-surname 445 450	Шойгу
+A8	Male T19
+T57	Person-forename 535 542	Николом
+T58	Person-surname 545 554	Пашиняном
+A9	Male T21
+A10	Past T29
+T59	GPE 1167 1177	российских
+A11	Adjective T59
+A12	Past T37
+A13	Past T36
+T60	GPE 1339 1349	российских
+A14	Adjective T60
+A15	Past T10
+T61	Person 384 401	Александр   Новак
+A16	Male T61
+T62	Person 408 425	Алексей   Оверчук
+A7	Male T62
+A17	Male T28
+T63	Duration 187 204	несколько   часов
+T64	Event 876 883	встречи
+T65	GPE 1470 1485	азербайджанской
+T67	Facility 1461 1495	армяно - азербайджанской   границы
+T68	Quantity 761 773	двусторонние
+T66	Event 103 124	официальным   визитом
+T69	GPE 479 488	армянским
+A18	Adjective T69
+T70	Person-property 479 499	армянским   коллегой
+T71	Person 471 499	своим   армянским   коллегой
+A19	Male T71
+T72	Event 637 664	дальнейшего   кровопролития
+T73	Event 1141 1164	миротворческой   миссии
+T74	Event 1532 1559	режима   прекращения   огня
+T75	Person 220 237	министр   обороны
+A20	Male T75
+T76	GPE 526 532	страны
+T77	GPE 719 736	спорном   регионе
+T78	GPE 1249 1257	странами

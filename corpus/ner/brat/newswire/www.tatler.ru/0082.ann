@@ -1,0 +1,53 @@
+T1	Person-forename 0 9	Дженнифер
+T2	Person-forename 24 29	Алекс
+T3	Person-surname 32 40	Родригес
+T4	Person-surname 12 17	Лопес
+T5	Person 0 17	Дженнифер   Лопес
+A1	Female T5
+T6	Person 24 40	Алекс   Родригес
+A2	Male T6
+T7	Event 54 62	карантин
+T9	Person-property 117 129	знаменитости
+T11	Date-absolute 226 236	1   апреля
+A3	Past T11
+T12	Person-property 255 264	папарацци
+T13	GPE 272 279	Флориде
+T14	Person-forename 291 300	Дженнифер
+T15	Person-forename 315 320	Алекс
+T16	Person-surname 323 331	Родригес
+T17	Person-surname 303 308	Лопес
+T18	Person 291 308	Дженнифер   Лопес
+A4	Female T18
+T19	Person 315 331	Алекс   Родригес
+A5	Male T19
+T20	Family 374 378	пара
+T21	Event 417 440	пандемии   коронавируса
+T22	Other-term 428 440	коронавируса
+T24	Person-property 492 500	клиентов
+T25	Person-property 503 512	владельцы
+T26	Person-alias 688 697	Джей   Ло
+T27	Person 688 697	Джей   Ло
+A7	Female T27
+T28	Service 718 728	инстаграме
+T29	Family 842 848	семьей
+T30	Date-absolute 876 882	сейчас
+A9	Present T30
+T31	Date-absolute 669 685	Не   так   давно
+A10	Past T31
+T32	Person-property 1014 1022	поп-дива
+T33	Date-absolute 1036 1046	1   апреля
+A11	Past T33
+T34	GPE 1062 1069	Флориды
+T35	Person-forename 1072 1079	Рональд
+T36	Person-surname 1082 1090	Десантис
+T37	Person-property 1049 1069	губернатор   Флориды
+T38	Person 1049 1090	губернатор   Флориды   Рональд   Десантис
+A12	Male T38
+T39	Date-absolute 1102 1129	во   время   пресс-брифинга
+A13	Past T39
+T40	Event 1165 1192	жесткий   режим   карантина
+T41	Date-absolute 1197 1203	Теперь
+A14	Present T41
+T43	Event 815 835	режим   самоизоляции
+T8	Nationality 1206 1213	жителям
+A6	Resident T8

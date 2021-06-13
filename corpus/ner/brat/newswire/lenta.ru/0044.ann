@@ -9,7 +9,7 @@ T10	Service 264 279	Telegram-канале
 T11	Date-absolute 282 310	в   четверг   ,   5   ноября
 T15	Date-period-absolute 400 426	За   последние   24   часа
 T16	GPE 433 439	России
-T17	Quantity 496 513	в   85   регионах
+T17	Quantity 500 513	85   регионах
 T18	Other-term 481 493	коронавируса
 T20	Date-absolute 600 619	Ранее   в   четверг
 T21	Person-property 622 634	мэр   Москвы
@@ -21,11 +21,10 @@ T26	Date-absolute 855 865	4   ноября
 T28	Other-term 929 942	коронавирусом
 T12	Percent 529 544	25,9   процента
 T2	Quantity 22 36	292   пациента
-T7	Quantity 106 120	292   пациента
 T14	Quantity 364 394	29   509   летальных   исходов
 T19	Quantity 453 478	19   404   новых   случая
 T27	Quantity 896 926	19   тысяч   новых   заражений
-T29	Quantity 945 975	в   85   российских   регионах
+T29	Quantity 949 975	85   российских   регионах
 T13	GPE 718 725	столице
 A1	Media T10
 T30	Event 337 345	пандемии
@@ -49,3 +48,9 @@ T38	Person-forename 637 643	Сергей
 T40	Person-surname 646 653	Собянин
 A10	Male T23
 A11	Adjective T36
+T41	Event 757 818	вновь   выявляемых   случаев   заражений   и   госпитализаций
+T42	Event 909 942	новых   заражений   коронавирусом
+A12	Plural T41
+T43	Event 464 493	новых   случая   коронавируса
+T7	Person 835 849	градоначальник
+A13	Male T7

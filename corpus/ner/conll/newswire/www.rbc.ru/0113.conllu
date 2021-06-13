@@ -1,0 +1,285 @@
+# newdoc id = 0113
+# newpar id = 0113-p1
+# par_text = Спортдиректор «Зенита» сообщил о проблемах с приглашением легионеров
+# sent_id = 0113-p1-s1
+# text = Спортдиректор ``Зенита'' сообщил о проблемах с приглашением легионеров
+1	Спортдиректор	_	_	_	_	_	_	_	bratT3=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT3=Person-property
+3	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT3=Person-property
+4	''	_	_	_	_	_	_	_	bratT1=Organization|bratT3=Person-property
+5	сообщил	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	проблемах	_	_	_	_	_	_	_	_
+8	с	_	_	_	_	_	_	_	_
+9	приглашением	_	_	_	_	_	_	_	_
+10	легионеров	_	_	_	_	_	_	_	bratT2=Person-property
+
+# newpar id = 0113-p2
+# par_text = Спортивный директор петербургского «Зенита» Хавьер Рибалта заявил, что иностранных футболистов непросто убедить перейти в российский клуб. Об этом сообщает «РИА Новости».
+# sent_id = 0113-p2-s1
+# text = Спортивный директор петербургского ``Зенита'' Хавьер Рибалта заявил, что иностранных футболистов непросто убедить перейти в российский клуб.
+1	Спортивный	_	_	_	_	_	_	_	bratA2=T9:Male|bratT6=Person-property|bratT9=Person
+2	директор	_	_	_	_	_	_	_	bratA2=T9:Male|bratT6=Person-property|bratT9=Person
+3	петербургского	_	_	_	_	_	_	_	bratA1=T4:Adjective|bratA2=T9:Male|bratT4=GPE|bratT5=Organization|bratT6=Person-property|bratT9=Person
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Male|bratT5=Organization|bratT6=Person-property|bratT9=Person
+5	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Male|bratT5=Organization|bratT6=Person-property|bratT9=Person
+6	''	_	_	_	_	_	_	_	bratA2=T9:Male|bratT5=Organization|bratT6=Person-property|bratT9=Person
+7	Хавьер	_	_	_	_	_	_	_	bratA2=T9:Male|bratT7=Person-forename|bratT9=Person
+8	Рибалта	_	_	_	_	_	_	_	bratA2=T9:Male|bratT8=Person-surname|bratT9=Person
+9	заявил	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	что	_	_	_	_	_	_	_	_
+12	иностранных	_	_	_	_	_	_	_	bratA19=T67:Adjective|bratT10=Person-property|bratT67=GPE
+13	футболистов	_	_	_	_	_	_	_	bratT10=Person-property
+14	непросто	_	_	_	_	_	_	_	_
+15	убедить	_	_	_	_	_	_	_	_
+16	перейти	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	российский	_	_	_	_	_	_	_	bratA3=T11:Adjective|bratT11=GPE
+19	клуб	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p2-s2
+# text = Об этом сообщает ``РИА Новости''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Media|bratT12=Organization
+5	РИА	_	_	_	_	_	_	_	bratA4=T12:Media|bratT12=Organization
+6	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Media|bratT12=Organization
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Media|bratT12=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0113-p3
+# par_text = «Пригласить хорошего иностранца в РПЛ непросто. Многие потенциальные новички предпочтут играть в испанской или немецкой лигах», — заявил Рибалта.
+# sent_id = 0113-p3-s1
+# text = ``Пригласить хорошего иностранца в РПЛ непросто.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Пригласить	_	_	_	_	_	_	_	_
+3	хорошего	_	_	_	_	_	_	_	_
+4	иностранца	_	_	_	_	_	_	_	bratA17=T14:Citizenship|bratT14=Nationality
+5	в	_	_	_	_	_	_	_	_
+6	РПЛ	_	_	_	_	_	_	_	bratT13=Organization
+7	непросто	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p3-s2
+# text = Многие потенциальные новички предпочтут играть в испанской или немецкой лигах'', - заявил Рибалта.
+1	Многие	_	_	_	_	_	_	_	_
+2	потенциальные	_	_	_	_	_	_	_	_
+3	новички	_	_	_	_	_	_	_	_
+4	предпочтут	_	_	_	_	_	_	_	_
+5	играть	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	испанской	_	_	_	_	_	_	_	bratA5=T16:Adjective|bratT16=GPE
+8	или	_	_	_	_	_	_	_	_
+9	немецкой	_	_	_	_	_	_	_	bratA6=T17:Adjective|bratT17=GPE
+10	лигах	_	_	_	_	_	_	_	SpaceAfter=No
+11	''	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	-	_	_	_	_	_	_	_	_
+14	заявил	_	_	_	_	_	_	_	_
+15	Рибалта	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T19:Male|bratT18=Person-surname|bratT19=Person
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0113-p4
+# par_text = С нынешнего сезона в Российской премьер-лиге (РПЛ) действует ограничение на количество иностранных футболистов в заявке. В нее разрешается внести только восемь легионеров. При этом все имеют право одновременно выйти на поле.
+# sent_id = 0113-p4-s1
+# text = С нынешнего сезона в Российской премьер-лиге (РПЛ) действует ограничение на количество иностранных футболистов в заявке.
+1	С	_	_	_	_	_	_	_	bratA8=T20:Past-Fut|bratT20=Date-period-absolute
+2	нынешнего	_	_	_	_	_	_	_	bratA8=T20:Past-Fut|bratT20=Date-period-absolute|bratT63=Ordinal|bratT66=Event
+3	сезона	_	_	_	_	_	_	_	bratA8=T20:Past-Fut|bratT20=Date-period-absolute|bratT66=Event
+4	в	_	_	_	_	_	_	_	_
+5	Российской	_	_	_	_	_	_	_	bratA9=T21:Adjective|bratT21=GPE|bratT22=Organization
+6	премьер-лиге	_	_	_	_	_	_	_	bratT22=Organization
+7	(	_	_	_	_	_	_	_	SpaceAfter=No
+8	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+9	)	_	_	_	_	_	_	_	_
+10	действует	_	_	_	_	_	_	_	_
+11	ограничение	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	количество	_	_	_	_	_	_	_	_
+14	иностранных	_	_	_	_	_	_	_	bratA18=T15:Adjective|bratT15=GPE|bratT24=Person-property
+15	футболистов	_	_	_	_	_	_	_	bratT24=Person-property
+16	в	_	_	_	_	_	_	_	_
+17	заявке	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p4-s2
+# text = В нее разрешается внести только восемь легионеров.
+1	В	_	_	_	_	_	_	_	_
+2	нее	_	_	_	_	_	_	_	_
+3	разрешается	_	_	_	_	_	_	_	_
+4	внести	_	_	_	_	_	_	_	_
+5	только	_	_	_	_	_	_	_	_
+6	восемь	_	_	_	_	_	_	_	bratT26=Quantity
+7	легионеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property|bratT26=Quantity
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p4-s3
+# text = При этом все имеют право одновременно выйти на поле.
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	все	_	_	_	_	_	_	_	_
+4	имеют	_	_	_	_	_	_	_	_
+5	право	_	_	_	_	_	_	_	_
+6	одновременно	_	_	_	_	_	_	_	bratT27=Time-relative
+7	выйти	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	_
+9	поле	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0113-p5
+# par_text = «Из-за лимита в клубах РПЛ может быть только восемь иностранцев в составе. Обычно они уже есть, поэтому нет необходимости покупать четыре-пять игроков в трансферное окно. Максимум троих. Но и это трудно, ведь тогда придется продавать троих иностранцев, а это непросто», — сказал спортивный директор «Зенита».
+# sent_id = 0113-p5-s1
+# text = ``Из-за лимита в клубах РПЛ может быть только восемь иностранцев в составе.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Из-за	_	_	_	_	_	_	_	_
+3	лимита	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	клубах	_	_	_	_	_	_	_	_
+6	РПЛ	_	_	_	_	_	_	_	bratT28=Organization
+7	может	_	_	_	_	_	_	_	_
+8	быть	_	_	_	_	_	_	_	_
+9	только	_	_	_	_	_	_	_	_
+10	восемь	_	_	_	_	_	_	_	bratT30=Quantity
+11	иностранцев	_	_	_	_	_	_	_	bratA20=T29:Citizenship|bratT29=Nationality|bratT30=Quantity
+12	в	_	_	_	_	_	_	_	_
+13	составе	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p5-s2
+# text = Обычно они уже есть, поэтому нет необходимости покупать четыре-пять игроков в трансферное окно.
+1	Обычно	_	_	_	_	_	_	_	_
+2	они	_	_	_	_	_	_	_	_
+3	уже	_	_	_	_	_	_	_	_
+4	есть	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	поэтому	_	_	_	_	_	_	_	_
+7	нет	_	_	_	_	_	_	_	_
+8	необходимости	_	_	_	_	_	_	_	_
+9	покупать	_	_	_	_	_	_	_	_
+10	четыре-пять	_	_	_	_	_	_	_	bratT32=Quantity
+11	игроков	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Quantity
+12	в	_	_	_	_	_	_	_	_
+13	трансферное	_	_	_	_	_	_	_	_
+14	окно	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p5-s3
+# text = Максимум троих.
+1	Максимум	_	_	_	_	_	_	_	bratT33=Quantity
+2	троих	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
+3	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p5-s4
+# text = Но и это трудно, ведь тогда придется продавать троих иностранцев, а это непросто'', - сказал спортивный директор ``Зенита''.
+1	Но	_	_	_	_	_	_	_	_
+2	и	_	_	_	_	_	_	_	_
+3	это	_	_	_	_	_	_	_	_
+4	трудно	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	ведь	_	_	_	_	_	_	_	_
+7	тогда	_	_	_	_	_	_	_	_
+8	придется	_	_	_	_	_	_	_	_
+9	продавать	_	_	_	_	_	_	_	_
+10	троих	_	_	_	_	_	_	_	bratT35=Quantity
+11	иностранцев	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T34:Citizenship|bratT34=Nationality|bratT35=Quantity
+12	,	_	_	_	_	_	_	_	_
+13	а	_	_	_	_	_	_	_	_
+14	это	_	_	_	_	_	_	_	_
+15	непросто	_	_	_	_	_	_	_	SpaceAfter=No
+16	''	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	-	_	_	_	_	_	_	_	_
+19	сказал	_	_	_	_	_	_	_	_
+20	спортивный	_	_	_	_	_	_	_	bratT37=Person-property
+21	директор	_	_	_	_	_	_	_	bratT37=Person-property
+22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization|bratT37=Person-property
+23	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization|bratT37=Person-property
+24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization|bratT37=Person-property
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0113-p6
+# par_text = В ходе минувшего трансферного окна петербургский клуб приобрел двух иностранных футболистов. «Зенит» пополнили хорватский защитник Деян Ловрен и бразильский хавбек Вендел, перешедшие, соответственно, из «Ливерпуля» и лиссабонского «Спортинга».
+# sent_id = 0113-p6-s1
+# text = В ходе минувшего трансферного окна петербургский клуб приобрел двух иностранных футболистов.
+1	В	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
+2	ходе	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
+3	минувшего	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute|bratT64=Ordinal
+4	трансферного	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
+5	окна	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
+6	петербургский	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratT38=GPE
+7	клуб	_	_	_	_	_	_	_	_
+8	приобрел	_	_	_	_	_	_	_	_
+9	двух	_	_	_	_	_	_	_	bratT40=Quantity
+10	иностранных	_	_	_	_	_	_	_	bratT39=Person-property|bratT40=Quantity
+11	футболистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-property|bratT40=Quantity
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p6-s2
+# text = ``Зенит'' пополнили хорватский защитник Деян Ловрен и бразильский хавбек Вендел, перешедшие, соответственно, из ``Ливерпуля'' и лиссабонского ``Спортинга''.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+2	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+3	''	_	_	_	_	_	_	_	bratT42=Organization
+4	пополнили	_	_	_	_	_	_	_	_
+5	хорватский	_	_	_	_	_	_	_	bratA11=T43:Adjective|bratA13=T47:Male|bratT43=GPE|bratT44=Person-property|bratT47=Person
+6	защитник	_	_	_	_	_	_	_	bratA13=T47:Male|bratT44=Person-property|bratT47=Person
+7	Деян	_	_	_	_	_	_	_	bratA13=T47:Male|bratT45=Person-forename|bratT47=Person
+8	Ловрен	_	_	_	_	_	_	_	bratA13=T47:Male|bratT46=Person-surname|bratT47=Person
+9	и	_	_	_	_	_	_	_	_
+10	бразильский	_	_	_	_	_	_	_	bratA14=T48:Adjective|bratA15=T51:Male|bratT48=GPE|bratT49=Person-property|bratT51=Person
+11	хавбек	_	_	_	_	_	_	_	bratA15=T51:Male|bratT49=Person-property|bratT51=Person
+12	Вендел	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T51:Male|bratT50=Person-surname|bratT51=Person
+13	,	_	_	_	_	_	_	_	_
+14	перешедшие	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	соответственно	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	из	_	_	_	_	_	_	_	_
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+20	Ливерпуля	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization|bratT65=GPE
+21	''	_	_	_	_	_	_	_	bratT52=Organization
+22	и	_	_	_	_	_	_	_	_
+23	лиссабонского	_	_	_	_	_	_	_	bratA16=T53:Adjective|bratT53=GPE|bratT54=Organization
+24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
+25	Спортинга	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
+26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0113-p7
+# par_text = «Зенит» занимает второе место в таблице чемпионата России, набрав в 14 матчах 30 очков. Команда уступает только ЦСКА, у которого 31 балл.
+# sent_id = 0113-p7-s1
+# text = ``Зенит'' занимает второе место в таблице чемпионата России, набрав в 14 матчах 30 очков.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
+2	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
+3	''	_	_	_	_	_	_	_	bratT55=Organization
+4	занимает	_	_	_	_	_	_	_	_
+5	второе	_	_	_	_	_	_	_	bratT56=Ordinal
+6	место	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	таблице	_	_	_	_	_	_	_	_
+9	чемпионата	_	_	_	_	_	_	_	bratT58=Event
+10	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=GPE|bratT58=Event
+11	,	_	_	_	_	_	_	_	_
+12	набрав	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	14	_	_	_	_	_	_	_	bratT59=Quantity
+15	матчах	_	_	_	_	_	_	_	bratT59=Quantity
+16	30	_	_	_	_	_	_	_	bratT60=Quantity
+17	очков	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Quantity
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0113-p7-s2
+# text = Команда уступает только ЦСКА, у которого 31 балл.
+1	Команда	_	_	_	_	_	_	_	_
+2	уступает	_	_	_	_	_	_	_	_
+3	только	_	_	_	_	_	_	_	_
+4	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Organization
+5	,	_	_	_	_	_	_	_	_
+6	у	_	_	_	_	_	_	_	_
+7	которого	_	_	_	_	_	_	_	_
+8	31	_	_	_	_	_	_	_	bratT62=Quantity
+9	балл	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Quantity
+10	.	_	_	_	_	_	_	_	_
+

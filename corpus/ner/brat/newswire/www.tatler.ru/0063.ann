@@ -1,0 +1,88 @@
+T1	Person 0 48	Бывший   муж   Памелы   Андерсон   Джон   Питерс
+T2	Person 15 32	Памелы   Андерсон
+T3	Family 0 12	Бывший   муж
+T4	Person 70 83	Джон   Питерс
+T5	Organization 138 159	издание   US   Weekly
+A1	Media T5
+T6	Person 287 305	Памелой   Андерсон
+T7	Date-period-absolute 223 280	чуть   меньше   трех   недель   с   момента   расставания
+T8	Person-property 325 334	продюсера
+T9	Person 353 370	Джулия   Бернхейм
+T10	Person 390 396	Питерс
+T11	Event 422 478	заключительной   церемонии   бизнес-мероприятия   NASDAQ
+T12	Event 451 478	бизнес-мероприятия   NASDAQ
+T13	GPE 485 494	Нью-Йорке
+T14	Person-forename 515 521	Памела
+T16	Date-absolute 551 567	30   лет   назад
+T17	Organization 598 605	Playboy
+A2	Media T17
+T18	Person 585 621	основателя   Playboy   Хью   Хефнера
+T19	Person-property 585 605	основателя   Playboy
+T20	Date-absolute 688 708	В   январе   2020-го
+T21	Person 711 728	Памела   Андерсон
+T22	Person-property 735 747	кинопродюсер
+T23	GPE 775 781	Малибу
+T24	Date-period-relative 821 834	двух   недель
+T25	Date-absolute 841 876	через   12   дней   после   свадьбы
+T26	Person 879 885	Памела
+T27	Organization 915 928	порталу   THO
+A3	Media T27
+T28	Person 1173 1181	Андерсон
+T29	Person 1191 1206	Джона   Питерса
+A4	Male T1
+A5	Female T2
+T30	Person-forename 15 21	Памелы
+T31	Person-surname 24 32	Андерсон
+T32	Person-forename 35 39	Джон
+T33	Person-surname 42 48	Питерс
+A6	Male T4
+T34	Person-forename 70 74	Джон
+T35	Person-surname 77 83	Питерс
+A7	Female T6
+T36	Person-forename 287 294	Памелой
+T37	Person-surname 297 305	Андерсон
+T38	Duration 223 252	чуть   меньше   трех   недель
+A8	Male T10
+T39	Person-surname 390 396	Питерс
+A9	Female T9
+T40	Person-forename 353 359	Джулия
+T41	Person-surname 362 370	Бернхейм
+T42	Person 515 521	Памела
+A10	Female T42
+T43	Person 528 532	Джон
+A11	Male T43
+T15	Person-forename 528 532	Джон
+A12	Past T16
+A13	Male T18
+T44	Person-forename 608 611	Хью
+T45	Person-surname 614 621	Хефнера
+A14	Past T20
+A15	Female T21
+T46	Person-forename 711 717	Памела
+T47	Person-surname 720 728	Андерсон
+T48	Duration 821 834	двух   недель
+A16	Past T25
+A17	Female T26
+T49	Person-forename 879 885	Памела
+A18	Female T28
+T50	Person-surname 1173 1181	Андерсон
+A19	Male T29
+T51	Person-forename 1191 1196	Джона
+T52	Person-surname 1199 1206	Питерса
+A20	Past-Pres T7
+T53	Duration 551 559	30   лет
+T54	Duration 849 858	12   дней
+T55	Event 269 280	расставания
+T56	Date-absolute 409 448	во   время   заключительной   церемонии
+A21	Past T56
+T57	Event 869 876	свадьбы
+T58	Event 905 912	разводе
+T59	Duration 1028 1045	некоторое   время
+T60	Date-period-relative 1028 1045	некоторое   время
+T61	Date-period-relative 988 1009	в   период   ,   пока
+T62	Date-relative 631 636	тогда
+A23	Past T62
+T63	Quantity 1121 1124	оба
+A24	Past T24
+A25	Fut T60
+A22	Fut T61

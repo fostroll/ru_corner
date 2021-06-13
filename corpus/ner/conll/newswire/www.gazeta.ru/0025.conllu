@@ -10,10 +10,10 @@
 5	безответных	_	_	_	_	_	_	_	bratT3=Quantity
 6	мяча	_	_	_	_	_	_	_	bratT3=Quantity
 7	в	_	_	_	_	_	_	_	_
-8	первом	_	_	_	_	_	_	_	bratT4=Ordinal
-9	тайме	_	_	_	_	_	_	_	_
-10	Лиги	_	_	_	_	_	_	_	bratT6=Event
-11	наций	_	_	_	_	_	_	_	bratT6=Event
+8	первом	_	_	_	_	_	_	_	bratT35=Event|bratT4=Ordinal
+9	тайме	_	_	_	_	_	_	_	bratT35=Event
+10	Лиги	_	_	_	_	_	_	_	bratT35=Event|bratT6=Event
+11	наций	_	_	_	_	_	_	_	bratT35=Event|bratT6=Event
 
 # newpar id = 0025-p2
 # par_text = Сборная Россия уступает Сербии после первого тайма матча Лиги наций.
@@ -68,12 +68,15 @@
 # sent_id = 0025-p4-s2
 # text = «Газета.Ru» ведет онлайн-трансляцию поединка.
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T17:Media|bratT17=Organization
-2	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Media|bratT17=Organization
-3	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T17:Media|bratT17=Organization
-4	ведет	_	_	_	_	_	_	_	_
-5	онлайн-трансляцию	_	_	_	_	_	_	_	_
-6	поединка	_	_	_	_	_	_	_	SpaceAfter=No
-7	.	_	_	_	_	_	_	_	_
+2-4	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No
+2	Газета	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Media|bratT17=Organization
+3	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Media|bratT17=Organization
+4	Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Media|bratT17=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T17:Media|bratT17=Organization
+6	ведет	_	_	_	_	_	_	_	_
+7	онлайн-трансляцию	_	_	_	_	_	_	_	bratA9=T36:Media|bratT36=Service
+8	поединка	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Event
+9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0025-p4-s3
 # text = Ранее стали известны стартовые составы на матч Лиги наций Сербия - Россия.

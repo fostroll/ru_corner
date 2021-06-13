@@ -1,0 +1,81 @@
+T1	Nationality 0 18	Жительницу   Перми
+A1	Resident T1
+T2	GPE 13 18	Перми
+T3	Organization 133 175	Орджоникидзевский   районный   суд   Перми
+T4	GPE 133 161	Орджоникидзевский   районный
+A2	Adjective T4
+T5	GPE 170 175	Перми
+T6	Date-absolute 178 187	20   июля
+A3	Past T6
+T7	Time-period 203 218	к   300   часам
+T8	Person 244 283	местную   жительницу   Аэлиту   Ерохину
+A4	Female T8
+T9	Nationality 244 264	местную   жительницу
+A5	Resident T9
+T10	Person-forename 267 273	Аэлиту
+T11	Person-surname 276 283	Ерохину
+T12	Service 307 326	``   ВКонтакте   ''
+T13	Service 329 366	группу   ``   Нет   самоизоляции   ''
+A6	Media T13
+T14	Organization 383 402	``   Медиазоне   ''
+A7	Media T14
+T15	Organization 420 476	международной   правозащитной   группе   ``   Агора   ''
+T16	Person 522 529	Ерохину
+A8	Male T16
+T17	Person-surname 522 529	Ерохину
+T18	Law 625 644	статья   207.1   УК
+T19	Date-absolute 683 693	в   апреле
+A9	Past T19
+T20	Nationality 696 716	местная   жительница
+A10	Resident T20
+T21	Service 729 735	группу
+A11	Media T21
+T22	Service 738 757	``   ВКонтакте   ''
+T23	Nationality 782 790	пермяков
+A12	Resident T23
+T24	Event 838 869	режиму   ``   самоизоляции   ''
+T25	Event 901 934	флешмоб   -   #нет   самоизоляции
+T26	Date-relative 1218 1224	раньше
+T27	Person 1249 1256	Ерохина
+A13	Female T27
+T28	Person-surname 1249 1256	Ерохина
+T29	Person-property 1337 1345	Блогерше
+T30	Service 1382 1401	``   ВКонтакте   ''
+T32	Organization 1510 1513	СМИ
+A14	Media T32
+T33	Person 1552 1559	Ерохина
+A15	Female T33
+T34	Person-surname 1552 1559	Ерохина
+T35	Person 1588 1632	Адвокат   обвиняемой   Анастасия   Шардакова
+A16	Female T35
+T36	Person-property 1588 1608	Адвокат   обвиняемой
+T37	Person-property 1598 1608	обвиняемой
+T38	Person-forename 1611 1620	Анастасия
+T39	Person-surname 1623 1632	Шардакова
+T40	Organization 1648 1667	``   Медиазоне   ''
+A17	Media T40
+T41	Organization 1725 1745	администрация   края
+T42	Organization 1752 1770	краевой   Минздрав
+T43	Person 1846 1854	Ерохиной
+A18	Female T43
+T44	Person-surname 1846 1854	Ерохиной
+T45	Event 1447 1455	пандемии
+T31	Duration 207 218	300   часам
+T46	Ordinal 634 639	207.1
+T47	Law 642 644	УК
+A19	Past T26
+T48	Event 1142 1151	изоляцией
+T49	Event 922 934	самоизоляции
+T50	Service 94 131	паблик   ``   Нет   самоизоляции   ''
+A21	Media T50
+T51	Event 114 126	самоизоляции
+T52	Event 349 361	самоизоляции
+T53	GPE 696 703	местная
+A20	Adjective T53
+T54	GPE 244 251	местную
+A22	Adjective T54
+T55	Nationality 1274 1281	горожан
+A23	Resident T55
+T56	GPE 1752 1759	краевой
+A24	Adjective T56
+T57	GPE 1741 1745	края

@@ -9,8 +9,8 @@ T8	Quantity 647 669	еще   20   килограммов
 T9	Person 852 858	Сантия
 T10	Nationality 1307 1318	Австралийка
 A2	Citizenship T10
-T11	Quantity 1480 1509	первые   десять   килограммов
-T12	Quantity 1415 1433	четыре   километра
+T11	Quantity 1489 1509	десять   килограммов
+T12	Quantity 1410 1433	по   четыре   километра
 T13	Quantity 1366 1376	Пять   раз
 T14	Quantity 1548 1558	три   раза
 T15	Quantity 1731 1741	пять   раз
@@ -31,7 +31,7 @@ T27	Date-relative 1658 1665	Позднее
 T28	Date-relative 1514 1527	После   этого
 T29	Duration 631 634	год
 T30	Duration 67 77	два   года
-T31	Date-period-absolute 170 199	менее   чем   за   два   года
+T31	Time-period 170 199	менее   чем   за   два   года
 T32	Duration 1383 1389	неделю
 T33	Duration 1440 1444	день
 T34	Duration 1565 1571	неделю
@@ -44,9 +44,21 @@ T38	Person-surname 251 258	Эфтимиу
 T39	Person-forename 265 272	Xanthia
 T40	Person-surname 275 284	Efthymiou
 T41	Person-forename 852 858	Сантия
-A6	Past T31
 A7	Female T5
 A8	Female T21
 A9	Female T9
 T42	Duration 398 402	день
 T43	Time-period 389 402	каждый   день
+T44	Event 27 36	похудении
+T45	Event 475 484	похудении
+T46	Event 888 897	похудения
+T47	Event 1602 1627	интервальных   тренировок
+T48	Event 1688 1696	занятиям
+T49	Person 0 7	Девушка
+A12	Female T49
+T50	Person 79 90	Австралийка
+A13	Female T50
+T51	Person 448 455	Девушка
+A14	Female T51
+T52	Person 1307 1318	Австралийка
+A15	Female T52

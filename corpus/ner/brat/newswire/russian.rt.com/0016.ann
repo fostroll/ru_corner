@@ -1,33 +1,37 @@
 T1	Organization 4 7	ВОЗ
 T2	Other-term 38 50	коронавируса
-T3	Organization 307 348	Всемирной   организации   здравоохранения
-T4	Quantity 386 411	1   385   218   пациентов
-T5	Other-term 435 443	COVID-19
-T6	Person 457 500	глава   ВОЗ   Тедрос   Адханом   Гебрейесус
-T7	Person-property 457 468	глава   ВОЗ
-T8	Organization 465 468	ВОЗ
-T9	GPE 613 643	Северной   и   Южной   Америки
+T3	Organization 309 350	Всемирной   организации   здравоохранения
+T4	Quantity 388 413	1   385   218   пациентов
+T5	Other-term 437 447	COVID - 19
+T6	Person 461 504	глава   ВОЗ   Тедрос   Адханом   Гебрейесус
+T7	Person-property 461 472	глава   ВОЗ
+T8	Organization 469 472	ВОЗ
+T9	GPE 594 647	странах   Европы   ,   Северной   и   Южной   Америки
 A1	Plural T9
-T10	Other-term 694 707	коронавирусом
-T11	GPE 600 606	Европы
+T10	Other-term 698 711	коронавирусом
+T11	GPE 604 610	Европы
 T12	Duration 79 84	сутки
 T13	Quantity 98 129	более   542   тыс.   заболевших
 T14	Other-term 132 158	коронавирусной   инфекцией
-T15	Other-term 204 212	COVID-19
-T16	Quantity 234 248	58   425   681
-T17	Date-relative 449 454	Ранее
+T15	Other-term 204 214	COVID - 19
+T16	Quantity 236 250	58   425   681
+T17	Date-relative 453 458	Ранее
 T18	GPE 57 61	мире
 T19	GPE 67 71	мире
-T20	GPE 366 370	мире
-T21	GPE 613 621	Северной
-T22	GPE 628 633	Южной
+T20	GPE 368 372	мире
+T21	GPE 617 625	Северной
+T22	GPE 632 637	Южной
 T23	Date-period-absolute 74 84	за   сутки
 A3	Past-Pres T23
 A2	Past T17
-T24	Person-forename 471 477	Тедрос
-T25	Person-patronym 480 500	Адханом   Гебрейесус
-T26	Service 299 304	сайте
+T24	Person-forename 475 481	Тедрос
+T25	Person-patronym 484 504	Адханом   Гебрейесус
+T26	Service 301 306	сайте
 A4	Media T26
 A5	Male T6
-T27	GPE 307 316	Всемирной
+T27	GPE 309 318	Всемирной
 A6	Adjective T27
+T28	Cardinal 212 214	19
+T29	Cardinal 445 447	19
+T30	GPE 617 647	Северной   и   Южной   Америки
+A7	Plural T30

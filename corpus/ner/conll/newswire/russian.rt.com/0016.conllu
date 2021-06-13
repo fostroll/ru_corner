@@ -32,13 +32,16 @@
 14	число	_	_	_	_	_	_	_	_
 15	выявленных	_	_	_	_	_	_	_	_
 16	случаев	_	_	_	_	_	_	_	_
-17	COVID-19	_	_	_	_	_	_	_	bratT15=Other-term
-18	увеличилось	_	_	_	_	_	_	_	_
-19	до	_	_	_	_	_	_	_	_
-20	58	_	_	_	_	_	_	_	bratT16=Quantity
-21	425	_	_	_	_	_	_	_	bratT16=Quantity
-22	681	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
-23	.	_	_	_	_	_	_	_	_
+17-19	COVID-19	_	_	_	_	_	_	_	_
+17	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+18	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+19	19	_	_	_	_	_	_	_	bratT15=Other-term|bratT28=Cardinal
+20	увеличилось	_	_	_	_	_	_	_	_
+21	до	_	_	_	_	_	_	_	_
+22	58	_	_	_	_	_	_	_	bratT16=Quantity
+23	425	_	_	_	_	_	_	_	bratT16=Quantity
+24	681	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
+25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0016-p3
 # par_text = Соответствующие данные приводятся на сайте Всемирной организации здравоохранения.
@@ -68,8 +71,11 @@
 8	пациентов	_	_	_	_	_	_	_	bratT4=Quantity
 9	с	_	_	_	_	_	_	_	_
 10	подтверждённым	_	_	_	_	_	_	_	_
-11	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-term
-12	.	_	_	_	_	_	_	_	_
+11-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+11	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-term
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-term
+13	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Cardinal|bratT5=Other-term
+14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0016-p5
 # par_text = Ранее глава ВОЗ Тедрос Адханом Гебрейесус заявил, что организация обеспокоена ситуацией со здравоохранением в странах Европы, Северной и Южной Америки из-за роста числа случаев заболевания коронавирусом.
@@ -90,13 +96,13 @@
 13	со	_	_	_	_	_	_	_	_
 14	здравоохранением	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
-16	странах	_	_	_	_	_	_	_	_
-17	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE
-18	,	_	_	_	_	_	_	_	_
-19	Северной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT21=GPE|bratT9=GPE
-20	и	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
-21	Южной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT22=GPE|bratT9=GPE
-22	Америки	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
+16	странах	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
+17	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Plural|bratT11=GPE|bratT9=GPE
+18	,	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=GPE
+19	Северной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratA7=T30:Plural|bratT21=GPE|bratT30=GPE|bratT9=GPE
+20	и	_	_	_	_	_	_	_	bratA1=T9:Plural|bratA7=T30:Plural|bratT30=GPE|bratT9=GPE
+21	Южной	_	_	_	_	_	_	_	bratA1=T9:Plural|bratA7=T30:Plural|bratT22=GPE|bratT30=GPE|bratT9=GPE
+22	Америки	_	_	_	_	_	_	_	bratA1=T9:Plural|bratA7=T30:Plural|bratT30=GPE|bratT9=GPE
 23	из-за	_	_	_	_	_	_	_	_
 24	роста	_	_	_	_	_	_	_	_
 25	числа	_	_	_	_	_	_	_	_

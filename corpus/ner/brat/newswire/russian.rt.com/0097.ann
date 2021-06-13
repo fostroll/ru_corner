@@ -1,39 +1,39 @@
 T1	Person 0 6	Попова
 T2	Other-term 41 53	коронавирусу
-T3	Organization 653 666	РИА   Новости
+T3	Organization 655 668	РИА   Новости
 A1	Media T3
-T4	Person 685 691	Попова
-T5	Date-period-absolute 714 733	в   нынешнем   году
-T6	Nationality 740 747	россиян
+T4	Person 687 693	Попова
+T5	Date-period-absolute 716 735	в   нынешнем   году
+T6	Nationality 742 749	россиян
 A2	Citizenship T6
-T7	Other-term 881 889	COVID-19
-T8	Person-property 920 929	вирусолог
-T9	Organization 973 998	центра   ``   Вектор   ''
-T10	Organization 958 998	лабораторией   центра   ``   Вектор   ''
+T7	Other-term 883 893	COVID - 19
+T8	Person-property 924 933	вирусолог
+T9	Organization 977 1002	центра   ``   Вектор   ''
+T10	Organization 962 1002	лабораторией   центра   ``   Вектор   ''
 A3	Department T10
-T11	Person-property 936 998	бывший   заведующий   лабораторией   центра   ``   Вектор   ''
-T12	Person 920 1021	вирусолог   ,   бывший   заведующий   лабораторией   центра   ``   Вектор   ''   Александр   Чепурнов
-T13	Organization 1041 1047	URA.RU
+T11	Person-property 940 1002	бывший   заведующий   лабораторией   центра   ``   Вектор   ''
+T12	Person 924 1025	вирусолог   ,   бывший   заведующий   лабораторией   центра   ``   Вектор   ''   Александр   Чепурнов
+T13	Organization 1045 1053	URA . RU
 A4	Media T13
-T14	GPE 1113 1119	России
-T15	Date-period-absolute 1145 1158	ещё   год-два
-T16	Other-term 1222 1228	вакцин
-T17	Duration 813 827	двухнедельного
-T18	Other-term 158 194	коронавирусной   инфекции   COVID-19
-T19	GPE 242 248	России
-T20	Person-property 309 333	глава   Роспотребнадзора
-T21	Organization 317 333	Роспотребнадзора
-T22	Person 309 349	глава   Роспотребнадзора   Анна   Попова
-T23	Date-period-absolute 455 477	ещё   какое-то   время
-T24	Date-period-absolute 502 540	меньше   ,   чем   до   тёплой   весны
-T25	Date-period-absolute 607 626	до   тёплой   весны
-T26	Date-period-absolute 251 270	до   тёплой   весны
+T14	GPE 1119 1125	России
+T15	Date-period-absolute 1151 1164	ещё   год-два
+T16	Other-term 1228 1234	вакцин
+T17	Duration 815 829	двухнедельного
+T18	Other-term 158 196	коронавирусной   инфекции   COVID - 19
+T19	GPE 244 250	России
+T20	Person-property 311 335	глава   Роспотребнадзора
+T21	Organization 319 335	Роспотребнадзора
+T22	Person 311 351	глава   Роспотребнадзора   Анна   Попова
+T23	Date-period-absolute 457 479	ещё   какое-то   время
+T24	Date-period-absolute 504 542	меньше   ,   чем   до   тёплой   весны
+T25	Date-period-absolute 609 628	до   тёплой   весны
+T26	Date-period-absolute 253 272	до   тёплой   весны
 T27	Date-period-absolute 76 95	до   тёплой   весны
-T28	Date-absolute 398 405	сегодня
-T29	Date-relative 912 917	Ранее
-T30	Duration 461 477	какое-то   время
-T31	Time-period 813 827	двухнедельного
-T32	Duration 1151 1158	год-два
+T28	Date-absolute 400 407	сегодня
+T29	Date-relative 916 921	Ранее
+T30	Duration 463 479	какое-то   время
+T31	Time-period 815 829	двухнедельного
+T32	Duration 1157 1164	год-два
 A13	LCont T27
 A14	Pres-Fut T27
 A15	Past-Fut T26
@@ -49,12 +49,16 @@ A6	Present T28
 T33	Person-surname 0 6	Попова
 A17	Female T1
 A18	Female T22
-T34	Person-forename 336 340	Анна
-T35	Person-surname 343 349	Попова
-T36	Person-surname 685 691	Попова
+T34	Person-forename 338 342	Анна
+T35	Person-surname 345 351	Попова
+T36	Person-surname 687 693	Попова
 A19	Female T4
 A20	Male T12
-T37	Person-forename 1001 1010	Александр
-T38	Person-surname 1013 1021	Чепурнов
-T39	Ordinal 718 726	нынешнем
-T40	Service 896 906	транспорте
+T37	Person-forename 1005 1014	Александр
+T38	Person-surname 1017 1025	Чепурнов
+T39	Ordinal 720 728	нынешнем
+T40	Service 900 910	транспорте
+T41	Cardinal 194 196	19
+T42	Cardinal 891 893	19
+T43	GPE 785 804	дальнем   зарубежье
+T44	Web-address 1045 1053	URA . RU

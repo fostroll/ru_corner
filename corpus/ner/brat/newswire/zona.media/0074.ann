@@ -1,0 +1,70 @@
+T1	Person-property 0 9	Присяжные
+T3	Nationality 46 56	крымчанина
+A1	Resident T3
+T4	Person-property 84 94	бездомного
+T5	Person-property 96 105	Присяжные
+T6	Organization 112 145	Симферопольском   районном   суде
+T7	GPE 112 138	Симферопольском   районном
+A2	Adjective T7
+T8	Nationality 160 182	жителя   города   Саки
+A3	Resident T8
+T9	Person 160 205	жителя   города   Саки   Александра   Буянова
+A4	Male T9
+T10	Person-forename 185 195	Александра
+T11	Person-surname 198 205	Буянова
+T12	Person-property 234 244	бездомного
+T13	Organization 261 280	``   Медиазоне   ''
+A5	Media T13
+T14	Person 301 307	Буянов
+A6	Male T14
+T15	Person-surname 301 307	Буянов
+T16	Age 343 360	молодой   человек
+T17	Date-absolute 363 378	в   2017   году
+A7	Past T17
+T18	Person 394 423	бездомного   Анатолия   Палия
+A8	Male T18
+T19	Person-property 394 404	бездомного
+T20	Person-forename 407 415	Анатолия
+T21	Person-surname 418 423	Палия
+T22	Family 464 470	матери
+T23	Person 552 558	Буянов
+A9	Male T23
+T24	Person-surname 552 558	Буянов
+T25	Person-property 650 662	оперативники
+T26	Date-relative 739 746	Сначала
+T27	Law 821 838	статья   111   УК
+T28	Person-property 862 873	следователь
+T29	Date-absolute 932 957	После   двух   оправданий
+T30	Quantity 940 957	двух   оправданий
+T32	Person 1028 1035	Буянову
+A10	Male T32
+T33	Person-surname 1028 1035	Буянову
+T34	Person-property 1096 1105	присяжные
+T35	Nationality 1120 1130	крымчанина
+A11	Resident T35
+T36	Ordinal 1137 1143	третий
+T37	Organization 1208 1235	Сакского   районного   суда
+T38	GPE 1208 1228	Сакского   районного
+A12	Adjective T38
+T39	GPE 1242 1253	Симфереполь
+T40	GPE 1262 1267	Саках
+T41	Person-property 1286 1291	судей
+T42	Person 1360 1367	Буянова
+A13	Male T42
+T43	Person-surname 1360 1367	Буянова
+T44	Organization 1423 1446	Верховный   суд   Крыма
+T45	GPE 1441 1446	Крыма
+T46	Quantity 1378 1410	три   оправдательных   приговора
+T47	Law 915 923	105   УК
+T48	Ordinal 16 25	четвертый
+T49	GPE 169 182	города   Саки
+T50	Date-absolute 626 647	в   день   задержания
+A14	Past T50
+T51	Ordinal 830 833	111
+T52	Law 836 838	УК
+T53	Date-relative 854 859	потом
+T54	Ordinal 915 918	105
+T55	Law 921 923	УК
+A15	Past T29
+A16	Past T26
+A17	Past T53

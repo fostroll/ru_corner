@@ -1,0 +1,299 @@
+# newdoc id = 0047
+# newpar id = 0047-p1
+# par_text = «Не назвал бы это позором». Что говорили после разгрома сборной России
+# sent_id = 0047-p1-s1
+# text = ``Не назвал бы это позором''.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Не	_	_	_	_	_	_	_	_
+3	назвал	_	_	_	_	_	_	_	_
+4	бы	_	_	_	_	_	_	_	_
+5	это	_	_	_	_	_	_	_	_
+6	позором	_	_	_	_	_	_	_	SpaceAfter=No
+7	''	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p1-s2
+# text = Что говорили после разгрома сборной России
+1	Что	_	_	_	_	_	_	_	_
+2	говорили	_	_	_	_	_	_	_	_
+3	после	_	_	_	_	_	_	_	bratA8=T56:Past|bratT56=Date-absolute
+4	разгрома	_	_	_	_	_	_	_	bratA8=T56:Past|bratT56=Date-absolute|bratT74=Event
+5	сборной	_	_	_	_	_	_	_	bratA8=T56:Past|bratT2=Organization|bratT56=Date-absolute
+6	России	_	_	_	_	_	_	_	bratA8=T56:Past|bratT1=GPE|bratT2=Organization|bratT56=Date-absolute
+
+# newpar id = 0047-p2
+# par_text = Поражение сборной России в Белграде станет одним из самых памятных: национальная команда ранее ни разу в истории не пропускала четыре безответных мяча в первом тайме. Наиболее близки россияне к этому были в играх с бразильцами в 1998 году (1:5), израильтянами в 2000-м (1:4), немцами в 2018-м (0:3) и португальцами в 2004-м (1:7). Все игры прошли за пределами России, и после первой половины россияне проигрывали счетом 0:3.
+# sent_id = 0047-p2-s1
+# text = Поражение сборной России в Белграде станет одним из самых памятных: национальная команда ранее ни разу в истории не пропускала четыре безответных мяча в первом тайме.
+1	Поражение	_	_	_	_	_	_	_	bratT75=Event
+2	сборной	_	_	_	_	_	_	_	bratT4=Organization
+3	России	_	_	_	_	_	_	_	bratT3=GPE|bratT4=Organization
+4	в	_	_	_	_	_	_	_	_
+5	Белграде	_	_	_	_	_	_	_	bratT5=GPE
+6	станет	_	_	_	_	_	_	_	_
+7	одним	_	_	_	_	_	_	_	bratT6=Quantity
+8	из	_	_	_	_	_	_	_	bratT6=Quantity
+9	самых	_	_	_	_	_	_	_	_
+10	памятных	_	_	_	_	_	_	_	SpaceAfter=No
+11	:	_	_	_	_	_	_	_	_
+12	национальная	_	_	_	_	_	_	_	bratA27=T78:Adjective|bratT78=GPE|bratT79=Organization
+13	команда	_	_	_	_	_	_	_	bratT79=Organization
+14	ранее	_	_	_	_	_	_	_	bratA9=T57:Past|bratT57=Date-relative
+15	ни	_	_	_	_	_	_	_	bratT7=Quantity
+16	разу	_	_	_	_	_	_	_	bratT7=Quantity
+17	в	_	_	_	_	_	_	_	_
+18	истории	_	_	_	_	_	_	_	_
+19	не	_	_	_	_	_	_	_	_
+20	пропускала	_	_	_	_	_	_	_	_
+21	четыре	_	_	_	_	_	_	_	bratT8=Quantity
+22	безответных	_	_	_	_	_	_	_	bratT8=Quantity
+23	мяча	_	_	_	_	_	_	_	bratT8=Quantity
+24	в	_	_	_	_	_	_	_	_
+25	первом	_	_	_	_	_	_	_	bratT9=Ordinal
+26	тайме	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p2-s2
+# text = Наиболее близки россияне к этому были в играх с бразильцами в 1998 году (1:5), израильтянами в 2000-м (1:4), немцами в 2018-м (0:3) и португальцами в 2004-м (1:7).
+1	Наиболее	_	_	_	_	_	_	_	_
+2	близки	_	_	_	_	_	_	_	_
+3	россияне	_	_	_	_	_	_	_	bratA1=T10:Citizenship|bratT10=Nationality
+4	к	_	_	_	_	_	_	_	_
+5	этому	_	_	_	_	_	_	_	_
+6	были	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	играх	_	_	_	_	_	_	_	bratT67=Event
+9	с	_	_	_	_	_	_	_	_
+10	бразильцами	_	_	_	_	_	_	_	bratA22=T11:Citizenship|bratT11=Nationality
+11	в	_	_	_	_	_	_	_	bratA10=T12:Past|bratT12=Date-absolute
+12	1998	_	_	_	_	_	_	_	bratA10=T12:Past|bratT12=Date-absolute
+13	году	_	_	_	_	_	_	_	bratA10=T12:Past|bratT12=Date-absolute
+14	(	_	_	_	_	_	_	_	SpaceAfter=No
+15	1:5	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+16	)	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	израильтянами	_	_	_	_	_	_	_	bratA23=T14:Citizenship|bratT14=Nationality
+19	в	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-absolute
+20	2000-м	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-absolute
+21	(	_	_	_	_	_	_	_	SpaceAfter=No
+22	1:4	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
+23	)	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	немцами	_	_	_	_	_	_	_	bratA2=T17:Citizenship|bratT17=Nationality
+26	в	_	_	_	_	_	_	_	bratA12=T18:Past|bratT18=Date-absolute
+27	2018-м	_	_	_	_	_	_	_	bratA12=T18:Past|bratT18=Date-absolute
+28	(	_	_	_	_	_	_	_	SpaceAfter=No
+29	0:3	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Quantity
+30	)	_	_	_	_	_	_	_	_
+31	и	_	_	_	_	_	_	_	_
+32	португальцами	_	_	_	_	_	_	_	bratA3=T20:Citizenship|bratT20=Nationality
+33	в	_	_	_	_	_	_	_	bratA13=T21:Past|bratT21=Date-absolute
+34	2004-м	_	_	_	_	_	_	_	bratA13=T21:Past|bratT21=Date-absolute
+35	(	_	_	_	_	_	_	_	SpaceAfter=No
+36	1:7	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+37	)	_	_	_	_	_	_	_	SpaceAfter=No
+38	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p2-s3
+# text = Все игры прошли за пределами России, и после первой половины россияне проигрывали счетом 0:3.
+1	Все	_	_	_	_	_	_	_	_
+2	игры	_	_	_	_	_	_	_	bratT73=Event
+3	прошли	_	_	_	_	_	_	_	_
+4	за	_	_	_	_	_	_	_	_
+5	пределами	_	_	_	_	_	_	_	_
+6	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+7	,	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	после	_	_	_	_	_	_	_	bratA24=T72:Past|bratT72=Date-absolute
+10	первой	_	_	_	_	_	_	_	bratA24=T72:Past|bratT24=Ordinal|bratT65=Event|bratT72=Date-absolute
+11	половины	_	_	_	_	_	_	_	bratA24=T72:Past|bratT65=Event|bratT72=Date-absolute
+12	россияне	_	_	_	_	_	_	_	bratA4=T25:Citizenship|bratT25=Nationality
+13	проигрывали	_	_	_	_	_	_	_	_
+14	счетом	_	_	_	_	_	_	_	_
+15	0:3	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0047-p3
+# par_text = Причем из этих матчей только встреча с Португалией проводилась в рамках официального турнира. Поражение в Лиссабоне до сих пор является самым разгромным в истории сборной России. На втором месте в этом списке нынешнее поражение в Белграде — 0:5. Бывший тренер сборной России Валерий Газзаев был краток после игры. «Матч провальный. Комментировать тут нечего», — цитирует депутата Госдумы «Спорт-Экспресс».
+# sent_id = 0047-p3-s1
+# text = Причем из этих матчей только встреча с Португалией проводилась в рамках официального турнира.
+1	Причем	_	_	_	_	_	_	_	_
+2	из	_	_	_	_	_	_	_	_
+3	этих	_	_	_	_	_	_	_	_
+4	матчей	_	_	_	_	_	_	_	bratT66=Event
+5	только	_	_	_	_	_	_	_	_
+6	встреча	_	_	_	_	_	_	_	bratT70=Event
+7	с	_	_	_	_	_	_	_	_
+8	Португалией	_	_	_	_	_	_	_	bratT27=GPE
+9	проводилась	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	рамках	_	_	_	_	_	_	_	_
+12	официального	_	_	_	_	_	_	_	_
+13	турнира	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p3-s2
+# text = Поражение в Лиссабоне до сих пор является самым разгромным в истории сборной России.
+1	Поражение	_	_	_	_	_	_	_	bratT76=Event
+2	в	_	_	_	_	_	_	_	_
+3	Лиссабоне	_	_	_	_	_	_	_	bratT28=GPE
+4	до	_	_	_	_	_	_	_	bratA14=T29:Past-Pres|bratA26=T29:RCont|bratT29=Date-period-absolute
+5	сих	_	_	_	_	_	_	_	bratA14=T29:Past-Pres|bratA26=T29:RCont|bratT29=Date-period-absolute
+6	пор	_	_	_	_	_	_	_	bratA14=T29:Past-Pres|bratA26=T29:RCont|bratT29=Date-period-absolute
+7	является	_	_	_	_	_	_	_	_
+8	самым	_	_	_	_	_	_	_	_
+9	разгромным	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	истории	_	_	_	_	_	_	_	_
+12	сборной	_	_	_	_	_	_	_	bratT31=Organization
+13	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE|bratT31=Organization
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p3-s3
+# text = На втором месте в этом списке нынешнее поражение в Белграде - 0:5.
+1	На	_	_	_	_	_	_	_	_
+2	втором	_	_	_	_	_	_	_	bratT32=Ordinal
+3	месте	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	этом	_	_	_	_	_	_	_	_
+6	списке	_	_	_	_	_	_	_	_
+7	нынешнее	_	_	_	_	_	_	_	bratA25=T64:Present|bratT64=Date-absolute
+8	поражение	_	_	_	_	_	_	_	bratT77=Event
+9	в	_	_	_	_	_	_	_	_
+10	Белграде	_	_	_	_	_	_	_	bratT33=GPE
+11	-	_	_	_	_	_	_	_	_
+12	0:5	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Quantity
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p3-s4
+# text = Бывший тренер сборной России Валерий Газзаев был краток после игры.
+1	Бывший	_	_	_	_	_	_	_	bratA15=T38:Male|bratT37=Person-property|bratT38=Person
+2	тренер	_	_	_	_	_	_	_	bratA15=T38:Male|bratT37=Person-property|bratT38=Person
+3	сборной	_	_	_	_	_	_	_	bratA15=T38:Male|bratT36=Organization|bratT37=Person-property|bratT38=Person
+4	России	_	_	_	_	_	_	_	bratA15=T38:Male|bratT35=GPE|bratT36=Organization|bratT37=Person-property|bratT38=Person
+5	Валерий	_	_	_	_	_	_	_	bratA15=T38:Male|bratT38=Person|bratT58=Person-forename
+6	Газзаев	_	_	_	_	_	_	_	bratA15=T38:Male|bratT38=Person|bratT59=Person-surname
+7	был	_	_	_	_	_	_	_	_
+8	краток	_	_	_	_	_	_	_	_
+9	после	_	_	_	_	_	_	_	bratA16=T39:Past|bratT39=Date-absolute
+10	игры	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T39:Past|bratT39=Date-absolute|bratT69=Event
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p3-s5
+# text = ``Матч провальный.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Матч	_	_	_	_	_	_	_	bratT68=Event
+3	провальный	_	_	_	_	_	_	_	SpaceAfter=No
+4	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p3-s6
+# text = Комментировать тут нечего'', - цитирует депутата Госдумы ``Спорт-Экспресс''.
+1	Комментировать	_	_	_	_	_	_	_	_
+2	тут	_	_	_	_	_	_	_	_
+3	нечего	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_
+7	цитирует	_	_	_	_	_	_	_	_
+8	депутата	_	_	_	_	_	_	_	bratT41=Person-property
+9	Госдумы	_	_	_	_	_	_	_	bratT40=Organization|bratT41=Person-property
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
+11	Спорт-Экспресс	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0047-p4
+# par_text = «Cкажу банальность: у них залетело сегодня все, у нас — нет», — заявил главный тренер сборной России Станислав Черчесов. «Хотя я думаю, что, если бы мы даже забили наш первый момент (на первой минуте Антон Заболотный пробил в голкипера с линии вратарской. — РБК), это ничего бы не изменило. Надо быть объективным: сербы были сегодня свежее, лучше, и они заслуженно выиграли», — добавил он.
+# sent_id = 0047-p4-s1
+# text = ``Cкажу банальность: у них залетело сегодня все, у нас - нет'', - заявил главный тренер сборной России Станислав Черчесов.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Cкажу	_	_	_	_	_	_	_	_
+3	банальность	_	_	_	_	_	_	_	SpaceAfter=No
+4	:	_	_	_	_	_	_	_	_
+5	у	_	_	_	_	_	_	_	_
+6	них	_	_	_	_	_	_	_	_
+7	залетело	_	_	_	_	_	_	_	_
+8	сегодня	_	_	_	_	_	_	_	bratA17=T43:Past|bratT43=Date-absolute
+9	все	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	у	_	_	_	_	_	_	_	_
+12	нас	_	_	_	_	_	_	_	_
+13	-	_	_	_	_	_	_	_	_
+14	нет	_	_	_	_	_	_	_	SpaceAfter=No
+15	''	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_
+18	заявил	_	_	_	_	_	_	_	_
+19	главный	_	_	_	_	_	_	_	bratA18=T47:Male|bratT46=Person-property|bratT47=Person
+20	тренер	_	_	_	_	_	_	_	bratA18=T47:Male|bratT46=Person-property|bratT47=Person
+21	сборной	_	_	_	_	_	_	_	bratA18=T47:Male|bratT45=Organization|bratT46=Person-property|bratT47=Person
+22	России	_	_	_	_	_	_	_	bratA18=T47:Male|bratT44=GPE|bratT45=Organization|bratT46=Person-property|bratT47=Person
+23	Станислав	_	_	_	_	_	_	_	bratA18=T47:Male|bratT47=Person|bratT60=Person-forename
+24	Черчесов	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T47:Male|bratT47=Person|bratT61=Person-surname
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p4-s2
+# text = ``Хотя я думаю, что, если бы мы даже забили наш первый момент (на первой минуте Антон Заболотный пробил в голкипера с линии вратарской. - РБК), это ничего бы не изменило.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Хотя	_	_	_	_	_	_	_	_
+3	я	_	_	_	_	_	_	_	_
+4	думаю	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	если	_	_	_	_	_	_	_	_
+9	бы	_	_	_	_	_	_	_	_
+10	мы	_	_	_	_	_	_	_	_
+11	даже	_	_	_	_	_	_	_	_
+12	забили	_	_	_	_	_	_	_	_
+13	наш	_	_	_	_	_	_	_	_
+14	первый	_	_	_	_	_	_	_	bratT48=Ordinal
+15	момент	_	_	_	_	_	_	_	_
+16	(	_	_	_	_	_	_	_	SpaceAfter=No
+17	на	_	_	_	_	_	_	_	bratA19=T50:Past|bratT50=Date-relative
+18	первой	_	_	_	_	_	_	_	bratA19=T50:Past|bratT49=Ordinal|bratT50=Date-relative
+19	минуте	_	_	_	_	_	_	_	bratA19=T50:Past|bratT50=Date-relative|bratT71=Duration
+20	Антон	_	_	_	_	_	_	_	bratA20=T51:Male|bratT51=Person|bratT62=Person-forename
+21	Заболотный	_	_	_	_	_	_	_	bratA20=T51:Male|bratT51=Person|bratT63=Person-surname
+22	пробил	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	_
+24	голкипера	_	_	_	_	_	_	_	bratT52=Person-property
+25	с	_	_	_	_	_	_	_	_
+26	линии	_	_	_	_	_	_	_	_
+27	вратарской	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
+29	-	_	_	_	_	_	_	_	_
+30	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T53:Media|bratT53=Organization
+31	)	_	_	_	_	_	_	_	SpaceAfter=No
+32	,	_	_	_	_	_	_	_	_
+33	это	_	_	_	_	_	_	_	_
+34	ничего	_	_	_	_	_	_	_	_
+35	бы	_	_	_	_	_	_	_	_
+36	не	_	_	_	_	_	_	_	_
+37	изменило	_	_	_	_	_	_	_	SpaceAfter=No
+38	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0047-p4-s3
+# text = Надо быть объективным: сербы были сегодня свежее, лучше, и они заслуженно выиграли'', - добавил он.
+1	Надо	_	_	_	_	_	_	_	_
+2	быть	_	_	_	_	_	_	_	_
+3	объективным	_	_	_	_	_	_	_	SpaceAfter=No
+4	:	_	_	_	_	_	_	_	_
+5	сербы	_	_	_	_	_	_	_	bratA7=T54:Citizenship|bratT54=Nationality
+6	были	_	_	_	_	_	_	_	_
+7	сегодня	_	_	_	_	_	_	_	bratA21=T55:Past|bratT55=Date-absolute
+8	свежее	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	лучше	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	они	_	_	_	_	_	_	_	_
+14	заслуженно	_	_	_	_	_	_	_	_
+15	выиграли	_	_	_	_	_	_	_	SpaceAfter=No
+16	''	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	-	_	_	_	_	_	_	_	_
+19	добавил	_	_	_	_	_	_	_	_
+20	он	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
+

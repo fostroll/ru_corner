@@ -38,17 +38,19 @@
 19	Нурмагомедове	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T9:Male|bratT31=Person-surname|bratT9=Person
 20	,	_	_	_	_	_	_	_	_
 21	передает	_	_	_	_	_	_	_	_
-22	Sport24	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
-23	со	_	_	_	_	_	_	_	_
-24	ссылкой	_	_	_	_	_	_	_	_
-25	на	_	_	_	_	_	_	_	_
-26	оргкомитет	_	_	_	_	_	_	_	bratT13=Organization
-27	акции	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product|bratT13=Organization
-28	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product|bratT13=Organization
-29	Сохраним	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product|bratT13=Organization
-30	лес	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product|bratT13=Organization
-31	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product|bratT13=Organization
-32	.	_	_	_	_	_	_	_	_
+22-23	Sport24	_	_	_	_	_	_	_	_
+22	Sport	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
+23	24	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization|bratT39=Time-period|bratT41=Duration
+24	со	_	_	_	_	_	_	_	_
+25	ссылкой	_	_	_	_	_	_	_	_
+26	на	_	_	_	_	_	_	_	_
+27	оргкомитет	_	_	_	_	_	_	_	bratT13=Organization
+28	акции	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product|bratT13=Organization
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product|bratT13=Organization
+30	Сохраним	_	_	_	_	_	_	_	bratA3=T12:Project|bratT12=Product|bratT13=Organization
+31	лес	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product|bratT13=Organization
+32	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Project|bratT12=Product|bratT13=Organization
+33	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p3
 # par_text = Отмечается, что в общей сложности высадили 58 сосен по количеству прожитых наставником лет. Превратить парк в оазис было мечтой Нурмагомедова-старшего.
@@ -78,6 +80,7 @@
 4	оазис	_	_	_	_	_	_	_	_
 5	было	_	_	_	_	_	_	_	_
 6	мечтой	_	_	_	_	_	_	_	_
+7-9	Нурмагомедова-старшего	_	_	_	_	_	_	_	SpaceAfter=No
 7	Нурмагомедова	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Male|bratT15=Person|bratT32=Person-surname
 8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Male|bratT15=Person
 9	старшего	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Male|bratT15=Person|bratT33=Person-affix
@@ -126,7 +129,7 @@
 21	по	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
 22	лесному	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
 23	хозяйству	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
-24	республики	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person
+24	республики	_	_	_	_	_	_	_	bratA9=T18:Male|bratT16=Organization|bratT17=Person-property|bratT18=Person|bratT42=GPE
 25	Вагаб	_	_	_	_	_	_	_	bratA9=T18:Male|bratT18=Person|bratT34=Person-forename
 26	Абдулхамидов	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T18:Male|bratT18=Person|bratT35=Person-surname
 27	.	_	_	_	_	_	_	_	_
@@ -153,8 +156,8 @@
 1	Ранее	_	_	_	_	_	_	_	bratA4=T26:Past|bratT26=Date-relative
 2	Хабиб	_	_	_	_	_	_	_	bratA11=T21:Male|bratT21=Person|bratT38=Person-forename
 3	призвал	_	_	_	_	_	_	_	_
-4	жителей	_	_	_	_	_	_	_	_
-5	Дагестана	_	_	_	_	_	_	_	bratT22=GPE
+4	жителей	_	_	_	_	_	_	_	bratA12=T40:Resident|bratT40=Nationality
+5	Дагестана	_	_	_	_	_	_	_	bratA12=T40:Resident|bratT22=GPE|bratT40=Nationality
 6	соблюдать	_	_	_	_	_	_	_	_
 7	ПДД	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_

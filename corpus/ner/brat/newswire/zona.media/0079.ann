@@ -1,0 +1,77 @@
+T1	GPE 0 10	На   Урале
+T2	Family 41 47	матери
+T3	Family 82 86	дочь
+T4	Age 66 79	новорожденную
+T5	Nationality 105 152	жительницу   Карпинска   Свердловской   области
+A1	Resident T5
+T7	GPE 130 152	Свердловской   области
+T8	Age 200 218	несовершеннолетней
+T9	Law 225 276	пункт   ``   г   ''   части   2   статьи   117   УК
+T10	Service 417 422	сайте
+A3	Media T10
+T11	Age 332 345	новорожденную
+T12	Family 348 353	дочку
+T13	Organization 425 478	регионального   управления   Следственного   комитета
+T14	Organization 502 510	E 1 . ru
+T15	Age 517 526	37-летняя
+T16	Person 529 533	Юлия
+A4	Female T16
+T17	Person-forename 529 533	Юлия
+T18	Date-period-relative 536 543	полгода
+A5	Past T18
+T19	Age 556 569	новорожденную
+T20	Person-property 628 641	подозреваемой
+T21	Date-absolute 653 666	после   родов
+T22	Age 690 697	ребенок
+T23	Person 719 723	Юлии
+A6	Female T23
+T24	Person-forename 719 723	Юлии
+T25	Person-property 735 745	сотрудницы
+T26	Family 828 832	мать
+T27	Age 900 907	ребенок
+T28	Age 1017 1024	ребенка
+T29	Family 1044 1048	мать
+T30	Age 1102 1109	ребенку
+T31	Age 1124 1131	ребенка
+T33	Person 1308 1312	Юлию
+A7	Female T33
+T34	Person-forename 1308 1312	Юлию
+T36	Organization 1363 1371	E 1 . ru
+T37	Person 1414 1481	Представитель   регионального   управления   СК   Валерий   Горелых
+A8	Male T37
+T38	Person-property 1414 1461	Представитель   регионального   управления   СК
+T39	Organization 1430 1461	регионального   управления   СК
+T40	Person-forename 1464 1471	Валерий
+T41	Person-surname 1474 1481	Горелых
+T42	Person-property 1554 1567	Подозреваемая
+T43	Person-property 1708 1714	врачам
+T6	GPE 118 152	Карпинска   Свердловской   области
+T44	Person 327 353	ее   новорожденную   дочку
+A2	Female T44
+A9	Media T14
+A10	Media T36
+T32	Duration 536 543	полгода
+T35	Ordinal 233 244	``   г   ''
+T45	Ordinal 255 256	2
+T46	Ordinal 268 271	117
+T47	Law 274 276	УК
+T48	Date-relative 283 305	после   того   ,   как
+A11	Past T48
+T49	Organization 454 478	Следственного   комитета
+A12	Department T13
+A13	Past T21
+T50	Date-absolute 1668 1686	в   момент   родов
+A14	Past T50
+T52	Date-relative 782 787	потом
+T53	Person-property 1185 1192	полицию
+T54	Date-period-absolute 1607 1632	в   период   беременности
+A15	Past T54
+A16	Past T52
+T51	Web-address 502 510	E 1 . ru
+T55	Web-address 1363 1371	E 1 . ru
+T56	GPE 425 438	регионального
+A17	Adjective T56
+T57	GPE 1430 1443	регионального
+A18	Adjective T57
+T58	Organization 1459 1461	СК
+T59	Event 1681 1686	родов

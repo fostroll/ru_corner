@@ -49,7 +49,7 @@
 3	экспертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA6=T23:Future|bratT23=Date-absolute
-6	этом	_	_	_	_	_	_	_	bratA6=T23:Future|bratT23=Date-absolute
+6	этом	_	_	_	_	_	_	_	bratA6=T23:Future|bratT23=Date-absolute|bratT35=Ordinal
 7	году	_	_	_	_	_	_	_	bratA6=T23:Future|bratT23=Date-absolute
 8	аудитория	_	_	_	_	_	_	_	_
 9	сильно	_	_	_	_	_	_	_	_
@@ -106,7 +106,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	то	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	bratA7=T11:Future|bratT11=Date-absolute
-13	этом	_	_	_	_	_	_	_	bratA7=T11:Future|bratT11=Date-absolute
+13	этом	_	_	_	_	_	_	_	bratA7=T11:Future|bratT11=Date-absolute|bratT36=Ordinal
 14	году	_	_	_	_	_	_	_	bratA7=T11:Future|bratT11=Date-absolute
 15	цифра	_	_	_	_	_	_	_	_
 16	увеличится	_	_	_	_	_	_	_	_
@@ -118,7 +118,7 @@
 # newpar id = 0044-p5
 # par_text = В Ассоциации компаний интернет-торговли (АКИТ) полагают, что скидки на некоторые позиции могут доходить до 90%.
 # sent_id = 0044-p5-s1
-# text = В Ассоциации компаний интернет-торговли (АКИТ) полагают, что скидки на некоторые позиции могут доходить до 90 %.
+# text = В Ассоциации компаний интернет-торговли (АКИТ) полагают, что скидки на некоторые позиции могут доходить до 90%.
 1	В	_	_	_	_	_	_	_	_
 2	Ассоциации	_	_	_	_	_	_	_	bratT13=Organization
 3	компаний	_	_	_	_	_	_	_	bratT13=Organization
@@ -136,14 +136,15 @@
 15	могут	_	_	_	_	_	_	_	_
 16	доходить	_	_	_	_	_	_	_	_
 17	до	_	_	_	_	_	_	_	bratT14=Percent
-18	90	_	_	_	_	_	_	_	bratT14=Percent
+18-19	90%	_	_	_	_	_	_	_	SpaceAfter=No
+18	90	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Percent
 19	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Percent
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0044-p6
 # par_text = Больше всего упадут цены на одежду и обувь – 70-80%, на товары для дома – 30-50%. А вот гаджеты и бытовая техника потеряют в цене минимально – 5-20%, пишет газета "Известия".
 # sent_id = 0044-p6-s1
-# text = Больше всего упадут цены на одежду и обувь - 70-80 %, на товары для дома - 30-50 %.
+# text = Больше всего упадут цены на одежду и обувь - 70 - 80%, на товары для дома - 30 - 50%.
 1	Больше	_	_	_	_	_	_	_	_
 2	всего	_	_	_	_	_	_	_	_
 3	упадут	_	_	_	_	_	_	_	_
@@ -153,20 +154,26 @@
 7	и	_	_	_	_	_	_	_	_
 8	обувь	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
-10	70-80	_	_	_	_	_	_	_	bratT15=Percent
-11	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Percent
-12	,	_	_	_	_	_	_	_	_
-13	на	_	_	_	_	_	_	_	_
-14	товары	_	_	_	_	_	_	_	_
-15	для	_	_	_	_	_	_	_	_
-16	дома	_	_	_	_	_	_	_	_
-17	-	_	_	_	_	_	_	_	_
-18	30-50	_	_	_	_	_	_	_	bratT16=Percent
-19	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Percent
-20	.	_	_	_	_	_	_	_	_
+10	70	_	_	_	_	_	_	_	bratT15=Percent
+11	-	_	_	_	_	_	_	_	bratT15=Percent
+12-13	80%	_	_	_	_	_	_	_	SpaceAfter=No
+12	80	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Percent
+13	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Percent
+14	,	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	товары	_	_	_	_	_	_	_	_
+17	для	_	_	_	_	_	_	_	_
+18	дома	_	_	_	_	_	_	_	_
+19	-	_	_	_	_	_	_	_	_
+20	30	_	_	_	_	_	_	_	bratT16=Percent
+21	-	_	_	_	_	_	_	_	bratT16=Percent
+22-23	50%	_	_	_	_	_	_	_	SpaceAfter=No
+22	50	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Percent
+23	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Percent
+24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0044-p6-s2
-# text = А вот гаджеты и бытовая техника потеряют в цене минимально - 5-20 %, пишет газета ``Известия''.
+# text = А вот гаджеты и бытовая техника потеряют в цене минимально - 5 - 20%, пишет газета ``Известия''.
 1	А	_	_	_	_	_	_	_	_
 2	вот	_	_	_	_	_	_	_	_
 3	гаджеты	_	_	_	_	_	_	_	_
@@ -178,15 +185,18 @@
 9	цене	_	_	_	_	_	_	_	_
 10	минимально	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
-12	5-20	_	_	_	_	_	_	_	bratT17=Percent
-13	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Percent
-14	,	_	_	_	_	_	_	_	_
-15	пишет	_	_	_	_	_	_	_	_
-16	газета	_	_	_	_	_	_	_	bratA3=T18:Media|bratT18=Organization
-17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Media|bratT18=Organization
-18	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Media|bratT18=Organization
-19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Media|bratT18=Organization
-20	.	_	_	_	_	_	_	_	_
+12	5	_	_	_	_	_	_	_	bratT17=Percent
+13	-	_	_	_	_	_	_	_	bratT17=Percent
+14-15	20%	_	_	_	_	_	_	_	SpaceAfter=No
+14	20	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Percent
+15	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Percent
+16	,	_	_	_	_	_	_	_	_
+17	пишет	_	_	_	_	_	_	_	_
+18	газета	_	_	_	_	_	_	_	bratA3=T18:Media|bratT18=Organization
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Media|bratT18=Organization
+20	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Media|bratT18=Organization
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Media|bratT18=Organization
+22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0044-p7
 # par_text = Тем временем, именно за гаджетами и бытовой техникой придут 80 процентов покупателей. Остальные намерены приобрети обувь, товары для дома и иные категории.
@@ -252,7 +262,7 @@
 24	сообщает	_	_	_	_	_	_	_	_
 25	телеканал	_	_	_	_	_	_	_	bratA4=T22:Media|bratT22=Organization
 26	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T22:Media|bratT22=Organization
-27	360	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T22:Media|bratT22=Organization
+27	360	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T22:Media|bratT22=Organization|bratT40=Quantity
 28	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T22:Media|bratT22=Organization
 29	.	_	_	_	_	_	_	_	_
 

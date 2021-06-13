@@ -1,0 +1,104 @@
+T1	Organization 19 22	РФС
+T2	Person-property 0 22	Почетный   глава   РФС
+T3	Person 95 100	Дзюбы
+T4	Organization 125 158	Российского   футбольного   союза
+T5	Organization 165 168	РФС
+T6	Person-property 102 172	Почетный   президент   Российского   футбольного   союза   (   РФС   )
+T7	Person 102 194	Почетный   президент   Российского   футбольного   союза   (   РФС   )   Вячеслав   Колосков
+T8	GPE 268 274	России
+T9	Organization 258 274	сборной   России
+T10	Person-property 319 329	нападающий
+T11	Person 319 345	нападающий   Артем   Дзюба
+T12	Event 285 316	скандала   с   интимным   видео
+T13	GPE 454 463	Молдавией
+T14	Organization 495 499	ТАСС
+A1	Media T14
+T15	Quantity 470 473	0:0
+T16	Event 428 447	контрольном   матче
+T18	Person 546 551	Дзюба
+T19	Date-absolute 582 588	сейчас
+T20	Person 637 656	Александр   Соболев
+T21	Person 763 768	Дзюбе
+T22	Date-period-absolute 792 813	в   последнее   время
+T23	Person 847 855	Колосков
+T24	Organization 898 901	РФС
+T25	Person-property 877 901	бывший   президент   РФС
+T26	GPE 919 928	Молдавией
+T27	Date-period-relative 1080 1115	в   последние   10   -   15   минут
+T28	Person 1010 1019	Колоскова
+T29	GPE 1130 1136	России
+T30	GPE 1143 1151	Молдавии
+T31	Date-absolute 1163 1174	12   ноября
+T32	GPE 1181 1189	Кишиневе
+T33	Service 1262 1278	Telegram-каналах
+T34	Service 1285 1292	Twitter
+A3	Media T33
+T35	Person 1341 1346	Дзюбы
+T36	Date-absolute 1351 1361	8   ноября
+T37	Time-absolute 1221 1229	В   ночь
+T38	Date-absolute 1221 1255	В   ночь   с   7   на   8   ноября
+T39	GPE 1393 1399	России
+T40	Organization 1383 1399	сборной   России
+T41	Person-property 1364 1399	главный   тренер   сборной   России
+T42	Person 1364 1422	главный   тренер   сборной   России   Станислав   Черчесов
+T43	Person-property 1436 1447	нападающего
+T44	Person-property 1624 1634	футболиста
+T45	Person-property 1661 1670	наставник
+T47	Person-surname 95 100	Дзюбы
+A4	Male T3
+T48	GPE 125 136	Российского
+A5	Adjective T48
+T49	Person-forename 175 183	Вячеслав
+T50	Person-surname 186 194	Колосков
+A6	Male T7
+T17	Person-forename 332 337	Артем
+T51	Person-surname 340 345	Дзюба
+A7	Male T11
+T52	Person-surname 546 551	Дзюба
+A8	Male T18
+A9	Present T19
+T53	Person-forename 637 646	Александр
+T54	Person-surname 649 656	Соболев
+A10	Male T20
+T55	Person-surname 763 768	Дзюбе
+A11	Male T21
+T56	Person-surname 847 855	Колосков
+A13	Male T23
+T57	Quantity 949 962	двухсторонний
+T58	Person-surname 1010 1019	Колоскова
+A15	Male T28
+A16	Past T31
+T59	Event 1120 1127	Встреча
+A17	Past T38
+T60	Person-surname 1341 1346	Дзюбы
+A18	Male T35
+A19	Past T36
+T61	Person-forename 1402 1411	Станислав
+T62	Person-surname 1414 1422	Черчесов
+A20	Male T42
+T63	Ordinal 1084 1093	последние
+T64	Duration 1096 1115	10   -   15   минут
+T65	Ordinal 796 805	последнее
+T66	Date-absolute 236 246	ноябрьских
+T67	Date-absolute 1494 1504	ноябрьские
+T68	Date-period-absolute 74 92	после   исключения
+T69	Date-period-absolute 411 447	во   вчерашнем   контрольном   матче
+A22	Past T69
+T70	Event 249 255	матчей
+T71	Event 565 570	матче
+T72	Event 908 912	игра
+A12	Past-Pres T22
+T46	Time-relative 972 982	во   время
+T73	Event 1507 1512	матчи
+A14	Past-Pres T68
+A2	Past T27
+T74	Organization 64 71	сборной
+T75	Event 82 92	исключения
+T76	GPE 386 398	национальной
+A21	Adjective T76
+T77	Organization 386 408	национальной   команды
+T78	GPE 1464 1476	национальной
+A23	Adjective T78
+T79	Organization 1464 1486	национальной   команды
+T80	Event 965 969	матч
+T81	Event 985 991	сборов

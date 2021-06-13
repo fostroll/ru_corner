@@ -22,8 +22,8 @@
 3	за	_	_	_	_	_	_	_	bratA8=T5:Past-Pres|bratT5=Date-period-absolute
 4	сутки	_	_	_	_	_	_	_	bratA8=T5:Past-Pres|bratT37=Duration|bratT5=Date-period-absolute
 5	умерли	_	_	_	_	_	_	_	_
-6	292	_	_	_	_	_	_	_	bratT7=Quantity
-7	пациента	_	_	_	_	_	_	_	bratT7=Quantity
+6	292	_	_	_	_	_	_	_	_
+7	пациента	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
 9	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-term
 10	.	_	_	_	_	_	_	_	_
@@ -80,10 +80,10 @@
 7	выявлено	_	_	_	_	_	_	_	_
 8	19	_	_	_	_	_	_	_	bratT19=Quantity
 9	404	_	_	_	_	_	_	_	bratT19=Quantity
-10	новых	_	_	_	_	_	_	_	bratT19=Quantity
-11	случая	_	_	_	_	_	_	_	bratT19=Quantity
-12	коронавируса	_	_	_	_	_	_	_	bratT18=Other-term
-13	в	_	_	_	_	_	_	_	bratT17=Quantity
+10	новых	_	_	_	_	_	_	_	bratT19=Quantity|bratT43=Event
+11	случая	_	_	_	_	_	_	_	bratT19=Quantity|bratT43=Event
+12	коронавируса	_	_	_	_	_	_	_	bratT18=Other-term|bratT43=Event
+13	в	_	_	_	_	_	_	_	_
 14	85	_	_	_	_	_	_	_	bratT17=Quantity
 15	регионах	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
 16	.	_	_	_	_	_	_	_	_
@@ -128,15 +128,15 @@
 2	видно	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	числу	_	_	_	_	_	_	_	_
-5	вновь	_	_	_	_	_	_	_	_
-6	выявляемых	_	_	_	_	_	_	_	_
-7	случаев	_	_	_	_	_	_	_	_
-8	заражений	_	_	_	_	_	_	_	_
-9	и	_	_	_	_	_	_	_	_
-10	госпитализаций	_	_	_	_	_	_	_	SpaceAfter=No
+5	вновь	_	_	_	_	_	_	_	bratA12=T41:Plural|bratT41=Event
+6	выявляемых	_	_	_	_	_	_	_	bratA12=T41:Plural|bratT41=Event
+7	случаев	_	_	_	_	_	_	_	bratA12=T41:Plural|bratT41=Event
+8	заражений	_	_	_	_	_	_	_	bratA12=T41:Plural|bratT41=Event
+9	и	_	_	_	_	_	_	_	bratA12=T41:Plural|bratT41=Event
+10	госпитализаций	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T41:Plural|bratT41=Event
 11	,	_	_	_	_	_	_	_	_
 12	отметил	_	_	_	_	_	_	_	_
-13	градоначальник	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
+13	градоначальник	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T7:Male|bratT25=Person-property|bratT7=Person
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0044-p6
@@ -150,10 +150,10 @@
 5	более	_	_	_	_	_	_	_	_
 6	19	_	_	_	_	_	_	_	bratT27=Quantity
 7	тысяч	_	_	_	_	_	_	_	bratT27=Quantity
-8	новых	_	_	_	_	_	_	_	bratT27=Quantity
-9	заражений	_	_	_	_	_	_	_	bratT27=Quantity
-10	коронавирусом	_	_	_	_	_	_	_	bratT28=Other-term
-11	в	_	_	_	_	_	_	_	bratT29=Quantity
+8	новых	_	_	_	_	_	_	_	bratT27=Quantity|bratT42=Event
+9	заражений	_	_	_	_	_	_	_	bratT27=Quantity|bratT42=Event
+10	коронавирусом	_	_	_	_	_	_	_	bratT28=Other-term|bratT42=Event
+11	в	_	_	_	_	_	_	_	_
 12	85	_	_	_	_	_	_	_	bratT29=Quantity
 13	российских	_	_	_	_	_	_	_	bratA11=T36:Adjective|bratT29=Quantity|bratT36=GPE
 14	регионах	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity

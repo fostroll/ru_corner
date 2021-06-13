@@ -10,7 +10,7 @@ T9	Person-property 284 297	Правозащитник
 T10	Person-property 331 336	актер
 T11	Organization 427 448	``   Москве   24   ''
 T12	Person 468 478	Мельникова
-T13	Organization 556 560	СИЗО
+T13	Organization 546 560	местном   СИЗО
 T14	Duration 563 580	около   14   дней
 T15	Person 605 613	Ефремова
 T16	Person 730 737	Ефремов
@@ -29,7 +29,7 @@ T29	Person 1749 1756	Ефремов
 T30	Organization 1830 1834	ФСИН
 T31	Other-term 1866 1870	МРОТ
 T32	Person-property 1386 1410	медицинских   работников
-T37	Other-term 531 539	карантин
+T37	Event 531 539	карантин
 T21	GPE 257 279	Белгородской   области
 A1	Media T11
 T33	Organization 113 165	Международного   комитета   защиты   прав   человека
@@ -66,3 +66,23 @@ A13	Male T24
 A14	Male T25
 A15	Male T29
 A16	Male T28
+T53	Event 1194 1212	футбольные   матчи
+T54	Time-period 441 443	24
+T55	Duration 441 443	24
+T56	Person 0 13	Правозащитник
+A17	Male T56
+T57	Person 284 297	Правозащитник
+A18	Male T57
+T58	Person 331 336	актер
+A19	Male T58
+T59	Person 695 708	Правозащитник
+A20	Male T59
+T60	Person 860 866	Актеру
+A21	Male T60
+T61	Person 1123 1128	актер
+A22	Male T61
+T62	Person 1415 1422	Артиста
+A23	Male T62
+T63	Event 594 602	прибытие
+T64	GPE 546 553	местном
+A24	Adjective T64

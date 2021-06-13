@@ -5,11 +5,11 @@
 # text = Полная родственница самой красивой женщины в мире дала отпор любителям худобы
 1	Полная	_	_	_	_	_	_	_	_
 2	родственница	_	_	_	_	_	_	_	bratA16=T55:Female|bratT1=Family|bratT55=Person
-3	самой	_	_	_	_	_	_	_	bratA16=T55:Female|bratT54=Person-property|bratT55=Person
-4	красивой	_	_	_	_	_	_	_	bratA16=T55:Female|bratT54=Person-property|bratT55=Person
-5	женщины	_	_	_	_	_	_	_	bratA16=T55:Female|bratT54=Person-property|bratT55=Person
-6	в	_	_	_	_	_	_	_	bratA16=T55:Female|bratT54=Person-property|bratT55=Person
-7	мире	_	_	_	_	_	_	_	bratA16=T55:Female|bratT37=GPE|bratT54=Person-property|bratT55=Person
+3	самой	_	_	_	_	_	_	_	bratA16=T55:Female|bratA19=T58:Female|bratT54=Person-property|bratT55=Person|bratT58=Person
+4	красивой	_	_	_	_	_	_	_	bratA16=T55:Female|bratA19=T58:Female|bratT54=Person-property|bratT55=Person|bratT58=Person
+5	женщины	_	_	_	_	_	_	_	bratA16=T55:Female|bratA19=T58:Female|bratT54=Person-property|bratT55=Person|bratT58=Person
+6	в	_	_	_	_	_	_	_	bratA16=T55:Female|bratA19=T58:Female|bratT54=Person-property|bratT55=Person|bratT58=Person
+7	мире	_	_	_	_	_	_	_	bratA16=T55:Female|bratA19=T58:Female|bratT37=GPE|bratT54=Person-property|bratT55=Person|bratT58=Person
 8	дала	_	_	_	_	_	_	_	_
 9	отпор	_	_	_	_	_	_	_	_
 10	любителям	_	_	_	_	_	_	_	_
@@ -29,11 +29,11 @@
 8	,	_	_	_	_	_	_	_	_
 9	ранее	_	_	_	_	_	_	_	bratA5=T32:Past|bratT32=Date-absolute
 10	признанной	_	_	_	_	_	_	_	_
-11	самой	_	_	_	_	_	_	_	_
-12	красивой	_	_	_	_	_	_	_	_
-13	в	_	_	_	_	_	_	_	_
-14	мире	_	_	_	_	_	_	_	bratT38=GPE
-15	женщиной	_	_	_	_	_	_	_	SpaceAfter=No
+11	самой	_	_	_	_	_	_	_	bratT53=Person-property
+12	красивой	_	_	_	_	_	_	_	bratT53=Person-property
+13	в	_	_	_	_	_	_	_	bratT53=Person-property
+14	мире	_	_	_	_	_	_	_	bratT38=GPE|bratT53=Person-property
+15	женщиной	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Person-property
 16	,	_	_	_	_	_	_	_	_
 17	дала	_	_	_	_	_	_	_	_
 18	отпор	_	_	_	_	_	_	_	_
@@ -216,7 +216,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	комментариях	_	_	_	_	_	_	_	_
 3	подписчики	_	_	_	_	_	_	_	_
-4	девушки	_	_	_	_	_	_	_	_
+4	девушки	_	_	_	_	_	_	_	bratA20=T59:Female|bratT59=Person
 5	выразили	_	_	_	_	_	_	_	_
 6	восхищение	_	_	_	_	_	_	_	_
 7	и	_	_	_	_	_	_	_	_
@@ -227,54 +227,69 @@
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0021-p5-s2
-# text = «Ты такая прелестная! Мне нравится энергия, которую ты излучаешь, благодаря этому я чувствую себя увереннее в своем теле», «Ежедневное напоминание о любви к себе. Спасибо!», «Ты идеальная», «Красотка!» - писали они.
+# text = «Ты такая прелестная!
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 2	Ты	_	_	_	_	_	_	_	_
 3	такая	_	_	_	_	_	_	_	_
 4	прелестная	_	_	_	_	_	_	_	SpaceAfter=No
 5	!	_	_	_	_	_	_	_	_
-6	Мне	_	_	_	_	_	_	_	_
-7	нравится	_	_	_	_	_	_	_	_
-8	энергия	_	_	_	_	_	_	_	SpaceAfter=No
-9	,	_	_	_	_	_	_	_	_
-10	которую	_	_	_	_	_	_	_	_
-11	ты	_	_	_	_	_	_	_	_
-12	излучаешь	_	_	_	_	_	_	_	SpaceAfter=No
-13	,	_	_	_	_	_	_	_	_
-14	благодаря	_	_	_	_	_	_	_	_
-15	этому	_	_	_	_	_	_	_	_
-16	я	_	_	_	_	_	_	_	_
-17	чувствую	_	_	_	_	_	_	_	_
-18	себя	_	_	_	_	_	_	_	_
-19	увереннее	_	_	_	_	_	_	_	_
-20	в	_	_	_	_	_	_	_	_
-21	своем	_	_	_	_	_	_	_	_
-22	теле	_	_	_	_	_	_	_	SpaceAfter=No
-23	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-24	,	_	_	_	_	_	_	_	_
-25	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-26	Ежедневное	_	_	_	_	_	_	_	bratT26=Duration|bratT39=Time-period
-27	напоминание	_	_	_	_	_	_	_	_
-28	о	_	_	_	_	_	_	_	_
-29	любви	_	_	_	_	_	_	_	_
-30	к	_	_	_	_	_	_	_	_
-31	себе	_	_	_	_	_	_	_	SpaceAfter=No
-32	.	_	_	_	_	_	_	_	_
-33	Спасибо	_	_	_	_	_	_	_	SpaceAfter=No
-34	!	_	_	_	_	_	_	_	SpaceAfter=No
-35	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-36	,	_	_	_	_	_	_	_	_
-37	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-38	Ты	_	_	_	_	_	_	_	_
-39	идеальная	_	_	_	_	_	_	_	SpaceAfter=No
-40	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-41	,	_	_	_	_	_	_	_	_
-42	``	_	_	_	_	_	_	_	SpaceAfter=No
-43	Красотка	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-44	!	_	_	_	_	_	_	_	SpaceAfter=No
-45	''	_	_	_	_	_	_	_	QuotationEnd=»
-46	-	_	_	_	_	_	_	_	_
-47	писали	_	_	_	_	_	_	_	_
-48	они	_	_	_	_	_	_	_	SpaceAfter=No
-49	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0021-p5-s3
+# text = Мне нравится энергия, которую ты излучаешь, благодаря этому я чувствую себя увереннее в своем теле»,
+1	Мне	_	_	_	_	_	_	_	_
+2	нравится	_	_	_	_	_	_	_	_
+3	энергия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	которую	_	_	_	_	_	_	_	_
+6	ты	_	_	_	_	_	_	_	_
+7	излучаешь	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	благодаря	_	_	_	_	_	_	_	_
+10	этому	_	_	_	_	_	_	_	_
+11	я	_	_	_	_	_	_	_	_
+12	чувствую	_	_	_	_	_	_	_	_
+13	себя	_	_	_	_	_	_	_	_
+14	увереннее	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	своем	_	_	_	_	_	_	_	_
+17	теле	_	_	_	_	_	_	_	SpaceAfter=No
+18	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0021-p5-s4
+# text = «Ежедневное напоминание о любви к себе.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Ежедневное	_	_	_	_	_	_	_	bratT26=Duration|bratT39=Time-period
+3	напоминание	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	любви	_	_	_	_	_	_	_	_
+6	к	_	_	_	_	_	_	_	_
+7	себе	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0021-p5-s5
+# text = Спасибо!»,
+1	Спасибо	_	_	_	_	_	_	_	SpaceAfter=No
+2	!	_	_	_	_	_	_	_	SpaceAfter=No
+3	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0021-p5-s6
+# text = «Ты идеальная»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Ты	_	_	_	_	_	_	_	_
+3	идеальная	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0021-p5-s7
+# text = «Красотка!» - писали они.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Красотка	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+3	!	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	QuotationEnd=»
+5	-	_	_	_	_	_	_	_	_
+6	писали	_	_	_	_	_	_	_	_
+7	они	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
 

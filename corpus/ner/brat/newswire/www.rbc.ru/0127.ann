@@ -1,0 +1,63 @@
+T1	GPE 0 5	Китай
+T2	GPE 70 75	Китай
+T3	Location 64 68	Луне
+T4	Product 99 129	ракету   ``   Чанчжэн - 5   ''
+T5	Person 136 164	зондом   ``   Чанъэ - 5   ''
+T6	Location 188 192	Луны
+T7	Organization 225 279	Китайского   национального   космического   управления
+T8	GPE 225 235	Китайского
+A1	Adjective T8
+T9	Organization 286 290	CNSA
+T10	Service 217 222	сайте
+A2	Media T10
+T11	Facility 335 355	космодроме   Вэньчан
+T12	Person 360 386	Зонд   ``   Чанъэ - 5   ''
+T13	Date-relative 389 418	примерно   через   40   минут
+T14	Duration 408 418	40   минут
+T15	Date-absolute 449 480	Приблизительно   через   неделю
+A3	Future T15
+T16	Duration 474 480	неделю
+T17	Location 514 544	поверхности   спутника   Земли
+T18	Location 539 544	Земли
+T19	Organization 550 566	Телеканал   CGTN
+A4	Media T19
+T20	Person 613 632	``   Чанъэ - 5   ''
+T21	Location 675 680	Землю
+T22	Ordinal 750 756	первая
+T23	Location 825 830	Землю
+T24	Quantity 883 900	четырех   модулей
+T25	Location 928 932	Луну
+T26	GPE 1097 1102	Китай
+T27	Ordinal 1114 1120	первой
+T28	Date-period-absolute 1123 1149	за   последние   44   года
+A5	Past-Pres T28
+T29	Location 1208 1212	Луны
+T30	Date-absolute 1218 1242	В   январе   2019   года
+A6	Past T30
+T31	GPE 1245 1250	Китай
+T32	Ordinal 1267 1273	первой
+T33	Location 1324 1349	обратной   стороне   Луны
+T34	Location 1424 1429	Земли
+T35	Location 1413 1429	спутника   Земли
+T36	Quantity 1488 1513	несколько   экспериментов
+T37	Location 1564 1568	Луну
+T38	Quantity 1571 1603	шесть   биологических   образцов
+T39	Date-relative 1702 1707	Затем
+T40	Location 1732 1737	Землю
+T41	Ordinal 1128 1137	последние
+A7	Past T13
+T42	Location 693 700	лунного
+A8	Adjective T42
+T43	GPE 786 790	мире
+T44	Duration 1140 1149	44   года
+A9	Past T39
+T45	Organization 848 853	канал
+A10	Media T45
+T46	Ordinal 380 381	5
+T47	Ordinal 626 627	5
+T50	Ordinal 123 124	5
+T52	Ordinal 158 159	5
+A12	Unconscious T5
+A13	Unconscious T12
+A14	Unconscious T20
+T48	Location 1345 1349	Луны

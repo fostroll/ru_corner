@@ -1,0 +1,60 @@
+T1	Person-forename 0 6	Джордж
+T2	Person-forename 13 18	Амаль
+T3	Person-surname 21 26	Клуни
+T4	Person 0 26	Джордж   и   Амаль   Клуни
+A1	Plural T4
+T5	Person 0 6	Джордж
+A2	Male T5
+T6	Person 13 18	Амаль
+A3	Female T6
+T7	Organization 67 76	Microsoft
+T8	Person-forename 78 84	Джордж
+T9	Person-forename 91 96	Амаль
+T10	Person-surname 99 104	Клуни
+T11	Person 78 104	Джордж   и   Амаль   Клуни
+A4	Plural T11
+T12	Person 78 84	Джордж
+A5	Male T12
+T13	Person 91 104	Амаль   Клуни
+A6	Female T13
+T14	Family 136 140	пара
+T15	Nationality 237 245	граждане
+T16	Quantity 267 277	одной   из
+T17	GPE 300 307	мировых
+A7	Adjective T17
+T18	Person-property 280 323	самых   известных   мировых   правозащитниц
+T19	Person-property 330 335	актер
+T20	Quantity 386 392	многим
+T21	Date-absolute 438 443	Вчера
+A8	Past T21
+T22	Family 459 468	супругами
+T23	Organization 471 520	фонд   The   Clooney   Foundation   for   Justice
+T24	Organization 575 584	Microsoft
+T26	Service 591 632	приложения   под   названием   TrialWatch
+T27	GPE 715 726	всем   мире
+T28	Person-property 794 804	волонтерам
+T29	Person-property 959 964	судей
+T30	Person-property 971 981	прокуроров
+T31	Person-surname 1103 1108	Клуни
+T32	Family 1095 1100	семья
+T33	Other-group 1121 1153	представителей   ЛГБТ-сообщества
+T34	Person-property 1160 1175	правозащитников
+T35	Person-property 1182 1193	журналистов
+T36	GPE 1216 1228	всему   миру
+T37	Other-group 1308 1319	диссидентов
+T38	Person-forename 1370 1375	Амаль
+T39	Person 1370 1375	Амаль
+A10	Female T39
+T40	Date-period-absolute 1413 1427	до   сих   пор
+A11	Past-Pres T40
+T41	Person-surname 1540 1545	Клуни
+T42	Organization 1519 1545	Фонда   правосудия   Клуни
+T43	Service 1494 1516	Программа   TrialWatch
+T44	Other-group 1673 1678	жертв
+T45	Quantity 1757 1775	по   одному   делу
+T47	Quantity 1778 1786	за   раз
+T48	Person 1103 1108	Клуни
+T49	Person 1540 1545	Клуни
+A9	Citizenship T15
+T25	Nationality 1059 1068	населения
+A12	Resident T25

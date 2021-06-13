@@ -1,0 +1,325 @@
+# newdoc id = 0122
+# newpar id = 0122-p1
+# par_text = Футболисты "Тамбова" готовы бойкотировать матч со "Спартаком" из-за долгов по зарплате
+# sent_id = 0122-p1-s1
+# text = Футболисты ``Тамбова'' готовы бойкотировать матч со ``Спартаком'' из-за долгов по зарплате
+1	Футболисты	_	_	_	_	_	_	_	bratT2=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT2=Person-property
+3	Тамбова	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT2=Person-property|bratT53=GPE
+4	''	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property
+5	готовы	_	_	_	_	_	_	_	_
+6	бойкотировать	_	_	_	_	_	_	_	_
+7	матч	_	_	_	_	_	_	_	bratT4=Event
+8	со	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+10	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+11	''	_	_	_	_	_	_	_	bratT3=Organization
+12	из-за	_	_	_	_	_	_	_	_
+13	долгов	_	_	_	_	_	_	_	_
+14	по	_	_	_	_	_	_	_	_
+15	зарплате	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p2
+# par_text = Футболисты "Тамбова" готовы бойкотировать запланированный на 5 декабря матч Российской Премьер-лиги (РПЛ) с московским "Спартаком", если до этой игры не решится вопрос по выплате долгов.
+# sent_id = 0122-p2-s1
+# text = Футболисты ``Тамбова'' готовы бойкотировать запланированный на 5 декабря матч Российской Премьер-лиги (РПЛ) с московским ``Спартаком'', если до этой игры не решится вопрос по выплате долгов.
+1	Футболисты	_	_	_	_	_	_	_	bratT6=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization|bratT6=Person-property
+3	Тамбова	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization|bratT6=Person-property|bratT78=GPE
+4	''	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Person-property
+5	готовы	_	_	_	_	_	_	_	_
+6	бойкотировать	_	_	_	_	_	_	_	_
+7	запланированный	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
+9	5	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
+10	декабря	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
+11	матч	_	_	_	_	_	_	_	bratT10=Event
+12	Российской	_	_	_	_	_	_	_	bratA6=T54:Adjective|bratT10=Event|bratT54=GPE|bratT8=Organization
+13	Премьер-лиги	_	_	_	_	_	_	_	bratT10=Event|bratT8=Organization
+14	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
+15	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT9=Organization
+16	)	_	_	_	_	_	_	_	bratT10=Event
+17	с	_	_	_	_	_	_	_	_
+18	московским	_	_	_	_	_	_	_	bratA7=T55:Adjective|bratT11=Organization|bratT55=GPE
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+20	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+22	,	_	_	_	_	_	_	_	_
+23	если	_	_	_	_	_	_	_	_
+24	до	_	_	_	_	_	_	_	bratA8=T56:Pres-Fut|bratT56=Date-period-absolute
+25	этой	_	_	_	_	_	_	_	bratA8=T56:Pres-Fut|bratT56=Date-period-absolute
+26	игры	_	_	_	_	_	_	_	bratA8=T56:Pres-Fut|bratT56=Date-period-absolute|bratT71=Event
+27	не	_	_	_	_	_	_	_	_
+28	решится	_	_	_	_	_	_	_	_
+29	вопрос	_	_	_	_	_	_	_	_
+30	по	_	_	_	_	_	_	_	_
+31	выплате	_	_	_	_	_	_	_	_
+32	долгов	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p3
+# par_text = На данный момент руководство Тамбовской области не перечисляло денег команде, которые были заложены на сезон-2020/2021, сообщает портал "Чемпионат" со ссылкой на источники в клубе.
+# sent_id = 0122-p3-s1
+# text = На данный момент руководство Тамбовской области не перечисляло денег команде, которые были заложены на сезон-2020/2021, сообщает портал ``Чемпионат'' со ссылкой на источники в клубе.
+1	На	_	_	_	_	_	_	_	bratA9=T12:Present|bratT12=Date-absolute
+2	данный	_	_	_	_	_	_	_	bratA9=T12:Present|bratT12=Date-absolute|bratT77=Ordinal
+3	момент	_	_	_	_	_	_	_	bratA9=T12:Present|bratT12=Date-absolute
+4	руководство	_	_	_	_	_	_	_	bratT14=Organization
+5	Тамбовской	_	_	_	_	_	_	_	bratT13=GPE|bratT14=Organization
+6	области	_	_	_	_	_	_	_	bratT13=GPE|bratT14=Organization
+7	не	_	_	_	_	_	_	_	_
+8	перечисляло	_	_	_	_	_	_	_	_
+9	денег	_	_	_	_	_	_	_	_
+10	команде	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	которые	_	_	_	_	_	_	_	_
+13	были	_	_	_	_	_	_	_	_
+14	заложены	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	bratA10=T76:Past-Fut|bratT76=Date-period-absolute
+16-20	сезон-2020/2021	_	_	_	_	_	_	_	SpaceAfter=No
+16	сезон	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T76:Past-Fut|bratT75=Event|bratT76=Date-period-absolute
+17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T76:Past-Fut|bratT75=Event|bratT76=Date-period-absolute
+18	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T76:Past-Fut|bratA20=T15:Past-Fut|bratT15=Date-period-absolute|bratT75=Event|bratT76=Date-period-absolute
+19	/	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T76:Past-Fut|bratA20=T15:Past-Fut|bratT15=Date-period-absolute|bratT75=Event|bratT76=Date-period-absolute
+20	2021	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T76:Past-Fut|bratA20=T15:Past-Fut|bratT15=Date-period-absolute|bratT75=Event|bratT76=Date-period-absolute
+21	,	_	_	_	_	_	_	_	_
+22	сообщает	_	_	_	_	_	_	_	_
+23	портал	_	_	_	_	_	_	_	bratA1=T16:Media|bratT16=Organization
+24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T16:Media|bratT16=Organization
+25	Чемпионат	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T16:Media|bratT16=Organization
+26	''	_	_	_	_	_	_	_	bratA1=T16:Media|bratT16=Organization
+27	со	_	_	_	_	_	_	_	_
+28	ссылкой	_	_	_	_	_	_	_	_
+29	на	_	_	_	_	_	_	_	_
+30	источники	_	_	_	_	_	_	_	_
+31	в	_	_	_	_	_	_	_	_
+32	клубе	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p4
+# par_text = "В июле перед матчем заключительного тура прошлого чемпионата, в котором "Тамбов" играл в Москве против ЦСКА, с футболистами команды встречался губернатор области Александр Никитин, пообещавший клубу финансирование, однако до сих пор этого не произошло", - уточнил источник.
+# sent_id = 0122-p4-s1
+# text = ``В июле перед матчем заключительного тура прошлого чемпионата, в котором ``Тамбов'' играл в Москве против ЦСКА, с футболистами команды встречался губернатор области Александр Никитин, пообещавший клубу финансирование, однако до сих пор этого не произошло'', - уточнил источник.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	В	_	_	_	_	_	_	_	bratA11=T17:Past|bratT17=Date-absolute
+3	июле	_	_	_	_	_	_	_	bratA11=T17:Past|bratT17=Date-absolute
+4	перед	_	_	_	_	_	_	_	bratA11=T17:Past|bratT17=Date-absolute
+5	матчем	_	_	_	_	_	_	_	bratA11=T17:Past|bratT17=Date-absolute|bratT18=Event
+6	заключительного	_	_	_	_	_	_	_	bratT18=Event|bratT72=Event
+7	тура	_	_	_	_	_	_	_	bratT18=Event|bratT72=Event
+8	прошлого	_	_	_	_	_	_	_	bratT18=Event|bratT72=Event|bratT73=Event|bratT74=Ordinal
+9	чемпионата	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event|bratT72=Event|bratT73=Event
+10	,	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	котором	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
+14	Тамбов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization|bratT57=GPE
+15	''	_	_	_	_	_	_	_	bratT19=Organization
+16	играл	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	Москве	_	_	_	_	_	_	_	bratT20=GPE
+19	против	_	_	_	_	_	_	_	_
+20	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
+21	,	_	_	_	_	_	_	_	_
+22	с	_	_	_	_	_	_	_	_
+23	футболистами	_	_	_	_	_	_	_	bratT22=Person-property
+24	команды	_	_	_	_	_	_	_	bratT22=Person-property
+25	встречался	_	_	_	_	_	_	_	_
+26	губернатор	_	_	_	_	_	_	_	bratA12=T24:Male|bratT23=Person-property|bratT24=Person
+27	области	_	_	_	_	_	_	_	bratA12=T24:Male|bratT23=Person-property|bratT24=Person|bratT80=GPE
+28	Александр	_	_	_	_	_	_	_	bratA12=T24:Male|bratT24=Person|bratT58=Person-forename
+29	Никитин	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T24:Male|bratT24=Person|bratT59=Person-surname
+30	,	_	_	_	_	_	_	_	_
+31	пообещавший	_	_	_	_	_	_	_	_
+32	клубу	_	_	_	_	_	_	_	_
+33	финансирование	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	_	_	_	_	_	_	_	_
+35	однако	_	_	_	_	_	_	_	_
+36	до	_	_	_	_	_	_	_	bratA13=T25:Past-Pres|bratT25=Date-period-absolute
+37	сих	_	_	_	_	_	_	_	bratA13=T25:Past-Pres|bratT25=Date-period-absolute
+38	пор	_	_	_	_	_	_	_	bratA13=T25:Past-Pres|bratT25=Date-period-absolute
+39	этого	_	_	_	_	_	_	_	_
+40	не	_	_	_	_	_	_	_	_
+41	произошло	_	_	_	_	_	_	_	SpaceAfter=No
+42	''	_	_	_	_	_	_	_	SpaceAfter=No
+43	,	_	_	_	_	_	_	_	_
+44	-	_	_	_	_	_	_	_	_
+45	уточнил	_	_	_	_	_	_	_	_
+46	источник	_	_	_	_	_	_	_	SpaceAfter=No
+47	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p5
+# par_text = До установленного в качестве дедлайна матча со "Спартаком" тамбовчане сыграют с "Краснодаром" и "Уфой".
+# sent_id = 0122-p5-s1
+# text = До установленного в качестве дедлайна матча со ``Спартаком'' тамбовчане сыграют с ``Краснодаром'' и ``Уфой''.
+1	До	_	_	_	_	_	_	_	bratA14=T63:Pres-Fut|bratT63=Date-period-relative
+2	установленного	_	_	_	_	_	_	_	bratA14=T63:Pres-Fut|bratT63=Date-period-relative
+3	в	_	_	_	_	_	_	_	_
+4	качестве	_	_	_	_	_	_	_	_
+5	дедлайна	_	_	_	_	_	_	_	bratT30=Other-term
+6	матча	_	_	_	_	_	_	_	bratT29=Event
+7	со	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+9	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+10	''	_	_	_	_	_	_	_	bratT26=Organization
+11	тамбовчане	_	_	_	_	_	_	_	_
+12	сыграют	_	_	_	_	_	_	_	_
+13	с	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+15	Краснодаром	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization|bratT60=GPE
+16	''	_	_	_	_	_	_	_	bratT27=Organization
+17	и	_	_	_	_	_	_	_	_
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+19	Уфой	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization|bratT61=GPE
+20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p6
+# par_text = По данным Sports.ru, у "Тамбова" скопилась задолженность в размере около 360 миллионов рублей. 140 млн из этой суммы - долги по зарплате и премиальным перед игроками.
+# sent_id = 0122-p6-s1
+# text = По данным Sports.ru, у ``Тамбова'' скопилась задолженность в размере около 360 миллионов рублей.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3-5	Sports.ru	_	_	_	_	_	_	_	SpaceAfter=No
+3	Sports	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T31:Media|bratT31=Organization|bratT79=Web-address
+4	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T31:Media|bratT31=Organization|bratT79=Web-address
+5	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T31:Media|bratT31=Organization|bratT79=Web-address
+6	,	_	_	_	_	_	_	_	_
+7	у	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+9	Тамбова	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization|bratT62=GPE
+10	''	_	_	_	_	_	_	_	bratT32=Organization
+11	скопилась	_	_	_	_	_	_	_	_
+12	задолженность	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	размере	_	_	_	_	_	_	_	_
+15	около	_	_	_	_	_	_	_	bratT33=Money
+16	360	_	_	_	_	_	_	_	bratT33=Money
+17	миллионов	_	_	_	_	_	_	_	bratT33=Money
+18	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Money
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p6-s2
+# text = 140 млн из этой суммы - долги по зарплате и премиальным перед игроками.
+1	140	_	_	_	_	_	_	_	bratT34=Money
+2	млн	_	_	_	_	_	_	_	bratT34=Money
+3	из	_	_	_	_	_	_	_	_
+4	этой	_	_	_	_	_	_	_	_
+5	суммы	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_
+7	долги	_	_	_	_	_	_	_	_
+8	по	_	_	_	_	_	_	_	_
+9	зарплате	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	премиальным	_	_	_	_	_	_	_	_
+12	перед	_	_	_	_	_	_	_	_
+13	игроками	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p7
+# par_text = Ранее палата по разрешению споров РФС из -за долгов перед бывшими футболистами лишила клуб права регистрировать новых игроков.
+# sent_id = 0122-p7-s1
+# text = Ранее палата по разрешению споров РФС из -за долгов перед бывшими футболистами лишила клуб права регистрировать новых игроков.
+1	Ранее	_	_	_	_	_	_	_	bratA4=T36:Past|bratT36=Date-relative
+2	палата	_	_	_	_	_	_	_	_
+3	по	_	_	_	_	_	_	_	_
+4	разрешению	_	_	_	_	_	_	_	_
+5	споров	_	_	_	_	_	_	_	_
+6	РФС	_	_	_	_	_	_	_	bratT37=Organization
+7	из	_	_	_	_	_	_	_	_
+8	-за	_	_	_	_	_	_	_	_
+9	долгов	_	_	_	_	_	_	_	_
+10	перед	_	_	_	_	_	_	_	_
+11	бывшими	_	_	_	_	_	_	_	bratT38=Person-property
+12	футболистами	_	_	_	_	_	_	_	bratT38=Person-property
+13	лишила	_	_	_	_	_	_	_	_
+14	клуб	_	_	_	_	_	_	_	_
+15	права	_	_	_	_	_	_	_	_
+16	регистрировать	_	_	_	_	_	_	_	_
+17	новых	_	_	_	_	_	_	_	bratT39=Person-property
+18	игроков	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-property
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p8
+# par_text = Губернатор Никитин забыл о предвыборных обещаниях
+# sent_id = 0122-p8-s1
+# text = Губернатор Никитин забыл о предвыборных обещаниях
+1	Губернатор	_	_	_	_	_	_	_	bratA15=T41:Male|bratT40=Person-property|bratT41=Person
+2	Никитин	_	_	_	_	_	_	_	bratA15=T41:Male|bratT41=Person|bratT64=Person-surname
+3	забыл	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	предвыборных	_	_	_	_	_	_	_	_
+6	обещаниях	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p9
+# par_text = Нападающий "Тамбова" Михаил Костюков подтвердил в интервью РИА "Новости", что у команды есть большие вопросы к губернатору Александру Никитину.
+# sent_id = 0122-p9-s1
+# text = Нападающий ``Тамбова'' Михаил Костюков подтвердил в интервью РИА ``Новости'', что у команды есть большие вопросы к губернатору Александру Никитину.
+1	Нападающий	_	_	_	_	_	_	_	bratA16=T44:Male|bratT43=Person-property|bratT44=Person
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T44:Male|bratT42=Organization|bratT43=Person-property|bratT44=Person
+3	Тамбова	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T44:Male|bratT42=Organization|bratT43=Person-property|bratT44=Person|bratT65=GPE
+4	''	_	_	_	_	_	_	_	bratA16=T44:Male|bratT42=Organization|bratT43=Person-property|bratT44=Person
+5	Михаил	_	_	_	_	_	_	_	bratA16=T44:Male|bratT44=Person|bratT66=Person-forename
+6	Костюков	_	_	_	_	_	_	_	bratA16=T44:Male|bratT44=Person|bratT67=Person-surname
+7	подтвердил	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	интервью	_	_	_	_	_	_	_	_
+10	РИА	_	_	_	_	_	_	_	bratA3=T45:Media|bratT45=Organization
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T45:Media|bratT45=Organization
+12	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T45:Media|bratT45=Organization
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T45:Media|bratT45=Organization
+14	,	_	_	_	_	_	_	_	_
+15	что	_	_	_	_	_	_	_	_
+16	у	_	_	_	_	_	_	_	_
+17	команды	_	_	_	_	_	_	_	_
+18	есть	_	_	_	_	_	_	_	_
+19	большие	_	_	_	_	_	_	_	_
+20	вопросы	_	_	_	_	_	_	_	_
+21	к	_	_	_	_	_	_	_	_
+22	губернатору	_	_	_	_	_	_	_	bratA17=T47:Male|bratT46=Person-property|bratT47=Person
+23	Александру	_	_	_	_	_	_	_	bratA17=T47:Male|bratT47=Person|bratT68=Person-forename
+24	Никитину	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T47:Male|bratT47=Person|bratT69=Person-surname
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0122-p10
+# par_text = По его словам, в конце прошлого чемпионата правитель области, глядя в глаза игрокам, пообещал закрыть все долги к 20 августа. Еще он пообещал увеличить бюджет клуба и реконструировать стадион.
+# sent_id = 0122-p10-s1
+# text = По его словам, в конце прошлого чемпионата правитель области, глядя в глаза игрокам, пообещал закрыть все долги к 20 августа.
+1	По	_	_	_	_	_	_	_	_
+2	его	_	_	_	_	_	_	_	_
+3	словам	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA18=T49:Past|bratT49=Date-absolute
+6	конце	_	_	_	_	_	_	_	bratA18=T49:Past|bratT49=Date-absolute
+7	прошлого	_	_	_	_	_	_	_	bratA18=T49:Past|bratT48=Event|bratT49=Date-absolute|bratT70=Ordinal
+8	чемпионата	_	_	_	_	_	_	_	bratA18=T49:Past|bratT48=Event|bratT49=Date-absolute
+9	правитель	_	_	_	_	_	_	_	bratT50=Person-property
+10	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Person-property|bratT81=GPE
+11	,	_	_	_	_	_	_	_	_
+12	глядя	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	глаза	_	_	_	_	_	_	_	_
+15	игрокам	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Person-property
+16	,	_	_	_	_	_	_	_	_
+17	пообещал	_	_	_	_	_	_	_	_
+18	закрыть	_	_	_	_	_	_	_	_
+19	все	_	_	_	_	_	_	_	_
+20	долги	_	_	_	_	_	_	_	_
+21	к	_	_	_	_	_	_	_	bratA19=T52:Past|bratT52=Date-absolute
+22	20	_	_	_	_	_	_	_	bratA19=T52:Past|bratT52=Date-absolute
+23	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T52:Past|bratT52=Date-absolute
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0122-p10-s2
+# text = Еще он пообещал увеличить бюджет клуба и реконструировать стадион.
+1	Еще	_	_	_	_	_	_	_	_
+2	он	_	_	_	_	_	_	_	_
+3	пообещал	_	_	_	_	_	_	_	_
+4	увеличить	_	_	_	_	_	_	_	_
+5	бюджет	_	_	_	_	_	_	_	_
+6	клуба	_	_	_	_	_	_	_	_
+7	и	_	_	_	_	_	_	_	_
+8	реконструировать	_	_	_	_	_	_	_	_
+9	стадион	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+

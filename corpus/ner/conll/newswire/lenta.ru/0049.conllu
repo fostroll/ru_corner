@@ -19,8 +19,8 @@
 2	Джонджо	_	_	_	_	_	_	_	bratA3=T2:Male|bratT13=Person-forename|bratT2=Person
 3	Макфадден	_	_	_	_	_	_	_	bratA3=T2:Male|bratT14=Person-surname|bratT2=Person
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
-5	Johnjoe	_	_	_	_	_	_	_	bratA4=T6:Male|bratT15=Person-forename|bratT6=Person
-6	McFadden	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T6:Male|bratT16=Person-surname|bratT6=Person
+5	Johnjoe	_	_	_	_	_	_	_	bratA6=T18:Male|bratT15=Person-forename|bratT18=Person
+6	McFadden	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT16=Person-surname|bratT18=Person
 7	)	_	_	_	_	_	_	_	_
 8	из	_	_	_	_	_	_	_	_
 9	Университета	_	_	_	_	_	_	_	bratT4=Organization
@@ -141,7 +141,7 @@
 
 # sent_id = 0049-p3-s3
 # text = Ученый предполагает, что главная роль в формировании сознания принадлежит электромагнитным полям мозга, которые кодируют в себе связанную информацию.
-1	Ученый	_	_	_	_	_	_	_	bratT9=Person-property
+1	Ученый	_	_	_	_	_	_	_	bratA4=T6:Male|bratT6=Person|bratT9=Person-property
 2	предполагает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

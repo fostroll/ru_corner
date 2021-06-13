@@ -1,0 +1,79 @@
+T1	GPE 5 12	Франции
+T2	Quantity 154 178	3,5   тыс.   резервистов
+T3	GPE 251 256	Ницце
+T4	Date-absolute 259 271	29   октября
+T5	Organization 309 313	ТАСС
+A1	Media T5
+T6	Person 330 372	глава   МВД   Франции   Жеральд   Дарманен
+T7	Person-property 330 351	глава   МВД   Франции
+T8	GPE 344 351	Франции
+T9	Organization 338 351	МВД   Франции
+T10	Event 389 417	заседания   Совета   обороны
+T11	Facility 444 463	Елисейском   дворце
+T12	Person-property 469 480	Глава   МВД
+T13	Organization 477 480	МВД
+T14	Event 565 585	День   всех   святых
+T15	GPE 536 543	Франции
+T16	Event 217 224	теракта
+T17	Person-property 61 72	резервистов
+T18	Person-surname 849 857	Дарманен
+T19	Organization 401 417	Совета   обороны
+T20	Organization 868 883	Совет   обороны
+T21	Quantity 928 962	3,5   тыс.   жандармов-резервистов
+T22	Person-property 1051 1058	министр
+T23	Quantity 1241 1261	3,5   тыс.   человек
+T24	Person 1267 1275	Дарманен
+T25	GPE 1345 1350	Ниццу
+T26	Quantity 1420 1437	120   полицейских
+T27	Person-property 1426 1437	полицейских
+T28	Product 1551 1595	план   борьбы   с   терроризмом   Vigipirate
+A2	Project T28
+T29	Product 1602 1621	``   Вижипират   ''
+A3	Project T29
+T30	Person 1791 1834	французского   лидера   Эммануэля   Макрона
+T31	Person-property 1791 1812	французского   лидера
+T32	Person 1935 1978	глава   МИД   Франции   Жан-Ив   Ле   Дриан
+T33	Person-property 1935 1956	глава   МИД   Франции
+T34	Organization 1943 1956	МИД   Франции
+T35	GPE 1949 1956	Франции
+T36	GPE 1493 1500	Франции
+T37	Date-absolute 1363 1371	накануне
+T38	Date-relative 1473 1481	накануне
+T39	Date-absolute 209 224	после   теракта
+T40	Date-period-relative 979 995	с   понедельника
+T41	Event 1386 1392	теракт
+T42	GPE 120 131	Французские
+A4	Adjective T42
+A5	Past T39
+A6	Past T4
+T43	Person-forename 354 361	Жеральд
+T44	Person-surname 364 372	Дарманен
+A7	Male T6
+T45	Person 849 857	Дарманен
+A8	Male T45
+T46	Person-property 941 962	жандармов-резервистов
+T47	Person-surname 1267 1275	Дарманен
+A9	Male T24
+A10	Past T37
+T48	Person-property 167 178	резервистов
+A11	Fut T40
+A12	Male T30
+T49	Person-forename 1815 1824	Эммануэля
+T50	Person-surname 1827 1834	Макрона
+T51	Religious-group 1852 1857	ислам
+A13	Source T51
+A14	Male T32
+T52	Person-forename 1959 1965	Жан-Ив
+T53	Person-surname 1968 1978	Ле   Дриан
+T54	GPE 1791 1803	французского
+A15	Adjective T54
+T55	Person-property 1017 1026	префектов
+T56	Date-period-absolute 504 528	в   ближайшие   выходные
+A16	Fut T56
+T57	Ordinal 508 517	ближайшие
+T58	Organization 120 140	Французские   власти
+T59	Organization 1484 1500	власти   Франции
+T60	Organization 1650 1665	власти   страны
+T61	GPE 1659 1665	страны
+T62	Organization 1902 1913	посольствам
+T63	Organization 1920 1932	консульствам

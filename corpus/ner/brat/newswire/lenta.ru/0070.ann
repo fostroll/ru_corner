@@ -16,44 +16,44 @@ T13	Facility 324 355	американском   модуле   Destiny
 T14	Date-absolute 525 537	22   октября
 T15	Location 566 571	Землю
 T16	Person-property 587 613	российскими   космонавтами
-T17	Person 671 703	корабле   ``   Союз   МС-16   ''
-T18	Person 708 724	Сергей   Рыжиков
-T19	Nationality 740 751	россиянином
+T17	Person 671 705	корабле   ``   Союз   МС - 16   ''
+T18	Person 710 726	Сергей   Рыжиков
+T19	Nationality 742 753	россиянином
 A4	Citizenship T19
-T20	Person 740 779	россиянином   Сергеем   Кудь-Сверчковым
-T21	Nationality 786 797	американкой
+T20	Person 742 781	россиянином   Сергеем   Кудь-Сверчковым
+T21	Nationality 788 799	американкой
 A5	Citizenship T21
-T22	Person 786 815	американкой   Кэтлин   Рубинс
-T23	Date-period-absolute 849 874	до   апреля   2021   года
-T24	Date-absolute 972 984	11   октября
-T25	Person-property 1108 1118	космонавты
-T26	Quantity 1361 1387	двух-четырех   сантиметров
-T27	Date-absolute 1294 1306	15   октября
+T22	Person 788 817	американкой   Кэтлин   Рубинс
+T23	Date-period-absolute 851 876	до   апреля   2021   года
+T24	Date-absolute 974 986	11   октября
+T25	Person-property 1110 1120	космонавты
+T26	Quantity 1363 1389	двух-четырех   сантиметров
+T27	Date-absolute 1296 1308	15   октября
 T28	Person-property 88 152	командиром   Международной   космической   станции   (   МКС   )
-T29	Organization 101 138	Международной   космической   станции
+T29	Facility 101 138	Международной   космической   станции
 T31	Facility 407 410	МКС
 T32	Facility 555 558	МКС
-T33	Duration 1080 1084	день
-T34	Facility 843 846	МКС
+T33	Duration 1082 1086	день
+T34	Facility 845 848	МКС
 T36	Quantity 454 471	шестерых   членов
-T37	Facility 909 912	МКС
-T38	Other-term 1410 1429	каптоновой   лентой
-T39	Organization 32 35	МКС
+T37	Facility 911 914	МКС
+T38	Other-term 1412 1431	каптоновой   лентой
+T39	Facility 32 35	МКС
 A3	Media T11
-T41	Organization 145 148	МКС
+T41	Facility 145 148	МКС
 T42	Person-property 465 497	членов   объединенного   экипажа
 A6	Plural T10
 A7	Unconscious T17
 T30	Service 261 266	сайте
 A8	Media T30
-T35	Ordinal 884 893	последнее
-T40	Date-period-absolute 880 901	В   последнее   время
+T35	Ordinal 886 895	последнее
+T40	Date-period-absolute 882 903	В   последнее   время
 A9	Future T14
 A10	Past T24
 A11	Past T27
 T44	Person 616 639	Анатолием   Иванишиными
 T45	Person 646 663	Иваном   Вагнером
-T46	Date-period-relative 1080 1084	день
+T46	Date-period-relative 1082 1086	день
 A14	Past T46
 A13	Pres-Fut T23
 A12	RCont T40
@@ -61,7 +61,7 @@ A15	Past-Pres T40
 T43	GPE 37 47	Российский
 T47	GPE 324 336	американском
 T48	GPE 587 598	российскими
-T49	GPE 991 1001	российском
+T49	GPE 993 1003	российском
 T50	Person-forename 62 68	Сергей
 T51	Person-surname 71 78	Рыжиков
 T52	Person-forename 197 207	Кристофера
@@ -74,12 +74,12 @@ T58	Person-forename 616 625	Анатолием
 T59	Person-surname 628 639	Иванишиными
 T60	Person-forename 646 652	Иваном
 T61	Person-surname 655 663	Вагнером
-T62	Person-forename 708 714	Сергей
-T63	Person-surname 717 724	Рыжиков
-T64	Person-forename 754 761	Сергеем
-T65	Person-surname 764 779	Кудь-Сверчковым
-T66	Person-forename 800 806	Кэтлин
-T67	Person-surname 809 815	Рубинс
+T62	Person-forename 710 716	Сергей
+T63	Person-surname 719 726	Рыжиков
+T64	Person-forename 756 763	Сергеем
+T65	Person-surname 766 781	Кудь-Сверчковым
+T66	Person-forename 802 808	Кэтлин
+T67	Person-surname 811 817	Рубинс
 A16	Male T4
 A17	Male T5
 A18	Male T8
@@ -96,3 +96,15 @@ A28	Adjective T49
 A29	Adjective T48
 T68	Location 117 128	космической
 A30	Adjective T68
+T69	Event 415 424	Церемония
+T70	Event 832 837	полет
+T71	Event 930 959	случаи   нештатных   ситуаций
+T72	Event 235 244	церемонии
+T73	Event 1141 1158	утечкой   воздуха
+T74	Service 222 232	Трансляция
+A31	Media T74
+T75	Cardinal 698 700	16
+T76	Person 465 497	членов   объединенного   экипажа
+T77	Person 1110 1120	космонавты
+T78	Person 0 9	Россиянин
+A32	Male T78

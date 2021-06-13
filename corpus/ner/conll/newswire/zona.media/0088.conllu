@@ -1,0 +1,185 @@
+# newdoc id = 0088
+# newpar id = 0088-p1
+# par_text = Верховный суд Марий Эл отказал ликвидировать организацию «У Вий», занимающуюся популяризацией национальной культуры
+# sent_id = 0088-p1-s1
+# text = Верховный суд Марий Эл отказал ликвидировать организацию ``У Вий'', занимающуюся популяризацией национальной культуры
+1	Верховный	_	_	_	_	_	_	_	bratT1=Organization
+2	суд	_	_	_	_	_	_	_	bratT1=Organization
+3	Марий	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+4	Эл	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+5	отказал	_	_	_	_	_	_	_	_
+6	ликвидировать	_	_	_	_	_	_	_	_
+7	организацию	_	_	_	_	_	_	_	bratT3=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+9	У	_	_	_	_	_	_	_	bratT3=Organization
+10	Вий	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+12	,	_	_	_	_	_	_	_	_
+13	занимающуюся	_	_	_	_	_	_	_	_
+14	популяризацией	_	_	_	_	_	_	_	_
+15	национальной	_	_	_	_	_	_	_	bratA8=T28:Adjective|bratT28=Nationality
+16	культуры	_	_	_	_	_	_	_	_
+
+# newpar id = 0088-p2
+# par_text = Верховный суд Марий Эл отклонил иск Минюста о ликвидации молодежной организации «У Вий», которая занимается популяризацией национальной культуры и марийского языка, сообщают «Идель.Реалии» со ссылкой на решение суда.
+# sent_id = 0088-p2-s1
+# text = Верховный суд Марий Эл отклонил иск Минюста о ликвидации молодежной организации ``У Вий'', которая занимается популяризацией национальной культуры и марийского языка, сообщают ``Идель.Реалии'' со ссылкой на решение суда.
+1	Верховный	_	_	_	_	_	_	_	bratT4=Organization
+2	суд	_	_	_	_	_	_	_	bratT4=Organization
+3	Марий	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
+4	Эл	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
+5	отклонил	_	_	_	_	_	_	_	_
+6	иск	_	_	_	_	_	_	_	_
+7	Минюста	_	_	_	_	_	_	_	bratT6=Organization
+8	о	_	_	_	_	_	_	_	_
+9	ликвидации	_	_	_	_	_	_	_	_
+10	молодежной	_	_	_	_	_	_	_	bratT7=Organization|bratT8=Age
+11	организации	_	_	_	_	_	_	_	bratT7=Organization
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+13	У	_	_	_	_	_	_	_	bratT7=Organization
+14	Вий	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+16	,	_	_	_	_	_	_	_	_
+17	которая	_	_	_	_	_	_	_	_
+18	занимается	_	_	_	_	_	_	_	_
+19	популяризацией	_	_	_	_	_	_	_	_
+20	национальной	_	_	_	_	_	_	_	bratA9=T29:Adjective|bratT29=Nationality
+21	культуры	_	_	_	_	_	_	_	_
+22	и	_	_	_	_	_	_	_	_
+23	марийского	_	_	_	_	_	_	_	bratT9=Language
+24	языка	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Language
+25	,	_	_	_	_	_	_	_	_
+26	сообщают	_	_	_	_	_	_	_	_
+27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Media|bratT10=Organization
+28-30	Идель.Реалии	_	_	_	_	_	_	_	SpaceAfter=No
+28	Идель	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Media|bratT10=Organization
+29	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Media|bratT10=Organization
+30	Реалии	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Media|bratT10=Organization
+31	''	_	_	_	_	_	_	_	bratA4=T10:Media|bratT10=Organization
+32	со	_	_	_	_	_	_	_	_
+33	ссылкой	_	_	_	_	_	_	_	_
+34	на	_	_	_	_	_	_	_	_
+35	решение	_	_	_	_	_	_	_	_
+36	суда	_	_	_	_	_	_	_	SpaceAfter=No
+37	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0088-p3
+# par_text = В феврале 2020 года Минюст сообщил об итогах проверки «У Вий». Ведомство выявило пять нарушений, суть которых не уточняется. Позднее был составлен протокол по статье 19.4 КоАП (неповиновение законному распоряжению должностного лица, осуществляющего государственный надзор).
+# sent_id = 0088-p3-s1
+# text = В феврале 2020 года Минюст сообщил об итогах проверки ``У Вий''.
+1	В	_	_	_	_	_	_	_	bratA1=T11:Past|bratT11=Date-absolute
+2	феврале	_	_	_	_	_	_	_	bratA1=T11:Past|bratT11=Date-absolute
+3	2020	_	_	_	_	_	_	_	bratA1=T11:Past|bratT11=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA1=T11:Past|bratT11=Date-absolute
+5	Минюст	_	_	_	_	_	_	_	bratT12=Organization
+6	сообщил	_	_	_	_	_	_	_	_
+7	об	_	_	_	_	_	_	_	_
+8	итогах	_	_	_	_	_	_	_	_
+9	проверки	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+11	У	_	_	_	_	_	_	_	bratT13=Organization
+12	Вий	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0088-p3-s2
+# text = Ведомство выявило пять нарушений, суть которых не уточняется.
+1	Ведомство	_	_	_	_	_	_	_	_
+2	выявило	_	_	_	_	_	_	_	_
+3	пять	_	_	_	_	_	_	_	bratT14=Quantity
+4	нарушений	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Quantity
+5	,	_	_	_	_	_	_	_	_
+6	суть	_	_	_	_	_	_	_	_
+7	которых	_	_	_	_	_	_	_	_
+8	не	_	_	_	_	_	_	_	_
+9	уточняется	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0088-p3-s3
+# text = Позднее был составлен протокол по статье 19.4 КоАП (неповиновение законному распоряжению должностного лица, осуществляющего государственный надзор).
+1	Позднее	_	_	_	_	_	_	_	_
+2	был	_	_	_	_	_	_	_	_
+3	составлен	_	_	_	_	_	_	_	_
+4	протокол	_	_	_	_	_	_	_	_
+5	по	_	_	_	_	_	_	_	_
+6	статье	_	_	_	_	_	_	_	_
+7	19.4	_	_	_	_	_	_	_	bratT15=Law|bratT20=Ordinal
+8	КоАП	_	_	_	_	_	_	_	bratT15=Law|bratT21=Law
+9	(	_	_	_	_	_	_	_	SpaceAfter=No
+10	неповиновение	_	_	_	_	_	_	_	_
+11	законному	_	_	_	_	_	_	_	_
+12	распоряжению	_	_	_	_	_	_	_	_
+13	должностного	_	_	_	_	_	_	_	_
+14	лица	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	осуществляющего	_	_	_	_	_	_	_	_
+17	государственный	_	_	_	_	_	_	_	_
+18	надзор	_	_	_	_	_	_	_	SpaceAfter=No
+19	)	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0088-p4
+# par_text = «Идель.Реалии» называют «У Вий» одним из первых национальных движений республики, которое возникло еще во время перестройки. Как юридическое лицо «У Вий» была зарегистрирована в 1998 году. Сейчас основная деятельность организации — это проведение мероприятий, которые нацелены на популяризацию местной культуры.
+# sent_id = 0088-p4-s1
+# text = ``Идель.Реалии'' называют ``У Вий'' одним из первых национальных движений республики, которое возникло еще во время перестройки.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
+2-4	Идель.Реалии	_	_	_	_	_	_	_	SpaceAfter=No
+2	Идель	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
+3	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
+4	Реалии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
+5	''	_	_	_	_	_	_	_	bratA3=T16:Media|bratT16=Organization
+6	называют	_	_	_	_	_	_	_	_
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+8	У	_	_	_	_	_	_	_	bratT17=Organization
+9	Вий	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+10	''	_	_	_	_	_	_	_	bratT17=Organization
+11	одним	_	_	_	_	_	_	_	bratT22=Quantity
+12	из	_	_	_	_	_	_	_	bratT22=Quantity
+13	первых	_	_	_	_	_	_	_	bratT23=Ordinal
+14	национальных	_	_	_	_	_	_	_	bratA10=T30:Adjective|bratT30=Nationality
+15	движений	_	_	_	_	_	_	_	_
+16	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE
+17	,	_	_	_	_	_	_	_	_
+18	которое	_	_	_	_	_	_	_	_
+19	возникло	_	_	_	_	_	_	_	_
+20	еще	_	_	_	_	_	_	_	_
+21	во	_	_	_	_	_	_	_	bratA5=T24:Past|bratT24=Date-absolute
+22	время	_	_	_	_	_	_	_	bratA5=T24:Past|bratT24=Date-absolute
+23	перестройки	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Past|bratT24=Date-absolute|bratT25=Event
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0088-p4-s2
+# text = Как юридическое лицо ``У Вий'' была зарегистрирована в 1998 году.
+1	Как	_	_	_	_	_	_	_	_
+2	юридическое	_	_	_	_	_	_	_	_
+3	лицо	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+5	У	_	_	_	_	_	_	_	bratT18=Organization
+6	Вий	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+7	''	_	_	_	_	_	_	_	bratT18=Organization
+8	была	_	_	_	_	_	_	_	_
+9	зарегистрирована	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	bratA2=T19:Past|bratT19=Date-absolute
+11	1998	_	_	_	_	_	_	_	bratA2=T19:Past|bratT19=Date-absolute
+12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T19:Past|bratT19=Date-absolute
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0088-p4-s3
+# text = Сейчас основная деятельность организации - это проведение мероприятий, которые нацелены на популяризацию местной культуры.
+1	Сейчас	_	_	_	_	_	_	_	bratA6=T26:Present|bratT26=Date-absolute
+2	основная	_	_	_	_	_	_	_	_
+3	деятельность	_	_	_	_	_	_	_	_
+4	организации	_	_	_	_	_	_	_	_
+5	-	_	_	_	_	_	_	_	_
+6	это	_	_	_	_	_	_	_	_
+7	проведение	_	_	_	_	_	_	_	_
+8	мероприятий	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	которые	_	_	_	_	_	_	_	_
+11	нацелены	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	популяризацию	_	_	_	_	_	_	_	_
+14	местной	_	_	_	_	_	_	_	bratA7=T27:Adjective|bratT27=GPE
+15	культуры	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+

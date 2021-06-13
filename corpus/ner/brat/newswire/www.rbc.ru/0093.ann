@@ -1,0 +1,74 @@
+T1	Other-term 83 86	ИВЛ
+T2	Person-property 89 93	врач
+T3	Organization 100 129	городской   больницы   №   20
+T4	GPE 132 147	Ростова-на-Дону
+T5	Person 161 204	анестезиолог-реаниматолог   Артур   Топоров
+T6	Person-property 161 186	анестезиолог-реаниматолог
+T7	Quantity 246 260	13   пациентов
+T8	Other-term 267 280	коронавирусом
+T9	Organization 346 349	РБК
+A1	Media T9
+T10	Person-property 328 333	медик
+T11	Person 369 377	Топорова
+T12	Person-property 622 626	врач
+T13	Organization 636 682	пресс-службе   администрации   Ростова-на-Дону
+A2	Department T13
+T14	Organization 651 682	администрации   Ростова-на-Дону
+T15	GPE 667 682	Ростова-на-Дону
+T16	Organization 685 688	РБК
+A3	Media T16
+T17	Person-property 730 762	главного   врача   медучреждения
+T18	Date-absolute 873 902	в   пятницу   ,   13   ноября
+T19	Organization 951 954	РБК
+A4	Media T19
+T20	Organization 993 1022	городскую   больницу   №   20
+T21	Organization 1053 1106	министерство   здравоохранения   Ростовской   области
+T22	GPE 1086 1106	Ростовской   области
+T23	Date-absolute 1112 1131	Утром   10   ноября
+T24	Time-absolute 1112 1117	Утром
+T25	Person 1134 1180	депутат   городской   думы   Петр   Пятибратов
+T26	Person-property 1134 1160	депутат   городской   думы
+T27	Service 1204 1213	Instagram
+A5	Media T27
+T28	Person 1226 1233	Топоров
+T29	Person-property 1593 1600	депутат
+T30	Organization 1609 1655	пресс-службе   администрации   Ростова-на-Дону
+A6	Department T30
+T31	Organization 1624 1655	администрации   Ростова-на-Дону
+T32	GPE 1640 1655	Ростова-на-Дону
+T33	Organization 1668 1671	РБК
+A7	Media T33
+T34	Person 1726 1737	Пятибратова
+T35	Organization 5 26	ростовской   больницы
+T36	GPE 5 15	ростовской
+A8	Adjective T36
+T37	Person-forename 189 194	Артур
+T38	Person-surname 197 204	Топоров
+A9	Male T5
+T39	Person-surname 369 377	Топорова
+A10	Male T11
+T40	Person-surname 769 776	Топоров
+T41	Person 769 776	Топоров
+A11	Male T41
+A12	Future T18
+T42	Ordinal 920 929	последний
+T43	Person-forename 1163 1167	Петр
+T44	Person-surname 1170 1180	Пятибратов
+A13	Male T25
+T45	Person-surname 1226 1233	Топоров
+A14	Male T28
+A15	Past T23
+T46	Person-surname 1726 1737	Пятибратова
+A16	Male T34
+T47	Ordinal 123 129	№   20
+T48	Ordinal 1016 1022	№   20
+T49	Duration 932 936	день
+T50	Date-period-relative 920 936	последний   день
+A17	Fut T50
+T51	GPE 100 109	городской
+A18	Adjective T51
+T52	GPE 993 1002	городскую
+A19	Adjective T52
+T53	GPE 1144 1153	городской
+A20	Adjective T53
+T54	Organization 1144 1160	городской   думы

@@ -113,7 +113,7 @@
 7	во	_	_	_	_	_	_	_	_
 8	всех	_	_	_	_	_	_	_	_
 9	регионах	_	_	_	_	_	_	_	_
-10	страны	_	_	_	_	_	_	_	SpaceAfter=No
+10	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=GPE
 11	,	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	79	_	_	_	_	_	_	_	bratT12=Quantity
@@ -145,23 +145,26 @@
 # sent_id = 0033-p5-s1
 # text = Сайт KP.ru сообщал, что в России за минувшие сутки выявлено 20 985 новых случаев заражения коронавирусом.
 1	Сайт	_	_	_	_	_	_	_	bratA1=T15:Media|bratT15=Service
-2	KP.ru	_	_	_	_	_	_	_	bratA1=T15:Media|bratA2=T28:Media|bratT15=Service|bratT28=Organization
-3	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
-4	,	_	_	_	_	_	_	_	_
-5	что	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	_
-7	России	_	_	_	_	_	_	_	bratT16=GPE
-8	за	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute
-9	минувшие	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute|bratT34=Ordinal
-10	сутки	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute|bratT30=Duration
-11	выявлено	_	_	_	_	_	_	_	_
-12	20	_	_	_	_	_	_	_	bratT18=Quantity
-13	985	_	_	_	_	_	_	_	bratT18=Quantity
-14	новых	_	_	_	_	_	_	_	bratT18=Quantity
-15	случаев	_	_	_	_	_	_	_	bratT18=Quantity
-16	заражения	_	_	_	_	_	_	_	_
-17	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
-18	.	_	_	_	_	_	_	_	_
+2-4	KP.ru	_	_	_	_	_	_	_	_
+2	KP	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Media|bratA2=T28:Media|bratT15=Service|bratT28=Organization|bratT38=Web-address
+3	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Media|bratA2=T28:Media|bratT15=Service|bratT28=Organization|bratT38=Web-address
+4	ru	_	_	_	_	_	_	_	bratA1=T15:Media|bratA2=T28:Media|bratT15=Service|bratT28=Organization|bratT38=Web-address
+5	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	России	_	_	_	_	_	_	_	bratT16=GPE
+10	за	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute
+11	минувшие	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute|bratT34=Ordinal
+12	сутки	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-period-absolute|bratT30=Duration
+13	выявлено	_	_	_	_	_	_	_	_
+14	20	_	_	_	_	_	_	_	bratT18=Quantity
+15	985	_	_	_	_	_	_	_	bratT18=Quantity
+16	новых	_	_	_	_	_	_	_	bratT18=Quantity
+17	случаев	_	_	_	_	_	_	_	bratT18=Quantity
+18	заражения	_	_	_	_	_	_	_	_
+19	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0033-p5-s2
 # text = Число погибших за 24 часа оказалось рекордным: умерло 456 человек.

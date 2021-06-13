@@ -5,11 +5,11 @@
 # text = Дело об убийстве против сына российского судьи закрыли
 1	Дело	_	_	_	_	_	_	_	_
 2	об	_	_	_	_	_	_	_	_
-3	убийстве	_	_	_	_	_	_	_	_
+3	убийстве	_	_	_	_	_	_	_	bratT54=Event
 4	против	_	_	_	_	_	_	_	_
 5	сына	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person|bratT19=Family
-6	российского	_	_	_	_	_	_	_	bratA12=T15:Male|bratA8=T46:Adjective|bratT15=Person|bratT20=Person-property|bratT46=GPE
-7	судьи	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person|bratT20=Person-property
+6	российского	_	_	_	_	_	_	_	bratA12=T15:Male|bratA8=T46:Adjective|bratT15=Person|bratT20=Person-property|bratT46=GPE|bratT64=Person
+7	судьи	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person|bratT20=Person-property|bratT64=Person
 8	закрыли	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p2
@@ -40,8 +40,8 @@
 22	который	_	_	_	_	_	_	_	_
 23	обвинялся	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
-25	убийстве	_	_	_	_	_	_	_	_
-26	друга	_	_	_	_	_	_	_	SpaceAfter=No
+25	убийстве	_	_	_	_	_	_	_	bratT55=Event
+26	друга	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Person
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p2-s2
@@ -55,14 +55,17 @@
 7	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Past|bratT11=Date-absolute
 8	,	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-10	Ленте.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-11	''	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Organization
-12	сообщил	_	_	_	_	_	_	_	_
-13	источник	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	_
-15	правоохранительных	_	_	_	_	_	_	_	_
-16	органах	_	_	_	_	_	_	_	SpaceAfter=No
-17	.	_	_	_	_	_	_	_	_
+10-12	Ленте.ру	_	_	_	_	_	_	_	SpaceAfter=No
+10	Ленте	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+11	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+12	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+13	''	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Organization
+14	сообщил	_	_	_	_	_	_	_	_
+15	источник	_	_	_	_	_	_	_	bratT79=Person
+16	в	_	_	_	_	_	_	_	_
+17	правоохранительных	_	_	_	_	_	_	_	bratT78=Organization
+18	органах	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Organization
+19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p3
 # par_text = По данным источника, уголовное дело расследовалось сразу по двум статьям УК России — 105 («Убийство») и 108 («Превышение необходимой обороны»). Позднее дело было переквалифицировано на статью 109 («Убийство по неосторожности»). Лицо, не достигшее возраста 16 лет, не подлежит уголовной ответственности за указанное преступление и не является субъектом преступления. Выяснилось, что причиной гибели школьника стала подростковая шалость и желание сына судьи удивить друзей отцовским ружьем.
@@ -70,7 +73,7 @@
 # text = По данным источника, уголовное дело расследовалось сразу по двум статьям УК России - 105 (``Убийство'') и 108 (``Превышение необходимой обороны'').
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	источника	_	_	_	_	_	_	_	SpaceAfter=No
+3	источника	_	_	_	_	_	_	_	SpaceAfter=No|bratT80=Person
 4	,	_	_	_	_	_	_	_	_
 5	уголовное	_	_	_	_	_	_	_	_
 6	дело	_	_	_	_	_	_	_	_
@@ -82,14 +85,14 @@
 12	УК	_	_	_	_	_	_	_	bratT13=Law
 13	России	_	_	_	_	_	_	_	bratT13=Law|bratT3=GPE
 14	-	_	_	_	_	_	_	_	_
-15	105	_	_	_	_	_	_	_	bratT10=Ordinal
+15	105	_	_	_	_	_	_	_	bratT10=Ordinal|bratT71=Law
 16	(	_	_	_	_	_	_	_	SpaceAfter=No
 17	``	_	_	_	_	_	_	_	SpaceAfter=No
-18	Убийство	_	_	_	_	_	_	_	SpaceAfter=No
+18	Убийство	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
 19	''	_	_	_	_	_	_	_	SpaceAfter=No
 20	)	_	_	_	_	_	_	_	_
 21	и	_	_	_	_	_	_	_	_
-22	108	_	_	_	_	_	_	_	bratT47=Ordinal
+22	108	_	_	_	_	_	_	_	bratT47=Ordinal|bratT72=Law
 23	(	_	_	_	_	_	_	_	SpaceAfter=No
 24	``	_	_	_	_	_	_	_	SpaceAfter=No
 25	Превышение	_	_	_	_	_	_	_	_
@@ -110,7 +113,7 @@
 7	109	_	_	_	_	_	_	_	bratT14=Ordinal|bratT16=Law
 8	(	_	_	_	_	_	_	_	SpaceAfter=No
 9	``	_	_	_	_	_	_	_	SpaceAfter=No
-10	Убийство	_	_	_	_	_	_	_	_
+10	Убийство	_	_	_	_	_	_	_	bratT57=Event
 11	по	_	_	_	_	_	_	_	_
 12	неосторожности	_	_	_	_	_	_	_	SpaceAfter=No
 13	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -133,12 +136,12 @@
 12	ответственности	_	_	_	_	_	_	_	_
 13	за	_	_	_	_	_	_	_	_
 14	указанное	_	_	_	_	_	_	_	_
-15	преступление	_	_	_	_	_	_	_	_
+15	преступление	_	_	_	_	_	_	_	bratT59=Event
 16	и	_	_	_	_	_	_	_	_
 17	не	_	_	_	_	_	_	_	_
 18	является	_	_	_	_	_	_	_	_
 19	субъектом	_	_	_	_	_	_	_	_
-20	преступления	_	_	_	_	_	_	_	SpaceAfter=No
+20	преступления	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p3-s4
@@ -147,11 +150,11 @@
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
 4	причиной	_	_	_	_	_	_	_	_
-5	гибели	_	_	_	_	_	_	_	_
-6	школьника	_	_	_	_	_	_	_	bratT32=Person-property
+5	гибели	_	_	_	_	_	_	_	bratT60=Event
+6	школьника	_	_	_	_	_	_	_	bratA16=T65:Male|bratT32=Person-property|bratT65=Person
 7	стала	_	_	_	_	_	_	_	_
-8	подростковая	_	_	_	_	_	_	_	_
-9	шалость	_	_	_	_	_	_	_	_
+8	подростковая	_	_	_	_	_	_	_	bratT63=Event
+9	шалость	_	_	_	_	_	_	_	bratT63=Event
 10	и	_	_	_	_	_	_	_	_
 11	желание	_	_	_	_	_	_	_	_
 12	сына	_	_	_	_	_	_	_	bratA13=T51:Male|bratT33=Family|bratT51=Person
@@ -169,9 +172,9 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Постановление	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
-4	прекращении	_	_	_	_	_	_	_	_
-5	уголовного	_	_	_	_	_	_	_	_
-6	дела	_	_	_	_	_	_	_	_
+4	прекращении	_	_	_	_	_	_	_	bratT74=Event
+5	уголовного	_	_	_	_	_	_	_	bratT74=Event
+6	дела	_	_	_	_	_	_	_	bratT74=Event
 7	направлено	_	_	_	_	_	_	_	_
 8	начальнику	_	_	_	_	_	_	_	bratT35=Person-property
 9	отдела	_	_	_	_	_	_	_	bratT35=Person-property|bratT44=Organization
@@ -181,7 +184,7 @@
 13	вопроса	_	_	_	_	_	_	_	_
 14	о	_	_	_	_	_	_	_	_
 15	помещении	_	_	_	_	_	_	_	_
-16	несовершеннолетнего	_	_	_	_	_	_	_	bratT41=Age
+16	несовершеннолетнего	_	_	_	_	_	_	_	bratA21=T73:Male|bratT41=Age|bratT73=Person
 17	в	_	_	_	_	_	_	_	_
 18	специальное	_	_	_	_	_	_	_	_
 19	учебно-воспитательное	_	_	_	_	_	_	_	_
@@ -192,11 +195,14 @@
 24	,	_	_	_	_	_	_	_	_
 25	-	_	_	_	_	_	_	_	_
 26	рассказал	_	_	_	_	_	_	_	_
-27	источник	_	_	_	_	_	_	_	_
+27	источник	_	_	_	_	_	_	_	bratT81=Person
 28	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
-29	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
-30	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
-31	.	_	_	_	_	_	_	_	_
+29-31	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No
+29	Ленты	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
+30	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
+31	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
+32	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
+33	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p5
 # par_text = Вечером 7 марта рядом с квартирой судьи Саяпина было обнаружено тело подростка с огнестрельным ранением. Выяснилось, что погибший и его сверстники вместе смотрели в квартире хоккей и около 21:00 сын судьи, достав отцовское ружье, застрелил одного из друзей. Затем подозреваемый, по словам свидетеля, вынес тело на лестницу и сбежал. Мать погибшего подростка назвала произошедшее трагической случайностью.
@@ -224,10 +230,10 @@
 1	Выяснилось	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	погибший	_	_	_	_	_	_	_	_
+4	погибший	_	_	_	_	_	_	_	bratA20=T75:Male|bratT75=Person
 5	и	_	_	_	_	_	_	_	_
 6	его	_	_	_	_	_	_	_	_
-7	сверстники	_	_	_	_	_	_	_	_
+7	сверстники	_	_	_	_	_	_	_	bratT76=Person
 8	вместе	_	_	_	_	_	_	_	_
 9	смотрели	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
@@ -237,26 +243,26 @@
 14	около	_	_	_	_	_	_	_	bratA5=T45:Past|bratT25=Time-absolute|bratT45=Date-relative
 15	21:00	_	_	_	_	_	_	_	bratA5=T45:Past|bratT25=Time-absolute|bratT45=Date-relative
 16	сын	_	_	_	_	_	_	_	bratA11=T28:Male|bratT26=Family|bratT28=Person
-17	судьи	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Male|bratT27=Person-property|bratT28=Person
+17	судьи	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Male|bratT27=Person-property|bratT28=Person|bratT66=Person
 18	,	_	_	_	_	_	_	_	_
 19	достав	_	_	_	_	_	_	_	_
 20	отцовское	_	_	_	_	_	_	_	_
 21	ружье	_	_	_	_	_	_	_	SpaceAfter=No
 22	,	_	_	_	_	_	_	_	_
 23	застрелил	_	_	_	_	_	_	_	_
-24	одного	_	_	_	_	_	_	_	bratT29=Quantity
-25	из	_	_	_	_	_	_	_	bratT29=Quantity
-26	друзей	_	_	_	_	_	_	_	SpaceAfter=No
+24	одного	_	_	_	_	_	_	_	bratA22=T77:Male|bratT29=Quantity|bratT77=Person
+25	из	_	_	_	_	_	_	_	bratA22=T77:Male|bratT29=Quantity|bratT77=Person
+26	друзей	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T77:Male|bratT77=Person
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p5-s3
 # text = Затем подозреваемый, по словам свидетеля, вынес тело на лестницу и сбежал.
 1	Затем	_	_	_	_	_	_	_	bratA7=T40:Past|bratT40=Date-relative
-2	подозреваемый	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property
+2	подозреваемый	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T67:Male|bratT30=Person-property|bratT67=Person
 3	,	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
 5	словам	_	_	_	_	_	_	_	_
-6	свидетеля	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property
+6	свидетеля	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T68:Male|bratT36=Person-property|bratT68=Person
 7	,	_	_	_	_	_	_	_	_
 8	вынес	_	_	_	_	_	_	_	_
 9	тело	_	_	_	_	_	_	_	_
@@ -269,11 +275,11 @@
 # sent_id = 0081-p5-s4
 # text = Мать погибшего подростка назвала произошедшее трагической случайностью.
 1	Мать	_	_	_	_	_	_	_	bratA14=T52:Female|bratT31=Family|bratT52=Person
-2	погибшего	_	_	_	_	_	_	_	bratA14=T52:Female|bratT52=Person
-3	подростка	_	_	_	_	_	_	_	bratA14=T52:Female|bratT43=Age|bratT52=Person
+2	погибшего	_	_	_	_	_	_	_	bratA14=T52:Female|bratA19=T69:Male|bratT52=Person|bratT69=Person
+3	подростка	_	_	_	_	_	_	_	bratA14=T52:Female|bratA19=T69:Male|bratT43=Age|bratT52=Person|bratT69=Person
 4	назвала	_	_	_	_	_	_	_	_
-5	произошедшее	_	_	_	_	_	_	_	_
-6	трагической	_	_	_	_	_	_	_	_
-7	случайностью	_	_	_	_	_	_	_	SpaceAfter=No
+5	произошедшее	_	_	_	_	_	_	_	bratT62=Event
+6	трагической	_	_	_	_	_	_	_	bratT61=Event
+7	случайностью	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
 8	.	_	_	_	_	_	_	_	_
 

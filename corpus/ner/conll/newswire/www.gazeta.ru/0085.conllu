@@ -5,8 +5,8 @@
 # text = Великобритания создаст силы кибербезопасности
 1	Великобритания	_	_	_	_	_	_	_	bratT1=GPE
 2	создаст	_	_	_	_	_	_	_	_
-3	силы	_	_	_	_	_	_	_	_
-4	кибербезопасности	_	_	_	_	_	_	_	bratT2=Other-term
+3	силы	_	_	_	_	_	_	_	bratT21=Organization
+4	кибербезопасности	_	_	_	_	_	_	_	bratT2=Other-term|bratT21=Organization
 
 # newpar id = 0085-p2
 # par_text = Великобритания создаст национальное агентство кибербезопасности, агентство по искусственному интеллекту и новое «космическое командование». Об этом сообщает РИА «Новости», ссылаясь на канцелярию правительства.
@@ -14,20 +14,20 @@
 # text = Великобритания создаст национальное агентство кибербезопасности, агентство по искусственному интеллекту и новое ``космическое командование''.
 1	Великобритания	_	_	_	_	_	_	_	bratT3=GPE
 2	создаст	_	_	_	_	_	_	_	_
-3	национальное	_	_	_	_	_	_	_	_
-4	агентство	_	_	_	_	_	_	_	_
-5	кибербезопасности	_	_	_	_	_	_	_	SpaceAfter=No
+3	национальное	_	_	_	_	_	_	_	bratT15=Organization
+4	агентство	_	_	_	_	_	_	_	bratT15=Organization
+5	кибербезопасности	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
 6	,	_	_	_	_	_	_	_	_
-7	агентство	_	_	_	_	_	_	_	_
-8	по	_	_	_	_	_	_	_	_
-9	искусственному	_	_	_	_	_	_	_	_
-10	интеллекту	_	_	_	_	_	_	_	_
+7	агентство	_	_	_	_	_	_	_	bratT16=Organization
+8	по	_	_	_	_	_	_	_	bratT16=Organization
+9	искусственному	_	_	_	_	_	_	_	bratT16=Organization
+10	интеллекту	_	_	_	_	_	_	_	bratT16=Organization
 11	и	_	_	_	_	_	_	_	_
 12	новое	_	_	_	_	_	_	_	_
-13	``	_	_	_	_	_	_	_	SpaceAfter=No
-14	космическое	_	_	_	_	_	_	_	_
-15	командование	_	_	_	_	_	_	_	SpaceAfter=No
-16	''	_	_	_	_	_	_	_	SpaceAfter=No
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+14	космическое	_	_	_	_	_	_	_	bratT17=Organization
+15	командование	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+16	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p2-s2
@@ -54,7 +54,7 @@
 2	сообщению	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	премьер-министр	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT11=Person-property
-5	страны	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT11=Person-property
+5	страны	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT11=Person-property|bratT23=GPE
 6	Борис	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT4=Person-forename
 7	Джонсон	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT5=Person-surname
 8	19	_	_	_	_	_	_	_	bratA3=T12:Future|bratT12=Date-absolute
@@ -68,7 +68,7 @@
 16	результатах	_	_	_	_	_	_	_	_
 17	пересмотра	_	_	_	_	_	_	_	_
 18	эффективности	_	_	_	_	_	_	_	_
-19	национальных	_	_	_	_	_	_	_	_
+19	национальных	_	_	_	_	_	_	_	bratA6=T22:Adjective|bratT22=GPE
 20	оборонных	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
 22	разведывательных	_	_	_	_	_	_	_	_
@@ -89,7 +89,7 @@
 4	о	_	_	_	_	_	_	_	_
 5	создании	_	_	_	_	_	_	_	_
 6	нового	_	_	_	_	_	_	_	_
-7	агентства	_	_	_	_	_	_	_	SpaceAfter=No
+7	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
 8	,	_	_	_	_	_	_	_	_
 9	которое	_	_	_	_	_	_	_	_
 10	будет	_	_	_	_	_	_	_	_
@@ -98,22 +98,22 @@
 13	интеллектом	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	создании	_	_	_	_	_	_	_	_
-16	национальных	_	_	_	_	_	_	_	_
-17	кибер-сил	_	_	_	_	_	_	_	_
+16	национальных	_	_	_	_	_	_	_	bratT18=Organization
+17	кибер-сил	_	_	_	_	_	_	_	bratT18=Organization
 18	для	_	_	_	_	_	_	_	_
 19	защиты	_	_	_	_	_	_	_	_
-20	наших	_	_	_	_	_	_	_	_
-21	граждан	_	_	_	_	_	_	_	SpaceAfter=No
+20	наших	_	_	_	_	_	_	_	bratA5=T6:Citizenship|bratT6=Nationality
+21	граждан	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T6:Citizenship|bratT6=Nationality
 22	,	_	_	_	_	_	_	_	_
 23	а	_	_	_	_	_	_	_	_
 24	также	_	_	_	_	_	_	_	_
 25	о	_	_	_	_	_	_	_	_
 26	создании	_	_	_	_	_	_	_	_
 27	нового	_	_	_	_	_	_	_	_
-28	``	_	_	_	_	_	_	_	SpaceAfter=No
-29	космического	_	_	_	_	_	_	_	_
-30	командования	_	_	_	_	_	_	_	SpaceAfter=No
-31	''	_	_	_	_	_	_	_	SpaceAfter=No
+28	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+29	космического	_	_	_	_	_	_	_	bratT20=Organization
+30	командования	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+31	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
 32	,	_	_	_	_	_	_	_	_
 33	-	_	_	_	_	_	_	_	_
 34	говорится	_	_	_	_	_	_	_	_

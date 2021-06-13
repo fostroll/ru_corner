@@ -1,35 +1,40 @@
-T1	Facility 19 40	``   Москва-Сити   ''
-T2	Facility 92 144	столичном   деловом   центре   ``   Москва-Сити   ''
-T3	Date-period-absolute 201 226	в   октябре   2020   года
-T4	Percent 237 259	на   четыре   процента
-T5	Date-period-absolute 342 377	с   начала   лета   текущего   года
-T6	Organization 422 450	компании   Skolkovo   Realty
-T7	Organization 490 508	``   Ленты.ру   ''
-T8	Date-period-absolute 522 557	с   января   по   октябрь   2020-го
-T9	Percent 653 673	на   25,3   процента
-T10	Facility 807 828	``   Москва-Сити   ''
-T11	Money 852 881	от   12,5   миллиона   рублей
-T12	Quantity 940 966	24,2   квадратного   метра
-T13	Money 1019 1043	2,6   миллиарда   рублей
-T14	Quantity 1081 1115	2,1   тысячи   квадратных   метров
+T1	Facility 19 42	``   Москва - Сити   ''
+T2	Facility 94 148	столичном   деловом   центре   ``   Москва - Сити   ''
+T3	Date-period-absolute 205 230	в   октябре   2020   года
+T4	Percent 241 263	на   четыре   процента
+T5	Date-period-absolute 346 381	с   начала   лета   текущего   года
+T6	Organization 426 454	компании   Skolkovo   Realty
+T7	Organization 494 514	``   Ленты . ру   ''
+T8	Date-period-absolute 528 563	с   января   по   октябрь   2020-го
+T9	Percent 659 679	на   25,3   процента
+T10	Facility 813 836	``   Москва - Сити   ''
+T11	Money 860 889	от   12,5   миллиона   рублей
+T12	Quantity 948 974	24,2   квадратного   метра
+T13	Money 1027 1051	2,6   миллиарда   рублей
+T14	Quantity 1089 1123	2,1   тысячи   квадратных   метров
 A1	Media T7
-T17	Person-property 1121 1129	Эксперты
-T18	Person-property 1288 1299	специалисты
-T19	Date-absolute 743 763	На   данный   момент
-T25	Date-period-absolute 697 737	аналогичным   периодом   прошлого   года
-T21	Date-period-relative 283 300	прошлым   месяцем
+T17	Person-property 1129 1137	Эксперты
+T18	Person-property 1296 1307	специалисты
+T19	Date-absolute 749 769	На   данный   момент
+T25	Date-period-absolute 703 743	аналогичным   периодом   прошлого   года
+T21	Date-period-relative 287 304	прошлым   месяцем
 A5	Past T21
 A8	Present T19
-T26	Ordinal 283 290	прошлым
-T27	Ordinal 722 730	прошлого
-T28	Ordinal 362 370	текущего
-T29	Duration 697 719	аналогичным   периодом
+T26	Ordinal 287 294	прошлым
+T27	Ordinal 728 736	прошлого
+T28	Ordinal 366 374	текущего
+T29	Duration 703 725	аналогичным   периодом
 A2	Past T3
 A6	Past T25
 A7	Past T8
 A3	RCont T5
 A4	Past-Pres T5
-T15	GPE 92 101	столичном
+T15	GPE 94 103	столичном
 A9	Adjective T15
-T16	GPE 433 441	Skolkovo
-T20	Ordinal 748 754	данный
+T16	GPE 437 445	Skolkovo
+T20	Ordinal 754 760	данный
+T22	Event 1235 1257	режимом   самоизоляции
+T23	Person 1129 1137	Эксперты
+T24	GPE 130 136	Москва
+T30	GPE 24 30	Москва
+T31	GPE 818 824	Москва

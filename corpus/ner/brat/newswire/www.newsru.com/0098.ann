@@ -1,0 +1,92 @@
+T1	Event 23 46	президентских   дебатов
+T2	Person 93 99	Трампа
+T3	Person 106 113	Байдена
+T4	Event 67 113	скандальной   перепалки   Трампа   и   Байдена
+T5	GPE 157 160	США
+T6	Organization 115 160	Комиссия   по   президентским   дебатам   США
+T7	Organization 167 170	CPD
+T8	Date-period-absolute 217 232	с   1988   года
+T9	Event 131 154	президентским   дебатам
+T10	Event 208 214	дебаты
+T11	Ordinal 243 253	следующему
+T12	Ordinal 418 424	первых
+T13	GPE 477 480	США
+T14	Person-property 449 480	действующим   президентом   США
+T15	Person 449 502	действующим   президентом   США   Дональдом   Трампом
+T16	Political-group 527 537	демократов
+T17	Person-property 509 537	кандидатом   от   демократов
+T18	Person 509 554	кандидатом   от   демократов   Джо   Байденом
+T19	Event 418 438	первых   теледебатов
+T20	Date-absolute 619 628	Вчерашняя
+T21	Event 751 758	дебатов
+T22	Organization 1003 1006	CPD
+T23	Person-property 1074 1103	модератора   первых   дебатов
+T24	Ordinal 1087 1093	первых
+T25	Event 1087 1103	первых   дебатов
+T26	Organization 1119 1142	телеканала   Fox   News
+T27	Person-property 1106 1142	журналиста   телеканала   Fox   News
+T28	Person 1074 1160	модератора   первых   дебатов   журналиста   телеканала   Fox   News   Криса   Уоллеса
+T29	Organization 1180 1196	телеканала   CBS
+T30	Event 1217 1224	дебатов
+T31	Person-property 1203 1224	модераторам   дебатов
+T32	Person-property 1262 1272	кандидатов
+T33	Person 1350 1357	Байдену
+T34	Person 1364 1370	Трампу
+T35	Event 1381 1389	выборами
+T36	Quantity 1404 1422	еще   два   раунда
+T37	Event 1425 1432	дебатов
+T38	Date-absolute 1439 1451	15   октября
+T39	GPE 1458 1464	Майами
+T40	GPE 1471 1485	штат   Флорида
+T41	Date-absolute 1496 1508	22   октября
+T42	GPE 1515 1523	Нэшвилле
+T43	GPE 1530 1545	штат   Теннесси
+T44	Date-absolute 1554 1565	7   октября
+T45	GPE 1630 1633	США
+T46	Person-property 1597 1633	действующим   вице-президентом   США
+T47	Person 1597 1651	действующим   вице-президентом   США   Майком   Пенсом
+T48	Person 1692 1699	Байдена
+T49	Organization 1682 1699	команды   Байдена
+T50	Person-property 1664 1699	соперницей   из   команды   Байдена
+T51	Person-property 1702 1711	сенатором
+T52	Person 1664 1730	соперницей   из   команды   Байдена   сенатором   Камалой   Харрис
+T53	Event 1580 1586	дебаты
+A1	Past T20
+A2	Male T2
+T54	Person-surname 93 99	Трампа
+A3	Male T3
+T55	Person-surname 106 113	Байдена
+A4	Past-Pres T8
+A5	RCont T8
+A6	Male T15
+T56	Person-forename 483 492	Дональдом
+T57	Person-surname 495 502	Трампом
+A7	Male T18
+T58	Person-forename 540 543	Джо
+T59	Person-surname 546 554	Байденом
+T60	Date-absolute 926 932	вскоре
+T61	Service 995 1000	сайте
+A8	Media T61
+A9	Male T28
+T62	Person-forename 1145 1150	Криса
+T63	Person-surname 1153 1160	Уоллеса
+A10	Male T33
+T64	Person-surname 1350 1357	Байдену
+A11	Male T34
+T65	Person-surname 1364 1370	Трампу
+T66	Date-period-absolute 1373 1389	перед   выборами
+A13	Future T38
+A14	Future T41
+A15	Future T44
+A16	Male T47
+T67	Person-forename 1636 1642	Майком
+T68	Person-surname 1645 1651	Пенсом
+A17	Male T48
+T69	Person-surname 1692 1699	Байдена
+A18	Female T52
+T70	Person-forename 1714 1721	Камалой
+T71	Person-surname 1724 1730	Харрис
+T72	Date-absolute 59 90	после   скандальной   перепалки
+A19	Past T72
+A20	Future T60
+A12	Pres-Fut T66

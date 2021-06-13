@@ -38,7 +38,7 @@
 18	президентских	_	_	_	_	_	_	_	bratT20=Event
 19	выборов	_	_	_	_	_	_	_	bratT20=Event
 20	в	_	_	_	_	_	_	_	_
-21	стране	_	_	_	_	_	_	_	SpaceAfter=No
+21	стране	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p3
@@ -69,7 +69,7 @@
 7	формирует	_	_	_	_	_	_	_	_
 8	кабинет	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
-10	когда	_	_	_	_	_	_	_	_
+10	когда	_	_	_	_	_	_	_	bratA12=T34:Present|bratT34=Date-relative
 11	мои	_	_	_	_	_	_	_	_
 12	расследователи	_	_	_	_	_	_	_	bratT15=Person-property
 13	выявили	_	_	_	_	_	_	_	_
@@ -166,12 +166,15 @@
 20	высокой	_	_	_	_	_	_	_	_
 21	эффективности	_	_	_	_	_	_	_	_
 22	своей	_	_	_	_	_	_	_	_
-23	вакцины	_	_	_	_	_	_	_	bratT9=Product
-24	от	_	_	_	_	_	_	_	bratT9=Product
-25	коронавирусной	_	_	_	_	_	_	_	bratT23=Other-term|bratT9=Product
-26	инфекции	_	_	_	_	_	_	_	bratT23=Other-term|bratT9=Product
-27	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Other-term|bratT9=Product
-28	.	_	_	_	_	_	_	_	_
+23	вакцины	_	_	_	_	_	_	_	bratA13=T9:Trademark|bratT9=Product
+24	от	_	_	_	_	_	_	_	bratA13=T9:Trademark|bratT9=Product
+25	коронавирусной	_	_	_	_	_	_	_	bratA13=T9:Trademark|bratT23=Other-term|bratT9=Product
+26	инфекции	_	_	_	_	_	_	_	bratA13=T9:Trademark|bratT23=Other-term|bratT9=Product
+27-29	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+27	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T9:Trademark|bratT23=Other-term|bratT9=Product
+28	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T9:Trademark|bratT23=Other-term|bratT9=Product
+29	19	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T9:Trademark|bratT23=Other-term|bratT35=Cardinal|bratT9=Product
+30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p7
 # par_text = В середине ноября Байден назвал нежелание президента США признавать поражение на выборах проявлением «невероятной безответственности». По его словам, из-за действий Трампа «всему миру направляются невероятно пагубные послания о том, как функционирует демократия».

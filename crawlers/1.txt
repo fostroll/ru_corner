@@ -1,7 +1,8 @@
-scp			-> _data/brat/_tagged
-cp 			_data/brat/_tagged -> _data/brat/final
-ed			_data/brat/_tagged(ann) + _data/conll + _data/brat/final(txt)
-___final_brat.py:	_data/brat/_tagged -> _data/brat/final
+scp			-> _data/brat/tagged
+cp 			_data/brat/tagged -> _data/brat/final
+ed			_data/brat/tagged(ann) + _data/conll + _data/brat/final(txt)
+___final_brat.py:	_data/brat/tagged -> _data/brat/final
 cp 			_data/brat/final -> corpus/ner/brat
 brat_to_conll.py:	corpus/ner/brat -> _data/brat/conll
 conll_merge.py:		_data/conll + _data/brat/conll -> corpus/ner/conll
+scp			corpus/ner/brat ->

@@ -1,0 +1,184 @@
+# newdoc id = 0008
+# newpar id = 0008-p1
+# par_text = МВД возбудило уголовные дела против трех свидетелей по делу Ефремова
+# sent_id = 0008-p1-s1
+# text = МВД возбудило уголовные дела против трех свидетелей по делу Ефремова
+1	МВД	_	_	_	_	_	_	_	bratT1=Organization
+2	возбудило	_	_	_	_	_	_	_	_
+3	уголовные	_	_	_	_	_	_	_	_
+4	дела	_	_	_	_	_	_	_	_
+5	против	_	_	_	_	_	_	_	_
+6	трех	_	_	_	_	_	_	_	bratT3=Quantity
+7	свидетелей	_	_	_	_	_	_	_	bratT3=Quantity
+8	по	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	_
+10	Ефремова	_	_	_	_	_	_	_	bratT2=Person|bratT34=Person-surname
+
+# newpar id = 0008-p2
+# par_text = МВД России возбудило три уголовных дела в отношении свидетелей по делу актера Михаила Ефремова, передает ТАСС. Они подозреваются в даче заведомо ложных показаний в суде, сообщила официальный представитель МВД Ирина Волк.
+# sent_id = 0008-p2-s1
+# text = МВД России возбудило три уголовных дела в отношении свидетелей по делу актера Михаила Ефремова, передает ТАСС.
+1	МВД	_	_	_	_	_	_	_	bratT5=Organization
+2	России	_	_	_	_	_	_	_	bratT4=GPE|bratT5=Organization
+3	возбудило	_	_	_	_	_	_	_	_
+4	три	_	_	_	_	_	_	_	bratT6=Quantity
+5	уголовных	_	_	_	_	_	_	_	bratT6=Quantity
+6	дела	_	_	_	_	_	_	_	bratT6=Quantity
+7	в	_	_	_	_	_	_	_	_
+8	отношении	_	_	_	_	_	_	_	_
+9	свидетелей	_	_	_	_	_	_	_	bratT7=Other-group
+10	по	_	_	_	_	_	_	_	_
+11	делу	_	_	_	_	_	_	_	_
+12	актера	_	_	_	_	_	_	_	bratA4=T9:Male|bratT8=Person-property|bratT9=Person
+13	Михаила	_	_	_	_	_	_	_	bratA4=T9:Male|bratT35=Person-forename|bratT9=Person
+14	Ефремова	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Male|bratT36=Person-surname|bratT9=Person
+15	,	_	_	_	_	_	_	_	_
+16	передает	_	_	_	_	_	_	_	_
+17	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p2-s2
+# text = Они подозреваются в даче заведомо ложных показаний в суде, сообщила официальный представитель МВД Ирина Волк.
+1	Они	_	_	_	_	_	_	_	_
+2	подозреваются	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	даче	_	_	_	_	_	_	_	_
+5	заведомо	_	_	_	_	_	_	_	_
+6	ложных	_	_	_	_	_	_	_	_
+7	показаний	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	суде	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	сообщила	_	_	_	_	_	_	_	_
+12	официальный	_	_	_	_	_	_	_	bratA5=T13:Female|bratT12=Person-property|bratT13=Person
+13	представитель	_	_	_	_	_	_	_	bratA5=T13:Female|bratT12=Person-property|bratT13=Person
+14	МВД	_	_	_	_	_	_	_	bratA5=T13:Female|bratT11=Organization|bratT12=Person-property|bratT13=Person
+15	Ирина	_	_	_	_	_	_	_	bratA5=T13:Female|bratT13=Person|bratT37=Person-forename
+16	Волк	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Female|bratT13=Person|bratT38=Person-surname
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p3
+# par_text = "Главным следственным управлением ГУ МВД России по Москве возбуждены три уголовных дела в отношении свидетелей, которые подозреваются в даче заведомо ложных показаний (ст. 307 УК РФ) в Пресненском районном суде города Москвы", - цитирует Волк агентство.
+# sent_id = 0008-p3-s1
+# text = ``Главным следственным управлением ГУ МВД России по Москве возбуждены три уголовных дела в отношении свидетелей, которые подозреваются в даче заведомо ложных показаний (ст. 307 УК РФ) в Пресненском районном суде города Москвы'', - цитирует Волк агентство.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Главным	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization
+3	следственным	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization
+4	управлением	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization
+5	ГУ	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization|bratT49=Organization
+6	МВД	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization|bratT17=Organization|bratT49=Organization
+7	России	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization|bratT15=GPE|bratT17=Organization|bratT49=Organization
+8	по	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization|bratT49=Organization
+9	Москве	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization|bratT16=GPE|bratT49=Organization
+10	возбуждены	_	_	_	_	_	_	_	_
+11	три	_	_	_	_	_	_	_	bratT18=Quantity
+12	уголовных	_	_	_	_	_	_	_	bratT18=Quantity
+13	дела	_	_	_	_	_	_	_	bratT18=Quantity
+14	в	_	_	_	_	_	_	_	_
+15	отношении	_	_	_	_	_	_	_	_
+16	свидетелей	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-group
+17	,	_	_	_	_	_	_	_	_
+18	которые	_	_	_	_	_	_	_	_
+19	подозреваются	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	даче	_	_	_	_	_	_	_	_
+22	заведомо	_	_	_	_	_	_	_	_
+23	ложных	_	_	_	_	_	_	_	_
+24	показаний	_	_	_	_	_	_	_	_
+25	(	_	_	_	_	_	_	_	SpaceAfter=No
+26	ст.	_	_	_	_	_	_	_	bratT20=Law
+27	307	_	_	_	_	_	_	_	bratT20=Law|bratT40=Ordinal
+28	УК	_	_	_	_	_	_	_	bratT20=Law|bratT41=Law
+29	РФ	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law|bratT33=GPE|bratT41=Law
+30	)	_	_	_	_	_	_	_	_
+31	в	_	_	_	_	_	_	_	_
+32	Пресненском	_	_	_	_	_	_	_	bratA10=T46:Adjective|bratT22=Organization|bratT46=GPE
+33	районном	_	_	_	_	_	_	_	bratA10=T46:Adjective|bratT22=Organization|bratT46=GPE
+34	суде	_	_	_	_	_	_	_	bratT22=Organization
+35	города	_	_	_	_	_	_	_	bratT21=GPE|bratT22=Organization
+36	Москвы	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE|bratT22=Organization
+37	''	_	_	_	_	_	_	_	SpaceAfter=No
+38	,	_	_	_	_	_	_	_	_
+39	-	_	_	_	_	_	_	_	_
+40	цитирует	_	_	_	_	_	_	_	_
+41	Волк	_	_	_	_	_	_	_	bratA6=T23:Female|bratT23=Person|bratT39=Person-surname
+42	агентство	_	_	_	_	_	_	_	SpaceAfter=No
+43	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p4
+# par_text = Речь идет о о людях, которых адвокат Ефремова Эльман Пашаев пригласил в суд. Двое из них заявили, что за рулем внедорожника актера якобы сидел кто-то другой, а сам Ефремов "стоял рядом с машиной". Еще один свидетель утверждал, что до ДТП он якобы видел на заднем сиденье Jeep незнакомого ему человека, а за рулем никого не было.
+# sent_id = 0008-p4-s1
+# text = Речь идет о о людях, которых адвокат Ефремова Эльман Пашаев пригласил в суд.
+1	Речь	_	_	_	_	_	_	_	_
+2	идет	_	_	_	_	_	_	_	_
+3	о	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	людях	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	которых	_	_	_	_	_	_	_	_
+8	адвокат	_	_	_	_	_	_	_	bratA8=T26:Male|bratT25=Person-property|bratT26=Person
+9	Ефремова	_	_	_	_	_	_	_	bratA7=T24:Male|bratA8=T26:Male|bratT24=Person|bratT25=Person-property|bratT26=Person|bratT42=Person-surname
+10	Эльман	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person|bratT43=Person-forename
+11	Пашаев	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person|bratT44=Person-surname
+12	пригласил	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	суд	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p4-s2
+# text = Двое из них заявили, что за рулем внедорожника актера якобы сидел кто-то другой, а сам Ефремов ``стоял рядом с машиной''.
+1	Двое	_	_	_	_	_	_	_	bratT27=Quantity
+2	из	_	_	_	_	_	_	_	bratT27=Quantity
+3	них	_	_	_	_	_	_	_	_
+4	заявили	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	за	_	_	_	_	_	_	_	_
+8	рулем	_	_	_	_	_	_	_	_
+9	внедорожника	_	_	_	_	_	_	_	_
+10	актера	_	_	_	_	_	_	_	bratT28=Person-property
+11	якобы	_	_	_	_	_	_	_	_
+12	сидел	_	_	_	_	_	_	_	_
+13	кто-то	_	_	_	_	_	_	_	_
+14	другой	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	а	_	_	_	_	_	_	_	_
+17	сам	_	_	_	_	_	_	_	_
+18	Ефремов	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT45=Person-surname
+19	``	_	_	_	_	_	_	_	SpaceAfter=No
+20	стоял	_	_	_	_	_	_	_	_
+21	рядом	_	_	_	_	_	_	_	_
+22	с	_	_	_	_	_	_	_	_
+23	машиной	_	_	_	_	_	_	_	SpaceAfter=No
+24	''	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p4-s3
+# text = Еще один свидетель утверждал, что до ДТП он якобы видел на заднем сиденье Jeep незнакомого ему человека, а за рулем никого не было.
+1	Еще	_	_	_	_	_	_	_	bratT31=Quantity
+2	один	_	_	_	_	_	_	_	bratT31=Quantity
+3	свидетель	_	_	_	_	_	_	_	bratT30=Other-group|bratT31=Quantity
+4	утверждал	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	до	_	_	_	_	_	_	_	bratA11=T48:Past|bratT48=Date-absolute
+8	ДТП	_	_	_	_	_	_	_	bratA11=T48:Past|bratT47=Event|bratT48=Date-absolute
+9	он	_	_	_	_	_	_	_	_
+10	якобы	_	_	_	_	_	_	_	_
+11	видел	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	заднем	_	_	_	_	_	_	_	_
+14	сиденье	_	_	_	_	_	_	_	_
+15	Jeep	_	_	_	_	_	_	_	bratA3=T32:Trademark|bratT32=Product
+16	незнакомого	_	_	_	_	_	_	_	_
+17	ему	_	_	_	_	_	_	_	_
+18	человека	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	а	_	_	_	_	_	_	_	_
+21	за	_	_	_	_	_	_	_	_
+22	рулем	_	_	_	_	_	_	_	_
+23	никого	_	_	_	_	_	_	_	_
+24	не	_	_	_	_	_	_	_	_
+25	было	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+

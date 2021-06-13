@@ -1,0 +1,263 @@
+# newdoc id = 0030
+# newpar id = 0030-p1
+# par_text = 85-летний Ларри Кинг разводится с седьмой женой после 22 лет брака
+# sent_id = 0030-p1-s1
+# text = 85-летний Ларри Кинг разводится с седьмой женой после 22 лет брака
+1	85-летний	_	_	_	_	_	_	_	bratT1=Age
+2	Ларри	_	_	_	_	_	_	_	bratA1=T4:Male|bratT2=Person-forename|bratT4=Person
+3	Кинг	_	_	_	_	_	_	_	bratA1=T4:Male|bratT3=Person-surname|bratT4=Person
+4	разводится	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	седьмой	_	_	_	_	_	_	_	bratT5=Ordinal|bratT6=Family
+7	женой	_	_	_	_	_	_	_	bratT6=Family
+8	после	_	_	_	_	_	_	_	bratA2=T8:Present|bratT8=Date-absolute
+9	22	_	_	_	_	_	_	_	bratA2=T8:Present|bratT7=Duration|bratT8=Date-absolute
+10	лет	_	_	_	_	_	_	_	bratA2=T8:Present|bratT7=Duration|bratT8=Date-absolute
+11	брака	_	_	_	_	_	_	_	bratA2=T8:Present|bratT8=Date-absolute
+
+# newpar id = 0030-p2
+# par_text = Легенда американского телевидения Ларри Кинг был женат восемь раз. При этом третий и пятый раз его супругой становилась одна и та же женщина — модель Playboy Алин Акинс. Таким образом, жен у Ларри было семь. С последней из них, моделью, певицей, актрисой, телеведущей и просто очень разносторонней личностью Шон Саутуик он сыграл свадьбу в 1997 году. Это самый долгий брак Кинга. Но и ему, похоже, пришел конец. 20 августа 85-летний телеведущий подал на развод в суд Лос-Анджелеса. В качестве причины он указал непримиримые разногласия, а датой расставания с Шон назвал 6 июня. Информацию о разрыве подтвердил официальный представитель Кинга.
+# sent_id = 0030-p2-s1
+# text = Легенда американского телевидения Ларри Кинг был женат восемь раз.
+1	Легенда	_	_	_	_	_	_	_	bratA4=T13:Male|bratT12=Person-property|bratT13=Person
+2	американского	_	_	_	_	_	_	_	bratA3=T9:Adjective|bratA4=T13:Male|bratT12=Person-property|bratT13=Person|bratT9=GPE
+3	телевидения	_	_	_	_	_	_	_	bratA4=T13:Male|bratT12=Person-property|bratT13=Person
+4	Ларри	_	_	_	_	_	_	_	bratA4=T13:Male|bratT10=Person-forename|bratT13=Person
+5	Кинг	_	_	_	_	_	_	_	bratA4=T13:Male|bratT11=Person-surname|bratT13=Person
+6	был	_	_	_	_	_	_	_	_
+7	женат	_	_	_	_	_	_	_	_
+8	восемь	_	_	_	_	_	_	_	bratT14=Quantity
+9	раз	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Quantity
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s2
+# text = При этом третий и пятый раз его супругой становилась одна и та же женщина - модель Playboy Алин Акинс.
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	третий	_	_	_	_	_	_	_	bratT15=Ordinal
+4	и	_	_	_	_	_	_	_	_
+5	пятый	_	_	_	_	_	_	_	bratT16=Ordinal
+6	раз	_	_	_	_	_	_	_	_
+7	его	_	_	_	_	_	_	_	_
+8	супругой	_	_	_	_	_	_	_	bratT75=Family
+9	становилась	_	_	_	_	_	_	_	_
+10	одна	_	_	_	_	_	_	_	_
+11	и	_	_	_	_	_	_	_	_
+12	та	_	_	_	_	_	_	_	_
+13	же	_	_	_	_	_	_	_	_
+14	женщина	_	_	_	_	_	_	_	_
+15	-	_	_	_	_	_	_	_	_
+16	модель	_	_	_	_	_	_	_	bratA6=T22:Female|bratT19=Person-property|bratT22=Person
+17	Playboy	_	_	_	_	_	_	_	bratA5=T18:Media|bratA6=T22:Female|bratT18=Organization|bratT19=Person-property|bratT22=Person
+18	Алин	_	_	_	_	_	_	_	bratA6=T22:Female|bratT20=Person-forename|bratT22=Person
+19	Акинс	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T22:Female|bratT21=Person-surname|bratT22=Person
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s3
+# text = Таким образом, жен у Ларри было семь.
+1	Таким	_	_	_	_	_	_	_	_
+2	образом	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	жен	_	_	_	_	_	_	_	bratT17=Family
+5	у	_	_	_	_	_	_	_	_
+6	Ларри	_	_	_	_	_	_	_	bratA7=T24:Male|bratT23=Person-forename|bratT24=Person
+7	было	_	_	_	_	_	_	_	_
+8	семь	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Quantity
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s4
+# text = С последней из них, моделью, певицей, актрисой, телеведущей и просто очень разносторонней личностью Шон Саутуик он сыграл свадьбу в 1997 году.
+1	С	_	_	_	_	_	_	_	_
+2	последней	_	_	_	_	_	_	_	bratT26=Ordinal
+3	из	_	_	_	_	_	_	_	_
+4	них	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	моделью	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T33:Female|bratT29=Person-property|bratT33=Person
+7	,	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+8	певицей	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T33:Female|bratT30=Person-property|bratT33=Person
+9	,	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+10	актрисой	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T33:Female|bratT31=Person-property|bratT33=Person
+11	,	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+12	телеведущей	_	_	_	_	_	_	_	bratA8=T33:Female|bratT32=Person-property|bratT33=Person
+13	и	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+14	просто	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+15	очень	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+16	разносторонней	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+17	личностью	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
+18	Шон	_	_	_	_	_	_	_	bratA8=T33:Female|bratT27=Person-forename|bratT33=Person
+19	Саутуик	_	_	_	_	_	_	_	bratA8=T33:Female|bratT28=Person-surname|bratT33=Person
+20	он	_	_	_	_	_	_	_	_
+21	сыграл	_	_	_	_	_	_	_	_
+22	свадьбу	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-absolute
+24	1997	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-absolute
+25	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T34:Past|bratT34=Date-absolute
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s5
+# text = Это самый долгий брак Кинга.
+1	Это	_	_	_	_	_	_	_	_
+2	самый	_	_	_	_	_	_	_	_
+3	долгий	_	_	_	_	_	_	_	_
+4	брак	_	_	_	_	_	_	_	_
+5	Кинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T36:Male|bratT35=Person-surname|bratT36=Person
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s6
+# text = Но и ему, похоже, пришел конец.
+1	Но	_	_	_	_	_	_	_	_
+2	и	_	_	_	_	_	_	_	_
+3	ему	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	похоже	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	пришел	_	_	_	_	_	_	_	_
+8	конец	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s7
+# text = 20 августа 85-летний телеведущий подал на развод в суд Лос-Анджелеса.
+1	20	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-absolute
+2	августа	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-absolute
+3	85-летний	_	_	_	_	_	_	_	bratT38=Age
+4	телеведущий	_	_	_	_	_	_	_	bratT39=Person-property
+5	подал	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	развод	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	суд	_	_	_	_	_	_	_	bratT41=Organization
+10	Лос-Анджелеса	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=GPE|bratT41=Organization
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s8
+# text = В качестве причины он указал непримиримые разногласия, а датой расставания с Шон назвал 6 июня.
+1	В	_	_	_	_	_	_	_	_
+2	качестве	_	_	_	_	_	_	_	_
+3	причины	_	_	_	_	_	_	_	_
+4	он	_	_	_	_	_	_	_	_
+5	указал	_	_	_	_	_	_	_	_
+6	непримиримые	_	_	_	_	_	_	_	_
+7	разногласия	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	а	_	_	_	_	_	_	_	_
+10	датой	_	_	_	_	_	_	_	_
+11	расставания	_	_	_	_	_	_	_	_
+12	с	_	_	_	_	_	_	_	_
+13	Шон	_	_	_	_	_	_	_	bratA12=T43:Female|bratT42=Person-forename|bratT43=Person
+14	назвал	_	_	_	_	_	_	_	_
+15	6	_	_	_	_	_	_	_	bratT44=Date-absolute
+16	июня	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Date-absolute
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s9
+# text = Информацию о разрыве подтвердил официальный представитель Кинга.
+1	Информацию	_	_	_	_	_	_	_	_
+2	о	_	_	_	_	_	_	_	_
+3	разрыве	_	_	_	_	_	_	_	_
+4	подтвердил	_	_	_	_	_	_	_	_
+5	официальный	_	_	_	_	_	_	_	bratT47=Person-property
+6	представитель	_	_	_	_	_	_	_	bratT47=Person-property
+7	Кинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Male|bratT45=Person-surname|bratT46=Person|bratT47=Person-property
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0030-p3
+# par_text = К слову, это не первый раз, когда Ларри подает на развод с Шон. Первая попытка расстаться с седьмой женой состоялась в 2010 году, когда Саутуик закрутила роман с бейсбольным тренером одного из их с Кингом сыновей. Спортсмен подтвердил свою связь с женщиной, но супруги в итоге решили сохранить свои отношения. В 2016 году в прессе появились сообщения об очередном романе Шон. Но тогда Ларри заявил, что это слухи и в их семье царит гармония.
+# sent_id = 0030-p3-s1
+# text = К слову, это не первый раз, когда Ларри подает на развод с Шон.
+1	К	_	_	_	_	_	_	_	_
+2	слову	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	это	_	_	_	_	_	_	_	_
+5	не	_	_	_	_	_	_	_	_
+6	первый	_	_	_	_	_	_	_	bratT48=Ordinal
+7	раз	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	когда	_	_	_	_	_	_	_	_
+10	Ларри	_	_	_	_	_	_	_	bratA15=T50:Male|bratT49=Person-forename|bratT50=Person
+11	подает	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	развод	_	_	_	_	_	_	_	_
+14	с	_	_	_	_	_	_	_	_
+15	Шон	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T51:Female|bratT51=Person|bratT52=Person-forename
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p3-s2
+# text = Первая попытка расстаться с седьмой женой состоялась в 2010 году, когда Саутуик закрутила роман с бейсбольным тренером одного из их с Кингом сыновей.
+1	Первая	_	_	_	_	_	_	_	bratT53=Ordinal
+2	попытка	_	_	_	_	_	_	_	_
+3	расстаться	_	_	_	_	_	_	_	_
+4	с	_	_	_	_	_	_	_	_
+5	седьмой	_	_	_	_	_	_	_	bratT54=Ordinal|bratT55=Family
+6	женой	_	_	_	_	_	_	_	bratT55=Family
+7	состоялась	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA17=T56:Past|bratT56=Date-absolute
+9	2010	_	_	_	_	_	_	_	bratA17=T56:Past|bratT56=Date-absolute
+10	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T56:Past|bratT56=Date-absolute
+11	,	_	_	_	_	_	_	_	_
+12	когда	_	_	_	_	_	_	_	_
+13	Саутуик	_	_	_	_	_	_	_	bratA18=T58:Female|bratT57=Person-surname|bratT58=Person
+14	закрутила	_	_	_	_	_	_	_	_
+15	роман	_	_	_	_	_	_	_	_
+16	с	_	_	_	_	_	_	_	_
+17	бейсбольным	_	_	_	_	_	_	_	bratT64=Person-property
+18	тренером	_	_	_	_	_	_	_	bratT64=Person-property
+19	одного	_	_	_	_	_	_	_	bratA20=T63:Male|bratT59=Quantity|bratT63=Person|bratT64=Person-property
+20	из	_	_	_	_	_	_	_	bratA20=T63:Male|bratT59=Quantity|bratT63=Person|bratT64=Person-property
+21	их	_	_	_	_	_	_	_	bratA20=T63:Male|bratT63=Person|bratT64=Person-property
+22	с	_	_	_	_	_	_	_	bratA20=T63:Male|bratT63=Person|bratT64=Person-property
+23	Кингом	_	_	_	_	_	_	_	bratA19=T60:Male|bratA20=T63:Male|bratT60=Person|bratT61=Person-surname|bratT63=Person|bratT64=Person-property
+24	сыновей	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T63:Male|bratT62=Family|bratT63=Person|bratT64=Person-property
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p3-s3
+# text = Спортсмен подтвердил свою связь с женщиной, но супруги в итоге решили сохранить свои отношения.
+1	Спортсмен	_	_	_	_	_	_	_	bratT65=Person-property
+2	подтвердил	_	_	_	_	_	_	_	_
+3	свою	_	_	_	_	_	_	_	_
+4	связь	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	женщиной	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	но	_	_	_	_	_	_	_	_
+9	супруги	_	_	_	_	_	_	_	bratT66=Family
+10	в	_	_	_	_	_	_	_	_
+11	итоге	_	_	_	_	_	_	_	_
+12	решили	_	_	_	_	_	_	_	_
+13	сохранить	_	_	_	_	_	_	_	_
+14	свои	_	_	_	_	_	_	_	_
+15	отношения	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p3-s4
+# text = В 2016 году в прессе появились сообщения об очередном романе Шон.
+1	В	_	_	_	_	_	_	_	bratA21=T67:Past|bratT67=Date-absolute
+2	2016	_	_	_	_	_	_	_	bratA21=T67:Past|bratT67=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA21=T67:Past|bratT67=Date-absolute
+4	в	_	_	_	_	_	_	_	_
+5	прессе	_	_	_	_	_	_	_	_
+6	появились	_	_	_	_	_	_	_	_
+7	сообщения	_	_	_	_	_	_	_	_
+8	об	_	_	_	_	_	_	_	_
+9	очередном	_	_	_	_	_	_	_	bratT68=Ordinal
+10	романе	_	_	_	_	_	_	_	_
+11	Шон	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T70:Female|bratT69=Person-forename|bratT70=Person
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p3-s5
+# text = Но тогда Ларри заявил, что это слухи и в их семье царит гармония.
+1	Но	_	_	_	_	_	_	_	_
+2	тогда	_	_	_	_	_	_	_	bratA23=T71:Past|bratT71=Date-relative
+3	Ларри	_	_	_	_	_	_	_	bratA24=T72:Male|bratT72=Person|bratT73=Person-surname
+4	заявил	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	это	_	_	_	_	_	_	_	_
+8	слухи	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	их	_	_	_	_	_	_	_	_
+12	семье	_	_	_	_	_	_	_	bratT74=Family
+13	царит	_	_	_	_	_	_	_	_
+14	гармония	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+

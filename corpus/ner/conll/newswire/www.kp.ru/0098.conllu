@@ -23,7 +23,7 @@
 8	с	_	_	_	_	_	_	_	_
 9	обращением	_	_	_	_	_	_	_	_
 10	к	_	_	_	_	_	_	_	_
-11	нации	_	_	_	_	_	_	_	_
+11	нации	_	_	_	_	_	_	_	bratA22=T40:Citizenship|bratT40=Nationality
 12	в	_	_	_	_	_	_	_	bratA5=T44:Future|bratT44=Date-relative|bratT6=Time-absolute
 13	20.00	_	_	_	_	_	_	_	bratA5=T44:Future|bratT44=Date-relative|bratT6=Time-absolute
 14	по	_	_	_	_	_	_	_	bratA5=T44:Future|bratT44=Date-relative|bratT6=Time-absolute
@@ -32,7 +32,7 @@
 17	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T44:Future|bratT44=Date-relative
 18	4.00	_	_	_	_	_	_	_	bratA5=T44:Future|bratT44=Date-relative|bratT7=Time-absolute
 19	по	_	_	_	_	_	_	_	bratA5=T44:Future|bratT44=Date-relative|bratT7=Time-absolute
-20	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T44:Future|bratT44=Date-relative|bratT7=Time-absolute
+20	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T44:Future|bratT44=Date-relative|bratT63=GPE|bratT7=Time-absolute
 21	)	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T44:Future|bratT44=Date-relative
 22	.	_	_	_	_	_	_	_	_
 
@@ -54,7 +54,7 @@
 4	Байден	_	_	_	_	_	_	_	bratA12=T10:Male|bratT10=Person|bratT49=Person-surname
 5	обратится	_	_	_	_	_	_	_	_
 6	к	_	_	_	_	_	_	_	_
-7	нации	_	_	_	_	_	_	_	_
+7	нации	_	_	_	_	_	_	_	bratA23=T53:Citizenship|bratT53=Nationality
 8	в	_	_	_	_	_	_	_	bratA4=T11:Future|bratT11=Date-absolute
 9	субботу	_	_	_	_	_	_	_	bratA4=T11:Future|bratT11=Date-absolute
 10	в	_	_	_	_	_	_	_	bratA4=T11:Future|bratT11=Date-absolute|bratT12=Time-absolute
@@ -64,13 +64,14 @@
 14	времени	_	_	_	_	_	_	_	bratA4=T11:Future|bratT11=Date-absolute|bratT12=Time-absolute
 15	в	_	_	_	_	_	_	_	_
 16	Уилмингтоне	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
-17	,	_	_	_	_	_	_	_	_
-18	штат	_	_	_	_	_	_	_	bratT17=GPE
-19	Делавэр	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=GPE
+17	,	_	_	_	_	_	_	_	bratT16=GPE
+18	штат	_	_	_	_	_	_	_	bratT16=GPE|bratT17=GPE
+19	Делавэр	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE|bratT17=GPE
 20	,	_	_	_	_	_	_	_	_
 21	согласно	_	_	_	_	_	_	_	_
 22	пресс-релизу	_	_	_	_	_	_	_	_
 23	кампании	_	_	_	_	_	_	_	_
+24-26	Байдена-Харриса	_	_	_	_	_	_	_	SpaceAfter=No
 24	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T13:Male|bratT13=Person|bratT51=Person-forename
 25	-	_	_	_	_	_	_	_	SpaceAfter=No
 26	Харриса	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratT50=Person|bratT52=Person-surname

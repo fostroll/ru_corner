@@ -1,0 +1,80 @@
+T1	Person-property 0 10	Обвиняемый
+T2	Person 25 32	Фургала
+A1	Male T2
+T3	Person-surname 25 32	Фургала
+T4	Person-property 57 65	конвоиры
+T5	Person 123 139	Андрей   Карепов
+A2	Male T5
+T6	Person-forename 123 129	Андрей
+T7	Person-surname 132 139	Карепов
+T15	Person-property 515 523	конвоиры
+T16	Facility 542 568	СИЗО   ``   Лефортово   ''
+T18	Date-absolute 571 602	после   следственных   действий
+T19	Person 630 723	член   ОНК   Москвы   журналистка   ``   Московсковского   комсомольца   ''   Ева   Меркачева
+A6	Female T19
+T20	Person-property 630 705	член   ОНК   Москвы   журналистка   ``   Московсковского   комсомольца   ''
+T21	Organization 637 649	ОНК   Москвы
+T22	GPE 643 649	Москвы
+T23	Organization 671 700	Московсковского   комсомольца
+A7	Media T23
+T24	Person-forename 708 711	Ева
+T25	Person-surname 714 723	Меркачева
+T26	Person 729 736	Карепов
+A8	Male T26
+T27	Person-surname 729 736	Карепов
+T28	Date-absolute 739 747	накануне
+T29	Person-property 762 774	членам   ОНК
+T30	Organization 771 774	ОНК
+T31	Date-absolute 787 811	в   среду   12   августа
+A9	Past T31
+T32	Person 956 965	Меркачева
+A10	Female T32
+T33	Person-surname 956 965	Меркачева
+T34	Organization 984 994	Интерфаксу
+A11	Media T34
+T35	Other-term 1030 1038	гематомы
+T37	Person-property 1195 1206	журналистка
+T38	Person 1258 1266	Карепова
+A12	Male T38
+T39	Person-surname 1258 1266	Карепова
+T40	Organization 1315 1335	НИИ   Склифосовского
+T41	Person 1360 1369	Меркачева
+A13	Female T41
+T42	Person-surname 1360 1369	Меркачева
+T43	Date-absolute 1374 1390	После   оказания
+T45	Organization 1460 1483	В   пресс-службе   ФСИН
+A15	Media T45
+T46	Organization 1479 1483	ФСИН
+T47	Person 1514 1522	Карепова
+A16	Male T47
+T48	Person-surname 1514 1522	Карепова
+T51	Law 253 467	пункты   ``   б   ''   ,   ``   е   ''   ,   ``   ж   ''   ,   ``   з   ''   часть   2   статья   105   ,   пункты   ``   а   ''   ,   ``   б   ''   ,   ``   ж   ''   ,   ``   з   ''   часть   2   статья   105   УК
+T52	Law 465 467	УК
+T53	Ordinal 262 273	``   б   ''
+T54	Ordinal 280 291	``   е   ''
+T56	Ordinal 298 309	``   ж   ''
+T59	Ordinal 316 327	``   з   ''
+A18	Past T18
+T17	GPE 671 686	Московсковского
+A19	Adjective T17
+A20	Past T28
+T68	Quantity 820 835	несколько   раз
+T69	Date-relative 852 870	после   того   как
+A21	Past T69
+T70	Service 1283 1298	скорой   помощи
+A22	Past T43
+T71	Service 1393 1408	первой   помощи
+T44	Ordinal 1393 1399	первой
+T8	Ordinal 338 339	2
+T9	Ordinal 351 354	105
+T10	Ordinal 370 381	``   а   ''
+T11	Ordinal 388 399	``   б   ''
+T12	Ordinal 406 417	``   ж   ''
+T13	Ordinal 424 435	``   з   ''
+T14	Ordinal 446 447	2
+T49	Ordinal 459 462	105
+T55	Person-property 212 227	экс-губернатора
+T57	Person 212 246	экс-губернатора   Сергея   Фургала
+A3	Male T57
+T58	Person-forename 230 236	Сергея
+T60	Person-surname 239 246	Фургала

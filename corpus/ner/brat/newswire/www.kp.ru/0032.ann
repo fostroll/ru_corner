@@ -15,21 +15,21 @@ T13	Organization 540 563	отель   ``   Плаза   ''
 T14	Person 871 876	Трамп
 T15	Person-property 900 923	знаменитый   миллиардер
 T16	Person 1095 1110	Крис   Коламбус
-T17	Service 1175 1187	сайт   kp.ru
+T17	Service 1175 1189	сайт   kp . ru
 A2	Media T17
-T18	Service 1202 1221	``   Википедия   ''
-T19	Work-of-art 1255 1289	фильме   ``   Один   дома   2   ''
-T20	Person 1345 1360	Дональд   Трамп
+T18	Service 1204 1223	``   Википедия   ''
+T19	Work-of-art 1257 1291	фильме   ``   Один   дома   2   ''
+T20	Person 1347 1362	Дональд   Трамп
 T21	Person-property 840 849	режиссера
 T22	Other-group 1037 1045	зрителям
-T23	Quantity 374 388	в   одном   из
+T23	Quantity 378 388	одном   из
 T24	Quantity 660 672	Единственный
 T25	Person-property 970 986	главному   герою
 T26	Ordinal 1053 1059	первом
-T27	Service 1240 1248	страницу
+T27	Service 1242 1250	страницу
 A3	Media T27
-T28	Date-absolute 1194 1199	ранее
-T29	Organization 1182 1187	kp.ru
+T28	Date-absolute 1196 1201	ранее
+T29	Organization 1182 1189	kp . ru
 A4	Media T29
 A5	Past T28
 T30	Person-surname 33 38	Трамп
@@ -41,8 +41,8 @@ T35	Person-surname 414 422	Коламбус
 T36	Person-surname 871 876	Трамп
 T37	Person-forename 1095 1099	Крис
 T38	Person-surname 1102 1110	Коламбус
-T39	Person-forename 1345 1352	Дональд
-T40	Person-surname 1355 1360	Трамп
+T39	Person-forename 1347 1354	Дональд
+T40	Person-surname 1357 1362	Трамп
 A6	Male T2
 A7	Male T6
 A8	Male T10
@@ -54,7 +54,11 @@ T41	Ordinal 80 81	2
 T42	Quantity 66 70	Один
 T43	Quantity 144 148	Один
 T44	Ordinal 158 159	2
-T45	Ordinal 1283 1284	2
-T46	Quantity 1269 1273	Один
+T45	Ordinal 1285 1286	2
+T46	Quantity 1271 1275	Один
 T47	Date-absolute 287 296	нынешнему
 A13	Present T47
+T49	Date-relative 516 521	тогда
+A15	Past T49
+T48	GPE 183 192	Нью-Йорке
+T50	Web-address 1182 1189	kp . ru

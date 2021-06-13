@@ -1,0 +1,80 @@
+T1	Person-forename 0 5	Китти
+T2	Person-surname 8 15	Спенсер
+T3	Person 0 15	Китти   Спенсер
+A1	Female T3
+T4	GPE 94 108	Великобритании
+T5	Person-forename 111 116	Китти
+T6	Person-surname 119 126	Спенсер
+T7	Person 111 126	Китти   Спенсер
+A2	Female T7
+T8	Person-forename 228 233	Дианы
+T9	Person-property 216 225	принцессы
+T10	Person 216 233	принцессы   Дианы
+A3	Female T10
+T11	Family 203 213	племянница
+T12	Person 203 233	племянница   принцессы   Дианы
+A4	Female T12
+T14	Facility 343 370	часовне   святого   Георгия
+T15	Person-forename 311 316	Гарри
+T16	Person-forename 323 328	Меган
+T17	Person-surname 331 336	Маркл
+T18	Person-property 302 308	принца
+T19	Family 293 299	кузена
+T20	Person 284 316	своего   кузена   принца   Гарри
+A6	Male T20
+T21	Person 323 336	Меган   Маркл
+A7	Female T21
+T22	Event 274 336	свадьбе   своего   кузена   принца   Гарри   и   Меган   Маркл
+T25	Product 390 432	платье   Dolce   &   Gabbana   Alta   Moda
+T27	Product 439 463	шляпке   Philip   Treacy
+T28	Organization 560 580	Harper   's   Bazaar
+A11	Media T28
+T29	Person-forename 529 534	Китти
+T30	Person 529 534	Китти
+A12	Female T30
+T31	Service 627 636	Instagram
+T33	Quantity 649 661	с   17   000
+T35	Date-period-relative 684 700	за   одну   ночь
+T36	Duration 689 700	одну   ночь
+T37	Date-relative 779 800	на   следующее   утро
+A14	Past T37
+T38	Ordinal 784 793	следующее
+T39	Person-forename 908 913	Китти
+T40	Person 908 913	Китти
+A15	Female T40
+T41	Date-period-absolute 967 981	до   сих   пор
+A16	Past-Pres T41
+T42	Person-forename 1182 1189	Моникой
+T43	Person-surname 1192 1200	Беллуччи
+T44	Person-forename 1207 1213	Карлой
+T45	Person-forename 1228 1237	Изабеллой
+T46	Person-forename 1257 1264	Хеленой
+T47	Person-forename 1284 1289	Наоми
+T48	Person-surname 1216 1221	Бруни
+T49	Person-surname 1240 1250	Росселлини
+T50	Person-surname 1267 1277	Кристенсен
+T51	Person-surname 1292 1300	Кэмпбелл
+T52	Person 1182 1200	Моникой   Беллуччи
+A17	Female T52
+T53	Person 1207 1221	Карлой   Бруни
+A18	Female T53
+T54	Person 1228 1250	Изабеллой   Росселлини
+A19	Female T54
+T55	Person 1257 1277	Хеленой   Кристенсен
+A20	Female T55
+T56	Person 1284 1300	Наоми   Кэмпбелл
+A21	Female T56
+T57	Person-forename 1351 1356	Китти
+T58	Person 1351 1356	Китти
+A22	Female T58
+T59	Quantity 1359 1368	один   из
+T61	Other-term 26 38	бодипозитиве
+T62	Other-term 45 54	феминизме
+T63	Time-absolute 796 800	утро
+T32	Other-group 609 620	подписчиков
+A13	RCont T41
+T13	Quantity 664 681	до   полумиллиона
+T23	GPE 179 186	мировую
+A5	Adjective T23
+A8	Past T35
+T34	Service 61 79	социальных   сетях

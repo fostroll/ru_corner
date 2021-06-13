@@ -1,0 +1,98 @@
+T1	Person 0 16	Рафаэль   Надаль
+T2	Person 36 53	Джимми   Коннорса
+T3	Organization 71 74	АТР
+T4	Person 76 102	Испанец   Рафаэль   Надаль
+T5	Ordinal 116 121	790-ю
+T6	Ordinal 146 152	первой
+T7	Quantity 155 171	десятке   лучших
+T8	Organization 185 224	Ассоциации   теннисистов-профессионалов
+T9	Organization 231 234	АТР
+T10	Age 295 304	34-летний
+T11	Nationality 76 83	Испанец
+A1	Citizenship T11
+T12	Nationality 307 314	испанец
+A2	Citizenship T12
+T13	Person 338 368	американца   Джимми   Коннорса
+T14	Nationality 338 348	американца
+A3	Citizenship T14
+T15	Date-period-absolute 385 436	с   августа   1973   года   по   сентябрь   1988-го
+T16	Quantity 459 479	десятки   сильнейших
+T17	Date-period-relative 482 502	789   недель   кряду
+T18	Ordinal 508 514	Третье
+T19	Person 536 564	швейцарец   Роджер   Федерер
+T20	Date-period-absolute 571 583	734   недели
+T21	Nationality 536 545	швейцарец
+A4	Citizenship T21
+T22	Organization 645 648	ATP
+T23	Ordinal 656 661	пятую
+T24	Person 699 731	россиянина   Даниила   Медведева
+T25	Nationality 699 709	россиянина
+A5	Citizenship T25
+T26	Person 762 769	Рафаэль
+T27	Ordinal 783 789	вторую
+T28	Person 827 850	серб   Новак   Джокович
+T29	Nationality 827 831	серб
+A6	Citizenship T29
+T30	Ordinal 873 879	первой
+T31	Date-period-absolute 892 913	555   недель   подряд
+T32	Ordinal 924 930	шестой
+T33	Person 963 969	Надаль
+T34	Date-period-absolute 1010 1034	с   апреля   2005   года
+T35	Date-period-absolute 1041 1054	за   15   лет
+T36	Duration 1062 1074	209   недель
+T37	Ordinal 1083 1089	первой
+T38	Person-property 1083 1107	первой   ракеткой   мира
+T39	Person 1112 1116	Рафа
+T40	Person 1131 1140	Федерером
+T41	Ordinal 1143 1149	первое
+T42	Quantity 1233 1235	20
+T43	Event 1191 1226	турнирах   серии   Большого   шлема
+T44	GPE 1103 1107	мира
+T45	Date-period-absolute 116 139	790-ю   неделю   подряд
+T46	Quantity 882 889	десятке
+T47	Quantity 1001 1007	топ-10
+T48	Date-absolute 741 748	текущем
+T49	Person-forename 0 7	Рафаэль
+T50	Person-surname 10 16	Надаль
+A7	Male T1
+T51	Person-forename 36 42	Джимми
+T52	Person-surname 45 53	Коннорса
+A8	Male T2
+T53	Person-forename 86 93	Рафаэль
+T54	Person-surname 96 102	Надаль
+A9	Male T4
+T55	Duration 124 130	неделю
+A10	Past-Pres T45
+T56	Person-forename 351 357	Джимми
+T57	Person-surname 360 368	Коннорса
+A12	Male T13
+A13	Past T15
+T58	Duration 482 494	789   недель
+A14	Male T19
+T59	Person-forename 548 554	Роджер
+T60	Person-surname 557 564	Федерер
+T61	Duration 571 583	734   недели
+T62	Person-forename 712 719	Даниила
+T63	Person-surname 722 731	Медведева
+A16	Male T24
+A17	Present T48
+A18	Male T26
+T64	Person-forename 762 769	Рафаэль
+T65	Person-forename 834 839	Новак
+T66	Person-surname 842 850	Джокович
+A19	Male T28
+T67	Duration 892 904	555   недель
+A20	Past-Pres T31
+A21	Male T33
+T68	Person-surname 963 969	Надаль
+A22	Past-Pres T34
+T69	Duration 1046 1054	15   лет
+A23	Past-Pres T35
+T70	Time-period 1062 1074	209   недель
+T71	Person-alias 1112 1116	Рафа
+A25	Male T39
+T72	Person-surname 1131 1140	Федерером
+A26	Male T40
+A27	RCont T45
+A11	Past T17
+A15	Past-Pres T20

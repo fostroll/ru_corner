@@ -1,0 +1,114 @@
+T1	Person-forename 8 13	Гарри
+T2	Person-property 0 5	Принц
+T3	Person 0 13	Принц   Гарри
+A1	Male T3
+T4	Person-forename 20 25	Меган
+T5	Person-surname 28 33	Маркл
+T6	Person 20 33	Меган   Маркл
+A2	Female T6
+T7	GPE 51 65	Великобританию
+T8	Person-property 83 91	королевы
+T9	Date-period-relative 99 117	несколько   недель
+A3	Past-Pres T9
+A4	RCont T9
+T10	Person-forename 128 133	Гарри
+T11	Person-property 120 125	принц
+T12	Person 120 133	принц   Гарри
+A5	Male T12
+T13	Person-forename 140 145	Меган
+T14	Person-surname 148 153	Маркл
+T15	Person 140 153	Меган   Маркл
+A6	Female T15
+T16	GPE 172 178	Канаде
+T17	Date-absolute 247 265	после   объявления
+A7	Past T17
+T18	Date-absolute 321 343	в   следующем   месяце
+A8	Future T18
+T19	Ordinal 325 334	следующем
+T20	GPE 389 395	Лондон
+T21	GPE 435 449	Великобритании
+T22	Nationality 422 449	подданными   Великобритании
+A9	Citizenship T22
+T23	GPE 492 502	Сассекских
+A10	Adjective T23
+T24	Person 466 502	герцога   и   герцогиню   Сассекских
+A11	Plural T24
+T25	Person-forename 528 537	Елизавета
+T26	Person-property 517 525	королева
+T27	Person 517 542	королева   Елизавета   II
+A12	Female T27
+T28	Date-absolute 547 556	9   марта
+A13	Future T28
+T29	Event 627 652	Дня   Содружества   наций
+T30	Event 588 610	торжественной   службе
+T31	Facility 683 710	Вестминстерском   аббатстве
+T32	Ordinal 729 738	последнее
+T33	Person-forename 783 788	Гарри
+T34	Person 783 788	Гарри
+A14	Male T34
+T35	Person-forename 795 800	Меган
+T36	Person 795 800	Меган
+A15	Female T36
+T37	Family 896 901	семья
+T38	Person-property 915 923	королевы
+T39	GPE 968 978	Сассекских
+A16	Adjective T39
+T40	Person 942 978	герцога   и   герцогини   Сассекских
+A17	Plural T40
+T41	Person-forename 1024 1030	Чарльз
+T42	Person-property 1016 1021	принц
+T43	Person 1016 1030	принц   Чарльз
+A18	Male T43
+T44	Person-property 1037 1047	герцогиней
+T45	Person-forename 1050 1058	Камиллой
+T46	Person 1037 1058	герцогиней   Камиллой
+A19	Female T46
+T47	Person-property 1065 1070	принц
+T48	Person-forename 1073 1079	Уильям
+T49	Person 1065 1079	принц   Уильям
+A20	Male T49
+T50	Person-property 1086 1096	герцогиней
+T51	Person-forename 1099 1105	Кэтрин
+T52	Person 1086 1105	герцогиней   Кэтрин
+A21	Female T52
+T53	Ordinal 1138 1142	этом
+T54	Date-absolute 1134 1149	в   этом   году
+A22	Present T54
+T55	Date-relative 1190 1203	После   этого
+A23	Future T55
+T56	Person-forename 1206 1211	Гарри
+T57	Person 1206 1211	Гарри
+A24	Male T57
+T58	Person-forename 1218 1223	Меган
+T59	Person 1218 1223	Меган
+A25	Female T59
+T60	GPE 1251 1257	Канаду
+T61	GPE 1320 1331	британского
+A26	Adjective T61
+T62	Organization 1320 1339	британского   двора
+T63	Date-absolute 1344 1355	6   февраля
+A27	Past T63
+T64	Ordinal 1364 1371	впервые
+T65	Event 1470 1492	конференции   JPMorgan
+T66	Person-property 1454 1462	спикеров
+T67	GPE 1540 1546	Майами
+T68	Event 1508 1546	инвестиционного   саммита   в   Майами
+T69	Person-forename 1590 1595	Гарри
+T70	Person-property 1581 1587	принца
+T71	Person 1581 1595	принца   Гарри
+A28	Male T71
+T72	Family 1644 1650	матери
+T73	Family 1657 1661	паре
+T74	Money 1676 1701	один   миллион   долларов
+T75	Person-property 466 473	герцога
+T76	Person-property 480 489	герцогиню
+T77	Person-property 942 949	герцога
+T78	Person-property 956 965	герцогини
+T79	Duration 99 117	несколько   недель
+T80	Person-affix 540 542	II
+T81	Event 1635 1650	смерть   матери
+T82	Organization 826 832	Короны
+T83	Event 255 307	объявления   о   сложении   королевских   полномочий
+T84	Organization 885 901	монаршая   семья
+T85	Event 986 992	службе
+T86	Ordinal 540 542	II

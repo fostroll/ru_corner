@@ -20,16 +20,16 @@ T19	Person-property 926 950	миротворцы   из   России
 T20	Facility 993 1013	Лачинском   коридоре
 T21	GPE 1076 1083	Армении
 T22	GPE 1090 1102	Степанакерта
-T23	Service 1124 1136	сайт   Kp.ru
+T23	Service 1124 1138	сайт   Kp . ru
 A1	Media T23
-T24	Person 1143 1158	Никол   Пашинян
-T25	GPE 1242 1250	Карабахе
-T26	GPE 1302 1309	Армении
-T27	Organization 1294 1309	армия   Армении
+T24	Person 1145 1160	Никол   Пашинян
+T25	GPE 1244 1252	Карабахе
+T26	GPE 1304 1311	Армении
+T27	Organization 1296 1311	армия   Армении
 A2	Plural T10
 T29	Date-period-relative 814 829	по   сей   день
-T30	Quantity 1381 1406	еще   несколько   городов
-T31	Organization 1131 1136	Kp.ru
+T30	Quantity 1383 1408	еще   несколько   городов
+T31	Organization 1131 1138	Kp . ru
 A3	Media T31
 T28	Event 520 541	обращения   к   нации
 A4	Past T14
@@ -41,10 +41,15 @@ T33	Person-forename 135 140	Никол
 T34	Person-surname 143 150	Пашинян
 T35	Person-forename 867 872	Никол
 T36	Person-surname 875 882	Пашинян
-T37	Person-forename 1143 1148	Никол
-T38	Person-surname 1151 1158	Пашинян
+T37	Person-forename 1145 1150	Никол
+T38	Person-surname 1153 1160	Пашинян
 A8	Male T6
 A9	Male T16
 A10	Male T24
 T39	GPE 423 433	армянского
 A11	Adjective T39
+T40	Nationality 536 541	нации
+A12	Citizenship T40
+T41	Web-address 1131 1138	Kp . ru
+T42	GPE 731 738	регионе
+T43	GPE 1358 1364	страна

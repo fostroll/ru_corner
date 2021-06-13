@@ -1,0 +1,122 @@
+T1	Person 0 56	Племянница   принцессы   Дианы   леди   Амелия   Спенсер
+T2	Family 0 10	Племянница
+T3	Person 13 30	принцессы   Дианы
+T4	Person-property 13 22	принцессы
+T5	Person 71 93	Леди   Китти   Спенсер
+T6	Person 100 123	леди   Амелия   Спенсер
+T7	Family 130 145	родные   сестры
+T9	Family 152 158	дочери
+T10	Person-property 161 177	девятого   графа
+T11	Ordinal 161 169	девятого
+T12	Family 205 215	племянницы
+T13	Person 218 235	принцессы   Дианы
+T14	Person-property 218 227	принцессы
+T15	Event 324 349	будущую   свадьбу   Китти
+T16	Person 344 349	Китти
+T17	GPE 376 390	Великобритании
+T18	Family 464 480	младшей   сестры
+T19	Person 665 679	леди   Спенсер
+T20	Person 716 730	Грег   Маллетт
+T21	Family 735 739	Пара
+T22	Date-absolute 758 783	больше   10   лет   назад
+T23	GPE 818 827	Кейптауне
+T24	GPE 875 889	Южной   Африке
+T25	Organization 900 948	бутик-отеле   Clouds   Wine   &   Guest   Estate
+T26	Quantity 975 985	одном   из
+T27	GPE 1026 1037	Стелленбосе
+T28	Date-absolute 1084 1107	22   июля   2020   года
+T29	Person 1322 1329	Маллетт
+T30	Service 1336 1346	инстаграме
+T31	Person 1404 1419	Китти   Спенсер
+T32	Person 1446 1460	Грег   Маллетт
+T33	Family 1500 1504	дядя
+T34	Person 1511 1606	бывший   спортсмен   и   экс-тренер   национальной   сборной   ЮАР   по   регби   Ник   Маллетт
+T35	Person-property 1511 1529	бывший   спортсмен
+T36	Person-property 1536 1590	экс-тренер   национальной   сборной   ЮАР   по   регби
+T37	Organization 1549 1590	национальной   сборной   ЮАР   по   регби
+T38	GPE 1574 1577	ЮАР
+T39	Person 1611 1627	Амелия   Спенсер
+T40	Quantity 1634 1643	одна   из
+T41	Person 1656 1674	Чарльза   Спенсера
+T42	Family 1646 1653	дочерей
+T43	Ordinal 1682 1689	первого
+T44	Family 1719 1733	сестра-близнец
+T45	Person-forename 1736 1741	Элиза
+T46	Family 632 647	будущий   тесть
+A2	Female T1
+A3	Female T3
+T47	Person-forename 25 30	Дианы
+T48	Person-forename 40 46	Амелия
+T49	Person-surname 49 56	Спенсер
+A4	Female T5
+T50	Person-forename 78 83	Китти
+T51	Person-surname 86 93	Спенсер
+A5	Female T6
+T52	Person-forename 107 113	Амелия
+T53	Person-surname 116 123	Спенсер
+T54	Person-surname 180 188	Спенсера
+T55	Person-forename 191 198	Чарльза
+A7	Female T13
+T56	Person-forename 230 235	Дианы
+A8	Female T16
+T57	Person-forename 344 349	Китти
+A9	Female T19
+T58	Person-surname 672 679	Спенсер
+A10	Male T20
+T59	Person-forename 716 720	Грег
+T60	Person-surname 723 730	Маллетт
+A11	Past T22
+T61	Quantity 798 801	оба
+A12	Past T28
+A13	Male T29
+T62	Person-surname 1322 1329	Маллетт
+A14	Female T31
+T63	Person-forename 1404 1409	Китти
+T64	Person-surname 1412 1419	Спенсер
+A15	Male T32
+T65	Person-forename 1446 1450	Грег
+T66	Person-surname 1453 1460	Маллетт
+A16	Male T34
+T67	Person-forename 1593 1596	Ник
+T68	Person-surname 1599 1606	Маллетт
+A17	Female T39
+T69	Person-forename 1611 1617	Амелия
+T70	Person-surname 1620 1627	Спенсер
+A18	Male T41
+T71	Person-forename 1656 1663	Чарльза
+T72	Person-surname 1666 1674	Спенсера
+T73	Person 1719 1741	сестра-близнец   Элиза
+A19	Female T73
+T74	Person-affix 33 37	леди
+T75	Person 626 647	его   будущий   тесть
+A20	Male T75
+T76	Person 459 480	ее   младшей   сестры
+A21	Female T76
+T77	Person-affix 71 75	Леди
+T78	Person-affix 100 104	леди
+T79	Duration 417 436	несколько   месяцев
+T80	Date-period-absolute 417 436	несколько   месяцев
+A22	Past-Pres T80
+T82	Person-affix 665 669	леди
+T83	Duration 758 775	больше   10   лет
+T84	Person 1494 1504	Его   дядя
+A23	Male T84
+T85	Person 1646 1674	дочерей   Чарльза   Спенсера
+A24	Female T85
+T87	Event 448 480	помолвка   ее   младшей   сестры
+T88	Family 614 619	жених
+T81	Person 205 235	племянницы   принцессы   Дианы
+A25	Female T81
+T8	Person 161 198	девятого   графа   Спенсера   Чарльза
+A6	Male T8
+T86	Date-absolute 259 279	в   скором   времени
+A26	Future T86
+T89	Quantity 240 243	Обе
+A27	RCont T80
+T90	Duration 1056 1060	день
+T91	Date-period-relative 1056 1060	день
+A1	Past-UNK T91
+T92	Service 553 571	социальных   сетей
+T93	GPE 1549 1561	национальной
+A28	Adjective T93
+T94	GPE 1016 1023	региона

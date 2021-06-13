@@ -1,5 +1,5 @@
 T1	Money 60 75	тысячи   фунтов
-T2	GPE 90 123	английского   города   Бродстейрс
+T2	GPE 90 145	английского   города   Бродстейрс   ,   графство   Кент
 T3	GPE 130 145	графство   Кент
 T4	Organization 236 258	издание   Daily   Star
 T5	Quantity 264 273	42-летняя
@@ -15,7 +15,6 @@ T14	Person 1172 1182	Элькаббасс
 T15	Person 1289 1294	Ирвин
 T16	Date-absolute 1514 1554	в   2016   году   после   того   ,   как
 T17	Person 302 320	Nicole   Elkabbass
-T18	Person 756 767	Ben   Irwin
 T19	Family 1083 1089	матери
 T20	Family 1198 1202	дочь
 T21	Family 1219 1223	мать
@@ -27,7 +26,7 @@ A5	Past T24
 T23	Date-relative 1532 1554	после   того   ,   как
 A6	Past T7
 A2	Past T23
-T25	Event 1572 1616	операцию   по   удалению   желчного   пузыря
+T25	Event 1572 1580	операцию
 T26	GPE 90 101	английского
 T27	Person-forename 276 282	Николь
 T28	Person-surname 285 295	Элькаббасс
@@ -40,16 +39,34 @@ T34	Person-surname 762 767	Irwin
 T35	Person-surname 807 817	Элькаббасс
 T36	Person-surname 1172 1182	Элькаббасс
 T37	Person-surname 1289 1294	Ирвин
-T38	Nationality 77 123	Жительница   английского   города   Бродстейрс
+T38	Nationality 77 145	Жительница   английского   города   Бродстейрс   ,   графство   Кент
 A3	Resident T38
 A7	Adjective T26
 A8	Female T6
 A9	Female T17
 A10	Female T12
-A11	Male T18
 A12	Male T11
 A13	Female T14
 A14	Male T15
 T39	Person-property 1092 1101	мошенницы
 T40	Person 1083 1101	матери   мошенницы
 A15	Male T40
+T41	Other-term 25 28	рак
+T42	Other-term 167 170	рак
+T43	Event 669 687	футбольные   матчи
+T44	Event 710 721	путешествия
+T45	Other-term 938 953	рака   яичников
+T46	Service 1044 1052	Страница
+A16	Media T46
+T18	Person 1092 1101	мошенницы
+A11	Female T18
+T47	Person 756 767	Ben   Irwin
+A17	Male T47
+T48	Person 0 7	Женщина
+A18	Female T48
+T49	Person 77 145	Жительница   английского   города   Бродстейрс   ,   графство   Кент
+A19	Female T49
+T50	Person 588 595	женщина
+A20	Female T50
+T51	Person 1352 1359	женщина
+A21	Female T51

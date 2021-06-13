@@ -29,18 +29,21 @@
 7	распространением	_	_	_	_	_	_	_	_
 8	коронавирусной	_	_	_	_	_	_	_	bratT18=Other-term
 9	инфекции	_	_	_	_	_	_	_	bratT18=Other-term
-10	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
-11	,	_	_	_	_	_	_	_	_
-12	вероятно	_	_	_	_	_	_	_	SpaceAfter=No
+10-12	COVID-19	_	_	_	_	_	_	_	_
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+12	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term|bratT41=Cardinal
 13	,	_	_	_	_	_	_	_	_
-14	будут	_	_	_	_	_	_	_	_
-15	действовать	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	_
-17	России	_	_	_	_	_	_	_	bratT19=GPE
-18	до	_	_	_	_	_	_	_	bratA15=T26:Past-Fut|bratT26=Date-period-absolute
-19	тёплой	_	_	_	_	_	_	_	bratA15=T26:Past-Fut|bratT26=Date-period-absolute
-20	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T26:Past-Fut|bratT26=Date-period-absolute
-21	.	_	_	_	_	_	_	_	_
+14	вероятно	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	будут	_	_	_	_	_	_	_	_
+17	действовать	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	России	_	_	_	_	_	_	_	bratT19=GPE
+20	до	_	_	_	_	_	_	_	bratA15=T26:Past-Fut|bratT26=Date-period-absolute
+21	тёплой	_	_	_	_	_	_	_	bratA15=T26:Past-Fut|bratT26=Date-period-absolute
+22	весны	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T26:Past-Fut|bratT26=Date-period-absolute
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0097-p2-s2
 # text = С таким мнением выступила глава Роспотребнадзора Анна Попова.
@@ -129,8 +132,8 @@
 11	получится	_	_	_	_	_	_	_	_
 12	отдохнуть	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	дальнем	_	_	_	_	_	_	_	_
-15	зарубежье	_	_	_	_	_	_	_	_
+14	дальнем	_	_	_	_	_	_	_	bratT43=GPE
+15	зарубежье	_	_	_	_	_	_	_	bratT43=GPE
 16	из-за	_	_	_	_	_	_	_	_
 17	двухнедельного	_	_	_	_	_	_	_	bratT17=Duration|bratT31=Time-period
 18	карантина	_	_	_	_	_	_	_	_
@@ -139,10 +142,13 @@
 21	и	_	_	_	_	_	_	_	_
 22	рисков	_	_	_	_	_	_	_	_
 23	заболеть	_	_	_	_	_	_	_	_
-24	COVID-19	_	_	_	_	_	_	_	bratT7=Other-term
-25	в	_	_	_	_	_	_	_	_
-26	транспорте	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Service
-27	.	_	_	_	_	_	_	_	_
+24-26	COVID-19	_	_	_	_	_	_	_	_
+24	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+25	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+26	19	_	_	_	_	_	_	_	bratT42=Cardinal|bratT7=Other-term
+27	в	_	_	_	_	_	_	_	_
+28	транспорте	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Service
+29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0097-p5
 # par_text = Ранее вирусолог, бывший заведующий лабораторией центра «Вектор» Александр Чепурнов в беседе с URA.RU не исключил, что с частичными ограничениями в России придётся жить «ещё год-два», пока не начнётся правильное использование вакцин.
@@ -163,28 +169,31 @@
 13	в	_	_	_	_	_	_	_	_
 14	беседе	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
-16	URA.RU	_	_	_	_	_	_	_	bratA4=T13:Media|bratT13=Organization
-17	не	_	_	_	_	_	_	_	_
-18	исключил	_	_	_	_	_	_	_	SpaceAfter=No
-19	,	_	_	_	_	_	_	_	_
-20	что	_	_	_	_	_	_	_	_
-21	с	_	_	_	_	_	_	_	_
-22	частичными	_	_	_	_	_	_	_	_
-23	ограничениями	_	_	_	_	_	_	_	_
-24	в	_	_	_	_	_	_	_	_
-25	России	_	_	_	_	_	_	_	bratT14=GPE
-26	придётся	_	_	_	_	_	_	_	_
-27	жить	_	_	_	_	_	_	_	_
-28	``	_	_	_	_	_	_	_	SpaceAfter=No
-29	ещё	_	_	_	_	_	_	_	bratA12=T15:Pres-Fut|bratA5=T15:LCont|bratT15=Date-period-absolute
-30	год-два	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T15:Pres-Fut|bratA5=T15:LCont|bratT15=Date-period-absolute|bratT32=Duration
-31	''	_	_	_	_	_	_	_	SpaceAfter=No
-32	,	_	_	_	_	_	_	_	_
-33	пока	_	_	_	_	_	_	_	_
-34	не	_	_	_	_	_	_	_	_
-35	начнётся	_	_	_	_	_	_	_	_
-36	правильное	_	_	_	_	_	_	_	_
-37	использование	_	_	_	_	_	_	_	_
-38	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
-39	.	_	_	_	_	_	_	_	_
+16-18	URA.RU	_	_	_	_	_	_	_	_
+16	URA	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Media|bratT13=Organization|bratT44=Web-address
+17	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Media|bratT13=Organization|bratT44=Web-address
+18	RU	_	_	_	_	_	_	_	bratA4=T13:Media|bratT13=Organization|bratT44=Web-address
+19	не	_	_	_	_	_	_	_	_
+20	исключил	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	что	_	_	_	_	_	_	_	_
+23	с	_	_	_	_	_	_	_	_
+24	частичными	_	_	_	_	_	_	_	_
+25	ограничениями	_	_	_	_	_	_	_	_
+26	в	_	_	_	_	_	_	_	_
+27	России	_	_	_	_	_	_	_	bratT14=GPE
+28	придётся	_	_	_	_	_	_	_	_
+29	жить	_	_	_	_	_	_	_	_
+30	``	_	_	_	_	_	_	_	SpaceAfter=No
+31	ещё	_	_	_	_	_	_	_	bratA12=T15:Pres-Fut|bratA5=T15:LCont|bratT15=Date-period-absolute
+32	год-два	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T15:Pres-Fut|bratA5=T15:LCont|bratT15=Date-period-absolute|bratT32=Duration
+33	''	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	_	_	_	_	_	_	_	_
+35	пока	_	_	_	_	_	_	_	_
+36	не	_	_	_	_	_	_	_	_
+37	начнётся	_	_	_	_	_	_	_	_
+38	правильное	_	_	_	_	_	_	_	_
+39	использование	_	_	_	_	_	_	_	_
+40	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+41	.	_	_	_	_	_	_	_	_
 

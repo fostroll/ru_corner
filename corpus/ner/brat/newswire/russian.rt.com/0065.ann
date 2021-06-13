@@ -12,11 +12,11 @@ T12	Service 913 922	ПЦР-тесты
 T13	Person 947 954	Гуськов
 T14	GPE 1032 1038	Гавану
 T15	Facility 1316 1335	кубинской   границы
-T16	Other-term 1437 1445	COVID-19
-T17	Money 1824 1830	$   30
-T18	Date-period-absolute 1697 1712	с   1   декабря
-T19	Organization 1715 1740	кубинское   правительство
-T26	Service 1607 1641	проведение   санитарных   процедур
+T16	Other-term 1437 1447	COVID - 19
+T17	Money 1826 1830	$ 30
+T18	Date-period-absolute 1699 1714	с   1   декабря
+T19	Organization 1717 1742	кубинское   правительство
+T26	Service 1609 1643	проведение   санитарных   процедур
 T27	Person-property 515 523	Дипломат
 T28	Person-property 1346 1351	Посол
 T5	Other-group 550 571	российским   туристам
@@ -39,10 +39,22 @@ T36	GPE 186 195	кубинских
 T37	GPE 550 560	российским
 T38	Person-surname 947 954	Гуськов
 T39	GPE 1316 1325	кубинской
-T40	GPE 1715 1724	кубинское
+T40	GPE 1717 1726	кубинское
 A3	Male T23
 A4	Male T13
 A5	Adjective T39
 A6	Adjective T40
 A7	Adjective T37
 A8	Adjective T36
+T41	Cardinal 1445 1447	19
+T42	Organization 186 205	кубинских   властей
+T43	Nationality 817 834	нашим   гражданам
+A9	Citizenship T43
+T44	Nationality 1041 1052	иностранцев
+A10	Citizenship T44
+T45	GPE 1530 1537	местных
+A11	Adjective T45
+T46	GPE 229 235	страну
+T47	GPE 1690 1696	страны
+T48	Location 469 476	острове
+T49	Location 702 708	остров

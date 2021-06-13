@@ -23,8 +23,8 @@ T21	Age 882 894	восьмилетняя
 T22	GPE 964 968	ХМАО
 T23	Quantity 1007 1017	двух   лиц
 T24	Event 234 237	ДТП
-T25	Person-property 351 359	Водитель
-T27	Person-property 816 824	водитель
+T25	Other-group 351 359	Водитель
+T27	Other-group 816 824	водитель
 T28	Quantity 117 135	двух   автомобилей
 T29	GPE 142 161	Орловской   области
 T30	Quantity 174 191	четыре   человека
@@ -39,7 +39,8 @@ A2	Past T5
 T37	Event 998 1017	гибели   двух   лиц
 A3	Past T36
 A4	Past T26
-T38	Product 564 571	Renault
-A5	Trademark T38
 T39	Age 604 626	1977   года   рождения
 A6	Past T13
+T38	Event 810 813	ДТП
+T40	GPE 278 281	мск
+T41	GPE 767 780	регионального

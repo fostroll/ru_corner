@@ -1,0 +1,296 @@
+# newdoc id = 0090
+# newpar id = 0090-p1
+# par_text = В Минске на акции протеста задержали журналистов российских СМИ
+# sent_id = 0090-p1-s1
+# text = В Минске на акции протеста задержали журналистов российских СМИ
+1	В	_	_	_	_	_	_	_	_
+2	Минске	_	_	_	_	_	_	_	bratT1=GPE
+3	на	_	_	_	_	_	_	_	_
+4	акции	_	_	_	_	_	_	_	bratT4=Event
+5	протеста	_	_	_	_	_	_	_	bratT4=Event
+6	задержали	_	_	_	_	_	_	_	_
+7	журналистов	_	_	_	_	_	_	_	bratT3=Person-property
+8	российских	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT2=GPE|bratT3=Person-property
+9	СМИ	_	_	_	_	_	_	_	bratT3=Person-property
+
+# newpar id = 0090-p2
+# par_text = На акции протеста в Белоруссии задержали двух корреспондентов российских СМИ. Задержаны корреспондент ТАСС Юрий Шамшур и корреспондент «РИА Новости», имя которой не называется. О задержании сообщили эти агентства.
+# sent_id = 0090-p2-s1
+# text = На акции протеста в Белоруссии задержали двух корреспондентов российских СМИ.
+1	На	_	_	_	_	_	_	_	_
+2	акции	_	_	_	_	_	_	_	bratT6=Event
+3	протеста	_	_	_	_	_	_	_	bratT6=Event
+4	в	_	_	_	_	_	_	_	_
+5	Белоруссии	_	_	_	_	_	_	_	bratT5=GPE
+6	задержали	_	_	_	_	_	_	_	_
+7	двух	_	_	_	_	_	_	_	bratT9=Quantity
+8	корреспондентов	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Quantity
+9	российских	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT7=GPE|bratT8=Person-property
+10	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person-property
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p2-s2
+# text = Задержаны корреспондент ТАСС Юрий Шамшур и корреспондент ``РИА Новости'', имя которой не называется.
+1	Задержаны	_	_	_	_	_	_	_	_
+2	корреспондент	_	_	_	_	_	_	_	bratA5=T15:Male|bratT12=Person-property|bratT15=Person
+3	ТАСС	_	_	_	_	_	_	_	bratA3=T10:Media|bratA5=T15:Male|bratT10=Organization|bratT12=Person-property|bratT15=Person
+4	Юрий	_	_	_	_	_	_	_	bratA5=T15:Male|bratT13=Person-forename|bratT15=Person
+5	Шамшур	_	_	_	_	_	_	_	bratA5=T15:Male|bratT14=Person-surname|bratT15=Person
+6	и	_	_	_	_	_	_	_	_
+7	корреспондент	_	_	_	_	_	_	_	bratT16=Person-property
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
+9	РИА	_	_	_	_	_	_	_	bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
+10	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
+11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
+12	,	_	_	_	_	_	_	_	_
+13	имя	_	_	_	_	_	_	_	_
+14	которой	_	_	_	_	_	_	_	_
+15	не	_	_	_	_	_	_	_	_
+16	называется	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p2-s3
+# text = О задержании сообщили эти агентства.
+1	О	_	_	_	_	_	_	_	_
+2	задержании	_	_	_	_	_	_	_	_
+3	сообщили	_	_	_	_	_	_	_	_
+4	эти	_	_	_	_	_	_	_	_
+5	агентства	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0090-p3
+# par_text = По словам Шамшура, его задержали возле станции метро «Пушкинская» и отпустили после проверки документов и аккредитации. На нем был жилет с надписью «Пресса».
+# sent_id = 0090-p3-s1
+# text = По словам Шамшура, его задержали возле станции метро ``Пушкинская'' и отпустили после проверки документов и аккредитации.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	Шамшура	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT17=Person-surname|bratT18=Person
+4	,	_	_	_	_	_	_	_	_
+5	его	_	_	_	_	_	_	_	_
+6	задержали	_	_	_	_	_	_	_	_
+7	возле	_	_	_	_	_	_	_	_
+8	станции	_	_	_	_	_	_	_	bratT19=Facility
+9	метро	_	_	_	_	_	_	_	bratT19=Facility
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Facility
+11	Пушкинская	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Facility
+12	''	_	_	_	_	_	_	_	bratT19=Facility
+13	и	_	_	_	_	_	_	_	_
+14	отпустили	_	_	_	_	_	_	_	_
+15	после	_	_	_	_	_	_	_	bratA7=T20:Past|bratT20=Date-absolute
+16	проверки	_	_	_	_	_	_	_	bratA7=T20:Past|bratT20=Date-absolute
+17	документов	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	аккредитации	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p3-s2
+# text = На нем был жилет с надписью ``Пресса''.
+1	На	_	_	_	_	_	_	_	_
+2	нем	_	_	_	_	_	_	_	_
+3	был	_	_	_	_	_	_	_	_
+4	жилет	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	надписью	_	_	_	_	_	_	_	_
+7	``	_	_	_	_	_	_	_	SpaceAfter=No
+8	Пресса	_	_	_	_	_	_	_	SpaceAfter=No
+9	''	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0090-p4
+# par_text = Корреспондент «РИА Новости» также имела при себе аккредитацию от МИД Белоруссии. Она освещала акцию протеста в районе «площади перемен», где ранее избили белорусского оппозиционера Романа Бондаренко, который скончался в больнице.
+# sent_id = 0090-p4-s1
+# text = Корреспондент ``РИА Новости'' также имела при себе аккредитацию от МИД Белоруссии.
+1	Корреспондент	_	_	_	_	_	_	_	bratT22=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Media|bratT21=Organization|bratT22=Person-property
+3	РИА	_	_	_	_	_	_	_	bratA8=T21:Media|bratT21=Organization|bratT22=Person-property
+4	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Media|bratT21=Organization|bratT22=Person-property
+5	''	_	_	_	_	_	_	_	bratA8=T21:Media|bratT21=Organization|bratT22=Person-property
+6	также	_	_	_	_	_	_	_	_
+7	имела	_	_	_	_	_	_	_	_
+8	при	_	_	_	_	_	_	_	_
+9	себе	_	_	_	_	_	_	_	_
+10	аккредитацию	_	_	_	_	_	_	_	_
+11	от	_	_	_	_	_	_	_	_
+12	МИД	_	_	_	_	_	_	_	bratT24=Organization
+13	Белоруссии	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE|bratT24=Organization
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p4-s2
+# text = Она освещала акцию протеста в районе ``площади перемен'', где ранее избили белорусского оппозиционера Романа Бондаренко, который скончался в больнице.
+1	Она	_	_	_	_	_	_	_	_
+2	освещала	_	_	_	_	_	_	_	_
+3	акцию	_	_	_	_	_	_	_	bratT26=Event
+4	протеста	_	_	_	_	_	_	_	bratT26=Event
+5	в	_	_	_	_	_	_	_	bratT25=Facility
+6	районе	_	_	_	_	_	_	_	bratT25=Facility
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Facility
+8	площади	_	_	_	_	_	_	_	bratT25=Facility
+9	перемен	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Facility
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Facility
+11	,	_	_	_	_	_	_	_	_
+12	где	_	_	_	_	_	_	_	_
+13	ранее	_	_	_	_	_	_	_	bratA9=T27:Past|bratT27=Date-relative
+14	избили	_	_	_	_	_	_	_	_
+15	белорусского	_	_	_	_	_	_	_	bratA10=T30:Adjective|bratA11=T32:Male|bratT30=GPE|bratT31=Political-group|bratT32=Person
+16	оппозиционера	_	_	_	_	_	_	_	bratA11=T32:Male|bratT31=Political-group|bratT32=Person
+17	Романа	_	_	_	_	_	_	_	bratA11=T32:Male|bratT28=Person-forename|bratT32=Person
+18	Бондаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T32:Male|bratT29=Person-surname|bratT32=Person
+19	,	_	_	_	_	_	_	_	_
+20	который	_	_	_	_	_	_	_	_
+21	скончался	_	_	_	_	_	_	_	_
+22	в	_	_	_	_	_	_	_	_
+23	больнице	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0090-p5
+# par_text = Кроме того, на акции задержали корреспондента «Интерфакс-Запад». Она тоже освещала акцию в районе «площади перемен». «Корреспондент успела отправить коллегам СМС, где сообщила, что ее доставляют в РУВД Центрального района Минска. Затем ее телефон был отключен», — передает агентство.
+# sent_id = 0090-p5-s1
+# text = Кроме того, на акции задержали корреспондента ``Интерфакс-Запад''.
+1	Кроме	_	_	_	_	_	_	_	_
+2	того	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	акции	_	_	_	_	_	_	_	_
+6	задержали	_	_	_	_	_	_	_	_
+7	корреспондента	_	_	_	_	_	_	_	bratT34=Person-property
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+9	Интерфакс-Запад	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p5-s2
+# text = Она тоже освещала акцию в районе ``площади перемен''.
+1	Она	_	_	_	_	_	_	_	_
+2	тоже	_	_	_	_	_	_	_	_
+3	освещала	_	_	_	_	_	_	_	_
+4	акцию	_	_	_	_	_	_	_	bratT36=Event
+5	в	_	_	_	_	_	_	_	_
+6	районе	_	_	_	_	_	_	_	bratT35=Facility
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Facility
+8	площади	_	_	_	_	_	_	_	bratT35=Facility
+9	перемен	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Facility
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Facility
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p5-s3
+# text = ``Корреспондент успела отправить коллегам СМС, где сообщила, что ее доставляют в РУВД Центрального района Минска.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Корреспондент	_	_	_	_	_	_	_	bratT37=Person-property
+3	успела	_	_	_	_	_	_	_	_
+4	отправить	_	_	_	_	_	_	_	_
+5	коллегам	_	_	_	_	_	_	_	bratT40=Person-property
+6	СМС	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	где	_	_	_	_	_	_	_	_
+9	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	что	_	_	_	_	_	_	_	_
+12	ее	_	_	_	_	_	_	_	_
+13	доставляют	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	РУВД	_	_	_	_	_	_	_	bratT39=Organization
+16	Центрального	_	_	_	_	_	_	_	bratT38=GPE|bratT39=Organization
+17	района	_	_	_	_	_	_	_	bratT38=GPE|bratT39=Organization
+18	Минска	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=GPE|bratT39=Organization|bratT63=GPE
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p5-s4
+# text = Затем ее телефон был отключен'', - передает агентство.
+1	Затем	_	_	_	_	_	_	_	bratA13=T41:Past|bratT41=Date-relative
+2	ее	_	_	_	_	_	_	_	_
+3	телефон	_	_	_	_	_	_	_	_
+4	был	_	_	_	_	_	_	_	_
+5	отключен	_	_	_	_	_	_	_	SpaceAfter=No
+6	''	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	-	_	_	_	_	_	_	_	_
+9	передает	_	_	_	_	_	_	_	_
+10	агентство	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0090-p6
+# par_text = По словам официального представителя МИД России Марии Захаровой, посольство России в Белоруссии занимается ситуацией с журналистами, передает «РИА Новости».
+# sent_id = 0090-p6-s1
+# text = По словам официального представителя МИД России Марии Захаровой, посольство России в Белоруссии занимается ситуацией с журналистами, передает ``РИА Новости''.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	официального	_	_	_	_	_	_	_	bratA14=T47:Female|bratT44=Person-property|bratT47=Person
+4	представителя	_	_	_	_	_	_	_	bratA14=T47:Female|bratT44=Person-property|bratT47=Person
+5	МИД	_	_	_	_	_	_	_	bratA14=T47:Female|bratT43=Organization|bratT44=Person-property|bratT47=Person
+6	России	_	_	_	_	_	_	_	bratA14=T47:Female|bratT42=GPE|bratT43=Organization|bratT44=Person-property|bratT47=Person
+7	Марии	_	_	_	_	_	_	_	bratA14=T47:Female|bratT45=Person-forename|bratT47=Person
+8	Захаровой	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T47:Female|bratT46=Person-surname|bratT47=Person
+9	,	_	_	_	_	_	_	_	_
+10	посольство	_	_	_	_	_	_	_	bratT50=Organization
+11	России	_	_	_	_	_	_	_	bratT48=GPE|bratT50=Organization
+12	в	_	_	_	_	_	_	_	bratT50=Organization
+13	Белоруссии	_	_	_	_	_	_	_	bratT49=GPE|bratT50=Organization
+14	занимается	_	_	_	_	_	_	_	_
+15	ситуацией	_	_	_	_	_	_	_	_
+16	с	_	_	_	_	_	_	_	_
+17	журналистами	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Person-property
+18	,	_	_	_	_	_	_	_	_
+19	передает	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T52:Media|bratT52=Organization
+21	РИА	_	_	_	_	_	_	_	bratA15=T52:Media|bratT52=Organization
+22	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T52:Media|bratT52=Organization
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T52:Media|bratT52=Organization
+24	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0090-p7
+# par_text = РБК направил запрос в пресс-службу МВД Минского горисполкома.
+# sent_id = 0090-p7-s1
+# text = РБК направил запрос в пресс-службу МВД Минского горисполкома.
+1	РБК	_	_	_	_	_	_	_	bratA16=T53:Media|bratT53=Organization
+2	направил	_	_	_	_	_	_	_	_
+3	запрос	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	пресс-службу	_	_	_	_	_	_	_	bratA19=T57:Department|bratT57=Organization
+6	МВД	_	_	_	_	_	_	_	bratA18=T56:Department|bratA19=T57:Department|bratT56=Organization|bratT57=Organization
+7	Минского	_	_	_	_	_	_	_	bratA17=T54:Adjective|bratA18=T56:Department|bratA19=T57:Department|bratT54=GPE|bratT55=Organization|bratT56=Organization|bratT57=Organization
+8	горисполкома	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T56:Department|bratA19=T57:Department|bratT55=Organization|bratT56=Organization|bratT57=Organization
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0090-p8
+# par_text = В Минске проходит акция протеста «Я выхожу» в память о погибшем Романе Бондаренко. Его избили во дворе собственного дома неизвестные в гражданской одежде и масках, которые приехали снимать красно-белые ленты.
+# sent_id = 0090-p8-s1
+# text = В Минске проходит акция протеста ``Я выхожу'' в память о погибшем Романе Бондаренко.
+1	В	_	_	_	_	_	_	_	_
+2	Минске	_	_	_	_	_	_	_	bratT58=GPE
+3	проходит	_	_	_	_	_	_	_	_
+4	акция	_	_	_	_	_	_	_	bratT59=Event
+5	протеста	_	_	_	_	_	_	_	bratT59=Event
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
+7	Я	_	_	_	_	_	_	_	bratT59=Event
+8	выхожу	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
+9	''	_	_	_	_	_	_	_	bratT59=Event
+10	в	_	_	_	_	_	_	_	_
+11	память	_	_	_	_	_	_	_	_
+12	о	_	_	_	_	_	_	_	_
+13	погибшем	_	_	_	_	_	_	_	_
+14	Романе	_	_	_	_	_	_	_	bratA20=T62:Male|bratT60=Person-forename|bratT62=Person
+15	Бондаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T62:Male|bratT61=Person-surname|bratT62=Person
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p8-s2
+# text = Его избили во дворе собственного дома неизвестные в гражданской одежде и масках, которые приехали снимать красно-белые ленты.
+1	Его	_	_	_	_	_	_	_	_
+2	избили	_	_	_	_	_	_	_	_
+3	во	_	_	_	_	_	_	_	_
+4	дворе	_	_	_	_	_	_	_	_
+5	собственного	_	_	_	_	_	_	_	_
+6	дома	_	_	_	_	_	_	_	_
+7	неизвестные	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	гражданской	_	_	_	_	_	_	_	_
+10	одежде	_	_	_	_	_	_	_	_
+11	и	_	_	_	_	_	_	_	_
+12	масках	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	которые	_	_	_	_	_	_	_	_
+15	приехали	_	_	_	_	_	_	_	_
+16	снимать	_	_	_	_	_	_	_	_
+17	красно-белые	_	_	_	_	_	_	_	_
+18	ленты	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+

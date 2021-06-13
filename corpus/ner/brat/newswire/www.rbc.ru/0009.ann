@@ -1,0 +1,98 @@
+T1	Person-property 0 23	Олимпийская   чемпионка
+T2	Person 37 50	Нурмагомедова
+T3	Person-property 94 152	Олимпийская   чемпионка   по   художественной   гимнастике
+T4	Person 94 178	Олимпийская   чемпионка   по   художественной   гимнастике   Каролина   Севастьянова
+T5	Organization 202 205	UFC
+T6	Person-property 191 205	чемпиона   UFC
+T7	Person 191 230	чемпиона   UFC   Хабиба   Нурмагомедова
+T8	Service 249 258	Instagram
+T9	Person-property 280 305	французского   президента
+T10	Person 280 327	французского   президента   Эмманюэля   Макрона
+T11	Organization 392 415	``   РИА   Новости   ''
+A2	Media T11
+T12	Person 665 677	Севастьянова
+T13	Person 719 732	Нурмагомедова
+T14	Date-absolute 774 793	В   конце   октября
+T15	Person 796 808	Нурмагомедов
+T16	Service 825 834	Instagram
+T17	Person 863 870	Макрона
+T18	Person-property 912 916	Боец
+T19	Religious-group 973 982	мусульман
+T20	Date-relative 1038 1045	Позднее
+T21	Person-property 1048 1057	спортсмен
+T22	Person-property 1087 1094	пророка
+T23	Person 1087 1106	пророка   Мухаммеда
+T24	Person 1138 1144	Аллаху
+T25	Date-absolute 1150 1172	В   середине   октября
+T26	Person 1175 1181	Макрон
+T27	Person-property 1214 1221	учителя
+T28	Person-property 1273 1280	пророка
+T29	Person 1273 1292	пророка   Мухаммеда
+T30	GPE 1329 1334	Чечни
+T32	Event 1203 1211	убийство
+T33	Date-relative 1603 1628	После   этого   заявления
+T34	Person-property 1631 1649	президент   Турции
+T35	GPE 1643 1649	Турции
+T36	Person 1631 1676	президент   Турции   Реджеп   Тайип   Эрдоган
+T37	Person-property 1693 1714	французскому   лидеру
+T38	Person-surname 37 50	Нурмагомедова
+A4	Male T2
+T39	Person-forename 155 163	Каролина
+T40	Person-surname 166 178	Севастьянова
+A5	Female T4
+T41	Person-forename 208 214	Хабиба
+T42	Person-surname 217 230	Нурмагомедова
+A6	Male T7
+T43	GPE 280 292	французского
+A7	Adjective T43
+T44	Person-forename 308 317	Эмманюэля
+T45	Person-surname 320 327	Макрона
+A8	Male T10
+T46	Person-surname 665 677	Севастьянова
+A9	Female T12
+T47	Person-surname 719 732	Нурмагомедова
+A10	Male T13
+A11	Past T14
+T48	Person-surname 796 808	Нурмагомедов
+A12	Male T15
+T49	Person-surname 863 870	Макрона
+A13	Male T17
+A14	Past T20
+T50	Person-forename 1097 1106	Мухаммеда
+A15	Male T23
+A16	Fiction T23
+A17	Fiction T24
+A18	Male T24
+A19	Past T25
+T52	Person-surname 1175 1181	Макрон
+A20	Male T26
+T53	Person-forename 1283 1292	Мухаммеда
+A21	Fiction T29
+A22	Male T29
+A23	Past T33
+T54	Person-forename 1652 1666	Реджеп   Тайип
+T55	Person-surname 1669 1676	Эрдоган
+A24	Male T36
+T56	Nationality 1313 1334	выходцем   из   Чечни
+T57	Religious-group 1348 1360	исламистским
+A25	Adjective T57
+T58	GPE 1693 1705	французскому
+A26	Adjective T58
+T59	GPE 990 1001	всем   мире
+T60	Age 1503 1508	детей
+T31	Service 238 242	пост
+A1	Media T31
+T61	Service 837 841	пост
+A3	Media T61
+T62	Event 1348 1387	исламистским   террористическим   актом
+T63	Nationality 1403 1418	соотечественник
+T64	Person 0 23	Олимпийская   чемпионка
+A27	Female T64
+T65	Person 912 916	Боец
+A28	Male T65
+T51	Person 1214 1221	учителя
+T66	Person 1313 1334	выходцем   из   Чечни
+T67	Person 1397 1418	Наш   соотечественник
+A29	Male T67
+T68	Person 1693 1714	французскому   лидеру
+A30	Male T68

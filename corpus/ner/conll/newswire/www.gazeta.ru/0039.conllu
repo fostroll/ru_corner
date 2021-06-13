@@ -62,8 +62,8 @@
 # text = В ходе тестирования заражение было выявлено у восьми игроков и пяти членов тренерского штаба.
 1	В	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-period-absolute
 2	ходе	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-period-absolute
-3	тестирования	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-period-absolute
-4	заражение	_	_	_	_	_	_	_	_
+3	тестирования	_	_	_	_	_	_	_	bratA4=T23:Past|bratT23=Date-period-absolute|bratT31=Event
+4	заражение	_	_	_	_	_	_	_	bratT30=Event
 5	было	_	_	_	_	_	_	_	_
 6	выявлено	_	_	_	_	_	_	_	_
 7	у	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 1	Они	_	_	_	_	_	_	_	_
 2	находятся	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
-4	карантине	_	_	_	_	_	_	_	SpaceAfter=No
+4	карантине	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Event
 5	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0039-p4-s3

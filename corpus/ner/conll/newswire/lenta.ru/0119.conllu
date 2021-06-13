@@ -7,8 +7,8 @@
 2	рассказал	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	доступных	_	_	_	_	_	_	_	_
-5	зимних	_	_	_	_	_	_	_	_
-6	развлечениях	_	_	_	_	_	_	_	_
+5	зимних	_	_	_	_	_	_	_	bratT34=Event|bratT39=Time-period
+6	развлечениях	_	_	_	_	_	_	_	bratT34=Event
 7	в	_	_	_	_	_	_	_	_
 8	Подмосковье	_	_	_	_	_	_	_	bratT2=GPE
 
@@ -80,8 +80,8 @@
 7	украдет	_	_	_	_	_	_	_	_
 8	у	_	_	_	_	_	_	_	_
 9	нас	_	_	_	_	_	_	_	_
-10	семейный	_	_	_	_	_	_	_	_
-11	праздник	_	_	_	_	_	_	_	SpaceAfter=No
+10	семейный	_	_	_	_	_	_	_	bratT35=Event
+11	праздник	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0119-p3-s3
@@ -113,7 +113,7 @@
 # par_text = Губернатор уточнил, что в сквере «Юбилейный» в Химках уже заработал бесплатный каток.
 # sent_id = 0119-p4-s1
 # text = Губернатор уточнил, что в сквере ``Юбилейный'' в Химках уже заработал бесплатный каток.
-1	Губернатор	_	_	_	_	_	_	_	bratT11=Person-property
+1	Губернатор	_	_	_	_	_	_	_	bratA11=T36:Male|bratT11=Person-property|bratT36=Person
 2	уточнил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -153,14 +153,14 @@
 17	Серпухове	_	_	_	_	_	_	_	bratT16=GPE
 18	откроются	_	_	_	_	_	_	_	_
 19	три	_	_	_	_	_	_	_	bratT17=Quantity
-20	большие	_	_	_	_	_	_	_	bratT17=Quantity
-21	выставки	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
+20	большие	_	_	_	_	_	_	_	bratT17=Quantity|bratT40=Event
+21	выставки	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity|bratT40=Event
 22	''	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
 24	-	_	_	_	_	_	_	_	_
 25	сказал	_	_	_	_	_	_	_	_
-26	глава	_	_	_	_	_	_	_	bratT18=Person-property
-27	региона	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property
+26	глава	_	_	_	_	_	_	_	bratA12=T37:Male|bratT18=Person-property|bratT37=Person
+27	региона	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T37:Male|bratT18=Person-property|bratT37=Person
 28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0119-p6
@@ -172,8 +172,8 @@
 3	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	региональные	_	_	_	_	_	_	_	_
-7	власти	_	_	_	_	_	_	_	_
+6	региональные	_	_	_	_	_	_	_	bratT38=Organization
+7	власти	_	_	_	_	_	_	_	bratT38=Organization
 8	не	_	_	_	_	_	_	_	_
 9	собираются	_	_	_	_	_	_	_	_
 10	вводить	_	_	_	_	_	_	_	_

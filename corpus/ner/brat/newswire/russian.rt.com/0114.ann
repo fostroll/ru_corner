@@ -1,31 +1,39 @@
 T1	Organization 0 14	Минпросвещения
-T2	Service 352 388	Telegram-канале   стопкоронавирус.рф
+T2	Service 352 390	Telegram-канале   стопкоронавирус . рф
 T3	Person-property 54 64	школьников
-T4	Product 448 451	ЦОС
-T5	Product 631 634	ЦОС
-T6	Person 743 784	глава   Минпросвещения   Сергей   Кравцов
-T7	Person-property 743 765	глава   Минпросвещения
-T8	Organization 751 765	Минпросвещения
-T9	Product 844 880	проекта   ``   Образование-2030   ''
+T4	Product 450 453	ЦОС
+T5	Product 633 636	ЦОС
+T6	Person 745 786	глава   Минпросвещения   Сергей   Кравцов
+T7	Person-property 745 767	глава   Минпросвещения
+T8	Organization 753 767	Минпросвещения
+T9	Product 846 884	проекта   ``   Образование - 2030   ''
 A3	Project T9
-T10	Person-property 1047 1057	школьников
-T11	Person-property 475 485	школьникам
+T10	Person-property 1051 1061	школьников
+T11	Person-property 477 487	школьникам
 A4	Media T2
-T12	Other-term 582 590	гаджетов
+T12	Other-term 584 592	гаджетов
 T13	Organization 82 96	Минпросвещения
 T14	Organization 252 254	RT
 A5	Media T14
 T16	Product 197 200	ЦОС
 T17	Product 207 241	цифровой   образовательной   среды
-T15	Date-absolute 787 807	в   ходе   заседания
-T18	Organization 810 880	неформальной   рабочей   группы   проекта   ``   Образование-2030   ''
+T15	Date-absolute 789 809	в   ходе   заседания
+T18	Organization 812 884	неформальной   рабочей   группы   проекта   ``   Образование - 2030   ''
 A1	Department T18
-T19	Date-relative 735 740	Ранее
-T20	Age 683 688	детей
+T19	Date-relative 737 742	Ранее
+T20	Age 685 690	детей
 T21	Age 307 312	детей
 A2	Past T15
-T22	Event 798 807	заседания
+T22	Event 800 809	заседания
 A6	Past T19
 A7	Male T6
-T23	Person-forename 768 774	Сергей
-T24	Person-surname 777 784	Кравцов
+T23	Person-forename 770 776	Сергей
+T24	Person-surname 779 786	Кравцов
+T25	Service 1007 1024	социальная   сеть
+T26	Service 1031 1042	мессенджеры
+A8	Project T16
+A9	Project T17
+A10	Project T4
+A11	Project T5
+T27	Date-absolute 875 879	2030
+T28	Web-address 370 390	стопкоронавирус . рф

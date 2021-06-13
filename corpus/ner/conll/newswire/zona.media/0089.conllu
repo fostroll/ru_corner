@@ -1,0 +1,164 @@
+# newdoc id = 0089
+# newpar id = 0089-p1
+# par_text = Мэра Томска арестовали по делу о превышении должностных полномочий
+# sent_id = 0089-p1-s1
+# text = Мэра Томска арестовали по делу о превышении должностных полномочий
+1	Мэра	_	_	_	_	_	_	_	bratT1=Person-property
+2	Томска	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+3	арестовали	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	делу	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	превышении	_	_	_	_	_	_	_	_
+8	должностных	_	_	_	_	_	_	_	_
+9	полномочий	_	_	_	_	_	_	_	_
+
+# newpar id = 0089-p2
+# par_text = Кировский районный суд Томска арестовал мэра города Ивана Кляйна, сообщает пресс-служба Следственного комитета.
+# sent_id = 0089-p2-s1
+# text = Кировский районный суд Томска арестовал мэра города Ивана Кляйна, сообщает пресс-служба Следственного комитета.
+1	Кировский	_	_	_	_	_	_	_	bratA1=T4:Adjective|bratT3=Organization|bratT4=GPE
+2	районный	_	_	_	_	_	_	_	bratA1=T4:Adjective|bratT3=Organization|bratT4=GPE
+3	суд	_	_	_	_	_	_	_	bratT3=Organization
+4	Томска	_	_	_	_	_	_	_	bratT3=Organization|bratT5=GPE
+5	арестовал	_	_	_	_	_	_	_	_
+6	мэра	_	_	_	_	_	_	_	bratA2=T6:Male|bratT6=Person|bratT7=Person-property
+7	города	_	_	_	_	_	_	_	bratA2=T6:Male|bratT40=GPE|bratT6=Person|bratT7=Person-property
+8	Ивана	_	_	_	_	_	_	_	bratA2=T6:Male|bratT6=Person|bratT8=Person-forename
+9	Кляйна	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Male|bratT6=Person|bratT9=Person-surname
+10	,	_	_	_	_	_	_	_	_
+11	сообщает	_	_	_	_	_	_	_	_
+12	пресс-служба	_	_	_	_	_	_	_	bratA3=T10:Department|bratT10=Organization
+13	Следственного	_	_	_	_	_	_	_	bratA3=T10:Department|bratT10=Organization|bratT11=Organization
+14	комитета	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Department|bratT10=Organization|bratT11=Organization
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0089-p3
+# par_text = Кляйна обвиняют в превышении должностных полномочий (часть 2 статьи 286 УК).
+# sent_id = 0089-p3-s1
+# text = Кляйна обвиняют в превышении должностных полномочий (часть 2 статьи 286 УК).
+1	Кляйна	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT13=Person-surname
+2	обвиняют	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	превышении	_	_	_	_	_	_	_	_
+5	должностных	_	_	_	_	_	_	_	_
+6	полномочий	_	_	_	_	_	_	_	_
+7	(	_	_	_	_	_	_	_	SpaceAfter=No
+8	часть	_	_	_	_	_	_	_	bratT14=Law
+9	2	_	_	_	_	_	_	_	bratT14=Law|bratT32=Ordinal
+10	статьи	_	_	_	_	_	_	_	bratT14=Law
+11	286	_	_	_	_	_	_	_	bratT14=Law|bratT33=Ordinal
+12	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Law|bratT34=Law
+13	)	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0089-p4
+# par_text = По версии следствия, он в 2016 году не дал предпринимателю построить многоэтажный дом у завода «Томское пиво» и поручил определить в этом районе санитарно-защитную зону.
+# sent_id = 0089-p4-s1
+# text = По версии следствия, он в 2016 году не дал предпринимателю построить многоэтажный дом у завода ``Томское пиво'' и поручил определить в этом районе санитарно-защитную зону.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	он	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-absolute
+7	2016	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-absolute
+8	году	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-absolute
+9	не	_	_	_	_	_	_	_	_
+10	дал	_	_	_	_	_	_	_	_
+11	предпринимателю	_	_	_	_	_	_	_	bratT16=Person-property
+12	построить	_	_	_	_	_	_	_	_
+13	многоэтажный	_	_	_	_	_	_	_	_
+14	дом	_	_	_	_	_	_	_	_
+15	у	_	_	_	_	_	_	_	_
+16	завода	_	_	_	_	_	_	_	bratT17=Organization
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+18	Томское	_	_	_	_	_	_	_	bratA5=T18:Adjective|bratT17=Organization|bratT18=GPE
+19	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+20	''	_	_	_	_	_	_	_	bratT17=Organization
+21	и	_	_	_	_	_	_	_	_
+22	поручил	_	_	_	_	_	_	_	_
+23	определить	_	_	_	_	_	_	_	_
+24	в	_	_	_	_	_	_	_	_
+25	этом	_	_	_	_	_	_	_	_
+26	районе	_	_	_	_	_	_	_	_
+27	санитарно-защитную	_	_	_	_	_	_	_	_
+28	зону	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0089-p5
+# par_text = Как считает ведомство, это решение принесло застройщику «существенный вред».
+# sent_id = 0089-p5-s1
+# text = Как считает ведомство, это решение принесло застройщику ``существенный вред''.
+1	Как	_	_	_	_	_	_	_	_
+2	считает	_	_	_	_	_	_	_	_
+3	ведомство	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	это	_	_	_	_	_	_	_	_
+6	решение	_	_	_	_	_	_	_	_
+7	принесло	_	_	_	_	_	_	_	_
+8	застройщику	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No
+10	существенный	_	_	_	_	_	_	_	_
+11	вред	_	_	_	_	_	_	_	SpaceAfter=No
+12	''	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0089-p6
+# par_text = Сегодня, 14 ноября, несколько десятков местных жителей пришли к зданию суда с требованием дать Кляйну домашний арест. Кроме того, местные депутаты собирали поручительства за главу города. Как рассказал ТВ2 депутат гордумы Максим Забелин, они собрали более ста подписей.
+# sent_id = 0089-p6-s1
+# text = Сегодня, 14 ноября, несколько десятков местных жителей пришли к зданию суда с требованием дать Кляйну домашний арест.
+1	Сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Past|bratT19=Date-absolute
+2	,	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-absolute
+3	14	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-absolute
+4	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Past|bratT19=Date-absolute
+5	,	_	_	_	_	_	_	_	_
+6	несколько	_	_	_	_	_	_	_	bratT35=Quantity
+7	десятков	_	_	_	_	_	_	_	bratT35=Quantity
+8	местных	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratA7=T20:Resident|bratT20=Nationality|bratT35=Quantity|bratT38=GPE
+9	жителей	_	_	_	_	_	_	_	bratA7=T20:Resident|bratT20=Nationality|bratT35=Quantity
+10	пришли	_	_	_	_	_	_	_	_
+11	к	_	_	_	_	_	_	_	_
+12	зданию	_	_	_	_	_	_	_	_
+13	суда	_	_	_	_	_	_	_	_
+14	с	_	_	_	_	_	_	_	_
+15	требованием	_	_	_	_	_	_	_	_
+16	дать	_	_	_	_	_	_	_	_
+17	Кляйну	_	_	_	_	_	_	_	bratA8=T21:Male|bratT21=Person|bratT22=Person-surname
+18	домашний	_	_	_	_	_	_	_	bratT36=Event
+19	арест	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Event
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0089-p6-s2
+# text = Кроме того, местные депутаты собирали поручительства за главу города.
+1	Кроме	_	_	_	_	_	_	_	_
+2	того	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	местные	_	_	_	_	_	_	_	bratA13=T39:Adjective|bratT23=Person-property|bratT39=GPE
+5	депутаты	_	_	_	_	_	_	_	bratT23=Person-property
+6	собирали	_	_	_	_	_	_	_	_
+7	поручительства	_	_	_	_	_	_	_	_
+8	за	_	_	_	_	_	_	_	_
+9	главу	_	_	_	_	_	_	_	bratT24=Person-property
+10	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT41=GPE
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0089-p6-s3
+# text = Как рассказал ТВ2 депутат гордумы Максим Забелин, они собрали более ста подписей.
+1	Как	_	_	_	_	_	_	_	_
+2	рассказал	_	_	_	_	_	_	_	_
+3-4	ТВ2	_	_	_	_	_	_	_	_
+3	ТВ	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T25:Media|bratT25=Organization
+4	2	_	_	_	_	_	_	_	bratA9=T25:Media|bratT25=Organization|bratT37=Ordinal
+5	депутат	_	_	_	_	_	_	_	bratA10=T26:Male|bratT26=Person|bratT27=Person-property
+6	гордумы	_	_	_	_	_	_	_	bratA10=T26:Male|bratT26=Person|bratT27=Person-property|bratT28=Organization
+7	Максим	_	_	_	_	_	_	_	bratA10=T26:Male|bratT26=Person|bratT29=Person-forename
+8	Забелин	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T26:Male|bratT26=Person|bratT30=Person-surname
+9	,	_	_	_	_	_	_	_	_
+10	они	_	_	_	_	_	_	_	_
+11	собрали	_	_	_	_	_	_	_	_
+12	более	_	_	_	_	_	_	_	bratT31=Quantity
+13	ста	_	_	_	_	_	_	_	bratT31=Quantity
+14	подписей	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Quantity
+15	.	_	_	_	_	_	_	_	_
+

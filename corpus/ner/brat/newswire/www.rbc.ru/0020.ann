@@ -1,0 +1,71 @@
+T1	Organization 4 21	``   Тамбове   ''
+T2	Organization 71 90	``   Спартаком   ''
+T3	Person-property 109 139	Футболисты   ``   Тамбова   ''
+T4	Organization 122 139	``   Тамбова   ''
+T5	Event 168 229	матч   17-го   тура   Российской   премьер-лиги   (   РПЛ   )
+T6	Organization 190 215	Российской   премьер-лиги
+T7	Organization 222 225	РПЛ
+T8	Ordinal 175 180	17-го
+T9	Organization 279 282	РБК
+A1	Media T9
+T10	Person 294 341	спортивный   директор   клуба   Павел   Худяков
+T11	Person-property 294 323	спортивный   директор   клуба
+T12	Person 409 416	Худяков
+T13	Person-property 435 458	спортивного   директора
+T14	Person-property 508 520	футболистами
+T15	Organization 659 679	``   Краснодара   ''
+T16	Organization 781 795	``   Уфой   ''
+T17	Person 832 839	Худяков
+T18	Person-property 872 893	футболистов   команды
+T20	Date-period-absolute 1110 1137	за   сентябрь   и   октябрь
+T21	Person-property 816 826	функционер
+T22	Person-property 1025 1035	Функционер
+T23	Event 1143 1147	Матч
+T24	Organization 1150 1167	``   Спартак   ''
+T25	Organization 1174 1190	``   Тамбов   ''
+T26	Date-absolute 1211 1222	5   декабря
+T27	GPE 1229 1235	Москве
+T28	Organization 1240 1256	``   Тамбов   ''
+T29	Quantity 1267 1278	14   матчей
+T30	Quantity 1289 1299	12   очков
+T31	Ordinal 1317 1321	13-е
+T32	Family 921 926	семьи
+T33	GPE 9 16	Тамбове
+T34	GPE 127 134	Тамбова
+T35	GPE 190 200	Российской
+A2	Adjective T35
+T36	Person-forename 326 331	Павел
+T37	Person-surname 334 341	Худяков
+A3	Male T10
+T38	Person-surname 409 416	Худяков
+A4	Male T12
+T39	Event 643 647	матч
+T40	Date-absolute 626 647	на   субботний   матч
+T41	GPE 664 674	Краснодара
+T42	GPE 786 790	Уфой
+T43	Person-surname 832 839	Худяков
+A6	Male T17
+T44	Family 933 937	дети
+A7	Past T20
+T19	GPE 1179 1185	Тамбов
+A8	Future T26
+T45	GPE 1245 1251	Тамбов
+T46	Date-absolute 1058 1064	сейчас
+A9	Present T46
+T47	Date-absolute 1259 1278	после   14   матчей
+A10	Present T47
+T48	Ordinal 757 767	следующего
+T49	Event 750 774	игру   следующего   тура
+T50	Event 175 229	17-го   тура   Российской   премьер-лиги   (   РПЛ   )
+T51	Event 58 63	матча
+T52	Event 757 774	следующего   тура
+T53	Event 736 743	встречу
+T55	Event 494 501	встречу
+T56	Date-absolute 465 477	во   вторник
+A5	Past T56
+A11	Past T40
+T54	Event 48 63	бойкота   матча
+T57	Person 435 458	спортивного   директора
+A12	Male T57
+T58	Person 1025 1035	Функционер
+A13	Male T58

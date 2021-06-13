@@ -1,0 +1,251 @@
+# newdoc id = 0002
+# newpar id = 0002-p1
+# par_text = Джонатан Прайс сыграет принца Филиппа в пятом и шестом сезонах сериала «Корона»
+# sent_id = 0002-p1-s1
+# text = Джонатан Прайс сыграет принца Филиппа в пятом и шестом сезонах сериала ``Корона''
+1	Джонатан	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-forename|bratT3=Person
+2	Прайс	_	_	_	_	_	_	_	bratA1=T3:Male|bratT2=Person-surname|bratT3=Person
+3	сыграет	_	_	_	_	_	_	_	_
+4	принца	_	_	_	_	_	_	_	bratA3=T6:Male|bratT5=Person-property|bratT6=Person
+5	Филиппа	_	_	_	_	_	_	_	bratA3=T6:Male|bratT4=Person-forename|bratT6=Person
+6	в	_	_	_	_	_	_	_	_
+7	пятом	_	_	_	_	_	_	_	bratT7=Ordinal
+8	и	_	_	_	_	_	_	_	_
+9	шестом	_	_	_	_	_	_	_	bratT8=Ordinal
+10	сезонах	_	_	_	_	_	_	_	_
+11	сериала	_	_	_	_	_	_	_	bratT9=Work-of-art
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Work-of-art
+13	Корона	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Work-of-art
+14	''	_	_	_	_	_	_	_	bratT9=Work-of-art
+
+# newpar id = 0002-p2
+# par_text = В первой половине июля Netflix все-таки продлил сериал «Корона» еще на один сезон, хотя за несколько месяцев до этого речь шла о том, что пятый станет последним. «Вскоре после того, как мы начали обсуждать сюжетные линии для пятого сезона, стало ясно, что для того, чтобы отдать должное богатству и сложности истории, мы должны вернуться к первоначальному плану и снять шесть сезонов. Тем не менее должен внести ясность — шестой сезон не приблизит нас к сегодняшнему дню, но позволит охватить тот же период более подробно», — объяснил сценарист и продюсер проекта Питер Морган. То есть финальный сезон охватит период начала 2000-х годов, а вот современные события в королевской семье, включая появление в ней Меган Маркл, сериал не затронет.
+# sent_id = 0002-p2-s1
+# text = В первой половине июля Netflix все-таки продлил сериал ``Корона'' еще на один сезон, хотя за несколько месяцев до этого речь шла о том, что пятый станет последним.
+1	В	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+2	первой	_	_	_	_	_	_	_	bratA4=T11:Past|bratT10=Ordinal|bratT11=Date-absolute
+3	половине	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+4	июля	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+5	Netflix	_	_	_	_	_	_	_	bratT12=Organization
+6	все-таки	_	_	_	_	_	_	_	_
+7	продлил	_	_	_	_	_	_	_	_
+8	сериал	_	_	_	_	_	_	_	bratT13=Work-of-art
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+10	Корона	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+11	''	_	_	_	_	_	_	_	bratT13=Work-of-art
+12	еще	_	_	_	_	_	_	_	bratT14=Quantity
+13	на	_	_	_	_	_	_	_	bratT14=Quantity
+14	один	_	_	_	_	_	_	_	bratT14=Quantity
+15	сезон	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Quantity
+16	,	_	_	_	_	_	_	_	_
+17	хотя	_	_	_	_	_	_	_	_
+18	за	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-relative
+19	несколько	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-relative|bratT66=Duration
+20	месяцев	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-relative|bratT66=Duration
+21	до	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-relative
+22	этого	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-relative
+23	речь	_	_	_	_	_	_	_	_
+24	шла	_	_	_	_	_	_	_	_
+25	о	_	_	_	_	_	_	_	_
+26	том	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	что	_	_	_	_	_	_	_	_
+29	пятый	_	_	_	_	_	_	_	bratT16=Ordinal
+30	станет	_	_	_	_	_	_	_	_
+31	последним	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Ordinal
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0002-p2-s2
+# text = ``Вскоре после того, как мы начали обсуждать сюжетные линии для пятого сезона, стало ясно, что для того, чтобы отдать должное богатству и сложности истории, мы должны вернуться к первоначальному плану и снять шесть сезонов.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Вскоре	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-relative
+3	после	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-relative
+4	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Past|bratT19=Date-relative
+5	,	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-relative
+6	как	_	_	_	_	_	_	_	bratA6=T19:Past|bratT19=Date-relative
+7	мы	_	_	_	_	_	_	_	_
+8	начали	_	_	_	_	_	_	_	_
+9	обсуждать	_	_	_	_	_	_	_	_
+10	сюжетные	_	_	_	_	_	_	_	_
+11	линии	_	_	_	_	_	_	_	_
+12	для	_	_	_	_	_	_	_	_
+13	пятого	_	_	_	_	_	_	_	bratT18=Ordinal
+14	сезона	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	стало	_	_	_	_	_	_	_	_
+17	ясно	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	что	_	_	_	_	_	_	_	_
+20	для	_	_	_	_	_	_	_	_
+21	того	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	чтобы	_	_	_	_	_	_	_	_
+24	отдать	_	_	_	_	_	_	_	_
+25	должное	_	_	_	_	_	_	_	_
+26	богатству	_	_	_	_	_	_	_	_
+27	и	_	_	_	_	_	_	_	_
+28	сложности	_	_	_	_	_	_	_	_
+29	истории	_	_	_	_	_	_	_	SpaceAfter=No
+30	,	_	_	_	_	_	_	_	_
+31	мы	_	_	_	_	_	_	_	_
+32	должны	_	_	_	_	_	_	_	_
+33	вернуться	_	_	_	_	_	_	_	_
+34	к	_	_	_	_	_	_	_	_
+35	первоначальному	_	_	_	_	_	_	_	_
+36	плану	_	_	_	_	_	_	_	_
+37	и	_	_	_	_	_	_	_	_
+38	снять	_	_	_	_	_	_	_	_
+39	шесть	_	_	_	_	_	_	_	bratT21=Quantity
+40	сезонов	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity
+41	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0002-p2-s3
+# text = Тем не менее должен внести ясность - шестой сезон не приблизит нас к сегодняшнему дню, но позволит охватить тот же период более подробно'', - объяснил сценарист и продюсер проекта Питер Морган.
+1	Тем	_	_	_	_	_	_	_	_
+2	не	_	_	_	_	_	_	_	_
+3	менее	_	_	_	_	_	_	_	_
+4	должен	_	_	_	_	_	_	_	_
+5	внести	_	_	_	_	_	_	_	_
+6	ясность	_	_	_	_	_	_	_	_
+7	-	_	_	_	_	_	_	_	_
+8	шестой	_	_	_	_	_	_	_	bratT22=Ordinal
+9	сезон	_	_	_	_	_	_	_	_
+10	не	_	_	_	_	_	_	_	_
+11	приблизит	_	_	_	_	_	_	_	_
+12	нас	_	_	_	_	_	_	_	_
+13	к	_	_	_	_	_	_	_	_
+14	сегодняшнему	_	_	_	_	_	_	_	bratA7=T23:Present|bratT23=Date-absolute
+15	дню	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T23:Present|bratT23=Date-absolute
+16	,	_	_	_	_	_	_	_	_
+17	но	_	_	_	_	_	_	_	_
+18	позволит	_	_	_	_	_	_	_	_
+19	охватить	_	_	_	_	_	_	_	_
+20	тот	_	_	_	_	_	_	_	bratA19=T55:Past|bratT55=Date-period-relative
+21	же	_	_	_	_	_	_	_	bratA19=T55:Past|bratT55=Date-period-relative
+22	период	_	_	_	_	_	_	_	bratA19=T55:Past|bratT55=Date-period-relative
+23	более	_	_	_	_	_	_	_	_
+24	подробно	_	_	_	_	_	_	_	SpaceAfter=No
+25	''	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	-	_	_	_	_	_	_	_	_
+28	объяснил	_	_	_	_	_	_	_	_
+29	сценарист	_	_	_	_	_	_	_	bratA8=T24:Plural|bratA9=T27:Male|bratT24=Person-property|bratT27=Person|bratT63=Person-property
+30	и	_	_	_	_	_	_	_	bratA8=T24:Plural|bratA9=T27:Male|bratT24=Person-property|bratT27=Person
+31	продюсер	_	_	_	_	_	_	_	bratA8=T24:Plural|bratA9=T27:Male|bratT24=Person-property|bratT27=Person|bratT64=Person-property
+32	проекта	_	_	_	_	_	_	_	bratA8=T24:Plural|bratA9=T27:Male|bratT24=Person-property|bratT27=Person
+33	Питер	_	_	_	_	_	_	_	bratA9=T27:Male|bratT25=Person-forename|bratT27=Person
+34	Морган	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Male|bratT26=Person-surname|bratT27=Person
+35	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0002-p2-s4
+# text = То есть финальный сезон охватит период начала 2000-х годов, а вот современные события в королевской семье, включая появление в ней Меган Маркл, сериал не затронет.
+1	То	_	_	_	_	_	_	_	_
+2	есть	_	_	_	_	_	_	_	_
+3	финальный	_	_	_	_	_	_	_	bratT28=Ordinal
+4	сезон	_	_	_	_	_	_	_	_
+5	охватит	_	_	_	_	_	_	_	_
+6	период	_	_	_	_	_	_	_	bratA10=T29:Past|bratT29=Date-period-absolute
+7	начала	_	_	_	_	_	_	_	bratA10=T29:Past|bratT29=Date-period-absolute
+8	2000-х	_	_	_	_	_	_	_	bratA10=T29:Past|bratT29=Date-period-absolute
+9	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T29:Past|bratT29=Date-period-absolute
+10	,	_	_	_	_	_	_	_	_
+11	а	_	_	_	_	_	_	_	_
+12	вот	_	_	_	_	_	_	_	_
+13	современные	_	_	_	_	_	_	_	_
+14	события	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	королевской	_	_	_	_	_	_	_	bratT20=Organization
+17	семье	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT33=Family
+18	,	_	_	_	_	_	_	_	_
+19	включая	_	_	_	_	_	_	_	_
+20	появление	_	_	_	_	_	_	_	_
+21	в	_	_	_	_	_	_	_	_
+22	ней	_	_	_	_	_	_	_	_
+23	Меган	_	_	_	_	_	_	_	bratA11=T32:Female|bratT30=Person-forename|bratT32=Person
+24	Маркл	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T32:Female|bratT31=Person-surname|bratT32=Person
+25	,	_	_	_	_	_	_	_	_
+26	сериал	_	_	_	_	_	_	_	_
+27	не	_	_	_	_	_	_	_	_
+28	затронет	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0002-p3
+# par_text = Уже известно, что королеву Елизавету в пятом и шестом сезонах сыграет Имельда Стонтон, а принцессу Маргарет — Лесли Мэнвилл. Последняя новость, которую британские СМИ распространили 12 августа, касается выбора актера на роль принца Филиппа. Его сыграет Джонатан Прайс, известный участием в сериалах «Игра престолов», «Два папы», фильме «Пираты Карибского моря» и многих других.
+# sent_id = 0002-p3-s1
+# text = Уже известно, что королеву Елизавету в пятом и шестом сезонах сыграет Имельда Стонтон, а принцессу Маргарет - Лесли Мэнвилл.
+1	Уже	_	_	_	_	_	_	_	_
+2	известно	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	королеву	_	_	_	_	_	_	_	bratA12=T36:Female|bratT35=Person-property|bratT36=Person
+6	Елизавету	_	_	_	_	_	_	_	bratA12=T36:Female|bratT34=Person-forename|bratT36=Person
+7	в	_	_	_	_	_	_	_	_
+8	пятом	_	_	_	_	_	_	_	bratT37=Ordinal
+9	и	_	_	_	_	_	_	_	_
+10	шестом	_	_	_	_	_	_	_	bratT38=Ordinal
+11	сезонах	_	_	_	_	_	_	_	_
+12	сыграет	_	_	_	_	_	_	_	_
+13	Имельда	_	_	_	_	_	_	_	bratA13=T41:Female|bratT39=Person-forename|bratT41=Person
+14	Стонтон	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T41:Female|bratT40=Person-surname|bratT41=Person
+15	,	_	_	_	_	_	_	_	_
+16	а	_	_	_	_	_	_	_	_
+17	принцессу	_	_	_	_	_	_	_	bratA14=T44:Female|bratT43=Person-property|bratT44=Person
+18	Маргарет	_	_	_	_	_	_	_	bratA14=T44:Female|bratT42=Person-forename|bratT44=Person
+19	-	_	_	_	_	_	_	_	_
+20	Лесли	_	_	_	_	_	_	_	bratA15=T47:Female|bratT45=Person-forename|bratT47=Person
+21	Мэнвилл	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T47:Female|bratT46=Person-surname|bratT47=Person
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0002-p3-s2
+# text = Последняя новость, которую британские СМИ распространили 12 августа, касается выбора актера на роль принца Филиппа.
+1	Последняя	_	_	_	_	_	_	_	bratT48=Ordinal
+2	новость	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	которую	_	_	_	_	_	_	_	_
+5	британские	_	_	_	_	_	_	_	bratA16=T49:Adjective|bratT49=GPE
+6	СМИ	_	_	_	_	_	_	_	_
+7	распространили	_	_	_	_	_	_	_	_
+8	12	_	_	_	_	_	_	_	bratA17=T50:Past|bratT50=Date-absolute
+9	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T50:Past|bratT50=Date-absolute
+10	,	_	_	_	_	_	_	_	_
+11	касается	_	_	_	_	_	_	_	_
+12	выбора	_	_	_	_	_	_	_	_
+13	актера	_	_	_	_	_	_	_	bratT51=Person-property
+14	на	_	_	_	_	_	_	_	_
+15	роль	_	_	_	_	_	_	_	_
+16	принца	_	_	_	_	_	_	_	bratA18=T54:Male|bratT53=Person-property|bratT54=Person
+17	Филиппа	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T54:Male|bratT52=Person-forename|bratT54=Person
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0002-p3-s3
+# text = Его сыграет Джонатан Прайс, известный участием в сериалах ``Игра престолов'', ``Два папы'', фильме ``Пираты Карибского моря'' и многих других.
+1	Его	_	_	_	_	_	_	_	_
+2	сыграет	_	_	_	_	_	_	_	_
+3	Джонатан	_	_	_	_	_	_	_	bratA2=T58:Male|bratT56=Person-forename|bratT58=Person
+4	Прайс	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T58:Male|bratT57=Person-surname|bratT58=Person
+5	,	_	_	_	_	_	_	_	_
+6	известный	_	_	_	_	_	_	_	_
+7	участием	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	сериалах	_	_	_	_	_	_	_	bratT59=Work-of-art
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Work-of-art
+11	Игра	_	_	_	_	_	_	_	bratT59=Work-of-art
+12	престолов	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Work-of-art
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Work-of-art
+14	,	_	_	_	_	_	_	_	_
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Work-of-art
+16	Два	_	_	_	_	_	_	_	bratT60=Work-of-art|bratT62=Quantity
+17	папы	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Work-of-art|bratT62=Quantity
+18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Work-of-art
+19	,	_	_	_	_	_	_	_	_
+20	фильме	_	_	_	_	_	_	_	bratT61=Work-of-art
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Work-of-art
+22	Пираты	_	_	_	_	_	_	_	bratT61=Work-of-art|bratT67=Person-property
+23	Карибского	_	_	_	_	_	_	_	bratT61=Work-of-art|bratT65=Location
+24	моря	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Work-of-art|bratT65=Location
+25	''	_	_	_	_	_	_	_	bratT61=Work-of-art
+26	и	_	_	_	_	_	_	_	_
+27	многих	_	_	_	_	_	_	_	_
+28	других	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+

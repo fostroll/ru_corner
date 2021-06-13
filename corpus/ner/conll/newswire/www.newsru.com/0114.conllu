@@ -1,0 +1,293 @@
+# newdoc id = 0114
+# newpar id = 0114-p1
+# par_text = Хэмилтон выиграл Гран-при Эмилии-Романьи, Квят финишировал четвертым
+# sent_id = 0114-p1-s1
+# text = Хэмилтон выиграл Гран-при Эмилии-Романьи, Квят финишировал четвертым
+1	Хэмилтон	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT52=Person-surname
+2	выиграл	_	_	_	_	_	_	_	_
+3	Гран-при	_	_	_	_	_	_	_	bratT2=Event
+4	Эмилии-Романьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event|bratT79=GPE
+5	,	_	_	_	_	_	_	_	_
+6	Квят	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT53=Person-surname
+7	финишировал	_	_	_	_	_	_	_	_
+8	четвертым	_	_	_	_	_	_	_	bratT4=Ordinal
+
+# newpar id = 0114-p2
+# par_text = Британский пилот "Мерседеса" Льюис Хэмилтон стал победителем гонки 13-го этапа чемпионата "Формулы-1" - Гран-при Эмилии-Романьи.
+# sent_id = 0114-p2-s1
+# text = Британский пилот ``Мерседеса'' Льюис Хэмилтон стал победителем гонки 13-го этапа чемпионата ``Формулы-1'' - Гран-при Эмилии-Романьи.
+1	Британский	_	_	_	_	_	_	_	bratA8=T54:Adjective|bratA9=T7:Male|bratT54=GPE|bratT6=Person-property|bratT7=Person
+2	пилот	_	_	_	_	_	_	_	bratA9=T7:Male|bratT6=Person-property|bratT7=Person
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+4	Мерседеса	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+5	''	_	_	_	_	_	_	_	bratA9=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+6	Льюис	_	_	_	_	_	_	_	bratA9=T7:Male|bratT55=Person-forename|bratT7=Person
+7	Хэмилтон	_	_	_	_	_	_	_	bratA9=T7:Male|bratT56=Person-surname|bratT7=Person
+8	стал	_	_	_	_	_	_	_	_
+9	победителем	_	_	_	_	_	_	_	bratT11=Person-property
+10	гонки	_	_	_	_	_	_	_	bratT10=Event|bratT11=Person-property
+11	13-го	_	_	_	_	_	_	_	bratT10=Event|bratT11=Person-property|bratT8=Ordinal|bratT83=Event
+12	этапа	_	_	_	_	_	_	_	bratT10=Event|bratT11=Person-property|bratT83=Event
+13	чемпионата	_	_	_	_	_	_	_	bratT10=Event|bratT11=Person-property|bratT83=Event|bratT9=Event
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=Person-property|bratT67=Event|bratT83=Event|bratT9=Event
+15-17	Формулы-1	_	_	_	_	_	_	_	SpaceAfter=No
+15	Формулы	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=Person-property|bratT67=Event|bratT83=Event|bratT9=Event
+16	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=Person-property|bratT67=Event|bratT83=Event|bratT9=Event
+17	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=Person-property|bratT67=Event|bratT78=Ordinal|bratT83=Event|bratT9=Event
+18	''	_	_	_	_	_	_	_	bratT10=Event|bratT11=Person-property|bratT67=Event|bratT83=Event|bratT9=Event
+19	-	_	_	_	_	_	_	_	bratT11=Person-property
+20	Гран-при	_	_	_	_	_	_	_	bratT11=Person-property|bratT82=Event
+21	Эмилии-Романьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT80=GPE|bratT82=Event
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p3
+# par_text = Вторым на автодроме в Имоле финишировал другой пилот "Мерседеса" финн Вальттери Боттас, замкнул тройку лучших австралиец Дэниел Риккьярдо из "Рено".
+# sent_id = 0114-p3-s1
+# text = Вторым на автодроме в Имоле финишировал другой пилот ``Мерседеса'' финн Вальттери Боттас, замкнул тройку лучших австралиец Дэниел Риккьярдо из ``Рено''.
+1	Вторым	_	_	_	_	_	_	_	bratT12=Ordinal
+2	на	_	_	_	_	_	_	_	_
+3	автодроме	_	_	_	_	_	_	_	bratT14=Facility
+4	в	_	_	_	_	_	_	_	_
+5	Имоле	_	_	_	_	_	_	_	bratT13=GPE
+6	финишировал	_	_	_	_	_	_	_	_
+7	другой	_	_	_	_	_	_	_	bratT15=Ordinal
+8	пилот	_	_	_	_	_	_	_	bratA11=T19:Male|bratT17=Person-property|bratT19=Person
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T19:Male|bratT16=Organization|bratT17=Person-property|bratT19=Person
+10	Мерседеса	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T19:Male|bratT16=Organization|bratT17=Person-property|bratT19=Person
+11	''	_	_	_	_	_	_	_	bratA11=T19:Male|bratT16=Organization|bratT17=Person-property|bratT19=Person
+12	финн	_	_	_	_	_	_	_	bratA1=T18:Citizenship|bratA11=T19:Male|bratT18=Nationality|bratT19=Person
+13	Вальттери	_	_	_	_	_	_	_	bratA11=T19:Male|bratT19=Person|bratT60=Person-forename
+14	Боттас	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T19:Male|bratT19=Person|bratT61=Person-surname
+15	,	_	_	_	_	_	_	_	_
+16	замкнул	_	_	_	_	_	_	_	_
+17	тройку	_	_	_	_	_	_	_	bratT20=Quantity
+18	лучших	_	_	_	_	_	_	_	bratT20=Quantity
+19	австралиец	_	_	_	_	_	_	_	bratA12=T22:Male|bratA2=T21:Citizenship|bratT21=Nationality|bratT22=Person
+20	Дэниел	_	_	_	_	_	_	_	bratA12=T22:Male|bratT22=Person|bratT62=Person-forename
+21	Риккьярдо	_	_	_	_	_	_	_	bratA12=T22:Male|bratT22=Person|bratT63=Person-surname
+22	из	_	_	_	_	_	_	_	_
+23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+24	Рено	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+25	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+26	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p4
+# par_text = Россиянин Даниил Квят из "Альфа Таури", стартовавший в воскресенье с восьмой позиции, занял четвертое место, показав свой лучший результат в текущем сезоне.
+# sent_id = 0114-p4-s1
+# text = Россиянин Даниил Квят из ``Альфа Таури'', стартовавший в воскресенье с восьмой позиции, занял четвертое место, показав свой лучший результат в текущем сезоне.
+1	Россиянин	_	_	_	_	_	_	_	bratA14=T25:Male|bratA3=T24:Citizenship|bratT24=Nationality|bratT25=Person
+2	Даниил	_	_	_	_	_	_	_	bratA14=T25:Male|bratT25=Person|bratT65=Person-forename
+3	Квят	_	_	_	_	_	_	_	bratA14=T25:Male|bratT25=Person|bratT66=Person-surname
+4	из	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+6	Альфа	_	_	_	_	_	_	_	bratT26=Organization
+7	Таури	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+9	,	_	_	_	_	_	_	_	_
+10	стартовавший	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+12	воскресенье	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+13	с	_	_	_	_	_	_	_	_
+14	восьмой	_	_	_	_	_	_	_	bratT28=Ordinal
+15	позиции	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	занял	_	_	_	_	_	_	_	_
+18	четвертое	_	_	_	_	_	_	_	bratT29=Ordinal
+19	место	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	показав	_	_	_	_	_	_	_	_
+22	свой	_	_	_	_	_	_	_	_
+23	лучший	_	_	_	_	_	_	_	_
+24	результат	_	_	_	_	_	_	_	_
+25	в	_	_	_	_	_	_	_	bratA10=T59:Past-Pres|bratT59=Date-period-absolute
+26	текущем	_	_	_	_	_	_	_	bratA10=T59:Past-Pres|bratT58=Event|bratT59=Date-period-absolute|bratT69=Ordinal
+27	сезоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T59:Past-Pres|bratT58=Event|bratT59=Date-period-absolute
+28	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p5
+# par_text = "Слава богу, удалось показать такой сильный результат! Во время гонки я думал о подиуме, ведь он был совсем рядом. Как бы то ни было, я сумел показать отличное выступление и получил огромное удовольствие. Я люблю такие олдскульные трассы. Вероятно, я и сам олдскульный гонщик, который выступает не в свою эпоху", - приводит слова Квята Motorsport-Magazin.
+# sent_id = 0114-p5-s1
+# text = ``Слава богу, удалось показать такой сильный результат!
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Слава	_	_	_	_	_	_	_	_
+3	богу	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	удалось	_	_	_	_	_	_	_	_
+6	показать	_	_	_	_	_	_	_	_
+7	такой	_	_	_	_	_	_	_	_
+8	сильный	_	_	_	_	_	_	_	_
+9	результат	_	_	_	_	_	_	_	SpaceAfter=No
+10	!	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p5-s2
+# text = Во время гонки я думал о подиуме, ведь он был совсем рядом.
+1	Во	_	_	_	_	_	_	_	bratA17=T30:Past|bratT30=Date-period-absolute
+2	время	_	_	_	_	_	_	_	bratA17=T30:Past|bratT30=Date-period-absolute
+3	гонки	_	_	_	_	_	_	_	bratA17=T30:Past|bratT30=Date-period-absolute|bratT57=Event
+4	я	_	_	_	_	_	_	_	_
+5	думал	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	подиуме	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	ведь	_	_	_	_	_	_	_	_
+10	он	_	_	_	_	_	_	_	_
+11	был	_	_	_	_	_	_	_	_
+12	совсем	_	_	_	_	_	_	_	_
+13	рядом	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p5-s3
+# text = Как бы то ни было, я сумел показать отличное выступление и получил огромное удовольствие.
+1	Как	_	_	_	_	_	_	_	_
+2	бы	_	_	_	_	_	_	_	_
+3	то	_	_	_	_	_	_	_	_
+4	ни	_	_	_	_	_	_	_	_
+5	было	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	я	_	_	_	_	_	_	_	_
+8	сумел	_	_	_	_	_	_	_	_
+9	показать	_	_	_	_	_	_	_	_
+10	отличное	_	_	_	_	_	_	_	_
+11	выступление	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	получил	_	_	_	_	_	_	_	_
+14	огромное	_	_	_	_	_	_	_	_
+15	удовольствие	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p5-s4
+# text = Я люблю такие олдскульные трассы.
+1	Я	_	_	_	_	_	_	_	_
+2	люблю	_	_	_	_	_	_	_	_
+3	такие	_	_	_	_	_	_	_	_
+4	олдскульные	_	_	_	_	_	_	_	_
+5	трассы	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p5-s5
+# text = Вероятно, я и сам олдскульный гонщик, который выступает не в свою эпоху'', - приводит слова Квята Motorsport-Magazin.
+1	Вероятно	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	я	_	_	_	_	_	_	_	_
+4	и	_	_	_	_	_	_	_	_
+5	сам	_	_	_	_	_	_	_	_
+6	олдскульный	_	_	_	_	_	_	_	bratT31=Person-property
+7	гонщик	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property
+8	,	_	_	_	_	_	_	_	_
+9	который	_	_	_	_	_	_	_	_
+10	выступает	_	_	_	_	_	_	_	_
+11	не	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	свою	_	_	_	_	_	_	_	_
+14	эпоху	_	_	_	_	_	_	_	SpaceAfter=No
+15	''	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_
+18	приводит	_	_	_	_	_	_	_	_
+19	слова	_	_	_	_	_	_	_	_
+20	Квята	_	_	_	_	_	_	_	bratA16=T32:Male|bratT32=Person|bratT68=Person-surname
+21	Motorsport-Magazin	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Media|bratT33=Organization
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p6
+# par_text = Добавим, что "Мерседес" по итогам гонки досрочно в седьмой раз подряд выиграл Кубок конструкторов.
+# sent_id = 0114-p6-s1
+# text = Добавим, что ``Мерседес'' по итогам гонки досрочно в седьмой раз подряд выиграл Кубок конструкторов.
+1	Добавим	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+5	Мерседес	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+6	''	_	_	_	_	_	_	_	bratT34=Organization
+7	по	_	_	_	_	_	_	_	_
+8	итогам	_	_	_	_	_	_	_	_
+9	гонки	_	_	_	_	_	_	_	_
+10	досрочно	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	седьмой	_	_	_	_	_	_	_	bratT35=Ordinal
+13	раз	_	_	_	_	_	_	_	_
+14	подряд	_	_	_	_	_	_	_	_
+15	выиграл	_	_	_	_	_	_	_	_
+16	Кубок	_	_	_	_	_	_	_	bratT36=Other-term
+17	конструкторов	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Other-term
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p7
+# par_text = Хэмилтон (282) продолжает лидировать в общем зачете. Вторым идет Боттас (197), отставая на 85 очков, на третьем месте находится нидерландец Макс Ферстаппен (162) из "Ред Булл". Квят (26) занимает 13-ю позицию.
+# sent_id = 0114-p7-s1
+# text = Хэмилтон (282) продолжает лидировать в общем зачете.
+1	Хэмилтон	_	_	_	_	_	_	_	bratA19=T37:Male|bratT37=Person|bratT70=Person-surname
+2	(	_	_	_	_	_	_	_	SpaceAfter=No
+3	282	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity
+4	)	_	_	_	_	_	_	_	_
+5	продолжает	_	_	_	_	_	_	_	_
+6	лидировать	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	общем	_	_	_	_	_	_	_	_
+9	зачете	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p7-s2
+# text = Вторым идет Боттас (197), отставая на 85 очков, на третьем месте находится нидерландец Макс Ферстаппен (162) из ``Ред Булл''.
+1	Вторым	_	_	_	_	_	_	_	bratT39=Ordinal
+2	идет	_	_	_	_	_	_	_	_
+3	Боттас	_	_	_	_	_	_	_	bratA20=T40:Male|bratT40=Person|bratT71=Person-surname
+4	(	_	_	_	_	_	_	_	SpaceAfter=No
+5	197	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Quantity
+6	)	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	отставая	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	bratT42=Quantity
+10	85	_	_	_	_	_	_	_	bratT42=Quantity
+11	очков	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Quantity
+12	,	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	третьем	_	_	_	_	_	_	_	bratT43=Ordinal
+15	месте	_	_	_	_	_	_	_	_
+16	находится	_	_	_	_	_	_	_	_
+17	нидерландец	_	_	_	_	_	_	_	bratA22=T45:Male|bratA5=T44:Citizenship|bratT44=Nationality|bratT45=Person
+18	Макс	_	_	_	_	_	_	_	bratA22=T45:Male|bratT45=Person|bratT76=Person-forename
+19	Ферстаппен	_	_	_	_	_	_	_	bratA22=T45:Male|bratT45=Person|bratT77=Person-surname
+20	(	_	_	_	_	_	_	_	SpaceAfter=No
+21	162	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Quantity
+22	)	_	_	_	_	_	_	_	_
+23	из	_	_	_	_	_	_	_	_
+24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+25	Ред	_	_	_	_	_	_	_	bratT47=Organization
+26	Булл	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+27	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization
+28	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p7-s3
+# text = Квят (26) занимает 13-ю позицию.
+1	Квят	_	_	_	_	_	_	_	bratA21=T75:Male|bratT74=Person-surname|bratT75=Person
+2	(	_	_	_	_	_	_	_	SpaceAfter=No
+3	26	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Quantity
+4	)	_	_	_	_	_	_	_	_
+5	занимает	_	_	_	_	_	_	_	_
+6	13-ю	_	_	_	_	_	_	_	bratT73=Ordinal
+7	позицию	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p8
+# par_text = Следующий этап "Формулы-1" состоится в Турции с 12 по 15 ноября.
+# sent_id = 0114-p8-s1
+# text = Следующий этап ``Формулы-1'' состоится в Турции с 12 по 15 ноября.
+1	Следующий	_	_	_	_	_	_	_	bratT48=Ordinal|bratT81=Event
+2	этап	_	_	_	_	_	_	_	bratT81=Event
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event|bratT81=Event
+4-6	Формулы-1	_	_	_	_	_	_	_	SpaceAfter=No
+4	Формулы	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event|bratT81=Event
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event|bratT81=Event
+6	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event|bratT64=Ordinal|bratT81=Event
+7	''	_	_	_	_	_	_	_	bratT51=Event|bratT81=Event
+8	состоится	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	Турции	_	_	_	_	_	_	_	bratT49=GPE
+11	с	_	_	_	_	_	_	_	bratA24=T50:Fut|bratT50=Date-period-absolute
+12	12	_	_	_	_	_	_	_	bratA24=T50:Fut|bratT50=Date-period-absolute
+13	по	_	_	_	_	_	_	_	bratA24=T50:Fut|bratT50=Date-period-absolute
+14	15	_	_	_	_	_	_	_	bratA24=T50:Fut|bratT50=Date-period-absolute
+15	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T50:Fut|bratT50=Date-period-absolute
+16	.	_	_	_	_	_	_	_	_
+

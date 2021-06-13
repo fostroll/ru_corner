@@ -10,11 +10,11 @@
 5	объявила	_	_	_	_	_	_	_	_
 6	состав	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	первые	_	_	_	_	_	_	_	bratT3=Ordinal
-9	два	_	_	_	_	_	_	_	bratT4=Quantity
-10	этапа	_	_	_	_	_	_	_	bratT4=Quantity
-11	Кубка	_	_	_	_	_	_	_	bratT5=Event
-12	мира	_	_	_	_	_	_	_	bratT38=GPE|bratT5=Event
+8	первые	_	_	_	_	_	_	_	bratT3=Ordinal|bratT75=Event
+9	два	_	_	_	_	_	_	_	bratT4=Quantity|bratT75=Event
+10	этапа	_	_	_	_	_	_	_	bratT4=Quantity|bratT75=Event
+11	Кубка	_	_	_	_	_	_	_	bratT5=Event|bratT75=Event
+12	мира	_	_	_	_	_	_	_	bratT38=GPE|bratT5=Event|bratT75=Event
 
 # newpar id = 0003-p2
 # par_text = Сборная России по биатлону объявила состав на первые два этапа Кубка мира, сообщил президент Союза биатлонистов России Виктор Майгуров в эфире телеканала «Матч ТВ».
@@ -27,11 +27,11 @@
 5	объявила	_	_	_	_	_	_	_	_
 6	состав	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	первые	_	_	_	_	_	_	_	bratT8=Ordinal
-9	два	_	_	_	_	_	_	_	bratT9=Quantity
-10	этапа	_	_	_	_	_	_	_	bratT9=Quantity
-11	Кубка	_	_	_	_	_	_	_	bratT10=Event
-12	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT39=GPE
+8	первые	_	_	_	_	_	_	_	bratT74=Event|bratT8=Ordinal
+9	два	_	_	_	_	_	_	_	bratT74=Event|bratT9=Quantity
+10	этапа	_	_	_	_	_	_	_	bratT74=Event|bratT9=Quantity
+11	Кубка	_	_	_	_	_	_	_	bratT10=Event|bratT74=Event
+12	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT39=GPE|bratT74=Event
 13	,	_	_	_	_	_	_	_	_
 14	сообщил	_	_	_	_	_	_	_	_
 15	президент	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT12=Person-property

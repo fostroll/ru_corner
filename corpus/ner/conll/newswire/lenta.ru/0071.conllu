@@ -9,15 +9,18 @@
 4	и	_	_	_	_	_	_	_	_
 5	лицей	_	_	_	_	_	_	_	bratT2=Organization
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
-7	Сириус	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+7	Сириус	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT9=Location
 8	''	_	_	_	_	_	_	_	bratT2=Organization
 9	объявили	_	_	_	_	_	_	_	_
-10	набор	_	_	_	_	_	_	_	_
+10	набор	_	_	_	_	_	_	_	bratT40=Event
 11	в	_	_	_	_	_	_	_	_
 12	программу	_	_	_	_	_	_	_	bratA2=T20:Project|bratT20=Product
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Project|bratT20=Product
-14	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Project|bratT20=Product
-15	''	_	_	_	_	_	_	_	bratA2=T20:Project|bratT20=Product
+14-16	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No
+14	Роснефть	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Project|bratT20=Product|bratT33=Organization
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Project|bratT20=Product
+16	классов	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Project|bratT20=Product
+17	''	_	_	_	_	_	_	_	bratA2=T20:Project|bratT20=Product
 
 # newpar id = 0071-p2
 # par_text = В дистанционном формате началась подача заявок на участие в партнерской образовательной программе для одаренных учащихся «Роснефть-классов». Она продлится две недели, в течение которых любой из учеников 10-11 «Роснефть-классов» из разных регионов страны может испытать свои силы и выиграть право участия в суперфинале программы, который состоится в январе-феврале 2021 года. Об этом говорится в сообщении «Роснефти».
@@ -27,8 +30,8 @@
 2	дистанционном	_	_	_	_	_	_	_	_
 3	формате	_	_	_	_	_	_	_	_
 4	началась	_	_	_	_	_	_	_	_
-5	подача	_	_	_	_	_	_	_	_
-6	заявок	_	_	_	_	_	_	_	_
+5	подача	_	_	_	_	_	_	_	bratT41=Event
+6	заявок	_	_	_	_	_	_	_	bratT41=Event
 7	на	_	_	_	_	_	_	_	_
 8	участие	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -39,12 +42,15 @@
 14	одаренных	_	_	_	_	_	_	_	bratA4=T8:Project|bratT8=Product
 15	учащихся	_	_	_	_	_	_	_	bratA4=T8:Project|bratT3=Person-property|bratT8=Product
 16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
-17	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
-18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
-19	.	_	_	_	_	_	_	_	_
+17-19	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No
+17	Роснефть	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT34=Organization|bratT8=Product
+18	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
+19	классов	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
+20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p2-s2
-# text = Она продлится две недели, в течение которых любой из учеников 10-11 ``Роснефть-классов'' из разных регионов страны может испытать свои силы и выиграть право участия в суперфинале программы, который состоится в январе-феврале 2021 года.
+# text = Она продлится две недели, в течение которых любой из учеников 10 - 11 ``Роснефть-классов'' из разных регионов страны может испытать свои силы и выиграть право участия в суперфинале программы, который состоится в январе-феврале 2021 года.
 1	Она	_	_	_	_	_	_	_	_
 2	продлится	_	_	_	_	_	_	_	_
 3	две	_	_	_	_	_	_	_	bratA6=T25:UNK-Fut|bratT25=Date-period-relative|bratT7=Duration
@@ -56,33 +62,41 @@
 9	любой	_	_	_	_	_	_	_	_
 10	из	_	_	_	_	_	_	_	_
 11	учеников	_	_	_	_	_	_	_	bratT5=Person-property
-12	10-11	_	_	_	_	_	_	_	bratT6=Ordinal
-13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Project|bratT13=Product
-14	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Project|bratT13=Product
-15	''	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
-16	из	_	_	_	_	_	_	_	_
-17	разных	_	_	_	_	_	_	_	_
-18	регионов	_	_	_	_	_	_	_	_
-19	страны	_	_	_	_	_	_	_	_
-20	может	_	_	_	_	_	_	_	_
-21	испытать	_	_	_	_	_	_	_	_
-22	свои	_	_	_	_	_	_	_	_
-23	силы	_	_	_	_	_	_	_	_
-24	и	_	_	_	_	_	_	_	_
-25	выиграть	_	_	_	_	_	_	_	_
-26	право	_	_	_	_	_	_	_	_
-27	участия	_	_	_	_	_	_	_	_
-28	в	_	_	_	_	_	_	_	_
-29	суперфинале	_	_	_	_	_	_	_	_
-30	программы	_	_	_	_	_	_	_	SpaceAfter=No
-31	,	_	_	_	_	_	_	_	_
-32	который	_	_	_	_	_	_	_	_
-33	состоится	_	_	_	_	_	_	_	_
-34	в	_	_	_	_	_	_	_	bratA7=T30:Future|bratT30=Date-absolute
-35	январе-феврале	_	_	_	_	_	_	_	bratA7=T30:Future|bratT30=Date-absolute
-36	2021	_	_	_	_	_	_	_	bratA7=T30:Future|bratT30=Date-absolute
-37	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T30:Future|bratT30=Date-absolute
-38	.	_	_	_	_	_	_	_	_
+12	10	_	_	_	_	_	_	_	bratT6=Ordinal
+13	-	_	_	_	_	_	_	_	bratT6=Ordinal
+14	11	_	_	_	_	_	_	_	bratT6=Ordinal
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Project|bratT13=Product
+16-18	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No
+16	Роснефть	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Project|bratT13=Product|bratT35=Organization
+17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Project|bratT13=Product
+18	классов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Project|bratT13=Product
+19	''	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
+20	из	_	_	_	_	_	_	_	_
+21	разных	_	_	_	_	_	_	_	_
+22	регионов	_	_	_	_	_	_	_	_
+23	страны	_	_	_	_	_	_	_	_
+24	может	_	_	_	_	_	_	_	_
+25	испытать	_	_	_	_	_	_	_	_
+26	свои	_	_	_	_	_	_	_	_
+27	силы	_	_	_	_	_	_	_	_
+28	и	_	_	_	_	_	_	_	_
+29	выиграть	_	_	_	_	_	_	_	_
+30	право	_	_	_	_	_	_	_	_
+31	участия	_	_	_	_	_	_	_	_
+32	в	_	_	_	_	_	_	_	_
+33	суперфинале	_	_	_	_	_	_	_	bratT42=Event
+34	программы	_	_	_	_	_	_	_	SpaceAfter=No
+35	,	_	_	_	_	_	_	_	_
+36	который	_	_	_	_	_	_	_	_
+37	состоится	_	_	_	_	_	_	_	_
+38	в	_	_	_	_	_	_	_	bratA7=T30:Future|bratT30=Date-absolute
+39-41	январе-феврале	_	_	_	_	_	_	_	_
+39	январе	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T30:Future|bratT30=Date-absolute
+40	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T30:Future|bratT30=Date-absolute
+41	феврале	_	_	_	_	_	_	_	bratA7=T30:Future|bratT30=Date-absolute
+42	2021	_	_	_	_	_	_	_	bratA7=T30:Future|bratT30=Date-absolute
+43	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T30:Future|bratT30=Date-absolute
+44	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p2-s3
 # text = Об этом говорится в сообщении ``Роснефти''.
@@ -129,22 +143,25 @@
 3	корпоративной	_	_	_	_	_	_	_	bratA5=T24:Project|bratT24=Product
 4	стратегии	_	_	_	_	_	_	_	bratA5=T24:Project|bratT24=Product
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Project|bratT24=Product
-6	Роснефть-2022	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Project|bratT24=Product
-7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Project|bratT24=Product
-8	,	_	_	_	_	_	_	_	_
-9	предусматривающей	_	_	_	_	_	_	_	_
-10	поддержку	_	_	_	_	_	_	_	_
-11	государственной	_	_	_	_	_	_	_	_
-12	политики	_	_	_	_	_	_	_	_
-13	в	_	_	_	_	_	_	_	_
-14	сфере	_	_	_	_	_	_	_	_
-15	образования	_	_	_	_	_	_	_	_
-16	и	_	_	_	_	_	_	_	_
-17	развития	_	_	_	_	_	_	_	_
-18	кадрового	_	_	_	_	_	_	_	_
-19	потенциала	_	_	_	_	_	_	_	_
-20	компании	_	_	_	_	_	_	_	SpaceAfter=No
-21	.	_	_	_	_	_	_	_	_
+6-8	Роснефть-2022	_	_	_	_	_	_	_	SpaceAfter=No
+6	Роснефть	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Project|bratT24=Product|bratT36=Organization
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Project|bratT24=Product
+8	2022	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Project|bratT24=Product|bratT37=Date-absolute
+9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T24:Project|bratT24=Product
+10	,	_	_	_	_	_	_	_	_
+11	предусматривающей	_	_	_	_	_	_	_	_
+12	поддержку	_	_	_	_	_	_	_	_
+13	государственной	_	_	_	_	_	_	_	bratA9=T32:Adjective|bratT32=GPE
+14	политики	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	сфере	_	_	_	_	_	_	_	_
+17	образования	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	развития	_	_	_	_	_	_	_	_
+20	кадрового	_	_	_	_	_	_	_	_
+21	потенциала	_	_	_	_	_	_	_	_
+22	компании	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0071-p4
 # par_text = Программа ориентирована на развитие практико-ориентированного мышления одаренной молодежи из регионов производственной деятельности компании и практическое применение новых знаний и навыков при решении задач, актуальных для нефтегазовой индустрии.
@@ -195,23 +212,26 @@
 9	специально	_	_	_	_	_	_	_	_
 10	разработанных	_	_	_	_	_	_	_	_
 11	для	_	_	_	_	_	_	_	_
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Product
-13	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Product
-14	''	_	_	_	_	_	_	_	bratT19=Product
-15	экспертами	_	_	_	_	_	_	_	bratT15=Person-property
-16	лицея	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization
-18	Сириус	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization
-19	''	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-20	и	_	_	_	_	_	_	_	_
-21	Корпоративного	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization
-22	научно-проектного	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization
-23	комплекса	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization
-24	компании	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization|bratT18=Organization
-25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Department|bratT17=Organization|bratT18=Organization
-26	Роснефть	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Department|bratT17=Organization|bratT18=Organization
-27	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Department|bratT17=Organization|bratT18=Organization
-28	.	_	_	_	_	_	_	_	_
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Project|bratT19=Product
+13-15	Роснефть-классов	_	_	_	_	_	_	_	SpaceAfter=No
+13	Роснефть	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Project|bratT19=Product|bratT39=Organization
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Project|bratT19=Product
+15	классов	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T19:Project|bratT19=Product
+16	''	_	_	_	_	_	_	_	bratA8=T19:Project|bratT19=Product
+17	экспертами	_	_	_	_	_	_	_	bratT15=Person-property|bratT29=Person
+18	лицея	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT29=Person
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization|bratT29=Person
+20	Сириус	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization|bratT29=Person|bratT31=Location
+21	''	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT29=Person
+22	и	_	_	_	_	_	_	_	_
+23	Корпоративного	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization
+24	научно-проектного	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization
+25	комплекса	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization
+26	компании	_	_	_	_	_	_	_	bratA1=T17:Department|bratT17=Organization|bratT18=Organization
+27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Department|bratT17=Organization|bratT18=Organization
+28	Роснефть	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Department|bratT17=Organization|bratT18=Organization
+29	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T17:Department|bratT17=Organization|bratT18=Organization
+30	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p5-s2
 # text = Среди них: основы нефтегазового дела; IT-технологии (актуальные тенденции внедрения в производство нефтегазовой отрасли, инструменты графического проектирования в AR и VR проектах); инжиниринг (прототипирование и 3Dмоделирование, технологии робототехнических систем).
@@ -246,11 +266,14 @@
 29	(	_	_	_	_	_	_	_	SpaceAfter=No
 30	прототипирование	_	_	_	_	_	_	_	bratT22=Other-term
 31	и	_	_	_	_	_	_	_	_
-32	3Dмоделирование	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Other-term
-33	,	_	_	_	_	_	_	_	_
-34	технологии	_	_	_	_	_	_	_	_
-35	робототехнических	_	_	_	_	_	_	_	_
-36	систем	_	_	_	_	_	_	_	SpaceAfter=No
-37	)	_	_	_	_	_	_	_	SpaceAfter=No
-38	.	_	_	_	_	_	_	_	_
+32-34	3Dмоделирование	_	_	_	_	_	_	_	SpaceAfter=No
+32	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Other-term
+33	D	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Other-term
+34	моделирование	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Other-term
+35	,	_	_	_	_	_	_	_	_
+36	технологии	_	_	_	_	_	_	_	_
+37	робототехнических	_	_	_	_	_	_	_	_
+38	систем	_	_	_	_	_	_	_	SpaceAfter=No
+39	)	_	_	_	_	_	_	_	SpaceAfter=No
+40	.	_	_	_	_	_	_	_	_
 

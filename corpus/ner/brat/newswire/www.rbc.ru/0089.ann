@@ -1,0 +1,53 @@
+T1	Person 0 13	Крашенинников
+T2	Person-property 60 68	депутате
+T3	Organization 247 254	Госдуме
+T4	Person-property 232 240	депутата
+T5	Person 304 401	глава   комитета   Госдумы   по   госстроительству   и   законодательству   Павел   Крашенинников
+T6	Person-property 304 377	глава   комитета   Госдумы   по   госстроительству   и   законодательству
+T7	Organization 312 377	комитета   Госдумы   по   госстроительству   и   законодательству
+A1	Department T7
+T8	Organization 323 330	Госдумы
+T9	Organization 449 453	ТАСС
+A2	Media T9
+T10	Person-property 473 486	парламентария
+T11	Organization 683 701	Совете   Федерации
+T12	GPE 770 790	Краснодарский   край
+T13	Person 810 823	Крашенинников
+T14	Organization 830 837	Госдуме
+T15	Person 960 973	Крашенинников
+T16	Person-property 1025 1033	депутата
+T17	Person-property 1120 1127	депутат
+T18	GPE 1208 1229	Краснодарского   края
+T19	Person 1309 1322	Крашенинников
+T20	Date-absolute 1328 1339	13   ноября
+T21	Person-property 1353 1366	парламентарий
+T22	Organization 1416 1439	``   РИА   Новости   ''
+A3	Media T22
+T23	Organization 1494 1501	Госдумы
+T24	Person-property 1722 1735	парламентарий
+T25	Person-property 1260 1267	депутат
+T26	GPE 76 93	``   Сириуса   ''
+T27	GPE 95 138	Федеральная   территория   ``   Сириус   ''
+T28	GPE 192 212	Краснодарском   крае
+T29	GPE 859 902	федеральная   территория   ``   Сириус   ''
+T30	GPE 1509 1526	``   Сириуса   ''
+T31	GPE 536 552	``   Сириус   ''
+T32	Person-property 1483 1491	депутата
+T33	Person-surname 0 13	Крашенинников
+A4	Male T1
+T34	Person-forename 380 385	Павел
+T35	Person-surname 388 401	Крашенинников
+A5	Male T5
+T36	Person-surname 810 823	Крашенинников
+A6	Male T13
+T37	Person-surname 960 973	Крашенинников
+A7	Male T15
+T38	Nationality 1197 1229	жителями   Краснодарского   края
+A8	Resident T38
+T39	Person-surname 1309 1322	Крашенинников
+A9	Male T19
+A10	Past T20
+T40	Date-relative 1714 1719	тогда
+A11	Past T40
+T41	Quantity 1820 1833	одномандатный
+T42	Law 1583 1624	избирательного   (   законодательства   )

@@ -1,7 +1,7 @@
 T1	Person 29 52	дочери   Оззи   Осборна
 T3	Person 101 182	Дочь   рок-музыканта   Оззи   Осборна   ,   актриса   и   певица   Келли   Осборн
-T4	Person 1053 1059	Осборн
-T5	Person 1518 1532	Келли   Осборн
+T4	Person 1045 1051	Осборн
+T5	Person 1506 1520	Келли   Осборн
 T6	Other-group 92 99	фанатов
 T7	Person-property 108 121	рок-музыканта
 T8	Person-property 145 152	актриса
@@ -9,22 +9,22 @@ T9	Organization 347 359	Daily   Mail
 T11	Age 447 455	36-летия
 T12	Other-group 659 669	Поклонники
 T13	Person-property 720 727	актрисе
-T14	Date-absolute 1387 1406	Ранее   в   октябре
-T15	Person-property 1473 1478	звезд
-T17	Quantity 1621 1642	на   30   килограммов
-T18	Other-term 1752 1760	резекцию
-T19	Other-group 1366 1381	недоброжелатели
+T14	Date-absolute 1375 1394	Ранее   в   октябре
+T15	Person-property 1461 1466	звезд
+T17	Quantity 1609 1630	на   30   килограммов
+T18	Other-term 1740 1748	резекцию
+T19	Other-group 1354 1369	недоброжелатели
 T20	Family 29 35	дочери
 T21	Family 101 105	Дочь
 T22	Person-property 159 165	певица
 A1	Media T9
 T23	Person 38 52	Оззи   Осборна
 T24	Person 108 138	рок-музыканта   Оззи   Осборна
-T2	Date-absolute 804 810	сейчас
+T2	Date-absolute 802 808	сейчас
 A2	Past T14
-T10	Date-period-absolute 1481 1487	2000-х
+T10	Date-period-absolute 1469 1475	2000-х
 A4	Present T2
-T25	Date-relative 1387 1392	Ранее
+T25	Date-relative 1375 1380	Ранее
 A5	Past T10
 A3	Past T25
 T16	Person-forename 38 42	Оззи
@@ -33,12 +33,18 @@ T27	Person-forename 124 128	Оззи
 T28	Person-surname 131 138	Осборна
 T29	Person-forename 168 173	Келли
 T30	Person-surname 176 182	Осборн
-T31	Person-surname 1053 1059	Осборн
-T32	Person-forename 1518 1523	Келли
-T33	Person-surname 1526 1531	Осбор
+T31	Person-surname 1045 1051	Осборн
+T32	Person-forename 1506 1511	Келли
+T33	Person-surname 1514 1519	Осбор
 A6	Female T1
 A7	Male T23
 A8	Male T24
 A9	Female T3
 A10	Female T4
 A11	Female T5
+T34	Event 244 260	споры   в   сети
+T35	Event 404 415	мероприятии
+T39	Event 1729 1758	рукавную   резекцию   желудка
+T40	Event 432 444	празднования
+T36	Person 720 727	актрисе
+A12	Female T36

@@ -1,9 +1,9 @@
-T1	Event 47 69	Универсиады   -   2023
-T2	GPE 76 89	Екатеринбурге
-T3	Person-property 0 14	Девушка-блогер
-T4	Event 167 192	Универсиады   2023   года
+T1	Event 40 67	летней   Универсиады - 2023
+T2	GPE 74 87	Екатеринбурге
+T3	Person-property 10 16	блогер
+T4	Event 158 192	летней   Универсиады   2023   года
 T6	GPE 199 212	Екатеринбурге
-T7	Person-property 91 105	Девушка-блогер
+T7	Person-property 99 105	блогер
 T8	Organization 288 303	Первом   канале
 T9	Person-property 318 343	министр   спорта   России
 T10	GPE 337 343	России
@@ -13,31 +13,28 @@ T13	Person 426 431	Хитти
 T14	Location 551 556	Уралу
 T16	Person 579 583	Ягги
 T17	Person 668 673	Кедри
-T18	Event 768 790	Универсиада   -   2023
-T19	Date-period-absolute 803 828	с   8   по   19   августа
-T20	GPE 833 845	Екатеринбург
-T21	Person 918 925	Матыцин
-T22	Person-property 957 974	министра   спорта
-T23	Date-absolute 977 1003	21   января   этого   года
-T24	Organization 1046 1099	Международной   федерации   университетского   спорта
-T25	Person-property 1032 1114	президентом   Международной   федерации   университетского   спорта   (   FISU   )
+T18	Event 759 786	Летняя   Универсиада - 2023
+T19	Date-period-absolute 799 824	с   8   по   19   августа
+T20	GPE 829 841	Екатеринбург
+T21	Person 914 921	Матыцин
+T22	Person-property 946 970	пост   министра   спорта
+T23	Date-absolute 973 999	21   января   этого   года
+T24	Organization 1042 1095	Международной   федерации   университетского   спорта
+T25	Person-property 1028 1110	президентом   Международной   федерации   университетского   спорта   (   FISU   )
 T27	Person-property 366 376	Функционер
 A1	Media T8
-T5	Organization 1106 1110	FISU
-A4	Fiction T17
-A5	Fiction T16
-A6	Fiction T13
+T5	Organization 1102 1106	FISU
 T28	Date-absolute 181 192	2023   года
 T15	Ordinal 288 294	Первом
 A7	Past T23
-T26	Ordinal 991 996	этого
+T26	Ordinal 987 992	этого
 A8	Fut T19
 T29	Person-forename 346 350	Олег
 T30	Person-surname 353 360	Матыцин
 T31	Person-alias 426 431	Хитти
 T32	Person-alias 579 583	Ягги
 T33	Person-alias 668 673	Кедри
-T34	Person-surname 918 925	Матыцин
+T34	Person-surname 914 921	Матыцин
 A2	Male T11
 A3	Female T13
 A9	Male T21
@@ -45,8 +42,23 @@ T35	Time-absolute 258 266	Вечерний
 T36	Person 269 275	Ургант
 A10	Male T36
 T37	Person-surname 269 275	Ургант
-T38	Date-absolute 65 69	2023
+T38	Date-absolute 63 67	2023
 A11	Future T38
-T40	Date-absolute 786 790	2023
+T40	Date-absolute 782 786	2023
 A12	Future T40
-T42	Quantity 854 866	единственным
+T42	Quantity 850 862	единственным
+T39	Event 896 908	соревнований
+T44	Person 366 376	Функционер
+A13	Male T44
+T45	Person 648 657	Соболенка
+A14	Unconscious T45
+T46	Person 561 566	Оленя
+A4	Unconscious T46
+A5	Unconscious T16
+A15	Unconscious T17
+T47	Person 399 406	девушка
+A6	Male T16
+A16	Male T46
+T48	Time-period 158 164	летней
+T49	Time-period 40 46	летней
+T50	Time-period 759 765	Летняя

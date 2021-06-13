@@ -1,0 +1,104 @@
+T1	Person 0 8	Хэмилтон
+T2	Event 21 46	Гран-при   Эмилии-Романьи
+T3	Person 53 57	Квят
+T4	Ordinal 74 83	четвертым
+T5	Organization 106 125	``   Мерседеса   ''
+T6	Person-property 85 125	Британский   пилот   ``   Мерседеса   ''
+T7	Person 85 144	Британский   пилот   ``   Мерседеса   ''   Льюис   Хэмилтон
+T8	Ordinal 176 181	13-го
+T9	Event 192 226	чемпионата   ``   Формулы - 1   ''
+T10	Event 168 226	гонки   13-го   этапа   чемпионата   ``   Формулы - 1   ''
+T11	Person-property 154 258	победителем   гонки   13-го   этапа   чемпионата   ``   Формулы - 1   ''   -   Гран-при   Эмилии-Романьи
+T12	Ordinal 264 270	Вторым
+T13	GPE 294 299	Имоле
+T14	Facility 278 287	автодроме
+T15	Ordinal 316 322	другой
+T16	Organization 333 352	``   Мерседеса   ''
+T17	Person-property 325 352	пилот   ``   Мерседеса   ''
+T18	Nationality 355 359	финн
+A1	Citizenship T18
+T19	Person 325 380	пилот   ``   Мерседеса   ''   финн   Вальттери   Боттас
+T20	Quantity 397 412	тройку   лучших
+T21	Nationality 415 425	австралиец
+A2	Citizenship T21
+T22	Person 415 446	австралиец   Дэниел   Риккьярдо
+T23	Organization 454 468	``   Рено   ''
+T24	Nationality 474 483	Россиянин
+A3	Citizenship T24
+T25	Person 474 499	Россиянин   Даниил   Квят
+T26	Organization 507 530	``   Альфа   Таури   ''
+T27	Date-absolute 552 567	в   воскресенье
+T28	Ordinal 574 581	восьмой
+T29	Ordinal 606 615	четвертое
+T30	Date-period-absolute 771 789	Во   время   гонки
+T31	Person-property 1055 1075	олдскульный   гонщик
+T32	Person 1160 1165	Квята
+T33	Organization 1168 1186	Motorsport-Magazin
+A4	Media T33
+T34	Organization 1212 1230	``   Мерседес   ''
+T35	Ordinal 1270 1277	седьмой
+T37	Person 1332 1340	Хэмилтон
+T38	Quantity 1347 1350	282
+T39	Ordinal 1406 1412	Вторым
+T40	Person 1422 1428	Боттас
+T41	Quantity 1435 1438	197
+T42	Quantity 1460 1475	на   85   очков
+T43	Ordinal 1487 1494	третьем
+T44	Nationality 1517 1528	нидерландец
+A5	Citizenship T44
+T45	Person 1517 1548	нидерландец   Макс   Ферстаппен
+T46	Quantity 1555 1558	162
+T47	Organization 1570 1590	``   Ред   Булл   ''
+T48	Ordinal 1646 1655	Следующий
+T49	GPE 1705 1711	Турции
+T50	Date-period-absolute 1714 1739	с   12   по   15   ноября
+T51	Event 1665 1686	``   Формулы - 1   ''
+A6	Male T1
+T52	Person-surname 0 8	Хэмилтон
+T53	Person-surname 53 57	Квят
+A7	Male T3
+T54	GPE 85 95	Британский
+A8	Adjective T54
+T55	Person-forename 128 133	Льюис
+T56	Person-surname 136 144	Хэмилтон
+A9	Male T7
+A11	Male T19
+T60	Person-forename 362 371	Вальттери
+T61	Person-surname 374 380	Боттас
+A12	Male T22
+T62	Person-forename 428 434	Дэниел
+T63	Person-surname 437 446	Риккьярдо
+A14	Male T25
+T65	Person-forename 486 492	Даниил
+T66	Person-surname 495 499	Квят
+T68	Person-surname 1160 1165	Квята
+A16	Male T32
+A17	Past T30
+A18	Past T27
+T69	Ordinal 672 679	текущем
+A19	Male T37
+T70	Person-surname 1332 1340	Хэмилтон
+T71	Person-surname 1422 1428	Боттас
+A20	Male T40
+T72	Quantity 1606 1608	26
+T73	Ordinal 1626 1630	13-ю
+T74	Person-surname 1595 1599	Квят
+T75	Person 1595 1599	Квят
+A21	Male T75
+A22	Male T45
+T76	Person-forename 1531 1535	Макс
+T77	Person-surname 1538 1548	Ферстаппен
+A24	Fut T50
+T57	Event 784 789	гонки
+T36	Other-term 1305 1326	Кубок   конструкторов
+T58	Event 672 688	текущем   сезоне
+T59	Date-period-absolute 668 688	в   текущем   сезоне
+A10	Past-Pres T59
+T64	Ordinal 1680 1681	1
+T78	Ordinal 220 221	1
+T80	GPE 244 258	Эмилии-Романьи
+T67	Event 205 226	``   Формулы - 1   ''
+T79	GPE 32 46	Эмилии-Романьи
+T81	Event 1646 1686	Следующий   этап   ``   Формулы - 1   ''
+T82	Event 233 258	Гран-при   Эмилии-Романьи
+T83	Event 176 226	13-го   этапа   чемпионата   ``   Формулы - 1   ''

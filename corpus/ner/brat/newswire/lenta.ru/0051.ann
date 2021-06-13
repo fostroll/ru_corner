@@ -1,48 +1,60 @@
 T2	GPE 19 26	Франции
-T4	Other-term 99 124	коронавируса   SARS-CoV-2
+T4	Other-term 99 128	коронавируса   SARS - CoV - 2
 T5	Other-term 48 60	коронавируса
-T7	GPE 170 177	Франция
-T8	Event 195 218	эпидемии   коронавируса
-T9	Person-property 291 325	министр   здравоохранения   страны
-T10	Person 291 342	министр   здравоохранения   страны   Оливье   Веран
-T11	Organization 360 382	портал   Paris   Match
-T12	Other-term 405 413	локдауну
-T13	Date-absolute 443 452	в   марте
-T14	Duration 510 523	десять   дней
-T15	Person-property 615 623	министра
-T16	Person 629 634	Веран
-T17	Date-absolute 1023 1034	в   октябре
-T18	GPE 1013 1020	Франции
-T19	Other-term 1060 1073	коронавирусом
-T21	Organization 1547 1576	института   Джонса   Хопкинса
-T22	Quantity 1612 1641	1,9   миллиона   заразившихся
-T23	Quantity 1648 1683	42,6   тысячи   летальных   исходов
-T24	Other-term 1706 1714	COVID-19
+T7	GPE 174 181	Франция
+T8	Event 199 222	эпидемии   коронавируса
+T9	Person-property 295 329	министр   здравоохранения   страны
+T10	Person 295 346	министр   здравоохранения   страны   Оливье   Веран
+T11	Organization 364 386	портал   Paris   Match
+T12	Event 409 417	локдауну
+T13	Date-absolute 447 456	в   марте
+T14	Duration 514 527	десять   дней
+T15	Person-property 619 627	министра
+T16	Person 633 638	Веран
+T17	Date-absolute 1027 1038	в   октябре
+T18	GPE 1017 1024	Франции
+T19	Other-term 1064 1077	коронавирусом
+T21	Organization 1551 1580	института   Джонса   Хопкинса
+T22	Quantity 1616 1645	1,9   миллиона   заразившихся
+T23	Quantity 1652 1687	42,6   тысячи   летальных   исходов
+T24	Other-term 1710 1720	COVID - 19
 A1	Media T11
-T1	Event 1091 1123	второй   национальный   карантин
-T3	Event 714 723	эпидемией
-T20	Ordinal 1091 1097	второй
-T25	Ordinal 946 956	следующего
-T26	Date-absolute 933 963	в   начале   следующего   года
-T27	Other-term 206 218	коронавируса
+T1	Event 1095 1127	второй   национальный   карантин
+T3	Event 718 727	эпидемией
+T20	Ordinal 1095 1101	второй
+T25	Ordinal 950 960	следующего
+T26	Date-absolute 937 967	в   начале   следующего   года
+T27	Other-term 210 222	коронавируса
 A2	Past T13
 A3	Past T17
-T6	Date-period-absolute 510 532	десять   дней   подряд
+T6	Date-period-absolute 514 536	десять   дней   подряд
 A5	Future T26
-T28	Time-relative 1250 1269	В   то   же   время
-T29	Date-absolute 1457 1485	к   рождественскому   сезону
+T28	Time-relative 1254 1273	В   то   же   время
+T29	Date-absolute 1461 1489	к   рождественскому   сезону
 A6	Future T29
-T30	Event 1461 1485	рождественскому   сезону
+T30	Event 1465 1489	рождественскому   сезону
 A4	RCont T6
 A7	Past-Pres T6
-T31	Quantity 890 930	три   или   четыре   французских   фирмы
-T32	GPE 911 922	французских
-T33	Other-term 995 1002	вакцины
-T34	Person 1559 1576	Джонса   Хопкинса
-T35	Person-forename 328 334	Оливье
-T36	Person-surname 337 342	Веран
-T37	Person-surname 629 634	Веран
-T38	Person-forename 1559 1565	Джонса
-T39	Person-surname 1568 1576	Хопкинса
+T31	Quantity 894 934	три   или   четыре   французских   фирмы
+T32	GPE 915 926	французских
+T33	Other-term 999 1006	вакцины
+T34	Person 1563 1580	Джонса   Хопкинса
+T35	Person-forename 332 338	Оливье
+T36	Person-surname 341 346	Веран
+T37	Person-surname 633 638	Веран
+T38	Person-forename 1563 1569	Джонса
+T39	Person-surname 1572 1580	Хопкинса
 A8	Adjective T32
 A9	Male T34
+T40	Event 0 8	Карантин
+T41	Event 81 128	новых   случаев   коронавируса   SARS - CoV - 2
+T42	Event 547 562	новых   случаев
+T43	Person-surname 127 128	2
+T45	Cardinal 1718 1720	19
+T44	GPE 373 378	Paris
+T46	Person 619 627	министра
+T47	Event 1363 1385	ограничительные   меры
+T48	Organization 664 679	власти   страны
+T49	Person-property 1282 1291	политиков
+T50	Person-property 1298 1307	экспертов
+T51	Event 1403 1428	снижению   заболеваемости

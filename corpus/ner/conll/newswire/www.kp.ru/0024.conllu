@@ -55,7 +55,7 @@
 32	одним	_	_	_	_	_	_	_	bratT14=Quantity
 33	из	_	_	_	_	_	_	_	bratT14=Quantity
 34	символов	_	_	_	_	_	_	_	_
-35	зимних	_	_	_	_	_	_	_	bratT15=Event
+35	зимних	_	_	_	_	_	_	_	bratT15=Event|bratT23=Time-period
 36	праздников	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Event
 37	.	_	_	_	_	_	_	_	_
 
@@ -126,24 +126,27 @@
 # text = На вопросы kp.ru по поводу аллергии на мандарины ответила провизор, преподаватель фармакологии, главный редактор МедКорр Зорина Ольга.
 1	На	_	_	_	_	_	_	_	_
 2	вопросы	_	_	_	_	_	_	_	_
-3	kp.ru	_	_	_	_	_	_	_	bratA1=T6:Media|bratT6=Organization
-4	по	_	_	_	_	_	_	_	_
-5	поводу	_	_	_	_	_	_	_	_
-6	аллергии	_	_	_	_	_	_	_	_
-7	на	_	_	_	_	_	_	_	_
-8	мандарины	_	_	_	_	_	_	_	_
-9	ответила	_	_	_	_	_	_	_	_
-10	провизор	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT7=Person-property
-11	,	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person
-12	преподаватель	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT8=Person-property
-13	фармакологии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT8=Person-property
-14	,	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person
-15	главный	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Person-property|bratT11=Person
-16	редактор	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Person-property|bratT11=Person
-17	МедКорр	_	_	_	_	_	_	_	bratA2=T9:Media|bratA3=T11:Male|bratT10=Person-property|bratT11=Person|bratT9=Organization
-18	Зорина	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT21=Person-surname
-19	Ольга	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT22=Person-forename
-20	.	_	_	_	_	_	_	_	_
+3-5	kp.ru	_	_	_	_	_	_	_	_
+3	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT24=Web-address|bratT6=Organization
+4	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T6:Media|bratT24=Web-address|bratT6=Organization
+5	ru	_	_	_	_	_	_	_	bratA1=T6:Media|bratT24=Web-address|bratT6=Organization
+6	по	_	_	_	_	_	_	_	_
+7	поводу	_	_	_	_	_	_	_	_
+8	аллергии	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	мандарины	_	_	_	_	_	_	_	_
+11	ответила	_	_	_	_	_	_	_	_
+12	провизор	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT7=Person-property
+13	,	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person
+14	преподаватель	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT8=Person-property
+15	фармакологии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT8=Person-property
+16	,	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person
+17	главный	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Person-property|bratT11=Person
+18	редактор	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Person-property|bratT11=Person
+19	МедКорр	_	_	_	_	_	_	_	bratA2=T9:Media|bratA3=T11:Male|bratT10=Person-property|bratT11=Person|bratT9=Organization
+20	Зорина	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT21=Person-surname
+21	Ольга	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT22=Person-forename
+22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0024-p4-s2
 # text = Она рассказала, чем можно заменить эти плоды.

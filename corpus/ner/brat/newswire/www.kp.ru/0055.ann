@@ -5,36 +5,36 @@ T4	Person-property 137 156	Известные   артисты
 T5	Person 305 327	актер   Камиль   Ларин
 T6	Organization 352 373	``   Квартет   И   ''
 T8	Person 647 668	Михаила   Михайловича
-T9	Organization 683 740	``   Студия   под   руководством   М.М.   Жванецкого   ''
-T10	Organization 783 823	радио   ``   Комсомольская   правда   ''
+T9	Organization 683 743	``   Студия   под   руководством   М.   М.   Жванецкого   ''
+T10	Organization 786 826	радио   ``   Комсомольская   правда   ''
 A1	Media T10
-T11	Person-property 921 928	артисты
-T12	Person 1077 1086	Жванецкий
-T13	Duration 1150 1162	семь   минут
-T14	Person-property 1199 1208	директору
-T15	Person-property 1340 1345	актер
-T16	Person-property 1382 1391	сатириком
-T17	Person 1397 1402	Ларин
-T18	Person 1414 1424	Жванецкого
-T19	Person-property 1533 1539	актера
-T20	Person 1645 1663	Михаил   Жванецкий
-T21	Date-absolute 1678 1688	6   ноября
-T22	Age 1691 1708	на   67-ом   году
-T23	Person-property 1754 1761	сатирик
-T24	Person 1959 1968	Жванецкий
+T11	Person-property 924 931	артисты
+T12	Person 1080 1089	Жванецкий
+T13	Duration 1153 1165	семь   минут
+T14	Person-property 1202 1211	директору
+T15	Person-property 1343 1348	актер
+T16	Person-property 1385 1394	сатириком
+T17	Person 1400 1405	Ларин
+T18	Person 1417 1427	Жванецкого
+T19	Person-property 1536 1542	актера
+T20	Person 1648 1666	Михаил   Жванецкий
+T21	Date-absolute 1681 1691	6   ноября
+T22	Age 1694 1719	на   67-ом   году   жизни
+T23	Person-property 1757 1764	сатирик
+T24	Person 1962 1971	Жванецкий
 T25	Organization 114 135	``   Квартет   И   ''
-T26	Person 1277 1282	Ларин
-T27	Person-property 763 768	актер
-T28	Date-absolute 1721 1751	В   начале   прошлого   месяца
+T26	Person 1280 1285	Ларин
+T27	Person-property 766 771	актер
+T28	Date-absolute 1724 1754	В   начале   прошлого   месяца
 T29	Person-property 305 310	актер
-T30	Date-relative 1324 1337	после   этого
-T31	Date-relative 1833 1846	После   этого
-T32	Date-relative 969 974	потом
-T33	Date-relative 1173 1178	потом
-T35	Ordinal 1696 1701	67-ом
-T34	Date-period-absolute 1150 1162	семь   минут
+T30	Date-relative 1327 1340	после   этого
+T31	Date-relative 1836 1849	После   этого
+T32	Date-relative 972 977	потом
+T33	Date-relative 1176 1181	потом
+T35	Ordinal 1699 1704	67-ом
+T34	Date-period-absolute 1153 1165	семь   минут
 A2	Past T34
-T36	Ordinal 1734 1742	прошлого
+T36	Ordinal 1737 1745	прошлого
 A3	Past T28
 A4	Past T31
 A5	Past T32
@@ -51,13 +51,13 @@ T43	Person-surname 322 327	Ларин
 T44	Person-surname 422 432	Жванецкому
 T45	Person-forename 647 654	Михаила
 T46	Person-patronym 657 668	Михайловича
-T47	Person-surname 1077 1086	Жванецкий
-T48	Person-surname 1277 1282	Ларин
-T49	Person-surname 1397 1402	Ларин
-T50	Person-surname 1414 1424	Жванецкого
-T51	Person-forename 1645 1651	Михаил
-T52	Person-surname 1654 1663	Жванецкий
-T53	Person-surname 1959 1968	Жванецкий
+T47	Person-surname 1080 1089	Жванецкий
+T48	Person-surname 1280 1285	Ларин
+T49	Person-surname 1400 1405	Ларин
+T50	Person-surname 1417 1427	Жванецкого
+T51	Person-forename 1648 1654	Михаил
+T52	Person-surname 1657 1666	Жванецкий
+T53	Person-surname 1962 1971	Жванецкий
 A9	Male T1
 A10	Male T2
 A11	Male T3
@@ -69,3 +69,8 @@ A17	Male T17
 A18	Male T18
 A19	Male T20
 A20	Male T24
+T7	Person 718 738	М.   М.   Жванецкого
+A13	Male T7
+T54	Person-initial 718 720	М.
+T55	Person-surname 728 738	Жванецкого
+T56	Person-initial 723 725	М.

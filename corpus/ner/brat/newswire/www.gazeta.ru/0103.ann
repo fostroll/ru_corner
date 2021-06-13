@@ -1,18 +1,18 @@
 T1	Person 0 9	Косторная
 T2	Person 70 113	Российская   фигуристка   Алена   Косторная
 T3	Person-property 70 93	Российская   фигуристка
-T4	Organization 190 213	``   Чемпионат.com   ''
+T4	Organization 190 215	``   Чемпионат . com   ''
 A1	Media T4
-T5	Date-absolute 234 245	21   ноября
-T6	Event 293 310	Гран-при   России
-T7	Ordinal 271 277	второе
-T8	Person 566 575	Косторная
-T9	Person 588 611	Елизавета   Туктамышева
-T11	Event 657 674	Гран-при   России
-T12	GPE 668 674	России
-T13	Person-property 248 259	спортсменка
-T14	GPE 304 310	России
-T15	Date-relative 580 585	Ранее
+T5	Date-absolute 236 247	21   ноября
+T6	Event 295 312	Гран-при   России
+T7	Ordinal 273 279	второе
+T8	Person 568 577	Косторная
+T9	Person 590 613	Елизавета   Туктамышева
+T11	Event 659 676	Гран-при   России
+T12	GPE 670 676	России
+T13	Person-property 250 261	спортсменка
+T14	GPE 306 312	России
+T15	Date-relative 582 587	Ранее
 A2	Past T5
 A3	Past T15
 T16	Person-surname 0 9	Косторная
@@ -20,11 +20,11 @@ A4	Female T1
 T17	Person-forename 96 101	Алена
 T18	Person-surname 104 113	Косторная
 A5	Female T2
-T19	Person-surname 566 575	Косторная
+T19	Person-surname 568 577	Косторная
 A6	Female T8
-T20	Person-forename 588 597	Елизавета
-T21	Person-surname 600 611	Туктамышева
+T20	Person-forename 590 599	Елизавета
+T21	Person-surname 602 613	Туктамышева
 A7	Female T9
 T22	GPE 70 80	Российская
 A8	Adjective T22
-T23	Time-period 450 464	Каждый   вечер
+T23	Time-period 452 466	Каждый   вечер

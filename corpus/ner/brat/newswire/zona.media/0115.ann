@@ -1,0 +1,104 @@
+T1	Person 0 65	Администратор   паблика   ``   Омбудсмен   полиции   ''   Худяков
+A1	Male T1
+T2	Person-property 0 55	Администратор   паблика   ``   Омбудсмен   полиции   ''
+T3	Service 16 55	паблика   ``   Омбудсмен   полиции   ''
+A2	Media T3
+T4	Person-surname 58 65	Худяков
+T5	GPE 124 130	Москве
+T6	Person 133 206	администратор   паблика   ``   Омбудсмен   полиции   ''   Игорь   Худяков
+A3	Male T6
+T7	Person-property 133 188	администратор   паблика   ``   Омбудсмен   полиции   ''
+T8	Service 149 188	паблика   ``   Омбудсмен   полиции   ''
+A4	Media T8
+T9	Person-forename 191 196	Игорь
+T10	Person-surname 199 206	Худяков
+T11	Date-absolute 262 279	после   смягчения
+T12	Organization 309 328	``   Интерфакс   ''
+A5	Media T12
+T13	Person 351 379	адвоката   Максима   Пашкова
+A6	Male T13
+T14	Person-property 351 359	адвоката
+T15	Person-forename 362 369	Максима
+T16	Person-surname 372 379	Пашкова
+T17	Date-absolute 390 407	После   смягчения
+T18	Law 426 455	части   3   статьи   242   УК
+T19	Law 552 581	часть   1   cтатьи   242   УК
+T20	Person-property 630 641	подзащитный
+T21	Person 747 753	Пашков
+A7	Male T21
+T22	Person-surname 747 753	Пашков
+T23	Date-absolute 759 767	Накануне
+A8	Past T23
+T24	Person 770 778	Худякова
+A9	Male T24
+T25	Person-surname 770 778	Худякова
+T27	Person 883 889	Пашков
+A10	Male T27
+T28	Person-surname 883 889	Пашков
+T29	Person-property 895 902	Адвокат
+T30	Organization 915 919	ТАСС
+A11	Media T30
+T31	Person-property 938 949	подзащитный
+T32	Person 986 1079	основателя   правозащитного   проекта   ``   Омбудсмен   полиции   ''   Владимира   Воронцова
+A12	Male T32
+T33	Person-property 986 1055	основателя   правозащитного   проекта   ``   Омбудсмен   полиции   ''
+T34	Service 999 1055	правозащитного   проекта   ``   Омбудсмен   полиции   ''
+A13	Media T34
+T35	Person-forename 1058 1067	Владимира
+T36	Person-surname 1070 1079	Воронцова
+T37	Person-surname 1084 1090	Пашков
+T38	Person 1084 1090	Пашков
+A14	Male T38
+T39	Date-relative 1165 1178	через   месяц
+T40	Duration 1173 1178	месяц
+T41	Date-absolute 1184 1191	В   мае
+A16	Past T41
+T42	Person 1194 1232	бывшего   сотрудника   ФСИН   Худякова
+A17	Male T42
+T43	Person-property 1194 1221	бывшего   сотрудника   ФСИН
+T44	Organization 1217 1221	ФСИН
+T45	Person-surname 1224 1232	Худякова
+T46	GPE 1254 1261	Вологды
+T47	GPE 1268 1274	Москву
+T49	Person 1336 1376	Подельником   Худякова   стал   Воронцов
+A18	Male T49
+T50	Person-property 1336 1358	Подельником   Худякова
+T51	Person 1350 1358	Худякова
+A19	Male T51
+T52	Person-surname 1350 1358	Худякова
+T53	Person-surname 1368 1376	Воронцов
+T54	Person-property 1411 1420	активисты
+T55	Person 1540 1548	Воронцов
+A20	Male T55
+T56	Person-surname 1540 1548	Воронцов
+T57	Date-period-absolute 1559 1566	с   мая
+T59	Law 1625 1654	часть   2   статьи   163   УК
+T60	Quantity 1699 1721	семь   уголовных   дел
+T61	Quantity 1773 1784	одному   из
+T63	Time-absolute 1808 1817	в   23:42
+T64	Person 1859 1866	Пашкова
+A23	Male T64
+T65	Person-surname 1859 1866	Пашкова
+T66	Organization 1869 1873	ТАСС
+A24	Media T66
+A25	Past T11
+A26	Past T17
+T67	Ordinal 434 435	3
+T68	Ordinal 447 450	242
+T69	Law 453 455	УК
+T70	Ordinal 560 561	1
+T71	Ordinal 573 576	242
+T72	Law 579 581	УК
+A21	Past-Pres T57
+A27	RCont T57
+T26	Ordinal 1633 1634	2
+T48	Ordinal 1646 1649	163
+T58	Law 1652 1654	УК
+T62	Quantity 704 714	одном   из
+T73	Organization 1043 1050	полиции
+T74	Organization 176 183	полиции
+T75	Organization 43 50	полиции
+T76	Date-absolute 1808 1817	в   23:42
+A22	Present T76
+A15	Future T39
+T77	Service 1442 1450	соцсетях

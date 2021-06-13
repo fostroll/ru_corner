@@ -42,9 +42,9 @@
 5	кадры	_	_	_	_	_	_	_	_
 6	обратили	_	_	_	_	_	_	_	_
 7	внимание	_	_	_	_	_	_	_	_
-8	журналисты	_	_	_	_	_	_	_	bratT3=Person-property
-9	The	_	_	_	_	_	_	_	bratA1=T2:Media|bratT2=Organization|bratT3=Person-property
-10	Sun	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Media|bratT2=Organization|bratT3=Person-property
+8	журналисты	_	_	_	_	_	_	_	bratT3=Person-property|bratT41=Person
+9	The	_	_	_	_	_	_	_	bratA1=T2:Media|bratT2=Organization|bratT3=Person-property|bratT41=Person
+10	Sun	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Media|bratT2=Organization|bratT3=Person-property|bratT41=Person
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0038-p3
@@ -69,7 +69,7 @@
 # text = В своих соцсетях она продемонстрировала черное платье собственного бренда Victoria Beckham, которое оформлено вырезом в зоне декольте в форме с замочной скважины.
 1	В	_	_	_	_	_	_	_	_
 2	своих	_	_	_	_	_	_	_	_
-3	соцсетях	_	_	_	_	_	_	_	_
+3	соцсетях	_	_	_	_	_	_	_	bratA10=T39:Media|bratT39=Service
 4	она	_	_	_	_	_	_	_	_
 5	продемонстрировала	_	_	_	_	_	_	_	_
 6	черное	_	_	_	_	_	_	_	_
@@ -181,8 +181,8 @@
 1	Тренд	_	_	_	_	_	_	_	bratT15=Other-term
 2	поддержали	_	_	_	_	_	_	_	_
 3	и	_	_	_	_	_	_	_	_
-4	британские	_	_	_	_	_	_	_	bratT16=Person-property|bratT27=GPE
-5	телеведущие	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property
+4	британские	_	_	_	_	_	_	_	bratT16=Person-property|bratT27=GPE|bratT42=Person
+5	телеведущие	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT42=Person
 6	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0038-p5-s2
@@ -217,8 +217,8 @@
 # text = При этом ее коллега Майя Джама сфотографировалась в темно-коричневом шелковом платье, которое оформлено широким вырезом на талии.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	ее	_	_	_	_	_	_	_	_
-4	коллега	_	_	_	_	_	_	_	_
+3	ее	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person
+4	коллега	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person|bratT40=Person-property
 5	Майя	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person|bratT36=Person-forename
 6	Джама	_	_	_	_	_	_	_	bratA9=T21:Female|bratT21=Person|bratT37=Person-surname
 7	сфотографировалась	_	_	_	_	_	_	_	_

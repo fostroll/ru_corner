@@ -6,7 +6,7 @@
 1	Путин	_	_	_	_	_	_	_	bratA8=T1:Male|bratT1=Person|bratT16=Person-surname
 2	утвердил	_	_	_	_	_	_	_	_
 3	Стратегию	_	_	_	_	_	_	_	bratA4=T2:Project|bratT2=Product
-4	государственной	_	_	_	_	_	_	_	bratA4=T2:Project|bratT2=Product
+4	государственной	_	_	_	_	_	_	_	bratA12=T21:Adjective|bratA4=T2:Project|bratT2=Product|bratT21=GPE
 5	антинаркотической	_	_	_	_	_	_	_	bratA4=T2:Project|bratT2=Product
 6	политики	_	_	_	_	_	_	_	bratA4=T2:Project|bratT2=Product
 
@@ -20,7 +20,7 @@
 4	Путин	_	_	_	_	_	_	_	bratA10=T12:Male|bratT12=Person|bratT19=Person-surname
 5	утвердил	_	_	_	_	_	_	_	_
 6	Стратегию	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
-7	государственной	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
+7	государственной	_	_	_	_	_	_	_	bratA13=T22:Adjective|bratA3=T13:Project|bratT13=Product|bratT22=GPE
 8	антинаркотической	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
 9	политики	_	_	_	_	_	_	_	bratA3=T13:Project|bratT13=Product
 10	на	_	_	_	_	_	_	_	_
@@ -55,9 +55,9 @@
 6	на	_	_	_	_	_	_	_	_
 7	тему	_	_	_	_	_	_	_	_
 8	совершенствования	_	_	_	_	_	_	_	_
-9	государственной	_	_	_	_	_	_	_	_
-10	антинаркотической	_	_	_	_	_	_	_	_
-11	политики	_	_	_	_	_	_	_	_
+9	государственной	_	_	_	_	_	_	_	bratA14=T23:Adjective|bratA15=T24:Project|bratT23=GPE|bratT24=Product
+10	антинаркотической	_	_	_	_	_	_	_	bratA15=T24:Project|bratT24=Product
+11	политики	_	_	_	_	_	_	_	bratA15=T24:Project|bratT24=Product
 12	в	_	_	_	_	_	_	_	_
 13	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
 14	.	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 13	составили	_	_	_	_	_	_	_	_
 14	рейтинг	_	_	_	_	_	_	_	_
 15	регионов	_	_	_	_	_	_	_	_
-16	страны	_	_	_	_	_	_	_	_
+16	страны	_	_	_	_	_	_	_	bratT25=GPE
 17	по	_	_	_	_	_	_	_	_
 18	степени	_	_	_	_	_	_	_	_
 19	результативности	_	_	_	_	_	_	_	_

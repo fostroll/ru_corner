@@ -1,0 +1,64 @@
+T1	Person-property 0 24	Майора   из   Петербурга
+T2	GPE 14 24	Петербурга
+T3	Date-period-relative 41 54	к   8   годам
+T4	Duration 45 54	8   годам
+T5	Person-property 86 93	военных
+T6	GPE 133 138	Сирии
+T7	Organization 140 183	Петербургский   гарнизонный   военный   суд
+T8	GPE 140 153	Петербургский
+A1	Adjective T8
+T9	Date-period-relative 199 217	к   восьми   годам
+T10	Duration 203 217	восьми   годам
+T11	Person 248 294	майора   вооруженных   сил   Николая   Заикина
+A2	Male T11
+T12	Person-property 248 274	майора   вооруженных   сил
+T13	Person-forename 277 284	Николая
+T14	Person-surname 287 294	Заикина
+T16	Person-property 328 334	солдат
+T17	Person-property 341 349	офицеров
+T18	GPE 389 394	Сирии
+T19	Organization 422 455	пресс-служба   судов   Петербурга
+A4	Media T19
+T20	GPE 445 455	Петербурга
+T21	Person 461 467	Заикин
+A5	Male T21
+T22	Person-surname 461 467	Заикин
+T23	Person-property 510 524	военнослужащих
+T24	GPE 558 563	Сирию
+T25	Person 649 681	офицером   Антоном   Даниловским
+A6	Male T25
+T26	Person-property 649 657	офицером
+T27	Person-forename 660 667	Антоном
+T28	Person-surname 670 681	Даниловским
+T30	Person-property 770 776	солдат
+T31	Person-property 783 791	офицеров
+T32	Person 832 838	Заикин
+A8	Male T32
+T33	Person-surname 832 838	Заикин
+T35	Person-property 904 910	солдат
+T36	Person-property 917 926	сержантов
+T37	Person-property 933 944	прапорщиков
+T38	Person 973 985	Даниловскому
+A10	Male T38
+T39	Person-surname 973 985	Даниловскому
+T40	Money 1043 1065	по   15   000   рублей
+T41	Person-property 1077 1085	офицеров
+T42	Money 1092 1114	по   50   000   рублей
+T43	Person-property 1202 1209	военные
+T44	Date-period-absolute 1229 1267	с   марта   по   декабрь   2018   года
+A11	Past T44
+T45	Money 1298 1318	280   тысяч   рублей
+T46	Quantity 1326 1343	пятерых   человек
+T47	Quantity 1406 1429	пятерых   взяткодателей
+T48	Other-group 1416 1429	взяткодателей
+T49	GPE 1468 1473	Сирию
+T50	Organization 1486 1506	``   Коммерсант   ''
+A12	Media T50
+T51	Date-relative 1478 1483	Ранее
+T52	Organization 1545 1547	СК
+T53	Person-property 1554 1561	офицеры
+T54	Money 1575 1595	340   тысяч   рублей
+T56	Organization 1388 1392	суда
+A3	Past-Fut T3
+A7	Past-Fut T9
+A9	Past T51

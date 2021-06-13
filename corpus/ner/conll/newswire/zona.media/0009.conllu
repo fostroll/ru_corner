@@ -1,0 +1,228 @@
+# newdoc id = 0009
+# newpar id = 0009-p1
+# par_text = В Ессентуках арестовали семерых сотрудников университета МВД по делу о преступном сообществе
+# sent_id = 0009-p1-s1
+# text = В Ессентуках арестовали семерых сотрудников университета МВД по делу о преступном сообществе
+1	В	_	_	_	_	_	_	_	bratT1=GPE
+2	Ессентуках	_	_	_	_	_	_	_	bratT1=GPE
+3	арестовали	_	_	_	_	_	_	_	_
+4	семерых	_	_	_	_	_	_	_	bratT3=Quantity
+5	сотрудников	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Quantity
+6	университета	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization
+7	МВД	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization
+8	по	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	преступном	_	_	_	_	_	_	_	_
+12	сообществе	_	_	_	_	_	_	_	_
+
+# newpar id = 0009-p2
+# par_text = Ессентукский городской суд Ставрополья 13 и 14 августа арестовал семерых сотрудников регионального филиала Краснодарского университета МВД. Об этом «Интерфаксу» сообщили в управлении Генпрокуратуры по Северо-кавказскому и Южному федеральным округам.
+# sent_id = 0009-p2-s1
+# text = Ессентукский городской суд Ставрополья 13 и 14 августа арестовал семерых сотрудников регионального филиала Краснодарского университета МВД.
+1	Ессентукский	_	_	_	_	_	_	_	bratA1=T6:Adjective|bratT5=Organization|bratT6=GPE
+2	городской	_	_	_	_	_	_	_	bratA1=T6:Adjective|bratT5=Organization|bratT6=GPE
+3	суд	_	_	_	_	_	_	_	bratT5=Organization
+4	Ставрополья	_	_	_	_	_	_	_	bratT5=Organization|bratT7=GPE
+5	13	_	_	_	_	_	_	_	bratA2=T8:Past|bratT8=Date-absolute
+6	и	_	_	_	_	_	_	_	bratA2=T8:Past|bratT8=Date-absolute
+7	14	_	_	_	_	_	_	_	bratA2=T8:Past|bratT8=Date-absolute
+8	августа	_	_	_	_	_	_	_	bratA2=T8:Past|bratT8=Date-absolute
+9	арестовал	_	_	_	_	_	_	_	_
+10	семерых	_	_	_	_	_	_	_	bratT13=Quantity
+11	сотрудников	_	_	_	_	_	_	_	bratT13=Quantity|bratT9=Person-property
+12	регионального	_	_	_	_	_	_	_	bratA7=T21:Adjective|bratT10=Organization|bratT21=GPE|bratT9=Person-property
+13	филиала	_	_	_	_	_	_	_	bratT10=Organization|bratT9=Person-property
+14	Краснодарского	_	_	_	_	_	_	_	bratA4=T12:Adjective|bratT10=Organization|bratT11=Organization|bratT12=GPE|bratT9=Person-property
+15	университета	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Organization|bratT9=Person-property
+16	МВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT11=Organization|bratT9=Person-property
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0009-p2-s2
+# text = Об этом «Интерфаксу» сообщили в управлении Генпрокуратуры по Северо-кавказскому и Южному федеральным округам.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA5=T14:Media|bratT14=Organization
+4	Интерфаксу	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T14:Media|bratT14=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA5=T14:Media|bratT14=Organization
+6	сообщили	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	управлении	_	_	_	_	_	_	_	bratT15=Organization
+9	Генпрокуратуры	_	_	_	_	_	_	_	bratT15=Organization
+10	по	_	_	_	_	_	_	_	bratT15=Organization
+11	Северо-кавказскому	_	_	_	_	_	_	_	bratA6=T16:Plural|bratT15=Organization|bratT16=GPE|bratT17=GPE
+12	и	_	_	_	_	_	_	_	bratA6=T16:Plural|bratT15=Organization|bratT16=GPE
+13	Южному	_	_	_	_	_	_	_	bratA6=T16:Plural|bratT15=Organization|bratT16=GPE|bratT18=GPE
+14	федеральным	_	_	_	_	_	_	_	bratA6=T16:Plural|bratT15=Organization|bratT16=GPE
+15	округам	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T16:Plural|bratT15=Organization|bratT16=GPE
+16	.	_	_	_	_	_	_	_	SpaceAfter=No
+
+# newpar id = 0009-p3
+# par_text = Их обвинили в участии в преступном сообществе и получении за три учебных семестра с января 2019 года по июль 2020 года более 2 млн рублей от слушателей филиала за допуск к сессиям и сдачу экзаменов (части 2,3 статья 210, часть 6 статья 290 УК).
+# sent_id = 0009-p3-s1
+# text = Их обвинили в участии в преступном сообществе и получении за три учебных семестра с января 2019 года по июль 2020 года более 2 млн рублей от слушателей филиала за допуск к сессиям и сдачу экзаменов (части 2,3 статья 210, часть 6 статья 290 УК).
+1	Их	_	_	_	_	_	_	_	_
+2	обвинили	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	участии	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	преступном	_	_	_	_	_	_	_	_
+7	сообществе	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	получении	_	_	_	_	_	_	_	_
+10	за	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+11	три	_	_	_	_	_	_	_	bratA22=T23:Past|bratT22=Quantity|bratT23=Date-period-absolute
+12	учебных	_	_	_	_	_	_	_	bratA22=T23:Past|bratT22=Quantity|bratT23=Date-period-absolute
+13	семестра	_	_	_	_	_	_	_	bratA22=T23:Past|bratT22=Quantity|bratT23=Date-period-absolute
+14	с	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+15	января	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+16	2019	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+17	года	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+18	по	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+19	июль	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+20	2020	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+21	года	_	_	_	_	_	_	_	bratA22=T23:Past|bratT23=Date-period-absolute
+22	более	_	_	_	_	_	_	_	bratT24=Money
+23	2	_	_	_	_	_	_	_	bratT24=Money
+24	млн	_	_	_	_	_	_	_	bratT24=Money
+25	рублей	_	_	_	_	_	_	_	bratT24=Money
+26	от	_	_	_	_	_	_	_	_
+27	слушателей	_	_	_	_	_	_	_	_
+28	филиала	_	_	_	_	_	_	_	_
+29	за	_	_	_	_	_	_	_	_
+30	допуск	_	_	_	_	_	_	_	_
+31	к	_	_	_	_	_	_	_	_
+32	сессиям	_	_	_	_	_	_	_	_
+33	и	_	_	_	_	_	_	_	_
+34	сдачу	_	_	_	_	_	_	_	_
+35	экзаменов	_	_	_	_	_	_	_	_
+36	(	_	_	_	_	_	_	_	SpaceAfter=No
+37	части	_	_	_	_	_	_	_	bratT25=Law
+38-40	2,3	_	_	_	_	_	_	_	_
+38	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Law|bratT68=Ordinal
+39	,	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Law
+40	3	_	_	_	_	_	_	_	bratT25=Law|bratT70=Ordinal
+41	статья	_	_	_	_	_	_	_	bratT25=Law
+42	210	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Law|bratT71=Ordinal
+43	,	_	_	_	_	_	_	_	bratT25=Law
+44	часть	_	_	_	_	_	_	_	bratT25=Law
+45	6	_	_	_	_	_	_	_	bratT25=Law|bratT72=Ordinal
+46	статья	_	_	_	_	_	_	_	bratT25=Law
+47	290	_	_	_	_	_	_	_	bratT25=Law|bratT73=Ordinal
+48	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Law|bratT74=Law
+49	)	_	_	_	_	_	_	_	SpaceAfter=No
+50	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0009-p4
+# par_text = Преподавателей университета МВД 12 августа задержали бойцы СОБР Нацгвардии. В СК считают организатором преступного сообщества замначальника факультета заочного обучения и переподготовки Сергея Крапивина. Туда входили руководители четырех кафедр факультета, их подчиненные и семь слушателей, через которых передавали деньги. Девяти фигурантам избрали домашний арест, отмечает «Интерфакс».
+# sent_id = 0009-p4-s1
+# text = Преподавателей университета МВД 12 августа задержали бойцы СОБР Нацгвардии.
+1	Преподавателей	_	_	_	_	_	_	_	bratT26=Person-property
+2	университета	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization
+3	МВД	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization
+4	12	_	_	_	_	_	_	_	bratA21=T28:Past|bratT28=Date-absolute
+5	августа	_	_	_	_	_	_	_	bratA21=T28:Past|bratT28=Date-absolute
+6	задержали	_	_	_	_	_	_	_	_
+7	бойцы	_	_	_	_	_	_	_	bratT29=Person-property
+8	СОБР	_	_	_	_	_	_	_	bratT29=Person-property|bratT30=Organization
+9	Нацгвардии	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization|bratT29=Person-property|bratT30=Organization
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0009-p4-s2
+# text = В СК считают организатором преступного сообщества замначальника факультета заочного обучения и переподготовки Сергея Крапивина.
+1	В	_	_	_	_	_	_	_	_
+2	СК	_	_	_	_	_	_	_	bratT31=Organization
+3	считают	_	_	_	_	_	_	_	_
+4	организатором	_	_	_	_	_	_	_	_
+5	преступного	_	_	_	_	_	_	_	_
+6	сообщества	_	_	_	_	_	_	_	_
+7	замначальника	_	_	_	_	_	_	_	bratA9=T32:Male|bratT32=Person|bratT33=Person-property
+8	факультета	_	_	_	_	_	_	_	bratA10=T34:Department|bratA9=T32:Male|bratT32=Person|bratT33=Person-property|bratT34=Organization
+9	заочного	_	_	_	_	_	_	_	bratA10=T34:Department|bratA9=T32:Male|bratT32=Person|bratT33=Person-property|bratT34=Organization
+10	обучения	_	_	_	_	_	_	_	bratA10=T34:Department|bratA9=T32:Male|bratT32=Person|bratT33=Person-property|bratT34=Organization
+11	и	_	_	_	_	_	_	_	bratA10=T34:Department|bratA9=T32:Male|bratT32=Person|bratT33=Person-property|bratT34=Organization
+12	переподготовки	_	_	_	_	_	_	_	bratA10=T34:Department|bratA9=T32:Male|bratT32=Person|bratT33=Person-property|bratT34=Organization
+13	Сергея	_	_	_	_	_	_	_	bratA9=T32:Male|bratT32=Person|bratT35=Person-forename
+14	Крапивина	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T32:Male|bratT32=Person|bratT36=Person-surname
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0009-p4-s3
+# text = Туда входили руководители четырех кафедр факультета, их подчиненные и семь слушателей, через которых передавали деньги.
+1	Туда	_	_	_	_	_	_	_	_
+2	входили	_	_	_	_	_	_	_	_
+3	руководители	_	_	_	_	_	_	_	bratT37=Person-property
+4	четырех	_	_	_	_	_	_	_	bratT39=Quantity
+5	кафедр	_	_	_	_	_	_	_	bratT39=Quantity
+6	факультета	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	их	_	_	_	_	_	_	_	_
+9	подчиненные	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	семь	_	_	_	_	_	_	_	bratT40=Quantity
+12	слушателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Quantity
+13	,	_	_	_	_	_	_	_	_
+14	через	_	_	_	_	_	_	_	_
+15	которых	_	_	_	_	_	_	_	_
+16	передавали	_	_	_	_	_	_	_	_
+17	деньги	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0009-p4-s4
+# text = Девяти фигурантам избрали домашний арест, отмечает «Интерфакс».
+1	Девяти	_	_	_	_	_	_	_	bratT41=Quantity
+2	фигурантам	_	_	_	_	_	_	_	bratT41=Quantity
+3	избрали	_	_	_	_	_	_	_	_
+4	домашний	_	_	_	_	_	_	_	bratT20=Event
+5	арест	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Event
+6	,	_	_	_	_	_	_	_	_
+7	отмечает	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA11=T42:Media|bratT42=Organization
+9	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T42:Media|bratT42=Organization
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA11=T42:Media|bratT42=Organization
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0009-p5
+# par_text = По данным «Блокнота Ставрополь», в участии в преступном сообществе обвинили начальницу кафедры криминалистики Людмилу Медведицковую, начальника кафедры административного права Виктора Евдошенко, начальника кафедры уголовного процесса Алима Отарова и начальницу кафедры гражданско-правовых дисциплин Ларису Устинову.
+# sent_id = 0009-p5-s1
+# text = По данным «Блокнота Ставрополь», в участии в преступном сообществе обвинили начальницу кафедры криминалистики Людмилу Медведицковую, начальника кафедры административного права Виктора Евдошенко, начальника кафедры уголовного процесса Алима Отарова и начальницу кафедры гражданско-правовых дисциплин Ларису Устинову.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA12=T43:Media|bratT43=Organization
+4	Блокнота	_	_	_	_	_	_	_	bratA12=T43:Media|bratT43=Organization
+5	Ставрополь	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Media|bratT43=Organization|bratT77=GPE
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA12=T43:Media|bratT43=Organization
+7	,	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	участии	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	преступном	_	_	_	_	_	_	_	_
+12	сообществе	_	_	_	_	_	_	_	_
+13	обвинили	_	_	_	_	_	_	_	_
+14	начальницу	_	_	_	_	_	_	_	bratA13=T44:Female|bratT44=Person|bratT45=Person-property
+15	кафедры	_	_	_	_	_	_	_	bratA13=T44:Female|bratA14=T46:Department|bratT44=Person|bratT45=Person-property|bratT46=Organization
+16	криминалистики	_	_	_	_	_	_	_	bratA13=T44:Female|bratA14=T46:Department|bratT44=Person|bratT45=Person-property|bratT46=Organization
+17	Людмилу	_	_	_	_	_	_	_	bratA13=T44:Female|bratT44=Person|bratT47=Person-forename
+18	Медведицковую	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T44:Female|bratT44=Person|bratT48=Person-surname
+19	,	_	_	_	_	_	_	_	_
+20	начальника	_	_	_	_	_	_	_	bratA15=T49:Male|bratT49=Person
+21	кафедры	_	_	_	_	_	_	_	bratA15=T49:Male|bratA16=T50:Department|bratT49=Person|bratT50=Organization
+22	административного	_	_	_	_	_	_	_	bratA15=T49:Male|bratA16=T50:Department|bratT49=Person|bratT50=Organization
+23	права	_	_	_	_	_	_	_	bratA15=T49:Male|bratA16=T50:Department|bratT49=Person|bratT50=Organization
+24	Виктора	_	_	_	_	_	_	_	bratA15=T49:Male|bratT49=Person|bratT51=Person-forename
+25	Евдошенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T49:Male|bratT49=Person|bratT52=Person-surname
+26	,	_	_	_	_	_	_	_	_
+27	начальника	_	_	_	_	_	_	_	bratA17=T53:Male|bratT53=Person|bratT54=Person-property
+28	кафедры	_	_	_	_	_	_	_	bratA17=T53:Male|bratA18=T55:Department|bratT53=Person|bratT54=Person-property|bratT55=Organization
+29	уголовного	_	_	_	_	_	_	_	bratA17=T53:Male|bratA18=T55:Department|bratT53=Person|bratT54=Person-property|bratT55=Organization
+30	процесса	_	_	_	_	_	_	_	bratA17=T53:Male|bratA18=T55:Department|bratT53=Person|bratT54=Person-property|bratT55=Organization
+31	Алима	_	_	_	_	_	_	_	bratA17=T53:Male|bratT53=Person|bratT56=Person-forename
+32	Отарова	_	_	_	_	_	_	_	bratA17=T53:Male|bratT53=Person|bratT57=Person-surname
+33	и	_	_	_	_	_	_	_	_
+34	начальницу	_	_	_	_	_	_	_	bratA19=T58:Female|bratT58=Person|bratT59=Person-property
+35	кафедры	_	_	_	_	_	_	_	bratA19=T58:Female|bratA20=T60:Department|bratT58=Person|bratT59=Person-property|bratT60=Organization
+36	гражданско-правовых	_	_	_	_	_	_	_	bratA19=T58:Female|bratA20=T60:Department|bratT58=Person|bratT59=Person-property|bratT60=Organization
+37	дисциплин	_	_	_	_	_	_	_	bratA19=T58:Female|bratA20=T60:Department|bratT58=Person|bratT59=Person-property|bratT60=Organization
+38	Ларису	_	_	_	_	_	_	_	bratA19=T58:Female|bratT58=Person|bratT61=Person-forename
+39	Устинову	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Female|bratT58=Person|bratT62=Person-surname
+40	.	_	_	_	_	_	_	_	_
+

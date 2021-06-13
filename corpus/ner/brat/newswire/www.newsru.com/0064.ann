@@ -1,0 +1,89 @@
+T1	Person 0 6	Лавров
+T2	Person 50 60	Навального
+T3	GPE 131 133	РФ
+T4	Organization 125 133	МИД   РФ
+T5	Person-property 117 133	Глава   МИД   РФ
+T6	Person 117 151	Глава   МИД   РФ   Сергей   Лавров
+T7	GPE 175 178	ФРГ
+T8	Political-group 205 218	оппозиционера
+T9	Person 205 241	оппозиционера   Алексея   Навального
+T10	Person 448 458	Навального
+T11	GPE 485 488	ФРГ
+T12	Organization 536 559	РИА   ``   Новости   ''
+A1	Media T12
+T13	GPE 777 785	Германии
+T14	Organization 856 873	клинику   Charite
+T15	Person-property 898 918	российский   министр
+T16	GPE 949 955	Россия
+T17	GPE 1016 1018	ЕС
+T18	Person 1026 1036	Навальному
+T19	Person 1136 1142	Лавров
+T20	GPE 1238 1245	Франции
+T21	GPE 1252 1260	Германии
+T22	Person-property 1231 1260	глав   Франции   и   Германии
+A2	Plural T22
+T23	Organization 1219 1260	аппаратов   глав   Франции   и   Германии
+T24	Organization 1282 1309	Службы   внешней   разведки
+T25	Organization 1316 1319	СВР
+T26	Person-property 1274 1323	глава   Службы   внешней   разведки   (   СВР   )
+T27	Person 1274 1343	глава   Службы   внешней   разведки   (   СВР   )   Сергей   Нарышкин
+T28	GPE 1387 1393	России
+T29	GPE 1401 1435	Сибирскому   федеральному   округу
+T30	Organization 1381 1393	МВД   России
+T31	Person 1517 1526	Навальным
+T32	Person 1531 1539	Нарышкин
+T33	Organization 1582 1586	НАТО
+T34	Organization 1561 1586	спецслужбы   стран   НАТО
+T35	Organization 1712 1734	российской   оппозиции
+T36	Person-property 1702 1734	лидеров   российской   оппозиции
+T37	GPE 1808 1810	РФ
+T38	Person 1938 1947	Навальным
+T39	Organization 1954 1957	СВР
+T41	Date-absolute 1595 1606	год   назад
+T43	Event 37 60	отравления   Навального
+T44	Event 362 372	отравления
+T45	Person-property 1078 1087	партнеров
+T46	Organization 1350 1435	управление   на   транспорте   МВД   России   по   Сибирскому   федеральному   округу
+T47	Organization 1205 1260	руководство   аппаратов   глав   Франции   и   Германии
+T42	Date-relative 1266 1271	Ранее
+A5	Male T1
+T48	Person-surname 0 6	Лавров
+A6	Male T2
+T49	Person-surname 50 60	Навального
+A7	Male T6
+T50	Person-forename 136 142	Сергей
+T51	Person-surname 145 151	Лавров
+A8	Male T9
+T52	Person-forename 221 228	Алексея
+T53	Person-surname 231 241	Навального
+A9	Male T10
+T54	Person-surname 448 458	Навального
+T55	GPE 898 908	российский
+A10	Adjective T55
+A11	Male T18
+T56	Person-surname 1026 1036	Навальному
+T57	Person-surname 1136 1142	Лавров
+A12	Male T19
+A13	Past T42
+A14	Male T31
+T58	Person-surname 1517 1526	Навальным
+A15	Male T32
+T59	Person-surname 1531 1539	Нарышкин
+A16	Past T41
+T60	GPE 1712 1722	российской
+A17	Adjective T60
+T61	GPE 1896 1904	западных
+A18	Adjective T61
+A19	Male T38
+T62	Person-surname 1938 1947	Навальным
+T63	Person-forename 1326 1332	Сергей
+T64	Person-surname 1335 1343	Нарышкин
+A20	Male T27
+T40	Time-relative 1446 1458	одновременно
+T65	Date-absolute 1047 1052	скоро
+A21	Future T65
+A22	Department T47
+T66	Person 1231 1260	глав   Франции   и   Германии
+A23	Plural T66
+T67	GPE 1574 1586	стран   НАТО
+T68	Organization 1896 1916	западных   спецслужб

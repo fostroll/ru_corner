@@ -1,57 +1,64 @@
 T1	Organization 4 7	РПЦ
-T2	Other-term 68 76	COVID-19
-T3	Event 169 192	пандемии   коронавируса
-T4	Organization 317 359	радиостанцией   ``   Говорит   Москва   ''
+T2	Other-term 68 78	COVID - 19
+T3	Event 171 194	пандемии   коронавируса
+T4	Organization 319 361	радиостанцией   ``   Говорит   Москва   ''
 A1	Media T4
-T5	Person-property 369 419	пресс-секретарь   Московской   областной   епархии
-T6	Organization 387 419	Московской   областной   епархии
-T7	Person-property 426 435	священник
-T8	Person 369 457	пресс-секретарь   Московской   областной   епархии   ,   священник   Александр   Сухарев
-T9	Person-property 464 525	заместитель   управляющего   делами   Московской   патриархии
-T10	Person-property 532 556	епископ   Зеленоградский
-T11	Person 464 582	заместитель   управляющего   делами   Московской   патриархии   ,   епископ   Зеленоградский   Савва   (   Тутунов   )
-T13	Organization 502 525	Московской   патриархии
-T14	Person-property 588 595	Епископ
-T15	Person 588 603	Епископ   Савва
-T16	GPE 733 739	России
-T17	Person-property 837 846	Священник
-T18	Person 837 868	Священник   Александр   Сухарев
-T19	Person-property 1147 1180	директор   ГБУ   ``   Ритуал   ''
-T20	Organization 1158 1180	ГБУ   ``   Ритуал   ''
-T21	Person 1147 1197	директор   ГБУ   ``   Ритуал   ''   Артем   Екимов
-T22	Other-term 1270 1283	коронавирусом
-T23	Service 1547 1562	Telegram-канале
-T24	Organization 1565 1591	телеканала   ``   360   ''
+T5	Person-property 371 421	пресс-секретарь   Московской   областной   епархии
+T6	Organization 389 421	Московской   областной   епархии
+T7	Person-property 428 437	священник
+T8	Person 371 459	пресс-секретарь   Московской   областной   епархии   ,   священник   Александр   Сухарев
+T9	Person-property 466 527	заместитель   управляющего   делами   Московской   патриархии
+T10	Person-property 534 558	епископ   Зеленоградский
+T11	Person 466 584	заместитель   управляющего   делами   Московской   патриархии   ,   епископ   Зеленоградский   Савва   (   Тутунов   )
+T13	Organization 504 527	Московской   патриархии
+T14	Person-property 590 597	Епископ
+T15	Person 590 605	Епископ   Савва
+T16	GPE 735 741	России
+T17	Person-property 839 848	Священник
+T18	Person 839 870	Священник   Александр   Сухарев
+T19	Person-property 1149 1182	директор   ГБУ   ``   Ритуал   ''
+T20	Organization 1160 1182	ГБУ   ``   Ритуал   ''
+T21	Person 1149 1199	директор   ГБУ   ``   Ритуал   ''   Артем   Екимов
+T22	Other-term 1272 1285	коронавирусом
+T23	Service 1549 1564	Telegram-канале
+T24	Organization 1567 1593	телеканала   ``   360   ''
 A2	Media T24
-T25	Money 1664 1683	49   тысяч   рублей
+T25	Money 1666 1685	49   тысяч   рублей
 A3	Media T23
-T12	Date-relative 1139 1144	Ранее
-T26	Date-relative 1535 1540	Позже
-T27	Family 1312 1318	семьям
-T28	Other-term 180 192	коронавируса
+T12	Date-relative 1141 1146	Ранее
+T26	Date-relative 1537 1542	Позже
+T27	Family 1314 1320	семьям
+T28	Other-term 182 194	коронавируса
 A4	Past T12
 A5	Past T26
-T29	GPE 387 397	Московской
-T30	Person-forename 438 447	Александр
-T31	Person-surname 450 457	Сухарев
-T32	Person-forename 559 564	Савва
-T33	Person-surname 571 578	Тутунов
-T34	Person-forename 598 603	Савва
-T35	Person-forename 849 858	Александр
-T36	Person-surname 861 868	Сухарев
-T37	Person-forename 1183 1188	Артем
-T38	Person-surname 1191 1197	Екимов
+T29	GPE 389 399	Московской
+T30	Person-forename 440 449	Александр
+T31	Person-surname 452 459	Сухарев
+T32	Person-forename 561 566	Савва
+T33	Person-surname 573 580	Тутунов
+T34	Person-forename 600 605	Савва
+T35	Person-forename 851 860	Александр
+T36	Person-surname 863 870	Сухарев
+T37	Person-forename 1185 1190	Артем
+T38	Person-surname 1193 1199	Екимов
 A6	Male T8
 A7	Male T11
 A8	Male T15
 A9	Male T18
 A10	Adjective T29
-T39	GPE 502 512	Московской
+T39	GPE 504 514	Московской
 A11	Adjective T39
-T40	GPE 542 556	Зеленоградский
+T40	GPE 544 558	Зеленоградский
 A12	Adjective T40
-T41	GPE 348 354	Москва
+T41	GPE 350 356	Москва
 A13	Male T21
-T42	Religious-group 1108 1120	христианской
+T42	Religious-group 1110 1122	христианской
 A14	Adjective T42
-T43	Organization 897 903	церкви
+T43	Organization 899 905	церкви
+T44	Event 744 753	отпевание
+T45	Event 643 653	погребении
+T46	Event 1235 1246	захоронении
+T47	Event 1497 1532	традиционную   церемонию   прощания
+T48	Cardinal 76 78	19
+T49	Quantity 1585 1588	360
+T50	Event 256 267	захоронении

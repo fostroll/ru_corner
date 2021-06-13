@@ -10,7 +10,7 @@
 5	Путина	_	_	_	_	_	_	_	bratA3=T4:Male|bratT4=Person|bratT46=Person-surname
 6	в	_	_	_	_	_	_	_	_
 7	одном	_	_	_	_	_	_	_	bratT6=Quantity
-8	посте	_	_	_	_	_	_	_	bratT6=Quantity
+8	посте	_	_	_	_	_	_	_	bratA17=T65:Media|bratT6=Quantity|bratT65=Service
 9	про	_	_	_	_	_	_	_	_
 10	Карабах	_	_	_	_	_	_	_	bratT2=GPE
 
@@ -31,7 +31,7 @@
 11	Путина	_	_	_	_	_	_	_	bratA5=T12:Male|bratT12=Person|bratT48=Person-surname
 12	в	_	_	_	_	_	_	_	_
 13	одном	_	_	_	_	_	_	_	bratT13=Quantity
-14	посте	_	_	_	_	_	_	_	bratT13=Quantity
+14	посте	_	_	_	_	_	_	_	bratA18=T66:Media|bratT13=Quantity|bratT66=Service
 15	об	_	_	_	_	_	_	_	_
 16	исходе	_	_	_	_	_	_	_	_
 17	конфликта	_	_	_	_	_	_	_	bratT38=Event
@@ -64,9 +64,9 @@
 9	принять	_	_	_	_	_	_	_	_
 10	решение	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
-12	полном	_	_	_	_	_	_	_	_
-13	прекращении	_	_	_	_	_	_	_	_
-14	огня	_	_	_	_	_	_	_	_
+12	полном	_	_	_	_	_	_	_	bratT59=Event
+13	прекращении	_	_	_	_	_	_	_	bratT59=Event
+14	огня	_	_	_	_	_	_	_	bratT59=Event
 15	получилось	_	_	_	_	_	_	_	_
 16	``	_	_	_	_	_	_	_	SpaceAfter=No
 17	благодаря	_	_	_	_	_	_	_	_
@@ -85,19 +85,19 @@
 # sent_id = 0023-p3-s2
 # text = Исход событий, считает глава Чечни, позволил каждому убедиться, что глава государства ``является лидером мирового уровня'', а его слово ``разрешало конфликты во многих регионах''.
 1	Исход	_	_	_	_	_	_	_	_
-2	событий	_	_	_	_	_	_	_	SpaceAfter=No
+2	событий	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Event
 3	,	_	_	_	_	_	_	_	_
 4	считает	_	_	_	_	_	_	_	_
-5	глава	_	_	_	_	_	_	_	bratT20=Person-property
-6	Чечни	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property|bratT21=GPE
+5	глава	_	_	_	_	_	_	_	bratT20=Person-property|bratT67=Person
+6	Чечни	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property|bratT21=GPE|bratT67=Person
 7	,	_	_	_	_	_	_	_	_
 8	позволил	_	_	_	_	_	_	_	_
 9	каждому	_	_	_	_	_	_	_	_
 10	убедиться	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	глава	_	_	_	_	_	_	_	bratT37=Person-property
-14	государства	_	_	_	_	_	_	_	bratT37=Person-property
+13	глава	_	_	_	_	_	_	_	bratT37=Person-property|bratT68=Person
+14	государства	_	_	_	_	_	_	_	bratT37=Person-property|bratT68=Person
 15	``	_	_	_	_	_	_	_	SpaceAfter=No
 16	является	_	_	_	_	_	_	_	_
 17	лидером	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 24	слово	_	_	_	_	_	_	_	_
 25	``	_	_	_	_	_	_	_	SpaceAfter=No
 26	разрешало	_	_	_	_	_	_	_	_
-27	конфликты	_	_	_	_	_	_	_	_
+27	конфликты	_	_	_	_	_	_	_	bratT60=Event
 28	во	_	_	_	_	_	_	_	_
 29	многих	_	_	_	_	_	_	_	_
 30	регионах	_	_	_	_	_	_	_	SpaceAfter=No
@@ -129,8 +129,8 @@
 6	числе	_	_	_	_	_	_	_	_
 7	отметил	_	_	_	_	_	_	_	_
 8	харизму	_	_	_	_	_	_	_	_
-9	российского	_	_	_	_	_	_	_	bratA10=T41:Adjective|bratT23=Person-property|bratT41=GPE
-10	президента	_	_	_	_	_	_	_	bratT23=Person-property
+9	российского	_	_	_	_	_	_	_	bratA10=T41:Adjective|bratA19=T69:Male|bratT23=Person-property|bratT41=GPE|bratT69=Person
+10	президента	_	_	_	_	_	_	_	bratA19=T69:Male|bratT23=Person-property|bratT69=Person
 11	и	_	_	_	_	_	_	_	_
 12	его	_	_	_	_	_	_	_	_
 13	профессиональные	_	_	_	_	_	_	_	_
@@ -182,15 +182,15 @@
 15	''	_	_	_	_	_	_	_	_
 16	пытаются	_	_	_	_	_	_	_	_
 17	обвинить	_	_	_	_	_	_	_	_
-18	российского	_	_	_	_	_	_	_	bratA13=T42:Adjective|bratT27=Person-property|bratT42=GPE
-19	президента	_	_	_	_	_	_	_	bratT27=Person-property
+18	российского	_	_	_	_	_	_	_	bratA13=T42:Adjective|bratT27=Person-property|bratT42=GPE|bratT70=Person
+19	президента	_	_	_	_	_	_	_	bratT27=Person-property|bratT70=Person
 20	в	_	_	_	_	_	_	_	_
 21	развязывании	_	_	_	_	_	_	_	_
-22	войны	_	_	_	_	_	_	_	_
+22	войны	_	_	_	_	_	_	_	bratT61=Event
 23	в	_	_	_	_	_	_	_	_
 24	разных	_	_	_	_	_	_	_	_
 25	уголках	_	_	_	_	_	_	_	_
-26	планеты	_	_	_	_	_	_	_	SpaceAfter=No
+26	планеты	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Location
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p5-s2
@@ -219,7 +219,7 @@
 22	позволяющих	_	_	_	_	_	_	_	_
 23	предотвратить	_	_	_	_	_	_	_	_
 24	обострение	_	_	_	_	_	_	_	_
-25	конфликта	_	_	_	_	_	_	_	_
+25	конфликта	_	_	_	_	_	_	_	bratT62=Event
 26	в	_	_	_	_	_	_	_	_
 27	той	_	_	_	_	_	_	_	_
 28	или	_	_	_	_	_	_	_	_
@@ -240,10 +240,10 @@
 1	Далее	_	_	_	_	_	_	_	_
 2	он	_	_	_	_	_	_	_	_
 3	поблагодарил	_	_	_	_	_	_	_	_
-4	президента	_	_	_	_	_	_	_	bratT30=Person-property
+4	президента	_	_	_	_	_	_	_	bratT30=Person-property|bratT71=Person
 5	за	_	_	_	_	_	_	_	_
 6	разрешение	_	_	_	_	_	_	_	_
-7	конфликтов	_	_	_	_	_	_	_	_
+7	конфликтов	_	_	_	_	_	_	_	bratT63=Event
 8	в	_	_	_	_	_	_	_	_
 9	Сирии	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE
 10	,	_	_	_	_	_	_	_	_
@@ -267,15 +267,15 @@
 8	усилия	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	принимаемые	_	_	_	_	_	_	_	_
-11	Президентом	_	_	_	_	_	_	_	bratT35=Person-property
-12	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property|bratT36=GPE
+11	Президентом	_	_	_	_	_	_	_	bratT35=Person-property|bratT72=Person
+12	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property|bratT36=GPE|bratT72=Person
 13	,	_	_	_	_	_	_	_	_
 14	позволяли	_	_	_	_	_	_	_	_
 15	урегулировать	_	_	_	_	_	_	_	_
 16	затяжные	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
-18	кровопролитные	_	_	_	_	_	_	_	_
-19	процессы	_	_	_	_	_	_	_	SpaceAfter=No
+18	кровопролитные	_	_	_	_	_	_	_	bratT73=Event
+19	процессы	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p6-s3

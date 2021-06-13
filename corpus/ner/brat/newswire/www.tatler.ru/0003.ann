@@ -1,0 +1,43 @@
+T1	Person 0 16	Владимир   Путин
+T2	Person 30 49	Романа   Ротенберга
+T3	Date-absolute 51 77	Во   вторник   27   ноября
+T4	Person 84 103	Романа   Ротенберга
+T5	Organization 156 162	Кремле
+T6	Person-property 173 234	главе   штаба   национальной   сборной   России   по   хоккею
+T7	Organization 189 234	национальной   сборной   России   по   хоккею
+T8	GPE 214 220	России
+T9	Person 266 271	Роман
+T10	Person 305 341	президента   РФ   Владимира   Путина
+T11	Person-property 305 320	президента   РФ
+T12	GPE 318 320	РФ
+T13	Service 413 423	инстаграме
+A1	Media T13
+T14	Person-property 488 503	Президента   РФ
+T15	GPE 501 503	РФ
+T16	Person 700 725	Владимиру   Владимировичу
+A2	Male T1
+T17	Person-forename 0 8	Владимир
+T18	Person-surname 11 16	Путин
+A3	Male T2
+T19	Person-forename 30 36	Романа
+T20	Person-surname 39 49	Ротенберга
+A4	Past T3
+T21	Person-forename 84 90	Романа
+T22	Person-surname 93 103	Ротенберга
+A5	Male T9
+T23	Person-forename 266 271	Роман
+A6	Male T10
+A7	Male T4
+T24	Person-forename 323 332	Владимира
+T25	Person-surname 335 341	Путина
+T26	Person 426 436	Ротенберга
+A8	Male T26
+T27	Person-surname 426 436	Ротенберга
+A9	Male T16
+T28	Person-forename 700 709	Владимиру
+T29	Person-patronym 712 725	Владимировичу
+T30	Event 142 149	встреча
+T31	GPE 189 201	национальной
+A10	Adjective T31
+T32	Other-term 247 261	орден   Дружбы
+T33	Other-term 506 520	Орден   Дружбы

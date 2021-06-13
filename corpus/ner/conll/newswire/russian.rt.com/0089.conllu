@@ -10,9 +10,12 @@
 5	за	_	_	_	_	_	_	_	_
 6	мерами	_	_	_	_	_	_	_	_
 7	по	_	_	_	_	_	_	_	_
-8	COVID-19	_	_	_	_	_	_	_	bratT3=Other-term
-9	в	_	_	_	_	_	_	_	_
-10	регионах	_	_	_	_	_	_	_	_
+8-10	COVID-19	_	_	_	_	_	_	_	_
+8	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term
+9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term
+10	19	_	_	_	_	_	_	_	bratT3=Other-term|bratT31=Cardinal
+11	в	_	_	_	_	_	_	_	_
+12	регионах	_	_	_	_	_	_	_	_
 
 # newpar id = 0089-p2
 # par_text = Контроль за принятыми в регионах мерами по борьбе с распространением коронавирусной инфекции COVID-19 необходимо усилить. Об этом заявила глава Роспотребнадзора Анна Попова.
@@ -30,10 +33,13 @@
 10	распространением	_	_	_	_	_	_	_	_
 11	коронавирусной	_	_	_	_	_	_	_	bratT18=Other-term
 12	инфекции	_	_	_	_	_	_	_	bratT18=Other-term
-13	COVID-19	_	_	_	_	_	_	_	bratT18=Other-term
-14	необходимо	_	_	_	_	_	_	_	_
-15	усилить	_	_	_	_	_	_	_	SpaceAfter=No
-16	.	_	_	_	_	_	_	_	_
+13-15	COVID-19	_	_	_	_	_	_	_	_
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+15	19	_	_	_	_	_	_	_	bratT18=Other-term|bratT32=Cardinal
+16	необходимо	_	_	_	_	_	_	_	_
+17	усилить	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p2-s2
 # text = Об этом заявила глава Роспотребнадзора Анна Попова.
@@ -120,8 +126,11 @@
 14	в	_	_	_	_	_	_	_	_
 15	борьбе	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
-17	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term
-18	.	_	_	_	_	_	_	_	_
+17-19	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+17	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term
+18	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term
+19	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term|bratT33=Cardinal
+20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0089-p5
 # par_text = Завлаборатории Госколлекции вирусов центра имени Гамалеи Инна Должикова в беседе с URA.RU рассказала о вакцине от коронавирусной инфекции «Спутник V».
@@ -132,22 +141,25 @@
 3	вирусов	_	_	_	_	_	_	_	bratA1=T12:Department|bratA8=T14:Female|bratT12=Organization|bratT13=Person-property|bratT14=Person
 4	центра	_	_	_	_	_	_	_	bratA1=T12:Department|bratA8=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
 5	имени	_	_	_	_	_	_	_	bratA1=T12:Department|bratA8=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
-6	Гамалеи	_	_	_	_	_	_	_	bratA1=T12:Department|bratA8=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
+6	Гамалеи	_	_	_	_	_	_	_	bratA1=T12:Department|bratA8=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person|bratT34=Person|bratT35=Person-surname
 7	Инна	_	_	_	_	_	_	_	bratA8=T14:Female|bratT14=Person|bratT29=Person-forename
 8	Должикова	_	_	_	_	_	_	_	bratA8=T14:Female|bratT14=Person|bratT30=Person-surname
 9	в	_	_	_	_	_	_	_	_
 10	беседе	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
-12	URA.RU	_	_	_	_	_	_	_	bratA2=T15:Media|bratT15=Organization
-13	рассказала	_	_	_	_	_	_	_	_
-14	о	_	_	_	_	_	_	_	_
-15	вакцине	_	_	_	_	_	_	_	bratT2=Product
-16	от	_	_	_	_	_	_	_	bratT2=Product
-17	коронавирусной	_	_	_	_	_	_	_	bratT16=Other-term|bratT2=Product
-18	инфекции	_	_	_	_	_	_	_	bratT16=Other-term|bratT2=Product
-19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
-20	Спутник	_	_	_	_	_	_	_	bratT2=Product
-21	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
-22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
-23	.	_	_	_	_	_	_	_	_
+12-14	URA.RU	_	_	_	_	_	_	_	_
+12	URA	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization|bratT36=Web-address
+13	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization|bratT36=Web-address
+14	RU	_	_	_	_	_	_	_	bratA2=T15:Media|bratT15=Organization|bratT36=Web-address
+15	рассказала	_	_	_	_	_	_	_	_
+16	о	_	_	_	_	_	_	_	_
+17	вакцине	_	_	_	_	_	_	_	bratA9=T2:Trademark|bratT2=Product
+18	от	_	_	_	_	_	_	_	bratA9=T2:Trademark|bratT2=Product
+19	коронавирусной	_	_	_	_	_	_	_	bratA9=T2:Trademark|bratT16=Other-term|bratT2=Product
+20	инфекции	_	_	_	_	_	_	_	bratA9=T2:Trademark|bratT16=Other-term|bratT2=Product
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T2:Trademark|bratT2=Product
+22	Спутник	_	_	_	_	_	_	_	bratA9=T2:Trademark|bratT2=Product
+23	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T2:Trademark|bratT2=Product
+24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T2:Trademark|bratT2=Product
+25	.	_	_	_	_	_	_	_	_
 

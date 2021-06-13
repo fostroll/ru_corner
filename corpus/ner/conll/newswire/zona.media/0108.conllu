@@ -1,0 +1,205 @@
+# newdoc id = 0108
+# newpar id = 0108-p1
+# par_text = В Самарской области арестовали полицейского, который с друзьями избил посетителя кафе до частичной потери зрения
+# sent_id = 0108-p1-s1
+# text = В Самарской области арестовали полицейского, который с друзьями избил посетителя кафе до частичной потери зрения
+1	В	_	_	_	_	_	_	_	_
+2	Самарской	_	_	_	_	_	_	_	bratT1=GPE
+3	области	_	_	_	_	_	_	_	bratT1=GPE
+4	арестовали	_	_	_	_	_	_	_	_
+5	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person-property
+6	,	_	_	_	_	_	_	_	_
+7	который	_	_	_	_	_	_	_	_
+8	с	_	_	_	_	_	_	_	_
+9	друзьями	_	_	_	_	_	_	_	_
+10	избил	_	_	_	_	_	_	_	_
+11	посетителя	_	_	_	_	_	_	_	_
+12	кафе	_	_	_	_	_	_	_	_
+13	до	_	_	_	_	_	_	_	_
+14	частичной	_	_	_	_	_	_	_	_
+15	потери	_	_	_	_	_	_	_	_
+16	зрения	_	_	_	_	_	_	_	_
+
+# newpar id = 0108-p2
+# par_text = Суд в Самарской области арестовал полицейского, подозреваемого в избиении (пункт «г» части 2 стати 112 УК — причинение вреда здоровью средней тяжести, совершенное группой лиц по предварительному сговору) в кафе 33-летнего предпринимателя из города Отрадное Виталия Федосеева. Об этом сообщило областное управление Следственного комитета.
+# sent_id = 0108-p2-s1
+# text = Суд в Самарской области арестовал полицейского, подозреваемого в избиении (пункт «г» части 2 стати 112 УК - причинение вреда здоровью средней тяжести, совершенное группой лиц по предварительному сговору) в кафе 33-летнего предпринимателя из города Отрадное Виталия Федосеева.
+1	Суд	_	_	_	_	_	_	_	bratT4=Organization
+2	в	_	_	_	_	_	_	_	_
+3	Самарской	_	_	_	_	_	_	_	bratT5=GPE
+4	области	_	_	_	_	_	_	_	bratT5=GPE
+5	арестовал	_	_	_	_	_	_	_	_
+6	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property
+7	,	_	_	_	_	_	_	_	_
+8	подозреваемого	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	избиении	_	_	_	_	_	_	_	_
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	пункт	_	_	_	_	_	_	_	bratT8=Law
+13	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT56=Ordinal|bratT8=Law
+14	г	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Ordinal|bratT8=Law
+15	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT56=Ordinal|bratT8=Law
+16	части	_	_	_	_	_	_	_	bratT8=Law
+17	2	_	_	_	_	_	_	_	bratT57=Ordinal|bratT8=Law
+18	стати	_	_	_	_	_	_	_	bratT8=Law
+19	112	_	_	_	_	_	_	_	bratT58=Ordinal|bratT8=Law
+20	УК	_	_	_	_	_	_	_	bratT59=Law|bratT8=Law
+21	-	_	_	_	_	_	_	_	_
+22	причинение	_	_	_	_	_	_	_	_
+23	вреда	_	_	_	_	_	_	_	_
+24	здоровью	_	_	_	_	_	_	_	_
+25	средней	_	_	_	_	_	_	_	_
+26	тяжести	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	совершенное	_	_	_	_	_	_	_	_
+29	группой	_	_	_	_	_	_	_	_
+30	лиц	_	_	_	_	_	_	_	_
+31	по	_	_	_	_	_	_	_	_
+32	предварительному	_	_	_	_	_	_	_	_
+33	сговору	_	_	_	_	_	_	_	SpaceAfter=No
+34	)	_	_	_	_	_	_	_	_
+35	в	_	_	_	_	_	_	_	_
+36	кафе	_	_	_	_	_	_	_	_
+37	33-летнего	_	_	_	_	_	_	_	bratT9=Age
+38	предпринимателя	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT13=Person-property
+39	из	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person
+40	города	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT14=GPE
+41	Отрадное	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT14=GPE
+42	Виталия	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT11=Person-forename
+43	Федосеева	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Male|bratT10=Person|bratT12=Person-surname
+44	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0108-p2-s2
+# text = Об этом сообщило областное управление Следственного комитета.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщило	_	_	_	_	_	_	_	_
+4	областное	_	_	_	_	_	_	_	bratA11=T46:Adjective|bratT15=Organization|bratT46=GPE
+5	управление	_	_	_	_	_	_	_	bratT15=Organization
+6	Следственного	_	_	_	_	_	_	_	bratT15=Organization|bratT61=Organization
+7	комитета	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization|bratT61=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0108-p3
+# par_text = На сайте Отрадненского городского суда есть карточка об аресте подозреваемого по этой статье, однако имя там скрыто. По данным «Комсомольской правды», речь идет об оперуполномоченном ГОВД Отрадного 33-летнем старшем лейтенанте Рахипе Ихтиарове.
+# sent_id = 0108-p3-s1
+# text = На сайте Отрадненского городского суда есть карточка об аресте подозреваемого по этой статье, однако имя там скрыто.
+1	На	_	_	_	_	_	_	_	_
+2	сайте	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Service
+3	Отрадненского	_	_	_	_	_	_	_	bratA3=T18:Adjective|bratT17=Organization|bratT18=GPE
+4	городского	_	_	_	_	_	_	_	bratA3=T18:Adjective|bratT17=Organization|bratT18=GPE
+5	суда	_	_	_	_	_	_	_	bratT17=Organization
+6	есть	_	_	_	_	_	_	_	_
+7	карточка	_	_	_	_	_	_	_	_
+8	об	_	_	_	_	_	_	_	_
+9	аресте	_	_	_	_	_	_	_	bratT7=Event
+10	подозреваемого	_	_	_	_	_	_	_	bratT19=Person-property
+11	по	_	_	_	_	_	_	_	_
+12	этой	_	_	_	_	_	_	_	_
+13	статье	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	однако	_	_	_	_	_	_	_	_
+16	имя	_	_	_	_	_	_	_	_
+17	там	_	_	_	_	_	_	_	_
+18	скрыто	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0108-p3-s2
+# text = По данным «Комсомольской правды», речь идет об оперуполномоченном ГОВД Отрадного 33-летнем старшем лейтенанте Рахипе Ихтиарове.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA4=T20:Media|bratT20=Organization
+4	Комсомольской	_	_	_	_	_	_	_	bratA4=T20:Media|bratT20=Organization
+5	правды	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T20:Media|bratT20=Organization
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA4=T20:Media|bratT20=Organization
+7	,	_	_	_	_	_	_	_	_
+8	речь	_	_	_	_	_	_	_	_
+9	идет	_	_	_	_	_	_	_	_
+10	об	_	_	_	_	_	_	_	_
+11	оперуполномоченном	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT22=Person-property
+12	ГОВД	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT22=Person-property|bratT23=Organization
+13	Отрадного	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT22=Person-property|bratT23=Organization|bratT24=GPE
+14	33-летнем	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT25=Age
+15	старшем	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT26=Person-property
+16	лейтенанте	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT26=Person-property
+17	Рахипе	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT27=Person-forename
+18	Ихтиарове	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Male|bratT21=Person|bratT28=Person-surname
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0108-p4
+# par_text = О возбуждении дела СК объявил 6 ноября. Согласно пресс-релизу, «несколько мужчин», среди которых был сотрудник полиции, избили других посетителей кафе в ночь на субботу 31 октября.
+# sent_id = 0108-p4-s1
+# text = О возбуждении дела СК объявил 6 ноября.
+1	О	_	_	_	_	_	_	_	_
+2	возбуждении	_	_	_	_	_	_	_	_
+3	дела	_	_	_	_	_	_	_	_
+4	СК	_	_	_	_	_	_	_	bratT29=Organization
+5	объявил	_	_	_	_	_	_	_	_
+6	6	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute
+7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T30:Past|bratT30=Date-absolute
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0108-p4-s2
+# text = Согласно пресс-релизу, «несколько мужчин», среди которых был сотрудник полиции, избили других посетителей кафе в ночь на субботу 31 октября.
+1	Согласно	_	_	_	_	_	_	_	_
+2	пресс-релизу	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+5	несколько	_	_	_	_	_	_	_	bratT32=Quantity
+6	мужчин	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Quantity
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	среди	_	_	_	_	_	_	_	_
+10	которых	_	_	_	_	_	_	_	_
+11	был	_	_	_	_	_	_	_	_
+12	сотрудник	_	_	_	_	_	_	_	bratT31=Person-property
+13	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT33=Organization
+14	,	_	_	_	_	_	_	_	_
+15	избили	_	_	_	_	_	_	_	_
+16	других	_	_	_	_	_	_	_	_
+17	посетителей	_	_	_	_	_	_	_	_
+18	кафе	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
+20	ночь	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
+21	на	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
+22	субботу	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute
+23	31	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute
+24	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T34:Past|bratT34=Date-absolute
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0108-p5
+# par_text = Это произошло в кафе «Береза», где с другими полицейскими отмечал день рождения знакомого начальник ОМВД соседнего Сергиевского района Сергей Зацепин, рассказывали «Комсомольской правде» очевидцы.
+# sent_id = 0108-p5-s1
+# text = Это произошло в кафе «Береза», где с другими полицейскими отмечал день рождения знакомого начальник ОМВД соседнего Сергиевского района Сергей Зацепин, рассказывали «Комсомольской правде» очевидцы.
+1	Это	_	_	_	_	_	_	_	_
+2	произошло	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	кафе	_	_	_	_	_	_	_	bratT36=Organization
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT36=Organization
+6	Береза	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT36=Organization
+8	,	_	_	_	_	_	_	_	_
+9	где	_	_	_	_	_	_	_	_
+10	с	_	_	_	_	_	_	_	_
+11	другими	_	_	_	_	_	_	_	_
+12	полицейскими	_	_	_	_	_	_	_	bratT37=Person-property
+13	отмечал	_	_	_	_	_	_	_	_
+14	день	_	_	_	_	_	_	_	bratT3=Event
+15	рождения	_	_	_	_	_	_	_	bratT3=Event
+16	знакомого	_	_	_	_	_	_	_	_
+17	начальник	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT39=Person-property
+18	ОМВД	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT39=Person-property|bratT40=Organization
+19	соседнего	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person
+20	Сергиевского	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT41=GPE
+21	района	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT41=GPE
+22	Сергей	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT42=Person-forename
+23	Зацепин	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T38:Male|bratT38=Person|bratT43=Person-surname
+24	,	_	_	_	_	_	_	_	_
+25	рассказывали	_	_	_	_	_	_	_	_
+26	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA9=T44:Media|bratT44=Organization
+27	Комсомольской	_	_	_	_	_	_	_	bratA9=T44:Media|bratT44=Organization
+28	правде	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T44:Media|bratT44=Organization
+29	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA9=T44:Media|bratT44=Organization
+30	очевидцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Other-group
+31	.	_	_	_	_	_	_	_	_
+

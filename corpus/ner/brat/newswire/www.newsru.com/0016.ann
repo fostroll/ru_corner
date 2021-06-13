@@ -1,0 +1,91 @@
+T1	Person 0 11	Гребенщиков
+T2	Person 18 24	Шевчук
+T3	GPE 71 81	Белоруссии
+T4	Political-group 118 126	нацистов
+T5	Person 133 145	царя   Ирода
+T6	Person-property 133 137	царя
+T7	Person-property 157 202	православных   и   католических   священников
+T8	Quantity 147 202	Десятки   православных   и   католических   священников
+T9	Person-property 209 217	писатели
+T10	Person-property 224 233	музыканты
+T11	Person-property 313 322	силовиков
+T12	GPE 329 339	Белоруссии
+T13	Person-property 362 380	священнослужителей
+T14	Person-property 451 460	музыканты
+T15	Person 451 547	музыканты   Борис   Гребенщиков   ,   Юрий   Шевчук   ,   Евгений   ``   Ай-яй-яй   ''   Федоров
+A1	Plural T15
+T16	Organization 571 600	сообщества   ``   Митьки   ''
+T17	Person-property 554 600	художники   из   сообщества   ``   Митьки   ''
+T18	Person-property 607 615	писатели
+T19	Person 607 668	писатели   Александр   Архангельский   и   Денис   Драгунский
+T20	Person-property 675 689	правозащитница
+T21	Person 675 705	правозащитница   Зоя   Светова
+T22	Person-property 712 721	журналист
+T23	Person 712 735	журналист   Юрий   Рост
+T24	Person-property 742 756	благотворитель
+T25	Person 742 777	благотворитель   Нюта   Федермессер
+T26	Person-property 868 877	епископам
+T27	Person-property 884 895	священникам
+T28	Religious-group 909 919	христианам
+T29	Service 1317 1357	портал   ``   Православие   и   мир   ''
+A2	Media T29
+T30	Date-absolute 1363 1374	В   августе
+T31	Organization 1377 1420	синод   Белорусской   православной   церкви
+T32	Person-property 1756 1767	священников
+T33	Other-group 1774 1779	мирян
+A3	Plural T7
+A4	Plural T19
+T34	Person-surname 0 11	Гребенщиков
+A5	Male T1
+T35	Person-surname 18 24	Шевчук
+A6	Male T2
+A7	Male T5
+T36	Person-forename 140 144	Ирод
+T37	Person 463 482	Борис   Гребенщиков
+T38	Person 489 502	Юрий   Шевчук
+T39	Person 509 547	Евгений   ``   Ай-яй-яй   ''   Федоров
+A8	Male T39
+A9	Male T37
+A10	Male T38
+T40	Person-forename 463 468	Борис
+T41	Person-surname 471 482	Гребенщиков
+T42	Person-forename 489 493	Юрий
+T43	Person-surname 496 502	Шевчук
+T44	Person-forename 509 516	Евгений
+T45	Person-surname 540 547	Федоров
+T46	Person-alias 519 537	``   Ай-яй-яй   ''
+T47	Person 618 643	Александр   Архангельский
+T48	Person 650 668	Денис   Драгунский
+A11	Male T47
+A12	Male T48
+T49	Person-forename 618 627	Александр
+T50	Person-surname 630 643	Архангельский
+T51	Person-forename 650 655	Денис
+T52	Person-surname 658 668	Драгунский
+A13	Female T21
+T53	Person-forename 692 695	Зоя
+T54	Person-surname 698 705	Светова
+A14	Male T23
+T55	Person-forename 724 728	Юрий
+T56	Person-surname 731 734	Рос
+A15	Female T25
+T57	Person-forename 759 763	Нюта
+T58	Person-surname 766 777	Федермессер
+T59	Person 1082 1087	Божию
+A16	Fiction T59
+T60	Religious-group 1331 1342	Православие
+A17	Source T60
+T61	Religious-group 1399 1411	православной
+T62	GPE 1385 1396	Белорусской
+A19	Adjective T62
+A20	Past T30
+A18	Adjective T61
+A21	Department T31
+T63	Organization 1385 1420	Белорусской   православной   церкви
+T64	Religious-group 157 169	православных
+A22	Adjective T64
+T65	Religious-group 176 188	католических
+A23	Adjective T65
+T66	Organization 1477 1500	руководств   республики
+T67	GPE 1490 1500	республики
+T68	GPE 1696 1702	стране

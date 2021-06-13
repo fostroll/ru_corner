@@ -1,0 +1,52 @@
+T1	Person 0 13	Меган   Маркл
+T2	Person 20 33	принц   Гарри
+T3	GPE 52 64	Лос-Анджелес
+T4	Person-property 20 25	принц
+T5	Person 66 79	Меган   Маркл
+T6	Person 86 99	принц   Гарри
+T7	Person-property 86 91	принц
+T8	GPE 118 124	Канаду
+T9	Date-absolute 127 151	еще   в   прошлом   году
+T10	Date-absolute 326 336	1   апреля
+T11	Person-property 349 385	герцога   и   герцогини   Сассекских
+A1	Plural T11
+T12	Person 552 557	Гарри
+T13	Person 564 569	Меган
+T14	GPE 644 662	Северной   Америке
+T15	GPE 751 757	Канаду
+T16	Person 762 770	Сассексы
+T17	Facility 816 841	резиденции   Фрогмор-хаус
+T18	GPE 879 885	Англию
+A2	Female T1
+A3	Male T2
+T19	Person-forename 0 5	Меган
+T20	Person-surname 8 13	Маркл
+T21	Person-forename 28 33	Гарри
+A4	Future T10
+A5	Female T5
+A6	Male T6
+T22	Person-forename 66 71	Меган
+T23	Person-surname 74 79	Маркл
+T24	Person-forename 94 99	Гарри
+A7	Past T9
+A8	Male T12
+T25	Person-forename 552 557	Гарри
+A9	Female T13
+T26	Person-forename 564 569	Меган
+T27	Family 962 970	супругов
+T28	Ordinal 137 144	прошлом
+T29	Person-property 349 356	герцога
+T30	Person-property 363 372	герцогини
+T31	GPE 375 385	Сассекских
+A10	Adjective T31
+T32	Date-relative 421 436	с   этого   дня
+A11	Past T32
+T33	Ordinal 425 430	этого
+T34	Family 517 522	семьи
+T35	Date-relative 667 672	Тогда
+A12	Past T35
+T36	Person-surname 762 770	Сассексы
+T37	Date-absolute 917 923	Сейчас
+A13	Present T37
+T38	Organization 503 522	королевской   семьи
+T39	Person-property 484 522	старших   членов   королевской   семьи

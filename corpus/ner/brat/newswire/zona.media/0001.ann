@@ -1,0 +1,48 @@
+T1	Organization 0 7	Госдума
+T2	Duration 74 83	три   дня
+T3	Person-property 113 124	наблюдателе
+T4	Person-property 127 145	Депутаты   Госдумы
+T5	Organization 138 145	Госдумы
+T7	Duration 228 245	нескольких   дней
+T8	Organization 263 286	РИА   ``   Новости   ''
+A1	Media T8
+T9	Duration 406 430	не   более   трех   дней
+T11	Organization 585 611	``   Открытые   медиа   ''
+A2	Media T11
+T12	Person-property 664 676	наблюдателей
+T13	Nationality 789 798	россиянин
+A3	Citizenship T13
+T14	Person-property 690 702	наблюдателем
+T15	Person-property 882 894	наблюдателям
+T16	Person-property 1335 1353	члены   избиркомов
+T18	Date-relative 1327 1332	Ранее
+T19	Duration 1505 1516	один   день
+T20	Person-property 1560 1572	членов   УИК
+T21	Organization 1569 1572	УИК
+T22	Person-property 1579 1591	наблюдателей
+T23	Time-absolute 1627 1640	до   8   утра
+T24	Time-absolute 1663 1668	ночью
+T25	Duration 1722 1733	Один   день
+T26	Time-period 74 83	три   дня
+T27	Time-period 214 245	в   течение   нескольких   дней
+T28	Ordinal 152 159	третьем
+T29	Time-period 392 430	в   течение   не   более   трех   дней
+T30	Time-period 1505 1516	один   день
+T31	Time-period 1722 1733	Один   день
+T32	GPE 1790 1797	мировым
+A4	Past T18
+T33	Date-absolute 681 687	Сейчас
+A5	Present T33
+T6	Event 537 543	выборы
+T10	Event 552 562	референдум
+T17	Event 342 349	выборах
+T34	Event 356 368	референдумах
+T35	Event 65 71	выборы
+T36	Event 902 930	выборах   властей   субъекта
+T37	Event 987 1009	местных   референдумах
+T38	Event 1075 1082	выборах
+T39	Person-property 1220 1271	членов   комиссий   с   правом   решающего   голоса
+T40	Person-property 1847 1863	члены   комиссий
+A6	Adjective T32
+T41	Organization 941 975	органы   местного   самоуправления
+T42	GPE 1096 1103	регионе

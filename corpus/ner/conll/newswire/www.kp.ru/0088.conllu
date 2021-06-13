@@ -23,7 +23,7 @@
 # text = В США окружной судья штата Джорджия Майкл Браун отказал штабу Трампа в иске к CNN по освещению ``российского вмешательства''.
 1	В	_	_	_	_	_	_	_	_
 2	США	_	_	_	_	_	_	_	bratT3=GPE
-3	окружной	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Person-property|bratT6=Person
+3	окружной	_	_	_	_	_	_	_	bratA15=T39:Adjective|bratA7=T6:Male|bratT39=GPE|bratT5=Person-property|bratT6=Person
 4	судья	_	_	_	_	_	_	_	bratA7=T6:Male|bratT5=Person-property|bratT6=Person
 5	штата	_	_	_	_	_	_	_	bratA7=T6:Male|bratT4=GPE|bratT5=Person-property|bratT6=Person
 6	Джорджия	_	_	_	_	_	_	_	bratA7=T6:Male|bratT4=GPE|bratT5=Person-property|bratT6=Person
@@ -156,9 +156,9 @@
 15	связи	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
 17	утверждениями	_	_	_	_	_	_	_	_
-18	властей	_	_	_	_	_	_	_	_
-19	Соединенных	_	_	_	_	_	_	_	bratT24=GPE
-20	Штатов	_	_	_	_	_	_	_	bratT24=GPE
+18	властей	_	_	_	_	_	_	_	bratT38=Organization
+19	Соединенных	_	_	_	_	_	_	_	bratT24=GPE|bratT38=Organization
+20	Штатов	_	_	_	_	_	_	_	bratT24=GPE|bratT38=Organization
 21	о	_	_	_	_	_	_	_	_
 22	причастности	_	_	_	_	_	_	_	_
 23	к	_	_	_	_	_	_	_	_

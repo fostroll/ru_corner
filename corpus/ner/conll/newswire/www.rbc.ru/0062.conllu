@@ -1,0 +1,382 @@
+# newdoc id = 0062
+# newpar id = 0062-p1
+# par_text = Число заболевших COVID-19 в России превысило 2 млн
+# sent_id = 0062-p1-s1
+# text = Число заболевших COVID-19 в России превысило 2 млн
+1	Число	_	_	_	_	_	_	_	_
+2	заболевших	_	_	_	_	_	_	_	_
+3-5	COVID-19	_	_	_	_	_	_	_	_
+3	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
+5	19	_	_	_	_	_	_	_	bratT1=Other-term|bratT75=Cardinal
+6	в	_	_	_	_	_	_	_	_
+7	России	_	_	_	_	_	_	_	bratT2=GPE
+8	превысило	_	_	_	_	_	_	_	_
+9	2	_	_	_	_	_	_	_	bratT3=Quantity
+10	млн	_	_	_	_	_	_	_	bratT3=Quantity
+
+# newpar id = 0062-p2
+# par_text = Общее число заражений коронавирусной инфекцией COVID-19 в России с момента начала пандемии перевалило за 2 млн, свидетельствуют данные федерального оперативного штаба. За последние сутки в стране выявлено 23 610 новых случаев заражения. В результате общее число заболевших выросло до 2 млн 15 тыс. 608 человек.
+# sent_id = 0062-p2-s1
+# text = Общее число заражений коронавирусной инфекцией COVID-19 в России с момента начала пандемии перевалило за 2 млн, свидетельствуют данные федерального оперативного штаба.
+1	Общее	_	_	_	_	_	_	_	_
+2	число	_	_	_	_	_	_	_	_
+3	заражений	_	_	_	_	_	_	_	_
+4	коронавирусной	_	_	_	_	_	_	_	bratT4=Other-term
+5	инфекцией	_	_	_	_	_	_	_	bratT4=Other-term
+6-8	COVID-19	_	_	_	_	_	_	_	_
+6	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+8	19	_	_	_	_	_	_	_	bratT4=Other-term|bratT76=Cardinal
+9	в	_	_	_	_	_	_	_	_
+10	России	_	_	_	_	_	_	_	bratT5=GPE
+11	с	_	_	_	_	_	_	_	bratA1=T37:Past-Pres|bratT37=Date-period-absolute
+12	момента	_	_	_	_	_	_	_	bratA1=T37:Past-Pres|bratT37=Date-period-absolute
+13	начала	_	_	_	_	_	_	_	bratA1=T37:Past-Pres|bratT37=Date-period-absolute
+14	пандемии	_	_	_	_	_	_	_	bratA1=T37:Past-Pres|bratT37=Date-period-absolute|bratT6=Event
+15	перевалило	_	_	_	_	_	_	_	_
+16	за	_	_	_	_	_	_	_	bratT7=Quantity
+17	2	_	_	_	_	_	_	_	bratT7=Quantity
+18	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity
+19	,	_	_	_	_	_	_	_	_
+20	свидетельствуют	_	_	_	_	_	_	_	_
+21	данные	_	_	_	_	_	_	_	_
+22	федерального	_	_	_	_	_	_	_	bratT58=Organization
+23	оперативного	_	_	_	_	_	_	_	bratT58=Organization
+24	штаба	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Organization
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p2-s2
+# text = За последние сутки в стране выявлено 23 610 новых случаев заражения.
+1	За	_	_	_	_	_	_	_	bratA2=T8:Past|bratT8=Date-period-absolute
+2	последние	_	_	_	_	_	_	_	bratA2=T8:Past|bratT39=Ordinal|bratT8=Date-period-absolute
+3	сутки	_	_	_	_	_	_	_	bratA2=T8:Past|bratT38=Duration|bratT8=Date-period-absolute
+4	в	_	_	_	_	_	_	_	_
+5	стране	_	_	_	_	_	_	_	bratT78=GPE
+6	выявлено	_	_	_	_	_	_	_	_
+7	23	_	_	_	_	_	_	_	bratT9=Quantity
+8	610	_	_	_	_	_	_	_	bratT9=Quantity
+9	новых	_	_	_	_	_	_	_	_
+10	случаев	_	_	_	_	_	_	_	_
+11	заражения	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p2-s3
+# text = В результате общее число заболевших выросло до 2 млн 15 тыс. 608 человек.
+1	В	_	_	_	_	_	_	_	_
+2	результате	_	_	_	_	_	_	_	_
+3	общее	_	_	_	_	_	_	_	_
+4	число	_	_	_	_	_	_	_	_
+5	заболевших	_	_	_	_	_	_	_	_
+6	выросло	_	_	_	_	_	_	_	_
+7	до	_	_	_	_	_	_	_	bratT10=Quantity
+8	2	_	_	_	_	_	_	_	bratT10=Quantity
+9	млн	_	_	_	_	_	_	_	bratT10=Quantity
+10	15	_	_	_	_	_	_	_	bratT10=Quantity
+11	тыс.	_	_	_	_	_	_	_	bratT10=Quantity
+12	608	_	_	_	_	_	_	_	bratT10=Quantity
+13	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Quantity
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p3
+# par_text = Суточный показатель новых выявленных случаев инфицирования оказался максимальным за все время с начала пандемии. Предыдущий рекорд был зафиксирован 16 ноября, когда заболели 22 778 человек. Накануне по всей стране было выявлено 20 985 случаев инфицирования.
+# sent_id = 0062-p3-s1
+# text = Суточный показатель новых выявленных случаев инфицирования оказался максимальным за все время с начала пандемии.
+1	Суточный	_	_	_	_	_	_	_	_
+2	показатель	_	_	_	_	_	_	_	_
+3	новых	_	_	_	_	_	_	_	_
+4	выявленных	_	_	_	_	_	_	_	_
+5	случаев	_	_	_	_	_	_	_	_
+6	инфицирования	_	_	_	_	_	_	_	_
+7	оказался	_	_	_	_	_	_	_	_
+8	максимальным	_	_	_	_	_	_	_	_
+9	за	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
+10	все	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
+11	время	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
+12	с	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
+13	начала	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
+14	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T40:Past-Pres|bratT11=Event|bratT40=Date-period-absolute
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p3-s2
+# text = Предыдущий рекорд был зафиксирован 16 ноября, когда заболели 22 778 человек.
+1	Предыдущий	_	_	_	_	_	_	_	bratT41=Ordinal
+2	рекорд	_	_	_	_	_	_	_	_
+3	был	_	_	_	_	_	_	_	_
+4	зафиксирован	_	_	_	_	_	_	_	_
+5	16	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute
+6	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Past|bratT12=Date-absolute
+7	,	_	_	_	_	_	_	_	_
+8	когда	_	_	_	_	_	_	_	_
+9	заболели	_	_	_	_	_	_	_	_
+10	22	_	_	_	_	_	_	_	bratT13=Quantity
+11	778	_	_	_	_	_	_	_	bratT13=Quantity
+12	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p3-s3
+# text = Накануне по всей стране было выявлено 20 985 случаев инфицирования.
+1	Накануне	_	_	_	_	_	_	_	bratA5=T36:Past|bratT36=Date-absolute
+2	по	_	_	_	_	_	_	_	_
+3	всей	_	_	_	_	_	_	_	_
+4	стране	_	_	_	_	_	_	_	bratT79=GPE
+5	было	_	_	_	_	_	_	_	_
+6	выявлено	_	_	_	_	_	_	_	_
+7	20	_	_	_	_	_	_	_	bratT14=Quantity
+8	985	_	_	_	_	_	_	_	bratT14=Quantity
+9	случаев	_	_	_	_	_	_	_	bratT14=Quantity
+10	инфицирования	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p4
+# par_text = Более 20 тыс. заражений COVID-19 фиксируется в России восьмой день подряд.
+# sent_id = 0062-p4-s1
+# text = Более 20 тыс. заражений COVID-19 фиксируется в России восьмой день подряд.
+1	Более	_	_	_	_	_	_	_	bratT15=Quantity
+2	20	_	_	_	_	_	_	_	bratT15=Quantity
+3	тыс.	_	_	_	_	_	_	_	bratT15=Quantity
+4	заражений	_	_	_	_	_	_	_	bratT15=Quantity
+5-7	COVID-19	_	_	_	_	_	_	_	_
+5	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+7	19	_	_	_	_	_	_	_	bratT16=Other-term|bratT74=Cardinal
+8	фиксируется	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	России	_	_	_	_	_	_	_	bratT17=GPE
+11	восьмой	_	_	_	_	_	_	_	bratA12=T43:RCont|bratA6=T43:Past-Pres|bratT18=Ordinal|bratT43=Date-period-relative
+12	день	_	_	_	_	_	_	_	bratA12=T43:RCont|bratA6=T43:Past-Pres|bratT42=Duration|bratT43=Date-period-relative
+13	подряд	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:RCont|bratA6=T43:Past-Pres|bratT43=Date-period-relative
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p5
+# par_text = Число активных случаев (тех, кто находится под наблюдением) снизилось второй день подряд. Произошло это благодаря тому, что за последние сутки число выздоровевших достигло максимума — 25 573 человек.
+# sent_id = 0062-p5-s1
+# text = Число активных случаев (тех, кто находится под наблюдением) снизилось второй день подряд.
+1	Число	_	_	_	_	_	_	_	_
+2	активных	_	_	_	_	_	_	_	_
+3	случаев	_	_	_	_	_	_	_	_
+4	(	_	_	_	_	_	_	_	SpaceAfter=No
+5	тех	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	кто	_	_	_	_	_	_	_	_
+8	находится	_	_	_	_	_	_	_	_
+9	под	_	_	_	_	_	_	_	_
+10	наблюдением	_	_	_	_	_	_	_	SpaceAfter=No
+11	)	_	_	_	_	_	_	_	_
+12	снизилось	_	_	_	_	_	_	_	_
+13	второй	_	_	_	_	_	_	_	bratA7=T45:Past-Pres|bratT19=Ordinal|bratT45=Date-period-absolute
+14	день	_	_	_	_	_	_	_	bratA7=T45:Past-Pres|bratT44=Duration|bratT45=Date-period-absolute
+15	подряд	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T45:Past-Pres|bratT45=Date-period-absolute
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p5-s2
+# text = Произошло это благодаря тому, что за последние сутки число выздоровевших достигло максимума - 25 573 человек.
+1	Произошло	_	_	_	_	_	_	_	_
+2	это	_	_	_	_	_	_	_	_
+3	благодаря	_	_	_	_	_	_	_	_
+4	тому	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	за	_	_	_	_	_	_	_	bratA8=T20:Past|bratT20=Date-period-absolute
+8	последние	_	_	_	_	_	_	_	bratA8=T20:Past|bratT20=Date-period-absolute|bratT47=Ordinal
+9	сутки	_	_	_	_	_	_	_	bratA8=T20:Past|bratT20=Date-period-absolute|bratT46=Duration
+10	число	_	_	_	_	_	_	_	_
+11	выздоровевших	_	_	_	_	_	_	_	_
+12	достигло	_	_	_	_	_	_	_	_
+13	максимума	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	25	_	_	_	_	_	_	_	bratT21=Quantity
+16	573	_	_	_	_	_	_	_	bratT21=Quantity
+17	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p6
+# par_text = В Москве за последние сутки были выявлены 6438 инфицированных, в Санкт-Петербурге — 2312, в Московской области — 880.
+# sent_id = 0062-p6-s1
+# text = В Москве за последние сутки были выявлены 6438 инфицированных, в Санкт-Петербурге - 2312, в Московской области - 880.
+1	В	_	_	_	_	_	_	_	_
+2	Москве	_	_	_	_	_	_	_	bratT22=GPE
+3	за	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-period-absolute
+4	последние	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-period-absolute|bratT49=Ordinal
+5	сутки	_	_	_	_	_	_	_	bratA9=T23:Past|bratT23=Date-period-absolute|bratT48=Duration
+6	были	_	_	_	_	_	_	_	_
+7	выявлены	_	_	_	_	_	_	_	_
+8	6438	_	_	_	_	_	_	_	bratT24=Quantity
+9	инфицированных	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Quantity
+10	,	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	Санкт-Петербурге	_	_	_	_	_	_	_	bratT25=GPE
+13	-	_	_	_	_	_	_	_	_
+14	2312	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
+15	,	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	Московской	_	_	_	_	_	_	_	bratT27=GPE
+18	области	_	_	_	_	_	_	_	bratT27=GPE
+19	-	_	_	_	_	_	_	_	_
+20	880	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Quantity
+21	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p7
+# par_text = Кроме того, множество заболевших было выявлено в следующих регионах:
+# sent_id = 0062-p7-s1
+# text = Кроме того, множество заболевших было выявлено в следующих регионах:
+1	Кроме	_	_	_	_	_	_	_	_
+2	того	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	множество	_	_	_	_	_	_	_	_
+5	заболевших	_	_	_	_	_	_	_	_
+6	было	_	_	_	_	_	_	_	_
+7	выявлено	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	следующих	_	_	_	_	_	_	_	_
+10	регионах	_	_	_	_	_	_	_	SpaceAfter=No
+11	:	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p8
+# par_text = Нижегородская область — 441;
+# sent_id = 0062-p8-s1
+# text = Нижегородская область - 441;
+1	Нижегородская	_	_	_	_	_	_	_	bratT32=GPE
+2	область	_	_	_	_	_	_	_	bratT32=GPE
+3	-	_	_	_	_	_	_	_	_
+4	441	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Cardinal
+5	;	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p9
+# par_text = Свердловская область — 369;
+# sent_id = 0062-p9-s1
+# text = Свердловская область - 369;
+1	Свердловская	_	_	_	_	_	_	_	bratT56=GPE
+2	область	_	_	_	_	_	_	_	bratT56=GPE
+3	-	_	_	_	_	_	_	_	_
+4	369	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Cardinal
+5	;	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p10
+# par_text = Архангельская область — 334;
+# sent_id = 0062-p10-s1
+# text = Архангельская область - 334;
+1	Архангельская	_	_	_	_	_	_	_	bratT57=GPE
+2	область	_	_	_	_	_	_	_	bratT57=GPE
+3	-	_	_	_	_	_	_	_	_
+4	334	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Cardinal
+5	;	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p11
+# par_text = Красноярский край — 333;
+# sent_id = 0062-p11-s1
+# text = Красноярский край - 333;
+1	Красноярский	_	_	_	_	_	_	_	bratT59=GPE
+2	край	_	_	_	_	_	_	_	bratT59=GPE
+3	-	_	_	_	_	_	_	_	_
+4	333	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Cardinal
+5	;	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p12
+# par_text = Воронежская область — 314.
+# sent_id = 0062-p12-s1
+# text = Воронежская область - 314.
+1	Воронежская	_	_	_	_	_	_	_	bratT60=GPE
+2	область	_	_	_	_	_	_	_	bratT60=GPE
+3	-	_	_	_	_	_	_	_	_
+4	314	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Cardinal
+5	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p13
+# par_text = По данным Университета Джонса Хопкинса, общее количество заражений COVID-19 в мире с момента начала пандемии превысило 56,25 млн. При этом Россия входит в первую пятерку стран, где заболевших выявлено больше всего. Выше нее в этом рейтинге только:
+# sent_id = 0062-p13-s1
+# text = По данным Университета Джонса Хопкинса, общее количество заражений COVID-19 в мире с момента начала пандемии превысило 56,25 млн.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	Университета	_	_	_	_	_	_	_	bratT29=Organization
+4	Джонса	_	_	_	_	_	_	_	bratA10=T30:Male|bratT29=Organization|bratT30=Person|bratT50=Person-forename
+5	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T30:Male|bratT29=Organization|bratT30=Person|bratT51=Person-surname
+6	,	_	_	_	_	_	_	_	_
+7	общее	_	_	_	_	_	_	_	_
+8	количество	_	_	_	_	_	_	_	_
+9	заражений	_	_	_	_	_	_	_	_
+10-12	COVID-19	_	_	_	_	_	_	_	_
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term
+12	19	_	_	_	_	_	_	_	bratT31=Other-term|bratT77=Cardinal
+13	в	_	_	_	_	_	_	_	_
+14	мире	_	_	_	_	_	_	_	bratT54=GPE
+15	с	_	_	_	_	_	_	_	bratA11=T52:Past-Pres|bratT52=Date-period-absolute
+16	момента	_	_	_	_	_	_	_	bratA11=T52:Past-Pres|bratT52=Date-period-absolute
+17	начала	_	_	_	_	_	_	_	bratA11=T52:Past-Pres|bratT52=Date-period-absolute
+18	пандемии	_	_	_	_	_	_	_	bratA11=T52:Past-Pres|bratT52=Date-period-absolute|bratT53=Event
+19	превысило	_	_	_	_	_	_	_	_
+20	56,25	_	_	_	_	_	_	_	bratT55=Quantity
+21	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Quantity
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p13-s2
+# text = При этом Россия входит в первую пятерку стран, где заболевших выявлено больше всего.
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	Россия	_	_	_	_	_	_	_	bratT33=GPE
+4	входит	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	первую	_	_	_	_	_	_	_	bratT34=Ordinal
+7	пятерку	_	_	_	_	_	_	_	bratT35=Quantity
+8	стран	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Quantity
+9	,	_	_	_	_	_	_	_	_
+10	где	_	_	_	_	_	_	_	_
+11	заболевших	_	_	_	_	_	_	_	_
+12	выявлено	_	_	_	_	_	_	_	_
+13	больше	_	_	_	_	_	_	_	_
+14	всего	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p13-s3
+# text = Выше нее в этом рейтинге только:
+1	Выше	_	_	_	_	_	_	_	_
+2	нее	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	этом	_	_	_	_	_	_	_	_
+5	рейтинге	_	_	_	_	_	_	_	_
+6	только	_	_	_	_	_	_	_	SpaceAfter=No
+7	:	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p14
+# par_text = США — более 11,5 млн;
+# sent_id = 0062-p14-s1
+# text = США - более 11,5 млн;
+1	США	_	_	_	_	_	_	_	bratT66=GPE
+2	-	_	_	_	_	_	_	_	_
+3	более	_	_	_	_	_	_	_	bratT70=Quantity
+4	11,5	_	_	_	_	_	_	_	bratT70=Quantity
+5	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Quantity
+6	;	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p15
+# par_text = Индия — около 8,95 млн;
+# sent_id = Индия - около 8,95 млн;
+# text = Индия - около 8,95 млн;
+1	Индия	_	_	_	_	_	_	_	bratT67=GPE
+2	-	_	_	_	_	_	_	_	_
+3	около	_	_	_	_	_	_	_	bratT71=Quantity
+4	8,95	_	_	_	_	_	_	_	bratT71=Quantity
+5	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Quantity
+6	;	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p16
+# par_text = Бразилия — 5,95 млн;
+# sent_id = Бразилия - 5,95 млн;
+# text = Бразилия - 5,95 млн;
+1	Бразилия	_	_	_	_	_	_	_	bratT68=GPE
+2	-	_	_	_	_	_	_	_	_
+3	5,95	_	_	_	_	_	_	_	bratT72=Quantity
+4	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Quantity
+5	;	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p17
+# par_text = Франция — 2,1 млн.
+# sent_id = Франция - 2,1 млн.
+# text = Франция - 2,1 млн.
+1	Франция	_	_	_	_	_	_	_	bratT69=GPE
+2	-	_	_	_	_	_	_	_	_
+3	2,1	_	_	_	_	_	_	_	bratT73=Quantity
+4	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Quantity
+5	.	_	_	_	_	_	_	_	_
+

@@ -22,7 +22,7 @@
 5	Молдавии	_	_	_	_	_	_	_	bratT38=Event|bratT5=GPE|bratT6=Person-property|bratT8=Event
 6	начался	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	республике	_	_	_	_	_	_	_	_
+8	республике	_	_	_	_	_	_	_	bratT57=GPE
 9	в	_	_	_	_	_	_	_	bratA6=T9:Past|bratT9=Date-absolute
 10	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T9:Past|bratT9=Date-absolute
 11	,	_	_	_	_	_	_	_	bratA6=T9:Past|bratT9=Date-absolute
@@ -34,7 +34,7 @@
 # text = По всей стране в 8:00 по московскому времени (7 утра по местному) открылись избирательные участки.
 1	По	_	_	_	_	_	_	_	_
 2	всей	_	_	_	_	_	_	_	_
-3	стране	_	_	_	_	_	_	_	_
+3	стране	_	_	_	_	_	_	_	bratT58=GPE
 4	в	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
 5	8:00	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
 6	по	_	_	_	_	_	_	_	bratA2=T46:Past|bratT45=Time-absolute|bratT46=Date-relative
@@ -44,7 +44,7 @@
 10	7	_	_	_	_	_	_	_	bratA2=T46:Past|bratT11=Time-absolute|bratT46=Date-relative
 11	утра	_	_	_	_	_	_	_	bratA2=T46:Past|bratT11=Time-absolute|bratT46=Date-relative
 12	по	_	_	_	_	_	_	_	bratA2=T46:Past|bratT11=Time-absolute|bratT46=Date-relative
-13	местному	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T46:Past|bratT11=Time-absolute|bratT46=Date-relative
+13	местному	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T56:Adjective|bratA2=T46:Past|bratT11=Time-absolute|bratT46=Date-relative|bratT56=GPE
 14	)	_	_	_	_	_	_	_	bratA2=T46:Past|bratT46=Date-relative
 15	открылись	_	_	_	_	_	_	_	_
 16	избирательные	_	_	_	_	_	_	_	_
@@ -86,7 +86,7 @@
 21	скором	_	_	_	_	_	_	_	bratA5=T44:Future|bratT44=Date-absolute|bratT54=Ordinal
 22	времени	_	_	_	_	_	_	_	bratA5=T44:Future|bratT44=Date-absolute
 23	откроются	_	_	_	_	_	_	_	_
-24	в	_	_	_	_	_	_	_	bratT16=Quantity
+24	в	_	_	_	_	_	_	_	_
 25	26	_	_	_	_	_	_	_	bratT16=Quantity
 26	государствах	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
 27	.	_	_	_	_	_	_	_	_
@@ -99,8 +99,8 @@
 2	эпидемии	_	_	_	_	_	_	_	bratT39=Event
 3	коронавирусной	_	_	_	_	_	_	_	bratT17=Other-term|bratT39=Event
 4	инфекции	_	_	_	_	_	_	_	bratT17=Other-term|bratT39=Event
-5	власти	_	_	_	_	_	_	_	_
-6	республики	_	_	_	_	_	_	_	_
+5	власти	_	_	_	_	_	_	_	bratT55=Organization
+6	республики	_	_	_	_	_	_	_	bratT55=Organization|bratT59=GPE
 7	настоятельно	_	_	_	_	_	_	_	_
 8	попросили	_	_	_	_	_	_	_	_
 9	избирателей	_	_	_	_	_	_	_	bratT40=Other-group
@@ -196,7 +196,7 @@
 9	голосов	_	_	_	_	_	_	_	_
 10	действующего	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
 11	президента	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
-12	республики	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person
+12	республики	_	_	_	_	_	_	_	bratA8=T29:Male|bratT28=Person-property|bratT29=Person|bratT60=GPE
 13	Игоря	_	_	_	_	_	_	_	bratA8=T29:Male|bratT29=Person|bratT51=Person-forename
 14	Додона	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T29:Male|bratT29=Person|bratT52=Person-surname
 15	.	_	_	_	_	_	_	_	_
@@ -210,7 +210,7 @@
 3	президентских	_	_	_	_	_	_	_	bratT31=Event|bratT42=Event
 4	выборов	_	_	_	_	_	_	_	bratT31=Event|bratT42=Event
 5	в	_	_	_	_	_	_	_	_
-6	стране	_	_	_	_	_	_	_	_
+6	стране	_	_	_	_	_	_	_	bratT61=GPE
 7	был	_	_	_	_	_	_	_	_
 8	назначен	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
@@ -221,8 +221,8 @@
 14	кандидатов	_	_	_	_	_	_	_	bratT32=Quantity|bratT34=Person-property
 15	на	_	_	_	_	_	_	_	bratT34=Person-property
 16	пост	_	_	_	_	_	_	_	bratT34=Person-property
-17	главы	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Person-property
-18	государства	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Person-property
+17	главы	_	_	_	_	_	_	_	bratT34=Person-property
+18	государства	_	_	_	_	_	_	_	bratT34=Person-property|bratT62=GPE
 19	не	_	_	_	_	_	_	_	_
 20	смог	_	_	_	_	_	_	_	_
 21	набрать	_	_	_	_	_	_	_	_
@@ -231,7 +231,7 @@
 24	в	_	_	_	_	_	_	_	_
 25	50	_	_	_	_	_	_	_	bratT35=Percent
 26	процентов	_	_	_	_	_	_	_	bratT35=Percent
-27	плюс	_	_	_	_	_	_	_	_
+27	плюс	_	_	_	_	_	_	_	bratT36=Quantity
 28	один	_	_	_	_	_	_	_	bratT36=Quantity
 29	голос	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Quantity
 30	.	_	_	_	_	_	_	_	_

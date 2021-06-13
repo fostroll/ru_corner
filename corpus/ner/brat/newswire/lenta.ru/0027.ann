@@ -24,9 +24,9 @@ T21	Person-property 959 979	Российский   политик
 T22	Person 1169 1179	Зеленского
 T23	Person 1242 1248	Пушков
 T24	Person 1269 1279	Зеленского
-T25	Person-property 1339 1348	президент
+T25	Person-property 1339 1358	президент   Украины
 T26	GPE 1351 1358	Украины
-T27	Person 1504 1531	Реджепа   Тайипа   Эрдогана
+T27	Person 1473 1531	своего   турецкого   коллеги   Реджепа   Тайипа   Эрдогана
 T28	GPE 1579 1583	Крым
 T29	GPE 1591 1598	Украине
 T30	Person 1601 1608	Эрдоган
@@ -73,3 +73,18 @@ A16	Male T23
 A17	Male T27
 A18	Adjective T38
 A19	Male T30
+T57	Date-period-absolute 1142 1166	в   годы   президентства
+A20	UNK-Fut T57
+T58	Duration 1146 1150	годы
+T59	Person-property 1482 1501	турецкого   коллеги
+T60	Person 959 979	Российский   политик
+A21	Male T60
+T61	Person 1339 1358	президент   Украины
+A22	Male T61
+T62	Person 1773 1792	президента   Турции
+T63	Person 1898 1915	глав   государств
+T64	Person-property 1898 1915	глав   государств
+T65	Person 285 298	парламентария
+A23	Male T65
+T66	Organization 816 822	власти
+T67	Organization 546 552	власти

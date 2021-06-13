@@ -12,14 +12,14 @@ T13	Money 444 484	(   более   3,6   миллиарда   рублей   )
 T14	Organization 502 519	New   York   Post
 A3	Media T14
 T15	Person 525 533	Хилфигер
-T17	Person-property 716 725	модельеру
+T17	Person 716 725	модельеру
 T18	Quantity 813 849	четырем   потенциальным   владельцам
 T19	Quantity 856 865	трое   из
 T20	Quantity 1169 1186	девять   гектаров
 T21	Quantity 1256 1298	более   1,2   тысячи   квадратных   метров
 T22	Date-absolute 1319 1334	в   1939   году
 T23	Quantity 1361 1375	шесть   спален
-T24	Facility 1699 1719	пролив   Лонг-Айленд
+T24	Facility 1700 1720	пролив   Лонг-Айленд
 T2	Person-property 116 150	основатель   одноименного   бренда
 T5	Person-property 764 773	бизнесмен
 T25	Event 1115 1123	пандемии
@@ -51,3 +51,14 @@ A9	Adjective T31
 A10	Female T8
 A11	Female T9
 A12	Male T15
+T42	Person 0 23	Американский   модельер
+A13	Male T42
+A14	Male T17
+T43	Person 764 773	бизнесмен
+A15	Male T43
+T44	Nationality 1016 1023	жителей
+A16	Resident T44
+T45	Person 682 690	Источник
+T46	Person 813 849	четырем   потенциальным   владельцам
+T47	Person 856 875	трое   из   которых
+T48	Person 926 935	экспертов

@@ -32,8 +32,6 @@ T33	Service 112 118	скорые
 T39	Service 1019 1026	скорыми
 T40	Service 1125 1132	скорыми
 T24	Quantity 1264 1276	две   машины
-T41	Other-group 1312 1322	пациентами
-T42	Other-group 1407 1416	пациентов
 T25	Facility 1329 1363	зданию   регионального   Минздрава
 T43	GPE 499 506	столицу
 A1	Media T9
@@ -68,3 +66,16 @@ A12	Male T6
 A13	Male T17
 A14	Male T23
 A15	Male T36
+T56	Event 388 413	заражении   коронавирусом
+T41	Person 0 19	Омский   губернатор
+A16	Male T41
+T42	Person 70 99	Губернатор   Омской   области
+A17	Male T42
+T57	Person 347 354	Политик
+A18	Male T57
+T58	Person 1492 1507	глава   региона
+A19	Male T58
+T59	Event 429 446	рабочей   поездки
+T60	Event 1003 1011	инцидент
+T62	Person 1312 1322	пациентами
+T61	Person-property 1538 1547	должности

@@ -1,0 +1,54 @@
+T1	GPE 8 11	США
+T2	Organization 79 85	Кремле
+T3	Organization 91 97	Кремле
+T4	GPE 125 128	США
+T5	Person-property 196 224	пресс-секретарь   президента
+T6	Person 196 243	пресс-секретарь   президента   Дмитрий   Песков
+T7	GPE 569 572	США
+T8	GPE 756 759	США
+T9	Person 885 891	Песков
+T10	Organization 912 935	``   РИА   Новости   ''
+A1	Media T10
+T11	GPE 965 968	США
+T12	Date-absolute 1056 1067	22   ноября
+T13	GPE 1103 1106	США
+T14	Person-property 1079 1141	советник   президента   США   по   национальной   безопасности
+T15	Person 1079 1161	советник   президента   США   по   национальной   безопасности   Роберт   О'Брайен
+T16	Person-property 214 224	президента
+T17	Person-property 1090 1106	президента   США
+T18	Duration 1193 1206	шестимесячный
+T19	GPE 1244 1247	США
+T21	Date-absolute 1271 1278	Сегодня
+T22	Duration 1292 1307	шесть   месяцев
+T23	GPE 1335 1338	США
+T24	GPE 1433 1439	Россия
+T25	Duration 1461 1467	годами
+T26	Person-forename 227 234	Дмитрий
+T27	Person-surname 237 243	Песков
+A2	Male T6
+T29	Person-surname 885 891	Песков
+A4	Male T9
+A5	Past T12
+T30	Person-forename 1144 1150	Роберт
+T31	Person-surname 1153 1161	О'Брайен
+A6	Male T15
+T32	Date-relative 1167 1182	В   этот   день
+A7	Past T32
+T33	Date-period-absolute 1193 1241	шестимесячный   срок   с   момента   уведомления
+A9	Past T33
+T35	Date-period-absolute 1292 1332	шесть   месяцев   со   дня   уведомления
+T36	Date-period-relative 1461 1467	годами
+A12	Past T36
+T37	Ordinal 1171 1175	этот
+T38	Law 1007 1039	Договора   по   открытому   небу
+T39	Law 1046 1049	ДОН
+T40	Event 1230 1241	уведомления
+T41	Event 1321 1332	уведомления
+T42	Law 1359 1362	ДОН
+A13	Present T21
+A3	Past-Pres T35
+T20	Event 0 5	Выход
+T28	Law 19 51	Договора   по   открытому   небу
+T34	Law 148 180	Договора   по   открытому   небу
+T43	Event 1254 1260	выходе
+T44	Event 1345 1351	выходе

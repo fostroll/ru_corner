@@ -1,0 +1,170 @@
+# newdoc id = 0034
+# newpar id = 0034-p1
+# par_text = Суд отклонил иск МВД Бурятии к депутату за выступление о разгоне митинга против результатов выборов мэра Улан-Удэ
+# sent_id = 0034-p1-s1
+# text = Суд отклонил иск МВД Бурятии к депутату за выступление о разгоне митинга против результатов выборов мэра Улан-Удэ
+1	Суд	_	_	_	_	_	_	_	_
+2	отклонил	_	_	_	_	_	_	_	_
+3	иск	_	_	_	_	_	_	_	_
+4	МВД	_	_	_	_	_	_	_	bratT1=Organization
+5	Бурятии	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+6	к	_	_	_	_	_	_	_	_
+7	депутату	_	_	_	_	_	_	_	bratT4=Person-property
+8	за	_	_	_	_	_	_	_	_
+9	выступление	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	разгоне	_	_	_	_	_	_	_	bratT31=Event
+12	митинга	_	_	_	_	_	_	_	bratT31=Event|bratT5=Event
+13	против	_	_	_	_	_	_	_	_
+14	результатов	_	_	_	_	_	_	_	_
+15	выборов	_	_	_	_	_	_	_	_
+16	мэра	_	_	_	_	_	_	_	bratT6=Person-property
+17	Улан-Удэ	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=GPE
+
+# newpar id = 0034-p2
+# par_text = Железнодорожный районный суд Улан-Удэ отклонил иск управления министерства внутренних дел по Бурятии о защите репутации к депутату Народного Хурала республики от КПРФ Баиру Цыренову. Об этом сам депутат рассказал на своей странице во «ВКонтакте».
+# sent_id = 0034-p2-s1
+# text = Железнодорожный районный суд Улан-Удэ отклонил иск управления министерства внутренних дел по Бурятии о защите репутации к депутату Народного Хурала республики от КПРФ Баиру Цыренову.
+1	Железнодорожный	_	_	_	_	_	_	_	bratA1=T10:Adjective|bratT10=GPE|bratT9=Organization
+2	районный	_	_	_	_	_	_	_	bratA1=T10:Adjective|bratT10=GPE|bratT9=Organization
+3	суд	_	_	_	_	_	_	_	bratT9=Organization
+4	Улан-Удэ	_	_	_	_	_	_	_	bratT11=GPE|bratT9=Organization
+5	отклонил	_	_	_	_	_	_	_	_
+6	иск	_	_	_	_	_	_	_	_
+7	управления	_	_	_	_	_	_	_	bratT13=Organization
+8	министерства	_	_	_	_	_	_	_	bratT13=Organization|bratT8=Organization
+9	внутренних	_	_	_	_	_	_	_	bratT13=Organization|bratT8=Organization
+10	дел	_	_	_	_	_	_	_	bratT13=Organization|bratT8=Organization
+11	по	_	_	_	_	_	_	_	bratT13=Organization
+12	Бурятии	_	_	_	_	_	_	_	bratT13=Organization|bratT14=GPE
+13	о	_	_	_	_	_	_	_	_
+14	защите	_	_	_	_	_	_	_	_
+15	репутации	_	_	_	_	_	_	_	_
+16	к	_	_	_	_	_	_	_	_
+17	депутату	_	_	_	_	_	_	_	bratA2=T15:Male|bratT15=Person|bratT20=Person-property
+18	Народного	_	_	_	_	_	_	_	bratA2=T15:Male|bratA3=T16:Department|bratT15=Person|bratT16=Organization|bratT20=Person-property
+19	Хурала	_	_	_	_	_	_	_	bratA2=T15:Male|bratA3=T16:Department|bratT15=Person|bratT16=Organization|bratT20=Person-property
+20	республики	_	_	_	_	_	_	_	bratA2=T15:Male|bratA3=T16:Department|bratT15=Person|bratT16=Organization|bratT20=Person-property|bratT61=GPE
+21	от	_	_	_	_	_	_	_	bratA2=T15:Male|bratT15=Person|bratT20=Person-property
+22	КПРФ	_	_	_	_	_	_	_	bratA2=T15:Male|bratT15=Person|bratT17=Organization|bratT20=Person-property
+23	Баиру	_	_	_	_	_	_	_	bratA2=T15:Male|bratT15=Person|bratT18=Person-forename
+24	Цыренову	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Male|bratT15=Person|bratT19=Person-surname
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0034-p2-s2
+# text = Об этом сам депутат рассказал на своей странице во ``ВКонтакте''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сам	_	_	_	_	_	_	_	_
+4	депутат	_	_	_	_	_	_	_	bratT21=Person-property
+5	рассказал	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	своей	_	_	_	_	_	_	_	_
+8	странице	_	_	_	_	_	_	_	bratA13=T22:Media|bratT22=Service
+9	во	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Service
+11	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Service
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Service
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0034-p3
+# par_text = МВД подало иск к Цыренову в августе из-за его выступления во время сессии Народного Хурала в марте 2020 года после отчета главы МВД Бурятии Олега Кудинова.
+# sent_id = 0034-p3-s1
+# text = МВД подало иск к Цыренову в августе из-за его выступления во время сессии Народного Хурала в марте 2020 года после отчета главы МВД Бурятии Олега Кудинова.
+1	МВД	_	_	_	_	_	_	_	bratT24=Organization
+2	подало	_	_	_	_	_	_	_	_
+3	иск	_	_	_	_	_	_	_	_
+4	к	_	_	_	_	_	_	_	_
+5	Цыренову	_	_	_	_	_	_	_	bratA5=T26:Male|bratT25=Person-surname|bratT26=Person
+6	в	_	_	_	_	_	_	_	bratA4=T27:Past|bratT27=Date-absolute
+7	августе	_	_	_	_	_	_	_	bratA4=T27:Past|bratT27=Date-absolute
+8	из-за	_	_	_	_	_	_	_	_
+9	его	_	_	_	_	_	_	_	_
+10	выступления	_	_	_	_	_	_	_	_
+11	во	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-absolute
+12	время	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-absolute
+13	сессии	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-absolute|bratT28=Event
+14	Народного	_	_	_	_	_	_	_	bratT28=Event|bratT29=Organization
+15	Хурала	_	_	_	_	_	_	_	bratT28=Event|bratT29=Organization
+16	в	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
+17	марте	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
+18	2020	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
+19	года	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
+20	после	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
+21	отчета	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute|bratT60=Event
+22	главы	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT35=Person-property
+23	МВД	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT33=Organization|bratT35=Person-property
+24	Бурятии	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT33=Organization|bratT34=GPE|bratT35=Person-property
+25	Олега	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT36=Person-forename
+26	Кудинова	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T32:Male|bratT32=Person|bratT37=Person-surname
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0034-p4
+# par_text = Когда Кудинов отказался по просьбе Цыренова комментировать репортаж РЕН ТВ о сенаторе Вячеславе Мархаеве, выдвигавшемся в мэры Улан-Удэ, депутат сказал, что «работа органов внутренних дел республики Бурятия оставляет желать лучшего». Он добавил о пытках в отделах полиции и силовом разгоне в сентябре 2019 года стихийных акций после выборов мэра, в которых участвовал Мархаев.
+# sent_id = 0034-p4-s1
+# text = Когда Кудинов отказался по просьбе Цыренова комментировать репортаж РЕН ТВ о сенаторе Вячеславе Мархаеве, выдвигавшемся в мэры Улан-Удэ, депутат сказал, что ``работа органов внутренних дел республики Бурятия оставляет желать лучшего''.
+1	Когда	_	_	_	_	_	_	_	_
+2	Кудинов	_	_	_	_	_	_	_	bratA7=T38:Male|bratT38=Person|bratT39=Person-surname
+3	отказался	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	просьбе	_	_	_	_	_	_	_	_
+6	Цыренова	_	_	_	_	_	_	_	bratA8=T40:Male|bratT40=Person|bratT41=Person-surname
+7	комментировать	_	_	_	_	_	_	_	_
+8	репортаж	_	_	_	_	_	_	_	_
+9	РЕН	_	_	_	_	_	_	_	bratA9=T42:Media|bratT42=Organization
+10	ТВ	_	_	_	_	_	_	_	bratA9=T42:Media|bratT42=Organization
+11	о	_	_	_	_	_	_	_	_
+12	сенаторе	_	_	_	_	_	_	_	bratA10=T43:Male|bratT43=Person|bratT44=Person-property
+13	Вячеславе	_	_	_	_	_	_	_	bratA10=T43:Male|bratT43=Person|bratT45=Person-forename
+14	Мархаеве	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T43:Male|bratT43=Person|bratT46=Person-surname
+15	,	_	_	_	_	_	_	_	_
+16	выдвигавшемся	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	мэры	_	_	_	_	_	_	_	bratT47=Person-property
+19	Улан-Удэ	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person-property|bratT48=GPE
+20	,	_	_	_	_	_	_	_	_
+21	депутат	_	_	_	_	_	_	_	bratT49=Person-property
+22	сказал	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	что	_	_	_	_	_	_	_	_
+25	``	_	_	_	_	_	_	_	SpaceAfter=No
+26	работа	_	_	_	_	_	_	_	_
+27	органов	_	_	_	_	_	_	_	bratT50=Organization
+28	внутренних	_	_	_	_	_	_	_	bratT50=Organization
+29	дел	_	_	_	_	_	_	_	bratT50=Organization
+30	республики	_	_	_	_	_	_	_	bratT50=Organization|bratT51=GPE
+31	Бурятия	_	_	_	_	_	_	_	bratT50=Organization|bratT51=GPE
+32	оставляет	_	_	_	_	_	_	_	_
+33	желать	_	_	_	_	_	_	_	_
+34	лучшего	_	_	_	_	_	_	_	SpaceAfter=No
+35	''	_	_	_	_	_	_	_	SpaceAfter=No
+36	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0034-p4-s2
+# text = Он добавил о пытках в отделах полиции и силовом разгоне в сентябре 2019 года стихийных акций после выборов мэра, в которых участвовал Мархаев.
+1	Он	_	_	_	_	_	_	_	_
+2	добавил	_	_	_	_	_	_	_	_
+3	о	_	_	_	_	_	_	_	_
+4	пытках	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	отделах	_	_	_	_	_	_	_	_
+7	полиции	_	_	_	_	_	_	_	bratT59=Organization
+8	и	_	_	_	_	_	_	_	_
+9	силовом	_	_	_	_	_	_	_	bratT52=Event
+10	разгоне	_	_	_	_	_	_	_	bratT52=Event
+11	в	_	_	_	_	_	_	_	bratA11=T53:Past|bratT53=Date-absolute
+12	сентябре	_	_	_	_	_	_	_	bratA11=T53:Past|bratT53=Date-absolute
+13	2019	_	_	_	_	_	_	_	bratA11=T53:Past|bratT53=Date-absolute
+14	года	_	_	_	_	_	_	_	bratA11=T53:Past|bratT53=Date-absolute
+15	стихийных	_	_	_	_	_	_	_	bratT58=Event
+16	акций	_	_	_	_	_	_	_	bratT58=Event
+17	после	_	_	_	_	_	_	_	bratA15=T3:Past|bratT3=Date-absolute
+18	выборов	_	_	_	_	_	_	_	bratA15=T3:Past|bratT3=Date-absolute|bratT54=Event
+19	мэра	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Event|bratT55=Person-property
+20	,	_	_	_	_	_	_	_	_
+21	в	_	_	_	_	_	_	_	_
+22	которых	_	_	_	_	_	_	_	_
+23	участвовал	_	_	_	_	_	_	_	_
+24	Мархаев	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T56:Male|bratT56=Person|bratT57=Person-surname
+25	.	_	_	_	_	_	_	_	_
+

@@ -34,8 +34,8 @@
 12	в	_	_	_	_	_	_	_	_
 13	одном	_	_	_	_	_	_	_	bratT35=Quantity
 14	из	_	_	_	_	_	_	_	bratT35=Quantity
-15	чемпионатов	_	_	_	_	_	_	_	_
-16	Европы	_	_	_	_	_	_	_	bratT36=GPE
+15	чемпионатов	_	_	_	_	_	_	_	bratT58=Event
+16	Европы	_	_	_	_	_	_	_	bratT36=GPE|bratT58=Event
 17	и	_	_	_	_	_	_	_	_
 18	может	_	_	_	_	_	_	_	_
 19	покинуть	_	_	_	_	_	_	_	_
@@ -48,22 +48,25 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
 4	турецкий	_	_	_	_	_	_	_	bratA17=T49:Adjective|bratA3=T8:Media|bratT49=GPE|bratT8=Organization
-5	mynet.com	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT8=Organization
-6	.	_	_	_	_	_	_	_	_
+5-7	mynet.com	_	_	_	_	_	_	_	SpaceAfter=No
+5	mynet	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT65=Web-address|bratT8=Organization
+6	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT65=Web-address|bratT8=Organization
+7	com	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT65=Web-address|bratT8=Organization
+8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0031-p3
 # par_text = Агент 34-летнего форварда общался с представителями «Галатасарая», а также вышел на связь с португальским «Порту» и петербургским «Зенитом». Не исключено, что Халк отправится выступать в Бразилию: его агент также общался с представителями местного «Сан-Паулу». Отмечается, что бразилец намерен сменить команду в начале 2021 года.
 # sent_id = 0031-p3-s1
 # text = Агент 34-летнего форварда общался с представителями ``Галатасарая'', а также вышел на связь с португальским ``Порту'' и петербургским ``Зенитом''.
-1	Агент	_	_	_	_	_	_	_	bratT9=Person-property
-2	34-летнего	_	_	_	_	_	_	_	bratT10=Age|bratT9=Person-property
-3	форварда	_	_	_	_	_	_	_	bratT11=Person-property|bratT9=Person-property
+1	Агент	_	_	_	_	_	_	_	bratA22=T56:Male|bratT56=Person|bratT9=Person-property
+2	34-летнего	_	_	_	_	_	_	_	bratA22=T56:Male|bratT10=Age|bratT56=Person|bratT9=Person-property
+3	форварда	_	_	_	_	_	_	_	bratA21=T55:Male|bratA22=T56:Male|bratT11=Person-property|bratT55=Person|bratT56=Person|bratT9=Person-property
 4	общался	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
-6	представителями	_	_	_	_	_	_	_	_
-7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-8	Галатасарая	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
+6	представителями	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Person
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
+8	Галатасарая	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
+9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
 10	,	_	_	_	_	_	_	_	_
 11	а	_	_	_	_	_	_	_	_
 12	также	_	_	_	_	_	_	_	_
@@ -94,16 +97,16 @@
 8	в	_	_	_	_	_	_	_	_
 9	Бразилию	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
 10	:	_	_	_	_	_	_	_	_
-11	его	_	_	_	_	_	_	_	_
-12	агент	_	_	_	_	_	_	_	bratT17=Person-property
+11	его	_	_	_	_	_	_	_	bratA23=T57:Male|bratT57=Person
+12	агент	_	_	_	_	_	_	_	bratA23=T57:Male|bratT17=Person-property|bratT57=Person
 13	также	_	_	_	_	_	_	_	_
 14	общался	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
-16	представителями	_	_	_	_	_	_	_	_
-17	местного	_	_	_	_	_	_	_	_
-18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
-19	Сан-Паулу	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT51=GPE
-20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+16	представителями	_	_	_	_	_	_	_	bratT61=Person-property|bratT62=Person
+17	местного	_	_	_	_	_	_	_	bratA26=T66:Adjective|bratT18=Organization|bratT61=Person-property|bratT62=Person|bratT66=GPE
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT61=Person-property|bratT62=Person
+19	Сан-Паулу	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT51=GPE|bratT61=Person-property|bratT62=Person
+20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT61=Person-property|bratT62=Person
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0031-p3-s3
@@ -111,7 +114,7 @@
 1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	бразилец	_	_	_	_	_	_	_	bratA1=T19:Citizenship|bratT19=Nationality
+4	бразилец	_	_	_	_	_	_	_	bratA1=T19:Citizenship|bratA24=T63:Male|bratT19=Nationality|bratT63=Person
 5	намерен	_	_	_	_	_	_	_	_
 6	сменить	_	_	_	_	_	_	_	_
 7	команду	_	_	_	_	_	_	_	_
@@ -222,7 +225,7 @@
 # text = До этого бразилец представлял ``Порту''.
 1	До	_	_	_	_	_	_	_	bratA10=T38:Past|bratT38=Date-relative
 2	этого	_	_	_	_	_	_	_	bratA10=T38:Past|bratT38=Date-relative
-3	бразилец	_	_	_	_	_	_	_	bratA2=T33:Citizenship|bratT33=Nationality
+3	бразилец	_	_	_	_	_	_	_	bratA2=T33:Citizenship|bratA25=T64:Male|bratT33=Nationality|bratT64=Person
 4	представлял	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
 6	Порту	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT54=GPE

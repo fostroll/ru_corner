@@ -56,9 +56,12 @@
 40	в	_	_	_	_	_	_	_	_
 41	редакцию	_	_	_	_	_	_	_	bratA1=T8:Department|bratT8=Organization
 42	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratA2=T32:Media|bratT32=Organization|bratT8=Organization
-43	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratA2=T32:Media|bratT32=Organization|bratT8=Organization
-44	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratA2=T32:Media|bratT32=Organization|bratT8=Organization
-45	.	_	_	_	_	_	_	_	_
+43-45	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No
+43	Ленты	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratA2=T32:Media|bratT32=Organization|bratT8=Organization
+44	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratA2=T32:Media|bratT32=Organization|bratT8=Organization
+45	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratA2=T32:Media|bratT32=Organization|bratT8=Organization
+46	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratA2=T32:Media|bratT32=Organization|bratT8=Organization
+47	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0056-p3
 # par_text = Но по сравнению с показателем за сентябрь текущего года продажи новостроек в городе упали на 17 процентов, подсчитали аналитики. «Вопреки ожиданиям участников рынка недвижимости, октябрь не стал показательным по числу сделок на первичном рынке Москвы — рекордный объем регистраций сохранил за собой сентябрь, — констатируют эксперты. — Количество зафиксированных столичным Росреестром ДДУ на рынке жилой и нежилой недвижимости сократилось почти на 2 тысячи договоров в месячном выражении».
@@ -83,7 +86,7 @@
 17	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Percent
 18	,	_	_	_	_	_	_	_	_
 19	подсчитали	_	_	_	_	_	_	_	_
-20	аналитики	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property
+20	аналитики	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT22=Person
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0056-p3-s2
@@ -117,7 +120,7 @@
 27	,	_	_	_	_	_	_	_	_
 28	-	_	_	_	_	_	_	_	_
 29	констатируют	_	_	_	_	_	_	_	_
-30	эксперты	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
+30	эксперты	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT25=Person
 31	.	_	_	_	_	_	_	_	_
 32	-	_	_	_	_	_	_	_	_
 
@@ -164,7 +167,7 @@
 12	ипотеки	_	_	_	_	_	_	_	SpaceAfter=No
 13	:	_	_	_	_	_	_	_	_
 14	у	_	_	_	_	_	_	_	_
-15	граждан	_	_	_	_	_	_	_	_
+15	граждан	_	_	_	_	_	_	_	bratA12=T27:Citizenship|bratT27=Nationality
 16	появилось	_	_	_	_	_	_	_	_
 17	время	_	_	_	_	_	_	_	_
 18	для	_	_	_	_	_	_	_	_

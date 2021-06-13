@@ -25,7 +25,7 @@
 6	на	_	_	_	_	_	_	_	_
 7	танкер	_	_	_	_	_	_	_	bratA1=T4:Unconscious|bratT4=Person
 8	NAFELI	_	_	_	_	_	_	_	bratA1=T4:Unconscious|bratT4=Person
-9	II	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Unconscious|bratT4=Person
+9	II	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Unconscious|bratT4=Person|bratT40=Ordinal
 10	,	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	борту	_	_	_	_	_	_	_	_
@@ -55,7 +55,7 @@
 9	в	_	_	_	_	_	_	_	bratT10=Quantity
 10	170	_	_	_	_	_	_	_	bratT10=Quantity
 11	километрах	_	_	_	_	_	_	_	bratT10=Quantity
-12	от	_	_	_	_	_	_	_	_
+12	от	_	_	_	_	_	_	_	bratT10=Quantity
 13	Нигерии	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE
 14	,	_	_	_	_	_	_	_	_
 15	судно	_	_	_	_	_	_	_	_
@@ -149,6 +149,7 @@
 22	из	_	_	_	_	_	_	_	bratT20=Quantity
 23	19	_	_	_	_	_	_	_	bratT21=Quantity
 24	членов	_	_	_	_	_	_	_	bratT21=Quantity
+25-27	российско-украинского	_	_	_	_	_	_	_	_
 25	российско	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T37:Adjective|bratT37=GPE
 26	-	_	_	_	_	_	_	_	SpaceAfter=No
 27	украинского	_	_	_	_	_	_	_	bratA14=T38:Adjective|bratT38=GPE
@@ -195,8 +196,8 @@
 # text = Остальным 16 членам экипажа удалось укрыться в специально оборудованном помещении.
 1	Остальным	_	_	_	_	_	_	_	_
 2	16	_	_	_	_	_	_	_	bratT33=Quantity
-3	членам	_	_	_	_	_	_	_	bratT33=Quantity
-4	экипажа	_	_	_	_	_	_	_	bratT33=Quantity
+3	членам	_	_	_	_	_	_	_	bratT33=Quantity|bratT41=Person-property
+4	экипажа	_	_	_	_	_	_	_	bratT41=Person-property
 5	удалось	_	_	_	_	_	_	_	_
 6	укрыться	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_

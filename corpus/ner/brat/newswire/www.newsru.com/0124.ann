@@ -1,0 +1,104 @@
+T1	Person 0 18	Виктору   Бабарико
+T2	Person-property 25 39	топ-менеджерам
+T3	Organization 59 84	``   Белгазпромбанка   ''
+T4	GPE 115 125	Белоруссии
+T5	Person-property 154 199	претенденту   на   пост   президента   страны
+T6	Person-property 206 213	банкиру
+T7	Person 154 234	претенденту   на   пост   президента   страны   и   банкиру   Виктору   Бабарико
+T8	Organization 329 359	ОАО   ``   Белгазпромбанк   ''
+T9	Person-property 245 285	Организатору   преступной   деятельности
+T10	Person-property 292 359	бывшему   председателю   правления   ОАО   ``   Белгазпромбанк   ''
+T11	Person 245 380	Организатору   преступной   деятельности   ,   бывшему   председателю   правления   ОАО   ``   Белгазпромбанк   ''   Виктору   Бабарико
+T12	GPE 514 535	Республики   Беларусь
+T13	Law 463 535	ч.   3   ст.   430   и   ч.   2   ст.   235   УК   Республики   Беларусь
+T14	Organization 816 819	КГБ
+T15	Person 825 843	Виктору   Бабарико
+T16	Quantity 856 868	три   статьи
+T18	Organization 1250 1255	банка
+T19	Person-property 1208 1255	Заместителям   председателя   правления   банка
+T20	Person 1208 1348	Заместителям   председателя   правления   банка   Сергею   Шабану   ,   Александру   Ильясюку   ,   Кириллу   Бадею   ,   Дмитрию   Кузьмичу
+A2	Plural T20
+T21	Ordinal 1376 1383	первому
+T22	Person-property 1367 1424	бывшим   первому   заместителю   председателя   правления
+T23	Person 1367 1444	бывшим   первому   заместителю   председателя   правления   Алексею   Задойко
+T24	Person-property 1451 1489	заместителю   председателя   правления
+T25	Person 1451 1510	заместителю   председателя   правления   Сергею   Добролёту
+T26	Law 1594 1617	ч.   3   ст.   430   УК
+T27	Organization 1635 1662	ООО   ``   Активлизинг   ''
+T28	Person-property 1622 1662	Учредителю   ООО   ``   Активлизинг   ''
+T29	Person 1622 1681	Учредителю   ООО   ``   Активлизинг   ''   Виктору   Кобяку
+T30	Law 1715 1738	ч.   2   ст.   431   УК
+T31	Person-property 1830 1840	обвиняемым
+T32	Person-property 1852 1862	защитникам
+T33	Person-property 1894 1903	фигуранты
+T34	Person 2009 2027	Виктора   Бабарико
+T35	Organization 2058 2061	КГБ
+T36	Date-relative 1091 1101	До   этого
+T37	Law 1113 1131	ч.   3   ст.   430
+T38	Law 1160 1178	ч.   2   ст.   431
+A3	Male T1
+T40	Person-forename 0 7	Виктору
+T41	Person-surname 10 18	Бабарико
+A4	Male T7
+T42	Person-forename 216 223	Виктору
+T43	Person-surname 226 234	Бабарико
+A5	Male T11
+T44	Person-forename 362 369	Виктору
+T45	Person-surname 372 380	Бабарико
+T46	Ordinal 468 469	3
+T47	Ordinal 478 481	430
+T48	Ordinal 493 494	2
+T49	Ordinal 503 506	235
+T50	Law 509 535	УК   Республики   Беларусь
+A6	Male T15
+T51	Person-forename 825 832	Виктору
+T52	Person-surname 835 843	Бабарико
+T53	Ordinal 880 881	3
+T54	Ordinal 890 893	430
+T17	Law 875 893	ч.   3   ст.   430
+T57	Law 929 947	ч.   2   ст.   243
+T58	Ordinal 934 935	2
+T59	Ordinal 944 947	243
+T60	Law 998 1016	ч.   2   ст.   235
+T61	Ordinal 1003 1004	2
+T62	Ordinal 1013 1016	235
+A1	Past T36
+T63	Ordinal 1118 1119	3
+T64	Ordinal 1128 1131	430
+T65	Ordinal 1165 1166	2
+T66	Ordinal 1175 1178	431
+T67	Person 1258 1273	Сергею   Шабану
+A8	Male T67
+T68	Person-forename 1258 1264	Сергею
+T69	Person-surname 1267 1273	Шабану
+T70	Person-forename 1280 1290	Александру
+T71	Person-surname 1293 1301	Ильясюку
+T72	Person 1280 1301	Александру   Ильясюку
+A9	Male T72
+T73	Person-forename 1308 1315	Кириллу
+T74	Person-surname 1318 1323	Бадею
+T75	Person 1308 1323	Кириллу   Бадею
+A10	Male T75
+T76	Person-forename 1330 1337	Дмитрию
+T77	Person-surname 1340 1348	Кузьмичу
+T78	Person 1330 1348	Дмитрию   Кузьмичу
+A11	Male T78
+A12	Male T23
+T79	Person-forename 1427 1434	Алексею
+T80	Person-surname 1437 1444	Задойко
+A13	Male T25
+T81	Person-forename 1492 1498	Сергею
+T82	Person-surname 1501 1510	Добролёту
+T83	Law 1736 1738	УК
+T84	Ordinal 1720 1721	2
+T85	Ordinal 1730 1733	431
+T86	Ordinal 1599 1600	3
+T87	Ordinal 1609 1612	430
+A14	Male T29
+T88	Person-forename 1665 1672	Виктору
+T89	Person-surname 1675 1681	Кобяку
+A15	Male T34
+T90	Person-forename 2009 2016	Виктора
+T91	Person-surname 2019 2027	Бабарико
+T92	Law 1615 1617	УК
+T39	GPE 193 199	страны

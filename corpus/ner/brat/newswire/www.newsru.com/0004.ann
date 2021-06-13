@@ -1,0 +1,57 @@
+T1	GPE 4 10	Москве
+T2	Facility 132 152	Алтуфьевском   шоссе
+T3	GPE 159 165	Москве
+T4	Quantity 267 299	405   тыс.   квадратных   метров
+T5	Quantity 310 342	146   тыс.   квадратных   метров
+T6	Organization 385 390	мэрии
+T7	Organization 473 502	газета   ``   Коммерсант   ''
+A1	Media T7
+T8	GPE 602 608	Москвы
+T9	Organization 548 608	градостроительно-земельной   комиссии   (   ГЗК   )   Москвы
+T10	Quantity 656 670	10,2   гектара
+T11	GPE 677 694	районе   Отрадное
+T12	Organization 779 806	компании   ``   Хартия   ''
+T13	Person 809 822	Игоря   Чайки
+T14	Family 829 832	сын
+T15	Person-property 835 857	бывшего   генпрокурора
+T16	Person 835 872	бывшего   генпрокурора   Юрия   Чайки
+T17	Quantity 929 943	двух   округах
+T18	GPE 946 952	Москвы
+T19	Organization 1011 1014	ГЗК
+T20	GPE 1074 1080	Москвы
+T21	Organization 1095 1111	``   Хартии   ''
+T22	Date-absolute 1183 1208	в   прошлом   году   года
+T23	GPE 1221 1267	Северо-Восточного   административного   округа
+T24	Person-property 1211 1267	префект   Северо-Восточного   административного   округа
+T25	Person 1211 1286	префект   Северо-Восточного   административного   округа   Алексей   Беляев
+T26	Person-property 1315 1319	мэра
+T27	Organization 1422 1439	Москомархитектуре
+T28	Organization 1551 1567	``   Хартии   ''
+T29	Date-absolute 1594 1612	в   прошлом   году
+T30	Money 1627 1646	9,2   млрд   рублей
+T31	Date-relative 1116 1121	Ранее
+T32	Organization 592 595	ГЗК
+T33	Person-forename 809 814	Игоря
+T34	Person-surname 817 822	Чайки
+A2	Male T13
+T35	Person-forename 860 864	Юрия
+T36	Person-surname 867 872	Чайки
+A3	Male T16
+A4	Male T25
+T37	Person-forename 1270 1277	Алексей
+T38	Person-surname 1280 1286	Беляев
+A5	Past T29
+A6	Past T22
+A7	Past T31
+T39	Ordinal 1187 1194	прошлом
+T40	Ordinal 1598 1605	прошлом
+T41	Person 829 872	сын   бывшего   генпрокурора   Юрия   Чайки
+A8	Male T41
+T42	Nationality 1156 1172	местные   жители
+A9	Resident T42
+T43	GPE 1156 1163	местные
+A10	Adjective T43
+T44	Nationality 412 419	горожан
+A11	Resident T44
+T45	GPE 1366 1372	района
+T46	GPE 1401 1407	города

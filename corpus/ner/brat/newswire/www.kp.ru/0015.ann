@@ -6,16 +6,16 @@ T5	Person-property 380 416	руководитель   Главконтроля  
 T6	Organization 395 416	Главконтроля   Москвы
 T7	GPE 410 416	Москвы
 T8	Person 994 1012	Евгений   Данчиков
-T9	Organization 1027 1059	телеканала   ``   Россия-24   ''
+T9	Organization 1027 1061	телеканала   ``   Россия - 24   ''
 A1	Media T9
-T10	Person 1086 1131	мэр   российской   столицы   Сергей   Собянин
-T11	Person-property 1086 1112	мэр   российской   столицы
-T12	Other-term 1239 1251	коронавируса
-T13	Date-period-absolute 1256 1275	До   конца   ноября
-T14	GPE 1282 1288	Москве
-T15	Age 1336 1353	старше   65   лет
+T10	Person 1088 1133	мэр   российской   столицы   Сергей   Собянин
+T11	Person-property 1088 1114	мэр   российской   столицы
+T12	Other-term 1241 1253	коронавируса
+T13	Date-period-absolute 1258 1277	До   конца   ноября
+T14	GPE 1284 1290	Москве
+T15	Age 1338 1355	старше   65   лет
 T16	Person-property 696 716	Сотрудники   полиции
-T17	GPE 1092 1112	российской   столицы
+T17	GPE 1094 1114	российской   столицы
 T18	Age 537 545	пожилого
 T19	Age 795 815	старшего   поколения
 T20	GPE 200 207	столицы
@@ -28,8 +28,8 @@ T24	Nationality 190 207	жителей   столицы
 A4	Resident T24
 T25	Person-forename 419 426	Евгений
 T26	Person-surname 429 437	Данчиков
-T27	Person-forename 1115 1121	Сергей
-T28	Person-surname 1124 1131	Собянин
+T27	Person-forename 1117 1123	Сергей
+T28	Person-surname 1126 1133	Собянин
 T29	Person-forename 994 1001	Евгений
 T30	Person-surname 1004 1012	Данчиков
 A5	Male T4
@@ -37,5 +37,9 @@ A6	Male T8
 A7	Male T10
 T31	GPE 97 107	Московские
 A8	Adjective T31
-T32	GPE 1092 1102	российской
+T32	GPE 1094 1104	российской
 A9	Adjective T32
+T33	GPE 1045 1051	Россия
+T34	Duration 1054 1056	24
+T35	Time-period 1054 1056	24
+T36	Organization 97 116	Московские   власти

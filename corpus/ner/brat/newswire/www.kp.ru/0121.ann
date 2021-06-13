@@ -7,15 +7,15 @@ T6	Person-property 819 834	премьер-министр
 T7	Person 840 857	Михаил   Мишустин
 T8	Organization 880 902	правительство   России
 T9	GPE 896 902	России
-T10	Service 1093 1105	сайт   Kp.ru
+T10	Service 1093 1107	сайт   Kp . ru
 A1	Media T10
-T11	Event 1227 1263	пандемии   коронавирусной   инфекции
+T11	Event 1229 1265	пандемии   коронавирусной   инфекции
 T12	Nationality 1003 1011	россияне
 A2	Citizenship T12
 T13	Event 69 77	пандемии
 T14	Date-absolute 465 487	во   время   заседания
-T15	Organization 1112 1125	правительство
-T16	Date-absolute 1128 1135	сегодня
+T15	Organization 1114 1127	правительство
+T16	Date-absolute 1130 1137	сегодня
 T17	Family 258 263	семьи
 T18	Family 780 785	семьи
 T19	Family 270 276	детьми
@@ -23,12 +23,11 @@ T20	Family 792 798	детьми
 T21	Event 478 510	заседания   кабинета   министров
 T22	Organization 490 510	кабинета   министров
 T23	Other-term 142 167	коронавирусной   инфекции
-T24	Other-term 1238 1263	коронавирусной   инфекции
-T25	Organization 1100 1105	Kp.ru
+T24	Other-term 1240 1265	коронавирусной   инфекции
+T25	Organization 1100 1107	Kp . ru
 A3	Media T25
 A4	Past T4
 A5	Past T14
-A6	Present T16
 T26	Nationality 236 251	жители   страны
 A7	Resident T26
 T27	Person-surname 0 8	Мишустин
@@ -45,3 +44,8 @@ T33	GPE 415 426	российского
 A12	Adjective T33
 T34	GPE 558 568	российской
 A13	Adjective T34
+A6	Past T16
+T35	Nationality 682 690	граждане
+A14	Citizenship T35
+T36	Web-address 1100 1107	Kp . ru
+T37	GPE 245 251	страны

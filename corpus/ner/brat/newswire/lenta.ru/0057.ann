@@ -1,59 +1,79 @@
 T1	GPE 4 10	России
-T2	Other-term 64 72	COVID-19
+T2	Other-term 64 74	COVID - 19
 T3	Other-term 36 46	вакцинации
-T4	Date-period-absolute 75 92	до   конца   года
-T5	Person-property 94 121	Директор   центра   Гамалеи
-T6	Organization 105 121	центра   Гамалеи
-T7	Person 94 144	Директор   центра   Гамалеи   Александр   Гинцбург
-T8	Other-term 169 179	вакцинации
-T9	Other-term 187 199	коронавируса
-T10	GPE 212 218	России
-T11	Organization 233 267	телеканала   ``   Россия   24   ''
-T12	Organization 285 298	РИА   Новости
-T13	Quantity 328 365	не   менее   1,5   миллиона   граждан
-T14	Other-term 385 393	COVID-19
-T15	Date-period-absolute 402 417	в   этом   году
-T16	Quantity 465 496	около   40-45   тысяч   человек
-T17	Person 536 544	Гинцбург
-T18	Other-term 624 644	российской   вакцины
-T19	Other-term 652 664	коронавируса
-T20	Product 624 688	российской   вакцины   от   коронавируса   ``   Спутник   V   ''
-T21	Quantity 978 998	16   тысяч   человек
-T22	Product 1004 1025	``   Спутник   V   ''
-T23	Other-term 1149 1160	аденовируса
-T24	Other-term 1197 1209	коронавируса
-T25	Product 1386 1418	вакцина   ``   ЭпиВакКорона   ''
-T26	Organization 1426 1451	центра   ``   Вектор   ''
+T4	Date-period-absolute 77 94	до   конца   года
+T5	Person-property 96 123	Директор   центра   Гамалеи
+T6	Organization 107 123	центра   Гамалеи
+T7	Person 96 146	Директор   центра   Гамалеи   Александр   Гинцбург
+T8	Other-term 171 181	вакцинации
+T9	Other-term 189 201	коронавируса
+T10	GPE 214 220	России
+T11	Organization 235 269	телеканала   ``   Россия   24   ''
+T12	Organization 287 300	РИА   Новости
+T13	Quantity 330 367	не   менее   1,5   миллиона   граждан
+T14	Other-term 387 397	COVID - 19
+T15	Date-period-absolute 406 421	в   этом   году
+T16	Quantity 469 506	около   40   -   45   тысяч   человек
+T17	Person 546 554	Гинцбург
+T18	Other-term 634 654	российской   вакцины
+T19	Other-term 662 674	коронавируса
+T20	Product 634 698	российской   вакцины   от   коронавируса   ``   Спутник   V   ''
+T21	Quantity 988 1008	16   тысяч   человек
+T22	Product 1014 1035	``   Спутник   V   ''
+T23	Other-term 1159 1170	аденовируса
+T24	Other-term 1207 1219	коронавируса
+T25	Product 1396 1428	вакцина   ``   ЭпиВакКорона   ''
+T26	Organization 1436 1461	центра   ``   Вектор   ''
 A1	Media T11
 A2	Media T12
-T27	Person-property 512 522	специалист
-T28	Other-term 1062 1082	российская   вакцина
-T29	Other-term 1090 1102	коронавируса
-T30	Other-term 1300 1309	иммунитет
-T31	Other-term 1342 1349	антител
-T32	Ordinal 615 621	первой
-T33	Ordinal 1354 1360	Второй
-T34	Ordinal 876 882	первой
-T35	Ordinal 889 895	второй
-T36	Ordinal 1032 1038	первая
-T37	Date-absolute 422 428	Сейчас
-T38	Date-period-absolute 567 612	в   ходе   пострегистрационных   исследований
-T39	Date-relative 528 533	Ранее
-T41	Event 578 612	пострегистрационных   исследований
+T27	Person-property 522 532	специалист
+T28	Product 1072 1112	российская   вакцина   от   коронавируса
+T29	Other-term 1100 1112	коронавируса
+T30	Other-term 1310 1319	иммунитет
+T31	Other-term 1352 1359	антител
+T32	Ordinal 625 631	первой
+T33	Ordinal 1364 1370	Второй
+T34	Ordinal 886 892	первой
+T35	Ordinal 899 905	второй
+T36	Ordinal 1042 1048	первая
+T37	Date-absolute 426 432	Сейчас
+T38	Date-period-absolute 577 622	в   ходе   пострегистрационных   исследований
+T39	Date-relative 538 543	Ранее
+T41	Event 588 622	пострегистрационных   исследований
 A4	Past T38
-T42	Ordinal 406 410	этом
+T42	Ordinal 410 414	этом
 A6	Pres-Fut T4
 A3	Present T37
 A7	Past T39
-T40	GPE 624 634	российской
-T43	GPE 1062 1072	российская
-T44	Person-forename 124 133	Александр
-T45	Person-surname 136 144	Гинцбург
-T46	Person-surname 536 544	Гинцбург
-T47	Nationality 202 218	жителей   России
+T40	GPE 634 644	российской
+T43	GPE 1072 1082	российская
+T44	Person-forename 126 135	Александр
+T45	Person-surname 138 146	Гинцбург
+T46	Person-surname 546 554	Гинцбург
+T47	Nationality 204 220	жителей   России
 A5	Pres-Fut T15
 A8	Resident T47
 A9	Adjective T40
 A10	Adjective T43
 A11	Male T17
 A12	Male T7
+A13	Trademark T20
+A14	Trademark T22
+A15	Trademark T25
+T48	Product 24 74	план   по   вакцинации   граждан   от   COVID - 19
+A16	Project T48
+T49	Product 159 201	план   по   вакцинации   от   коронавируса
+A17	Project T49
+T50	Event 1373 1384	регистрацию
+A18	Trademark T28
+T52	Cardinal 72 74	19
+T53	Cardinal 395 397	19
+T51	Time-period 262 264	24
+T54	Duration 262 264	24
+T55	Person 116 123	Гамалеи
+T56	Person-surname 116 123	Гамалеи
+T57	Person 522 532	специалист
+T58	Nationality 49 56	граждан
+A19	Citizenship T58
+T59	Nationality 360 367	граждан
+A20	Citizenship T59

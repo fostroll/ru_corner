@@ -1,25 +1,25 @@
 T1	Person 0 8	Мишустин
-T3	Date-absolute 426 437	В   октябре
-T5	Service 389 420	портале   правовой   информации
-T6	Person 440 448	Мишустин
-T7	Money 493 521	более   11,2   млрд   рублей
-T8	Other-term 581 618	коронавирусной   инфекцией   COVID-19
-T9	Date-absolute 656 672	на   24   ноября
-T10	Duration 706 711	суток
-T11	Quantity 724 742	24   326   случаев
-T12	Other-term 759 796	коронавирусной   инфекцией   COVID-19
-T13	Quantity 893 906	2   138   828
-T14	GPE 683 689	России
+T3	Date-absolute 430 441	В   октябре
+T5	Service 393 424	портале   правовой   информации
+T6	Person 444 452	Мишустин
+T7	Money 497 525	более   11,2   млрд   рублей
+T8	Other-term 585 624	коронавирусной   инфекцией   COVID - 19
+T9	Date-absolute 662 678	на   24   ноября
+T10	Duration 712 717	суток
+T11	Quantity 730 748	24   326   случаев
+T12	Other-term 765 804	коронавирусной   инфекцией   COVID - 19
+T13	Quantity 901 914	2   138   828
+T14	GPE 689 695	России
 A1	Media T5
-T2	Other-term 70 78	COVID-19
-T4	Person-property 80 100	Российский   премьер
-T15	Person 80 120	Российский   премьер   Михаил   Мишустин
-T16	Date-period-absolute 166 197	до   31   декабря   2021   года
-T17	Other-term 292 329	коронавирусной   инфекцией   COVID-19
-T18	Event 858 866	эпидемии
-T19	Date-period-absolute 845 866	с   начала   эпидемии
-T20	Date-period-relative 692 711	в   течение   суток
-T21	Organization 644 653	оперштаба
+T2	Other-term 70 80	COVID - 19
+T4	Person-property 82 102	Российский   премьер
+T15	Person 82 122	Российский   премьер   Михаил   Мишустин
+T16	Date-period-absolute 168 199	до   31   декабря   2021   года
+T17	Other-term 294 333	коронавирусной   инфекцией   COVID - 19
+T18	Event 866 874	эпидемии
+T19	Date-period-absolute 853 874	с   начала   эпидемии
+T20	Date-period-relative 698 717	в   течение   суток
+T21	Organization 650 659	оперштаба
 A3	Past T3
 A5	Past T9
 A4	Past-Pres T19
@@ -27,11 +27,16 @@ A2	Past T20
 A6	LCont T16
 A7	Fut T16
 T22	Person-surname 0 8	Мишустин
-T23	GPE 80 90	Российский
-T24	Person-forename 103 109	Михаил
-T25	Person-surname 112 120	Мишустин
-T26	Person-surname 440 448	Мишустин
+T23	GPE 82 92	Российский
+T24	Person-forename 105 111	Михаил
+T25	Person-surname 114 122	Мишустин
+T26	Person-surname 444 452	Мишустин
 A8	Male T1
 A9	Male T15
 A10	Adjective T23
 A11	Male T6
+T27	Cardinal 78 80	19
+T28	Cardinal 331 333	19
+T29	Cardinal 622 624	19
+T30	Cardinal 802 804	19
+T31	GPE 881 887	стране

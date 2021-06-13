@@ -1,0 +1,121 @@
+T1	Organization 42 60	``   Спартака   ''
+T2	Person 89 97	Соболева
+T3	Organization 99 151	Медицинский   штаб   сборной   России   по   футболу
+T4	Organization 120 151	сборной   России   по   футболу
+A1	Department T3
+T5	GPE 130 136	России
+T6	Person 174 227	нападающий   ``   Спартака   ''   Александр   Соболев
+T7	Person-property 174 205	нападающий   ``   Спартака   ''
+T8	Organization 187 205	``   Спартака   ''
+T9	Event 258 278	матче   Лиги   наций
+T10	Event 266 278	Лиги   наций
+T11	GPE 290 296	Сербии
+T12	Quantity 303 306	0:5
+T13	Service 430 437	Twitter
+A2	Media T13
+T14	Person-property 500 505	игрок
+T15	Organization 577 608	пресс-службы   сборной   России
+A3	Department T15
+T16	Organization 592 608	сборной   России
+T17	GPE 602 608	России
+T18	Person 614 621	Соболев
+T19	Ordinal 651 657	втором
+T20	Event 672 692	товарищеском   матче
+T21	GPE 704 712	Молдавии
+T22	Event 747 759	Лиги   наций
+T23	GPE 771 777	Турции
+T24	Quantity 784 787	2:3
+T25	GPE 798 804	Сербии
+T26	Quantity 811 814	0:5
+T27	Person-property 821 828	форвард
+T28	Organization 878 898	медицинского   штаба
+A4	Department T28
+T29	Person 905 912	Соболев
+T30	Person 1147 1155	Соболева
+T31	Organization 1181 1199	``   Спартака   ''
+T32	Date-absolute 1209 1214	Вчера
+T33	Person-property 1264 1290	врачами   сборной   России
+T34	Organization 1274 1290	сборной   России
+T35	GPE 1284 1290	России
+T36	Person 1443 1505	генеральный   директор   ``   Спартака   ''   Шамиль   Газизов
+T37	Person-property 1443 1486	генеральный   директор   ``   Спартака   ''
+T38	Organization 1468 1486	``   Спартака   ''
+T39	Organization 1527 1563	тренерский   штаб   сборной   России
+A5	Department T39
+T40	Organization 1547 1563	сборной   России
+T41	GPE 1557 1563	России
+T42	Person 1587 1595	Соболева
+T43	Event 1679 1684	матча
+T44	GPE 1696 1702	Сербии
+T45	Person 1725 1793	защитники   сборной   России   Игорь   Дивеев   и   Георгий   Джикия
+A6	Plural T45
+T46	Person-property 1725 1753	защитники   сборной   России
+A7	Plural T46
+T47	Organization 1737 1753	сборной   России
+T48	GPE 1747 1753	России
+T49	Organization 1816 1836	медицинского   штаба
+A8	Department T49
+T50	Person 1847 1854	Дивеева
+T51	Quantity 719 722	0:0
+T52	Person-property 1319 1329	нападающий
+T53	Person-surname 89 97	Соболева
+A9	Male T2
+T54	Person-forename 208 217	Александр
+T55	Person-surname 220 227	Соболев
+A10	Male T6
+T56	Date-absolute 333 348	перед   выходом
+A11	Past T56
+T57	Other-term 367 396	блокады   коленного   сустава
+T58	Person-surname 614 621	Соболев
+A12	Male T18
+T59	Date-absolute 646 665	во   втором   тайме
+A13	Past T59
+T60	Person-surname 905 912	Соболев
+A14	Male T29
+T61	Quantity 932 989	ни   одной   восстановительно-поддерживающей   тренировки
+T62	Date-period-absolute 992 1022	в   ходе   ноябрьского   сбора
+A15	Past T62
+T63	Date-relative 1091 1096	ранее
+A16	Past T63
+T64	Other-term 1099 1128	блокада   коленного   сустава
+T65	Person-surname 1147 1155	Соболева
+A17	Male T30
+A18	Past T32
+T66	Date-absolute 1295 1316	В   настоящее   время
+A19	Present T66
+T67	Date-relative 1421 1426	Ранее
+A20	Past T67
+T68	Date-absolute 1421 1440	Ранее   в   четверг
+A21	Past T68
+T69	Person-forename 1489 1495	Шамиль
+T70	Person-surname 1498 1505	Газизов
+A22	Male T36
+T71	Person-surname 1587 1595	Соболева
+A23	Male T42
+T72	Person-forename 1756 1761	Игорь
+T73	Person-surname 1764 1770	Дивеев
+T74	Person-forename 1777 1784	Георгий
+T75	Person-surname 1787 1793	Джикия
+T76	Person 1756 1770	Игорь   Дивеев
+A24	Male T76
+T77	Person 1777 1793	Георгий   Джикия
+A25	Male T77
+T78	Date-absolute 1668 1684	в   ходе   матча
+A26	Past T78
+T79	Person-surname 1847 1854	Дивеева
+A27	Male T50
+T80	Ordinal 1299 1308	настоящее
+T81	Organization 4 11	сборной
+T82	Organization 1408 1415	сборной
+T83	Organization 440 462	национальной   команды
+T84	Person 500 505	игрок
+A28	Male T84
+T85	Person 821 828	форвард
+A29	Male T85
+T86	Event 736 759	встречах   Лиги   наций
+T87	Event 945 989	восстановительно-поддерживающей   тренировки
+T88	Event 1003 1022	ноябрьского   сбора
+T89	Person 1319 1329	нападающий
+A30	Male T89
+T90	GPE 440 452	национальной
+A31	Adjective T90

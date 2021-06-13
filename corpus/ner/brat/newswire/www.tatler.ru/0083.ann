@@ -1,0 +1,94 @@
+T1	Person 0 28	Отец   Меган   Маркл   Томас
+T2	Person 7 20	Меган   Маркл
+T3	Person 61 94	своего   внука   Арчи   Харрисона
+T4	Family 70 75	внука
+T5	Date-absolute 96 104	6   июля
+T6	Facility 111 144	личной   часовне   Елизаветы   II
+T7	Person 130 144	Елизаветы   II
+T8	Facility 165 186	Виндзорского   дворца
+T9	Event 202 210	крещение
+T10	Person 224 238	принца   Гарри
+T11	Person 245 258	Меган   Маркл
+T12	Person 213 277	первенца   принца   Гарри   и   Меган   Маркл   Арчи   Харрисона
+T13	Person-property 224 230	принца
+T14	Person 380 427	мама   герцогини   Суссекской   Дория   Рэгланд
+T15	Person-property 387 409	герцогини   Суссекской
+T16	Family 380 384	мама
+T17	Person 442 464	отца   Томаса   Маркла
+T18	Family 442 446	отца
+T19	Event 563 570	свадьбы
+T20	Person 577 592	принцем   Гарри
+T21	Person-property 577 584	принцем
+T22	Person 643 648	Томас
+T23	Family 824 830	дочери
+T24	Family 852 857	внука
+T25	Quantity 886 907	еще   одним   поводом
+T26	Person 467 472	Меган
+T27	Person-property 927 939	журналистами
+T28	Organization 965 977	Daily   Mail
+A1	Media T28
+T29	Family 1043 1049	семьей
+T30	GPE 1144 1152	Британию
+T31	Family 1205 1210	внука
+T32	Age 1238 1246	12   лет
+T33	Person-property 1263 1287	церковным   министрантом
+T34	Age 1356 1364	14   лет
+T35	Person 1369 1373	Арчи
+T36	Family 1386 1390	внук
+T37	Person 1524 1528	Арчи
+A2	Male T1
+A3	Female T2
+T38	Person-forename 7 12	Меган
+T39	Person-surname 15 20	Маркл
+T40	Person-forename 23 28	Томас
+T41	Family 0 4	Отец
+A4	Male T3
+T42	Person-forename 78 82	Арчи
+T43	Person-surname 85 94	Харрисона
+A5	Past T5
+T44	Person-forename 130 139	Елизаветы
+A6	Female T7
+A7	Male T10
+A8	Male T12
+A9	Female T11
+T45	Person-forename 233 238	Гарри
+T46	Person-forename 245 250	Меган
+T47	Person-surname 253 258	Маркл
+T48	Person-forename 261 265	Арчи
+T49	Person-surname 268 277	Харрисона
+A10	Female T14
+T50	Person-forename 412 417	Дория
+T51	Person-surname 420 427	Рэгланд
+A11	Male T17
+A12	Female T26
+T52	Person-forename 449 455	Томаса
+T53	Person-surname 458 464	Маркла
+A13	Male T20
+T54	Person-forename 587 592	Гарри
+A14	Male T22
+T55	Person-forename 643 648	Томас
+A15	Male T35
+T56	Person-forename 1369 1373	Арчи
+A16	Male T37
+T57	Person-forename 1524 1528	Арчи
+T58	Family 213 221	первенца
+T59	Person-affix 142 144	II
+T60	Date-absolute 558 570	до   свадьбы
+A17	Past T60
+T61	Date-relative 599 617	после   того   как
+A18	Past T61
+T62	Date-period-relative 689 702	С   тех   пор
+A19	Past-Pres T62
+T63	Person 846 857	его   внука
+A20	Male T63
+T64	Person 1197 1210	моего   внука
+A21	Male T64
+T65	Religious-group 1304 1328	верным   членом   церкви
+T66	Person 1380 1390	мой   внук
+A22	Male T66
+T67	Family 1541 1550	родителям
+T68	Person 1535 1550	его   родителям
+A23	RCont T62
+T69	Ordinal 142 144	II
+T70	Date-relative 1073 1077	день
+A24	Past T70

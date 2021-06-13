@@ -4,14 +4,25 @@ T3	Organization 283 299	Aero   Telegraph
 T4	GPE 193 236	испанского   города   Кастельон-де-ла-Плана
 T5	Person-property 376 382	пилота
 T6	Person-property 546 554	пожарные
-T7	Product 739 755	Вoeing   747-400
-T8	Facility 770 791	аэропорту   Кастельон
-T9	Date-period-absolute 794 805	с   августа
-T10	Person-property 992 1017	авиационные   специалисты
+T7	Product 739 757	Вoeing   747 - 400
+T8	Facility 772 793	аэропорту   Кастельон
+T9	Date-period-absolute 796 807	с   августа
+T10	Person-property 994 1019	авиационные   специалисты
 T12	Facility 181 236	аэропорту   испанского   города   Кастельон-де-ла-Плана
 A1	Media T3
-T11	Date-absolute 941 947	Теперь
+T11	Date-absolute 943 949	Теперь
 A3	Present T11
 A4	Past T9
 T13	GPE 193 203	испанского
 A2	Adjective T13
+T14	Event 1071 1077	пожара
+T15	Event 261 268	события
+T16	Event 604 613	инцидента
+T18	Cardinal 748 751	747
+T19	Cardinal 754 757	400
+T20	Cardinal 100 103	747
+T17	GPE 141 148	British
+A5	Adjective T17
+T21	Person 546 554	пожарные
+T23	Event 330 340	возгорание
+T24	Event 930 938	разборки

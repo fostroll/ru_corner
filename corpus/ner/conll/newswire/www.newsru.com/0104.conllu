@@ -1,0 +1,295 @@
+# newdoc id = 0104
+# newpar id = 0104-p1
+# par_text = Эмир Кувейта скончался в возрасте 91 года в США, где проходил реабилитацию
+# sent_id = 0104-p1-s1
+# text = Эмир Кувейта скончался в возрасте 91 года в США, где проходил реабилитацию
+1	Эмир	_	_	_	_	_	_	_	bratT2=Person-property
+2	Кувейта	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Person-property
+3	скончался	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	возрасте	_	_	_	_	_	_	_	_
+6	91	_	_	_	_	_	_	_	bratT3=Age
+7	года	_	_	_	_	_	_	_	bratT3=Age
+8	в	_	_	_	_	_	_	_	_
+9	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=GPE
+10	,	_	_	_	_	_	_	_	_
+11	где	_	_	_	_	_	_	_	_
+12	проходил	_	_	_	_	_	_	_	_
+13	реабилитацию	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p2
+# par_text = Эмир Кувейта шейх Сабах аль-Ахмад Аль-Сабах скончался в возрасте 91 года, сообщил межарабский телеканал аль-Арабийя со ссылкой на заявление кувейтского королевского дворца. Эмир скончался в США, где он находился на реабилитации после операции.
+# sent_id = 0104-p2-s1
+# text = Эмир Кувейта шейх Сабах аль-Ахмад Аль-Сабах скончался в возрасте 91 года, сообщил межарабский телеканал аль-Арабийя со ссылкой на заявление кувейтского королевского дворца.
+1	Эмир	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Person-property|bratT8=Person
+2	Кувейта	_	_	_	_	_	_	_	bratA4=T8:Male|bratT5=GPE|bratT6=Person-property|bratT8=Person
+3	шейх	_	_	_	_	_	_	_	bratA4=T8:Male|bratT7=Person-property|bratT8=Person
+4	Сабах	_	_	_	_	_	_	_	bratA4=T8:Male|bratT53=Person-forename|bratT8=Person
+5	аль-Ахмад	_	_	_	_	_	_	_	bratA4=T8:Male|bratT54=Person-patronym|bratT8=Person
+6	Аль-Сабах	_	_	_	_	_	_	_	bratA4=T8:Male|bratT66=Person-surname|bratT8=Person
+7	скончался	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	возрасте	_	_	_	_	_	_	_	_
+10	91	_	_	_	_	_	_	_	bratT9=Age
+11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Age
+12	,	_	_	_	_	_	_	_	_
+13	сообщил	_	_	_	_	_	_	_	_
+14	межарабский	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
+15	телеканал	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
+16	аль-Арабийя	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
+17	со	_	_	_	_	_	_	_	_
+18	ссылкой	_	_	_	_	_	_	_	_
+19	на	_	_	_	_	_	_	_	_
+20	заявление	_	_	_	_	_	_	_	_
+21	кувейтского	_	_	_	_	_	_	_	bratA3=T55:Adjective|bratT11=Organization|bratT55=GPE
+22	королевского	_	_	_	_	_	_	_	bratT11=Organization
+23	дворца	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p2-s2
+# text = Эмир скончался в США, где он находился на реабилитации после операции.
+1	Эмир	_	_	_	_	_	_	_	bratT12=Person-property
+2	скончался	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=GPE
+5	,	_	_	_	_	_	_	_	_
+6	где	_	_	_	_	_	_	_	_
+7	он	_	_	_	_	_	_	_	_
+8	находился	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	реабилитации	_	_	_	_	_	_	_	_
+11	после	_	_	_	_	_	_	_	bratA19=T75:Past|bratT75=Date-absolute
+12	операции	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T75:Past|bratT75=Date-absolute|bratT78=Event
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p3
+# par_text = Джабер ас-Сабах в последние годы тяжело болел. В начале августа 2020 года, после операции, которую его канцелярия назвала успешной, эмир отправился на лечение в США. Официальные представители главы государства не раскрывали состояние его здоровья, передает "Интерфакс".
+# sent_id = 0104-p3-s1
+# text = Джабер ас-Сабах в последние годы тяжело болел.
+1	Джабер	_	_	_	_	_	_	_	bratA9=T14:Male|bratT14=Person|bratT56=Person-forename
+2	ас-Сабах	_	_	_	_	_	_	_	bratA9=T14:Male|bratT14=Person|bratT57=Person-surname
+3	в	_	_	_	_	_	_	_	bratA5=T15:Past-Pres|bratT15=Date-period-absolute
+4	последние	_	_	_	_	_	_	_	bratA5=T15:Past-Pres|bratT15=Date-period-absolute|bratT79=Ordinal
+5	годы	_	_	_	_	_	_	_	bratA5=T15:Past-Pres|bratT15=Date-period-absolute|bratT80=Duration
+6	тяжело	_	_	_	_	_	_	_	_
+7	болел	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p3-s2
+# text = В начале августа 2020 года, после операции, которую его канцелярия назвала успешной, эмир отправился на лечение в США.
+1	В	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
+2	начале	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
+3	августа	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
+4	2020	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
+5	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T16:Past|bratT16=Date-absolute
+6	,	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
+7	после	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
+8	операции	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T16:Past|bratT16=Date-absolute|bratT17=Event
+9	,	_	_	_	_	_	_	_	_
+10	которую	_	_	_	_	_	_	_	_
+11	его	_	_	_	_	_	_	_	_
+12	канцелярия	_	_	_	_	_	_	_	bratT18=Organization
+13	назвала	_	_	_	_	_	_	_	_
+14	успешной	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	эмир	_	_	_	_	_	_	_	bratT19=Person-property
+17	отправился	_	_	_	_	_	_	_	_
+18	на	_	_	_	_	_	_	_	_
+19	лечение	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p3-s3
+# text = Официальные представители главы государства не раскрывали состояние его здоровья, передает ``Интерфакс''.
+1	Официальные	_	_	_	_	_	_	_	bratT22=Person-property
+2	представители	_	_	_	_	_	_	_	bratT22=Person-property
+3	главы	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=Person-property
+4	государства	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=Person-property|bratT81=GPE
+5	не	_	_	_	_	_	_	_	_
+6	раскрывали	_	_	_	_	_	_	_	_
+7	состояние	_	_	_	_	_	_	_	_
+8	его	_	_	_	_	_	_	_	_
+9	здоровья	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	передает	_	_	_	_	_	_	_	_
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T23:Media|bratT23=Organization
+13	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T23:Media|bratT23=Organization
+14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T23:Media|bratT23=Organization
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p4
+# par_text = Джабер ас-Сабах родился в 1929 году в период, когда формировалось современное Кувейтское государство. Он член кувейтской королевской семьи. Сорок лет он занимал пост министра иностранных дел Кувейта, затем возглавил правительство страны, а позднее взошёл на королевский трон.
+# sent_id = 0104-p4-s1
+# text = Джабер ас-Сабах родился в 1929 году в период, когда формировалось современное Кувейтское государство.
+1	Джабер	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT58=Person-forename
+2	ас-Сабах	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT59=Person-surname
+3	родился	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	bratA10=T25:Past|bratT25=Date-absolute
+5	1929	_	_	_	_	_	_	_	bratA10=T25:Past|bratT25=Date-absolute
+6	году	_	_	_	_	_	_	_	bratA10=T25:Past|bratT25=Date-absolute
+7	в	_	_	_	_	_	_	_	_
+8	период	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	когда	_	_	_	_	_	_	_	_
+11	формировалось	_	_	_	_	_	_	_	_
+12	современное	_	_	_	_	_	_	_	_
+13	Кувейтское	_	_	_	_	_	_	_	bratT26=GPE
+14	государство	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=GPE
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p4-s2
+# text = Он член кувейтской королевской семьи.
+1	Он	_	_	_	_	_	_	_	_
+2	член	_	_	_	_	_	_	_	bratT62=Other-group
+3	кувейтской	_	_	_	_	_	_	_	bratA11=T60:Adjective|bratT60=GPE|bratT62=Other-group
+4	королевской	_	_	_	_	_	_	_	bratT62=Other-group
+5	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Family|bratT62=Other-group
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p4-s3
+# text = Сорок лет он занимал пост министра иностранных дел Кувейта, затем возглавил правительство страны, а позднее взошёл на королевский трон.
+1	Сорок	_	_	_	_	_	_	_	bratA12=T28:Past|bratT28=Date-period-relative|bratT61=Duration
+2	лет	_	_	_	_	_	_	_	bratA12=T28:Past|bratT28=Date-period-relative|bratT61=Duration
+3	он	_	_	_	_	_	_	_	_
+4	занимал	_	_	_	_	_	_	_	_
+5	пост	_	_	_	_	_	_	_	bratT30=Person-property
+6	министра	_	_	_	_	_	_	_	bratT30=Person-property
+7	иностранных	_	_	_	_	_	_	_	bratT30=Person-property
+8	дел	_	_	_	_	_	_	_	bratT30=Person-property
+9	Кувейта	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE|bratT30=Person-property
+10	,	_	_	_	_	_	_	_	_
+11	затем	_	_	_	_	_	_	_	bratA21=T52:Past|bratT52=Date-relative
+12	возглавил	_	_	_	_	_	_	_	_
+13	правительство	_	_	_	_	_	_	_	bratT76=Organization
+14	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Organization|bratT82=GPE
+15	,	_	_	_	_	_	_	_	_
+16	а	_	_	_	_	_	_	_	_
+17	позднее	_	_	_	_	_	_	_	bratA22=T31:Past|bratT31=Date-relative
+18	взошёл	_	_	_	_	_	_	_	_
+19	на	_	_	_	_	_	_	_	_
+20	королевский	_	_	_	_	_	_	_	bratT77=Person-property
+21	трон	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Person-property
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p5
+# par_text = Эмиром Кувейта шейх Сабах аль-Ахмад Аль-Сабах стал в 2006 году, после того как наследный принц Саад аль-Абдулла ас-Салем ас-Сабах, который должен был встать во главе страны, был отстранен из-за резкого ухудшения здоровья. Он пользовался большим авторитетом в связи с посреднической деятельностью и попытками найти решение региональных конфликтов.
+# sent_id = 0104-p5-s1
+# text = Эмиром Кувейта шейх Сабах аль-Ахмад Аль-Сабах стал в 2006 году, после того как наследный принц Саад аль-Абдулла ас-Салем ас-Сабах, который должен был встать во главе страны, был отстранен из-за резкого ухудшения здоровья.
+1	Эмиром	_	_	_	_	_	_	_	bratT33=Person-property
+2	Кувейта	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property
+3	шейх	_	_	_	_	_	_	_	bratA13=T35:Male|bratT34=Person-property|bratT35=Person
+4	Сабах	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT63=Person-forename
+5	аль-Ахмад	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT64=Person-patronym
+6	Аль-Сабах	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT65=Person-surname
+7	стал	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA14=T36:Past|bratT36=Date-absolute
+9	2006	_	_	_	_	_	_	_	bratA14=T36:Past|bratT36=Date-absolute
+10	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T36:Past|bratT36=Date-absolute
+11	,	_	_	_	_	_	_	_	bratA14=T36:Past|bratT36=Date-absolute
+12	после	_	_	_	_	_	_	_	bratA14=T36:Past|bratA18=T74:Past|bratT36=Date-absolute|bratT74=Date-relative
+13	того	_	_	_	_	_	_	_	bratA14=T36:Past|bratA18=T74:Past|bratT36=Date-absolute|bratT74=Date-relative
+14	как	_	_	_	_	_	_	_	bratA14=T36:Past|bratA18=T74:Past|bratT36=Date-absolute|bratT74=Date-relative
+15	наследный	_	_	_	_	_	_	_	bratA15=T38:Male|bratT37=Person-property|bratT38=Person
+16	принц	_	_	_	_	_	_	_	bratA15=T38:Male|bratT37=Person-property|bratT38=Person
+17	Саад	_	_	_	_	_	_	_	bratA15=T38:Male|bratT38=Person|bratT70=Person-forename
+18	аль-Абдулла	_	_	_	_	_	_	_	bratA15=T38:Male|bratT38=Person|bratT69=Person-patronym
+19	ас-Салем	_	_	_	_	_	_	_	bratA15=T38:Male|bratT38=Person|bratT68=Person-surname
+20	ас-Сабах	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T38:Male|bratT38=Person|bratT67=Person-surname
+21	,	_	_	_	_	_	_	_	_
+22	который	_	_	_	_	_	_	_	_
+23	должен	_	_	_	_	_	_	_	_
+24	был	_	_	_	_	_	_	_	_
+25	встать	_	_	_	_	_	_	_	_
+26	во	_	_	_	_	_	_	_	_
+27	главе	_	_	_	_	_	_	_	_
+28	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT83=GPE
+29	,	_	_	_	_	_	_	_	_
+30	был	_	_	_	_	_	_	_	_
+31	отстранен	_	_	_	_	_	_	_	_
+32	из-за	_	_	_	_	_	_	_	_
+33	резкого	_	_	_	_	_	_	_	_
+34	ухудшения	_	_	_	_	_	_	_	_
+35	здоровья	_	_	_	_	_	_	_	SpaceAfter=No
+36	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p5-s2
+# text = Он пользовался большим авторитетом в связи с посреднической деятельностью и попытками найти решение региональных конфликтов.
+1	Он	_	_	_	_	_	_	_	_
+2	пользовался	_	_	_	_	_	_	_	_
+3	большим	_	_	_	_	_	_	_	_
+4	авторитетом	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	связи	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	_
+8	посреднической	_	_	_	_	_	_	_	_
+9	деятельностью	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	попытками	_	_	_	_	_	_	_	_
+12	найти	_	_	_	_	_	_	_	_
+13	решение	_	_	_	_	_	_	_	_
+14	региональных	_	_	_	_	_	_	_	bratA7=T84:Adjective|bratT84=GPE
+15	конфликтов	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p6
+# par_text = В частности, Ас-Сабах возглавил конференцию стран-доноров для помощи Сирии, в результате которой удалось собрать сотни миллионов долларов.
+# sent_id = 0104-p6-s1
+# text = В частности, Ас-Сабах возглавил конференцию стран-доноров для помощи Сирии, в результате которой удалось собрать сотни миллионов долларов.
+1	В	_	_	_	_	_	_	_	_
+2	частности	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	Ас-Сабах	_	_	_	_	_	_	_	bratA16=T39:Male|bratT39=Person|bratT71=Person-surname
+5	возглавил	_	_	_	_	_	_	_	_
+6	конференцию	_	_	_	_	_	_	_	bratT41=Event
+7-9	стран-доноров	_	_	_	_	_	_	_	_
+7	стран	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Event
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Event
+9	доноров	_	_	_	_	_	_	_	bratT41=Event
+10	для	_	_	_	_	_	_	_	_
+11	помощи	_	_	_	_	_	_	_	_
+12	Сирии	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=GPE
+13	,	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	результате	_	_	_	_	_	_	_	_
+16	которой	_	_	_	_	_	_	_	_
+17	удалось	_	_	_	_	_	_	_	_
+18	собрать	_	_	_	_	_	_	_	_
+19	сотни	_	_	_	_	_	_	_	bratT42=Money
+20	миллионов	_	_	_	_	_	_	_	bratT42=Money
+21	долларов	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Money
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p7
+# par_text = США, Иордания, Иордания, Египет и Ливан выразили свои соболезнования в связи с уходом эмира Кувейте. В Иордании объявлен 40-дневный траур.
+# sent_id = 0104-p7-s1
+# text = США, Иордания, Иордания, Египет и Ливан выразили свои соболезнования в связи с уходом эмира Кувейте.
+1	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=GPE
+2	,	_	_	_	_	_	_	_	_
+3	Иордания	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=GPE
+4	,	_	_	_	_	_	_	_	_
+5	Иордания	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=GPE
+6	,	_	_	_	_	_	_	_	_
+7	Египет	_	_	_	_	_	_	_	bratT46=GPE
+8	и	_	_	_	_	_	_	_	_
+9	Ливан	_	_	_	_	_	_	_	bratT47=GPE
+10	выразили	_	_	_	_	_	_	_	_
+11	свои	_	_	_	_	_	_	_	_
+12	соболезнования	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	связи	_	_	_	_	_	_	_	_
+15	с	_	_	_	_	_	_	_	_
+16	уходом	_	_	_	_	_	_	_	_
+17	эмира	_	_	_	_	_	_	_	bratT49=Person-property
+18	Кувейте	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=GPE|bratT49=Person-property
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p7-s2
+# text = В Иордании объявлен 40-дневный траур.
+1	В	_	_	_	_	_	_	_	_
+2	Иордании	_	_	_	_	_	_	_	bratT50=GPE
+3	объявлен	_	_	_	_	_	_	_	_
+4	40-дневный	_	_	_	_	_	_	_	bratA17=T73:UNK-Fut|bratA20=T73:Past-Fut|bratT51=Duration|bratT73=Date-period-absolute
+5	траур	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Event
+6	.	_	_	_	_	_	_	_	_
+

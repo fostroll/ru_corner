@@ -105,7 +105,7 @@
 5	,	_	_	_	_	_	_	_	bratA9=T37:Past|bratT37=Date-relative
 6	как	_	_	_	_	_	_	_	bratA9=T37:Past|bratT37=Date-relative
 7	ЦИК	_	_	_	_	_	_	_	bratT20=Organization
-8	республики	_	_	_	_	_	_	_	bratT20=Organization
+8	республики	_	_	_	_	_	_	_	bratT20=Organization|bratT53=GPE
 9	объявил	_	_	_	_	_	_	_	_
 10	Александра	_	_	_	_	_	_	_	bratA14=T21:Male|bratT21=Person|bratT41=Person-forename
 11	Лукашенко	_	_	_	_	_	_	_	bratA14=T21:Male|bratT21=Person|bratT42=Person-surname
@@ -125,8 +125,8 @@
 # text = Все штабы оппозиционных кандидатов заявили о непризнании их официальных результатов.
 1	Все	_	_	_	_	_	_	_	_
 2	штабы	_	_	_	_	_	_	_	bratT23=Organization
-3	оппозиционных	_	_	_	_	_	_	_	bratT23=Organization
-4	кандидатов	_	_	_	_	_	_	_	bratT23=Organization
+3	оппозиционных	_	_	_	_	_	_	_	bratA19=T49:Adjective|bratT23=Organization|bratT49=Political-group|bratT50=Person-property|bratT51=Person
+4	кандидатов	_	_	_	_	_	_	_	bratT23=Organization|bratT50=Person-property|bratT51=Person
 5	заявили	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
 7	непризнании	_	_	_	_	_	_	_	_
@@ -172,17 +172,17 @@
 2	экс-кандидат	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
 3	в	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
 4	президенты	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
-5	республики	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person
+5	республики	_	_	_	_	_	_	_	bratA15=T26:Female|bratT25=Person-property|bratT26=Person|bratT54=GPE
 6	Светлана	_	_	_	_	_	_	_	bratA15=T26:Female|bratT26=Person|bratT43=Person-forename
 7	Тихановская	_	_	_	_	_	_	_	bratA15=T26:Female|bratT26=Person|bratT44=Person-surname
 8	объявила	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	создании	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
-12	стране	_	_	_	_	_	_	_	_
+12	стране	_	_	_	_	_	_	_	bratT55=GPE
 13	Координационного	_	_	_	_	_	_	_	bratT27=Organization
 14	совета	_	_	_	_	_	_	_	bratT27=Organization
-15	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+15	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization|bratT52=Organization
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
 18	должен	_	_	_	_	_	_	_	_
@@ -220,7 +220,7 @@
 4	Тихановская	_	_	_	_	_	_	_	bratA17=T31:Female|bratT31=Person|bratT46=Person-surname
 5	объявила	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	стране	_	_	_	_	_	_	_	_
+7	стране	_	_	_	_	_	_	_	bratT56=GPE
 8	общенациональную	_	_	_	_	_	_	_	bratT33=Event
 9	забастовку	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Event
 10	.	_	_	_	_	_	_	_	_

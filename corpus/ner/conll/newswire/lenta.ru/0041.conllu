@@ -60,7 +60,7 @@
 4	ведет	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 6	Россия	_	_	_	_	_	_	_	bratT10=Organization|bratT44=GPE
-7	24	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
+7	24	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT46=Time-period|bratT47=Duration
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 9	.	_	_	_	_	_	_	_	_
 
@@ -114,7 +114,7 @@
 # par_text = Президент добавил, что в 2000 году за чертой бедности в России жили, по оценкам, более 40 миллионов человек. С тех пор число людей, находящихся в такой сложной жизненной ситуации, уменьшилось, подытожил Путин.
 # sent_id = 0041-p4-s1
 # text = Президент добавил, что в 2000 году за чертой бедности в России жили, по оценкам, более 40 миллионов человек.
-1	Президент	_	_	_	_	_	_	_	bratT14=Person-property
+1	Президент	_	_	_	_	_	_	_	bratA14=T48:Male|bratT14=Person-property|bratT48=Person
 2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -187,7 +187,7 @@
 1	Он	_	_	_	_	_	_	_	_
 2	также	_	_	_	_	_	_	_	_
 3	призывал	_	_	_	_	_	_	_	_
-4	власти	_	_	_	_	_	_	_	_
+4	власти	_	_	_	_	_	_	_	bratT49=Organization
 5	принимать	_	_	_	_	_	_	_	_
 6	более	_	_	_	_	_	_	_	_
 7	решительные	_	_	_	_	_	_	_	_
@@ -219,9 +219,9 @@
 8	нищеты	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
-11	к	_	_	_	_	_	_	_	bratA8=T25:Pres-Fut|bratT25=Date-period-absolute
-12	2024	_	_	_	_	_	_	_	bratA8=T25:Pres-Fut|bratT25=Date-period-absolute
-13	году	_	_	_	_	_	_	_	bratA8=T25:Pres-Fut|bratT25=Date-period-absolute
+11	к	_	_	_	_	_	_	_	bratA8=T25:Future|bratT25=Date-absolute
+12	2024	_	_	_	_	_	_	_	bratA8=T25:Future|bratT25=Date-absolute
+13	году	_	_	_	_	_	_	_	bratA8=T25:Future|bratT25=Date-absolute
 14	уровень	_	_	_	_	_	_	_	_
 15	бедности	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_

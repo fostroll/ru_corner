@@ -12,7 +12,7 @@ T12	Person-property 677 700	британские   журналисты
 T13	Organization 760 796	Абсолютном   бойцовском   чемпионате
 T14	Nationality 838 846	ирландец
 T15	Money 867 892	15   миллионов   долларов
-T19	Person-property 1129 1142	чемпион   UFC
+T19	Person-property 1120 1142	бывший   чемпион   UFC
 T21	Nationality 1331 1341	американец
 A2	Citizenship T21
 T22	Nationality 1181 1189	Ирландец
@@ -20,9 +20,9 @@ T23	Quantity 1192 1198	трижды
 T24	Other-group 61 69	фанатами
 T25	Other-group 442 448	фанаты
 T11	Quantity 1008 1022	26   поединков
-T16	Quantity 1071 1077	в   22
-T17	Quantity 1084 1095	в   четырех
-T18	Quantity 1145 1176	в   двух   весовых   категориях
+T16	Quantity 1075 1077	22
+T17	Quantity 1088 1095	четырех
+T18	Quantity 1149 1176	двух   весовых   категориях
 T20	Organization 803 806	UFC
 T26	Organization 1139 1142	UFC
 T27	Other-term 116 119	MMA
@@ -50,3 +50,14 @@ A8	Adjective T31
 A9	Male T3
 A10	Male T4
 A11	Male T5
+T42	Event 1217 1236	уходе   из   спорта
+T43	Person 238 247	Спортсмен
+A12	Male T43
+T44	Person 488 493	бойца
+T45	Person 677 700	британские   журналисты
+T49	Person 838 846	ирландец
+A13	Male T49
+T50	Person 1181 1189	Ирландец
+A14	Male T50
+T46	Service 286 290	пост
+A15	Media T46

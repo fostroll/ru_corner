@@ -82,8 +82,8 @@
 12	,	_	_	_	_	_	_	_	_
 13	который	_	_	_	_	_	_	_	_
 14	осуществляют	_	_	_	_	_	_	_	_
-15	правоохранительные	_	_	_	_	_	_	_	_
-16	органы	_	_	_	_	_	_	_	_
+15	правоохранительные	_	_	_	_	_	_	_	bratT27=Organization
+16	органы	_	_	_	_	_	_	_	bratT27=Organization
 17	совместно	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
 19	волонтерскими	_	_	_	_	_	_	_	_
@@ -109,10 +109,13 @@
 15	-	_	_	_	_	_	_	_	_
 16	пояснили	_	_	_	_	_	_	_	_
 17	сайту	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Service
-18	mk.ru	_	_	_	_	_	_	_	bratA1=T4:Media|bratA2=T21:Media|bratT21=Organization|bratT4=Service
-19	в	_	_	_	_	_	_	_	_
-20	Минздраве	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
-21	.	_	_	_	_	_	_	_	_
+18-20	mk.ru	_	_	_	_	_	_	_	_
+18	mk	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratA2=T21:Media|bratT21=Organization|bratT28=Web-address|bratT4=Service
+19	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratA2=T21:Media|bratT21=Organization|bratT28=Web-address|bratT4=Service
+20	ru	_	_	_	_	_	_	_	bratA1=T4:Media|bratA2=T21:Media|bratT21=Organization|bratT28=Web-address|bratT4=Service
+21	в	_	_	_	_	_	_	_	_
+22	Минздраве	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0041-p4
 # par_text = В настоящее время врачи не обязаны передавать в полицию данные о пациентах, которые в силу возраста не могут сообщить о себе необходимую информацию. Это касается пенсионеров и маленьких детей. А вот о тех, кто мог стать жертвой преступления, имеет ссадины и гематомы, медики сообщают в органы внутренних дел.
@@ -175,9 +178,9 @@
 17	медики	_	_	_	_	_	_	_	bratT17=Person-property
 18	сообщают	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
-20	органы	_	_	_	_	_	_	_	_
-21	внутренних	_	_	_	_	_	_	_	_
-22	дел	_	_	_	_	_	_	_	SpaceAfter=No
+20	органы	_	_	_	_	_	_	_	bratT26=Organization
+21	внутренних	_	_	_	_	_	_	_	bratT26=Organization
+22	дел	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0041-p5

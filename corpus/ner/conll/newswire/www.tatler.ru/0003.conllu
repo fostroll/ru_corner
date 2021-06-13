@@ -1,0 +1,135 @@
+# newdoc id = 0003
+# newpar id = 0003-p1
+# par_text = Владимир Путин наградил Романа Ротенберга
+# sent_id = 0003-p1-s1
+# text = Владимир Путин наградил Романа Ротенберга
+1	Владимир	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT17=Person-forename
+2	Путин	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT18=Person-surname
+3	наградил	_	_	_	_	_	_	_	_
+4	Романа	_	_	_	_	_	_	_	bratA3=T2:Male|bratT19=Person-forename|bratT2=Person
+5	Ротенберга	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT20=Person-surname
+
+# newpar id = 0003-p2
+# par_text = Во вторник 27 ноября у Романа Ротенберга была назначена очень важная встреча в Кремле. Там главе штаба национальной сборной России по хоккею вручили орден Дружбы. Роман получил награду из рук президента РФ Владимира Путина. Совместное фото со словами благодарности появилось в инстаграме Ротенберга.
+# sent_id = 0003-p2-s1
+# text = Во вторник 27 ноября у Романа Ротенберга была назначена очень важная встреча в Кремле.
+1	Во	_	_	_	_	_	_	_	bratA4=T3:Past|bratT3=Date-absolute
+2	вторник	_	_	_	_	_	_	_	bratA4=T3:Past|bratT3=Date-absolute
+3	27	_	_	_	_	_	_	_	bratA4=T3:Past|bratT3=Date-absolute
+4	ноября	_	_	_	_	_	_	_	bratA4=T3:Past|bratT3=Date-absolute
+5	у	_	_	_	_	_	_	_	_
+6	Романа	_	_	_	_	_	_	_	bratA7=T4:Male|bratT21=Person-forename|bratT4=Person
+7	Ротенберга	_	_	_	_	_	_	_	bratA7=T4:Male|bratT22=Person-surname|bratT4=Person
+8	была	_	_	_	_	_	_	_	_
+9	назначена	_	_	_	_	_	_	_	_
+10	очень	_	_	_	_	_	_	_	_
+11	важная	_	_	_	_	_	_	_	_
+12	встреча	_	_	_	_	_	_	_	bratT30=Event
+13	в	_	_	_	_	_	_	_	_
+14	Кремле	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0003-p2-s2
+# text = Там главе штаба национальной сборной России по хоккею вручили орден Дружбы.
+1	Там	_	_	_	_	_	_	_	_
+2	главе	_	_	_	_	_	_	_	bratT6=Person-property
+3	штаба	_	_	_	_	_	_	_	bratT6=Person-property
+4	национальной	_	_	_	_	_	_	_	bratA10=T31:Adjective|bratT31=GPE|bratT6=Person-property|bratT7=Organization
+5	сборной	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+6	России	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization|bratT8=GPE
+7	по	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+8	хоккею	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+9	вручили	_	_	_	_	_	_	_	_
+10	орден	_	_	_	_	_	_	_	bratT32=Other-term
+11	Дружбы	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0003-p2-s3
+# text = Роман получил награду из рук президента РФ Владимира Путина.
+1	Роман	_	_	_	_	_	_	_	bratA5=T9:Male|bratT23=Person-forename|bratT9=Person
+2	получил	_	_	_	_	_	_	_	_
+3	награду	_	_	_	_	_	_	_	_
+4	из	_	_	_	_	_	_	_	_
+5	рук	_	_	_	_	_	_	_	_
+6	президента	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT11=Person-property
+7	РФ	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT11=Person-property|bratT12=GPE
+8	Владимира	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT24=Person-forename
+9	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT25=Person-surname
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0003-p2-s4
+# text = Совместное фото со словами благодарности появилось в инстаграме Ротенберга.
+1	Совместное	_	_	_	_	_	_	_	_
+2	фото	_	_	_	_	_	_	_	_
+3	со	_	_	_	_	_	_	_	_
+4	словами	_	_	_	_	_	_	_	_
+5	благодарности	_	_	_	_	_	_	_	_
+6	появилось	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	инстаграме	_	_	_	_	_	_	_	bratA1=T13:Media|bratT13=Service
+9	Ротенберга	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:Male|bratT26=Person|bratT27=Person-surname
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0003-p3
+# par_text = «Огромная честь получить из рук Президента РФ Орден Дружбы! Эта награда – результат коллективного труда большой слаженной команды единомышленников и стимул работать ещё продуктивнее. Огромное спасибо Владимиру Владимировичу за поддержку и внимание к нашему любимому виду спорта! Только вперёд!» — написал он.
+# sent_id = 0003-p3-s1
+# text = «Огромная честь получить из рук Президента РФ Орден Дружбы!
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Огромная	_	_	_	_	_	_	_	_
+3	честь	_	_	_	_	_	_	_	_
+4	получить	_	_	_	_	_	_	_	_
+5	из	_	_	_	_	_	_	_	_
+6	рук	_	_	_	_	_	_	_	_
+7	Президента	_	_	_	_	_	_	_	bratT14=Person-property
+8	РФ	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=GPE
+9	Орден	_	_	_	_	_	_	_	bratT33=Other-term
+10	Дружбы	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-term
+11	!	_	_	_	_	_	_	_	_
+
+# sent_id = 0003-p3-s2
+# text = Эта награда - результат коллективного труда большой слаженной команды единомышленников и стимул работать ещё продуктивнее.
+1	Эта	_	_	_	_	_	_	_	_
+2	награда	_	_	_	_	_	_	_	_
+3	-	_	_	_	_	_	_	_	_
+4	результат	_	_	_	_	_	_	_	_
+5	коллективного	_	_	_	_	_	_	_	_
+6	труда	_	_	_	_	_	_	_	_
+7	большой	_	_	_	_	_	_	_	_
+8	слаженной	_	_	_	_	_	_	_	_
+9	команды	_	_	_	_	_	_	_	_
+10	единомышленников	_	_	_	_	_	_	_	_
+11	и	_	_	_	_	_	_	_	_
+12	стимул	_	_	_	_	_	_	_	_
+13	работать	_	_	_	_	_	_	_	_
+14	ещё	_	_	_	_	_	_	_	_
+15	продуктивнее	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0003-p3-s3
+# text = Огромное спасибо Владимиру Владимировичу за поддержку и внимание к нашему любимому виду спорта!
+1	Огромное	_	_	_	_	_	_	_	_
+2	спасибо	_	_	_	_	_	_	_	_
+3	Владимиру	_	_	_	_	_	_	_	bratA9=T16:Male|bratT16=Person|bratT28=Person-forename
+4	Владимировичу	_	_	_	_	_	_	_	bratA9=T16:Male|bratT16=Person|bratT29=Person-patronym
+5	за	_	_	_	_	_	_	_	_
+6	поддержку	_	_	_	_	_	_	_	_
+7	и	_	_	_	_	_	_	_	_
+8	внимание	_	_	_	_	_	_	_	_
+9	к	_	_	_	_	_	_	_	_
+10	нашему	_	_	_	_	_	_	_	_
+11	любимому	_	_	_	_	_	_	_	_
+12	виду	_	_	_	_	_	_	_	_
+13	спорта	_	_	_	_	_	_	_	SpaceAfter=No
+14	!	_	_	_	_	_	_	_	_
+
+# sent_id = 0003-p3-s4
+# text = Только вперёд!» - написал он.
+1	Только	_	_	_	_	_	_	_	_
+2	вперёд	_	_	_	_	_	_	_	SpaceAfter=No
+3	!	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	QuotationEnd=»
+5	-	_	_	_	_	_	_	_	_
+6	написал	_	_	_	_	_	_	_	_
+7	он	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+

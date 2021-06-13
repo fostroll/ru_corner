@@ -14,28 +14,30 @@
 # newpar id = 0093-p2
 # par_text = Летальность от коронавируса в России составляет 1,7%.
 # sent_id = 0093-p2-s1
-# text = Летальность от коронавируса в России составляет 1,7 %.
+# text = Летальность от коронавируса в России составляет 1,7%.
 1	Летальность	_	_	_	_	_	_	_	_
 2	от	_	_	_	_	_	_	_	_
 3	коронавируса	_	_	_	_	_	_	_	bratT15=Other-term
 4	в	_	_	_	_	_	_	_	_
 5	России	_	_	_	_	_	_	_	bratT16=GPE
 6	составляет	_	_	_	_	_	_	_	_
-7	1,7	_	_	_	_	_	_	_	bratT17=Percent
+7-8	1,7%	_	_	_	_	_	_	_	SpaceAfter=No
+7	1,7	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Percent
 8	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Percent
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0093-p3
 # par_text = «Летальность по Российской Федерации составляет 1,7%», — цитирует РИА Новости замглавы Минздрава Олега Гриднева.
 # sent_id = 0093-p3-s1
-# text = ``Летальность по Российской Федерации составляет 1,7 %'', - цитирует РИА Новости замглавы Минздрава Олега Гриднева.
+# text = ``Летальность по Российской Федерации составляет 1,7%'', - цитирует РИА Новости замглавы Минздрава Олега Гриднева.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Летальность	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	Российской	_	_	_	_	_	_	_	bratT4=GPE
 5	Федерации	_	_	_	_	_	_	_	bratT4=GPE
 6	составляет	_	_	_	_	_	_	_	_
-7	1,7	_	_	_	_	_	_	_	bratT5=Percent
+7-8	1,7%	_	_	_	_	_	_	_	SpaceAfter=No
+7	1,7	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Percent
 8	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Percent
 9	''	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
@@ -71,13 +73,16 @@
 16	у	_	_	_	_	_	_	_	_
 17	пациентов	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
-19	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term
-20	,	_	_	_	_	_	_	_	_
-21	за	_	_	_	_	_	_	_	bratA3=T18:Past-Pres|bratT18=Date-period-absolute
-22	всё	_	_	_	_	_	_	_	bratA3=T18:Past-Pres|bratT18=Date-period-absolute|bratT22=Duration
-23	время	_	_	_	_	_	_	_	bratA3=T18:Past-Pres|bratT18=Date-period-absolute|bratT22=Duration
-24	-	_	_	_	_	_	_	_	_
-25	37	_	_	_	_	_	_	_	bratT14=Quantity
-26	031	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Quantity
-27	.	_	_	_	_	_	_	_	_
+19-21	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+19	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term
+20	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term
+21	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term|bratT25=Cardinal
+22	,	_	_	_	_	_	_	_	_
+23	за	_	_	_	_	_	_	_	bratA3=T18:Past-Pres|bratT18=Date-period-absolute
+24	всё	_	_	_	_	_	_	_	bratA3=T18:Past-Pres|bratT18=Date-period-absolute|bratT22=Duration
+25	время	_	_	_	_	_	_	_	bratA3=T18:Past-Pres|bratT18=Date-period-absolute|bratT22=Duration
+26	-	_	_	_	_	_	_	_	_
+27	37	_	_	_	_	_	_	_	bratT14=Quantity
+28	031	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Quantity
+29	.	_	_	_	_	_	_	_	_
 

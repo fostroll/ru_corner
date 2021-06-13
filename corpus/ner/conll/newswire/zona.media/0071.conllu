@@ -1,0 +1,195 @@
+# newdoc id = 0071
+# newpar id = 0071-p1
+# par_text = Из списка экстремистов и террористов удалили сибиряка, чей статус в перечне менялся больше 20 раз
+# sent_id = 0071-p1-s1
+# text = Из списка экстремистов и террористов удалили сибиряка, чей статус в перечне менялся больше 20 раз
+1	Из	_	_	_	_	_	_	_	_
+2	списка	_	_	_	_	_	_	_	_
+3	экстремистов	_	_	_	_	_	_	_	bratT2=Person-property
+4	и	_	_	_	_	_	_	_	_
+5	террористов	_	_	_	_	_	_	_	bratT3=Person-property
+6	удалили	_	_	_	_	_	_	_	_
+7	сибиряка	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Resident|bratT4=Nationality
+8	,	_	_	_	_	_	_	_	_
+9	чей	_	_	_	_	_	_	_	_
+10	статус	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	перечне	_	_	_	_	_	_	_	_
+13	менялся	_	_	_	_	_	_	_	_
+14	больше	_	_	_	_	_	_	_	bratT5=Quantity
+15	20	_	_	_	_	_	_	_	bratT5=Quantity
+16	раз	_	_	_	_	_	_	_	bratT5=Quantity
+
+# newpar id = 0071-p2
+# par_text = Росфинмониторинг удалил из списка террористов и экстремистов жителя Красноярска Семена Негрецкулова, сообщается в телеграм-канале об обновлениях списка, который ведет программист Иван Шукшин.
+# sent_id = 0071-p2-s1
+# text = Росфинмониторинг удалил из списка террористов и экстремистов жителя Красноярска Семена Негрецкулова, сообщается в телеграм-канале об обновлениях списка, который ведет программист Иван Шукшин.
+1	Росфинмониторинг	_	_	_	_	_	_	_	bratT6=Organization
+2	удалил	_	_	_	_	_	_	_	_
+3	из	_	_	_	_	_	_	_	_
+4	списка	_	_	_	_	_	_	_	_
+5	террористов	_	_	_	_	_	_	_	bratT8=Person-property
+6	и	_	_	_	_	_	_	_	_
+7	экстремистов	_	_	_	_	_	_	_	bratT9=Person-property
+8	жителя	_	_	_	_	_	_	_	bratA4=T10:Male|bratA5=T11:Resident|bratT10=Person|bratT11=Nationality
+9	Красноярска	_	_	_	_	_	_	_	bratA4=T10:Male|bratA5=T11:Resident|bratT10=Person|bratT11=Nationality|bratT12=GPE
+10	Семена	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT13=Person-forename
+11	Негрецкулова	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Male|bratT10=Person|bratT14=Person-surname
+12	,	_	_	_	_	_	_	_	_
+13	сообщается	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	телеграм-канале	_	_	_	_	_	_	_	bratA20=T55:Media|bratT55=Service
+16	об	_	_	_	_	_	_	_	_
+17	обновлениях	_	_	_	_	_	_	_	_
+18	списка	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	который	_	_	_	_	_	_	_	_
+21	ведет	_	_	_	_	_	_	_	_
+22	программист	_	_	_	_	_	_	_	bratA6=T16:Male|bratT16=Person|bratT17=Person-property
+23	Иван	_	_	_	_	_	_	_	bratA6=T16:Male|bratT16=Person|bratT18=Person-forename
+24	Шукшин	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T16:Male|bratT16=Person|bratT19=Person-surname
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0071-p3
+# par_text = В 2017 году против Негрецкулова возбудили дело возбуждении национальной ненависти (статья 282 УК) за «возвеличивание финнов» «ВКонтакте». Осенью 2018 года его внесли в список Росфинмониторинга.
+# sent_id = 0071-p3-s1
+# text = В 2017 году против Негрецкулова возбудили дело возбуждении национальной ненависти (статья 282 УК) за ``возвеличивание финнов'' ``ВКонтакте''.
+1	В	_	_	_	_	_	_	_	bratA7=T20:Past|bratT20=Date-absolute
+2	2017	_	_	_	_	_	_	_	bratA7=T20:Past|bratT20=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA7=T20:Past|bratT20=Date-absolute
+4	против	_	_	_	_	_	_	_	_
+5	Негрецкулова	_	_	_	_	_	_	_	bratA8=T21:Male|bratT21=Person|bratT22=Person-surname
+6	возбудили	_	_	_	_	_	_	_	_
+7	дело	_	_	_	_	_	_	_	_
+8	возбуждении	_	_	_	_	_	_	_	_
+9	национальной	_	_	_	_	_	_	_	_
+10	ненависти	_	_	_	_	_	_	_	_
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	статья	_	_	_	_	_	_	_	bratT23=Law
+13	282	_	_	_	_	_	_	_	bratT1=Ordinal|bratT23=Law
+14	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Law|bratT7=Law
+15	)	_	_	_	_	_	_	_	_
+16	за	_	_	_	_	_	_	_	_
+17	``	_	_	_	_	_	_	_	SpaceAfter=No
+18	возвеличивание	_	_	_	_	_	_	_	_
+19	финнов	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Nationality
+20	''	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Service
+22	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Service
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Service
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0071-p3-s2
+# text = Осенью 2018 года его внесли в список Росфинмониторинга.
+1	Осенью	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute
+2	2018	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute
+3	года	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute
+4	его	_	_	_	_	_	_	_	_
+5	внесли	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	список	_	_	_	_	_	_	_	_
+8	Росфинмониторинга	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0071-p4
+# par_text = «С 5 октября 2018 года статус Негрецкулова в списке Росфинмониторинга менялся рекордные 23 раза: 11 раз его объявляли "террористом" и 12 раз — "экстремистом"; экстремистом он считается и сейчас», — писала «Медиазона» о случае Негрецкулова в феврале. По данным Шукшина, статус сибиряка менялся 27 раз.
+# sent_id = 0071-p4-s1
+# text = ``С 5 октября 2018 года статус Негрецкулова в списке Росфинмониторинга менялся рекордные 23 раза: 11 раз его объявляли ``террористом'' и 12 раз - ``экстремистом''; экстремистом он считается и сейчас'', - писала ``Медиазона'' о случае Негрецкулова в феврале.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	С	_	_	_	_	_	_	_	bratA10=T27:Past-Pres|bratT27=Date-period-absolute
+3	5	_	_	_	_	_	_	_	bratA10=T27:Past-Pres|bratT27=Date-period-absolute
+4	октября	_	_	_	_	_	_	_	bratA10=T27:Past-Pres|bratT27=Date-period-absolute
+5	2018	_	_	_	_	_	_	_	bratA10=T27:Past-Pres|bratT27=Date-period-absolute
+6	года	_	_	_	_	_	_	_	bratA10=T27:Past-Pres|bratT27=Date-period-absolute
+7	статус	_	_	_	_	_	_	_	_
+8	Негрецкулова	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person|bratT29=Person-surname
+9	в	_	_	_	_	_	_	_	_
+10	списке	_	_	_	_	_	_	_	_
+11	Росфинмониторинга	_	_	_	_	_	_	_	bratT30=Organization
+12	менялся	_	_	_	_	_	_	_	_
+13	рекордные	_	_	_	_	_	_	_	_
+14	23	_	_	_	_	_	_	_	bratT31=Quantity
+15	раза	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Quantity
+16	:	_	_	_	_	_	_	_	_
+17	11	_	_	_	_	_	_	_	bratT32=Quantity
+18	раз	_	_	_	_	_	_	_	bratT32=Quantity
+19	его	_	_	_	_	_	_	_	_
+20	объявляли	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No
+22	террористом	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property
+23	''	_	_	_	_	_	_	_	_
+24	и	_	_	_	_	_	_	_	_
+25	12	_	_	_	_	_	_	_	bratT34=Quantity
+26	раз	_	_	_	_	_	_	_	bratT34=Quantity
+27	-	_	_	_	_	_	_	_	_
+28	``	_	_	_	_	_	_	_	SpaceAfter=No
+29	экстремистом	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property
+30	''	_	_	_	_	_	_	_	SpaceAfter=No
+31	;	_	_	_	_	_	_	_	_
+32	экстремистом	_	_	_	_	_	_	_	bratT36=Person-property
+33	он	_	_	_	_	_	_	_	_
+34	считается	_	_	_	_	_	_	_	_
+35	и	_	_	_	_	_	_	_	_
+36	сейчас	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T37:Present|bratT37=Date-absolute
+37	''	_	_	_	_	_	_	_	SpaceAfter=No
+38	,	_	_	_	_	_	_	_	_
+39	-	_	_	_	_	_	_	_	_
+40	писала	_	_	_	_	_	_	_	_
+41	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T38:Media|bratT38=Organization
+42	Медиазона	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T38:Media|bratT38=Organization
+43	''	_	_	_	_	_	_	_	bratA12=T38:Media|bratT38=Organization
+44	о	_	_	_	_	_	_	_	_
+45	случае	_	_	_	_	_	_	_	_
+46	Негрецкулова	_	_	_	_	_	_	_	bratA13=T39:Male|bratT39=Person|bratT40=Person-surname
+47	в	_	_	_	_	_	_	_	bratA14=T41:Past|bratT41=Date-absolute
+48	феврале	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T41:Past|bratT41=Date-absolute
+49	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0071-p4-s2
+# text = По данным Шукшина, статус сибиряка менялся 27 раз.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	Шукшина	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T42:Male|bratT42=Person|bratT43=Person-surname
+4	,	_	_	_	_	_	_	_	_
+5	статус	_	_	_	_	_	_	_	_
+6	сибиряка	_	_	_	_	_	_	_	bratA16=T44:Resident|bratT44=Nationality
+7	менялся	_	_	_	_	_	_	_	_
+8	27	_	_	_	_	_	_	_	bratT45=Quantity
+9	раз	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Quantity
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0071-p5
+# par_text = В январе 2018 года обвиняемый покинул Россию. По словам сибиряка, он пешком перешел эстонскую границу и сдался полиции; теперь он живет в Эстонии.
+# sent_id = 0071-p5-s1
+# text = В январе 2018 года обвиняемый покинул Россию.
+1	В	_	_	_	_	_	_	_	bratA3=T46:Past|bratT46=Date-absolute
+2	январе	_	_	_	_	_	_	_	bratA3=T46:Past|bratT46=Date-absolute
+3	2018	_	_	_	_	_	_	_	bratA3=T46:Past|bratT46=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA3=T46:Past|bratT46=Date-absolute
+5	обвиняемый	_	_	_	_	_	_	_	bratT47=Person-property
+6	покинул	_	_	_	_	_	_	_	_
+7	Россию	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=GPE
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0071-p5-s2
+# text = По словам сибиряка, он пешком перешел эстонскую границу и сдался полиции; теперь он живет в Эстонии.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	сибиряка	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T49:Resident|bratT49=Nationality
+4	,	_	_	_	_	_	_	_	_
+5	он	_	_	_	_	_	_	_	_
+6	пешком	_	_	_	_	_	_	_	_
+7	перешел	_	_	_	_	_	_	_	_
+8	эстонскую	_	_	_	_	_	_	_	bratA19=T24:Adjective|bratT24=GPE|bratT50=Facility
+9	границу	_	_	_	_	_	_	_	bratT50=Facility
+10	и	_	_	_	_	_	_	_	_
+11	сдался	_	_	_	_	_	_	_	_
+12	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Person-property
+13	;	_	_	_	_	_	_	_	_
+14	теперь	_	_	_	_	_	_	_	bratA18=T51:Present|bratT51=Date-absolute
+15	он	_	_	_	_	_	_	_	_
+16	живет	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	Эстонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=GPE
+19	.	_	_	_	_	_	_	_	_
+

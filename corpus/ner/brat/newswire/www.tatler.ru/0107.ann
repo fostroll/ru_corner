@@ -1,0 +1,53 @@
+T1	Person 0 18	Наталья   Давыдова
+T2	Person 32 52	Ивану   Стрешинскому
+T3	Person 147 158	Тетя   Мотя
+T4	Person 183 219	своего   мужа   Ивана   Стрешинского
+T5	Family 192 196	мужа
+T6	Service 275 281	сториз
+A1	Media T6
+T7	Family 400 405	женой
+T8	Person 451 457	Наташа
+T9	Family 516 523	супруга
+T10	Person 573 584	Стрешинский
+T11	Person-property 601 610	бизнесмен
+T12	Person-property 626 634	музыкант
+T13	Family 659 663	жена
+T14	Event 747 806	рок-баттлов   благотворительного   фонда   ``   Друзья   ''
+T15	Organization 761 806	благотворительного   фонда   ``   Друзья   ''
+T16	Person 819 823	Иван
+T17	Quantity 883 891	миллионы
+T18	Other-group 894 917	пользователей   YouTube
+T19	Service 910 917	YouTube
+T20	Date-period-absolute 922 938	Со   2   октября
+T22	Work-of-art 948 960	Who   I   am
+T23	Person 1122 1140	Алишера   Усманова
+T24	Service 1204 1219	Delivery   Club
+T25	Person-property 1194 1219	курьера   Delivery   Club
+A2	Female T1
+T26	Person-forename 0 7	Наталья
+T27	Person-surname 10 18	Давыдова
+A3	Male T2
+T28	Person-forename 32 37	Ивану
+T29	Person-surname 40 52	Стрешинскому
+A4	Female T3
+T30	Person-alias 147 158	Тетя   Мотя
+A5	Male T4
+T31	Person-forename 199 204	Ивана
+T32	Person-surname 207 219	Стрешинского
+A6	Female T8
+T33	Person-forename 451 457	Наташа
+A7	Female T10
+T34	Person-surname 573 584	Стрешинский
+A8	Male T16
+T35	Person-forename 819 823	Иван
+A10	Male T23
+T36	Person-forename 1122 1129	Алишера
+T37	Person-surname 1132 1140	Усманова
+T38	Service 997 1016	канале   TetyaMotya
+A11	Media T38
+T21	Event 60 75	день   рождения
+T39	Event 165 180	день   рождения
+T40	Date-absolute 161 180	в   день   рождения
+A12	Past T40
+A9	Past-Pres T20
+A13	RCont T20

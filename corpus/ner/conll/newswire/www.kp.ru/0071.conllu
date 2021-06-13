@@ -138,18 +138,21 @@
 7	назад	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-absolute
 8	уже	_	_	_	_	_	_	_	_
 9	перенёс	_	_	_	_	_	_	_	_
-10	COVID-19	_	_	_	_	_	_	_	bratT28=Other-term
-11	и	_	_	_	_	_	_	_	_
-12	последние	_	_	_	_	_	_	_	bratA8=T29:Past-Pres|bratT29=Date-period-absolute|bratT47=Ordinal
-13	два	_	_	_	_	_	_	_	bratA8=T29:Past-Pres|bratT29=Date-period-absolute
-14	месяца	_	_	_	_	_	_	_	bratA8=T29:Past-Pres|bratT29=Date-period-absolute
-15	играет	_	_	_	_	_	_	_	_
-16	и	_	_	_	_	_	_	_	_
-17	тренируется	_	_	_	_	_	_	_	_
-18	без	_	_	_	_	_	_	_	_
-19	всяких	_	_	_	_	_	_	_	_
-20	ограничений	_	_	_	_	_	_	_	SpaceAfter=No
-21	.	_	_	_	_	_	_	_	_
+10-12	COVID-19	_	_	_	_	_	_	_	_
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+12	19	_	_	_	_	_	_	_	bratT28=Other-term|bratT68=Cardinal
+13	и	_	_	_	_	_	_	_	_
+14	последние	_	_	_	_	_	_	_	bratA8=T29:Past-Pres|bratT29=Date-period-absolute|bratT47=Ordinal
+15	два	_	_	_	_	_	_	_	bratA8=T29:Past-Pres|bratT29=Date-period-absolute
+16	месяца	_	_	_	_	_	_	_	bratA8=T29:Past-Pres|bratT29=Date-period-absolute
+17	играет	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	тренируется	_	_	_	_	_	_	_	_
+20	без	_	_	_	_	_	_	_	_
+21	всяких	_	_	_	_	_	_	_	_
+22	ограничений	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p3-s4
 # text = У него имеется высокий титр соответствующих антител, - сообщила пресс-служба сборной России по футболу.
@@ -220,8 +223,8 @@
 5	прошлом	_	_	_	_	_	_	_	bratA5=T38:Past|bratT38=Date-absolute|bratT50=Ordinal
 6	месяце	_	_	_	_	_	_	_	bratA5=T38:Past|bratT38=Date-absolute
 7	у	_	_	_	_	_	_	_	_
-8	национальной	_	_	_	_	_	_	_	_
-9	сборной	_	_	_	_	_	_	_	_
+8	национальной	_	_	_	_	_	_	_	bratA18=T69:Adjective|bratT67=Organization|bratT69=GPE
+9	сборной	_	_	_	_	_	_	_	bratT67=Organization
 10	были	_	_	_	_	_	_	_	_
 11	похожие	_	_	_	_	_	_	_	_
 12	проблемы	_	_	_	_	_	_	_	_

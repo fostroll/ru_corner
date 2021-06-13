@@ -6,12 +6,12 @@ T5	Person-property 96 128	директора   ``   Локомотива   ''
 T7	Organization 158 178	``   Локомотива   ''
 T9	Person-property 130 178	Бывший   главный   тренер   ``   Локомотива   ''
 T11	Person 130 193	Бывший   главный   тренер   ``   Локомотива   ''   Юрий   Семин
-T12	Person-property 293 339	генерального   директора   московского   клуба
+T12	Person-property 281 339	должность   генерального   директора   московского   клуба
 T13	Organization 357 381	``   Спорт-Экспресс   ''
 A1	Media T13
 T16	Person 437 447	Ротенберга
 T17	Organization 494 514	``   Локомотива   ''
-T18	Person-property 467 514	генерального   директора   ``   Локомотива   ''
+T18	Person-property 455 514	должность   генерального   директора   ``   Локомотива   ''
 T19	Service 527 580	Telegram-канал   ``   Честность   -   не   порок   ''
 T20	Person-property 600 607	тренера
 T21	Person 614 623	Ротенберг
@@ -34,7 +34,7 @@ T37	Organization 1395 1412	московский   ЦСКА
 T38	GPE 1459 1465	России
 T39	Organization 1449 1465	сборная   России
 T40	Ordinal 1485 1491	третью
-T42	Event 1530 1543	ЧМ   -   2022
+T42	Event 1530 1539	ЧМ - 2022
 A3	Media T19
 T4	Person-property 1027 1074	владелец   футбольного   клуба   ``   Сочи   ''
 T6	Date-relative 1418 1423	Ранее
@@ -68,5 +68,5 @@ T53	GPE 1101 1111	Российской
 A15	Adjective T53
 T54	GPE 1395 1405	московский
 A16	Adjective T54
-T55	Date-absolute 1539 1543	2022
+T55	Date-absolute 1535 1539	2022
 A17	Future T55

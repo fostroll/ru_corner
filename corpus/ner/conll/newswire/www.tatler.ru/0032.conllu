@@ -1,0 +1,229 @@
+# newdoc id = 0032
+# newpar id = 0032-p1
+# par_text = 1,5 миллиона человек требуют отстранить Эмбер Херд от съемок в новом «Аквамене»
+# sent_id = 0032-p1-s1
+# text = 1,5 миллиона человек требуют отстранить Эмбер Херд от съемок в новом ``Аквамене''
+1	1,5	_	_	_	_	_	_	_	bratT1=Quantity
+2	миллиона	_	_	_	_	_	_	_	bratT1=Quantity
+3	человек	_	_	_	_	_	_	_	bratT1=Quantity
+4	требуют	_	_	_	_	_	_	_	_
+5	отстранить	_	_	_	_	_	_	_	_
+6	Эмбер	_	_	_	_	_	_	_	bratA1=T4:Male|bratT2=Person-forename|bratT4=Person
+7	Херд	_	_	_	_	_	_	_	bratA1=T4:Male|bratT3=Person-surname|bratT4=Person
+8	от	_	_	_	_	_	_	_	_
+9	съемок	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	новом	_	_	_	_	_	_	_	bratT5=Work-of-art
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art
+13	Аквамене	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art
+14	''	_	_	_	_	_	_	_	bratT5=Work-of-art
+
+# newpar id = 0032-p2
+# par_text = На сайте Change.org появилась петиция с требованием отстранить актрису Эмбер Херд от съемок в фильме «Аквамен 2». На данный момент ее подписало более 1,5 миллиона человек.
+# sent_id = 0032-p2-s1
+# text = На сайте Change.org появилась петиция с требованием отстранить актрису Эмбер Херд от съемок в фильме ``Аквамен 2''.
+1	На	_	_	_	_	_	_	_	_
+2	сайте	_	_	_	_	_	_	_	bratT6=Service
+3-5	Change.org	_	_	_	_	_	_	_	_
+3	Change	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Web-address|bratT6=Service
+4	.	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Web-address|bratT6=Service
+5	org	_	_	_	_	_	_	_	bratT55=Web-address|bratT6=Service
+6	появилась	_	_	_	_	_	_	_	_
+7	петиция	_	_	_	_	_	_	_	bratA2=T56:Media|bratT56=Service
+8	с	_	_	_	_	_	_	_	_
+9	требованием	_	_	_	_	_	_	_	_
+10	отстранить	_	_	_	_	_	_	_	_
+11	актрису	_	_	_	_	_	_	_	bratA3=T10:Female|bratT10=Person|bratT7=Person-property
+12	Эмбер	_	_	_	_	_	_	_	bratA3=T10:Female|bratT10=Person|bratT8=Person-forename
+13	Херд	_	_	_	_	_	_	_	bratA3=T10:Female|bratT10=Person|bratT9=Person-surname
+14	от	_	_	_	_	_	_	_	_
+15	съемок	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	фильме	_	_	_	_	_	_	_	bratT11=Work-of-art
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
+19	Аквамен	_	_	_	_	_	_	_	bratT11=Work-of-art
+20	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art|bratT52=Ordinal
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p2-s2
+# text = На данный момент ее подписало более 1,5 миллиона человек.
+1	На	_	_	_	_	_	_	_	bratA4=T12:Present|bratT12=Date-absolute
+2	данный	_	_	_	_	_	_	_	bratA4=T12:Present|bratT12=Date-absolute|bratT53=Ordinal
+3	момент	_	_	_	_	_	_	_	bratA4=T12:Present|bratT12=Date-absolute
+4	ее	_	_	_	_	_	_	_	_
+5	подписало	_	_	_	_	_	_	_	_
+6	более	_	_	_	_	_	_	_	bratT13=Quantity
+7	1,5	_	_	_	_	_	_	_	bratT13=Quantity
+8	миллиона	_	_	_	_	_	_	_	bratT13=Quantity
+9	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0032-p3
+# par_text = Дело в истории судебных разбирательств между Эмбер и ее бывшим мужем Джонни Деппом. Из-за темных пятен в этом процессе наблюдатели разделились на два лагеря: одни считают абьюзером Деппа, а другие уверены, что Херд — провокатор и инициатор домашнего насилия.
+# sent_id = 0032-p3-s1
+# text = Дело в истории судебных разбирательств между Эмбер и ее бывшим мужем Джонни Деппом.
+1	Дело	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	истории	_	_	_	_	_	_	_	_
+4	судебных	_	_	_	_	_	_	_	_
+5	разбирательств	_	_	_	_	_	_	_	_
+6	между	_	_	_	_	_	_	_	_
+7	Эмбер	_	_	_	_	_	_	_	bratA5=T15:Female|bratT14=Person-forename|bratT15=Person
+8	и	_	_	_	_	_	_	_	_
+9	ее	_	_	_	_	_	_	_	bratA6=T19:Male|bratT19=Person
+10	бывшим	_	_	_	_	_	_	_	bratA6=T19:Male|bratT16=Family|bratT19=Person
+11	мужем	_	_	_	_	_	_	_	bratA6=T19:Male|bratT16=Family|bratT19=Person
+12	Джонни	_	_	_	_	_	_	_	bratA6=T19:Male|bratT17=Person-forename|bratT19=Person
+13	Деппом	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Male|bratT18=Person-surname|bratT19=Person
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p3-s2
+# text = Из-за темных пятен в этом процессе наблюдатели разделились на два лагеря: одни считают абьюзером Деппа, а другие уверены, что Херд - провокатор и инициатор домашнего насилия.
+1	Из-за	_	_	_	_	_	_	_	_
+2	темных	_	_	_	_	_	_	_	_
+3	пятен	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	этом	_	_	_	_	_	_	_	_
+6	процессе	_	_	_	_	_	_	_	_
+7	наблюдатели	_	_	_	_	_	_	_	bratT20=Other-group
+8	разделились	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	два	_	_	_	_	_	_	_	bratT21=Quantity
+11	лагеря	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity
+12	:	_	_	_	_	_	_	_	_
+13	одни	_	_	_	_	_	_	_	_
+14	считают	_	_	_	_	_	_	_	_
+15	абьюзером	_	_	_	_	_	_	_	bratT26=Other-group
+16	Деппа	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T23:Male|bratT22=Person-surname|bratT23=Person
+17	,	_	_	_	_	_	_	_	_
+18	а	_	_	_	_	_	_	_	_
+19	другие	_	_	_	_	_	_	_	_
+20	уверены	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	что	_	_	_	_	_	_	_	_
+23	Херд	_	_	_	_	_	_	_	bratA8=T24:Female|bratT24=Person|bratT25=Person-surname
+24	-	_	_	_	_	_	_	_	_
+25	провокатор	_	_	_	_	_	_	_	bratT29=Person-property
+26	и	_	_	_	_	_	_	_	_
+27	инициатор	_	_	_	_	_	_	_	bratT30=Person-property
+28	домашнего	_	_	_	_	_	_	_	bratT30=Person-property
+29	насилия	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0032-p4
+# par_text = Авторы петиции считают, что актриса заслуживает увольнения, так как сама не раз совершала акты насилия: не только по отношению к Деппу, но и к фотографу Тасе Ван Ри, с которой встречалась до актера.
+# sent_id = 0032-p4-s1
+# text = Авторы петиции считают, что актриса заслуживает увольнения, так как сама не раз совершала акты насилия: не только по отношению к Деппу, но и к фотографу Тасе Ван Ри, с которой встречалась до актера.
+1	Авторы	_	_	_	_	_	_	_	bratT31=Person-property
+2	петиции	_	_	_	_	_	_	_	bratA14=T57:Media|bratT31=Person-property|bratT57=Service
+3	считают	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	актриса	_	_	_	_	_	_	_	bratT32=Person-property
+7	заслуживает	_	_	_	_	_	_	_	_
+8	увольнения	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	так	_	_	_	_	_	_	_	_
+11	как	_	_	_	_	_	_	_	_
+12	сама	_	_	_	_	_	_	_	_
+13	не	_	_	_	_	_	_	_	bratT33=Quantity
+14	раз	_	_	_	_	_	_	_	bratT33=Quantity
+15	совершала	_	_	_	_	_	_	_	_
+16	акты	_	_	_	_	_	_	_	_
+17	насилия	_	_	_	_	_	_	_	SpaceAfter=No
+18	:	_	_	_	_	_	_	_	_
+19	не	_	_	_	_	_	_	_	_
+20	только	_	_	_	_	_	_	_	_
+21	по	_	_	_	_	_	_	_	_
+22	отношению	_	_	_	_	_	_	_	_
+23	к	_	_	_	_	_	_	_	_
+24	Деппу	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T35:Male|bratT34=Person-forename|bratT35=Person
+25	,	_	_	_	_	_	_	_	_
+26	но	_	_	_	_	_	_	_	_
+27	и	_	_	_	_	_	_	_	_
+28	к	_	_	_	_	_	_	_	_
+29	фотографу	_	_	_	_	_	_	_	bratA10=T39:Female|bratT38=Person-property|bratT39=Person
+30	Тасе	_	_	_	_	_	_	_	bratA10=T39:Female|bratT36=Person-forename|bratT39=Person
+31	Ван	_	_	_	_	_	_	_	bratA10=T39:Female|bratT37=Person-surname|bratT39=Person
+32	Ри	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T39:Female|bratT37=Person-surname|bratT39=Person
+33	,	_	_	_	_	_	_	_	_
+34	с	_	_	_	_	_	_	_	_
+35	которой	_	_	_	_	_	_	_	_
+36	встречалась	_	_	_	_	_	_	_	_
+37	до	_	_	_	_	_	_	_	bratA11=T41:Past|bratT41=Date-period-absolute
+38	актера	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T41:Past|bratT40=Person-property|bratT41=Date-period-absolute
+39	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0032-p5
+# par_text = «Известно и доказано, что Эмбер Херд является абьюзером, поэтому Warner Bros. and DC Entertainment должны отстранить ее от роли в проекте "Аквамен 2". Этим компаниям не следует игнорировать страдания жертв Херд и тем самым поддерживать домашнее насилие. Мужчины становятся его жертвами так же, как и женщины», — заключают авторы петиции.
+# sent_id = 0032-p5-s1
+# text = ``Известно и доказано, что Эмбер Херд является абьюзером, поэтому Warner Bros. and DC Entertainment должны отстранить ее от роли в проекте ``Аквамен 2''.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Известно	_	_	_	_	_	_	_	_
+3	и	_	_	_	_	_	_	_	_
+4	доказано	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	Эмбер	_	_	_	_	_	_	_	bratA12=T44:Female|bratT42=Person-forename|bratT44=Person
+8	Херд	_	_	_	_	_	_	_	bratA12=T44:Female|bratT43=Person-surname|bratT44=Person
+9	является	_	_	_	_	_	_	_	_
+10	абьюзером	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-property
+11	,	_	_	_	_	_	_	_	_
+12	поэтому	_	_	_	_	_	_	_	_
+13	Warner	_	_	_	_	_	_	_	bratT46=Organization
+14	Bros.	_	_	_	_	_	_	_	bratT46=Organization
+15	and	_	_	_	_	_	_	_	_
+16	DC	_	_	_	_	_	_	_	bratT54=Organization
+17	Entertainment	_	_	_	_	_	_	_	bratT54=Organization
+18	должны	_	_	_	_	_	_	_	_
+19	отстранить	_	_	_	_	_	_	_	_
+20	ее	_	_	_	_	_	_	_	_
+21	от	_	_	_	_	_	_	_	_
+22	роли	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	_
+24	проекте	_	_	_	_	_	_	_	bratT47=Work-of-art
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art
+26	Аквамен	_	_	_	_	_	_	_	bratT47=Work-of-art
+27	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art
+28	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p5-s2
+# text = Этим компаниям не следует игнорировать страдания жертв Херд и тем самым поддерживать домашнее насилие.
+1	Этим	_	_	_	_	_	_	_	_
+2	компаниям	_	_	_	_	_	_	_	_
+3	не	_	_	_	_	_	_	_	_
+4	следует	_	_	_	_	_	_	_	_
+5	игнорировать	_	_	_	_	_	_	_	_
+6	страдания	_	_	_	_	_	_	_	_
+7	жертв	_	_	_	_	_	_	_	bratT50=Person-property
+8	Херд	_	_	_	_	_	_	_	bratA13=T49:Female|bratT48=Person-surname|bratT49=Person|bratT50=Person-property
+9	и	_	_	_	_	_	_	_	_
+10	тем	_	_	_	_	_	_	_	_
+11	самым	_	_	_	_	_	_	_	_
+12	поддерживать	_	_	_	_	_	_	_	_
+13	домашнее	_	_	_	_	_	_	_	_
+14	насилие	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p5-s3
+# text = Мужчины становятся его жертвами так же, как и женщины'', - заключают авторы петиции.
+1	Мужчины	_	_	_	_	_	_	_	_
+2	становятся	_	_	_	_	_	_	_	_
+3	его	_	_	_	_	_	_	_	_
+4	жертвами	_	_	_	_	_	_	_	_
+5	так	_	_	_	_	_	_	_	_
+6	же	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	как	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	женщины	_	_	_	_	_	_	_	SpaceAfter=No
+11	''	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	-	_	_	_	_	_	_	_	_
+14	заключают	_	_	_	_	_	_	_	_
+15	авторы	_	_	_	_	_	_	_	bratT51=Person-property
+16	петиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Person-property
+17	.	_	_	_	_	_	_	_	_
+

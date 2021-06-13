@@ -1,0 +1,87 @@
+T1	Person 0 8	Пригожин
+T2	Money 39 56	10   млн   рублей
+T3	Person 63 73	Навальному
+T4	Person 80 86	Соболь
+T5	Person 138 181	Российский   бизнесмен   Евгений   Пригожин
+T6	Person-property 138 160	Российский   бизнесмен
+T7	Person-property 203 262	оппозиционерам   Алексею   Навальному   и   Любови   Соболь
+A1	Plural T7
+T8	Money 265 284	по   5   млн   руб.
+T9	Organization 321 364	пресс-служба   компании   ``   Конкорд   ''
+A2	Department T9
+T10	Organization 336 364	компании   ``   Конкорд   ''
+T11	Service 412 420	странице
+A3	Media T11
+T12	Person 220 240	Алексею   Навальному
+T13	Person 247 262	Любови   Соболь
+T14	Person 487 497	Навального
+T15	Service 530 536	постом
+A4	Media T15
+T16	Money 653 667	1   млн   руб.
+T17	Person 675 684	Пригожина
+T18	Person 711 720	Пригожина
+T19	Person 850 858	Пригожин
+T20	Person 1088 1094	Соболь
+T21	Organization 1130 1150	порталу   Znak . com
+A5	Media T21
+T22	Person 1171 1177	Соболь
+T23	Person 1200 1208	Пригожин
+T24	Organization 1224 1278	комбинатом   питания   ``   Московский   школьник   ''
+T25	Person 1419 1427	Пригожин
+T26	Money 1546 1555	миллиарды
+T27	Person-property 1872 1881	Бизнесмен
+T28	Person 1922 1932	Навального
+T29	Person 1939 1945	Соболь
+T30	Political-group 617 631	оппозиционером
+T31	Money 1977 1996	по   5   млн   руб.
+T32	Service 427 459	сообществе   ``   Вконтакте   ''
+T33	Service 543 550	Twitter
+T34	Date-absolute 519 527	июльским
+T35	Person-surname 0 8	Пригожин
+A6	Male T1
+T36	Person-surname 63 73	Навальному
+T37	Person-surname 80 86	Соболь
+A7	Male T3
+A8	Female T4
+A9	Male T5
+A10	Male T12
+A11	Male T13
+T38	Person-forename 163 170	Евгений
+T39	Person-surname 173 181	Пригожин
+T40	Person-forename 220 227	Алексею
+T41	Person-surname 230 240	Навальному
+T42	Person-forename 247 253	Любови
+T43	Person-surname 256 262	Соболь
+T44	GPE 138 148	Российский
+A12	Adjective T44
+A13	Male T14
+A14	Male T17
+A15	Male T18
+A16	Male T19
+A17	Female T20
+A18	Female T22
+A19	Male T23
+T45	GPE 1252 1262	Московский
+A20	Adjective T45
+A21	Male T25
+A22	Male T28
+A23	Female T29
+T46	Person-surname 487 497	Навального
+T47	Person-surname 675 684	Пригожина
+T48	Person-surname 711 720	Пригожина
+T49	Person-surname 850 858	Пригожин
+T50	Person-surname 1088 1094	Соболь
+T51	Person-surname 1171 1177	Соболь
+T52	Person-surname 1200 1208	Пригожин
+T53	Person-surname 1419 1427	Пригожин
+T55	Person-surname 1922 1932	Навального
+T56	Person-surname 1939 1945	Соболь
+A24	Past T34
+T57	GPE 1563 1574	московского
+A25	Adjective T57
+T54	Time-relative 1474 1476	до
+T58	Age 1320 1325	детей
+T59	Age 1444 1449	детей
+T60	Person 617 631	оппозиционером
+A26	Male T60
+T61	Web-address 1140 1150	Znak . com

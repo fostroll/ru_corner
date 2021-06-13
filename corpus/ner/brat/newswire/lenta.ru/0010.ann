@@ -3,7 +3,7 @@ T3	Person-property 84 132	руководитель   аппарата   прав
 T4	GPE 126 132	России
 T5	Person 65 155	Вице-премьер   ,   руководитель   аппарата   правительства   России   Дмитрий   Григоренко
 T6	Organization 275 304	``   Российской   газете   ''
-T15	Person-property 779 807	заместителей   руководителей
+T15	Person-property 779 832	заместителей   руководителей   федеральных   ведомств
 T17	Person 857 867	Григоренко
 T18	Person-property 881 893	вице-премьер
 T20	Percent 1012 1026	20   процентов
@@ -54,3 +54,19 @@ A9	Male T31
 A10	Male T35
 A11	Adjective T44
 T45	Person-property 1126 1134	служащих
+T48	Product 216 253	оптимизации   системы   госуправления
+A12	Project T48
+T49	Event 497 504	реформы
+T51	Product 1839 1869	реформы   системы   управления
+A13	Project T51
+T53	Person 881 893	вице-премьер
+A14	Male T53
+T54	Person 1118 1134	своих   служащих
+T55	Person 1559 1566	политик
+A15	Male T55
+T46	Organization 1178 1184	власти
+T47	Organization 57 63	власти
+T50	Organization 194 200	власти
+T56	Organization 409 439	федеральных   органов   власти
+T57	Organization 383 439	центральных   аппаратах   федеральных   органов   власти
+A16	Department T57

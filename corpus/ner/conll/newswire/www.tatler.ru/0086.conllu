@@ -1,0 +1,190 @@
+# newdoc id = 0086
+# newpar id = 0086-p1
+# par_text = От Меган Маркл уходит третья помощница
+# sent_id = 0086-p1-s1
+# text = От Меган Маркл уходит третья помощница
+1	От	_	_	_	_	_	_	_	_
+2	Меган	_	_	_	_	_	_	_	bratA1=T3:Female|bratT1=Person-forename|bratT3=Person
+3	Маркл	_	_	_	_	_	_	_	bratA1=T3:Female|bratT2=Person-surname|bratT3=Person
+4	уходит	_	_	_	_	_	_	_	_
+5	третья	_	_	_	_	_	_	_	bratT4=Ordinal
+6	помощница	_	_	_	_	_	_	_	bratT5=Person-property
+
+# newpar id = 0086-p2
+# par_text = И года не прошло, как Меган Маркл официально стала представительницей королевской семьи Великобритании. А ей уже пришлось столкнуться с кадровым вопросом. Стало известно, что ближайшая помощница герцогини Сассекской Эми Пикерилл решила уйти со своей должности. За последние полгода это уже третья ассистентка Меган, которая захотела уволиться.
+# sent_id = 0086-p2-s1
+# text = И года не прошло, как Меган Маркл официально стала представительницей королевской семьи Великобритании.
+1	И	_	_	_	_	_	_	_	_
+2	года	_	_	_	_	_	_	_	bratA8=T13:Past|bratT13=Date-relative|bratT6=Duration
+3	не	_	_	_	_	_	_	_	bratA8=T13:Past|bratT13=Date-relative
+4	прошло	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T13:Past|bratT13=Date-relative
+5	,	_	_	_	_	_	_	_	_
+6	как	_	_	_	_	_	_	_	_
+7	Меган	_	_	_	_	_	_	_	bratA2=T9:Female|bratT7=Person-forename|bratT9=Person
+8	Маркл	_	_	_	_	_	_	_	bratA2=T9:Female|bratT8=Person-surname|bratT9=Person
+9	официально	_	_	_	_	_	_	_	_
+10	стала	_	_	_	_	_	_	_	_
+11	представительницей	_	_	_	_	_	_	_	bratT12=Person-property
+12	королевской	_	_	_	_	_	_	_	bratT12=Person-property|bratT56=Organization
+13	семьи	_	_	_	_	_	_	_	bratT11=Family|bratT12=Person-property|bratT56=Organization
+14	Великобритании	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=GPE|bratT12=Person-property|bratT56=Organization
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0086-p2-s2
+# text = А ей уже пришлось столкнуться с кадровым вопросом.
+1	А	_	_	_	_	_	_	_	_
+2	ей	_	_	_	_	_	_	_	_
+3	уже	_	_	_	_	_	_	_	_
+4	пришлось	_	_	_	_	_	_	_	_
+5	столкнуться	_	_	_	_	_	_	_	_
+6	с	_	_	_	_	_	_	_	_
+7	кадровым	_	_	_	_	_	_	_	_
+8	вопросом	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0086-p2-s3
+# text = Стало известно, что ближайшая помощница герцогини Сассекской Эми Пикерилл решила уйти со своей должности.
+1	Стало	_	_	_	_	_	_	_	_
+2	известно	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	ближайшая	_	_	_	_	_	_	_	bratA5=T19:Female|bratT18=Person-property|bratT19=Person
+6	помощница	_	_	_	_	_	_	_	bratA5=T19:Female|bratT18=Person-property|bratT19=Person
+7	герцогини	_	_	_	_	_	_	_	bratA19=T54:Female|bratA5=T19:Female|bratT15=Person-property|bratT18=Person-property|bratT19=Person|bratT54=Person
+8	Сассекской	_	_	_	_	_	_	_	bratA19=T54:Female|bratA4=T14:Adjective|bratA5=T19:Female|bratT14=GPE|bratT18=Person-property|bratT19=Person|bratT54=Person
+9	Эми	_	_	_	_	_	_	_	bratA5=T19:Female|bratT16=Person-forename|bratT19=Person
+10	Пикерилл	_	_	_	_	_	_	_	bratA5=T19:Female|bratT17=Person-surname|bratT19=Person
+11	решила	_	_	_	_	_	_	_	_
+12	уйти	_	_	_	_	_	_	_	_
+13	со	_	_	_	_	_	_	_	_
+14	своей	_	_	_	_	_	_	_	_
+15	должности	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Person-property
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0086-p2-s4
+# text = За последние полгода это уже третья ассистентка Меган, которая захотела уволиться.
+1	За	_	_	_	_	_	_	_	bratA6=T20:Past-Pres|bratT20=Date-period-absolute
+2	последние	_	_	_	_	_	_	_	bratA6=T20:Past-Pres|bratT20=Date-period-absolute|bratT55=Ordinal
+3	полгода	_	_	_	_	_	_	_	bratA6=T20:Past-Pres|bratT20=Date-period-absolute|bratT21=Duration
+4	это	_	_	_	_	_	_	_	_
+5	уже	_	_	_	_	_	_	_	_
+6	третья	_	_	_	_	_	_	_	bratT22=Ordinal
+7	ассистентка	_	_	_	_	_	_	_	bratT25=Person-property
+8	Меган	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T24:Female|bratT23=Person-forename|bratT24=Person|bratT25=Person-property
+9	,	_	_	_	_	_	_	_	_
+10	которая	_	_	_	_	_	_	_	_
+11	захотела	_	_	_	_	_	_	_	_
+12	уволиться	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0086-p3
+# par_text = Но строить догадки о невероятно трудном характере супруги принца Гарри не стоит. Говорят, Меган и Эми расстаются хорошими друзьями, и Пикерилл и дальше будет помогать Маркл советами. Но уже удаленно — она переезжает в другую страну. Впрочем, рождения первенца своей начальницы она все же дождется.
+# sent_id = 0086-p3-s1
+# text = Но строить догадки о невероятно трудном характере супруги принца Гарри не стоит.
+1	Но	_	_	_	_	_	_	_	_
+2	строить	_	_	_	_	_	_	_	_
+3	догадки	_	_	_	_	_	_	_	_
+4	о	_	_	_	_	_	_	_	_
+5	невероятно	_	_	_	_	_	_	_	_
+6	трудном	_	_	_	_	_	_	_	_
+7	характере	_	_	_	_	_	_	_	_
+8	супруги	_	_	_	_	_	_	_	bratA9=T30:Female|bratT29=Family|bratT30=Person
+9	принца	_	_	_	_	_	_	_	bratA3=T28:Male|bratA9=T30:Female|bratT27=Person-property|bratT28=Person|bratT30=Person
+10	Гарри	_	_	_	_	_	_	_	bratA3=T28:Male|bratA9=T30:Female|bratT26=Person-forename|bratT28=Person|bratT30=Person
+11	не	_	_	_	_	_	_	_	_
+12	стоит	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0086-p3-s2
+# text = Говорят, Меган и Эми расстаются хорошими друзьями, и Пикерилл и дальше будет помогать Маркл советами.
+1	Говорят	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	Меган	_	_	_	_	_	_	_	bratA10=T32:Female|bratT31=Person-forename|bratT32=Person
+4	и	_	_	_	_	_	_	_	_
+5	Эми	_	_	_	_	_	_	_	bratA11=T34:Female|bratT33=Person-forename|bratT34=Person
+6	расстаются	_	_	_	_	_	_	_	_
+7	хорошими	_	_	_	_	_	_	_	_
+8	друзьями	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	Пикерилл	_	_	_	_	_	_	_	bratA12=T36:Female|bratT35=Person-surname|bratT36=Person
+12	и	_	_	_	_	_	_	_	_
+13	дальше	_	_	_	_	_	_	_	_
+14	будет	_	_	_	_	_	_	_	_
+15	помогать	_	_	_	_	_	_	_	_
+16	Маркл	_	_	_	_	_	_	_	bratA13=T38:Female|bratT37=Person-surname|bratT38=Person
+17	советами	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0086-p3-s3
+# text = Но уже удаленно - она переезжает в другую страну.
+1	Но	_	_	_	_	_	_	_	_
+2	уже	_	_	_	_	_	_	_	_
+3	удаленно	_	_	_	_	_	_	_	_
+4	-	_	_	_	_	_	_	_	_
+5	она	_	_	_	_	_	_	_	_
+6	переезжает	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	другую	_	_	_	_	_	_	_	_
+9	страну	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=GPE
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0086-p3-s4
+# text = Впрочем, рождения первенца своей начальницы она все же дождется.
+1	Впрочем	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	рождения	_	_	_	_	_	_	_	_
+4	первенца	_	_	_	_	_	_	_	bratA18=T53:Male|bratT39=Family|bratT53=Person
+5	своей	_	_	_	_	_	_	_	bratA18=T53:Male|bratT53=Person
+6	начальницы	_	_	_	_	_	_	_	bratA18=T53:Male|bratT40=Person-property|bratT53=Person
+7	она	_	_	_	_	_	_	_	_
+8	все	_	_	_	_	_	_	_	_
+9	же	_	_	_	_	_	_	_	_
+10	дождется	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0086-p4
+# par_text = Эми Пикерилл была одной из первых, кто стал работать с Меган после ее переезда в Лондон. Она активно помогала герцогине в ее благотворительной деятельности, в том числе участвовала в создании поваренной книги Меган.
+# sent_id = 0086-p4-s1
+# text = Эми Пикерилл была одной из первых, кто стал работать с Меган после ее переезда в Лондон.
+1	Эми	_	_	_	_	_	_	_	bratA14=T43:Female|bratT41=Person-forename|bratT43=Person
+2	Пикерилл	_	_	_	_	_	_	_	bratA14=T43:Female|bratT42=Person-surname|bratT43=Person
+3	была	_	_	_	_	_	_	_	_
+4	одной	_	_	_	_	_	_	_	bratT44=Quantity
+5	из	_	_	_	_	_	_	_	bratT44=Quantity
+6	первых	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Ordinal
+7	,	_	_	_	_	_	_	_	_
+8	кто	_	_	_	_	_	_	_	_
+9	стал	_	_	_	_	_	_	_	_
+10	работать	_	_	_	_	_	_	_	_
+11	с	_	_	_	_	_	_	_	_
+12	Меган	_	_	_	_	_	_	_	bratA15=T47:Female|bratT46=Person-forename|bratT47=Person
+13	после	_	_	_	_	_	_	_	bratA16=T49:Past|bratT49=Date-absolute
+14	ее	_	_	_	_	_	_	_	bratA16=T49:Past|bratT49=Date-absolute
+15	переезда	_	_	_	_	_	_	_	bratA16=T49:Past|bratT49=Date-absolute
+16	в	_	_	_	_	_	_	_	_
+17	Лондон	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=GPE
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0086-p4-s2
+# text = Она активно помогала герцогине в ее благотворительной деятельности, в том числе участвовала в создании поваренной книги Меган.
+1	Она	_	_	_	_	_	_	_	_
+2	активно	_	_	_	_	_	_	_	_
+3	помогала	_	_	_	_	_	_	_	_
+4	герцогине	_	_	_	_	_	_	_	bratT50=Person-property
+5	в	_	_	_	_	_	_	_	_
+6	ее	_	_	_	_	_	_	_	_
+7	благотворительной	_	_	_	_	_	_	_	_
+8	деятельности	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	том	_	_	_	_	_	_	_	_
+12	числе	_	_	_	_	_	_	_	_
+13	участвовала	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	создании	_	_	_	_	_	_	_	_
+16	поваренной	_	_	_	_	_	_	_	_
+17	книги	_	_	_	_	_	_	_	_
+18	Меган	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T52:Female|bratT51=Person-forename|bratT52=Person
+19	.	_	_	_	_	_	_	_	_
+

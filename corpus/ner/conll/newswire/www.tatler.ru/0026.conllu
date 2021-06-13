@@ -1,0 +1,112 @@
+# newdoc id = 0026
+# newpar id = 0026-p1
+# par_text = Джастин Бибер о помолвке с Хейли Болдуин: «Тот, кто находит жену, получает милость от Господа»
+# sent_id = 0026-p1-s1
+# text = Джастин Бибер о помолвке с Хейли Болдуин: ``Тот, кто находит жену, получает милость от Господа''
+1	Джастин	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-forename|bratT3=Person
+2	Бибер	_	_	_	_	_	_	_	bratA1=T3:Male|bratT2=Person-surname|bratT3=Person
+3	о	_	_	_	_	_	_	_	_
+4	помолвке	_	_	_	_	_	_	_	bratT7=Event
+5	с	_	_	_	_	_	_	_	bratT7=Event
+6	Хейли	_	_	_	_	_	_	_	bratA2=T6:Female|bratT4=Person-forename|bratT6=Person|bratT7=Event
+7	Болдуин	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Female|bratT5=Person-surname|bratT6=Person|bratT7=Event
+8	:	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No
+10	Тот	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	кто	_	_	_	_	_	_	_	_
+13	находит	_	_	_	_	_	_	_	_
+14	жену	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Family
+15	,	_	_	_	_	_	_	_	_
+16	получает	_	_	_	_	_	_	_	_
+17	милость	_	_	_	_	_	_	_	_
+18	от	_	_	_	_	_	_	_	_
+19	Господа	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Fiction|bratT9=Person
+20	''	_	_	_	_	_	_	_	_
+
+# newpar id = 0026-p2
+# par_text = Вчера портал TMZ сообщил, что Джастин Бибер и Хейли Болдуин помолвлены. Новость стала неожиданностью для поклонников обоих — о том, что Хейли и Джастин снова встречаются, стало известно лишь в июне этого года, так что некоторым решение о свадьбе показалось поспешным. Чтобы пресечь слухи, музыкант рассказал о своих чувствах в инстаграме. Джастин уверен, что их с Хейли союз был заключен на небесах.
+# sent_id = 0026-p2-s1
+# text = Вчера портал TMZ сообщил, что Джастин Бибер и Хейли Болдуин помолвлены.
+1	Вчера	_	_	_	_	_	_	_	bratA4=T10:Past|bratT10=Date-absolute
+2	портал	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
+3	TMZ	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
+4	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	Джастин	_	_	_	_	_	_	_	bratA6=T16:Male|bratT12=Person-forename|bratT16=Person
+8	Бибер	_	_	_	_	_	_	_	bratA6=T16:Male|bratT13=Person-surname|bratT16=Person
+9	и	_	_	_	_	_	_	_	_
+10	Хейли	_	_	_	_	_	_	_	bratA7=T17:Female|bratT14=Person-forename|bratT17=Person
+11	Болдуин	_	_	_	_	_	_	_	bratA7=T17:Female|bratT15=Person-surname|bratT17=Person
+12	помолвлены	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0026-p2-s2
+# text = Новость стала неожиданностью для поклонников обоих - о том, что Хейли и Джастин снова встречаются, стало известно лишь в июне этого года, так что некоторым решение о свадьбе показалось поспешным.
+1	Новость	_	_	_	_	_	_	_	_
+2	стала	_	_	_	_	_	_	_	_
+3	неожиданностью	_	_	_	_	_	_	_	_
+4	для	_	_	_	_	_	_	_	_
+5	поклонников	_	_	_	_	_	_	_	bratT30=Other-group
+6	обоих	_	_	_	_	_	_	_	bratT18=Quantity
+7	-	_	_	_	_	_	_	_	_
+8	о	_	_	_	_	_	_	_	_
+9	том	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	что	_	_	_	_	_	_	_	_
+12	Хейли	_	_	_	_	_	_	_	bratA8=T21:Female|bratT19=Person-forename|bratT21=Person
+13	и	_	_	_	_	_	_	_	_
+14	Джастин	_	_	_	_	_	_	_	bratA9=T22:Male|bratT20=Person-forename|bratT22=Person
+15	снова	_	_	_	_	_	_	_	_
+16	встречаются	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	стало	_	_	_	_	_	_	_	_
+19	известно	_	_	_	_	_	_	_	_
+20	лишь	_	_	_	_	_	_	_	_
+21	в	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute
+22	июне	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute
+23	этого	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute|bratT31=Ordinal
+24	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T23:Past|bratT23=Date-absolute
+25	,	_	_	_	_	_	_	_	_
+26	так	_	_	_	_	_	_	_	_
+27	что	_	_	_	_	_	_	_	_
+28	некоторым	_	_	_	_	_	_	_	_
+29	решение	_	_	_	_	_	_	_	_
+30	о	_	_	_	_	_	_	_	_
+31	свадьбе	_	_	_	_	_	_	_	_
+32	показалось	_	_	_	_	_	_	_	_
+33	поспешным	_	_	_	_	_	_	_	SpaceAfter=No
+34	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0026-p2-s3
+# text = Чтобы пресечь слухи, музыкант рассказал о своих чувствах в инстаграме.
+1	Чтобы	_	_	_	_	_	_	_	_
+2	пресечь	_	_	_	_	_	_	_	_
+3	слухи	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	музыкант	_	_	_	_	_	_	_	bratT24=Person-property
+6	рассказал	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	своих	_	_	_	_	_	_	_	_
+9	чувствах	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	инстаграме	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Service
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0026-p2-s4
+# text = Джастин уверен, что их с Хейли союз был заключен на небесах.
+1	Джастин	_	_	_	_	_	_	_	bratA12=T27:Male|bratT26=Person-forename|bratT27=Person
+2	уверен	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	их	_	_	_	_	_	_	_	_
+6	с	_	_	_	_	_	_	_	_
+7	Хейли	_	_	_	_	_	_	_	bratA13=T29:Female|bratT28=Person-forename|bratT29=Person
+8	союз	_	_	_	_	_	_	_	_
+9	был	_	_	_	_	_	_	_	_
+10	заключен	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	небесах	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+

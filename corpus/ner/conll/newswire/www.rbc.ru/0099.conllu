@@ -1,0 +1,274 @@
+# newdoc id = 0099
+# newpar id = 0099-p1
+# par_text = Из ростовской больницы после массовой гибели пациентов уволились врачи
+# sent_id = 0099-p1-s1
+# text = Из ростовской больницы после массовой гибели пациентов уволились врачи
+1	Из	_	_	_	_	_	_	_	_
+2	ростовской	_	_	_	_	_	_	_	bratA8=T35:Adjective|bratT35=GPE
+3	больницы	_	_	_	_	_	_	_	_
+4	после	_	_	_	_	_	_	_	bratA15=T47:Past|bratT47=Date-absolute
+5	массовой	_	_	_	_	_	_	_	bratA15=T47:Past|bratT47=Date-absolute|bratT52=Event
+6	гибели	_	_	_	_	_	_	_	bratA15=T47:Past|bratT47=Date-absolute|bratT52=Event
+7	пациентов	_	_	_	_	_	_	_	bratT52=Event
+8	уволились	_	_	_	_	_	_	_	_
+9	врачи	_	_	_	_	_	_	_	bratT2=Person-property
+
+# newpar id = 0099-p2
+# par_text = Из реанимации ростовской больницы № 20, где в октябре из-за перерыва в снабжении кислородом погибли несколько пациентов с COVID, уволились шесть врачей, сообщает издание 161.ru со ссылкой на источники. Первым больницу 10 ноября покинул анестезиолог-реаниматолог Артур Топоров, который и рассказал о гибели в ночь с 11 на 12 октября пациентов из-за нехватки кислорода.
+# sent_id = 0099-p2-s1
+# text = Из реанимации ростовской больницы № 20, где в октябре из-за перерыва в снабжении кислородом погибли несколько пациентов с COVID, уволились шесть врачей, сообщает издание 161.ru со ссылкой на источники.
+1	Из	_	_	_	_	_	_	_	_
+2	реанимации	_	_	_	_	_	_	_	bratA1=T3:Department|bratT3=Organization
+3	ростовской	_	_	_	_	_	_	_	bratA1=T3:Department|bratA7=T1:Adjective|bratT1=GPE|bratT3=Organization|bratT4=Organization
+4	больницы	_	_	_	_	_	_	_	bratA1=T3:Department|bratT3=Organization|bratT4=Organization
+5	№	_	_	_	_	_	_	_	bratA1=T3:Department|bratT3=Organization|bratT37=Ordinal|bratT4=Organization
+6	20	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Department|bratT3=Organization|bratT37=Ordinal|bratT4=Organization
+7	,	_	_	_	_	_	_	_	_
+8	где	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	bratA9=T5:Past|bratT5=Date-absolute
+10	октябре	_	_	_	_	_	_	_	bratA9=T5:Past|bratT5=Date-absolute
+11	из-за	_	_	_	_	_	_	_	_
+12	перерыва	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	снабжении	_	_	_	_	_	_	_	_
+15	кислородом	_	_	_	_	_	_	_	_
+16	погибли	_	_	_	_	_	_	_	_
+17	несколько	_	_	_	_	_	_	_	bratT36=Quantity
+18	пациентов	_	_	_	_	_	_	_	bratT36=Quantity
+19	с	_	_	_	_	_	_	_	_
+20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term
+21	,	_	_	_	_	_	_	_	_
+22	уволились	_	_	_	_	_	_	_	_
+23	шесть	_	_	_	_	_	_	_	bratT7=Quantity
+24	врачей	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity|bratT8=Person-property
+25	,	_	_	_	_	_	_	_	_
+26	сообщает	_	_	_	_	_	_	_	_
+27	издание	_	_	_	_	_	_	_	bratA2=T9:Media|bratT9=Organization
+28-30	161.ru	_	_	_	_	_	_	_	_
+28	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Media|bratT54=Cardinal|bratT58=Web-address|bratT9=Organization
+29	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Media|bratT58=Web-address|bratT9=Organization
+30	ru	_	_	_	_	_	_	_	bratA2=T9:Media|bratT58=Web-address|bratT9=Organization
+31	со	_	_	_	_	_	_	_	_
+32	ссылкой	_	_	_	_	_	_	_	_
+33	на	_	_	_	_	_	_	_	_
+34	источники	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0099-p2-s2
+# text = Первым больницу 10 ноября покинул анестезиолог-реаниматолог Артур Топоров, который и рассказал о гибели в ночь с 11 на 12 октября пациентов из-за нехватки кислорода.
+1	Первым	_	_	_	_	_	_	_	bratT13=Ordinal
+2	больницу	_	_	_	_	_	_	_	_
+3	10	_	_	_	_	_	_	_	bratA10=T10:Past|bratT10=Date-absolute
+4	ноября	_	_	_	_	_	_	_	bratA10=T10:Past|bratT10=Date-absolute
+5	покинул	_	_	_	_	_	_	_	_
+6-8	анестезиолог-реаниматолог	_	_	_	_	_	_	_	_
+6	анестезиолог	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T11:Male|bratT11=Person|bratT12=Person-property
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T11:Male|bratT11=Person|bratT12=Person-property
+8	реаниматолог	_	_	_	_	_	_	_	bratA11=T11:Male|bratT11=Person|bratT12=Person-property
+9	Артур	_	_	_	_	_	_	_	bratA11=T11:Male|bratT11=Person|bratT38=Person-forename
+10	Топоров	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T11:Male|bratT11=Person|bratT39=Person-surname
+11	,	_	_	_	_	_	_	_	_
+12	который	_	_	_	_	_	_	_	_
+13	и	_	_	_	_	_	_	_	_
+14	рассказал	_	_	_	_	_	_	_	_
+15	о	_	_	_	_	_	_	_	_
+16	гибели	_	_	_	_	_	_	_	bratT53=Event
+17	в	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-absolute|bratT40=Time-absolute
+18	ночь	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-absolute|bratT40=Time-absolute
+19	с	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-absolute|bratT40=Time-absolute
+20	11	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-absolute
+21	на	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-absolute
+22	12	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-absolute
+23	октября	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-absolute
+24	пациентов	_	_	_	_	_	_	_	_
+25	из-за	_	_	_	_	_	_	_	_
+26	нехватки	_	_	_	_	_	_	_	_
+27	кислорода	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p3
+# par_text = Он тогда отметил, что написал заявление по собственному желанию и добавил: «Сам бы больных я не бросил и обязательно продолжу работать в своей специальности».
+# sent_id = 0099-p3-s1
+# text = Он тогда отметил, что написал заявление по собственному желанию и добавил: ``Сам бы больных я не бросил и обязательно продолжу работать в своей специальности''.
+1	Он	_	_	_	_	_	_	_	_
+2	тогда	_	_	_	_	_	_	_	bratA16=T51:Past|bratT51=Date-relative
+3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	написал	_	_	_	_	_	_	_	_
+7	заявление	_	_	_	_	_	_	_	_
+8	по	_	_	_	_	_	_	_	_
+9	собственному	_	_	_	_	_	_	_	_
+10	желанию	_	_	_	_	_	_	_	_
+11	и	_	_	_	_	_	_	_	_
+12	добавил	_	_	_	_	_	_	_	SpaceAfter=No
+13	:	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	SpaceAfter=No
+15	Сам	_	_	_	_	_	_	_	_
+16	бы	_	_	_	_	_	_	_	_
+17	больных	_	_	_	_	_	_	_	_
+18	я	_	_	_	_	_	_	_	_
+19	не	_	_	_	_	_	_	_	_
+20	бросил	_	_	_	_	_	_	_	_
+21	и	_	_	_	_	_	_	_	_
+22	обязательно	_	_	_	_	_	_	_	_
+23	продолжу	_	_	_	_	_	_	_	_
+24	работать	_	_	_	_	_	_	_	_
+25	в	_	_	_	_	_	_	_	_
+26	своей	_	_	_	_	_	_	_	_
+27	специальности	_	_	_	_	_	_	_	SpaceAfter=No
+28	''	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p4
+# par_text = «Из реанимации пошел отток кадров. Ушли коллега Топорова по той дежурной смене и еще четыре доктора. Коллектив в реанимации был устоявшийся, все «старые», работали долго — с допандемийных времен. [Главврач ГБ № 20 Ваган] Саркисян просит всех привести свою замену в течение двух недель отработки», — рассказал источник 161.ru.
+# sent_id = 0099-p4-s1
+# text = ``Из реанимации пошел отток кадров.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Из	_	_	_	_	_	_	_	_
+3	реанимации	_	_	_	_	_	_	_	_
+4	пошел	_	_	_	_	_	_	_	_
+5	отток	_	_	_	_	_	_	_	_
+6	кадров	_	_	_	_	_	_	_	SpaceAfter=No
+7	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0099-p4-s2
+# text = Ушли коллега Топорова по той дежурной смене и еще четыре доктора.
+1	Ушли	_	_	_	_	_	_	_	_
+2	коллега	_	_	_	_	_	_	_	bratT14=Person|bratT56=Person-property
+3	Топорова	_	_	_	_	_	_	_	bratT14=Person|bratT41=Person-surname
+4	по	_	_	_	_	_	_	_	_
+5	той	_	_	_	_	_	_	_	_
+6	дежурной	_	_	_	_	_	_	_	_
+7	смене	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	еще	_	_	_	_	_	_	_	bratT15=Quantity
+10	четыре	_	_	_	_	_	_	_	bratT15=Quantity
+11	доктора	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity|bratT16=Person-property
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0099-p4-s3
+# text = Коллектив в реанимации был устоявшийся, все ``старые'', работали долго - с допандемийных времен.
+1	Коллектив	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	реанимации	_	_	_	_	_	_	_	_
+4	был	_	_	_	_	_	_	_	_
+5	устоявшийся	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	все	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	SpaceAfter=No
+9	старые	_	_	_	_	_	_	_	SpaceAfter=No
+10	''	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	работали	_	_	_	_	_	_	_	_
+13	долго	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	с	_	_	_	_	_	_	_	bratA14=T42:Past-Pres|bratT42=Date-period-absolute
+16	допандемийных	_	_	_	_	_	_	_	bratA14=T42:Past-Pres|bratT42=Date-period-absolute
+17	времен	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T42:Past-Pres|bratT42=Date-period-absolute
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0099-p4-s4
+# text = (Главврач ГБ № 20 Ваган) Саркисян просит всех привести свою замену в течение двух недель отработки'', - рассказал источник 161.ru.
+1	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Male|bratT17=Person
+2	Главврач	_	_	_	_	_	_	_	bratA17=T17:Male|bratT17=Person|bratT19=Person-property
+3	ГБ	_	_	_	_	_	_	_	bratA17=T17:Male|bratT17=Person|bratT19=Person-property|bratT20=Organization
+4	№	_	_	_	_	_	_	_	bratA17=T17:Male|bratT17=Person|bratT19=Person-property|bratT20=Organization|bratT44=Ordinal
+5	20	_	_	_	_	_	_	_	bratA17=T17:Male|bratT17=Person|bratT19=Person-property|bratT20=Organization|bratT44=Ordinal
+6	Ваган	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Male|bratT17=Person|bratT43=Person-forename
+7	)	_	_	_	_	_	_	_	bratA17=T17:Male|bratT17=Person
+8	Саркисян	_	_	_	_	_	_	_	bratA17=T17:Male|bratT17=Person|bratT18=Person-surname
+9	просит	_	_	_	_	_	_	_	_
+10	всех	_	_	_	_	_	_	_	_
+11	привести	_	_	_	_	_	_	_	_
+12	свою	_	_	_	_	_	_	_	_
+13	замену	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	bratT21=Time-period
+15	течение	_	_	_	_	_	_	_	bratT21=Time-period
+16	двух	_	_	_	_	_	_	_	bratT21=Time-period|bratT45=Duration
+17	недель	_	_	_	_	_	_	_	bratT21=Time-period|bratT45=Duration
+18	отработки	_	_	_	_	_	_	_	SpaceAfter=No
+19	''	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	-	_	_	_	_	_	_	_	_
+22	рассказал	_	_	_	_	_	_	_	_
+23	источник	_	_	_	_	_	_	_	_
+24-26	161.ru	_	_	_	_	_	_	_	SpaceAfter=No
+24	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT55=Cardinal|bratT57=Web-address
+25	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT57=Web-address
+26	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT57=Web-address
+27	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p5
+# par_text = Один из бывших сотрудников больницы рассказал РБК, что вслед за реаниматологом Алексеем Топоровым уволились пять сотрудников.
+# sent_id = 0099-p5-s1
+# text = Один из бывших сотрудников больницы рассказал РБК, что вслед за реаниматологом Алексеем Топоровым уволились пять сотрудников.
+1	Один	_	_	_	_	_	_	_	bratT46=Quantity
+2	из	_	_	_	_	_	_	_	bratT46=Quantity
+3	бывших	_	_	_	_	_	_	_	_
+4	сотрудников	_	_	_	_	_	_	_	_
+5	больницы	_	_	_	_	_	_	_	_
+6	рассказал	_	_	_	_	_	_	_	_
+7	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T23:Media|bratT23=Organization
+8	,	_	_	_	_	_	_	_	_
+9	что	_	_	_	_	_	_	_	_
+10	вслед	_	_	_	_	_	_	_	_
+11	за	_	_	_	_	_	_	_	_
+12	реаниматологом	_	_	_	_	_	_	_	bratA18=T24:Male|bratT24=Person|bratT48=Person-property
+13	Алексеем	_	_	_	_	_	_	_	bratA18=T24:Male|bratT24=Person|bratT49=Person-forename
+14	Топоровым	_	_	_	_	_	_	_	bratA18=T24:Male|bratT24=Person|bratT50=Person-surname
+15	уволились	_	_	_	_	_	_	_	_
+16	пять	_	_	_	_	_	_	_	bratT25=Quantity
+17	сотрудников	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Quantity
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0099-p6
+# par_text = В администрации Ростова-на-Дону РБК сообщили, что из анестезиологии-реанимации по собственному желанию уволились два врача. «Поданы четыре заявления от врачей на увольнение по собственному желанию», — говорится в ответе, поступившем на запрос РБК.
+# sent_id = 0099-p6-s1
+# text = В администрации Ростова-на-Дону РБК сообщили, что из анестезиологии-реанимации по собственному желанию уволились два врача.
+1	В	_	_	_	_	_	_	_	_
+2	администрации	_	_	_	_	_	_	_	bratT26=Organization
+3	Ростова-на-Дону	_	_	_	_	_	_	_	bratT26=Organization|bratT27=GPE
+4	РБК	_	_	_	_	_	_	_	bratA5=T28:Media|bratT28=Organization
+5	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	из	_	_	_	_	_	_	_	_
+9-11	анестезиологии-реанимации	_	_	_	_	_	_	_	_
+9	анестезиологии	_	_	_	_	_	_	_	SpaceAfter=No
+10	-	_	_	_	_	_	_	_	SpaceAfter=No
+11	реанимации	_	_	_	_	_	_	_	_
+12	по	_	_	_	_	_	_	_	_
+13	собственному	_	_	_	_	_	_	_	_
+14	желанию	_	_	_	_	_	_	_	_
+15	уволились	_	_	_	_	_	_	_	_
+16	два	_	_	_	_	_	_	_	bratT29=Quantity
+17	врача	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity|bratT30=Person-property
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0099-p6-s2
+# text = ``Поданы четыре заявления от врачей на увольнение по собственному желанию'', - говорится в ответе, поступившем на запрос РБК.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Поданы	_	_	_	_	_	_	_	_
+3	четыре	_	_	_	_	_	_	_	bratT31=Quantity
+4	заявления	_	_	_	_	_	_	_	bratT31=Quantity
+5	от	_	_	_	_	_	_	_	_
+6	врачей	_	_	_	_	_	_	_	bratT32=Person-property
+7	на	_	_	_	_	_	_	_	_
+8	увольнение	_	_	_	_	_	_	_	_
+9	по	_	_	_	_	_	_	_	_
+10	собственному	_	_	_	_	_	_	_	_
+11	желанию	_	_	_	_	_	_	_	SpaceAfter=No
+12	''	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	говорится	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	ответе	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	поступившем	_	_	_	_	_	_	_	_
+20	на	_	_	_	_	_	_	_	_
+21	запрос	_	_	_	_	_	_	_	_
+22	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T33:Media|bratT33=Organization
+23	.	_	_	_	_	_	_	_	_
+

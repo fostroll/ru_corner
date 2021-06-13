@@ -44,7 +44,7 @@
 8	пятницу	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute
 9	в	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute|bratT6=Time-absolute
 10	18:05	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute|bratT6=Time-absolute
-11	мск	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute|bratT6=Time-absolute
+11	мск	_	_	_	_	_	_	_	bratA2=T5:Past|bratT40=GPE|bratT5=Date-absolute|bratT6=Time-absolute
 12	на	_	_	_	_	_	_	_	_
 13	16-м	_	_	_	_	_	_	_	bratT7=Ordinal|bratT8=Facility
 14	километре	_	_	_	_	_	_	_	bratT8=Facility
@@ -59,7 +59,7 @@
 # sent_id = 0103-p4-s1
 # text = ``Водитель Opel Insignia, двигаясь со стороны посёлка Залегощь в направлении города Орла, выехал на полосу встречного движения и допустил столкновение с автомобилем Renault под управлением мужчины 1977 года рождения, который двигался со стороны Орла в направлении посёлка Залегощь'', - приводит РИА Новости сообщение регионального УМВД.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Водитель	_	_	_	_	_	_	_	bratT25=Person-property
+2	Водитель	_	_	_	_	_	_	_	bratT25=Other-group
 3	Opel	_	_	_	_	_	_	_	bratT9=Product
 4	Insignia	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Product
 5	,	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 23	столкновение	_	_	_	_	_	_	_	_
 24	с	_	_	_	_	_	_	_	_
 25	автомобилем	_	_	_	_	_	_	_	bratT12=Product
-26	Renault	_	_	_	_	_	_	_	bratA5=T38:Trademark|bratT12=Product|bratT38=Product
+26	Renault	_	_	_	_	_	_	_	bratT12=Product
 27	под	_	_	_	_	_	_	_	_
 28	управлением	_	_	_	_	_	_	_	_
 29	мужчины	_	_	_	_	_	_	_	_
@@ -107,7 +107,7 @@
 47	РИА	_	_	_	_	_	_	_	bratA1=T16:Media|bratT16=Organization
 48	Новости	_	_	_	_	_	_	_	bratA1=T16:Media|bratT16=Organization
 49	сообщение	_	_	_	_	_	_	_	_
-50	регионального	_	_	_	_	_	_	_	bratT17=Organization
+50	регионального	_	_	_	_	_	_	_	bratT17=Organization|bratT41=GPE
 51	УМВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
 52	.	_	_	_	_	_	_	_	_
 
@@ -117,8 +117,8 @@
 # text = В результате ДТП водитель Reno и трое пассажиров - две женщины и восьмилетняя девочка - погибли на месте происшествия.
 1	В	_	_	_	_	_	_	_	_
 2	результате	_	_	_	_	_	_	_	_
-3	ДТП	_	_	_	_	_	_	_	_
-4	водитель	_	_	_	_	_	_	_	bratT27=Person-property
+3	ДТП	_	_	_	_	_	_	_	bratT38=Event
+4	водитель	_	_	_	_	_	_	_	bratT27=Other-group
 5	Reno	_	_	_	_	_	_	_	bratT18=Product
 6	и	_	_	_	_	_	_	_	_
 7	трое	_	_	_	_	_	_	_	bratT19=Quantity

@@ -8,7 +8,7 @@ T9	Person-property 180 200	президентом   России
 T10	GPE 194 200	России
 T12	Organization 332 336	ТАСС
 T13	Product 433 455	``   Спутника   V   ''
-T14	Political-group 468 475	политик
+T14	Person-property 468 475	политик
 T15	GPE 507 514	Израиль
 T16	Organization 545 552	Moderna
 T17	Person 914 923	Нетаньяху
@@ -18,19 +18,19 @@ T20	Person 937 974	президент   России   Владимир   Пут
 T21	Person-property 1088 1107	главы   государства
 T22	Person-property 1261 1279	Президент   России
 T23	GPE 1273 1279	России
-T24	Other-term 1482 1490	COVID-19
-T25	Product 1527 1548	``   Спутник   V   ''
-T26	Date-absolute 1553 1565	14   октября
-T27	Product 1617 1639	``   ЭпиВакКороны   ''
-T28	Organization 1647 1672	центра   ``   Вектор   ''
+T24	Other-term 1482 1492	COVID - 19
+T25	Product 1529 1550	``   Спутник   V   ''
+T26	Date-absolute 1555 1567	14   октября
+T27	Product 1619 1641	``   ЭпиВакКороны   ''
+T28	Organization 1649 1674	центра   ``   Вектор   ''
 T5	Other-term 279 304	коронавирусной   инфекции
 A1	Media T12
 T11	Person 180 223	президентом   России   Владимиром   Путиным
 T8	Person 96 144	Премьер-министр   Израиля   Биньямин   Нетаньяху
-T29	Person-property 1568 1586	российский   лидер
+T29	Person-property 1570 1588	российский   лидер
 T30	Quantity 607 617	одной   из
 T31	Ordinal 620 626	первых
-T32	Ordinal 1495 1501	Первым
+T32	Ordinal 1497 1503	Первым
 T33	Date-absolute 372 391	в   ближайшие   дни
 T34	Quantity 1005 1021	десятков   стран
 T35	Date-absolute 499 504	летом
@@ -46,17 +46,17 @@ T39	Ordinal 376 385	ближайшие
 A6	Past T37
 T41	GPE 60 70	российской
 T42	GPE 251 261	российской
-T43	Other-term 60 80	российской   вакцины
-T44	Other-term 251 271	российской   вакцины
+T43	Product 60 80	российской   вакцины
+T44	Product 251 271	российской   вакцины
 T45	Other-term 579 586	вакцины
 T46	Other-term 661 668	вакцину
 T47	GPE 676 688	американской
 T48	Other-term 761 767	вакцин
-T49	Other-term 1028 1049	российским   вакцинам
+T49	Product 1028 1049	российским   вакцинам
 T50	GPE 1028 1038	российским
 T51	Quantity 1457 1470	две   вакцины
 T52	Other-term 1463 1470	вакцины
-T53	GPE 1568 1578	российский
+T53	GPE 1570 1580	российский
 T54	Person-forename 124 132	Биньямин
 T55	Person-surname 135 144	Нетаньяху
 T56	Person-forename 203 213	Владимиром
@@ -80,3 +80,29 @@ A16	Male T20
 A17	Adjective T50
 A18	Adjective T53
 T64	Ordinal 1402 1412	настоящему
+T65	Event 49 57	поставки
+T66	Event 240 248	поставки
+T67	Event 423 430	покупку
+T68	Event 559 566	закупке
+T70	Event 1605 1616	регистрации
+A19	Trademark T13
+A20	Trademark T25
+A21	Trademark T27
+T71	Event 1506 1517	регистрацию
+A22	Trademark T43
+A23	Trademark T44
+A24	Trademark T49
+T72	Cardinal 1490 1492	19
+T73	Person 1088 1107	главы   государства
+T74	Person 1261 1279	Президент   России
+A25	Male T74
+T75	Person 1570 1588	российский   лидер
+A26	Male T75
+T76	Person 468 475	политик
+A27	Male T76
+T77	Product 661 699	вакцину   ''   американской   компании
+A28	Trademark T77
+T69	Nationality 1364 1392	граждане   всех   государств
+A29	Citizenship T69
+T78	Nationality 859 866	граждан
+A30	Citizenship T78

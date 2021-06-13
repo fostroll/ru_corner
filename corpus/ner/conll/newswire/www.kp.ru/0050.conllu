@@ -11,7 +11,7 @@
 6	закупки	_	_	_	_	_	_	_	bratT2=Organization
 7	лекарств	_	_	_	_	_	_	_	bratT2=Organization
 8	для	_	_	_	_	_	_	_	bratT2=Organization
-9	граждан	_	_	_	_	_	_	_	bratT2=Organization
+9	граждан	_	_	_	_	_	_	_	bratA9=T16:Citizenship|bratT16=Nationality|bratT2=Organization
 
 # newpar id = 0050-p2
 # par_text = Правительство России создало федеральный центр лекарственного обеспечения граждан. Он будет заниматься закупками медикаментов в рамках федеральных программ. Среди них будет обеспечение лекарствами пациентов с орфанными и онкологическими заболеваниями, ВИЧ и туберкулезом. Кроме того, центр будет закупать вакцины из национального календаря прививок.
@@ -24,7 +24,7 @@
 5	центр	_	_	_	_	_	_	_	bratT5=Organization
 6	лекарственного	_	_	_	_	_	_	_	bratT5=Organization
 7	обеспечения	_	_	_	_	_	_	_	bratT5=Organization
-8	граждан	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+8	граждан	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T28:Citizenship|bratT28=Nationality|bratT5=Organization
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0050-p2-s2
@@ -47,7 +47,7 @@
 3	будет	_	_	_	_	_	_	_	_
 4	обеспечение	_	_	_	_	_	_	_	_
 5	лекарствами	_	_	_	_	_	_	_	_
-6	пациентов	_	_	_	_	_	_	_	bratT16=Other-group
+6	пациентов	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
 8	орфанными	_	_	_	_	_	_	_	bratA3=T17:Plural|bratT17=Other-term|bratT23=Other-term
 9	и	_	_	_	_	_	_	_	bratA3=T17:Plural|bratT17=Other-term
@@ -139,31 +139,34 @@
 # text = Ранее сайт KP.ru сообщал, что в России вводят новый порядок регистрации цен на важные лекарства, а председатель правительства Михаил Мишустин назвал недопустимой ситуацию с нехваткой лекарств.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T21:Past|bratT21=Date-relative
 2	сайт	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Service
-3	KP.ru	_	_	_	_	_	_	_	bratA1=T9:Media|bratA5=T22:Media|bratT22=Organization|bratT9=Service
-4	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
-5	,	_	_	_	_	_	_	_	_
-6	что	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	_
-8	России	_	_	_	_	_	_	_	bratT12=GPE
-9	вводят	_	_	_	_	_	_	_	_
-10	новый	_	_	_	_	_	_	_	_
-11	порядок	_	_	_	_	_	_	_	_
-12	регистрации	_	_	_	_	_	_	_	_
-13	цен	_	_	_	_	_	_	_	_
-14	на	_	_	_	_	_	_	_	_
-15	важные	_	_	_	_	_	_	_	_
-16	лекарства	_	_	_	_	_	_	_	SpaceAfter=No
-17	,	_	_	_	_	_	_	_	_
-18	а	_	_	_	_	_	_	_	_
-19	председатель	_	_	_	_	_	_	_	bratA8=T15:Male|bratT14=Person-property|bratT15=Person
-20	правительства	_	_	_	_	_	_	_	bratA8=T15:Male|bratT13=Organization|bratT14=Person-property|bratT15=Person
-21	Михаил	_	_	_	_	_	_	_	bratA8=T15:Male|bratT15=Person|bratT26=Person-forename
-22	Мишустин	_	_	_	_	_	_	_	bratA8=T15:Male|bratT15=Person|bratT27=Person-surname
-23	назвал	_	_	_	_	_	_	_	_
-24	недопустимой	_	_	_	_	_	_	_	_
-25	ситуацию	_	_	_	_	_	_	_	_
-26	с	_	_	_	_	_	_	_	_
-27	нехваткой	_	_	_	_	_	_	_	_
-28	лекарств	_	_	_	_	_	_	_	SpaceAfter=No
-29	.	_	_	_	_	_	_	_	_
+3-5	KP.ru	_	_	_	_	_	_	_	_
+3	KP	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratA5=T22:Media|bratT22=Organization|bratT29=Web-address|bratT9=Service
+4	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratA5=T22:Media|bratT22=Organization|bratT29=Web-address|bratT9=Service
+5	ru	_	_	_	_	_	_	_	bratA1=T9:Media|bratA5=T22:Media|bratT22=Organization|bratT29=Web-address|bratT9=Service
+6	сообщал	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	России	_	_	_	_	_	_	_	bratT12=GPE
+11	вводят	_	_	_	_	_	_	_	_
+12	новый	_	_	_	_	_	_	_	_
+13	порядок	_	_	_	_	_	_	_	_
+14	регистрации	_	_	_	_	_	_	_	_
+15	цен	_	_	_	_	_	_	_	_
+16	на	_	_	_	_	_	_	_	_
+17	важные	_	_	_	_	_	_	_	_
+18	лекарства	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	а	_	_	_	_	_	_	_	_
+21	председатель	_	_	_	_	_	_	_	bratA8=T15:Male|bratT14=Person-property|bratT15=Person
+22	правительства	_	_	_	_	_	_	_	bratA8=T15:Male|bratT13=Organization|bratT14=Person-property|bratT15=Person
+23	Михаил	_	_	_	_	_	_	_	bratA8=T15:Male|bratT15=Person|bratT26=Person-forename
+24	Мишустин	_	_	_	_	_	_	_	bratA8=T15:Male|bratT15=Person|bratT27=Person-surname
+25	назвал	_	_	_	_	_	_	_	_
+26	недопустимой	_	_	_	_	_	_	_	_
+27	ситуацию	_	_	_	_	_	_	_	_
+28	с	_	_	_	_	_	_	_	_
+29	нехваткой	_	_	_	_	_	_	_	_
+30	лекарств	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	_	_	_	_	_	_	_	_
 

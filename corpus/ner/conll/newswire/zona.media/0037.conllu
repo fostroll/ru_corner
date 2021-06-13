@@ -1,0 +1,221 @@
+# newdoc id = 0037
+# newpar id = 0037-p1
+# par_text = Бывший фигурант «московского дела» Абаничев отсудил 150 тысяч рублей за незаконное уголовное преследование
+# sent_id = 0037-p1-s1
+# text = Бывший фигурант ``московского дела'' Абаничев отсудил 150 тысяч рублей за незаконное уголовное преследование
+1	Бывший	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
+2	фигурант	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Other-group
+4	московского	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
+5	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Other-group
+6	''	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
+7	Абаничев	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT4=Person-surname
+8	отсудил	_	_	_	_	_	_	_	_
+9	150	_	_	_	_	_	_	_	bratT5=Money
+10	тысяч	_	_	_	_	_	_	_	bratT5=Money
+11	рублей	_	_	_	_	_	_	_	bratT5=Money
+12	за	_	_	_	_	_	_	_	_
+13	незаконное	_	_	_	_	_	_	_	_
+14	уголовное	_	_	_	_	_	_	_	_
+15	преследование	_	_	_	_	_	_	_	_
+
+# newpar id = 0037-p2
+# par_text = Московский городской суд присудил 150 тысяч рублей компенсации бывшему обвиняемому по «московскому делу» Сергею Абаничеву. Об этом сообщил глава международной правовой группы «Агора» Павел Чиков со ссылкой на адвоката Светлану Сидоркину.
+# sent_id = 0037-p2-s1
+# text = Московский городской суд присудил 150 тысяч рублей компенсации бывшему обвиняемому по ``московскому делу'' Сергею Абаничеву.
+1	Московский	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT6=Organization|bratT7=GPE
+2	городской	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT6=Organization|bratT7=GPE
+3	суд	_	_	_	_	_	_	_	bratT6=Organization
+4	присудил	_	_	_	_	_	_	_	_
+5	150	_	_	_	_	_	_	_	bratT8=Money
+6	тысяч	_	_	_	_	_	_	_	bratT8=Money
+7	рублей	_	_	_	_	_	_	_	bratT8=Money
+8	компенсации	_	_	_	_	_	_	_	_
+9	бывшему	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+10	обвиняемому	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+11	по	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+13	московскому	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+14	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+15	''	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+16	Сергею	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Person-forename
+17	Абаничеву	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT12=Person-surname
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0037-p2-s2
+# text = Об этом сообщил глава международной правовой группы ``Агора'' Павел Чиков со ссылкой на адвоката Светлану Сидоркину.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщил	_	_	_	_	_	_	_	_
+4	глава	_	_	_	_	_	_	_	bratA4=T13:Male|bratT13=Person|bratT16=Person-property
+5	международной	_	_	_	_	_	_	_	bratA4=T13:Male|bratT13=Person|bratT16=Person-property|bratT17=Organization
+6	правовой	_	_	_	_	_	_	_	bratA4=T13:Male|bratT13=Person|bratT16=Person-property|bratT17=Organization
+7	группы	_	_	_	_	_	_	_	bratA4=T13:Male|bratT13=Person|bratT16=Person-property|bratT17=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Male|bratT13=Person|bratT16=Person-property|bratT17=Organization
+9	Агора	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Male|bratT13=Person|bratT16=Person-property|bratT17=Organization
+10	''	_	_	_	_	_	_	_	bratA4=T13:Male|bratT13=Person|bratT16=Person-property|bratT17=Organization
+11	Павел	_	_	_	_	_	_	_	bratA4=T13:Male|bratT13=Person|bratT14=Person-forename
+12	Чиков	_	_	_	_	_	_	_	bratA4=T13:Male|bratT13=Person|bratT15=Person-surname
+13	со	_	_	_	_	_	_	_	_
+14	ссылкой	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	адвоката	_	_	_	_	_	_	_	bratA13=T56:Female|bratT56=Person|bratT57=Person-property
+17	Светлану	_	_	_	_	_	_	_	bratA13=T56:Female|bratT56=Person|bratT58=Person-forename
+18	Сидоркину	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T56:Female|bratT56=Person|bratT59=Person-surname
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0037-p3
+# par_text = Абаничев требовал выплатить ему 500 тысяч рублей, но Тверской районный суд Москвы отказал ему в компенсации.
+# sent_id = 0037-p3-s1
+# text = Абаничев требовал выплатить ему 500 тысяч рублей, но Тверской районный суд Москвы отказал ему в компенсации.
+1	Абаничев	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT19=Person-surname
+2	требовал	_	_	_	_	_	_	_	_
+3	выплатить	_	_	_	_	_	_	_	_
+4	ему	_	_	_	_	_	_	_	_
+5	500	_	_	_	_	_	_	_	bratT20=Money
+6	тысяч	_	_	_	_	_	_	_	bratT20=Money
+7	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Money
+8	,	_	_	_	_	_	_	_	_
+9	но	_	_	_	_	_	_	_	_
+10	Тверской	_	_	_	_	_	_	_	bratA6=T22:Adjective|bratT21=Organization|bratT22=GPE
+11	районный	_	_	_	_	_	_	_	bratA6=T22:Adjective|bratT21=Organization|bratT22=GPE
+12	суд	_	_	_	_	_	_	_	bratT21=Organization
+13	Москвы	_	_	_	_	_	_	_	bratT21=Organization|bratT23=GPE
+14	отказал	_	_	_	_	_	_	_	_
+15	ему	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	компенсации	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0037-p4
+# par_text = Фигуранта обвиняли в участии в массовых беспорядках из-за протестной акции 27 июля 2019 года. Во время следствия он месяц провел в СИЗО два месяца, после чего дело против него и еще троих участников акции прекратили, и Абаничев вышел на свободу.
+# sent_id = 0037-p4-s1
+# text = Фигуранта обвиняли в участии в массовых беспорядках из-за протестной акции 27 июля 2019 года.
+1	Фигуранта	_	_	_	_	_	_	_	_
+2	обвиняли	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	участии	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	массовых	_	_	_	_	_	_	_	_
+7	беспорядках	_	_	_	_	_	_	_	_
+8	из-за	_	_	_	_	_	_	_	_
+9	протестной	_	_	_	_	_	_	_	bratT25=Event
+10	акции	_	_	_	_	_	_	_	bratT25=Event
+11	27	_	_	_	_	_	_	_	bratA7=T24:Past|bratT24=Date-absolute
+12	июля	_	_	_	_	_	_	_	bratA7=T24:Past|bratT24=Date-absolute
+13	2019	_	_	_	_	_	_	_	bratA7=T24:Past|bratT24=Date-absolute
+14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T24:Past|bratT24=Date-absolute
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0037-p4-s2
+# text = Во время следствия он месяц провел в СИЗО два месяца, после чего дело против него и еще троих участников акции прекратили, и Абаничев вышел на свободу.
+1	Во	_	_	_	_	_	_	_	bratA17=T2:Past|bratT2=Date-period-absolute
+2	время	_	_	_	_	_	_	_	bratA17=T2:Past|bratT2=Date-period-absolute
+3	следствия	_	_	_	_	_	_	_	bratA17=T2:Past|bratT2=Date-period-absolute
+4	он	_	_	_	_	_	_	_	_
+5	месяц	_	_	_	_	_	_	_	bratA14=T60:Past|bratT60=Date-period-relative|bratT61=Duration
+6	провел	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	СИЗО	_	_	_	_	_	_	_	_
+9	два	_	_	_	_	_	_	_	bratA8=T27:Past|bratT27=Date-period-relative|bratT28=Duration
+10	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T27:Past|bratT27=Date-period-relative|bratT28=Duration
+11	,	_	_	_	_	_	_	_	_
+12	после	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-relative
+13	чего	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-relative
+14	дело	_	_	_	_	_	_	_	_
+15	против	_	_	_	_	_	_	_	_
+16	него	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	еще	_	_	_	_	_	_	_	bratT30=Quantity
+19	троих	_	_	_	_	_	_	_	bratT30=Quantity
+20	участников	_	_	_	_	_	_	_	bratT30=Quantity
+21	акции	_	_	_	_	_	_	_	_
+22	прекратили	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	и	_	_	_	_	_	_	_	_
+25	Абаничев	_	_	_	_	_	_	_	bratA9=T32:Male|bratT32=Person|bratT33=Person-surname
+26	вышел	_	_	_	_	_	_	_	_
+27	на	_	_	_	_	_	_	_	_
+28	свободу	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0037-p5
+# par_text = Ранее суд обязал Минфин выплатить компенсации двум другим фигурантам «московского дела». Алексей Миняйло отсудил 150 тысяч рублей, Даниил Конон — 100 тысяч.
+# sent_id = 0037-p5-s1
+# text = Ранее суд обязал Минфин выплатить компенсации двум другим фигурантам ``московского дела''.
+1	Ранее	_	_	_	_	_	_	_	bratA16=T34:Past|bratT34=Date-relative
+2	суд	_	_	_	_	_	_	_	_
+3	обязал	_	_	_	_	_	_	_	_
+4	Минфин	_	_	_	_	_	_	_	bratT35=Organization
+5	выплатить	_	_	_	_	_	_	_	_
+6	компенсации	_	_	_	_	_	_	_	_
+7	двум	_	_	_	_	_	_	_	bratT36=Quantity
+8	другим	_	_	_	_	_	_	_	bratT36=Quantity
+9	фигурантам	_	_	_	_	_	_	_	bratT36=Quantity
+10	``	_	_	_	_	_	_	_	SpaceAfter=No
+11	московского	_	_	_	_	_	_	_	_
+12	дела	_	_	_	_	_	_	_	SpaceAfter=No
+13	''	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0037-p5-s2
+# text = Алексей Миняйло отсудил 150 тысяч рублей, Даниил Конон - 100 тысяч.
+1	Алексей	_	_	_	_	_	_	_	bratA10=T40:Male|bratT40=Person|bratT42=Person-forename
+2	Миняйло	_	_	_	_	_	_	_	bratA10=T40:Male|bratT40=Person|bratT43=Person-surname
+3	отсудил	_	_	_	_	_	_	_	_
+4	150	_	_	_	_	_	_	_	bratT38=Money
+5	тысяч	_	_	_	_	_	_	_	bratT38=Money
+6	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Money
+7	,	_	_	_	_	_	_	_	_
+8	Даниил	_	_	_	_	_	_	_	bratA11=T41:Male|bratT41=Person|bratT44=Person-forename
+9	Конон	_	_	_	_	_	_	_	bratA11=T41:Male|bratT41=Person|bratT45=Person-surname
+10	-	_	_	_	_	_	_	_	_
+11	100	_	_	_	_	_	_	_	bratT39=Money
+12	тысяч	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Money
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0037-p6
+# par_text = Летом 2019 года в Москве прошли массовые протесты из-за недопуска независимых кандидатов на выборы в Мосгордуму. Следственный комитет возбудил уголовные дела о массовых беспорядках и нападении на силовиков, обвиняемыми стали больше двух десятков человек.
+# sent_id = 0037-p6-s1
+# text = Летом 2019 года в Москве прошли массовые протесты из-за недопуска независимых кандидатов на выборы в Мосгордуму.
+1	Летом	_	_	_	_	_	_	_	bratA12=T46:Past|bratT46=Date-absolute
+2	2019	_	_	_	_	_	_	_	bratA12=T46:Past|bratT46=Date-absolute
+3	года	_	_	_	_	_	_	_	bratA12=T46:Past|bratT46=Date-absolute
+4	в	_	_	_	_	_	_	_	_
+5	Москве	_	_	_	_	_	_	_	bratT47=GPE
+6	прошли	_	_	_	_	_	_	_	_
+7	массовые	_	_	_	_	_	_	_	bratT48=Event
+8	протесты	_	_	_	_	_	_	_	bratT48=Event
+9	из-за	_	_	_	_	_	_	_	_
+10	недопуска	_	_	_	_	_	_	_	_
+11	независимых	_	_	_	_	_	_	_	bratT49=Person-property
+12	кандидатов	_	_	_	_	_	_	_	bratT49=Person-property
+13	на	_	_	_	_	_	_	_	bratT49=Person-property
+14	выборы	_	_	_	_	_	_	_	bratT49=Person-property|bratT50=Event
+15	в	_	_	_	_	_	_	_	bratT49=Person-property|bratT50=Event
+16	Мосгордуму	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person-property|bratT50=Event|bratT51=Organization
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0037-p6-s2
+# text = Следственный комитет возбудил уголовные дела о массовых беспорядках и нападении на силовиков, обвиняемыми стали больше двух десятков человек.
+1	Следственный	_	_	_	_	_	_	_	bratT52=Organization
+2	комитет	_	_	_	_	_	_	_	bratT52=Organization
+3	возбудил	_	_	_	_	_	_	_	_
+4	уголовные	_	_	_	_	_	_	_	_
+5	дела	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	массовых	_	_	_	_	_	_	_	_
+8	беспорядках	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	нападении	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	силовиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Person-property
+13	,	_	_	_	_	_	_	_	_
+14	обвиняемыми	_	_	_	_	_	_	_	_
+15	стали	_	_	_	_	_	_	_	_
+16	больше	_	_	_	_	_	_	_	bratT55=Quantity
+17	двух	_	_	_	_	_	_	_	bratT55=Quantity
+18	десятков	_	_	_	_	_	_	_	bratT55=Quantity
+19	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Quantity
+20	.	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,83 @@
+T1	GPE 4 10	Минске
+T2	GPE 63 73	российских
+A1	Adjective T2
+T3	Person-property 49 79	журналистов   российских   СМИ
+T4	Event 18 34	акции   протеста
+T5	GPE 109 119	Белоруссии
+T6	Event 86 102	акции   протеста
+T7	GPE 159 169	российских
+A2	Adjective T7
+T8	Person-property 141 175	корреспондентов   российских   СМИ
+T9	Quantity 134 156	двух   корреспондентов
+T10	Organization 208 212	ТАСС
+A3	Media T10
+T11	Organization 251 274	``   РИА   Новости   ''
+A4	Media T11
+T12	Person-property 192 212	корреспондент   ТАСС
+T13	Person-forename 215 219	Юрий
+T14	Person-surname 222 228	Шамшур
+T15	Person 192 228	корреспондент   ТАСС   Юрий   Шамшур
+A5	Male T15
+T16	Person-property 235 274	корреспондент   ``   РИА   Новости   ''
+T17	Person-surname 380 387	Шамшура
+T18	Person 380 387	Шамшура
+A6	Male T18
+T19	Facility 420 458	станции   метро   ``   Пушкинская   ''
+T20	Date-absolute 477 493	после   проверки
+A7	Past T20
+T21	Organization 608 631	``   РИА   Новости   ''
+A8	Media T21
+T22	Person-property 592 631	Корреспондент   ``   РИА   Новости   ''
+T23	GPE 689 699	Белоруссии
+T24	Organization 683 699	МИД   Белоруссии
+T25	Facility 740 780	в   районе   ``   площади   перемен   ''
+T26	Event 721 737	акцию   протеста
+T27	Date-relative 793 798	ранее
+A9	Past T27
+T28	Person-forename 841 847	Романа
+T29	Person-surname 850 860	Бондаренко
+T30	GPE 810 822	белорусского
+A10	Adjective T30
+T31	Political-group 810 838	белорусского   оппозиционера
+T32	Person 810 860	белорусского   оппозиционера   Романа   Бондаренко
+A11	Male T32
+T33	Organization 968 993	``   Интерфакс-Запад   ''
+A12	Media T33
+T34	Person-property 951 993	корреспондента   ``   Интерфакс-Запад   ''
+T35	Facility 1034 1070	районе   ``   площади   перемен   ''
+T36	Event 1022 1027	акцию
+T37	Person-property 1080 1093	Корреспондент
+T38	GPE 1194 1224	Центрального   района   Минска
+T39	Organization 1187 1224	РУВД   Центрального   района   Минска
+T40	Person-property 1117 1125	коллегам
+T41	Date-relative 1229 1234	Затем
+T42	GPE 1359 1365	России
+T43	Organization 1353 1365	МИД   России
+T44	Person-property 1322 1365	официального   представителя   МИД   России
+T45	Person-forename 1368 1373	Марии
+T46	Person-surname 1376 1385	Захаровой
+T47	Person 1322 1385	официального   представителя   МИД   России   Марии   Захаровой
+A14	Female T47
+T48	GPE 1405 1411	России
+T49	GPE 1418 1428	Белоруссии
+T50	Organization 1392 1428	посольство   России   в   Белоруссии
+T51	Person-property 1460 1472	журналистами
+T52	Organization 1490 1513	``   РИА   Новости   ''
+A15	Media T52
+T53	Organization 1519 1522	РБК
+A16	Media T53
+T54	GPE 1570 1578	Минского
+A17	Adjective T54
+T55	Organization 1570 1593	Минского   горисполкома
+T56	Organization 1564 1593	МВД   Минского   горисполкома
+A18	Department T56
+T57	Organization 1549 1593	пресс-службу   МВД   Минского   горисполкома
+A19	Department T57
+T58	GPE 1603 1609	Минске
+T59	Event 1623 1662	акция   протеста   ``   Я   выхожу   ''
+T60	Person-forename 1693 1699	Романе
+T61	Person-surname 1702 1712	Бондаренко
+T62	Person 1693 1712	Романе   Бондаренко
+A20	Male T62
+T63	GPE 1218 1224	Минска
+A13	Past T41

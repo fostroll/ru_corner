@@ -3,7 +3,7 @@
 # par_text = Россиянина прокляли и избили в Таиланде на глазах у 10-летней дочери
 # sent_id = 0026-p1-s1
 # text = Россиянина прокляли и избили в Таиланде на глазах у 10-летней дочери
-1	Россиянина	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
+1	Россиянина	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratA18=T52:Male|bratT1=Nationality|bratT52=Person
 2	прокляли	_	_	_	_	_	_	_	_
 3	и	_	_	_	_	_	_	_	_
 4	избили	_	_	_	_	_	_	_	_
@@ -13,17 +13,17 @@
 8	глазах	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_
 10	10-летней	_	_	_	_	_	_	_	bratT3=Age
-11	дочери	_	_	_	_	_	_	_	bratT34=Family
+11	дочери	_	_	_	_	_	_	_	bratA19=T53:Female|bratT34=Family|bratT53=Person
 
 # newpar id = 0026-p2
 # par_text = Российский турист стал жертвой нападения во время антиправительственного митинга в таиландской Паттайе. Об этом пишет Pattaya Mail.
 # sent_id = 0026-p2-s1
 # text = Российский турист стал жертвой нападения во время антиправительственного митинга в таиландской Паттайе.
-1	Российский	_	_	_	_	_	_	_	bratA12=T41:Adjective|bratT29=Other-group|bratT41=GPE
-2	турист	_	_	_	_	_	_	_	bratT29=Other-group
+1	Российский	_	_	_	_	_	_	_	bratA12=T41:Adjective|bratA20=T54:Male|bratT29=Other-group|bratT41=GPE|bratT54=Person
+2	турист	_	_	_	_	_	_	_	bratA20=T54:Male|bratT29=Other-group|bratT54=Person
 3	стал	_	_	_	_	_	_	_	_
 4	жертвой	_	_	_	_	_	_	_	_
-5	нападения	_	_	_	_	_	_	_	_
+5	нападения	_	_	_	_	_	_	_	bratT49=Event
 6	во	_	_	_	_	_	_	_	bratA8=T9:Past|bratT9=Date-period-absolute
 7	время	_	_	_	_	_	_	_	bratA8=T9:Past|bratT9=Date-period-absolute
 8	антиправительственного	_	_	_	_	_	_	_	bratA8=T9:Past|bratT40=Event|bratT9=Date-period-absolute
@@ -68,17 +68,17 @@
 10	неподалеку	_	_	_	_	_	_	_	_
 11	от	_	_	_	_	_	_	_	_
 12	места	_	_	_	_	_	_	_	_
-13	событий	_	_	_	_	_	_	_	_
+13	событий	_	_	_	_	_	_	_	bratT50=Event
 14	с	_	_	_	_	_	_	_	_
-15	женой	_	_	_	_	_	_	_	bratT35=Family
+15	женой	_	_	_	_	_	_	_	bratA21=T55:Female|bratT35=Family|bratT55=Person
 16	и	_	_	_	_	_	_	_	_
 17	10-летней	_	_	_	_	_	_	_	bratT10=Age
-18	дочерью	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Family
+18	дочерью	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T56:Female|bratT36=Family|bratT56=Person
 19	,	_	_	_	_	_	_	_	_
 20	приблизился	_	_	_	_	_	_	_	_
 21	к	_	_	_	_	_	_	_	_
-22	лидерам	_	_	_	_	_	_	_	_
-23	протеста	_	_	_	_	_	_	_	_
+22	лидерам	_	_	_	_	_	_	_	bratT57=Person
+23	протеста	_	_	_	_	_	_	_	bratT57=Person
 24	и	_	_	_	_	_	_	_	_
 25	что-то	_	_	_	_	_	_	_	_
 26	им	_	_	_	_	_	_	_	_
@@ -102,10 +102,10 @@
 # text = В результате один из участников акции начал кричать на россиянина, проклинать его, требуя, чтобы он вернулся на родину, выкрикивал в его адрес ругательства, а затем атаковал его на глазах у ребенка и ударил головой в лицо, разбив туристу нос и лоб.
 1	В	_	_	_	_	_	_	_	_
 2	результате	_	_	_	_	_	_	_	_
-3	один	_	_	_	_	_	_	_	bratT12=Quantity
-4	из	_	_	_	_	_	_	_	bratT12=Quantity
-5	участников	_	_	_	_	_	_	_	_
-6	акции	_	_	_	_	_	_	_	_
+3	один	_	_	_	_	_	_	_	bratA17=T51:Male|bratT12=Quantity|bratT51=Person
+4	из	_	_	_	_	_	_	_	bratA17=T51:Male|bratT12=Quantity|bratT51=Person
+5	участников	_	_	_	_	_	_	_	bratA17=T51:Male|bratT51=Person
+6	акции	_	_	_	_	_	_	_	bratA17=T51:Male|bratT51=Person
 7	начал	_	_	_	_	_	_	_	_
 8	кричать	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
@@ -135,7 +135,7 @@
 33	на	_	_	_	_	_	_	_	_
 34	глазах	_	_	_	_	_	_	_	_
 35	у	_	_	_	_	_	_	_	_
-36	ребенка	_	_	_	_	_	_	_	bratT39=Age
+36	ребенка	_	_	_	_	_	_	_	bratT39=Age|bratT58=Person
 37	и	_	_	_	_	_	_	_	_
 38	ударил	_	_	_	_	_	_	_	_
 39	головой	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 41	лицо	_	_	_	_	_	_	_	SpaceAfter=No
 42	,	_	_	_	_	_	_	_	_
 43	разбив	_	_	_	_	_	_	_	_
-44	туристу	_	_	_	_	_	_	_	_
+44	туристу	_	_	_	_	_	_	_	bratA23=T59:Male|bratT59=Person
 45	нос	_	_	_	_	_	_	_	_
 46	и	_	_	_	_	_	_	_	_
 47	лоб	_	_	_	_	_	_	_	SpaceAfter=No
@@ -160,7 +160,7 @@
 5	полиция	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
 6	,	_	_	_	_	_	_	_	_
 7	напавший	_	_	_	_	_	_	_	_
-8	таец	_	_	_	_	_	_	_	bratA3=T14:Citizenship|bratT14=Nationality
+8	таец	_	_	_	_	_	_	_	bratA24=T60:Male|bratA3=T14:Citizenship|bratT14=Nationality|bratT60=Person
 9	был	_	_	_	_	_	_	_	_
 10	задержан	_	_	_	_	_	_	_	_
 11	и	_	_	_	_	_	_	_	_
@@ -181,20 +181,20 @@
 26	)	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
 28	а	_	_	_	_	_	_	_	_
-29	россиянин	_	_	_	_	_	_	_	bratA4=T17:Citizenship|bratT17=Nationality
+29	россиянин	_	_	_	_	_	_	_	bratA25=T61:Male|bratA4=T17:Citizenship|bratT17=Nationality|bratT61=Person
 30	-	_	_	_	_	_	_	_	_
 31	доставлен	_	_	_	_	_	_	_	_
 32	в	_	_	_	_	_	_	_	_
 33	одну	_	_	_	_	_	_	_	_
 34	из	_	_	_	_	_	_	_	_
-35	местных	_	_	_	_	_	_	_	_
+35	местных	_	_	_	_	_	_	_	bratA31=T69:Adjective|bratT69=GPE
 36	больниц	_	_	_	_	_	_	_	SpaceAfter=No
 37	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0026-p5-s2
 # text = Правоохранительные органы устанавливают обстоятельства произошедшего.
-1	Правоохранительные	_	_	_	_	_	_	_	_
-2	органы	_	_	_	_	_	_	_	_
+1	Правоохранительные	_	_	_	_	_	_	_	bratT68=Organization
+2	органы	_	_	_	_	_	_	_	bratT68=Organization
 3	устанавливают	_	_	_	_	_	_	_	_
 4	обстоятельства	_	_	_	_	_	_	_	_
 5	произошедшего	_	_	_	_	_	_	_	SpaceAfter=No
@@ -241,23 +241,23 @@
 # text = 26 октября неизвестный мужчина, вооруженный ножом, напал на российскую туристку во Вьетнаме.
 1	26	_	_	_	_	_	_	_	bratA7=T24:Past|bratT24=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA7=T24:Past|bratT24=Date-absolute
-3	неизвестный	_	_	_	_	_	_	_	_
-4	мужчина	_	_	_	_	_	_	_	SpaceAfter=No
+3	неизвестный	_	_	_	_	_	_	_	bratA26=T62:Male|bratT62=Person
+4	мужчина	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T62:Male|bratT62=Person
 5	,	_	_	_	_	_	_	_	_
 6	вооруженный	_	_	_	_	_	_	_	_
 7	ножом	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	напал	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	российскую	_	_	_	_	_	_	_	bratA16=T43:Adjective|bratT43=GPE|bratT44=Other-group
-12	туристку	_	_	_	_	_	_	_	bratT44=Other-group
+11	российскую	_	_	_	_	_	_	_	bratA16=T43:Adjective|bratA27=T63:Female|bratT43=GPE|bratT44=Other-group|bratT63=Person
+12	туристку	_	_	_	_	_	_	_	bratA27=T63:Female|bratT44=Other-group|bratT63=Person
 13	во	_	_	_	_	_	_	_	_
 14	Вьетнаме	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0026-p7-s2
 # text = Инцидент произошел в городе Нячанг.
-1	Инцидент	_	_	_	_	_	_	_	_
+1	Инцидент	_	_	_	_	_	_	_	bratT67=Event
 2	произошел	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	городе	_	_	_	_	_	_	_	bratT26=GPE
@@ -266,15 +266,15 @@
 
 # sent_id = 0026-p7-s3
 # text = Неизвестный подбежал к туристке возле моста через реку Кай и трижды ударил ее ножом.
-1	Неизвестный	_	_	_	_	_	_	_	_
+1	Неизвестный	_	_	_	_	_	_	_	bratA28=T64:Male|bratT64=Person
 2	подбежал	_	_	_	_	_	_	_	_
 3	к	_	_	_	_	_	_	_	_
-4	туристке	_	_	_	_	_	_	_	bratT33=Other-group
+4	туристке	_	_	_	_	_	_	_	bratA29=T65:Female|bratT33=Other-group|bratT65=Person
 5	возле	_	_	_	_	_	_	_	_
 6	моста	_	_	_	_	_	_	_	bratT27=Facility
 7	через	_	_	_	_	_	_	_	bratT27=Facility
-8	реку	_	_	_	_	_	_	_	bratT27=Facility
-9	Кай	_	_	_	_	_	_	_	bratT27=Facility
+8	реку	_	_	_	_	_	_	_	bratT27=Facility|bratT70=Location
+9	Кай	_	_	_	_	_	_	_	bratT27=Facility|bratT70=Location
 10	и	_	_	_	_	_	_	_	_
 11	трижды	_	_	_	_	_	_	_	bratT28=Quantity
 12	ударил	_	_	_	_	_	_	_	_
@@ -284,7 +284,7 @@
 
 # sent_id = 0026-p7-s4
 # text = Женщина оказалась в больнице в тяжелом состоянии.
-1	Женщина	_	_	_	_	_	_	_	_
+1	Женщина	_	_	_	_	_	_	_	bratA30=T66:Female|bratT66=Person
 2	оказалась	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	больнице	_	_	_	_	_	_	_	_

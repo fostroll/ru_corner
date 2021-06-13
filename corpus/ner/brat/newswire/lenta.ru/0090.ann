@@ -8,28 +8,36 @@ T7	Quantity 278 287	25-летнюю
 T8	Person 290 304	Паулин   Танто
 T9	Person-property 485 496	манекенщица
 T10	Quantity 654 675	432   тысячи   лайков
-T11	Other-group 681 687	Фанаты
 T12	Person 716 721	Танто
-T13	Other-group 1061 1071	поклонники
-T14	Date-absolute 1077 1096	Ранее   в   октябре
-T15	Person 1099 1113	Паулин   Танто
+T14	Date-absolute 1067 1086	Ранее   в   октябре
+T15	Person 1089 1103	Паулин   Танто
 T16	Other-term 669 675	лайков
 T17	Other-term 42 48	топлес
 T18	Other-term 414 420	топлес
-T19	Person 311 327	Pauline   Tantot
 A1	Trademark T6
 T20	Service 248 256	странице
 A2	Media T20
 A3	Past T14
-T21	Date-relative 1077 1082	Ранее
+T21	Date-relative 1067 1072	Ранее
 A4	Past T21
 T22	Person-forename 290 296	Паулин
 T23	Person-surname 299 304	Танто
 T24	Person-forename 311 318	Pauline
 T25	Person-surname 321 327	Tantot
 T26	Person-surname 716 721	Танто
-T27	Person-forename 1099 1105	Паулин
-T28	Person-surname 1108 1113	Танто
+T27	Person-forename 1089 1095	Паулин
+T28	Person-surname 1098 1103	Танто
 A5	Female T8
-A6	Female T19
 A7	Female T15
+T29	Person 91 137	Модель   популярного   бренда   Fashion   Nova
+A8	Female T29
+T19	Person 311 327	Pauline   Tantot
+A6	Female T19
+T31	Person 485 496	манекенщица
+A10	Female T31
+T30	Person 0 29	Модель   популярного   бренда
+A9	Female T30
+T11	Other-group 681 687	Фанаты
+T35	Other-group 1051 1061	поклонники
+T13	Service 609 613	пост
+A11	Media T13

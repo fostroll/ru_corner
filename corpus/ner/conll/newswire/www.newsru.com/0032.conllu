@@ -1,0 +1,277 @@
+# newdoc id = 0032
+# newpar id = 0032-p1
+# par_text = В США умер 37-летний Патрик Куинн - один из вдохновителей флешмоба Ice Bucket Challenge
+# sent_id = 0032-p1-s1
+# text = В США умер 37-летний Патрик Куинн - один из вдохновителей флешмоба Ice Bucket Challenge
+1	В	_	_	_	_	_	_	_	_
+2	США	_	_	_	_	_	_	_	bratT1=GPE
+3	умер	_	_	_	_	_	_	_	_
+4	37-летний	_	_	_	_	_	_	_	bratT2=Age
+5	Патрик	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT51=Person-forename
+6	Куинн	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT52=Person-surname
+7	-	_	_	_	_	_	_	_	_
+8	один	_	_	_	_	_	_	_	bratT4=Quantity
+9	из	_	_	_	_	_	_	_	bratT4=Quantity
+10	вдохновителей	_	_	_	_	_	_	_	bratT47=Person-property
+11	флешмоба	_	_	_	_	_	_	_	bratT47=Person-property|bratT5=Event
+12	Ice	_	_	_	_	_	_	_	bratT47=Person-property|bratT5=Event
+13	Bucket	_	_	_	_	_	_	_	bratT47=Person-property|bratT5=Event
+14	Challenge	_	_	_	_	_	_	_	bratT47=Person-property|bratT5=Event
+
+# newpar id = 0032-p2
+# par_text = Один из основателей благотворительного флешмоба Ice Bucket Challenge Патрик Куинн скончался в США от бокового амиотрофического склероза в возрасте 37 лет. Об этом сообщается на его странице в Twitter.
+# sent_id = 0032-p2-s1
+# text = Один из основателей благотворительного флешмоба Ice Bucket Challenge Патрик Куинн скончался в США от бокового амиотрофического склероза в возрасте 37 лет.
+1	Один	_	_	_	_	_	_	_	bratT6=Quantity
+2	из	_	_	_	_	_	_	_	bratT6=Quantity
+3	основателей	_	_	_	_	_	_	_	bratA3=T9:Male|bratT8=Person-property|bratT9=Person
+4	благотворительного	_	_	_	_	_	_	_	bratA3=T9:Male|bratT7=Event|bratT8=Person-property|bratT9=Person
+5	флешмоба	_	_	_	_	_	_	_	bratA3=T9:Male|bratT7=Event|bratT8=Person-property|bratT9=Person
+6	Ice	_	_	_	_	_	_	_	bratA3=T9:Male|bratT7=Event|bratT8=Person-property|bratT9=Person
+7	Bucket	_	_	_	_	_	_	_	bratA3=T9:Male|bratT7=Event|bratT8=Person-property|bratT9=Person
+8	Challenge	_	_	_	_	_	_	_	bratA3=T9:Male|bratT7=Event|bratT8=Person-property|bratT9=Person
+9	Патрик	_	_	_	_	_	_	_	bratA3=T9:Male|bratT53=Person-forename|bratT9=Person
+10	Куинн	_	_	_	_	_	_	_	bratA3=T9:Male|bratT54=Person-surname|bratT9=Person
+11	скончался	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	США	_	_	_	_	_	_	_	bratT10=GPE
+14	от	_	_	_	_	_	_	_	_
+15	бокового	_	_	_	_	_	_	_	bratT12=Other-term
+16	амиотрофического	_	_	_	_	_	_	_	bratT12=Other-term
+17	склероза	_	_	_	_	_	_	_	bratT12=Other-term
+18	в	_	_	_	_	_	_	_	_
+19	возрасте	_	_	_	_	_	_	_	_
+20	37	_	_	_	_	_	_	_	bratT11=Age
+21	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Age
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p2-s2
+# text = Об этом сообщается на его странице в Twitter.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщается	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	его	_	_	_	_	_	_	_	_
+6	странице	_	_	_	_	_	_	_	bratA1=T13:Media|bratT13=Service
+7	в	_	_	_	_	_	_	_	_
+8	Twitter	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Service
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0032-p3
+# par_text = "Мы с глубокой печалью должны сообщить о том, что Патрик умер сегодня рано утром. Он был во многих отношениях подлинным подарком судьбы для всех нас. Мы будем помнить его за способность воодушевлять и мужество, проявленные в его неустанной борьбе с боковым амиотрофическим склерозом", - говорится в сообщении.
+# sent_id = 0032-p3-s1
+# text = ``Мы с глубокой печалью должны сообщить о том, что Патрик умер сегодня рано утром.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Мы	_	_	_	_	_	_	_	_
+3	с	_	_	_	_	_	_	_	_
+4	глубокой	_	_	_	_	_	_	_	_
+5	печалью	_	_	_	_	_	_	_	_
+6	должны	_	_	_	_	_	_	_	_
+7	сообщить	_	_	_	_	_	_	_	_
+8	о	_	_	_	_	_	_	_	_
+9	том	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	что	_	_	_	_	_	_	_	_
+12	Патрик	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT56=Person-surname
+13	умер	_	_	_	_	_	_	_	_
+14	сегодня	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-absolute
+15	рано	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-absolute|bratT48=Time-absolute
+16	утром	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T15:Past|bratT15=Date-absolute|bratT48=Time-absolute
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p3-s2
+# text = Он был во многих отношениях подлинным подарком судьбы для всех нас.
+1	Он	_	_	_	_	_	_	_	_
+2	был	_	_	_	_	_	_	_	_
+3	во	_	_	_	_	_	_	_	_
+4	многих	_	_	_	_	_	_	_	_
+5	отношениях	_	_	_	_	_	_	_	_
+6	подлинным	_	_	_	_	_	_	_	_
+7	подарком	_	_	_	_	_	_	_	_
+8	судьбы	_	_	_	_	_	_	_	_
+9	для	_	_	_	_	_	_	_	_
+10	всех	_	_	_	_	_	_	_	_
+11	нас	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p3-s3
+# text = Мы будем помнить его за способность воодушевлять и мужество, проявленные в его неустанной борьбе с боковым амиотрофическим склерозом'', - говорится в сообщении.
+1	Мы	_	_	_	_	_	_	_	_
+2	будем	_	_	_	_	_	_	_	_
+3	помнить	_	_	_	_	_	_	_	_
+4	его	_	_	_	_	_	_	_	_
+5	за	_	_	_	_	_	_	_	_
+6	способность	_	_	_	_	_	_	_	_
+7	воодушевлять	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	мужество	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	проявленные	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	его	_	_	_	_	_	_	_	_
+14	неустанной	_	_	_	_	_	_	_	_
+15	борьбе	_	_	_	_	_	_	_	_
+16	с	_	_	_	_	_	_	_	_
+17	боковым	_	_	_	_	_	_	_	bratT16=Other-term
+18	амиотрофическим	_	_	_	_	_	_	_	bratT16=Other-term
+19	склерозом	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+20	''	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	-	_	_	_	_	_	_	_	_
+23	говорится	_	_	_	_	_	_	_	_
+24	в	_	_	_	_	_	_	_	_
+25	сообщении	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0032-p4
+# par_text = В 2014 году Куинн стал одним из вдохновителей благотворительного флешмоба Ice Bucket Challenge, направленного на борьбу с этим тяжелым заболеванием нервной системы. По условиям челленджа участники должны облиться ведром ледяной воды, перечислить деньги в фонд ALS Association и передать эстафету еще троим участникам.
+# sent_id = 0032-p4-s1
+# text = В 2014 году Куинн стал одним из вдохновителей благотворительного флешмоба Ice Bucket Challenge, направленного на борьбу с этим тяжелым заболеванием нервной системы.
+1	В	_	_	_	_	_	_	_	bratT17=Date-absolute
+2	2014	_	_	_	_	_	_	_	bratT17=Date-absolute
+3	году	_	_	_	_	_	_	_	bratT17=Date-absolute
+4	Куинн	_	_	_	_	_	_	_	bratT18=Person
+5	стал	_	_	_	_	_	_	_	_
+6	одним	_	_	_	_	_	_	_	bratT20=Quantity
+7	из	_	_	_	_	_	_	_	bratT20=Quantity
+8	вдохновителей	_	_	_	_	_	_	_	bratT49=Person-property
+9	благотворительного	_	_	_	_	_	_	_	bratT19=Event|bratT49=Person-property
+10	флешмоба	_	_	_	_	_	_	_	bratT19=Event|bratT49=Person-property
+11	Ice	_	_	_	_	_	_	_	bratT19=Event|bratT49=Person-property
+12	Bucket	_	_	_	_	_	_	_	bratT19=Event|bratT49=Person-property
+13	Challenge	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event|bratT49=Person-property
+14	,	_	_	_	_	_	_	_	_
+15	направленного	_	_	_	_	_	_	_	_
+16	на	_	_	_	_	_	_	_	_
+17	борьбу	_	_	_	_	_	_	_	_
+18	с	_	_	_	_	_	_	_	_
+19	этим	_	_	_	_	_	_	_	_
+20	тяжелым	_	_	_	_	_	_	_	_
+21	заболеванием	_	_	_	_	_	_	_	_
+22	нервной	_	_	_	_	_	_	_	_
+23	системы	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p4-s2
+# text = По условиям челленджа участники должны облиться ведром ледяной воды, перечислить деньги в фонд ALS Association и передать эстафету еще троим участникам.
+1	По	_	_	_	_	_	_	_	_
+2	условиям	_	_	_	_	_	_	_	_
+3	челленджа	_	_	_	_	_	_	_	_
+4	участники	_	_	_	_	_	_	_	_
+5	должны	_	_	_	_	_	_	_	_
+6	облиться	_	_	_	_	_	_	_	_
+7	ведром	_	_	_	_	_	_	_	_
+8	ледяной	_	_	_	_	_	_	_	_
+9	воды	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	перечислить	_	_	_	_	_	_	_	_
+12	деньги	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	фонд	_	_	_	_	_	_	_	bratT21=Organization
+15	ALS	_	_	_	_	_	_	_	bratT21=Organization
+16	Association	_	_	_	_	_	_	_	bratT21=Organization
+17	и	_	_	_	_	_	_	_	_
+18	передать	_	_	_	_	_	_	_	_
+19	эстафету	_	_	_	_	_	_	_	_
+20	еще	_	_	_	_	_	_	_	bratT22=Quantity
+21	троим	_	_	_	_	_	_	_	bratT22=Quantity
+22	участникам	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0032-p5
+# par_text = Флешмоб приобрел вирусную популярность. В нем приняли участие многие мировые знаменитости, в том числе основатель Microsoft Билл Гейтс, основатель Facebook Марк Цукерберг, бывший президент США Джордж Буш, писатель Стивен Кинг, музыканты, актеры и многие другие.
+# sent_id = 0032-p5-s1
+# text = Флешмоб приобрел вирусную популярность.
+1	Флешмоб	_	_	_	_	_	_	_	_
+2	приобрел	_	_	_	_	_	_	_	_
+3	вирусную	_	_	_	_	_	_	_	_
+4	популярность	_	_	_	_	_	_	_	SpaceAfter=No
+5	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p5-s2
+# text = В нем приняли участие многие мировые знаменитости, в том числе основатель Microsoft Билл Гейтс, основатель Facebook Марк Цукерберг, бывший президент США Джордж Буш, писатель Стивен Кинг, музыканты, актеры и многие другие.
+1	В	_	_	_	_	_	_	_	_
+2	нем	_	_	_	_	_	_	_	_
+3	приняли	_	_	_	_	_	_	_	_
+4	участие	_	_	_	_	_	_	_	_
+5	многие	_	_	_	_	_	_	_	_
+6	мировые	_	_	_	_	_	_	_	_
+7	знаменитости	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	том	_	_	_	_	_	_	_	_
+11	числе	_	_	_	_	_	_	_	_
+12	основатель	_	_	_	_	_	_	_	bratA6=T25:Male|bratT24=Person-property|bratT25=Person
+13	Microsoft	_	_	_	_	_	_	_	bratA6=T25:Male|bratT23=Organization|bratT24=Person-property|bratT25=Person
+14	Билл	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT57=Person-forename
+15	Гейтс	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Male|bratT25=Person|bratT58=Person-surname
+16	,	_	_	_	_	_	_	_	_
+17	основатель	_	_	_	_	_	_	_	bratA7=T28:Male|bratT27=Person-property|bratT28=Person
+18	Facebook	_	_	_	_	_	_	_	bratA7=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
+19	Марк	_	_	_	_	_	_	_	bratA7=T28:Male|bratT28=Person|bratT59=Person-forename
+20	Цукерберг	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T28:Male|bratT28=Person|bratT60=Person-surname
+21	,	_	_	_	_	_	_	_	_
+22	бывший	_	_	_	_	_	_	_	bratA8=T31:Male|bratT30=Person-property|bratT31=Person
+23	президент	_	_	_	_	_	_	_	bratA8=T31:Male|bratT30=Person-property|bratT31=Person
+24	США	_	_	_	_	_	_	_	bratA8=T31:Male|bratT29=GPE|bratT30=Person-property|bratT31=Person
+25	Джордж	_	_	_	_	_	_	_	bratA8=T31:Male|bratT31=Person|bratT61=Person-forename
+26	Буш	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T31:Male|bratT31=Person|bratT62=Person-surname
+27	,	_	_	_	_	_	_	_	_
+28	писатель	_	_	_	_	_	_	_	bratA9=T33:Male|bratT32=Person-property|bratT33=Person
+29	Стивен	_	_	_	_	_	_	_	bratA9=T33:Male|bratT33=Person|bratT63=Person-forename
+30	Кинг	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T33:Male|bratT33=Person|bratT64=Person-surname
+31	,	_	_	_	_	_	_	_	_
+32	музыканты	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property
+33	,	_	_	_	_	_	_	_	_
+34	актеры	_	_	_	_	_	_	_	bratT35=Person-property
+35	и	_	_	_	_	_	_	_	_
+36	многие	_	_	_	_	_	_	_	_
+37	другие	_	_	_	_	_	_	_	SpaceAfter=No
+38	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0032-p6
+# par_text = В декабре прошлого года от бокового амиотрофического склероза скончался другой основатель Ice Bucket Challenge Питер Фрейтс, ему было 34 года. За два года до этого из жизни ушел еще один вдохновитель акции 46-летний Энтони Сенеркья.
+# sent_id = 0032-p6-s1
+# text = В декабре прошлого года от бокового амиотрофического склероза скончался другой основатель Ice Bucket Challenge Питер Фрейтс, ему было 34 года.
+1	В	_	_	_	_	_	_	_	bratA10=T36:Past|bratT36=Date-absolute
+2	декабре	_	_	_	_	_	_	_	bratA10=T36:Past|bratT36=Date-absolute
+3	прошлого	_	_	_	_	_	_	_	bratA10=T36:Past|bratT36=Date-absolute|bratT65=Ordinal
+4	года	_	_	_	_	_	_	_	bratA10=T36:Past|bratT36=Date-absolute
+5	от	_	_	_	_	_	_	_	_
+6	бокового	_	_	_	_	_	_	_	bratT37=Other-term
+7	амиотрофического	_	_	_	_	_	_	_	bratT37=Other-term
+8	склероза	_	_	_	_	_	_	_	bratT37=Other-term
+9	скончался	_	_	_	_	_	_	_	_
+10	другой	_	_	_	_	_	_	_	_
+11	основатель	_	_	_	_	_	_	_	bratA11=T40:Male|bratT39=Person-property|bratT40=Person
+12	Ice	_	_	_	_	_	_	_	bratA11=T40:Male|bratT38=Event|bratT39=Person-property|bratT40=Person
+13	Bucket	_	_	_	_	_	_	_	bratA11=T40:Male|bratT38=Event|bratT39=Person-property|bratT40=Person
+14	Challenge	_	_	_	_	_	_	_	bratA11=T40:Male|bratT38=Event|bratT39=Person-property|bratT40=Person
+15	Питер	_	_	_	_	_	_	_	bratA11=T40:Male|bratT40=Person|bratT66=Person-forename
+16	Фрейтс	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T40:Male|bratT40=Person|bratT67=Person-surname
+17	,	_	_	_	_	_	_	_	_
+18	ему	_	_	_	_	_	_	_	_
+19	было	_	_	_	_	_	_	_	_
+20	34	_	_	_	_	_	_	_	bratT41=Age
+21	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Age
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p6-s2
+# text = За два года до этого из жизни ушел еще один вдохновитель акции 46-летний Энтони Сенеркья.
+1	За	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-relative
+2	два	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-relative|bratT70=Duration
+3	года	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-relative|bratT70=Duration
+4	до	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-relative
+5	этого	_	_	_	_	_	_	_	bratA12=T42:Past|bratT42=Date-relative
+6	из	_	_	_	_	_	_	_	_
+7	жизни	_	_	_	_	_	_	_	_
+8	ушел	_	_	_	_	_	_	_	_
+9	еще	_	_	_	_	_	_	_	bratT43=Quantity
+10	один	_	_	_	_	_	_	_	bratT43=Quantity
+11	вдохновитель	_	_	_	_	_	_	_	bratA13=T46:Male|bratT43=Quantity|bratT45=Person-property|bratT46=Person
+12	акции	_	_	_	_	_	_	_	bratA13=T46:Male|bratT45=Person-property|bratT46=Person
+13	46-летний	_	_	_	_	_	_	_	bratA13=T46:Male|bratT44=Age|bratT46=Person
+14	Энтони	_	_	_	_	_	_	_	bratA13=T46:Male|bratT46=Person|bratT68=Person-forename
+15	Сенеркья	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T46:Male|bratT46=Person|bratT69=Person-surname
+16	.	_	_	_	_	_	_	_	_
+

@@ -3,14 +3,14 @@
 # par_text = Россиянку с третьей попытки выселили из квартиры матери
 # sent_id = 0006-p1-s1
 # text = Россиянку с третьей попытки выселили из квартиры матери
-1	Россиянку	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
+1	Россиянку	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratA13=T41:Female|bratT1=Nationality|bratT41=Person
 2	с	_	_	_	_	_	_	_	_
 3	третьей	_	_	_	_	_	_	_	bratT2=Ordinal
 4	попытки	_	_	_	_	_	_	_	_
 5	выселили	_	_	_	_	_	_	_	_
 6	из	_	_	_	_	_	_	_	_
 7	квартиры	_	_	_	_	_	_	_	_
-8	матери	_	_	_	_	_	_	_	bratT7=Family
+8	матери	_	_	_	_	_	_	_	bratA14=T42:Female|bratT42=Person|bratT7=Family
 
 # newpar id = 0006-p2
 # par_text = В Нижнем Новгороде судебным исполнителям пришлось принудительно выселять женщину, отказывавшуюся покидать квартиру матери. Об этом сообщается на сайте областного управления Федеральной службы судебных приставов (УФССП).
@@ -19,17 +19,17 @@
 1	В	_	_	_	_	_	_	_	_
 2	Нижнем	_	_	_	_	_	_	_	bratT3=GPE
 3	Новгороде	_	_	_	_	_	_	_	bratT3=GPE
-4	судебным	_	_	_	_	_	_	_	bratT4=Person-property
-5	исполнителям	_	_	_	_	_	_	_	bratT4=Person-property
+4	судебным	_	_	_	_	_	_	_	bratT35=Person|bratT4=Person-property
+5	исполнителям	_	_	_	_	_	_	_	bratT35=Person|bratT4=Person-property
 6	пришлось	_	_	_	_	_	_	_	_
 7	принудительно	_	_	_	_	_	_	_	_
 8	выселять	_	_	_	_	_	_	_	_
-9	женщину	_	_	_	_	_	_	_	SpaceAfter=No
+9	женщину	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T43:Female|bratT43=Person
 10	,	_	_	_	_	_	_	_	_
 11	отказывавшуюся	_	_	_	_	_	_	_	_
 12	покидать	_	_	_	_	_	_	_	_
 13	квартиру	_	_	_	_	_	_	_	_
-14	матери	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Family
+14	матери	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T44:Female|bratT44=Person|bratT8=Family
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p2-s2
@@ -55,9 +55,9 @@
 # sent_id = 0006-p3-s1
 # text = Между женщинами разгорелся конфликт из-за квадратных метров.
 1	Между	_	_	_	_	_	_	_	_
-2	женщинами	_	_	_	_	_	_	_	_
+2	женщинами	_	_	_	_	_	_	_	bratA17=T45:Female|bratT45=Person
 3	разгорелся	_	_	_	_	_	_	_	_
-4	конфликт	_	_	_	_	_	_	_	_
+4	конфликт	_	_	_	_	_	_	_	bratT32=Event
 5	из-за	_	_	_	_	_	_	_	_
 6	квадратных	_	_	_	_	_	_	_	_
 7	метров	_	_	_	_	_	_	_	SpaceAfter=No
@@ -65,14 +65,14 @@
 
 # sent_id = 0006-p3-s2
 # text = Семейный спор перерос в судебное разбирательство, мать его выиграла: суд постановил, что дочь и ее супруг должны освободить жилое помещение.
-1	Семейный	_	_	_	_	_	_	_	_
-2	спор	_	_	_	_	_	_	_	_
+1	Семейный	_	_	_	_	_	_	_	bratT33=Event
+2	спор	_	_	_	_	_	_	_	bratT33=Event
 3	перерос	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	судебное	_	_	_	_	_	_	_	_
-6	разбирательство	_	_	_	_	_	_	_	SpaceAfter=No
+5	судебное	_	_	_	_	_	_	_	bratT37=Event
+6	разбирательство	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
 7	,	_	_	_	_	_	_	_	_
-8	мать	_	_	_	_	_	_	_	bratT14=Family
+8	мать	_	_	_	_	_	_	_	bratA18=T46:Female|bratT14=Family|bratT46=Person
 9	его	_	_	_	_	_	_	_	_
 10	выиграла	_	_	_	_	_	_	_	SpaceAfter=No
 11	:	_	_	_	_	_	_	_	_
@@ -80,7 +80,7 @@
 13	постановил	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	что	_	_	_	_	_	_	_	_
-16	дочь	_	_	_	_	_	_	_	bratT19=Family
+16	дочь	_	_	_	_	_	_	_	bratA19=T47:Female|bratT19=Family|bratT47=Person
 17	и	_	_	_	_	_	_	_	_
 18	ее	_	_	_	_	_	_	_	bratA8=T27:Male|bratT27=Person
 19	супруг	_	_	_	_	_	_	_	bratA8=T27:Male|bratT21=Family|bratT27=Person
@@ -93,9 +93,9 @@
 # sent_id = 0006-p3-s3
 # text = Зять владелицы двухкомнатной квартиры сразу согласился съехать, но ее дочь выселяться категорически отказалась.
 1	Зять	_	_	_	_	_	_	_	bratA10=T31:Male|bratT22=Family|bratT31=Person
-2	владелицы	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person
-3	двухкомнатной	_	_	_	_	_	_	_	bratT29=Quantity
-4	квартиры	_	_	_	_	_	_	_	_
+2	владелицы	_	_	_	_	_	_	_	bratA10=T31:Male|bratA20=T48:Female|bratT31=Person|bratT48=Person
+3	двухкомнатной	_	_	_	_	_	_	_	bratA10=T31:Male|bratA20=T48:Female|bratT29=Quantity|bratT31=Person|bratT48=Person
+4	квартиры	_	_	_	_	_	_	_	bratA10=T31:Male|bratA20=T48:Female|bratT31=Person|bratT48=Person
 5	сразу	_	_	_	_	_	_	_	_
 6	согласился	_	_	_	_	_	_	_	_
 7	съехать	_	_	_	_	_	_	_	SpaceAfter=No
@@ -110,8 +110,8 @@
 
 # sent_id = 0006-p3-s4
 # text = Тогда приставы взыскали с нее штраф в размере пяти тысяч рублей.
-1	Тогда	_	_	_	_	_	_	_	_
-2	приставы	_	_	_	_	_	_	_	bratT9=Person-property
+1	Тогда	_	_	_	_	_	_	_	bratA11=T30:Past|bratT30=Date-relative
+2	приставы	_	_	_	_	_	_	_	bratT38=Person|bratT9=Person-property
 3	взыскали	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
 5	нее	_	_	_	_	_	_	_	_
@@ -129,7 +129,7 @@
 # text = Образовавшуюся задолженность россиянка погасила, но освобождать жилое помещение по-прежнему не собиралась.
 1	Образовавшуюся	_	_	_	_	_	_	_	_
 2	задолженность	_	_	_	_	_	_	_	_
-3	россиянка	_	_	_	_	_	_	_	bratA2=T11:Citizenship|bratT11=Nationality
+3	россиянка	_	_	_	_	_	_	_	bratA2=T11:Citizenship|bratA21=T49:Female|bratT11=Nationality|bratT49=Person
 4	погасила	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	но	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 
 # sent_id = 0006-p4-s2
 # text = Приставу пришлось приехать к ней на работу и лично вручить требование о выселении.
-1	Приставу	_	_	_	_	_	_	_	bratT12=Person-property
+1	Приставу	_	_	_	_	_	_	_	bratT12=Person-property|bratT39=Person
 2	пришлось	_	_	_	_	_	_	_	_
 3	приехать	_	_	_	_	_	_	_	_
 4	к	_	_	_	_	_	_	_	_
@@ -160,7 +160,7 @@
 
 # sent_id = 0006-p4-s3
 # text = Гражданка вновь отказалась выполнить судебное решение.
-1	Гражданка	_	_	_	_	_	_	_	_
+1	Гражданка	_	_	_	_	_	_	_	bratA22=T50:Female|bratT50=Person
 2	вновь	_	_	_	_	_	_	_	_
 3	отказалась	_	_	_	_	_	_	_	_
 4	выполнить	_	_	_	_	_	_	_	_
@@ -172,16 +172,16 @@
 # text = В итоге судебный пристав совместно со взыскателем с третьей попытки выселили женщину принудительно.
 1	В	_	_	_	_	_	_	_	_
 2	итоге	_	_	_	_	_	_	_	_
-3	судебный	_	_	_	_	_	_	_	bratT13=Person-property
-4	пристав	_	_	_	_	_	_	_	bratT13=Person-property
+3	судебный	_	_	_	_	_	_	_	bratA12=T40:Male|bratT13=Person-property|bratT40=Person
+4	пристав	_	_	_	_	_	_	_	bratA12=T40:Male|bratT13=Person-property|bratT40=Person
 5	совместно	_	_	_	_	_	_	_	_
 6	со	_	_	_	_	_	_	_	_
-7	взыскателем	_	_	_	_	_	_	_	_
+7	взыскателем	_	_	_	_	_	_	_	bratT51=Person
 8	с	_	_	_	_	_	_	_	_
 9	третьей	_	_	_	_	_	_	_	bratT15=Ordinal
 10	попытки	_	_	_	_	_	_	_	_
 11	выселили	_	_	_	_	_	_	_	_
-12	женщину	_	_	_	_	_	_	_	_
+12	женщину	_	_	_	_	_	_	_	bratA23=T52:Female|bratT52=Person
 13	принудительно	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
 
@@ -201,7 +201,7 @@
 12	составили	_	_	_	_	_	_	_	_
 13	акт	_	_	_	_	_	_	_	_
 14	о	_	_	_	_	_	_	_	_
-15	выселении	_	_	_	_	_	_	_	SpaceAfter=No
+15	выселении	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Event
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0006-p5
@@ -211,9 +211,9 @@
 1	Ранее	_	_	_	_	_	_	_	bratA4=T16:Past|bratA6=T5:Past|bratT16=Date-absolute|bratT5=Date-relative
 2	в	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
 3	ноябре	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
-4	жительницу	_	_	_	_	_	_	_	bratA7=T26:Resident|bratT26=Nationality
-5	Амурской	_	_	_	_	_	_	_	bratA7=T26:Resident|bratT17=GPE|bratT26=Nationality
-6	области	_	_	_	_	_	_	_	bratA7=T26:Resident|bratT17=GPE|bratT26=Nationality
+4	жительницу	_	_	_	_	_	_	_	bratA24=T53:Female|bratA7=T26:Resident|bratT26=Nationality|bratT53=Person
+5	Амурской	_	_	_	_	_	_	_	bratA24=T53:Female|bratA7=T26:Resident|bratT17=GPE|bratT26=Nationality|bratT53=Person
+6	области	_	_	_	_	_	_	_	bratA24=T53:Female|bratA7=T26:Resident|bratT17=GPE|bratT26=Nationality|bratT53=Person
 7	лишили	_	_	_	_	_	_	_	_
 8	квартиры	_	_	_	_	_	_	_	_
 9	за	_	_	_	_	_	_	_	_
@@ -223,25 +223,29 @@
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p5-s2
-# text = Соответствующий иск к россиянке удовлетворил суд. Женщина, занимавшая жилье по договору социального найма, регулярно нарушала покой соседей.
+# text = Соответствующий иск к россиянке удовлетворил суд.
 1	Соответствующий	_	_	_	_	_	_	_	_
 2	иск	_	_	_	_	_	_	_	_
 3	к	_	_	_	_	_	_	_	_
-4	россиянке	_	_	_	_	_	_	_	bratA3=T18:Citizenship|bratT18=Nationality
+4	россиянке	_	_	_	_	_	_	_	bratA25=T54:Female|bratA3=T18:Citizenship|bratT18=Nationality|bratT54=Person
 5	удовлетворил	_	_	_	_	_	_	_	_
-6	суд.	_	_	_	_	_	_	_	_
-7	Женщина	_	_	_	_	_	_	_	SpaceAfter=No
-8	,	_	_	_	_	_	_	_	_
-9	занимавшая	_	_	_	_	_	_	_	_
-10	жилье	_	_	_	_	_	_	_	_
-11	по	_	_	_	_	_	_	_	_
-12	договору	_	_	_	_	_	_	_	_
-13	социального	_	_	_	_	_	_	_	_
-14	найма	_	_	_	_	_	_	_	SpaceAfter=No
-15	,	_	_	_	_	_	_	_	_
-16	регулярно	_	_	_	_	_	_	_	_
-17	нарушала	_	_	_	_	_	_	_	_
-18	покой	_	_	_	_	_	_	_	_
-19	соседей	_	_	_	_	_	_	_	SpaceAfter=No
-20	.	_	_	_	_	_	_	_	_
+6	суд	_	_	_	_	_	_	_	SpaceAfter=No
+7	.	_	_	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = 0006-p5-s3
+# text = Женщина, занимавшая жилье по договору социального найма, регулярно нарушала покой соседей.
+1	Женщина	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T55:Female|bratT55=Person
+2	,	_	_	_	_	_	_	_	_
+3	занимавшая	_	_	_	_	_	_	_	_
+4	жилье	_	_	_	_	_	_	_	_
+5	по	_	_	_	_	_	_	_	_
+6	договору	_	_	_	_	_	_	_	_
+7	социального	_	_	_	_	_	_	_	_
+8	найма	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	регулярно	_	_	_	_	_	_	_	_
+11	нарушала	_	_	_	_	_	_	_	_
+12	покой	_	_	_	_	_	_	_	_
+13	соседей	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Other-group|bratT56=Person
+14	.	_	_	_	_	_	_	_	_
 

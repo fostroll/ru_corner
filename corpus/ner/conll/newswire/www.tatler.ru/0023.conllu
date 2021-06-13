@@ -1,0 +1,237 @@
+# newdoc id = 0023
+# newpar id = 0023-p1
+# par_text = Миллиардер из Саудовской Аравии купил для дочери-студентки квартиру, принадлежавшую Онассисам
+# sent_id = 0023-p1-s1
+# text = Миллиардер из Саудовской Аравии купил для дочери-студентки квартиру, принадлежавшую Онассисам
+1	Миллиардер	_	_	_	_	_	_	_	bratT1=Person-property
+2	из	_	_	_	_	_	_	_	_
+3	Саудовской	_	_	_	_	_	_	_	bratT2=GPE
+4	Аравии	_	_	_	_	_	_	_	bratT2=GPE
+5	купил	_	_	_	_	_	_	_	_
+6	для	_	_	_	_	_	_	_	_
+7-9	дочери-студентки	_	_	_	_	_	_	_	_
+7	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Family
+8	-	_	_	_	_	_	_	_	SpaceAfter=No
+9	студентки	_	_	_	_	_	_	_	bratT66=Person-property
+10	квартиру	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	принадлежавшую	_	_	_	_	_	_	_	_
+13	Онассисам	_	_	_	_	_	_	_	bratT3=Person|bratT39=Person-surname
+
+# newpar id = 0023-p2
+# par_text = В преддверии начала нового учебного года зафиксирован рекорд по стоимости студенческого жилья — за ним стоит миллиардер из Саудовской Аравии, решивший поселить дочь-студентку в занимающей целый этаж квартире на площади Гросвенор в Лондоне, которая раньше принадлежала семье Онассис. За резиденцию с пятью спальнями и библиотекой было заплачено £18.6 миллиона. Для студенческой квартиры впечатляющая сумма, но, скорее всего, не та, на которую владелица квартиры на площади Гросвенор, внучка греческого судовладельца Аристотеля Онассиса Афина, изначально рассчитывала. В июле 2019 года сообщалось о том, что Афина хочет получить за апартаменты £25 миллионов, но, видимо, пандемия внесла в эти планы свои коррективы.
+# sent_id = 0023-p2-s1
+# text = В преддверии начала нового учебного года зафиксирован рекорд по стоимости студенческого жилья - за ним стоит миллиардер из Саудовской Аравии, решивший поселить дочь-студентку в занимающей целый этаж квартире на площади Гросвенор в Лондоне, которая раньше принадлежала семье Онассис.
+1	В	_	_	_	_	_	_	_	bratA12=T60:Past|bratT60=Date-absolute
+2	преддверии	_	_	_	_	_	_	_	bratA12=T60:Past|bratT60=Date-absolute
+3	начала	_	_	_	_	_	_	_	bratA12=T60:Past|bratT60=Date-absolute|bratT64=Event
+4	нового	_	_	_	_	_	_	_	bratT64=Event
+5	учебного	_	_	_	_	_	_	_	bratT64=Event
+6	года	_	_	_	_	_	_	_	bratT64=Event
+7	зафиксирован	_	_	_	_	_	_	_	_
+8	рекорд	_	_	_	_	_	_	_	_
+9	по	_	_	_	_	_	_	_	_
+10	стоимости	_	_	_	_	_	_	_	_
+11	студенческого	_	_	_	_	_	_	_	_
+12	жилья	_	_	_	_	_	_	_	_
+13	-	_	_	_	_	_	_	_	_
+14	за	_	_	_	_	_	_	_	_
+15	ним	_	_	_	_	_	_	_	_
+16	стоит	_	_	_	_	_	_	_	_
+17	миллиардер	_	_	_	_	_	_	_	bratT4=Person-property
+18	из	_	_	_	_	_	_	_	_
+19	Саудовской	_	_	_	_	_	_	_	bratT5=GPE
+20	Аравии	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE
+21	,	_	_	_	_	_	_	_	_
+22	решивший	_	_	_	_	_	_	_	_
+23	поселить	_	_	_	_	_	_	_	_
+24-26	дочь-студентку	_	_	_	_	_	_	_	_
+24	дочь	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Family
+25	-	_	_	_	_	_	_	_	SpaceAfter=No
+26	студентку	_	_	_	_	_	_	_	bratT68=Person-property
+27	в	_	_	_	_	_	_	_	_
+28	занимающей	_	_	_	_	_	_	_	_
+29	целый	_	_	_	_	_	_	_	_
+30	этаж	_	_	_	_	_	_	_	_
+31	квартире	_	_	_	_	_	_	_	_
+32	на	_	_	_	_	_	_	_	_
+33	площади	_	_	_	_	_	_	_	bratT6=Facility
+34	Гросвенор	_	_	_	_	_	_	_	bratT6=Facility
+35	в	_	_	_	_	_	_	_	_
+36	Лондоне	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
+37	,	_	_	_	_	_	_	_	_
+38	которая	_	_	_	_	_	_	_	_
+39	раньше	_	_	_	_	_	_	_	_
+40	принадлежала	_	_	_	_	_	_	_	_
+41	семье	_	_	_	_	_	_	_	bratT9=Family
+42	Онассис	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-surname|bratT8=Person
+43	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0023-p2-s2
+# text = За резиденцию с пятью спальнями и библиотекой было заплачено £18.6 миллиона.
+1	За	_	_	_	_	_	_	_	_
+2	резиденцию	_	_	_	_	_	_	_	_
+3	с	_	_	_	_	_	_	_	_
+4	пятью	_	_	_	_	_	_	_	bratT10=Quantity
+5	спальнями	_	_	_	_	_	_	_	bratT10=Quantity
+6	и	_	_	_	_	_	_	_	_
+7	библиотекой	_	_	_	_	_	_	_	_
+8	было	_	_	_	_	_	_	_	_
+9	заплачено	_	_	_	_	_	_	_	_
+10-11	£18.6	_	_	_	_	_	_	_	_
+10	£	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Money
+11	18.6	_	_	_	_	_	_	_	bratT11=Money
+12	миллиона	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Money
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0023-p2-s3
+# text = Для студенческой квартиры впечатляющая сумма, но, скорее всего, не та, на которую владелица квартиры на площади Гросвенор, внучка греческого судовладельца Аристотеля Онассиса Афина, изначально рассчитывала.
+1	Для	_	_	_	_	_	_	_	_
+2	студенческой	_	_	_	_	_	_	_	_
+3	квартиры	_	_	_	_	_	_	_	_
+4	впечатляющая	_	_	_	_	_	_	_	_
+5	сумма	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	но	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	скорее	_	_	_	_	_	_	_	_
+10	всего	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	не	_	_	_	_	_	_	_	_
+13	та	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	которую	_	_	_	_	_	_	_	_
+17	владелица	_	_	_	_	_	_	_	_
+18	квартиры	_	_	_	_	_	_	_	_
+19	на	_	_	_	_	_	_	_	_
+20	площади	_	_	_	_	_	_	_	bratT12=Facility
+21	Гросвенор	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Facility
+22	,	_	_	_	_	_	_	_	_
+23	внучка	_	_	_	_	_	_	_	bratA1=T13:Female|bratT13=Person|bratT14=Family
+24	греческого	_	_	_	_	_	_	_	bratA1=T13:Female|bratA13=T61:Adjective|bratA2=T15:Male|bratT13=Person|bratT15=Person|bratT17=Person-property|bratT61=GPE
+25	судовладельца	_	_	_	_	_	_	_	bratA1=T13:Female|bratA2=T15:Male|bratT13=Person|bratT15=Person|bratT17=Person-property
+26	Аристотеля	_	_	_	_	_	_	_	bratA1=T13:Female|bratA2=T15:Male|bratT13=Person|bratT15=Person|bratT43=Person-forename
+27	Онассиса	_	_	_	_	_	_	_	bratA1=T13:Female|bratA2=T15:Male|bratT13=Person|bratT15=Person|bratT42=Person-surname
+28	Афина	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Female|bratT13=Person|bratT41=Person-forename
+29	,	_	_	_	_	_	_	_	_
+30	изначально	_	_	_	_	_	_	_	_
+31	рассчитывала	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0023-p2-s4
+# text = В июле 2019 года сообщалось о том, что Афина хочет получить за апартаменты £25 миллионов, но, видимо, пандемия внесла в эти планы свои коррективы.
+1	В	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-absolute
+2	июле	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-absolute
+3	2019	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-absolute
+5	сообщалось	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	том	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	что	_	_	_	_	_	_	_	_
+10	Афина	_	_	_	_	_	_	_	bratA8=T19:Female|bratT19=Person|bratT50=Person-forename
+11	хочет	_	_	_	_	_	_	_	_
+12	получить	_	_	_	_	_	_	_	_
+13	за	_	_	_	_	_	_	_	_
+14	апартаменты	_	_	_	_	_	_	_	_
+15-16	£25	_	_	_	_	_	_	_	_
+15	£	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Money
+16	25	_	_	_	_	_	_	_	bratT20=Money
+17	миллионов	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Money
+18	,	_	_	_	_	_	_	_	_
+19	но	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	видимо	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	пандемия	_	_	_	_	_	_	_	bratT37=Event
+24	внесла	_	_	_	_	_	_	_	_
+25	в	_	_	_	_	_	_	_	_
+26	эти	_	_	_	_	_	_	_	_
+27	планы	_	_	_	_	_	_	_	_
+28	свои	_	_	_	_	_	_	_	_
+29	коррективы	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0023-p3
+# par_text = Имена покупателя и его дочери не разглашаются, зато хорошо известно, кто жил ранее в этой квартире в Мэйфэйре. Апартаменты принадлежали сестре Аристотеля Онассиса Артемисе. Кроме того, здесь часто останавливалась Джеки О, навещавшая в Лондоне свою дочь Каролину, и ее сестра Ли Радзивилл. До Онассисов в квартире жил сэр Джон Андерсон, лорд-председатель Тайного совета и член военного кабинета Черчилля.
+# sent_id = 0023-p3-s1
+# text = Имена покупателя и его дочери не разглашаются, зато хорошо известно, кто жил ранее в этой квартире в Мэйфэйре.
+1	Имена	_	_	_	_	_	_	_	_
+2	покупателя	_	_	_	_	_	_	_	bratT65=Person-property
+3	и	_	_	_	_	_	_	_	_
+4	его	_	_	_	_	_	_	_	bratA15=T63:Female|bratT63=Person
+5	дочери	_	_	_	_	_	_	_	bratA15=T63:Female|bratT36=Family|bratT63=Person
+6	не	_	_	_	_	_	_	_	_
+7	разглашаются	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	зато	_	_	_	_	_	_	_	_
+10	хорошо	_	_	_	_	_	_	_	_
+11	известно	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	кто	_	_	_	_	_	_	_	_
+14	жил	_	_	_	_	_	_	_	_
+15	ранее	_	_	_	_	_	_	_	bratA14=T62:Past|bratT62=Date-relative
+16	в	_	_	_	_	_	_	_	_
+17	этой	_	_	_	_	_	_	_	_
+18	квартире	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	Мэйфэйре	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0023-p3-s2
+# text = Апартаменты принадлежали сестре Аристотеля Онассиса Артемисе.
+1	Апартаменты	_	_	_	_	_	_	_	_
+2	принадлежали	_	_	_	_	_	_	_	_
+3	сестре	_	_	_	_	_	_	_	bratA5=T22:Female|bratT22=Person|bratT23=Family
+4	Аристотеля	_	_	_	_	_	_	_	bratA4=T24:Male|bratA5=T22:Female|bratT22=Person|bratT24=Person|bratT44=Person-forename
+5	Онассиса	_	_	_	_	_	_	_	bratA4=T24:Male|bratA5=T22:Female|bratT22=Person|bratT24=Person|bratT45=Person-surname
+6	Артемисе	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Female|bratT22=Person|bratT46=Person-forename
+7	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0023-p3-s3
+# text = Кроме того, здесь часто останавливалась Джеки О, навещавшая в Лондоне свою дочь Каролину, и ее сестра Ли Радзивилл.
+1	Кроме	_	_	_	_	_	_	_	_
+2	того	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	здесь	_	_	_	_	_	_	_	_
+5	часто	_	_	_	_	_	_	_	_
+6	останавливалась	_	_	_	_	_	_	_	_
+7	Джеки	_	_	_	_	_	_	_	bratA6=T16:Female|bratT16=Person|bratT47=Person-forename
+8	О	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T16:Female|bratT16=Person|bratT48=Person-surname
+9	,	_	_	_	_	_	_	_	_
+10	навещавшая	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	Лондоне	_	_	_	_	_	_	_	bratT25=GPE
+13	свою	_	_	_	_	_	_	_	bratA7=T26:Female|bratT26=Person
+14	дочь	_	_	_	_	_	_	_	bratA7=T26:Female|bratT26=Person|bratT28=Family
+15	Каролину	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T26:Female|bratT26=Person|bratT49=Person-forename
+16	,	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	ее	_	_	_	_	_	_	_	bratA9=T27:Female|bratT27=Person
+19	сестра	_	_	_	_	_	_	_	bratA9=T27:Female|bratT27=Person|bratT29=Family
+20	Ли	_	_	_	_	_	_	_	bratA9=T27:Female|bratT27=Person|bratT51=Person-forename
+21	Радзивилл	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Female|bratT27=Person|bratT52=Person-surname
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0023-p3-s4
+# text = До Онассисов в квартире жил сэр Джон Андерсон, лорд-председатель Тайного совета и член военного кабинета Черчилля.
+1	До	_	_	_	_	_	_	_	bratA16=T70:Past|bratT70=Date-period-absolute
+2	Онассисов	_	_	_	_	_	_	_	bratA16=T70:Past|bratT30=Person|bratT53=Person-surname|bratT70=Date-period-absolute
+3	в	_	_	_	_	_	_	_	_
+4	квартире	_	_	_	_	_	_	_	_
+5	жил	_	_	_	_	_	_	_	_
+6	сэр	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT54=Person-affix
+7	Джон	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT55=Person-forename
+8	Андерсон	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T31:Male|bratT31=Person|bratT56=Person-surname
+9	,	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person
+10	лорд-председатель	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT32=Person-property
+11	Тайного	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT32=Person-property|bratT33=Organization
+12	совета	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT32=Person-property|bratT33=Organization
+13	и	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person
+14	член	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT38=Person-property
+15	военного	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT34=Organization|bratT38=Person-property
+16	кабинета	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT34=Organization|bratT38=Person-property
+17	Черчилля	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T31:Male|bratA11=T35:Male|bratT31=Person|bratT34=Organization|bratT35=Person|bratT38=Person-property|bratT57=Person-surname
+18	.	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,297 @@
+# newdoc id = 0087
+# newpar id = 0087-p1
+# par_text = Сборная России закончила первый тайм матча против Сербии со счетом 0:4
+# sent_id = 0087-p1-s1
+# text = Сборная России закончила первый тайм матча против Сербии со счетом 0:4
+1	Сборная	_	_	_	_	_	_	_	bratT1=Organization
+2	России	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+3	закончила	_	_	_	_	_	_	_	_
+4	первый	_	_	_	_	_	_	_	bratT3=Event|bratT6=Ordinal
+5	тайм	_	_	_	_	_	_	_	bratT3=Event
+6	матча	_	_	_	_	_	_	_	bratT3=Event|bratT4=Event
+7	против	_	_	_	_	_	_	_	_
+8	Сербии	_	_	_	_	_	_	_	bratT5=GPE
+9	со	_	_	_	_	_	_	_	_
+10	счетом	_	_	_	_	_	_	_	_
+11	0:4	_	_	_	_	_	_	_	bratT7=Quantity
+
+# newpar id = 0087-p2
+# par_text = Сборная России по футболу проигрывает в гостях команде Сербии со счетом 0:4 после первого тайма заключительного матча Лиги наций. Встреча проходит при пустых трибунах на стадионе «Райко Митич» в Белграде. Судит игру арбитр из Великобритании Энтони Тейлор.
+# sent_id = 0087-p2-s1
+# text = Сборная России по футболу проигрывает в гостях команде Сербии со счетом 0:4 после первого тайма заключительного матча Лиги наций.
+1	Сборная	_	_	_	_	_	_	_	bratT8=Organization
+2	России	_	_	_	_	_	_	_	bratT8=Organization|bratT9=GPE
+3	по	_	_	_	_	_	_	_	bratT8=Organization
+4	футболу	_	_	_	_	_	_	_	bratT8=Organization
+5	проигрывает	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	гостях	_	_	_	_	_	_	_	_
+8	команде	_	_	_	_	_	_	_	bratT10=Organization
+9	Сербии	_	_	_	_	_	_	_	bratT10=Organization|bratT11=GPE
+10	со	_	_	_	_	_	_	_	_
+11	счетом	_	_	_	_	_	_	_	_
+12	0:4	_	_	_	_	_	_	_	bratT12=Quantity
+13	после	_	_	_	_	_	_	_	bratA18=T104:Present|bratT104=Date-absolute
+14	первого	_	_	_	_	_	_	_	bratA18=T104:Present|bratT104=Date-absolute|bratT13=Event|bratT15=Ordinal
+15	тайма	_	_	_	_	_	_	_	bratA18=T104:Present|bratT104=Date-absolute|bratT13=Event
+16	заключительного	_	_	_	_	_	_	_	bratT13=Event|bratT61=Event
+17	матча	_	_	_	_	_	_	_	bratT13=Event|bratT61=Event
+18	Лиги	_	_	_	_	_	_	_	bratT13=Event|bratT14=Event|bratT61=Event
+19	наций	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Event|bratT14=Event|bratT61=Event
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p2-s2
+# text = Встреча проходит при пустых трибунах на стадионе ``Райко Митич'' в Белграде.
+1	Встреча	_	_	_	_	_	_	_	bratT110=Event
+2	проходит	_	_	_	_	_	_	_	_
+3	при	_	_	_	_	_	_	_	_
+4	пустых	_	_	_	_	_	_	_	_
+5	трибунах	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	стадионе	_	_	_	_	_	_	_	bratT16=Facility
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Facility
+9	Райко	_	_	_	_	_	_	_	bratT16=Facility
+10	Митич	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Facility
+11	''	_	_	_	_	_	_	_	bratT16=Facility
+12	в	_	_	_	_	_	_	_	_
+13	Белграде	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=GPE
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p2-s3
+# text = Судит игру арбитр из Великобритании Энтони Тейлор.
+1	Судит	_	_	_	_	_	_	_	_
+2	игру	_	_	_	_	_	_	_	bratT109=Event
+3	арбитр	_	_	_	_	_	_	_	bratT18=Person-property
+4	из	_	_	_	_	_	_	_	_
+5	Великобритании	_	_	_	_	_	_	_	bratT19=GPE
+6	Энтони	_	_	_	_	_	_	_	bratA3=T20:Male|bratT20=Person|bratT73=Person-forename
+7	Тейлор	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T20:Male|bratT20=Person|bratT74=Person-surname
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p3
+# par_text = Мячи забили Неманья Радоньич (10-я минута), Лука Йович (25, 45+1) и Душан Влахович (41).
+# sent_id = 0087-p3-s1
+# text = Мячи забили Неманья Радоньич (10-я минута), Лука Йович (25, 45+1) и Душан Влахович (41).
+1	Мячи	_	_	_	_	_	_	_	_
+2	забили	_	_	_	_	_	_	_	_
+3	Неманья	_	_	_	_	_	_	_	bratA4=T21:Male|bratT21=Person|bratT75=Person-forename
+4	Радоньич	_	_	_	_	_	_	_	bratA4=T21:Male|bratT21=Person|bratT76=Person-surname
+5	(	_	_	_	_	_	_	_	SpaceAfter=No
+6	10-я	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-relative|bratT79=Ordinal
+7	минута	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T22:Past|bratT115=Duration|bratT22=Date-relative
+8	)	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	Лука	_	_	_	_	_	_	_	bratA5=T23:Male|bratT23=Person|bratT77=Person-forename
+11	Йович	_	_	_	_	_	_	_	bratA5=T23:Male|bratT23=Person|bratT78=Person-surname
+12	(	_	_	_	_	_	_	_	SpaceAfter=No
+13	25	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T112:Past|bratT112=Date-relative|bratT24=Ordinal
+14	,	_	_	_	_	_	_	_	_
+15	45+1	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T113:Past|bratT113=Date-relative|bratT25=Ordinal
+16	)	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	Душан	_	_	_	_	_	_	_	bratA7=T26:Male|bratT26=Person|bratT80=Person-forename
+19	Влахович	_	_	_	_	_	_	_	bratA7=T26:Male|bratT26=Person|bratT81=Person-surname
+20	(	_	_	_	_	_	_	_	SpaceAfter=No
+21	41	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T114:Past|bratT114=Date-relative|bratT27=Ordinal
+22	)	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p4
+# par_text = Сборная России не проигрывала с разницей четыре и более мяча с 2004 года, когда уступила в гостях команде Португалии - 1:7.
+# sent_id = 0087-p4-s1
+# text = Сборная России не проигрывала с разницей четыре и более мяча с 2004 года, когда уступила в гостях команде Португалии - 1:7.
+1	Сборная	_	_	_	_	_	_	_	bratT28=Organization
+2	России	_	_	_	_	_	_	_	bratT28=Organization|bratT29=GPE
+3	не	_	_	_	_	_	_	_	_
+4	проигрывала	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	разницей	_	_	_	_	_	_	_	_
+7	четыре	_	_	_	_	_	_	_	bratT30=Quantity
+8	и	_	_	_	_	_	_	_	bratT30=Quantity
+9	более	_	_	_	_	_	_	_	bratT30=Quantity
+10	мяча	_	_	_	_	_	_	_	bratT30=Quantity
+11	с	_	_	_	_	_	_	_	bratA8=T31:Past-Pres|bratT31=Date-period-absolute
+12	2004	_	_	_	_	_	_	_	bratA8=T31:Past-Pres|bratT31=Date-period-absolute
+13	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T31:Past-Pres|bratT31=Date-period-absolute
+14	,	_	_	_	_	_	_	_	_
+15	когда	_	_	_	_	_	_	_	_
+16	уступила	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	гостях	_	_	_	_	_	_	_	_
+19	команде	_	_	_	_	_	_	_	bratT34=Organization
+20	Португалии	_	_	_	_	_	_	_	bratT32=GPE|bratT34=Organization
+21	-	_	_	_	_	_	_	_	_
+22	1:7	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
+23	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p5
+# par_text = Сборные Сербии и России в последних играх по три раза сыграли вничью и потерпели по два поражения.
+# sent_id = 0087-p5-s1
+# text = Сборные Сербии и России в последних играх по три раза сыграли вничью и потерпели по два поражения.
+1	Сборные	_	_	_	_	_	_	_	bratA1=T35:Plural|bratT35=Organization
+2	Сербии	_	_	_	_	_	_	_	bratA1=T35:Plural|bratT35=Organization|bratT36=GPE
+3	и	_	_	_	_	_	_	_	bratA1=T35:Plural|bratT35=Organization
+4	России	_	_	_	_	_	_	_	bratA1=T35:Plural|bratT35=Organization|bratT37=GPE
+5	в	_	_	_	_	_	_	_	_
+6	последних	_	_	_	_	_	_	_	bratT103=Ordinal
+7	играх	_	_	_	_	_	_	_	_
+8	по	_	_	_	_	_	_	_	bratT38=Quantity
+9	три	_	_	_	_	_	_	_	bratT38=Quantity
+10	раза	_	_	_	_	_	_	_	bratT38=Quantity
+11	сыграли	_	_	_	_	_	_	_	_
+12	вничью	_	_	_	_	_	_	_	_
+13	и	_	_	_	_	_	_	_	_
+14	потерпели	_	_	_	_	_	_	_	_
+15	по	_	_	_	_	_	_	_	bratT39=Quantity
+16	два	_	_	_	_	_	_	_	bratT39=Quantity
+17	поражения	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p6
+# par_text = Для Юрия Жиркова матч стал сотым в составе сборной России. По количеству игр за национальную команду 37-летний защитник занимает пятое место, уступая только Сергею Игнашевичу (126 встреч), Игорю Акинфееву (110), Виктору Онопко (109) и Василию Березцкому (101).
+# sent_id = 0087-p6-s1
+# text = Для Юрия Жиркова матч стал сотым в составе сборной России.
+1	Для	_	_	_	_	_	_	_	_
+2	Юрия	_	_	_	_	_	_	_	bratA9=T40:Male|bratT40=Person|bratT82=Person-forename
+3	Жиркова	_	_	_	_	_	_	_	bratA9=T40:Male|bratT40=Person|bratT83=Person-surname
+4	матч	_	_	_	_	_	_	_	bratT106=Event
+5	стал	_	_	_	_	_	_	_	_
+6	сотым	_	_	_	_	_	_	_	bratT41=Ordinal
+7	в	_	_	_	_	_	_	_	_
+8	составе	_	_	_	_	_	_	_	_
+9	сборной	_	_	_	_	_	_	_	bratT42=Organization
+10	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization|bratT43=GPE
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p6-s2
+# text = По количеству игр за национальную команду 37-летний защитник занимает пятое место, уступая только Сергею Игнашевичу (126 встреч), Игорю Акинфееву (110), Виктору Онопко (109) и Василию Березцкому (101).
+1	По	_	_	_	_	_	_	_	_
+2	количеству	_	_	_	_	_	_	_	_
+3	игр	_	_	_	_	_	_	_	_
+4	за	_	_	_	_	_	_	_	_
+5	национальную	_	_	_	_	_	_	_	bratA23=T116:Adjective|bratT116=GPE|bratT119=Organization
+6	команду	_	_	_	_	_	_	_	bratT119=Organization
+7	37-летний	_	_	_	_	_	_	_	bratT44=Age
+8	защитник	_	_	_	_	_	_	_	bratT45=Person-property
+9	занимает	_	_	_	_	_	_	_	_
+10	пятое	_	_	_	_	_	_	_	bratT46=Ordinal
+11	место	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	уступая	_	_	_	_	_	_	_	_
+14	только	_	_	_	_	_	_	_	_
+15	Сергею	_	_	_	_	_	_	_	bratA10=T47:Male|bratT47=Person|bratT84=Person-forename
+16	Игнашевичу	_	_	_	_	_	_	_	bratA10=T47:Male|bratT47=Person|bratT85=Person-surname
+17	(	_	_	_	_	_	_	_	SpaceAfter=No
+18	126	_	_	_	_	_	_	_	bratT48=Quantity
+19	встреч	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Quantity
+20	)	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	Игорю	_	_	_	_	_	_	_	bratA11=T49:Male|bratT49=Person|bratT86=Person-forename
+23	Акинфееву	_	_	_	_	_	_	_	bratA11=T49:Male|bratT49=Person|bratT87=Person-surname
+24	(	_	_	_	_	_	_	_	SpaceAfter=No
+25	110	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Quantity
+26	)	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	Виктору	_	_	_	_	_	_	_	bratA12=T51:Male|bratT51=Person|bratT88=Person-forename
+29	Онопко	_	_	_	_	_	_	_	bratA12=T51:Male|bratT51=Person|bratT89=Person-surname
+30	(	_	_	_	_	_	_	_	SpaceAfter=No
+31	109	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Quantity
+32	)	_	_	_	_	_	_	_	_
+33	и	_	_	_	_	_	_	_	_
+34	Василию	_	_	_	_	_	_	_	bratA13=T53:Male|bratT53=Person|bratT90=Person-forename
+35	Березцкому	_	_	_	_	_	_	_	bratA13=T53:Male|bratT53=Person|bratT91=Person-surname
+36	(	_	_	_	_	_	_	_	SpaceAfter=No
+37	101	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Quantity
+38	)	_	_	_	_	_	_	_	SpaceAfter=No
+39	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p7
+# par_text = В матче не принимал участие капитан сборной России Артем Дзюба. Нападающего «Зенита» исключили из числа приглашенных на ноябрьский сбор национальной команды футболистов после скандала с появлением в интернете интимного ролика с его участием.
+# sent_id = 0087-p7-s1
+# text = В матче не принимал участие капитан сборной России Артем Дзюба.
+1	В	_	_	_	_	_	_	_	_
+2	матче	_	_	_	_	_	_	_	bratT107=Event
+3	не	_	_	_	_	_	_	_	_
+4	принимал	_	_	_	_	_	_	_	_
+5	участие	_	_	_	_	_	_	_	_
+6	капитан	_	_	_	_	_	_	_	bratA14=T55:Male|bratT55=Person|bratT56=Person-property
+7	сборной	_	_	_	_	_	_	_	bratA14=T55:Male|bratT55=Person|bratT56=Person-property|bratT57=Organization
+8	России	_	_	_	_	_	_	_	bratA14=T55:Male|bratT55=Person|bratT56=Person-property|bratT57=Organization|bratT58=GPE
+9	Артем	_	_	_	_	_	_	_	bratA14=T55:Male|bratT55=Person|bratT92=Person-forename
+10	Дзюба	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T55:Male|bratT55=Person|bratT93=Person-surname
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p7-s2
+# text = Нападающего ``Зенита'' исключили из числа приглашенных на ноябрьский сбор национальной команды футболистов после скандала с появлением в интернете интимного ролика с его участием.
+1	Нападающего	_	_	_	_	_	_	_	bratT59=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Person-property|bratT60=Organization
+3	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Person-property|bratT60=Organization
+4	''	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Organization
+5	исключили	_	_	_	_	_	_	_	_
+6	из	_	_	_	_	_	_	_	_
+7	числа	_	_	_	_	_	_	_	_
+8	приглашенных	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	ноябрьский	_	_	_	_	_	_	_	bratT94=Date-absolute
+11	сбор	_	_	_	_	_	_	_	_
+12	национальной	_	_	_	_	_	_	_	bratA24=T117:Adjective|bratT117=GPE|bratT118=Organization
+13	команды	_	_	_	_	_	_	_	bratT118=Organization
+14	футболистов	_	_	_	_	_	_	_	bratT62=Person-property
+15	после	_	_	_	_	_	_	_	bratA19=T105:Past|bratT105=Date-absolute
+16	скандала	_	_	_	_	_	_	_	bratA19=T105:Past|bratT105=Date-absolute|bratT111=Event
+17	с	_	_	_	_	_	_	_	_
+18	появлением	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	интернете	_	_	_	_	_	_	_	_
+21	интимного	_	_	_	_	_	_	_	_
+22	ролика	_	_	_	_	_	_	_	_
+23	с	_	_	_	_	_	_	_	_
+24	его	_	_	_	_	_	_	_	_
+25	участием	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0087-p8
+# par_text = Также на поле не смогли выйти дисквалифицированные за перебор желтых защитники сборной России Федор Кудряшов и Андрей Семенов и хавбек Роман Зобнин. Вратаря Матвея Сафонова отстранили от участия в матче из-за сомнительного теста на коронавирус.
+# sent_id = 0087-p8-s1
+# text = Также на поле не смогли выйти дисквалифицированные за перебор желтых защитники сборной России Федор Кудряшов и Андрей Семенов и хавбек Роман Зобнин.
+1	Также	_	_	_	_	_	_	_	_
+2	на	_	_	_	_	_	_	_	_
+3	поле	_	_	_	_	_	_	_	_
+4	не	_	_	_	_	_	_	_	_
+5	смогли	_	_	_	_	_	_	_	_
+6	выйти	_	_	_	_	_	_	_	_
+7	дисквалифицированные	_	_	_	_	_	_	_	_
+8	за	_	_	_	_	_	_	_	_
+9	перебор	_	_	_	_	_	_	_	_
+10	желтых	_	_	_	_	_	_	_	_
+11	защитники	_	_	_	_	_	_	_	bratT63=Person-property
+12	сборной	_	_	_	_	_	_	_	bratT63=Person-property|bratT68=Organization
+13	России	_	_	_	_	_	_	_	bratT63=Person-property|bratT68=Organization|bratT69=GPE
+14	Федор	_	_	_	_	_	_	_	bratA2=T64:Male|bratT64=Person|bratT95=Person-forename
+15	Кудряшов	_	_	_	_	_	_	_	bratA2=T64:Male|bratT64=Person|bratT96=Person-surname
+16	и	_	_	_	_	_	_	_	_
+17	Андрей	_	_	_	_	_	_	_	bratA15=T65:Male|bratT65=Person|bratT97=Person-forename
+18	Семенов	_	_	_	_	_	_	_	bratA15=T65:Male|bratT65=Person|bratT98=Person-surname
+19	и	_	_	_	_	_	_	_	_
+20	хавбек	_	_	_	_	_	_	_	bratA16=T66:Male|bratT66=Person|bratT67=Person-property
+21	Роман	_	_	_	_	_	_	_	bratA16=T66:Male|bratT66=Person|bratT99=Person-forename
+22	Зобнин	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T66:Male|bratT100=Person-surname|bratT66=Person
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0087-p8-s2
+# text = Вратаря Матвея Сафонова отстранили от участия в матче из-за сомнительного теста на коронавирус.
+1	Вратаря	_	_	_	_	_	_	_	bratA17=T70:Male|bratT70=Person|bratT71=Person-property
+2	Матвея	_	_	_	_	_	_	_	bratA17=T70:Male|bratT101=Person-forename|bratT70=Person
+3	Сафонова	_	_	_	_	_	_	_	bratA17=T70:Male|bratT102=Person-surname|bratT70=Person
+4	отстранили	_	_	_	_	_	_	_	_
+5	от	_	_	_	_	_	_	_	_
+6	участия	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	матче	_	_	_	_	_	_	_	bratT108=Event
+9	из-за	_	_	_	_	_	_	_	_
+10	сомнительного	_	_	_	_	_	_	_	_
+11	теста	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Other-term
+14	.	_	_	_	_	_	_	_	_
+

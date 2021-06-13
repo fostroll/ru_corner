@@ -22,7 +22,7 @@
 # text = Участие главы государства в качестве добровольца, которые сделали себе прививку от коронавирусной инфекции, невозможно.
 1	Участие	_	_	_	_	_	_	_	_
 2	главы	_	_	_	_	_	_	_	bratT23=Person-property
-3	государства	_	_	_	_	_	_	_	bratT23=Person-property
+3	государства	_	_	_	_	_	_	_	bratT23=Person-property|bratT45=GPE
 4	в	_	_	_	_	_	_	_	_
 5	качестве	_	_	_	_	_	_	_	_
 6	добровольца	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
@@ -125,7 +125,7 @@
 6	конечно	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	глава	_	_	_	_	_	_	_	bratT8=Person-property
-9	государства	_	_	_	_	_	_	_	bratT8=Person-property
+9	государства	_	_	_	_	_	_	_	bratT46=GPE|bratT8=Person-property
 10	не	_	_	_	_	_	_	_	_
 11	может	_	_	_	_	_	_	_	_
 12	принимать	_	_	_	_	_	_	_	_
@@ -139,7 +139,7 @@
 1	Просто	_	_	_	_	_	_	_	_
 2	как	_	_	_	_	_	_	_	_
 3	глава	_	_	_	_	_	_	_	bratT10=Person-property
-4	государства	_	_	_	_	_	_	_	bratT10=Person-property
+4	государства	_	_	_	_	_	_	_	bratT10=Person-property|bratT47=GPE
 5	он	_	_	_	_	_	_	_	_
 6	не	_	_	_	_	_	_	_	_
 7	может	_	_	_	_	_	_	_	_
@@ -221,10 +221,13 @@
 10	в	_	_	_	_	_	_	_	_
 11	России	_	_	_	_	_	_	_	bratT20=GPE
 12	от	_	_	_	_	_	_	_	_
-13	COVID-19	_	_	_	_	_	_	_	bratT19=Other-term
-14	планируется	_	_	_	_	_	_	_	_
-15	с	_	_	_	_	_	_	_	bratA3=T21:Fut|bratT21=Date-period-absolute
-16	2021	_	_	_	_	_	_	_	bratA3=T21:Fut|bratT21=Date-period-absolute
-17	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T21:Fut|bratT21=Date-period-absolute
-18	.	_	_	_	_	_	_	_	_
+13-15	COVID-19	_	_	_	_	_	_	_	_
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+15	19	_	_	_	_	_	_	_	bratT19=Other-term|bratT44=Cardinal
+16	планируется	_	_	_	_	_	_	_	_
+17	с	_	_	_	_	_	_	_	bratA3=T21:Fut|bratT21=Date-period-absolute
+18	2021	_	_	_	_	_	_	_	bratA3=T21:Fut|bratT21=Date-period-absolute
+19	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T21:Fut|bratT21=Date-period-absolute
+20	.	_	_	_	_	_	_	_	_
 

@@ -26,17 +26,20 @@
 7	от	_	_	_	_	_	_	_	_
 8	коронавирусной	_	_	_	_	_	_	_	bratT24=Other-term
 9	инфекции	_	_	_	_	_	_	_	bratT24=Other-term
-10	COVID-19	_	_	_	_	_	_	_	bratT24=Other-term
-11	в	_	_	_	_	_	_	_	_
-12	Москве	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE
-13	,	_	_	_	_	_	_	_	_
-14	общее	_	_	_	_	_	_	_	_
-15	число	_	_	_	_	_	_	_	_
-16	выздоровевших	_	_	_	_	_	_	_	_
-17	достигло	_	_	_	_	_	_	_	_
-18	400	_	_	_	_	_	_	_	bratT26=Quantity
-19	332	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
-20	.	_	_	_	_	_	_	_	_
+10-12	COVID-19	_	_	_	_	_	_	_	_
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+12	19	_	_	_	_	_	_	_	bratT24=Other-term|bratT39=Cardinal
+13	в	_	_	_	_	_	_	_	_
+14	Москве	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE
+15	,	_	_	_	_	_	_	_	_
+16	общее	_	_	_	_	_	_	_	_
+17	число	_	_	_	_	_	_	_	_
+18	выздоровевших	_	_	_	_	_	_	_	_
+19	достигло	_	_	_	_	_	_	_	_
+20	400	_	_	_	_	_	_	_	bratT26=Quantity
+21	332	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
+22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0003-p3
 # par_text = Об этом информирует сайт «Москва 24» со ссылкой на оперативный штаб по контролю и мониторингу ситуации с COVID-19.
@@ -48,7 +51,7 @@
 4	сайт	_	_	_	_	_	_	_	bratA2=T4:Media|bratT4=Service
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Media|bratA5=T31:Media|bratT31=Organization|bratT4=Service
 6	Москва	_	_	_	_	_	_	_	bratA2=T4:Media|bratA5=T31:Media|bratT31=Organization|bratT4=Service
-7	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Media|bratA5=T31:Media|bratT31=Organization|bratT4=Service
+7	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Media|bratA5=T31:Media|bratT31=Organization|bratT4=Service|bratT40=Time-period|bratT42=Duration
 8	''	_	_	_	_	_	_	_	bratA2=T4:Media|bratA5=T31:Media|bratT31=Organization|bratT4=Service
 9	со	_	_	_	_	_	_	_	_
 10	ссылкой	_	_	_	_	_	_	_	_
@@ -61,8 +64,11 @@
 17	мониторингу	_	_	_	_	_	_	_	bratT5=Organization
 18	ситуации	_	_	_	_	_	_	_	bratT5=Organization
 19	с	_	_	_	_	_	_	_	bratT5=Organization
-20	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term|bratT5=Organization
-21	.	_	_	_	_	_	_	_	_
+20-22	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term|bratT5=Organization
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term|bratT5=Organization
+22	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term|bratT41=Cardinal|bratT5=Organization
+23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0003-p4
 # par_text = Ранее премьер-министр России Михаил Мишустин поручил еженедельно докладывать правительству о наличии препаратов для лечения коронавирусной инфекции.

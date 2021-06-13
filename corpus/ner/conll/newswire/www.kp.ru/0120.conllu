@@ -120,9 +120,12 @@
 17	интервью	_	_	_	_	_	_	_	_
 18	телеканалу	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Organization
 19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-20	Россия-1	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-22	.	_	_	_	_	_	_	_	_
+20-22	Россия-1	_	_	_	_	_	_	_	SpaceAfter=No
+20	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization|bratT16=GPE
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+22	1	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization|bratT19=Ordinal
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p5
 # par_text = Собянин также сообщил, что созданные в Москве резервные госпитали для больных COVID-19 будут работать в полном объеме, даже при снижении загрузки больничных коек. По его словам, в таком случае будут освобождать койки в стационарных медучреждениях.
@@ -139,21 +142,24 @@
 9	резервные	_	_	_	_	_	_	_	_
 10	госпитали	_	_	_	_	_	_	_	_
 11	для	_	_	_	_	_	_	_	_
-12	больных	_	_	_	_	_	_	_	bratT16=Other-group
-13	COVID-19	_	_	_	_	_	_	_	bratT15=Other-term|bratT16=Other-group
-14	будут	_	_	_	_	_	_	_	_
-15	работать	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	_
-17	полном	_	_	_	_	_	_	_	_
-18	объеме	_	_	_	_	_	_	_	SpaceAfter=No
-19	,	_	_	_	_	_	_	_	_
-20	даже	_	_	_	_	_	_	_	_
-21	при	_	_	_	_	_	_	_	_
-22	снижении	_	_	_	_	_	_	_	_
-23	загрузки	_	_	_	_	_	_	_	_
-24	больничных	_	_	_	_	_	_	_	_
-25	коек	_	_	_	_	_	_	_	SpaceAfter=No
-26	.	_	_	_	_	_	_	_	_
+12	больных	_	_	_	_	_	_	_	_
+13-15	COVID-19	_	_	_	_	_	_	_	_
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+15	19	_	_	_	_	_	_	_	bratT15=Other-term|bratT30=Cardinal
+16	будут	_	_	_	_	_	_	_	_
+17	работать	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	полном	_	_	_	_	_	_	_	_
+20	объеме	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	даже	_	_	_	_	_	_	_	_
+23	при	_	_	_	_	_	_	_	_
+24	снижении	_	_	_	_	_	_	_	_
+25	загрузки	_	_	_	_	_	_	_	_
+26	больничных	_	_	_	_	_	_	_	_
+27	коек	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p5-s2
 # text = По его словам, в таком случае будут освобождать койки в стационарных медучреждениях.
@@ -187,9 +193,9 @@
 9	около	_	_	_	_	_	_	_	bratT18=Quantity
 10	10	_	_	_	_	_	_	_	bratT18=Quantity
 11	тысяч	_	_	_	_	_	_	_	bratT18=Quantity
-12	тяжелобольных	_	_	_	_	_	_	_	bratT18=Quantity|bratT19=Other-group
-13	коронавирусной	_	_	_	_	_	_	_	bratT19=Other-group|bratT20=Other-term
-14	инфекцией	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-group|bratT20=Other-term
+12	тяжелобольных	_	_	_	_	_	_	_	bratT18=Quantity
+13	коронавирусной	_	_	_	_	_	_	_	bratT20=Other-term
+14	инфекцией	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p7
@@ -199,8 +205,8 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	ранее	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-relative
-4	власти	_	_	_	_	_	_	_	_
-5	Москвы	_	_	_	_	_	_	_	bratT21=GPE
+4	власти	_	_	_	_	_	_	_	bratT29=Organization
+5	Москвы	_	_	_	_	_	_	_	bratT21=GPE|bratT29=Organization
 6	заявили	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_

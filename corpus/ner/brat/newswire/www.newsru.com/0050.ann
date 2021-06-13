@@ -1,0 +1,70 @@
+T1	Person 9 17	Широкова
+T2	Person-property 55 66	футболистом
+T3	Person-property 101 107	Арбитр
+T4	Person 101 128	Арбитр   Никита   Данченков
+T5	GPE 185 191	России
+T6	Organization 175 206	сборной   России   по   футболу
+T7	Person-property 159 206	экс-капитаном   сборной   России   по   футболу
+T8	Person 159 228	экс-капитаном   сборной   России   по   футболу   Романом   Широковым
+T9	Person-property 258 268	адвокатами
+T10	Person 258 323	адвокатами   Александром   Островским   и   Артуром   Рамазановым
+T11	Organization 501 525	московской   прокураторы
+T12	Date-absolute 562 593	от   21   октября   2020   года
+T14	Organization 721 745	``   Спорт-Экспресс   ''
+A1	Media T14
+T15	Date-absolute 751 770	В   начале   ноября
+T16	Organization 773 784	прокуратура
+T17	Person 939 947	Широкову
+T19	Law 1165 1212	п.   ``   а   ''   ч.   2   ст.   115   УК   РФ
+T20	Time-period 1241 1256	до   двух   лет
+T21	Person 1282 1291	Данченков
+T22	Organization 1371 1373	СК
+T24	Organization 1495 1536	органы   предварительного   расследования
+T25	Organization 1543 1554	прокуратура
+T26	Person 1604 1635	Широкова   Романа   Николаевича
+T29	Organization 1846 1850	ТАСС
+A2	Media T29
+T30	GPE 400 402	РФ
+T31	Person-property 374 402	енерального   прокурора   РФ
+T32	Person 373 421	генерального   прокурора   РФ   Игоря   Краснова
+T33	Person-property 1219 1229	футболисту
+T35	Person-surname 9 17	Широкова
+A3	Male T1
+A4	Male T4
+T34	Person-forename 110 116	Никита
+T36	Person-surname 119 128	Данченков
+T37	Person-forename 209 216	Романом
+T38	Person-surname 219 228	Широковым
+A5	Male T8
+A6	Plural T10
+T39	Person 271 295	Александром   Островским
+A7	Male T39
+T40	Person 302 323	Артуром   Рамазановым
+A8	Male T40
+T41	Person-forename 271 282	Александром
+T42	Person-surname 285 295	Островским
+T43	Person-forename 302 309	Артуром
+T44	Person-surname 312 323	Рамазановым
+A9	Male T32
+T45	Person-forename 405 410	Игоря
+T46	Person-surname 413 421	Краснова
+T47	GPE 501 510	московско
+A10	Adjective T47
+A11	Past T12
+A12	Past T15
+A13	Male T17
+T13	Date-relative 854 860	вскоре
+A14	Future T13
+T18	Ordinal 1170 1181	``   а   ''
+T48	Ordinal 1189 1190	2
+T49	Ordinal 1199 1202	115
+T50	Law 1205 1212	УК   РФ
+T51	GPE 1210 1212	РФ
+T52	Duration 1241 1256	до   двух   лет
+T53	Person-surname 939 947	Широкову
+T54	Person-surname 1282 1291	Данченков
+A15	Male T21
+A16	Male T26
+T23	Person-surname 1604 1612	Широкова
+T55	Person-forename 1615 1621	Романа
+T56	Person-patronym 1624 1635	Николаевича

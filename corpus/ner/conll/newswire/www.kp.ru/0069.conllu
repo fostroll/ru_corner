@@ -33,14 +33,14 @@
 13	в	_	_	_	_	_	_	_	bratT7=Event|bratT9=Event
 14	однопалатный	_	_	_	_	_	_	_	bratT39=Quantity|bratT41=Organization|bratT7=Event|bratT9=Event
 15	парламент	_	_	_	_	_	_	_	bratT41=Organization|bratT7=Event|bratT9=Event
-16	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization|bratT7=Event|bratT9=Event
+16	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization|bratT53=GPE|bratT7=Event|bratT9=Event
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0069-p2-s2
 # text = Голосование состоялось в 17 из 30 одномандатных округов, причем восемь из них - в Тбилиси.
 1	Голосование	_	_	_	_	_	_	_	_
 2	состоялось	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT10=Quantity
+3	в	_	_	_	_	_	_	_	_
 4	17	_	_	_	_	_	_	_	bratT10=Quantity
 5	из	_	_	_	_	_	_	_	bratT10=Quantity
 6	30	_	_	_	_	_	_	_	bratT11=Quantity
@@ -84,7 +84,7 @@
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0069-p3-s2
-# text = Явка во втором туре оказалась невысокой: по состоянию на 20:00 (19:00 мск), когда закрылись избирательные участки, составила всего 26,29 %, в голосовании приняли участие 562,66 тысячи граждан.
+# text = Явка во втором туре оказалась невысокой: по состоянию на 20:00 (19:00 мск), когда закрылись избирательные участки, составила всего 26,29%, в голосовании приняли участие 562,66 тысячи граждан.
 1	Явка	_	_	_	_	_	_	_	_
 2	во	_	_	_	_	_	_	_	_
 3	втором	_	_	_	_	_	_	_	bratT17=Ordinal
@@ -98,7 +98,7 @@
 11	20:00	_	_	_	_	_	_	_	bratA4=T43:Past|bratT18=Time-absolute|bratT43=Date-relative
 12	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T43:Past|bratT43=Date-relative
 13	19:00	_	_	_	_	_	_	_	bratA4=T43:Past|bratT19=Time-absolute|bratT43=Date-relative
-14	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T43:Past|bratT19=Time-absolute|bratT43=Date-relative
+14	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T43:Past|bratT19=Time-absolute|bratT43=Date-relative|bratT52=GPE
 15	)	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T43:Past|bratT43=Date-relative
 16	,	_	_	_	_	_	_	_	_
 17	когда	_	_	_	_	_	_	_	_
@@ -108,7 +108,8 @@
 21	,	_	_	_	_	_	_	_	_
 22	составила	_	_	_	_	_	_	_	_
 23	всего	_	_	_	_	_	_	_	_
-24	26,29	_	_	_	_	_	_	_	bratT20=Percent
+24-25	26,29%	_	_	_	_	_	_	_	SpaceAfter=No
+24	26,29	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
 25	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
 26	,	_	_	_	_	_	_	_	_
 27	в	_	_	_	_	_	_	_	_
@@ -117,11 +118,11 @@
 30	участие	_	_	_	_	_	_	_	_
 31	562,66	_	_	_	_	_	_	_	bratT21=Quantity
 32	тысячи	_	_	_	_	_	_	_	bratT21=Quantity
-33	граждан	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity
+33	граждан	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T50:Citizenship|bratT21=Quantity|bratT50=Nationality
 34	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0069-p3-s3
-# text = Тогда как явка в прошедшем 31 октября первом туре парламентских выборов была 56,11 %.
+# text = Тогда как явка в прошедшем 31 октября первом туре парламентских выборов была 56,11%.
 1	Тогда	_	_	_	_	_	_	_	_
 2	как	_	_	_	_	_	_	_	_
 3	явка	_	_	_	_	_	_	_	_
@@ -134,7 +135,8 @@
 10	парламентских	_	_	_	_	_	_	_	bratT24=Event|bratT25=Event
 11	выборов	_	_	_	_	_	_	_	bratT24=Event|bratT25=Event
 12	была	_	_	_	_	_	_	_	_
-13	56,11	_	_	_	_	_	_	_	bratT26=Percent
+13-14	56,11%	_	_	_	_	_	_	_	SpaceAfter=No
+13	56,11	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Percent
 14	%	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Percent
 15	.	_	_	_	_	_	_	_	_
 
@@ -146,7 +148,7 @@
 2	отметить	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	оппозиция	_	_	_	_	_	_	_	_
+5	оппозиция	_	_	_	_	_	_	_	bratT47=Organization
 6	в	_	_	_	_	_	_	_	_
 7	знак	_	_	_	_	_	_	_	_
 8	несогласия	_	_	_	_	_	_	_	_
@@ -179,8 +181,8 @@
 9	в	_	_	_	_	_	_	_	bratT34=Person-property
 10	депутаты	_	_	_	_	_	_	_	bratT34=Person-property|bratT35=Person-property
 11	от	_	_	_	_	_	_	_	_
-12	оппозиционных	_	_	_	_	_	_	_	_
-13	партий	_	_	_	_	_	_	_	_
+12	оппозиционных	_	_	_	_	_	_	_	bratA9=T49:Adjective|bratT48=Organization|bratT49=Political-group
+13	партий	_	_	_	_	_	_	_	bratT48=Organization
 14	в	_	_	_	_	_	_	_	_
 15	бюллетенях	_	_	_	_	_	_	_	_
 16	указаны	_	_	_	_	_	_	_	SpaceAfter=No
@@ -198,35 +200,38 @@
 3	как	_	_	_	_	_	_	_	_
 4	писал	_	_	_	_	_	_	_	_
 5	сайт	_	_	_	_	_	_	_	bratA2=T29:Media|bratT29=Service
-6	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratA3=T37:Media|bratT29=Service|bratT37=Organization
-7	,	_	_	_	_	_	_	_	_
-8	в	_	_	_	_	_	_	_	_
-9	первом	_	_	_	_	_	_	_	bratT30=Ordinal
-10	туре	_	_	_	_	_	_	_	_
-11	за	_	_	_	_	_	_	_	_
-12	правящую	_	_	_	_	_	_	_	_
-13	партию	_	_	_	_	_	_	_	_
-14	проголосовала	_	_	_	_	_	_	_	_
-15	половина	_	_	_	_	_	_	_	bratT38=Percent
-16	избирателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Other-group
-17	,	_	_	_	_	_	_	_	_
-18	на	_	_	_	_	_	_	_	_
-19	втором	_	_	_	_	_	_	_	bratT32=Ordinal
-20	месте	_	_	_	_	_	_	_	_
-21	-	_	_	_	_	_	_	_	_
-22	блок	_	_	_	_	_	_	_	bratT31=Organization
-23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-24	Единое	_	_	_	_	_	_	_	bratT31=Organization
-25	национальное	_	_	_	_	_	_	_	bratT31=Organization
-26	движение	_	_	_	_	_	_	_	bratT31=Organization
-27	-	_	_	_	_	_	_	_	bratT31=Organization
-28	объединенная	_	_	_	_	_	_	_	bratT31=Organization
-29	оппозиция	_	_	_	_	_	_	_	bratT31=Organization
-30	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-31	Сила	_	_	_	_	_	_	_	bratT31=Organization
-32	в	_	_	_	_	_	_	_	bratT31=Organization
-33	единстве	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-34	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-35	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-36	.	_	_	_	_	_	_	_	_
+6-8	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No
+6	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratA3=T37:Media|bratT29=Service|bratT37=Organization|bratT51=Web-address
+7	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratA3=T37:Media|bratT29=Service|bratT37=Organization|bratT51=Web-address
+8	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratA3=T37:Media|bratT29=Service|bratT37=Organization|bratT51=Web-address
+9	,	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	первом	_	_	_	_	_	_	_	bratT30=Ordinal
+12	туре	_	_	_	_	_	_	_	_
+13	за	_	_	_	_	_	_	_	_
+14	правящую	_	_	_	_	_	_	_	_
+15	партию	_	_	_	_	_	_	_	_
+16	проголосовала	_	_	_	_	_	_	_	_
+17	половина	_	_	_	_	_	_	_	bratT38=Percent
+18	избирателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Other-group
+19	,	_	_	_	_	_	_	_	_
+20	на	_	_	_	_	_	_	_	_
+21	втором	_	_	_	_	_	_	_	bratT32=Ordinal
+22	месте	_	_	_	_	_	_	_	_
+23	-	_	_	_	_	_	_	_	_
+24	блок	_	_	_	_	_	_	_	bratT31=Organization
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+26	Единое	_	_	_	_	_	_	_	bratT31=Organization
+27	национальное	_	_	_	_	_	_	_	bratT31=Organization
+28	движение	_	_	_	_	_	_	_	bratT31=Organization
+29	-	_	_	_	_	_	_	_	bratT31=Organization
+30	объединенная	_	_	_	_	_	_	_	bratT31=Organization
+31	оппозиция	_	_	_	_	_	_	_	bratT31=Organization
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+33	Сила	_	_	_	_	_	_	_	bratT31=Organization
+34	в	_	_	_	_	_	_	_	bratT31=Organization
+35	единстве	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+36	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+37	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+38	.	_	_	_	_	_	_	_	_
 

@@ -15,32 +15,32 @@ T16	Quantity 747 756	Одно   из
 T17	Date-absolute 872 882	В   апреле
 T18	Person 885 902	Арсений   Шульгин
 T19	Person 1259 1266	Шульгин
-T23	Organization 1424 1442	``   Ленты.ру   ''
-T24	Date-period-absolute 1495 1514	За   сутки   продаж
-T26	Money 1553 1573	100   тысяч   рублей
-T27	Person 1598 1615	Арсений   Шульгин
-T28	Person-property 1678 1697	бывшего   продюсера
-T29	Person 1678 1721	бывшего   продюсера   Александра   Шульгина
-T30	Person 1628 1644	певицы   Валерии
-T31	Person-property 1628 1634	певицы
-T32	Date-absolute 1726 1737	В   октябре
-T33	Person 1799 1819	своей   жены   Лианы
-T34	Person-property 1752 1767	предприниматель
-T35	Age 1740 1749	22-летний
-T36	Person-property 1475 1490	предпринимателя
-T37	Ordinal 1652 1659	второго
+T23	Organization 1424 1444	``   Ленты . ру   ''
+T24	Date-period-absolute 1497 1516	За   сутки   продаж
+T26	Money 1555 1575	100   тысяч   рублей
+T27	Person 1600 1617	Арсений   Шульгин
+T28	Person-property 1680 1699	бывшего   продюсера
+T29	Person 1680 1723	бывшего   продюсера   Александра   Шульгина
+T30	Person 1630 1646	певицы   Валерии
+T31	Person-property 1630 1636	певицы
+T32	Date-absolute 1728 1739	В   октябре
+T33	Person 1801 1821	своей   жены   Лианы
+T34	Person-property 1754 1769	предприниматель
+T35	Age 1742 1751	22-летний
+T36	Person-property 1477 1492	предпринимателя
+T37	Ordinal 1654 1661	второго
 T38	Other-group 358 369	подписчикам
 T20	Quantity 1271 1281	Одним   из
-T25	Quantity 1517 1537	две   его   компании
+T25	Quantity 1519 1539	две   его   компании
 T2	Person 0 13	Сын   Валерии
 T7	Family 0 3	Сын
 T39	Family 99 112	Младший   сын
 T40	Family 648 651	Сын
 T41	Person 648 661	Сын   Валерии
 A1	Media T23
-T42	Family 1622 1625	сын
-T43	Family 1652 1666	второго   мужа
-T44	Family 1807 1811	жены
+T42	Family 1624 1627	сын
+T43	Family 1654 1668	второго   мужа
+T44	Family 1809 1813	жены
 T21	Event 74 97	пандемии   коронавируса
 A2	Media T9
 T47	Date-period-absolute 61 82	за   время   пандемии
@@ -49,7 +49,7 @@ A4	Past T32
 A5	Past T12
 T22	Event 212 235	пандемии   коронавируса
 T46	Date-period-absolute 199 220	за   время   пандемии
-T48	Duration 1500 1505	сутки
+T48	Duration 1502 1507	сутки
 A6	Past T24
 A8	Past T46
 A7	Past T47
@@ -62,12 +62,12 @@ T54	Person-forename 654 661	Валерии
 T55	Person-forename 885 892	Арсений
 T56	Person-surname 895 902	Шульгин
 T57	Person-surname 1259 1266	Шульгин
-T58	Person-forename 1598 1605	Арсений
-T59	Person-surname 1608 1615	Шульгин
-T60	Person-forename 1637 1644	Валерии
-T61	Person-forename 1700 1710	Александра
-T62	Person-surname 1713 1721	Шульгина
-T63	Person-forename 1814 1819	Лианы
+T58	Person-forename 1600 1607	Арсений
+T59	Person-surname 1610 1617	Шульгин
+T60	Person-forename 1639 1646	Валерии
+T61	Person-forename 1702 1712	Александра
+T62	Person-surname 1715 1723	Шульгина
+T63	Person-forename 1816 1821	Лианы
 A9	Male T2
 A10	Female T1
 A11	Male T6
@@ -80,5 +80,17 @@ A17	Male T14
 A18	Male T29
 A19	Female T33
 A20	Female T30
-T45	Person 1622 1644	сын   певицы   Валерии
+T45	Person 1624 1646	сын   певицы   Валерии
 A21	Male T45
+T64	Service 271 277	сторис
+A22	Media T64
+T65	Event 694 715	стрессовая   ситуация
+T66	Event 1786 1798	беременности
+T67	Person 328 343	предприниматель
+A23	Male T67
+T68	Person 1477 1492	предпринимателя
+A24	Male T68
+T69	Person 1754 1769	предприниматель
+A25	Male T69
+T70	Service 1355 1367	маркетплейсы
+T71	Service 1374 1409	платформы   электронной   коммерции

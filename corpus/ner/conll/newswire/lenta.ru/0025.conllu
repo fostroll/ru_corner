@@ -6,11 +6,14 @@
 1	Недвижимость	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Facility
-4	Москва-Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Facility
-5	''	_	_	_	_	_	_	_	bratT1=Facility
-6	стала	_	_	_	_	_	_	_	_
-7	еще	_	_	_	_	_	_	_	_
-8	востребованнее	_	_	_	_	_	_	_	_
+4-6	Москва-Сити	_	_	_	_	_	_	_	SpaceAfter=No
+4	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Facility|bratT30=GPE
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Facility
+6	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Facility
+7	''	_	_	_	_	_	_	_	bratT1=Facility
+8	стала	_	_	_	_	_	_	_	_
+9	еще	_	_	_	_	_	_	_	_
+10	востребованнее	_	_	_	_	_	_	_	_
 
 # newpar id = 0025-p2
 # par_text = Недвижимость в столичном деловом центре «Москва-Сити» стала еще востребованнее — спрос на нее в октябре 2020 года вырос на четыре процента по сравнению с прошлым месяцем. Притом число запросов растет с начала лета текущего года. Об этом говорится в материале компании Skolkovo Realty, поступившем в распоряжение «Ленты.ру».
@@ -22,29 +25,32 @@
 4	деловом	_	_	_	_	_	_	_	bratT2=Facility
 5	центре	_	_	_	_	_	_	_	bratT2=Facility
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Facility
-7	Москва-Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Facility
-8	''	_	_	_	_	_	_	_	bratT2=Facility
-9	стала	_	_	_	_	_	_	_	_
-10	еще	_	_	_	_	_	_	_	_
-11	востребованнее	_	_	_	_	_	_	_	_
-12	-	_	_	_	_	_	_	_	_
-13	спрос	_	_	_	_	_	_	_	_
-14	на	_	_	_	_	_	_	_	_
-15	нее	_	_	_	_	_	_	_	_
-16	в	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
-17	октябре	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
-18	2020	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
-19	года	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
-20	вырос	_	_	_	_	_	_	_	_
-21	на	_	_	_	_	_	_	_	bratT4=Percent
-22	четыре	_	_	_	_	_	_	_	bratT4=Percent
-23	процента	_	_	_	_	_	_	_	bratT4=Percent
-24	по	_	_	_	_	_	_	_	_
-25	сравнению	_	_	_	_	_	_	_	_
-26	с	_	_	_	_	_	_	_	_
-27	прошлым	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-relative|bratT26=Ordinal
-28	месяцем	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Past|bratT21=Date-period-relative
-29	.	_	_	_	_	_	_	_	_
+7-9	Москва-Сити	_	_	_	_	_	_	_	SpaceAfter=No
+7	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Facility|bratT24=GPE
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Facility
+9	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Facility
+10	''	_	_	_	_	_	_	_	bratT2=Facility
+11	стала	_	_	_	_	_	_	_	_
+12	еще	_	_	_	_	_	_	_	_
+13	востребованнее	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	спрос	_	_	_	_	_	_	_	_
+16	на	_	_	_	_	_	_	_	_
+17	нее	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
+19	октябре	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
+20	2020	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
+21	года	_	_	_	_	_	_	_	bratA2=T3:Past|bratT3=Date-period-absolute
+22	вырос	_	_	_	_	_	_	_	_
+23	на	_	_	_	_	_	_	_	bratT4=Percent
+24	четыре	_	_	_	_	_	_	_	bratT4=Percent
+25	процента	_	_	_	_	_	_	_	bratT4=Percent
+26	по	_	_	_	_	_	_	_	_
+27	сравнению	_	_	_	_	_	_	_	_
+28	с	_	_	_	_	_	_	_	_
+29	прошлым	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-relative|bratT26=Ordinal
+30	месяцем	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Past|bratT21=Date-period-relative
+31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0025-p2-s2
 # text = Притом число запросов растет с начала лета текущего года.
@@ -74,9 +80,12 @@
 11	в	_	_	_	_	_	_	_	_
 12	распоряжение	_	_	_	_	_	_	_	_
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
-14	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
-15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
-16	.	_	_	_	_	_	_	_	_
+14-16	Ленты.ру	_	_	_	_	_	_	_	SpaceAfter=No
+14	Ленты	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
+15	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
+16	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
+18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0025-p3
 # par_text = Всего с января по октябрь 2020-го количество обращений касаемо покупки недвижимости в деловом центре выросло на 25,3 процента по сравнению с аналогичным периодом прошлого года.
@@ -122,15 +131,18 @@
 7	объект	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
-10	Москва-Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
-11	''	_	_	_	_	_	_	_	bratT10=Facility
-12	можно	_	_	_	_	_	_	_	_
-13	приобрести	_	_	_	_	_	_	_	_
-14	от	_	_	_	_	_	_	_	bratT11=Money
-15	12,5	_	_	_	_	_	_	_	bratT11=Money
-16	миллиона	_	_	_	_	_	_	_	bratT11=Money
-17	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Money
-18	.	_	_	_	_	_	_	_	_
+10-12	Москва-Сити	_	_	_	_	_	_	_	SpaceAfter=No
+10	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility|bratT31=GPE
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
+12	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
+13	''	_	_	_	_	_	_	_	bratT10=Facility
+14	можно	_	_	_	_	_	_	_	_
+15	приобрести	_	_	_	_	_	_	_	_
+16	от	_	_	_	_	_	_	_	bratT11=Money
+17	12,5	_	_	_	_	_	_	_	bratT11=Money
+18	миллиона	_	_	_	_	_	_	_	bratT11=Money
+19	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Money
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0025-p4-s2
 # text = За такие деньги продается студия площадью 24,2 квадратного метра.
@@ -172,7 +184,7 @@
 # par_text = Эксперты сообщили, что востребованность данной локации заметно выросла в связи с режимом самоизоляции. Одни люди, как говорят специалисты, спасают свои рублевые накопления, приобретая уникальную недвижимость. Другие покупают здесь объекты из-за того, что не смогли уехать, в связи с чем у них появилось больше времени на выбор подходящего варианта.
 # sent_id = 0025-p5-s1
 # text = Эксперты сообщили, что востребованность данной локации заметно выросла в связи с режимом самоизоляции.
-1	Эксперты	_	_	_	_	_	_	_	bratT17=Person-property
+1	Эксперты	_	_	_	_	_	_	_	bratT17=Person-property|bratT23=Person
 2	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -184,8 +196,8 @@
 10	в	_	_	_	_	_	_	_	_
 11	связи	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
-13	режимом	_	_	_	_	_	_	_	_
-14	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No
+13	режимом	_	_	_	_	_	_	_	bratT22=Event
+14	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0025-p5-s2

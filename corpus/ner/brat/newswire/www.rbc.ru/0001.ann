@@ -1,0 +1,95 @@
+T1	Organization 0 3	МИД
+T2	GPE 61 73	Азербайджана
+T3	Person-property 53 73	посла   Азербайджана
+T4	GPE 106 112	России
+T5	Organization 100 112	МИД   России
+T6	GPE 172 184	Азербайджана
+T7	Person-property 164 184	посла   Азербайджана
+T8	Person 164 211	посла   Азербайджана   Полада   Бюльбюль   оглы
+T9	Product 229 262	российского   вертолета   Ми - 24
+T10	GPE 307 313	Россия
+T11	GPE 439 445	Москве
+T12	GPE 474 478	Баку
+T13	Organization 578 601	``   РИА   Новости   ''
+A1	Media T13
+T14	Person-property 619 624	посол
+T15	Organization 683 686	РБК
+A2	Media T15
+T16	Person-property 901 909	дипломат
+T17	GPE 950 956	Москва
+T18	GPE 1003 1015	Азербайджана
+T19	Person-property 990 1015	президента   Азербайджана
+T20	Person 990 1034	президента   Азербайджана   Ильхама   Алиева
+T21	Date-relative 611 616	Ранее
+T22	Organization 1117 1120	МИД
+T23	GPE 1156 1160	Баку
+T24	Product 1273 1304	Российский   вертолет   Ми - 24
+T25	GPE 1325 1345	территории   Армении
+T26	Date-absolute 1348 1368	вечером   9   ноября
+T27	Time-absolute 1348 1355	вечером
+T28	Organization 1377 1387	Минобороны
+T29	Date-relative 1451 1467	в   тот   момент
+T30	Ordinal 1503 1508	102-й
+T31	Organization 1503 1538	102-й   российской   военной   базы
+T32	GPE 1628 1647	Нагорном   Карабахе
+T33	Quantity 1679 1690	два   члена
+T34	Person-property 1707 1715	командир
+T35	Person 1707 1729	командир   Юрий   Ищук
+T36	Person-property 1736 1745	лейтенант
+T37	Person 1736 1761	лейтенант   Роман   Федин
+T38	Quantity 1766 1786	Еще   один   человек
+T39	Person-property 1793 1808	летчик-оператор
+T40	Person-property 1815 1830	штурман   звена
+T41	Person-property 1859 1868	Президент
+T42	Person 1859 1887	Президент   Владимир   Путин
+T43	Person-property 1900 1918	министру   обороны
+T44	Family 1940 1946	семьям
+T45	Person-forename 187 193	Полада
+T46	Person-patronym 196 211	Бюльбюль   оглы
+A3	Male T8
+A4	Past T21
+T47	Event 218 226	крушении
+T48	Person-forename 1018 1025	Ильхама
+T49	Person-surname 1028 1034	Алиева
+A5	Male T20
+T50	GPE 229 240	российского
+A6	Adjective T50
+T51	GPE 1273 1283	Российский
+A7	Adjective T51
+T52	GPE 1511 1521	российской
+A8	Adjective T52
+A9	Past T26
+T53	Person-forename 1718 1722	Юрий
+T54	Person-surname 1725 1729	Ищук
+A10	Male T35
+T55	Person-forename 1748 1753	Роман
+T56	Person-surname 1756 1761	Федин
+A11	Male T37
+T57	Person-forename 1871 1879	Владимир
+T58	Person-surname 1882 1887	Путин
+A12	Male T42
+T59	Other-group 1949 1957	погибших
+A13	Past T29
+T60	Person-property 1685 1700	члена   экипажа
+T62	Event 645 653	крушение
+T63	Event 717 743	трагической   случайностью
+T64	Event 780 785	войне
+T65	Event 824 829	войне
+T66	Event 843 848	войне
+T67	Event 356 361	войне
+T68	Event 375 380	войне
+T69	Event 1041 1054	расследовании
+T71	Event 1258 1267	трагедией
+T72	Cardinal 260 262	24
+T74	Cardinal 1302 1304	24
+T61	Person 53 73	посла   Азербайджана
+T70	Person 619 624	посол
+A14	Male T70
+T73	Person 901 909	дипломат
+A15	Male T73
+T75	Person 1900 1918	министру   обороны
+T76	Person 1679 1761	два   члена   экипажа   :   командир   Юрий   Ищук   и   лейтенант   Роман   Федин
+T77	Person 1766 1830	Еще   один   человек   ,   летчик-оператор   -   штурман   звена
+A16	Male T77
+A17	Plural T76
+A18	Male T76

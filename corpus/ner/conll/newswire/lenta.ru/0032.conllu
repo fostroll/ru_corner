@@ -10,24 +10,24 @@
 5	светоотражающем	_	_	_	_	_	_	_	_
 6	бикини	_	_	_	_	_	_	_	_
 7	взволновала	_	_	_	_	_	_	_	_
-8	фанатов	_	_	_	_	_	_	_	_
+8	фанатов	_	_	_	_	_	_	_	bratT25=Other-group
 
 # newpar id = 0032-p2
 # par_text = Телезвезда и предпринимательница Ким Кардашьян-Уэст поделилась фото в купальнике и восхитила фанатов. Соответствующий снимок появился в ее Instagram-аккаунте.
 # sent_id = 0032-p2-s1
 # text = Телезвезда и предпринимательница Ким Кардашьян-Уэст поделилась фото в купальнике и восхитила фанатов.
-1	Телезвезда	_	_	_	_	_	_	_	bratT2=Person|bratT3=Person-property
-2	и	_	_	_	_	_	_	_	bratT2=Person
-3	предпринимательница	_	_	_	_	_	_	_	bratT2=Person|bratT4=Person-property
-4	Ким	_	_	_	_	_	_	_	bratT2=Person|bratT22=Person-forename
-5	Кардашьян-Уэст	_	_	_	_	_	_	_	bratT2=Person|bratT23=Person-surname
+1	Телезвезда	_	_	_	_	_	_	_	bratA9=T2:Female|bratT2=Person|bratT3=Person-property
+2	и	_	_	_	_	_	_	_	bratA9=T2:Female|bratT2=Person
+3	предпринимательница	_	_	_	_	_	_	_	bratA9=T2:Female|bratT2=Person|bratT4=Person-property
+4	Ким	_	_	_	_	_	_	_	bratA9=T2:Female|bratT2=Person|bratT22=Person-forename
+5	Кардашьян-Уэст	_	_	_	_	_	_	_	bratA9=T2:Female|bratT2=Person|bratT23=Person-surname
 6	поделилась	_	_	_	_	_	_	_	_
 7	фото	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	купальнике	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
 11	восхитила	_	_	_	_	_	_	_	_
-12	фанатов	_	_	_	_	_	_	_	SpaceAfter=No
+12	фанатов	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-group
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p2-s2
@@ -50,7 +50,7 @@
 4	сети	_	_	_	_	_	_	_	_
 5	кадре	_	_	_	_	_	_	_	_
 6	40-летняя	_	_	_	_	_	_	_	bratT6=Age
-7	знаменитость	_	_	_	_	_	_	_	bratT24=Person-property
+7	знаменитость	_	_	_	_	_	_	_	bratA10=T27:Female|bratT24=Person-property|bratT27=Person
 8	запечатлена	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	диване	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 5	-	_	_	_	_	_	_	_	_
 6	подписала	_	_	_	_	_	_	_	_
 7	она	_	_	_	_	_	_	_	_
-8	пост	_	_	_	_	_	_	_	SpaceAfter=No
+8	пост	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T16:Media|bratT16=Service
 9	,	_	_	_	_	_	_	_	_
 10	который	_	_	_	_	_	_	_	_
 11	набрал	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 # sent_id = 0032-p4-s1
 # text = Фигура телезвезды взволновала поклонников, и они принялись оставлять ей комплименты в комментариях.
 1	Фигура	_	_	_	_	_	_	_	_
-2	телезвезды	_	_	_	_	_	_	_	bratT12=Person-property
+2	телезвезды	_	_	_	_	_	_	_	bratA11=T28:Female|bratT12=Person-property|bratT28=Person
 3	взволновала	_	_	_	_	_	_	_	_
 4	поклонников	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-group
 5	,	_	_	_	_	_	_	_	_
@@ -114,40 +114,55 @@
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p4-s2
-# text = «Очень горячо», «Потрясающая!», «Люблю тебя, красотка», «Невероятный снимок! Вау», «Превосходная фигура», - писали они.
+# text = «Очень горячо»,
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 2	Очень	_	_	_	_	_	_	_	_
 3	горячо	_	_	_	_	_	_	_	SpaceAfter=No
 4	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
-6	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-7	Потрясающая	_	_	_	_	_	_	_	SpaceAfter=No
-8	!	_	_	_	_	_	_	_	SpaceAfter=No
-9	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-10	,	_	_	_	_	_	_	_	_
-11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-12	Люблю	_	_	_	_	_	_	_	_
-13	тебя	_	_	_	_	_	_	_	SpaceAfter=No
-14	,	_	_	_	_	_	_	_	_
-15	красотка	_	_	_	_	_	_	_	SpaceAfter=No
-16	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-17	,	_	_	_	_	_	_	_	_
-18	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-19	Невероятный	_	_	_	_	_	_	_	_
-20	снимок	_	_	_	_	_	_	_	SpaceAfter=No
-21	!	_	_	_	_	_	_	_	_
-22	Вау	_	_	_	_	_	_	_	SpaceAfter=No
-23	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-24	,	_	_	_	_	_	_	_	_
-25	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-26	Превосходная	_	_	_	_	_	_	_	_
-27	фигура	_	_	_	_	_	_	_	SpaceAfter=No
-28	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-29	,	_	_	_	_	_	_	_	_
-30	-	_	_	_	_	_	_	_	_
-31	писали	_	_	_	_	_	_	_	_
-32	они	_	_	_	_	_	_	_	SpaceAfter=No
-33	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p4-s3
+# text = «Потрясающая!»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Потрясающая	_	_	_	_	_	_	_	SpaceAfter=No
+3	!	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p4-s4
+# text = «Люблю тебя, красотка»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Люблю	_	_	_	_	_	_	_	_
+3	тебя	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	красотка	_	_	_	_	_	_	_	SpaceAfter=No
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p4-s5
+# text = «Невероятный снимок!
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Невероятный	_	_	_	_	_	_	_	_
+3	снимок	_	_	_	_	_	_	_	SpaceAfter=No
+4	!	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p4-s6
+# text = Вау»,
+1	Вау	_	_	_	_	_	_	_	SpaceAfter=No
+2	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0032-p4-s7
+# text = «Превосходная фигура», - писали они.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Превосходная	_	_	_	_	_	_	_	_
+3	фигура	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_
+7	писали	_	_	_	_	_	_	_	_
+8	они	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0032-p5
 # par_text = Ранее в ноябре Ким Кардашьян снялась топлес в рекламе духов Crystal Collection собственного бренда KKW Fragrance. На одном из кадров она позирует спиной к фотографу без одежды, ее волосы заплетены в косу и украшены булавками с кристаллами. На другом фото телезвезда запечатлена лицом к камере в облегающем купальнике из латекса цвета хаки.
@@ -162,9 +177,9 @@
 7	топлес	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	рекламе	_	_	_	_	_	_	_	_
-10	духов	_	_	_	_	_	_	_	bratT10=Product
-11	Crystal	_	_	_	_	_	_	_	bratA2=T16:Trademark|bratT10=Product|bratT16=Product
-12	Collection	_	_	_	_	_	_	_	bratA2=T16:Trademark|bratT10=Product|bratT16=Product
+10	духов	_	_	_	_	_	_	_	bratA2=T10:Trademark|bratT10=Product
+11	Crystal	_	_	_	_	_	_	_	bratA2=T10:Trademark|bratT10=Product
+12	Collection	_	_	_	_	_	_	_	bratA2=T10:Trademark|bratT10=Product
 13	собственного	_	_	_	_	_	_	_	_
 14	бренда	_	_	_	_	_	_	_	bratA1=T11:Trademark|bratT11=Product
 15	KKW	_	_	_	_	_	_	_	bratA1=T11:Trademark|bratT11=Product
@@ -181,7 +196,7 @@
 6	позирует	_	_	_	_	_	_	_	_
 7	спиной	_	_	_	_	_	_	_	_
 8	к	_	_	_	_	_	_	_	_
-9	фотографу	_	_	_	_	_	_	_	_
+9	фотографу	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Person
 10	без	_	_	_	_	_	_	_	_
 11	одежды	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -202,7 +217,7 @@
 1	На	_	_	_	_	_	_	_	_
 2	другом	_	_	_	_	_	_	_	_
 3	фото	_	_	_	_	_	_	_	_
-4	телезвезда	_	_	_	_	_	_	_	bratT14=Person-property
+4	телезвезда	_	_	_	_	_	_	_	bratA12=T29:Female|bratT14=Person-property|bratT29=Person
 5	запечатлена	_	_	_	_	_	_	_	_
 6	лицом	_	_	_	_	_	_	_	_
 7	к	_	_	_	_	_	_	_	_

@@ -8,7 +8,7 @@
 3	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT3=Other-group
 4	''	_	_	_	_	_	_	_	bratT1=Organization|bratT3=Other-group
 5	на	_	_	_	_	_	_	_	_
-6	матче	_	_	_	_	_	_	_	_
+6	матче	_	_	_	_	_	_	_	bratT31=Event
 7	с	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
 9	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
@@ -136,12 +136,15 @@
 # sent_id = 0108-p6-s1
 # text = «Газета.Ru» ведет онлайн-трансляцию поединка.
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
-2	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
-3	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA2=T15:Media|bratT15=Organization
-4	ведет	_	_	_	_	_	_	_	_
-5	онлайн-трансляцию	_	_	_	_	_	_	_	_
-6	поединка	_	_	_	_	_	_	_	SpaceAfter=No
-7	.	_	_	_	_	_	_	_	_
+2-4	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No
+2	Газета	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
+3	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
+4	Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA2=T15:Media|bratT15=Organization
+6	ведет	_	_	_	_	_	_	_	_
+7	онлайн-трансляцию	_	_	_	_	_	_	_	bratA10=T33:Media|bratT33=Service
+8	поединка	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Event
+9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0108-p6-s2
 # text = Ранее стали известны составы ``Спартака'' и ``Динамо'' на матч РПЛ.

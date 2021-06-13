@@ -12,7 +12,7 @@
 7	отказе	_	_	_	_	_	_	_	_
 8	Лукашенко	_	_	_	_	_	_	_	bratA12=T50:Male|bratT2=Person-surname|bratT50=Person
 9	покинуть	_	_	_	_	_	_	_	_
-10	пост	_	_	_	_	_	_	_	_
+10	пост	_	_	_	_	_	_	_	bratT74=Person-property
 
 # newpar id = 0001-p2
 # par_text = Белорусская оппозиция будет наращивать свою активность по мере истечения срока «народного ультиматума» к властям республики 26 октября. Об этом сообщил член президиума Координационного совета Павел Латушко, передает РИА Новости.
@@ -33,8 +33,8 @@
 13	ультиматума	_	_	_	_	_	_	_	SpaceAfter=No
 14	''	_	_	_	_	_	_	_	_
 15	к	_	_	_	_	_	_	_	_
-16	властям	_	_	_	_	_	_	_	_
-17	республики	_	_	_	_	_	_	_	_
+16	властям	_	_	_	_	_	_	_	bratT67=Organization
+17	республики	_	_	_	_	_	_	_	bratT67=Organization
 18	26	_	_	_	_	_	_	_	bratA4=T5:Future|bratT5=Date-absolute
 19	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T5:Future|bratT5=Date-absolute
 20	.	_	_	_	_	_	_	_	_
@@ -65,7 +65,7 @@
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	у	_	_	_	_	_	_	_	_
-6	оппозиции	_	_	_	_	_	_	_	_
+6	оппозиции	_	_	_	_	_	_	_	bratT68=Organization
 7	есть	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
 9	отработанный	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 21	откажется	_	_	_	_	_	_	_	_
 22	покинуть	_	_	_	_	_	_	_	_
 23	свой	_	_	_	_	_	_	_	_
-24	пост	_	_	_	_	_	_	_	_
+24	пост	_	_	_	_	_	_	_	bratT75=Person-property
 25	к	_	_	_	_	_	_	_	bratA10=T39:Future|bratT39=Date-absolute
 26	26	_	_	_	_	_	_	_	bratA10=T39:Future|bratT39=Date-absolute
 27	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T39:Future|bratT39=Date-absolute
@@ -95,7 +95,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	раскрывать	_	_	_	_	_	_	_	_
 4	детали	_	_	_	_	_	_	_	_
-5	политик	_	_	_	_	_	_	_	bratT55=Person-property
+5	политик	_	_	_	_	_	_	_	bratA21=T61:Male|bratT55=Person-property|bratT61=Person
 6	отказался	_	_	_	_	_	_	_	SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_
 
@@ -103,10 +103,10 @@
 # par_text = Член президиума Координационного совета добавил, что соответствующая программа действий была отработана еще на прошлой неделе. Он пояснил, что ее одобрили все лидеры инициатив, структур, «которые представляют гражданское общество в Белоруссии».
 # sent_id = 0001-p4-s1
 # text = Член президиума Координационного совета добавил, что соответствующая программа действий была отработана еще на прошлой неделе.
-1	Член	_	_	_	_	_	_	_	bratT12=Person-property
-2	президиума	_	_	_	_	_	_	_	bratA2=T38:Department|bratT12=Person-property|bratT38=Organization
-3	Координационного	_	_	_	_	_	_	_	bratA2=T38:Department|bratT12=Person-property|bratT24=Organization|bratT38=Organization
-4	совета	_	_	_	_	_	_	_	bratA2=T38:Department|bratT12=Person-property|bratT24=Organization|bratT38=Organization
+1	Член	_	_	_	_	_	_	_	bratA22=T62:Male|bratT12=Person-property|bratT62=Person
+2	президиума	_	_	_	_	_	_	_	bratA2=T38:Department|bratA22=T62:Male|bratT12=Person-property|bratT38=Organization|bratT62=Person
+3	Координационного	_	_	_	_	_	_	_	bratA2=T38:Department|bratA22=T62:Male|bratT12=Person-property|bratT24=Organization|bratT38=Organization|bratT62=Person
+4	совета	_	_	_	_	_	_	_	bratA2=T38:Department|bratA22=T62:Male|bratT12=Person-property|bratT24=Organization|bratT38=Organization|bratT62=Person
 5	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -130,8 +130,8 @@
 5	ее	_	_	_	_	_	_	_	_
 6	одобрили	_	_	_	_	_	_	_	_
 7	все	_	_	_	_	_	_	_	_
-8	лидеры	_	_	_	_	_	_	_	bratT26=Other-group
-9	инициатив	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-group
+8	лидеры	_	_	_	_	_	_	_	bratT26=Other-group|bratT63=Person
+9	инициатив	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-group|bratT63=Person
 10	,	_	_	_	_	_	_	_	_
 11	структур	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -157,7 +157,7 @@
 6	каждый	_	_	_	_	_	_	_	bratT57=Time-period
 7	день	_	_	_	_	_	_	_	bratT56=Duration|bratT57=Time-period
 8	от	_	_	_	_	_	_	_	_
-9	оппозиции	_	_	_	_	_	_	_	_
+9	оппозиции	_	_	_	_	_	_	_	bratT69=Organization
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
 11	будут	_	_	_	_	_	_	_	_
 12	поступать	_	_	_	_	_	_	_	_
@@ -178,7 +178,7 @@
 8	ультиматума	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
-11	власть	_	_	_	_	_	_	_	_
+11	власть	_	_	_	_	_	_	_	bratT70=Organization
 12	должна	_	_	_	_	_	_	_	_
 13	понимать	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
@@ -194,8 +194,8 @@
 24	,	_	_	_	_	_	_	_	_
 25	-	_	_	_	_	_	_	_	_
 26	указал	_	_	_	_	_	_	_	_
-27	представитель	_	_	_	_	_	_	_	bratT28=Political-group
-28	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Political-group
+27	представитель	_	_	_	_	_	_	_	bratA23=T64:Male|bratT28=Political-group|bratT64=Person
+28	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T64:Male|bratT28=Political-group|bratT64=Person|bratT71=Organization
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p6
@@ -212,8 +212,8 @@
 8	Тихановская	_	_	_	_	_	_	_	bratA18=T17:Female|bratT17=Person|bratT49=Person-surname
 9	предъявила	_	_	_	_	_	_	_	_
 10	действующим	_	_	_	_	_	_	_	_
-11	белорусским	_	_	_	_	_	_	_	bratA19=T43:Adjective|bratT43=GPE
-12	властям	_	_	_	_	_	_	_	_
+11	белорусским	_	_	_	_	_	_	_	bratA19=T43:Adjective|bratT43=GPE|bratT72=Organization
+12	властям	_	_	_	_	_	_	_	bratT72=Organization
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	ультиматум	_	_	_	_	_	_	_	SpaceAfter=No
 15	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -224,14 +224,14 @@
 20	в	_	_	_	_	_	_	_	_
 21	стране	_	_	_	_	_	_	_	_
 22	начнется	_	_	_	_	_	_	_	_
-23	забастовка	_	_	_	_	_	_	_	_
+23	забастовка	_	_	_	_	_	_	_	bratT59=Event
 24	всех	_	_	_	_	_	_	_	_
 25	предприятий	_	_	_	_	_	_	_	SpaceAfter=No
 26	,	_	_	_	_	_	_	_	_
 27	если	_	_	_	_	_	_	_	_
 28	ключевые	_	_	_	_	_	_	_	_
 29	требования	_	_	_	_	_	_	_	_
-30	оппозиции	_	_	_	_	_	_	_	_
+30	оппозиции	_	_	_	_	_	_	_	bratT73=Organization
 31	не	_	_	_	_	_	_	_	_
 32	будут	_	_	_	_	_	_	_	_
 33	выполнены	_	_	_	_	_	_	_	SpaceAfter=No
@@ -247,7 +247,7 @@
 6	частности	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	-	_	_	_	_	_	_	_	_
-9	отставка	_	_	_	_	_	_	_	_
+9	отставка	_	_	_	_	_	_	_	bratT60=Event
 10	Лукашенко	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person|bratT53=Person-surname
 11	.	_	_	_	_	_	_	_	_
 
@@ -288,12 +288,12 @@
 # text = Митингующих поддержали работники ряда предприятий, заявив о забастовке.
 1	Митингующих	_	_	_	_	_	_	_	bratT30=Other-group
 2	поддержали	_	_	_	_	_	_	_	_
-3	работники	_	_	_	_	_	_	_	_
+3	работники	_	_	_	_	_	_	_	bratT65=Person-property|bratT66=Person
 4	ряда	_	_	_	_	_	_	_	_
 5	предприятий	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	заявив	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
-9	забастовке	_	_	_	_	_	_	_	SpaceAfter=No
+9	забастовке	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
 10	.	_	_	_	_	_	_	_	_
 

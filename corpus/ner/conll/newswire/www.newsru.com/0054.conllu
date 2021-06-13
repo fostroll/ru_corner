@@ -1,0 +1,218 @@
+# newdoc id = 0054
+# newpar id = 0054-p1
+# par_text = Из базы Росреестра пропали сведения о недвижимости руководства Минобороны и ФСБ, а также премьер-министра Михаила Мишустина
+# sent_id = 0054-p1-s1
+# text = Из базы Росреестра пропали сведения о недвижимости руководства Минобороны и ФСБ, а также премьер-министра Михаила Мишустина
+1	Из	_	_	_	_	_	_	_	_
+2	базы	_	_	_	_	_	_	_	_
+3	Росреестра	_	_	_	_	_	_	_	bratT1=Organization
+4	пропали	_	_	_	_	_	_	_	_
+5	сведения	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	недвижимости	_	_	_	_	_	_	_	_
+8	руководства	_	_	_	_	_	_	_	bratA1=T4:Plural|bratT4=Organization|bratT72=Person
+9	Минобороны	_	_	_	_	_	_	_	bratA1=T4:Plural|bratT2=Organization|bratT4=Organization|bratT72=Person
+10	и	_	_	_	_	_	_	_	bratA1=T4:Plural|bratT4=Organization|bratT72=Person
+11	ФСБ	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Plural|bratT3=Organization|bratT4=Organization|bratT72=Person
+12	,	_	_	_	_	_	_	_	_
+13	а	_	_	_	_	_	_	_	_
+14	также	_	_	_	_	_	_	_	_
+15	премьер-министра	_	_	_	_	_	_	_	bratA4=T6:Male|bratT5=Person-property|bratT6=Person
+16	Михаила	_	_	_	_	_	_	_	bratA4=T6:Male|bratT49=Person-forename|bratT6=Person
+17	Мишустина	_	_	_	_	_	_	_	bratA4=T6:Male|bratT50=Person-surname|bratT6=Person
+
+# newpar id = 0054-p2
+# par_text = Росреестр скрыл из своей информационной системы сведения о недвижимости руководства ФСБ и Минобороны, а также данные о домах премьер-министра Михаила Мишустина и главного исполнительного директора "Роснефти" Игоря Сечина. Об этом сообщают "Открытые медиа".
+# sent_id = 0054-p2-s1
+# text = Росреестр скрыл из своей информационной системы сведения о недвижимости руководства ФСБ и Минобороны, а также данные о домах премьер-министра Михаила Мишустина и главного исполнительного директора ``Роснефти'' Игоря Сечина.
+1	Росреестр	_	_	_	_	_	_	_	bratT7=Organization
+2	скрыл	_	_	_	_	_	_	_	_
+3	из	_	_	_	_	_	_	_	_
+4	своей	_	_	_	_	_	_	_	_
+5	информационной	_	_	_	_	_	_	_	_
+6	системы	_	_	_	_	_	_	_	_
+7	сведения	_	_	_	_	_	_	_	_
+8	о	_	_	_	_	_	_	_	_
+9	недвижимости	_	_	_	_	_	_	_	_
+10	руководства	_	_	_	_	_	_	_	bratA18=T10:Department|bratA2=T10:Plural|bratT10=Organization|bratT73=Person
+11	ФСБ	_	_	_	_	_	_	_	bratA18=T10:Department|bratA2=T10:Plural|bratT10=Organization|bratT73=Person|bratT8=Organization
+12	и	_	_	_	_	_	_	_	bratA18=T10:Department|bratA2=T10:Plural|bratT10=Organization|bratT73=Person
+13	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T10:Department|bratA2=T10:Plural|bratT10=Organization|bratT73=Person|bratT9=Organization
+14	,	_	_	_	_	_	_	_	_
+15	а	_	_	_	_	_	_	_	_
+16	также	_	_	_	_	_	_	_	_
+17	данные	_	_	_	_	_	_	_	_
+18	о	_	_	_	_	_	_	_	_
+19	домах	_	_	_	_	_	_	_	_
+20	премьер-министра	_	_	_	_	_	_	_	bratA5=T12:Male|bratT11=Person-property|bratT12=Person
+21	Михаила	_	_	_	_	_	_	_	bratA5=T12:Male|bratT12=Person|bratT51=Person-forename
+22	Мишустина	_	_	_	_	_	_	_	bratA5=T12:Male|bratT12=Person|bratT52=Person-surname
+23	и	_	_	_	_	_	_	_	_
+24	главного	_	_	_	_	_	_	_	bratA6=T15:Male|bratT14=Person-property|bratT15=Person
+25	исполнительного	_	_	_	_	_	_	_	bratA6=T15:Male|bratT14=Person-property|bratT15=Person
+26	директора	_	_	_	_	_	_	_	bratA6=T15:Male|bratT14=Person-property|bratT15=Person
+27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T15:Male|bratT13=Organization|bratT14=Person-property|bratT15=Person
+28	Роснефти	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T15:Male|bratT13=Organization|bratT14=Person-property|bratT15=Person
+29	''	_	_	_	_	_	_	_	bratA6=T15:Male|bratT13=Organization|bratT14=Person-property|bratT15=Person
+30	Игоря	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT53=Person-forename
+31	Сечина	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T15:Male|bratT15=Person|bratT54=Person-surname
+32	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0054-p2-s2
+# text = Об этом сообщают ``Открытые медиа''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщают	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
+5	Открытые	_	_	_	_	_	_	_	bratA3=T16:Media|bratT16=Organization
+6	медиа	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Media|bratT16=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0054-p3
+# par_text = По данным издания, с начала октября из федеральной государственной информационной системы Единого государственного реестра недвижимости (ФГИС ЕГРН), которой пользуются журналисты и авторы расследований для поиска сведений о недвижимости высокопоставленных лиц, исчезли сведения о недвижимости Игоря Сечина и ряда чиновников. Так, Росреестр скрыл данные о подмосковной недвижимости главы Минобороны Сергея Шойгу и его заместителя Руслана Цаликова (сведения о недвижимости его соседа - главы Минфина Антона Силуанова пока доступны в системе), а также главы Генштаба Валерия Герасимова. Также из ФГИС пропала информация о домах супруги замминистра обороны Тимура Иванова и замминистра Алексея Криворучко, который попал под санкции Евросоюза из-за отравления Алексея Навального. Судя по скриншотам, система сообщает об отсутствии в базе объектов с кадастровыми номерами, присвоенными недвижимости руководства Минобороны.
+# sent_id = 0054-p3-s1
+# text = По данным издания, с начала октября из федеральной государственной информационной системы Единого государственного реестра недвижимости (ФГИС ЕГРН), которой пользуются журналисты и авторы расследований для поиска сведений о недвижимости высокопоставленных лиц, исчезли сведения о недвижимости Игоря Сечина и ряда чиновников.
+1	По	_	_	_	_	_	_	_	_
+2	данным	_	_	_	_	_	_	_	_
+3	издания	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	bratA7=T17:Past-Pres|bratT17=Date-period-absolute
+6	начала	_	_	_	_	_	_	_	bratA7=T17:Past-Pres|bratT17=Date-period-absolute
+7	октября	_	_	_	_	_	_	_	bratA7=T17:Past-Pres|bratT17=Date-period-absolute
+8	из	_	_	_	_	_	_	_	_
+9	федеральной	_	_	_	_	_	_	_	bratT19=Service
+10	государственной	_	_	_	_	_	_	_	bratA20=T76:Adjective|bratT19=Service|bratT76=GPE
+11	информационной	_	_	_	_	_	_	_	bratT19=Service
+12	системы	_	_	_	_	_	_	_	bratT19=Service
+13	Единого	_	_	_	_	_	_	_	bratT18=Service|bratT19=Service
+14	государственного	_	_	_	_	_	_	_	bratA19=T75:Adjective|bratT18=Service|bratT19=Service|bratT75=GPE
+15	реестра	_	_	_	_	_	_	_	bratT18=Service|bratT19=Service
+16	недвижимости	_	_	_	_	_	_	_	bratT18=Service|bratT19=Service
+17	(	_	_	_	_	_	_	_	SpaceAfter=No
+18	ФГИС	_	_	_	_	_	_	_	bratT21=Service
+19	ЕГРН	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Service|bratT21=Service
+20	)	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	которой	_	_	_	_	_	_	_	_
+23	пользуются	_	_	_	_	_	_	_	_
+24	журналисты	_	_	_	_	_	_	_	bratT22=Person-property
+25	и	_	_	_	_	_	_	_	_
+26	авторы	_	_	_	_	_	_	_	bratT47=Person-property
+27	расследований	_	_	_	_	_	_	_	bratT47=Person-property
+28	для	_	_	_	_	_	_	_	_
+29	поиска	_	_	_	_	_	_	_	_
+30	сведений	_	_	_	_	_	_	_	_
+31	о	_	_	_	_	_	_	_	_
+32	недвижимости	_	_	_	_	_	_	_	_
+33	высокопоставленных	_	_	_	_	_	_	_	_
+34	лиц	_	_	_	_	_	_	_	SpaceAfter=No
+35	,	_	_	_	_	_	_	_	_
+36	исчезли	_	_	_	_	_	_	_	_
+37	сведения	_	_	_	_	_	_	_	_
+38	о	_	_	_	_	_	_	_	_
+39	недвижимости	_	_	_	_	_	_	_	_
+40	Игоря	_	_	_	_	_	_	_	bratA8=T23:Male|bratT23=Person|bratT55=Person-forename
+41	Сечина	_	_	_	_	_	_	_	bratA8=T23:Male|bratT23=Person|bratT56=Person-surname
+42	и	_	_	_	_	_	_	_	_
+43	ряда	_	_	_	_	_	_	_	_
+44	чиновников	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
+45	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0054-p3-s2
+# text = Так, Росреестр скрыл данные о подмосковной недвижимости главы Минобороны Сергея Шойгу и его заместителя Руслана Цаликова (сведения о недвижимости его соседа - главы Минфина Антона Силуанова пока доступны в системе), а также главы Генштаба Валерия Герасимова.
+1	Так	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	Росреестр	_	_	_	_	_	_	_	bratT25=Organization
+4	скрыл	_	_	_	_	_	_	_	_
+5	данные	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	подмосковной	_	_	_	_	_	_	_	_
+8	недвижимости	_	_	_	_	_	_	_	_
+9	главы	_	_	_	_	_	_	_	bratA9=T28:Male|bratT27=Person-property|bratT28=Person
+10	Минобороны	_	_	_	_	_	_	_	bratA9=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
+11	Сергея	_	_	_	_	_	_	_	bratA9=T28:Male|bratT28=Person|bratT57=Person-forename
+12	Шойгу	_	_	_	_	_	_	_	bratA9=T28:Male|bratT28=Person|bratT58=Person-surname
+13	и	_	_	_	_	_	_	_	_
+14	его	_	_	_	_	_	_	_	_
+15	заместителя	_	_	_	_	_	_	_	bratA10=T30:Male|bratT29=Person-property|bratT30=Person
+16	Руслана	_	_	_	_	_	_	_	bratA10=T30:Male|bratT30=Person|bratT59=Person-forename
+17	Цаликова	_	_	_	_	_	_	_	bratA10=T30:Male|bratT30=Person|bratT60=Person-surname
+18	(	_	_	_	_	_	_	_	SpaceAfter=No
+19	сведения	_	_	_	_	_	_	_	_
+20	о	_	_	_	_	_	_	_	_
+21	недвижимости	_	_	_	_	_	_	_	_
+22	его	_	_	_	_	_	_	_	_
+23	соседа	_	_	_	_	_	_	_	_
+24	-	_	_	_	_	_	_	_	_
+25	главы	_	_	_	_	_	_	_	bratA11=T33:Male|bratT32=Person-property|bratT33=Person
+26	Минфина	_	_	_	_	_	_	_	bratA11=T33:Male|bratT31=Organization|bratT32=Person-property|bratT33=Person
+27	Антона	_	_	_	_	_	_	_	bratA11=T33:Male|bratT33=Person|bratT61=Person-forename
+28	Силуанова	_	_	_	_	_	_	_	bratA11=T33:Male|bratT33=Person|bratT62=Person-surname
+29	пока	_	_	_	_	_	_	_	_
+30	доступны	_	_	_	_	_	_	_	_
+31	в	_	_	_	_	_	_	_	_
+32	системе	_	_	_	_	_	_	_	SpaceAfter=No
+33	)	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	_	_	_	_	_	_	_	_
+35	а	_	_	_	_	_	_	_	_
+36	также	_	_	_	_	_	_	_	_
+37	главы	_	_	_	_	_	_	_	bratA12=T36:Male|bratT35=Person-property|bratT36=Person
+38	Генштаба	_	_	_	_	_	_	_	bratA12=T36:Male|bratT34=Organization|bratT35=Person-property|bratT36=Person
+39	Валерия	_	_	_	_	_	_	_	bratA12=T36:Male|bratT36=Person|bratT63=Person-forename
+40	Герасимова	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T36:Male|bratT36=Person|bratT64=Person-surname
+41	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0054-p3-s3
+# text = Также из ФГИС пропала информация о домах супруги замминистра обороны Тимура Иванова и замминистра Алексея Криворучко, который попал под санкции Евросоюза из-за отравления Алексея Навального.
+1	Также	_	_	_	_	_	_	_	_
+2	из	_	_	_	_	_	_	_	_
+3	ФГИС	_	_	_	_	_	_	_	bratT37=Service
+4	пропала	_	_	_	_	_	_	_	_
+5	информация	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	домах	_	_	_	_	_	_	_	_
+8	супруги	_	_	_	_	_	_	_	bratA16=T71:Female|bratT38=Family|bratT71=Person
+9	замминистра	_	_	_	_	_	_	_	bratA13=T40:Male|bratA16=T71:Female|bratT39=Person-property|bratT40=Person|bratT71=Person
+10	обороны	_	_	_	_	_	_	_	bratA13=T40:Male|bratA16=T71:Female|bratT39=Person-property|bratT40=Person|bratT71=Person
+11	Тимура	_	_	_	_	_	_	_	bratA13=T40:Male|bratA16=T71:Female|bratT40=Person|bratT65=Person-forename|bratT71=Person
+12	Иванова	_	_	_	_	_	_	_	bratA13=T40:Male|bratA16=T71:Female|bratT40=Person|bratT66=Person-surname|bratT71=Person
+13	и	_	_	_	_	_	_	_	_
+14	замминистра	_	_	_	_	_	_	_	bratA14=T42:Male|bratT41=Person-property|bratT42=Person
+15	Алексея	_	_	_	_	_	_	_	bratA14=T42:Male|bratT42=Person|bratT67=Person-forename
+16	Криворучко	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T42:Male|bratT42=Person|bratT68=Person-surname
+17	,	_	_	_	_	_	_	_	_
+18	который	_	_	_	_	_	_	_	_
+19	попал	_	_	_	_	_	_	_	_
+20	под	_	_	_	_	_	_	_	_
+21	санкции	_	_	_	_	_	_	_	_
+22	Евросоюза	_	_	_	_	_	_	_	bratT43=Organization
+23	из-за	_	_	_	_	_	_	_	_
+24	отравления	_	_	_	_	_	_	_	bratT48=Event
+25	Алексея	_	_	_	_	_	_	_	bratA15=T44:Male|bratT44=Person|bratT48=Event|bratT69=Person-forename
+26	Навального	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T44:Male|bratT44=Person|bratT48=Event|bratT70=Person-surname
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0054-p3-s4
+# text = Судя по скриншотам, система сообщает об отсутствии в базе объектов с кадастровыми номерами, присвоенными недвижимости руководства Минобороны.
+1	Судя	_	_	_	_	_	_	_	_
+2	по	_	_	_	_	_	_	_	_
+3	скриншотам	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	система	_	_	_	_	_	_	_	_
+6	сообщает	_	_	_	_	_	_	_	_
+7	об	_	_	_	_	_	_	_	_
+8	отсутствии	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	базе	_	_	_	_	_	_	_	_
+11	объектов	_	_	_	_	_	_	_	_
+12	с	_	_	_	_	_	_	_	_
+13	кадастровыми	_	_	_	_	_	_	_	_
+14	номерами	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	присвоенными	_	_	_	_	_	_	_	_
+17	недвижимости	_	_	_	_	_	_	_	_
+18	руководства	_	_	_	_	_	_	_	bratA17=T46:Department|bratT46=Organization|bratT74=Person
+19	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T46:Department|bratT45=Organization|bratT46=Organization|bratT74=Person
+20	.	_	_	_	_	_	_	_	_
+

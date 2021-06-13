@@ -7,7 +7,7 @@
 2	Чувашии	_	_	_	_	_	_	_	bratT1=GPE
 3	дистанция	_	_	_	_	_	_	_	_
 4	между	_	_	_	_	_	_	_	_
-5	властью	_	_	_	_	_	_	_	_
+5	властью	_	_	_	_	_	_	_	bratT35=Organization
 6	и	_	_	_	_	_	_	_	_
 7	людьми	_	_	_	_	_	_	_	_
 8	стала	_	_	_	_	_	_	_	_
@@ -48,10 +48,10 @@
 4	дорожка	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	связывающая	_	_	_	_	_	_	_	_
-7	местную	_	_	_	_	_	_	_	_
-8	власть	_	_	_	_	_	_	_	_
+7	местную	_	_	_	_	_	_	_	bratA13=T41:Adjective|bratT36=Organization|bratT41=GPE
+8	власть	_	_	_	_	_	_	_	bratT36=Organization
 9	с	_	_	_	_	_	_	_	_
-10	населением	_	_	_	_	_	_	_	SpaceAfter=No
+10	населением	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T40:Resident|bratT40=Nationality
 11	,	_	_	_	_	_	_	_	_
 12	обеспечивающая	_	_	_	_	_	_	_	_
 13	возможность	_	_	_	_	_	_	_	_
@@ -98,7 +98,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Центр	_	_	_	_	_	_	_	bratT6=Organization
 3	управления	_	_	_	_	_	_	_	bratT6=Organization
-4	регионом	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+4	регионом	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=GPE|bratT6=Organization
 5	...	_	_	_	_	_	_	_	_
 6	должен	_	_	_	_	_	_	_	_
 7	максимально	_	_	_	_	_	_	_	_
@@ -107,14 +107,14 @@
 10	между	_	_	_	_	_	_	_	_
 11	людьми	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
-13	органам	_	_	_	_	_	_	_	_
-14	власти	_	_	_	_	_	_	_	SpaceAfter=No
+13	органам	_	_	_	_	_	_	_	bratT37=Organization
+14	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
 15	,	_	_	_	_	_	_	_	_
 16	чтобы	_	_	_	_	_	_	_	_
 17	взаимодействие	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
 19	жителями	_	_	_	_	_	_	_	bratA5=T25:Resident|bratT25=Nationality
-20	республики	_	_	_	_	_	_	_	bratA5=T25:Resident|bratT25=Nationality
+20	республики	_	_	_	_	_	_	_	bratA5=T25:Resident|bratT25=Nationality|bratT43=GPE
 21	было	_	_	_	_	_	_	_	_
 22	оперативнее	_	_	_	_	_	_	_	_
 23	и	_	_	_	_	_	_	_	_
@@ -127,10 +127,10 @@
 30	открытии	_	_	_	_	_	_	_	_
 31	ЦУР	_	_	_	_	_	_	_	bratT7=Organization
 32	руководитель	_	_	_	_	_	_	_	bratA8=T12:Male|bratT11=Person-property|bratT12=Person
-33	Администрации	_	_	_	_	_	_	_	bratA1=T10:Department|bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person
-34	Главы	_	_	_	_	_	_	_	bratA1=T10:Department|bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT9=Person-property
-35	Чувашской	_	_	_	_	_	_	_	bratA1=T10:Department|bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT8=Organization|bratT9=Person-property
-36	Республики	_	_	_	_	_	_	_	bratA1=T10:Department|bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT8=Organization|bratT9=Person-property
+33	Администрации	_	_	_	_	_	_	_	bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person
+34	Главы	_	_	_	_	_	_	_	bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT9=Person-property
+35	Чувашской	_	_	_	_	_	_	_	bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT8=GPE|bratT9=Person-property
+36	Республики	_	_	_	_	_	_	_	bratA8=T12:Male|bratT10=Organization|bratT11=Person-property|bratT12=Person|bratT8=GPE|bratT9=Person-property
 37	Вячеслав	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person|bratT29=Person-forename
 38	Борисов	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT30=Person-surname
 39	.	_	_	_	_	_	_	_	_
@@ -172,7 +172,7 @@
 31	городов	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
 32	и	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
 33	районов	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
-34	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Resident|bratT26=Nationality
+34	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Resident|bratT26=Nationality|bratT44=GPE
 35	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p4-s2
@@ -196,7 +196,7 @@
 2	деятельность	_	_	_	_	_	_	_	_
 3	Центра	_	_	_	_	_	_	_	bratT14=Organization
 4	управления	_	_	_	_	_	_	_	bratT14=Organization
-5	регионом	_	_	_	_	_	_	_	bratT14=Organization
+5	регионом	_	_	_	_	_	_	_	bratT14=Organization|bratT45=GPE
 6	взял	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
 8	себя	_	_	_	_	_	_	_	_
@@ -223,7 +223,7 @@
 12	и	_	_	_	_	_	_	_	bratT18=Organization
 13	массовых	_	_	_	_	_	_	_	bratT18=Organization
 14	коммуникаций	_	_	_	_	_	_	_	bratT18=Organization
-15	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+15	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT46=GPE
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0114-p6
@@ -245,15 +245,15 @@
 13	связи	_	_	_	_	_	_	_	_
 14	с	_	_	_	_	_	_	_	_
 15	гражданами	_	_	_	_	_	_	_	bratA4=T24:Citizenship|bratT24=Nationality
-16	Чувашской	_	_	_	_	_	_	_	bratA4=T24:Citizenship|bratT19=Organization|bratT24=Nationality
-17	Республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T24:Citizenship|bratT19=Organization|bratT24=Nationality
+16	Чувашской	_	_	_	_	_	_	_	bratA4=T24:Citizenship|bratT19=GPE|bratT24=Nationality
+17	Республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T24:Citizenship|bratT19=GPE|bratT24=Nationality
 18	,	_	_	_	_	_	_	_	_
 19	чтобы	_	_	_	_	_	_	_	_
 20	сделать	_	_	_	_	_	_	_	_
 21	взаимодействие	_	_	_	_	_	_	_	_
-22	власти	_	_	_	_	_	_	_	_
+22	власти	_	_	_	_	_	_	_	bratT38=Organization
 23	и	_	_	_	_	_	_	_	_
-24	граждан	_	_	_	_	_	_	_	_
+24	граждан	_	_	_	_	_	_	_	bratA11=T39:Citizenship|bratT39=Nationality
 25	более	_	_	_	_	_	_	_	_
 26	комфортным	_	_	_	_	_	_	_	SpaceAfter=No
 27	.	_	_	_	_	_	_	_	_
@@ -286,7 +286,7 @@
 14	министр	_	_	_	_	_	_	_	bratA10=T22:Male|bratT21=Person-property|bratT22=Person
 15	цифрового	_	_	_	_	_	_	_	bratA10=T22:Male|bratT21=Person-property|bratT22=Person
 16	развития	_	_	_	_	_	_	_	bratA10=T22:Male|bratT21=Person-property|bratT22=Person
-17	региона	_	_	_	_	_	_	_	bratA10=T22:Male|bratT21=Person-property|bratT22=Person
+17	региона	_	_	_	_	_	_	_	bratA10=T22:Male|bratT21=Person-property|bratT22=Person|bratT47=GPE
 18	Михаил	_	_	_	_	_	_	_	bratA10=T22:Male|bratT22=Person|bratT33=Person-forename
 19	Анисимов	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T22:Male|bratT22=Person|bratT34=Person-surname
 20	.	_	_	_	_	_	_	_	_

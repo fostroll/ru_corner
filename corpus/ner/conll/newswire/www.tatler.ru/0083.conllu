@@ -1,0 +1,250 @@
+# newdoc id = 0083
+# newpar id = 0083-p1
+# par_text = Отец Меган Маркл Томас прокомментировал крестины своего внука Арчи Харрисона
+# sent_id = 0083-p1-s1
+# text = Отец Меган Маркл Томас прокомментировал крестины своего внука Арчи Харрисона
+1	Отец	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT41=Family
+2	Меган	_	_	_	_	_	_	_	bratA2=T1:Male|bratA3=T2:Female|bratT1=Person|bratT2=Person|bratT38=Person-forename
+3	Маркл	_	_	_	_	_	_	_	bratA2=T1:Male|bratA3=T2:Female|bratT1=Person|bratT2=Person|bratT39=Person-surname
+4	Томас	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT40=Person-forename
+5	прокомментировал	_	_	_	_	_	_	_	_
+6	крестины	_	_	_	_	_	_	_	_
+7	своего	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person
+8	внука	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person|bratT4=Family
+9	Арчи	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person|bratT42=Person-forename
+10	Харрисона	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person|bratT43=Person-surname
+
+# newpar id = 0083-p2
+# par_text = 6 июля в личной часовне Елизаветы II на территории Виндзорского дворца состоялось крещение первенца принца Гарри и Меган Маркл Арчи Харрисона. На церемонии присутствовали только самые близкие, в числе которых была и мама герцогини Суссекской Дория Рэгланд. А вот отца Томаса Маркла Меган на праздник не пригласила: она перестала общаться с ним еще до свадьбы с принцем Гарри, после того как выяснилось, что Томас был в сговоре с папарацци. С тех пор мужчина не устает давать душераздирающие интервью о том, как он страдает от отчужденности дочери. Крещение его внука, конечно, стало еще одним поводом поговорить с журналистами.
+# sent_id = 0083-p2-s1
+# text = 6 июля в личной часовне Елизаветы II на территории Виндзорского дворца состоялось крещение первенца принца Гарри и Меган Маркл Арчи Харрисона.
+1	6	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
+2	июля	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
+3	в	_	_	_	_	_	_	_	_
+4	личной	_	_	_	_	_	_	_	bratT6=Facility
+5	часовне	_	_	_	_	_	_	_	bratT6=Facility
+6	Елизаветы	_	_	_	_	_	_	_	bratA6=T7:Female|bratT44=Person-forename|bratT6=Facility|bratT7=Person
+7	II	_	_	_	_	_	_	_	bratA6=T7:Female|bratT59=Person-affix|bratT6=Facility|bratT69=Ordinal|bratT7=Person
+8	на	_	_	_	_	_	_	_	_
+9	территории	_	_	_	_	_	_	_	_
+10	Виндзорского	_	_	_	_	_	_	_	bratT8=Facility
+11	дворца	_	_	_	_	_	_	_	bratT8=Facility
+12	состоялось	_	_	_	_	_	_	_	_
+13	крещение	_	_	_	_	_	_	_	bratT9=Event
+14	первенца	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person|bratT58=Family
+15	принца	_	_	_	_	_	_	_	bratA7=T10:Male|bratA8=T12:Male|bratT10=Person|bratT12=Person|bratT13=Person-property
+16	Гарри	_	_	_	_	_	_	_	bratA7=T10:Male|bratA8=T12:Male|bratT10=Person|bratT12=Person|bratT45=Person-forename
+17	и	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person
+18	Меган	_	_	_	_	_	_	_	bratA8=T12:Male|bratA9=T11:Female|bratT11=Person|bratT12=Person|bratT46=Person-forename
+19	Маркл	_	_	_	_	_	_	_	bratA8=T12:Male|bratA9=T11:Female|bratT11=Person|bratT12=Person|bratT47=Person-surname
+20	Арчи	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person|bratT48=Person-forename
+21	Харрисона	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT49=Person-surname
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p2-s2
+# text = На церемонии присутствовали только самые близкие, в числе которых была и мама герцогини Суссекской Дория Рэгланд.
+1	На	_	_	_	_	_	_	_	_
+2	церемонии	_	_	_	_	_	_	_	_
+3	присутствовали	_	_	_	_	_	_	_	_
+4	только	_	_	_	_	_	_	_	_
+5	самые	_	_	_	_	_	_	_	_
+6	близкие	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	числе	_	_	_	_	_	_	_	_
+10	которых	_	_	_	_	_	_	_	_
+11	была	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	мама	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT16=Family
+14	герцогини	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT15=Person-property
+15	Суссекской	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT15=Person-property
+16	Дория	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT50=Person-forename
+17	Рэгланд	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Female|bratT14=Person|bratT51=Person-surname
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p2-s3
+# text = А вот отца Томаса Маркла Меган на праздник не пригласила: она перестала общаться с ним еще до свадьбы с принцем Гарри, после того как выяснилось, что Томас был в сговоре с папарацци.
+1	А	_	_	_	_	_	_	_	_
+2	вот	_	_	_	_	_	_	_	_
+3	отца	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT18=Family
+4	Томаса	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT52=Person-forename
+5	Маркла	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT53=Person-surname
+6	Меган	_	_	_	_	_	_	_	bratA12=T26:Female|bratT26=Person
+7	на	_	_	_	_	_	_	_	_
+8	праздник	_	_	_	_	_	_	_	_
+9	не	_	_	_	_	_	_	_	_
+10	пригласила	_	_	_	_	_	_	_	SpaceAfter=No
+11	:	_	_	_	_	_	_	_	_
+12	она	_	_	_	_	_	_	_	_
+13	перестала	_	_	_	_	_	_	_	_
+14	общаться	_	_	_	_	_	_	_	_
+15	с	_	_	_	_	_	_	_	_
+16	ним	_	_	_	_	_	_	_	_
+17	еще	_	_	_	_	_	_	_	_
+18	до	_	_	_	_	_	_	_	bratA17=T60:Past|bratT60=Date-absolute
+19	свадьбы	_	_	_	_	_	_	_	bratA17=T60:Past|bratT19=Event|bratT60=Date-absolute
+20	с	_	_	_	_	_	_	_	_
+21	принцем	_	_	_	_	_	_	_	bratA13=T20:Male|bratT20=Person|bratT21=Person-property
+22	Гарри	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T20:Male|bratT20=Person|bratT54=Person-forename
+23	,	_	_	_	_	_	_	_	_
+24	после	_	_	_	_	_	_	_	bratA18=T61:Past|bratT61=Date-relative
+25	того	_	_	_	_	_	_	_	bratA18=T61:Past|bratT61=Date-relative
+26	как	_	_	_	_	_	_	_	bratA18=T61:Past|bratT61=Date-relative
+27	выяснилось	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	_	_	_	_	_	_	_	_
+29	что	_	_	_	_	_	_	_	_
+30	Томас	_	_	_	_	_	_	_	bratA14=T22:Male|bratT22=Person|bratT55=Person-forename
+31	был	_	_	_	_	_	_	_	_
+32	в	_	_	_	_	_	_	_	_
+33	сговоре	_	_	_	_	_	_	_	_
+34	с	_	_	_	_	_	_	_	_
+35	папарацци	_	_	_	_	_	_	_	SpaceAfter=No
+36	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p2-s4
+# text = С тех пор мужчина не устает давать душераздирающие интервью о том, как он страдает от отчужденности дочери.
+1	С	_	_	_	_	_	_	_	bratA19=T62:Past-Pres|bratA23=T62:RCont|bratT62=Date-period-relative
+2	тех	_	_	_	_	_	_	_	bratA19=T62:Past-Pres|bratA23=T62:RCont|bratT62=Date-period-relative
+3	пор	_	_	_	_	_	_	_	bratA19=T62:Past-Pres|bratA23=T62:RCont|bratT62=Date-period-relative
+4	мужчина	_	_	_	_	_	_	_	_
+5	не	_	_	_	_	_	_	_	_
+6	устает	_	_	_	_	_	_	_	_
+7	давать	_	_	_	_	_	_	_	_
+8	душераздирающие	_	_	_	_	_	_	_	_
+9	интервью	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	том	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	как	_	_	_	_	_	_	_	_
+14	он	_	_	_	_	_	_	_	_
+15	страдает	_	_	_	_	_	_	_	_
+16	от	_	_	_	_	_	_	_	_
+17	отчужденности	_	_	_	_	_	_	_	_
+18	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Family
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p2-s5
+# text = Крещение его внука, конечно, стало еще одним поводом поговорить с журналистами.
+1	Крещение	_	_	_	_	_	_	_	_
+2	его	_	_	_	_	_	_	_	bratA20=T63:Male|bratT63=Person
+3	внука	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T63:Male|bratT24=Family|bratT63=Person
+4	,	_	_	_	_	_	_	_	_
+5	конечно	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	стало	_	_	_	_	_	_	_	_
+8	еще	_	_	_	_	_	_	_	bratT25=Quantity
+9	одним	_	_	_	_	_	_	_	bratT25=Quantity
+10	поводом	_	_	_	_	_	_	_	bratT25=Quantity
+11	поговорить	_	_	_	_	_	_	_	_
+12	с	_	_	_	_	_	_	_	_
+13	журналистами	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0083-p3
+# par_text = Томас рассказал Daily Mail, что ему очень жаль, что его не было с семьей в столь важный день: «Меня спрашивали, хотел бы я поехать в Британию, чтобы увидеть, как крестят моего внука... Когда мне было 12 лет, я был церковным министрантом, я был верным членом церкви, когда мне было 14 лет. Арчи — мой внук. Поэтому, конечно, мне было бы приятно находиться там для благословения, я бы хотел пожелать Арчи и его родителям здоровья и счастья».
+# sent_id = 0083-p3-s1
+# text = Томас рассказал Daily Mail, что ему очень жаль, что его не было с семьей в столь важный день: ``Меня спрашивали, хотел бы я поехать в Британию, чтобы увидеть, как крестят моего внука...
+1	Томас	_	_	_	_	_	_	_	_
+2	рассказал	_	_	_	_	_	_	_	_
+3	Daily	_	_	_	_	_	_	_	bratA1=T28:Media|bratT28=Organization
+4	Mail	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T28:Media|bratT28=Organization
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	ему	_	_	_	_	_	_	_	_
+8	очень	_	_	_	_	_	_	_	_
+9	жаль	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	что	_	_	_	_	_	_	_	_
+12	его	_	_	_	_	_	_	_	_
+13	не	_	_	_	_	_	_	_	_
+14	было	_	_	_	_	_	_	_	_
+15	с	_	_	_	_	_	_	_	_
+16	семьей	_	_	_	_	_	_	_	bratT29=Family
+17	в	_	_	_	_	_	_	_	_
+18	столь	_	_	_	_	_	_	_	_
+19	важный	_	_	_	_	_	_	_	_
+20	день	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T70:Past|bratT70=Date-relative
+21	:	_	_	_	_	_	_	_	_
+22	``	_	_	_	_	_	_	_	SpaceAfter=No
+23	Меня	_	_	_	_	_	_	_	_
+24	спрашивали	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	_	_	_	_	_	_	_	_
+26	хотел	_	_	_	_	_	_	_	_
+27	бы	_	_	_	_	_	_	_	_
+28	я	_	_	_	_	_	_	_	_
+29	поехать	_	_	_	_	_	_	_	_
+30	в	_	_	_	_	_	_	_	_
+31	Британию	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE
+32	,	_	_	_	_	_	_	_	_
+33	чтобы	_	_	_	_	_	_	_	_
+34	увидеть	_	_	_	_	_	_	_	SpaceAfter=No
+35	,	_	_	_	_	_	_	_	_
+36	как	_	_	_	_	_	_	_	_
+37	крестят	_	_	_	_	_	_	_	_
+38	моего	_	_	_	_	_	_	_	bratA21=T64:Male|bratT64=Person
+39	внука	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T64:Male|bratT31=Family|bratT64=Person
+40	...	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p3-s2
+# text = Когда мне было 12 лет, я был церковным министрантом, я был верным членом церкви, когда мне было 14 лет.
+1	Когда	_	_	_	_	_	_	_	_
+2	мне	_	_	_	_	_	_	_	_
+3	было	_	_	_	_	_	_	_	_
+4	12	_	_	_	_	_	_	_	bratT32=Age
+5	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Age
+6	,	_	_	_	_	_	_	_	_
+7	я	_	_	_	_	_	_	_	_
+8	был	_	_	_	_	_	_	_	_
+9	церковным	_	_	_	_	_	_	_	bratT33=Person-property
+10	министрантом	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property
+11	,	_	_	_	_	_	_	_	_
+12	я	_	_	_	_	_	_	_	_
+13	был	_	_	_	_	_	_	_	_
+14	верным	_	_	_	_	_	_	_	bratT65=Religious-group
+15	членом	_	_	_	_	_	_	_	bratT65=Religious-group
+16	церкви	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Religious-group
+17	,	_	_	_	_	_	_	_	_
+18	когда	_	_	_	_	_	_	_	_
+19	мне	_	_	_	_	_	_	_	_
+20	было	_	_	_	_	_	_	_	_
+21	14	_	_	_	_	_	_	_	bratT34=Age
+22	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Age
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p3-s3
+# text = Арчи - мой внук.
+1	Арчи	_	_	_	_	_	_	_	bratA15=T35:Male|bratT35=Person|bratT56=Person-forename
+2	-	_	_	_	_	_	_	_	_
+3	мой	_	_	_	_	_	_	_	bratA22=T66:Male|bratT66=Person
+4	внук	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T66:Male|bratT36=Family|bratT66=Person
+5	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0083-p3-s4
+# text = Поэтому, конечно, мне было бы приятно находиться там для благословения, я бы хотел пожелать Арчи и его родителям здоровья и счастья''.
+1	Поэтому	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	конечно	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	мне	_	_	_	_	_	_	_	_
+6	было	_	_	_	_	_	_	_	_
+7	бы	_	_	_	_	_	_	_	_
+8	приятно	_	_	_	_	_	_	_	_
+9	находиться	_	_	_	_	_	_	_	_
+10	там	_	_	_	_	_	_	_	_
+11	для	_	_	_	_	_	_	_	_
+12	благословения	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	я	_	_	_	_	_	_	_	_
+15	бы	_	_	_	_	_	_	_	_
+16	хотел	_	_	_	_	_	_	_	_
+17	пожелать	_	_	_	_	_	_	_	_
+18	Арчи	_	_	_	_	_	_	_	bratA16=T37:Male|bratT37=Person|bratT57=Person-forename
+19	и	_	_	_	_	_	_	_	_
+20	его	_	_	_	_	_	_	_	bratT68=Person
+21	родителям	_	_	_	_	_	_	_	bratT67=Family|bratT68=Person
+22	здоровья	_	_	_	_	_	_	_	_
+23	и	_	_	_	_	_	_	_	_
+24	счастья	_	_	_	_	_	_	_	SpaceAfter=No
+25	''	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+

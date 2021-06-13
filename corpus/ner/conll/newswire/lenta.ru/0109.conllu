@@ -59,32 +59,34 @@
 # newpar id = 0109-p3
 # par_text = Футболист рассказал, что в рамках турнира нельзя играть активно только 20-25 минут, так как за это обязательно наказывают. Форвард также отметил, что до пропущенного мяча сине-бело-голубые играли скованно. Раскрепостилась команда только после пропущенного мяча.
 # sent_id = 0109-p3-s1
-# text = Футболист рассказал, что в рамках турнира нельзя играть активно только 20-25 минут, так как за это обязательно наказывают.
-1	Футболист	_	_	_	_	_	_	_	bratT12=Person-property
+# text = Футболист рассказал, что в рамках турнира нельзя играть активно только 20 - 25 минут, так как за это обязательно наказывают.
+1	Футболист	_	_	_	_	_	_	_	bratA11=T49:Male|bratT12=Person-property|bratT49=Person
 2	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	рамках	_	_	_	_	_	_	_	_
-7	турнира	_	_	_	_	_	_	_	_
+7	турнира	_	_	_	_	_	_	_	bratT45=Event
 8	нельзя	_	_	_	_	_	_	_	_
 9	играть	_	_	_	_	_	_	_	_
 10	активно	_	_	_	_	_	_	_	_
 11	только	_	_	_	_	_	_	_	_
-12	20-25	_	_	_	_	_	_	_	bratT13=Duration|bratT34=Time-period
-13	минут	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Duration|bratT34=Time-period
-14	,	_	_	_	_	_	_	_	_
-15	так	_	_	_	_	_	_	_	_
-16	как	_	_	_	_	_	_	_	_
-17	за	_	_	_	_	_	_	_	_
-18	это	_	_	_	_	_	_	_	_
-19	обязательно	_	_	_	_	_	_	_	_
-20	наказывают	_	_	_	_	_	_	_	SpaceAfter=No
-21	.	_	_	_	_	_	_	_	_
+12	20	_	_	_	_	_	_	_	bratT13=Duration|bratT34=Time-period
+13	-	_	_	_	_	_	_	_	bratT13=Duration|bratT34=Time-period
+14	25	_	_	_	_	_	_	_	bratT13=Duration|bratT34=Time-period
+15	минут	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Duration|bratT34=Time-period
+16	,	_	_	_	_	_	_	_	_
+17	так	_	_	_	_	_	_	_	_
+18	как	_	_	_	_	_	_	_	_
+19	за	_	_	_	_	_	_	_	_
+20	это	_	_	_	_	_	_	_	_
+21	обязательно	_	_	_	_	_	_	_	_
+22	наказывают	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0109-p3-s2
 # text = Форвард также отметил, что до пропущенного мяча сине-бело-голубые играли скованно.
-1	Форвард	_	_	_	_	_	_	_	bratT15=Person-property
+1	Форвард	_	_	_	_	_	_	_	bratA12=T50:Male|bratT15=Person-property|bratT50=Person
 2	также	_	_	_	_	_	_	_	_
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -119,7 +121,7 @@
 6	любят	_	_	_	_	_	_	_	_
 7	плохо	_	_	_	_	_	_	_	_
 8	начинать	_	_	_	_	_	_	_	_
-9	турниры	_	_	_	_	_	_	_	_
+9	турниры	_	_	_	_	_	_	_	bratT46=Event
 10	и	_	_	_	_	_	_	_	_
 11	создавать	_	_	_	_	_	_	_	_
 12	себе	_	_	_	_	_	_	_	_
@@ -130,19 +132,19 @@
 # text = По мнению нападающего, поражение в первой игре заставит команду играть активнее в следующих матчах.
 1	По	_	_	_	_	_	_	_	_
 2	мнению	_	_	_	_	_	_	_	_
-3	нападающего	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property
+3	нападающего	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T51:Male|bratT16=Person-property|bratT51=Person
 4	,	_	_	_	_	_	_	_	_
 5	поражение	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	первой	_	_	_	_	_	_	_	bratT23=Ordinal
-8	игре	_	_	_	_	_	_	_	_
+7	первой	_	_	_	_	_	_	_	bratT23=Ordinal|bratT47=Event
+8	игре	_	_	_	_	_	_	_	bratT47=Event
 9	заставит	_	_	_	_	_	_	_	_
 10	команду	_	_	_	_	_	_	_	_
 11	играть	_	_	_	_	_	_	_	_
 12	активнее	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	следующих	_	_	_	_	_	_	_	bratT29=Ordinal
-15	матчах	_	_	_	_	_	_	_	SpaceAfter=No
+14	следующих	_	_	_	_	_	_	_	bratT29=Ordinal|bratT48=Event
+15	матчах	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0109-p5
@@ -156,13 +158,13 @@
 5	этапа	_	_	_	_	_	_	_	bratT17=Event|bratT25=Event|bratT27=Event
 6	Лиги	_	_	_	_	_	_	_	bratT17=Event|bratT18=Event|bratT25=Event|bratT27=Event
 7	чемпионов	_	_	_	_	_	_	_	bratT17=Event|bratT18=Event|bratT25=Event|bratT27=Event
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT40=Organization
-9	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT40=Organization
-10	''	_	_	_	_	_	_	_	bratT17=Event|bratT40=Organization
-11	-	_	_	_	_	_	_	_	bratT17=Event
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT41=Organization
-13	Брюгге	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT41=Organization|bratT42=GPE
-14	''	_	_	_	_	_	_	_	bratT17=Event|bratT41=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+9	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+10	''	_	_	_	_	_	_	_	bratT40=Organization
+11	-	_	_	_	_	_	_	_	_
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
+13	Брюгге	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization|bratT42=GPE
+14	''	_	_	_	_	_	_	_	bratT41=Organization
 15	прошел	_	_	_	_	_	_	_	_
 16	во	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 17	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T19:Past|bratT19=Date-absolute
@@ -176,7 +178,7 @@
 
 # sent_id = 0109-p5-s2
 # text = Игра завершилась со счетом 2:1 в пользу бельгийской команды.
-1	Игра	_	_	_	_	_	_	_	_
+1	Игра	_	_	_	_	_	_	_	bratT44=Event
 2	завершилась	_	_	_	_	_	_	_	_
 3	со	_	_	_	_	_	_	_	_
 4	счетом	_	_	_	_	_	_	_	_

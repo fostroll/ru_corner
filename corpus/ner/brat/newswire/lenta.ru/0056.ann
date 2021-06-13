@@ -4,33 +4,33 @@ T3	GPE 76 82	Москве
 T5	Percent 195 223	на   65   процентов   больше
 T6	Date-period-absolute 236 267	в   том   же   месяце   2019-го
 T7	Organization 302 338	столичного   управления   Росреестра
-T8	Organization 363 392	редакцию   ``   Ленты.ру   ''
-T9	Date-period-absolute 438 469	за   сентябрь   текущего   года
-T10	Percent 516 535	на   17   процентов
-T11	Person-property 555 564	аналитики
-T13	GPE 721 727	Москвы
-T15	Person-property 826 834	эксперты
-T16	Organization 874 897	столичным   Росреестром
+T8	Organization 363 394	редакцию   ``   Ленты . ру   ''
+T9	Date-period-absolute 440 471	за   сентябрь   текущего   года
+T10	Percent 518 537	на   17   процентов
+T11	Person-property 557 566	аналитики
+T13	GPE 723 729	Москвы
+T15	Person-property 828 836	эксперты
+T16	Organization 876 899	столичным   Росреестром
 T17	Other-term 124 154	договорам   долевого   участия
 T18	Other-term 181 184	ДДУ
-T19	Other-term 900 903	ДДУ
-T23	Date-absolute 1299 1317	Ранее   в   ноябре
-T24	GPE 1374 1380	Москве
-T26	Quantity 1465 1489	25   квадратных   метров
-T28	GPE 1595 1603	Калмыкии
-T30	Quantity 1718 1742	50   квадратных   метров
+T19	Other-term 902 905	ДДУ
+T23	Date-absolute 1301 1319	Ранее   в   ноябре
+T24	GPE 1376 1382	Москве
+T26	Quantity 1467 1491	25   квадратных   метров
+T28	GPE 1597 1605	Калмыкии
+T30	Quantity 1720 1744	50   квадратных   метров
 T4	Quantity 102 116	9895   квартир
-T20	Quantity 970 1005	почти   на   2   тысячи   договоров
+T20	Quantity 972 1007	почти   на   2   тысячи   договоров
 T31	Organization 328 338	Росреестра
 A1	Department T8
-T32	Organization 374 392	``   Ленты.ру   ''
+T32	Organization 374 394	``   Ленты . ру   ''
 A2	Media T32
-T21	Ordinal 701 710	первичном
-T29	Date-period-absolute 636 643	октябрь
-T33	Date-period-absolute 792 800	сентябрь
+T21	Ordinal 703 712	первичном
+T29	Date-period-absolute 638 645	октябрь
+T33	Date-period-absolute 794 802	сентябрь
 A7	Past T23
-T35	Ordinal 454 462	текущего
-T36	Date-relative 1299 1304	Ранее
+T35	Ordinal 456 464	текущего
+T36	Date-relative 1301 1306	Ранее
 T34	Ordinal 240 248	том   же
 A8	Past T2
 A4	Past T6
@@ -39,6 +39,10 @@ A10	Past T29
 A5	Past T33
 A3	Past T36
 T12	GPE 302 312	столичного
-T14	GPE 874 883	столичным
+T14	GPE 876 885	столичным
 A6	Adjective T12
 A11	Adjective T14
+T22	Person 557 566	аналитики
+T25	Person 828 836	эксперты
+T27	Nationality 1171 1178	граждан
+A12	Citizenship T27

@@ -1,29 +1,32 @@
 T1	GPE 0 14	Великобритания
 T2	GPE 96 110	Великобритания
 T3	Date-period-absolute 166 179	за   30   лет
-T4	Money 182 195	£16,5   млрд.
-T5	Organization 221 225	ТАСС
+T4	Money 182 195	£ 16,5   млрд
+T5	Organization 223 227	ТАСС
 A1	Media T5
-T6	Person-property 307 331	премьер-министр   страны
-T7	Person 307 349	премьер-министр   страны   Борис   Джонсон
-T8	Date-absolute 352 363	19   ноября
-T9	Money 579 617	16,5   миллиарда   фунтов   стерлингов
-T10	Organization 634 644	минобороны
-T12	Date-period-absolute 647 686	в   течение   следующих   четырех   лет
-T13	Date-period-relative 856 883	в   течение   четырех   лет
-T14	Money 904 916	£24,1   млрд
-T11	Organization 248 274	канцелярию   правительства
+T6	Person-property 309 333	премьер-министр   страны
+T7	Person 309 351	премьер-министр   страны   Борис   Джонсон
+T8	Date-absolute 354 365	19   ноября
+T9	Money 581 619	16,5   миллиарда   фунтов   стерлингов
+T10	Organization 636 646	минобороны
+T12	Date-period-absolute 649 688	в   течение   следующих   четырех   лет
+T13	Date-period-relative 858 885	в   течение   четырех   лет
+T14	Money 906 919	£ 24,1   млрд
+T11	Organization 250 276	канцелярию   правительства
 A2	Department T11
-T15	Organization 261 274	правительства
-T16	Organization 381 391	парламенте
-T17	Ordinal 661 670	следующих
+T15	Organization 263 276	правительства
+T16	Organization 383 393	парламенте
+T17	Ordinal 663 672	следующих
 T18	Duration 171 179	30   лет
-T21	Duration 673 686	четырех   лет
-T23	Duration 870 883	четырех   лет
+T21	Duration 675 688	четырех   лет
+T23	Duration 872 885	четырех   лет
 A6	Past-Pres T3
 A3	Fut T12
 A7	Fut T13
 A4	Future T8
-T19	Person-forename 334 339	Борис
-T20	Person-surname 342 349	Джонсон
+T19	Person-forename 336 341	Борис
+T20	Person-surname 344 351	Джонсон
 A5	Male T7
+T24	GPE 327 333	страны
+T25	GPE 459 471	национальных
+A8	Adjective T25

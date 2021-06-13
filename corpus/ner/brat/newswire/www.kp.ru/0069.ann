@@ -7,7 +7,7 @@ T6	GPE 131 137	Грузии
 T7	Event 149 215	второй   тур   выборов   в   однопалатный   парламент   республики
 T8	Ordinal 149 155	второй
 T9	Event 164 215	выборов   в   однопалатный   парламент   республики
-T10	Quantity 247 258	в   17   из
+T10	Quantity 251 258	17   из
 T11	Quantity 261 289	30   одномандатных   округов
 T12	Quantity 305 316	восемь   из
 T13	GPE 333 340	Тбилиси
@@ -17,30 +17,30 @@ T16	GPE 525 531	Грузия
 T17	Ordinal 553 559	втором
 T18	Time-absolute 614 624	на   20:00
 T19	Time-absolute 631 642	19:00   мск
-T20	Percent 723 732	26,29   %
-T21	Quantity 777 802	562,66   тысячи   граждан
-T22	Date-absolute 844 856	31   октября
-T23	Ordinal 859 865	первом
-T24	Event 859 898	первом   туре   парламентских   выборов
-T25	Event 875 898	парламентских   выборов
-T26	Percent 908 917	56,11   %
-T27	Ordinal 1056 1062	втором
-T28	Organization 1271 1275	ТАСС
+T20	Percent 723 730	26,29 %
+T21	Quantity 775 800	562,66   тысячи   граждан
+T22	Date-absolute 842 854	31   октября
+T23	Ordinal 857 863	первом
+T24	Event 857 896	первом   туре   парламентских   выборов
+T25	Event 873 896	парламентских   выборов
+T26	Percent 906 913	56,11 %
+T27	Ordinal 1052 1058	втором
+T28	Organization 1267 1271	ТАСС
 A1	Media T28
-T29	Service 1310 1322	сайт   kp.ru
+T29	Service 1306 1320	сайт   kp . ru
 A2	Media T29
-T30	Ordinal 1333 1339	первом
-T31	Organization 1445 1557	блок   ``   Единое   национальное   движение   -   объединенная   оппозиция   ``   Сила   в   единстве   ''   ''
-T32	Ordinal 1424 1430	втором
-T33	Ordinal 1007 1014	первого
-T34	Person-property 1171 1196	кандидатов   в   депутаты
-T35	Person-property 1188 1196	депутаты
-T36	Other-group 1401 1412	избирателей
-T38	Percent 1390 1398	половина
+T30	Ordinal 1331 1337	первом
+T31	Organization 1443 1555	блок   ``   Единое   национальное   движение   -   объединенная   оппозиция   ``   Сила   в   единстве   ''   ''
+T32	Ordinal 1422 1428	втором
+T33	Ordinal 1003 1010	первого
+T34	Person-property 1167 1192	кандидатов   в   депутаты
+T35	Person-property 1184 1192	депутаты
+T36	Other-group 1399 1410	избирателей
+T38	Percent 1388 1396	половина
 T39	Quantity 178 190	однопалатный
 T40	Quantity 266 279	одномандатных
 T41	Organization 178 215	однопалатный   парламент   республики
-T37	Organization 1317 1322	kp.ru
+T37	Organization 1313 1320	kp . ru
 A3	Media T37
 T42	Person-property 440 536	кандидаты   от   правящей   партии   ``   Грузинская   мечта   -   Демократическая   Грузия   ''
 T43	Date-relative 614 646	на   20:00   (   19:00   мск   )
@@ -52,3 +52,12 @@ T45	GPE 482 492	Грузинская
 A7	Adjective T45
 T46	Political-group 507 522	Демократическая
 A8	Adjective T46
+T47	Organization 948 957	оппозиция
+T48	Organization 1200 1222	оппозиционных   партий
+T49	Political-group 1200 1213	оппозиционных
+A9	Adjective T49
+T50	Nationality 793 800	граждан
+A10	Citizenship T50
+T51	Web-address 1313 1320	kp . ru
+T52	GPE 639 642	мск
+T53	GPE 205 215	республики

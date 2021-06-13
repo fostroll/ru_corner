@@ -1,0 +1,205 @@
+# newdoc id = 0080
+# newpar id = 0080-p1
+# par_text = Подмосковного вице-премьера, занимавшего место Евгении Васильевой в Минобороны, арестовали по делу о поставках леса в Китай
+# sent_id = 0080-p1-s1
+# text = Подмосковного вице-премьера, занимавшего место Евгении Васильевой в Минобороны, арестовали по делу о поставках леса в Китай
+1	Подмосковного	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
+2	вице-премьера	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+3	,	_	_	_	_	_	_	_	_
+4	занимавшего	_	_	_	_	_	_	_	_
+5	место	_	_	_	_	_	_	_	_
+6	Евгении	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT4=Person-forename
+7	Васильевой	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT5=Person-surname
+8	в	_	_	_	_	_	_	_	_
+9	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+10	,	_	_	_	_	_	_	_	_
+11	арестовали	_	_	_	_	_	_	_	_
+12	по	_	_	_	_	_	_	_	_
+13	делу	_	_	_	_	_	_	_	_
+14	о	_	_	_	_	_	_	_	_
+15	поставках	_	_	_	_	_	_	_	_
+16	леса	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	_
+18	Китай	_	_	_	_	_	_	_	bratT7=GPE
+
+# newpar id = 0080-p2
+# par_text = Басманный районный суд Москвы арестовал министра экологии и заместителя председателя правительства Подмосковья Дмитрия Куракина по делу о взятках (часть 6 статьи 290 УК). Об этом сообщает агентство «Москва» со ссылкой на пресс-службу суда.
+# sent_id = 0080-p2-s1
+# text = Басманный районный суд Москвы арестовал министра экологии и заместителя председателя правительства Подмосковья Дмитрия Куракина по делу о взятках (часть 6 статьи 290 УК).
+1	Басманный	_	_	_	_	_	_	_	bratA3=T9:Adjective|bratT8=Organization|bratT9=GPE
+2	районный	_	_	_	_	_	_	_	bratA3=T9:Adjective|bratT8=Organization|bratT9=GPE
+3	суд	_	_	_	_	_	_	_	bratT8=Organization
+4	Москвы	_	_	_	_	_	_	_	bratT10=GPE|bratT8=Organization
+5	арестовал	_	_	_	_	_	_	_	_
+6	министра	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT13=Person-property
+7	экологии	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT13=Person-property
+8	и	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person
+9	заместителя	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property
+10	председателя	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property
+11	правительства	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property|bratT15=Organization
+12	Подмосковья	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property|bratT15=Organization|bratT16=GPE
+13	Дмитрия	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT17=Person-forename
+14	Куракина	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT18=Person-surname
+15	по	_	_	_	_	_	_	_	_
+16	делу	_	_	_	_	_	_	_	_
+17	о	_	_	_	_	_	_	_	_
+18	взятках	_	_	_	_	_	_	_	_
+19	(	_	_	_	_	_	_	_	SpaceAfter=No
+20	часть	_	_	_	_	_	_	_	bratT19=Law
+21	6	_	_	_	_	_	_	_	bratT12=Ordinal|bratT19=Law
+22	статьи	_	_	_	_	_	_	_	bratT19=Law
+23	290	_	_	_	_	_	_	_	bratT19=Law|bratT77=Ordinal
+24	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Law|bratT78=Law
+25	)	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p2-s2
+# text = Об этом сообщает агентство «Москва» со ссылкой на пресс-службу суда.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщает	_	_	_	_	_	_	_	_
+4	агентство	_	_	_	_	_	_	_	bratA7=T20:Media|bratT20=Organization
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA7=T20:Media|bratT20=Organization
+6	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T20:Media|bratT20=Organization
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA7=T20:Media|bratT20=Organization
+8	со	_	_	_	_	_	_	_	_
+9	ссылкой	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	пресс-службу	_	_	_	_	_	_	_	bratA15=T39:Department|bratT39=Organization
+12	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T39:Department|bratT39=Organization
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p3
+# par_text = Куракин занимал пост в правительстве Подмосковья с сентября 2018 года, а до этого возглавлял департамент имущественных отношений Минобороны с 2012 года — после увольнения Евгении Васильевой из-за дела «Оборонсервиса» — до 2017 года, когда он перешл в «Ростелеком».
+# sent_id = 0080-p3-s1
+# text = Куракин занимал пост в правительстве Подмосковья с сентября 2018 года, а до этого возглавлял департамент имущественных отношений Минобороны с 2012 года - после увольнения Евгении Васильевой из-за дела «Оборонсервиса» - до 2017 года, когда он перешл в «Ростелеком».
+1	Куракин	_	_	_	_	_	_	_	bratA8=T21:Male|bratT21=Person|bratT22=Person-surname
+2	занимал	_	_	_	_	_	_	_	_
+3	пост	_	_	_	_	_	_	_	bratT29=Person-property
+4	в	_	_	_	_	_	_	_	_
+5	правительстве	_	_	_	_	_	_	_	bratT23=Organization
+6	Подмосковья	_	_	_	_	_	_	_	bratT23=Organization|bratT24=GPE
+7	с	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-period-absolute
+8	сентября	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-period-absolute
+9	2018	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-period-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Past|bratT25=Date-period-absolute
+11	,	_	_	_	_	_	_	_	_
+12	а	_	_	_	_	_	_	_	_
+13	до	_	_	_	_	_	_	_	bratA5=T40:Past|bratT40=Date-relative
+14	этого	_	_	_	_	_	_	_	bratA5=T40:Past|bratT40=Date-relative
+15	возглавлял	_	_	_	_	_	_	_	_
+16	департамент	_	_	_	_	_	_	_	bratA9=T26:Department|bratT26=Organization
+17	имущественных	_	_	_	_	_	_	_	bratA9=T26:Department|bratT26=Organization
+18	отношений	_	_	_	_	_	_	_	bratA9=T26:Department|bratT26=Organization
+19	Минобороны	_	_	_	_	_	_	_	bratA9=T26:Department|bratT26=Organization|bratT27=Organization
+20	с	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+21	2012	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+22	года	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+23	-	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+24	после	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+25	увольнения	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-period-absolute
+26	Евгении	_	_	_	_	_	_	_	bratA12=T30:Female|bratT30=Person|bratT34=Person-forename
+27	Васильевой	_	_	_	_	_	_	_	bratA12=T30:Female|bratT30=Person|bratT35=Person-surname
+28	из-за	_	_	_	_	_	_	_	_
+29	дела	_	_	_	_	_	_	_	_
+30	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT37=Organization
+31	Оборонсервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
+32	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT37=Organization
+33	-	_	_	_	_	_	_	_	_
+34	до	_	_	_	_	_	_	_	bratA16=T41:Past|bratT41=Date-period-absolute
+35	2017	_	_	_	_	_	_	_	bratA16=T41:Past|bratT41=Date-period-absolute
+36	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T41:Past|bratT41=Date-period-absolute
+37	,	_	_	_	_	_	_	_	_
+38	когда	_	_	_	_	_	_	_	_
+39	он	_	_	_	_	_	_	_	_
+40	перешл	_	_	_	_	_	_	_	_
+41	в	_	_	_	_	_	_	_	_
+42	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT43=Organization
+43	Ростелеком	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
+44	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT43=Organization
+45	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p4
+# par_text = Экс-главу департамента имущественных отношений Минобороны Евгению Васильеву приговорили к пяти годам колонии за многомилионные хищения при продаже имущества «Оборонсервиса». С конца июля 2015 года она отбывала наказание в колонии во Владимирской области, однако спустя месяц суд освободил ее по УДО.
+# sent_id = 0080-p4-s1
+# text = Экс-главу департамента имущественных отношений Минобороны Евгению Васильеву приговорили к пяти годам колонии за многомилионные хищения при продаже имущества «Оборонсервиса».
+1	Экс-главу	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property
+2	департамента	_	_	_	_	_	_	_	bratA18=T45:Female|bratA19=T49:Department|bratT45=Person|bratT48=Person-property|bratT49=Organization
+3	имущественных	_	_	_	_	_	_	_	bratA18=T45:Female|bratA19=T49:Department|bratT45=Person|bratT48=Person-property|bratT49=Organization
+4	отношений	_	_	_	_	_	_	_	bratA18=T45:Female|bratA19=T49:Department|bratT45=Person|bratT48=Person-property|bratT49=Organization
+5	Минобороны	_	_	_	_	_	_	_	bratA18=T45:Female|bratA19=T49:Department|bratT45=Person|bratT48=Person-property|bratT49=Organization|bratT50=Organization
+6	Евгению	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT46=Person-forename
+7	Васильеву	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT47=Person-surname
+8	приговорили	_	_	_	_	_	_	_	_
+9	к	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative
+10	пяти	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative|bratT81=Duration
+11	годам	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative|bratT81=Duration
+12	колонии	_	_	_	_	_	_	_	_
+13	за	_	_	_	_	_	_	_	_
+14	многомилионные	_	_	_	_	_	_	_	bratT82=Money
+15	хищения	_	_	_	_	_	_	_	_
+16	при	_	_	_	_	_	_	_	_
+17	продаже	_	_	_	_	_	_	_	_
+18	имущества	_	_	_	_	_	_	_	_
+19	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT52=Organization
+20	Оборонсервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+21	''	_	_	_	_	_	_	_	QuotationEnd=»SpaceAfter=No|SpaceAfter=No|bratT52=Organization
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p4-s2
+# text = С конца июля 2015 года она отбывала наказание в колонии во Владимирской области, однако спустя месяц суд освободил ее по УДО.
+1	С	_	_	_	_	_	_	_	bratA14=T53:Past|bratT53=Date-period-absolute
+2	конца	_	_	_	_	_	_	_	bratA14=T53:Past|bratT53=Date-period-absolute
+3	июля	_	_	_	_	_	_	_	bratA14=T53:Past|bratT53=Date-period-absolute
+4	2015	_	_	_	_	_	_	_	bratA14=T53:Past|bratT53=Date-period-absolute
+5	года	_	_	_	_	_	_	_	_
+6	она	_	_	_	_	_	_	_	_
+7	отбывала	_	_	_	_	_	_	_	_
+8	наказание	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	колонии	_	_	_	_	_	_	_	_
+11	во	_	_	_	_	_	_	_	_
+12	Владимирской	_	_	_	_	_	_	_	bratT54=GPE
+13	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=GPE
+14	,	_	_	_	_	_	_	_	_
+15	однако	_	_	_	_	_	_	_	_
+16	спустя	_	_	_	_	_	_	_	bratA20=T55:Past|bratT55=Date-relative
+17	месяц	_	_	_	_	_	_	_	bratA20=T55:Past|bratT55=Date-relative|bratT56=Duration
+18	суд	_	_	_	_	_	_	_	_
+19	освободил	_	_	_	_	_	_	_	_
+20	ее	_	_	_	_	_	_	_	_
+21	по	_	_	_	_	_	_	_	_
+22	УДО	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	SpaceAfter=No
+
+# newpar id = 0080-p5
+# par_text = По делу также были задержаны начальник «Оборонолеса» Владислав Холодков и начальник «Мальтинского военного лесхоза» Максим Ан, рассказали в Басманном суде.
+# sent_id = 0080-p5-s1
+# text = По делу также были задержаны начальник «Оборонолеса» Владислав Холодков и начальник «Мальтинского военного лесхоза» Максим Ан, рассказали в Басманном суде.
+1	По	_	_	_	_	_	_	_	_
+2	делу	_	_	_	_	_	_	_	_
+3	также	_	_	_	_	_	_	_	_
+4	были	_	_	_	_	_	_	_	_
+5	задержаны	_	_	_	_	_	_	_	_
+6	начальник	_	_	_	_	_	_	_	bratA10=T57:Male|bratT57=Person|bratT84=Person-property
+7	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA10=T57:Male|bratT57=Person|bratT64=Organization|bratT84=Person-property
+8	Оборонолеса	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T57:Male|bratT57=Person|bratT64=Organization|bratT84=Person-property
+9	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA10=T57:Male|bratT57=Person|bratT64=Organization|bratT84=Person-property
+10	Владислав	_	_	_	_	_	_	_	bratA10=T57:Male|bratT57=Person|bratT58=Person-forename
+11	Холодков	_	_	_	_	_	_	_	bratA10=T57:Male|bratT57=Person|bratT59=Person-surname
+12	и	_	_	_	_	_	_	_	_
+13	начальник	_	_	_	_	_	_	_	bratT31=Person-property
+14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT31=Person-property|bratT72=Organization
+15	Мальтинского	_	_	_	_	_	_	_	bratT31=Person-property|bratT66=GPE|bratT72=Organization
+16	военного	_	_	_	_	_	_	_	bratT31=Person-property|bratT72=Organization
+17	лесхоза	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT72=Organization
+18	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT31=Person-property|bratT72=Organization
+19	Максим	_	_	_	_	_	_	_	bratA13=T70:Male|bratT70=Person|bratT85=Person-forename
+20	Ан	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T70:Male|bratT70=Person|bratT71=Person-surname
+21	,	_	_	_	_	_	_	_	_
+22	рассказали	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	_
+24	Басманном	_	_	_	_	_	_	_	bratT74=Organization
+25	суде	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
+26	.	_	_	_	_	_	_	_	_
+

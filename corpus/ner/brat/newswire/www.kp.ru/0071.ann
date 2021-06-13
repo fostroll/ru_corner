@@ -23,35 +23,35 @@ T23	Quantity 649 660	два   теста
 T25	Quantity 812 821	один   из
 T26	Person-property 758 765	игроков
 T27	Person-property 824 835	футболистов
-T28	Other-term 884 892	COVID-19
-T29	Date-period-absolute 899 923	последние   два   месяца
-T30	Organization 1069 1115	пресс-служба   сборной   России   по   футболу
+T28	Other-term 884 894	COVID - 19
+T29	Date-period-absolute 901 925	последние   два   месяца
+T30	Organization 1071 1117	пресс-служба   сборной   России   по   футболу
 A1	Department T30
-T31	Organization 1084 1115	сборной   России   по   футболу
-T32	GPE 1094 1100	России
-T33	Organization 1180 1196	сборную   России
-T34	GPE 1190 1196	России
-T36	Organization 1230 1248	московского   ЦСКА
-T37	GPE 1310 1320	Новогорске
-T38	Date-absolute 1400 1420	в   прошлом   месяце
-T39	Other-term 1512 1523	коронавирус
-T40	Person 1534 1550	Георгий   Джикия
-T41	Person 1557 1576	Маринато   Гильерме
-T42	Person 1583 1600	Марио   Фернандес
+T31	Organization 1086 1117	сборной   России   по   футболу
+T32	GPE 1096 1102	России
+T33	Organization 1182 1198	сборную   России
+T34	GPE 1192 1198	России
+T36	Organization 1232 1250	московского   ЦСКА
+T37	GPE 1312 1322	Новогорске
+T38	Date-absolute 1402 1422	в   прошлом   месяце
+T39	Other-term 1514 1525	коронавирус
+T40	Person 1536 1552	Георгий   Джикия
+T41	Person 1559 1578	Маринато   Гильерме
+T42	Person 1585 1602	Марио   Фернандес
 T24	Quantity 681 702	всего   пять   тестов
-T35	Person 1217 1264	нападающий   московского   ЦСКА   Фёдор   Чалов
-T43	Person-property 1217 1248	нападающий   московского   ЦСКА
+T35	Person 1219 1266	нападающий   московского   ЦСКА   Фёдор   Чалов
+T43	Person-property 1219 1250	нападающий   московского   ЦСКА
 T44	Date-absolute 157 181	завтра   ,   12   ноября
 T45	Quantity 735 755	Ни   у   одного   из
 T46	Date-absolute 838 865	несколько   месяцев   назад
-T47	Ordinal 899 908	последние
+T47	Ordinal 901 910	последние
 T48	Date-period-relative 663 674	после   них
-T49	Date-relative 1342 1347	ранее
+T49	Date-relative 1344 1349	ранее
 A2	Future T44
 T8	Duration 579 591	двух   суток
 A3	Past T21
 A4	Past T48
-T50	Ordinal 1404 1411	прошлом
+T50	Ordinal 1406 1413	прошлом
 A5	Past T38
 A6	Past T49
 A7	Past T46
@@ -63,14 +63,14 @@ T53	Person-forename 477 486	Александр
 T54	Person-surname 489 495	Ерохин
 T55	Person-forename 502 508	Даниил
 T56	Person-surname 511 518	Лесовой
-T57	Person-forename 1251 1256	Фёдор
-T58	Person-surname 1259 1264	Чалов
-T59	Person-forename 1534 1541	Георгий
-T60	Person-surname 1544 1550	Джикия
-T61	Person-forename 1557 1565	Маринато
-T62	Person-surname 1568 1576	Гильерме
-T63	Person-forename 1583 1588	Марио
-T64	Person-surname 1591 1600	Фернандес
+T57	Person-forename 1253 1258	Фёдор
+T58	Person-surname 1261 1266	Чалов
+T59	Person-forename 1536 1543	Георгий
+T60	Person-surname 1546 1552	Джикия
+T61	Person-forename 1559 1567	Маринато
+T62	Person-surname 1570 1578	Гильерме
+T63	Person-forename 1585 1590	Марио
+T64	Person-surname 1593 1602	Фернандес
 A10	Male T17
 A11	Male T18
 A12	Male T19
@@ -78,6 +78,10 @@ A13	Male T35
 A14	Male T40
 A15	Male T41
 A16	Male T42
-T65	Other-term 1015 1019	титр
-T66	GPE 1230 1241	московского
+T65	Other-term 1017 1021	титр
+T66	GPE 1232 1243	московского
 A17	Adjective T66
+T67	Organization 1429 1451	национальной   сборной
+T68	Cardinal 892 894	19
+T69	GPE 1429 1441	национальной
+A18	Adjective T69

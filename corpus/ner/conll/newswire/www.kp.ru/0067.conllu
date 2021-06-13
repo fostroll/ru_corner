@@ -27,9 +27,9 @@
 # text = Этого от властей потребуют местные жители.
 1	Этого	_	_	_	_	_	_	_	_
 2	от	_	_	_	_	_	_	_	_
-3	властей	_	_	_	_	_	_	_	_
+3	властей	_	_	_	_	_	_	_	bratT37=Organization
 4	потребуют	_	_	_	_	_	_	_	_
-5	местные	_	_	_	_	_	_	_	bratA9=T32:Resident|bratT32=Nationality
+5	местные	_	_	_	_	_	_	_	bratA13=T42:Adjective|bratA9=T32:Resident|bratT32=Nationality|bratT42=GPE
 6	жители	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T32:Resident|bratT32=Nationality
 7	.	_	_	_	_	_	_	_	_
 
@@ -73,8 +73,8 @@
 3	уже	_	_	_	_	_	_	_	_
 4	во	_	_	_	_	_	_	_	_
 5	второй	_	_	_	_	_	_	_	bratT8=Ordinal
-6	стране	_	_	_	_	_	_	_	_
-7	ЕС	_	_	_	_	_	_	_	bratT9=Organization
+6	стране	_	_	_	_	_	_	_	bratT43=GPE
+7	ЕС	_	_	_	_	_	_	_	bratT43=GPE|bratT9=GPE
 8	еще	_	_	_	_	_	_	_	_
 9	больше	_	_	_	_	_	_	_	_
 10	усугубляют	_	_	_	_	_	_	_	_
@@ -94,13 +94,13 @@
 6	,	_	_	_	_	_	_	_	_
 7	затронувший	_	_	_	_	_	_	_	_
 8	основное	_	_	_	_	_	_	_	_
-9	население	_	_	_	_	_	_	_	SpaceAfter=No
+9	население	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T40:Resident|bratT40=Nationality
 10	,	_	_	_	_	_	_	_	_
 11	которое	_	_	_	_	_	_	_	_
 12	предъявляет	_	_	_	_	_	_	_	_
 13	претензии	_	_	_	_	_	_	_	_
 14	к	_	_	_	_	_	_	_	_
-15	правительству	_	_	_	_	_	_	_	SpaceAfter=No
+15	правительству	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0067-p4-s2
@@ -118,7 +118,7 @@
 11	чтобы	_	_	_	_	_	_	_	_
 12	требовать	_	_	_	_	_	_	_	_
 13	от	_	_	_	_	_	_	_	_
-14	власти	_	_	_	_	_	_	_	_
+14	власти	_	_	_	_	_	_	_	bratT38=Organization
 15	защиты	_	_	_	_	_	_	_	SpaceAfter=No
 16	.	_	_	_	_	_	_	_	_
 
@@ -148,7 +148,7 @@
 22	Геращенко	_	_	_	_	_	_	_	bratA11=T11:Male|bratT11=Person|bratT35=Person-surname
 23	телеканал	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Organization
 24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-25	360	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+25	360	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization|bratT36=Quantity
 26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
 27	.	_	_	_	_	_	_	_	_
 
@@ -194,7 +194,7 @@
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0067-p6-s2
-# text = 3 ноября в клинике Оттакринг скончалась еще одна пострадавшая, ей было около 40-50 лет, пишет сайт argumenti.ru.
+# text = 3 ноября в клинике Оттакринг скончалась еще одна пострадавшая, ей было около 40 - 50 лет, пишет сайт argumenti.ru.
 1	3	_	_	_	_	_	_	_	bratA8=T17:Past|bratT17=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA8=T17:Past|bratT17=Date-absolute
 3	в	_	_	_	_	_	_	_	_
@@ -208,11 +208,16 @@
 11	ей	_	_	_	_	_	_	_	_
 12	было	_	_	_	_	_	_	_	_
 13	около	_	_	_	_	_	_	_	bratT20=Age
-14	40-50	_	_	_	_	_	_	_	bratT20=Age
-15	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Age
-16	,	_	_	_	_	_	_	_	_
-17	пишет	_	_	_	_	_	_	_	_
-18	сайт	_	_	_	_	_	_	_	bratA2=T21:Media|bratT21=Service
-19	argumenti.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratA4=T31:Media|bratT21=Service|bratT31=Organization
-20	.	_	_	_	_	_	_	_	_
+14	40	_	_	_	_	_	_	_	bratT20=Age
+15	-	_	_	_	_	_	_	_	bratT20=Age
+16	50	_	_	_	_	_	_	_	bratT20=Age
+17	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Age
+18	,	_	_	_	_	_	_	_	_
+19	пишет	_	_	_	_	_	_	_	_
+20	сайт	_	_	_	_	_	_	_	bratA2=T21:Media|bratT21=Service
+21-23	argumenti.ru	_	_	_	_	_	_	_	SpaceAfter=No
+21	argumenti	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratA4=T31:Media|bratT21=Service|bratT31=Organization|bratT41=Web-address
+22	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratA4=T31:Media|bratT21=Service|bratT31=Organization|bratT41=Web-address
+23	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratA4=T31:Media|bratT21=Service|bratT31=Organization|bratT41=Web-address
+24	.	_	_	_	_	_	_	_	_
 

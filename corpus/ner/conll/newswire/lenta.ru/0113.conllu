@@ -3,11 +3,11 @@
 # par_text = Спортивный комментатор раскрыл секрет похудения на 30 килограммов за год
 # sent_id = 0113-p1-s1
 # text = Спортивный комментатор раскрыл секрет похудения на 30 килограммов за год
-1	Спортивный	_	_	_	_	_	_	_	bratT3=Person-property
-2	комментатор	_	_	_	_	_	_	_	bratT3=Person-property
+1	Спортивный	_	_	_	_	_	_	_	bratA8=T51:Male|bratT3=Person-property|bratT51=Person
+2	комментатор	_	_	_	_	_	_	_	bratA8=T51:Male|bratT3=Person-property|bratT51=Person
 3	раскрыл	_	_	_	_	_	_	_	_
 4	секрет	_	_	_	_	_	_	_	_
-5	похудения	_	_	_	_	_	_	_	_
+5	похудения	_	_	_	_	_	_	_	bratT48=Event
 6	на	_	_	_	_	_	_	_	bratT1=Quantity
 7	30	_	_	_	_	_	_	_	bratT1=Quantity
 8	килограммов	_	_	_	_	_	_	_	bratT1=Quantity
@@ -24,7 +24,7 @@
 4	Коул	_	_	_	_	_	_	_	bratA3=T4:Male|bratT4=Person|bratT43=Person-surname
 5	раскрыл	_	_	_	_	_	_	_	_
 6	секрет	_	_	_	_	_	_	_	_
-7	похудения	_	_	_	_	_	_	_	_
+7	похудения	_	_	_	_	_	_	_	bratT49=Event
 8	на	_	_	_	_	_	_	_	bratT6=Quantity
 9	30	_	_	_	_	_	_	_	bratT6=Quantity
 10	килограммов	_	_	_	_	_	_	_	bratT6=Quantity
@@ -71,7 +71,7 @@
 
 # sent_id = 0113-p3-s3
 # text = Комментатор добавил, что соблюдает не очень жесткую диету.
-1	Комментатор	_	_	_	_	_	_	_	bratT10=Person-property
+1	Комментатор	_	_	_	_	_	_	_	bratA9=T52:Male|bratT10=Person-property|bratT52=Person
 2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -104,7 +104,7 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	журналист	_	_	_	_	_	_	_	bratT13=Person-property
+4	журналист	_	_	_	_	_	_	_	bratA10=T53:Male|bratT13=Person-property|bratT53=Person
 5	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -114,7 +114,7 @@
 11	в	_	_	_	_	_	_	_	bratT15=Time-period
 12	неделю	_	_	_	_	_	_	_	bratT15=Time-period|bratT35=Duration
 13	заниматься	_	_	_	_	_	_	_	_
-14	кардиотренировками	_	_	_	_	_	_	_	bratT30=Other-term
+14	кардиотренировками	_	_	_	_	_	_	_	bratT30=Event
 15	и	_	_	_	_	_	_	_	_
 16	два-три	_	_	_	_	_	_	_	bratT16=Quantity
 17	раза	_	_	_	_	_	_	_	bratT16=Quantity
@@ -138,8 +138,8 @@
 6	,	_	_	_	_	_	_	_	_
 7	был	_	_	_	_	_	_	_	_
 8	вдохновлен	_	_	_	_	_	_	_	_
-9	тренировками	_	_	_	_	_	_	_	_
-10	спортсменов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property
+9	тренировками	_	_	_	_	_	_	_	bratT50=Event
+10	спортсменов	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property|bratT55=Person
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0113-p5
@@ -170,19 +170,19 @@
 
 # sent_id = 0113-p5-s2
 # text = Спортсмен сделал это ради участия в турнире Абсолютного бойцовского чемпионата (UFC) на острове Яс в Абу-Даби.
-1	Спортсмен	_	_	_	_	_	_	_	bratT26=Person-property
+1	Спортсмен	_	_	_	_	_	_	_	bratA11=T54:Male|bratT26=Person-property|bratT54=Person
 2	сделал	_	_	_	_	_	_	_	_
 3	это	_	_	_	_	_	_	_	_
 4	ради	_	_	_	_	_	_	_	_
 5	участия	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	турнире	_	_	_	_	_	_	_	bratT27=Event
-8	Абсолютного	_	_	_	_	_	_	_	bratT27=Event|bratT32=Organization
-9	бойцовского	_	_	_	_	_	_	_	bratT27=Event|bratT32=Organization
-10	чемпионата	_	_	_	_	_	_	_	bratT27=Event|bratT32=Organization
-11	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
-12	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT31=Organization
-13	)	_	_	_	_	_	_	_	bratT27=Event
+8	Абсолютного	_	_	_	_	_	_	_	bratT32=Organization
+9	бойцовского	_	_	_	_	_	_	_	bratT32=Organization
+10	чемпионата	_	_	_	_	_	_	_	bratT32=Organization
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	UFC	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+13	)	_	_	_	_	_	_	_	_
 14	на	_	_	_	_	_	_	_	_
 15	острове	_	_	_	_	_	_	_	bratT28=Location
 16	Яс	_	_	_	_	_	_	_	bratT28=Location

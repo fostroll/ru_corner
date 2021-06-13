@@ -1,0 +1,75 @@
+T1	Person 51 146	Аудитора   Счетной   палаты   ,   бывшего   губернатора   Ивановской   области   Михаила   Меня
+T2	Person 0 4	Меня
+T3	Person-property 85 129	бывшего   губернатора   Ивановской   области
+T4	Person-property 51 78	Аудитора   Счетной   палаты
+T5	Organization 62 78	Счетной   палаты
+T6	GPE 109 129	Ивановской   области
+T7	Organization 250 253	РБК
+A1	Media T7
+T8	Organization 260 282	ГУ   МВД   по   Москве
+A2	Department T8
+T9	Organization 260 268	ГУ   МВД
+T10	GPE 276 282	Москве
+T11	Organization 301 320	``   Интерфакс   ''
+A3	Media T11
+T12	Organization 473 495	Следственный   комитет
+T13	Money 529 545	700   млн   руб.
+T14	GPE 563 583	Ивановской   области
+T16	Date-period-absolute 618 644	с   2005   по   2013   год
+T17	Law 689 712	ч.   4   ст.   160   УК
+T18	Time-period 864 881	до   десяти   лет
+T19	Money 913 932	до   1   млн   руб.
+T20	Person-property 948 960	следователей
+T21	Person-property 982 994	губернатором
+T22	Person 997 1001	Мень
+T23	Organization 1033 1073	компании   ``   Группа   ``   Продо   ''
+T24	Organization 1143 1151	Минфином
+T25	Organization 1197 1199	СК
+T26	Person 1238 1242	Меня
+T27	Organization 1305 1341	ОАО   ``   Ивановский   бройлер   ''
+T28	Money 1378 1394	700   млн   руб.
+T29	Person 1580 1666	бывшему   первому   зампреду   правительства   Ивановской   области   Павлу   Конькову
+T30	Person-property 1580 1647	бывшему   первому   зампреду   правительства   Ивановской   области
+T31	Ordinal 1590 1597	первому
+T32	Organization 1611 1647	правительства   Ивановской   области
+T33	GPE 1627 1647	Ивановской   области
+T34	Person 1673 1752	управляющему   директору   ``   Ивановского   бройлера   ''   Дмитрию   Гришину
+T35	Person-property 1673 1732	управляющему   директору   ``   Ивановского   бройлера   ''
+T36	Organization 1700 1732	``   Ивановского   бройлера   ''
+T38	Date-absolute 1781 1800	летом   2019   года
+T39	Date-relative 1422 1443	на   следующий   день
+T40	Person-surname 0 4	Меня
+A4	Male T2
+T41	Date-absolute 34 49	после   допроса
+A5	Past T41
+A6	Male T1
+T42	Person-forename 132 139	Михаила
+T43	Person-surname 142 146	Меня
+T44	Date-relative 465 470	Ранее
+A7	Past T44
+A8	Past T16
+T45	Law 710 712	УК
+T46	Person-surname 997 1001	Мень
+A9	Male T22
+T47	Person-surname 1238 1242	Меня
+A10	Male T26
+T48	GPE 1316 1326	Ивановский
+A11	Adjective T48
+A12	Past T39
+T49	Ordinal 1427 1436	следующий
+T50	Date-relative 1495 1500	Ранее
+A13	Past T50
+T51	Person-forename 1650 1655	Павлу
+T52	Person-surname 1658 1666	Конькову
+A14	Male T29
+T53	GPE 1705 1716	Ивановского
+A15	Adjective T53
+T54	Person-forename 1735 1742	Дмитрию
+T55	Person-surname 1745 1752	Гришину
+A16	Male T34
+A17	Past T38
+T37	Ordinal 694 695	4
+T56	Ordinal 704 707	160
+T57	Duration 1439 1443	день
+T58	Duration 864 881	до   десяти   лет
+T15	GPE 1172 1179	региона

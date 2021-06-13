@@ -10,7 +10,7 @@
 5	ещё	_	_	_	_	_	_	_	bratT22=Quantity
 6	15	_	_	_	_	_	_	_	bratT22=Quantity
 7	тысячам	_	_	_	_	_	_	_	bratT22=Quantity
-8	жителей	_	_	_	_	_	_	_	bratT22=Quantity
+8	жителей	_	_	_	_	_	_	_	bratA8=T35:Resident|bratT22=Quantity|bratT35=Nationality
 
 # newpar id = 0045-p2
 # par_text = Специалисты Приморских электрических сетей восстановили электроснабжение 15 тыс. жителей пригорода Владивостока и других населённых пунктов края.
@@ -24,14 +24,14 @@
 6	электроснабжение	_	_	_	_	_	_	_	_
 7	15	_	_	_	_	_	_	_	bratT25=Quantity
 8	тыс.	_	_	_	_	_	_	_	bratT25=Quantity
-9	жителей	_	_	_	_	_	_	_	bratT25=Quantity
-10	пригорода	_	_	_	_	_	_	_	bratT26=GPE
-11	Владивостока	_	_	_	_	_	_	_	bratT26=GPE
+9	жителей	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT25=Quantity|bratT36=Nationality
+10	пригорода	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT26=GPE|bratT36=Nationality
+11	Владивостока	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT26=GPE|bratT36=Nationality
 12	и	_	_	_	_	_	_	_	_
 13	других	_	_	_	_	_	_	_	_
 14	населённых	_	_	_	_	_	_	_	_
 15	пунктов	_	_	_	_	_	_	_	_
-16	края	_	_	_	_	_	_	_	SpaceAfter=No
+16	края	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=GPE
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0045-p3
@@ -71,7 +71,7 @@
 13	более	_	_	_	_	_	_	_	bratT7=Quantity
 14	12	_	_	_	_	_	_	_	bratT7=Quantity
 15	тыс.	_	_	_	_	_	_	_	bratT7=Quantity
-16	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity
+16	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Resident|bratT37=Nationality|bratT7=Quantity
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0045-p5
@@ -85,39 +85,39 @@
 5	более	_	_	_	_	_	_	_	bratT8=Quantity
 6	трёх	_	_	_	_	_	_	_	bratT8=Quantity
 7	тысяч	_	_	_	_	_	_	_	bratT8=Quantity
-8	жителей	_	_	_	_	_	_	_	bratT8=Quantity
-9	сёл	_	_	_	_	_	_	_	bratA2=T9:Plural|bratT9=GPE
-10	Раздольное	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Plural|bratT29=GPE|bratT9=GPE
-11	,	_	_	_	_	_	_	_	bratA2=T9:Plural|bratT9=GPE
-12	Соловей	_	_	_	_	_	_	_	bratA2=T9:Plural|bratT30=GPE|bratT9=GPE
-13	Ключ	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Plural|bratT30=GPE|bratT9=GPE
-14	,	_	_	_	_	_	_	_	bratA2=T9:Plural|bratT9=GPE
-15	Вольно-Надеждинское	_	_	_	_	_	_	_	bratA2=T9:Plural|bratT31=GPE|bratT9=GPE
-16	Надеждинского	_	_	_	_	_	_	_	bratA2=T9:Plural|bratT10=GPE|bratT9=GPE
-17	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Plural|bratT10=GPE|bratT9=GPE
-18	,	_	_	_	_	_	_	_	_
-19	с.	_	_	_	_	_	_	_	bratT11=GPE|bratT23=GPE
-20	Реттиховка	_	_	_	_	_	_	_	bratT11=GPE|bratT23=GPE
-21	Черниговского	_	_	_	_	_	_	_	bratT11=GPE
-22	района	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE
-23	,	_	_	_	_	_	_	_	_
-24	с.	_	_	_	_	_	_	_	bratT12=GPE
-25	Воскресенка	_	_	_	_	_	_	_	bratT12=GPE
-26	Спасского	_	_	_	_	_	_	_	bratT12=GPE|bratT13=GPE
-27	района	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=GPE|bratT13=GPE
-28	,	_	_	_	_	_	_	_	_
-29	с.	_	_	_	_	_	_	_	bratT14=GPE
-30	Новосысоевка	_	_	_	_	_	_	_	bratT14=GPE
-31	Яковлевского	_	_	_	_	_	_	_	bratT14=GPE|bratT15=GPE
-32	района	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=GPE|bratT15=GPE
-33	,	_	_	_	_	_	_	_	_
-34	с.	_	_	_	_	_	_	_	bratT16=GPE
-35	Шкотово	_	_	_	_	_	_	_	bratT16=GPE
-36	и	_	_	_	_	_	_	_	_
-37	г.	_	_	_	_	_	_	_	bratT17=GPE
-38	Большой	_	_	_	_	_	_	_	bratT17=GPE
-39	Камень	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=GPE
-40	''	_	_	_	_	_	_	_	SpaceAfter=No
+8	жителей	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality|bratT8=Quantity
+9	сёл	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT38=Nationality|bratT9=GPE
+10	Раздольное	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT29=GPE|bratT38=Nationality|bratT9=GPE
+11	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT38=Nationality|bratT9=GPE
+12	Соловей	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT30=GPE|bratT38=Nationality|bratT9=GPE
+13	Ключ	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT30=GPE|bratT38=Nationality|bratT9=GPE
+14	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT38=Nationality|bratT9=GPE
+15	Вольно-Надеждинское	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT31=GPE|bratT38=Nationality|bratT9=GPE
+16	Надеждинского	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT10=GPE|bratT38=Nationality|bratT9=GPE
+17	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT10=GPE|bratT38=Nationality|bratT9=GPE
+18	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality
+19	с.	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT11=GPE|bratT23=GPE|bratT38=Nationality
+20	Реттиховка	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT11=GPE|bratT23=GPE|bratT38=Nationality
+21	Черниговского	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT11=GPE|bratT38=Nationality
+22	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratT11=GPE|bratT38=Nationality
+23	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality
+24	с.	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT12=GPE|bratT38=Nationality
+25	Воскресенка	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT12=GPE|bratT38=Nationality
+26	Спасского	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT12=GPE|bratT13=GPE|bratT38=Nationality
+27	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratT12=GPE|bratT13=GPE|bratT38=Nationality
+28	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality
+29	с.	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT14=GPE|bratT38=Nationality
+30	Новосысоевка	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT14=GPE|bratT38=Nationality
+31	Яковлевского	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT14=GPE|bratT15=GPE|bratT38=Nationality
+32	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratT14=GPE|bratT15=GPE|bratT38=Nationality
+33	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality
+34	с.	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT16=GPE|bratT38=Nationality
+35	Шкотово	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT16=GPE|bratT38=Nationality
+36	и	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality
+37	г.	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT17=GPE|bratT38=Nationality
+38	Большой	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT17=GPE|bratT38=Nationality
+39	Камень	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratT17=GPE|bratT38=Nationality
+40	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality
 41	,	_	_	_	_	_	_	_	_
 42	-	_	_	_	_	_	_	_	_
 43	заявили	_	_	_	_	_	_	_	_
@@ -148,7 +148,7 @@
 17	домах	_	_	_	_	_	_	_	_
 18	по	_	_	_	_	_	_	_	_
 19	заявкам	_	_	_	_	_	_	_	_
-20	жителей	_	_	_	_	_	_	_	SpaceAfter=No
+20	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T39:Resident|bratT39=Nationality
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0045-p7

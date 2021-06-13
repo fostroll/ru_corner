@@ -1,0 +1,73 @@
+T1	Person 0 20	Александр   Ширвиндт
+T2	Family 33 37	жена
+T3	Other-term 67 80	коронавирусом
+T4	Organization 114 143	Московского   театра   сатиры
+T5	Person-property 82 143	Художественный   руководитель   Московского   театра   сатиры
+T6	GPE 170 175	РСФСР
+T7	Person-property 150 175	народный   артист   РСФСР
+T8	Person 82 198	Художественный   руководитель   Московского   театра   сатиры   ,   народный   артист   РСФСР   Александр   Ширвиндт
+T9	Family 211 218	супруга
+T10	Other-term 245 258	коронавирусом
+T11	Person-property 263 280	Директор   театра
+T12	Person 263 296	Директор   театра   Мамед   Агаев
+T13	Date-absolute 343 354	23   ноября
+T14	Organization 431 454	РИА   ``   Новости   ''
+A1	Media T14
+T15	Family 485 489	папы
+T16	Other-term 508 513	ковид
+T17	Family 612 616	мамы
+T18	Service 672 681	Instagram
+T19	Family 684 687	сын
+T20	Person-property 690 697	артиста
+T21	Person-property 700 711	телеведущий
+T22	Person 684 731	сын   артиста   телеведущий   Михаил   Ширвиндт
+T23	Family 761 769	супругов
+T24	Person 888 913	Александра   Анатольевича
+T25	Person 929 936	Пушкина
+T26	Person 1093 1110	Михаил   Ширвиндт
+T27	Organization 1113 1117	ТАСС
+A3	Media T27
+T28	Person-property 1177 1183	артист
+T29	Person-property 1240 1258	Ширвиндта-младшего
+T30	Organization 1486 1501	Театра   сатиры
+T31	Person-property 1475 1501	Директор   Театра   сатиры
+T32	Organization 1535 1538	РБК
+A4	Media T32
+T33	Person 1551 1560	Ширвиндта
+T34	Date-absolute 1578 1589	к   пятнице
+T35	Date-absolute 1598 1614	к   понедельнику
+T36	Quantity 375 380	обоих
+T37	Date-relative 1135 1140	ранее
+A5	Male T1
+T38	Person-forename 0 9	Александр
+T39	Person-surname 12 20	Ширвиндт
+A6	Male T8
+T40	GPE 114 125	Московского
+A7	Adjective T40
+T41	Person-forename 178 187	Александр
+T42	Person-surname 190 198	Ширвиндт
+A8	Male T12
+T43	Person-forename 283 288	Мамед
+T44	Person-surname 291 296	Агаев
+A9	Past T13
+A10	Male T22
+T45	Person-forename 714 720	Михаил
+T46	Person-surname 723 731	Ширвиндт
+A11	Male T24
+T47	Person-forename 888 898	Александра
+T48	Person-patronym 901 913	Анатольевича
+A12	Male T25
+T49	Person-surname 929 936	Пушкина
+A13	Male T26
+T50	Person-forename 1093 1099	Михаил
+T51	Person-surname 1102 1110	Ширвиндт
+A14	Past T37
+T52	Person-surname 1551 1560	Ширвиндта
+A15	Male T33
+T53	Family 1345 1349	папа
+A16	Future T34
+A17	Future T35
+T55	Person 27 37	его   жена
+A18	Female T55
+T56	Person 205 218	его   супруга
+A19	Female T56

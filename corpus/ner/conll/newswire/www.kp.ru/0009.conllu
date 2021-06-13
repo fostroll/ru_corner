@@ -80,8 +80,11 @@
 19	Комаровский	_	_	_	_	_	_	_	bratA9=T8:Male|bratT30=Person-surname|bratT8=Person
 20	в	_	_	_	_	_	_	_	_
 21	интервью	_	_	_	_	_	_	_	_
-22	Украина.ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
-23	.	_	_	_	_	_	_	_	_
+22-24	Украина.ру	_	_	_	_	_	_	_	SpaceAfter=No
+22	Украина	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT35=GPE|bratT37=Web-address|bratT9=Organization
+23	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT37=Web-address|bratT9=Organization
+24	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT37=Web-address|bratT9=Organization
+25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0009-p4
 # par_text = Врач также отметил, что многие из его знакомых и пациентов получает результаты анализов о высоком уровне антител, хотя у них не было никаких симптомов.
@@ -134,8 +137,11 @@
 13	,	_	_	_	_	_	_	_	_
 14	сообщал	_	_	_	_	_	_	_	_
 15	сайт	_	_	_	_	_	_	_	bratA2=T12:Media|bratT12=Service
-16	KP.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratA3=T26:Media|bratT12=Service|bratT26=Organization
-17	.	_	_	_	_	_	_	_	_
+16-18	KP.ru	_	_	_	_	_	_	_	SpaceAfter=No
+16	KP	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratA3=T26:Media|bratT12=Service|bratT26=Organization|bratT36=Web-address
+17	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratA3=T26:Media|bratT12=Service|bratT26=Organization|bratT36=Web-address
+18	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratA3=T26:Media|bratT12=Service|bratT26=Organization|bratT36=Web-address
+19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0009-p6
 # par_text = За сутки с 30 октября по 1 ноября в Украине зафиксировано 6 754 новых заражённых COVID-19. В стране также зафиксировано 69 летальных исходов среди заразившихся коронавирусом. 29 октября в Украине от коронавирусной инфекции погибли 179 человек.
@@ -156,13 +162,16 @@
 13	754	_	_	_	_	_	_	_	bratT16=Quantity
 14	новых	_	_	_	_	_	_	_	bratT16=Quantity
 15	заражённых	_	_	_	_	_	_	_	bratT16=Quantity
-16	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
-17	.	_	_	_	_	_	_	_	_
+16-18	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+16	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
+17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
+18	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT34=Cardinal
+19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0009-p6-s2
 # text = В стране также зафиксировано 69 летальных исходов среди заразившихся коронавирусом.
 1	В	_	_	_	_	_	_	_	_
-2	стране	_	_	_	_	_	_	_	_
+2	стране	_	_	_	_	_	_	_	bratT38=GPE
 3	также	_	_	_	_	_	_	_	_
 4	зафиксировано	_	_	_	_	_	_	_	_
 5	69	_	_	_	_	_	_	_	bratT18=Quantity

@@ -1,0 +1,164 @@
+# newdoc id = 0114
+# newpar id = 0114-p1
+# par_text = Журналиста RT Илью Васюнина оштрафовали на 10 тысяч рублей за пикет в поддержку Ильи Азара
+# sent_id = 0114-p1-s1
+# text = Журналиста RT Илью Васюнина оштрафовали на 10 тысяч рублей за пикет в поддержку Ильи Азара
+1	Журналиста	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT2=Person-property
+2	RT	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT2=Person-property|bratT3=Organization
+3	Илью	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT4=Person-forename
+4	Васюнина	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT5=Person-surname
+5	оштрафовали	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	10	_	_	_	_	_	_	_	bratT6=Money
+8	тысяч	_	_	_	_	_	_	_	bratT6=Money
+9	рублей	_	_	_	_	_	_	_	bratT6=Money
+10	за	_	_	_	_	_	_	_	_
+11	пикет	_	_	_	_	_	_	_	bratT7=Event
+12	в	_	_	_	_	_	_	_	_
+13	поддержку	_	_	_	_	_	_	_	_
+14	Ильи	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-forename
+15	Азара	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Person-surname|bratT8=Person
+
+# newpar id = 0114-p2
+# par_text = Замоскворецкий районный суд Москвы оштрафовал на 10 тысяч журналиста RT Илью Васюнина за пикет в поддержку журналиста и муниципального депутата Ильи Азара. Об этом он сам сообщил в твиттере.
+# sent_id = 0114-p2-s1
+# text = Замоскворецкий районный суд Москвы оштрафовал на 10 тысяч журналиста RT Илью Васюнина за пикет в поддержку журналиста и муниципального депутата Ильи Азара.
+1	Замоскворецкий	_	_	_	_	_	_	_	bratA3=T12:Adjective|bratT11=Organization|bratT12=GPE
+2	районный	_	_	_	_	_	_	_	bratA3=T12:Adjective|bratT11=Organization|bratT12=GPE
+3	суд	_	_	_	_	_	_	_	bratT11=Organization
+4	Москвы	_	_	_	_	_	_	_	bratT11=Organization|bratT13=GPE
+5	оштрафовал	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	bratT14=Money
+7	10	_	_	_	_	_	_	_	bratT14=Money
+8	тысяч	_	_	_	_	_	_	_	bratT14=Money
+9	журналиста	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT16=Person-property
+10	RT	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization
+11	Илью	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT18=Person-forename
+12	Васюнина	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT19=Person-surname
+13	за	_	_	_	_	_	_	_	_
+14	пикет	_	_	_	_	_	_	_	bratT20=Event
+15	в	_	_	_	_	_	_	_	_
+16	поддержку	_	_	_	_	_	_	_	_
+17	журналиста	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT23=Person-property
+18	и	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person
+19	муниципального	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT24=Person-property
+20	депутата	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT24=Person-property
+21	Ильи	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT25=Person-forename
+22	Азара	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Male|bratT21=Person|bratT26=Person-surname
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p2-s2
+# text = Об этом он сам сообщил в твиттере.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	он	_	_	_	_	_	_	_	_
+4	сам	_	_	_	_	_	_	_	_
+5	сообщил	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	твиттере	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Service
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p3
+# par_text = Васюнина признали виновным по части 5 статьи 20.2 КоАП (нарушение правил проведения митинга).
+# sent_id = 0114-p3-s1
+# text = Васюнина признали виновным по части 5 статьи 20.2 КоАП (нарушение правил проведения митинга).
+1	Васюнина	_	_	_	_	_	_	_	bratA7=T28:Male|bratT28=Person|bratT29=Person-surname
+2	признали	_	_	_	_	_	_	_	_
+3	виновным	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	части	_	_	_	_	_	_	_	bratT30=Law
+6	5	_	_	_	_	_	_	_	bratT22=Ordinal|bratT30=Law
+7	статьи	_	_	_	_	_	_	_	bratT30=Law
+8	20.2	_	_	_	_	_	_	_	bratT30=Law|bratT80=Ordinal
+9	КоАП	_	_	_	_	_	_	_	bratT30=Law|bratT81=Law
+10	(	_	_	_	_	_	_	_	SpaceAfter=No
+11	нарушение	_	_	_	_	_	_	_	_
+12	правил	_	_	_	_	_	_	_	_
+13	проведения	_	_	_	_	_	_	_	_
+14	митинга	_	_	_	_	_	_	_	SpaceAfter=No
+15	)	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p4
+# par_text = Ранее за пикеты в поддержку Азара оштрафовали журналиста «Дождя» Михаила Фишмана и ведущих «Эха Москвы» Татьяну Фельгенгауэр и Александра Плющева.
+# sent_id = 0114-p4-s1
+# text = Ранее за пикеты в поддержку Азара оштрафовали журналиста ``Дождя'' Михаила Фишмана и ведущих ``Эха Москвы'' Татьяну Фельгенгауэр и Александра Плющева.
+1	Ранее	_	_	_	_	_	_	_	bratA6=T32:Past|bratT32=Date-relative
+2	за	_	_	_	_	_	_	_	_
+3	пикеты	_	_	_	_	_	_	_	bratT31=Event
+4	в	_	_	_	_	_	_	_	_
+5	поддержку	_	_	_	_	_	_	_	_
+6	Азара	_	_	_	_	_	_	_	bratA21=T82:Male|bratT82=Person|bratT83=Person-surname
+7	оштрафовали	_	_	_	_	_	_	_	_
+8	журналиста	_	_	_	_	_	_	_	bratA9=T34:Male|bratT34=Person|bratT35=Person-property
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T36:Media|bratA9=T34:Male|bratT34=Person|bratT35=Person-property|bratT36=Organization
+10	Дождя	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T36:Media|bratA9=T34:Male|bratT34=Person|bratT35=Person-property|bratT36=Organization
+11	''	_	_	_	_	_	_	_	bratA10=T36:Media|bratA9=T34:Male|bratT34=Person|bratT35=Person-property|bratT36=Organization
+12	Михаила	_	_	_	_	_	_	_	bratA9=T34:Male|bratT34=Person|bratT37=Person-forename
+13	Фишмана	_	_	_	_	_	_	_	bratA9=T34:Male|bratT34=Person|bratT38=Person-surname
+14	и	_	_	_	_	_	_	_	_
+15	ведущих	_	_	_	_	_	_	_	bratA8=T33:Plural|bratT33=Person|bratT39=Person-property
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T40:Media|bratA8=T33:Plural|bratT33=Person|bratT39=Person-property|bratT40=Organization
+17	Эха	_	_	_	_	_	_	_	bratA11=T40:Media|bratA8=T33:Plural|bratT33=Person|bratT39=Person-property|bratT40=Organization
+18	Москвы	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T40:Media|bratA8=T33:Plural|bratT33=Person|bratT39=Person-property|bratT40=Organization|bratT41=GPE
+19	''	_	_	_	_	_	_	_	bratA11=T40:Media|bratA8=T33:Plural|bratT33=Person|bratT39=Person-property|bratT40=Organization
+20	Татьяну	_	_	_	_	_	_	_	bratA12=T42:Female|bratA8=T33:Plural|bratT33=Person|bratT42=Person|bratT43=Person-forename
+21	Фельгенгауэр	_	_	_	_	_	_	_	bratA12=T42:Female|bratA8=T33:Plural|bratT33=Person|bratT42=Person|bratT44=Person-surname
+22	и	_	_	_	_	_	_	_	bratA8=T33:Plural|bratT33=Person
+23	Александра	_	_	_	_	_	_	_	bratA13=T45:Male|bratA8=T33:Plural|bratT33=Person|bratT45=Person|bratT46=Person-forename
+24	Плющева	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T45:Male|bratA8=T33:Plural|bratT33=Person|bratT45=Person|bratT47=Person-surname
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0114-p5
+# par_text = В коце мая Азара отправили в специприемник за пикет в поддержку основателя проекта «Омбудсмен полиции» Владимира Воронцова. После этого сотрудники нескольких изданий вышли с пикетами к управлению МВД по Москве. Во время акции полиция задержала 32 человека.
+# sent_id = 0114-p5-s1
+# text = В коце мая Азара отправили в специприемник за пикет в поддержку основателя проекта «Омбудсмен полиции» Владимира Воронцова.
+1	В	_	_	_	_	_	_	_	bratA14=T48:Past|bratT48=Date-absolute
+2	коце	_	_	_	_	_	_	_	bratA14=T48:Past|bratT48=Date-absolute
+3	мая	_	_	_	_	_	_	_	bratA14=T48:Past|bratT48=Date-absolute
+4	Азара	_	_	_	_	_	_	_	bratA15=T49:Male|bratT49=Person|bratT50=Person-surname
+5	отправили	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	специприемник	_	_	_	_	_	_	_	_
+8	за	_	_	_	_	_	_	_	_
+9	пикет	_	_	_	_	_	_	_	bratT51=Event
+10	в	_	_	_	_	_	_	_	_
+11	поддержку	_	_	_	_	_	_	_	_
+12	основателя	_	_	_	_	_	_	_	bratA16=T52:Male|bratT52=Person|bratT54=Person-property
+13	проекта	_	_	_	_	_	_	_	bratA16=T52:Male|bratA24=T53:Media|bratT52=Person|bratT53=Service|bratT54=Person-property
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T52:Male|bratA24=T53:Media|bratT52=Person|bratT53=Service|bratT54=Person-property
+15	Омбудсмен	_	_	_	_	_	_	_	bratA16=T52:Male|bratA24=T53:Media|bratT52=Person|bratT53=Service|bratT54=Person-property
+16	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T52:Male|bratA24=T53:Media|bratT52=Person|bratT53=Service|bratT54=Person-property|bratT85=Organization
+17	''	_	_	_	_	_	_	_	bratA16=T52:Male|bratA24=T53:Media|bratT52=Person|bratT53=Service|bratT54=Person-property
+18	Владимира	_	_	_	_	_	_	_	bratA16=T52:Male|bratT52=Person|bratT55=Person-forename
+19	Воронцова	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T52:Male|bratT52=Person|bratT56=Person-surname
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p5-s2
+# text = После этого сотрудники нескольких изданий вышли с пикетами к управлению МВД по Москве.
+1	После	_	_	_	_	_	_	_	bratA22=T57:Past|bratT57=Date-relative
+2	этого	_	_	_	_	_	_	_	bratA22=T57:Past|bratT57=Date-relative
+3	сотрудники	_	_	_	_	_	_	_	bratT58=Person-property
+4	нескольких	_	_	_	_	_	_	_	bratT73=Quantity
+5	изданий	_	_	_	_	_	_	_	bratT73=Quantity
+6	вышли	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	_
+8	пикетами	_	_	_	_	_	_	_	_
+9	к	_	_	_	_	_	_	_	_
+10	управлению	_	_	_	_	_	_	_	bratT74=Organization
+11	МВД	_	_	_	_	_	_	_	bratT74=Organization|bratT86=Organization
+12	по	_	_	_	_	_	_	_	bratT74=Organization
+13	Москве	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization|bratT75=GPE
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0114-p5-s3
+# text = Во время акции полиция задержала 32 человека.
+1	Во	_	_	_	_	_	_	_	bratA23=T76:Past|bratT76=Date-absolute
+2	время	_	_	_	_	_	_	_	bratA23=T76:Past|bratT76=Date-absolute
+3	акции	_	_	_	_	_	_	_	bratA23=T76:Past|bratT76=Date-absolute|bratT77=Event
+4	полиция	_	_	_	_	_	_	_	bratT84=Organization
+5	задержала	_	_	_	_	_	_	_	_
+6	32	_	_	_	_	_	_	_	bratT79=Quantity
+7	человека	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Quantity
+8	.	_	_	_	_	_	_	_	_
+

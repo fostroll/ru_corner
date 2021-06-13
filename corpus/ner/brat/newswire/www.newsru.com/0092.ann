@@ -1,0 +1,56 @@
+T1	GPE 32 43	Севастополе
+T2	Date-period-absolute 55 69	на   81   день
+T3	GPE 75 86	Севастополе
+T4	Location 94 112	полуострове   Крым
+T5	GPE 140 142	РФ
+T6	Date-absolute 145 160	в   2014   году
+T7	Organization 272 291	``   Интерфакс   ''
+A1	Media T7
+T8	Organization 314 349	российскую   администрацию   города
+T9	Organization 371 384	администрации
+T10	Person-property 355 384	Представитель   администрации
+T11	Person 355 405	Представитель   администрации   Владимир   Базаров
+T12	Location 437 468	Чернореченского   водохранилища
+T13	GPE 496 507	Севастополь
+T14	Quantity 527 556	16,8   миллионов   кубометров
+T15	Quantity 585 598	7   миллионов
+T16	Date-period-absolute 695 712	до   конца   года
+T17	Date-period-absolute 785 799	на   81   день
+T18	GPE 818 829	Севастополя
+T19	Person-property 805 829	Губернатор   Севастополя
+T20	Person 805 850	Губернатор   Севастополя   Михаил   Развожаев
+T21	GPE 896 898	РФ
+T22	Organization 874 898	кабинет   министров   РФ
+T23	Date-absolute 901 912	8   октября
+T24	Money 934 961	более   5,8   млрд   рублей
+T25	Location 1085 1108	Крымского   полуострова
+T26	Location 1184 1206	Кадыковского   карьера
+T27	Date-period-absolute 1213 1230	до   30   декабря
+T28	Facility 1253 1278	Бельбекского   водозабора
+T29	Date-period-absolute 1285 1313	до   1   марта   2021   года
+T30	Location 1342 1350	Гасфорты
+T31	Date-absolute 1384 1407	со   следующей   недели
+T32	Event 176 217	``   режим   повышенной   готовности   ''
+T33	Event 1487 1518	Режим   повышенной   готовности
+T34	Duration 60 69	81   день
+A2	Past T6
+T35	GPE 314 324	российскую
+A3	Adjective T35
+A4	Male T11
+T36	Person-forename 387 395	Владимир
+T37	Person-surname 398 405	Базаров
+A5	Pres-Fut T2
+A6	Pres-Fut T16
+A7	Pres-Fut T17
+T38	Duration 790 799	81   день
+A8	Male T20
+T39	Person-forename 832 838	Михаил
+T40	Person-surname 841 850	Развожаев
+A9	Past T23
+A12	Future T31
+T41	Ordinal 1389 1398	следующей
+A10	UNK-Fut T27
+A11	UNK-Fut T29
+T42	Ordinal 1004 1018	первоочередные
+T43	Ordinal 1125 1139	первоочередных
+T44	GPE 343 349	города

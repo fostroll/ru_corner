@@ -9,7 +9,7 @@
 4	при	_	_	_	_	_	_	_	_
 5	разгоне	_	_	_	_	_	_	_	bratT29=Event
 6	акции	_	_	_	_	_	_	_	bratT29=Event
-7	оппозиции	_	_	_	_	_	_	_	bratT29=Event
+7	оппозиции	_	_	_	_	_	_	_	bratT29=Event|bratT40=Organization
 8	в	_	_	_	_	_	_	_	_
 9	Минске	_	_	_	_	_	_	_	bratT2=GPE
 
@@ -57,15 +57,18 @@
 16	перед	_	_	_	_	_	_	_	_
 17	стелой	_	_	_	_	_	_	_	bratT7=Facility
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
-19	Минск	_	_	_	_	_	_	_	bratT7=Facility
-20	город-герой	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
-21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
-22	,	_	_	_	_	_	_	_	_
-23	а	_	_	_	_	_	_	_	_
-24	также	_	_	_	_	_	_	_	_
-25	на	_	_	_	_	_	_	_	_
-26	Кальварийской	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Facility
-27	.	_	_	_	_	_	_	_	_
+19	Минск	_	_	_	_	_	_	_	bratT39=GPE|bratT7=Facility
+20-22	город-герой	_	_	_	_	_	_	_	SpaceAfter=No
+20	город	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
+22	герой	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Facility
+24	,	_	_	_	_	_	_	_	_
+25	а	_	_	_	_	_	_	_	_
+26	также	_	_	_	_	_	_	_	_
+27	на	_	_	_	_	_	_	_	_
+28	Кальварийской	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Facility
+29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0037-p4
 # par_text = После разгона участников акции на газоне лежит один пострадавший, которому оказывают ему первую помощь.
@@ -95,7 +98,7 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	акции	_	_	_	_	_	_	_	bratT34=Event
-4	оппозиции	_	_	_	_	_	_	_	bratT34=Event
+4	оппозиции	_	_	_	_	_	_	_	bratT34=Event|bratT41=Organization
 5	проходят	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	Белоруссии	_	_	_	_	_	_	_	bratT8=GPE
@@ -105,7 +108,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	прошедших	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	республики	_	_	_	_	_	_	_	_
+14	республики	_	_	_	_	_	_	_	bratT44=GPE
 15	9	_	_	_	_	_	_	_	bratA5=T10:Past|bratT10=Date-absolute
 16	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Past|bratT10=Date-absolute
 17	.	_	_	_	_	_	_	_	_
@@ -117,25 +120,28 @@
 1	Как	_	_	_	_	_	_	_	_
 2	писал	_	_	_	_	_	_	_	_
 3	сайт	_	_	_	_	_	_	_	bratA2=T11:Media|bratT11=Service
-4	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratA3=T32:Media|bratT11=Service|bratT32=Organization
-5	,	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratA7=T12:Future|bratT12=Date-absolute
-7	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Future|bratT12=Date-absolute
-8	,	_	_	_	_	_	_	_	bratA7=T12:Future|bratT12=Date-absolute
-9	8	_	_	_	_	_	_	_	bratA7=T12:Future|bratT12=Date-absolute
-10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Future|bratT12=Date-absolute
-11	,	_	_	_	_	_	_	_	_
-12	в	_	_	_	_	_	_	_	_
-13	Минске	_	_	_	_	_	_	_	bratT13=GPE
-14	ожидается	_	_	_	_	_	_	_	_
-15	акция	_	_	_	_	_	_	_	bratT14=Event
-16	под	_	_	_	_	_	_	_	bratT14=Event
-17	названием	_	_	_	_	_	_	_	bratT14=Event
-18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
-19	Марш	_	_	_	_	_	_	_	bratT14=Event
-20	народовластия	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
-21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
-22	.	_	_	_	_	_	_	_	_
+4-6	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No
+4	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratA3=T32:Media|bratT11=Service|bratT32=Organization|bratT43=Web-address
+5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratA3=T32:Media|bratT11=Service|bratT32=Organization|bratT43=Web-address
+6	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratA3=T32:Media|bratT11=Service|bratT32=Organization|bratT43=Web-address
+7	,	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA7=T12:Future|bratT12=Date-absolute
+9	воскресенье	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Future|bratT12=Date-absolute
+10	,	_	_	_	_	_	_	_	bratA7=T12:Future|bratT12=Date-absolute
+11	8	_	_	_	_	_	_	_	bratA7=T12:Future|bratT12=Date-absolute
+12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Future|bratT12=Date-absolute
+13	,	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	Минске	_	_	_	_	_	_	_	bratT13=GPE
+16	ожидается	_	_	_	_	_	_	_	_
+17	акция	_	_	_	_	_	_	_	bratT14=Event
+18	под	_	_	_	_	_	_	_	bratT14=Event
+19	названием	_	_	_	_	_	_	_	bratT14=Event
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
+21	Марш	_	_	_	_	_	_	_	bratT14=Event
+22	народовластия	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
+24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p6-s2
 # text = Силовики стянули дополнительные силы в район Дворца Независимости, где находится резиденция президента Белоруссии Александра Лукашенко, а также в различные части белорусской столицы.
@@ -168,7 +174,7 @@
 # sent_id = 0037-p6-s3
 # text = Акции оппозиции намечены также и в других городах Белоруссии.
 1	Акции	_	_	_	_	_	_	_	bratT35=Event
-2	оппозиции	_	_	_	_	_	_	_	bratT35=Event
+2	оппозиции	_	_	_	_	_	_	_	bratT35=Event|bratT42=Organization
 3	намечены	_	_	_	_	_	_	_	_
 4	также	_	_	_	_	_	_	_	_
 5	и	_	_	_	_	_	_	_	_

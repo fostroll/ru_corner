@@ -1,0 +1,200 @@
+# newdoc id = 0038
+# newpar id = 0038-p1
+# par_text = Жителя Калининграда приговорили к 3,5 года колонии за ролики о чеченской войне
+# sent_id = 0038-p1-s1
+# text = Жителя Калининграда приговорили к 3,5 года колонии за ролики о чеченской войне
+1	Жителя	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality
+2	Калининграда	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality|bratT2=GPE
+3	приговорили	_	_	_	_	_	_	_	_
+4	к	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT3=Date-period-relative
+5	3,5	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT17=Duration|bratT3=Date-period-relative
+6	года	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT17=Duration|bratT3=Date-period-relative
+7	колонии	_	_	_	_	_	_	_	_
+8	за	_	_	_	_	_	_	_	_
+9	ролики	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	чеченской	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratT4=Event|bratT5=GPE
+12	войне	_	_	_	_	_	_	_	bratT4=Event
+
+# newpar id = 0038-p2
+# par_text = В Калиниграде 2-й окружной военный суд на выездном заседании приговорил 27-летнего жителя Калининграда Айтахаджи Халимова к 3,5 года колонии общего режима, сообщила «Медиазоне» адвокат Мария Бонцлер.
+# sent_id = 0038-p2-s1
+# text = В Калиниграде 2-й окружной военный суд на выездном заседании приговорил 27-летнего жителя Калининграда Айтахаджи Халимова к 3,5 года колонии общего режима, сообщила ``Медиазоне'' адвокат Мария Бонцлер.
+1	В	_	_	_	_	_	_	_	_
+2	Калиниграде	_	_	_	_	_	_	_	bratT6=GPE
+3	2-й	_	_	_	_	_	_	_	bratT7=Organization|bratT8=Ordinal
+4	окружной	_	_	_	_	_	_	_	bratT7=Organization
+5	военный	_	_	_	_	_	_	_	bratT7=Organization
+6	суд	_	_	_	_	_	_	_	bratT7=Organization
+7	на	_	_	_	_	_	_	_	_
+8	выездном	_	_	_	_	_	_	_	_
+9	заседании	_	_	_	_	_	_	_	_
+10	приговорил	_	_	_	_	_	_	_	_
+11	27-летнего	_	_	_	_	_	_	_	bratT9=Age
+12	жителя	_	_	_	_	_	_	_	bratA3=T10:Male|bratA4=T11:Resident|bratT10=Person|bratT11=Nationality
+13	Калининграда	_	_	_	_	_	_	_	bratA3=T10:Male|bratA4=T11:Resident|bratT10=Person|bratT11=Nationality|bratT12=GPE
+14	Айтахаджи	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT13=Person-forename
+15	Халимова	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT14=Person-surname
+16	к	_	_	_	_	_	_	_	bratA19=T15:Past-UNK|bratT15=Date-period-relative
+17	3,5	_	_	_	_	_	_	_	bratA19=T15:Past-UNK|bratT15=Date-period-relative|bratT16=Duration
+18	года	_	_	_	_	_	_	_	bratA19=T15:Past-UNK|bratT15=Date-period-relative|bratT16=Duration
+19	колонии	_	_	_	_	_	_	_	_
+20	общего	_	_	_	_	_	_	_	_
+21	режима	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	сообщила	_	_	_	_	_	_	_	_
+24	``	_	_	_	_	_	_	_	SpaceAfter=No
+25	Медиазоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T18:Media|bratT18=Organization
+26	''	_	_	_	_	_	_	_	_
+27	адвокат	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property
+28	Мария	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT21=Person-forename
+29	Бонцлер	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Female|bratT19=Person|bratT22=Person-surname
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p3
+# par_text = Подсудимый обвинялся по двум эпизодам части 2 статьи 205.2 УК (публичные призывы к терроризму или его оправдание в интернете).
+# sent_id = 0038-p3-s1
+# text = Подсудимый обвинялся по двум эпизодам части 2 статьи 205.2 УК (публичные призывы к терроризму или его оправдание в интернете).
+1	Подсудимый	_	_	_	_	_	_	_	bratT23=Person-property
+2	обвинялся	_	_	_	_	_	_	_	_
+3	по	_	_	_	_	_	_	_	_
+4	двум	_	_	_	_	_	_	_	bratT25=Quantity
+5	эпизодам	_	_	_	_	_	_	_	bratT25=Quantity
+6	части	_	_	_	_	_	_	_	bratT24=Law
+7	2	_	_	_	_	_	_	_	bratT24=Law|bratT48=Ordinal
+8	статьи	_	_	_	_	_	_	_	bratT24=Law
+9	205.2	_	_	_	_	_	_	_	bratT24=Law|bratT49=Ordinal
+10	УК	_	_	_	_	_	_	_	bratT24=Law|bratT50=Law
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	публичные	_	_	_	_	_	_	_	_
+13	призывы	_	_	_	_	_	_	_	_
+14	к	_	_	_	_	_	_	_	_
+15	терроризму	_	_	_	_	_	_	_	_
+16	или	_	_	_	_	_	_	_	_
+17	его	_	_	_	_	_	_	_	_
+18	оправдание	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	интернете	_	_	_	_	_	_	_	SpaceAfter=No
+21	)	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p4
+# par_text = Защитница уточнила, что дело Халимова рассмотрели по существу за три заседания. При этом подсудимый не признал вину в пропаганде терроризма, но согласился с тем, что публиковал ролики.
+# sent_id = 0038-p4-s1
+# text = Защитница уточнила, что дело Халимова рассмотрели по существу за три заседания.
+1	Защитница	_	_	_	_	_	_	_	bratT26=Person-property
+2	уточнила	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	_
+6	Халимова	_	_	_	_	_	_	_	bratA7=T27:Female|bratT27=Person|bratT28=Person-surname
+7	рассмотрели	_	_	_	_	_	_	_	_
+8	по	_	_	_	_	_	_	_	_
+9	существу	_	_	_	_	_	_	_	_
+10	за	_	_	_	_	_	_	_	_
+11	три	_	_	_	_	_	_	_	bratT29=Quantity
+12	заседания	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0038-p4-s2
+# text = При этом подсудимый не признал вину в пропаганде терроризма, но согласился с тем, что публиковал ролики.
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	подсудимый	_	_	_	_	_	_	_	bratT30=Person-property
+4	не	_	_	_	_	_	_	_	_
+5	признал	_	_	_	_	_	_	_	_
+6	вину	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	пропаганде	_	_	_	_	_	_	_	_
+9	терроризма	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Other-term
+10	,	_	_	_	_	_	_	_	_
+11	но	_	_	_	_	_	_	_	_
+12	согласился	_	_	_	_	_	_	_	_
+13	с	_	_	_	_	_	_	_	_
+14	тем	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	что	_	_	_	_	_	_	_	_
+17	публиковал	_	_	_	_	_	_	_	_
+18	ролики	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p5
+# par_text = Жена осужденного Камила Халимова рассказала «Север.Реалии», что суд не учел его новорожденного сына. Она приехала на заседание прямо из роддома.
+# sent_id = 0038-p5-s1
+# text = Жена осужденного Камила Халимова рассказала ``Север.Реалии'', что суд не учел его новорожденного сына.
+1	Жена	_	_	_	_	_	_	_	bratA8=T33:Female|bratT31=Family|bratT33=Person
+2	осужденного	_	_	_	_	_	_	_	bratA8=T33:Female|bratT32=Person-property|bratT33=Person
+3	Камила	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person|bratT34=Person-forename
+4	Халимова	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person|bratT35=Person-surname
+5	рассказала	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T36:Media|bratT36=Organization
+7-9	Север.Реалии	_	_	_	_	_	_	_	SpaceAfter=No
+7	Север	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T36:Media|bratT36=Organization
+8	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T36:Media|bratT36=Organization
+9	Реалии	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T36:Media|bratT36=Organization
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T36:Media|bratT36=Organization
+11	,	_	_	_	_	_	_	_	_
+12	что	_	_	_	_	_	_	_	_
+13	суд	_	_	_	_	_	_	_	_
+14	не	_	_	_	_	_	_	_	_
+15	учел	_	_	_	_	_	_	_	_
+16	его	_	_	_	_	_	_	_	bratA14=T51:Male|bratT51=Person
+17	новорожденного	_	_	_	_	_	_	_	bratA14=T51:Male|bratT37=Age|bratT51=Person
+18	сына	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T51:Male|bratT38=Family|bratT51=Person
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0038-p5-s2
+# text = Она приехала на заседание прямо из роддома.
+1	Она	_	_	_	_	_	_	_	_
+2	приехала	_	_	_	_	_	_	_	_
+3	на	_	_	_	_	_	_	_	_
+4	заседание	_	_	_	_	_	_	_	_
+5	прямо	_	_	_	_	_	_	_	_
+6	из	_	_	_	_	_	_	_	_
+7	роддома	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0038-p6
+# par_text = «Север.Реалии» писали, что дело возбудили из-за трех роликов «ВКонтакте», посвященных первой чеченской войне. Эти ролики не запрещены и до сих пор доступны на странице Халимова.
+# sent_id = 0038-p6-s1
+# text = ``Север.Реалии'' писали, что дело возбудили из-за трех роликов ``ВКонтакте'', посвященных первой чеченской войне.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T39:Media|bratT39=Organization
+2-4	Север.Реалии	_	_	_	_	_	_	_	SpaceAfter=No
+2	Север	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T39:Media|bratT39=Organization
+3	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T39:Media|bratT39=Organization
+4	Реалии	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T39:Media|bratT39=Organization
+5	''	_	_	_	_	_	_	_	bratA13=T39:Media|bratT39=Organization
+6	писали	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	дело	_	_	_	_	_	_	_	_
+10	возбудили	_	_	_	_	_	_	_	_
+11	из-за	_	_	_	_	_	_	_	_
+12	трех	_	_	_	_	_	_	_	bratT40=Quantity
+13	роликов	_	_	_	_	_	_	_	bratA9=T54:Media|bratT40=Quantity|bratT54=Service
+14	``	_	_	_	_	_	_	_	SpaceAfter=No
+15	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Service
+16	''	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	посвященных	_	_	_	_	_	_	_	_
+19	первой	_	_	_	_	_	_	_	bratT42=Event|bratT43=Ordinal
+20	чеченской	_	_	_	_	_	_	_	bratA10=T44:Adjective|bratT42=Event|bratT44=GPE
+21	войне	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0038-p6-s2
+# text = Эти ролики не запрещены и до сих пор доступны на странице Халимова.
+1	Эти	_	_	_	_	_	_	_	_
+2	ролики	_	_	_	_	_	_	_	_
+3	не	_	_	_	_	_	_	_	_
+4	запрещены	_	_	_	_	_	_	_	_
+5	и	_	_	_	_	_	_	_	_
+6	до	_	_	_	_	_	_	_	bratA16=T53:Past-Pres|bratA17=T53:RCont|bratT53=Date-period-absolute
+7	сих	_	_	_	_	_	_	_	bratA16=T53:Past-Pres|bratA17=T53:RCont|bratT53=Date-period-absolute
+8	пор	_	_	_	_	_	_	_	bratA16=T53:Past-Pres|bratA17=T53:RCont|bratT53=Date-period-absolute
+9	доступны	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	странице	_	_	_	_	_	_	_	bratA15=T52:Media|bratT52=Service
+12	Халимова	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T45:Male|bratT45=Person|bratT46=Person-surname
+13	.	_	_	_	_	_	_	_	_
+

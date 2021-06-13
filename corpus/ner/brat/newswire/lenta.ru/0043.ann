@@ -2,7 +2,6 @@ T1	Person-property 25 33	балерина
 T2	Organization 63 68	Vogue
 T3	Person-property 70 92	Бразильская   балерина
 T4	Person 70 109	Бразильская   балерина   Ингрид   Силва
-T5	Person 116 130	Ingrid   Silva
 T6	Organization 174 189	журнала   Vogue
 T7	Service 279 297	Instagram-аккаунте
 T8	Person 533 538	Силве
@@ -11,16 +10,15 @@ T10	GPE 697 706	Нью-Йорке
 T11	Quantity 867 895	больше   66   тысяч   лайков
 T12	Person-property 944 967	нью-йоркский   фотограф
 T13	Person 944 984	нью-йоркский   фотограф   Хенрик   Гендр
-T14	Person 991 1008	Henrique   Gendre
 T15	Organization 1093 1103	L'Officiel
-T16	Date-absolute 1431 1449	Ранее   в   ноябре
-T17	Organization 1467 1494	британской   версии   Vogue
-T18	Age 1508 1517	71-летний
-T19	Person-property 1520 1536	принц   Уэльский
-T20	Person 1520 1545	принц   Уэльский   Чарльз
-T21	Product 1772 1805	брендом   Anderson   &   Sheppard
-T22	Date-absolute 1808 1824	30   лет   назад
-T23	Person-property 1695 1701	принце
+T16	Date-absolute 1421 1439	Ранее   в   ноябре
+T17	Organization 1457 1484	британской   версии   Vogue
+T18	Age 1498 1507	71-летний
+T19	Person-property 1510 1526	принц   Уэльский
+T20	Person 1510 1535	принц   Уэльский   Чарльз
+T21	Product 1762 1795	брендом   Anderson   &   Sheppard
+T22	Date-absolute 1798 1814	30   лет   назад
+T23	Person-property 1685 1691	принце
 T24	Organization 1110 1124	i-D   Magazine
 T25	Organization 1131 1137	Grazia
 T26	Person-property 626 634	балерины
@@ -32,13 +30,13 @@ A6	Media T2
 A7	Media T6
 T27	Ordinal 764 774	следующего
 A8	Past T16
-T28	Duration 1808 1816	30   лет
+T28	Duration 1798 1806	30   лет
 A9	Past T22
-T29	Date-relative 1431 1436	Ранее
+T29	Date-relative 1421 1426	Ранее
 A4	Past T29
 T30	GPE 70 81	Бразильская
 T31	GPE 944 956	нью-йоркский
-T32	GPE 1467 1477	британской
+T32	GPE 1457 1467	британской
 T33	Person-forename 95 101	Ингрид
 T34	Person-surname 104 109	Силва
 T35	Person-forename 116 122	Ingrid
@@ -48,14 +46,26 @@ T38	Person-forename 970 976	Хенрик
 T39	Person-surname 979 984	Гендр
 T40	Person-forename 991 999	Henrique
 T41	Person-surname 1002 1008	Gendre
-T42	Person-forename 1539 1545	Чарльз
+T42	Person-forename 1529 1535	Чарльз
 A10	Female T4
-A11	Female T5
 A12	Female T8
 A13	Male T13
-A14	Male T14
 A15	Adjective T32
 A16	Adjective T31
 A17	Male T20
 A18	Adjective T30
 A19	Trademark T21
+T43	Event 911 917	съемки
+T44	Other-group 223 234	поклонников
+T45	Person 626 634	балерины
+A20	Female T45
+T46	Person 25 33	балерина
+A21	Female T46
+T47	Person 1685 1691	принце
+A22	Male T47
+T5	Person 991 1008	Henrique   Gendre
+A11	Male T5
+T14	Person 116 130	Ingrid   Silva
+A14	Female T14
+T49	Person 365 377	знаменитость
+A23	Female T49

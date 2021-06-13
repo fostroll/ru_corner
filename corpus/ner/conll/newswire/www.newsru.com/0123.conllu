@@ -1,0 +1,244 @@
+# newdoc id = 0123
+# newpar id = 0123-p1
+# par_text = Одобренный Верховным судом военный судья Птицын стал главой Мосгорсуда после утверждения президента
+# sent_id = 0123-p1-s1
+# text = Одобренный Верховным судом военный судья Птицын стал главой Мосгорсуда после утверждения президента
+1	Одобренный	_	_	_	_	_	_	_	_
+2	Верховным	_	_	_	_	_	_	_	bratT1=Organization
+3	судом	_	_	_	_	_	_	_	bratT1=Organization
+4	военный	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT5=Person-property
+5	судья	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT5=Person-property
+6	Птицын	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT51=Person-surname
+7	стал	_	_	_	_	_	_	_	_
+8	главой	_	_	_	_	_	_	_	bratT3=Person-property
+9	Мосгорсуда	_	_	_	_	_	_	_	bratT3=Person-property|bratT6=Organization
+10	после	_	_	_	_	_	_	_	bratA4=T47:Past|bratT47=Date-absolute
+11	утверждения	_	_	_	_	_	_	_	bratA4=T47:Past|bratT47=Date-absolute|bratT70=Event
+12	президента	_	_	_	_	_	_	_	bratT4=Person-property|bratT70=Event
+
+# newpar id = 0123-p2
+# par_text = Михаил Птицын официально назначен главой Мосгорсуда, соответствующий указ президента России Владимира Путина опубликован на интернет-портале правовой информации.
+# sent_id = 0123-p2-s1
+# text = Михаил Птицын официально назначен главой Мосгорсуда, соответствующий указ президента России Владимира Путина опубликован на интернет-портале правовой информации.
+1	Михаил	_	_	_	_	_	_	_	bratA5=T7:Male|bratT52=Person-forename|bratT7=Person
+2	Птицын	_	_	_	_	_	_	_	bratA5=T7:Male|bratT53=Person-surname|bratT7=Person
+3	официально	_	_	_	_	_	_	_	_
+4	назначен	_	_	_	_	_	_	_	_
+5	главой	_	_	_	_	_	_	_	bratT8=Person-property
+6	Мосгорсуда	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person-property|bratT9=Organization
+7	,	_	_	_	_	_	_	_	_
+8	соответствующий	_	_	_	_	_	_	_	_
+9	указ	_	_	_	_	_	_	_	_
+10	президента	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Person-property|bratT13=Person
+11	России	_	_	_	_	_	_	_	bratA6=T13:Male|bratT11=Person-property|bratT12=GPE|bratT13=Person
+12	Владимира	_	_	_	_	_	_	_	bratA6=T13:Male|bratT13=Person|bratT54=Person-forename
+13	Путина	_	_	_	_	_	_	_	bratA6=T13:Male|bratT13=Person|bratT55=Person-surname
+14	опубликован	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	интернет-портале	_	_	_	_	_	_	_	bratA1=T14:Media|bratT14=Service
+17	правовой	_	_	_	_	_	_	_	bratA1=T14:Media|bratT14=Service
+18	информации	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T14:Media|bratT14=Service
+19	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0123-p3
+# par_text = "Руководствуясь статьями 83 и 128 Конституции Российской Федерации, постановляю назначить на 6-летний срок полномочий председателем Московского городского суда Птицына Михаила Юрьевича", - говорится в документе. Данный указ вступает в силу с 24 октября 2020 года.
+# sent_id = 0123-p3-s1
+# text = ``Руководствуясь статьями 83 и 128 Конституции Российской Федерации, постановляю назначить на 6-летний срок полномочий председателем Московского городского суда Птицына Михаила Юрьевича'', - говорится в документе.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Руководствуясь	_	_	_	_	_	_	_	_
+3	статьями	_	_	_	_	_	_	_	bratT15=Law
+4	83	_	_	_	_	_	_	_	bratT15=Law|bratT56=Ordinal
+5	и	_	_	_	_	_	_	_	bratT15=Law
+6	128	_	_	_	_	_	_	_	bratT15=Law|bratT57=Ordinal
+7	Конституции	_	_	_	_	_	_	_	bratT15=Law|bratT16=Law
+8	Российской	_	_	_	_	_	_	_	bratT15=Law|bratT16=Law|bratT17=GPE
+9	Федерации	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Law|bratT16=Law|bratT17=GPE
+10	,	_	_	_	_	_	_	_	_
+11	постановляю	_	_	_	_	_	_	_	_
+12	назначить	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	6-летний	_	_	_	_	_	_	_	bratA7=T10:Past-UNK|bratT10=Date-period-relative|bratT58=Duration
+15	срок	_	_	_	_	_	_	_	_
+16	полномочий	_	_	_	_	_	_	_	_
+17	председателем	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT19=Person-property
+18	Московского	_	_	_	_	_	_	_	bratA13=T18:Male|bratA18=T68:Adjective|bratT18=Person|bratT19=Person-property|bratT20=Organization|bratT68=GPE
+19	городского	_	_	_	_	_	_	_	bratA13=T18:Male|bratA18=T68:Adjective|bratT18=Person|bratT19=Person-property|bratT20=Organization|bratT68=GPE
+20	суда	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT19=Person-property|bratT20=Organization
+21	Птицына	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT59=Person-surname
+22	Михаила	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT60=Person-forename
+23	Юрьевича	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T18:Male|bratT18=Person|bratT61=Person-patronym
+24	''	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	_	_	_	_	_	_	_	_
+26	-	_	_	_	_	_	_	_	_
+27	говорится	_	_	_	_	_	_	_	_
+28	в	_	_	_	_	_	_	_	_
+29	документе	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0123-p3-s2
+# text = Данный указ вступает в силу с 24 октября 2020 года.
+1	Данный	_	_	_	_	_	_	_	_
+2	указ	_	_	_	_	_	_	_	_
+3	вступает	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	силу	_	_	_	_	_	_	_	_
+6	с	_	_	_	_	_	_	_	bratA8=T21:Future|bratT21=Date-absolute
+7	24	_	_	_	_	_	_	_	bratA8=T21:Future|bratT21=Date-absolute
+8	октября	_	_	_	_	_	_	_	bratA8=T21:Future|bratT21=Date-absolute
+9	2020	_	_	_	_	_	_	_	bratA8=T21:Future|bratT21=Date-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Future|bratT21=Date-absolute
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0123-p4
+# par_text = 22 сентября сообщалось, что Высшая квалификационная коллегия судей приняла отставку Ольги Егоровой с должности председателя Мосгорсуда. Она возглавляла столичные суды с 2000 года.
+# sent_id = 0123-p4-s1
+# text = 22 сентября сообщалось, что Высшая квалификационная коллегия судей приняла отставку Ольги Егоровой с должности председателя Мосгорсуда.
+1	22	_	_	_	_	_	_	_	bratA9=T22:Past|bratT22=Date-absolute
+2	сентября	_	_	_	_	_	_	_	bratA9=T22:Past|bratT22=Date-absolute
+3	сообщалось	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	Высшая	_	_	_	_	_	_	_	bratT23=Organization
+7	квалификационная	_	_	_	_	_	_	_	bratT23=Organization
+8	коллегия	_	_	_	_	_	_	_	bratT23=Organization
+9	судей	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property
+10	приняла	_	_	_	_	_	_	_	_
+11	отставку	_	_	_	_	_	_	_	bratT71=Event
+12	Ольги	_	_	_	_	_	_	_	bratA10=T25:Female|bratT25=Person|bratT62=Person-forename
+13	Егоровой	_	_	_	_	_	_	_	bratA10=T25:Female|bratT25=Person|bratT63=Person-surname
+14	с	_	_	_	_	_	_	_	_
+15	должности	_	_	_	_	_	_	_	bratT26=Person-property
+16	председателя	_	_	_	_	_	_	_	bratT26=Person-property
+17	Мосгорсуда	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT27=Organization
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0123-p4-s2
+# text = Она возглавляла столичные суды с 2000 года.
+1	Она	_	_	_	_	_	_	_	_
+2	возглавляла	_	_	_	_	_	_	_	_
+3	столичные	_	_	_	_	_	_	_	bratA19=T69:Adjective|bratT69=GPE
+4	суды	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	bratA11=T28:Past-Pres|bratT28=Date-period-absolute
+6	2000	_	_	_	_	_	_	_	bratA11=T28:Past-Pres|bratT28=Date-period-absolute
+7	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Past-Pres|bratT28=Date-period-absolute
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0123-p5
+# par_text = Кандидатуру Михаила Птицына одобрил ранее Верховный суд России. Он был единственным, кто подал документы на участие в конкурсе на замещение должности главы Мосгорсуда. Ранее Высшая квалификационная коллегия судей трижды объявляла конкурс, и два раза он продлевался из-за отсутствия заявок. Эксперты называли это признаком того, что должность главы Мосгорсуда политическая.
+# sent_id = 0123-p5-s1
+# text = Кандидатуру Михаила Птицына одобрил ранее Верховный суд России.
+1	Кандидатуру	_	_	_	_	_	_	_	_
+2	Михаила	_	_	_	_	_	_	_	bratA12=T29:Male|bratT29=Person|bratT64=Person-forename
+3	Птицына	_	_	_	_	_	_	_	bratA12=T29:Male|bratT29=Person|bratT65=Person-surname
+4	одобрил	_	_	_	_	_	_	_	_
+5	ранее	_	_	_	_	_	_	_	bratA14=T48:Past|bratT48=Date-relative
+6	Верховный	_	_	_	_	_	_	_	bratT30=Organization
+7	суд	_	_	_	_	_	_	_	bratT30=Organization
+8	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization|bratT31=GPE
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0123-p5-s2
+# text = Он был единственным, кто подал документы на участие в конкурсе на замещение должности главы Мосгорсуда.
+1	Он	_	_	_	_	_	_	_	_
+2	был	_	_	_	_	_	_	_	_
+3	единственным	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Quantity
+4	,	_	_	_	_	_	_	_	_
+5	кто	_	_	_	_	_	_	_	_
+6	подал	_	_	_	_	_	_	_	_
+7	документы	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	_
+9	участие	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	конкурсе	_	_	_	_	_	_	_	_
+12	на	_	_	_	_	_	_	_	_
+13	замещение	_	_	_	_	_	_	_	_
+14	должности	_	_	_	_	_	_	_	bratT32=Person-property
+15	главы	_	_	_	_	_	_	_	bratT32=Person-property
+16	Мосгорсуда	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-property|bratT33=Organization
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0123-p5-s3
+# text = Ранее Высшая квалификационная коллегия судей трижды объявляла конкурс, и два раза он продлевался из-за отсутствия заявок.
+1	Ранее	_	_	_	_	_	_	_	bratA15=T50:Past|bratT50=Date-relative
+2	Высшая	_	_	_	_	_	_	_	bratT34=Organization
+3	квалификационная	_	_	_	_	_	_	_	bratT34=Organization
+4	коллегия	_	_	_	_	_	_	_	bratT34=Organization
+5	судей	_	_	_	_	_	_	_	bratT34=Organization|bratT35=Person-property
+6	трижды	_	_	_	_	_	_	_	bratT36=Quantity
+7	объявляла	_	_	_	_	_	_	_	_
+8	конкурс	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	два	_	_	_	_	_	_	_	bratT37=Quantity
+12	раза	_	_	_	_	_	_	_	bratT37=Quantity
+13	он	_	_	_	_	_	_	_	_
+14	продлевался	_	_	_	_	_	_	_	_
+15	из-за	_	_	_	_	_	_	_	_
+16	отсутствия	_	_	_	_	_	_	_	_
+17	заявок	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0123-p5-s4
+# text = Эксперты называли это признаком того, что должность главы Мосгорсуда политическая.
+1	Эксперты	_	_	_	_	_	_	_	bratT38=Person-property
+2	называли	_	_	_	_	_	_	_	_
+3	это	_	_	_	_	_	_	_	_
+4	признаком	_	_	_	_	_	_	_	_
+5	того	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	должность	_	_	_	_	_	_	_	bratT39=Person-property
+9	главы	_	_	_	_	_	_	_	bratT39=Person-property
+10	Мосгорсуда	_	_	_	_	_	_	_	bratT39=Person-property|bratT40=Organization
+11	политическая	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0123-p6
+# par_text = В ВС Птицына характеризовали как "квалифицированного судью и грамотного руководителя, обладающего хорошими организаторскими и аналитическими способностями, обеспечивающего надлежащее качество и оперативность отправления правосудия", отметив, что именно ростовские военные судьи первыми начали слушать дела о преступлениях террористической направленности.
+# sent_id = 0123-p6-s1
+# text = В ВС Птицына характеризовали как ``квалифицированного судью и грамотного руководителя, обладающего хорошими организаторскими и аналитическими способностями, обеспечивающего надлежащее качество и оперативность отправления правосудия'', отметив, что именно ростовские военные судьи первыми начали слушать дела о преступлениях террористической направленности.
+1	В	_	_	_	_	_	_	_	_
+2	ВС	_	_	_	_	_	_	_	bratT41=Organization
+3	Птицына	_	_	_	_	_	_	_	bratA16=T42:Female|bratT42=Person|bratT66=Person-surname
+4	характеризовали	_	_	_	_	_	_	_	_
+5	как	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No
+7	квалифицированного	_	_	_	_	_	_	_	_
+8	судью	_	_	_	_	_	_	_	bratT43=Person-property
+9	и	_	_	_	_	_	_	_	_
+10	грамотного	_	_	_	_	_	_	_	_
+11	руководителя	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Other-group
+12	,	_	_	_	_	_	_	_	_
+13	обладающего	_	_	_	_	_	_	_	_
+14	хорошими	_	_	_	_	_	_	_	_
+15	организаторскими	_	_	_	_	_	_	_	_
+16	и	_	_	_	_	_	_	_	_
+17	аналитическими	_	_	_	_	_	_	_	_
+18	способностями	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	обеспечивающего	_	_	_	_	_	_	_	_
+21	надлежащее	_	_	_	_	_	_	_	_
+22	качество	_	_	_	_	_	_	_	_
+23	и	_	_	_	_	_	_	_	_
+24	оперативность	_	_	_	_	_	_	_	_
+25	отправления	_	_	_	_	_	_	_	_
+26	правосудия	_	_	_	_	_	_	_	SpaceAfter=No
+27	''	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	_	_	_	_	_	_	_	_
+29	отметив	_	_	_	_	_	_	_	SpaceAfter=No
+30	,	_	_	_	_	_	_	_	_
+31	что	_	_	_	_	_	_	_	_
+32	именно	_	_	_	_	_	_	_	_
+33	ростовские	_	_	_	_	_	_	_	bratA17=T67:Adjective|bratT45=Person-property|bratT67=GPE
+34	военные	_	_	_	_	_	_	_	bratT45=Person-property
+35	судьи	_	_	_	_	_	_	_	bratT45=Person-property
+36	первыми	_	_	_	_	_	_	_	bratT46=Ordinal
+37	начали	_	_	_	_	_	_	_	_
+38	слушать	_	_	_	_	_	_	_	_
+39	дела	_	_	_	_	_	_	_	_
+40	о	_	_	_	_	_	_	_	_
+41	преступлениях	_	_	_	_	_	_	_	_
+42	террористической	_	_	_	_	_	_	_	_
+43	направленности	_	_	_	_	_	_	_	SpaceAfter=No
+44	.	_	_	_	_	_	_	_	_
+

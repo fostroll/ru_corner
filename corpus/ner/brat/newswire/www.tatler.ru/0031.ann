@@ -1,0 +1,44 @@
+T1	Person 0 13	Принц   Гарри
+T2	Person 20 33	Меган   Маркл
+T3	Person-property 0 5	Принц
+T4	GPE 59 66	Марокко
+T5	Ordinal 68 74	Второй
+T6	GPE 101 108	Марокко
+T7	Person 115 128	Меган   Маркл
+T8	Person 135 149	принца   Гарри
+T9	Person-property 135 141	принца
+T10	GPE 192 205	городе   Асни
+T11	Person-property 306 342	герцогу   и   герцогине   Сассекским
+A1	Plural T11
+T12	Person 472 477	Меган
+T13	Person 484 489	Гарри
+T14	Organization 536 618	негосударственной   некоммерческой   организации   ``   Education   for   All   ''
+T15	Person-property 889 898	герцогиня
+A2	Male T1
+T16	Person-forename 8 13	Гарри
+A3	Female T2
+T17	Person-forename 20 25	Меган
+T18	Person-surname 28 33	Маркл
+A4	Female T7
+A5	Male T8
+T19	Person-forename 144 149	Гарри
+T20	Person-surname 123 128	Маркл
+T21	Person-forename 115 120	Меган
+A6	Female T12
+T22	Person-forename 472 477	Меган
+A7	Male T13
+T23	Person-forename 484 489	Гарри
+T24	Family 210 214	Пара
+T25	Person-property 237 258	воспитанниками   школ
+T26	Person-property 270 279	учителями
+T27	GPE 332 342	Сассекским
+A8	Adjective T27
+T28	Duration 77 81	день
+T29	Date-period-absolute 68 94	Второй   день   пребывания
+T30	Event 880 886	визита
+T31	Date-absolute 867 886	Во   время   визита
+A10	Past T31
+T32	Person-property 771 781	сотрудники
+T33	Age 1020 1024	дети
+A9	Past-UNK T29
+T34	GPE 675 681	стране

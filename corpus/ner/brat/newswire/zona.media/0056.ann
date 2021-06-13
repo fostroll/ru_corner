@@ -1,0 +1,73 @@
+T1	GPE 4 10	Москве
+T2	Person-property 13 29	полковника   МВД
+T3	Organization 26 29	МВД
+T4	Money 76 101	на   1,5   млн   долларов
+T5	Organization 103 140	Пресненский   районный   суд   Москвы
+T6	GPE 103 125	Пресненский   районный
+A1	Adjective T6
+T7	GPE 134 140	Москвы
+T8	Person 164 270	замначальника   транспортной   полиции   по   Южному   федеральному   округу   полковника   Адама   Яхутля
+A2	Male T8
+T9	Person-property 164 253	замначальника   транспортной   полиции   по   Южному   федеральному   округу   полковника
+T10	Organization 180 240	транспортной   полиции   по   Южному   федеральному   округу
+T11	GPE 210 240	Южному   федеральному   округу
+T12	Person-forename 256 261	Адама
+T13	Person-surname 264 270	Яхутля
+T14	Law 416 418	УК
+T15	Law 389 418	часть   4   статьи   159   УК
+T16	Money 310 330	1,5   млн   долларов
+T17	Organization 450 454	ТАСС
+A3	Media T17
+T19	Quantity 566 580	Ни   одно   из
+T20	Organization 638 642	суда
+T21	Organization 707 710	РБК
+A4	Media T21
+T22	Person 713 747	адвокат   Яхутля   Руслан   Коблев
+A5	Male T22
+T23	Person-property 713 720	адвокат
+T24	Person 723 729	Яхутля
+A6	Male T24
+T25	Person-surname 723 729	Яхутля
+T26	Person-forename 732 738	Руслан
+T27	Person-surname 741 747	Коблев
+T28	Person-surname 758 764	Яхутля
+T29	Person 758 764	Яхутля
+A7	Male T29
+T30	Person 785 814	бизнесмен   Дмитрий   Ганелин
+A8	Male T30
+T31	Person-property 785 794	бизнесмен
+T32	Person-forename 797 804	Дмитрий
+T33	Person-surname 807 814	Ганелин
+T34	Person-property 819 828	Полковник
+T35	Person-property 883 894	бизнесменом
+T36	Money 912 932	1,5   млн   долларов
+T37	Person 996 1069	бывшему   зампредседателю   правления   Мособлбанка   Дмитрию   Васильеву
+A9	Male T37
+T38	Person-property 996 1047	бывшему   зампредседателю   правления   Мособлбанка
+T39	Organization 1036 1047	Мособлбанка
+T40	Person-forename 1050 1057	Дмитрию
+T41	Person-surname 1060 1069	Васильеву
+T42	Money 1105 1123	70   млрд   рублей
+T43	Person 1129 1136	Ганелин
+A10	Male T43
+T44	Person-surname 1129 1136	Ганелин
+T45	Person-property 1216 1228	полицейскому
+T46	Money 1231 1265	чуть   больше   1   млн   долларов
+T47	Date-relative 1281 1286	потом
+T48	Person-property 1302 1311	силовикам
+T49	Person 1336 1342	Яхутля
+A11	Male T49
+T50	Person-surname 1336 1342	Яхутля
+T51	Person-property 1374 1383	Свидетели
+T52	Organization 1390 1394	суде
+T53	Person 1425 1433	Ганелина
+A12	Male T53
+T54	Person-surname 1425 1433	Ганелина
+T55	Person 1439 1445	Яхутля
+A13	Male T55
+T56	Person-surname 1439 1445	Яхутля
+T57	Date-absolute 1491 1516	в   декабре   2018   года
+A14	Past T57
+T61	Ordinal 397 398	4
+T18	Ordinal 410 413	159
+A15	Past T47

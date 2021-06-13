@@ -19,8 +19,8 @@
 # par_text = Московские власти не планируют ужесточать ограничительные меры для пожилых жителей столицы и людей, страдающих от хронических заболеваний, которым рекомендовали домашний режим. Об этом в пятницу, 7 ноября, сообщил руководитель Главконтроля Москвы Евгений Данчиков.
 # sent_id = 0015-p2-s1
 # text = Московские власти не планируют ужесточать ограничительные меры для пожилых жителей столицы и людей, страдающих от хронических заболеваний, которым рекомендовали домашний режим.
-1	Московские	_	_	_	_	_	_	_	bratA8=T31:Adjective|bratT31=GPE
-2	власти	_	_	_	_	_	_	_	_
+1	Московские	_	_	_	_	_	_	_	bratA8=T31:Adjective|bratT31=GPE|bratT36=Organization
+2	власти	_	_	_	_	_	_	_	bratT36=Organization
 3	не	_	_	_	_	_	_	_	_
 4	планируют	_	_	_	_	_	_	_	_
 5	ужесточать	_	_	_	_	_	_	_	_
@@ -142,9 +142,12 @@
 14	эфире	_	_	_	_	_	_	_	_
 15	телеканала	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
 16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
-17	Россия-24	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
-18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
-19	.	_	_	_	_	_	_	_	_
+17-19	Россия-24	_	_	_	_	_	_	_	SpaceAfter=No
+17	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT33=GPE|bratT9=Organization
+18	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
+19	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT34=Duration|bratT35=Time-period|bratT9=Organization
+20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
+21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0015-p5
 # par_text = Напомним, что мэр российской столицы Сергей Собянин сообщил о введении профилактических мер на фоне рост количества выявленных случаев коронавируса. До конца ноября в Москве действует домашний режим для людей старше 65 лет и граждан, страдающих хроническими заболеваниями.

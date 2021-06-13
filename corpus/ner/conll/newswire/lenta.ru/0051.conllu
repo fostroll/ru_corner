@@ -3,7 +3,7 @@
 # par_text = Карантин помог Франции преодолеть пик коронавируса
 # sent_id = 0051-p1-s1
 # text = Карантин помог Франции преодолеть пик коронавируса
-1	Карантин	_	_	_	_	_	_	_	_
+1	Карантин	_	_	_	_	_	_	_	bratT40=Event
 2	помог	_	_	_	_	_	_	_	_
 3	Франции	_	_	_	_	_	_	_	bratT2=GPE
 4	преодолеть	_	_	_	_	_	_	_	_
@@ -16,27 +16,32 @@
 # text = Снижение числа новых случаев коронавируса SARS-CoV-2 позволяет говорить о том, что Франция прошла пик эпидемии коронавируса, добиться этого помогли ограничения.
 1	Снижение	_	_	_	_	_	_	_	_
 2	числа	_	_	_	_	_	_	_	_
-3	новых	_	_	_	_	_	_	_	_
-4	случаев	_	_	_	_	_	_	_	_
-5	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term
-6	SARS-CoV-2	_	_	_	_	_	_	_	bratT4=Other-term
-7	позволяет	_	_	_	_	_	_	_	_
-8	говорить	_	_	_	_	_	_	_	_
-9	о	_	_	_	_	_	_	_	_
-10	том	_	_	_	_	_	_	_	SpaceAfter=No
-11	,	_	_	_	_	_	_	_	_
-12	что	_	_	_	_	_	_	_	_
-13	Франция	_	_	_	_	_	_	_	bratT7=GPE
-14	прошла	_	_	_	_	_	_	_	_
-15	пик	_	_	_	_	_	_	_	_
-16	эпидемии	_	_	_	_	_	_	_	bratT8=Event
-17	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term|bratT8=Event
-18	,	_	_	_	_	_	_	_	_
-19	добиться	_	_	_	_	_	_	_	_
-20	этого	_	_	_	_	_	_	_	_
-21	помогли	_	_	_	_	_	_	_	_
-22	ограничения	_	_	_	_	_	_	_	SpaceAfter=No
-23	.	_	_	_	_	_	_	_	_
+3	новых	_	_	_	_	_	_	_	bratT41=Event
+4	случаев	_	_	_	_	_	_	_	bratT41=Event
+5	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event
+6-10	SARS-CoV-2	_	_	_	_	_	_	_	_
+6	SARS	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
+8	CoV	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
+9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
+10	2	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event|bratT43=Person-surname
+11	позволяет	_	_	_	_	_	_	_	_
+12	говорить	_	_	_	_	_	_	_	_
+13	о	_	_	_	_	_	_	_	_
+14	том	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	что	_	_	_	_	_	_	_	_
+17	Франция	_	_	_	_	_	_	_	bratT7=GPE
+18	прошла	_	_	_	_	_	_	_	_
+19	пик	_	_	_	_	_	_	_	_
+20	эпидемии	_	_	_	_	_	_	_	bratT8=Event
+21	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term|bratT8=Event
+22	,	_	_	_	_	_	_	_	_
+23	добиться	_	_	_	_	_	_	_	_
+24	этого	_	_	_	_	_	_	_	_
+25	помогли	_	_	_	_	_	_	_	_
+26	ограничения	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0051-p2-s2
 # text = Об этом заявил министр здравоохранения страны Оливье Веран, сообщает портал Paris Match.
@@ -51,7 +56,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	сообщает	_	_	_	_	_	_	_	_
 11	портал	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
-12	Paris	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
+12	Paris	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization|bratT44=GPE
 13	Match	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
 14	.	_	_	_	_	_	_	_	_
 
@@ -61,7 +66,7 @@
 # text = ``Благодаря локдауну, как это было и в марте, вирус стал меньше распространяться.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Благодаря	_	_	_	_	_	_	_	_
-3	локдауну	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
+3	локдауну	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
 4	,	_	_	_	_	_	_	_	_
 5	как	_	_	_	_	_	_	_	_
 6	это	_	_	_	_	_	_	_	_
@@ -83,8 +88,8 @@
 3	дней	_	_	_	_	_	_	_	bratA4=T6:RCont|bratA7=T6:Past-Pres|bratT14=Duration|bratT6=Date-period-absolute
 4	подряд	_	_	_	_	_	_	_	bratA4=T6:RCont|bratA7=T6:Past-Pres|bratT6=Date-period-absolute
 5	число	_	_	_	_	_	_	_	_
-6	новых	_	_	_	_	_	_	_	_
-7	случаев	_	_	_	_	_	_	_	_
+6	новых	_	_	_	_	_	_	_	bratT42=Event
+7	случаев	_	_	_	_	_	_	_	bratT42=Event
 8	снижается	_	_	_	_	_	_	_	SpaceAfter=No
 9	''	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
@@ -92,7 +97,7 @@
 12	приводит	_	_	_	_	_	_	_	_
 13	издание	_	_	_	_	_	_	_	_
 14	слова	_	_	_	_	_	_	_	_
-15	министра	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
+15	министра	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT46=Person
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0051-p4
@@ -103,8 +108,8 @@
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	власти	_	_	_	_	_	_	_	_
-6	страны	_	_	_	_	_	_	_	_
+5	власти	_	_	_	_	_	_	_	bratT48=Organization
+6	страны	_	_	_	_	_	_	_	bratT48=Organization
 7	снова	_	_	_	_	_	_	_	_
 8	получают	_	_	_	_	_	_	_	_
 9	контроль	_	_	_	_	_	_	_	_
@@ -194,21 +199,21 @@
 3	же	_	_	_	_	_	_	_	bratT28=Time-relative
 4	время	_	_	_	_	_	_	_	bratT28=Time-relative
 5	ряд	_	_	_	_	_	_	_	_
-6	политиков	_	_	_	_	_	_	_	_
+6	политиков	_	_	_	_	_	_	_	bratT49=Person-property
 7	и	_	_	_	_	_	_	_	_
-8	экспертов	_	_	_	_	_	_	_	_
+8	экспертов	_	_	_	_	_	_	_	bratT50=Person-property
 9	в	_	_	_	_	_	_	_	_
 10	области	_	_	_	_	_	_	_	_
 11	здравоохранения	_	_	_	_	_	_	_	_
 12	надеются	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
-15	ограничительные	_	_	_	_	_	_	_	_
-16	меры	_	_	_	_	_	_	_	_
+15	ограничительные	_	_	_	_	_	_	_	bratT47=Event
+16	меры	_	_	_	_	_	_	_	bratT47=Event
 17	приведут	_	_	_	_	_	_	_	_
 18	к	_	_	_	_	_	_	_	_
-19	снижению	_	_	_	_	_	_	_	_
-20	заболеваемости	_	_	_	_	_	_	_	SpaceAfter=No
+19	снижению	_	_	_	_	_	_	_	bratT51=Event
+20	заболеваемости	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event
 21	,	_	_	_	_	_	_	_	_
 22	что	_	_	_	_	_	_	_	_
 23	позволит	_	_	_	_	_	_	_	_
@@ -245,7 +250,10 @@
 17	исходов	_	_	_	_	_	_	_	bratT23=Quantity
 18	из-за	_	_	_	_	_	_	_	_
 19	вызванных	_	_	_	_	_	_	_	_
-20	COVID-19	_	_	_	_	_	_	_	bratT24=Other-term
-21	осложнений	_	_	_	_	_	_	_	SpaceAfter=No
-22	.	_	_	_	_	_	_	_	_
+20-22	COVID-19	_	_	_	_	_	_	_	_
+20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+22	19	_	_	_	_	_	_	_	bratT24=Other-term|bratT45=Cardinal
+23	осложнений	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
 

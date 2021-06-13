@@ -1,0 +1,82 @@
+T1	Person-property 74 86	генпрокурору
+T2	Person-property 94 116	лавам   ФСИН   и   ФСБ
+A1	Plural T2
+T3	Organization 102 106	ФСИН
+T4	Organization 113 116	ФСБ
+T5	Person-property 280 303	российских   чиновников
+T6	Person 320 393	уполномоченного   по   правам   человека   в   РФ   Татьяну   Москалькову
+T7	Person-property 320 369	уполномоченного   по   правам   человека   в   РФ
+T8	GPE 367 369	РФ
+T10	Person 400 456	ее   коллегу   в   Пензенской   области   Елену   Рогову
+T9	GPE 419 439	Пензенской   области
+T11	Person-property 463 543	и.о.   руководителя   Главного   военного   следственного   управления   СК   РФ
+T12	Organization 485 543	Главного   военного   следственного   управления   СК   РФ
+A2	Department T12
+T13	Organization 536 543	СК   РФ
+T14	GPE 541 543	РФ
+T15	Person 570 606	генпрокурора   РФ   Игоря   Краснова
+T16	Person-property 570 587	генпрокурора   РФ
+T17	GPE 585 587	РФ
+T18	Person 613 654	главу   СК   РФ   Александра   Бастрыкина
+T19	Person-property 613 628	главу   СК   РФ
+T20	Person-property 661 688	директоров   ФСБ   и   ФСИН
+A3	Plural T20
+T21	Organization 674 677	ФСБ
+T22	Organization 684 688	ФСИН
+T23	Organization 621 628	СК   РФ
+T24	GPE 626 628	РФ
+T25	Organization 974 998	``   Новая   газета   ''
+A4	Media T25
+T26	Date-absolute 1054 1080	20   октября   2020   года
+T27	Organization 1094 1136	Приволжского   окружного   военного   суда
+T28	Person-property 1484 1502	сотрудниками   ФСБ
+T29	Organization 1499 1502	ФСБ
+T30	Person-property 1711 1724	оперативников
+T31	Person-property 15 25	осужденных
+T32	Person-property 1019 1029	осужденных
+T33	Person-property 1263 1273	осужденных
+T34	Person-property 1979 1996	фигурантов   дела
+T35	Person-property 205 222	фигурантов   дела
+T36	Person-property 1595 1612	фигурантов   дела
+T37	Family 1739 1747	сыновьям
+T38	Family 1754 1760	мужьям
+T39	Family 0 12	Родственники
+T40	Family 152 157	детей
+T41	Family 190 202	Родственники
+T42	Family 694 706	Родственники
+T43	Family 739 744	детей
+T44	Family 1004 1016	Родственники
+T45	Date-period-absolute 1511 1534	на   стадии   следствия
+T46	Date-absolute 1919 1937	после   вступления
+T47	Person-property 1871 1877	авторы
+T48	GPE 280 290	российских
+A5	Adjective T48
+T49	Person-forename 372 379	Татьяну
+T50	Person-surname 382 393	Москалькову
+T51	Person-forename 442 447	Елену
+T52	Person-surname 450 456	Рогову
+A6	Female T10
+T53	Person-forename 590 595	Игоря
+T54	Person-surname 598 606	Краснова
+A7	Female T6
+T55	Person-forename 631 641	Александра
+T56	Person-surname 644 654	Бастрыкина
+A8	Male T18
+T57	Person-forename 546 552	Сергея
+A9	Male T15
+T58	Person-surname 555 563	Федотова
+T59	Person 463 563	и.о.   руководителя   Главного   военного   следственного   управления   СК   РФ   Сергея   Федотова
+A10	Male T59
+A11	Past T26
+A13	Past T45
+A14	Past T46
+T61	Event 1525 1534	следствия
+T62	Event 1927 1960	вступления   приговора   в   силу
+T63	Person 0 25	Родственники   осужденных
+T64	Person 147 157	их   детей
+T65	Person 190 222	Родственники   фигурантов   дела
+T66	Person 734 744	их   детей
+T67	Person 1004 1029	Родственники   осужденных
+T68	Person 1731 1760	нашим   сыновьям   и   мужьям
+A15	Plural T68
+T69	Person-property 405 439	коллегу   в   Пензенской   области

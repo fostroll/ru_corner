@@ -1,0 +1,269 @@
+# newdoc id = 0030
+# newpar id = 0030-p1
+# par_text = Обвиняемый по делу Фургала рассказал, что конвоиры избили его за жалобу на жесткие наручники
+# sent_id = 0030-p1-s1
+# text = Обвиняемый по делу Фургала рассказал, что конвоиры избили его за жалобу на жесткие наручники
+1	Обвиняемый	_	_	_	_	_	_	_	bratT1=Person-property
+2	по	_	_	_	_	_	_	_	_
+3	делу	_	_	_	_	_	_	_	_
+4	Фургала	_	_	_	_	_	_	_	bratA1=T2:Male|bratT2=Person|bratT3=Person-surname
+5	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	конвоиры	_	_	_	_	_	_	_	bratT4=Person-property
+9	избили	_	_	_	_	_	_	_	_
+10	его	_	_	_	_	_	_	_	_
+11	за	_	_	_	_	_	_	_	_
+12	жалобу	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	жесткие	_	_	_	_	_	_	_	_
+15	наручники	_	_	_	_	_	_	_	_
+
+# newpar id = 0030-p2
+# par_text = Андрей Карепов, которого обвиняют в организации покушений по заказу экс-губернатора Сергея Фургала (пункты «б», «е», «ж», «з» часть 2 статья 105, пункты «а», «б», «ж», «з» часть 2 статья 105 УК), рассказал, что его избили конвоиры по пути в СИЗО «Лефортово» после следственных действий. Об этом сообщила член ОНК Москвы журналистка «Московсковского комсомольца» Ева Меркачева.
+# sent_id = 0030-p2-s1
+# text = Андрей Карепов, которого обвиняют в организации покушений по заказу экс-губернатора Сергея Фургала (пункты «б», «е», «ж», «з» часть 2 статья 105, пункты «а», «б», «ж», «з» часть 2 статья 105 УК), рассказал, что его избили конвоиры по пути в СИЗО «Лефортово» после следственных действий.
+1	Андрей	_	_	_	_	_	_	_	bratA2=T5:Male|bratT5=Person|bratT6=Person-forename
+2	Карепов	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Male|bratT5=Person|bratT7=Person-surname
+3	,	_	_	_	_	_	_	_	_
+4	которого	_	_	_	_	_	_	_	_
+5	обвиняют	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	организации	_	_	_	_	_	_	_	_
+8	покушений	_	_	_	_	_	_	_	_
+9	по	_	_	_	_	_	_	_	_
+10	заказу	_	_	_	_	_	_	_	_
+11	экс-губернатора	_	_	_	_	_	_	_	bratA3=T57:Male|bratT55=Person-property|bratT57=Person
+12	Сергея	_	_	_	_	_	_	_	bratA3=T57:Male|bratT57=Person|bratT58=Person-forename
+13	Фургала	_	_	_	_	_	_	_	bratA3=T57:Male|bratT57=Person|bratT60=Person-surname
+14	(	_	_	_	_	_	_	_	SpaceAfter=No
+15	пункты	_	_	_	_	_	_	_	bratT51=Law
+16	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT51=Law|bratT53=Ordinal
+17	б	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Law|bratT53=Ordinal
+18	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT51=Law|bratT53=Ordinal
+19	,	_	_	_	_	_	_	_	bratT51=Law
+20	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT51=Law|bratT54=Ordinal
+21	е	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Law|bratT54=Ordinal
+22	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT51=Law|bratT54=Ordinal
+23	,	_	_	_	_	_	_	_	bratT51=Law
+24	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT51=Law|bratT56=Ordinal
+25	ж	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Law|bratT56=Ordinal
+26	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT51=Law|bratT56=Ordinal
+27	,	_	_	_	_	_	_	_	bratT51=Law
+28	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT51=Law|bratT59=Ordinal
+29	з	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Law|bratT59=Ordinal
+30	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT51=Law|bratT59=Ordinal
+31	часть	_	_	_	_	_	_	_	bratT51=Law
+32	2	_	_	_	_	_	_	_	bratT51=Law|bratT8=Ordinal
+33	статья	_	_	_	_	_	_	_	bratT51=Law
+34	105	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Law|bratT9=Ordinal
+35	,	_	_	_	_	_	_	_	bratT51=Law
+36	пункты	_	_	_	_	_	_	_	bratT51=Law
+37	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT10=Ordinal|bratT51=Law
+38	а	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Ordinal|bratT51=Law
+39	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT10=Ordinal|bratT51=Law
+40	,	_	_	_	_	_	_	_	bratT51=Law
+41	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT11=Ordinal|bratT51=Law
+42	б	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Ordinal|bratT51=Law
+43	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT11=Ordinal|bratT51=Law
+44	,	_	_	_	_	_	_	_	bratT51=Law
+45	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT12=Ordinal|bratT51=Law
+46	ж	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Ordinal|bratT51=Law
+47	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT12=Ordinal|bratT51=Law
+48	,	_	_	_	_	_	_	_	bratT51=Law
+49	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT13=Ordinal|bratT51=Law
+50	з	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Ordinal|bratT51=Law
+51	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT13=Ordinal|bratT51=Law
+52	часть	_	_	_	_	_	_	_	bratT51=Law
+53	2	_	_	_	_	_	_	_	bratT14=Ordinal|bratT51=Law
+54	статья	_	_	_	_	_	_	_	bratT51=Law
+55	105	_	_	_	_	_	_	_	bratT49=Ordinal|bratT51=Law
+56	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Law|bratT52=Law
+57	)	_	_	_	_	_	_	_	SpaceAfter=No
+58	,	_	_	_	_	_	_	_	_
+59	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
+60	,	_	_	_	_	_	_	_	_
+61	что	_	_	_	_	_	_	_	_
+62	его	_	_	_	_	_	_	_	_
+63	избили	_	_	_	_	_	_	_	_
+64	конвоиры	_	_	_	_	_	_	_	bratT15=Person-property
+65	по	_	_	_	_	_	_	_	_
+66	пути	_	_	_	_	_	_	_	_
+67	в	_	_	_	_	_	_	_	_
+68	СИЗО	_	_	_	_	_	_	_	bratT16=Facility
+69	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Facility
+70	Лефортово	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Facility
+71	''	_	_	_	_	_	_	_	bratT16=Facility
+72	после	_	_	_	_	_	_	_	bratA18=T18:Past|bratT18=Date-absolute
+73	следственных	_	_	_	_	_	_	_	bratA18=T18:Past|bratT18=Date-absolute
+74	действий	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T18:Past|bratT18=Date-absolute
+75	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p2-s2
+# text = Об этом сообщила член ОНК Москвы журналистка «Московсковского комсомольца» Ева Меркачева.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщила	_	_	_	_	_	_	_	_
+4	член	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property
+5	ОНК	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property|bratT21=Organization
+6	Москвы	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property|bratT21=Organization|bratT22=GPE
+7	журналистка	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA6=T19:Female|bratT19=Person|bratT20=Person-property
+9	Московсковского	_	_	_	_	_	_	_	bratA19=T17:Adjective|bratA6=T19:Female|bratA7=T23:Media|bratT17=GPE|bratT19=Person|bratT20=Person-property|bratT23=Organization
+10	комсомольца	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Female|bratA7=T23:Media|bratT19=Person|bratT20=Person-property|bratT23=Organization
+11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA6=T19:Female|bratT19=Person|bratT20=Person-property
+12	Ева	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT24=Person-forename
+13	Меркачева	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Female|bratT19=Person|bratT25=Person-surname
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0030-p3
+# par_text = Карепов накануне рассказал членам ОНК, что в среду 12 августа его несколько раз ударили, после того как он в служебной машине пожаловался на слишком жесткие наручники. Меркачева уточнила «Интерфаксу», что у него были гематомы на виске, плече, спине и руке. «По его словам, часть избиений была на территории СИЗО», — отмечала журналистка.
+# sent_id = 0030-p3-s1
+# text = Карепов накануне рассказал членам ОНК, что в среду 12 августа его несколько раз ударили, после того как он в служебной машине пожаловался на слишком жесткие наручники.
+1	Карепов	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person|bratT27=Person-surname
+2	накануне	_	_	_	_	_	_	_	bratA20=T28:Past|bratT28=Date-absolute
+3	рассказал	_	_	_	_	_	_	_	_
+4	членам	_	_	_	_	_	_	_	bratT29=Person-property
+5	ОНК	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property|bratT30=Organization
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
+9	среду	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
+10	12	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
+11	августа	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
+12	его	_	_	_	_	_	_	_	_
+13	несколько	_	_	_	_	_	_	_	bratT68=Quantity
+14	раз	_	_	_	_	_	_	_	bratT68=Quantity
+15	ударили	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	после	_	_	_	_	_	_	_	bratA21=T69:Past|bratT69=Date-relative
+18	того	_	_	_	_	_	_	_	bratA21=T69:Past|bratT69=Date-relative
+19	как	_	_	_	_	_	_	_	bratA21=T69:Past|bratT69=Date-relative
+20	он	_	_	_	_	_	_	_	_
+21	в	_	_	_	_	_	_	_	_
+22	служебной	_	_	_	_	_	_	_	_
+23	машине	_	_	_	_	_	_	_	_
+24	пожаловался	_	_	_	_	_	_	_	_
+25	на	_	_	_	_	_	_	_	_
+26	слишком	_	_	_	_	_	_	_	_
+27	жесткие	_	_	_	_	_	_	_	_
+28	наручники	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p3-s2
+# text = Меркачева уточнила «Интерфаксу», что у него были гематомы на виске, плече, спине и руке.
+1	Меркачева	_	_	_	_	_	_	_	bratA10=T32:Female|bratT32=Person|bratT33=Person-surname
+2	уточнила	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+4	Интерфаксу	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T34:Media|bratT34=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	у	_	_	_	_	_	_	_	_
+9	него	_	_	_	_	_	_	_	_
+10	были	_	_	_	_	_	_	_	_
+11	гематомы	_	_	_	_	_	_	_	bratT35=Other-term
+12	на	_	_	_	_	_	_	_	_
+13	виске	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	плече	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	спине	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	руке	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p3-s3
+# text = «По его словам, часть избиений была на территории СИЗО», - отмечала журналистка.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	По	_	_	_	_	_	_	_	_
+3	его	_	_	_	_	_	_	_	_
+4	словам	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	часть	_	_	_	_	_	_	_	_
+7	избиений	_	_	_	_	_	_	_	_
+8	была	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	территории	_	_	_	_	_	_	_	_
+11	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	отмечала	_	_	_	_	_	_	_	_
+16	журналистка	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person-property
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0030-p4
+# par_text = «Раны настолько серьезные, что Карепова на машине скорой помощи отвезли в НИИ Склифосовского», — писала Меркачева. После оказания первой помощи его вернули в следственный изолятор.
+# sent_id = 0030-p4-s1
+# text = «Раны настолько серьезные, что Карепова на машине скорой помощи отвезли в НИИ Склифосовского», - писала Меркачева.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Раны	_	_	_	_	_	_	_	_
+3	настолько	_	_	_	_	_	_	_	_
+4	серьезные	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	Карепова	_	_	_	_	_	_	_	bratA12=T38:Male|bratT38=Person|bratT39=Person-surname
+8	на	_	_	_	_	_	_	_	_
+9	машине	_	_	_	_	_	_	_	_
+10	скорой	_	_	_	_	_	_	_	bratT70=Service
+11	помощи	_	_	_	_	_	_	_	bratT70=Service
+12	отвезли	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	НИИ	_	_	_	_	_	_	_	bratT40=Organization
+15	Склифосовского	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+16	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	-	_	_	_	_	_	_	_	_
+19	писала	_	_	_	_	_	_	_	_
+20	Меркачева	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T41:Female|bratT41=Person|bratT42=Person-surname
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p4-s2
+# text = После оказания первой помощи его вернули в следственный изолятор.
+1	После	_	_	_	_	_	_	_	bratA22=T43:Past|bratT43=Date-absolute
+2	оказания	_	_	_	_	_	_	_	bratA22=T43:Past|bratT43=Date-absolute
+3	первой	_	_	_	_	_	_	_	bratT44=Ordinal|bratT71=Service
+4	помощи	_	_	_	_	_	_	_	bratT71=Service
+5	его	_	_	_	_	_	_	_	_
+6	вернули	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	следственный	_	_	_	_	_	_	_	_
+9	изолятор	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0030-p5
+# par_text = В пресс-службе ФСИН подтвердили, что у Карепова были травмы по прибытии в изолятор. В СИЗО к нему насилие не применялось, настаивают в ведомстве.
+# sent_id = 0030-p5-s1
+# text = В пресс-службе ФСИН подтвердили, что у Карепова были травмы по прибытии в изолятор.
+1	В	_	_	_	_	_	_	_	bratA15=T45:Media|bratT45=Organization
+2	пресс-службе	_	_	_	_	_	_	_	bratA15=T45:Media|bratT45=Organization
+3	ФСИН	_	_	_	_	_	_	_	bratA15=T45:Media|bratT45=Organization|bratT46=Organization
+4	подтвердили	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	у	_	_	_	_	_	_	_	_
+8	Карепова	_	_	_	_	_	_	_	bratA16=T47:Male|bratT47=Person|bratT48=Person-surname
+9	были	_	_	_	_	_	_	_	_
+10	травмы	_	_	_	_	_	_	_	_
+11	по	_	_	_	_	_	_	_	_
+12	прибытии	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	изолятор	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0030-p5-s2
+# text = В СИЗО к нему насилие не применялось, настаивают в ведомстве.
+1	В	_	_	_	_	_	_	_	_
+2	СИЗО	_	_	_	_	_	_	_	_
+3	к	_	_	_	_	_	_	_	_
+4	нему	_	_	_	_	_	_	_	_
+5	насилие	_	_	_	_	_	_	_	_
+6	не	_	_	_	_	_	_	_	_
+7	применялось	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	настаивают	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	ведомстве	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,103 @@
+T1	Person 0 9	Дерипаска
+T2	Person 38 54	Агафьи   Лыковой
+T3	Person 70 112	Российский   миллиардер   Олег   Дерипаска
+T4	Person-property 70 93	Российский   миллиардер
+T5	Organization 119 125	Forbes
+A1	Media T5
+T6	Date-absolute 163 174	27   ноября
+T7	Money 181 193	$ 2,9   млрд
+T8	Person 255 284	отшельнице   Агафье   Лыковой
+T9	Person-property 255 265	отшельнице
+T10	Organization 344 347	РБК
+A2	Media T10
+T11	Person-property 366 376	бизнесмена
+T12	Organization 666 669	РБК
+A3	Media T12
+T13	Person 695 701	Лыкова
+T14	Person 716 725	Дерипаску
+T15	Date-absolute 780 791	26   ноября
+T16	Person 794 813	Виктор   Непомнящий
+T17	Person-property 820 864	директор   заповедника   ``   Хакасский   ''
+T18	Organization 831 864	заповедника   ``   Хакасский   ''
+T19	Person 943 960	Агафья   Карповна
+T20	Person 979 996	Олега   Дерипаску
+T21	Person 1079 1100	Олега   Владимировича
+T22	Person 1177 1187	Непомнящий
+T23	Service 1203 1211	странице
+A4	Media T23
+T24	Person 1255 1264	Дерипаски
+T25	Other-group 1279 1291	миллиардером
+T26	Date-absolute 1319 1330	11   ноября
+T27	Person 1362 1371	Дерипаска
+T28	Person 1425 1432	Лыковой
+T29	Other-group 1529 1539	отшельнице
+T30	Organization 1552 1578	Пресс-служба   заповедника
+A5	Department T30
+T31	Person 1614 1657	Николай   Седов   ,   сын   Ерофея   Седова
+T32	Person 1642 1657	Ерофея   Седова
+T33	Family 1636 1639	сын
+T34	Person 1773 1780	Лыковых
+T35	Family 1765 1770	семью
+T36	Date-absolute 1831 1846	В   2015   году
+T37	Person 1849 1863	Ерофей   Седов
+T38	Location 236 252	саянской   тайге
+T39	Person-surname 0 9	Дерипаска
+A6	Male T1
+T40	Person-forename 38 44	Агафьи
+T41	Person-surname 47 54	Лыковой
+T42	GPE 70 80	Российский
+A8	Adjective T42
+T43	Person-forename 96 100	Олег
+T44	Person-surname 103 112	Дерипаска
+A9	Male T3
+A10	Past T6
+T45	Person-surname 268 274	Агафье
+A7	Female T2
+T46	Person-surname 277 284	Лыковой
+A11	Female T8
+T47	Date-absolute 473 479	Сейчас
+A12	Present T47
+T48	Person-surname 695 701	Лыкова
+T49	Person-surname 716 725	Дерипаску
+A13	Male T14
+A14	Female T13
+A15	Past T15
+T50	Person-forename 794 800	Виктор
+T51	Person-surname 803 813	Непомнящий
+A16	Male T16
+T52	GPE 850 859	Хакасский
+A17	Adjective T52
+T53	Person-forename 943 949	Агафья
+T54	Person-patronym 952 960	Карповна
+A18	Female T19
+T55	Person-forename 979 984	Олега
+T56	Person-surname 987 996	Дерипаску
+A19	Male T20
+T57	Person-forename 1079 1084	Олега
+T58	Person-patronym 1087 1100	Владимировича
+T59	Person-surname 1177 1187	Непомнящий
+A20	Male T22
+T60	Service 1218 1233	сети   Facebook
+T61	Person-surname 1255 1264	Дерипаски
+A21	Male T24
+T62	Person-surname 1362 1371	Дерипаска
+A22	Past T26
+T63	Person-surname 1425 1432	Лыковой
+A23	Female T28
+A24	Male T27
+T64	Person-forename 1614 1621	Николай
+T65	Person-surname 1624 1629	Седов
+A25	Male T31
+A27	Male T32
+T67	Person-forename 1642 1648	Ерофея
+T68	Person-surname 1651 1657	Седова
+T69	Person-surname 1773 1780	Лыковых
+T70	Date-relative 1791 1796	затем
+T71	Person-forename 1849 1855	Ерофей
+T72	Person-surname 1858 1863	Седов
+A28	Past T36
+A29	Male T37
+T73	Date-period-absolute 1542 1547	зимой
+A26	Past T70
+A30	Fut T73
+T66	Location 578 582	реке

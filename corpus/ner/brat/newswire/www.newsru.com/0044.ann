@@ -1,0 +1,62 @@
+T1	GPE 53 58	Китая
+T2	Organization 43 81	сборную   Китая   по   лыжным   гонкам
+T3	Person-property 0 10	Олимпионик
+T4	Person 0 28	Олимпионик   Никита   Крюков
+T5	Event 107 123	Ванкувера - 2010
+T6	Person-property 83 123	Олимпийский   чемпион   Ванкувера - 2010
+T7	Person 83 141	Олимпийский   чемпион   Ванкувера - 2010   Никита   Крюков
+T8	GPE 166 171	Китая
+T9	Organization 156 194	сборную   Китая   по   лыжным   гонкам
+T10	Date-absolute 246 257	2022   года
+T11	GPE 264 270	Пекине
+T12	Event 214 257	домашней   зимней   Олимпиады   2022   года
+T13	Person 275 281	Крюков
+T14	Date-period-absolute 404 438	до   конца   олимпийского   сезона
+T15	Person-property 303 325	китайских   спринтеров
+T16	Ordinal 523 532	четвертым
+T17	Person-property 498 505	тренера
+T18	Quantity 492 505	три   тренера
+T19	Person-property 671 682	спортсменов
+T20	Quantity 775 789	одной   группе
+T21	Age 1266 1275	35-летний
+T22	Person 1278 1284	Крюков
+T23	Organization 1302 1321	``   Матч   ТВ   ''
+A1	Media T23
+T24	Person 1386 1393	Крюкова
+T25	GPE 1436 1440	Сочи
+T26	Event 1419 1429	Игр - 2014
+T27	Quantity 1447 1459	три   победы
+T28	Event 1467 1483	чемпионах   мира
+T29	Date-absolute 1533 1557	в   апреле   2019   года
+T30	Date-absolute 449 472	На   сегодняшний   день
+T31	Date-absolute 662 668	сейчас
+A2	Male T4
+T32	Person-forename 13 19	Никита
+T33	Person-surname 22 28	Крюков
+T34	Date-absolute 119 123	2010
+A3	Past T34
+A4	Future T10
+A5	Male T7
+T36	Person-forename 126 132	Никита
+T37	Person-surname 135 141	Крюков
+T38	GPE 303 312	китайских
+A6	Adjective T38
+A7	Male T13
+T39	Person-surname 275 281	Крюков
+A10	Present T30
+A11	Present T31
+T40	Person-surname 1278 1284	Крюков
+A12	Male T22
+T41	Person-surname 1386 1393	Крюкова
+A13	Male T24
+T42	Date-absolute 1425 1429	2014
+A14	Past T42
+A15	Past T29
+A8	Fut T14
+T44	GPE 1479 1483	мира
+T45	Date-period-absolute 197 243	в   преддверии   домашней   зимней   Олимпиады
+T46	Date-period-absolute 992 998	дальше
+A9	Pres-Fut T46
+A16	Past T45
+T35	GPE 1070 1081	заграничный
+A17	Adjective T35

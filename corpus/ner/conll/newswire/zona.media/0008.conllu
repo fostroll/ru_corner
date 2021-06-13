@@ -1,0 +1,189 @@
+# newdoc id = 0008
+# newpar id = 0008-p1
+# par_text = В Дагестане передали в суд дело журналиста «Черновика» Абдулмумина Гаджиева
+# sent_id = 0008-p1-s1
+# text = В Дагестане передали в суд дело журналиста «Черновика» Абдулмумина Гаджиева
+1	В	_	_	_	_	_	_	_	bratT1=GPE
+2	Дагестане	_	_	_	_	_	_	_	bratT1=GPE
+3	передали	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	суд	_	_	_	_	_	_	_	_
+6	дело	_	_	_	_	_	_	_	_
+7	журналиста	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-property
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T3:Male|bratA2=T5:Media|bratT3=Person|bratT4=Person-property|bratT5=Organization
+9	Черновика	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Male|bratA2=T5:Media|bratT3=Person|bratT4=Person-property|bratT5=Organization
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T3:Male|bratA2=T5:Media|bratT3=Person|bratT4=Person-property|bratT5=Organization
+11	Абдулмумина	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT6=Person-forename
+12	Гаджиева	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT7=Person-surname
+
+# newpar id = 0008-p2
+# par_text = В Дагестане прокуратура передала в суд уголовное дело в отношении редактора отдела религии газеты «Черновик» Абдулмумина Гаджиева, обвиняемого финансировании терроризма. Об этом сообщило республиканское управление Следственного комитета.
+# sent_id = 0008-p2-s1
+# text = В Дагестане прокуратура передала в суд уголовное дело в отношении редактора отдела религии газеты «Черновик» Абдулмумина Гаджиева, обвиняемого финансировании терроризма.
+1	В	_	_	_	_	_	_	_	bratT8=GPE
+2	Дагестане	_	_	_	_	_	_	_	bratT8=GPE
+3	прокуратура	_	_	_	_	_	_	_	_
+4	передала	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	суд	_	_	_	_	_	_	_	_
+7	уголовное	_	_	_	_	_	_	_	_
+8	дело	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	отношении	_	_	_	_	_	_	_	_
+11	редактора	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT12=Person-property
+12	отдела	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT12=Person-property
+13	религии	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT12=Person-property
+14	газеты	_	_	_	_	_	_	_	bratA3=T11:Male|bratA4=T13:Media|bratT11=Person|bratT12=Person-property|bratT13=Organization
+15	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA3=T11:Male|bratA4=T13:Media|bratT11=Person|bratT12=Person-property|bratT13=Organization
+16	Черновик	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratA4=T13:Media|bratT11=Person|bratT12=Person-property|bratT13=Organization
+17	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA3=T11:Male|bratA4=T13:Media|bratT11=Person|bratT12=Person-property|bratT13=Organization
+18	Абдулмумина	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT14=Person-forename
+19	Гаджиева	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT15=Person-surname
+20	,	_	_	_	_	_	_	_	_
+21	обвиняемого	_	_	_	_	_	_	_	_
+22	финансировании	_	_	_	_	_	_	_	_
+23	терроризма	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0008-p2-s2
+# text = Об этом сообщило республиканское управление Следственного комитета.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщило	_	_	_	_	_	_	_	_
+4	республиканское	_	_	_	_	_	_	_	bratA6=T18:Adjective|bratT16=Organization|bratT18=GPE
+5	управление	_	_	_	_	_	_	_	bratT16=Organization
+6	Следственного	_	_	_	_	_	_	_	bratT16=Organization|bratT9=Organization
+7	комитета	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT9=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p3
+# par_text = Гаджиева обвиняют (часть 2 статьи 205.5: участие в террористической организации, часть 4 статьи 205.1 УК: организация финансирования терроризма) в том, что с 2011 до задержания в 2019 году он публиковал в «Черновике» статьи о благотворительности в фонде «Ансар», связанном с проповедником Исраилом Ахмеднабиевым (известном как Абу Умар Саситлинский), и колонки, «наталкивающие читателей на необходимость отказа от светского образа жизни», для пропаганды идей «Исламского государства».
+# sent_id = 0008-p3-s1
+# text = Гаджиева обвиняют (часть 2 статьи 205.5: участие в террористической организации, часть 4 статьи 205.1 УК: организация финансирования терроризма) в том, что с 2011 до задержания в 2019 году он публиковал в «Черновике» статьи о благотворительности в фонде «Ансар», связанном с проповедником Исраилом Ахмеднабиевым (известном как Абу Умар Саситлинский), и колонки, «наталкивающие читателей на необходимость отказа от светского образа жизни», для пропаганды идей «Исламского государства».
+1	Гаджиева	_	_	_	_	_	_	_	bratA14=T34:Male|bratT34=Person|bratT35=Person-surname
+2	обвиняют	_	_	_	_	_	_	_	_
+3	(	_	_	_	_	_	_	_	SpaceAfter=No
+4	часть	_	_	_	_	_	_	_	bratT19=Law
+5	2	_	_	_	_	_	_	_	bratT19=Law|bratT50=Ordinal
+6	статьи	_	_	_	_	_	_	_	bratT19=Law
+7	205.5	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Law|bratT51=Ordinal
+8	:	_	_	_	_	_	_	_	_
+9	участие	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	террористической	_	_	_	_	_	_	_	_
+12	организации	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	часть	_	_	_	_	_	_	_	bratT52=Law
+15	4	_	_	_	_	_	_	_	bratT52=Law|bratT53=Ordinal
+16	статьи	_	_	_	_	_	_	_	bratT52=Law
+17	205.1	_	_	_	_	_	_	_	bratT52=Law|bratT54=Ordinal
+18	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Law|bratT55=Law
+19	:	_	_	_	_	_	_	_	_
+20	организация	_	_	_	_	_	_	_	_
+21	финансирования	_	_	_	_	_	_	_	_
+22	терроризма	_	_	_	_	_	_	_	SpaceAfter=No
+23	)	_	_	_	_	_	_	_	SpaceAfter=No
+24	в	_	_	_	_	_	_	_	_
+25	том	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	что	_	_	_	_	_	_	_	_
+28	с	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-absolute
+29	2011	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-absolute
+30	до	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-absolute
+31	задержания	_	_	_	_	_	_	_	bratA5=T21:Past|bratT17=Event|bratT21=Date-period-absolute
+32	в	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-absolute
+33	2019	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-absolute
+34	году	_	_	_	_	_	_	_	bratA5=T21:Past|bratT21=Date-period-absolute
+35	он	_	_	_	_	_	_	_	_
+36	публиковал	_	_	_	_	_	_	_	_
+37	в	_	_	_	_	_	_	_	_
+38	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA10=T22:Media|bratT22=Organization
+39	Черновике	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T22:Media|bratT22=Organization
+40	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA10=T22:Media|bratT22=Organization
+41	статьи	_	_	_	_	_	_	_	_
+42	о	_	_	_	_	_	_	_	_
+43	благотворительности	_	_	_	_	_	_	_	_
+44	в	_	_	_	_	_	_	_	_
+45	фонде	_	_	_	_	_	_	_	bratT23=Organization
+46	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT23=Organization
+47	Ансар	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+48	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT23=Organization
+49	,	_	_	_	_	_	_	_	_
+50	связанном	_	_	_	_	_	_	_	_
+51	с	_	_	_	_	_	_	_	_
+52	проповедником	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT25=Person-property
+53	Исраилом	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT26=Person-forename
+54	Ахмеднабиевым	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT27=Person-surname
+55	(	_	_	_	_	_	_	_	SpaceAfter=No
+56	известном	_	_	_	_	_	_	_	_
+57	как	_	_	_	_	_	_	_	_
+58	Абу	_	_	_	_	_	_	_	bratA9=T28:Male|bratT10=Person-forename|bratT28=Person
+59	Умар	_	_	_	_	_	_	_	bratA9=T28:Male|bratT10=Person-forename|bratT28=Person
+60	Саситлинский	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Male|bratT28=Person|bratT42=Person-alias
+61	)	_	_	_	_	_	_	_	SpaceAfter=No
+62	,	_	_	_	_	_	_	_	_
+63	и	_	_	_	_	_	_	_	_
+64	колонки	_	_	_	_	_	_	_	SpaceAfter=No
+65	,	_	_	_	_	_	_	_	_
+66	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+67	наталкивающие	_	_	_	_	_	_	_	_
+68	читателей	_	_	_	_	_	_	_	_
+69	на	_	_	_	_	_	_	_	_
+70	необходимость	_	_	_	_	_	_	_	_
+71	отказа	_	_	_	_	_	_	_	_
+72	от	_	_	_	_	_	_	_	_
+73	светского	_	_	_	_	_	_	_	_
+74	образа	_	_	_	_	_	_	_	_
+75	жизни	_	_	_	_	_	_	_	SpaceAfter=No
+76	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+77	,	_	_	_	_	_	_	_	_
+78	для	_	_	_	_	_	_	_	_
+79	пропаганды	_	_	_	_	_	_	_	_
+80	идей	_	_	_	_	_	_	_	_
+81	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT29=Organization
+82	Исламского	_	_	_	_	_	_	_	bratA12=T43:Adjective|bratT29=Organization|bratT43=Religious-group
+83	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+84	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT29=Organization
+85	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0008-p4
+# par_text = При этом, по версии следствия, Гаджиев сознательно не упоминал, что «часть денежных средств, собираемых фондом "Ансар", направлялись для продолжения деятельности террористической организации, действующей в Сирии».
+# sent_id = 0008-p4-s1
+# text = При этом, по версии следствия, Гаджиев сознательно не упоминал, что «часть денежных средств, собираемых фондом "Ансар", направлялись для продолжения деятельности террористической организации, действующей в Сирии».
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	по	_	_	_	_	_	_	_	_
+5	версии	_	_	_	_	_	_	_	_
+6	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	Гаджиев	_	_	_	_	_	_	_	bratA13=T30:Male|bratT30=Person|bratT31=Person-surname
+9	сознательно	_	_	_	_	_	_	_	_
+10	не	_	_	_	_	_	_	_	_
+11	упоминал	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	что	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+15	часть	_	_	_	_	_	_	_	_
+16	денежных	_	_	_	_	_	_	_	_
+17	средств	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	собираемых	_	_	_	_	_	_	_	_
+20	фондом	_	_	_	_	_	_	_	bratT32=Organization
+21	``	_	_	_	_	_	_	_	QuotationStart="|SpaceAfter=No|bratT32=Organization
+22	Ансар	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+23	''	_	_	_	_	_	_	_	QuotationEnd="|SpaceAfter=No|bratT32=Organization
+24	,	_	_	_	_	_	_	_	_
+25	направлялись	_	_	_	_	_	_	_	_
+26	для	_	_	_	_	_	_	_	_
+27	продолжения	_	_	_	_	_	_	_	_
+28	деятельности	_	_	_	_	_	_	_	_
+29	террористической	_	_	_	_	_	_	_	_
+30	организации	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	_	_	_	_	_	_	_	_
+32	действующей	_	_	_	_	_	_	_	_
+33	в	_	_	_	_	_	_	_	_
+34	Сирии	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
+35	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+36	.	_	_	_	_	_	_	_	_
+

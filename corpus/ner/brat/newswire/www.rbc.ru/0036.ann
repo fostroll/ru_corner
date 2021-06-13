@@ -1,0 +1,82 @@
+T1	GPE 4 10	Москве
+T2	Date-period-absolute 13 23	за   сутки
+T3	Quantity 35 47	75   человек
+T4	Other-term 54 67	коронавирусом
+T5	GPE 73 79	Москве
+T6	Date-period-absolute 82 104	за   прошедшие   сутки
+T7	Quantity 116 128	75   человек
+T8	Other-term 171 209	коронавирусную   инфекцию   COVID - 19
+T9	Quantity 325 337	69   человек
+T10	Other-term 344 357	коронавирусом
+T11	Date-absolute 379 395	на   14   ноября
+T12	Quantity 457 461	7787
+T13	GPE 432 439	столице
+T14	Date-period-absolute 475 501	за   последние   24   часа
+T15	GPE 508 514	Москве
+T16	Quantity 531 553	6427   новых   случаев
+T17	Other-term 570 580	COVID - 19
+T18	Event 606 614	пандемии
+T19	Quantity 642 664	503,9   тыс.   человек
+T20	Quantity 696 720	363,3   тыс.   пациентов
+T21	GPE 738 744	России
+T22	Other-term 747 757	COVID - 19
+T23	Quantity 774 795	1,903   млн   человек
+T24	Date-period-absolute 800 822	За   последние   сутки
+T25	Quantity 853 882	на   22,7   тыс.   заболевших
+T26	Event 919 927	пандемии
+T27	Other-term 968 980	коронавируса
+T28	Quantity 1039 1060	32,8   тыс.   человек
+T29	Quantity 1074 1097	391   летальный   исход
+T30	Date-period-absolute 1100 1110	за   сутки
+T31	Organization 1153 1160	Росстат
+T32	Other-term 1227 1237	COVID - 19
+T33	Date-period-absolute 1249 1275	с   апреля   по   сентябрь
+T34	Quantity 1304 1331	более   55   тыс.   человек
+T35	Person 1432 1465	мэра   Москвы   Сергея   Собянина
+T36	Person-property 1432 1445	мэра   Москвы
+T37	GPE 1439 1445	Москвы
+T38	GPE 1472 1479	столица
+T39	Other-term 1518 1528	COVID - 19
+T40	Date-period-absolute 1607 1627	начало   2021   года
+T41	Date-period-absolute 1692 1707	текущего   года
+T42	Duration 18 23	сутки
+T43	Ordinal 87 96	прошедшие
+T44	Duration 99 104	сутки
+A1	Past-Pres T2
+T45	Date-relative 149 154	ранее
+A3	Past T45
+T46	Date-relative 284 296	Днем   ранее
+A4	Past T46
+A5	Past T11
+A6	Past-Pres T14
+T47	Duration 492 501	24   часа
+T48	Date-period-absolute 593 614	с   начала   пандемии
+A7	Past-Pres T48
+T49	Duration 817 822	сутки
+T50	Date-period-absolute 906 927	с   начала   пандемии
+A9	Past-Pres T50
+T51	Duration 1105 1110	сутки
+A10	Past-Pres T30
+A11	Past T33
+T52	Person-forename 1448 1454	Сергея
+T53	Person-surname 1457 1465	Собянина
+A12	Male T35
+T54	Date-absolute 1531 1558	через   несколько   месяцев
+A13	Future T54
+T55	Duration 1539 1558	несколько   месяцев
+T56	Ordinal 1692 1700	текущего
+T57	Time-relative 1207 1212	после
+T58	Duration 284 288	Днем
+T59	Ordinal 480 489	последние
+T60	Ordinal 805 814	последние
+A16	Fut T40
+A14	Pres-Fut T41
+A2	Past T6
+A8	Past T24
+T61	Cardinal 207 209	19
+T62	Cardinal 578 580	19
+T63	Cardinal 755 757	19
+T64	Cardinal 1235 1237	19
+T65	Cardinal 1526 1528	19
+T66	GPE 303 309	городе
+T67	GPE 1282 1288	стране

@@ -1,0 +1,243 @@
+# newdoc id = 0016
+# newpar id = 0016-p1
+# par_text = Гребенщиков и Шевчук подписали письмо против насилия в Белоруссии, сравнимое со зверствами нацистов и царя Ирода
+# sent_id = 0016-p1-s1
+# text = Гребенщиков и Шевчук подписали письмо против насилия в Белоруссии, сравнимое со зверствами нацистов и царя Ирода
+1	Гребенщиков	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT34=Person-surname
+2	и	_	_	_	_	_	_	_	_
+3	Шевчук	_	_	_	_	_	_	_	bratA6=T2:Male|bratT2=Person|bratT35=Person-surname
+4	подписали	_	_	_	_	_	_	_	_
+5	письмо	_	_	_	_	_	_	_	_
+6	против	_	_	_	_	_	_	_	_
+7	насилия	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	Белоруссии	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=GPE
+10	,	_	_	_	_	_	_	_	_
+11	сравнимое	_	_	_	_	_	_	_	_
+12	со	_	_	_	_	_	_	_	_
+13	зверствами	_	_	_	_	_	_	_	_
+14	нацистов	_	_	_	_	_	_	_	bratT4=Political-group
+15	и	_	_	_	_	_	_	_	_
+16	царя	_	_	_	_	_	_	_	bratA7=T5:Male|bratT5=Person|bratT6=Person-property
+17	Ирода	_	_	_	_	_	_	_	bratA7=T5:Male|bratT36=Person-forename|bratT5=Person
+
+# newpar id = 0016-p2
+# par_text = Десятки православных и католических священников, писатели, музыканты и другие деятели подписали открытое письмо против жестокости силовиков в Белоруссии и давления на священнослужителей, публично осуждающих насилие. Среди подписавшихся - музыканты Борис Гребенщиков, Юрий Шевчук, Евгений "Ай-яй-яй" Федоров, художники из сообщества "Митьки", писатели Александр Архангельский и Денис Драгунский, правозащитница Зоя Светова, журналист Юрий Рост, благотворитель Нюта Федермессер.
+# sent_id = 0016-p2-s1
+# text = Десятки православных и католических священников, писатели, музыканты и другие деятели подписали открытое письмо против жестокости силовиков в Белоруссии и давления на священнослужителей, публично осуждающих насилие.
+1	Десятки	_	_	_	_	_	_	_	bratT8=Quantity
+2	православных	_	_	_	_	_	_	_	bratA22=T64:Adjective|bratA3=T7:Plural|bratT64=Religious-group|bratT7=Person-property|bratT8=Quantity
+3	и	_	_	_	_	_	_	_	bratA3=T7:Plural|bratT7=Person-property|bratT8=Quantity
+4	католических	_	_	_	_	_	_	_	bratA23=T65:Adjective|bratA3=T7:Plural|bratT65=Religious-group|bratT7=Person-property|bratT8=Quantity
+5	священников	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T7:Plural|bratT7=Person-property|bratT8=Quantity
+6	,	_	_	_	_	_	_	_	_
+7	писатели	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person-property
+8	,	_	_	_	_	_	_	_	_
+9	музыканты	_	_	_	_	_	_	_	bratT10=Person-property
+10	и	_	_	_	_	_	_	_	_
+11	другие	_	_	_	_	_	_	_	_
+12	деятели	_	_	_	_	_	_	_	_
+13	подписали	_	_	_	_	_	_	_	_
+14	открытое	_	_	_	_	_	_	_	_
+15	письмо	_	_	_	_	_	_	_	_
+16	против	_	_	_	_	_	_	_	_
+17	жестокости	_	_	_	_	_	_	_	_
+18	силовиков	_	_	_	_	_	_	_	bratT11=Person-property
+19	в	_	_	_	_	_	_	_	_
+20	Белоруссии	_	_	_	_	_	_	_	bratT12=GPE
+21	и	_	_	_	_	_	_	_	_
+22	давления	_	_	_	_	_	_	_	_
+23	на	_	_	_	_	_	_	_	_
+24	священнослужителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
+25	,	_	_	_	_	_	_	_	_
+26	публично	_	_	_	_	_	_	_	_
+27	осуждающих	_	_	_	_	_	_	_	_
+28	насилие	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0016-p2-s2
+# text = Среди подписавшихся - музыканты Борис Гребенщиков, Юрий Шевчук, Евгений ``Ай-яй-яй'' Федоров, художники из сообщества ``Митьки'', писатели Александр Архангельский и Денис Драгунский, правозащитница Зоя Светова, журналист Юрий Рост, благотворитель Нюта Федермессер.
+1	Среди	_	_	_	_	_	_	_	_
+2	подписавшихся	_	_	_	_	_	_	_	_
+3	-	_	_	_	_	_	_	_	_
+4	музыканты	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT14=Person-property|bratT15=Person
+5	Борис	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA9=T37:Male|bratT15=Person|bratT37=Person|bratT40=Person-forename
+6	Гребенщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Plural|bratA9=T37:Male|bratT15=Person|bratT37=Person|bratT41=Person-surname
+7	,	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT15=Person
+8	Юрий	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA10=T38:Male|bratT15=Person|bratT38=Person|bratT42=Person-forename
+9	Шевчук	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Plural|bratA10=T38:Male|bratT15=Person|bratT38=Person|bratT43=Person-surname
+10	,	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT15=Person
+11	Евгений	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA8=T39:Male|bratT15=Person|bratT39=Person|bratT44=Person-forename
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Plural|bratA8=T39:Male|bratT15=Person|bratT39=Person|bratT46=Person-alias
+13	Ай-яй-яй	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Plural|bratA8=T39:Male|bratT15=Person|bratT39=Person|bratT46=Person-alias
+14	''	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA8=T39:Male|bratT15=Person|bratT39=Person|bratT46=Person-alias
+15	Федоров	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Plural|bratA8=T39:Male|bratT15=Person|bratT39=Person|bratT45=Person-surname
+16	,	_	_	_	_	_	_	_	_
+17	художники	_	_	_	_	_	_	_	bratT17=Person-property
+18	из	_	_	_	_	_	_	_	bratT17=Person-property
+19	сообщества	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Person-property
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT17=Person-property
+21	Митьки	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT17=Person-property
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT17=Person-property
+23	,	_	_	_	_	_	_	_	_
+24	писатели	_	_	_	_	_	_	_	bratA4=T19:Plural|bratT18=Person-property|bratT19=Person
+25	Александр	_	_	_	_	_	_	_	bratA11=T47:Male|bratA4=T19:Plural|bratT19=Person|bratT47=Person|bratT49=Person-forename
+26	Архангельский	_	_	_	_	_	_	_	bratA11=T47:Male|bratA4=T19:Plural|bratT19=Person|bratT47=Person|bratT50=Person-surname
+27	и	_	_	_	_	_	_	_	bratA4=T19:Plural|bratT19=Person
+28	Денис	_	_	_	_	_	_	_	bratA12=T48:Male|bratA4=T19:Plural|bratT19=Person|bratT48=Person|bratT51=Person-forename
+29	Драгунский	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T48:Male|bratA4=T19:Plural|bratT19=Person|bratT48=Person|bratT52=Person-surname
+30	,	_	_	_	_	_	_	_	_
+31	правозащитница	_	_	_	_	_	_	_	bratA13=T21:Female|bratT20=Person-property|bratT21=Person
+32	Зоя	_	_	_	_	_	_	_	bratA13=T21:Female|bratT21=Person|bratT53=Person-forename
+33	Светова	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Female|bratT21=Person|bratT54=Person-surname
+34	,	_	_	_	_	_	_	_	_
+35	журналист	_	_	_	_	_	_	_	bratA14=T23:Male|bratT22=Person-property|bratT23=Person
+36	Юрий	_	_	_	_	_	_	_	bratA14=T23:Male|bratT23=Person|bratT55=Person-forename
+37	Рост	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T23:Male|bratT23=Person|bratT56=Person-surname
+38	,	_	_	_	_	_	_	_	_
+39	благотворитель	_	_	_	_	_	_	_	bratA15=T25:Female|bratT24=Person-property|bratT25=Person
+40	Нюта	_	_	_	_	_	_	_	bratA15=T25:Female|bratT25=Person|bratT57=Person-forename
+41	Федермессер	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T25:Female|bratT25=Person|bratT58=Person-surname
+42	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0016-p3
+# par_text = "Мы выражаем нашу солидарность, поддержку и глубокое почтение епископам, священникам и всем христианам, которые, презирая опасность, напоминают о свободе и достоинстве человеческой личности, созданной по образу и подобию Божию. Каждый, кто не пошел на сговор с совестью ради выгоды и безопасности, является для нас примером честности и мужества", - говорится в письме, которое публикует портал "Православие и мир".
+# sent_id = 0016-p3-s1
+# text = ``Мы выражаем нашу солидарность, поддержку и глубокое почтение епископам, священникам и всем христианам, которые, презирая опасность, напоминают о свободе и достоинстве человеческой личности, созданной по образу и подобию Божию.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Мы	_	_	_	_	_	_	_	_
+3	выражаем	_	_	_	_	_	_	_	_
+4	нашу	_	_	_	_	_	_	_	_
+5	солидарность	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	поддержку	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	глубокое	_	_	_	_	_	_	_	_
+10	почтение	_	_	_	_	_	_	_	_
+11	епископам	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property
+12	,	_	_	_	_	_	_	_	_
+13	священникам	_	_	_	_	_	_	_	bratT27=Person-property
+14	и	_	_	_	_	_	_	_	_
+15	всем	_	_	_	_	_	_	_	_
+16	христианам	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Religious-group
+17	,	_	_	_	_	_	_	_	_
+18	которые	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	презирая	_	_	_	_	_	_	_	_
+21	опасность	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	напоминают	_	_	_	_	_	_	_	_
+24	о	_	_	_	_	_	_	_	_
+25	свободе	_	_	_	_	_	_	_	_
+26	и	_	_	_	_	_	_	_	_
+27	достоинстве	_	_	_	_	_	_	_	_
+28	человеческой	_	_	_	_	_	_	_	_
+29	личности	_	_	_	_	_	_	_	SpaceAfter=No
+30	,	_	_	_	_	_	_	_	_
+31	созданной	_	_	_	_	_	_	_	_
+32	по	_	_	_	_	_	_	_	_
+33	образу	_	_	_	_	_	_	_	_
+34	и	_	_	_	_	_	_	_	_
+35	подобию	_	_	_	_	_	_	_	_
+36	Божию	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T59:Fiction|bratT59=Person
+37	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0016-p3-s2
+# text = Каждый, кто не пошел на сговор с совестью ради выгоды и безопасности, является для нас примером честности и мужества'', - говорится в письме, которое публикует портал ``Православие и мир''.
+1	Каждый	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	кто	_	_	_	_	_	_	_	_
+4	не	_	_	_	_	_	_	_	_
+5	пошел	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	сговор	_	_	_	_	_	_	_	_
+8	с	_	_	_	_	_	_	_	_
+9	совестью	_	_	_	_	_	_	_	_
+10	ради	_	_	_	_	_	_	_	_
+11	выгоды	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	безопасности	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	является	_	_	_	_	_	_	_	_
+16	для	_	_	_	_	_	_	_	_
+17	нас	_	_	_	_	_	_	_	_
+18	примером	_	_	_	_	_	_	_	_
+19	честности	_	_	_	_	_	_	_	_
+20	и	_	_	_	_	_	_	_	_
+21	мужества	_	_	_	_	_	_	_	SpaceAfter=No
+22	''	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	-	_	_	_	_	_	_	_	_
+25	говорится	_	_	_	_	_	_	_	_
+26	в	_	_	_	_	_	_	_	_
+27	письме	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	_	_	_	_	_	_	_	_
+29	которое	_	_	_	_	_	_	_	_
+30	публикует	_	_	_	_	_	_	_	_
+31	портал	_	_	_	_	_	_	_	bratA2=T29:Media|bratT29=Service
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratT29=Service
+33	Православие	_	_	_	_	_	_	_	bratA17=T60:Source|bratA2=T29:Media|bratT29=Service|bratT60=Religious-group
+34	и	_	_	_	_	_	_	_	bratA2=T29:Media|bratT29=Service
+35	мир	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratT29=Service
+36	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratT29=Service
+37	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0016-p4
+# par_text = В августе синод Белорусской православной церкви в своем обращении выразил надежду, что руководств республики остановит насилие, а "проявивших зверство и жестокость предаст законному cуду и осуждению". Однако этого не произошло, а градус насилия в стране только повышается, говорится в письме священников и мирян.
+# sent_id = 0016-p4-s1
+# text = В августе синод Белорусской православной церкви в своем обращении выразил надежду, что руководств республики остановит насилие, а ``проявивших зверство и жестокость предаст законному cуду и осуждению''.
+1	В	_	_	_	_	_	_	_	bratA20=T30:Past|bratT30=Date-absolute
+2	августе	_	_	_	_	_	_	_	bratA20=T30:Past|bratT30=Date-absolute
+3	синод	_	_	_	_	_	_	_	bratA21=T31:Department|bratT31=Organization
+4	Белорусской	_	_	_	_	_	_	_	bratA19=T62:Adjective|bratA21=T31:Department|bratT31=Organization|bratT62=GPE|bratT63=Organization
+5	православной	_	_	_	_	_	_	_	bratA18=T61:Adjective|bratA21=T31:Department|bratT31=Organization|bratT61=Religious-group|bratT63=Organization
+6	церкви	_	_	_	_	_	_	_	bratA21=T31:Department|bratT31=Organization|bratT63=Organization
+7	в	_	_	_	_	_	_	_	_
+8	своем	_	_	_	_	_	_	_	_
+9	обращении	_	_	_	_	_	_	_	_
+10	выразил	_	_	_	_	_	_	_	_
+11	надежду	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	что	_	_	_	_	_	_	_	_
+14	руководств	_	_	_	_	_	_	_	bratT66=Organization
+15	республики	_	_	_	_	_	_	_	bratT66=Organization|bratT67=GPE
+16	остановит	_	_	_	_	_	_	_	_
+17	насилие	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	а	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No
+21	проявивших	_	_	_	_	_	_	_	_
+22	зверство	_	_	_	_	_	_	_	_
+23	и	_	_	_	_	_	_	_	_
+24	жестокость	_	_	_	_	_	_	_	_
+25	предаст	_	_	_	_	_	_	_	_
+26	законному	_	_	_	_	_	_	_	_
+27	cуду	_	_	_	_	_	_	_	_
+28	и	_	_	_	_	_	_	_	_
+29	осуждению	_	_	_	_	_	_	_	SpaceAfter=No
+30	''	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0016-p4-s2
+# text = Однако этого не произошло, а градус насилия в стране только повышается, говорится в письме священников и мирян.
+1	Однако	_	_	_	_	_	_	_	_
+2	этого	_	_	_	_	_	_	_	_
+3	не	_	_	_	_	_	_	_	_
+4	произошло	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	а	_	_	_	_	_	_	_	_
+7	градус	_	_	_	_	_	_	_	_
+8	насилия	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	стране	_	_	_	_	_	_	_	bratT68=GPE
+11	только	_	_	_	_	_	_	_	_
+12	повышается	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	говорится	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	письме	_	_	_	_	_	_	_	_
+17	священников	_	_	_	_	_	_	_	bratT32=Person-property
+18	и	_	_	_	_	_	_	_	_
+19	мирян	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-group
+20	.	_	_	_	_	_	_	_	_
+

@@ -6,18 +6,18 @@ T7	Person 164 238	игроком   английского   ``   Манчест�
 T8	Organization 174 217	английского   ``   Манчестер   Юнайтед   ''
 T4	Person-property 56 78	игроком   ``   МЮ   ''
 T9	Person-property 164 217	игроком   английского   ``   Манчестер   Юнайтед   ''
-T11	Person-property 296 306	футболиста
-T12	Organization 326 359	английский   ``   Вест   Хэм   ''
-T13	Organization 366 382	``   Монако   ''
-T14	Person-property 387 393	Хавбек
-T15	Date-period-absolute 444 459	с   2011   года
-T16	Person 544 557	Артем   Дзюба
-T17	Event 519 531	Кубке   лиги
-T18	Quantity 501 512	два   матча
-T6	Organization 256 268	fichajes.net
+T11	Person-property 298 308	футболиста
+T12	Organization 328 361	английский   ``   Вест   Хэм   ''
+T13	Organization 368 384	``   Монако   ''
+T14	Person-property 389 395	Хавбек
+T15	Date-period-absolute 446 461	с   2011   года
+T16	Person 546 559	Артем   Дзюба
+T17	Event 521 533	Кубке   лиги
+T18	Quantity 503 514	два   матча
+T6	Organization 256 270	fichajes . net
 A1	Media T6
-T10	Event 597 610	секс-скандала
-T19	Date-relative 536 541	Ранее
+T10	Event 599 612	секс-скандала
+T19	Date-relative 538 543	Ранее
 A2	RCont T15
 A3	Past-Pres T15
 A4	Past T19
@@ -26,18 +26,22 @@ A5	Male T3
 T21	Person-forename 220 226	Джесси
 T22	Person-surname 229 238	Лингардом
 A6	Male T7
-T23	Person-forename 544 549	Артем
-T24	Person-surname 552 557	Дзюба
+T23	Person-forename 546 551	Артем
+T24	Person-surname 554 559	Дзюба
 A7	Male T16
 T25	GPE 92 105	Петербургский
 A8	Adjective T25
 T26	GPE 174 185	английского
 A9	Adjective T26
-T27	GPE 326 336	английский
+T27	GPE 328 338	английский
 A10	Adjective T27
-T28	Ordinal 468 475	текущем
-T29	Event 468 484	текущем   сезоне
-T30	Date-period-absolute 464 484	В   текущем   сезоне
+T28	Ordinal 470 477	текущем
+T29	Event 470 486	текущем   сезоне
+T30	Date-period-absolute 466 486	В   текущем   сезоне
 A11	Past-Pres T30
 T31	GPE 193 202	Манчестер
-T32	GPE 371 377	Монако
+T32	GPE 373 379	Монако
+T33	Person 430 438	дьяволов
+A12	Fiction T33
+A13	Male T33
+T34	Web-address 256 270	fichajes . net

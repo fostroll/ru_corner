@@ -43,7 +43,7 @@
 23	и	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
 25	столице	_	_	_	_	_	_	_	bratT33=GPE
-26	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
+26	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE|bratT45=GPE
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0078-p3
@@ -64,7 +64,7 @@
 12	задержанных	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	к	_	_	_	_	_	_	_	bratA5=T34:Present|bratT34=Date-absolute
-15	этому	_	_	_	_	_	_	_	bratA5=T34:Present|bratT34=Date-absolute
+15	этому	_	_	_	_	_	_	_	bratA5=T34:Present|bratT34=Date-absolute|bratT43=Ordinal
 16	часу	_	_	_	_	_	_	_	bratA5=T34:Present|bratT34=Date-absolute
 17	их	_	_	_	_	_	_	_	_
 18	число	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 7	милиции	_	_	_	_	_	_	_	bratT10=Organization
 8	по	_	_	_	_	_	_	_	_
 9	всей	_	_	_	_	_	_	_	_
-10	стране	_	_	_	_	_	_	_	_
+10	стране	_	_	_	_	_	_	_	bratT46=GPE
 11	были	_	_	_	_	_	_	_	_
 12	доставлены	_	_	_	_	_	_	_	_
 13	813	_	_	_	_	_	_	_	bratT11=Quantity
@@ -123,7 +123,7 @@
 18	на	_	_	_	_	_	_	_	_
 19	разных	_	_	_	_	_	_	_	_
 20	улицах	_	_	_	_	_	_	_	_
-21	города	_	_	_	_	_	_	_	SpaceAfter=No
+21	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=GPE
 22	,	_	_	_	_	_	_	_	_
 23	мешая	_	_	_	_	_	_	_	_
 24	спать	_	_	_	_	_	_	_	_
@@ -139,25 +139,28 @@
 3	как	_	_	_	_	_	_	_	_
 4	писал	_	_	_	_	_	_	_	_
 5	сайт	_	_	_	_	_	_	_	bratA1=T13:Media|bratT13=Service
-6	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Media|bratA3=T32:Media|bratT13=Service|bratT32=Organization
-7	,	_	_	_	_	_	_	_	_
-8	белорусская	_	_	_	_	_	_	_	bratA14=T41:Adjective|bratT14=Organization|bratT41=GPE
-9	оппозиция	_	_	_	_	_	_	_	bratT14=Organization
-10	организовывает	_	_	_	_	_	_	_	_
-11	несанкционированные	_	_	_	_	_	_	_	_
-12	митинги	_	_	_	_	_	_	_	SpaceAfter=No
-13	,	_	_	_	_	_	_	_	_
-14	демонстрации	_	_	_	_	_	_	_	SpaceAfter=No
+6-8	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No
+6	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Media|bratA3=T32:Media|bratT13=Service|bratT32=Organization|bratT44=Web-address
+7	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Media|bratA3=T32:Media|bratT13=Service|bratT32=Organization|bratT44=Web-address
+8	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T13:Media|bratA3=T32:Media|bratT13=Service|bratT32=Organization|bratT44=Web-address
+9	,	_	_	_	_	_	_	_	_
+10	белорусская	_	_	_	_	_	_	_	bratA14=T41:Adjective|bratT14=Organization|bratT41=GPE
+11	оппозиция	_	_	_	_	_	_	_	bratT14=Organization
+12	организовывает	_	_	_	_	_	_	_	_
+13	несанкционированные	_	_	_	_	_	_	_	_
+14	митинги	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
-16	шествия	_	_	_	_	_	_	_	SpaceAfter=No
+16	демонстрации	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
-18	марши	_	_	_	_	_	_	_	_
-19	и	_	_	_	_	_	_	_	_
-20	автопробеги	_	_	_	_	_	_	_	_
-21	с	_	_	_	_	_	_	_	bratA8=T15:RCont|bratA9=T15:Past-Pres|bratT15=Date-period-absolute
-22	9	_	_	_	_	_	_	_	bratA8=T15:RCont|bratA9=T15:Past-Pres|bratT15=Date-period-absolute
-23	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:RCont|bratA9=T15:Past-Pres|bratT15=Date-period-absolute
-24	.	_	_	_	_	_	_	_	_
+18	шествия	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	марши	_	_	_	_	_	_	_	_
+21	и	_	_	_	_	_	_	_	_
+22	автопробеги	_	_	_	_	_	_	_	_
+23	с	_	_	_	_	_	_	_	bratA8=T15:RCont|bratA9=T15:Past-Pres|bratT15=Date-period-absolute
+24	9	_	_	_	_	_	_	_	bratA8=T15:RCont|bratA9=T15:Past-Pres|bratT15=Date-period-absolute
+25	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:RCont|bratA9=T15:Past-Pres|bratT15=Date-period-absolute
+26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0078-p4-s2
 # text = В 13-е воскресенье протестных акций в столице проводился так называемый ``Марш народовластия''.
@@ -181,9 +184,9 @@
 # text = Среди задержанных в этот день оказался и фотокорреспондент ``Комсомольской правды'' в Беларуси Святослав Зоркий, он провел в Советском РОВД около трех часов, потом отпустили.
 1	Среди	_	_	_	_	_	_	_	_
 2	задержанных	_	_	_	_	_	_	_	bratT27=Person-property
-3	в	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-absolute
-4	этот	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-absolute|bratT38=Ordinal
-5	день	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-absolute
+3	в	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-relative
+4	этот	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-relative|bratT38=Ordinal
+5	день	_	_	_	_	_	_	_	bratA11=T28:Past|bratT28=Date-relative
 6	оказался	_	_	_	_	_	_	_	_
 7	и	_	_	_	_	_	_	_	_
 8	фотокорреспондент	_	_	_	_	_	_	_	bratA13=T21:Male|bratT20=Person-property|bratT21=Person

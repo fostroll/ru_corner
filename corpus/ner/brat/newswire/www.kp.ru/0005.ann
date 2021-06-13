@@ -1,46 +1,59 @@
 T1	GPE 0 8	Беларусь
-T2	Product 21 39	самолеты   Су-30СМ
-T3	Product 46 63	вертолеты   Ми-35
-T4	GPE 70 76	России
-T5	Date-absolute 79 94	в   2021   году
-T6	GPE 105 126	Республики   Беларусь
-T7	Date-absolute 140 155	в   2021   году
-T8	GPE 173 179	России
-T9	Person 290 335	глава   Минобороны   страны   Виктор   Хренин
-T11	Organization 350 378	телеканала   ``   Беларусь-1
+T2	Product 21 42	самолеты   Су - 30 СМ
+T3	Product 49 68	вертолеты   Ми - 35
+T4	GPE 75 81	России
+T5	Date-absolute 84 99	в   2021   году
+T6	GPE 110 131	Республики   Беларусь
+T7	Date-absolute 145 160	в   2021   году
+T8	GPE 178 184	России
+T9	Person 295 340	глава   Минобороны   страны   Виктор   Хренин
+T11	Organization 355 385	телеканала   ``   Беларусь - 1
 A1	Media T11
-T12	GPE 437 442	Минск
-T14	Product 484 502	самолета   Су-30СМ
-T15	Product 509 526	вертолеты   Ми-35
-T13	Quantity 470 481	по   четыре
-T16	Product 568 587	самолетам   Су-30СМ
-T17	Date-absolute 594 614	в   следующем   году
-T18	Quantity 634 646	еще   четыре
-T19	GPE 677 700	Российской   Федерацией
-T20	Quantity 797 831	два   механизированных   батальона
-T21	Product 839 846	БТР-82А
-T22	Person 921 927	Хренин
-T23	Person-property 1075 1104	глава   Минобороны   Беларуси
-T24	Organization 298 308	Минобороны
-T25	Organization 1083 1104	Минобороны   Беларуси
-T26	GPE 1096 1104	Беларуси
-T27	GPE 1179 1186	Россией
-T28	Event 1189 1215	``   Запад   -   2021   ''
-T10	Person-property 290 317	глава   Минобороны   страны
-T29	Person-property 737 744	министр
-T30	Date-period-absolute 1142 1163	за   последние   годы
-T31	Ordinal 598 607	следующем
-T32	Ordinal 1147 1156	последние
-T33	Ordinal 971 980	последних
+T12	GPE 444 449	Минск
+T14	Product 491 512	самолета   Су - 30 СМ
+T15	Product 519 538	вертолеты   Ми - 35
+T13	Quantity 477 488	по   четыре
+T16	Product 580 602	самолетам   Су - 30 СМ
+T17	Date-absolute 609 629	в   следующем   году
+T18	Quantity 649 661	еще   четыре
+T19	GPE 692 715	Российской   Федерацией
+T20	Quantity 812 846	два   механизированных   батальона
+T21	Product 854 864	БТР - 82 А
+T22	Person 939 945	Хренин
+T23	Person-property 1093 1122	глава   Минобороны   Беларуси
+T24	Organization 303 313	Минобороны
+T25	Organization 1101 1122	Минобороны   Беларуси
+T26	GPE 1114 1122	Беларуси
+T27	GPE 1197 1204	Россией
+T28	Event 1207 1229	``   Запад - 2021   ''
+T10	Person-property 295 322	глава   Минобороны   страны
+T29	Person-property 752 759	министр
+T30	Date-period-absolute 1160 1181	за   последние   годы
+T31	Ordinal 613 622	следующем
+T32	Ordinal 1165 1174	последние
+T33	Ordinal 989 998	последних
 A2	Future T17
-T34	Duration 1159 1163	годы
+T34	Duration 1177 1181	годы
 A3	Past-Pres T30
 A4	Future T5
 A5	Future T7
-T35	Person-forename 320 326	Виктор
-T36	Person-surname 329 335	Хренин
-T37	Person-surname 921 927	Хренин
+T35	Person-forename 325 331	Виктор
+T36	Person-surname 334 340	Хренин
+T37	Person-surname 939 945	Хренин
 A6	Male T9
 A7	Male T22
-T38	Date-absolute 1206 1210	2021
+T38	Date-absolute 1220 1224	2021
 A8	Future T38
+T39	GPE 1041 1054	отечественным
+T40	Cardinal 66 68	35
+T42	Cardinal 37 39	30
+T44	Cardinal 507 509	30
+T46	Cardinal 536 538	35
+T48	Cardinal 597 599	30
+A9	Trademark T16
+T50	Cardinal 860 862	82
+T41	Ordinal 384 385	1
+T43	GPE 373 381	Беларусь
+T45	Organization 101 131	Власти   Республики   Беларусь
+A10	Adjective T39
+T47	GPE 316 322	страны

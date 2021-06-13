@@ -1,0 +1,280 @@
+# newdoc id = 0066
+# newpar id = 0066-p1
+# par_text = Венгрия оценила сроки начала производства российской вакцины от COVID
+# sent_id = 0066-p1-s1
+# text = Венгрия оценила сроки начала производства российской вакцины от COVID
+1	Венгрия	_	_	_	_	_	_	_	bratT1=GPE
+2	оценила	_	_	_	_	_	_	_	_
+3	сроки	_	_	_	_	_	_	_	_
+4	начала	_	_	_	_	_	_	_	_
+5	производства	_	_	_	_	_	_	_	_
+6	российской	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratA15=T27:Trademark|bratT27=Product|bratT3=GPE
+7	вакцины	_	_	_	_	_	_	_	bratA15=T27:Trademark|bratT27=Product
+8	от	_	_	_	_	_	_	_	bratA15=T27:Trademark|bratT27=Product
+9	COVID	_	_	_	_	_	_	_	bratA15=T27:Trademark|bratT2=Other-term|bratT27=Product
+
+# newpar id = 0066-p2
+# par_text = Венгрии может понадобиться около полутора лет для начала производства российской вакцины от коронавирусной инфекции «Спутник V». Об этом заявил министр иностранных дел и внешней торговли страны Петер Сийярто в эфире телеканала «Россия 24».
+# sent_id = 0066-p2-s1
+# text = Венгрии может понадобиться около полутора лет для начала производства российской вакцины от коронавирусной инфекции ``Спутник V''.
+1	Венгрии	_	_	_	_	_	_	_	bratT6=GPE
+2	может	_	_	_	_	_	_	_	_
+3	понадобиться	_	_	_	_	_	_	_	_
+4	около	_	_	_	_	_	_	_	bratA14=T11:Pres-Fut|bratT11=Date-period-absolute|bratT12=Duration
+5	полутора	_	_	_	_	_	_	_	bratA14=T11:Pres-Fut|bratT11=Date-period-absolute|bratT12=Duration
+6	лет	_	_	_	_	_	_	_	bratA14=T11:Pres-Fut|bratT11=Date-period-absolute|bratT12=Duration
+7	для	_	_	_	_	_	_	_	_
+8	начала	_	_	_	_	_	_	_	_
+9	производства	_	_	_	_	_	_	_	_
+10	российской	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratA3=T9:Adjective|bratT10=Product|bratT9=GPE
+11	вакцины	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratT10=Product|bratT28=Other-term
+12	от	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratT10=Product
+13	коронавирусной	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratT10=Product|bratT7=Other-term
+14	инфекции	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratT10=Product|bratT7=Other-term
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T10:Trademark|bratT10=Product
+16	Спутник	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratT10=Product
+17	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T10:Trademark|bratT10=Product
+18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T10:Trademark|bratT10=Product
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p2-s2
+# text = Об этом заявил министр иностранных дел и внешней торговли страны Петер Сийярто в эфире телеканала ``Россия 24''.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	заявил	_	_	_	_	_	_	_	_
+4	министр	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT5=Person-property
+5	иностранных	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT5=Person-property
+6	дел	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT5=Person-property
+7	и	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT5=Person-property
+8	внешней	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT5=Person-property
+9	торговли	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT5=Person-property
+10	страны	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT5=Person-property|bratT50=GPE
+11	Петер	_	_	_	_	_	_	_	bratA4=T15:Male|bratT13=Person-forename|bratT15=Person
+12	Сийярто	_	_	_	_	_	_	_	bratA4=T15:Male|bratT14=Person-surname|bratT15=Person
+13	в	_	_	_	_	_	_	_	_
+14	эфире	_	_	_	_	_	_	_	_
+15	телеканала	_	_	_	_	_	_	_	bratA5=T16:Media|bratT16=Organization
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Media|bratT16=Organization
+17	Россия	_	_	_	_	_	_	_	bratA5=T16:Media|bratT16=Organization|bratT49=GPE
+18	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Media|bratT16=Organization|bratT4=Time-period|bratT8=Duration
+19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Media|bratT16=Organization
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0066-p3
+# par_text = По его словам, глава российского Минздрава Михаил Мурашко встречался 27 ноября с представителями венгерских фармкомпаний. «Компании говорят, что для внедрения новых российских технологий производства вакцины может потребоваться до полутора лет. Но мы посмотрим, можно ли сократить это время. Если нужно так много времени, то это неконкурентоспособно. И тогда нам придется сконцентрироваться только на закупках», — сказал Сийярто.
+# sent_id = 0066-p3-s1
+# text = По его словам, глава российского Минздрава Михаил Мурашко встречался 27 ноября с представителями венгерских фармкомпаний.
+1	По	_	_	_	_	_	_	_	_
+2	его	_	_	_	_	_	_	_	_
+3	словам	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	глава	_	_	_	_	_	_	_	bratA7=T22:Male|bratT19=Person-property|bratT22=Person
+6	российского	_	_	_	_	_	_	_	bratA6=T17:Adjective|bratA7=T22:Male|bratT17=GPE|bratT18=Organization|bratT19=Person-property|bratT22=Person
+7	Минздрава	_	_	_	_	_	_	_	bratA7=T22:Male|bratT18=Organization|bratT19=Person-property|bratT22=Person
+8	Михаил	_	_	_	_	_	_	_	bratA7=T22:Male|bratT20=Person-forename|bratT22=Person
+9	Мурашко	_	_	_	_	_	_	_	bratA7=T22:Male|bratT21=Person-surname|bratT22=Person
+10	встречался	_	_	_	_	_	_	_	_
+11	27	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
+12	ноября	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
+13	с	_	_	_	_	_	_	_	_
+14	представителями	_	_	_	_	_	_	_	bratT25=Person-property
+15	венгерских	_	_	_	_	_	_	_	bratA9=T24:Adjective|bratT24=GPE|bratT25=Person-property
+16	фармкомпаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p3-s2
+# text = ``Компании говорят, что для внедрения новых российских технологий производства вакцины может потребоваться до полутора лет.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Компании	_	_	_	_	_	_	_	_
+3	говорят	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	для	_	_	_	_	_	_	_	_
+7	внедрения	_	_	_	_	_	_	_	_
+8	новых	_	_	_	_	_	_	_	_
+9	российских	_	_	_	_	_	_	_	bratA10=T26:Adjective|bratT26=GPE
+10	технологий	_	_	_	_	_	_	_	_
+11	производства	_	_	_	_	_	_	_	_
+12	вакцины	_	_	_	_	_	_	_	bratT29=Other-term
+13	может	_	_	_	_	_	_	_	_
+14	потребоваться	_	_	_	_	_	_	_	_
+15	до	_	_	_	_	_	_	_	bratA2=T30:Pres-Fut|bratT30=Date-period-absolute|bratT31=Duration
+16	полутора	_	_	_	_	_	_	_	bratA2=T30:Pres-Fut|bratT30=Date-period-absolute|bratT31=Duration
+17	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T30:Pres-Fut|bratT30=Date-period-absolute|bratT31=Duration
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p3-s3
+# text = Но мы посмотрим, можно ли сократить это время.
+1	Но	_	_	_	_	_	_	_	_
+2	мы	_	_	_	_	_	_	_	_
+3	посмотрим	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	можно	_	_	_	_	_	_	_	_
+6	ли	_	_	_	_	_	_	_	_
+7	сократить	_	_	_	_	_	_	_	_
+8	это	_	_	_	_	_	_	_	_
+9	время	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p3-s4
+# text = Если нужно так много времени, то это неконкурентоспособно.
+1	Если	_	_	_	_	_	_	_	_
+2	нужно	_	_	_	_	_	_	_	_
+3	так	_	_	_	_	_	_	_	_
+4	много	_	_	_	_	_	_	_	_
+5	времени	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	то	_	_	_	_	_	_	_	_
+8	это	_	_	_	_	_	_	_	_
+9	неконкурентоспособно	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p3-s5
+# text = И тогда нам придется сконцентрироваться только на закупках'', - сказал Сийярто.
+1	И	_	_	_	_	_	_	_	_
+2	тогда	_	_	_	_	_	_	_	_
+3	нам	_	_	_	_	_	_	_	_
+4	придется	_	_	_	_	_	_	_	_
+5	сконцентрироваться	_	_	_	_	_	_	_	_
+6	только	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	_
+8	закупках	_	_	_	_	_	_	_	SpaceAfter=No
+9	''	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	-	_	_	_	_	_	_	_	_
+12	сказал	_	_	_	_	_	_	_	_
+13	Сийярто	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T33:Male|bratT32=Person-surname|bratT33=Person
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0066-p4
+# par_text = Он отметил, что Будапешт был бы рад переносу производства препарата в Венгрию. «Но я не могу сказать, произойдет ли это. Мы были бы рады, если бы это произошло. Но это технологический вопрос», — пояснил министр.
+# sent_id = 0066-p4-s1
+# text = Он отметил, что Будапешт был бы рад переносу производства препарата в Венгрию.
+1	Он	_	_	_	_	_	_	_	_
+2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	Будапешт	_	_	_	_	_	_	_	bratT34=GPE
+6	был	_	_	_	_	_	_	_	_
+7	бы	_	_	_	_	_	_	_	_
+8	рад	_	_	_	_	_	_	_	_
+9	переносу	_	_	_	_	_	_	_	_
+10	производства	_	_	_	_	_	_	_	_
+11	препарата	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	Венгрию	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=GPE
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p4-s2
+# text = ``Но я не могу сказать, произойдет ли это.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Но	_	_	_	_	_	_	_	_
+3	я	_	_	_	_	_	_	_	_
+4	не	_	_	_	_	_	_	_	_
+5	могу	_	_	_	_	_	_	_	_
+6	сказать	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	произойдет	_	_	_	_	_	_	_	_
+9	ли	_	_	_	_	_	_	_	_
+10	это	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p4-s3
+# text = Мы были бы рады, если бы это произошло.
+1	Мы	_	_	_	_	_	_	_	_
+2	были	_	_	_	_	_	_	_	_
+3	бы	_	_	_	_	_	_	_	_
+4	рады	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	если	_	_	_	_	_	_	_	_
+7	бы	_	_	_	_	_	_	_	_
+8	это	_	_	_	_	_	_	_	_
+9	произошло	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p4-s4
+# text = Но это технологический вопрос'', - пояснил министр.
+1	Но	_	_	_	_	_	_	_	_
+2	это	_	_	_	_	_	_	_	_
+3	технологический	_	_	_	_	_	_	_	_
+4	вопрос	_	_	_	_	_	_	_	SpaceAfter=No
+5	''	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	-	_	_	_	_	_	_	_	_
+8	пояснил	_	_	_	_	_	_	_	_
+9	министр	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0066-p5
+# par_text = Он также сообщил, что в Европе есть лобби против приходящих из-за пределов ЕС вакцин. «Есть сильное лобби против вакцин, которые приходят извне Евросоюза. Мы уже к этому привыкли. И уже много раз показывали, что никакое лобби не заставит нас не ставить интересы венгров на первое место», — подчеркнул Сийярто.
+# sent_id = 0066-p5-s1
+# text = Он также сообщил, что в Европе есть лобби против приходящих из-за пределов ЕС вакцин.
+1	Он	_	_	_	_	_	_	_	_
+2	также	_	_	_	_	_	_	_	_
+3	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	Европе	_	_	_	_	_	_	_	bratT37=GPE
+8	есть	_	_	_	_	_	_	_	_
+9	лобби	_	_	_	_	_	_	_	bratT47=Other-group
+10	против	_	_	_	_	_	_	_	bratT47=Other-group
+11	приходящих	_	_	_	_	_	_	_	bratT47=Other-group
+12	из-за	_	_	_	_	_	_	_	bratT47=Other-group
+13	пределов	_	_	_	_	_	_	_	bratT47=Other-group
+14	ЕС	_	_	_	_	_	_	_	bratT38=GPE|bratT47=Other-group
+15	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term|bratT47=Other-group
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p5-s2
+# text = ``Есть сильное лобби против вакцин, которые приходят извне Евросоюза.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Есть	_	_	_	_	_	_	_	_
+3	сильное	_	_	_	_	_	_	_	_
+4	лобби	_	_	_	_	_	_	_	bratT48=Other-group
+5	против	_	_	_	_	_	_	_	bratT48=Other-group
+6	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Other-term|bratT48=Other-group
+7	,	_	_	_	_	_	_	_	bratT48=Other-group
+8	которые	_	_	_	_	_	_	_	bratT48=Other-group
+9	приходят	_	_	_	_	_	_	_	bratT48=Other-group
+10	извне	_	_	_	_	_	_	_	bratT48=Other-group
+11	Евросоюза	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=GPE|bratT48=Other-group
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p5-s3
+# text = Мы уже к этому привыкли.
+1	Мы	_	_	_	_	_	_	_	_
+2	уже	_	_	_	_	_	_	_	_
+3	к	_	_	_	_	_	_	_	_
+4	этому	_	_	_	_	_	_	_	_
+5	привыкли	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0066-p5-s4
+# text = И уже много раз показывали, что никакое лобби не заставит нас не ставить интересы венгров на первое место'', - подчеркнул Сийярто.
+1	И	_	_	_	_	_	_	_	_
+2	уже	_	_	_	_	_	_	_	_
+3	много	_	_	_	_	_	_	_	bratT42=Quantity
+4	раз	_	_	_	_	_	_	_	bratT42=Quantity
+5	показывали	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	никакое	_	_	_	_	_	_	_	_
+9	лобби	_	_	_	_	_	_	_	_
+10	не	_	_	_	_	_	_	_	_
+11	заставит	_	_	_	_	_	_	_	_
+12	нас	_	_	_	_	_	_	_	_
+13	не	_	_	_	_	_	_	_	_
+14	ставить	_	_	_	_	_	_	_	_
+15	интересы	_	_	_	_	_	_	_	_
+16	венгров	_	_	_	_	_	_	_	bratA12=T43:Citizenship|bratT43=Nationality
+17	на	_	_	_	_	_	_	_	_
+18	первое	_	_	_	_	_	_	_	bratT44=Ordinal
+19	место	_	_	_	_	_	_	_	SpaceAfter=No
+20	''	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	-	_	_	_	_	_	_	_	_
+23	подчеркнул	_	_	_	_	_	_	_	_
+24	Сийярто	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T45:Male|bratT45=Person|bratT46=Person-surname
+25	.	_	_	_	_	_	_	_	_
+

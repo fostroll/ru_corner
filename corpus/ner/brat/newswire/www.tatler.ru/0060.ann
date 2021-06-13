@@ -1,0 +1,93 @@
+T1	Person-forename 4 10	Джеффа
+T2	Person-surname 13 19	Безоса
+T3	Person 4 19	Джеффа   Безоса
+A1	Male T3
+T4	Date-absolute 46 51	вчера
+A2	Past T4
+T5	Person-forename 54 59	Джефф
+T6	Person 54 59	Джефф
+A3	Male T6
+T7	Person-forename 66 74	Маккензи
+T8	Person-surname 77 82	Безос
+T9	Person 54 82	Джефф   и   Маккензи   Безос
+A4	Plural T9
+T10	Person 66 82	Маккензи   Безос
+A5	Female T10
+T11	Date-absolute 152 159	сегодня
+A6	Present T11
+T12	Date-period-absolute 269 277	25   лет
+A7	Past-Pres T12
+T13	Quantity 290 312	несколько   источников
+T14	Person-forename 372 377	Джефф
+T15	Person 372 377	Джефф
+A8	Male T15
+T16	Person-forename 421 426	Лорен
+T17	Person-surname 429 435	Санчес
+T18	Person-property 406 418	журналисткой
+T19	Person 406 435	журналисткой   Лорен   Санчес
+A9	Female T19
+T20	Person-surname 456 462	Санчес
+T21	Person 456 462	Санчес
+A10	Female T21
+T22	Date-period-absolute 512 527	с   2005   года
+T23	Person-property 551 574	агентом   по   талантам
+T24	Person-forename 577 585	Патриком
+T25	Person-surname 588 598	Уайтселлом
+T26	Person 551 598	агентом   по   талантам   Патриком   Уайтселлом
+A12	Male T26
+T27	Person-forename 624 631	Безосом
+T28	Person 624 631	Безосом
+A13	Male T28
+T29	Date-absolute 676 682	осенью
+A14	Past T29
+T30	Date-relative 689 706	на   тот   момент
+A15	Past T30
+T31	Ordinal 694 697	тот
+T32	Organization 722 728	Amazon
+T33	Person-property 709 728	основатель   Amazon
+T34	Family 752 757	женой
+T35	Person-forename 803 808	Джефф
+T36	Person 803 808	Джефф
+A16	Male T36
+T37	Person-forename 815 820	Лорен
+T38	Person 815 820	Лорен
+A17	Female T38
+T39	Person-property 887 897	бизнесмена
+T40	Money 913 929	$ 65   миллионов
+T41	Person-surname 971 977	Санчес
+T42	Person 971 977	Санчес
+A18	Female T42
+T43	Person-surname 995 1001	Безоса
+T44	Person 995 1001	Безоса
+A19	Male T44
+T45	Event 1009 1047	церемонии   ``   Золотой   глобус   ''
+T46	Person-property 1096 1106	фотографов
+T47	Person-forename 1112 1117	Джефф
+T48	Person 1112 1117	Джефф
+A20	Male T48
+T49	Person-forename 1157 1162	Лорен
+T50	Person 1157 1162	Лорен
+A21	Female T50
+T51	Family 1174 1179	мужем
+T52	Person-property 1203 1212	бизнесмен
+T53	Person-property 1219 1230	журналистка
+T54	Date-period-relative 1126 1141	несколько   лет
+A22	RCont T54
+T55	Duration 1126 1141	несколько   лет
+T56	Date-period-relative 1186 1200	долгое   время
+A24	Past T56
+T57	Date-period-absolute 762 800	За   время   своего   тайного   романа
+A25	Past T57
+T58	Date-period-relative 1268 1281	со   временем
+T59	Person 1169 1179	ее   мужем
+A26	Male T59
+T62	Duration 269 277	25   лет
+T63	Family 229 233	пары
+T60	Duration 352 369	некоторое   время
+T64	Date-period-absolute 346 369	уже   некоторое   время
+A27	Past-Pres T64
+A11	Past-Pres T22
+A23	Past-Pres T54
+T61	Duration 1186 1200	долгое   время
+A28	Past T58
+A29	RCont T64

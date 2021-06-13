@@ -3,9 +3,9 @@
 # par_text = Модель популярного бренда снялась топлес на ковре и взволновала фанатов
 # sent_id = 0090-p1-s1
 # text = Модель популярного бренда снялась топлес на ковре и взволновала фанатов
-1	Модель	_	_	_	_	_	_	_	bratT1=Person-property
-2	популярного	_	_	_	_	_	_	_	bratT1=Person-property
-3	бренда	_	_	_	_	_	_	_	bratT1=Person-property
+1	Модель	_	_	_	_	_	_	_	bratA9=T30:Female|bratT1=Person-property|bratT30=Person
+2	популярного	_	_	_	_	_	_	_	bratA9=T30:Female|bratT1=Person-property|bratT30=Person
+3	бренда	_	_	_	_	_	_	_	bratA9=T30:Female|bratT1=Person-property|bratT30=Person
 4	снялась	_	_	_	_	_	_	_	_
 5	топлес	_	_	_	_	_	_	_	bratT17=Other-term
 6	на	_	_	_	_	_	_	_	_
@@ -18,11 +18,11 @@
 # par_text = Модель популярного бренда Fashion Nova снялась в нижнем белье и взволновала подписчиков. Серия фотографий появилась на ее странице в Instagram.
 # sent_id = 0090-p2-s1
 # text = Модель популярного бренда Fashion Nova снялась в нижнем белье и взволновала подписчиков.
-1	Модель	_	_	_	_	_	_	_	bratT5=Person-property
-2	популярного	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
-3	бренда	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
-4	Fashion	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
-5	Nova	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratT5=Person-property|bratT6=Product
+1	Модель	_	_	_	_	_	_	_	bratA8=T29:Female|bratT29=Person|bratT5=Person-property
+2	популярного	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratA8=T29:Female|bratT29=Person|bratT5=Person-property|bratT6=Product
+3	бренда	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratA8=T29:Female|bratT29=Person|bratT5=Person-property|bratT6=Product
+4	Fashion	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratA8=T29:Female|bratT29=Person|bratT5=Person-property|bratT6=Product
+5	Nova	_	_	_	_	_	_	_	bratA1=T6:Trademark|bratA8=T29:Female|bratT29=Person|bratT5=Person-property|bratT6=Product
 6	снялась	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	нижнем	_	_	_	_	_	_	_	_
@@ -80,7 +80,7 @@
 1	На	_	_	_	_	_	_	_	_
 2	размещенных	_	_	_	_	_	_	_	_
 3	снимках	_	_	_	_	_	_	_	_
-4	манекенщица	_	_	_	_	_	_	_	bratT9=Person-property
+4	манекенщица	_	_	_	_	_	_	_	bratA10=T31:Female|bratT31=Person|bratT9=Person-property
 5	прикрывает	_	_	_	_	_	_	_	_
 6	обнаженную	_	_	_	_	_	_	_	_
 7	грудь	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	подписала	_	_	_	_	_	_	_	_
-11	пост	_	_	_	_	_	_	_	_
+11	пост	_	_	_	_	_	_	_	bratA11=T13:Media|bratT13=Service
 12	знаменитость	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	который	_	_	_	_	_	_	_	_
@@ -125,7 +125,7 @@
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0090-p4-s2
-# text = «Ты - девушка мечты», «Бомба», «Самая горячая девушка на планете», «Восхитительная фигура», «Самая красивая девушка с натуральным телом!», «Ты - мое вдохновение», - высказывались поклонники.
+# text = «Ты - девушка мечты»,
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 2	Ты	_	_	_	_	_	_	_	_
 3	-	_	_	_	_	_	_	_	_
@@ -133,44 +133,59 @@
 5	мечты	_	_	_	_	_	_	_	SpaceAfter=No
 6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-9	Бомба	_	_	_	_	_	_	_	SpaceAfter=No
-10	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-11	,	_	_	_	_	_	_	_	_
-12	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-13	Самая	_	_	_	_	_	_	_	_
-14	горячая	_	_	_	_	_	_	_	_
-15	девушка	_	_	_	_	_	_	_	_
-16	на	_	_	_	_	_	_	_	_
-17	планете	_	_	_	_	_	_	_	SpaceAfter=No
-18	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-19	,	_	_	_	_	_	_	_	_
-20	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-21	Восхитительная	_	_	_	_	_	_	_	_
-22	фигура	_	_	_	_	_	_	_	SpaceAfter=No
-23	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-24	,	_	_	_	_	_	_	_	_
-25	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-26	Самая	_	_	_	_	_	_	_	_
-27	красивая	_	_	_	_	_	_	_	_
-28	девушка	_	_	_	_	_	_	_	_
-29	с	_	_	_	_	_	_	_	_
-30	натуральным	_	_	_	_	_	_	_	_
-31	телом	_	_	_	_	_	_	_	SpaceAfter=No
-32	!	_	_	_	_	_	_	_	SpaceAfter=No
-33	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-34	,	_	_	_	_	_	_	_	_
-35	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-36	Ты	_	_	_	_	_	_	_	_
-37	-	_	_	_	_	_	_	_	_
-38	мое	_	_	_	_	_	_	_	_
-39	вдохновение	_	_	_	_	_	_	_	SpaceAfter=No
-40	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
-41	,	_	_	_	_	_	_	_	_
-42	-	_	_	_	_	_	_	_	_
-43	высказывались	_	_	_	_	_	_	_	_
-44	поклонники	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-group
-45	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p4-s3
+# text = «Бомба»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Бомба	_	_	_	_	_	_	_	SpaceAfter=No
+3	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p4-s4
+# text = «Самая горячая девушка на планете»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Самая	_	_	_	_	_	_	_	_
+3	горячая	_	_	_	_	_	_	_	_
+4	девушка	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	планете	_	_	_	_	_	_	_	SpaceAfter=No
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p4-s5
+# text = «Восхитительная фигура»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Восхитительная	_	_	_	_	_	_	_	_
+3	фигура	_	_	_	_	_	_	_	SpaceAfter=No
+4	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p4-s6
+# text = «Самая красивая девушка с натуральным телом!»,
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Самая	_	_	_	_	_	_	_	_
+3	красивая	_	_	_	_	_	_	_	_
+4	девушка	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	натуральным	_	_	_	_	_	_	_	_
+7	телом	_	_	_	_	_	_	_	SpaceAfter=No
+8	!	_	_	_	_	_	_	_	SpaceAfter=No
+9	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+
+# sent_id = 0090-p4-s7
+# text = «Ты - мое вдохновение», - высказывались поклонники.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Ты	_	_	_	_	_	_	_	_
+3	-	_	_	_	_	_	_	_	_
+4	мое	_	_	_	_	_	_	_	_
+5	вдохновение	_	_	_	_	_	_	_	SpaceAfter=No
+6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	-	_	_	_	_	_	_	_	_
+9	высказывались	_	_	_	_	_	_	_	_
+10	поклонники	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Other-group
+11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p5
 # par_text = Ранее в октябре Паулин Танто поделилась кадрами, на которых она запечатлена обнаженной в кровати, и порадовала пользователей сети. Она сфотографировала себя в зеркало, расположенное в спальне.

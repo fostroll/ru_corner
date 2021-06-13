@@ -1,0 +1,262 @@
+# newdoc id = 0058
+# newpar id = 0058-p1
+# par_text = Эмир Дубая, от которого сбежала принцесса Хайя, выдал замуж дочь
+# sent_id = 0058-p1-s1
+# text = Эмир Дубая, от которого сбежала принцесса Хайя, выдал замуж дочь
+1	Эмир	_	_	_	_	_	_	_	bratT2=Person-property
+2	Дубая	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=GPE|bratT2=Person-property
+3	,	_	_	_	_	_	_	_	_
+4	от	_	_	_	_	_	_	_	_
+5	которого	_	_	_	_	_	_	_	_
+6	сбежала	_	_	_	_	_	_	_	_
+7	принцесса	_	_	_	_	_	_	_	bratA1=T5:Female|bratT4=Person-property|bratT5=Person
+8	Хайя	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Female|bratT3=Person-forename|bratT5=Person
+9	,	_	_	_	_	_	_	_	_
+10	выдал	_	_	_	_	_	_	_	_
+11	замуж	_	_	_	_	_	_	_	_
+12	дочь	_	_	_	_	_	_	_	bratT6=Family
+
+# newpar id = 0058-p2
+# par_text = Последние несколько месяцев у эмира Дубая Мохаммеда ибн Рашид Аль Мактум выдались непростые — в конце июня стало известно, что его жена принцесса Хайя сбежала от него в Европу вместе с детьми и $39 миллионами. Но это не значит, что счастье ушло из жизни шейха. В конце концов, у него есть и другие жены, и другие дети. Недавно, например, эмир выдал замуж одну из своих многочисленных дочерей — шейху Марьям бин Мохаммед бин Рашид Аль Мактум. Ее супругом стал член правящей семьи Абу-Даби шейх Халед бин Мохаммад бин Хамдана Аль Нахайян. Помолвка молодых людей состоялась в конце августа прошлого года. Фотографий со свадебной церемонии в сети нет — она проходила за закрытыми дверями.
+# sent_id = 0058-p2-s1
+# text = Последние несколько месяцев у эмира Дубая Мохаммеда ибн Рашид Аль Мактум выдались непростые - в конце июня стало известно, что его жена принцесса Хайя сбежала от него в Европу вместе с детьми и $39 миллионами.
+1	Последние	_	_	_	_	_	_	_	bratA2=T7:Past-Pres|bratT69=Ordinal|bratT7=Date-period-absolute
+2	несколько	_	_	_	_	_	_	_	bratA2=T7:Past-Pres|bratT7=Date-period-absolute|bratT8=Duration
+3	месяцев	_	_	_	_	_	_	_	bratA2=T7:Past-Pres|bratT7=Date-period-absolute|bratT8=Duration
+4	у	_	_	_	_	_	_	_	_
+5	эмира	_	_	_	_	_	_	_	bratA3=T14:Male|bratT10=Person-property|bratT14=Person
+6	Дубая	_	_	_	_	_	_	_	bratA3=T14:Male|bratT10=Person-property|bratT14=Person|bratT9=GPE
+7	Мохаммеда	_	_	_	_	_	_	_	bratA3=T14:Male|bratT11=Person-forename|bratT14=Person
+8	ибн	_	_	_	_	_	_	_	bratA3=T14:Male|bratT13=Person-patronym|bratT14=Person
+9	Рашид	_	_	_	_	_	_	_	bratA3=T14:Male|bratT13=Person-patronym|bratT14=Person
+10	Аль	_	_	_	_	_	_	_	bratA3=T14:Male|bratT12=Person-surname|bratT14=Person
+11	Мактум	_	_	_	_	_	_	_	bratA3=T14:Male|bratT12=Person-surname|bratT14=Person
+12	выдались	_	_	_	_	_	_	_	_
+13	непростые	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
+16	конце	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
+17	июня	_	_	_	_	_	_	_	bratA4=T15:Past|bratT15=Date-absolute
+18	стало	_	_	_	_	_	_	_	_
+19	известно	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	что	_	_	_	_	_	_	_	_
+22	его	_	_	_	_	_	_	_	bratA5=T19:Female|bratT19=Person
+23	жена	_	_	_	_	_	_	_	bratA5=T19:Female|bratT16=Family|bratT19=Person
+24	принцесса	_	_	_	_	_	_	_	bratA5=T19:Female|bratT18=Person-property|bratT19=Person
+25	Хайя	_	_	_	_	_	_	_	bratA5=T19:Female|bratT17=Person-forename|bratT19=Person
+26	сбежала	_	_	_	_	_	_	_	_
+27	от	_	_	_	_	_	_	_	_
+28	него	_	_	_	_	_	_	_	_
+29	в	_	_	_	_	_	_	_	_
+30	Европу	_	_	_	_	_	_	_	bratT20=GPE
+31	вместе	_	_	_	_	_	_	_	_
+32	с	_	_	_	_	_	_	_	_
+33	детьми	_	_	_	_	_	_	_	bratT21=Family
+34	и	_	_	_	_	_	_	_	_
+35-36	$39	_	_	_	_	_	_	_	_
+35	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Money
+36	39	_	_	_	_	_	_	_	bratT22=Money
+37	миллионами	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Money
+38	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p2-s2
+# text = Но это не значит, что счастье ушло из жизни шейха.
+1	Но	_	_	_	_	_	_	_	_
+2	это	_	_	_	_	_	_	_	_
+3	не	_	_	_	_	_	_	_	_
+4	значит	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	счастье	_	_	_	_	_	_	_	_
+8	ушло	_	_	_	_	_	_	_	_
+9	из	_	_	_	_	_	_	_	_
+10	жизни	_	_	_	_	_	_	_	_
+11	шейха	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p2-s3
+# text = В конце концов, у него есть и другие жены, и другие дети.
+1	В	_	_	_	_	_	_	_	_
+2	конце	_	_	_	_	_	_	_	_
+3	концов	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	у	_	_	_	_	_	_	_	_
+6	него	_	_	_	_	_	_	_	_
+7	есть	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	другие	_	_	_	_	_	_	_	_
+10	жены	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Family
+11	,	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	другие	_	_	_	_	_	_	_	_
+14	дети	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Family
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p2-s4
+# text = Недавно, например, эмир выдал замуж одну из своих многочисленных дочерей - шейху Марьям бин Мохаммед бин Рашид Аль Мактум.
+1	Недавно	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T26:Past|bratT26=Date-absolute
+2	,	_	_	_	_	_	_	_	_
+3	например	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	эмир	_	_	_	_	_	_	_	bratT27=Person-property
+6	выдал	_	_	_	_	_	_	_	_
+7	замуж	_	_	_	_	_	_	_	_
+8	одну	_	_	_	_	_	_	_	bratT35=Quantity
+9	из	_	_	_	_	_	_	_	bratT35=Quantity
+10	своих	_	_	_	_	_	_	_	_
+11	многочисленных	_	_	_	_	_	_	_	bratT29=Quantity
+12	дочерей	_	_	_	_	_	_	_	bratT28=Family|bratT29=Quantity
+13	-	_	_	_	_	_	_	_	_
+14	шейху	_	_	_	_	_	_	_	bratA6=T34:Male|bratT33=Person-property|bratT34=Person
+15	Марьям	_	_	_	_	_	_	_	bratA6=T34:Male|bratT32=Person-forename|bratT34=Person
+16	бин	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
+17	Мохаммед	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
+18	бин	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
+19	Рашид	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
+20	Аль	_	_	_	_	_	_	_	bratA6=T34:Male|bratT31=Person-surname|bratT34=Person
+21	Мактум	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T34:Male|bratT31=Person-surname|bratT34=Person
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p2-s5
+# text = Ее супругом стал член правящей семьи Абу-Даби шейх Халед бин Мохаммад бин Хамдана Аль Нахайян.
+1	Ее	_	_	_	_	_	_	_	bratA16=T66:Male|bratT66=Person
+2	супругом	_	_	_	_	_	_	_	bratA16=T66:Male|bratT36=Family|bratT66=Person
+3	стал	_	_	_	_	_	_	_	_
+4	член	_	_	_	_	_	_	_	bratA7=T44:Male|bratT44=Person|bratT74=Person-property
+5	правящей	_	_	_	_	_	_	_	bratA7=T44:Male|bratT44=Person|bratT73=Organization|bratT74=Person-property
+6	семьи	_	_	_	_	_	_	_	bratA7=T44:Male|bratT38=Family|bratT44=Person|bratT73=Organization|bratT74=Person-property
+7	Абу-Даби	_	_	_	_	_	_	_	bratA7=T44:Male|bratT37=GPE|bratT44=Person|bratT73=Organization|bratT74=Person-property
+8	шейх	_	_	_	_	_	_	_	bratA7=T44:Male|bratT40=Person-property|bratT44=Person
+9	Халед	_	_	_	_	_	_	_	bratA7=T44:Male|bratT41=Person-forename|bratT44=Person
+10	бин	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
+11	Мохаммад	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
+12	бин	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
+13	Хамдана	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
+14	Аль	_	_	_	_	_	_	_	bratA7=T44:Male|bratT42=Person-surname|bratT44=Person
+15	Нахайян	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T44:Male|bratT42=Person-surname|bratT44=Person
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p2-s6
+# text = Помолвка молодых людей состоялась в конце августа прошлого года.
+1	Помолвка	_	_	_	_	_	_	_	bratT72=Event
+2	молодых	_	_	_	_	_	_	_	bratT75=Age
+3	людей	_	_	_	_	_	_	_	bratT75=Age
+4	состоялась	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA8=T45:Past|bratT45=Date-absolute
+6	конце	_	_	_	_	_	_	_	bratA8=T45:Past|bratT45=Date-absolute
+7	августа	_	_	_	_	_	_	_	bratA8=T45:Past|bratT45=Date-absolute
+8	прошлого	_	_	_	_	_	_	_	bratA8=T45:Past|bratT39=Ordinal|bratT45=Date-absolute
+9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T45:Past|bratT45=Date-absolute
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p2-s7
+# text = Фотографий со свадебной церемонии в сети нет - она проходила за закрытыми дверями.
+1	Фотографий	_	_	_	_	_	_	_	_
+2	со	_	_	_	_	_	_	_	_
+3	свадебной	_	_	_	_	_	_	_	bratT67=Event
+4	церемонии	_	_	_	_	_	_	_	bratT67=Event
+5	в	_	_	_	_	_	_	_	_
+6	сети	_	_	_	_	_	_	_	_
+7	нет	_	_	_	_	_	_	_	_
+8	-	_	_	_	_	_	_	_	_
+9	она	_	_	_	_	_	_	_	_
+10	проходила	_	_	_	_	_	_	_	_
+11	за	_	_	_	_	_	_	_	_
+12	закрытыми	_	_	_	_	_	_	_	_
+13	дверями	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0058-p3
+# par_text = Стоит отметить, что далеко не все дети Мохаммеда ибн Рашид Аль Мактум готовы жить по его правилам. В прошлом году одна из дочерей эмира Латифа пыталась сбежать из страны, но была поймана и с тех пор не появлялась на публике. Ее старшая сестра Шамса также пыталась скрыться от отца в 2000 году, но также потерпела неудачу — по словам Латифы, с тех пор ее сестру заставляют принимать психотропные препараты и не дают появляться на людях.
+# sent_id = 0058-p3-s1
+# text = Стоит отметить, что далеко не все дети Мохаммеда ибн Рашид Аль Мактум готовы жить по его правилам.
+1	Стоит	_	_	_	_	_	_	_	_
+2	отметить	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	далеко	_	_	_	_	_	_	_	_
+6	не	_	_	_	_	_	_	_	_
+7	все	_	_	_	_	_	_	_	_
+8	дети	_	_	_	_	_	_	_	bratT49=Family
+9	Мохаммеда	_	_	_	_	_	_	_	bratA19=T70:Male|bratT46=Person-forename|bratT70=Person
+10	ибн	_	_	_	_	_	_	_	bratA19=T70:Male|bratT48=Person-patronym|bratT70=Person
+11	Рашид	_	_	_	_	_	_	_	bratA19=T70:Male|bratT48=Person-patronym|bratT70=Person
+12	Аль	_	_	_	_	_	_	_	bratA19=T70:Male|bratT47=Person-surname|bratT70=Person
+13	Мактум	_	_	_	_	_	_	_	bratA19=T70:Male|bratT47=Person-surname|bratT70=Person
+14	готовы	_	_	_	_	_	_	_	_
+15	жить	_	_	_	_	_	_	_	_
+16	по	_	_	_	_	_	_	_	_
+17	его	_	_	_	_	_	_	_	_
+18	правилам	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p3-s2
+# text = В прошлом году одна из дочерей эмира Латифа пыталась сбежать из страны, но была поймана и с тех пор не появлялась на публике.
+1	В	_	_	_	_	_	_	_	bratA9=T50:Past|bratT50=Date-absolute
+2	прошлом	_	_	_	_	_	_	_	bratA9=T50:Past|bratT50=Date-absolute|bratT71=Ordinal
+3	году	_	_	_	_	_	_	_	bratA9=T50:Past|bratT50=Date-absolute
+4	одна	_	_	_	_	_	_	_	bratA10=T55:Female|bratT51=Quantity|bratT55=Person
+5	из	_	_	_	_	_	_	_	bratA10=T55:Female|bratT51=Quantity|bratT55=Person
+6	дочерей	_	_	_	_	_	_	_	bratA10=T55:Female|bratT53=Family|bratT55=Person
+7	эмира	_	_	_	_	_	_	_	bratA10=T55:Female|bratT52=Person-property|bratT55=Person
+8	Латифа	_	_	_	_	_	_	_	bratA10=T55:Female|bratT54=Person-forename|bratT55=Person
+9	пыталась	_	_	_	_	_	_	_	_
+10	сбежать	_	_	_	_	_	_	_	_
+11	из	_	_	_	_	_	_	_	_
+12	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=GPE
+13	,	_	_	_	_	_	_	_	_
+14	но	_	_	_	_	_	_	_	_
+15	была	_	_	_	_	_	_	_	_
+16	поймана	_	_	_	_	_	_	_	_
+17	и	_	_	_	_	_	_	_	_
+18	с	_	_	_	_	_	_	_	bratA11=T56:Past-Pres|bratT56=Date-period-absolute
+19	тех	_	_	_	_	_	_	_	bratA11=T56:Past-Pres|bratT56=Date-period-absolute
+20	пор	_	_	_	_	_	_	_	bratA11=T56:Past-Pres|bratT56=Date-period-absolute
+21	не	_	_	_	_	_	_	_	_
+22	появлялась	_	_	_	_	_	_	_	_
+23	на	_	_	_	_	_	_	_	_
+24	публике	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0058-p3-s3
+# text = Ее старшая сестра Шамса также пыталась скрыться от отца в 2000 году, но также потерпела неудачу - по словам Латифы, с тех пор ее сестру заставляют принимать психотропные препараты и не дают появляться на людях.
+1	Ее	_	_	_	_	_	_	_	bratA12=T59:Female|bratT59=Person
+2	старшая	_	_	_	_	_	_	_	bratA12=T59:Female|bratT57=Family|bratT59=Person
+3	сестра	_	_	_	_	_	_	_	bratA12=T59:Female|bratT57=Family|bratT59=Person
+4	Шамса	_	_	_	_	_	_	_	bratA12=T59:Female|bratT58=Person-forename|bratT59=Person
+5	также	_	_	_	_	_	_	_	_
+6	пыталась	_	_	_	_	_	_	_	_
+7	скрыться	_	_	_	_	_	_	_	_
+8	от	_	_	_	_	_	_	_	_
+9	отца	_	_	_	_	_	_	_	bratT60=Family
+10	в	_	_	_	_	_	_	_	bratA13=T61:Past|bratT61=Date-absolute
+11	2000	_	_	_	_	_	_	_	bratA13=T61:Past|bratT61=Date-absolute
+12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T61:Past|bratT61=Date-absolute
+13	,	_	_	_	_	_	_	_	_
+14	но	_	_	_	_	_	_	_	_
+15	также	_	_	_	_	_	_	_	_
+16	потерпела	_	_	_	_	_	_	_	_
+17	неудачу	_	_	_	_	_	_	_	_
+18	-	_	_	_	_	_	_	_	_
+19	по	_	_	_	_	_	_	_	_
+20	словам	_	_	_	_	_	_	_	_
+21	Латифы	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T63:Female|bratT62=Person-forename|bratT63=Person
+22	,	_	_	_	_	_	_	_	_
+23	с	_	_	_	_	_	_	_	bratA15=T64:Past-Pres|bratA20=T64:RCont|bratT64=Date-period-absolute
+24	тех	_	_	_	_	_	_	_	bratA15=T64:Past-Pres|bratA20=T64:RCont|bratT64=Date-period-absolute
+25	пор	_	_	_	_	_	_	_	bratA15=T64:Past-Pres|bratA20=T64:RCont|bratT64=Date-period-absolute
+26	ее	_	_	_	_	_	_	_	bratA17=T68:Female|bratT68=Person
+27	сестру	_	_	_	_	_	_	_	bratA17=T68:Female|bratT65=Family|bratT68=Person
+28	заставляют	_	_	_	_	_	_	_	_
+29	принимать	_	_	_	_	_	_	_	_
+30	психотропные	_	_	_	_	_	_	_	_
+31	препараты	_	_	_	_	_	_	_	_
+32	и	_	_	_	_	_	_	_	_
+33	не	_	_	_	_	_	_	_	_
+34	дают	_	_	_	_	_	_	_	_
+35	появляться	_	_	_	_	_	_	_	_
+36	на	_	_	_	_	_	_	_	_
+37	людях	_	_	_	_	_	_	_	SpaceAfter=No
+38	.	_	_	_	_	_	_	_	_
+

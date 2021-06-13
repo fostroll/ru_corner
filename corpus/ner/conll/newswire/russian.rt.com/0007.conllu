@@ -36,8 +36,11 @@
 17	от	_	_	_	_	_	_	_	_
 18	коронавирусной	_	_	_	_	_	_	_	bratT32=Other-term
 19	инфекции	_	_	_	_	_	_	_	bratT32=Other-term
-20	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term
-21	.	_	_	_	_	_	_	_	_
+20-22	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term
+22	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term|bratT50=Cardinal
+23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0007-p3
 # par_text = Он сообщил, что в настоящее время «производители фактически находятся в финальной стадии масштабирования производства».
@@ -77,7 +80,7 @@
 9	которые	_	_	_	_	_	_	_	_
 10	сданы	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
-12	государственный	_	_	_	_	_	_	_	_
+12	государственный	_	_	_	_	_	_	_	bratA15=T52:Adjective|bratT52=GPE
 13	контроль	_	_	_	_	_	_	_	_
 14	качества	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
@@ -107,7 +110,7 @@
 39	по	_	_	_	_	_	_	_	_
 40	определённым	_	_	_	_	_	_	_	_
 41	категориям	_	_	_	_	_	_	_	_
-42	населения	_	_	_	_	_	_	_	SpaceAfter=No
+42	населения	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T51:Resident|bratT51=Nationality
 43	,	_	_	_	_	_	_	_	_
 44	в	_	_	_	_	_	_	_	_
 45	затем	_	_	_	_	_	_	_	bratT37=Time-relative

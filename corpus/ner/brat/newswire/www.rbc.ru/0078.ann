@@ -1,0 +1,83 @@
+T1	GPE 20 27	Хакасии
+T2	Organization 8 27	Минздрава   Хакасии
+T3	Person-property 0 27	Глава   Минздрава   Хакасии
+T4	Person-property 59 67	полпреда
+T5	Date-absolute 41 56	после   критики
+A1	Past T5
+T6	GPE 77 84	Хакасии
+T7	Person-property 69 84	Глава   Хакасии
+T8	Person-surname 98 107	Коновалов
+T9	Person-forename 87 95	Валентин
+T10	Person 69 107	Глава   Хакасии   Валентин   Коновалов
+A2	Male T10
+T11	Person-property 151 190	министра   здравоохранения   республики
+T12	Person-forename 193 200	Виктора
+T13	Person-forename 203 211	Шевченко
+T14	Person 151 211	министра   здравоохранения   республики   Виктора   Шевченко
+A3	Male T14
+T15	Organization 244 267	правительства   региона
+T16	Organization 229 267	пресс-служба   правительства   региона
+A4	Department T16
+T17	Person-surname 273 281	Шевченко
+T18	Person 273 281	Шевченко
+A5	Male T18
+T19	Person-property 341 351	президента
+T20	Person-property 331 390	полпред   президента   в   Сибирском   федеральном   округе
+T21	GPE 358 390	Сибирском   федеральном   округе
+T22	Person-forename 393 399	Сергей
+T23	Person-surname 402 409	Меняйло
+T24	Person 331 409	полпред   президента   в   Сибирском   федеральном   округе   Сергей   Меняйло
+A6	Male T24
+T25	Date-relative 310 328	после   того   как
+A7	Past T25
+T26	GPE 505 512	Хакасии
+T27	Organization 472 512	министерство   здравоохранения   Хакасии
+T28	Other-term 609 621	коронавируса
+T29	Event 598 621	пандемии   коронавируса
+T30	Date-period-absolute 585 621	в   период   пандемии   коронавируса
+T31	Organization 644 664	``   Медвестник   ''
+A9	Media T31
+T32	Person-surname 671 678	Меняйло
+T33	Person 671 678	Меняйло
+A10	Male T33
+T34	Date-period-relative 707 713	неделю
+A11	Past T34
+T35	Other-term 782 790	инфекции
+T36	Organization 831 854	региональный   минздрав
+T37	GPE 960 980	Республики   Хакасия
+T38	Organization 927 980	Министерство   здравоохранения   Республики   Хакасия
+T39	Date-period-relative 1088 1102	за   эти   дни
+A12	Past T39
+T40	Person-property 1133 1144	главврачами
+T41	Person-property 1230 1278	руководители   органов   исполнительной   власти
+T42	Organization 1297 1327	министерства   здравоохранения
+T43	Person-surname 1352 1359	Меняйло
+T44	Person 1352 1359	Меняйло
+A13	Male T44
+T45	Other-term 1474 1486	коронавирусе
+T46	Person-property 1364 1371	Полпред
+T47	Person-property 1416 1429	медработников
+T48	GPE 1501 1508	Хакасии
+T49	Other-term 1566 1579	коронавирусом
+T50	Organization 1520 1579	единый   центр   управления   ситуацией   с   коронавирусом
+T51	Other-term 1714 1724	COVID - 19
+T53	Organization 1639 1724	приемно-распределительный   центр   для   больных   с   подозрением   на   COVID - 19
+T54	Person-surname 1741 1748	Меняйло
+T55	Person 1741 1748	Меняйло
+A14	Male T55
+T56	Date-absolute 1795 1807	на   сегодня
+A15	Present T56
+T57	Person-property 1898 1905	Полпред
+A8	Past-Pres T30
+A16	RCont T30
+T58	Duration 707 713	неделю
+T59	Duration 1099 1102	дни
+T52	Cardinal 1722 1724	19
+T60	Organization 1245 1278	органов   исполнительной   власти
+T61	Organization 2026 2033	властей
+T62	GPE 180 190	республики
+T63	GPE 260 267	региона
+T64	GPE 694 704	республике
+T65	GPE 831 843	региональный
+A17	Adjective T65
+T66	GPE 1437 1447	республика

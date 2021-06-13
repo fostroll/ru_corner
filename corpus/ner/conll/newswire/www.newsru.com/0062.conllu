@@ -1,0 +1,188 @@
+# newdoc id = 0062
+# newpar id = 0062-p1
+# par_text = У тещи замглавы АП нашлись две элитные квартиры в Москве стоимостью 470 млн рублей
+# sent_id = 0062-p1-s1
+# text = У тещи замглавы АП нашлись две элитные квартиры в Москве стоимостью 470 млн рублей
+1	У	_	_	_	_	_	_	_	_
+2	тещи	_	_	_	_	_	_	_	bratA16=T56:Female|bratT1=Family|bratT56=Person
+3	замглавы	_	_	_	_	_	_	_	bratA16=T56:Female|bratT3=Person-property|bratT56=Person
+4	АП	_	_	_	_	_	_	_	bratA16=T56:Female|bratT2=Organization|bratT3=Person-property|bratT56=Person
+5	нашлись	_	_	_	_	_	_	_	_
+6	две	_	_	_	_	_	_	_	bratT4=Quantity
+7	элитные	_	_	_	_	_	_	_	bratT4=Quantity
+8	квартиры	_	_	_	_	_	_	_	bratT4=Quantity
+9	в	_	_	_	_	_	_	_	_
+10	Москве	_	_	_	_	_	_	_	bratT5=GPE
+11	стоимостью	_	_	_	_	_	_	_	_
+12	470	_	_	_	_	_	_	_	bratT6=Money
+13	млн	_	_	_	_	_	_	_	bratT6=Money
+14	рублей	_	_	_	_	_	_	_	bratT6=Money
+
+# newpar id = 0062-p2
+# par_text = 84-летняя теща первого заместителя главы Администрации президента Алексея Громова, которого считают главным кремлевским куратором российских СМИ, владеет в Москве двумя элитными квартирами стоимостью 470 млн рублей. Об этом говорится в расследовании издания The Insider.
+# sent_id = 0062-p2-s1
+# text = 84-летняя теща первого заместителя главы Администрации президента Алексея Громова, которого считают главным кремлевским куратором российских СМИ, владеет в Москве двумя элитными квартирами стоимостью 470 млн рублей.
+1	84-летняя	_	_	_	_	_	_	_	bratT7=Age
+2	теща	_	_	_	_	_	_	_	bratA15=T12:Female|bratT12=Person|bratT8=Family
+3	первого	_	_	_	_	_	_	_	bratA15=T12:Female|bratA2=T13:Male|bratT12=Person|bratT13=Person|bratT45=Person-property|bratT9=Ordinal
+4	заместителя	_	_	_	_	_	_	_	bratA15=T12:Female|bratA2=T13:Male|bratT12=Person|bratT13=Person|bratT45=Person-property
+5	главы	_	_	_	_	_	_	_	bratA15=T12:Female|bratA2=T13:Male|bratT12=Person|bratT13=Person|bratT45=Person-property
+6	Администрации	_	_	_	_	_	_	_	bratA15=T12:Female|bratA2=T13:Male|bratT11=Organization|bratT12=Person|bratT13=Person|bratT45=Person-property
+7	президента	_	_	_	_	_	_	_	bratA15=T12:Female|bratA2=T13:Male|bratT10=Person-property|bratT11=Organization|bratT12=Person|bratT13=Person|bratT45=Person-property
+8	Алексея	_	_	_	_	_	_	_	bratA15=T12:Female|bratA2=T13:Male|bratT12=Person|bratT13=Person|bratT42=Person-forename
+9	Громова	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T12:Female|bratA2=T13:Male|bratT12=Person|bratT13=Person|bratT43=Person-surname
+10	,	_	_	_	_	_	_	_	_
+11	которого	_	_	_	_	_	_	_	_
+12	считают	_	_	_	_	_	_	_	_
+13	главным	_	_	_	_	_	_	_	bratT14=Person-property
+14	кремлевским	_	_	_	_	_	_	_	bratT14=Person-property
+15	куратором	_	_	_	_	_	_	_	bratT14=Person-property
+16	российских	_	_	_	_	_	_	_	bratA3=T44:Adjective|bratT14=Person-property|bratT44=GPE
+17	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property
+18	,	_	_	_	_	_	_	_	_
+19	владеет	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	Москве	_	_	_	_	_	_	_	bratT15=GPE
+22	двумя	_	_	_	_	_	_	_	bratT16=Quantity
+23	элитными	_	_	_	_	_	_	_	bratT16=Quantity
+24	квартирами	_	_	_	_	_	_	_	bratT16=Quantity
+25	стоимостью	_	_	_	_	_	_	_	_
+26	470	_	_	_	_	_	_	_	bratT17=Money
+27	млн	_	_	_	_	_	_	_	bratT17=Money
+28	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Money
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p2-s2
+# text = Об этом говорится в расследовании издания The Insider.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	говорится	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	расследовании	_	_	_	_	_	_	_	_
+6	издания	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Organization
+7	The	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Organization
+8	Insider	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T18:Media|bratT18=Organization
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0062-p3
+# par_text = Речь идет о двух квартирах в ЖК "Лаврушинский 11" в центре Москвы. Общая площадь этих квартир составляет 395 квадратных метров, и с 2015 года ими владеет Алла Лосицкая 1936 года рождения. До 2006 года она жила в городе Губкин (Белгородская область), а затем продала квартиру в этом городе и переехала в Москву, прописавшись в квартире на улице Удальцова, где жил Алексей Громов с семьей. В 2012 году первый замглавы АП и его родственники, включая Лосицкую, переехали в Большой Тишинский переулок, в квартиру, принадлежашую управделами президента, которую Громов использует как служебное жилье.
+# sent_id = 0062-p3-s1
+# text = Речь идет о двух квартирах в ЖК ``Лаврушинский 11'' в центре Москвы.
+1	Речь	_	_	_	_	_	_	_	_
+2	идет	_	_	_	_	_	_	_	_
+3	о	_	_	_	_	_	_	_	_
+4	двух	_	_	_	_	_	_	_	bratT19=Quantity
+5	квартирах	_	_	_	_	_	_	_	bratT19=Quantity
+6	в	_	_	_	_	_	_	_	_
+7	ЖК	_	_	_	_	_	_	_	bratT21=Facility
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Facility
+9	Лаврушинский	_	_	_	_	_	_	_	bratT21=Facility
+10	11	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Facility|bratT46=Ordinal
+11	''	_	_	_	_	_	_	_	bratT21=Facility
+12	в	_	_	_	_	_	_	_	_
+13	центре	_	_	_	_	_	_	_	_
+14	Москвы	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p3-s2
+# text = Общая площадь этих квартир составляет 395 квадратных метров, и с 2015 года ими владеет Алла Лосицкая 1936 года рождения.
+1	Общая	_	_	_	_	_	_	_	_
+2	площадь	_	_	_	_	_	_	_	_
+3	этих	_	_	_	_	_	_	_	_
+4	квартир	_	_	_	_	_	_	_	_
+5	составляет	_	_	_	_	_	_	_	_
+6	395	_	_	_	_	_	_	_	bratT22=Quantity
+7	квадратных	_	_	_	_	_	_	_	bratT22=Quantity
+8	метров	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+9	,	_	_	_	_	_	_	_	_
+10	и	_	_	_	_	_	_	_	_
+11	с	_	_	_	_	_	_	_	bratA4=T23:Past-Pres|bratA5=T23:RCont|bratT23=Date-period-absolute
+12	2015	_	_	_	_	_	_	_	bratA4=T23:Past-Pres|bratA5=T23:RCont|bratT23=Date-period-absolute
+13	года	_	_	_	_	_	_	_	bratA4=T23:Past-Pres|bratA5=T23:RCont|bratT23=Date-period-absolute
+14	ими	_	_	_	_	_	_	_	_
+15	владеет	_	_	_	_	_	_	_	_
+16	Алла	_	_	_	_	_	_	_	bratA6=T24:Female|bratT24=Person|bratT47=Person-forename
+17	Лосицкая	_	_	_	_	_	_	_	bratA6=T24:Female|bratT24=Person|bratT48=Person-surname
+18	1936	_	_	_	_	_	_	_	bratA14=T55:Past|bratT25=Age|bratT55=Date-absolute
+19	года	_	_	_	_	_	_	_	bratA14=T55:Past|bratT25=Age|bratT55=Date-absolute
+20	рождения	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Age
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p3-s3
+# text = До 2006 года она жила в городе Губкин (Белгородская область), а затем продала квартиру в этом городе и переехала в Москву, прописавшись в квартире на улице Удальцова, где жил Алексей Громов с семьей.
+1	До	_	_	_	_	_	_	_	bratA7=T26:Past|bratT26=Date-period-absolute
+2	2006	_	_	_	_	_	_	_	bratA7=T26:Past|bratT26=Date-period-absolute
+3	года	_	_	_	_	_	_	_	bratA7=T26:Past|bratT26=Date-period-absolute
+4	она	_	_	_	_	_	_	_	_
+5	жила	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	городе	_	_	_	_	_	_	_	bratT27=GPE
+8	Губкин	_	_	_	_	_	_	_	bratT27=GPE
+9	(	_	_	_	_	_	_	_	SpaceAfter=No
+10	Белгородская	_	_	_	_	_	_	_	bratT28=GPE
+11	область	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=GPE
+12	)	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	а	_	_	_	_	_	_	_	_
+15	затем	_	_	_	_	_	_	_	bratA12=T40:Past|bratT40=Date-relative
+16	продала	_	_	_	_	_	_	_	_
+17	квартиру	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	этом	_	_	_	_	_	_	_	_
+20	городе	_	_	_	_	_	_	_	bratT57=GPE
+21	и	_	_	_	_	_	_	_	_
+22	переехала	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	_
+24	Москву	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE
+25	,	_	_	_	_	_	_	_	_
+26	прописавшись	_	_	_	_	_	_	_	_
+27	в	_	_	_	_	_	_	_	_
+28	квартире	_	_	_	_	_	_	_	_
+29	на	_	_	_	_	_	_	_	_
+30	улице	_	_	_	_	_	_	_	bratT30=Facility
+31	Удальцова	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T53:Male|bratT30=Facility|bratT53=Person|bratT54=Person-surname
+32	,	_	_	_	_	_	_	_	_
+33	где	_	_	_	_	_	_	_	_
+34	жил	_	_	_	_	_	_	_	_
+35	Алексей	_	_	_	_	_	_	_	bratA8=T31:Male|bratT31=Person|bratT49=Person-forename
+36	Громов	_	_	_	_	_	_	_	bratA8=T31:Male|bratT31=Person|bratT50=Person-surname
+37	с	_	_	_	_	_	_	_	_
+38	семьей	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Family
+39	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0062-p3-s4
+# text = В 2012 году первый замглавы АП и его родственники, включая Лосицкую, переехали в Большой Тишинский переулок, в квартиру, принадлежашую управделами президента, которую Громов использует как служебное жилье.
+1	В	_	_	_	_	_	_	_	bratA9=T32:Past|bratT32=Date-absolute
+2	2012	_	_	_	_	_	_	_	bratA9=T32:Past|bratT32=Date-absolute
+3	году	_	_	_	_	_	_	_	bratA9=T32:Past|bratT32=Date-absolute
+4	первый	_	_	_	_	_	_	_	bratT33=Ordinal|bratT35=Person-property
+5	замглавы	_	_	_	_	_	_	_	bratT35=Person-property
+6	АП	_	_	_	_	_	_	_	bratT34=Organization|bratT35=Person-property
+7	и	_	_	_	_	_	_	_	_
+8	его	_	_	_	_	_	_	_	_
+9	родственники	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	включая	_	_	_	_	_	_	_	_
+12	Лосицкую	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T36:Female|bratT36=Person|bratT51=Person-surname
+13	,	_	_	_	_	_	_	_	_
+14	переехали	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	_
+16	Большой	_	_	_	_	_	_	_	bratT37=Facility
+17	Тишинский	_	_	_	_	_	_	_	bratT37=Facility
+18	переулок	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Facility
+19	,	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	квартиру	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	принадлежашую	_	_	_	_	_	_	_	_
+24	управделами	_	_	_	_	_	_	_	bratT38=Person-property
+25	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property
+26	,	_	_	_	_	_	_	_	_
+27	которую	_	_	_	_	_	_	_	_
+28	Громов	_	_	_	_	_	_	_	bratA11=T39:Male|bratT39=Person|bratT52=Person-surname
+29	использует	_	_	_	_	_	_	_	_
+30	как	_	_	_	_	_	_	_	_
+31	служебное	_	_	_	_	_	_	_	_
+32	жилье	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	_	_	_	_	_	_	_	_
+

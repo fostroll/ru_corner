@@ -1,0 +1,90 @@
+T1	Person-property 0 34	Кандидат   на   пост   главы   ФАС
+T3	Organization 31 34	ФАС
+T4	Organization 53 79	администрации   Петербурга
+T5	GPE 69 79	Петербурга
+T6	Person 81 138	Вице-губернатор   Санкт-Петербурга   Максим   Шаскольский
+T7	Person-property 81 115	Вице-губернатор   Санкт-Петербурга
+T8	GPE 99 115	Санкт-Петербурга
+T9	Organization 168 171	РБК
+A1	Media T9
+T10	Person-property 196 281	кандидатом   на   пост   главы   Федеральной   антимонопольной   службы   (   ФАС   )
+T12	Organization 229 267	Федеральной   антимонопольной   службы
+T13	Organization 274 277	ФАС
+T14	Service 355 360	сайте
+A2	Media T14
+T15	Organization 363 385	администрации   города
+T16	Person 396 416	Максим   Шаскольский
+T17	Person-property 443 490	должности   вице-губернатора   Санкт-Петербурга
+T18	GPE 474 490	Санкт-Петербурга
+T19	Date-absolute 493 522	с   10   ноября   2020   года
+T20	Person 692 739	вице-губернатор   Петербурга   Максим   Соколов
+T21	Person-property 692 720	вице-губернатор   Петербурга
+T22	GPE 710 720	Петербурга
+T23	Organization 836 839	РБК
+A3	Media T23
+T24	Date-absolute 842 861	в   начале   ноября
+T25	Person 903 920	Игоря   Артемьева
+T26	Organization 949 952	ФАС
+T27	Date-period-absolute 955 978	с   марта   2004   года
+T28	Quantity 983 998	Два   источника
+T29	Organization 1001 1004	РБК
+A4	Media T29
+T30	Person 1017 1029	Шаскольского
+T32	Person 1085 1094	Артемьева
+T33	Organization 1125 1128	РБК
+A5	Media T33
+T34	Person 1171 1234	глава   управления   ФАС   по   Петербургу   Вадим   Владимиров
+T35	Organization 1179 1213	управления   ФАС   по   Петербургу
+A6	Department T35
+T36	Organization 1192 1195	ФАС
+T37	GPE 1203 1213	Петербургу
+T38	Person 1240 1260	Максим   Шаскольский
+T39	Person-property 1269 1299	вице-губернатором   Петербурга
+T40	GPE 1289 1299	Петербурга
+T41	Date-period-absolute 1302 1326	с   января   2019   года
+T42	Person-property 1352 1376	советником   губернатора
+T43	Person-property 1365 1376	губернатора
+T44	Organization 1407 1457	АО   ``   Петербургская   сбытовая   компания   ''
+T45	Organization 1478 1503	ОАО   ``   Ленэнерго   ''
+T2	Person-forename 118 124	Максим
+T46	Person-surname 127 138	Шаскольский
+A7	Male T6
+T11	Person-forename 396 402	Максим
+T47	Person-surname 405 416	Шаскольский
+A8	Male T16
+A9	Past T19
+T48	Person-forename 723 729	Максим
+T49	Person-surname 732 739	Соколов
+A10	Male T20
+A11	Past T24
+T50	Person-forename 903 908	Игоря
+T51	Person-surname 911 920	Артемьева
+A12	Male T25
+A13	Past-Pres T27
+A14	RCont T27
+T52	Person-surname 1017 1029	Шаскольского
+T53	Person-surname 1085 1094	Артемьева
+A15	Male T32
+A16	Male T30
+T54	Quantity 1099 1122	Еще   один   собеседник
+T55	Person-forename 1216 1221	Вадим
+T56	Person-surname 1224 1234	Владимиров
+A17	Male T34
+T57	Person-forename 1240 1246	Максим
+T58	Person-surname 1249 1260	Шаскольский
+A18	Male T38
+A19	Past-Pres T41
+T59	Date-period-relative 1381 1386	Ранее
+A20	Past T59
+T60	GPE 1417 1430	Петербургская
+A21	Adjective T60
+T61	Date-period-relative 1333 1343	до   этого
+A22	Past T61
+T62	Person 0 34	Кандидат   на   пост   главы   ФАС
+A23	Male T62
+T63	Person 983 998	Два   источника
+T64	Person 1099 1122	Еще   один   собеседник
+A24	Male T64
+T31	Person-property 1059 1094	кандидата   на   замену   Артемьева
+T65	GPE 379 385	города
+T66	Person-property 312 321	должности

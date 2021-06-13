@@ -10,79 +10,92 @@ T10	GPE 373 381	Коджаэли
 T11	GPE 388 393	Бурса
 T12	Person-property 418 425	министр
 T13	Person 481 486	Коджа
-T14	Other-term 533 541	COVID-19
-T15	Quantity 602 609	15   из
-T16	Percent 636 655	до   50   процентов
-T17	Date-absolute 694 710	на   25   ноября
-T18	GPE 717 723	Турции
-T19	Time-period 777 787	за   сутки
-T20	Other-term 798 806	COVID-19
-T21	Quantity 813 826	168   человек
-T22	GPE 897 903	Турции
-T23	Other-term 878 890	коронавируса
-T24	Date-absolute 927 938	24   ноября
-T25	Quantity 962 976	153   человека
-T26	Quantity 1076 1087	460   тысяч
-T27	Quantity 1103 1122	12   672   человека
-T28	Quantity 1143 1164	381   569   пациентов
-T29	Date-absolute 1170 1188	Ранее   в   ноябре
-T30	GPE 1214 1220	Турция
-T31	Other-term 1287 1312	коронавируса   SARS-CoV-2
-T32	Product 1259 1336	российскую   вакцину   от   коронавируса   SARS-CoV-2   ``   Спутник   V   ''
-T33	Person-property 1341 1389	Министры   здравоохранения   России   и   Турции
+T14	Other-term 533 543	COVID - 19
+T15	Quantity 604 611	15   из
+T16	Percent 638 657	до   50   процентов
+T17	Date-absolute 696 712	на   25   ноября
+T18	GPE 719 725	Турции
+T19	Time-period 779 789	за   сутки
+T20	Other-term 800 810	COVID - 19
+T21	Quantity 817 830	168   человек
+T22	GPE 901 907	Турции
+T23	Other-term 882 894	коронавируса
+T24	Date-absolute 931 942	24   ноября
+T25	Quantity 966 980	153   человека
+T26	Quantity 1080 1091	460   тысяч
+T27	Quantity 1107 1126	12   672   человека
+T28	Quantity 1147 1168	381   569   пациентов
+T29	Date-absolute 1174 1192	Ранее   в   ноябре
+T30	GPE 1218 1224	Турция
+T31	Other-term 1291 1320	коронавируса   SARS - CoV - 2
+T32	Product 1263 1344	российскую   вакцину   от   коронавируса   SARS - CoV - 2   ``   Спутник   V   ''
+T33	Person-property 1349 1397	Министры   здравоохранения   России   и   Турции
 A2	Plural T33
-T34	GPE 1370 1376	России
-T35	GPE 1383 1389	Турции
-T36	Person 1341 1432	Министры   здравоохранения   России   и   Турции   Михаил   Мурашко   и   Фахреттин   Коджа
+T34	GPE 1378 1384	России
+T35	GPE 1391 1397	Турции
+T36	Person 1349 1440	Министры   здравоохранения   России   и   Турции   Михаил   Мурашко   и   Фахреттин   Коджа
 A3	Plural T36
-T37	Organization 1494 1527	пресс-службе   Минздрава   России
+T37	Organization 1502 1535	пресс-службе   Минздрава   России
 A4	Department T37
-T38	Organization 1509 1527	Минздрава   России
-T39	GPE 1550 1556	Анкара
-T2	GPE 563 591	всех   турецких   провинциях
-T4	Event 995 1003	пандемии
+T38	Organization 1517 1535	Минздрава   России
+T39	GPE 1558 1564	Анкара
+T2	GPE 565 593	всех   турецких   провинциях
+T4	Event 999 1007	пандемии
 T40	Event 127 166	пандемии   коронавируса   нового   типа
-T41	Date-period-absolute 982 1003	С   начала   пандемии
+T41	Date-period-absolute 986 1007	С   начала   пандемии
 T42	Ordinal 112 118	третий
 T43	Ordinal 316 322	третий
 T44	Ordinal 29 35	третий
-T45	Ordinal 831 841	Предыдущий
+T45	Ordinal 835 845	Предыдущий
 T46	Date-absolute 428 456	в   ходе   пресс-конференции
 T47	Quantity 62 85	нескольких   провинциях
-T48	Date-absolute 1649 1667	после   проведения
+T48	Date-absolute 1657 1675	после   проведения
 T49	Other-term 138 150	коронавируса
 T50	Other-term 44 56	коронавируса
 T51	Event 29 56	третий   пик   коронавируса
 T52	Event 112 166	третий   пик   пандемии   коронавируса   нового   типа
-T53	Other-term 1035 1061	коронавирусной   инфекцией
+T53	Other-term 1039 1065	коронавирусной   инфекцией
 T54	Event 439 456	пресс-конференции
 A5	Past T17
 A6	Past T24
 A7	Past T29
-T56	Person 1392 1408	Михаил   Мурашко
-T57	Person 1415 1432	Фахреттин   Коджа
-T58	Duration 782 787	сутки
+T56	Person 1400 1416	Михаил   Мурашко
+T57	Person 1423 1440	Фахреттин   Коджа
+T58	Duration 784 789	сутки
 A9	Past T46
 A10	Future T48
-T55	Date-relative 1170 1175	Ранее
+T55	Date-relative 1174 1179	Ранее
 A8	Past-Pres T41
 A11	Past T55
-T59	GPE 570 578	турецких
-T60	GPE 1259 1269	российскую
-T61	GPE 1617 1625	турецких
+T59	GPE 572 580	турецких
+T60	GPE 1263 1273	российскую
+T61	GPE 1625 1633	турецких
 T62	Person-forename 229 238	Фахреттин
 T63	Person-surname 241 246	Коджа
 T64	Person-surname 481 486	Коджа
-T65	Person-forename 1392 1398	Михаил
-T66	Person-surname 1401 1408	Мурашко
-T67	Person-forename 1415 1424	Фахреттин
-T68	Person-surname 1427 1432	Коджа
+T65	Person-forename 1400 1406	Михаил
+T66	Person-surname 1409 1416	Мурашко
+T67	Person-forename 1423 1432	Фахреттин
+T68	Person-surname 1435 1440	Коджа
 A12	Female T6
 A13	Adjective T59
 A14	Adjective T60
 A15	Male T56
 A16	Male T57
 A17	Adjective T61
-T69	GPE 1467 1475	турецкой
+T69	GPE 1475 1483	турецкой
 A18	Adjective T69
-T70	Law 1727 1756	локальным   законодательством
+T70	Law 1735 1764	локальным   законодательством
+A19	Trademark T32
+T71	Event 316 328	третий   пик
+T72	Event 743 753	антирекорд
+T73	Event 835 858	Предыдущий   антирекорд
+T74	Event 1678 1710	токсикологических   исследований
+T75	Cardinal 808 810	19
+T77	Ordinal 1319 1320	2
+T79	Cardinal 541 543	19
+T76	Person 418 425	министр
+A20	Male T36
+T78	GPE 1529 1535	России
+T80	GPE 1735 1744	локальным
+A21	Adjective T80

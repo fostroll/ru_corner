@@ -1,0 +1,230 @@
+# newdoc id = 0070
+# newpar id = 0070-p1
+# par_text = Выбывшие из-за COVID-тестов игроки сборной России поедут на матч в Турцию
+# sent_id = 0070-p1-s1
+# text = Выбывшие из-за COVID-тестов игроки сборной России поедут на матч в Турцию
+1	Выбывшие	_	_	_	_	_	_	_	_
+2	из-за	_	_	_	_	_	_	_	_
+3	COVID-тестов	_	_	_	_	_	_	_	bratT5=Other-term
+4	игроки	_	_	_	_	_	_	_	bratT4=Person-property
+5	сборной	_	_	_	_	_	_	_	bratT3=Organization|bratT4=Person-property
+6	России	_	_	_	_	_	_	_	bratT1=GPE|bratT3=Organization|bratT4=Person-property
+7	поедут	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	_
+9	матч	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	Турцию	_	_	_	_	_	_	_	bratT2=GPE
+
+# newpar id = 0070-p2
+# par_text = Футболисты сборной России Антон Заболотный, Александр Ерохин и Даниил Лесовой прошли очередное тестирование на коронавирус, которое показало у каждого из них отрицательный результат, сообщается в Telegram-канале национальной команды.
+# sent_id = 0070-p2-s1
+# text = Футболисты сборной России Антон Заболотный, Александр Ерохин и Даниил Лесовой прошли очередное тестирование на коронавирус, которое показало у каждого из них отрицательный результат, сообщается в Telegram-канале национальной команды.
+1	Футболисты	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT15=Person|bratT8=Person-property
+2	сборной	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT15=Person|bratT7=Organization|bratT8=Person-property
+3	России	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT15=Person|bratT6=GPE|bratT7=Organization|bratT8=Person-property
+4	Антон	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA18=T67:Male|bratT15=Person|bratT67=Person|bratT9=Person-forename
+5	Заболотный	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Plural|bratA18=T67:Male|bratT10=Person-surname|bratT15=Person|bratT67=Person
+6	,	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT15=Person
+7	Александр	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA2=T68:Male|bratT11=Person-forename|bratT15=Person|bratT68=Person
+8	Ерохин	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA2=T68:Male|bratT12=Person-surname|bratT15=Person|bratT68=Person
+9	и	_	_	_	_	_	_	_	bratA1=T15:Plural|bratT15=Person
+10	Даниил	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA19=T69:Male|bratT13=Person-forename|bratT15=Person|bratT69=Person
+11	Лесовой	_	_	_	_	_	_	_	bratA1=T15:Plural|bratA19=T69:Male|bratT14=Person-surname|bratT15=Person|bratT69=Person
+12	прошли	_	_	_	_	_	_	_	_
+13	очередное	_	_	_	_	_	_	_	_
+14	тестирование	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+17	,	_	_	_	_	_	_	_	_
+18	которое	_	_	_	_	_	_	_	_
+19	показало	_	_	_	_	_	_	_	_
+20	у	_	_	_	_	_	_	_	_
+21	каждого	_	_	_	_	_	_	_	bratT18=Quantity
+22	из	_	_	_	_	_	_	_	bratT18=Quantity
+23	них	_	_	_	_	_	_	_	_
+24	отрицательный	_	_	_	_	_	_	_	_
+25	результат	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	_	_	_	_	_	_	_	_
+27	сообщается	_	_	_	_	_	_	_	_
+28	в	_	_	_	_	_	_	_	_
+29	Telegram-канале	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
+30	национальной	_	_	_	_	_	_	_	bratA23=T76:Adjective|bratT74=Organization|bratT76=GPE
+31	команды	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
+32	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0070-p3
+# par_text = Отмечается, что спортсмены вылетят в Стамбул на матч с Турцией вечером 13 ноября.
+# sent_id = 0070-p3-s1
+# text = Отмечается, что спортсмены вылетят в Стамбул на матч с Турцией вечером 13 ноября.
+1	Отмечается	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	спортсмены	_	_	_	_	_	_	_	bratT20=Person-property
+5	вылетят	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	Стамбул	_	_	_	_	_	_	_	bratT21=GPE
+8	на	_	_	_	_	_	_	_	_
+9	матч	_	_	_	_	_	_	_	bratT24=Event
+10	с	_	_	_	_	_	_	_	_
+11	Турцией	_	_	_	_	_	_	_	bratT22=GPE
+12	вечером	_	_	_	_	_	_	_	bratA4=T23:Future|bratT23=Date-absolute|bratT70=Time-absolute
+13	13	_	_	_	_	_	_	_	bratA4=T23:Future|bratT23=Date-absolute
+14	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T23:Future|bratT23=Date-absolute
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0070-p4
+# par_text = 11 ноября стало известно, что тесты Заболотного, Ерохина и Лесового, проведенные Союзом европейских футбольных ассоциаций (УЕФА), показали сомнительный результат. При этом целый ряд тестов до и после этого исследования заражения коронавирусом не выявили.
+# sent_id = 0070-p4-s1
+# text = 11 ноября стало известно, что тесты Заболотного, Ерохина и Лесового, проведенные Союзом европейских футбольных ассоциаций (УЕФА), показали сомнительный результат.
+1	11	_	_	_	_	_	_	_	bratA5=T25:Past|bratT25=Date-absolute
+2	ноября	_	_	_	_	_	_	_	bratA5=T25:Past|bratT25=Date-absolute
+3	стало	_	_	_	_	_	_	_	_
+4	известно	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	тесты	_	_	_	_	_	_	_	_
+8	Заболотного	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Male|bratT26=Person|bratT27=Person-surname
+9	,	_	_	_	_	_	_	_	_
+10	Ерохина	_	_	_	_	_	_	_	bratA7=T28:Male|bratT28=Person|bratT29=Person-surname
+11	и	_	_	_	_	_	_	_	_
+12	Лесового	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T30:Male|bratT30=Person|bratT31=Person-surname
+13	,	_	_	_	_	_	_	_	_
+14	проведенные	_	_	_	_	_	_	_	_
+15	Союзом	_	_	_	_	_	_	_	bratT32=Organization
+16	европейских	_	_	_	_	_	_	_	bratA20=T71:Adjective|bratT32=Organization|bratT71=GPE
+17	футбольных	_	_	_	_	_	_	_	bratT32=Organization
+18	ассоциаций	_	_	_	_	_	_	_	bratT32=Organization
+19	(	_	_	_	_	_	_	_	SpaceAfter=No
+20	УЕФА	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
+21	)	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	показали	_	_	_	_	_	_	_	_
+24	сомнительный	_	_	_	_	_	_	_	_
+25	результат	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0070-p4-s2
+# text = При этом целый ряд тестов до и после этого исследования заражения коронавирусом не выявили.
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	целый	_	_	_	_	_	_	_	bratT35=Quantity
+4	ряд	_	_	_	_	_	_	_	bratT35=Quantity
+5	тестов	_	_	_	_	_	_	_	bratT35=Quantity
+6	до	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
+7	и	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
+8	после	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
+9	этого	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
+10	исследования	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
+11	заражения	_	_	_	_	_	_	_	_
+12	коронавирусом	_	_	_	_	_	_	_	bratT34=Other-term
+13	не	_	_	_	_	_	_	_	_
+14	выявили	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0070-p5
+# par_text = Из-за сомнительных тестов на COVID-19 игроки пропустили товарищеский матч сборной России против команды Молдавии, который состоялся 12 ноября в Кишиневе и закончился со счетом 0:0.
+# sent_id = 0070-p5-s1
+# text = Из-за сомнительных тестов на COVID-19 игроки пропустили товарищеский матч сборной России против команды Молдавии, который состоялся 12 ноября в Кишиневе и закончился со счетом 0:0.
+1	Из-за	_	_	_	_	_	_	_	_
+2	сомнительных	_	_	_	_	_	_	_	_
+3	тестов	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5-7	COVID-19	_	_	_	_	_	_	_	_
+5	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Other-term
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Other-term
+7	19	_	_	_	_	_	_	_	bratT37=Other-term|bratT75=Cardinal
+8	игроки	_	_	_	_	_	_	_	bratT38=Person-property
+9	пропустили	_	_	_	_	_	_	_	_
+10	товарищеский	_	_	_	_	_	_	_	bratT43=Event
+11	матч	_	_	_	_	_	_	_	bratT43=Event
+12	сборной	_	_	_	_	_	_	_	bratT41=Organization
+13	России	_	_	_	_	_	_	_	bratT39=GPE|bratT41=Organization
+14	против	_	_	_	_	_	_	_	_
+15	команды	_	_	_	_	_	_	_	bratT42=Organization
+16	Молдавии	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=GPE|bratT42=Organization
+17	,	_	_	_	_	_	_	_	_
+18	который	_	_	_	_	_	_	_	_
+19	состоялся	_	_	_	_	_	_	_	_
+20	12	_	_	_	_	_	_	_	bratA11=T44:Past|bratT44=Date-absolute
+21	ноября	_	_	_	_	_	_	_	bratA11=T44:Past|bratT44=Date-absolute
+22	в	_	_	_	_	_	_	_	_
+23	Кишиневе	_	_	_	_	_	_	_	bratT45=GPE
+24	и	_	_	_	_	_	_	_	_
+25	закончился	_	_	_	_	_	_	_	_
+26	со	_	_	_	_	_	_	_	_
+27	счетом	_	_	_	_	_	_	_	_
+28	0:0	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Quantity
+29	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0070-p6
+# par_text = В ближайшее время подопечным Станислава Черчесова предстоит сыграть в Лиге наций с Турцией (15 ноября) и Сербией (18 ноября). Поединок с Турцией начнется в 20:00 мск. После четырех туров россияне лидируют в турнирной таблице группы 3 лиги В с восемью очками. Турки набрали три балла и располагаются на третьей строчке.
+# sent_id = 0070-p6-s1
+# text = В ближайшее время подопечным Станислава Черчесова предстоит сыграть в Лиге наций с Турцией (15 ноября) и Сербией (18 ноября).
+1	В	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute
+2	ближайшее	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute|bratT66=Ordinal
+3	время	_	_	_	_	_	_	_	bratA15=T55:Future|bratT55=Date-absolute
+4	подопечным	_	_	_	_	_	_	_	_
+5	Станислава	_	_	_	_	_	_	_	bratA12=T49:Male|bratT47=Person-forename|bratT49=Person
+6	Черчесова	_	_	_	_	_	_	_	bratA12=T49:Male|bratT48=Person-surname|bratT49=Person
+7	предстоит	_	_	_	_	_	_	_	_
+8	сыграть	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	Лиге	_	_	_	_	_	_	_	bratT51=Event
+11	наций	_	_	_	_	_	_	_	bratT51=Event
+12	с	_	_	_	_	_	_	_	_
+13	Турцией	_	_	_	_	_	_	_	bratT50=GPE
+14	(	_	_	_	_	_	_	_	SpaceAfter=No
+15	15	_	_	_	_	_	_	_	bratA13=T52:Future|bratT52=Date-absolute
+16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T52:Future|bratT52=Date-absolute
+17	)	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	Сербией	_	_	_	_	_	_	_	bratT53=GPE
+20	(	_	_	_	_	_	_	_	SpaceAfter=No
+21	18	_	_	_	_	_	_	_	bratA14=T54:Future|bratT54=Date-absolute
+22	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Future|bratT54=Date-absolute
+23	)	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0070-p6-s2
+# text = Поединок с Турцией начнется в 20:00 мск.
+1	Поединок	_	_	_	_	_	_	_	bratT57=Event
+2	с	_	_	_	_	_	_	_	_
+3	Турцией	_	_	_	_	_	_	_	bratT56=GPE
+4	начнется	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA22=T17:Present|bratT17=Date-absolute|bratT58=Time-absolute
+6	20:00	_	_	_	_	_	_	_	bratA22=T17:Present|bratT17=Date-absolute|bratT58=Time-absolute
+7	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T17:Present|bratT17=Date-absolute|bratT58=Time-absolute|bratT77=GPE
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0070-p6-s3
+# text = После четырех туров россияне лидируют в турнирной таблице группы 3 лиги В с восемью очками.
+1	После	_	_	_	_	_	_	_	bratA21=T72:Present|bratT72=Date-absolute
+2	четырех	_	_	_	_	_	_	_	bratA21=T72:Present|bratT59=Quantity|bratT72=Date-absolute
+3	туров	_	_	_	_	_	_	_	bratA21=T72:Present|bratT59=Quantity|bratT72=Date-absolute
+4	россияне	_	_	_	_	_	_	_	bratA16=T60:Citizenship|bratT60=Nationality
+5	лидируют	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	турнирной	_	_	_	_	_	_	_	_
+8	таблице	_	_	_	_	_	_	_	_
+9	группы	_	_	_	_	_	_	_	_
+10	3	_	_	_	_	_	_	_	bratT62=Ordinal
+11	лиги	_	_	_	_	_	_	_	bratT73=Event
+12	В	_	_	_	_	_	_	_	bratT73=Event
+13	с	_	_	_	_	_	_	_	_
+14	восемью	_	_	_	_	_	_	_	bratT61=Quantity
+15	очками	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Quantity
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0070-p6-s4
+# text = Турки набрали три балла и располагаются на третьей строчке.
+1	Турки	_	_	_	_	_	_	_	bratA17=T63:Citizenship|bratT63=Nationality
+2	набрали	_	_	_	_	_	_	_	_
+3	три	_	_	_	_	_	_	_	bratT64=Quantity
+4	балла	_	_	_	_	_	_	_	bratT64=Quantity
+5	и	_	_	_	_	_	_	_	_
+6	располагаются	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	_
+8	третьей	_	_	_	_	_	_	_	bratT65=Ordinal
+9	строчке	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+

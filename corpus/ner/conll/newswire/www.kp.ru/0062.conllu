@@ -27,10 +27,10 @@
 6	Николая	_	_	_	_	_	_	_	bratA9=T9:Male|bratT47=Person-forename|bratT9=Person
 7	Цуканова	_	_	_	_	_	_	_	bratA9=T9:Male|bratT48=Person-surname|bratT9=Person
 8	от	_	_	_	_	_	_	_	_
-9	должности	_	_	_	_	_	_	_	_
+9	должности	_	_	_	_	_	_	_	bratT11=Person-property
 10	полпреда	_	_	_	_	_	_	_	bratT11=Person-property
 11	главы	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
-12	государства	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
+12	государства	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property|bratT62=GPE
 13	в	_	_	_	_	_	_	_	bratT11=Person-property
 14	Уральском	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE
 15	федеральном	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE
@@ -69,7 +69,7 @@
 4	Николая	_	_	_	_	_	_	_	bratA11=T13:Male|bratT13=Person|bratT52=Person-forename
 5	Николаевича	_	_	_	_	_	_	_	bratA11=T13:Male|bratT13=Person|bratT53=Person-patronym
 6	от	_	_	_	_	_	_	_	_
-7	должности	_	_	_	_	_	_	_	_
+7	должности	_	_	_	_	_	_	_	bratT17=Person-property
 8	полномочного	_	_	_	_	_	_	_	bratT17=Person-property
 9	представителя	_	_	_	_	_	_	_	bratT17=Person-property
 10	Президента	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person-property
@@ -122,7 +122,7 @@
 4	подписал	_	_	_	_	_	_	_	_
 5	указ	_	_	_	_	_	_	_	_
 6	об	_	_	_	_	_	_	_	_
-7	отставке	_	_	_	_	_	_	_	_
+7	отставке	_	_	_	_	_	_	_	bratT60=Event
 8	министра	_	_	_	_	_	_	_	bratA12=T23:Male|bratT22=Person-property|bratT23=Person
 9	транспорта	_	_	_	_	_	_	_	bratA12=T23:Male|bratT22=Person-property|bratT23=Person
 10	Евгения	_	_	_	_	_	_	_	bratA12=T23:Male|bratT23=Person|bratT54=Person-forename
@@ -141,25 +141,28 @@
 1	Как	_	_	_	_	_	_	_	_
 2	писал	_	_	_	_	_	_	_	_
 3	сайт	_	_	_	_	_	_	_	bratA2=T27:Media|bratT27=Service
-4	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Media|bratA3=T44:Media|bratT27=Service|bratT44=Organization
-5	,	_	_	_	_	_	_	_	_
-6	глава	_	_	_	_	_	_	_	_
-7	государства	_	_	_	_	_	_	_	_
-8	также	_	_	_	_	_	_	_	_
-9	ввел	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	_
-11	России	_	_	_	_	_	_	_	bratT28=GPE
-12	еще	_	_	_	_	_	_	_	bratT39=Quantity
-13	один	_	_	_	_	_	_	_	bratT39=Quantity
-14	вице-премьерский	_	_	_	_	_	_	_	bratT39=Quantity
-15	пост	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity
-16	.	_	_	_	_	_	_	_	_
+4-6	kp.ru	_	_	_	_	_	_	_	SpaceAfter=No
+4	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Media|bratA3=T44:Media|bratT27=Service|bratT44=Organization|bratT61=Web-address
+5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Media|bratA3=T44:Media|bratT27=Service|bratT44=Organization|bratT61=Web-address
+6	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Media|bratA3=T44:Media|bratT27=Service|bratT44=Organization|bratT61=Web-address
+7	,	_	_	_	_	_	_	_	_
+8	глава	_	_	_	_	_	_	_	bratT64=Person-property
+9	государства	_	_	_	_	_	_	_	bratT63=GPE|bratT64=Person-property
+10	также	_	_	_	_	_	_	_	_
+11	ввел	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	России	_	_	_	_	_	_	_	bratT28=GPE
+14	еще	_	_	_	_	_	_	_	bratT39=Quantity
+15	один	_	_	_	_	_	_	_	bratT39=Quantity
+16	вице-премьерский	_	_	_	_	_	_	_	bratT39=Quantity|bratT66=Person-property
+17	пост	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity|bratT66=Person-property
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p6-s2
 # text = В правительстве страны теперь будет десять заместителей председателя
 1	В	_	_	_	_	_	_	_	_
 2	правительстве	_	_	_	_	_	_	_	bratT29=Organization
-3	страны	_	_	_	_	_	_	_	bratT29=Organization
+3	страны	_	_	_	_	_	_	_	bratT29=Organization|bratT65=GPE
 4	теперь	_	_	_	_	_	_	_	bratA5=T43:Past-Fut|bratT43=Date-period-absolute
 5	будет	_	_	_	_	_	_	_	_
 6	десять	_	_	_	_	_	_	_	bratT31=Quantity

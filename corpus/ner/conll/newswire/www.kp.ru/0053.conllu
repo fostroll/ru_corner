@@ -39,6 +39,7 @@
 4	инициативе	_	_	_	_	_	_	_	_
 5	МИД	_	_	_	_	_	_	_	bratT9=Organization
 6	разорвала	_	_	_	_	_	_	_	_
+7-9	российско-украинское	_	_	_	_	_	_	_	_
 7	российско	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T35:Adjective|bratT23=Law|bratT35=GPE
 8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Law
 9	украинское	_	_	_	_	_	_	_	bratA9=T36:Adjective|bratT23=Law|bratT36=GPE
@@ -115,9 +116,9 @@
 # par_text = До этого момента в сентябре 2020 года с предложение закрыть эти торговые представительства выступили эксперты российского Минпромторга. Специалисты ведомства отметили, что прошлым летом украинское правительство прекратило действие соглашения взаимном учреждении торгпредставительств с российской стороной. В целом у России после данного заявления в мире остались торгпредства в 58 странах.
 # sent_id = 0053-p5-s1
 # text = До этого момента в сентябре 2020 года с предложение закрыть эти торговые представительства выступили эксперты российского Минпромторга.
-1	До	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
-2	этого	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute|bratT28=Ordinal
-3	момента	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
+1	До	_	_	_	_	_	_	_	bratA13=T37:Past|bratA7=T18:Past|bratT18=Date-absolute|bratT37=Date-relative
+2	этого	_	_	_	_	_	_	_	bratA13=T37:Past|bratA7=T18:Past|bratT18=Date-absolute|bratT28=Ordinal|bratT37=Date-relative
+3	момента	_	_	_	_	_	_	_	bratA13=T37:Past|bratA7=T18:Past|bratT18=Date-absolute|bratT37=Date-relative
 4	в	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 5	сентябре	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 6	2020	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
@@ -162,9 +163,9 @@
 2	целом	_	_	_	_	_	_	_	_
 3	у	_	_	_	_	_	_	_	_
 4	России	_	_	_	_	_	_	_	bratT21=GPE
-5	после	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-absolute
-6	данного	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-absolute
-7	заявления	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-absolute
+5	после	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-relative
+6	данного	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-relative
+7	заявления	_	_	_	_	_	_	_	bratA3=T29:Past|bratT29=Date-relative
 8	в	_	_	_	_	_	_	_	_
 9	мире	_	_	_	_	_	_	_	bratT31=GPE
 10	остались	_	_	_	_	_	_	_	_

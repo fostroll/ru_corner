@@ -1,0 +1,60 @@
+# newdoc id = 0074
+# newpar id = 0074-p1
+# par_text = Почему вам срочно нужен январский номер Tatler
+# sent_id = 0074-p1-s1
+# text = Почему вам срочно нужен январский номер Tatler
+1	Почему	_	_	_	_	_	_	_	_
+2	вам	_	_	_	_	_	_	_	_
+3	срочно	_	_	_	_	_	_	_	_
+4	нужен	_	_	_	_	_	_	_	_
+5	январский	_	_	_	_	_	_	_	_
+6	номер	_	_	_	_	_	_	_	_
+7	Tatler	_	_	_	_	_	_	_	bratA1=T1:Media|bratT1=Organization
+
+# newpar id = 0074-p2
+# par_text = Солистка Венской оперы Аида Гарифуллина – о главных страстях своей жизни. В январе она дебютирует на главной сцене мира, нью-йоркской Метрополитен-опера. Там Аида споет Церлину, которую не смог соблазнить Дон Жуан.
+# sent_id = 0074-p2-s1
+# text = Солистка Венской оперы Аида Гарифуллина - о главных страстях своей жизни.
+1	Солистка	_	_	_	_	_	_	_	bratA3=T7:Female|bratT4=Person-property|bratT7=Person
+2	Венской	_	_	_	_	_	_	_	bratA2=T2:Adjective|bratA3=T7:Female|bratT2=GPE|bratT3=Organization|bratT4=Person-property|bratT7=Person
+3	оперы	_	_	_	_	_	_	_	bratA3=T7:Female|bratT3=Organization|bratT4=Person-property|bratT7=Person
+4	Аида	_	_	_	_	_	_	_	bratA3=T7:Female|bratT5=Person-forename|bratT7=Person
+5	Гарифуллина	_	_	_	_	_	_	_	bratA3=T7:Female|bratT6=Person-surname|bratT7=Person
+6	-	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	главных	_	_	_	_	_	_	_	_
+9	страстях	_	_	_	_	_	_	_	_
+10	своей	_	_	_	_	_	_	_	_
+11	жизни	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0074-p2-s2
+# text = В январе она дебютирует на главной сцене мира, нью-йоркской Метрополитен-опера.
+1	В	_	_	_	_	_	_	_	bratT8=Date-absolute
+2	январе	_	_	_	_	_	_	_	bratT8=Date-absolute
+3	она	_	_	_	_	_	_	_	_
+4	дебютирует	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	главной	_	_	_	_	_	_	_	_
+7	сцене	_	_	_	_	_	_	_	_
+8	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=GPE
+9	,	_	_	_	_	_	_	_	_
+10	нью-йоркской	_	_	_	_	_	_	_	bratA5=T10:Adjective|bratT10=GPE|bratT11=Organization
+11	Метрополитен-опера	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0074-p2-s3
+# text = Там Аида споет Церлину, которую не смог соблазнить Дон Жуан.
+1	Там	_	_	_	_	_	_	_	_
+2	Аида	_	_	_	_	_	_	_	bratA6=T13:Female|bratT12=Person-forename|bratT13=Person
+3	споет	_	_	_	_	_	_	_	_
+4	Церлину	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T15:Fiction|bratA8=T15:Female|bratT14=Person-forename|bratT15=Person
+5	,	_	_	_	_	_	_	_	_
+6	которую	_	_	_	_	_	_	_	_
+7	не	_	_	_	_	_	_	_	_
+8	смог	_	_	_	_	_	_	_	_
+9	соблазнить	_	_	_	_	_	_	_	_
+10	Дон	_	_	_	_	_	_	_	bratA10=T18:Male|bratA9=T18:Fiction|bratT16=Person-affix|bratT18=Person
+11	Жуан	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Male|bratA9=T18:Fiction|bratT17=Person-forename|bratT18=Person
+12	.	_	_	_	_	_	_	_	_
+

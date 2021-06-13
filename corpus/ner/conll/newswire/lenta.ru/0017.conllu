@@ -18,7 +18,7 @@
 # sent_id = 0017-p2-s1
 # text = Лидер ЛДПР Владимир Жириновский предложил переименовать Трехсвятскую улицу в Твери в честь российского певца Михаила Круга.
 1	Лидер	_	_	_	_	_	_	_	bratA7=T5:Male|bratT4=Person-property|bratT5=Person
-2	ЛДПР	_	_	_	_	_	_	_	bratA7=T5:Male|bratT4=Person-property|bratT5=Person
+2	ЛДПР	_	_	_	_	_	_	_	bratA7=T5:Male|bratT4=Person-property|bratT5=Person|bratT54=Organization
 3	Владимир	_	_	_	_	_	_	_	bratA7=T5:Male|bratT36=Person-forename|bratT5=Person
 4	Жириновский	_	_	_	_	_	_	_	bratA7=T5:Male|bratT37=Person-surname|bratT5=Person
 5	предложил	_	_	_	_	_	_	_	_
@@ -44,7 +44,7 @@
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T2:Media|bratT2=Organization
 6	Подъем	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T2:Media|bratT2=Organization
 7	''	_	_	_	_	_	_	_	bratA2=T2:Media|bratT2=Organization
-8	политик	_	_	_	_	_	_	_	bratT12=Person-property
+8	политик	_	_	_	_	_	_	_	bratA16=T49:Male|bratT12=Person-property|bratT49=Person
 9	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
@@ -92,8 +92,8 @@
 # sent_id = 0017-p3-s2
 # text = Однако лидер ЛДПР также отметил, что решение этого вопроса зависит от родственников Михаила Круга и комиссии при городской думе.
 1	Однако	_	_	_	_	_	_	_	_
-2	лидер	_	_	_	_	_	_	_	bratT17=Person-property
-3	ЛДПР	_	_	_	_	_	_	_	bratT17=Person-property
+2	лидер	_	_	_	_	_	_	_	bratA15=T50:Male|bratT17=Person-property|bratT50=Person
+3	ЛДПР	_	_	_	_	_	_	_	bratA15=T50:Male|bratT17=Person-property|bratT50=Person|bratT55=Organization
 4	также	_	_	_	_	_	_	_	_
 5	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -122,7 +122,7 @@
 3	эту	_	_	_	_	_	_	_	_
 4	идею	_	_	_	_	_	_	_	_
 5	популярностью	_	_	_	_	_	_	_	_
-6	шансонье	_	_	_	_	_	_	_	bratT28=Person-property
+6	шансонье	_	_	_	_	_	_	_	bratA17=T51:Male|bratT28=Person-property|bratT51=Person
 7	и	_	_	_	_	_	_	_	_
 8	восхищением	_	_	_	_	_	_	_	_
 9	им	_	_	_	_	_	_	_	_
@@ -180,7 +180,7 @@
 2	приглашал	_	_	_	_	_	_	_	_
 3	меня	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
-5	концерты	_	_	_	_	_	_	_	SpaceAfter=No
+5	концерты	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 6	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p4-s5

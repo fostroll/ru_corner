@@ -6,23 +6,23 @@ T5	Quantity 609 625	четырёх   штатах
 T6	Person 730 735	Трамп
 T7	Person 949 954	Трамп
 T8	Organization 976 993	компания   Pfizer
-T10	Date-absolute 1172 1193	В   середине   ноября
-T11	Person 1196 1202	Байден
-T12	Person-property 1226 1242	президента   США
-T13	GPE 1239 1242	США
-T14	Person 1389 1395	Трампа
-T9	Product 1115 1166	вакцины   от   коронавирусной   инфекции   COVID-19
+T10	Date-absolute 1174 1195	В   середине   ноября
+T11	Person 1198 1204	Байден
+T12	Person-property 1228 1244	президента   США
+T13	GPE 1241 1244	США
+T14	Person 1391 1397	Трампа
+T9	Product 1115 1168	вакцины   от   коронавирусной   инфекции   COVID - 19
 A1	Media T2
 T15	Person-property 442 455	расследовател
-T16	Political-group 1504 1514	демократия
+T16	Political-group 1506 1516	демократия
 T17	Person-property 84 99	Президент   США
 T18	GPE 96 99	США
 T19	Person 84 117	Президент   США   Дональд   Трамп
 T20	Event 248 271	президентских   выборов
 T21	Service 345 352	Twitter
 T22	Date-relative 941 946	Ранее
-T23	Other-term 1130 1166	коронавирусной   инфекции   COVID-19
-T24	GPE 1403 1415	всему   миру
+T23	Other-term 1130 1168	коронавирусной   инфекции   COVID - 19
+T24	GPE 1405 1417	всему   миру
 A2	Past T10
 A3	Past T22
 T25	Person-surname 0 5	Трамп
@@ -37,8 +37,13 @@ A7	Male T6
 T30	Person-surname 730 735	Трамп
 T31	Person-surname 949 954	Трамп
 A8	Male T7
-T32	Person-surname 1196 1202	Байден
+T32	Person-surname 1198 1204	Байден
 A9	Male T11
-T33	Person-surname 1389 1395	Трампа
+T33	Person-surname 1391 1397	Трампа
 A10	Male T14
 A11	Source T16
+T34	Date-relative 428 433	когда
+A12	Present T34
+A13	Trademark T9
+T35	Cardinal 1166 1168	19
+T36	GPE 278 284	стране

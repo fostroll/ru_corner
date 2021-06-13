@@ -1,0 +1,81 @@
+T1	GPE 0 6	Польша
+T2	GPE 42 48	России
+T3	Person 76 87	Качиньского
+T4	GPE 98 104	Москвы
+T5	Person-property 162 172	президента
+T6	Person 162 193	президента   Леха   Качиньского
+T7	Family 200 206	братом
+T8	Person 200 218	братом   Ярославом
+T9	GPE 247 256	Смоленске
+T10	Event 229 240	катастрофой
+T11	Date-absolute 221 240	перед   катастрофой
+T12	Organization 346 378	польское   информагентство   PAP
+A1	Media T12
+T13	GPE 439 445	Польши
+T14	Person-property 394 445	заместитель   министра   иностранных   дел   Польши
+T15	Person 394 480	заместитель   министра   иностранных   дел   Польши   Шимон   Шинковский   вель   Сенк
+T16	GPE 593 599	Россия
+T17	GPE 662 668	Европы
+T18	Organization 653 668	Совета   Европы
+T19	GPE 775 798	польскому   государству
+T20	Person 823 833	Шинковский
+T21	Person-property 853 862	дипломата
+T22	GPE 869 875	Россия
+T23	Organization 925 947	польской   прокуратуры
+T24	Date-relative 1039 1044	Ранее
+T25	GPE 1064 1070	России
+T26	Organization 1047 1070	Генпрокуратура   России
+T27	GPE 1085 1091	Польше
+T28	Person-property 1159 1194	бывшего   участника   расследования
+T29	Person 1159 1217	бывшего   участника   расследования   Войцеха   Лачевского
+T30	Person 1266 1276	Качиньский
+T31	Event 1248 1263	авиакатастрофой
+T32	Family 1316 1322	братом
+T33	Person 1316 1334	братом   Ярославом
+T34	Date-absolute 1240 1263	перед   авиакатастрофой
+T35	Product 1459 1467	Ту - 154
+T36	Event 1448 1467	крушения   Ту - 154
+T37	Person 1486 1496	Лачевского
+T38	Person 1556 1576	Ярослав   Качиньский
+T39	Organization 1586 1597	прокуратуре
+T40	Person-property 1699 1706	пилотов
+T41	Person-surname 76 87	Качиньского
+A2	Male T3
+T42	Person-forename 175 179	Леха
+T43	Person-surname 182 193	Качиньского
+A3	Male T6
+T44	Person-forename 209 218	Ярославом
+A4	Male T8
+A5	Past T11
+T45	GPE 346 354	польское
+A6	Adjective T45
+T46	Person-forename 448 453	Шимон
+T47	Person-surname 456 480	Шинковский   вель   Сенк
+A7	Male T15
+T48	Person-surname 823 833	Шинковский
+T49	Person-forename 1197 1204	Войцеха
+T50	Person-surname 1207 1217	Лачевского
+T51	Person-surname 1266 1276	Качиньский
+A8	Male T30
+A9	Past T34
+T52	Person-forename 1325 1334	Ярославом
+A10	Male T33
+A11	Male T37
+T53	Person-surname 1486 1496	Лачевского
+T54	Person-forename 1556 1563	Ярослав
+T55	Person-surname 1566 1576	Качиньский
+A12	Male T38
+T56	GPE 925 933	польской
+A13	Adjective T56
+A15	Past T24
+A16	Male T29
+T58	Event 136 159	телефонного   разговора
+T59	Event 64 73	разговора
+T60	Event 705 718	расследования
+T61	Event 693 718	окончанию   расследования
+T62	Event 725 744	передаче   обломков
+T63	Event 1015 1028	расследовании
+T65	Event 1512 1521	разговора
+T66	Event 1660 1670	катастрофы
+T67	Cardinal 1464 1467	154
+T57	Person 1699 1706	пилотов

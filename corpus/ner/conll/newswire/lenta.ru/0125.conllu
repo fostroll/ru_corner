@@ -45,7 +45,7 @@
 4	известно	_	_	_	_	_	_	_	_
 5	из	_	_	_	_	_	_	_	_
 6	результатов	_	_	_	_	_	_	_	_
-7	голосования	_	_	_	_	_	_	_	SpaceAfter=No
+7	голосования	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event
 8	,	_	_	_	_	_	_	_	_
 9	приведенных	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
@@ -139,9 +139,9 @@
 15	и	_	_	_	_	_	_	_	_
 16	состоит	_	_	_	_	_	_	_	_
 17	из	_	_	_	_	_	_	_	_
-18	одного	_	_	_	_	_	_	_	_
-19	семиэтажного	_	_	_	_	_	_	_	bratT18=Facility
-20	здания	_	_	_	_	_	_	_	bratT18=Facility
+18	одного	_	_	_	_	_	_	_	bratT21=Quantity
+19	семиэтажного	_	_	_	_	_	_	_	bratT18=Facility|bratT21=Quantity|bratT22=Quantity
+20	здания	_	_	_	_	_	_	_	bratT18=Facility|bratT21=Quantity
 21	в	_	_	_	_	_	_	_	bratT18=Facility
 22	форме	_	_	_	_	_	_	_	bratT18=Facility
 23	самолета	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Facility
@@ -229,6 +229,6 @@
 15	и	_	_	_	_	_	_	_	_
 16	видом	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	_
-18	море	_	_	_	_	_	_	_	SpaceAfter=No
+18	море	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Location
 19	.	_	_	_	_	_	_	_	_
 

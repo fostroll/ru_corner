@@ -2,42 +2,47 @@ T1	GPE 5 12	Украине
 T2	Quantity 25 50	13   882   новых   случая
 T3	Other-term 53 65	коронавируса
 T4	Duration 73 78	сутки
-T5	Event 383 406	эпидемии   коронавируса
-T6	Organization 409 469	Совета   национальной   безопасности   и   обороны   Украины
-T7	GPE 462 469	Украины
-T8	Date-period-absolute 483 509	за   прошедшие   24   часа
-T9	Quantity 534 549	229   пациентов
-T10	Other-term 556 569	коронавирусом
-T11	GPE 612 619	Украине
-T12	Quantity 638 667	11   492   летальных   случая
-T13	Other-term 670 682	коронавируса
-T14	Quantity 689 708	307   778   человек
-T15	Person 735 790	министр   здравоохранения   Украины   Максим   Степанов
-T16	Person-property 735 770	министр   здравоохранения   Украины
-T17	GPE 763 770	Украины
-T18	Other-term 822 829	локдаун
-T19	Service 333 338	сайте
+T5	Event 385 408	эпидемии   коронавируса
+T6	Organization 411 471	Совета   национальной   безопасности   и   обороны   Украины
+T7	GPE 464 471	Украины
+T8	Date-period-absolute 485 511	за   прошедшие   24   часа
+T9	Quantity 536 551	229   пациентов
+T10	Other-term 558 571	коронавирусом
+T11	GPE 614 621	Украине
+T12	Quantity 640 669	11   492   летальных   случая
+T13	Other-term 672 684	коронавируса
+T14	Quantity 691 710	307   778   человек
+T15	Person 737 792	министр   здравоохранения   Украины   Максим   Степанов
+T16	Person-property 737 772	министр   здравоохранения   Украины
+T17	GPE 765 772	Украины
+T18	Other-term 824 831	локдаун
+T19	Service 335 340	сайте
 A1	Media T19
 T20	GPE 85 92	Украине
 T21	Quantity 105 130	13   882   новых   случая
-T22	Other-term 133 169	коронавирусной   инфекции   COVID-19
-T23	Duration 177 182	сутки
-T24	Quantity 231 250	661   858   случаев
-T25	Other-term 267 280	коронавирусом
-T26	Event 596 604	пандемии
-T27	Date-period-absolute 583 604	с   начала   пандемии
-T28	Date-relative 727 732	Ранее
-T29	Other-term 394 406	коронавируса
-T30	Product 341 406	системы   мониторинга   распространения   эпидемии   коронавируса
+T22	Other-term 133 171	коронавирусной   инфекции   COVID - 19
+T23	Duration 179 184	сутки
+T24	Quantity 233 252	661   858   случаев
+T25	Other-term 269 282	коронавирусом
+T26	Event 598 606	пандемии
+T27	Date-period-absolute 585 606	с   начала   пандемии
+T28	Date-relative 729 734	Ранее
+T29	Other-term 396 408	коронавируса
+T30	Product 343 408	системы   мониторинга   распространения   эпидемии   коронавируса
 T31	Date-period-absolute 68 78	за   сутки
-T32	Date-period-absolute 172 182	за   сутки
-T33	Duration 500 509	24   часа
-T34	Ordinal 488 497	прошедшие
+T32	Date-period-absolute 174 184	за   сутки
+T33	Duration 502 511	24   часа
+T34	Ordinal 490 499	прошедшие
 A4	Past-Pres T31
 A5	Past-Pres T32
 A2	Past-Pres T27
 A3	Past T8
 A6	Past T28
-T35	Person-forename 773 779	Максим
-T36	Person-surname 782 790	Степанов
+T35	Person-forename 775 781	Максим
+T36	Person-surname 784 792	Степанов
 A7	Male T15
+A8	Project T30
+T37	Cardinal 169 171	19
+T38	GPE 201 207	стране
+T39	GPE 518 524	стране
+T40	GPE 838 844	стране

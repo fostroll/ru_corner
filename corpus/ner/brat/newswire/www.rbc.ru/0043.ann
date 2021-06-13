@@ -1,0 +1,64 @@
+T1	GPE 0 6	Россия
+T2	Person-property 28 42	военнослужащих
+T3	GPE 60 67	Армении
+T4	GPE 74 86	Азербайджана
+T5	Facility 50 57	границе
+T6	GPE 103 110	Армении
+T7	GPE 117 129	Азербайджана
+T8	Facility 93 100	границе
+T9	Person-property 151 177	российских   пограничников
+T10	GPE 226 245	Нагорном   Карабахе
+T11	GPE 288 294	России
+T12	Organization 282 294	ФСБ   России
+T13	Person-property 271 294	директор   ФСБ   России
+T14	Person 271 318	директор   ФСБ   России   Александр   Бортников
+T15	Person-property 342 366	российским   президентом
+T16	Person 342 389	российским   президентом   Владимиром   Путиным
+T17	Organization 465 468	ФСБ
+T18	GPE 475 495	Республике   Армения
+T19	Organization 437 495	пограничному   управлению   ФСБ   в   Республике   Армения
+A1	Department T19
+T20	Person-property 557 571	военнослужащих
+T21	Quantity 551 571	188   военнослужащих
+T22	Person-property 670 682	пограничники
+T23	GPE 725 763	населенных   пунктах   Тех   и   Сыгыр
+A2	Plural T23
+T24	GPE 768 779	Азербайджан
+T25	Person 820 829	Бортников
+T26	GPE 884 891	Армению
+T27	Date-period-absolute 894 928	с   18   ноября   по   20   ноября
+T28	Date-period-absolute 933 948	С   22   ноября
+T29	GPE 1019 1025	России
+T30	Person-property 999 1025	Министр   обороны   России
+T31	Person 999 1042	Министр   обороны   России   Сергей   Шойгу
+T32	Person 1055 1061	Путину
+T33	GPE 1078 1086	Карабахе
+T34	Quantity 1202 1219	1   960   человек
+T35	Quantity 1226 1249	552   единицы   техники
+T36	Organization 1119 1162	российского   миротворческого   контингента
+T37	GPE 151 161	российских
+A3	Adjective T37
+T38	Person-forename 297 306	Александр
+T39	Person-surname 309 318	Бортников
+A4	Male T14
+T40	GPE 342 352	российским
+A5	Adjective T40
+T41	Person-forename 369 379	Владимиром
+T42	Person-surname 382 389	Путиным
+A6	Male T16
+T43	GPE 415 424	армянской
+A7	Adjective T43
+T44	Person-surname 820 829	Бортников
+A8	Male T25
+A9	Past T27
+A10	Fut T28
+T45	Person-forename 1028 1034	Сергей
+T46	Person-surname 1037 1042	Шойгу
+A11	Male T31
+T47	Person-surname 1055 1061	Путину
+A12	Male T32
+T48	GPE 1119 1130	российского
+A13	Adjective T48
+T49	GPE 748 751	Тех
+T50	GPE 758 763	Сыгыр
+T51	GPE 1173 1179	регион

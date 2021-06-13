@@ -1,0 +1,50 @@
+T1	Organization 4 21	столичной   мэрии
+T2	Date-period-absolute 92 107	в   2020   году
+T3	GPE 109 115	Москва
+T4	Date-absolute 212 223	26   ноября
+T5	Organization 245 272	столичного   стройкомплекса
+T6	Organization 230 272	пресс-службе   столичного   стройкомплекса
+A1	Department T6
+T7	Quantity 314 345	3,6   млн   квадратных   метров
+T8	Date-period-absolute 348 372	к   настоящему   времени
+T9	Quantity 410 442	3,73   млн   квадратных   метров
+T10	GPE 478 484	Москвы
+T11	Person-property 468 505	заммэра   Москвы   по   строительству
+T12	Person 468 525	заммэра   Москвы   по   строительству   Андрей   Бочкарев
+T13	Organization 546 569	РИА   ``   Новости   ''
+A2	Media T13
+T14	GPE 595 601	Москве
+T15	Date-period-absolute 604 621	с   начала   года
+T16	Quantity 651 682	8,2   млн   квадратных   метров
+T17	Quantity 734 765	8,5   млн   квадратных   метров
+T18	GPE 881 887	России
+T19	Date-period-absolute 890 915	в   октябре   2020   года
+T20	Percent 929 939	на   8,4 %
+T21	Quantity 990 1021	6,7   млн   квадратных   метров
+T22	Date-period-absolute 963 972	сентябрем
+T23	Date-period-absolute 1161 1172	в   октябре
+T24	Quantity 1186 1217	7,2   млн   квадратных   метров
+T25	Percent 1224 1230	-7,4 %
+T26	Date-period-absolute 1254 1263	сентябрем
+T27	Date-period-absolute 1306 1328	октябрем   2019   года
+T28	Percent 1362 1372	на   7,3 %
+T29	Percent 1434 1442	на   2 %
+T30	Date-absolute 786 795	на   днях
+T31	GPE 4 13	столичной
+A3	Adjective T31
+A5	Past T4
+T32	GPE 245 255	столичного
+A6	Adjective T32
+A7	Past-Pres T8
+A4	Past-UNK T2
+A8	Male T12
+T33	Person-forename 508 514	Андрей
+T34	Person-surname 517 525	Бочкарев
+A9	Past-Pres T15
+A10	Past T30
+A11	Past T19
+A12	Past T22
+A13	Past T23
+A14	Past T26
+A15	Past T27
+T35	Ordinal 352 362	настоящему

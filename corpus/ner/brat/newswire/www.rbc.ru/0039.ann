@@ -1,0 +1,58 @@
+T1	Organization 0 7	Госдума
+T2	Organization 80 87	Госдума
+T3	Ordinal 26 32	втором
+T5	Ordinal 105 111	втором
+T6	Date-period-absolute 157 172	на   2021   год
+T7	Date-period-absolute 190 222	период   2022   -   2023   годов
+T8	Organization 300 310	парламента
+T9	Organization 282 310	нижней   палаты   парламента
+A1	Department T9
+T10	Organization 267 310	пресс-службы   нижней   палаты   парламента
+A2	Department T10
+T11	Organization 345 352	Госдумы
+T12	Person-property 330 352	председателя   Госдумы
+T13	Person 330 375	председателя   Госдумы   Вячеслава   Володина
+T14	Person-property 401 410	депутатов
+T15	Person-property 417 426	сенаторов
+T16	Organization 433 446	правительства
+T17	Quantity 461 475	876   поправок
+T18	Quantity 508 522	669   поправок
+T19	Organization 684 698	правительством
+T20	Person 810 817	Володин
+T21	Date-absolute 1006 1021	В   2021   году
+T22	Money 1049 1067	638,9   млрд   руб
+T23	Money 1276 1295	421,2   млрд   руб.
+T24	Date-absolute 1298 1313	в   2021   году
+T25	Person 1342 1349	Володин
+T26	Service 1404 1435	ипотечным   жилищным   кредитам
+T27	Service 1465 1489	субсидирование   ипотеки
+T28	Percent 1517 1522	6,5 %
+T29	Date-absolute 1529 1544	в   2021   году
+T30	Money 1558 1576	12,6   млрд   руб.
+T31	Date-absolute 1587 1595	в   2022
+T32	Date-absolute 1602 1614	2023   годах
+T33	Quantity 1659 1664	вдвое
+T34	Money 1670 1694	Еще   17,8   млрд   руб.
+T35	Date-absolute 1697 1712	в   2021   году
+T36	Money 1899 1915	90   млрд   руб.
+T37	Organization 1947 1954	Госдумы
+T38	Person-property 1932 1954	председатель   Госдумы
+T4	Duration 68 78	три   года
+T39	Date-period-relative 63 78	на   три   года
+A3	Fut T39
+A5	Fut T7
+T40	Person-forename 355 364	Вячеслава
+T41	Person-surname 367 375	Володина
+A6	Male T13
+T43	Person-surname 810 817	Володин
+A7	Male T20
+T44	Ordinal 865 872	второму
+A8	Future T21
+A9	Future T24
+A10	Future T32
+A11	Future T31
+A12	Future T35
+T45	Ordinal 1844 1854	первичного
+A4	Fut T6
+T42	Nationality 752 759	граждан
+A13	Citizenship T42

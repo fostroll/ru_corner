@@ -1,0 +1,114 @@
+T1	Organization 14 32	``   Спартака   ''
+T2	Person-property 0 32	Гендиректор   ``   Спартака   ''
+T3	Person 61 68	Гулиева
+T4	Person 75 82	Ташаева
+T5	Organization 121 153	московского   ``   Спартака   ''
+T6	Person-property 96 153	Генеральный   директор   московского   ``   Спартака   ''
+T7	Person 96 172	Генеральный   директор   московского   ``   Спартака   ''   Шамиль   Газизов
+T8	Organization 190 219	изданию   ``   Чемпионат   ''
+A1	Media T8
+T9	Person-property 278 292	полузащитников
+T10	Person 278 336	полузащитников   Аяза   Гулиева   и   Александра   Ташаева
+A2	Plural T10
+T11	Date-period-absolute 353 374	в   нынешнем   сезоне
+T12	Ordinal 391 397	вторую
+T13	Date-period-absolute 462 471	до   зимы
+T14	Organization 476 493	``   Спартак   ''
+T15	Person 629 639	Ломовицким
+T16	Person 646 657	Рассказовым
+T17	Person 682 689	Газизов
+T18	Date-absolute 695 715	В   начале   октября
+T19	Organization 718 735	``   Спартак   ''
+T20	Person 759 783	Александра   Ломовицкого
+T21	Person 790 810	Николая   Рассказова
+T22	Organization 813 843	тульскому   ``   Арсеналу   ''
+T23	Person 849 856	Гулиева
+T24	Date-absolute 859 866	в   мае
+T25	Organization 991 1016	``   Спорт-Экспресса   ''
+A3	Media T25
+T26	Person-property 1023 1032	футболист
+T27	Person-property 1075 1114	тренером   по   физической   подготовке
+T28	Person 1075 1138	тренером   по   физической   подготовке   Владом   Чепзановичем
+T29	Person 1165 1171	Гулиев
+T30	Organization 1289 1312	``   Спартаком - 2   ''
+T31	Person-property 1431 1440	футболист
+T32	Person 1528 1535	Газизов
+T33	Person 1541 1547	Гулиев
+T34	Organization 1577 1595	``   Спартака   ''
+T35	Person-property 1561 1595	воспитанником   ``   Спартака   ''
+T36	Date-absolute 1600 1619	Летом   2018   года
+T37	Organization 1641 1657	``   Ростов   ''
+T38	Money 1665 1677	€ 500   тыс.
+T39	Date-relative 1684 1699	через   полгода
+T40	Money 1751 1760	€ 1   млн
+T41	Person-property 1776 1789	полузащитника
+T42	Organization 1797 1816	``   Спартаком   ''
+T43	Date-period-absolute 1831 1854	до   лета   2023   года
+T44	Person-surname 61 68	Гулиева
+T45	Person-surname 75 82	Ташаева
+A4	Male T3
+A5	Male T4
+T46	Person-forename 156 162	Шамиль
+T47	Person-surname 165 172	Газизов
+A6	Male T7
+T48	Person-forename 295 299	Аяза
+T49	Person-surname 302 309	Гулиева
+T50	Person-forename 316 326	Александра
+T51	Person-surname 329 336	Ташаева
+A9	Pres-Fut T13
+A10	Past T18
+T52	Person-surname 629 639	Ломовицким
+A11	Male T15
+T53	Person-surname 646 657	Рассказовым
+A12	Male T16
+T54	Person-surname 682 689	Газизов
+A13	Male T17
+T55	Person-forename 759 769	Александра
+T56	Person-surname 772 783	Ломовицкого
+A14	Male T20
+T57	Person-forename 790 797	Николая
+T58	Person-surname 800 810	Рассказова
+A15	Male T21
+T59	GPE 813 822	тульскому
+A16	Adjective T59
+T60	Person-surname 849 856	Гулиева
+A17	Male T23
+T61	GPE 937 946	столичный
+A18	Adjective T61
+T62	Person-property 539 545	игроки
+T63	Person-forename 1117 1123	Владом
+T64	Person-surname 1126 1138	Чепзановичем
+A19	Male T28
+T65	Person-surname 1165 1171	Гулиев
+A20	Male T29
+T66	Time-relative 1334 1339	после
+T67	Person-surname 1528 1535	Газизов
+A22	Male T32
+T68	Person-surname 1541 1547	Гулиев
+A23	Male T33
+A24	Past T36
+A25	Past T39
+A26	UNK-Fut T43
+T69	Ordinal 357 365	нынешнем
+T70	GPE 121 132	московского
+A27	Adjective T70
+T71	Person 295 309	Аяза   Гулиева
+A28	Male T71
+T72	Person 316 336	Александра   Ташаева
+A29	Male T72
+T74	GPE 1646 1652	Ростов
+A8	Past-Fut T11
+T75	Event 357 374	нынешнем   сезоне
+A21	Past T24
+T76	Event 1059 1068	конфликта
+T77	Event 1342 1365	определенных   ситуаций
+T78	Event 1724 1743	обратный   трансфер
+T79	Ordinal 1306 1307	2
+T80	Person 0 32	Гендиректор   ``   Спартака   ''
+A30	Male T80
+T81	Person 1023 1032	футболист
+A31	Male T81
+T73	Nationality 1702 1710	москвичи
+A7	Resident T73
+T82	Person 1776 1789	полузащитника
+A32	Male T82

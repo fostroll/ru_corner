@@ -1,0 +1,44 @@
+T1	Organization 0 49	Сеть   книжных   магазинов   ``   Республика   ''
+T2	Organization 100 137	Книжная   сеть   ``   Республика   ''
+T3	Organization 153 179	Арбитражный   суд   Москвы
+T4	GPE 173 179	Москвы
+T5	Date-absolute 317 328	16   ноября
+T6	Date-period-absolute 457 471	с   1   апреля
+T7	Organization 478 504	ООО   ``   Республика   ''
+T8	Organization 549 579	издательство   ``   Эксмо   ''
+T9	Money 614 646	более   122   миллионов   рублей
+T10	Organization 657 683	Арбитражный   суд   Москвы
+T11	GPE 677 683	Москвы
+T12	Organization 719 749	японской   компании   Fujifilm
+T13	Money 768 793	более   60   млн   рублей
+T14	Date-absolute 833 845	28   октября
+T15	Organization 859 863	ТАСС
+A1	Media T15
+T16	Ordinal 1134 1140	Первая
+T17	Date-absolute 1177 1195	в   начале   марта
+T18	Date-absolute 1302 1322	к   середине   марта
+T19	Percent 1492 1501	до   90 %
+T20	Date-period-absolute 1506 1565	С   29   марта   по   1   июня   -   более   двух   месяцев
+T21	Organization 1749 1769	``   Ведомостям   ''
+A2	Media T21
+T22	Quantity 516 534	более   40   исков
+T23	Service 277 282	сайте
+A3	Media T23
+T25	Event 920 928	Пандемия
+T26	Event 1166 1174	пандемии
+A4	Media T8
+T27	Date-absolute 1335 1372	до   введения   ограничительных   мер
+T28	Date-relative 1434 1452	к   концу   месяца
+T29	Person-property 1722 1746	представитель   компании
+A5	Past T5
+A6	Past-Pres T6
+T30	GPE 719 727	японской
+A7	Adjective T30
+A8	Past T14
+A9	Past T17
+A10	Past T18
+A11	Past T27
+A12	Past T28
+A13	Past T20
+T31	Duration 1543 1565	более   двух   месяцев
+T24	Event 1134 1174	Первая   волна   новостей   о   пандемии

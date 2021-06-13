@@ -30,9 +30,9 @@
 12	зафиксировали	_	_	_	_	_	_	_	_
 13	более	_	_	_	_	_	_	_	bratT6=Quantity
 14	миллиона	_	_	_	_	_	_	_	bratT6=Quantity
-15	случаев	_	_	_	_	_	_	_	bratT6=Quantity
-16	заражения	_	_	_	_	_	_	_	_
-17	инфекцией	_	_	_	_	_	_	_	SpaceAfter=No
+15	случаев	_	_	_	_	_	_	_	bratT40=Event|bratT6=Quantity
+16	заражения	_	_	_	_	_	_	_	bratT40=Event
+17	инфекцией	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0101-p2-s2
@@ -58,14 +58,14 @@
 4	втором	_	_	_	_	_	_	_	bratT11=Ordinal
 5	по	_	_	_	_	_	_	_	_
 6	численности	_	_	_	_	_	_	_	_
-7	населения	_	_	_	_	_	_	_	_
+7	населения	_	_	_	_	_	_	_	bratA9=T46:Resident|bratT46=Nationality
 8	штате	_	_	_	_	_	_	_	_
 9	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=GPE
 10	,	_	_	_	_	_	_	_	_
 11	сейчас	_	_	_	_	_	_	_	bratA5=T35:Present|bratT35=Date-absolute
 12	больше	_	_	_	_	_	_	_	_
-13	случаев	_	_	_	_	_	_	_	_
-14	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term
+13	случаев	_	_	_	_	_	_	_	bratT42=Event
+14	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term|bratT42=Event
 15	,	_	_	_	_	_	_	_	_
 16	чем	_	_	_	_	_	_	_	_
 17	во	_	_	_	_	_	_	_	_
@@ -95,9 +95,9 @@
 8	чем	_	_	_	_	_	_	_	bratT18=Quantity
 9	989	_	_	_	_	_	_	_	bratT18=Quantity
 10	тысячами	_	_	_	_	_	_	_	bratT18=Quantity
-11	подтвержденных	_	_	_	_	_	_	_	bratT18=Quantity
-12	случаев	_	_	_	_	_	_	_	bratT18=Quantity
-13	заболевания	_	_	_	_	_	_	_	SpaceAfter=No
+11	подтвержденных	_	_	_	_	_	_	_	bratT18=Quantity|bratT44=Event
+12	случаев	_	_	_	_	_	_	_	bratT18=Quantity|bratT44=Event
+13	заболевания	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Event
 14	,	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	третьей	_	_	_	_	_	_	_	bratT19=Ordinal
@@ -110,8 +110,8 @@
 23	чем	_	_	_	_	_	_	_	bratT21=Quantity
 24	852	_	_	_	_	_	_	_	bratT21=Quantity
 25	тысячами	_	_	_	_	_	_	_	bratT21=Quantity
-26	случаев	_	_	_	_	_	_	_	bratT21=Quantity
-27	заражения	_	_	_	_	_	_	_	SpaceAfter=No
+26	случаев	_	_	_	_	_	_	_	bratT21=Quantity|bratT41=Event
+27	заражения	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Event
 28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0101-p4
@@ -140,10 +140,13 @@
 6	лидерах	_	_	_	_	_	_	_	_
 7	по	_	_	_	_	_	_	_	_
 8	числу	_	_	_	_	_	_	_	_
-9	выявленных	_	_	_	_	_	_	_	_
-10	случаев	_	_	_	_	_	_	_	_
-11	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-term
-12	.	_	_	_	_	_	_	_	_
+9	выявленных	_	_	_	_	_	_	_	bratT43=Event
+10	случаев	_	_	_	_	_	_	_	bratT43=Event
+11-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+11	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-term|bratT43=Event
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-term|bratT43=Event
+13	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-term|bratT43=Event|bratT45=Cardinal
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0101-p4-s3
 # text = Всего в США с начала пандемии заразились 10,2 миллиона человек, скончались более 239 тысяч заболевших.

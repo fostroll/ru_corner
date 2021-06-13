@@ -1,27 +1,33 @@
 T1	Organization 4 13	Минздраве
-T2	Other-term 60 68	COVID-19
-T3	Other-term 83 109	коронавирусной   инфекцией
-T4	Duration 143 155	10-20   дней
-T5	Time-period 271 299	в   течение   двух   месяцев
-T8	Person-property 325 401	главный   внештатный   специалист   Минздрава   по   инфекционным   болезням
-T6	Person 325 422	главный   внештатный   специалист   Минздрава   по   инфекционным   болезням   Владимир   Чуланов
-T9	Organization 440 444	ТАСС
-T10	Person 571 578	Чуланов
-T11	Time-period 745 764	до   двух   месяцев
-T12	Person-property 775 787	Инфекционист
-T13	Organization 943 952	Минздраве
-T14	Other-term 985 993	COVID-19
-T15	Percent 1019 1037	В   90   процентах
-T16	Quantity 1070 1090	до   37,5   градусов
-T7	Organization 361 370	Минздрава
+T2	Other-term 60 70	COVID - 19
+T3	Other-term 85 111	коронавирусной   инфекцией
+T4	Duration 145 163	10   -   20   дней
+T5	Time-period 279 307	в   течение   двух   месяцев
+T8	Person-property 333 409	главный   внештатный   специалист   Минздрава   по   инфекционным   болезням
+T6	Person 333 430	главный   внештатный   специалист   Минздрава   по   инфекционным   болезням   Владимир   Чуланов
+T9	Organization 448 452	ТАСС
+T10	Person 579 586	Чуланов
+T11	Time-period 753 772	до   двух   месяцев
+T12	Person-property 783 795	Инфекционист
+T13	Organization 951 960	Минздраве
+T14	Other-term 993 1003	COVID - 19
+T15	Percent 1029 1047	В   90   процентах
+T16	Quantity 1080 1100	до   37,5   градусов
+T7	Organization 369 378	Минздрава
 A1	Media T9
-T17	Date-relative 931 936	Ранее
-T18	Time-period 143 163	10-20   дней   после
-T20	Duration 285 299	двух   месяцев
-T21	Duration 745 764	до   двух   месяцев
+T17	Date-relative 939 944	Ранее
+T18	Time-period 145 171	10   -   20   дней   после
+T20	Duration 293 307	двух   месяцев
+T21	Duration 753 772	до   двух   месяцев
 A2	Past T17
-T19	Person-forename 404 412	Владимир
-T22	Person-surname 415 422	Чуланов
-T23	Person-surname 571 578	Чуланов
+T19	Person-forename 412 420	Владимир
+T22	Person-surname 423 430	Чуланов
+T23	Person-surname 579 586	Чуланов
 A3	Male T10
 A4	Male T6
+T24	Cardinal 68 70	19
+T27	Cardinal 1001 1003	19
+T25	Person 783 795	Инфекционист
+A5	Male T25
+T26	Event 174 195	появления   симптомов
+T28	Event 543 554	заболевания

@@ -1,0 +1,71 @@
+T1	GPE 25 33	Джорджии
+T2	Person 58 65	Байдена
+T3	GPE 71 102	американском   штате   Джорджия
+T4	Person 157 214	кандидата   от   Демократической   партии   Джо   Байдена
+T5	Person-property 157 198	кандидата   от   Демократической   партии
+T6	Organization 174 198	Демократической   партии
+T8	Person 256 305	вице-губернатора   штата   Брэда   Раффенспергера
+T7	Person-property 256 280	вице-губернатора   штата
+T9	Person 532 616	исполнительный   директор   некоммерческой   организации   VotingWorks   Бен   Адида
+T10	Person-property 532 602	исполнительный   директор   некоммерческой   организации   VotingWorks
+T11	Organization 560 602	некоммерческой   организации   VotingWorks
+T12	Organization 621 632	VotingWorks
+T13	Person 733 739	Байден
+T14	Person 751 757	Трампа
+T15	Quantity 760 782	на   12   284   голоса
+T16	GPE 803 811	Джорджия
+T17	Quantity 843 861	12   780   голосов
+T18	GPE 925 933	Джорджии
+T19	Ordinal 901 908	впервые
+T20	Percent 1023 1029	0,73 %
+T21	Quantity 1058 1068	одном   из
+T22	Person 1084 1151	Адвокат   президента   США   Дональда   Трампа   Рудольф   Джулиани
+T23	Person-property 1084 1130	Адвокат   президента   США   Дональда   Трампа
+T24	Person 1094 1130	президента   США   Дональда   Трампа
+T25	Person-property 1094 1110	президента   США
+T26	GPE 1107 1110	США
+T27	GPE 1198 1206	Джорджии
+T28	Person 1244 1250	Трампа
+T29	Date-absolute 1264 1275	20   ноября
+T30	Person-property 1323 1328	Юрист
+T31	Person-property 1659 1666	адвокат
+T32	GPE 1700 1725	столице   штата   Атланте
+T33	Political-group 1728 1742	республиканцам
+T34	Other-group 1870 1881	избирателей
+T35	Person-surname 58 65	Байдена
+A1	Male T2
+T36	GPE 71 83	американском
+A2	Adjective T36
+T37	Person-forename 201 204	Джо
+T38	Person-surname 207 214	Байдена
+A3	Male T4
+T39	Person-forename 283 288	Брэда
+T40	Person-surname 291 305	Раффенспергера
+T41	Service 248 253	сайте
+A4	Media T41
+A5	Male T8
+T42	Person-forename 605 608	Бен
+T43	Person-surname 611 616	Адида
+A6	Male T9
+T44	Person-surname 733 739	Байден
+T45	Person-surname 751 757	Трампа
+A7	Male T13
+A8	Male T14
+T46	Person-forename 1113 1121	Дональда
+T47	Person-surname 1124 1130	Трампа
+T48	Person-forename 1133 1140	Рудольф
+T49	Person-surname 1143 1151	Джулиани
+A9	Male T22
+A10	Male T24
+T50	Person-surname 1244 1250	Трампа
+A11	Male T28
+A12	Future T29
+T51	Organization 1234 1250	Команда   Трампа
+T52	Time-relative 1510 1515	потом
+T53	Ordinal 330 341	предыдущими
+T54	Ordinal 973 980	первыми
+T55	Date-relative 787 800	Первоначально
+T56	Political-group 174 189	Демократической
+A13	Adjective T56
+T57	Ordinal 696 705	вторичной
+A14	Past T55

@@ -4,8 +4,8 @@
 # sent_id = 0006-p1-s1
 # text = Землетрясение магнитудой 5 произошло у Командорских островов
 1	Землетрясение	_	_	_	_	_	_	_	bratT1=Event
-2	магнитудой	_	_	_	_	_	_	_	bratT1=Event
-3	5	_	_	_	_	_	_	_	bratT1=Event|bratT12=Quantity
+2	магнитудой	_	_	_	_	_	_	_	bratT26=Other-term
+3	5	_	_	_	_	_	_	_	bratT12=Quantity
 4	произошло	_	_	_	_	_	_	_	_
 5	у	_	_	_	_	_	_	_	_
 6	Командорских	_	_	_	_	_	_	_	bratT2=Location
@@ -16,8 +16,8 @@
 # sent_id = 0006-p2-s1
 # text = Землетрясение магнитудой 5 зафиксировано в Тихом океане возле Командорских островов.
 1	Землетрясение	_	_	_	_	_	_	_	bratT14=Event
-2	магнитудой	_	_	_	_	_	_	_	bratT14=Event
-3	5	_	_	_	_	_	_	_	bratT14=Event|bratT15=Quantity
+2	магнитудой	_	_	_	_	_	_	_	bratT27=Other-term
+3	5	_	_	_	_	_	_	_	bratT15=Quantity
 4	зафиксировано	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	Тихом	_	_	_	_	_	_	_	bratT16=Location
@@ -115,8 +115,8 @@
 1	4	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
 3	землетрясение	_	_	_	_	_	_	_	bratT10=Event
-4	магнитудой	_	_	_	_	_	_	_	bratT10=Event
-5	5	_	_	_	_	_	_	_	bratT10=Event|bratT13=Quantity
+4	магнитудой	_	_	_	_	_	_	_	bratT25=Other-term
+5	5	_	_	_	_	_	_	_	bratT13=Quantity
 6	произошло	_	_	_	_	_	_	_	_
 7	у	_	_	_	_	_	_	_	_
 8	Северо-Курильска	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE

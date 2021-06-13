@@ -1,0 +1,42 @@
+T1	Person 0 19	Франсуа-Анри   Пино
+T2	Percent 51 60	на   25 %
+T3	Person 62 138	Глава   группы   Kering   ,   французский   миллиардер   Франсуа-Анри   Пино
+T4	Person-property 62 85	Глава   группы   Kering
+T5	Person-property 92 116	французский   миллиардер
+T6	Organization 70 85	группы   Kering
+T7	Event 332 355	пандемии   коронавируса
+T8	Date-period-absolute 360 377	До   конца   года
+T9	Percent 409 417	четверти
+T10	Person-property 380 389	бизнесмен
+T11	Other-term 482 492	COVID - 19
+T12	Person 552 571	Франсуа-Анри   Пино
+T13	Percent 612 621	на   25 %
+T14	Date-period-absolute 624 665	с   1   апреля   до   конца   2020   года
+T15	Person 689 708	Франсуа-Анри   Пино
+T16	Person 715 772	Жан-Франсуа   Палус   ,   управляющий   директор   группы
+T17	Person-property 741 772	управляющий   директор   группы
+T18	Date-period-absolute 838 853	за   2020   год
+A1	Male T1
+T19	Person-forename 0 12	Франсуа-Анри
+T20	Person-surname 15 19	Пино
+A2	Male T3
+T21	Person-forename 119 131	Франсуа-Анри
+T22	Person-surname 134 138	Пино
+A4	Male T12
+T23	Person-forename 552 564	Франсуа-Анри
+T24	Person-surname 567 571	Пино
+A6	Male T15
+A7	Male T16
+T25	Person-forename 689 701	Франсуа-Анри
+T26	Person-surname 704 708	Пино
+T27	Person-forename 715 726	Жан-Франсуа
+T28	Person-surname 729 734	Палус
+T30	GPE 92 103	французский
+A8	Adjective T30
+T31	Person-property 944 979	главы   других   крупных   компаний
+T32	Date-absolute 457 464	текущую
+A9	Present T32
+T33	Other-term 343 355	коронавируса
+A3	Pres-Fut T8
+A5	UNK-Fut T14
+T29	Cardinal 490 492	19

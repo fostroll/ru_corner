@@ -1,0 +1,268 @@
+# newdoc id = 0080
+# newpar id = 0080-p1
+# par_text = В центре Бишкека митингующие заняли Белый дом и госкомитет нацбезопасности
+# sent_id = 0080-p1-s1
+# text = В центре Бишкека митингующие заняли Белый дом и госкомитет нацбезопасности
+1	В	_	_	_	_	_	_	_	_
+2	центре	_	_	_	_	_	_	_	_
+3	Бишкека	_	_	_	_	_	_	_	bratT1=GPE
+4	митингующие	_	_	_	_	_	_	_	_
+5	заняли	_	_	_	_	_	_	_	_
+6	Белый	_	_	_	_	_	_	_	bratT2=Facility
+7	дом	_	_	_	_	_	_	_	bratT2=Facility
+8	и	_	_	_	_	_	_	_	_
+9	госкомитет	_	_	_	_	_	_	_	bratT3=Organization
+10	нацбезопасности	_	_	_	_	_	_	_	bratT3=Organization
+
+# newpar id = 0080-p2
+# par_text = Протестующие против итогов парламентских выборов в Киргизии на пожарной машине протаранили ворота здания парламента в Бишкеке, а затем ворвались в само здание, сообщает во вторник корреспондент "Интерфакса" с места событий. Число участников акции составляет порядка 3-5 тыс. человек, которым, несмотря на оказываемое милицией сопротивление, удалось войти на охраняемый объект.
+# sent_id = 0080-p2-s1
+# text = Протестующие против итогов парламентских выборов в Киргизии на пожарной машине протаранили ворота здания парламента в Бишкеке, а затем ворвались в само здание, сообщает во вторник корреспондент ``Интерфакса'' с места событий.
+1	Протестующие	_	_	_	_	_	_	_	bratT4=Other-group
+2	против	_	_	_	_	_	_	_	_
+3	итогов	_	_	_	_	_	_	_	_
+4	парламентских	_	_	_	_	_	_	_	bratT6=Event
+5	выборов	_	_	_	_	_	_	_	bratT6=Event
+6	в	_	_	_	_	_	_	_	_
+7	Киргизии	_	_	_	_	_	_	_	bratT5=GPE
+8	на	_	_	_	_	_	_	_	_
+9	пожарной	_	_	_	_	_	_	_	_
+10	машине	_	_	_	_	_	_	_	_
+11	протаранили	_	_	_	_	_	_	_	_
+12	ворота	_	_	_	_	_	_	_	_
+13	здания	_	_	_	_	_	_	_	bratT9=Facility
+14	парламента	_	_	_	_	_	_	_	bratT8=Organization|bratT9=Facility
+15	в	_	_	_	_	_	_	_	_
+16	Бишкеке	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
+17	,	_	_	_	_	_	_	_	_
+18	а	_	_	_	_	_	_	_	_
+19	затем	_	_	_	_	_	_	_	bratA14=T51:Past|bratT51=Date-relative
+20	ворвались	_	_	_	_	_	_	_	_
+21	в	_	_	_	_	_	_	_	_
+22	само	_	_	_	_	_	_	_	_
+23	здание	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	сообщает	_	_	_	_	_	_	_	_
+26	во	_	_	_	_	_	_	_	bratA15=T10:Present|bratT10=Date-absolute
+27	вторник	_	_	_	_	_	_	_	bratA15=T10:Present|bratT10=Date-absolute
+28	корреспондент	_	_	_	_	_	_	_	bratT12=Person-property
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization|bratT12=Person-property
+30	Интерфакса	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization|bratT12=Person-property
+31	''	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization|bratT12=Person-property
+32	с	_	_	_	_	_	_	_	_
+33	места	_	_	_	_	_	_	_	_
+34	событий	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p2-s2
+# text = Число участников акции составляет порядка 3 - 5 тыс. человек, которым, несмотря на оказываемое милицией сопротивление, удалось войти на охраняемый объект.
+1	Число	_	_	_	_	_	_	_	_
+2	участников	_	_	_	_	_	_	_	_
+3	акции	_	_	_	_	_	_	_	_
+4	составляет	_	_	_	_	_	_	_	_
+5	порядка	_	_	_	_	_	_	_	bratT13=Quantity
+6	3	_	_	_	_	_	_	_	bratT13=Quantity
+7	-	_	_	_	_	_	_	_	bratT13=Quantity
+8	5	_	_	_	_	_	_	_	bratT13=Quantity
+9	тыс.	_	_	_	_	_	_	_	bratT13=Quantity
+10	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+11	,	_	_	_	_	_	_	_	_
+12	которым	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	несмотря	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	оказываемое	_	_	_	_	_	_	_	_
+17	милицией	_	_	_	_	_	_	_	bratT14=Organization
+18	сопротивление	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	удалось	_	_	_	_	_	_	_	_
+21	войти	_	_	_	_	_	_	_	_
+22	на	_	_	_	_	_	_	_	_
+23	охраняемый	_	_	_	_	_	_	_	_
+24	объект	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p3
+# par_text = По словам очевидцев, в здании парламента никого нет, незадолго до прихода демонстрантов, из здания, где находится офис президента, выехала колонна машин, которая направилась в сторону от центра Бишкека.
+# sent_id = 0080-p3-s1
+# text = По словам очевидцев, в здании парламента никого нет, незадолго до прихода демонстрантов, из здания, где находится офис президента, выехала колонна машин, которая направилась в сторону от центра Бишкека.
+1	По	_	_	_	_	_	_	_	_
+2	словам	_	_	_	_	_	_	_	_
+3	очевидцев	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	здании	_	_	_	_	_	_	_	bratT16=Facility
+7	парламента	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Facility
+8	никого	_	_	_	_	_	_	_	_
+9	нет	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	незадолго	_	_	_	_	_	_	_	bratA3=T47:Past|bratT47=Date-absolute
+12	до	_	_	_	_	_	_	_	bratA3=T47:Past|bratT47=Date-absolute
+13	прихода	_	_	_	_	_	_	_	bratA3=T47:Past|bratT36=Event|bratT47=Date-absolute
+14	демонстрантов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T47:Past|bratT17=Other-group|bratT36=Event|bratT47=Date-absolute
+15	,	_	_	_	_	_	_	_	_
+16	из	_	_	_	_	_	_	_	_
+17	здания	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	где	_	_	_	_	_	_	_	_
+20	находится	_	_	_	_	_	_	_	_
+21	офис	_	_	_	_	_	_	_	_
+22	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property
+23	,	_	_	_	_	_	_	_	_
+24	выехала	_	_	_	_	_	_	_	_
+25	колонна	_	_	_	_	_	_	_	_
+26	машин	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	_	_	_	_	_	_	_	_
+28	которая	_	_	_	_	_	_	_	_
+29	направилась	_	_	_	_	_	_	_	_
+30	в	_	_	_	_	_	_	_	_
+31	сторону	_	_	_	_	_	_	_	_
+32	от	_	_	_	_	_	_	_	_
+33	центра	_	_	_	_	_	_	_	_
+34	Бишкека	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE
+35	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p4
+# par_text = По неподтвержденным данным, президент Сооронбай Жээнбеков вылетел на юг. Руководитель аппарата главы государства Досалы Эсеналиев, пресс-секретарь Толгонай Стамалиева недоступны для комментариев.
+# sent_id = 0080-p4-s1
+# text = По неподтвержденным данным, президент Сооронбай Жээнбеков вылетел на юг.
+1	По	_	_	_	_	_	_	_	_
+2	неподтвержденным	_	_	_	_	_	_	_	_
+3	данным	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	президент	_	_	_	_	_	_	_	bratA4=T21:Male|bratT20=Person-property|bratT21=Person
+6	Сооронбай	_	_	_	_	_	_	_	bratA4=T21:Male|bratT21=Person|bratT52=Person-forename
+7	Жээнбеков	_	_	_	_	_	_	_	bratA4=T21:Male|bratT21=Person|bratT53=Person-surname
+8	вылетел	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	юг	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p4-s2
+# text = Руководитель аппарата главы государства Досалы Эсеналиев, пресс-секретарь Толгонай Стамалиева недоступны для комментариев.
+1	Руководитель	_	_	_	_	_	_	_	bratA5=T25:Male|bratT24=Person-property|bratT25=Person
+2	аппарата	_	_	_	_	_	_	_	bratA5=T25:Male|bratT23=Organization|bratT24=Person-property|bratT25=Person
+3	главы	_	_	_	_	_	_	_	bratA5=T25:Male|bratT22=Person-property|bratT23=Organization|bratT24=Person-property|bratT25=Person
+4	государства	_	_	_	_	_	_	_	bratA5=T25:Male|bratT22=Person-property|bratT23=Organization|bratT24=Person-property|bratT25=Person|bratT43=GPE
+5	Досалы	_	_	_	_	_	_	_	bratA5=T25:Male|bratT25=Person|bratT54=Person-forename
+6	Эсеналиев	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T25:Male|bratT25=Person|bratT55=Person-surname
+7	,	_	_	_	_	_	_	_	_
+8	пресс-секретарь	_	_	_	_	_	_	_	bratA6=T27:Female|bratT26=Person-property|bratT27=Person
+9	Толгонай	_	_	_	_	_	_	_	bratA6=T27:Female|bratT27=Person|bratT56=Person-forename
+10	Стамалиева	_	_	_	_	_	_	_	bratA6=T27:Female|bratT27=Person|bratT57=Person-surname
+11	недоступны	_	_	_	_	_	_	_	_
+12	для	_	_	_	_	_	_	_	_
+13	комментариев	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p5
+# par_text = Позднее Толгонай Стамалиева заявила агентству АКИpress, что президент Жээнбеков находится в Бишкеке. По ее словам, глава государства на рабочем месте в здании был до двух часов ночи, проводил индивидуальные диалоги со всеми политическими силами. Президент рассчитывает на благоразумие организаторов акции протеста, добавила она.
+# sent_id = 0080-p5-s1
+# text = Позднее Толгонай Стамалиева заявила агентству АКИpress, что президент Жээнбеков находится в Бишкеке.
+1	Позднее	_	_	_	_	_	_	_	bratA13=T50:Past|bratT50=Date-relative
+2	Толгонай	_	_	_	_	_	_	_	bratA7=T28:Female|bratT28=Person|bratT58=Person-forename
+3	Стамалиева	_	_	_	_	_	_	_	bratA7=T28:Female|bratT28=Person|bratT59=Person-surname
+4	заявила	_	_	_	_	_	_	_	_
+5	агентству	_	_	_	_	_	_	_	bratA2=T29:Media|bratT29=Organization
+6	АКИpress	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T29:Media|bratT29=Organization
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	президент	_	_	_	_	_	_	_	bratA8=T31:Male|bratT30=Person-property|bratT31=Person
+10	Жээнбеков	_	_	_	_	_	_	_	bratA8=T31:Male|bratT31=Person|bratT60=Ordinal
+11	находится	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	Бишкеке	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=GPE
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p5-s2
+# text = По ее словам, глава государства на рабочем месте в здании был до двух часов ночи, проводил индивидуальные диалоги со всеми политическими силами.
+1	По	_	_	_	_	_	_	_	_
+2	ее	_	_	_	_	_	_	_	_
+3	словам	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	глава	_	_	_	_	_	_	_	bratT33=Person-property
+6	государства	_	_	_	_	_	_	_	bratT33=Person-property|bratT66=GPE
+7	на	_	_	_	_	_	_	_	_
+8	рабочем	_	_	_	_	_	_	_	_
+9	месте	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	здании	_	_	_	_	_	_	_	_
+12	был	_	_	_	_	_	_	_	_
+13	до	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-period-relative
+14	двух	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-period-relative|bratT61=Time-absolute
+15	часов	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-period-relative|bratT61=Time-absolute
+16	ночи	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T34:Past|bratT34=Date-period-relative|bratT61=Time-absolute
+17	,	_	_	_	_	_	_	_	_
+18	проводил	_	_	_	_	_	_	_	_
+19	индивидуальные	_	_	_	_	_	_	_	_
+20	диалоги	_	_	_	_	_	_	_	_
+21	со	_	_	_	_	_	_	_	_
+22	всеми	_	_	_	_	_	_	_	_
+23	политическими	_	_	_	_	_	_	_	_
+24	силами	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p5-s3
+# text = Президент рассчитывает на благоразумие организаторов акции протеста, добавила она.
+1	Президент	_	_	_	_	_	_	_	bratT35=Person-property
+2	рассчитывает	_	_	_	_	_	_	_	_
+3	на	_	_	_	_	_	_	_	_
+4	благоразумие	_	_	_	_	_	_	_	_
+5	организаторов	_	_	_	_	_	_	_	bratT48=Person-property
+6	акции	_	_	_	_	_	_	_	bratT48=Person-property
+7	протеста	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Person-property
+8	,	_	_	_	_	_	_	_	_
+9	добавила	_	_	_	_	_	_	_	_
+10	она	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p6
+# par_text = Среди участников акции протеста был младший сын экс-президента Киргизии Алмазбека Атамбаева - Кадыр. Атамбаев находится в СИЗО по обвинению в коррупции. Демонстранты сообщили, что намерены идти к СИЗО спецслужбы, чтобы освободить бывшего главу государства.
+# sent_id = 0080-p6-s1
+# text = Среди участников акции протеста был младший сын экс-президента Киргизии Алмазбека Атамбаева - Кадыр.
+1	Среди	_	_	_	_	_	_	_	_
+2	участников	_	_	_	_	_	_	_	_
+3	акции	_	_	_	_	_	_	_	bratT37=Event
+4	протеста	_	_	_	_	_	_	_	bratT37=Event
+5	был	_	_	_	_	_	_	_	_
+6	младший	_	_	_	_	_	_	_	bratA10=T41:Male|bratT38=Family|bratT41=Person
+7	сын	_	_	_	_	_	_	_	bratA10=T41:Male|bratT38=Family|bratT41=Person
+8	экс-президента	_	_	_	_	_	_	_	bratA10=T41:Male|bratA11=T49:Male|bratT39=Person-property|bratT41=Person|bratT49=Person
+9	Киргизии	_	_	_	_	_	_	_	bratA10=T41:Male|bratA11=T49:Male|bratT39=Person-property|bratT40=GPE|bratT41=Person|bratT49=Person
+10	Алмазбека	_	_	_	_	_	_	_	bratA10=T41:Male|bratA11=T49:Male|bratT41=Person|bratT49=Person|bratT62=Person-forename
+11	Атамбаева	_	_	_	_	_	_	_	bratA10=T41:Male|bratA11=T49:Male|bratT41=Person|bratT49=Person|bratT63=Person-surname
+12	-	_	_	_	_	_	_	_	bratA10=T41:Male|bratT41=Person
+13	Кадыр	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T41:Male|bratT41=Person|bratT64=Person-forename
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p6-s2
+# text = Атамбаев находится в СИЗО по обвинению в коррупции.
+1	Атамбаев	_	_	_	_	_	_	_	bratA12=T42:Male|bratT42=Person|bratT65=Person-surname
+2	находится	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	СИЗО	_	_	_	_	_	_	_	_
+5	по	_	_	_	_	_	_	_	_
+6	обвинению	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	коррупции	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p6-s3
+# text = Демонстранты сообщили, что намерены идти к СИЗО спецслужбы, чтобы освободить бывшего главу государства.
+1	Демонстранты	_	_	_	_	_	_	_	bratT44=Other-group
+2	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	что	_	_	_	_	_	_	_	_
+5	намерены	_	_	_	_	_	_	_	_
+6	идти	_	_	_	_	_	_	_	_
+7	к	_	_	_	_	_	_	_	_
+8	СИЗО	_	_	_	_	_	_	_	bratT45=Facility
+9	спецслужбы	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Facility|bratT68=Organization
+10	,	_	_	_	_	_	_	_	_
+11	чтобы	_	_	_	_	_	_	_	_
+12	освободить	_	_	_	_	_	_	_	_
+13	бывшего	_	_	_	_	_	_	_	bratT46=Person-property
+14	главу	_	_	_	_	_	_	_	bratT46=Person-property
+15	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property|bratT67=GPE
+16	.	_	_	_	_	_	_	_	_
+

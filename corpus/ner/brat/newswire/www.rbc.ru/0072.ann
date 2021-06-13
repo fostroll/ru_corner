@@ -1,0 +1,43 @@
+T1	Person-forename 18 24	Никола
+T2	Person-surname 27 35	Пашиняна
+T3	Person 18 35	Никола   Пашиняна
+A1	Male T3
+T5	GPE 163 182	Нагорном   Карабахе
+T6	GPE 247 254	Армении
+T7	Date-absolute 69 101	После   подписания   10   ноября
+A3	Past T7
+T8	Event 284 305	политический   кризис
+T9	GPE 374 380	Москвы
+T10	GPE 387 391	Баку
+T11	GPE 398 405	Еревана
+T12	GPE 416 435	армянской   столице
+T13	Organization 482 495	правительства
+T14	Organization 502 512	парламента
+T15	Facility 473 512	здания   правительства   и   парламента
+A4	Plural T15
+T16	Organization 538 562	Национального   собрания
+T17	Person-property 528 562	спикера   Национального   собрания
+T18	Person-forename 565 572	Арарата
+T19	Person-surname 575 583	Мирзояна
+T20	Person 528 583	спикера   Национального   собрания   Арарата   Мирзояна
+A5	Male T20
+T21	Organization 598 637	правящей   партии   ``   Мой   шаг   ''
+T22	Person-property 590 637	члены   правящей   партии   ``   Мой   шаг   ''
+T23	Time-absolute 310 318	В   ночь
+T24	Date-relative 729 734	Затем
+T25	Person-property 749 758	депутатов
+T26	Quantity 737 758	несколько   депутатов
+T27	GPE 822 829	Армении
+T28	Organization 865 878	правительства
+T29	Person-property 857 878	члены   правительства
+T30	Quantity 848 862	другие   члены
+T31	Organization 816 829	МИД   Армении
+T32	Person-property 808 829	глава   МИД   Армении
+T33	Date-relative 310 318	В   ночь
+A6	Past T33
+T34	GPE 416 425	армянской
+A7	Adjective T34
+T4	Quantity 104 118	трехстороннего
+A2	Past T24
+T35	Event 790 798	отставку
+T36	GPE 265 271	стране

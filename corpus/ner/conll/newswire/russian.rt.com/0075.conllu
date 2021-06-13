@@ -34,12 +34,15 @@
 14	число	_	_	_	_	_	_	_	_
 15	пациентов	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
-17	COVID-19	_	_	_	_	_	_	_	bratT21=Other-term
-18	достигло	_	_	_	_	_	_	_	_
-19	1	_	_	_	_	_	_	_	bratT22=Quantity
-20	431	_	_	_	_	_	_	_	bratT22=Quantity
-21	795	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
-22	.	_	_	_	_	_	_	_	_
+17-19	COVID-19	_	_	_	_	_	_	_	_
+17	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
+18	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
+19	19	_	_	_	_	_	_	_	bratT21=Other-term|bratT29=Cardinal
+20	достигло	_	_	_	_	_	_	_	_
+21	1	_	_	_	_	_	_	_	bratT22=Quantity
+22	431	_	_	_	_	_	_	_	bratT22=Quantity
+23	795	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0075-p3
 # par_text = Об этом сообщает Rai News со ссылкой на Министерство здравоохранения страны.
@@ -55,7 +58,7 @@
 8	на	_	_	_	_	_	_	_	_
 9	Министерство	_	_	_	_	_	_	_	bratT6=Organization
 10	здравоохранения	_	_	_	_	_	_	_	bratT6=Organization
-11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE|bratT6=Organization
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0075-p4
@@ -95,17 +98,20 @@
 9	в	_	_	_	_	_	_	_	_
 10	беседе	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
-12	kp.ru	_	_	_	_	_	_	_	bratA2=T15:Media|bratT15=Organization
-13	рассказала	_	_	_	_	_	_	_	_
-14	о	_	_	_	_	_	_	_	_
-15	``	_	_	_	_	_	_	_	SpaceAfter=No
-16	скрытых	_	_	_	_	_	_	_	_
-17	угрозах	_	_	_	_	_	_	_	SpaceAfter=No
-18	''	_	_	_	_	_	_	_	SpaceAfter=No
-19	,	_	_	_	_	_	_	_	_
-20	которые	_	_	_	_	_	_	_	_
-21	может	_	_	_	_	_	_	_	_
-22	нести	_	_	_	_	_	_	_	_
-23	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
-24	.	_	_	_	_	_	_	_	_
+12-14	kp.ru	_	_	_	_	_	_	_	_
+12	kp	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization|bratT30=Web-address
+13	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization|bratT30=Web-address
+14	ru	_	_	_	_	_	_	_	bratA2=T15:Media|bratT15=Organization|bratT30=Web-address
+15	рассказала	_	_	_	_	_	_	_	_
+16	о	_	_	_	_	_	_	_	_
+17	``	_	_	_	_	_	_	_	SpaceAfter=No
+18	скрытых	_	_	_	_	_	_	_	_
+19	угрозах	_	_	_	_	_	_	_	SpaceAfter=No
+20	''	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	которые	_	_	_	_	_	_	_	_
+23	может	_	_	_	_	_	_	_	_
+24	нести	_	_	_	_	_	_	_	_
+25	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+26	.	_	_	_	_	_	_	_	_
 

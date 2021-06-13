@@ -1,0 +1,68 @@
+T1	Person 0 8	Мишустин
+T2	Money 27 51	почти   62   млрд   руб.
+T3	Age 74 103	детей   от   3   до   7   лет
+T4	Organization 105 127	Правительство   России
+T5	GPE 121 127	России
+T6	Money 141 165	еще   61,8   млрд   руб.
+T7	Age 213 248	детей   от   трех   до   семи   лет
+T8	Person 297 332	премьер-министр   Михаил   Мишустин
+T9	Service 357 362	сайте
+A1	Media T9
+T10	Person-property 297 312	премьер-министр
+T11	Quantity 582 591	4,2   млн
+T12	Date-absolute 597 608	В   октябре
+T13	Person 611 619	Мишустин
+T14	Money 664 689	более   8,8   млрд   руб.
+T15	Date-absolute 740 764	В   январе   2020   года
+T16	Person 767 804	президент   России   Владимир   Путин
+T17	Person-property 767 785	президент   России
+T18	GPE 779 785	России
+T19	Organization 831 854	Федеральному   собранию
+T20	Event 820 828	послания
+T21	Age 911 945	детей   с   трех   до   семи   лет
+T22	Date-period-absolute 998 1010	с   1   июня
+T23	Percent 1048 1052	50 %
+T24	Money 1100 1125	около   5,5   тыс.   руб.
+T25	Time-period 1128 1137	в   месяц
+T26	Organization 1188 1201	правительство
+T27	Date-absolute 1206 1225	С   начала   ноября
+T28	GPE 1549 1555	Москве
+T29	Person-surname 0 8	Мишустин
+A2	Male T1
+T30	Time-period 185 196	ежемесячных
+T31	Person-forename 315 321	Михаил
+T32	Person-surname 324 332	Мишустин
+A3	Male T8
+T33	Organization 365 385	кабинета   министров
+T34	Person-property 376 385	министров
+A4	Past T12
+A5	Past T15
+T35	Person-surname 611 619	Мишустин
+A6	Male T13
+T36	Age 729 734	детей
+T37	Time-period 882 893	ежемесячные
+T39	Family 967 972	семей
+T40	Age 489 494	детей
+T41	Family 507 515	родители
+A7	Past-Pres T22
+A8	RCont T22
+T38	Age 1086 1093	ребенка
+A9	Past T27
+T42	Age 1276 1281	детей
+T43	Date-relative 1485 1495	До   этого
+A10	Past T43
+T44	Nationality 1580 1589	москвичам
+A11	Resident T44
+T45	Person-forename 788 796	Владимир
+T46	Person-surname 799 804	Путин
+A12	Male T16
+T47	Duration 1132 1137	месяц
+T48	Date-absolute 807 828	во   время   послания
+A13	Past T48
+T49	Date-period-relative 1286 1292	Теперь
+A14	Pres-Fut T49
+T50	Duration 185 196	ежемесячных
+T51	Duration 882 893	ежемесячные
+T52	Organization 1228 1234	власти
+T53	Nationality 1295 1303	граждане
+A15	Citizenship T53

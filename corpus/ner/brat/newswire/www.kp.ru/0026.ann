@@ -12,12 +12,10 @@ A1	Media T10
 T11	Organization 456 476	Союза   потребителей
 T12	Person-property 448 476	Глава   Союза   потребителей
 T13	Person 448 491	Глава   Союза   потребителей   Петр   Шелищ
-T14	Other-group 579 588	пациентов
 T15	Person-property 605 610	врачи
 T16	Other-term 635 646	коронавирус
 T17	Other-term 787 812	коронавирусную   инфекцию
 T18	Service 775 812	тест   на   коронавирусную   инфекцию
-T19	Other-group 849 857	пациенты
 T20	Other-term 882 885	ПЦР
 T21	Person-property 1000 1019	санитарных   врачей
 T22	Organization 1026 1042	Роспотребнадзора
@@ -52,3 +50,8 @@ A7	Male T25
 A8	Male T30
 A9	Female T33
 A10	Adjective T44
+T14	Product 1498 1553	национальной   системы   защиты   от   новых   инфекций
+A11	Project T14
+T19	GPE 1498 1510	национальной
+A12	Adjective T19
+T45	GPE 237 243	страны

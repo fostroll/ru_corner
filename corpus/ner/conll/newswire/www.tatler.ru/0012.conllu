@@ -1,0 +1,224 @@
+# newdoc id = 0012
+# newpar id = 0012-p1
+# par_text = В Монако прошел 71-й Бал Красного Креста
+# sent_id = 0012-p1-s1
+# text = В Монако прошел 71-й Бал Красного Креста
+1	В	_	_	_	_	_	_	_	_
+2	Монако	_	_	_	_	_	_	_	bratT1=GPE
+3	прошел	_	_	_	_	_	_	_	_
+4	71-й	_	_	_	_	_	_	_	bratT2=Ordinal|bratT3=Event
+5	Бал	_	_	_	_	_	_	_	bratT3=Event
+6	Красного	_	_	_	_	_	_	_	bratT3=Event|bratT4=Organization
+7	Креста	_	_	_	_	_	_	_	bratT3=Event|bratT4=Organization
+
+# newpar id = 0012-p2
+# par_text = Этим летом у княжеской семьи Монако много хлопот — помимо организации свадебных торжеств дочери принцессы Каролины Шарлотты Казираги и сына принцессы Стефании Луи Дюкре , монаршее семейство традиционно проводит в своих владениях Бал Красного Креста. Вчера он прошел уже в 71-й раз. Темой вечера стал океан, поэтому пространство было украшено волнами из 25 тысяч цветов с акцентами кораллового цвета — так организаторы хотели привлечь внимание к необходимости сохранения морской флоры. Гостей лично приветствовали хозяева праздника — князь Альбер II и княгиня Шарлен в зеленом платье Marchesa Notte с кейпом. Выбор неоднозначный, ведь бренд принадлежит бывшей жене опального Харви Вайнштейна Джорджине Чапман. После скандала 2017 года практически все знаменитые клиентки отказались от ее услуг. Княгиню эти вопросы не беспокоят. Она с королевским достоинством приветствовала гостей, а потом по традиции исполнила с мужем медленный танец. Закончился праздник эффектным фейерверком.
+# sent_id = 0012-p2-s1
+# text = Этим летом у княжеской семьи Монако много хлопот - помимо организации свадебных торжеств дочери принцессы Каролины Шарлотты Казираги и сына принцессы Стефании Луи Дюкре, монаршее семейство традиционно проводит в своих владениях Бал Красного Креста.
+1	Этим	_	_	_	_	_	_	_	bratA1=T6:UNK-Fut|bratT5=Ordinal|bratT6=Date-period-absolute
+2	летом	_	_	_	_	_	_	_	bratA1=T6:UNK-Fut|bratT6=Date-period-absolute
+3	у	_	_	_	_	_	_	_	_
+4	княжеской	_	_	_	_	_	_	_	bratT81=Organization
+5	семьи	_	_	_	_	_	_	_	bratT8=Family|bratT81=Organization
+6	Монако	_	_	_	_	_	_	_	bratT7=GPE|bratT81=Organization
+7	много	_	_	_	_	_	_	_	bratT9=Quantity
+8	хлопот	_	_	_	_	_	_	_	bratT9=Quantity
+9	-	_	_	_	_	_	_	_	_
+10	помимо	_	_	_	_	_	_	_	_
+11	организации	_	_	_	_	_	_	_	_
+12	свадебных	_	_	_	_	_	_	_	_
+13	торжеств	_	_	_	_	_	_	_	_
+14	дочери	_	_	_	_	_	_	_	bratA3=T15:Female|bratT14=Family|bratT15=Person
+15	принцессы	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT12=Person-property|bratT13=Person|bratT15=Person
+16	Каролины	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT10=Person-forename|bratT13=Person|bratT15=Person
+17	Шарлотты	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT10=Person-forename|bratT13=Person|bratT15=Person
+18	Казираги	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT11=Person-surname|bratT13=Person|bratT15=Person
+19	и	_	_	_	_	_	_	_	_
+20	сына	_	_	_	_	_	_	_	bratA5=T21:Male|bratT16=Family|bratT21=Person
+21	принцессы	_	_	_	_	_	_	_	bratA4=T20:Female|bratA5=T21:Male|bratT19=Person-property|bratT20=Person|bratT21=Person
+22	Стефании	_	_	_	_	_	_	_	bratA4=T20:Female|bratA5=T21:Male|bratT17=Person-forename|bratT20=Person|bratT21=Person
+23	Луи	_	_	_	_	_	_	_	bratA4=T20:Female|bratA5=T21:Male|bratT17=Person-forename|bratT20=Person|bratT21=Person
+24	Дюкре	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T20:Female|bratA5=T21:Male|bratT18=Person-surname|bratT20=Person|bratT21=Person
+25	,	_	_	_	_	_	_	_	_
+26	монаршее	_	_	_	_	_	_	_	bratT22=Family
+27	семейство	_	_	_	_	_	_	_	bratT22=Family
+28	традиционно	_	_	_	_	_	_	_	_
+29	проводит	_	_	_	_	_	_	_	_
+30	в	_	_	_	_	_	_	_	_
+31	своих	_	_	_	_	_	_	_	_
+32	владениях	_	_	_	_	_	_	_	_
+33	Бал	_	_	_	_	_	_	_	bratT23=Event
+34	Красного	_	_	_	_	_	_	_	bratT23=Event|bratT24=Organization
+35	Креста	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event|bratT24=Organization
+36	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s2
+# text = Вчера он прошел уже в 71-й раз.
+1	Вчера	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute
+2	он	_	_	_	_	_	_	_	_
+3	прошел	_	_	_	_	_	_	_	_
+4	уже	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	71-й	_	_	_	_	_	_	_	bratT26=Ordinal
+7	раз	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s3
+# text = Темой вечера стал океан, поэтому пространство было украшено волнами из 25 тысяч цветов с акцентами кораллового цвета - так организаторы хотели привлечь внимание к необходимости сохранения морской флоры.
+1	Темой	_	_	_	_	_	_	_	_
+2	вечера	_	_	_	_	_	_	_	bratT80=Event
+3	стал	_	_	_	_	_	_	_	_
+4	океан	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	поэтому	_	_	_	_	_	_	_	_
+7	пространство	_	_	_	_	_	_	_	_
+8	было	_	_	_	_	_	_	_	_
+9	украшено	_	_	_	_	_	_	_	_
+10	волнами	_	_	_	_	_	_	_	_
+11	из	_	_	_	_	_	_	_	_
+12	25	_	_	_	_	_	_	_	bratT27=Quantity
+13	тысяч	_	_	_	_	_	_	_	bratT27=Quantity
+14	цветов	_	_	_	_	_	_	_	bratT27=Quantity
+15	с	_	_	_	_	_	_	_	_
+16	акцентами	_	_	_	_	_	_	_	_
+17	кораллового	_	_	_	_	_	_	_	_
+18	цвета	_	_	_	_	_	_	_	_
+19	-	_	_	_	_	_	_	_	_
+20	так	_	_	_	_	_	_	_	_
+21	организаторы	_	_	_	_	_	_	_	bratT28=Person-property
+22	хотели	_	_	_	_	_	_	_	_
+23	привлечь	_	_	_	_	_	_	_	_
+24	внимание	_	_	_	_	_	_	_	_
+25	к	_	_	_	_	_	_	_	_
+26	необходимости	_	_	_	_	_	_	_	_
+27	сохранения	_	_	_	_	_	_	_	_
+28	морской	_	_	_	_	_	_	_	_
+29	флоры	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s4
+# text = Гостей лично приветствовали хозяева праздника - князь Альбер II и княгиня Шарлен в зеленом платье Marchesa Notte с кейпом.
+1	Гостей	_	_	_	_	_	_	_	bratT29=Other-group
+2	лично	_	_	_	_	_	_	_	_
+3	приветствовали	_	_	_	_	_	_	_	_
+4	хозяева	_	_	_	_	_	_	_	_
+5	праздника	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_
+7	князь	_	_	_	_	_	_	_	bratA7=T32:Male|bratT31=Person-property|bratT32=Person
+8	Альбер	_	_	_	_	_	_	_	bratA7=T32:Male|bratT30=Person-forename|bratT32=Person
+9	II	_	_	_	_	_	_	_	bratA7=T32:Male|bratT32=Person|bratT77=Person-affix|bratT78=Ordinal
+10	и	_	_	_	_	_	_	_	_
+11	княгиня	_	_	_	_	_	_	_	bratA8=T34:Female|bratT34=Person|bratT35=Person-property
+12	Шарлен	_	_	_	_	_	_	_	bratA8=T34:Female|bratT33=Person-forename|bratT34=Person
+13	в	_	_	_	_	_	_	_	_
+14	зеленом	_	_	_	_	_	_	_	_
+15	платье	_	_	_	_	_	_	_	bratT37=Product
+16	Marchesa	_	_	_	_	_	_	_	bratT37=Product
+17	Notte	_	_	_	_	_	_	_	bratT37=Product
+18	с	_	_	_	_	_	_	_	_
+19	кейпом	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s5
+# text = Выбор неоднозначный, ведь бренд принадлежит бывшей жене опального Харви Вайнштейна Джорджине Чапман.
+1	Выбор	_	_	_	_	_	_	_	_
+2	неоднозначный	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	ведь	_	_	_	_	_	_	_	_
+5	бренд	_	_	_	_	_	_	_	_
+6	принадлежит	_	_	_	_	_	_	_	_
+7	бывшей	_	_	_	_	_	_	_	bratA12=T45:Female|bratT44=Family|bratT45=Person
+8	жене	_	_	_	_	_	_	_	bratA12=T45:Female|bratT44=Family|bratT45=Person
+9	опального	_	_	_	_	_	_	_	bratA12=T45:Female|bratT45=Person
+10	Харви	_	_	_	_	_	_	_	bratA11=T41:Male|bratA12=T45:Female|bratT39=Person-forename|bratT41=Person|bratT45=Person
+11	Вайнштейна	_	_	_	_	_	_	_	bratA11=T41:Male|bratA12=T45:Female|bratT40=Person-surname|bratT41=Person|bratT45=Person
+12	Джорджине	_	_	_	_	_	_	_	bratA12=T45:Female|bratT42=Person-forename|bratT45=Person
+13	Чапман	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T45:Female|bratT43=Person-surname|bratT45=Person
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s6
+# text = После скандала 2017 года практически все знаменитые клиентки отказались от ее услуг.
+1	После	_	_	_	_	_	_	_	bratA13=T46:Past|bratT46=Date-absolute
+2	скандала	_	_	_	_	_	_	_	bratA13=T46:Past|bratT36=Event|bratT46=Date-absolute
+3	2017	_	_	_	_	_	_	_	bratA13=T46:Past|bratA9=T75:Past|bratT36=Event|bratT46=Date-absolute|bratT75=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA13=T46:Past|bratA9=T75:Past|bratT36=Event|bratT46=Date-absolute|bratT75=Date-absolute
+5	практически	_	_	_	_	_	_	_	_
+6	все	_	_	_	_	_	_	_	_
+7	знаменитые	_	_	_	_	_	_	_	bratT47=Other-group
+8	клиентки	_	_	_	_	_	_	_	bratT47=Other-group
+9	отказались	_	_	_	_	_	_	_	_
+10	от	_	_	_	_	_	_	_	_
+11	ее	_	_	_	_	_	_	_	_
+12	услуг	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s7
+# text = Княгиню эти вопросы не беспокоят.
+1	Княгиню	_	_	_	_	_	_	_	bratT48=Person-property
+2	эти	_	_	_	_	_	_	_	_
+3	вопросы	_	_	_	_	_	_	_	_
+4	не	_	_	_	_	_	_	_	_
+5	беспокоят	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s8
+# text = Она с королевским достоинством приветствовала гостей, а потом по традиции исполнила с мужем медленный танец.
+1	Она	_	_	_	_	_	_	_	_
+2	с	_	_	_	_	_	_	_	_
+3	королевским	_	_	_	_	_	_	_	_
+4	достоинством	_	_	_	_	_	_	_	_
+5	приветствовала	_	_	_	_	_	_	_	_
+6	гостей	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Other-group
+7	,	_	_	_	_	_	_	_	_
+8	а	_	_	_	_	_	_	_	_
+9	потом	_	_	_	_	_	_	_	bratA21=T50:Past|bratT50=Date-relative
+10	по	_	_	_	_	_	_	_	_
+11	традиции	_	_	_	_	_	_	_	_
+12	исполнила	_	_	_	_	_	_	_	_
+13	с	_	_	_	_	_	_	_	_
+14	мужем	_	_	_	_	_	_	_	bratT51=Family
+15	медленный	_	_	_	_	_	_	_	_
+16	танец	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0012-p2-s8
+# text = Закончился праздник эффектным фейерверком.
+1	Закончился	_	_	_	_	_	_	_	_
+2	праздник	_	_	_	_	_	_	_	_
+3	эффектным	_	_	_	_	_	_	_	_
+4	фейерверком	_	_	_	_	_	_	_	SpaceAfter=No
+5	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0012-p3
+# par_text = Среди гостей Альбера и Шарлен в этот вечер оказались музыкант Джон Ледженд, баскетболист Тони Паркер, певица Ширли Бэсси, актриса Карин Виар и многие другие.
+# sent_id = 0012-p3-s1
+# text = Среди гостей Альбера и Шарлен в этот вечер оказались музыкант Джон Ледженд, баскетболист Тони Паркер, певица Ширли Бэсси, актриса Карин Виар и многие другие.
+1	Среди	_	_	_	_	_	_	_	_
+2	гостей	_	_	_	_	_	_	_	bratT56=Other-group
+3	Альбера	_	_	_	_	_	_	_	bratA14=T53:Male|bratT52=Person-forename|bratT53=Person|bratT56=Other-group
+4	и	_	_	_	_	_	_	_	bratT56=Other-group
+5	Шарлен	_	_	_	_	_	_	_	bratA15=T54:Female|bratT54=Person|bratT55=Person-forename|bratT56=Other-group
+6	в	_	_	_	_	_	_	_	bratA16=T58:Past|bratT58=Date-relative
+7	этот	_	_	_	_	_	_	_	bratA16=T58:Past|bratT57=Ordinal|bratT58=Date-relative
+8	вечер	_	_	_	_	_	_	_	bratA16=T58:Past|bratT58=Date-relative|bratT79=Event
+9	оказались	_	_	_	_	_	_	_	_
+10	музыкант	_	_	_	_	_	_	_	bratA17=T62:Male|bratT61=Person-property|bratT62=Person
+11	Джон	_	_	_	_	_	_	_	bratA17=T62:Male|bratT59=Person-forename|bratT62=Person
+12	Ледженд	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T62:Male|bratT60=Person-surname|bratT62=Person
+13	,	_	_	_	_	_	_	_	_
+14	баскетболист	_	_	_	_	_	_	_	bratA18=T66:Male|bratT63=Person-property|bratT66=Person
+15	Тони	_	_	_	_	_	_	_	bratA18=T66:Male|bratT64=Person-forename|bratT66=Person
+16	Паркер	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T66:Male|bratT65=Person-surname|bratT66=Person
+17	,	_	_	_	_	_	_	_	_
+18	певица	_	_	_	_	_	_	_	bratA19=T70:Female|bratT67=Person-property|bratT70=Person
+19	Ширли	_	_	_	_	_	_	_	bratA19=T70:Female|bratT68=Person-forename|bratT70=Person
+20	Бэсси	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T70:Female|bratT69=Person-surname|bratT70=Person
+21	,	_	_	_	_	_	_	_	_
+22	актриса	_	_	_	_	_	_	_	bratA20=T74:Female|bratT71=Person-property|bratT74=Person
+23	Карин	_	_	_	_	_	_	_	bratA20=T74:Female|bratT72=Person-forename|bratT74=Person
+24	Виар	_	_	_	_	_	_	_	bratA20=T74:Female|bratT73=Person-surname|bratT74=Person
+25	и	_	_	_	_	_	_	_	_
+26	многие	_	_	_	_	_	_	_	_
+27	другие	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
+

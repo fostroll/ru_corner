@@ -9,7 +9,7 @@
 4	из-за	_	_	_	_	_	_	_	_
 5	результатов	_	_	_	_	_	_	_	_
 6	выборов	_	_	_	_	_	_	_	bratT2=Event
-7	в	_	_	_	_	_	_	_	bratT3=Quantity
+7	в	_	_	_	_	_	_	_	_
 8	еще	_	_	_	_	_	_	_	bratT3=Quantity
 9	одном	_	_	_	_	_	_	_	bratT3=Quantity
 10	штате	_	_	_	_	_	_	_	bratT3=Quantity
@@ -24,7 +24,7 @@
 4	из-за	_	_	_	_	_	_	_	_
 5	результатов	_	_	_	_	_	_	_	_
 6	выборов	_	_	_	_	_	_	_	bratT5=Event
-7	в	_	_	_	_	_	_	_	bratT6=Quantity
+7	в	_	_	_	_	_	_	_	_
 8	еще	_	_	_	_	_	_	_	bratT6=Quantity
 9	одном	_	_	_	_	_	_	_	bratT6=Quantity
 10	штате	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Quantity
@@ -57,7 +57,7 @@
 3	видно	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	как	_	_	_	_	_	_	_	_
-6	люди	_	_	_	_	_	_	_	_
+6	люди	_	_	_	_	_	_	_	bratT68=Person
 7	поднимают	_	_	_	_	_	_	_	_
 8	руки	_	_	_	_	_	_	_	_
 9	вверх	_	_	_	_	_	_	_	_
@@ -66,7 +66,7 @@
 12	:	_	_	_	_	_	_	_	_
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	Остановите	_	_	_	_	_	_	_	_
-15	подсчет	_	_	_	_	_	_	_	SpaceAfter=No
+15	подсчет	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	.	_	_	_	_	_	_	_	_
 
@@ -90,8 +90,8 @@
 5	в	_	_	_	_	_	_	_	_
 6	котором	_	_	_	_	_	_	_	_
 7	происходит	_	_	_	_	_	_	_	_
-8	подсчет	_	_	_	_	_	_	_	_
-9	голосов	_	_	_	_	_	_	_	SpaceAfter=No
+8	подсчет	_	_	_	_	_	_	_	bratT60=Event
+9	голосов	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event
 10	,	_	_	_	_	_	_	_	_
 11	стоят	_	_	_	_	_	_	_	_
 12	полицейские	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person-property
@@ -117,9 +117,9 @@
 7	подал	_	_	_	_	_	_	_	_
 8	иск	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
-10	приостановке	_	_	_	_	_	_	_	_
-11	подсчета	_	_	_	_	_	_	_	bratT49=Event
-12	голосов	_	_	_	_	_	_	_	bratT49=Event
+10	приостановке	_	_	_	_	_	_	_	bratT63=Event
+11	подсчета	_	_	_	_	_	_	_	bratT49=Event|bratT63=Event
+12	голосов	_	_	_	_	_	_	_	bratT49=Event|bratT63=Event
 13	в	_	_	_	_	_	_	_	_
 14	Мичигане	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=GPE
 15	.	_	_	_	_	_	_	_	_
@@ -178,8 +178,8 @@
 # sent_id = 0020-p6-s1
 # text = Официально подсчет голосов еще не завершен, во многих штатах разница между претендентами на пост президента составляет десятые доли процента.
 1	Официально	_	_	_	_	_	_	_	_
-2	подсчет	_	_	_	_	_	_	_	_
-3	голосов	_	_	_	_	_	_	_	_
+2	подсчет	_	_	_	_	_	_	_	bratT62=Event
+3	голосов	_	_	_	_	_	_	_	bratT62=Event
 4	еще	_	_	_	_	_	_	_	_
 5	не	_	_	_	_	_	_	_	_
 6	завершен	_	_	_	_	_	_	_	SpaceAfter=No
@@ -189,10 +189,10 @@
 10	штатах	_	_	_	_	_	_	_	_
 11	разница	_	_	_	_	_	_	_	_
 12	между	_	_	_	_	_	_	_	_
-13	претендентами	_	_	_	_	_	_	_	bratT25=Person-property
-14	на	_	_	_	_	_	_	_	bratT25=Person-property
-15	пост	_	_	_	_	_	_	_	bratT25=Person-property
-16	президента	_	_	_	_	_	_	_	bratT25=Person-property
+13	претендентами	_	_	_	_	_	_	_	bratT25=Person-property|bratT65=Person
+14	на	_	_	_	_	_	_	_	bratT25=Person-property|bratT65=Person
+15	пост	_	_	_	_	_	_	_	bratT25=Person-property|bratT65=Person
+16	президента	_	_	_	_	_	_	_	bratT25=Person-property|bratT65=Person
 17	составляет	_	_	_	_	_	_	_	_
 18	десятые	_	_	_	_	_	_	_	bratT26=Percent
 19	доли	_	_	_	_	_	_	_	bratT26=Percent
@@ -207,7 +207,7 @@
 4	Байдена	_	_	_	_	_	_	_	bratA10=T23:Male|bratT23=Person|bratT56=Person-surname
 5	264	_	_	_	_	_	_	_	bratT27=Quantity
 6	голоса	_	_	_	_	_	_	_	bratT27=Quantity
-7	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+7	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property|bratT66=Person
 8	,	_	_	_	_	_	_	_	_
 9	а	_	_	_	_	_	_	_	_
 10	у	_	_	_	_	_	_	_	_
@@ -267,7 +267,7 @@
 
 # sent_id = 0020-p7-s2
 # text = Граждане выбирают президента и вице-президента, также будут избраны 35 сенаторов, вся палата представителей, 13 губернаторов и представители местных органов власти.
-1	Граждане	_	_	_	_	_	_	_	_
+1	Граждане	_	_	_	_	_	_	_	bratA14=T74:Citizenship|bratT74=Nationality
 2	выбирают	_	_	_	_	_	_	_	_
 3	президента	_	_	_	_	_	_	_	bratT41=Person-property
 4	и	_	_	_	_	_	_	_	_
@@ -286,9 +286,9 @@
 17	13	_	_	_	_	_	_	_	bratT39=Quantity
 18	губернаторов	_	_	_	_	_	_	_	bratT39=Quantity|bratT40=Person-property
 19	и	_	_	_	_	_	_	_	_
-20	представители	_	_	_	_	_	_	_	_
-21	местных	_	_	_	_	_	_	_	_
-22	органов	_	_	_	_	_	_	_	_
-23	власти	_	_	_	_	_	_	_	SpaceAfter=No
+20	представители	_	_	_	_	_	_	_	bratT67=Person-property
+21	местных	_	_	_	_	_	_	_	bratA15=T64:Adjective|bratT64=GPE|bratT67=Person-property|bratT73=Organization
+22	органов	_	_	_	_	_	_	_	bratT67=Person-property|bratT73=Organization
+23	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Person-property|bratT73=Organization
 24	.	_	_	_	_	_	_	_	_
 

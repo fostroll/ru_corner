@@ -1,0 +1,300 @@
+# newdoc id = 0104
+# newpar id = 0104-p1
+# par_text = СМИ узнали о планах «Зенита» вернуть Халка
+# sent_id = 0104-p1-s1
+# text = СМИ узнали о планах ``Зенита'' вернуть Халка
+1	СМИ	_	_	_	_	_	_	_	_
+2	узнали	_	_	_	_	_	_	_	_
+3	о	_	_	_	_	_	_	_	_
+4	планах	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+6	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+7	''	_	_	_	_	_	_	_	bratT1=Organization
+8	вернуть	_	_	_	_	_	_	_	_
+9	Халка	_	_	_	_	_	_	_	bratA1=T3:Male|bratT2=Person-alias|bratT3=Person
+
+# newpar id = 0104-p2
+# par_text = Бывший нападающий петербургского «Зенита» Халк может вернуться в команду. Об этом передает португальское издание A Bola.
+# sent_id = 0104-p2-s1
+# text = Бывший нападающий петербургского ``Зенита'' Халк может вернуться в команду.
+1	Бывший	_	_	_	_	_	_	_	bratA3=T8:Male|bratT6=Person-property|bratT8=Person
+2	нападающий	_	_	_	_	_	_	_	bratA3=T8:Male|bratT6=Person-property|bratT8=Person
+3	петербургского	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratA3=T8:Male|bratT5=GPE|bratT6=Person-property|bratT8=Person
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Male|bratT4=Organization|bratT6=Person-property|bratT8=Person
+5	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Male|bratT4=Organization|bratT6=Person-property|bratT8=Person
+6	''	_	_	_	_	_	_	_	bratA3=T8:Male|bratT4=Organization|bratT6=Person-property|bratT8=Person
+7	Халк	_	_	_	_	_	_	_	bratA27=T73:Male|bratA3=T8:Male|bratT7=Person-alias|bratT73=Person|bratT8=Person
+8	может	_	_	_	_	_	_	_	_
+9	вернуться	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	команду	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p2-s2
+# text = Об этом передает португальское издание A Bola.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	передает	_	_	_	_	_	_	_	_
+4	португальское	_	_	_	_	_	_	_	bratA4=T9:Adjective|bratA5=T10:Media|bratT10=Organization|bratT9=GPE
+5	издание	_	_	_	_	_	_	_	bratA5=T10:Media|bratT10=Organization
+6	A	_	_	_	_	_	_	_	bratA5=T10:Media|bratT10=Organization
+7	Bola	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Media|bratT10=Organization
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p3
+# par_text = Сообщается, что «Зенит» сделал Халку, ныне выступающему за китайский клуб «Шанхай СИПГ», официальное предложение. Если 34-летний футболист его примет, его заплата в петербургском клубе составит €3 млн в год.
+# sent_id = 0104-p3-s1
+# text = Сообщается, что ``Зенит'' сделал Халку, ныне выступающему за китайский клуб ``Шанхай СИПГ'', официальное предложение.
+1	Сообщается	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	что	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+5	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+6	''	_	_	_	_	_	_	_	bratT11=Organization
+7	сделал	_	_	_	_	_	_	_	_
+8	Халку	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T72:Male|bratT12=Person-alias|bratT72=Person
+9	,	_	_	_	_	_	_	_	_
+10	ныне	_	_	_	_	_	_	_	bratA9=T15:Present|bratT15=Date-absolute
+11	выступающему	_	_	_	_	_	_	_	_
+12	за	_	_	_	_	_	_	_	_
+13	китайский	_	_	_	_	_	_	_	bratA6=T13:Adjective|bratT13=GPE|bratT14=Organization
+14	клуб	_	_	_	_	_	_	_	bratT14=Organization
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+16	Шанхай	_	_	_	_	_	_	_	bratT14=Organization
+17	СИПГ	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+19	,	_	_	_	_	_	_	_	_
+20	официальное	_	_	_	_	_	_	_	_
+21	предложение	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p3-s2
+# text = Если 34-летний футболист его примет, его заплата в петербургском клубе составит €3 млн в год.
+1	Если	_	_	_	_	_	_	_	_
+2	34-летний	_	_	_	_	_	_	_	bratT64=Age
+3	футболист	_	_	_	_	_	_	_	bratT65=Person-property
+4	его	_	_	_	_	_	_	_	_
+5	примет	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	его	_	_	_	_	_	_	_	_
+8	заплата	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	петербургском	_	_	_	_	_	_	_	bratA26=T66:Adjective|bratT66=GPE
+11	клубе	_	_	_	_	_	_	_	_
+12	составит	_	_	_	_	_	_	_	_
+13-14	€3	_	_	_	_	_	_	_	_
+13	€	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Money
+14	3	_	_	_	_	_	_	_	bratT22=Money
+15	млн	_	_	_	_	_	_	_	bratT22=Money
+16	в	_	_	_	_	_	_	_	bratT24=Time-period
+17	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Duration|bratT24=Time-period
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p4
+# par_text = Также в услугах Халка заинтересован «Порту». При этом предложение португальского клуба уступает «Зениту» в два раза (€1,5 млн в год).
+# sent_id = 0104-p4-s1
+# text = Также в услугах Халка заинтересован ``Порту''.
+1	Также	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	услугах	_	_	_	_	_	_	_	_
+4	Халка	_	_	_	_	_	_	_	bratA7=T17:Male|bratT16=Person-alias|bratT17=Person
+5	заинтересован	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+7	Порту	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT67=GPE
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p4-s2
+# text = При этом предложение португальского клуба уступает ``Зениту'' в два раза (€1,5 млн в год).
+1	При	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	предложение	_	_	_	_	_	_	_	_
+4	португальского	_	_	_	_	_	_	_	bratA8=T19:Adjective|bratT19=GPE
+5	клуба	_	_	_	_	_	_	_	_
+6	уступает	_	_	_	_	_	_	_	_
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+8	Зениту	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+9	''	_	_	_	_	_	_	_	bratT20=Organization
+10	в	_	_	_	_	_	_	_	bratT21=Quantity
+11	два	_	_	_	_	_	_	_	bratT21=Quantity
+12	раза	_	_	_	_	_	_	_	bratT21=Quantity
+13	(	_	_	_	_	_	_	_	SpaceAfter=No
+14-15	€1,5	_	_	_	_	_	_	_	_
+14	€	_	_	_	_	_	_	_	bratT25=Money
+15	1,5	_	_	_	_	_	_	_	bratT25=Money
+16	млн	_	_	_	_	_	_	_	bratT25=Money
+17	в	_	_	_	_	_	_	_	bratT26=Time-period
+18	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Time-period|bratT27=Duration
+19	)	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p5
+# par_text = РБК обратился за комментарием в пресс-службу ФК «Зенит».
+# sent_id = 0104-p5-s1
+# text = РБК обратился за комментарием в пресс-службу ФК ``Зенит''.
+1	РБК	_	_	_	_	_	_	_	bratA11=T28:Media|bratT28=Organization
+2	обратился	_	_	_	_	_	_	_	_
+3	за	_	_	_	_	_	_	_	_
+4	комментарием	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	пресс-службу	_	_	_	_	_	_	_	bratA12=T30:Department|bratT30=Organization
+7	ФК	_	_	_	_	_	_	_	bratA12=T30:Department|bratT29=Organization|bratT30=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T30:Department|bratT29=Organization|bratT30=Organization
+9	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T30:Department|bratT29=Organization|bratT30=Organization
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T30:Department|bratT29=Organization|bratT30=Organization
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p6
+# par_text = В июле Халк заявил, что не будет продлевать контракт с «Шанхай СИПГ», за который выступает уже более четырех лет. Действующее соглашение нападающего рассчитано до декабря 2020 года.
+# sent_id = 0104-p6-s1
+# text = В июле Халк заявил, что не будет продлевать контракт с ``Шанхай СИПГ'', за который выступает уже более четырех лет.
+1	В	_	_	_	_	_	_	_	bratA13=T31:Past|bratT31=Date-absolute
+2	июле	_	_	_	_	_	_	_	bratA13=T31:Past|bratT31=Date-absolute
+3	Халк	_	_	_	_	_	_	_	bratA14=T33:Male|bratT32=Person-alias|bratT33=Person
+4	заявил	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	что	_	_	_	_	_	_	_	_
+7	не	_	_	_	_	_	_	_	_
+8	будет	_	_	_	_	_	_	_	_
+9	продлевать	_	_	_	_	_	_	_	_
+10	контракт	_	_	_	_	_	_	_	_
+11	с	_	_	_	_	_	_	_	_
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+13	Шанхай	_	_	_	_	_	_	_	bratT34=Organization|bratT68=GPE
+14	СИПГ	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+16	,	_	_	_	_	_	_	_	_
+17	за	_	_	_	_	_	_	_	_
+18	который	_	_	_	_	_	_	_	_
+19	выступает	_	_	_	_	_	_	_	_
+20	уже	_	_	_	_	_	_	_	bratA15=T35:Past-Pres|bratA16=T35:RCont|bratT35=Date-period-absolute
+21	более	_	_	_	_	_	_	_	bratA15=T35:Past-Pres|bratA16=T35:RCont|bratT35=Date-period-absolute|bratT69=Duration
+22	четырех	_	_	_	_	_	_	_	bratA15=T35:Past-Pres|bratA16=T35:RCont|bratT35=Date-period-absolute|bratT69=Duration
+23	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T35:Past-Pres|bratA16=T35:RCont|bratT35=Date-period-absolute|bratT69=Duration
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p6-s2
+# text = Действующее соглашение нападающего рассчитано до декабря 2020 года.
+1	Действующее	_	_	_	_	_	_	_	_
+2	соглашение	_	_	_	_	_	_	_	_
+3	нападающего	_	_	_	_	_	_	_	bratT36=Person-property
+4	рассчитано	_	_	_	_	_	_	_	_
+5	до	_	_	_	_	_	_	_	bratA17=T37:Past-Fut|bratT37=Date-period-absolute
+6	декабря	_	_	_	_	_	_	_	bratA17=T37:Past-Fut|bratT37=Date-period-absolute
+7	2020	_	_	_	_	_	_	_	bratA17=T37:Past-Fut|bratT37=Date-period-absolute
+8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T37:Past-Fut|bratT37=Date-period-absolute
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p7
+# par_text = В июне 2016 года Халк перешел в «Шанхай СИПГ» из «Зенита». Сумма сделки составила €55 млн, что стало рекордным исходящим трансфером в истории российского первенства. Зарплата бразильского форварда в китайской команде составляет €16,6 млн в год. По этому показателю он занимает третье место среди всех футболистов чемпионата Китая.
+# sent_id = 0104-p7-s1
+# text = В июне 2016 года Халк перешел в ``Шанхай СИПГ'' из ``Зенита''.
+1	В	_	_	_	_	_	_	_	bratA18=T38:Past|bratT38=Date-absolute
+2	июне	_	_	_	_	_	_	_	bratA18=T38:Past|bratT38=Date-absolute
+3	2016	_	_	_	_	_	_	_	bratA18=T38:Past|bratT38=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA18=T38:Past|bratT38=Date-absolute
+5	Халк	_	_	_	_	_	_	_	bratA19=T40:Male|bratT39=Person-alias|bratT40=Person
+6	перешел	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
+9	Шанхай	_	_	_	_	_	_	_	bratT41=Organization
+10	СИПГ	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
+11	''	_	_	_	_	_	_	_	bratT41=Organization
+12	из	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+14	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p7-s2
+# text = Сумма сделки составила €55 млн, что стало рекордным исходящим трансфером в истории российского первенства.
+1	Сумма	_	_	_	_	_	_	_	_
+2	сделки	_	_	_	_	_	_	_	_
+3	составила	_	_	_	_	_	_	_	_
+4-5	€55	_	_	_	_	_	_	_	_
+4	€	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Money
+5	55	_	_	_	_	_	_	_	bratT43=Money
+6	млн	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Money
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	стало	_	_	_	_	_	_	_	_
+10	рекордным	_	_	_	_	_	_	_	_
+11	исходящим	_	_	_	_	_	_	_	_
+12	трансфером	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	истории	_	_	_	_	_	_	_	_
+15	российского	_	_	_	_	_	_	_	bratA20=T44:Adjective|bratT44=GPE|bratT71=Event
+16	первенства	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p7-s3
+# text = Зарплата бразильского форварда в китайской команде составляет €16,6 млн в год.
+1	Зарплата	_	_	_	_	_	_	_	_
+2	бразильского	_	_	_	_	_	_	_	bratA21=T45:Adjective|bratT45=GPE|bratT46=Person-property
+3	форварда	_	_	_	_	_	_	_	bratT46=Person-property
+4	в	_	_	_	_	_	_	_	_
+5	китайской	_	_	_	_	_	_	_	bratA22=T47:Adjective|bratT47=GPE
+6	команде	_	_	_	_	_	_	_	_
+7	составляет	_	_	_	_	_	_	_	_
+8-9	€16,6	_	_	_	_	_	_	_	_
+8	€	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Money
+9	16,6	_	_	_	_	_	_	_	bratT48=Money
+10	млн	_	_	_	_	_	_	_	bratT48=Money
+11	в	_	_	_	_	_	_	_	bratT49=Time-period
+12	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Time-period|bratT50=Duration
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p7-s4
+# text = По этому показателю он занимает третье место среди всех футболистов чемпионата Китая.
+1	По	_	_	_	_	_	_	_	_
+2	этому	_	_	_	_	_	_	_	_
+3	показателю	_	_	_	_	_	_	_	_
+4	он	_	_	_	_	_	_	_	_
+5	занимает	_	_	_	_	_	_	_	_
+6	третье	_	_	_	_	_	_	_	bratT51=Ordinal
+7	место	_	_	_	_	_	_	_	_
+8	среди	_	_	_	_	_	_	_	_
+9	всех	_	_	_	_	_	_	_	_
+10	футболистов	_	_	_	_	_	_	_	bratT52=Person-property
+11	чемпионата	_	_	_	_	_	_	_	bratT54=Event
+12	Китая	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=GPE|bratT54=Event
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0104-p8
+# par_text = В составе «Шанхай СИПГ» Халк выиграл китайскую Суперлигу и Суперкубок страны. В 142 матчах в составе клуба он забил 75 голов и сделал 54 результативные передачи.
+# sent_id = 0104-p8-s1
+# text = В составе ``Шанхай СИПГ'' Халк выиграл китайскую Суперлигу и Суперкубок страны.
+1	В	_	_	_	_	_	_	_	_
+2	составе	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
+4	Шанхай	_	_	_	_	_	_	_	bratT55=Organization|bratT70=GPE
+5	СИПГ	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
+6	''	_	_	_	_	_	_	_	bratT55=Organization
+7	Халк	_	_	_	_	_	_	_	bratA24=T57:Male|bratT56=Person-alias|bratT57=Person
+8	выиграл	_	_	_	_	_	_	_	_
+9	китайскую	_	_	_	_	_	_	_	bratA25=T58:Adjective|bratT58=GPE|bratT59=Event
+10	Суперлигу	_	_	_	_	_	_	_	bratT59=Event
+11	и	_	_	_	_	_	_	_	_
+12	Суперкубок	_	_	_	_	_	_	_	bratT60=Event
+13	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event|bratT74=GPE
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0104-p8-s2
+# text = В 142 матчах в составе клуба он забил 75 голов и сделал 54 результативные передачи.
+1	В	_	_	_	_	_	_	_	bratT61=Quantity
+2	142	_	_	_	_	_	_	_	bratT61=Quantity
+3	матчах	_	_	_	_	_	_	_	bratT61=Quantity
+4	в	_	_	_	_	_	_	_	_
+5	составе	_	_	_	_	_	_	_	_
+6	клуба	_	_	_	_	_	_	_	_
+7	он	_	_	_	_	_	_	_	_
+8	забил	_	_	_	_	_	_	_	_
+9	75	_	_	_	_	_	_	_	bratT62=Quantity
+10	голов	_	_	_	_	_	_	_	bratT62=Quantity
+11	и	_	_	_	_	_	_	_	_
+12	сделал	_	_	_	_	_	_	_	_
+13	54	_	_	_	_	_	_	_	bratT63=Quantity
+14	результативные	_	_	_	_	_	_	_	bratT63=Quantity
+15	передачи	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Quantity
+16	.	_	_	_	_	_	_	_	_
+

@@ -10,7 +10,10 @@
 5	выплатах	_	_	_	_	_	_	_	_
 6	работающим	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
-8	COVID-19	_	_	_	_	_	_	_	bratT2=Other-term
+8-10	COVID-19	_	_	_	_	_	_	_	_
+8	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
+9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
+10	19	_	_	_	_	_	_	_	bratT2=Other-term|bratT27=Cardinal
 
 # newpar id = 0023-p2
 # par_text = Российский премьер Михаил Мишустин подписал постановление о продлении до 31 декабря 2021 года выплат всем, кто оказывает или помогает оказывать помощь пациентам с коронавирусной инфекцией COVID-19.
@@ -42,8 +45,11 @@
 24	с	_	_	_	_	_	_	_	_
 25	коронавирусной	_	_	_	_	_	_	_	bratT17=Other-term
 26	инфекцией	_	_	_	_	_	_	_	bratT17=Other-term
-27	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
-28	.	_	_	_	_	_	_	_	_
+27-29	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+27	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
+28	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
+29	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT28=Cardinal
+30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0023-p3
 # par_text = Соответствующее постановление опубликовано на портале правовой информации.
@@ -82,8 +88,11 @@
 18	больными	_	_	_	_	_	_	_	_
 19	коронавирусной	_	_	_	_	_	_	_	bratT8=Other-term
 20	инфекцией	_	_	_	_	_	_	_	bratT8=Other-term
-21	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-term
-22	.	_	_	_	_	_	_	_	_
+21-23	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+21	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-term
+22	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-term
+23	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Cardinal|bratT8=Other-term
+24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0023-p5
 # par_text = Согласно данным оперштаба на 24 ноября, в России в течение суток выявили 24 326 случаев заболевания коронавирусной инфекцией COVID-19. Общее число подтверждённых эпизодов с начала эпидемии в стране достигло 2 138 828.
@@ -108,8 +117,11 @@
 17	заболевания	_	_	_	_	_	_	_	_
 18	коронавирусной	_	_	_	_	_	_	_	bratT12=Other-term
 19	инфекцией	_	_	_	_	_	_	_	bratT12=Other-term
-20	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
-21	.	_	_	_	_	_	_	_	_
+20-22	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
+22	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term|bratT30=Cardinal
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p5-s2
 # text = Общее число подтверждённых эпизодов с начала эпидемии в стране достигло 2 138 828.
@@ -121,7 +133,7 @@
 6	начала	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratT19=Date-period-absolute
 7	эпидемии	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratT18=Event|bratT19=Date-period-absolute
 8	в	_	_	_	_	_	_	_	_
-9	стране	_	_	_	_	_	_	_	_
+9	стране	_	_	_	_	_	_	_	bratT31=GPE
 10	достигло	_	_	_	_	_	_	_	_
 11	2	_	_	_	_	_	_	_	bratT13=Quantity
 12	138	_	_	_	_	_	_	_	bratT13=Quantity

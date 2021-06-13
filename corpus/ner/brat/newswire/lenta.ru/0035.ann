@@ -7,17 +7,17 @@ T7	Person 274 304	журналиста   Сергея   Соседова
 T8	Person-property 311 317	актера
 T9	Person 311 344	актера   Станислава   Садальского
 T10	Work-of-art 365 386	шоу   ``   Голос   ''
-T11	Organization 490 508	``   Ленте.ру   ''
-T12	Organization 587 603	Первого   канала
-T13	Work-of-art 986 1002	``   Голоса   ''
-T14	Person 1106 1114	Сурайкин
-T15	Person 1121 1128	Соседов
-T16	Person 1135 1145	Садальский
-T17	Person-property 1167 1198	ведущих   шоу   ``   Голос   ''
-T18	Work-of-art 1177 1198	шоу   ``   Голос   ''
-T19	Person-property 1229 1256	ведущего   Первого   канала
-T20	Organization 1240 1256	Первого   канала
-T22	Person 1325 1339	дочерью   Алсу
+T11	Organization 490 510	``   Ленте . ру   ''
+T12	Organization 589 605	Первого   канала
+T13	Work-of-art 988 1004	``   Голоса   ''
+T14	Person 1108 1116	Сурайкин
+T15	Person 1123 1130	Соседов
+T16	Person 1137 1147	Садальский
+T17	Person-property 1169 1200	ведущих   шоу   ``   Голос   ''
+T18	Work-of-art 1179 1200	шоу   ``   Голос   ''
+T19	Person-property 1231 1258	ведущего   Первого   канала
+T20	Organization 1242 1258	Первого   канала
+T22	Person 1327 1341	дочерью   Алсу
 T4	Person-property 187 245	председателя   ЦК   партии   ``   Коммунисты   России   ''
 T23	Organization 202 245	ЦК   партии   ``   Коммунисты   России   ''
 A1	Department T23
@@ -26,20 +26,20 @@ A2	Media T1
 A3	Media T3
 A4	Media T11
 A5	Media T12
-T26	Family 1325 1332	дочерью
+T26	Family 1327 1334	дочерью
 A6	Media T20
-T27	Organization 1459 1480	пресс-службе   канала
+T27	Organization 1461 1482	пресс-службе   канала
 A7	Department T27
-T28	Person 1335 1339	Алсу
+T28	Person 1337 1341	Алсу
 A8	Media T27
-T25	Family 1220 1226	дочери
-T29	Person 1220 1282	дочери   ведущего   Первого   канала   Александре   Будниковой
-T21	Family 1439 1444	детки
-T30	Ordinal 1240 1247	Первого
-T31	Ordinal 587 594	Первого
+T25	Family 1222 1228	дочери
+T29	Person 1222 1284	дочери   ведущего   Первого   канала   Александре   Будниковой
+T21	Family 1441 1446	детки
+T30	Ordinal 1242 1249	Первого
+T31	Ordinal 589 596	Первого
 T32	Ordinal 0 6	Первый
 T33	Ordinal 97 104	Первого
-T34	Date-relative 1148 1153	ранее
+T34	Date-relative 1150 1155	ранее
 A9	Past T34
 T35	Person-forename 248 255	Максима
 T36	Person-surname 258 267	Сурайкина
@@ -47,12 +47,12 @@ T37	Person-forename 287 293	Сергея
 T38	Person-surname 296 304	Соседова
 T39	Person-forename 320 330	Станислава
 T40	Person-surname 333 344	Садальского
-T41	Person-surname 1106 1114	Сурайкин
-T42	Person-surname 1121 1128	Соседов
-T43	Person-surname 1135 1145	Садальский
-T45	Person-forename 1259 1269	Александре
-T46	Person-forename 1335 1339	Алсу
-T44	Person-surname 1272 1282	Будниковой
+T41	Person-surname 1108 1116	Сурайкин
+T42	Person-surname 1123 1130	Соседов
+T43	Person-surname 1137 1147	Садальский
+T45	Person-forename 1261 1271	Александре
+T46	Person-forename 1337 1341	Алсу
+T44	Person-surname 1274 1284	Будниковой
 A10	Male T7
 A11	Male T9
 A12	Male T5
@@ -62,3 +62,16 @@ A15	Male T16
 A16	Female T29
 A17	Female T28
 A18	Female T22
+T47	Organization 530 542	пресс-службе
+A19	Department T47
+T48	Person-property 1083 1102	сотрудники   канала
+T49	Event 1387 1395	конкурсе
+T50	Person 1083 1102	сотрудники   канала
+T51	Person 1169 1200	ведущих   шоу   ``   Голос   ''
+T52	Person 1231 1258	ведущего   Первого   канала
+A20	Male T52
+T53	Organization 83 113	Руководство   Первого   канала
+A21	Department T53
+T54	Person-property 391 413	Представители   канала
+T55	Person 391 413	Представители   канала
+T56	Person 865 872	спикеры

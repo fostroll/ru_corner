@@ -1,0 +1,73 @@
+T1	Person 0 19	Алексей   Навальный
+T2	Product 66 84	``   Новичком   ''
+T3	Person 102 108	Путина
+T4	Person-property 110 133	Оппозиционный   политик
+T5	Organization 153 184	Фонда   борьбы   с   коррупцией
+T6	Organization 191 194	ФБК
+T7	Ordinal 233 239	первое
+T8	Person 110 220	Оппозиционный   политик   и   основатель   Фонда   борьбы   с   коррупцией   (   ФБК   )   Алексей   Навальный
+T9	Date-absolute 275 287	20   августа
+T10	GPE 335 341	Томске
+T11	Product 403 477	боевым   нервно-паралитическим   веществом   семейства   ``   Новичок   ''
+T12	GPE 500 506	России
+T13	Person-property 488 506	президент   России
+T14	Person 488 525	президент   России   Владимир   Путин
+T15	GPE 646 652	России
+T16	Person-property 634 652	президент   России
+T17	Person 634 671	президент   России   Владимир   Путин
+T18	Person 815 834	Алексей   Навальный
+T19	Person-property 1067 1074	Политик
+T20	GPE 1358 1364	Москва
+T21	GPE 1394 1400	Берлин
+T22	GPE 1486 1492	России
+T23	Nationality 1507 1529	российский   гражданин
+A1	Citizenship T23
+T24	GPE 1666 1673	Россией
+T25	GPE 1729 1735	России
+T26	GPE 1778 1784	России
+T27	Person 1982 2001	Алексей   Навальный
+T28	Organization 1947 1953	Кремле
+T29	Date-absolute 757 763	сейчас
+A2	Male T1
+T30	Person-forename 0 7	Алексей
+T31	Person-surname 10 19	Навальный
+A3	Male T3
+T32	Person-surname 102 108	Путина
+T33	Person-property 140 198	основатель   Фонда   борьбы   с   коррупцией   (   ФБК   )
+A4	Male T8
+T34	Person-forename 201 208	Алексей
+T35	Person-surname 211 220	Навальный
+A5	Past T9
+T36	Date-relative 250 272	после   того   ,   как
+A6	Past T36
+A7	Present T29
+A8	Male T17
+T37	Person-forename 655 663	Владимир
+T38	Person-surname 666 671	Путин
+A9	Male T14
+T39	Person-forename 509 517	Владимир
+T40	Person-surname 520 525	Путин
+A10	Male T18
+T41	Person-forename 815 822	Алексей
+T42	Person-surname 825 834	Навальный
+T43	GPE 1176 1186	Российские
+A11	Adjective T43
+T44	GPE 1507 1517	российский
+A12	Adjective T44
+T45	GPE 1614 1624	российском
+A13	Adjective T45
+A14	Male T27
+T46	Person-forename 1982 1989	Алексей
+T47	Person-surname 1992 2001	Навальный
+T48	GPE 1570 1580	российском
+A15	Adjective T48
+T49	Quantity 865 885	несколько   вопросов
+T50	Product 448 477	семейства   ``   Новичок   ''
+A16	Trademark T50
+T51	Organization 1176 1195	Российские   власти
+T52	Person 1067 1074	Политик
+A17	Male T52
+T53	Political-group 110 123	Оппозиционный
+A18	Adjective T53
+T54	GPE 1307 1321	из-за   рубежа
+T55	GPE 1570 1589	российском   городе

@@ -1,0 +1,56 @@
+T1	Person-forename 0 6	Хоакин
+T2	Person-surname 9 15	Феникс
+T3	Person 0 15	Хоакин   Феникс
+A1	Male T3
+T4	GPE 54 66	нью-йоркских
+A2	Adjective T4
+T5	Person-property 40 74	заключенных   нью-йоркских   тюрем
+T6	Other-term 96 108	коронавируса
+T7	Event 85 108	пандемии   коронавируса
+T8	Person-forename 110 116	Хоакин
+T9	Person-surname 119 125	Феникс
+T10	Person 110 125	Хоакин   Феникс
+A3	Male T10
+T11	Person-property 146 165	талантливый   актер
+T12	Person-property 181 189	активист
+T13	Date-relative 194 201	Недавно
+A4	Past T13
+T14	Person-property 285 296	заключенных
+T15	Other-term 347 359	коронавируса
+T16	Person-property 364 369	Актер
+T17	GPE 410 419	Нью-Йорка
+T18	Person-property 396 419	губернатору   Нью-Йорка
+T19	Person-forename 422 427	Эндрю
+T20	Person-surname 430 435	Куомо
+T21	Person 396 435	губернатору   Нью-Йорка   Эндрю   Куомо
+A5	Male T21
+T22	Person 459 465	Феникс
+A6	Male T22
+T23	Person-surname 459 465	Феникс
+T25	Age 642 649	пожилых
+T26	Event 713 762	кампании   Release   Aging   People   in   Prison
+T27	Service 702 710	твиттере
+A7	Media T27
+T28	Person-property 786 820	лауреат   премии   ``   Оскар   ''
+T29	Other-term 998 1008	COVID - 19
+T30	Organization 1033 1036	TMZ
+A8	Media T30
+T31	Person-forename 1052 1059	Хоакина
+T32	Person-surname 1062 1069	Феникса
+T33	Person 1052 1069	Хоакина   Феникса
+A9	Male T33
+T34	Person-forename 1116 1123	Меллиса
+T35	Person-surname 1126 1132	ДеРоза
+T36	Person-property 1102 1113	губернатора
+T37	Person-property 1090 1113	Секретарь   губернатора
+T38	Person 1090 1132	Секретарь   губернатора   Меллиса   ДеРоза
+A10	Female T38
+T39	Date-absolute 1198 1219	в   ближайшее   время
+A11	Future T39
+T40	Ordinal 1202 1211	ближайшее
+T41	Person-property 1244 1255	заключенные
+T42	Age 1258 1275	старше   55   лет
+T43	Date-period-absolute 1372 1395	в   течение   90   дней
+A12	Pres-Fut T43
+T44	Duration 1386 1395	90   дней
+T24	Cardinal 1006 1008	19

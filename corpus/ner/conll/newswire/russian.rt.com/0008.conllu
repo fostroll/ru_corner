@@ -27,16 +27,19 @@
 7	случаев	_	_	_	_	_	_	_	bratT10=Quantity
 8	коронавирусной	_	_	_	_	_	_	_	bratT28=Other-term
 9	инфекции	_	_	_	_	_	_	_	bratT28=Other-term
-10	COVID-19	_	_	_	_	_	_	_	bratT28=Other-term
-11	за	_	_	_	_	_	_	_	bratA2=T37:Past-Pres|bratT37=Date-period-absolute
-12	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T37:Past-Pres|bratT29=Duration|bratT37=Date-period-absolute
-13	.	_	_	_	_	_	_	_	_
+10-12	COVID-19	_	_	_	_	_	_	_	_
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
+12	19	_	_	_	_	_	_	_	bratT28=Other-term|bratT46=Cardinal
+13	за	_	_	_	_	_	_	_	bratA2=T37:Past-Pres|bratT37=Date-period-absolute
+14	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T37:Past-Pres|bratT29=Duration|bratT37=Date-period-absolute
+15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0008-p2-s2
 # text = Всего в стране было зафиксировано 624 744 случая заболевания коронавирусом.
 1	Всего	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
-3	стране	_	_	_	_	_	_	_	_
+3	стране	_	_	_	_	_	_	_	bratT47=GPE
 4	было	_	_	_	_	_	_	_	_
 5	зафиксировано	_	_	_	_	_	_	_	_
 6	624	_	_	_	_	_	_	_	bratT30=Quantity
@@ -107,7 +110,7 @@
 6	24	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-period-absolute|bratT39=Duration
 7	часа	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-period-absolute|bratT39=Duration
 8	в	_	_	_	_	_	_	_	_
-9	стране	_	_	_	_	_	_	_	_
+9	стране	_	_	_	_	_	_	_	bratT48=GPE
 10	умерли	_	_	_	_	_	_	_	_
 11	138	_	_	_	_	_	_	_	bratT18=Quantity
 12	пациентов	_	_	_	_	_	_	_	bratT18=Quantity

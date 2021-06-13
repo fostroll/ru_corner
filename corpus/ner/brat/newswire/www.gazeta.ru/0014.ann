@@ -1,12 +1,12 @@
 T1	GPE 0 6	Турция
 T2	Other-term 79 91	коронавируса
-T3	Other-term 51 71	российской   вакцины
+T3	Product 51 91	российской   вакцины   от   коронавируса
 T4	GPE 93 99	Турция
 T5	Person-property 211 249	министр   здравоохранения   республики
 T6	Person 211 269	министр   здравоохранения   республики   Фахреттин   Коджа
 T7	Organization 294 298	ТАСС
 A1	Media T7
-T8	Other-term 174 194	российской   вакцины
+T8	Product 174 194	российской   вакцины
 T9	Other-term 334 342	вакциной
 T10	Person 576 581	Коджа
 T11	Ordinal 631 637	третья
@@ -18,10 +18,10 @@ T16	Other-term 769 776	вакцины
 T17	GPE 815 821	Россия
 T18	Ordinal 831 837	первой
 T19	Other-term 886 893	вакцину
-T20	Other-term 901 909	COVID-19
-T21	Organization 944 967	НИЦЭМ   имени   Гамалеи
-T22	Product 1048 1069	``   Спутник   V   ''
-T23	Organization 986 1027	Российским   фондом   прямых   инвестиций
+T20	Other-term 901 911	COVID - 19
+T21	Organization 946 969	НИЦЭМ   имени   Гамалеи
+T22	Product 1050 1071	``   Спутник   V   ''
+T23	Organization 988 1029	Российским   фондом   прямых   инвестиций
 T24	Date-absolute 447 468	В   ближайшее   время
 T25	Date-absolute 102 123	в   ближайшее   время
 T26	Date-period-absolute 612 617	после
@@ -45,5 +45,13 @@ T35	GPE 317 327	российской
 A10	Adjective T35
 T36	GPE 779 788	китайской
 A11	Adjective T36
-T37	GPE 986 996	Российским
+T37	GPE 988 998	Российским
 A12	Adjective T37
+A13	Trademark T8
+A14	Trademark T3
+A15	Trademark T22
+T38	Cardinal 909 911	19
+T39	Person 962 969	Гамалеи
+T40	Person-surname 962 969	Гамалеи
+T41	GPE 840 847	страной
+T42	GPE 239 249	республики

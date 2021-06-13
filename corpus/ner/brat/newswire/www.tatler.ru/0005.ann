@@ -1,0 +1,74 @@
+T1	Person 0 16	Принцесса   Хайя
+T2	Person-property 0 9	Принцесса
+T3	Person-property 91 105	эмиром   Дубая
+T4	GPE 100 105	Дубая
+T5	Organization 145 171	Верховном   суде   Лондона
+T6	GPE 164 171	Лондона
+T7	Person 212 248	принцессы   Хайи   бинт   аль-Хусейн
+T8	Person-property 212 221	принцессы
+T9	Family 260 264	мужа
+T10	Person 271 327	эмира   Дубая   Мохаммеда   ибн   Рашида   Аль   Мактума
+T11	Person-property 271 284	эмира   Дубая
+T12	GPE 279 284	Дубая
+T13	Date-absolute 332 355	В   июне   этого   года
+T14	Ordinal 387 393	шестая
+T15	Family 387 400	шестая   жена
+T16	Person-property 403 408	эмира
+T17	Quantity 439 462	двумя   своими   детьми
+T18	GPE 510 518	Германии
+T19	Money 673 690	$ 107   миллионов
+T20	Person-forename 707 711	Хайя
+T21	Person-property 897 906	Принцесса
+T22	Person 959 983	дочерью   Аль   Джалилей
+T23	Family 959 966	дочерью
+T24	Date-absolute 1000 1011	в   декабре
+T25	Age 1027 1035	12   лет
+T26	Age 1046 1054	7-летним
+T27	Person 1057 1072	сыном   Зайедом
+T28	Family 1057 1062	сыном
+T29	Family 1077 1081	Мать
+T30	Person 1257 1270	Аль   Джалилю
+T31	Person-forename 12 16	Хайя
+A1	Female T1
+A2	Female T7
+T32	Person-forename 224 228	Хайи
+T33	Person-patronym 231 248	бинт   аль-Хусейн
+A3	Past T13
+T34	Person-forename 287 296	Мохаммеда
+T35	Person-patronym 299 311	ибн   Рашида
+A4	Male T10
+T36	Person 707 711	Хайя
+A5	Female T36
+T37	Family 749 754	мужем
+A6	Female T22
+T38	Person-forename 969 983	Аль   Джалилей
+A7	Future T24
+A8	Male T27
+T39	Person-forename 1065 1072	Зайедом
+A9	Female T30
+T40	Person-forename 1257 1270	Аль   Джалилю
+T41	Ordinal 343 348	этого
+T42	Person 387 408	шестая   жена   эмира
+A10	Female T42
+T43	Date-period-relative 467 484	Некоторое   время
+A11	Past T43
+T44	Date-absolute 587 610	несколько   лет   назад
+A12	Past T44
+T45	Duration 587 602	несколько   лет
+T46	GPE 645 655	лондонский
+A13	Adjective T46
+T47	Family 1084 1089	детей
+T48	Percent 811 819	половину
+T49	Family 887 892	детей
+T50	Person 255 264	ее   мужа
+A14	Male T50
+T51	Person-surname 314 327	Аль   Мактума
+T52	Family 456 462	детьми
+T54	Duration 467 484	Некоторое   время
+T55	Duration 119 138	несколько   месяцев
+T56	Date-period-absolute 119 138	несколько   месяцев
+A15	Past-Pres T56
+A16	RCont T56
+T53	Person 1077 1089	Мать   детей
+A17	Female T53
+T57	GPE 426 432	страны

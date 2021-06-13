@@ -1,0 +1,73 @@
+T2	Person-property 66 99	журналистке   ``   Медиазоны   ''
+T3	Organization 80 99	``   Медиазоны   ''
+A1	Media T3
+T4	Person-property 107 139	сотрудника   карельской   ИК - 9
+T5	GPE 120 130	карельской
+A2	Adjective T5
+T6	Organization 120 139	карельской   ИК - 9
+T8	GPE 145 158	Петрозаводске
+T9	Organization 161 168	полиция
+T10	Person 182 218	сотруднику   ИК - 9   Игорю   Тузову
+A3	Male T10
+T11	Person-property 182 201	сотруднику   ИК - 9
+T13	Organization 195 201	ИК - 9
+T12	Person-forename 204 209	Игорю
+T14	Person-surname 212 218	Тузову
+T15	Person 282 343	корреспондентки   ``   Медиазоны   ''   Аллы   Константиновой
+A4	Female T15
+T16	Person-property 282 319	корреспондентки   ``   Медиазоны   ''
+T17	Organization 300 319	``   Медиазоны   ''
+A5	Media T17
+T18	Person-forename 322 326	Аллы
+T19	Person-surname 329 343	Константиновой
+T20	Organization 360 379	``   Медиазоне   ''
+A6	Media T20
+T21	Organization 397 419	отделе   полиции   № 3
+T22	Person 445 450	Тузов
+A7	Male T22
+T23	Person-surname 445 450	Тузов
+T24	Person-property 456 472	Сотрудник   ФСИН
+T25	Organization 468 472	ФСИН
+T26	Person-property 485 496	журналистке
+T27	Date-absolute 499 517	после   публикации
+T28	Organization 546 552	ИК - 9
+T29	Date-absolute 557 577	Осенью   2019   года
+A8	Past T29
+T30	Person 580 593	Константинова
+A9	Female T30
+T31	Person-forename 580 593	Константинова
+T32	Person-property 624 635	заключенных
+T33	Person 653 659	Тузова
+A10	Male T33
+T34	Person-surname 653 659	Тузова
+T35	Service 667 686	``   ВКонтакте   ''
+T36	Person-property 732 752	сотрудников   ИК - 9
+T37	Organization 746 752	ИК - 9
+T38	Person-property 891 910	сотрудник   колонии
+T39	Person 981 986	Тузов
+A11	Male T39
+T40	Person-surname 981 986	Тузов
+T41	Organization 1036 1055	``   Медиазона   ''
+A12	Media T41
+T42	Person-property 1109 1129	сотрудника   колонии
+T43	Person 1134 1139	Тузов
+A13	Male T43
+T44	Person-surname 1134 1139	Тузов
+T45	Organization 1158 1165	полицию
+T46	Person-property 1218 1229	журналистка
+T47	Organization 1317 1320	МВД
+T48	Person 1393 1407	Константиновой
+A14	Female T48
+T49	Person-surname 1393 1407	Константиновой
+T50	Person 1430 1436	Тузова
+A15	Male T50
+T51	Person-surname 1430 1436	Тузова
+T1	Ordinal 416 419	№ 3
+A16	Past T27
+T7	Quantity 610 621	одного   из
+T52	Organization 0 7	Полиция
+T53	Ordinal 551 552	9
+T54	Ordinal 138 139	9
+T55	Ordinal 200 201	9
+T56	Ordinal 751 752	9
+T57	Cardinal 416 417	№

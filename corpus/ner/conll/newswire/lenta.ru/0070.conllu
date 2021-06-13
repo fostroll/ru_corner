@@ -3,10 +3,10 @@
 # par_text = Россиянин стал командиром МКС
 # sent_id = 0070-p1-s1
 # text = Россиянин стал командиром МКС
-1	Россиянин	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
+1	Россиянин	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratA32=T78:Male|bratT1=Nationality|bratT78=Person
 2	стал	_	_	_	_	_	_	_	_
 3	командиром	_	_	_	_	_	_	_	bratT2=Person-property
-4	МКС	_	_	_	_	_	_	_	bratT39=Organization
+4	МКС	_	_	_	_	_	_	_	bratT39=Facility
 
 # newpar id = 0070-p2
 # par_text = Российский космонавт Сергей Рыжиков стал командиром Международной космической станции (МКС), приняв эстафету от американца Кристофера Кэссиди. Трансляция церемонии велась на сайте НАСА, передает РИА Новости.
@@ -18,11 +18,11 @@
 4	Рыжиков	_	_	_	_	_	_	_	bratA16=T4:Male|bratT4=Person|bratT51=Person-surname
 5	стал	_	_	_	_	_	_	_	_
 6	командиром	_	_	_	_	_	_	_	bratT28=Person-property
-7	Международной	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Organization
-8	космической	_	_	_	_	_	_	_	bratA30=T68:Adjective|bratT28=Person-property|bratT29=Organization|bratT68=Location
-9	станции	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Organization
+7	Международной	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Facility
+8	космической	_	_	_	_	_	_	_	bratA30=T68:Adjective|bratT28=Person-property|bratT29=Facility|bratT68=Location
+9	станции	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Facility
 10	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property
-11	МКС	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property|bratT41=Organization
+11	МКС	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property|bratT41=Facility
 12	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property
 13	,	_	_	_	_	_	_	_	_
 14	приняв	_	_	_	_	_	_	_	_
@@ -35,8 +35,8 @@
 
 # sent_id = 0070-p2-s2
 # text = Трансляция церемонии велась на сайте НАСА, передает РИА Новости.
-1	Трансляция	_	_	_	_	_	_	_	_
-2	церемонии	_	_	_	_	_	_	_	_
+1	Трансляция	_	_	_	_	_	_	_	bratA31=T74:Media|bratT74=Service
+2	церемонии	_	_	_	_	_	_	_	bratT72=Event
 3	велась	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	сайте	_	_	_	_	_	_	_	bratA8=T30:Media|bratT30=Service
@@ -66,14 +66,14 @@
 
 # sent_id = 0070-p3-s2
 # text = Церемония прошла в присутствии шестерых членов объединенного экипажа.
-1	Церемония	_	_	_	_	_	_	_	_
+1	Церемония	_	_	_	_	_	_	_	bratT69=Event
 2	прошла	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	присутствии	_	_	_	_	_	_	_	_
 5	шестерых	_	_	_	_	_	_	_	bratT36=Quantity
-6	членов	_	_	_	_	_	_	_	bratT36=Quantity|bratT42=Person-property
-7	объединенного	_	_	_	_	_	_	_	bratT42=Person-property
-8	экипажа	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property
+6	членов	_	_	_	_	_	_	_	bratT36=Quantity|bratT42=Person-property|bratT76=Person
+7	объединенного	_	_	_	_	_	_	_	bratT42=Person-property|bratT76=Person
+8	экипажа	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property|bratT76=Person
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0070-p4
@@ -102,9 +102,12 @@
 20	корабле	_	_	_	_	_	_	_	bratA7=T17:Unconscious|bratT17=Person
 21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
 22	Союз	_	_	_	_	_	_	_	bratA7=T17:Unconscious|bratT17=Person
-23	МС-16	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
-24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
-25	.	_	_	_	_	_	_	_	_
+23-25	МС-16	_	_	_	_	_	_	_	SpaceAfter=No
+23	МС	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
+24	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
+25	16	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person|bratT75=Cardinal
+26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Unconscious|bratT17=Person
+27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0070-p4-s2
 # text = Сергей Рыжиков вместе с россиянином Сергеем Кудь-Сверчковым и американкой Кэтлин Рубинс продолжит полет на МКС до апреля 2021 года.
@@ -120,7 +123,7 @@
 10	Кэтлин	_	_	_	_	_	_	_	bratA26=T22:Female|bratT22=Person|bratT66=Person-forename
 11	Рубинс	_	_	_	_	_	_	_	bratA26=T22:Female|bratT22=Person|bratT67=Person-surname
 12	продолжит	_	_	_	_	_	_	_	_
-13	полет	_	_	_	_	_	_	_	_
+13	полет	_	_	_	_	_	_	_	bratT70=Event
 14	на	_	_	_	_	_	_	_	_
 15	МКС	_	_	_	_	_	_	_	bratT34=Facility
 16	до	_	_	_	_	_	_	_	bratA13=T23:Pres-Fut|bratT23=Date-period-absolute
@@ -139,9 +142,9 @@
 4	на	_	_	_	_	_	_	_	_
 5	МКС	_	_	_	_	_	_	_	bratT37=Facility
 6	участились	_	_	_	_	_	_	_	_
-7	случаи	_	_	_	_	_	_	_	_
-8	нештатных	_	_	_	_	_	_	_	_
-9	ситуаций	_	_	_	_	_	_	_	SpaceAfter=No
+7	случаи	_	_	_	_	_	_	_	bratT71=Event
+8	нештатных	_	_	_	_	_	_	_	bratT71=Event
+9	ситуаций	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0070-p5-s2
@@ -169,11 +172,11 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	космонавты	_	_	_	_	_	_	_	bratT25=Person-property
+4	космонавты	_	_	_	_	_	_	_	bratT25=Person-property|bratT77=Person
 5	столкнулись	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
-7	утечкой	_	_	_	_	_	_	_	_
-8	воздуха	_	_	_	_	_	_	_	SpaceAfter=No
+7	утечкой	_	_	_	_	_	_	_	bratT73=Event
+8	воздуха	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0070-p5-s4

@@ -15,14 +15,14 @@ T15	Person 978 989	Емельяненко
 T16	Organization 1012 1029	``   Р-Спорт   ''
 A1	Media T16
 T17	Person 1086 1088	Ян
-T18	Person 1111 1152	претендента   №1   Алджамейна   Стерлинга
-T19	Ordinal 1125 1127	№1
-T20	Person 1166 1177	Емельяненко
-T21	Person 1209 1231	Хабиба   Нурмагомедова
+T18	Person 1111 1153	претендента   № 1   Алджамейна   Стерлинга
+T19	Ordinal 1125 1128	№ 1
+T20	Person 1167 1178	Емельяненко
+T21	Person 1210 1232	Хабиба   Нурмагомедова
 T23	Organization 223 226	UFC
 T8	Ordinal 1063 1072	следующий
 T22	Time-relative 429 439	во   время
-T24	Date-relative 1158 1163	Ранее
+T24	Date-relative 1159 1164	Ранее
 A2	Past T24
 T25	Person-forename 0 5	Федор
 T26	Person-surname 8 19	Емельяненко
@@ -42,14 +42,17 @@ T34	Person-surname 978 989	Емельяненко
 A8	Male T15
 T35	Person-surname 1086 1088	Ян
 A9	Male T17
-T36	Person-forename 1130 1140	Алджамейна
-T37	Person-surname 1143 1152	Стерлинга
+T36	Person-forename 1131 1141	Алджамейна
+T37	Person-surname 1144 1153	Стерлинга
 A10	Male T18
-T38	Person-property 1111 1127	претендента   №1
+T38	Person-property 1111 1128	претендента   № 1
 A11	Male T20
-T39	Person-surname 1166 1177	Емельяненко
-T40	Person-forename 1209 1215	Хабиба
-T41	Person-surname 1218 1231	Нурмагомедова
+T39	Person-surname 1167 1178	Емельяненко
+T40	Person-forename 1210 1216	Хабиба
+T41	Person-surname 1219 1232	Нурмагомедова
 A12	Male T21
 T42	GPE 71 81	Российский
 A13	Adjective T42
+T43	Event 1063 1083	следующий   поединок
+T44	Nationality 144 160	соотечественнике
+A14	Citizenship T44

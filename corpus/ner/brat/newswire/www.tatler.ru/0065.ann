@@ -1,0 +1,35 @@
+T1	Person 0 17	Харви   Вайнштейн
+T2	Other-term 37 62	коронавирусной   инфекции
+T3	Person 64 81	Харви   Вайнштейн
+T4	Other-term 96 106	COVID - 19
+T5	Date-absolute 194 204	22   марта
+T6	Person-property 262 270	продюсер
+T7	Facility 324 364	тюрьме   Wende   Correctional   Facility
+T8	GPE 381 388	Баффало
+T9	Date-absolute 393 404	10   апреля
+T10	Person 423 433	Вайнштейна
+T11	Organization 469 479	Fox   News
+A1	Media T11
+T12	Person 698 703	Харви
+T13	Organization 729 752	тюрьме   Райкерс-Айленд
+T14	GPE 759 768	Нью-Йорке
+A2	Male T1
+A3	Male T3
+T15	Person-forename 0 5	Харви
+T16	Person-surname 8 17	Вайнштейн
+T17	Person-forename 64 69	Харви
+T18	Person-surname 72 81	Вайнштейн
+A4	Past T5
+A5	Past T9
+A6	Male T10
+T19	Person-surname 423 433	Вайнштейна
+T21	Duration 593 607	двухнедельного
+A7	Male T12
+T22	Person-forename 698 703	Харви
+T23	Date-absolute 209 244	После   положительного   результата
+A8	Past T23
+T24	Date-absolute 585 619	после   двухнедельного   карантина
+A9	Past T24
+T20	Date-relative 109 140	вскоре   после   того   ,   как
+A10	Past T20
+T25	Cardinal 104 106	19

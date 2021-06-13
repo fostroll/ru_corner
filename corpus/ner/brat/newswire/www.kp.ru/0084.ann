@@ -5,30 +5,30 @@ T4	Date-period-absolute 109 140	за   10   месяцев   2020   года
 T5	Quantity 177 205	почти   20   тысяч   граждан
 T6	GPE 270 272	РФ
 T7	Organization 264 272	МВД   РФ
-T8	Quantity 328 354	в   19,1   тысячу   убитых
-T9	Percent 357 378	на   5,8   %   меньше
-T10	Date-period-absolute 391 434	за   аналогичный   период   прошлого   года
-T11	Quantity 524 547	30,1   тысячи   граждан
-T12	Percent 597 616	на   6   %   меньше
-T13	Date-period-absolute 653 668	прошлым   годом
-T14	Organization 704 707	МВД
-T15	Percent 843 851	39,5   %
-T16	Quantity 869 891	7,6   тысячи   человек
-T17	Percent 958 972	более   67   %
-T18	Quantity 1040 1068	свыше   20   тысяч   граждан
-T19	Date-period-absolute 1164 1182	за   текущий   год
-T20	Money 1225 1250	435   миллиардов   рублей
-T21	Percent 1338 1349	на   17   %
-T22	Date-period-absolute 1373 1388	прошлым   годом
-T23	Organization 1401 1405	ТАСС
+T8	Quantity 332 354	19,1   тысячу   убитых
+T9	Percent 357 376	на   5,8 %   меньше
+T10	Date-period-absolute 389 432	за   аналогичный   период   прошлого   года
+T11	Quantity 522 545	30,1   тысячи   граждан
+T12	Percent 595 612	на   6 %   меньше
+T13	Date-period-absolute 649 664	прошлым   годом
+T14	Organization 700 703	МВД
+T15	Percent 839 845	39,5 %
+T16	Quantity 863 885	7,6   тысячи   человек
+T17	Percent 952 964	более   67 %
+T18	Quantity 1032 1060	свыше   20   тысяч   граждан
+T19	Date-period-absolute 1156 1174	за   текущий   год
+T20	Money 1217 1242	435   миллиардов   рублей
+T21	Percent 1330 1339	на   17 %
+T22	Date-period-absolute 1363 1378	прошлым   годом
+T23	Organization 1391 1395	ТАСС
 A1	Media T23
 T24	Date-period-absolute 13 30	с   начала   года
-T25	Quantity 486 508	19,1   тысяч   человек
-T26	Ordinal 419 427	прошлого
-T27	Ordinal 653 660	прошлым
-T28	Ordinal 1373 1380	прошлым
-T29	Ordinal 1169 1176	текущий
-T30	Duration 396 416	аналогичный   период
+T25	Quantity 484 506	19,1   тысяч   человек
+T26	Ordinal 417 425	прошлого
+T27	Ordinal 649 656	прошлым
+T28	Ordinal 1363 1370	прошлым
+T29	Ordinal 1161 1168	текущий
+T30	Duration 394 414	аналогичный   период
 A2	Past T10
 A3	Past-Pres T24
 T31	Duration 114 126	10   месяцев
@@ -36,3 +36,9 @@ A4	Past-Pres T4
 A5	Past T13
 A6	Past-Pres T19
 A7	Past T22
+T32	Nationality 198 205	граждан
+A8	Citizenship T32
+T33	Nationality 538 545	граждан
+A9	Citizenship T33
+T34	Nationality 1053 1060	граждан
+A10	Citizenship T34

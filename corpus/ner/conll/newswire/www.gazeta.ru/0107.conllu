@@ -143,7 +143,7 @@
 5	,	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-relative
 6	как	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-relative
 7	ЦИК	_	_	_	_	_	_	_	bratT22=Organization
-8	республики	_	_	_	_	_	_	_	bratT22=Organization
+8	республики	_	_	_	_	_	_	_	bratT22=Organization|bratT60=GPE
 9	объявил	_	_	_	_	_	_	_	_
 10	Александра	_	_	_	_	_	_	_	bratA13=T23:Male|bratT23=Person|bratT48=Person-forename
 11	Лукашенко	_	_	_	_	_	_	_	bratA13=T23:Male|bratT23=Person|bratT49=Person-surname
@@ -163,8 +163,8 @@
 # text = Все штабы оппозиционных кандидатов заявили о непризнании их официальных результатов.
 1	Все	_	_	_	_	_	_	_	_
 2	штабы	_	_	_	_	_	_	_	bratT38=Organization
-3	оппозиционных	_	_	_	_	_	_	_	bratT36=Person-property|bratT38=Organization
-4	кандидатов	_	_	_	_	_	_	_	bratT36=Person-property|bratT38=Organization
+3	оппозиционных	_	_	_	_	_	_	_	bratA19=T57:Adjective|bratT36=Person-property|bratT38=Organization|bratT57=Political-group|bratT58=Person
+4	кандидатов	_	_	_	_	_	_	_	bratT36=Person-property|bratT38=Organization|bratT58=Person
 5	заявили	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
 7	непризнании	_	_	_	_	_	_	_	_
@@ -210,17 +210,17 @@
 2	экс-кандидат	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
 3	в	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
 4	президенты	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
-5	республики	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
+5	республики	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property|bratT61=GPE
 6	Светлана	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT50=Person-forename
 7	Тихановская	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT51=Person-surname
 8	объявила	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	создании	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
-12	стране	_	_	_	_	_	_	_	_
+12	стране	_	_	_	_	_	_	_	bratT62=GPE
 13	Координационного	_	_	_	_	_	_	_	bratT31=Organization
 14	совета	_	_	_	_	_	_	_	bratT31=Organization
-15	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+15	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization|bratT59=Organization
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
 18	должен	_	_	_	_	_	_	_	_
@@ -244,8 +244,8 @@
 11	уголовные	_	_	_	_	_	_	_	_
 12	дела	_	_	_	_	_	_	_	_
 13	против	_	_	_	_	_	_	_	_
-14	членов	_	_	_	_	_	_	_	_
-15	совета	_	_	_	_	_	_	_	SpaceAfter=No
+14	членов	_	_	_	_	_	_	_	bratT65=Person-property|bratT66=Person
+15	совета	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Organization|bratT65=Person-property|bratT66=Person
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0107-p8
@@ -258,7 +258,7 @@
 4	Тихановская	_	_	_	_	_	_	_	bratA16=T34:Female|bratT34=Person|bratT53=Person-surname
 5	объявила	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	стране	_	_	_	_	_	_	_	_
+7	стране	_	_	_	_	_	_	_	bratT63=GPE
 8	общенациональную	_	_	_	_	_	_	_	bratT35=Event
 9	забастовку	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Event
 10	.	_	_	_	_	_	_	_	_

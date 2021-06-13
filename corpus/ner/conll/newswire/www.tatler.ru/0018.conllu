@@ -1,0 +1,199 @@
+# newdoc id = 0018
+# newpar id = 0018-p1
+# par_text = Как отец Бритни Спирс контролирует жизнь певицы, запрещает ей выходить замуж и заводить детей
+# sent_id = 0018-p1-s1
+# text = Как отец Бритни Спирс контролирует жизнь певицы, запрещает ей выходить замуж и заводить детей
+1	Как	_	_	_	_	_	_	_	_
+2	отец	_	_	_	_	_	_	_	bratA2=T5:Male|bratT4=Family|bratT5=Person
+3	Бритни	_	_	_	_	_	_	_	bratA1=T3:Female|bratA2=T5:Male|bratT1=Person-forename|bratT3=Person|bratT5=Person
+4	Спирс	_	_	_	_	_	_	_	bratA1=T3:Female|bratA2=T5:Male|bratT2=Person-surname|bratT3=Person|bratT5=Person
+5	контролирует	_	_	_	_	_	_	_	_
+6	жизнь	_	_	_	_	_	_	_	_
+7	певицы	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property
+8	,	_	_	_	_	_	_	_	_
+9	запрещает	_	_	_	_	_	_	_	_
+10	ей	_	_	_	_	_	_	_	_
+11	выходить	_	_	_	_	_	_	_	_
+12	замуж	_	_	_	_	_	_	_	_
+13	и	_	_	_	_	_	_	_	_
+14	заводить	_	_	_	_	_	_	_	_
+15	детей	_	_	_	_	_	_	_	bratT30=Family
+
+# newpar id = 0018-p2
+# par_text = Вот уже больше 12 лет все решения как в творческой, так и в личной жизни за Бритни Спирс принимает ее законный опекун — отец Джеймс Парнелл Спирс. Фанаты звезды давно воюют за независимость певицы и даже создали движение #FreeBritney . Теперь у них появились новые доказательства того, что их кумиру действительно нужна помощь.
+# sent_id = 0018-p2-s1
+# text = Вот уже больше 12 лет все решения как в творческой, так и в личной жизни за Бритни Спирс принимает ее законный опекун - отец Джеймс Парнелл Спирс.
+1	Вот	_	_	_	_	_	_	_	_
+2	уже	_	_	_	_	_	_	_	_
+3	больше	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratA4=T7:RCont|bratT7=Date-period-absolute
+4	12	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratA4=T7:RCont|bratT28=Duration|bratT7=Date-period-absolute
+5	лет	_	_	_	_	_	_	_	bratA3=T7:Past-Pres|bratA4=T7:RCont|bratT28=Duration|bratT7=Date-period-absolute
+6	все	_	_	_	_	_	_	_	_
+7	решения	_	_	_	_	_	_	_	_
+8	как	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	творческой	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	так	_	_	_	_	_	_	_	_
+13	и	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	личной	_	_	_	_	_	_	_	_
+16	жизни	_	_	_	_	_	_	_	_
+17	за	_	_	_	_	_	_	_	_
+18	Бритни	_	_	_	_	_	_	_	bratA5=T13:Female|bratT13=Person|bratT8=Person-forename
+19	Спирс	_	_	_	_	_	_	_	bratA5=T13:Female|bratT13=Person|bratT9=Person-surname
+20	принимает	_	_	_	_	_	_	_	_
+21	ее	_	_	_	_	_	_	_	bratA18=T44:Male|bratT44=Person
+22	законный	_	_	_	_	_	_	_	bratA18=T44:Male|bratT15=Person-property|bratT44=Person
+23	опекун	_	_	_	_	_	_	_	bratA18=T44:Male|bratT15=Person-property|bratT44=Person
+24	-	_	_	_	_	_	_	_	_
+25	отец	_	_	_	_	_	_	_	bratA6=T14:Male|bratT10=Family|bratT14=Person
+26	Джеймс	_	_	_	_	_	_	_	bratA6=T14:Male|bratT11=Person-forename|bratT14=Person
+27	Парнелл	_	_	_	_	_	_	_	bratA6=T14:Male|bratT11=Person-forename|bratT14=Person
+28	Спирс	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T14:Male|bratT12=Person-surname|bratT14=Person
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0018-p2-s2
+# text = Фанаты звезды давно воюют за независимость певицы и даже создали движение #FreeBritney.
+1	Фанаты	_	_	_	_	_	_	_	bratT16=Other-group
+2	звезды	_	_	_	_	_	_	_	bratT16=Other-group|bratT17=Person-property
+3	давно	_	_	_	_	_	_	_	_
+4	воюют	_	_	_	_	_	_	_	_
+5	за	_	_	_	_	_	_	_	_
+6	независимость	_	_	_	_	_	_	_	_
+7	певицы	_	_	_	_	_	_	_	bratT29=Person-property
+8	и	_	_	_	_	_	_	_	_
+9	даже	_	_	_	_	_	_	_	_
+10	создали	_	_	_	_	_	_	_	_
+11	движение	_	_	_	_	_	_	_	bratT45=Other-group
+12	#FreeBritney	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Other-group
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0018-p2-s3
+# text = Теперь у них появились новые доказательства того, что их кумиру действительно нужна помощь.
+1	Теперь	_	_	_	_	_	_	_	bratA7=T18:Present|bratT18=Date-absolute
+2	у	_	_	_	_	_	_	_	_
+3	них	_	_	_	_	_	_	_	_
+4	появились	_	_	_	_	_	_	_	_
+5	новые	_	_	_	_	_	_	_	_
+6	доказательства	_	_	_	_	_	_	_	_
+7	того	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	_	_	_	_	_	_	_	_
+9	что	_	_	_	_	_	_	_	_
+10	их	_	_	_	_	_	_	_	_
+11	кумиру	_	_	_	_	_	_	_	_
+12	действительно	_	_	_	_	_	_	_	_
+13	нужна	_	_	_	_	_	_	_	_
+14	помощь	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0018-p3
+# par_text = Бывший фотограф Бритни Спирс Эндрю Гэллери опубликовал личное письмо певицы, которое она написала в 2009 году. На видео в TikTok Эндрю объяснил, почему он решил обнародовать записи: «Я слежу за движением #FreeBritney и считаю, что давно пора высказаться. Я работал с Бритни в 2008 году, во время ее камбэка. В то время мы стали близкими друзьями. Мы были в туре, проводили вместе каждый день. И тогда она дала мне письмо, чтобы я прочитал его вам».
+# sent_id = 0018-p3-s1
+# text = Бывший фотограф Бритни Спирс Эндрю Гэллери опубликовал личное письмо певицы, которое она написала в 2009 году.
+1	Бывший	_	_	_	_	_	_	_	bratA9=T25:Male|bratT21=Person-property|bratT25=Person
+2	фотограф	_	_	_	_	_	_	_	bratA9=T25:Male|bratT21=Person-property|bratT25=Person
+3	Бритни	_	_	_	_	_	_	_	bratA8=T22:Female|bratA9=T25:Male|bratT19=Person-forename|bratT22=Person|bratT25=Person
+4	Спирс	_	_	_	_	_	_	_	bratA8=T22:Female|bratA9=T25:Male|bratT20=Person-surname|bratT22=Person|bratT25=Person
+5	Эндрю	_	_	_	_	_	_	_	bratA9=T25:Male|bratT23=Person-forename|bratT25=Person
+6	Гэллери	_	_	_	_	_	_	_	bratA9=T25:Male|bratT24=Person-surname|bratT25=Person
+7	опубликовал	_	_	_	_	_	_	_	_
+8	личное	_	_	_	_	_	_	_	_
+9	письмо	_	_	_	_	_	_	_	_
+10	певицы	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property
+11	,	_	_	_	_	_	_	_	_
+12	которое	_	_	_	_	_	_	_	_
+13	она	_	_	_	_	_	_	_	_
+14	написала	_	_	_	_	_	_	_	_
+15	в	_	_	_	_	_	_	_	bratA10=T27:Past|bratT27=Date-absolute
+16	2009	_	_	_	_	_	_	_	bratA10=T27:Past|bratT27=Date-absolute
+17	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T27:Past|bratT27=Date-absolute
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0018-p3-s2
+# text = На видео в TikTok Эндрю объяснил, почему он решил обнародовать записи: ``Я слежу за движением #FreeBritney и считаю, что давно пора высказаться.
+1	На	_	_	_	_	_	_	_	_
+2	видео	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	TikTok	_	_	_	_	_	_	_	bratT31=Service
+5	Эндрю	_	_	_	_	_	_	_	bratA12=T33:Male|bratT32=Person-forename|bratT33=Person
+6	объяснил	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	почему	_	_	_	_	_	_	_	_
+9	он	_	_	_	_	_	_	_	_
+10	решил	_	_	_	_	_	_	_	_
+11	обнародовать	_	_	_	_	_	_	_	_
+12	записи	_	_	_	_	_	_	_	SpaceAfter=No
+13	:	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	SpaceAfter=No
+15	Я	_	_	_	_	_	_	_	_
+16	слежу	_	_	_	_	_	_	_	_
+17	за	_	_	_	_	_	_	_	_
+18	движением	_	_	_	_	_	_	_	bratT41=Other-group
+19	#FreeBritney	_	_	_	_	_	_	_	bratT41=Other-group
+20	и	_	_	_	_	_	_	_	_
+21	считаю	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	что	_	_	_	_	_	_	_	_
+24	давно	_	_	_	_	_	_	_	_
+25	пора	_	_	_	_	_	_	_	_
+26	высказаться	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0018-p3-s3
+# text = Я работал с Бритни в 2008 году, во время ее камбэка.
+1	Я	_	_	_	_	_	_	_	_
+2	работал	_	_	_	_	_	_	_	_
+3	с	_	_	_	_	_	_	_	_
+4	Бритни	_	_	_	_	_	_	_	bratA13=T35:Female|bratT34=Person-forename|bratT35=Person
+5	в	_	_	_	_	_	_	_	bratA15=T37:Past|bratT37=Date-period-absolute
+6	2008	_	_	_	_	_	_	_	bratA15=T37:Past|bratT37=Date-period-absolute
+7	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T37:Past|bratT37=Date-period-absolute
+8	,	_	_	_	_	_	_	_	bratA15=T37:Past|bratT37=Date-period-absolute
+9	во	_	_	_	_	_	_	_	bratA15=T37:Past|bratT37=Date-period-absolute
+10	время	_	_	_	_	_	_	_	bratA15=T37:Past|bratT37=Date-period-absolute
+11	ее	_	_	_	_	_	_	_	bratA15=T37:Past|bratT37=Date-period-absolute
+12	камбэка	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T37:Past|bratT37=Date-period-absolute
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0018-p3-s4
+# text = В то время мы стали близкими друзьями.
+1	В	_	_	_	_	_	_	_	bratA16=T39:Past|bratT39=Date-relative
+2	то	_	_	_	_	_	_	_	bratA16=T39:Past|bratT39=Date-relative
+3	время	_	_	_	_	_	_	_	bratA16=T39:Past|bratT39=Date-relative
+4	мы	_	_	_	_	_	_	_	_
+5	стали	_	_	_	_	_	_	_	_
+6	близкими	_	_	_	_	_	_	_	_
+7	друзьями	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0018-p3-s5
+# text = Мы были в туре, проводили вместе каждый день.
+1	Мы	_	_	_	_	_	_	_	_
+2	были	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	туре	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	проводили	_	_	_	_	_	_	_	_
+7	вместе	_	_	_	_	_	_	_	_
+8	каждый	_	_	_	_	_	_	_	bratT42=Time-period
+9	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Time-period|bratT43=Duration
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0018-p3-s6
+# text = И тогда она дала мне письмо, чтобы я прочитал его вам''.
+1	И	_	_	_	_	_	_	_	_
+2	тогда	_	_	_	_	_	_	_	bratA17=T40:Past|bratT40=Date-relative
+3	она	_	_	_	_	_	_	_	_
+4	дала	_	_	_	_	_	_	_	_
+5	мне	_	_	_	_	_	_	_	_
+6	письмо	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	чтобы	_	_	_	_	_	_	_	_
+9	я	_	_	_	_	_	_	_	_
+10	прочитал	_	_	_	_	_	_	_	_
+11	его	_	_	_	_	_	_	_	_
+12	вам	_	_	_	_	_	_	_	SpaceAfter=No
+13	''	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+

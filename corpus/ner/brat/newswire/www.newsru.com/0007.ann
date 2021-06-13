@@ -1,0 +1,64 @@
+T1	Other-term 98 113	коронавирусного
+T2	Person 121 127	Трампа
+T3	Organization 174 192	Московской   бирже
+T4	Organization 404 423	``   Интерфакс   ''
+A1	Media T4
+T5	GPE 462 465	США
+T6	Money 493 517	77,33   -   77,96   руб.
+T7	Money 524 527	$ 1
+T8	Ordinal 548 554	первой
+T9	Money 593 605	77,89   руб.
+T10	Money 612 615	$ 1
+T11	Money 622 637	+52,5   копейки
+T12	Money 703 734	до   91,42   руб.   /   EUR   1
+T14	Money 741 753	+56   копеек
+T15	Money 789 795	$ 0,55
+T16	Money 802 812	EUR   0,45
+T17	Money 833 853	на   54,06   копейки
+T18	Money 895 913	до   83,98   рубля
+T19	Money 951 978	на   61,26   копейки   выше
+T20	Money 1043 1070	на   69,63   копейки   выше
+T21	Organization 1127 1150	``   Интерфакс-ЦЭА   ''
+A2	Media T21
+T22	Person-property 1116 1150	эксперты   ``   Интерфакс-ЦЭА   ''
+T23	Other-term 1354 1367	коронавирусом
+T24	Person 1306 1339	президент   США   Дональд   Трамп
+T25	Person-property 1306 1321	президент   США
+T26	GPE 1318 1321	США
+T27	Other-term 1424 1434	COVID - 19
+T28	Organization 1713 1724	MarketWatch
+A3	Media T28
+T29	Date-absolute 1731 1760	в   четверг   ,   1   октября
+T30	Date-absolute 1809 1826	с   15   сентября
+T31	Time-absolute 209 214	утром
+T32	Ordinal 429 435	Первые
+T33	Person-property 1227 1237	инвесторов
+T34	Date-absolute 195 214	в   пятницу   утром
+T38	Date-absolute 880 888	четверга
+T39	Family 1471 1475	жены
+T40	Date-period-absolute 1656 1694	после   заметного   падения   накануне
+T42	Ordinal 653 664	предыдущего
+T43	Date-relative 1252 1274	после   того   ,   как
+T44	Duration 557 563	минуты
+T45	Date-absolute 548 572	первой   минуты   торгов
+A4	Past T45
+A5	Past T34
+A6	Past T38
+A7	Past T43
+A8	Male T24
+T36	Person-forename 1324 1331	Дональд
+T46	Person-surname 1334 1339	Трамп
+T41	GPE 174 184	Московской
+A11	Adjective T41
+T47	Event 566 572	торгов
+T48	Event 653 675	предыдущего   закрытия
+T49	Money 727 734	EUR   1
+A10	Past T30
+T51	Event 1664 1683	заметного   падения
+A12	Past T29
+A9	Past-Pres T40
+T52	Date-absolute 1686 1694	накануне
+A13	Past T52
+T53	Person 1465 1475	его   жены
+A14	Female T53
+T13	Cardinal 1432 1434	19

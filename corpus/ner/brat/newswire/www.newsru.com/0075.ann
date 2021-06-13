@@ -1,0 +1,73 @@
+T1	Organization 0 23	Правительство   Франции
+T2	GPE 16 23	Франции
+T3	Organization 50 119	турецкой   националистической   организации   ``   Серые   волки   ''
+T4	Organization 121 144	Правительство   Франции
+T5	GPE 137 144	Франции
+T6	Organization 158 215	ультраправую   турецкую   организацию   ``   Бозкурт   ''
+T7	Organization 222 245	``   Серые   волки   ''
+T8	Organization 267 287	телеканал   BFM   TV
+A1	Media T8
+T9	Organization 322 342	кабинета   министров
+T10	Person 750 792	глава   МВД   Франции   Жеральд   Дарманен
+T11	Person-property 750 771	глава   МВД   Франции
+T12	Organization 758 771	МВД   Франции
+T13	GPE 764 771	Франции
+T14	Facility 910 954	мемориал   памяти   жертв   геноцида   армян
+T15	Nationality 949 954	армян
+T16	Nationality 1030 1035	армян
+T17	GPE 1043 1050	Франции
+T18	GPE 1124 1143	Нагорном   Карабахе
+T19	Nationality 1164 1170	армяне
+A4	Citizenship T19
+T20	Nationality 1177 1192	азербайджанцами
+A5	Citizenship T20
+T21	GPE 1224 1230	Турция
+T22	Person-property 1392 1426	членами   ``   Серых   волков   ''
+T23	Organization 1402 1426	``   Серых   волков   ''
+T24	GPE 1434 1441	Франции
+T25	Quantity 1467 1484	четыре   человека
+T26	Quantity 1491 1500	один   из
+T27	Nationality 1616 1622	армяне
+T28	Date-absolute 436 445	в   среду
+T32	Date-absolute 798 839	В   ночь   с   субботы   на   воскресенье
+T33	Other-group 842 856	злоумышленники
+T34	GPE 964 969	Лиона
+T35	Quantity 976 987	одного   из
+T37	Date-absolute 1255 1315	в   минувшую   среду   в   ходе   антивоенной   демонстрации
+T38	Quantity 1558 1569	одному   из
+T39	Date-absolute 1588 1613	во   время   столкновений
+T40	Date-absolute 524 537	после   серии
+T41	Nationality 50 58	турецкой
+A7	Adjective T41
+T42	Nationality 173 181	турецкую
+A8	Adjective T42
+T43	Political-group 158 170	ультраправую
+A9	Adjective T43
+T44	Political-group 61 79	националистической
+A10	Adjective T44
+T45	GPE 487 498	французские
+A11	Adjective T45
+A12	Future T28
+A13	Past T40
+A14	Male T10
+T46	Person-forename 774 781	Жеральд
+T47	Person-surname 784 792	Дарманен
+A15	Past T32
+T29	Time-absolute 798 810	В   ночь   с
+A16	Past T37
+T30	Ordinal 1259 1267	минувшую
+A17	Past T39
+T31	Nationality 1365 1374	армянской
+A18	Adjective T31
+T36	Event 532 554	серии   правонарушений
+T48	Organization 1365 1385	армянской   диаспоры
+T49	Event 1289 1315	антивоенной   демонстрации
+T50	Event 1601 1613	столкновений
+T51	Date-relative 1446 1451	Тогда
+A2	Past T51
+T52	Organization 463 468	канал
+A3	Media T52
+T53	Organization 487 507	французские   власти
+T54	GPE 579 585	стране
+T55	Organization 617 628	группировки
+T56	Organization 879 902	``   Серые   волки   ''

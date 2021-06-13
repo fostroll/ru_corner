@@ -25,18 +25,21 @@
 5	поврежденного	_	_	_	_	_	_	_	_
 6	двигателя	_	_	_	_	_	_	_	bratT13=Product
 7	самолета	_	_	_	_	_	_	_	bratT13=Product|bratT2=Product
-8	Ан-124	_	_	_	_	_	_	_	bratT13=Product|bratT2=Product
-9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
-10	Руслан	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
-11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
-12	,	_	_	_	_	_	_	_	_
-13	который	_	_	_	_	_	_	_	_
-14	совершил	_	_	_	_	_	_	_	_
-15	аварийную	_	_	_	_	_	_	_	bratT15=Event
-16	посадку	_	_	_	_	_	_	_	bratT15=Event
-17	в	_	_	_	_	_	_	_	_
-18	Новосибирске	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=GPE
-19	.	_	_	_	_	_	_	_	_
+8-10	Ан-124	_	_	_	_	_	_	_	_
+8	Ан	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
+9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
+10	124	_	_	_	_	_	_	_	bratT13=Product|bratT2=Product|bratT21=Cardinal
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
+12	Руслан	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
+14	,	_	_	_	_	_	_	_	_
+15	который	_	_	_	_	_	_	_	_
+16	совершил	_	_	_	_	_	_	_	_
+17	аварийную	_	_	_	_	_	_	_	bratT15=Event
+18	посадку	_	_	_	_	_	_	_	bratT15=Event
+19	в	_	_	_	_	_	_	_	_
+20	Новосибирске	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=GPE
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0093-p2-s2
 # text = Снимок был размещен в Telegram-канале ``Записки охотника''.
@@ -77,7 +80,7 @@
 # text = Ранее в соцсетях также появились фото одной из отвалившихся деталей, которая насквозь пробила крышу здания - она рухнула с высоты нескольких сотен метров и повредила склад недалеко от аэропорта Толмачево.
 1	Ранее	_	_	_	_	_	_	_	bratA4=T4:Past|bratT4=Date-relative
 2	в	_	_	_	_	_	_	_	_
-3	соцсетях	_	_	_	_	_	_	_	_
+3	соцсетях	_	_	_	_	_	_	_	bratT20=Service
 4	также	_	_	_	_	_	_	_	_
 5	появились	_	_	_	_	_	_	_	_
 6	фото	_	_	_	_	_	_	_	_
@@ -112,16 +115,19 @@
 # par_text = Ан-124 совершил жесткую посадку в аэропорту Толмачево 13 ноября. Обесточенный транспортник выкатился за пределы взлетно-посадочной полосы (ВПП) из-за отсутствия реверса двигателей. Командир воздушного судна доложил об отказе систем радиосвязи сразу после вылета и запросил аварийную посадку.
 # sent_id = 0093-p5-s1
 # text = Ан-124 совершил жесткую посадку в аэропорту Толмачево 13 ноября.
-1	Ан-124	_	_	_	_	_	_	_	bratT9=Product
-2	совершил	_	_	_	_	_	_	_	_
-3	жесткую	_	_	_	_	_	_	_	bratT14=Event
-4	посадку	_	_	_	_	_	_	_	bratT14=Event
-5	в	_	_	_	_	_	_	_	_
-6	аэропорту	_	_	_	_	_	_	_	bratT10=Facility
-7	Толмачево	_	_	_	_	_	_	_	bratT10=Facility
-8	13	_	_	_	_	_	_	_	bratA1=T11:Past|bratT11=Date-absolute
-9	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Past|bratT11=Date-absolute
-10	.	_	_	_	_	_	_	_	_
+1-3	Ан-124	_	_	_	_	_	_	_	_
+1	Ан	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Product
+2	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Product
+3	124	_	_	_	_	_	_	_	bratT23=Cardinal|bratT9=Product
+4	совершил	_	_	_	_	_	_	_	_
+5	жесткую	_	_	_	_	_	_	_	bratT14=Event
+6	посадку	_	_	_	_	_	_	_	bratT14=Event
+7	в	_	_	_	_	_	_	_	_
+8	аэропорту	_	_	_	_	_	_	_	bratT10=Facility
+9	Толмачево	_	_	_	_	_	_	_	bratT10=Facility
+10	13	_	_	_	_	_	_	_	bratA1=T11:Past|bratT11=Date-absolute
+11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Past|bratT11=Date-absolute
+12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0093-p5-s2
 # text = Обесточенный транспортник выкатился за пределы взлетно-посадочной полосы (ВПП) из-за отсутствия реверса двигателей.
@@ -143,20 +149,20 @@
 
 # sent_id = 0093-p5-s3
 # text = Командир воздушного судна доложил об отказе систем радиосвязи сразу после вылета и запросил аварийную посадку.
-1	Командир	_	_	_	_	_	_	_	bratT12=Person-property
-2	воздушного	_	_	_	_	_	_	_	bratT12=Person-property
-3	судна	_	_	_	_	_	_	_	bratT12=Person-property
+1	Командир	_	_	_	_	_	_	_	bratA5=T22:Male|bratT12=Person-property|bratT22=Person
+2	воздушного	_	_	_	_	_	_	_	bratA5=T22:Male|bratT12=Person-property|bratT22=Person
+3	судна	_	_	_	_	_	_	_	bratA5=T22:Male|bratT12=Person-property|bratT22=Person
 4	доложил	_	_	_	_	_	_	_	_
 5	об	_	_	_	_	_	_	_	_
-6	отказе	_	_	_	_	_	_	_	_
-7	систем	_	_	_	_	_	_	_	_
-8	радиосвязи	_	_	_	_	_	_	_	_
+6	отказе	_	_	_	_	_	_	_	bratT18=Event
+7	систем	_	_	_	_	_	_	_	bratT18=Event
+8	радиосвязи	_	_	_	_	_	_	_	bratT18=Event
 9	сразу	_	_	_	_	_	_	_	bratA3=T16:Past|bratT16=Date-absolute
 10	после	_	_	_	_	_	_	_	bratA3=T16:Past|bratT16=Date-absolute
 11	вылета	_	_	_	_	_	_	_	bratA3=T16:Past|bratT16=Date-absolute|bratT17=Event
 12	и	_	_	_	_	_	_	_	_
 13	запросил	_	_	_	_	_	_	_	_
-14	аварийную	_	_	_	_	_	_	_	_
-15	посадку	_	_	_	_	_	_	_	SpaceAfter=No
+14	аварийную	_	_	_	_	_	_	_	bratT19=Event
+15	посадку	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event
 16	.	_	_	_	_	_	_	_	_
 

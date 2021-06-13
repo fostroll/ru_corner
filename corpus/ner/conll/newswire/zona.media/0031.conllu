@@ -1,0 +1,248 @@
+# newdoc id = 0031
+# newpar id = 0031-p1
+# par_text = Правительство Нидерландов решило направить в ЕСПЧ иск против России из-за крушения MH17
+# sent_id = 0031-p1-s1
+# text = Правительство Нидерландов решило направить в ЕСПЧ иск против России из-за крушения MH17
+1	Правительство	_	_	_	_	_	_	_	bratT1=Organization
+2	Нидерландов	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+3	решило	_	_	_	_	_	_	_	_
+4	направить	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	ЕСПЧ	_	_	_	_	_	_	_	bratT3=Organization
+7	иск	_	_	_	_	_	_	_	_
+8	против	_	_	_	_	_	_	_	_
+9	России	_	_	_	_	_	_	_	bratT4=GPE
+10	из-за	_	_	_	_	_	_	_	_
+11	крушения	_	_	_	_	_	_	_	_
+12-13	MH17	_	_	_	_	_	_	_	_
+12	MH	_	_	_	_	_	_	_	SpaceAfter=No
+13	17	_	_	_	_	_	_	_	bratT63=Cardinal
+
+# newpar id = 0031-p2
+# par_text = Правительство Нидерландов решило подать в Европейский суд по правам человека (ЕСПЧ) иск против России из-за крушения рейса MH17 в небе над Донбассом в 2014 году. Об этом сообщается на сайте правительства Нидерландов.
+# sent_id = 0031-p2-s1
+# text = Правительство Нидерландов решило подать в Европейский суд по правам человека (ЕСПЧ) иск против России из-за крушения рейса MH17 в небе над Донбассом в 2014 году.
+1	Правительство	_	_	_	_	_	_	_	bratT5=Organization
+2	Нидерландов	_	_	_	_	_	_	_	bratT5=Organization|bratT6=GPE
+3	решило	_	_	_	_	_	_	_	_
+4	подать	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	Европейский	_	_	_	_	_	_	_	bratA1=T8:Adjective|bratT7=Organization|bratT8=GPE
+7	суд	_	_	_	_	_	_	_	bratT7=Organization
+8	по	_	_	_	_	_	_	_	bratT7=Organization
+9	правам	_	_	_	_	_	_	_	bratT7=Organization
+10	человека	_	_	_	_	_	_	_	bratT7=Organization
+11	(	_	_	_	_	_	_	_	SpaceAfter=No
+12	ЕСПЧ	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
+13	)	_	_	_	_	_	_	_	_
+14	иск	_	_	_	_	_	_	_	_
+15	против	_	_	_	_	_	_	_	_
+16	России	_	_	_	_	_	_	_	bratT10=GPE
+17	из-за	_	_	_	_	_	_	_	_
+18	крушения	_	_	_	_	_	_	_	_
+19	рейса	_	_	_	_	_	_	_	_
+20-21	MH17	_	_	_	_	_	_	_	_
+20	MH	_	_	_	_	_	_	_	SpaceAfter=No
+21	17	_	_	_	_	_	_	_	bratT65=Cardinal
+22	в	_	_	_	_	_	_	_	_
+23	небе	_	_	_	_	_	_	_	_
+24	над	_	_	_	_	_	_	_	_
+25	Донбассом	_	_	_	_	_	_	_	bratT11=GPE
+26	в	_	_	_	_	_	_	_	bratA15=T12:Past|bratT12=Date-absolute
+27	2014	_	_	_	_	_	_	_	bratA15=T12:Past|bratT12=Date-absolute
+28	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T12:Past|bratT12=Date-absolute
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0031-p2-s2
+# text = Об этом сообщается на сайте правительства Нидерландов.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщается	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	сайте	_	_	_	_	_	_	_	bratA2=T13:Media|bratT13=Service
+6	правительства	_	_	_	_	_	_	_	bratT14=Organization
+7	Нидерландов	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization|bratT15=GPE
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0031-p3
+# par_text = «Добиться справедливости для 298 жертв крушения рейса MH17 было и остается важнейшим приоритетом правительства, — сказал министр иностранных дел Нидерландов Стеф Блок. — Идя на этот шаг сегодня, передавая дело в ЕСПЧ и, таким образом, поддерживая иски родственников [погибших], мы приближаемся к этой цели».
+# sent_id = 0031-p3-s1
+# text = ``Добиться справедливости для 298 жертв крушения рейса MH17 было и остается важнейшим приоритетом правительства, - сказал министр иностранных дел Нидерландов Стеф Блок. -
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Добиться	_	_	_	_	_	_	_	_
+3	справедливости	_	_	_	_	_	_	_	_
+4	для	_	_	_	_	_	_	_	_
+5	298	_	_	_	_	_	_	_	bratT16=Quantity
+6	жертв	_	_	_	_	_	_	_	bratT16=Quantity
+7	крушения	_	_	_	_	_	_	_	_
+8	рейса	_	_	_	_	_	_	_	_
+9-10	MH17	_	_	_	_	_	_	_	_
+9	MH	_	_	_	_	_	_	_	SpaceAfter=No
+10	17	_	_	_	_	_	_	_	bratT67=Cardinal
+11	было	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	остается	_	_	_	_	_	_	_	_
+14	важнейшим	_	_	_	_	_	_	_	_
+15	приоритетом	_	_	_	_	_	_	_	_
+16	правительства	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+17	,	_	_	_	_	_	_	_	_
+18	-	_	_	_	_	_	_	_	_
+19	сказал	_	_	_	_	_	_	_	_
+20	министр	_	_	_	_	_	_	_	bratA3=T18:Male|bratT18=Person|bratT19=Person-property
+21	иностранных	_	_	_	_	_	_	_	bratA3=T18:Male|bratT18=Person|bratT19=Person-property
+22	дел	_	_	_	_	_	_	_	bratA3=T18:Male|bratT18=Person|bratT19=Person-property
+23	Нидерландов	_	_	_	_	_	_	_	bratA3=T18:Male|bratT18=Person|bratT19=Person-property|bratT20=GPE
+24	Стеф	_	_	_	_	_	_	_	bratA3=T18:Male|bratT18=Person|bratT21=Person-forename
+25	Блок	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Male|bratT18=Person|bratT22=Person-surname
+26	.	_	_	_	_	_	_	_	_
+27	-	_	_	_	_	_	_	_	_
+
+# sent_id = 0031-p3-s2
+# text = Идя на этот шаг сегодня, передавая дело в ЕСПЧ и, таким образом, поддерживая иски родственников (погибших), мы приближаемся к этой цели''.
+1	Идя	_	_	_	_	_	_	_	_
+2	на	_	_	_	_	_	_	_	_
+3	этот	_	_	_	_	_	_	_	_
+4	шаг	_	_	_	_	_	_	_	_
+5	сегодня	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T23:Present|bratT23=Date-absolute
+6	,	_	_	_	_	_	_	_	_
+7	передавая	_	_	_	_	_	_	_	_
+8	дело	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	ЕСПЧ	_	_	_	_	_	_	_	bratT24=Organization
+11	и	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	таким	_	_	_	_	_	_	_	_
+14	образом	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	поддерживая	_	_	_	_	_	_	_	_
+17	иски	_	_	_	_	_	_	_	_
+18	родственников	_	_	_	_	_	_	_	_
+19	(	_	_	_	_	_	_	_	SpaceAfter=No
+20	погибших	_	_	_	_	_	_	_	SpaceAfter=No
+21	)	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	_	_	_	_	_	_	_	_
+23	мы	_	_	_	_	_	_	_	_
+24	приближаемся	_	_	_	_	_	_	_	_
+25	к	_	_	_	_	_	_	_	_
+26	этой	_	_	_	_	_	_	_	_
+27	цели	_	_	_	_	_	_	_	SpaceAfter=No
+28	''	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0031-p4
+# par_text = Весной 2020 года в Гааге начался заочный суд над четырьмя обвиняемыми по делу о крушении рейса MH17. Обвинение предъявлено бывшему министру обороны самопровозглашенной ДНР Игорь Стрелкову-Гиркину, отставному офицеру ГРУ Сергею Дубинскому, подполковнику запаса ВДВ Олегу Пулатову, а также гражданину Украины, бывшему командиру ДНР Леониду Харченко.
+# sent_id = 0031-p4-s1
+# text = Весной 2020 года в Гааге начался заочный суд над четырьмя обвиняемыми по делу о крушении рейса MH17.
+1	Весной	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute
+2	2020	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute
+3	года	_	_	_	_	_	_	_	bratA16=T25:Past|bratT25=Date-absolute
+4	в	_	_	_	_	_	_	_	_
+5	Гааге	_	_	_	_	_	_	_	bratT26=GPE
+6	начался	_	_	_	_	_	_	_	_
+7	заочный	_	_	_	_	_	_	_	_
+8	суд	_	_	_	_	_	_	_	_
+9	над	_	_	_	_	_	_	_	_
+10	четырьмя	_	_	_	_	_	_	_	bratT27=Quantity
+11	обвиняемыми	_	_	_	_	_	_	_	bratT27=Quantity|bratT28=Person-property
+12	по	_	_	_	_	_	_	_	_
+13	делу	_	_	_	_	_	_	_	_
+14	о	_	_	_	_	_	_	_	_
+15	крушении	_	_	_	_	_	_	_	_
+16	рейса	_	_	_	_	_	_	_	_
+17-18	MH17	_	_	_	_	_	_	_	SpaceAfter=No
+17	MH	_	_	_	_	_	_	_	SpaceAfter=No
+18	17	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Cardinal
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0031-p4-s2
+# text = Обвинение предъявлено бывшему министру обороны самопровозглашенной ДНР Игорь Стрелкову-Гиркину, отставному офицеру ГРУ Сергею Дубинскому, подполковнику запаса ВДВ Олегу Пулатову, а также гражданину Украины, бывшему командиру ДНР Леониду Харченко.
+1	Обвинение	_	_	_	_	_	_	_	_
+2	предъявлено	_	_	_	_	_	_	_	_
+3	бывшему	_	_	_	_	_	_	_	_
+4	министру	_	_	_	_	_	_	_	bratA6=T31:Male|bratT30=Person-property|bratT31=Person
+5	обороны	_	_	_	_	_	_	_	bratA6=T31:Male|bratT30=Person-property|bratT31=Person
+6	самопровозглашенной	_	_	_	_	_	_	_	bratA6=T31:Male|bratT30=Person-property|bratT31=Person|bratT32=GPE
+7	ДНР	_	_	_	_	_	_	_	bratA6=T31:Male|bratT30=Person-property|bratT31=Person|bratT32=GPE
+8	Игорь	_	_	_	_	_	_	_	bratA6=T31:Male|bratT31=Person|bratT33=Person-forename
+9	Стрелкову-Гиркину	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T31:Male|bratT29=Person-surname|bratT31=Person
+10	,	_	_	_	_	_	_	_	_
+11	отставному	_	_	_	_	_	_	_	bratA7=T39:Male|bratT35=Person-property|bratT39=Person
+12	офицеру	_	_	_	_	_	_	_	bratA7=T39:Male|bratT35=Person-property|bratT39=Person
+13	ГРУ	_	_	_	_	_	_	_	bratA7=T39:Male|bratT35=Person-property|bratT36=Organization|bratT39=Person
+14	Сергею	_	_	_	_	_	_	_	bratA7=T39:Male|bratT37=Person-forename|bratT39=Person
+15	Дубинскому	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T39:Male|bratT38=Person-surname|bratT39=Person
+16	,	_	_	_	_	_	_	_	_
+17	подполковнику	_	_	_	_	_	_	_	bratA8=T40:Male|bratT40=Person|bratT41=Person-property
+18	запаса	_	_	_	_	_	_	_	bratA8=T40:Male|bratT40=Person|bratT41=Person-property
+19	ВДВ	_	_	_	_	_	_	_	bratA8=T40:Male|bratT40=Person|bratT41=Person-property
+20	Олегу	_	_	_	_	_	_	_	bratA8=T40:Male|bratT40=Person|bratT42=Person-forename
+21	Пулатову	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T40:Male|bratT40=Person|bratT43=Person-surname
+22	,	_	_	_	_	_	_	_	_
+23	а	_	_	_	_	_	_	_	_
+24	также	_	_	_	_	_	_	_	_
+25	гражданину	_	_	_	_	_	_	_	bratA10=T45:Citizenship|bratA9=T44:Male|bratT44=Person|bratT45=Nationality
+26	Украины	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T45:Citizenship|bratA9=T44:Male|bratT44=Person|bratT45=Nationality|bratT46=GPE
+27	,	_	_	_	_	_	_	_	bratA9=T44:Male|bratT44=Person
+28	бывшему	_	_	_	_	_	_	_	bratA9=T44:Male|bratT44=Person|bratT47=Person-property
+29	командиру	_	_	_	_	_	_	_	bratA9=T44:Male|bratT44=Person|bratT47=Person-property
+30	ДНР	_	_	_	_	_	_	_	bratA9=T44:Male|bratT44=Person|bratT47=Person-property|bratT48=GPE
+31	Леониду	_	_	_	_	_	_	_	bratA9=T44:Male|bratT44=Person|bratT49=Person-forename
+32	Харченко	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T44:Male|bratT44=Person|bratT50=Person-surname
+33	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0031-p5
+# par_text = Последний, как выяснила русская служба «Би-би-си», еще в марте был арестован в ДНР по другому уголовному делу. Кроме того, журналисты узнали, что в расследовании дела о крушении рейса MH17 фигурирует первый заместитель руководителя пограничной службы ФСБ Андрей Бурлака.
+# sent_id = 0031-p5-s1
+# text = Последний, как выяснила русская служба ``Би-би-си'', еще в марте был арестован в ДНР по другому уголовному делу.
+1	Последний	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Ordinal
+2	,	_	_	_	_	_	_	_	_
+3	как	_	_	_	_	_	_	_	_
+4	выяснила	_	_	_	_	_	_	_	_
+5	русская	_	_	_	_	_	_	_	bratA11=T52:Adjective|bratA12=T53:Media|bratT52=Nationality|bratT53=Organization
+6	служба	_	_	_	_	_	_	_	bratA12=T53:Media|bratT53=Organization
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T53:Media|bratT53=Organization
+8	Би-би-си	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T53:Media|bratT53=Organization
+9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T53:Media|bratT53=Organization
+10	,	_	_	_	_	_	_	_	_
+11	еще	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	bratA13=T54:Past|bratT54=Date-absolute
+13	марте	_	_	_	_	_	_	_	bratA13=T54:Past|bratT54=Date-absolute
+14	был	_	_	_	_	_	_	_	_
+15	арестован	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	ДНР	_	_	_	_	_	_	_	bratT55=GPE
+18	по	_	_	_	_	_	_	_	_
+19	другому	_	_	_	_	_	_	_	_
+20	уголовному	_	_	_	_	_	_	_	_
+21	делу	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0031-p5-s2
+# text = Кроме того, журналисты узнали, что в расследовании дела о крушении рейса MH17 фигурирует первый заместитель руководителя пограничной службы ФСБ Андрей Бурлака.
+1	Кроме	_	_	_	_	_	_	_	_
+2	того	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	журналисты	_	_	_	_	_	_	_	bratT56=Person-property
+5	узнали	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	расследовании	_	_	_	_	_	_	_	_
+10	дела	_	_	_	_	_	_	_	_
+11	о	_	_	_	_	_	_	_	_
+12	крушении	_	_	_	_	_	_	_	_
+13	рейса	_	_	_	_	_	_	_	_
+14-15	MH17	_	_	_	_	_	_	_	_
+14	MH	_	_	_	_	_	_	_	SpaceAfter=No
+15	17	_	_	_	_	_	_	_	bratT71=Cardinal
+16	фигурирует	_	_	_	_	_	_	_	_
+17	первый	_	_	_	_	_	_	_	bratA14=T57:Male|bratT57=Person|bratT58=Ordinal|bratT59=Person-property
+18	заместитель	_	_	_	_	_	_	_	bratA14=T57:Male|bratT57=Person|bratT59=Person-property
+19	руководителя	_	_	_	_	_	_	_	bratA14=T57:Male|bratT34=Person-property|bratT57=Person|bratT59=Person-property
+20	пограничной	_	_	_	_	_	_	_	bratA14=T57:Male|bratT34=Person-property|bratT57=Person|bratT59=Person-property
+21	службы	_	_	_	_	_	_	_	bratA14=T57:Male|bratT34=Person-property|bratT57=Person|bratT59=Person-property
+22	ФСБ	_	_	_	_	_	_	_	bratA14=T57:Male|bratT34=Person-property|bratT57=Person|bratT59=Person-property|bratT60=Organization
+23	Андрей	_	_	_	_	_	_	_	bratA14=T57:Male|bratT57=Person|bratT61=Person-forename
+24	Бурлака	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T57:Male|bratT57=Person|bratT62=Person-surname
+25	.	_	_	_	_	_	_	_	_
+

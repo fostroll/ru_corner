@@ -16,9 +16,9 @@
 2	Китае	_	_	_	_	_	_	_	bratT2=GPE
 3	решили	_	_	_	_	_	_	_	_
 4	скорректировать	_	_	_	_	_	_	_	_
-5	политику	_	_	_	_	_	_	_	_
-6	уменьшения	_	_	_	_	_	_	_	_
-7	рождаемости	_	_	_	_	_	_	_	SpaceAfter=No
+5	политику	_	_	_	_	_	_	_	bratA10=T29:Project|bratT29=Product
+6	уменьшения	_	_	_	_	_	_	_	bratA10=T29:Project|bratT29=Product
+7	рождаемости	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T29:Project|bratT29=Product
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0050-p2-s2
@@ -30,13 +30,13 @@
 5	борьбы	_	_	_	_	_	_	_	_
 6	со	_	_	_	_	_	_	_	_
 7	старением	_	_	_	_	_	_	_	_
-8	нации	_	_	_	_	_	_	_	_
+8	нации	_	_	_	_	_	_	_	bratA18=T39:Citizenship|bratT39=Nationality
 9	и	_	_	_	_	_	_	_	_
 10	сокращением	_	_	_	_	_	_	_	_
 11	рабочей	_	_	_	_	_	_	_	_
 12	силы	_	_	_	_	_	_	_	_
-13	граждан	_	_	_	_	_	_	_	_
-14	страны	_	_	_	_	_	_	_	_
+13	граждан	_	_	_	_	_	_	_	bratA11=T30:Citizenship|bratT30=Nationality
+14	страны	_	_	_	_	_	_	_	bratA11=T30:Citizenship|bratT30=Nationality
 15	попросят	_	_	_	_	_	_	_	_
 16	больше	_	_	_	_	_	_	_	_
 17	рожать	_	_	_	_	_	_	_	SpaceAfter=No
@@ -57,9 +57,9 @@
 # text = ``Универсальная политика второго ребенка ни в коем случае не будет концом оптимизации политики планирования семьи.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Универсальная	_	_	_	_	_	_	_	_
-3	политика	_	_	_	_	_	_	_	_
-4	второго	_	_	_	_	_	_	_	bratT14=Family|bratT7=Ordinal
-5	ребенка	_	_	_	_	_	_	_	bratT14=Family
+3	политика	_	_	_	_	_	_	_	bratA9=T28:Project|bratT28=Product
+4	второго	_	_	_	_	_	_	_	bratA9=T28:Project|bratT14=Family|bratT28=Product|bratT7=Ordinal
+5	ребенка	_	_	_	_	_	_	_	bratA9=T28:Project|bratT14=Family|bratT28=Product
 6	ни	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	коем	_	_	_	_	_	_	_	_
@@ -68,9 +68,9 @@
 11	будет	_	_	_	_	_	_	_	_
 12	концом	_	_	_	_	_	_	_	_
 13	оптимизации	_	_	_	_	_	_	_	_
-14	политики	_	_	_	_	_	_	_	_
-15	планирования	_	_	_	_	_	_	_	_
-16	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Family
+14	политики	_	_	_	_	_	_	_	bratA12=T31:Project|bratT31=Product
+15	планирования	_	_	_	_	_	_	_	bratA12=T31:Project|bratT31=Product
+16	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T31:Project|bratT13=Family|bratT31=Product
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0050-p3-s2
@@ -92,18 +92,18 @@
 15	силы	_	_	_	_	_	_	_	_
 16	и	_	_	_	_	_	_	_	_
 17	структуры	_	_	_	_	_	_	_	_
-18	населения	_	_	_	_	_	_	_	SpaceAfter=No
+18	населения	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T37:Resident|bratT37=Nationality
 19	''	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	сказал	_	_	_	_	_	_	_	_
 23	Юань	_	_	_	_	_	_	_	bratA5=T4:Male|bratT24=Person-forename|bratT4=Person
 24	Синь	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T4:Male|bratT25=Person-surname|bratT4=Person
-25	,	_	_	_	_	_	_	_	_
-26	вице-президент	_	_	_	_	_	_	_	bratT5=Person-property
-27	Китайской	_	_	_	_	_	_	_	bratA6=T22:Adjective|bratT22=GPE|bratT5=Person-property|bratT6=Organization
-28	ассоциации	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization
-29	народонаселения	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT6=Organization
+25	,	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person
+26	вице-президент	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person|bratT5=Person-property
+27	Китайской	_	_	_	_	_	_	_	bratA5=T4:Male|bratA6=T22:Adjective|bratT22=GPE|bratT4=Person|bratT5=Person-property|bratT6=Organization
+28	ассоциации	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
+29	народонаселения	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T38:Citizenship|bratA5=T4:Male|bratT38=Nationality|bratT4=Person|bratT5=Person-property|bratT6=Organization
 30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0050-p4
@@ -151,7 +151,7 @@
 1	В	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
 2	настоящее	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute|bratT27=Ordinal
 3	время	_	_	_	_	_	_	_	bratA4=T18:Present|bratT18=Date-absolute
-4	специалисты	_	_	_	_	_	_	_	_
+4	специалисты	_	_	_	_	_	_	_	bratT32=Person-property
 5	обсуждают	_	_	_	_	_	_	_	_
 6	ослабление	_	_	_	_	_	_	_	_
 7	такой	_	_	_	_	_	_	_	_
@@ -171,17 +171,17 @@
 9	будет	_	_	_	_	_	_	_	_
 10	ли	_	_	_	_	_	_	_	_
 11	разрешено	_	_	_	_	_	_	_	_
-12	китайским	_	_	_	_	_	_	_	bratA7=T23:Adjective|bratT23=GPE
-13	парам	_	_	_	_	_	_	_	bratT19=Family
+12	китайским	_	_	_	_	_	_	_	bratA13=T33:Citizenship|bratA7=T23:Adjective|bratT23=GPE|bratT33=Nationality
+13	парам	_	_	_	_	_	_	_	bratA13=T33:Citizenship|bratT19=Family|bratT33=Nationality
 14	иметь	_	_	_	_	_	_	_	_
 15	до	_	_	_	_	_	_	_	bratT9=Quantity
 16	трех	_	_	_	_	_	_	_	bratT9=Quantity
 17	детей	_	_	_	_	_	_	_	bratT20=Family|bratT9=Quantity
 18	или	_	_	_	_	_	_	_	_
 19	же	_	_	_	_	_	_	_	_
-20	политика	_	_	_	_	_	_	_	_
-21	ограничения	_	_	_	_	_	_	_	_
-22	рождаемости	_	_	_	_	_	_	_	_
+20	политика	_	_	_	_	_	_	_	bratA14=T34:Project|bratT34=Product
+21	ограничения	_	_	_	_	_	_	_	bratA14=T34:Project|bratT34=Product
+22	рождаемости	_	_	_	_	_	_	_	bratA14=T34:Project|bratT34=Product
 23	будет	_	_	_	_	_	_	_	_
 24	отменена	_	_	_	_	_	_	_	SpaceAfter=No
 25	.	_	_	_	_	_	_	_	_
@@ -231,9 +231,9 @@
 21	поэтому	_	_	_	_	_	_	_	_
 22	более	_	_	_	_	_	_	_	_
 23	мягкая	_	_	_	_	_	_	_	_
-24	политика	_	_	_	_	_	_	_	_
-25	планирования	_	_	_	_	_	_	_	_
-26	семьи	_	_	_	_	_	_	_	bratT16=Family
+24	политика	_	_	_	_	_	_	_	bratA15=T35:Project|bratT35=Product
+25	планирования	_	_	_	_	_	_	_	bratA15=T35:Project|bratT35=Product
+26	семьи	_	_	_	_	_	_	_	bratA15=T35:Project|bratT16=Family|bratT35=Product
 27	может	_	_	_	_	_	_	_	_
 28	означать	_	_	_	_	_	_	_	_
 29	для	_	_	_	_	_	_	_	_

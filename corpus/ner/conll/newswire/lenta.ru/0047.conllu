@@ -8,9 +8,9 @@
 3	Нетаньяху	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT63=Person-surname
 4	обсудили	_	_	_	_	_	_	_	_
 5	возможность	_	_	_	_	_	_	_	_
-6	поставки	_	_	_	_	_	_	_	_
-7	российской	_	_	_	_	_	_	_	bratA10=T41:Adjective|bratT41=GPE|bratT43=Other-term
-8	вакцины	_	_	_	_	_	_	_	bratT43=Other-term
+6	поставки	_	_	_	_	_	_	_	bratT65=Event
+7	российской	_	_	_	_	_	_	_	bratA10=T41:Adjective|bratA22=T43:Trademark|bratT41=GPE|bratT43=Product
+8	вакцины	_	_	_	_	_	_	_	bratA22=T43:Trademark|bratT43=Product
 9	в	_	_	_	_	_	_	_	_
 10	Израиль	_	_	_	_	_	_	_	bratT3=GPE
 
@@ -32,9 +32,9 @@
 12	Владимиром	_	_	_	_	_	_	_	bratA11=T11:Male|bratT11=Person|bratT56=Person-forename
 13	Путиным	_	_	_	_	_	_	_	bratA11=T11:Male|bratT11=Person|bratT57=Person-surname
 14	возможность	_	_	_	_	_	_	_	_
-15	поставки	_	_	_	_	_	_	_	_
-16	российской	_	_	_	_	_	_	_	bratA12=T42:Adjective|bratT42=GPE|bratT44=Other-term
-17	вакцины	_	_	_	_	_	_	_	bratT44=Other-term
+15	поставки	_	_	_	_	_	_	_	bratT66=Event
+16	российской	_	_	_	_	_	_	_	bratA12=T42:Adjective|bratA23=T44:Trademark|bratT42=GPE|bratT44=Product
+17	вакцины	_	_	_	_	_	_	_	bratA23=T44:Trademark|bratT44=Product
 18	от	_	_	_	_	_	_	_	_
 19	коронавирусной	_	_	_	_	_	_	_	bratT5=Other-term
 20	инфекции	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-term
@@ -62,17 +62,17 @@
 8	они	_	_	_	_	_	_	_	_
 9	планируют	_	_	_	_	_	_	_	_
 10	обсудить	_	_	_	_	_	_	_	_
-11	покупку	_	_	_	_	_	_	_	_
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product
-13	Спутника	_	_	_	_	_	_	_	bratT13=Product
-14	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product
-15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product
+11	покупку	_	_	_	_	_	_	_	bratT67=Event
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T13:Trademark|bratT13=Product
+13	Спутника	_	_	_	_	_	_	_	bratA19=T13:Trademark|bratT13=Product
+14	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T13:Trademark|bratT13=Product
+15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T13:Trademark|bratT13=Product
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p3-s2
 # text = Также политик напомнил, что летом Израиль подписал соглашение с Moderna о закупке будущей вакцины и станет ``одной из первых стран, которые получат вакцину'' американской компании.
 1	Также	_	_	_	_	_	_	_	_
-2	политик	_	_	_	_	_	_	_	bratT14=Political-group
+2	политик	_	_	_	_	_	_	_	bratA27=T76:Male|bratT14=Person-property|bratT76=Person
 3	напомнил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 10	с	_	_	_	_	_	_	_	_
 11	Moderna	_	_	_	_	_	_	_	bratT16=Organization
 12	о	_	_	_	_	_	_	_	_
-13	закупке	_	_	_	_	_	_	_	_
+13	закупке	_	_	_	_	_	_	_	bratT68=Event
 14	будущей	_	_	_	_	_	_	_	_
 15	вакцины	_	_	_	_	_	_	_	bratT45=Other-term
 16	и	_	_	_	_	_	_	_	_
@@ -96,10 +96,10 @@
 23	,	_	_	_	_	_	_	_	_
 24	которые	_	_	_	_	_	_	_	_
 25	получат	_	_	_	_	_	_	_	_
-26	вакцину	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Other-term
-27	''	_	_	_	_	_	_	_	_
-28	американской	_	_	_	_	_	_	_	bratA14=T47:Adjective|bratT47=GPE
-29	компании	_	_	_	_	_	_	_	SpaceAfter=No
+26	вакцину	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T77:Trademark|bratT46=Other-term|bratT77=Product
+27	''	_	_	_	_	_	_	_	bratA28=T77:Trademark|bratT77=Product
+28	американской	_	_	_	_	_	_	_	bratA14=T47:Adjective|bratA28=T77:Trademark|bratT47=GPE|bratT77=Product
+29	компании	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T77:Trademark|bratT77=Product
 30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0047-p4
@@ -126,7 +126,7 @@
 18	можно	_	_	_	_	_	_	_	_
 19	большего	_	_	_	_	_	_	_	_
 20	числа	_	_	_	_	_	_	_	_
-21	граждан	_	_	_	_	_	_	_	_
+21	граждан	_	_	_	_	_	_	_	bratA30=T78:Citizenship|bratT78=Nationality
 22	как	_	_	_	_	_	_	_	_
 23	можно	_	_	_	_	_	_	_	_
 24	скорее	_	_	_	_	_	_	_	SpaceAfter=No
@@ -152,8 +152,8 @@
 9	десятков	_	_	_	_	_	_	_	bratT34=Quantity
 10	стран	_	_	_	_	_	_	_	bratT34=Quantity
 11	к	_	_	_	_	_	_	_	_
-12	российским	_	_	_	_	_	_	_	bratA17=T50:Adjective|bratT49=Other-term|bratT50=GPE
-13	вакцинам	_	_	_	_	_	_	_	bratT49=Other-term
+12	российским	_	_	_	_	_	_	_	bratA17=T50:Adjective|bratA24=T49:Trademark|bratT49=Product|bratT50=GPE
+13	вакцинам	_	_	_	_	_	_	_	bratA24=T49:Trademark|bratT49=Product
 14	от	_	_	_	_	_	_	_	_
 15	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Other-term
 16	.	_	_	_	_	_	_	_	_
@@ -162,8 +162,8 @@
 # text = По словам главы государства, многие ``уже выразили желание наладить кооперацию по поставкам и по совместному производству этих препаратов''.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	главы	_	_	_	_	_	_	_	bratT21=Person-property
-4	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
+3	главы	_	_	_	_	_	_	_	bratT21=Person-property|bratT73=Person
+4	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT73=Person
 5	,	_	_	_	_	_	_	_	_
 6	многие	_	_	_	_	_	_	_	_
 7	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -185,8 +185,8 @@
 
 # sent_id = 0047-p5-s3
 # text = Президент России также заявил, что свободный доступ к вакцинации должны иметь граждане всех государств.
-1	Президент	_	_	_	_	_	_	_	bratT22=Person-property
-2	России	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=GPE
+1	Президент	_	_	_	_	_	_	_	bratA25=T74:Male|bratT22=Person-property|bratT74=Person
+2	России	_	_	_	_	_	_	_	bratA25=T74:Male|bratT22=Person-property|bratT23=GPE|bratT74=Person
 3	также	_	_	_	_	_	_	_	_
 4	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
@@ -197,9 +197,9 @@
 10	вакцинации	_	_	_	_	_	_	_	_
 11	должны	_	_	_	_	_	_	_	_
 12	иметь	_	_	_	_	_	_	_	_
-13	граждане	_	_	_	_	_	_	_	_
-14	всех	_	_	_	_	_	_	_	_
-15	государств	_	_	_	_	_	_	_	SpaceAfter=No
+13	граждане	_	_	_	_	_	_	_	bratA29=T69:Citizenship|bratT69=Nationality
+14	всех	_	_	_	_	_	_	_	bratA29=T69:Citizenship|bratT69=Nationality
+15	государств	_	_	_	_	_	_	_	SpaceAfter=No|bratA29=T69:Citizenship|bratT69=Nationality
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0047-p6
@@ -215,32 +215,35 @@
 7	две	_	_	_	_	_	_	_	bratT51=Quantity
 8	вакцины	_	_	_	_	_	_	_	bratT51=Quantity|bratT52=Other-term
 9	против	_	_	_	_	_	_	_	_
-10	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
-11	.	_	_	_	_	_	_	_	_
+10-12	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+12	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term|bratT72=Cardinal
+13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p6-s2
 # text = Первым регистрацию прошел ``Спутник V''.
 1	Первым	_	_	_	_	_	_	_	bratT32=Ordinal
-2	регистрацию	_	_	_	_	_	_	_	_
+2	регистрацию	_	_	_	_	_	_	_	bratT71=Event
 3	прошел	_	_	_	_	_	_	_	_
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Product
-5	Спутник	_	_	_	_	_	_	_	bratT25=Product
-6	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Product
-7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Product
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T25:Trademark|bratT25=Product
+5	Спутник	_	_	_	_	_	_	_	bratA20=T25:Trademark|bratT25=Product
+6	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T25:Trademark|bratT25=Product
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T25:Trademark|bratT25=Product
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p6-s3
 # text = 14 октября российский лидер объявил о регистрации ``ЭпиВакКороны'' от центра ``Вектор''.
 1	14	_	_	_	_	_	_	_	bratA3=T26:Past|bratT26=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA3=T26:Past|bratT26=Date-absolute
-3	российский	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratT29=Person-property|bratT53=GPE
-4	лидер	_	_	_	_	_	_	_	bratT29=Person-property
+3	российский	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratA26=T75:Male|bratT29=Person-property|bratT53=GPE|bratT75=Person
+4	лидер	_	_	_	_	_	_	_	bratA26=T75:Male|bratT29=Person-property|bratT75=Person
 5	объявил	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	регистрации	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Product
-9	ЭпиВакКороны	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Product
-10	''	_	_	_	_	_	_	_	bratT27=Product
+7	регистрации	_	_	_	_	_	_	_	bratT70=Event
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T27:Trademark|bratT27=Product
+9	ЭпиВакКороны	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T27:Trademark|bratT27=Product
+10	''	_	_	_	_	_	_	_	bratA21=T27:Trademark|bratT27=Product
 11	от	_	_	_	_	_	_	_	_
 12	центра	_	_	_	_	_	_	_	bratT28=Organization
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization

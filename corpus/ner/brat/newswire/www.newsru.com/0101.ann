@@ -1,0 +1,114 @@
+T1	Person 0 77	Члена   президиума   Координационного   совета   Белоруссии   Лилию   Власову
+T2	Organization 8 59	президиума   Координационного   совета   Белоруссии
+A1	Department T2
+T3	Organization 21 59	Координационного   совета   Белоруссии
+T4	Person-property 0 59	Члена   президиума   Координационного   совета   Белоруссии
+T5	GPE 49 59	Белоруссии
+T6	Person 115 231	Члена   президиума   Координационного   совета   (   КС   )   белорусской   оппозиции   ,   юриста   Лилию   Власову
+T7	Person-property 115 200	Члена   президиума   Координационного   совета   (   КС   )   белорусской   оппозиции
+T8	Person-property 207 213	юриста
+T9	Organization 123 200	президиума   Координационного   совета   (   КС   )   белорусской   оппозиции
+A2	Department T9
+T10	Organization 136 200	Координационного   совета   (   КС   )   белорусской   оппозиции
+T11	Person 369 419	президентом   Белоруссии   Александром   Лукашенко
+T12	Person-property 369 393	президентом   Белоруссии
+T13	GPE 383 393	Белоруссии
+T14	Facility 426 436	СИЗО   КГБ
+T15	Organization 433 436	КГБ
+T16	Person 442 474	Бизнесмен   Юрий   Воскресенский
+T17	Person-property 442 451	Бизнесмен
+T18	Organization 560 568	Tut . by
+A4	Media T18
+T19	Person 598 605	Власову
+T20	Date-absolute 608 620	16   октября
+T21	Person-property 718 736	адвокат   Власовой
+T22	Person-surname 728 736	Власовой
+T23	Person 742 757	Лилию   Власову
+T24	Date-absolute 772 784	31   августа
+T25	Time-period 969 981	до   7   лет
+T26	Money 1128 1170	около   615   тысяч   белорусских   рублей
+T27	Organization 1176 1199	Координационный   совет
+T28	Person 1225 1232	Власову
+T29	Person 1264 1310	адвоката   Марии   Колесниковой   Илью   Салея
+T30	Person-property 1264 1295	адвоката   Марии   Колесниковой
+T31	Person 1275 1295	Марии   Колесниковой
+T32	Person 1453 1468	Лилия   Власова
+T33	Person 1475 1487	Илья   Салей
+T34	Service 1725 1740	Telegram-канале
+A5	Media T34
+T35	Organization 1743 1745	КС
+T37	Person 1043 1051	Власовой
+T38	Family 1037 1040	сын
+T39	Person-property 1099 1108	силовиков
+T40	Person-property 1558 1568	обвиняемых
+T41	Quantity 522 532	одним   из
+T42	Ordinal 535 541	первых
+T44	Organization 168 170	КС
+T45	Quantity 317 352	несколькими   другими   участниками
+T46	Date-relative 497 519	после   этой   встречи
+T47	Date-relative 791 810	в   тот   же   день
+T48	Date-relative 1256 1261	ранее
+T49	Other-group 1313 1330	политзаключенными
+T50	Date-absolute 1444 1450	Сейчас
+T51	Other-group 1803 1829	политических   заключенных
+T52	Person-forename 62 67	Лилию
+T53	Person-surname 70 77	Власову
+A6	Female T1
+T54	Person-forename 216 221	Лилию
+T55	Person-surname 224 231	Власову
+A7	Female T6
+T56	Person-forename 396 407	Александром
+T57	Person-surname 410 419	Лукашенко
+A8	Male T11
+T58	Person-forename 454 458	Юрий
+T59	Person-surname 461 474	Воскресенский
+A9	Male T16
+A10	Past T46
+A11	Female T19
+T60	Person-surname 598 605	Власову
+A12	Past T20
+T61	Person 728 736	Власовой
+A13	Female T61
+A14	Past T24
+A15	Female T23
+T62	Person-forename 742 747	Лилию
+T63	Person-surname 750 757	Власову
+A16	Past T47
+T43	Duration 969 981	до   7   лет
+T64	Person-surname 1043 1051	Власовой
+T65	Person-forename 1054 1059	Борис
+A18	Female T37
+T36	Person 1037 1059	сын   Власовой   Борис
+A17	Male T36
+T66	GPE 1150 1161	белорусских
+A19	Adjective T66
+T67	Person-surname 1225 1232	Власову
+A20	Female T28
+A21	Past T48
+T68	Person-forename 1275 1280	Марии
+T69	Person-surname 1283 1295	Колесниковой
+T70	Person-forename 1298 1302	Илью
+T71	Person-surname 1305 1310	Салея
+A22	Male T29
+A23	Female T31
+A24	Present T50
+A25	Female T32
+T72	Person-forename 1453 1458	Лилия
+T73	Person-surname 1461 1468	Власова
+T74	Person-forename 1475 1479	Илья
+T75	Person-surname 1482 1487	Салей
+A26	Male T33
+T76	Family 1617 1624	родными
+T77	GPE 177 188	белорусской
+A27	Adjective T77
+T78	Ordinal 505 509	этой
+T79	Event 512 519	встречи
+T80	Event 1386 1402	домашний   арест
+T81	Event 1421 1434	освобождением
+T82	Event 97 113	домашний   арест
+T83	Event 285 301	домашний   арест
+T84	Organization 177 200	белорусской   оппозиции
+T85	Organization 1751 1760	Оппозиция
+T86	Nationality 1866 1873	граждан
+A3	Citizenship T86
+T87	Web-address 560 568	Tut . by

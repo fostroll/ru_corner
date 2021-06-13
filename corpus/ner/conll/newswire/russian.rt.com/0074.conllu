@@ -25,7 +25,7 @@
 6	ходе	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute
 7	обращения	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute|bratT33=Event
 8	к	_	_	_	_	_	_	_	bratT33=Event
-9	нации	_	_	_	_	_	_	_	bratT33=Event
+9	нации	_	_	_	_	_	_	_	bratA19=T50:Citizenship|bratT33=Event|bratT50=Nationality
 10	объявил	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
@@ -49,7 +49,7 @@
 2	выступления	_	_	_	_	_	_	_	_
 3	Алиева	_	_	_	_	_	_	_	bratA10=T4:Male|bratT38=Person-surname|bratT4=Person
 4	вёл	_	_	_	_	_	_	_	_
-5	государственный	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
+5	государственный	_	_	_	_	_	_	_	bratA1=T5:Media|bratA20=T51:Adjective|bratT5=Organization|bratT51=GPE
 6	телеканал	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
 8	АзТВ	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
@@ -62,7 +62,7 @@
 # text = ``Дорогие соотечественники, сегодня Кельбаджарский район освобождён от оккупации.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Дорогие	_	_	_	_	_	_	_	_
-3	соотечественники	_	_	_	_	_	_	_	SpaceAfter=No
+3	соотечественники	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T49:Citizenship|bratT49=Nationality
 4	,	_	_	_	_	_	_	_	_
 5	сегодня	_	_	_	_	_	_	_	bratA5=T31:Past|bratT31=Date-absolute
 6	Кельбаджарский	_	_	_	_	_	_	_	bratT6=GPE
@@ -101,8 +101,8 @@
 5	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	азербайджанские	_	_	_	_	_	_	_	bratA15=T40:Adjective|bratT40=GPE
-9	войска	_	_	_	_	_	_	_	_
+8	азербайджанские	_	_	_	_	_	_	_	bratA15=T40:Adjective|bratT40=GPE|bratT48=Organization
+9	войска	_	_	_	_	_	_	_	bratT48=Organization
 10	вошли	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
 12	Кельбаджарский	_	_	_	_	_	_	_	bratT11=GPE

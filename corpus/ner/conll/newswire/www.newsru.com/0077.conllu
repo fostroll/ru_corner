@@ -1,0 +1,229 @@
+# newdoc id = 0077
+# newpar id = 0077-p1
+# par_text = В Испании групповые матчи Лиги чемпионов пройдут без болельщиков
+# sent_id = 0077-p1-s1
+# text = В Испании групповые матчи Лиги чемпионов пройдут без болельщиков
+1	В	_	_	_	_	_	_	_	_
+2	Испании	_	_	_	_	_	_	_	bratT1=GPE
+3	групповые	_	_	_	_	_	_	_	bratT50=Event
+4	матчи	_	_	_	_	_	_	_	bratT50=Event
+5	Лиги	_	_	_	_	_	_	_	bratT2=Event|bratT50=Event
+6	чемпионов	_	_	_	_	_	_	_	bratT2=Event|bratT50=Event
+7	пройдут	_	_	_	_	_	_	_	_
+8	без	_	_	_	_	_	_	_	_
+9	болельщиков	_	_	_	_	_	_	_	bratT3=Other-group
+
+# newpar id = 0077-p2
+# par_text = Футбольные матчи группового этапа Лиги чемпионов на территории Испании пройдут без зрителей.
+# sent_id = 0077-p2-s1
+# text = Футбольные матчи группового этапа Лиги чемпионов на территории Испании пройдут без зрителей.
+1	Футбольные	_	_	_	_	_	_	_	bratT51=Event
+2	матчи	_	_	_	_	_	_	_	bratT51=Event
+3	группового	_	_	_	_	_	_	_	bratT35=Event|bratT51=Event
+4	этапа	_	_	_	_	_	_	_	bratT35=Event|bratT51=Event
+5	Лиги	_	_	_	_	_	_	_	bratT35=Event|bratT4=Event|bratT51=Event
+6	чемпионов	_	_	_	_	_	_	_	bratT35=Event|bratT4=Event|bratT51=Event
+7	на	_	_	_	_	_	_	_	_
+8	территории	_	_	_	_	_	_	_	_
+9	Испании	_	_	_	_	_	_	_	bratT5=GPE
+10	пройдут	_	_	_	_	_	_	_	_
+11	без	_	_	_	_	_	_	_	_
+12	зрителей	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0077-p3
+# par_text = УЕФA 1 октября разрешил заполнять трибуны на 30 процентов от вместимости стадионов на играх национальных команд и еврокубков, отметив, что окончательное решение о допуске зрителей будут принимать местные власти.
+# sent_id = 0077-p3-s1
+# text = УЕФA 1 октября разрешил заполнять трибуны на 30 процентов от вместимости стадионов на играх национальных команд и еврокубков, отметив, что окончательное решение о допуске зрителей будут принимать местные власти.
+1	УЕФA	_	_	_	_	_	_	_	bratT6=Organization
+2	1	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+3	октября	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+4	разрешил	_	_	_	_	_	_	_	_
+5	заполнять	_	_	_	_	_	_	_	_
+6	трибуны	_	_	_	_	_	_	_	_
+7	на	_	_	_	_	_	_	_	bratT8=Percent
+8	30	_	_	_	_	_	_	_	bratT8=Percent
+9	процентов	_	_	_	_	_	_	_	bratT8=Percent
+10	от	_	_	_	_	_	_	_	bratT8=Percent
+11	вместимости	_	_	_	_	_	_	_	_
+12	стадионов	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	играх	_	_	_	_	_	_	_	bratT55=Event
+15	национальных	_	_	_	_	_	_	_	bratA14=T57:Adjective|bratT56=Organization|bratT57=GPE
+16	команд	_	_	_	_	_	_	_	bratT56=Organization
+17	и	_	_	_	_	_	_	_	_
+18	еврокубков	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Event
+19	,	_	_	_	_	_	_	_	_
+20	отметив	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	_	_	_	_	_	_	_	_
+22	что	_	_	_	_	_	_	_	_
+23	окончательное	_	_	_	_	_	_	_	_
+24	решение	_	_	_	_	_	_	_	_
+25	о	_	_	_	_	_	_	_	_
+26	допуске	_	_	_	_	_	_	_	_
+27	зрителей	_	_	_	_	_	_	_	_
+28	будут	_	_	_	_	_	_	_	_
+29	принимать	_	_	_	_	_	_	_	_
+30	местные	_	_	_	_	_	_	_	bratA13=T53:Adjective|bratT52=Organization|bratT53=GPE
+31	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+32	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0077-p4
+# par_text = По информации газеты Marca, правительство Испании направило в УЕФА письмо, в котором сообщило, что исключает появление болельщиков на стадионах страны до конца 2020 года.
+# sent_id = 0077-p4-s1
+# text = По информации газеты Marca, правительство Испании направило в УЕФА письмо, в котором сообщило, что исключает появление болельщиков на стадионах страны до конца 2020 года.
+1	По	_	_	_	_	_	_	_	_
+2	информации	_	_	_	_	_	_	_	_
+3	газеты	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
+4	Marca	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
+5	,	_	_	_	_	_	_	_	_
+6	правительство	_	_	_	_	_	_	_	bratT10=Organization
+7	Испании	_	_	_	_	_	_	_	bratT10=Organization|bratT11=GPE
+8	направило	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	УЕФА	_	_	_	_	_	_	_	bratT12=Organization
+11	письмо	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	котором	_	_	_	_	_	_	_	_
+15	сообщило	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	что	_	_	_	_	_	_	_	_
+18	исключает	_	_	_	_	_	_	_	_
+19	появление	_	_	_	_	_	_	_	_
+20	болельщиков	_	_	_	_	_	_	_	bratT13=Person-property
+21	на	_	_	_	_	_	_	_	_
+22	стадионах	_	_	_	_	_	_	_	_
+23	страны	_	_	_	_	_	_	_	bratT58=GPE
+24	до	_	_	_	_	_	_	_	bratA4=T14:LCont|bratA5=T14:Pres-Fut|bratT14=Date-period-absolute
+25	конца	_	_	_	_	_	_	_	bratA4=T14:LCont|bratA5=T14:Pres-Fut|bratT14=Date-period-absolute
+26	2020	_	_	_	_	_	_	_	bratA4=T14:LCont|bratA5=T14:Pres-Fut|bratT14=Date-period-absolute
+27	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:LCont|bratA5=T14:Pres-Fut|bratT14=Date-period-absolute
+28	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0077-p5
+# par_text = В Лиге чемпионов выступают испанские "Реал", "Барселона" и "Севилья", которая оказалась в одной группе с "Краснодаром", и "Атлетико", играющий с московским "Локомотивом". В Лиге Европы Испанию представляют "Гранада", "Реал Сосьедад" и "Вильярреал".
+# sent_id = 0077-p5-s1
+# text = В Лиге чемпионов выступают испанские ``Реал'', ``Барселона'' и ``Севилья'', которая оказалась в одной группе с ``Краснодаром'', и ``Атлетико'', играющий с московским ``Локомотивом''.
+1	В	_	_	_	_	_	_	_	_
+2	Лиге	_	_	_	_	_	_	_	bratT15=Event
+3	чемпионов	_	_	_	_	_	_	_	bratT15=Event
+4	выступают	_	_	_	_	_	_	_	_
+5	испанские	_	_	_	_	_	_	_	bratA2=T16:Plural|bratA6=T44:Adjective|bratT16=Organization|bratT44=GPE
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT36=Organization
+7	Реал	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT36=Organization
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT36=Organization
+9	,	_	_	_	_	_	_	_	bratA2=T16:Plural|bratT16=Organization
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT37=Organization
+11	Барселона	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT37=Organization|bratT42=GPE
+12	''	_	_	_	_	_	_	_	bratA2=T16:Plural|bratT16=Organization|bratT37=Organization
+13	и	_	_	_	_	_	_	_	bratA2=T16:Plural|bratT16=Organization
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT38=Organization
+15	Севилья	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT38=Organization|bratT43=GPE
+16	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Plural|bratT16=Organization|bratT38=Organization
+17	,	_	_	_	_	_	_	_	_
+18	которая	_	_	_	_	_	_	_	_
+19	оказалась	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	одной	_	_	_	_	_	_	_	bratT17=Quantity
+22	группе	_	_	_	_	_	_	_	bratT17=Quantity
+23	с	_	_	_	_	_	_	_	_
+24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+25	Краснодаром	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT45=GPE
+26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+27	,	_	_	_	_	_	_	_	_
+28	и	_	_	_	_	_	_	_	_
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
+30	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
+31	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
+32	,	_	_	_	_	_	_	_	_
+33	играющий	_	_	_	_	_	_	_	_
+34	с	_	_	_	_	_	_	_	_
+35	московским	_	_	_	_	_	_	_	bratA7=T46:Adjective|bratT19=Organization|bratT46=GPE
+36	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
+37	Локомотивом	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
+38	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
+39	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0077-p5-s2
+# text = В Лиге Европы Испанию представляют ``Гранада'', ``Реал Сосьедад'' и ``Вильярреал''.
+1	В	_	_	_	_	_	_	_	_
+2	Лиге	_	_	_	_	_	_	_	bratT20=Event
+3	Европы	_	_	_	_	_	_	_	bratT20=Event
+4	Испанию	_	_	_	_	_	_	_	bratT21=GPE
+5	представляют	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+7	Гранада	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+9	,	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
+11	Реал	_	_	_	_	_	_	_	bratT22=Organization
+12	Сосьедад	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
+13	''	_	_	_	_	_	_	_	bratT22=Organization
+14	и	_	_	_	_	_	_	_	_
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
+16	Вильярреал	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization|bratT47=GPE
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0077-p6
+# par_text = Игры группового этапа Лиги чемпионов и Лиги Европы пройдут с 20 октября по 10 декабря. "Локомотив" сыграет с "Атлетико" дома 3 ноября и в гостях 25 ноября. "Краснодар" встретится с "Севильей" в гостях 4 ноября и дома 24 ноября.
+# sent_id = 0077-p6-s1
+# text = Игры группового этапа Лиги чемпионов и Лиги Европы пройдут с 20 октября по 10 декабря.
+1	Игры	_	_	_	_	_	_	_	_
+2	группового	_	_	_	_	_	_	_	bratT23=Event
+3	этапа	_	_	_	_	_	_	_	bratT23=Event
+4	Лиги	_	_	_	_	_	_	_	bratT23=Event|bratT24=Event
+5	чемпионов	_	_	_	_	_	_	_	bratT23=Event|bratT24=Event
+6	и	_	_	_	_	_	_	_	_
+7	Лиги	_	_	_	_	_	_	_	bratT25=Event
+8	Европы	_	_	_	_	_	_	_	bratT25=Event
+9	пройдут	_	_	_	_	_	_	_	_
+10	с	_	_	_	_	_	_	_	bratA8=T26:Fut|bratT26=Date-period-absolute
+11	20	_	_	_	_	_	_	_	bratA8=T26:Fut|bratT26=Date-period-absolute
+12	октября	_	_	_	_	_	_	_	bratA8=T26:Fut|bratT26=Date-period-absolute
+13	по	_	_	_	_	_	_	_	bratA8=T26:Fut|bratT26=Date-period-absolute
+14	10	_	_	_	_	_	_	_	bratA8=T26:Fut|bratT26=Date-period-absolute
+15	декабря	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:Fut|bratT26=Date-period-absolute
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0077-p6-s2
+# text = ``Локомотив'' сыграет с ``Атлетико'' дома 3 ноября и в гостях 25 ноября.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+2	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
+3	''	_	_	_	_	_	_	_	bratT27=Organization
+4	сыграет	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+7	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+8	''	_	_	_	_	_	_	_	bratT28=Organization
+9	дома	_	_	_	_	_	_	_	_
+10	3	_	_	_	_	_	_	_	bratA9=T29:Future|bratT29=Date-absolute
+11	ноября	_	_	_	_	_	_	_	bratA9=T29:Future|bratT29=Date-absolute
+12	и	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	гостях	_	_	_	_	_	_	_	_
+15	25	_	_	_	_	_	_	_	bratA10=T30:Future|bratT30=Date-absolute
+16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T30:Future|bratT30=Date-absolute
+17	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0077-p6-s3
+# text = ``Краснодар'' встретится с ``Севильей'' в гостях 4 ноября и дома 24 ноября.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+2	Краснодар	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization|bratT48=GPE
+3	''	_	_	_	_	_	_	_	bratT31=Organization
+4	встретится	_	_	_	_	_	_	_	_
+5	с	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+7	Севильей	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization|bratT49=GPE
+8	''	_	_	_	_	_	_	_	bratT32=Organization
+9	в	_	_	_	_	_	_	_	_
+10	гостях	_	_	_	_	_	_	_	_
+11	4	_	_	_	_	_	_	_	bratA11=T33:Future|bratT33=Date-absolute
+12	ноября	_	_	_	_	_	_	_	bratA11=T33:Future|bratT33=Date-absolute
+13	и	_	_	_	_	_	_	_	_
+14	дома	_	_	_	_	_	_	_	_
+15	24	_	_	_	_	_	_	_	bratA12=T34:Future|bratT34=Date-absolute
+16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T34:Future|bratT34=Date-absolute
+17	.	_	_	_	_	_	_	_	_
+

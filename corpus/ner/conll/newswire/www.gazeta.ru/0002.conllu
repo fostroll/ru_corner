@@ -8,8 +8,8 @@
 3	Германии	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Organization|bratT3=Person-property
 4	рассказал	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
-6	возможной	_	_	_	_	_	_	_	_
-7	отставке	_	_	_	_	_	_	_	_
+6	возможной	_	_	_	_	_	_	_	bratT43=Event
+7	отставке	_	_	_	_	_	_	_	bratT43=Event
 8	главного	_	_	_	_	_	_	_	bratT4=Person-property
 9	тренера	_	_	_	_	_	_	_	bratT4=Person-property
 
@@ -30,7 +30,7 @@
 11	Испании	_	_	_	_	_	_	_	bratT7=GPE|bratT8=Organization
 12	дома	_	_	_	_	_	_	_	_
 13	разгромила	_	_	_	_	_	_	_	_
-14	национальную	_	_	_	_	_	_	_	bratT10=Organization
+14	национальную	_	_	_	_	_	_	_	bratA10=T45:Adjective|bratT10=Organization|bratT45=GPE
 15	команду	_	_	_	_	_	_	_	bratT10=Organization
 16	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT9=GPE
 17	.	_	_	_	_	_	_	_	_
@@ -39,7 +39,7 @@
 # par_text = Встреча прошла в Севилье и закончилась со счетом 6:0.
 # sent_id = 0002-p3-s1
 # text = Встреча прошла в Севилье и закончилась со счетом 6:0.
-1	Встреча	_	_	_	_	_	_	_	_
+1	Встреча	_	_	_	_	_	_	_	bratT42=Event
 2	прошла	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	Севилье	_	_	_	_	_	_	_	bratT11=GPE
@@ -55,15 +55,15 @@
 # sent_id = 0002-p4-s1
 # text = После игры генеральный менеджер сборной Германии рассказал о возможной отставке главного тренера Йоахима Лева, передает Twitter DW Sports.
 1	После	_	_	_	_	_	_	_	bratA2=T31:Past|bratT31=Date-absolute
-2	игры	_	_	_	_	_	_	_	bratA2=T31:Past|bratT31=Date-absolute
+2	игры	_	_	_	_	_	_	_	bratA2=T31:Past|bratT31=Date-absolute|bratT40=Event
 3	генеральный	_	_	_	_	_	_	_	bratT15=Person-property
 4	менеджер	_	_	_	_	_	_	_	bratT15=Person-property
 5	сборной	_	_	_	_	_	_	_	bratT14=Organization|bratT15=Person-property
 6	Германии	_	_	_	_	_	_	_	bratT13=GPE|bratT14=Organization|bratT15=Person-property
 7	рассказал	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
-9	возможной	_	_	_	_	_	_	_	_
-10	отставке	_	_	_	_	_	_	_	_
+9	возможной	_	_	_	_	_	_	_	bratT44=Event
+10	отставке	_	_	_	_	_	_	_	bratT44=Event
 11	главного	_	_	_	_	_	_	_	bratA6=T17:Male|bratT16=Person-property|bratT17=Person
 12	тренера	_	_	_	_	_	_	_	bratA6=T17:Male|bratT16=Person-property|bratT17=Person
 13	Йоахима	_	_	_	_	_	_	_	bratA6=T17:Male|bratT17=Person|bratT34=Person-forename
@@ -71,8 +71,8 @@
 15	,	_	_	_	_	_	_	_	_
 16	передает	_	_	_	_	_	_	_	_
 17	Twitter	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Service
-18	DW	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Service
-19	Sports	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T18:Media|bratT18=Service
+18	DW	_	_	_	_	_	_	_	bratA9=T41:Media|bratT41=Organization
+19	Sports	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T41:Media|bratT41=Organization
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0002-p5
@@ -108,7 +108,7 @@
 7	Испании	_	_	_	_	_	_	_	bratT21=GPE|bratT22=Organization
 8	стало	_	_	_	_	_	_	_	_
 9	для	_	_	_	_	_	_	_	_
-10	национальной	_	_	_	_	_	_	_	bratT24=Organization
+10	национальной	_	_	_	_	_	_	_	bratA11=T46:Adjective|bratT24=Organization|bratT46=GPE
 11	команды	_	_	_	_	_	_	_	bratT24=Organization
 12	Германии	_	_	_	_	_	_	_	bratT23=GPE|bratT24=Organization
 13	крупнейшим	_	_	_	_	_	_	_	_
@@ -127,9 +127,9 @@
 4	смогла	_	_	_	_	_	_	_	_
 5	удержать	_	_	_	_	_	_	_	_
 6	ничью	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	_
-8	матче	_	_	_	_	_	_	_	_
-9	с	_	_	_	_	_	_	_	_
-10	Португалией	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=GPE
+7	в	_	_	_	_	_	_	_	bratA8=T38:Past|bratT38=Date-absolute
+8	матче	_	_	_	_	_	_	_	bratA8=T38:Past|bratT38=Date-absolute|bratT39=Event
+9	с	_	_	_	_	_	_	_	bratT39=Event
+10	Португалией	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=GPE|bratT39=Event
 11	.	_	_	_	_	_	_	_	_
 

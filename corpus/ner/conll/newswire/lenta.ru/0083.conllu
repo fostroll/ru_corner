@@ -50,8 +50,8 @@
 2	Некоторые	_	_	_	_	_	_	_	_
 3	провинции	_	_	_	_	_	_	_	_
 4	переживают	_	_	_	_	_	_	_	_
-5	третий	_	_	_	_	_	_	_	bratT43=Ordinal
-6	пик	_	_	_	_	_	_	_	SpaceAfter=No
+5	третий	_	_	_	_	_	_	_	bratT43=Ordinal|bratT71=Event
+6	пик	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p3-s2
@@ -69,7 +69,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
 13	сказал	_	_	_	_	_	_	_	_
-14	министр	_	_	_	_	_	_	_	bratT12=Person-property
+14	министр	_	_	_	_	_	_	_	bratT12=Person-property|bratT76=Person
 15	в	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-absolute
 16	ходе	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-absolute
 17	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T46:Past|bratT46=Date-absolute|bratT54=Event
@@ -88,23 +88,26 @@
 7	что	_	_	_	_	_	_	_	_
 8	рост	_	_	_	_	_	_	_	_
 9	заболеваемости	_	_	_	_	_	_	_	_
-10	COVID-19	_	_	_	_	_	_	_	bratT14=Other-term
-11	наблюдается	_	_	_	_	_	_	_	_
-12	во	_	_	_	_	_	_	_	_
-13	всех	_	_	_	_	_	_	_	bratT2=GPE
-14	турецких	_	_	_	_	_	_	_	bratA13=T59:Adjective|bratT2=GPE|bratT59=GPE
-15	провинциях	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=GPE
-16	,	_	_	_	_	_	_	_	_
-17	в	_	_	_	_	_	_	_	_
-18	15	_	_	_	_	_	_	_	bratT15=Quantity
-19	из	_	_	_	_	_	_	_	bratT15=Quantity
-20	них	_	_	_	_	_	_	_	_
-21	он	_	_	_	_	_	_	_	_
-22	увеличился	_	_	_	_	_	_	_	_
-23	до	_	_	_	_	_	_	_	bratT16=Percent
-24	50	_	_	_	_	_	_	_	bratT16=Percent
-25	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Percent
-26	.	_	_	_	_	_	_	_	_
+10-12	COVID-19	_	_	_	_	_	_	_	_
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Other-term
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Other-term
+12	19	_	_	_	_	_	_	_	bratT14=Other-term|bratT79=Cardinal
+13	наблюдается	_	_	_	_	_	_	_	_
+14	во	_	_	_	_	_	_	_	_
+15	всех	_	_	_	_	_	_	_	bratT2=GPE
+16	турецких	_	_	_	_	_	_	_	bratA13=T59:Adjective|bratT2=GPE|bratT59=GPE
+17	провинциях	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=GPE
+18	,	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	15	_	_	_	_	_	_	_	bratT15=Quantity
+21	из	_	_	_	_	_	_	_	bratT15=Quantity
+22	них	_	_	_	_	_	_	_	_
+23	он	_	_	_	_	_	_	_	_
+24	увеличился	_	_	_	_	_	_	_	_
+25	до	_	_	_	_	_	_	_	bratT16=Percent
+26	50	_	_	_	_	_	_	_	bratT16=Percent
+27	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Percent
+28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0083-p5
 # par_text = По данным министерства, на 25 ноября в Турции зафиксирован антирекорд по числу умерших за сутки из-за COVID-19 — 168 человек. Предыдущий антирекорд смертности из-за коронавируса в Турции был зафиксирован 24 ноября, когда умерли 153 человека.
@@ -120,23 +123,26 @@
 8	в	_	_	_	_	_	_	_	_
 9	Турции	_	_	_	_	_	_	_	bratT18=GPE
 10	зафиксирован	_	_	_	_	_	_	_	_
-11	антирекорд	_	_	_	_	_	_	_	_
+11	антирекорд	_	_	_	_	_	_	_	bratT72=Event
 12	по	_	_	_	_	_	_	_	_
 13	числу	_	_	_	_	_	_	_	_
 14	умерших	_	_	_	_	_	_	_	_
 15	за	_	_	_	_	_	_	_	bratT19=Time-period
 16	сутки	_	_	_	_	_	_	_	bratT19=Time-period|bratT58=Duration
 17	из-за	_	_	_	_	_	_	_	_
-18	COVID-19	_	_	_	_	_	_	_	bratT20=Other-term
-19	-	_	_	_	_	_	_	_	_
-20	168	_	_	_	_	_	_	_	bratT21=Quantity
-21	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity
-22	.	_	_	_	_	_	_	_	_
+18-20	COVID-19	_	_	_	_	_	_	_	_
+18	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+20	19	_	_	_	_	_	_	_	bratT20=Other-term|bratT75=Cardinal
+21	-	_	_	_	_	_	_	_	_
+22	168	_	_	_	_	_	_	_	bratT21=Quantity
+23	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity
+24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p5-s2
 # text = Предыдущий антирекорд смертности из-за коронавируса в Турции был зафиксирован 24 ноября, когда умерли 153 человека.
-1	Предыдущий	_	_	_	_	_	_	_	bratT45=Ordinal
-2	антирекорд	_	_	_	_	_	_	_	_
+1	Предыдущий	_	_	_	_	_	_	_	bratT45=Ordinal|bratT73=Event
+2	антирекорд	_	_	_	_	_	_	_	bratT73=Event
 3	смертности	_	_	_	_	_	_	_	_
 4	из-за	_	_	_	_	_	_	_	_
 5	коронавируса	_	_	_	_	_	_	_	bratT23=Other-term
@@ -195,29 +201,34 @@
 9	производить	_	_	_	_	_	_	_	_
 10	у	_	_	_	_	_	_	_	_
 11	себя	_	_	_	_	_	_	_	_
-12	российскую	_	_	_	_	_	_	_	bratA14=T60:Adjective|bratT32=Product|bratT60=GPE
-13	вакцину	_	_	_	_	_	_	_	bratT32=Product
-14	от	_	_	_	_	_	_	_	bratT32=Product
-15	коронавируса	_	_	_	_	_	_	_	bratT31=Other-term|bratT32=Product
-16	SARS-CoV-2	_	_	_	_	_	_	_	bratT31=Other-term|bratT32=Product
-17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Product
-18	Спутник	_	_	_	_	_	_	_	bratT32=Product
-19	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Product
-20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Product
-21	.	_	_	_	_	_	_	_	_
+12	российскую	_	_	_	_	_	_	_	bratA14=T60:Adjective|bratA19=T32:Trademark|bratT32=Product|bratT60=GPE
+13	вакцину	_	_	_	_	_	_	_	bratA19=T32:Trademark|bratT32=Product
+14	от	_	_	_	_	_	_	_	bratA19=T32:Trademark|bratT32=Product
+15	коронавируса	_	_	_	_	_	_	_	bratA19=T32:Trademark|bratT31=Other-term|bratT32=Product
+16-20	SARS-CoV-2	_	_	_	_	_	_	_	_
+16	SARS	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T32:Trademark|bratT31=Other-term|bratT32=Product
+17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T32:Trademark|bratT31=Other-term|bratT32=Product
+18	CoV	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T32:Trademark|bratT31=Other-term|bratT32=Product
+19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T32:Trademark|bratT31=Other-term|bratT32=Product
+20	2	_	_	_	_	_	_	_	bratA19=T32:Trademark|bratT31=Other-term|bratT32=Product|bratT77=Ordinal
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T32:Trademark|bratT32=Product
+22	Спутник	_	_	_	_	_	_	_	bratA19=T32:Trademark|bratT32=Product
+23	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T32:Trademark|bratT32=Product
+24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T32:Trademark|bratT32=Product
+25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p7-s2
 # text = Министры здравоохранения России и Турции Михаил Мурашко и Фахреттин Коджа встретились по инициативе турецкой стороны.
-1	Министры	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT36=Person
-2	здравоохранения	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT36=Person
-3	России	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT34=GPE|bratT36=Person
-4	и	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT36=Person
-5	Турции	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA3=T36:Plural|bratT33=Person-property|bratT35=GPE|bratT36=Person
-6	Михаил	_	_	_	_	_	_	_	bratA15=T56:Male|bratA3=T36:Plural|bratT36=Person|bratT56=Person|bratT65=Person-forename
-7	Мурашко	_	_	_	_	_	_	_	bratA15=T56:Male|bratA3=T36:Plural|bratT36=Person|bratT56=Person|bratT66=Person-surname
-8	и	_	_	_	_	_	_	_	bratA3=T36:Plural|bratT36=Person
-9	Фахреттин	_	_	_	_	_	_	_	bratA16=T57:Male|bratA3=T36:Plural|bratT36=Person|bratT57=Person|bratT67=Person-forename
-10	Коджа	_	_	_	_	_	_	_	bratA16=T57:Male|bratA3=T36:Plural|bratT36=Person|bratT57=Person|bratT68=Person-surname
+1	Министры	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA20=T36:Male|bratA3=T36:Plural|bratT33=Person-property|bratT36=Person
+2	здравоохранения	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA20=T36:Male|bratA3=T36:Plural|bratT33=Person-property|bratT36=Person
+3	России	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA20=T36:Male|bratA3=T36:Plural|bratT33=Person-property|bratT34=GPE|bratT36=Person
+4	и	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA20=T36:Male|bratA3=T36:Plural|bratT33=Person-property|bratT36=Person
+5	Турции	_	_	_	_	_	_	_	bratA2=T33:Plural|bratA20=T36:Male|bratA3=T36:Plural|bratT33=Person-property|bratT35=GPE|bratT36=Person
+6	Михаил	_	_	_	_	_	_	_	bratA15=T56:Male|bratA20=T36:Male|bratA3=T36:Plural|bratT36=Person|bratT56=Person|bratT65=Person-forename
+7	Мурашко	_	_	_	_	_	_	_	bratA15=T56:Male|bratA20=T36:Male|bratA3=T36:Plural|bratT36=Person|bratT56=Person|bratT66=Person-surname
+8	и	_	_	_	_	_	_	_	bratA20=T36:Male|bratA3=T36:Plural|bratT36=Person
+9	Фахреттин	_	_	_	_	_	_	_	bratA16=T57:Male|bratA20=T36:Male|bratA3=T36:Plural|bratT36=Person|bratT57=Person|bratT67=Person-forename
+10	Коджа	_	_	_	_	_	_	_	bratA16=T57:Male|bratA20=T36:Male|bratA3=T36:Plural|bratT36=Person|bratT57=Person|bratT68=Person-surname
 11	встретились	_	_	_	_	_	_	_	_
 12	по	_	_	_	_	_	_	_	_
 13	инициативе	_	_	_	_	_	_	_	_
@@ -230,7 +241,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	пресс-службе	_	_	_	_	_	_	_	bratA4=T37:Department|bratT37=Organization
 3	Минздрава	_	_	_	_	_	_	_	bratA4=T37:Department|bratT37=Organization|bratT38=Organization
-4	России	_	_	_	_	_	_	_	bratA4=T37:Department|bratT37=Organization|bratT38=Organization
+4	России	_	_	_	_	_	_	_	bratA4=T37:Department|bratT37=Organization|bratT38=Organization|bratT78=GPE
 5	заявили	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -245,11 +256,11 @@
 16	фармпроизводителей	_	_	_	_	_	_	_	_
 17	после	_	_	_	_	_	_	_	bratA10=T48:Future|bratT48=Date-absolute
 18	проведения	_	_	_	_	_	_	_	bratA10=T48:Future|bratT48=Date-absolute
-19	токсикологических	_	_	_	_	_	_	_	_
-20	исследований	_	_	_	_	_	_	_	SpaceAfter=No
+19	токсикологических	_	_	_	_	_	_	_	bratT74=Event
+20	исследований	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Event
 21	,	_	_	_	_	_	_	_	_
 22	предусмотренных	_	_	_	_	_	_	_	_
-23	локальным	_	_	_	_	_	_	_	bratT70=Law
+23	локальным	_	_	_	_	_	_	_	bratA21=T80:Adjective|bratT70=Law|bratT80=GPE
 24	законодательством	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Law
 25	''	_	_	_	_	_	_	_	SpaceAfter=No
 26	.	_	_	_	_	_	_	_	_

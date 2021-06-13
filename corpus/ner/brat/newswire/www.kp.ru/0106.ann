@@ -3,47 +3,47 @@ T2	GPE 117 120	США
 T3	Person-property 93 120	Кандидат   президенты   США
 T4	Political-group 123 131	демократ
 T5	Person 93 146	Кандидат   президенты   США   демократ   Джо   Байден
-T6	Organization 576 612	администрация   Байдена   -   Харрис
+T6	Organization 576 608	администрация   Байдена - Харрис
 T7	Person 592 599	Байдена
-T8	Person 606 612	Харрис
-T9	Ordinal 653 659	первый
-T10	Date-relative 649 666	в   первый   день
-T11	Organization 975 985	Fox   News
+T8	Person 602 608	Харрис
+T9	Ordinal 649 655	первый
+T10	Date-relative 645 662	в   первый   день
+T11	Organization 971 981	Fox   News
 A1	Media T11
-T12	Person 992 998	Байден
-T13	Person-property 1032 1042	выборщиков
-T14	Quantity 1026 1042	264   выборщиков
-T15	Person-property 1068 1087	действующий   лидер
-T16	Person 1068 1105	действующий   лидер   Дональд   Трамп
-T17	Quantity 1151 1154	214
-T18	Quantity 1251 1264	270   голосов
-T19	Person-property 1272 1282	выборщиков
+T12	Person 988 994	Байден
+T13	Person-property 1028 1038	выборщиков
+T14	Quantity 1022 1038	264   выборщиков
+T15	Person-property 1064 1083	действующий   лидер
+T16	Person 1064 1101	действующий   лидер   Дональд   Трамп
+T17	Quantity 1147 1150	214
+T18	Quantity 1247 1260	270   голосов
+T19	Person-property 1268 1278	выборщиков
 T20	Service 167 195	сайт   переходного   периода
 A2	Media T20
 T21	Service 62 91	сайт   по   переходу   власти
 A3	Media T21
 T22	Event 365 373	пандемии
-T24	Political-group 883 893	демократам
-T25	Event 1195 1201	выборы
+T24	Political-group 879 889	демократам
+T25	Event 1191 1197	выборы
 T26	Date-absolute 200 220	На   данный   момент
 T27	Quantity 258 274	одно   сообщение
 T23	Date-absolute 15 29	до   оглашения
-T28	Date-relative 899 904	Ранее
+T28	Date-relative 895 900	Ранее
 T29	Event 41 48	выборов
 T30	Event 20 48	оглашения   итогов   выборов
 A4	Past T23
 A5	Present T26
 A6	Past T28
-T31	Duration 662 666	день
+T31	Duration 658 662	день
 A7	Future T10
 T32	Person-surname 0 6	Байден
 T33	Person-forename 134 137	Джо
 T34	Person-surname 140 146	Байден
 T35	Person-surname 592 599	Байдена
-T36	Person-surname 606 612	Харрис
-T37	Person-surname 992 998	Байден
-T38	Person-forename 1090 1097	Дональд
-T39	Person-surname 1100 1105	Трамп
+T36	Person-surname 602 608	Харрис
+T37	Person-surname 988 994	Байден
+T38	Person-forename 1086 1093	Дональд
+T39	Person-surname 1096 1101	Трамп
 A8	Male T1
 A9	Male T5
 A10	Male T7
@@ -51,3 +51,8 @@ A12	Male T12
 A13	Male T16
 A11	Female T8
 T40	Ordinal 205 211	данный
+T41	Service 761 766	сайте
+A14	Media T41
+T42	Nationality 705 714	гражданам
+A15	Citizenship T42
+T43	GPE 327 338	государство

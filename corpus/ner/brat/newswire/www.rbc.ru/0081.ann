@@ -1,0 +1,84 @@
+T1	Person-property 10 44	лавы   администрации   Волгодонска
+T2	GPE 33 44	Волгодонска
+T3	Organization 17 44	администрации   Волгодонска
+T4	Person-property 74 85	Следователи
+T5	GPE 92 112	Ростовской   области
+T6	Person 162 220	главы   администрации   Волгодонска   Виктора   Мельникова
+T7	Person-property 162 197	главы   администрации   Волгодонска
+T8	Organization 170 197	администрации   Волгодонска
+T9	GPE 186 197	Волгодонска
+T10	Organization 248 310	пресс-служба   регионального   следственного   управления   СК
+A1	Department T10
+T11	Organization 308 310	СК
+T12	Law 337 408	ч.   3   ст.   33   ,   п.   ``   в   ''   ч.   3   ст.   286   УК   РФ
+T13	Date-absolute 515 530	в   2017   году
+T14	Person 533 542	Мельников
+T15	Person-property 555 639	директора   МКУ   ``   Департамент   строительства   и   городского   хозяйства   ''
+T16	Organization 567 639	МКУ   ``   Департамент   строительства   и   городского   хозяйства   ''
+T17	Money 905 927	более   16   млн   руб
+T18	Person-property 1049 1074	директором   департамента
+T19	Person-property 1079 1090	Следователи
+T20	Person 1127 1137	Мельникову
+T21	Person-property 1183 1202	глава   Волгодонска
+T22	GPE 1191 1202	Волгодонска
+T23	Organization 1301 1305	ТАСС
+A2	Media T23
+T24	Person-property 1338 1347	чиновника
+T25	Organization 1392 1442	местное   издание   ``   Блокнот   Волгодонск   ''
+A3	Media T25
+T26	Person 1449 1459	Мельникова
+T27	Person 1512 1587	экс-главу   департамента   городского   хозяйства   Александра   Кондратюка
+T28	Person-property 1512 1561	экс-главу   департамента   городского   хозяйства
+T29	Organization 1524 1561	департамента   городского   хозяйства
+T30	Organization 1651 1679	фирма   ``   Стройтрест   ''
+T31	Person 1684 1693	Кондратюк
+T32	Date-absolute 1720 1743	в   марте   2018   года
+T33	Person 1749 1767	Виктор   Мельников
+T34	Person-property 1784 1831	должность   главы   администрации   Волгодонска
+T35	GPE 1820 1831	Волгодонска
+T36	Date-absolute 1834 1849	в   2017   году
+T37	Date-absolute 1854 1869	В   2020   году
+T38	Person-property 1904 1914	депутатами
+T39	Date-absolute 1269 1277	накануне
+T40	Organization 1804 1831	администрации   Волгодонска
+T41	Person-forename 200 207	Виктора
+T42	Person-surname 210 220	Мельникова
+A4	Male T6
+T43	Organization 263 310	регионального   следственного   управления   СК
+A5	Department T43
+T44	Law 401 408	УК   РФ
+T45	GPE 406 408	РФ
+T46	Ordinal 342 343	3
+T47	Ordinal 352 354	33
+T48	Ordinal 366 377	``   в   ''
+T49	Ordinal 385 386	3
+T50	Ordinal 395 398	286
+A6	Past T13
+A7	Male T14
+T51	Person-surname 533 542	Мельников
+T52	Person-surname 1127 1137	Мельникову
+A8	Male T20
+A9	Past T39
+T53	GPE 1427 1437	Волгодонск
+T54	Person-surname 1449 1459	Мельникова
+A10	Male T26
+T55	Person-forename 1564 1574	Александра
+T56	Person-surname 1577 1587	Кондратюка
+A11	Male T27
+T57	Person-surname 1684 1693	Кондратюк
+A12	Male T31
+A13	Past T32
+T58	Person-forename 1749 1755	Виктор
+T59	Person-surname 1758 1767	Мельников
+A14	Male T33
+A15	Past T36
+A16	Past T37
+T60	Date-period-absolute 958 982	в   ходе   расследования
+A17	Past T60
+T61	GPE 1392 1399	местное
+A18	Adjective T61
+T62	GPE 864 870	города
+T63	GPE 263 276	регионального
+A19	Adjective T63
+T64	Person-property 1713 1717	пост
+T65	Person-property 1928 1937	должность

@@ -1,7 +1,7 @@
 T1	GPE 49 55	России
 T2	Date-period-absolute 77 92	на   2023   год
 T3	GPE 143 149	России
-T4	Organization 229 252	Государственной   думой
+T4	Organization 229 261	Государственной   думой   страны
 T5	Date-absolute 287 343	на   пленарном   заседании   в   среду   ,   25   ноября
 T6	Person-property 365 373	депутаты
 T7	Date-period-absolute 400 415	на   2023   год
@@ -15,17 +15,17 @@ T14	Organization 852 868	Центробанка   РФ
 T15	Person-property 824 868	специалисты   Минфина   и   Центробанка   РФ
 A1	Plural T15
 T16	Organization 1030 1037	Госдуму
-T17	Service 1116 1128	сайт   kp.ru
+T17	Service 1116 1130	сайт   kp . ru
 A2	Media T17
-T18	Organization 1177 1181	Думы
-T19	Person-property 1166 1181	депутаты   Думы
-T20	Date-period-absolute 1270 1299	до   1   января   2022   года
-T21	Person-property 1247 1258	госслужащих
-T22	Law 1194 1299	закон   о   приостановлении   индексации   окладов   госслужащих   страны   до   1   января   2022   года
+T18	Organization 1179 1183	Думы
+T19	Person-property 1168 1183	депутаты   Думы
+T20	Date-period-absolute 1272 1301	до   1   января   2022   года
+T21	Person-property 1249 1269	госслужащих   страны
+T22	Law 1196 1301	закон   о   приостановлении   индексации   окладов   госслужащих   страны   до   1   января   2022   года
 T23	Ordinal 269 275	втором
 T24	Date-absolute 432 453	в   настоящее   время
-T25	Date-absolute 1135 1163	на   сегодняшнем   заседании
-T26	Organization 1123 1128	kp.ru
+T25	Date-absolute 1137 1165	на   сегодняшнем   заседании
+T26	Organization 1123 1130	kp . ru
 A3	Media T26
 T27	Event 292 313	пленарном   заседании
 T29	Date-period-absolute 766 777	шесть   лет
@@ -38,4 +38,8 @@ A8	Past-Pres T11
 A9	Past T5
 A10	Pres-Fut T20
 A11	Present T25
-T28	Event 1154 1163	заседании
+T28	Event 1156 1165	заседании
+A12	Fut T7
+T31	Web-address 1123 1130	kp . ru
+T32	GPE 255 261	страны
+T33	GPE 1263 1269	страны

@@ -1,6 +1,6 @@
-T1	Quantity 1668 1697	450   436   новых   заражений
-T2	Quantity 1717 1736	329   201   человек
-T3	Quantity 1750 1754	7071
+T1	Quantity 1672 1701	450   436   новых   заражений
+T2	Quantity 1721 1740	329   201   человек
+T3	Quantity 1754 1758	7071
 T4	Person 0 7	Собянин
 T5	Other-term 63 76	коронавирусом
 T6	GPE 83 89	Москве
@@ -10,43 +10,51 @@ T9	Person 91 122	Мэр   Москвы   Сергей   Собянин
 T10	Other-term 186 199	коронавирусом
 T11	Person-property 289 303	Градоначальник
 T12	Percent 326 340	95   процентов
-T13	Other-term 402 410	COVID-19
-T14	Person 598 605	Собянин
-T15	Person-property 726 730	врач
-T16	GPE 816 822	Москве
-T17	Other-term 801 809	COVID-19
-T18	GPE 978 984	Москвы
-T19	Other-term 1064 1076	коронавируса
-T22	Other-term 1010 1017	локдаун
-T23	Person-property 1164 1265	заммэра   столицы   по   вопросам   экономической   политики   и   имущественно-земельных   отношений
-T24	Person-property 651 657	врачам
-T25	Person 1164 1285	заммэра   столицы   по   вопросам   экономической   политики   и   имущественно-земельных   отношений   Владимир   Ефимов
-T26	GPE 1336 1342	Москве
-T27	Date-absolute 1475 1490	на   5   ноября
-T28	GPE 1501 1507	Москве
-T30	Other-term 1546 1558	коронавируса
-T31	Other-group 47 56	пациентов
-T32	Other-group 170 179	пациентов
+T13	Other-term 402 412	COVID - 19
+T14	Person 600 607	Собянин
+T15	Person-property 728 732	врач
+T16	GPE 820 826	Москве
+T17	Other-term 803 813	COVID - 19
+T18	GPE 982 988	Москвы
+T19	Other-term 1068 1080	коронавируса
+T22	Event 1014 1021	локдаун
+T23	Person-property 1168 1269	заммэра   столицы   по   вопросам   экономической   политики   и   имущественно-земельных   отношений
+T24	Person-property 653 659	врачам
+T25	Person 1168 1289	заммэра   столицы   по   вопросам   экономической   политики   и   имущественно-земельных   отношений   Владимир   Ефимов
+T26	GPE 1340 1346	Москве
+T27	Date-absolute 1479 1494	на   5   ноября
+T28	GPE 1505 1511	Москве
+T30	Other-term 1550 1562	коронавируса
 T33	Organization 270 283	РИА   Новости
-T34	Other-group 386 395	пациентов
-T20	Quantity 1521 1543	5255   новых   случаев
-T21	Quantity 1565 1581	3670   заражений
-T29	Quantity 1588 1612	67   летальных   исходов
+T20	Quantity 1525 1547	5255   новых   случаев
+T21	Quantity 1569 1585	3670   заражений
+T29	Quantity 1592 1616	67   летальных   исходов
 A1	Media T33
-T35	Date-period-absolute 1625 1646	с   начала   пандемии
-T37	GPE 1174 1181	столицы
-T38	Date-relative 961 966	Ранее
-T39	Event 1638 1646	пандемии
+T35	Date-period-absolute 1629 1650	с   начала   пандемии
+T37	GPE 1178 1185	столицы
+T38	Date-relative 965 970	Ранее
+T39	Event 1642 1650	пандемии
 A2	Past T27
 A3	Past-Pres T35
 A4	Past T38
 T36	Person-surname 0 7	Собянин
 T40	Person-forename 106 112	Сергей
 T41	Person-surname 115 122	Собянин
-T42	Person-surname 598 605	Собянин
-T43	Person-forename 1268 1276	Владимир
-T44	Person-surname 1279 1285	Ефимов
+T42	Person-surname 600 607	Собянин
+T43	Person-forename 1272 1280	Владимир
+T44	Person-surname 1283 1289	Ефимов
 A5	Male T4
 A6	Male T9
 A7	Male T14
 A8	Male T25
+T45	Event 1576 1585	заражений
+T46	Event 1597 1616	летальных   исходов
+T47	Event 1692 1701	заражений
+T48	Event 1349 1367	пропускной   режим
+T49	Event 1532 1562	новых   случаев   коронавируса
+T31	Cardinal 410 412	19
+T34	Cardinal 811 813	19
+T32	Person 289 303	Градоначальник
+A9	Male T32
+T50	Organization 973 988	власти   Москвы
+T51	Person-property 1438 1459	офисных   сотрудников

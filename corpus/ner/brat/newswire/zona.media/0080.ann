@@ -1,0 +1,85 @@
+T1	Person-property 0 29	Подмосковного   вице-премьера
+T2	GPE 0 13	Подмосковного
+A1	Adjective T2
+T3	Person 58 78	Евгении   Васильевой
+A2	Female T3
+T4	Person-forename 58 65	Евгении
+T5	Person-surname 68 78	Васильевой
+T6	Organization 85 95	Минобороны
+T7	GPE 154 159	Китай
+T8	Organization 161 196	Басманный   районный   суд   Москвы
+T9	GPE 161 181	Басманный   районный
+A3	Adjective T9
+T10	GPE 190 196	Москвы
+T11	Person 211 314	министра   экологии   и   заместителя   председателя   правительства   Подмосковья   Дмитрия   Куракина
+A4	Male T11
+T13	Person-property 211 230	министра   экологии
+T14	Person-property 237 293	заместителя   председателя   правительства   Подмосковья
+T15	Organization 266 293	правительства   Подмосковья
+T16	GPE 282 293	Подмосковья
+T17	Person-forename 296 303	Дмитрия
+T18	Person-surname 306 314	Куракина
+T19	Law 347 376	часть   6   статьи   290   УК
+T20	Organization 408 436	агентство   ``   Москва   ''
+A7	Media T20
+T21	Person 484 491	Куракин
+A8	Male T21
+T22	Person-surname 484 491	Куракин
+T23	Organization 515 542	правительстве   Подмосковья
+T24	GPE 531 542	Подмосковья
+T25	Date-period-absolute 545 571	с   сентября   2018   года
+A6	Past T25
+T26	Organization 608 660	департамент   имущественных   отношений   Минобороны
+A9	Department T26
+T27	Organization 650 660	Минобороны
+T28	Date-period-absolute 663 703	с   2012   года   -   после   увольнения
+A11	Past T28
+T30	Person 706 726	Евгении   Васильевой
+A12	Female T30
+T34	Person-forename 706 713	Евгении
+T35	Person-surname 716 726	Васильевой
+T37	Organization 744 767	``   Оборонсервиса   ''
+T39	Organization 459 478	пресс-службу   суда
+A15	Department T39
+T41	Date-period-absolute 774 790	до   2017   года
+A16	Past T41
+T43	Organization 823 843	``   Ростелеком   ''
+T45	Person 849 936	Экс-главу   департамента   имущественных   отношений   Минобороны   Евгению   Васильеву
+A18	Female T45
+T46	Person-forename 917 924	Евгению
+T47	Person-surname 927 936	Васильеву
+T48	Person-property 849 914	Экс-главу   департамента   имущественных   отношений   Минобороны
+T49	Organization 861 914	департамента   имущественных   отношений   Минобороны
+A19	Department T49
+T50	Organization 904 914	Минобороны
+T51	Date-period-relative 953 969	к   пяти   годам
+T52	Organization 1042 1065	``   Оборонсервиса   ''
+T53	Date-period-absolute 1070 1093	С   конца   июля   2015
+A14	Past T53
+T54	GPE 1151 1173	Владимирской   области
+T55	Date-relative 1189 1203	спустя   месяц
+A20	Past T55
+T56	Duration 1198 1203	месяц
+T57	Person 1282 1338	начальник   ``   Оборонолеса   ''   Владислав   Холодков
+T58	Person-forename 1318 1327	Владислав
+T59	Person-surname 1330 1338	Холодков
+T64	Organization 1294 1315	``   Оборонолеса   ''
+T66	GPE 1362 1374	Мальтинского
+T70	Person 1403 1414	Максим   Ан
+T71	Person-surname 1412 1414	Ан
+T74	Organization 1438 1454	Басманном   суде
+T12	Ordinal 355 356	6
+T77	Ordinal 368 371	290
+T78	Law 374 376	УК
+T40	Date-relative 582 592	до   этого
+A5	Past T40
+T81	Duration 957 969	пяти   годам
+T82	Money 987 1001	многомилионные
+T84	Person-property 1282 1315	начальник   ``   Оборонолеса   ''
+T85	Person-forename 1403 1409	Максим
+T72	Organization 1357 1400	``   Мальтинского   военного   лесхоза   ''
+A10	Male T57
+A13	Male T70
+T31	Person-property 1345 1400	начальник   ``   Мальтинского   военного   лесхоза   ''
+A17	Past-UNK T51
+T29	Person-property 504 508	пост

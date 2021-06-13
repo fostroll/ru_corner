@@ -1,0 +1,40 @@
+T1	Person 0 6	Попова
+T2	GPE 67 73	России
+T3	GPE 112 118	России
+T4	Date-period-absolute 121 164	на   протяжении   последних   двух   недель
+T5	Other-term 214 227	коронавирусом
+T6	Person 254 328	глава   Роспотребнадзора   и   главный   санитарный   врач   Анна   Попова
+T7	Person-property 254 278	глава   Роспотребнадзора
+T8	Person-property 285 312	главный   санитарный   врач
+T9	Organization 262 278	Роспотребнадзора
+T10	Organization 346 350	ТАСС
+A1	Media T10
+T11	Age 741 758	старше   65   лет
+T12	Percent 837 842	1,2 %
+T13	Quantity 952 977	порядка   до   двух   раз
+T14	Person-property 1003 1020	глава   ведомства
+T15	Event 1028 1037	заседании
+T16	Organization 1040 1130	президиума   координационного   совета   по   борьбе   с   распространением   коронавируса
+T17	Other-term 1118 1130	коронавируса
+T18	Person 1204 1210	Попова
+T19	Person 1290 1297	Поповой
+T20	Quantity 1366 1379	три   региона
+T21	Quantity 1418 1420	55
+T22	Quantity 1429 1442	27   регионах
+T23	Person-surname 0 6	Попова
+A2	Female T1
+A3	Past-Pres T4
+T24	Ordinal 139 148	последних
+T25	Person-forename 315 319	Анна
+T26	Person-surname 322 328	Попова
+A4	Female T6
+T27	Person-surname 1204 1210	Попова
+A5	Female T18
+T28	Person-surname 1290 1297	Поповой
+A6	Female T19
+T29	Duration 151 164	двух   недель
+T30	Date-absolute 1304 1310	сейчас
+A7	Present T30
+A8	RCont T4
+T31	Person 1003 1020	глава   ведомства
+A9	Female T31

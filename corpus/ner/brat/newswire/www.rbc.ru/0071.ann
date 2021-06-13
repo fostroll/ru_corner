@@ -1,0 +1,38 @@
+T1	GPE 14 24	Казахстана
+T2	GPE 61 72	Нур-Султане
+T3	Service 193 201	Facebook
+T4	Organization 227 270	департамент   по   чрезвычайным   ситуациям
+T5	GPE 346 366	микрорайоне   Шубары
+T6	Person-property 396 405	спасатели
+T7	Quantity 547 570	15   газовых   баллонов
+T8	Person-property 586 595	спасатели
+T9	Quantity 634 651	одного   человека
+T10	Quantity 700 714	один   человек
+T11	Quantity 721 739	еще   19   человек
+T12	Person-property 758 783	врачами   скорой   помощи
+T13	Person-property 850 859	спасители
+T14	Person-property 878 908	сотрудники   Центра   медицины
+T15	Service 768 783	скорой   помощи
+T16	Organization 891 908	Центра   медицины
+T17	Quantity 949 963	34   спасателя
+T18	Quantity 970 991	10   единиц   техники
+T19	Organization 1108 1111	МЧС
+T20	Date-absolute 1117 1140	Ранее   ,   14   ноября
+T21	GPE 1165 1171	Москвы
+T22	Organization 1240 1263	``   РИА   Новости   ''
+A2	Media T22
+T23	Quantity 1281 1300	двух   пострадавших
+T24	Quantity 1307 1319	еще   одного
+T25	Event 39 55	взрыв   в   кафе
+T26	Date-relative 1117 1122	Ранее
+A1	Past T26
+A3	Past T20
+T27	GPE 4 24	столице   Казахстана
+T28	GPE 215 224	столичный
+A4	Adjective T28
+T29	Date-relative 335 339	днем
+T30	Time-absolute 335 339	днем
+T31	Event 315 320	взрыв
+A5	Past T29
+T32	Event 1230 1235	взрыв
+T33	Event 448 454	взрыва

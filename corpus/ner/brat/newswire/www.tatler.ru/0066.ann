@@ -1,0 +1,90 @@
+T1	Person-property 0 9	Принцесса
+T2	Person-forename 12 19	Беатрис
+T3	Person 0 19	Принцесса   Беатрис
+A1	Female T3
+T4	Person-forename 26 33	Эдоардо
+T5	Person-surname 36 51	Мопелли   Моцци
+T6	Person 26 51	Эдоардо   Мопелли   Моцци
+A2	Male T6
+T9	GPE 123 137	Великобритании
+T10	Family 115 120	семье
+T11	Date-absolute 174 192	В   прошлом   году
+A5	Past T11
+T12	Person-property 222 231	принцесса
+T13	Person-forename 234 241	Евгения
+T14	Person 222 241	принцесса   Евгения
+A6	Female T14
+T16	Person-forename 352 359	Беатрис
+T17	Family 333 349	старшую   сестру
+T18	Person 328 359	ее   старшую   сестру   Беатрис
+A8	Female T18
+T19	Age 364 373	31-летняя
+T20	Person-property 383 389	принца
+T21	Person-forename 392 397	Эндрю
+T22	Person 383 397	принца   Эндрю
+A9	Male T22
+T23	Family 410 423	бывшей   жены
+T24	Person-forename 426 430	Сары
+T25	Person-surname 433 441	Фергюсон
+T26	Person 404 441	его   бывшей   жены   Сары   Фергюсон
+A10	Female T26
+T27	Family 376 380	дочь
+T28	Person 376 441	дочь   принца   Эндрю   и   его   бывшей   жены   Сары   Фергюсон
+A11	Female T28
+T29	Person-forename 488 495	Эдоардо
+T30	Person-surname 498 513	Мопелли   Моцци
+T31	Person-property 474 485	миллионером
+T32	Person 474 513	миллионером   Эдоардо   Мопелли   Моцци
+A12	Male T32
+T33	Event 459 467	помолвке
+T34	Quantity 529 532	оба
+T35	Family 660 664	пары
+T37	Person-forename 893 900	Беатрис
+T38	Person 893 900	Беатрис
+A14	Female T38
+T39	Family 919 925	сестра
+T40	Person-forename 928 935	Евгения
+T41	Person 914 935	ее   сестра   Евгения
+A15	Female T41
+T42	Service 980 990	инстаграме
+T43	Date-absolute 1026 1055	до   официального   заявления
+A17	Past T43
+T44	Date-relative 1069 1074	Затем
+T45	Other-group 1167 1189	интернет-пользователей
+T46	Family 1256 1261	семьи
+T47	Person-property 1211 1261	официальным   представителям   королевской   семьи
+T49	Person-forename 1319 1326	Евгения
+T50	Person 1319 1326	Евгения
+A19	Female T50
+T51	Person-forename 1489 1492	Эдо
+T52	Person 1489 1492	Эдо
+A20	Male T52
+T53	Family 1463 1482	старшую   сестренку
+T54	Person-forename 1592 1599	Евгения
+T55	Person 1592 1599	Евгения
+A21	Female T55
+T56	Family 1767 1772	жених
+T57	GPE 1806 1817	британскому
+A22	Adjective T57
+T58	Person-forename 1830 1834	Шону
+T59	Person-surname 1837 1841	Лину
+T60	Person-property 1806 1827	британскому   ювелиру
+T61	Person 1806 1841	британскому   ювелиру   Шону   Лину
+A23	Male T61
+T62	Ordinal 859 865	первой
+T7	Ordinal 178 185	прошлом
+T8	Ordinal 256 265	следующем
+T15	Date-absolute 252 265	в   следующем
+A4	Future T15
+T48	Organization 101 137	королевской   семье   Великобритании
+T63	Organization 1242 1261	королевской   семьи
+T64	Event 1031 1055	официального   заявления
+T65	Date-relative 1311 1316	Тогда
+A7	Past T65
+T66	Quantity 79 94	Ни   один   год
+T67	Event 162 169	свадьбы
+T68	Event 69 77	помолвке
+T69	Event 882 900	помолвке   Беатрис
+A13	Past T44
+T36	Service 993 997	пост
+A3	Media T36

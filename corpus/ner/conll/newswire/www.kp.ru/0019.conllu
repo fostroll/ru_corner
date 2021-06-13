@@ -40,7 +40,7 @@
 17	антикоррупционную	_	_	_	_	_	_	_	bratA4=T28:Project|bratT28=Product
 18	реформу	_	_	_	_	_	_	_	bratA4=T28:Project|bratT28=Product
 19	в	_	_	_	_	_	_	_	_
-20	стране	_	_	_	_	_	_	_	_
+20	стране	_	_	_	_	_	_	_	bratT44=GPE
 21	ответственны	_	_	_	_	_	_	_	_
 22	украинские	_	_	_	_	_	_	_	bratA15=T39:Adjective|bratT39=GPE|bratT4=Other-group
 23	олигархи	_	_	_	_	_	_	_	bratT4=Other-group
@@ -64,7 +64,7 @@
 7	реформы	_	_	_	_	_	_	_	_
 8	для	_	_	_	_	_	_	_	_
 9	нашей	_	_	_	_	_	_	_	_
-10	страны	_	_	_	_	_	_	_	SpaceAfter=No
+10	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=GPE
 11	,	_	_	_	_	_	_	_	_
 12	но	_	_	_	_	_	_	_	_
 13	теперь	_	_	_	_	_	_	_	bratA8=T26:Present|bratT26=Date-absolute
@@ -122,7 +122,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	стране	_	_	_	_	_	_	_	_
+7	стране	_	_	_	_	_	_	_	bratT46=GPE
 8	с	_	_	_	_	_	_	_	_
 9	помощью	_	_	_	_	_	_	_	_
 10	демократических	_	_	_	_	_	_	_	bratA18=T42:Adjective|bratT42=Political-group
@@ -143,7 +143,7 @@
 25	с	_	_	_	_	_	_	_	_
 26	коррупцией	_	_	_	_	_	_	_	_
 27	в	_	_	_	_	_	_	_	_
-28	стране	_	_	_	_	_	_	_	SpaceAfter=No
+28	стране	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=GPE
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p5
@@ -180,8 +180,11 @@
 28	сообщал	_	_	_	_	_	_	_	_
 29	ранее	_	_	_	_	_	_	_	bratA7=T25:Past|bratT25=Date-relative
 30	сайт	_	_	_	_	_	_	_	bratA2=T17:Media|bratT17=Service
-31	KP.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA5=T30:Media|bratT17=Service|bratT30=Organization
-32	.	_	_	_	_	_	_	_	_
+31-33	KP.ru	_	_	_	_	_	_	_	SpaceAfter=No
+31	KP	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA5=T30:Media|bratT17=Service|bratT30=Organization
+32	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA5=T30:Media|bratT17=Service|bratT30=Organization
+33	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T17:Media|bratA5=T30:Media|bratT17=Service|bratT30=Organization
+34	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0019-p5-s2
 # text = Владимир Зеленский внёс законопроект о прекращении полномочия судей Конституционного суда.

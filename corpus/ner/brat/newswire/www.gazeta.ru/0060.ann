@@ -11,9 +11,26 @@ T9	GPE 819 840	Внутренней   Монголии
 T10	Date-absolute 843 854	в   субботу
 T11	GPE 917 947	городском   уезде   Маньчжурия
 T12	Quantity 967 996	более   172   тысяч   человек
-T13	Other-term 1072 1080	COVID-19
+T13	Other-term 1072 1082	COVID - 19
 T14	GPE 138 148	Маньчжоули
 T15	Organization 391 415	местного   правительства
 T16	Quantity 867 886	несколько   случаев
 A2	Past T10
 T17	Service 480 506	общественного   транспорта
+T18	Event 725 744	случаев   заражения
+T19	Event 879 910	случаев   заражения   инфекцией
+T20	Nationality 747 764	местных   жителей
+A3	Resident T20
+T21	Cardinal 1080 1082	19
+T22	Organization 1001 1007	Власти
+T23	Organization 91 152	Власти   городского   уезда   Маньчжурия   (   Маньчжоули   )
+T24	Nationality 1038 1054	жителей   города
+A4	Resident T24
+T25	Nationality 954 964	населением
+A5	Resident T25
+T26	GPE 391 399	местного
+A6	Adjective T26
+T27	GPE 747 754	местных
+A7	Adjective T27
+T28	GPE 48 65	городском   уезде
+T29	GPE 1048 1054	города

@@ -8,7 +8,7 @@
 3	опубликовал	_	_	_	_	_	_	_	_
 4	последнее	_	_	_	_	_	_	_	bratT30=Ordinal
 5	фото	_	_	_	_	_	_	_	_
-6	отца	_	_	_	_	_	_	_	bratT25=Family
+6	отца	_	_	_	_	_	_	_	bratA21=T57:Male|bratT25=Family|bratT57=Person
 
 # newpar id = 0114-p2
 # par_text = Степан Джигарханян, приемный сын актера Армена Джигарханяна, опубликовал последнее фото отца. Снимок он выложил в сторис своего Instagram-аккаунта.
@@ -35,7 +35,7 @@
 2	он	_	_	_	_	_	_	_	_
 3	выложил	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	сторис	_	_	_	_	_	_	_	_
+5	сторис	_	_	_	_	_	_	_	bratA16=T50:Media|bratT50=Service
 6	своего	_	_	_	_	_	_	_	_
 7	Instagram-аккаунта	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Service
 8	.	_	_	_	_	_	_	_	_
@@ -46,7 +46,7 @@
 # text = На фотографии артист запечатлен рядом со своей второй женой, актрисой Татьяной Власовой.
 1	На	_	_	_	_	_	_	_	_
 2	фотографии	_	_	_	_	_	_	_	_
-3	артист	_	_	_	_	_	_	_	bratT28=Person-property
+3	артист	_	_	_	_	_	_	_	bratA17=T53:Male|bratT28=Person-property|bratT53=Person
 4	запечатлен	_	_	_	_	_	_	_	_
 5	рядом	_	_	_	_	_	_	_	_
 6	со	_	_	_	_	_	_	_	_
@@ -78,8 +78,8 @@
 # sent_id = 0114-p4-s1
 # text = Ранее друг артиста Артур Согомонян заявил об открытом формате церемонии прощания с Джигарханяном.
 1	Ранее	_	_	_	_	_	_	_	bratA2=T32:Past|bratT32=Date-relative
-2	друг	_	_	_	_	_	_	_	_
-3	артиста	_	_	_	_	_	_	_	bratT10=Person-property
+2	друг	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person
+3	артиста	_	_	_	_	_	_	_	bratA13=T11:Male|bratA18=T54:Male|bratT10=Person-property|bratT11=Person|bratT54=Person
 4	Артур	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT41=Person-forename
 5	Согомонян	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT42=Person-surname
 6	заявил	_	_	_	_	_	_	_	_
@@ -88,8 +88,8 @@
 9	формате	_	_	_	_	_	_	_	_
 10	церемонии	_	_	_	_	_	_	_	bratT12=Event
 11	прощания	_	_	_	_	_	_	_	bratT12=Event
-12	с	_	_	_	_	_	_	_	bratT12=Event
-13	Джигарханяном	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Male|bratT12=Event|bratT13=Person|bratT43=Person-surname
+12	с	_	_	_	_	_	_	_	_
+13	Джигарханяном	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Male|bratT13=Person|bratT43=Person-surname
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p4-s2
@@ -101,11 +101,11 @@
 5	желающих	_	_	_	_	_	_	_	_
 6	попрощаться	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
-8	актером	_	_	_	_	_	_	_	bratT14=Person-property
+8	актером	_	_	_	_	_	_	_	bratA19=T55:Male|bratT14=Person-property|bratT55=Person
 9	прийти	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	траурное	_	_	_	_	_	_	_	_
-12	мероприятие	_	_	_	_	_	_	_	_
+11	траурное	_	_	_	_	_	_	_	bratT51=Event
+12	мероприятие	_	_	_	_	_	_	_	bratT51=Event
 13	в	_	_	_	_	_	_	_	_
 14	медицинских	_	_	_	_	_	_	_	_
 15	масках	_	_	_	_	_	_	_	SpaceAfter=No
@@ -115,7 +115,7 @@
 # par_text = Церемонию планируется провести в Театре Армена Джигарханяна, который артист возглавлял с 1996 года. Джигарханян умер утром в субботу, 14 ноября, в возрасте 85 лет. Причиной его смерти, по предварительным данным, стал отказ почек.
 # sent_id = 0114-p5-s1
 # text = Церемонию планируется провести в Театре Армена Джигарханяна, который артист возглавлял с 1996 года.
-1	Церемонию	_	_	_	_	_	_	_	_
+1	Церемонию	_	_	_	_	_	_	_	bratT52=Event
 2	планируется	_	_	_	_	_	_	_	_
 3	провести	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
@@ -124,7 +124,7 @@
 7	Джигарханяна	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T29:Male|bratT17=Organization|bratT29=Person|bratT45=Person-surname
 8	,	_	_	_	_	_	_	_	_
 9	который	_	_	_	_	_	_	_	_
-10	артист	_	_	_	_	_	_	_	bratT18=Person-property
+10	артист	_	_	_	_	_	_	_	bratA20=T56:Male|bratT18=Person-property|bratT56=Person
 11	возглавлял	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	bratA5=T19:Past|bratT19=Date-period-absolute
 13	1996	_	_	_	_	_	_	_	bratA5=T19:Past|bratT19=Date-period-absolute

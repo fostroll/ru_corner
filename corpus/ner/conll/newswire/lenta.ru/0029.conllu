@@ -3,7 +3,7 @@
 # par_text = Британца оштрафовали на 170 тысяч рублей за отказ надеть маску в автобусе
 # sent_id = 0029-p1-s1
 # text = Британца оштрафовали на 170 тысяч рублей за отказ надеть маску в автобусе
-1	Британца	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
+1	Британца	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratA15=T39:Male|bratT1=Nationality|bratT39=Person
 2	оштрафовали	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	170	_	_	_	_	_	_	_	bratT2=Money
@@ -20,8 +20,8 @@
 # par_text = Пассажира автобуса в Лондоне оштрафовали на 1700 фунтов стерлингов (173 тысячи рублей) за то, что он два дня подряд отказывался надевать маску. Об этом пишет The Mirror.
 # sent_id = 0029-p2-s1
 # text = Пассажира автобуса в Лондоне оштрафовали на 1700 фунтов стерлингов (173 тысячи рублей) за то, что он два дня подряд отказывался надевать маску.
-1	Пассажира	_	_	_	_	_	_	_	_
-2	автобуса	_	_	_	_	_	_	_	_
+1	Пассажира	_	_	_	_	_	_	_	bratA16=T40:Male|bratT40=Person
+2	автобуса	_	_	_	_	_	_	_	bratA16=T40:Male|bratT40=Person
 3	в	_	_	_	_	_	_	_	_
 4	Лондоне	_	_	_	_	_	_	_	bratT3=GPE
 5	оштрафовали	_	_	_	_	_	_	_	_
@@ -72,7 +72,7 @@
 10	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Past|bratT9=Date-absolute
 11	,	_	_	_	_	_	_	_	_
 12	хотя	_	_	_	_	_	_	_	_
-13	нарушение	_	_	_	_	_	_	_	_
+13	нарушение	_	_	_	_	_	_	_	bratT41=Event
 14	было	_	_	_	_	_	_	_	_
 15	зафиксировано	_	_	_	_	_	_	_	_
 16	еще	_	_	_	_	_	_	_	_
@@ -83,8 +83,8 @@
 # sent_id = 0029-p3-s2
 # text = 49-летний местный житель отказался надеть маску 15 и 16 июля, за что ему выписали штраф в размере 100 фунтов (10 000 рублей).
 1	49-летний	_	_	_	_	_	_	_	bratT11=Quantity
-2	местный	_	_	_	_	_	_	_	bratA9=T35:Resident|bratT35=Nationality
-3	житель	_	_	_	_	_	_	_	bratA9=T35:Resident|bratT35=Nationality
+2	местный	_	_	_	_	_	_	_	bratA17=T42:Male|bratA20=T47:Adjective|bratA9=T35:Resident|bratT35=Nationality|bratT42=Person|bratT47=GPE
+3	житель	_	_	_	_	_	_	_	bratA17=T42:Male|bratA9=T35:Resident|bratT35=Nationality|bratT42=Person
 4	отказался	_	_	_	_	_	_	_	_
 5	надеть	_	_	_	_	_	_	_	_
 6	маску	_	_	_	_	_	_	_	_
@@ -112,7 +112,7 @@
 # sent_id = 0029-p3-s3
 # text = Однако британец не выплатил эту сумму, за что ему назначили увеличенный штраф.
 1	Однако	_	_	_	_	_	_	_	_
-2	британец	_	_	_	_	_	_	_	bratA2=T16:Citizenship|bratT16=Nationality
+2	британец	_	_	_	_	_	_	_	bratA18=T43:Male|bratA2=T16:Citizenship|bratT16=Nationality|bratT43=Person
 3	не	_	_	_	_	_	_	_	_
 4	выплатил	_	_	_	_	_	_	_	_
 5	эту	_	_	_	_	_	_	_	_
@@ -165,15 +165,15 @@
 
 # sent_id = 0029-p4-s3
 # text = Один из подсудимых заявил, что не понимает по-английски и не знал, что ему говорили о необходимости надевать средства индивидуальном защиты.
-1	Один	_	_	_	_	_	_	_	_
-2	из	_	_	_	_	_	_	_	_
-3	подсудимых	_	_	_	_	_	_	_	bratT17=Other-group
+1	Один	_	_	_	_	_	_	_	bratA14=T37:Male|bratT37=Person|bratT38=Quantity
+2	из	_	_	_	_	_	_	_	bratA14=T37:Male|bratT37=Person|bratT38=Quantity
+3	подсудимых	_	_	_	_	_	_	_	bratA14=T37:Male|bratT17=Other-group|bratT37=Person
 4	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	не	_	_	_	_	_	_	_	_
 8	понимает	_	_	_	_	_	_	_	_
-9	по-английски	_	_	_	_	_	_	_	_
+9	по-английски	_	_	_	_	_	_	_	bratT46=Language
 10	и	_	_	_	_	_	_	_	_
 11	не	_	_	_	_	_	_	_	_
 12	знал	_	_	_	_	_	_	_	SpaceAfter=No
@@ -203,12 +203,12 @@
 8	Джонсон	_	_	_	_	_	_	_	bratA10=T20:Male|bratT20=Person|bratT31=Person-surname
 9	ушел	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	самоизоляцию	_	_	_	_	_	_	_	_
+11	самоизоляцию	_	_	_	_	_	_	_	bratT36=Event
 12	после	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-absolute
-13	контакта	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-absolute
+13	контакта	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-absolute|bratT44=Event
 14	с	_	_	_	_	_	_	_	_
-15	зараженным	_	_	_	_	_	_	_	_
-16	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-term
+15	зараженным	_	_	_	_	_	_	_	bratA19=T45:Male|bratT45=Person
+16	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T45:Male|bratT26=Other-term|bratT45=Person
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0029-p5-s2

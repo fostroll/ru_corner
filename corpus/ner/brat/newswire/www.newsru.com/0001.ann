@@ -1,0 +1,83 @@
+T1	GPE 4 11	Берлине
+T3	Facility 67 101	аэропорт   имени   Вилли   Брандта
+T4	GPE 107 114	Берлине
+T5	Date-absolute 117 129	31   октября
+T6	Facility 166 213	международный   аэропорт   Берлин - Бранденбург
+T7	Person 239 254	Вилли   Брандта
+T8	Person 86 101	Вилли   Брандта
+T9	Person-property 261 279	бывшего   канцлера
+T10	Person-property 286 324	лауреата   Нобелевской   премии   мира
+T11	Organization 342 345	ARD
+A1	Media T11
+T12	Ordinal 351 357	Первый
+T13	Date-absolute 392 410	утром   1   ноября
+T14	Organization 427 449	авиакомпании   EasyJet
+T15	GPE 466 472	Лондон
+T16	Event 485 521	пандемии   коронавирусной   инфекции
+T17	Quantity 559 585	чуть   более   20   рейсов
+T18	Time-period 588 597	в   сутки
+T19	Organization 649 687	авиакомпании   Lufthansa   и   EasyJet
+A2	Plural T19
+T20	Quantity 714 735	40   млн   пассажиров
+T21	Time-period 738 745	в   год
+T22	GPE 777 795	районе   Шенефельд
+T23	GPE 809 816	Берлина
+T24	Facility 851 881	аэропорта   Берлин - Шенефельд
+T25	Facility 973 1007	Аэропорт   имени   Вилли   Брандта
+T26	Person 992 1007	Вилли   Брандта
+T27	Ordinal 1125 1132	третьим
+T28	GPE 1162 1170	Германии
+T29	Facility 1185 1195	Франкфурта
+T30	Facility 1202 1209	Мюнхена
+T31	Quantity 1241 1256	15   крупнейших
+T32	GPE 1263 1269	Европе
+T33	Facility 1421 1448	аэропорта   Берлин - Тегель
+T34	Date-period-relative 1475 1491	почти   15   лет
+T35	Organization 1511 1537	``   Немецкая   волна   ''
+A3	Media T35
+T36	Date-absolute 1632 1655	ровно   9   лет   назад
+T37	Money 1825 1857	около   семи   миллиардов   евро
+T38	Money 1869 1873	двух
+T39	Quantity 915 925	одним   из
+T2	Date-absolute 14 53	на   9   лет   позже   запланированного
+T40	Time-absolute 392 397	утром
+T41	Facility 751 759	Аэропорт
+T42	Quantity 1018 1030	единственным
+T43	Quantity 1358 1367	еще   раз
+T44	GPE 1062 1082	германской   столицы
+T45	Other-term 496 521	коронавирусной   инфекции
+T46	Duration 19 26	9   лет
+A5	Past T5
+T47	GPE 193 199	Берлин
+T49	GPE 202 213	Бранденбург
+A6	Male T8
+T50	Person-forename 86 91	Вилли
+T51	Person-surname 94 101	Брандта
+T52	Person-forename 239 244	Вилли
+T53	Person-surname 247 254	Брандта
+A7	Male T7
+A8	Past T13
+T54	Duration 592 597	сутки
+T55	Organization 664 673	Lufthansa
+T56	Organization 680 687	EasyJet
+T57	Duration 742 745	год
+A9	Male T26
+T58	Person-forename 992 997	Вилли
+T59	Person-surname 1000 1007	Брандта
+T60	GPE 1062 1072	германской
+A10	Adjective T60
+T61	GPE 1433 1439	Берлин
+T62	GPE 863 869	Берлин
+T63	GPE 872 881	Шенефельд
+T65	GPE 1442 1448	Тегель
+T67	GPE 1516 1524	Немецкая
+A11	Adjective T67
+A12	Past T34
+T68	Duration 1483 1491	15   лет
+A13	Past T36
+A4	Present T2
+A14	Past T2
+T69	Duration 1632 1647	ровно   9   лет
+T70	Age 841 848	старого
+T71	Age 886 892	Старый
+T72	Other-term 297 324	Нобелевской   премии   мира

@@ -50,8 +50,11 @@
 29	семье	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Family
 30	,	_	_	_	_	_	_	_	_
 31	сообщает	_	_	_	_	_	_	_	_
-32	Metaratings.ru	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-33	.	_	_	_	_	_	_	_	_
+32-34	Metaratings.ru	_	_	_	_	_	_	_	SpaceAfter=No
+32	Metaratings	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT38=Web-address
+33	.	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT38=Web-address
+34	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT38=Web-address
+35	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0086-p2-s2
 # text = Отмечается, что футболисты, которые не задействованы в национальных сборных, получили индивидуальный план тренировок.
@@ -64,8 +67,8 @@
 7	не	_	_	_	_	_	_	_	_
 8	задействованы	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	национальных	_	_	_	_	_	_	_	_
-11	сборных	_	_	_	_	_	_	_	SpaceAfter=No
+10	национальных	_	_	_	_	_	_	_	bratA14=T39:Adjective|bratT37=Organization|bratT39=GPE
+11	сборных	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
 12	,	_	_	_	_	_	_	_	_
 13	получили	_	_	_	_	_	_	_	_
 14	индивидуальный	_	_	_	_	_	_	_	_

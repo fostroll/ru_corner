@@ -1,0 +1,103 @@
+T1	Person 0 5	Путин
+T2	Person 27 36	Лукашенко
+T3	GPE 80 82	РФ
+T4	Person 84 121	Президент   России   Владимир   Путин
+T5	Person-property 84 102	Президент   России
+T6	GPE 96 102	России
+T7	Person 161 212	белорусским   президентом   Александром   Лукашенко
+T8	Person-property 161 186	белорусским   президентом
+T9	GPE 251 262	Белоруссией
+T10	GPE 307 309	РФ
+T11	Person-property 320 342	Президент   Белоруссии
+T12	GPE 332 342	Белоруссии
+T13	GPE 473 479	России
+T14	Person 484 500	Владимир   Путин
+T15	Organization 552 596	белорусское   госагентство   ``   БелТА   ''
+A1	Media T15
+T16	Person-property 841 851	президенты
+T17	Other-term 915 927	коронавируса
+T18	GPE 1039 1049	Белоруссии
+T19	Person-property 1180 1201	белорусского   лидера
+T20	Organization 1278 1315	пресс-службе   президента   Лукашенко
+T21	Person 1293 1315	президента   Лукашенко
+T22	Person-property 1293 1303	президента
+T23	Person 1340 1361	Александр   Лукашенко
+T24	Organization 1496 1513	Белорусской   АЭС
+T25	Ordinal 1472 1479	первого
+T26	GPE 1559 1564	Литва
+T27	GPE 1626 1636	Белоруссии
+T28	Service 1647 1652	сайте
+A2	Media T28
+T29	Organization 1655 1661	Кремля
+T30	Person-surname 1700 1706	Путина
+T31	Person-surname 1713 1722	Лукашенко
+T32	Person-surname 1887 1892	Путин
+T33	Person 1899 1908	Лукашенко
+T34	GPE 1979 1988	Усть-Луга
+T35	GPE 1995 2018	Ленинградской   области
+T36	Quantity 2054 2066	двух   стран
+T37	Organization 641 669	президентскую   пресс-службу
+T38	Date-absolute 743 779	во   время   ближайших   переговоров
+T39	Date-absolute 675 693	После   проработки
+A5	Media T20
+T40	Event 1784 1816	нагорно-карабахского   конфликта
+T41	Date-relative 1543 1556	После   этого
+T42	Time-absolute 599 606	вечером
+T43	Date-absolute 599 618	вечером   в   среду
+T44	Other-term 1025 1032	вакцины
+T45	Person-surname 0 5	Путин
+A4	Male T1
+A6	Male T2
+T46	Person-surname 27 36	Лукашенко
+T47	Person-forename 105 113	Владимир
+T48	Person-surname 116 121	Путин
+A7	Male T4
+T49	GPE 161 172	белорусским
+A8	Adjective T49
+T50	Person-forename 189 200	Александром
+T51	Person-surname 203 212	Лукашенко
+T52	GPE 361 372	российскому
+A9	Adjective T52
+T53	Person-forename 484 492	Владимир
+T54	Person-surname 495 500	Путин
+A10	Male T14
+T55	GPE 552 563	белорусское
+A11	Adjective T55
+A12	Past T43
+A13	Past T39
+T56	GPE 1067 1077	российских
+A15	Adjective T56
+T57	GPE 1180 1192	белорусского
+A16	Adjective T57
+T58	GPE 1224 1234	российским
+A17	Adjective T58
+T59	Person-surname 1306 1315	Лукашенко
+A18	Male T21
+T60	Person-forename 1340 1349	Александр
+T61	Person-surname 1352 1361	Лукашенко
+A19	Male T23
+T62	GPE 1406 1417	российского
+A20	Adjective T62
+T63	GPE 1496 1507	Белорусской
+A21	Adjective T63
+A22	Past T41
+T64	Person 1700 1706	Путина
+A23	Male T64
+T65	Person 1713 1722	Лукашенко
+A24	Male T65
+T66	GPE 1784 1804	нагорно-карабахского
+A25	Adjective T66
+A26	Male T33
+T67	Person-surname 1899 1908	Лукашенко
+T68	Person 1887 1892	Путин
+A27	Male T68
+T69	GPE 1944 1955	белорусских
+A28	Adjective T69
+A14	Future T38
+T70	Event 756 779	ближайших   переговоров
+A3	Department T37
+T71	Ordinal 756 765	ближайших
+T72	Person-property 361 382	российскому   коллеге
+T73	Person-property 1224 1245	российским   коллегой
+T74	Person-property 1406 1427	российского   коллегу
+T75	GPE 2054 2066	двух   стран

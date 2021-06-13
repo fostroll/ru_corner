@@ -1,0 +1,76 @@
+T1	Person 0 6	Лавров
+T2	GPE 74 81	Россией
+T3	GPE 84 91	Кавказа
+T4	GPE 147 167	Нагорному   Карабаху
+T5	GPE 170 176	Россия
+T6	GPE 198 204	Кавказ
+T7	Person 279 308	глава   МИД   Сергей   Лавров
+T8	Person-property 279 290	глава   МИД
+T9	Organization 287 290	МИД
+T10	Person-property 357 376	корреспондент   РБК
+T11	Organization 373 376	РБК
+A1	Media T11
+T12	GPE 444 450	Россия
+T13	GPE 482 488	Кавказ
+T14	GPE 515 519	Крым
+T15	GPE 615 621	Турции
+T16	Person 682 688	Лавров
+T17	Person-property 694 701	Министр
+T18	Person 978 984	Лавров
+T19	Time-absolute 990 997	Вечером
+T20	Date-absolute 990 1010	Вечером   9   ноября
+T21	Person-property 1013 1061	лидеры   Армении   ,   Азербайджана   и   России
+A2	Plural T21
+T22	GPE 1022 1029	Армении
+T23	GPE 1036 1048	Азербайджана
+T24	GPE 1055 1061	России
+T25	GPE 1121 1140	Нагорном   Карабахе
+T26	Date-absolute 1216 1231	с   10   ноября
+T27	GPE 1360 1368	Карабаха
+T28	GPE 1398 1402	Баку
+T29	Quantity 1514 1530	около   2   тыс.
+T30	Person-property 1533 1557	российских   миротворцев
+T31	Date-period-absolute 1604 1619	на   пять   лет
+T32	Person 1676 1713	президент   России   Владимир   Путин
+T33	Person-property 1676 1694	президент   России
+T34	GPE 1688 1694	России
+T35	Person-property 1757 1781	российских   миротворцев
+T36	GPE 1788 1796	Карабахе
+T37	Quantity 1897 1919	не   реже   двух   раз
+T38	Time-period 1922 1929	в   год
+T39	Person-surname 0 6	Лавров
+A3	Male T1
+T40	Person-forename 293 299	Сергей
+T41	Person-surname 302 308	Лавров
+A4	Male T7
+T43	Person-surname 682 688	Лавров
+A5	Male T16
+T42	GPE 764 774	российских
+A6	Adjective T42
+T44	Person-surname 978 984	Лавров
+A7	Male T18
+A8	Past T20
+T45	Quantity 1338 1357	Несколько   районов
+T46	GPE 1533 1543	российских
+A10	Adjective T46
+T47	Duration 1609 1619	пять   лет
+T48	Date-relative 1668 1673	Ранее
+A12	Past T48
+T49	Person-forename 1697 1705	Владимир
+T50	Person-surname 1708 1713	Путин
+A13	Male T32
+T51	GPE 1757 1767	российских
+A14	Adjective T51
+T52	Duration 1926 1929	год
+T53	Date-period-absolute 122 139	после   заявления
+T54	Ordinal 495 504	следующим
+T55	Political-group 777 788	либеральных
+A16	Adjective T55
+T56	Event 322 339	пресс-конференции
+T57	Date-absolute 311 339	в   ходе   пресс-конференции
+A17	Past T57
+A15	Past-Fut T53
+T58	Person-property 1848 1875	миротворческий   контингент
+A9	Pres-Fut T31
+T59	Service 805 813	соцсетях
+T60	GPE 1272 1279	регионе

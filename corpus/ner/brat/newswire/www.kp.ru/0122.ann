@@ -15,27 +15,27 @@ T14	Person 492 507	Меланья   Трамп
 T15	Person 658 687	ее   супруг   Дональд   Трамп
 T16	Family 663 669	супруг
 T17	Event 749 763	день   выборов
-T18	Date-relative 811 818	сегодня
+T18	Date-absolute 811 818	сегодня
 T19	Organization 877 890	Белого   дома
 T20	Person-property 869 890	глава   Белого   дома
 T21	Event 942 960	всеобщих   выборах
 T22	Date-absolute 965 995	В   субботу   ,   24   октября
 T23	Person-property 1002 1037	американский   лидер   проголосовал
 T24	Person 1050 1076	парня   по   имени   Трамп
-T25	Organization 1245 1269	республиканской   партии
-T26	Ordinal 1143 1149	первый
-T27	Ordinal 1170 1177	первого
-T28	Date-absolute 1170 1201	первого   понедельника   ноября
-T29	Date-absolute 1139 1201	в   первый   вторник   после   первого   понедельника   ноября
-T30	Person-property 1288 1326	действующий   американский   президент
-T31	Person 1288 1344	действующий   американский   президент   Дональд   Трамп
-T32	GPE 1389 1396	Америку
-T33	Political-group 1422 1432	демократов
-T34	Person-property 1447 1466	главы   государства
-T35	Person 1485 1500	Джозеф   Байден
-T36	Person-property 1565 1575	букмекеров
-T37	Other-group 1538 1549	избирателей
-T38	Person-property 1617 1647	новым   американским   лидером
+T25	Organization 1247 1271	республиканской   партии
+T26	Ordinal 1145 1151	первый
+T27	Ordinal 1172 1179	первого
+T28	Date-absolute 1172 1203	первого   понедельника   ноября
+T29	Date-absolute 1141 1203	в   первый   вторник   после   первого   понедельника   ноября
+T30	Person-property 1290 1328	действующий   американский   президент
+T31	Person 1290 1346	действующий   американский   президент   Дональд   Трамп
+T32	GPE 1391 1398	Америку
+T33	Political-group 1424 1434	демократов
+T34	Person-property 1442 1468	пост   главы   государства
+T35	Person 1487 1502	Джозеф   Байден
+T36	Person-property 1567 1577	букмекеров
+T37	Other-group 1540 1551	избирателей
+T38	Person-property 1619 1649	новым   американским   лидером
 T39	Family 313 320	Супруга
 T40	Person-property 323 345	американского   лидера
 T41	GPE 399 407	Палм-Бич
@@ -45,11 +45,11 @@ T44	Organization 461 486	пресс-пул   Белого   дома
 A1	Media T44
 A2	Department T44
 T45	Date-absolute 745 763	в   день   выборов
-T46	Service 1101 1113	сайт   kp.ru
+T46	Service 1101 1115	сайт   kp . ru
 A3	Media T46
-T47	Date-absolute 1120 1127	сегодня
+T47	Date-absolute 1122 1129	сегодня
 T48	Time-absolute 172 177	утром
-T49	Organization 1108 1113	kp.ru
+T49	Organization 1108 1115	kp . ru
 A4	Media T49
 A5	Past T8
 A6	Past T28
@@ -58,7 +58,6 @@ A8	Present T3
 A9	Past T10
 A10	Present T18
 A11	Past T22
-A12	Present T47
 T50	Person-forename 14 21	Меланьи
 T51	Person-surname 24 29	Трамп
 T52	Person-forename 228 235	Меланьи
@@ -68,12 +67,12 @@ T55	Person-surname 502 507	Трамп
 T56	Person-forename 672 679	Дональд
 T57	Person-surname 682 687	Трамп
 T58	Person-surname 1071 1076	Трамп
-T59	Person-forename 1329 1336	Дональд
-T60	Person-surname 1339 1344	Трамп
-T61	Person-forename 1485 1491	Джозеф
-T62	Person-surname 1494 1500	Байден
+T59	Person-forename 1331 1338	Дональд
+T60	Person-surname 1341 1346	Трамп
+T61	Person-forename 1487 1493	Джозеф
+T62	Person-surname 1496 1502	Байден
 T63	GPE 1002 1014	американский
-T64	GPE 1302 1314	американский
+T64	GPE 1304 1316	американский
 A16	Male T15
 A13	Female T1
 A14	Female T9
@@ -84,10 +83,13 @@ A19	Male T35
 T65	GPE 323 336	американского
 A20	Adjective T65
 A21	Adjective T63
-T66	Political-group 1245 1260	республиканской
+T66	Political-group 1247 1262	республиканской
 A22	Adjective T66
 A23	Adjective T64
-T67	GPE 1625 1637	американским
+T67	GPE 1627 1639	американским
 A24	Adjective T67
 T68	Person 313 345	Супруга   американского   лидера
 A25	Female T68
+A12	Past T47
+T69	Web-address 1108 1115	kp . ru
+T70	GPE 1457 1468	государства

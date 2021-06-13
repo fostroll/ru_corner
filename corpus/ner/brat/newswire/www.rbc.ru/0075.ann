@@ -1,0 +1,42 @@
+T1	Organization 0 3	МЧС
+T2	Event 25 31	пожара
+T3	Organization 39 67	электромеханическом   заводе
+T4	GPE 74 84	Петербурге
+T5	Organization 162 218	``   Ленинградского   электромеханического   завода   ''
+T6	Organization 225 229	ЛЭМЗ
+T7	GPE 240 256	Санкт-Петербурге
+T8	Organization 326 348	ГУ   МЧС   по   городу
+T9	Date-absolute 448 469	вечером   13   ноября
+T10	Time-absolute 448 455	вечером
+T11	Person-property 504 513	спасатели
+T12	Time-absolute 557 566	в   19:39
+T13	Person-property 617 625	пожарные
+T14	Date-period-relative 630 670	В   течение   последующих   двух   часов
+T15	Time-absolute 738 747	к   21:30
+T16	Ordinal 778 785	третьем
+T17	Quantity 816 829	600   кв.   м
+T18	Ordinal 845 854	четвертом
+T20	Person-property 879 888	Спасатели
+T21	Ordinal 912 921	четвертый
+T22	Organization 1022 1025	МЧС
+T23	Quantity 1040 1061	17   единиц   техники
+T24	Quantity 1068 1081	58   человека
+T25	Organization 1129 1159	прокуратура   Санкт-Петербурга
+T26	GPE 1143 1159	Санкт-Петербурга
+T27	Person-property 1190 1202	Специалистам
+T28	GPE 167 181	Ленинградского
+A1	Adjective T28
+T29	Organization 311 348	пресс-служба   ГУ   МЧС   по   городу
+A2	Department T29
+A3	Past T9
+T30	Event 428 433	Пожар
+T31	Duration 658 670	двух   часов
+A4	Past T14
+T32	Ordinal 644 655	последующих
+T33	Quantity 861 874	600   кв.   м
+T19	Date-relative 557 566	в   19:39
+A5	Past T19
+T34	Date-relative 738 747	к   21:30
+A6	Past T34
+T35	Law 1334 1380	законодательства   о   пожарной   безопасности
+T36	GPE 342 348	городу

@@ -11,10 +11,13 @@
 6	тыс.	_	_	_	_	_	_	_	bratT2=Quantity
 7	пациентов	_	_	_	_	_	_	_	bratT2=Quantity
 8	с	_	_	_	_	_	_	_	_
-9	COVID-19	_	_	_	_	_	_	_	bratT3=Other-term
-10	за	_	_	_	_	_	_	_	bratA1=T39:Past|bratT39=Date-period-absolute
-11	время	_	_	_	_	_	_	_	bratA1=T39:Past|bratT39=Date-period-absolute
-12	пандемии	_	_	_	_	_	_	_	bratA1=T39:Past|bratT36=Event|bratT39=Date-period-absolute
+9-11	COVID-19	_	_	_	_	_	_	_	_
+9	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term
+11	19	_	_	_	_	_	_	_	bratT3=Other-term|bratT54=Cardinal
+12	за	_	_	_	_	_	_	_	bratA1=T39:Past|bratT39=Date-period-absolute
+13	время	_	_	_	_	_	_	_	bratA1=T39:Past|bratT39=Date-period-absolute
+14	пандемии	_	_	_	_	_	_	_	bratA1=T39:Past|bratT36=Event|bratT39=Date-period-absolute
 
 # newpar id = 0023-p2
 # par_text = В Москве за сутки скончались еще 76 пациентов с коронавирусом SARS-CoV-2. Об этом сообщает оперштаб Москвы.
@@ -30,8 +33,13 @@
 8	пациентов	_	_	_	_	_	_	_	bratT6=Quantity
 9	с	_	_	_	_	_	_	_	_
 10	коронавирусом	_	_	_	_	_	_	_	bratT7=Other-term
-11	SARS-CoV-2	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
-12	.	_	_	_	_	_	_	_	_
+11-15	SARS-CoV-2	_	_	_	_	_	_	_	SpaceAfter=No
+11	SARS	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+13	CoV	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+15	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Ordinal|bratT7=Other-term
+16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p2-s2
 # text = Об этом сообщает оперштаб Москвы.
@@ -75,8 +83,11 @@
 11	результат	_	_	_	_	_	_	_	_
 12	анализов	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
-14	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term
-15	.	_	_	_	_	_	_	_	_
+14-16	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+14	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term
+16	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term|bratT51=Cardinal
+17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0023-p5
 # par_text = Всего в мире с начала пандемии зарегистрировано свыше 55,5 млн заболевших, свыше 38,5 млн человек выздоровели, а более миллиона пациентов умерли. В России выявили свыше 1,9 млн человек с COVID-19. РФ была первой страной в мире, зарегистрировавшей вакцину от COVID-19. Препарат был разработан НИЦЭМ имени Гамалеи совместно с Российским фондом прямых инвестиций. Его назвали «Спутник V». 15 октября президент России Владимир Путин рассказал о регистрации второй вакцины от COVID-19, которая получила название «ЭпиВакКорона». Ее разработал новосибирский центр «Вектор».
@@ -117,23 +128,29 @@
 6	млн	_	_	_	_	_	_	_	bratT18=Quantity
 7	человек	_	_	_	_	_	_	_	bratT18=Quantity
 8	с	_	_	_	_	_	_	_	_
-9	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
-10	.	_	_	_	_	_	_	_	_
+9-11	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+9	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+11	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT52=Cardinal
+12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p5-s3
 # text = РФ была первой страной в мире, зарегистрировавшей вакцину от COVID-19.
 1	РФ	_	_	_	_	_	_	_	bratT20=GPE
 2	была	_	_	_	_	_	_	_	_
 3	первой	_	_	_	_	_	_	_	bratT32=Ordinal
-4	страной	_	_	_	_	_	_	_	_
+4	страной	_	_	_	_	_	_	_	bratT57=GPE
 5	в	_	_	_	_	_	_	_	_
 6	мире	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=GPE
 7	,	_	_	_	_	_	_	_	_
 8	зарегистрировавшей	_	_	_	_	_	_	_	_
 9	вакцину	_	_	_	_	_	_	_	bratT34=Other-term
 10	от	_	_	_	_	_	_	_	_
-11	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
-12	.	_	_	_	_	_	_	_	_
+11-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+11	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
+13	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term|bratT53=Cardinal
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p5-s4
 # text = Препарат был разработан НИЦЭМ имени Гамалеи совместно с Российским фондом прямых инвестиций.
@@ -142,7 +159,7 @@
 3	разработан	_	_	_	_	_	_	_	_
 4	НИЦЭМ	_	_	_	_	_	_	_	bratT22=Organization
 5	имени	_	_	_	_	_	_	_	bratT22=Organization
-6	Гамалеи	_	_	_	_	_	_	_	bratT22=Organization
+6	Гамалеи	_	_	_	_	_	_	_	bratT22=Organization|bratT50=Person|bratT56=Person-surname
 7	совместно	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
 9	Российским	_	_	_	_	_	_	_	bratA7=T46:Adjective|bratT23=Organization|bratT46=GPE
@@ -155,10 +172,10 @@
 # text = Его назвали ``Спутник V''.
 1	Его	_	_	_	_	_	_	_	_
 2	назвали	_	_	_	_	_	_	_	_
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Product
-4	Спутник	_	_	_	_	_	_	_	bratT24=Product
-5	V	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Product
-6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Product
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Trademark|bratT24=Product
+4	Спутник	_	_	_	_	_	_	_	bratA9=T24:Trademark|bratT24=Product
+5	V	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Trademark|bratT24=Product
+6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Trademark|bratT24=Product
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p5-s6
@@ -171,19 +188,22 @@
 6	Путин	_	_	_	_	_	_	_	bratA6=T26:Male|bratT26=Person|bratT45=Person-surname
 7	рассказал	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
-9	регистрации	_	_	_	_	_	_	_	_
+9	регистрации	_	_	_	_	_	_	_	bratT48=Event
 10	второй	_	_	_	_	_	_	_	bratT33=Ordinal
 11	вакцины	_	_	_	_	_	_	_	bratT35=Other-term
 12	от	_	_	_	_	_	_	_	_
-13	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term
-14	,	_	_	_	_	_	_	_	_
-15	которая	_	_	_	_	_	_	_	_
-16	получила	_	_	_	_	_	_	_	_
-17	название	_	_	_	_	_	_	_	_
-18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Product
-19	ЭпиВакКорона	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Product
-20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Product
-21	.	_	_	_	_	_	_	_	_
+13-15	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term
+15	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Other-term|bratT55=Cardinal
+16	,	_	_	_	_	_	_	_	_
+17	которая	_	_	_	_	_	_	_	_
+18	получила	_	_	_	_	_	_	_	_
+19	название	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T31:Trademark|bratT31=Product
+21	ЭпиВакКорона	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T31:Trademark|bratT31=Product
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T31:Trademark|bratT31=Product
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p5-s7
 # text = Ее разработал новосибирский центр ``Вектор''.

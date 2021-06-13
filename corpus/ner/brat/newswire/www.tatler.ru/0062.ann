@@ -1,0 +1,132 @@
+T1	Person-forename 0 6	Сиенна
+T2	Person-surname 9 15	Миллер
+T3	Person 0 15	Сиенна   Миллер
+A1	Female T3
+T4	Person-forename 35 42	Лукасом
+T5	Person-surname 45 54	Цвирнером
+T6	Person 35 54	Лукасом   Цвирнером
+A2	Male T6
+T7	Date-absolute 61 85	после   года   отношений
+A3	Past T7
+T8	Duration 69 73	года
+T9	Date-absolute 121 145	в   доковидные   времена
+A4	Past T9
+T10	Person-forename 190 196	Сиенны
+T11	Person-surname 199 205	Миллер
+T12	Person 190 205	Сиенны   Миллер
+A5	Female T12
+T13	Age 217 226	29-летним
+T14	Family 229 239	бойфрендом
+T15	Person-property 246 256	галеристом
+T16	Person-forename 259 266	Лукасом
+T17	Person-surname 269 278	Цвирнером
+T18	Person 212 278	ее   29-летним   бойфрендом   ,   галеристом   Лукасом   Цвирнером
+A6	Male T18
+T19	Date-absolute 325 336	год   назад
+A7	Past T19
+T20	Date-relative 343 348	тогда
+A8	Past T20
+T21	Person-forename 393 397	Элли
+T22	Person-surname 400 407	Голдинг
+T23	Person-property 414 424	арт-дилера
+T24	Person-forename 427 434	Каспара
+T25	Person-surname 437 446	Джоплинга
+T26	Person 414 446	арт-дилера   Каспара   Джоплинга
+A9	Male T26
+T27	Person 393 407	Элли   Голдинг
+A10	Female T27
+T28	Event 383 446	свадьбе   Элли   Голдинг   и   арт-дилера   Каспара   Джоплинга
+T29	Date-relative 457 462	потом
+T30	Person-forename 506 511	Дашей
+T31	Person-surname 514 521	Жуковой
+T32	Person 506 521	Дашей   Жуковой
+A11	Female T32
+T33	Person-forename 528 535	Дереком
+T34	Person-surname 538 548	Бласбергом
+T35	Person 528 548	Дереком   Бласбергом
+A12	Male T35
+T36	Event 480 499	Венецианском   балу
+T37	GPE 480 492	Венецианском
+A13	Adjective T37
+T38	Person-surname 572 579	Цвирнер
+T39	Person 572 579	Цвирнер
+A14	Male T39
+T40	Person-surname 590 596	Миллер
+T41	Person 590 596	Миллер
+A15	Female T41
+T42	Date-absolute 599 609	в   январе
+A16	Past T42
+T43	Event 617 641	кинофестивале   Sundance
+T44	Person-property 663 670	актриса
+T45	Work-of-art 688 711	фильм   Wander   Darkly
+T46	Person-property 729 738	папарацци
+T47	Person-property 779 786	актрисы
+T48	Date-absolute 845 853	в   июле
+A17	Past T48
+T49	Person-property 954 961	актрисы
+T50	Organization 974 981	PageSix
+A18	Media T50
+T51	Person-surname 994 1000	Миллер
+T52	Person 994 1000	Миллер
+A19	Male T52
+T53	Person-surname 1031 1040	Цвирнером
+T54	Person 1031 1040	Цвирнером
+A20	Male T54
+T55	Person-property 1045 1055	Журналисты
+T56	GPE 1111 1118	Лондоне
+T57	GPE 1125 1134	Нью-Йорке
+T58	Person-property 1097 1104	актрисы
+T59	Person-property 1080 1134	представителей   актрисы   в   Лондоне   и   Нью-Йорке
+A21	Plural T59
+T60	Person-property 1171 1183	работодателю
+T61	Person-surname 1297 1305	Цвирнера
+T62	Person 1297 1305	Цвирнера
+A22	Male T62
+T63	Organization 1287 1305	галереи   Цвирнера
+T64	Person-property 1269 1305	Пресс-секретарь   галереи   Цвирнера
+T65	Person-property 1426 1436	инсайдеров
+T66	Person-surname 1465 1471	Миллер
+T67	Person 1465 1471	Миллер
+A23	Male T67
+T69	Date-absolute 1477 1493	В   конце   июля
+A24	Past T69
+T70	Person-forename 1496 1502	Сиенну
+T71	Person 1496 1502	Сиенну
+A25	Female T71
+T72	Family 1534 1548	экс-бойфрендом
+T73	Person-forename 1551 1556	Томом
+T74	Person-surname 1559 1569	Старриджем
+T75	Person 1534 1569	экс-бойфрендом   Томом   Старриджем
+A26	Male T75
+T76	Person-forename 1638 1644	Сиенна
+T77	Person 1638 1644	Сиенна
+A27	Female T77
+T78	Person-forename 1651 1654	Том
+T79	Person 1651 1654	Том
+A28	Male T79
+T80	Date-period-absolute 1616 1635	после   расставания
+T81	Age 1783 1791	8-летнюю
+T82	Family 1794 1798	дочь
+T83	Person-forename 1801 1807	Марлоу
+T84	Person 1794 1807	дочь   Марлоу
+A30	Female T84
+T85	Person-surname 1812 1820	Старридж
+T86	Person 1812 1820	Старридж
+A31	Male T86
+T87	Date-period-absolute 1828 1846	с   недавних   пор
+A32	RCont T87
+T88	Person-forename 1890 1893	Умы
+T89	Person-surname 1896 1902	Турман
+T90	Person 1890 1902	Умы   Турман
+A34	Female T90
+T91	Family 1880 1887	дочерью
+T92	Person 1880 1902	дочерью   Умы   Турман
+A35	Female T92
+T93	Duration 325 328	год
+A33	Past-Pres T87
+A36	Past T29
+T68	Event 1624 1635	расставания
+T94	Date-relative 716 726	Тогда   же
+A37	Past T94
+A29	Past-Pres T80
+A38	RCont T80

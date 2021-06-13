@@ -1,0 +1,357 @@
+# newdoc id = 0048
+# newpar id = 0048-p1
+# par_text = Мостовой заявил о радости «Спартака» ничьей в матче с «Динамо»
+# sent_id = 0048-p1-s1
+# text = Мостовой заявил о радости ``Спартака'' ничьей в матче с ``Динамо''
+1	Мостовой	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT45=Person-surname
+2	заявил	_	_	_	_	_	_	_	_
+3	о	_	_	_	_	_	_	_	_
+4	радости	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+6	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+7	''	_	_	_	_	_	_	_	bratT2=Organization
+8	ничьей	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	_
+10	матче	_	_	_	_	_	_	_	bratT67=Event
+11	с	_	_	_	_	_	_	_	_
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
+13	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
+14	''	_	_	_	_	_	_	_	bratT4=Organization
+
+# newpar id = 0048-p2
+# par_text = «Динамо» было ближе к победе в гостевом матче 15-го тура чемпионата Российской премьер-лиги (РПЛ) со «Спартаком». Такое мнение РБК высказал бывший полузащитник «красно-белых» и сборной России Александр Мостовой.
+# sent_id = 0048-p2-s1
+# text = ``Динамо'' было ближе к победе в гостевом матче 15-го тура чемпионата Российской премьер-лиги (РПЛ) со ``Спартаком''.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+2	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+3	''	_	_	_	_	_	_	_	bratT3=Organization
+4	было	_	_	_	_	_	_	_	_
+5	ближе	_	_	_	_	_	_	_	_
+6	к	_	_	_	_	_	_	_	_
+7	победе	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	гостевом	_	_	_	_	_	_	_	bratT6=Event
+10	матче	_	_	_	_	_	_	_	bratT6=Event
+11	15-го	_	_	_	_	_	_	_	bratT5=Ordinal|bratT6=Event
+12	тура	_	_	_	_	_	_	_	bratT6=Event
+13	чемпионата	_	_	_	_	_	_	_	bratT6=Event|bratT8=Event
+14	Российской	_	_	_	_	_	_	_	bratA3=T46:Adjective|bratT46=GPE|bratT6=Event|bratT7=Organization|bratT8=Event
+15	премьер-лиги	_	_	_	_	_	_	_	bratT6=Event|bratT7=Organization|bratT8=Event
+16	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Event|bratT8=Event
+17	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Event|bratT8=Event|bratT9=Organization
+18	)	_	_	_	_	_	_	_	bratT6=Event|bratT8=Event
+19	со	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
+21	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p2-s2
+# text = Такое мнение РБК высказал бывший полузащитник ``красно-белых'' и сборной России Александр Мостовой.
+1	Такое	_	_	_	_	_	_	_	_
+2	мнение	_	_	_	_	_	_	_	_
+3	РБК	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
+4	высказал	_	_	_	_	_	_	_	_
+5	бывший	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT13=Person-property
+6	полузащитник	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT13=Person-property
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Male|bratT12=Person|bratT13=Person-property
+8	красно-белых	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Male|bratT12=Person|bratT13=Person-property
+9	''	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT13=Person-property
+10	и	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT13=Person-property
+11	сборной	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization
+12	России	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT13=Person-property|bratT14=Organization|bratT15=GPE
+13	Александр	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT47=Person-forename
+14	Мостовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Male|bratT12=Person|bratT48=Person-surname
+15	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p3
+# par_text = Матч «Спартак» — «Динамо» прошел в субботу и завершился со счетом 1:1.
+# sent_id = 0048-p3-s1
+# text = Матч ``Спартак'' - ``Динамо'' прошел в субботу и завершился со счетом 1:1.
+1	Матч	_	_	_	_	_	_	_	bratT16=Event
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT17=Organization
+3	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT17=Organization
+4	''	_	_	_	_	_	_	_	bratT16=Event|bratT17=Organization
+5	-	_	_	_	_	_	_	_	bratT16=Event
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT18=Organization
+7	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT18=Organization
+8	''	_	_	_	_	_	_	_	bratT16=Event|bratT18=Organization
+9	прошел	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-absolute
+11	субботу	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-absolute
+12	и	_	_	_	_	_	_	_	_
+13	завершился	_	_	_	_	_	_	_	_
+14	со	_	_	_	_	_	_	_	_
+15	счетом	_	_	_	_	_	_	_	_
+16	1:1	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Quantity
+17	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p4
+# par_text = «Я еще перед игрой прогнозировал, что матч закончится со счетом 1:1. Сейчас могу сказать, что «Динамо» было немножко ближе к победе, — сказал Мостовой. — В первом тайме гости переиграли «Спартак». В первые 25 минут второго тайма лучше были хозяева. Но затем «Динамо» вернуло игру под свой контроль, открыло счет и имело еще несколько моментов, в которых нужно было сыграть хладнокровнее. Думаю, «Спартак» рад ничейному результату».
+# sent_id = 0048-p4-s1
+# text = ``Я еще перед игрой прогнозировал, что матч закончится со счетом 1:1.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Я	_	_	_	_	_	_	_	_
+3	еще	_	_	_	_	_	_	_	_
+4	перед	_	_	_	_	_	_	_	bratA6=T50:Past|bratT50=Date-absolute
+5	игрой	_	_	_	_	_	_	_	bratA6=T50:Past|bratT50=Date-absolute|bratT69=Event
+6	прогнозировал	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	матч	_	_	_	_	_	_	_	bratT68=Event
+10	закончится	_	_	_	_	_	_	_	_
+11	со	_	_	_	_	_	_	_	_
+12	счетом	_	_	_	_	_	_	_	_
+13	1:1	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p4-s2
+# text = Сейчас могу сказать, что ``Динамо'' было немножко ближе к победе, - сказал Мостовой. -
+1	Сейчас	_	_	_	_	_	_	_	bratA7=T51:Present|bratT51=Date-absolute
+2	могу	_	_	_	_	_	_	_	_
+3	сказать	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	что	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
+7	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
+8	''	_	_	_	_	_	_	_	bratT21=Organization
+9	было	_	_	_	_	_	_	_	_
+10	немножко	_	_	_	_	_	_	_	_
+11	ближе	_	_	_	_	_	_	_	_
+12	к	_	_	_	_	_	_	_	_
+13	победе	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	-	_	_	_	_	_	_	_	_
+16	сказал	_	_	_	_	_	_	_	_
+17	Мостовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T22:Male|bratT22=Person|bratT52=Person-surname
+18	.	_	_	_	_	_	_	_	_
+19	-	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p4-s3
+# text = В первом тайме гости переиграли ``Спартак''.
+1	В	_	_	_	_	_	_	_	bratA9=T53:Past|bratT53=Date-period-absolute
+2	первом	_	_	_	_	_	_	_	bratA9=T53:Past|bratT23=Ordinal|bratT53=Date-period-absolute|bratT70=Event
+3	тайме	_	_	_	_	_	_	_	bratA9=T53:Past|bratT53=Date-period-absolute|bratT70=Event
+4	гости	_	_	_	_	_	_	_	_
+5	переиграли	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+7	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p4-s4
+# text = В первые 25 минут второго тайма лучше были хозяева.
+1	В	_	_	_	_	_	_	_	bratA10=T54:Past|bratT54=Date-period-absolute
+2	первые	_	_	_	_	_	_	_	bratA10=T54:Past|bratT25=Ordinal|bratT54=Date-period-absolute
+3	25	_	_	_	_	_	_	_	bratA10=T54:Past|bratT26=Duration|bratT54=Date-period-absolute
+4	минут	_	_	_	_	_	_	_	bratA10=T54:Past|bratT26=Duration|bratT54=Date-period-absolute
+5	второго	_	_	_	_	_	_	_	bratA10=T54:Past|bratT27=Ordinal|bratT54=Date-period-absolute|bratT71=Event
+6	тайма	_	_	_	_	_	_	_	bratA10=T54:Past|bratT54=Date-period-absolute|bratT71=Event
+7	лучше	_	_	_	_	_	_	_	_
+8	были	_	_	_	_	_	_	_	_
+9	хозяева	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p4-s5
+# text = Но затем ``Динамо'' вернуло игру под свой контроль, открыло счет и имело еще несколько моментов, в которых нужно было сыграть хладнокровнее.
+1	Но	_	_	_	_	_	_	_	_
+2	затем	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+4	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
+5	''	_	_	_	_	_	_	_	bratT28=Organization
+6	вернуло	_	_	_	_	_	_	_	_
+7	игру	_	_	_	_	_	_	_	_
+8	под	_	_	_	_	_	_	_	_
+9	свой	_	_	_	_	_	_	_	_
+10	контроль	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	открыло	_	_	_	_	_	_	_	_
+13	счет	_	_	_	_	_	_	_	_
+14	и	_	_	_	_	_	_	_	_
+15	имело	_	_	_	_	_	_	_	_
+16	еще	_	_	_	_	_	_	_	bratT55=Quantity
+17	несколько	_	_	_	_	_	_	_	bratT55=Quantity
+18	моментов	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Quantity
+19	,	_	_	_	_	_	_	_	_
+20	в	_	_	_	_	_	_	_	_
+21	которых	_	_	_	_	_	_	_	_
+22	нужно	_	_	_	_	_	_	_	_
+23	было	_	_	_	_	_	_	_	_
+24	сыграть	_	_	_	_	_	_	_	_
+25	хладнокровнее	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p4-s6
+# text = Думаю, ``Спартак'' рад ничейному результату''.
+1	Думаю	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+4	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+5	''	_	_	_	_	_	_	_	bratT29=Organization
+6	рад	_	_	_	_	_	_	_	_
+7	ничейному	_	_	_	_	_	_	_	_
+8	результату	_	_	_	_	_	_	_	SpaceAfter=No
+9	''	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p5
+# par_text = «Спартак» не смог выиграть третий матч подряд — поражение от «Ростова» (0:1) и ничьи с «Уралом» (2:2) и «Динамо».
+# sent_id = 0048-p5-s1
+# text = ``Спартак'' не смог выиграть третий матч подряд - поражение от ``Ростова'' (0:1) и ничьи с ``Уралом'' (2:2) и ``Динамо''.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
+2	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
+3	''	_	_	_	_	_	_	_	bratT30=Organization
+4	не	_	_	_	_	_	_	_	_
+5	смог	_	_	_	_	_	_	_	_
+6	выиграть	_	_	_	_	_	_	_	_
+7	третий	_	_	_	_	_	_	_	bratT31=Ordinal
+8	матч	_	_	_	_	_	_	_	_
+9	подряд	_	_	_	_	_	_	_	_
+10	-	_	_	_	_	_	_	_	_
+11	поражение	_	_	_	_	_	_	_	_
+12	от	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+14	Ростова	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization|bratT56=GPE
+15	''	_	_	_	_	_	_	_	bratT32=Organization
+16	(	_	_	_	_	_	_	_	SpaceAfter=No
+17	0:1	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
+18	)	_	_	_	_	_	_	_	_
+19	и	_	_	_	_	_	_	_	_
+20	ничьи	_	_	_	_	_	_	_	_
+21	с	_	_	_	_	_	_	_	_
+22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+23	Уралом	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT57=GPE
+24	''	_	_	_	_	_	_	_	bratT34=Organization
+25	(	_	_	_	_	_	_	_	SpaceAfter=No
+26	2:2	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Quantity
+27	)	_	_	_	_	_	_	_	_
+28	и	_	_	_	_	_	_	_	_
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+30	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+31	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+32	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p6
+# par_text = «Кризиса нет, — считает собеседник. — Кризис — это когда команда не может выиграть десять матчей. Просто спад. А, может быть, так и должно быть — в нескольких предыдущих матчах «Спартаку» везло. Были игры, когда «Спартак» побеждал, но по игре выигрывать был не должен».
+# sent_id = 0048-p6-s1
+# text = ``Кризиса нет, - считает собеседник. -
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	Кризиса	_	_	_	_	_	_	_	_
+3	нет	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	-	_	_	_	_	_	_	_	_
+6	считает	_	_	_	_	_	_	_	_
+7	собеседник	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+9	-	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p6-s2
+# text = Кризис - это когда команда не может выиграть десять матчей.
+1	Кризис	_	_	_	_	_	_	_	_
+2	-	_	_	_	_	_	_	_	_
+3	это	_	_	_	_	_	_	_	_
+4	когда	_	_	_	_	_	_	_	_
+5	команда	_	_	_	_	_	_	_	_
+6	не	_	_	_	_	_	_	_	_
+7	может	_	_	_	_	_	_	_	_
+8	выиграть	_	_	_	_	_	_	_	_
+9	десять	_	_	_	_	_	_	_	bratT37=Quantity
+10	матчей	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Quantity
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p6-s3
+# text = Просто спад.
+1	Просто	_	_	_	_	_	_	_	_
+2	спад	_	_	_	_	_	_	_	SpaceAfter=No
+3	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p6-s4
+# text = А, может быть, так и должно быть - в нескольких предыдущих матчах ``Спартаку'' везло.
+1	А	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	может	_	_	_	_	_	_	_	_
+4	быть	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	_	_	_	_	_	_	_	_
+6	так	_	_	_	_	_	_	_	_
+7	и	_	_	_	_	_	_	_	_
+8	должно	_	_	_	_	_	_	_	_
+9	быть	_	_	_	_	_	_	_	_
+10	-	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	_
+12	нескольких	_	_	_	_	_	_	_	bratT58=Quantity
+13	предыдущих	_	_	_	_	_	_	_	bratT58=Quantity|bratT59=Ordinal
+14	матчах	_	_	_	_	_	_	_	bratT58=Quantity|bratT72=Event
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+16	Спартаку	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+17	''	_	_	_	_	_	_	_	bratT38=Organization
+18	везло	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p6-s5
+# text = Были игры, когда ``Спартак'' побеждал, но по игре выигрывать был не должен''.
+1	Были	_	_	_	_	_	_	_	_
+2	игры	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	когда	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
+6	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
+7	''	_	_	_	_	_	_	_	bratT39=Organization
+8	побеждал	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	но	_	_	_	_	_	_	_	_
+11	по	_	_	_	_	_	_	_	_
+12	игре	_	_	_	_	_	_	_	_
+13	выигрывать	_	_	_	_	_	_	_	_
+14	был	_	_	_	_	_	_	_	_
+15	не	_	_	_	_	_	_	_	_
+16	должен	_	_	_	_	_	_	_	SpaceAfter=No
+17	''	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0048-p7
+# par_text = Комментируя выступление за «Спартак» Александра Кокорина, который был заменен на 75-й минуте, Мостовой заявил: «Пока ниже среднего. Слабо, если сравнивать нынешнего Кокорина с тем, каким он был раньше».
+# sent_id = 0048-p7-s1
+# text = Комментируя выступление за ``Спартак'' Александра Кокорина, который был заменен на 75-й минуте, Мостовой заявил: ``Пока ниже среднего.
+1	Комментируя	_	_	_	_	_	_	_	_
+2	выступление	_	_	_	_	_	_	_	_
+3	за	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+5	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+6	''	_	_	_	_	_	_	_	bratT40=Organization
+7	Александра	_	_	_	_	_	_	_	bratA11=T41:Male|bratT41=Person|bratT60=Person-forename
+8	Кокорина	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T41:Male|bratT41=Person|bratT61=Person-surname
+9	,	_	_	_	_	_	_	_	_
+10	который	_	_	_	_	_	_	_	_
+11	был	_	_	_	_	_	_	_	_
+12	заменен	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	bratA16=T42:Past|bratT42=Date-relative
+14	75-й	_	_	_	_	_	_	_	bratA16=T42:Past|bratT42=Date-relative|bratT62=Ordinal
+15	минуте	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T42:Past|bratT42=Date-relative|bratT73=Duration
+16	,	_	_	_	_	_	_	_	_
+17	Мостовой	_	_	_	_	_	_	_	bratA12=T43:Male|bratT43=Person|bratT63=Person-surname
+18	заявил	_	_	_	_	_	_	_	SpaceAfter=No
+19	:	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	SpaceAfter=No
+21	Пока	_	_	_	_	_	_	_	_
+22	ниже	_	_	_	_	_	_	_	_
+23	среднего	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0048-p7-s2
+# text = Слабо, если сравнивать нынешнего Кокорина с тем, каким он был раньше''.
+1	Слабо	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	если	_	_	_	_	_	_	_	_
+4	сравнивать	_	_	_	_	_	_	_	_
+5	нынешнего	_	_	_	_	_	_	_	bratA15=T66:Present|bratT66=Date-absolute
+6	Кокорина	_	_	_	_	_	_	_	bratA13=T44:Male|bratT44=Person|bratT64=Person-surname
+7	с	_	_	_	_	_	_	_	_
+8	тем	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	каким	_	_	_	_	_	_	_	_
+11	он	_	_	_	_	_	_	_	_
+12	был	_	_	_	_	_	_	_	_
+13	раньше	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T65:Past|bratT65=Date-period-absolute
+14	''	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
+

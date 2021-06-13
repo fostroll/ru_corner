@@ -42,8 +42,8 @@
 1	Так	_	_	_	_	_	_	_	_
 2	ее	_	_	_	_	_	_	_	_
 3	назвали	_	_	_	_	_	_	_	_
-4	местные	_	_	_	_	_	_	_	_
-5	журналисты	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person-property
+4	местные	_	_	_	_	_	_	_	bratA16=T29:Adjective|bratT22=Person|bratT29=GPE
+5	журналисты	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person-property|bratT22=Person
 6	,	_	_	_	_	_	_	_	_
 7	которые	_	_	_	_	_	_	_	_
 8	предположили	_	_	_	_	_	_	_	SpaceAfter=No
@@ -61,15 +61,17 @@
 20	,	_	_	_	_	_	_	_	_
 21	сообщает	_	_	_	_	_	_	_	_
 22	издание	_	_	_	_	_	_	_	bratA2=T3:Media|bratT3=Organization
-23	Readovka67	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Media|bratT3=Organization
-24	.	_	_	_	_	_	_	_	_
+23-24	Readovka67	_	_	_	_	_	_	_	SpaceAfter=No
+23	Readovka	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Media|bratT3=Organization
+24	67	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T3:Media|bratT21=Cardinal|bratT3=Organization
+25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0058-p3
 # par_text = Местные жители поделились с изданием фотографией тротуара. На снимке видно, что перед входом в торговые ряды образовалось большое углубление, из-за чего вокруг него потрескалось дорожное покрытие. Аварийный участок обнесли красно-белой лентой, предупреждающей об опасности.
 # sent_id = 0058-p3-s1
 # text = Местные жители поделились с изданием фотографией тротуара.
-1	Местные	_	_	_	_	_	_	_	bratA8=T18:Resident|bratT18=Nationality
-2	жители	_	_	_	_	_	_	_	bratA8=T18:Resident|bratT18=Nationality
+1	Местные	_	_	_	_	_	_	_	bratA14=T27:Adjective|bratA8=T18:Resident|bratT18=Nationality|bratT25=Person|bratT27=GPE
+2	жители	_	_	_	_	_	_	_	bratA8=T18:Resident|bratT18=Nationality|bratT25=Person
 3	поделились	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
 5	изданием	_	_	_	_	_	_	_	_
@@ -137,7 +139,7 @@
 16	``	_	_	_	_	_	_	_	SpaceAfter=No
 17	врата	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
-19	ад	_	_	_	_	_	_	_	SpaceAfter=No
+19	ад	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T20:Fiction|bratT20=Location
 20	''	_	_	_	_	_	_	_	SpaceAfter=No
 21	.	_	_	_	_	_	_	_	_
 
@@ -179,7 +181,7 @@
 # text = После случившегося журналисты задались вопросом, обвалится ли весь торговый центр, если тротуар не отремонтируют.
 1	После	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-relative
 2	случившегося	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-relative
-3	журналисты	_	_	_	_	_	_	_	bratT6=Person-property
+3	журналисты	_	_	_	_	_	_	_	bratT23=Person|bratT6=Person-property
 4	задались	_	_	_	_	_	_	_	_
 5	вопросом	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -221,7 +223,7 @@
 20	в	_	_	_	_	_	_	_	_
 21	ловушку	_	_	_	_	_	_	_	_
 22	для	_	_	_	_	_	_	_	_
-23	жителей	_	_	_	_	_	_	_	SpaceAfter=No
+23	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T26:Resident|bratT26=Nationality
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p5-s2
@@ -238,8 +240,8 @@
 
 # sent_id = 0058-p5-s3
 # text = Местные журналисты предупредили, что в темное время суток горожане могут упасть в яму, так как коммунальщики никак не обозначили опасный участок.
-1	Местные	_	_	_	_	_	_	_	_
-2	журналисты	_	_	_	_	_	_	_	bratT9=Person-property
+1	Местные	_	_	_	_	_	_	_	bratA15=T28:Adjective|bratT24=Person|bratT28=GPE
+2	журналисты	_	_	_	_	_	_	_	bratT24=Person|bratT9=Person-property
 3	предупредили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -247,7 +249,7 @@
 7	темное	_	_	_	_	_	_	_	bratT4=Time-absolute
 8	время	_	_	_	_	_	_	_	bratT4=Time-absolute
 9	суток	_	_	_	_	_	_	_	bratT4=Time-absolute
-10	горожане	_	_	_	_	_	_	_	_
+10	горожане	_	_	_	_	_	_	_	bratA17=T30:Resident|bratT30=Nationality
 11	могут	_	_	_	_	_	_	_	_
 12	упасть	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_

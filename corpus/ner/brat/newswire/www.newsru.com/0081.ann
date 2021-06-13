@@ -1,0 +1,89 @@
+T1	Nationality 25 31	шведов
+A1	Citizenship T1
+T2	Person 34 41	Газзаев
+T3	Person 101 191	Бывший   главный   тренер   ЦСКА   и   сборной   России   по   футболу   Валерий   Газзаев
+T4	Person-property 101 171	Бывший   главный   тренер   ЦСКА   и   сборной   России   по   футболу
+A2	Plural T4
+T5	Organization 129 133	ЦСКА
+T6	Organization 140 171	сборной   России   по   футболу
+T7	GPE 150 156	России
+T8	Person 214 276	французскому   защитнику   ``   Спартака   ''   Самуэлю   Жиго
+T9	Person-property 214 259	французскому   защитнику   ``   Спартака   ''
+T10	Organization 241 259	``   Спартака   ''
+T11	Organization 343 359	сборная   России
+T12	GPE 353 359	России
+T13	Organization 373 389	команде   Швеции
+T14	GPE 383 389	Швеции
+T15	Event 396 416	товарищеском   матче
+T16	Quantity 433 436	1:2
+T17	Person 447 463	Федор   Кудряшов
+T18	Person 470 484	Илья   Кутепов
+T19	Organization 551 576	``   Спорт-Экспрессу   ''
+A3	Media T19
+T20	Person 541 548	Газзаев
+T21	Person 589 593	Жиго
+T22	Person 600 616	Георгий   Джикия
+T23	Organization 663 681	``   Спартаке   ''
+T24	Person-property 838 872	Защитники   ``   красно-белых   ''
+T25	Organization 916 932	сборной   России
+T26	GPE 926 932	России
+T27	Organization 998 1015	``   Спартак   ''
+T28	Date-period-absolute 1018 1033	с   2018   года
+T29	Person 974 978	Жиго
+T30	Age 1051 1061	26-летнего
+T31	Person-property 1064 1073	защитника
+T32	Quantity 1076 1091	девять   матчей
+T33	Quantity 1098 1118	один   забитый   мяч
+T34	Event 1125 1165	чемпионате   России   нынешнего   сезона
+T35	GPE 1138 1144	России
+T36	Person 1170 1184	Самуэль   Жиго
+T37	Organization 1220 1267	национальную   сборную   Франции   по   футболу
+T38	GPE 1245 1252	Франции
+T39	Person-property 73 99	французского   спартаковца
+T40	Date-absolute 329 340	В   четверг
+T41	Date-absolute 686 692	Сейчас
+T42	Ordinal 1147 1156	нынешнего
+T43	Date-absolute 0 17	После   поражения
+T44	Person-surname 34 41	Газзаев
+A4	Male T2
+T45	GPE 73 85	французского
+A5	Adjective T45
+T46	Person-forename 174 181	Валерий
+T47	Person-surname 184 191	Газзаев
+A6	Male T3
+T48	GPE 214 226	французскому
+A7	Adjective T48
+T49	Person-forename 262 269	Самуэлю
+T50	Person-surname 272 276	Жиго
+A8	Male T8
+T51	GPE 300 310	российское
+A9	Adjective T51
+A10	Past T40
+T52	Person-forename 447 452	Федор
+T53	Person-surname 455 463	Кудряшов
+A11	Male T17
+T54	Person-forename 470 474	Илья
+T55	Person-surname 477 484	Кутепов
+A12	Male T18
+T56	Person-surname 541 548	Газзаев
+A13	Male T20
+T57	Person-surname 589 593	Жиго
+A14	Male T21
+T58	Person-forename 600 607	Георгий
+T59	Person-surname 610 616	Джикия
+A15	Male T22
+A16	Present T41
+T60	Person-surname 974 978	Жиго
+A17	Male T29
+A18	Past-Pres T28
+A19	RCont T28
+T61	Date-period-absolute 1121 1135	в   чемпионате
+A20	Male T36
+T62	Person-forename 1170 1177	Самуэль
+T63	Person-surname 1180 1184	Жиго
+A21	Past-Pres T61
+A22	Past T43
+T64	Event 8 31	поражения   от   шведов
+T65	Event 498 503	матче
+T66	GPE 1220 1232	национальную
+A23	Adjective T66

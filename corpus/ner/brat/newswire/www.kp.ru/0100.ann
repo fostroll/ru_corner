@@ -1,38 +1,38 @@
 T1	Person-property 63 75	миротворцами
 T2	GPE 82 89	Армении
-T4	Product 97 126	российских   самолета   Ил-76
+T4	Product 97 128	российских   самолета   Ил - 76
 T5	Quantity 91 118	Три   российских   самолета
-T6	GPE 175 182	Армении
-T7	Facility 149 168	аэродроме   Эребуни
-T8	Person-property 218 232	военнослужащих
-T9	Quantity 205 232	более   80   военнослужащих
-T10	Organization 306 316	Минобороны
-T11	GPE 383 390	Армении
-T12	Ordinal 407 413	первый
-T13	Product 416 421	Ил-76
-T14	Person-property 444 468	российских   миротворцев
-T15	GPE 502 509	Карабах
-T16	Person-property 533 547	военнослужащих
-T17	Quantity 523 547	1   960   военнослужащих
-T18	Quantity 554 577	90   бронетранспортеров
-T19	Quantity 584 596	380   единиц
-T20	Date-absolute 661 671	9   ноября
-T21	GPE 682 694	Азербайджана
-T22	Person-property 674 694	глава   Азербайджана
-T23	GPE 719 726	Армении
-T24	Person-property 701 726	премьер-министр   Армении
-T25	GPE 745 751	России
-T26	Person-property 733 751	президент   России
-T27	GPE 833 841	Карабахе
-T28	Date-period-absolute 932 958	с   полуночи   10   ноября
-T29	Time-absolute 936 944	полуночи
-T30	Person-property 1053 1076	российские   миротворцы
-T31	Ordinal 1145 1147	15
-T32	Organization 1214 1246	Центрального   военного   округа
-T33	Organization 1129 1246	подразделения   15   отдельной   мотострелковой   бригады   (   миротворческой   )   Центрального   военного   округа
+T6	GPE 177 184	Армении
+T7	Facility 151 170	аэродроме   Эребуни
+T8	Person-property 220 234	военнослужащих
+T9	Quantity 207 234	более   80   военнослужащих
+T10	Organization 308 318	Минобороны
+T11	GPE 385 392	Армении
+T12	Ordinal 409 415	первый
+T13	Product 418 425	Ил - 76
+T14	Person-property 448 472	российских   миротворцев
+T15	GPE 506 513	Карабах
+T16	Person-property 537 551	военнослужащих
+T17	Quantity 527 551	1   960   военнослужащих
+T18	Quantity 558 581	90   бронетранспортеров
+T19	Quantity 588 600	380   единиц
+T20	Date-absolute 665 675	9   ноября
+T21	GPE 686 698	Азербайджана
+T22	Person-property 678 698	глава   Азербайджана
+T23	GPE 723 730	Армении
+T24	Person-property 705 730	премьер-министр   Армении
+T25	GPE 749 755	России
+T26	Person-property 737 755	президент   России
+T27	GPE 837 845	Карабахе
+T28	Date-period-absolute 936 962	с   полуночи   10   ноября
+T29	Time-absolute 940 948	полуночи
+T30	Person-property 1057 1080	российские   миротворцы
+T31	Ordinal 1149 1151	15
+T32	Organization 1218 1250	Центрального   военного   округа
+T33	Organization 1133 1250	подразделения   15   отдельной   мотострелковой   бригады   (   миротворческой   )   Центрального   военного   округа
 A3	Department T33
-T3	Date-relative 1002 1007	ранее
-T34	Date-relative 371 376	Ранее
+T3	Date-relative 1006 1011	ранее
+T34	Date-relative 373 378	Ранее
 A2	Past T3
 A4	Past T34
 A1	Past-Fut T28
@@ -41,9 +41,12 @@ T35	GPE 34 44	российских
 A6	Adjective T35
 T36	GPE 97 107	российских
 A7	Adjective T36
-T37	GPE 444 454	российских
+T37	GPE 448 458	российских
 A8	Adjective T37
-T38	GPE 1090 1101	российского
+T38	GPE 1094 1105	российского
 A9	Adjective T38
-T39	GPE 1053 1063	российские
+T39	GPE 1057 1067	российские
 A10	Adjective T39
+T40	Cardinal 126 128	76
+T42	Cardinal 423 425	76
+T41	GPE 1037 1043	регион

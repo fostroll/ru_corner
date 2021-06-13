@@ -1,0 +1,39 @@
+T1	Person 0 6	Лавров
+T2	GPE 32 38	России
+T3	GPE 77 83	Ливией
+T4	Quantity 272 285	двустороннего
+T5	Person 451 457	Лавров
+T6	GPE 483 489	Россия
+T7	Date-period-absolute 626 641	С   2011   года
+T8	GPE 648 653	Ливии
+T9	Quantity 667 679	два   органа
+T10	Organization 712 752	Правительство   национального   согласия
+T11	Person 755 771	Фаиза   Сарраджа
+T12	Organization 813 836	Президентским   советом
+T13	Organization 855 887	Высший   государственный   совет
+T14	Organization 894 912	восточный   кабмин
+T15	Organization 936 960	Палатой   представителей
+T16	Organization 967 1000	Ливийской   национальной   армией
+T17	Person 1003 1034	фельдмаршала   Халифы   Хафтара
+T18	Person-property 1003 1015	фельдмаршала
+T19	Date-absolute 1040 1052	В   сентябре
+T20	Person 1055 1062	Саррадж
+T21	Person-surname 0 6	Лавров
+A1	Male T1
+T22	Person-surname 451 457	Лавров
+A2	Male T5
+A3	Past-Pres T7
+A4	RCont T7
+T23	Person-forename 755 760	Фаиза
+T24	Person-surname 763 771	Сарраджа
+A5	Male T11
+T25	GPE 967 976	Ливийской
+A6	Adjective T25
+T26	Person-forename 1018 1024	Халифы
+T27	Person-surname 1027 1034	Хафтара
+A7	Male T17
+A8	Past T19
+T28	Person-surname 1055 1062	Саррадж
+A9	Male T20
+T29	Organization 667 705	два   органа   исполнительной   власти
+T30	Person-property 1110 1114	пост

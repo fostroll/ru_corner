@@ -28,10 +28,13 @@
 10	на	_	_	_	_	_	_	_	_
 11	коронавирусную	_	_	_	_	_	_	_	bratT15=Other-term
 12	инфекцию	_	_	_	_	_	_	_	bratT15=Other-term
-13	COVID-19	_	_	_	_	_	_	_	bratT15=Other-term
-14	в	_	_	_	_	_	_	_	_
-15	Подмосковье	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
-16	.	_	_	_	_	_	_	_	_
+13-15	COVID-19	_	_	_	_	_	_	_	_
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+15	19	_	_	_	_	_	_	_	bratT15=Other-term|bratT23=Cardinal
+16	в	_	_	_	_	_	_	_	_
+17	Подмосковье	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
+18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0061-p3
 # par_text = «Все цифры прозрачны, видны. Выявляемость у нас за прошедшую неделю и сегодня, в частности, вырастает. Мы делаем 30—35 тыс. ПЦР-тестов на коронавирус в зависимости от дня», — цитирует его РИА Новости.
@@ -99,7 +102,7 @@
 7	выступления	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute
 8	на	_	_	_	_	_	_	_	_
 9	заседании	_	_	_	_	_	_	_	bratT19=Event
-10	областного	_	_	_	_	_	_	_	bratA2=T7:Media|bratT19=Event|bratT7=Organization
+10	областного	_	_	_	_	_	_	_	bratA2=T7:Media|bratA9=T25:Adjective|bratT19=Event|bratT25=GPE|bratT7=Organization
 11	правительства	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Media|bratT19=Event|bratT7=Organization
 12	.	_	_	_	_	_	_	_	_
 
@@ -117,8 +120,11 @@
 8	фондом	_	_	_	_	_	_	_	_
 9	для	_	_	_	_	_	_	_	_
 10	больных	_	_	_	_	_	_	_	_
-11	COVID-19	_	_	_	_	_	_	_	bratT9=Other-term
-12	в	_	_	_	_	_	_	_	_
-13	регионе	_	_	_	_	_	_	_	SpaceAfter=No
-14	.	_	_	_	_	_	_	_	_
+11-13	COVID-19	_	_	_	_	_	_	_	_
+11	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Other-term
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Other-term
+13	19	_	_	_	_	_	_	_	bratT24=Cardinal|bratT9=Other-term
+14	в	_	_	_	_	_	_	_	_
+15	регионе	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=GPE
+16	.	_	_	_	_	_	_	_	_
 

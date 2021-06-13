@@ -1,0 +1,99 @@
+T1	GPE 4 10	Монако
+T2	Ordinal 22 26	71-й
+T3	Event 22 52	71-й   Бал   Красного   Креста
+T4	Organization 35 52	Красного   Креста
+T5	Ordinal 54 58	Этим
+T6	Date-period-absolute 54 66	Этим   летом
+T7	GPE 93 99	Монако
+T8	Family 85 90	семьи
+T9	Quantity 102 116	много   хлопот
+T10	Person-forename 190 209	Каролины   Шарлотты
+T11	Person-surname 212 220	Казираги
+T12	Person-property 178 187	принцессы
+T13	Person 178 220	принцессы   Каролины   Шарлотты   Казираги
+A2	Female T13
+T14	Family 169 175	дочери
+T15	Person 169 220	дочери   принцессы   Каролины   Шарлотты   Казираги
+A3	Female T15
+T16	Family 227 231	сына
+T17	Person-forename 246 260	Стефании   Луи
+T18	Person-surname 263 268	Дюкре
+T19	Person-property 234 243	принцессы
+T20	Person 234 268	принцессы   Стефании   Луи   Дюкре
+A4	Female T20
+T21	Person 227 268	сына   принцессы   Стефании   Луи   Дюкре
+A5	Male T21
+T22	Family 275 295	монаршее   семейство
+T23	Event 347 370	Бал   Красного   Креста
+T24	Organization 353 370	Красного   Креста
+T25	Date-absolute 375 380	Вчера
+A6	Past T25
+T26	Ordinal 407 411	71-й
+T27	Quantity 516 535	25   тысяч   цветов
+T28	Person-property 586 598	организаторы
+T29	Other-group 685 691	Гостей
+T30	Person-forename 753 759	Альбер
+T31	Person-property 745 750	князь
+T32	Person 745 764	князь   Альбер   II
+A7	Male T32
+T33	Person-forename 781 787	Шарлен
+T34	Person 771 787	княгиня   Шарлен
+A8	Female T34
+T35	Person-property 771 778	княгиня
+T37	Product 804 829	платье   Marchesa   Notte
+T39	Person-forename 932 937	Харви
+T40	Person-surname 940 950	Вайнштейна
+T41	Person 932 950	Харви   Вайнштейна
+A11	Male T41
+T42	Person-forename 953 962	Джорджине
+T43	Person-surname 965 971	Чапман
+T44	Family 904 917	бывшей   жене
+T45	Person 904 971	бывшей   жене   опального   Харви   Вайнштейна   Джорджине   Чапман
+A12	Female T45
+T46	Date-absolute 976 1006	После   скандала   2017   года
+A13	Past T46
+T47	Other-group 1029 1050	знаменитые   клиентки
+T48	Person-property 1086 1093	Княгиню
+T49	Other-group 1187 1193	гостей
+T50	Date-relative 1204 1209	потом
+T51	Family 1244 1249	мужем
+T52	Person-forename 1344 1351	Альбера
+T53	Person 1344 1351	Альбера
+A14	Male T53
+T54	Person 1358 1364	Шарлен
+A15	Female T54
+T55	Person-forename 1358 1364	Шарлен
+T56	Other-group 1335 1364	гостей   Альбера   и   Шарлен
+T57	Ordinal 1371 1375	этот
+T58	Date-relative 1367 1383	в   этот   вечер
+A16	Past T58
+T59	Person-forename 1409 1413	Джон
+T60	Person-surname 1416 1423	Ледженд
+T61	Person-property 1398 1406	музыкант
+T62	Person 1398 1423	музыкант   Джон   Ледженд
+A17	Male T62
+T63	Person-property 1430 1442	баскетболист
+T64	Person-forename 1445 1449	Тони
+T65	Person-surname 1452 1458	Паркер
+T66	Person 1430 1458	баскетболист   Тони   Паркер
+A18	Male T66
+T67	Person-property 1465 1471	певица
+T68	Person-forename 1474 1479	Ширли
+T69	Person-surname 1482 1487	Бэсси
+T70	Person 1465 1487	певица   Ширли   Бэсси
+A19	Female T70
+T71	Person-property 1494 1501	актриса
+T72	Person-forename 1504 1509	Карин
+T73	Person-surname 1512 1516	Виар
+T74	Person 1494 1516	актриса   Карин   Виар
+A20	Female T74
+T36	Event 984 1006	скандала   2017   года
+T75	Date-absolute 995 1006	2017   года
+A9	Past T75
+T77	Person-affix 762 764	II
+T78	Ordinal 762 764	II
+T79	Event 1378 1383	вечер
+T80	Event 430 436	вечера
+T81	Organization 73 99	княжеской   семьи   Монако
+A21	Past T50
+A1	UNK-Fut T6

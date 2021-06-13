@@ -6,10 +6,10 @@
 1	SpaceX	_	_	_	_	_	_	_	bratT1=Organization
 2	запустила	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	космос	_	_	_	_	_	_	_	_
+4	космос	_	_	_	_	_	_	_	bratT36=Location
 5	новейший	_	_	_	_	_	_	_	_
-6	метеорологический	_	_	_	_	_	_	_	_
-7	спутник	_	_	_	_	_	_	_	_
+6	метеорологический	_	_	_	_	_	_	_	bratT37=Facility
+7	спутник	_	_	_	_	_	_	_	bratT37=Facility
 
 # newpar id = 0091-p2
 # par_text = Американская корпорация SpaceX в субботу, 21 ноября, успешно запустила ракету-носитель с метеорологическим спутником Sentinel-6 нового поколения. Трансляция запуска ведется на официальном сайте компании.
@@ -30,10 +30,13 @@
 13	с	_	_	_	_	_	_	_	_
 14	метеорологическим	_	_	_	_	_	_	_	bratT4=Facility
 15	спутником	_	_	_	_	_	_	_	bratT4=Facility
-16	Sentinel-6	_	_	_	_	_	_	_	bratT4=Facility
-17	нового	_	_	_	_	_	_	_	_
-18	поколения	_	_	_	_	_	_	_	SpaceAfter=No
-19	.	_	_	_	_	_	_	_	_
+16-18	Sentinel-6	_	_	_	_	_	_	_	_
+16	Sentinel	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Facility
+17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Facility
+18	6	_	_	_	_	_	_	_	bratT35=Ordinal|bratT4=Facility
+19	нового	_	_	_	_	_	_	_	_
+20	поколения	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p2-s2
 # text = Трансляция запуска ведется на официальном сайте компании.
@@ -52,7 +55,7 @@
 # text = Ракета-носитель Falcon 9 стартовала с базы военно-воздушных сил Соединенных Штатов Ванденберг в Калифорнии в 20:17 по московскому времени.
 1	Ракета-носитель	_	_	_	_	_	_	_	bratT5=Product
 2	Falcon	_	_	_	_	_	_	_	bratT5=Product
-3	9	_	_	_	_	_	_	_	bratT5=Product
+3	9	_	_	_	_	_	_	_	bratT32=Ordinal|bratT5=Product
 4	стартовала	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	базы	_	_	_	_	_	_	_	bratT6=Facility
@@ -110,7 +113,7 @@
 11	запусков	_	_	_	_	_	_	_	_
 12	аппаратов	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	космос	_	_	_	_	_	_	_	SpaceAfter=No
+14	космос	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Location
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0091-p4
@@ -119,17 +122,20 @@
 # text = Метеорологический спутник Sentinel-6 - совместные проект NASA и Европейского космического агентства ЕКА.
 1	Метеорологический	_	_	_	_	_	_	_	bratT17=Facility
 2	спутник	_	_	_	_	_	_	_	bratT17=Facility
-3	Sentinel-6	_	_	_	_	_	_	_	bratT17=Facility
-4	-	_	_	_	_	_	_	_	_
-5	совместные	_	_	_	_	_	_	_	_
-6	проект	_	_	_	_	_	_	_	_
-7	NASA	_	_	_	_	_	_	_	bratT18=Organization
-8	и	_	_	_	_	_	_	_	_
-9	Европейского	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT19=Organization|bratT29=GPE
-10	космического	_	_	_	_	_	_	_	bratT19=Organization
-11	агентства	_	_	_	_	_	_	_	bratT19=Organization
-12	ЕКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
-13	.	_	_	_	_	_	_	_	_
+3-5	Sentinel-6	_	_	_	_	_	_	_	_
+3	Sentinel	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
+4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
+5	6	_	_	_	_	_	_	_	bratT17=Facility|bratT33=Ordinal
+6	-	_	_	_	_	_	_	_	_
+7	совместные	_	_	_	_	_	_	_	_
+8	проект	_	_	_	_	_	_	_	_
+9	NASA	_	_	_	_	_	_	_	bratT18=Organization
+10	и	_	_	_	_	_	_	_	_
+11	Европейского	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT19=Organization|bratT29=GPE
+12	космического	_	_	_	_	_	_	_	bratT19=Organization
+13	агентства	_	_	_	_	_	_	_	bratT19=Organization
+14	ЕКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p4-s2
 # text = Аппарат предназначен для отслеживания изменения уровня Мирового океана.
@@ -146,8 +152,8 @@
 # sent_id = 0091-p4-s3
 # text = На орбите спутник пробудет примерно пять с половиной лет.
 1	На	_	_	_	_	_	_	_	_
-2	орбите	_	_	_	_	_	_	_	_
-3	спутник	_	_	_	_	_	_	_	_
+2	орбите	_	_	_	_	_	_	_	bratT34=Location
+3	спутник	_	_	_	_	_	_	_	bratT39=Facility
 4	пробудет	_	_	_	_	_	_	_	_
 5	примерно	_	_	_	_	_	_	_	bratA4=T16:Pres-Fut|bratT16=Date-period-absolute|bratT21=Duration
 6	пять	_	_	_	_	_	_	_	bratA4=T16:Pres-Fut|bratT16=Date-period-absolute|bratT21=Duration

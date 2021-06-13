@@ -1,0 +1,75 @@
+T2	Person-property 81 86	врачи
+T3	Organization 93 136	реанимации   ростовской   больницы   №   20
+A1	Department T3
+T4	Organization 106 136	ростовской   больницы   №   20
+T5	Date-absolute 149 160	в   октябре
+T6	Other-term 249 254	COVID
+T7	Quantity 273 287	шесть   врачей
+T8	Person-property 281 287	врачей
+T9	Organization 305 323	издание   161 . ru
+A2	Media T9
+T10	Date-absolute 380 391	10   ноября
+T11	Person 404 449	анестезиолог - реаниматолог   Артур   Топоров
+T12	Person-property 404 431	анестезиолог - реаниматолог
+T13	Ordinal 360 366	Первым
+T14	Person 861 879	коллега   Топорова
+T15	Quantity 916 938	еще   четыре   доктора
+T16	Person-property 931 938	доктора
+T17	Person 1079 1128	(   Главврач   ГБ   №   20   Ваган   )   Саркисян
+T19	Person-property 1083 1105	Главврач   ГБ   №   20
+T20	Organization 1094 1105	ГБ   №   20
+T21	Time-period 1174 1201	в   течение   двух   недель
+T22	Organization 1252 1260	161 . ru
+A3	Media T22
+T23	Organization 1324 1327	РБК
+A4	Media T23
+T24	Person 1353 1390	реаниматологом   Алексеем   Топоровым
+T25	Quantity 1405 1423	пять   сотрудников
+T26	Organization 1433 1464	администрации   Ростова-на-Дону
+T27	GPE 1449 1464	Ростова-на-Дону
+T28	Organization 1467 1470	РБК
+A5	Media T28
+T29	Quantity 1571 1582	два   врача
+T30	Person-property 1577 1582	врача
+T31	Quantity 1601 1619	четыре   заявления
+T32	Person-property 1627 1633	врачей
+T33	Organization 1754 1757	РБК
+A6	Media T33
+T34	Date-absolute 495 532	в   ночь   с   11   на   12   октября
+T1	GPE 106 116	ростовской
+A7	Adjective T1
+T35	GPE 5 15	ростовской
+A8	Adjective T35
+A9	Past T5
+T36	Quantity 221 242	несколько   пациентов
+T37	Ordinal 130 136	№   20
+A10	Past T10
+T38	Person-forename 434 439	Артур
+T39	Person-surname 442 449	Топоров
+A11	Male T11
+T40	Time-absolute 495 507	в   ночь   с
+A12	Past T34
+T41	Person-surname 871 879	Топорова
+T42	Date-period-absolute 1048 1074	с   допандемийных   времен
+T43	Person-forename 1108 1113	Ваган
+T18	Person-surname 1120 1128	Саркисян
+T44	Ordinal 1099 1105	№   20
+T45	Duration 1188 1201	двух   недель
+T46	Quantity 1266 1275	Один   из
+T48	Person-property 1353 1367	реаниматологом
+T49	Person-forename 1370 1378	Алексеем
+T50	Person-surname 1381 1390	Топоровым
+T47	Date-absolute 29 54	после   массовой   гибели
+A15	Past T47
+T51	Date-relative 586 591	тогда
+A16	Past T51
+T52	Event 37 66	массовой   гибели   пациентов
+T53	Event 486 492	гибели
+A17	Male T17
+A18	Male T24
+A14	Past-Pres T42
+T54	Cardinal 315 318	161
+T55	Cardinal 1252 1255	161
+T56	Person-property 861 868	коллега
+T57	Web-address 1252 1260	161 . ru
+T58	Web-address 315 323	161 . ru

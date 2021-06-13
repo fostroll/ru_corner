@@ -43,8 +43,8 @@
 # text = По информации корреспондента агентства, с наступлением темноты несколько десятков человек с криками «Трамп и Пенс - вон!» начали митинговать в нескольких сотнях метров от Белого дома.
 1	По	_	_	_	_	_	_	_	_
 2	информации	_	_	_	_	_	_	_	_
-3	корреспондента	_	_	_	_	_	_	_	bratT7=Person-property
-4	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property
+3	корреспондента	_	_	_	_	_	_	_	bratT7=Person-property|bratT75=Person
+4	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property|bratT75=Person
 5	,	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	bratA3=T51:Past|bratT45=Time-absolute|bratT51=Date-relative
 7	наступлением	_	_	_	_	_	_	_	bratA3=T51:Past|bratT45=Time-absolute|bratT51=Date-relative
@@ -160,7 +160,7 @@
 12	судебный	_	_	_	_	_	_	_	_
 13	иск	_	_	_	_	_	_	_	_
 14	по	_	_	_	_	_	_	_	_
-15	выборам	_	_	_	_	_	_	_	_
+15	выборам	_	_	_	_	_	_	_	bratT72=Event
 16	на	_	_	_	_	_	_	_	_
 17	федеральном	_	_	_	_	_	_	_	_
 18	уровне	_	_	_	_	_	_	_	SpaceAfter=No
@@ -177,7 +177,7 @@
 7	души	_	_	_	_	_	_	_	SpaceAfter=No
 8	''	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	выборах	_	_	_	_	_	_	_	_
+10	выборах	_	_	_	_	_	_	_	bratT73=Event
 11	в	_	_	_	_	_	_	_	_
 12	Пенсильвании	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=GPE
 13	,	_	_	_	_	_	_	_	_
@@ -193,21 +193,21 @@
 1	В	_	_	_	_	_	_	_	_
 2	США	_	_	_	_	_	_	_	bratT19=GPE
 3	продолжается	_	_	_	_	_	_	_	_
-4	подсчет	_	_	_	_	_	_	_	_
-5	голосов	_	_	_	_	_	_	_	_
+4	подсчет	_	_	_	_	_	_	_	bratT74=Event
+5	голосов	_	_	_	_	_	_	_	bratT74=Event
 6	за	_	_	_	_	_	_	_	_
-7	кандидатов	_	_	_	_	_	_	_	bratT29=Person-property
-8	на	_	_	_	_	_	_	_	bratT29=Person-property
-9	пост	_	_	_	_	_	_	_	bratT29=Person-property
-10	президента	_	_	_	_	_	_	_	bratT29=Person-property
-11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+7	кандидатов	_	_	_	_	_	_	_	bratT29=Person-property|bratT77=Person
+8	на	_	_	_	_	_	_	_	bratT29=Person-property|bratT77=Person
+9	пост	_	_	_	_	_	_	_	bratT29=Person-property|bratT77=Person
+10	президента	_	_	_	_	_	_	_	bratT29=Person-property|bratT77=Person
+11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property|bratT77=Person
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p6-s2
 # text = За высший пост борются действующий глава государства, республиканец Дональд Трамп и демократ Джо Байден, занимавший пост вице-президента при Бараке Обаме.
 1	За	_	_	_	_	_	_	_	_
-2	высший	_	_	_	_	_	_	_	_
-3	пост	_	_	_	_	_	_	_	_
+2	высший	_	_	_	_	_	_	_	bratT76=Person-property
+3	пост	_	_	_	_	_	_	_	bratT76=Person-property
 4	борются	_	_	_	_	_	_	_	_
 5	действующий	_	_	_	_	_	_	_	bratA12=T43:Male|bratT42=Person-property|bratT43=Person
 6	глава	_	_	_	_	_	_	_	bratA12=T43:Male|bratT42=Person-property|bratT43=Person
@@ -222,7 +222,7 @@
 15	Байден	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T33:Male|bratT33=Person|bratT65=Person-surname
 16	,	_	_	_	_	_	_	_	_
 17	занимавший	_	_	_	_	_	_	_	_
-18	пост	_	_	_	_	_	_	_	_
+18	пост	_	_	_	_	_	_	_	bratT34=Person-property
 19	вице-президента	_	_	_	_	_	_	_	bratT34=Person-property
 20	при	_	_	_	_	_	_	_	_
 21	Бараке	_	_	_	_	_	_	_	bratA14=T35:Male|bratT35=Person|bratT66=Person-forename
@@ -236,10 +236,10 @@
 3	штатах	_	_	_	_	_	_	_	_
 4	разница	_	_	_	_	_	_	_	_
 5	между	_	_	_	_	_	_	_	_
-6	претендентами	_	_	_	_	_	_	_	bratT32=Person-property
-7	на	_	_	_	_	_	_	_	bratT32=Person-property
-8	пост	_	_	_	_	_	_	_	bratT32=Person-property
-9	президента	_	_	_	_	_	_	_	bratT32=Person-property
+6	претендентами	_	_	_	_	_	_	_	bratT32=Person-property|bratT78=Person
+7	на	_	_	_	_	_	_	_	bratT32=Person-property|bratT78=Person
+8	пост	_	_	_	_	_	_	_	bratT32=Person-property|bratT78=Person
+9	президента	_	_	_	_	_	_	_	bratT32=Person-property|bratT78=Person
 10	составляет	_	_	_	_	_	_	_	_
 11	десятые	_	_	_	_	_	_	_	bratT44=Percent
 12	доли	_	_	_	_	_	_	_	bratT44=Percent
@@ -253,7 +253,7 @@
 3	Байдена	_	_	_	_	_	_	_	bratA15=T36:Male|bratT36=Person|bratT68=Person-surname
 4	264	_	_	_	_	_	_	_	bratT23=Quantity
 5	голоса	_	_	_	_	_	_	_	bratT23=Quantity
-6	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property
+6	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property|bratT79=Person
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_

@@ -1,0 +1,88 @@
+T1	Organization 16 32	``   Зенита   ''
+T2	Person-property 80 90	легионеров
+T3	Person-property 0 32	Спортдиректор   ``   Зенита   ''
+T4	GPE 116 130	петербургского
+A1	Adjective T4
+T5	Organization 116 149	петербургского   ``   Зенита   ''
+T6	Person-property 92 149	Спортивный   директор   петербургского   ``   Зенита   ''
+T7	Person-forename 152 158	Хавьер
+T8	Person-surname 161 168	Рибалта
+T9	Person 92 168	Спортивный   директор   петербургского   ``   Зенита   ''   Хавьер   Рибалта
+A2	Male T9
+T10	Person-property 190 215	иностранных   футболистов
+T11	GPE 253 263	российский
+A3	Adjective T11
+T12	Organization 298 321	``   РИА   Новости   ''
+A4	Media T12
+T13	Organization 373 376	РПЛ
+T14	Nationality 356 366	иностранца
+T16	GPE 453 462	испанской
+A5	Adjective T16
+T17	GPE 471 479	немецкой
+A6	Adjective T17
+T18	Person-surname 512 519	Рибалта
+T19	Person 512 519	Рибалта
+A7	Male T19
+T20	Date-period-absolute 525 547	С   нынешнего   сезона
+T21	GPE 554 564	Российской
+A9	Adjective T21
+T22	Organization 554 579	Российской   премьер-лиге
+T23	Organization 586 589	РПЛ
+T24	Person-property 640 665	иностранных   футболистов
+T25	Person-property 734 744	легионеров
+T26	Quantity 725 744	восемь   легионеров
+T27	Time-relative 784 796	одновременно
+T28	Organization 857 860	РПЛ
+T29	Nationality 896 907	иностранцев
+T30	Quantity 887 907	восемь   иностранцев
+T31	Person-property 1015 1022	игроков
+T32	Quantity 1001 1022	четыре-пять   игроков
+T33	Quantity 1052 1068	Максимум   троих
+T34	Nationality 1147 1158	иностранцев
+T35	Quantity 1139 1158	троих   иностранцев
+T36	Organization 1232 1248	``   Зенита   ''
+T37	Person-property 1208 1248	спортивный   директор   ``   Зенита   ''
+T38	GPE 1299 1312	петербургский
+T39	Person-property 1340 1365	иностранных   футболистов
+T40	Quantity 1333 1365	двух   иностранных   футболистов
+T41	Date-period-absolute 1254 1296	В   ходе   минувшего   трансферного   окна
+A10	Past T41
+T42	Organization 1370 1385	``   Зенит   ''
+T43	GPE 1400 1410	хорватский
+A11	Adjective T43
+A12	Adjective T38
+T44	Person-property 1400 1421	хорватский   защитник
+T45	Person-forename 1424 1428	Деян
+T46	Person-surname 1431 1437	Ловрен
+T47	Person 1400 1437	хорватский   защитник   Деян   Ловрен
+A13	Male T47
+T48	GPE 1444 1455	бразильский
+A14	Adjective T48
+T49	Person-property 1444 1464	бразильский   хавбек
+T50	Person-surname 1467 1473	Вендел
+T51	Person 1444 1473	бразильский   хавбек   Вендел
+A15	Male T51
+T52	Organization 1523 1542	``   Ливерпуля   ''
+T53	GPE 1549 1562	лиссабонского
+A16	Adjective T53
+T54	Organization 1549 1584	лиссабонского   ``   Спортинга   ''
+T55	Organization 1590 1605	``   Зенит   ''
+T56	Ordinal 1619 1625	второе
+T57	GPE 1663 1669	России
+T58	Event 1650 1669	чемпионата   России
+T59	Quantity 1689 1700	14   матчах
+T60	Quantity 1703 1713	30   очков
+T61	Organization 1748 1752	ЦСКА
+T62	Quantity 1774 1783	31   балл
+T63	Ordinal 529 538	нынешнего
+T64	Ordinal 1265 1274	минувшего
+T65	GPE 1528 1537	Ливерпуля
+A8	Past-Fut T20
+T66	Event 529 547	нынешнего   сезона
+A17	Citizenship T14
+T15	GPE 640 651	иностранных
+A18	Adjective T15
+T67	GPE 190 201	иностранных
+A19	Adjective T67
+A20	Citizenship T29
+A21	Citizenship T34

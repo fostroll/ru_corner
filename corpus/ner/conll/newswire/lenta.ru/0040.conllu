@@ -5,11 +5,11 @@
 # text = ФСБ обличила полицейских в подбросе наркотиков россиянину по просьбе его жены
 1	ФСБ	_	_	_	_	_	_	_	bratT1=Organization
 2	обличила	_	_	_	_	_	_	_	_
-3	полицейских	_	_	_	_	_	_	_	bratT2=Person-property
+3	полицейских	_	_	_	_	_	_	_	bratT2=Person-property|bratT43=Person
 4	в	_	_	_	_	_	_	_	_
 5	подбросе	_	_	_	_	_	_	_	_
 6	наркотиков	_	_	_	_	_	_	_	bratT17=Other-term
-7	россиянину	_	_	_	_	_	_	_	bratA1=T3:Citizenship|bratT3=Nationality
+7	россиянину	_	_	_	_	_	_	_	bratA1=T3:Citizenship|bratA13=T54:Male|bratT3=Nationality|bratT54=Person
 8	по	_	_	_	_	_	_	_	_
 9	просьбе	_	_	_	_	_	_	_	_
 10	его	_	_	_	_	_	_	_	bratA10=T38:Female|bratT38=Person
@@ -25,13 +25,13 @@
 4	расследование	_	_	_	_	_	_	_	_
 5	уголовного	_	_	_	_	_	_	_	_
 6	дела	_	_	_	_	_	_	_	_
-7	бывших	_	_	_	_	_	_	_	bratT5=Person-property
-8	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property
+7	бывших	_	_	_	_	_	_	_	bratT44=Person|bratT5=Person-property
+8	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person|bratT5=Person-property
 9	,	_	_	_	_	_	_	_	_
 10	которые	_	_	_	_	_	_	_	_
 11	подбросили	_	_	_	_	_	_	_	_
 12	наркотики	_	_	_	_	_	_	_	bratT18=Other-term
-13	россиянину	_	_	_	_	_	_	_	bratA2=T6:Citizenship|bratT6=Nationality
+13	россиянину	_	_	_	_	_	_	_	bratA14=T55:Male|bratA2=T6:Citizenship|bratT55=Person|bratT6=Nationality
 14	по	_	_	_	_	_	_	_	_
 15	просьбе	_	_	_	_	_	_	_	_
 16	его	_	_	_	_	_	_	_	bratA11=T41:Female|bratT41=Person
@@ -58,23 +58,23 @@
 1	По	_	_	_	_	_	_	_	_
 2	делу	_	_	_	_	_	_	_	_
 3	проходят	_	_	_	_	_	_	_	_
-4	экс-начальник	_	_	_	_	_	_	_	bratT10=Person-property
-5	отдела	_	_	_	_	_	_	_	bratA4=T11:Department|bratT10=Person-property|bratT11=Organization
-6	по	_	_	_	_	_	_	_	bratA4=T11:Department|bratT10=Person-property|bratT11=Organization
-7	контролю	_	_	_	_	_	_	_	bratA4=T11:Department|bratT10=Person-property|bratT11=Organization
-8	за	_	_	_	_	_	_	_	bratA4=T11:Department|bratT10=Person-property|bratT11=Organization
-9	оборотом	_	_	_	_	_	_	_	bratA4=T11:Department|bratT10=Person-property|bratT11=Organization
-10	наркотиков	_	_	_	_	_	_	_	bratA4=T11:Department|bratT10=Person-property|bratT11=Organization
+4	экс-начальник	_	_	_	_	_	_	_	bratA12=T45:Male|bratT10=Person-property|bratT45=Person
+5	отдела	_	_	_	_	_	_	_	bratA12=T45:Male|bratA4=T11:Department|bratT10=Person-property|bratT11=Organization|bratT45=Person
+6	по	_	_	_	_	_	_	_	bratA12=T45:Male|bratA4=T11:Department|bratT10=Person-property|bratT11=Organization|bratT45=Person
+7	контролю	_	_	_	_	_	_	_	bratA12=T45:Male|bratA4=T11:Department|bratT10=Person-property|bratT11=Organization|bratT45=Person
+8	за	_	_	_	_	_	_	_	bratA12=T45:Male|bratA4=T11:Department|bratT10=Person-property|bratT11=Organization|bratT45=Person
+9	оборотом	_	_	_	_	_	_	_	bratA12=T45:Male|bratA4=T11:Department|bratT10=Person-property|bratT11=Organization|bratT45=Person
+10	наркотиков	_	_	_	_	_	_	_	bratA12=T45:Male|bratA4=T11:Department|bratT10=Person-property|bratT11=Organization|bratT45=Person
 11	и	_	_	_	_	_	_	_	_
-12	его	_	_	_	_	_	_	_	_
-13	подчиненный	_	_	_	_	_	_	_	_
-14	оперативник	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
+12	его	_	_	_	_	_	_	_	bratA16=T46:Male|bratT46=Person
+13	подчиненный	_	_	_	_	_	_	_	bratA16=T46:Male|bratT12=Person-property|bratT46=Person
+14	оперативник	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T46:Male|bratT12=Person-property|bratT46=Person
 15	,	_	_	_	_	_	_	_	_
 16	а	_	_	_	_	_	_	_	_
 17	также	_	_	_	_	_	_	_	_
-18	их	_	_	_	_	_	_	_	_
-19	36-летняя	_	_	_	_	_	_	_	bratT13=Age
-20	приятельница	_	_	_	_	_	_	_	SpaceAfter=No
+18	их	_	_	_	_	_	_	_	bratA15=T56:Female|bratT56=Person
+19	36-летняя	_	_	_	_	_	_	_	bratA15=T56:Female|bratT13=Age|bratT56=Person
+20	приятельница	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T56:Female|bratT56=Person
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p3-s2
@@ -84,14 +84,14 @@
 3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	у	_	_	_	_	_	_	_	_
-6	женщины	_	_	_	_	_	_	_	_
+6	женщины	_	_	_	_	_	_	_	bratA17=T57:Female|bratT57=Person
 7	долгое	_	_	_	_	_	_	_	bratA9=T37:Past|bratT36=Duration|bratT37=Date-period-relative
 8	время	_	_	_	_	_	_	_	bratA9=T37:Past|bratT36=Duration|bratT37=Date-period-relative
 9	были	_	_	_	_	_	_	_	_
 10	плохие	_	_	_	_	_	_	_	_
 11	отношения	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
-13	супругом	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Family
+13	супругом	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T58:Male|bratT30=Family|bratT58=Person
 14	,	_	_	_	_	_	_	_	_
 15	скандалы	_	_	_	_	_	_	_	_
 16	заканчивались	_	_	_	_	_	_	_	_
@@ -102,12 +102,13 @@
 # text = Она пожаловалась своим приятелям-полицейским на мужа.
 1	Она	_	_	_	_	_	_	_	_
 2	пожаловалась	_	_	_	_	_	_	_	_
-3	своим	_	_	_	_	_	_	_	_
-4	приятелям	_	_	_	_	_	_	_	SpaceAfter=No
-5	-	_	_	_	_	_	_	_	SpaceAfter=No
-6	полицейским	_	_	_	_	_	_	_	bratT14=Person-property
+3	своим	_	_	_	_	_	_	_	bratT47=Person
+4-6	приятелям-полицейским	_	_	_	_	_	_	_	_
+4	приятелям	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person
+6	полицейским	_	_	_	_	_	_	_	bratT14=Person-property|bratT47=Person
 7	на	_	_	_	_	_	_	_	_
-8	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Family
+8	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T59:Male|bratT29=Family|bratT59=Person
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p3-s4
@@ -120,14 +121,14 @@
 6	всех	_	_	_	_	_	_	_	_
 7	план	_	_	_	_	_	_	_	SpaceAfter=No
 8	:	_	_	_	_	_	_	_	_
-9	жена	_	_	_	_	_	_	_	bratT31=Family
+9	жена	_	_	_	_	_	_	_	bratA20=T60:Female|bratT31=Family|bratT60=Person
 10	избавляется	_	_	_	_	_	_	_	_
 11	от	_	_	_	_	_	_	_	_
 12	домашнего	_	_	_	_	_	_	_	_
 13	тирана	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	а	_	_	_	_	_	_	_	_
-16	силовики	_	_	_	_	_	_	_	bratT20=Person-property
+16	силовики	_	_	_	_	_	_	_	bratT20=Person-property|bratT48=Person
 17	повышают	_	_	_	_	_	_	_	_
 18	показатели	_	_	_	_	_	_	_	_
 19	по	_	_	_	_	_	_	_	_
@@ -142,9 +143,9 @@
 2	августе	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-absolute
 3	2019	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-absolute
 4	года	_	_	_	_	_	_	_	bratA5=T15:Past|bratT15=Date-absolute
-5	полицейские	_	_	_	_	_	_	_	bratT16=Person-property
+5	полицейские	_	_	_	_	_	_	_	bratT16=Person-property|bratT49=Person
 6	передали	_	_	_	_	_	_	_	_
-7	приятельнице	_	_	_	_	_	_	_	_
+7	приятельнице	_	_	_	_	_	_	_	bratA21=T61:Female|bratT61=Person
 8	увесистый	_	_	_	_	_	_	_	_
 9	сверток	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
@@ -160,15 +161,15 @@
 4	в	_	_	_	_	_	_	_	_
 5	личных	_	_	_	_	_	_	_	_
 6	вещах	_	_	_	_	_	_	_	_
-7	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Family
+7	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T62:Male|bratT32=Family|bratT62=Person
 8	,	_	_	_	_	_	_	_	_
 9	а	_	_	_	_	_	_	_	_
 10	через	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-relative
 11	несколько	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-relative|bratT35=Duration
 12	часов	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-relative|bratT35=Duration
-13	правоохранители	_	_	_	_	_	_	_	bratT22=Person-property
+13	правоохранители	_	_	_	_	_	_	_	bratT22=Person-property|bratT50=Person
 14	провели	_	_	_	_	_	_	_	_
-15	обыск	_	_	_	_	_	_	_	_
+15	обыск	_	_	_	_	_	_	_	bratT42=Event
 16	и	_	_	_	_	_	_	_	_
 17	нашли	_	_	_	_	_	_	_	_
 18	сверток	_	_	_	_	_	_	_	SpaceAfter=No
@@ -177,7 +178,7 @@
 # sent_id = 0040-p4-s3
 # text = Против мужчины было возбуждено уголовное дело, которое дошло до суда.
 1	Против	_	_	_	_	_	_	_	_
-2	мужчины	_	_	_	_	_	_	_	_
+2	мужчины	_	_	_	_	_	_	_	bratA23=T63:Male|bratT63=Person
 3	было	_	_	_	_	_	_	_	_
 4	возбуждено	_	_	_	_	_	_	_	_
 5	уголовное	_	_	_	_	_	_	_	_
@@ -207,10 +208,10 @@
 # sent_id = 0040-p4-s5
 # text = Позже сотрудники ФСБ разоблачили полицейских, подбросивших наркотики невиновному человеку.
 1	Позже	_	_	_	_	_	_	_	bratA7=T39:Past|bratT39=Date-relative
-2	сотрудники	_	_	_	_	_	_	_	bratT23=Person-property
-3	ФСБ	_	_	_	_	_	_	_	bratT23=Person-property|bratT33=Organization
+2	сотрудники	_	_	_	_	_	_	_	bratT23=Person-property|bratT51=Person
+3	ФСБ	_	_	_	_	_	_	_	bratT23=Person-property|bratT33=Organization|bratT51=Person
 4	разоблачили	_	_	_	_	_	_	_	_
-5	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
+5	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT52=Person
 6	,	_	_	_	_	_	_	_	_
 7	подбросивших	_	_	_	_	_	_	_	_
 8	наркотики	_	_	_	_	_	_	_	bratT25=Other-term
@@ -226,7 +227,7 @@
 2	перед	_	_	_	_	_	_	_	_
 3	судом	_	_	_	_	_	_	_	_
 4	предстанут	_	_	_	_	_	_	_	_
-5	силовики	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property
+5	силовики	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT53=Person
 6	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p5-s2
@@ -246,7 +247,7 @@
 13	,	_	_	_	_	_	_	_	_
 14	а	_	_	_	_	_	_	_	_
 15	их	_	_	_	_	_	_	_	_
-16	сообщница	_	_	_	_	_	_	_	_
+16	сообщница	_	_	_	_	_	_	_	bratA24=T64:Female|bratT64=Person
 17	обвиняется	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	пособничестве	_	_	_	_	_	_	_	SpaceAfter=No

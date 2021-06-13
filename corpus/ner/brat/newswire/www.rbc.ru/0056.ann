@@ -1,0 +1,69 @@
+T1	Person 0 9	Навальный
+T2	Organization 23 25	ЕС
+T3	Person 78 112	Оппозиционер   Алексей   Навальный
+T5	Event 153 230	заседании   комитета   по   международным   делам   Европейского   парламента
+T6	Organization 165 230	комитета   по   международным   делам   Европейского   парламента
+A1	Department T6
+T7	Organization 205 230	Европейского   парламента
+T8	GPE 312 319	Россией
+T9	GPE 376 382	России
+T10	Political-group 504 535	Европейская   народная   партия
+T11	Person 551 561	Навального
+T12	Person-property 603 638	заместителя   министра   энергетики
+T13	Person 656 684	блогера   Владимира   Милова
+T14	Person-property 656 663	блогера
+T15	Person 703 791	председателя   совета   депутатов   московского   округа   Красносельский   Илью   Яшина
+T16	Political-group 718 776	совета   депутатов   московского   округа   Красносельский
+T17	GPE 739 776	московского   округа   Красносельский
+T18	Political-group 918 930	оппозиционер
+T19	Person 1222 1253	президента   Владимира   Путина
+T20	Person-property 1222 1232	президента
+T21	Person 1278 1287	Навальный
+T22	Person 1293 1302	Навальный
+T23	GPE 1342 1344	ЕС
+T24	GPE 1419 1426	Россией
+T25	GPE 1487 1495	Брюссель
+T26	Nationality 1533 1542	россиянам
+T27	Nationality 69 76	россиян
+A2	Citizenship T27
+T28	Other-group 1155 1163	олигархи
+A3	Male T1
+T29	Person-surname 0 9	Навальный
+T30	Person-forename 93 100	Алексей
+T31	Person-surname 103 112	Навальный
+A4	Male T3
+T32	GPE 205 217	Европейского
+A5	Adjective T32
+T33	Nationality 455 471	жителей   страны
+A6	Resident T33
+T34	GPE 504 515	Европейская
+A7	Adjective T34
+T35	Person-surname 551 561	Навального
+A8	Male T11
+T36	Person-property 617 638	министра   энергетики
+T37	Date-absolute 649 653	ныне
+A9	Present T37
+T38	Person-forename 666 675	Владимира
+T39	Person-surname 678 684	Милова
+A10	Male T13
+T40	GPE 739 750	московского
+A11	Adjective T40
+T41	Person-forename 779 783	Илью
+T42	Person-surname 786 791	Яшина
+T43	Person-property 703 776	председателя   совета   депутатов   московского   округа   Красносельский
+T44	Person-forename 1235 1244	Владимира
+T45	Person-surname 1247 1253	Путина
+A12	Male T19
+T46	Person-surname 1278 1287	Навальный
+A13	Male T21
+T47	Person-surname 1293 1302	Навальный
+A14	Male T22
+T48	Date-period-relative 237 256	в   ходе   которого
+A15	Past T48
+T49	GPE 1050 1054	миру
+T50	Political-group 78 90	Оппозиционер
+T4	Organization 1332 1344	властям   ЕС
+T51	GPE 1091 1101	зарубежных
+A16	Adjective T51
+T52	GPE 465 471	страны
+T53	GPE 1598 1609	государства

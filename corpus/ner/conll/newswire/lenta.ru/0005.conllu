@@ -6,7 +6,7 @@
 1	Роналду	_	_	_	_	_	_	_	bratA10=T1:Male|bratT1=Person|bratT60=Person-surname
 2	прокомментировал	_	_	_	_	_	_	_	_
 3	смерть	_	_	_	_	_	_	_	bratT34=Event
-4	Марадоны	_	_	_	_	_	_	_	bratA11=T4:Male|bratT34=Event|bratT4=Person|bratT59=Person-surname
+4	Марадоны	_	_	_	_	_	_	_	bratA11=T4:Male|bratT4=Person|bratT59=Person-surname
 
 # newpar id = 0005-p2
 # par_text = Португальский нападающий туринского «Ювентуса» Криштиану Роналду прокомментировал смерть бывшего игрока сборной Аргентины Диего Марадоны. Пост доступен в Twitter-аккаунте португальца.
@@ -22,17 +22,17 @@
 8	Роналду	_	_	_	_	_	_	_	bratA12=T6:Male|bratT6=Person|bratT62=Person-surname
 9	прокомментировал	_	_	_	_	_	_	_	_
 10	смерть	_	_	_	_	_	_	_	bratT36=Event
-11	бывшего	_	_	_	_	_	_	_	bratA13=T7:Male|bratT2=Person-property|bratT36=Event|bratT7=Person
-12	игрока	_	_	_	_	_	_	_	bratA13=T7:Male|bratT2=Person-property|bratT36=Event|bratT7=Person
-13	сборной	_	_	_	_	_	_	_	bratA13=T7:Male|bratT2=Person-property|bratT36=Event|bratT7=Person
-14	Аргентины	_	_	_	_	_	_	_	bratA13=T7:Male|bratT10=GPE|bratT2=Person-property|bratT36=Event|bratT7=Person
-15	Диего	_	_	_	_	_	_	_	bratA13=T7:Male|bratT36=Event|bratT63=Person-forename|bratT7=Person
-16	Марадоны	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T7:Male|bratT36=Event|bratT64=Person-surname|bratT7=Person
+11	бывшего	_	_	_	_	_	_	_	bratA13=T7:Male|bratT2=Person-property|bratT7=Person
+12	игрока	_	_	_	_	_	_	_	bratA13=T7:Male|bratT2=Person-property|bratT7=Person
+13	сборной	_	_	_	_	_	_	_	bratA13=T7:Male|bratT2=Person-property|bratT7=Person|bratT77=Organization
+14	Аргентины	_	_	_	_	_	_	_	bratA13=T7:Male|bratT10=GPE|bratT2=Person-property|bratT7=Person|bratT77=Organization
+15	Диего	_	_	_	_	_	_	_	bratA13=T7:Male|bratT63=Person-forename|bratT7=Person
+16	Марадоны	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T7:Male|bratT64=Person-surname|bratT7=Person
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p2-s2
 # text = Пост доступен в Twitter-аккаунте португальца.
-1	Пост	_	_	_	_	_	_	_	_
+1	Пост	_	_	_	_	_	_	_	bratA24=T78:Media|bratT78=Service
 2	доступен	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	Twitter-аккаунте	_	_	_	_	_	_	_	bratA2=T13:Media|bratT13=Service
@@ -48,14 +48,14 @@
 3	я	_	_	_	_	_	_	_	_
 4	прощаюсь	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
-6	другом	_	_	_	_	_	_	_	SpaceAfter=No
+6	другом	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T84:Male|bratT84=Person
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	весь	_	_	_	_	_	_	_	bratT55=GPE
 10	мир	_	_	_	_	_	_	_	bratT55=GPE
 11	-	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
-13	гением	_	_	_	_	_	_	_	SpaceAfter=No
+13	гением	_	_	_	_	_	_	_	SpaceAfter=No|bratA29=T85:Male|bratT85=Person|bratT86=Person-property
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p3-s2
@@ -124,7 +124,7 @@
 7	-	_	_	_	_	_	_	_	_
 8	написал	_	_	_	_	_	_	_	_
 9	35-летний	_	_	_	_	_	_	_	bratT14=Age
-10	форвард	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
+10	форвард	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T80:Male|bratT15=Person-property|bratT80=Person
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0005-p4
@@ -133,42 +133,43 @@
 # text = Ранее на смерть отреагировал трехкратный чемпион мира в составе сборной Бразилии Пеле.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T49:Past|bratT49=Date-relative
 2	на	_	_	_	_	_	_	_	_
-3	смерть	_	_	_	_	_	_	_	_
+3	смерть	_	_	_	_	_	_	_	bratT75=Event
 4	отреагировал	_	_	_	_	_	_	_	_
 5	трехкратный	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person|bratT37=Quantity|bratT40=Person-property
 6	чемпион	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person|bratT40=Person-property
 7	мира	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person|bratT40=Person-property|bratT51=GPE
-8	в	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person
-9	составе	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person
-10	сборной	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person|bratT41=Organization
-11	Бразилии	_	_	_	_	_	_	_	bratA15=T17:Male|bratT16=GPE|bratT17=Person|bratT41=Organization
+8	в	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person|bratT40=Person-property
+9	составе	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person|bratT40=Person-property
+10	сборной	_	_	_	_	_	_	_	bratA15=T17:Male|bratT17=Person|bratT40=Person-property|bratT41=Organization
+11	Бразилии	_	_	_	_	_	_	_	bratA15=T17:Male|bratT16=GPE|bratT17=Person|bratT40=Person-property|bratT41=Organization
 12	Пеле	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T17:Male|bratT17=Person|bratT65=Person-surname
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p4-s2
 # text = Соперник Марадоны по четвертьфиналу чемпионата мира-1986 Гари Линекер также посвятил пост кончине аргентинца.
-1	Соперник	_	_	_	_	_	_	_	_
-2	Марадоны	_	_	_	_	_	_	_	bratA16=T18:Male|bratT18=Person|bratT66=Person-surname
-3	по	_	_	_	_	_	_	_	_
-4	четвертьфиналу	_	_	_	_	_	_	_	bratT19=Event
-5	чемпионата	_	_	_	_	_	_	_	bratT19=Event|bratT46=Event
-6	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event|bratT46=Event|bratT52=GPE
-7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Event|bratT46=Event
-8	1986	_	_	_	_	_	_	_	bratT19=Event|bratT46=Event|bratT53=Date-absolute
+1	Соперник	_	_	_	_	_	_	_	bratA17=T20:Male|bratT20=Person|bratT88=Person-property
+2	Марадоны	_	_	_	_	_	_	_	bratA16=T18:Male|bratA17=T20:Male|bratT18=Person|bratT20=Person|bratT66=Person-surname|bratT88=Person-property
+3	по	_	_	_	_	_	_	_	bratA17=T20:Male|bratT20=Person|bratT88=Person-property
+4	четвертьфиналу	_	_	_	_	_	_	_	bratA17=T20:Male|bratT19=Event|bratT20=Person|bratT88=Person-property
+5	чемпионата	_	_	_	_	_	_	_	bratA17=T20:Male|bratT19=Event|bratT20=Person|bratT46=Event|bratT88=Person-property
+6-8	мира-1986	_	_	_	_	_	_	_	_
+6	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T20:Male|bratT19=Event|bratT20=Person|bratT46=Event|bratT52=GPE|bratT88=Person-property
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T20:Male|bratT19=Event|bratT20=Person|bratT46=Event|bratT88=Person-property
+8	1986	_	_	_	_	_	_	_	bratA17=T20:Male|bratT19=Event|bratT20=Person|bratT46=Event|bratT53=Date-absolute|bratT88=Person-property
 9	Гари	_	_	_	_	_	_	_	bratA17=T20:Male|bratT20=Person|bratT67=Person-forename
 10	Линекер	_	_	_	_	_	_	_	bratA17=T20:Male|bratT20=Person|bratT68=Person-surname
 11	также	_	_	_	_	_	_	_	_
 12	посвятил	_	_	_	_	_	_	_	_
-13	пост	_	_	_	_	_	_	_	_
+13	пост	_	_	_	_	_	_	_	bratA25=T79:Media|bratT79=Service
 14	кончине	_	_	_	_	_	_	_	bratT47=Event
-15	аргентинца	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T21:Citizenship|bratT21=Nationality|bratT47=Event
+15	аргентинца	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T21:Citizenship|bratA30=T87:Male|bratT21=Nationality|bratT87=Person
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p4-s3
 # text = Однако слова англичанина были поняты неоднозначно.
 1	Однако	_	_	_	_	_	_	_	_
 2	слова	_	_	_	_	_	_	_	_
-3	англичанина	_	_	_	_	_	_	_	bratA22=T22:Citizenship|bratT22=Nationality
+3	англичанина	_	_	_	_	_	_	_	bratA22=T22:Citizenship|bratA31=T89:Male|bratT22=Nationality|bratT89=Person
 4	были	_	_	_	_	_	_	_	_
 5	поняты	_	_	_	_	_	_	_	_
 6	неоднозначно	_	_	_	_	_	_	_	SpaceAfter=No
@@ -180,7 +181,7 @@
 # text = О смерти Марадоны стало известно ранее 25 ноября.
 1	О	_	_	_	_	_	_	_	_
 2	смерти	_	_	_	_	_	_	_	bratT38=Event
-3	Марадоны	_	_	_	_	_	_	_	bratA18=T23:Male|bratT23=Person|bratT38=Event|bratT69=Person-surname
+3	Марадоны	_	_	_	_	_	_	_	bratA18=T23:Male|bratT23=Person|bratT69=Person-surname
 4	стало	_	_	_	_	_	_	_	_
 5	известно	_	_	_	_	_	_	_	_
 6	ранее	_	_	_	_	_	_	_	bratA3=T9:Past|bratA8=T54:Past|bratT54=Date-relative|bratT9=Date-absolute
@@ -192,17 +193,17 @@
 # text = Информацию подтвердил его адвокат, а первыми о случившемся сообщили журналисты аргентинского Clarin.
 1	Информацию	_	_	_	_	_	_	_	_
 2	подтвердил	_	_	_	_	_	_	_	_
-3	его	_	_	_	_	_	_	_	_
-4	адвокат	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person-property
+3	его	_	_	_	_	_	_	_	bratA27=T81:Male|bratT81=Person
+4	адвокат	_	_	_	_	_	_	_	SpaceAfter=No|bratA27=T81:Male|bratT8=Person-property|bratT81=Person
 5	,	_	_	_	_	_	_	_	_
 6	а	_	_	_	_	_	_	_	_
 7	первыми	_	_	_	_	_	_	_	bratT48=Ordinal
 8	о	_	_	_	_	_	_	_	_
 9	случившемся	_	_	_	_	_	_	_	_
 10	сообщили	_	_	_	_	_	_	_	_
-11	журналисты	_	_	_	_	_	_	_	bratT24=Person-property
-12	аргентинского	_	_	_	_	_	_	_	bratA1=T26:Media|bratA19=T58:Adjective|bratT24=Person-property|bratT26=Organization|bratT58=GPE
-13	Clarin	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T26:Media|bratT24=Person-property|bratT26=Organization
+11	журналисты	_	_	_	_	_	_	_	bratT24=Person-property|bratT82=Person
+12	аргентинского	_	_	_	_	_	_	_	bratA1=T26:Media|bratA19=T58:Adjective|bratT24=Person-property|bratT26=Organization|bratT58=GPE|bratT82=Person
+13	Clarin	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T26:Media|bratT24=Person-property|bratT26=Organization|bratT82=Person
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p5-s3
@@ -223,7 +224,7 @@
 
 # sent_id = 0005-p5-s4
 # text = Смерть наступила в результате сердечного приступа.
-1	Смерть	_	_	_	_	_	_	_	_
+1	Смерть	_	_	_	_	_	_	_	bratT76=Event
 2	наступила	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	результате	_	_	_	_	_	_	_	_
@@ -278,8 +279,8 @@
 1	Считается	_	_	_	_	_	_	_	_
 2	одним	_	_	_	_	_	_	_	bratT42=Quantity
 3	из	_	_	_	_	_	_	_	bratT42=Quantity
-4	величайших	_	_	_	_	_	_	_	_
-5	игроков	_	_	_	_	_	_	_	_
+4	величайших	_	_	_	_	_	_	_	bratT83=Person-property
+5	игроков	_	_	_	_	_	_	_	bratT83=Person-property
 6	в	_	_	_	_	_	_	_	_
 7	истории	_	_	_	_	_	_	_	_
 8	футбола	_	_	_	_	_	_	_	SpaceAfter=No

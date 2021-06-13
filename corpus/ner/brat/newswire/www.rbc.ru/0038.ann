@@ -1,0 +1,71 @@
+T1	Event 0 40	Церемония   прощания   с   Джигарханяном
+T2	Person 27 40	Джигарханяном
+T3	Event 77 115	Прощание   c   Арменом   Джигарханяном
+T4	Person 92 115	Арменом   Джигарханяном
+T5	Organization 167 170	РБК
+A1	Media T5
+T6	Person 190 217	артиста   Артур   Согомонян
+T7	Person-property 190 197	артиста
+T8	Organization 367 397	театре   Армена   Джигарханяна
+T9	Person 376 397	Армена   Джигарханяна
+T10	Person 422 431	Согомонян
+T11	Date-period-absolute 483 519	17   ноября   с   12:00   до   14:00
+T12	Time-period 497 519	с   12:00   до   14:00
+T13	Person 533 542	Согомонян
+T14	Organization 555 558	РБК
+A2	Media T14
+T15	Event 571 589	похороны   артиста
+T16	Person-property 582 589	артиста
+T17	Date-absolute 604 615	17   ноября
+T18	Facility 623 647	Ваганьковском   кладбище
+T19	Family 679 683	дочь
+T20	Person 689 700	Джигарханян
+T21	Date-absolute 710 729	утром   14   ноября
+T22	Time-absolute 710 715	утром
+T23	Age 732 756	на   86-м   году   жизни
+T24	Event 865 882	смертью   артиста
+T25	Person 896 933	президент   России   Владимир   Путин
+T26	Person-property 896 914	президент   России
+T27	GPE 908 914	России
+T28	Person 940 983	премьер-министр   Армении   Никол   Пашинян
+T29	Person-property 940 965	премьер-министр   Армении
+T30	GPE 958 965	Армении
+T31	Person 990 1021	мэр   Москвы   Сергей   Собянин
+T32	Person-property 990 1002	мэр   Москвы
+T33	GPE 996 1002	Москвы
+T34	Person-property 1040 1046	актеры
+T35	Person-property 875 882	артиста
+T36	Person-surname 27 40	Джигарханяном
+A3	Male T2
+T37	Person-forename 92 99	Арменом
+T38	Person-surname 102 115	Джигарханяном
+A4	Male T4
+T39	Person-forename 200 205	Артур
+T40	Person-surname 208 217	Согомонян
+A5	Male T6
+T41	Person-forename 376 382	Армена
+T42	Person-surname 385 397	Джигарханяна
+A6	Male T9
+T43	Person-surname 422 431	Согомонян
+A7	Male T10
+T44	Person-surname 533 542	Согомонян
+A9	Male T13
+A10	Future T17
+T46	Person-surname 689 700	Джигарханян
+A12	Past T21
+T47	Event 790 796	смерти
+T48	Person-forename 917 925	Владимир
+T49	Person-surname 928 933	Путин
+A13	Male T25
+T50	Person-forename 968 973	Никол
+T51	Person-surname 976 983	Пашинян
+A14	Male T28
+A15	Male T31
+T52	Person-forename 1005 1011	Сергей
+T53	Person-surname 1014 1021	Собянин
+T54	Date-relative 525 530	Ранее
+A16	Past T54
+A8	Fut T11
+T45	Person 673 683	его   дочь
+A11	Female T45
+T55	Ordinal 737 741	86-м

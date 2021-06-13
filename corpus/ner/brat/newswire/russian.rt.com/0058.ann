@@ -1,21 +1,21 @@
 T1	Person-property 0 6	Биолог
 T2	Other-term 49 77	мутировавшего   коронавируса
 T3	Quantity 411 427	четыре   мутации
-T4	Other-term 454 490	коронавирусной   инфекции   COVID-19
-T5	Other-term 816 838	суперраспространителей
-T6	Organization 997 1010	РИА   Новости
+T4	Other-term 454 492	коронавирусной   инфекции   COVID - 19
+T5	Other-term 818 840	суперраспространителей
+T6	Organization 999 1012	РИА   Новости
 A1	Media T6
-T7	Other-term 1405 1413	COVID-19
-T8	Other-term 1528 1540	коронавируса
-T9	Person 1863 1919	директор   центра   им.   Гамалеи   Александр   Гинцбург
-T10	Person-property 1863 1896	директор   центра   им.   Гамалеи
-T11	Organization 1874 1896	центра   им.   Гамалеи
-T12	Other-term 1981 1993	коронавируса
-T13	Quantity 516 524	два   из
-T14	Quantity 588 598	одним   из
-T15	Person-property 1016 1026	Специалист
-T16	Ordinal 1208 1214	Вторым
-T17	Other-term 1446 1454	антитела
+T7	Other-term 1407 1417	COVID - 19
+T8	Other-term 1532 1544	коронавируса
+T9	Person 1867 1923	директор   центра   им.   Гамалеи   Александр   Гинцбург
+T10	Person-property 1867 1900	директор   центра   им.   Гамалеи
+T11	Organization 1878 1900	центра   им.   Гамалеи
+T12	Other-term 1985 1997	коронавируса
+T13	Quantity 518 526	два   из
+T14	Quantity 590 600	одним   из
+T15	Person-property 1018 1028	Специалист
+T16	Ordinal 1210 1216	Вторым
+T17	Other-term 1450 1458	антитела
 T18	Person-property 79 154	Профессор   Школы   системной   биологии   Университета   Джорджа   Мейсона
 T19	Organization 91 154	Школы   системной   биологии   Университета   Джорджа   Мейсона
 A2	Department T19
@@ -27,8 +27,8 @@ T24	Other-term 307 319	коронавируса
 T25	Service 188 203	прямого   эфира
 A3	Media T25
 T26	Date-absolute 175 203	во   время   прямого   эфира
-T27	Date-relative 1855 1860	Ранее
-T28	Other-term 1971 1978	мутации
+T27	Date-relative 1859 1864	Ранее
+T28	Other-term 1975 1982	мутации
 A4	Past T26
 A5	Past T27
 T29	Person-forename 157 161	Анча
@@ -37,9 +37,13 @@ T31	Person 137 154	Джорджа   Мейсона
 T32	Person-forename 137 144	Джорджа
 T33	Person-surname 147 154	Мейсона
 T34	Person-surname 392 398	учёные
-T35	Person-forename 1899 1908	Александр
-T36	Person-surname 1911 1919	Гинцбург
-T37	Other-term 1793 1797	титр
+T35	Person-forename 1903 1912	Александр
+T36	Person-surname 1915 1923	Гинцбург
+T37	Other-term 1797 1801	титр
 A6	Female T21
 A7	Male T31
 A8	Male T9
+T38	Cardinal 490 492	19
+T39	Cardinal 1415 1417	19
+T40	Person 1893 1900	Гамалеи
+T41	Person-surname 1893 1900	Гамалеи

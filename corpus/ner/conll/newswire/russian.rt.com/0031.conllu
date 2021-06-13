@@ -47,7 +47,7 @@
 6	СК	_	_	_	_	_	_	_	bratA1=T2:Department|bratT14=Organization|bratT2=Organization
 7	России	_	_	_	_	_	_	_	bratA1=T2:Department|bratT14=Organization|bratT2=Organization|bratT3=GPE
 8	по	_	_	_	_	_	_	_	bratA1=T2:Department|bratT2=Organization
-9	региону	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Department|bratT2=Organization
+9	региону	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Department|bratT2=Organization|bratT28=GPE
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0031-p4
@@ -81,15 +81,15 @@
 25	под	_	_	_	_	_	_	_	_
 26	стражу	_	_	_	_	_	_	_	_
 27	сроком	_	_	_	_	_	_	_	_
-28	на	_	_	_	_	_	_	_	bratT25=Date-period-absolute
-29	два	_	_	_	_	_	_	_	bratT25=Date-period-absolute|bratT4=Duration
-30	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Date-period-absolute|bratT4=Duration
-31	,	_	_	_	_	_	_	_	bratT25=Date-period-absolute
-32	до	_	_	_	_	_	_	_	bratT25=Date-period-absolute
-33	20	_	_	_	_	_	_	_	bratT25=Date-period-absolute
-34	января	_	_	_	_	_	_	_	bratT25=Date-period-absolute
-35	2021	_	_	_	_	_	_	_	bratT25=Date-period-absolute
-36	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Date-period-absolute
+28	на	_	_	_	_	_	_	_	bratA6=T25:Past-UNK|bratT25=Date-period-absolute
+29	два	_	_	_	_	_	_	_	bratA6=T25:Past-UNK|bratT25=Date-period-absolute|bratT4=Duration
+30	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Past-UNK|bratT25=Date-period-absolute|bratT4=Duration
+31	,	_	_	_	_	_	_	_	bratA6=T25:Past-UNK|bratT25=Date-period-absolute
+32	до	_	_	_	_	_	_	_	bratA6=T25:Past-UNK|bratT25=Date-period-absolute
+33	20	_	_	_	_	_	_	_	bratA6=T25:Past-UNK|bratT25=Date-period-absolute
+34	января	_	_	_	_	_	_	_	bratA6=T25:Past-UNK|bratT25=Date-period-absolute
+35	2021	_	_	_	_	_	_	_	bratA6=T25:Past-UNK|bratT25=Date-period-absolute
+36	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Past-UNK|bratT25=Date-period-absolute
 37	''	_	_	_	_	_	_	_	SpaceAfter=No
 38	,	_	_	_	_	_	_	_	_
 39	-	_	_	_	_	_	_	_	_

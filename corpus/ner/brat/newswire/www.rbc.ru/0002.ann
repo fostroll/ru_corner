@@ -1,0 +1,84 @@
+T1	Person 0 8	Боярский
+T2	Organization 51 54	РФС
+T3	Person-property 74 91	тренера   сборной
+T4	Person 93 165	Актер   ,   певец   и   болельщик   ``   Зенита   ''   Михаил   Боярский
+T5	Person-property 93 98	Актер
+T6	Person-property 105 110	певец
+T7	Person-property 117 145	болельщик   ``   Зенита   ''
+T8	Organization 129 145	``   Зенита   ''
+T9	Person 218 280	главного   тренера   сборной   России   Станислава   Черчесова
+T10	Person 380 389	Боярского
+T11	Organization 403 421	``   РБ-Спорт   ''
+A1	Media T11
+T12	Quantity 438 441	0:5
+T13	Person 499 504	Дзюбы
+T14	Person 739 748	Черчесова
+T15	Organization 975 978	РФС
+T16	Person-property 1004 1011	тренера
+T17	Person 1036 1044	Боярский
+T18	Organization 1050 1066	Сборная   России
+T19	GPE 1060 1066	России
+T20	Quantity 1093 1116	шесть   матчей   подряд
+T21	Date-absolute 1123 1133	в   ноябре
+T22	Person 1149 1158	Черчесова
+T23	Event 1176 1188	Лиге   наций
+T24	GPE 1191 1197	Турции
+T25	Quantity 1204 1207	2:3
+T26	GPE 1218 1224	Сербии
+T27	Quantity 1231 1234	0:5
+T28	Quantity 1280 1283	0:0
+T29	GPE 1321 1330	Молдавией
+T30	Event 1349 1361	Лиги   наций
+T31	Organization 1364 1380	сборная   России
+T32	Person-property 218 255	главного   тренера   сборной   России
+T33	Organization 239 255	сборной   России
+T34	GPE 249 255	России
+T35	Quantity 1447 1463	восемью   очками
+T36	Nationality 1500 1508	россияне
+A2	Citizenship T36
+T37	Nationality 1523 1529	сербам
+A3	Citizenship T37
+T38	Ordinal 1549 1556	вторыми
+T39	Nationality 1559 1565	венгры
+T40	Nationality 1605 1612	турками
+A4	Citizenship T40
+T41	Event 1294 1314	товарищеском   матче
+A5	Male T1
+T43	Person-surname 0 8	Боярский
+T44	Person-forename 148 154	Михаил
+T45	Person-surname 157 165	Боярский
+A6	Male T4
+A7	Male T9
+T46	Person-forename 258 268	Станислава
+T47	Person-surname 271 280	Черчесова
+T48	Person-surname 380 389	Боярского
+A8	Male T10
+T49	Person-surname 499 504	Дзюбы
+A9	Male T13
+T50	Person-surname 739 748	Черчесова
+A10	Male T14
+T51	Date-period-absolute 769 790	на   ближайшие   годы
+A11	Pres-Fut T51
+T52	Person-surname 1036 1044	Боярский
+A12	Male T17
+A13	Past T21
+A14	Male T22
+T53	Person-surname 1149 1158	Черчесова
+T54	Ordinal 1481 1490	последнем
+A15	Citizenship T39
+T55	Duration 786 790	годы
+T56	Ordinal 1388 1403	заключительного
+T57	Date-period-absolute 1383 1410	до   заключительного   тура
+A16	Past T57
+T58	GPE 1374 1380	России
+T59	Event 1689 1696	турнира
+T60	Ordinal 774 783	ближайшие
+T61	Event 1388 1410	заключительного   тура
+T62	Organization 345 367	национальной   команды
+T63	Organization 84 91	сборной
+T64	Organization 518 525	сборная
+T65	Event 1668 1711	элитный   дивизион   турнира   -   Лигу   А
+T66	Event 1101 1107	матчей
+T42	GPE 923 937	нашей   стране
+T67	GPE 345 357	национальной
+A17	Adjective T67

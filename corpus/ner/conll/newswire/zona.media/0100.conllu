@@ -1,0 +1,230 @@
+# newdoc id = 0100
+# newpar id = 0100-p1
+# par_text = Основателя сети ресторанов «Тарас Бульба», освобожденного из колонии по болезни, объявили в розыск
+# sent_id = 0100-p1-s1
+# text = Основателя сети ресторанов «Тарас Бульба», освобожденного из колонии по болезни, объявили в розыск
+1	Основателя	_	_	_	_	_	_	_	bratT7=Person-property
+2	сети	_	_	_	_	_	_	_	bratT1=Organization|bratT7=Person-property
+3	ресторанов	_	_	_	_	_	_	_	bratT1=Organization|bratT7=Person-property
+4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT1=Organization|bratT7=Person-property
+5	Тарас	_	_	_	_	_	_	_	bratA7=T29:Fiction|bratA8=T29:Male|bratT1=Organization|bratT29=Person|bratT30=Person-forename|bratT7=Person-property
+6	Бульба	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T29:Fiction|bratA8=T29:Male|bratT1=Organization|bratT29=Person|bratT31=Person-surname|bratT7=Person-property
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT1=Organization|bratT7=Person-property
+8	,	_	_	_	_	_	_	_	_
+9	освобожденного	_	_	_	_	_	_	_	_
+10	из	_	_	_	_	_	_	_	_
+11	колонии	_	_	_	_	_	_	_	_
+12	по	_	_	_	_	_	_	_	_
+13	болезни	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	объявили	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	розыск	_	_	_	_	_	_	_	_
+
+# newpar id = 0100-p2
+# par_text = Следственный комитет объявил в розыск основателя сети ресторанов «Тарас Бульба» Юрия Белойвана, освобожденного из колонии из-за проблем со здоровьем. Об этом сообщается на сайте ведомства.
+# sent_id = 0100-p2-s1
+# text = Следственный комитет объявил в розыск основателя сети ресторанов «Тарас Бульба» Юрия Белойвана, освобожденного из колонии из-за проблем со здоровьем.
+1	Следственный	_	_	_	_	_	_	_	bratT2=Organization
+2	комитет	_	_	_	_	_	_	_	bratT2=Organization
+3	объявил	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	розыск	_	_	_	_	_	_	_	_
+6	основателя	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT8=Person-property
+7	сети	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Organization|bratT8=Person-property
+8	ресторанов	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Organization|bratT8=Person-property
+9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T3:Male|bratT3=Person|bratT4=Organization|bratT8=Person-property
+10	Тарас	_	_	_	_	_	_	_	bratA1=T3:Male|bratA10=T32:Male|bratA9=T32:Fiction|bratT3=Person|bratT32=Person|bratT33=Person-forename|bratT4=Organization|bratT8=Person-property
+11	Бульба	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Male|bratA10=T32:Male|bratA9=T32:Fiction|bratT3=Person|bratT32=Person|bratT34=Person-surname|bratT4=Organization|bratT8=Person-property
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T3:Male|bratT3=Person|bratT4=Organization|bratT8=Person-property
+13	Юрия	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT5=Person-forename
+14	Белойвана	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Male|bratT3=Person|bratT6=Person-surname
+15	,	_	_	_	_	_	_	_	_
+16	освобожденного	_	_	_	_	_	_	_	_
+17	из	_	_	_	_	_	_	_	_
+18	колонии	_	_	_	_	_	_	_	_
+19	из-за	_	_	_	_	_	_	_	_
+20	проблем	_	_	_	_	_	_	_	_
+21	со	_	_	_	_	_	_	_	_
+22	здоровьем	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0100-p2-s2
+# text = Об этом сообщается на сайте ведомства.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщается	_	_	_	_	_	_	_	_
+4	на	_	_	_	_	_	_	_	_
+5	сайте	_	_	_	_	_	_	_	bratA11=T35:Media|bratT35=Service
+6	ведомства	_	_	_	_	_	_	_	SpaceAfter=No
+7	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0100-p3
+# par_text = В июле 2019 года Белойвана приговорили к двум годам за неуплату 650 млн рублей налогов. Он признал вину и согласился на особый порядок (в таком случае суд рассматривает уголовное дело без исследования доказательств). В ноябре 2019 его отпустили из колонии по решению суда.
+# sent_id = 0100-p3-s1
+# text = В июле 2019 года Белойвана приговорили к двум годам за неуплату 650 млн рублей налогов.
+1	В	_	_	_	_	_	_	_	bratA2=T9:Past|bratT9=Date-absolute
+2	июле	_	_	_	_	_	_	_	bratA2=T9:Past|bratT9=Date-absolute
+3	2019	_	_	_	_	_	_	_	bratA2=T9:Past|bratT9=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA2=T9:Past|bratT9=Date-absolute
+5	Белойвана	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Person-surname
+6	приговорили	_	_	_	_	_	_	_	_
+7	к	_	_	_	_	_	_	_	bratA14=T12:Past-UNK|bratT12=Date-period-relative
+8	двум	_	_	_	_	_	_	_	bratA14=T12:Past-UNK|bratT12=Date-period-relative|bratT36=Duration
+9	годам	_	_	_	_	_	_	_	bratA14=T12:Past-UNK|bratT12=Date-period-relative|bratT36=Duration
+10	за	_	_	_	_	_	_	_	_
+11	неуплату	_	_	_	_	_	_	_	_
+12	650	_	_	_	_	_	_	_	bratT13=Money
+13	млн	_	_	_	_	_	_	_	bratT13=Money
+14	рублей	_	_	_	_	_	_	_	bratT13=Money
+15	налогов	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0100-p3-s2
+# text = Он признал вину и согласился на особый порядок (в таком случае суд рассматривает уголовное дело без исследования доказательств).
+1	Он	_	_	_	_	_	_	_	_
+2	признал	_	_	_	_	_	_	_	_
+3	вину	_	_	_	_	_	_	_	_
+4	и	_	_	_	_	_	_	_	_
+5	согласился	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	_
+7	особый	_	_	_	_	_	_	_	_
+8	порядок	_	_	_	_	_	_	_	_
+9	(	_	_	_	_	_	_	_	SpaceAfter=No
+10	в	_	_	_	_	_	_	_	_
+11	таком	_	_	_	_	_	_	_	_
+12	случае	_	_	_	_	_	_	_	_
+13	суд	_	_	_	_	_	_	_	_
+14	рассматривает	_	_	_	_	_	_	_	_
+15	уголовное	_	_	_	_	_	_	_	_
+16	дело	_	_	_	_	_	_	_	_
+17	без	_	_	_	_	_	_	_	_
+18	исследования	_	_	_	_	_	_	_	_
+19	доказательств	_	_	_	_	_	_	_	SpaceAfter=No
+20	)	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	_	_	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = 0100-p3-s3
+# text = В ноябре 2019 его отпустили из колонии по решению суда.
+1	В	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
+2	ноябре	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
+3	2019	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
+4	его	_	_	_	_	_	_	_	_
+5	отпустили	_	_	_	_	_	_	_	_
+6	из	_	_	_	_	_	_	_	_
+7	колонии	_	_	_	_	_	_	_	_
+8	по	_	_	_	_	_	_	_	_
+9	решению	_	_	_	_	_	_	_	_
+10	суда	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0100-p4
+# par_text = «Несмотря на заявленные в суде намерения об уплате сумм недоимки по налогам частями, Белойван после освобождения из-под стражи фактически скрылся», — говорят в СК. Ведомство пригрозило объявить бизнесмена в международный розыск.
+# sent_id = 0100-p4-s1
+# text = «Несмотря на заявленные в суде намерения об уплате сумм недоимки по налогам частями, Белойван после освобождения из-под стражи фактически скрылся», - говорят в СК. Ведомство пригрозило объявить бизнесмена в международный розыск.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Несмотря	_	_	_	_	_	_	_	_
+3	на	_	_	_	_	_	_	_	_
+4	заявленные	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	суде	_	_	_	_	_	_	_	_
+7	намерения	_	_	_	_	_	_	_	_
+8	об	_	_	_	_	_	_	_	_
+9	уплате	_	_	_	_	_	_	_	_
+10	сумм	_	_	_	_	_	_	_	_
+11	недоимки	_	_	_	_	_	_	_	_
+12	по	_	_	_	_	_	_	_	_
+13	налогам	_	_	_	_	_	_	_	_
+14	частями	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	_	_	_	_	_	_	_	_
+16	Белойван	_	_	_	_	_	_	_	bratA5=T15:Male|bratT15=Person|bratT16=Person-surname
+17	после	_	_	_	_	_	_	_	bratA12=T17:Past|bratT17=Date-absolute
+18	освобождения	_	_	_	_	_	_	_	bratA12=T17:Past|bratT17=Date-absolute
+19	из-под	_	_	_	_	_	_	_	_
+20	стражи	_	_	_	_	_	_	_	_
+21	фактически	_	_	_	_	_	_	_	_
+22	скрылся	_	_	_	_	_	_	_	SpaceAfter=No
+23	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	-	_	_	_	_	_	_	_	_
+26	говорят	_	_	_	_	_	_	_	_
+27	в	_	_	_	_	_	_	_	_
+28	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
+29	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0100-p4-s2
+# text = Ведомство пригрозило объявить бизнесмена в международный розыск.
+1	Ведомство	_	_	_	_	_	_	_	_
+2	пригрозило	_	_	_	_	_	_	_	_
+3	объявить	_	_	_	_	_	_	_	_
+4	бизнесмена	_	_	_	_	_	_	_	bratT19=Person-property
+5	в	_	_	_	_	_	_	_	_
+6	международный	_	_	_	_	_	_	_	_
+7	розыск	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0100-p5
+# par_text = По версии следствия, в 2011-2014 Белойван поручил работникам восьми ресторанов сети не пробивать чеки и не принимать банковские карты. В заведениях также работали «ночные кассиры», удалявшие самые дорогие заказы за день, говорили в СК. Из-за этого в налоговых декларациях была указана заниженная сумма выручки.
+# sent_id = 0100-p5-s1
+# text = По версии следствия, в 2011 - 2014 Белойван поручил работникам восьми ресторанов сети не пробивать чеки и не принимать банковские карты.
+1	По	_	_	_	_	_	_	_	_
+2	версии	_	_	_	_	_	_	_	_
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA13=T20:Past|bratT20=Date-period-absolute
+6	2011	_	_	_	_	_	_	_	bratA13=T20:Past|bratT20=Date-period-absolute
+7	-	_	_	_	_	_	_	_	bratA13=T20:Past|bratT20=Date-period-absolute
+8	2014	_	_	_	_	_	_	_	bratA13=T20:Past|bratT20=Date-period-absolute
+9	Белойван	_	_	_	_	_	_	_	bratA6=T21:Male|bratT21=Person|bratT22=Person-surname
+10	поручил	_	_	_	_	_	_	_	_
+11	работникам	_	_	_	_	_	_	_	bratT23=Person-property
+12	восьми	_	_	_	_	_	_	_	bratT24=Quantity
+13	ресторанов	_	_	_	_	_	_	_	bratT24=Quantity
+14	сети	_	_	_	_	_	_	_	_
+15	не	_	_	_	_	_	_	_	_
+16	пробивать	_	_	_	_	_	_	_	_
+17	чеки	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	не	_	_	_	_	_	_	_	_
+20	принимать	_	_	_	_	_	_	_	_
+21	банковские	_	_	_	_	_	_	_	_
+22	карты	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0100-p5-s2
+# text = В заведениях также работали «ночные кассиры», удалявшие самые дорогие заказы за день, говорили в СК.
+1	В	_	_	_	_	_	_	_	_
+2	заведениях	_	_	_	_	_	_	_	_
+3	также	_	_	_	_	_	_	_	_
+4	работали	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT25=Person-property
+6	ночные	_	_	_	_	_	_	_	bratT18=Time-absolute|bratT25=Person-property
+7	кассиры	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
+8	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT25=Person-property
+9	,	_	_	_	_	_	_	_	_
+10	удалявшие	_	_	_	_	_	_	_	_
+11	самые	_	_	_	_	_	_	_	_
+12	дорогие	_	_	_	_	_	_	_	_
+13	заказы	_	_	_	_	_	_	_	_
+14	за	_	_	_	_	_	_	_	bratT39=Time-period
+15	день	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Duration|bratT39=Time-period
+16	,	_	_	_	_	_	_	_	_
+17	говорили	_	_	_	_	_	_	_	_
+18	в	_	_	_	_	_	_	_	_
+19	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+20	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0100-p5-s3
+# text = Из-за этого в налоговых декларациях была указана заниженная сумма выручки.
+1	Из-за	_	_	_	_	_	_	_	_
+2	этого	_	_	_	_	_	_	_	_
+3	в	_	_	_	_	_	_	_	_
+4	налоговых	_	_	_	_	_	_	_	_
+5	декларациях	_	_	_	_	_	_	_	_
+6	была	_	_	_	_	_	_	_	_
+7	указана	_	_	_	_	_	_	_	_
+8	заниженная	_	_	_	_	_	_	_	_
+9	сумма	_	_	_	_	_	_	_	_
+10	выручки	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
+

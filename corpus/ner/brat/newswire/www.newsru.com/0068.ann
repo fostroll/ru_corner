@@ -1,0 +1,95 @@
+T1	Organization 11 21	Мосгордумы
+T2	Person-property 0 21	Депутата   Мосгордумы
+T3	Person 0 43	Депутата   Мосгордумы   Олега   Шереметьева
+T4	Date-period-relative 107 126	к   четырем   годам
+T5	Product 60 90	``   Умного   голосования   ''
+T6	Organization 218 222	КПРФ
+T7	Organization 181 210	Московской   городской   думы
+T8	Person-property 170 222	Депутата   Московской   городской   думы   от   КПРФ
+T9	Person 170 244	Депутата   Московской   городской   думы   от   КПРФ   Олега   Шереметьева
+T10	Date-period-relative 261 280	к   четырем   годам
+T11	Money 350 367	миллионы   рублей
+T12	Organization 385 389	ТАСС
+A2	Media T12
+T13	Person 547 564	Олег   Шереметьев
+T14	Person 609 629	Алексея   Навального
+T15	Product 632 661	``   Умное   голосование   ''
+T17	Organization 700 726	``   Единой   Россией   ''
+T18	Person-property 760 786	оппозиционных   кандидатов
+T19	GPE 870 876	Москвы
+T20	Organization 845 876	Замоскворецкого   суда   Москвы
+T21	Person-property 837 876	судья   Замоскворецкого   суда   Москвы
+T22	Person 837 898	судья   Замоскворецкого   суда   Москвы   Наталья   Чепрасова
+T23	Person 910 918	политика
+T24	Date-period-relative 979 992	на   2   года
+T25	Person 1058 1068	Шереметьев
+T26	Money 1103 1125	2   171   579   рублей
+T27	Law 1255 1283	ч.   4   ст.   159   УК   РФ
+T28	Person 1286 1297	Шереметьеву
+T29	Time-period 1333 1341	10   лет
+T30	Date-period-absolute 1399 1445	с   ноября   2019   по   февраль   2020   года
+T31	Person 1448 1465	Олег   Шереметьев
+T32	Money 1654 1684	350   -   600   тысяч   рублей
+T34	Person-property 1536 1545	помощница
+T35	Person-property 1702 1711	помощнице
+T36	Person-property 1714 1721	депутат
+T37	Organization 1757 1760	РБК
+A4	Media T37
+T38	Person-property 1852 1862	помощникам
+T39	Person-property 1989 1994	боссу
+T40	Person-property 424 444	народный   избранник
+T41	Person-property 518 527	помощнице
+T42	Person-forename 24 29	Олега
+A5	Male T3
+T43	Person-surname 32 43	Шереметьева
+T44	Duration 111 126	четырем   годам
+T45	Duration 265 280	четырем   годам
+A8	Male T9
+T46	Person-forename 225 230	Олега
+T47	Person-surname 233 244	Шереметьева
+T48	GPE 181 191	Московской
+A9	Adjective T48
+A10	Male T13
+T49	Person-forename 547 551	Олег
+T50	Person-surname 554 564	Шереметьев
+A11	Male T14
+T51	Person-forename 609 616	Алексея
+T52	Person-surname 619 629	Навального
+T53	GPE 714 721	Россией
+A12	Female T22
+T54	Person-forename 879 886	Наталья
+T55	Person-surname 889 898	Чепрасова
+T56	Duration 984 992	2   года
+T57	Person-surname 1058 1068	Шереметьев
+A16	Male T25
+T58	Date-period-relative 1136 1150	до   тех   пор
+A17	Pres-Fut T58
+T59	Duration 1333 1341	10   лет
+A18	Male T28
+T60	Person-surname 1286 1297	Шереметьеву
+T61	Ordinal 1260 1261	4
+T62	Ordinal 1270 1273	159
+T63	Law 1276 1283	УК   РФ
+T64	GPE 1281 1283	РФ
+A19	Past T30
+A20	Male T31
+T65	Person-forename 1448 1452	Олег
+T66	Person-surname 1455 1465	Шереметьев
+T33	Duration 1477 1482	месяц
+T67	Time-period 1468 1482	каждый   месяц
+A6	Past-UNK T10
+A7	Past-UNK T4
+A1	Project T5
+A3	Project T15
+T16	Person 510 527	своей   помощнице
+A13	Female T16
+T68	Person 1530 1545	его   помощница
+A14	Female T68
+T69	Person 1980 1994	своему   боссу
+A15	Male T69
+T70	Political-group 760 773	оппозиционных
+A21	Adjective T70
+T71	Organization 751 757	власть
+A22	Male T23
+T72	GPE 845 860	Замоскворецкого
+A23	Adjective T72

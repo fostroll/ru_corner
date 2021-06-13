@@ -1,0 +1,271 @@
+# newdoc id = 0040
+# newpar id = 0040-p1
+# par_text = Китайский сервис такси DiDi начнет работу еще в 15 российских городах с 24 ноября
+# sent_id = 0040-p1-s1
+# text = Китайский сервис такси DiDi начнет работу еще в 15 российских городах с 24 ноября
+1	Китайский	_	_	_	_	_	_	_	bratA6=T53:Adjective|bratT1=Service|bratT53=GPE
+2	сервис	_	_	_	_	_	_	_	bratT1=Service
+3	такси	_	_	_	_	_	_	_	bratT1=Service
+4	DiDi	_	_	_	_	_	_	_	bratT1=Service
+5	начнет	_	_	_	_	_	_	_	_
+6	работу	_	_	_	_	_	_	_	_
+7	еще	_	_	_	_	_	_	_	bratT3=Quantity
+8	в	_	_	_	_	_	_	_	bratT3=Quantity
+9	15	_	_	_	_	_	_	_	bratT3=Quantity
+10	российских	_	_	_	_	_	_	_	bratA5=T52:Adjective|bratT3=Quantity|bratT52=GPE
+11	городах	_	_	_	_	_	_	_	bratT3=Quantity
+12	с	_	_	_	_	_	_	_	bratA3=T2:Fut|bratT2=Date-period-absolute
+13	24	_	_	_	_	_	_	_	bratA3=T2:Fut|bratT2=Date-period-absolute
+14	ноября	_	_	_	_	_	_	_	bratA3=T2:Fut|bratT2=Date-period-absolute
+
+# newpar id = 0040-p2
+# par_text = Китайский агрегатор такси DiDi с 24 ноября будет запущен в 15 городах Поволжья и центрального региона России. Об этом сообщили ТАСС в российском представительстве компании.
+# sent_id = 0040-p2-s1
+# text = Китайский агрегатор такси DiDi с 24 ноября будет запущен в 15 городах Поволжья и центрального региона России.
+1	Китайский	_	_	_	_	_	_	_	bratA7=T54:Adjective|bratT4=Service|bratT54=GPE
+2	агрегатор	_	_	_	_	_	_	_	bratT4=Service
+3	такси	_	_	_	_	_	_	_	bratT4=Service
+4	DiDi	_	_	_	_	_	_	_	bratT4=Service
+5	с	_	_	_	_	_	_	_	bratA4=T5:Fut|bratT5=Date-period-absolute
+6	24	_	_	_	_	_	_	_	bratA4=T5:Fut|bratT5=Date-period-absolute
+7	ноября	_	_	_	_	_	_	_	bratA4=T5:Fut|bratT5=Date-period-absolute
+8	будет	_	_	_	_	_	_	_	_
+9	запущен	_	_	_	_	_	_	_	_
+10	в	_	_	_	_	_	_	_	_
+11	15	_	_	_	_	_	_	_	bratT8=Quantity
+12	городах	_	_	_	_	_	_	_	bratT8=Quantity
+13	Поволжья	_	_	_	_	_	_	_	bratT6=GPE
+14	и	_	_	_	_	_	_	_	_
+15	центрального	_	_	_	_	_	_	_	bratT7=GPE
+16	региона	_	_	_	_	_	_	_	bratT7=GPE
+17	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
+18	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0040-p2-s2
+# text = Об этом сообщили ТАСС в российском представительстве компании.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	сообщили	_	_	_	_	_	_	_	_
+4	ТАСС	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
+5	в	_	_	_	_	_	_	_	_
+6	российском	_	_	_	_	_	_	_	bratA8=T55:Adjective|bratT55=GPE
+7	представительстве	_	_	_	_	_	_	_	_
+8	компании	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0040-p3
+# par_text = "DiDi, крупнейший в мире технологический сервис по заказу поездок, объединяющий более 550 млн пользователей в 14 странах, расширяет работу в России и 24 ноября запускает сервис в 15 городах Поволжья и Центральной России. С 24 ноября DiDi Express будет доступен в Белгороде, Брянске, Владимире, Ижевске, Йошкар-Оле, Курске, Липецке, Набережных Челнах, Оренбурге, Пензе, Рязани, Тамбове, Твери, Туле, Чебоксарах", - рассказала PR-директор DiDi в России Ирина Гущина.
+# sent_id = 0040-p3-s1
+# text = ``DiDi, крупнейший в мире технологический сервис по заказу поездок, объединяющий более 550 млн пользователей в 14 странах, расширяет работу в России и 24 ноября запускает сервис в 15 городах Поволжья и Центральной России.
+1	``	_	_	_	_	_	_	_	SpaceAfter=No
+2	DiDi	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Service
+3	,	_	_	_	_	_	_	_	_
+4	крупнейший	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	_
+6	мире	_	_	_	_	_	_	_	bratT64=GPE
+7	технологический	_	_	_	_	_	_	_	_
+8	сервис	_	_	_	_	_	_	_	_
+9	по	_	_	_	_	_	_	_	_
+10	заказу	_	_	_	_	_	_	_	_
+11	поездок	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	объединяющий	_	_	_	_	_	_	_	_
+14	более	_	_	_	_	_	_	_	bratT12=Quantity
+15	550	_	_	_	_	_	_	_	bratT12=Quantity
+16	млн	_	_	_	_	_	_	_	bratT12=Quantity
+17	пользователей	_	_	_	_	_	_	_	bratT11=Other-group|bratT12=Quantity
+18	в	_	_	_	_	_	_	_	_
+19	14	_	_	_	_	_	_	_	bratT13=Quantity
+20	странах	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+21	,	_	_	_	_	_	_	_	_
+22	расширяет	_	_	_	_	_	_	_	_
+23	работу	_	_	_	_	_	_	_	_
+24	в	_	_	_	_	_	_	_	_
+25	России	_	_	_	_	_	_	_	bratT14=GPE
+26	и	_	_	_	_	_	_	_	_
+27	24	_	_	_	_	_	_	_	bratA13=T15:Future|bratT15=Date-absolute
+28	ноября	_	_	_	_	_	_	_	bratA13=T15:Future|bratT15=Date-absolute
+29	запускает	_	_	_	_	_	_	_	_
+30	сервис	_	_	_	_	_	_	_	_
+31	в	_	_	_	_	_	_	_	_
+32	15	_	_	_	_	_	_	_	bratT16=Quantity
+33	городах	_	_	_	_	_	_	_	bratT16=Quantity
+34	Поволжья	_	_	_	_	_	_	_	bratT17=GPE
+35	и	_	_	_	_	_	_	_	_
+36	Центральной	_	_	_	_	_	_	_	bratT18=GPE
+37	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=GPE
+38	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0040-p3-s2
+# text = С 24 ноября DiDi Express будет доступен в Белгороде, Брянске, Владимире, Ижевске, Йошкар-Оле, Курске, Липецке, Набережных Челнах, Оренбурге, Пензе, Рязани, Тамбове, Твери, Туле, Чебоксарах'', - рассказала PR-директор DiDi в России Ирина Гущина.
+1	С	_	_	_	_	_	_	_	bratA2=T19:Fut|bratT19=Date-period-absolute
+2	24	_	_	_	_	_	_	_	bratA2=T19:Fut|bratT19=Date-period-absolute
+3	ноября	_	_	_	_	_	_	_	bratA2=T19:Fut|bratT19=Date-period-absolute
+4	DiDi	_	_	_	_	_	_	_	bratT20=Service
+5	Express	_	_	_	_	_	_	_	bratT20=Service
+6	будет	_	_	_	_	_	_	_	_
+7	доступен	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	_
+9	Белгороде	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE
+10	,	_	_	_	_	_	_	_	_
+11	Брянске	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=GPE
+12	,	_	_	_	_	_	_	_	_
+13	Владимире	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+14	,	_	_	_	_	_	_	_	_
+15	Ижевске	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=GPE
+16	,	_	_	_	_	_	_	_	_
+17	Йошкар-Оле	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE
+18	,	_	_	_	_	_	_	_	_
+19	Курске	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=GPE
+20	,	_	_	_	_	_	_	_	_
+21	Липецке	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=GPE
+22	,	_	_	_	_	_	_	_	_
+23	Набережных	_	_	_	_	_	_	_	bratT28=GPE
+24	Челнах	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=GPE
+25	,	_	_	_	_	_	_	_	_
+26	Оренбурге	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE
+27	,	_	_	_	_	_	_	_	_
+28	Пензе	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE
+29	,	_	_	_	_	_	_	_	_
+30	Рязани	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE
+31	,	_	_	_	_	_	_	_	_
+32	Тамбове	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=GPE
+33	,	_	_	_	_	_	_	_	_
+34	Твери	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
+35	,	_	_	_	_	_	_	_	_
+36	Туле	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=GPE
+37	,	_	_	_	_	_	_	_	_
+38	Чебоксарах	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=GPE
+39	''	_	_	_	_	_	_	_	SpaceAfter=No
+40	,	_	_	_	_	_	_	_	_
+41	-	_	_	_	_	_	_	_	_
+42	рассказала	_	_	_	_	_	_	_	_
+43	PR-директор	_	_	_	_	_	_	_	bratA9=T39:Female|bratT38=Person-property|bratT39=Person
+44	DiDi	_	_	_	_	_	_	_	bratA9=T39:Female|bratT36=Organization|bratT38=Person-property|bratT39=Person
+45	в	_	_	_	_	_	_	_	bratA9=T39:Female|bratT38=Person-property|bratT39=Person
+46	России	_	_	_	_	_	_	_	bratA9=T39:Female|bratT37=GPE|bratT38=Person-property|bratT39=Person
+47	Ирина	_	_	_	_	_	_	_	bratA9=T39:Female|bratT39=Person|bratT56=Person-forename
+48	Гущина	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T39:Female|bratT39=Person|bratT57=Person-surname
+49	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0040-p4
+# par_text = По ее словам, сервис в целях безопасности скрывает номера телефонов клиентов и позволяет пользователям добавить список доверенных лиц для экстренной связи и делиться маршрутом поездки с друзьями и близкими. Также в приложении есть кнопка для мгновенной связи с правоохранительными органами.
+# sent_id = 0040-p4-s1
+# text = По ее словам, сервис в целях безопасности скрывает номера телефонов клиентов и позволяет пользователям добавить список доверенных лиц для экстренной связи и делиться маршрутом поездки с друзьями и близкими.
+1	По	_	_	_	_	_	_	_	_
+2	ее	_	_	_	_	_	_	_	_
+3	словам	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	сервис	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	_
+7	целях	_	_	_	_	_	_	_	_
+8	безопасности	_	_	_	_	_	_	_	_
+9	скрывает	_	_	_	_	_	_	_	_
+10	номера	_	_	_	_	_	_	_	_
+11	телефонов	_	_	_	_	_	_	_	_
+12	клиентов	_	_	_	_	_	_	_	_
+13	и	_	_	_	_	_	_	_	_
+14	позволяет	_	_	_	_	_	_	_	_
+15	пользователям	_	_	_	_	_	_	_	bratT40=Other-group
+16	добавить	_	_	_	_	_	_	_	_
+17	список	_	_	_	_	_	_	_	_
+18	доверенных	_	_	_	_	_	_	_	_
+19	лиц	_	_	_	_	_	_	_	_
+20	для	_	_	_	_	_	_	_	_
+21	экстренной	_	_	_	_	_	_	_	_
+22	связи	_	_	_	_	_	_	_	_
+23	и	_	_	_	_	_	_	_	_
+24	делиться	_	_	_	_	_	_	_	_
+25	маршрутом	_	_	_	_	_	_	_	_
+26	поездки	_	_	_	_	_	_	_	_
+27	с	_	_	_	_	_	_	_	_
+28	друзьями	_	_	_	_	_	_	_	_
+29	и	_	_	_	_	_	_	_	_
+30	близкими	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0040-p4-s2
+# text = Также в приложении есть кнопка для мгновенной связи с правоохранительными органами.
+1	Также	_	_	_	_	_	_	_	_
+2	в	_	_	_	_	_	_	_	_
+3	приложении	_	_	_	_	_	_	_	_
+4	есть	_	_	_	_	_	_	_	_
+5	кнопка	_	_	_	_	_	_	_	_
+6	для	_	_	_	_	_	_	_	_
+7	мгновенной	_	_	_	_	_	_	_	_
+8	связи	_	_	_	_	_	_	_	_
+9	с	_	_	_	_	_	_	_	_
+10	правоохранительными	_	_	_	_	_	_	_	bratT65=Organization
+11	органами	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Organization
+12	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0040-p5
+# par_text = Напомним, агрегатор такси DiDi принадлежит китайской компании Didi Chuxing. О планах сервиса выйти на российский рынок впервые стало известно в 2017 году. Об этом тогда сообщил глава Российского фонда прямых инвестиций (РФПИ) Кирилл Дмитриев. В ноябре 2016 года РФПИ вложился в Didi Chuxing, но сумма инвестиций не уточнялась.
+# sent_id = 0040-p5-s1
+# text = Напомним, агрегатор такси DiDi принадлежит китайской компании Didi Chuxing.
+1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	агрегатор	_	_	_	_	_	_	_	bratT41=Service
+4	такси	_	_	_	_	_	_	_	bratT41=Service
+5	DiDi	_	_	_	_	_	_	_	bratT41=Service
+6	принадлежит	_	_	_	_	_	_	_	_
+7	китайской	_	_	_	_	_	_	_	bratA10=T58:Adjective|bratT42=Organization|bratT58=GPE
+8	компании	_	_	_	_	_	_	_	bratT42=Organization
+9	Didi	_	_	_	_	_	_	_	bratT42=Organization
+10	Chuxing	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+11	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0040-p5-s2
+# text = О планах сервиса выйти на российский рынок впервые стало известно в 2017 году.
+1	О	_	_	_	_	_	_	_	_
+2	планах	_	_	_	_	_	_	_	_
+3	сервиса	_	_	_	_	_	_	_	_
+4	выйти	_	_	_	_	_	_	_	_
+5	на	_	_	_	_	_	_	_	_
+6	российский	_	_	_	_	_	_	_	bratA11=T59:Adjective|bratT59=GPE
+7	рынок	_	_	_	_	_	_	_	_
+8	впервые	_	_	_	_	_	_	_	bratT44=Ordinal
+9	стало	_	_	_	_	_	_	_	_
+10	известно	_	_	_	_	_	_	_	_
+11	в	_	_	_	_	_	_	_	bratA12=T43:Past|bratT43=Date-absolute
+12	2017	_	_	_	_	_	_	_	bratA12=T43:Past|bratT43=Date-absolute
+13	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Past|bratT43=Date-absolute
+14	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0040-p5-s3
+# text = Об этом тогда сообщил глава Российского фонда прямых инвестиций (РФПИ) Кирилл Дмитриев.
+1	Об	_	_	_	_	_	_	_	_
+2	этом	_	_	_	_	_	_	_	_
+3	тогда	_	_	_	_	_	_	_	bratA17=T63:Past|bratT63=Date-relative
+4	сообщил	_	_	_	_	_	_	_	_
+5	глава	_	_	_	_	_	_	_	bratA15=T48:Male|bratT47=Person-property|bratT48=Person
+6	Российского	_	_	_	_	_	_	_	bratA14=T60:Adjective|bratA15=T48:Male|bratT45=Organization|bratT47=Person-property|bratT48=Person|bratT60=GPE
+7	фонда	_	_	_	_	_	_	_	bratA15=T48:Male|bratT45=Organization|bratT47=Person-property|bratT48=Person
+8	прямых	_	_	_	_	_	_	_	bratA15=T48:Male|bratT45=Organization|bratT47=Person-property|bratT48=Person
+9	инвестиций	_	_	_	_	_	_	_	bratA15=T48:Male|bratT45=Organization|bratT47=Person-property|bratT48=Person
+10	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Male|bratT47=Person-property|bratT48=Person
+11	РФПИ	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Male|bratT46=Organization|bratT47=Person-property|bratT48=Person
+12	)	_	_	_	_	_	_	_	bratA15=T48:Male|bratT47=Person-property|bratT48=Person
+13	Кирилл	_	_	_	_	_	_	_	bratA15=T48:Male|bratT48=Person|bratT61=Person-forename
+14	Дмитриев	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Male|bratT48=Person|bratT62=Person-surname
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0040-p5-s4
+# text = В ноябре 2016 года РФПИ вложился в Didi Chuxing, но сумма инвестиций не уточнялась.
+1	В	_	_	_	_	_	_	_	bratA16=T49:Past|bratT49=Date-absolute
+2	ноябре	_	_	_	_	_	_	_	bratA16=T49:Past|bratT49=Date-absolute
+3	2016	_	_	_	_	_	_	_	bratA16=T49:Past|bratT49=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA16=T49:Past|bratT49=Date-absolute
+5	РФПИ	_	_	_	_	_	_	_	bratT50=Organization
+6	вложился	_	_	_	_	_	_	_	_
+7	в	_	_	_	_	_	_	_	_
+8	Didi	_	_	_	_	_	_	_	bratT51=Organization
+9	Chuxing	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Organization
+10	,	_	_	_	_	_	_	_	_
+11	но	_	_	_	_	_	_	_	_
+12	сумма	_	_	_	_	_	_	_	_
+13	инвестиций	_	_	_	_	_	_	_	_
+14	не	_	_	_	_	_	_	_	_
+15	уточнялась	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	_	_	_	_	_	_	_	_
+

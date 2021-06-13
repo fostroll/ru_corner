@@ -1,0 +1,57 @@
+T1	GPE 4 10	Японии
+T2	Event 75 84	Олимпиаду
+T3	Organization 86 173	Организационный   комитет   летних   Олимпийских   и   Паралимпийских   игр   в   Токио
+T4	Event 114 173	летних   Олимпийских   и   Паралимпийских   игр   в   Токио
+T5	GPE 168 173	Токио
+T6	Date-absolute 186 196	в   ноябре
+T7	Date-absolute 330 345	на   2021   год
+T8	Organization 390 405	телеканал   NHK
+A1	Media T8
+T9	Organization 363 367	ТАСС
+A2	Media T9
+T10	Event 460 478	Олимпийские   игры
+T13	Event 597 618	Паралимпийские   игры
+T14	Date-absolute 632 643	в   декабре
+T15	Organization 663 666	NHK
+A3	Media T15
+T16	Event 678 708	токийские   Олимпийские   игры
+T17	Quantity 736 769	около   4,4   миллионов   билетов
+T18	Event 781 802	Паралимпийские   игры
+T19	Quantity 809 827	около   97   тысяч
+T20	Date-absolute 884 899	на   2021   год
+T21	Event 939 960	Олимпиада   в   Токио
+T22	GPE 955 960	Токио
+T23	Date-period-absolute 988 1034	с   24   июля   по   9   августа   2020   года
+T24	Event 1047 1083	пандемии   коронавирусной   инфекции
+T25	Date-period-absolute 1161 1207	с   23   июля   по   8   августа   2021   года
+T26	Date-relative 1121 1129	на   год
+T27	Event 1242 1264	``   Токио - 2020   ''
+T28	GPE 1282 1288	Россию
+T29	Event 1327 1339	Играх - 2020
+T30	Person-property 1455 1474	российские   атлеты
+T31	Date-relative 711 716	ранее
+T32	Date-absolute 902 918	после   переноса
+T33	Other-term 1058 1083	коронавирусной   инфекции
+A4	Future T6
+A5	Future T7
+T34	Date-period-absolute 493 534	в   течение   20   дней   с   10   ноября
+A6	Fut T34
+T11	Duration 507 516	20   дней
+A7	Future T14
+A8	Past T31
+A10	Past T32
+T12	Duration 1126 1129	год
+A12	Future T26
+A13	Fut T25
+T35	Date-absolute 1255 1259	2020
+T36	GPE 1247 1252	Токио
+T38	Date-absolute 1335 1339	2020
+T39	GPE 1455 1465	российские
+A14	Adjective T39
+T41	GPE 678 687	токийские
+A15	Adjective T41
+T42	Event 910 933	переноса   соревнований
+A9	Plural T4
+T43	Event 123 134	Олимпийских
+T44	Event 141 155	Паралимпийских
+T37	Time-period 114 120	летних

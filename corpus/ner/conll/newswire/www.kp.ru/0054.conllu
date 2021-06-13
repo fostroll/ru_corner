@@ -21,8 +21,8 @@
 3	и	_	_	_	_	_	_	_	_
 4	жестокость	_	_	_	_	_	_	_	_
 5	сотрудников	_	_	_	_	_	_	_	bratT4=Person-property
-6	правоохранительных	_	_	_	_	_	_	_	bratT4=Person-property
-7	органов	_	_	_	_	_	_	_	bratT4=Person-property
+6	правоохранительных	_	_	_	_	_	_	_	bratT4=Person-property|bratT44=Organization
+7	органов	_	_	_	_	_	_	_	bratT4=Person-property|bratT44=Organization
 8	во	_	_	_	_	_	_	_	bratA1=T3:Past|bratT3=Date-absolute
 9	время	_	_	_	_	_	_	_	bratA1=T3:Past|bratT3=Date-absolute
 10	протестов	_	_	_	_	_	_	_	bratA1=T3:Past|bratT3=Date-absolute|bratT6=Event
@@ -133,7 +133,7 @@
 10	за	_	_	_	_	_	_	_	_
 11	происходящим	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	республике	_	_	_	_	_	_	_	SpaceAfter=No
+13	республике	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=GPE
 14	,	_	_	_	_	_	_	_	_
 15	поскольку	_	_	_	_	_	_	_	_
 16	Белоруссия	_	_	_	_	_	_	_	bratT16=GPE
@@ -206,7 +206,7 @@
 4	массовые	_	_	_	_	_	_	_	bratT24=Event
 5	акции	_	_	_	_	_	_	_	bratT24=Event
 6	протеста	_	_	_	_	_	_	_	bratT24=Event
-7	оппозиции	_	_	_	_	_	_	_	bratT24=Event
+7	оппозиции	_	_	_	_	_	_	_	bratT24=Event|bratT43=Organization
 8	в	_	_	_	_	_	_	_	_
 9	Белоруссии	_	_	_	_	_	_	_	bratT23=GPE
 10	начались	_	_	_	_	_	_	_	_

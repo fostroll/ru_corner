@@ -1,55 +1,67 @@
 T1	GPE 4 10	Москве
 T2	Quantity 26 54	свыше   8   тыс.   пациентов
-T3	Other-term 61 69	COVID-19
-T4	GPE 99 105	Москве
-T5	Date-period-absolute 108 118	за   сутки
-T6	Quantity 134 154	еще   76   пациентов
-T7	Other-term 161 187	коронавирусом   SARS-CoV-2
-T8	Organization 215 232	оперштаб   Москвы
-T9	GPE 226 232	Москвы
-T10	Quantity 302 319	8   009   смертей
-T11	Other-term 453 461	COVID-19
-T12	Other-term 368 377	пневмония
-T13	GPE 280 287	столице
-T14	Quantity 529 560	свыше   55,5   млн   заболевших
-T15	Quantity 567 595	свыше   38,5   млн   человек
-T16	Quantity 620 648	более   миллиона   пациентов
-T17	GPE 666 672	России
-T18	Quantity 685 712	свыше   1,9   млн   человек
-T19	Other-term 719 727	COVID-19
-T20	GPE 732 734	РФ
-T22	Organization 857 880	НИЦЭМ   имени   Гамалеи
-T23	Organization 899 940	Российским   фондом   прямых   инвестиций
-T24	Product 961 982	``   Спутник   V   ''
-T25	Date-absolute 987 999	15   октября
-T26	Person 1002 1039	президент   России   Владимир   Путин
-T27	Person-property 1002 1020	президент   России
-T28	GPE 1014 1020	России
-T29	Organization 1188 1228	новосибирский   центр   ``   Вектор   ''
-T30	Other-term 1096 1104	COVID-19
-T31	Product 1143 1165	``   ЭпиВакКорона   ''
-T21	Other-term 814 822	COVID-19
-T32	Ordinal 744 750	первой
-T33	Ordinal 1072 1078	второй
-T34	Other-term 799 806	вакцину
-T35	Other-term 1081 1088	вакцины
-T36	Event 85 93	пандемии
-T37	Event 499 507	пандемии
-T38	Date-period-absolute 486 507	с   начала   пандемии
-T39	Date-period-absolute 72 93	за   время   пандемии
-T40	Date-relative 384 389	ранее
-T41	GPE 479 483	мире
-T42	GPE 767 771	мире
-T44	Duration 113 118	сутки
+T3	Other-term 61 71	COVID - 19
+T4	GPE 101 107	Москве
+T5	Date-period-absolute 110 120	за   сутки
+T6	Quantity 136 156	еще   76   пациентов
+T7	Other-term 163 193	коронавирусом   SARS - CoV - 2
+T8	Organization 221 238	оперштаб   Москвы
+T9	GPE 232 238	Москвы
+T10	Quantity 308 325	8   009   смертей
+T11	Other-term 459 469	COVID - 19
+T12	Other-term 374 383	пневмония
+T13	GPE 286 293	столице
+T14	Quantity 537 568	свыше   55,5   млн   заболевших
+T15	Quantity 575 603	свыше   38,5   млн   человек
+T16	Quantity 628 656	более   миллиона   пациентов
+T17	GPE 674 680	России
+T18	Quantity 693 720	свыше   1,9   млн   человек
+T19	Other-term 727 737	COVID - 19
+T20	GPE 742 744	РФ
+T22	Organization 869 892	НИЦЭМ   имени   Гамалеи
+T23	Organization 911 952	Российским   фондом   прямых   инвестиций
+T24	Product 973 994	``   Спутник   V   ''
+T25	Date-absolute 999 1011	15   октября
+T26	Person 1014 1051	президент   России   Владимир   Путин
+T27	Person-property 1014 1032	президент   России
+T28	GPE 1026 1032	России
+T29	Organization 1202 1242	новосибирский   центр   ``   Вектор   ''
+T30	Other-term 1108 1118	COVID - 19
+T31	Product 1157 1179	``   ЭпиВакКорона   ''
+T21	Other-term 824 834	COVID - 19
+T32	Ordinal 754 760	первой
+T33	Ordinal 1084 1090	второй
+T34	Other-term 809 816	вакцину
+T35	Other-term 1093 1100	вакцины
+T36	Event 87 95	пандемии
+T37	Event 507 515	пандемии
+T38	Date-period-absolute 494 515	с   начала   пандемии
+T39	Date-period-absolute 74 95	за   время   пандемии
+T40	Date-relative 390 395	ранее
+T41	GPE 487 491	мире
+T42	GPE 777 781	мире
+T44	Duration 115 120	сутки
 A2	Past-Pres T5
 A1	Past T39
 A3	Past-Pres T38
 A4	Past T25
 A5	Past T40
-T43	Person-forename 1023 1031	Владимир
-T45	Person-surname 1034 1039	Путин
+T43	Person-forename 1035 1043	Владимир
+T45	Person-surname 1046 1051	Путин
 A6	Male T26
-T46	GPE 899 909	Российским
+T46	GPE 911 921	Российским
 A7	Adjective T46
-T47	GPE 1188 1201	новосибирский
+T47	GPE 1202 1215	новосибирский
 A8	Adjective T47
+T48	Event 1070 1081	регистрации
+A9	Trademark T24
+A10	Trademark T31
+T49	Ordinal 192 193	2
+T51	Cardinal 467 469	19
+T52	Cardinal 735 737	19
+T53	Cardinal 832 834	19
+T54	Cardinal 69 71	19
+T55	Cardinal 1116 1118	19
+T50	Person 885 892	Гамалеи
+T56	Person-surname 885 892	Гамалеи
+T57	GPE 763 770	страной

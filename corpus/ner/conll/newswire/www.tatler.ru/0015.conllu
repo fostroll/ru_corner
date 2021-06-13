@@ -1,0 +1,211 @@
+# newdoc id = 0015
+# newpar id = 0015-p1
+# par_text = Даша Жукова вышла замуж за Ставроса Ниархоса
+# sent_id = 0015-p1-s1
+# text = Даша Жукова вышла замуж за Ставроса Ниархоса
+1	Даша	_	_	_	_	_	_	_	bratA4=T1:Female|bratT1=Person|bratT24=Person-forename
+2	Жукова	_	_	_	_	_	_	_	bratA4=T1:Female|bratT1=Person|bratT25=Person-surname
+3	вышла	_	_	_	_	_	_	_	_
+4	замуж	_	_	_	_	_	_	_	_
+5	за	_	_	_	_	_	_	_	_
+6	Ставроса	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT26=Person-forename
+7	Ниархоса	_	_	_	_	_	_	_	bratA5=T2:Male|bratT2=Person|bratT27=Person-surname
+
+# newpar id = 0015-p2
+# par_text = Тайные свадьбы — определенно звездный тренд последних лет. Вот и Даша Жукова решила не привлекать лишнего внимания к своему замужеству. По сообщению Us Weekly, на прошлых выходных в Париже основательница музея современного искусства «Гараж» обменялась клятвами верности с греческим миллиардером Ставросом Ниархосом.
+# sent_id = 0015-p2-s1
+# text = Тайные свадьбы - определенно звездный тренд последних лет.
+1	Тайные	_	_	_	_	_	_	_	_
+2	свадьбы	_	_	_	_	_	_	_	_
+3	-	_	_	_	_	_	_	_	_
+4	определенно	_	_	_	_	_	_	_	_
+5	звездный	_	_	_	_	_	_	_	_
+6	тренд	_	_	_	_	_	_	_	_
+7	последних	_	_	_	_	_	_	_	bratA20=T54:Past-Pres|bratT52=Ordinal|bratT54=Date-period-absolute
+8	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T54:Past-Pres|bratT53=Duration|bratT54=Date-period-absolute
+9	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0015-p2-s2
+# text = Вот и Даша Жукова решила не привлекать лишнего внимания к своему замужеству.
+1	Вот	_	_	_	_	_	_	_	_
+2	и	_	_	_	_	_	_	_	_
+3	Даша	_	_	_	_	_	_	_	bratA6=T3:Female|bratT28=Person-forename|bratT3=Person
+4	Жукова	_	_	_	_	_	_	_	bratA6=T3:Female|bratT29=Person-surname|bratT3=Person
+5	решила	_	_	_	_	_	_	_	_
+6	не	_	_	_	_	_	_	_	_
+7	привлекать	_	_	_	_	_	_	_	_
+8	лишнего	_	_	_	_	_	_	_	_
+9	внимания	_	_	_	_	_	_	_	_
+10	к	_	_	_	_	_	_	_	_
+11	своему	_	_	_	_	_	_	_	_
+12	замужеству	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0015-p2-s3
+# text = По сообщению Us Weekly, на прошлых выходных в Париже основательница музея современного искусства ``Гараж'' обменялась клятвами верности с греческим миллиардером Ставросом Ниархосом.
+1	По	_	_	_	_	_	_	_	_
+2	сообщению	_	_	_	_	_	_	_	_
+3	Us	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
+4	Weekly	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization
+5	,	_	_	_	_	_	_	_	_
+6	на	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute
+7	прошлых	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute|bratT45=Ordinal
+8	выходных	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute
+9	в	_	_	_	_	_	_	_	_
+10	Париже	_	_	_	_	_	_	_	bratT5=GPE
+11	основательница	_	_	_	_	_	_	_	bratT6=Person-property
+12	музея	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+13	современного	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+14	искусства	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT7=Organization
+16	Гараж	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT7=Organization
+17	''	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+18	обменялась	_	_	_	_	_	_	_	_
+19	клятвами	_	_	_	_	_	_	_	_
+20	верности	_	_	_	_	_	_	_	_
+21	с	_	_	_	_	_	_	_	_
+22	греческим	_	_	_	_	_	_	_	bratA17=T46:Adjective|bratA7=T8:Male|bratT46=GPE|bratT8=Person|bratT9=Person-property
+23	миллиардером	_	_	_	_	_	_	_	bratA7=T8:Male|bratT8=Person|bratT9=Person-property
+24	Ставросом	_	_	_	_	_	_	_	bratA7=T8:Male|bratT30=Person-forename|bratT8=Person
+25	Ниархосом	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Male|bratT31=Person-surname|bratT8=Person
+26	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0015-p3
+# par_text = Анонимный источник поделился подробностями о том, что на праздник были приглашены только самые близкие друзья, среди них — журналист Дерек Басберг, актриса Майя Хоук и ювелир Дженнифер Мейер.
+# sent_id = 0015-p3-s1
+# text = Анонимный источник поделился подробностями о том, что на праздник были приглашены только самые близкие друзья, среди них - журналист Дерек Басберг, актриса Майя Хоук и ювелир Дженнифер Мейер.
+1	Анонимный	_	_	_	_	_	_	_	_
+2	источник	_	_	_	_	_	_	_	_
+3	поделился	_	_	_	_	_	_	_	_
+4	подробностями	_	_	_	_	_	_	_	_
+5	о	_	_	_	_	_	_	_	_
+6	том	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	на	_	_	_	_	_	_	_	_
+10	праздник	_	_	_	_	_	_	_	_
+11	были	_	_	_	_	_	_	_	_
+12	приглашены	_	_	_	_	_	_	_	_
+13	только	_	_	_	_	_	_	_	_
+14	самые	_	_	_	_	_	_	_	_
+15	близкие	_	_	_	_	_	_	_	_
+16	друзья	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	_	_	_	_	_	_	_	_
+18	среди	_	_	_	_	_	_	_	_
+19	них	_	_	_	_	_	_	_	_
+20	-	_	_	_	_	_	_	_	_
+21	журналист	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT11=Person-property
+22	Дерек	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT32=Person-forename
+23	Басберг	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T10:Male|bratT10=Person|bratT33=Person-surname
+24	,	_	_	_	_	_	_	_	_
+25	актриса	_	_	_	_	_	_	_	bratA9=T12:Female|bratT12=Person|bratT13=Person-property
+26	Майя	_	_	_	_	_	_	_	bratA9=T12:Female|bratT12=Person|bratT34=Person-forename
+27	Хоук	_	_	_	_	_	_	_	bratA9=T12:Female|bratT12=Person|bratT35=Person-surname
+28	и	_	_	_	_	_	_	_	_
+29	ювелир	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT15=Person-property
+30	Дженнифер	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT36=Person-forename
+31	Мейер	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Female|bratT14=Person|bratT37=Person-surname
+32	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0015-p4
+# par_text = Но зная, в какой тайне Даша держала свой прошлый брак и детали его расторжения, можно предположить, что безымянному источнику Us Weekly не стоит верить на слово.
+# sent_id = 0015-p4-s1
+# text = Но зная, в какой тайне Даша держала свой прошлый брак и детали его расторжения, можно предположить, что безымянному источнику Us Weekly не стоит верить на слово.
+1	Но	_	_	_	_	_	_	_	_
+2	зная	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	_	_	_	_	_	_	_	_
+4	в	_	_	_	_	_	_	_	_
+5	какой	_	_	_	_	_	_	_	_
+6	тайне	_	_	_	_	_	_	_	_
+7	Даша	_	_	_	_	_	_	_	bratA11=T38:Female|bratT16=Person-forename|bratT38=Person
+8	держала	_	_	_	_	_	_	_	_
+9	свой	_	_	_	_	_	_	_	_
+10	прошлый	_	_	_	_	_	_	_	bratT47=Ordinal
+11	брак	_	_	_	_	_	_	_	_
+12	и	_	_	_	_	_	_	_	_
+13	детали	_	_	_	_	_	_	_	_
+14	его	_	_	_	_	_	_	_	_
+15	расторжения	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	можно	_	_	_	_	_	_	_	_
+18	предположить	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	_	_	_	_	_	_	_	_
+20	что	_	_	_	_	_	_	_	_
+21	безымянному	_	_	_	_	_	_	_	_
+22	источнику	_	_	_	_	_	_	_	_
+23	Us	_	_	_	_	_	_	_	bratA2=T17:Media|bratT17=Organization
+24	Weekly	_	_	_	_	_	_	_	bratA2=T17:Media|bratT17=Organization
+25	не	_	_	_	_	_	_	_	_
+26	стоит	_	_	_	_	_	_	_	_
+27	верить	_	_	_	_	_	_	_	_
+28	на	_	_	_	_	_	_	_	_
+29	слово	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0015-p5
+# par_text = Свою помолвку Даша и Ставрос тоже не афишировали – говорят, что они объявили о ней друзьям на дне рождения Жуковой в июне этого года. О романе пары стало известно в конце 2017 года, когда они вместе появились на мероприятии Art Basel в Майами. До этого их несколько лет связывали дружеские отношения.
+# sent_id = 0015-p5-s1
+# text = Свою помолвку Даша и Ставрос тоже не афишировали - говорят, что они объявили о ней друзьям на дне рождения Жуковой в июне этого года.
+1	Свою	_	_	_	_	_	_	_	_
+2	помолвку	_	_	_	_	_	_	_	_
+3	Даша	_	_	_	_	_	_	_	bratA3=T18:Female|bratT18=Person|bratT40=Person-forename
+4	и	_	_	_	_	_	_	_	_
+5	Ставрос	_	_	_	_	_	_	_	bratA12=T39:Male|bratT39=Person|bratT41=Person-forename
+6	тоже	_	_	_	_	_	_	_	_
+7	не	_	_	_	_	_	_	_	_
+8	афишировали	_	_	_	_	_	_	_	_
+9	-	_	_	_	_	_	_	_	_
+10	говорят	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	что	_	_	_	_	_	_	_	_
+13	они	_	_	_	_	_	_	_	_
+14	объявили	_	_	_	_	_	_	_	_
+15	о	_	_	_	_	_	_	_	_
+16	ней	_	_	_	_	_	_	_	_
+17	друзьям	_	_	_	_	_	_	_	_
+18	на	_	_	_	_	_	_	_	_
+19	дне	_	_	_	_	_	_	_	_
+20	рождения	_	_	_	_	_	_	_	_
+21	Жуковой	_	_	_	_	_	_	_	bratA13=T19:Female|bratT19=Person|bratT42=Person-surname
+22	в	_	_	_	_	_	_	_	bratA14=T20:Past|bratT20=Date-absolute
+23	июне	_	_	_	_	_	_	_	bratA14=T20:Past|bratT20=Date-absolute
+24	этого	_	_	_	_	_	_	_	bratA14=T20:Past|bratT20=Date-absolute|bratT48=Ordinal
+25	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Past|bratT20=Date-absolute
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0015-p5-s2
+# text = О романе пары стало известно в конце 2017 года, когда они вместе появились на мероприятии Art Basel в Майами.
+1	О	_	_	_	_	_	_	_	_
+2	романе	_	_	_	_	_	_	_	_
+3	пары	_	_	_	_	_	_	_	bratT43=Family
+4	стало	_	_	_	_	_	_	_	_
+5	известно	_	_	_	_	_	_	_	_
+6	в	_	_	_	_	_	_	_	bratA15=T21:Past|bratT21=Date-absolute
+7	конце	_	_	_	_	_	_	_	bratA15=T21:Past|bratT21=Date-absolute
+8	2017	_	_	_	_	_	_	_	bratA15=T21:Past|bratT21=Date-absolute
+9	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T21:Past|bratT21=Date-absolute
+10	,	_	_	_	_	_	_	_	_
+11	когда	_	_	_	_	_	_	_	_
+12	они	_	_	_	_	_	_	_	_
+13	вместе	_	_	_	_	_	_	_	_
+14	появились	_	_	_	_	_	_	_	_
+15	на	_	_	_	_	_	_	_	_
+16	мероприятии	_	_	_	_	_	_	_	_
+17	Art	_	_	_	_	_	_	_	bratT22=Organization
+18	Basel	_	_	_	_	_	_	_	bratT22=Organization
+19	в	_	_	_	_	_	_	_	_
+20	Майами	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0015-p5-s3
+# text = До этого их несколько лет связывали дружеские отношения.
+1	До	_	_	_	_	_	_	_	bratA19=T51:Past|bratT51=Date-relative
+2	этого	_	_	_	_	_	_	_	bratA19=T51:Past|bratT51=Date-relative
+3	их	_	_	_	_	_	_	_	_
+4	несколько	_	_	_	_	_	_	_	bratA18=T50:Past|bratT49=Duration|bratT50=Date-period-relative
+5	лет	_	_	_	_	_	_	_	bratA18=T50:Past|bratT49=Duration|bratT50=Date-period-relative
+6	связывали	_	_	_	_	_	_	_	_
+7	дружеские	_	_	_	_	_	_	_	_
+8	отношения	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	_	_	_	_	_	_	_	_
+

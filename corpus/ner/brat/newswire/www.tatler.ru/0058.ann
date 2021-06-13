@@ -1,0 +1,96 @@
+T1	GPE 7 12	Дубая
+T2	Person-property 0 12	Эмир   Дубая
+T3	Person-forename 57 61	Хайя
+T4	Person-property 45 54	принцесса
+T5	Person 45 61	принцесса   Хайя
+A1	Female T5
+T6	Family 84 88	дочь
+T7	Date-period-absolute 90 121	Последние   несколько   месяцев
+A2	Past-Pres T7
+T8	Duration 102 121	несколько   месяцев
+T9	GPE 136 141	Дубая
+T10	Person-property 128 141	эмира   Дубая
+T11	Person-forename 144 153	Мохаммеда
+T12	Person-surname 170 182	Аль   Мактум
+T13	Person-patronym 156 167	ибн   Рашид
+T14	Person 128 182	эмира   Дубая   Мохаммеда   ибн   Рашид   Аль   Мактум
+A3	Male T14
+T15	Date-absolute 212 228	в   конце   июня
+A4	Past T15
+T16	Family 266 270	жена
+T17	Person-forename 285 289	Хайя
+T18	Person-property 273 282	принцесса
+T19	Person 260 289	его   жена   принцесса   Хайя
+A5	Female T19
+T20	GPE 318 324	Европу
+T21	Family 340 346	детьми
+T22	Money 353 370	$ 39   миллионами
+T23	Person-property 440 445	шейха
+T24	Family 506 510	жены
+T25	Family 530 534	дети
+T26	Date-absolute 539 546	Недавно
+T27	Person-property 568 572	эмир
+T28	Family 628 635	дочерей
+T29	Quantity 611 635	многочисленных   дочерей
+T30	Person-patronym 659 687	бин   Мохаммед   бин   Рашид
+T31	Person-surname 690 702	Аль   Мактум
+T32	Person-forename 650 656	Марьям
+T33	Person-property 642 647	шейху
+T34	Person 642 702	шейху   Марьям   бин   Мохаммед   бин   Рашид   Аль   Мактум
+A6	Male T34
+T35	Quantity 591 600	одну   из
+T36	Family 712 720	супругом
+T37	GPE 756 764	Абу-Даби
+T38	Family 748 753	семьи
+T40	Person-property 767 771	шейх
+T41	Person-forename 774 779	Халед
+T42	Person-surname 815 828	Аль   Нахайян
+T43	Person-patronym 782 812	бин   Мохаммад   бин   Хамдана
+T44	Person 730 828	член   правящей   семьи   Абу-Даби   шейх   Халед   бин   Мохаммад   бин   Хамдана   Аль   Нахайян
+A7	Male T44
+T45	Date-absolute 875 912	в   конце   августа   прошлого   года
+A8	Past T45
+T46	Person-forename 1084 1093	Мохаммеда
+T47	Person-surname 1110 1122	Аль   Мактум
+T48	Person-patronym 1096 1107	ибн   Рашид
+T49	Family 1077 1081	дети
+T50	Date-absolute 1165 1183	В   прошлом   году
+A9	Past T50
+T51	Quantity 1186 1195	одна   из
+T52	Person-property 1208 1213	эмира
+T53	Family 1198 1205	дочерей
+T54	Person-forename 1216 1222	Латифа
+T55	Person 1186 1222	одна   из   дочерей   эмира   Латифа
+A10	Female T55
+T56	Date-period-absolute 1290 1303	с   тех   пор
+T57	Family 1346 1362	старшая   сестра
+T58	Person-forename 1365 1370	Шамса
+T59	Person 1341 1370	Ее   старшая   сестра   Шамса
+A12	Female T59
+T60	Family 1408 1412	отца
+T61	Date-absolute 1415 1430	в   2000   году
+A13	Past T61
+T62	Person-forename 1490 1496	Латифы
+T63	Person 1490 1496	Латифы
+A14	Female T63
+T64	Date-period-absolute 1503 1516	с   тех   пор
+T65	Family 1524 1530	сестру
+T66	Person 707 720	Ее   супругом
+A16	Male T66
+T67	Event 935 956	свадебной   церемонии
+T68	Person 1519 1530	ее   сестру
+A17	Female T68
+T69	Ordinal 90 99	Последние
+A18	Past T26
+T39	Ordinal 897 905	прошлого
+T70	Person 1084 1122	Мохаммеда   ибн   Рашид   Аль   Мактум
+A19	Male T70
+T71	Ordinal 1169 1176	прошлом
+A11	Past-Pres T56
+A15	Past-Pres T64
+T72	Event 833 841	Помолвка
+T73	Organization 737 764	правящей   семьи   Абу-Даби
+T74	Person-property 730 764	член   правящей   семьи   Абу-Даби
+T75	Age 844 859	молодых   людей
+A20	RCont T64
+T76	GPE 1251 1257	страны

@@ -31,7 +31,7 @@ T31	Quantity 1503 1523	еще   20   самолетов
 T32	Person-property 1530 1559	российскими   военнослужащими
 T33	Date-absolute 268 316	во   время   пресс-конференции   в   понедельник
 T34	Date-absolute 1470 1477	Сегодня
-T35	Date 194 225	во   время   военных   действий
+T35	Date-period-absolute 194 225	во   время   военных   действий
 T36	Quantity 488 514	несколько   сотен   солдат
 T37	Date-relative 570 592	после   того   ,   как
 T38	Date-absolute 744 771	после   завершения   обмена
@@ -55,7 +55,6 @@ A4	Future T37
 A5	Future T38
 A6	Future T39
 A7	Past T23
-A8	Present T34
 T11	Person-surname 663 671	Пашиняна
 T47	Person-forename 381 386	Никол
 T53	Person-surname 389 396	Пашинян
@@ -67,3 +66,6 @@ T55	GPE 1442 1452	российские
 A12	Adjective T55
 T56	GPE 1530 1541	российскими
 A13	Adjective T56
+A8	Past T34
+A14	Past T35
+T57	GPE 1353 1364	государства

@@ -1,0 +1,76 @@
+T1	Person-property 0 10	Боец   ММА
+T2	Person 0 21	Боец   ММА   Шлеменко
+T3	Person 61 71	Харитонова
+T4	Person 78 85	Яндиева
+T5	Person-property 87 144	Российский   боец   смешанных   единоборств   (   MMA   )
+T6	Person 87 167	Российский   боец   смешанных   единоборств   (   MMA   )   Александр   Шлеменко
+T7	Person-property 214 220	бойцов
+T8	Person 214 264	бойцов   Сергея   Харитонова   и   Адама   Яндиева
+A1	Plural T8
+T9	Date-absolute 269 276	Сегодня
+T10	Person 279 288	Харитонов
+T11	Person 345 353	Яндиевым
+T12	Person 413 419	Яндиев
+T13	Person 476 484	Шлеменко
+T14	Organization 498 517	``   Чемпионат   ''
+A2	Media T14
+T15	Person 550 559	Харитонов
+T16	Person 1052 1062	Харитонова
+T17	Person 1213 1221	Шлеменко
+T18	Date-absolute 1259 1270	13   ноября
+T19	Person 1289 1299	Харитонова
+T20	Date-absolute 1390 1395	Вчера
+T21	Person-property 1398 1403	бойцы
+T22	Person-property 1449 1459	спортсмена
+T24	Person 1558 1567	Харитонов
+T25	Person 1621 1629	Яндиевым
+T23	Person-surname 13 21	Шлеменко
+A3	Male T2
+T26	Person-surname 61 71	Харитонова
+A4	Male T3
+T27	Person-surname 78 85	Яндиева
+A5	Male T4
+T28	GPE 87 97	Российский
+A6	Adjective T28
+T29	Person-forename 147 156	Александр
+T30	Person-surname 159 167	Шлеменко
+A7	Male T6
+T31	Person-forename 223 229	Сергея
+T32	Person-surname 232 242	Харитонова
+T33	Person-forename 249 254	Адама
+T34	Person-surname 257 264	Яндиева
+T35	Person-surname 279 288	Харитонов
+A10	Male T10
+T36	Person-surname 345 353	Яндиевым
+A11	Male T11
+T37	Person-surname 413 419	Яндиев
+A12	Male T12
+T38	Person-surname 476 484	Шлеменко
+A13	Male T13
+T39	Other-group 536 547	потерпевший
+T40	Person-surname 550 559	Харитонов
+A14	Male T15
+T43	Person-surname 1052 1062	Харитонова
+A15	Male T16
+T44	Person-surname 1213 1221	Шлеменко
+A16	Male T17
+A17	Past T18
+T45	Person-surname 1289 1299	Харитонова
+A18	Male T19
+A19	Past T20
+T46	Date-period-relative 1515 1537	минимум   три   месяца
+T47	Duration 1515 1537	минимум   три   месяца
+T48	Person-surname 1558 1567	Харитонов
+A21	Male T24
+T49	Person-surname 1621 1629	Яндиевым
+A22	Male T25
+T50	Person 223 242	Сергея   Харитонова
+A23	Male T50
+T51	Person 249 264	Адама   Яндиева
+A24	Male T51
+T52	Age 749 757	молодежи
+T53	Other-term 1320 1338	сотрясение   мозга
+T54	Other-term 1345 1359	перелом   носа
+T55	Other-term 1366 1385	повреждение   глаза
+A8	Pres-Fut T46
+A9	Past T9

@@ -1,0 +1,87 @@
+T1	Person-forename 45 51	Чедвик
+T2	Person-surname 54 61	Боузман
+T3	Person 7 61	звезда   ``   Черной   Пантеры   ''   Чедвик   Боузман
+A1	Male T3
+T4	Work-of-art 16 42	``   Черной   Пантеры   ''
+T5	Person 7 42	звезда   ``   Черной   Пантеры   ''
+T6	GPE 67 80	Лос-Анджелесе
+T7	GPE 146 158	американский
+A2	Adjective T7
+T8	Person-property 146 166	американский   актер
+T9	Person-forename 169 175	Чедвик
+T10	Person-surname 178 185	Боузман
+T11	Person 146 185	американский   актер   Чедвик   Боузман
+A3	Male T11
+T12	Person-surname 210 218	Боузмана
+T13	Person 210 218	Боузмана
+A4	Male T13
+T14	Service 248 271	официального   твиттера
+A5	Media T14
+T15	Date-period-absolute 350 375	последние   четыре   года
+A6	Past-Pres T15
+T16	Person-property 396 402	актера
+T17	Date-period-absolute 382 393	до   смерти
+A7	Past T17
+T18	Duration 362 375	четыре   года
+T19	Person-forename 483 489	Чедвик
+T20	Person 483 489	Чедвик
+A8	Male T20
+T21	Quantity 546 565	множество   фильмов
+T22	Organization 623 653	агентство   Associated   Press
+A9	Media T22
+T23	Person-property 681 687	актера
+T24	Family 673 678	семьи
+T25	Ordinal 693 700	Впервые
+T26	Person-surname 727 734	Боузман
+T27	Person 727 734	Боузман
+A10	Male T27
+T28	Date-absolute 748 763	в   2003   году
+A11	Past T28
+T29	Work-of-art 770 803	фильме   ``   Третья   смена   ''
+T30	Ordinal 784 790	Третья
+T31	Date-absolute 864 889	в   2016-м   после   роли
+A12	Past T31
+T32	Organization 925 931	Marvel
+T33	Person-alias 892 908	Черной   Пантеры
+T34	Person 892 908	Черной   Пантеры
+A13	Fiction T34
+T35	Ordinal 943 949	Первый
+T36	Work-of-art 938 986	``   Первый   мститель   :   Противостояние   ''
+T37	Work-of-art 993 1019	``   Черная   Пантера   ''
+T38	Work-of-art 1026 1072	``   Мстители   :   Война   бесконечности   ''
+T39	Work-of-art 1079 1109	``   Мстители   :   Финал   ''
+T41	Work-of-art 1114 1160	Новый   фильм   ``   Черная   Пантера   2   ''
+T42	Date-absolute 1207 1222	в   2022   году
+T43	Organization 1323 1338	студии   Marvel
+T44	Person-property 1310 1338	сотрудники   студии   Marvel
+T45	Person-forename 1345 1349	Крис
+T46	Person-forename 1364 1368	Марк
+T47	Person-forename 1385 1388	Зои
+T48	Person-surname 1352 1357	Эванс
+T49	Person-surname 1371 1378	Руффало
+T50	Person-surname 1391 1397	Кравиц
+T51	Person 1345 1357	Крис   Эванс
+A16	Male T51
+T52	Person 1364 1378	Марк   Руффало
+A17	Male T52
+T53	Person 1385 1397	Зои   Кравиц
+A18	Female T53
+T54	Person-property 1422 1428	актеры
+T55	Person-property 1435 1444	режиссеры
+T56	Person-property 1451 1466	звезды   спорта
+T58	Ordinal 350 359	последние
+T59	Family 126 131	семьи
+T60	Event 387 402	смерти   актера
+T61	Event 201 218	смерти   Боузмана
+T62	Ordinal 1154 1155	2
+A19	Media T32
+A20	Media T43
+A14	Male T34
+T40	Person 998 1014	Черная   Пантера
+A21	Fiction T40
+A22	Male T40
+T57	Person-alias 998 1014	Черная   Пантера
+T63	Person 1135 1151	Черная   Пантера
+A23	Fiction T63
+A24	Male T63
+T64	Person-alias 1135 1151	Черная   Пантера

@@ -1,0 +1,73 @@
+T1	Person-property 0 7	Адвокат
+T2	Event 53 68	смерти   Тесака
+T3	Person 62 68	Тесака
+T4	Person-property 70 121	Следователи   СУ   СКР   по   Челябинской   области
+T5	Organization 84 121	СУ   СКР   по   Челябинской   области
+T6	GPE 100 121	Челябинской   области
+T7	Person 156 193	националиста   Максима   Марцинкевича
+T8	Other-group 156 168	националиста
+T9	Organization 298 301	РБК
+A1	Media T9
+T10	Person 304 356	адвокат   семьи   Марцинкевича   Алексей   Михальчик
+T11	Person-property 304 334	адвокат   семьи   Марцинкевича
+T12	Person 322 334	Марцинкевича
+T13	Person 419 440	националиста   Тесака
+T14	Other-group 419 431	националиста
+T15	Date-absolute 452 499	в   сентябре   ,   сразу   после   его   гибели
+T16	Event 410 440	гибели   националиста   Тесака
+T17	Date-absolute 504 516	16   октября
+T18	Organization 519 550	Следственный   комитет   России
+T19	GPE 544 550	России
+T20	Law 600 627	статье   ``   Убийство   ''
+T21	Person-property 675 684	адвокатов
+T22	Person 699 711	Марцинкевича
+T23	Family 691 696	семьи
+T24	Family 314 319	семьи
+T25	Date-absolute 901 933	16   ноября   ,   спустя   месяц
+T26	Date-relative 919 933	спустя   месяц
+T27	Person-property 940 951	следователи
+T28	Event 1025 1040	смерти   Тесака
+T29	Person 1034 1040	Тесака
+T30	Person 1180 1189	Михальчик
+T31	Person 1236 1248	Марцинкевича
+T32	Ordinal 1569 1575	первым
+T33	Ordinal 1592 1598	вторым
+T34	Date-absolute 1619 1626	сегодня
+T36	Person-property 1842 1849	адвокат
+T37	Person-surname 62 68	Тесака
+A2	Male T3
+T38	Person-forename 171 178	Максима
+T39	Person-surname 181 193	Марцинкевича
+A3	Male T7
+A4	Male T12
+T40	Person-surname 322 334	Марцинкевича
+T41	Person-forename 337 344	Алексей
+T42	Person-surname 347 356	Михальчик
+A5	Male T10
+T43	Person-surname 434 440	Тесака
+A6	Male T13
+A7	Past T15
+A9	Past T17
+A10	Male T22
+T45	Person-surname 699 711	Марцинкевича
+A11	Past T25
+A12	Past T26
+T46	Date-relative 777 789	после   чего
+A13	Past T46
+A14	Male T29
+T47	Person-surname 1034 1040	Тесака
+T48	Person-surname 1180 1189	Михальчик
+A15	Male T30
+T49	Person-surname 1236 1248	Марцинкевича
+A16	Male T31
+T50	Organization 1660 1689	Челябинский   городской   суд
+T51	GPE 1660 1671	Челябинский
+A18	Adjective T51
+T52	Organization 1130 1141	прокуратура
+T53	Organization 643 654	прокуратура
+T54	Family 1220 1233	родственникам
+T55	Family 1492 1498	родные
+A17	Past T34
+T56	Event 493 499	гибели
+T35	Duration 928 933	месяц
+T44	Organization 89 92	СКР

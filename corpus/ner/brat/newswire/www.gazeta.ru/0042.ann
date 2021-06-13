@@ -1,13 +1,13 @@
 T1	Facility 50 53	МКС
-T2	Product 9 32	корабля   Crew   Dragon
+T2	Person 9 32	корабля   Crew   Dragon
 T3	Organization 110 142	американской   компании   SpaceX
-T4	Product 68 142	пилотируемого   корабля   Crew   Dragon   американской   компании   SpaceX
-T5	Person-property 55 142	Астронавты   пилотируемого   корабля   Crew   Dragon   американской   компании   SpaceX
+T4	Person 69 107	илотируемого   корабля   Crew   Dragon
+T5	Person-property 55 107	Астронавты   пилотируемого   корабля   Crew   Dragon
 T6	Facility 167 204	Международной   космической   станции
 T7	Organization 246 250	NASA
 T8	Facility 281 284	МКС
 T9	Date-relative 306 321	в   07.00   мск
-T10	Product 327 340	Crew   Dragon
+T10	Person 327 340	Crew   Dragon
 T11	Date-absolute 369 394	16   ноября   03.27   мск
 T12	Time-absolute 383 394	03.27   мск
 T13	Facility 401 411	космодрома
@@ -15,40 +15,49 @@ T14	Location 419 435	мысе   Канаверал
 T15	GPE 443 450	Флориде
 T16	Organization 498 515	компании   SpaceX
 T17	Product 467 515	ракеты-носителя   Falcon   9   компании   SpaceX
-T19	Organization 582 586	NASA
-T20	Organization 682 736	Японского   агентства   аэрокосмических   исследований
-T21	Person-property 666 736	представитель   Японского   агентства   аэрокосмических   исследований
-T22	Person 666 753	представитель   Японского   агентства   аэрокосмических   исследований   Соити   Ногути
-T23	Product 543 558	миссии   Crew-1
+T19	Organization 584 588	NASA
+T20	Organization 684 738	Японского   агентства   аэрокосмических   исследований
+T21	Person-property 668 738	представитель   Японского   агентства   аэрокосмических   исследований
+T22	Person 668 755	представитель   Японского   агентства   аэрокосмических   исследований   Соити   Ногути
+T23	Product 543 560	миссии   Crew - 1
 A1	Project T23
-T24	Organization 533 558	экипажа   миссии   Crew-1
-T25	Person 569 647	астронавты   NASA   Майкл   Хопкинс   ,   Виктор   Гловер   ,   Шэннон   Уокер
-T28	Person-property 569 586	астронавты   NASA
+T24	Organization 533 560	экипажа   миссии   Crew - 1
+T25	Person 571 649	астронавты   NASA   Майкл   Хопкинс   ,   Виктор   Гловер   ,   Шэннон   Уокер
+T28	Person-property 571 588	астронавты   NASA
 A2	Plural T25
 T18	Facility 211 214	МКС
 A3	Department T24
-T26	Person 589 604	Майкл   Хопкинс
-T27	Person 611 626	Виктор   Гловер
-T29	Person 633 647	Шэннон   Уокер
+T26	Person 591 606	Майкл   Хопкинс
+T27	Person 613 628	Виктор   Гловер
+T29	Person 635 649	Шэннон   Уокер
 A4	Past T11
 A5	Past T9
 T30	Time-absolute 306 321	в   07.00   мск
-T31	Person-forename 589 594	Майкл
-T32	Person-surname 597 604	Хопкинс
-T33	Person-forename 611 617	Виктор
-T34	Person-surname 620 626	Гловер
-T35	Person-forename 633 639	Шэннон
-T36	Person-surname 642 647	Уокер
+T31	Person-forename 591 596	Майкл
+T32	Person-surname 599 606	Хопкинс
+T33	Person-forename 613 619	Виктор
+T34	Person-surname 622 628	Гловер
+T35	Person-forename 635 641	Шэннон
+T36	Person-surname 644 649	Уокер
 A6	Male T29
 A7	Male T27
 A8	Male T25
 A9	Male T26
-T37	Person-forename 739 744	Соити
-T38	Person-surname 747 753	Ногути
+T37	Person-forename 741 746	Соити
+T38	Person-surname 749 755	Ногути
 A10	Male T22
 T39	GPE 110 122	американской
 A11	Adjective T39
-T40	GPE 682 691	Японского
+T40	GPE 684 693	Японского
 A12	Adjective T40
 T41	Location 183 194	космической
 A13	Adjective T41
+T43	Ordinal 559 560	1
+T44	Ordinal 494 495	9
+T45	Person-property 0 32	Экипаж   корабля   Crew   Dragon
+T42	Location 360 366	орбиту
+A14	Unconscious T2
+A15	Unconscious T4
+A16	Unconscious T10
+T46	GPE 318 321	мск
+T47	GPE 391 394	мск

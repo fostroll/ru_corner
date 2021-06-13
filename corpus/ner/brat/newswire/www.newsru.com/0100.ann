@@ -1,0 +1,72 @@
+T1	Person-property 0 19	Британский   боксер
+T2	Person 0 27	Британский   боксер   Фьюри
+T3	Ordinal 41 50	следующий
+T4	Date-absolute 64 75	5   декабря
+T5	Organization 108 141	Всемирного   боксерского   совета
+T6	Person-property 77 167	Чемпион   мира   по   версии   Всемирного   боксерского   совета   в   супертяжелом   весе
+T7	Person 77 184	Чемпион   мира   по   версии   Всемирного   боксерского   совета   в   супертяжелом   весе   Тайсон   Фьюри
+T8	Ordinal 206 215	следующий
+T9	Date-absolute 235 246	5   декабря
+T10	GPE 278 285	Лондоне
+T11	Age 301 311	32-летнего
+T12	Person-property 314 338	британского   спортсмена
+T13	Person-property 290 338	Соперник   32-летнего   британского   спортсмена
+T14	Date-absolute 360 380	в   скором   времени
+T15	Person-property 513 519	боксер
+T16	Service 526 533	Twitter
+T17	Date-absolute 539 551	22   февраля
+T18	Person 554 559	Фьюри
+T19	Nationality 572 582	американца
+A2	Citizenship T19
+T20	Person 572 603	американца   Деонтея   Уайлдера
+T21	Ordinal 635 642	седьмом
+T22	Person-property 670 693	титул   чемпиона   мира
+T23	Ordinal 702 708	первом
+T24	Person-property 756 765	боксерами
+T25	Date-absolute 768 783	в   2018   году
+T26	Date-absolute 837 849	12   октября
+T27	Person 881 886	Фьюри
+T28	Ordinal 906 914	третьего
+T29	Person 927 936	Уайлдером
+T30	Event 906 920	третьего   боя
+T31	Event 702 719	первом   поединке
+T32	Date-absolute 974 991	на   19   декабря
+T33	Nationality 1059 1067	британца
+A3	Citizenship T33
+T34	Quantity 1070 1080	30   побед
+T35	Quantity 1087 1100	21   нокаутом
+T36	Quantity 1143 1166	ни   одного   поражения
+T37	Quantity 1173 1185	одна   ничья
+A4	Male T2
+T38	GPE 0 10	Британский
+A5	Adjective T38
+T39	Person-surname 22 27	Фьюри
+A6	Future T4
+T40	GPE 87 91	мира
+T41	GPE 108 118	Всемирного
+A7	Adjective T41
+T42	Person-forename 170 176	Тайсон
+T43	Person-surname 179 184	Фьюри
+A8	Future T9
+T44	GPE 314 325	британского
+A9	Adjective T44
+A10	Future T14
+A11	Past T17
+A12	Male T18
+T45	Person-surname 554 559	Фьюри
+A13	Male T20
+T46	Person-forename 585 592	Деонтея
+T47	Person-surname 595 603	Уайлдера
+T48	GPE 689 693	мира
+A14	Past T25
+A15	Past T26
+A16	Male T27
+T49	Person-surname 881 886	Фьюри
+A17	Male T29
+T50	Person-surname 927 936	Уайлдером
+T51	Duration 1020 1041	неопределенный   срок
+T52	Date-relative 1015 1041	на   неопределенный   срок
+T53	Event 53 61	поединок
+T54	Event 218 221	бой
+T55	Event 251 259	Поединок
+T56	Ordinal 364 370	скором

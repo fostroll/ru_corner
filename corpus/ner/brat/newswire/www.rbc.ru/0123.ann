@@ -1,0 +1,84 @@
+T1	Person-surname 0 7	Краснов
+T2	Person 0 7	Краснов
+A1	Male T2
+T3	GPE 65 69	СССР
+T4	Nationality 55 69	народов   СССР
+T5	Date-period-absolute 72 88	в   годы   войны
+A3	Past T5
+T6	GPE 115 121	России
+T7	Person-property 90 121	Генеральный   прокурор   России
+T8	Person-forename 124 129	Игорь
+T9	Person-surname 132 139	Краснов
+T10	Person 90 139	Генеральный   прокурор   России   Игорь   Краснов
+A4	Male T10
+T11	Law 168 313	федеральном   законе   ``   Об   увековечении   Победы   советского   народа   в   Великой   Отечественной   войне   1941   -   1945   годов   ''
+T12	Nationality 225 244	советского   народа
+A5	Citizenship T12
+T13	Event 251 308	Великой   Отечественной   войне   1941   -   1945   годов
+T14	Date-period-absolute 285 308	1941   -   1945   годов
+A6	Past T14
+T15	GPE 411 429	Советского   Союза
+T16	Nationality 401 429	народов   Советского   Союза
+T17	Organization 570 595	генеральной   прокуратуры
+T18	Organization 555 595	пресс-служба   генеральной   прокуратуры
+A8	Department T18
+T19	Event 495 531	форуме   ``   Уроки   Нюрнберга   ''
+T20	GPE 517 526	Нюрнберга
+T21	GPE 710 728	Советского   Союза
+T22	Nationality 688 728	мирного   населения   Советского   Союза
+T23	Event 791 822	Великой   Отечественной   войны
+T24	Date-period-absolute 780 822	в   годы   Великой   Отечественной   войны
+A10	Past T24
+T25	Person-surname 847 854	Краснов
+T26	Person 847 854	Краснов
+A11	Male T26
+T27	Person-property 868 879	генпрокурор
+T28	GPE 1474 1492	Советского   Союза
+T29	Event 1506 1530	Второй   мировой   войны
+T30	Ordinal 1506 1512	Второй
+T31	Date-period-absolute 1495 1530	в   годы   Второй   мировой   войны
+A12	Past T31
+T32	Person-surname 1557 1564	Краснов
+T33	Person 1557 1564	Краснов
+A13	Male T33
+T34	Date-relative 1570 1575	Ранее
+A14	Past T34
+T35	GPE 1615 1621	России
+T36	Person-property 1603 1621	президент   России
+T37	Person-forename 1624 1632	Владимир
+T38	Person-surname 1635 1640	Путин
+T39	Person 1603 1640	президент   России   Владимир   Путин
+A15	Male T39
+T40	Date-absolute 1645 1667	В   ходе   выступления
+A16	Past T40
+T41	Event 1749 1773	Нюрнбергского   процесса
+T42	GPE 1749 1762	Нюрнбергского
+A17	Adjective T42
+T43	Person-property 1840 1849	Президент
+T44	Ordinal 1913 1919	Второй
+T45	Event 1913 1937	Второй   мировой   войны
+T46	Political-group 2042 2052	нацистских
+A18	Adjective T46
+T47	Person-property 2042 2067	нацистских   преступников
+T48	Person-property 2079 2089	пособников
+T49	Date-absolute 465 487	в   ходе   выступления
+T50	GPE 1922 1929	мировой
+A19	Adjective T50
+T51	GPE 1515 1522	мировой
+A20	Adjective T51
+T52	GPE 225 235	советского
+A21	Adjective T52
+T53	Political-group 345 351	нацизм
+A22	Source T53
+T54	Political-group 368 374	фашизм
+A23	Source T54
+T55	Political-group 971 978	нацизма
+A24	Source T55
+T57	Law 1179 1207	уголовном   законодательстве
+A25	Past T49
+T58	Duration 1499 1503	годы
+T59	Duration 784 788	годы
+T60	Duration 76 80	годы
+T61	Event 83 88	войны
+A2	Resident T22
+T62	Location 1828 1835	планеты

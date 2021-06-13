@@ -23,9 +23,9 @@
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	сотрудники	_	_	_	_	_	_	_	bratT17=Person-property
-8	правоохранительных	_	_	_	_	_	_	_	bratT17=Person-property
-9	органов	_	_	_	_	_	_	_	bratT17=Person-property
-10	страны	_	_	_	_	_	_	_	bratT17=Person-property
+8	правоохранительных	_	_	_	_	_	_	_	bratT17=Person-property|bratT25=Organization
+9	органов	_	_	_	_	_	_	_	bratT17=Person-property|bratT25=Organization
+10	страны	_	_	_	_	_	_	_	bratT17=Person-property|bratT25=Organization|bratT26=GPE
 11	во	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-period-absolute
 12	время	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-period-absolute
 13	акций	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-period-absolute|bratT19=Event
@@ -69,7 +69,7 @@
 2	Всего	_	_	_	_	_	_	_	_
 3	вчера	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-period-absolute
 4	по	_	_	_	_	_	_	_	_
-5	стране	_	_	_	_	_	_	_	_
+5	стране	_	_	_	_	_	_	_	bratT27=GPE
 6	за	_	_	_	_	_	_	_	_
 7	нарушение	_	_	_	_	_	_	_	_
 8	законодательства	_	_	_	_	_	_	_	bratT24=Law

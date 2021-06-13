@@ -41,6 +41,7 @@
 19	состояние	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
 21	перспективы	_	_	_	_	_	_	_	_
+22-24	российско-киргизских	_	_	_	_	_	_	_	_
 22	российско	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T53:Adjective|bratT53=GPE
 23	-	_	_	_	_	_	_	_	SpaceAfter=No
 24	киргизских	_	_	_	_	_	_	_	bratA17=T54:Adjective|bratT54=GPE
@@ -81,6 +82,7 @@
 4	состояние	_	_	_	_	_	_	_	_
 5	и	_	_	_	_	_	_	_	_
 6	перспективы	_	_	_	_	_	_	_	_
+7-9	российско-киргизских	_	_	_	_	_	_	_	_
 7	российско	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T56:Adjective|bratT56=GPE
 8	-	_	_	_	_	_	_	_	SpaceAfter=No
 9	киргизских	_	_	_	_	_	_	_	bratA19=T57:Adjective|bratT57=GPE
@@ -96,7 +98,7 @@
 5	развитии	_	_	_	_	_	_	_	_
 6	ситуации	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	республике	_	_	_	_	_	_	_	_
+8	республике	_	_	_	_	_	_	_	bratT60=GPE
 9	с	_	_	_	_	_	_	_	_
 10	учетом	_	_	_	_	_	_	_	_
 11	событий	_	_	_	_	_	_	_	SpaceAfter=No
@@ -154,7 +156,7 @@
 13	решение	_	_	_	_	_	_	_	_
 14	уйти	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
-16	отставку	_	_	_	_	_	_	_	SpaceAfter=No
+16	отставку	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Event
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p5-s2
@@ -165,7 +167,7 @@
 4	все	_	_	_	_	_	_	_	_
 5	полномочия	_	_	_	_	_	_	_	_
 6	главы	_	_	_	_	_	_	_	bratT21=Person-property
-7	республики	_	_	_	_	_	_	_	bratT21=Person-property
+7	республики	_	_	_	_	_	_	_	bratT21=Person-property|bratT61=GPE
 8	должны	_	_	_	_	_	_	_	_
 9	перейти	_	_	_	_	_	_	_	_
 10	спикеру	_	_	_	_	_	_	_	bratA11=T24:Male|bratT23=Person-property|bratT24=Person
@@ -187,7 +189,7 @@
 26	полномочия	_	_	_	_	_	_	_	_
 27	перешли	_	_	_	_	_	_	_	_
 28	премьер-министру	_	_	_	_	_	_	_	bratA12=T27:Male|bratT26=Person-property|bratT27=Person
-29	страны	_	_	_	_	_	_	_	bratA12=T27:Male|bratT26=Person-property|bratT27=Person
+29	страны	_	_	_	_	_	_	_	bratA12=T27:Male|bratT26=Person-property|bratT27=Person|bratT62=GPE
 30	Жапарову	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T27:Male|bratT27=Person|bratT49=Person-surname
 31	.	_	_	_	_	_	_	_	_
 
@@ -196,8 +198,8 @@
 1	Проведение	_	_	_	_	_	_	_	_
 2	досрочных	_	_	_	_	_	_	_	bratT33=Event
 3	выборов	_	_	_	_	_	_	_	bratT33=Event
-4	главы	_	_	_	_	_	_	_	bratT28=Person-property|bratT33=Event
-5	государства	_	_	_	_	_	_	_	bratT28=Person-property|bratT33=Event
+4	главы	_	_	_	_	_	_	_	bratT28=Person-property
+5	государства	_	_	_	_	_	_	_	bratT28=Person-property|bratT63=GPE
 6	назаначено	_	_	_	_	_	_	_	_
 7	10	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-absolute
 8	января	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-absolute
@@ -226,14 +228,14 @@
 15	требование	_	_	_	_	_	_	_	_
 16	его	_	_	_	_	_	_	_	_
 17	немедленной	_	_	_	_	_	_	_	_
-18	отставки	_	_	_	_	_	_	_	_
+18	отставки	_	_	_	_	_	_	_	bratT58=Event
 19	продолжается	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	и	_	_	_	_	_	_	_	_
 22	он	_	_	_	_	_	_	_	_
 23	готов	_	_	_	_	_	_	_	_
 24	покинуть	_	_	_	_	_	_	_	_
-25	пост	_	_	_	_	_	_	_	SpaceAfter=No
+25	пост	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Person-property
 26	,	_	_	_	_	_	_	_	_
 27	поскольку	_	_	_	_	_	_	_	_
 28	не	_	_	_	_	_	_	_	_

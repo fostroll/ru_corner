@@ -1,0 +1,98 @@
+T1	Person-property 0 5	Судью
+T2	GPE 37 44	Грозном
+T3	Person 68 86	Рамзана   Кадырова
+T4	Person-property 57 86	советник   Рамзана   Кадырова
+T5	Organization 88 159	Контрольно-дисциплинарный   комитет   Российского   футбольного   союза
+A1	Department T5
+T6	Organization 166 175	КДК   РФС
+A2	Department T6
+T7	Organization 172 175	РФС
+T8	Organization 126 159	Российского   футбольного   союза
+T9	Person 250 288	главного   арбитра   Богдана   Головко
+T10	Person-property 250 268	главного   арбитра
+T11	Organization 329 344	``   Ахмат   ''
+T12	Organization 351 368	``   Спартак   ''
+T13	Quantity 375 378	0:0
+T14	GPE 389 396	Грозном
+T15	Person 439 517	советник   по   спорту   главы   Чечни   Рамзана   Кадырова   Хайдар   Алханов
+T16	Person-property 439 498	советник   по   спорту   главы   Чечни   Рамзана   Кадырова
+T17	Person-property 464 477	главы   Чечни
+T18	GPE 472 477	Чечни
+T19	Person 610 617	Головко
+T20	Person 672 690	Хайдара   Алханова
+T21	Family 666 669	сын
+T22	Person-property 709 751	бывший   вице-президент   ``   Ахмата   ''
+T23	Organization 735 751	``   Ахмата   ''
+T24	Other-group 846 856	болельщика
+T25	Organization 907 916	КДК   РФС
+A3	Department T25
+T26	Organization 913 916	РФС
+T27	Person 1006 1027	Саид-Хусейн   Алханов
+T28	Person 1280 1314	своего   отца   Хайдара   Алханова
+T29	Family 1289 1293	отца
+T31	Date-period-relative 1505 1529	в   течение   20   минут
+T32	Organization 1674 1677	КДК
+A4	Department T32
+T33	Organization 1702 1731	агентству   ``   Р-Спорт   ''
+A5	Media T33
+T34	Person 1734 1766	глава   КДК   Артур   Григорьянц
+T35	Person-property 1734 1745	глава   КДК
+T36	Organization 1742 1745	КДК
+A6	Department T36
+T37	Quantity 1430 1436	дважды
+T38	Person-property 542 548	рефери
+T39	Person-property 1596 1601	судье
+T40	Family 1614 1619	семье
+T41	Date-absolute 199 210	в   четверг
+T42	Date-absolute 291 304	после   матча
+T43	Person 464 498	главы   Чечни   Рамзана   Кадырова
+T44	Family 630 635	семье
+T45	Date-relative 569 574	затем
+T46	Date-relative 1331 1338	сначала
+T47	Date-relative 1372 1377	затем
+T48	Date-relative 1453 1458	После
+T49	Date-absolute 754 758	ныне
+A7	Male T3
+T50	Person-forename 68 75	Рамзана
+T51	Person-surname 78 86	Кадырова
+T52	GPE 126 137	Российского
+A8	Adjective T52
+A9	Past T41
+A10	Male T9
+T53	Person-forename 271 278	Богдана
+T54	Person-surname 281 288	Головко
+A11	Past T42
+A12	Male T15
+T55	Person-forename 501 507	Хайдар
+T56	Person-surname 510 517	Алханов
+A13	Male T43
+T57	Person-forename 480 487	Рамзана
+T58	Person-surname 490 498	Кадырова
+A14	Male T19
+T59	Person-surname 610 617	Головко
+A15	Male T20
+T60	Person-forename 672 679	Хайдара
+T61	Person-surname 682 690	Алханова
+A16	Present T49
+A17	Male T27
+T62	Person-forename 1006 1017	Саид-Хусейн
+T63	Person-surname 1020 1027	Алханов
+A18	Male T28
+T64	Person-forename 1296 1303	Хайдара
+T65	Person-surname 1306 1314	Алханова
+T66	Duration 1519 1529	20   минут
+A19	Past T31
+A20	Male T34
+T67	Person-forename 1748 1753	Артур
+T68	Person-surname 1756 1766	Григорьянц
+T30	Person-property 1350 1355	судью
+A21	Past T46
+A22	Past T45
+A23	Past T48
+T69	Person 666 690	сын   Хайдара   Алханова
+A24	Male T69
+A25	Past T47
+T70	Event 299 326	матча   молодежных   команд
+T71	Event 239 247	избиении
+T72	Event 996 1001	матчу
+T73	Event 1237 1242	матча

@@ -1,0 +1,77 @@
+T1	Organization 0 4	ЦСКА
+T2	Date-period-absolute 31 46	за   три   года
+T3	Organization 65 68	КХЛ
+T4	Organization 70 87	Московский   ЦСКА
+T5	Quantity 122 133	пять   шайб
+T6	Organization 141 157	``   Сибири   ''
+T7	Organization 199 233	Континентальной   хоккейной   лиги
+T8	Organization 240 243	КХЛ
+T9	Event 164 247	матче   регулярного   чемпионата   Континентальной   хоккейной   лиги   (   КХЛ   )
+T10	Facility 268 288	``   ЦСКА-Арене   ''
+T11	GPE 295 301	Москве
+T12	Event 253 260	Встреча
+T13	Quantity 332 335	5:1
+T14	Person 404 413	Олег   Ли
+T15	Ordinal 420 421	5
+T16	Person 432 449	Дмитрий   Саюстов
+T17	Ordinal 456 458	14
+T18	Person 469 487	Микаэль   Руохомаа
+T19	Ordinal 494 496	23
+T20	Person 507 523	Данил   Романцев
+T21	Ordinal 530 532	34
+T22	Person 543 559	Андрей   Ермаков
+T23	Ordinal 566 568	49
+T24	Person 614 628	Максим   Мамин
+T25	Ordinal 635 637	11
+T26	Ordinal 653 659	первая
+T27	Organization 692 696	ЦСКА
+T28	GPE 703 709	Москве
+T29	Date-period-absolute 712 737	с   декабря   2010   года
+T30	Event 172 247	регулярного   чемпионата   Континентальной   хоккейной   лиги   (   КХЛ   )
+T31	Organization 785 788	КХЛ
+T32	Date-period-absolute 791 829	за   три   года   после   их   неудачи
+T33	Organization 858 887	финским   ``   Йокеритом   ''
+T34	Quantity 894 897	0:4
+T35	Date-absolute 904 926	в   сентябре   2017-го
+T36	Event 836 851	гостевой   игре
+T37	Organization 939 943	ЦСКА
+T38	Quantity 969 981	пяти   побед
+T39	Ordinal 1030 1036	первой
+T40	Quantity 1124 1135	47   баллов
+T41	Quantity 1142 1152	30   играх
+T42	Organization 1075 1097	Западной   конференции
+T43	Organization 1157 1173	``   Сибирь   ''
+T44	Ordinal 1183 1190	седьмой
+T45	Organization 1198 1205	Востоке
+T46	Duration 36 46	три   года
+A1	Past-Pres T2
+T47	GPE 70 80	Московский
+A2	Adjective T47
+T48	GPE 146 152	Сибири
+A3	Male T14
+T49	Person-forename 404 408	Олег
+T50	Person-surname 411 413	Ли
+A4	Male T16
+T51	Person-forename 432 439	Дмитрий
+T52	Person-surname 442 449	Саюстов
+A5	Male T18
+T53	Person-forename 469 476	Микаэль
+T54	Person-surname 479 487	Руохомаа
+A6	Male T20
+T55	Person-forename 507 512	Данил
+T56	Person-surname 515 523	Романцев
+T57	Person-forename 543 549	Андрей
+T58	Person-surname 552 559	Ермаков
+A7	Male T22
+A8	Male T24
+T59	Person-forename 614 620	Максим
+T60	Person-surname 623 628	Мамин
+A9	Past-Pres T29
+A10	Past-Pres T32
+T61	Nationality 769 778	москвичей
+A11	Resident T61
+T62	Duration 796 806	три   года
+A12	Past T35
+T63	GPE 858 865	финским
+A13	Adjective T63
+T64	GPE 1162 1168	Сибирь

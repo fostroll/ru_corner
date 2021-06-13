@@ -1,0 +1,89 @@
+T1	Person 0 8	Мостовой
+T2	Organization 34 52	``   Спартака   ''
+T3	Organization 98 114	``   Динамо   ''
+T4	Organization 80 96	``   Динамо   ''
+T5	Ordinal 168 173	15-го
+T6	Event 149 235	гостевом   матче   15-го   тура   чемпионата   Российской   премьер-лиги   (   РПЛ   )
+T7	Organization 196 221	Российской   премьер-лиги
+T8	Event 183 235	чемпионата   Российской   премьер-лиги   (   РПЛ   )
+T9	Organization 228 231	РПЛ
+T10	Organization 243 262	``   Спартаком   ''
+T11	Organization 284 287	РБК
+A1	Media T11
+T12	Person 301 393	бывший   полузащитник   ``   красно-белых   ''   и   сборной   России   Александр   Мостовой
+T13	Person-property 301 370	бывший   полузащитник   ``   красно-белых   ''   и   сборной   России
+T14	Organization 354 370	сборной   России
+T15	GPE 364 370	России
+T16	Event 399 446	Матч   ``   Спартак   ''   -   ``   Динамо   ''
+T17	Organization 406 423	``   Спартак   ''
+T18	Organization 430 446	``   Динамо   ''
+T19	Quantity 503 506	1:1
+T20	Quantity 603 606	1:1
+T21	Organization 647 663	``   Динамо   ''
+T22	Person 722 730	Мостовой
+T23	Ordinal 743 749	первом
+T24	Organization 781 798	``   Спартак   ''
+T25	Ordinal 807 813	первые
+T26	Duration 816 826	25   минут
+T27	Ordinal 829 836	второго
+T28	Organization 887 903	``   Динамо   ''
+T29	Organization 1082 1099	``   Спартак   ''
+T30	Organization 1141 1158	``   Спартак   ''
+T31	Ordinal 1184 1190	третий
+T32	Organization 1230 1247	``   Ростова   ''
+T33	Quantity 1254 1257	0:1
+T34	Organization 1280 1296	``   Уралом   ''
+T35	Quantity 1303 1306	2:2
+T36	Organization 1317 1333	``   Динамо   ''
+T37	Quantity 1458 1473	десять   матчей
+T38	Organization 1592 1610	``   Спартаку   ''
+T39	Organization 1649 1666	``   Спартак   ''
+T40	Organization 1775 1792	``   Спартак   ''
+T41	Person 1795 1816	Александра   Кокорина
+T42	Date-relative 1849 1867	на   75-й   минуте
+T43	Person 1874 1882	Мостовой
+T44	Person 1974 1982	Кокорина
+T45	Person-surname 0 8	Мостовой
+A2	Male T1
+T46	GPE 196 206	Российской
+A3	Adjective T46
+T47	Person-forename 373 382	Александр
+T48	Person-surname 385 393	Мостовой
+A4	Male T12
+T49	Date-absolute 458 469	в   субботу
+A5	Past T49
+T50	Date-absolute 527 540	перед   игрой
+A6	Past T50
+T51	Date-absolute 611 617	Сейчас
+A7	Present T51
+T52	Person-surname 722 730	Мостовой
+A8	Male T22
+T53	Date-period-absolute 739 757	В   первом   тайме
+A9	Past T53
+T54	Date-period-absolute 803 844	В   первые   25   минут   второго   тайма
+A10	Past T54
+T55	Quantity 980 1006	еще   несколько   моментов
+T56	GPE 1235 1242	Ростова
+T57	GPE 1285 1291	Уралом
+T58	Quantity 1557 1589	нескольких   предыдущих   матчах
+T59	Ordinal 1570 1580	предыдущих
+T60	Person-forename 1795 1805	Александра
+T61	Person-surname 1808 1816	Кокорина
+A11	Male T41
+T62	Ordinal 1854 1858	75-й
+T63	Person-surname 1874 1882	Мостовой
+A12	Male T43
+T64	Person-surname 1974 1982	Кокорина
+A13	Male T44
+T65	Date-period-absolute 2018 2024	раньше
+A14	Past T65
+T66	Date-absolute 1962 1971	нынешнего
+A15	Present T66
+T67	Event 68 73	матче
+T68	Event 569 573	матч
+T69	Event 535 540	игрой
+T70	Event 743 757	первом   тайме
+T71	Event 829 844	второго   тайма
+T72	Event 1583 1589	матчах
+A16	Past T42
+T73	Duration 1861 1867	минуте

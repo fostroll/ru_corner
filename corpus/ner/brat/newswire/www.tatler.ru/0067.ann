@@ -1,0 +1,67 @@
+T1	Ordinal 0 6	Второй
+T2	Person 23 38	Кейт   Миддлтон
+T3	Person 45 61	принца   Уильяма
+T4	Person-property 45 51	принца
+T5	GPE 68 87	Северную   Ирландию
+T6	Organization 234 255	Empire   Music   Hall
+T7	GPE 262 270	Белфасте
+T8	Person 283 297	принц   Уильям
+T9	Person-property 283 288	принц
+T10	Person 304 319	Кейт   Миддлтон
+T11	Time-absolute 422 427	Утром
+T12	Facility 452 510	местной   королевской   резиденции   -   замке   Хиллсборо
+T13	Person 517 592	главного   констебля   полиции   Северной   Ирландии   Джорджа   Гамильтона
+T14	Person-property 517 569	главного   констебля   полиции   Северной   Ирландии
+T15	Organization 540 569	полиции   Северной   Ирландии
+T16	GPE 550 569	Северной   Ирландии
+T17	Person-property 723 760	герцог   и   герцогиня   Кембриджские
+A1	Plural T17
+T18	GPE 781 798	город   Баллимина
+T19	Facility 835 865	музея   и   арт-центра   Braid
+T20	Organization 973 1011	благотворительного   фонда   Cinemagic
+T21	Person 1213 1219	Уильям
+T22	Person 1226 1232	Кэтрин
+T23	Organization 1258 1311	организации   St   Joseph   's   SureStart   Facility
+A2	Female T2
+A3	Male T3
+T24	Person-forename 23 27	Кейт
+T25	Person-surname 30 38	Миддлтон
+T26	Person-forename 54 61	Уильяма
+A4	Male T8
+T27	Person-forename 291 297	Уильям
+A5	Female T10
+T28	Person-forename 304 308	Кейт
+T29	Person-surname 311 319	Миддлтон
+A6	Male T13
+T30	Person-forename 572 579	Джорджа
+T31	Person-surname 582 592	Гамильтона
+A7	Male T21
+T32	Person-forename 1213 1219	Уильям
+T33	Person-forename 1226 1232	Кэтрин
+A8	Female T22
+T34	Date-absolute 176 227	на   следующий   день   после   веселой   вечеринки
+A9	Past T34
+T35	Date-relative 422 427	Утром
+A10	Past T35
+T36	Person-property 723 729	герцог
+T37	Person-property 736 745	герцогиня
+T38	GPE 748 760	Кембриджские
+A11	Adjective T38
+T39	Ordinal 914 923	Следующим
+T40	Age 1186 1194	молодежи
+T41	Family 1341 1350	родителям
+T42	Ordinal 181 190	следующий
+T43	Event 16 20	тура
+T44	Duration 9 13	день
+T45	Date-absolute 0 20	Второй   день   тура
+T46	Event 218 227	вечеринки
+T47	Duration 193 197	день
+T48	Nationality 889 908	местными   жителями
+A13	Resident T48
+T49	Family 1370 1376	детьми
+T50	Person-property 605 611	коллег
+T51	Person 599 611	его   коллег
+T52	GPE 452 459	местной
+A12	Adjective T52
+T53	GPE 889 897	местными
+A14	Adjective T53

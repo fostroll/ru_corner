@@ -38,7 +38,7 @@
 # par_text = Встреча завершилась со счетом 3:1 в пользу клуба из Рима.
 # sent_id = 0099-p3-s1
 # text = Встреча завершилась со счетом 3:1 в пользу клуба из Рима.
-1	Встреча	_	_	_	_	_	_	_	_
+1	Встреча	_	_	_	_	_	_	_	bratT79=Event
 2	завершилась	_	_	_	_	_	_	_	_
 3	со	_	_	_	_	_	_	_	_
 4	счетом	_	_	_	_	_	_	_	_
@@ -56,7 +56,7 @@
 # text = Счет в матче открыл итальянский клуб уже на 3-й минуте игры, отличился Чиро Иммобиле.
 1	Счет	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
-3	матче	_	_	_	_	_	_	_	_
+3	матче	_	_	_	_	_	_	_	bratT78=Event
 4	открыл	_	_	_	_	_	_	_	_
 5	итальянский	_	_	_	_	_	_	_	bratA18=T72:Adjective|bratT72=GPE
 6	клуб	_	_	_	_	_	_	_	_
@@ -115,13 +115,16 @@
 # sent_id = 0099-p6-s1
 # text = «Газета.Ru» провела текстовую онлайн-трансляцию поединка.
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T15:Media|bratT15=Organization
-2	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Media|bratT15=Organization
-3	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T15:Media|bratT15=Organization
-4	провела	_	_	_	_	_	_	_	_
-5	текстовую	_	_	_	_	_	_	_	_
-6	онлайн-трансляцию	_	_	_	_	_	_	_	_
-7	поединка	_	_	_	_	_	_	_	SpaceAfter=No
-8	.	_	_	_	_	_	_	_	_
+2-4	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No
+2	Газета	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Media|bratT15=Organization
+3	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Media|bratT15=Organization
+4	Ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T15:Media|bratT15=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T15:Media|bratT15=Organization
+6	провела	_	_	_	_	_	_	_	_
+7	текстовую	_	_	_	_	_	_	_	bratA20=T81:Media|bratT81=Service
+8	онлайн-трансляцию	_	_	_	_	_	_	_	bratA20=T81:Media|bratT81=Service
+9	поединка	_	_	_	_	_	_	_	SpaceAfter=No|bratT80=Event
+10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p7
 # par_text = После четвертого тура «Лацио» идет на второй строчке в группе, имея 8 очков. «Зенит» расположился на последней, набрав всего один балл.

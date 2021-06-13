@@ -1,0 +1,172 @@
+# newdoc id = 0080
+# newpar id = 0080-p1
+# par_text = Королевский эксперт: «Елизавета II передаст трон сыну в следующем году»
+# sent_id = 0080-p1-s1
+# text = Королевский эксперт: ``Елизавета II передаст трон сыну в следующем году''
+1	Королевский	_	_	_	_	_	_	_	bratT1=Person-property
+2	эксперт	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+3	:	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No
+5	Елизавета	_	_	_	_	_	_	_	bratA1=T4:Female|bratT2=Person-forename|bratT4=Person
+6	II	_	_	_	_	_	_	_	bratA1=T4:Female|bratT3=Person-affix|bratT4=Person|bratT49=Ordinal
+7	передаст	_	_	_	_	_	_	_	_
+8	трон	_	_	_	_	_	_	_	bratT51=Person-property
+9	сыну	_	_	_	_	_	_	_	bratT5=Family
+10	в	_	_	_	_	_	_	_	bratA2=T6:Future|bratT6=Date-absolute
+11	следующем	_	_	_	_	_	_	_	bratA2=T6:Future|bratT46=Ordinal|bratT6=Date-absolute
+12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Future|bratT6=Date-absolute
+13	''	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p2
+# par_text = 30 октября британские репортеры, много лет описывающие жизнь королевской семьи, стали гостями программы The Royal Beat на телеканале True Royalty TV. Во время передачи они поделились со зрителями неизвестными фактами о монаршем семействе.
+# sent_id = 0080-p2-s1
+# text = 30 октября британские репортеры, много лет описывающие жизнь королевской семьи, стали гостями программы The Royal Beat на телеканале True Royalty TV.
+1	30	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+2	октября	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
+3	британские	_	_	_	_	_	_	_	bratA4=T8:Adjective|bratT8=GPE|bratT9=Person-property
+4	репортеры	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person-property
+5	,	_	_	_	_	_	_	_	_
+6	много	_	_	_	_	_	_	_	bratA5=T10:RCont|bratA6=T10:Past-Pres|bratT10=Date-period-absolute|bratT45=Duration
+7	лет	_	_	_	_	_	_	_	bratA5=T10:RCont|bratA6=T10:Past-Pres|bratT10=Date-period-absolute|bratT45=Duration
+8	описывающие	_	_	_	_	_	_	_	_
+9	жизнь	_	_	_	_	_	_	_	_
+10	королевской	_	_	_	_	_	_	_	bratT39=Organization
+11	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Family|bratT39=Organization
+12	,	_	_	_	_	_	_	_	_
+13	стали	_	_	_	_	_	_	_	_
+14	гостями	_	_	_	_	_	_	_	_
+15	программы	_	_	_	_	_	_	_	bratT12=Work-of-art
+16	The	_	_	_	_	_	_	_	bratT12=Work-of-art
+17	Royal	_	_	_	_	_	_	_	bratT12=Work-of-art
+18	Beat	_	_	_	_	_	_	_	bratT12=Work-of-art
+19	на	_	_	_	_	_	_	_	_
+20	телеканале	_	_	_	_	_	_	_	bratA7=T13:Media|bratT13=Organization
+21	True	_	_	_	_	_	_	_	bratA7=T13:Media|bratT13=Organization
+22	Royalty	_	_	_	_	_	_	_	bratA7=T13:Media|bratT13=Organization
+23	TV	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T13:Media|bratT13=Organization
+24	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p2-s2
+# text = Во время передачи они поделились со зрителями неизвестными фактами о монаршем семействе.
+1	Во	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
+2	время	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
+3	передачи	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
+4	они	_	_	_	_	_	_	_	_
+5	поделились	_	_	_	_	_	_	_	_
+6	со	_	_	_	_	_	_	_	_
+7	зрителями	_	_	_	_	_	_	_	bratT15=Other-group
+8	неизвестными	_	_	_	_	_	_	_	_
+9	фактами	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	монаршем	_	_	_	_	_	_	_	bratT16=Organization
+12	семействе	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT48=Family
+13	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p3
+# par_text = Например, королевский комментатор Роберт Джобсон твердо уверен, что Елизавета II покинет трон и уступит его сыну — 71-летнему принцу Чарльзу, — как только ей исполнится 95 лет. Напомним, день рождения королевы состоится 21 апреля 2021 года.
+# sent_id = 0080-p3-s1
+# text = Например, королевский комментатор Роберт Джобсон твердо уверен, что Елизавета II покинет трон и уступит его сыну - 71-летнему принцу Чарльзу, - как только ей исполнится 95 лет.
+1	Например	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	королевский	_	_	_	_	_	_	_	bratA9=T20:Male|bratT19=Person-property|bratT20=Person
+4	комментатор	_	_	_	_	_	_	_	bratA9=T20:Male|bratT19=Person-property|bratT20=Person
+5	Роберт	_	_	_	_	_	_	_	bratA9=T20:Male|bratT17=Person-forename|bratT20=Person
+6	Джобсон	_	_	_	_	_	_	_	bratA9=T20:Male|bratT18=Person-surname|bratT20=Person
+7	твердо	_	_	_	_	_	_	_	_
+8	уверен	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	_	_	_	_	_	_	_	_
+10	что	_	_	_	_	_	_	_	_
+11	Елизавета	_	_	_	_	_	_	_	bratA10=T23:Female|bratT21=Person-forename|bratT23=Person
+12	II	_	_	_	_	_	_	_	bratA10=T23:Female|bratT22=Person-affix|bratT23=Person|bratT50=Ordinal
+13	покинет	_	_	_	_	_	_	_	_
+14	трон	_	_	_	_	_	_	_	bratT52=Person-property
+15	и	_	_	_	_	_	_	_	_
+16	уступит	_	_	_	_	_	_	_	_
+17	его	_	_	_	_	_	_	_	_
+18	сыну	_	_	_	_	_	_	_	bratT24=Family
+19	-	_	_	_	_	_	_	_	_
+20	71-летнему	_	_	_	_	_	_	_	bratT25=Age
+21	принцу	_	_	_	_	_	_	_	bratA11=T28:Male|bratT26=Person-property|bratT28=Person
+22	Чарльзу	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Male|bratT27=Person-forename|bratT28=Person
+23	,	_	_	_	_	_	_	_	_
+24	-	_	_	_	_	_	_	_	_
+25	как	_	_	_	_	_	_	_	bratA12=T30:Future|bratT30=Date-absolute
+26	только	_	_	_	_	_	_	_	bratA12=T30:Future|bratT30=Date-absolute
+27	ей	_	_	_	_	_	_	_	bratA12=T30:Future|bratT30=Date-absolute
+28	исполнится	_	_	_	_	_	_	_	bratA12=T30:Future|bratT30=Date-absolute
+29	95	_	_	_	_	_	_	_	bratA12=T30:Future|bratT29=Age|bratT30=Date-absolute
+30	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T30:Future|bratT29=Age|bratT30=Date-absolute
+31	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p3-s2
+# text = Напомним, день рождения королевы состоится 21 апреля 2021 года.
+1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	_	_	_	_	_	_	_	_
+3	день	_	_	_	_	_	_	_	bratT33=Event
+4	рождения	_	_	_	_	_	_	_	bratT33=Event
+5	королевы	_	_	_	_	_	_	_	bratT31=Person-property|bratT33=Event
+6	состоится	_	_	_	_	_	_	_	_
+7	21	_	_	_	_	_	_	_	bratA13=T32:Future|bratT32=Date-absolute
+8	апреля	_	_	_	_	_	_	_	bratA13=T32:Future|bratT32=Date-absolute
+9	2021	_	_	_	_	_	_	_	bratA13=T32:Future|bratT32=Date-absolute
+10	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T32:Future|bratT32=Date-absolute
+11	.	_	_	_	_	_	_	_	_
+
+# newpar id = 0080-p4
+# par_text = «Я думаю, она не очень этого хочет, но реальность такова, что постепенно все дела переходят к Чарльзу. Как можно после этого посмотреть сыну в глаза и сказать, что он не будет королем?» — дополнил слова коллеги репортер издания Newsweek Джек Ройстон.
+# sent_id = 0080-p4-s1
+# text = «Я думаю, она не очень этого хочет, но реальность такова, что постепенно все дела переходят к Чарльзу.
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+2	Я	_	_	_	_	_	_	_	_
+3	думаю	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	_	_	_	_	_	_	_	_
+5	она	_	_	_	_	_	_	_	_
+6	не	_	_	_	_	_	_	_	_
+7	очень	_	_	_	_	_	_	_	_
+8	этого	_	_	_	_	_	_	_	_
+9	хочет	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	_	_	_	_	_	_	_	_
+11	но	_	_	_	_	_	_	_	_
+12	реальность	_	_	_	_	_	_	_	_
+13	такова	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	что	_	_	_	_	_	_	_	_
+16	постепенно	_	_	_	_	_	_	_	_
+17	все	_	_	_	_	_	_	_	_
+18	дела	_	_	_	_	_	_	_	_
+19	переходят	_	_	_	_	_	_	_	_
+20	к	_	_	_	_	_	_	_	_
+21	Чарльзу	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T35:Male|bratT34=Person-forename|bratT35=Person
+22	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0080-p4-s2
+# text = Как можно после этого посмотреть сыну в глаза и сказать, что он не будет королем?» - дополнил слова коллеги репортер издания Newsweek Джек Ройстон.
+1	Как	_	_	_	_	_	_	_	_
+2	можно	_	_	_	_	_	_	_	_
+3	после	_	_	_	_	_	_	_	bratT38=Time-relative
+4	этого	_	_	_	_	_	_	_	bratT38=Time-relative
+5	посмотреть	_	_	_	_	_	_	_	_
+6	сыну	_	_	_	_	_	_	_	bratT36=Family
+7	в	_	_	_	_	_	_	_	_
+8	глаза	_	_	_	_	_	_	_	_
+9	и	_	_	_	_	_	_	_	_
+10	сказать	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	_	_	_	_	_	_	_	_
+12	что	_	_	_	_	_	_	_	_
+13	он	_	_	_	_	_	_	_	_
+14	не	_	_	_	_	_	_	_	_
+15	будет	_	_	_	_	_	_	_	_
+16	королем	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person-property
+17	?	_	_	_	_	_	_	_	SpaceAfter=No
+18	''	_	_	_	_	_	_	_	QuotationEnd=»
+19	-	_	_	_	_	_	_	_	_
+20	дополнил	_	_	_	_	_	_	_	_
+21	слова	_	_	_	_	_	_	_	_
+22	коллеги	_	_	_	_	_	_	_	bratT47=Person-property
+23	репортер	_	_	_	_	_	_	_	bratA18=T44:Male|bratT43=Person-property|bratT44=Person
+24	издания	_	_	_	_	_	_	_	bratA17=T40:Media|bratA18=T44:Male|bratT40=Organization|bratT43=Person-property|bratT44=Person
+25	Newsweek	_	_	_	_	_	_	_	bratA17=T40:Media|bratA18=T44:Male|bratT40=Organization|bratT43=Person-property|bratT44=Person
+26	Джек	_	_	_	_	_	_	_	bratA18=T44:Male|bratT41=Person-forename|bratT44=Person
+27	Ройстон	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T44:Male|bratT42=Person-surname|bratT44=Person
+28	.	_	_	_	_	_	_	_	_
+

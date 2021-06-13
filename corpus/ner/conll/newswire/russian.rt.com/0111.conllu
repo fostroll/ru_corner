@@ -46,7 +46,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщили	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	районном	_	_	_	_	_	_	_	bratT21=Organization
+5	районном	_	_	_	_	_	_	_	bratT21=Organization|bratT41=GPE
 6	суде	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
 7	.	_	_	_	_	_	_	_	_
 
@@ -56,7 +56,7 @@
 # text = ``Камешковский районный суд Владимирской области удовлетворил постановление... об избрании меры пресечения в виде заключения под стражу в отношении 26-летнего жителя Камешковского района Владимирской области К., подозреваемого в совершении преступлений, предусмотренных п. ``д'' ч. 2 ст. 126 (похищение несовершеннолетнего. - RT), п. ``б'' ч. 4 ст. 132 УК России (насильственные действия сексуального характера в отношении лица, не достигшего 14-летнего возраста. - RT)'', - следует из пресс-релиза.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Камешковский	_	_	_	_	_	_	_	bratA4=T30:Adjective|bratT3=Organization|bratT30=GPE
-3	районный	_	_	_	_	_	_	_	bratT3=Organization
+3	районный	_	_	_	_	_	_	_	bratA4=T30:Adjective|bratT3=Organization|bratT30=GPE
 4	суд	_	_	_	_	_	_	_	bratT3=Organization
 5	Владимирской	_	_	_	_	_	_	_	bratT2=GPE|bratT3=Organization
 6	области	_	_	_	_	_	_	_	bratT2=GPE|bratT3=Organization
@@ -75,11 +75,11 @@
 19	в	_	_	_	_	_	_	_	_
 20	отношении	_	_	_	_	_	_	_	_
 21	26-летнего	_	_	_	_	_	_	_	bratT4=Age
-22	жителя	_	_	_	_	_	_	_	bratT22=Person
-23	Камешковского	_	_	_	_	_	_	_	bratT22=Person|bratT5=GPE
-24	района	_	_	_	_	_	_	_	bratT22=Person|bratT5=GPE
-25	Владимирской	_	_	_	_	_	_	_	bratT22=Person|bratT23=GPE|bratT5=GPE
-26	области	_	_	_	_	_	_	_	bratT22=Person|bratT23=GPE|bratT5=GPE
+22	жителя	_	_	_	_	_	_	_	bratA7=T40:Resident|bratT22=Person|bratT40=Nationality
+23	Камешковского	_	_	_	_	_	_	_	bratA7=T40:Resident|bratT22=Person|bratT40=Nationality|bratT5=GPE
+24	района	_	_	_	_	_	_	_	bratA7=T40:Resident|bratT22=Person|bratT40=Nationality|bratT5=GPE
+25	Владимирской	_	_	_	_	_	_	_	bratA7=T40:Resident|bratT22=Person|bratT23=GPE|bratT40=Nationality|bratT5=GPE
+26	области	_	_	_	_	_	_	_	bratA7=T40:Resident|bratT22=Person|bratT23=GPE|bratT40=Nationality|bratT5=GPE
 27	К.	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person
 28	,	_	_	_	_	_	_	_	_
 29	подозреваемого	_	_	_	_	_	_	_	_
@@ -191,7 +191,7 @@
 13	20	_	_	_	_	_	_	_	bratT16=Quantity
 14	км	_	_	_	_	_	_	_	bratT16=Quantity
 15	от	_	_	_	_	_	_	_	bratT16=Quantity
-16	деревни	_	_	_	_	_	_	_	SpaceAfter=No
+16	деревни	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=GPE
 17	,	_	_	_	_	_	_	_	_
 18	где	_	_	_	_	_	_	_	_
 19	жил	_	_	_	_	_	_	_	_

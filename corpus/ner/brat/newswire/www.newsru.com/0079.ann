@@ -1,0 +1,80 @@
+T1	Person-property 0 21	Бразильский   министр
+T2	Person-property 68 84	игрока   сборной
+T3	Person 99 180	Министр   по   делам   женщин   ,   семьи   и   прав   человека   Дамарес   Алвес
+T4	Person-property 99 162	Министр   по   делам   женщин   ,   семьи   и   прав   человека
+T5	Person 221 375	бывшего   нападающего   ``   Сантоса   ''   ,   ``   Реала   ''   ,   ``   Милана   ''   ,   ``   Манчестер   Сити   ''   и   сборной   Бразилии   Робиньо
+T6	Person-property 221 365	бывшего   нападающего   ``   Сантоса   ''   ,   ``   Реала   ''   ,   ``   Милана   ''   ,   ``   Манчестер   Сити   ''   и   сборной   Бразилии
+A1	Plural T6
+T7	Organization 245 262	``   Сантоса   ''
+T8	Organization 269 284	``   Реала   ''
+T9	Organization 291 307	``   Милана   ''
+T10	Organization 314 340	``   Манчестер   Сити   ''
+T11	Organization 347 365	сборной   Бразилии
+T12	GPE 357 365	Бразилии
+T13	Other-group 580 590	насильнику
+T14	Person-property 750 759	чиновницы
+T15	Organization 762 767	Globo
+A2	Media T15
+T16	Date-absolute 773 797	В   ноябре   2017   года
+T17	Person 800 807	Робиньо
+T18	Date-period-relative 829 847	к   девяти   годам
+T19	GPE 920 926	Милане
+T20	Date-absolute 929 954	22   января   2013   года
+T21	Organization 959 974	Миланский   суд
+T22	Age 987 997	33-летнего
+T23	Person-property 1000 1010	футболиста
+T24	Quantity 1017 1040	еще   пятерых   человек
+T25	Age 1087 1096	22-летней
+T26	Person 1123 1130	Робиньо
+T27	Date-absolute 1204 1219	В   2009   году
+T28	Person-property 1222 1231	футболист
+T29	Organization 1277 1316	английский   ``   Манчестер   Сити   ''
+T30	Date-absolute 1395 1406	В   октябре
+T31	Age 1409 1418	36-летний
+T32	Person 1421 1428	Робиньо
+T33	Organization 1465 1483	``   Сантосом   ''
+T34	Date-relative 1532 1553	спустя   шесть   дней
+T35	Person-property 1609 1618	футболист
+T36	Quantity 1695 1707	100   матчей
+T37	Organization 1715 1733	сборную   Бразилии
+T38	Quantity 1762 1772	29   мячей
+T39	Person-property 1673 1683	Нападающий
+T40	Family 135 140	семьи
+T41	Date-relative 1252 1269	на   тот   момент
+T42	Quantity 566 590	Ни   одному   насильнику
+T43	GPE 0 11	Бразильский
+A3	Adjective T43
+T44	Person-forename 165 172	Дамарес
+T45	Person-surname 175 180	Алвес
+A4	Female T3
+T46	GPE 296 302	Милана
+T47	GPE 319 335	Манчестер   Сити
+T48	Person-alias 368 375	Робиньо
+A5	Male T5
+T49	GPE 250 257	Сантоса
+A6	Past T16
+T50	Duration 833 847	девяти   годам
+A7	Past T20
+A9	Male T26
+T51	Person-alias 1123 1130	Робиньо
+T52	Nationality 1099 1108	албанской
+A10	Adjective T52
+A11	Past T41
+A12	Past T27
+A13	Past T30
+T53	GPE 1277 1287	английский
+A14	Adjective T53
+T54	GPE 1295 1311	Манчестер   Сити
+A15	Male T32
+T55	Person-alias 1421 1428	Робиньо
+T56	GPE 1470 1478	Сантосом
+A16	Past T34
+A17	Male T17
+T57	Person-alias 800 807	Робиньо
+T58	GPE 959 968	Миланский
+A18	Adjective T58
+A8	Past-UNK T18
+T59	Duration 1541 1553	шесть   дней
+T60	Ordinal 1257 1260	тот
+T61	GPE 1725 1733	Бразилии
+T62	Organization 77 84	сборной
