@@ -12,7 +12,7 @@
 7	поддержку	_	_	_	_	_	_	_	_
 8	обвиняемых	_	_	_	_	_	_	_	bratT3=Other-group
 9	по	_	_	_	_	_	_	_	_
-10	делу	_	_	_	_	_	_	_	_
+10	делу	_	_	_	_	_	_	_	bratT88=Event
 11	о	_	_	_	_	_	_	_	_
 12	манекене	_	_	_	_	_	_	_	_
 13	Путина	_	_	_	_	_	_	_	bratA1=T4:Male|bratT4=Person|bratT6=Person-surname
@@ -30,17 +30,17 @@
 7	одиночных	_	_	_	_	_	_	_	_
 8	пикетов	_	_	_	_	_	_	_	_
 9	у	_	_	_	_	_	_	_	_
-10	здания	_	_	_	_	_	_	_	_
-11	Ленинского	_	_	_	_	_	_	_	bratA2=T10:Adjective|bratT10=GPE|bratT9=Organization
-12	районного	_	_	_	_	_	_	_	bratA2=T10:Adjective|bratT10=GPE|bratT9=Organization
-13	суда	_	_	_	_	_	_	_	bratT9=Organization
-14	Перми	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE|bratT9=Organization
+10	здания	_	_	_	_	_	_	_	bratT87=Facility
+11	Ленинского	_	_	_	_	_	_	_	bratA2=T10:Adjective|bratT10=GPE|bratT87=Facility|bratT9=Organization
+12	районного	_	_	_	_	_	_	_	bratA2=T10:Adjective|bratT10=GPE|bratT87=Facility|bratT9=Organization
+13	суда	_	_	_	_	_	_	_	bratT87=Facility|bratT9=Organization
+14	Перми	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE|bratT87=Facility|bratT9=Organization
 15	,	_	_	_	_	_	_	_	_
 16	где	_	_	_	_	_	_	_	_
 17	рассматривается	_	_	_	_	_	_	_	_
-18	дело	_	_	_	_	_	_	_	_
+18	дело	_	_	_	_	_	_	_	bratT89=Event
 19	об	_	_	_	_	_	_	_	_
-20	акции	_	_	_	_	_	_	_	_
+20	акции	_	_	_	_	_	_	_	bratT90=Event
 21	с	_	_	_	_	_	_	_	_
 22	манекеном	_	_	_	_	_	_	_	_
 23	президента	_	_	_	_	_	_	_	bratT13=Person-property
@@ -183,9 +183,9 @@
 2	комитет	_	_	_	_	_	_	_	bratT53=Organization
 3	возбудил	_	_	_	_	_	_	_	_
 4	уголовное	_	_	_	_	_	_	_	_
-5	дело	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	bratT91=Event
 6	о	_	_	_	_	_	_	_	_
-7	хулиганстве	_	_	_	_	_	_	_	_
+7	хулиганстве	_	_	_	_	_	_	_	bratT92=Event
 8	(	_	_	_	_	_	_	_	SpaceAfter=No
 9	часть	_	_	_	_	_	_	_	bratT54=Law
 10	2	_	_	_	_	_	_	_	bratT54=Law|bratT76=Ordinal
@@ -219,7 +219,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	итоге	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	акции	_	_	_	_	_	_	_	_
+4	акции	_	_	_	_	_	_	_	bratT94=Event
 5	усмотрели	_	_	_	_	_	_	_	_
 6	мотив	_	_	_	_	_	_	_	_
 7	политической	_	_	_	_	_	_	_	_
@@ -236,7 +236,7 @@
 # text = Обвиняемыми по делу проходят Александр Шабарчин, Данила Васильев и Александр Эткин.
 1	Обвиняемыми	_	_	_	_	_	_	_	bratT60=Other-group
 2	по	_	_	_	_	_	_	_	_
-3	делу	_	_	_	_	_	_	_	_
+3	делу	_	_	_	_	_	_	_	bratT93=Event
 4	проходят	_	_	_	_	_	_	_	_
 5	Александр	_	_	_	_	_	_	_	bratA14=T62:Male|bratT62=Person|bratT63=Person-forename
 6	Шабарчин	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T62:Male|bratT62=Person|bratT64=Person-surname

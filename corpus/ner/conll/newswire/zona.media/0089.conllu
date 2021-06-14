@@ -7,7 +7,7 @@
 2	Томска	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
 3	арестовали	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
-5	делу	_	_	_	_	_	_	_	_
+5	делу	_	_	_	_	_	_	_	bratT44=Event
 6	о	_	_	_	_	_	_	_	_
 7	превышении	_	_	_	_	_	_	_	_
 8	должностных	_	_	_	_	_	_	_	_
@@ -71,11 +71,11 @@
 13	многоэтажный	_	_	_	_	_	_	_	_
 14	дом	_	_	_	_	_	_	_	_
 15	у	_	_	_	_	_	_	_	_
-16	завода	_	_	_	_	_	_	_	bratT17=Organization
-17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
-18	Томское	_	_	_	_	_	_	_	bratA5=T18:Adjective|bratT17=Organization|bratT18=GPE
-19	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
-20	''	_	_	_	_	_	_	_	bratT17=Organization
+16	завода	_	_	_	_	_	_	_	bratT17=Facility
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
+18	Томское	_	_	_	_	_	_	_	bratA5=T18:Adjective|bratT17=Facility|bratT18=GPE
+19	пиво	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
+20	''	_	_	_	_	_	_	_	bratT17=Facility
 21	и	_	_	_	_	_	_	_	_
 22	поручил	_	_	_	_	_	_	_	_
 23	определить	_	_	_	_	_	_	_	_
@@ -119,8 +119,8 @@
 9	жителей	_	_	_	_	_	_	_	bratA7=T20:Resident|bratT20=Nationality|bratT35=Quantity
 10	пришли	_	_	_	_	_	_	_	_
 11	к	_	_	_	_	_	_	_	_
-12	зданию	_	_	_	_	_	_	_	_
-13	суда	_	_	_	_	_	_	_	_
+12	зданию	_	_	_	_	_	_	_	bratT42=Facility
+13	суда	_	_	_	_	_	_	_	bratT42=Facility|bratT43=Organization
 14	с	_	_	_	_	_	_	_	_
 15	требованием	_	_	_	_	_	_	_	_
 16	дать	_	_	_	_	_	_	_	_

@@ -107,8 +107,8 @@
 7	,	_	_	_	_	_	_	_	_
 8	-	_	_	_	_	_	_	_	_
 9	рассказал	_	_	_	_	_	_	_	_
-10	собеседник	_	_	_	_	_	_	_	_
-11	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Media|bratT12=Organization
+10	собеседник	_	_	_	_	_	_	_	bratA31=T78:Male|bratT78=Person
+11	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T12:Media|bratA31=T78:Male|bratT12=Organization|bratT78=Person
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p4
@@ -133,18 +133,18 @@
 16	ноября	_	_	_	_	_	_	_	bratA15=T15:Past|bratT15=Date-absolute
 17	Виктор	_	_	_	_	_	_	_	bratA16=T16:Male|bratT16=Person|bratT50=Person-forename
 18	Непомнящий	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T16:Male|bratT16=Person|bratT51=Person-surname
-19	,	_	_	_	_	_	_	_	_
-20	директор	_	_	_	_	_	_	_	bratT17=Person-property
-21	заповедника	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=Organization
-22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT18=Organization
-23	Хакасский	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T52:Adjective|bratT17=Person-property|bratT18=Organization|bratT52=GPE
-24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT18=Organization
+19	,	_	_	_	_	_	_	_	bratA16=T16:Male|bratT16=Person
+20	директор	_	_	_	_	_	_	_	bratA16=T16:Male|bratT16=Person|bratT17=Person-property
+21	заповедника	_	_	_	_	_	_	_	bratA16=T16:Male|bratT16=Person|bratT17=Person-property|bratT18=Organization
+22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T16:Male|bratT16=Person|bratT17=Person-property|bratT18=Organization
+23	Хакасский	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T16:Male|bratA17=T52:Adjective|bratT16=Person|bratT17=Person-property|bratT18=Organization|bratT52=GPE
+24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T16:Male|bratT16=Person|bratT17=Person-property|bratT18=Organization
 25	,	_	_	_	_	_	_	_	_
 26	которому	_	_	_	_	_	_	_	_
 27	подведомственны	_	_	_	_	_	_	_	_
 28	окрестности	_	_	_	_	_	_	_	_
-29	лыковской	_	_	_	_	_	_	_	_
-30	заимки	_	_	_	_	_	_	_	SpaceAfter=No
+29	лыковской	_	_	_	_	_	_	_	bratT79=Facility
+30	заимки	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Facility
 31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p5
@@ -190,10 +190,10 @@
 # par_text = Представитель Дерипаски получение миллиардером письма подтвердил.
 # sent_id = 0124-p6-s1
 # text = Представитель Дерипаски получение миллиардером письма подтвердил.
-1	Представитель	_	_	_	_	_	_	_	_
-2	Дерипаски	_	_	_	_	_	_	_	bratA21=T24:Male|bratT24=Person|bratT61=Person-surname
+1	Представитель	_	_	_	_	_	_	_	bratA32=T81:Male|bratT81=Person
+2	Дерипаски	_	_	_	_	_	_	_	bratA21=T24:Male|bratA32=T81:Male|bratT24=Person|bratT61=Person-surname|bratT81=Person
 3	получение	_	_	_	_	_	_	_	_
-4	миллиардером	_	_	_	_	_	_	_	bratT25=Other-group
+4	миллиардером	_	_	_	_	_	_	_	bratT25=Other-group|bratT80=Person
 5	письма	_	_	_	_	_	_	_	_
 6	подтвердил	_	_	_	_	_	_	_	SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_
@@ -214,8 +214,8 @@
 10	на	_	_	_	_	_	_	_	_
 11	вертолете	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
-13	заимку	_	_	_	_	_	_	_	_
-14	Лыковой	_	_	_	_	_	_	_	bratA23=T28:Female|bratT28=Person|bratT63=Person-surname
+13	заимку	_	_	_	_	_	_	_	bratT77=Facility
+14	Лыковой	_	_	_	_	_	_	_	bratA23=T28:Female|bratT28=Person|bratT63=Person-surname|bratT77=Facility
 15	необходимые	_	_	_	_	_	_	_	_
 16	продукты	_	_	_	_	_	_	_	_
 17	и	_	_	_	_	_	_	_	_
@@ -224,18 +224,18 @@
 20	,	_	_	_	_	_	_	_	_
 21	а	_	_	_	_	_	_	_	_
 22	также	_	_	_	_	_	_	_	_
-23	соседа	_	_	_	_	_	_	_	SpaceAfter=No
+23	соседа	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T82:Male|bratT82=Person
 24	,	_	_	_	_	_	_	_	_
 25	который	_	_	_	_	_	_	_	_
 26	поможет	_	_	_	_	_	_	_	_
-27	отшельнице	_	_	_	_	_	_	_	bratT29=Other-group
+27	отшельнице	_	_	_	_	_	_	_	bratA34=T83:Male|bratT29=Other-group|bratT83=Person
 28	зимой	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T73:Fut|bratT73=Date-period-absolute
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p7-s2
 # text = Пресс-служба заповедника сообщила, что им стал Николай Седов, сын Ерофея Седова, который когда-то был в составе геологической экспедиции, обнаружившей в тайге семью Лыковых, а затем и сам жил на заимке.
 1	Пресс-служба	_	_	_	_	_	_	_	bratA5=T30:Department|bratT30=Organization
-2	заповедника	_	_	_	_	_	_	_	bratA5=T30:Department|bratT30=Organization
+2	заповедника	_	_	_	_	_	_	_	bratA5=T30:Department|bratT30=Organization|bratT74=Organization
 3	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -258,8 +258,8 @@
 22	,	_	_	_	_	_	_	_	_
 23	обнаружившей	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
-25	тайге	_	_	_	_	_	_	_	_
-26	семью	_	_	_	_	_	_	_	bratT35=Family
+25	тайге	_	_	_	_	_	_	_	bratT75=Location
+26	семью	_	_	_	_	_	_	_	bratT34=Person|bratT35=Family
 27	Лыковых	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person|bratT69=Person-surname
 28	,	_	_	_	_	_	_	_	_
 29	а	_	_	_	_	_	_	_	_
@@ -268,7 +268,7 @@
 32	сам	_	_	_	_	_	_	_	_
 33	жил	_	_	_	_	_	_	_	_
 34	на	_	_	_	_	_	_	_	_
-35	заимке	_	_	_	_	_	_	_	SpaceAfter=No
+35	заимке	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Facility
 36	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p7-s3

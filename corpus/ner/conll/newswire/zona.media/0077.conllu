@@ -5,10 +5,10 @@
 # text = Обвиняемым по делу о подготовке теракта на концерте Филиппа Киркорова в Махачкале назначили сроки до 19 лет колонии
 1	Обвиняемым	_	_	_	_	_	_	_	_
 2	по	_	_	_	_	_	_	_	_
-3	делу	_	_	_	_	_	_	_	_
+3	делу	_	_	_	_	_	_	_	bratT76=Event
 4	о	_	_	_	_	_	_	_	_
-5	подготовке	_	_	_	_	_	_	_	_
-6	теракта	_	_	_	_	_	_	_	_
+5	подготовке	_	_	_	_	_	_	_	bratT80=Event
+6	теракта	_	_	_	_	_	_	_	bratT77=Event|bratT80=Event
 7	на	_	_	_	_	_	_	_	_
 8	концерте	_	_	_	_	_	_	_	bratT1=Event
 9	Филиппа	_	_	_	_	_	_	_	bratA1=T2:Male|bratT1=Event|bratT2=Person|bratT3=Person-forename
@@ -44,10 +44,10 @@
 16	четверых	_	_	_	_	_	_	_	bratT11=Quantity
 17	обвиняемых	_	_	_	_	_	_	_	bratT11=Quantity|bratT12=Person-property
 18	по	_	_	_	_	_	_	_	_
-19	делу	_	_	_	_	_	_	_	_
+19	делу	_	_	_	_	_	_	_	bratT78=Event
 20	о	_	_	_	_	_	_	_	_
-21	подготовке	_	_	_	_	_	_	_	_
-22	теракта	_	_	_	_	_	_	_	_
+21	подготовке	_	_	_	_	_	_	_	bratT81=Event
+22	теракта	_	_	_	_	_	_	_	bratT79=Event|bratT81=Event
 23	на	_	_	_	_	_	_	_	_
 24	концерте	_	_	_	_	_	_	_	bratT13=Event
 25	певца	_	_	_	_	_	_	_	bratA3=T15:Male|bratT14=Person-property|bratT15=Person
@@ -66,8 +66,8 @@
 5	со	_	_	_	_	_	_	_	_
 6	ссылкой	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	пресс-службу	_	_	_	_	_	_	_	_
-9	суда	_	_	_	_	_	_	_	SpaceAfter=No
+8	пресс-службу	_	_	_	_	_	_	_	bratA25=T73:Department|bratT73=Organization
+9	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T73:Department|bratT73=Organization|bratT74=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0077-p3
@@ -199,14 +199,14 @@
 # text = По словам источника РБК, в день концерта глава ячейки отправил двух боевиков Самира Ибрагимова и Хидирнеби Казуева в городской парк, чтобы отобрать оружие у полицейских, но у них ничего не вышло, так как вокруг было много людей.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	источника	_	_	_	_	_	_	_	_
-4	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T44:Media|bratT44=Organization
+3	источника	_	_	_	_	_	_	_	bratT75=Person
+4	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T44:Media|bratT44=Organization|bratT75=Person
 5	,	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-absolute
 7	день	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-absolute
 8	концерта	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-absolute|bratT45=Event
 9	глава	_	_	_	_	_	_	_	bratT69=Person-property
-10	ячейки	_	_	_	_	_	_	_	_
+10	ячейки	_	_	_	_	_	_	_	bratA2=T9:Department|bratT69=Person-property|bratT9=Organization
 11	отправил	_	_	_	_	_	_	_	_
 12	двух	_	_	_	_	_	_	_	bratT46=Quantity
 13	боевиков	_	_	_	_	_	_	_	bratA12=T47:Plural|bratT46=Quantity|bratT47=Person|bratT54=Person-property

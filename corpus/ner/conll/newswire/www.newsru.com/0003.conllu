@@ -11,7 +11,7 @@
 6	''	_	_	_	_	_	_	_	bratT1=Organization
 7	подала	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	суд	_	_	_	_	_	_	_	_
+9	суд	_	_	_	_	_	_	_	bratT38=Organization
 10	заявление	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	банкротстве	_	_	_	_	_	_	_	_
@@ -46,7 +46,7 @@
 4	материалов	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
 6	сайте	_	_	_	_	_	_	_	bratA3=T23:Media|bratT23=Service
-7	суда	_	_	_	_	_	_	_	SpaceAfter=No
+7	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization
 8	,	_	_	_	_	_	_	_	_
 9	заявление	_	_	_	_	_	_	_	_
 10	подано	_	_	_	_	_	_	_	_
@@ -69,8 +69,8 @@
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
 3	картотеки	_	_	_	_	_	_	_	_
-4	арбитражных	_	_	_	_	_	_	_	_
-5	дел	_	_	_	_	_	_	_	SpaceAfter=No
+4	арбитражных	_	_	_	_	_	_	_	bratT40=Event
+5	дел	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 6	,	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	bratA6=T6:Past-Pres|bratT6=Date-period-absolute
 8	1	_	_	_	_	_	_	_	bratA6=T6:Past-Pres|bratT6=Date-period-absolute
@@ -96,8 +96,8 @@
 6	''	_	_	_	_	_	_	_	bratA4=T8:Media|bratT8=Organization
 7	требует	_	_	_	_	_	_	_	_
 8	от	_	_	_	_	_	_	_	_
-9	книжной	_	_	_	_	_	_	_	_
-10	сети	_	_	_	_	_	_	_	_
+9	книжной	_	_	_	_	_	_	_	bratT35=Organization
+10	сети	_	_	_	_	_	_	_	bratT35=Organization
 11	более	_	_	_	_	_	_	_	bratT9=Money
 12	122	_	_	_	_	_	_	_	bratT9=Money
 13	миллионов	_	_	_	_	_	_	_	bratT9=Money
@@ -110,7 +110,7 @@
 20	удовлетворил	_	_	_	_	_	_	_	_
 21	иск	_	_	_	_	_	_	_	_
 22	по	_	_	_	_	_	_	_	_
-23	делу	_	_	_	_	_	_	_	_
+23	делу	_	_	_	_	_	_	_	bratT41=Event
 24	японской	_	_	_	_	_	_	_	bratA7=T30:Adjective|bratT12=Organization|bratT30=GPE
 25	компании	_	_	_	_	_	_	_	bratT12=Organization
 26	Fujifilm	_	_	_	_	_	_	_	bratT12=Organization
@@ -121,15 +121,15 @@
 31	млн	_	_	_	_	_	_	_	bratT13=Money
 32	рублей	_	_	_	_	_	_	_	bratT13=Money
 33	с	_	_	_	_	_	_	_	_
-34	сети	_	_	_	_	_	_	_	_
-35	магазинов	_	_	_	_	_	_	_	SpaceAfter=No
+34	сети	_	_	_	_	_	_	_	bratT32=Organization
+35	магазинов	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
 36	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0003-p4
 # par_text = Компания 28 октября сообщила ТАСС, что планирует объявить себя банкротом. Пандемия привела к падению трафика и выручки магазинов, что сделало невозможным выполнение обязательств. При этом ретейлер пока не планирует закрывать магазины.
 # sent_id = 0003-p4-s1
 # text = Компания 28 октября сообщила ТАСС, что планирует объявить себя банкротом.
-1	Компания	_	_	_	_	_	_	_	_
+1	Компания	_	_	_	_	_	_	_	bratT34=Organization
 2	28	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
 3	октября	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
 4	сообщила	_	_	_	_	_	_	_	_
@@ -164,7 +164,7 @@
 # text = При этом ретейлер пока не планирует закрывать магазины.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	ретейлер	_	_	_	_	_	_	_	_
+3	ретейлер	_	_	_	_	_	_	_	bratT33=Organization
 4	пока	_	_	_	_	_	_	_	_
 5	не	_	_	_	_	_	_	_	_
 6	планирует	_	_	_	_	_	_	_	_
@@ -248,7 +248,7 @@
 12	все	_	_	_	_	_	_	_	_
 13	розничные	_	_	_	_	_	_	_	_
 14	магазины	_	_	_	_	_	_	_	_
-15	сети	_	_	_	_	_	_	_	_
+15	сети	_	_	_	_	_	_	_	bratT36=Organization
 16	простаивали	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	при	_	_	_	_	_	_	_	_
@@ -264,7 +264,7 @@
 28	-	_	_	_	_	_	_	_	_
 29	сказал	_	_	_	_	_	_	_	_
 30	представитель	_	_	_	_	_	_	_	bratT29=Person-property
-31	компании	_	_	_	_	_	_	_	bratT29=Person-property
+31	компании	_	_	_	_	_	_	_	bratT29=Person-property|bratT37=Organization
 32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
 33	Ведомостям	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
 34	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization

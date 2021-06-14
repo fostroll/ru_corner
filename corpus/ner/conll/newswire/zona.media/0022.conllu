@@ -7,14 +7,14 @@
 2	Верховного	_	_	_	_	_	_	_	bratT1=Organization
 3	суда	_	_	_	_	_	_	_	bratT1=Organization
 4	начались	_	_	_	_	_	_	_	_
-5	задержания	_	_	_	_	_	_	_	_
+5	задержания	_	_	_	_	_	_	_	bratT70=Event
 6	перед	_	_	_	_	_	_	_	bratA2=T2:Past|bratT2=Date-absolute
 7	заседанием	_	_	_	_	_	_	_	bratA2=T2:Past|bratT2=Date-absolute|bratT66=Event
 8	по	_	_	_	_	_	_	_	_
-9	``	_	_	_	_	_	_	_	SpaceAfter=No
-10	ростовскому	_	_	_	_	_	_	_	_
-11	делу	_	_	_	_	_	_	_	SpaceAfter=No
-12	''	_	_	_	_	_	_	_	_
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Event
+10	ростовскому	_	_	_	_	_	_	_	bratT68=Event
+11	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Event
+12	''	_	_	_	_	_	_	_	bratT68=Event
 
 # newpar id = 0022-p2
 # par_text = Полицейские задержали несколько человек возле здания Верховного суда, где сегодня должно пройти рассмотрение кассационной жалобы на приговор по «ростовскому делу». Об этом сообщают телеграм-канал «Ростовское дело» и активистка Александра Калистратова.
@@ -25,9 +25,9 @@
 3	несколько	_	_	_	_	_	_	_	bratT5=Quantity
 4	человек	_	_	_	_	_	_	_	bratT5=Quantity
 5	возле	_	_	_	_	_	_	_	_
-6	здания	_	_	_	_	_	_	_	_
-7	Верховного	_	_	_	_	_	_	_	bratT6=Organization
-8	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+6	здания	_	_	_	_	_	_	_	bratT62=Facility
+7	Верховного	_	_	_	_	_	_	_	bratT6=Organization|bratT62=Facility
+8	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization|bratT62=Facility
 9	,	_	_	_	_	_	_	_	_
 10	где	_	_	_	_	_	_	_	_
 11	сегодня	_	_	_	_	_	_	_	bratA1=T7:Future|bratT7=Date-absolute
@@ -39,10 +39,10 @@
 17	на	_	_	_	_	_	_	_	_
 18	приговор	_	_	_	_	_	_	_	_
 19	по	_	_	_	_	_	_	_	_
-20	``	_	_	_	_	_	_	_	SpaceAfter=No
-21	ростовскому	_	_	_	_	_	_	_	_
-22	делу	_	_	_	_	_	_	_	SpaceAfter=No
-23	''	_	_	_	_	_	_	_	SpaceAfter=No
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Event
+21	ростовскому	_	_	_	_	_	_	_	bratT69=Event
+22	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Event
+23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Event
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0022-p2-s2
@@ -51,10 +51,10 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщают	_	_	_	_	_	_	_	_
 4	телеграм-канал	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Service
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Media|bratT9=Service
-6	Ростовское	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Service
-7	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Media|bratT9=Service
-8	''	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Service
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Media|bratT71=Event|bratT9=Service
+6	Ростовское	_	_	_	_	_	_	_	bratA3=T9:Media|bratT71=Event|bratT9=Service
+7	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Media|bratT71=Event|bratT9=Service
+8	''	_	_	_	_	_	_	_	bratA3=T9:Media|bratT71=Event|bratT9=Service
 9	и	_	_	_	_	_	_	_	_
 10	активистка	_	_	_	_	_	_	_	bratA4=T10:Female|bratT10=Person|bratT11=Person-property
 11	Александра	_	_	_	_	_	_	_	bratA4=T10:Female|bratT10=Person|bratT12=Person-forename
@@ -113,10 +113,10 @@
 1	Задержанных	_	_	_	_	_	_	_	bratT33=Person-property
 2	увезли	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	ОВД	_	_	_	_	_	_	_	bratT34=Organization
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
-6	Арбат	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
-7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+4	ОВД	_	_	_	_	_	_	_	bratA13=T34:Department|bratT34=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T34:Department|bratT34=Organization
+6	Арбат	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T34:Department|bratT34=Organization
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T34:Department|bratT34=Organization
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0022-p5
@@ -195,10 +195,10 @@
 19	семи	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
 20	месяцев	_	_	_	_	_	_	_	bratA11=T57:Past-UNK|bratT57=Date-period-relative|bratT59=Duration
 21	по	_	_	_	_	_	_	_	_
-22	делу	_	_	_	_	_	_	_	_
+22	делу	_	_	_	_	_	_	_	bratT72=Event
 23	о	_	_	_	_	_	_	_	_
-24	массовых	_	_	_	_	_	_	_	_
-25	беспорядках	_	_	_	_	_	_	_	_
+24	массовых	_	_	_	_	_	_	_	bratT73=Event
+25	беспорядках	_	_	_	_	_	_	_	bratT73=Event
 26	(	_	_	_	_	_	_	_	SpaceAfter=No
 27	часть	_	_	_	_	_	_	_	bratT58=Law
 28	3	_	_	_	_	_	_	_	bratT36=Ordinal|bratT58=Law

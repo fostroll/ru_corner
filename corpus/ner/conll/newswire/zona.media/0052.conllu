@@ -31,14 +31,14 @@
 7	мае	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
 8	сбежавший	_	_	_	_	_	_	_	_
 9	из	_	_	_	_	_	_	_	_
-10	больницы	_	_	_	_	_	_	_	bratT12=Organization
+10	больницы	_	_	_	_	_	_	_	bratT12=Facility
 11-12	№1	_	_	_	_	_	_	_	_
-11	№	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Ordinal
-12	1	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Ordinal
-13	Ачинска	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT14=GPE
+11	№	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Ordinal
+12	1	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Ordinal
+13	Ачинска	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Facility|bratT14=GPE
 14	,	_	_	_	_	_	_	_	_
 15	пересек	_	_	_	_	_	_	_	_
-16	границу	_	_	_	_	_	_	_	_
+16	границу	_	_	_	_	_	_	_	bratT57=Facility
 17	с	_	_	_	_	_	_	_	_
 18	Финляндией	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=GPE
 19	.	_	_	_	_	_	_	_	_
@@ -48,8 +48,8 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Media|bratT16=Organization
-4	Проспекту	_	_	_	_	_	_	_	bratA5=T16:Media|bratT16=Organization
-5	Мира	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Media|bratT16=Organization
+4	Проспекту	_	_	_	_	_	_	_	bratA5=T16:Media|bratT16=Organization|bratT56=Facility
+5	Мира	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Media|bratT16=Organization|bratT56=Facility
 6	''	_	_	_	_	_	_	_	bratA5=T16:Media|bratT16=Organization
 7	рассказала	_	_	_	_	_	_	_	_
 8	его	_	_	_	_	_	_	_	_
@@ -118,7 +118,7 @@
 4	что	_	_	_	_	_	_	_	_
 5	сбежал	_	_	_	_	_	_	_	_
 6	из	_	_	_	_	_	_	_	_
-7	больницы	_	_	_	_	_	_	_	SpaceAfter=No
+7	больницы	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Facility
 8	,	_	_	_	_	_	_	_	_
 9	опасаясь	_	_	_	_	_	_	_	_
 10	давления	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 21	и	_	_	_	_	_	_	_	_
 22	попытался	_	_	_	_	_	_	_	_
 23	пересечь	_	_	_	_	_	_	_	_
-24	границу	_	_	_	_	_	_	_	_
+24	границу	_	_	_	_	_	_	_	bratT59=Facility
 25	с	_	_	_	_	_	_	_	_
 26	Финляндией	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=GPE
 27	.	_	_	_	_	_	_	_	_
@@ -168,11 +168,11 @@
 6	лет	_	_	_	_	_	_	_	bratA16=T39:Past-UNK|bratT39=Date-period-relative|bratT40=Duration
 7	колонии	_	_	_	_	_	_	_	_
 8	по	_	_	_	_	_	_	_	_
-9	делу	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	bratT61=Event
 10	о	_	_	_	_	_	_	_	_
-11	разбое	_	_	_	_	_	_	_	SpaceAfter=No
+11	разбое	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Event
 12	,	_	_	_	_	_	_	_	_
-13	убийстве	_	_	_	_	_	_	_	_
+13	убийстве	_	_	_	_	_	_	_	bratT65=Event
 14	и	_	_	_	_	_	_	_	_
 15	умышленном	_	_	_	_	_	_	_	_
 16	повреждении	_	_	_	_	_	_	_	_
@@ -215,7 +215,7 @@
 # sent_id = 0052-p6-s1
 # text = В ведомстве сказали, что заключенный получил травмы, упав с носилок.
 1	В	_	_	_	_	_	_	_	_
-2	ведомстве	_	_	_	_	_	_	_	_
+2	ведомстве	_	_	_	_	_	_	_	bratT60=Organization
 3	сказали	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -237,9 +237,9 @@
 5	комитет	_	_	_	_	_	_	_	bratT46=Organization
 6	возбудил	_	_	_	_	_	_	_	_
 7	уголовное	_	_	_	_	_	_	_	_
-8	дело	_	_	_	_	_	_	_	_
+8	дело	_	_	_	_	_	_	_	bratT62=Event
 9	об	_	_	_	_	_	_	_	_
-10	избиении	_	_	_	_	_	_	_	_
+10	избиении	_	_	_	_	_	_	_	bratT63=Event
 11	Голикова	_	_	_	_	_	_	_	bratA13=T47:Male|bratT47=Person|bratT48=Person-surname
 12	против	_	_	_	_	_	_	_	_
 13	троих	_	_	_	_	_	_	_	bratT49=Quantity

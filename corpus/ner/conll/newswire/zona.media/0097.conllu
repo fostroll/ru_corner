@@ -18,9 +18,9 @@
 13	с	_	_	_	_	_	_	_	_
 14	заявлением	_	_	_	_	_	_	_	_
 15	об	_	_	_	_	_	_	_	_
-16	изнасиловании	_	_	_	_	_	_	_	_
+16	изнасиловании	_	_	_	_	_	_	_	bratT47=Event
 17	и	_	_	_	_	_	_	_	_
-18	угрозах	_	_	_	_	_	_	_	_
+18	угрозах	_	_	_	_	_	_	_	bratT51=Event
 
 # newpar id = 0097-p2
 # par_text = В Красноярском крае семья убитой 12-летней девочки обращалась в полицию с заявлениями об изнасиловании и угрозах убийством в 2019-м и 2020-м годах, сообщается на сайте региональной прокуратуры.
@@ -39,10 +39,10 @@
 11	с	_	_	_	_	_	_	_	_
 12	заявлениями	_	_	_	_	_	_	_	_
 13	об	_	_	_	_	_	_	_	_
-14	изнасиловании	_	_	_	_	_	_	_	_
+14	изнасиловании	_	_	_	_	_	_	_	bratT48=Event
 15	и	_	_	_	_	_	_	_	_
-16	угрозах	_	_	_	_	_	_	_	_
-17	убийством	_	_	_	_	_	_	_	_
+16	угрозах	_	_	_	_	_	_	_	bratT49=Event
+17	убийством	_	_	_	_	_	_	_	bratT50=Event
 18	в	_	_	_	_	_	_	_	bratA1=T8:Past|bratA10=T8:Plural|bratT8=Date-absolute
 19	2019-м	_	_	_	_	_	_	_	bratA1=T8:Past|bratA10=T8:Plural|bratT8=Date-absolute
 20	и	_	_	_	_	_	_	_	bratA1=T8:Past|bratA10=T8:Plural|bratT8=Date-absolute
@@ -72,8 +72,8 @@
 10	отказе	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
 12	возбуждении	_	_	_	_	_	_	_	_
-13	уголовного	_	_	_	_	_	_	_	_
-14	дела	_	_	_	_	_	_	_	_
+13	уголовного	_	_	_	_	_	_	_	bratT44=Event
+14	дела	_	_	_	_	_	_	_	bratT44=Event
 15	по	_	_	_	_	_	_	_	_
 16	факту	_	_	_	_	_	_	_	_
 17	угроз	_	_	_	_	_	_	_	_
@@ -115,19 +115,19 @@
 5	что	_	_	_	_	_	_	_	_
 6	территориальный	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization
 7	отдел	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization
-8	управления	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization
-9	Следственного	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization|bratT16=Organization
-10	комитета	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization|bratT16=Organization
+8	управления	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization|bratT42=Organization
+9	Следственного	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization|bratT16=Organization|bratT42=Organization
+10	комитета	_	_	_	_	_	_	_	bratA4=T15:Department|bratT15=Organization|bratT16=Organization|bratT42=Organization
 11	отменил	_	_	_	_	_	_	_	_
 12	постановление	_	_	_	_	_	_	_	_
 13	об	_	_	_	_	_	_	_	_
 14	отказе	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	возбуждении	_	_	_	_	_	_	_	_
-17	дела	_	_	_	_	_	_	_	_
+17	дела	_	_	_	_	_	_	_	bratT45=Event
 18	по	_	_	_	_	_	_	_	_
 19	факту	_	_	_	_	_	_	_	_
-20	изнасилования	_	_	_	_	_	_	_	_
+20	изнасилования	_	_	_	_	_	_	_	bratT46=Event
 21	погибшей	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
 23	июне	_	_	_	_	_	_	_	bratA5=T17:Past|bratT17=Date-absolute
@@ -143,8 +143,8 @@
 4	дополнительной	_	_	_	_	_	_	_	_
 5	проверки	_	_	_	_	_	_	_	_
 6	возбуждено	_	_	_	_	_	_	_	_
-7	уголовное	_	_	_	_	_	_	_	_
-8	дело	_	_	_	_	_	_	_	SpaceAfter=No
+7	уголовное	_	_	_	_	_	_	_	bratT52=Event
+8	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Event
 9	''	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
@@ -164,7 +164,7 @@
 5	в	_	_	_	_	_	_	_	_
 6	пресс-службе	_	_	_	_	_	_	_	bratA6=T18:Department|bratT18=Organization
 7	управления	_	_	_	_	_	_	_	bratA6=T18:Department|bratT18=Organization|bratT19=Organization
-8	МВД	_	_	_	_	_	_	_	bratA6=T18:Department|bratT18=Organization|bratT19=Organization
+8	МВД	_	_	_	_	_	_	_	bratA6=T18:Department|bratT18=Organization|bratT19=Organization|bratT43=Organization
 9	по	_	_	_	_	_	_	_	bratA6=T18:Department|bratT18=Organization|bratT19=Organization
 10	Красноярском	_	_	_	_	_	_	_	bratA6=T18:Department|bratT18=Organization|bratT19=Organization|bratT20=GPE
 11	краю	_	_	_	_	_	_	_	bratA6=T18:Department|bratT18=Organization|bratT19=Organization|bratT20=GPE
@@ -231,7 +231,7 @@
 16	и	_	_	_	_	_	_	_	_
 17	отказалось	_	_	_	_	_	_	_	_
 18	возбуждать	_	_	_	_	_	_	_	_
-19	дело	_	_	_	_	_	_	_	_
+19	дело	_	_	_	_	_	_	_	bratT53=Event
 20	по	_	_	_	_	_	_	_	_
 21	заявлению	_	_	_	_	_	_	_	_
 22	матери	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Family

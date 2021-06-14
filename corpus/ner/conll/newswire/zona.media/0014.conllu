@@ -127,12 +127,12 @@
 6	изданий	_	_	_	_	_	_	_	bratT84=Quantity
 7	вышли	_	_	_	_	_	_	_	_
 8	к	_	_	_	_	_	_	_	_
-9	зданию	_	_	_	_	_	_	_	_
-10	главного	_	_	_	_	_	_	_	bratT50=Organization
-11	управления	_	_	_	_	_	_	_	bratT50=Organization
-12	МВД	_	_	_	_	_	_	_	bratT50=Organization
-13	по	_	_	_	_	_	_	_	bratT50=Organization
-14	Москве	_	_	_	_	_	_	_	bratT50=Organization|bratT51=GPE
+9	зданию	_	_	_	_	_	_	_	bratT41=Facility
+10	главного	_	_	_	_	_	_	_	bratT41=Facility|bratT50=Organization
+11	управления	_	_	_	_	_	_	_	bratT41=Facility|bratT50=Organization
+12	МВД	_	_	_	_	_	_	_	bratT41=Facility|bratT42=Organization|bratT50=Organization
+13	по	_	_	_	_	_	_	_	bratT41=Facility|bratT50=Organization
+14	Москве	_	_	_	_	_	_	_	bratT41=Facility|bratT50=Organization|bratT51=GPE
 15	на	_	_	_	_	_	_	_	_
 16	одиночные	_	_	_	_	_	_	_	_
 17	пикеты	_	_	_	_	_	_	_	_
@@ -149,29 +149,32 @@
 28	в	_	_	_	_	_	_	_	_
 29	поддержку	_	_	_	_	_	_	_	_
 30	основателя	_	_	_	_	_	_	_	bratA20=T54:Male|bratT54=Person|bratT70=Person-property
-31	проекта	_	_	_	_	_	_	_	bratA20=T54:Male|bratT54=Person|bratT70=Person-property
-32	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA20=T54:Male|bratT54=Person|bratT55=Organization|bratT70=Person-property
-33	Омбудсмен	_	_	_	_	_	_	_	bratA20=T54:Male|bratT54=Person|bratT55=Organization|bratT70=Person-property
-34	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T54:Male|bratT54=Person|bratT55=Organization|bratT70=Person-property|bratT87=Organization
-35	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA20=T54:Male|bratT54=Person|bratT55=Organization|bratT70=Person-property
+31	проекта	_	_	_	_	_	_	_	bratA16=T55:Media|bratA20=T54:Male|bratT54=Person|bratT55=Service|bratT70=Person-property
+32	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA16=T55:Media|bratA20=T54:Male|bratT54=Person|bratT55=Service|bratT70=Person-property
+33	Омбудсмен	_	_	_	_	_	_	_	bratA16=T55:Media|bratA20=T54:Male|bratT54=Person|bratT55=Service|bratT70=Person-property
+34	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T55:Media|bratA20=T54:Male|bratT54=Person|bratT55=Service|bratT70=Person-property|bratT87=Organization
+35	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA16=T55:Media|bratA20=T54:Male|bratT54=Person|bratT55=Service|bratT70=Person-property
 36	Владимира	_	_	_	_	_	_	_	bratA20=T54:Male|bratT54=Person|bratT56=Person-forename
 37	Воронцова	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T54:Male|bratT54=Person|bratT57=Person-surname
 38	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p4-s2
 # text = «ОВД-Инфо» сообщало, что в Москве задержали 32 человека.
-1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-2	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T58:Media|bratT58=Organization
-3	''	_	_	_	_	_	_	_	QuotationEnd=»
-4	сообщало	_	_	_	_	_	_	_	SpaceAfter=No
-5	,	_	_	_	_	_	_	_	_
-6	что	_	_	_	_	_	_	_	_
-7	в	_	_	_	_	_	_	_	bratT59=GPE
-8	Москве	_	_	_	_	_	_	_	bratT59=GPE
-9	задержали	_	_	_	_	_	_	_	_
-10	32	_	_	_	_	_	_	_	bratT60=Quantity
-11	человека	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Quantity
-12	.	_	_	_	_	_	_	_	_
+1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA22=T58:Media|bratT58=Organization
+2-4	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+2	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T43:Department|bratA22=T58:Media|bratT43=Organization|bratT58=Organization
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T58:Media|bratT58=Organization
+4	Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T58:Media|bratT58=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA22=T58:Media|bratT58=Organization
+6	сообщало	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	в	_	_	_	_	_	_	_	bratT59=GPE
+10	Москве	_	_	_	_	_	_	_	bratT59=GPE
+11	задержали	_	_	_	_	_	_	_	_
+12	32	_	_	_	_	_	_	_	bratT60=Quantity
+13	человека	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Quantity
+14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p5
 # par_text = На нескольких журналистов составили протоколы по статье 20.2 КоАП и по статье 3.18.1 КоАП Москвы (нарушение «режима самоизоляции»).

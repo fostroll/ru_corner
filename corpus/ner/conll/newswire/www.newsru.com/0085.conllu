@@ -6,10 +6,10 @@
 1	Родственники	_	_	_	_	_	_	_	bratT39=Family|bratT63=Person
 2	осужденных	_	_	_	_	_	_	_	bratT31=Person-property|bratT63=Person
 3	по	_	_	_	_	_	_	_	_
-4	делу	_	_	_	_	_	_	_	_
-5	``	_	_	_	_	_	_	_	SpaceAfter=No
-6	Сети	_	_	_	_	_	_	_	SpaceAfter=No
-7	''	_	_	_	_	_	_	_	_
+4	делу	_	_	_	_	_	_	_	bratT74=Event
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Organization
+6	Сети	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Organization
+7	''	_	_	_	_	_	_	_	bratT75=Organization
 8	обратились	_	_	_	_	_	_	_	_
 9	к	_	_	_	_	_	_	_	_
 10	генпрокурору	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
@@ -33,11 +33,11 @@
 # sent_id = 0085-p2-s1
 # text = Родственники фигурантов дела ``Сети'' опубликовали обращение к ряду российских чиновников, включая уполномоченного по правам человека в РФ Татьяну Москалькову и ее коллегу в Пензенской области Елену Рогову, и.о. руководителя Главного военного следственного управления СК РФ Сергея Федотова, генпрокурора РФ Игоря Краснова, главу СК РФ Александра Бастрыкина, директоров ФСБ и ФСИН.
 1	Родственники	_	_	_	_	_	_	_	bratT41=Family|bratT65=Person
-2	фигурантов	_	_	_	_	_	_	_	bratT35=Person-property|bratT65=Person
-3	дела	_	_	_	_	_	_	_	bratT35=Person-property|bratT65=Person
-4	``	_	_	_	_	_	_	_	SpaceAfter=No
-5	Сети	_	_	_	_	_	_	_	SpaceAfter=No
-6	''	_	_	_	_	_	_	_	_
+2	фигурантов	_	_	_	_	_	_	_	bratT35=Person|bratT65=Person
+3	дела	_	_	_	_	_	_	_	bratT35=Person|bratT65=Person|bratT77=Event
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT65=Person|bratT76=Organization
+5	Сети	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT65=Person|bratT76=Organization
+6	''	_	_	_	_	_	_	_	bratT35=Person|bratT65=Person|bratT76=Organization
 7	опубликовали	_	_	_	_	_	_	_	_
 8	обращение	_	_	_	_	_	_	_	_
 9	к	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 # par_text = Родственники заявили, что на их детей вновь оказывают давление, требуя признать существование других ячеек "Сети" , и угрожая "невыносимыми условиями" при отбывании наказания. Текст обращения опубликовала "Новая газета".
 # sent_id = 0085-p3-s1
 # text = Родственники заявили, что на их детей вновь оказывают давление, требуя признать существование других ячеек ``Сети'', и угрожая ``невыносимыми условиями'' при отбывании наказания.
-1	Родственники	_	_	_	_	_	_	_	bratT42=Family
+1	Родственники	_	_	_	_	_	_	_	bratT42=Family|bratT60=Person
 2	заявили	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -156,10 +156,10 @@
 13	военного	_	_	_	_	_	_	_	bratT27=Organization
 14	суда	_	_	_	_	_	_	_	bratT27=Organization
 15	по	_	_	_	_	_	_	_	_
-16	делу	_	_	_	_	_	_	_	_
-17	``	_	_	_	_	_	_	_	SpaceAfter=No
-18	Сети	_	_	_	_	_	_	_	SpaceAfter=No
-19	''	_	_	_	_	_	_	_	_
+16	делу	_	_	_	_	_	_	_	bratT78=Event
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Organization
+18	Сети	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Organization
+19	''	_	_	_	_	_	_	_	bratT79=Organization
 20	был	_	_	_	_	_	_	_	_
 21	оставлен	_	_	_	_	_	_	_	_
 22	без	_	_	_	_	_	_	_	_
@@ -208,7 +208,7 @@
 35	стадии	_	_	_	_	_	_	_	bratA13=T45:Past|bratT45=Date-period-absolute
 36	следствия	_	_	_	_	_	_	_	bratA13=T45:Past|bratT45=Date-period-absolute|bratT61=Event
 37	в	_	_	_	_	_	_	_	_
-38	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No
+38	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Organization
 39	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0085-p5
@@ -220,8 +220,8 @@
 3	проверки	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
 5	заявлениям	_	_	_	_	_	_	_	_
-6	фигурантов	_	_	_	_	_	_	_	bratT36=Person-property
-7	дела	_	_	_	_	_	_	_	bratT36=Person-property
+6	фигурантов	_	_	_	_	_	_	_	bratT36=Person
+7	дела	_	_	_	_	_	_	_	bratT36=Person|bratT80=Event
 8	так	_	_	_	_	_	_	_	_
 9	никто	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
@@ -231,7 +231,7 @@
 14	записи	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
 16	видеокамер	_	_	_	_	_	_	_	_
-17	СИЗО	_	_	_	_	_	_	_	_
+17	СИЗО	_	_	_	_	_	_	_	bratT71=Organization
 18	исчезли	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	а	_	_	_	_	_	_	_	_
@@ -239,9 +239,9 @@
 22	оперативников	_	_	_	_	_	_	_	bratT30=Person-property
 23	к	_	_	_	_	_	_	_	_
 24	нашим	_	_	_	_	_	_	_	bratA15=T68:Plural|bratT68=Person
-25	сыновьям	_	_	_	_	_	_	_	bratA15=T68:Plural|bratT37=Family|bratT68=Person
+25	сыновьям	_	_	_	_	_	_	_	bratA15=T68:Plural|bratT37=Family|bratT68=Person|bratT72=Person
 26	и	_	_	_	_	_	_	_	bratA15=T68:Plural|bratT68=Person
-27	мужьям	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T68:Plural|bratT38=Family|bratT68=Person
+27	мужьям	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T68:Plural|bratT38=Family|bratT68=Person|bratT73=Person
 28	,	_	_	_	_	_	_	_	_
 29	как	_	_	_	_	_	_	_	_
 30	оказалось	_	_	_	_	_	_	_	SpaceAfter=No
@@ -256,8 +256,8 @@
 39	,	_	_	_	_	_	_	_	_
 40	-	_	_	_	_	_	_	_	_
 41	отмечают	_	_	_	_	_	_	_	_
-42	авторы	_	_	_	_	_	_	_	bratT47=Person-property
-43	обращения	_	_	_	_	_	_	_	SpaceAfter=No
+42	авторы	_	_	_	_	_	_	_	bratT47=Person
+43	обращения	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person
 44	,	_	_	_	_	_	_	_	_
 45	подчеркнув	_	_	_	_	_	_	_	SpaceAfter=No
 46	,	_	_	_	_	_	_	_	_
@@ -269,8 +269,8 @@
 52	силу	_	_	_	_	_	_	_	bratT62=Event
 53	давление	_	_	_	_	_	_	_	_
 54	на	_	_	_	_	_	_	_	_
-55	фигурантов	_	_	_	_	_	_	_	bratT34=Person-property
-56	дела	_	_	_	_	_	_	_	bratT34=Person-property
+55	фигурантов	_	_	_	_	_	_	_	bratT34=Person
+56	дела	_	_	_	_	_	_	_	bratT34=Person|bratT81=Event
 57	возобновилось	_	_	_	_	_	_	_	SpaceAfter=No
 58	.	_	_	_	_	_	_	_	_
 

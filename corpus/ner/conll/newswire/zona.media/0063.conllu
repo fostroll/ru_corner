@@ -15,8 +15,8 @@
 10	из	_	_	_	_	_	_	_	_
 11	Дагестана	_	_	_	_	_	_	_	bratT3=GPE
 12	после	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
-13	угроз	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
-14	убийством	_	_	_	_	_	_	_	_
+13	угроз	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute|bratT33=Event
+14	убийством	_	_	_	_	_	_	_	bratT32=Event
 
 # newpar id = 0063-p2
 # par_text = Главный редактор сайта о положении женщин в северокавказском обществе Daptar Светлана Анохина уехала из Дагестана после отказа полиции возбуждать уголовное дело из-за угроз убийством. Об этом сообщает «Кавказский узел» со ссылкой на Анохину.
@@ -41,11 +41,11 @@
 17	отказа	_	_	_	_	_	_	_	bratA11=T10:Past|bratT10=Date-absolute
 18	полиции	_	_	_	_	_	_	_	bratT31=Organization
 19	возбуждать	_	_	_	_	_	_	_	_
-20	уголовное	_	_	_	_	_	_	_	_
-21	дело	_	_	_	_	_	_	_	_
+20	уголовное	_	_	_	_	_	_	_	bratT34=Event
+21	дело	_	_	_	_	_	_	_	bratT34=Event
 22	из-за	_	_	_	_	_	_	_	_
-23	угроз	_	_	_	_	_	_	_	_
-24	убийством	_	_	_	_	_	_	_	SpaceAfter=No
+23	угроз	_	_	_	_	_	_	_	bratT35=Event
+24	убийством	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Event
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0063-p2-s2
@@ -54,7 +54,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Media|bratT11=Organization
-5	Кавказский	_	_	_	_	_	_	_	bratA3=T11:Media|bratT11=Organization
+5	Кавказский	_	_	_	_	_	_	_	bratA15=T37:Adjective|bratA3=T11:Media|bratT11=Organization|bratT37=Location
 6	узел	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Media|bratT11=Organization
 7	''	_	_	_	_	_	_	_	bratA3=T11:Media|bratT11=Organization
 8	со	_	_	_	_	_	_	_	_
@@ -173,15 +173,15 @@
 29	совсем	_	_	_	_	_	_	_	_
 30	не	_	_	_	_	_	_	_	_
 31	смешного	_	_	_	_	_	_	_	_
-32	уголовного	_	_	_	_	_	_	_	_
-33	дела	_	_	_	_	_	_	_	SpaceAfter=No
+32	уголовного	_	_	_	_	_	_	_	bratT38=Event
+33	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Event
 34	''	_	_	_	_	_	_	_	SpaceAfter=No
 35	,	_	_	_	_	_	_	_	_
 36	-	_	_	_	_	_	_	_	_
 37	говорили	_	_	_	_	_	_	_	_
 38	в	_	_	_	_	_	_	_	_
 39	пресс-службе	_	_	_	_	_	_	_	bratA14=T30:Department|bratT30=Organization
-40	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T30:Department|bratT30=Organization
+40	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T30:Department|bratT30=Organization|bratT39=Organization
 41	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0063-p5-s3
@@ -191,7 +191,7 @@
 3	МВД	_	_	_	_	_	_	_	bratT25=Organization
 4	отказалось	_	_	_	_	_	_	_	_
 5	возбуждать	_	_	_	_	_	_	_	_
-6	уголовное	_	_	_	_	_	_	_	_
-7	дело	_	_	_	_	_	_	_	SpaceAfter=No
+6	уголовное	_	_	_	_	_	_	_	bratT40=Event
+7	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 8	.	_	_	_	_	_	_	_	_
 

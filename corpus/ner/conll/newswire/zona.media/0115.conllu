@@ -113,7 +113,7 @@
 2	Худякова	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-surname
 3	отпустили	_	_	_	_	_	_	_	_
 4	из	_	_	_	_	_	_	_	_
-5	СИЗО	_	_	_	_	_	_	_	_
+5	СИЗО	_	_	_	_	_	_	_	bratT78=Organization
 6	в	_	_	_	_	_	_	_	_
 7	связи	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
@@ -187,9 +187,9 @@
 12	и	_	_	_	_	_	_	_	_
 13	отправили	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
-15	СИЗО	_	_	_	_	_	_	_	_
+15	СИЗО	_	_	_	_	_	_	_	bratT79=Organization
 16	по	_	_	_	_	_	_	_	_
-17	делу	_	_	_	_	_	_	_	_
+17	делу	_	_	_	_	_	_	_	bratT81=Event
 18	о	_	_	_	_	_	_	_	_
 19	порнографии	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
@@ -234,10 +234,10 @@
 4	мая	_	_	_	_	_	_	_	bratA21=T57:Past-Pres|bratA27=T57:RCont|bratT57=Date-period-absolute
 5	находится	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	СИЗО	_	_	_	_	_	_	_	_
+7	СИЗО	_	_	_	_	_	_	_	bratT80=Organization
 8	по	_	_	_	_	_	_	_	_
-9	делу	_	_	_	_	_	_	_	_
-10	вымогательстве	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	bratT82=Event
+10	вымогательстве	_	_	_	_	_	_	_	bratT83=Event
 11	(	_	_	_	_	_	_	_	SpaceAfter=No
 12	часть	_	_	_	_	_	_	_	bratT59=Law
 13	2	_	_	_	_	_	_	_	bratT26=Ordinal|bratT59=Law
@@ -254,8 +254,8 @@
 3	него	_	_	_	_	_	_	_	_
 4	возбудили	_	_	_	_	_	_	_	_
 5	семь	_	_	_	_	_	_	_	bratT60=Quantity
-6	уголовных	_	_	_	_	_	_	_	bratT60=Quantity
-7	дел	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Quantity
+6	уголовных	_	_	_	_	_	_	_	bratT60=Quantity|bratT84=Event
+7	дел	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Quantity|bratT84=Event
 8	,	_	_	_	_	_	_	_	_
 9	но	_	_	_	_	_	_	_	_
 10	обвинение	_	_	_	_	_	_	_	_

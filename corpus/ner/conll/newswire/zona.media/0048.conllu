@@ -11,9 +11,9 @@
 6	домашний	_	_	_	_	_	_	_	bratT47=Event
 7	арест	_	_	_	_	_	_	_	bratT47=Event
 8	по	_	_	_	_	_	_	_	_
-9	делу	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	bratT65=Event
 10	о	_	_	_	_	_	_	_	_
-11	совращении	_	_	_	_	_	_	_	_
+11	совращении	_	_	_	_	_	_	_	bratT66=Event
 12	13-летней	_	_	_	_	_	_	_	bratT3=Age
 13	школьницы	_	_	_	_	_	_	_	bratT4=Person-property
 
@@ -39,9 +39,9 @@
 16	Дмитрия	_	_	_	_	_	_	_	bratA3=T9:Male|bratT12=Person-forename|bratT9=Person
 17	Натарова	_	_	_	_	_	_	_	bratA3=T9:Male|bratT13=Person-surname|bratT9=Person
 18	по	_	_	_	_	_	_	_	_
-19	делу	_	_	_	_	_	_	_	_
+19	делу	_	_	_	_	_	_	_	bratT67=Event
 20	о	_	_	_	_	_	_	_	_
-21	совращении	_	_	_	_	_	_	_	_
+21	совращении	_	_	_	_	_	_	_	bratT68=Event
 22	13-летней	_	_	_	_	_	_	_	bratT14=Age
 23	девочки	_	_	_	_	_	_	_	SpaceAfter=No
 24	.	_	_	_	_	_	_	_	_
@@ -59,7 +59,7 @@
 9	ссылкой	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	пресс-службу	_	_	_	_	_	_	_	bratA22=T63:Department|bratT63=Organization
-12	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T63:Department|bratT63=Organization
+12	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T63:Department|bratT63=Organization|bratT64=Organization
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0048-p3
@@ -164,9 +164,9 @@
 # text = По данным телеканала, дело возбудили только через год после подачи заявления в Следственный комитет.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	телеканала	_	_	_	_	_	_	_	SpaceAfter=No
+3	телеканала	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T70:Media|bratT70=Organization
 4	,	_	_	_	_	_	_	_	_
-5	дело	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	bratT69=Event
 6	возбудили	_	_	_	_	_	_	_	_
 7	только	_	_	_	_	_	_	_	_
 8	через	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute

@@ -101,7 +101,7 @@
 6	Высшая	_	_	_	_	_	_	_	bratT23=Organization
 7	квалификационная	_	_	_	_	_	_	_	bratT23=Organization
 8	коллегия	_	_	_	_	_	_	_	bratT23=Organization
-9	судей	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property
+9	судей	_	_	_	_	_	_	_	bratT23=Organization
 10	приняла	_	_	_	_	_	_	_	_
 11	отставку	_	_	_	_	_	_	_	bratT71=Event
 12	Ольги	_	_	_	_	_	_	_	bratA10=T25:Female|bratT25=Person|bratT62=Person-forename
@@ -116,8 +116,8 @@
 # text = Она возглавляла столичные суды с 2000 года.
 1	Она	_	_	_	_	_	_	_	_
 2	возглавляла	_	_	_	_	_	_	_	_
-3	столичные	_	_	_	_	_	_	_	bratA19=T69:Adjective|bratT69=GPE
-4	суды	_	_	_	_	_	_	_	_
+3	столичные	_	_	_	_	_	_	_	bratA19=T69:Adjective|bratT69=GPE|bratT72=Organization
+4	суды	_	_	_	_	_	_	_	bratT72=Organization
 5	с	_	_	_	_	_	_	_	bratA11=T28:Past-Pres|bratT28=Date-period-absolute
 6	2000	_	_	_	_	_	_	_	bratA11=T28:Past-Pres|bratT28=Date-period-absolute
 7	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Past-Pres|bratT28=Date-period-absolute
@@ -163,7 +163,7 @@
 2	Высшая	_	_	_	_	_	_	_	bratT34=Organization
 3	квалификационная	_	_	_	_	_	_	_	bratT34=Organization
 4	коллегия	_	_	_	_	_	_	_	bratT34=Organization
-5	судей	_	_	_	_	_	_	_	bratT34=Organization|bratT35=Person-property
+5	судей	_	_	_	_	_	_	_	bratT34=Organization
 6	трижды	_	_	_	_	_	_	_	bratT36=Quantity
 7	объявляла	_	_	_	_	_	_	_	_
 8	конкурс	_	_	_	_	_	_	_	SpaceAfter=No
@@ -235,7 +235,7 @@
 36	первыми	_	_	_	_	_	_	_	bratT46=Ordinal
 37	начали	_	_	_	_	_	_	_	_
 38	слушать	_	_	_	_	_	_	_	_
-39	дела	_	_	_	_	_	_	_	_
+39	дела	_	_	_	_	_	_	_	bratT24=Event
 40	о	_	_	_	_	_	_	_	_
 41	преступлениях	_	_	_	_	_	_	_	_
 42	террористической	_	_	_	_	_	_	_	_

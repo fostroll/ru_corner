@@ -9,7 +9,6 @@ T8	Person-forename 290 299	Екатерина
 T9	Person-surname 302 306	Гузь
 T10	Organization 284 287	МВД
 T11	Organization 262 287	столичного   главка   МВД
-A1	Department T11
 T12	Organization 247 287	пресс-службы   столичного   главка   МВД
 A2	Department T12
 T13	Person-property 231 287	замначальника   пресс-службы   столичного   главка   МВД
@@ -17,21 +16,20 @@ T14	Person 231 306	замначальника   пресс-службы   сто
 A3	Female T14
 T15	GPE 347 353	России
 T16	GPE 361 379	району   Измайлово
-T18	Organization 330 379	полиции   ОМВД   России   по   району   Измайлово
+T18	Organization 340 353	ОМВД   России
 T19	Person-property 317 379	Сотрудники   полиции   ОМВД   России   по   району   Измайлово
 T20	Age 394 404	31-летнего
 T21	Person 545 549	Гузь
 A5	Female T21
 T22	Person-surname 545 549	Гузь
-T23	Other-group 607 615	очевидцы
+T23	Person 607 615	очевидцы
 T24	Organization 586 593	полицию
-T25	Event 559 579	стрельбе   в   парке
+T25	Event 559 567	стрельбе
 T26	Other-group 695 704	прохожими
 T27	Quantity 687 704	двумя   прохожими
 T28	Quantity 719 734	несколько   раз
 T29	Date-relative 711 716	затем
 T30	Other-group 802 814	Пострадавших
-T31	Organization 839 859	уголовного   розыска
 T32	Person-property 826 859	Сотрудники   уголовного   розыска
 T33	Person-property 967 978	полицейские
 T34	Quantity 1052 1067	пять   патронов
@@ -69,3 +67,12 @@ T59	Date-absolute 935 952	В   ходе   обыска
 A12	Past T59
 A4	Past T29
 T17	Ordinal 1957 1958	2
+T60	Facility 574 579	парке
+T61	Facility 1944 1975	трассы   М - 2   ``   Крым   ''
+T62	Organization 1654 1657	Суд
+T63	Organization 330 337	полиции
+T64	Organization 340 379	ОМВД   России   по   району   Измайлово
+A1	Department T64
+T65	Event 1364 1380	уголовных   дела
+T31	Organization 839 859	уголовного   розыска
+A13	Department T31

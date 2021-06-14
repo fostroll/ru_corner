@@ -11,7 +11,7 @@
 6	университета	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization
 7	МВД	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization
 8	по	_	_	_	_	_	_	_	_
-9	делу	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	bratT66=Event
 10	о	_	_	_	_	_	_	_	_
 11	преступном	_	_	_	_	_	_	_	_
 12	сообществе	_	_	_	_	_	_	_	_
@@ -152,14 +152,14 @@
 2	входили	_	_	_	_	_	_	_	_
 3	руководители	_	_	_	_	_	_	_	bratT37=Person-property
 4	четырех	_	_	_	_	_	_	_	bratT39=Quantity
-5	кафедр	_	_	_	_	_	_	_	bratT39=Quantity
-6	факультета	_	_	_	_	_	_	_	SpaceAfter=No
+5	кафедр	_	_	_	_	_	_	_	bratA8=T63:Department|bratT39=Quantity|bratT63=Organization
+6	факультета	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Department|bratA8=T63:Department|bratT38=Organization|bratT63=Organization
 7	,	_	_	_	_	_	_	_	_
 8	их	_	_	_	_	_	_	_	_
-9	подчиненные	_	_	_	_	_	_	_	_
+9	подчиненные	_	_	_	_	_	_	_	bratT64=Person-property
 10	и	_	_	_	_	_	_	_	_
 11	семь	_	_	_	_	_	_	_	bratT40=Quantity
-12	слушателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Quantity
+12	слушателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Quantity|bratT65=Person-property
 13	,	_	_	_	_	_	_	_	_
 14	через	_	_	_	_	_	_	_	_
 15	которых	_	_	_	_	_	_	_	_

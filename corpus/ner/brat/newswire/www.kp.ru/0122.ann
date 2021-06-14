@@ -2,7 +2,7 @@ T1	Person 14 29	Меланьи   Трамп
 T2	GPE 60 63	США
 T3	Date-absolute 66 70	2020
 T4	Person-property 47 63	президента   США
-T5	Event 37 70	выборах   президента   США   2020
+T5	Event 37 44	выборах
 T6	Ordinal 77 83	первая
 T7	Person-property 77 90	первая   леди
 T8	Date-absolute 157 194	Во   вторник   утром   ,   3   ноября
@@ -10,11 +10,11 @@ T9	Person 228 243	Меланьи   Трамп
 T10	Date-absolute 297 308	2020   года
 T11	GPE 274 294	Соединённых   Штатов
 T12	Person-property 261 294	президента   Соединённых   Штатов
-T13	Event 251 308	выборах   президента   Соединённых   Штатов   2020   года
+T13	Event 251 258	выборах
 T14	Person 492 507	Меланья   Трамп
 T15	Person 658 687	ее   супруг   Дональд   Трамп
 T16	Family 663 669	супруг
-T17	Event 749 763	день   выборов
+T17	Event 756 763	выборов
 T18	Date-absolute 811 818	сегодня
 T19	Organization 877 890	Белого   дома
 T20	Person-property 869 890	глава   Белого   дома
@@ -93,3 +93,4 @@ A25	Female T68
 A12	Past T47
 T69	Web-address 1108 1115	kp . ru
 T70	GPE 1457 1468	государства
+T71	Event 749 763	день   выборов

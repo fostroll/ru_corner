@@ -117,11 +117,11 @@
 14	после	_	_	_	_	_	_	_	bratA14=T41:Past|bratT41=Date-absolute
 15	потасовки	_	_	_	_	_	_	_	bratA14=T41:Past|bratT41=Date-absolute|bratT56=Event
 16	в	_	_	_	_	_	_	_	_
-17	московском	_	_	_	_	_	_	_	bratA16=T44:Adjective|bratT43=Organization|bratT44=GPE
-18	кафе	_	_	_	_	_	_	_	bratT43=Organization
-19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
-20	Кофемания	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
-21	''	_	_	_	_	_	_	_	bratT43=Organization
+17	московском	_	_	_	_	_	_	_	bratA16=T44:Adjective|bratT43=Facility|bratT44=GPE
+18	кафе	_	_	_	_	_	_	_	bratT43=Facility
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Facility
+20	Кофемания	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Facility
+21	''	_	_	_	_	_	_	_	bratT43=Facility
 22	и	_	_	_	_	_	_	_	_
 23	драки	_	_	_	_	_	_	_	bratT72=Event
 24	с	_	_	_	_	_	_	_	_
@@ -184,7 +184,7 @@
 10	приговор	_	_	_	_	_	_	_	_
 11	по	_	_	_	_	_	_	_	_
 12	этому	_	_	_	_	_	_	_	_
-13	делу	_	_	_	_	_	_	_	SpaceAfter=No
+13	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT93=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p6-s2
@@ -232,9 +232,9 @@
 6	суд	_	_	_	_	_	_	_	bratT79=Organization
 7	отправил	_	_	_	_	_	_	_	_
 8	их	_	_	_	_	_	_	_	_
-9	дело	_	_	_	_	_	_	_	_
+9	дело	_	_	_	_	_	_	_	bratT77=Event
 10	на	_	_	_	_	_	_	_	_
-11	новое	_	_	_	_	_	_	_	_
-12	рассмотрение	_	_	_	_	_	_	_	SpaceAfter=No
+11	новое	_	_	_	_	_	_	_	bratT92=Event
+12	рассмотрение	_	_	_	_	_	_	_	SpaceAfter=No|bratT92=Event
 13	.	_	_	_	_	_	_	_	_
 

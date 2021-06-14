@@ -10,7 +10,7 @@
 5	следователей	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
 7	смерти	_	_	_	_	_	_	_	bratT2=Event
-8	Тесака	_	_	_	_	_	_	_	bratA2=T3:Male|bratT2=Event|bratT3=Person|bratT37=Person-surname
+8	Тесака	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT37=Person-surname
 
 # newpar id = 0116-p2
 # par_text = Следователи СУ СКР по Челябинской области пришли к выводу, что националиста Максима Марцинкевича никто не убивал, а он покончил с собой в камере СИЗО. Об этом сообщил РБК адвокат семьи Марцинкевича Алексей Михальчик.
@@ -41,7 +41,7 @@
 23	собой	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
 25	камере	_	_	_	_	_	_	_	_
-26	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No
+26	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Facility
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0116-p2-s2
@@ -91,11 +91,11 @@
 6	впервые	_	_	_	_	_	_	_	_
 7	отказался	_	_	_	_	_	_	_	_
 8	возбуждать	_	_	_	_	_	_	_	_
-9	дело	_	_	_	_	_	_	_	_
+9	дело	_	_	_	_	_	_	_	bratT59=Event
 10	по	_	_	_	_	_	_	_	_
 11	статье	_	_	_	_	_	_	_	bratT20=Law
 12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law
-13	Убийство	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law
+13	Убийство	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law|bratT58=Event
 14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law
 15	,	_	_	_	_	_	_	_	_
 16	однако	_	_	_	_	_	_	_	_
@@ -156,15 +156,15 @@
 14	в	_	_	_	_	_	_	_	_
 15	обстоятельствах	_	_	_	_	_	_	_	_
 16	смерти	_	_	_	_	_	_	_	bratT28=Event
-17	Тесака	_	_	_	_	_	_	_	bratA14=T29:Male|bratT28=Event|bratT29=Person|bratT47=Person-surname
+17	Тесака	_	_	_	_	_	_	_	bratA14=T29:Male|bratT29=Person|bratT47=Person-surname
 18	нет	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
 21	вновь	_	_	_	_	_	_	_	_
 22	отказались	_	_	_	_	_	_	_	_
 23	возбуждать	_	_	_	_	_	_	_	_
-24	уголовное	_	_	_	_	_	_	_	_
-25	дело	_	_	_	_	_	_	_	SpaceAfter=No
+24	уголовное	_	_	_	_	_	_	_	bratT60=Event
+25	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0116-p4-s3

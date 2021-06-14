@@ -3,7 +3,7 @@
 # par_text = Суд отклонил иск МВД Бурятии к депутату за выступление о разгоне митинга против результатов выборов мэра Улан-Удэ
 # sent_id = 0034-p1-s1
 # text = Суд отклонил иск МВД Бурятии к депутату за выступление о разгоне митинга против результатов выборов мэра Улан-Удэ
-1	Суд	_	_	_	_	_	_	_	_
+1	Суд	_	_	_	_	_	_	_	bratT62=Organization
 2	отклонил	_	_	_	_	_	_	_	_
 3	иск	_	_	_	_	_	_	_	_
 4	МВД	_	_	_	_	_	_	_	bratT1=Organization
@@ -17,7 +17,7 @@
 12	митинга	_	_	_	_	_	_	_	bratT31=Event|bratT5=Event
 13	против	_	_	_	_	_	_	_	_
 14	результатов	_	_	_	_	_	_	_	_
-15	выборов	_	_	_	_	_	_	_	_
+15	выборов	_	_	_	_	_	_	_	bratT64=Event
 16	мэра	_	_	_	_	_	_	_	bratT6=Person-property
 17	Улан-Удэ	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=GPE
 
@@ -147,8 +147,8 @@
 3	о	_	_	_	_	_	_	_	_
 4	пытках	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	отделах	_	_	_	_	_	_	_	_
-7	полиции	_	_	_	_	_	_	_	bratT59=Organization
+6	отделах	_	_	_	_	_	_	_	bratA17=T63:Department|bratT63=Organization
+7	полиции	_	_	_	_	_	_	_	bratA17=T63:Department|bratT59=Organization|bratT63=Organization
 8	и	_	_	_	_	_	_	_	_
 9	силовом	_	_	_	_	_	_	_	bratT52=Event
 10	разгоне	_	_	_	_	_	_	_	bratT52=Event
@@ -160,7 +160,7 @@
 16	акций	_	_	_	_	_	_	_	bratT58=Event
 17	после	_	_	_	_	_	_	_	bratA15=T3:Past|bratT3=Date-absolute
 18	выборов	_	_	_	_	_	_	_	bratA15=T3:Past|bratT3=Date-absolute|bratT54=Event
-19	мэра	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Event|bratT55=Person-property
+19	мэра	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Person-property
 20	,	_	_	_	_	_	_	_	_
 21	в	_	_	_	_	_	_	_	_
 22	которых	_	_	_	_	_	_	_	_

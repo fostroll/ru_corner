@@ -127,7 +127,7 @@
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0049-p4-s2
-# text = Сервисная кампания по замене подушек может обойтись GM примерно в $1,2 млрд. Отзыву подлежат внедорожники и пикапы, среди которых: Cadillac Escalade, Chevrolet Silverado, Chevrolet Suburban, Chevrolet Tahoe, GMC Sierra и GMC Yukon.
+# text = Сервисная кампания по замене подушек может обойтись GM примерно в $1,2 млрд.
 1	Сервисная	_	_	_	_	_	_	_	_
 2	кампания	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
@@ -141,7 +141,11 @@
 11-12	$1,2	_	_	_	_	_	_	_	_
 11	$	_	_	_	_	_	_	_	SpaceAfter=No
 12	1,2	_	_	_	_	_	_	_	_
-13	млрд.	_	_	_	_	_	_	_	_
+13	млрд	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0049-p4-s3
+# text = Отзыву подлежат внедорожники и пикапы, среди которых: Cadillac Escalade, Chevrolet Silverado, Chevrolet Suburban, Chevrolet Tahoe, GMC Sierra и GMC Yukon.
 14	Отзыву	_	_	_	_	_	_	_	_
 15	подлежат	_	_	_	_	_	_	_	_
 16	внедорожники	_	_	_	_	_	_	_	_

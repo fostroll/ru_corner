@@ -7,7 +7,7 @@
 2	за	_	_	_	_	_	_	_	bratT11=Other-group
 3	равноправие	_	_	_	_	_	_	_	bratT11=Other-group
 4	разгромили	_	_	_	_	_	_	_	_
-5	супермаркет	_	_	_	_	_	_	_	_
+5	супермаркет	_	_	_	_	_	_	_	bratT30=Facility
 6	в	_	_	_	_	_	_	_	_
 7	Бразилии	_	_	_	_	_	_	_	bratT1=GPE
 
@@ -28,10 +28,10 @@
 11	разгромили	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
 13	подожгли	_	_	_	_	_	_	_	_
-14	супермаркет	_	_	_	_	_	_	_	_
-15	французской	_	_	_	_	_	_	_	bratA5=T29:Adjective|bratT29=GPE|bratT4=Organization
-16	сети	_	_	_	_	_	_	_	bratT4=Organization
-17	Carrefour	_	_	_	_	_	_	_	bratT4=Organization
+14	супермаркет	_	_	_	_	_	_	_	bratT31=Facility
+15	французской	_	_	_	_	_	_	_	bratA5=T29:Adjective|bratT29=GPE|bratT31=Facility|bratT4=Organization
+16	сети	_	_	_	_	_	_	_	bratT31=Facility|bratT4=Organization
+17	Carrefour	_	_	_	_	_	_	_	bratT31=Facility|bratT4=Organization
 18	после	_	_	_	_	_	_	_	bratA3=T24:Past|bratT24=Date-relative
 19	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T24:Past|bratT24=Date-relative
 20	,	_	_	_	_	_	_	_	bratA3=T24:Past|bratT24=Date-relative
@@ -75,7 +75,7 @@
 11	они	_	_	_	_	_	_	_	_
 12	ворвались	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	магазин	_	_	_	_	_	_	_	_
+14	магазин	_	_	_	_	_	_	_	bratT32=Facility
 15	и	_	_	_	_	_	_	_	_
 16	разгромили	_	_	_	_	_	_	_	_
 17	большую	_	_	_	_	_	_	_	bratT9=Percent
@@ -99,7 +99,7 @@
 5	людей	_	_	_	_	_	_	_	bratT13=Quantity
 6	громят	_	_	_	_	_	_	_	_
 7	прилавки	_	_	_	_	_	_	_	_
-8	гипермаркета	_	_	_	_	_	_	_	_
+8	гипермаркета	_	_	_	_	_	_	_	bratT33=Facility
 9	в	_	_	_	_	_	_	_	_
 10	Сан-Паулу	_	_	_	_	_	_	_	bratT14=GPE
 11	и	_	_	_	_	_	_	_	_
@@ -151,8 +151,8 @@
 5	был	_	_	_	_	_	_	_	_
 6	убит	_	_	_	_	_	_	_	_
 7	охранниками	_	_	_	_	_	_	_	bratT19=Person-property
-8	торгового	_	_	_	_	_	_	_	_
-9	центра	_	_	_	_	_	_	_	_
+8	торгового	_	_	_	_	_	_	_	bratT34=Facility
+9	центра	_	_	_	_	_	_	_	bratT34=Facility
 10	в	_	_	_	_	_	_	_	_
 11	городе	_	_	_	_	_	_	_	bratT20=GPE
 12	Порту-Алегри	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE

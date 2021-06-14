@@ -8,8 +8,8 @@
 3	видео	_	_	_	_	_	_	_	_
 4	пожара	_	_	_	_	_	_	_	bratT2=Event
 5	на	_	_	_	_	_	_	_	_
-6	электромеханическом	_	_	_	_	_	_	_	bratT3=Organization
-7	заводе	_	_	_	_	_	_	_	bratT3=Organization
+6	электромеханическом	_	_	_	_	_	_	_	bratT3=Facility
+7	заводе	_	_	_	_	_	_	_	bratT3=Facility
 8	в	_	_	_	_	_	_	_	_
 9	Петербурге	_	_	_	_	_	_	_	bratT4=GPE
 
@@ -21,18 +21,18 @@
 2	видео	_	_	_	_	_	_	_	_
 3	с	_	_	_	_	_	_	_	_
 4	места	_	_	_	_	_	_	_	_
-5	пожара	_	_	_	_	_	_	_	SpaceAfter=No
+5	пожара	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
 6	,	_	_	_	_	_	_	_	_
 7	возникшего	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	территории	_	_	_	_	_	_	_	_
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
-11	Ленинградского	_	_	_	_	_	_	_	bratA1=T28:Adjective|bratT28=GPE|bratT5=Organization
-12	электромеханического	_	_	_	_	_	_	_	bratT5=Organization
-13	завода	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
-14	''	_	_	_	_	_	_	_	bratT5=Organization
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Facility
+11	Ленинградского	_	_	_	_	_	_	_	bratA1=T28:Adjective|bratT28=GPE|bratT5=Facility
+12	электромеханического	_	_	_	_	_	_	_	bratT5=Facility
+13	завода	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Facility
+14	''	_	_	_	_	_	_	_	bratT5=Facility
 15	(	_	_	_	_	_	_	_	SpaceAfter=No
-16	ЛЭМЗ	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+16	ЛЭМЗ	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Facility
 17	)	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	Санкт-Петербурге	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
@@ -43,7 +43,7 @@
 1	Кадры	_	_	_	_	_	_	_	_
 2	с	_	_	_	_	_	_	_	_
 3	места	_	_	_	_	_	_	_	_
-4	происшествия	_	_	_	_	_	_	_	_
+4	происшествия	_	_	_	_	_	_	_	bratT41=Event
 5	опубликовала	_	_	_	_	_	_	_	_
 6	пресс-служба	_	_	_	_	_	_	_	bratA2=T29:Department|bratT29=Organization
 7	ГУ	_	_	_	_	_	_	_	bratA2=T29:Department|bratT29=Organization|bratT8=Organization
@@ -63,8 +63,8 @@
 5	как	_	_	_	_	_	_	_	_
 6	пламя	_	_	_	_	_	_	_	_
 7	охватило	_	_	_	_	_	_	_	_
-8	здание	_	_	_	_	_	_	_	_
-9	предприятия	_	_	_	_	_	_	_	SpaceAfter=No
+8	здание	_	_	_	_	_	_	_	bratT39=Facility
+9	предприятия	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Facility|bratT40=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0075-p4
@@ -98,7 +98,7 @@
 1	Затем	_	_	_	_	_	_	_	_
 2	на	_	_	_	_	_	_	_	_
 3	место	_	_	_	_	_	_	_	_
-4	происшествия	_	_	_	_	_	_	_	_
+4	происшествия	_	_	_	_	_	_	_	bratT44=Event
 5	выехали	_	_	_	_	_	_	_	_
 6	пожарные	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
 7	.	_	_	_	_	_	_	_	_
@@ -113,7 +113,7 @@
 6	уровень	_	_	_	_	_	_	_	_
 7	сложности	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
-9	объекте	_	_	_	_	_	_	_	_
+9	объекте	_	_	_	_	_	_	_	bratT47=Facility
 10	постоянно	_	_	_	_	_	_	_	_
 11	повышался	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -122,9 +122,9 @@
 15	площадь	_	_	_	_	_	_	_	_
 16	возгорания	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	_
-18	третьем	_	_	_	_	_	_	_	bratT16=Ordinal
-19	этаже	_	_	_	_	_	_	_	_
-20	здания	_	_	_	_	_	_	_	_
+18	третьем	_	_	_	_	_	_	_	bratT16=Ordinal|bratT38=Facility
+19	этаже	_	_	_	_	_	_	_	bratT38=Facility
+20	здания	_	_	_	_	_	_	_	bratT37=Facility|bratT38=Facility
 21	достигла	_	_	_	_	_	_	_	_
 22	600	_	_	_	_	_	_	_	bratT17=Quantity
 23	кв.	_	_	_	_	_	_	_	bratT17=Quantity
@@ -143,7 +143,7 @@
 # text = Спасатели присвоили пожару четвертый уровень сложности.
 1	Спасатели	_	_	_	_	_	_	_	bratT20=Person-property
 2	присвоили	_	_	_	_	_	_	_	_
-3	пожару	_	_	_	_	_	_	_	_
+3	пожару	_	_	_	_	_	_	_	bratT46=Event
 4	четвертый	_	_	_	_	_	_	_	bratT21=Ordinal
 5	уровень	_	_	_	_	_	_	_	_
 6	сложности	_	_	_	_	_	_	_	SpaceAfter=No
@@ -164,7 +164,7 @@
 # text = К ликвидации пожара МЧС привлекло 17 единиц техники и 58 человека личного состава.
 1	К	_	_	_	_	_	_	_	_
 2	ликвидации	_	_	_	_	_	_	_	_
-3	пожара	_	_	_	_	_	_	_	_
+3	пожара	_	_	_	_	_	_	_	bratT45=Event
 4	МЧС	_	_	_	_	_	_	_	bratT22=Organization
 5	привлекло	_	_	_	_	_	_	_	_
 6	17	_	_	_	_	_	_	_	bratT23=Quantity
@@ -183,7 +183,7 @@
 # text = По факту пожара прокуратура Санкт-Петербурга организовала проверку.
 1	По	_	_	_	_	_	_	_	_
 2	факту	_	_	_	_	_	_	_	_
-3	пожара	_	_	_	_	_	_	_	_
+3	пожара	_	_	_	_	_	_	_	bratT48=Event
 4	прокуратура	_	_	_	_	_	_	_	bratT25=Organization
 5	Санкт-Петербурга	_	_	_	_	_	_	_	bratT25=Organization|bratT26=GPE
 6	организовала	_	_	_	_	_	_	_	_
@@ -196,7 +196,7 @@
 2	предстоит	_	_	_	_	_	_	_	_
 3	установить	_	_	_	_	_	_	_	_
 4	причины	_	_	_	_	_	_	_	_
-5	пожара	_	_	_	_	_	_	_	SpaceAfter=No
+5	пожара	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Event
 6	,	_	_	_	_	_	_	_	_
 7	дать	_	_	_	_	_	_	_	_
 8	оценку	_	_	_	_	_	_	_	_

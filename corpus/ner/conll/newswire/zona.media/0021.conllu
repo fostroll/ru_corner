@@ -9,12 +9,12 @@
 4	в	_	_	_	_	_	_	_	_
 5	халатности	_	_	_	_	_	_	_	_
 6	за	_	_	_	_	_	_	_	_
-7	отказ	_	_	_	_	_	_	_	_
-8	завести	_	_	_	_	_	_	_	_
-9	дело	_	_	_	_	_	_	_	_
+7	отказ	_	_	_	_	_	_	_	bratT43=Event
+8	завести	_	_	_	_	_	_	_	bratT43=Event
+9	дело	_	_	_	_	_	_	_	bratT33=Event|bratT43=Event
 10	о	_	_	_	_	_	_	_	_
-11	массовом	_	_	_	_	_	_	_	_
-12	убийстве	_	_	_	_	_	_	_	_
+11	массовом	_	_	_	_	_	_	_	bratT42=Event
+12	убийстве	_	_	_	_	_	_	_	bratT42=Event
 13	на	_	_	_	_	_	_	_	_
 14	подростка	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Age
 15	,	_	_	_	_	_	_	_	_
@@ -55,12 +55,12 @@
 23	не	_	_	_	_	_	_	_	_
 24	стал	_	_	_	_	_	_	_	_
 25	возбуждать	_	_	_	_	_	_	_	_
-26	дело	_	_	_	_	_	_	_	_
+26	дело	_	_	_	_	_	_	_	bratT44=Event
 27	о	_	_	_	_	_	_	_	_
-28	покушении	_	_	_	_	_	_	_	_
-29	на	_	_	_	_	_	_	_	_
-30	массовое	_	_	_	_	_	_	_	_
-31	убийство	_	_	_	_	_	_	_	_
+28	покушении	_	_	_	_	_	_	_	bratT45=Event
+29	на	_	_	_	_	_	_	_	bratT45=Event
+30	массовое	_	_	_	_	_	_	_	bratT45=Event|bratT46=Event
+31	убийство	_	_	_	_	_	_	_	bratT45=Event|bratT46=Event
 32	против	_	_	_	_	_	_	_	_
 33	подростка	_	_	_	_	_	_	_	bratT14=Age
 34	Данила	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT12=Person-forename
@@ -83,11 +83,11 @@
 # text = Заместитель начальника отдела полиции №3 в марте 2019 года утвердил постановление инспектора по делам несовершеннолетних об отказе в возбуждении дела против школьника.
 1	Заместитель	_	_	_	_	_	_	_	bratT15=Person-property
 2	начальника	_	_	_	_	_	_	_	bratT15=Person-property
-3	отдела	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-4	полиции	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
+3	отдела	_	_	_	_	_	_	_	bratA8=T16:Department|bratT15=Person-property|bratT16=Organization
+4	полиции	_	_	_	_	_	_	_	bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT32=Organization
 5-6	№3	_	_	_	_	_	_	_	_
-5	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization|bratT17=Ordinal
-6	3	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT17=Ordinal
+5	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT17=Ordinal
+6	3	_	_	_	_	_	_	_	bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT17=Ordinal
 7	в	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 8	марте	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 9	2019	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
@@ -102,7 +102,7 @@
 18	отказе	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
 20	возбуждении	_	_	_	_	_	_	_	_
-21	дела	_	_	_	_	_	_	_	_
+21	дела	_	_	_	_	_	_	_	bratT47=Event
 22	против	_	_	_	_	_	_	_	_
 23	школьника	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
 24	.	_	_	_	_	_	_	_	_
@@ -165,11 +165,11 @@
 3	отказала	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	возбуждении	_	_	_	_	_	_	_	_
-6	дела	_	_	_	_	_	_	_	_
+6	дела	_	_	_	_	_	_	_	bratT48=Event
 7	о	_	_	_	_	_	_	_	_
-8	подготовке	_	_	_	_	_	_	_	_
-9	к	_	_	_	_	_	_	_	_
-10	убийству	_	_	_	_	_	_	_	_
+8	подготовке	_	_	_	_	_	_	_	bratT58=Event
+9	к	_	_	_	_	_	_	_	bratT58=Event
+10	убийству	_	_	_	_	_	_	_	bratT57=Event|bratT58=Event
 11	двух	_	_	_	_	_	_	_	bratT62=Quantity
 12	или	_	_	_	_	_	_	_	bratT62=Quantity
 13	более	_	_	_	_	_	_	_	bratT62=Quantity
@@ -202,7 +202,7 @@
 40	на	_	_	_	_	_	_	_	_
 41	утверждение	_	_	_	_	_	_	_	_
 42	замглавы	_	_	_	_	_	_	_	bratT34=Person-property
-43	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property|bratT35=Organization
+43	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Department|bratT34=Person-property|bratT35=Organization
 44	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0021-p5
@@ -216,11 +216,11 @@
 5	подробности	_	_	_	_	_	_	_	_
 6	проверки	_	_	_	_	_	_	_	_
 7	по	_	_	_	_	_	_	_	_
-8	делу	_	_	_	_	_	_	_	_
+8	делу	_	_	_	_	_	_	_	bratT49=Event
 9	о	_	_	_	_	_	_	_	_
-10	покушении	_	_	_	_	_	_	_	_
-11	на	_	_	_	_	_	_	_	_
-12	массовое	_	_	_	_	_	_	_	_
-13	убийстве	_	_	_	_	_	_	_	SpaceAfter=No
+10	покушении	_	_	_	_	_	_	_	bratT54=Event
+11	на	_	_	_	_	_	_	_	bratT54=Event
+12	массовое	_	_	_	_	_	_	_	bratT54=Event|bratT55=Event
+13	убийстве	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Event|bratT55=Event
 14	.	_	_	_	_	_	_	_	_
 

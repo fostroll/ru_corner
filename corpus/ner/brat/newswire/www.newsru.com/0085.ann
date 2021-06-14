@@ -35,9 +35,8 @@ T30	Person-property 1711 1724	оперативников
 T31	Person-property 15 25	осужденных
 T32	Person-property 1019 1029	осужденных
 T33	Person-property 1263 1273	осужденных
-T34	Person-property 1979 1996	фигурантов   дела
-T35	Person-property 205 222	фигурантов   дела
-T36	Person-property 1595 1612	фигурантов   дела
+T34	Person 1979 1996	фигурантов   дела
+T36	Person 1595 1612	фигурантов   дела
 T37	Family 1739 1747	сыновьям
 T38	Family 1754 1760	мужьям
 T39	Family 0 12	Родственники
@@ -48,7 +47,6 @@ T43	Family 739 744	детей
 T44	Family 1004 1016	Родственники
 T45	Date-period-absolute 1511 1534	на   стадии   следствия
 T46	Date-absolute 1919 1937	после   вступления
-T47	Person-property 1871 1877	авторы
 T48	GPE 280 290	российских
 A5	Adjective T48
 T49	Person-forename 372 379	Татьяну
@@ -74,9 +72,24 @@ T61	Event 1525 1534	следствия
 T62	Event 1927 1960	вступления   приговора   в   силу
 T63	Person 0 25	Родственники   осужденных
 T64	Person 147 157	их   детей
-T65	Person 190 222	Родственники   фигурантов   дела
+T65	Person 190 239	Родственники   фигурантов   дела   ``   Сети   ''
 T66	Person 734 744	их   детей
 T67	Person 1004 1029	Родственники   осужденных
 T68	Person 1731 1760	нашим   сыновьям   и   мужьям
 A15	Plural T68
 T69	Person-property 405 439	коллегу   в   Пензенской   области
+T47	Person 1871 1889	авторы   обращения
+T60	Person 694 706	Родственники
+T70	Organization 1541 1545	СИЗО
+T71	Organization 1677 1681	СИЗО
+T72	Person 1739 1747	сыновьям
+T73	Person 1754 1760	мужьям
+T74	Event 33 37	делу
+T75	Organization 40 54	``   Сети   ''
+T76	Organization 225 239	``   Сети   ''
+T77	Event 218 222	дела
+T78	Event 1144 1148	делу
+T35	Person 205 239	фигурантов   дела   ``   Сети   ''
+T79	Organization 1151 1165	``   Сети   ''
+T80	Event 1608 1612	дела
+T81	Event 1992 1996	дела

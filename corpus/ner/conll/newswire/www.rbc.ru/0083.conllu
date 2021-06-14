@@ -190,7 +190,7 @@
 4	августа	_	_	_	_	_	_	_	bratA11=T33:Past|bratT33=Date-absolute
 5	прошли	_	_	_	_	_	_	_	_
 6	выборы	_	_	_	_	_	_	_	bratT34=Event
-7	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Event|bratT58=Person-property
+7	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Person-property
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p6-s2
@@ -255,7 +255,7 @@
 3	заявлял	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	выборы	_	_	_	_	_	_	_	_
+6	выборы	_	_	_	_	_	_	_	bratT74=Event
 7	прошли	_	_	_	_	_	_	_	_
 8	честно	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_
@@ -276,8 +276,8 @@
 1	Силовики	_	_	_	_	_	_	_	bratT46=Person-property
 2	разгоняли	_	_	_	_	_	_	_	_
 3	протесты	_	_	_	_	_	_	_	bratT47=Event
-4	в	_	_	_	_	_	_	_	bratT47=Event
-5	Белоруссии	_	_	_	_	_	_	_	bratT47=Event|bratT48=GPE
+4	в	_	_	_	_	_	_	_	_
+5	Белоруссии	_	_	_	_	_	_	_	bratT48=GPE
 6	с	_	_	_	_	_	_	_	_
 7	помощью	_	_	_	_	_	_	_	_
 8	дубинок	_	_	_	_	_	_	_	SpaceAfter=No
@@ -291,7 +291,7 @@
 
 # sent_id = 0083-p7-s2
 # text = Акции неоднократно заканчивались задержаниями.
-1	Акции	_	_	_	_	_	_	_	_
+1	Акции	_	_	_	_	_	_	_	bratT75=Event
 2	неоднократно	_	_	_	_	_	_	_	bratT66=Quantity
 3	заканчивались	_	_	_	_	_	_	_	_
 4	задержаниями	_	_	_	_	_	_	_	SpaceAfter=No

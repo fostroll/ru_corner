@@ -12,7 +12,7 @@ A3	Adjective T8
 T9	Date-period-absolute 154 166	с   6   июля
 T10	Quantity 208 227	шести   священникам
 T11	Person-property 216 258	священникам   Среднеуральского   монастыря
-T12	Organization 230 258	Среднеуральского   монастыря
+T12	Facility 230 258	Среднеуральского   монастыря
 T13	Location 230 246	Среднеуральского
 A6	Adjective T13
 T14	Person 286 305	схииугумен   Сергий
@@ -34,7 +34,7 @@ T25	Person 737 744	Сергием
 A11	Male T25
 T26	Person-forename 737 744	Сергием
 T27	Organization 798 805	66 . ru
-T28	Person-property 888 896	клирикам
+T28	Person-property 888 908	клирикам   монастыря
 T29	Quantity 911 937	кроме   двух   священников
 T30	Person-property 926 937	священников
 T31	Date-relative 943 948	Ранее
@@ -45,7 +45,7 @@ T34	Person-forename 977 983	Сергия
 T35	Date-absolute 995 1001	Весной
 A13	Past T35
 T36	Event 1035 1064	псевдопандемии   коронавируса
-T37	Organization 1188 1225	Среднеуральский   женский   монастырь
+T37	Facility 1188 1225	Среднеуральский   женский   монастырь
 T38	Location 1188 1203	Среднеуральский
 A14	Adjective T38
 T39	Organization 1230 1249	``   Медиазона   ''
@@ -62,3 +62,6 @@ T43	Date-period-absolute 415 438	вплоть   до   выяснения
 A19	Past-UNK T43
 T44	Cardinal 798 800	66
 T45	Cardinal 323 325	66
+T46	Facility 75 84	монастыря
+T47	Facility 899 908	монастыря
+T48	Organization 1152 1170	церковные   власти

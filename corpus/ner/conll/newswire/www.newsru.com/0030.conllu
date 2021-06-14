@@ -4,10 +4,10 @@
 # sent_id = 0030-p1-s1
 # text = По делу об убийстве учителя во Франции перед судом предстанут 7 человек, включая отца убийцы и подростков, указавших на жертву
 1	По	_	_	_	_	_	_	_	_
-2	делу	_	_	_	_	_	_	_	_
+2	делу	_	_	_	_	_	_	_	bratT76=Event
 3	об	_	_	_	_	_	_	_	_
 4	убийстве	_	_	_	_	_	_	_	bratT18=Event
-5	учителя	_	_	_	_	_	_	_	bratT1=Person-property|bratT18=Event
+5	учителя	_	_	_	_	_	_	_	bratT1=Person-property
 6	во	_	_	_	_	_	_	_	_
 7	Франции	_	_	_	_	_	_	_	bratT2=GPE
 8	перед	_	_	_	_	_	_	_	_
@@ -34,18 +34,18 @@
 2	человек	_	_	_	_	_	_	_	bratT7=Quantity
 3	предстанут	_	_	_	_	_	_	_	_
 4	перед	_	_	_	_	_	_	_	_
-5	судом	_	_	_	_	_	_	_	_
+5	судом	_	_	_	_	_	_	_	bratT62=Organization
 6	во	_	_	_	_	_	_	_	_
 7	Франции	_	_	_	_	_	_	_	bratT8=GPE
 8	в	_	_	_	_	_	_	_	_
 9	рамках	_	_	_	_	_	_	_	_
 10	расследования	_	_	_	_	_	_	_	_
-11	дела	_	_	_	_	_	_	_	_
+11	дела	_	_	_	_	_	_	_	bratT77=Event
 12	об	_	_	_	_	_	_	_	_
 13	убийстве	_	_	_	_	_	_	_	bratT19=Event
-14	учителя	_	_	_	_	_	_	_	bratA4=T12:Male|bratT11=Person-property|bratT12=Person|bratT19=Event
-15	Самюэля	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT19=Event|bratT57=Person-forename
-16	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Male|bratT12=Person|bratT19=Event|bratT58=Person-surname
+14	учителя	_	_	_	_	_	_	_	bratA4=T12:Male|bratT11=Person-property|bratT12=Person
+15	Самюэля	_	_	_	_	_	_	_	bratA4=T12:Male|bratT12=Person|bratT57=Person-forename
+16	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Male|bratT12=Person|bratT58=Person-surname
 17	,	_	_	_	_	_	_	_	_
 18	обезглавленного	_	_	_	_	_	_	_	_
 19	18-летним	_	_	_	_	_	_	_	bratT13=Age
@@ -80,7 +80,7 @@
 8	слушаний	_	_	_	_	_	_	_	bratA6=T10:Past|bratT10=Date-absolute|bratT71=Event
 9	по	_	_	_	_	_	_	_	_
 10	данному	_	_	_	_	_	_	_	_
-11	делу	_	_	_	_	_	_	_	_
+11	делу	_	_	_	_	_	_	_	bratT78=Event
 12	обвинения	_	_	_	_	_	_	_	_
 13	могут	_	_	_	_	_	_	_	_
 14	быть	_	_	_	_	_	_	_	_
@@ -112,7 +112,7 @@
 19	критиковавший	_	_	_	_	_	_	_	_
 20	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T27:Male|bratT27=Person|bratT61=Person-surname
 21	,	_	_	_	_	_	_	_	_
-22	исламистский	_	_	_	_	_	_	_	bratA8=T62:Adjective|bratA9=T29:Male|bratT28=Religious-group|bratT29=Person|bratT62=Religious-group
+22	исламистский	_	_	_	_	_	_	_	bratA9=T29:Male|bratT28=Religious-group|bratT29=Person
 23	активист	_	_	_	_	_	_	_	bratA9=T29:Male|bratT28=Religious-group|bratT29=Person
 24	Абдельхаким	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT63=Person-forename
 25	Сефриуи	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT64=Person-surname
@@ -135,9 +135,9 @@
 1	Остальные	_	_	_	_	_	_	_	_
 2	задержанные	_	_	_	_	_	_	_	bratT31=Other-group
 3	по	_	_	_	_	_	_	_	_
-4	делу	_	_	_	_	_	_	_	_
+4	делу	_	_	_	_	_	_	_	bratT79=Event
 5	о	_	_	_	_	_	_	_	_
-6	теракте	_	_	_	_	_	_	_	_
+6	теракте	_	_	_	_	_	_	_	bratT80=Event
 7	освобождены	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_
 
@@ -188,8 +188,8 @@
 2	пришел	_	_	_	_	_	_	_	_
 3	к	_	_	_	_	_	_	_	_
 4	зданию	_	_	_	_	_	_	_	bratT68=Facility
-5	средней	_	_	_	_	_	_	_	bratT68=Facility
-6	школы	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Facility
+5	средней	_	_	_	_	_	_	_	bratT68=Facility|bratT75=Organization
+6	школы	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Facility|bratT75=Organization
 7	,	_	_	_	_	_	_	_	_
 8	где	_	_	_	_	_	_	_	_
 9	преподавал	_	_	_	_	_	_	_	_

@@ -30,7 +30,7 @@
 25	затем	_	_	_	_	_	_	_	bratT47=Date-relative
 26	избивали	_	_	_	_	_	_	_	_
 27	в	_	_	_	_	_	_	_	_
-28	колонии	_	_	_	_	_	_	_	_
+28	колонии	_	_	_	_	_	_	_	bratT19=Organization
 
 # newpar id = 0099-p2
 # par_text = Европейский суд по правам человека присудил 67 тысяч евро компенсации уроженцу Чечни Муслиму Чудалову, которого под пытками заставили признать в нескольких преступлений, а затем избивали в колонии. Об этом говорится в соответствующем решении на сайте суда.
@@ -64,7 +64,7 @@
 26	затем	_	_	_	_	_	_	_	bratA19=T44:Past|bratT44=Date-relative
 27	избивали	_	_	_	_	_	_	_	_
 28	в	_	_	_	_	_	_	_	_
-29	колонии	_	_	_	_	_	_	_	SpaceAfter=No
+29	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Organization
 30	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0099-p2-s2
@@ -77,7 +77,7 @@
 6	решении	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
 8	сайте	_	_	_	_	_	_	_	bratA6=T15:Media|bratT15=Service
-9	суда	_	_	_	_	_	_	_	SpaceAfter=No
+9	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p3
@@ -106,8 +106,8 @@
 5	,	_	_	_	_	_	_	_	_
 6	по	_	_	_	_	_	_	_	_
 7	версии	_	_	_	_	_	_	_	_
-8	российских	_	_	_	_	_	_	_	bratA7=T20:Adjective|bratT20=GPE
-9	властей	_	_	_	_	_	_	_	SpaceAfter=No
+8	российских	_	_	_	_	_	_	_	bratA7=T20:Adjective|bratT20=GPE|bratT50=Organization
+9	властей	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Organization
 10	,	_	_	_	_	_	_	_	_
 11	Чудалова	_	_	_	_	_	_	_	bratA8=T21:Male|bratT21=Person|bratT22=Person-surname
 12	задержали	_	_	_	_	_	_	_	_
@@ -124,7 +124,7 @@
 3	привезли	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	отдел	_	_	_	_	_	_	_	bratT24=Organization
-6	милиции	_	_	_	_	_	_	_	bratT24=Organization
+6	милиции	_	_	_	_	_	_	_	bratT24=Organization|bratT51=Organization
 7	по	_	_	_	_	_	_	_	bratT24=Organization
 8	Ленинскому	_	_	_	_	_	_	_	bratT24=Organization|bratT25=GPE
 9	району	_	_	_	_	_	_	_	bratT24=Organization|bratT25=GPE

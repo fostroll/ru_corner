@@ -3,11 +3,11 @@
 # par_text = Суд вернул в прокуратуру дело финансиста группы «Сумма» об участии в «преступном сообществе» братьев Магомедовых
 # sent_id = 0065-p1-s1
 # text = Суд вернул в прокуратуру дело финансиста группы «Сумма» об участии в «преступном сообществе» братьев Магомедовых
-1	Суд	_	_	_	_	_	_	_	_
+1	Суд	_	_	_	_	_	_	_	bratT23=Organization
 2	вернул	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	прокуратуру	_	_	_	_	_	_	_	bratT22=Organization
-5	дело	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	bratT24=Event
 6	финансиста	_	_	_	_	_	_	_	bratT2=Person-property
 7	группы	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property
 8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT1=Organization|bratT2=Person-property
@@ -34,7 +34,7 @@
 5	вернул	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	прокуратуру	_	_	_	_	_	_	_	bratT9=Organization
-8	дело	_	_	_	_	_	_	_	_
+8	дело	_	_	_	_	_	_	_	bratT25=Event
 9	бывшего	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT12=Person-property
 10	финансиста	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT12=Person-property
 11	группы	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Organization|bratT12=Person-property
@@ -206,13 +206,13 @@
 # sent_id = 0065-p4-s4
 # text = Их дело выделили в отдельное производство из дела Магомедовых.
 1	Их	_	_	_	_	_	_	_	_
-2	дело	_	_	_	_	_	_	_	_
+2	дело	_	_	_	_	_	_	_	bratT26=Event
 3	выделили	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	отдельное	_	_	_	_	_	_	_	_
 6	производство	_	_	_	_	_	_	_	_
 7	из	_	_	_	_	_	_	_	_
-8	дела	_	_	_	_	_	_	_	_
+8	дела	_	_	_	_	_	_	_	bratT28=Event
 9	Магомедовых	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Person|bratT63=Person-surname
 10	.	_	_	_	_	_	_	_	_
 

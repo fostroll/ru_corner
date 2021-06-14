@@ -5,13 +5,13 @@
 # text = МВД возбудило уголовные дела против трех свидетелей по делу Ефремова
 1	МВД	_	_	_	_	_	_	_	bratT1=Organization
 2	возбудило	_	_	_	_	_	_	_	_
-3	уголовные	_	_	_	_	_	_	_	_
-4	дела	_	_	_	_	_	_	_	_
+3	уголовные	_	_	_	_	_	_	_	bratT55=Event
+4	дела	_	_	_	_	_	_	_	bratT55=Event
 5	против	_	_	_	_	_	_	_	_
 6	трех	_	_	_	_	_	_	_	bratT3=Quantity
 7	свидетелей	_	_	_	_	_	_	_	bratT3=Quantity
 8	по	_	_	_	_	_	_	_	_
-9	делу	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	bratT52=Event
 10	Ефремова	_	_	_	_	_	_	_	bratT2=Person|bratT34=Person-surname
 
 # newpar id = 0008-p2
@@ -22,13 +22,13 @@
 2	России	_	_	_	_	_	_	_	bratT4=GPE|bratT5=Organization
 3	возбудило	_	_	_	_	_	_	_	_
 4	три	_	_	_	_	_	_	_	bratT6=Quantity
-5	уголовных	_	_	_	_	_	_	_	bratT6=Quantity
-6	дела	_	_	_	_	_	_	_	bratT6=Quantity
+5	уголовных	_	_	_	_	_	_	_	bratT54=Event|bratT6=Quantity
+6	дела	_	_	_	_	_	_	_	bratT54=Event|bratT6=Quantity
 7	в	_	_	_	_	_	_	_	_
 8	отношении	_	_	_	_	_	_	_	_
 9	свидетелей	_	_	_	_	_	_	_	bratT7=Other-group
 10	по	_	_	_	_	_	_	_	_
-11	делу	_	_	_	_	_	_	_	_
+11	делу	_	_	_	_	_	_	_	bratT53=Event
 12	актера	_	_	_	_	_	_	_	bratA4=T9:Male|bratT8=Person-property|bratT9=Person
 13	Михаила	_	_	_	_	_	_	_	bratA4=T9:Male|bratT35=Person-forename|bratT9=Person
 14	Ефремова	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T9:Male|bratT36=Person-surname|bratT9=Person
@@ -47,7 +47,7 @@
 6	ложных	_	_	_	_	_	_	_	_
 7	показаний	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	суде	_	_	_	_	_	_	_	SpaceAfter=No
+9	суде	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Organization
 10	,	_	_	_	_	_	_	_	_
 11	сообщила	_	_	_	_	_	_	_	_
 12	официальный	_	_	_	_	_	_	_	bratA5=T13:Female|bratT12=Person-property|bratT13=Person
@@ -72,8 +72,8 @@
 9	Москве	_	_	_	_	_	_	_	bratA2=T14:Department|bratT14=Organization|bratT16=GPE|bratT49=Organization
 10	возбуждены	_	_	_	_	_	_	_	_
 11	три	_	_	_	_	_	_	_	bratT18=Quantity
-12	уголовных	_	_	_	_	_	_	_	bratT18=Quantity
-13	дела	_	_	_	_	_	_	_	bratT18=Quantity
+12	уголовных	_	_	_	_	_	_	_	bratT18=Quantity|bratT56=Event
+13	дела	_	_	_	_	_	_	_	bratT18=Quantity|bratT56=Event
 14	в	_	_	_	_	_	_	_	_
 15	отношении	_	_	_	_	_	_	_	_
 16	свидетелей	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-group
@@ -122,7 +122,7 @@
 11	Пашаев	_	_	_	_	_	_	_	bratA8=T26:Male|bratT26=Person|bratT44=Person-surname
 12	пригласил	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	суд	_	_	_	_	_	_	_	SpaceAfter=No
+14	суд	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Organization
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0008-p4-s2

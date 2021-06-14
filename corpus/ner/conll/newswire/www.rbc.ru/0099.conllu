@@ -4,8 +4,8 @@
 # sent_id = 0099-p1-s1
 # text = Из ростовской больницы после массовой гибели пациентов уволились врачи
 1	Из	_	_	_	_	_	_	_	_
-2	ростовской	_	_	_	_	_	_	_	bratA8=T35:Adjective|bratT35=GPE
-3	больницы	_	_	_	_	_	_	_	_
+2	ростовской	_	_	_	_	_	_	_	bratA8=T35:Adjective|bratT35=GPE|bratT62=Organization
+3	больницы	_	_	_	_	_	_	_	bratT62=Organization
 4	после	_	_	_	_	_	_	_	bratA15=T47:Past|bratT47=Date-absolute
 5	массовой	_	_	_	_	_	_	_	bratA15=T47:Past|bratT47=Date-absolute|bratT52=Event
 6	гибели	_	_	_	_	_	_	_	bratA15=T47:Past|bratT47=Date-absolute|bratT52=Event
@@ -57,7 +57,7 @@
 # sent_id = 0099-p2-s2
 # text = Первым больницу 10 ноября покинул анестезиолог-реаниматолог Артур Топоров, который и рассказал о гибели в ночь с 11 на 12 октября пациентов из-за нехватки кислорода.
 1	Первым	_	_	_	_	_	_	_	bratT13=Ordinal
-2	больницу	_	_	_	_	_	_	_	_
+2	больницу	_	_	_	_	_	_	_	bratT63=Organization
 3	10	_	_	_	_	_	_	_	bratA10=T10:Past|bratT10=Date-absolute
 4	ноября	_	_	_	_	_	_	_	bratA10=T10:Past|bratT10=Date-absolute
 5	покинул	_	_	_	_	_	_	_	_
@@ -192,22 +192,22 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	рассказал	_	_	_	_	_	_	_	_
-23	источник	_	_	_	_	_	_	_	_
+23	источник	_	_	_	_	_	_	_	bratT65=Person
 24-26	161.ru	_	_	_	_	_	_	_	SpaceAfter=No
-24	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT55=Cardinal|bratT57=Web-address
-25	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT57=Web-address
-26	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT57=Web-address
+24	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT55=Cardinal|bratT57=Web-address|bratT65=Person
+25	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT57=Web-address|bratT65=Person
+26	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization|bratT57=Web-address|bratT65=Person
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p5
 # par_text = Один из бывших сотрудников больницы рассказал РБК, что вслед за реаниматологом Алексеем Топоровым уволились пять сотрудников.
 # sent_id = 0099-p5-s1
 # text = Один из бывших сотрудников больницы рассказал РБК, что вслед за реаниматологом Алексеем Топоровым уволились пять сотрудников.
-1	Один	_	_	_	_	_	_	_	bratT46=Quantity
-2	из	_	_	_	_	_	_	_	bratT46=Quantity
-3	бывших	_	_	_	_	_	_	_	_
-4	сотрудников	_	_	_	_	_	_	_	_
-5	больницы	_	_	_	_	_	_	_	_
+1	Один	_	_	_	_	_	_	_	bratA13=T61:Male|bratT46=Quantity|bratT61=Person
+2	из	_	_	_	_	_	_	_	bratA13=T61:Male|bratT46=Quantity|bratT61=Person
+3	бывших	_	_	_	_	_	_	_	bratA13=T61:Male|bratT60=Person-property|bratT61=Person
+4	сотрудников	_	_	_	_	_	_	_	bratA13=T61:Male|bratT60=Person-property|bratT61=Person
+5	больницы	_	_	_	_	_	_	_	bratA13=T61:Male|bratT59=Organization|bratT60=Person-property|bratT61=Person
 6	рассказал	_	_	_	_	_	_	_	_
 7	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T23:Media|bratT23=Organization
 8	,	_	_	_	_	_	_	_	_
@@ -235,9 +235,9 @@
 7	что	_	_	_	_	_	_	_	_
 8	из	_	_	_	_	_	_	_	_
 9-11	анестезиологии-реанимации	_	_	_	_	_	_	_	_
-9	анестезиологии	_	_	_	_	_	_	_	SpaceAfter=No
-10	-	_	_	_	_	_	_	_	SpaceAfter=No
-11	реанимации	_	_	_	_	_	_	_	_
+9	анестезиологии	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T64:Department|bratT64=Organization
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T64:Department|bratT64=Organization
+11	реанимации	_	_	_	_	_	_	_	bratA19=T64:Department|bratT64=Organization
 12	по	_	_	_	_	_	_	_	_
 13	собственному	_	_	_	_	_	_	_	_
 14	желанию	_	_	_	_	_	_	_	_

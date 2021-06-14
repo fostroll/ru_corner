@@ -39,9 +39,9 @@
 3	сообщила	_	_	_	_	_	_	_	_
 4	замначальника	_	_	_	_	_	_	_	bratA3=T14:Female|bratT13=Person-property|bratT14=Person
 5	пресс-службы	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT12=Organization|bratT13=Person-property|bratT14=Person
-6	столичного	_	_	_	_	_	_	_	bratA1=T11:Department|bratA2=T12:Department|bratA3=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
-7	главка	_	_	_	_	_	_	_	bratA1=T11:Department|bratA2=T12:Department|bratA3=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
-8	МВД	_	_	_	_	_	_	_	bratA1=T11:Department|bratA2=T12:Department|bratA3=T14:Female|bratT10=Organization|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
+6	столичного	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
+7	главка	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
+8	МВД	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT10=Organization|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
 9	Екатерина	_	_	_	_	_	_	_	bratA3=T14:Female|bratT14=Person|bratT8=Person-forename
 10	Гузь	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Female|bratT14=Person|bratT9=Person-surname
 11	.	_	_	_	_	_	_	_	_
@@ -52,12 +52,12 @@
 # text = ``Сотрудники полиции ОМВД России по району Измайлово задержали 31-летнего мужчину по подозрению в хулиганстве и незаконном хранении огнестрельного оружия и патронов'', - сказала Гузь.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Сотрудники	_	_	_	_	_	_	_	bratT19=Person-property
-3	полиции	_	_	_	_	_	_	_	bratT18=Organization|bratT19=Person-property
-4	ОМВД	_	_	_	_	_	_	_	bratT18=Organization|bratT19=Person-property
-5	России	_	_	_	_	_	_	_	bratT15=GPE|bratT18=Organization|bratT19=Person-property
-6	по	_	_	_	_	_	_	_	bratT18=Organization|bratT19=Person-property
-7	району	_	_	_	_	_	_	_	bratT16=GPE|bratT18=Organization|bratT19=Person-property
-8	Измайлово	_	_	_	_	_	_	_	bratT16=GPE|bratT18=Organization|bratT19=Person-property
+3	полиции	_	_	_	_	_	_	_	bratT19=Person-property|bratT63=Organization
+4	ОМВД	_	_	_	_	_	_	_	bratA1=T64:Department|bratT18=Organization|bratT19=Person-property|bratT64=Organization
+5	России	_	_	_	_	_	_	_	bratA1=T64:Department|bratT15=GPE|bratT18=Organization|bratT19=Person-property|bratT64=Organization
+6	по	_	_	_	_	_	_	_	bratA1=T64:Department|bratT19=Person-property|bratT64=Organization
+7	району	_	_	_	_	_	_	_	bratA1=T64:Department|bratT16=GPE|bratT19=Person-property|bratT64=Organization
+8	Измайлово	_	_	_	_	_	_	_	bratA1=T64:Department|bratT16=GPE|bratT19=Person-property|bratT64=Organization
 9	задержали	_	_	_	_	_	_	_	_
 10	31-летнего	_	_	_	_	_	_	_	bratT20=Age
 11	мужчину	_	_	_	_	_	_	_	_
@@ -85,12 +85,12 @@
 # text = О стрельбе в парке в полицию сообщили очевидцы.
 1	О	_	_	_	_	_	_	_	_
 2	стрельбе	_	_	_	_	_	_	_	bratT25=Event
-3	в	_	_	_	_	_	_	_	bratT25=Event
-4	парке	_	_	_	_	_	_	_	bratT25=Event
+3	в	_	_	_	_	_	_	_	_
+4	парке	_	_	_	_	_	_	_	bratT60=Facility
 5	в	_	_	_	_	_	_	_	_
 6	полицию	_	_	_	_	_	_	_	bratT24=Organization
 7	сообщили	_	_	_	_	_	_	_	_
-8	очевидцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Other-group
+8	очевидцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0068-p4-s2
@@ -131,8 +131,8 @@
 # sent_id = 0068-p5-s1
 # text = Сотрудники уголовного розыска обнаружили место жительства мужчины и задержали его.
 1	Сотрудники	_	_	_	_	_	_	_	bratT32=Person-property
-2	уголовного	_	_	_	_	_	_	_	bratT31=Organization|bratT32=Person-property
-3	розыска	_	_	_	_	_	_	_	bratT31=Organization|bratT32=Person-property
+2	уголовного	_	_	_	_	_	_	_	bratA13=T31:Department|bratT31=Organization|bratT32=Person-property
+3	розыска	_	_	_	_	_	_	_	bratA13=T31:Department|bratT31=Organization|bratT32=Person-property
 4	обнаружили	_	_	_	_	_	_	_	_
 5	место	_	_	_	_	_	_	_	_
 6	жительства	_	_	_	_	_	_	_	_
@@ -204,8 +204,8 @@
 3	нарушителя	_	_	_	_	_	_	_	bratT35=Other-group
 4	возбуждено	_	_	_	_	_	_	_	_
 5	два	_	_	_	_	_	_	_	bratT36=Quantity
-6	уголовных	_	_	_	_	_	_	_	bratT36=Quantity
-7	дела	_	_	_	_	_	_	_	bratT36=Quantity
+6	уголовных	_	_	_	_	_	_	_	bratT36=Quantity|bratT65=Event
+7	дела	_	_	_	_	_	_	_	bratT36=Quantity|bratT65=Event
 8	по	_	_	_	_	_	_	_	_
 9	ст.	_	_	_	_	_	_	_	bratT39=Law
 10	213	_	_	_	_	_	_	_	bratT39=Law|bratT56=Ordinal
@@ -248,7 +248,7 @@
 
 # sent_id = 0068-p6-s2
 # text = Суд арестовал подозреваемого.
-1	Суд	_	_	_	_	_	_	_	_
+1	Суд	_	_	_	_	_	_	_	bratT62=Organization
 2	арестовал	_	_	_	_	_	_	_	_
 3	подозреваемого	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Other-group
 4	.	_	_	_	_	_	_	_	_
@@ -290,14 +290,14 @@
 8	на	_	_	_	_	_	_	_	_
 9	33-м	_	_	_	_	_	_	_	bratT48=Ordinal|bratT49=Facility
 10	км	_	_	_	_	_	_	_	bratT49=Facility
-11	трассы	_	_	_	_	_	_	_	bratT49=Facility
+11	трассы	_	_	_	_	_	_	_	bratT49=Facility|bratT61=Facility
 12-14	М-2	_	_	_	_	_	_	_	_
-12	М	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility
-13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility
-14	2	_	_	_	_	_	_	_	bratT17=Ordinal|bratT49=Facility
-15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility
-16	Крым	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT55=GPE
-17	''	_	_	_	_	_	_	_	bratT49=Facility
+12	М	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT61=Facility
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT61=Facility
+14	2	_	_	_	_	_	_	_	bratT17=Ordinal|bratT49=Facility|bratT61=Facility
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT61=Facility
+16	Крым	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT55=GPE|bratT61=Facility
+17	''	_	_	_	_	_	_	_	bratT49=Facility|bratT61=Facility
 18	неизвестный	_	_	_	_	_	_	_	_
 19	неустановленным	_	_	_	_	_	_	_	_
 20	способом	_	_	_	_	_	_	_	_

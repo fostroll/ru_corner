@@ -13,46 +13,53 @@ T9	GPE 167 177	Хабаровске
 T10	Person-forename 180 190	Александра
 T11	Person-surname 193 202	Приходько
 T12	Law 332 351	статья   212.1   УК
-T14	Person 430 459	адвоката   Андрея   Битюцкого
+T14	Person 432 461	адвоката   Андрея   Битюцкого
 A4	Male T14
-T15	Person-property 430 438	адвоката
-T16	Person-forename 441 447	Андрея
-T17	Person-surname 450 459	Битюцкого
-T18	Person 514 523	Приходько
+T15	Person-property 432 440	адвоката
+T16	Person-forename 443 449	Андрея
+T17	Person-surname 452 461	Битюцкого
+T18	Person 516 525	Приходько
 A5	Male T18
-T19	Person-surname 514 523	Приходько
-T20	Date-absolute 584 621	10   октября   на   субботней   акции
+T19	Person-surname 516 525	Приходько
+T20	Date-absolute 586 623	10   октября   на   субботней   акции
 A6	Past T20
-T21	Nationality 554 567	хабаровчанина
+T21	Nationality 556 569	хабаровчанина
 A7	Resident T21
-T22	Event 616 621	акции
-T23	Person 640 674	экс-губернатора   Сергея   Фургала
+T22	Event 618 623	акции
+T23	Person 642 676	экс-губернатора   Сергея   Фургала
 A8	Male T23
-T25	Person-forename 658 664	Сергея
-T26	Person-surname 667 674	Фургала
-T28	Date-relative 679 693	В   тот   день
-T30	Other-group 712 721	активиста
-T31	Date-absolute 764 776	В   сентябре
-T32	Person 779 788	Приходько
+T25	Person-forename 660 666	Сергея
+T26	Person-surname 669 676	Фургала
+T28	Date-relative 681 695	В   тот   день
+T30	Other-group 714 723	активиста
+T31	Date-absolute 766 778	В   сентябре
+T32	Person 781 790	Приходько
 A9	Male T32
-T33	Person-surname 779 788	Приходько
-T34	Quantity 791 797	дважды
-T35	Organization 828 846	``   ОВД-Инфо   ''
-T36	Ordinal 851 857	Первый
-T37	Money 870 896	на   пять   тысяч   рублей
-T38	Law 1028 1062	часть   6.1   статьи   20.2   КоАП
-T39	Ordinal 1071 1077	Второй
-T40	Money 1084 1108	на   10   тысяч   рублей
-T24	Person-property 640 655	экс-губернатора
+T33	Person-surname 781 790	Приходько
+T34	Quantity 793 799	дважды
+T35	Organization 830 850	``   ОВД - Инфо   ''
+T36	Ordinal 855 861	Первый
+T37	Money 874 900	на   пять   тысяч   рублей
+T38	Law 1032 1066	часть   6.1   статьи   20.2   КоАП
+T39	Ordinal 1075 1081	Второй
+T40	Money 1088 1112	на   10   тысяч   рублей
+T24	Person-property 642 657	экс-губернатора
 A10	Media T35
 T41	Ordinal 341 346	212.1
 T42	Law 349 351	УК
-T13	Organization 383 401	``   ОВД-Инфо   ''
+T13	Organization 383 403	``   ОВД - Инфо   ''
 A11	Media T13
 A13	Past T28
 A14	Past T31
-T29	Ordinal 1036 1039	6.1
-T43	Ordinal 1051 1055	20.2
-T44	Law 1058 1062	КоАП
-T45	Date-relative 541 551	До   этого
+T29	Ordinal 1040 1043	6.1
+T43	Ordinal 1055 1059	20.2
+T44	Law 1062 1066	КоАП
+T45	Date-relative 543 553	До   этого
 A15	Past T45
+T27	Other-group 1016 1025	пешеходов
+T46	Event 41 45	дело
+T47	Event 214 230	уголовное   дело
+T48	Organization 835 838	ОВД
+A12	Department T48
+T49	Organization 388 391	ОВД
+A16	Department T49

@@ -23,8 +23,8 @@
 2	Волгограде	_	_	_	_	_	_	_	bratT4=GPE
 3	завершено	_	_	_	_	_	_	_	_
 4	расследование	_	_	_	_	_	_	_	_
-5	уголовного	_	_	_	_	_	_	_	_
-6	дела	_	_	_	_	_	_	_	_
+5	уголовного	_	_	_	_	_	_	_	bratT67=Event
+6	дела	_	_	_	_	_	_	_	bratT67=Event
 7	бывших	_	_	_	_	_	_	_	bratT44=Person|bratT5=Person-property
 8	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person|bratT5=Person-property
 9	,	_	_	_	_	_	_	_	_
@@ -56,7 +56,7 @@
 # sent_id = 0040-p3-s1
 # text = По делу проходят экс-начальник отдела по контролю за оборотом наркотиков и его подчиненный оперативник, а также их 36-летняя приятельница.
 1	По	_	_	_	_	_	_	_	_
-2	делу	_	_	_	_	_	_	_	_
+2	делу	_	_	_	_	_	_	_	bratT68=Event
 3	проходят	_	_	_	_	_	_	_	_
 4	экс-начальник	_	_	_	_	_	_	_	bratA12=T45:Male|bratT10=Person-property|bratT45=Person
 5	отдела	_	_	_	_	_	_	_	bratA12=T45:Male|bratA4=T11:Department|bratT10=Person-property|bratT11=Organization|bratT45=Person
@@ -181,13 +181,13 @@
 2	мужчины	_	_	_	_	_	_	_	bratA23=T63:Male|bratT63=Person
 3	было	_	_	_	_	_	_	_	_
 4	возбуждено	_	_	_	_	_	_	_	_
-5	уголовное	_	_	_	_	_	_	_	_
-6	дело	_	_	_	_	_	_	_	SpaceAfter=No
+5	уголовное	_	_	_	_	_	_	_	bratT69=Event
+6	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Event
 7	,	_	_	_	_	_	_	_	_
 8	которое	_	_	_	_	_	_	_	_
 9	дошло	_	_	_	_	_	_	_	_
 10	до	_	_	_	_	_	_	_	_
-11	суда	_	_	_	_	_	_	_	SpaceAfter=No
+11	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Organization
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p4-s4
@@ -225,7 +225,7 @@
 # text = Теперь перед судом предстанут силовики.
 1	Теперь	_	_	_	_	_	_	_	bratA8=T40:Future|bratT40=Date-absolute
 2	перед	_	_	_	_	_	_	_	_
-3	судом	_	_	_	_	_	_	_	_
+3	судом	_	_	_	_	_	_	_	bratT66=Organization
 4	предстанут	_	_	_	_	_	_	_	_
 5	силовики	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT53=Person
 6	.	_	_	_	_	_	_	_	_

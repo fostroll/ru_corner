@@ -41,7 +41,7 @@
 14	Марины	_	_	_	_	_	_	_	bratA5=T6:Female|bratT25=Person-forename|bratT6=Person
 15	Малковой	_	_	_	_	_	_	_	bratA5=T6:Female|bratT26=Person-surname|bratT6=Person
 16	на	_	_	_	_	_	_	_	_
-17	парковке	_	_	_	_	_	_	_	_
+17	парковке	_	_	_	_	_	_	_	bratT41=Facility
 18	вечером	_	_	_	_	_	_	_	bratA10=T10:Past|bratT10=Date-absolute|bratT9=Time-absolute
 19	23	_	_	_	_	_	_	_	bratA10=T10:Past|bratT10=Date-absolute
 20	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T10:Past|bratT10=Date-absolute
@@ -98,7 +98,7 @@
 # text = По словам очевидцев, возгорание началось с хлопков из-под машины, горели колеса'', - рассказала - Малкова изданию 74.RU.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	очевидцев	_	_	_	_	_	_	_	SpaceAfter=No
+3	очевидцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person
 4	,	_	_	_	_	_	_	_	_
 5	возгорание	_	_	_	_	_	_	_	_
 6	началось	_	_	_	_	_	_	_	_
@@ -132,7 +132,7 @@
 4	не	_	_	_	_	_	_	_	bratT22=Quantity
 5	единственным	_	_	_	_	_	_	_	bratT22=Quantity
 6	на	_	_	_	_	_	_	_	_
-7	парковке	_	_	_	_	_	_	_	_
+7	парковке	_	_	_	_	_	_	_	bratT42=Facility
 8	и	_	_	_	_	_	_	_	_
 9	стоял	_	_	_	_	_	_	_	_
 10	не	_	_	_	_	_	_	_	_

@@ -31,9 +31,9 @@
 7	местных	_	_	_	_	_	_	_	bratA23=T71:Adjective|bratT67=Person|bratT71=GPE|bratT8=Quantity
 8	блогеров	_	_	_	_	_	_	_	bratT67=Person|bratT8=Quantity|bratT9=Person-property
 9	по	_	_	_	_	_	_	_	_
-10	делу	_	_	_	_	_	_	_	_
+10	делу	_	_	_	_	_	_	_	bratT77=Event
 11	о	_	_	_	_	_	_	_	_
-12	хулиганстве	_	_	_	_	_	_	_	_
+12	хулиганстве	_	_	_	_	_	_	_	bratT78=Event
 13	(	_	_	_	_	_	_	_	SpaceAfter=No
 14	часть	_	_	_	_	_	_	_	bratT10=Law
 15	2	_	_	_	_	_	_	_	bratT10=Law|bratT45=Ordinal
@@ -206,7 +206,7 @@
 4	блогеров	_	_	_	_	_	_	_	bratA21=T64:Male|bratT29=Person-property|bratT63=Person|bratT64=Person
 5	проходит	_	_	_	_	_	_	_	_
 6	по	_	_	_	_	_	_	_	_
-7	делу	_	_	_	_	_	_	_	_
+7	делу	_	_	_	_	_	_	_	bratT76=Event
 8	подозреваевым	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_
 
@@ -244,11 +244,11 @@
 9	с	_	_	_	_	_	_	_	_
 10	рейдом	_	_	_	_	_	_	_	bratT70=Event
 11	возле	_	_	_	_	_	_	_	_
-12	здания	_	_	_	_	_	_	_	_
-13	управления	_	_	_	_	_	_	_	bratT34=Organization
-14	ФСБ	_	_	_	_	_	_	_	bratT34=Organization|bratT52=Organization
-15	по	_	_	_	_	_	_	_	bratT34=Organization
-16	Кемерово	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=GPE
+12	здания	_	_	_	_	_	_	_	bratT75=Location
+13	управления	_	_	_	_	_	_	_	bratT34=Organization|bratT75=Location
+14	ФСБ	_	_	_	_	_	_	_	bratT34=Organization|bratT52=Organization|bratT75=Location
+15	по	_	_	_	_	_	_	_	bratT34=Organization|bratT75=Location
+16	Кемерово	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=GPE|bratT75=Location
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0122-p7-s2

@@ -18,8 +18,8 @@
 13	на	_	_	_	_	_	_	_	_
 14	него	_	_	_	_	_	_	_	_
 15	завели	_	_	_	_	_	_	_	_
-16	уголовное	_	_	_	_	_	_	_	_
-17	дело	_	_	_	_	_	_	_	_
+16	уголовное	_	_	_	_	_	_	_	bratT83=Event
+17	дело	_	_	_	_	_	_	_	bratT83=Event
 
 # newpar id = 0123-p2
 # par_text = В Ленинградской области против участника акции в поддержку крымских татар Владимира Шипицына возбудили дело о применении насилия в отношении полицейского (часть 1 статьи 318 УК). Об этом «Медиазоне» рассказал адвокат Антон Юпанов, сотрудничающий с «ОВД-Инфо».
@@ -38,7 +38,7 @@
 11	Владимира	_	_	_	_	_	_	_	bratA1=T7:Male|bratT7=Person|bratT8=Person-forename
 12	Шипицына	_	_	_	_	_	_	_	bratA1=T7:Male|bratT7=Person|bratT9=Person-surname
 13	возбудили	_	_	_	_	_	_	_	_
-14	дело	_	_	_	_	_	_	_	_
+14	дело	_	_	_	_	_	_	_	bratT84=Event
 15	о	_	_	_	_	_	_	_	_
 16	применении	_	_	_	_	_	_	_	_
 17	насилия	_	_	_	_	_	_	_	_
@@ -69,9 +69,12 @@
 11	сотрудничающий	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Media|bratT17=Organization
-14	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Media|bratT17=Organization
-15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Media|bratT17=Organization
-16	.	_	_	_	_	_	_	_	_
+14-16	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+14	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Media|bratA30=T85:Department|bratT17=Organization|bratT85=Organization
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Media|bratT17=Organization
+16	Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Media|bratT17=Organization
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T17:Media|bratT17=Organization
+18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0123-p3
 # par_text = Накануне в Гатчине активисты движения «Стратегия-18» вышли на акцию против уголовного преследования крымских татар. Шипицын стоял с плакатом «Свободу узникам "дела Хизб ут-Тахрир"» и держал украинский флаг.
@@ -86,7 +89,7 @@
 7-9	Стратегия-18	_	_	_	_	_	_	_	SpaceAfter=No
 7	Стратегия	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization
 8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization
-9	18	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization|bratT81=Ordinal
+9	18	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization|bratT81=Cardinal
 10	''	_	_	_	_	_	_	_	bratT20=Other-group|bratT21=Organization
 11	вышли	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
@@ -108,7 +111,7 @@
 6	Свободу	_	_	_	_	_	_	_	_
 7	узникам	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
-9	дела	_	_	_	_	_	_	_	_
+9	дела	_	_	_	_	_	_	_	bratT87=Event
 10	Хизб	_	_	_	_	_	_	_	bratT30=Organization
 11	ут-Тахрир	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -124,17 +127,20 @@
 # sent_id = 0123-p4-s1
 # text = ``ОВД-Инфо'' передавало, что полицейские задержали шесть участников акции.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T31:Media|bratT31=Organization
-2	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T31:Media|bratT31=Organization
-3	''	_	_	_	_	_	_	_	bratA18=T31:Media|bratT31=Organization
-4	передавало	_	_	_	_	_	_	_	SpaceAfter=No
-5	,	_	_	_	_	_	_	_	_
-6	что	_	_	_	_	_	_	_	_
-7	полицейские	_	_	_	_	_	_	_	bratT32=Person-property
-8	задержали	_	_	_	_	_	_	_	_
-9	шесть	_	_	_	_	_	_	_	bratT33=Quantity
-10	участников	_	_	_	_	_	_	_	bratT33=Quantity|bratT34=Other-group
-11	акции	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-group|bratT35=Event
-12	.	_	_	_	_	_	_	_	_
+2-4	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+2	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T31:Media|bratA31=T86:Department|bratT31=Organization|bratT86=Organization
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T31:Media|bratT31=Organization
+4	Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T31:Media|bratT31=Organization
+5	''	_	_	_	_	_	_	_	bratA18=T31:Media|bratT31=Organization
+6	передавало	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	полицейские	_	_	_	_	_	_	_	bratT32=Person-property
+10	задержали	_	_	_	_	_	_	_	_
+11	шесть	_	_	_	_	_	_	_	bratT33=Quantity
+12	участников	_	_	_	_	_	_	_	bratT33=Quantity|bratT34=Other-group
+13	акции	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-group|bratT35=Event
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0123-p4-s2
 # text = Как рассказал Юпанов, во время задержания Шипицын упал, а пластиковое древко флага в этот момент сбило с полицейского кепку.
@@ -192,8 +198,8 @@
 11	возбудил	_	_	_	_	_	_	_	_
 12	против	_	_	_	_	_	_	_	_
 13	активиста	_	_	_	_	_	_	_	bratT46=Person-property
-14	уголовное	_	_	_	_	_	_	_	_
-15	дело	_	_	_	_	_	_	_	SpaceAfter=No
+14	уголовное	_	_	_	_	_	_	_	bratT88=Event
+15	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratT88=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0123-p5-s2
@@ -249,8 +255,8 @@
 9	состояться	_	_	_	_	_	_	_	_
 10	допрос	_	_	_	_	_	_	_	_
 11	по	_	_	_	_	_	_	_	_
-12	уголовному	_	_	_	_	_	_	_	_
-13	делу	_	_	_	_	_	_	_	SpaceAfter=No
+12	уголовному	_	_	_	_	_	_	_	bratT89=Event
+13	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Event
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0123-p7
@@ -261,14 +267,17 @@
 2	Юпанов	_	_	_	_	_	_	_	bratA13=T56:Male|bratT56=Person|bratT57=Person-surname
 3	рассказал	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratT58=Organization
-5	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratT58=Organization
-6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratT58=Organization
-7	,	_	_	_	_	_	_	_	_
-8	что	_	_	_	_	_	_	_	_
-9	его	_	_	_	_	_	_	_	_
-10	подзащитного	_	_	_	_	_	_	_	bratT59=Person-property
-11	допросили	_	_	_	_	_	_	_	SpaceAfter=No
-12	.	_	_	_	_	_	_	_	_
+5-7	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+5	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratA32=T90:Department|bratT58=Organization|bratT90=Organization
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratT58=Organization
+7	Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratT58=Organization
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratT58=Organization
+9	,	_	_	_	_	_	_	_	_
+10	что	_	_	_	_	_	_	_	_
+11	его	_	_	_	_	_	_	_	_
+12	подзащитного	_	_	_	_	_	_	_	bratT59=Person-property
+13	допросили	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0123-p7-s2
 # text = Шипицын продолжает находиться в статусе подозреваемого.
@@ -282,7 +291,7 @@
 
 # sent_id = 0123-p7-s3
 # text = Суда по мере пресечения активисту пока еще не назначили.
-1	Суда	_	_	_	_	_	_	_	_
+1	Суда	_	_	_	_	_	_	_	bratT82=Event
 2	по	_	_	_	_	_	_	_	_
 3	мере	_	_	_	_	_	_	_	_
 4	пресечения	_	_	_	_	_	_	_	_
@@ -326,7 +335,7 @@
 2	дополнена	_	_	_	_	_	_	_	_
 3	информацией	_	_	_	_	_	_	_	_
 4	об	_	_	_	_	_	_	_	_
-5	окончании	_	_	_	_	_	_	_	_
-6	допроса	_	_	_	_	_	_	_	SpaceAfter=No
+5	окончании	_	_	_	_	_	_	_	bratT92=Event
+6	допроса	_	_	_	_	_	_	_	SpaceAfter=No|bratT91=Event|bratT92=Event
 7	.	_	_	_	_	_	_	_	_
 

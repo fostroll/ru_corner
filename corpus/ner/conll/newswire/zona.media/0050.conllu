@@ -4,9 +4,9 @@
 # sent_id = 0050-p1-s1
 # text = В воронежском отделе полиции нашли мертвым участкового
 1	В	_	_	_	_	_	_	_	_
-2	воронежском	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Organization|bratT2=GPE
-3	отделе	_	_	_	_	_	_	_	bratT1=Organization
-4	полиции	_	_	_	_	_	_	_	bratT1=Organization
+2	воронежском	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA13=T1:Department|bratT1=Organization|bratT2=GPE
+3	отделе	_	_	_	_	_	_	_	bratA13=T1:Department|bratT1=Organization
+4	полиции	_	_	_	_	_	_	_	bratA13=T1:Department|bratT1=Organization|bratT30=Organization
 5	нашли	_	_	_	_	_	_	_	_
 6	мертвым	_	_	_	_	_	_	_	_
 7	участкового	_	_	_	_	_	_	_	bratT3=Person-property
@@ -16,13 +16,13 @@
 # sent_id = 0050-p2-s1
 # text = В отделе полиции по Калачеевскому району Воронежской области нашли мертвым 23-летнего участкового Дмитрия Божкова.
 1	В	_	_	_	_	_	_	_	_
-2	отделе	_	_	_	_	_	_	_	bratT4=Organization
-3	полиции	_	_	_	_	_	_	_	bratT4=Organization
-4	по	_	_	_	_	_	_	_	bratT4=Organization
-5	Калачеевскому	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratT4=Organization|bratT5=GPE
-6	району	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratT4=Organization|bratT5=GPE
-7	Воронежской	_	_	_	_	_	_	_	bratA3=T6:Adjective|bratT4=Organization|bratT6=GPE
-8	области	_	_	_	_	_	_	_	bratA3=T6:Adjective|bratT4=Organization|bratT6=GPE
+2	отделе	_	_	_	_	_	_	_	bratA15=T4:Department|bratT4=Organization
+3	полиции	_	_	_	_	_	_	_	bratA15=T4:Department|bratT31=Organization|bratT4=Organization
+4	по	_	_	_	_	_	_	_	bratA15=T4:Department|bratT4=Organization
+5	Калачеевскому	_	_	_	_	_	_	_	bratA15=T4:Department|bratA2=T5:Adjective|bratT4=Organization|bratT5=GPE
+6	району	_	_	_	_	_	_	_	bratA15=T4:Department|bratA2=T5:Adjective|bratT4=Organization|bratT5=GPE
+7	Воронежской	_	_	_	_	_	_	_	bratA15=T4:Department|bratA3=T6:Adjective|bratT4=Organization|bratT6=GPE
+8	области	_	_	_	_	_	_	_	bratA15=T4:Department|bratA3=T6:Adjective|bratT4=Organization|bratT6=GPE
 9	нашли	_	_	_	_	_	_	_	_
 10	мертвым	_	_	_	_	_	_	_	_
 11	23-летнего	_	_	_	_	_	_	_	bratT7=Age

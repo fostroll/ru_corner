@@ -12,7 +12,7 @@
 7	отправлять	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	пересмотр	_	_	_	_	_	_	_	_
-10	дело	_	_	_	_	_	_	_	_
+10	дело	_	_	_	_	_	_	_	bratT36=Event
 11	Удальцова	_	_	_	_	_	_	_	bratA3=T4:Male|bratT4=Person|bratT6=Person-surname
 12	и	_	_	_	_	_	_	_	_
 13	Развозжаева	_	_	_	_	_	_	_	bratA4=T5:Male|bratT5=Person|bratT7=Person-surname
@@ -36,7 +36,7 @@
 5	отправлять	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	пересмотр	_	_	_	_	_	_	_	_
-8	дело	_	_	_	_	_	_	_	_
+8	дело	_	_	_	_	_	_	_	bratT65=Event
 9	лидера	_	_	_	_	_	_	_	bratA7=T12:Male|bratT12=Person|bratT14=Person-property
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T12:Male|bratT12=Person|bratT13=Organization|bratT14=Person-property
 11	Левого	_	_	_	_	_	_	_	bratA7=T12:Male|bratT12=Person|bratT13=Organization|bratT14=Person-property
@@ -95,10 +95,10 @@
 12	компенсации	_	_	_	_	_	_	_	_
 13	осужденным	_	_	_	_	_	_	_	_
 14	по	_	_	_	_	_	_	_	_
-15	``	_	_	_	_	_	_	_	SpaceAfter=No
-16	болотному	_	_	_	_	_	_	_	_
-17	делу	_	_	_	_	_	_	_	SpaceAfter=No
-18	''	_	_	_	_	_	_	_	SpaceAfter=No
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Event
+16	болотному	_	_	_	_	_	_	_	bratT66=Event
+17	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Event
+18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0055-p3-s2

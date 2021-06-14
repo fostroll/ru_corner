@@ -9,7 +9,7 @@
 4	топ-менеджерам	_	_	_	_	_	_	_	bratT2=Person-property
 5	по	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No
-7	делу	_	_	_	_	_	_	_	_
+7	делу	_	_	_	_	_	_	_	bratT55=Event
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
 9	Белгазпромбанка	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
 10	''	_	_	_	_	_	_	_	bratT3=Organization
@@ -163,7 +163,7 @@
 6	ст.	_	_	_	_	_	_	_	bratT37=Law
 7	430	_	_	_	_	_	_	_	bratT37=Law|bratT64=Ordinal
 8	в	_	_	_	_	_	_	_	_
-9	деле	_	_	_	_	_	_	_	_
+9	деле	_	_	_	_	_	_	_	bratT56=Event
 10	фигурировала	_	_	_	_	_	_	_	_
 11	ч.	_	_	_	_	_	_	_	bratT38=Law
 12	2	_	_	_	_	_	_	_	bratT38=Law|bratT65=Ordinal
@@ -255,8 +255,8 @@
 # sent_id = 0124-p6-s1
 # text = ``Уголовное дело предъявлено обвиняемым и их защитникам для ознакомления.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Уголовное	_	_	_	_	_	_	_	_
-3	дело	_	_	_	_	_	_	_	_
+2	Уголовное	_	_	_	_	_	_	_	bratT93=Event
+3	дело	_	_	_	_	_	_	_	bratT93=Event
 4	предъявлено	_	_	_	_	_	_	_	_
 5	обвиняемым	_	_	_	_	_	_	_	bratT31=Person-property
 6	и	_	_	_	_	_	_	_	_

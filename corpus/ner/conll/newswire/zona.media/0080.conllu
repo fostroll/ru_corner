@@ -15,7 +15,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	арестовали	_	_	_	_	_	_	_	_
 12	по	_	_	_	_	_	_	_	_
-13	делу	_	_	_	_	_	_	_	_
+13	делу	_	_	_	_	_	_	_	bratT38=Event
 14	о	_	_	_	_	_	_	_	_
 15	поставках	_	_	_	_	_	_	_	_
 16	леса	_	_	_	_	_	_	_	_
@@ -41,7 +41,7 @@
 13	Дмитрия	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT17=Person-forename
 14	Куракина	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT18=Person-surname
 15	по	_	_	_	_	_	_	_	_
-16	делу	_	_	_	_	_	_	_	_
+16	делу	_	_	_	_	_	_	_	bratT42=Event
 17	о	_	_	_	_	_	_	_	_
 18	взятках	_	_	_	_	_	_	_	_
 19	(	_	_	_	_	_	_	_	SpaceAfter=No
@@ -66,7 +66,7 @@
 9	ссылкой	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	пресс-службу	_	_	_	_	_	_	_	bratA15=T39:Department|bratT39=Organization
-12	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T39:Department|bratT39=Organization
+12	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T39:Department|bratT33=Organization|bratT39=Organization
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0080-p3
@@ -101,7 +101,7 @@
 26	Евгении	_	_	_	_	_	_	_	bratA12=T30:Female|bratT30=Person|bratT34=Person-forename
 27	Васильевой	_	_	_	_	_	_	_	bratA12=T30:Female|bratT30=Person|bratT35=Person-surname
 28	из-за	_	_	_	_	_	_	_	_
-29	дела	_	_	_	_	_	_	_	_
+29	дела	_	_	_	_	_	_	_	bratT44=Event
 30	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT37=Organization
 31	Оборонсервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
 32	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT37=Organization
@@ -157,7 +157,7 @@
 7	отбывала	_	_	_	_	_	_	_	_
 8	наказание	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	колонии	_	_	_	_	_	_	_	_
+10	колонии	_	_	_	_	_	_	_	bratT32=Facility
 11	во	_	_	_	_	_	_	_	_
 12	Владимирской	_	_	_	_	_	_	_	bratT54=GPE
 13	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=GPE
@@ -165,7 +165,7 @@
 15	однако	_	_	_	_	_	_	_	_
 16	спустя	_	_	_	_	_	_	_	bratA20=T55:Past|bratT55=Date-relative
 17	месяц	_	_	_	_	_	_	_	bratA20=T55:Past|bratT55=Date-relative|bratT56=Duration
-18	суд	_	_	_	_	_	_	_	_
+18	суд	_	_	_	_	_	_	_	bratT36=Organization
 19	освободил	_	_	_	_	_	_	_	_
 20	ее	_	_	_	_	_	_	_	_
 21	по	_	_	_	_	_	_	_	_
@@ -177,7 +177,7 @@
 # sent_id = 0080-p5-s1
 # text = По делу также были задержаны начальник «Оборонолеса» Владислав Холодков и начальник «Мальтинского военного лесхоза» Максим Ан, рассказали в Басманном суде.
 1	По	_	_	_	_	_	_	_	_
-2	делу	_	_	_	_	_	_	_	_
+2	делу	_	_	_	_	_	_	_	bratT60=Event
 3	также	_	_	_	_	_	_	_	_
 4	были	_	_	_	_	_	_	_	_
 5	задержаны	_	_	_	_	_	_	_	_

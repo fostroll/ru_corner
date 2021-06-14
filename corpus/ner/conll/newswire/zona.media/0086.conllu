@@ -10,7 +10,7 @@
 5	шести	_	_	_	_	_	_	_	bratT3=Quantity
 6	клирикам	_	_	_	_	_	_	_	bratT3=Quantity|bratT4=Person-property
 7	из	_	_	_	_	_	_	_	_
-8	монастыря	_	_	_	_	_	_	_	SpaceAfter=No
+8	монастыря	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Facility
 9	,	_	_	_	_	_	_	_	_
 10	занятого	_	_	_	_	_	_	_	_
 11	схиигуменом	_	_	_	_	_	_	_	bratA2=T5:Male|bratT5=Person
@@ -30,8 +30,8 @@
 8	богослужения	_	_	_	_	_	_	_	_
 9	шести	_	_	_	_	_	_	_	bratT10=Quantity
 10	священникам	_	_	_	_	_	_	_	bratT10=Quantity|bratT11=Person-property
-11	Среднеуральского	_	_	_	_	_	_	_	bratA6=T13:Adjective|bratT11=Person-property|bratT12=Organization|bratT13=Location
-12	монастыря	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT12=Organization
+11	Среднеуральского	_	_	_	_	_	_	_	bratA6=T13:Adjective|bratT11=Person-property|bratT12=Facility|bratT13=Location
+12	монастыря	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT12=Facility
 13	,	_	_	_	_	_	_	_	_
 14	которых	_	_	_	_	_	_	_	_
 15	захватил	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 12	почти	_	_	_	_	_	_	_	_
 13	всем	_	_	_	_	_	_	_	_
 14	клирикам	_	_	_	_	_	_	_	bratT28=Person-property
-15	монастыря	_	_	_	_	_	_	_	_
+15	монастыря	_	_	_	_	_	_	_	bratT28=Person-property|bratT47=Facility
 16	кроме	_	_	_	_	_	_	_	bratT29=Quantity
 17	двух	_	_	_	_	_	_	_	bratT29=Quantity
 18	священников	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity|bratT30=Person-property
@@ -168,13 +168,13 @@
 16	но	_	_	_	_	_	_	_	_
 17	тот	_	_	_	_	_	_	_	_
 18	ослушался	_	_	_	_	_	_	_	_
-19	церковные	_	_	_	_	_	_	_	_
-20	власти	_	_	_	_	_	_	_	_
+19	церковные	_	_	_	_	_	_	_	bratT48=Organization
+20	власти	_	_	_	_	_	_	_	bratT48=Organization
 21	и	_	_	_	_	_	_	_	_
 22	захватил	_	_	_	_	_	_	_	_
-23	Среднеуральский	_	_	_	_	_	_	_	bratA14=T38:Adjective|bratT37=Organization|bratT38=Location
-24	женский	_	_	_	_	_	_	_	bratT37=Organization
-25	монастырь	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization
+23	Среднеуральский	_	_	_	_	_	_	_	bratA14=T38:Adjective|bratT37=Facility|bratT38=Location
+24	женский	_	_	_	_	_	_	_	bratT37=Facility
+25	монастырь	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Facility
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0086-p5-s3

@@ -36,18 +36,18 @@ T31	Person-property 1064 1083	сотрудник   полиции
 T34	Date-absolute 1129 1167	в   ночь   на   субботу   31   октября
 A7	Past T34
 T35	Time-absolute 1129 1142	в   ночь   на
-T36	Organization 1195 1218	кафе   ``   Береза   ''
+T36	Facility 1195 1218	кафе   ``   Береза   ''
 T37	Person-property 1245 1257	полицейскими
 T38	Person 1300 1371	начальник   ОМВД   соседнего   Сергиевского   района   Сергей   Зацепин
 A8	Male T38
-T39	Person-property 1300 1316	начальник   ОМВД
-T40	Organization 1312 1316	ОМВД
+T39	Person-property 1300 1352	начальник   ОМВД   соседнего   Сергиевского   района
+T40	Organization 1312 1352	ОМВД   соседнего   Сергиевского   района
 T41	GPE 1331 1352	Сергиевского   района
 T42	Person-forename 1355 1361	Сергей
 T43	Person-surname 1364 1371	Зацепин
 T44	Organization 1393 1425	``   Комсомольской   правде   ''
 A9	Media T44
-T45	Other-group 1428 1436	очевидцы
+T45	Person 1428 1436	очевидцы
 T56	Ordinal 252 263	``   г   ''
 T57	Ordinal 274 275	2
 T58	Ordinal 286 289	112
@@ -59,3 +59,10 @@ T3	Event 1270 1285	день   рождения
 T7	Event 666 672	аресте
 T46	GPE 539 548	областное
 A11	Adjective T46
+T47	Facility 104 108	кафе
+T48	Facility 429 433	кафе
+T49	Facility 1122 1126	кафе
+T50	Person 1288 1297	знакомого
+A10	Male T50
+T51	Event 938 942	дела
+A12	Department T40

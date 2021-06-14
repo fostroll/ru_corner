@@ -4,9 +4,9 @@
 # sent_id = 0067-p1-s1
 # text = Строители амурского газоперерабатывающего завода устроили бунт из-за задержки зарплаты
 1	Строители	_	_	_	_	_	_	_	bratT1=Person-property
-2	амурского	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT1=Person-property|bratT2=Organization|bratT3=GPE
-3	газоперерабатывающего	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
-4	завода	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+2	амурского	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT1=Person-property|bratT2=Facility|bratT3=GPE
+3	газоперерабатывающего	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Facility
+4	завода	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Facility
 5	устроили	_	_	_	_	_	_	_	_
 6	бунт	_	_	_	_	_	_	_	_
 7	из-за	_	_	_	_	_	_	_	_
@@ -19,9 +19,9 @@
 # text = Десятки строителей Амурского газоперерабатывающего завода в Свободном устроили бунт из-за задержки зарплат, сообщает ``Амурская служба новостей''.
 1	Десятки	_	_	_	_	_	_	_	bratT4=Quantity
 2	строителей	_	_	_	_	_	_	_	bratT4=Quantity|bratT5=Person-property
-3	Амурского	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT5=Person-property|bratT6=Organization|bratT7=GPE
-4	газоперерабатывающего	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization
-5	завода	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Organization
+3	Амурского	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT5=Person-property|bratT6=Facility|bratT7=GPE
+4	газоперерабатывающего	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Facility
+5	завода	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=Facility
 6	в	_	_	_	_	_	_	_	_
 7	Свободном	_	_	_	_	_	_	_	bratT8=GPE
 8	устроили	_	_	_	_	_	_	_	_
@@ -47,8 +47,8 @@
 3	видео	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
 5	территории	_	_	_	_	_	_	_	_
-6	стройки	_	_	_	_	_	_	_	_
-7	завода	_	_	_	_	_	_	_	_
+6	стройки	_	_	_	_	_	_	_	bratT32=Facility
+7	завода	_	_	_	_	_	_	_	bratT30=Facility|bratT32=Facility
 8	под	_	_	_	_	_	_	_	_
 9	городом	_	_	_	_	_	_	_	bratT10=GPE
 10	Свободный	_	_	_	_	_	_	_	bratT10=GPE
@@ -109,7 +109,7 @@
 5	строителей	_	_	_	_	_	_	_	bratT14=Quantity|bratT15=Person-property
 6	идут	_	_	_	_	_	_	_	_
 7	по	_	_	_	_	_	_	_	_
-8	улице	_	_	_	_	_	_	_	SpaceAfter=No
+8	улице	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Facility
 9	,	_	_	_	_	_	_	_	_
 10	несколько	_	_	_	_	_	_	_	bratT29=Quantity
 11	человек	_	_	_	_	_	_	_	bratT29=Quantity
@@ -144,7 +144,7 @@
 9	бегут	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
 11	территории	_	_	_	_	_	_	_	_
-12	стройки	_	_	_	_	_	_	_	SpaceAfter=No
+12	стройки	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Facility
 13	,	_	_	_	_	_	_	_	_
 14	вслед	_	_	_	_	_	_	_	_
 15	за	_	_	_	_	_	_	_	_
@@ -212,8 +212,8 @@
 # sent_id = 0067-p5-s1
 # text = В пресс-службе завода отметили, что бунт произошел из-за ``финансовых претензий ряда сотрудников к руководству подрядной организации''.
 1	В	_	_	_	_	_	_	_	_
-2	пресс-службе	_	_	_	_	_	_	_	_
-3	завода	_	_	_	_	_	_	_	_
+2	пресс-службе	_	_	_	_	_	_	_	bratA7=T33:Department|bratT33=Organization
+3	завода	_	_	_	_	_	_	_	bratA7=T33:Department|bratT33=Organization|bratT34=Organization
 4	отметили	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -227,8 +227,8 @@
 14	сотрудников	_	_	_	_	_	_	_	bratT21=Person-property
 15	к	_	_	_	_	_	_	_	_
 16	руководству	_	_	_	_	_	_	_	bratT22=Person-property
-17	подрядной	_	_	_	_	_	_	_	_
-18	организации	_	_	_	_	_	_	_	SpaceAfter=No
+17	подрядной	_	_	_	_	_	_	_	bratT22=Person-property|bratT35=Organization
+18	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property|bratT35=Organization
 19	''	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
 
@@ -248,7 +248,7 @@
 # sent_id = 0067-p5-s3
 # text = В пресс-центре добавили, что ``в результате инцидента офисным помещениям был причинен ущерб''.
 1	В	_	_	_	_	_	_	_	_
-2	пресс-центре	_	_	_	_	_	_	_	_
+2	пресс-центре	_	_	_	_	_	_	_	bratA8=T36:Department|bratT36=Organization
 3	добавили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

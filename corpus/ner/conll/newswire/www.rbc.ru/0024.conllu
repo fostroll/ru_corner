@@ -23,8 +23,8 @@
 4	Шаскольский	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T6:Male|bratT46=Person-surname|bratT6=Person
 5	,	_	_	_	_	_	_	_	_
 6	которого	_	_	_	_	_	_	_	_
-7	источники	_	_	_	_	_	_	_	_
-8	РБК	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
+7	источники	_	_	_	_	_	_	_	bratT67=Person
+8	РБК	_	_	_	_	_	_	_	bratA1=T9:Media|bratT67=Person|bratT9=Organization
 9	называли	_	_	_	_	_	_	_	_
 10	основным	_	_	_	_	_	_	_	_
 11	кандидатом	_	_	_	_	_	_	_	bratT10=Person-property
@@ -116,8 +116,8 @@
 # par_text = Источники РБК в начале ноября сообщили о грядущем увольнении Игоря Артемьева, который руководил ФАС с марта 2004 года. Два источника РБК назвали Шаскольского в качестве основного кандидата на замену Артемьева. Еще один собеседник РБК заявил, что им может стать глава управления ФАС по Петербургу Вадим Владимиров.
 # sent_id = 0024-p5-s1
 # text = Источники РБК в начале ноября сообщили о грядущем увольнении Игоря Артемьева, который руководил ФАС с марта 2004 года.
-1	Источники	_	_	_	_	_	_	_	_
-2	РБК	_	_	_	_	_	_	_	bratA3=T23:Media|bratT23=Organization
+1	Источники	_	_	_	_	_	_	_	bratT68=Person
+2	РБК	_	_	_	_	_	_	_	bratA3=T23:Media|bratT23=Organization|bratT68=Person
 3	в	_	_	_	_	_	_	_	bratA11=T24:Past|bratT24=Date-absolute
 4	начале	_	_	_	_	_	_	_	bratA11=T24:Past|bratT24=Date-absolute
 5	ноября	_	_	_	_	_	_	_	bratA11=T24:Past|bratT24=Date-absolute
@@ -141,7 +141,7 @@
 # text = Два источника РБК назвали Шаскольского в качестве основного кандидата на замену Артемьева.
 1	Два	_	_	_	_	_	_	_	bratT28=Quantity|bratT63=Person
 2	источника	_	_	_	_	_	_	_	bratT28=Quantity|bratT63=Person
-3	РБК	_	_	_	_	_	_	_	bratA4=T29:Media|bratT29=Organization
+3	РБК	_	_	_	_	_	_	_	bratA4=T29:Media|bratT29=Organization|bratT63=Person
 4	назвали	_	_	_	_	_	_	_	_
 5	Шаскольского	_	_	_	_	_	_	_	bratA16=T30:Male|bratT30=Person|bratT52=Person-surname
 6	в	_	_	_	_	_	_	_	_
@@ -155,10 +155,10 @@
 
 # sent_id = 0024-p5-s3
 # text = Еще один собеседник РБК заявил, что им может стать глава управления ФАС по Петербургу Вадим Владимиров.
-1	Еще	_	_	_	_	_	_	_	bratA24=T64:Male|bratT54=Quantity|bratT64=Person
+1	Еще	_	_	_	_	_	_	_	bratT54=Quantity
 2	один	_	_	_	_	_	_	_	bratA24=T64:Male|bratT54=Quantity|bratT64=Person
 3	собеседник	_	_	_	_	_	_	_	bratA24=T64:Male|bratT54=Quantity|bratT64=Person
-4	РБК	_	_	_	_	_	_	_	bratA5=T33:Media|bratT33=Organization
+4	РБК	_	_	_	_	_	_	_	bratA24=T64:Male|bratA5=T33:Media|bratT33=Organization|bratT64=Person
 5	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_

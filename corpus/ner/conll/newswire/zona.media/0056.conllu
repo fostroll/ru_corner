@@ -9,9 +9,9 @@
 4	МВД	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
 5	оправдали	_	_	_	_	_	_	_	_
 6	по	_	_	_	_	_	_	_	_
-7	делу	_	_	_	_	_	_	_	_
+7	делу	_	_	_	_	_	_	_	bratT62=Event
 8	о	_	_	_	_	_	_	_	_
-9	мошенничестве	_	_	_	_	_	_	_	_
+9	мошенничестве	_	_	_	_	_	_	_	bratT63=Event
 10	на	_	_	_	_	_	_	_	bratT4=Money
 11	1,5	_	_	_	_	_	_	_	bratT4=Money
 12	млн	_	_	_	_	_	_	_	bratT4=Money
@@ -38,15 +38,15 @@
 15	Адама	_	_	_	_	_	_	_	bratA2=T8:Male|bratT12=Person-forename|bratT8=Person
 16	Яхутля	_	_	_	_	_	_	_	bratA2=T8:Male|bratT13=Person-surname|bratT8=Person
 17	по	_	_	_	_	_	_	_	_
-18	делу	_	_	_	_	_	_	_	_
+18	делу	_	_	_	_	_	_	_	bratT64=Event
 19	о	_	_	_	_	_	_	_	_
-20	мошенничестве	_	_	_	_	_	_	_	_
+20	мошенничестве	_	_	_	_	_	_	_	bratT65=Event
 21	на	_	_	_	_	_	_	_	_
 22	1,5	_	_	_	_	_	_	_	bratT16=Money
 23	млн	_	_	_	_	_	_	_	bratT16=Money
 24	долларов	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Money
 25	(	_	_	_	_	_	_	_	SpaceAfter=No
-26	мошенничество	_	_	_	_	_	_	_	_
+26	мошенничество	_	_	_	_	_	_	_	bratT66=Event
 27	в	_	_	_	_	_	_	_	_
 28	особо	_	_	_	_	_	_	_	_
 29	крупном	_	_	_	_	_	_	_	_
@@ -69,8 +69,8 @@
 5	со	_	_	_	_	_	_	_	_
 6	ссылкой	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	пресс-службу	_	_	_	_	_	_	_	_
-9	суда	_	_	_	_	_	_	_	SpaceAfter=No
+8	пресс-службу	_	_	_	_	_	_	_	bratA16=T67:Department|bratT67=Organization
+9	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T67:Department|bratT58=Organization|bratT67=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0056-p3
@@ -78,7 +78,7 @@
 # sent_id = 0056-p3-s1
 # text = «Суд вообще не установил события преступления.
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-2	Суд	_	_	_	_	_	_	_	_
+2	Суд	_	_	_	_	_	_	_	bratT59=Organization
 3	вообще	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_
 5	установил	_	_	_	_	_	_	_	_
@@ -92,7 +92,7 @@
 2	одно	_	_	_	_	_	_	_	bratT19=Quantity
 3	из	_	_	_	_	_	_	_	bratT19=Quantity
 4	доказательств	_	_	_	_	_	_	_	_
-5	обвинения	_	_	_	_	_	_	_	_
+5	обвинения	_	_	_	_	_	_	_	bratT60=Person-property
 6	не	_	_	_	_	_	_	_	_
 7	подтвердилось	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_

@@ -161,7 +161,10 @@
 # sent_id = 0014-p4-s2
 # text = «ОВД-Инфо» сообщало, что в Москве задержали 32 человека.
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-2	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+2-20	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+2	ОВД	_	_	_	_	_	_	_	SpaceAfter=No
+2	-	_	_	_	_	_	_	_	SpaceAfter=No
+20	Инфо	_	_	_	_	_	_	_	SpaceAfter=No
 3	''	_	_	_	_	_	_	_	QuotationEnd=»
 4	сообщало	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_

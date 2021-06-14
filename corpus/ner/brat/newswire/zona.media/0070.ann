@@ -20,67 +20,74 @@ A4	Male T16
 T17	Person-property 354 372	губернатора   края
 T18	Person-forename 375 381	Сергея
 T19	Person-surname 384 391	Фургала
-T20	Organization 419 437	``   ОВД-Инфо   ''
-T21	Person 493 502	Гретченко
+T20	Organization 419 439	``   ОВД - Инфо   ''
+T21	Person 495 504	Гретченко
 A5	Male T21
-T22	Person-surname 493 502	Гретченко
-T23	Other-term 505 536	вторая   степень   инвалидности
-T24	Ordinal 505 511	вторая
-T25	Organization 558 582	``   Новой   газете   ''
+T22	Person-surname 495 504	Гретченко
+T23	Other-term 507 538	вторая   степень   инвалидности
+T24	Ordinal 507 513	вторая
+T25	Organization 560 584	``   Новой   газете   ''
 A6	Media T25
-T26	Person 597 667	координатор   ``   Правозащиты   Открытки   ''   Алексей   Прянишников
+T26	Person 599 669	координатор   ``   Правозащиты   Открытки   ''   Алексей   Прянишников
 A7	Male T26
-T27	Person-property 597 643	координатор   ``   Правозащиты   Открытки   ''
-T28	Organization 611 643	``   Правозащиты   Открытки   ''
-T29	Person-forename 646 653	Алексей
-T30	Person-surname 656 667	Прянишников
-T32	Other-group 915 923	инвалиду
-T33	Person 971 983	Прянишникова
+T27	Person-property 599 645	координатор   ``   Правозащиты   Открытки   ''
+T28	Organization 613 645	``   Правозащиты   Открытки   ''
+T29	Person-forename 648 655	Алексей
+T30	Person-surname 658 669	Прянишников
+T32	Other-group 917 925	инвалиду
+T33	Person 973 985	Прянишникова
 A8	Male T33
-T34	Person-surname 971 983	Прянишникова
-T35	Service 1048 1058	инстаграме
-T36	Person 1071 1080	Гретченко
+T34	Person-surname 973 985	Прянишникова
+T35	Service 1050 1060	инстаграме
+T36	Person 1073 1082	Гретченко
 A10	Male T36
-T37	Person-surname 1071 1080	Гретченко
-T38	Organization 1187 1190	Суд
-T39	Facility 1312 1328	площадь   Ленина
-T40	Person-property 1359 1370	координатор
-T41	Person 1376 1385	Гретченко
+T37	Person-surname 1073 1082	Гретченко
+T38	Organization 1189 1192	Суд
+T39	Facility 1314 1330	площадь   Ленина
+T40	Person-property 1361 1372	координатор
+T41	Person 1378 1387	Гретченко
 A11	Male T41
-T42	Person-surname 1376 1385	Гретченко
-T43	Service 1445 1455	инстаграме
-T44	Quantity 1486 1498	двое   людей
-T45	Nationality 1529 1542	хабаровчанину
+T42	Person-surname 1378 1387	Гретченко
+T43	Service 1447 1457	инстаграме
+T44	Quantity 1488 1500	двое   людей
+T45	Nationality 1531 1544	хабаровчанину
 A13	Resident T45
-T46	Date-absolute 1639 1657	после   задержания
-T47	Person 1660 1669	Гретченко
+T46	Date-absolute 1641 1659	после   задержания
+T47	Person 1662 1671	Гретченко
 A14	Male T47
-T48	Person-surname 1660 1669	Гретченко
-T49	Date-period-relative 1672 1689	несколько   часов
-T50	Organization 1750 1772	отделе   полиции   № 4
-T51	Ordinal 1769 1772	№ 4
+T48	Person-surname 1662 1671	Гретченко
+T49	Date-period-relative 1674 1691	несколько   часов
+T50	Organization 1752 1774	отделе   полиции   № 4
+T51	Ordinal 1771 1774	№ 4
 A15	Media T20
 T15	Ordinal 297 298	2
 T31	Ordinal 310 314	20.2
 T52	Law 317 321	КоАП
-T54	Time-period 846 855	на   ночь
-T53	Date-relative 1564 1569	затем
+T54	Time-period 848 857	на   ночь
+T53	Date-relative 1566 1571	затем
 A9	Past T46
-T55	Duration 1672 1689	несколько   часов
-T57	Date-relative 1724 1729	затем
-T58	Organization 741 748	полиции
-T56	Organization 1295 1303	полицией
+T55	Duration 1674 1691	несколько   часов
+T57	Date-relative 1726 1731	затем
+T58	Organization 743 750	полиции
+T56	Organization 1297 1305	полицией
 A12	Past T53
 A16	Past T57
-T59	Duration 792 796	ночь
-T60	Date-period-relative 787 796	на   ночь
-T61	Duration 851 855	ночь
-T62	Person 1322 1328	Ленина
+T59	Duration 794 798	ночь
+T60	Date-period-relative 789 798	на   ночь
+T61	Duration 853 857	ночь
+T62	Person 1324 1330	Ленина
 A17	Male T62
-T63	Person-surname 1322 1328	Ленина
+T63	Person-surname 1324 1330	Ленина
 A18	Past T60
 A19	Past T49
 T64	GPE 211 219	местного
 A20	Adjective T64
 T65	GPE 127 149	Центральный   районный
 T66	GPE 368 372	края
+T67	Facility 1128 1135	площади
+T68	Facility 1243 1274	``   центральная   площадь   ''
+T69	Facility 1171 1178	площади
+T70	Organization 1761 1768	полиции
+A21	Department T50
+T71	Organization 424 427	ОВД
+A22	Department T71

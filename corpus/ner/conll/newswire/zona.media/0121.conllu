@@ -27,11 +27,11 @@
 4	Саратова	_	_	_	_	_	_	_	bratT4=Organization|bratT6=GPE
 5	приговорил	_	_	_	_	_	_	_	_
 6	сотрудника	_	_	_	_	_	_	_	bratT7=Person-property
-7	отдела	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Organization
-8	полиции	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Organization
+7	отдела	_	_	_	_	_	_	_	bratA6=T8:Department|bratT7=Person-property|bratT8=Organization
+8	полиции	_	_	_	_	_	_	_	bratA6=T8:Department|bratT27=Organization|bratT7=Person-property|bratT8=Organization
 9-10	№7	_	_	_	_	_	_	_	_
-9	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
-10	7	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
+9	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Department|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
+10	7	_	_	_	_	_	_	_	bratA6=T8:Department|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
 11	к	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative
 12	трем	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative|bratT21=Duration
 13	годам	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative|bratT21=Duration
@@ -42,12 +42,12 @@
 18	сообщается	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_
 20	сайте	_	_	_	_	_	_	_	bratA2=T11:Media|bratT11=Service
-21	управления	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization
-22	Следственного	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization|bratT22=Organization
-23	комитета	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization|bratT22=Organization
-24	по	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization
-25	Саратовской	_	_	_	_	_	_	_	bratA4=T12:Department|bratT12=Organization|bratT13=GPE
-26	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Department|bratT12=Organization|bratT13=GPE
+21	управления	_	_	_	_	_	_	_	bratT12=Organization
+22	Следственного	_	_	_	_	_	_	_	bratT12=Organization|bratT22=Organization
+23	комитета	_	_	_	_	_	_	_	bratT12=Organization|bratT22=Organization
+24	по	_	_	_	_	_	_	_	bratT12=Organization
+25	Саратовской	_	_	_	_	_	_	_	bratT12=Organization|bratT13=GPE
+26	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT13=GPE
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0121-p3

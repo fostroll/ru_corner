@@ -71,9 +71,9 @@
 1	В	_	_	_	_	_	_	_	bratA17=T14:Past|bratT14=Date-absolute
 2	апреле	_	_	_	_	_	_	_	bratA17=T14:Past|bratT14=Date-absolute
 3	настоятелю	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT16=Person-property
-4	Среднеуральского	_	_	_	_	_	_	_	bratA6=T15:Male|bratA7=T18:Adjective|bratT15=Person|bratT16=Person-property|bratT17=Organization|bratT18=Location
-5	женского	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization
-6	монастыря	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Organization
+4	Среднеуральского	_	_	_	_	_	_	_	bratA6=T15:Male|bratA7=T18:Adjective|bratT15=Person|bratT16=Person-property|bratT17=Facility|bratT18=Location
+5	женского	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Facility
+6	монастыря	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT16=Person-property|bratT17=Facility
 7	Сергию	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT19=Person-forename
 8	запретили	_	_	_	_	_	_	_	_
 9	читать	_	_	_	_	_	_	_	_
@@ -137,8 +137,8 @@
 15	и	_	_	_	_	_	_	_	_
 16	остался	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
-18	женском	_	_	_	_	_	_	_	bratT29=Organization
-19	монастыре	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+18	женском	_	_	_	_	_	_	_	bratT29=Facility
+19	монастыре	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Facility
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0060-p4-s2
@@ -149,7 +149,7 @@
 4	выгонять	_	_	_	_	_	_	_	_
 5	нас	_	_	_	_	_	_	_	_
 6	из	_	_	_	_	_	_	_	_
-7	монастыря	_	_	_	_	_	_	_	_
+7	монастыря	_	_	_	_	_	_	_	bratT52=Facility
 8	с	_	_	_	_	_	_	_	_
 9	полицией	_	_	_	_	_	_	_	bratT31=Organization
 10	и	_	_	_	_	_	_	_	_
@@ -173,16 +173,16 @@
 6	что	_	_	_	_	_	_	_	_
 7	Сергий	_	_	_	_	_	_	_	bratA9=T34:Male|bratT34=Person|bratT35=Person-forename
 8	захватил	_	_	_	_	_	_	_	_
-9	Среднеуральский	_	_	_	_	_	_	_	bratA10=T37:Adjective|bratT36=Organization|bratT37=Location
-10	женский	_	_	_	_	_	_	_	bratT36=Organization
-11	монастырь	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+9	Среднеуральский	_	_	_	_	_	_	_	bratA10=T37:Adjective|bratT36=Facility|bratT37=Location
+10	женский	_	_	_	_	_	_	_	bratT36=Facility
+11	монастырь	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Facility
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0060-p5-s2
 # text = На территорию обители не пускают руководство Екатеринбургской епархии и журналистов, охраняют монастырь казаки.
 1	На	_	_	_	_	_	_	_	_
 2	территорию	_	_	_	_	_	_	_	_
-3	обители	_	_	_	_	_	_	_	_
+3	обители	_	_	_	_	_	_	_	bratT51=Facility
 4	не	_	_	_	_	_	_	_	_
 5	пускают	_	_	_	_	_	_	_	_
 6	руководство	_	_	_	_	_	_	_	bratT39=Person-property
@@ -192,7 +192,7 @@
 10	журналистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property
 11	,	_	_	_	_	_	_	_	_
 12	охраняют	_	_	_	_	_	_	_	_
-13	монастырь	_	_	_	_	_	_	_	bratT44=Organization
+13	монастырь	_	_	_	_	_	_	_	bratT44=Facility
 14	казаки	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property
 15	.	_	_	_	_	_	_	_	_
 

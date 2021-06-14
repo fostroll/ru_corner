@@ -7,7 +7,7 @@
 2	хабаровского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
 3	активиста	_	_	_	_	_	_	_	bratT1=Person-property
 4	завели	_	_	_	_	_	_	_	_
-5	дело	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	bratT46=Event
 6	``	_	_	_	_	_	_	_	SpaceAfter=No
 7	по	_	_	_	_	_	_	_	_
 8	дадинской	_	_	_	_	_	_	_	_
@@ -32,8 +32,8 @@
 7	Александра	_	_	_	_	_	_	_	bratA3=T6:Male|bratT10=Person-forename|bratT6=Person
 8	Приходько	_	_	_	_	_	_	_	bratA3=T6:Male|bratT11=Person-surname|bratT6=Person
 9	завели	_	_	_	_	_	_	_	_
-10	уголовное	_	_	_	_	_	_	_	_
-11	дело	_	_	_	_	_	_	_	_
+10	уголовное	_	_	_	_	_	_	_	bratT47=Event
+11	дело	_	_	_	_	_	_	_	bratT47=Event
 12	по	_	_	_	_	_	_	_	_
 13	статье	_	_	_	_	_	_	_	_
 14	о	_	_	_	_	_	_	_	_
@@ -56,16 +56,19 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Media|bratT13=Organization
-5	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Media|bratT13=Organization
-6	''	_	_	_	_	_	_	_	bratA11=T13:Media|bratT13=Organization
-7	со	_	_	_	_	_	_	_	_
-8	ссылкой	_	_	_	_	_	_	_	_
-9	на	_	_	_	_	_	_	_	_
-10	его	_	_	_	_	_	_	_	_
-11	адвоката	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT15=Person-property
-12	Андрея	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT16=Person-forename
-13	Битюцкого	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Male|bratT14=Person|bratT17=Person-surname
-14	.	_	_	_	_	_	_	_	_
+5-7	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+5	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Media|bratA16=T49:Department|bratT13=Organization|bratT49=Organization
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Media|bratT13=Organization
+7	Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Media|bratT13=Organization
+8	''	_	_	_	_	_	_	_	bratA11=T13:Media|bratT13=Organization
+9	со	_	_	_	_	_	_	_	_
+10	ссылкой	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	его	_	_	_	_	_	_	_	_
+13	адвоката	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT15=Person-property
+14	Андрея	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT16=Person-forename
+15	Битюцкого	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Male|bratT14=Person|bratT17=Person-surname
+16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0053-p3
 # par_text = По информации правозащитного проекта, Приходько задержали.
@@ -125,9 +128,12 @@
 6	,	_	_	_	_	_	_	_	_
 7	отмечает	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Media|bratT35=Organization
-9	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Media|bratT35=Organization
-10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Media|bratT35=Organization
-11	.	_	_	_	_	_	_	_	_
+9-11	ОВД-Инфо	_	_	_	_	_	_	_	SpaceAfter=No
+9	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Media|bratA12=T48:Department|bratT35=Organization|bratT48=Organization
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Media|bratT35=Organization
+11	Инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Media|bratT35=Organization
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Media|bratT35=Organization
+13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0053-p5-s2
 # text = Первый раз - на пять тысяч рублей по статье о нарушении правил проведения акции, повлекшем помехи движению транспорта и пешеходов (часть 6.1 статьи 20.2 КоАП).
@@ -151,7 +157,7 @@
 18	движению	_	_	_	_	_	_	_	_
 19	транспорта	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
-21	пешеходов	_	_	_	_	_	_	_	_
+21	пешеходов	_	_	_	_	_	_	_	bratT27=Other-group
 22	(	_	_	_	_	_	_	_	SpaceAfter=No
 23	часть	_	_	_	_	_	_	_	bratT38=Law
 24	6.1	_	_	_	_	_	_	_	bratT29=Ordinal|bratT38=Law

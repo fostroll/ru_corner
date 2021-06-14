@@ -10,9 +10,9 @@
 5	оправдали	_	_	_	_	_	_	_	_
 6	крымчанина	_	_	_	_	_	_	_	bratA1=T3:Resident|bratT3=Nationality
 7	по	_	_	_	_	_	_	_	_
-8	делу	_	_	_	_	_	_	_	_
+8	делу	_	_	_	_	_	_	_	bratT56=Event
 9	о	_	_	_	_	_	_	_	_
-10	гибели	_	_	_	_	_	_	_	_
+10	гибели	_	_	_	_	_	_	_	bratT57=Event
 11	бездомного	_	_	_	_	_	_	_	bratT4=Person-property
 
 # newpar id = 0074-p2
@@ -31,9 +31,9 @@
 10	Александра	_	_	_	_	_	_	_	bratA4=T9:Male|bratT10=Person-forename|bratT9=Person
 11	Буянова	_	_	_	_	_	_	_	bratA4=T9:Male|bratT11=Person-surname|bratT9=Person
 12	по	_	_	_	_	_	_	_	_
-13	делу	_	_	_	_	_	_	_	_
+13	делу	_	_	_	_	_	_	_	bratT58=Event
 14	об	_	_	_	_	_	_	_	_
-15	гибели	_	_	_	_	_	_	_	_
+15	гибели	_	_	_	_	_	_	_	bratT59=Event
 16	бездомного	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
 17	.	_	_	_	_	_	_	_	_
 
@@ -82,7 +82,7 @@
 1	Тот	_	_	_	_	_	_	_	_
 2	умер	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	больнице	_	_	_	_	_	_	_	_
+4	больнице	_	_	_	_	_	_	_	bratT2=Organization
 5	с	_	_	_	_	_	_	_	_
 6	проломленной	_	_	_	_	_	_	_	_
 7	головой	_	_	_	_	_	_	_	SpaceAfter=No
@@ -149,8 +149,8 @@
 2	двух	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-absolute|bratT30=Quantity
 3	оправданий	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-absolute|bratT30=Quantity
 4	в	_	_	_	_	_	_	_	_
-5	суде	_	_	_	_	_	_	_	_
-6	присяжных	_	_	_	_	_	_	_	_
+5	суде	_	_	_	_	_	_	_	bratT31=Organization
+6	присяжных	_	_	_	_	_	_	_	bratT31=Organization
 7	обвинение	_	_	_	_	_	_	_	_
 8	смягчили	_	_	_	_	_	_	_	_
 9	и	_	_	_	_	_	_	_	_
@@ -176,8 +176,8 @@
 7	раз	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	рассмотрение	_	_	_	_	_	_	_	_
-10	уголовного	_	_	_	_	_	_	_	_
-11	дела	_	_	_	_	_	_	_	_
+10	уголовного	_	_	_	_	_	_	_	bratT60=Event
+11	дела	_	_	_	_	_	_	_	bratT60=Event
 12	перенесли	_	_	_	_	_	_	_	_
 13	из	_	_	_	_	_	_	_	_
 14	Сакского	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratT37=Organization|bratT38=GPE
@@ -195,8 +195,8 @@
 4	осталось	_	_	_	_	_	_	_	_
 5	судей	_	_	_	_	_	_	_	bratT41=Person-property
 6	по	_	_	_	_	_	_	_	_
-7	уголовным	_	_	_	_	_	_	_	_
-8	делам	_	_	_	_	_	_	_	SpaceAfter=No
+7	уголовным	_	_	_	_	_	_	_	bratT61=Event
+8	делам	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
 9	,	_	_	_	_	_	_	_	_
 10	которые	_	_	_	_	_	_	_	_
 11	бы	_	_	_	_	_	_	_	_

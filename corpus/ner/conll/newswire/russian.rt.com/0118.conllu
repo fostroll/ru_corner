@@ -27,8 +27,8 @@
 9	два	_	_	_	_	_	_	_	bratA2=T19:Past-Fut|bratT19=Date-period-relative|bratT25=Duration
 10	месяца	_	_	_	_	_	_	_	bratA2=T19:Past-Fut|bratT19=Date-period-relative|bratT25=Duration
 11	в	_	_	_	_	_	_	_	_
-12	психиатрическую	_	_	_	_	_	_	_	_
-13	больницу	_	_	_	_	_	_	_	_
+12	психиатрическую	_	_	_	_	_	_	_	bratT38=Organization
+13	больницу	_	_	_	_	_	_	_	bratT38=Organization
 14	Максима	_	_	_	_	_	_	_	bratA12=T21:Male|bratT21=Person|bratT30=Person-forename
 15	Кривоша	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T21:Male|bratT21=Person|bratT31=Person-surname
 16	,	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 # text = Таким образом суд удовлетворил ходатайство прокурора о проведении стационарной психиатрической экспертизы.
 1	Таким	_	_	_	_	_	_	_	_
 2	образом	_	_	_	_	_	_	_	_
-3	суд	_	_	_	_	_	_	_	_
+3	суд	_	_	_	_	_	_	_	bratT39=Organization
 4	удовлетворил	_	_	_	_	_	_	_	_
 5	ходатайство	_	_	_	_	_	_	_	_
 6	прокурора	_	_	_	_	_	_	_	bratT4=Person-property

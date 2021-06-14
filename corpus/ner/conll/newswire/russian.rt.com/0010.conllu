@@ -3,10 +3,10 @@
 # par_text = Защита обжаловала решение суда о мере пресечения аудитору Меню
 # sent_id = 0010-p1-s1
 # text = Защита обжаловала решение суда о мере пресечения аудитору Меню
-1	Защита	_	_	_	_	_	_	_	_
+1	Защита	_	_	_	_	_	_	_	bratT40=Person|bratT42=Person-property
 2	обжаловала	_	_	_	_	_	_	_	_
 3	решение	_	_	_	_	_	_	_	_
-4	суда	_	_	_	_	_	_	_	_
+4	суда	_	_	_	_	_	_	_	bratT39=Organization
 5	о	_	_	_	_	_	_	_	_
 6	мере	_	_	_	_	_	_	_	_
 7	пресечения	_	_	_	_	_	_	_	_
@@ -17,21 +17,21 @@
 # par_text = Защита аудитора Счётной палаты, экс-губернатора Ивановской области Михаила Меня подала апелляцию на решение суда, который ранее в качестве меры пресечения назначил чиновнику запрет определённых действий.
 # sent_id = 0010-p2-s1
 # text = Защита аудитора Счётной палаты, экс-губернатора Ивановской области Михаила Меня подала апелляцию на решение суда, который ранее в качестве меры пресечения назначил чиновнику запрет определённых действий.
-1	Защита	_	_	_	_	_	_	_	_
-2	аудитора	_	_	_	_	_	_	_	bratA5=T20:Male|bratT16=Person-property|bratT20=Person
-3	Счётной	_	_	_	_	_	_	_	bratA5=T20:Male|bratT16=Person-property|bratT17=Organization|bratT20=Person
-4	палаты	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T20:Male|bratT16=Person-property|bratT17=Organization|bratT20=Person
-5	,	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person
-6	экс-губернатора	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=Person-property|bratT20=Person
-7	Ивановской	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=Person-property|bratT19=GPE|bratT20=Person
-8	области	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=Person-property|bratT19=GPE|bratT20=Person
-9	Михаила	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person|bratT27=Person-forename
-10	Меня	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person|bratT28=Person-surname
+1	Защита	_	_	_	_	_	_	_	bratT41=Person|bratT43=Person-property
+2	аудитора	_	_	_	_	_	_	_	bratA5=T20:Male|bratT16=Person-property|bratT20=Person|bratT41=Person|bratT43=Person-property
+3	Счётной	_	_	_	_	_	_	_	bratA5=T20:Male|bratT16=Person-property|bratT17=Organization|bratT20=Person|bratT41=Person|bratT43=Person-property
+4	палаты	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T20:Male|bratT16=Person-property|bratT17=Organization|bratT20=Person|bratT41=Person|bratT43=Person-property
+5	,	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person|bratT41=Person|bratT43=Person-property
+6	экс-губернатора	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=Person-property|bratT20=Person|bratT41=Person|bratT43=Person-property
+7	Ивановской	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=Person-property|bratT19=GPE|bratT20=Person|bratT41=Person|bratT43=Person-property
+8	области	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=Person-property|bratT19=GPE|bratT20=Person|bratT41=Person|bratT43=Person-property
+9	Михаила	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person|bratT27=Person-forename|bratT41=Person|bratT43=Person-property
+10	Меня	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person|bratT28=Person-surname|bratT41=Person|bratT43=Person-property
 11	подала	_	_	_	_	_	_	_	_
 12	апелляцию	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
 14	решение	_	_	_	_	_	_	_	_
-15	суда	_	_	_	_	_	_	_	SpaceAfter=No
+15	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Organization
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
 18	ранее	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-relative
@@ -40,7 +40,7 @@
 21	меры	_	_	_	_	_	_	_	_
 22	пресечения	_	_	_	_	_	_	_	_
 23	назначил	_	_	_	_	_	_	_	_
-24	чиновнику	_	_	_	_	_	_	_	bratT21=Person-property
+24	чиновнику	_	_	_	_	_	_	_	bratA11=T45:Male|bratT21=Person-property|bratT45=Person
 25	запрет	_	_	_	_	_	_	_	_
 26	определённых	_	_	_	_	_	_	_	_
 27	действий	_	_	_	_	_	_	_	SpaceAfter=No

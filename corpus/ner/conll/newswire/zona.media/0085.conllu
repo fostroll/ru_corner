@@ -40,8 +40,8 @@
 10	Тузову	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT14=Person-surname
 11	в	_	_	_	_	_	_	_	_
 12	возбуждении	_	_	_	_	_	_	_	_
-13	уголовного	_	_	_	_	_	_	_	_
-14	дела	_	_	_	_	_	_	_	_
+13	уголовного	_	_	_	_	_	_	_	bratT61=Event
+14	дела	_	_	_	_	_	_	_	bratT61=Event
 15	о	_	_	_	_	_	_	_	_
 16	клевете	_	_	_	_	_	_	_	_
 17	против	_	_	_	_	_	_	_	_
@@ -62,11 +62,11 @@
 5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA6=T20:Media|bratT20=Organization
 6	сообщили	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	отделе	_	_	_	_	_	_	_	bratT21=Organization
-9	полиции	_	_	_	_	_	_	_	bratT21=Organization
+8	отделе	_	_	_	_	_	_	_	bratA17=T21:Department|bratT21=Organization
+9	полиции	_	_	_	_	_	_	_	bratA17=T21:Department|bratT21=Organization|bratT60=Organization
 10-11	№3	_	_	_	_	_	_	_	SpaceAfter=No
-10	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Ordinal|bratT21=Organization|bratT57=Cardinal
-11	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Ordinal|bratT21=Organization
+10	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T21:Department|bratT1=Ordinal|bratT21=Organization|bratT57=Cardinal
+11	3	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T21:Department|bratT1=Ordinal|bratT21=Organization
 12	,	_	_	_	_	_	_	_	_
 13	куда	_	_	_	_	_	_	_	_
 14	обратился	_	_	_	_	_	_	_	_
@@ -150,7 +150,7 @@
 12	-	_	_	_	_	_	_	_	_
 13	добавил	_	_	_	_	_	_	_	_
 14	сотрудник	_	_	_	_	_	_	_	bratT38=Person-property
-15	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property
+15	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property|bratT59=Organization
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p3-s5
@@ -189,7 +189,7 @@
 8	со	_	_	_	_	_	_	_	_
 9	стороны	_	_	_	_	_	_	_	_
 10	сотрудника	_	_	_	_	_	_	_	bratT42=Person-property
-11	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property
+11	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property|bratT58=Organization
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p4-s2
@@ -226,8 +226,8 @@
 2	также	_	_	_	_	_	_	_	_
 3	отказалось	_	_	_	_	_	_	_	_
 4	возбуждать	_	_	_	_	_	_	_	_
-5	уголовное	_	_	_	_	_	_	_	_
-6	дело	_	_	_	_	_	_	_	_
+5	уголовное	_	_	_	_	_	_	_	bratT62=Event
+6	дело	_	_	_	_	_	_	_	bratT62=Event
 7	по	_	_	_	_	_	_	_	_
 8	заявлению	_	_	_	_	_	_	_	_
 9	Константиновой	_	_	_	_	_	_	_	bratA14=T48:Female|bratT48=Person|bratT49=Person-surname

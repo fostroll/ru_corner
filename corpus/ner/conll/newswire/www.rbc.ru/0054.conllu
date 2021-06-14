@@ -35,7 +35,7 @@
 15	отдали	_	_	_	_	_	_	_	_
 16	победу	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	_
-18	выборах	_	_	_	_	_	_	_	SpaceAfter=No
+18	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 19	,	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	bratA9=T48:Future|bratT48=Date-absolute
 21	день	_	_	_	_	_	_	_	bratA9=T48:Future|bratT46=Event|bratT48=Date-absolute
@@ -70,7 +70,7 @@
 12	соперник	_	_	_	_	_	_	_	_
 13	Байдена	_	_	_	_	_	_	_	bratA12=T17:Male|bratT17=Person|bratT54=Person-surname
 14	на	_	_	_	_	_	_	_	_
-15	выборах	_	_	_	_	_	_	_	SpaceAfter=No
+15	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Event
 16	,	_	_	_	_	_	_	_	_
 17	не	_	_	_	_	_	_	_	_
 18	признает	_	_	_	_	_	_	_	_
@@ -87,9 +87,9 @@
 3	также	_	_	_	_	_	_	_	_
 4	перейдут	_	_	_	_	_	_	_	_
 5	аккаунты	_	_	_	_	_	_	_	bratA2=T70:Plural|bratA26=T70:Media|bratT70=Service
-6	ссылка	_	_	_	_	_	_	_	EntityNametag=@whitehouse|SpaceAfter=No|bratA2=T70:Plural|bratA26=T70:Media|bratT70=Service
+6	@whitehouse	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T70:Plural|bratA26=T70:Media|bratT70=Service|bratT75=Other-contact
 7	,	_	_	_	_	_	_	_	bratA2=T70:Plural|bratA26=T70:Media|bratT70=Service
-8	ссылка	_	_	_	_	_	_	_	EntityNametag=@FLOTUS|bratA2=T70:Plural|bratA26=T70:Media|bratT70=Service
+8	@FLOTUS	_	_	_	_	_	_	_	bratA2=T70:Plural|bratA26=T70:Media|bratT70=Service|bratT76=Other-contact
 9	и	_	_	_	_	_	_	_	_
 10	ряд	_	_	_	_	_	_	_	_
 11	других	_	_	_	_	_	_	_	SpaceAfter=No
@@ -112,9 +112,9 @@
 # sent_id = 0054-p5-s1
 # text = Выборы президента Соединенных Штатов прошли 3 ноября.
 1	Выборы	_	_	_	_	_	_	_	bratT23=Event
-2	президента	_	_	_	_	_	_	_	bratT23=Event|bratT24=Person-property
-3	Соединенных	_	_	_	_	_	_	_	bratT23=Event|bratT24=Person-property|bratT25=GPE
-4	Штатов	_	_	_	_	_	_	_	bratT23=Event|bratT24=Person-property|bratT25=GPE
+2	президента	_	_	_	_	_	_	_	bratT24=Person-property
+3	Соединенных	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=GPE
+4	Штатов	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=GPE
 5	прошли	_	_	_	_	_	_	_	_
 6	3	_	_	_	_	_	_	_	bratA14=T26:Past|bratT26=Date-absolute
 7	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T26:Past|bratT26=Date-absolute
@@ -173,7 +173,7 @@
 13	подсчета	_	_	_	_	_	_	_	_
 14	голосов	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
-16	суде	_	_	_	_	_	_	_	SpaceAfter=No
+16	суде	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0054-p6
@@ -189,7 +189,7 @@
 7	себя	_	_	_	_	_	_	_	_
 8	победителем	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	выборах	_	_	_	_	_	_	_	SpaceAfter=No
+10	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Event
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0054-p6-s2
@@ -217,7 +217,7 @@
 8	на	_	_	_	_	_	_	_	_
 9	Трампа	_	_	_	_	_	_	_	bratA21=T35:Male|bratT35=Person|bratT65=Person-surname
 10	в	_	_	_	_	_	_	_	_
-11	суд	_	_	_	_	_	_	_	_
+11	суд	_	_	_	_	_	_	_	bratT74=Organization
 12	в	_	_	_	_	_	_	_	_
 13	случае	_	_	_	_	_	_	_	_
 14	отказа	_	_	_	_	_	_	_	_
@@ -259,7 +259,7 @@
 7	будет	_	_	_	_	_	_	_	_
 8	признан	_	_	_	_	_	_	_	_
 9	победителем	_	_	_	_	_	_	_	bratT68=Person-property
-10	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Person-property
+10	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Person-property|bratT80=Event
 11	,	_	_	_	_	_	_	_	_
 12	президентские	_	_	_	_	_	_	_	_
 13	полномочия	_	_	_	_	_	_	_	_

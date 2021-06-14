@@ -10,7 +10,7 @@
 5	сообщили	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
 7	повреждении	_	_	_	_	_	_	_	_
-8	склада	_	_	_	_	_	_	_	_
+8	склада	_	_	_	_	_	_	_	bratT41=Facility
 9	обломком	_	_	_	_	_	_	_	_
 10	после	_	_	_	_	_	_	_	bratA10=T26:Past|bratT26=Date-absolute
 11	посадки	_	_	_	_	_	_	_	bratA10=T26:Past|bratT26=Date-absolute
@@ -26,14 +26,14 @@
 1	В	_	_	_	_	_	_	_	_
 2	Новосибирске	_	_	_	_	_	_	_	bratT3=GPE
 3	на	_	_	_	_	_	_	_	_
-4	склад	_	_	_	_	_	_	_	_
-5	распределительного	_	_	_	_	_	_	_	bratA1=T4:Department|bratT4=Organization
-6	центра	_	_	_	_	_	_	_	bratA1=T4:Department|bratT4=Organization
-7	группы	_	_	_	_	_	_	_	bratA1=T4:Department|bratT4=Organization|bratT5=Organization
-8	гипермаркетов	_	_	_	_	_	_	_	bratA1=T4:Department|bratT4=Organization|bratT5=Organization
-9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Department|bratT4=Organization|bratT5=Organization
-10	Лента	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Department|bratT4=Organization|bratT5=Organization
-11	''	_	_	_	_	_	_	_	bratA1=T4:Department|bratT4=Organization|bratT5=Organization
+4	склад	_	_	_	_	_	_	_	bratT39=Facility
+5	распределительного	_	_	_	_	_	_	_	bratA1=T4:Department|bratT39=Facility|bratT4=Organization
+6	центра	_	_	_	_	_	_	_	bratA1=T4:Department|bratT39=Facility|bratT4=Organization
+7	группы	_	_	_	_	_	_	_	bratA1=T4:Department|bratT39=Facility|bratT4=Organization|bratT5=Organization
+8	гипермаркетов	_	_	_	_	_	_	_	bratA1=T4:Department|bratT39=Facility|bratT4=Organization|bratT5=Organization
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Department|bratT39=Facility|bratT4=Organization|bratT5=Organization
+10	Лента	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Department|bratT39=Facility|bratT4=Organization|bratT5=Organization
+11	''	_	_	_	_	_	_	_	bratA1=T4:Department|bratT39=Facility|bratT4=Organization|bratT5=Organization
 12	упал	_	_	_	_	_	_	_	_
 13	обломок	_	_	_	_	_	_	_	_
 14	самолета	_	_	_	_	_	_	_	SpaceAfter=No
@@ -79,8 +79,8 @@
 2	Деталь	_	_	_	_	_	_	_	_
 3	самолета	_	_	_	_	_	_	_	_
 4	повредила	_	_	_	_	_	_	_	_
-5	распределительный	_	_	_	_	_	_	_	bratA8=T23:Department|bratT23=Organization
-6	центр	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T23:Department|bratT23=Organization
+5	распределительный	_	_	_	_	_	_	_	bratT23=Facility
+6	центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Facility
 7	,	_	_	_	_	_	_	_	_
 8	принадлежащий	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
@@ -128,9 +128,9 @@
 18	фотографии	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	отправленные	_	_	_	_	_	_	_	_
-21	очевидцем	_	_	_	_	_	_	_	_
+21	очевидцем	_	_	_	_	_	_	_	bratT54=Person
 22	со	_	_	_	_	_	_	_	_
-23	склада	_	_	_	_	_	_	_	SpaceAfter=No
+23	склада	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Facility
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0044-p4-s2
@@ -143,7 +143,7 @@
 6	крыше	_	_	_	_	_	_	_	_
 7	и	_	_	_	_	_	_	_	_
 8	внутри	_	_	_	_	_	_	_	_
-9	здания	_	_	_	_	_	_	_	SpaceAfter=No
+9	здания	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Facility
 10	,	_	_	_	_	_	_	_	_
 11	а	_	_	_	_	_	_	_	_
 12	также	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
 11	словам	_	_	_	_	_	_	_	_
-12	очевидцев	_	_	_	_	_	_	_	SpaceAfter=No
+12	очевидцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Person
 13	,	_	_	_	_	_	_	_	_
 14	самолет	_	_	_	_	_	_	_	_
 15	начал	_	_	_	_	_	_	_	_

@@ -104,12 +104,12 @@
 1	Сейчас	_	_	_	_	_	_	_	bratA5=T33:Present|bratT33=Date-absolute
 2	наблюдателем	_	_	_	_	_	_	_	bratT14=Person-property
 3	на	_	_	_	_	_	_	_	_
-4	выборах	_	_	_	_	_	_	_	_
+4	выборах	_	_	_	_	_	_	_	bratT43=Event
 5	в	_	_	_	_	_	_	_	_
-6	федеральные	_	_	_	_	_	_	_	_
-7	органы	_	_	_	_	_	_	_	_
-8	государственной	_	_	_	_	_	_	_	_
-9	власти	_	_	_	_	_	_	_	_
+6	федеральные	_	_	_	_	_	_	_	bratT44=Organization
+7	органы	_	_	_	_	_	_	_	bratT44=Organization
+8	государственной	_	_	_	_	_	_	_	bratT44=Organization
+9	власти	_	_	_	_	_	_	_	bratT44=Organization
 10	может	_	_	_	_	_	_	_	_
 11	быть	_	_	_	_	_	_	_	_
 12	россиянин	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Citizenship|bratT13=Nationality
@@ -132,8 +132,8 @@
 5	наблюдателям	_	_	_	_	_	_	_	bratT15=Person-property
 6	на	_	_	_	_	_	_	_	_
 7	выборах	_	_	_	_	_	_	_	bratT36=Event
-8	властей	_	_	_	_	_	_	_	bratT36=Event
-9	субъекта	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Event
+8	властей	_	_	_	_	_	_	_	bratT36=Event|bratT45=Organization
+9	субъекта	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Event|bratT45=Organization|bratT46=GPE
 10	,	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
 12	органы	_	_	_	_	_	_	_	bratT41=Organization
@@ -257,7 +257,7 @@
 7	отвечает	_	_	_	_	_	_	_	_
 8	мировым	_	_	_	_	_	_	_	bratA6=T32:Adjective|bratT32=GPE
 9	стандартам	_	_	_	_	_	_	_	_
-10	выборов	_	_	_	_	_	_	_	SpaceAfter=No
+10	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event
 11	''	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_

@@ -38,8 +38,8 @@
 10	строго	_	_	_	_	_	_	_	_
 11	режима	_	_	_	_	_	_	_	_
 12	майора	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property
-13	вооруженных	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property
-14	сил	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property
+13	вооруженных	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property|bratT15=Organization
+14	сил	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property|bratT15=Organization
 15	Николая	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT13=Person-forename
 16	Заикина	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT14=Person-surname
 17	за	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 # text = Как установил суд, он договорился с офицером Антоном Даниловским, также занимавшимся отбором, что они будут получать взятки от солдат и офицеров за включение их в список.
 1	Как	_	_	_	_	_	_	_	_
 2	установил	_	_	_	_	_	_	_	_
-3	суд	_	_	_	_	_	_	_	SpaceAfter=No
+3	суд	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
 4	,	_	_	_	_	_	_	_	_
 5	он	_	_	_	_	_	_	_	_
 6	договорился	_	_	_	_	_	_	_	_
@@ -205,7 +205,7 @@
 9	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Quantity
 10	,	_	_	_	_	_	_	_	_
 11	установил	_	_	_	_	_	_	_	_
-12	суд	_	_	_	_	_	_	_	SpaceAfter=No
+12	суд	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0051-p5-s3

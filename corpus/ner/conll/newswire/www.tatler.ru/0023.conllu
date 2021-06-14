@@ -13,7 +13,7 @@
 7	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Family
 8	-	_	_	_	_	_	_	_	SpaceAfter=No
 9	студентки	_	_	_	_	_	_	_	bratT66=Person-property
-10	квартиру	_	_	_	_	_	_	_	SpaceAfter=No
+10	квартиру	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Facility
 11	,	_	_	_	_	_	_	_	_
 12	принадлежавшую	_	_	_	_	_	_	_	_
 13	Онассисам	_	_	_	_	_	_	_	bratT3=Person|bratT39=Person-surname
@@ -53,7 +53,7 @@
 28	занимающей	_	_	_	_	_	_	_	_
 29	целый	_	_	_	_	_	_	_	_
 30	этаж	_	_	_	_	_	_	_	_
-31	квартире	_	_	_	_	_	_	_	_
+31	квартире	_	_	_	_	_	_	_	bratT71=Facility
 32	на	_	_	_	_	_	_	_	_
 33	площади	_	_	_	_	_	_	_	bratT6=Facility
 34	Гросвенор	_	_	_	_	_	_	_	bratT6=Facility
@@ -70,7 +70,7 @@
 # sent_id = 0023-p2-s2
 # text = За резиденцию с пятью спальнями и библиотекой было заплачено £18.6 миллиона.
 1	За	_	_	_	_	_	_	_	_
-2	резиденцию	_	_	_	_	_	_	_	_
+2	резиденцию	_	_	_	_	_	_	_	bratT67=Facility
 3	с	_	_	_	_	_	_	_	_
 4	пятью	_	_	_	_	_	_	_	bratT10=Quantity
 5	спальнями	_	_	_	_	_	_	_	bratT10=Quantity
@@ -103,7 +103,7 @@
 15	на	_	_	_	_	_	_	_	_
 16	которую	_	_	_	_	_	_	_	_
 17	владелица	_	_	_	_	_	_	_	_
-18	квартиры	_	_	_	_	_	_	_	_
+18	квартиры	_	_	_	_	_	_	_	bratT72=Facility
 19	на	_	_	_	_	_	_	_	_
 20	площади	_	_	_	_	_	_	_	bratT12=Facility
 21	Гросвенор	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Facility
@@ -134,7 +134,7 @@
 11	хочет	_	_	_	_	_	_	_	_
 12	получить	_	_	_	_	_	_	_	_
 13	за	_	_	_	_	_	_	_	_
-14	апартаменты	_	_	_	_	_	_	_	_
+14	апартаменты	_	_	_	_	_	_	_	bratT73=Facility
 15-16	£25	_	_	_	_	_	_	_	_
 15	£	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Money
 16	25	_	_	_	_	_	_	_	bratT20=Money
@@ -174,14 +174,14 @@
 15	ранее	_	_	_	_	_	_	_	bratA14=T62:Past|bratT62=Date-relative
 16	в	_	_	_	_	_	_	_	_
 17	этой	_	_	_	_	_	_	_	_
-18	квартире	_	_	_	_	_	_	_	_
+18	квартире	_	_	_	_	_	_	_	bratT74=Facility
 19	в	_	_	_	_	_	_	_	_
 20	Мэйфэйре	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p3-s2
 # text = Апартаменты принадлежали сестре Аристотеля Онассиса Артемисе.
-1	Апартаменты	_	_	_	_	_	_	_	_
+1	Апартаменты	_	_	_	_	_	_	_	bratT75=Facility
 2	принадлежали	_	_	_	_	_	_	_	_
 3	сестре	_	_	_	_	_	_	_	bratA5=T22:Female|bratT22=Person|bratT23=Family
 4	Аристотеля	_	_	_	_	_	_	_	bratA4=T24:Male|bratA5=T22:Female|bratT22=Person|bratT24=Person|bratT44=Person-forename
@@ -219,7 +219,7 @@
 1	До	_	_	_	_	_	_	_	bratA16=T70:Past|bratT70=Date-period-absolute
 2	Онассисов	_	_	_	_	_	_	_	bratA16=T70:Past|bratT30=Person|bratT53=Person-surname|bratT70=Date-period-absolute
 3	в	_	_	_	_	_	_	_	_
-4	квартире	_	_	_	_	_	_	_	_
+4	квартире	_	_	_	_	_	_	_	bratT76=Facility
 5	жил	_	_	_	_	_	_	_	_
 6	сэр	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT54=Person-affix
 7	Джон	_	_	_	_	_	_	_	bratA10=T31:Male|bratT31=Person|bratT55=Person-forename

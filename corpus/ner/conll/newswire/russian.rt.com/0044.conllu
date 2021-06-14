@@ -11,8 +11,8 @@
 6	победой	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
 8	выборах	_	_	_	_	_	_	_	bratT3=Event
-9	президента	_	_	_	_	_	_	_	bratT3=Event|bratT4=Person-property
-10	США	_	_	_	_	_	_	_	bratT3=Event|bratT4=Person-property|bratT5=GPE
+9	президента	_	_	_	_	_	_	_	bratT4=Person-property
+10	США	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=GPE
 
 # newpar id = 0044-p2
 # par_text = Председатель КНР Си Цзиньпин поздравил кандидата от Демократической партии Джозефа Байдена с победой на выборах президента США, передаёт «Синьхуа».
@@ -33,8 +33,8 @@
 13	победой	_	_	_	_	_	_	_	_
 14	на	_	_	_	_	_	_	_	_
 15	выборах	_	_	_	_	_	_	_	bratT20=Event
-16	президента	_	_	_	_	_	_	_	bratT20=Event
-17	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Event
+16	президента	_	_	_	_	_	_	_	bratT37=Person-property
+17	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE|bratT37=Person-property
 18	,	_	_	_	_	_	_	_	_
 19	передаёт	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
@@ -78,7 +78,7 @@
 17	,	_	_	_	_	_	_	_	_
 18	что	_	_	_	_	_	_	_	_
 19	результаты	_	_	_	_	_	_	_	_
-20	волеизъявления	_	_	_	_	_	_	_	_
+20	волеизъявления	_	_	_	_	_	_	_	bratT39=Event
 21	будут	_	_	_	_	_	_	_	_
 22	определены	_	_	_	_	_	_	_	_
 23	в	_	_	_	_	_	_	_	_
@@ -103,9 +103,9 @@
 10	общих	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Organization
 11	служб	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=Organization
 12	начать	_	_	_	_	_	_	_	_
-13	процедуру	_	_	_	_	_	_	_	_
-14	передачи	_	_	_	_	_	_	_	_
-15	власти	_	_	_	_	_	_	_	_
+13	процедуру	_	_	_	_	_	_	_	bratT41=Event
+14	передачи	_	_	_	_	_	_	_	bratT41=Event
+15	власти	_	_	_	_	_	_	_	bratT41=Event
 16	Байдену	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Male|bratT13=Person|bratT34=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
@@ -119,7 +119,7 @@
 6	своё	_	_	_	_	_	_	_	_
 7	поражение	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
-9	выборах	_	_	_	_	_	_	_	SpaceAfter=No
+9	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Event
 10	,	_	_	_	_	_	_	_	_
 11	дав	_	_	_	_	_	_	_	_
 12	понять	_	_	_	_	_	_	_	SpaceAfter=No
@@ -127,7 +127,7 @@
 14	что	_	_	_	_	_	_	_	_
 15	намерен	_	_	_	_	_	_	_	_
 16	продолжать	_	_	_	_	_	_	_	_
-17	судебные	_	_	_	_	_	_	_	_
-18	тяжбы	_	_	_	_	_	_	_	SpaceAfter=No
+17	судебные	_	_	_	_	_	_	_	bratT40=Event
+18	тяжбы	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 19	.	_	_	_	_	_	_	_	_
 

@@ -52,7 +52,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
 4-6	Тайге.инфо	_	_	_	_	_	_	_	SpaceAfter=No
-4	Тайге	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
+4	Тайге	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization|bratT75=Location
 5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
 6	инфо	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T14:Media|bratT14=Organization
 7	''	_	_	_	_	_	_	_	bratA16=T14:Media|bratT14=Organization
@@ -125,7 +125,7 @@
 # par_text = Дело возбудили в марте 2019 года — через месяц после увольнения Зайцева из органов внутренних дел по результатами за «проступок, порочащий честь сотрудника органов внутренних дел». Елена Зайцева рассказывала, что до этого ее муж жаловался руководству республиканского МВД на участие руководства хакасского наркоконтроля в незаконной наркоторговле.
 # sent_id = 0087-p4-s1
 # text = Дело возбудили в марте 2019 года - через месяц после увольнения Зайцева из органов внутренних дел по результатами за ``проступок, порочащий честь сотрудника органов внутренних дел''.
-1	Дело	_	_	_	_	_	_	_	_
+1	Дело	_	_	_	_	_	_	_	bratT76=Event
 2	возбудили	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
 4	марте	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
@@ -232,7 +232,7 @@
 25	вновь	_	_	_	_	_	_	_	_
 26	поместили	_	_	_	_	_	_	_	_
 27	в	_	_	_	_	_	_	_	_
-28	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No
+28	СИЗО	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0087-p5-s3
@@ -248,13 +248,13 @@
 9	из	_	_	_	_	_	_	_	_
 10	материалов	_	_	_	_	_	_	_	_
 11	своего	_	_	_	_	_	_	_	_
-12	дела	_	_	_	_	_	_	_	_
+12	дела	_	_	_	_	_	_	_	bratT77=Event
 13	на	_	_	_	_	_	_	_	_
 14	Зайцева	_	_	_	_	_	_	_	bratA14=T61:Male|bratT61=Person|bratT62=Person-surname
 15	в	_	_	_	_	_	_	_	bratA15=T63:Past|bratT63=Date-absolute
 16	октябре	_	_	_	_	_	_	_	bratA15=T63:Past|bratT63=Date-absolute
 17	завели	_	_	_	_	_	_	_	_
-18	дело	_	_	_	_	_	_	_	_
+18	дело	_	_	_	_	_	_	_	bratT78=Event
 19	о	_	_	_	_	_	_	_	_
 20	разглашении	_	_	_	_	_	_	_	_
 21	гостайны	_	_	_	_	_	_	_	SpaceAfter=No

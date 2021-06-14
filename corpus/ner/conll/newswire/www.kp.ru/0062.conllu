@@ -7,7 +7,7 @@
 2	освободил	_	_	_	_	_	_	_	_
 3	Цуканова	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT40=Person-surname
 4	от	_	_	_	_	_	_	_	_
-5	должности	_	_	_	_	_	_	_	_
+5	должности	_	_	_	_	_	_	_	bratT4=Person-property
 6	полпреда	_	_	_	_	_	_	_	bratT4=Person-property
 7	президента	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person-property
 8	в	_	_	_	_	_	_	_	bratT4=Person-property
@@ -27,14 +27,14 @@
 6	Николая	_	_	_	_	_	_	_	bratA9=T9:Male|bratT47=Person-forename|bratT9=Person
 7	Цуканова	_	_	_	_	_	_	_	bratA9=T9:Male|bratT48=Person-surname|bratT9=Person
 8	от	_	_	_	_	_	_	_	_
-9	должности	_	_	_	_	_	_	_	bratT11=Person-property
-10	полпреда	_	_	_	_	_	_	_	bratT11=Person-property
+9	должности	_	_	_	_	_	_	_	bratT10=Person-property
+10	полпреда	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
 11	главы	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
 12	государства	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property|bratT62=GPE
-13	в	_	_	_	_	_	_	_	bratT11=Person-property
-14	Уральском	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE
-15	федеральном	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE
-16	округе	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT12=GPE
+13	в	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
+14	Уральском	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property|bratT12=GPE
+15	федеральном	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property|bratT12=GPE
+16	округе	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT11=Person-property|bratT12=GPE
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p2-s2

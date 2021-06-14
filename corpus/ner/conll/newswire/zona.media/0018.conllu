@@ -33,19 +33,19 @@
 4	Санкт-Петербурга	_	_	_	_	_	_	_	bratT5=Organization|bratT7=GPE
 5	арестовал	_	_	_	_	_	_	_	_
 6	оперативника	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-property
-7	уголовного	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-property
-8	розыска	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-property
-9	53-го	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT11=Ordinal|bratT8=Person|bratT9=Person-property
-10	отдела	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT8=Person|bratT9=Person-property
-11	полиции	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT8=Person|bratT9=Person-property
+7	уголовного	_	_	_	_	_	_	_	bratA2=T8:Male|bratA9=T50:Department|bratT50=Organization|bratT8=Person|bratT9=Person-property
+8	розыска	_	_	_	_	_	_	_	bratA2=T8:Male|bratA9=T50:Department|bratT50=Organization|bratT8=Person|bratT9=Person-property
+9	53-го	_	_	_	_	_	_	_	bratA2=T8:Male|bratA6=T10:Department|bratA9=T50:Department|bratT10=Organization|bratT11=Ordinal|bratT50=Organization|bratT8=Person|bratT9=Person-property
+10	отдела	_	_	_	_	_	_	_	bratA2=T8:Male|bratA6=T10:Department|bratA9=T50:Department|bratT10=Organization|bratT50=Organization|bratT8=Person|bratT9=Person-property
+11	полиции	_	_	_	_	_	_	_	bratA2=T8:Male|bratA6=T10:Department|bratA9=T50:Department|bratT10=Organization|bratT40=Organization|bratT50=Organization|bratT8=Person|bratT9=Person-property
 12	Сергея	_	_	_	_	_	_	_	bratA2=T8:Male|bratT12=Person-forename|bratT8=Person
 13	Иванченко	_	_	_	_	_	_	_	bratA2=T8:Male|bratT13=Person-surname|bratT8=Person
 14	по	_	_	_	_	_	_	_	_
-15	делу	_	_	_	_	_	_	_	_
+15	делу	_	_	_	_	_	_	_	bratT45=Event
 16	об	_	_	_	_	_	_	_	_
-17	избиении	_	_	_	_	_	_	_	_
+17	избиении	_	_	_	_	_	_	_	bratT46=Event
 18	и	_	_	_	_	_	_	_	_
-19	ограблении	_	_	_	_	_	_	_	_
+19	ограблении	_	_	_	_	_	_	_	bratT47=Event
 20	жителя	_	_	_	_	_	_	_	bratA8=T43:Resident|bratT43=Nationality
 21	города	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T43:Resident|bratT39=GPE|bratT43=Nationality
 22	.	_	_	_	_	_	_	_	_
@@ -80,7 +80,7 @@
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T19:Past|bratT19=Date-absolute
 14	в	_	_	_	_	_	_	_	bratA7=T19:Past|bratT19=Date-absolute
 15	ходе	_	_	_	_	_	_	_	bratA7=T19:Past|bratT19=Date-absolute
-16	розыска	_	_	_	_	_	_	_	bratA7=T19:Past|bratT19=Date-absolute
+16	розыска	_	_	_	_	_	_	_	bratA7=T19:Past|bratT19=Date-absolute|bratT49=Event
 17	лица	_	_	_	_	_	_	_	_
 18	совершившего	_	_	_	_	_	_	_	_
 19	преступление	_	_	_	_	_	_	_	SpaceAfter=No
@@ -162,7 +162,7 @@
 2	отношении	_	_	_	_	_	_	_	_
 3	Иванченко	_	_	_	_	_	_	_	bratA5=T26:Male|bratT26=Person|bratT28=Person-surname
 4	завели	_	_	_	_	_	_	_	_
-5	дело	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	bratT48=Event
 6	о	_	_	_	_	_	_	_	_
 7	превышении	_	_	_	_	_	_	_	_
 8	полномочий	_	_	_	_	_	_	_	_
@@ -206,7 +206,7 @@
 # sent_id = 0018-p5-s2
 # text = В суде он просил назначить себе домашний арест.
 1	В	_	_	_	_	_	_	_	_
-2	суде	_	_	_	_	_	_	_	_
+2	суде	_	_	_	_	_	_	_	bratT44=Organization
 3	он	_	_	_	_	_	_	_	_
 4	просил	_	_	_	_	_	_	_	_
 5	назначить	_	_	_	_	_	_	_	_

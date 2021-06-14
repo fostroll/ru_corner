@@ -5,8 +5,8 @@
 # text = При столкновении двух автомобилей под Орлом погибли четыре человека
 1	При	_	_	_	_	_	_	_	_
 2	столкновении	_	_	_	_	_	_	_	bratT31=Event
-3	двух	_	_	_	_	_	_	_	bratT1=Quantity|bratT31=Event
-4	автомобилей	_	_	_	_	_	_	_	bratT1=Quantity|bratT31=Event
+3	двух	_	_	_	_	_	_	_	bratT1=Quantity
+4	автомобилей	_	_	_	_	_	_	_	bratT1=Quantity
 5	под	_	_	_	_	_	_	_	_
 6	Орлом	_	_	_	_	_	_	_	bratT2=GPE
 7	погибли	_	_	_	_	_	_	_	_
@@ -20,8 +20,8 @@
 1	В	_	_	_	_	_	_	_	_
 2	результате	_	_	_	_	_	_	_	_
 3	столкновения	_	_	_	_	_	_	_	bratT32=Event
-4	двух	_	_	_	_	_	_	_	bratT28=Quantity|bratT32=Event
-5	автомобилей	_	_	_	_	_	_	_	bratT28=Quantity|bratT32=Event
+4	двух	_	_	_	_	_	_	_	bratT28=Quantity
+5	автомобилей	_	_	_	_	_	_	_	bratT28=Quantity
 6	в	_	_	_	_	_	_	_	_
 7	Орловской	_	_	_	_	_	_	_	bratT29=GPE
 8	области	_	_	_	_	_	_	_	bratT29=GPE
@@ -147,8 +147,8 @@
 5	дело	_	_	_	_	_	_	_	_
 6	после	_	_	_	_	_	_	_	bratA3=T36:Past|bratT36=Date-absolute
 7	гибели	_	_	_	_	_	_	_	bratA3=T36:Past|bratT36=Date-absolute|bratT37=Event
-8	двух	_	_	_	_	_	_	_	bratT23=Quantity|bratT37=Event
-9	лиц	_	_	_	_	_	_	_	bratT23=Quantity|bratT37=Event
+8	двух	_	_	_	_	_	_	_	bratT23=Quantity
+9	лиц	_	_	_	_	_	_	_	bratT23=Quantity
 10	в	_	_	_	_	_	_	_	_
 11	ушедшей	_	_	_	_	_	_	_	_
 12	под	_	_	_	_	_	_	_	_

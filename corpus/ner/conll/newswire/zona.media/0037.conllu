@@ -3,12 +3,12 @@
 # par_text = Бывший фигурант «московского дела» Абаничев отсудил 150 тысяч рублей за незаконное уголовное преследование
 # sent_id = 0037-p1-s1
 # text = Бывший фигурант ``московского дела'' Абаничев отсудил 150 тысяч рублей за незаконное уголовное преследование
-1	Бывший	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
-2	фигурант	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Other-group
-4	московского	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
-5	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Other-group
-6	''	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Other-group
+1	Бывший	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person
+2	фигурант	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
+4	московского	_	_	_	_	_	_	_	bratA1=T1:Male|bratA19=T62:Adjective|bratT1=Person|bratT3=Event|bratT62=GPE
+5	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
+6	''	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person
 7	Абаничев	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT4=Person-surname
 8	отсудил	_	_	_	_	_	_	_	_
 9	150	_	_	_	_	_	_	_	bratT5=Money
@@ -34,10 +34,10 @@
 9	бывшему	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
 10	обвиняемому	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
 11	по	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT9=Other-group
-13	московскому	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
-14	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT9=Other-group
-15	''	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT64=Event|bratT9=Other-group
+13	московскому	_	_	_	_	_	_	_	bratA20=T63:Adjective|bratA3=T10:Male|bratT10=Person|bratT63=GPE|bratT64=Event|bratT9=Other-group
+14	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT64=Event|bratT9=Other-group
+15	''	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT64=Event|bratT9=Other-group
 16	Сергею	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Person-forename
 17	Абаничеву	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT12=Person-surname
 18	.	_	_	_	_	_	_	_	_
@@ -116,13 +116,13 @@
 5	месяц	_	_	_	_	_	_	_	bratA14=T60:Past|bratT60=Date-period-relative|bratT61=Duration
 6	провел	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	СИЗО	_	_	_	_	_	_	_	_
+8	СИЗО	_	_	_	_	_	_	_	bratT26=Organization
 9	два	_	_	_	_	_	_	_	bratA8=T27:Past|bratT27=Date-period-relative|bratT28=Duration
 10	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T27:Past|bratT27=Date-period-relative|bratT28=Duration
 11	,	_	_	_	_	_	_	_	_
 12	после	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-relative
 13	чего	_	_	_	_	_	_	_	bratA15=T29:Past|bratT29=Date-relative
-14	дело	_	_	_	_	_	_	_	_
+14	дело	_	_	_	_	_	_	_	bratT65=Event
 15	против	_	_	_	_	_	_	_	_
 16	него	_	_	_	_	_	_	_	_
 17	и	_	_	_	_	_	_	_	_
@@ -144,7 +144,7 @@
 # sent_id = 0037-p5-s1
 # text = Ранее суд обязал Минфин выплатить компенсации двум другим фигурантам ``московского дела''.
 1	Ранее	_	_	_	_	_	_	_	bratA16=T34:Past|bratT34=Date-relative
-2	суд	_	_	_	_	_	_	_	_
+2	суд	_	_	_	_	_	_	_	bratT31=Organization
 3	обязал	_	_	_	_	_	_	_	_
 4	Минфин	_	_	_	_	_	_	_	bratT35=Organization
 5	выплатить	_	_	_	_	_	_	_	_
@@ -152,10 +152,10 @@
 7	двум	_	_	_	_	_	_	_	bratT36=Quantity
 8	другим	_	_	_	_	_	_	_	bratT36=Quantity
 9	фигурантам	_	_	_	_	_	_	_	bratT36=Quantity
-10	``	_	_	_	_	_	_	_	SpaceAfter=No
-11	московского	_	_	_	_	_	_	_	_
-12	дела	_	_	_	_	_	_	_	SpaceAfter=No
-13	''	_	_	_	_	_	_	_	SpaceAfter=No
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
+11	московского	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratT37=Event|bratT53=GPE
+12	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p5-s2
@@ -192,8 +192,8 @@
 12	кандидатов	_	_	_	_	_	_	_	bratT49=Person-property
 13	на	_	_	_	_	_	_	_	bratT49=Person-property
 14	выборы	_	_	_	_	_	_	_	bratT49=Person-property|bratT50=Event
-15	в	_	_	_	_	_	_	_	bratT49=Person-property|bratT50=Event
-16	Мосгордуму	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person-property|bratT50=Event|bratT51=Organization
+15	в	_	_	_	_	_	_	_	bratT49=Person-property
+16	Мосгордуму	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person-property|bratT51=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p6-s2
@@ -201,13 +201,13 @@
 1	Следственный	_	_	_	_	_	_	_	bratT52=Organization
 2	комитет	_	_	_	_	_	_	_	bratT52=Organization
 3	возбудил	_	_	_	_	_	_	_	_
-4	уголовные	_	_	_	_	_	_	_	_
-5	дела	_	_	_	_	_	_	_	_
+4	уголовные	_	_	_	_	_	_	_	bratT66=Event
+5	дела	_	_	_	_	_	_	_	bratT66=Event
 6	о	_	_	_	_	_	_	_	_
-7	массовых	_	_	_	_	_	_	_	_
-8	беспорядках	_	_	_	_	_	_	_	_
+7	массовых	_	_	_	_	_	_	_	bratT67=Event
+8	беспорядках	_	_	_	_	_	_	_	bratT67=Event
 9	и	_	_	_	_	_	_	_	_
-10	нападении	_	_	_	_	_	_	_	_
+10	нападении	_	_	_	_	_	_	_	bratT68=Event
 11	на	_	_	_	_	_	_	_	_
 12	силовиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Person-property
 13	,	_	_	_	_	_	_	_	_

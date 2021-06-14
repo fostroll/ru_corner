@@ -1,10 +1,10 @@
 T1	Person-property 0 54	Строители   амурского   газоперерабатывающего   завода
-T2	Organization 12 54	амурского   газоперерабатывающего   завода
+T2	Facility 12 54	амурского   газоперерабатывающего   завода
 T3	GPE 12 21	амурского
 A1	Adjective T3
 T4	Quantity 104 124	Десятки   строителей
 T5	Person-property 114 169	строителей   Амурского   газоперерабатывающего   завода
-T6	Organization 127 169	Амурского   газоперерабатывающего   завода
+T6	Facility 127 169	Амурского   газоперерабатывающего   завода
 T7	GPE 127 136	Амурского
 A2	Adjective T7
 T8	GPE 176 185	Свободном
@@ -24,7 +24,7 @@ T19	Organization 1265 1273	Readovka
 A5	Media T19
 T20	Person-property 1288 1298	работников
 T21	Person-property 1494 1505	сотрудников
-T22	Person-property 1512 1523	руководству
+T22	Person-property 1512 1549	руководству   подрядной   организации
 T23	Organization 1577 1638	компании-подрядчике   ``   Ренейссанс   Хэви   Индастриз   ''
 T24	Other-group 1772 1782	Участников
 T25	GPE 255 263	Амурская
@@ -33,3 +33,13 @@ T26	Quantity 934 955	несколько   силовиков
 T27	Quantity 1028 1045	несколько   машин
 T28	Quantity 1242 1262	еще   одной   записи
 T29	Quantity 763 782	несколько   человек
+T30	Facility 354 360	завода
+T31	Facility 984 991	стройки
+T32	Facility 344 360	стройки   завода
+T33	Organization 1385 1406	пресс-службе   завода
+A7	Department T33
+T34	Organization 1400 1406	завода
+T35	Organization 1526 1549	подрядной   организации
+T36	Organization 1647 1659	пресс-центре
+A8	Department T36
+T37	Facility 751 756	улице

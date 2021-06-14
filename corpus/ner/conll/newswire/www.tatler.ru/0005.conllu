@@ -7,12 +7,12 @@
 2	Хайя	_	_	_	_	_	_	_	bratA1=T1:Female|bratT1=Person|bratT31=Person-forename
 3	посетила	_	_	_	_	_	_	_	_
 4	очередное	_	_	_	_	_	_	_	_
-5	заседание	_	_	_	_	_	_	_	_
-6	суда	_	_	_	_	_	_	_	_
+5	заседание	_	_	_	_	_	_	_	bratT59=Event
+6	суда	_	_	_	_	_	_	_	bratT58=Organization|bratT59=Event
 7	по	_	_	_	_	_	_	_	_
-8	делу	_	_	_	_	_	_	_	_
+8	делу	_	_	_	_	_	_	_	bratT61=Event
 9	о	_	_	_	_	_	_	_	_
-10	разводе	_	_	_	_	_	_	_	_
+10	разводе	_	_	_	_	_	_	_	bratT62=Event
 11	с	_	_	_	_	_	_	_	_
 12	эмиром	_	_	_	_	_	_	_	bratT3=Person-property
 13	Дубая	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=GPE
@@ -30,9 +30,9 @@
 7	суде	_	_	_	_	_	_	_	bratT5=Organization
 8	Лондона	_	_	_	_	_	_	_	bratT5=Organization|bratT6=GPE
 9	продолжаются	_	_	_	_	_	_	_	_
-10	слушания	_	_	_	_	_	_	_	_
+10	слушания	_	_	_	_	_	_	_	bratT64=Event
 11	по	_	_	_	_	_	_	_	_
-12	делу	_	_	_	_	_	_	_	_
+12	делу	_	_	_	_	_	_	_	bratT63=Event
 13	принцессы	_	_	_	_	_	_	_	bratA2=T7:Female|bratT7=Person|bratT8=Person-property
 14	Хайи	_	_	_	_	_	_	_	bratA2=T7:Female|bratT32=Person-forename|bratT7=Person
 15	бинт	_	_	_	_	_	_	_	bratA2=T7:Female|bratT33=Person-patronym|bratT7=Person
@@ -107,7 +107,7 @@
 # sent_id = 0005-p3-s1
 # text = В суде Хайя не пытается договориться с мужем об условиях развода или отсудить у него половину состояния - пока ее беспокоит исключительно судьба детей.
 1	В	_	_	_	_	_	_	_	_
-2	суде	_	_	_	_	_	_	_	_
+2	суде	_	_	_	_	_	_	_	bratT60=Organization
 3	Хайя	_	_	_	_	_	_	_	bratA5=T36:Female|bratT20=Person-forename|bratT36=Person
 4	не	_	_	_	_	_	_	_	_
 5	пытается	_	_	_	_	_	_	_	_

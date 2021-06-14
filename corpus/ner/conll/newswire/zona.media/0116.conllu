@@ -6,7 +6,7 @@
 1	СК	_	_	_	_	_	_	_	bratT1=Organization
 2	возбудил	_	_	_	_	_	_	_	_
 3	два	_	_	_	_	_	_	_	bratT2=Quantity
-4	дела	_	_	_	_	_	_	_	bratT2=Quantity
+4	дела	_	_	_	_	_	_	_	bratT2=Quantity|bratT51=Event
 5	после	_	_	_	_	_	_	_	bratA6=T9:Past|bratT9=Date-absolute
 6	бунта	_	_	_	_	_	_	_	bratA6=T9:Past|bratT23=Event|bratT9=Date-absolute
 7	азербайджанцев	_	_	_	_	_	_	_	bratT3=Nationality
@@ -23,8 +23,8 @@
 4	по	_	_	_	_	_	_	_	bratA7=T5:Department|bratT5=Organization
 5	Дагестану	_	_	_	_	_	_	_	bratA7=T5:Department|bratT5=Organization|bratT6=GPE
 6	возбудило	_	_	_	_	_	_	_	_
-7	уголовные	_	_	_	_	_	_	_	_
-8	дела	_	_	_	_	_	_	_	_
+7	уголовные	_	_	_	_	_	_	_	bratT50=Event
+8	дела	_	_	_	_	_	_	_	bratT50=Event
 9	о	_	_	_	_	_	_	_	_
 10	применении	_	_	_	_	_	_	_	_
 11	насилия	_	_	_	_	_	_	_	_
@@ -89,11 +89,11 @@
 13	их	_	_	_	_	_	_	_	_
 14	пропуска	_	_	_	_	_	_	_	_
 15	через	_	_	_	_	_	_	_	_
-16	границу	_	_	_	_	_	_	_	SpaceAfter=No
+16	границу	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Facility
 17	,	_	_	_	_	_	_	_	_
 18	вышли	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_
-20	трассу	_	_	_	_	_	_	_	_
+20	трассу	_	_	_	_	_	_	_	bratT33=Facility
 21	и	_	_	_	_	_	_	_	_
 22	перекрыли	_	_	_	_	_	_	_	_
 23	движение	_	_	_	_	_	_	_	SpaceAfter=No
@@ -176,8 +176,8 @@
 # sent_id = 0116-p4-s4
 # text = По уголовному делу задержаны 10 подозреваемых.
 1	По	_	_	_	_	_	_	_	_
-2	уголовному	_	_	_	_	_	_	_	_
-3	делу	_	_	_	_	_	_	_	_
+2	уголовному	_	_	_	_	_	_	_	bratT49=Event
+3	делу	_	_	_	_	_	_	_	bratT49=Event
 4	задержаны	_	_	_	_	_	_	_	_
 5	10	_	_	_	_	_	_	_	bratT32=Quantity
 6	подозреваемых	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Quantity
@@ -203,6 +203,6 @@
 14	не	_	_	_	_	_	_	_	_
 15	пропускают	_	_	_	_	_	_	_	_
 16	через	_	_	_	_	_	_	_	_
-17	границу	_	_	_	_	_	_	_	SpaceAfter=No
+17	границу	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Facility
 18	.	_	_	_	_	_	_	_	_
 

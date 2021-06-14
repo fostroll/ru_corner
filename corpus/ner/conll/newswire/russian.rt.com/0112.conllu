@@ -8,10 +8,10 @@
 3	автомобиль	_	_	_	_	_	_	_	_
 4	врезался	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	ворота	_	_	_	_	_	_	_	_
-7	ведомства	_	_	_	_	_	_	_	bratT10=Facility
-8	канцлера	_	_	_	_	_	_	_	bratT10=Facility|bratT2=Person-property
-9	ФРГ	_	_	_	_	_	_	_	bratT10=Facility|bratT2=Person-property|bratT3=GPE
+6	ворота	_	_	_	_	_	_	_	bratT17=Facility
+7	ведомства	_	_	_	_	_	_	_	bratT10=Facility|bratT17=Facility
+8	канцлера	_	_	_	_	_	_	_	bratT10=Facility|bratT17=Facility|bratT2=Person-property
+9	ФРГ	_	_	_	_	_	_	_	bratT10=Facility|bratT17=Facility|bratT2=Person-property|bratT3=GPE
 
 # newpar id = 0112-p2
 # par_text = В Берлине автомобиль врезался в ворота здания ведомства федеральной канцелярии Германии. Об этом информирует немецкая газета Bild. На фотографиях с места инцидента видно, что железное ограждение деформировано.
@@ -22,12 +22,12 @@
 3	автомобиль	_	_	_	_	_	_	_	_
 4	врезался	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	ворота	_	_	_	_	_	_	_	_
-7	здания	_	_	_	_	_	_	_	bratT9=Facility
-8	ведомства	_	_	_	_	_	_	_	bratT6=Organization|bratT9=Facility
-9	федеральной	_	_	_	_	_	_	_	bratT6=Organization|bratT9=Facility
-10	канцелярии	_	_	_	_	_	_	_	bratT6=Organization|bratT9=Facility
-11	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE|bratT6=Organization|bratT9=Facility
+6	ворота	_	_	_	_	_	_	_	bratT18=Facility
+7	здания	_	_	_	_	_	_	_	bratT18=Facility|bratT9=Facility
+8	ведомства	_	_	_	_	_	_	_	bratT18=Facility|bratT6=Organization|bratT9=Facility
+9	федеральной	_	_	_	_	_	_	_	bratT18=Facility|bratT6=Organization|bratT9=Facility
+10	канцелярии	_	_	_	_	_	_	_	bratT18=Facility|bratT6=Organization|bratT9=Facility
+11	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE|bratT18=Facility|bratT6=Organization|bratT9=Facility
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0112-p2-s2
@@ -50,8 +50,8 @@
 6	видно	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	железное	_	_	_	_	_	_	_	_
-10	ограждение	_	_	_	_	_	_	_	_
+9	железное	_	_	_	_	_	_	_	bratT19=Facility
+10	ограждение	_	_	_	_	_	_	_	bratT19=Facility
 11	деформировано	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
 

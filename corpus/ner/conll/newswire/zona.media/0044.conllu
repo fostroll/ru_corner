@@ -3,17 +3,17 @@
 # par_text = Суд отказался продлить испытательный срок осужденному по «московскому делу» Егору Жукову
 # sent_id = 0044-p1-s1
 # text = Суд отказался продлить испытательный срок осужденному по «московскому делу» Егору Жукову
-1	Суд	_	_	_	_	_	_	_	_
+1	Суд	_	_	_	_	_	_	_	bratT36=Organization
 2	отказался	_	_	_	_	_	_	_	_
 3	продлить	_	_	_	_	_	_	_	_
 4	испытательный	_	_	_	_	_	_	_	_
 5	срок	_	_	_	_	_	_	_	_
 6	осужденному	_	_	_	_	_	_	_	bratT1=Person-property
 7	по	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-9	московскому	_	_	_	_	_	_	_	bratA14=T2:Adjective|bratT2=GPE
-10	делу	_	_	_	_	_	_	_	SpaceAfter=No
-11	''	_	_	_	_	_	_	_	QuotationEnd=»
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT37=Event
+9	московскому	_	_	_	_	_	_	_	bratA14=T2:Adjective|bratT2=GPE|bratT37=Event
+10	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
+11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT37=Event
 12	Егору	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-forename
 13	Жукову	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT5=Person-surname
 
@@ -31,10 +31,10 @@
 8	срок	_	_	_	_	_	_	_	_
 9	осужденному	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
-11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-12	московскому	_	_	_	_	_	_	_	bratA15=T9:Adjective|bratT9=GPE
-13	делу	_	_	_	_	_	_	_	SpaceAfter=No
-14	''	_	_	_	_	_	_	_	QuotationEnd=»
+11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT38=Event
+12	московскому	_	_	_	_	_	_	_	bratA15=T9:Adjective|bratT38=Event|bratT9=GPE
+13	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Event
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT38=Event
 15	Егору	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Person-forename
 16	Жукову	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT12=Person-surname
 17	,	_	_	_	_	_	_	_	_
@@ -76,7 +76,7 @@
 14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 15	уклонился	_	_	_	_	_	_	_	_
 16	от	_	_	_	_	_	_	_	_
-17	явки	_	_	_	_	_	_	_	_
+17	явки	_	_	_	_	_	_	_	bratT61=Event
 18	для	_	_	_	_	_	_	_	_
 19	регистрации	_	_	_	_	_	_	_	bratT25=Event
 20	в	_	_	_	_	_	_	_	_
@@ -137,7 +137,7 @@
 
 # sent_id = 0044-p4-s2
 # text = Суд решил, что в них звучали призывы к экстремизму (часть 2 статьи 280 УК).
-1	Суд	_	_	_	_	_	_	_	_
+1	Суд	_	_	_	_	_	_	_	bratT56=Organization
 2	решил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -166,14 +166,14 @@
 4	и	_	_	_	_	_	_	_	_
 5	отправили	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	СИЗО	_	_	_	_	_	_	_	_
+7	СИЗО	_	_	_	_	_	_	_	bratT35=Organization
 8	по	_	_	_	_	_	_	_	_
-9	делу	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	bratT57=Event
 10	о	_	_	_	_	_	_	_	_
-11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-12	массовых	_	_	_	_	_	_	_	_
-13	беспорядках	_	_	_	_	_	_	_	SpaceAfter=No
-14	''	_	_	_	_	_	_	_	QuotationEnd=»
+11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT59=Event
+12	массовых	_	_	_	_	_	_	_	bratT59=Event
+13	беспорядках	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT59=Event
 15	(	_	_	_	_	_	_	_	SpaceAfter=No
 16	статья	_	_	_	_	_	_	_	bratT73=Law
 17	212	_	_	_	_	_	_	_	bratT73=Law|bratT74=Ordinal
@@ -212,10 +212,10 @@
 
 # sent_id = 0044-p5-s3
 # text = Дело о массовых беспорядках против него закрыли, но вместе него предъявили обвинение в экстремизме.
-1	Дело	_	_	_	_	_	_	_	_
+1	Дело	_	_	_	_	_	_	_	bratT58=Event
 2	о	_	_	_	_	_	_	_	_
-3	массовых	_	_	_	_	_	_	_	_
-4	беспорядках	_	_	_	_	_	_	_	_
+3	массовых	_	_	_	_	_	_	_	bratT60=Event
+4	беспорядках	_	_	_	_	_	_	_	bratT60=Event
 5	против	_	_	_	_	_	_	_	_
 6	него	_	_	_	_	_	_	_	_
 7	закрыли	_	_	_	_	_	_	_	SpaceAfter=No

@@ -11,7 +11,7 @@
 6	3,5	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT3=Date-period-relative|bratT53=Duration
 7	годам	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT3=Date-period-relative|bratT53=Duration
 8	по	_	_	_	_	_	_	_	_
-9	делу	_	_	_	_	_	_	_	_
+9	делу	_	_	_	_	_	_	_	bratT54=Event
 10	о	_	_	_	_	_	_	_	_
 11	передаче	_	_	_	_	_	_	_	_
 12	взрывчатки	_	_	_	_	_	_	_	_
@@ -42,7 +42,7 @@
 14	годам	_	_	_	_	_	_	_	bratA19=T12:Past-UNK|bratT12=Date-period-relative|bratT4=Duration
 15	колонии-поселения	_	_	_	_	_	_	_	_
 16	по	_	_	_	_	_	_	_	_
-17	делу	_	_	_	_	_	_	_	_
+17	делу	_	_	_	_	_	_	_	bratT55=Event
 18	о	_	_	_	_	_	_	_	_
 19	передаче	_	_	_	_	_	_	_	_
 20	взрывчатки	_	_	_	_	_	_	_	_
@@ -66,12 +66,12 @@
 # sent_id = 0036-p3-s1
 # text = Решение суда первой инстанции отменили, дело отправили на новое рассмотрение.
 1	Решение	_	_	_	_	_	_	_	_
-2	суда	_	_	_	_	_	_	_	_
-3	первой	_	_	_	_	_	_	_	bratT18=Ordinal
-4	инстанции	_	_	_	_	_	_	_	_
+2	суда	_	_	_	_	_	_	_	bratT17=Organization
+3	первой	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Ordinal
+4	инстанции	_	_	_	_	_	_	_	bratT17=Organization
 5	отменили	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
-7	дело	_	_	_	_	_	_	_	_
+7	дело	_	_	_	_	_	_	_	bratT56=Event
 8	отправили	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	новое	_	_	_	_	_	_	_	_
@@ -219,7 +219,7 @@
 8	что	_	_	_	_	_	_	_	_
 9	активист	_	_	_	_	_	_	_	bratT29=Person-property
 10	готовил	_	_	_	_	_	_	_	_
-11	покушение	_	_	_	_	_	_	_	_
+11	покушение	_	_	_	_	_	_	_	bratT57=Event
 12	на	_	_	_	_	_	_	_	_
 13	бизнесмена	_	_	_	_	_	_	_	bratA14=T48:Male|bratT48=Person|bratT49=Person-property
 14	Евгения	_	_	_	_	_	_	_	bratA14=T48:Male|bratT48=Person|bratT50=Person-forename

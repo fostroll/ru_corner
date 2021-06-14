@@ -8,9 +8,9 @@
 3	Трамп	_	_	_	_	_	_	_	bratA13=T1:Female|bratT1=Person|bratT51=Person-surname
 4	на	_	_	_	_	_	_	_	_
 5	выборах	_	_	_	_	_	_	_	bratT5=Event
-6	президента	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Event
-7	США	_	_	_	_	_	_	_	bratT2=GPE|bratT4=Person-property|bratT5=Event
-8	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T3:Present|bratT3=Date-absolute|bratT5=Event
+6	президента	_	_	_	_	_	_	_	bratT4=Person-property
+7	США	_	_	_	_	_	_	_	bratT2=GPE|bratT4=Person-property
+8	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T3:Present|bratT3=Date-absolute
 9	:	_	_	_	_	_	_	_	_
 10	первая	_	_	_	_	_	_	_	bratT6=Ordinal|bratT7=Person-property
 11	леди	_	_	_	_	_	_	_	bratT7=Person-property
@@ -40,11 +40,11 @@
 11	Трамп	_	_	_	_	_	_	_	bratA14=T9:Female|bratT53=Person-surname|bratT9=Person
 12	на	_	_	_	_	_	_	_	_
 13	выборах	_	_	_	_	_	_	_	bratT13=Event
-14	президента	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Event
-15	Соединённых	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Person-property|bratT13=Event
-16	Штатов	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Person-property|bratT13=Event
-17	2020	_	_	_	_	_	_	_	bratA9=T10:Past|bratT10=Date-absolute|bratT13=Event
-18	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T10:Past|bratT10=Date-absolute|bratT13=Event
+14	президента	_	_	_	_	_	_	_	bratT12=Person-property
+15	Соединённых	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Person-property
+16	Штатов	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Person-property
+17	2020	_	_	_	_	_	_	_	bratA9=T10:Past|bratT10=Date-absolute
+18	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T10:Past|bratT10=Date-absolute
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0122-p2-s2
@@ -113,8 +113,8 @@
 33	седлать	_	_	_	_	_	_	_	_
 34	это	_	_	_	_	_	_	_	_
 35	в	_	_	_	_	_	_	_	bratT45=Date-absolute
-36	день	_	_	_	_	_	_	_	bratT17=Event|bratT45=Date-absolute
-37	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT45=Date-absolute
+36	день	_	_	_	_	_	_	_	bratT45=Date-absolute|bratT71=Event
+37	выборов	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT45=Date-absolute|bratT71=Event
 38	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0122-p3-s2

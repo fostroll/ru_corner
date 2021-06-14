@@ -7,10 +7,10 @@
 2	челябинского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
 3	студента	_	_	_	_	_	_	_	bratT1=Person-property
 4	завели	_	_	_	_	_	_	_	_
-5	дело	_	_	_	_	_	_	_	_
+5	дело	_	_	_	_	_	_	_	bratT47=Event
 6	о	_	_	_	_	_	_	_	_
-7	подготовке	_	_	_	_	_	_	_	_
-8	убийства	_	_	_	_	_	_	_	_
+7	подготовке	_	_	_	_	_	_	_	bratT51=Event
+8	убийства	_	_	_	_	_	_	_	bratT49=Event|bratT51=Event
 9	из-за	_	_	_	_	_	_	_	_
 10	поста	_	_	_	_	_	_	_	bratA2=T4:Media|bratT4=Service
 11	о	_	_	_	_	_	_	_	_
@@ -27,11 +27,11 @@
 1	Следственный	_	_	_	_	_	_	_	bratT3=Organization
 2	комитет	_	_	_	_	_	_	_	bratT3=Organization
 3	возбудил	_	_	_	_	_	_	_	_
-4	уголовное	_	_	_	_	_	_	_	_
-5	дело	_	_	_	_	_	_	_	_
+4	уголовное	_	_	_	_	_	_	_	bratT48=Event
+5	дело	_	_	_	_	_	_	_	bratT48=Event
 6	о	_	_	_	_	_	_	_	_
-7	подготовке	_	_	_	_	_	_	_	_
-8	убийства	_	_	_	_	_	_	_	_
+7	подготовке	_	_	_	_	_	_	_	bratT52=Event
+8	убийства	_	_	_	_	_	_	_	bratT50=Event|bratT52=Event
 9	(	_	_	_	_	_	_	_	SpaceAfter=No
 10	часть	_	_	_	_	_	_	_	bratT68=Law
 11	1	_	_	_	_	_	_	_	bratT54=Ordinal|bratT68=Law
@@ -253,14 +253,14 @@
 15	студента	_	_	_	_	_	_	_	bratT42=Person-property
 16	госпитализировали	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
-18	психиатрическую	_	_	_	_	_	_	_	_
-19	больницу	_	_	_	_	_	_	_	SpaceAfter=No
+18	психиатрическую	_	_	_	_	_	_	_	bratT36=Organization
+19	больницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0028-p6-s2
 # text = Уголовное дело в этот день возбуждать не стали.
-1	Уголовное	_	_	_	_	_	_	_	_
-2	дело	_	_	_	_	_	_	_	_
+1	Уголовное	_	_	_	_	_	_	_	bratT46=Event
+2	дело	_	_	_	_	_	_	_	bratT46=Event
 3	в	_	_	_	_	_	_	_	bratA12=T44:Past|bratT44=Date-relative
 4	этот	_	_	_	_	_	_	_	bratA12=T44:Past|bratT44=Date-relative|bratT45=Ordinal
 5	день	_	_	_	_	_	_	_	bratA12=T44:Past|bratT44=Date-relative

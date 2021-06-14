@@ -9,17 +9,17 @@
 4	второй	_	_	_	_	_	_	_	bratT2=Ordinal|bratT4=Event
 5	тур	_	_	_	_	_	_	_	bratT4=Event
 6	выборов	_	_	_	_	_	_	_	bratT37=Event|bratT4=Event
-7	президента	_	_	_	_	_	_	_	bratT3=Person-property|bratT37=Event|bratT4=Event
+7	президента	_	_	_	_	_	_	_	bratT3=Person-property
 
 # newpar id = 0064-p2
 # par_text = Второй тур выборов президента Молдавии начался в республике в воскресенье, 15 ноября. По всей стране в 8:00 по московскому времени (7 утра по местному) открылись избирательные участки. Они проработают до 22:00.
 # sent_id = 0064-p2-s1
 # text = Второй тур выборов президента Молдавии начался в республике в воскресенье, 15 ноября.
-1	Второй	_	_	_	_	_	_	_	bratT7=Ordinal|bratT8=Event
-2	тур	_	_	_	_	_	_	_	bratT8=Event
+1	Второй	_	_	_	_	_	_	_	bratT38=Event|bratT7=Ordinal
+2	тур	_	_	_	_	_	_	_	bratT38=Event
 3	выборов	_	_	_	_	_	_	_	bratT38=Event|bratT8=Event
-4	президента	_	_	_	_	_	_	_	bratT38=Event|bratT6=Person-property|bratT8=Event
-5	Молдавии	_	_	_	_	_	_	_	bratT38=Event|bratT5=GPE|bratT6=Person-property|bratT8=Event
+4	президента	_	_	_	_	_	_	_	bratT6=Person-property
+5	Молдавии	_	_	_	_	_	_	_	bratT5=GPE|bratT6=Person-property
 6	начался	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	республике	_	_	_	_	_	_	_	bratT57=GPE
@@ -65,7 +65,7 @@
 # text = Всего на территории Молдавии в настоящее время открыто более двух тысяч избирательных участков, еще 139 пунктов для голосования в скором времени откроются в 26 государствах.
 1	Всего	_	_	_	_	_	_	_	_
 2	на	_	_	_	_	_	_	_	_
-3	территории	_	_	_	_	_	_	_	bratT13=GPE
+3	территории	_	_	_	_	_	_	_	_
 4	Молдавии	_	_	_	_	_	_	_	bratT13=GPE
 5	в	_	_	_	_	_	_	_	bratA4=T43:Present|bratT43=Date-absolute
 6	настоящее	_	_	_	_	_	_	_	bratA4=T43:Present|bratT43=Date-absolute|bratT48=Ordinal
@@ -156,8 +156,8 @@
 4	первый	_	_	_	_	_	_	_	bratT18=Ordinal|bratT21=Event
 5	тур	_	_	_	_	_	_	_	bratT21=Event
 6	выборов	_	_	_	_	_	_	_	bratT21=Event|bratT41=Event
-7	главы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Event|bratT41=Event
-8	Молдавии	_	_	_	_	_	_	_	bratT19=GPE|bratT20=Person-property|bratT21=Event|bratT41=Event
+7	главы	_	_	_	_	_	_	_	bratT20=Person-property
+8	Молдавии	_	_	_	_	_	_	_	bratT19=GPE|bratT20=Person-property
 9	прошел	_	_	_	_	_	_	_	_
 10	1	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-absolute
 11	ноября	_	_	_	_	_	_	_	bratA3=T22:Past|bratT22=Date-absolute

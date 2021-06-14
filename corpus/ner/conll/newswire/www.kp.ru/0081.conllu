@@ -57,7 +57,7 @@
 6	другом	_	_	_	_	_	_	_	_
 7	пошла	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	кинотеатр	_	_	_	_	_	_	_	SpaceAfter=No
+9	кинотеатр	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Facility
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p3-s2
@@ -87,7 +87,7 @@
 5	я	_	_	_	_	_	_	_	_
 6	сидела	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	кафе	_	_	_	_	_	_	_	_
+8	кафе	_	_	_	_	_	_	_	bratT51=Facility
 9	и	_	_	_	_	_	_	_	_
 10	ждала	_	_	_	_	_	_	_	_
 11	друга	_	_	_	_	_	_	_	SpaceAfter=No
@@ -105,12 +105,12 @@
 1	Вдруг	_	_	_	_	_	_	_	_
 2	заметила	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
-4	улице	_	_	_	_	_	_	_	_
+4	улице	_	_	_	_	_	_	_	bratT48=Facility
 5	много	_	_	_	_	_	_	_	_
 6	машин	_	_	_	_	_	_	_	_
-7	``	_	_	_	_	_	_	_	SpaceAfter=No
-8	скорых	_	_	_	_	_	_	_	SpaceAfter=No
-9	''	_	_	_	_	_	_	_	SpaceAfter=No
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Service
+8	скорых	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Service
+9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Service
 10	,	_	_	_	_	_	_	_	_
 11	полицию	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property
 12	,	_	_	_	_	_	_	_	_
@@ -234,7 +234,7 @@
 1	Мы	_	_	_	_	_	_	_	_
 2	шли	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
-4	улице	_	_	_	_	_	_	_	_
+4	улице	_	_	_	_	_	_	_	bratT50=Facility
 5	к	_	_	_	_	_	_	_	_
 6	машине	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
@@ -273,8 +273,8 @@
 # text = Еще одна очевидица происходящего Оксана.
 1	Еще	_	_	_	_	_	_	_	bratT25=Quantity
 2	одна	_	_	_	_	_	_	_	bratT25=Quantity
-3	очевидица	_	_	_	_	_	_	_	_
-4	происходящего	_	_	_	_	_	_	_	_
+3	очевидица	_	_	_	_	_	_	_	bratA18=T16:Female|bratT16=Person
+4	происходящего	_	_	_	_	_	_	_	bratA18=T16:Female|bratT16=Person|bratT53=Event
 5	Оксана	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T16:Female|bratT16=Person|bratT43=Person-forename
 6	.	_	_	_	_	_	_	_	_
 

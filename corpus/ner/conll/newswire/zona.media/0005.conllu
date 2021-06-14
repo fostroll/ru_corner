@@ -31,8 +31,8 @@
 2	Вологодской	_	_	_	_	_	_	_	bratT4=GPE
 3	области	_	_	_	_	_	_	_	bratT4=GPE
 4	из	_	_	_	_	_	_	_	_
-5	отдела	_	_	_	_	_	_	_	bratT47=Organization
-6	полиции	_	_	_	_	_	_	_	bratT47=Organization
+5	отдела	_	_	_	_	_	_	_	bratA16=T47:Department|bratT47=Organization
+6	полиции	_	_	_	_	_	_	_	bratA16=T47:Department|bratT47=Organization|bratT49=Organization
 7	сбежал	_	_	_	_	_	_	_	_
 8	подозреваемый	_	_	_	_	_	_	_	bratT6=Other-group
 9	в	_	_	_	_	_	_	_	_
@@ -47,10 +47,10 @@
 18	сообщается	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_
 20	сайте	_	_	_	_	_	_	_	bratA7=T34:Media|bratT34=Service
-21	регионального	_	_	_	_	_	_	_	bratA15=T3:Adjective|bratA8=T10:Department|bratT10=Organization|bratT3=GPE
-22	управления	_	_	_	_	_	_	_	bratA8=T10:Department|bratT10=Organization
-23	Следственного	_	_	_	_	_	_	_	bratA8=T10:Department|bratT10=Organization|bratT35=Organization
-24	комитета	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T10:Department|bratT10=Organization|bratT35=Organization
+21	регионального	_	_	_	_	_	_	_	bratA15=T3:Adjective|bratT10=Organization|bratT3=GPE
+22	управления	_	_	_	_	_	_	_	bratT10=Organization
+23	Следственного	_	_	_	_	_	_	_	bratT10=Organization|bratT35=Organization
+24	комитета	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT35=Organization
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0005-p3
@@ -214,6 +214,6 @@
 2	он	_	_	_	_	_	_	_	_
 3	объявлен	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	розыск	_	_	_	_	_	_	_	SpaceAfter=No
+5	розыск	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
 6	.	_	_	_	_	_	_	_	_
 

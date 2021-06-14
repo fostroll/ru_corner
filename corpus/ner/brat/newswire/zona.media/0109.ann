@@ -1,11 +1,9 @@
-T1	Person-property 1 46	сужденный   по   ``   московскому   делу   ''
 T3	Person 0 63	Осужденный   по   ``   московскому   делу   ''   Данил   Беглец
 A1	Male T3
 T4	Person-forename 49 54	Данил
 T5	Person-surname 57 63	Беглец
 T6	Person 107 163	Фигурант   ``   московского   дела   ''   Данил   Беглец
 A2	Male T6
-T7	Person-property 107 146	Фигурант   ``   московского   дела   ''
 T9	Person-forename 149 154	Данил
 T10	Person-surname 157 163	Беглец
 T11	GPE 208 245	городе   Мценск   Орловской   области
@@ -59,3 +57,8 @@ T48	Ordinal 707 710	318
 T49	Law 713 715	УК
 A14	Past T38
 A9	Past-UNK T27
+T30	Organization 194 201	колонии
+T31	Facility 1088 1093	улице
+T50	Organization 758 776	кассационный   суд
+T51	Event 118 146	``   московского   дела   ''
+T1	Event 18 46	``   московскому   делу   ''

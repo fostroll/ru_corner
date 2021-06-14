@@ -14,7 +14,7 @@
 9	друзьями	_	_	_	_	_	_	_	_
 10	избил	_	_	_	_	_	_	_	_
 11	посетителя	_	_	_	_	_	_	_	_
-12	кафе	_	_	_	_	_	_	_	_
+12	кафе	_	_	_	_	_	_	_	bratT47=Facility
 13	до	_	_	_	_	_	_	_	_
 14	частичной	_	_	_	_	_	_	_	_
 15	потери	_	_	_	_	_	_	_	_
@@ -59,7 +59,7 @@
 33	сговору	_	_	_	_	_	_	_	SpaceAfter=No
 34	)	_	_	_	_	_	_	_	_
 35	в	_	_	_	_	_	_	_	_
-36	кафе	_	_	_	_	_	_	_	_
+36	кафе	_	_	_	_	_	_	_	bratT48=Facility
 37	33-летнего	_	_	_	_	_	_	_	bratT9=Age
 38	предпринимателя	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT13=Person-property
 39	из	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person
@@ -132,7 +132,7 @@
 # text = О возбуждении дела СК объявил 6 ноября.
 1	О	_	_	_	_	_	_	_	_
 2	возбуждении	_	_	_	_	_	_	_	_
-3	дела	_	_	_	_	_	_	_	_
+3	дела	_	_	_	_	_	_	_	bratT51=Event
 4	СК	_	_	_	_	_	_	_	bratT29=Organization
 5	объявил	_	_	_	_	_	_	_	_
 6	6	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute
@@ -158,7 +158,7 @@
 15	избили	_	_	_	_	_	_	_	_
 16	других	_	_	_	_	_	_	_	_
 17	посетителей	_	_	_	_	_	_	_	_
-18	кафе	_	_	_	_	_	_	_	_
+18	кафе	_	_	_	_	_	_	_	bratT49=Facility
 19	в	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
 20	ночь	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
 21	на	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
@@ -174,10 +174,10 @@
 1	Это	_	_	_	_	_	_	_	_
 2	произошло	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	кафе	_	_	_	_	_	_	_	bratT36=Organization
-5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT36=Organization
-6	Береза	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
-7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT36=Organization
+4	кафе	_	_	_	_	_	_	_	bratT36=Facility
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT36=Facility
+6	Береза	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Facility
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT36=Facility
 8	,	_	_	_	_	_	_	_	_
 9	где	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
@@ -186,12 +186,12 @@
 13	отмечал	_	_	_	_	_	_	_	_
 14	день	_	_	_	_	_	_	_	bratT3=Event
 15	рождения	_	_	_	_	_	_	_	bratT3=Event
-16	знакомого	_	_	_	_	_	_	_	_
+16	знакомого	_	_	_	_	_	_	_	bratA10=T50:Male|bratT50=Person
 17	начальник	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT39=Person-property
-18	ОМВД	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT39=Person-property|bratT40=Organization
-19	соседнего	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person
-20	Сергиевского	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT41=GPE
-21	района	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT41=GPE
+18	ОМВД	_	_	_	_	_	_	_	bratA12=T40:Department|bratA8=T38:Male|bratT38=Person|bratT39=Person-property|bratT40=Organization
+19	соседнего	_	_	_	_	_	_	_	bratA12=T40:Department|bratA8=T38:Male|bratT38=Person|bratT39=Person-property|bratT40=Organization
+20	Сергиевского	_	_	_	_	_	_	_	bratA12=T40:Department|bratA8=T38:Male|bratT38=Person|bratT39=Person-property|bratT40=Organization|bratT41=GPE
+21	района	_	_	_	_	_	_	_	bratA12=T40:Department|bratA8=T38:Male|bratT38=Person|bratT39=Person-property|bratT40=Organization|bratT41=GPE
 22	Сергей	_	_	_	_	_	_	_	bratA8=T38:Male|bratT38=Person|bratT42=Person-forename
 23	Зацепин	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T38:Male|bratT38=Person|bratT43=Person-surname
 24	,	_	_	_	_	_	_	_	_
@@ -200,6 +200,6 @@
 27	Комсомольской	_	_	_	_	_	_	_	bratA9=T44:Media|bratT44=Organization
 28	правде	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T44:Media|bratT44=Organization
 29	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA9=T44:Media|bratT44=Organization
-30	очевидцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Other-group
+30	очевидцы	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person
 31	.	_	_	_	_	_	_	_	_
 

@@ -66,15 +66,15 @@
 # text = Информация о заседании по административному делу Неретина опубликована в картотеке суда.
 1	Информация	_	_	_	_	_	_	_	_
 2	о	_	_	_	_	_	_	_	_
-3	заседании	_	_	_	_	_	_	_	_
+3	заседании	_	_	_	_	_	_	_	bratT71=Event
 4	по	_	_	_	_	_	_	_	_
-5	административному	_	_	_	_	_	_	_	_
-6	делу	_	_	_	_	_	_	_	_
+5	административному	_	_	_	_	_	_	_	bratT70=Event
+6	делу	_	_	_	_	_	_	_	bratT70=Event
 7	Неретина	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person|bratT23=Person-surname
 8	опубликована	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	картотеке	_	_	_	_	_	_	_	bratA6=T24:Department|bratT24=Organization
-11	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T24:Department|bratT24=Organization
+10	картотеке	_	_	_	_	_	_	_	_
+11	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0004-p3
@@ -183,14 +183,14 @@
 23	Алексей	_	_	_	_	_	_	_	bratA14=T44:Male|bratT44=Person|bratT45=Person-forename
 24	Андрейченко	_	_	_	_	_	_	_	bratA14=T44:Male|bratT44=Person|bratT46=Person-surname
 25	в	_	_	_	_	_	_	_	_
-26	звании	_	_	_	_	_	_	_	_
+26	звании	_	_	_	_	_	_	_	bratT47=Person-property
 27	подполковника	_	_	_	_	_	_	_	bratT47=Person-property
 28	в	_	_	_	_	_	_	_	_
-29	ОМВД	_	_	_	_	_	_	_	bratT48=Organization
-30	России	_	_	_	_	_	_	_	bratT48=Organization|bratT49=GPE
-31	по	_	_	_	_	_	_	_	bratT48=Organization
-32	городу	_	_	_	_	_	_	_	bratT48=Organization|bratT50=GPE
-33	Уссурийску	_	_	_	_	_	_	_	bratT48=Organization|bratT50=GPE
+29	ОМВД	_	_	_	_	_	_	_	bratA6=T48:Department|bratT48=Organization|bratT72=Organization
+30	России	_	_	_	_	_	_	_	bratA6=T48:Department|bratT48=Organization|bratT49=GPE|bratT72=Organization
+31	по	_	_	_	_	_	_	_	bratA6=T48:Department|bratT48=Organization
+32	городу	_	_	_	_	_	_	_	bratA6=T48:Department|bratT48=Organization|bratT50=GPE
+33	Уссурийску	_	_	_	_	_	_	_	bratA6=T48:Department|bratT48=Organization|bratT50=GPE
 34	службу	_	_	_	_	_	_	_	_
 35	не	_	_	_	_	_	_	_	_
 36	проходил	_	_	_	_	_	_	_	_

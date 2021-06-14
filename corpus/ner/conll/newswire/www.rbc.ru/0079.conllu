@@ -28,14 +28,14 @@
 12	в	_	_	_	_	_	_	_	_
 13	рамках	_	_	_	_	_	_	_	_
 14	расследования	_	_	_	_	_	_	_	_
-15	уголовного	_	_	_	_	_	_	_	_
-16	дела	_	_	_	_	_	_	_	_
+15	уголовного	_	_	_	_	_	_	_	bratT64=Event
+16	дела	_	_	_	_	_	_	_	bratT64=Event
 17	о	_	_	_	_	_	_	_	_
 18	растрате	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	сообщил	_	_	_	_	_	_	_	_
-21	источник	_	_	_	_	_	_	_	_
-22	РБК	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
+21	источник	_	_	_	_	_	_	_	bratT59=Person
+22	РБК	_	_	_	_	_	_	_	bratA1=T7:Media|bratT59=Person|bratT7=Organization
 23	в	_	_	_	_	_	_	_	_
 24	ГУ	_	_	_	_	_	_	_	bratA2=T8:Department|bratT8=Organization|bratT9=Organization
 25	МВД	_	_	_	_	_	_	_	bratA2=T8:Department|bratT8=Organization|bratT9=Organization
@@ -50,8 +50,8 @@
 34	со	_	_	_	_	_	_	_	_
 35	ссылкой	_	_	_	_	_	_	_	_
 36	на	_	_	_	_	_	_	_	_
-37	информированный	_	_	_	_	_	_	_	_
-38	источник	_	_	_	_	_	_	_	SpaceAfter=No
+37	информированный	_	_	_	_	_	_	_	bratT60=Person
+38	источник	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Person
 39	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0079-p2-s2
@@ -59,12 +59,12 @@
 1	Его	_	_	_	_	_	_	_	_
 2	доставили	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	изолятор	_	_	_	_	_	_	_	_
-5	временного	_	_	_	_	_	_	_	_
-6	содержания	_	_	_	_	_	_	_	_
+4	изолятор	_	_	_	_	_	_	_	bratT62=Facility
+5	временного	_	_	_	_	_	_	_	bratT62=Facility
+6	содержания	_	_	_	_	_	_	_	bratT62=Facility
 7	при	_	_	_	_	_	_	_	_
-8	главном	_	_	_	_	_	_	_	_
-9	управлении	_	_	_	_	_	_	_	SpaceAfter=No
+8	главном	_	_	_	_	_	_	_	bratT61=Organization
+9	управлении	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0079-p3
@@ -225,7 +225,7 @@
 4	рамках	_	_	_	_	_	_	_	_
 5	расследования	_	_	_	_	_	_	_	_
 6	этого	_	_	_	_	_	_	_	_
-7	дела	_	_	_	_	_	_	_	_
+7	дела	_	_	_	_	_	_	_	bratT63=Event
 8	были	_	_	_	_	_	_	_	_
 9	предъявлены	_	_	_	_	_	_	_	_
 10	бывшему	_	_	_	_	_	_	_	bratA14=T29:Male|bratT29=Person|bratT30=Person-property
