@@ -11,8 +11,8 @@
 6	иностранцам	_	_	_	_	_	_	_	bratA5=T19:Citizenship|bratT19=Nationality
 7	становиться	_	_	_	_	_	_	_	_
 8	участниками	_	_	_	_	_	_	_	_
-9	религиозных	_	_	_	_	_	_	_	_
-10	групп	_	_	_	_	_	_	_	_
+9	религиозных	_	_	_	_	_	_	_	bratT27=Organization
+10	групп	_	_	_	_	_	_	_	bratT27=Organization
 
 # newpar id = 0090-p2
 # par_text = Правительство внесло в Госдуму законопроект, запрещающий иностранцам участвовать в религиозных группах и руководить ими. Соответствующий документ опубликован на сайте нижней палаты парламента.
@@ -28,8 +28,8 @@
 8	иностранцам	_	_	_	_	_	_	_	bratA6=T22:Citizenship|bratT22=Nationality
 9	участвовать	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
-11	религиозных	_	_	_	_	_	_	_	_
-12	группах	_	_	_	_	_	_	_	_
+11	религиозных	_	_	_	_	_	_	_	bratT28=Organization
+12	группах	_	_	_	_	_	_	_	bratT28=Organization
 13	и	_	_	_	_	_	_	_	_
 14	руководить	_	_	_	_	_	_	_	_
 15	ими	_	_	_	_	_	_	_	SpaceAfter=No
@@ -42,9 +42,9 @@
 3	опубликован	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	сайте	_	_	_	_	_	_	_	bratA2=T3:Media|bratT3=Service
-6	нижней	_	_	_	_	_	_	_	bratA1=T2:Department|bratT2=Organization
-7	палаты	_	_	_	_	_	_	_	bratA1=T2:Department|bratT2=Organization
-8	парламента	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Department|bratT2=Organization
+6	нижней	_	_	_	_	_	_	_	bratT2=Organization
+7	палаты	_	_	_	_	_	_	_	bratT2=Organization
+8	парламента	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT25=Organization
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p3
@@ -61,8 +61,8 @@
 8	совести	_	_	_	_	_	_	_	bratT4=Law
 9	и	_	_	_	_	_	_	_	bratT4=Law
 10	о	_	_	_	_	_	_	_	bratT4=Law
-11	религиозных	_	_	_	_	_	_	_	bratT4=Law
-12	объединениях	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Law
+11	религиозных	_	_	_	_	_	_	_	bratT29=Organization|bratT4=Law
+12	объединениях	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization|bratT4=Law
 13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Law
 14	.	_	_	_	_	_	_	_	_
 
@@ -77,8 +77,8 @@
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	религиозную	_	_	_	_	_	_	_	_
-11	группу	_	_	_	_	_	_	_	_
+10	религиозную	_	_	_	_	_	_	_	bratT26=Organization
+11	группу	_	_	_	_	_	_	_	bratT26=Organization
 12	могут	_	_	_	_	_	_	_	_
 13	входить	_	_	_	_	_	_	_	_
 14	россияне	_	_	_	_	_	_	_	bratA3=T6:Citizenship|bratT6=Nationality
@@ -106,8 +106,8 @@
 1	Согласно	_	_	_	_	_	_	_	_
 2	закону	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	религиозная	_	_	_	_	_	_	_	_
-5	группа	_	_	_	_	_	_	_	_
+4	религиозная	_	_	_	_	_	_	_	bratT30=Organization
+5	группа	_	_	_	_	_	_	_	bratT30=Organization
 6	-	_	_	_	_	_	_	_	_
 7	объединение	_	_	_	_	_	_	_	_
 8	единоверцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Religious-group
@@ -124,7 +124,7 @@
 1	Руководители	_	_	_	_	_	_	_	bratT9=Person-property
 2	и	_	_	_	_	_	_	_	_
 3	участники	_	_	_	_	_	_	_	_
-4	группы	_	_	_	_	_	_	_	_
+4	группы	_	_	_	_	_	_	_	bratT31=Organization
 5	могут	_	_	_	_	_	_	_	_
 6	проводить	_	_	_	_	_	_	_	_
 7	совместные	_	_	_	_	_	_	_	_
@@ -207,8 +207,8 @@
 14	участие	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	деятельности	_	_	_	_	_	_	_	_
-17	религиозных	_	_	_	_	_	_	_	_
-18	организаций	_	_	_	_	_	_	_	_
+17	религиозных	_	_	_	_	_	_	_	bratT32=Organization
+18	организаций	_	_	_	_	_	_	_	bratT32=Organization
 19	священнослужителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
 20	,	_	_	_	_	_	_	_	_
 21	получивших	_	_	_	_	_	_	_	_

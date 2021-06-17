@@ -6,7 +6,7 @@ T4	Nationality 139 148	россиянка
 A2	Citizenship T4
 T5	Other-term 155 168	коронавирусом
 T6	Organization 260 307	Красноярской   краевой   клинической   больнице
-T7	Organization 350 366	издание   NGS 24
+T7	Organization 335 366	региональное   издание   NGS 24
 T10	Ordinal 526 529	7-м
 T11	Date-absolute 559 600	На   следующий   день   после   торжества
 T13	Service 701 707	скорую
@@ -46,7 +46,7 @@ A10	Past T40
 A6	Past-UNK T30
 T39	Duration 532 538	месяце
 T41	Duration 576 580	день
-T42	GPE 260 272	Красноярской
+T42	GPE 260 282	Красноярской   краевой
 A11	Adjective T42
 T43	Ordinal 1894 1904	настоящему
 T44	Quantity 780 792	двусторонняя
@@ -77,3 +77,8 @@ A21	Female T55
 T56	Organization 933 941	больницу
 T57	Organization 223 232	госпитале
 T58	Organization 97 106	госпитале
+T59	GPE 335 347	региональное
+A22	Adjective T59
+T60	Organization 1449 1458	отделении
+A23	Department T60
+T61	GPE 1867 1874	краевой

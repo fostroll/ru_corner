@@ -13,7 +13,6 @@ T11	Organization 381 393	МВД   России
 T12	GPE 401 417	Санкт-Петербургу
 T13	GPE 424 447	Ленинградской   области
 T14	Organization 376 447	ГУ   МВД   России   по   Санкт-Петербургу   и   Ленинградской   области
-A2	Department T14
 T15	Organization 361 447	пресс-служба   ГУ   МВД   России   по   Санкт-Петербургу   и   Ленинградской   области
 A3	Department T15
 T16	Facility 481 499	проспекте   Тореза
@@ -50,3 +49,11 @@ A10	Past T37
 T40	Organization 1258 1274	отделе   полиции
 A11	Department T40
 T41	Event 786 803	уголовного   дела
+T42	Organization 0 3	СМИ
+A12	Media T42
+T43	Organization 966 973	издание
+A2	Media T43
+T44	Person-property 1119 1123	врач
+T45	Organization 1640 1657	отделении   банка
+A13	Department T45
+T46	Organization 1652 1657	банка

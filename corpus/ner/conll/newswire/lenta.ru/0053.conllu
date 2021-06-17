@@ -7,7 +7,7 @@
 2	России	_	_	_	_	_	_	_	bratT1=GPE
 3	появится	_	_	_	_	_	_	_	_
 4	новый	_	_	_	_	_	_	_	_
-5	курорт	_	_	_	_	_	_	_	_
+5	курорт	_	_	_	_	_	_	_	bratT39=Facility
 
 # newpar id = 0053-p2
 # par_text = Компания «Норникель» собирается создать курортную зону на плато Путорана на Таймыре в Красноярском крае. Об этом вице-президент горно-металлургической компании Андрей Грачев рассказал на форуме «Дни Арктики и Антарктики в Москве», передает ТАСС.
@@ -19,8 +19,8 @@
 4	''	_	_	_	_	_	_	_	bratT2=Organization
 5	собирается	_	_	_	_	_	_	_	_
 6	создать	_	_	_	_	_	_	_	_
-7	курортную	_	_	_	_	_	_	_	_
-8	зону	_	_	_	_	_	_	_	_
+7	курортную	_	_	_	_	_	_	_	bratT40=Facility
+8	зону	_	_	_	_	_	_	_	bratT40=Facility
 9	на	_	_	_	_	_	_	_	_
 10	плато	_	_	_	_	_	_	_	bratT9=Location
 11	Путорана	_	_	_	_	_	_	_	bratT9=Location
@@ -36,8 +36,8 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	вице-президент	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person
-4	горно-металлургической	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person
-5	компании	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person
+4	горно-металлургической	_	_	_	_	_	_	_	bratA4=T5:Male|bratT36=Organization|bratT4=Person-property|bratT5=Person
+5	компании	_	_	_	_	_	_	_	bratA4=T5:Male|bratT36=Organization|bratT4=Person-property|bratT5=Person
 6	Андрей	_	_	_	_	_	_	_	bratA4=T5:Male|bratT28=Person-forename|bratT5=Person
 7	Грачев	_	_	_	_	_	_	_	bratA4=T5:Male|bratT29=Person-surname|bratT5=Person
 8	рассказал	_	_	_	_	_	_	_	_
@@ -128,9 +128,9 @@
 # text = Сроки создания курорта в компании не раскрыли.
 1	Сроки	_	_	_	_	_	_	_	_
 2	создания	_	_	_	_	_	_	_	_
-3	курорта	_	_	_	_	_	_	_	_
+3	курорта	_	_	_	_	_	_	_	bratT38=Facility
 4	в	_	_	_	_	_	_	_	_
-5	компании	_	_	_	_	_	_	_	_
+5	компании	_	_	_	_	_	_	_	bratT37=Organization
 6	не	_	_	_	_	_	_	_	_
 7	раскрыли	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_

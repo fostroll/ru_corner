@@ -21,7 +21,7 @@ T18	GPE 1208 1229	Краснодарского   края
 T19	Person 1309 1322	Крашенинников
 T20	Date-absolute 1328 1339	13   ноября
 T21	Person-property 1353 1366	парламентарий
-T22	Organization 1416 1439	``   РИА   Новости   ''
+T22	Organization 1404 1439	агентство   ``   РИА   Новости   ''
 A3	Media T22
 T23	Organization 1494 1501	Госдумы
 T24	Person-property 1722 1735	парламентарий
@@ -32,7 +32,7 @@ T28	GPE 192 212	Краснодарском   крае
 T29	GPE 859 902	федеральная   территория   ``   Сириус   ''
 T30	GPE 1509 1526	``   Сириуса   ''
 T31	GPE 536 552	``   Сириус   ''
-T32	Person-property 1483 1491	депутата
+T32	Person-property 1483 1501	депутата   Госдумы
 T33	Person-surname 0 13	Крашенинников
 A4	Male T1
 T34	Person-forename 380 385	Павел
@@ -51,3 +51,10 @@ T40	Date-relative 1714 1719	тогда
 A11	Past T40
 T41	Quantity 1820 1833	одномандатный
 T42	Law 1583 1624	избирательного   (   законодательства   )
+T43	Organization 421 431	парламента
+T44	Person 473 486	парламентария
+A12	Male T44
+T45	Person 1353 1366	парламентарий
+A13	Male T45
+T46	Person 1722 1735	парламентарий
+A14	Male T46

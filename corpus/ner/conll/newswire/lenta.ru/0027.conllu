@@ -55,7 +55,7 @@
 6	за	_	_	_	_	_	_	_	_
 7	Зеленского	_	_	_	_	_	_	_	bratA10=T11:Male|bratT11=Person|bratT45=Person-surname
 8	жители	_	_	_	_	_	_	_	bratA5=T56:Resident|bratT56=Nationality
-9	страны	_	_	_	_	_	_	_	bratA5=T56:Resident|bratT56=Nationality
+9	страны	_	_	_	_	_	_	_	bratA5=T56:Resident|bratT56=Nationality|bratT70=GPE
 10	рассчитывали	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	проведение	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	у	_	_	_	_	_	_	_	_
-6	власти	_	_	_	_	_	_	_	bratT67=Organization
+6	власти	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
 8	Украине	_	_	_	_	_	_	_	bratT15=GPE
 9	находится	_	_	_	_	_	_	_	_
@@ -102,11 +102,11 @@
 24	ни	_	_	_	_	_	_	_	_
 25	по	_	_	_	_	_	_	_	_
 26	контактам	_	_	_	_	_	_	_	_
-27	страны	_	_	_	_	_	_	_	_
+27	страны	_	_	_	_	_	_	_	bratT69=GPE
 28	с	_	_	_	_	_	_	_	_
 29	ведущими	_	_	_	_	_	_	_	_
-30	государствами	_	_	_	_	_	_	_	_
-31	НАТО	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization
+30	государствами	_	_	_	_	_	_	_	bratT71=GPE
+31	НАТО	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Organization|bratT71=GPE
 32	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0027-p3-s3
@@ -148,8 +148,8 @@
 9	нормализации	_	_	_	_	_	_	_	_
 10	отношений	_	_	_	_	_	_	_	_
 11	между	_	_	_	_	_	_	_	_
-12	двумя	_	_	_	_	_	_	_	_
-13	странами	_	_	_	_	_	_	_	_
+12	двумя	_	_	_	_	_	_	_	bratT67=GPE|bratT68=Quantity
+13	странами	_	_	_	_	_	_	_	bratT67=GPE|bratT68=Quantity
 14	в	_	_	_	_	_	_	_	_
 15	обозримом	_	_	_	_	_	_	_	_
 16	будущем	_	_	_	_	_	_	_	_
@@ -264,6 +264,6 @@
 14	уровня	_	_	_	_	_	_	_	_
 15	авторитетов	_	_	_	_	_	_	_	_
 16	глав	_	_	_	_	_	_	_	bratT63=Person|bratT64=Person-property
-17	государств	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Person|bratT64=Person-property
+17	государств	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Person|bratT64=Person-property|bratT72=GPE
 18	.	_	_	_	_	_	_	_	_
 

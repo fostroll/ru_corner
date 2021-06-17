@@ -3,8 +3,8 @@
 # par_text = Африканская компания превратила Toyota Land Cruiser в броневик
 # sent_id = 0035-p1-s1
 # text = Африканская компания превратила Toyota Land Cruiser в броневик
-1	Африканская	_	_	_	_	_	_	_	bratA6=T22:Adjective|bratT22=GPE
-2	компания	_	_	_	_	_	_	_	_
+1	Африканская	_	_	_	_	_	_	_	bratA6=T22:Adjective|bratT22=GPE|bratT30=Organization
+2	компания	_	_	_	_	_	_	_	bratT30=Organization
 3	превратила	_	_	_	_	_	_	_	_
 4	Toyota	_	_	_	_	_	_	_	bratA1=T2:Trademark|bratT2=Product
 5	Land	_	_	_	_	_	_	_	bratA1=T2:Trademark|bratT2=Product
@@ -220,16 +220,16 @@
 7	могут	_	_	_	_	_	_	_	_
 8	пользоваться	_	_	_	_	_	_	_	_
 9	только	_	_	_	_	_	_	_	_
-10	правительственные	_	_	_	_	_	_	_	_
-11	структуры	_	_	_	_	_	_	_	SpaceAfter=No
+10	правительственные	_	_	_	_	_	_	_	bratT33=Organization
+11	структуры	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
 12	,	_	_	_	_	_	_	_	_
-13	армейские	_	_	_	_	_	_	_	_
-14	подразделения	_	_	_	_	_	_	_	_
+13	армейские	_	_	_	_	_	_	_	bratT34=Organization
+14	подразделения	_	_	_	_	_	_	_	bratT34=Organization
 15	или	_	_	_	_	_	_	_	_
 16	официально	_	_	_	_	_	_	_	_
 17	зарегистрированные	_	_	_	_	_	_	_	_
-18	охранные	_	_	_	_	_	_	_	_
-19	компании	_	_	_	_	_	_	_	SpaceAfter=No
+18	охранные	_	_	_	_	_	_	_	bratT35=Organization
+19	компании	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p6

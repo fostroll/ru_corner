@@ -3,9 +3,9 @@
 # par_text = «Левада-центр»: россияне назвали самыми вдохновляющими личностями Путина, Навального и Шойгу
 # sent_id = 0039-p1-s1
 # text = ``Левада-центр'': россияне назвали самыми вдохновляющими личностями Путина, Навального и Шойгу
-1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T1:Media|bratT1=Organization
-2	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T1:Media|bratT1=Organization
-3	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T1:Media|bratT1=Organization
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+2	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+3	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
 4	:	_	_	_	_	_	_	_	_
 5	россияне	_	_	_	_	_	_	_	bratA19=T2:Citizenship|bratT2=Nationality
 6	назвали	_	_	_	_	_	_	_	_
@@ -48,9 +48,9 @@
 24	Шойгу	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T19:Male|bratT19=Person|bratT22=Person-surname
 25	,	_	_	_	_	_	_	_	_
 26	сообщает	_	_	_	_	_	_	_	_
-27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T23:Media|bratT23=Organization
-28	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T23:Media|bratT23=Organization
-29	''	_	_	_	_	_	_	_	bratA17=T23:Media|bratT23=Organization
+27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+28	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+29	''	_	_	_	_	_	_	_	bratT23=Organization
 30	со	_	_	_	_	_	_	_	_
 31	ссылкой	_	_	_	_	_	_	_	_
 32	на	_	_	_	_	_	_	_	_
@@ -136,17 +136,17 @@
 16	приходит	_	_	_	_	_	_	_	_
 17	к	_	_	_	_	_	_	_	_
 18	выводу	_	_	_	_	_	_	_	_
-19	аналитический	_	_	_	_	_	_	_	_
-20	центр	_	_	_	_	_	_	_	SpaceAfter=No
+19	аналитический	_	_	_	_	_	_	_	bratT30=Organization
+20	центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0039-p5
 # par_text = «Левада-центр» пишет, что респонденты также называли министра иностранных дел Сергея Лаврова, лидера ЛДПР Владимира Жириновского, лидера КПРФ Геннадия Зюганова, политика Павла Грудинина и журналиста Владимира Соловьева.
 # sent_id = 0039-p5-s1
 # text = ``Левада-центр'' пишет, что респонденты также называли министра иностранных дел Сергея Лаврова, лидера ЛДПР Владимира Жириновского, лидера КПРФ Геннадия Зюганова, политика Павла Грудинина и журналиста Владимира Соловьева.
-1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T31:Media|bratT31=Organization
-2	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T31:Media|bratT31=Organization
-3	''	_	_	_	_	_	_	_	bratA18=T31:Media|bratT31=Organization
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+2	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
+3	''	_	_	_	_	_	_	_	bratT31=Organization
 4	пишет	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_

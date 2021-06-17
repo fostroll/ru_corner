@@ -100,7 +100,7 @@
 8	будет	_	_	_	_	_	_	_	_
 9	возглавлять	_	_	_	_	_	_	_	_
 10	конкретные	_	_	_	_	_	_	_	_
-11	ведомства	_	_	_	_	_	_	_	SpaceAfter=No
+11	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Organization
 12	,	_	_	_	_	_	_	_	_
 13	то	_	_	_	_	_	_	_	_
 14	вам	_	_	_	_	_	_	_	_
@@ -194,9 +194,9 @@
 # sent_id = 0097-p6-s1
 # text = Советник переходной команды демократов Джен Псаки, которая в прошлом возглавляла пресс-службу Госдепартамента, не дала столь определенный ответ на тот же вопрос в эфире телекомпании CNN.
 1	Советник	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT34=Person-property
-2	переходной	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT34=Person-property
-3	команды	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT34=Person-property
-4	демократов	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT34=Person-property|bratT35=Political-group
+2	переходной	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT34=Person-property|bratT84=Organization
+3	команды	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT34=Person-property|bratT84=Organization
+4	демократов	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT34=Person-property|bratT35=Political-group|bratT84=Organization
 5	Джен	_	_	_	_	_	_	_	bratA23=T33:Female|bratT33=Person|bratT71=Person-forename
 6	Псаки	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T33:Female|bratT33=Person|bratT72=Person-surname
 7	,	_	_	_	_	_	_	_	_
@@ -255,8 +255,8 @@
 1	Согласно	_	_	_	_	_	_	_	_
 2	оценкам	_	_	_	_	_	_	_	_
 3	ведущих	_	_	_	_	_	_	_	_
-4	американских	_	_	_	_	_	_	_	bratA29=T77:Adjective|bratT77=GPE
-5	СМИ	_	_	_	_	_	_	_	SpaceAfter=No
+4	американских	_	_	_	_	_	_	_	bratA29=T77:Adjective|bratA31=T83:Media|bratT77=GPE|bratT83=Organization
+5	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratA31=T83:Media|bratT83=Organization
 6	,	_	_	_	_	_	_	_	_
 7	Байден	_	_	_	_	_	_	_	bratA27=T42:Male|bratT42=Person|bratT74=Person-surname
 8	заручился	_	_	_	_	_	_	_	_

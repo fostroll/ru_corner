@@ -49,10 +49,10 @@
 6	пресс-службе	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization
 7	ГУ	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization|bratT52=Organization
 8	МВД	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization|bratT51=Organization|bratT52=Organization
-9	России	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization|bratT49=GPE
-10	по	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization
-11	Челябинской	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization|bratT50=GPE
-12	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T48:Department|bratT48=Organization|bratT50=GPE
+9	России	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization|bratT49=GPE|bratT51=Organization|bratT52=Organization
+10	по	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization|bratT52=Organization
+11	Челябинской	_	_	_	_	_	_	_	bratA14=T48:Department|bratT48=Organization|bratT50=GPE|bratT52=Organization
+12	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T48:Department|bratT48=Organization|bratT50=GPE|bratT52=Organization
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p3
@@ -145,7 +145,7 @@
 # text = По данным департамента, всех осмотрели медики.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	департамента	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T42:Department|bratT42=Organization
+3	департамента	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
 4	,	_	_	_	_	_	_	_	_
 5	всех	_	_	_	_	_	_	_	_
 6	осмотрели	_	_	_	_	_	_	_	_
@@ -218,8 +218,8 @@
 # text = По словам собеседника телеканала, одной из пострадавших была пожилая женщина, которая после происшествия оказалась придавлена автомобилем.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	собеседника	_	_	_	_	_	_	_	_
-4	телеканала	_	_	_	_	_	_	_	SpaceAfter=No
+3	собеседника	_	_	_	_	_	_	_	bratA3=T55:Male|bratT55=Person
+4	телеканала	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T55:Male|bratA5=T56:Media|bratT55=Person|bratT56=Organization
 5	,	_	_	_	_	_	_	_	_
 6	одной	_	_	_	_	_	_	_	bratT29=Quantity
 7	из	_	_	_	_	_	_	_	bratT29=Quantity

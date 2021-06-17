@@ -44,56 +44,60 @@ T34	GPE 1032 1037	Чечни
 T35	Person-property 1104 1112	Директор
 T36	Time-absolute 1148 1179	еще   не   было   девяти   утра
 T37	Person-property 1403 1411	директор
-T38	Person-property 1492 1497	завуч
-T39	Date-relative 1503 1515	Днем   ранее
+T38	Person-property 1494 1499	завуч
+T39	Date-relative 1505 1517	Днем   ранее
 A10	Past T39
-T40	Organization 1518 1538	Госдепартамент   США
-T41	GPE 1535 1538	США
-T42	Person 1550 1558	Кадырову
+T40	Organization 1520 1540	Госдепартамент   США
+T41	GPE 1537 1540	США
+T42	Person 1552 1560	Кадырову
 A11	Male T42
-T43	Person-surname 1550 1558	Кадырову
-T44	Family 1571 1575	жене
-T45	Quantity 1582 1596	двум   дочерям
-T46	Family 1589 1596	дочерям
-T47	GPE 1662 1667	Чечне
-T49	Family 1743 1748	семьи
-T50	Person 1751 1759	Кадырова
+T43	Person-surname 1552 1560	Кадырову
+T44	Family 1573 1577	жене
+T45	Quantity 1584 1598	двум   дочерям
+T46	Family 1591 1598	дочерям
+T47	GPE 1664 1669	Чечне
+T49	Family 1745 1750	семьи
+T50	Person 1753 1761	Кадырова
 A12	Male T50
-T51	Person-surname 1751 1759	Кадырова
-T52	Organization 1762 1787	``   Кавказ . реалии   ''
-T53	Person-property 1840 1877	сотрудников   бюджетных   организаций
-T54	Person-property 1900 1915	главу   региона
-T55	Person-property 1968 1978	бюджетники
-T56	Time-period 1990 2004	каждый   месяц
-T57	Duration 1999 2004	месяц
-T58	Person-property 2019 2030	руководству
-T59	Quantity 2033 2061	не   менее   10   скриншотов
+T51	Person-surname 1753 1761	Кадырова
+T52	Organization 1764 1789	``   Кавказ . реалии   ''
+T53	Person-property 1842 1879	сотрудников   бюджетных   организаций
+T54	Person-property 1902 1917	главу   региона
+T55	Person-property 1970 1980	бюджетники
+T56	Time-period 1992 2006	каждый   месяц
+T57	Duration 2001 2006	месяц
+T58	Organization 2021 2032	руководству
+T59	Quantity 2035 2063	не   менее   10   скриншотов
 A13	Media T52
 T60	Service 552 556	пост
 A14	Media T60
 T61	Person-property 559 564	главы
 T62	Service 756 762	постом
 A15	Media T62
-T64	Person 1565 1575	его   жене
+T64	Person 1567 1577	его   жене
 A16	Male T64
-T65	Date-absolute 1679 1693	до   появления
+T65	Date-absolute 1681 1695	до   появления
 A17	Past T65
 T48	Date-relative 1148 1179	еще   не   было   девяти   утра
 A18	Past T48
 T66	Date-period-relative 1216 1227	до   десяти
 A19	Past T66
 T63	Time-absolute 1221 1227	десяти
-T67	Duration 1503 1507	Днем
+T67	Duration 1505 1509	Днем
 T68	Service 190 201	комментарии
 A20	Media T68
 T69	Service 208 226	социальных   сетях
-T70	Service 1922 1930	соцсетях
+T70	Service 1924 1932	соцсетях
 T71	GPE 253 260	региона
-T72	GPE 1611 1617	страну
-T73	GPE 1908 1915	региона
-T74	Person 1900 1915	главу   региона
-T75	Location 1767 1773	Кавказ
+T72	GPE 1613 1619	страну
+T73	GPE 1910 1917	региона
+T74	Person 1902 1917	главу   региона
+T75	Location 1769 1775	Кавказ
 T76	Location 346 356	Кавказский
 A21	Adjective T76
 T77	Location 5 15	Кавказский
 A22	Adjective T77
+T78	Organization 1856 1879	бюджетных   организаций
+T79	Organization 1956 1963	издание
+A23	Media T79
+A24	Department T58

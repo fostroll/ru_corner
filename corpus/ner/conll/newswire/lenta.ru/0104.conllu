@@ -24,7 +24,7 @@
 4	после	_	_	_	_	_	_	_	bratA9=T39:Past|bratT39=Date-absolute
 5	публикации	_	_	_	_	_	_	_	bratA9=T39:Past|bratT39=Date-absolute|bratT43=Event
 6	в	_	_	_	_	_	_	_	_
-7	СМИ	_	_	_	_	_	_	_	_
+7	СМИ	_	_	_	_	_	_	_	bratA17=T62:Media|bratT62=Organization
 8	информации	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	смерти	_	_	_	_	_	_	_	bratT45=Event
@@ -114,7 +114,7 @@
 19	в	_	_	_	_	_	_	_	_
 20	госпитале	_	_	_	_	_	_	_	bratT19=Organization
 21	при	_	_	_	_	_	_	_	bratT19=Organization
-22	городской	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization
+22	городской	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization|bratT63=GPE
 23	больнице	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Organization
 24-25	№20	_	_	_	_	_	_	_	_
 24	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT19=Organization|bratT29=Ordinal
@@ -142,8 +142,8 @@
 # text = По словам собеседника издания, пять пациентов скончались в отделении реанимации.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	собеседника	_	_	_	_	_	_	_	_
-4	издания	_	_	_	_	_	_	_	SpaceAfter=No
+3	собеседника	_	_	_	_	_	_	_	bratA16=T61:Male|bratT61=Person
+4	издания	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T60:Media|bratA16=T61:Male|bratT60=Organization|bratT61=Person
 5	,	_	_	_	_	_	_	_	_
 6	пять	_	_	_	_	_	_	_	bratT21=Quantity
 7	пациентов	_	_	_	_	_	_	_	bratT21=Quantity
@@ -207,12 +207,12 @@
 22	-	_	_	_	_	_	_	_	_
 23	сказал	_	_	_	_	_	_	_	_
 24	собеседник	_	_	_	_	_	_	_	bratA14=T50:Male|bratT50=Person
-25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratA4=T25:Media|bratT25=Organization|bratT50=Person
 26-28	161.ру	_	_	_	_	_	_	_	SpaceAfter=No
-26	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization|bratT35=Cardinal|bratT58=Web-address
-27	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization|bratT58=Web-address
-28	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization|bratT58=Web-address
-29	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT25=Organization
+26	161	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratA4=T25:Media|bratT25=Organization|bratT35=Cardinal|bratT50=Person|bratT58=Web-address
+27	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratA4=T25:Media|bratT25=Organization|bratT50=Person|bratT58=Web-address
+28	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratA4=T25:Media|bratT25=Organization|bratT50=Person|bratT58=Web-address
+29	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratA4=T25:Media|bratT25=Organization|bratT50=Person
 30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0104-p6
@@ -277,7 +277,7 @@
 # sent_id = 0104-p8-s1
 # text = Начальник регионального пресс-центра по мониторингу ситуации с коронавирусом Сергей Тюрин назвал фейком информацию о связи смерти пациентов с дефицитом медицинского кислорода в больнице.
 1	Начальник	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT33=Person
-2	регионального	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
+2	регионального	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person|bratT64=GPE
 3	пресс-центра	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
 4	по	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person
 5	мониторингу	_	_	_	_	_	_	_	bratA12=T33:Male|bratT31=Person-property|bratT32=Organization|bratT33=Person

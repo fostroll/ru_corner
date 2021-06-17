@@ -50,7 +50,7 @@
 3	заявил	_	_	_	_	_	_	_	_
 4	министр	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
 5	здравоохранения	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-6	страны	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
+6	страны	_	_	_	_	_	_	_	bratT10=Person|bratT54=GPE|bratT9=Person-property
 7	Оливье	_	_	_	_	_	_	_	bratT10=Person|bratT35=Person-forename
 8	Веран	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT36=Person-surname
 9	,	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
 12	приводит	_	_	_	_	_	_	_	_
-13	издание	_	_	_	_	_	_	_	_
+13	издание	_	_	_	_	_	_	_	bratA10=T52:Media|bratT52=Organization
 14	слова	_	_	_	_	_	_	_	_
 15	министра	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT46=Person
 16	.	_	_	_	_	_	_	_	_
@@ -109,7 +109,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	власти	_	_	_	_	_	_	_	bratT48=Organization
-6	страны	_	_	_	_	_	_	_	bratT48=Organization
+6	страны	_	_	_	_	_	_	_	bratT48=Organization|bratT53=GPE
 7	снова	_	_	_	_	_	_	_	_
 8	получают	_	_	_	_	_	_	_	_
 9	контроль	_	_	_	_	_	_	_	_
@@ -178,7 +178,7 @@
 # sent_id = 0051-p5-s2
 # text = В стране закрыты развлекательные заведения, бары и рестораны, отменены массовые мероприятия.
 1	В	_	_	_	_	_	_	_	_
-2	стране	_	_	_	_	_	_	_	_
+2	стране	_	_	_	_	_	_	_	bratT55=GPE
 3	закрыты	_	_	_	_	_	_	_	_
 4	развлекательные	_	_	_	_	_	_	_	_
 5	заведения	_	_	_	_	_	_	_	SpaceAfter=No
@@ -238,7 +238,7 @@
 5	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T34:Male|bratT21=Organization|bratT34=Person|bratT39=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	стране	_	_	_	_	_	_	_	_
+8	стране	_	_	_	_	_	_	_	bratT56=GPE
 9	зафиксировано	_	_	_	_	_	_	_	_
 10	1,9	_	_	_	_	_	_	_	bratT22=Quantity
 11	миллиона	_	_	_	_	_	_	_	bratT22=Quantity

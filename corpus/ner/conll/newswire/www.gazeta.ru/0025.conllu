@@ -48,8 +48,8 @@
 # sent_id = 0025-p4-s1
 # text = За сербскую команду отличились Неманья Радоньич, Душан Влахович и Лука Йович, который оформил дубль.
 1	За	_	_	_	_	_	_	_	_
-2	сербскую	_	_	_	_	_	_	_	bratA8=T33:Adjective|bratT33=GPE
-3	команду	_	_	_	_	_	_	_	_
+2	сербскую	_	_	_	_	_	_	_	bratA8=T33:Adjective|bratT33=GPE|bratT37=Organization
+3	команду	_	_	_	_	_	_	_	bratT37=Organization
 4	отличились	_	_	_	_	_	_	_	_
 5	Неманья	_	_	_	_	_	_	_	bratA7=T13:Male|bratT13=Person|bratT27=Person-forename
 6	Радоньич	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T13:Male|bratT13=Person|bratT28=Person-surname
@@ -89,8 +89,8 @@
 7	матч	_	_	_	_	_	_	_	bratT18=Event
 8	Лиги	_	_	_	_	_	_	_	bratT18=Event|bratT19=Event
 9	наций	_	_	_	_	_	_	_	bratT18=Event|bratT19=Event
-10	Сербия	_	_	_	_	_	_	_	bratT18=Event|bratT20=GPE
-11	-	_	_	_	_	_	_	_	bratT18=Event
-12	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event|bratT21=GPE
+10	Сербия	_	_	_	_	_	_	_	bratT20=GPE
+11	-	_	_	_	_	_	_	_	_
+12	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE
 13	.	_	_	_	_	_	_	_	_
 

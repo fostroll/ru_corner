@@ -65,12 +65,12 @@
 # sent_id = 0095-p3-s1
 # text = Начальнику продовольственной службы войсковой части № 3411 Сухробу Ерову также вменяется незаконное проникновение в жилище (статья 139 УК) и попытка сексуального насилия над матерью мальчика (часть 1 статьи 30, статья 132 УК).
 1	Начальнику	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT14=Person-property
-2	продовольственной	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT14=Person-property
-3	службы	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT14=Person-property
-4	войсковой	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT14=Person-property|bratT17=Organization
-5	части	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT14=Person-property|bratT17=Organization
-6	№	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT14=Person-property|bratT17=Organization|bratT18=Ordinal
-7	3411	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT14=Person-property|bratT17=Organization|bratT18=Ordinal
+2	продовольственной	_	_	_	_	_	_	_	bratA3=T13:Male|bratA4=T59:Department|bratT13=Person|bratT14=Person-property|bratT59=Organization
+3	службы	_	_	_	_	_	_	_	bratA3=T13:Male|bratA4=T59:Department|bratT13=Person|bratT14=Person-property|bratT59=Organization
+4	войсковой	_	_	_	_	_	_	_	bratA3=T13:Male|bratA4=T59:Department|bratT13=Person|bratT14=Person-property|bratT17=Organization|bratT59=Organization
+5	части	_	_	_	_	_	_	_	bratA3=T13:Male|bratA4=T59:Department|bratT13=Person|bratT14=Person-property|bratT17=Organization|bratT59=Organization
+6	№	_	_	_	_	_	_	_	bratA3=T13:Male|bratA4=T59:Department|bratT13=Person|bratT14=Person-property|bratT17=Organization|bratT18=Ordinal|bratT59=Organization
+7	3411	_	_	_	_	_	_	_	bratA3=T13:Male|bratA4=T59:Department|bratT13=Person|bratT14=Person-property|bratT17=Organization|bratT18=Ordinal|bratT59=Organization
 8	Сухробу	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT15=Person-forename
 9	Ерову	_	_	_	_	_	_	_	bratA3=T13:Male|bratT13=Person|bratT16=Person-surname
 10	также	_	_	_	_	_	_	_	_

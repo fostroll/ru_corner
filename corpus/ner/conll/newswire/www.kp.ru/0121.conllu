@@ -34,7 +34,7 @@
 # sent_id = 0121-p2-s2
 # text = Многие предприятия, жители страны, семьи с детьми и даже целые отрасли экономики нуждаются в поддержке.
 1	Многие	_	_	_	_	_	_	_	_
-2	предприятия	_	_	_	_	_	_	_	SpaceAfter=No
+2	предприятия	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
 3	,	_	_	_	_	_	_	_	_
 4	жители	_	_	_	_	_	_	_	bratA7=T26:Resident|bratT26=Nationality
 5	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T26:Resident|bratT26=Nationality|bratT37=GPE
@@ -64,8 +64,8 @@
 8	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T4:Past|bratT4=Date-absolute
 9	,	_	_	_	_	_	_	_	_
 10	глава	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person
-11	российского	_	_	_	_	_	_	_	bratA12=T33:Adjective|bratA9=T5:Male|bratT33=GPE|bratT5=Person
-12	правительства	_	_	_	_	_	_	_	bratA9=T5:Male|bratT5=Person
+11	российского	_	_	_	_	_	_	_	bratA12=T33:Adjective|bratA9=T5:Male|bratT33=GPE|bratT39=Organization|bratT5=Person
+12	правительства	_	_	_	_	_	_	_	bratA9=T5:Male|bratT39=Organization|bratT5=Person
 13	Михаил	_	_	_	_	_	_	_	bratA9=T5:Male|bratT28=Person-forename|bratT5=Person
 14	Мишустин	_	_	_	_	_	_	_	bratA9=T5:Male|bratT29=Person-surname|bratT5=Person
 15	во	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute
@@ -96,11 +96,11 @@
 4	как	_	_	_	_	_	_	_	_
 5	и	_	_	_	_	_	_	_	_
 6	отдельные	_	_	_	_	_	_	_	_
-7	предприятия	_	_	_	_	_	_	_	_
-8	малого	_	_	_	_	_	_	_	_
-9	и	_	_	_	_	_	_	_	_
-10	среднего	_	_	_	_	_	_	_	_
-11	бизнеса	_	_	_	_	_	_	_	_
+7	предприятия	_	_	_	_	_	_	_	bratA15=T40:Plural|bratT40=Organization
+8	малого	_	_	_	_	_	_	_	bratA15=T40:Plural|bratT40=Organization
+9	и	_	_	_	_	_	_	_	bratA15=T40:Plural|bratT40=Organization
+10	среднего	_	_	_	_	_	_	_	bratA15=T40:Plural|bratT40=Organization
+11	бизнеса	_	_	_	_	_	_	_	bratA15=T40:Plural|bratT40=Organization
 12	и	_	_	_	_	_	_	_	_
 13	граждане	_	_	_	_	_	_	_	bratA14=T35:Citizenship|bratT35=Nationality
 14	нуждаются	_	_	_	_	_	_	_	_
@@ -177,7 +177,7 @@
 11	налоговые	_	_	_	_	_	_	_	_
 12	каникулы	_	_	_	_	_	_	_	_
 13	для	_	_	_	_	_	_	_	_
-14	предприятий	_	_	_	_	_	_	_	SpaceAfter=No
+14	предприятий	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
 15	,	_	_	_	_	_	_	_	_
 16	которые	_	_	_	_	_	_	_	_
 17	пострадали	_	_	_	_	_	_	_	_

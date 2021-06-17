@@ -45,7 +45,7 @@
 4	в	_	_	_	_	_	_	_	_
 5	пресс-службе	_	_	_	_	_	_	_	bratA2=T5:Department|bratT5=Organization
 6	ГИБДД	_	_	_	_	_	_	_	bratA2=T5:Department|bratT5=Organization|bratT6=Organization
-7	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Department|bratT5=Organization|bratT6=Organization
+7	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Department|bratT5=Organization|bratT6=Organization|bratT69=GPE
 8	,	_	_	_	_	_	_	_	_
 9	передает	_	_	_	_	_	_	_	_
 10-13	UFA1.RU	_	_	_	_	_	_	_	SpaceAfter=No
@@ -61,7 +61,7 @@
 # text = По данным ведомства, около 20:00 25 ноября на 142-м километре трассы Уфа - Оренбург произошло две аварии.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	ведомства	_	_	_	_	_	_	_	SpaceAfter=No
+3	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Organization
 4	,	_	_	_	_	_	_	_	_
 5	около	_	_	_	_	_	_	_	bratA6=T9:Past|bratT8=Time-absolute|bratT9=Date-absolute
 6	20:00	_	_	_	_	_	_	_	bratA6=T9:Past|bratT8=Time-absolute|bratT9=Date-absolute
@@ -164,10 +164,10 @@
 # text = Авария произошла на Октябрьской улице в деревне Константиновка.
 1	Авария	_	_	_	_	_	_	_	bratT44=Event
 2	произошла	_	_	_	_	_	_	_	_
-3	на	_	_	_	_	_	_	_	bratT21=Facility
+3	на	_	_	_	_	_	_	_	_
 4	Октябрьской	_	_	_	_	_	_	_	bratT21=Facility
 5	улице	_	_	_	_	_	_	_	bratT21=Facility
-6	в	_	_	_	_	_	_	_	bratT22=GPE
+6	в	_	_	_	_	_	_	_	_
 7	деревне	_	_	_	_	_	_	_	bratT22=GPE
 8	Константиновка	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=GPE
 9	.	_	_	_	_	_	_	_	_
@@ -204,7 +204,7 @@
 6	одной	_	_	_	_	_	_	_	_
 7	из	_	_	_	_	_	_	_	_
 8	квартир	_	_	_	_	_	_	_	_
-9	на	_	_	_	_	_	_	_	bratT26=Facility
+9	на	_	_	_	_	_	_	_	_
 10	улице	_	_	_	_	_	_	_	bratT26=Facility
 11	Молодежной	_	_	_	_	_	_	_	bratT26=Facility
 12	труп	_	_	_	_	_	_	_	_
@@ -245,7 +245,7 @@
 10	трех	_	_	_	_	_	_	_	bratT32=Quantity
 11	километрах	_	_	_	_	_	_	_	bratT32=Quantity
 12	от	_	_	_	_	_	_	_	bratT32=Quantity
-13	деревни	_	_	_	_	_	_	_	SpaceAfter=No
+13	деревни	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=GPE
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p6-s4

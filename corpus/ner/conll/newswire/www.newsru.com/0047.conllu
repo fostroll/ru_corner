@@ -41,14 +41,14 @@
 22	на	_	_	_	_	_	_	_	_
 23	официальном	_	_	_	_	_	_	_	bratA5=T60:Media|bratT60=Service
 24	сайте	_	_	_	_	_	_	_	bratA5=T60:Media|bratT60=Service
-25	организации	_	_	_	_	_	_	_	SpaceAfter=No
+25	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Organization
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p2-s2
 # text = Команда Станислава Черчесова теперь занимает в нем 34-е место.
-1	Команда	_	_	_	_	_	_	_	_
-2	Станислава	_	_	_	_	_	_	_	bratA8=T9:Male|bratT68=Person-forename|bratT9=Person
-3	Черчесова	_	_	_	_	_	_	_	bratA8=T9:Male|bratT69=Person-surname|bratT9=Person
+1	Команда	_	_	_	_	_	_	_	bratT79=Organization
+2	Станислава	_	_	_	_	_	_	_	bratA8=T9:Male|bratT68=Person-forename|bratT79=Organization|bratT9=Person
+3	Черчесова	_	_	_	_	_	_	_	bratA8=T9:Male|bratT69=Person-surname|bratT79=Organization|bratT9=Person
 4	теперь	_	_	_	_	_	_	_	bratA7=T61:Present|bratT61=Date-absolute
 5	занимает	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
@@ -112,7 +112,7 @@
 10	сравнению	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
 12	сентябрем	_	_	_	_	_	_	_	bratA10=T25:Past|bratT25=Date-absolute
-13	команда	_	_	_	_	_	_	_	_
+13	команда	_	_	_	_	_	_	_	bratT80=Organization
 14	потеряла	_	_	_	_	_	_	_	_
 15	пять	_	_	_	_	_	_	_	bratT26=Quantity
 16	очков	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity

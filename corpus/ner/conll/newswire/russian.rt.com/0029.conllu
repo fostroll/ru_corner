@@ -8,7 +8,7 @@
 3	санкции	_	_	_	_	_	_	_	_
 4	против	_	_	_	_	_	_	_	_
 5	трёх	_	_	_	_	_	_	_	bratT5=Quantity
-6	организаций	_	_	_	_	_	_	_	bratT5=Quantity
+6	организаций	_	_	_	_	_	_	_	bratT21=Organization|bratT5=Quantity
 7	из	_	_	_	_	_	_	_	_
 8	России	_	_	_	_	_	_	_	bratT3=GPE
 
@@ -23,7 +23,7 @@
 5	в	_	_	_	_	_	_	_	_
 6	отношении	_	_	_	_	_	_	_	_
 7	трёх	_	_	_	_	_	_	_	bratT13=Quantity
-8	организаций	_	_	_	_	_	_	_	bratT13=Quantity
+8	организаций	_	_	_	_	_	_	_	bratT13=Quantity|bratT22=Organization
 9	из	_	_	_	_	_	_	_	_
 10	России	_	_	_	_	_	_	_	bratT14=GPE
 11	за	_	_	_	_	_	_	_	_
@@ -94,8 +94,8 @@
 3	списке	_	_	_	_	_	_	_	_
 4	фигурируют	_	_	_	_	_	_	_	_
 5	два	_	_	_	_	_	_	_	bratT11=Quantity
-6	китайских	_	_	_	_	_	_	_	bratA2=T18:Adjective|bratT11=Quantity|bratT18=GPE
-7	предприятия	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
+6	китайских	_	_	_	_	_	_	_	bratA2=T18:Adjective|bratT11=Quantity|bratT18=GPE|bratT23=Organization
+7	предприятия	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity|bratT23=Organization
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0029-p5
@@ -112,7 +112,7 @@
 8	Северной	_	_	_	_	_	_	_	bratT4=GPE
 9	Корее	_	_	_	_	_	_	_	bratT4=GPE
 10	две	_	_	_	_	_	_	_	bratT9=Quantity
-11	компании	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Quantity
+11	компании	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization|bratT9=Quantity
 12	,	_	_	_	_	_	_	_	_
 13	которые	_	_	_	_	_	_	_	_
 14	расположены	_	_	_	_	_	_	_	_

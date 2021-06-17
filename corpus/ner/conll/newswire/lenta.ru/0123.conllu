@@ -96,11 +96,11 @@
 25	,	_	_	_	_	_	_	_	_
 26	что	_	_	_	_	_	_	_	_
 27	сотрудники	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property
-28	избирательных	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property
-29	участков	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property
+28	избирательных	_	_	_	_	_	_	_	bratA17=T69:Department|bratA2=T2:Plural|bratT2=Person-property|bratT69=Organization
+29	участков	_	_	_	_	_	_	_	bratA17=T69:Department|bratA2=T2:Plural|bratT2=Person-property|bratT69=Organization
 30	и	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property
-31	избирательных	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property
-32	комиссий	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property
+31	избирательных	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property|bratT70=Organization
+32	комиссий	_	_	_	_	_	_	_	bratA2=T2:Plural|bratT2=Person-property|bratT70=Organization
 33	с	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-period-absolute
 34	момента	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-period-absolute
 35	подсчета	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-period-absolute|bratT40=Event
@@ -188,7 +188,7 @@
 8	на	_	_	_	_	_	_	_	bratT38=Person-property|bratT67=Person
 9	пост	_	_	_	_	_	_	_	bratT38=Person-property|bratT67=Person
 10	президента	_	_	_	_	_	_	_	bratT38=Person-property|bratT67=Person
-11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property|bratT67=Person
+11	страны	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property|bratT67=Person|bratT71=GPE
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0123-p7-s2
@@ -199,7 +199,7 @@
 4	борются	_	_	_	_	_	_	_	_
 5	действующий	_	_	_	_	_	_	_	bratA11=T23:Male|bratT23=Person|bratT33=Person-property
 6	глава	_	_	_	_	_	_	_	bratA11=T23:Male|bratT23=Person|bratT33=Person-property
-7	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T23:Male|bratT23=Person|bratT33=Person-property
+7	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T23:Male|bratT23=Person|bratT33=Person-property|bratT72=GPE
 8	,	_	_	_	_	_	_	_	bratA11=T23:Male|bratT23=Person
 9	республиканец	_	_	_	_	_	_	_	bratA11=T23:Male|bratT12=Political-group|bratT23=Person
 10	Дональд	_	_	_	_	_	_	_	bratA11=T23:Male|bratT23=Person|bratT53=Person-forename

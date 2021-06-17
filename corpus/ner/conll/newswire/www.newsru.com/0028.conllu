@@ -56,10 +56,10 @@
 31	ее	_	_	_	_	_	_	_	bratT47=Person
 32	детей	_	_	_	_	_	_	_	bratT26=Family|bratT47=Person
 33	в	_	_	_	_	_	_	_	_
-34	школу	_	_	_	_	_	_	_	_
+34	школу	_	_	_	_	_	_	_	bratT56=Organization
 35	и	_	_	_	_	_	_	_	_
-36	детский	_	_	_	_	_	_	_	_
-37	сад	_	_	_	_	_	_	_	SpaceAfter=No
+36	детский	_	_	_	_	_	_	_	bratT57=Organization
+37	сад	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Organization
 38	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0028-p2-s2
@@ -145,9 +145,9 @@
 22	развозить	_	_	_	_	_	_	_	_
 23	детей	_	_	_	_	_	_	_	bratT28=Family
 24	в	_	_	_	_	_	_	_	_
-25	сад	_	_	_	_	_	_	_	_
+25	сад	_	_	_	_	_	_	_	bratT58=Organization
 26	и	_	_	_	_	_	_	_	_
-27	школу	_	_	_	_	_	_	_	SpaceAfter=No
+27	школу	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Organization
 28	,	_	_	_	_	_	_	_	_
 29	но	_	_	_	_	_	_	_	_
 30	ее	_	_	_	_	_	_	_	bratA14=T54:Male|bratT54=Person

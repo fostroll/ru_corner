@@ -58,7 +58,7 @@
 12	Крашенинников	_	_	_	_	_	_	_	bratA5=T5:Male|bratT35=Person-surname|bratT5=Person
 13	на	_	_	_	_	_	_	_	_
 14	заседании	_	_	_	_	_	_	_	_
-15	парламента	_	_	_	_	_	_	_	SpaceAfter=No
+15	парламента	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
 16	,	_	_	_	_	_	_	_	_
 17	передает	_	_	_	_	_	_	_	_
 18	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Media|bratT9=Organization
@@ -70,7 +70,7 @@
 # text = По словам парламентария, был запущен слух о том, что ``Сириус'' будет отдельным избирательным округом, а также о том, что у него будет свой представитель в Совете Федерации.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	парламентария	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property
+3	парламентария	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T44:Male|bratT10=Person-property|bratT44=Person
 4	,	_	_	_	_	_	_	_	_
 5	был	_	_	_	_	_	_	_	_
 6	запущен	_	_	_	_	_	_	_	_
@@ -214,12 +214,12 @@
 2	ноября	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-absolute
 3	тот	_	_	_	_	_	_	_	_
 4	же	_	_	_	_	_	_	_	_
-5	парламентарий	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
+5	парламентарий	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T45:Male|bratT21=Person-property|bratT45=Person
 6	,	_	_	_	_	_	_	_	_
 7	слова	_	_	_	_	_	_	_	_
 8	которого	_	_	_	_	_	_	_	_
 9	приводило	_	_	_	_	_	_	_	_
-10	агентство	_	_	_	_	_	_	_	_
+10	агентство	_	_	_	_	_	_	_	bratA3=T22:Media|bratT22=Organization
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization
 12	РИА	_	_	_	_	_	_	_	bratA3=T22:Media|bratT22=Organization
 13	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T22:Media|bratT22=Organization
@@ -229,7 +229,7 @@
 17	возможность	_	_	_	_	_	_	_	_
 18	появления	_	_	_	_	_	_	_	_
 19	депутата	_	_	_	_	_	_	_	bratT32=Person-property
-20	Госдумы	_	_	_	_	_	_	_	bratT23=Organization
+20	Госдумы	_	_	_	_	_	_	_	bratT23=Organization|bratT32=Person-property
 21	от	_	_	_	_	_	_	_	_
 22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE
 23	Сириуса	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE
@@ -266,7 +266,7 @@
 7	-	_	_	_	_	_	_	_	_
 8	говорил	_	_	_	_	_	_	_	_
 9	тогда	_	_	_	_	_	_	_	bratA11=T40:Past|bratT40=Date-relative
-10	парламентарий	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
+10	парламентарий	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Male|bratT24=Person-property|bratT46=Person
 11	.	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
 

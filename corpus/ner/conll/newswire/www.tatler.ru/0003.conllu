@@ -33,12 +33,12 @@
 # text = Там главе штаба национальной сборной России по хоккею вручили орден Дружбы.
 1	Там	_	_	_	_	_	_	_	_
 2	главе	_	_	_	_	_	_	_	bratT6=Person-property
-3	штаба	_	_	_	_	_	_	_	bratT6=Person-property
-4	национальной	_	_	_	_	_	_	_	bratA10=T31:Adjective|bratT31=GPE|bratT6=Person-property|bratT7=Organization
-5	сборной	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
-6	России	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization|bratT8=GPE
-7	по	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
-8	хоккею	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+3	штаба	_	_	_	_	_	_	_	bratA11=T34:Department|bratT34=Organization|bratT6=Person-property
+4	национальной	_	_	_	_	_	_	_	bratA10=T31:Adjective|bratA11=T34:Department|bratT31=GPE|bratT34=Organization|bratT6=Person-property|bratT7=Organization
+5	сборной	_	_	_	_	_	_	_	bratA11=T34:Department|bratT34=Organization|bratT6=Person-property|bratT7=Organization
+6	России	_	_	_	_	_	_	_	bratA11=T34:Department|bratT34=Organization|bratT6=Person-property|bratT7=Organization|bratT8=GPE
+7	по	_	_	_	_	_	_	_	bratA11=T34:Department|bratT34=Organization|bratT6=Person-property|bratT7=Organization
+8	хоккею	_	_	_	_	_	_	_	bratA11=T34:Department|bratT34=Organization|bratT6=Person-property|bratT7=Organization
 9	вручили	_	_	_	_	_	_	_	_
 10	орден	_	_	_	_	_	_	_	bratT32=Other-term
 11	Дружбы	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term

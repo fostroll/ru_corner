@@ -53,7 +53,7 @@
 27	18-летнего	_	_	_	_	_	_	_	bratT9=Age
 28	челябинского	_	_	_	_	_	_	_	bratA5=T10:Male|bratA6=T12:Adjective|bratT10=Person|bratT11=Person-property|bratT12=GPE
 29	студента	_	_	_	_	_	_	_	bratA5=T10:Male|bratT10=Person|bratT11=Person-property
-30	колледжа	_	_	_	_	_	_	_	bratA5=T10:Male|bratT10=Person|bratT11=Person-property
+30	колледжа	_	_	_	_	_	_	_	bratA5=T10:Male|bratT10=Person|bratT11=Person-property|bratT53=Organization
 31	Дениса	_	_	_	_	_	_	_	bratA5=T10:Male|bratT10=Person|bratT13=Person-forename
 32	Куценко	_	_	_	_	_	_	_	bratA5=T10:Male|bratT10=Person|bratT14=Person-surname
 33	из-за	_	_	_	_	_	_	_	_
@@ -62,10 +62,10 @@
 36	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Service
 37	''	_	_	_	_	_	_	_	QuotationEnd=»
 38	про	_	_	_	_	_	_	_	_
-39	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-40	массовое	_	_	_	_	_	_	_	_
-41	убийство	_	_	_	_	_	_	_	SpaceAfter=No
-42	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+39	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT60=Event
+40	массовое	_	_	_	_	_	_	_	bratT60=Event
+41	убийство	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event
+42	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT60=Event
 43	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0028-p2-s2
@@ -111,8 +111,8 @@
 21	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 22	23.09.2020	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-absolute
 23	-	_	_	_	_	_	_	_	_
-24	МАССОВОЕ	_	_	_	_	_	_	_	_
-25	УБИЙСТВО	_	_	_	_	_	_	_	_
+24	МАССОВОЕ	_	_	_	_	_	_	_	bratT61=Event
+25	УБИЙСТВО	_	_	_	_	_	_	_	bratT61=Event
 26	!!!.	_	_	_	_	_	_	_	_
 
 # sent_id = 0028-p3-s2
@@ -143,7 +143,7 @@
 24	приготовление	_	_	_	_	_	_	_	_
 25	к	_	_	_	_	_	_	_	_
 26	совершению	_	_	_	_	_	_	_	_
-27	убийства	_	_	_	_	_	_	_	_
+27	убийства	_	_	_	_	_	_	_	bratT62=Event
 28	двух	_	_	_	_	_	_	_	bratT25=Quantity
 29	и	_	_	_	_	_	_	_	bratT25=Quantity
 30	более	_	_	_	_	_	_	_	bratT25=Quantity
@@ -173,8 +173,8 @@
 10	Куценко	_	_	_	_	_	_	_	bratA15=T34:Male|bratT34=Person|bratT35=Person-surname
 11	отправил	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	студенческий	_	_	_	_	_	_	_	_
-14	чат	_	_	_	_	_	_	_	_
+13	студенческий	_	_	_	_	_	_	_	bratA19=T59:Media|bratT59=Service
+14	чат	_	_	_	_	_	_	_	bratA19=T59:Media|bratT59=Service
 15	голосовое	_	_	_	_	_	_	_	_
 16	сообщение	_	_	_	_	_	_	_	_
 17	о	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 22	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 23	хочет	_	_	_	_	_	_	_	_
 24	совершить	_	_	_	_	_	_	_	_
-25	суицид	_	_	_	_	_	_	_	SpaceAfter=No
+25	суицид	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Event
 26	,	_	_	_	_	_	_	_	_
 27	и	_	_	_	_	_	_	_	_
 28	при	_	_	_	_	_	_	_	_
@@ -206,7 +206,7 @@
 5	студента	_	_	_	_	_	_	_	bratT37=Person-property
 6	прямо	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	колледже	_	_	_	_	_	_	_	_
+8	колледже	_	_	_	_	_	_	_	bratT56=Organization
 9	и	_	_	_	_	_	_	_	_
 10	надели	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
@@ -225,9 +225,9 @@
 7	его	_	_	_	_	_	_	_	_
 8	слова	_	_	_	_	_	_	_	_
 9	про	_	_	_	_	_	_	_	_
-10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-11	колумбайн	_	_	_	_	_	_	_	SpaceAfter=No
-12	''	_	_	_	_	_	_	_	QuotationEnd=»
+10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT57=Event
+11	колумбайн	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT57=Event
 13	были	_	_	_	_	_	_	_	_
 14	шуткой	_	_	_	_	_	_	_	SpaceAfter=No
 15	.	_	_	_	_	_	_	_	_

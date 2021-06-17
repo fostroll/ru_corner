@@ -9,7 +9,7 @@
 4	Меган	_	_	_	_	_	_	_	bratA3=T2:Female|bratT17=Person-forename|bratT2=Person
 5	Маркл	_	_	_	_	_	_	_	bratA3=T2:Female|bratT18=Person-surname|bratT2=Person
 6	посетили	_	_	_	_	_	_	_	_
-7	школы	_	_	_	_	_	_	_	_
+7	школы	_	_	_	_	_	_	_	bratT35=Facility
 8	в	_	_	_	_	_	_	_	_
 9	Марокко	_	_	_	_	_	_	_	bratT4=GPE
 
@@ -32,7 +32,7 @@
 13	с	_	_	_	_	_	_	_	_
 14	поездки	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
-16	школы	_	_	_	_	_	_	_	_
+16	школы	_	_	_	_	_	_	_	bratT36=Facility
 17	в	_	_	_	_	_	_	_	_
 18	городе	_	_	_	_	_	_	_	bratT10=GPE
 19	Асни	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=GPE
@@ -44,7 +44,7 @@
 2	познакомилась	_	_	_	_	_	_	_	_
 3	с	_	_	_	_	_	_	_	_
 4	воспитанниками	_	_	_	_	_	_	_	bratT25=Person-property
-5	школ	_	_	_	_	_	_	_	bratT25=Person-property
+5	школ	_	_	_	_	_	_	_	bratT25=Person-property|bratT37=Organization
 6	и	_	_	_	_	_	_	_	_
 7	их	_	_	_	_	_	_	_	_
 8	учителями	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property
@@ -57,7 +57,7 @@
 15	Сассекским	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA8=T27:Adjective|bratT11=Person-property|bratT27=GPE
 16	экскурсию	_	_	_	_	_	_	_	_
 17	по	_	_	_	_	_	_	_	_
-18	школе	_	_	_	_	_	_	_	_
+18	школе	_	_	_	_	_	_	_	bratT38=Facility
 19	и	_	_	_	_	_	_	_	_
 20	классам	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
@@ -69,8 +69,8 @@
 27	в	_	_	_	_	_	_	_	_
 28	пансионате	_	_	_	_	_	_	_	_
 29	проходит	_	_	_	_	_	_	_	_
-30	футбольный	_	_	_	_	_	_	_	_
-31	матч	_	_	_	_	_	_	_	SpaceAfter=No
+30	футбольный	_	_	_	_	_	_	_	bratT39=Event
+31	матч	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Event
 32	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0031-p3
@@ -111,17 +111,17 @@
 6	девочек	_	_	_	_	_	_	_	_
 7	благополучно	_	_	_	_	_	_	_	_
 8	заканчивали	_	_	_	_	_	_	_	_
-9	школу	_	_	_	_	_	_	_	SpaceAfter=No
+9	школу	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
 10	,	_	_	_	_	_	_	_	_
 11	сотрудники	_	_	_	_	_	_	_	bratT32=Person-property
 12	этой	_	_	_	_	_	_	_	_
-13	организации	_	_	_	_	_	_	_	_
+13	организации	_	_	_	_	_	_	_	bratT41=Organization
 14	строят	_	_	_	_	_	_	_	_
-15	дополнительные	_	_	_	_	_	_	_	_
-16	кампусы	_	_	_	_	_	_	_	_
+15	дополнительные	_	_	_	_	_	_	_	bratT42=Facility
+16	кампусы	_	_	_	_	_	_	_	bratT42=Facility
 17	рядом	_	_	_	_	_	_	_	_
 18	со	_	_	_	_	_	_	_	_
-19	школами	_	_	_	_	_	_	_	SpaceAfter=No
+19	школами	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Facility
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0031-p4

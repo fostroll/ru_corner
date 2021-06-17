@@ -70,8 +70,8 @@
 24	участие	_	_	_	_	_	_	_	_
 25	сотрудники	_	_	_	_	_	_	_	bratT6=Person-property
 26	других	_	_	_	_	_	_	_	bratT6=Person-property
-27	отделений	_	_	_	_	_	_	_	bratT6=Person-property
-28	ФСИН	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization|bratT6=Person-property
+27	отделений	_	_	_	_	_	_	_	bratA6=T37:Department|bratT37=Organization|bratT6=Person-property
+28	ФСИН	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T37:Department|bratT37=Organization|bratT5=Organization|bratT6=Person-property
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0002-p2-s3
@@ -152,11 +152,11 @@
 # text = По мнению издания, таким образом ведомства пытаются скрыть реальное количество жалоб на побои и дел, возбужденных в отношении силовиков, в том числе против сотрудников ФСИН.
 1	По	_	_	_	_	_	_	_	_
 2	мнению	_	_	_	_	_	_	_	_
-3	издания	_	_	_	_	_	_	_	SpaceAfter=No
+3	издания	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T38:Media|bratT38=Organization
 4	,	_	_	_	_	_	_	_	_
 5	таким	_	_	_	_	_	_	_	_
 6	образом	_	_	_	_	_	_	_	_
-7	ведомства	_	_	_	_	_	_	_	_
+7	ведомства	_	_	_	_	_	_	_	bratT39=Organization
 8	пытаются	_	_	_	_	_	_	_	_
 9	скрыть	_	_	_	_	_	_	_	_
 10	реальное	_	_	_	_	_	_	_	_

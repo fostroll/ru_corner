@@ -48,10 +48,10 @@
 
 # sent_id = 0100-p2-s3
 # text = Соперник 32-летнего британского спортсмена будет объявлен в скором времени.
-1	Соперник	_	_	_	_	_	_	_	bratT13=Person-property
-2	32-летнего	_	_	_	_	_	_	_	bratT11=Age|bratT13=Person-property
-3	британского	_	_	_	_	_	_	_	bratA9=T44:Adjective|bratT12=Person-property|bratT13=Person-property|bratT44=GPE
-4	спортсмена	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Person-property
+1	Соперник	_	_	_	_	_	_	_	bratA1=T13:Male|bratT13=Person
+2	32-летнего	_	_	_	_	_	_	_	bratA1=T13:Male|bratT11=Age|bratT13=Person
+3	британского	_	_	_	_	_	_	_	bratA1=T13:Male|bratA18=T57:Male|bratA9=T44:Adjective|bratT13=Person|bratT44=GPE|bratT57=Person
+4	спортсмена	_	_	_	_	_	_	_	bratA1=T13:Male|bratA18=T57:Male|bratT13=Person|bratT57=Person
 5	будет	_	_	_	_	_	_	_	_
 6	объявлен	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	bratA10=T14:Future|bratT14=Date-absolute

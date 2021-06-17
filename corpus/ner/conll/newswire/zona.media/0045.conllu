@@ -4,8 +4,8 @@
 # sent_id = 0045-p1-s1
 # text = Создатели детского центра в Чечне после критики Кадырова заменили рисунки с персонажами Marvel на участников Кавказской войны
 1	Создатели	_	_	_	_	_	_	_	bratT8=Person-property
-2	детского	_	_	_	_	_	_	_	bratT9=Organization
-3	центра	_	_	_	_	_	_	_	bratT9=Organization
+2	детского	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Facility
+3	центра	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Facility
 4	в	_	_	_	_	_	_	_	_
 5	Чечне	_	_	_	_	_	_	_	bratT1=GPE
 6	после	_	_	_	_	_	_	_	bratA29=T59:Past|bratT59=Date-absolute
@@ -14,12 +14,12 @@
 9	заменили	_	_	_	_	_	_	_	_
 10	рисунки	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
-12	персонажами	_	_	_	_	_	_	_	bratA31=T78:Fiction|bratT78=Other-group
-13	Marvel	_	_	_	_	_	_	_	bratA3=T6:Media|bratA31=T78:Fiction|bratT6=Organization|bratT78=Other-group
+12	персонажами	_	_	_	_	_	_	_	bratA31=T78:Fiction|bratT78=Person
+13	Marvel	_	_	_	_	_	_	_	bratA3=T6:Media|bratA31=T78:Fiction|bratT6=Organization|bratT78=Person
 14	на	_	_	_	_	_	_	_	_
-15	участников	_	_	_	_	_	_	_	bratT7=Other-group
-16	Кавказской	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratT4=Event|bratT5=Location
-17	войны	_	_	_	_	_	_	_	bratT4=Event
+15	участников	_	_	_	_	_	_	_	bratT7=Person-property
+16	Кавказской	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratT4=Event|bratT5=Location|bratT7=Person-property
+17	войны	_	_	_	_	_	_	_	bratT4=Event|bratT7=Person-property
 
 # newpar id = 0045-p2
 # par_text = В чеченском городе Курчалое создатели детского игрового центра в новом высотном комплексе заменили нарисованных на стенах героев Marvel после критики со стороны главы республики Рамзана Кадырова. Об этом сообщает «Грозный Информ».
@@ -30,19 +30,19 @@
 3	городе	_	_	_	_	_	_	_	bratT11=GPE
 4	Курчалое	_	_	_	_	_	_	_	bratT11=GPE
 5	создатели	_	_	_	_	_	_	_	bratT13=Person-property
-6	детского	_	_	_	_	_	_	_	bratT12=Organization
-7	игрового	_	_	_	_	_	_	_	bratT12=Organization
-8	центра	_	_	_	_	_	_	_	bratT12=Organization
+6	детского	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property
+7	игрового	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property
+8	центра	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property
 9	в	_	_	_	_	_	_	_	_
-10	новом	_	_	_	_	_	_	_	_
-11	высотном	_	_	_	_	_	_	_	_
-12	комплексе	_	_	_	_	_	_	_	_
+10	новом	_	_	_	_	_	_	_	bratT83=Facility
+11	высотном	_	_	_	_	_	_	_	bratT83=Facility
+12	комплексе	_	_	_	_	_	_	_	bratT83=Facility
 13	заменили	_	_	_	_	_	_	_	_
 14	нарисованных	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	стенах	_	_	_	_	_	_	_	_
-17	героев	_	_	_	_	_	_	_	bratA7=T19:Fiction|bratT19=Other-group
-18	Marvel	_	_	_	_	_	_	_	bratA7=T19:Fiction|bratT19=Other-group
+17	героев	_	_	_	_	_	_	_	bratA7=T19:Fiction|bratT19=Person
+18	Marvel	_	_	_	_	_	_	_	bratA34=T84:Media|bratA7=T19:Fiction|bratT19=Person|bratT84=Organization
 19	после	_	_	_	_	_	_	_	bratA30=T75:Past|bratT75=Date-absolute
 20	критики	_	_	_	_	_	_	_	bratA30=T75:Past|bratT75=Date-absolute
 21	со	_	_	_	_	_	_	_	_
@@ -93,9 +93,9 @@
 23	движения	_	_	_	_	_	_	_	bratT34=Person-property
 24	горцев	_	_	_	_	_	_	_	bratT34=Person-property
 25	и	_	_	_	_	_	_	_	_
-26	участников	_	_	_	_	_	_	_	bratT35=Other-group
-27	Кавказской	_	_	_	_	_	_	_	bratA15=T37:Adjective|bratT36=Event|bratT37=Location
-28	войны	_	_	_	_	_	_	_	bratT36=Event
+26	участников	_	_	_	_	_	_	_	bratT35=Person-property
+27	Кавказской	_	_	_	_	_	_	_	bratA15=T37:Adjective|bratT35=Person-property|bratT36=Event|bratT37=Location
+28	войны	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Event
 29	-	_	_	_	_	_	_	_	_
 30	шейха	_	_	_	_	_	_	_	bratA16=T38:Male|bratT38=Person|bratT73=Person-affix
 31	Мансура	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T38:Male|bratT38=Person|bratT39=Person-forename
@@ -159,8 +159,8 @@
 7	красивые	_	_	_	_	_	_	_	_
 8	изображения	_	_	_	_	_	_	_	_
 9	наших	_	_	_	_	_	_	_	_
-10	чеченских	_	_	_	_	_	_	_	bratA21=T52:Adjective|bratT51=Other-group|bratT52=GPE
-11	героев	_	_	_	_	_	_	_	bratT51=Other-group
+10	чеченских	_	_	_	_	_	_	_	bratA21=T52:Adjective|bratT51=Person|bratT52=GPE
+11	героев	_	_	_	_	_	_	_	bratT51=Person
 
 # sent_id = 0045-p5-s2
 # text = Если взять мою семью, то маленькие не знают наших героев.
@@ -234,8 +234,8 @@
 17	,	_	_	_	_	_	_	_	_
 18	что	_	_	_	_	_	_	_	_
 19	замена	_	_	_	_	_	_	_	_
-20	героев	_	_	_	_	_	_	_	bratA25=T68:Fiction|bratT68=Other-group
-21	Marvel	_	_	_	_	_	_	_	bratA25=T68:Fiction|bratA32=T79:Media|bratT68=Other-group|bratT79=Organization
+20	героев	_	_	_	_	_	_	_	bratA25=T68:Fiction|bratT68=Person
+21	Marvel	_	_	_	_	_	_	_	bratA25=T68:Fiction|bratA32=T79:Media|bratT68=Person|bratT79=Organization
 22	на	_	_	_	_	_	_	_	_
 23	портреты	_	_	_	_	_	_	_	_
 24	Кадыровых	_	_	_	_	_	_	_	bratA26=T69:Male|bratT69=Person|bratT70=Person-surname

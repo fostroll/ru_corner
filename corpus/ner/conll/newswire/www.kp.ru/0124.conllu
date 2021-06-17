@@ -5,8 +5,8 @@
 # text = Причина пожара в шахте в Коми: при буровых работах случилось короткое замыкание
 1	Причина	_	_	_	_	_	_	_	_
 2	пожара	_	_	_	_	_	_	_	bratT30=Event
-3	в	_	_	_	_	_	_	_	bratT30=Event
-4	шахте	_	_	_	_	_	_	_	bratT30=Event
+3	в	_	_	_	_	_	_	_	_
+4	шахте	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=GPE
 7	:	_	_	_	_	_	_	_	_
@@ -23,8 +23,8 @@
 # text = Причиной пожара в шахте в Коми, по предварительной информации, стало короткое замыкание, возникшее в пусковом устройстве в ходе проведения буровых работ.
 1	Причиной	_	_	_	_	_	_	_	_
 2	пожара	_	_	_	_	_	_	_	bratT31=Event
-3	в	_	_	_	_	_	_	_	bratT31=Event
-4	шахте	_	_	_	_	_	_	_	bratT31=Event
+3	в	_	_	_	_	_	_	_	_
+4	шахте	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=GPE
 7	,	_	_	_	_	_	_	_	_
@@ -43,8 +43,8 @@
 20	в	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-absolute
 21	ходе	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-absolute
 22	проведения	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-absolute
-23	буровых	_	_	_	_	_	_	_	_
-24	работ	_	_	_	_	_	_	_	SpaceAfter=No
+23	буровых	_	_	_	_	_	_	_	bratT44=Event
+24	работ	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Event
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p2-s2
@@ -89,7 +89,7 @@
 4	информации	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	причиной	_	_	_	_	_	_	_	_
-7	возгорания	_	_	_	_	_	_	_	_
+7	возгорания	_	_	_	_	_	_	_	bratT45=Event
 8	послужило	_	_	_	_	_	_	_	_
 9	короткое	_	_	_	_	_	_	_	_
 10	замыкание	_	_	_	_	_	_	_	_
@@ -98,8 +98,8 @@
 13	устройстве	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	принадлежащем	_	_	_	_	_	_	_	_
-16	подрядной	_	_	_	_	_	_	_	_
-17	организации	_	_	_	_	_	_	_	_
+16	подрядной	_	_	_	_	_	_	_	bratT38=Organization
+17	организации	_	_	_	_	_	_	_	bratT38=Organization
 18	-	_	_	_	_	_	_	_	_
 19	ООО	_	_	_	_	_	_	_	bratT8=Organization
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
@@ -112,10 +112,10 @@
 27	проведении	_	_	_	_	_	_	_	_
 28	ее	_	_	_	_	_	_	_	_
 29	сотрудниками	_	_	_	_	_	_	_	bratT32=Person-property
-30	буровых	_	_	_	_	_	_	_	_
-31	работ	_	_	_	_	_	_	_	_
+30	буровых	_	_	_	_	_	_	_	bratT46=Event
+31	работ	_	_	_	_	_	_	_	bratT46=Event
 32	(	_	_	_	_	_	_	_	SpaceAfter=No
-33	строительстве	_	_	_	_	_	_	_	_
+33	строительстве	_	_	_	_	_	_	_	bratT47=Event
 34	скважин	_	_	_	_	_	_	_	_
 35	уклонного	_	_	_	_	_	_	_	bratT10=Facility
 36	блока	_	_	_	_	_	_	_	bratT10=Facility
@@ -139,7 +139,7 @@
 6	попытались	_	_	_	_	_	_	_	_
 7	самостоятельно	_	_	_	_	_	_	_	_
 8	ликвидировать	_	_	_	_	_	_	_	_
-9	возгорание	_	_	_	_	_	_	_	SpaceAfter=No
+9	возгорание	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 10	,	_	_	_	_	_	_	_	_
 11	но	_	_	_	_	_	_	_	_
 12	после	_	_	_	_	_	_	_	bratA4=T33:Past|bratT33=Date-absolute
@@ -160,16 +160,16 @@
 # sent_id = 0124-p4-s2
 # text = Руководство предприятия приняло решение о незамедлительной эвакуации всех людей из нефтешахты и реализации дальнейших оперативных мер, предусмотренных в Компании в чрезвычайных ситуациях., - говорится в сообщении компании.
 1	Руководство	_	_	_	_	_	_	_	bratA6=T14:Department|bratT14=Organization
-2	предприятия	_	_	_	_	_	_	_	bratA6=T14:Department|bratT14=Organization
+2	предприятия	_	_	_	_	_	_	_	bratA6=T14:Department|bratT14=Organization|bratT39=Organization
 3	приняло	_	_	_	_	_	_	_	_
 4	решение	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	незамедлительной	_	_	_	_	_	_	_	_
-7	эвакуации	_	_	_	_	_	_	_	_
+7	эвакуации	_	_	_	_	_	_	_	bratT49=Event
 8	всех	_	_	_	_	_	_	_	_
 9	людей	_	_	_	_	_	_	_	_
 10	из	_	_	_	_	_	_	_	_
-11	нефтешахты	_	_	_	_	_	_	_	_
+11	нефтешахты	_	_	_	_	_	_	_	bratT50=Facility
 12	и	_	_	_	_	_	_	_	_
 13	реализации	_	_	_	_	_	_	_	_
 14	дальнейших	_	_	_	_	_	_	_	_
@@ -178,17 +178,17 @@
 17	,	_	_	_	_	_	_	_	_
 18	предусмотренных	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
-20	Компании	_	_	_	_	_	_	_	_
+20	Компании	_	_	_	_	_	_	_	bratT40=Organization
 21	в	_	_	_	_	_	_	_	_
-22	чрезвычайных	_	_	_	_	_	_	_	_
-23	ситуациях	_	_	_	_	_	_	_	SpaceAfter=No
+22	чрезвычайных	_	_	_	_	_	_	_	bratT51=Event
+23	ситуациях	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event
 24	.	_	_	_	_	_	_	_	SpaceAfter=No
 25	,	_	_	_	_	_	_	_	_
 26	-	_	_	_	_	_	_	_	_
 27	говорится	_	_	_	_	_	_	_	_
 28	в	_	_	_	_	_	_	_	_
 29	сообщении	_	_	_	_	_	_	_	_
-30	компании	_	_	_	_	_	_	_	SpaceAfter=No
+30	компании	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
 31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p5
@@ -202,14 +202,14 @@
 5	вечером	_	_	_	_	_	_	_	bratA2=T15:Past|bratT15=Date-absolute|bratT28=Time-absolute
 6	случилось	_	_	_	_	_	_	_	_
 7	возгорание	_	_	_	_	_	_	_	bratT34=Event
-8	в	_	_	_	_	_	_	_	bratT34=Event
-9	уклонном	_	_	_	_	_	_	_	bratT34=Event|bratT35=Facility
-10	блоке	_	_	_	_	_	_	_	bratT34=Event|bratT35=Facility
-11	нефтяной	_	_	_	_	_	_	_	bratT18=Facility|bratT34=Event|bratT35=Facility
-12	шахты	_	_	_	_	_	_	_	bratT18=Facility|bratT34=Event|bratT35=Facility
+8	в	_	_	_	_	_	_	_	_
+9	уклонном	_	_	_	_	_	_	_	bratT35=Facility
+10	блоке	_	_	_	_	_	_	_	bratT35=Facility
+11	нефтяной	_	_	_	_	_	_	_	bratT18=Facility|bratT35=Facility
+12	шахты	_	_	_	_	_	_	_	bratT18=Facility|bratT35=Facility
 13-14	№3	_	_	_	_	_	_	_	_
-13	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Ordinal|bratT18=Facility|bratT34=Event|bratT35=Facility
-14	3	_	_	_	_	_	_	_	bratT17=Ordinal|bratT18=Facility|bratT34=Event|bratT35=Facility
+13	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Ordinal|bratT18=Facility|bratT35=Facility
+14	3	_	_	_	_	_	_	_	bratT17=Ordinal|bratT18=Facility|bratT35=Facility
 15	в	_	_	_	_	_	_	_	_
 16	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=GPE
 17	.	_	_	_	_	_	_	_	_
@@ -218,7 +218,7 @@
 # text = В момент ЧП на аварийном участке находились 82 горняка.
 1	В	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute
 2	момент	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute
-3	ЧП	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute
+3	ЧП	_	_	_	_	_	_	_	bratA5=T29:Past|bratT29=Date-absolute|bratT42=Event
 4	на	_	_	_	_	_	_	_	_
 5	аварийном	_	_	_	_	_	_	_	_
 6	участке	_	_	_	_	_	_	_	_
@@ -263,7 +263,7 @@
 4	организовал	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
 6	факту	_	_	_	_	_	_	_	_
-7	пожара	_	_	_	_	_	_	_	_
+7	пожара	_	_	_	_	_	_	_	bratT43=Event
 8	доследственную	_	_	_	_	_	_	_	_
 9	проверку	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_

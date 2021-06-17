@@ -9,7 +9,7 @@
 4	семерых	_	_	_	_	_	_	_	bratT3=Quantity
 5	сотрудников	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Quantity
 6	университета	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization
-7	МВД	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization
+7	МВД	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization|bratT67=Organization
 8	по	_	_	_	_	_	_	_	_
 9	делу	_	_	_	_	_	_	_	bratT66=Event
 10	о	_	_	_	_	_	_	_	_
@@ -35,7 +35,7 @@
 13	филиала	_	_	_	_	_	_	_	bratT10=Organization|bratT9=Person-property
 14	Краснодарского	_	_	_	_	_	_	_	bratA4=T12:Adjective|bratT10=Organization|bratT11=Organization|bratT12=GPE|bratT9=Person-property
 15	университета	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Organization|bratT9=Person-property
-16	МВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT11=Organization|bratT9=Person-property
+16	МВД	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT11=Organization|bratT69=Organization|bratT9=Person-property
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0009-p2-s2
@@ -119,7 +119,7 @@
 # text = Преподавателей университета МВД 12 августа задержали бойцы СОБР Нацгвардии.
 1	Преподавателей	_	_	_	_	_	_	_	bratT26=Person-property
 2	университета	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization
-3	МВД	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization
+3	МВД	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization|bratT75=Organization
 4	12	_	_	_	_	_	_	_	bratA21=T28:Past|bratT28=Date-absolute
 5	августа	_	_	_	_	_	_	_	bratA21=T28:Past|bratT28=Date-absolute
 6	задержали	_	_	_	_	_	_	_	_

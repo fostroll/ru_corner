@@ -50,7 +50,7 @@
 8	ссылкой	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	представителя	_	_	_	_	_	_	_	bratT64=Person|bratT8=Person-property
-11	клуба	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Person|bratT8=Person-property
+11	клуба	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Person|bratT68=Organization|bratT8=Person-property
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0023-p3
@@ -84,8 +84,8 @@
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	для	_	_	_	_	_	_	_	_
-4	профессиональных	_	_	_	_	_	_	_	_
-5	клубов	_	_	_	_	_	_	_	_
+4	профессиональных	_	_	_	_	_	_	_	bratT69=Organization
+5	клубов	_	_	_	_	_	_	_	bratT69=Organization
 6	пообещали	_	_	_	_	_	_	_	_
 7	сделать	_	_	_	_	_	_	_	_
 8	исключение	_	_	_	_	_	_	_	SpaceAfter=No
@@ -96,7 +96,7 @@
 # sent_id = 0023-p4-s1
 # text = ``Клуб находится в диалоге с правительством Санкт-Петербурга, сейчас для всех главное - это здоровье граждан.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Клуб	_	_	_	_	_	_	_	_
+2	Клуб	_	_	_	_	_	_	_	bratT70=Organization
 3	находится	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	диалоге	_	_	_	_	_	_	_	_
@@ -155,12 +155,12 @@
 2	данный	_	_	_	_	_	_	_	bratA8=T22:Present|bratT22=Date-absolute|bratT58=Ordinal
 3	момент	_	_	_	_	_	_	_	bratA8=T22:Present|bratT22=Date-absolute
 4	в	_	_	_	_	_	_	_	_
-5	Российской	_	_	_	_	_	_	_	bratA9=T46:Adjective|bratT23=Organization|bratT46=GPE
-6	премьер-лиге	_	_	_	_	_	_	_	bratT23=Organization
+5	Российской	_	_	_	_	_	_	_	bratA9=T46:Adjective|bratT23=Event|bratT46=GPE
+6	премьер-лиге	_	_	_	_	_	_	_	bratT23=Event
 7	(	_	_	_	_	_	_	_	SpaceAfter=No
-8	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+8	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Event
 9	)	_	_	_	_	_	_	_	_
-10	клубам	_	_	_	_	_	_	_	_
+10	клубам	_	_	_	_	_	_	_	bratT71=Organization
 11	разрешено	_	_	_	_	_	_	_	_
 12	заполнять	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
@@ -253,9 +253,9 @@
 4	тура	_	_	_	_	_	_	_	bratT40=Event
 5	чемпионата	_	_	_	_	_	_	_	bratT39=Event|bratT40=Event
 6	России	_	_	_	_	_	_	_	bratT38=GPE|bratT39=Event|bratT40=Event
-7	команда	_	_	_	_	_	_	_	_
-8	Сергея	_	_	_	_	_	_	_	bratA14=T41:Male|bratT41=Person|bratT49=Person-forename
-9	Семака	_	_	_	_	_	_	_	bratA14=T41:Male|bratT41=Person|bratT50=Person-surname
+7	команда	_	_	_	_	_	_	_	bratT60=Organization
+8	Сергея	_	_	_	_	_	_	_	bratA14=T41:Male|bratT41=Person|bratT49=Person-forename|bratT60=Organization
+9	Семака	_	_	_	_	_	_	_	bratA14=T41:Male|bratT41=Person|bratT50=Person-surname|bratT60=Organization
 10	примет	_	_	_	_	_	_	_	_
 11	екатеринбургский	_	_	_	_	_	_	_	bratA15=T51:Adjective|bratT42=Organization|bratT51=GPE
 12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization

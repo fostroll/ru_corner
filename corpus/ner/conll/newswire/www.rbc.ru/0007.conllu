@@ -14,7 +14,7 @@
 9	и	_	_	_	_	_	_	_	_
 10	Ташаева	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person|bratT45=Person-surname
 11	в	_	_	_	_	_	_	_	_
-12	клубе	_	_	_	_	_	_	_	_
+12	клубе	_	_	_	_	_	_	_	bratT85=Organization
 
 # newpar id = 0007-p2
 # par_text = Генеральный директор московского «Спартака» Шамиль Газизов в интервью изданию «Чемпионат» заявил, что клуб может отдать в аренду полузащитников Аяза Гулиева и Александра Ташаева, которые в нынешнем сезоне играют за вторую команду клуба.
@@ -37,7 +37,7 @@
 15	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 16	,	_	_	_	_	_	_	_	_
 17	что	_	_	_	_	_	_	_	_
-18	клуб	_	_	_	_	_	_	_	_
+18	клуб	_	_	_	_	_	_	_	bratT86=Organization
 19	может	_	_	_	_	_	_	_	_
 20	отдать	_	_	_	_	_	_	_	_
 21	в	_	_	_	_	_	_	_	_
@@ -55,9 +55,9 @@
 33	сезоне	_	_	_	_	_	_	_	bratA8=T11:Past-Fut|bratT11=Date-period-absolute|bratT75=Event
 34	играют	_	_	_	_	_	_	_	_
 35	за	_	_	_	_	_	_	_	_
-36	вторую	_	_	_	_	_	_	_	bratT12=Ordinal
-37	команду	_	_	_	_	_	_	_	_
-38	клуба	_	_	_	_	_	_	_	SpaceAfter=No
+36	вторую	_	_	_	_	_	_	_	bratT12=Ordinal|bratT83=Organization
+37	команду	_	_	_	_	_	_	_	bratT83=Organization
+38	клуба	_	_	_	_	_	_	_	SpaceAfter=No|bratT83=Organization|bratT84=Organization
 39	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0007-p3
@@ -155,8 +155,8 @@
 1	Причину	_	_	_	_	_	_	_	_
 2	этого	_	_	_	_	_	_	_	_
 3	решения	_	_	_	_	_	_	_	_
-4	столичный	_	_	_	_	_	_	_	bratA18=T61:Adjective|bratT61=GPE
-5	клуб	_	_	_	_	_	_	_	_
+4	столичный	_	_	_	_	_	_	_	bratA18=T61:Adjective|bratT61=GPE|bratT87=Organization
+5	клуб	_	_	_	_	_	_	_	bratT87=Organization
 6	не	_	_	_	_	_	_	_	_
 7	уточнил	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_

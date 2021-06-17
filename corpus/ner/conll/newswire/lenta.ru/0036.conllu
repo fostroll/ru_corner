@@ -112,7 +112,7 @@
 29	,	_	_	_	_	_	_	_	_
 30	предупредила	_	_	_	_	_	_	_	_
 31	представитель	_	_	_	_	_	_	_	bratA10=T42:Female|bratT27=Person-property|bratT42=Person
-32	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T42:Female|bratT27=Person-property|bratT42=Person
+32	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T42:Female|bratT27=Person-property|bratT42=Person|bratT46=Organization
 33	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0036-p4
@@ -227,7 +227,7 @@
 # sent_id = 0036-p5-s4
 # text = Власти страны опасаются, что новая мутация коронавируса может распространиться не только по стране, но и по миру.
 1	Власти	_	_	_	_	_	_	_	bratT45=Organization
-2	страны	_	_	_	_	_	_	_	bratT45=Organization
+2	страны	_	_	_	_	_	_	_	bratT45=Organization|bratT47=GPE
 3	опасаются	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -239,7 +239,7 @@
 11	не	_	_	_	_	_	_	_	_
 12	только	_	_	_	_	_	_	_	_
 13	по	_	_	_	_	_	_	_	_
-14	стране	_	_	_	_	_	_	_	SpaceAfter=No
+14	стране	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=GPE
 15	,	_	_	_	_	_	_	_	_
 16	но	_	_	_	_	_	_	_	_
 17	и	_	_	_	_	_	_	_	_
@@ -276,7 +276,7 @@
 4	заражения	_	_	_	_	_	_	_	bratT41=Event
 5	коронавирусом	_	_	_	_	_	_	_	bratT25=Other-term|bratT41=Event
 6	в	_	_	_	_	_	_	_	_
-7	стране	_	_	_	_	_	_	_	_
+7	стране	_	_	_	_	_	_	_	bratT49=GPE
 8	превысило	_	_	_	_	_	_	_	_
 9	50	_	_	_	_	_	_	_	bratT26=Quantity
 10	тысяч	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity

@@ -28,14 +28,13 @@ T26	Person 1093 1110	Михаил   Ширвиндт
 T27	Organization 1113 1117	ТАСС
 A3	Media T27
 T28	Person-property 1177 1183	артист
-T29	Person-property 1240 1258	Ширвиндта-младшего
-T30	Organization 1486 1501	Театра   сатиры
-T31	Person-property 1475 1501	Директор   Театра   сатиры
-T32	Organization 1535 1538	РБК
+T30	Organization 1488 1503	Театра   сатиры
+T31	Person-property 1477 1503	Директор   Театра   сатиры
+T32	Organization 1537 1540	РБК
 A4	Media T32
-T33	Person 1551 1560	Ширвиндта
-T34	Date-absolute 1578 1589	к   пятнице
-T35	Date-absolute 1598 1614	к   понедельнику
+T33	Person 1553 1562	Ширвиндта
+T34	Date-absolute 1580 1591	к   пятнице
+T35	Date-absolute 1600 1616	к   понедельнику
 T36	Quantity 375 380	обоих
 T37	Date-relative 1135 1140	ранее
 A5	Male T1
@@ -62,9 +61,9 @@ A13	Male T26
 T50	Person-forename 1093 1099	Михаил
 T51	Person-surname 1102 1110	Ширвиндт
 A14	Past T37
-T52	Person-surname 1551 1560	Ширвиндта
+T52	Person-surname 1553 1562	Ширвиндта
 A15	Male T33
-T53	Family 1345 1349	папа
+T53	Family 1347 1351	папа
 A16	Future T34
 A17	Future T35
 T55	Person 27 37	его   жена
@@ -74,3 +73,11 @@ A19	Female T56
 T54	Organization 52 60	больницу
 T57	Organization 274 280	театра
 T58	Organization 797 805	больницу
+T59	Organization 1129 1132	СМИ
+A2	Media T59
+T60	Organization 1365 1376	поликлинику
+T29	Person 1240 1260	Ширвиндта - младшего
+T61	Person-surname 1240 1249	Ширвиндта
+T62	Person-affix 1252 1260	младшего
+T63	Organization 1310 1325	желтой   прессы
+A20	Media T63

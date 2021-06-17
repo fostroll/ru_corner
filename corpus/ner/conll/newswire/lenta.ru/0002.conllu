@@ -219,8 +219,8 @@
 11	пациентами	_	_	_	_	_	_	_	bratT62=Person
 12	к	_	_	_	_	_	_	_	_
 13	зданию	_	_	_	_	_	_	_	bratT25=Facility
-14	регионального	_	_	_	_	_	_	_	bratT25=Facility
-15	Минздрава	_	_	_	_	_	_	_	bratT25=Facility
+14	регионального	_	_	_	_	_	_	_	bratT25=Facility|bratT61=GPE|bratT64=Organization
+15	Минздрава	_	_	_	_	_	_	_	bratT25=Facility|bratT64=Organization
 16	из-за	_	_	_	_	_	_	_	_
 17	отказа	_	_	_	_	_	_	_	_
 18	стационаров	_	_	_	_	_	_	_	_
@@ -240,11 +240,11 @@
 1	После	_	_	_	_	_	_	_	bratA8=T37:Past|bratT37=Date-relative
 2	случившегося	_	_	_	_	_	_	_	bratA8=T37:Past|bratT37=Date-relative
 3	глава	_	_	_	_	_	_	_	bratA19=T58:Male|bratT34=Person-property|bratT58=Person
-4	региона	_	_	_	_	_	_	_	bratA19=T58:Male|bratT34=Person-property|bratT58=Person
+4	региона	_	_	_	_	_	_	_	bratA19=T58:Male|bratT34=Person-property|bratT58=Person|bratT65=GPE
 5	временно	_	_	_	_	_	_	_	_
 6	отстранил	_	_	_	_	_	_	_	_
 7	от	_	_	_	_	_	_	_	_
-8	должности	_	_	_	_	_	_	_	bratT61=Person-property
+8	должности	_	_	_	_	_	_	_	_
 9	замминистра	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person
 10	здравоохранения	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person
 11	региона	_	_	_	_	_	_	_	bratA15=T36:Male|bratT28=Person-property|bratT36=Person|bratT63=GPE

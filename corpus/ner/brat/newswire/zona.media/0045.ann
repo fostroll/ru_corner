@@ -6,14 +6,14 @@ T4	Event 139 157	Кавказской   войны
 T5	Location 139 149	Кавказской
 A2	Adjective T5
 T6	Organization 112 118	Marvel
-T7	Other-group 126 136	участников
-T8	Person-property 0 9	Создатели
-T9	Organization 12 29	детского   центра
+T7	Person-property 126 157	участников   Кавказской   войны
+T8	Person-property 0 29	Создатели   детского   центра
+T9	Facility 12 29	детского   центра
 T10	GPE 163 172	чеченском
 A4	Adjective T10
 T11	GPE 163 192	чеченском   городе   Курчалое
-T12	Organization 207 235	детского   игрового   центра
-T13	Person-property 195 204	создатели
+T12	Facility 207 235	детского   игрового   центра
+T13	Person-property 195 235	создатели   детского   игрового   центра
 T14	Person 364 403	главы   республики   Рамзана   Кадырова
 A5	Male T14
 T15	Person-property 364 382	главы   республики
@@ -21,7 +21,7 @@ T16	Person-forename 385 392	Рамзана
 T17	Person-surname 395 403	Кадырова
 T18	Organization 431 457	``   Грозный   Информ   ''
 A6	Media T18
-T19	Other-group 313 328	героев   Marvel
+T19	Person 313 328	героев   Marvel
 A7	Fiction T19
 T20	Person 463 481	Капитана   Америку
 A8	Fiction T20
@@ -41,7 +41,7 @@ T31	GPE 593 598	Чечни
 T32	Person-forename 601 613	Ахмата-Хаджи
 T33	Person-surname 616 624	Кадырова
 T34	Person-property 635 689	лидеров   народно-освободительного   движения   горцев
-T35	Other-group 696 706	участников
+T35	Person-property 696 727	участников   Кавказской   войны
 T36	Event 709 727	Кавказской   войны
 T37	Location 709 719	Кавказской
 A15	Adjective T37
@@ -63,7 +63,7 @@ T48	Person-surname 930 937	Кадыров
 T49	Date-absolute 986 997	16   ноября
 A20	Past T49
 T50	Date-absolute 1074 1081	Сегодня
-T51	Other-group 1141 1159	чеченских   героев
+T51	Person 1141 1159	чеченских   героев
 T52	GPE 1141 1150	чеченских
 A21	Adjective T52
 T53	Other-group 1052 1058	героев
@@ -83,7 +83,7 @@ T65	Date-absolute 1557 1572	после   критики
 T66	Person 1575 1583	Кадырова
 A24	Male T66
 T67	Person-surname 1575 1583	Кадырова
-T68	Other-group 1615 1630	героев   Marvel
+T68	Person 1615 1630	героев   Marvel
 A25	Fiction T68
 T69	Person 1649 1658	Кадыровых
 A26	Male T69
@@ -104,7 +104,7 @@ T75	Date-absolute 331 346	после   критики
 A30	Past T75
 T76	Family 1181 1186	семью
 T77	Event 1428 1445	замены   рисунков
-T78	Other-group 98 118	персонажами   Marvel
+T78	Person 98 118	персонажами   Marvel
 A31	Fiction T78
 T79	Organization 1624 1630	Marvel
 A3	Media T6
@@ -113,3 +113,6 @@ T80	Date-absolute 940 962	во   время   инспекции
 A33	Past T80
 T81	Age 1198 1207	маленькие
 T82	GPE 372 382	республики
+T83	Facility 242 270	новом   высотном   комплексе
+T84	Organization 322 328	Marvel
+A34	Media T84

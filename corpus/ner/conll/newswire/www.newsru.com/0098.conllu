@@ -74,7 +74,7 @@
 20	Байденом	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T18:Male|bratT18=Person|bratT59=Person-surname
 21	,	_	_	_	_	_	_	_	_
 22	которые	_	_	_	_	_	_	_	_
-23	СМИ	_	_	_	_	_	_	_	_
+23	СМИ	_	_	_	_	_	_	_	bratA21=T73:Media|bratT73=Organization
 24	назвали	_	_	_	_	_	_	_	_
 25	худшими	_	_	_	_	_	_	_	_
 26	в	_	_	_	_	_	_	_	_
@@ -111,7 +111,7 @@
 
 # sent_id = 0098-p3-s2
 # text = Комиссия внимательно изучит изменения, которые предстоит принять, и вскоре объявит об этих мерах'', - говорится на сайте CPD.
-1	Комиссия	_	_	_	_	_	_	_	_
+1	Комиссия	_	_	_	_	_	_	_	bratT74=Organization
 2	внимательно	_	_	_	_	_	_	_	_
 3	изучит	_	_	_	_	_	_	_	_
 4	изменения	_	_	_	_	_	_	_	SpaceAfter=No
@@ -139,7 +139,7 @@
 # text = При этом комиссия поблагодарила за профессионализм модератора первых дебатов журналиста телеканала Fox News Криса Уоллеса.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	комиссия	_	_	_	_	_	_	_	_
+3	комиссия	_	_	_	_	_	_	_	bratT75=Organization
 4	поблагодарила	_	_	_	_	_	_	_	_
 5	за	_	_	_	_	_	_	_	_
 6	профессионализм	_	_	_	_	_	_	_	_
@@ -147,9 +147,9 @@
 8	первых	_	_	_	_	_	_	_	bratA9=T28:Male|bratT23=Person-property|bratT24=Ordinal|bratT25=Event|bratT28=Person
 9	дебатов	_	_	_	_	_	_	_	bratA9=T28:Male|bratT23=Person-property|bratT25=Event|bratT28=Person
 10	журналиста	_	_	_	_	_	_	_	bratA9=T28:Male|bratT27=Person-property|bratT28=Person
-11	телеканала	_	_	_	_	_	_	_	bratA9=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
-12	Fox	_	_	_	_	_	_	_	bratA9=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
-13	News	_	_	_	_	_	_	_	bratA9=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
+11	телеканала	_	_	_	_	_	_	_	bratA23=T26:Media|bratA9=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
+12	Fox	_	_	_	_	_	_	_	bratA23=T26:Media|bratA9=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
+13	News	_	_	_	_	_	_	_	bratA23=T26:Media|bratA9=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
 14	Криса	_	_	_	_	_	_	_	bratA9=T28:Male|bratT28=Person|bratT62=Person-forename
 15	Уоллеса	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Male|bratT28=Person|bratT63=Person-surname
 16	.	_	_	_	_	_	_	_	_
@@ -160,8 +160,8 @@
 # text = По данным телеканала CBS, модераторам дебатов позволят отключать микрофоны кандидатов, если они будут нарушать заранее установленные правила.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	телеканала	_	_	_	_	_	_	_	bratT29=Organization
-4	CBS	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+3	телеканала	_	_	_	_	_	_	_	bratA24=T29:Media|bratT29=Organization
+4	CBS	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T29:Media|bratT29=Organization
 5	,	_	_	_	_	_	_	_	_
 6	модераторам	_	_	_	_	_	_	_	bratT31=Person-property
 7	дебатов	_	_	_	_	_	_	_	bratT30=Event|bratT31=Person-property
@@ -226,11 +226,11 @@
 9	Майком	_	_	_	_	_	_	_	bratA16=T47:Male|bratT47=Person|bratT67=Person-forename
 10	Пенсом	_	_	_	_	_	_	_	bratA16=T47:Male|bratT47=Person|bratT68=Person-surname
 11	и	_	_	_	_	_	_	_	_
-12	его	_	_	_	_	_	_	_	_
-13	соперницей	_	_	_	_	_	_	_	bratA18=T52:Female|bratT50=Person-property|bratT52=Person
-14	из	_	_	_	_	_	_	_	bratA18=T52:Female|bratT50=Person-property|bratT52=Person
-15	команды	_	_	_	_	_	_	_	bratA18=T52:Female|bratT49=Organization|bratT50=Person-property|bratT52=Person
-16	Байдена	_	_	_	_	_	_	_	bratA17=T48:Male|bratA18=T52:Female|bratT48=Person|bratT49=Organization|bratT50=Person-property|bratT52=Person|bratT69=Person-surname
+12	его	_	_	_	_	_	_	_	bratA18=T52:Female|bratT52=Person
+13	соперницей	_	_	_	_	_	_	_	bratA18=T52:Female|bratT52=Person
+14	из	_	_	_	_	_	_	_	bratA18=T52:Female|bratT52=Person
+15	команды	_	_	_	_	_	_	_	bratA18=T52:Female|bratT49=Organization|bratT52=Person
+16	Байдена	_	_	_	_	_	_	_	bratA17=T48:Male|bratA18=T52:Female|bratT48=Person|bratT49=Organization|bratT52=Person|bratT69=Person-surname
 17	сенатором	_	_	_	_	_	_	_	bratA18=T52:Female|bratT51=Person-property|bratT52=Person
 18	Камалой	_	_	_	_	_	_	_	bratA18=T52:Female|bratT52=Person|bratT70=Person-forename
 19	Харрис	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T52:Female|bratT52=Person|bratT71=Person-surname

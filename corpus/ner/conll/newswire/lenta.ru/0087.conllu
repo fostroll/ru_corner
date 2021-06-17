@@ -162,7 +162,7 @@
 40	отмечается	_	_	_	_	_	_	_	_
 41	в	_	_	_	_	_	_	_	_
 42	сообщении	_	_	_	_	_	_	_	_
-43	организации	_	_	_	_	_	_	_	SpaceAfter=No
+43	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Organization
 44	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0087-p5
@@ -203,7 +203,7 @@
 # text = Всего в стране с начала пандемии заразились 10,2 миллиона человек, скончались более 239 тысяч заболевших.
 1	Всего	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
-3	стране	_	_	_	_	_	_	_	_
+3	стране	_	_	_	_	_	_	_	bratT72=GPE
 4	с	_	_	_	_	_	_	_	bratA9=T42:Past-Pres|bratT42=Date-period-absolute
 5	начала	_	_	_	_	_	_	_	bratA9=T42:Past-Pres|bratT42=Date-period-absolute
 6	пандемии	_	_	_	_	_	_	_	bratA9=T42:Past-Pres|bratT29=Event|bratT42=Date-period-absolute
@@ -236,8 +236,8 @@
 3	данным	_	_	_	_	_	_	_	_
 4	проекта	_	_	_	_	_	_	_	_
 5	Университета	_	_	_	_	_	_	_	bratT32=Organization
-6	Джонса	_	_	_	_	_	_	_	bratT32=Organization
-7	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+6	Джонса	_	_	_	_	_	_	_	bratA15=T69:Male|bratT32=Organization|bratT69=Person|bratT70=Person-forename
+7	Хопкинса	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T69:Male|bratT32=Organization|bratT69=Person|bratT71=Person-surname
 8	,	_	_	_	_	_	_	_	_
 9	число	_	_	_	_	_	_	_	_
 10	заражений	_	_	_	_	_	_	_	bratT58=Event

@@ -63,7 +63,7 @@ T55	Event 1933 1939	смерти
 T5	Cardinal 562 564	19
 T35	Cardinal 1355 1358	161
 T6	Cardinal 634 637	161
-T50	Person 1337 1347	собеседник
+T50	Person 1337 1368	собеседник   ``   161 . ру   ''
 A14	Male T50
 T51	Person-property 1374 1420	Сотрудники   так   называемой   красной   зоны
 T52	Person 1374 1420	Сотрудники   так   называемой   красной   зоны
@@ -71,3 +71,11 @@ T56	Person 670 678	источник
 T57	Web-address 634 642	161 . ру
 T58	Web-address 1355 1363	161 . ру
 T59	Organization 2001 2009	больнице
+T60	Organization 960 967	издания
+A15	Media T60
+T61	Person 946 967	собеседника   издания
+A16	Male T61
+T62	Organization 152 155	СМИ
+A17	Media T62
+T63	GPE 774 783	городской
+T64	GPE 1792 1805	регионального

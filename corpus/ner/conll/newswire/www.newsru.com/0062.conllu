@@ -37,8 +37,8 @@
 13	главным	_	_	_	_	_	_	_	bratT14=Person-property
 14	кремлевским	_	_	_	_	_	_	_	bratT14=Person-property
 15	куратором	_	_	_	_	_	_	_	bratT14=Person-property
-16	российских	_	_	_	_	_	_	_	bratA3=T44:Adjective|bratT14=Person-property|bratT44=GPE
-17	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property
+16	российских	_	_	_	_	_	_	_	bratA17=T58:Media|bratA3=T44:Adjective|bratT14=Person-property|bratT44=GPE|bratT58=Organization
+17	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T58:Media|bratT14=Person-property|bratT58=Organization
 18	,	_	_	_	_	_	_	_	_
 19	владеет	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
@@ -76,8 +76,8 @@
 6	в	_	_	_	_	_	_	_	_
 7	ЖК	_	_	_	_	_	_	_	bratT21=Facility
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Facility
-9	Лаврушинский	_	_	_	_	_	_	_	bratT21=Facility
-10	11	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Facility|bratT46=Ordinal
+9	Лаврушинский	_	_	_	_	_	_	_	bratT21=Facility|bratT59=Address
+10	11	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Facility|bratT46=Ordinal|bratT59=Address
 11	''	_	_	_	_	_	_	_	bratT21=Facility
 12	в	_	_	_	_	_	_	_	_
 13	центре	_	_	_	_	_	_	_	_

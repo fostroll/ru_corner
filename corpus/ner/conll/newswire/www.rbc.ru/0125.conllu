@@ -24,11 +24,11 @@
 7	число	_	_	_	_	_	_	_	_
 8	увольнений	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	предприятиях	_	_	_	_	_	_	_	_
-11	малого	_	_	_	_	_	_	_	_
-12	и	_	_	_	_	_	_	_	_
-13	среднего	_	_	_	_	_	_	_	_
-14	бизнеса	_	_	_	_	_	_	_	SpaceAfter=No
+10	предприятиях	_	_	_	_	_	_	_	bratA14=T42:Plural|bratT42=Organization
+11	малого	_	_	_	_	_	_	_	bratA14=T42:Plural|bratT42=Organization
+12	и	_	_	_	_	_	_	_	bratA14=T42:Plural|bratT42=Organization
+13	среднего	_	_	_	_	_	_	_	bratA14=T42:Plural|bratT42=Organization
+14	бизнеса	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T42:Plural|bratT42=Organization
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0125-p2-s2
@@ -57,7 +57,7 @@
 # text = Результаты исследования компании есть у РБК.
 1	Результаты	_	_	_	_	_	_	_	_
 2	исследования	_	_	_	_	_	_	_	_
-3	компании	_	_	_	_	_	_	_	_
+3	компании	_	_	_	_	_	_	_	bratT54=Organization
 4	есть	_	_	_	_	_	_	_	_
 5	у	_	_	_	_	_	_	_	_
 6	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Media|bratT8=Organization
@@ -83,7 +83,7 @@
 13	%	_	_	_	_	_	_	_	bratT11=Percent
 14	сотрудников	_	_	_	_	_	_	_	bratT12=Person-property
 15	исследованных	_	_	_	_	_	_	_	_
-16	компаний	_	_	_	_	_	_	_	SpaceAfter=No
+16	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Organization
 17	,	_	_	_	_	_	_	_	_
 18	а	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
@@ -163,7 +163,7 @@
 9	более	_	_	_	_	_	_	_	bratT28=Quantity
 10	4	_	_	_	_	_	_	_	bratT28=Quantity
 11	тыс.	_	_	_	_	_	_	_	bratT28=Quantity
-12	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Quantity
+12	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Quantity|bratT55=Organization
 13	,	_	_	_	_	_	_	_	_
 14	сотрудниками	_	_	_	_	_	_	_	bratT29=Person-property
 15	которых	_	_	_	_	_	_	_	_
@@ -238,7 +238,7 @@
 16	участвовавших	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
 18	исследовании	_	_	_	_	_	_	_	_
-19	компаний	_	_	_	_	_	_	_	SpaceAfter=No
+19	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Organization
 20	,	_	_	_	_	_	_	_	_
 21	то	_	_	_	_	_	_	_	_
 22	с	_	_	_	_	_	_	_	bratA15=T44:Past|bratT44=Date-period-absolute

@@ -245,7 +245,7 @@
 # sent_id = 0121-p7-s1
 # text = Позднее компания объявила, что запуск в России стал самым успешным за всю историю существования аудиосервиса.
 1	Позднее	_	_	_	_	_	_	_	bratA10=T50:Past|bratT50=Date-relative
-2	компания	_	_	_	_	_	_	_	_
+2	компания	_	_	_	_	_	_	_	bratT28=Organization
 3	объявила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -259,6 +259,6 @@
 13	всю	_	_	_	_	_	_	_	bratA11=T52:Past|bratT52=Date-period-absolute
 14	историю	_	_	_	_	_	_	_	bratA11=T52:Past|bratT52=Date-period-absolute
 15	существования	_	_	_	_	_	_	_	bratA11=T52:Past|bratT52=Date-period-absolute
-16	аудиосервиса	_	_	_	_	_	_	_	SpaceAfter=No
+16	аудиосервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Service
 17	.	_	_	_	_	_	_	_	_
 

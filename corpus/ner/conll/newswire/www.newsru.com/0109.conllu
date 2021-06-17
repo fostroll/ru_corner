@@ -85,11 +85,11 @@
 # text = Как заявил пресс-службе клуба штатный врач команды Игорь Черненко, распространение инфекции началось с ассистента главного тренера Павла Дергачева, затем заболел Сергей Митусов.
 1	Как	_	_	_	_	_	_	_	_
 2	заявил	_	_	_	_	_	_	_	_
-3	пресс-службе	_	_	_	_	_	_	_	bratA1=T36:Media|bratT36=Organization
-4	клуба	_	_	_	_	_	_	_	bratA1=T36:Media|bratT36=Organization
+3	пресс-службе	_	_	_	_	_	_	_	bratA1=T36:Department|bratT36=Organization
+4	клуба	_	_	_	_	_	_	_	bratA1=T36:Department|bratT36=Organization|bratT67=Organization
 5	штатный	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT15=Person-property
 6	врач	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT15=Person-property
-7	команды	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT15=Person-property
+7	команды	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT15=Person-property|bratT68=Organization
 8	Игорь	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT51=Person-forename
 9	Черненко	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T14:Male|bratT14=Person|bratT52=Person-surname
 10	,	_	_	_	_	_	_	_	_
@@ -216,9 +216,9 @@
 3	что	_	_	_	_	_	_	_	_
 4	предыдущий	_	_	_	_	_	_	_	bratT39=Ordinal|bratT63=Event
 5	сезон	_	_	_	_	_	_	_	bratT63=Event
-6	Единой	_	_	_	_	_	_	_	bratT40=Organization|bratT63=Event
-7	лиги	_	_	_	_	_	_	_	bratT40=Organization|bratT63=Event
-8	ВТБ	_	_	_	_	_	_	_	bratT31=Organization|bratT40=Organization|bratT63=Event
+6	Единой	_	_	_	_	_	_	_	bratT40=Event|bratT63=Event
+7	лиги	_	_	_	_	_	_	_	bratT40=Event|bratT63=Event
+8	ВТБ	_	_	_	_	_	_	_	bratT31=Organization|bratT40=Event|bratT63=Event
 9	был	_	_	_	_	_	_	_	_
 10	завершен	_	_	_	_	_	_	_	_
 11	досрочно	_	_	_	_	_	_	_	_

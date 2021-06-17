@@ -18,10 +18,10 @@
 13	по	_	_	_	_	_	_	_	_
 14	делу	_	_	_	_	_	_	_	bratT50=Event
 15	о	_	_	_	_	_	_	_	_
-16	``	_	_	_	_	_	_	_	SpaceAfter=No
-17	нежелательной	_	_	_	_	_	_	_	_
-18	организации	_	_	_	_	_	_	_	SpaceAfter=No
-19	''	_	_	_	_	_	_	_	_
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Organization
+17	нежелательной	_	_	_	_	_	_	_	bratT53=Organization
+18	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Organization
+19	''	_	_	_	_	_	_	_	bratT53=Organization
 
 # newpar id = 0066-p2
 # par_text = Прокуратура потребовала назначить 240 часов обязательных работ бывшему координатору «Открытой России» в Краснодаре Яне Антоновой по делу о «нежелательной организации» (статья 284.1 УК). Об этом сообщает «Открытка».
@@ -47,10 +47,10 @@
 18	по	_	_	_	_	_	_	_	_
 19	делу	_	_	_	_	_	_	_	bratT49=Event
 20	о	_	_	_	_	_	_	_	_
-21	``	_	_	_	_	_	_	_	SpaceAfter=No
-22	нежелательной	_	_	_	_	_	_	_	_
-23	организации	_	_	_	_	_	_	_	SpaceAfter=No
-24	''	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
+22	нежелательной	_	_	_	_	_	_	_	bratT54=Organization
+23	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
+24	''	_	_	_	_	_	_	_	bratT54=Organization
 25	(	_	_	_	_	_	_	_	SpaceAfter=No
 26	статья	_	_	_	_	_	_	_	bratT15=Law
 27	284.1	_	_	_	_	_	_	_	bratT15=Law|bratT6=Ordinal
@@ -90,10 +90,10 @@
 16	продолжала	_	_	_	_	_	_	_	_
 17	сотрудничать	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
-19	``	_	_	_	_	_	_	_	SpaceAfter=No
-20	нежелательной	_	_	_	_	_	_	_	_
-21	организацией	_	_	_	_	_	_	_	SpaceAfter=No
-22	''	_	_	_	_	_	_	_	SpaceAfter=No
+19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+20	нежелательной	_	_	_	_	_	_	_	bratT52=Organization
+21	организацией	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p3-s2
@@ -163,8 +163,8 @@
 5	признала	_	_	_	_	_	_	_	_
 6	нежелательными	_	_	_	_	_	_	_	_
 7	три	_	_	_	_	_	_	_	bratT31=Quantity
-8	зарубежных	_	_	_	_	_	_	_	bratA14=T46:Adjective|bratT31=Quantity|bratT46=GPE
-9	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Quantity
+8	зарубежных	_	_	_	_	_	_	_	bratA14=T46:Adjective|bratT31=Quantity|bratT46=GPE|bratT55=Organization
+9	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Quantity|bratT55=Organization
 10	,	_	_	_	_	_	_	_	_
 11	связанные	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_

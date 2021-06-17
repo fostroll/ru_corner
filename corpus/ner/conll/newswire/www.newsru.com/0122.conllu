@@ -34,10 +34,10 @@
 9	5	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
 10	декабря	_	_	_	_	_	_	_	bratA5=T7:Future|bratT7=Date-absolute
 11	матч	_	_	_	_	_	_	_	bratT10=Event
-12	Российской	_	_	_	_	_	_	_	bratA6=T54:Adjective|bratT10=Event|bratT54=GPE|bratT8=Organization
-13	Премьер-лиги	_	_	_	_	_	_	_	bratT10=Event|bratT8=Organization
+12	Российской	_	_	_	_	_	_	_	bratA6=T54:Adjective|bratT10=Event|bratT54=GPE|bratT8=Event
+13	Премьер-лиги	_	_	_	_	_	_	_	bratT10=Event|bratT8=Event
 14	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
-15	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT9=Organization
+15	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT9=Event
 16	)	_	_	_	_	_	_	_	bratT10=Event
 17	с	_	_	_	_	_	_	_	_
 18	московским	_	_	_	_	_	_	_	bratA7=T55:Adjective|bratT11=Organization|bratT55=GPE
@@ -70,7 +70,7 @@
 7	не	_	_	_	_	_	_	_	_
 8	перечисляло	_	_	_	_	_	_	_	_
 9	денег	_	_	_	_	_	_	_	_
-10	команде	_	_	_	_	_	_	_	SpaceAfter=No
+10	команде	_	_	_	_	_	_	_	SpaceAfter=No|bratT87=Organization
 11	,	_	_	_	_	_	_	_	_
 12	которые	_	_	_	_	_	_	_	_
 13	были	_	_	_	_	_	_	_	_
@@ -123,7 +123,7 @@
 21	,	_	_	_	_	_	_	_	_
 22	с	_	_	_	_	_	_	_	_
 23	футболистами	_	_	_	_	_	_	_	bratT22=Person-property
-24	команды	_	_	_	_	_	_	_	bratT22=Person-property
+24	команды	_	_	_	_	_	_	_	bratT22=Person-property|bratT86=Organization
 25	встречался	_	_	_	_	_	_	_	_
 26	губернатор	_	_	_	_	_	_	_	bratA12=T24:Male|bratT23=Person-property|bratT24=Person
 27	области	_	_	_	_	_	_	_	bratA12=T24:Male|bratT23=Person-property|bratT24=Person|bratT80=GPE
@@ -131,7 +131,7 @@
 29	Никитин	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T24:Male|bratT24=Person|bratT59=Person-surname
 30	,	_	_	_	_	_	_	_	_
 31	пообещавший	_	_	_	_	_	_	_	_
-32	клубу	_	_	_	_	_	_	_	_
+32	клубу	_	_	_	_	_	_	_	bratT90=Organization
 33	финансирование	_	_	_	_	_	_	_	SpaceAfter=No
 34	,	_	_	_	_	_	_	_	_
 35	однако	_	_	_	_	_	_	_	_
@@ -233,7 +233,7 @@
 11	бывшими	_	_	_	_	_	_	_	bratT38=Person-property
 12	футболистами	_	_	_	_	_	_	_	bratT38=Person-property
 13	лишила	_	_	_	_	_	_	_	_
-14	клуб	_	_	_	_	_	_	_	_
+14	клуб	_	_	_	_	_	_	_	bratT91=Organization
 15	права	_	_	_	_	_	_	_	_
 16	регистрировать	_	_	_	_	_	_	_	_
 17	новых	_	_	_	_	_	_	_	bratT39=Person-property
@@ -271,7 +271,7 @@
 14	,	_	_	_	_	_	_	_	_
 15	что	_	_	_	_	_	_	_	_
 16	у	_	_	_	_	_	_	_	_
-17	команды	_	_	_	_	_	_	_	_
+17	команды	_	_	_	_	_	_	_	bratT88=Organization
 18	есть	_	_	_	_	_	_	_	_
 19	большие	_	_	_	_	_	_	_	_
 20	вопросы	_	_	_	_	_	_	_	_
@@ -317,7 +317,7 @@
 3	пообещал	_	_	_	_	_	_	_	_
 4	увеличить	_	_	_	_	_	_	_	_
 5	бюджет	_	_	_	_	_	_	_	_
-6	клуба	_	_	_	_	_	_	_	_
+6	клуба	_	_	_	_	_	_	_	bratT89=Organization
 7	и	_	_	_	_	_	_	_	_
 8	реконструировать	_	_	_	_	_	_	_	_
 9	стадион	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Facility

@@ -53,11 +53,11 @@
 14	тысяч	_	_	_	_	_	_	_	bratT7=Quantity
 15	должностей	_	_	_	_	_	_	_	bratT7=Quantity
 16	в	_	_	_	_	_	_	_	_
-17	центральных	_	_	_	_	_	_	_	bratA16=T57:Department|bratT57=Organization
-18	аппаратах	_	_	_	_	_	_	_	bratA16=T57:Department|bratT57=Organization
-19	федеральных	_	_	_	_	_	_	_	bratA16=T57:Department|bratT56=Organization|bratT57=Organization
-20	органов	_	_	_	_	_	_	_	bratA16=T57:Department|bratT56=Organization|bratT57=Organization
-21	власти	_	_	_	_	_	_	_	bratA16=T57:Department|bratT56=Organization|bratT57=Organization
+17	центральных	_	_	_	_	_	_	_	bratT57=Organization
+18	аппаратах	_	_	_	_	_	_	_	bratT57=Organization
+19	федеральных	_	_	_	_	_	_	_	bratT56=Organization|bratT57=Organization
+20	органов	_	_	_	_	_	_	_	bratT56=Organization|bratT57=Organization
+21	власти	_	_	_	_	_	_	_	bratT56=Organization|bratT57=Organization
 22	и	_	_	_	_	_	_	_	_
 23	территориальных	_	_	_	_	_	_	_	_
 24	отделах	_	_	_	_	_	_	_	SpaceAfter=No
@@ -77,10 +77,10 @@
 8	1200	_	_	_	_	_	_	_	bratT9=Quantity
 9	должностей	_	_	_	_	_	_	_	bratT9=Quantity
 10	в	_	_	_	_	_	_	_	_
-11	центральных	_	_	_	_	_	_	_	_
-12	аппаратах	_	_	_	_	_	_	_	_
-13	федеральных	_	_	_	_	_	_	_	_
-14	органов	_	_	_	_	_	_	_	_
+11	центральных	_	_	_	_	_	_	_	bratT52=Organization
+12	аппаратах	_	_	_	_	_	_	_	bratT52=Organization
+13	федеральных	_	_	_	_	_	_	_	bratT52=Organization|bratT58=Organization
+14	органов	_	_	_	_	_	_	_	bratT52=Organization|bratT58=Organization
 15	и	_	_	_	_	_	_	_	_
 16	более	_	_	_	_	_	_	_	bratT10=Quantity
 17	33,5	_	_	_	_	_	_	_	bratT10=Quantity
@@ -105,8 +105,8 @@
 11	единиц	_	_	_	_	_	_	_	bratT12=Quantity
 12	заместителей	_	_	_	_	_	_	_	bratT15=Person-property
 13	руководителей	_	_	_	_	_	_	_	bratT15=Person-property
-14	федеральных	_	_	_	_	_	_	_	bratT15=Person-property
-15	ведомств	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
+14	федеральных	_	_	_	_	_	_	_	bratT15=Person-property|bratT59=Organization
+15	ведомств	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT59=Organization
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
@@ -130,8 +130,8 @@
 10	доля	_	_	_	_	_	_	_	_
 11	вакансий	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	центральных	_	_	_	_	_	_	_	_
-14	аппаратах	_	_	_	_	_	_	_	_
+13	центральных	_	_	_	_	_	_	_	bratT60=Organization
+14	аппаратах	_	_	_	_	_	_	_	bratT60=Organization
 15	достигает	_	_	_	_	_	_	_	_
 16	20	_	_	_	_	_	_	_	bratT20=Percent
 17	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
@@ -179,8 +179,8 @@
 # text = ``Штаты центральных аппаратов с 1 января 2021 года должны быть сокращены на 5 процентов, территориальных органов - на 10 процентов.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Штаты	_	_	_	_	_	_	_	_
-3	центральных	_	_	_	_	_	_	_	_
-4	аппаратов	_	_	_	_	_	_	_	_
+3	центральных	_	_	_	_	_	_	_	bratT61=Organization
+4	аппаратов	_	_	_	_	_	_	_	bratT61=Organization
 5	с	_	_	_	_	_	_	_	bratT19=Date-period-absolute
 6	1	_	_	_	_	_	_	_	bratT19=Date-period-absolute
 7	января	_	_	_	_	_	_	_	bratT19=Date-period-absolute

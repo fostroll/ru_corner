@@ -66,8 +66,8 @@
 1	Это	_	_	_	_	_	_	_	_
 2	два	_	_	_	_	_	_	_	bratT10=Quantity
 3	сотрудника	_	_	_	_	_	_	_	bratT10=Quantity
-4	подрядной	_	_	_	_	_	_	_	_
-5	организации	_	_	_	_	_	_	_	_
+4	подрядной	_	_	_	_	_	_	_	bratT39=Organization
+5	организации	_	_	_	_	_	_	_	bratT39=Organization
 6	-	_	_	_	_	_	_	_	_
 7	монтажник	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property
 8	и	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property
@@ -113,8 +113,8 @@
 29	работ	_	_	_	_	_	_	_	_
 30	со	_	_	_	_	_	_	_	_
 31	стороны	_	_	_	_	_	_	_	_
-32	подрядной	_	_	_	_	_	_	_	_
-33	организации	_	_	_	_	_	_	_	SpaceAfter=No
+32	подрядной	_	_	_	_	_	_	_	bratT40=Organization
+33	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
 34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0105-p4
@@ -176,8 +176,8 @@
 2	месте	_	_	_	_	_	_	_	_
 3	происшествия	_	_	_	_	_	_	_	_
 4	работает	_	_	_	_	_	_	_	_
-5	следственно-оперативная	_	_	_	_	_	_	_	_
-6	группа	_	_	_	_	_	_	_	SpaceAfter=No
+5	следственно-оперативная	_	_	_	_	_	_	_	bratA5=T41:Department|bratT41=Organization
+6	группа	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T41:Department|bratT41=Organization
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0105-p4-s4
@@ -185,8 +185,8 @@
 1	Планируется	_	_	_	_	_	_	_	_
 2	изъятие	_	_	_	_	_	_	_	_
 3	документации	_	_	_	_	_	_	_	_
-4	компании	_	_	_	_	_	_	_	_
-5	подрядчика	_	_	_	_	_	_	_	SpaceAfter=No
+4	компании	_	_	_	_	_	_	_	bratT42=Organization
+5	подрядчика	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0105-p5

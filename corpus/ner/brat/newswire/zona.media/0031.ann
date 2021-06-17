@@ -55,8 +55,7 @@ T47	Person-property 1234 1259	бывшему   командиру   ДНР
 T48	GPE 1256 1259	ДНР
 T49	Person-forename 1262 1269	Леониду
 T50	Person-surname 1272 1280	Харченко
-T52	Nationality 1319 1326	русская
-A11	Adjective T52
+T52	Language 1319 1326	русская
 T53	Organization 1319 1356	русская   служба   ``   Би-би-си   ''
 A12	Media T53
 T54	Date-absolute 1369 1378	в   марте
@@ -90,3 +89,8 @@ T74	Event 940 948	крушении
 T75	Event 456 464	крушения
 T76	Event 256 264	крушения
 T77	Event 94 102	крушения
+T78	Organization 1166 1169	ВДВ
+T79	Organization 1338 1356	``   Би-би-си   ''
+A5	Media T79
+A17	Department T53
+T80	Organization 1606 1632	пограничной   службы   ФСБ

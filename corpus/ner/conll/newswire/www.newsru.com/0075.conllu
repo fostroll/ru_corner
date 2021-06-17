@@ -58,8 +58,8 @@
 5	будет	_	_	_	_	_	_	_	_
 6	принято	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	заседании	_	_	_	_	_	_	_	_
-9	правительства	_	_	_	_	_	_	_	_
+8	заседании	_	_	_	_	_	_	_	bratT58=Event
+9	правительства	_	_	_	_	_	_	_	bratT57=Organization|bratT58=Event
 10	в	_	_	_	_	_	_	_	bratA12=T28:Future|bratT28=Date-absolute
 11	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T28:Future|bratT28=Date-absolute
 12	,	_	_	_	_	_	_	_	_
@@ -82,8 +82,8 @@
 11	в	_	_	_	_	_	_	_	_
 12	стране	_	_	_	_	_	_	_	bratT54=GPE
 13	предположительно	_	_	_	_	_	_	_	_
-14	членами	_	_	_	_	_	_	_	_
-15	группировки	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
+14	членами	_	_	_	_	_	_	_	bratT60=Person-property|bratT61=Person
+15	группировки	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization|bratT60=Person-property|bratT61=Person
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0075-p4
@@ -98,7 +98,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	весьма	_	_	_	_	_	_	_	_
 8	агрессивная	_	_	_	_	_	_	_	_
-9	группировка	_	_	_	_	_	_	_	SpaceAfter=No
+9	группировка	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Organization
 10	''	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_

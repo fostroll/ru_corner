@@ -5,8 +5,8 @@
 # text = Судью на футбольном поле в Грозном избивал советник Рамзана Кадырова
 1	Судью	_	_	_	_	_	_	_	bratT1=Person-property
 2	на	_	_	_	_	_	_	_	_
-3	футбольном	_	_	_	_	_	_	_	_
-4	поле	_	_	_	_	_	_	_	_
+3	футбольном	_	_	_	_	_	_	_	bratT74=Facility
+4	поле	_	_	_	_	_	_	_	bratT74=Facility
 5	в	_	_	_	_	_	_	_	_
 6	Грозном	_	_	_	_	_	_	_	bratT2=GPE
 7	избивал	_	_	_	_	_	_	_	_
@@ -42,15 +42,15 @@
 22	Головко	_	_	_	_	_	_	_	bratA10=T9:Male|bratT54=Person-surname|bratT9=Person
 23	после	_	_	_	_	_	_	_	bratA11=T42:Past|bratT42=Date-absolute
 24	матча	_	_	_	_	_	_	_	bratA11=T42:Past|bratT42=Date-absolute|bratT70=Event
-25	молодежных	_	_	_	_	_	_	_	bratT70=Event
-26	команд	_	_	_	_	_	_	_	bratT70=Event
-27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
-28	Ахмат	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
-29	''	_	_	_	_	_	_	_	bratT11=Organization
-30	и	_	_	_	_	_	_	_	_
-31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-32	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-33	''	_	_	_	_	_	_	_	bratT12=Organization
+25	молодежных	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT75=Organization
+26	команд	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT75=Organization
+27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT11=Organization|bratT75=Organization
+28	Ахмат	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT11=Organization|bratT75=Organization
+29	''	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT11=Organization|bratT75=Organization
+30	и	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT75=Organization
+31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT12=Organization|bratT75=Organization
+32	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT12=Organization|bratT75=Organization
+33	''	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT12=Organization|bratT75=Organization
 34	(	_	_	_	_	_	_	_	SpaceAfter=No
 35	0:0	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
 36	)	_	_	_	_	_	_	_	_
@@ -112,8 +112,8 @@
 15	ныне	_	_	_	_	_	_	_	bratA16=T49:Present|bratT49=Date-absolute
 16	не	_	_	_	_	_	_	_	_
 17	является	_	_	_	_	_	_	_	_
-18	сотрудником	_	_	_	_	_	_	_	_
-19	клуба	_	_	_	_	_	_	_	_
+18	сотрудником	_	_	_	_	_	_	_	bratT77=Person-property
+19	клуба	_	_	_	_	_	_	_	bratT76=Organization|bratT77=Person-property
 20	и	_	_	_	_	_	_	_	_
 21	присутствовал	_	_	_	_	_	_	_	_
 22	на	_	_	_	_	_	_	_	_

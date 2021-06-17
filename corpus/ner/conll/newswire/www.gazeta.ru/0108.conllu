@@ -28,10 +28,10 @@
 3	минуты	_	_	_	_	_	_	_	bratA3=T7:Present|bratT7=Date-absolute
 4	продолжается	_	_	_	_	_	_	_	_
 5	матч	_	_	_	_	_	_	_	bratT6=Event
-6	Российской	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT19=Organization|bratT29=GPE|bratT6=Event
-7	премьер-лиги	_	_	_	_	_	_	_	bratT19=Organization|bratT6=Event
+6	Российской	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT19=Event|bratT29=GPE|bratT6=Event
+7	премьер-лиги	_	_	_	_	_	_	_	bratT19=Event|bratT6=Event
 8	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Event
-9	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT6=Event
+9	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Event|bratT6=Event
 10	)	_	_	_	_	_	_	_	bratT6=Event
 11	между	_	_	_	_	_	_	_	_
 12	столичными	_	_	_	_	_	_	_	bratA1=T5:Plural|bratA9=T30:Adjective|bratT30=GPE|bratT5=Organization
@@ -161,6 +161,6 @@
 11	''	_	_	_	_	_	_	_	bratT17=Organization
 12	на	_	_	_	_	_	_	_	_
 13	матч	_	_	_	_	_	_	_	bratT18=Event
-14	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event|bratT21=Organization
+14	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event|bratT21=Event
 15	.	_	_	_	_	_	_	_	_
 

@@ -12,7 +12,7 @@
 7	присоединиться	_	_	_	_	_	_	_	_
 8	больше	_	_	_	_	_	_	_	bratT2=Quantity
 9	400	_	_	_	_	_	_	_	bratT2=Quantity
-10	компаний	_	_	_	_	_	_	_	bratT2=Quantity
+10	компаний	_	_	_	_	_	_	_	bratT2=Quantity|bratT39=Organization
 
 # newpar id = 0051-p2
 # par_text = В конце сентября группа компаний, включая Epic Games, Spotify, Basecamp, Match Group, Tile, Blix, Deezer и другие, объявила о создании коалиции для отстаивания интересов разработчиков, недовольных действиями компании Apple (Coalition for App Fairness). Спустя месяц число участников коалиции выросло с 13 до 40 заявок, а ее руководство получило еще свыше 400 заявок на вступление. Об этом пишет газета The Washington Post.
@@ -22,7 +22,7 @@
 2	конце	_	_	_	_	_	_	_	bratA1=T3:Past|bratT3=Date-absolute
 3	сентября	_	_	_	_	_	_	_	bratA1=T3:Past|bratT3=Date-absolute
 4	группа	_	_	_	_	_	_	_	_
-5	компаний	_	_	_	_	_	_	_	SpaceAfter=No
+5	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
 6	,	_	_	_	_	_	_	_	_
 7	включая	_	_	_	_	_	_	_	_
 8	Epic	_	_	_	_	_	_	_	bratT4=Organization
@@ -188,7 +188,7 @@
 33	а	_	_	_	_	_	_	_	_
 34	также	_	_	_	_	_	_	_	_
 35	использование	_	_	_	_	_	_	_	_
-36	компанией	_	_	_	_	_	_	_	_
+36	компанией	_	_	_	_	_	_	_	bratT41=Organization
 37	контроля	_	_	_	_	_	_	_	_
 38	над	_	_	_	_	_	_	_	_
 39	iOS	_	_	_	_	_	_	_	bratA5=T23:Trademark|bratT23=Product

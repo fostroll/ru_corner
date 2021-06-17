@@ -6,9 +6,9 @@
 1	Собянин	_	_	_	_	_	_	_	bratA3=T1:Male|bratT1=Person|bratT12=Person-surname
 2	рассказал	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
-4	программе	_	_	_	_	_	_	_	_
-5	реконструкции	_	_	_	_	_	_	_	_
-6	поликлиник	_	_	_	_	_	_	_	_
+4	программе	_	_	_	_	_	_	_	bratA8=T21:Project|bratT21=Product
+5	реконструкции	_	_	_	_	_	_	_	bratA8=T21:Project|bratT21=Product
+6	поликлиник	_	_	_	_	_	_	_	bratA8=T21:Project|bratT17=Organization|bratT21=Product
 
 # newpar id = 0064-p2
 # par_text = Мэр Москвы Сергей Собянин заявил, что запущенная в прошлом году городская программа комплексной реконструкции поликлиник столицы продолжится. Об этом он написал в своем блоге.
@@ -29,8 +29,8 @@
 13	программа	_	_	_	_	_	_	_	bratA1=T7:Project|bratT7=Product
 14	комплексной	_	_	_	_	_	_	_	bratA1=T7:Project|bratT7=Product
 15	реконструкции	_	_	_	_	_	_	_	bratA1=T7:Project|bratT7=Product
-16	поликлиник	_	_	_	_	_	_	_	bratA1=T7:Project|bratT7=Product
-17	столицы	_	_	_	_	_	_	_	bratA1=T7:Project|bratT6=GPE|bratT7=Product
+16	поликлиник	_	_	_	_	_	_	_	bratA1=T7:Project|bratT16=Organization|bratT7=Product
+17	столицы	_	_	_	_	_	_	_	bratA1=T7:Project|bratT16=Organization|bratT6=GPE|bratT7=Product
 18	продолжится	_	_	_	_	_	_	_	SpaceAfter=No
 19	.	_	_	_	_	_	_	_	_
 
@@ -42,7 +42,7 @@
 4	написал	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	своем	_	_	_	_	_	_	_	_
-7	блоге	_	_	_	_	_	_	_	SpaceAfter=No
+7	блоге	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T20:Media|bratT20=Service
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0064-p3
@@ -116,11 +116,11 @@
 17	,	_	_	_	_	_	_	_	_
 18	а	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
-20	отделениях	_	_	_	_	_	_	_	_
-21	ЛФК	_	_	_	_	_	_	_	bratT10=Other-term
+20	отделениях	_	_	_	_	_	_	_	bratA6=T19:Department|bratT19=Organization
+21	ЛФК	_	_	_	_	_	_	_	bratA6=T19:Department|bratT10=Other-term|bratT19=Organization
 22	некоторых	_	_	_	_	_	_	_	_
-23	детских	_	_	_	_	_	_	_	_
-24	поликлиник	_	_	_	_	_	_	_	_
+23	детских	_	_	_	_	_	_	_	bratT18=Organization
+24	поликлиник	_	_	_	_	_	_	_	bratT18=Organization
 25	-	_	_	_	_	_	_	_	_
 26	бассейны	_	_	_	_	_	_	_	SpaceAfter=No
 27	.	_	_	_	_	_	_	_	_

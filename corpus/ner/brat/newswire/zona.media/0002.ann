@@ -24,14 +24,12 @@ T22	Person-property 644 654	сотрудники
 T23	Person 398 407	Саркисяна
 A4	Male T23
 T25	Organization 657 698	отдела   собственной   безопасности   ФСБ
-A6	Department T25
 T26	Person-property 703 714	Полицейский
 T27	Person 727 736	Саркисяну
 A7	Male T27
 T28	Person-surname 727 736	Саркисяну
 T29	Person-property 755 803	сотрудников   отдела   пограничного   управления
 T30	Organization 769 803	отдела   пограничного   управления
-A8	Department T30
 T31	Organization 814 822	Кам   24
 A9	Media T31
 T32	Person-property 848 856	силовики
@@ -70,3 +68,6 @@ T53	Date-relative 458 470	рано   утром
 A18	Past T53
 A5	Past T16
 T54	Event 1111 1115	дела
+A6	Department T25
+A8	Department T30
+T55	Organization 778 803	пограничного   управления

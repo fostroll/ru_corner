@@ -10,8 +10,8 @@
 5	посещаемости	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	матчах	_	_	_	_	_	_	_	bratT2=Event
-8	Российской	_	_	_	_	_	_	_	bratA8=T23:Adjective|bratT2=Event|bratT23=GPE|bratT3=Organization
-9	премьер-лиги	_	_	_	_	_	_	_	bratT2=Event|bratT3=Organization
+8	Российской	_	_	_	_	_	_	_	bratA8=T23:Adjective|bratT2=Event|bratT23=GPE|bratT3=Event
+9	премьер-лиги	_	_	_	_	_	_	_	bratT2=Event|bratT3=Event
 10	до	_	_	_	_	_	_	_	bratA7=T4:Pres-Fut|bratT4=Date-period-absolute
 11	конца	_	_	_	_	_	_	_	bratA7=T4:Pres-Fut|bratT4=Date-period-absolute
 12	года	_	_	_	_	_	_	_	bratA7=T4:Pres-Fut|bratT4=Date-period-absolute
@@ -33,12 +33,12 @@
 11	стадионов	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
 13	матчах	_	_	_	_	_	_	_	bratT7=Event
-14	Тинькофф	_	_	_	_	_	_	_	bratT7=Event|bratT8=Organization
-15	-	_	_	_	_	_	_	_	bratT7=Event|bratT8=Organization
-16	Российской	_	_	_	_	_	_	_	bratA9=T24:Adjective|bratT24=GPE|bratT7=Event|bratT8=Organization
-17	премьер-лиги	_	_	_	_	_	_	_	bratT7=Event|bratT8=Organization
+14	Тинькофф	_	_	_	_	_	_	_	bratT7=Event|bratT8=Event
+15	-	_	_	_	_	_	_	_	bratT7=Event|bratT8=Event
+16	Российской	_	_	_	_	_	_	_	bratA9=T24:Adjective|bratT24=GPE|bratT7=Event|bratT8=Event
+17	премьер-лиги	_	_	_	_	_	_	_	bratT7=Event|bratT8=Event
 18	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Event
-19	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Event|bratT9=Organization
+19	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Event|bratT9=Event
 20	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Event
 21	.	_	_	_	_	_	_	_	_
 
@@ -60,7 +60,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
 4	пресс-служба	_	_	_	_	_	_	_	bratA1=T20:Department|bratT20=Organization
-5	лиги	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T20:Department|bratT20=Organization
+5	лиги	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T20:Department|bratT20=Organization|bratT28=Organization
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0011-p3
@@ -120,7 +120,7 @@
 14	при	_	_	_	_	_	_	_	_
 15	согласовании	_	_	_	_	_	_	_	_
 16	со	_	_	_	_	_	_	_	_
-17	столичными	_	_	_	_	_	_	_	bratA3=T13:Plural|bratT13=Organization
+17	столичными	_	_	_	_	_	_	_	bratA10=T29:Adjective|bratA3=T13:Plural|bratT13=Organization|bratT29=GPE
 18	Департаментом	_	_	_	_	_	_	_	bratA3=T13:Plural|bratT13=Organization|bratT14=Organization
 19	спорта	_	_	_	_	_	_	_	bratA3=T13:Plural|bratT13=Organization|bratT14=Organization
 20	и	_	_	_	_	_	_	_	bratA3=T13:Plural|bratT13=Organization

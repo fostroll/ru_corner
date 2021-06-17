@@ -10,8 +10,8 @@
 5	протеста	_	_	_	_	_	_	_	bratT4=Event
 6	задержали	_	_	_	_	_	_	_	_
 7	журналистов	_	_	_	_	_	_	_	bratT3=Person-property
-8	российских	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT2=GPE|bratT3=Person-property
-9	СМИ	_	_	_	_	_	_	_	bratT3=Person-property
+8	российских	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA21=T64:Media|bratT2=GPE|bratT3=Person-property|bratT64=Organization
+9	СМИ	_	_	_	_	_	_	_	bratA21=T64:Media|bratT3=Person-property|bratT64=Organization
 
 # newpar id = 0090-p2
 # par_text = На акции протеста в Белоруссии задержали двух корреспондентов российских СМИ. Задержаны корреспондент ТАСС Юрий Шамшур и корреспондент «РИА Новости», имя которой не называется. О задержании сообщили эти агентства.
@@ -25,8 +25,8 @@
 6	задержали	_	_	_	_	_	_	_	_
 7	двух	_	_	_	_	_	_	_	bratT9=Quantity
 8	корреспондентов	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Quantity
-9	российских	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT7=GPE|bratT8=Person-property
-10	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person-property
+9	российских	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratA22=T66:Media|bratT66=Organization|bratT7=GPE|bratT8=Person-property
+10	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T66:Media|bratT66=Organization|bratT8=Person-property
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0090-p2-s2
@@ -55,7 +55,7 @@
 2	задержании	_	_	_	_	_	_	_	_
 3	сообщили	_	_	_	_	_	_	_	_
 4	эти	_	_	_	_	_	_	_	_
-5	агентства	_	_	_	_	_	_	_	SpaceAfter=No
+5	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T67:Media|bratT67=Organization
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p3
@@ -154,9 +154,12 @@
 6	задержали	_	_	_	_	_	_	_	_
 7	корреспондента	_	_	_	_	_	_	_	bratT34=Person-property
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
-9	Интерфакс-Запад	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
-10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
-11	.	_	_	_	_	_	_	_	_
+9-11	Интерфакс-Запад	_	_	_	_	_	_	_	SpaceAfter=No
+9	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+11	Запад	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property|bratT68=GPE
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0090-p5-s2
 # text = Она тоже освещала акцию в районе ``площади перемен''.
@@ -205,7 +208,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	-	_	_	_	_	_	_	_	_
 9	передает	_	_	_	_	_	_	_	_
-10	агентство	_	_	_	_	_	_	_	SpaceAfter=No
+10	агентство	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T69:Media|bratT69=Organization
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p6
@@ -246,9 +249,9 @@
 3	запрос	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	пресс-службу	_	_	_	_	_	_	_	bratA19=T57:Department|bratT57=Organization
-6	МВД	_	_	_	_	_	_	_	bratA18=T56:Department|bratA19=T57:Department|bratT56=Organization|bratT57=Organization
-7	Минского	_	_	_	_	_	_	_	bratA17=T54:Adjective|bratA18=T56:Department|bratA19=T57:Department|bratT54=GPE|bratT55=Organization|bratT56=Organization|bratT57=Organization
-8	горисполкома	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T56:Department|bratA19=T57:Department|bratT55=Organization|bratT56=Organization|bratT57=Organization
+6	МВД	_	_	_	_	_	_	_	bratA19=T57:Department|bratT56=Organization|bratT57=Organization
+7	Минского	_	_	_	_	_	_	_	bratA17=T54:Adjective|bratA19=T57:Department|bratT54=GPE|bratT55=Organization|bratT56=Organization|bratT57=Organization
+8	горисполкома	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T57:Department|bratT55=Organization|bratT56=Organization|bratT57=Organization
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p8

@@ -64,7 +64,7 @@
 2	министров	_	_	_	_	_	_	_	bratT18=Person-property
 3	проходят	_	_	_	_	_	_	_	_
 4	без	_	_	_	_	_	_	_	_
-5	делегаций	_	_	_	_	_	_	_	SpaceAfter=No
+5	делегаций	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Organization
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0084-p3
@@ -138,12 +138,12 @@
 # text = ``От посредников и руководителей некоторых международных организаций звучали заявления о том, что военного решения карабахского конфликта нет.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	От	_	_	_	_	_	_	_	_
-3	посредников	_	_	_	_	_	_	_	bratT43=Person-property
-4	и	_	_	_	_	_	_	_	_
-5	руководителей	_	_	_	_	_	_	_	bratT44=Person-property
-6	некоторых	_	_	_	_	_	_	_	_
-7	международных	_	_	_	_	_	_	_	_
-8	организаций	_	_	_	_	_	_	_	_
+3	посредников	_	_	_	_	_	_	_	bratA27=T84:Plural|bratT43=Person-property|bratT84=Person-property
+4	и	_	_	_	_	_	_	_	bratA27=T84:Plural|bratT84=Person-property
+5	руководителей	_	_	_	_	_	_	_	bratA27=T84:Plural|bratT44=Person-property|bratT84=Person-property
+6	некоторых	_	_	_	_	_	_	_	bratA27=T84:Plural|bratT84=Person-property
+7	международных	_	_	_	_	_	_	_	bratA27=T84:Plural|bratT83=Organization|bratT84=Person-property
+8	организаций	_	_	_	_	_	_	_	bratA27=T84:Plural|bratT83=Organization|bratT84=Person-property
 9	звучали	_	_	_	_	_	_	_	_
 10	заявления	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_

@@ -46,9 +46,9 @@
 4	в	_	_	_	_	_	_	_	_
 5	сообщении	_	_	_	_	_	_	_	_
 6	пресс-службы	_	_	_	_	_	_	_	bratA2=T10:Department|bratT10=Organization
-7	нижней	_	_	_	_	_	_	_	bratA1=T9:Department|bratA2=T10:Department|bratT10=Organization|bratT9=Organization
-8	палаты	_	_	_	_	_	_	_	bratA1=T9:Department|bratA2=T10:Department|bratT10=Organization|bratT9=Organization
-9	парламента	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Department|bratA2=T10:Department|bratT10=Organization|bratT8=Organization|bratT9=Organization
+7	нижней	_	_	_	_	_	_	_	bratA2=T10:Department|bratT10=Organization|bratT9=Organization
+8	палаты	_	_	_	_	_	_	_	bratA2=T10:Department|bratT10=Organization|bratT9=Organization
+9	парламента	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Department|bratT10=Organization|bratT8=Organization|bratT9=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0039-p3
@@ -190,7 +190,7 @@
 19	кредитной	_	_	_	_	_	_	_	_
 20	программы	_	_	_	_	_	_	_	_
 21	поддержки	_	_	_	_	_	_	_	_
-22	организаций	_	_	_	_	_	_	_	_
+22	организаций	_	_	_	_	_	_	_	bratT46=Organization
 23	(	_	_	_	_	_	_	_	SpaceAfter=No
 24	421,2	_	_	_	_	_	_	_	bratT23=Money
 25	млрд	_	_	_	_	_	_	_	bratT23=Money

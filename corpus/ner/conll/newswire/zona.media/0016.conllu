@@ -44,8 +44,8 @@
 # text = Об этом пресс-служба ведомства объявила в твиттере.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	пресс-служба	_	_	_	_	_	_	_	_
-4	ведомства	_	_	_	_	_	_	_	_
+3	пресс-служба	_	_	_	_	_	_	_	bratA17=T42:Department|bratT42=Organization
+4	ведомства	_	_	_	_	_	_	_	bratA17=T42:Department|bratT42=Organization|bratT43=Organization
 5	объявила	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	твиттере	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Service
@@ -83,8 +83,8 @@
 26	-	_	_	_	_	_	_	_	_
 27	написали	_	_	_	_	_	_	_	_
 28	представители	_	_	_	_	_	_	_	_
-29	надзорного	_	_	_	_	_	_	_	_
-30	ведомства	_	_	_	_	_	_	_	SpaceAfter=No
+29	надзорного	_	_	_	_	_	_	_	bratT44=Organization
+30	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Organization
 31	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0016-p4
@@ -99,7 +99,7 @@
 6	29	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
 7	октября	_	_	_	_	_	_	_	bratA1=T12:Past|bratT12=Date-absolute
 8	-	_	_	_	_	_	_	_	_
-9	ведомство	_	_	_	_	_	_	_	_
+9	ведомство	_	_	_	_	_	_	_	bratT45=Organization
 10	продублировало	_	_	_	_	_	_	_	_
 11	там	_	_	_	_	_	_	_	_
 12	свой	_	_	_	_	_	_	_	_
@@ -109,8 +109,8 @@
 16	о	_	_	_	_	_	_	_	_
 17	``	_	_	_	_	_	_	_	SpaceAfter=No
 18	цензуре	_	_	_	_	_	_	_	_
-19	российских	_	_	_	_	_	_	_	bratA6=T25:Adjective|bratT25=GPE
-20	СМИ	_	_	_	_	_	_	_	SpaceAfter=No
+19	российских	_	_	_	_	_	_	_	bratA18=T46:Media|bratA6=T25:Adjective|bratT25=GPE|bratT46=Organization
+20	СМИ	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Media|bratT46=Organization
 21	''	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	_
 23	фейсбуке	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Service
@@ -185,7 +185,7 @@
 2	июне	_	_	_	_	_	_	_	bratA10=T21:Past|bratT21=Date-absolute
 3	2020	_	_	_	_	_	_	_	bratA10=T21:Past|bratT21=Date-absolute
 4	года	_	_	_	_	_	_	_	bratA10=T21:Past|bratT21=Date-absolute
-5	ведомство	_	_	_	_	_	_	_	_
+5	ведомство	_	_	_	_	_	_	_	bratT47=Organization
 6	объявило	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 10	требования	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	блокировке	_	_	_	_	_	_	_	_
-13	мессенджера	_	_	_	_	_	_	_	SpaceAfter=No
+13	мессенджера	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Service
 14	,	_	_	_	_	_	_	_	_
 15	после	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-relative
 16	того	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-relative

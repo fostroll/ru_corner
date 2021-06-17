@@ -72,8 +72,7 @@ T60	Person-property 1528 1535	актеров
 T62	Duration 33 45	пять   суток
 A12	Fiction T3
 A18	Male T31
-T36	Nationality 406 413	русская
-A19	Adjective T36
+T36	Language 406 413	русская
 T63	Ordinal 642 643	2
 T64	Ordinal 655 659	20.1
 T65	Law 662 666	КоАП
@@ -95,3 +94,10 @@ T70	Event 482 506	административному   делу
 T71	Event 465 474	заседании
 A6	Department T48
 T72	Organization 1331 1344	ОМВД   России
+T73	Organization 100 109	исполкома
+T74	Organization 309 318	исполкома
+T75	Organization 425 443	``   Би-би-си   ''
+A26	Media T75
+A27	Department T20
+T76	Organization 690 697	издание
+A19	Media T76

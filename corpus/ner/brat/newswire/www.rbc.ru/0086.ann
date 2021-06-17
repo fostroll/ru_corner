@@ -41,7 +41,6 @@ T39	Event 890 893	ДТП
 T40	Date-relative 1631 1636	Ранее
 A10	Past T40
 T42	Organization 984 996	департамента
-A11	Department T42
 T43	Event 1545 1557	происшествия
 T44	Date-relative 372 381	В   12:10
 A12	Present T44
@@ -54,8 +53,8 @@ T48	Organization 300 361	пресс-службе   ГУ   МВД   России 
 A14	Department T48
 T49	GPE 326 332	России
 T50	GPE 340 361	Челябинской   области
-T51	Organization 320 323	МВД
-T52	Organization 315 323	ГУ   МВД
+T51	Organization 320 332	МВД   России
+T52	Organization 315 361	ГУ   МВД   России   по   Челябинской   области
 T4	Event 656 668	столкновения
 T8	Event 785 790	наезд
 T11	Event 1708 1720	столкновения
@@ -64,3 +63,7 @@ T25	Event 1838 1850	происшествия
 T53	GPE 822 829	местном
 A1	Adjective T53
 T54	Organization 1152 1160	больницу
+T55	Person 1437 1461	собеседника   телеканала
+A3	Male T55
+T56	Organization 1451 1461	телеканала
+A5	Media T56

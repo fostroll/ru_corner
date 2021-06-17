@@ -54,7 +54,7 @@
 # text = По данным издания, причиной стало то, что Макаров провалил психологические тесты.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	издания	_	_	_	_	_	_	_	SpaceAfter=No
+3	издания	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T58:Media|bratT58=Organization
 4	,	_	_	_	_	_	_	_	_
 5	причиной	_	_	_	_	_	_	_	_
 6	стало	_	_	_	_	_	_	_	_
@@ -85,8 +85,8 @@
 # sent_id = 0060-p4-s1
 # text = Также собеседник издания уточнил, что в армию молодой человек пришел для того, чтобы впоследствии устроиться на работу в правоохранительные органы.
 1	Также	_	_	_	_	_	_	_	_
-2	собеседник	_	_	_	_	_	_	_	bratT62=Person
-3	издания	_	_	_	_	_	_	_	bratT62=Person
+2	собеседник	_	_	_	_	_	_	_	bratA17=T62:Male|bratT62=Person
+3	издания	_	_	_	_	_	_	_	bratA16=T61:Media|bratA17=T62:Male|bratT61=Organization|bratT62=Person
 4	уточнил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -139,7 +139,7 @@
 25	замечания	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-absolute
 26	дежурного	_	_	_	_	_	_	_	bratA9=T20:Male|bratT17=Person-property|bratT20=Person
 27	по	_	_	_	_	_	_	_	bratA9=T20:Male|bratT17=Person-property|bratT20=Person
-28	полку	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T20:Male|bratT17=Person-property|bratT20=Person
+28	полку	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T20:Male|bratT17=Person-property|bratT20=Person|bratT64=Organization
 29	,	_	_	_	_	_	_	_	bratA9=T20:Male|bratT20=Person
 30	38-летнего	_	_	_	_	_	_	_	bratA9=T20:Male|bratT18=Age|bratT20=Person
 31	майора	_	_	_	_	_	_	_	bratA9=T20:Male|bratT19=Person-property|bratT20=Person

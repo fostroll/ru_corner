@@ -35,8 +35,8 @@
 15	убедить	_	_	_	_	_	_	_	_
 16	перейти	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
-18	российский	_	_	_	_	_	_	_	bratA3=T11:Adjective|bratT11=GPE
-19	клуб	_	_	_	_	_	_	_	SpaceAfter=No
+18	российский	_	_	_	_	_	_	_	bratA3=T11:Adjective|bratT11=GPE|bratT69=Organization
+19	клуб	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Organization
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0113-p2-s2
@@ -71,10 +71,10 @@
 4	предпочтут	_	_	_	_	_	_	_	_
 5	играть	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	испанской	_	_	_	_	_	_	_	bratA5=T16:Adjective|bratT16=GPE
-8	или	_	_	_	_	_	_	_	_
-9	немецкой	_	_	_	_	_	_	_	bratA6=T17:Adjective|bratT17=GPE
-10	лигах	_	_	_	_	_	_	_	SpaceAfter=No
+7	испанской	_	_	_	_	_	_	_	bratA22=T72:Plural|bratA5=T16:Adjective|bratT16=GPE|bratT72=Organization
+8	или	_	_	_	_	_	_	_	bratA22=T72:Plural|bratT72=Organization
+9	немецкой	_	_	_	_	_	_	_	bratA22=T72:Plural|bratA6=T17:Adjective|bratT17=GPE|bratT72=Organization
+10	лигах	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T72:Plural|bratT72=Organization
 11	''	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
@@ -137,7 +137,7 @@
 2	Из-за	_	_	_	_	_	_	_	_
 3	лимита	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	клубах	_	_	_	_	_	_	_	_
+5	клубах	_	_	_	_	_	_	_	bratT70=Organization
 6	РПЛ	_	_	_	_	_	_	_	bratT28=Organization
 7	может	_	_	_	_	_	_	_	_
 8	быть	_	_	_	_	_	_	_	_
@@ -209,8 +209,8 @@
 3	минувшего	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute|bratT64=Ordinal
 4	трансферного	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
 5	окна	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
-6	петербургский	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratT38=GPE
-7	клуб	_	_	_	_	_	_	_	_
+6	петербургский	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratT38=GPE|bratT71=Organization
+7	клуб	_	_	_	_	_	_	_	bratT71=Organization
 8	приобрел	_	_	_	_	_	_	_	_
 9	двух	_	_	_	_	_	_	_	bratT40=Quantity
 10	иностранных	_	_	_	_	_	_	_	bratT39=Person-property|bratT40=Quantity
@@ -272,7 +272,7 @@
 
 # sent_id = 0113-p7-s2
 # text = Команда уступает только ЦСКА, у которого 31 балл.
-1	Команда	_	_	_	_	_	_	_	_
+1	Команда	_	_	_	_	_	_	_	bratT68=Organization
 2	уступает	_	_	_	_	_	_	_	_
 3	только	_	_	_	_	_	_	_	_
 4	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Organization

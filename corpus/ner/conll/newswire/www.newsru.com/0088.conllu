@@ -70,7 +70,7 @@
 15	машин	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
 16	,	_	_	_	_	_	_	_	_
 17	реализованных	_	_	_	_	_	_	_	_
-18	компанией	_	_	_	_	_	_	_	_
+18	компанией	_	_	_	_	_	_	_	bratT2=Organization
 19	с	_	_	_	_	_	_	_	bratA10=T25:RCont|bratA9=T25:Past-Pres|bratT25=Date-period-absolute
 20	момента	_	_	_	_	_	_	_	bratA10=T25:RCont|bratA9=T25:Past-Pres|bratT25=Date-period-absolute
 21	старта	_	_	_	_	_	_	_	bratA10=T25:RCont|bratA9=T25:Past-Pres|bratT25=Date-period-absolute|bratT35=Event
@@ -121,8 +121,8 @@
 5	приходилось	_	_	_	_	_	_	_	_
 6	эвакуировать	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	сервисные	_	_	_	_	_	_	_	_
-9	центры	_	_	_	_	_	_	_	SpaceAfter=No
+8	сервисные	_	_	_	_	_	_	_	bratT14=Organization
+9	центры	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0088-p4
@@ -170,7 +170,7 @@
 5	для	_	_	_	_	_	_	_	_
 6	устранения	_	_	_	_	_	_	_	_
 7	проблемы	_	_	_	_	_	_	_	_
-8	компании	_	_	_	_	_	_	_	_
+8	компании	_	_	_	_	_	_	_	bratT37=Organization
 9	придется	_	_	_	_	_	_	_	_
 10	внести	_	_	_	_	_	_	_	_
 11	изменения	_	_	_	_	_	_	_	_

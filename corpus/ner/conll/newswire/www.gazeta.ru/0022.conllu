@@ -21,8 +21,8 @@
 2	подтопления	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	открытом	_	_	_	_	_	_	_	_
-5	инфекционном	_	_	_	_	_	_	_	_
-6	центре	_	_	_	_	_	_	_	_
+5	инфекционном	_	_	_	_	_	_	_	bratT19=Facility
+6	центре	_	_	_	_	_	_	_	bratT19=Facility
 7	от	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
 8	11	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
 9	ноября	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
@@ -120,7 +120,7 @@
 # sent_id = 0022-p5-s1
 # text = Ранее СМИ писали, что ночью в больницу стала поступать вода из мест расположения коммуникаций.
 1	Ранее	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-relative
-2	СМИ	_	_	_	_	_	_	_	_
+2	СМИ	_	_	_	_	_	_	_	bratA7=T20:Media|bratT20=Organization
 3	писали	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

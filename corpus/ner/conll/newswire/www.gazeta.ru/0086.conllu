@@ -28,10 +28,10 @@
 7	Тедеско	_	_	_	_	_	_	_	bratA7=T8:Male|bratT28=Person-surname|bratT8=Person
 8	после	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
 9	матча	_	_	_	_	_	_	_	bratA4=T25:Past|bratT10=Event|bratT25=Date-absolute
-10	Российской	_	_	_	_	_	_	_	bratA11=T33:Adjective|bratT10=Event|bratT20=Organization|bratT33=GPE
-11	премьер-лиги	_	_	_	_	_	_	_	bratT10=Event|bratT20=Organization
+10	Российской	_	_	_	_	_	_	_	bratA11=T33:Adjective|bratT10=Event|bratT20=Event|bratT33=GPE
+11	премьер-лиги	_	_	_	_	_	_	_	bratT10=Event|bratT20=Event
 12	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
-13	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT21=Organization
+13	РПЛ	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT21=Event
 14	)	_	_	_	_	_	_	_	bratT10=Event
 15	против	_	_	_	_	_	_	_	_
 16	екатеринбургского	_	_	_	_	_	_	_	bratA12=T34:Adjective|bratT34=GPE|bratT9=Organization
@@ -39,7 +39,7 @@
 18	Урала	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Location|bratT9=Organization
 19	''	_	_	_	_	_	_	_	bratT9=Organization
 20	предоставил	_	_	_	_	_	_	_	_
-21	команде	_	_	_	_	_	_	_	_
+21	команде	_	_	_	_	_	_	_	bratT40=Organization
 22	десятидневный	_	_	_	_	_	_	_	bratA1=T26:Past-UNK|bratT22=Duration|bratT26=Date-period-relative
 23	отдых	_	_	_	_	_	_	_	_
 24	и	_	_	_	_	_	_	_	_

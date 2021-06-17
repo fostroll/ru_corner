@@ -43,7 +43,7 @@
 4	официальный	_	_	_	_	_	_	_	bratA6=T8:Male|bratT8=Person|bratT9=Person-property
 5	представитель	_	_	_	_	_	_	_	bratA6=T8:Male|bratT8=Person|bratT9=Person-property
 6	генсека	_	_	_	_	_	_	_	bratA6=T8:Male|bratT25=Person-property|bratT8=Person|bratT9=Person-property
-7	организации	_	_	_	_	_	_	_	bratA6=T8:Male|bratT25=Person-property|bratT8=Person|bratT9=Person-property
+7	организации	_	_	_	_	_	_	_	bratA6=T8:Male|bratT25=Person-property|bratT36=Organization|bratT8=Person|bratT9=Person-property
 8	Стефан	_	_	_	_	_	_	_	bratA6=T8:Male|bratT29=Person-forename|bratT8=Person
 9	Дюжаррик	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Male|bratT30=Person-surname|bratT8=Person
 10	,	_	_	_	_	_	_	_	_
@@ -59,15 +59,15 @@
 # sent_id = 0065-p3-s1
 # text = ``Управление по координации гуманитарных вопросов и другие отделения ООН готовы сотрудничать и обсуждать возможности совместных действий на земле с целью проведения первоначальной независимой оценки в Нагорном Карабахе и окружающих областях для полного понимания гуманитарных потребностей в регионе'', - сказал представитель генсека.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Управление	_	_	_	_	_	_	_	bratA2=T12:Department|bratT12=Organization
-3	по	_	_	_	_	_	_	_	bratA2=T12:Department|bratT12=Organization
-4	координации	_	_	_	_	_	_	_	bratA2=T12:Department|bratT12=Organization
-5	гуманитарных	_	_	_	_	_	_	_	bratA2=T12:Department|bratT12=Organization
-6	вопросов	_	_	_	_	_	_	_	bratA2=T12:Department|bratT12=Organization
+2	Управление	_	_	_	_	_	_	_	bratT12=Organization
+3	по	_	_	_	_	_	_	_	bratT12=Organization
+4	координации	_	_	_	_	_	_	_	bratT12=Organization
+5	гуманитарных	_	_	_	_	_	_	_	bratT12=Organization
+6	вопросов	_	_	_	_	_	_	_	bratT12=Organization
 7	и	_	_	_	_	_	_	_	_
 8	другие	_	_	_	_	_	_	_	_
-9	отделения	_	_	_	_	_	_	_	_
-10	ООН	_	_	_	_	_	_	_	bratT11=Organization
+9	отделения	_	_	_	_	_	_	_	bratT37=Organization
+10	ООН	_	_	_	_	_	_	_	bratT11=Organization|bratT37=Organization
 11	готовы	_	_	_	_	_	_	_	_
 12	сотрудничать	_	_	_	_	_	_	_	_
 13	и	_	_	_	_	_	_	_	_

@@ -52,10 +52,10 @@
 3	ТАСС	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
 4	сообщила	_	_	_	_	_	_	_	_
 5	начальник	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
-6	управления	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
-7	информационной	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
-8	политики	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
-9	региона	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person
+6	управления	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person|bratT76=Organization
+7	информационной	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person|bratT76=Organization
+8	политики	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person|bratT76=Organization
+9	региона	_	_	_	_	_	_	_	bratA17=T12:Female|bratT11=Person-property|bratT12=Person|bratT75=GPE|bratT76=Organization
 10	Татьяна	_	_	_	_	_	_	_	bratA17=T12:Female|bratT12=Person|bratT57=Person-forename
 11	Самотойлова	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T12:Female|bratT12=Person|bratT58=Person-surname
 12	.	_	_	_	_	_	_	_	_
@@ -69,9 +69,9 @@
 3	курировать	_	_	_	_	_	_	_	_
 4	промышленность	_	_	_	_	_	_	_	_
 5	и	_	_	_	_	_	_	_	_
-6	службу	_	_	_	_	_	_	_	_
-7	занятости	_	_	_	_	_	_	_	_
-8	региона	_	_	_	_	_	_	_	SpaceAfter=No
+6	службу	_	_	_	_	_	_	_	bratT73=Organization
+7	занятости	_	_	_	_	_	_	_	bratT73=Organization
+8	региона	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Organization|bratT74=GPE
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0099-p3-s2
@@ -102,7 +102,7 @@
 2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property|bratT69=Person
 4	Тамбовской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE|bratT69=Person
-5	городской	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT69=Person
+5	городской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE|bratT69=Person
 6	думы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT69=Person
 7	на	_	_	_	_	_	_	_	_
 8	очередном	_	_	_	_	_	_	_	_
@@ -117,7 +117,7 @@
 # text = Новым главой города стал Максим Косенков.
 1	Новым	_	_	_	_	_	_	_	bratT22=Person-property
 2	главой	_	_	_	_	_	_	_	bratT22=Person-property
-3	города	_	_	_	_	_	_	_	bratT22=Person-property
+3	города	_	_	_	_	_	_	_	bratT22=Person-property|bratT77=GPE
 4	стал	_	_	_	_	_	_	_	_
 5	Максим	_	_	_	_	_	_	_	bratA13=T23:Male|bratT23=Person|bratT60=Person-forename
 6	Косенков	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T23:Male|bratT23=Person|bratT61=Person-surname
@@ -178,7 +178,7 @@
 4	месяце	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute
 5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property|bratT70=Person
 6	Тамбовской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE|bratT70=Person
-7	городской	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT70=Person
+7	городской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE|bratT70=Person
 8	думы	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT70=Person
 9	решили	_	_	_	_	_	_	_	_
 10	выписать	_	_	_	_	_	_	_	_
@@ -190,7 +190,7 @@
 16	денежных	_	_	_	_	_	_	_	bratT33=Quantity
 17	вознаграждений	_	_	_	_	_	_	_	bratT33=Quantity
 18	главе	_	_	_	_	_	_	_	bratT34=Person-property
-19	города	_	_	_	_	_	_	_	bratT34=Person-property
+19	города	_	_	_	_	_	_	_	bratT34=Person-property|bratT78=GPE
 20	и	_	_	_	_	_	_	_	_
 21	другим	_	_	_	_	_	_	_	_
 22	чиновникам	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property

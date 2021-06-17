@@ -21,11 +21,11 @@
 # text = Футболисты и тренерский штаб ``Наполи'' не сумели отправиться на выездную игру седьмого тура Серии А чемпионата Италии с ``Болоньей'' из-за поломки самолёта.
 1	Футболисты	_	_	_	_	_	_	_	bratT3=Person-property
 2	и	_	_	_	_	_	_	_	_
-3	тренерский	_	_	_	_	_	_	_	_
-4	штаб	_	_	_	_	_	_	_	_
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
-6	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT52=GPE
-7	''	_	_	_	_	_	_	_	bratT4=Organization
+3	тренерский	_	_	_	_	_	_	_	bratT57=Organization
+4	штаб	_	_	_	_	_	_	_	bratT57=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT57=Organization
+6	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT52=GPE|bratT57=Organization
+7	''	_	_	_	_	_	_	_	bratT4=Organization|bratT57=Organization
 8	не	_	_	_	_	_	_	_	_
 9	сумели	_	_	_	_	_	_	_	_
 10	отправиться	_	_	_	_	_	_	_	_
@@ -56,9 +56,9 @@
 3	портал	_	_	_	_	_	_	_	bratA1=T10:Media|bratT10=Organization
 4	Football-Italia	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
 5	,	_	_	_	_	_	_	_	_
-6	команда	_	_	_	_	_	_	_	_
-7	Дженнаро	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT43=Person-forename
-8	Гаттузо	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT48=Person-surname
+6	команда	_	_	_	_	_	_	_	bratT58=Organization
+7	Дженнаро	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT43=Person-forename|bratT58=Organization
+8	Гаттузо	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT48=Person-surname|bratT58=Organization
 9	должна	_	_	_	_	_	_	_	_
 10	была	_	_	_	_	_	_	_	_
 11	вылететь	_	_	_	_	_	_	_	_
@@ -98,8 +98,8 @@
 1	В	_	_	_	_	_	_	_	_
 2	итоге	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	футбольный	_	_	_	_	_	_	_	_
-5	клуб	_	_	_	_	_	_	_	_
+4	футбольный	_	_	_	_	_	_	_	bratT60=Organization
+5	клуб	_	_	_	_	_	_	_	bratT60=Organization
 6	принял	_	_	_	_	_	_	_	_
 7	решение	_	_	_	_	_	_	_	_
 8	перенести	_	_	_	_	_	_	_	_
@@ -173,8 +173,8 @@
 4	7	_	_	_	_	_	_	_	bratA5=T23:Past|bratT23=Date-absolute
 5	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Past|bratT23=Date-absolute
 6	,	_	_	_	_	_	_	_	_
-7	парижская	_	_	_	_	_	_	_	bratA8=T50:Adjective|bratT50=GPE
-8	команда	_	_	_	_	_	_	_	_
+7	парижская	_	_	_	_	_	_	_	bratA8=T50:Adjective|bratT50=GPE|bratT59=Organization
+8	команда	_	_	_	_	_	_	_	bratT59=Organization
 9	обыграла	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
 11	Ренн	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
