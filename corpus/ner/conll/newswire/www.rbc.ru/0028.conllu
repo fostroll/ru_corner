@@ -104,12 +104,15 @@
 13	воспользоваться	_	_	_	_	_	_	_	_
 14	табличками	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
-16	QR-кодами	_	_	_	_	_	_	_	bratT6=Other-term
-17	при	_	_	_	_	_	_	_	_
-18	входе	_	_	_	_	_	_	_	_
-19	на	_	_	_	_	_	_	_	_
-20	каток	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Facility
-21	.	_	_	_	_	_	_	_	_
+16-18	QR-кодами	_	_	_	_	_	_	_	_
+16	QR	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Other-term
+17	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Other-term
+18	кодами	_	_	_	_	_	_	_	bratT6=Other-term
+19	при	_	_	_	_	_	_	_	_
+20	входе	_	_	_	_	_	_	_	_
+21	на	_	_	_	_	_	_	_	_
+22	каток	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Facility
+23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0028-p5
 # par_text = Всем желающим прокатиться придется зарегистрироваться по специальному QR-коду. Действует та же схема, что и ранее отработанная в московских барах и кафе. Если заболеет кто-то из посетителей, о возможной опасности будут оповещены все, кто мог с ним контактировать.
@@ -122,8 +125,11 @@
 5	зарегистрироваться	_	_	_	_	_	_	_	_
 6	по	_	_	_	_	_	_	_	_
 7	специальному	_	_	_	_	_	_	_	_
-8	QR-коду	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
-9	.	_	_	_	_	_	_	_	_
+8-10	QR-коду	_	_	_	_	_	_	_	SpaceAfter=No
+8	QR	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Other-term
+9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Other-term
+10	коду	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0028-p5-s2
 # text = Действует та же схема, что и ранее отработанная в московских барах и кафе.
@@ -243,8 +249,11 @@
 # sent_id = 0028-p10-s1
 # text = Парк 50-летия Октября
 1	Парк	_	_	_	_	_	_	_	bratT35=Location
-2	50-летия	_	_	_	_	_	_	_	bratT35=Location|bratT36=Age
-3	Октября	_	_	_	_	_	_	_	bratT29=Event|bratT35=Location
+2-4	50-летия	_	_	_	_	_	_	_	_
+2	50	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT35=Location|bratT36=Age
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT35=Location|bratT36=Age
+4	летия	_	_	_	_	_	_	_	bratT35=Location|bratT36=Age
+5	Октября	_	_	_	_	_	_	_	bratT29=Event|bratT35=Location
 
 # newpar id = 0028-p11
 # par_text = Ландшафтный парк «Митино»

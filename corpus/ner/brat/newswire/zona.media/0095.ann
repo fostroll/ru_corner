@@ -1,69 +1,69 @@
 T1	Person-property 9 33	пермского   нацгвардейца
 T2	GPE 9 18	пермского
 A1	Adjective T2
-T3	Age 88 97	11-летним
-T4	Quantity 128 156	еще   два   уголовных   дела
-T5	GPE 162 167	Перми
-T6	Organization 170 207	управление   Следственного   комитета
-T7	Quantity 222 250	еще   два   уголовных   дела
-T8	Person-property 262 285	лейтенанта   Нацгвардии
-T9	Organization 275 285	Нацгвардии
-T10	Age 340 349	11-летним
-T11	Organization 379 398	``   Медиазоне   ''
+T3	Age 88 99	11 - летним
+T4	Quantity 130 158	еще   два   уголовных   дела
+T5	GPE 164 169	Перми
+T6	Organization 172 209	управление   Следственного   комитета
+T7	Quantity 224 252	еще   два   уголовных   дела
+T8	Person-property 264 287	лейтенанта   Нацгвардии
+T9	Organization 277 287	Нацгвардии
+T10	Age 342 353	11 - летним
+T11	Organization 383 402	``   Медиазоне   ''
 A2	Media T11
-T12	Organization 405 457	правозащитной   организации   ``   Зона   права   ''
-T13	Person 463 551	Начальнику   продовольственной   службы   войсковой   части   №   3411   Сухробу   Ерову
+T12	Organization 409 461	правозащитной   организации   ``   Зона   права   ''
+T13	Person 467 555	Начальнику   продовольственной   службы   войсковой   части   №   3411   Сухробу   Ерову
 A3	Male T13
-T14	Person-property 463 533	Начальнику   продовольственной   службы   войсковой   части   №   3411
-T15	Person-forename 536 543	Сухробу
-T16	Person-surname 546 551	Ерову
-T17	Organization 505 533	войсковой   части   №   3411
-T18	Ordinal 525 533	№   3411
-T19	Law 620 637	статья   139   УК
-T20	Family 689 696	матерью
-T21	Law 714 761	часть   1   статьи   30   ,   статья   132   УК
-T22	Date-absolute 801 813	3   сентября
+T14	Person-property 467 537	Начальнику   продовольственной   службы   войсковой   части   №   3411
+T15	Person-forename 540 547	Сухробу
+T16	Person-surname 550 555	Ерову
+T17	Organization 509 537	войсковой   части   №   3411
+T18	Ordinal 529 537	№   3411
+T19	Law 624 641	статья   139   УК
+T20	Family 693 700	матерью
+T21	Law 718 765	часть   1   статьи   30   ,   статья   132   УК
+T22	Date-absolute 805 817	3   сентября
 A5	Past T22
-T23	GPE 820 825	Перми
-T24	Age 828 837	24-летний
-T25	Person 840 844	Еров
+T23	GPE 824 829	Перми
+T24	Age 832 843	24 - летний
+T25	Person 846 850	Еров
 A6	Male T25
-T26	Person-surname 840 844	Еров
-T27	Age 986 995	11-летний
-T28	Family 967 971	мать
-T29	Family 998 1001	сын
-T30	Person-property 1023 1032	сотрудник
-T31	Age 1068 1076	ребенком
-T32	Date-relative 1082 1087	Ранее
-T33	Person 1099 1104	Ерова
+T26	Person-surname 846 850	Еров
+T27	Age 992 1003	11 - летний
+T28	Family 973 977	мать
+T29	Family 1006 1009	сын
+T30	Person-property 1031 1040	сотрудник
+T31	Age 1076 1084	ребенком
+T32	Date-relative 1090 1095	Ранее
+T33	Person 1107 1112	Ерова
 A7	Male T33
-T34	Person-surname 1099 1104	Ерова
-T35	Law 1229 1258	часть   4   статьи   132   УК
-T36	Person-property 1289 1299	обвиняемый
-T37	Person 1428 1432	Еров
+T34	Person-surname 1107 1112	Ерова
+T35	Law 1237 1266	часть   4   статьи   132   УК
+T36	Person-property 1297 1307	обвиняемый
+T37	Person 1436 1440	Еров
 A8	Male T37
-T38	Person-surname 1428 1432	Еров
-T40	Person-property 1466 1477	потерпевший
-T41	Date-absolute 1419 1425	Сейчас
+T38	Person-surname 1436 1440	Еров
+T40	Person-property 1474 1485	потерпевший
+T41	Date-absolute 1427 1433	Сейчас
 A9	Present T41
-T42	Ordinal 629 632	139
-T43	Law 635 637	УК
-T44	Ordinal 722 723	1
-T46	Ordinal 735 737	30
-T47	Ordinal 753 756	132
-T48	Law 759 761	УК
+T42	Ordinal 633 636	139
+T43	Law 639 641	УК
+T44	Ordinal 726 727	1
+T46	Ordinal 739 741	30
+T47	Ordinal 757 760	132
+T48	Law 763 765	УК
 A10	Past T32
-T50	Ordinal 1237 1238	4
-T51	Ordinal 1250 1253	132
-T52	Law 1256 1258	УК
-T39	Organization 1451 1455	СИЗО
-T45	Event 1119 1123	дело
-T49	Event 234 250	уголовных   дела
-T53	Event 140 156	уголовных   дела
+T50	Ordinal 1245 1246	4
+T51	Ordinal 1258 1261	132
+T52	Law 1264 1266	УК
+T39	Organization 1459 1463	СИЗО
+T45	Event 1127 1131	дело
+T49	Event 236 252	уголовных   дела
+T53	Event 142 158	уголовных   дела
 T54	Event 58 79	сексуальном   насилии
-T55	Event 310 331	сексуальном   насилии
-T56	Event 658 680	сексуального   насилия
-T57	Event 936 957	сексуальное   насилие
-T58	Event 1046 1053	насилие
-T59	Organization 476 533	продовольственной   службы   войсковой   части   №   3411
+T55	Event 312 333	сексуальном   насилии
+T56	Event 662 684	сексуального   насилия
+T57	Event 942 963	сексуальное   насилие
+T58	Event 1054 1061	насилие
+T59	Organization 480 537	продовольственной   службы   войсковой   части   №   3411
 A4	Department T59

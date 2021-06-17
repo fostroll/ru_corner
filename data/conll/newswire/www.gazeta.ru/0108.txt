@@ -136,15 +136,18 @@
 # sent_id = 0108-p6-s1
 # text = «Газета.Ru» ведет онлайн-трансляцию поединка.
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-2-20	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No
+2-4	Газета.Ru	_	_	_	_	_	_	_	SpaceAfter=No
 2	Газета	_	_	_	_	_	_	_	SpaceAfter=No
-2	.	_	_	_	_	_	_	_	SpaceAfter=No
-20	Ru	_	_	_	_	_	_	_	SpaceAfter=No
-3	''	_	_	_	_	_	_	_	QuotationEnd=»
-4	ведет	_	_	_	_	_	_	_	_
-5	онлайн-трансляцию	_	_	_	_	_	_	_	_
-6	поединка	_	_	_	_	_	_	_	SpaceAfter=No
-7	.	_	_	_	_	_	_	_	_
+3	.	_	_	_	_	_	_	_	SpaceAfter=No
+4	Ru	_	_	_	_	_	_	_	SpaceAfter=No
+5	''	_	_	_	_	_	_	_	QuotationEnd=»
+6	ведет	_	_	_	_	_	_	_	_
+7-9	онлайн-трансляцию	_	_	_	_	_	_	_	_
+7	онлайн	_	_	_	_	_	_	_	SpaceAfter=Yes
+8	-	_	_	_	_	_	_	_	SpaceAfter=Yes
+9	трансляцию	_	_	_	_	_	_	_	_
+10	поединка	_	_	_	_	_	_	_	SpaceAfter=No
+11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0108-p6-s2
 # text = Ранее стали известны составы ``Спартака'' и ``Динамо'' на матч РПЛ.

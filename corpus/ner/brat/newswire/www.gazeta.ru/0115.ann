@@ -1,48 +1,48 @@
-T1	Person 0 22	Экс-фигурист   Авербух
-T2	Person 78 107	Экс-фигурист   Илья   Авербух
-T3	Person 54 76	актрисой   Арзамасовой
-T4	Person-property 54 62	актрисой
-T5	Person-property 0 12	Экс-фигурист
-T6	Person-property 78 90	Экс-фигурист
-T7	Person 139 174	актрисой   Елизаветой   Арзамасовой
-T8	Person-property 139 147	актрисой
-T9	Person 412 419	Авербух
-T10	Person 437 466	журналисту   Василию   Конову
-T11	Person-property 437 447	журналисту
-T12	Service 474 497	YouTube-канале   KonOff
+T1	Person 0 24	Экс - фигурист   Авербух
+T2	Person 80 111	Экс - фигурист   Илья   Авербух
+T3	Person 56 78	актрисой   Арзамасовой
+T4	Person-property 56 64	актрисой
+T5	Person-property 0 14	Экс - фигурист
+T6	Person-property 80 94	Экс - фигурист
+T7	Person 143 178	актрисой   Елизаветой   Арзамасовой
+T8	Person-property 143 151	актрисой
+T9	Person 416 423	Авербух
+T10	Person 441 470	журналисту   Василию   Конову
+T11	Person-property 441 451	журналисту
+T12	Service 478 503	YouTube - канале   KonOff
 A1	Media T12
-T13	Person 518 525	Авербух
-T14	Person-property 539 569	чемпионом   мира   2002   года
-T15	Date-absolute 558 569	2002   года
-T16	Person 582 590	Авербуху
-T17	Person 624 642	Елены   Исинбаевой
-T18	Work-of-art 650 680	``   Ледниковом   периоде   ''
-T19	Duration 185 201	Какое-то   время
-T20	Date-relative 574 579	Ранее
-T21	GPE 551 555	мира
-T22	Date-period-relative 185 201	Какое-то   время
+T13	Person 524 531	Авербух
+T14	Person-property 545 575	чемпионом   мира   2002   года
+T15	Date-absolute 564 575	2002   года
+T16	Person 588 596	Авербуху
+T17	Person 630 648	Елены   Исинбаевой
+T18	Work-of-art 656 686	``   Ледниковом   периоде   ''
+T19	Duration 189 205	Какое-то   время
+T20	Date-relative 580 585	Ранее
+T21	GPE 557 561	мира
+T22	Date-period-relative 189 205	Какое-то   время
 A2	Past T22
 A3	Past T15
 A4	Past T20
-T23	Person-surname 15 22	Авербух
+T23	Person-surname 17 24	Авербух
 A5	Male T1
-T24	Person-surname 65 76	Арзамасовой
+T24	Person-surname 67 78	Арзамасовой
 A6	Female T3
 A7	Male T2
-T25	Person-forename 93 97	Илья
-T26	Person-surname 100 107	Авербух
-T27	Person-forename 150 160	Елизаветой
-T28	Person-surname 163 174	Арзамасовой
+T25	Person-forename 97 101	Илья
+T26	Person-surname 104 111	Авербух
+T27	Person-forename 154 164	Елизаветой
+T28	Person-surname 167 178	Арзамасовой
 A8	Female T7
 A9	Male T9
-T29	Person-surname 412 419	Авербух
-T30	Person-forename 450 457	Василию
-T31	Person-surname 460 466	Конову
+T29	Person-surname 416 423	Авербух
+T30	Person-forename 454 461	Василию
+T31	Person-surname 464 470	Конову
 A10	Male T10
-T32	Person-surname 518 525	Авербух
+T32	Person-surname 524 531	Авербух
 A11	Male T13
-T33	Person-surname 582 590	Авербуху
+T33	Person-surname 588 596	Авербуху
 A12	Male T16
-T34	Person-forename 624 629	Елены
-T35	Person-surname 632 642	Исинбаевой
+T34	Person-forename 630 635	Елены
+T35	Person-surname 638 648	Исинбаевой
 A13	Female T17

@@ -48,17 +48,23 @@
 # text = И для 47-летней Кэмерон, и для 40-летнего Бенджи это первый ребенок.
 1	И	_	_	_	_	_	_	_	_
 2	для	_	_	_	_	_	_	_	_
-3	47-летней	_	_	_	_	_	_	_	bratT8=Age
-4	Кэмерон	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T9:Female|bratT25=Person-forename|bratT9=Person
-5	,	_	_	_	_	_	_	_	_
-6	и	_	_	_	_	_	_	_	_
-7	для	_	_	_	_	_	_	_	_
-8	40-летнего	_	_	_	_	_	_	_	bratT10=Age
-9	Бенджи	_	_	_	_	_	_	_	bratA9=T26:Male|bratT11=Person-forename|bratT26=Person
-10	это	_	_	_	_	_	_	_	_
-11	первый	_	_	_	_	_	_	_	bratT12=Ordinal|bratT30=Family
-12	ребенок	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Family
-13	.	_	_	_	_	_	_	_	_
+3-5	47-летней	_	_	_	_	_	_	_	_
+3	47	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT8=Age
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT8=Age
+5	летней	_	_	_	_	_	_	_	bratT8=Age
+6	Кэмерон	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T9:Female|bratT25=Person-forename|bratT9=Person
+7	,	_	_	_	_	_	_	_	_
+8	и	_	_	_	_	_	_	_	_
+9	для	_	_	_	_	_	_	_	_
+10-12	40-летнего	_	_	_	_	_	_	_	_
+10	40	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
+11	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
+12	летнего	_	_	_	_	_	_	_	bratT10=Age
+13	Бенджи	_	_	_	_	_	_	_	bratA9=T26:Male|bratT11=Person-forename|bratT26=Person
+14	это	_	_	_	_	_	_	_	_
+15	первый	_	_	_	_	_	_	_	bratT12=Ordinal|bratT30=Family
+16	ребенок	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Family
+17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p2-s4
 # text = О том, что в их семье теперь на одного человека больше, супруги, как и полагается, сообщили через инстаграм.

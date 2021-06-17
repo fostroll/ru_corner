@@ -1,56 +1,56 @@
-T1	Person 0 45	Супруга   экс-президента   Армении   Саргсяна
-T2	Person-property 10 34	экс-президента   Армении
-T3	Other-term 66 76	COVID - 19
-T4	Person 78 151	Жена   бывшего   президента   Армении   Сержа   Саргсяна   Рита   Саргсян
-T5	Family 78 82	Жена
-T6	Person 85 134	бывшего   президента   Армении   Сержа   Саргсяна
-T7	Person-property 85 115	бывшего   президента   Армении
-T8	Other-term 172 184	коронавируса
-T9	GPE 27 34	Армении
-T10	GPE 108 115	Армении
-T11	Age 202 210	58   лет
-T12	Organization 228 232	ТАСС
+T1	Person 0 47	Супруга   экс - президента   Армении   Саргсяна
+T2	Person-property 10 36	экс - президента   Армении
+T3	Other-term 68 78	COVID - 19
+T4	Person 80 153	Жена   бывшего   президента   Армении   Сержа   Саргсяна   Рита   Саргсян
+T5	Family 80 84	Жена
+T6	Person 87 136	бывшего   президента   Армении   Сержа   Саргсяна
+T7	Person-property 87 117	бывшего   президента   Армении
+T8	Other-term 174 186	коронавируса
+T9	GPE 29 36	Армении
+T10	GPE 110 117	Армении
+T11	Age 204 212	58   лет
+T12	Organization 230 234	ТАСС
 A1	Media T12
-T13	Organization 255 290	канцелярию   экс-главы   республики
+T13	Organization 257 294	канцелярию   экс - главы   республики
 A2	Department T13
-T14	Person-property 268 290	экс-главы   республики
-T15	Person 321 335	Рита   Саргсян
-T16	Person 497 542	Бывший   президент   Армении   Серж   Саргсян
-T17	Person-property 497 525	Бывший   президент   Армении
-T18	GPE 518 525	Армении
-T19	Person-property 555 581	пост   президента   страны
-T20	Date-absolute 584 599	в   2018   году
-T21	Person-property 623 640	премьер-министром
-T22	Person 721 729	Саргсяна
+T14	Person-property 270 294	экс - главы   республики
+T15	Person 325 339	Рита   Саргсян
+T16	Person 501 546	Бывший   президент   Армении   Серж   Саргсян
+T17	Person-property 501 529	Бывший   президент   Армении
+T18	GPE 522 529	Армении
+T19	Person-property 559 585	пост   президента   страны
+T20	Date-absolute 588 603	в   2018   году
+T21	Person-property 627 644	премьер-министром
+T22	Person 725 733	Саргсяна
 T23	Family 0 7	Супруга
-T24	Person 10 45	экс-президента   Армении   Саргсяна
-T25	Person-property 369 394	представитель   ведомства
-T26	Duration 451 467	несколько   дней
-T27	Date-period-absolute 433 467	перед   смертью   несколько   дней
+T24	Person 10 47	экс - президента   Армении   Саргсяна
+T25	Person-property 373 398	представитель   ведомства
+T26	Duration 455 471	несколько   дней
+T27	Date-period-absolute 437 471	перед   смертью   несколько   дней
 A3	Past T27
-T28	Event 441 448	смертью
+T28	Event 445 452	смертью
 A4	Past T20
-T29	Person-surname 37 45	Саргсяна
+T29	Person-surname 39 47	Саргсяна
 A5	Male T24
 A6	Female T1
-T30	Person-forename 118 123	Сержа
-T31	Person-surname 126 134	Саргсяна
-T32	Person-forename 137 141	Рита
-T33	Person-surname 144 151	Саргсян
+T30	Person-forename 120 125	Сержа
+T31	Person-surname 128 136	Саргсяна
+T32	Person-forename 139 143	Рита
+T33	Person-surname 146 153	Саргсян
 A7	Female T4
 A8	Male T6
 A9	Female T15
-T34	Person-forename 321 325	Рита
-T35	Person-surname 328 335	Саргсян
-T36	Person-forename 528 532	Серж
-T37	Person-surname 535 542	Саргсян
+T34	Person-forename 325 329	Рита
+T35	Person-surname 332 339	Саргсян
+T36	Person-forename 532 536	Серж
+T37	Person-surname 539 546	Саргсян
 A10	Male T16
-T38	Person-surname 721 729	Саргсяна
+T38	Person-surname 725 733	Саргсяна
 A11	Male T22
-T39	Event 745 753	отставку
-T40	Event 661 680	массовые   протесты
-T41	Cardinal 74 76	19
-T42	GPE 280 290	республики
-T43	GPE 575 581	страны
-T44	GPE 687 697	республике
-T45	Organization 385 394	ведомства
+T39	Event 749 757	отставку
+T40	Event 665 684	массовые   протесты
+T41	Cardinal 76 78	19
+T42	GPE 284 294	республики
+T43	GPE 579 585	страны
+T44	GPE 691 701	республике
+T45	Organization 389 398	ведомства

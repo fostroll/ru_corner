@@ -48,11 +48,14 @@
 16	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Male|bratT12=Person|bratT58=Person-surname
 17	,	_	_	_	_	_	_	_	_
 18	обезглавленного	_	_	_	_	_	_	_	_
-19	18-летним	_	_	_	_	_	_	_	bratT13=Age
-20	чеченцем	_	_	_	_	_	_	_	bratT14=Nationality
-21	Абдулахом	_	_	_	_	_	_	_	bratA5=T15:Male|bratT15=Person|bratT59=Person-forename
-22	Анзоровым	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T15:Male|bratT15=Person|bratT60=Person-surname
-23	.	_	_	_	_	_	_	_	_
+19-21	18-летним	_	_	_	_	_	_	_	_
+19	18	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age
+20	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age
+21	летним	_	_	_	_	_	_	_	bratT13=Age
+22	чеченцем	_	_	_	_	_	_	_	bratT14=Nationality
+23	Абдулахом	_	_	_	_	_	_	_	bratA5=T15:Male|bratT15=Person|bratT59=Person-forename
+24	Анзоровым	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T15:Male|bratT15=Person|bratT60=Person-surname
+25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p2-s2
 # text = Об этом сообщает ТАСС со ссылкой на AFP.
@@ -215,15 +218,18 @@
 2	образом	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	руках	_	_	_	_	_	_	_	_
-5	18-летнего	_	_	_	_	_	_	_	bratT54=Age
-6	юноши	_	_	_	_	_	_	_	_
-7	оказалась	_	_	_	_	_	_	_	_
-8	такая	_	_	_	_	_	_	_	_
-9	сумма	_	_	_	_	_	_	_	SpaceAfter=No
-10	,	_	_	_	_	_	_	_	_
-11	пока	_	_	_	_	_	_	_	_
-12	неизвестно	_	_	_	_	_	_	_	SpaceAfter=No
-13	.	_	_	_	_	_	_	_	_
+5-7	18-летнего	_	_	_	_	_	_	_	_
+5	18	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT54=Age
+6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT54=Age
+7	летнего	_	_	_	_	_	_	_	bratT54=Age
+8	юноши	_	_	_	_	_	_	_	_
+9	оказалась	_	_	_	_	_	_	_	_
+10	такая	_	_	_	_	_	_	_	_
+11	сумма	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	_	_	_	_	_	_	_	_
+13	пока	_	_	_	_	_	_	_	_
+14	неизвестно	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p6
 # par_text = Следователи выяснили, что деньги попали к 15-летнему школьнику, который в данный момент находится под стражей. Именно он указал преступнику на выходившего из школы 47-летнего Пати, который показывал ученикам карикатуры с изображением пророка Мухаммеда. При этом, как писала газета, пока ничто не позволяет сказать, что указавший на учителя школьник мог предположить, какой оборот примут события.
@@ -236,17 +242,20 @@
 5	деньги	_	_	_	_	_	_	_	_
 6	попали	_	_	_	_	_	_	_	_
 7	к	_	_	_	_	_	_	_	_
-8	15-летнему	_	_	_	_	_	_	_	bratT45=Age
-9	школьнику	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property
-10	,	_	_	_	_	_	_	_	_
-11	который	_	_	_	_	_	_	_	_
-12	в	_	_	_	_	_	_	_	bratA14=T55:Present|bratT55=Date-absolute
-13	данный	_	_	_	_	_	_	_	bratA14=T55:Present|bratT55=Date-absolute|bratT72=Ordinal
-14	момент	_	_	_	_	_	_	_	bratA14=T55:Present|bratT55=Date-absolute
-15	находится	_	_	_	_	_	_	_	_
-16	под	_	_	_	_	_	_	_	_
-17	стражей	_	_	_	_	_	_	_	SpaceAfter=No
-18	.	_	_	_	_	_	_	_	_
+8-10	15-летнему	_	_	_	_	_	_	_	_
+8	15	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT45=Age
+9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT45=Age
+10	летнему	_	_	_	_	_	_	_	bratT45=Age
+11	школьнику	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property
+12	,	_	_	_	_	_	_	_	_
+13	который	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	bratA14=T55:Present|bratT55=Date-absolute
+15	данный	_	_	_	_	_	_	_	bratA14=T55:Present|bratT55=Date-absolute|bratT72=Ordinal
+16	момент	_	_	_	_	_	_	_	bratA14=T55:Present|bratT55=Date-absolute
+17	находится	_	_	_	_	_	_	_	_
+18	под	_	_	_	_	_	_	_	_
+19	стражей	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p6-s2
 # text = Именно он указал преступнику на выходившего из школы 47-летнего Пати, который показывал ученикам карикатуры с изображением пророка Мухаммеда.
@@ -258,18 +267,21 @@
 6	выходившего	_	_	_	_	_	_	_	_
 7	из	_	_	_	_	_	_	_	_
 8	школы	_	_	_	_	_	_	_	bratT82=Facility
-9	47-летнего	_	_	_	_	_	_	_	bratT48=Age
-10	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T49:Male|bratT40=Person-surname|bratT49=Person
-11	,	_	_	_	_	_	_	_	_
-12	который	_	_	_	_	_	_	_	_
-13	показывал	_	_	_	_	_	_	_	_
-14	ученикам	_	_	_	_	_	_	_	_
-15	карикатуры	_	_	_	_	_	_	_	_
-16	с	_	_	_	_	_	_	_	_
-17	изображением	_	_	_	_	_	_	_	_
-18	пророка	_	_	_	_	_	_	_	bratA16=T51:Male|bratA20=T51:Fiction|bratT50=Person-property|bratT51=Person
-19	Мухаммеда	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T51:Male|bratA20=T51:Fiction|bratT51=Person|bratT69=Person-forename
-20	.	_	_	_	_	_	_	_	_
+9-11	47-летнего	_	_	_	_	_	_	_	_
+9	47	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT48=Age
+10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT48=Age
+11	летнего	_	_	_	_	_	_	_	bratT48=Age
+12	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T49:Male|bratT40=Person-surname|bratT49=Person
+13	,	_	_	_	_	_	_	_	_
+14	который	_	_	_	_	_	_	_	_
+15	показывал	_	_	_	_	_	_	_	_
+16	ученикам	_	_	_	_	_	_	_	_
+17	карикатуры	_	_	_	_	_	_	_	_
+18	с	_	_	_	_	_	_	_	_
+19	изображением	_	_	_	_	_	_	_	_
+20	пророка	_	_	_	_	_	_	_	bratA16=T51:Male|bratA20=T51:Fiction|bratT50=Person-property|bratT51=Person
+21	Мухаммеда	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T51:Male|bratA20=T51:Fiction|bratT51=Person|bratT69=Person-forename
+22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p6-s3
 # text = При этом, как писала газета, пока ничто не позволяет сказать, что указавший на учителя школьник мог предположить, какой оборот примут события.

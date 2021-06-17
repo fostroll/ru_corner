@@ -152,10 +152,13 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	сказал	_	_	_	_	_	_	_	_
-11	экс-капитан	_	_	_	_	_	_	_	bratT25=Person-property
-12	агентству	_	_	_	_	_	_	_	bratA8=T26:Media|bratT26=Organization
-13	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:Media|bratT26=Organization
-14	.	_	_	_	_	_	_	_	_
+11-13	экс-капитан	_	_	_	_	_	_	_	_
+11	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Person-property
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Person-property
+13	капитан	_	_	_	_	_	_	_	bratT25=Person-property
+14	агентству	_	_	_	_	_	_	_	bratA8=T26:Media|bratT26=Organization
+15	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:Media|bratT26=Organization
+16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0029-p4-s4
 # text = "Я в недоумении полном: на каком основании обвинение?

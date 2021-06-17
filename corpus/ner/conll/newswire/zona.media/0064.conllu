@@ -7,17 +7,20 @@
 2	из	_	_	_	_	_	_	_	bratT1=Person-property
 3	Беларуси	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
 4	стал	_	_	_	_	_	_	_	_
-5	вице-мэром	_	_	_	_	_	_	_	bratT3=Person-property
-6	Ялты	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=GPE
-7	;	_	_	_	_	_	_	_	_
-8	через	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative
-9	четыре	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative|bratT6=Duration
-10	дня	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative|bratT6=Duration
-11	его	_	_	_	_	_	_	_	_
-12	уволили	_	_	_	_	_	_	_	_
-13	за	_	_	_	_	_	_	_	_
-14	поддержку	_	_	_	_	_	_	_	_
-15	протестов	_	_	_	_	_	_	_	bratT51=Event
+5-7	вице-мэром	_	_	_	_	_	_	_	_
+5	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Person-property
+6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Person-property
+7	мэром	_	_	_	_	_	_	_	bratT3=Person-property
+8	Ялты	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=GPE
+9	;	_	_	_	_	_	_	_	_
+10	через	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative
+11	четыре	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative|bratT6=Duration
+12	дня	_	_	_	_	_	_	_	bratA16=T5:Past|bratT5=Date-relative|bratT6=Duration
+13	его	_	_	_	_	_	_	_	_
+14	уволили	_	_	_	_	_	_	_	_
+15	за	_	_	_	_	_	_	_	_
+16	поддержку	_	_	_	_	_	_	_	_
+17	протестов	_	_	_	_	_	_	_	bratT51=Event
 
 # newpar id = 0064-p2
 # par_text = Глава Ялты Иван Имгрунт уволил бывшего беларуского чиновника Михаила Загорцева, четыре дня назад назначенного вице-мэром города. Об этом сообщил сам Имгрунт. Он уточнил, что Загорцева сняли с должности «по факту поддержки оппозиции Белоруссии».
@@ -38,9 +41,12 @@
 13	дня	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute|bratT18=Duration
 14	назад	_	_	_	_	_	_	_	bratA4=T17:Past|bratT17=Date-absolute
 15	назначенного	_	_	_	_	_	_	_	_
-16	вице-мэром	_	_	_	_	_	_	_	bratT19=Person-property
-17	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT42=GPE
-18	.	_	_	_	_	_	_	_	_
+16-18	вице-мэром	_	_	_	_	_	_	_	_
+16	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT19=Person-property
+17	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT19=Person-property
+18	мэром	_	_	_	_	_	_	_	bratT19=Person-property
+19	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT42=GPE
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0064-p2-s2
 # text = Об этом сообщил сам Имгрунт.

@@ -169,20 +169,23 @@
 # text = В активе 26-летнего защитника девять матчей и один забитый мяч в чемпионате России нынешнего сезона.
 1	В	_	_	_	_	_	_	_	_
 2	активе	_	_	_	_	_	_	_	_
-3	26-летнего	_	_	_	_	_	_	_	bratT30=Age
-4	защитника	_	_	_	_	_	_	_	bratT31=Person-property
-5	девять	_	_	_	_	_	_	_	bratT32=Quantity
-6	матчей	_	_	_	_	_	_	_	bratT32=Quantity
-7	и	_	_	_	_	_	_	_	_
-8	один	_	_	_	_	_	_	_	bratT33=Quantity
-9	забитый	_	_	_	_	_	_	_	bratT33=Quantity
-10	мяч	_	_	_	_	_	_	_	bratT33=Quantity
-11	в	_	_	_	_	_	_	_	bratA21=T61:Past-Pres|bratT61=Date-period-absolute
-12	чемпионате	_	_	_	_	_	_	_	bratA21=T61:Past-Pres|bratT34=Event|bratT61=Date-period-absolute
-13	России	_	_	_	_	_	_	_	bratT34=Event|bratT35=GPE
-14	нынешнего	_	_	_	_	_	_	_	bratT34=Event|bratT42=Ordinal
-15	сезона	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Event
-16	.	_	_	_	_	_	_	_	_
+3-5	26-летнего	_	_	_	_	_	_	_	_
+3	26	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT30=Age
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT30=Age
+5	летнего	_	_	_	_	_	_	_	bratT30=Age
+6	защитника	_	_	_	_	_	_	_	bratT31=Person-property
+7	девять	_	_	_	_	_	_	_	bratT32=Quantity
+8	матчей	_	_	_	_	_	_	_	bratT32=Quantity
+9	и	_	_	_	_	_	_	_	_
+10	один	_	_	_	_	_	_	_	bratT33=Quantity
+11	забитый	_	_	_	_	_	_	_	bratT33=Quantity
+12	мяч	_	_	_	_	_	_	_	bratT33=Quantity
+13	в	_	_	_	_	_	_	_	bratA21=T61:Past-Pres|bratT61=Date-period-absolute
+14	чемпионате	_	_	_	_	_	_	_	bratA21=T61:Past-Pres|bratT34=Event|bratT61=Date-period-absolute
+15	России	_	_	_	_	_	_	_	bratT34=Event|bratT35=GPE
+16	нынешнего	_	_	_	_	_	_	_	bratT34=Event|bratT42=Ordinal
+17	сезона	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Event
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p4-s3
 # text = Самуэль Жиго никогда не привлекался в национальную сборную Франции по футболу.

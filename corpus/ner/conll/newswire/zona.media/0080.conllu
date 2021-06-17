@@ -4,23 +4,26 @@
 # sent_id = 0080-p1-s1
 # text = Подмосковного вице-премьера, занимавшего место Евгении Васильевой в Минобороны, арестовали по делу о поставках леса в Китай
 1	Подмосковного	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-2	вице-премьера	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
-3	,	_	_	_	_	_	_	_	_
-4	занимавшего	_	_	_	_	_	_	_	_
-5	место	_	_	_	_	_	_	_	_
-6	Евгении	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT4=Person-forename
-7	Васильевой	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT5=Person-surname
-8	в	_	_	_	_	_	_	_	_
-9	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
-10	,	_	_	_	_	_	_	_	_
-11	арестовали	_	_	_	_	_	_	_	_
-12	по	_	_	_	_	_	_	_	_
-13	делу	_	_	_	_	_	_	_	bratT38=Event
-14	о	_	_	_	_	_	_	_	_
-15	поставках	_	_	_	_	_	_	_	_
-16	леса	_	_	_	_	_	_	_	_
-17	в	_	_	_	_	_	_	_	_
-18	Китай	_	_	_	_	_	_	_	bratT7=GPE
+2-4	вице-премьера	_	_	_	_	_	_	_	SpaceAfter=No
+2	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT1=Person-property
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT1=Person-property
+4	премьера	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+5	,	_	_	_	_	_	_	_	_
+6	занимавшего	_	_	_	_	_	_	_	_
+7	место	_	_	_	_	_	_	_	_
+8	Евгении	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT4=Person-forename
+9	Васильевой	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT5=Person-surname
+10	в	_	_	_	_	_	_	_	_
+11	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+12	,	_	_	_	_	_	_	_	_
+13	арестовали	_	_	_	_	_	_	_	_
+14	по	_	_	_	_	_	_	_	_
+15	делу	_	_	_	_	_	_	_	bratT38=Event
+16	о	_	_	_	_	_	_	_	_
+17	поставках	_	_	_	_	_	_	_	_
+18	леса	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	Китай	_	_	_	_	_	_	_	bratT7=GPE
 
 # newpar id = 0080-p2
 # par_text = Басманный районный суд Москвы арестовал министра экологии и заместителя председателя правительства Подмосковья Дмитрия Куракина по делу о взятках (часть 6 статьи 290 УК). Об этом сообщает агентство «Москва» со ссылкой на пресс-службу суда.
@@ -123,28 +126,31 @@
 # par_text = Экс-главу департамента имущественных отношений Минобороны Евгению Васильеву приговорили к пяти годам колонии за многомилионные хищения при продаже имущества «Оборонсервиса». С конца июля 2015 года она отбывала наказание в колонии во Владимирской области, однако спустя месяц суд освободил ее по УДО.
 # sent_id = 0080-p4-s1
 # text = Экс-главу департамента имущественных отношений Минобороны Евгению Васильеву приговорили к пяти годам колонии за многомилионные хищения при продаже имущества «Оборонсервиса».
-1	Экс-главу	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property
-2	департамента	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization
-3	имущественных	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization
-4	отношений	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization
-5	Минобороны	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization|bratT50=Organization
-6	Евгению	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT46=Person-forename
-7	Васильеву	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT47=Person-surname
-8	приговорили	_	_	_	_	_	_	_	_
-9	к	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative
-10	пяти	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative|bratT81=Duration
-11	годам	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative|bratT81=Duration
-12	колонии	_	_	_	_	_	_	_	_
-13	за	_	_	_	_	_	_	_	_
-14	многомилионные	_	_	_	_	_	_	_	bratT82=Money
-15	хищения	_	_	_	_	_	_	_	_
-16	при	_	_	_	_	_	_	_	_
-17	продаже	_	_	_	_	_	_	_	_
-18	имущества	_	_	_	_	_	_	_	_
-19	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT52=Organization
-20	Оборонсервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
-21	''	_	_	_	_	_	_	_	QuotationEnd=»SpaceAfter=No|SpaceAfter=No|bratT52=Organization
-22	.	_	_	_	_	_	_	_	_
+1-3	Экс-главу	_	_	_	_	_	_	_	_
+1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA18=T45:Female|bratT45=Person|bratT48=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA18=T45:Female|bratT45=Person|bratT48=Person-property
+3	главу	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property
+4	департамента	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization
+5	имущественных	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization
+6	отношений	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization
+7	Минобороны	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT48=Person-property|bratT49=Organization|bratT50=Organization
+8	Евгению	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT46=Person-forename
+9	Васильеву	_	_	_	_	_	_	_	bratA18=T45:Female|bratT45=Person|bratT47=Person-surname
+10	приговорили	_	_	_	_	_	_	_	_
+11	к	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative
+12	пяти	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative|bratT81=Duration
+13	годам	_	_	_	_	_	_	_	bratA17=T51:Past-UNK|bratT51=Date-period-relative|bratT81=Duration
+14	колонии	_	_	_	_	_	_	_	_
+15	за	_	_	_	_	_	_	_	_
+16	многомилионные	_	_	_	_	_	_	_	bratT82=Money
+17	хищения	_	_	_	_	_	_	_	_
+18	при	_	_	_	_	_	_	_	_
+19	продаже	_	_	_	_	_	_	_	_
+20	имущества	_	_	_	_	_	_	_	_
+21	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT52=Organization
+22	Оборонсервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+23	''	_	_	_	_	_	_	_	QuotationEnd=»SpaceAfter=No|SpaceAfter=No|bratT52=Organization
+24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0080-p4-s2
 # text = С конца июля 2015 года она отбывала наказание в колонии во Владимирской области, однако спустя месяц суд освободил ее по УДО.

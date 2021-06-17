@@ -60,14 +60,17 @@
 34	)	_	_	_	_	_	_	_	_
 35	в	_	_	_	_	_	_	_	_
 36	кафе	_	_	_	_	_	_	_	bratT48=Facility
-37	33-летнего	_	_	_	_	_	_	_	bratT9=Age
-38	предпринимателя	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT13=Person-property
-39	из	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person
-40	города	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT14=GPE
-41	Отрадное	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT14=GPE
-42	Виталия	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT11=Person-forename
-43	Федосеева	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Male|bratT10=Person|bratT12=Person-surname
-44	.	_	_	_	_	_	_	_	_
+37-39	33-летнего	_	_	_	_	_	_	_	_
+37	33	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT9=Age
+38	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT9=Age
+39	летнего	_	_	_	_	_	_	_	bratT9=Age
+40	предпринимателя	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT13=Person-property
+41	из	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person
+42	города	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT14=GPE
+43	Отрадное	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT14=GPE
+44	Виталия	_	_	_	_	_	_	_	bratA1=T10:Male|bratT10=Person|bratT11=Person-forename
+45	Федосеева	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Male|bratT10=Person|bratT12=Person-surname
+46	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0108-p2-s2
 # text = Об этом сообщило областное управление Следственного комитета.
@@ -119,12 +122,15 @@
 11	оперуполномоченном	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT22=Person-property
 12	ГОВД	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT22=Person-property|bratT23=Organization
 13	Отрадного	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT22=Person-property|bratT23=Organization|bratT24=GPE
-14	33-летнем	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT25=Age
-15	старшем	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT26=Person-property
-16	лейтенанте	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT26=Person-property
-17	Рахипе	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT27=Person-forename
-18	Ихтиарове	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Male|bratT21=Person|bratT28=Person-surname
-19	.	_	_	_	_	_	_	_	_
+14-16	33-летнем	_	_	_	_	_	_	_	_
+14	33	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T21:Male|bratT21=Person|bratT25=Age
+15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T21:Male|bratT21=Person|bratT25=Age
+16	летнем	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT25=Age
+17	старшем	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT26=Person-property
+18	лейтенанте	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT26=Person-property
+19	Рахипе	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT27=Person-forename
+20	Ихтиарове	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Male|bratT21=Person|bratT28=Person-surname
+21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0108-p4
 # par_text = О возбуждении дела СК объявил 6 ноября. Согласно пресс-релизу, «несколько мужчин», среди которых был сотрудник полиции, избили других посетителей кафе в ночь на субботу 31 октября.

@@ -33,13 +33,16 @@
 9	Миллер	_	_	_	_	_	_	_	bratA5=T12:Female|bratT11=Person-surname|bratT12=Person
 10	с	_	_	_	_	_	_	_	_
 11	ее	_	_	_	_	_	_	_	bratA6=T18:Male|bratT18=Person
-12	29-летним	_	_	_	_	_	_	_	bratA6=T18:Male|bratT13=Age|bratT18=Person
-13	бойфрендом	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT14=Family|bratT18=Person
-14	,	_	_	_	_	_	_	_	bratA6=T18:Male|bratT18=Person
-15	галеристом	_	_	_	_	_	_	_	bratA6=T18:Male|bratT15=Person-property|bratT18=Person
-16	Лукасом	_	_	_	_	_	_	_	bratA6=T18:Male|bratT16=Person-forename|bratT18=Person
-17	Цвирнером	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT17=Person-surname|bratT18=Person
-18	.	_	_	_	_	_	_	_	_
+12-14	29-летним	_	_	_	_	_	_	_	_
+12	29	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T18:Male|bratT13=Age|bratT18=Person
+13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T18:Male|bratT13=Age|bratT18=Person
+14	летним	_	_	_	_	_	_	_	bratA6=T18:Male|bratT13=Age|bratT18=Person
+15	бойфрендом	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT14=Family|bratT18=Person
+16	,	_	_	_	_	_	_	_	bratA6=T18:Male|bratT18=Person
+17	галеристом	_	_	_	_	_	_	_	bratA6=T18:Male|bratT15=Person-property|bratT18=Person
+18	Лукасом	_	_	_	_	_	_	_	bratA6=T18:Male|bratT16=Person-forename|bratT18=Person
+19	Цвирнером	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT17=Person-surname|bratT18=Person
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p2-s2
 # text = Об их отношениях стало известно год назад - тогда они вместе появились на свадьбе Элли Голдинг и арт-дилера Каспара Джоплинга, а потом кружили на Венецианском балу с Дашей Жуковой и Дереком Бласбергом.
@@ -225,10 +228,13 @@
 6	на	_	_	_	_	_	_	_	_
 7	прогулке	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	экс-бойфрендом	_	_	_	_	_	_	_	bratA26=T75:Male|bratT72=Family|bratT75=Person
-10	Томом	_	_	_	_	_	_	_	bratA26=T75:Male|bratT73=Person-forename|bratT75=Person
-11	Старриджем	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Male|bratT74=Person-surname|bratT75=Person
-12	.	_	_	_	_	_	_	_	_
+9-11	экс-бойфрендом	_	_	_	_	_	_	_	_
+9	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA26=T75:Male|bratT72=Family|bratT75=Person
+10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA26=T75:Male|bratT72=Family|bratT75=Person
+11	бойфрендом	_	_	_	_	_	_	_	bratA26=T75:Male|bratT72=Family|bratT75=Person
+12	Томом	_	_	_	_	_	_	_	bratA26=T75:Male|bratT73=Person-forename|bratT75=Person
+13	Старриджем	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Male|bratT74=Person-surname|bratT75=Person
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p5-s2
 # text = О воссоединении говорить рано - после расставания Сиенна и Том поддерживают хорошие отношения и иногда встречаются как друзья.
@@ -260,10 +266,13 @@
 4	они	_	_	_	_	_	_	_	_
 5	вместе	_	_	_	_	_	_	_	_
 6	воспитывают	_	_	_	_	_	_	_	_
-7	8-летнюю	_	_	_	_	_	_	_	bratT81=Age
-8	дочь	_	_	_	_	_	_	_	bratA30=T84:Female|bratT82=Family|bratT84=Person
-9	Марлоу	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T84:Female|bratT83=Person-forename|bratT84=Person
-10	.	_	_	_	_	_	_	_	_
+7-9	8-летнюю	_	_	_	_	_	_	_	_
+7	8	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT81=Age
+8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT81=Age
+9	летнюю	_	_	_	_	_	_	_	bratT81=Age
+10	дочь	_	_	_	_	_	_	_	bratA30=T84:Female|bratT82=Family|bratT84=Person
+11	Марлоу	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T84:Female|bratT83=Person-forename|bratT84=Person
+12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p5-s4
 # text = Старридж же с недавних пор состоит в отношениях с дочерью Умы Турман.

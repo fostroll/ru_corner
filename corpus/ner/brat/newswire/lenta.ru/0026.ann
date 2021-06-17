@@ -1,105 +1,105 @@
 T1	Nationality 0 10	Россиянина
 A1	Citizenship T1
 T2	GPE 41 49	Таиланде
-T3	Age 70 79	10-летней
-T4	Organization 239 253	Pattaya   Mail
-T5	GPE 286 317	пляжном   районе   Джомтьен-Бич
-T6	Age 354 363	52-летний
-T7	Person 366 385	Владислав   Тимохин
-T8	GPE 193 214	таиландской   Паттайе
-T10	Age 459 468	10-летней
-T11	Nationality 697 707	россиянина
+T3	Age 70 81	10 - летней
+T4	Organization 241 255	Pattaya   Mail
+T5	GPE 288 319	пляжном   районе   Джомтьен-Бич
+T6	Age 356 367	52 - летний
+T7	Person 370 389	Владислав   Тимохин
+T8	GPE 195 216	таиландской   Паттайе
+T10	Age 463 474	10 - летней
+T11	Nationality 703 713	россиянина
 A2	Citizenship T11
-T12	Quantity 641 650	один   из
-T13	Organization 1012 1019	полиция
-T14	Nationality 1037 1041	таец
+T12	Quantity 647 656	один   из
+T13	Organization 1018 1025	полиция
+T14	Nationality 1043 1047	таец
 A3	Citizenship T14
-T15	Money 1118 1138	десяти   тысяч   бат
-T16	Money 1145 1172	более   25   тысяч   рублей
-T17	Nationality 1187 1196	россиянин
+T15	Money 1124 1144	десяти   тысяч   бат
+T16	Money 1151 1178	более   25   тысяч   рублей
+T17	Nationality 1193 1202	россиянин
 A4	Citizenship T17
-T18	GPE 1350 1358	Таиланде
-T19	Date-absolute 1372 1394	в   середине   октября
-T20	Event 1437 1485	``   Студенческой   революции   ''   1973   года
-T21	Date-absolute 1474 1485	1973   года
-T22	Person-property 1574 1586	фельдмаршала
-T23	Person 1574 1610	фельдмаршала   Тханома   Киттикачона
-T24	Date-absolute 1616 1628	26   октября
-T25	GPE 1727 1735	Вьетнаме
-T26	GPE 1767 1782	городе   Нячанг
-T27	Facility 1835 1861	моста   через   реку   Кай
-T28	Quantity 1868 1874	трижды
-T29	Other-group 90 109	Российский   турист
-T31	Event 1335 1343	Протесты
-T33	Other-group 1816 1824	туристке
-T34	Family 82 88	дочери
-T35	Family 447 452	женой
-T36	Family 471 478	дочерью
+T18	GPE 1356 1364	Таиланде
+T19	Date-absolute 1378 1400	в   середине   октября
+T20	Event 1443 1491	``   Студенческой   революции   ''   1973   года
+T21	Date-absolute 1480 1491	1973   года
+T22	Person-property 1580 1592	фельдмаршала
+T23	Person 1580 1616	фельдмаршала   Тханома   Киттикачона
+T24	Date-absolute 1622 1634	26   октября
+T25	GPE 1733 1741	Вьетнаме
+T26	GPE 1773 1788	городе   Нячанг
+T27	Facility 1841 1867	моста   через   реку   Кай
+T28	Quantity 1874 1880	трижды
+T29	Other-group 92 111	Российский   турист
+T31	Event 1341 1349	Протесты
+T33	Other-group 1822 1830	туристке
+T34	Family 84 90	дочери
+T35	Family 451 456	женой
+T36	Family 477 484	дочерью
 A5	Media T4
-T37	Event 1425 1485	годовщине   ``   Студенческой   революции   ''   1973   года
-T9	Date-period-absolute 141 186	во   время   антиправительственного   митинга
-T30	Date-relative 975 982	Позднее
-T32	Date-relative 846 851	затем
-T38	Date-relative 1065 1077	впоследствии
-T39	Age 889 896	ребенка
-T40	Event 154 186	антиправительственного   митинга
+T37	Event 1431 1491	годовщине   ``   Студенческой   революции   ''   1973   года
+T9	Date-period-absolute 143 188	во   время   антиправительственного   митинга
+T30	Date-relative 981 988	Позднее
+T32	Date-relative 852 857	затем
+T38	Date-relative 1071 1083	впоследствии
+T39	Age 895 902	ребенка
+T40	Event 156 188	антиправительственного   митинга
 A6	Past T19
 A7	Past T24
 A8	Past T9
 A9	Past T32
 A10	Past T30
 A11	Past T38
-T41	GPE 90 100	Российский
-T42	GPE 193 204	таиландской
-T43	GPE 1698 1708	российскую
-T44	Other-group 1698 1719	российскую   туристку
-T45	Person-forename 366 375	Владислав
-T46	Person-surname 378 385	Тимохин
-T47	Person-forename 1589 1596	Тханома
-T48	Person-surname 1599 1610	Киттикачона
+T41	GPE 92 102	Российский
+T42	GPE 195 206	таиландской
+T43	GPE 1704 1714	российскую
+T44	Other-group 1704 1725	российскую   туристку
+T45	Person-forename 370 379	Владислав
+T46	Person-surname 382 389	Тимохин
+T47	Person-forename 1595 1602	Тханома
+T48	Person-surname 1605 1616	Киттикачона
 A12	Adjective T41
 A13	Adjective T42
 A14	Male T7
 A15	Male T23
 A16	Adjective T43
-T49	Event 129 138	нападения
-T50	Event 433 440	событий
-T51	Person 641 671	один   из   участников   акции
+T49	Event 131 140	нападения
+T50	Event 437 444	событий
+T51	Person 647 677	один   из   участников   акции
 A17	Male T51
 T52	Person 0 10	Россиянина
 A18	Male T52
-T53	Person 82 88	дочери
+T53	Person 84 90	дочери
 A19	Female T53
-T54	Person 90 109	Российский   турист
+T54	Person 92 111	Российский   турист
 A20	Male T54
-T55	Person 447 452	женой
+T55	Person 451 456	женой
 A21	Female T55
-T56	Person 471 478	дочерью
+T56	Person 477 484	дочерью
 A22	Female T56
-T57	Person 503 521	лидерам   протеста
-T58	Person 889 896	ребенка
-T59	Person 946 953	туристу
+T57	Person 509 527	лидерам   протеста
+T58	Person 895 902	ребенка
+T59	Person 952 959	туристу
 A23	Male T59
-T60	Person 1037 1041	таец
+T60	Person 1043 1047	таец
 A24	Male T60
-T61	Person 1187 1196	россиянин
+T61	Person 1193 1202	россиянин
 A25	Male T61
-T62	Person 1631 1652	неизвестный   мужчина
+T62	Person 1637 1658	неизвестный   мужчина
 A26	Male T62
-T63	Person 1698 1719	российскую   туристку
+T63	Person 1704 1725	российскую   туристку
 A27	Female T63
-T64	Person 1787 1798	Неизвестный
+T64	Person 1793 1804	Неизвестный
 A28	Male T64
-T65	Person 1816 1824	туристке
+T65	Person 1822 1830	туристке
 A29	Female T65
-T66	Person 1901 1908	Женщина
+T66	Person 1907 1914	Женщина
 A30	Female T66
-T67	Event 1740 1748	Инцидент
-T68	Organization 1253 1280	Правоохранительные   органы
-T69	GPE 1231 1238	местных
+T67	Event 1746 1754	Инцидент
+T68	Organization 1259 1286	Правоохранительные   органы
+T69	GPE 1237 1244	местных
 A31	Adjective T69
-T70	Location 1851 1861	реку   Кай
-T71	Organization 1927 1935	больнице
-T72	Organization 340 347	издания
+T70	Location 1857 1867	реку   Кай
+T71	Organization 1933 1941	больнице
+T72	Organization 342 349	издания
 A32	Media T72
-T73	Organization 1231 1248	местных   больниц
+T73	Organization 1237 1254	местных   больниц

@@ -3,25 +3,28 @@
 # par_text = Экс-координатору «Открытой России» в Краснодаре запросили 240 часов обязательных работ по делу о «нежелательной организации»
 # sent_id = 0066-p1-s1
 # text = Экс-координатору ``Открытой России'' в Краснодаре запросили 240 часов обязательных работ по делу о ``нежелательной организации''
-1	Экс-координатору	_	_	_	_	_	_	_	bratT1=Person-property
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
-3	Открытой	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
-4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization|bratT3=GPE
-5	''	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
-6	в	_	_	_	_	_	_	_	_
-7	Краснодаре	_	_	_	_	_	_	_	bratT4=GPE
-8	запросили	_	_	_	_	_	_	_	_
-9	240	_	_	_	_	_	_	_	bratT43=Duration|bratT5=Time-period
-10	часов	_	_	_	_	_	_	_	bratT43=Duration|bratT5=Time-period
-11	обязательных	_	_	_	_	_	_	_	_
-12	работ	_	_	_	_	_	_	_	_
-13	по	_	_	_	_	_	_	_	_
-14	делу	_	_	_	_	_	_	_	bratT50=Event
-15	о	_	_	_	_	_	_	_	_
-16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Organization
-17	нежелательной	_	_	_	_	_	_	_	bratT53=Organization
-18	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Organization
-19	''	_	_	_	_	_	_	_	bratT53=Organization
+1-3	Экс-координатору	_	_	_	_	_	_	_	_
+1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT1=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT1=Person-property
+3	координатору	_	_	_	_	_	_	_	bratT1=Person-property
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
+5	Открытой	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+6	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization|bratT3=GPE
+7	''	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+8	в	_	_	_	_	_	_	_	_
+9	Краснодаре	_	_	_	_	_	_	_	bratT4=GPE
+10	запросили	_	_	_	_	_	_	_	_
+11	240	_	_	_	_	_	_	_	bratT43=Duration|bratT5=Time-period
+12	часов	_	_	_	_	_	_	_	bratT43=Duration|bratT5=Time-period
+13	обязательных	_	_	_	_	_	_	_	_
+14	работ	_	_	_	_	_	_	_	_
+15	по	_	_	_	_	_	_	_	_
+16	делу	_	_	_	_	_	_	_	bratT50=Event
+17	о	_	_	_	_	_	_	_	_
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Organization
+19	нежелательной	_	_	_	_	_	_	_	bratT53=Organization
+20	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Organization
+21	''	_	_	_	_	_	_	_	bratT53=Organization
 
 # newpar id = 0066-p2
 # par_text = Прокуратура потребовала назначить 240 часов обязательных работ бывшему координатору «Открытой России» в Краснодаре Яне Антоновой по делу о «нежелательной организации» (статья 284.1 УК). Об этом сообщает «Открытка».

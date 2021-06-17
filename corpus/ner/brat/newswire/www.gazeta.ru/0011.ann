@@ -1,55 +1,55 @@
 T1	Organization 0 7	Госдума
-T2	Person-property 31 50	экс-президента   РФ
-T3	GPE 48 50	РФ
-T4	Person-property 73 82	сенатором
-T5	Organization 84 106	Государственная   дума
-T7	Person-property 192 221	бывшего   президента   России
-T8	GPE 215 221	России
-T9	Person-property 267 276	сенатором
-T10	Organization 350 373	РИА   ``   Новости   ''
+T2	Person-property 31 52	экс - президента   РФ
+T3	GPE 50 52	РФ
+T4	Person-property 75 84	сенатором
+T5	Organization 86 108	Государственная   дума
+T7	Person-property 194 223	бывшего   президента   России
+T8	GPE 217 223	России
+T9	Person-property 269 278	сенатором
+T10	Organization 352 375	РИА   ``   Новости   ''
 A1	Media T10
-T11	Person-property 379 386	Автором
-T12	Law 408 525	закона   ``   О   порядке   формирования   Совета   Федерации   Федерального   собрания   Российской   Федерации   ''
-T13	Organization 451 520	Совета   Федерации   Федерального   собрания   Российской   Федерации
-T14	Organization 472 520	Федерального   собрания   Российской   Федерации
-T15	GPE 498 520	Российской   Федерации
-T16	Person 535 573	глава   государства   Владимир   Путин
-T17	Person-property 535 554	глава   государства
-T18	Law 637 648	Конституцию
-T19	Organization 700 706	Совфед
-T20	Person-property 724 733	сенаторов
-T21	GPE 811 822	российского
-T22	Quantity 769 793	по   два   представителя
-T23	Quantity 840 851	по   одному
-T24	Person-property 993 1011	президент   России
-T25	GPE 1005 1011	России
-T26	Quantity 1223 1255	не   более   30   представителей
-T27	GPE 1258 1260	РФ
-T28	Person-property 1281 1292	президентом
-T29	Quantity 1314 1328	не   более   7
-T30	Person-property 1408 1439	бывший   российский   президент
-T31	Person-property 1465 1473	сенатора
-T32	Organization 1503 1509	Совфед
-T33	Time-period 1620 1645	в   течение   3   месяцев
-T34	Person-property 1701 1710	президент
-T35	Date-period-absolute 1830 1879	в   течение   3   месяцев   со   дня   вступления
-T37	Ordinal 152 153	I
-T6	Time-relative 1476 1487	с   момента
-T36	Time-relative 224 229	после
-T38	Date-absolute 1754 1767	до   принятия
+T11	Person-property 381 388	Автором
+T12	Law 410 527	закона   ``   О   порядке   формирования   Совета   Федерации   Федерального   собрания   Российской   Федерации   ''
+T13	Organization 453 522	Совета   Федерации   Федерального   собрания   Российской   Федерации
+T14	Organization 474 522	Федерального   собрания   Российской   Федерации
+T15	GPE 500 522	Российской   Федерации
+T16	Person 537 575	глава   государства   Владимир   Путин
+T17	Person-property 537 556	глава   государства
+T18	Law 639 650	Конституцию
+T19	Organization 702 708	Совфед
+T20	Person-property 726 735	сенаторов
+T21	GPE 813 824	российского
+T22	Quantity 771 795	по   два   представителя
+T23	Quantity 842 853	по   одному
+T24	Person-property 995 1013	президент   России
+T25	GPE 1007 1013	России
+T26	Quantity 1225 1257	не   более   30   представителей
+T27	GPE 1260 1262	РФ
+T28	Person-property 1283 1294	президентом
+T29	Quantity 1316 1330	не   более   7
+T30	Person-property 1410 1441	бывший   российский   президент
+T31	Person-property 1467 1475	сенатора
+T32	Organization 1505 1511	Совфед
+T33	Time-period 1622 1647	в   течение   3   месяцев
+T34	Person-property 1703 1712	президент
+T35	Date-period-absolute 1832 1881	в   течение   3   месяцев   со   дня   вступления
+T37	Ordinal 154 155	I
+T6	Time-relative 1478 1489	с   момента
+T36	Time-relative 226 231	после
+T38	Date-absolute 1756 1769	до   принятия
 A2	Past T38
-T39	Duration 1844 1855	3   месяцев
-T40	Duration 1634 1645	3   месяцев
-T41	Person-forename 557 565	Владимир
-T42	Person-surname 568 573	Путин
+T39	Duration 1846 1857	3   месяцев
+T40	Duration 1636 1647	3   месяцев
+T41	Person-forename 559 567	Владимир
+T42	Person-surname 570 575	Путин
 A3	Male T16
 A4	Adjective T21
-T43	GPE 1417 1427	российский
+T43	GPE 1419 1429	российский
 A5	Adjective T43
-T44	Time-relative 1648 1656	со   дня
+T44	Time-relative 1650 1658	со   дня
 A6	UNK-Fut T35
-T45	Event 1175 1183	отставки
-T46	Organization 859 944	законодательного   (   представительного   )   и   исполнительного   органов   власти
+T45	Event 1177 1185	отставки
+T46	Organization 861 946	законодательного   (   представительного   )   и   исполнительного   органов   власти
 A7	Plural T46
-T47	GPE 543 554	государства
-T48	Person-property 1127 1136	должности
+T47	GPE 545 556	государства
+T48	Person-property 1129 1138	должности

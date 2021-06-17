@@ -3,30 +3,36 @@
 # par_text = Экс-фигурист Авербух рассказал о романе с актрисой Арзамасовой
 # sent_id = 0115-p1-s1
 # text = Экс-фигурист Авербух рассказал о романе с актрисой Арзамасовой
-1	Экс-фигурист	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT5=Person-property
-2	Авербух	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT23=Person-surname
-3	рассказал	_	_	_	_	_	_	_	_
-4	о	_	_	_	_	_	_	_	_
-5	романе	_	_	_	_	_	_	_	_
-6	с	_	_	_	_	_	_	_	_
-7	актрисой	_	_	_	_	_	_	_	bratA6=T3:Female|bratT3=Person|bratT4=Person-property
-8	Арзамасовой	_	_	_	_	_	_	_	bratA6=T3:Female|bratT24=Person-surname|bratT3=Person
+1-3	Экс-фигурист	_	_	_	_	_	_	_	_
+1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T1:Male|bratT1=Person|bratT5=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T1:Male|bratT1=Person|bratT5=Person-property
+3	фигурист	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT5=Person-property
+4	Авербух	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT23=Person-surname
+5	рассказал	_	_	_	_	_	_	_	_
+6	о	_	_	_	_	_	_	_	_
+7	романе	_	_	_	_	_	_	_	_
+8	с	_	_	_	_	_	_	_	_
+9	актрисой	_	_	_	_	_	_	_	bratA6=T3:Female|bratT3=Person|bratT4=Person-property
+10	Арзамасовой	_	_	_	_	_	_	_	bratA6=T3:Female|bratT24=Person-surname|bratT3=Person
 
 # newpar id = 0115-p2
 # par_text = Экс-фигурист Илья Авербух рассказал о романе с актрисой Елизаветой Арзамасовой.
 # sent_id = 0115-p2-s1
 # text = Экс-фигурист Илья Авербух рассказал о романе с актрисой Елизаветой Арзамасовой.
-1	Экс-фигурист	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT6=Person-property
-2	Илья	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT25=Person-forename
-3	Авербух	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT26=Person-surname
-4	рассказал	_	_	_	_	_	_	_	_
-5	о	_	_	_	_	_	_	_	_
-6	романе	_	_	_	_	_	_	_	_
-7	с	_	_	_	_	_	_	_	_
-8	актрисой	_	_	_	_	_	_	_	bratA8=T7:Female|bratT7=Person|bratT8=Person-property
-9	Елизаветой	_	_	_	_	_	_	_	bratA8=T7:Female|bratT27=Person-forename|bratT7=Person
-10	Арзамасовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T7:Female|bratT28=Person-surname|bratT7=Person
-11	.	_	_	_	_	_	_	_	_
+1-3	Экс-фигурист	_	_	_	_	_	_	_	_
+1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T2:Male|bratT2=Person|bratT6=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T2:Male|bratT2=Person|bratT6=Person-property
+3	фигурист	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT6=Person-property
+4	Илья	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT25=Person-forename
+5	Авербух	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT26=Person-surname
+6	рассказал	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	романе	_	_	_	_	_	_	_	_
+9	с	_	_	_	_	_	_	_	_
+10	актрисой	_	_	_	_	_	_	_	bratA8=T7:Female|bratT7=Person|bratT8=Person-property
+11	Елизаветой	_	_	_	_	_	_	_	bratA8=T7:Female|bratT27=Person-forename|bratT7=Person
+12	Арзамасовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T7:Female|bratT28=Person-surname|bratT7=Person
+13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0115-p3
 # par_text = «Какое-то время мы встречались. Я достаточно быстро решил снять все вопросы, которые возникали. У нас очень нежные отношения. Я надеюсь на их продолжение», — сказал Авербух в интервью журналисту Василию Конову на YouTube-канале KonOff.
@@ -80,9 +86,12 @@
 14	Василию	_	_	_	_	_	_	_	bratA10=T10:Male|bratT10=Person|bratT30=Person-forename
 15	Конову	_	_	_	_	_	_	_	bratA10=T10:Male|bratT10=Person|bratT31=Person-surname
 16	на	_	_	_	_	_	_	_	_
-17	YouTube-канале	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Service
-18	KonOff	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Service
-19	.	_	_	_	_	_	_	_	_
+17-19	YouTube-канале	_	_	_	_	_	_	_	_
+17	YouTube	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T12:Media|bratT12=Service
+18	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T12:Media|bratT12=Service
+19	канале	_	_	_	_	_	_	_	bratA1=T12:Media|bratT12=Service
+20	KonOff	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Service
+21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0115-p4
 # par_text = Напомним, Авербух является чемпионом мира 2002 года. Ранее Авербуху не понравилось судейство Елены Исинбаевой на «Ледниковом периоде».

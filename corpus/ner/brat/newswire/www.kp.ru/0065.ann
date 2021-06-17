@@ -1,61 +1,61 @@
 T1	Person 0 5	Обама
 T2	Person 20 27	Байдена
-T3	Person 58 87	Экс-президент   Барак   Обама
-T4	Person 157 198	бывшего   вице-президента   Джо   Байдена
-T5	Person-property 157 182	бывшего   вице-президента
-T6	Person 283 322	следующего   президента   Джо   Байдена
-T7	Person 336 378	следующую   первую   леди   Джилл   Байден
-T8	Person-property 283 306	следующего   президента
-T9	Person-property 348 361	первую   леди
-T10	Person 402 407	Обама
-T11	Service 422 429	Twitter
+T3	Person 58 89	Экс - президент   Барак   Обама
+T4	Person 159 202	бывшего   вице - президента   Джо   Байдена
+T5	Person-property 159 186	бывшего   вице - президента
+T6	Person 287 326	следующего   президента   Джо   Байдена
+T7	Person 340 382	следующую   первую   леди   Джилл   Байден
+T8	Person-property 287 310	следующего   президента
+T9	Person-property 352 365	первую   леди
+T10	Person 406 411	Обама
+T11	Service 426 433	Twitter
 A1	Media T11
-T12	Political-group 460 468	демократ
-T13	Person-property 523 552	следующим   президентом   США
-T14	GPE 549 552	США
-T15	Person-property 58 71	Экс-президент
-T16	Person 593 596	Джо
-T17	Person-property 649 660	президентом
-T18	Organization 748 759	Белый   дом
-T19	Date-absolute 762 772	в   январе
-T20	Person-property 890 899	президент
-T21	Person 1088 1100	Джо   Байден
-T22	Person-property 1156 1166	президента
-T23	Political-group 1171 1179	Демократ
-T24	GPE 1281 1293	Пенсильвании
-T25	Person 1304 1311	Байдена
-T26	Quantity 1314 1326	273   голоса
-T27	Person 1424 1439	Дональд   Трамп
-T28	Event 1146 1153	выборах
+T12	Political-group 464 472	демократ
+T13	Person-property 527 556	следующим   президентом   США
+T14	GPE 553 556	США
+T15	Person-property 58 73	Экс - президент
+T16	Person 597 600	Джо
+T17	Person-property 653 664	президентом
+T18	Organization 752 763	Белый   дом
+T19	Date-absolute 766 776	в   январе
+T20	Person-property 894 903	президент
+T21	Person 1092 1104	Джо   Байден
+T22	Person-property 1160 1170	президента
+T23	Political-group 1175 1183	Демократ
+T24	GPE 1285 1297	Пенсильвании
+T25	Person 1308 1315	Байдена
+T26	Quantity 1318 1330	273   голоса
+T27	Person 1428 1443	Дональд   Трамп
+T28	Event 1150 1157	выборах
 T29	Event 49 56	выборах
-T30	Event 917 925	пандемия
-T31	Ordinal 283 293	следующего
-T32	Ordinal 336 345	следующую
-T33	Ordinal 523 532	следующим
-T34	Ordinal 348 354	первую
-T35	Date-absolute 1243 1260	после   оглашения
-T36	Date-relative 1080 1085	Ранее
+T30	Event 921 929	пандемия
+T31	Ordinal 287 297	следующего
+T32	Ordinal 340 349	следующую
+T33	Ordinal 527 536	следующим
+T34	Ordinal 352 358	первую
+T35	Date-absolute 1247 1264	после   оглашения
+T36	Date-relative 1084 1089	Ранее
 A2	Future T19
 A3	Past T36
 A4	Past T35
-T37	Event 1251 1274	оглашения   результатов
+T37	Event 1255 1278	оглашения   результатов
 T38	Person-surname 0 5	Обама
 T39	Person-surname 20 27	Байдена
-T40	Person-forename 74 79	Барак
-T41	Person-surname 82 87	Обама
-T42	Person-forename 185 188	Джо
-T43	Person-surname 191 198	Байдена
-T44	Person-forename 309 312	Джо
-T45	Person-surname 315 322	Байдена
-T46	Person-forename 364 369	Джилл
-T47	Person-surname 372 378	Байден
-T48	Person-surname 402 407	Обама
-T49	Person-forename 593 596	Джо
-T50	Person-forename 1088 1091	Джо
-T51	Person-surname 1094 1100	Байден
-T52	Person-surname 1304 1311	Байдена
-T53	Person-forename 1424 1431	Дональд
-T54	Person-surname 1434 1439	Трамп
+T40	Person-forename 76 81	Барак
+T41	Person-surname 84 89	Обама
+T42	Person-forename 189 192	Джо
+T43	Person-surname 195 202	Байдена
+T44	Person-forename 313 316	Джо
+T45	Person-surname 319 326	Байдена
+T46	Person-forename 368 373	Джилл
+T47	Person-surname 376 382	Байден
+T48	Person-surname 406 411	Обама
+T49	Person-forename 597 600	Джо
+T50	Person-forename 1092 1095	Джо
+T51	Person-surname 1098 1104	Байден
+T52	Person-surname 1308 1315	Байдена
+T53	Person-forename 1428 1435	Дональд
+T54	Person-surname 1438 1443	Трамп
 A5	Male T1
 A6	Male T2
 A7	Male T3
@@ -67,7 +67,7 @@ A12	Male T16
 A13	Male T21
 A14	Male T25
 A15	Male T27
-T55	Political-group 992 1002	демократия
+T55	Political-group 996 1006	демократия
 A16	Source T55
-T56	Organization 1473 1476	суд
-T57	Event 1479 1498	пересчета   голосов
+T56	Organization 1477 1480	суд
+T57	Event 1483 1502	пересчета   голосов

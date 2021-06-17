@@ -12,17 +12,20 @@
 7	право	_	_	_	_	_	_	_	_
 8	внебрачной	_	_	_	_	_	_	_	bratA20=T77:Female|bratT38=Family|bratT77=Person
 9	дочери	_	_	_	_	_	_	_	bratA20=T77:Female|bratT38=Family|bratT77=Person
-10	экс-короля	_	_	_	_	_	_	_	bratA20=T77:Female|bratT77=Person|bratT9=Person-property
-11	на	_	_	_	_	_	_	_	_
-12	титул	_	_	_	_	_	_	_	_
-13	принцессы	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person-property
-14	,	_	_	_	_	_	_	_	_
-15	так	_	_	_	_	_	_	_	_
-16	как	_	_	_	_	_	_	_	_
-17	ее	_	_	_	_	_	_	_	bratA21=T78:Female|bratT78=Person
-18	мать	_	_	_	_	_	_	_	bratA21=T78:Female|bratT5=Family|bratT78=Person
-19	не	_	_	_	_	_	_	_	_
-20	простолюдинка	_	_	_	_	_	_	_	bratT45=Other-group
+10-12	экс-короля	_	_	_	_	_	_	_	_
+10	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA20=T77:Female|bratT77=Person|bratT9=Person-property
+11	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA20=T77:Female|bratT77=Person|bratT9=Person-property
+12	короля	_	_	_	_	_	_	_	bratA20=T77:Female|bratT77=Person|bratT9=Person-property
+13	на	_	_	_	_	_	_	_	_
+14	титул	_	_	_	_	_	_	_	_
+15	принцессы	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person-property
+16	,	_	_	_	_	_	_	_	_
+17	так	_	_	_	_	_	_	_	_
+18	как	_	_	_	_	_	_	_	_
+19	ее	_	_	_	_	_	_	_	bratA21=T78:Female|bratT78=Person
+20	мать	_	_	_	_	_	_	_	bratA21=T78:Female|bratT5=Family|bratT78=Person
+21	не	_	_	_	_	_	_	_	_
+22	простолюдинка	_	_	_	_	_	_	_	bratT45=Other-group
 
 # newpar id = 0041-p2
 # par_text = Апелляционный суд Брюсселя в четверг вынес вердикт, который лишь с первого взгляда кажется сенсационным, хотя на самом деле отвечает древним традициям наследования титулов и членства в сословиях.
@@ -70,19 +73,22 @@
 5	Бельгии	_	_	_	_	_	_	_	bratA3=T12:Male|bratA4=T11:Female|bratT11=Person|bratT12=Person|bratT13=Person-property|bratT52=GPE
 6	Альберта	_	_	_	_	_	_	_	bratA3=T12:Male|bratA4=T11:Female|bratT11=Person|bratT12=Person|bratT53=Person-forename
 7	II	_	_	_	_	_	_	_	bratA3=T12:Male|bratA4=T11:Female|bratT11=Person|bratT12=Person|bratT54=Person-affix|bratT82=Ordinal
-8	52-летняя	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT14=Age
-9	художник	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT15=Person-property
-10	из	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person
-11	Брюсселя	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT16=GPE
-12	Дельфина	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT55=Person-forename
-13	Боэль	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT56=Person-surname
-14	отныне	_	_	_	_	_	_	_	bratA5=T46:Pres-Fut|bratT46=Date-period-absolute
-15	имеет	_	_	_	_	_	_	_	_
-16	полное	_	_	_	_	_	_	_	_
-17	право	_	_	_	_	_	_	_	_
-18	именоваться	_	_	_	_	_	_	_	_
-19	принцессой	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
-20	.	_	_	_	_	_	_	_	_
+8-10	52-летняя	_	_	_	_	_	_	_	_
+8	52	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T11:Female|bratT11=Person|bratT14=Age
+9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T11:Female|bratT11=Person|bratT14=Age
+10	летняя	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT14=Age
+11	художник	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT15=Person-property
+12	из	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person
+13	Брюсселя	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT16=GPE
+14	Дельфина	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT55=Person-forename
+15	Боэль	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT56=Person-surname
+16	отныне	_	_	_	_	_	_	_	bratA5=T46:Pres-Fut|bratT46=Date-period-absolute
+17	имеет	_	_	_	_	_	_	_	_
+18	полное	_	_	_	_	_	_	_	_
+19	право	_	_	_	_	_	_	_	_
+20	именоваться	_	_	_	_	_	_	_	_
+21	принцессой	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0041-p3-s2
 # text = Этот титул она официально получила в рамках судебных разбирательств, которые длились более 7 лет.

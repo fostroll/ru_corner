@@ -170,15 +170,18 @@
 # text = Подозреваемый - 37-летний житель Кривого Рога, мотивы преступления выясняются.
 1	Подозреваемый	_	_	_	_	_	_	_	_
 2	-	_	_	_	_	_	_	_	_
-3	37-летний	_	_	_	_	_	_	_	bratT18=Age
-4	житель	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
-5	Кривого	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality
-6	Рога	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality
-7	,	_	_	_	_	_	_	_	_
-8	мотивы	_	_	_	_	_	_	_	_
-9	преступления	_	_	_	_	_	_	_	_
-10	выясняются	_	_	_	_	_	_	_	SpaceAfter=No
-11	.	_	_	_	_	_	_	_	_
+3-5	37-летний	_	_	_	_	_	_	_	_
+3	37	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Age
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Age
+5	летний	_	_	_	_	_	_	_	bratT18=Age
+6	житель	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
+7	Кривого	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality
+8	Рога	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality
+9	,	_	_	_	_	_	_	_	_
+10	мотивы	_	_	_	_	_	_	_	_
+11	преступления	_	_	_	_	_	_	_	_
+12	выясняются	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p6-s2
 # text = Открыто уголовное производство по статье ``Умышленное убийство'', передает ТАСС.

@@ -5,15 +5,18 @@
 # text = Выбывшие из-за COVID-тестов игроки сборной России поедут на матч в Турцию
 1	Выбывшие	_	_	_	_	_	_	_	_
 2	из-за	_	_	_	_	_	_	_	_
-3	COVID-тестов	_	_	_	_	_	_	_	bratT5=Other-term
-4	игроки	_	_	_	_	_	_	_	bratT4=Person-property
-5	сборной	_	_	_	_	_	_	_	bratT3=Organization|bratT4=Person-property
-6	России	_	_	_	_	_	_	_	bratT1=GPE|bratT3=Organization|bratT4=Person-property
-7	поедут	_	_	_	_	_	_	_	_
-8	на	_	_	_	_	_	_	_	_
-9	матч	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	_
-11	Турцию	_	_	_	_	_	_	_	bratT2=GPE
+3-5	COVID-тестов	_	_	_	_	_	_	_	_
+3	COVID	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Other-term
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Other-term
+5	тестов	_	_	_	_	_	_	_	bratT5=Other-term
+6	игроки	_	_	_	_	_	_	_	bratT4=Person-property
+7	сборной	_	_	_	_	_	_	_	bratT3=Organization|bratT4=Person-property
+8	России	_	_	_	_	_	_	_	bratT1=GPE|bratT3=Organization|bratT4=Person-property
+9	поедут	_	_	_	_	_	_	_	_
+10	на	_	_	_	_	_	_	_	_
+11	матч	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	_
+13	Турцию	_	_	_	_	_	_	_	bratT2=GPE
 
 # newpar id = 0070-p2
 # par_text = Футболисты сборной России Антон Заболотный, Александр Ерохин и Даниил Лесовой прошли очередное тестирование на коронавирус, которое показало у каждого из них отрицательный результат, сообщается в Telegram-канале национальной команды.
@@ -47,10 +50,13 @@
 26	,	_	_	_	_	_	_	_	_
 27	сообщается	_	_	_	_	_	_	_	_
 28	в	_	_	_	_	_	_	_	_
-29	Telegram-канале	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
-30	национальной	_	_	_	_	_	_	_	bratA23=T76:Adjective|bratT74=Organization|bratT76=GPE
-31	команды	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
-32	.	_	_	_	_	_	_	_	_
+29-31	Telegram-канале	_	_	_	_	_	_	_	_
+29	Telegram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA3=T19:Media|bratT19=Service
+30	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA3=T19:Media|bratT19=Service
+31	канале	_	_	_	_	_	_	_	bratA3=T19:Media|bratT19=Service
+32	национальной	_	_	_	_	_	_	_	bratA23=T76:Adjective|bratT74=Organization|bratT76=GPE
+33	команды	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Organization
+34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0070-p3
 # par_text = Отмечается, что спортсмены вылетят в Стамбул на матч с Турцией вечером 13 ноября.

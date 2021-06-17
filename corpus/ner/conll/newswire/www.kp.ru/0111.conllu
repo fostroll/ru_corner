@@ -48,12 +48,15 @@
 4	признали	_	_	_	_	_	_	_	_
 5	победу	_	_	_	_	_	_	_	_
 6	бывшего	_	_	_	_	_	_	_	bratT11=Person-property
-7	вице-президента	_	_	_	_	_	_	_	bratT11=Person-property
-8	страны	_	_	_	_	_	_	_	bratT11=Person-property|bratT49=GPE
-9	на	_	_	_	_	_	_	_	_
-10	президентских	_	_	_	_	_	_	_	bratT12=Event
-11	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
-12	.	_	_	_	_	_	_	_	_
+7-9	вице-президента	_	_	_	_	_	_	_	_
+7	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Person-property
+8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Person-property
+9	президента	_	_	_	_	_	_	_	bratT11=Person-property
+10	страны	_	_	_	_	_	_	_	bratT11=Person-property|bratT49=GPE
+11	на	_	_	_	_	_	_	_	_
+12	президентских	_	_	_	_	_	_	_	bratT12=Event
+13	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
+14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0111-p3
 # par_text = В заявлении исполнительного директора штаба Байдена Йоханнеса Абрахама сказано, что глава Управления общих служб подтвердила победу "избранного президента Джо Байдена и избранного вице-президента Камалы Харрис". Отмечается также, что она предоставила новой администрации "ресурсы и поддержку, необходимую для обеспечения плавной и мирной передачи власти".
@@ -83,11 +86,14 @@
 22	Байдена	_	_	_	_	_	_	_	bratA9=T17:Male|bratT17=Person|bratT37=Person-surname
 23	и	_	_	_	_	_	_	_	_
 24	избранного	_	_	_	_	_	_	_	bratA10=T19:Female|bratT19=Person|bratT20=Person-property
-25	вице-президента	_	_	_	_	_	_	_	bratA10=T19:Female|bratT19=Person|bratT20=Person-property
-26	Камалы	_	_	_	_	_	_	_	bratA10=T19:Female|bratT19=Person|bratT38=Person-forename
-27	Харрис	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T19:Female|bratT19=Person|bratT39=Person-surname
-28	''	_	_	_	_	_	_	_	SpaceAfter=No
-29	.	_	_	_	_	_	_	_	_
+25-27	вице-президента	_	_	_	_	_	_	_	_
+25	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T19:Female|bratT19=Person|bratT20=Person-property
+26	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T19:Female|bratT19=Person|bratT20=Person-property
+27	президента	_	_	_	_	_	_	_	bratA10=T19:Female|bratT19=Person|bratT20=Person-property
+28	Камалы	_	_	_	_	_	_	_	bratA10=T19:Female|bratT19=Person|bratT38=Person-forename
+29	Харрис	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T19:Female|bratT19=Person|bratT39=Person-surname
+30	''	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0111-p3-s2
 # text = Отмечается также, что она предоставила новой администрации ``ресурсы и поддержку, необходимую для обеспечения плавной и мирной передачи власти''.

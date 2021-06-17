@@ -42,11 +42,14 @@
 # text = Видеозапись опубликовал Telegram-канал ``Hue''.
 1	Видеозапись	_	_	_	_	_	_	_	_
 2	опубликовал	_	_	_	_	_	_	_	_
-3	Telegram-канал	_	_	_	_	_	_	_	bratA4=T8:Media|bratT8=Service
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Media|bratT8=Service
-5	Hue	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Media|bratT8=Service
-6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Media|bratT8=Service
-7	.	_	_	_	_	_	_	_	_
+3-5	Telegram-канал	_	_	_	_	_	_	_	_
+3	Telegram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T8:Media|bratT8=Service
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T8:Media|bratT8=Service
+5	канал	_	_	_	_	_	_	_	bratA4=T8:Media|bratT8=Service
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Media|bratT8=Service
+7	Hue	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Media|bratT8=Service
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Media|bratT8=Service
+9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0020-p3
 # par_text = На кадрах видно, как люди поднимают руки вверх и кричат: «Остановите подсчет». Почти все избиратели при этом в масках. Также возле здания, в котором происходит подсчет голосов, стоят полицейские, которые никак не реагируют на протестующих.
@@ -271,24 +274,27 @@
 2	выбирают	_	_	_	_	_	_	_	_
 3	президента	_	_	_	_	_	_	_	bratT41=Person-property
 4	и	_	_	_	_	_	_	_	_
-5	вице-президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property
-6	,	_	_	_	_	_	_	_	_
-7	также	_	_	_	_	_	_	_	_
-8	будут	_	_	_	_	_	_	_	_
-9	избраны	_	_	_	_	_	_	_	_
-10	35	_	_	_	_	_	_	_	bratT37=Quantity
-11	сенаторов	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Quantity|bratT38=Person-property
-12	,	_	_	_	_	_	_	_	_
-13	вся	_	_	_	_	_	_	_	_
-14	палата	_	_	_	_	_	_	_	bratT43=Organization
-15	представителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
-16	,	_	_	_	_	_	_	_	_
-17	13	_	_	_	_	_	_	_	bratT39=Quantity
-18	губернаторов	_	_	_	_	_	_	_	bratT39=Quantity|bratT40=Person-property
-19	и	_	_	_	_	_	_	_	_
-20	представители	_	_	_	_	_	_	_	bratT67=Person-property
-21	местных	_	_	_	_	_	_	_	bratA15=T64:Adjective|bratT64=GPE|bratT67=Person-property|bratT73=Organization
-22	органов	_	_	_	_	_	_	_	bratT67=Person-property|bratT73=Organization
-23	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Person-property|bratT73=Organization
-24	.	_	_	_	_	_	_	_	_
+5-7	вице-президента	_	_	_	_	_	_	_	SpaceAfter=No
+5	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT42=Person-property
+6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT42=Person-property
+7	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property
+8	,	_	_	_	_	_	_	_	_
+9	также	_	_	_	_	_	_	_	_
+10	будут	_	_	_	_	_	_	_	_
+11	избраны	_	_	_	_	_	_	_	_
+12	35	_	_	_	_	_	_	_	bratT37=Quantity
+13	сенаторов	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Quantity|bratT38=Person-property
+14	,	_	_	_	_	_	_	_	_
+15	вся	_	_	_	_	_	_	_	_
+16	палата	_	_	_	_	_	_	_	bratT43=Organization
+17	представителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Organization
+18	,	_	_	_	_	_	_	_	_
+19	13	_	_	_	_	_	_	_	bratT39=Quantity
+20	губернаторов	_	_	_	_	_	_	_	bratT39=Quantity|bratT40=Person-property
+21	и	_	_	_	_	_	_	_	_
+22	представители	_	_	_	_	_	_	_	bratT67=Person-property
+23	местных	_	_	_	_	_	_	_	bratA15=T64:Adjective|bratT64=GPE|bratT67=Person-property|bratT73=Organization
+24	органов	_	_	_	_	_	_	_	bratT67=Person-property|bratT73=Organization
+25	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Person-property|bratT73=Organization
+26	.	_	_	_	_	_	_	_	_
 

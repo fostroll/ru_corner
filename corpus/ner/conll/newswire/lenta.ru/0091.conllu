@@ -59,19 +59,22 @@
 # sent_id = 0091-p3-s1
 # text = Портрет 32-летнего спортсмена на одном из строений города нарисовал местный граффити-художник Тимур Бразил.
 1	Портрет	_	_	_	_	_	_	_	_
-2	32-летнего	_	_	_	_	_	_	_	bratT7=Age
-3	спортсмена	_	_	_	_	_	_	_	bratA15=T54:Male|bratT54=Person|bratT8=Person-property
-4	на	_	_	_	_	_	_	_	_
-5	одном	_	_	_	_	_	_	_	_
-6	из	_	_	_	_	_	_	_	_
-7	строений	_	_	_	_	_	_	_	_
-8	города	_	_	_	_	_	_	_	bratT61=GPE
-9	нарисовал	_	_	_	_	_	_	_	_
-10	местный	_	_	_	_	_	_	_	bratA3=T60:Adjective|bratA7=T10:Male|bratT10=Person|bratT60=GPE|bratT9=Person-property
-11	граффити-художник	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT9=Person-property
-12	Тимур	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT42=Person-forename
-13	Бразил	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T10:Male|bratT10=Person|bratT43=Person-surname
-14	.	_	_	_	_	_	_	_	_
+2-4	32-летнего	_	_	_	_	_	_	_	_
+2	32	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Age
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Age
+4	летнего	_	_	_	_	_	_	_	bratT7=Age
+5	спортсмена	_	_	_	_	_	_	_	bratA15=T54:Male|bratT54=Person|bratT8=Person-property
+6	на	_	_	_	_	_	_	_	_
+7	одном	_	_	_	_	_	_	_	_
+8	из	_	_	_	_	_	_	_	_
+9	строений	_	_	_	_	_	_	_	_
+10	города	_	_	_	_	_	_	_	bratT61=GPE
+11	нарисовал	_	_	_	_	_	_	_	_
+12	местный	_	_	_	_	_	_	_	bratA3=T60:Adjective|bratA7=T10:Male|bratT10=Person|bratT60=GPE|bratT9=Person-property
+13	граффити-художник	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT9=Person-property
+14	Тимур	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT42=Person-forename
+15	Бразил	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T10:Male|bratT10=Person|bratT43=Person-surname
+16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p3-s2
 # text = Неизвестные оставили послание, нанеся черной краской фразу ``Он не наш герой''.

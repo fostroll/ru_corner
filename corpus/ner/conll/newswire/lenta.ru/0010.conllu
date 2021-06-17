@@ -15,25 +15,28 @@
 # par_text = Вице-премьер, руководитель аппарата правительства России Дмитрий Григоренко раскрыл число сокращений во власти в рамках оптимизации системы госуправления. Он рассказал «Российской газете», что всего будет сокращено более 34 тысяч должностей в центральных аппаратах федеральных органов власти и территориальных отделах.
 # sent_id = 0010-p2-s1
 # text = Вице-премьер, руководитель аппарата правительства России Дмитрий Григоренко раскрыл число сокращений во власти в рамках оптимизации системы госуправления.
-1	Вице-премьер	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Male|bratT2=Person-property|bratT5=Person
-2	,	_	_	_	_	_	_	_	bratA6=T5:Male|bratT5=Person
-3	руководитель	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person
-4	аппарата	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person|bratT8=Organization
-5	правительства	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person|bratT8=Organization
-6	России	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT4=GPE|bratT5=Person|bratT8=Organization
-7	Дмитрий	_	_	_	_	_	_	_	bratA6=T5:Male|bratT24=Person-forename|bratT5=Person
-8	Григоренко	_	_	_	_	_	_	_	bratA6=T5:Male|bratT32=Person-surname|bratT5=Person
-9	раскрыл	_	_	_	_	_	_	_	_
-10	число	_	_	_	_	_	_	_	_
-11	сокращений	_	_	_	_	_	_	_	_
-12	во	_	_	_	_	_	_	_	_
-13	власти	_	_	_	_	_	_	_	bratT50=Organization
-14	в	_	_	_	_	_	_	_	_
-15	рамках	_	_	_	_	_	_	_	_
-16	оптимизации	_	_	_	_	_	_	_	bratA12=T48:Project|bratT48=Product
-17	системы	_	_	_	_	_	_	_	bratA12=T48:Project|bratT48=Product
-18	госуправления	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T48:Project|bratT48=Product
-19	.	_	_	_	_	_	_	_	_
+1-3	Вице-премьер	_	_	_	_	_	_	_	SpaceAfter=No
+1	Вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T5:Male|bratT2=Person-property|bratT5=Person
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T5:Male|bratT2=Person-property|bratT5=Person
+3	премьер	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T5:Male|bratT2=Person-property|bratT5=Person
+4	,	_	_	_	_	_	_	_	bratA6=T5:Male|bratT5=Person
+5	руководитель	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person
+6	аппарата	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person|bratT8=Organization
+7	правительства	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT5=Person|bratT8=Organization
+8	России	_	_	_	_	_	_	_	bratA6=T5:Male|bratT3=Person-property|bratT4=GPE|bratT5=Person|bratT8=Organization
+9	Дмитрий	_	_	_	_	_	_	_	bratA6=T5:Male|bratT24=Person-forename|bratT5=Person
+10	Григоренко	_	_	_	_	_	_	_	bratA6=T5:Male|bratT32=Person-surname|bratT5=Person
+11	раскрыл	_	_	_	_	_	_	_	_
+12	число	_	_	_	_	_	_	_	_
+13	сокращений	_	_	_	_	_	_	_	_
+14	во	_	_	_	_	_	_	_	_
+15	власти	_	_	_	_	_	_	_	bratT50=Organization
+16	в	_	_	_	_	_	_	_	_
+17	рамках	_	_	_	_	_	_	_	_
+18	оптимизации	_	_	_	_	_	_	_	bratA12=T48:Project|bratT48=Product
+19	системы	_	_	_	_	_	_	_	bratA12=T48:Project|bratT48=Product
+20	госуправления	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T48:Project|bratT48=Product
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0010-p2-s2
 # text = Он рассказал ``Российской газете'', что всего будет сокращено более 34 тысяч должностей в центральных аппаратах федеральных органов власти и территориальных отделах.
@@ -119,23 +122,26 @@
 # sent_id = 0010-p4-s1
 # text = Также вице-премьер рассказал, что в настоящее время средняя доля вакансий в центральных аппаратах достигает 20 процентов.
 1	Также	_	_	_	_	_	_	_	_
-2	вице-премьер	_	_	_	_	_	_	_	bratA14=T53:Male|bratT18=Person-property|bratT53=Person
-3	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
-4	,	_	_	_	_	_	_	_	_
-5	что	_	_	_	_	_	_	_	_
-6	в	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute
-7	настоящее	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute|bratT43=Ordinal
-8	время	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute
-9	средняя	_	_	_	_	_	_	_	_
-10	доля	_	_	_	_	_	_	_	_
-11	вакансий	_	_	_	_	_	_	_	_
-12	в	_	_	_	_	_	_	_	_
-13	центральных	_	_	_	_	_	_	_	bratT60=Organization
-14	аппаратах	_	_	_	_	_	_	_	bratT60=Organization
-15	достигает	_	_	_	_	_	_	_	_
-16	20	_	_	_	_	_	_	_	bratT20=Percent
-17	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
-18	.	_	_	_	_	_	_	_	_
+2-4	вице-премьер	_	_	_	_	_	_	_	_
+2	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA14=T53:Male|bratT18=Person-property|bratT53=Person
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA14=T53:Male|bratT18=Person-property|bratT53=Person
+4	премьер	_	_	_	_	_	_	_	bratA14=T53:Male|bratT18=Person-property|bratT53=Person
+5	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	что	_	_	_	_	_	_	_	_
+8	в	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute
+9	настоящее	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute|bratT43=Ordinal
+10	время	_	_	_	_	_	_	_	bratA4=T16:Present|bratT16=Date-absolute
+11	средняя	_	_	_	_	_	_	_	_
+12	доля	_	_	_	_	_	_	_	_
+13	вакансий	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	центральных	_	_	_	_	_	_	_	bratT60=Organization
+16	аппаратах	_	_	_	_	_	_	_	bratT60=Organization
+17	достигает	_	_	_	_	_	_	_	_
+18	20	_	_	_	_	_	_	_	bratT20=Percent
+19	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Percent
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0010-p4-s2
 # text = Многие сохраняют их специально для повышения ``денежного содержания своих служащих''.

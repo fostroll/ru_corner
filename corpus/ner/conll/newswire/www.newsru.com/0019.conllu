@@ -30,22 +30,25 @@
 10	дьявола	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T40:Fiction|bratA13=T40:Male|bratT40=Person
 11	''	_	_	_	_	_	_	_	_
 12	родителями	_	_	_	_	_	_	_	bratA11=T38:Male|bratT17=Family|bratT38=Person
-13	10-летнего	_	_	_	_	_	_	_	bratA11=T38:Male|bratT2=Age|bratT38=Person
-14	мальчика	_	_	_	_	_	_	_	bratA11=T38:Male|bratT38=Person
-15	в	_	_	_	_	_	_	_	_
-16	Волгоградской	_	_	_	_	_	_	_	bratT3=GPE
-17	области	_	_	_	_	_	_	_	bratT3=GPE
-18	в	_	_	_	_	_	_	_	_
-19	Русской	_	_	_	_	_	_	_	bratA3=T27:Adjective|bratT27=Nationality|bratT4=Organization
-20	православной	_	_	_	_	_	_	_	bratA5=T33:Adjective|bratT33=Religious-group|bratT4=Organization
-21	церкви	_	_	_	_	_	_	_	bratT4=Organization
-22	заявили	_	_	_	_	_	_	_	_
-23	о	_	_	_	_	_	_	_	_
-24	недопустимости	_	_	_	_	_	_	_	_
-25	такого	_	_	_	_	_	_	_	_
-26	рода	_	_	_	_	_	_	_	_
-27	экзорцизма	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
-28	.	_	_	_	_	_	_	_	_
+13-15	10-летнего	_	_	_	_	_	_	_	_
+13	10	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA11=T38:Male|bratT2=Age|bratT38=Person
+14	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA11=T38:Male|bratT2=Age|bratT38=Person
+15	летнего	_	_	_	_	_	_	_	bratA11=T38:Male|bratT2=Age|bratT38=Person
+16	мальчика	_	_	_	_	_	_	_	bratA11=T38:Male|bratT38=Person
+17	в	_	_	_	_	_	_	_	_
+18	Волгоградской	_	_	_	_	_	_	_	bratT3=GPE
+19	области	_	_	_	_	_	_	_	bratT3=GPE
+20	в	_	_	_	_	_	_	_	_
+21	Русской	_	_	_	_	_	_	_	bratA3=T27:Adjective|bratT27=Nationality|bratT4=Organization
+22	православной	_	_	_	_	_	_	_	bratA5=T33:Adjective|bratT33=Religious-group|bratT4=Organization
+23	церкви	_	_	_	_	_	_	_	bratT4=Organization
+24	заявили	_	_	_	_	_	_	_	_
+25	о	_	_	_	_	_	_	_	_
+26	недопустимости	_	_	_	_	_	_	_	_
+27	такого	_	_	_	_	_	_	_	_
+28	рода	_	_	_	_	_	_	_	_
+29	экзорцизма	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
+30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p3
 # par_text = "Самостоятельно выносить суждение о том, что человек, а в особенности ребенок, одержим злым духом, а тем более самочинно пытаться изгнать из него бесов - опасно и вредно", - написал у себя в телеграм-канале глава синодального Отдела по взаимоотношениям Церкви с обществом и СМИ Владимир Легойда.
@@ -90,20 +93,23 @@
 37	у	_	_	_	_	_	_	_	_
 38	себя	_	_	_	_	_	_	_	_
 39	в	_	_	_	_	_	_	_	_
-40	телеграм-канале	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Service
-41	глава	_	_	_	_	_	_	_	bratA6=T6:Male|bratT6=Person|bratT7=Person-property
-42	синодального	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
-43	Отдела	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
-44	по	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
-45	взаимоотношениям	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
-46	Церкви	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT32=Organization|bratT6=Person|bratT7=Person-property|bratT8=Organization
-47	с	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
-48	обществом	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
-49	и	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
-50	СМИ	_	_	_	_	_	_	_	bratA14=T42:Media|bratA2=T8:Department|bratA6=T6:Male|bratT42=Organization|bratT6=Person|bratT7=Person-property|bratT8=Organization
-51	Владимир	_	_	_	_	_	_	_	bratA6=T6:Male|bratT28=Person-forename|bratT6=Person
-52	Легойда	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT29=Person-surname|bratT6=Person
-53	.	_	_	_	_	_	_	_	_
+40-42	телеграм-канале	_	_	_	_	_	_	_	_
+40	телеграм	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T5:Media|bratT5=Service
+41	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T5:Media|bratT5=Service
+42	канале	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Service
+43	глава	_	_	_	_	_	_	_	bratA6=T6:Male|bratT6=Person|bratT7=Person-property
+44	синодального	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+45	Отдела	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+46	по	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+47	взаимоотношениям	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+48	Церкви	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT32=Organization|bratT6=Person|bratT7=Person-property|bratT8=Organization
+49	с	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+50	обществом	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+51	и	_	_	_	_	_	_	_	bratA2=T8:Department|bratA6=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=Organization
+52	СМИ	_	_	_	_	_	_	_	bratA14=T42:Media|bratA2=T8:Department|bratA6=T6:Male|bratT42=Organization|bratT6=Person|bratT7=Person-property|bratT8=Organization
+53	Владимир	_	_	_	_	_	_	_	bratA6=T6:Male|bratT28=Person-forename|bratT6=Person
+54	Легойда	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT29=Person-surname|bratT6=Person
+55	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p4
 # par_text = В понедельник вечером в социальных сетях было опубликовано видео, на котором родители с помощью чеснока, икон и святой воды "изгоняют злых духов" из своего ребенка. В процессе ритуала отец мальчика, как следует из записи, скручивает сына и не дает ему двигаться. Мать несовершеннолетнего при этом снимает видео, просит нанести на крест святую воду, взять чеснок и поджечь свечу. Этого, по мнению женщины, должно было хватить, чтобы "на некоторое время избавить" ребенка от демона.

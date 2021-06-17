@@ -211,11 +211,14 @@
 16	,	_	_	_	_	_	_	_	_
 17	занимавший	_	_	_	_	_	_	_	_
 18	пост	_	_	_	_	_	_	_	bratT10=Person-property
-19	вице-президента	_	_	_	_	_	_	_	bratT10=Person-property
-20	при	_	_	_	_	_	_	_	_
-21	Бараке	_	_	_	_	_	_	_	bratA16=T11:Male|bratT11=Person|bratT57=Person-forename
-22	Обаме	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T11:Male|bratT11=Person|bratT58=Person-surname
-23	.	_	_	_	_	_	_	_	_
+19-21	вице-президента	_	_	_	_	_	_	_	_
+19	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Person-property
+20	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Person-property
+21	президента	_	_	_	_	_	_	_	bratT10=Person-property
+22	при	_	_	_	_	_	_	_	_
+23	Бараке	_	_	_	_	_	_	_	bratA16=T11:Male|bratT11=Person|bratT57=Person-forename
+24	Обаме	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T11:Male|bratT11=Person|bratT58=Person-surname
+25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0123-p7-s3
 # text = Во многих штатах разница между претендентами на пост президента составляет десятые доли процента.

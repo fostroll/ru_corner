@@ -1,68 +1,68 @@
 T1	Person-property 0 24	Чиновник   из   Беларуси
 T2	GPE 16 24	Беларуси
-T3	Person-property 34 51	вице-мэром   Ялты
-T4	GPE 47 51	Ялты
-T5	Date-relative 58 78	через   четыре   дня
-T6	Duration 66 78	четыре   дня
-T7	Person 125 154	Глава   Ялты   Иван   Имгрунт
+T3	Person-property 34 53	вице - мэром   Ялты
+T4	GPE 49 53	Ялты
+T5	Date-relative 60 80	через   четыре   дня
+T6	Duration 68 80	четыре   дня
+T7	Person 127 156	Глава   Ялты   Иван   Имгрунт
 A1	Male T7
-T8	Person-property 125 137	Глава   Ялты
-T9	GPE 133 137	Ялты
-T10	Person-forename 140 144	Иван
-T11	Person-surname 147 154	Имгрунт
-T12	Person 166 221	бывшего   беларуского   чиновника   Михаила   Загорцева
+T8	Person-property 127 139	Глава   Ялты
+T9	GPE 135 139	Ялты
+T10	Person-forename 142 146	Иван
+T11	Person-surname 149 156	Имгрунт
+T12	Person 168 223	бывшего   беларуского   чиновника   Михаила   Загорцева
 A2	Male T12
-T13	GPE 176 187	беларуского
+T13	GPE 178 189	беларуского
 A3	Adjective T13
-T14	Person-property 166 199	бывшего   беларуского   чиновника
-T15	Person-forename 202 209	Михаила
-T16	Person-surname 212 221	Загорцева
-T17	Date-absolute 228 248	четыре   дня   назад
+T14	Person-property 168 201	бывшего   беларуского   чиновника
+T15	Person-forename 204 211	Михаила
+T16	Person-surname 214 223	Загорцева
+T17	Date-absolute 230 250	четыре   дня   назад
 A4	Past T17
-T18	Duration 228 240	четыре   дня
-T19	Person-property 266 285	вице-мэром   города
-T22	Person 318 325	Имгрунт
+T18	Duration 230 242	четыре   дня
+T19	Person-property 268 289	вице - мэром   города
+T22	Person 322 329	Имгрунт
 A5	Male T22
-T23	Person-surname 318 325	Имгрунт
-T24	Person 355 364	Загорцева
+T23	Person-surname 322 329	Имгрунт
+T24	Person 359 368	Загорцева
 A6	Male T24
-T25	Person-surname 355 364	Загорцева
-T26	GPE 433 443	Белоруссии
-T27	Person 454 463	Загорцева
+T25	Person-surname 359 368	Загорцева
+T26	GPE 437 447	Белоруссии
+T27	Person 458 467	Загорцева
 A7	Male T27
-T28	Person-surname 454 463	Загорцева
-T29	Person-property 478 521	заместителем   главы   администрации   Ялты
-T30	Organization 501 521	администрации   Ялты
-T31	GPE 517 521	Ялты
-T32	Date-absolute 524 537	21   сентября
+T28	Person-surname 458 467	Загорцева
+T29	Person-property 482 525	заместителем   главы   администрации   Ялты
+T30	Organization 505 525	администрации   Ялты
+T31	GPE 521 525	Ялты
+T32	Date-absolute 528 541	21   сентября
 A8	Past T32
-T33	Organization 573 615	Бобруйский   городской   совет   депутатов
-T34	GPE 573 595	Бобруйский   городской
+T33	Organization 577 619	Бобруйский   городской   совет   депутатов
+T34	GPE 577 599	Бобруйский   городской
 A9	Adjective T34
-T35	Organization 622 672	Смолевичский   районный   исполнительный   комитет
-T36	GPE 622 645	Смолевичский   районный
+T35	Organization 626 676	Смолевичский   районный   исполнительный   комитет
+T36	GPE 626 649	Смолевичский   районный
 A10	Adjective T36
-T38	Organization 678 686	TUT . by
+T38	Organization 682 690	TUT . by
 A12	Media T38
-T39	Other-group 738 750	протестующих
-T40	Person 753 761	Загорцев
+T39	Other-group 742 754	протестующих
+T40	Person 757 765	Загорцев
 A13	Male T40
-T41	Person-surname 753 761	Загорцев
-T43	Event 815 838	президентских   выборов
-T44	Date-absolute 780 838	в   августе   ,   вскоре   после   президентских   выборов
-T45	Ordinal 927 934	первого
-T46	Nationality 985 994	россиянам
+T41	Person-surname 757 765	Загорцев
+T43	Event 819 842	президентских   выборов
+T44	Date-absolute 784 842	в   августе   ,   вскоре   после   президентских   выборов
+T45	Ordinal 931 938	первого
+T46	Nationality 989 998	россиянам
 A14	Citizenship T46
-T47	Date-period-absolute 1002 1044	сорок   первым   -   сорок   пятым   годом
-T20	Organization 421 443	оппозиции   Белоруссии
+T47	Date-period-absolute 1006 1048	сорок   первым   -   сорок   пятым   годом
+T20	Organization 425 447	оппозиции   Белоруссии
 A16	Past T5
-T21	Date-relative 542 552	До   этого
+T21	Date-relative 546 556	До   этого
 A17	Past T21
 A18	Past T44
 A19	Past T47
-T49	Date-period-relative 923 940	с   первого   дня
+T49	Date-period-relative 927 944	с   первого   дня
 A20	Past-UNK T49
-T50	Event 1077 1085	протесты
-T51	Event 114 123	протестов
-T37	Web-address 678 686	TUT . by
-T42	GPE 279 285	города
+T50	Event 1081 1089	протесты
+T51	Event 116 125	протестов
+T37	Web-address 682 690	TUT . by
+T42	GPE 283 289	города

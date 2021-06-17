@@ -59,31 +59,34 @@
 # sent_id = 0031-p3-s1
 # text = Агент 34-летнего форварда общался с представителями ``Галатасарая'', а также вышел на связь с португальским ``Порту'' и петербургским ``Зенитом''.
 1	Агент	_	_	_	_	_	_	_	bratA22=T56:Male|bratT56=Person|bratT9=Person-property
-2	34-летнего	_	_	_	_	_	_	_	bratA22=T56:Male|bratT10=Age|bratT56=Person|bratT9=Person-property
-3	форварда	_	_	_	_	_	_	_	bratA21=T55:Male|bratA22=T56:Male|bratT11=Person-property|bratT55=Person|bratT56=Person|bratT9=Person-property
-4	общался	_	_	_	_	_	_	_	_
-5	с	_	_	_	_	_	_	_	_
-6	представителями	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Person
-7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
-8	Галатасарая	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
-9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
-10	,	_	_	_	_	_	_	_	_
-11	а	_	_	_	_	_	_	_	_
-12	также	_	_	_	_	_	_	_	_
-13	вышел	_	_	_	_	_	_	_	_
-14	на	_	_	_	_	_	_	_	_
-15	связь	_	_	_	_	_	_	_	_
-16	с	_	_	_	_	_	_	_	_
-17	португальским	_	_	_	_	_	_	_	bratA14=T40:Adjective|bratT13=Organization|bratT40=GPE
-18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
-19	Порту	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT53=GPE
-20	''	_	_	_	_	_	_	_	bratT13=Organization
-21	и	_	_	_	_	_	_	_	_
-22	петербургским	_	_	_	_	_	_	_	bratA15=T41:Adjective|bratT14=Organization|bratT41=GPE
-23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
-24	Зенитом	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
-25	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
-26	.	_	_	_	_	_	_	_	_
+2-4	34-летнего	_	_	_	_	_	_	_	_
+2	34	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA22=T56:Male|bratT10=Age|bratT56=Person|bratT9=Person-property
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA22=T56:Male|bratT10=Age|bratT56=Person|bratT9=Person-property
+4	летнего	_	_	_	_	_	_	_	bratA22=T56:Male|bratT10=Age|bratT56=Person|bratT9=Person-property
+5	форварда	_	_	_	_	_	_	_	bratA21=T55:Male|bratA22=T56:Male|bratT11=Person-property|bratT55=Person|bratT56=Person|bratT9=Person-property
+6	общался	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	_
+8	представителями	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Person
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
+10	Галатасарая	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
+11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT59=Person-property|bratT60=Person
+12	,	_	_	_	_	_	_	_	_
+13	а	_	_	_	_	_	_	_	_
+14	также	_	_	_	_	_	_	_	_
+15	вышел	_	_	_	_	_	_	_	_
+16	на	_	_	_	_	_	_	_	_
+17	связь	_	_	_	_	_	_	_	_
+18	с	_	_	_	_	_	_	_	_
+19	португальским	_	_	_	_	_	_	_	bratA14=T40:Adjective|bratT13=Organization|bratT40=GPE
+20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+21	Порту	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT53=GPE
+22	''	_	_	_	_	_	_	_	bratT13=Organization
+23	и	_	_	_	_	_	_	_	_
+24	петербургским	_	_	_	_	_	_	_	bratA15=T41:Adjective|bratT14=Organization|bratT41=GPE
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+26	Зенитом	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+27	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+28	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0031-p3-s2
 # text = Не исключено, что Халк отправится выступать в Бразилию: его агент также общался с представителями местного ``Сан-Паулу''.

@@ -6,11 +6,14 @@
 1	Суд	_	_	_	_	_	_	_	_
 2	огласит	_	_	_	_	_	_	_	_
 3	приговор	_	_	_	_	_	_	_	_
-4	экс-гендиректору	_	_	_	_	_	_	_	bratT2=Person-property
-5	издательства	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
-7	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
-8	''	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+4-6	экс-гендиректору	_	_	_	_	_	_	_	_
+4	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Person-property
+5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Person-property
+6	гендиректору	_	_	_	_	_	_	_	bratT2=Person-property
+7	издательства	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+9	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+10	''	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
 
 # newpar id = 0052-p2
 # par_text = Гагаринский суд Москвы огласит приговор политологу и бывшему гендиректору издательства «Известия» Эраста Галумова, обвиняемого в мошенничестве. Об этом сообщает РИА «Новости».
@@ -135,17 +138,20 @@
 25	млн	_	_	_	_	_	_	_	bratT18=Money
 26	руб.	_	_	_	_	_	_	_	bratT18=Money
 27	у	_	_	_	_	_	_	_	_
-28	экс-гендиректора	_	_	_	_	_	_	_	bratA13=T21:Male|bratT20=Person-property|bratT21=Person
-29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
-30	Издательство	_	_	_	_	_	_	_	bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+28-30	экс-гендиректора	_	_	_	_	_	_	_	_
+28	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA13=T21:Male|bratT20=Person-property|bratT21=Person
+29	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA13=T21:Male|bratT20=Person-property|bratT21=Person
+30	гендиректора	_	_	_	_	_	_	_	bratA13=T21:Male|bratT20=Person-property|bratT21=Person
 31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
-32	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
-33	''	_	_	_	_	_	_	_	bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
-34	Эраста	_	_	_	_	_	_	_	bratA13=T21:Male|bratT21=Person|bratT34=Person-forename
-35	Галумова	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratT21=Person|bratT35=Person-surname
-36	,	_	_	_	_	_	_	_	_
-37	обвиняемого	_	_	_	_	_	_	_	_
-38	в	_	_	_	_	_	_	_	_
-39	мошенничестве	_	_	_	_	_	_	_	SpaceAfter=No
-40	.	_	_	_	_	_	_	_	_
+32	Издательство	_	_	_	_	_	_	_	bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+33	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+34	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+35	''	_	_	_	_	_	_	_	bratA13=T21:Male|bratA5=T19:Media|bratT19=Organization|bratT20=Person-property|bratT21=Person
+36	Эраста	_	_	_	_	_	_	_	bratA13=T21:Male|bratT21=Person|bratT34=Person-forename
+37	Галумова	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T21:Male|bratT21=Person|bratT35=Person-surname
+38	,	_	_	_	_	_	_	_	_
+39	обвиняемого	_	_	_	_	_	_	_	_
+40	в	_	_	_	_	_	_	_	_
+41	мошенничестве	_	_	_	_	_	_	_	SpaceAfter=No
+42	.	_	_	_	_	_	_	_	_
 

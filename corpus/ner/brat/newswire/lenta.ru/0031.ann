@@ -6,39 +6,39 @@ T5	Organization 111 134	``   Шанхай   СИПГ   ''
 T6	Person 84 141	Бразильский   нападающий   ``   Шанхай   СИПГ   ''   Халк
 T7	GPE 250 255	Китай
 T8	Organization 283 305	турецкий   mynet . com
-T9	Person-property 311 340	Агент   34-летнего   форварда
-T10	Age 319 329	34-летнего
-T11	Person-property 332 340	форварда
-T12	Organization 375 396	``   Галатасарая   ''
-T13	Organization 440 471	португальским   ``   Порту   ''
-T14	Organization 478 511	петербургским   ``   Зенитом   ''
-T15	Person 543 547	Халк
-T16	GPE 579 587	Бразилию
-T17	Person-property 600 605	агент
-T18	Organization 648 678	местного   ``   Сан-Паулу   ''
-T19	Nationality 706 714	бразилец
+T9	Person-property 311 342	Агент   34 - летнего   форварда
+T10	Age 319 331	34 - летнего
+T11	Person-property 334 342	форварда
+T12	Organization 377 398	``   Галатасарая   ''
+T13	Organization 442 473	португальским   ``   Порту   ''
+T14	Organization 480 513	петербургским   ``   Зенитом   ''
+T15	Person 545 549	Халк
+T16	GPE 581 589	Бразилию
+T17	Person-property 602 607	агент
+T18	Organization 650 680	местного   ``   Сан-Паулу   ''
+T19	Nationality 708 716	бразилец
 A1	Citizenship T19
-T20	Date-absolute 747 771	в   начале   2021   года
-T21	Person 785 789	Халк
-T22	GPE 845 851	Россию
-T23	Organization 917 932	``   Зенит   ''
-T24	Person 1003 1008	Халка
-T25	Date-absolute 1047 1068	в   декабре   2020-го
-T26	Organization 1092 1115	``   Шанхай   СИПГ   ''
-T27	Organization 1123 1139	``   Зенита   ''
-T28	Date-absolute 1142 1157	в   2016   году
-T29	Money 1191 1211	32   миллиона   евро
-T30	Person 1217 1221	Халк
-T31	Organization 1240 1255	``   Зенит   ''
-T32	Date-period-absolute 1258 1284	с   2012   по   2016   год
-T33	Nationality 1302 1310	бразилец
+T20	Date-absolute 749 773	в   начале   2021   года
+T21	Person 787 791	Халк
+T22	GPE 847 853	Россию
+T23	Organization 919 934	``   Зенит   ''
+T24	Person 1005 1010	Халка
+T25	Date-absolute 1049 1070	в   декабре   2020-го
+T26	Organization 1094 1117	``   Шанхай   СИПГ   ''
+T27	Organization 1125 1141	``   Зенита   ''
+T28	Date-absolute 1144 1159	в   2016   году
+T29	Money 1193 1213	32   миллиона   евро
+T30	Person 1219 1223	Халк
+T31	Organization 1242 1257	``   Зенит   ''
+T32	Date-period-absolute 1260 1286	с   2012   по   2016   год
+T33	Nationality 1304 1312	бразилец
 A2	Citizenship T33
-T34	Organization 1327 1342	``   Порту   ''
+T34	Organization 1329 1344	``   Порту   ''
 A3	Media T8
 T36	GPE 218 224	Европы
 T35	Quantity 191 201	одном   из
-T37	Date-absolute 777 782	Летом
-T38	Date-relative 1289 1299	До   этого
+T37	Date-absolute 779 784	Летом
+T38	Date-relative 1291 1301	До   этого
 A4	Future T20
 A5	Past T37
 A6	Future T25
@@ -46,15 +46,15 @@ A7	Past T28
 A10	Past T38
 A11	Past T32
 T39	GPE 84 95	Бразильский
-T40	GPE 440 453	португальским
-T41	GPE 478 491	петербургским
-T42	GPE 1015 1024	китайским
+T40	GPE 442 455	португальским
+T41	GPE 480 493	петербургским
+T42	GPE 1017 1026	китайским
 T43	Person-alias 0 4	Халк
 T44	Person-alias 137 141	Халк
-T45	Person-alias 543 547	Халк
-T46	Person-alias 785 789	Халк
-T47	Person-alias 1003 1008	Халка
-T48	Person-alias 1217 1221	Халк
+T45	Person-alias 545 549	Халк
+T46	Person-alias 787 791	Халк
+T47	Person-alias 1005 1010	Халка
+T48	Person-alias 1219 1223	Халк
 A8	Male T1
 A9	Male T6
 A12	Adjective T39
@@ -65,31 +65,31 @@ A16	Male T21
 T49	GPE 283 291	турецкий
 A17	Adjective T49
 T50	GPE 116 122	Шанхай
-T51	GPE 664 673	Сан-Паулу
+T51	GPE 666 675	Сан-Паулу
 A18	Male T24
 A19	Adjective T42
-T52	GPE 1097 1103	Шанхай
-T53	GPE 461 466	Порту
-T54	GPE 1332 1337	Порту
+T52	GPE 1099 1105	Шанхай
+T53	GPE 463 468	Порту
+T54	GPE 1334 1339	Порту
 A20	Male T30
-T55	Person 332 340	форварда
+T55	Person 334 342	форварда
 A21	Male T55
-T56	Person 311 340	Агент   34-летнего   форварда
+T56	Person 311 342	Агент   34 - летнего   форварда
 A22	Male T56
-T57	Person 594 605	его   агент
+T57	Person 596 607	его   агент
 A23	Male T57
 T58	Event 204 224	чемпионатов   Европы
-T59	Person-property 357 396	представителями   ``   Галатасарая   ''
-T60	Person 357 396	представителями   ``   Галатасарая   ''
-T61	Person-property 630 678	представителями   местного   ``   Сан-Паулу   ''
-T62	Person 630 678	представителями   местного   ``   Сан-Паулу   ''
-T63	Person 706 714	бразилец
+T59	Person-property 359 398	представителями   ``   Галатасарая   ''
+T60	Person 359 398	представителями   ``   Галатасарая   ''
+T61	Person-property 632 680	представителями   местного   ``   Сан-Паулу   ''
+T62	Person 632 680	представителями   местного   ``   Сан-Паулу   ''
+T63	Person 708 716	бразилец
 A24	Male T63
-T64	Person 1302 1310	бразилец
+T64	Person 1304 1312	бразилец
 A25	Male T64
 T65	Web-address 294 305	mynet . com
-T66	GPE 648 656	местного
+T66	GPE 650 658	местного
 A26	Adjective T66
-T67	Organization 737 744	команду
-T68	Organization 950 955	клубе
-T69	Organization 1015 1033	китайским   клубом
+T67	Organization 739 746	команду
+T68	Organization 952 957	клубе
+T69	Organization 1017 1035	китайским   клубом

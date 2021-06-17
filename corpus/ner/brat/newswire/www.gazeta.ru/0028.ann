@@ -1,47 +1,47 @@
 T1	Person 0 4	Мень
 T2	Organization 100 116	Счетной   палаты
 T3	Person-property 90 116	Аудитор   Счетной   палаты
-T4	GPE 140 160	Ивановской   области
-T5	Person-property 123 160	экс-губернатор   Ивановской   области
-T6	Person 90 176	Аудитор   Счетной   палаты   ,   экс-губернатор   Ивановской   области   Михаил   Мень
-T7	GPE 438 444	Москвы
-T8	Organization 381 444	Общественной   наблюдательной   комиссии   (   ОНК   )   Москвы
-T9	Person-property 353 444	ответственный   секретарь   Общественной   наблюдательной   комиссии   (   ОНК   )   Москвы
-T10	Person 353 466	ответственный   секретарь   Общественной   наблюдательной   комиссии   (   ОНК   )   Москвы   Алексей   Мельников
-T11	Organization 484 488	ТАСС
+T4	GPE 142 162	Ивановской   области
+T5	Person-property 123 162	экс - губернатор   Ивановской   области
+T6	Person 90 178	Аудитор   Счетной   палаты   ,   экс - губернатор   Ивановской   области   Михаил   Мень
+T7	GPE 440 446	Москвы
+T8	Organization 383 446	Общественной   наблюдательной   комиссии   (   ОНК   )   Москвы
+T9	Person-property 355 446	ответственный   секретарь   Общественной   наблюдательной   комиссии   (   ОНК   )   Москвы
+T10	Person 355 468	ответственный   секретарь   Общественной   наблюдательной   комиссии   (   ОНК   )   Москвы   Алексей   Мельников
+T11	Organization 486 490	ТАСС
 A1	Media T11
-T12	Date-absolute 650 670	десять   лет   назад
-T13	Person 695 699	Мень
-T14	Person 718 722	Мень
-T15	Person 813 826	Михаил   Мень
-T16	Organization 861 864	МВД
-T17	Organization 871 874	ФСБ
-T18	Person-property 846 874	сотрудниками   МВД   и   ФСБ
+T12	Date-absolute 652 672	десять   лет   назад
+T13	Person 697 701	Мень
+T14	Person 720 724	Мень
+T15	Person 815 828	Михаил   Мень
+T16	Organization 863 866	МВД
+T17	Organization 873 876	ФСБ
+T18	Person-property 848 876	сотрудниками   МВД   и   ФСБ
 A2	Plural T18
-T19	Date-absolute 877 888	18   ноября
-T20	Money 938 954	700   млн   руб.
-T21	GPE 972 992	Ивановской   области
-T22	Date-absolute 995 1010	в   2011   году
-T23	GPE 1084 1086	РФ
-T24	Organization 1064 1086	Совет   Федерации   РФ
-T25	Person-property 1044 1053	чиновника
-T26	Organization 428 431	ОНК
+T19	Date-absolute 879 890	18   ноября
+T20	Money 940 956	700   млн   руб.
+T21	GPE 974 994	Ивановской   области
+T22	Date-absolute 997 1012	в   2011   году
+T23	GPE 1086 1088	РФ
+T24	Organization 1066 1088	Совет   Федерации   РФ
+T25	Person-property 1046 1055	чиновника
+T26	Organization 430 433	ОНК
 A3	Past T12
-T27	Duration 650 662	десять   лет
+T27	Duration 652 664	десять   лет
 A4	Past T19
 A5	Past T22
 T28	Person-surname 0 4	Мень
 A6	Male T1
-T29	Person-forename 163 169	Михаил
-T30	Person-surname 172 176	Мень
+T29	Person-forename 165 171	Михаил
+T30	Person-surname 174 178	Мень
 A7	Male T6
-T31	Person-surname 695 699	Мень
+T31	Person-surname 697 701	Мень
 A8	Male T13
-T32	Person-forename 447 454	Алексей
-T33	Person-surname 457 466	Мельников
+T32	Person-forename 449 456	Алексей
+T33	Person-surname 459 468	Мельников
 A9	Male T10
-T34	Person-surname 718 722	Мень
+T34	Person-surname 720 724	Мень
 A10	Male T14
-T35	Person-forename 813 819	Михаил
-T36	Person-surname 822 826	Мень
+T35	Person-forename 815 821	Михаил
+T36	Person-surname 824 828	Мень
 A11	Male T15

@@ -25,11 +25,14 @@
 8	области	_	_	_	_	_	_	_	bratA15=T4:Department|bratA3=T6:Adjective|bratT4=Organization|bratT6=GPE
 9	нашли	_	_	_	_	_	_	_	_
 10	мертвым	_	_	_	_	_	_	_	_
-11	23-летнего	_	_	_	_	_	_	_	bratT7=Age
-12	участкового	_	_	_	_	_	_	_	bratA4=T8:Male|bratT8=Person|bratT9=Person-property
-13	Дмитрия	_	_	_	_	_	_	_	bratA4=T8:Male|bratT10=Person-forename|bratT8=Person
-14	Божкова	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Male|bratT11=Person-surname|bratT8=Person
-15	.	_	_	_	_	_	_	_	_
+11-13	23-летнего	_	_	_	_	_	_	_	_
+11	23	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Age
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Age
+13	летнего	_	_	_	_	_	_	_	bratT7=Age
+14	участкового	_	_	_	_	_	_	_	bratA4=T8:Male|bratT8=Person|bratT9=Person-property
+15	Дмитрия	_	_	_	_	_	_	_	bratA4=T8:Male|bratT10=Person-forename|bratT8=Person
+16	Божкова	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Male|bratT11=Person-surname|bratT8=Person
+17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0050-p2-s2
 # text = Об этом сообщают «Вести.Воронеж» и «Мое! Online».

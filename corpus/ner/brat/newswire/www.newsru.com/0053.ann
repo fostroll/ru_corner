@@ -5,31 +5,31 @@ T4	Person-property 97 141	Шестикратный   чемпион   мира  
 T5	Nationality 144 152	британец
 A1	Citizenship T5
 T6	Person 233 251	Льюиса   Хэмилтона
-T7	Age 270 280	44-летнего
-T8	Nationality 283 294	англичанина
+T7	Age 270 282	44 - летнего
+T8	Nationality 285 296	англичанина
 A2	Citizenship T8
-T9	Person-property 314 342	гонщика   ``   Мерседес   ''
-T10	Person-surname 391 397	Льюиса
-T11	Ordinal 400 407	седьмой
-T12	Event 436 457	``   Формуле - 1   ''
-T13	Person 733 743	О'Салливан
-T14	Organization 746 758	Daily   Star
+T9	Person-property 316 344	гонщика   ``   Мерседес   ''
+T10	Person-surname 393 399	Льюиса
+T11	Ordinal 402 409	седьмой
+T12	Event 438 459	``   Формуле - 1   ''
+T13	Person 735 745	О'Салливан
+T14	Organization 748 760	Daily   Star
 A3	Media T14
-T15	Person 1046 1052	Боттас
-T16	Ordinal 1100 1106	второй
-T17	Person-property 1315 1325	спортсмена
-T18	Person-property 1460 1480	великие   спортсмены
-T19	Person 1493 1509	Роджер   Федерер
-T20	Person 1516 1532	Рафаэль   Надаль
-T21	Person 1539 1555	Новак   Джокович
-T22	Person 1562 1574	Фил   Тейлор
-T23	Person 1581 1594	Тайгер   Вудс
-T24	Person 1601 1616	Лионель   Месси
-T25	Person 1623 1642	Криштиану   Роналду
-T26	Time-relative 918 940	на   секунду   быстрее
-T27	Quantity 624 637	одной   рукой
+T15	Person 1048 1054	Боттас
+T16	Ordinal 1102 1108	второй
+T17	Person-property 1317 1327	спортсмена
+T18	Person-property 1462 1482	великие   спортсмены
+T19	Person 1495 1511	Роджер   Федерер
+T20	Person 1518 1534	Рафаэль   Надаль
+T21	Person 1541 1557	Новак   Джокович
+T22	Person 1564 1576	Фил   Тейлор
+T23	Person 1583 1596	Тайгер   Вудс
+T24	Person 1603 1618	Лионель   Месси
+T25	Person 1625 1644	Криштиану   Роналду
+T26	Time-relative 920 942	на   секунду   быстрее
+T27	Quantity 626 639	одной   рукой
 T28	Person-property 74 95	великим   спортсменом
-T29	Person-property 694 713	великий   спортсмен
+T29	Person-property 696 715	великий   спортсмен
 T30	Quantity 97 109	Шестикратный
 T31	GPE 122 126	мира
 T32	GPE 25 29	мира
@@ -41,14 +41,14 @@ A5	Male T3
 T36	Person-forename 233 239	Льюиса
 T37	Person-surname 242 251	Хэмилтона
 A6	Male T6
-T38	Organization 324 342	``   Мерседес   ''
-T39	Person 391 397	Льюиса
+T38	Organization 326 344	``   Мерседес   ''
+T39	Person 393 399	Льюиса
 A7	Male T39
-T40	Person-surname 733 743	О'Салливан
+T40	Person-surname 735 745	О'Салливан
 A8	Male T13
-T41	Duration 923 930	секунду
+T41	Duration 925 932	секунду
 A9	Male T15
-T42	Person-surname 1046 1052	Боттас
+T42	Person-surname 1048 1054	Боттас
 A10	Male T19
 A11	Male T20
 A12	Male T21
@@ -56,24 +56,24 @@ A13	Male T22
 A14	Male T23
 A15	Male T24
 A16	Male T25
-T43	Person-forename 1493 1499	Роджер
-T44	Person-forename 1516 1523	Рафаэль
-T45	Person-forename 1539 1544	Новак
-T46	Person-forename 1562 1565	Фил
-T47	Person-forename 1581 1587	Тайгер
-T48	Person-forename 1601 1608	Лионель
-T49	Person-forename 1623 1632	Криштиану
-T50	Person-surname 1502 1509	Федерер
-T51	Person-surname 1526 1532	Надаль
-T52	Person-surname 1547 1555	Джокович
-T53	Person-surname 1568 1574	Тейлор
-T54	Person-surname 1590 1594	Вудс
-T55	Person-surname 1611 1616	Месси
-T56	Person-surname 1635 1642	Роналду
-T57	Ordinal 451 452	1
+T43	Person-forename 1495 1501	Роджер
+T44	Person-forename 1518 1525	Рафаэль
+T45	Person-forename 1541 1546	Новак
+T46	Person-forename 1564 1567	Фил
+T47	Person-forename 1583 1589	Тайгер
+T48	Person-forename 1603 1610	Лионель
+T49	Person-forename 1625 1634	Криштиану
+T50	Person-surname 1504 1511	Федерер
+T51	Person-surname 1528 1534	Надаль
+T52	Person-surname 1549 1557	Джокович
+T53	Person-surname 1570 1576	Тейлор
+T54	Person-surname 1592 1596	Вудс
+T55	Person-surname 1613 1618	Месси
+T56	Person-surname 1637 1644	Роналду
+T57	Ordinal 453 454	1
 T58	Nationality 214 230	соотечественника
 A17	Citizenship T58
-T59	Organization 1030 1037	команде
-T60	Person-property 1013 1037	напарника   по   команде
-T61	Person 1013 1037	напарника   по   команде
+T59	Organization 1032 1039	команде
+T60	Person-property 1015 1039	напарника   по   команде
+T61	Person 1015 1039	напарника   по   команде
 A18	Male T61

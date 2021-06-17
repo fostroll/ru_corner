@@ -207,27 +207,30 @@
 # sent_id = 0107-p7-s1
 # text = Позже экс-кандидат в президенты республики Светлана Тихановская объявила о создании в стране Координационного совета оппозиции, который должен способствовать трансферу власти.
 1	Позже	_	_	_	_	_	_	_	bratA8=T42:Past|bratT42=Date-period-absolute
-2	экс-кандидат	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
-3	в	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
-4	президенты	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
-5	республики	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property|bratT61=GPE
-6	Светлана	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT50=Person-forename
-7	Тихановская	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT51=Person-surname
-8	объявила	_	_	_	_	_	_	_	_
-9	о	_	_	_	_	_	_	_	_
-10	создании	_	_	_	_	_	_	_	_
-11	в	_	_	_	_	_	_	_	_
-12	стране	_	_	_	_	_	_	_	bratT62=GPE
-13	Координационного	_	_	_	_	_	_	_	bratT31=Organization
-14	совета	_	_	_	_	_	_	_	bratT31=Organization
-15	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization|bratT59=Organization
-16	,	_	_	_	_	_	_	_	_
-17	который	_	_	_	_	_	_	_	_
-18	должен	_	_	_	_	_	_	_	_
-19	способствовать	_	_	_	_	_	_	_	_
-20	трансферу	_	_	_	_	_	_	_	_
-21	власти	_	_	_	_	_	_	_	SpaceAfter=No
-22	.	_	_	_	_	_	_	_	_
+2-4	экс-кандидат	_	_	_	_	_	_	_	_
+2	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA14=T29:Female|bratT29=Person|bratT30=Person-property
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA14=T29:Female|bratT29=Person|bratT30=Person-property
+4	кандидат	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
+5	в	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
+6	президенты	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property
+7	республики	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT30=Person-property|bratT61=GPE
+8	Светлана	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT50=Person-forename
+9	Тихановская	_	_	_	_	_	_	_	bratA14=T29:Female|bratT29=Person|bratT51=Person-surname
+10	объявила	_	_	_	_	_	_	_	_
+11	о	_	_	_	_	_	_	_	_
+12	создании	_	_	_	_	_	_	_	_
+13	в	_	_	_	_	_	_	_	_
+14	стране	_	_	_	_	_	_	_	bratT62=GPE
+15	Координационного	_	_	_	_	_	_	_	bratT31=Organization
+16	совета	_	_	_	_	_	_	_	bratT31=Organization
+17	оппозиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization|bratT59=Organization
+18	,	_	_	_	_	_	_	_	_
+19	который	_	_	_	_	_	_	_	_
+20	должен	_	_	_	_	_	_	_	_
+21	способствовать	_	_	_	_	_	_	_	_
+22	трансферу	_	_	_	_	_	_	_	_
+23	власти	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0107-p7-s2
 # text = Лукашенко же обвинил в протестах западные страны и потребовал возбудить уголовные дела против членов совета.

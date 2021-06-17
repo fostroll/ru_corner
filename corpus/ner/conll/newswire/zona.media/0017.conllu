@@ -38,17 +38,20 @@
 11	строгого	_	_	_	_	_	_	_	_
 12	режима	_	_	_	_	_	_	_	_
 13	местного	_	_	_	_	_	_	_	bratA15=T52:Adjective|bratA4=T12:Resident|bratT12=Nationality|bratT52=GPE
-14	42-летнего	_	_	_	_	_	_	_	bratA4=T12:Resident|bratT12=Nationality|bratT13=Age
-15	жителя	_	_	_	_	_	_	_	bratA4=T12:Resident|bratT12=Nationality
-16	по	_	_	_	_	_	_	_	_
-17	делу	_	_	_	_	_	_	_	bratT55=Event
-18	о	_	_	_	_	_	_	_	_
-19	домогательствах	_	_	_	_	_	_	_	bratT56=Event
-20	к	_	_	_	_	_	_	_	_
-21	дочери	_	_	_	_	_	_	_	bratT14=Family
-22	своей	_	_	_	_	_	_	_	_
-23	подруги	_	_	_	_	_	_	_	SpaceAfter=No
-24	.	_	_	_	_	_	_	_	_
+14-16	42-летнего	_	_	_	_	_	_	_	_
+14	42	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T12:Resident|bratT12=Nationality|bratT13=Age
+15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T12:Resident|bratT12=Nationality|bratT13=Age
+16	летнего	_	_	_	_	_	_	_	bratA4=T12:Resident|bratT12=Nationality|bratT13=Age
+17	жителя	_	_	_	_	_	_	_	bratA4=T12:Resident|bratT12=Nationality
+18	по	_	_	_	_	_	_	_	_
+19	делу	_	_	_	_	_	_	_	bratT55=Event
+20	о	_	_	_	_	_	_	_	_
+21	домогательствах	_	_	_	_	_	_	_	bratT56=Event
+22	к	_	_	_	_	_	_	_	_
+23	дочери	_	_	_	_	_	_	_	bratT14=Family
+24	своей	_	_	_	_	_	_	_	_
+25	подруги	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p2-s2
 # text = Об этом сообщает региональное управление СК.
@@ -107,11 +110,14 @@
 9	подсудимый	_	_	_	_	_	_	_	bratT20=Person-property
 10	домогался	_	_	_	_	_	_	_	_
 11	до	_	_	_	_	_	_	_	_
-12	12-летней	_	_	_	_	_	_	_	bratT21=Age
-13	дочери	_	_	_	_	_	_	_	bratT22=Family
-14	своей	_	_	_	_	_	_	_	_
-15	подруги	_	_	_	_	_	_	_	SpaceAfter=No
-16	.	_	_	_	_	_	_	_	_
+12-14	12-летней	_	_	_	_	_	_	_	_
+12	12	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT21=Age
+13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT21=Age
+14	летней	_	_	_	_	_	_	_	bratT21=Age
+15	дочери	_	_	_	_	_	_	_	bratT22=Family
+16	своей	_	_	_	_	_	_	_	_
+17	подруги	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p4-s2
 # text = Девочка рассказала о случившемся матери, вологжанка обратилась в полицию.

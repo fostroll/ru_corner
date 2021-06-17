@@ -100,20 +100,23 @@
 # sent_id = 0055-p2-s5
 # text = В топ-5 красавчиков также фигурируют Генри Кавилл, Брэдли Купер, Брэд Питт и Джордж Клуни.
 1	В	_	_	_	_	_	_	_	_
-2	топ-5	_	_	_	_	_	_	_	bratT8=Quantity
-3	красавчиков	_	_	_	_	_	_	_	_
-4	также	_	_	_	_	_	_	_	_
-5	фигурируют	_	_	_	_	_	_	_	_
-6	Генри	_	_	_	_	_	_	_	bratA5=T9:Male|bratT20=Person-forename|bratT9=Person
-7	Кавилл	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Male|bratT21=Person-surname|bratT9=Person
-8	,	_	_	_	_	_	_	_	_
-9	Брэдли	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT22=Person-forename
-10	Купер	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT23=Person-surname
-11	,	_	_	_	_	_	_	_	_
-12	Брэд	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT24=Person-forename
-13	Питт	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT25=Person-surname
-14	и	_	_	_	_	_	_	_	_
-15	Джордж	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person|bratT26=Person-forename
-16	Клуни	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT27=Person-surname
-17	.	_	_	_	_	_	_	_	_
+2-4	топ-5	_	_	_	_	_	_	_	_
+2	топ	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT8=Quantity
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT8=Quantity
+4	5	_	_	_	_	_	_	_	bratT8=Quantity
+5	красавчиков	_	_	_	_	_	_	_	_
+6	также	_	_	_	_	_	_	_	_
+7	фигурируют	_	_	_	_	_	_	_	_
+8	Генри	_	_	_	_	_	_	_	bratA5=T9:Male|bratT20=Person-forename|bratT9=Person
+9	Кавилл	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Male|bratT21=Person-surname|bratT9=Person
+10	,	_	_	_	_	_	_	_	_
+11	Брэдли	_	_	_	_	_	_	_	bratA6=T10:Male|bratT10=Person|bratT22=Person-forename
+12	Купер	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT23=Person-surname
+13	,	_	_	_	_	_	_	_	_
+14	Брэд	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT24=Person-forename
+15	Питт	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT25=Person-surname
+16	и	_	_	_	_	_	_	_	_
+17	Джордж	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person|bratT26=Person-forename
+18	Клуни	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT27=Person-surname
+19	.	_	_	_	_	_	_	_	_
 

@@ -6,11 +6,14 @@
 1	Госдума	_	_	_	_	_	_	_	bratT1=Organization
 2	поддержала	_	_	_	_	_	_	_	_
 3	право	_	_	_	_	_	_	_	_
-4	экс-президента	_	_	_	_	_	_	_	bratT2=Person-property
-5	РФ	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=GPE
-6	пожизненно	_	_	_	_	_	_	_	_
-7	быть	_	_	_	_	_	_	_	_
-8	сенатором	_	_	_	_	_	_	_	bratT4=Person-property
+4-6	экс-президента	_	_	_	_	_	_	_	_
+4	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Person-property
+5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Person-property
+6	президента	_	_	_	_	_	_	_	bratT2=Person-property
+7	РФ	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=GPE
+8	пожизненно	_	_	_	_	_	_	_	_
+9	быть	_	_	_	_	_	_	_	_
+10	сенатором	_	_	_	_	_	_	_	bratT4=Person-property
 
 # newpar id = 0011-p2
 # par_text = Государственная дума на пленарном заседании приняла в I чтении проект о возможности бывшего президента России после прекращения полномочий стать сенатором и претендовать на пожизненную квоту. Об этом сообщает РИА «Новости».

@@ -1,73 +1,73 @@
-T1	Age 34 43	12-летнюю
-T2	Age 195 204	12-летней
+T1	Age 34 45	12 - летнюю
+T2	Age 197 208	12 - летней
 T3	GPE 4 23	Красноярском   крае
-T4	Date-relative 60 65	ранее
-T5	GPE 156 175	Красноярском   крае
-T8	Date-absolute 309 340	в   2019-м   и   2020-м   годах
-T9	Organization 373 399	региональной   прокуратуры
-T10	Service 365 370	сайте
+T4	Date-relative 62 67	ранее
+T5	GPE 158 177	Красноярском   крае
+T8	Date-absolute 313 344	в   2019-м   и   2020-м   годах
+T9	Organization 377 403	региональной   прокуратуры
+T10	Service 369 374	сайте
 A2	Media T10
-T11	Person-property 440 459	прокурором   района
-T12	Date-absolute 615 640	в   феврале   2020   года
+T11	Person-property 444 463	прокурором   района
+T12	Date-absolute 619 644	в   феврале   2020   года
 A3	Past T12
-T14	Organization 779 790	прокуратура
-T15	Organization 814 877	территориальный   отдел   управления   Следственного   комитета
+T14	Organization 783 794	прокуратура
+T15	Organization 818 881	территориальный   отдел   управления   Следственного   комитета
 A4	Department T15
-T16	Organization 853 877	Следственного   комитета
-T17	Date-absolute 985 1010	в   июне   2019-го   года
+T16	Organization 857 881	Следственного   комитета
+T17	Date-absolute 989 1014	в   июне   2019-го   года
 A5	Past T17
-T18	Organization 1175 1233	пресс-службе   управления   МВД   по   Красноярском   краю
+T18	Organization 1179 1237	пресс-службе   управления   МВД   по   Красноярском   краю
 A6	Department T18
-T19	Organization 1190 1233	управления   МВД   по   Красноярском   краю
-T20	GPE 1214 1233	Красноярском   краю
-T21	Organization 1247 1266	``   Медиазоне   ''
+T19	Organization 1194 1237	управления   МВД   по   Красноярском   краю
+T20	GPE 1218 1237	Красноярском   краю
+T21	Organization 1251 1270	``   Медиазоне   ''
 A7	Media T21
-T22	Family 1299 1305	матери
-T23	Date-absolute 1419 1445	в   конце   2019-го   года
-T24	Age 1448 1467	несовершеннолетнего
-T25	Family 1512 1518	дочери
-T26	Nationality 1659 1676	местного   жителя
+T22	Family 1303 1309	матери
+T23	Date-absolute 1423 1449	в   конце   2019-го   года
+T24	Age 1452 1471	несовершеннолетнего
+T25	Family 1516 1522	дочери
+T26	Nationality 1663 1680	местного   жителя
 A8	Resident T26
-T27	Age 1679 1704	2005-го   года   рождения
-T28	Family 1761 1767	матери
-T29	Age 1833 1843	подростков
-T30	Age 1873 1883	малолетних
+T27	Age 1683 1708	2005-го   года   рождения
+T28	Family 1765 1771	матери
+T29	Age 1837 1847	подростков
+T30	Age 1877 1887	малолетних
 A9	Past T4
 A1	Past T8
-T6	Service 748 753	сайте
+T6	Service 752 757	сайте
 A11	Media T6
-T7	Date-period-absolute 1279 1296	после   обращений
+T7	Date-period-absolute 1283 1300	после   обращений
 A12	Past T7
-T13	Person 1299 1316	матери   погибшей
+T13	Person 1303 1320	матери   погибшей
 A13	Female T13
 A14	Past T23
-T33	Person 1507 1518	ее   дочери
+T33	Person 1511 1522	ее   дочери
 A15	Female T33
-T31	Family 178 183	семья
-T32	Date-absolute 1679 1693	2005-го   года
+T31	Family 180 185	семья
+T32	Date-absolute 1683 1697	2005-го   года
 A16	Past T32
-T34	Organization 91 98	полицию
-T35	Organization 234 241	полицию
-T36	Organization 709 716	полицию
-T37	Organization 1980 1987	полиции
-T38	Organization 1904 1929	органы   внутренних   дел
+T34	Organization 93 100	полицию
+T35	Organization 238 245	полицию
+T36	Organization 713 720	полицию
+T37	Organization 1984 1991	полиции
+T38	Organization 1908 1933	органы   внутренних   дел
 A10	Plural T8
-T39	GPE 1659 1667	местного
+T39	GPE 1663 1671	местного
 A17	Adjective T39
-T40	GPE 373 385	региональной
+T40	GPE 377 389	региональной
 A18	Adjective T40
-T41	GPE 453 459	района
-T42	Organization 840 877	управления   Следственного   комитета
-T43	Organization 1203 1206	МВД
-T44	Event 521 538	уголовного   дела
-T45	Event 938 942	дела
-T46	Event 958 971	изнасилования
-T47	Event 123 136	изнасиловании
-T48	Event 267 280	изнасиловании
-T49	Event 287 294	угрозах
-T50	Event 297 306	убийством
-T51	Event 143 150	угрозах
-T52	Event 1080 1096	уголовное   дело
-T53	Event 1737 1741	дело
-T54	Organization 756 765	ведомства
-T55	Organization 1574 1583	ведомство
+T41	GPE 457 463	района
+T42	Organization 844 881	управления   Следственного   комитета
+T43	Organization 1207 1210	МВД
+T44	Event 525 542	уголовного   дела
+T45	Event 942 946	дела
+T46	Event 962 975	изнасилования
+T47	Event 125 138	изнасиловании
+T48	Event 271 284	изнасиловании
+T49	Event 291 298	угрозах
+T50	Event 301 310	убийством
+T51	Event 145 152	угрозах
+T52	Event 1084 1100	уголовное   дело
+T53	Event 1741 1745	дело
+T54	Organization 760 769	ведомства
+T55	Organization 1578 1587	ведомство

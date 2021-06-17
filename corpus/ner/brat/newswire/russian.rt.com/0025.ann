@@ -2,52 +2,52 @@ T1	Person 0 11	Василевский
 T2	Person-property 32 46	вратарём   НХЛ
 T3	Organization 43 46	НХЛ
 T4	Organization 63 76	NHL   Network
-T5	Person-property 250 304	российский   голкипер   ``   Тампа-Бэй   Лайтнинг   ''
-T6	Ordinal 225 231	первое
-T7	Organization 274 304	``   Тампа-Бэй   Лайтнинг   ''
-T8	Person 250 327	российский   голкипер   ``   Тампа-Бэй   Лайтнинг   ''   Андрей   Василевский
-T9	Ordinal 337 343	второй
-T10	Person-property 371 416	финский   вратарь   ``   Бостон   Брюинз   ''
-T11	Organization 391 416	``   Бостон   Брюинз   ''
-T12	Person 371 432	финский   вратарь   ``   Бостон   Брюинз   ''   Туукка   Раск
-T13	Nationality 456 466	американец
+T5	Person-property 252 306	российский   голкипер   ``   Тампа-Бэй   Лайтнинг   ''
+T6	Ordinal 227 233	первое
+T7	Organization 276 306	``   Тампа-Бэй   Лайтнинг   ''
+T8	Person 252 329	российский   голкипер   ``   Тампа-Бэй   Лайтнинг   ''   Андрей   Василевский
+T9	Ordinal 339 345	второй
+T10	Person-property 373 418	финский   вратарь   ``   Бостон   Брюинз   ''
+T11	Organization 393 418	``   Бостон   Брюинз   ''
+T12	Person 373 434	финский   вратарь   ``   Бостон   Брюинз   ''   Туукка   Раск
+T13	Nationality 458 468	американец
 A1	Citizenship T13
-T14	Person 469 487	Коннор   Хеллебайк
-T15	Organization 495 521	``   Виннипег   Джетс   ''
-T16	Organization 556 580	``   Даллас   Старз   ''
-T17	Person 527 598	Российский   страж   ворот   ``   Даллас   Старз   ''   Антон   Худобин
-T18	Person-property 733 760	вратарь   ``   Далласа   ''
-T19	Organization 743 760	``   Далласа   ''
-T20	Person 733 770	вратарь   ``   Далласа   ''   Худобин
-T21	Person-property 527 580	Российский   страж   ворот   ``   Даллас   Старз   ''
+T14	Person 471 489	Коннор   Хеллебайк
+T15	Organization 497 523	``   Виннипег   Джетс   ''
+T16	Organization 558 582	``   Даллас   Старз   ''
+T17	Person 529 600	Российский   страж   ворот   ``   Даллас   Старз   ''   Антон   Худобин
+T18	Person-property 735 762	вратарь   ``   Далласа   ''
+T19	Organization 745 762	``   Далласа   ''
+T20	Person 735 772	вратарь   ``   Далласа   ''   Худобин
+T21	Person-property 529 582	Российский   страж   ворот   ``   Даллас   Старз   ''
 A2	Media T4
-T22	Ordinal 666 675	последней
-T23	Quantity 621 637	десятку   лучших
+T22	Ordinal 668 677	последней
+T23	Quantity 623 639	десятку   лучших
 T24	Person-property 78 102	Эксперты   NHL   Network
 T25	Organization 89 102	NHL   Network
 A3	Media T25
-T26	Organization 148 179	Национальной   хоккейной   лиги
-T27	Organization 186 189	НХЛ
-T28	Person-property 135 145	голкиперов
-T29	Quantity 117 123	топ-10
-T30	Quantity 447 453	тройку
-T31	Date-relative 702 707	Ранее
+T26	Organization 150 181	Национальной   хоккейной   лиги
+T27	Organization 188 191	НХЛ
+T28	Person-property 137 147	голкиперов
+T29	Quantity 117 125	топ - 10
+T30	Quantity 449 455	тройку
+T31	Date-relative 704 709	Ранее
 A4	Past T31
-T32	Date-relative 801 806	после
+T32	Date-relative 803 808	после
 A5	Past T32
 T33	Person-surname 0 11	Василевский
-T34	GPE 250 260	российский
-T35	Person-forename 307 313	Андрей
-T36	Person-surname 316 327	Василевский
-T37	Person-forename 419 425	Туукка
-T38	Person-surname 428 432	Раск
-T39	Person-forename 469 475	Коннор
-T40	GPE 371 378	финский
-T41	Person-surname 478 487	Хеллебайк
-T42	GPE 527 537	Российский
-T43	Person-forename 583 588	Антон
-T44	Person-surname 591 598	Худобин
-T45	Person-surname 763 770	Худобин
+T34	GPE 252 262	российский
+T35	Person-forename 309 315	Андрей
+T36	Person-surname 318 329	Василевский
+T37	Person-forename 421 427	Туукка
+T38	Person-surname 430 434	Раск
+T39	Person-forename 471 477	Коннор
+T40	GPE 373 380	финский
+T41	Person-surname 480 489	Хеллебайк
+T42	GPE 529 539	Российский
+T43	Person-forename 585 590	Антон
+T44	Person-surname 593 600	Худобин
+T45	Person-surname 765 772	Худобин
 A6	Male T1
 A7	Adjective T34
 A8	Male T8

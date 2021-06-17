@@ -61,22 +61,25 @@
 15	туристам	_	_	_	_	_	_	_	bratT29=Other-group
 16	необходимо	_	_	_	_	_	_	_	_
 17	пройти	_	_	_	_	_	_	_	_
-18	ПЦР-тестирование	_	_	_	_	_	_	_	bratT6=Service
-19	на	_	_	_	_	_	_	_	_
-20	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
-21	,	_	_	_	_	_	_	_	_
-22	а	_	_	_	_	_	_	_	_
-23	на	_	_	_	_	_	_	_	bratT9=Time-relative
-24	пятый	_	_	_	_	_	_	_	bratT8=Ordinal|bratT9=Time-relative
-25	день	_	_	_	_	_	_	_	bratT33=Duration|bratT9=Time-relative
-26	пребывания	_	_	_	_	_	_	_	_
-27	на	_	_	_	_	_	_	_	_
-28	острове	_	_	_	_	_	_	_	bratT48=Location
-29	повторно	_	_	_	_	_	_	_	bratT31=Ordinal
-30	сдать	_	_	_	_	_	_	_	_
-31	анализ	_	_	_	_	_	_	_	SpaceAfter=No
-32	''	_	_	_	_	_	_	_	SpaceAfter=No
-33	.	_	_	_	_	_	_	_	_
+18-20	ПЦР-тестирование	_	_	_	_	_	_	_	_
+18	ПЦР	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Service
+19	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Service
+20	тестирование	_	_	_	_	_	_	_	bratT6=Service
+21	на	_	_	_	_	_	_	_	_
+22	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+23	,	_	_	_	_	_	_	_	_
+24	а	_	_	_	_	_	_	_	_
+25	на	_	_	_	_	_	_	_	bratT9=Time-relative
+26	пятый	_	_	_	_	_	_	_	bratT8=Ordinal|bratT9=Time-relative
+27	день	_	_	_	_	_	_	_	bratT33=Duration|bratT9=Time-relative
+28	пребывания	_	_	_	_	_	_	_	_
+29	на	_	_	_	_	_	_	_	_
+30	острове	_	_	_	_	_	_	_	bratT48=Location
+31	повторно	_	_	_	_	_	_	_	bratT31=Ordinal
+32	сдать	_	_	_	_	_	_	_	_
+33	анализ	_	_	_	_	_	_	_	SpaceAfter=No
+34	''	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0065-p4
 # par_text = Дипломат заявил, что «российским туристам нужно быть готовыми к тому, что они могут попасть в карантин, если у них по прибытии на остров обнаружат коронавирусную инфекцию».
@@ -138,13 +141,16 @@
 17	сделать	_	_	_	_	_	_	_	_
 18	перед	_	_	_	_	_	_	_	_
 19	вылетом	_	_	_	_	_	_	_	_
-20	ПЦР-тесты	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Service
-21	''	_	_	_	_	_	_	_	SpaceAfter=No
-22	,	_	_	_	_	_	_	_	_
-23	-	_	_	_	_	_	_	_	_
-24	заявил	_	_	_	_	_	_	_	_
-25	Гуськов	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Male|bratT13=Person|bratT38=Person-surname
-26	.	_	_	_	_	_	_	_	_
+20-22	ПЦР-тесты	_	_	_	_	_	_	_	SpaceAfter=No
+20	ПЦР	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT12=Service
+21	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT12=Service
+22	тесты	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Service
+23	''	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	-	_	_	_	_	_	_	_	_
+26	заявил	_	_	_	_	_	_	_	_
+27	Гуськов	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Male|bratT13=Person|bratT38=Person-surname
+28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0065-p6
 # par_text = Также, по его словам, «для всех приезжающих в Гавану иностранцев установлен семидневный режим изоляции, который они обязаны соблюдать по месту временного пребывания (гостиница или частные апартаменты), указываемому в так называемом паспорте здоровья при пересечении кубинской границы».

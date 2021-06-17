@@ -4,73 +4,73 @@ T3	Person-property 11 24	замглавы   АП
 T4	Quantity 37 61	две   элитные   квартиры
 T5	GPE 68 74	Москве
 T6	Money 90 108	470   млн   рублей
-T7	Age 110 119	84-летняя
-T8	Family 122 126	теща
-T9	Ordinal 129 136	первого
-T10	Person-property 177 187	президента
-T11	Organization 161 187	Администрации   президента
-T12	Person 122 207	теща   первого   заместителя   главы   Администрации   президента   Алексея   Громова
-T13	Person 129 207	первого   заместителя   главы   Администрации   президента   Алексея   Громова
-T14	Person-property 235 287	главным   кремлевским   куратором   российских   СМИ
-T15	GPE 308 314	Москве
-T16	Quantity 317 346	двумя   элитными   квартирами
-T17	Money 362 380	470   млн   рублей
-T18	Organization 429 452	издания   The   Insider
+T7	Age 110 121	84 - летняя
+T8	Family 124 128	теща
+T9	Ordinal 131 138	первого
+T10	Person-property 179 189	президента
+T11	Organization 163 189	Администрации   президента
+T12	Person 124 209	теща   первого   заместителя   главы   Администрации   президента   Алексея   Громова
+T13	Person 131 209	первого   заместителя   главы   Администрации   президента   Алексея   Громова
+T14	Person-property 237 289	главным   кремлевским   куратором   российских   СМИ
+T15	GPE 310 316	Москве
+T16	Quantity 319 348	двумя   элитными   квартирами
+T17	Money 364 382	470   млн   рублей
+T18	Organization 431 454	издания   The   Insider
 A1	Media T18
-T19	Quantity 476 492	двух   квартирах
-T20	GPE 547 553	Москвы
-T21	Facility 499 531	ЖК   ``   Лаврушинский   11   ''
-T22	Quantity 606 631	395   квадратных   метров
-T23	Date-period-absolute 642 657	с   2015   года
-T24	Person 676 691	Алла   Лосицкая
-T25	Age 694 716	1936   года   рождения
-T26	Date-period-absolute 721 737	До   2006   года
-T27	GPE 757 772	городе   Губкин
-T28	GPE 779 801	Белгородская   область
-T29	GPE 885 891	Москву
-T30	Facility 933 950	улице   Удальцова
-T31	Person 969 985	Алексей   Громов
-T32	Date-absolute 1003 1018	В   2012   году
-T33	Ordinal 1021 1027	первый
-T34	Organization 1041 1043	АП
-T35	Person-property 1021 1043	первый   замглавы   АП
-T36	Person 1085 1093	Лосицкую
-T37	Facility 1116 1146	Большой   Тишинский   переулок
-T38	Person-property 1188 1212	управделами   президента
-T39	Person 1229 1235	Громов
-T40	Date-relative 816 821	затем
-T41	Family 992 998	семьей
+T19	Quantity 478 494	двух   квартирах
+T20	GPE 549 555	Москвы
+T21	Facility 501 533	ЖК   ``   Лаврушинский   11   ''
+T22	Quantity 608 633	395   квадратных   метров
+T23	Date-period-absolute 644 659	с   2015   года
+T24	Person 678 693	Алла   Лосицкая
+T25	Age 696 718	1936   года   рождения
+T26	Date-period-absolute 723 739	До   2006   года
+T27	GPE 759 774	городе   Губкин
+T28	GPE 781 803	Белгородская   область
+T29	GPE 887 893	Москву
+T30	Facility 935 952	улице   Удальцова
+T31	Person 971 987	Алексей   Громов
+T32	Date-absolute 1005 1020	В   2012   году
+T33	Ordinal 1023 1029	первый
+T34	Organization 1043 1045	АП
+T35	Person-property 1023 1045	первый   замглавы   АП
+T36	Person 1087 1095	Лосицкую
+T37	Facility 1118 1148	Большой   Тишинский   переулок
+T38	Person-property 1190 1214	управделами   президента
+T39	Person 1231 1237	Громов
+T40	Date-relative 818 823	затем
+T41	Family 994 1000	семьей
 A2	Male T13
-T42	Person-forename 190 197	Алексея
-T43	Person-surname 200 207	Громова
-T44	GPE 271 281	российских
+T42	Person-forename 192 199	Алексея
+T43	Person-surname 202 209	Громова
+T44	GPE 273 283	российских
 A3	Adjective T44
-T45	Person-property 129 187	первого   заместителя   главы   Администрации   президента
-T46	Ordinal 524 526	11
+T45	Person-property 131 189	первого   заместителя   главы   Администрации   президента
+T46	Ordinal 526 528	11
 A4	Past-Pres T23
 A5	RCont T23
 A6	Female T24
-T47	Person-forename 676 680	Алла
-T48	Person-surname 683 691	Лосицкая
+T47	Person-forename 678 682	Алла
+T48	Person-surname 685 693	Лосицкая
 A7	Past T26
 A8	Male T31
-T49	Person-forename 969 976	Алексей
-T50	Person-surname 979 985	Громов
+T49	Person-forename 971 978	Алексей
+T50	Person-surname 981 987	Громов
 A9	Past T32
 A10	Female T36
-T51	Person-surname 1085 1093	Лосицкую
-T52	Person-surname 1229 1235	Громов
+T51	Person-surname 1087 1095	Лосицкую
+T52	Person-surname 1231 1237	Громов
 A11	Male T39
 A12	Past T40
-T53	Person 941 950	Удальцова
+T53	Person 943 952	Удальцова
 A13	Male T53
-T54	Person-surname 941 950	Удальцова
-T55	Date-absolute 694 705	1936   года
+T54	Person-surname 943 952	Удальцова
+T55	Date-absolute 696 707	1936   года
 A14	Past T55
 A15	Female T12
 T56	Person 4 24	тещи   замглавы   АП
 A16	Female T56
-T57	GPE 856 862	городе
-T58	Organization 271 287	российских   СМИ
+T57	GPE 858 864	городе
+T58	Organization 273 289	российских   СМИ
 A17	Media T58
-T59	Address 509 526	Лаврушинский   11
+T59	Address 511 528	Лаврушинский   11

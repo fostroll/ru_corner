@@ -30,15 +30,18 @@
 6	Чайка	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
 7	''	_	_	_	_	_	_	_	bratT4=Organization
 8	в	_	_	_	_	_	_	_	_
-9	Москве-сити	_	_	_	_	_	_	_	bratT5=Facility
-10	за	_	_	_	_	_	_	_	_
-11	сокрытие	_	_	_	_	_	_	_	_
-12	информации	_	_	_	_	_	_	_	_
-13	о	_	_	_	_	_	_	_	_
-14	пациентах	_	_	_	_	_	_	_	_
-15	с	_	_	_	_	_	_	_	_
-16	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term
-17	.	_	_	_	_	_	_	_	_
+9-11	Москве-сити	_	_	_	_	_	_	_	_
+9	Москве	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Facility
+10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Facility
+11	сити	_	_	_	_	_	_	_	bratT5=Facility
+12	за	_	_	_	_	_	_	_	_
+13	сокрытие	_	_	_	_	_	_	_	_
+14	информации	_	_	_	_	_	_	_	_
+15	о	_	_	_	_	_	_	_	_
+16	пациентах	_	_	_	_	_	_	_	_
+17	с	_	_	_	_	_	_	_	_
+18	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term
+19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p2-s2
 # text = Сообщение об этом появилось в Telegram-канале оперштаба столицы.
@@ -47,10 +50,13 @@
 3	этом	_	_	_	_	_	_	_	_
 4	появилось	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	Telegram-канале	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
-7	оперштаба	_	_	_	_	_	_	_	bratT19=Organization
-8	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization|bratT8=GPE
-9	.	_	_	_	_	_	_	_	_
+6-8	Telegram-канале	_	_	_	_	_	_	_	_
+6	Telegram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T7:Media|bratT7=Service
+7	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T7:Media|bratT7=Service
+8	канале	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
+9	оперштаба	_	_	_	_	_	_	_	bratT19=Organization
+10	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization|bratT8=GPE
+11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p3
 # par_text = «Было установлено, что клиника провела пациентам 19 тестов на COVID-19, результаты тестов были положительными, однако данные о результатах тестов не были предоставлены в органы Роспотребнадзора. Это влечет угрозу распространения новой коронавирусной инфекции», — говорится в сообщении.

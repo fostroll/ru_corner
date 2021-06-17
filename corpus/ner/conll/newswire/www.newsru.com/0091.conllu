@@ -224,8 +224,11 @@
 11	затем	_	_	_	_	_	_	_	bratA18=T70:Past|bratT70=Date-relative
 12	-	_	_	_	_	_	_	_	_
 13	первым	_	_	_	_	_	_	_	bratT46=Person-property|bratT47=Ordinal
-14	вице-премьером	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property
-15	.	_	_	_	_	_	_	_	_
+14-16	вице-премьером	_	_	_	_	_	_	_	SpaceAfter=No
+14	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT46=Person-property
+15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT46=Person-property
+16	премьером	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property
+17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0091-p5-s3
 # text = Санду занимала пост министра просвещения с 2012-го по 2015 годы, с июня по ноябрь 2019 года являлась премьер-министром Молдавии.

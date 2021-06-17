@@ -23,13 +23,16 @@
 3	работе	_	_	_	_	_	_	_	_
 4	шведского	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT3=GPE|bratT4=Service
 5	музыкального	_	_	_	_	_	_	_	bratT4=Service
-6	интернет-сервиса	_	_	_	_	_	_	_	bratT4=Service
-7	Spotify	_	_	_	_	_	_	_	bratT4=Service
-8	наблюдаются	_	_	_	_	_	_	_	_
-9	по	_	_	_	_	_	_	_	_
-10	всему	_	_	_	_	_	_	_	bratT53=GPE
-11	миру	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=GPE
-12	.	_	_	_	_	_	_	_	_
+6-8	интернет-сервиса	_	_	_	_	_	_	_	_
+6	интернет	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT4=Service
+7	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT4=Service
+8	сервиса	_	_	_	_	_	_	_	bratT4=Service
+9	Spotify	_	_	_	_	_	_	_	bratT4=Service
+10	наблюдаются	_	_	_	_	_	_	_	_
+11	по	_	_	_	_	_	_	_	_
+12	всему	_	_	_	_	_	_	_	bratT53=GPE
+13	миру	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=GPE
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0121-p2-s2
 # text = Это следует из данных сервиса Downdetector, который отслеживает работу интернет-ресурсов.
@@ -43,8 +46,11 @@
 8	который	_	_	_	_	_	_	_	_
 9	отслеживает	_	_	_	_	_	_	_	_
 10	работу	_	_	_	_	_	_	_	_
-11	интернет-ресурсов	_	_	_	_	_	_	_	SpaceAfter=No
-12	.	_	_	_	_	_	_	_	_
+11-13	интернет-ресурсов	_	_	_	_	_	_	_	SpaceAfter=No
+11	интернет	_	_	_	_	_	_	_	SpaceAfter=Yes
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes
+13	ресурсов	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0121-p2-s3
 # text = Также о проблемах в работе сайта и приложений некоторые пользователи написали в Twitter.

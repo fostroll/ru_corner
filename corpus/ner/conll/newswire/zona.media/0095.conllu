@@ -12,14 +12,17 @@
 7	сексуальном	_	_	_	_	_	_	_	bratT54=Event
 8	насилии	_	_	_	_	_	_	_	bratT54=Event
 9	над	_	_	_	_	_	_	_	_
-10	11-летним	_	_	_	_	_	_	_	bratT3=Age
-11	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No
-12	,	_	_	_	_	_	_	_	_
-13	возбудили	_	_	_	_	_	_	_	_
-14	еще	_	_	_	_	_	_	_	bratT4=Quantity
-15	два	_	_	_	_	_	_	_	bratT4=Quantity
-16	уголовных	_	_	_	_	_	_	_	bratT4=Quantity|bratT53=Event
-17	дела	_	_	_	_	_	_	_	bratT4=Quantity|bratT53=Event
+10-12	11-летним	_	_	_	_	_	_	_	_
+10	11	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
+11	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
+12	летним	_	_	_	_	_	_	_	bratT3=Age
+13	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	_	_	_	_	_	_	_	_
+15	возбудили	_	_	_	_	_	_	_	_
+16	еще	_	_	_	_	_	_	_	bratT4=Quantity
+17	два	_	_	_	_	_	_	_	bratT4=Quantity
+18	уголовных	_	_	_	_	_	_	_	bratT4=Quantity|bratT53=Event
+19	дела	_	_	_	_	_	_	_	bratT4=Quantity|bratT53=Event
 
 # newpar id = 0095-p2
 # par_text = В Перми управление Следственного комитета возбудила еще два уголовных дела против лейтенанта Нацгвардии, обвиняемого в сексуальном насилии над 11-летним мальчиком, сообщили «Медиазоне» в правозащитной организации «Зона права».
@@ -44,21 +47,24 @@
 17	сексуальном	_	_	_	_	_	_	_	bratT55=Event
 18	насилии	_	_	_	_	_	_	_	bratT55=Event
 19	над	_	_	_	_	_	_	_	_
-20	11-летним	_	_	_	_	_	_	_	bratT10=Age
-21	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No
-22	,	_	_	_	_	_	_	_	_
-23	сообщили	_	_	_	_	_	_	_	_
-24	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratT11=Organization
-25	Медиазоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratT11=Organization
-26	''	_	_	_	_	_	_	_	bratA2=T11:Media|bratT11=Organization
-27	в	_	_	_	_	_	_	_	_
-28	правозащитной	_	_	_	_	_	_	_	bratT12=Organization
-29	организации	_	_	_	_	_	_	_	bratT12=Organization
-30	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-31	Зона	_	_	_	_	_	_	_	bratT12=Organization
-32	права	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-33	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
-34	.	_	_	_	_	_	_	_	_
+20-22	11-летним	_	_	_	_	_	_	_	_
+20	11	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
+21	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
+22	летним	_	_	_	_	_	_	_	bratT10=Age
+23	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	_	_	_	_	_	_	_	_
+25	сообщили	_	_	_	_	_	_	_	_
+26	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratT11=Organization
+27	Медиазоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratT11=Organization
+28	''	_	_	_	_	_	_	_	bratA2=T11:Media|bratT11=Organization
+29	в	_	_	_	_	_	_	_	_
+30	правозащитной	_	_	_	_	_	_	_	bratT12=Organization
+31	организации	_	_	_	_	_	_	_	bratT12=Organization
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
+33	Зона	_	_	_	_	_	_	_	bratT12=Organization
+34	права	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
+35	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
+36	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0095-p3
 # par_text = Начальнику продовольственной службы войсковой части № 3411 Сухробу Ерову также вменяется незаконное проникновение в жилище (статья 139 УК) и попытка сексуального насилия над матерью мальчика (часть 1 статьи 30, статья 132 УК).
@@ -115,31 +121,37 @@
 6	сентября	_	_	_	_	_	_	_	bratA5=T22:Past|bratT22=Date-absolute
 7	в	_	_	_	_	_	_	_	_
 8	Перми	_	_	_	_	_	_	_	bratT23=GPE
-9	24-летний	_	_	_	_	_	_	_	bratT24=Age
-10	Еров	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT26=Person-surname
-11	проник	_	_	_	_	_	_	_	_
-12	в	_	_	_	_	_	_	_	_
-13	дом	_	_	_	_	_	_	_	_
-14	женщины	_	_	_	_	_	_	_	_
-15	с	_	_	_	_	_	_	_	_
-16	инвалидностью	_	_	_	_	_	_	_	_
-17	и	_	_	_	_	_	_	_	_
-18	попытался	_	_	_	_	_	_	_	_
-19	совершить	_	_	_	_	_	_	_	_
-20	над	_	_	_	_	_	_	_	_
-21	ней	_	_	_	_	_	_	_	_
-22	сексуальное	_	_	_	_	_	_	_	bratT57=Event
-23	насилие	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
-24	.	_	_	_	_	_	_	_	_
+9-11	24-летний	_	_	_	_	_	_	_	_
+9	24	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT24=Age
+10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT24=Age
+11	летний	_	_	_	_	_	_	_	bratT24=Age
+12	Еров	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT26=Person-surname
+13	проник	_	_	_	_	_	_	_	_
+14	в	_	_	_	_	_	_	_	_
+15	дом	_	_	_	_	_	_	_	_
+16	женщины	_	_	_	_	_	_	_	_
+17	с	_	_	_	_	_	_	_	_
+18	инвалидностью	_	_	_	_	_	_	_	_
+19	и	_	_	_	_	_	_	_	_
+20	попытался	_	_	_	_	_	_	_	_
+21	совершить	_	_	_	_	_	_	_	_
+22	над	_	_	_	_	_	_	_	_
+23	ней	_	_	_	_	_	_	_	_
+24	сексуальное	_	_	_	_	_	_	_	bratT57=Event
+25	насилие	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
+26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0095-p4-s2
 # text = За мать вступился 11-летний сын.
 1	За	_	_	_	_	_	_	_	_
 2	мать	_	_	_	_	_	_	_	bratT28=Family
 3	вступился	_	_	_	_	_	_	_	_
-4	11-летний	_	_	_	_	_	_	_	bratT27=Age
-5	сын	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Family
-6	.	_	_	_	_	_	_	_	_
+4-6	11-летний	_	_	_	_	_	_	_	_
+4	11	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT27=Age
+5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT27=Age
+6	летний	_	_	_	_	_	_	_	bratT27=Age
+7	сын	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Family
+8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0095-p4-s3
 # text = В результате сотрудник совершил насилие уже над ребенком.

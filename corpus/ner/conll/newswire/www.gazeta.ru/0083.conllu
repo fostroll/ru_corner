@@ -17,27 +17,30 @@
 # par_text = Экс-фигуристка Наталья Бестемьянова высказалась о показательном выступлении Алины Загитовой на Гран-при России, передает «Чемпионат.com».
 # sent_id = 0083-p2-s1
 # text = Экс-фигуристка Наталья Бестемьянова высказалась о показательном выступлении Алины Загитовой на Гран-при России, передает ``Чемпионат.com''.
-1	Экс-фигуристка	_	_	_	_	_	_	_	bratA6=T6:Female|bratT6=Person|bratT7=Person-property
-2	Наталья	_	_	_	_	_	_	_	bratA6=T6:Female|bratT27=Person-forename|bratT6=Person
-3	Бестемьянова	_	_	_	_	_	_	_	bratA6=T6:Female|bratT28=Person-surname|bratT6=Person
-4	высказалась	_	_	_	_	_	_	_	_
-5	о	_	_	_	_	_	_	_	_
-6	показательном	_	_	_	_	_	_	_	bratT8=Event
-7	выступлении	_	_	_	_	_	_	_	bratT8=Event
-8	Алины	_	_	_	_	_	_	_	bratA7=T9:Female|bratT29=Person-forename|bratT8=Event|bratT9=Person
-9	Загитовой	_	_	_	_	_	_	_	bratA7=T9:Female|bratT30=Person-surname|bratT8=Event|bratT9=Person
-10	на	_	_	_	_	_	_	_	_
-11	Гран-при	_	_	_	_	_	_	_	bratT10=Event
-12	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=GPE
-13	,	_	_	_	_	_	_	_	_
-14	передает	_	_	_	_	_	_	_	_
-15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-16-18	Чемпионат.com	_	_	_	_	_	_	_	SpaceAfter=No
-16	Чемпионат	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-17	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-18	com	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
-20	.	_	_	_	_	_	_	_	_
+1-3	Экс-фигуристка	_	_	_	_	_	_	_	_
+1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T6:Female|bratT6=Person|bratT7=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T6:Female|bratT6=Person|bratT7=Person-property
+3	фигуристка	_	_	_	_	_	_	_	bratA6=T6:Female|bratT6=Person|bratT7=Person-property
+4	Наталья	_	_	_	_	_	_	_	bratA6=T6:Female|bratT27=Person-forename|bratT6=Person
+5	Бестемьянова	_	_	_	_	_	_	_	bratA6=T6:Female|bratT28=Person-surname|bratT6=Person
+6	высказалась	_	_	_	_	_	_	_	_
+7	о	_	_	_	_	_	_	_	_
+8	показательном	_	_	_	_	_	_	_	bratT8=Event
+9	выступлении	_	_	_	_	_	_	_	bratT8=Event
+10	Алины	_	_	_	_	_	_	_	bratA7=T9:Female|bratT29=Person-forename|bratT8=Event|bratT9=Person
+11	Загитовой	_	_	_	_	_	_	_	bratA7=T9:Female|bratT30=Person-surname|bratT8=Event|bratT9=Person
+12	на	_	_	_	_	_	_	_	_
+13	Гран-при	_	_	_	_	_	_	_	bratT10=Event
+14	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT11=GPE
+15	,	_	_	_	_	_	_	_	_
+16	передает	_	_	_	_	_	_	_	_
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+18-20	Чемпионат.com	_	_	_	_	_	_	_	SpaceAfter=No
+18	Чемпионат	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+19	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+20	com	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Media|bratT12=Organization
+22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0083-p3
 # par_text = «Загитова очень хороша для показательных выступлений. Она красивая фигуристка и отлично выглядит. То, что она показала, — для выступлений на соревнованиях этого недостаточно», — сказала Бестемьянова.

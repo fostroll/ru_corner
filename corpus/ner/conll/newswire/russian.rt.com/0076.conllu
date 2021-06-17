@@ -69,21 +69,24 @@
 8	,	_	_	_	_	_	_	_	_
 9	а	_	_	_	_	_	_	_	_
 10	также	_	_	_	_	_	_	_	_
-11	вице-премьеров	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT11=Person-property
-12	России	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT11=Person-property|bratT12=GPE
-13	Александра	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA8=T22:Male|bratT10=Person|bratT22=Person|bratT31=Person-forename
-14	Новака	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Plural|bratA8=T22:Male|bratT10=Person|bratT22=Person|bratT32=Person-surname
-15	,	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person
-16	Алексея	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA9=T23:Male|bratT10=Person|bratT23=Person|bratT33=Person-forename
-17	Оверчука	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA9=T23:Male|bratT10=Person|bratT23=Person|bratT34=Person-surname
-18	и	_	_	_	_	_	_	_	_
-19	других	_	_	_	_	_	_	_	SpaceAfter=No
-20	''	_	_	_	_	_	_	_	SpaceAfter=No
-21	,	_	_	_	_	_	_	_	_
-22	-	_	_	_	_	_	_	_	_
-23	сказал	_	_	_	_	_	_	_	_
-24	он	_	_	_	_	_	_	_	SpaceAfter=No
-25	.	_	_	_	_	_	_	_	_
+11-13	вице-премьеров	_	_	_	_	_	_	_	_
+11	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA2=T10:Plural|bratT10=Person|bratT11=Person-property
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA2=T10:Plural|bratT10=Person|bratT11=Person-property
+13	премьеров	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT11=Person-property
+14	России	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person|bratT11=Person-property|bratT12=GPE
+15	Александра	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA8=T22:Male|bratT10=Person|bratT22=Person|bratT31=Person-forename
+16	Новака	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T10:Plural|bratA8=T22:Male|bratT10=Person|bratT22=Person|bratT32=Person-surname
+17	,	_	_	_	_	_	_	_	bratA2=T10:Plural|bratT10=Person
+18	Алексея	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA9=T23:Male|bratT10=Person|bratT23=Person|bratT33=Person-forename
+19	Оверчука	_	_	_	_	_	_	_	bratA2=T10:Plural|bratA9=T23:Male|bratT10=Person|bratT23=Person|bratT34=Person-surname
+20	и	_	_	_	_	_	_	_	_
+21	других	_	_	_	_	_	_	_	SpaceAfter=No
+22	''	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	_	_	_	_	_	_	_	_
+24	-	_	_	_	_	_	_	_	_
+25	сказал	_	_	_	_	_	_	_	_
+26	он	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0076-p5
 # par_text = Ранее в МИД России заявили, что российская межведомственная делегация посетит Ереван и Баку.

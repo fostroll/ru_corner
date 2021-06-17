@@ -28,19 +28,22 @@
 3	ОНТ	_	_	_	_	_	_	_	bratA3=T4:Media|bratT4=Organization
 4	в	_	_	_	_	_	_	_	_
 5	своем	_	_	_	_	_	_	_	_
-6	Telegram-канале	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Service
-7	сообщил	_	_	_	_	_	_	_	_
-8	о	_	_	_	_	_	_	_	_
-9	выдвижении	_	_	_	_	_	_	_	_
-10	президента	_	_	_	_	_	_	_	bratA11=T6:Male|bratT6=Person|bratT7=Person-property
-11	Белоруссии	_	_	_	_	_	_	_	bratA11=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
-12	Александр	_	_	_	_	_	_	_	bratA11=T6:Male|bratT34=Person-forename|bratT6=Person
-13	Лукашенко	_	_	_	_	_	_	_	bratA11=T6:Male|bratT35=Person-surname|bratT6=Person
-14	на	_	_	_	_	_	_	_	_
-15	Нобелевскую	_	_	_	_	_	_	_	bratT9=Other-term
-16	премию	_	_	_	_	_	_	_	bratT9=Other-term
-17	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Other-term
-18	.	_	_	_	_	_	_	_	_
+6-8	Telegram-канале	_	_	_	_	_	_	_	_
+6	Telegram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T5:Media|bratT5=Service
+7	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T5:Media|bratT5=Service
+8	канале	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Service
+9	сообщил	_	_	_	_	_	_	_	_
+10	о	_	_	_	_	_	_	_	_
+11	выдвижении	_	_	_	_	_	_	_	_
+12	президента	_	_	_	_	_	_	_	bratA11=T6:Male|bratT6=Person|bratT7=Person-property
+13	Белоруссии	_	_	_	_	_	_	_	bratA11=T6:Male|bratT6=Person|bratT7=Person-property|bratT8=GPE
+14	Александр	_	_	_	_	_	_	_	bratA11=T6:Male|bratT34=Person-forename|bratT6=Person
+15	Лукашенко	_	_	_	_	_	_	_	bratA11=T6:Male|bratT35=Person-surname|bratT6=Person
+16	на	_	_	_	_	_	_	_	_
+17	Нобелевскую	_	_	_	_	_	_	_	bratT9=Other-term
+18	премию	_	_	_	_	_	_	_	bratT9=Other-term
+19	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Other-term
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0049-p2-s2
 # text = В сообщении говорится, что заявку в Нобелевский комитет направила ``член президентского совета по развитию науки, доцент БГПУ им. Максима Танка, кандидат социологических наук Галина Коваленко''.
@@ -159,20 +162,23 @@
 10	тексты	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	этом	_	_	_	_	_	_	_	_
-13	веб-ресурсе	_	_	_	_	_	_	_	_
-14	представляют	_	_	_	_	_	_	_	_
-15	собой	_	_	_	_	_	_	_	_
-16	гротескные	_	_	_	_	_	_	_	_
-17	пародии	_	_	_	_	_	_	_	_
-18	на	_	_	_	_	_	_	_	_
-19	реальность	_	_	_	_	_	_	_	_
-20	и	_	_	_	_	_	_	_	_
-21	не	_	_	_	_	_	_	_	_
-22	являются	_	_	_	_	_	_	_	_
-23	реальными	_	_	_	_	_	_	_	_
-24	новостями	_	_	_	_	_	_	_	SpaceAfter=No
-25	''	_	_	_	_	_	_	_	SpaceAfter=No
-26	.	_	_	_	_	_	_	_	_
+13-15	веб-ресурсе	_	_	_	_	_	_	_	_
+13	веб	_	_	_	_	_	_	_	SpaceAfter=Yes
+14	-	_	_	_	_	_	_	_	SpaceAfter=Yes
+15	ресурсе	_	_	_	_	_	_	_	_
+16	представляют	_	_	_	_	_	_	_	_
+17	собой	_	_	_	_	_	_	_	_
+18	гротескные	_	_	_	_	_	_	_	_
+19	пародии	_	_	_	_	_	_	_	_
+20	на	_	_	_	_	_	_	_	_
+21	реальность	_	_	_	_	_	_	_	_
+22	и	_	_	_	_	_	_	_	_
+23	не	_	_	_	_	_	_	_	_
+24	являются	_	_	_	_	_	_	_	_
+25	реальными	_	_	_	_	_	_	_	_
+26	новостями	_	_	_	_	_	_	_	SpaceAfter=No
+27	''	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0049-p4-s2
 # text = Однако журналисты все равно регулярно попадаются на удочку и выдают пародийные заметки за реальные.

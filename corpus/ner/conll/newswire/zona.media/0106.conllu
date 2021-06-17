@@ -42,12 +42,15 @@
 # text = Трансляцию ведет ютуб-канал ``Другое мнение''.
 1	Трансляцию	_	_	_	_	_	_	_	_
 2	ведет	_	_	_	_	_	_	_	_
-3	ютуб-канал	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
-5	Другое	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
-6	мнение	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
-7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
-8	.	_	_	_	_	_	_	_	_
+3-5	ютуб-канал	_	_	_	_	_	_	_	_
+3	ютуб	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T7:Media|bratT7=Service
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T7:Media|bratT7=Service
+5	канал	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
+7	Другое	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
+8	мнение	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
+9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Service
+10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0106-p3
 # par_text = Как можно заметить на видео, часть участников не успела выйти из метро, как их начали задерживать. Других находят в ближайших к метро улочках и уводят в автозак. «Задерживают даже тех, кто был без плакатов и символики», — говорит ведущая трансляции.

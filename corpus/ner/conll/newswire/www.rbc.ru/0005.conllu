@@ -18,28 +18,31 @@
 # sent_id = 0005-p2-s1
 # text = Защита экс-губернатора Кировской области Никиты Белых, осужденного за взяточничество, отозвала ходатайство о замене оставшегося ему срока на более мягкое наказание.
 1	Защита	_	_	_	_	_	_	_	bratT55=Person|bratT6=Person-property
-2	экс-губернатора	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
-3	Кировской	_	_	_	_	_	_	_	bratA4=T5:Male|bratT3=GPE|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
-4	области	_	_	_	_	_	_	_	bratA4=T5:Male|bratT3=GPE|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
-5	Никиты	_	_	_	_	_	_	_	bratA4=T5:Male|bratT40=Person-forename|bratT5=Person|bratT55=Person|bratT6=Person-property
-6	Белых	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T5:Male|bratT41=Person-surname|bratT5=Person|bratT55=Person|bratT6=Person-property
-7	,	_	_	_	_	_	_	_	_
-8	осужденного	_	_	_	_	_	_	_	_
-9	за	_	_	_	_	_	_	_	_
-10	взяточничество	_	_	_	_	_	_	_	SpaceAfter=No
-11	,	_	_	_	_	_	_	_	_
-12	отозвала	_	_	_	_	_	_	_	_
-13	ходатайство	_	_	_	_	_	_	_	_
-14	о	_	_	_	_	_	_	_	_
-15	замене	_	_	_	_	_	_	_	_
-16	оставшегося	_	_	_	_	_	_	_	_
-17	ему	_	_	_	_	_	_	_	_
-18	срока	_	_	_	_	_	_	_	_
-19	на	_	_	_	_	_	_	_	_
-20	более	_	_	_	_	_	_	_	_
-21	мягкое	_	_	_	_	_	_	_	_
-22	наказание	_	_	_	_	_	_	_	SpaceAfter=No
-23	.	_	_	_	_	_	_	_	_
+2-4	экс-губернатора	_	_	_	_	_	_	_	_
+2	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T5:Male|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T5:Male|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+4	губернатора	_	_	_	_	_	_	_	bratA4=T5:Male|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+5	Кировской	_	_	_	_	_	_	_	bratA4=T5:Male|bratT3=GPE|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+6	области	_	_	_	_	_	_	_	bratA4=T5:Male|bratT3=GPE|bratT4=Person-property|bratT5=Person|bratT55=Person|bratT6=Person-property
+7	Никиты	_	_	_	_	_	_	_	bratA4=T5:Male|bratT40=Person-forename|bratT5=Person|bratT55=Person|bratT6=Person-property
+8	Белых	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T5:Male|bratT41=Person-surname|bratT5=Person|bratT55=Person|bratT6=Person-property
+9	,	_	_	_	_	_	_	_	_
+10	осужденного	_	_	_	_	_	_	_	_
+11	за	_	_	_	_	_	_	_	_
+12	взяточничество	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	_	_	_	_	_	_	_	_
+14	отозвала	_	_	_	_	_	_	_	_
+15	ходатайство	_	_	_	_	_	_	_	_
+16	о	_	_	_	_	_	_	_	_
+17	замене	_	_	_	_	_	_	_	_
+18	оставшегося	_	_	_	_	_	_	_	_
+19	ему	_	_	_	_	_	_	_	_
+20	срока	_	_	_	_	_	_	_	_
+21	на	_	_	_	_	_	_	_	_
+22	более	_	_	_	_	_	_	_	_
+23	мягкое	_	_	_	_	_	_	_	_
+24	наказание	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p2-s2
 # text = Об этом сообщает ``Интерфакс'' со ссылкой на адвоката Белых Андрея Грохотова.
@@ -150,19 +153,22 @@
 # par_text = Экс-губернатора задержали в июне 2016 года в Москве при передаче части взятки. По версии следствия, Белых лично или через посредника получил взятку на сумму €400 тыс. (24,1 млн руб.).
 # sent_id = 0005-p5-s1
 # text = Экс-губернатора задержали в июне 2016 года в Москве при передаче части взятки.
-1	Экс-губернатора	_	_	_	_	_	_	_	bratT20=Person-property
-2	задержали	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
-4	июне	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
-5	2016	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
-6	года	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
-7	в	_	_	_	_	_	_	_	_
-8	Москве	_	_	_	_	_	_	_	bratT22=GPE
-9	при	_	_	_	_	_	_	_	_
-10	передаче	_	_	_	_	_	_	_	_
-11	части	_	_	_	_	_	_	_	_
-12	взятки	_	_	_	_	_	_	_	SpaceAfter=No
-13	.	_	_	_	_	_	_	_	_
+1-3	Экс-губернатора	_	_	_	_	_	_	_	_
+1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Person-property
+3	губернатора	_	_	_	_	_	_	_	bratT20=Person-property
+4	задержали	_	_	_	_	_	_	_	_
+5	в	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+6	июне	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+7	2016	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+8	года	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+9	в	_	_	_	_	_	_	_	_
+10	Москве	_	_	_	_	_	_	_	bratT22=GPE
+11	при	_	_	_	_	_	_	_	_
+12	передаче	_	_	_	_	_	_	_	_
+13	части	_	_	_	_	_	_	_	_
+14	взятки	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0005-p5-s2
 # text = По версии следствия, Белых лично или через посредника получил взятку на сумму €400 тыс. (24,1 млн руб.).

@@ -154,9 +154,12 @@
 13	России	_	_	_	_	_	_	_	bratT28=GPE
 14	еще	_	_	_	_	_	_	_	bratT39=Quantity
 15	один	_	_	_	_	_	_	_	bratT39=Quantity
-16	вице-премьерский	_	_	_	_	_	_	_	bratT39=Quantity|bratT66=Person-property
-17	пост	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity|bratT66=Person-property
-18	.	_	_	_	_	_	_	_	_
+16-18	вице-премьерский	_	_	_	_	_	_	_	_
+16	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT39=Quantity|bratT66=Person-property
+17	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT39=Quantity|bratT66=Person-property
+18	премьерский	_	_	_	_	_	_	_	bratT39=Quantity|bratT66=Person-property
+19	пост	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity|bratT66=Person-property
+20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p6-s2
 # text = В правительстве страны теперь будет десять заместителей председателя

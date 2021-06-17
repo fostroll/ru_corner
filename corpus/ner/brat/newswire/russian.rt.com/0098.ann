@@ -1,53 +1,53 @@
 T1	Person-property 0 9	Иммунолог
 T2	Other-term 72 82	COVID - 19
 T3	GPE 89 95	России
-T4	Organization 384 397	РИА   Новости
+T4	Organization 386 399	РИА   Новости
 A1	Media T4
-T5	Percent 490 503	60   -   70 %
-T6	Other-term 531 541	COVID - 19
-T7	Percent 678 699	более   60   -   70 %
-T8	Person 934 975	иммунолог-аллерголог   Владимир   Болибок
-T9	Person-property 934 954	иммунолог-аллерголог
-T10	Organization 995 1023	``   Вечерней   Москвой   ''
+T5	Percent 492 505	60   -   70 %
+T6	Other-term 533 543	COVID - 19
+T7	Percent 680 701	более   60   -   70 %
+T8	Person 936 977	иммунолог-аллерголог   Владимир   Болибок
+T9	Person-property 936 956	иммунолог-аллерголог
+T10	Organization 997 1025	``   Вечерней   Москвой   ''
 A2	Media T10
-T11	Other-term 1072 1085	коронавирусом
-T12	Date-absolute 1091 1102	18   ноября
-T13	Person 1105 1196	вирусолог   ,   член-корреспондент   РАН   доктор   биологических   наук   Сергей   Нетёсов
-T14	Person-property 1105 1114	вирусолог
-T15	Organization 1142 1145	РАН
-T16	Other-term 1222 1234	коронавирусе
-T17	Person-property 404 414	специалист
-T18	Person-property 1121 1145	член-корреспондент   РАН
-T19	Person-property 1148 1177	доктор   биологических   наук
+T11	Other-term 1074 1087	коронавирусом
+T12	Date-absolute 1093 1104	18   ноября
+T13	Person 1107 1198	вирусолог   ,   член-корреспондент   РАН   доктор   биологических   наук   Сергей   Нетёсов
+T14	Person-property 1107 1116	вирусолог
+T15	Organization 1144 1147	РАН
+T16	Other-term 1224 1236	коронавирусе
+T17	Person-property 406 416	специалист
+T18	Person-property 1123 1147	член-корреспондент   РАН
+T19	Person-property 1150 1179	доктор   биологических   наук
 T20	Person-property 97 124	Доктор   медицинских   наук
-T21	Person-property 127 141	врач-иммунолог
-T22	Person-property 148 193	специалист   по   особо   опасным   инфекциям
-T23	Person 97 216	Доктор   медицинских   наук   врач-иммунолог   ,   специалист   по   особо   опасным   инфекциям   Владислав   Жемчугов
-T24	Other-term 295 333	коронавирусной   инфекции   COVID - 19
-T25	GPE 340 346	России
-T26	Ordinal 1045 1055	повторного
-T27	Date-relative 926 931	Ранее
-T28	Date-relative 1270 1275	ранее
-T29	Date-relative 465 487	после   того   ,   как
+T21	Person-property 127 143	врач - иммунолог
+T22	Person-property 150 195	специалист   по   особо   опасным   инфекциям
+T23	Person 97 218	Доктор   медицинских   наук   врач - иммунолог   ,   специалист   по   особо   опасным   инфекциям   Владислав   Жемчугов
+T24	Other-term 297 335	коронавирусной   инфекции   COVID - 19
+T25	GPE 342 348	России
+T26	Ordinal 1047 1057	повторного
+T27	Date-relative 928 933	Ранее
+T28	Date-relative 1272 1277	ранее
+T29	Date-relative 467 489	после   того   ,   как
 A3	Past T12
 A4	Past T27
 A5	Future T29
 A6	Past T28
-T30	Person-forename 196 205	Владислав
-T31	Person-surname 208 216	Жемчугов
+T30	Person-forename 198 207	Владислав
+T31	Person-surname 210 218	Жемчугов
 A7	Male T23
 A8	Male T8
-T32	Person-forename 957 965	Владимир
-T33	Person-surname 968 975	Болибок
+T32	Person-forename 959 967	Владимир
+T33	Person-surname 970 977	Болибок
 A9	Male T13
-T34	Person-forename 1180 1186	Сергей
-T35	Person-surname 1189 1196	Нетёсов
-T36	GPE 1011 1018	Москвой
+T34	Person-forename 1182 1188	Сергей
+T35	Person-surname 1191 1198	Нетёсов
+T36	GPE 1013 1020	Москвой
 T37	Cardinal 80 82	19
-T38	Cardinal 331 333	19
-T39	Cardinal 539 541	19
-T40	Nationality 506 515	населения
+T38	Cardinal 333 335	19
+T39	Cardinal 541 543	19
+T40	Nationality 508 517	населения
 A10	Resident T40
-T41	Nationality 749 758	населения
+T41	Nationality 751 760	населения
 A11	Resident T41
-T42	GPE 914 920	страны
+T42	GPE 916 922	страны

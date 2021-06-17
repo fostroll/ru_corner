@@ -4,41 +4,47 @@
 # sent_id = 0030-p1-s1
 # text = Продвижение Instagram-аккаунтов семьи Кадырова за 2,4 миллиона рублей объяснили
 1	Продвижение	_	_	_	_	_	_	_	_
-2	Instagram-аккаунтов	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Service
-3	семьи	_	_	_	_	_	_	_	bratT29=Family
-4	Кадырова	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT42=Person-surname
-5	за	_	_	_	_	_	_	_	_
-6	2,4	_	_	_	_	_	_	_	bratT2=Money
-7	миллиона	_	_	_	_	_	_	_	bratT2=Money
-8	рублей	_	_	_	_	_	_	_	bratT2=Money
-9	объяснили	_	_	_	_	_	_	_	_
+2-4	Instagram-аккаунтов	_	_	_	_	_	_	_	_
+2	Instagram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T3:Media|bratT3=Service
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T3:Media|bratT3=Service
+4	аккаунтов	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Service
+5	семьи	_	_	_	_	_	_	_	bratT29=Family
+6	Кадырова	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT42=Person-surname
+7	за	_	_	_	_	_	_	_	_
+8	2,4	_	_	_	_	_	_	_	bratT2=Money
+9	миллиона	_	_	_	_	_	_	_	bratT2=Money
+10	рублей	_	_	_	_	_	_	_	bratT2=Money
+11	объяснили	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p2
 # par_text = Раскрутка Instagram-аккаунтов главы Чечни Рамзана Кадырова и членов его семьи объясняется желанием увеличить их популярность и позиционировать как лидеров среди молодежи. Об этом заявили «Кавказскому узлу» опрошенные эксперты.
 # sent_id = 0030-p2-s1
 # text = Раскрутка Instagram-аккаунтов главы Чечни Рамзана Кадырова и членов его семьи объясняется желанием увеличить их популярность и позиционировать как лидеров среди молодежи.
 1	Раскрутка	_	_	_	_	_	_	_	_
-2	Instagram-аккаунтов	_	_	_	_	_	_	_	bratA3=T4:Media|bratT4=Service
-3	главы	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
-4	Чечни	_	_	_	_	_	_	_	bratA5=T6:Male|bratT31=GPE|bratT5=Person-property|bratT6=Person
-5	Рамзана	_	_	_	_	_	_	_	bratA5=T6:Male|bratT43=Person-forename|bratT6=Person
-6	Кадырова	_	_	_	_	_	_	_	bratA5=T6:Male|bratT44=Person-surname|bratT6=Person
-7	и	_	_	_	_	_	_	_	_
-8	членов	_	_	_	_	_	_	_	bratT59=Person
-9	его	_	_	_	_	_	_	_	bratT59=Person
-10	семьи	_	_	_	_	_	_	_	bratT37=Family|bratT59=Person
-11	объясняется	_	_	_	_	_	_	_	_
-12	желанием	_	_	_	_	_	_	_	_
-13	увеличить	_	_	_	_	_	_	_	_
-14	их	_	_	_	_	_	_	_	_
-15	популярность	_	_	_	_	_	_	_	_
-16	и	_	_	_	_	_	_	_	_
-17	позиционировать	_	_	_	_	_	_	_	_
-18	как	_	_	_	_	_	_	_	_
-19	лидеров	_	_	_	_	_	_	_	_
-20	среди	_	_	_	_	_	_	_	_
-21	молодежи	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Age
-22	.	_	_	_	_	_	_	_	_
+2-4	Instagram-аккаунтов	_	_	_	_	_	_	_	_
+2	Instagram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA3=T4:Media|bratT4=Service
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA3=T4:Media|bratT4=Service
+4	аккаунтов	_	_	_	_	_	_	_	bratA3=T4:Media|bratT4=Service
+5	главы	_	_	_	_	_	_	_	bratA5=T6:Male|bratT5=Person-property|bratT6=Person
+6	Чечни	_	_	_	_	_	_	_	bratA5=T6:Male|bratT31=GPE|bratT5=Person-property|bratT6=Person
+7	Рамзана	_	_	_	_	_	_	_	bratA5=T6:Male|bratT43=Person-forename|bratT6=Person
+8	Кадырова	_	_	_	_	_	_	_	bratA5=T6:Male|bratT44=Person-surname|bratT6=Person
+9	и	_	_	_	_	_	_	_	_
+10	членов	_	_	_	_	_	_	_	bratT59=Person
+11	его	_	_	_	_	_	_	_	bratT59=Person
+12	семьи	_	_	_	_	_	_	_	bratT37=Family|bratT59=Person
+13	объясняется	_	_	_	_	_	_	_	_
+14	желанием	_	_	_	_	_	_	_	_
+15	увеличить	_	_	_	_	_	_	_	_
+16	их	_	_	_	_	_	_	_	_
+17	популярность	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	позиционировать	_	_	_	_	_	_	_	_
+20	как	_	_	_	_	_	_	_	_
+21	лидеров	_	_	_	_	_	_	_	_
+22	среди	_	_	_	_	_	_	_	_
+23	молодежи	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Age
+24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p2-s2
 # text = Об этом заявили ``Кавказскому узлу'' опрошенные эксперты.

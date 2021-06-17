@@ -17,38 +17,41 @@
 # par_text = Вице-президент Международной федерации хоккея на льду (ИИХФ) Калерво Куммола прокомментировал информацию, согласно которой чемпионат мира 2021 года может быть перенесен из Белоруссии в Россию, передает MTV Uutiset.
 # sent_id = 0049-p2-s1
 # text = Вице-президент Международной федерации хоккея на льду (ИИХФ) Калерво Куммола прокомментировал информацию, согласно которой чемпионат мира 2021 года может быть перенесен из Белоруссии в Россию, передает MTV Uutiset.
-1	Вице-президент	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
-2	Международной	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
-3	федерации	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
-4	хоккея	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
-5	на	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
-6	льду	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
-7	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T3:Male|bratT3=Person|bratT4=Person-property
-8	ИИХФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT6=Organization
-9	)	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
-10	Калерво	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT34=Person-forename
-11	Куммола	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT35=Person-surname
-12	прокомментировал	_	_	_	_	_	_	_	_
-13	информацию	_	_	_	_	_	_	_	SpaceAfter=No
-14	,	_	_	_	_	_	_	_	_
-15	согласно	_	_	_	_	_	_	_	_
-16	которой	_	_	_	_	_	_	_	_
-17	чемпионат	_	_	_	_	_	_	_	bratT7=Event
-18	мира	_	_	_	_	_	_	_	bratT31=GPE|bratT7=Event
-19	2021	_	_	_	_	_	_	_	bratA2=T8:Future|bratT7=Event|bratT8=Date-absolute
-20	года	_	_	_	_	_	_	_	bratA2=T8:Future|bratT7=Event|bratT8=Date-absolute
-21	может	_	_	_	_	_	_	_	_
-22	быть	_	_	_	_	_	_	_	_
-23	перенесен	_	_	_	_	_	_	_	_
-24	из	_	_	_	_	_	_	_	_
-25	Белоруссии	_	_	_	_	_	_	_	bratT9=GPE
-26	в	_	_	_	_	_	_	_	_
-27	Россию	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=GPE
-28	,	_	_	_	_	_	_	_	_
-29	передает	_	_	_	_	_	_	_	_
-30	MTV	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
-31	Uutiset	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
-32	.	_	_	_	_	_	_	_	_
+1-3	Вице-президент	_	_	_	_	_	_	_	_
+1	Вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+3	президент	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+4	Международной	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+5	федерации	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+6	хоккея	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+7	на	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+8	льду	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+9	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+10	ИИХФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT6=Organization
+11	)	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property
+12	Калерво	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT34=Person-forename
+13	Куммола	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT35=Person-surname
+14	прокомментировал	_	_	_	_	_	_	_	_
+15	информацию	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	_	_	_	_	_	_	_	_
+17	согласно	_	_	_	_	_	_	_	_
+18	которой	_	_	_	_	_	_	_	_
+19	чемпионат	_	_	_	_	_	_	_	bratT7=Event
+20	мира	_	_	_	_	_	_	_	bratT31=GPE|bratT7=Event
+21	2021	_	_	_	_	_	_	_	bratA2=T8:Future|bratT7=Event|bratT8=Date-absolute
+22	года	_	_	_	_	_	_	_	bratA2=T8:Future|bratT7=Event|bratT8=Date-absolute
+23	может	_	_	_	_	_	_	_	_
+24	быть	_	_	_	_	_	_	_	_
+25	перенесен	_	_	_	_	_	_	_	_
+26	из	_	_	_	_	_	_	_	_
+27	Белоруссии	_	_	_	_	_	_	_	bratT9=GPE
+28	в	_	_	_	_	_	_	_	_
+29	Россию	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=GPE
+30	,	_	_	_	_	_	_	_	_
+31	передает	_	_	_	_	_	_	_	_
+32	MTV	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
+33	Uutiset	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
+34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0049-p3
 # par_text = Турнир должен пройти в Риге и Минске с 21 мая по 6 июня. Однако из-за протестов в Белоруссии после президентских выборов встал вопрос о переносе игр из Белоруссии. При этом Куммола считает маловероятным проведение матчей в России из-за пандемии коронавируса.

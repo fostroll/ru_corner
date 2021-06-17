@@ -100,11 +100,14 @@
 23	Юань	_	_	_	_	_	_	_	bratA5=T4:Male|bratT24=Person-forename|bratT4=Person
 24	Синь	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T4:Male|bratT25=Person-surname|bratT4=Person
 25	,	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person
-26	вице-президент	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person|bratT5=Person-property
-27	Китайской	_	_	_	_	_	_	_	bratA5=T4:Male|bratA6=T22:Adjective|bratT22=GPE|bratT4=Person|bratT5=Person-property|bratT6=Organization
-28	ассоциации	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
-29	народонаселения	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T38:Citizenship|bratA5=T4:Male|bratT38=Nationality|bratT4=Person|bratT5=Person-property|bratT6=Organization
-30	.	_	_	_	_	_	_	_	_
+26-28	вице-президент	_	_	_	_	_	_	_	_
+26	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T4:Male|bratT4=Person|bratT5=Person-property
+27	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T4:Male|bratT4=Person|bratT5=Person-property
+28	президент	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person|bratT5=Person-property
+29	Китайской	_	_	_	_	_	_	_	bratA5=T4:Male|bratA6=T22:Adjective|bratT22=GPE|bratT4=Person|bratT5=Person-property|bratT6=Organization
+30	ассоциации	_	_	_	_	_	_	_	bratA5=T4:Male|bratT4=Person|bratT5=Person-property|bratT6=Organization
+31	народонаселения	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T38:Citizenship|bratA5=T4:Male|bratT38=Nationality|bratT4=Person|bratT5=Person-property|bratT6=Organization
+32	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0050-p4
 # par_text = Он также подчеркнул, что в последние десятилетия политика в области демографии была направлена на поощрение меньшей рождаемости. Этому способствовали и соответствующие меры в социальной и экономической областях.

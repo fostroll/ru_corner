@@ -32,13 +32,16 @@
 14	итогового	_	_	_	_	_	_	_	bratT21=Event|bratT22=Event
 15	турнира	_	_	_	_	_	_	_	bratT21=Event|bratT22=Event
 16	Ассоциации	_	_	_	_	_	_	_	bratT21=Event|bratT22=Event|bratT23=Organization
-17	теннисистов-профессионалов	_	_	_	_	_	_	_	bratT21=Event|bratT22=Event|bratT23=Organization
-18	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event|bratT22=Event
-19	ATP	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event|bratT22=Event|bratT24=Organization
-20	)	_	_	_	_	_	_	_	bratT21=Event|bratT22=Event
-21	в	_	_	_	_	_	_	_	_
-22	Лондоне	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=GPE
-23	.	_	_	_	_	_	_	_	_
+17-19	теннисистов-профессионалов	_	_	_	_	_	_	_	_
+17	теннисистов	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT21=Event|bratT22=Event|bratT23=Organization
+18	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT21=Event|bratT22=Event|bratT23=Organization
+19	профессионалов	_	_	_	_	_	_	_	bratT21=Event|bratT22=Event|bratT23=Organization
+20	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event|bratT22=Event
+21	ATP	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event|bratT22=Event|bratT24=Organization
+22	)	_	_	_	_	_	_	_	bratT21=Event|bratT22=Event
+23	в	_	_	_	_	_	_	_	_
+24	Лондоне	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=GPE
+25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0101-p3
 # par_text = Встреча продолжалась 2 часа 42 минуты и завершилась со счётом 4:6, 7:6, 6:4 в пользу россиянина.

@@ -24,19 +24,22 @@
 5	Жвачкин	_	_	_	_	_	_	_	bratA8=T3:Male|bratT3=Person|bratT35=Person-surname
 6	провел	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	онлайн-режиме	_	_	_	_	_	_	_	_
-9	первое	_	_	_	_	_	_	_	bratT21=Ordinal
-10	заседание	_	_	_	_	_	_	_	bratT27=Event
-11	наблюдательного	_	_	_	_	_	_	_	bratA4=T28:Department|bratT27=Event|bratT28=Organization
-12	совета	_	_	_	_	_	_	_	bratA4=T28:Department|bratT27=Event|bratT28=Organization
-13	создающегося	_	_	_	_	_	_	_	_
-14	в	_	_	_	_	_	_	_	_
-15	Томске	_	_	_	_	_	_	_	bratT6=GPE
-16	научно-образовательного	_	_	_	_	_	_	_	bratT29=Organization
-17	центра	_	_	_	_	_	_	_	bratT29=Organization
-18	мирового	_	_	_	_	_	_	_	bratA13=T41:Adjective|bratT41=GPE
-19	уровня	_	_	_	_	_	_	_	SpaceAfter=No
-20	.	_	_	_	_	_	_	_	_
+8-10	онлайн-режиме	_	_	_	_	_	_	_	_
+8	онлайн	_	_	_	_	_	_	_	SpaceAfter=Yes
+9	-	_	_	_	_	_	_	_	SpaceAfter=Yes
+10	режиме	_	_	_	_	_	_	_	_
+11	первое	_	_	_	_	_	_	_	bratT21=Ordinal
+12	заседание	_	_	_	_	_	_	_	bratT27=Event
+13	наблюдательного	_	_	_	_	_	_	_	bratA4=T28:Department|bratT27=Event|bratT28=Organization
+14	совета	_	_	_	_	_	_	_	bratA4=T28:Department|bratT27=Event|bratT28=Organization
+15	создающегося	_	_	_	_	_	_	_	_
+16	в	_	_	_	_	_	_	_	_
+17	Томске	_	_	_	_	_	_	_	bratT6=GPE
+18	научно-образовательного	_	_	_	_	_	_	_	bratT29=Organization
+19	центра	_	_	_	_	_	_	_	bratT29=Organization
+20	мирового	_	_	_	_	_	_	_	bratA13=T41:Adjective|bratT41=GPE
+21	уровня	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0115-p2-s2
 # text = Глава региона отметил, что создание мирового НОЦ в Томске реализуется по национальному проекту ``Наука''.
@@ -73,25 +76,28 @@
 8	-	_	_	_	_	_	_	_	_
 9	войти	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
-11	ТОП-50	_	_	_	_	_	_	_	bratT22=Quantity
-12	мировых	_	_	_	_	_	_	_	bratA15=T43:Adjective|bratT43=GPE
-13	научно-образовательных	_	_	_	_	_	_	_	bratT46=Organization
-14	центров	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Organization
-15	,	_	_	_	_	_	_	_	_
-16	-	_	_	_	_	_	_	_	_
-17	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
-18	,	_	_	_	_	_	_	_	_
-19	открывая	_	_	_	_	_	_	_	_
-20	наблюдательный	_	_	_	_	_	_	_	bratT30=Event
-21	совет	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event
-22	,	_	_	_	_	_	_	_	_
-23	его	_	_	_	_	_	_	_	_
-24	председатель	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT13=Person-property
-25	,	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person
-26	губернатор	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT14=Person-property
-27	Сергей	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT36=Person-forename
-28	Жвачкин	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT37=Person-surname
-29	.	_	_	_	_	_	_	_	_
+11-13	ТОП-50	_	_	_	_	_	_	_	_
+11	ТОП	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT22=Quantity
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT22=Quantity
+13	50	_	_	_	_	_	_	_	bratT22=Quantity
+14	мировых	_	_	_	_	_	_	_	bratA15=T43:Adjective|bratT43=GPE
+15	научно-образовательных	_	_	_	_	_	_	_	bratT46=Organization
+16	центров	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Organization
+17	,	_	_	_	_	_	_	_	_
+18	-	_	_	_	_	_	_	_	_
+19	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	открывая	_	_	_	_	_	_	_	_
+22	наблюдательный	_	_	_	_	_	_	_	bratT30=Event
+23	совет	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event
+24	,	_	_	_	_	_	_	_	_
+25	его	_	_	_	_	_	_	_	_
+26	председатель	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT13=Person-property
+27	,	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person
+28	губернатор	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT14=Person-property
+29	Сергей	_	_	_	_	_	_	_	bratA9=T12:Male|bratT12=Person|bratT36=Person-forename
+30	Жвачкин	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT37=Person-surname
+31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0115-p3-s2
 # text = - Для решения этой задачи главное у томичей уже есть.

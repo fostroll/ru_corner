@@ -103,8 +103,11 @@
 5	коечного	_	_	_	_	_	_	_	_
 6	фонда	_	_	_	_	_	_	_	_
 7	почти	_	_	_	_	_	_	_	bratT18=Percent
-8	100-процентная	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Percent
-9	.	_	_	_	_	_	_	_	_
+8-10	100-процентная	_	_	_	_	_	_	_	SpaceAfter=No
+8	100	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Percent
+9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Percent
+10	процентная	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Percent
+11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0090-p4-s2
 # text = Так, в Севастополе в Крыму две больницы, перепрофилированные для зараженных коронавирусом, практически полностью заполнены: там осталось 34 койко-места, что составляет 1% от их общего числа.
@@ -154,10 +157,13 @@
 8	сентября	_	_	_	_	_	_	_	bratA8=T25:Past|bratT25=Date-absolute
 9	сообщил	_	_	_	_	_	_	_	_
 10	профильный	_	_	_	_	_	_	_	bratA9=T27:Male|bratT26=Person-property|bratT27=Person
-11	вице-губернатор	_	_	_	_	_	_	_	bratA9=T27:Male|bratT26=Person-property|bratT27=Person
-12	Александр	_	_	_	_	_	_	_	bratA9=T27:Male|bratT27=Person|bratT50=Person-forename
-13	Кулагин	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Male|bratT27=Person|bratT51=Person-surname
-14	.	_	_	_	_	_	_	_	_
+11-13	вице-губернатор	_	_	_	_	_	_	_	_
+11	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA9=T27:Male|bratT26=Person-property|bratT27=Person
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA9=T27:Male|bratT26=Person-property|bratT27=Person
+13	губернатор	_	_	_	_	_	_	_	bratA9=T27:Male|bratT26=Person-property|bratT27=Person
+14	Александр	_	_	_	_	_	_	_	bratA9=T27:Male|bratT27=Person|bratT50=Person-forename
+15	Кулагин	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T27:Male|bratT27=Person|bratT51=Person-surname
+16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p5
 # par_text = "К сожалению, свободный коечный фонд на сегодня у нас - на уровне 1%. Сейчас мы еще будем смотреть все дополнительные резервы и смотреть по бессимптомным, по легким течениям", - сказал он.

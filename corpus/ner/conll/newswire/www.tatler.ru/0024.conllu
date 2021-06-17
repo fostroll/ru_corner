@@ -75,29 +75,35 @@
 4	чета	_	_	_	_	_	_	_	bratT23=Family
 5	сделала	_	_	_	_	_	_	_	_
 6	остров	_	_	_	_	_	_	_	bratT24=Location
-7	Мартас-Винъярд	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Location
-8	,	_	_	_	_	_	_	_	_
-9	что	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	bratT25=Quantity
-11	шести	_	_	_	_	_	_	_	bratT25=Quantity
-12	километрах	_	_	_	_	_	_	_	bratT25=Quantity
-13	от	_	_	_	_	_	_	_	bratT25=Quantity
-14	мыса	_	_	_	_	_	_	_	bratT26=Location
-15	Кейп-Код	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Location
-16	.	_	_	_	_	_	_	_	_
+7-9	Мартас-Винъярд	_	_	_	_	_	_	_	SpaceAfter=No
+7	Мартас	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT24=Location
+8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT24=Location
+9	Винъярд	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Location
+10	,	_	_	_	_	_	_	_	_
+11	что	_	_	_	_	_	_	_	_
+12	в	_	_	_	_	_	_	_	bratT25=Quantity
+13	шести	_	_	_	_	_	_	_	bratT25=Quantity
+14	километрах	_	_	_	_	_	_	_	bratT25=Quantity
+15	от	_	_	_	_	_	_	_	bratT25=Quantity
+16	мыса	_	_	_	_	_	_	_	bratT26=Location
+17	Кейп-Код	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Location
+18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0024-p2-s4
 # text = Выбор неслучайный: Мартас-Винъярд - место отдыха американской элиты.
 1	Выбор	_	_	_	_	_	_	_	_
 2	неслучайный	_	_	_	_	_	_	_	SpaceAfter=No
 3	:	_	_	_	_	_	_	_	_
-4	Мартас-Винъярд	_	_	_	_	_	_	_	bratT27=Location
-5	-	_	_	_	_	_	_	_	_
-6	место	_	_	_	_	_	_	_	_
-7	отдыха	_	_	_	_	_	_	_	_
-8	американской	_	_	_	_	_	_	_	bratA8=T28:Adjective|bratT28=GPE|bratT29=Other-group
-9	элиты	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-group
-10	.	_	_	_	_	_	_	_	_
+4-6	Мартас-Винъярд	_	_	_	_	_	_	_	_
+4	Мартас	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT27=Location
+5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT27=Location
+6	Винъярд	_	_	_	_	_	_	_	bratT27=Location
+7	-	_	_	_	_	_	_	_	_
+8	место	_	_	_	_	_	_	_	_
+9	отдыха	_	_	_	_	_	_	_	_
+10	американской	_	_	_	_	_	_	_	bratA8=T28:Adjective|bratT28=GPE|bratT29=Other-group
+11	элиты	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-group
+12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0024-p2-s5
 # text = Здесь неоднократно проводили каникулы предшественники Обамы - Клинтоны и Кеннеди.
@@ -119,21 +125,24 @@
 # text = Остановившись на Мартас-Винъярд в 2009 году, Барак и Мишель возвращались туда и следующие два года.
 1	Остановившись	_	_	_	_	_	_	_	_
 2	на	_	_	_	_	_	_	_	_
-3	Мартас-Винъярд	_	_	_	_	_	_	_	bratT37=Location
-4	в	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-absolute
-5	2009	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-absolute
-6	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Past|bratT38=Date-absolute
-7	,	_	_	_	_	_	_	_	_
-8	Барак	_	_	_	_	_	_	_	bratA12=T41:Male|bratT39=Person-forename|bratT41=Person
-9	и	_	_	_	_	_	_	_	_
-10	Мишель	_	_	_	_	_	_	_	bratA13=T42:Female|bratT40=Person-forename|bratT42=Person
-11	возвращались	_	_	_	_	_	_	_	_
-12	туда	_	_	_	_	_	_	_	_
-13	и	_	_	_	_	_	_	_	_
-14	следующие	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-absolute|bratT73=Ordinal
-15	два	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-absolute|bratT44=Duration
-16	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T43:Past|bratT43=Date-period-absolute|bratT44=Duration
-17	.	_	_	_	_	_	_	_	_
+3-5	Мартас-Винъярд	_	_	_	_	_	_	_	_
+3	Мартас	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT37=Location
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT37=Location
+5	Винъярд	_	_	_	_	_	_	_	bratT37=Location
+6	в	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-absolute
+7	2009	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-absolute
+8	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Past|bratT38=Date-absolute
+9	,	_	_	_	_	_	_	_	_
+10	Барак	_	_	_	_	_	_	_	bratA12=T41:Male|bratT39=Person-forename|bratT41=Person
+11	и	_	_	_	_	_	_	_	_
+12	Мишель	_	_	_	_	_	_	_	bratA13=T42:Female|bratT40=Person-forename|bratT42=Person
+13	возвращались	_	_	_	_	_	_	_	_
+14	туда	_	_	_	_	_	_	_	_
+15	и	_	_	_	_	_	_	_	_
+16	следующие	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-absolute|bratT73=Ordinal
+17	два	_	_	_	_	_	_	_	bratA14=T43:Past|bratT43=Date-period-absolute|bratT44=Duration
+18	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T43:Past|bratT43=Date-period-absolute|bratT44=Duration
+19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0024-p3-s2
 # text = Все это время семья базировалась в одном особняке, который недавно был продан за $15 миллионов.

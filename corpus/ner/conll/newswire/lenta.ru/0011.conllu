@@ -155,10 +155,13 @@
 # text = Провел ее вице-премьер Дмитрий Чернышенко.
 1	Провел	_	_	_	_	_	_	_	_
 2	ее	_	_	_	_	_	_	_	_
-3	вице-премьер	_	_	_	_	_	_	_	bratA5=T18:Male|bratT17=Person-property|bratT18=Person
-4	Дмитрий	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT20=Person-forename
-5	Чернышенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T18:Male|bratT18=Person|bratT21=Person-surname
-6	.	_	_	_	_	_	_	_	_
+3-5	вице-премьер	_	_	_	_	_	_	_	_
+3	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T18:Male|bratT17=Person-property|bratT18=Person
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T18:Male|bratT17=Person-property|bratT18=Person
+5	премьер	_	_	_	_	_	_	_	bratA5=T18:Male|bratT17=Person-property|bratT18=Person
+6	Дмитрий	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT20=Person-forename
+7	Чернышенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T18:Male|bratT18=Person|bratT21=Person-surname
+8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p5-s3
 # text = Он рассказал, что по итогам сессии министерство должно обеспечить детализацию мероприятий инициатив по внедрению этого решения.

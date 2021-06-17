@@ -25,67 +25,51 @@ re4 = re.compile(r'[ЁА-Яёа-я]')
 hyphens, hyphens_low = set(), set()
 lefts, rights, endings = set(), set(), {}
 
-conjoints = []
-if os.path.isfile(CONJOINTS_FN):
-    with open(CONJOINTS_FN, 'rt', encoding='utf-8') as f:
-        conjoints_ = [x.lower() for x in [x.strip()
-                                for x in f.read().split('\n')] if x]
-    for x in conjoints_:
-        xs = x.split(HYPHEN)
-        if x == HYPHEN or len(xs) > 2:
-            raise ValueError(f'ERROR: Invalid template in {CONJOINTS_FN}: {x}')
-        elif len(xs) == 1:
-            conjoints.append((f'{x}-*', x))
-            conjoints.append((f'*-{x}', x))
-        elif not xs[0]:
-            conjoints.append((f'*{x}', x))
-        elif not xs[1]:
-            conjoints.append((f'{x}*', x))
-        else:
-            conjoints.append((x, x))
+def get_tpl(fn):
+    tpl = []
+    if os.path.isfile(fn):
+        with open(fn, 'rt', encoding='utf-8') as f:
+            tpl_ = [x.lower() for x in [x.strip()
+                              for x in f.read().split('\n')] if x]
+        for x in tpl_:
+            xs = x.split(HYPHEN)
+            if x == HYPHEN or len(xs) > 2:
+                raise ValueError(f'ERROR: Invalid template in {fn}: {x}')
+            elif len(xs) == 1:
+                tpl.append((f'{x}-*', x))
+                tpl.append((f'*-{x}', x))
+            elif not xs[0]:
+                tpl.append((f'*{x}', x))
+            elif not xs[1]:
+                tpl.append((f'{x}*', x))
+            else:
+                tpl.append((x, x))
+    return tpl
 
-disjoints = []
-if os.path.isfile(DISJOINTS_FN):
-    with open(DISJOINTS_FN, 'rt', encoding='utf-8') as f:
-        disjoints_ = [x.lower() for x in [x.strip()
-                                for x in f.read().split('\n')] if x]
-    for x in disjoints_:
-        xs = x.split(HYPHEN)
-        if x == HYPHEN or len(xs) > 2:
-            raise ValueError(f'ERROR: Invalid template in {DISJOINTS_FN}: {x}')
-        elif len(xs) == 1:
-            disjoints.append((f'{x}-*', x))
-            disjoints.append((f'*-{x}', x))
-        elif not xs[0]:
-            disjoints.append((f'*{x}', x))
-        elif not xs[1]:
-            disjoints.append((f'{x}*', x))
-        else:
-            disjoints.append((x, x))
+conjoints = get_tpl(CONJOINTS_FN)
+disjoints = get_tpl(DISJOINTS_FN)
 
-if os.path.isfile(ENDINGS_FN):
-    with open(ENDINGS_FN, 'rt', encoding='utf-8') as f:
-        endings = {x.lower().strip(): MIN_ENDING_NUM
-                       for x in f.read().split('\n')[:-1]}
+with open(ENDINGS_FN, 'rt', encoding='utf-8') as f:
+    endings = {x.lower().strip(): MIN_ENDING_NUM
+                   for x in f.read().split('\n')[:-1]}
 
 re_end_ = '|'.join(endings)
-re_cons_ = [(('^'
+
+def get_re(tpl):
+    return [(('^'
             + x.replace(NUMBER_TPL, r'\d+').replace(ANY_TPL, f'.*')
                .replace(f'{ENDING_TPL}{HYPHEN}', f'(?:{re_end_})?{HYPHEN}')
                .replace(ENDING_TPL, f'(?:{re_end_})?')
                .replace(HYPHEN, rf'${HYPHEN}^')
-            + '$').split(HYPHEN), y) for x, y in conjoints]
-re_diss_ = [(('^'
-            + x.replace(NUMBER_TPL, r'\d+').replace(ANY_TPL, f'.*')
-               .replace(f'{ENDING_TPL}{HYPHEN}', f'(?:{re_end_})?{HYPHEN}')
-               .replace(ENDING_TPL, f'(?:{re_end_})?')
-               .replace(HYPHEN, rf'${HYPHEN}^')
-            + '$').split(HYPHEN), y) for x, y in disjoints]
+            + '$').split(HYPHEN), y) for x, y in tpl]
+
+re_cons_ = get_re(conjoints)
+re_diss_ = get_re(disjoints)
 #print(re_cons_)
 #print(re_diss_)
-rex = [(re.compile(x[0][0]), re.compile(x[0][1]), len(x[1]), True)
+rex = [(re.compile(x[0][0]), re.compile(x[0][1]), len(x[1]), False)
            for x in re_cons_] \
-    + [(re.compile(x[0][0]), re.compile(x[0][1]), len(x[1]), False)
+    + [(re.compile(x[0][0]), re.compile(x[0][1]), len(x[1]), True)
            for x in re_diss_]
 
 with open(HYPHENS_RAW_FN, 'rt', encoding='utf-8') as f:
@@ -97,22 +81,21 @@ with open(HYPHENS_RAW_FN, 'rt', encoding='utf-8') as f:
                     if re1.search(frag):
                         break
                 else:
-                    continue
+                    continue  # only digits
                 frags[0] = NUMBER_TPL
-                hyphen = HYPHEN.join(frags)
             else:
                 r2 = bool(re2.search(hyphen))
                 r3 = bool(re3.search(hyphen))
                 r4 = bool(re4.search(hyphen))
                 if r2 + r3 + r4 > 1:
-                    continue
+                    continue  # rus/lat
                 has_middle_caps = False
                 for frag in frags:
                    frag1 = frag[1:]
                    if frag1 != frag1.lower():
                        has_middle_caps = True
                 if has_middle_caps:
-                    continue
+                    continue  # middle caps
             hyphen = f'{frags[0]}{HYPHEN}{frags[-1]}'
             hyphens.add(hyphen)
             if hyphen == hyphen.lower():
@@ -122,29 +105,21 @@ with open(HYPHENS_RAW_FN, 'rt', encoding='utf-8') as f:
             if len(frags[-1]) >= 7:
                 rights.add(frags[-1].lower())
 
-for frag1 in lefts:
-    for frag2 in lefts:
-        if frag1 != frag2 and frag1[:4] == frag2[:4]:
-            afxs = LemmaTagger.find_affixes(frag1, frag2)
-            stem, afx1, afx2 = afxs[1], afxs[2], afxs[5]
-            if len(afx1) <= ENDING_RANGE \
-           and len(afx2) <= ENDING_RANGE:
-                if afx1:
-                    endings[afx1] = endings.get(afx1, 0) + 1
-                if afx2:
-                    endings[afx2] = endings.get(afx2, 0) + 1
+def process_frags(frags):
+    for frag1 in frags:
+        for frag2 in frags:
+            if frag1 != frag2 and frag1[:4] == frag2[:4]:
+                afxs = LemmaTagger.find_affixes(frag1, frag2)
+                stem, afx1, afx2 = afxs[1], afxs[2], afxs[5]
+                if len(afx1) <= ENDING_RANGE \
+               and len(afx2) <= ENDING_RANGE:
+                    if afx1:
+                        endings[afx1] = endings.get(afx1, 0) + 1
+                    if afx2:
+                        endings[afx2] = endings.get(afx2, 0) + 1
 
-for frag1 in rights:
-    for frag2 in rights:
-        if frag1 != frag2 and frag1[:4] == frag2[:4]:
-            afxs = LemmaTagger.find_affixes(frag1, frag2)
-            stem, afx1, afx2 = afxs[1], afxs[2], afxs[5]
-            if len(afx1) <= ENDING_RANGE \
-           and len(afx2) <= ENDING_RANGE:
-                if afx1:
-                    endings[afx1] = endings.get(afx1, 0) + 1
-                if afx2:
-                    endings[afx2] = endings.get(afx2, 0) + 1
+process_frags(lefts)
+process_frags(rights)
 
 with open(ENDINGS_FN, 'wt', encoding='utf-8') as f:
     for afx, num in sorted(endings.items(), key=lambda x: x[0]):
