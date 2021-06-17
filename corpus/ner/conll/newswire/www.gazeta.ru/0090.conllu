@@ -4,51 +4,45 @@
 # sent_id = 0090-p1-s1
 # text = В ракетно-космической отрасли сократили 10 тысяч сотрудников
 1	В	_	_	_	_	_	_	_	_
-2-4	ракетно-космической	_	_	_	_	_	_	_	_
-2	ракетно	_	_	_	_	_	_	_	SpaceAfter=No
-3	-	_	_	_	_	_	_	_	SpaceAfter=No
-4	космической	_	_	_	_	_	_	_	_
-5	отрасли	_	_	_	_	_	_	_	_
-6	сократили	_	_	_	_	_	_	_	_
-7	10	_	_	_	_	_	_	_	bratT1=Quantity
-8	тысяч	_	_	_	_	_	_	_	bratT1=Quantity
-9	сотрудников	_	_	_	_	_	_	_	bratT1=Quantity
+2	ракетно-космической	_	_	_	_	_	_	_	_
+3	отрасли	_	_	_	_	_	_	_	_
+4	сократили	_	_	_	_	_	_	_	_
+5	10	_	_	_	_	_	_	_	bratT1=Quantity
+6	тысяч	_	_	_	_	_	_	_	bratT1=Quantity
+7	сотрудников	_	_	_	_	_	_	_	bratT1=Quantity
 
 # newpar id = 0090-p2
 # par_text = В ракетно-космической отрасли за два года сократили или уволили 10 тысяч сотрудников, пишет ТАСС со ссылкой на замгендиректора госкорпорации по административным и корпоративным вопросам Ивана Харченко.
 # sent_id = 0090-p2-s1
 # text = В ракетно-космической отрасли за два года сократили или уволили 10 тысяч сотрудников, пишет ТАСС со ссылкой на замгендиректора госкорпорации по административным и корпоративным вопросам Ивана Харченко.
 1	В	_	_	_	_	_	_	_	_
-2-4	ракетно-космической	_	_	_	_	_	_	_	_
-2	ракетно	_	_	_	_	_	_	_	SpaceAfter=No
-3	-	_	_	_	_	_	_	_	SpaceAfter=No
-4	космической	_	_	_	_	_	_	_	_
-5	отрасли	_	_	_	_	_	_	_	_
-6	за	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
-7	два	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
-8	года	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
-9	сократили	_	_	_	_	_	_	_	_
-10	или	_	_	_	_	_	_	_	_
-11	уволили	_	_	_	_	_	_	_	_
-12	10	_	_	_	_	_	_	_	bratT3=Quantity
-13	тысяч	_	_	_	_	_	_	_	bratT3=Quantity
-14	сотрудников	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Quantity
-15	,	_	_	_	_	_	_	_	_
-16	пишет	_	_	_	_	_	_	_	_
-17	ТАСС	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
-18	со	_	_	_	_	_	_	_	_
-19	ссылкой	_	_	_	_	_	_	_	_
-20	на	_	_	_	_	_	_	_	_
-21	замгендиректора	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
-22	госкорпорации	_	_	_	_	_	_	_	bratA6=T6:Male|bratT18=Organization|bratT5=Person-property|bratT6=Person
-23	по	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
-24	административным	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
-25	и	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
-26	корпоративным	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
-27	вопросам	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
-28	Ивана	_	_	_	_	_	_	_	bratA6=T6:Male|bratT21=Person-forename|bratT6=Person
-29	Харченко	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT22=Person-surname|bratT6=Person
-30	.	_	_	_	_	_	_	_	_
+2	ракетно-космической	_	_	_	_	_	_	_	_
+3	отрасли	_	_	_	_	_	_	_	_
+4	за	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
+5	два	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
+6	года	_	_	_	_	_	_	_	bratA2=T2:Past-Pres|bratT2=Date-period-absolute
+7	сократили	_	_	_	_	_	_	_	_
+8	или	_	_	_	_	_	_	_	_
+9	уволили	_	_	_	_	_	_	_	_
+10	10	_	_	_	_	_	_	_	bratT3=Quantity
+11	тысяч	_	_	_	_	_	_	_	bratT3=Quantity
+12	сотрудников	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Quantity
+13	,	_	_	_	_	_	_	_	_
+14	пишет	_	_	_	_	_	_	_	_
+15	ТАСС	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
+16	со	_	_	_	_	_	_	_	_
+17	ссылкой	_	_	_	_	_	_	_	_
+18	на	_	_	_	_	_	_	_	_
+19	замгендиректора	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
+20	госкорпорации	_	_	_	_	_	_	_	bratA6=T6:Male|bratT18=Organization|bratT5=Person-property|bratT6=Person
+21	по	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
+22	административным	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
+23	и	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
+24	корпоративным	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
+25	вопросам	_	_	_	_	_	_	_	bratA6=T6:Male|bratT5=Person-property|bratT6=Person
+26	Ивана	_	_	_	_	_	_	_	bratA6=T6:Male|bratT21=Person-forename|bratT6=Person
+27	Харченко	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T6:Male|bratT22=Person-surname|bratT6=Person
+28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p3
 # par_text = «За последние два года, с мая 2018 года, произошли следующие изменения: общая численность персонала отрасли снизилась на 10 тысяч человек — с 180 900 человек до 170 500 человек», — сказал Харченко.
