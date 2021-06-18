@@ -196,8 +196,9 @@
 17	федерального	_	_	_	_	_	_	_	_
 18	бюджета	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	bratA16=T38:Past|bratT38=Date-period-absolute
-20	2006	_	_	_	_	_	_	_	bratA16=T38:Past|bratT38=Date-period-absolute
-21	-	_	_	_	_	_	_	_	bratA16=T38:Past|bratT38=Date-period-absolute
+20-22	2006-2010	_	_	_	_	_	_	_	_
+20	2006	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T38:Past|bratT38=Date-period-absolute
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T38:Past|bratT38=Date-period-absolute
 22	2010	_	_	_	_	_	_	_	bratA16=T38:Past|bratT38=Date-period-absolute
 23	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T38:Past|bratT38=Date-period-absolute
 24	.	_	_	_	_	_	_	_	_
@@ -205,7 +206,7 @@
 # newpar id = 0073-p8
 # par_text = Вячеслав Дерев входил входил в Совет федерации в 2011-2016 годах.
 # sent_id = 0073-p8-s1
-# text = Вячеслав Дерев входил входил в Совет федерации в 2011 - 2016 годах.
+# text = Вячеслав Дерев входил входил в Совет федерации в 2011-2016 годах.
 1	Вячеслав	_	_	_	_	_	_	_	bratA13=T42:Male|bratT42=Person|bratT43=Person-forename
 2	Дерев	_	_	_	_	_	_	_	bratA13=T42:Male|bratT42=Person|bratT44=Person-surname
 3	входил	_	_	_	_	_	_	_	_
@@ -214,8 +215,9 @@
 6	Совет	_	_	_	_	_	_	_	bratT45=Organization
 7	федерации	_	_	_	_	_	_	_	bratT45=Organization
 8	в	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-period-absolute
-9	2011	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-period-absolute
-10	-	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-period-absolute
+9-11	2011-2016	_	_	_	_	_	_	_	_
+9	2011	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T41:Past|bratT41=Date-period-absolute
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T41:Past|bratT41=Date-period-absolute
 11	2016	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-period-absolute
 12	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T41:Past|bratT41=Date-period-absolute
 13	.	_	_	_	_	_	_	_	_

@@ -112,7 +112,7 @@
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0064-p5-s2
-# text = Новым главой ведомства был назначен Вагаршак Арутюнян, возглавлявший Минобороны в 1999 - 2000 годах.
+# text = Новым главой ведомства был назначен Вагаршак Арутюнян, возглавлявший Минобороны в 1999-2000 годах.
 1	Новым	_	_	_	_	_	_	_	bratT29=Person-property
 2	главой	_	_	_	_	_	_	_	bratT29=Person-property
 3	ведомства	_	_	_	_	_	_	_	bratT29=Person-property|bratT60=Organization
@@ -124,8 +124,9 @@
 9	возглавлявший	_	_	_	_	_	_	_	_
 10	Минобороны	_	_	_	_	_	_	_	bratT15=Organization
 11	в	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
-12	1999	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
-13	-	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
+12-14	1999-2000	_	_	_	_	_	_	_	_
+12	1999	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period-absolute
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period-absolute
 14	2000	_	_	_	_	_	_	_	bratA7=T16:Past|bratT16=Date-period-absolute
 15	годах	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T16:Past|bratT16=Date-period-absolute
 16	.	_	_	_	_	_	_	_	_

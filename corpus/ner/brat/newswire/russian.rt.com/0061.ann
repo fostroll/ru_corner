@@ -1,12 +1,12 @@
 T1	GPE 4 15	Подмосковье
 T2	Other-term 63 74	коронавирус
 T3	Date-period-absolute 308 331	за   прошедшую   неделю
-T4	Quantity 400 433	30   -   35   тыс.   ПЦР - тестов
-T5	Other-term 441 452	коронавирус
-T6	Organization 514 527	РИА   Новости
-T7	Organization 621 647	областного   правительства
-T8	Person 661 669	Воробьёв
-T9	Other-term 738 748	COVID - 19
+T4	Quantity 400 429	30 - 35   тыс.   ПЦР - тестов
+T5	Other-term 437 448	коронавирус
+T6	Organization 510 523	РИА   Новости
+T7	Organization 617 643	областного   правительства
+T8	Person 657 665	Воробьёв
+T9	Other-term 734 744	COVID - 19
 A1	Media T6
 A2	Media T7
 T11	Date-absolute 338 345	сегодня
@@ -15,21 +15,21 @@ T13	GPE 89 109	Московской   области
 T14	Person 76 129	Губернатор   Московской   области   Андрей   Воробьёв
 T15	Other-term 176 214	коронавирусную   инфекцию   COVID - 19
 T16	GPE 221 232	Подмосковье
-T10	Date-absolute 577 601	во   время   выступления
-T17	Date-relative 653 658	Ранее
+T10	Date-absolute 573 597	во   время   выступления
+T17	Date-relative 649 654	Ранее
 T18	Ordinal 313 322	прошедшую
 A3	Past T10
 A4	Present T11
 A5	Past T3
-T19	Event 609 647	заседании   областного   правительства
+T19	Event 605 643	заседании   областного   правительства
 A6	Past T17
 T20	Person-forename 112 118	Андрей
 T21	Person-surname 121 129	Воробьёв
-T22	Person-surname 661 669	Воробьёв
+T22	Person-surname 657 665	Воробьёв
 A7	Male T14
 A8	Male T8
 T23	Cardinal 212 214	19
-T24	Cardinal 746 748	19
-T25	GPE 621 631	областного
+T24	Cardinal 742 744	19
+T25	GPE 617 627	областного
 A9	Adjective T25
-T26	GPE 755 762	регионе
+T26	GPE 751 758	регионе

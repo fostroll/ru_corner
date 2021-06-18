@@ -26,10 +26,8 @@ T19	Date-period-absolute 45 60	после   циклона
 T22	Date-period-absolute 103 118	после   циклона
 T25	Event 35 60	кризиса   после   циклона
 T26	Event 93 118	кризиса   после   циклона
-T27	Date-absolute 29 60	пик   кризиса   после   циклона
-A6	Past T27
-T28	Date-absolute 87 118	Пик   кризиса   после   циклона
-A7	Past T28
+T27	Event 29 60	пик   кризиса   после   циклона
+T28	Event 87 118	Пик   кризиса   после   циклона
 A5	Past-Pres T22
 A4	Past-Pres T19
 A8	RCont T19
@@ -50,3 +48,5 @@ A14	Male T5
 T36	Organization 0 6	Власти
 T37	GPE 293 300	региона
 T38	Event 399 401	ЧС
+T39	Event 418 425	кризиса
+T40	Event 412 425	Пик   кризиса

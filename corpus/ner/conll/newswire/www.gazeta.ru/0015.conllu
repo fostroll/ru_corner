@@ -95,7 +95,7 @@
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0015-p3-s3
-# text = По словам Маурера, планируется отправить в регион дополнительно 400 - 500 человек.
+# text = По словам Маурера, планируется отправить в регион дополнительно 400-500 человек.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
 3	Маурера	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Male|bratT16=Person|bratT49=Person-surname
@@ -105,8 +105,9 @@
 7	в	_	_	_	_	_	_	_	_
 8	регион	_	_	_	_	_	_	_	bratT61=GPE
 9	дополнительно	_	_	_	_	_	_	_	_
-10	400	_	_	_	_	_	_	_	bratT17=Quantity
-11	-	_	_	_	_	_	_	_	bratT17=Quantity
+10-12	400	_	_	_	_	_	_	_	_
+10	400	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
 12	500	_	_	_	_	_	_	_	bratT17=Quantity
 13	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
 14	.	_	_	_	_	_	_	_	_

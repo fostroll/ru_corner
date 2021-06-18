@@ -5,8 +5,8 @@ T4	Person-property 315 384	научный   сотрудник   Гарвард 
 T5	Organization 337 384	Гарвард - Смитсоновского   центра   астрофизики
 T6	GPE 391 394	США
 T7	Date-absolute 190 214	в   начале   2000   года
-T10	GPE 1479 1482	США
-T11	GPE 1489 1493	СССР
+T10	GPE 1475 1478	США
+T11	GPE 1485 1489	СССР
 T12	Product 76 117	российская   миссия   ``   Луна - 25   ''
 T13	Product 10 42	российскую   ``   Луну - 25   ''
 T14	Product 260 283	китайской   Chang'e   4
@@ -15,18 +15,18 @@ T16	Product 513 532	``   Луна - 25   ''
 T17	Person-property 619 626	эксперт
 T18	Person 755 790	Космический   аппарат   Chang'e   5
 T19	Product 850 879	советские   серии   E - 8 - 5
-T21	Person-property 1082 1089	эксперт
-T22	Date-absolute 1213 1223	В   ноябре
-T23	GPE 1230 1235	Китае
-T24	Facility 1242 1262	космодрома   Вэньчан
-T26	Product 1319 1340	миссией   Chang'e   5
-T27	Duration 1396 1406	23   суток
-T28	Date-absolute 1505 1529	около   40   лет   назад
+T21	Person-property 1078 1085	эксперт
+T22	Date-absolute 1209 1219	В   ноябре
+T23	GPE 1226 1231	Китае
+T24	Facility 1238 1258	космодрома   Вэньчан
+T26	Product 1315 1336	миссией   Chang'e   5
+T27	Duration 1392 1402	23   суток
+T28	Date-absolute 1501 1525	около   40   лет   назад
 T29	Location 124 156	естественному   спутнику   Земли
-T30	Location 959 964	Землю
-T31	Location 1075 1079	Луну
-T32	Location 1202 1207	Землю
-T33	Location 1426 1431	Землю
+T30	Location 955 960	Землю
+T31	Location 1071 1075	Луну
+T32	Location 1198 1203	Землю
+T33	Location 1422 1427	Землю
 T34	Ordinal 67 73	Первая
 T35	Other-term 55 65	рудиментом
 T8	GPE 734 737	США
@@ -41,18 +41,18 @@ T36	Product 581 612	российской   лунной   программе
 A7	Project T36
 T37	Location 151 156	Земли
 A8	Project T26
-T25	Person 1277 1312	тяжелую   ракету   Long   March - 5
+T25	Person 1273 1308	тяжелую   ракету   Long   March - 5
 A9	Unconscious T25
 A10	Unconscious T18
 T38	Date-absolute 230 236	сейчас
-T39	Date-period-relative 1347 1365	в   ходе   которой
+T39	Date-period-relative 1343 1361	в   ходе   которой
 T40	Date-absolute 662 692	после   многолетних   задержек
 T41	Duration 670 681	многолетних
 A11	Past T7
-T43	Date-absolute 905 934	в   1960   -   1970-х   годах
+T43	Date-absolute 905 930	в   1960 - 1970-х   годах
 A13	Past T22
-T44	Duration 1505 1521	около   40   лет
-T42	Date-period-relative 1382 1406	в   течение   23   суток
+T44	Duration 1501 1517	около   40   лет
+T42	Date-period-relative 1378 1402	в   течение   23   суток
 A12	Past T43
 A16	Present T38
 A18	Past T28
@@ -65,7 +65,7 @@ T46	GPE 260 269	китайской
 T47	GPE 451 460	китайская
 T48	GPE 581 591	российской
 T49	GPE 850 859	советские
-T50	GPE 1049 1058	китайской
+T50	GPE 1045 1054	китайской
 T51	Person-forename 401 409	Джонатан
 T52	Person-surname 412 421	МакДауэлл
 A19	Adjective T20
@@ -82,30 +82,30 @@ A28	Trademark T19
 T54	Ordinal 473 474	5
 T55	Ordinal 282 283	4
 T56	Ordinal 789 790	5
-T57	Ordinal 1339 1340	5
+T57	Ordinal 1335 1336	5
 T60	Cardinal 878 879	5
 T58	Cardinal 35 37	25
 T62	Cardinal 110 112	25
 T65	Cardinal 525 527	25
-T67	Ordinal 1311 1312	5
+T67	Ordinal 1307 1308	5
 T61	GPE 337 344	Гарвард
 T64	Location 28 32	Луну
 T66	Location 103 107	Луна
 T68	Location 518 522	Луна
-T69	Location 1303 1308	March
+T69	Location 1299 1304	March
 T59	Cardinal 874 875	8
 T63	Person 619 626	эксперт
 A29	Male T63
-T70	Person 1082 1089	эксперт
+T70	Person 1078 1085	эксперт
 A30	Male T70
-T71	Product 1049 1079	китайской   миссии   на   Луну
+T71	Product 1045 1075	китайской   миссии   на   Луну
 A31	Project T71
-T72	Location 1154 1174	окололунной   орбите
-T73	Location 1444 1451	лунного
+T72	Location 1150 1170	окололунной   орбите
+T73	Location 1440 1447	лунного
 A32	Adjective T73
 T74	Location 594 600	лунной
 A33	Adjective T74
-T75	Location 978 985	лунного
+T75	Location 974 981	лунного
 A34	Adjective T75
 T76	Person 793 803	специалист
 A35	Male T76

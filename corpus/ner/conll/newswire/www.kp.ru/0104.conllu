@@ -89,7 +89,7 @@
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p3-s2
-# text = Молодежный чемпионат мир должен состоятся с 25 декабря 2020 года по 5 января 2021 года в Канаде, где также с 7 - 17 апреля 2021 года состоится женский чемпионат мира.
+# text = Молодежный чемпионат мир должен состоятся с 25 декабря 2020 года по 5 января 2021 года в Канаде, где также с 7-17 апреля 2021 года состоится женский чемпионат мира.
 1	Молодежный	_	_	_	_	_	_	_	bratT16=Event|bratT41=Age
 2	чемпионат	_	_	_	_	_	_	_	bratT16=Event
 3	мир	_	_	_	_	_	_	_	bratT16=Event|bratT36=GPE
@@ -111,8 +111,9 @@
 19	где	_	_	_	_	_	_	_	_
 20	также	_	_	_	_	_	_	_	_
 21	с	_	_	_	_	_	_	_	bratA4=T19:Fut|bratT19=Date-period-absolute
-22	7	_	_	_	_	_	_	_	bratA4=T19:Fut|bratT19=Date-period-absolute
-23	-	_	_	_	_	_	_	_	bratA4=T19:Fut|bratT19=Date-period-absolute
+22-24	7	_	_	_	_	_	_	_	_
+22	7	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T19:Fut|bratT19=Date-period-absolute
+23	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T19:Fut|bratT19=Date-period-absolute
 24	17	_	_	_	_	_	_	_	bratA4=T19:Fut|bratT19=Date-period-absolute
 25	апреля	_	_	_	_	_	_	_	bratA4=T19:Fut|bratT19=Date-period-absolute
 26	2021	_	_	_	_	_	_	_	bratA4=T19:Fut|bratT19=Date-period-absolute

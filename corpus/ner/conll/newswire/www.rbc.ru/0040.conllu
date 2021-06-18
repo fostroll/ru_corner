@@ -33,7 +33,7 @@
 15	наблюдать	_	_	_	_	_	_	_	_
 16	за	_	_	_	_	_	_	_	_
 17	выступлениями	_	_	_	_	_	_	_	_
-18	юных	_	_	_	_	_	_	_	_
+18	юных	_	_	_	_	_	_	_	bratT53=Age
 19	спортсменов	_	_	_	_	_	_	_	bratT7=Person-property
 20	на	_	_	_	_	_	_	_	_
 21	чемпионатах	_	_	_	_	_	_	_	bratT48=Event
@@ -90,12 +90,12 @@
 4	на	_	_	_	_	_	_	_	bratA12=T45:Future|bratT45=Date-absolute
 5	ближайшем	_	_	_	_	_	_	_	bratA12=T45:Future|bratT44=Ordinal|bratT45=Date-absolute
 6	конгрессе	_	_	_	_	_	_	_	bratA12=T45:Future|bratT10=Event|bratT45=Date-absolute
-7	Международного	_	_	_	_	_	_	_	bratT10=Event|bratT11=Organization
-8	союза	_	_	_	_	_	_	_	bratT10=Event|bratT11=Organization
-9	конькобежцев	_	_	_	_	_	_	_	bratT10=Event|bratT11=Organization|bratT13=Person-property
-10	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
-11	ISU	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event|bratT12=Organization
-12	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
+7	Международного	_	_	_	_	_	_	_	bratT11=Organization
+8	союза	_	_	_	_	_	_	_	bratT11=Organization
+9	конькобежцев	_	_	_	_	_	_	_	bratT11=Organization|bratT13=Person-property
+10	(	_	_	_	_	_	_	_	SpaceAfter=No
+11	ISU	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization
+12	)	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	который	_	_	_	_	_	_	_	_
 15	пройдет	_	_	_	_	_	_	_	_
@@ -110,8 +110,8 @@
 2	настоящее	_	_	_	_	_	_	_	bratA9=T15:Present|bratT15=Date-absolute|bratT46=Ordinal
 3	время	_	_	_	_	_	_	_	bratA9=T15:Present|bratT15=Date-absolute
 4	во	_	_	_	_	_	_	_	_
-5	взрослых	_	_	_	_	_	_	_	bratT36=Age
-6	соревнованиях	_	_	_	_	_	_	_	_
+5	взрослых	_	_	_	_	_	_	_	bratT36=Age|bratT54=Event
+6	соревнованиях	_	_	_	_	_	_	_	bratT54=Event
 7	допускается	_	_	_	_	_	_	_	_
 8	участие	_	_	_	_	_	_	_	_
 9	спортсменок	_	_	_	_	_	_	_	bratT28=Person-property
@@ -149,7 +149,7 @@
 # sent_id = 0040-p4-s3
 # text = Их девочки с нашими конкурировать не могут.
 1	Их	_	_	_	_	_	_	_	_
-2	девочки	_	_	_	_	_	_	_	bratT38=Age
+2	девочки	_	_	_	_	_	_	_	_
 3	с	_	_	_	_	_	_	_	_
 4	нашими	_	_	_	_	_	_	_	_
 5	конкурировать	_	_	_	_	_	_	_	_
@@ -162,7 +162,7 @@
 1	Этот	_	_	_	_	_	_	_	_
 2	вопрос	_	_	_	_	_	_	_	_
 3	поднимается	_	_	_	_	_	_	_	_
-4	не	_	_	_	_	_	_	_	_
+4	не	_	_	_	_	_	_	_	bratT19=Ordinal
 5	первый	_	_	_	_	_	_	_	bratT19=Ordinal
 6	раз	_	_	_	_	_	_	_	SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_

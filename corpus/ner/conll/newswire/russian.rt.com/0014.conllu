@@ -7,10 +7,10 @@
 2	считают	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	пик	_	_	_	_	_	_	_	bratA6=T27:Past|bratT27=Date-absolute
-6	кризиса	_	_	_	_	_	_	_	bratA6=T27:Past|bratT25=Event|bratT27=Date-absolute
-7	после	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratA6=T27:Past|bratA8=T19:RCont|bratT19=Date-period-absolute|bratT25=Event|bratT27=Date-absolute
-8	циклона	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratA6=T27:Past|bratA8=T19:RCont|bratT19=Date-period-absolute|bratT20=Event|bratT25=Event|bratT27=Date-absolute
+5	пик	_	_	_	_	_	_	_	bratT27=Event
+6	кризиса	_	_	_	_	_	_	_	bratT25=Event|bratT27=Event
+7	после	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratA8=T19:RCont|bratT19=Date-period-absolute|bratT25=Event|bratT27=Event
+8	циклона	_	_	_	_	_	_	_	bratA4=T19:Past-Pres|bratA8=T19:RCont|bratT19=Date-period-absolute|bratT20=Event|bratT25=Event|bratT27=Event
 9	в	_	_	_	_	_	_	_	_
 10	Приморье	_	_	_	_	_	_	_	bratT1=GPE
 11	пройден	_	_	_	_	_	_	_	_
@@ -19,10 +19,10 @@
 # par_text = Пик кризиса после циклона в Приморском крае пройден, заявил глава Минвостокразвития Алексей Чекунков.
 # sent_id = 0014-p2-s1
 # text = Пик кризиса после циклона в Приморском крае пройден, заявил глава Минвостокразвития Алексей Чекунков.
-1	Пик	_	_	_	_	_	_	_	bratA7=T28:Past|bratT28=Date-absolute
-2	кризиса	_	_	_	_	_	_	_	bratA7=T28:Past|bratT26=Event|bratT28=Date-absolute
-3	после	_	_	_	_	_	_	_	bratA5=T22:Past-Pres|bratA7=T28:Past|bratA9=T22:RCont|bratT22=Date-period-absolute|bratT26=Event|bratT28=Date-absolute
-4	циклона	_	_	_	_	_	_	_	bratA5=T22:Past-Pres|bratA7=T28:Past|bratA9=T22:RCont|bratT21=Event|bratT22=Date-period-absolute|bratT26=Event|bratT28=Date-absolute
+1	Пик	_	_	_	_	_	_	_	bratT28=Event
+2	кризиса	_	_	_	_	_	_	_	bratT26=Event|bratT28=Event
+3	после	_	_	_	_	_	_	_	bratA5=T22:Past-Pres|bratA9=T22:RCont|bratT22=Date-period-absolute|bratT26=Event|bratT28=Event
+4	циклона	_	_	_	_	_	_	_	bratA5=T22:Past-Pres|bratA9=T22:RCont|bratT21=Event|bratT22=Date-period-absolute|bratT26=Event|bratT28=Event
 5	в	_	_	_	_	_	_	_	_
 6	Приморском	_	_	_	_	_	_	_	bratT13=GPE
 7	крае	_	_	_	_	_	_	_	bratT13=GPE
@@ -67,8 +67,8 @@
 # sent_id = 0014-p4-s1
 # text = ``Пик кризиса пройден, большая часть тех, кто остался без тепла и воды, либо получили их, либо в ближайшие сутки получат'', - сказал Чекунков.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Пик	_	_	_	_	_	_	_	_
-3	кризиса	_	_	_	_	_	_	_	_
+2	Пик	_	_	_	_	_	_	_	bratT40=Event
+3	кризиса	_	_	_	_	_	_	_	bratT39=Event|bratT40=Event
 4	пройден	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	большая	_	_	_	_	_	_	_	bratT17=Percent

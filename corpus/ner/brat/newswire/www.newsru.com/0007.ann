@@ -4,61 +4,61 @@ T3	Organization 174 192	Московской   бирже
 T4	Organization 404 423	``   Интерфакс   ''
 A1	Media T4
 T5	GPE 462 465	США
-T6	Money 493 517	77,33   -   77,96   руб.
-T7	Money 524 527	$ 1
-T8	Ordinal 548 554	первой
-T9	Money 593 605	77,89   руб.
-T10	Money 612 615	$ 1
-T11	Money 622 637	+52,5   копейки
-T12	Money 703 734	до   91,42   руб.   /   EUR   1
-T14	Money 741 753	+56   копеек
-T15	Money 789 795	$ 0,55
-T16	Money 802 812	EUR   0,45
-T17	Money 833 853	на   54,06   копейки
-T18	Money 895 913	до   83,98   рубля
-T19	Money 951 978	на   61,26   копейки   выше
-T20	Money 1043 1070	на   69,63   копейки   выше
-T21	Organization 1127 1152	``   Интерфакс - ЦЭА   ''
+T6	Money 493 513	77,33 - 77,96   руб.
+T7	Money 520 523	$ 1
+T8	Ordinal 544 550	первой
+T9	Money 589 601	77,89   руб.
+T10	Money 608 611	$ 1
+T11	Money 618 633	+52,5   копейки
+T12	Money 699 730	до   91,42   руб.   /   EUR   1
+T14	Money 737 749	+56   копеек
+T15	Money 785 791	$ 0,55
+T16	Money 798 808	EUR   0,45
+T17	Money 829 849	на   54,06   копейки
+T18	Money 891 909	до   83,98   рубля
+T19	Money 947 974	на   61,26   копейки   выше
+T20	Money 1039 1066	на   69,63   копейки   выше
+T21	Organization 1123 1148	``   Интерфакс - ЦЭА   ''
 A2	Media T21
-T22	Person-property 1116 1152	эксперты   ``   Интерфакс - ЦЭА   ''
-T23	Other-term 1356 1369	коронавирусом
-T24	Person 1308 1341	президент   США   Дональд   Трамп
-T25	Person-property 1308 1323	президент   США
-T26	GPE 1320 1323	США
-T27	Other-term 1426 1436	COVID - 19
-T28	Organization 1715 1726	MarketWatch
+T22	Person-property 1112 1148	эксперты   ``   Интерфакс - ЦЭА   ''
+T23	Other-term 1352 1365	коронавирусом
+T24	Person 1304 1337	президент   США   Дональд   Трамп
+T25	Person-property 1304 1319	президент   США
+T26	GPE 1316 1319	США
+T27	Other-term 1422 1432	COVID - 19
+T28	Organization 1711 1722	MarketWatch
 A3	Media T28
-T29	Date-absolute 1733 1762	в   четверг   ,   1   октября
-T30	Date-absolute 1811 1828	с   15   сентября
+T29	Date-absolute 1729 1758	в   четверг   ,   1   октября
+T30	Date-absolute 1807 1824	с   15   сентября
 T31	Time-absolute 209 214	утром
 T32	Ordinal 429 435	Первые
-T33	Person-property 1229 1239	инвесторов
+T33	Person-property 1225 1235	инвесторов
 T34	Date-absolute 195 214	в   пятницу   утром
-T38	Date-absolute 880 888	четверга
-T39	Family 1473 1477	жены
-T40	Date-period-absolute 1658 1696	после   заметного   падения   накануне
-T42	Ordinal 653 664	предыдущего
-T43	Date-relative 1254 1276	после   того   ,   как
-T44	Duration 557 563	минуты
-T45	Date-absolute 548 572	первой   минуты   торгов
+T38	Date-absolute 876 884	четверга
+T39	Family 1469 1473	жены
+T40	Date-period-absolute 1654 1692	после   заметного   падения   накануне
+T42	Ordinal 649 660	предыдущего
+T43	Date-relative 1250 1272	после   того   ,   как
+T44	Duration 553 559	минуты
+T45	Date-absolute 544 568	первой   минуты   торгов
 A4	Past T45
 A5	Past T34
 A6	Past T38
 A7	Past T43
 A8	Male T24
-T36	Person-forename 1326 1333	Дональд
-T46	Person-surname 1336 1341	Трамп
+T36	Person-forename 1322 1329	Дональд
+T46	Person-surname 1332 1337	Трамп
 T41	GPE 174 184	Московской
 A11	Adjective T41
-T47	Event 566 572	торгов
-T48	Event 653 675	предыдущего   закрытия
-T49	Money 727 734	EUR   1
+T47	Event 562 568	торгов
+T48	Event 649 671	предыдущего   закрытия
+T49	Money 723 730	EUR   1
 A10	Past T30
-T51	Event 1666 1685	заметного   падения
+T51	Event 1662 1681	заметного   падения
 A12	Past T29
 A9	Past-Pres T40
-T52	Date-absolute 1688 1696	накануне
+T52	Date-absolute 1684 1692	накануне
 A13	Past T52
-T53	Person 1467 1477	его   жены
+T53	Person 1463 1473	его   жены
 A14	Female T53
-T13	Cardinal 1434 1436	19
+T13	Cardinal 1430 1432	19

@@ -168,15 +168,16 @@
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0102-p3-s11
-# text = В Лиге чемпионов нельзя включаться через 5 - 10 минут после начала матча.
+# text = В Лиге чемпионов нельзя включаться через 5-10 минут после начала матча.
 1	В	_	_	_	_	_	_	_	_
 2	Лиге	_	_	_	_	_	_	_	bratT6=Event
 3	чемпионов	_	_	_	_	_	_	_	bratT6=Event
 4	нельзя	_	_	_	_	_	_	_	_
 5	включаться	_	_	_	_	_	_	_	_
 6	через	_	_	_	_	_	_	_	bratT7=Time-relative
-7	5	_	_	_	_	_	_	_	bratT29=Duration|bratT7=Time-relative
-8	-	_	_	_	_	_	_	_	bratT29=Duration|bratT7=Time-relative
+7-9	5-10	_	_	_	_	_	_	_	_
+7	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Duration|bratT7=Time-relative
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Duration|bratT7=Time-relative
 9	10	_	_	_	_	_	_	_	bratT29=Duration|bratT7=Time-relative
 10	минут	_	_	_	_	_	_	_	bratT29=Duration|bratT7=Time-relative
 11	после	_	_	_	_	_	_	_	bratT7=Time-relative

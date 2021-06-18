@@ -17,7 +17,7 @@
 # newpar id = 0039-p2
 # par_text = Госдума приняла во втором чтении проект федерального бюджета на 2021 год и плановый период 2022–2023 годов. Об этом говорится в сообщении пресс-службы нижней палаты парламента.
 # sent_id = 0039-p2-s1
-# text = Госдума приняла во втором чтении проект федерального бюджета на 2021 год и плановый период 2022 - 2023 годов.
+# text = Госдума приняла во втором чтении проект федерального бюджета на 2021 год и плановый период 2022-2023 годов.
 1	Госдума	_	_	_	_	_	_	_	bratT2=Organization
 2	приняла	_	_	_	_	_	_	_	_
 3	во	_	_	_	_	_	_	_	_
@@ -32,8 +32,9 @@
 12	и	_	_	_	_	_	_	_	_
 13	плановый	_	_	_	_	_	_	_	_
 14	период	_	_	_	_	_	_	_	bratA5=T7:Fut|bratT7=Date-period-absolute
-15	2022	_	_	_	_	_	_	_	bratA5=T7:Fut|bratT7=Date-period-absolute
-16	-	_	_	_	_	_	_	_	bratA5=T7:Fut|bratT7=Date-period-absolute
+15-17	2022-2023	_	_	_	_	_	_	_	_
+15	2022	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Fut|bratT7=Date-period-absolute
+16	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Fut|bratT7=Date-period-absolute
 17	2023	_	_	_	_	_	_	_	bratA5=T7:Fut|bratT7=Date-period-absolute
 18	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T7:Fut|bratT7=Date-period-absolute
 19	.	_	_	_	_	_	_	_	_
@@ -145,11 +146,11 @@
 11	на	_	_	_	_	_	_	_	_
 12	финансовое	_	_	_	_	_	_	_	_
 13	обеспечение	_	_	_	_	_	_	_	_
-14	общенационального	_	_	_	_	_	_	_	_
-15	плана	_	_	_	_	_	_	_	_
-16	по	_	_	_	_	_	_	_	_
-17	восстановлению	_	_	_	_	_	_	_	_
-18	экономики	_	_	_	_	_	_	_	SpaceAfter=No
+14	общенационального	_	_	_	_	_	_	_	bratA1=T47:Project|bratT47=Product
+15	плана	_	_	_	_	_	_	_	bratA1=T47:Project|bratT47=Product
+16	по	_	_	_	_	_	_	_	bratA1=T47:Project|bratT47=Product
+17	восстановлению	_	_	_	_	_	_	_	bratA1=T47:Project|bratT47=Product
+18	экономики	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T47:Project|bratT47=Product
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0039-p5-s2
@@ -291,7 +292,7 @@
 9	руб.	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Money
 10	,	_	_	_	_	_	_	_	_
 11	добавил	_	_	_	_	_	_	_	_
-12	председатель	_	_	_	_	_	_	_	bratT38=Person-property
-13	Госдумы	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization|bratT38=Person-property
+12	председатель	_	_	_	_	_	_	_	bratA14=T48:Male|bratT38=Person-property|bratT48=Person
+13	Госдумы	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T48:Male|bratT37=Organization|bratT38=Person-property|bratT48=Person
 14	.	_	_	_	_	_	_	_	_
 

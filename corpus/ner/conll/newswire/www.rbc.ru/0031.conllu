@@ -4,28 +4,28 @@
 # sent_id = 0031-p1-s1
 # text = На северо-западе Москвы произошел пожар в здании полиции
 1	На	_	_	_	_	_	_	_	_
-2	северо-западе	_	_	_	_	_	_	_	bratT1=GPE
+2	северо-западе	_	_	_	_	_	_	_	_
 3	Москвы	_	_	_	_	_	_	_	bratT1=GPE
 4	произошел	_	_	_	_	_	_	_	_
 5	пожар	_	_	_	_	_	_	_	bratT3=Event
-6	в	_	_	_	_	_	_	_	bratT3=Event
-7	здании	_	_	_	_	_	_	_	bratT3=Event|bratT35=Facility
-8	полиции	_	_	_	_	_	_	_	bratT2=Organization|bratT3=Event|bratT35=Facility
+6	в	_	_	_	_	_	_	_	_
+7	здании	_	_	_	_	_	_	_	bratT35=Facility
+8	полиции	_	_	_	_	_	_	_	bratT2=Organization|bratT35=Facility
 
 # newpar id = 0031-p2
 # par_text = На северо-западе Москвы произошло возгорание на втором этаже административного здания. Об этом РБК сообщили в пресс-службе ГУ МЧС столицы.
 # sent_id = 0031-p2-s1
 # text = На северо-западе Москвы произошло возгорание на втором этаже административного здания.
 1	На	_	_	_	_	_	_	_	_
-2	северо-западе	_	_	_	_	_	_	_	bratT4=GPE
+2	северо-западе	_	_	_	_	_	_	_	_
 3	Москвы	_	_	_	_	_	_	_	bratT4=GPE
 4	произошло	_	_	_	_	_	_	_	_
 5	возгорание	_	_	_	_	_	_	_	bratT6=Event
-6	на	_	_	_	_	_	_	_	bratT6=Event
-7	втором	_	_	_	_	_	_	_	bratT36=Facility|bratT5=Ordinal|bratT6=Event
-8	этаже	_	_	_	_	_	_	_	bratT36=Facility|bratT6=Event
-9	административного	_	_	_	_	_	_	_	bratT36=Facility|bratT37=Facility|bratT6=Event
-10	здания	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Facility|bratT37=Facility|bratT6=Event
+6	на	_	_	_	_	_	_	_	_
+7	втором	_	_	_	_	_	_	_	bratT36=Facility|bratT5=Ordinal
+8	этаже	_	_	_	_	_	_	_	bratT36=Facility
+9	административного	_	_	_	_	_	_	_	bratT36=Facility|bratT37=Facility
+10	здания	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Facility|bratT37=Facility
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0031-p2-s2
@@ -48,12 +48,12 @@
 1	Пожар	_	_	_	_	_	_	_	bratT12=Event
 2	произошел	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
-4	улице	_	_	_	_	_	_	_	bratT11=Address
-5	Маршала	_	_	_	_	_	_	_	bratT11=Address
-6	Конева	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Address
+4	улице	_	_	_	_	_	_	_	bratT11=Address|bratT43=Facility
+5	Маршала	_	_	_	_	_	_	_	bratT11=Address|bratT43=Facility
+6	Конева	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Address|bratT43=Facility
 7	,	_	_	_	_	_	_	_	bratT11=Address
-8	дом	_	_	_	_	_	_	_	bratT11=Address
-9	6	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Address
+8	дом	_	_	_	_	_	_	_	bratT11=Address|bratT44=Facility
+9	6	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Address|bratT44=Facility
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0031-p3-s2
@@ -106,7 +106,7 @@
 6	самостоятельно	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	до	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-absolute
-9	прибытия	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-absolute
+9	прибытия	_	_	_	_	_	_	_	bratA9=T30:Past|bratT30=Date-absolute|bratT45=Event
 10	сил	_	_	_	_	_	_	_	_
 11	МЧС	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
 12	,	_	_	_	_	_	_	_	_
@@ -114,7 +114,7 @@
 14	мерами	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	bratA10=T19:Past|bratT19=Date-relative|bratT31=Time-absolute
 16	10:43	_	_	_	_	_	_	_	bratA10=T19:Past|bratT19=Date-relative|bratT31=Time-absolute
-17	возгорание	_	_	_	_	_	_	_	_
+17	возгорание	_	_	_	_	_	_	_	bratT46=Event
 18	ликвидировано	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	пострадавших	_	_	_	_	_	_	_	bratT28=Other-group
@@ -158,7 +158,7 @@
 8	из	_	_	_	_	_	_	_	bratT25=Quantity
 9	технических	_	_	_	_	_	_	_	_
 10	помещений	_	_	_	_	_	_	_	_
-11	столичного	_	_	_	_	_	_	_	bratT8=Organization
+11	столичного	_	_	_	_	_	_	_	bratA2=T47:Adjective|bratT47=GPE|bratT8=Organization
 12	ГУ	_	_	_	_	_	_	_	bratT8=Organization
 13	Росгвардии	_	_	_	_	_	_	_	bratT32=Organization|bratT8=Organization
 14	произошло	_	_	_	_	_	_	_	_

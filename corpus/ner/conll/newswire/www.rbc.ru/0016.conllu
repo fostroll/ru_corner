@@ -77,7 +77,7 @@
 2	Карлссон	_	_	_	_	_	_	_	bratA8=T17:Female|bratT17=Person|bratT69=Person-surname
 3	отстала	_	_	_	_	_	_	_	_
 4	от	_	_	_	_	_	_	_	_
-5	победительницы	_	_	_	_	_	_	_	_
+5	победительницы	_	_	_	_	_	_	_	bratA25=T109:Female|bratT109=Person
 6	на	_	_	_	_	_	_	_	bratT18=Time-period
 7	21,8	_	_	_	_	_	_	_	bratT18=Time-period|bratT66=Duration
 8	секунды	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Time-period|bratT66=Duration
@@ -177,7 +177,7 @@
 # text = Она проиграла победительнице 30,3 секунды.
 1	Она	_	_	_	_	_	_	_	_
 2	проиграла	_	_	_	_	_	_	_	_
-3	победительнице	_	_	_	_	_	_	_	_
+3	победительнице	_	_	_	_	_	_	_	bratA26=T108:Female|bratT108=Person
 4	30,3	_	_	_	_	_	_	_	bratT25=Duration|bratT37=Time-period
 5	секунды	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Duration|bratT37=Time-period
 6	.	_	_	_	_	_	_	_	_
@@ -283,14 +283,15 @@
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0016-p7-s2
-# text = Второй этап Кубка мира пройдет 12 - 13 декабря в швейцарском Давосе.
+# text = Второй этап Кубка мира пройдет 12-13 декабря в швейцарском Давосе.
 1	Второй	_	_	_	_	_	_	_	bratT50=Event|bratT55=Ordinal
 2	этап	_	_	_	_	_	_	_	bratT50=Event
 3	Кубка	_	_	_	_	_	_	_	bratT50=Event|bratT51=Event
 4	мира	_	_	_	_	_	_	_	bratT50=Event|bratT51=Event|bratT99=GPE
 5	пройдет	_	_	_	_	_	_	_	_
-6	12	_	_	_	_	_	_	_	bratA11=T52:Fut|bratT52=Date-period-absolute
-7	-	_	_	_	_	_	_	_	bratA11=T52:Fut|bratT52=Date-period-absolute
+6-8	12	_	_	_	_	_	_	_	_
+6	12	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T52:Fut|bratT52=Date-period-absolute
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T52:Fut|bratT52=Date-period-absolute
 8	13	_	_	_	_	_	_	_	bratA11=T52:Fut|bratT52=Date-period-absolute
 9	декабря	_	_	_	_	_	_	_	bratA11=T52:Fut|bratT52=Date-period-absolute
 10	в	_	_	_	_	_	_	_	_

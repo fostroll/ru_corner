@@ -42,7 +42,7 @@
 # newpar id = 0050-p3
 # par_text = Согласно прогнозам синоптиков, температура в столице днём составит -2…0 °C.
 # sent_id = 0050-p3-s1
-# text = Согласно прогнозам синоптиков, температура в столице днём составит -2... 0 °C.
+# text = Согласно прогнозам синоптиков, температура в столице днём составит -2...0 °C.
 1	Согласно	_	_	_	_	_	_	_	_
 2	прогнозам	_	_	_	_	_	_	_	_
 3	синоптиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property
@@ -52,8 +52,9 @@
 7	столице	_	_	_	_	_	_	_	bratT5=GPE
 8	днём	_	_	_	_	_	_	_	bratA4=T21:Future|bratT12=Time-absolute|bratT21=Date-relative
 9	составит	_	_	_	_	_	_	_	_
+10-12	-2...0	_	_	_	_	_	_	_	SpaceAfter=No
 10	-2	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Quantity
-11	...	_	_	_	_	_	_	_	bratT4=Quantity
+11	...	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Quantity
 12	0	_	_	_	_	_	_	_	bratT4=Quantity
 13	°C	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Quantity
 14	.	_	_	_	_	_	_	_	_
@@ -76,12 +77,13 @@
 # newpar id = 0050-p5
 # par_text = Ветер южный, 5—10 м/c.
 # sent_id = 0050-p5-s1
-# text = Ветер южный, 5 - 10 м/c.
+# text = Ветер южный, 5-10 м/c.
 1	Ветер	_	_	_	_	_	_	_	_
 2	южный	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	5	_	_	_	_	_	_	_	bratT7=Quantity
-5	-	_	_	_	_	_	_	_	bratT7=Quantity
+4-6	5-10	_	_	_	_	_	_	_	_
+4	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity
 6	10	_	_	_	_	_	_	_	bratT7=Quantity
 7	м/c	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Quantity
 8	.	_	_	_	_	_	_	_	_

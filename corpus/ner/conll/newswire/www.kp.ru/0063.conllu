@@ -232,13 +232,14 @@
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0063-p5-s3
-# text = К тому моменту из 14 - 17 миллионов животных было убито 2,4 миллиона.
+# text = К тому моменту из 14-17 миллионов животных было убито 2,4 миллиона.
 1	К	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-relative
 2	тому	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-relative
 3	моменту	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-relative
 4	из	_	_	_	_	_	_	_	bratT26=Quantity
-5	14	_	_	_	_	_	_	_	bratT26=Quantity
-6	-	_	_	_	_	_	_	_	bratT26=Quantity
+5-7	14-17	_	_	_	_	_	_	_	_
+5	14	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
 7	17	_	_	_	_	_	_	_	bratT26=Quantity
 8	миллионов	_	_	_	_	_	_	_	bratT26=Quantity
 9	животных	_	_	_	_	_	_	_	bratT26=Quantity

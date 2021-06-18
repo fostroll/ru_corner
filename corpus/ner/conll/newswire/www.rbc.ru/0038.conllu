@@ -5,8 +5,8 @@
 # text = Церемония прощания с Джигарханяном пройдет в открытом формате
 1	Церемония	_	_	_	_	_	_	_	bratT1=Event
 2	прощания	_	_	_	_	_	_	_	bratT1=Event
-3	с	_	_	_	_	_	_	_	bratT1=Event
-4	Джигарханяном	_	_	_	_	_	_	_	bratA3=T2:Male|bratT1=Event|bratT2=Person|bratT36=Person-surname
+3	с	_	_	_	_	_	_	_	_
+4	Джигарханяном	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT36=Person-surname
 5	пройдет	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	открытом	_	_	_	_	_	_	_	_
@@ -17,9 +17,9 @@
 # sent_id = 0038-p2-s1
 # text = Прощание c Арменом Джигарханяном пройдет в открытом формате.
 1	Прощание	_	_	_	_	_	_	_	bratT3=Event
-2	c	_	_	_	_	_	_	_	bratT3=Event
-3	Арменом	_	_	_	_	_	_	_	bratA4=T4:Male|bratT3=Event|bratT37=Person-forename|bratT4=Person
-4	Джигарханяном	_	_	_	_	_	_	_	bratA4=T4:Male|bratT3=Event|bratT38=Person-surname|bratT4=Person
+2	c	_	_	_	_	_	_	_	_
+3	Арменом	_	_	_	_	_	_	_	bratA4=T4:Male|bratT37=Person-forename|bratT4=Person
+4	Джигарханяном	_	_	_	_	_	_	_	bratA4=T4:Male|bratT38=Person-surname|bratT4=Person
 5	пройдет	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	открытом	_	_	_	_	_	_	_	_
@@ -32,8 +32,8 @@
 2	этом	_	_	_	_	_	_	_	_
 3	РБК	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
 4	сообщил	_	_	_	_	_	_	_	_
-5	друг	_	_	_	_	_	_	_	_
-6	артиста	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person|bratT7=Person-property
+5	друг	_	_	_	_	_	_	_	bratA5=T6:Male|bratT6=Person
+6	артиста	_	_	_	_	_	_	_	bratA17=T56:Male|bratA5=T6:Male|bratT56=Person|bratT6=Person|bratT7=Person-property
 7	Артур	_	_	_	_	_	_	_	bratA5=T6:Male|bratT39=Person-forename|bratT6=Person
 8	Согомонян	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T6:Male|bratT40=Person-surname|bratT6=Person
 9	.	_	_	_	_	_	_	_	_
@@ -43,7 +43,7 @@
 # sent_id = 0038-p3-s1
 # text = ``Прощание пройдет в открытом формате со всеми мерами предосторожности, с масками и социальной дистанцией в театре Армена Джигарханяна'', - сказал Согомонян.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Прощание	_	_	_	_	_	_	_	_
+2	Прощание	_	_	_	_	_	_	_	bratT57=Event
 3	пройдет	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	открытом	_	_	_	_	_	_	_	_
@@ -75,7 +75,7 @@
 2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	церемония	_	_	_	_	_	_	_	_
+5	церемония	_	_	_	_	_	_	_	bratT58=Event
 6	пройдет	_	_	_	_	_	_	_	_
 7	17	_	_	_	_	_	_	_	bratA8=T11:Fut|bratT11=Date-period-absolute
 8	ноября	_	_	_	_	_	_	_	bratA8=T11:Fut|bratT11=Date-period-absolute
@@ -96,7 +96,7 @@
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	похороны	_	_	_	_	_	_	_	bratT15=Event
-8	артиста	_	_	_	_	_	_	_	bratT15=Event|bratT16=Person-property
+8	артиста	_	_	_	_	_	_	_	bratA18=T59:Male|bratT15=Event|bratT16=Person-property|bratT59=Person
 9	состоятся	_	_	_	_	_	_	_	_
 10	17	_	_	_	_	_	_	_	bratA10=T17:Future|bratT17=Date-absolute
 11	ноября	_	_	_	_	_	_	_	bratA10=T17:Future|bratT17=Date-absolute

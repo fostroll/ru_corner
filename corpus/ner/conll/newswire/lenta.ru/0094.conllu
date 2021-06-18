@@ -145,7 +145,7 @@
 # newpar id = 0094-p5
 # par_text = В тексте говорится о периоде «советской оккупации 1919-1991 годов» и запрещается употреблять термин «Великая Отечественная война». Вместо него украинским педагогам предлагается использовать фразу «советско-немецкая фаза Второй мировой войны».
 # sent_id = 0094-p5-s1
-# text = В тексте говорится о периоде ``советской оккупации 1919 - 1991 годов'' и запрещается употреблять термин ``Великая Отечественная война''.
+# text = В тексте говорится о периоде ``советской оккупации 1919-1991 годов'' и запрещается употреблять термин ``Великая Отечественная война''.
 1	В	_	_	_	_	_	_	_	_
 2	тексте	_	_	_	_	_	_	_	_
 3	говорится	_	_	_	_	_	_	_	_
@@ -154,8 +154,9 @@
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute
 7	советской	_	_	_	_	_	_	_	bratA14=T51:Adjective|bratT24=Date-period-absolute|bratT25=Event|bratT51=GPE
 8	оккупации	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event
-9	1919	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
-10	-	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
+9-11	1919-1991	_	_	_	_	_	_	_	_
+9	1919	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
 11	1991	_	_	_	_	_	_	_	bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
 12	годов	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-period-absolute|bratT25=Event|bratT48=Date-period-absolute
 13	''	_	_	_	_	_	_	_	bratT24=Date-period-absolute

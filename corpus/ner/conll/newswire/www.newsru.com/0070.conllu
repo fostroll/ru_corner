@@ -238,7 +238,7 @@
 # newpar id = 0070-p7
 # par_text = Со слов представителя Минобороны Армении, в среду до полудня "уничтожено 260-280 азербайджанских военных, 60-80 единиц техники".
 # sent_id = 0070-p7-s1
-# text = Со слов представителя Минобороны Армении, в среду до полудня ``уничтожено 260 - 280 азербайджанских военных, 60 - 80 единиц техники''.
+# text = Со слов представителя Минобороны Армении, в среду до полудня ``уничтожено 260-280 азербайджанских военных, 60-80 единиц техники''.
 1	Со	_	_	_	_	_	_	_	_
 2	слов	_	_	_	_	_	_	_	_
 3	представителя	_	_	_	_	_	_	_	bratT39=Person-property
@@ -251,14 +251,16 @@
 10	полудня	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute|bratT41=Time-absolute
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
 12	уничтожено	_	_	_	_	_	_	_	_
-13	260	_	_	_	_	_	_	_	bratT43=Quantity
-14	-	_	_	_	_	_	_	_	bratT43=Quantity
+13-15	260-280	_	_	_	_	_	_	_	_
+13	260	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Quantity
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Quantity
 15	280	_	_	_	_	_	_	_	bratT43=Quantity
 16	азербайджанских	_	_	_	_	_	_	_	bratA16=T65:Adjective|bratT42=Person-property|bratT43=Quantity|bratT65=GPE
 17	военных	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property|bratT43=Quantity
 18	,	_	_	_	_	_	_	_	_
-19	60	_	_	_	_	_	_	_	bratT44=Quantity
-20	-	_	_	_	_	_	_	_	bratT44=Quantity
+19-21	60-80	_	_	_	_	_	_	_	_
+19	60	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Quantity
+20	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Quantity
 21	80	_	_	_	_	_	_	_	bratT44=Quantity
 22	единиц	_	_	_	_	_	_	_	bratT44=Quantity
 23	техники	_	_	_	_	_	_	_	SpaceAfter=No
