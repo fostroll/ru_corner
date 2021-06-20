@@ -35,9 +35,9 @@
 15	Нагорном	_	_	_	_	_	_	_	bratT6=GPE
 16	Карабахе	_	_	_	_	_	_	_	bratT6=GPE
 17	из	_	_	_	_	_	_	_	_
-18	средств	_	_	_	_	_	_	_	_
-19	массовой	_	_	_	_	_	_	_	_
-20	информации	_	_	_	_	_	_	_	SpaceAfter=No
+18	средств	_	_	_	_	_	_	_	bratA14=T42:Media|bratT42=Organization
+19	массовой	_	_	_	_	_	_	_	bratA14=T42:Media|bratT42=Organization
+20	информации	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T42:Media|bratT42=Organization
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0074-p2-s2
@@ -76,12 +76,12 @@
 2	Я	_	_	_	_	_	_	_	_
 3	узнал	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
-5	подписании	_	_	_	_	_	_	_	_
-6	заявления	_	_	_	_	_	_	_	_
+5	подписании	_	_	_	_	_	_	_	bratT43=Event
+6	заявления	_	_	_	_	_	_	_	bratT43=Event
 7	о	_	_	_	_	_	_	_	_
-8	прекращении	_	_	_	_	_	_	_	_
-9	карабахской	_	_	_	_	_	_	_	bratA10=T36:Adjective|bratT36=GPE|bratT8=Event
-10	войны	_	_	_	_	_	_	_	bratT8=Event
+8	прекращении	_	_	_	_	_	_	_	bratT44=Event
+9	карабахской	_	_	_	_	_	_	_	bratA10=T36:Adjective|bratT36=GPE|bratT44=Event|bratT8=Event
+10	войны	_	_	_	_	_	_	_	bratT44=Event|bratT8=Event
 11	с	_	_	_	_	_	_	_	_
 12	президентами	_	_	_	_	_	_	_	bratA3=T11:Plural|bratT11=Person-property
 13	России	_	_	_	_	_	_	_	bratA3=T11:Plural|bratT11=Person-property|bratT9=GPE

@@ -100,7 +100,7 @@
 # sent_id = 0011-p5-s1
 # text = Позднее активисты сообщили, что в штаб пришла полиция.
 1	Позднее	_	_	_	_	_	_	_	bratA4=T24:Past|bratT24=Date-relative
-2	активисты	_	_	_	_	_	_	_	bratT27=Other-group
+2	активисты	_	_	_	_	_	_	_	bratT27=Person-property
 3	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -115,11 +115,11 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Якобы	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
-4	сегодняшней	_	_	_	_	_	_	_	bratT11=Date-absolute
-5	порче	_	_	_	_	_	_	_	_
-6	замка	_	_	_	_	_	_	_	_
+4	сегодняшней	_	_	_	_	_	_	_	bratT11=Date-absolute|bratT34=Event
+5	порче	_	_	_	_	_	_	_	bratT34=Event
+6	замка	_	_	_	_	_	_	_	bratT34=Event
 7	и	_	_	_	_	_	_	_	_
-8	обстрела	_	_	_	_	_	_	_	SpaceAfter=No
+8	обстрела	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Event
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p5-s3

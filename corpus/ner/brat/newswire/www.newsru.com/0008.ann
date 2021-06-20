@@ -4,7 +4,7 @@ T3	Quantity 46 63	трех   свидетелей
 T4	GPE 94 100	России
 T5	Organization 88 100	МВД   России
 T6	Quantity 115 137	три   уголовных   дела
-T7	Other-group 156 166	свидетелей
+T7	Person-property 156 166	свидетелей
 T8	Person-property 181 187	актера
 T9	Person 181 208	актера   Михаила   Ефремова
 T10	Organization 226 230	ТАСС
@@ -17,7 +17,7 @@ T15	GPE 435 441	России
 T16	GPE 449 455	Москве
 T17	Organization 429 441	МВД   России
 T18	Quantity 471 493	три   уголовных   дела
-T19	Other-group 512 522	свидетелей
+T19	Person-property 512 522	свидетелей
 T20	Law 602 621	ст.   307   УК   РФ
 T21	GPE 664 679	города   Москвы
 T22	Organization 632 679	Пресненском   районном   суде   города   Москвы
@@ -28,7 +28,7 @@ T26	Person 772 808	адвокат   Ефремова   Эльман   Пашае
 T27	Quantity 835 844	Двое   из
 T28	Person-property 901 907	актера
 T29	Person 958 965	Ефремов
-T30	Other-group 1023 1032	свидетель
+T30	Person-property 1023 1032	свидетель
 T31	Quantity 1010 1032	Еще   один   свидетель
 T32	Product 1113 1117	Jeep
 A3	Trademark T32
@@ -67,3 +67,13 @@ T55	Event 18 34	уголовные   дела
 T56	Event 477 493	уголовных   дела
 T57	Organization 713 722	агентство
 A12	Media T57
+T58	Person-property 53 63	свидетелей
+T59	Person 46 63	трех   свидетелей
+T60	Person 156 166	свидетелей
+T61	Person 512 522	свидетелей
+T62	Person 901 907	актера
+A13	Male T62
+T63	Person 750 755	людях
+T64	Person 1010 1032	Еще   один   свидетель
+A14	Male T64
+T65	Person 835 850	Двое   из   них

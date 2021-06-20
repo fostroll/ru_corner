@@ -1,11 +1,9 @@
 T1	Organization 0 8	Facebook
 T2	GPE 86 89	США
 T3	Event 56 79	президентских   выборов
-T4	Other-group 22 35	пользователей
 T5	Organization 91 109	Соцсеть   Facebook
 T6	GPE 198 201	США
 T7	Event 168 191	президентских   выборов
-T8	Other-group 217 240	пользователей   соцсети
 T9	Service 269 288	сервиса   Instagram
 T10	Organization 330 338	Facebook
 T11	Person-property 314 338	представитель   Facebook
@@ -13,15 +11,12 @@ T12	Organization 358 369	The   Verge
 A5	Media T12
 T13	Person-property 610 619	аналитики
 T14	Organization 734 742	Facebook
-T15	Other-group 810 823	пользователей
 T16	Organization 1061 1068	Reuters
 A7	Media T16
 T17	Person-property 958 967	кандидата
 T18	Organization 1212 1220	Facebook
-T19	Other-group 1460 1473	пользователей
 T20	Service 1515 1523	Facebook
 T21	Service 1536 1573	группу   ``   Stop   the   Steal   ''
-T22	Other-group 1794 1807	пользователей
 T23	Quantity 1773 1807	около   300   тыс.   пользователей
 T24	Event 896 903	выборов
 T25	Person-property 866 903	предполагаемый   победитель   выборов
@@ -50,3 +45,13 @@ A11	Media T38
 T39	Organization 1354 1362	Компания
 T40	Service 1753 1759	группе
 A12	Media T40
+T41	Person-property 438 448	победителя
+T42	Organization 474 477	СМИ
+A13	Media T42
+T43	Organization 539 544	Медиа
+A14	Media T43
+T44	Person-property 558 568	победителя
+T45	Event 1730 1737	насилию
+T4	Service 233 240	соцсети
+T8	Service 790 807	новостной   ленты
+A15	Media T8

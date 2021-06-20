@@ -46,9 +46,9 @@
 12	Александру	_	_	_	_	_	_	_	bratA3=T8:Male|bratT36=Person-forename|bratT8=Person
 13	Буркову	_	_	_	_	_	_	_	bratA3=T8:Male|bratT37=Person-surname|bratT8=Person
 14	на	_	_	_	_	_	_	_	_
-15	проблемы	_	_	_	_	_	_	_	_
-16	с	_	_	_	_	_	_	_	_
-17	интернетом	_	_	_	_	_	_	_	SpaceAfter=No
+15	проблемы	_	_	_	_	_	_	_	bratT48=Event
+16	с	_	_	_	_	_	_	_	bratT48=Event
+17	интернетом	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 18	,	_	_	_	_	_	_	_	_
 19	не	_	_	_	_	_	_	_	_
 20	позволяющие	_	_	_	_	_	_	_	_
@@ -103,8 +103,8 @@
 # text = 9 ноября вузы региона по распоряжению губернатора были переведены на дистанционное обучение, но дома у Дудоладова есть только сеть 2G, поэтому интернет не справляется с нагрузкой.
 1	9	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
 2	ноября	_	_	_	_	_	_	_	bratA5=T13:Past|bratT13=Date-absolute
-3	вузы	_	_	_	_	_	_	_	_
-4	региона	_	_	_	_	_	_	_	bratT44=GPE
+3	вузы	_	_	_	_	_	_	_	bratT47=Organization
+4	региона	_	_	_	_	_	_	_	bratT44=GPE|bratT47=Organization
 5	по	_	_	_	_	_	_	_	_
 6	распоряжению	_	_	_	_	_	_	_	_
 7	губернатора	_	_	_	_	_	_	_	bratT14=Person-property

@@ -17,12 +17,12 @@
 # par_text = Йеменское движение «Ансар Алла» (хуситы) обстреляли распределительную станцию нефтегазовой компании Saudi Aramco в саудовском городе Джидда, сообщает Reuters со ссылкой на мятежников.
 # sent_id = 0063-p2-s1
 # text = Йеменское движение ``Ансар Алла'' (хуситы) обстреляли распределительную станцию нефтегазовой компании Saudi Aramco в саудовском городе Джидда, сообщает Reuters со ссылкой на мятежников.
-1	Йеменское	_	_	_	_	_	_	_	bratA6=T21:Adjective|bratT13=Political-group|bratT21=GPE
-2	движение	_	_	_	_	_	_	_	bratT13=Political-group
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Political-group
-4	Ансар	_	_	_	_	_	_	_	bratT13=Political-group
-5	Алла	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Political-group
-6	''	_	_	_	_	_	_	_	bratT13=Political-group
+1	Йеменское	_	_	_	_	_	_	_	bratA6=T21:Adjective|bratT13=Organization|bratT21=GPE
+2	движение	_	_	_	_	_	_	_	bratT13=Organization
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+4	Ансар	_	_	_	_	_	_	_	bratT13=Organization
+5	Алла	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+6	''	_	_	_	_	_	_	_	bratT13=Organization
 7	(	_	_	_	_	_	_	_	SpaceAfter=No
 8	хуситы	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Political-group
 9	)	_	_	_	_	_	_	_	_
@@ -99,14 +99,14 @@
 # text = Ответственность за нападение взяли на себя йеменские повстанцы-хуситы.
 1	Ответственность	_	_	_	_	_	_	_	_
 2	за	_	_	_	_	_	_	_	_
-3	нападение	_	_	_	_	_	_	_	_
+3	нападение	_	_	_	_	_	_	_	bratT24=Event
 4	взяли	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
 6	себя	_	_	_	_	_	_	_	_
-7	йеменские	_	_	_	_	_	_	_	bratA8=T22:Adjective|bratT22=GPE|bratT5=Political-group
+7	йеменские	_	_	_	_	_	_	_	bratA8=T22:Adjective|bratT22=GPE|bratT25=Person-property
 8-10	повстанцы-хуситы	_	_	_	_	_	_	_	SpaceAfter=No
-8	повстанцы	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Political-group
-9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Political-group
+8	повстанцы	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Person-property
+9	-	_	_	_	_	_	_	_	SpaceAfter=Yes
 10	хуситы	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Political-group
 11	.	_	_	_	_	_	_	_	_
 

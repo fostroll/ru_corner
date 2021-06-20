@@ -10,8 +10,8 @@
 5	5	_	_	_	_	_	_	_	bratA9=T3:Past-UNK|bratT3=Date-period-relative|bratT4=Duration
 6	суток	_	_	_	_	_	_	_	bratA9=T3:Past-UNK|bratT3=Date-period-relative|bratT4=Duration
 7	за	_	_	_	_	_	_	_	_
-8	февральский	_	_	_	_	_	_	_	bratA10=T5:Past|bratT5=Date-absolute
-9	одиночный	_	_	_	_	_	_	_	bratT31=Event
+8	февральский	_	_	_	_	_	_	_	bratA10=T5:Past|bratT31=Event|bratT5=Date-absolute
+9	одиночный	_	_	_	_	_	_	_	bratT23=Quantity|bratT31=Event
 10	пикет	_	_	_	_	_	_	_	bratT31=Event
 11	против	_	_	_	_	_	_	_	_
 12	поправок	_	_	_	_	_	_	_	_
@@ -34,10 +34,10 @@
 10	Павла	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT16=Person-forename
 11	Иванкина	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT17=Person-surname
 12	за	_	_	_	_	_	_	_	_
-13	одиночный	_	_	_	_	_	_	_	bratT32=Event
+13	одиночный	_	_	_	_	_	_	_	bratT22=Quantity|bratT32=Event
 14	пикет	_	_	_	_	_	_	_	bratT32=Event
-15	против	_	_	_	_	_	_	_	bratT32=Event
-16	поправок	_	_	_	_	_	_	_	bratT32=Event
+15	против	_	_	_	_	_	_	_	_
+16	поправок	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
 18	Конституцию	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Law
 19	,	_	_	_	_	_	_	_	_
@@ -57,7 +57,7 @@
 3	Иванкин	_	_	_	_	_	_	_	bratA6=T19:Male|bratT19=Person|bratT20=Person-surname
 4	вышел	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
-6	пикет	_	_	_	_	_	_	_	_
+6	пикет	_	_	_	_	_	_	_	bratT24=Event
 7	с	_	_	_	_	_	_	_	_
 8	плакатом	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -67,7 +67,7 @@
 13	Конституцию	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Law
 14	,	_	_	_	_	_	_	_	_
 15	а	_	_	_	_	_	_	_	_
-16	пересидента	_	_	_	_	_	_	_	SpaceAfter=No
+16	пересидента	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T37:Male|bratT36=Person-property|bratT37=Person
 17	,	_	_	_	_	_	_	_	_
 18	который	_	_	_	_	_	_	_	_
 19	врет	_	_	_	_	_	_	_	_
@@ -97,7 +97,7 @@
 13	нарушение	_	_	_	_	_	_	_	_
 14	правил	_	_	_	_	_	_	_	_
 15	проведения	_	_	_	_	_	_	_	_
-16	пикета	_	_	_	_	_	_	_	SpaceAfter=No
+16	пикета	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event
 17	)	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
 
@@ -122,6 +122,6 @@
 17	''	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	передают	_	_	_	_	_	_	_	_
-20	правозащитники	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+20	правозащитники	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property|bratT38=Person
 21	.	_	_	_	_	_	_	_	_
 

@@ -78,8 +78,8 @@
 # sent_id = 0103-p3-s2
 # text = Лидеры протестного движения задержаны силовиками.
 1	Лидеры	_	_	_	_	_	_	_	bratT22=Person-property
-2	протестного	_	_	_	_	_	_	_	bratT22=Person-property
-3	движения	_	_	_	_	_	_	_	bratT22=Person-property
+2	протестного	_	_	_	_	_	_	_	bratT22=Person-property|bratT40=Organization
+3	движения	_	_	_	_	_	_	_	bratT22=Person-property|bratT40=Organization
 4	задержаны	_	_	_	_	_	_	_	_
 5	силовиками	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
 6	.	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 7	говорится	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	заявлении	_	_	_	_	_	_	_	_
-10	митингующих	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-group
+10	митингующих	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	пишет	_	_	_	_	_	_	_	_
 13	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T14:Media|bratT14=Organization
@@ -162,7 +162,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	более	_	_	_	_	_	_	_	bratT19=Quantity
 11	100	_	_	_	_	_	_	_	bratT19=Quantity
-12	митингующих	_	_	_	_	_	_	_	bratT19=Quantity|bratT20=Other-group
+12	митингующих	_	_	_	_	_	_	_	bratT19=Quantity
 13	были	_	_	_	_	_	_	_	_
 14	задержаны	_	_	_	_	_	_	_	_
 15	полицей	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property

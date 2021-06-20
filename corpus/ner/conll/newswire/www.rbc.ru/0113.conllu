@@ -9,9 +9,9 @@
 4	''	_	_	_	_	_	_	_	bratT1=Organization|bratT3=Person-property
 5	сообщил	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	проблемах	_	_	_	_	_	_	_	_
-8	с	_	_	_	_	_	_	_	_
-9	приглашением	_	_	_	_	_	_	_	_
+7	проблемах	_	_	_	_	_	_	_	bratT78=Event
+8	с	_	_	_	_	_	_	_	bratT78=Event
+9	приглашением	_	_	_	_	_	_	_	bratT78=Event
 10	легионеров	_	_	_	_	_	_	_	bratT2=Person-property
 
 # newpar id = 0113-p2
@@ -138,7 +138,7 @@
 3	лимита	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	клубах	_	_	_	_	_	_	_	bratT70=Organization
-6	РПЛ	_	_	_	_	_	_	_	bratT28=Organization
+6	РПЛ	_	_	_	_	_	_	_	bratT28=Organization|bratT70=Organization
 7	может	_	_	_	_	_	_	_	_
 8	быть	_	_	_	_	_	_	_	_
 9	только	_	_	_	_	_	_	_	_
@@ -164,9 +164,9 @@
 11	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT32=Quantity
 12	пять	_	_	_	_	_	_	_	bratT32=Quantity
 13	игроков	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Quantity
-14	в	_	_	_	_	_	_	_	_
-15	трансферное	_	_	_	_	_	_	_	_
-16	окно	_	_	_	_	_	_	_	SpaceAfter=No
+14	в	_	_	_	_	_	_	_	bratT77=Time-relative
+15	трансферное	_	_	_	_	_	_	_	bratT76=Event
+16	окно	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Event
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0113-p5-s3
@@ -210,13 +210,13 @@
 1	В	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
 2	ходе	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
 3	минувшего	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute|bratT64=Ordinal
-4	трансферного	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
-5	окна	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute
+4	трансферного	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute|bratT74=Event
+5	окна	_	_	_	_	_	_	_	bratA10=T41:Past|bratT41=Date-period-absolute|bratT74=Event
 6	петербургский	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratT38=GPE|bratT71=Organization
 7	клуб	_	_	_	_	_	_	_	bratT71=Organization
 8	приобрел	_	_	_	_	_	_	_	_
 9	двух	_	_	_	_	_	_	_	bratT40=Quantity
-10	иностранных	_	_	_	_	_	_	_	bratT39=Person-property|bratT40=Quantity
+10	иностранных	_	_	_	_	_	_	_	bratA23=T73:Adjective|bratT39=Person-property|bratT40=Quantity|bratT73=GPE
 11	футболистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-property|bratT40=Quantity
 12	.	_	_	_	_	_	_	_	_
 
@@ -268,7 +268,7 @@
 12	набрав	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	14	_	_	_	_	_	_	_	bratT59=Quantity
-15	матчах	_	_	_	_	_	_	_	bratT59=Quantity
+15	матчах	_	_	_	_	_	_	_	bratT59=Quantity|bratT75=Event
 16	30	_	_	_	_	_	_	_	bratT60=Quantity
 17	очков	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Quantity
 18	.	_	_	_	_	_	_	_	_

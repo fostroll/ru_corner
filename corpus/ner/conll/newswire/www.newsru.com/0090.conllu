@@ -122,8 +122,8 @@
 9	,	_	_	_	_	_	_	_	_
 10	перепрофилированные	_	_	_	_	_	_	_	_
 11	для	_	_	_	_	_	_	_	_
-12	зараженных	_	_	_	_	_	_	_	bratT41=Other-group
-13	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term|bratT41=Other-group
+12	зараженных	_	_	_	_	_	_	_	_
+13	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term
 14	,	_	_	_	_	_	_	_	_
 15	практически	_	_	_	_	_	_	_	_
 16	полностью	_	_	_	_	_	_	_	_
@@ -225,12 +225,12 @@
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
 8	число	_	_	_	_	_	_	_	_
-9	случаев	_	_	_	_	_	_	_	_
-10	заболевания	_	_	_	_	_	_	_	_
-11	коронавирусной	_	_	_	_	_	_	_	bratT31=Other-term
-12	инфекцией	_	_	_	_	_	_	_	bratT31=Other-term
-13	нового	_	_	_	_	_	_	_	_
-14	типа	_	_	_	_	_	_	_	_
+9	случаев	_	_	_	_	_	_	_	bratT6=Event
+10	заболевания	_	_	_	_	_	_	_	bratT6=Event
+11	коронавирусной	_	_	_	_	_	_	_	bratT31=Other-term|bratT6=Event
+12	инфекцией	_	_	_	_	_	_	_	bratT31=Other-term|bratT6=Event
+13	нового	_	_	_	_	_	_	_	bratT31=Other-term|bratT6=Event
+14	типа	_	_	_	_	_	_	_	bratT31=Other-term|bratT6=Event
 15	в	_	_	_	_	_	_	_	_
 16	России	_	_	_	_	_	_	_	bratT32=GPE
 17	за	_	_	_	_	_	_	_	bratA4=T45:Past|bratT45=Date-period-relative
@@ -244,10 +244,10 @@
 # sent_id = 0090-p6-s2
 # text = Это новый рекорд по заражениям: 11 октября было выявлено 13 634 новых случая.
 1	Это	_	_	_	_	_	_	_	_
-2	новый	_	_	_	_	_	_	_	_
-3	рекорд	_	_	_	_	_	_	_	_
+2	новый	_	_	_	_	_	_	_	bratT38=Event
+3	рекорд	_	_	_	_	_	_	_	bratT38=Event
 4	по	_	_	_	_	_	_	_	_
-5	заражениям	_	_	_	_	_	_	_	SpaceAfter=No
+5	заражениям	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event
 6	:	_	_	_	_	_	_	_	_
 7	11	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-period-absolute
 8	октября	_	_	_	_	_	_	_	bratA12=T34:Past|bratT34=Date-period-absolute
@@ -255,7 +255,7 @@
 10	выявлено	_	_	_	_	_	_	_	_
 11	13	_	_	_	_	_	_	_	bratT35=Quantity
 12	634	_	_	_	_	_	_	_	bratT35=Quantity
-13	новых	_	_	_	_	_	_	_	bratT35=Quantity
-14	случая	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Quantity
+13	новых	_	_	_	_	_	_	_	bratT35=Quantity|bratT36=Event
+14	случая	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Quantity|bratT36=Event
 15	.	_	_	_	_	_	_	_	_
 

@@ -120,9 +120,9 @@
 # text = Материалы для возбуждения уголовного дела против чиновников, одобривших сделку, направили в СК.
 1	Материалы	_	_	_	_	_	_	_	_
 2	для	_	_	_	_	_	_	_	_
-3	возбуждения	_	_	_	_	_	_	_	_
-4	уголовного	_	_	_	_	_	_	_	bratT63=Event
-5	дела	_	_	_	_	_	_	_	bratT63=Event
+3	возбуждения	_	_	_	_	_	_	_	bratT70=Event
+4	уголовного	_	_	_	_	_	_	_	bratT63=Event|bratT70=Event
+5	дела	_	_	_	_	_	_	_	bratT63=Event|bratT70=Event
 6	против	_	_	_	_	_	_	_	_
 7	чиновников	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
 8	,	_	_	_	_	_	_	_	_
@@ -249,7 +249,7 @@
 3	одного	_	_	_	_	_	_	_	bratA5=T56:Past|bratT56=Date-absolute|bratT57=Quantity
 4	из	_	_	_	_	_	_	_	bratA5=T56:Past|bratT56=Date-absolute|bratT57=Quantity
 5	столкновений	_	_	_	_	_	_	_	bratA5=T56:Past|bratT24=Event|bratT56=Date-absolute
-6	экоактивистов	_	_	_	_	_	_	_	bratT46=Other-group
+6	экоактивистов	_	_	_	_	_	_	_	bratT46=Person-property
 7	с	_	_	_	_	_	_	_	_
 8	силовиками	_	_	_	_	_	_	_	bratT47=Person-property
 9	и	_	_	_	_	_	_	_	_

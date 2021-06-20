@@ -6,8 +6,8 @@
 1	МИД	_	_	_	_	_	_	_	bratT1=Organization
 2	Белоруссии	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
 3	вызвал	_	_	_	_	_	_	_	_
-4	посла	_	_	_	_	_	_	_	bratT5=Person-property
-5	Украины	_	_	_	_	_	_	_	bratT3=GPE|bratT5=Person-property
+4	посла	_	_	_	_	_	_	_	bratT5=Person-property|bratT62=Person
+5	Украины	_	_	_	_	_	_	_	bratT3=GPE|bratT5=Person-property|bratT62=Person
 6	из-за	_	_	_	_	_	_	_	_
 7	``	_	_	_	_	_	_	_	SpaceAfter=No
 8	радикальных	_	_	_	_	_	_	_	_
@@ -21,10 +21,10 @@
 1	МИД	_	_	_	_	_	_	_	bratT4=Organization
 2	Белоруссии	_	_	_	_	_	_	_	bratT4=Organization|bratT6=GPE
 3	вызвал	_	_	_	_	_	_	_	_
-4	украинского	_	_	_	_	_	_	_	bratA4=T31:Adjective|bratT31=GPE|bratT7=Person-property
-5	посла	_	_	_	_	_	_	_	bratT7=Person-property
-6	в	_	_	_	_	_	_	_	_
-7	республике	_	_	_	_	_	_	_	bratT52=GPE
+4	украинского	_	_	_	_	_	_	_	bratA20=T63:Male|bratA4=T31:Adjective|bratT31=GPE|bratT63=Person|bratT7=Person-property
+5	посла	_	_	_	_	_	_	_	bratA20=T63:Male|bratT63=Person|bratT7=Person-property
+6	в	_	_	_	_	_	_	_	bratA20=T63:Male|bratT63=Person
+7	республике	_	_	_	_	_	_	_	bratA20=T63:Male|bratT52=GPE|bratT63=Person
 8	и	_	_	_	_	_	_	_	_
 9	вручил	_	_	_	_	_	_	_	_
 10	ему	_	_	_	_	_	_	_	_
@@ -33,7 +33,7 @@
 13	в	_	_	_	_	_	_	_	_
 14	связи	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
-16	акциями	_	_	_	_	_	_	_	SpaceAfter=No
+16	акциями	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
 17	,	_	_	_	_	_	_	_	_
 18	которые	_	_	_	_	_	_	_	_
 19	прошли	_	_	_	_	_	_	_	_
@@ -57,8 +57,8 @@
 # sent_id = 0122-p3-s1
 # text = ``Украинскому дипломату вручена нота МИД, в которой белорусская сторона выразила решительный протест в связи с непрекращающейся серией антибелорусских акций в отношении посольства республики в Украине и потребовала обеспечить на надлежащем уровне безопасность дипломатической миссии'', - говорится в сообщении.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Украинскому	_	_	_	_	_	_	_	bratA6=T34:Adjective|bratT10=Person-property|bratT34=GPE
-3	дипломату	_	_	_	_	_	_	_	bratT10=Person-property
+2	Украинскому	_	_	_	_	_	_	_	bratA6=T34:Adjective|bratT10=Person-property|bratT34=GPE|bratT64=Person
+3	дипломату	_	_	_	_	_	_	_	bratT10=Person-property|bratT64=Person
 4	вручена	_	_	_	_	_	_	_	_
 5	нота	_	_	_	_	_	_	_	_
 6	МИД	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
@@ -74,9 +74,9 @@
 16	связи	_	_	_	_	_	_	_	_
 17	с	_	_	_	_	_	_	_	_
 18	непрекращающейся	_	_	_	_	_	_	_	_
-19	серией	_	_	_	_	_	_	_	_
-20	антибелорусских	_	_	_	_	_	_	_	bratA8=T36:Adjective|bratT36=GPE
-21	акций	_	_	_	_	_	_	_	_
+19	серией	_	_	_	_	_	_	_	bratT66=Event
+20	антибелорусских	_	_	_	_	_	_	_	bratA8=T36:Adjective|bratT36=GPE|bratT65=Event|bratT66=Event
+21	акций	_	_	_	_	_	_	_	bratT65=Event|bratT66=Event
 22	в	_	_	_	_	_	_	_	_
 23	отношении	_	_	_	_	_	_	_	_
 24	посольства	_	_	_	_	_	_	_	bratT12=Organization
@@ -90,8 +90,8 @@
 32	надлежащем	_	_	_	_	_	_	_	_
 33	уровне	_	_	_	_	_	_	_	_
 34	безопасность	_	_	_	_	_	_	_	_
-35	дипломатической	_	_	_	_	_	_	_	_
-36	миссии	_	_	_	_	_	_	_	SpaceAfter=No
+35	дипломатической	_	_	_	_	_	_	_	bratT60=Organization
+36	миссии	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Organization
 37	''	_	_	_	_	_	_	_	SpaceAfter=No
 38	,	_	_	_	_	_	_	_	_
 39	-	_	_	_	_	_	_	_	_
@@ -161,10 +161,10 @@
 3	последних	_	_	_	_	_	_	_	bratA10=T19:Past-Pres|bratA18=T19:RCont|bratT19=Date-period-absolute|bratT39=Ordinal
 4	нескольких	_	_	_	_	_	_	_	bratA10=T19:Past-Pres|bratA18=T19:RCont|bratT19=Date-period-absolute|bratT38=Duration
 5	недель	_	_	_	_	_	_	_	bratA10=T19:Past-Pres|bratA18=T19:RCont|bratT19=Date-period-absolute|bratT38=Duration
-6	активисты	_	_	_	_	_	_	_	_
+6	активисты	_	_	_	_	_	_	_	bratT72=Person-property
 7	проводят	_	_	_	_	_	_	_	_
-8	массовые	_	_	_	_	_	_	_	_
-9	акции	_	_	_	_	_	_	_	_
+8	массовые	_	_	_	_	_	_	_	bratT67=Event
+9	акции	_	_	_	_	_	_	_	bratT67=Event
 10	перед	_	_	_	_	_	_	_	_
 11	зданием	_	_	_	_	_	_	_	bratT40=Facility
 12	посольства	_	_	_	_	_	_	_	bratT20=Organization|bratT40=Facility
@@ -182,7 +182,7 @@
 5	гибели	_	_	_	_	_	_	_	bratA15=T48:Past|bratT48=Date-absolute
 6	в	_	_	_	_	_	_	_	_
 7	Минске	_	_	_	_	_	_	_	bratT23=GPE
-8	активиста	_	_	_	_	_	_	_	_
+8	активиста	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT73=Person-property
 9	Романа	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person|bratT41=Person-forename
 10	Бондаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Male|bratT24=Person|bratT42=Person-surname
 11	,	_	_	_	_	_	_	_	_
@@ -202,7 +202,7 @@
 # sent_id = 0122-p5-s3
 # text = В акциях принимают участие как украинцы, так и бежавшие в страну белорусы.
 1	В	_	_	_	_	_	_	_	_
-2	акциях	_	_	_	_	_	_	_	_
+2	акциях	_	_	_	_	_	_	_	bratT68=Event
 3	принимают	_	_	_	_	_	_	_	_
 4	участие	_	_	_	_	_	_	_	_
 5	как	_	_	_	_	_	_	_	_
@@ -229,11 +229,11 @@
 7	память	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
 9	жертвах	_	_	_	_	_	_	_	_
-10	политических	_	_	_	_	_	_	_	_
-11	репрессий	_	_	_	_	_	_	_	_
+10	политических	_	_	_	_	_	_	_	bratT69=Event
+11	репрессий	_	_	_	_	_	_	_	bratT69=Event
 12	``	_	_	_	_	_	_	_	SpaceAfter=No
-13	режима	_	_	_	_	_	_	_	_
-14	Лукашенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T28:Male|bratT28=Person|bratT44=Person-surname
+13	режима	_	_	_	_	_	_	_	bratT70=Organization
+14	Лукашенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T28:Male|bratT28=Person|bratT44=Person-surname|bratT70=Organization
 15	''	_	_	_	_	_	_	_	SpaceAfter=No
 16	.	_	_	_	_	_	_	_	_
 
@@ -250,7 +250,7 @@
 9	сотни	_	_	_	_	_	_	_	bratT30=Quantity
 10	человек	_	_	_	_	_	_	_	bratT30=Quantity
 11	на	_	_	_	_	_	_	_	_
-12	акцию	_	_	_	_	_	_	_	_
+12	акцию	_	_	_	_	_	_	_	bratT71=Event
 13	солидарности	_	_	_	_	_	_	_	_
 14	с	_	_	_	_	_	_	_	_
 15	белорусским	_	_	_	_	_	_	_	bratA16=T47:Adjective|bratA19=T50:Citizenship|bratT47=GPE|bratT50=Nationality

@@ -3,7 +3,7 @@
 # par_text = Рекорд Лиги Европы по дальности результативного удара продержался лишь неделю
 # sent_id = 0096-p1-s1
 # text = Рекорд Лиги Европы по дальности результативного удара продержался лишь неделю
-1	Рекорд	_	_	_	_	_	_	_	_
+1	Рекорд	_	_	_	_	_	_	_	bratT99=Event
 2	Лиги	_	_	_	_	_	_	_	bratT2=Event
 3	Европы	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Event
 4	по	_	_	_	_	_	_	_	_
@@ -52,15 +52,15 @@
 32	дальнего	_	_	_	_	_	_	_	_
 33	забитого	_	_	_	_	_	_	_	_
 34	мяча	_	_	_	_	_	_	_	_
-35	в	_	_	_	_	_	_	_	_
-36	истории	_	_	_	_	_	_	_	_
-37	турнира	_	_	_	_	_	_	_	SpaceAfter=No|bratT94=Event
+35	в	_	_	_	_	_	_	_	bratA24=T98:Past|bratT98=Date-period-absolute
+36	истории	_	_	_	_	_	_	_	bratA24=T98:Past|bratT98=Date-period-absolute
+37	турнира	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T98:Past|bratT94=Event|bratT98=Date-period-absolute
 38	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0096-p2-s2
 # text = Предыдущий рекорд продержался одну неделю.
-1	Предыдущий	_	_	_	_	_	_	_	bratT14=Ordinal
-2	рекорд	_	_	_	_	_	_	_	_
+1	Предыдущий	_	_	_	_	_	_	_	bratT100=Event|bratT14=Ordinal
+2	рекорд	_	_	_	_	_	_	_	bratT100=Event
 3	продержался	_	_	_	_	_	_	_	_
 4	одну	_	_	_	_	_	_	_	bratA9=T13:Past|bratT13=Date-period-relative|bratT69=Duration
 5	неделю	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T13:Past|bratT13=Date-period-relative|bratT69=Duration
@@ -178,8 +178,8 @@
 # par_text = Предыдущий рекорд Лиги Европы по дальности результативного удара был установлен на прошлой неделе нападающим шотландского "Рейнджерс" Кемаром Руфом в матче 1-го тура группового этапа с бельгийским "Стандардом" (2:0). Ему удалось поразить ворота с расстояния 50 метров.
 # sent_id = 0096-p6-s1
 # text = Предыдущий рекорд Лиги Европы по дальности результативного удара был установлен на прошлой неделе нападающим шотландского ``Рейнджерс'' Кемаром Руфом в матче 1-го тура группового этапа с бельгийским ``Стандардом'' (2:0).
-1	Предыдущий	_	_	_	_	_	_	_	bratT82=Ordinal
-2	рекорд	_	_	_	_	_	_	_	_
+1	Предыдущий	_	_	_	_	_	_	_	bratT101=Event|bratT82=Ordinal
+2	рекорд	_	_	_	_	_	_	_	bratT101=Event
 3	Лиги	_	_	_	_	_	_	_	bratT37=Event
 4	Европы	_	_	_	_	_	_	_	bratT36=GPE|bratT37=Event
 5	по	_	_	_	_	_	_	_	_
@@ -245,7 +245,7 @@
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	вечный	_	_	_	_	_	_	_	SpaceAfter=No
 15	''	_	_	_	_	_	_	_	_
-16	рекорд	_	_	_	_	_	_	_	_
+16	рекорд	_	_	_	_	_	_	_	bratT102=Event
 17	Лиги	_	_	_	_	_	_	_	bratT51=Event
 18	Европы	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=GPE|bratT51=Event
 19	.	_	_	_	_	_	_	_	_
@@ -269,9 +269,9 @@
 15	0:3	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Quantity
 16	)	_	_	_	_	_	_	_	_
 17	впервые	_	_	_	_	_	_	_	bratT57=Ordinal
-18	в	_	_	_	_	_	_	_	bratA24=T85:Past-Pres|bratT85=Date-period-absolute
-19	истории	_	_	_	_	_	_	_	bratA24=T85:Past-Pres|bratT85=Date-period-absolute
-20	турнира	_	_	_	_	_	_	_	bratA24=T85:Past-Pres|bratT85=Date-period-absolute|bratT95=Event
+18	в	_	_	_	_	_	_	_	bratA2=T85:Past|bratT85=Date-period-absolute
+19	истории	_	_	_	_	_	_	_	bratA2=T85:Past|bratT85=Date-period-absolute
+20	турнира	_	_	_	_	_	_	_	bratA2=T85:Past|bratT85=Date-period-absolute|bratT95=Event
 21	удалось	_	_	_	_	_	_	_	_
 22	за	_	_	_	_	_	_	_	bratT58=Time-period
 23	всю	_	_	_	_	_	_	_	bratT58=Time-period

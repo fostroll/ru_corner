@@ -1,6 +1,6 @@
 T1	Organization 0 6	SpaceX
 T2	Product 44 75	интернет - спутников   Starlink
-T3	Event 21 75	запуск   группировки   интернет - спутников   Starlink
+T3	Event 21 27	запуск
 T4	Organization 77 94	Компания   SpaceX
 T5	Person 97 110	Илона   Маска
 T6	Date-period-relative 124 134	на   сутки
@@ -10,7 +10,7 @@ T9	Product 218 243	микроспутников   Starlink
 T10	Event 137 143	запуск
 T11	Service 286 293	Twitter
 T12	Product 338 346	Starlink
-T13	Event 329 346	запуск   Starlink
+T13	Event 315 335	сегодняшний   запуск
 T14	Organization 395 401	SpaceX
 T15	Ordinal 572 581	следующий
 T16	Date-absolute 608 657	23   ноября   в   21:34   по   местному   времени
@@ -26,9 +26,9 @@ T25	Product 837 856	ракеты   Falcon   9
 T26	Ordinal 875 879	16-й
 T28	Product 901 909	Starlink
 T29	Product 938 957	спутники   Starlink
-T30	Ordinal 1066 1072	Первые
-T31	Organization 1086 1092	SpaceX
-T32	Date-absolute 1121 1136	в   2019   году
+T30	Ordinal 1068 1074	Первые
+T31	Organization 1088 1094	SpaceX
+T32	Date-absolute 1123 1138	в   2019   году
 A3	Future T16
 A4	Future T19
 A6	Past T32
@@ -37,7 +37,7 @@ T34	Person-forename 97 102	Илона
 T35	Person-surname 105 110	Маска
 A8	Male T5
 T36	Duration 129 134	сутки
-T37	GPE 1049 1061	всему   миру
+T37	GPE 1051 1063	всему   миру
 T38	Date-absolute 315 326	сегодняшний
 A7	Present T38
 A2	Media T20
@@ -47,10 +47,9 @@ T40	Ordinal 855 856	9
 A10	Project T28
 T27	Organization 892 898	SpaceX
 T41	Event 819 834	100-м   полетом
-T42	Event 875 889	16-й   миссией
 T43	Event 770 785	23-м   запуском
 T44	Event 749 753	пуск
-T45	Location 1112 1118	орбиту
+T45	Location 1114 1120	орбиту
 T46	Web-address 713 724	Space . com
 T47	GPE 639 647	местному
 A5	Adjective T47
@@ -59,3 +58,13 @@ T49	Organization 260 268	компания
 T50	Organization 377 385	компании
 T51	Organization 915 923	Компания
 T52	Person 492 499	команда
+T53	Product 67 75	Starlink
+A9	Project T53
+T54	Product 235 243	Starlink
+A11	Project T54
+A12	Project T12
+T55	Event 572 590	следующий   запуск
+T56	Product 949 957	Starlink
+A13	Project T56
+T42	Product 875 909	16-й   миссией   SpaceX   Starlink
+A14	Project T42

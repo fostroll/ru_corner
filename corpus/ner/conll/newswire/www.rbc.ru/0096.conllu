@@ -12,14 +12,14 @@
 7	назвал	_	_	_	_	_	_	_	_
 8	сроки	_	_	_	_	_	_	_	_
 9	ее	_	_	_	_	_	_	_	_
-10	выпуска	_	_	_	_	_	_	_	_
+10	выпуска	_	_	_	_	_	_	_	bratT55=Event
 
 # newpar id = 0096-p2
 # par_text = Массовый выпуск третьей российской вакцины от коронавируса COVID-19, разработкой которой занимается Центр им. Чумакова, начнется в феврале будущего года. Об этом в интервью телеканалу «Россия 24» сообщил директор Федерального научного центра исследований и разработки иммунобиологических препаратов им. М.П.Чумакова Айдар Ишмухаметов.
 # sent_id = 0096-p2-s1
 # text = Массовый выпуск третьей российской вакцины от коронавируса COVID-19, разработкой которой занимается Центр им. Чумакова, начнется в феврале будущего года.
-1	Массовый	_	_	_	_	_	_	_	_
-2	выпуск	_	_	_	_	_	_	_	_
+1	Массовый	_	_	_	_	_	_	_	bratT54=Event
+2	выпуск	_	_	_	_	_	_	_	bratT54=Event
 3	третьей	_	_	_	_	_	_	_	bratA14=T47:Trademark|bratT47=Product|bratT9=Ordinal
 4	российской	_	_	_	_	_	_	_	bratA14=T47:Trademark|bratA2=T10:Adjective|bratT10=GPE|bratT47=Product
 5	вакцины	_	_	_	_	_	_	_	bratA14=T47:Trademark|bratT47=Product|bratT8=Other-term
@@ -90,10 +90,10 @@
 11	одобрены	_	_	_	_	_	_	_	_
 12	результаты	_	_	_	_	_	_	_	_
 13-15	первой-второй	_	_	_	_	_	_	_	_
-13	первой	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Ordinal
-14	-	_	_	_	_	_	_	_	SpaceAfter=No
-15	второй	_	_	_	_	_	_	_	bratT45=Ordinal
-16	фазы	_	_	_	_	_	_	_	SpaceAfter=No
+13	первой	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Ordinal|bratT56=Event
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
+15	второй	_	_	_	_	_	_	_	bratT45=Ordinal|bratT56=Event
+16	фазы	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
 17	,	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	bratA8=T26:Future|bratT26=Date-absolute
 19	феврале	_	_	_	_	_	_	_	bratA8=T26:Future|bratT26=Date-absolute
@@ -102,7 +102,7 @@
 22	будем	_	_	_	_	_	_	_	_
 23	готовы	_	_	_	_	_	_	_	_
 24	начать	_	_	_	_	_	_	_	_
-25	выпуск	_	_	_	_	_	_	_	SpaceAfter=No
+25	выпуск	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0096-p3-s2
@@ -141,7 +141,7 @@
 5	этапу	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event
 6	,	_	_	_	_	_	_	_	_
 7	и	_	_	_	_	_	_	_	_
-8	выпуск	_	_	_	_	_	_	_	SpaceAfter=No
+8	выпуск	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
 9	,	_	_	_	_	_	_	_	_
 10	соответственно	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
@@ -194,9 +194,9 @@
 7	будет	_	_	_	_	_	_	_	_
 8	10	_	_	_	_	_	_	_	bratT34=Quantity
 9	млн	_	_	_	_	_	_	_	bratT34=Quantity
-10	(	_	_	_	_	_	_	_	SpaceAfter=No
-11	доз	_	_	_	_	_	_	_	SpaceAfter=No
-12	)	_	_	_	_	_	_	_	_
+10	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Quantity
+11	доз	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Quantity
+12	)	_	_	_	_	_	_	_	bratT34=Quantity
 13	в	_	_	_	_	_	_	_	bratT35=Time-period
 14	год	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Time-period|bratT36=Duration
 15	,	_	_	_	_	_	_	_	_

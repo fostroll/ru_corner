@@ -59,7 +59,7 @@
 6	материалах	_	_	_	_	_	_	_	_
 7	к	_	_	_	_	_	_	_	_
 8	обновленной	_	_	_	_	_	_	_	_
-9	закупке	_	_	_	_	_	_	_	_
+9	закупке	_	_	_	_	_	_	_	bratT14=Event
 10	Департамента	_	_	_	_	_	_	_	bratT6=Organization
 11	информационных	_	_	_	_	_	_	_	bratT6=Organization
 12	технологий	_	_	_	_	_	_	_	bratT6=Organization
@@ -70,7 +70,7 @@
 # text = Внимание на госзакупку обратили «Открытые Медиа».
 1	Внимание	_	_	_	_	_	_	_	_
 2	на	_	_	_	_	_	_	_	_
-3	госзакупку	_	_	_	_	_	_	_	_
+3	госзакупку	_	_	_	_	_	_	_	bratT15=Event
 4	обратили	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA3=T9:Media|bratT9=Organization
 6	Открытые	_	_	_	_	_	_	_	bratA3=T9:Media|bratT9=Organization
@@ -82,9 +82,9 @@
 # text = Это четвертая закупка столичных властей, связанная с созданием и расширением системы для анализа пользователей московских услуг.
 1	Это	_	_	_	_	_	_	_	_
 2	четвертая	_	_	_	_	_	_	_	bratT19=Ordinal
-3	закупка	_	_	_	_	_	_	_	_
-4	столичных	_	_	_	_	_	_	_	bratA7=T21:Adjective|bratT21=GPE
-5	властей	_	_	_	_	_	_	_	SpaceAfter=No
+3	закупка	_	_	_	_	_	_	_	bratT16=Event
+4	столичных	_	_	_	_	_	_	_	bratA7=T21:Adjective|bratT13=Organization|bratT21=GPE
+5	властей	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
 6	,	_	_	_	_	_	_	_	_
 7	связанная	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
@@ -114,23 +114,26 @@
 9	мониторинга	_	_	_	_	_	_	_	bratA4=T8:Project|bratT8=Product
 10	и	_	_	_	_	_	_	_	bratA4=T8:Project|bratT8=Product
 11	анализа	_	_	_	_	_	_	_	bratA4=T8:Project|bratT8=Product
-12	интернет-активности	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
-13	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA4=T8:Project|bratT8=Product
-14	или	_	_	_	_	_	_	_	_
-15	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA5=T10:Project|bratT10=Product
-16	ИС	_	_	_	_	_	_	_	bratA5=T10:Project|bratT10=Product
-17	СТАТС	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Project|bratT10=Product
-18	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA5=T10:Project|bratT10=Product
-19	в	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
-20	2020	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
-21	-	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
-22	2021	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
-23	годах	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
-24	-	_	_	_	_	_	_	_	_
-25	280	_	_	_	_	_	_	_	bratT31=Money
-26	млн	_	_	_	_	_	_	_	bratT31=Money
-27	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Money
-28	.	_	_	_	_	_	_	_	_
+12-14	интернет-активности	_	_	_	_	_	_	_	SpaceAfter=No
+12	интернет	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
+14	активности	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T8:Project|bratT8=Product
+15	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA4=T8:Project|bratT8=Product
+16	или	_	_	_	_	_	_	_	_
+17	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA5=T10:Project|bratT10=Product
+18	ИС	_	_	_	_	_	_	_	bratA5=T10:Project|bratT10=Product
+19	СТАТС	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Project|bratT10=Product
+20	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA5=T10:Project|bratT10=Product
+21	в	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
+22	2020	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
+23	-	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
+24	2021	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
+25	годах	_	_	_	_	_	_	_	bratA11=T30:Past-Fut|bratT30=Date-period-absolute
+26	-	_	_	_	_	_	_	_	_
+27	280	_	_	_	_	_	_	_	bratT31=Money
+28	млн	_	_	_	_	_	_	_	bratT31=Money
+29	рублей	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Money
+30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0105-p4
 # par_text = Согласно техническому заданию, подрядчик должен будет расширить хранилище данных, а также создать «инструменты непрерывного мониторинга показателей» активности пользователей в Москве и «детальной аналитики» этой информации. Кроме того, система будет давать возможность «оперативно реагировать на изменение ситуации в городе».
@@ -157,7 +160,7 @@
 19	показателей	_	_	_	_	_	_	_	SpaceAfter=No
 20	''	_	_	_	_	_	_	_	QuotationEnd=»
 21	активности	_	_	_	_	_	_	_	_
-22	пользователей	_	_	_	_	_	_	_	bratT33=Other-group
+22	пользователей	_	_	_	_	_	_	_	_
 23	в	_	_	_	_	_	_	_	_
 24	Москве	_	_	_	_	_	_	_	bratT34=GPE
 25	и	_	_	_	_	_	_	_	_

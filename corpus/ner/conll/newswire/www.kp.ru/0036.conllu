@@ -11,7 +11,7 @@
 6	ноября	_	_	_	_	_	_	_	bratA2=T1:Past|bratT1=Date-absolute
 7	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T1:Past|bratT1=Date-absolute
 8	:	_	_	_	_	_	_	_	_
-9	Врач	_	_	_	_	_	_	_	bratT2=Person-property
+9	Врач	_	_	_	_	_	_	_	bratA13=T62:Male|bratT2=Person-property|bratT62=Person
 10	поведал	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	необычном	_	_	_	_	_	_	_	_
@@ -36,7 +36,7 @@
 7	2020	_	_	_	_	_	_	_	bratA3=T4:Past|bratT4=Date-absolute
 8	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T4:Past|bratT4=Date-absolute
 9	:	_	_	_	_	_	_	_	_
-10	Врач	_	_	_	_	_	_	_	_
+10	Врач	_	_	_	_	_	_	_	bratA14=T64:Male|bratT63=Person-property|bratT64=Person
 11	поведал	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
 13	необычном	_	_	_	_	_	_	_	_
@@ -161,8 +161,8 @@
 7	Сирии	_	_	_	_	_	_	_	bratT23=GPE
 8	удалось	_	_	_	_	_	_	_	_
 9	отразить	_	_	_	_	_	_	_	_
-10	ракетную	_	_	_	_	_	_	_	_
-11	атаку	_	_	_	_	_	_	_	_
+10	ракетную	_	_	_	_	_	_	_	bratT60=Event
+11	атаку	_	_	_	_	_	_	_	bratT60=Event
 12	в	_	_	_	_	_	_	_	_
 13	небе	_	_	_	_	_	_	_	_
 14	над	_	_	_	_	_	_	_	_
@@ -173,7 +173,7 @@
 # text = В результате атаки погибли три военнослужащих.
 1	В	_	_	_	_	_	_	_	_
 2	результате	_	_	_	_	_	_	_	_
-3	атаки	_	_	_	_	_	_	_	_
+3	атаки	_	_	_	_	_	_	_	bratT61=Event
 4	погибли	_	_	_	_	_	_	_	_
 5	три	_	_	_	_	_	_	_	bratT26=Quantity
 6	военнослужащих	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property|bratT26=Quantity
@@ -250,11 +250,11 @@
 # text = По словам пресс-секретаря российского лидера, президенту любит общаться с людьми и получать обратную связь.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	пресс-секретаря	_	_	_	_	_	_	_	bratT33=Person-property
-4	российского	_	_	_	_	_	_	_	bratA11=T54:Adjective|bratT32=Person-property|bratT33=Person-property|bratT54=GPE
-5	лидера	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-property|bratT33=Person-property
+3	пресс-секретаря	_	_	_	_	_	_	_	bratT33=Person-property|bratT57=Person
+4	российского	_	_	_	_	_	_	_	bratA11=T54:Adjective|bratA12=T56:Male|bratT32=Person-property|bratT33=Person-property|bratT54=GPE|bratT56=Person|bratT57=Person
+5	лидера	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T56:Male|bratT32=Person-property|bratT33=Person-property|bratT56=Person|bratT57=Person
 6	,	_	_	_	_	_	_	_	_
-7	президенту	_	_	_	_	_	_	_	bratT34=Person-property
+7	президенту	_	_	_	_	_	_	_	bratT34=Person-property|bratT58=Person
 8	любит	_	_	_	_	_	_	_	_
 9	общаться	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
@@ -273,7 +273,7 @@
 4	работы	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	режиме	_	_	_	_	_	_	_	_
-7	видеоконференций	_	_	_	_	_	_	_	_
+7	видеоконференций	_	_	_	_	_	_	_	bratT59=Event
 8	Путин	_	_	_	_	_	_	_	bratA9=T35:Male|bratT35=Person|bratT50=Person-surname
 9	скучает	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_

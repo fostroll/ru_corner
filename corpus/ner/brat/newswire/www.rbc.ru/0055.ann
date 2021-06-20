@@ -9,12 +9,12 @@ T8	GPE 268 274	России
 T9	Organization 258 274	сборной   России
 T10	Person-property 319 329	нападающий
 T11	Person 319 345	нападающий   Артем   Дзюба
-T12	Event 285 316	скандала   с   интимным   видео
+T12	Event 285 293	скандала
 T13	GPE 454 463	Молдавией
 T14	Organization 495 499	ТАСС
 A1	Media T14
 T15	Quantity 470 473	0:0
-T16	Event 428 447	контрольном   матче
+T16	Event 416 447	вчерашнем   контрольном   матче
 T18	Person 546 551	Дзюба
 T19	Date-absolute 582 588	сейчас
 T20	Person 637 656	Александр   Соболев
@@ -84,12 +84,12 @@ T67	Date-absolute 1492 1502	ноябрьские
 T68	Date-period-absolute 74 92	после   исключения
 T69	Date-period-absolute 411 447	во   вчерашнем   контрольном   матче
 A22	Past T69
-T70	Event 249 255	матчей
+T70	Event 236 255	ноябрьских   матчей
 T71	Event 565 570	матче
 T72	Event 908 912	игра
 A12	Past-Pres T22
 T46	Time-relative 972 982	во   время
-T73	Event 1505 1510	матчи
+T73	Event 1492 1510	ноябрьские   матчи
 A14	Past-Pres T68
 A2	Past T27
 T74	Organization 64 71	сборной
@@ -100,6 +100,8 @@ T77	Organization 386 408	национальной   команды
 T78	GPE 1462 1474	национальной
 A23	Adjective T78
 T79	Organization 1462 1484	национальной   команды
-T80	Event 965 969	матч
+T80	Event 949 969	двухсторонний   матч
 T81	Event 985 991	сборов
 T82	Organization 1589 1596	команду
+T83	Date-absolute 416 425	вчерашнем
+A24	Past T83

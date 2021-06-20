@@ -5,11 +5,11 @@
 # text = ВОЗ выявила рекордный рост числа заражений коронавирусом за неделю
 1	ВОЗ	_	_	_	_	_	_	_	bratT1=Organization
 2	выявила	_	_	_	_	_	_	_	_
-3	рекордный	_	_	_	_	_	_	_	_
-4	рост	_	_	_	_	_	_	_	_
-5	числа	_	_	_	_	_	_	_	_
-6	заражений	_	_	_	_	_	_	_	_
-7	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term
+3	рекордный	_	_	_	_	_	_	_	bratT60=Event
+4	рост	_	_	_	_	_	_	_	bratT60=Event
+5	числа	_	_	_	_	_	_	_	bratT60=Event
+6	заражений	_	_	_	_	_	_	_	bratT59=Event|bratT60=Event
+7	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term|bratT59=Event|bratT60=Event
 8	за	_	_	_	_	_	_	_	bratA10=T3:Past-Pres|bratT3=Date-period-absolute
 9	неделю	_	_	_	_	_	_	_	bratA10=T3:Past-Pres|bratT3=Date-period-absolute|bratT47=Duration
 
@@ -24,12 +24,12 @@
 5	мире	_	_	_	_	_	_	_	bratT44=GPE
 6	был	_	_	_	_	_	_	_	_
 7	выявлен	_	_	_	_	_	_	_	_
-8	рекордный	_	_	_	_	_	_	_	_
-9	рост	_	_	_	_	_	_	_	_
-10	числа	_	_	_	_	_	_	_	_
-11	заражений	_	_	_	_	_	_	_	_
-12	коронавирусной	_	_	_	_	_	_	_	bratT5=Other-term
-13	инфекцией	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-term
+8	рекордный	_	_	_	_	_	_	_	bratT61=Event
+9	рост	_	_	_	_	_	_	_	bratT61=Event
+10	числа	_	_	_	_	_	_	_	bratT61=Event
+11	заражений	_	_	_	_	_	_	_	bratT61=Event|bratT62=Event
+12	коронавирусной	_	_	_	_	_	_	_	bratT5=Other-term|bratT61=Event|bratT62=Event
+13	инфекцией	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Other-term|bratT61=Event|bratT62=Event
 14	:	_	_	_	_	_	_	_	_
 15	во	_	_	_	_	_	_	_	_
 16	всех	_	_	_	_	_	_	_	_
@@ -43,9 +43,9 @@
 
 # sent_id = 0022-p2-s2
 # text = Летальные случаи коронавируса с начала пандемии за семь дней увеличились на 54 тысячи - на девять тысяч больше, чем неделе ранее.
-1	Летальные	_	_	_	_	_	_	_	_
-2	случаи	_	_	_	_	_	_	_	_
-3	коронавируса	_	_	_	_	_	_	_	bratT7=Other-term
+1	Летальные	_	_	_	_	_	_	_	bratT63=Event
+2	случаи	_	_	_	_	_	_	_	bratT63=Event
+3	коронавируса	_	_	_	_	_	_	_	bratT63=Event|bratT7=Other-term
 4	с	_	_	_	_	_	_	_	bratA11=T37:Past-Pres|bratT37=Date-period-absolute
 5	начала	_	_	_	_	_	_	_	bratA11=T37:Past-Pres|bratT37=Date-period-absolute
 6	пандемии	_	_	_	_	_	_	_	bratA11=T37:Past-Pres|bratT36=Event|bratT37=Date-period-absolute
@@ -92,8 +92,8 @@
 3	последнюю	_	_	_	_	_	_	_	bratA7=T15:Past-Pres|bratT15=Date-period-absolute|bratT39=Ordinal
 4	неделею	_	_	_	_	_	_	_	bratA7=T15:Past-Pres|bratT15=Date-period-absolute|bratT49=Duration
 5	количество	_	_	_	_	_	_	_	_
-6	случаев	_	_	_	_	_	_	_	_
-7	коронавируса	_	_	_	_	_	_	_	bratT13=Other-term
+6	случаев	_	_	_	_	_	_	_	bratT64=Event
+7	коронавируса	_	_	_	_	_	_	_	bratT13=Other-term|bratT64=Event
 8	выросло	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	bratT14=Percent
 10	восемь	_	_	_	_	_	_	_	bratT14=Percent
@@ -111,21 +111,21 @@
 7	примерно	_	_	_	_	_	_	_	bratT17=Quantity
 8	49,7	_	_	_	_	_	_	_	bratT17=Quantity
 9	миллиона	_	_	_	_	_	_	_	bratT17=Quantity
-10	случаев	_	_	_	_	_	_	_	bratT17=Quantity
-11	заражения	_	_	_	_	_	_	_	_
+10	случаев	_	_	_	_	_	_	_	bratT17=Quantity|bratT65=Event
+11	заражения	_	_	_	_	_	_	_	bratT65=Event
 12	и	_	_	_	_	_	_	_	_
 13	более	_	_	_	_	_	_	_	bratT18=Quantity
 14	1,2	_	_	_	_	_	_	_	bratT18=Quantity
 15	миллиона	_	_	_	_	_	_	_	bratT18=Quantity
-16	смертей	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Quantity
+16	смертей	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Quantity|bratT66=Event
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0022-p3-s3
 # text = Наибольшая доля новых случаев за семь дней в Европе, - говорится в информационном бюллетене организации.
 1	Наибольшая	_	_	_	_	_	_	_	_
 2	доля	_	_	_	_	_	_	_	_
-3	новых	_	_	_	_	_	_	_	_
-4	случаев	_	_	_	_	_	_	_	_
+3	новых	_	_	_	_	_	_	_	bratT67=Event
+4	случаев	_	_	_	_	_	_	_	bratT67=Event
 5	за	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute
 6	семь	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute|bratT50=Duration
 7	дней	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute|bratT50=Duration
@@ -145,7 +145,7 @@
 # sent_id = 0022-p4-s1
 # text = Предыдущий рекорд был зафиксирован с 26 октября по 1 ноября - 3,3 миллиона случаев.
 1	Предыдущий	_	_	_	_	_	_	_	bratT40=Ordinal
-2	рекорд	_	_	_	_	_	_	_	_
+2	рекорд	_	_	_	_	_	_	_	bratT70=Event
 3	был	_	_	_	_	_	_	_	_
 4	зафиксирован	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
@@ -157,7 +157,7 @@
 11	-	_	_	_	_	_	_	_	_
 12	3,3	_	_	_	_	_	_	_	bratT22=Quantity
 13	миллиона	_	_	_	_	_	_	_	bratT22=Quantity
-14	случаев	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity
+14	случаев	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity|bratT68=Event
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0022-p4-s2
@@ -176,7 +176,7 @@
 12	,	_	_	_	_	_	_	_	_
 13	общее	_	_	_	_	_	_	_	_
 14	число	_	_	_	_	_	_	_	_
-15	заражений	_	_	_	_	_	_	_	_
+15	заражений	_	_	_	_	_	_	_	bratT69=Event
 16	достигло	_	_	_	_	_	_	_	_
 17	отметки	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_

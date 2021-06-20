@@ -4,9 +4,9 @@
 # sent_id = 0081-p1-s1
 # text = Против главы администрации Волгодонска завели уголовное дело
 1	Против	_	_	_	_	_	_	_	_
-2	главы	_	_	_	_	_	_	_	bratT1=Person-property
-3	администрации	_	_	_	_	_	_	_	bratT1=Person-property|bratT3=Organization
-4	Волгодонска	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE|bratT3=Organization
+2	главы	_	_	_	_	_	_	_	bratT1=Person-property|bratT73=Person
+3	администрации	_	_	_	_	_	_	_	bratT1=Person-property|bratT3=Organization|bratT73=Person
+4	Волгодонска	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE|bratT3=Organization|bratT73=Person
 5	завели	_	_	_	_	_	_	_	_
 6	уголовное	_	_	_	_	_	_	_	bratT67=Event
 7	дело	_	_	_	_	_	_	_	bratT67=Event
@@ -15,7 +15,7 @@
 # par_text = Следователи в Ростовской области возбудили уголовное дело в отношении главы администрации Волгодонска Виктора Мельникова. Об этом сообщает пресс-служба регионального следственного управления СК.
 # sent_id = 0081-p2-s1
 # text = Следователи в Ростовской области возбудили уголовное дело в отношении главы администрации Волгодонска Виктора Мельникова.
-1	Следователи	_	_	_	_	_	_	_	bratT4=Person-property
+1	Следователи	_	_	_	_	_	_	_	bratT4=Person-property|bratT74=Person
 2	в	_	_	_	_	_	_	_	_
 3	Ростовской	_	_	_	_	_	_	_	bratT5=GPE
 4	области	_	_	_	_	_	_	_	bratT5=GPE
@@ -37,10 +37,10 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
 4	пресс-служба	_	_	_	_	_	_	_	bratA1=T10:Department|bratT10=Organization
-5	регионального	_	_	_	_	_	_	_	bratA1=T10:Department|bratA19=T63:Adjective|bratA5=T43:Department|bratT10=Organization|bratT43=Organization|bratT63=GPE
-6	следственного	_	_	_	_	_	_	_	bratA1=T10:Department|bratA5=T43:Department|bratT10=Organization|bratT43=Organization
-7	управления	_	_	_	_	_	_	_	bratA1=T10:Department|bratA5=T43:Department|bratT10=Organization|bratT43=Organization
-8	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Department|bratA5=T43:Department|bratT10=Organization|bratT11=Organization|bratT43=Organization
+5	регионального	_	_	_	_	_	_	_	bratA1=T10:Department|bratA19=T63:Adjective|bratT10=Organization|bratT43=Organization|bratT63=GPE
+6	следственного	_	_	_	_	_	_	_	bratA1=T10:Department|bratT10=Organization|bratT43=Organization
+7	управления	_	_	_	_	_	_	_	bratA1=T10:Department|bratT10=Organization|bratT43=Organization
+8	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Department|bratT10=Organization|bratT11=Organization|bratT43=Organization
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p3
@@ -78,22 +78,22 @@
 # text = По данным следствия, в 2017 году Мельников склонил директора МКУ ``Департамент строительства и городского хозяйства'' к превышению должностных полномочий, которое заключалось в подписании актов о приемке работ по ремонту дорог, которые фактически выполнены не были.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT81=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA6=T13:Past|bratT13=Date-absolute
 6	2017	_	_	_	_	_	_	_	bratA6=T13:Past|bratT13=Date-absolute
 7	году	_	_	_	_	_	_	_	bratA6=T13:Past|bratT13=Date-absolute
 8	Мельников	_	_	_	_	_	_	_	bratA7=T14:Male|bratT14=Person|bratT51=Person-surname
 9	склонил	_	_	_	_	_	_	_	_
-10	директора	_	_	_	_	_	_	_	bratT15=Person-property
-11	МКУ	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization
-13	Департамент	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-14	строительства	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-15	и	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-16	городского	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
-17	хозяйства	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization
-18	''	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
+10	директора	_	_	_	_	_	_	_	bratT15=Person-property|bratT75=Person
+11	МКУ	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT75=Person
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization|bratT75=Person
+13	Департамент	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT75=Person
+14	строительства	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT75=Person
+15	и	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT75=Person
+16	городского	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT75=Person
+17	хозяйства	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Organization|bratT75=Person
+18	''	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT75=Person
 19	к	_	_	_	_	_	_	_	_
 20	превышению	_	_	_	_	_	_	_	_
 21	должностных	_	_	_	_	_	_	_	_
@@ -102,13 +102,13 @@
 24	которое	_	_	_	_	_	_	_	_
 25	заключалось	_	_	_	_	_	_	_	_
 26	в	_	_	_	_	_	_	_	_
-27	подписании	_	_	_	_	_	_	_	_
-28	актов	_	_	_	_	_	_	_	_
+27	подписании	_	_	_	_	_	_	_	bratT80=Event
+28	актов	_	_	_	_	_	_	_	bratT80=Event
 29	о	_	_	_	_	_	_	_	_
 30	приемке	_	_	_	_	_	_	_	_
 31	работ	_	_	_	_	_	_	_	_
 32	по	_	_	_	_	_	_	_	_
-33	ремонту	_	_	_	_	_	_	_	_
+33	ремонту	_	_	_	_	_	_	_	bratT79=Event
 34	дорог	_	_	_	_	_	_	_	SpaceAfter=No
 35	,	_	_	_	_	_	_	_	_
 36	которые	_	_	_	_	_	_	_	_
@@ -142,20 +142,20 @@
 2	выявили	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	bratA17=T60:Past|bratT60=Date-period-absolute
 4	ходе	_	_	_	_	_	_	_	bratA17=T60:Past|bratT60=Date-period-absolute
-5	расследования	_	_	_	_	_	_	_	bratA17=T60:Past|bratT60=Date-period-absolute
-6	уголовного	_	_	_	_	_	_	_	bratT70=Event
-7	дела	_	_	_	_	_	_	_	bratT70=Event
+5	расследования	_	_	_	_	_	_	_	bratA17=T60:Past|bratT60=Date-period-absolute|bratT82=Event
+6	уголовного	_	_	_	_	_	_	_	bratT70=Event|bratT82=Event
+7	дела	_	_	_	_	_	_	_	bratT70=Event|bratT82=Event
 8	о	_	_	_	_	_	_	_	_
 9	превышении	_	_	_	_	_	_	_	_
 10	должностных	_	_	_	_	_	_	_	_
 11	полномочий	_	_	_	_	_	_	_	_
-12	директором	_	_	_	_	_	_	_	bratT18=Person-property
-13	департамента	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT72=Organization
+12	директором	_	_	_	_	_	_	_	bratT18=Person-property|bratT76=Person
+13	департамента	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT72=Organization|bratT76=Person
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0081-p4-s2
 # text = Следователи решают вопрос об избрании Мельникову меры пресечения.
-1	Следователи	_	_	_	_	_	_	_	bratT19=Person-property
+1	Следователи	_	_	_	_	_	_	_	bratT19=Person-property|bratT77=Person
 2	решают	_	_	_	_	_	_	_	_
 3	вопрос	_	_	_	_	_	_	_	_
 4	об	_	_	_	_	_	_	_	_
@@ -194,10 +194,10 @@
 3	данным	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	у	_	_	_	_	_	_	_	_
-6	чиновника	_	_	_	_	_	_	_	bratT24=Person-property
+6	чиновника	_	_	_	_	_	_	_	bratA5=T78:Male|bratT24=Person-property|bratT78=Person
 7	был	_	_	_	_	_	_	_	_
 8	проведен	_	_	_	_	_	_	_	_
-9	обыск	_	_	_	_	_	_	_	SpaceAfter=No
+9	обыск	_	_	_	_	_	_	_	SpaceAfter=No|bratT83=Event
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0081-p6

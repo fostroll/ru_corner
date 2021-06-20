@@ -11,13 +11,13 @@
 6	больше	_	_	_	_	_	_	_	bratT3=Quantity
 7	13,5	_	_	_	_	_	_	_	bratT3=Quantity
 8	тысячи	_	_	_	_	_	_	_	bratT3=Quantity
-9	новых	_	_	_	_	_	_	_	_
-10	случаев	_	_	_	_	_	_	_	_
-11	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+9	новых	_	_	_	_	_	_	_	bratT3=Quantity|bratT68=Event
+10	случаев	_	_	_	_	_	_	_	bratT3=Quantity|bratT68=Event
+11	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT68=Event
 12	,	_	_	_	_	_	_	_	_
 13	но	_	_	_	_	_	_	_	_
 14	без	_	_	_	_	_	_	_	_
-15	рекорда	_	_	_	_	_	_	_	_
+15	рекорда	_	_	_	_	_	_	_	bratT71=Event
 
 # newpar id = 0017-p2
 # par_text = В России за последние сутки выявлено 13 592 заболевших коронавирусной инфекцией в 84 регионах, сообщает Telegram-канал федерального оперативного штаба. Это меньше, чем было зафиксировано накануне (13 634).
@@ -74,8 +74,8 @@
 5	1	_	_	_	_	_	_	_	bratT12=Quantity
 6	312	_	_	_	_	_	_	_	bratT12=Quantity
 7	310	_	_	_	_	_	_	_	bratT12=Quantity
-8	случаев	_	_	_	_	_	_	_	bratT12=Quantity
-9	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term
+8	случаев	_	_	_	_	_	_	_	bratT12=Quantity|bratT69=Event
+9	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term|bratT69=Event
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p3-s2
@@ -127,7 +127,7 @@
 16	был	_	_	_	_	_	_	_	_
 17	подтвержден	_	_	_	_	_	_	_	_
 18	4501	_	_	_	_	_	_	_	bratT19=Quantity
-19	случай	_	_	_	_	_	_	_	bratT19=Quantity
+19	случай	_	_	_	_	_	_	_	bratT19=Quantity|bratT70=Event
 20	-	_	_	_	_	_	_	_	_
 21	самый	_	_	_	_	_	_	_	_
 22	высокий	_	_	_	_	_	_	_	_

@@ -10,7 +10,7 @@
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
 6	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
 7	''	_	_	_	_	_	_	_	bratT2=Organization
-8	ничьей	_	_	_	_	_	_	_	_
+8	ничьей	_	_	_	_	_	_	_	bratT77=Event
 9	в	_	_	_	_	_	_	_	_
 10	матче	_	_	_	_	_	_	_	bratT67=Event
 11	с	_	_	_	_	_	_	_	_
@@ -28,7 +28,7 @@
 4	было	_	_	_	_	_	_	_	_
 5	ближе	_	_	_	_	_	_	_	_
 6	к	_	_	_	_	_	_	_	_
-7	победе	_	_	_	_	_	_	_	_
+7	победе	_	_	_	_	_	_	_	bratT76=Event
 8	в	_	_	_	_	_	_	_	_
 9	гостевом	_	_	_	_	_	_	_	bratT6=Event
 10	матче	_	_	_	_	_	_	_	bratT6=Event
@@ -69,13 +69,13 @@
 # sent_id = 0048-p3-s1
 # text = Матч ``Спартак'' - ``Динамо'' прошел в субботу и завершился со счетом 1:1.
 1	Матч	_	_	_	_	_	_	_	bratT16=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT17=Organization
-3	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT17=Organization
-4	''	_	_	_	_	_	_	_	bratT16=Event|bratT17=Organization
-5	-	_	_	_	_	_	_	_	bratT16=Event
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT18=Organization
-7	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event|bratT18=Organization
-8	''	_	_	_	_	_	_	_	bratT16=Event|bratT18=Organization
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+3	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+4	''	_	_	_	_	_	_	_	bratT17=Organization
+5	-	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+7	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+8	''	_	_	_	_	_	_	_	bratT18=Organization
 9	прошел	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-absolute
 11	субботу	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-absolute
@@ -119,7 +119,7 @@
 10	немножко	_	_	_	_	_	_	_	_
 11	ближе	_	_	_	_	_	_	_	_
 12	к	_	_	_	_	_	_	_	_
-13	победе	_	_	_	_	_	_	_	SpaceAfter=No
+13	победе	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Event
 14	,	_	_	_	_	_	_	_	_
 15	-	_	_	_	_	_	_	_	_
 16	сказал	_	_	_	_	_	_	_	_
@@ -189,8 +189,8 @@
 4	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
 5	''	_	_	_	_	_	_	_	bratT29=Organization
 6	рад	_	_	_	_	_	_	_	_
-7	ничейному	_	_	_	_	_	_	_	_
-8	результату	_	_	_	_	_	_	_	SpaceAfter=No
+7	ничейному	_	_	_	_	_	_	_	bratT86=Event
+8	результату	_	_	_	_	_	_	_	SpaceAfter=No|bratT86=Event
 9	''	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_
 
@@ -205,10 +205,10 @@
 5	смог	_	_	_	_	_	_	_	_
 6	выиграть	_	_	_	_	_	_	_	_
 7	третий	_	_	_	_	_	_	_	bratT31=Ordinal
-8	матч	_	_	_	_	_	_	_	_
+8	матч	_	_	_	_	_	_	_	bratT79=Event
 9	подряд	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_
-11	поражение	_	_	_	_	_	_	_	_
+11	поражение	_	_	_	_	_	_	_	bratT80=Event
 12	от	_	_	_	_	_	_	_	_
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
 14	Ростова	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization|bratT56=GPE
@@ -217,7 +217,7 @@
 17	0:1	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
 18	)	_	_	_	_	_	_	_	_
 19	и	_	_	_	_	_	_	_	_
-20	ничьи	_	_	_	_	_	_	_	_
+20	ничьи	_	_	_	_	_	_	_	bratT81=Event
 21	с	_	_	_	_	_	_	_	_
 22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
 23	Уралом	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT57=GPE
@@ -236,7 +236,7 @@
 # sent_id = 0048-p6-s1
 # text = ``Кризиса нет, - считает собеседник. -
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Кризиса	_	_	_	_	_	_	_	_
+2	Кризиса	_	_	_	_	_	_	_	bratT82=Event
 3	нет	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	-	_	_	_	_	_	_	_	_
@@ -247,7 +247,7 @@
 
 # sent_id = 0048-p6-s2
 # text = Кризис - это когда команда не может выиграть десять матчей.
-1	Кризис	_	_	_	_	_	_	_	_
+1	Кризис	_	_	_	_	_	_	_	bratT83=Event
 2	-	_	_	_	_	_	_	_	_
 3	это	_	_	_	_	_	_	_	_
 4	когда	_	_	_	_	_	_	_	_
@@ -256,7 +256,7 @@
 7	может	_	_	_	_	_	_	_	_
 8	выиграть	_	_	_	_	_	_	_	_
 9	десять	_	_	_	_	_	_	_	bratT37=Quantity
-10	матчей	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Quantity
+10	матчей	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Quantity|bratT84=Event
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0048-p6-s3
@@ -313,7 +313,7 @@
 # sent_id = 0048-p7-s1
 # text = Комментируя выступление за ``Спартак'' Александра Кокорина, который был заменен на 75-й минуте, Мостовой заявил: ``Пока ниже среднего.
 1	Комментируя	_	_	_	_	_	_	_	_
-2	выступление	_	_	_	_	_	_	_	_
+2	выступление	_	_	_	_	_	_	_	bratT85=Event
 3	за	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
 5	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization

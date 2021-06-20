@@ -61,7 +61,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	а	_	_	_	_	_	_	_	_
 12	наибольшая	_	_	_	_	_	_	_	_
-13	стабилизация	_	_	_	_	_	_	_	_
+13	стабилизация	_	_	_	_	_	_	_	bratT41=Event
 14	происходит	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	регионах	_	_	_	_	_	_	_	SpaceAfter=No
@@ -99,7 +99,7 @@
 8	меры	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	отмечаем	_	_	_	_	_	_	_	_
-11	стабилизацию	_	_	_	_	_	_	_	SpaceAfter=No
+11	стабилизацию	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0033-p4-s3
@@ -107,8 +107,8 @@
 1	На	_	_	_	_	_	_	_	bratA7=T26:Present|bratT26=Date-absolute
 2	сегодняшний	_	_	_	_	_	_	_	bratA7=T26:Present|bratT26=Date-absolute
 3	день	_	_	_	_	_	_	_	bratA7=T26:Present|bratT26=Date-absolute
-4	масочный	_	_	_	_	_	_	_	_
-5	режим	_	_	_	_	_	_	_	_
+4	масочный	_	_	_	_	_	_	_	bratT44=Event
+5	режим	_	_	_	_	_	_	_	bratT44=Event
 6	введён	_	_	_	_	_	_	_	_
 7	во	_	_	_	_	_	_	_	_
 8	всех	_	_	_	_	_	_	_	_
@@ -121,8 +121,8 @@
 15	закрыты	_	_	_	_	_	_	_	_
 16	рестораны	_	_	_	_	_	_	_	_
 17	и	_	_	_	_	_	_	_	_
-18	массово-зрелищные	_	_	_	_	_	_	_	_
-19	мероприятия	_	_	_	_	_	_	_	SpaceAfter=No
+18	массово-зрелищные	_	_	_	_	_	_	_	bratT43=Event
+19	мероприятия	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Event
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0033-p4-s4
@@ -161,9 +161,9 @@
 14	20	_	_	_	_	_	_	_	bratT18=Quantity
 15	985	_	_	_	_	_	_	_	bratT18=Quantity
 16	новых	_	_	_	_	_	_	_	bratT18=Quantity
-17	случаев	_	_	_	_	_	_	_	bratT18=Quantity
-18	заражения	_	_	_	_	_	_	_	_
-19	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
+17	случаев	_	_	_	_	_	_	_	bratT18=Quantity|bratT40=Event
+18	заражения	_	_	_	_	_	_	_	bratT40=Event
+19	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT40=Event
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0033-p5-s2

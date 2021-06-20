@@ -6,14 +6,14 @@
 1	Иммунолог	_	_	_	_	_	_	_	bratT1=Person-property
 2	назвал	_	_	_	_	_	_	_	_
 3	условие	_	_	_	_	_	_	_	_
-4	приостановки	_	_	_	_	_	_	_	_
-5	роста	_	_	_	_	_	_	_	_
-6	числа	_	_	_	_	_	_	_	_
-7	случаев	_	_	_	_	_	_	_	_
+4	приостановки	_	_	_	_	_	_	_	bratT44=Event
+5	роста	_	_	_	_	_	_	_	bratT44=Event|bratT47=Event
+6	числа	_	_	_	_	_	_	_	bratT43=Event|bratT44=Event|bratT47=Event
+7	случаев	_	_	_	_	_	_	_	bratT43=Event|bratT44=Event|bratT47=Event
 8-10	COVID-19	_	_	_	_	_	_	_	_
-8	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
-9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
-10	19	_	_	_	_	_	_	_	bratT2=Other-term|bratT37=Cardinal
+8	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term|bratT43=Event|bratT44=Event|bratT47=Event
+9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term|bratT43=Event|bratT44=Event|bratT47=Event
+10	19	_	_	_	_	_	_	_	bratT2=Other-term|bratT37=Cardinal|bratT43=Event|bratT44=Event|bratT47=Event
 11	в	_	_	_	_	_	_	_	_
 12	России	_	_	_	_	_	_	_	bratT3=GPE
 
@@ -41,16 +41,16 @@
 17	при	_	_	_	_	_	_	_	_
 18	каком	_	_	_	_	_	_	_	_
 19	условии	_	_	_	_	_	_	_	_
-20	прирост	_	_	_	_	_	_	_	_
-21	числа	_	_	_	_	_	_	_	_
-22	новых	_	_	_	_	_	_	_	_
-23	случаев	_	_	_	_	_	_	_	_
-24	коронавирусной	_	_	_	_	_	_	_	bratT24=Other-term
-25	инфекции	_	_	_	_	_	_	_	bratT24=Other-term
+20	прирост	_	_	_	_	_	_	_	bratT48=Event
+21	числа	_	_	_	_	_	_	_	bratT48=Event
+22	новых	_	_	_	_	_	_	_	bratT45=Event|bratT48=Event
+23	случаев	_	_	_	_	_	_	_	bratT45=Event|bratT48=Event
+24	коронавирусной	_	_	_	_	_	_	_	bratT24=Other-term|bratT45=Event|bratT48=Event
+25	инфекции	_	_	_	_	_	_	_	bratT24=Other-term|bratT45=Event|bratT48=Event
 26-28	COVID-19	_	_	_	_	_	_	_	_
-26	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
-27	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
-28	19	_	_	_	_	_	_	_	bratT24=Other-term|bratT38=Cardinal
+26	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term|bratT45=Event|bratT48=Event
+27	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term|bratT45=Event|bratT48=Event
+28	19	_	_	_	_	_	_	_	bratT24=Other-term|bratT38=Cardinal|bratT45=Event|bratT48=Event
 29	в	_	_	_	_	_	_	_	_
 30	России	_	_	_	_	_	_	_	bratT25=GPE
 31	затормозится	_	_	_	_	_	_	_	SpaceAfter=No
@@ -165,9 +165,9 @@
 11	''	_	_	_	_	_	_	_	bratA2=T10:Media|bratT10=Organization
 12	назвал	_	_	_	_	_	_	_	_
 13	условие	_	_	_	_	_	_	_	_
-14	повторного	_	_	_	_	_	_	_	bratT26=Ordinal
-15	заболевания	_	_	_	_	_	_	_	_
-16	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term
+14	повторного	_	_	_	_	_	_	_	bratT26=Ordinal|bratT46=Event
+15	заболевания	_	_	_	_	_	_	_	bratT46=Event
+16	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term|bratT46=Event
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p7

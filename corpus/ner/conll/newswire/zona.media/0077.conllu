@@ -3,7 +3,7 @@
 # par_text = Обвиняемым по делу о подготовке теракта на концерте Филиппа Киркорова в Махачкале назначили сроки до 19 лет колонии
 # sent_id = 0077-p1-s1
 # text = Обвиняемым по делу о подготовке теракта на концерте Филиппа Киркорова в Махачкале назначили сроки до 19 лет колонии
-1	Обвиняемым	_	_	_	_	_	_	_	_
+1	Обвиняемым	_	_	_	_	_	_	_	bratT2=Person|bratT84=Person-property
 2	по	_	_	_	_	_	_	_	_
 3	делу	_	_	_	_	_	_	_	bratT76=Event
 4	о	_	_	_	_	_	_	_	_
@@ -11,10 +11,10 @@
 6	теракта	_	_	_	_	_	_	_	bratT77=Event|bratT80=Event
 7	на	_	_	_	_	_	_	_	_
 8	концерте	_	_	_	_	_	_	_	bratT1=Event
-9	Филиппа	_	_	_	_	_	_	_	bratA1=T2:Male|bratT1=Event|bratT2=Person|bratT3=Person-forename
-10	Киркорова	_	_	_	_	_	_	_	bratA1=T2:Male|bratT1=Event|bratT2=Person|bratT4=Person-surname
-11	в	_	_	_	_	_	_	_	bratT1=Event
-12	Махачкале	_	_	_	_	_	_	_	bratT1=Event|bratT5=GPE
+9	Филиппа	_	_	_	_	_	_	_	bratA26=T85:Male|bratT3=Person-forename|bratT85=Person
+10	Киркорова	_	_	_	_	_	_	_	bratA26=T85:Male|bratT4=Person-surname|bratT85=Person
+11	в	_	_	_	_	_	_	_	_
+12	Махачкале	_	_	_	_	_	_	_	bratT5=GPE
 13	назначили	_	_	_	_	_	_	_	_
 14	сроки	_	_	_	_	_	_	_	_
 15	до	_	_	_	_	_	_	_	bratA18=T6:Past-UNK|bratT6=Date-period-relative|bratT7=Duration
@@ -41,8 +41,8 @@
 13	колонии	_	_	_	_	_	_	_	_
 14	строгого	_	_	_	_	_	_	_	_
 15	режима	_	_	_	_	_	_	_	_
-16	четверых	_	_	_	_	_	_	_	bratT11=Quantity
-17	обвиняемых	_	_	_	_	_	_	_	bratT11=Quantity|bratT12=Person-property
+16	четверых	_	_	_	_	_	_	_	bratT11=Quantity|bratT86=Person
+17	обвиняемых	_	_	_	_	_	_	_	bratT11=Quantity|bratT12=Person-property|bratT86=Person
 18	по	_	_	_	_	_	_	_	_
 19	делу	_	_	_	_	_	_	_	bratT78=Event
 20	о	_	_	_	_	_	_	_	_
@@ -178,11 +178,11 @@
 9	и	_	_	_	_	_	_	_	_
 10	планировали	_	_	_	_	_	_	_	_
 11	устроить	_	_	_	_	_	_	_	_
-12	теракт	_	_	_	_	_	_	_	_
+12	теракт	_	_	_	_	_	_	_	bratT83=Event
 13	во	_	_	_	_	_	_	_	bratA16=T57:Past|bratT57=Date-absolute
 14	время	_	_	_	_	_	_	_	bratA16=T57:Past|bratT57=Date-absolute
 15	выступления	_	_	_	_	_	_	_	bratA16=T57:Past|bratT57=Date-absolute|bratT71=Event
-16	певца	_	_	_	_	_	_	_	bratT42=Person-property
+16	певца	_	_	_	_	_	_	_	bratA27=T88:Male|bratT42=Person-property|bratT88=Person
 17	в	_	_	_	_	_	_	_	bratA17=T70:Past|bratT70=Date-absolute
 18	мае	_	_	_	_	_	_	_	bratA17=T70:Past|bratT70=Date-absolute
 19	2017	_	_	_	_	_	_	_	bratA17=T70:Past|bratT70=Date-absolute
@@ -205,8 +205,8 @@
 6	в	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-absolute
 7	день	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-absolute
 8	концерта	_	_	_	_	_	_	_	bratA10=T43:Past|bratT43=Date-absolute|bratT45=Event
-9	глава	_	_	_	_	_	_	_	bratT69=Person-property
-10	ячейки	_	_	_	_	_	_	_	bratA2=T9:Department|bratT69=Person-property|bratT9=Organization
+9	глава	_	_	_	_	_	_	_	bratA1=T87:Male|bratT69=Person-property|bratT87=Person
+10	ячейки	_	_	_	_	_	_	_	bratA1=T87:Male|bratA2=T9:Department|bratT69=Person-property|bratT87=Person|bratT9=Organization
 11	отправил	_	_	_	_	_	_	_	_
 12	двух	_	_	_	_	_	_	_	bratT46=Quantity
 13	боевиков	_	_	_	_	_	_	_	bratA12=T47:Plural|bratT46=Quantity|bratT47=Person|bratT54=Person-property

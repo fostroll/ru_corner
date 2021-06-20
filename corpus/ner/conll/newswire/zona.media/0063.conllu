@@ -16,7 +16,7 @@
 11	Дагестана	_	_	_	_	_	_	_	bratT3=GPE
 12	после	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
 13	угроз	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute|bratT33=Event
-14	убийством	_	_	_	_	_	_	_	bratT32=Event
+14	убийством	_	_	_	_	_	_	_	bratT32=Event|bratT33=Event
 
 # newpar id = 0063-p2
 # par_text = Главный редактор сайта о положении женщин в северокавказском обществе Daptar Светлана Анохина уехала из Дагестана после отказа полиции возбуждать уголовное дело из-за угроз убийством. Об этом сообщает «Кавказский узел» со ссылкой на Анохину.
@@ -38,14 +38,14 @@
 14	из	_	_	_	_	_	_	_	_
 15	Дагестана	_	_	_	_	_	_	_	bratT9=GPE
 16	после	_	_	_	_	_	_	_	bratA11=T10:Past|bratT10=Date-absolute
-17	отказа	_	_	_	_	_	_	_	bratA11=T10:Past|bratT10=Date-absolute
+17	отказа	_	_	_	_	_	_	_	bratA11=T10:Past|bratT10=Date-absolute|bratT41=Event
 18	полиции	_	_	_	_	_	_	_	bratT31=Organization
 19	возбуждать	_	_	_	_	_	_	_	_
 20	уголовное	_	_	_	_	_	_	_	bratT34=Event
 21	дело	_	_	_	_	_	_	_	bratT34=Event
 22	из-за	_	_	_	_	_	_	_	_
 23	угроз	_	_	_	_	_	_	_	bratT35=Event
-24	убийством	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Event
+24	убийством	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Event|bratT36=Event
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0063-p2-s2

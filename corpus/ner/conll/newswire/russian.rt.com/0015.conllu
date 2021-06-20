@@ -9,9 +9,9 @@
 4	Турции	_	_	_	_	_	_	_	bratT2=GPE
 5	выявили	_	_	_	_	_	_	_	_
 6	6017	_	_	_	_	_	_	_	bratT3=Quantity
-7	новых	_	_	_	_	_	_	_	bratT3=Quantity
-8	случаев	_	_	_	_	_	_	_	bratT3=Quantity
-9	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term
+7	новых	_	_	_	_	_	_	_	bratT3=Quantity|bratT34=Event
+8	случаев	_	_	_	_	_	_	_	bratT3=Quantity|bratT34=Event
+9	коронавируса	_	_	_	_	_	_	_	bratT34=Event|bratT4=Other-term
 
 # newpar id = 0015-p2
 # par_text = В Турции за сутки выявили 6017 новых случаев заболевания COVID-19. Об этом свидетельствуют данные Минздрава страны.
@@ -23,13 +23,13 @@
 4	сутки	_	_	_	_	_	_	_	bratA2=T23:Past-Pres|bratT17=Duration|bratT23=Date-period-absolute
 5	выявили	_	_	_	_	_	_	_	_
 6	6017	_	_	_	_	_	_	_	bratT18=Quantity
-7	новых	_	_	_	_	_	_	_	bratT18=Quantity
-8	случаев	_	_	_	_	_	_	_	bratT18=Quantity
-9	заболевания	_	_	_	_	_	_	_	_
+7	новых	_	_	_	_	_	_	_	bratT18=Quantity|bratT33=Event
+8	случаев	_	_	_	_	_	_	_	bratT18=Quantity|bratT33=Event
+9	заболевания	_	_	_	_	_	_	_	bratT33=Event
 10-12	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
-10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
-11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term
-12	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT27=Cardinal
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT33=Event
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT33=Event
+12	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Other-term|bratT27=Cardinal|bratT33=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0015-p2-s2
@@ -48,8 +48,8 @@
 # text = Общее число выявленных случаев достигло 446 822.
 1	Общее	_	_	_	_	_	_	_	_
 2	число	_	_	_	_	_	_	_	_
-3	выявленных	_	_	_	_	_	_	_	_
-4	случаев	_	_	_	_	_	_	_	_
+3	выявленных	_	_	_	_	_	_	_	bratT35=Event
+4	случаев	_	_	_	_	_	_	_	bratT35=Event
 5	достигло	_	_	_	_	_	_	_	_
 6	446	_	_	_	_	_	_	_	bratT5=Quantity
 7	822	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Quantity

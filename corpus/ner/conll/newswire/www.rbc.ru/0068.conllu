@@ -6,7 +6,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT1=GPE
 3	арестовали	_	_	_	_	_	_	_	_
-4	стрелявшего	_	_	_	_	_	_	_	_
+4	стрелявшего	_	_	_	_	_	_	_	bratA19=T74:Male|bratT74=Person
 5	по	_	_	_	_	_	_	_	_
 6	прохожим	_	_	_	_	_	_	_	bratT3=Other-group
 7	в	_	_	_	_	_	_	_	_
@@ -20,11 +20,11 @@
 1	Сотрудники	_	_	_	_	_	_	_	bratT5=Person-property
 2	полиции	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
 3	задержали	_	_	_	_	_	_	_	_
-4	мужчину	_	_	_	_	_	_	_	SpaceAfter=No
+4	мужчину	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T73:Male|bratT73=Person
 5	,	_	_	_	_	_	_	_	_
 6	подозреваемого	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	стрельбе	_	_	_	_	_	_	_	_
+8	стрельбе	_	_	_	_	_	_	_	bratT68=Event
 9	по	_	_	_	_	_	_	_	_
 10	прохожим	_	_	_	_	_	_	_	bratT6=Other-group
 11	в	_	_	_	_	_	_	_	_
@@ -39,7 +39,7 @@
 3	сообщила	_	_	_	_	_	_	_	_
 4	замначальника	_	_	_	_	_	_	_	bratA3=T14:Female|bratT13=Person-property|bratT14=Person
 5	пресс-службы	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT12=Organization|bratT13=Person-property|bratT14=Person
-6	столичного	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
+6	столичного	_	_	_	_	_	_	_	bratA15=T67:Adjective|bratA2=T12:Department|bratA3=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person|bratT67=GPE
 7	главка	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
 8	МВД	_	_	_	_	_	_	_	bratA2=T12:Department|bratA3=T14:Female|bratT10=Organization|bratT11=Organization|bratT12=Organization|bratT13=Person-property|bratT14=Person
 9	Екатерина	_	_	_	_	_	_	_	bratA3=T14:Female|bratT14=Person|bratT8=Person-forename
@@ -63,11 +63,11 @@
 10	31	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Age
 11	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Age
 12	летнего	_	_	_	_	_	_	_	bratT20=Age
-13	мужчину	_	_	_	_	_	_	_	_
+13	мужчину	_	_	_	_	_	_	_	bratA17=T72:Male|bratT72=Person
 14	по	_	_	_	_	_	_	_	_
 15	подозрению	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
-17	хулиганстве	_	_	_	_	_	_	_	_
+17	хулиганстве	_	_	_	_	_	_	_	bratT69=Event
 18	и	_	_	_	_	_	_	_	_
 19	незаконном	_	_	_	_	_	_	_	_
 20	хранении	_	_	_	_	_	_	_	_
@@ -102,13 +102,13 @@
 2	данным	_	_	_	_	_	_	_	_
 3	главка	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T58:Department|bratT58=Organization
 4	,	_	_	_	_	_	_	_	_
-5	мужчина	_	_	_	_	_	_	_	_
+5	мужчина	_	_	_	_	_	_	_	bratA16=T70:Male|bratT70=Person
 6	вступил	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	перепалку	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
-10	двумя	_	_	_	_	_	_	_	bratT27=Quantity
-11	прохожими	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-group|bratT27=Quantity
+10	двумя	_	_	_	_	_	_	_	bratT27=Quantity|bratT71=Person
+11	прохожими	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Other-group|bratT27=Quantity|bratT71=Person
 12	,	_	_	_	_	_	_	_	_
 13	затем	_	_	_	_	_	_	_	bratA4=T29:Past|bratT29=Date-relative
 14	несколько	_	_	_	_	_	_	_	bratT28=Quantity
@@ -139,7 +139,7 @@
 4	обнаружили	_	_	_	_	_	_	_	_
 5	место	_	_	_	_	_	_	_	_
 6	жительства	_	_	_	_	_	_	_	_
-7	мужчины	_	_	_	_	_	_	_	_
+7	мужчины	_	_	_	_	_	_	_	bratA20=T75:Male|bratT75=Person
 8	и	_	_	_	_	_	_	_	_
 9	задержали	_	_	_	_	_	_	_	_
 10	его	_	_	_	_	_	_	_	SpaceAfter=No
@@ -150,7 +150,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	В	_	_	_	_	_	_	_	bratA12=T59:Past|bratT59=Date-absolute
 3	ходе	_	_	_	_	_	_	_	bratA12=T59:Past|bratT59=Date-absolute
-4	обыска	_	_	_	_	_	_	_	bratA12=T59:Past|bratT59=Date-absolute
+4	обыска	_	_	_	_	_	_	_	bratA12=T59:Past|bratT59=Date-absolute|bratT81=Event
 5	помещения	_	_	_	_	_	_	_	_
 6	полицейские	_	_	_	_	_	_	_	bratT33=Person-property
 7	обнаружили	_	_	_	_	_	_	_	_
@@ -204,7 +204,7 @@
 # text = В отношении нарушителя возбуждено два уголовных дела по ст. 213 УК России (``Хулиганство'') и ст. 222 УК России (``Незаконные приобретение, передача, сбыт, хранение, перевозка или ношение оружия, его основных частей, боеприпасов'').
 1	В	_	_	_	_	_	_	_	_
 2	отношении	_	_	_	_	_	_	_	_
-3	нарушителя	_	_	_	_	_	_	_	bratT35=Other-group
+3	нарушителя	_	_	_	_	_	_	_	bratA21=T76:Male|bratT35=Other-group|bratT76=Person
 4	возбуждено	_	_	_	_	_	_	_	_
 5	два	_	_	_	_	_	_	_	bratT36=Quantity
 6	уголовных	_	_	_	_	_	_	_	bratT36=Quantity|bratT65=Event
@@ -216,7 +216,7 @@
 12	России	_	_	_	_	_	_	_	bratT37=GPE|bratT39=Law|bratT51=Law
 13	(	_	_	_	_	_	_	_	SpaceAfter=No
 14	``	_	_	_	_	_	_	_	SpaceAfter=No
-15	Хулиганство	_	_	_	_	_	_	_	SpaceAfter=No
+15	Хулиганство	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	)	_	_	_	_	_	_	_	_
 18	и	_	_	_	_	_	_	_	_
@@ -253,7 +253,7 @@
 # text = Суд арестовал подозреваемого.
 1	Суд	_	_	_	_	_	_	_	bratT62=Organization
 2	арестовал	_	_	_	_	_	_	_	_
-3	подозреваемого	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Other-group
+3	подозреваемого	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T78:Male|bratT40=Person-property|bratT78=Person
 4	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0068-p7
@@ -272,8 +272,8 @@
 10	информации	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	травмировании	_	_	_	_	_	_	_	_
-13	малолетнего	_	_	_	_	_	_	_	bratT44=Age
-14	ребенка	_	_	_	_	_	_	_	bratT44=Age
+13	малолетнего	_	_	_	_	_	_	_	bratT44=Age|bratT80=Person
+14	ребенка	_	_	_	_	_	_	_	bratT44=Age|bratT80=Person
 15	в	_	_	_	_	_	_	_	_
 16	результате	_	_	_	_	_	_	_	_
 17	стрельбы	_	_	_	_	_	_	_	_
@@ -301,7 +301,7 @@
 15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT61=Facility
 16	Крым	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT55=GPE|bratT61=Facility
 17	''	_	_	_	_	_	_	_	bratT49=Facility|bratT61=Facility
-18	неизвестный	_	_	_	_	_	_	_	_
+18	неизвестный	_	_	_	_	_	_	_	bratT79=Person
 19	неустановленным	_	_	_	_	_	_	_	_
 20	способом	_	_	_	_	_	_	_	_
 21	повредил	_	_	_	_	_	_	_	_

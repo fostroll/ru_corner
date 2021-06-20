@@ -5,9 +5,9 @@
 # text = Навальный попросил ЕС ввести санкции против богатейших россиян
 1	Навальный	_	_	_	_	_	_	_	bratA3=T1:Male|bratT1=Person|bratT29=Person-surname
 2	попросил	_	_	_	_	_	_	_	_
-3	ЕС	_	_	_	_	_	_	_	bratT2=Organization
+3	ЕС	_	_	_	_	_	_	_	bratT2=GPE
 4	ввести	_	_	_	_	_	_	_	_
-5	санкции	_	_	_	_	_	_	_	_
+5	санкции	_	_	_	_	_	_	_	bratT55=Event
 6	против	_	_	_	_	_	_	_	_
 7	богатейших	_	_	_	_	_	_	_	_
 8	россиян	_	_	_	_	_	_	_	bratA2=T27:Citizenship|bratT27=Nationality
@@ -25,12 +25,12 @@
 7	видеосвязи	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	заседании	_	_	_	_	_	_	_	bratT5=Event
-10	комитета	_	_	_	_	_	_	_	bratT5=Event|bratT6=Organization
-11	по	_	_	_	_	_	_	_	bratT5=Event|bratT6=Organization
-12	международным	_	_	_	_	_	_	_	bratT5=Event|bratT6=Organization
-13	делам	_	_	_	_	_	_	_	bratT5=Event|bratT6=Organization
-14	Европейского	_	_	_	_	_	_	_	bratA5=T32:Adjective|bratT32=GPE|bratT5=Event|bratT6=Organization|bratT7=Organization
-15	парламента	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Event|bratT6=Organization|bratT7=Organization
+10	комитета	_	_	_	_	_	_	_	bratT6=Organization
+11	по	_	_	_	_	_	_	_	bratT6=Organization
+12	международным	_	_	_	_	_	_	_	bratT6=Organization
+13	делам	_	_	_	_	_	_	_	bratT6=Organization
+14	Европейского	_	_	_	_	_	_	_	bratA5=T32:Adjective|bratT32=GPE|bratT6=Organization|bratT7=Organization
+15	парламента	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization|bratT7=Organization
 16	,	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	bratA15=T48:Past|bratT48=Date-period-relative
 18	ходе	_	_	_	_	_	_	_	bratA15=T48:Past|bratT48=Date-period-relative
@@ -52,7 +52,7 @@
 34	могут	_	_	_	_	_	_	_	_
 35	быть	_	_	_	_	_	_	_	_
 36	лишь	_	_	_	_	_	_	_	_
-37	санкции	_	_	_	_	_	_	_	SpaceAfter=No
+37	санкции	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
 38	,	_	_	_	_	_	_	_	_
 39	которые	_	_	_	_	_	_	_	_
 40	коснутся	_	_	_	_	_	_	_	_
@@ -76,13 +76,13 @@
 9	пригласившая	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	дебаты	_	_	_	_	_	_	_	_
-12	бывшего	_	_	_	_	_	_	_	_
-13	заместителя	_	_	_	_	_	_	_	bratT12=Person-property
-14	министра	_	_	_	_	_	_	_	bratT12=Person-property|bratT36=Person-property
-15	энергетики	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property|bratT36=Person-property
-16	,	_	_	_	_	_	_	_	_
-17	а	_	_	_	_	_	_	_	_
-18	ныне	_	_	_	_	_	_	_	bratA9=T37:Present|bratT37=Date-absolute
+12	бывшего	_	_	_	_	_	_	_	bratA10=T13:Male|bratT12=Person-property|bratT13=Person
+13	заместителя	_	_	_	_	_	_	_	bratA10=T13:Male|bratT12=Person-property|bratT13=Person
+14	министра	_	_	_	_	_	_	_	bratA10=T13:Male|bratT12=Person-property|bratT13=Person
+15	энергетики	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T13:Male|bratT12=Person-property|bratT13=Person
+16	,	_	_	_	_	_	_	_	bratA10=T13:Male|bratT13=Person
+17	а	_	_	_	_	_	_	_	bratA10=T13:Male|bratT13=Person
+18	ныне	_	_	_	_	_	_	_	bratA10=T13:Male|bratA9=T37:Present|bratT13=Person|bratT37=Date-absolute
 19	блогера	_	_	_	_	_	_	_	bratA10=T13:Male|bratT13=Person|bratT14=Person-property
 20	Владимира	_	_	_	_	_	_	_	bratA10=T13:Male|bratT13=Person|bratT38=Person-forename
 21	Милова	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T13:Male|bratT13=Person|bratT39=Person-surname
@@ -113,7 +113,7 @@
 # sent_id = 0056-p4-s2
 # text = Реальные санкции должны быть против реальных денег'', - сказал оппозиционер, заявив, что нет смысла включать в санкционные списки тех, кто не путешествует по миру, у кого нет счетов в зарубежных банках.
 1	Реальные	_	_	_	_	_	_	_	_
-2	санкции	_	_	_	_	_	_	_	_
+2	санкции	_	_	_	_	_	_	_	bratT57=Event
 3	должны	_	_	_	_	_	_	_	_
 4	быть	_	_	_	_	_	_	_	_
 5	против	_	_	_	_	_	_	_	_
@@ -219,7 +219,7 @@
 13	жестко	_	_	_	_	_	_	_	_
 14	действовать	_	_	_	_	_	_	_	_
 15	к	_	_	_	_	_	_	_	_
-16	представителям	_	_	_	_	_	_	_	_
-17	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=GPE
+16	представителям	_	_	_	_	_	_	_	bratT58=Person-property
+17	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=GPE|bratT58=Person-property
 18	.	_	_	_	_	_	_	_	_
 

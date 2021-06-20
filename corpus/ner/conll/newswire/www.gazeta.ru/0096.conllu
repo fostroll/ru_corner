@@ -48,7 +48,7 @@
 4	старший	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT9=Person-property
 5	помощник	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT9=Person-property
 6	руководителя	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT9=Person-property
-7	столичного	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT8=Organization|bratT9=Person-property
+7	столичного	_	_	_	_	_	_	_	bratA17=T64:Adjective|bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT64=GPE|bratT8=Organization|bratT9=Person-property
 8	главка	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT8=Organization|bratT9=Person-property
 9	Следственного	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT7=Organization|bratT8=Organization|bratT9=Person-property
 10	комитета	_	_	_	_	_	_	_	bratA9=T10:Female|bratT10=Person|bratT29=Person-property|bratT7=Organization|bratT8=Organization|bratT9=Person-property
@@ -127,8 +127,8 @@
 21	(	_	_	_	_	_	_	_	SpaceAfter=No
 22	организация	_	_	_	_	_	_	_	_
 23	деятельности	_	_	_	_	_	_	_	_
-24	экстремистской	_	_	_	_	_	_	_	_
-25	организации	_	_	_	_	_	_	_	SpaceAfter=No
+24	экстремистской	_	_	_	_	_	_	_	bratT70=Organization
+25	организации	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Organization
 26	)	_	_	_	_	_	_	_	SpaceAfter=No
 27	.	_	_	_	_	_	_	_	_
 
@@ -167,8 +167,8 @@
 29	признанных	_	_	_	_	_	_	_	_
 30	Верховным	_	_	_	_	_	_	_	bratT22=Organization
 31	судом	_	_	_	_	_	_	_	bratT22=Organization
-32	экстремистскими	_	_	_	_	_	_	_	_
-33	организациями	_	_	_	_	_	_	_	SpaceAfter=No
+32	экстремистскими	_	_	_	_	_	_	_	bratT71=Organization
+33	организациями	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Organization
 34	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0096-p6
@@ -188,7 +188,7 @@
 11	российских	_	_	_	_	_	_	_	bratA11=T44:Adjective|bratT23=Quantity|bratT44=GPE
 12	субъектах	_	_	_	_	_	_	_	bratT23=Quantity
 13	проводятся	_	_	_	_	_	_	_	_
-14	обыски	_	_	_	_	_	_	_	SpaceAfter=No
+14	обыски	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Event
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0096-p6-s2
@@ -197,10 +197,10 @@
 2	установлены	_	_	_	_	_	_	_	_
 3	личности	_	_	_	_	_	_	_	_
 4	ряда	_	_	_	_	_	_	_	_
-5	организаторов	_	_	_	_	_	_	_	_
-6	и	_	_	_	_	_	_	_	_
-7	участников	_	_	_	_	_	_	_	_
-8	движения	_	_	_	_	_	_	_	SpaceAfter=No
+5	организаторов	_	_	_	_	_	_	_	bratA18=T66:Plural|bratT66=Person-property|bratT67=Person-property
+6	и	_	_	_	_	_	_	_	bratA18=T66:Plural|bratT66=Person-property
+7	участников	_	_	_	_	_	_	_	bratA18=T66:Plural|bratT66=Person-property|bratT68=Person-property
+8	движения	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T66:Plural|bratT65=Organization|bratT66=Person-property
 9	,	_	_	_	_	_	_	_	_
 10	они	_	_	_	_	_	_	_	_
 11	задержаны	_	_	_	_	_	_	_	SpaceAfter=No
@@ -212,7 +212,7 @@
 # text = Согласно информации следствия, работа центра в Москве была организована с июня 2019 года.
 1	Согласно	_	_	_	_	_	_	_	_
 2	информации	_	_	_	_	_	_	_	_
-3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	работа	_	_	_	_	_	_	_	_
 6	центра	_	_	_	_	_	_	_	bratT63=Organization

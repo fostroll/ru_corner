@@ -38,7 +38,7 @@ T28	Person-forename 841 847	Романа
 T29	Person-surname 850 860	Бондаренко
 T30	GPE 810 822	белорусского
 A10	Adjective T30
-T31	Political-group 810 838	белорусского   оппозиционера
+T31	Political-group 825 838	оппозиционера
 T32	Person 810 860	белорусского   оппозиционера   Романа   Бондаренко
 A11	Male T32
 T33	Organization 968 995	``   Интерфакс - Запад   ''
@@ -90,3 +90,10 @@ A23	Media T67
 T68	GPE 985 990	Запад
 T69	Organization 1295 1304	агентство
 A24	Media T69
+T70	Person 235 274	корреспондент   ``   РИА   Новости   ''
+A18	Female T70
+T71	Person 951 995	корреспондента   ``   Интерфакс - Запад   ''
+T72	Person 1082 1095	Корреспондент
+A25	Female T72
+T73	Person 1462 1474	журналистами
+T74	Event 321 331	задержании

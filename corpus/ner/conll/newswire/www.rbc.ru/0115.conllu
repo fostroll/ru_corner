@@ -70,11 +70,11 @@
 11	что	_	_	_	_	_	_	_	_
 12	проведение	_	_	_	_	_	_	_	_
 13	всех	_	_	_	_	_	_	_	_
-14	московских	_	_	_	_	_	_	_	bratA6=T16:Adjective|bratT16=GPE
+14	московских	_	_	_	_	_	_	_	bratA6=T16:Adjective|bratT16=GPE|bratT18=Event
 15	матчей	_	_	_	_	_	_	_	bratT18=Event
-16	РПЛ	_	_	_	_	_	_	_	bratT17=Organization|bratT18=Event
+16	РПЛ	_	_	_	_	_	_	_	bratT17=Event|bratT18=Event
 17	со	_	_	_	_	_	_	_	_
-18	зрителями	_	_	_	_	_	_	_	bratT19=Other-group
+18	зрителями	_	_	_	_	_	_	_	_
 19	согласовано	_	_	_	_	_	_	_	_
 20	до	_	_	_	_	_	_	_	bratT20=Date-period-absolute
 21	конца	_	_	_	_	_	_	_	bratT20=Date-period-absolute
@@ -151,7 +151,7 @@
 5	запретил	_	_	_	_	_	_	_	_
 6	клубу	_	_	_	_	_	_	_	bratT59=Organization
 7	допуск	_	_	_	_	_	_	_	_
-8	зрителей	_	_	_	_	_	_	_	bratT29=Other-group
+8	зрителей	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	игру	_	_	_	_	_	_	_	bratT32=Event
 11	13-го	_	_	_	_	_	_	_	bratT31=Ordinal|bratT32=Event
@@ -170,7 +170,7 @@
 # sent_id = 0115-p5-s2
 # text = После получения от ``Спартака'' гарантий соблюдения противоэпидемических мер на протяжении всего матча ведомство разрешило заполнять трибуны на 6%.
 1	После	_	_	_	_	_	_	_	bratA9=T35:Past|bratT35=Date-absolute
-2	получения	_	_	_	_	_	_	_	bratA9=T35:Past|bratT35=Date-absolute
+2	получения	_	_	_	_	_	_	_	bratA9=T35:Past|bratT29=Event|bratT35=Date-absolute
 3	от	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
 5	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
@@ -182,7 +182,7 @@
 11	на	_	_	_	_	_	_	_	bratT38=Time-relative
 12	протяжении	_	_	_	_	_	_	_	bratT38=Time-relative
 13	всего	_	_	_	_	_	_	_	_
-14	матча	_	_	_	_	_	_	_	_
+14	матча	_	_	_	_	_	_	_	bratT61=Event
 15	ведомство	_	_	_	_	_	_	_	bratT58=Organization
 16	разрешило	_	_	_	_	_	_	_	_
 17	заполнять	_	_	_	_	_	_	_	_
@@ -214,7 +214,7 @@
 2	Проведение	_	_	_	_	_	_	_	_
 3	матчей	_	_	_	_	_	_	_	bratT11=Event
 4	со	_	_	_	_	_	_	_	_
-5	зрителями	_	_	_	_	_	_	_	bratT41=Other-group
+5	зрителями	_	_	_	_	_	_	_	_
 6	возможно	_	_	_	_	_	_	_	_
 7	при	_	_	_	_	_	_	_	_
 8	условии	_	_	_	_	_	_	_	_
@@ -257,10 +257,10 @@
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
 11	допуск	_	_	_	_	_	_	_	_
-12	зрителей	_	_	_	_	_	_	_	bratT50=Other-group
+12	зрителей	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
-14	спортивные	_	_	_	_	_	_	_	_
-15	мероприятия	_	_	_	_	_	_	_	_
+14	спортивные	_	_	_	_	_	_	_	bratT41=Event
+15	мероприятия	_	_	_	_	_	_	_	bratT41=Event
 16	нужно	_	_	_	_	_	_	_	_
 17	будет	_	_	_	_	_	_	_	_
 18	согласовывать	_	_	_	_	_	_	_	_
@@ -270,7 +270,7 @@
 22	спорта	_	_	_	_	_	_	_	bratT51=Organization
 23	и	_	_	_	_	_	_	_	_
 24	управлением	_	_	_	_	_	_	_	bratT52=Organization
-25	Роспотребнадзора	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
+25	Роспотребнадзора	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Organization|bratT52=Organization
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0115-p7-s2

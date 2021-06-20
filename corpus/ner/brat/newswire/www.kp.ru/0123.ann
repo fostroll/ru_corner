@@ -16,7 +16,7 @@ T16	Quantity 747 756	одна   из
 T17	Organization 888 916	издание   Luzerner   Zeitung
 A3	Media T17
 T18	Date-absolute 922 941	В   начале   ноября
-T20	Other-group 1001 1012	экстремисты
+T20	Person-property 1001 1012	экстремисты
 T21	Facility 1041 1061	еврейском   квартале
 T22	Organization 594 616	федеральной   полицией
 T23	Date-relative 1085 1090	Затем
@@ -26,7 +26,7 @@ T26	Organization 251 258	Полиция
 T27	Organization 733 740	полиции
 T3	Facility 1072 1080	синагоги
 T4	Event 1105 1110	взрыв
-T28	Event 1132 1153	стрельба   по   людям
+T28	Event 1132 1140	стрельба
 A1	Past T18
 T29	Date-relative 991 998	Сначала
 A4	Past T29
@@ -39,3 +39,7 @@ A7	Adjective T31
 T32	Duration 342 354	20   Minutes
 T33	Time-period 342 354	20   Minutes
 T34	GPE 1184 1190	города
+T35	Person 306 316	нападавшей
+A8	Female T35
+T36	Person 0 7	Женщина
+A9	Female T36

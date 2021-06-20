@@ -35,8 +35,7 @@ T32	Person 911 917	Беглец
 A10	Male T32
 T33	Person-surname 911 917	Беглец
 T34	Person-property 942 954	полицейского
-T35	Other-group 984 996	протестующих
-T36	Ordinal 1001 1011	Обвиняемый
+T36	Person-property 1001 1011	Обвиняемый
 T37	Event 1058 1065	митинге
 T38	Date-absolute 864 908	во   время   акции   27   июля   2019   года
 T39	Event 877 882	акции
@@ -62,3 +61,8 @@ T31	Facility 1088 1093	улице
 T50	Organization 758 776	кассационный   суд
 T51	Event 118 146	``   московского   дела   ''
 T1	Event 18 46	``   московскому   делу   ''
+T7	Event 618 638	применении   насилия
+T52	Person-property 0 10	Осужденный
+T53	Person 1001 1011	Обвиняемый
+A15	Male T53
+T35	Person-property 829 838	Следствие

@@ -154,7 +154,7 @@
 12	тренировки	_	_	_	_	_	_	_	bratT61=Quantity|bratT87=Event
 13	в	_	_	_	_	_	_	_	bratA15=T62:Past|bratT62=Date-period-absolute
 14	ходе	_	_	_	_	_	_	_	bratA15=T62:Past|bratT62=Date-period-absolute
-15	ноябрьского	_	_	_	_	_	_	_	bratA15=T62:Past|bratT62=Date-period-absolute|bratT88=Event
+15	ноябрьского	_	_	_	_	_	_	_	bratA15=T62:Past|bratA32=T91:Past|bratT62=Date-period-absolute|bratT88=Event|bratT91=Date-absolute
 16	сбора	_	_	_	_	_	_	_	bratA15=T62:Past|bratT62=Date-period-absolute|bratT88=Event
 17	и	_	_	_	_	_	_	_	_
 18	не	_	_	_	_	_	_	_	_
@@ -246,9 +246,9 @@
 23	зная	_	_	_	_	_	_	_	_
 24	о	_	_	_	_	_	_	_	_
 25	его	_	_	_	_	_	_	_	_
-26	проблемах	_	_	_	_	_	_	_	_
-27	с	_	_	_	_	_	_	_	_
-28	коленом	_	_	_	_	_	_	_	SpaceAfter=No
+26	проблемах	_	_	_	_	_	_	_	bratT92=Event
+27	с	_	_	_	_	_	_	_	bratT92=Event
+28	коленом	_	_	_	_	_	_	_	SpaceAfter=No|bratT92=Event
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0026-p8

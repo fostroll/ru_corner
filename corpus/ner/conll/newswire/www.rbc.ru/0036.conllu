@@ -91,13 +91,13 @@
 7	Москве	_	_	_	_	_	_	_	bratT15=GPE
 8	подтвердили	_	_	_	_	_	_	_	_
 9	6427	_	_	_	_	_	_	_	bratT16=Quantity
-10	новых	_	_	_	_	_	_	_	bratT16=Quantity
+10	новых	_	_	_	_	_	_	_	bratT16=Quantity|bratT71=Event
 11	случаев	_	_	_	_	_	_	_	bratT16=Quantity|bratT71=Event
 12	заболевания	_	_	_	_	_	_	_	bratT71=Event
 13-15	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
-13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
-14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
-15	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT62=Cardinal
+13	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT71=Event
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT71=Event
+15	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT62=Cardinal|bratT71=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0036-p4-s2
@@ -202,11 +202,11 @@
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
 12	после	_	_	_	_	_	_	_	bratT57=Time-relative
-13	заражения	_	_	_	_	_	_	_	_
+13	заражения	_	_	_	_	_	_	_	bratT75=Event
 14-16	COVID-19	_	_	_	_	_	_	_	_
-14	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term
-15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term
-16	19	_	_	_	_	_	_	_	bratT32=Other-term|bratT64=Cardinal
+14	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term|bratT75=Event
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Other-term|bratT75=Event
+16	19	_	_	_	_	_	_	_	bratT32=Other-term|bratT64=Cardinal|bratT75=Event
 17	только	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	bratA11=T33:Past|bratT33=Date-period-absolute
 19	апреля	_	_	_	_	_	_	_	bratA11=T33:Past|bratT33=Date-period-absolute
@@ -249,9 +249,9 @@
 10	пик	_	_	_	_	_	_	_	bratT74=Event
 11	заболеваемости	_	_	_	_	_	_	_	bratT74=Event
 12-14	COVID-19	_	_	_	_	_	_	_	_
-12	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term
-13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term
-14	19	_	_	_	_	_	_	_	bratT39=Other-term|bratT65=Cardinal
+12	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term|bratT74=Event
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term|bratT74=Event
+14	19	_	_	_	_	_	_	_	bratT39=Other-term|bratT65=Cardinal|bratT74=Event
 15	через	_	_	_	_	_	_	_	bratA13=T54:Future|bratT54=Date-absolute
 16	несколько	_	_	_	_	_	_	_	bratA13=T54:Future|bratT54=Date-absolute|bratT55=Duration
 17	месяцев	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T54:Future|bratT54=Date-absolute|bratT55=Duration

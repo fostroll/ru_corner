@@ -34,7 +34,7 @@ T32	Ordinal 1569 1575	первым
 T33	Ordinal 1592 1598	вторым
 T34	Date-absolute 1619 1626	сегодня
 T36	Person-property 1842 1849	адвокат
-T37	Person-surname 62 68	Тесака
+T37	Person-alias 62 68	Тесака
 A2	Male T3
 T38	Person-forename 171 178	Максима
 T39	Person-surname 181 193	Марцинкевича
@@ -44,7 +44,7 @@ T40	Person-surname 322 334	Марцинкевича
 T41	Person-forename 337 344	Алексей
 T42	Person-surname 347 356	Михальчик
 A5	Male T10
-T43	Person-surname 434 440	Тесака
+T43	Person-alias 434 440	Тесака
 A6	Male T13
 A7	Past T15
 A9	Past T17
@@ -55,7 +55,7 @@ A12	Past T26
 T46	Date-relative 777 789	после   чего
 A13	Past T46
 A14	Male T29
-T47	Person-surname 1034 1040	Тесака
+T47	Person-alias 1034 1040	Тесака
 T48	Person-surname 1180 1189	Михальчик
 A15	Male T30
 T49	Person-surname 1236 1248	Марцинкевича
@@ -75,3 +75,15 @@ T57	Facility 267 271	СИЗО
 T58	Event 614 622	Убийство
 T59	Event 588 592	дело
 T60	Event 1091 1107	уголовное   дело
+T61	Person 0 7	Адвокат
+A8	Male T61
+T62	Person-property 34 46	следователей
+T63	Person 675 711	адвокатов   и   семьи   Марцинкевича
+T64	Event 811 819	проверка
+T65	Person 34 46	следователей
+T66	Person 70 121	Следователи   СУ   СКР   по   Челябинской   области
+T67	Person 940 951	следователи
+T68	Person 1220 1248	родственникам   Марцинкевича
+T69	Person 1492 1498	родные
+T70	Person 1842 1849	адвокат
+A19	Male T70

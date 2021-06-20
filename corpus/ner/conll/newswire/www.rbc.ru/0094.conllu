@@ -33,7 +33,7 @@
 15	уточнить	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
 17	ходе	_	_	_	_	_	_	_	_
-18	переговоров	_	_	_	_	_	_	_	_
+18	переговоров	_	_	_	_	_	_	_	bratT49=Event
 19	между	_	_	_	_	_	_	_	_
 20	сторонами	_	_	_	_	_	_	_	SpaceAfter=No
 21	.	_	_	_	_	_	_	_	_
@@ -50,8 +50,8 @@
 8	,	_	_	_	_	_	_	_	_
 9	заявил	_	_	_	_	_	_	_	_
 10	пресс-секретарь	_	_	_	_	_	_	_	bratA3=T14:Male|bratT11=Person-property|bratT14=Person
-11	президента	_	_	_	_	_	_	_	bratA3=T14:Male|bratT10=Person-property|bratT11=Person-property|bratT14=Person
-12	России	_	_	_	_	_	_	_	bratA3=T14:Male|bratT10=Person-property|bratT11=Person-property|bratT14=Person|bratT9=GPE
+11	президента	_	_	_	_	_	_	_	bratA3=T14:Male|bratT10=Person-property|bratT11=Person-property|bratT14=Person|bratT50=Person
+12	России	_	_	_	_	_	_	_	bratA3=T14:Male|bratT10=Person-property|bratT11=Person-property|bratT14=Person|bratT50=Person|bratT9=GPE
 13	Дмитрий	_	_	_	_	_	_	_	bratA3=T14:Male|bratT12=Person-forename|bratT14=Person
 14	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Male|bratT13=Person-surname|bratT14=Person
 15	.	_	_	_	_	_	_	_	_
@@ -86,8 +86,8 @@
 14	были	_	_	_	_	_	_	_	_
 15	конкретизированы	_	_	_	_	_	_	_	_
 16	между	_	_	_	_	_	_	_	_
-17	двумя	_	_	_	_	_	_	_	bratT16=Quantity
-18	президентами	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Quantity
+17	двумя	_	_	_	_	_	_	_	bratT16=Quantity|bratT51=Person
+18	президентами	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT16=Quantity|bratT51=Person
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0094-p3-s3
@@ -96,11 +96,11 @@
 2	основная	_	_	_	_	_	_	_	_
 3	функция	_	_	_	_	_	_	_	_
 4	-	_	_	_	_	_	_	_	_
-5	прекращение	_	_	_	_	_	_	_	_
-6	огня	_	_	_	_	_	_	_	_
-7	и	_	_	_	_	_	_	_	_
-8	военных	_	_	_	_	_	_	_	_
-9	действий	_	_	_	_	_	_	_	SpaceAfter=No
+5	прекращение	_	_	_	_	_	_	_	bratT52=Event
+6	огня	_	_	_	_	_	_	_	bratT52=Event
+7	и	_	_	_	_	_	_	_	bratT52=Event
+8	военных	_	_	_	_	_	_	_	bratT52=Event
+9	действий	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Event
 10	,	_	_	_	_	_	_	_	_
 11	коридор	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
@@ -123,8 +123,8 @@
 # par_text = Представитель Кремля не смог уточнить, войдет ли в обязанности миротворцев охрана религиозных объектов.
 # sent_id = 0094-p4-s1
 # text = Представитель Кремля не смог уточнить, войдет ли в обязанности миротворцев охрана религиозных объектов.
-1	Представитель	_	_	_	_	_	_	_	bratT20=Person-property
-2	Кремля	_	_	_	_	_	_	_	bratT19=Organization|bratT20=Person-property
+1	Представитель	_	_	_	_	_	_	_	bratA12=T48:Male|bratT20=Person-property|bratT48=Person
+2	Кремля	_	_	_	_	_	_	_	bratA12=T48:Male|bratT19=Organization|bratT20=Person-property|bratT48=Person
 3	не	_	_	_	_	_	_	_	_
 4	смог	_	_	_	_	_	_	_	_
 5	уточнить	_	_	_	_	_	_	_	SpaceAfter=No
@@ -259,12 +259,12 @@
 11	после	_	_	_	_	_	_	_	bratA10=T44:Past|bratT44=Date-absolute
 12	подписания	_	_	_	_	_	_	_	bratA10=T44:Past|bratT43=Event|bratT44=Date-absolute
 13	соглашения	_	_	_	_	_	_	_	bratT43=Event
-14	между	_	_	_	_	_	_	_	bratT43=Event
-15	Баку	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=GPE|bratT43=Event
-16	,	_	_	_	_	_	_	_	bratT43=Event
-17	Ереваном	_	_	_	_	_	_	_	bratT41=GPE|bratT43=Event
-18	и	_	_	_	_	_	_	_	bratT43=Event
-19	Москвой	_	_	_	_	_	_	_	bratT42=GPE|bratT43=Event
+14	между	_	_	_	_	_	_	_	_
+15	Баку	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=GPE
+16	,	_	_	_	_	_	_	_	_
+17	Ереваном	_	_	_	_	_	_	_	bratT41=GPE
+18	и	_	_	_	_	_	_	_	_
+19	Москвой	_	_	_	_	_	_	_	bratT42=GPE
 20	в	_	_	_	_	_	_	_	bratA11=T47:Past|bratT46=Time-absolute|bratT47=Date-absolute
 21	ночь	_	_	_	_	_	_	_	bratA11=T47:Past|bratT46=Time-absolute|bratT47=Date-absolute
 22	на	_	_	_	_	_	_	_	bratA11=T47:Past|bratT46=Time-absolute|bratT47=Date-absolute

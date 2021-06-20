@@ -8,7 +8,7 @@
 3	Шлеменко	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT23=Person-surname
 4	назвал	_	_	_	_	_	_	_	_
 5	неправильным	_	_	_	_	_	_	_	_
-6	примирение	_	_	_	_	_	_	_	_
+6	примирение	_	_	_	_	_	_	_	bratT42=Event
 7	Харитонова	_	_	_	_	_	_	_	bratA4=T3:Male|bratT26=Person-surname|bratT3=Person
 8	и	_	_	_	_	_	_	_	_
 9	Яндиева	_	_	_	_	_	_	_	bratA5=T4:Male|bratT27=Person-surname|bratT4=Person
@@ -29,7 +29,7 @@
 10	назвал	_	_	_	_	_	_	_	_
 11	неправильным	_	_	_	_	_	_	_	_
 12	факт	_	_	_	_	_	_	_	_
-13	примирения	_	_	_	_	_	_	_	_
+13	примирения	_	_	_	_	_	_	_	bratT56=Event
 14	бойцов	_	_	_	_	_	_	_	bratA1=T8:Plural|bratT7=Person-property|bratT8=Person
 15	Сергея	_	_	_	_	_	_	_	bratA1=T8:Plural|bratA23=T50:Male|bratT31=Person-forename|bratT50=Person|bratT8=Person
 16	Харитонова	_	_	_	_	_	_	_	bratA1=T8:Plural|bratA23=T50:Male|bratT32=Person-surname|bratT50=Person|bratT8=Person
@@ -67,7 +67,7 @@
 9	принес	_	_	_	_	_	_	_	_
 10	извинения	_	_	_	_	_	_	_	_
 11	за	_	_	_	_	_	_	_	_
-12	рукоприкладство	_	_	_	_	_	_	_	SpaceAfter=No
+12	рукоприкладство	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0064-p2-s4
@@ -174,7 +174,7 @@
 2	было	_	_	_	_	_	_	_	_
 3	видео	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	выступлений	_	_	_	_	_	_	_	_
+5	выступлений	_	_	_	_	_	_	_	bratT58=Event
 6	от	_	_	_	_	_	_	_	_
 7	Харитонова	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T16:Male|bratT16=Person|bratT43=Person-surname
 8	.	_	_	_	_	_	_	_	_
@@ -221,7 +221,7 @@
 3	случившегося	_	_	_	_	_	_	_	_
 4	13	_	_	_	_	_	_	_	bratA17=T18:Past|bratT18=Date-absolute
 5	ноября	_	_	_	_	_	_	_	bratA17=T18:Past|bratT18=Date-absolute
-6	инцидента	_	_	_	_	_	_	_	_
+6	инцидента	_	_	_	_	_	_	_	bratT59=Event
 7	у	_	_	_	_	_	_	_	_
 8	Харитонова	_	_	_	_	_	_	_	bratA18=T19:Male|bratT19=Person|bratT45=Person-surname
 9	диагностировали	_	_	_	_	_	_	_	_
@@ -255,9 +255,9 @@
 7	полного	_	_	_	_	_	_	_	_
 8	восстановления	_	_	_	_	_	_	_	_
 9	займет	_	_	_	_	_	_	_	_
-10	минимум	_	_	_	_	_	_	_	bratA8=T46:Pres-Fut|bratT46=Date-period-relative|bratT47=Duration
-11	три	_	_	_	_	_	_	_	bratA8=T46:Pres-Fut|bratT46=Date-period-relative|bratT47=Duration
-12	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T46:Pres-Fut|bratT46=Date-period-relative|bratT47=Duration
+10	минимум	_	_	_	_	_	_	_	bratA8=T46:Pres-Fut|bratT46=Date-period-absolute|bratT47=Duration
+11	три	_	_	_	_	_	_	_	bratA8=T46:Pres-Fut|bratT46=Date-period-absolute|bratT47=Duration
+12	месяца	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T46:Pres-Fut|bratT46=Date-period-absolute|bratT47=Duration
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0064-p4-s4
@@ -266,7 +266,7 @@
 2	отметил	_	_	_	_	_	_	_	_
 3	Харитонов	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T24:Male|bratT24=Person|bratT48=Person-surname
 4	,	_	_	_	_	_	_	_	_
-5	конфликт	_	_	_	_	_	_	_	_
+5	конфликт	_	_	_	_	_	_	_	bratT60=Event
 6	случился	_	_	_	_	_	_	_	_
 7	из-за	_	_	_	_	_	_	_	_
 8	невыплаченного	_	_	_	_	_	_	_	_

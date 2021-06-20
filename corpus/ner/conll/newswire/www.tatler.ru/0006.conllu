@@ -108,8 +108,8 @@
 1	Это	_	_	_	_	_	_	_	_
 2	будет	_	_	_	_	_	_	_	_
 3	последнее	_	_	_	_	_	_	_	bratT32=Ordinal
-4	официальное	_	_	_	_	_	_	_	_
-5	мероприятие	_	_	_	_	_	_	_	SpaceAfter=No
+4	официальное	_	_	_	_	_	_	_	bratT89=Event
+5	мероприятие	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Event
 6	,	_	_	_	_	_	_	_	_
 7	которое	_	_	_	_	_	_	_	_
 8	Гарри	_	_	_	_	_	_	_	bratA14=T34:Male|bratT33=Person-forename|bratT34=Person
@@ -242,9 +242,9 @@
 12	он	_	_	_	_	_	_	_	_
 13	переживал	_	_	_	_	_	_	_	_
 14	смерть	_	_	_	_	_	_	_	bratT81=Event
-15	матери	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Family|bratT81=Event
+15	матери	_	_	_	_	_	_	_	SpaceAfter=No|bratA29=T87:Female|bratT72=Family|bratT87=Person
 16	,	_	_	_	_	_	_	_	_
-17	паре	_	_	_	_	_	_	_	bratT73=Family
+17	паре	_	_	_	_	_	_	_	bratT73=Family|bratT88=Person
 18	заплатили	_	_	_	_	_	_	_	_
 19	один	_	_	_	_	_	_	_	bratT74=Money
 20	миллион	_	_	_	_	_	_	_	bratT74=Money

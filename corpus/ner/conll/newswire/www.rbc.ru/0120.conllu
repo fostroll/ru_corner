@@ -38,7 +38,7 @@
 # text = Общее число смертей в столице составило 8756.
 1	Общее	_	_	_	_	_	_	_	_
 2	число	_	_	_	_	_	_	_	_
-3	смертей	_	_	_	_	_	_	_	_
+3	смертей	_	_	_	_	_	_	_	bratT57=Event
 4	в	_	_	_	_	_	_	_	_
 5	столице	_	_	_	_	_	_	_	bratT39=GPE
 6	составило	_	_	_	_	_	_	_	_
@@ -75,8 +75,8 @@
 24	о	_	_	_	_	_	_	_	_
 25	более	_	_	_	_	_	_	_	bratT14=Quantity
 26	70	_	_	_	_	_	_	_	bratT14=Quantity
-27	летальных	_	_	_	_	_	_	_	bratT14=Quantity
-28	исходах	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Quantity
+27	летальных	_	_	_	_	_	_	_	bratT14=Quantity|bratT66=Event
+28	исходах	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Quantity|bratT66=Event
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p3-s2
@@ -94,7 +94,7 @@
 11	последний	_	_	_	_	_	_	_	bratT48=Ordinal
 12	фиксирует	_	_	_	_	_	_	_	_
 13	больше	_	_	_	_	_	_	_	_
-14	смертей	_	_	_	_	_	_	_	_
+14	смертей	_	_	_	_	_	_	_	bratT58=Event
 15	больных	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
 17	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
@@ -121,12 +121,12 @@
 4	Москве	_	_	_	_	_	_	_	bratT18=GPE
 5	были	_	_	_	_	_	_	_	_
 6	выявлены	_	_	_	_	_	_	_	_
-7	рекордные	_	_	_	_	_	_	_	_
-8	7918	_	_	_	_	_	_	_	bratT19=Quantity
-9	новых	_	_	_	_	_	_	_	bratT19=Quantity
-10	случаев	_	_	_	_	_	_	_	bratT19=Quantity
-11	заражения	_	_	_	_	_	_	_	_
-12	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term
+7	рекордные	_	_	_	_	_	_	_	bratT59=Event
+8	7918	_	_	_	_	_	_	_	bratT19=Quantity|bratT59=Event
+9	новых	_	_	_	_	_	_	_	bratT19=Quantity|bratT59=Event
+10	случаев	_	_	_	_	_	_	_	bratT19=Quantity|bratT59=Event
+11	заражения	_	_	_	_	_	_	_	bratT59=Event
+12	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-term|bratT59=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p4-s2
@@ -209,11 +209,11 @@
 6	прошлой	_	_	_	_	_	_	_	bratA8=T32:Past|bratT32=Date-period-absolute|bratT46=Ordinal
 7	неделе	_	_	_	_	_	_	_	bratA8=T32:Past|bratT32=Date-period-absolute
 8	количество	_	_	_	_	_	_	_	_
-9	случаев	_	_	_	_	_	_	_	_
-10	``	_	_	_	_	_	_	_	SpaceAfter=No
-11	ковидной	_	_	_	_	_	_	_	bratT33=Other-term
-12	пневмонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-term
-13	''	_	_	_	_	_	_	_	_
+9	случаев	_	_	_	_	_	_	_	bratT60=Event
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event
+11	ковидной	_	_	_	_	_	_	_	bratT33=Other-term|bratT60=Event
+12	пневмонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-term|bratT60=Event
+13	''	_	_	_	_	_	_	_	bratT60=Event
 14	выросло	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	bratT34=Percent
 16-17	2%	_	_	_	_	_	_	_	SpaceAfter=No
@@ -222,7 +222,7 @@
 18	,	_	_	_	_	_	_	_	_
 19	а	_	_	_	_	_	_	_	_
 20	число	_	_	_	_	_	_	_	_
-21	госпитализаций	_	_	_	_	_	_	_	_
+21	госпитализаций	_	_	_	_	_	_	_	bratT61=Event
 22	-	_	_	_	_	_	_	_	_
 23	на	_	_	_	_	_	_	_	bratT35=Percent
 24-25	3%	_	_	_	_	_	_	_	SpaceAfter=No
@@ -236,25 +236,25 @@
 # text = По словам мэра, эти цифры говорят о постепенном ``сглаживании'' ситуации, так как в октябре темпы роста госпитализаций были значительно выше.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	мэра	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property
+3	мэра	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property|bratT67=Person
 4	,	_	_	_	_	_	_	_	_
 5	эти	_	_	_	_	_	_	_	_
 6	цифры	_	_	_	_	_	_	_	_
 7	говорят	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
-9	постепенном	_	_	_	_	_	_	_	_
-10	``	_	_	_	_	_	_	_	SpaceAfter=No
-11	сглаживании	_	_	_	_	_	_	_	SpaceAfter=No
-12	''	_	_	_	_	_	_	_	_
-13	ситуации	_	_	_	_	_	_	_	SpaceAfter=No
+9	постепенном	_	_	_	_	_	_	_	bratT65=Event
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Event
+11	сглаживании	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Event
+12	''	_	_	_	_	_	_	_	bratT65=Event
+13	ситуации	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Event
 14	,	_	_	_	_	_	_	_	_
 15	так	_	_	_	_	_	_	_	_
 16	как	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	bratA9=T37:Past|bratT37=Date-period-absolute
 18	октябре	_	_	_	_	_	_	_	bratA9=T37:Past|bratT37=Date-period-absolute
 19	темпы	_	_	_	_	_	_	_	_
-20	роста	_	_	_	_	_	_	_	_
-21	госпитализаций	_	_	_	_	_	_	_	_
+20	роста	_	_	_	_	_	_	_	bratT63=Event
+21	госпитализаций	_	_	_	_	_	_	_	bratT62=Event|bratT63=Event
 22	были	_	_	_	_	_	_	_	_
 23	значительно	_	_	_	_	_	_	_	_
 24	выше	_	_	_	_	_	_	_	SpaceAfter=No
@@ -267,9 +267,9 @@
 3	это	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	говорить	_	_	_	_	_	_	_	_
-6	снижении	_	_	_	_	_	_	_	_
-7	уровня	_	_	_	_	_	_	_	_
-8	заболеваемости	_	_	_	_	_	_	_	_
+6	снижении	_	_	_	_	_	_	_	bratT64=Event
+7	уровня	_	_	_	_	_	_	_	bratT64=Event
+8	заболеваемости	_	_	_	_	_	_	_	bratT64=Event
 9	говорить	_	_	_	_	_	_	_	_
 10	рано	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_

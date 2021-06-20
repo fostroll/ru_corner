@@ -1,6 +1,5 @@
 T1	GPE 4 9	Перми
-T2	Other-group 24 34	участников
-T3	Other-group 63 73	обвиняемых
+T3	Person-property 63 73	обвиняемых
 T4	Person 103 109	Путина
 A1	Male T4
 T6	Person-surname 103 109	Путина
@@ -19,7 +18,7 @@ T18	Person 385 405	Алексея   Навального
 A5	Male T18
 T19	Person-forename 385 392	Алексея
 T20	Person-surname 395 405	Навального
-T21	Other-group 460 471	задержанных
+T21	Person-property 460 471	задержанных
 T23	Person-property 474 506	координатор   штаба   Навального
 T24	Organization 488 506	штаба   Навального
 T25	Person 474 522	координатор   штаба   Навального   Сергей   Ухов
@@ -39,7 +38,7 @@ T35	Person-property 616 627	Полицейские
 T36	Organization 740 755	Другой   России
 T37	Event 796 816	режим   самоизоляции
 T38	Date-relative 827 833	Вскоре
-T39	Other-group 836 847	задержанных
+T39	Person-property 836 847	задержанных
 T40	Organization 867 874	полиции
 T41	Law 900 922	статье   20.6.1   КоАП
 T42	Date-absolute 1040 1055	В   2018   году
@@ -50,7 +49,7 @@ T45	GPE 1071 1076	Перми
 T46	Person 1100 1106	Путина
 A11	Male T46
 T47	Person-surname 1100 1106	Путина
-T48	Person 1129 1173	лжец   военный   преступник   Пыня   В.   В.
+T48	Person 1136 1173	военный   преступник   Пыня   В.   В.
 T49	Person-surname 1159 1163	Пыня
 T50	Person-initial 1166 1168	В.
 T52	Person-property 1136 1156	военный   преступник
@@ -61,7 +60,7 @@ T56	Organization 1389 1391	СК
 T57	Quantity 1404 1414	еще   одну
 T58	Other-group 1505 1529	сторонников   президента
 T59	Person-property 1519 1529	президента
-T60	Other-group 1535 1546	Обвиняемыми
+T60	Person-property 1535 1546	Обвиняемыми
 T62	Person 1572 1592	Александр   Шабарчин
 A14	Male T62
 T63	Person-forename 1572 1581	Александр
@@ -105,9 +104,18 @@ T87	Facility 196 242	здания   Ленинского   районного   
 T88	Event 81 85	делу
 T89	Event 273 277	дело
 T90	Event 285 290	акции
-T91	Event 1231 1235	дело
+T91	Event 1219 1235	уголовное   дело
 T92	Event 1242 1253	хулиганстве
 T93	Event 1554 1558	делу
 T94	Event 1435 1440	акции
 A18	Department T32
 T95	Organization 567 592	``   Другой   России   ''
+T96	Person 63 73	обвиняемых
+T2	Person 836 847	задержанных
+T97	Event 971 994	чрезвычайной   ситуации
+T98	Event 642 652	задержания
+T99	Event 37 44	пикетов
+T100	Quantity 170 179	одиночных
+T101	Event 170 189	одиночных   пикетов
+T102	Quantity 676 685	одиночные
+T103	Event 676 694	одиночные   пикеты

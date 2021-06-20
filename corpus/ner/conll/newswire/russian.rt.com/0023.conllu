@@ -26,7 +26,7 @@
 5	подписал	_	_	_	_	_	_	_	_
 6	постановление	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
-8	продлении	_	_	_	_	_	_	_	_
+8	продлении	_	_	_	_	_	_	_	bratT33=Event
 9	до	_	_	_	_	_	_	_	bratA6=T16:LCont|bratA7=T16:Fut|bratT16=Date-period-absolute
 10	31	_	_	_	_	_	_	_	bratA6=T16:LCont|bratA7=T16:Fut|bratT16=Date-period-absolute
 11	декабря	_	_	_	_	_	_	_	bratA6=T16:LCont|bratA7=T16:Fut|bratT16=Date-period-absolute
@@ -113,14 +113,14 @@
 13	выявили	_	_	_	_	_	_	_	_
 14	24	_	_	_	_	_	_	_	bratT11=Quantity
 15	326	_	_	_	_	_	_	_	bratT11=Quantity
-16	случаев	_	_	_	_	_	_	_	bratT11=Quantity
-17	заболевания	_	_	_	_	_	_	_	_
-18	коронавирусной	_	_	_	_	_	_	_	bratT12=Other-term
-19	инфекцией	_	_	_	_	_	_	_	bratT12=Other-term
+16	случаев	_	_	_	_	_	_	_	bratT11=Quantity|bratT32=Event
+17	заболевания	_	_	_	_	_	_	_	bratT32=Event
+18	коронавирусной	_	_	_	_	_	_	_	bratT12=Other-term|bratT32=Event
+19	инфекцией	_	_	_	_	_	_	_	bratT12=Other-term|bratT32=Event
 20-22	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
-20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
-21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
-22	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term|bratT30=Cardinal
+20	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term|bratT32=Event
+21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term|bratT32=Event
+22	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term|bratT30=Cardinal|bratT32=Event
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0023-p5-s2

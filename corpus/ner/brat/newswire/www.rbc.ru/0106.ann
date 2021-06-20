@@ -14,15 +14,14 @@ T11	GPE 333 339	России
 T12	GPE 347 372	Калининградской   области
 T13	Organization 328 339	СК   России
 T14	Organization 299 372	следственного   управления   СК   России   по   Калининградской   области
-A3	Department T14
 T15	Service 291 296	сайте
 A4	Media T15
 T16	Law 403 426	ч.   1   ст.   105   УК
 T17	Person-property 450 461	Следователи
-T18	Other-group 599 612	подозреваемый
+T18	Person-property 599 612	подозреваемый
 T19	Quantity 615 627	неоднократно
 T20	Family 640 653	бывшей   жене
-T21	Other-group 733 746	подозреваемым
+T21	Person-property 733 746	подозреваемым
 T22	Date-relative 802 807	ранее
 A5	Past T22
 T23	Organization 825 827	СК
@@ -52,7 +51,7 @@ T43	Date-absolute 1529 1549	летом   этого   года
 A10	Past T43
 T44	Quantity 1556 1570	двумя   детьми
 T45	Family 1564 1570	детьми
-T46	Other-group 1575 1588	Подозреваемый
+T46	Person-property 1575 1588	Подозреваемый
 T47	Date-absolute 1614 1633	в   конце   октября
 A11	Past T47
 T48	Organization 1768 1803	Местное   издание   ``   Клопс   ''
@@ -67,7 +66,7 @@ T54	Ordinal 1537 1542	этого
 T55	Event 1898 1907	убийством
 T56	Person 217 237	свою   бывшую   жену
 A14	Female T56
-T57	Person 1010 1030	свою   бывшую   жену
+T57	Person 996 1030	женщину   ,   свою   бывшую   жену
 A15	Female T57
 T58	Person 1864 1885	своей   бывшей   жене
 A16	Female T58
@@ -82,3 +81,38 @@ T65	Event 433 441	убийство
 T66	Event 378 382	Дело
 T67	Organization 573 576	СМИ
 A17	Media T67
+T68	Person 163 193	жителя   Кемеровской   области
+A18	Male T68
+T69	Person 1575 1588	Подозреваемый
+A19	Male T69
+T70	Person 599 612	подозреваемый
+A20	Male T70
+T71	Person 640 653	бывшей   жене
+A21	Female T71
+T72	Person 733 746	подозреваемым
+A22	Male T72
+T73	Person 42 49	женщины
+A23	Female T73
+T74	Person 52 66	бывшим   мужем
+A24	Male T74
+T75	Event 656 665	убийством
+T76	Event 834 842	инцидент
+T77	Person 931 938	Мужчина
+A3	Male T77
+T78	Facility 959 963	дома
+T79	Person 1125 1137	двое   детей
+T80	Person 1159 1166	девочка
+A25	Female T80
+T81	Person 1189 1196	мальчик
+A26	Male T81
+T82	Person 1266 1273	мужчина
+A27	Male T82
+T83	Person 1322 1335	бывшую   жену
+A28	Female T83
+T84	Person 1403 1410	супруги
+T85	Person 1460 1467	Женщина
+A29	Female T85
+T86	Person 1829 1836	мужчина
+A30	Male T86
+T87	Facility 1933 1937	дома
+T88	Event 721 730	получения

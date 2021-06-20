@@ -57,7 +57,7 @@
 3	набирает	_	_	_	_	_	_	_	_
 4	238	_	_	_	_	_	_	_	bratT15=Quantity
 5	голосов	_	_	_	_	_	_	_	bratT15=Quantity
-6	выборщиков	_	_	_	_	_	_	_	bratT16=Other-group
+6	выборщиков	_	_	_	_	_	_	_	bratT16=Person-property
 7	при	_	_	_	_	_	_	_	_
 8	необходимых	_	_	_	_	_	_	_	_
 9	270	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
@@ -90,13 +90,13 @@
 16	Пенсильвании	_	_	_	_	_	_	_	bratT21=GPE
 17	(	_	_	_	_	_	_	_	SpaceAfter=No
 18	20	_	_	_	_	_	_	_	bratT22=Quantity
-19	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity|bratT23=Other-group
+19	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Quantity|bratT23=Person-property
 20	)	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
 22	Джорджии	_	_	_	_	_	_	_	bratT24=GPE
 23	(	_	_	_	_	_	_	_	SpaceAfter=No
 24	16	_	_	_	_	_	_	_	bratT25=Quantity
-25	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Quantity|bratT26=Other-group
+25	выборщиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Quantity|bratT26=Person-property
 26	)	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
 28	Мичигане	_	_	_	_	_	_	_	bratT27=GPE
@@ -164,8 +164,8 @@
 5	высказали	_	_	_	_	_	_	_	_
 6	мнение	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
-8	возможной	_	_	_	_	_	_	_	_
-9	победе	_	_	_	_	_	_	_	SpaceAfter=No
+8	возможной	_	_	_	_	_	_	_	bratT62=Event
+9	победе	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Event
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0099-p6-s2
@@ -173,7 +173,7 @@
 1	Так	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
-4	встрече	_	_	_	_	_	_	_	_
+4	встрече	_	_	_	_	_	_	_	bratT64=Event
 5	с	_	_	_	_	_	_	_	_
 6	журналистами	_	_	_	_	_	_	_	bratT40=Person-property
 7	Дональд	_	_	_	_	_	_	_	bratA11=T41:Male|bratT41=Person|bratT55=Person-forename
@@ -184,7 +184,7 @@
 12	его	_	_	_	_	_	_	_	_
 13	партия	_	_	_	_	_	_	_	_
 14	одержала	_	_	_	_	_	_	_	_
-15	победу	_	_	_	_	_	_	_	_
+15	победу	_	_	_	_	_	_	_	bratT63=Event
 16	во	_	_	_	_	_	_	_	_
 17	многих	_	_	_	_	_	_	_	_
 18	штатах	_	_	_	_	_	_	_	SpaceAfter=No

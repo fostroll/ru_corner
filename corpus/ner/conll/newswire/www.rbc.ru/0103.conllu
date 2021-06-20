@@ -7,7 +7,7 @@
 2	РПЛ	_	_	_	_	_	_	_	bratT1=Organization
 3	предложили	_	_	_	_	_	_	_	_
 4	амнистировать	_	_	_	_	_	_	_	_
-5	фанатов	_	_	_	_	_	_	_	_
+5	фанатов	_	_	_	_	_	_	_	bratT48=Other-group
 6	с	_	_	_	_	_	_	_	_
 7	запретом	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
@@ -44,14 +44,14 @@
 24	для	_	_	_	_	_	_	_	_
 25	болельщиков	_	_	_	_	_	_	_	bratT20=Other-group
 26	провести	_	_	_	_	_	_	_	_
-27	амнистию	_	_	_	_	_	_	_	_
-28	фанатов	_	_	_	_	_	_	_	SpaceAfter=No
+27	амнистию	_	_	_	_	_	_	_	bratT51=Event
+28	фанатов	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Other-group
 29	,	_	_	_	_	_	_	_	_
 30	которым	_	_	_	_	_	_	_	_
 31	запрещено	_	_	_	_	_	_	_	_
 32	посещать	_	_	_	_	_	_	_	_
-33	спортивные	_	_	_	_	_	_	_	_
-34	мероприятия	_	_	_	_	_	_	_	SpaceAfter=No
+33	спортивные	_	_	_	_	_	_	_	bratT50=Event
+34	мероприятия	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
 35	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0103-p2-s2
@@ -86,7 +86,7 @@
 6	обязательной	_	_	_	_	_	_	_	_
 7	идентификации	_	_	_	_	_	_	_	_
 8	провести	_	_	_	_	_	_	_	_
-9	амнистию	_	_	_	_	_	_	_	_
+9	амнистию	_	_	_	_	_	_	_	bratT52=Event
 10	для	_	_	_	_	_	_	_	_
 11	зрителей	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -95,8 +95,8 @@
 15	запрет	_	_	_	_	_	_	_	_
 16	на	_	_	_	_	_	_	_	_
 17	посещение	_	_	_	_	_	_	_	_
-18	спортивных	_	_	_	_	_	_	_	_
-19	соревнований	_	_	_	_	_	_	_	SpaceAfter=No
+18	спортивных	_	_	_	_	_	_	_	bratT53=Event
+19	соревнований	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Event
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0103-p3-s3
@@ -141,8 +141,11 @@
 13	следующего	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute|bratT31=Ordinal|bratT42=Event
 14	сезона	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute|bratT42=Event
 15	-	_	_	_	_	_	_	_	bratT42=Event
-16	2021/22	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute
-17	.	_	_	_	_	_	_	_	_
+16-18	2021/22	_	_	_	_	_	_	_	SpaceAfter=No
+16	2021	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute
+17	/	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute
+18	22	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute
+19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0103-p4-s2
 # text = Также Мейтин прокомментировал возможный спад посещаемости матчей чемпионата из-за введения Fan ID.
@@ -150,8 +153,8 @@
 2	Мейтин	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT32=Person-surname
 3	прокомментировал	_	_	_	_	_	_	_	_
 4	возможный	_	_	_	_	_	_	_	_
-5	спад	_	_	_	_	_	_	_	_
-6	посещаемости	_	_	_	_	_	_	_	_
+5	спад	_	_	_	_	_	_	_	bratT54=Event
+6	посещаемости	_	_	_	_	_	_	_	bratT54=Event
 7	матчей	_	_	_	_	_	_	_	bratT39=Event
 8	чемпионата	_	_	_	_	_	_	_	bratT38=Event|bratT39=Event
 9	из-за	_	_	_	_	_	_	_	_
@@ -175,7 +178,7 @@
 # text = Хотя некоторый спад в переходный период не исключен.
 1	Хотя	_	_	_	_	_	_	_	_
 2	некоторый	_	_	_	_	_	_	_	_
-3	спад	_	_	_	_	_	_	_	_
+3	спад	_	_	_	_	_	_	_	bratT55=Event
 4	в	_	_	_	_	_	_	_	_
 5	переходный	_	_	_	_	_	_	_	_
 6	период	_	_	_	_	_	_	_	_
@@ -291,7 +294,7 @@
 6	с	_	_	_	_	_	_	_	_
 7	билетом	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
-9	матч	_	_	_	_	_	_	_	SpaceAfter=No
+9	матч	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0103-p6-s4

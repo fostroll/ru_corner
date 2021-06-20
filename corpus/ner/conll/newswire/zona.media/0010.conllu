@@ -5,13 +5,13 @@
 # text = На Алтае мужчина до смерти забил нового возлюбленного подруги гвоздодером и отвез труп к магазину на садовой тележке
 1	На	_	_	_	_	_	_	_	bratT1=GPE
 2	Алтае	_	_	_	_	_	_	_	bratT1=GPE
-3	мужчина	_	_	_	_	_	_	_	_
+3	мужчина	_	_	_	_	_	_	_	bratA13=T41:Male|bratT41=Person
 4	до	_	_	_	_	_	_	_	_
 5	смерти	_	_	_	_	_	_	_	_
 6	забил	_	_	_	_	_	_	_	_
-7	нового	_	_	_	_	_	_	_	_
-8	возлюбленного	_	_	_	_	_	_	_	_
-9	подруги	_	_	_	_	_	_	_	_
+7	нового	_	_	_	_	_	_	_	bratA14=T42:Male|bratT42=Person
+8	возлюбленного	_	_	_	_	_	_	_	bratA14=T42:Male|bratT42=Person
+9	подруги	_	_	_	_	_	_	_	bratA14=T42:Male|bratA15=T43:Female|bratT42=Person|bratT43=Person
 10	гвоздодером	_	_	_	_	_	_	_	_
 11	и	_	_	_	_	_	_	_	_
 12	отвез	_	_	_	_	_	_	_	_
@@ -29,28 +29,28 @@
 1	На	_	_	_	_	_	_	_	bratT2=GPE
 2	Алтае	_	_	_	_	_	_	_	bratT2=GPE
 3	завершили	_	_	_	_	_	_	_	_
-4	расследование	_	_	_	_	_	_	_	_
-5	уголовного	_	_	_	_	_	_	_	bratT35=Event
-6	дела	_	_	_	_	_	_	_	bratT35=Event
+4	расследование	_	_	_	_	_	_	_	bratT54=Person-property
+5	уголовного	_	_	_	_	_	_	_	bratT35=Event|bratT54=Person-property
+6	дела	_	_	_	_	_	_	_	bratT35=Event|bratT54=Person-property
 7	против	_	_	_	_	_	_	_	_
 8-10	38-летнего	_	_	_	_	_	_	_	_
 8	38	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
 9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
 10	летнего	_	_	_	_	_	_	_	bratT3=Age
-11	жителя	_	_	_	_	_	_	_	bratA6=T27:Resident|bratT27=Nationality
-12	села	_	_	_	_	_	_	_	bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE
-13	Чоя	_	_	_	_	_	_	_	bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE
-14	Чойского	_	_	_	_	_	_	_	bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE|bratT5=GPE
-15	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE|bratT5=GPE
+11	жителя	_	_	_	_	_	_	_	bratA16=T44:Male|bratA6=T27:Resident|bratT27=Nationality|bratT44=Person
+12	села	_	_	_	_	_	_	_	bratA16=T44:Male|bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE|bratT44=Person
+13	Чоя	_	_	_	_	_	_	_	bratA16=T44:Male|bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE|bratT44=Person
+14	Чойского	_	_	_	_	_	_	_	bratA16=T44:Male|bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE|bratT44=Person|bratT5=GPE
+15	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T44:Male|bratA6=T27:Resident|bratT27=Nationality|bratT4=GPE|bratT44=Person|bratT5=GPE
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
 18	забил	_	_	_	_	_	_	_	_
 19	до	_	_	_	_	_	_	_	_
 20	смерти	_	_	_	_	_	_	_	_
-21	нового	_	_	_	_	_	_	_	_
-22	возлюбленного	_	_	_	_	_	_	_	_
-23	своей	_	_	_	_	_	_	_	_
-24	подруги	_	_	_	_	_	_	_	_
+21	нового	_	_	_	_	_	_	_	bratA17=T45:Male|bratT45=Person
+22	возлюбленного	_	_	_	_	_	_	_	bratA17=T45:Male|bratT45=Person
+23	своей	_	_	_	_	_	_	_	bratA17=T45:Male|bratT45=Person
+24	подруги	_	_	_	_	_	_	_	bratA17=T45:Male|bratA18=T46:Female|bratT45=Person|bratT46=Person
 25	и	_	_	_	_	_	_	_	_
 26	довез	_	_	_	_	_	_	_	_
 27	его	_	_	_	_	_	_	_	_
@@ -83,35 +83,35 @@
 # text = Как установило следствие, вечером 23 мая пьяный местный житель пришел к своей бывшей подруге с гвоздодером.
 1	Как	_	_	_	_	_	_	_	_
 2	установило	_	_	_	_	_	_	_	_
-3	следствие	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствие	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	вечером	_	_	_	_	_	_	_	bratA3=T9:Past|bratT17=Time-absolute|bratT9=Date-absolute
 6	23	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
 7	мая	_	_	_	_	_	_	_	bratA3=T9:Past|bratT9=Date-absolute
 8	пьяный	_	_	_	_	_	_	_	_
-9	местный	_	_	_	_	_	_	_	bratA5=T18:Resident|bratA8=T25:Adjective|bratT18=Nationality|bratT25=GPE
-10	житель	_	_	_	_	_	_	_	bratA5=T18:Resident|bratT18=Nationality
+9	местный	_	_	_	_	_	_	_	bratA19=T47:Male|bratA5=T18:Resident|bratA8=T25:Adjective|bratT18=Nationality|bratT25=GPE|bratT47=Person
+10	житель	_	_	_	_	_	_	_	bratA19=T47:Male|bratA5=T18:Resident|bratT18=Nationality|bratT47=Person
 11	пришел	_	_	_	_	_	_	_	_
 12	к	_	_	_	_	_	_	_	_
-13	своей	_	_	_	_	_	_	_	_
-14	бывшей	_	_	_	_	_	_	_	_
-15	подруге	_	_	_	_	_	_	_	_
+13	своей	_	_	_	_	_	_	_	bratA20=T48:Female|bratT48=Person
+14	бывшей	_	_	_	_	_	_	_	bratA20=T48:Female|bratT48=Person
+15	подруге	_	_	_	_	_	_	_	bratA20=T48:Female|bratT48=Person
 16	с	_	_	_	_	_	_	_	_
 17	гвоздодером	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0010-p3-s2
 # text = Мужчина решил «выяснить отношения» с ее новым возлюбленным, попросил разбудить того и передать, чтобы вышел на улицу, говорится в сообщении СК.
-1	Мужчина	_	_	_	_	_	_	_	_
+1	Мужчина	_	_	_	_	_	_	_	bratA21=T49:Male|bratT49=Person
 2	решил	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 4	выяснить	_	_	_	_	_	_	_	_
 5	отношения	_	_	_	_	_	_	_	SpaceAfter=No
 6	''	_	_	_	_	_	_	_	QuotationEnd=»
 7	с	_	_	_	_	_	_	_	_
-8	ее	_	_	_	_	_	_	_	_
-9	новым	_	_	_	_	_	_	_	_
-10	возлюбленным	_	_	_	_	_	_	_	SpaceAfter=No
+8	ее	_	_	_	_	_	_	_	bratA22=T50:Male|bratT50=Person
+9	новым	_	_	_	_	_	_	_	bratA22=T50:Male|bratT50=Person
+10	возлюбленным	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T50:Male|bratT50=Person
 11	,	_	_	_	_	_	_	_	_
 12	попросил	_	_	_	_	_	_	_	_
 13	разбудить	_	_	_	_	_	_	_	_
@@ -134,16 +134,16 @@
 # par_text = Обвиняемый спрятался на веранде, а когда «соперник» вышел, начал его бить, пока тот не упал на землю, потеряв сознание, утверждает следствие. Нападавший ударил мужчину не менее 33 раз, установил СК. Тот умер на месте.
 # sent_id = 0010-p4-s1
 # text = Обвиняемый спрятался на веранде, а когда «соперник» вышел, начал его бить, пока тот не упал на землю, потеряв сознание, утверждает следствие.
-1	Обвиняемый	_	_	_	_	_	_	_	bratT19=Person-property
+1	Обвиняемый	_	_	_	_	_	_	_	bratA9=T37:Male|bratT19=Person-property|bratT37=Person
 2	спрятался	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	веранде	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Facility
 5	,	_	_	_	_	_	_	_	_
 6	а	_	_	_	_	_	_	_	_
 7	когда	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-9	соперник	_	_	_	_	_	_	_	SpaceAfter=No
-10	''	_	_	_	_	_	_	_	QuotationEnd=»
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA10=T38:Male|bratT38=Person
+9	соперник	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T38:Male|bratT38=Person
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA10=T38:Male|bratT38=Person
 11	вышел	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	начал	_	_	_	_	_	_	_	_
@@ -161,14 +161,14 @@
 25	сознание	_	_	_	_	_	_	_	SpaceAfter=No
 26	,	_	_	_	_	_	_	_	_
 27	утверждает	_	_	_	_	_	_	_	_
-28	следствие	_	_	_	_	_	_	_	SpaceAfter=No
+28	следствие	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Person-property
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0010-p4-s2
 # text = Нападавший ударил мужчину не менее 33 раз, установил СК.
-1	Нападавший	_	_	_	_	_	_	_	_
+1	Нападавший	_	_	_	_	_	_	_	bratA11=T39:Male|bratT39=Person
 2	ударил	_	_	_	_	_	_	_	_
-3	мужчину	_	_	_	_	_	_	_	_
+3	мужчину	_	_	_	_	_	_	_	bratA12=T40:Male|bratT40=Person
 4	не	_	_	_	_	_	_	_	bratT11=Quantity
 5	менее	_	_	_	_	_	_	_	bratT11=Quantity
 6	33	_	_	_	_	_	_	_	bratT11=Quantity
@@ -192,12 +192,12 @@
 # text = По версии следствия, утром 25 мая обвиняемый «с целью сокрытия следов» отвез труп на садовой тележке к продуктовому магазину.
 1	По	_	_	_	_	_	_	_	_
 2	версии	_	_	_	_	_	_	_	_
-3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	утром	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute|bratT16=Time-absolute
 6	25	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute
 7	мая	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute
-8	обвиняемый	_	_	_	_	_	_	_	_
+8	обвиняемый	_	_	_	_	_	_	_	bratA23=T52:Male|bratT51=Person-property|bratT52=Person
 9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 10	с	_	_	_	_	_	_	_	_
 11	целью	_	_	_	_	_	_	_	_
@@ -217,7 +217,7 @@
 # sent_id = 0010-p5-s2
 # text = Затем мужчина вернулся домой, помыл пол и ``орудие преступления'', отмечается на сайте СК.
 1	Затем	_	_	_	_	_	_	_	bratA7=T26:Past|bratT26=Date-relative
-2	мужчина	_	_	_	_	_	_	_	_
+2	мужчина	_	_	_	_	_	_	_	bratA24=T53:Male|bratT53=Person
 3	вернулся	_	_	_	_	_	_	_	_
 4	домой	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
@@ -226,7 +226,7 @@
 8	и	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No
 10	орудие	_	_	_	_	_	_	_	_
-11	преступления	_	_	_	_	_	_	_	SpaceAfter=No
+11	преступления	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	отмечается	_	_	_	_	_	_	_	_

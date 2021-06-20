@@ -8,9 +8,9 @@
 3	выявили	_	_	_	_	_	_	_	_
 4	13	_	_	_	_	_	_	_	bratT2=Quantity
 5	882	_	_	_	_	_	_	_	bratT2=Quantity
-6	новых	_	_	_	_	_	_	_	bratT2=Quantity
-7	случая	_	_	_	_	_	_	_	bratT2=Quantity
-8	коронавируса	_	_	_	_	_	_	_	bratT3=Other-term
+6	новых	_	_	_	_	_	_	_	bratT2=Quantity|bratT43=Event
+7	случая	_	_	_	_	_	_	_	bratT2=Quantity|bratT43=Event
+8	коронавируса	_	_	_	_	_	_	_	bratT3=Other-term|bratT43=Event
 9	за	_	_	_	_	_	_	_	bratA4=T31:Past-Pres|bratT31=Date-period-absolute
 10	сутки	_	_	_	_	_	_	_	bratA4=T31:Past-Pres|bratT31=Date-period-absolute|bratT4=Duration
 
@@ -23,14 +23,14 @@
 3	выявили	_	_	_	_	_	_	_	_
 4	13	_	_	_	_	_	_	_	bratT21=Quantity
 5	882	_	_	_	_	_	_	_	bratT21=Quantity
-6	новых	_	_	_	_	_	_	_	bratT21=Quantity
-7	случая	_	_	_	_	_	_	_	bratT21=Quantity
-8	коронавирусной	_	_	_	_	_	_	_	bratT22=Other-term
-9	инфекции	_	_	_	_	_	_	_	bratT22=Other-term
+6	новых	_	_	_	_	_	_	_	bratT21=Quantity|bratT42=Event
+7	случая	_	_	_	_	_	_	_	bratT21=Quantity|bratT42=Event
+8	коронавирусной	_	_	_	_	_	_	_	bratT22=Other-term|bratT42=Event
+9	инфекции	_	_	_	_	_	_	_	bratT22=Other-term|bratT42=Event
 10-12	COVID-19	_	_	_	_	_	_	_	_
-10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term
-11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term
-12	19	_	_	_	_	_	_	_	bratT22=Other-term|bratT37=Cardinal
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term|bratT42=Event
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term|bratT42=Event
+12	19	_	_	_	_	_	_	_	bratT22=Other-term|bratT37=Cardinal|bratT42=Event
 13	за	_	_	_	_	_	_	_	bratA5=T32:Past-Pres|bratT32=Date-period-absolute
 14	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T32:Past-Pres|bratT23=Duration|bratT32=Date-period-absolute
 15	.	_	_	_	_	_	_	_	_
@@ -44,9 +44,9 @@
 5	зафиксировано	_	_	_	_	_	_	_	_
 6	661	_	_	_	_	_	_	_	bratT24=Quantity
 7	858	_	_	_	_	_	_	_	bratT24=Quantity
-8	случаев	_	_	_	_	_	_	_	bratT24=Quantity
-9	заболевания	_	_	_	_	_	_	_	_
-10	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term
+8	случаев	_	_	_	_	_	_	_	bratT24=Quantity|bratT41=Event
+9	заболевания	_	_	_	_	_	_	_	bratT41=Event
+10	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term|bratT41=Event
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0042-p3
@@ -102,9 +102,9 @@
 7	зафиксировали	_	_	_	_	_	_	_	_
 8	11	_	_	_	_	_	_	_	bratT12=Quantity
 9	492	_	_	_	_	_	_	_	bratT12=Quantity
-10	летальных	_	_	_	_	_	_	_	bratT12=Quantity
-11	случая	_	_	_	_	_	_	_	bratT12=Quantity
-12	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term
+10	летальных	_	_	_	_	_	_	_	bratT12=Quantity|bratT44=Event
+11	случая	_	_	_	_	_	_	_	bratT12=Quantity|bratT44=Event
+12	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term|bratT44=Event
 13	,	_	_	_	_	_	_	_	_
 14	307	_	_	_	_	_	_	_	bratT14=Quantity
 15	778	_	_	_	_	_	_	_	bratT14=Quantity
@@ -125,15 +125,15 @@
 7	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
-10	жёсткий	_	_	_	_	_	_	_	_
-11	локдаун	_	_	_	_	_	_	_	bratT18=Other-term
+10	жёсткий	_	_	_	_	_	_	_	bratT45=Event
+11	локдаун	_	_	_	_	_	_	_	bratT18=Other-term|bratT45=Event
 12	в	_	_	_	_	_	_	_	_
 13	стране	_	_	_	_	_	_	_	bratT40=GPE
 14	могут	_	_	_	_	_	_	_	_
 15	ввести	_	_	_	_	_	_	_	_
 16	при	_	_	_	_	_	_	_	_
 17	угрозе	_	_	_	_	_	_	_	_
-18	коллапса	_	_	_	_	_	_	_	_
+18	коллапса	_	_	_	_	_	_	_	bratT46=Event
 19	медицинской	_	_	_	_	_	_	_	_
 20	системы	_	_	_	_	_	_	_	SpaceAfter=No
 21	.	_	_	_	_	_	_	_	_

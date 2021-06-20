@@ -7,9 +7,9 @@
 2	штабе	_	_	_	_	_	_	_	bratT2=Organization
 3	Байдена	_	_	_	_	_	_	_	bratA5=T1:Male|bratT1=Person|bratT2=Organization|bratT30=Person-surname
 4	подтвердили	_	_	_	_	_	_	_	_
-5	начало	_	_	_	_	_	_	_	_
-6	передачи	_	_	_	_	_	_	_	_
-7	власти	_	_	_	_	_	_	_	_
+5	начало	_	_	_	_	_	_	_	bratT57=Event
+6	передачи	_	_	_	_	_	_	_	bratT56=Event|bratT57=Event
+7	власти	_	_	_	_	_	_	_	bratT56=Event|bratT57=Event
 
 # newpar id = 0111-p2
 # par_text = Штаб кандидата в президенты США от демократической партии Джо Байдена подтвердил, что в понедельник, 23 ноября, началась процедура передачи власти. Федеральные власти США признали победу бывшего вице-президента страны на президентских выборах.
@@ -35,9 +35,9 @@
 18	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T9:Past|bratT9=Date-absolute
 19	,	_	_	_	_	_	_	_	_
 20	началась	_	_	_	_	_	_	_	_
-21	процедура	_	_	_	_	_	_	_	_
-22	передачи	_	_	_	_	_	_	_	_
-23	власти	_	_	_	_	_	_	_	SpaceAfter=No
+21	процедура	_	_	_	_	_	_	_	bratT55=Event
+22	передачи	_	_	_	_	_	_	_	bratT55=Event
+23	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Event
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0111-p2-s2
@@ -46,13 +46,13 @@
 2	власти	_	_	_	_	_	_	_	bratT46=Organization
 3	США	_	_	_	_	_	_	_	bratT10=GPE|bratT46=Organization
 4	признали	_	_	_	_	_	_	_	_
-5	победу	_	_	_	_	_	_	_	_
-6	бывшего	_	_	_	_	_	_	_	bratT11=Person-property
+5	победу	_	_	_	_	_	_	_	bratT53=Event
+6	бывшего	_	_	_	_	_	_	_	bratA15=T54:Male|bratT11=Person-property|bratT54=Person
 7-9	вице-президента	_	_	_	_	_	_	_	_
-7	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Person-property
-8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Person-property
-9	президента	_	_	_	_	_	_	_	bratT11=Person-property
-10	страны	_	_	_	_	_	_	_	bratT11=Person-property|bratT49=GPE
+7	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA15=T54:Male|bratT11=Person-property|bratT54=Person
+8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA15=T54:Male|bratT11=Person-property|bratT54=Person
+9	президента	_	_	_	_	_	_	_	bratA15=T54:Male|bratT11=Person-property|bratT54=Person
+10	страны	_	_	_	_	_	_	_	bratA15=T54:Male|bratT11=Person-property|bratT49=GPE|bratT54=Person
 11	на	_	_	_	_	_	_	_	_
 12	президентских	_	_	_	_	_	_	_	bratT12=Event
 13	выборах	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
@@ -78,7 +78,7 @@
 14	общих	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
 15	служб	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
 16	подтвердила	_	_	_	_	_	_	_	_
-17	победу	_	_	_	_	_	_	_	_
+17	победу	_	_	_	_	_	_	_	bratT52=Event
 18	``	_	_	_	_	_	_	_	SpaceAfter=No
 19	избранного	_	_	_	_	_	_	_	bratA9=T17:Male|bratT17=Person|bratT18=Person-property
 20	президента	_	_	_	_	_	_	_	bratA9=T17:Male|bratT17=Person|bratT18=Person-property
@@ -103,8 +103,8 @@
 4	что	_	_	_	_	_	_	_	_
 5	она	_	_	_	_	_	_	_	_
 6	предоставила	_	_	_	_	_	_	_	_
-7	новой	_	_	_	_	_	_	_	_
-8	администрации	_	_	_	_	_	_	_	_
+7	новой	_	_	_	_	_	_	_	bratT58=Organization
+8	администрации	_	_	_	_	_	_	_	bratT58=Organization
 9	``	_	_	_	_	_	_	_	SpaceAfter=No
 10	ресурсы	_	_	_	_	_	_	_	_
 11	и	_	_	_	_	_	_	_	_
@@ -116,8 +116,8 @@
 17	плавной	_	_	_	_	_	_	_	_
 18	и	_	_	_	_	_	_	_	_
 19	мирной	_	_	_	_	_	_	_	_
-20	передачи	_	_	_	_	_	_	_	_
-21	власти	_	_	_	_	_	_	_	SpaceAfter=No
+20	передачи	_	_	_	_	_	_	_	bratT59=Event
+21	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
 22	''	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_
 

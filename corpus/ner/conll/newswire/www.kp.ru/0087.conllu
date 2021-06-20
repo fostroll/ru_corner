@@ -5,7 +5,7 @@
 # text = Число жертв землетрясения на западе Турции увеличилось до 73
 1	Число	_	_	_	_	_	_	_	_
 2	жертв	_	_	_	_	_	_	_	_
-3	землетрясения	_	_	_	_	_	_	_	_
+3	землетрясения	_	_	_	_	_	_	_	bratT43=Event
 4	на	_	_	_	_	_	_	_	_
 5	западе	_	_	_	_	_	_	_	_
 6	Турции	_	_	_	_	_	_	_	bratT1=GPE
@@ -20,7 +20,7 @@
 1	Количество	_	_	_	_	_	_	_	_
 2	жертв	_	_	_	_	_	_	_	_
 3	мощного	_	_	_	_	_	_	_	_
-4	землетрясения	_	_	_	_	_	_	_	_
+4	землетрясения	_	_	_	_	_	_	_	bratT44=Event
 5	в	_	_	_	_	_	_	_	_
 6	провинции	_	_	_	_	_	_	_	bratT3=GPE
 7	Измир	_	_	_	_	_	_	_	bratT3=GPE
@@ -38,8 +38,8 @@
 1	Всего	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
 3	результате	_	_	_	_	_	_	_	_
-4	природного	_	_	_	_	_	_	_	_
-5	катаклизма	_	_	_	_	_	_	_	_
+4	природного	_	_	_	_	_	_	_	bratT45=Event
+5	катаклизма	_	_	_	_	_	_	_	bratT45=Event
 6	пострадал	_	_	_	_	_	_	_	_
 7	961	_	_	_	_	_	_	_	bratT6=Quantity
 8	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Quantity
@@ -55,8 +55,8 @@
 18	турецкого	_	_	_	_	_	_	_	bratA1=T8:Department|bratA8=T34:Adjective|bratT34=GPE|bratT8=Organization|bratT9=Organization
 19	Управления	_	_	_	_	_	_	_	bratA1=T8:Department|bratT8=Organization|bratT9=Organization
 20	по	_	_	_	_	_	_	_	bratA1=T8:Department|bratT8=Organization|bratT9=Organization
-21	чрезвычайным	_	_	_	_	_	_	_	bratA1=T8:Department|bratT8=Organization|bratT9=Organization
-22	ситуациям	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratT8=Organization|bratT9=Organization
+21	чрезвычайным	_	_	_	_	_	_	_	bratA1=T8:Department|bratT42=Event|bratT8=Organization|bratT9=Organization
+22	ситуациям	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Department|bratT42=Event|bratT8=Organization|bratT9=Organization
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0087-p3
@@ -77,8 +77,8 @@
 3	уже	_	_	_	_	_	_	_	_
 4	выписали	_	_	_	_	_	_	_	_
 5	из	_	_	_	_	_	_	_	_
-6	медицинских	_	_	_	_	_	_	_	_
-7	учреждений	_	_	_	_	_	_	_	SpaceAfter=No
+6	медицинских	_	_	_	_	_	_	_	bratT41=Organization
+7	учреждений	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0087-p3-s3
@@ -108,8 +108,8 @@
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
 4	землетрясение	_	_	_	_	_	_	_	bratT14=Event
-5	магнитудой	_	_	_	_	_	_	_	bratT14=Event
-6	6,7	_	_	_	_	_	_	_	bratT14=Event|bratT15=Quantity
+5	магнитудой	_	_	_	_	_	_	_	_
+6	6,7	_	_	_	_	_	_	_	bratT15=Quantity
 7	случилось	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	bratA4=T28:Past|bratT28=Date-absolute
 9	минувшую	_	_	_	_	_	_	_	bratA4=T28:Past|bratT28=Date-absolute|bratT31=Ordinal
@@ -145,7 +145,7 @@
 
 # sent_id = 0087-p4-s3
 # text = Землетрясение стало причиной обрушения по меньшей мере двадцати строений в турецкой провинции Измир, разрушения также зафиксировали в Греции в городе Неон-Карловаси.
-1	Землетрясение	_	_	_	_	_	_	_	_
+1	Землетрясение	_	_	_	_	_	_	_	bratT46=Event
 2	стало	_	_	_	_	_	_	_	_
 3	причиной	_	_	_	_	_	_	_	_
 4	обрушения	_	_	_	_	_	_	_	_

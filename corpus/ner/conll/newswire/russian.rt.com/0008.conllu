@@ -8,9 +8,9 @@
 3	выявили	_	_	_	_	_	_	_	_
 4	12	_	_	_	_	_	_	_	bratT3=Quantity
 5	079	_	_	_	_	_	_	_	bratT3=Quantity
-6	новых	_	_	_	_	_	_	_	bratT3=Quantity
-7	случаев	_	_	_	_	_	_	_	bratT3=Quantity
-8	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term
+6	новых	_	_	_	_	_	_	_	bratT3=Quantity|bratT50=Event
+7	случаев	_	_	_	_	_	_	_	bratT3=Quantity|bratT50=Event
+8	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term|bratT50=Event
 9	за	_	_	_	_	_	_	_	bratA5=T36:Past-Pres|bratT36=Date-period-absolute
 10	сутки	_	_	_	_	_	_	_	bratA5=T36:Past-Pres|bratT36=Date-period-absolute|bratT5=Duration
 
@@ -23,14 +23,14 @@
 3	выявили	_	_	_	_	_	_	_	_
 4	12	_	_	_	_	_	_	_	bratT10=Quantity
 5	079	_	_	_	_	_	_	_	bratT10=Quantity
-6	новых	_	_	_	_	_	_	_	bratT10=Quantity
-7	случаев	_	_	_	_	_	_	_	bratT10=Quantity
-8	коронавирусной	_	_	_	_	_	_	_	bratT28=Other-term
-9	инфекции	_	_	_	_	_	_	_	bratT28=Other-term
+6	новых	_	_	_	_	_	_	_	bratT10=Quantity|bratT51=Event
+7	случаев	_	_	_	_	_	_	_	bratT10=Quantity|bratT51=Event
+8	коронавирусной	_	_	_	_	_	_	_	bratT28=Other-term|bratT51=Event
+9	инфекции	_	_	_	_	_	_	_	bratT28=Other-term|bratT51=Event
 10-12	COVID-19	_	_	_	_	_	_	_	_
-10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
-11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
-12	19	_	_	_	_	_	_	_	bratT28=Other-term|bratT46=Cardinal
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term|bratT51=Event
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term|bratT51=Event
+12	19	_	_	_	_	_	_	_	bratT28=Other-term|bratT46=Cardinal|bratT51=Event
 13	за	_	_	_	_	_	_	_	bratA2=T37:Past-Pres|bratT37=Date-period-absolute
 14	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T37:Past-Pres|bratT29=Duration|bratT37=Date-period-absolute
 15	.	_	_	_	_	_	_	_	_
@@ -44,9 +44,9 @@
 5	зафиксировано	_	_	_	_	_	_	_	_
 6	624	_	_	_	_	_	_	_	bratT30=Quantity
 7	744	_	_	_	_	_	_	_	bratT30=Quantity
-8	случая	_	_	_	_	_	_	_	bratT30=Quantity
-9	заболевания	_	_	_	_	_	_	_	_
-10	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term
+8	случая	_	_	_	_	_	_	_	bratT30=Quantity|bratT49=Event
+9	заболевания	_	_	_	_	_	_	_	bratT49=Event
+10	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term|bratT49=Event
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0008-p3
@@ -131,9 +131,9 @@
 7	зафиксировали	_	_	_	_	_	_	_	_
 8	10	_	_	_	_	_	_	_	bratT21=Quantity
 9	951	_	_	_	_	_	_	_	bratT21=Quantity
-10	летальный	_	_	_	_	_	_	_	bratT21=Quantity
-11	случай	_	_	_	_	_	_	_	bratT21=Quantity
-12	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term
+10	летальный	_	_	_	_	_	_	_	bratT21=Quantity|bratT52=Event
+11	случай	_	_	_	_	_	_	_	bratT21=Quantity|bratT52=Event
+12	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term|bratT52=Event
 13	,	_	_	_	_	_	_	_	_
 14	286	_	_	_	_	_	_	_	bratT23=Quantity
 15	917	_	_	_	_	_	_	_	bratT23=Quantity

@@ -20,13 +20,13 @@
 # text = Организационный комитет летних Олимпийских и Паралимпийских игр в Токио намерен в ноябре начать процесс возврата стоимости купленных билетов на соревнования, проведение которых было перенесено на 2021 год, передает ТАСС, ссылаясь на телеканал NHK.
 1	Организационный	_	_	_	_	_	_	_	bratT3=Organization
 2	комитет	_	_	_	_	_	_	_	bratT3=Organization
-3	летних	_	_	_	_	_	_	_	bratA9=T4:Plural|bratT3=Organization|bratT37=Time-period|bratT4=Event
+3	летних	_	_	_	_	_	_	_	bratA11=T37:Future|bratA9=T4:Plural|bratT3=Organization|bratT37=Date-absolute|bratT4=Event
 4	Олимпийских	_	_	_	_	_	_	_	bratA9=T4:Plural|bratT3=Organization|bratT4=Event|bratT43=Event
 5	и	_	_	_	_	_	_	_	bratA9=T4:Plural|bratT3=Organization|bratT4=Event
 6	Паралимпийских	_	_	_	_	_	_	_	bratA9=T4:Plural|bratT3=Organization|bratT4=Event|bratT44=Event
 7	игр	_	_	_	_	_	_	_	bratA9=T4:Plural|bratT3=Organization|bratT4=Event
-8	в	_	_	_	_	_	_	_	bratA9=T4:Plural|bratT3=Organization|bratT4=Event
-9	Токио	_	_	_	_	_	_	_	bratA9=T4:Plural|bratT3=Organization|bratT4=Event|bratT5=GPE
+8	в	_	_	_	_	_	_	_	_
+9	Токио	_	_	_	_	_	_	_	bratT5=GPE
 10	намерен	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	bratA4=T6:Future|bratT6=Date-absolute
 12	ноябре	_	_	_	_	_	_	_	bratA4=T6:Future|bratT6=Date-absolute

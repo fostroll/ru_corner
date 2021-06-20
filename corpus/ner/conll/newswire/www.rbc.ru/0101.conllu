@@ -3,7 +3,7 @@
 # par_text = Врач сообщила о скрытых угрозах коронавируса
 # sent_id = 0101-p1-s1
 # text = Врач сообщила о скрытых угрозах коронавируса
-1	Врач	_	_	_	_	_	_	_	bratT1=Person-property
+1	Врач	_	_	_	_	_	_	_	bratA11=T54:Female|bratT1=Person-property|bratT54=Person
 2	сообщила	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	скрытых	_	_	_	_	_	_	_	_
@@ -148,7 +148,7 @@
 # sent_id = 0101-p6-s1
 # text = Также эндокринолог отметила, что из-за пандемии COVID-19 снижается физическая активность людей.
 1	Также	_	_	_	_	_	_	_	_
-2	эндокринолог	_	_	_	_	_	_	_	bratT17=Person-property
+2	эндокринолог	_	_	_	_	_	_	_	bratA10=T53:Female|bratT17=Person-property|bratT53=Person
 3	отметила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 # text = При этом медик отметила, что истощенные люди также подвержены риску тяжелого течения COVID-19.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	медик	_	_	_	_	_	_	_	bratT21=Person-property
+3	медик	_	_	_	_	_	_	_	bratA9=T52:Female|bratT21=Person-property|bratT52=Person
 4	отметила	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -207,9 +207,9 @@
 # sent_id = 0101-p7-s1
 # text = При заболевании коронавирусной инфекцией Шестакова рекомендовала больше двигаться и пить воды, а также употреблять меньше сладкого.
 1	При	_	_	_	_	_	_	_	_
-2	заболевании	_	_	_	_	_	_	_	_
-3	коронавирусной	_	_	_	_	_	_	_	bratT23=Other-term
-4	инфекцией	_	_	_	_	_	_	_	bratT23=Other-term
+2	заболевании	_	_	_	_	_	_	_	bratT47=Event
+3	коронавирусной	_	_	_	_	_	_	_	bratT23=Other-term|bratT47=Event
+4	инфекцией	_	_	_	_	_	_	_	bratT23=Other-term|bratT47=Event
 5	Шестакова	_	_	_	_	_	_	_	bratA6=T24:Female|bratT24=Person|bratT39=Person-surname
 6	рекомендовала	_	_	_	_	_	_	_	_
 7	больше	_	_	_	_	_	_	_	_
@@ -240,11 +240,11 @@
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
 10	при	_	_	_	_	_	_	_	_
-11	заражении	_	_	_	_	_	_	_	_
+11	заражении	_	_	_	_	_	_	_	bratT51=Event
 12-14	COVID-19	_	_	_	_	_	_	_	_
-12	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term
-13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term
-14	19	_	_	_	_	_	_	_	bratT25=Other-term|bratT50=Cardinal
+12	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term|bratT51=Event
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Other-term|bratT51=Event
+14	19	_	_	_	_	_	_	_	bratT25=Other-term|bratT50=Cardinal|bratT51=Event
 15	нужно	_	_	_	_	_	_	_	_
 16	сократить	_	_	_	_	_	_	_	_
 17	потребление	_	_	_	_	_	_	_	_

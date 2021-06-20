@@ -44,7 +44,7 @@
 23	несколькими	_	_	_	_	_	_	_	bratT45=Quantity
 24	другими	_	_	_	_	_	_	_	bratT45=Quantity
 25	участниками	_	_	_	_	_	_	_	bratT45=Quantity
-26	встречи	_	_	_	_	_	_	_	_
+26	встречи	_	_	_	_	_	_	_	bratT90=Event
 27	с	_	_	_	_	_	_	_	_
 28	президентом	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT12=Person-property
 29	Белоруссии	_	_	_	_	_	_	_	bratA8=T11:Male|bratT11=Person|bratT12=Person-property|bratT13=GPE
@@ -98,8 +98,8 @@
 5	пресечения	_	_	_	_	_	_	_	_
 6	подтвердила	_	_	_	_	_	_	_	_
 7	и	_	_	_	_	_	_	_	_
-8	адвокат	_	_	_	_	_	_	_	bratT21=Person-property
-9	Власовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T61:Female|bratT21=Person-property|bratT22=Person-surname|bratT61=Person
+8	адвокат	_	_	_	_	_	_	_	bratA28=T91:Female|bratT21=Person-property|bratT91=Person
+9	Власовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T61:Female|bratA28=T91:Female|bratT21=Person-property|bratT22=Person-surname|bratT61=Person|bratT91=Person
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0101-p4
@@ -120,7 +120,7 @@
 12	нее	_	_	_	_	_	_	_	_
 13	дома	_	_	_	_	_	_	_	_
 14	прошел	_	_	_	_	_	_	_	_
-15	обыск	_	_	_	_	_	_	_	SpaceAfter=No
+15	обыск	_	_	_	_	_	_	_	SpaceAfter=No|bratT92=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0101-p4-s2

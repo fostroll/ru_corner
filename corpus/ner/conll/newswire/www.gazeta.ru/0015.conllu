@@ -32,8 +32,8 @@
 12	о	_	_	_	_	_	_	_	_
 13	четырехкратном	_	_	_	_	_	_	_	bratT7=Quantity
 14	увеличении	_	_	_	_	_	_	_	_
-15	контингента	_	_	_	_	_	_	_	_
-16	МККК	_	_	_	_	_	_	_	bratT8=Organization
+15	контингента	_	_	_	_	_	_	_	bratT67=Organization
+16	МККК	_	_	_	_	_	_	_	bratT67=Organization|bratT8=Organization
 17	в	_	_	_	_	_	_	_	_
 18	Нагорном	_	_	_	_	_	_	_	bratT9=GPE
 19	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=GPE
@@ -66,17 +66,17 @@
 10	связи	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
 12	развитием	_	_	_	_	_	_	_	_
-13	конфликта	_	_	_	_	_	_	_	SpaceAfter=No
+13	конфликта	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0015-p3-s2
 # text = До войны бюджет миссии в Карабахе составлял ₣10 млн, на 2021 год он составит ₣45 млн.
 1	До	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-period-absolute
-2	войны	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-period-absolute
+2	войны	_	_	_	_	_	_	_	bratA4=T46:Past|bratT46=Date-period-absolute|bratT66=Event
 3	бюджет	_	_	_	_	_	_	_	_
-4	миссии	_	_	_	_	_	_	_	_
-5	в	_	_	_	_	_	_	_	_
-6	Карабахе	_	_	_	_	_	_	_	bratT12=GPE
+4	миссии	_	_	_	_	_	_	_	bratT65=Organization
+5	в	_	_	_	_	_	_	_	bratT65=Organization
+6	Карабахе	_	_	_	_	_	_	_	bratT12=GPE|bratT65=Organization
 7	составлял	_	_	_	_	_	_	_	_
 8-9	₣10	_	_	_	_	_	_	_	_
 8	₣	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Money

@@ -35,7 +35,7 @@
 14	область	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE|bratT6=GPE
 15	)	_	_	_	_	_	_	_	bratT5=GPE
 16	произошло	_	_	_	_	_	_	_	_
-17	нападение	_	_	_	_	_	_	_	_
+17	нападение	_	_	_	_	_	_	_	bratT34=Event
 18	с	_	_	_	_	_	_	_	_
 19	ножом	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
@@ -168,31 +168,31 @@
 # par_text = Подозреваемый – 37-летний житель Кривого Рога, мотивы преступления выясняются. Открыто уголовное производство по статье «Умышленное убийство», передает ТАСС.
 # sent_id = 0083-p6-s1
 # text = Подозреваемый - 37-летний житель Кривого Рога, мотивы преступления выясняются.
-1	Подозреваемый	_	_	_	_	_	_	_	_
+1	Подозреваемый	_	_	_	_	_	_	_	bratT35=Person-property
 2	-	_	_	_	_	_	_	_	_
 3-5	37-летний	_	_	_	_	_	_	_	_
 3	37	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Age
 4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Age
 5	летний	_	_	_	_	_	_	_	bratT18=Age
-6	житель	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT26=Nationality
-7	Кривого	_	_	_	_	_	_	_	bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality
-8	Рога	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality
+6	житель	_	_	_	_	_	_	_	bratA1=T36:Male|bratA6=T26:Resident|bratT26=Nationality|bratT36=Person
+7	Кривого	_	_	_	_	_	_	_	bratA1=T36:Male|bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality|bratT36=Person
+8	Рога	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T36:Male|bratA6=T26:Resident|bratT19=GPE|bratT26=Nationality|bratT36=Person
 9	,	_	_	_	_	_	_	_	_
 10	мотивы	_	_	_	_	_	_	_	_
-11	преступления	_	_	_	_	_	_	_	_
+11	преступления	_	_	_	_	_	_	_	bratT39=Event
 12	выясняются	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p6-s2
 # text = Открыто уголовное производство по статье ``Умышленное убийство'', передает ТАСС.
 1	Открыто	_	_	_	_	_	_	_	_
-2	уголовное	_	_	_	_	_	_	_	_
-3	производство	_	_	_	_	_	_	_	_
+2	уголовное	_	_	_	_	_	_	_	bratT37=Event
+3	производство	_	_	_	_	_	_	_	bratT37=Event
 4	по	_	_	_	_	_	_	_	_
 5	статье	_	_	_	_	_	_	_	bratT20=Law
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law
 7	Умышленное	_	_	_	_	_	_	_	bratT20=Law
-8	убийство	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law
+8	убийство	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law|bratT38=Event
 9	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Law
 10	,	_	_	_	_	_	_	_	_
 11	передает	_	_	_	_	_	_	_	_

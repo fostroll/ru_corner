@@ -4,8 +4,8 @@
 # sent_id = 0076-p1-s1
 # text = Три российских вуза вошли топ-250 самых привлекательных для работодателей университетов
 1	Три	_	_	_	_	_	_	_	bratT2=Quantity
-2	российских	_	_	_	_	_	_	_	bratA5=T59:Adjective|bratT2=Quantity|bratT59=GPE
-3	вуза	_	_	_	_	_	_	_	bratT2=Quantity
+2	российских	_	_	_	_	_	_	_	bratA5=T59:Adjective|bratT2=Quantity|bratT59=GPE|bratT71=Organization
+3	вуза	_	_	_	_	_	_	_	bratT2=Quantity|bratT71=Organization
 4	вошли	_	_	_	_	_	_	_	_
 5-7	топ-250	_	_	_	_	_	_	_	_
 5	топ	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Quantity
@@ -64,7 +64,7 @@
 # par_text = Вузы отбирались в 43 государствах – но лидерами стали американские университеты. В топ-3 – Калифорнийский технологический институт, Массачусетский технологический институт и Гарвардский университет.
 # sent_id = 0076-p3-s1
 # text = Вузы отбирались в 43 государствах - но лидерами стали американские университеты.
-1	Вузы	_	_	_	_	_	_	_	_
+1	Вузы	_	_	_	_	_	_	_	bratT72=Organization
 2	отбирались	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	43	_	_	_	_	_	_	_	bratT1=Quantity
@@ -199,11 +199,11 @@
 2	часть	_	_	_	_	_	_	_	bratT35=Percent
 3	рейтинга	_	_	_	_	_	_	_	_
 4	занимают	_	_	_	_	_	_	_	_
-5	американские	_	_	_	_	_	_	_	bratA9=T62:Adjective|bratT62=GPE
-6	вузы	_	_	_	_	_	_	_	_
+5	американские	_	_	_	_	_	_	_	bratA9=T62:Adjective|bratT62=GPE|bratT73=Organization
+6	вузы	_	_	_	_	_	_	_	bratT73=Organization
 7	(	_	_	_	_	_	_	_	SpaceAfter=No
 8	51	_	_	_	_	_	_	_	bratT36=Quantity
-9	учреждение	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Quantity
+9	учреждение	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Quantity|bratT75=Organization
 10	)	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
@@ -276,13 +276,13 @@
 8	,	_	_	_	_	_	_	_	_
 9	специалисты	_	_	_	_	_	_	_	bratT47=Person-property
 10	каких	_	_	_	_	_	_	_	_
-11	вузов	_	_	_	_	_	_	_	_
+11	вузов	_	_	_	_	_	_	_	bratT74=Organization
 12	наиболее	_	_	_	_	_	_	_	_
 13	подготовлены	_	_	_	_	_	_	_	_
 14	к	_	_	_	_	_	_	_	_
 15	работе	_	_	_	_	_	_	_	_
 16	после	_	_	_	_	_	_	_	bratT48=Time-relative
-17	выпуска	_	_	_	_	_	_	_	_
+17	выпуска	_	_	_	_	_	_	_	bratT76=Event
 18	и	_	_	_	_	_	_	_	_
 19	у	_	_	_	_	_	_	_	_
 20	кого	_	_	_	_	_	_	_	_

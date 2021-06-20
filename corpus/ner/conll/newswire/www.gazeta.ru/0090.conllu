@@ -92,7 +92,7 @@
 # par_text = Сокращения были сделаны по поручению гендиректора «Роскосмоса» Дмитрия Рогозина в рамках снижения непроизводственных расходов «Роскосмоса».
 # sent_id = 0090-p4-s1
 # text = Сокращения были сделаны по поручению гендиректора ``Роскосмоса'' Дмитрия Рогозина в рамках снижения непроизводственных расходов ``Роскосмоса''.
-1	Сокращения	_	_	_	_	_	_	_	_
+1	Сокращения	_	_	_	_	_	_	_	bratT27=Event
 2	были	_	_	_	_	_	_	_	_
 3	сделаны	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
@@ -105,24 +105,24 @@
 11	Рогозина	_	_	_	_	_	_	_	bratA8=T13:Male|bratT13=Person|bratT25=Person-surname
 12	в	_	_	_	_	_	_	_	_
 13	рамках	_	_	_	_	_	_	_	_
-14	снижения	_	_	_	_	_	_	_	_
-15	непроизводственных	_	_	_	_	_	_	_	_
-16	расходов	_	_	_	_	_	_	_	_
-17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
-18	Роскосмоса	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
-19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+14	снижения	_	_	_	_	_	_	_	bratA9=T28:Project|bratT28=Product
+15	непроизводственных	_	_	_	_	_	_	_	bratA9=T28:Project|bratT28=Product
+16	расходов	_	_	_	_	_	_	_	bratA9=T28:Project|bratT28=Product
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Project|bratT14=Organization|bratT28=Product
+18	Роскосмоса	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Project|bratT14=Organization|bratT28=Product
+19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Project|bratT14=Organization|bratT28=Product
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0090-p5
 # par_text = Увольнения затронули в основном непроизводственный персонал. В то же время производительность труда выросла на 16%.
 # sent_id = 0090-p5-s1
 # text = Увольнения затронули в основном непроизводственный персонал.
-1	Увольнения	_	_	_	_	_	_	_	_
+1	Увольнения	_	_	_	_	_	_	_	bratT26=Event
 2	затронули	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	основном	_	_	_	_	_	_	_	_
-5	непроизводственный	_	_	_	_	_	_	_	_
-6	персонал	_	_	_	_	_	_	_	SpaceAfter=No
+5	непроизводственный	_	_	_	_	_	_	_	bratT29=Person-property
+6	персонал	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0090-p5-s2

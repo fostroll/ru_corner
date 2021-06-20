@@ -13,7 +13,7 @@
 7	японского	_	_	_	_	_	_	_	bratA11=T26:Resident|bratA2=T20:Adjective|bratT20=GPE|bratT26=Nationality|bratT35=GPE
 8	города	_	_	_	_	_	_	_	bratA11=T26:Resident|bratT26=Nationality|bratT35=GPE
 9	от	_	_	_	_	_	_	_	_
-10	нападений	_	_	_	_	_	_	_	_
+10	нападений	_	_	_	_	_	_	_	bratT40=Event
 11	медведей	_	_	_	_	_	_	_	_
 12	(	_	_	_	_	_	_	_	SpaceAfter=No
 13	ВИДЕО	_	_	_	_	_	_	_	SpaceAfter=No
@@ -42,9 +42,9 @@
 16	,	_	_	_	_	_	_	_	_
 17	помогли	_	_	_	_	_	_	_	_
 18	решить	_	_	_	_	_	_	_	_
-19	проблему	_	_	_	_	_	_	_	_
-20	с	_	_	_	_	_	_	_	_
-21	нападениями	_	_	_	_	_	_	_	_
+19	проблему	_	_	_	_	_	_	_	bratT42=Event
+20	с	_	_	_	_	_	_	_	bratT42=Event
+21	нападениями	_	_	_	_	_	_	_	bratT41=Event|bratT42=Event
 22	медведей	_	_	_	_	_	_	_	_
 23	на	_	_	_	_	_	_	_	_
 24	местных	_	_	_	_	_	_	_	bratA12=T27:Resident|bratA14=T33:Adjective|bratT27=Nationality|bratT33=GPE
@@ -97,9 +97,9 @@
 1	После	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
 2	установки	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute|bratT23=Event
 3-5	роботов-пугал	_	_	_	_	_	_	_	_
-3	роботов	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Event
-4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Event
-5	пугал	_	_	_	_	_	_	_	bratT23=Event
+3	роботов	_	_	_	_	_	_	_	SpaceAfter=Yes
+4	-	_	_	_	_	_	_	_	SpaceAfter=Yes
+5	пугал	_	_	_	_	_	_	_	_
 6	сообщений	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
 8	медведях	_	_	_	_	_	_	_	_
@@ -174,7 +174,7 @@
 8	максимум	_	_	_	_	_	_	_	bratT25=Event
 9	сообщений	_	_	_	_	_	_	_	bratT25=Event
 10	о	_	_	_	_	_	_	_	_
-11	встречах	_	_	_	_	_	_	_	_
+11	встречах	_	_	_	_	_	_	_	bratT39=Event
 12	с	_	_	_	_	_	_	_	_
 13	медведями	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
@@ -203,7 +203,7 @@
 9	а	_	_	_	_	_	_	_	_
 10	два	_	_	_	_	_	_	_	bratT12=Quantity
 11	таких	_	_	_	_	_	_	_	bratT12=Quantity
-12	нападения	_	_	_	_	_	_	_	bratT12=Quantity
+12	нападения	_	_	_	_	_	_	_	bratT12=Quantity|bratT38=Event
 13	в	_	_	_	_	_	_	_	bratA9=T15:Past|bratT15=Date-absolute
 14	этом	_	_	_	_	_	_	_	bratA9=T15:Past|bratT15=Date-absolute|bratT30=Ordinal
 15	году	_	_	_	_	_	_	_	bratA9=T15:Past|bratT15=Date-absolute
@@ -232,7 +232,7 @@
 17	поисками	_	_	_	_	_	_	_	_
 18	еды	_	_	_	_	_	_	_	_
 19	перед	_	_	_	_	_	_	_	bratA10=T18:Past-Fut|bratT18=Date-period-absolute
-20	зимней	_	_	_	_	_	_	_	bratA10=T18:Past-Fut|bratT18=Date-period-absolute|bratT24=Event|bratT31=Time-period
+20	зимней	_	_	_	_	_	_	_	bratA10=T18:Past-Fut|bratA17=T31:Future|bratT18=Date-period-absolute|bratT24=Event|bratT31=Date-absolute
 21	спячкой	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T18:Past-Fut|bratT18=Date-period-absolute|bratT24=Event
 22	.	_	_	_	_	_	_	_	_
 

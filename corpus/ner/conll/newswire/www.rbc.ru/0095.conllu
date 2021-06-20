@@ -6,21 +6,21 @@
 1	Центр	_	_	_	_	_	_	_	bratT1=Organization
 2	Гамалеи	_	_	_	_	_	_	_	bratT1=Organization|bratT37=Person|bratT38=Person-surname
 3	спрогнозировал	_	_	_	_	_	_	_	_
-4	проблемы	_	_	_	_	_	_	_	_
-5	с	_	_	_	_	_	_	_	_
-6	распространением	_	_	_	_	_	_	_	_
+4	проблемы	_	_	_	_	_	_	_	bratT43=Event
+5	с	_	_	_	_	_	_	_	bratT43=Event
+6	распространением	_	_	_	_	_	_	_	bratT43=Event
 7	вакцины	_	_	_	_	_	_	_	bratA8=T2:Trademark|bratT2=Product
-8	Pfizer	_	_	_	_	_	_	_	bratA8=T2:Trademark|bratT2=Product
+8	Pfizer	_	_	_	_	_	_	_	bratA8=T2:Trademark|bratT2=Product|bratT39=Organization
 
 # newpar id = 0095-p2
 # par_text = У вакцины немецкой фармкомпании BioNTech и ее американского партнера Pfizer могут возникнуть проблемы с логистикой из-за особых условий хранения препарата. Об этом заявил глава Центра им. Гамалеи Александр Гинцбург в эфире телеканала «Россия 1».
 # sent_id = 0095-p2-s1
 # text = У вакцины немецкой фармкомпании BioNTech и ее американского партнера Pfizer могут возникнуть проблемы с логистикой из-за особых условий хранения препарата.
 1	У	_	_	_	_	_	_	_	_
-2	вакцины	_	_	_	_	_	_	_	_
-3	немецкой	_	_	_	_	_	_	_	bratT3=Organization
-4	фармкомпании	_	_	_	_	_	_	_	bratT3=Organization
-5	BioNTech	_	_	_	_	_	_	_	bratT3=Organization
+2	вакцины	_	_	_	_	_	_	_	bratA11=T41:Trademark|bratT41=Product
+3	немецкой	_	_	_	_	_	_	_	bratA11=T41:Trademark|bratT3=Organization|bratT41=Product|bratT42=GPE
+4	фармкомпании	_	_	_	_	_	_	_	bratA11=T41:Trademark|bratT3=Organization|bratT41=Product
+5	BioNTech	_	_	_	_	_	_	_	bratA11=T41:Trademark|bratT3=Organization|bratT41=Product
 6	и	_	_	_	_	_	_	_	_
 7	ее	_	_	_	_	_	_	_	_
 8	американского	_	_	_	_	_	_	_	bratA2=T11:Adjective|bratT11=GPE
@@ -28,9 +28,9 @@
 10	Pfizer	_	_	_	_	_	_	_	bratT4=Organization
 11	могут	_	_	_	_	_	_	_	_
 12	возникнуть	_	_	_	_	_	_	_	_
-13	проблемы	_	_	_	_	_	_	_	_
-14	с	_	_	_	_	_	_	_	_
-15	логистикой	_	_	_	_	_	_	_	_
+13	проблемы	_	_	_	_	_	_	_	bratT44=Event
+14	с	_	_	_	_	_	_	_	bratT44=Event
+15	логистикой	_	_	_	_	_	_	_	bratT44=Event
 16	из-за	_	_	_	_	_	_	_	_
 17	особых	_	_	_	_	_	_	_	_
 18	условий	_	_	_	_	_	_	_	_
@@ -70,7 +70,7 @@
 6	там	_	_	_	_	_	_	_	_
 7	очень	_	_	_	_	_	_	_	_
 8	большие	_	_	_	_	_	_	_	_
-9	проблемы	_	_	_	_	_	_	_	_
+9	проблемы	_	_	_	_	_	_	_	bratT45=Event
 10	будут	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
 12	логистикой	_	_	_	_	_	_	_	SpaceAfter=No
@@ -192,7 +192,7 @@
 # text = Вакцина же Pfizer создана на другой основе - на основе РНК, а как долго защищают подобные препараты, до конца не изучено, отметил Гинцбург.
 1	Вакцина	_	_	_	_	_	_	_	bratA10=T21:Trademark|bratT21=Product
 2	же	_	_	_	_	_	_	_	bratA10=T21:Trademark|bratT21=Product
-3	Pfizer	_	_	_	_	_	_	_	bratA10=T21:Trademark|bratT21=Product
+3	Pfizer	_	_	_	_	_	_	_	bratA10=T21:Trademark|bratT21=Product|bratT40=Organization
 4	создана	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
 6	другой	_	_	_	_	_	_	_	_

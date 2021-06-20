@@ -21,15 +21,15 @@ T19	Event 274 282	убийстве
 T20	Quantity 574 592	семи   задержанным
 T21	Age 618 636	несовершеннолетних
 T22	Quantity 611 636	двое   несовершеннолетних
-T23	Other-group 688 698	террористу
+T23	Person-property 688 698	террористу
 T24	Person-property 718 731	преподавателе
 T25	Family 738 742	отец
 T26	Political-group 745 753	радикала
 T27	Person 786 790	Пати
-T28	Religious-group 797 820	исламистский   активист
+T28	Religious-group 797 809	исламистский
 T29	Person 797 844	исламистский   активист   Абдельхаким   Сефриуи
 T30	Quantity 851 865	три   товарища
-T31	Other-group 949 960	задержанные
+T31	Person-property 949 960	задержанные
 T32	Organization 1013 1034	французская   полиция
 T33	Quantity 1065 1077	16   человек
 T34	Quantity 1084 1091	шестеро
@@ -45,7 +45,7 @@ T43	Money 1397 1409	сотни   евро
 T44	Person-property 1557 1568	Следователи
 T45	Age 1614 1626	15 - летнему
 T46	Person-property 1629 1638	школьнику
-T47	Other-group 1730 1741	преступнику
+T47	Person-property 1730 1741	преступнику
 T48	Age 1776 1788	47 - летнего
 T49	Person 1791 1795	Пати
 T50	Person-property 1867 1874	пророка
@@ -102,3 +102,7 @@ A8	Media T81
 T82	Facility 1768 1773	школы
 T83	Organization 1923 1929	газета
 A21	Media T83
+T84	Person-property 581 592	задержанным
+T85	Person-property 797 820	исламистский   активист
+A22	Adjective T28
+T86	Event 1052 1062	задержании

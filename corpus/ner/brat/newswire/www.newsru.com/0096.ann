@@ -103,7 +103,6 @@ A23	Male T41
 T83	Person-forename 1337 1344	Кемаром
 T84	Person-surname 1347 1352	Руфом
 T85	Date-period-absolute 1798 1819	в   истории   турнира
-A24	Past-Pres T85
 A26	Pres-Fut T62
 T86	Ordinal 1268 1275	прошлой
 T87	Date-period-relative 811 823	после   чего
@@ -121,3 +120,10 @@ T95	Event 1812 1819	турнира
 A4	Past T3
 T96	Event 267 315	2-го   тура   группового   этапа   Лиги   Европы
 T97	Event 1367 1399	1-го   тура   группового   этапа
+A2	Past T85
+T98	Date-period-absolute 377 398	в   истории   турнира
+A24	Past T98
+T99	Event 0 6	Рекорд
+T100	Event 403 422	Предыдущий   рекорд
+T101	Event 1163 1182	Предыдущий   рекорд
+T102	Event 1631 1637	рекорд

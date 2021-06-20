@@ -7,10 +7,10 @@
 2	США	_	_	_	_	_	_	_	bratT1=GPE
 3	объяснили	_	_	_	_	_	_	_	_
 4	появление	_	_	_	_	_	_	_	_
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unconscious|bratT2=Person
-6	Джона	_	_	_	_	_	_	_	bratA1=T2:Unconscious|bratT2=Person
-7	Маккейна	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unconscious|bratT2=Person
-8	''	_	_	_	_	_	_	_	bratA1=T2:Unconscious|bratT2=Person
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unconscious|bratT2=Person|bratT35=Person-alias
+6	Джона	_	_	_	_	_	_	_	bratA1=T2:Unconscious|bratT2=Person|bratT35=Person-alias
+7	Маккейна	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unconscious|bratT2=Person|bratT35=Person-alias
+8	''	_	_	_	_	_	_	_	bratA1=T2:Unconscious|bratT2=Person|bratT35=Person-alias
 9	в	_	_	_	_	_	_	_	_
 10	водах	_	_	_	_	_	_	_	_
 11	у	_	_	_	_	_	_	_	_
@@ -22,12 +22,12 @@
 # text = Эсминец США ``Джон Маккейн'' проводил операцию по обеспечению свободы навигации в районе залива Петра Великого, не нарушая при этом международных прав, заявило командование Седьмого флота ВМС США.
 1	Эсминец	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT4=Person
 2	США	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT4=Person|bratT5=GPE
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Unconscious|bratT35=Person-alias|bratT4=Person
-4	Джон	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT35=Person-alias|bratT4=Person
-5	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Unconscious|bratT35=Person-alias|bratT4=Person
-6	''	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT35=Person-alias|bratT4=Person
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias
+4	Джон	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias
+5	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias
+6	''	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias
 7	проводил	_	_	_	_	_	_	_	_
-8	операцию	_	_	_	_	_	_	_	_
+8	операцию	_	_	_	_	_	_	_	bratT55=Event
 9	по	_	_	_	_	_	_	_	_
 10	обеспечению	_	_	_	_	_	_	_	_
 11	свободы	_	_	_	_	_	_	_	_
@@ -35,8 +35,8 @@
 13	в	_	_	_	_	_	_	_	_
 14	районе	_	_	_	_	_	_	_	_
 15	залива	_	_	_	_	_	_	_	bratT6=Location
-16	Петра	_	_	_	_	_	_	_	bratT6=Location
-17	Великого	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Location
+16	Петра	_	_	_	_	_	_	_	bratA10=T46:Male|bratT44=Person-forename|bratT46=Person|bratT6=Location
+17	Великого	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T46:Male|bratT45=Person-surname|bratT46=Person|bratT6=Location
 18	,	_	_	_	_	_	_	_	_
 19	не	_	_	_	_	_	_	_	_
 20	нарушая	_	_	_	_	_	_	_	_
@@ -100,8 +100,8 @@
 12	страны	_	_	_	_	_	_	_	bratT34=GPE
 13	в	_	_	_	_	_	_	_	_
 14	заливе	_	_	_	_	_	_	_	bratT14=Location
-15	Петра	_	_	_	_	_	_	_	bratT14=Location
-16	Великого	_	_	_	_	_	_	_	bratT14=Location
+15	Петра	_	_	_	_	_	_	_	bratA11=T49:Male|bratT14=Location|bratT47=Person-forename|bratT49=Person
+16	Великого	_	_	_	_	_	_	_	bratA11=T49:Male|bratT14=Location|bratT48=Person-surname|bratT49=Person
 17	в	_	_	_	_	_	_	_	_
 18	Японском	_	_	_	_	_	_	_	bratT15=Location
 19	море	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Location
@@ -135,8 +135,8 @@
 10	СССР	_	_	_	_	_	_	_	bratT20=GPE
 11	включил	_	_	_	_	_	_	_	_
 12	залив	_	_	_	_	_	_	_	bratT21=Location
-13	Петра	_	_	_	_	_	_	_	bratT21=Location
-14	Великого	_	_	_	_	_	_	_	bratT21=Location
+13	Петра	_	_	_	_	_	_	_	bratA12=T52:Male|bratT21=Location|bratT50=Person-forename|bratT52=Person
+14	Великого	_	_	_	_	_	_	_	bratA12=T52:Male|bratT21=Location|bratT51=Person-surname|bratT52=Person
 15	в	_	_	_	_	_	_	_	_
 16	свои	_	_	_	_	_	_	_	_
 17	внутренние	_	_	_	_	_	_	_	_
@@ -179,7 +179,7 @@
 # text = Проводя эту операцию, США продемонстрировали, что эти воды не относятся к территории России'', - говорится в заявлении флота.
 1	Проводя	_	_	_	_	_	_	_	_
 2	эту	_	_	_	_	_	_	_	_
-3	операцию	_	_	_	_	_	_	_	SpaceAfter=No
+3	операцию	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
 4	,	_	_	_	_	_	_	_	_
 5	США	_	_	_	_	_	_	_	bratT26=GPE
 6	продемонстрировали	_	_	_	_	_	_	_	SpaceAfter=No
@@ -198,7 +198,7 @@
 19	говорится	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
 21	заявлении	_	_	_	_	_	_	_	_
-22	флота	_	_	_	_	_	_	_	SpaceAfter=No
+22	флота	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Organization
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0050-p5
@@ -248,10 +248,10 @@
 11	том	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
-14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Unconscious|bratT33=Person
-15	Джон	_	_	_	_	_	_	_	bratA4=T33:Unconscious|bratT33=Person
-16	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Unconscious|bratT33=Person
-17	''	_	_	_	_	_	_	_	bratA4=T33:Unconscious|bratT33=Person
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias
+15	Джон	_	_	_	_	_	_	_	bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias
+16	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias
+17	''	_	_	_	_	_	_	_	bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias
 18	вторгся	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
 20	российские	_	_	_	_	_	_	_	bratA7=T38:Adjective|bratT38=GPE

@@ -7,7 +7,7 @@
 2	правительстве	_	_	_	_	_	_	_	bratT1=Organization
 3	раскрыли	_	_	_	_	_	_	_	_
 4	число	_	_	_	_	_	_	_	_
-5	сокращений	_	_	_	_	_	_	_	_
+5	сокращений	_	_	_	_	_	_	_	bratT62=Event
 6	во	_	_	_	_	_	_	_	_
 7	власти	_	_	_	_	_	_	_	bratT47=Organization
 
@@ -28,7 +28,7 @@
 10	Григоренко	_	_	_	_	_	_	_	bratA6=T5:Male|bratT32=Person-surname|bratT5=Person
 11	раскрыл	_	_	_	_	_	_	_	_
 12	число	_	_	_	_	_	_	_	_
-13	сокращений	_	_	_	_	_	_	_	_
+13	сокращений	_	_	_	_	_	_	_	bratT63=Event
 14	во	_	_	_	_	_	_	_	_
 15	власти	_	_	_	_	_	_	_	bratT50=Organization
 16	в	_	_	_	_	_	_	_	_
@@ -104,8 +104,8 @@
 7	,	_	_	_	_	_	_	_	_
 8	более	_	_	_	_	_	_	_	bratT12=Quantity
 9	45	_	_	_	_	_	_	_	bratT12=Quantity
-10	штатных	_	_	_	_	_	_	_	bratT12=Quantity
-11	единиц	_	_	_	_	_	_	_	bratT12=Quantity
+10	штатных	_	_	_	_	_	_	_	bratT12=Quantity|bratT15=Person-property
+11	единиц	_	_	_	_	_	_	_	bratT12=Quantity|bratT15=Person-property
 12	заместителей	_	_	_	_	_	_	_	bratT15=Person-property
 13	руководителей	_	_	_	_	_	_	_	bratT15=Person-property
 14	федеральных	_	_	_	_	_	_	_	bratT15=Person-property|bratT59=Organization
@@ -170,7 +170,7 @@
 7	пойти	_	_	_	_	_	_	_	_
 8	по	_	_	_	_	_	_	_	_
 9	пути	_	_	_	_	_	_	_	_
-10	сокращения	_	_	_	_	_	_	_	_
+10	сокращения	_	_	_	_	_	_	_	bratT64=Event
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
 12	искусственно	_	_	_	_	_	_	_	_
 13	поддерживаемых	_	_	_	_	_	_	_	_

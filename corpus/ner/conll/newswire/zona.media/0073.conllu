@@ -41,9 +41,9 @@
 # sent_id = 0073-p3-s1
 # text = Экс-сенатора арестовали по делу о мошенничестве в особо крупном размере (часть 4 статьи 159 УК), которое Октябрьский суд рассматривает по существу с июля.
 1-3	Экс-сенатора	_	_	_	_	_	_	_	_
-1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Person-property
-2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Person-property
-3	сенатора	_	_	_	_	_	_	_	bratT18=Person-property
+1	Экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Person-property|bratT64=Person
+2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Person-property|bratT64=Person
+3	сенатора	_	_	_	_	_	_	_	bratT18=Person-property|bratT64=Person
 4	арестовали	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
 6	делу	_	_	_	_	_	_	_	bratT51=Event
@@ -75,18 +75,18 @@
 # par_text = Знакомый экс-сенатора рассказал РБК, что 5 октября обвиняемого вернули под арест по ходатайству прокурора из-за неявки на заседания.
 # sent_id = 0073-p4-s1
 # text = Знакомый экс-сенатора рассказал РБК, что 5 октября обвиняемого вернули под арест по ходатайству прокурора из-за неявки на заседания.
-1	Знакомый	_	_	_	_	_	_	_	_
+1	Знакомый	_	_	_	_	_	_	_	bratA21=T63:Male|bratT63=Person
 2-4	экс-сенатора	_	_	_	_	_	_	_	_
-2	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Person-property
-3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Person-property
-4	сенатора	_	_	_	_	_	_	_	bratT23=Person-property
+2	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA21=T63:Male|bratT23=Person-property|bratT62=Person|bratT63=Person
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA21=T63:Male|bratT23=Person-property|bratT62=Person|bratT63=Person
+4	сенатора	_	_	_	_	_	_	_	bratA21=T63:Male|bratT23=Person-property|bratT62=Person|bratT63=Person
 5	рассказал	_	_	_	_	_	_	_	_
 6	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T24:Media|bratT24=Organization
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	5	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute
 10	октября	_	_	_	_	_	_	_	bratA9=T25:Past|bratT25=Date-absolute
-11	обвиняемого	_	_	_	_	_	_	_	bratT26=Person-property
+11	обвиняемого	_	_	_	_	_	_	_	bratA20=T61:Male|bratT26=Person-property|bratT61=Person
 12	вернули	_	_	_	_	_	_	_	_
 13	под	_	_	_	_	_	_	_	_
 14	арест	_	_	_	_	_	_	_	bratT31=Event
@@ -124,15 +124,15 @@
 
 # sent_id = 0073-p5-s2
 # text = Бывший сенатор говорил, что давал показания на арестованного сенатора Рауфа Арашукова по делу об убийствах.
-1	Бывший	_	_	_	_	_	_	_	bratT33=Person-property
-2	сенатор	_	_	_	_	_	_	_	bratT33=Person-property
+1	Бывший	_	_	_	_	_	_	_	bratA22=T65:Male|bratT33=Person-property|bratT65=Person
+2	сенатор	_	_	_	_	_	_	_	bratA22=T65:Male|bratT33=Person-property|bratT65=Person
 3	говорил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	давал	_	_	_	_	_	_	_	_
 7	показания	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
-9	арестованного	_	_	_	_	_	_	_	_
+9	арестованного	_	_	_	_	_	_	_	bratA12=T34:Male|bratT34=Person|bratT70=Person-property
 10	сенатора	_	_	_	_	_	_	_	bratA12=T34:Male|bratT34=Person|bratT37=Person-property
 11	Рауфа	_	_	_	_	_	_	_	bratA12=T34:Male|bratT34=Person|bratT35=Person-forename
 12	Арашукова	_	_	_	_	_	_	_	bratA12=T34:Male|bratT34=Person|bratT36=Person-surname
@@ -154,9 +154,9 @@
 6	дело	_	_	_	_	_	_	_	bratT56=Event
 7	против	_	_	_	_	_	_	_	_
 8-10	экс-сенатора	_	_	_	_	_	_	_	_
-8	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT39=Person-property
-9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT39=Person-property
-10	сенатора	_	_	_	_	_	_	_	bratT39=Person-property
+8	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT39=Person-property|bratT66=Person
+9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT39=Person-property|bratT66=Person
+10	сенатора	_	_	_	_	_	_	_	bratT39=Person-property|bratT66=Person
 11	подлежало	_	_	_	_	_	_	_	_
 12	прекращению	_	_	_	_	_	_	_	_
 13	по	_	_	_	_	_	_	_	_
@@ -166,11 +166,11 @@
 17	,	_	_	_	_	_	_	_	_
 18	а	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_
-20	заседаниях	_	_	_	_	_	_	_	_
+20	заседаниях	_	_	_	_	_	_	_	bratT67=Event
 21	присутствовали	_	_	_	_	_	_	_	_
-22	его	_	_	_	_	_	_	_	_
-23	законные	_	_	_	_	_	_	_	_
-24	представители	_	_	_	_	_	_	_	SpaceAfter=No
+22	его	_	_	_	_	_	_	_	bratT69=Person
+23	законные	_	_	_	_	_	_	_	bratT68=Person-property|bratT69=Person
+24	представители	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Person-property|bratT69=Person
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p7

@@ -36,15 +36,15 @@
 13	что	_	_	_	_	_	_	_	_
 14	отстраненный	_	_	_	_	_	_	_	_
 15	от	_	_	_	_	_	_	_	_
-16	ноябрьских	_	_	_	_	_	_	_	bratT66=Date-absolute
+16	ноябрьских	_	_	_	_	_	_	_	bratT66=Date-absolute|bratT70=Event
 17	матчей	_	_	_	_	_	_	_	bratT70=Event
 18	сборной	_	_	_	_	_	_	_	bratT9=Organization
 19	России	_	_	_	_	_	_	_	bratT8=GPE|bratT9=Organization
 20	из-за	_	_	_	_	_	_	_	_
 21	скандала	_	_	_	_	_	_	_	bratT12=Event
-22	с	_	_	_	_	_	_	_	bratT12=Event
-23	интимным	_	_	_	_	_	_	_	bratT12=Event
-24	видео	_	_	_	_	_	_	_	bratT12=Event
+22	с	_	_	_	_	_	_	_	_
+23	интимным	_	_	_	_	_	_	_	_
+24	видео	_	_	_	_	_	_	_	_
 25	нападающий	_	_	_	_	_	_	_	bratA7=T11:Male|bratT10=Person-property|bratT11=Person
 26	Артем	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT17=Person-forename
 27	Дзюба	_	_	_	_	_	_	_	bratA7=T11:Male|bratT11=Person|bratT51=Person-surname
@@ -57,7 +57,7 @@
 34	национальной	_	_	_	_	_	_	_	bratA21=T76:Adjective|bratT76=GPE|bratT77=Organization
 35	команды	_	_	_	_	_	_	_	bratT77=Organization
 36	во	_	_	_	_	_	_	_	bratA22=T69:Past|bratT69=Date-period-absolute
-37	вчерашнем	_	_	_	_	_	_	_	bratA22=T69:Past|bratT69=Date-period-absolute
+37	вчерашнем	_	_	_	_	_	_	_	bratA22=T69:Past|bratA24=T83:Past|bratT16=Event|bratT69=Date-period-absolute|bratT83=Date-absolute
 38	контрольном	_	_	_	_	_	_	_	bratA22=T69:Past|bratT16=Event|bratT69=Date-period-absolute
 39	матче	_	_	_	_	_	_	_	bratA22=T69:Past|bratT16=Event|bratT69=Date-period-absolute
 40	с	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 9	Молдавией	_	_	_	_	_	_	_	bratT26=GPE
 10	напомнила	_	_	_	_	_	_	_	_
 11	ему	_	_	_	_	_	_	_	_
-12	двухсторонний	_	_	_	_	_	_	_	bratT57=Quantity
+12	двухсторонний	_	_	_	_	_	_	_	bratT57=Quantity|bratT80=Event
 13	матч	_	_	_	_	_	_	_	bratT80=Event
 14	во	_	_	_	_	_	_	_	bratT46=Time-relative
 15	время	_	_	_	_	_	_	_	bratT46=Time-relative
@@ -238,7 +238,7 @@
 13	национальной	_	_	_	_	_	_	_	bratA23=T78:Adjective|bratT78=GPE|bratT79=Organization
 14	команды	_	_	_	_	_	_	_	bratT79=Organization
 15	на	_	_	_	_	_	_	_	_
-16	ноябрьские	_	_	_	_	_	_	_	bratT67=Date-absolute
+16	ноябрьские	_	_	_	_	_	_	_	bratT67=Date-absolute|bratT73=Event
 17	матчи	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event
 18	.	_	_	_	_	_	_	_	_
 

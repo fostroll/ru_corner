@@ -7,8 +7,8 @@
 2	Москве	_	_	_	_	_	_	_	bratT1=GPE
 3	выявлено	_	_	_	_	_	_	_	_
 4	6075	_	_	_	_	_	_	_	bratT2=Quantity
-5	случаев	_	_	_	_	_	_	_	bratT2=Quantity
-6	коронавируса	_	_	_	_	_	_	_	bratT3=Other-term
+5	случаев	_	_	_	_	_	_	_	bratT2=Quantity|bratT45=Event
+6	коронавируса	_	_	_	_	_	_	_	bratT3=Other-term|bratT45=Event
 7	за	_	_	_	_	_	_	_	bratA2=T4:Past-Pres|bratT4=Date-period-absolute
 8	сутки	_	_	_	_	_	_	_	bratA2=T4:Past-Pres|bratT4=Date-period-absolute|bratT40=Duration
 
@@ -23,9 +23,9 @@
 5	сутки	_	_	_	_	_	_	_	bratA5=T7:Past-Pres|bratT43=Duration|bratT7=Date-period-absolute
 6	выявили	_	_	_	_	_	_	_	_
 7	6075	_	_	_	_	_	_	_	bratT8=Quantity
-8	новых	_	_	_	_	_	_	_	bratT8=Quantity
-9	случаев	_	_	_	_	_	_	_	bratT8=Quantity
-10	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Other-term
+8	новых	_	_	_	_	_	_	_	bratT47=Event|bratT8=Quantity
+9	случаев	_	_	_	_	_	_	_	bratT47=Event|bratT8=Quantity
+10	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event|bratT9=Other-term
 11	,	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	том	_	_	_	_	_	_	_	_
@@ -68,9 +68,9 @@
 7	зафиксировали	_	_	_	_	_	_	_	_
 8	577	_	_	_	_	_	_	_	bratT14=Quantity
 9	177	_	_	_	_	_	_	_	bratT14=Quantity
-10	случаев	_	_	_	_	_	_	_	bratT14=Quantity
-11	коронавирусной	_	_	_	_	_	_	_	bratT15=Other-term
-12	инфекции	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term
+10	случаев	_	_	_	_	_	_	_	bratT14=Quantity|bratT48=Event
+11	коронавирусной	_	_	_	_	_	_	_	bratT15=Other-term|bratT48=Event
+12	инфекции	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Other-term|bratT48=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0120-p3-s2
@@ -90,8 +90,8 @@
 13	сутки	_	_	_	_	_	_	_	bratA6=T17:Past-Pres|bratT17=Date-period-absolute|bratT44=Duration
 14	зарегистрировано	_	_	_	_	_	_	_	_
 15	73	_	_	_	_	_	_	_	bratT6=Quantity
-16	летальных	_	_	_	_	_	_	_	bratT6=Quantity
-17	исхода	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Quantity
+16	летальных	_	_	_	_	_	_	_	bratT50=Event|bratT6=Quantity
+17	исхода	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event|bratT6=Quantity
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p4
@@ -124,9 +124,9 @@
 # sent_id = 0120-p5-s1
 # text = Среди новых выявленных случаев 41,9% - люди в возрасте от 18 до 45 лет, 31,9% - от 46 до 65 лет, 9,6% - от 66 до 79 лет, 4,3% - старше 80 лет.
 1	Среди	_	_	_	_	_	_	_	_
-2	новых	_	_	_	_	_	_	_	_
-3	выявленных	_	_	_	_	_	_	_	_
-4	случаев	_	_	_	_	_	_	_	_
+2	новых	_	_	_	_	_	_	_	bratT49=Event
+3	выявленных	_	_	_	_	_	_	_	bratT49=Event
+4	случаев	_	_	_	_	_	_	_	bratT49=Event
 5-6	41,9%	_	_	_	_	_	_	_	_
 5	41,9	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Percent
 6	%	_	_	_	_	_	_	_	bratT22=Percent

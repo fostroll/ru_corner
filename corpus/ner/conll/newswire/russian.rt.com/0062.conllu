@@ -200,7 +200,7 @@
 20	чтобы	_	_	_	_	_	_	_	_
 21	не	_	_	_	_	_	_	_	_
 22	было	_	_	_	_	_	_	_	_
-23	конфликтов	_	_	_	_	_	_	_	SpaceAfter=No
+23	конфликтов	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 24	''	_	_	_	_	_	_	_	SpaceAfter=No
 25	,	_	_	_	_	_	_	_	_
 26	-	_	_	_	_	_	_	_	_
@@ -285,10 +285,10 @@
 10	Агаси	_	_	_	_	_	_	_	bratA7=T8:Male|bratT31=Person-forename|bratT8=Person
 11	Тавадян	_	_	_	_	_	_	_	bratA7=T8:Male|bratT32=Person-surname|bratT8=Person
 12	спрогнозировал	_	_	_	_	_	_	_	_
-13	начало	_	_	_	_	_	_	_	_
-14	спада	_	_	_	_	_	_	_	_
-15	заболеваемости	_	_	_	_	_	_	_	_
-16	коронавирусом	_	_	_	_	_	_	_	bratT11=Other-term
+13	начало	_	_	_	_	_	_	_	bratT38=Event
+14	спада	_	_	_	_	_	_	_	bratT38=Event|bratT39=Event
+15	заболеваемости	_	_	_	_	_	_	_	bratT38=Event|bratT39=Event
+16	коронавирусом	_	_	_	_	_	_	_	bratT11=Other-term|bratT38=Event|bratT39=Event
 17	в	_	_	_	_	_	_	_	_
 18	России	_	_	_	_	_	_	_	bratT13=GPE
 19	в	_	_	_	_	_	_	_	bratA2=T12:Future|bratT12=Date-absolute

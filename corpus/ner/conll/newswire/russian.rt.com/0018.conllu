@@ -41,8 +41,8 @@
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
 4	пресс-секретарь	_	_	_	_	_	_	_	bratA7=T25:Male|bratT23=Person-property|bratT25=Person
-5	главы	_	_	_	_	_	_	_	bratA7=T25:Male|bratT23=Person-property|bratT24=Person-property|bratT25=Person
-6	государства	_	_	_	_	_	_	_	bratA7=T25:Male|bratT23=Person-property|bratT24=Person-property|bratT25=Person|bratT47=GPE
+5	главы	_	_	_	_	_	_	_	bratA7=T25:Male|bratT23=Person-property|bratT24=Person-property|bratT25=Person|bratT53=Person
+6	государства	_	_	_	_	_	_	_	bratA7=T25:Male|bratT23=Person-property|bratT24=Person-property|bratT25=Person|bratT47=GPE|bratT53=Person
 7	Дмитрий	_	_	_	_	_	_	_	bratA7=T25:Male|bratT25=Person|bratT35=Person-forename
 8	Песков	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T25:Male|bratT25=Person|bratT36=Person-surname
 9	,	_	_	_	_	_	_	_	_
@@ -113,7 +113,7 @@
 20	не	_	_	_	_	_	_	_	_
 21	принимает	_	_	_	_	_	_	_	_
 22	его	_	_	_	_	_	_	_	_
-23	победу	_	_	_	_	_	_	_	SpaceAfter=No
+23	победу	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0018-p5
@@ -164,8 +164,8 @@
 13	направлять	_	_	_	_	_	_	_	_
 14	свои	_	_	_	_	_	_	_	_
 15	поздравления	_	_	_	_	_	_	_	_
-16	победителю	_	_	_	_	_	_	_	_
-17	выборов	_	_	_	_	_	_	_	bratT50=Event
+16	победителю	_	_	_	_	_	_	_	bratT52=Person-property
+17	выборов	_	_	_	_	_	_	_	bratT50=Event|bratT52=Person-property
 18	в	_	_	_	_	_	_	_	_
 19	США	_	_	_	_	_	_	_	bratT19=GPE
 20	до	_	_	_	_	_	_	_	bratA1=T28:Pres-Fut|bratT28=Date-period-absolute

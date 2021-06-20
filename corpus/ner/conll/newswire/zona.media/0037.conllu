@@ -3,8 +3,8 @@
 # par_text = Бывший фигурант «московского дела» Абаничев отсудил 150 тысяч рублей за незаконное уголовное преследование
 # sent_id = 0037-p1-s1
 # text = Бывший фигурант ``московского дела'' Абаничев отсудил 150 тысяч рублей за незаконное уголовное преследование
-1	Бывший	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person
-2	фигурант	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person
+1	Бывший	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT70=Person-property
+2	фигурант	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT70=Person-property
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
 4	московского	_	_	_	_	_	_	_	bratA1=T1:Male|bratA19=T62:Adjective|bratT1=Person|bratT3=Event|bratT62=GPE
 5	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
@@ -31,13 +31,13 @@
 6	тысяч	_	_	_	_	_	_	_	bratT8=Money
 7	рублей	_	_	_	_	_	_	_	bratT8=Money
 8	компенсации	_	_	_	_	_	_	_	_
-9	бывшему	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
-10	обвиняемому	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
-11	по	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Other-group
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT64=Event|bratT9=Other-group
-13	московскому	_	_	_	_	_	_	_	bratA20=T63:Adjective|bratA3=T10:Male|bratT10=Person|bratT63=GPE|bratT64=Event|bratT9=Other-group
-14	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT64=Event|bratT9=Other-group
-15	''	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT64=Event|bratT9=Other-group
+9	бывшему	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Person-property
+10	обвиняемому	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Person-property
+11	по	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT64=Event
+13	московскому	_	_	_	_	_	_	_	bratA20=T63:Adjective|bratA3=T10:Male|bratT10=Person|bratT63=GPE|bratT64=Event
+14	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT64=Event
+15	''	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT64=Event
 16	Сергею	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Person-forename
 17	Абаничеву	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT12=Person-surname
 18	.	_	_	_	_	_	_	_	_
@@ -111,7 +111,7 @@
 # text = Во время следствия он месяц провел в СИЗО два месяца, после чего дело против него и еще троих участников акции прекратили, и Абаничев вышел на свободу.
 1	Во	_	_	_	_	_	_	_	bratA17=T2:Past|bratT2=Date-period-absolute
 2	время	_	_	_	_	_	_	_	bratA17=T2:Past|bratT2=Date-period-absolute
-3	следствия	_	_	_	_	_	_	_	bratA17=T2:Past|bratT2=Date-period-absolute
+3	следствия	_	_	_	_	_	_	_	bratA17=T2:Past|bratT2=Date-period-absolute|bratT71=Event
 4	он	_	_	_	_	_	_	_	_
 5	месяц	_	_	_	_	_	_	_	bratA14=T60:Past|bratT60=Date-period-relative|bratT61=Duration
 6	провел	_	_	_	_	_	_	_	_
@@ -211,7 +211,7 @@
 11	на	_	_	_	_	_	_	_	_
 12	силовиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Person-property
 13	,	_	_	_	_	_	_	_	_
-14	обвиняемыми	_	_	_	_	_	_	_	_
+14	обвиняемыми	_	_	_	_	_	_	_	bratT69=Person-property
 15	стали	_	_	_	_	_	_	_	_
 16	больше	_	_	_	_	_	_	_	bratT55=Quantity
 17	двух	_	_	_	_	_	_	_	bratT55=Quantity

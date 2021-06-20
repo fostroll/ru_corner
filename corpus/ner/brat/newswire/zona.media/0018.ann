@@ -25,7 +25,6 @@ T21	Facility 731 753	Дмитровском   переулке
 T22	Money 845 864	13   тысяч   рублей
 T23	Date-relative 759 772	После   этого
 T24	Person-property 1028 1033	Врачи
-T25	Person-property 1053 1066	пострадавшего
 T26	Person 1116 1125	Иванченко
 A5	Male T26
 T27	Other-term 1069 1094	черепно-мозговую   травму
@@ -57,3 +56,17 @@ T48	Event 1137 1141	дело
 T49	Event 583 590	розыска
 T50	Organization 241 288	уголовного   розыска   53-го   отдела   полиции
 A9	Department T50
+T25	Person 1053 1066	пострадавшего
+A10	Male T25
+T51	Event 1178 1199	применением   насилия
+T52	Event 1206 1213	грабеже
+T53	Person-property 468 477	следствия
+T54	Person 30 42	полицейского
+A11	Male T54
+T55	Person 67 79	задержанного
+A12	Male T55
+T56	Person 793 800	мужчины
+A13	Male T56
+T57	Person 695 702	мужчину
+A14	Male T57
+T58	Event 615 627	преступление

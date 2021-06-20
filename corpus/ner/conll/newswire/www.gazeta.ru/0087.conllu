@@ -119,13 +119,13 @@
 # sent_id = 0087-p5-s1
 # text = Посетивший блогера украинский посол рассказал, что задержанный не жаловался на условия содержания и состояние здоровья.
 1	Посетивший	_	_	_	_	_	_	_	_
-2	блогера	_	_	_	_	_	_	_	bratT17=Person-property
-3	украинский	_	_	_	_	_	_	_	bratA12=T35:Adjective|bratT18=Person-property|bratT35=GPE
-4	посол	_	_	_	_	_	_	_	bratT18=Person-property
+2	блогера	_	_	_	_	_	_	_	bratA14=T42:Male|bratT17=Person-property|bratT42=Person
+3	украинский	_	_	_	_	_	_	_	bratA12=T35:Adjective|bratA15=T43:Male|bratT18=Person-property|bratT35=GPE|bratT43=Person
+4	посол	_	_	_	_	_	_	_	bratA15=T43:Male|bratT18=Person-property|bratT43=Person
 5	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	задержанный	_	_	_	_	_	_	_	_
+8	задержанный	_	_	_	_	_	_	_	bratA13=T41:Male|bratT40=Person-property|bratT41=Person
 9	не	_	_	_	_	_	_	_	_
 10	жаловался	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_

@@ -5,12 +5,12 @@
 # text = Правительство утвердило стратегию развития спорта на 10 лет
 1	Правительство	_	_	_	_	_	_	_	bratT1=Organization
 2	утвердило	_	_	_	_	_	_	_	_
-3	стратегию	_	_	_	_	_	_	_	_
-4	развития	_	_	_	_	_	_	_	_
-5	спорта	_	_	_	_	_	_	_	_
-6	на	_	_	_	_	_	_	_	bratA4=T2:Pres-Fut|bratT2=Date-period-absolute
-7	10	_	_	_	_	_	_	_	bratA4=T2:Pres-Fut|bratT2=Date-period-absolute|bratT26=Duration
-8	лет	_	_	_	_	_	_	_	bratA4=T2:Pres-Fut|bratT2=Date-period-absolute|bratT26=Duration
+3	стратегию	_	_	_	_	_	_	_	bratA13=T46:Project|bratT46=Product
+4	развития	_	_	_	_	_	_	_	bratA13=T46:Project|bratT46=Product
+5	спорта	_	_	_	_	_	_	_	bratA13=T46:Project|bratT46=Product
+6	на	_	_	_	_	_	_	_	bratA13=T46:Project|bratA4=T2:Pres-Fut|bratT2=Date-period-absolute|bratT46=Product
+7	10	_	_	_	_	_	_	_	bratA13=T46:Project|bratA4=T2:Pres-Fut|bratT2=Date-period-absolute|bratT26=Duration|bratT46=Product
+8	лет	_	_	_	_	_	_	_	bratA13=T46:Project|bratA4=T2:Pres-Fut|bratT2=Date-period-absolute|bratT26=Duration|bratT46=Product
 
 # newpar id = 0107-p2
 # par_text = Премьер-министр России Михаил Мишустин утвердил стратегию развития физической культуры и спорта до 2030 года. Об этом сообщается на сайте правительства.
@@ -21,15 +21,15 @@
 3	Михаил	_	_	_	_	_	_	_	bratA3=T3:Male|bratT27=Person-forename|bratT3=Person
 4	Мишустин	_	_	_	_	_	_	_	bratA3=T3:Male|bratT28=Person-surname|bratT3=Person
 5	утвердил	_	_	_	_	_	_	_	_
-6	стратегию	_	_	_	_	_	_	_	_
-7	развития	_	_	_	_	_	_	_	_
-8	физической	_	_	_	_	_	_	_	_
-9	культуры	_	_	_	_	_	_	_	_
-10	и	_	_	_	_	_	_	_	_
-11	спорта	_	_	_	_	_	_	_	_
-12	до	_	_	_	_	_	_	_	bratT6=Date-period-absolute
-13	2030	_	_	_	_	_	_	_	bratT6=Date-period-absolute
-14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Date-period-absolute
+6	стратегию	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product
+7	развития	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product
+8	физической	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product
+9	культуры	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product
+10	и	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product
+11	спорта	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product
+12	до	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product|bratT6=Date-period-absolute
+13	2030	_	_	_	_	_	_	_	bratA14=T47:Project|bratT47=Product|bratT6=Date-period-absolute
+14	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T47:Project|bratT47=Product|bratT6=Date-period-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0107-p2-s2
@@ -58,13 +58,13 @@
 10	детско-юношеского	_	_	_	_	_	_	_	bratT29=Event|bratT39=Age
 11	спорта	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Event
 12	,	_	_	_	_	_	_	_	_
-13	строительство	_	_	_	_	_	_	_	_
+13	строительство	_	_	_	_	_	_	_	bratT44=Event
 14	новых	_	_	_	_	_	_	_	_
 15	объектов	_	_	_	_	_	_	_	_
 16	и	_	_	_	_	_	_	_	_
 17	привлечение	_	_	_	_	_	_	_	_
-18	высококвалифицированных	_	_	_	_	_	_	_	_
-19	специалистов	_	_	_	_	_	_	_	_
+18	высококвалифицированных	_	_	_	_	_	_	_	bratT45=Person-property
+19	специалистов	_	_	_	_	_	_	_	bratT45=Person-property
 20	для	_	_	_	_	_	_	_	_
 21	работы	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	_
@@ -118,7 +118,7 @@
 20	технологий	_	_	_	_	_	_	_	_
 21	в	_	_	_	_	_	_	_	_
 22	подготовку	_	_	_	_	_	_	_	_
-23	атлетов	_	_	_	_	_	_	_	_
+23	атлетов	_	_	_	_	_	_	_	bratT48=Person-property
 24	и	_	_	_	_	_	_	_	_
 25	привлечение	_	_	_	_	_	_	_	_
 26	внебюджетного	_	_	_	_	_	_	_	_
@@ -135,7 +135,7 @@
 4	направлений	_	_	_	_	_	_	_	_
 5	прописан	_	_	_	_	_	_	_	_
 6	комплекс	_	_	_	_	_	_	_	_
-7	мероприятий	_	_	_	_	_	_	_	SpaceAfter=No
+7	мероприятий	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Event
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0107-p5-s2
@@ -181,7 +181,7 @@
 # text = Подробный план мероприятий для реализации стратегии правительство разработает в течение месяца.
 1	Подробный	_	_	_	_	_	_	_	_
 2	план	_	_	_	_	_	_	_	_
-3	мероприятий	_	_	_	_	_	_	_	_
+3	мероприятий	_	_	_	_	_	_	_	bratT49=Event
 4	для	_	_	_	_	_	_	_	_
 5	реализации	_	_	_	_	_	_	_	_
 6	стратегии	_	_	_	_	_	_	_	_
@@ -196,13 +196,13 @@
 # par_text = Проект стратегии развития спорта до 2030 года правительство поддержало на прошлой неделе. «По поручению президента правительство разработало стратегию развития физической культуры и спорта на ближайшие десять лет. Документ ориентирован на достижение национальной цели по сохранению благополучия людей и учитывает предложения совета при президенте», — заявил Мишустин.
 # sent_id = 0107-p7-s1
 # text = Проект стратегии развития спорта до 2030 года правительство поддержало на прошлой неделе.
-1	Проект	_	_	_	_	_	_	_	_
-2	стратегии	_	_	_	_	_	_	_	_
-3	развития	_	_	_	_	_	_	_	_
-4	спорта	_	_	_	_	_	_	_	_
-5	до	_	_	_	_	_	_	_	bratA2=T13:Pres-Fut|bratT13=Date-period-absolute
-6	2030	_	_	_	_	_	_	_	bratA2=T13:Pres-Fut|bratT13=Date-period-absolute
-7	года	_	_	_	_	_	_	_	bratA2=T13:Pres-Fut|bratT13=Date-period-absolute
+1	Проект	_	_	_	_	_	_	_	bratA15=T50:Project|bratT50=Product
+2	стратегии	_	_	_	_	_	_	_	bratA15=T50:Project|bratT50=Product
+3	развития	_	_	_	_	_	_	_	bratA15=T50:Project|bratT50=Product
+4	спорта	_	_	_	_	_	_	_	bratA15=T50:Project|bratT50=Product
+5	до	_	_	_	_	_	_	_	bratA15=T50:Project|bratA2=T13:Pres-Fut|bratT13=Date-period-absolute|bratT50=Product
+6	2030	_	_	_	_	_	_	_	bratA15=T50:Project|bratA2=T13:Pres-Fut|bratT13=Date-period-absolute|bratT50=Product
+7	года	_	_	_	_	_	_	_	bratA15=T50:Project|bratA2=T13:Pres-Fut|bratT13=Date-period-absolute|bratT50=Product
 8	правительство	_	_	_	_	_	_	_	bratT42=Organization
 9	поддержало	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	bratA8=T14:Past|bratT14=Date-absolute
@@ -218,16 +218,16 @@
 4	президента	_	_	_	_	_	_	_	bratT15=Person-property
 5	правительство	_	_	_	_	_	_	_	bratT23=Organization
 6	разработало	_	_	_	_	_	_	_	_
-7	стратегию	_	_	_	_	_	_	_	_
-8	развития	_	_	_	_	_	_	_	_
-9	физической	_	_	_	_	_	_	_	_
-10	культуры	_	_	_	_	_	_	_	_
-11	и	_	_	_	_	_	_	_	_
-12	спорта	_	_	_	_	_	_	_	_
-13	на	_	_	_	_	_	_	_	bratA9=T16:Pres-Fut|bratT16=Date-period-absolute
-14	ближайшие	_	_	_	_	_	_	_	bratA9=T16:Pres-Fut|bratT16=Date-period-absolute|bratT37=Ordinal
-15	десять	_	_	_	_	_	_	_	bratA9=T16:Pres-Fut|bratT16=Date-period-absolute|bratT34=Duration
-16	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Pres-Fut|bratT16=Date-period-absolute|bratT34=Duration
+7	стратегию	_	_	_	_	_	_	_	bratA16=T51:Project|bratT51=Product
+8	развития	_	_	_	_	_	_	_	bratA16=T51:Project|bratT51=Product
+9	физической	_	_	_	_	_	_	_	bratA16=T51:Project|bratT51=Product
+10	культуры	_	_	_	_	_	_	_	bratA16=T51:Project|bratT51=Product
+11	и	_	_	_	_	_	_	_	bratA16=T51:Project|bratT51=Product
+12	спорта	_	_	_	_	_	_	_	bratA16=T51:Project|bratT51=Product
+13	на	_	_	_	_	_	_	_	bratA16=T51:Project|bratA9=T16:Pres-Fut|bratT16=Date-period-absolute|bratT51=Product
+14	ближайшие	_	_	_	_	_	_	_	bratA16=T51:Project|bratA9=T16:Pres-Fut|bratT16=Date-period-absolute|bratT37=Ordinal|bratT51=Product
+15	десять	_	_	_	_	_	_	_	bratA16=T51:Project|bratA9=T16:Pres-Fut|bratT16=Date-period-absolute|bratT34=Duration|bratT51=Product
+16	лет	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T51:Project|bratA9=T16:Pres-Fut|bratT16=Date-period-absolute|bratT34=Duration|bratT51=Product
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0107-p7-s3
@@ -245,9 +245,9 @@
 11	и	_	_	_	_	_	_	_	_
 12	учитывает	_	_	_	_	_	_	_	_
 13	предложения	_	_	_	_	_	_	_	_
-14	совета	_	_	_	_	_	_	_	_
-15	при	_	_	_	_	_	_	_	_
-16	президенте	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
+14	совета	_	_	_	_	_	_	_	bratT52=Organization
+15	при	_	_	_	_	_	_	_	bratT52=Organization
+16	президенте	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT52=Organization
 17	''	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	-	_	_	_	_	_	_	_	_

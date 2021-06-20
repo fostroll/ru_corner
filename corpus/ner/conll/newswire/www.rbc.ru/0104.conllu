@@ -75,7 +75,7 @@
 2	34	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT64=Age
 3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT64=Age
 4	летний	_	_	_	_	_	_	_	bratT64=Age
-5	футболист	_	_	_	_	_	_	_	bratT65=Person-property
+5	футболист	_	_	_	_	_	_	_	bratA29=T83:Male|bratT65=Person-property|bratT83=Person
 6	его	_	_	_	_	_	_	_	_
 7	примет	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
@@ -180,7 +180,7 @@
 # text = Действующее соглашение нападающего рассчитано до декабря 2020 года.
 1	Действующее	_	_	_	_	_	_	_	_
 2	соглашение	_	_	_	_	_	_	_	_
-3	нападающего	_	_	_	_	_	_	_	bratT36=Person-property
+3	нападающего	_	_	_	_	_	_	_	bratA30=T84:Male|bratT36=Person-property|bratT84=Person
 4	рассчитано	_	_	_	_	_	_	_	_
 5	до	_	_	_	_	_	_	_	bratA17=T37:Past-Fut|bratT37=Date-period-absolute
 6	декабря	_	_	_	_	_	_	_	bratA17=T37:Past-Fut|bratT37=Date-period-absolute
@@ -200,7 +200,7 @@
 6	перешел	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
-9	Шанхай	_	_	_	_	_	_	_	bratT41=Organization
+9	Шанхай	_	_	_	_	_	_	_	bratT41=Organization|bratT85=GPE
 10	СИПГ	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
 11	''	_	_	_	_	_	_	_	bratT41=Organization
 12	из	_	_	_	_	_	_	_	_
@@ -221,20 +221,20 @@
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	стало	_	_	_	_	_	_	_	_
-10	рекордным	_	_	_	_	_	_	_	_
-11	исходящим	_	_	_	_	_	_	_	_
-12	трансфером	_	_	_	_	_	_	_	_
-13	в	_	_	_	_	_	_	_	_
-14	истории	_	_	_	_	_	_	_	_
-15	российского	_	_	_	_	_	_	_	bratA20=T44:Adjective|bratT44=GPE|bratT71=Event
-16	первенства	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
+10	рекордным	_	_	_	_	_	_	_	bratT81=Event
+11	исходящим	_	_	_	_	_	_	_	bratT81=Event
+12	трансфером	_	_	_	_	_	_	_	bratT81=Event
+13	в	_	_	_	_	_	_	_	bratA28=T82:Past|bratT82=Date-period-absolute
+14	истории	_	_	_	_	_	_	_	bratA28=T82:Past|bratT82=Date-period-absolute
+15	российского	_	_	_	_	_	_	_	bratA20=T44:Adjective|bratA28=T82:Past|bratT44=GPE|bratT71=Event|bratT82=Date-period-absolute
+16	первенства	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T82:Past|bratT71=Event|bratT82=Date-period-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p7-s3
 # text = Зарплата бразильского форварда в китайской команде составляет €16,6 млн в год.
 1	Зарплата	_	_	_	_	_	_	_	_
-2	бразильского	_	_	_	_	_	_	_	bratA21=T45:Adjective|bratT45=GPE|bratT46=Person-property
-3	форварда	_	_	_	_	_	_	_	bratT46=Person-property
+2	бразильского	_	_	_	_	_	_	_	bratA21=T45:Adjective|bratA31=T86:Male|bratT45=GPE|bratT46=Person-property|bratT86=Person
+3	форварда	_	_	_	_	_	_	_	bratA31=T86:Male|bratT46=Person-property|bratT86=Person
 4	в	_	_	_	_	_	_	_	_
 5	китайской	_	_	_	_	_	_	_	bratA22=T47:Adjective|bratT47=GPE|bratT76=Organization
 6	команде	_	_	_	_	_	_	_	bratT76=Organization
@@ -286,7 +286,7 @@
 # text = В 142 матчах в составе клуба он забил 75 голов и сделал 54 результативные передачи.
 1	В	_	_	_	_	_	_	_	bratT61=Quantity
 2	142	_	_	_	_	_	_	_	bratT61=Quantity
-3	матчах	_	_	_	_	_	_	_	bratT61=Quantity
+3	матчах	_	_	_	_	_	_	_	bratT61=Quantity|bratT87=Event
 4	в	_	_	_	_	_	_	_	_
 5	составе	_	_	_	_	_	_	_	_
 6	клуба	_	_	_	_	_	_	_	bratT80=Organization

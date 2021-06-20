@@ -48,11 +48,11 @@
 26	Станислава	_	_	_	_	_	_	_	bratA11=T9:Male|bratT39=Person-forename|bratT9=Person
 27	Садальского	_	_	_	_	_	_	_	bratA11=T9:Male|bratT40=Person-surname|bratT9=Person
 28	о	_	_	_	_	_	_	_	_
-29	победителях	_	_	_	_	_	_	_	_
-30	шоу	_	_	_	_	_	_	_	bratT10=Work-of-art
-31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art
-32	Голос	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art
-33	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art
+29	победителях	_	_	_	_	_	_	_	bratT63=Person-property
+30	шоу	_	_	_	_	_	_	_	bratT10=Work-of-art|bratT63=Person-property
+31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art|bratT63=Person-property
+32	Голос	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art|bratT63=Person-property
+33	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Work-of-art|bratT63=Person-property
 34	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0035-p2-s2
@@ -200,7 +200,7 @@
 10	заявили	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	победу	_	_	_	_	_	_	_	_
+13	победу	_	_	_	_	_	_	_	bratT62=Event
 14	на	_	_	_	_	_	_	_	_
 15	конкурсе	_	_	_	_	_	_	_	bratT49=Event
 16	могут	_	_	_	_	_	_	_	_

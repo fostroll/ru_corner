@@ -8,12 +8,12 @@
 3	Новосибирской	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Organization|bratT2=GPE
 4	области	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Organization|bratT2=GPE
 5	арестовал	_	_	_	_	_	_	_	_
-6	сельчанина	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T3:Resident|bratT3=Nationality
+6	сельчанина	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T3:Resident|bratA24=T51:Male|bratT3=Nationality|bratT51=Person
 7	,	_	_	_	_	_	_	_	_
 8	до	_	_	_	_	_	_	_	_
 9	смерти	_	_	_	_	_	_	_	_
 10	избившего	_	_	_	_	_	_	_	_
-11	жену	_	_	_	_	_	_	_	bratT4=Family
+11	жену	_	_	_	_	_	_	_	bratA25=T52:Female|bratT4=Family|bratT52=Person
 12	в	_	_	_	_	_	_	_	bratA15=T39:Past|bratT39=Date-absolute
 13	день	_	_	_	_	_	_	_	bratA15=T39:Past|bratT39=Date-absolute
 14	свадьбы	_	_	_	_	_	_	_	bratA15=T39:Past|bratT39=Date-absolute|bratT5=Event
@@ -63,7 +63,7 @@
 1	Сибиряка	_	_	_	_	_	_	_	bratA5=T15:Resident|bratT15=Nationality
 2	подозревают	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	убийстве	_	_	_	_	_	_	_	_
+4	убийстве	_	_	_	_	_	_	_	bratT53=Event
 5	(	_	_	_	_	_	_	_	SpaceAfter=No
 6	часть	_	_	_	_	_	_	_	bratT16=Law
 7	1	_	_	_	_	_	_	_	bratT16=Law|bratT31=Ordinal
@@ -79,11 +79,11 @@
 # text = По версии следствия, 29 сентября сельчанин был возле дома и ``на почве личных неприязненных отношений'' несколько раз ударил свою 35-летнюю жену руками и ногами по голове и телу.
 1	По	_	_	_	_	_	_	_	_
 2	версии	_	_	_	_	_	_	_	_
-3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	29	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
 6	сентября	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
-7	сельчанин	_	_	_	_	_	_	_	bratA7=T18:Resident|bratT18=Nationality
+7	сельчанин	_	_	_	_	_	_	_	bratA22=T49:Male|bratA7=T18:Resident|bratT18=Nationality|bratT49=Person
 8	был	_	_	_	_	_	_	_	_
 9	возле	_	_	_	_	_	_	_	_
 10	дома	_	_	_	_	_	_	_	_
@@ -122,7 +122,7 @@
 5	,	_	_	_	_	_	_	_	_
 6	продолжил	_	_	_	_	_	_	_	_
 7	избивать	_	_	_	_	_	_	_	_
-8	сибирячку	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T21:Resident|bratT21=Nationality
+8	сибирячку	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T50:Female|bratA8=T21:Resident|bratT21=Nationality|bratT50=Person
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
 11	затем	_	_	_	_	_	_	_	bratA14=T36:Past|bratT36=Date-relative

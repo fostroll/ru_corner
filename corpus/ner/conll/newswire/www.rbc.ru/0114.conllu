@@ -154,11 +154,11 @@
 13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
 14	,	_	_	_	_	_	_	_	_
 15	столичные	_	_	_	_	_	_	_	bratA17=T82:Adjective|bratA2=T27:Plural|bratT27=Organization|bratT82=GPE
-16	ЦСКА	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Organization
+16	ЦСКА	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT106=Organization|bratT27=Organization
 17	и	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Organization
-18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT27=Organization
-19	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT27=Organization
-20	''	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT27=Organization
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT107=Organization|bratT27=Organization
+19	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Plural|bratT107=Organization|bratT27=Organization
+20	''	_	_	_	_	_	_	_	bratA2=T27:Plural|bratT107=Organization|bratT27=Organization
 21	и	_	_	_	_	_	_	_	_
 22	белорусский	_	_	_	_	_	_	_	bratA18=T83:Adjective|bratT28=Organization|bratT83=GPE
 23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization
@@ -174,7 +174,7 @@
 4	форвард	_	_	_	_	_	_	_	bratT31=Person-property
 5	провел	_	_	_	_	_	_	_	_
 6	пять	_	_	_	_	_	_	_	bratT32=Quantity
-7	матчей	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Quantity
+7	матчей	_	_	_	_	_	_	_	SpaceAfter=No|bratT110=Event|bratT32=Quantity
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0114-p6
@@ -206,13 +206,13 @@
 5	уровне	_	_	_	_	_	_	_	_
 6	возглавлял	_	_	_	_	_	_	_	_
 7	столичные	_	_	_	_	_	_	_	bratA21=T86:Adjective|bratA3=T39:Plural|bratT39=Organization|bratT86=GPE
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT39=Organization
-9	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT39=Organization
-10	''	_	_	_	_	_	_	_	bratA3=T39:Plural|bratT39=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT108=Organization|bratT39=Organization
+9	Динамо	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT108=Organization|bratT39=Organization
+10	''	_	_	_	_	_	_	_	bratA3=T39:Plural|bratT108=Organization|bratT39=Organization
 11	и	_	_	_	_	_	_	_	bratA3=T39:Plural|bratT39=Organization
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT39=Organization
-13	Торпедо	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT39=Organization
-14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT39=Organization
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT109=Organization|bratT39=Organization
+13	Торпедо	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT109=Organization|bratT39=Organization
+14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T39:Plural|bratT109=Organization|bratT39=Organization
 15	,	_	_	_	_	_	_	_	_
 16	волгоградский	_	_	_	_	_	_	_	bratA22=T87:Adjective|bratT40=Organization|bratT87=GPE
 17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
@@ -283,12 +283,12 @@
 11	с	_	_	_	_	_	_	_	_
 12	Ярцевым	_	_	_	_	_	_	_	bratA27=T52:Male|bratT52=Person|bratT94=Person-surname
 13	потерпела	_	_	_	_	_	_	_	_
-14	самое	_	_	_	_	_	_	_	_
-15	крупное	_	_	_	_	_	_	_	_
-16	поражение	_	_	_	_	_	_	_	_
-17	в	_	_	_	_	_	_	_	_
-18	своей	_	_	_	_	_	_	_	_
-19	истории	_	_	_	_	_	_	_	SpaceAfter=No
+14	самое	_	_	_	_	_	_	_	bratT103=Event
+15	крупное	_	_	_	_	_	_	_	bratT103=Event
+16	поражение	_	_	_	_	_	_	_	bratT103=Event
+17	в	_	_	_	_	_	_	_	bratA36=T105:Past|bratT105=Date-period-relative
+18	своей	_	_	_	_	_	_	_	bratA36=T105:Past|bratT105=Date-period-relative
+19	истории	_	_	_	_	_	_	_	SpaceAfter=No|bratA36=T105:Past|bratT105=Date-period-relative
 20	,	_	_	_	_	_	_	_	_
 21	уступив	_	_	_	_	_	_	_	_
 22	Португалии	_	_	_	_	_	_	_	bratT53=GPE
@@ -305,7 +305,7 @@
 4	специалиста	_	_	_	_	_	_	_	bratT55=Person-property
 5	уволили	_	_	_	_	_	_	_	_
 6	после	_	_	_	_	_	_	_	bratA32=T97:Past|bratT97=Date-absolute
-7	ничьей	_	_	_	_	_	_	_	bratA32=T97:Past|bratT97=Date-absolute
+7	ничьей	_	_	_	_	_	_	_	bratA32=T97:Past|bratT104=Event|bratT97=Date-absolute
 8	с	_	_	_	_	_	_	_	_
 9	Эстонией	_	_	_	_	_	_	_	bratT57=GPE
 10	(	_	_	_	_	_	_	_	SpaceAfter=No

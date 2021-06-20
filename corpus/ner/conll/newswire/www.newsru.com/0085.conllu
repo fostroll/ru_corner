@@ -4,7 +4,7 @@
 # sent_id = 0085-p1-s1
 # text = Родственники осужденных по делу ``Сети'' обратились к генпрокурору, главам ФСИН и ФСБ, потребовав оградить их детей от пыток и самооговора
 1	Родственники	_	_	_	_	_	_	_	bratT39=Family|bratT63=Person
-2	осужденных	_	_	_	_	_	_	_	bratT31=Person-property|bratT63=Person
+2	осужденных	_	_	_	_	_	_	_	bratT31=Person-property|bratT63=Person|bratT83=Person
 3	по	_	_	_	_	_	_	_	_
 4	делу	_	_	_	_	_	_	_	bratT74=Event
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Organization
@@ -12,12 +12,12 @@
 7	''	_	_	_	_	_	_	_	bratT75=Organization
 8	обратились	_	_	_	_	_	_	_	_
 9	к	_	_	_	_	_	_	_	_
-10	генпрокурору	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+10	генпрокурору	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT84=Person
 11	,	_	_	_	_	_	_	_	_
-12	главам	_	_	_	_	_	_	_	bratA1=T2:Plural|bratT2=Person-property
-13	ФСИН	_	_	_	_	_	_	_	bratA1=T2:Plural|bratT2=Person-property|bratT3=Organization
-14	и	_	_	_	_	_	_	_	bratA1=T2:Plural|bratT2=Person-property
-15	ФСБ	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Plural|bratT2=Person-property|bratT4=Organization
+12	главам	_	_	_	_	_	_	_	bratA1=T2:Plural|bratA12=T85:Plural|bratT2=Person-property|bratT85=Person
+13	ФСИН	_	_	_	_	_	_	_	bratA1=T2:Plural|bratA12=T85:Plural|bratT2=Person-property|bratT3=Organization|bratT85=Person
+14	и	_	_	_	_	_	_	_	bratA1=T2:Plural|bratA12=T85:Plural|bratT2=Person-property|bratT85=Person
+15	ФСБ	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Plural|bratA12=T85:Plural|bratT2=Person-property|bratT4=Organization|bratT85=Person
 16	,	_	_	_	_	_	_	_	_
 17	потребовав	_	_	_	_	_	_	_	_
 18	оградить	_	_	_	_	_	_	_	_
@@ -142,7 +142,7 @@
 # sent_id = 0085-p4-s1
 # text = Родственники осужденных напомнили, что 20 октября 2020 года приговор Приволжского окружного военного суда по делу ``Сети'' был оставлен без изменения в апелляционной инстанции.
 1	Родственники	_	_	_	_	_	_	_	bratT44=Family|bratT67=Person
-2	осужденных	_	_	_	_	_	_	_	bratT32=Person-property|bratT67=Person
+2	осужденных	_	_	_	_	_	_	_	bratT32=Person-property|bratT67=Person|bratT86=Person
 3	напомнили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -173,9 +173,9 @@
 # text = При этом никто из осужденных не признал своей вины и отрицает участие в какой-либо террористической организации, однако все они заявляли о пытках и давлении, которое оказывалось на них сотрудниками ФСБ еще на стадии следствия в СИЗО.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	никто	_	_	_	_	_	_	_	_
-4	из	_	_	_	_	_	_	_	_
-5	осужденных	_	_	_	_	_	_	_	bratT33=Person-property
+3	никто	_	_	_	_	_	_	_	bratT87=Person
+4	из	_	_	_	_	_	_	_	bratT87=Person
+5	осужденных	_	_	_	_	_	_	_	bratT33=Person-property|bratT87=Person
 6	не	_	_	_	_	_	_	_	_
 7	признал	_	_	_	_	_	_	_	_
 8	своей	_	_	_	_	_	_	_	_

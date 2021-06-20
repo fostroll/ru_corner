@@ -82,8 +82,8 @@
 3	вообще	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_
 5	установил	_	_	_	_	_	_	_	_
-6	события	_	_	_	_	_	_	_	_
-7	преступления	_	_	_	_	_	_	_	SpaceAfter=No
+6	события	_	_	_	_	_	_	_	bratT72=Event
+7	преступления	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Event
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0056-p3-s2
@@ -132,15 +132,15 @@
 
 # sent_id = 0056-p4-s2
 # text = Полковник, по версии следствия, договорился с бизнесменом, что за 1,5 млн долларов он поможет уйти от наказания его знакомому, бывшему зампредседателю правления Мособлбанка Дмитрию Васильеву.
-1	Полковник	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property
+1	Полковник	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T70:Male|bratT34=Person-property|bratT70=Person
 2	,	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	версии	_	_	_	_	_	_	_	_
-5	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+5	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Person-property
 6	,	_	_	_	_	_	_	_	_
 7	договорился	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	бизнесменом	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property
+9	бизнесменом	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T71:Male|bratT35=Person-property|bratT71=Person
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
 12	за	_	_	_	_	_	_	_	_
@@ -152,9 +152,9 @@
 18	уйти	_	_	_	_	_	_	_	_
 19	от	_	_	_	_	_	_	_	_
 20	наказания	_	_	_	_	_	_	_	_
-21	его	_	_	_	_	_	_	_	_
-22	знакомому	_	_	_	_	_	_	_	SpaceAfter=No
-23	,	_	_	_	_	_	_	_	_
+21	его	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person
+22	знакомому	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T37:Male|bratT37=Person
+23	,	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person
 24	бывшему	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person|bratT38=Person-property
 25	зампредседателю	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person|bratT38=Person-property
 26	правления	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person|bratT38=Person-property
@@ -212,7 +212,7 @@
 
 # sent_id = 0056-p5-s2
 # text = Свидетели в суде не подтвердили версию Ганелина.
-1	Свидетели	_	_	_	_	_	_	_	bratT51=Person-property
+1	Свидетели	_	_	_	_	_	_	_	bratT51=Person-property|bratT68=Person
 2	в	_	_	_	_	_	_	_	_
 3	суде	_	_	_	_	_	_	_	bratT52=Organization
 4	не	_	_	_	_	_	_	_	_

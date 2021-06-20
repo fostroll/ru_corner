@@ -20,7 +20,7 @@ T17	Person-property 396 407	полицейский
 T18	Person-property 464 479	правоохранители
 T19	Organization 715 748	израильской   культурной   общины
 T20	Person-property 703 748	Президент   израильской   культурной   общины
-T21	Other-group 414 427	злоумышленник
+T21	Person 414 427	злоумышленник
 T22	Date-absolute 853 874	в   настоящее   время
 T23	Date-absolute 992 1013	в   настоящее   время
 T24	Date-relative 1179 1191	днем   ранее
@@ -49,3 +49,10 @@ T38	Organization 594 600	власти
 T39	Facility 844 850	города
 T40	Facility 118 126	синагогу
 T41	Facility 40 48	синагогу
+T42	Event 520 542	полицейская   операция
+T43	Event 900 922	полицейская   операция
+T44	Event 1387 1396	нападения
+T45	Person 1267 1277	Нападавший
+A11	Male T45
+A12	Male T21
+T46	Event 199 208	инцидента

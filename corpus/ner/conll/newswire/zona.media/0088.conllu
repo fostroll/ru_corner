@@ -109,8 +109,8 @@
 10	неповиновение	_	_	_	_	_	_	_	_
 11	законному	_	_	_	_	_	_	_	_
 12	распоряжению	_	_	_	_	_	_	_	_
-13	должностного	_	_	_	_	_	_	_	_
-14	лица	_	_	_	_	_	_	_	SpaceAfter=No
+13	должностного	_	_	_	_	_	_	_	bratT35=Person-property
+14	лица	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-property
 15	,	_	_	_	_	_	_	_	_
 16	осуществляющего	_	_	_	_	_	_	_	_
 17	государственный	_	_	_	_	_	_	_	_
@@ -136,9 +136,9 @@
 11	одним	_	_	_	_	_	_	_	bratT22=Quantity
 12	из	_	_	_	_	_	_	_	bratT22=Quantity
 13	первых	_	_	_	_	_	_	_	bratT23=Ordinal
-14	национальных	_	_	_	_	_	_	_	bratA10=T30:Adjective|bratT30=Nationality
-15	движений	_	_	_	_	_	_	_	_
-16	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE
+14	национальных	_	_	_	_	_	_	_	bratA10=T30:Adjective|bratT30=Nationality|bratT36=Organization
+15	движений	_	_	_	_	_	_	_	bratT36=Organization
+16	республики	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=GPE|bratT36=Organization
 17	,	_	_	_	_	_	_	_	_
 18	которое	_	_	_	_	_	_	_	_
 19	возникло	_	_	_	_	_	_	_	_
@@ -173,7 +173,7 @@
 5	-	_	_	_	_	_	_	_	_
 6	это	_	_	_	_	_	_	_	_
 7	проведение	_	_	_	_	_	_	_	_
-8	мероприятий	_	_	_	_	_	_	_	SpaceAfter=No
+8	мероприятий	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
 9	,	_	_	_	_	_	_	_	_
 10	которые	_	_	_	_	_	_	_	_
 11	нацелены	_	_	_	_	_	_	_	_

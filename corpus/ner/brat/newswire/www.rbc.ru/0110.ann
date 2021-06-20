@@ -4,7 +4,6 @@ T3	Person-property 53 74	сотрудников   колонии
 T4	Organization 118 122	ФСИН
 T5	GPE 130 151	Кемеровской   области
 T6	Organization 95 151	Главном   управлении   ФСИН   по   Кемеровской   области
-A1	Department T6
 T7	Person-property 206 227	сотрудников   колонии
 T8	Organization 244 247	РБК
 A2	Media T8
@@ -13,7 +12,6 @@ T10	GPE 424 445	Кемеровской   области
 T11	GPE 452 460	Кузбассу
 T12	Organization 401 460	ГУФСИН   России   по   Кемеровской   области   -   Кузбассу
 T13	Organization 391 460	ИК - 37   ГУФСИН   России   по   Кемеровской   области   -   Кузбассу
-A3	Department T13
 T14	Organization 630 635	УФСИН
 T15	Organization 641 663	``   Тайга . Инфо   ''
 A4	Media T15
@@ -45,7 +43,7 @@ A9	Media T36
 T37	Person-forename 1873 1879	Сергей
 T38	Person-surname 1882 1890	Толканов
 T39	Person-property 1839 1870	заместитель   по   безопасности
-T40	Person 1839 1890	заместитель   по   безопасности   Сергей   Толканов
+T40	Person 1833 1890	его   заместитель   по   безопасности   Сергей   Толканов
 A10	Male T40
 T41	Facility 1896 1905	ИК   № 37
 T42	GPE 1926 1938	поселке   Яя
@@ -81,3 +79,14 @@ T68	Organization 1389 1396	издания
 A12	Media T68
 T69	Organization 1567 1574	изданию
 A14	Media T69
+T70	Person-property 582 599	должностных   лиц
+T71	Person 802 816	троих   мужчин
+A1	Male T71
+T72	Person 842 859	одного   человека
+A3	Male T72
+T73	Person 967 978	продавщицей
+A15	Female T73
+T74	Person 1012 1032	еще   один   мужчина
+A16	Male T74
+T75	Person 1080 1088	женщиной
+A17	Female T75

@@ -5,7 +5,7 @@ T4	Person 164 194	активиста   Андрея   Чеснокова
 T5	Organization 290 338	Объединенная   пресс-служба   судов   Петербурга
 T6	Service 345 353	Telegram
 T7	Person-property 164 173	активиста
-T8	Person-property 554 562	Депутаты
+T8	Person-property 554 592	Депутаты   законодательного   собрания
 T9	Person-property 479 487	активист
 T10	Person 650 659	Чеснокова
 T11	Law 696 727	ч.   2   ст.   20.2   КоАП   РФ
@@ -24,7 +24,6 @@ T22	Person-property 1900 1909	депутатов
 T23	Person-forename 176 182	Андрея
 T24	Person-surname 185 194	Чеснокова
 A3	Male T4
-T25	Person-property 46 55	пикетчика
 T26	Facility 227 272	здания   законодательного   собрания   города
 T27	Person-surname 650 659	Чеснокова
 A1	Male T10
@@ -51,3 +50,19 @@ T43	Event 1458 1462	Дело
 T44	Event 30 34	дело
 T45	Event 141 145	дело
 T46	Event 1158 1169	мероприятия
+T47	Organization 565 592	законодательного   собрания
+T48	Event 807 815	собрания
+T49	Event 822 829	митинга
+T50	Event 836 848	демонстрации
+T51	Event 855 862	шествия
+T52	Event 871 884	пикетирования
+T25	Event 215 220	пикет
+T53	Person 479 487	активист
+A8	Male T53
+T54	Person 46 55	пикетчика
+A9	Male T54
+T55	Person 893 901	Активист
+A10	Male T55
+T56	Event 989 994	пикет
+T57	Event 1667 1672	акции
+T58	Person 1838 1847	активисты

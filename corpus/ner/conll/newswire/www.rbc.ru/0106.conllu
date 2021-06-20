@@ -8,9 +8,9 @@
 3	дело	_	_	_	_	_	_	_	bratT63=Event
 4	после	_	_	_	_	_	_	_	bratA1=T4:Past|bratT4=Date-absolute
 5	убийства	_	_	_	_	_	_	_	bratA1=T4:Past|bratT4=Date-absolute|bratT52=Event
-6	женщины	_	_	_	_	_	_	_	_
-7	бывшим	_	_	_	_	_	_	_	bratT2=Family
-8	мужем	_	_	_	_	_	_	_	bratT2=Family
+6	женщины	_	_	_	_	_	_	_	bratA23=T73:Female|bratT73=Person
+7	бывшим	_	_	_	_	_	_	_	bratA24=T74:Male|bratT2=Family|bratT74=Person
+8	мужем	_	_	_	_	_	_	_	bratA24=T74:Male|bratT2=Family|bratT74=Person
 9	в	_	_	_	_	_	_	_	_
 10	Калининграде	_	_	_	_	_	_	_	bratT3=GPE
 
@@ -28,9 +28,9 @@
 7	37	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Age
 8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Age
 9	летнего	_	_	_	_	_	_	_	bratT6=Age
-10	жителя	_	_	_	_	_	_	_	bratA2=T8:Resident|bratT8=Nationality
-11	Кемеровской	_	_	_	_	_	_	_	bratA2=T8:Resident|bratT7=GPE|bratT8=Nationality
-12	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T8:Resident|bratT7=GPE|bratT8=Nationality
+10	жителя	_	_	_	_	_	_	_	bratA18=T68:Male|bratA2=T8:Resident|bratT68=Person|bratT8=Nationality
+11	Кемеровской	_	_	_	_	_	_	_	bratA18=T68:Male|bratA2=T8:Resident|bratT68=Person|bratT7=GPE|bratT8=Nationality
+12	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T68:Male|bratA2=T8:Resident|bratT68=Person|bratT7=GPE|bratT8=Nationality
 13	,	_	_	_	_	_	_	_	_
 14	который	_	_	_	_	_	_	_	_
 15	убил	_	_	_	_	_	_	_	_
@@ -48,13 +48,13 @@
 3	сообщается	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	сайте	_	_	_	_	_	_	_	bratA4=T15:Media|bratT15=Service
-6	следственного	_	_	_	_	_	_	_	bratA3=T14:Department|bratT14=Organization
-7	управления	_	_	_	_	_	_	_	bratA3=T14:Department|bratT14=Organization
-8	СК	_	_	_	_	_	_	_	bratA3=T14:Department|bratT13=Organization|bratT14=Organization
-9	России	_	_	_	_	_	_	_	bratA3=T14:Department|bratT11=GPE|bratT13=Organization|bratT14=Organization
-10	по	_	_	_	_	_	_	_	bratA3=T14:Department|bratT14=Organization
-11	Калининградской	_	_	_	_	_	_	_	bratA3=T14:Department|bratT12=GPE|bratT14=Organization
-12	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Department|bratT12=GPE|bratT14=Organization
+6	следственного	_	_	_	_	_	_	_	bratT14=Organization
+7	управления	_	_	_	_	_	_	_	bratT14=Organization
+8	СК	_	_	_	_	_	_	_	bratT13=Organization|bratT14=Organization
+9	России	_	_	_	_	_	_	_	bratT11=GPE|bratT13=Organization|bratT14=Organization
+10	по	_	_	_	_	_	_	_	bratT14=Organization
+11	Калининградской	_	_	_	_	_	_	_	bratT12=GPE|bratT14=Organization
+12	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=GPE|bratT14=Organization
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0106-p3
@@ -93,12 +93,12 @@
 15	том	_	_	_	_	_	_	_	SpaceAfter=No
 16	,	_	_	_	_	_	_	_	_
 17	что	_	_	_	_	_	_	_	_
-18	подозреваемый	_	_	_	_	_	_	_	bratT18=Other-group
+18	подозреваемый	_	_	_	_	_	_	_	bratA20=T70:Male|bratT18=Person-property|bratT70=Person
 19	неоднократно	_	_	_	_	_	_	_	bratT19=Quantity
 20	угрожал	_	_	_	_	_	_	_	_
-21	бывшей	_	_	_	_	_	_	_	bratT20=Family
-22	жене	_	_	_	_	_	_	_	bratT20=Family
-23	убийством	_	_	_	_	_	_	_	SpaceAfter=No
+21	бывшей	_	_	_	_	_	_	_	bratA21=T71:Female|bratT20=Family|bratT71=Person
+22	жене	_	_	_	_	_	_	_	bratA21=T71:Female|bratT20=Family|bratT71=Person
+23	убийством	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Event
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0106-p3-s3
@@ -109,8 +109,8 @@
 4	они	_	_	_	_	_	_	_	_
 5	проверят	_	_	_	_	_	_	_	_
 6	законность	_	_	_	_	_	_	_	_
-7	получения	_	_	_	_	_	_	_	_
-8	подозреваемым	_	_	_	_	_	_	_	bratT21=Other-group
+7	получения	_	_	_	_	_	_	_	bratT88=Event
+8	подозреваемым	_	_	_	_	_	_	_	bratA22=T72:Male|bratT21=Person-property|bratT72=Person
 9	разрешительных	_	_	_	_	_	_	_	_
 10	документов	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
@@ -127,7 +127,7 @@
 4	в	_	_	_	_	_	_	_	_
 5	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
 6	,	_	_	_	_	_	_	_	_
-7	инцидент	_	_	_	_	_	_	_	_
+7	инцидент	_	_	_	_	_	_	_	bratT76=Event
 8	произошел	_	_	_	_	_	_	_	_
 9	вечером	_	_	_	_	_	_	_	bratA6=T25:Past|bratT24=Time-absolute|bratT25=Date-absolute
 10	26	_	_	_	_	_	_	_	bratA6=T25:Past|bratT25=Date-absolute
@@ -141,18 +141,18 @@
 
 # sent_id = 0106-p4-s2
 # text = Мужчина подкараулил у дома и застрелил 35-летнюю женщину, свою бывшую жену.
-1	Мужчина	_	_	_	_	_	_	_	_
+1	Мужчина	_	_	_	_	_	_	_	bratA3=T77:Male|bratT77=Person
 2	подкараулил	_	_	_	_	_	_	_	_
 3	у	_	_	_	_	_	_	_	_
-4	дома	_	_	_	_	_	_	_	_
+4	дома	_	_	_	_	_	_	_	bratT78=Facility
 5	и	_	_	_	_	_	_	_	_
 6	застрелил	_	_	_	_	_	_	_	_
 7-9	35-летнюю	_	_	_	_	_	_	_	_
 7	35	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT28=Age
 8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT28=Age
 9	летнюю	_	_	_	_	_	_	_	bratT28=Age
-10	женщину	_	_	_	_	_	_	_	SpaceAfter=No
-11	,	_	_	_	_	_	_	_	_
+10	женщину	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T57:Female|bratT57=Person
+11	,	_	_	_	_	_	_	_	bratA15=T57:Female|bratT57=Person
 12	свою	_	_	_	_	_	_	_	bratA15=T57:Female|bratT57=Person
 13	бывшую	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Family|bratT57=Person
 14	жену	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T57:Female|bratT29=Family|bratT57=Person
@@ -175,14 +175,14 @@
 3	убийства	_	_	_	_	_	_	_	bratA8=T31:Past|bratT31=Date-absolute|bratT53=Event
 4	дома	_	_	_	_	_	_	_	_
 5	находились	_	_	_	_	_	_	_	_
-6	двое	_	_	_	_	_	_	_	bratT33=Quantity
-7	детей	_	_	_	_	_	_	_	bratT32=Age|bratT33=Quantity
+6	двое	_	_	_	_	_	_	_	bratT33=Quantity|bratT79=Person
+7	детей	_	_	_	_	_	_	_	bratT32=Age|bratT33=Quantity|bratT79=Person
 8	-	_	_	_	_	_	_	_	_
 9	десятилетняя	_	_	_	_	_	_	_	bratT34=Age
-10	девочка	_	_	_	_	_	_	_	_
+10	девочка	_	_	_	_	_	_	_	bratA25=T80:Female|bratT80=Person
 11	и	_	_	_	_	_	_	_	_
 12	четырехлетний	_	_	_	_	_	_	_	bratT35=Age
-13	мальчик	_	_	_	_	_	_	_	SpaceAfter=No
+13	мальчик	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T81:Male|bratT81=Person
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0106-p4-s5
@@ -202,14 +202,14 @@
 4	уточнили	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	мужчина	_	_	_	_	_	_	_	_
+7	мужчина	_	_	_	_	_	_	_	bratA27=T82:Male|bratT82=Person
 8	выстрелил	_	_	_	_	_	_	_	_
 9	из	_	_	_	_	_	_	_	_
 10	охотничьего	_	_	_	_	_	_	_	_
 11	карабина	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	бывшую	_	_	_	_	_	_	_	bratT37=Family
-14	жену	_	_	_	_	_	_	_	bratT37=Family
+13	бывшую	_	_	_	_	_	_	_	bratA28=T83:Female|bratT37=Family|bratT83=Person
+14	жену	_	_	_	_	_	_	_	bratA28=T83:Female|bratT37=Family|bratT83=Person
 15	не	_	_	_	_	_	_	_	bratT38=Quantity
 16	менее	_	_	_	_	_	_	_	bratT38=Quantity
 17	шести	_	_	_	_	_	_	_	bratT38=Quantity
@@ -222,7 +222,7 @@
 2	предварительным	_	_	_	_	_	_	_	_
 3	данным	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	супруги	_	_	_	_	_	_	_	bratT39=Family
+5	супруги	_	_	_	_	_	_	_	bratT39=Family|bratT84=Person
 6	находились	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	разводе	_	_	_	_	_	_	_	_
@@ -233,7 +233,7 @@
 
 # sent_id = 0106-p5-s3
 # text = Женщина переехала в Калининград из Кемеровской области летом этого года с двумя детьми.
-1	Женщина	_	_	_	_	_	_	_	_
+1	Женщина	_	_	_	_	_	_	_	bratA29=T85:Female|bratT85=Person
 2	переехала	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	Калининград	_	_	_	_	_	_	_	bratT41=GPE
@@ -250,7 +250,7 @@
 
 # sent_id = 0106-p5-s4
 # text = Подозреваемый приехал в регион в конце октября, проживал на съемной квартире.
-1	Подозреваемый	_	_	_	_	_	_	_	bratT46=Other-group
+1	Подозреваемый	_	_	_	_	_	_	_	bratA19=T69:Male|bratT46=Person-property|bratT69=Person
 2	приехал	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	регион	_	_	_	_	_	_	_	bratT62=GPE
@@ -290,7 +290,7 @@
 6	передавало	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	мужчина	_	_	_	_	_	_	_	_
+9	мужчина	_	_	_	_	_	_	_	bratA30=T86:Male|bratT86=Person
 10	неоднократно	_	_	_	_	_	_	_	bratT49=Quantity
 11	угрожал	_	_	_	_	_	_	_	_
 12	своей	_	_	_	_	_	_	_	bratA16=T58:Female|bratT58=Person
@@ -306,7 +306,7 @@
 4	ожидал	_	_	_	_	_	_	_	_
 5	ее	_	_	_	_	_	_	_	_
 6	у	_	_	_	_	_	_	_	_
-7	дома	_	_	_	_	_	_	_	_
+7	дома	_	_	_	_	_	_	_	bratT87=Facility
 8	в	_	_	_	_	_	_	_	_
 9	своей	_	_	_	_	_	_	_	_
 10	машине	_	_	_	_	_	_	_	SpaceAfter=No

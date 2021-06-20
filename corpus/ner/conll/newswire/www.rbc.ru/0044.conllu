@@ -9,11 +9,11 @@
 4	''	_	_	_	_	_	_	_	bratT1=Organization
 5	сообщили	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	повреждении	_	_	_	_	_	_	_	_
+7	повреждении	_	_	_	_	_	_	_	bratT45=Event
 8	склада	_	_	_	_	_	_	_	bratT41=Facility
 9	обломком	_	_	_	_	_	_	_	_
 10	после	_	_	_	_	_	_	_	bratA10=T26:Past|bratT26=Date-absolute
-11	посадки	_	_	_	_	_	_	_	bratA10=T26:Past|bratT26=Date-absolute
+11	посадки	_	_	_	_	_	_	_	bratA10=T26:Past|bratT26=Date-absolute|bratT46=Event
 12-14	Ан-124	_	_	_	_	_	_	_	_
 12	Ан	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
 13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Product
@@ -51,8 +51,8 @@
 8	связям	_	_	_	_	_	_	_	bratA9=T7:Female|bratT7=Person|bratT8=Person-property
 9	с	_	_	_	_	_	_	_	bratA9=T7:Female|bratT7=Person|bratT8=Person-property
 10	общественностью	_	_	_	_	_	_	_	bratA9=T7:Female|bratT7=Person|bratT8=Person-property
-11	торговой	_	_	_	_	_	_	_	bratA9=T7:Female|bratT7=Person|bratT8=Person-property
-12	сети	_	_	_	_	_	_	_	bratA9=T7:Female|bratT7=Person|bratT8=Person-property
+11	торговой	_	_	_	_	_	_	_	bratA9=T7:Female|bratT47=Organization|bratT7=Person|bratT8=Person-property
+12	сети	_	_	_	_	_	_	_	bratA9=T7:Female|bratT47=Organization|bratT7=Person|bratT8=Person-property
 13	Мария	_	_	_	_	_	_	_	bratA9=T7:Female|bratT24=Person-forename|bratT7=Person
 14	Филиппова	_	_	_	_	_	_	_	bratA9=T7:Female|bratT25=Person-surname|bratT7=Person
 15	после	_	_	_	_	_	_	_	bratA13=T33:Past|bratT33=Date-relative
@@ -63,8 +63,8 @@
 20	аэропорту	_	_	_	_	_	_	_	bratT9=Facility
 21	Толмачево	_	_	_	_	_	_	_	bratT9=Facility
 22	совершил	_	_	_	_	_	_	_	_
-23	аварийную	_	_	_	_	_	_	_	_
-24	посадку	_	_	_	_	_	_	_	_
+23	аварийную	_	_	_	_	_	_	_	bratT48=Event
+24	посадку	_	_	_	_	_	_	_	bratT48=Event
 25-27	Ан-124	_	_	_	_	_	_	_	SpaceAfter=No
 25	Ан	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Product
 26	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Product

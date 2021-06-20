@@ -37,11 +37,11 @@
 4	Юрий	_	_	_	_	_	_	_	bratA5=T15:Male|bratT13=Person-forename|bratT15=Person
 5	Шамшур	_	_	_	_	_	_	_	bratA5=T15:Male|bratT14=Person-surname|bratT15=Person
 6	и	_	_	_	_	_	_	_	_
-7	корреспондент	_	_	_	_	_	_	_	bratT16=Person-property
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
-9	РИА	_	_	_	_	_	_	_	bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
-10	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
-11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property
+7	корреспондент	_	_	_	_	_	_	_	bratA18=T70:Female|bratT16=Person-property|bratT70=Person
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T70:Female|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property|bratT70=Person
+9	РИА	_	_	_	_	_	_	_	bratA18=T70:Female|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property|bratT70=Person
+10	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T70:Female|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property|bratT70=Person
+11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T70:Female|bratA4=T11:Media|bratT11=Organization|bratT16=Person-property|bratT70=Person
 12	,	_	_	_	_	_	_	_	_
 13	имя	_	_	_	_	_	_	_	_
 14	которой	_	_	_	_	_	_	_	_
@@ -52,7 +52,7 @@
 # sent_id = 0090-p2-s3
 # text = О задержании сообщили эти агентства.
 1	О	_	_	_	_	_	_	_	_
-2	задержании	_	_	_	_	_	_	_	_
+2	задержании	_	_	_	_	_	_	_	bratT74=Event
 3	сообщили	_	_	_	_	_	_	_	_
 4	эти	_	_	_	_	_	_	_	_
 5	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T67:Media|bratT67=Organization
@@ -131,7 +131,7 @@
 12	где	_	_	_	_	_	_	_	_
 13	ранее	_	_	_	_	_	_	_	bratA9=T27:Past|bratT27=Date-relative
 14	избили	_	_	_	_	_	_	_	_
-15	белорусского	_	_	_	_	_	_	_	bratA10=T30:Adjective|bratA11=T32:Male|bratT30=GPE|bratT31=Political-group|bratT32=Person
+15	белорусского	_	_	_	_	_	_	_	bratA10=T30:Adjective|bratA11=T32:Male|bratT30=GPE|bratT32=Person
 16	оппозиционера	_	_	_	_	_	_	_	bratA11=T32:Male|bratT31=Political-group|bratT32=Person
 17	Романа	_	_	_	_	_	_	_	bratA11=T32:Male|bratT28=Person-forename|bratT32=Person
 18	Бондаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T32:Male|bratT29=Person-surname|bratT32=Person
@@ -152,13 +152,13 @@
 4	на	_	_	_	_	_	_	_	_
 5	акции	_	_	_	_	_	_	_	_
 6	задержали	_	_	_	_	_	_	_	_
-7	корреспондента	_	_	_	_	_	_	_	bratT34=Person-property
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+7	корреспондента	_	_	_	_	_	_	_	bratT34=Person-property|bratT71=Person
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property|bratT71=Person
 9-11	Интерфакс-Запад	_	_	_	_	_	_	_	SpaceAfter=No
-9	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
-10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
-11	Запад	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property|bratT68=GPE
-12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property
+9	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property|bratT71=Person
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property|bratT71=Person
+11	Запад	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property|bratT68=GPE|bratT71=Person
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T33:Media|bratT33=Organization|bratT34=Person-property|bratT71=Person
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0090-p5-s2
@@ -178,7 +178,7 @@
 # sent_id = 0090-p5-s3
 # text = ``Корреспондент успела отправить коллегам СМС, где сообщила, что ее доставляют в РУВД Центрального района Минска.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Корреспондент	_	_	_	_	_	_	_	bratT37=Person-property
+2	Корреспондент	_	_	_	_	_	_	_	bratA25=T72:Female|bratT37=Person-property|bratT72=Person
 3	успела	_	_	_	_	_	_	_	_
 4	отправить	_	_	_	_	_	_	_	_
 5	коллегам	_	_	_	_	_	_	_	bratT40=Person-property
@@ -231,7 +231,7 @@
 14	занимается	_	_	_	_	_	_	_	_
 15	ситуацией	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
-17	журналистами	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Person-property
+17	журналистами	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Person-property|bratT73=Person
 18	,	_	_	_	_	_	_	_	_
 19	передает	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T52:Media|bratT52=Organization

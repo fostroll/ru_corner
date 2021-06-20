@@ -17,8 +17,8 @@
 12	отрицают	_	_	_	_	_	_	_	_
 13	сообщения	_	_	_	_	_	_	_	_
 14	об	_	_	_	_	_	_	_	_
-15	этническом	_	_	_	_	_	_	_	_
-16	конфликте	_	_	_	_	_	_	_	_
+15	этническом	_	_	_	_	_	_	_	bratT52=Event
+16	конфликте	_	_	_	_	_	_	_	bratT52=Event
 
 # newpar id = 0124-p2
 # par_text = В поселке Кармаскалы в 50 км к юго-востоку от Уфы задержали несколько десятков человек. Об этом сообщили телеграм-канал «Куштау on-line» и государственное информагентство «Башинформ» со ссылкой на источники.
@@ -173,9 +173,9 @@
 9	неделю	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-absolute|bratT37=Duration
 10	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T20:Past|bratT20=Date-absolute
 11	''	_	_	_	_	_	_	_	_
-12	представители	_	_	_	_	_	_	_	_
-13	армянской	_	_	_	_	_	_	_	bratA5=T21:Adjective|bratT21=Nationality
-14	диаспоры	_	_	_	_	_	_	_	_
+12	представители	_	_	_	_	_	_	_	bratT57=Person-property
+13	армянской	_	_	_	_	_	_	_	bratA5=T21:Adjective|bratT21=Nationality|bratT57=Person-property
+14	диаспоры	_	_	_	_	_	_	_	bratT57=Person-property|bratT58=Organization
 15	ударили	_	_	_	_	_	_	_	_
 16	пожилую	_	_	_	_	_	_	_	bratT22=Age
 17	женщину	_	_	_	_	_	_	_	SpaceAfter=No
@@ -191,7 +191,7 @@
 6	ноября	_	_	_	_	_	_	_	bratA11=T24:Past|bratT24=Date-absolute
 7	``	_	_	_	_	_	_	_	SpaceAfter=No
 8	назначили	_	_	_	_	_	_	_	_
-9	встречу	_	_	_	_	_	_	_	SpaceAfter=No
+9	встречу	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event
 10	''	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
@@ -260,7 +260,7 @@
 14	которых	_	_	_	_	_	_	_	_
 15	были	_	_	_	_	_	_	_	_
 16	члены	_	_	_	_	_	_	_	_
-17	признанной	_	_	_	_	_	_	_	_
+17	признанной	_	_	_	_	_	_	_	bratT30=Organization
 18	экстремистской	_	_	_	_	_	_	_	bratT30=Organization
 19	организации	_	_	_	_	_	_	_	bratT30=Organization
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
@@ -275,13 +275,13 @@
 3	источника	_	_	_	_	_	_	_	bratT49=Person
 4	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T50:Media|bratT49=Person|bratT50=Organization
 5	,	_	_	_	_	_	_	_	_
-6	задержанные	_	_	_	_	_	_	_	_
+6	задержанные	_	_	_	_	_	_	_	bratT53=Person-property|bratT54=Person
 7	собирались	_	_	_	_	_	_	_	_
 8	заставить	_	_	_	_	_	_	_	_
-9	владельцев	_	_	_	_	_	_	_	_
-10	ресторана	_	_	_	_	_	_	_	bratT46=Facility
-11	в	_	_	_	_	_	_	_	_
-12	поселке	_	_	_	_	_	_	_	bratT48=GPE
+9	владельцев	_	_	_	_	_	_	_	bratT55=Person-property|bratT56=Person
+10	ресторана	_	_	_	_	_	_	_	bratT46=Facility|bratT55=Person-property|bratT56=Person
+11	в	_	_	_	_	_	_	_	bratT55=Person-property|bratT56=Person
+12	поселке	_	_	_	_	_	_	_	bratT48=GPE|bratT55=Person-property|bratT56=Person
 13	передать	_	_	_	_	_	_	_	_
 14	его	_	_	_	_	_	_	_	_
 15	членам	_	_	_	_	_	_	_	bratT32=Person-property

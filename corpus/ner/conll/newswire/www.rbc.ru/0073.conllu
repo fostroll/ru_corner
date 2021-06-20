@@ -178,8 +178,8 @@
 # sent_id = 0073-p4-s3
 # text = Теперь представители JLR требуют запретить продажи этих машин.
 1	Теперь	_	_	_	_	_	_	_	_
-2	представители	_	_	_	_	_	_	_	_
-3	JLR	_	_	_	_	_	_	_	bratT14=Organization
+2	представители	_	_	_	_	_	_	_	bratT36=Person-property
+3	JLR	_	_	_	_	_	_	_	bratT14=Organization|bratT36=Person-property
 4	требуют	_	_	_	_	_	_	_	_
 5	запретить	_	_	_	_	_	_	_	_
 6	продажи	_	_	_	_	_	_	_	_
@@ -205,7 +205,7 @@
 # newpar id = 0073-p5
 # par_text = «JLR стремится защитить себя и свои технологии в США от компаний, которые внедрили на рынок продукты, нарушающие авторские права, Эти фирмы комплектуют свои машины системами, которые были разработаны Jaguar Land Rover и защищены патентом», — заявил адвокат британцев Мэтью Мур.
 # sent_id = 0073-p5-s1
-# text = ``JLR стремится защитить себя и свои технологии в США от компаний, которые внедрили на рынок продукты, нарушающие авторские права, Эти фирмы комплектуют свои машины системами, которые были разработаны Jaguar Land Rover и защищены патентом'', - заявил адвокат британцев Мэтью Мур.
+# text = ``JLR стремится защитить себя и свои технологии в США от компаний, которые внедрили на рынок продукты, нарушающие авторские права,
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	JLR	_	_	_	_	_	_	_	bratT17=Organization
 3	стремится	_	_	_	_	_	_	_	_
@@ -229,31 +229,34 @@
 21	авторские	_	_	_	_	_	_	_	_
 22	права	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
-24	Эти	_	_	_	_	_	_	_	_
-25	фирмы	_	_	_	_	_	_	_	bratT34=Organization
-26	комплектуют	_	_	_	_	_	_	_	_
-27	свои	_	_	_	_	_	_	_	_
-28	машины	_	_	_	_	_	_	_	_
-29	системами	_	_	_	_	_	_	_	SpaceAfter=No
-30	,	_	_	_	_	_	_	_	_
-31	которые	_	_	_	_	_	_	_	_
-32	были	_	_	_	_	_	_	_	_
-33	разработаны	_	_	_	_	_	_	_	_
-34	Jaguar	_	_	_	_	_	_	_	bratT19=Organization
-35	Land	_	_	_	_	_	_	_	bratT19=Organization
-36	Rover	_	_	_	_	_	_	_	bratT19=Organization
-37	и	_	_	_	_	_	_	_	_
-38	защищены	_	_	_	_	_	_	_	_
-39	патентом	_	_	_	_	_	_	_	SpaceAfter=No
-40	''	_	_	_	_	_	_	_	SpaceAfter=No
-41	,	_	_	_	_	_	_	_	_
-42	-	_	_	_	_	_	_	_	_
-43	заявил	_	_	_	_	_	_	_	_
-44	адвокат	_	_	_	_	_	_	_	bratA16=T20:Male|bratT20=Person|bratT21=Person-property
-45	британцев	_	_	_	_	_	_	_	bratA16=T20:Male|bratA7=T22:Citizenship|bratT20=Person|bratT21=Person-property|bratT22=Nationality
-46	Мэтью	_	_	_	_	_	_	_	bratA16=T20:Male|bratT20=Person|bratT40=Person-forename
-47	Мур	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T20:Male|bratT20=Person|bratT41=Person-surname
-48	.	_	_	_	_	_	_	_	_
+
+# sent_id = 0073-p5-s2
+# text = Эти фирмы комплектуют свои машины системами, которые были разработаны Jaguar Land Rover и защищены патентом'', - заявил адвокат британцев Мэтью Мур.
+1	Эти	_	_	_	_	_	_	_	_
+2	фирмы	_	_	_	_	_	_	_	bratT34=Organization
+3	комплектуют	_	_	_	_	_	_	_	_
+4	свои	_	_	_	_	_	_	_	_
+5	машины	_	_	_	_	_	_	_	_
+6	системами	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	которые	_	_	_	_	_	_	_	_
+9	были	_	_	_	_	_	_	_	_
+10	разработаны	_	_	_	_	_	_	_	_
+11	Jaguar	_	_	_	_	_	_	_	bratT19=Organization
+12	Land	_	_	_	_	_	_	_	bratT19=Organization
+13	Rover	_	_	_	_	_	_	_	bratT19=Organization
+14	и	_	_	_	_	_	_	_	_
+15	защищены	_	_	_	_	_	_	_	_
+16	патентом	_	_	_	_	_	_	_	SpaceAfter=No
+17	''	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	_	_	_	_	_	_	_	_
+19	-	_	_	_	_	_	_	_	_
+20	заявил	_	_	_	_	_	_	_	_
+21	адвокат	_	_	_	_	_	_	_	bratA16=T20:Male|bratT20=Person|bratT21=Person-property
+22	британцев	_	_	_	_	_	_	_	bratA16=T20:Male|bratA7=T22:Citizenship|bratT20=Person|bratT21=Person-property|bratT22=Nationality
+23	Мэтью	_	_	_	_	_	_	_	bratA16=T20:Male|bratT20=Person|bratT40=Person-forename
+24	Мур	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T20:Male|bratT20=Person|bratT41=Person-surname
+25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p6
 # par_text = Впрочем, экспертам еще предстоит разобраться в законности применения подобных технологий немцами. Скорее всего, процесс растянется на несколько лет.
@@ -278,7 +281,7 @@
 1	Скорее	_	_	_	_	_	_	_	_
 2	всего	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	процесс	_	_	_	_	_	_	_	_
+4	процесс	_	_	_	_	_	_	_	bratT35=Event
 5	растянется	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	bratA17=T43:Pres-Fut|bratT43=Date-period-absolute
 7	несколько	_	_	_	_	_	_	_	bratA17=T43:Pres-Fut|bratT42=Duration|bratT43=Date-period-absolute

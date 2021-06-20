@@ -143,7 +143,7 @@
 7	один	_	_	_	_	_	_	_	bratT14=Quantity
 8	автозак	_	_	_	_	_	_	_	bratT14=Quantity
 9	с	_	_	_	_	_	_	_	_
-10	задержанными	_	_	_	_	_	_	_	_
+10	задержанными	_	_	_	_	_	_	_	bratT60=Person-property
 11	уже	_	_	_	_	_	_	_	_
 12	уехал	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
@@ -166,7 +166,7 @@
 10	на	_	_	_	_	_	_	_	_
 11	некоторых	_	_	_	_	_	_	_	_
 12	участников	_	_	_	_	_	_	_	bratT17=Other-group
-13	шествия	_	_	_	_	_	_	_	bratT17=Other-group
+13	шествия	_	_	_	_	_	_	_	bratT17=Other-group|bratT58=Event
 14	составили	_	_	_	_	_	_	_	_
 15	протоколы	_	_	_	_	_	_	_	_
 16	по	_	_	_	_	_	_	_	_
@@ -178,7 +178,7 @@
 22	(	_	_	_	_	_	_	_	SpaceAfter=No
 23	участие	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
-25	митинге	_	_	_	_	_	_	_	SpaceAfter=No
+25	митинге	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
 26	,	_	_	_	_	_	_	_	_
 27	повлекшем	_	_	_	_	_	_	_	_
 28	создание	_	_	_	_	_	_	_	_
@@ -289,7 +289,7 @@
 27	проверку	_	_	_	_	_	_	_	_
 28	по	_	_	_	_	_	_	_	_
 29	факту	_	_	_	_	_	_	_	_
-30	смерти	_	_	_	_	_	_	_	_
+30	смерти	_	_	_	_	_	_	_	bratT57=Event
 31	неонациста	_	_	_	_	_	_	_	bratA6=T33:Male|bratT33=Person|bratT34=Political-group
 32	Максима	_	_	_	_	_	_	_	bratA6=T33:Male|bratT33=Person|bratT35=Person-forename
 33	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T33:Male|bratT33=Person|bratT36=Person-alias

@@ -5,10 +5,10 @@
 # text = ВОЗ зафиксировала рекордный прирост заражений коронавирусом за неделю
 1	ВОЗ	_	_	_	_	_	_	_	bratT1=Organization
 2	зафиксировала	_	_	_	_	_	_	_	_
-3	рекордный	_	_	_	_	_	_	_	_
-4	прирост	_	_	_	_	_	_	_	_
-5	заражений	_	_	_	_	_	_	_	bratT56=Event
-6	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term|bratT56=Event
+3	рекордный	_	_	_	_	_	_	_	bratT60=Event
+4	прирост	_	_	_	_	_	_	_	bratT60=Event
+5	заражений	_	_	_	_	_	_	_	bratT56=Event|bratT60=Event
+6	коронавирусом	_	_	_	_	_	_	_	bratT2=Other-term|bratT56=Event|bratT60=Event
 7	за	_	_	_	_	_	_	_	bratA4=T55:Past-Pres|bratT55=Date-period-absolute
 8	неделю	_	_	_	_	_	_	_	bratA4=T55:Past-Pres|bratT37=Duration|bratT55=Date-period-absolute
 
@@ -23,10 +23,10 @@
 5	ВОЗ	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
 6	)	_	_	_	_	_	_	_	_
 7	зафиксировала	_	_	_	_	_	_	_	_
-8	рекордный	_	_	_	_	_	_	_	_
-9	прирост	_	_	_	_	_	_	_	_
-10	заражений	_	_	_	_	_	_	_	bratT57=Event
-11	коронавирусом	_	_	_	_	_	_	_	bratT5=Other-term|bratT57=Event
+8	рекордный	_	_	_	_	_	_	_	bratT73=Event
+9	прирост	_	_	_	_	_	_	_	bratT73=Event
+10	заражений	_	_	_	_	_	_	_	bratT57=Event|bratT73=Event
+11	коронавирусом	_	_	_	_	_	_	_	bratT5=Other-term|bratT57=Event|bratT73=Event
 12	за	_	_	_	_	_	_	_	bratA8=T38:Past|bratT38=Date-period-absolute
 13	минувшую	_	_	_	_	_	_	_	bratA8=T38:Past|bratT38=Date-period-absolute|bratT52=Ordinal
 14	неделю	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T38:Past|bratT38=Date-period-absolute|bratT49=Duration
@@ -67,8 +67,8 @@
 3	количество	_	_	_	_	_	_	_	_
 4	случаев	_	_	_	_	_	_	_	bratT59=Event
 5	с	_	_	_	_	_	_	_	bratT59=Event
-6	летальным	_	_	_	_	_	_	_	bratT59=Event|bratT60=Event
-7	исходом	_	_	_	_	_	_	_	bratT59=Event|bratT60=Event
+6	летальным	_	_	_	_	_	_	_	bratT59=Event
+7	исходом	_	_	_	_	_	_	_	bratT59=Event
 8	увеличилось	_	_	_	_	_	_	_	_
 9	более	_	_	_	_	_	_	_	bratT10=Quantity
 10	чем	_	_	_	_	_	_	_	bratT10=Quantity

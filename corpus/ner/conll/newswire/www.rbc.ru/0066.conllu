@@ -6,8 +6,8 @@
 1	Венгрия	_	_	_	_	_	_	_	bratT1=GPE
 2	оценила	_	_	_	_	_	_	_	_
 3	сроки	_	_	_	_	_	_	_	_
-4	начала	_	_	_	_	_	_	_	_
-5	производства	_	_	_	_	_	_	_	_
+4	начала	_	_	_	_	_	_	_	bratT52=Event
+5	производства	_	_	_	_	_	_	_	bratT52=Event
 6	российской	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratA15=T27:Trademark|bratT27=Product|bratT3=GPE
 7	вакцины	_	_	_	_	_	_	_	bratA15=T27:Trademark|bratT27=Product
 8	от	_	_	_	_	_	_	_	bratA15=T27:Trademark|bratT27=Product
@@ -24,8 +24,8 @@
 5	полутора	_	_	_	_	_	_	_	bratA14=T11:Pres-Fut|bratT11=Date-period-absolute|bratT12=Duration
 6	лет	_	_	_	_	_	_	_	bratA14=T11:Pres-Fut|bratT11=Date-period-absolute|bratT12=Duration
 7	для	_	_	_	_	_	_	_	_
-8	начала	_	_	_	_	_	_	_	_
-9	производства	_	_	_	_	_	_	_	_
+8	начала	_	_	_	_	_	_	_	bratT53=Event
+9	производства	_	_	_	_	_	_	_	bratT53=Event
 10	российской	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratA3=T9:Adjective|bratT10=Product|bratT9=GPE
 11	вакцины	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratT10=Product|bratT28=Other-term
 12	от	_	_	_	_	_	_	_	bratA16=T10:Trademark|bratT10=Product
@@ -138,7 +138,7 @@
 5	сконцентрироваться	_	_	_	_	_	_	_	_
 6	только	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	закупках	_	_	_	_	_	_	_	SpaceAfter=No
+8	закупках	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event
 9	''	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
@@ -202,7 +202,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	пояснил	_	_	_	_	_	_	_	_
-9	министр	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property
+9	министр	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T36:Male|bratT36=Person
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0066-p5
@@ -217,13 +217,13 @@
 6	в	_	_	_	_	_	_	_	_
 7	Европе	_	_	_	_	_	_	_	bratT37=GPE
 8	есть	_	_	_	_	_	_	_	_
-9	лобби	_	_	_	_	_	_	_	bratT47=Other-group
-10	против	_	_	_	_	_	_	_	bratT47=Other-group
-11	приходящих	_	_	_	_	_	_	_	bratT47=Other-group
-12	из-за	_	_	_	_	_	_	_	bratT47=Other-group
-13	пределов	_	_	_	_	_	_	_	bratT47=Other-group
-14	ЕС	_	_	_	_	_	_	_	bratT38=GPE|bratT47=Other-group
-15	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term|bratT47=Other-group
+9	лобби	_	_	_	_	_	_	_	_
+10	против	_	_	_	_	_	_	_	_
+11	приходящих	_	_	_	_	_	_	_	_
+12	из-за	_	_	_	_	_	_	_	_
+13	пределов	_	_	_	_	_	_	_	_
+14	ЕС	_	_	_	_	_	_	_	bratT38=GPE
+15	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Other-term
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p5-s2
@@ -231,14 +231,14 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Есть	_	_	_	_	_	_	_	_
 3	сильное	_	_	_	_	_	_	_	_
-4	лобби	_	_	_	_	_	_	_	bratT48=Other-group
-5	против	_	_	_	_	_	_	_	bratT48=Other-group
-6	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Other-term|bratT48=Other-group
-7	,	_	_	_	_	_	_	_	bratT48=Other-group
-8	которые	_	_	_	_	_	_	_	bratT48=Other-group
-9	приходят	_	_	_	_	_	_	_	bratT48=Other-group
-10	извне	_	_	_	_	_	_	_	bratT48=Other-group
-11	Евросоюза	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=GPE|bratT48=Other-group
+4	лобби	_	_	_	_	_	_	_	_
+5	против	_	_	_	_	_	_	_	_
+6	вакцин	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Other-term
+7	,	_	_	_	_	_	_	_	_
+8	которые	_	_	_	_	_	_	_	_
+9	приходят	_	_	_	_	_	_	_	_
+10	извне	_	_	_	_	_	_	_	_
+11	Евросоюза	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=GPE
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p5-s3

@@ -28,7 +28,7 @@
 12	долевого	_	_	_	_	_	_	_	bratT17=Other-term
 13	участия	_	_	_	_	_	_	_	bratT17=Other-term
 14	в	_	_	_	_	_	_	_	_
-15	строительстве	_	_	_	_	_	_	_	_
+15	строительстве	_	_	_	_	_	_	_	bratT39=Event
 16	(	_	_	_	_	_	_	_	SpaceAfter=No
 17	ДДУ	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Other-term
 18	)	_	_	_	_	_	_	_	_
@@ -161,10 +161,10 @@
 6	сделок	_	_	_	_	_	_	_	_
 7	снизилось	_	_	_	_	_	_	_	_
 8	из-за	_	_	_	_	_	_	_	_
-9	продления	_	_	_	_	_	_	_	_
-10	программы	_	_	_	_	_	_	_	_
-11	льготной	_	_	_	_	_	_	_	_
-12	ипотеки	_	_	_	_	_	_	_	SpaceAfter=No
+9	продления	_	_	_	_	_	_	_	bratT40=Event
+10	программы	_	_	_	_	_	_	_	bratA13=T41:Project|bratT41=Product
+11	льготной	_	_	_	_	_	_	_	bratA13=T41:Project|bratT41=Product
+12	ипотеки	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T41:Project|bratT41=Product
 13	:	_	_	_	_	_	_	_	_
 14	у	_	_	_	_	_	_	_	_
 15	граждан	_	_	_	_	_	_	_	bratA12=T27:Citizenship|bratT27=Nationality

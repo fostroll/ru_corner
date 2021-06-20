@@ -6,7 +6,7 @@
 1	Рафаэль	_	_	_	_	_	_	_	bratA7=T1:Male|bratT1=Person|bratT49=Person-forename
 2	Надаль	_	_	_	_	_	_	_	bratA7=T1:Male|bratT1=Person|bratT50=Person-surname
 3	побил	_	_	_	_	_	_	_	_
-4	рекорд	_	_	_	_	_	_	_	_
+4	рекорд	_	_	_	_	_	_	_	bratT75=INVALID-DOCUMENT
 5	Джимми	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT51=Person-forename
 6	Коннорса	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT52=Person-surname
 7	в	_	_	_	_	_	_	_	_
@@ -39,7 +39,7 @@
 19	)	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_
 21	установив	_	_	_	_	_	_	_	_
-22	рекорд	_	_	_	_	_	_	_	_
+22	рекорд	_	_	_	_	_	_	_	bratT76=Event
 23	по	_	_	_	_	_	_	_	_
 24	этому	_	_	_	_	_	_	_	_
 25	показателю	_	_	_	_	_	_	_	SpaceAfter=No
@@ -55,7 +55,7 @@
 3	летний	_	_	_	_	_	_	_	bratT10=Age
 4	испанец	_	_	_	_	_	_	_	bratA2=T12:Citizenship|bratT12=Nationality
 5	превзошел	_	_	_	_	_	_	_	_
-6	рекорд	_	_	_	_	_	_	_	_
+6	рекорд	_	_	_	_	_	_	_	bratT77=Event
 7	американца	_	_	_	_	_	_	_	bratA12=T13:Male|bratA3=T14:Citizenship|bratT13=Person|bratT14=Nationality
 8	Джимми	_	_	_	_	_	_	_	bratA12=T13:Male|bratT13=Person|bratT56=Person-forename
 9	Коннорса	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T13:Male|bratT13=Person|bratT57=Person-surname
@@ -143,8 +143,8 @@
 1	Это	_	_	_	_	_	_	_	_
 2	шестой	_	_	_	_	_	_	_	bratT32=Ordinal
 3	показатель	_	_	_	_	_	_	_	_
-4	в	_	_	_	_	_	_	_	_
-5	истории	_	_	_	_	_	_	_	SpaceAfter=No
+4	в	_	_	_	_	_	_	_	bratA24=T74:Past-Pres|bratT74=Date-period-absolute
+5	истории	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T74:Past-Pres|bratT74=Date-period-absolute
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p6
@@ -186,7 +186,7 @@
 6	место	_	_	_	_	_	_	_	_
 7	по	_	_	_	_	_	_	_	_
 8	количеству	_	_	_	_	_	_	_	_
-9	побед	_	_	_	_	_	_	_	_
+9	побед	_	_	_	_	_	_	_	bratT73=Event
 10	на	_	_	_	_	_	_	_	_
 11	турнирах	_	_	_	_	_	_	_	bratT43=Event
 12	серии	_	_	_	_	_	_	_	bratT43=Event

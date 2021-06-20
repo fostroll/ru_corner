@@ -16,9 +16,9 @@
 11	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Past|bratT2=Date-absolute
 12	:	_	_	_	_	_	_	_	_
 13	ограничения	_	_	_	_	_	_	_	_
-14	на	_	_	_	_	_	_	_	bratA2=T29:Future|bratT29=Date-absolute
-15	новогодние	_	_	_	_	_	_	_	bratA2=T29:Future|bratT29=Date-absolute|bratT3=Event
-16	праздники	_	_	_	_	_	_	_	bratA2=T29:Future|bratT29=Date-absolute|bratT3=Event
+14	на	_	_	_	_	_	_	_	bratA2=T29:Fut|bratT29=Date-period-absolute
+15	новогодние	_	_	_	_	_	_	_	bratA2=T29:Fut|bratT29=Date-period-absolute|bratT3=Event
+16	праздники	_	_	_	_	_	_	_	bratA2=T29:Fut|bratT29=Date-period-absolute|bratT3=Event
 
 # newpar id = 0010-p2
 # par_text = В Москве антирекорд за весь период пандемии – два дня назад выявлено 6897 случаев заболевания коронавирусом. Такие цифры были в марте, потом статистика шла вниз и вот снова большой подъем эпидемии.
@@ -26,7 +26,7 @@
 # text = В Москве антирекорд за весь период пандемии - два дня назад выявлено 6897 случаев заболевания коронавирусом.
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT4=GPE
-3	антирекорд	_	_	_	_	_	_	_	_
+3	антирекорд	_	_	_	_	_	_	_	bratT55=Event
 4	за	_	_	_	_	_	_	_	bratA3=T31:Past-Pres|bratT31=Date-period-absolute
 5	весь	_	_	_	_	_	_	_	bratA3=T31:Past-Pres|bratT31=Date-period-absolute
 6	период	_	_	_	_	_	_	_	bratA3=T31:Past-Pres|bratT31=Date-period-absolute
@@ -37,9 +37,9 @@
 11	назад	_	_	_	_	_	_	_	bratA4=T5:Past|bratT5=Date-absolute
 12	выявлено	_	_	_	_	_	_	_	_
 13	6897	_	_	_	_	_	_	_	bratT6=Quantity
-14	случаев	_	_	_	_	_	_	_	bratT6=Quantity
-15	заболевания	_	_	_	_	_	_	_	_
-16	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+14	случаев	_	_	_	_	_	_	_	bratT54=Event|bratT6=Quantity
+15	заболевания	_	_	_	_	_	_	_	bratT54=Event
+16	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Event|bratT7=Other-term
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0010-p2-s2

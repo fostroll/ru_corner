@@ -14,17 +14,17 @@
 # par_text = Снижение числа новых случаев коронавируса SARS-CoV-2 позволяет говорить о том, что Франция прошла пик эпидемии коронавируса, добиться этого помогли ограничения. Об этом заявил министр здравоохранения страны Оливье Веран, сообщает портал Paris Match.
 # sent_id = 0051-p2-s1
 # text = Снижение числа новых случаев коронавируса SARS-CoV-2 позволяет говорить о том, что Франция прошла пик эпидемии коронавируса, добиться этого помогли ограничения.
-1	Снижение	_	_	_	_	_	_	_	_
-2	числа	_	_	_	_	_	_	_	_
-3	новых	_	_	_	_	_	_	_	bratT41=Event
-4	случаев	_	_	_	_	_	_	_	bratT41=Event
-5	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event
+1	Снижение	_	_	_	_	_	_	_	bratT60=Event
+2	числа	_	_	_	_	_	_	_	bratT60=Event
+3	новых	_	_	_	_	_	_	_	bratT41=Event|bratT60=Event
+4	случаев	_	_	_	_	_	_	_	bratT41=Event|bratT60=Event
+5	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event|bratT60=Event
 6-10	SARS-CoV-2	_	_	_	_	_	_	_	_
-6	SARS	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
-7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
-8	CoV	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
-9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event
-10	2	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event|bratT43=Person-surname
+6	SARS	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event|bratT60=Event
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event|bratT60=Event
+8	CoV	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event|bratT60=Event
+9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event|bratT60=Event
+10	2	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event|bratT43=Person-surname|bratT60=Event
 11	позволяет	_	_	_	_	_	_	_	_
 12	говорить	_	_	_	_	_	_	_	_
 13	о	_	_	_	_	_	_	_	_
@@ -123,7 +123,7 @@
 17	,	_	_	_	_	_	_	_	_
 18	но	_	_	_	_	_	_	_	_
 19	до	_	_	_	_	_	_	_	_
-20	победы	_	_	_	_	_	_	_	_
+20	победы	_	_	_	_	_	_	_	bratT59=Event
 21	над	_	_	_	_	_	_	_	_
 22	болезнью	_	_	_	_	_	_	_	_
 23	далеко	_	_	_	_	_	_	_	SpaceAfter=No
@@ -188,8 +188,8 @@
 9	рестораны	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	отменены	_	_	_	_	_	_	_	_
-12	массовые	_	_	_	_	_	_	_	_
-13	мероприятия	_	_	_	_	_	_	_	SpaceAfter=No
+12	массовые	_	_	_	_	_	_	_	bratT61=Event
+13	мероприятия	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0051-p5-s3
@@ -208,8 +208,8 @@
 12	надеются	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
-15	ограничительные	_	_	_	_	_	_	_	bratT47=Event
-16	меры	_	_	_	_	_	_	_	bratT47=Event
+15	ограничительные	_	_	_	_	_	_	_	_
+16	меры	_	_	_	_	_	_	_	_
 17	приведут	_	_	_	_	_	_	_	_
 18	к	_	_	_	_	_	_	_	_
 19	снижению	_	_	_	_	_	_	_	bratT51=Event
@@ -246,8 +246,8 @@
 13	и	_	_	_	_	_	_	_	_
 14	42,6	_	_	_	_	_	_	_	bratT23=Quantity
 15	тысячи	_	_	_	_	_	_	_	bratT23=Quantity
-16	летальных	_	_	_	_	_	_	_	bratT23=Quantity
-17	исходов	_	_	_	_	_	_	_	bratT23=Quantity
+16	летальных	_	_	_	_	_	_	_	bratT23=Quantity|bratT47=Event
+17	исходов	_	_	_	_	_	_	_	bratT23=Quantity|bratT47=Event
 18	из-за	_	_	_	_	_	_	_	_
 19	вызванных	_	_	_	_	_	_	_	_
 20-22	COVID-19	_	_	_	_	_	_	_	_

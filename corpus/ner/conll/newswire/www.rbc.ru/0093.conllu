@@ -13,7 +13,7 @@
 8	пациентов	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	ИВЛ	_	_	_	_	_	_	_	bratT1=Other-term
-11	врач	_	_	_	_	_	_	_	bratT2=Person-property
+11	врач	_	_	_	_	_	_	_	bratA21=T56:Male|bratT2=Person-property|bratT56=Person
 
 # newpar id = 0093-p2
 # par_text = Из городской больницы № 20 Ростова-на-Дону уволился анестезиолог-реаниматолог Артур Топоров, который рассказал о гибели 13 пациентов с коронавирусом из-за нехватки кислорода. Об этом медик сообщил РБК.
@@ -47,7 +47,7 @@
 # text = Об этом медик сообщил РБК.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	медик	_	_	_	_	_	_	_	bratT10=Person-property
+3	медик	_	_	_	_	_	_	_	bratA22=T57:Male|bratT10=Person-property|bratT57=Person
 4	сообщил	_	_	_	_	_	_	_	_
 5	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
 6	.	_	_	_	_	_	_	_	_
@@ -64,7 +64,7 @@
 6	написал	_	_	_	_	_	_	_	_
 7	заявление	_	_	_	_	_	_	_	_
 8	об	_	_	_	_	_	_	_	_
-9	увольнении	_	_	_	_	_	_	_	_
+9	увольнении	_	_	_	_	_	_	_	bratT60=Event
 10	по	_	_	_	_	_	_	_	_
 11	собственному	_	_	_	_	_	_	_	_
 12	желанию	_	_	_	_	_	_	_	SpaceAfter=No
@@ -94,7 +94,7 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	заявил	_	_	_	_	_	_	_	_
-23	врач	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
+23	врач	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T58:Male|bratT12=Person-property|bratT58=Person
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0093-p4
@@ -112,16 +112,16 @@
 9	,	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
 11	словам	_	_	_	_	_	_	_	_
-12	главного	_	_	_	_	_	_	_	bratT17=Person-property
-13	врача	_	_	_	_	_	_	_	bratT17=Person-property
-14	медучреждения	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+12	главного	_	_	_	_	_	_	_	bratT17=Person-property|bratT55=Person
+13	врача	_	_	_	_	_	_	_	bratT17=Person-property|bratT55=Person
+14	медучреждения	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property|bratT55=Person|bratT59=Organization
 15	,	_	_	_	_	_	_	_	_
 16	Топоров	_	_	_	_	_	_	_	bratA11=T41:Male|bratT40=Person-surname|bratT41=Person
 17	действительно	_	_	_	_	_	_	_	_
 18	написал	_	_	_	_	_	_	_	_
 19	заявление	_	_	_	_	_	_	_	_
 20	об	_	_	_	_	_	_	_	_
-21	увольнении	_	_	_	_	_	_	_	_
+21	увольнении	_	_	_	_	_	_	_	bratT61=Event
 22	по	_	_	_	_	_	_	_	_
 23	собственному	_	_	_	_	_	_	_	_
 24	желанию	_	_	_	_	_	_	_	SpaceAfter=No

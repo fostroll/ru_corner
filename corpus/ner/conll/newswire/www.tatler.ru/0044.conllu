@@ -41,11 +41,11 @@
 17	двадцати	_	_	_	_	_	_	_	bratT18=Quantity
 18	одного	_	_	_	_	_	_	_	bratT18=Quantity
 19	залпа	_	_	_	_	_	_	_	bratT18=Quantity
-20	торжественного	_	_	_	_	_	_	_	_
-21	салюта	_	_	_	_	_	_	_	_
+20	торжественного	_	_	_	_	_	_	_	bratT64=Event
+21	салюта	_	_	_	_	_	_	_	bratT64=Event
 22	и	_	_	_	_	_	_	_	_
 23	в	_	_	_	_	_	_	_	_
-24	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No
+24	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0044-p2-s2
@@ -89,7 +89,7 @@
 6	чтобы	_	_	_	_	_	_	_	_
 7	успеть	_	_	_	_	_	_	_	_
 8	устроить	_	_	_	_	_	_	_	_
-9	видеоконференцию	_	_	_	_	_	_	_	_
+9	видеоконференцию	_	_	_	_	_	_	_	bratT65=Event
 10	с	_	_	_	_	_	_	_	_
 11	Елизаветой	_	_	_	_	_	_	_	bratA10=T35:Female|bratT33=Person-forename|bratT35=Person
 12	II	_	_	_	_	_	_	_	bratA10=T35:Female|bratT34=Person-affix|bratT35=Person|bratT60=Ordinal

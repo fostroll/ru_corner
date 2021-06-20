@@ -3,12 +3,12 @@
 # par_text = Пересчет голосов в Джорджии подтвердил победу Байдена
 # sent_id = 0118-p1-s1
 # text = Пересчет голосов в Джорджии подтвердил победу Байдена
-1	Пересчет	_	_	_	_	_	_	_	_
-2	голосов	_	_	_	_	_	_	_	_
+1	Пересчет	_	_	_	_	_	_	_	bratT59=Event
+2	голосов	_	_	_	_	_	_	_	bratT59=Event
 3	в	_	_	_	_	_	_	_	_
 4	Джорджии	_	_	_	_	_	_	_	bratT1=GPE
 5	подтвердил	_	_	_	_	_	_	_	_
-6	победу	_	_	_	_	_	_	_	_
+6	победу	_	_	_	_	_	_	_	bratT58=Event
 7	Байдена	_	_	_	_	_	_	_	bratA1=T2:Male|bratT2=Person|bratT35=Person-surname
 
 # newpar id = 0118-p2
@@ -19,11 +19,11 @@
 2	американском	_	_	_	_	_	_	_	bratA2=T36:Adjective|bratT3=GPE|bratT36=GPE
 3	штате	_	_	_	_	_	_	_	bratT3=GPE
 4	Джорджия	_	_	_	_	_	_	_	bratT3=GPE
-5	ручной	_	_	_	_	_	_	_	_
-6	пересчет	_	_	_	_	_	_	_	_
-7	голосов	_	_	_	_	_	_	_	_
+5	ручной	_	_	_	_	_	_	_	bratT60=Event
+6	пересчет	_	_	_	_	_	_	_	bratT60=Event
+7	голосов	_	_	_	_	_	_	_	bratT60=Event
 8	подтвердил	_	_	_	_	_	_	_	_
-9	победу	_	_	_	_	_	_	_	_
+9	победу	_	_	_	_	_	_	_	bratT61=Event
 10	кандидата	_	_	_	_	_	_	_	bratA3=T4:Male|bratT4=Person|bratT5=Person-property
 11	от	_	_	_	_	_	_	_	bratA3=T4:Male|bratT4=Person|bratT5=Person-property
 12	Демократической	_	_	_	_	_	_	_	bratA13=T56:Adjective|bratA3=T4:Male|bratT4=Person|bratT5=Person-property|bratT56=Political-group|bratT6=Organization
@@ -43,7 +43,7 @@
 6	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T8:Male|bratT7=Person-property|bratT8=Person
 7	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T8:Male|bratT7=Person-property|bratT8=Person
 8	губернатора	_	_	_	_	_	_	_	bratA5=T8:Male|bratT7=Person-property|bratT8=Person
-9	штата	_	_	_	_	_	_	_	bratA5=T8:Male|bratT7=Person-property|bratT8=Person
+9	штата	_	_	_	_	_	_	_	bratA5=T8:Male|bratT64=GPE|bratT7=Person-property|bratT8=Person
 10	Брэда	_	_	_	_	_	_	_	bratA5=T8:Male|bratT39=Person-forename|bratT8=Person
 11	Раффенспергера	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T8:Male|bratT40=Person-surname|bratT8=Person
 12	.	_	_	_	_	_	_	_	_
@@ -66,9 +66,9 @@
 12	которая	_	_	_	_	_	_	_	_
 13	возникает	_	_	_	_	_	_	_	_
 14	при	_	_	_	_	_	_	_	_
-15	ручном	_	_	_	_	_	_	_	_
-16	подсчете	_	_	_	_	_	_	_	_
-17	бюллетеней	_	_	_	_	_	_	_	SpaceAfter=No
+15	ручном	_	_	_	_	_	_	_	bratT62=Event
+16	подсчете	_	_	_	_	_	_	_	bratT62=Event
+17	бюллетеней	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Event
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0118-p3-s2
@@ -94,8 +94,8 @@
 1	VotingWorks	_	_	_	_	_	_	_	bratT12=Organization
 2	участвовала	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	пересчете	_	_	_	_	_	_	_	_
-5	результатов	_	_	_	_	_	_	_	SpaceAfter=No
+4	пересчете	_	_	_	_	_	_	_	bratT65=Event
+5	результатов	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Event
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0118-p4
@@ -104,9 +104,9 @@
 # text = По итогам вторичной обработки бюллетеней Байден обошел Трампа на 12 284 голоса.
 1	По	_	_	_	_	_	_	_	_
 2	итогам	_	_	_	_	_	_	_	_
-3	вторичной	_	_	_	_	_	_	_	bratT57=Ordinal
-4	обработки	_	_	_	_	_	_	_	_
-5	бюллетеней	_	_	_	_	_	_	_	_
+3	вторичной	_	_	_	_	_	_	_	bratT57=Ordinal|bratT66=Event
+4	обработки	_	_	_	_	_	_	_	bratT66=Event
+5	бюллетеней	_	_	_	_	_	_	_	bratT66=Event
 6	Байден	_	_	_	_	_	_	_	bratA7=T13:Male|bratT13=Person|bratT44=Person-surname
 7	обошел	_	_	_	_	_	_	_	_
 8	Трампа	_	_	_	_	_	_	_	bratA8=T14:Male|bratT14=Person|bratT45=Person-surname
@@ -137,9 +137,9 @@
 2	подсчитывали	_	_	_	_	_	_	_	_
 3	вручную	_	_	_	_	_	_	_	_
 4	впервые	_	_	_	_	_	_	_	bratT19=Ordinal
-5	в	_	_	_	_	_	_	_	_
-6	истории	_	_	_	_	_	_	_	_
-7	Джорджии	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=GPE
+5	в	_	_	_	_	_	_	_	bratA15=T63:Past|bratT63=Date-period-absolute
+6	истории	_	_	_	_	_	_	_	bratA15=T63:Past|bratT63=Date-period-absolute
+7	Джорджии	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T63:Past|bratT18=GPE|bratT63=Date-period-absolute
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0118-p5-s2
@@ -177,8 +177,8 @@
 8	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
-11	пересчет	_	_	_	_	_	_	_	_
-12	голосов	_	_	_	_	_	_	_	_
+11	пересчет	_	_	_	_	_	_	_	bratT67=Event
+12	голосов	_	_	_	_	_	_	_	bratT67=Event
 13	в	_	_	_	_	_	_	_	_
 14	Джорджии	_	_	_	_	_	_	_	bratT27=GPE
 15	ничего	_	_	_	_	_	_	_	_
@@ -197,14 +197,14 @@
 7	иск	_	_	_	_	_	_	_	_
 8	к	_	_	_	_	_	_	_	_
 9	итогам	_	_	_	_	_	_	_	_
-10	голосования	_	_	_	_	_	_	_	SpaceAfter=No
+10	голосования	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Event
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0118-p7
 # par_text = Юрист пояснил, что доверия не вызывают бюллетени, присланные по почте, так как подпись избирателя находится на внешнем конверте, который потом выбрасывают. «Фальшивые бюллетени будут пересчитаны снова.  Так что это ничего не значит», — сообщил адвокат.
 # sent_id = 0118-p7-s1
 # text = Юрист пояснил, что доверия не вызывают бюллетени, присланные по почте, так как подпись избирателя находится на внешнем конверте, который потом выбрасывают.
-1	Юрист	_	_	_	_	_	_	_	bratT30=Person-property
+1	Юрист	_	_	_	_	_	_	_	bratA16=T69:Male|bratT30=Person-property|bratT69=Person
 2	пояснил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -253,7 +253,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	сообщил	_	_	_	_	_	_	_	_
-11	адвокат	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property
+11	адвокат	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T70:Male|bratT31=Person-property|bratT70=Person
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0118-p8
@@ -274,7 +274,7 @@
 12	наблюдать	_	_	_	_	_	_	_	_
 13	за	_	_	_	_	_	_	_	_
 14	процессом	_	_	_	_	_	_	_	_
-15	голосования	_	_	_	_	_	_	_	_
+15	голосования	_	_	_	_	_	_	_	bratT71=Event
 16	по	_	_	_	_	_	_	_	_
 17	почте	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_

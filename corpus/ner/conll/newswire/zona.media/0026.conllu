@@ -3,7 +3,7 @@
 # par_text = Псковского «Свидетеля Иеговы» приговорили к 6,5 годам колонии
 # sent_id = 0026-p1-s1
 # text = Псковского ``Свидетеля Иеговы'' приговорили к 6,5 годам колонии
-1	Псковского	_	_	_	_	_	_	_	bratA1=T1:Adjective|bratT1=GPE|bratT2=Religious-group
+1	Псковского	_	_	_	_	_	_	_	bratA1=T1:Adjective|bratT1=GPE
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Religious-group
 3	Свидетеля	_	_	_	_	_	_	_	bratT2=Religious-group
 4	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T76:Male|bratA4=T76:Fiction|bratT2=Religious-group|bratT76=Person|bratT88=Person-forename
@@ -189,8 +189,8 @@
 9	Свидетелей	_	_	_	_	_	_	_	bratT38=Organization
 10	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA31=T86:Fiction|bratA32=T86:Male|bratT38=Organization|bratT86=Person|bratT91=Person-forename
 11	''	_	_	_	_	_	_	_	bratT38=Organization
-12	экстремистской	_	_	_	_	_	_	_	_
-13	организацией	_	_	_	_	_	_	_	SpaceAfter=No
+12	экстремистской	_	_	_	_	_	_	_	bratT104=Organization
+13	организацией	_	_	_	_	_	_	_	SpaceAfter=No|bratT104=Organization
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0026-p7-s2
@@ -207,7 +207,7 @@
 10	преследованию	_	_	_	_	_	_	_	_
 11	и	_	_	_	_	_	_	_	_
 12	стали	_	_	_	_	_	_	_	_
-13	обвиняемыми	_	_	_	_	_	_	_	_
+13	обвиняемыми	_	_	_	_	_	_	_	bratT103=Person-property
 14	по	_	_	_	_	_	_	_	_
 15	уголовным	_	_	_	_	_	_	_	bratT100=Event
 16	делам	_	_	_	_	_	_	_	SpaceAfter=No|bratT100=Event

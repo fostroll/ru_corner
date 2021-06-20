@@ -1,8 +1,8 @@
 T1	Organization 0 7	Госдума
-T2	Other-group 50 60	обвиняемых
+T2	Person-property 50 60	обвиняемых
 T3	Organization 118 125	Госдума
 T4	Ordinal 132 139	третьем
-T5	Other-group 191 201	обвиняемых
+T5	Person-property 191 201	обвиняемых
 T6	Service 317 322	сайте
 A1	Media T6
 T7	Organization 325 353	нижней   палаты   парламента
@@ -13,8 +13,7 @@ T12	Law 528 542	314-й   статье
 T13	Person-property 769 779	обвиняемые
 T14	Time-period 835 860	не   превышает   10   лет
 T15	Duration 835 860	не   превышает   10   лет
-T16	Person-property 985 1013	обвинитель   и   потерпевший
-A4	Plural T16
+T16	Person-property 985 995	обвинитель
 T17	Time-period 1257 1284	не   превышает   пяти   лет
 T18	Duration 1257 1284	не   превышает   пяти   лет
 T19	Date-absolute 1304 1313	В   марте
@@ -42,3 +41,8 @@ T34	Event 1163 1167	дела
 T35	Event 1381 1385	дела
 T36	Event 1656 1660	дела
 T37	Organization 343 353	парламента
+T38	Person-property 937 947	обвиняемые
+T39	Person-property 1002 1013	потерпевший
+T40	Person-property 1581 1591	обвиняемым
+T41	Person-property 1450 1459	следствия
+T42	Event 894 906	преступления

@@ -16,9 +16,8 @@ T14	GPE 407 422	города   Москвы
 T15	Organization 383 422	департамента   спорта   города   Москвы
 T16	GPE 455 465	московских
 A6	Adjective T16
-T17	Organization 477 480	РПЛ
-T18	Event 468 480	матчей   РПЛ
-T19	Other-group 488 497	зрителями
+T17	Event 477 480	РПЛ
+T18	Event 455 480	московских   матчей   РПЛ
 T20	Date-period-absolute 514 538	до   конца   2020   года
 T21	Percent 597 625	не   более   чем   на   25 %
 T22	Organization 708 711	РПЛ
@@ -29,7 +28,6 @@ T26	Organization 888 905	``   Спартак   ''
 T27	Date-absolute 911 930	В   конце   октября
 A8	Past T27
 T28	Organization 933 948	Роспотребнадзор
-T29	Other-group 979 987	зрителей
 T30	Organization 1026 1043	``   Ростова   ''
 T31	Ordinal 1002 1007	13-го
 T32	Event 995 1014	игру   13-го   тура
@@ -41,7 +39,6 @@ T36	Percent 1282 1285	6 %
 T38	Time-relative 1197 1212	на   протяжении
 T39	Organization 1299 1311	премьер-лига
 T40	Organization 1380 1396	Роспотребнадзора
-T41	Other-group 1433 1442	зрителями
 T42	Organization 1548 1565	Роспотребнадзором
 T43	Other-term 1622 1647	коронавирусной   инфекции
 T44	Date-absolute 1697 1716	В   начале   ноября
@@ -52,7 +49,6 @@ T47	Person-surname 1743 1750	Собянин
 T48	Person-property 1719 1731	мэр   Москвы
 T49	Person 1719 1750	мэр   Москвы   Сергей   Собянин
 A11	Male T49
-T50	Other-group 1781 1789	зрителей
 T51	Organization 1860 1894	городским   департаментом   спорта
 T52	Organization 1901 1931	управлением   Роспотребнадзора
 T53	Date-relative 1936 1943	Позднее
@@ -68,3 +64,7 @@ A2	Adjective T57
 T58	Organization 1231 1240	ведомство
 T59	Organization 962 967	клубу
 T60	Organization 348 352	Лига
+T29	Event 1106 1115	получения
+T61	Event 1223 1228	матча
+T41	Event 1797 1821	спортивные   мероприятия
+T50	Organization 1915 1931	Роспотребнадзора

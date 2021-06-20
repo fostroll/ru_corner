@@ -9,7 +9,7 @@
 4	начала	_	_	_	_	_	_	_	bratA3=T24:Past-Pres|bratT24=Date-period-absolute
 5	года	_	_	_	_	_	_	_	bratA3=T24:Past-Pres|bratT24=Date-period-absolute
 6	из-за	_	_	_	_	_	_	_	_
-7	преступлений	_	_	_	_	_	_	_	_
+7	преступлений	_	_	_	_	_	_	_	bratT40=Event
 8	погибли	_	_	_	_	_	_	_	_
 9	более	_	_	_	_	_	_	_	bratT2=Quantity
 10	19	_	_	_	_	_	_	_	bratT2=Quantity
@@ -28,7 +28,7 @@
 6	2020	_	_	_	_	_	_	_	bratA4=T4:Past-Pres|bratT4=Date-period-absolute
 7	года	_	_	_	_	_	_	_	bratA4=T4:Past-Pres|bratT4=Date-period-absolute
 8	жертвами	_	_	_	_	_	_	_	_
-9	преступлений	_	_	_	_	_	_	_	_
+9	преступлений	_	_	_	_	_	_	_	bratT41=Event
 10	стали	_	_	_	_	_	_	_	_
 11	почти	_	_	_	_	_	_	_	bratT5=Quantity
 12	20	_	_	_	_	_	_	_	bratT5=Quantity
@@ -83,7 +83,7 @@
 1	-	_	_	_	_	_	_	_	_
 2	В	_	_	_	_	_	_	_	_
 3	результате	_	_	_	_	_	_	_	_
-4	преступлений	_	_	_	_	_	_	_	_
+4	преступлений	_	_	_	_	_	_	_	bratT39=Event
 5	погибли	_	_	_	_	_	_	_	_
 6	19,1	_	_	_	_	_	_	_	bratT25=Quantity
 7	тысяч	_	_	_	_	_	_	_	bratT25=Quantity
@@ -189,7 +189,7 @@
 6	ущерба	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	нанесенного	_	_	_	_	_	_	_	_
-9	преступниками	_	_	_	_	_	_	_	SpaceAfter=No
+9	преступниками	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property
 10	,	_	_	_	_	_	_	_	_
 11	то	_	_	_	_	_	_	_	_
 12	за	_	_	_	_	_	_	_	bratA6=T19:Past-Pres|bratT19=Date-period-absolute
@@ -213,9 +213,9 @@
 4	показатель	_	_	_	_	_	_	_	_
 5	говорит	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	снижении	_	_	_	_	_	_	_	_
-8	материального	_	_	_	_	_	_	_	_
-9	ущерба	_	_	_	_	_	_	_	_
+7	снижении	_	_	_	_	_	_	_	bratT37=Event
+8	материального	_	_	_	_	_	_	_	bratT37=Event
+9	ущерба	_	_	_	_	_	_	_	bratT37=Event
 10	на	_	_	_	_	_	_	_	bratT21=Percent
 11-12	17%	_	_	_	_	_	_	_	_
 11	17	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Percent

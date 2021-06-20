@@ -3,7 +3,7 @@
 # par_text = Судью на футбольном поле в Грозном избивал советник Рамзана Кадырова
 # sent_id = 0011-p1-s1
 # text = Судью на футбольном поле в Грозном избивал советник Рамзана Кадырова
-1	Судью	_	_	_	_	_	_	_	bratT1=Person-property
+1	Судью	_	_	_	_	_	_	_	bratT1=Person-property|bratT78=Person
 2	на	_	_	_	_	_	_	_	_
 3	футбольном	_	_	_	_	_	_	_	bratT74=Facility
 4	поле	_	_	_	_	_	_	_	bratT74=Facility
@@ -194,7 +194,7 @@
 11	который	_	_	_	_	_	_	_	_
 12	сначала	_	_	_	_	_	_	_	bratA21=T46:Past|bratT46=Date-relative
 13	ударил	_	_	_	_	_	_	_	_
-14	судью	_	_	_	_	_	_	_	bratT30=Person-property
+14	судью	_	_	_	_	_	_	_	bratA27=T79:Male|bratT30=Person-property|bratT79=Person
 15	в	_	_	_	_	_	_	_	_
 16	пах	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
@@ -231,10 +231,10 @@
 16	здоровью	_	_	_	_	_	_	_	_
 17	и	_	_	_	_	_	_	_	_
 18	жизни	_	_	_	_	_	_	_	_
-19	судье	_	_	_	_	_	_	_	bratT39=Person-property
+19	судье	_	_	_	_	_	_	_	bratA28=T80:Male|bratT39=Person-property|bratT80=Person
 20	и	_	_	_	_	_	_	_	_
-21	его	_	_	_	_	_	_	_	_
-22	семье	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Family
+21	его	_	_	_	_	_	_	_	bratT81=Person
+22	семье	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Family|bratT81=Person
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p4-s5

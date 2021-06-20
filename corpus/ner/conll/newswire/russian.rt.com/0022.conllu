@@ -47,13 +47,13 @@
 # sent_id = 0022-p3-s1
 # text = Победа ``Атлетико'' над ``Барселоной'' в рамках десятого тура нынешнего розыгрыша Примеры стала для мадридской команды первой с сезона-2009/10.
 1	Победа	_	_	_	_	_	_	_	bratT27=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT5=Organization
-3	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT5=Organization
-4	''	_	_	_	_	_	_	_	bratT27=Event|bratT5=Organization
-5	над	_	_	_	_	_	_	_	bratT27=Event
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT6=Organization
-7	Барселоной	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT39=GPE|bratT6=Organization
-8	''	_	_	_	_	_	_	_	bratT27=Event|bratT6=Organization
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+3	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+4	''	_	_	_	_	_	_	_	bratT5=Organization
+5	над	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
+7	Барселоной	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=GPE|bratT6=Organization
+8	''	_	_	_	_	_	_	_	bratT6=Organization
 9	в	_	_	_	_	_	_	_	_
 10	рамках	_	_	_	_	_	_	_	_
 11	десятого	_	_	_	_	_	_	_	bratT7=Ordinal|bratT8=Event
@@ -67,11 +67,13 @@
 19	команды	_	_	_	_	_	_	_	bratT50=Organization
 20	первой	_	_	_	_	_	_	_	bratT21=Ordinal
 21	с	_	_	_	_	_	_	_	bratA12=T44:Past-Pres|bratT44=Date-period-absolute
-22-24	сезона-2009/10	_	_	_	_	_	_	_	SpaceAfter=No
+22-26	сезона-2009/10	_	_	_	_	_	_	_	SpaceAfter=No
 22	сезона	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T44:Past-Pres|bratT44=Date-period-absolute|bratT9=Event
 23	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T44:Past-Pres|bratT44=Date-period-absolute|bratT9=Event
-24	2009/10	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T42:Past|bratA12=T44:Past-Pres|bratT42=Date-period-absolute|bratT44=Date-period-absolute|bratT9=Event
-25	.	_	_	_	_	_	_	_	_
+24	2009	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T42:Past|bratA12=T44:Past-Pres|bratT42=Date-period-absolute|bratT44=Date-period-absolute|bratT9=Event
+25	/	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T42:Past|bratA12=T44:Past-Pres|bratT42=Date-period-absolute|bratT44=Date-period-absolute|bratT9=Event
+26	10	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T42:Past|bratA12=T44:Past-Pres|bratT42=Date-period-absolute|bratT44=Date-period-absolute|bratT9=Event
+27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0022-p4
 # par_text = Тогда в матче 22-го тура, прошедшем в феврале 2010 года, «Атлетико» на своём поле взял верх над «Барселоной» со счётом 2:1.

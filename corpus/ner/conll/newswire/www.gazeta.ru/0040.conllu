@@ -8,14 +8,14 @@
 3	Вашингтон	_	_	_	_	_	_	_	bratT2=GPE
 4	угрожает	_	_	_	_	_	_	_	_
 5	санкциями	_	_	_	_	_	_	_	bratT27=Event
-6	участникам	_	_	_	_	_	_	_	_
-7	проекта	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product
-9	Северный	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
-10	поток	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
-11	-	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
-12	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT22=Ordinal
-13	''	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
+6	участникам	_	_	_	_	_	_	_	bratT38=Organization
+7	проекта	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT38=Organization
+9	Северный	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
+10	поток	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
+11	-	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
+12	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT22=Ordinal|bratT38=Organization
+13	''	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
 
 # newpar id = 0040-p2
 # par_text = Вашингтон контактирует с европейскими компаниями, участвующими в строительстве «Северного потока 2», и предупреждает их об угрозе санкций. Об этом информирует агентство DPA со ссылкой на представителя американского правительства.
@@ -29,7 +29,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	участвующими	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	строительстве	_	_	_	_	_	_	_	_
+9	строительстве	_	_	_	_	_	_	_	bratT37=Event
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Project|bratT4=Product
 11	Северного	_	_	_	_	_	_	_	bratA2=T4:Project|bratT4=Product
 12	потока	_	_	_	_	_	_	_	bratA2=T4:Project|bratT4=Product
@@ -54,9 +54,9 @@
 6	со	_	_	_	_	_	_	_	_
 7	ссылкой	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
-9	представителя	_	_	_	_	_	_	_	bratT7=Person-property
-10	американского	_	_	_	_	_	_	_	bratA6=T18:Adjective|bratT18=GPE|bratT6=Organization|bratT7=Person-property
-11	правительства	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization|bratT7=Person-property
+9	представителя	_	_	_	_	_	_	_	bratT35=Person|bratT7=Person-property
+10	американского	_	_	_	_	_	_	_	bratA6=T18:Adjective|bratT18=GPE|bratT35=Person|bratT6=Organization|bratT7=Person-property
+11	правительства	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT6=Organization|bratT7=Person-property
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0040-p3
@@ -74,10 +74,10 @@
 9	приводит	_	_	_	_	_	_	_	_
 10	агентство	_	_	_	_	_	_	_	bratA9=T28:Media|bratT28=Organization
 11	слова	_	_	_	_	_	_	_	_
-12	высокопоставленного	_	_	_	_	_	_	_	bratT10=Person-property
-13	представителя	_	_	_	_	_	_	_	bratT10=Person-property
-14	правительства	_	_	_	_	_	_	_	bratT10=Person-property|bratT9=Organization
-15	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT8=GPE|bratT9=Organization
+12	высокопоставленного	_	_	_	_	_	_	_	bratT10=Person-property|bratT34=Person
+13	представителя	_	_	_	_	_	_	_	bratT10=Person-property|bratT34=Person
+14	правительства	_	_	_	_	_	_	_	bratT10=Person-property|bratT34=Person|bratT9=Organization
+15	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT34=Person|bratT8=GPE|bratT9=Organization
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0040-p4
@@ -93,7 +93,7 @@
 7	не	_	_	_	_	_	_	_	_
 8	ходят	_	_	_	_	_	_	_	_
 9	вводить	_	_	_	_	_	_	_	_
-10	санкции	_	_	_	_	_	_	_	_
+10	санкции	_	_	_	_	_	_	_	bratT33=Event
 11	против	_	_	_	_	_	_	_	_
 12	европейских	_	_	_	_	_	_	_	bratA7=T19:Adjective|bratT19=GPE|bratT29=Organization
 13	компаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
@@ -131,9 +131,9 @@
 # par_text = Представитель американского правительства также назвал «Северный поток 2» «геополитическим проектом, который Россия будет использовать для шантажа европейских стран».
 # sent_id = 0040-p5-s1
 # text = Представитель американского правительства также назвал ``Северный поток 2'' ``геополитическим проектом, который Россия будет использовать для шантажа европейских стран''.
-1	Представитель	_	_	_	_	_	_	_	bratT15=Person-property
-2	американского	_	_	_	_	_	_	_	bratA8=T20:Adjective|bratT14=Organization|bratT15=Person-property|bratT20=GPE
-3	правительства	_	_	_	_	_	_	_	bratT14=Organization|bratT15=Person-property
+1	Представитель	_	_	_	_	_	_	_	bratA11=T36:Male|bratT15=Person-property|bratT36=Person
+2	американского	_	_	_	_	_	_	_	bratA11=T36:Male|bratA8=T20:Adjective|bratT14=Organization|bratT15=Person-property|bratT20=GPE|bratT36=Person
+3	правительства	_	_	_	_	_	_	_	bratA11=T36:Male|bratT14=Organization|bratT15=Person-property|bratT36=Person
 4	также	_	_	_	_	_	_	_	_
 5	назвал	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T12:Project|bratT12=Product

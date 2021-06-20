@@ -19,8 +19,8 @@
 # sent_id = 0088-p2-s1
 # text = Студентов медицинских вузов после третьего курса теперь можно будет привлекать к проведению тестирования на COVID-19 на дому.
 1	Студентов	_	_	_	_	_	_	_	bratT5=Person-property
-2	медицинских	_	_	_	_	_	_	_	bratT5=Person-property
-3	вузов	_	_	_	_	_	_	_	bratT5=Person-property
+2	медицинских	_	_	_	_	_	_	_	bratT46=Organization|bratT5=Person-property
+3	вузов	_	_	_	_	_	_	_	bratT46=Organization|bratT5=Person-property
 4	после	_	_	_	_	_	_	_	bratT40=Time-relative
 5	третьего	_	_	_	_	_	_	_	bratT6=Ordinal
 6	курса	_	_	_	_	_	_	_	_
@@ -55,8 +55,8 @@
 11	порядке	_	_	_	_	_	_	_	_
 12	организации	_	_	_	_	_	_	_	_
 13	работы	_	_	_	_	_	_	_	_
-14	медицинских	_	_	_	_	_	_	_	_
-15	учреждений	_	_	_	_	_	_	_	_
+14	медицинских	_	_	_	_	_	_	_	bratT8=Organization
+15	учреждений	_	_	_	_	_	_	_	bratT8=Organization
 16	в	_	_	_	_	_	_	_	_
 17	условиях	_	_	_	_	_	_	_	_
 18	эпидемии	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
@@ -163,12 +163,12 @@
 11	Минобрнауки	_	_	_	_	_	_	_	bratT21=Organization
 12	поручено	_	_	_	_	_	_	_	_
 13	задействовать	_	_	_	_	_	_	_	_
-14	преподавателей	_	_	_	_	_	_	_	bratT22=Person-property
-15	и	_	_	_	_	_	_	_	_
-16	студентов	_	_	_	_	_	_	_	bratT23=Person-property
-17	старших	_	_	_	_	_	_	_	bratT23=Person-property
-18	курсов	_	_	_	_	_	_	_	bratT23=Person-property
-19	вузов	_	_	_	_	_	_	_	bratT23=Person-property
+14	преподавателей	_	_	_	_	_	_	_	bratA6=T45:Plural|bratT22=Person-property|bratT45=Person-property
+15	и	_	_	_	_	_	_	_	bratA6=T45:Plural|bratT45=Person-property
+16	студентов	_	_	_	_	_	_	_	bratA6=T45:Plural|bratT23=Person-property|bratT45=Person-property
+17	старших	_	_	_	_	_	_	_	bratA6=T45:Plural|bratT23=Person-property|bratT45=Person-property
+18	курсов	_	_	_	_	_	_	_	bratA6=T45:Plural|bratT23=Person-property|bratT45=Person-property
+19	вузов	_	_	_	_	_	_	_	bratA6=T45:Plural|bratT44=Organization|bratT45=Person-property
 20	``	_	_	_	_	_	_	_	SpaceAfter=No
 21	не	_	_	_	_	_	_	_	_
 22	только	_	_	_	_	_	_	_	_
@@ -190,8 +190,8 @@
 
 # sent_id = 0088-p5-s2
 # text = Московские вузы сообщали, что готовы направить своих сотрудников и студентов на эту работу.
-1	Московские	_	_	_	_	_	_	_	bratA3=T26:Adjective|bratT26=GPE
-2	вузы	_	_	_	_	_	_	_	_
+1	Московские	_	_	_	_	_	_	_	bratA3=T26:Adjective|bratT26=GPE|bratT42=Organization
+2	вузы	_	_	_	_	_	_	_	bratT42=Organization
 3	сообщали	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -219,8 +219,8 @@
 7	Минздраву	_	_	_	_	_	_	_	bratT34=Organization
 8	привлечь	_	_	_	_	_	_	_	_
 9	аспирантов	_	_	_	_	_	_	_	bratT35=Person-property
-10	медицинских	_	_	_	_	_	_	_	bratT35=Person-property
-11	вузов	_	_	_	_	_	_	_	bratT35=Person-property
+10	медицинских	_	_	_	_	_	_	_	bratT35=Person-property|bratT43=Organization
+11	вузов	_	_	_	_	_	_	_	bratT35=Person-property|bratT43=Organization
 12	к	_	_	_	_	_	_	_	_
 13	борьбе	_	_	_	_	_	_	_	_
 14	с	_	_	_	_	_	_	_	_

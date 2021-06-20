@@ -7,8 +7,8 @@
 2	объяснил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	почему	_	_	_	_	_	_	_	_
-5	американские	_	_	_	_	_	_	_	bratA7=T25:Adjective|bratT25=GPE
-6	санкции	_	_	_	_	_	_	_	_
+5	американские	_	_	_	_	_	_	_	bratA7=T25:Adjective|bratT25=GPE|bratT33=Event
+6	санкции	_	_	_	_	_	_	_	bratT33=Event
 7	не	_	_	_	_	_	_	_	_
 8	влияют	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
@@ -23,8 +23,8 @@
 3	,	_	_	_	_	_	_	_	_
 4	почему	_	_	_	_	_	_	_	_
 5	все	_	_	_	_	_	_	_	_
-6	Западные	_	_	_	_	_	_	_	bratA10=T28:Adjective|bratT28=GPE
-7	санкции	_	_	_	_	_	_	_	_
+6	Западные	_	_	_	_	_	_	_	bratA10=T28:Adjective|bratT28=GPE|bratT34=Event
+7	санкции	_	_	_	_	_	_	_	bratT34=Event
 8	не	_	_	_	_	_	_	_	_
 9	имеют	_	_	_	_	_	_	_	_
 10	долгосрочного	_	_	_	_	_	_	_	_
@@ -75,10 +75,10 @@
 1	Позитивно	_	_	_	_	_	_	_	_
 2	сказалось	_	_	_	_	_	_	_	_
 3	и	_	_	_	_	_	_	_	_
-4	снижение	_	_	_	_	_	_	_	_
-5	ключевой	_	_	_	_	_	_	_	_
-6	ставки	_	_	_	_	_	_	_	_
-7	ЦБ	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
+4	снижение	_	_	_	_	_	_	_	bratT38=Event
+5	ключевой	_	_	_	_	_	_	_	bratT38=Event
+6	ставки	_	_	_	_	_	_	_	bratT38=Event
+7	ЦБ	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Event|bratT5=Organization
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0075-p4
@@ -151,8 +151,8 @@
 1	-	_	_	_	_	_	_	_	_
 2	С	_	_	_	_	_	_	_	bratA4=T21:Past-Pres|bratT21=Date-period-absolute
 3	момента	_	_	_	_	_	_	_	bratA4=T21:Past-Pres|bratT21=Date-period-absolute
-4	введения	_	_	_	_	_	_	_	bratA4=T21:Past-Pres|bratT21=Date-period-absolute
-5	санкций	_	_	_	_	_	_	_	_
+4	введения	_	_	_	_	_	_	_	bratA4=T21:Past-Pres|bratT21=Date-period-absolute|bratT36=Event
+5	санкций	_	_	_	_	_	_	_	bratT35=Event|bratT36=Event
 6	ключевая	_	_	_	_	_	_	_	_
 7	ставка	_	_	_	_	_	_	_	_
 8	ЦБ	_	_	_	_	_	_	_	bratT14=Organization
@@ -201,7 +201,7 @@
 6	США	_	_	_	_	_	_	_	bratT18=GPE|bratT30=Organization
 7	могут	_	_	_	_	_	_	_	_
 8	ввести	_	_	_	_	_	_	_	_
-9	санкции	_	_	_	_	_	_	_	_
+9	санкции	_	_	_	_	_	_	_	bratT37=Event
 10	в	_	_	_	_	_	_	_	_
 11	отношении	_	_	_	_	_	_	_	_
 12	страховых	_	_	_	_	_	_	_	bratA11=T32:Plural|bratT32=Organization

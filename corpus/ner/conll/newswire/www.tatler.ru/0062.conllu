@@ -185,9 +185,9 @@
 
 # sent_id = 0062-p3-s3
 # text = Пресс-секретарь галереи Цвирнера также оказался неразговорчив.
-1	Пресс-секретарь	_	_	_	_	_	_	_	bratT64=Person-property
-2	галереи	_	_	_	_	_	_	_	bratT63=Organization|bratT64=Person-property
-3	Цвирнера	_	_	_	_	_	_	_	bratA22=T62:Male|bratT61=Person-surname|bratT62=Person|bratT63=Organization|bratT64=Person-property
+1	Пресс-секретарь	_	_	_	_	_	_	_	bratA40=T97:Male|bratT64=Person-property|bratT97=Person
+2	галереи	_	_	_	_	_	_	_	bratA40=T97:Male|bratT63=Organization|bratT64=Person-property|bratT97=Person
+3	Цвирнера	_	_	_	_	_	_	_	bratA22=T62:Male|bratA40=T97:Male|bratT61=Person-surname|bratT62=Person|bratT63=Organization|bratT64=Person-property|bratT97=Person
 4	также	_	_	_	_	_	_	_	_
 5	оказался	_	_	_	_	_	_	_	_
 6	неразговорчив	_	_	_	_	_	_	_	SpaceAfter=No

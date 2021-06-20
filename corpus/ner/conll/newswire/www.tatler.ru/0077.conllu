@@ -3,14 +3,14 @@
 # par_text = Визажист Бритни Спирс рассказал о несвободных отношениях певицы
 # sent_id = 0077-p1-s1
 # text = Визажист Бритни Спирс рассказал о несвободных отношениях певицы
-1	Визажист	_	_	_	_	_	_	_	bratT1=Person-property
-2	Бритни	_	_	_	_	_	_	_	bratA3=T2:Female|bratT1=Person-property|bratT2=Person|bratT33=Person-forename
-3	Спирс	_	_	_	_	_	_	_	bratA3=T2:Female|bratT1=Person-property|bratT2=Person|bratT34=Person-surname
+1	Визажист	_	_	_	_	_	_	_	bratA23=T56:Male|bratT1=Person-property|bratT56=Person
+2	Бритни	_	_	_	_	_	_	_	bratA23=T56:Male|bratA3=T2:Female|bratT1=Person-property|bratT2=Person|bratT33=Person-forename|bratT56=Person
+3	Спирс	_	_	_	_	_	_	_	bratA23=T56:Male|bratA3=T2:Female|bratT1=Person-property|bratT2=Person|bratT34=Person-surname|bratT56=Person
 4	рассказал	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	несвободных	_	_	_	_	_	_	_	_
 7	отношениях	_	_	_	_	_	_	_	_
-8	певицы	_	_	_	_	_	_	_	bratT3=Person-property
+8	певицы	_	_	_	_	_	_	_	bratA24=T57:Female|bratT3=Person-property|bratT57=Person
 
 # newpar id = 0077-p2
 # par_text = 22 октября визажист Бритни Спирс стал гостем подкаста Calababes, где обсудил с ведущими состояние своей клиентки, волнующее многих ее поклонников. Макси признался, что 38-летняя певица до сих пор не смогла отвоевать право на свободу и вынуждена сильно ограничивать себя даже в отношениях с 26-летним бойфрендом Сэмом Асгари.
@@ -29,7 +29,7 @@
 11	где	_	_	_	_	_	_	_	_
 12	обсудил	_	_	_	_	_	_	_	_
 13	с	_	_	_	_	_	_	_	_
-14	ведущими	_	_	_	_	_	_	_	bratT8=Person-property
+14	ведущими	_	_	_	_	_	_	_	bratA25=T58:Male|bratT58=Person|bratT8=Person-property
 15	состояние	_	_	_	_	_	_	_	_
 16	своей	_	_	_	_	_	_	_	_
 17	клиентки	_	_	_	_	_	_	_	SpaceAfter=No
@@ -50,7 +50,7 @@
 5	38	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Age
 6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Age
 7	летняя	_	_	_	_	_	_	_	bratT11=Age
-8	певица	_	_	_	_	_	_	_	bratT12=Person-property
+8	певица	_	_	_	_	_	_	_	bratA26=T59:Female|bratT12=Person-property|bratT59=Person
 9	до	_	_	_	_	_	_	_	bratA16=T49:Past-Pres|bratA17=T49:RCont|bratT49=Date-period-absolute
 10	сих	_	_	_	_	_	_	_	bratA16=T49:Past-Pres|bratA17=T49:RCont|bratT49=Date-period-absolute
 11	пор	_	_	_	_	_	_	_	bratA16=T49:Past-Pres|bratA17=T49:RCont|bratT49=Date-period-absolute
@@ -129,7 +129,7 @@
 10	взявший	_	_	_	_	_	_	_	_
 11	опекунство	_	_	_	_	_	_	_	_
 12	над	_	_	_	_	_	_	_	_
-13	дочерью	_	_	_	_	_	_	_	bratT19=Family
+13	дочерью	_	_	_	_	_	_	_	bratA22=T55:Female|bratT19=Family|bratT55=Person
 14	после	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-absolute
 15	ее	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-absolute
 16	публичных	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-absolute
@@ -141,9 +141,9 @@
 22	,	_	_	_	_	_	_	_	_
 23	а	_	_	_	_	_	_	_	_
 24	также	_	_	_	_	_	_	_	_
-25	его	_	_	_	_	_	_	_	bratT53=Person-property
-26	официальные	_	_	_	_	_	_	_	bratT53=Person-property
-27	представители	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Person-property
+25	его	_	_	_	_	_	_	_	bratT61=Person
+26	официальные	_	_	_	_	_	_	_	bratT53=Person-property|bratT61=Person
+27	представители	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Person-property|bratT61=Person
 28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0077-p4
@@ -171,7 +171,7 @@
 19	бы	_	_	_	_	_	_	_	_
 20	не	_	_	_	_	_	_	_	_
 21	запреты	_	_	_	_	_	_	_	_
-22	отца	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Family
+22	отца	_	_	_	_	_	_	_	SpaceAfter=No|bratA27=T60:Male|bratT24=Family|bratT60=Person
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0077-p4-s2
@@ -196,7 +196,7 @@
 # sent_id = 0077-p5-s1
 # text = Фанаты певицы уже давно стараются привлечь как можно больше внимания к ее проблеме и даже создали хэштег #FreeBritney, набирающий популярность в последние несколько месяцев.
 1	Фанаты	_	_	_	_	_	_	_	bratT26=Other-group
-2	певицы	_	_	_	_	_	_	_	bratT27=Person-property
+2	певицы	_	_	_	_	_	_	_	bratA21=T54:Female|bratT27=Person-property|bratT54=Person
 3	уже	_	_	_	_	_	_	_	_
 4	давно	_	_	_	_	_	_	_	_
 5	стараются	_	_	_	_	_	_	_	_

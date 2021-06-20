@@ -18,8 +18,8 @@
 # text = Старший сын президента США Дональд Трамп-младший заразился коронавирусом.
 1	Старший	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Family|bratT11=Person
 2	сын	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Family|bratT11=Person
-3	президента	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT7=Person-property
-4	США	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT6=GPE|bratT7=Person-property
+3	президента	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT63=Person|bratT7=Person-property
+4	США	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT6=GPE|bratT63=Person|bratT7=Person-property
 5	Дональд	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT8=Person-forename
 6-8	Трамп-младший	_	_	_	_	_	_	_	_
 6	Трамп	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T11:Male|bratT11=Person|bratT9=Person-surname
@@ -40,11 +40,11 @@
 7	со	_	_	_	_	_	_	_	_
 8	ссылкой	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	представителя	_	_	_	_	_	_	_	bratT52=Person-property
+10	представителя	_	_	_	_	_	_	_	bratT52=Person-property|bratT67=Person
 11-13	Трампа-младшего	_	_	_	_	_	_	_	SpaceAfter=No
-11	Трампа	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT50=Person-surname|bratT51=Person|bratT52=Person-property
-12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT51=Person|bratT52=Person-property
-13	младшего	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT51=Person|bratT52=Person-property|bratT59=Person-affix
+11	Трампа	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT50=Person-surname|bratT51=Person|bratT52=Person-property|bratT67=Person
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT51=Person|bratT52=Person-property|bratT67=Person
+13	младшего	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Male|bratT51=Person|bratT52=Person-property|bratT59=Person-affix|bratT67=Person
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0076-p3
@@ -57,12 +57,12 @@
 4	получил	_	_	_	_	_	_	_	_
 5	положительный	_	_	_	_	_	_	_	_
 6	результат	_	_	_	_	_	_	_	_
-7	теста	_	_	_	_	_	_	_	bratT17=Service
-8	на	_	_	_	_	_	_	_	bratT17=Service
+7	теста	_	_	_	_	_	_	_	_
+8	на	_	_	_	_	_	_	_	_
 9-11	COVID-19	_	_	_	_	_	_	_	_
-9	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term|bratT17=Service
-10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term|bratT17=Service
-11	19	_	_	_	_	_	_	_	bratT16=Other-term|bratT17=Service|bratT57=Cardinal
+9	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+10	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
+11	19	_	_	_	_	_	_	_	bratT16=Other-term|bratT57=Cardinal
 12	в	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
 13	начале	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
 14	недели	_	_	_	_	_	_	_	bratA5=T18:Past|bratT18=Date-absolute
@@ -72,15 +72,15 @@
 18	пор	_	_	_	_	_	_	_	bratA20=T19:Past-Pres|bratA6=T19:RCont|bratT19=Date-period-relative
 19	находится	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	_
-21	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No
+21	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Event
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0076-p3-s2
 # text = По словам его представителя, COVID-19 протекает у него бессимптомно.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	его	_	_	_	_	_	_	_	_
-4	представителя	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property
+3	его	_	_	_	_	_	_	_	bratT17=Person
+4	представителя	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT20=Person-property
 5	,	_	_	_	_	_	_	_	_
 6-8	COVID-19	_	_	_	_	_	_	_	_
 6	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
@@ -129,24 +129,24 @@
 
 # sent_id = 0076-p4-s2
 # text = Американский лидер отправился на лечение в военный госпиталь в штате Мэриленд.
-1	Американский	_	_	_	_	_	_	_	bratA19=T54:Adjective|bratT32=Person-property|bratT54=GPE
-2	лидер	_	_	_	_	_	_	_	bratT32=Person-property
+1	Американский	_	_	_	_	_	_	_	bratA19=T54:Adjective|bratA21=T64:Male|bratT32=Person-property|bratT54=GPE|bratT64=Person
+2	лидер	_	_	_	_	_	_	_	bratA21=T64:Male|bratT32=Person-property|bratT64=Person
 3	отправился	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	лечение	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	военный	_	_	_	_	_	_	_	bratT34=Organization
 8	госпиталь	_	_	_	_	_	_	_	bratT34=Organization
-9	в	_	_	_	_	_	_	_	bratT34=Organization
-10	штате	_	_	_	_	_	_	_	bratT33=GPE|bratT34=Organization
-11	Мэриленд	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE|bratT34=Organization
+9	в	_	_	_	_	_	_	_	_
+10	штате	_	_	_	_	_	_	_	bratT33=GPE
+11	Мэриленд	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=GPE
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0076-p4-s3
 # text = 6 октября президента выписали.
 1	6	_	_	_	_	_	_	_	bratA11=T35:Past|bratT35=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA11=T35:Past|bratT35=Date-absolute
-3	президента	_	_	_	_	_	_	_	bratT36=Person-property
+3	президента	_	_	_	_	_	_	_	bratT36=Person-property|bratT65=Person
 4	выписали	_	_	_	_	_	_	_	SpaceAfter=No
 5	.	_	_	_	_	_	_	_	_
 
@@ -190,8 +190,8 @@
 # sent_id = 0076-p5-s1
 # text = Позже первая леди сообщила, что их младший сын Бэррон переболел COVID-19 вместе с ними.
 1	Позже	_	_	_	_	_	_	_	_
-2	первая	_	_	_	_	_	_	_	bratT42=Ordinal|bratT43=Person-property
-3	леди	_	_	_	_	_	_	_	bratT43=Person-property
+2	первая	_	_	_	_	_	_	_	bratA22=T66:Female|bratT42=Ordinal|bratT43=Person-property|bratT66=Person
+3	леди	_	_	_	_	_	_	_	bratA22=T66:Female|bratT43=Person-property|bratT66=Person
 4	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_

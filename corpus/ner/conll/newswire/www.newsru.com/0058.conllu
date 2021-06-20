@@ -9,7 +9,7 @@
 4	за	_	_	_	_	_	_	_	bratA1=T2:Past-Pres|bratT2=Date-period-absolute
 5	три	_	_	_	_	_	_	_	bratA1=T2:Past-Pres|bratT2=Date-period-absolute|bratT46=Duration
 6	года	_	_	_	_	_	_	_	bratA1=T2:Past-Pres|bratT2=Date-period-absolute|bratT46=Duration
-7	поражение	_	_	_	_	_	_	_	_
+7	поражение	_	_	_	_	_	_	_	bratT66=Event
 8	в	_	_	_	_	_	_	_	_
 9	КХЛ	_	_	_	_	_	_	_	bratT3=Organization
 
@@ -116,9 +116,9 @@
 # sent_id = 0058-p4-s1
 # text = Это первая победа новосибирцев над ЦСКА в Москве с декабря 2010 года и крупнейшее поражение москвичей в КХЛ за три года после их неудачи в гостевой игре с финским ``Йокеритом'' (0:4) в сентябре 2017-го.
 1	Это	_	_	_	_	_	_	_	_
-2	первая	_	_	_	_	_	_	_	bratT26=Ordinal
-3	победа	_	_	_	_	_	_	_	_
-4	новосибирцев	_	_	_	_	_	_	_	_
+2	первая	_	_	_	_	_	_	_	bratT26=Ordinal|bratT67=Event
+3	победа	_	_	_	_	_	_	_	bratT67=Event
+4	новосибирцев	_	_	_	_	_	_	_	bratA14=T68:Resident|bratT68=Nationality
 5	над	_	_	_	_	_	_	_	_
 6	ЦСКА	_	_	_	_	_	_	_	bratT27=Organization
 7	в	_	_	_	_	_	_	_	_
@@ -128,8 +128,8 @@
 11	2010	_	_	_	_	_	_	_	bratA9=T29:Past-Pres|bratT29=Date-period-absolute
 12	года	_	_	_	_	_	_	_	bratA9=T29:Past-Pres|bratT29=Date-period-absolute
 13	и	_	_	_	_	_	_	_	_
-14	крупнейшее	_	_	_	_	_	_	_	_
-15	поражение	_	_	_	_	_	_	_	_
+14	крупнейшее	_	_	_	_	_	_	_	bratT69=Event
+15	поражение	_	_	_	_	_	_	_	bratT69=Event
 16	москвичей	_	_	_	_	_	_	_	bratA11=T61:Resident|bratT61=Nationality
 17	в	_	_	_	_	_	_	_	_
 18	КХЛ	_	_	_	_	_	_	_	bratT31=Organization
@@ -165,7 +165,7 @@
 4	серию	_	_	_	_	_	_	_	_
 5	из	_	_	_	_	_	_	_	_
 6	пяти	_	_	_	_	_	_	_	bratT38=Quantity
-7	побед	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity
+7	побед	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity|bratT70=Event
 8	,	_	_	_	_	_	_	_	_
 9	клуб	_	_	_	_	_	_	_	bratT65=Organization
 10	по-прежнему	_	_	_	_	_	_	_	_

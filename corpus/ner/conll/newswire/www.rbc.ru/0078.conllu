@@ -3,13 +3,13 @@
 # par_text = Глава Минздрава Хакасии уволился после критики полпреда
 # sent_id = 0078-p1-s1
 # text = Глава Минздрава Хакасии уволился после критики полпреда
-1	Глава	_	_	_	_	_	_	_	bratT3=Person-property
-2	Минздрава	_	_	_	_	_	_	_	bratT2=Organization|bratT3=Person-property
-3	Хакасии	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Organization|bratT3=Person-property
+1	Глава	_	_	_	_	_	_	_	bratA19=T71:Male|bratT3=Person-property|bratT71=Person
+2	Минздрава	_	_	_	_	_	_	_	bratA19=T71:Male|bratT2=Organization|bratT3=Person-property|bratT71=Person
+3	Хакасии	_	_	_	_	_	_	_	bratA19=T71:Male|bratT1=GPE|bratT2=Organization|bratT3=Person-property|bratT71=Person
 4	уволился	_	_	_	_	_	_	_	_
 5	после	_	_	_	_	_	_	_	bratA1=T5:Past|bratT5=Date-absolute
 6	критики	_	_	_	_	_	_	_	bratA1=T5:Past|bratT5=Date-absolute
-7	полпреда	_	_	_	_	_	_	_	bratT4=Person-property
+7	полпреда	_	_	_	_	_	_	_	bratT4=Person-property|bratT68=Person
 
 # newpar id = 0078-p2
 # par_text = Глава Хакасии Валентин Коновалов подписал заявление об увольнении министра здравоохранения республики Виктора Шевченко, сообщает пресс-служба правительства региона.
@@ -22,7 +22,7 @@
 5	подписал	_	_	_	_	_	_	_	_
 6	заявление	_	_	_	_	_	_	_	_
 7	об	_	_	_	_	_	_	_	_
-8	увольнении	_	_	_	_	_	_	_	_
+8	увольнении	_	_	_	_	_	_	_	bratT69=Event
 9	министра	_	_	_	_	_	_	_	bratA3=T14:Male|bratT11=Person-property|bratT14=Person
 10	здравоохранения	_	_	_	_	_	_	_	bratA3=T14:Male|bratT11=Person-property|bratT14=Person
 11	республики	_	_	_	_	_	_	_	bratA3=T14:Male|bratT11=Person-property|bratT14=Person|bratT62=GPE
@@ -184,7 +184,7 @@
 
 # sent_id = 0078-p5-s3
 # text = Полпред добавил, что благодаря усилиям медработников ``республика не захлебнулась в коронавирусе''.
-1	Полпред	_	_	_	_	_	_	_	bratT46=Person-property
+1	Полпред	_	_	_	_	_	_	_	bratA18=T70:Male|bratT46=Person-property|bratT70=Person
 2	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -262,7 +262,7 @@
 
 # sent_id = 0078-p6-s3
 # text = Полпред подчеркнул, что ситуация с обеспечением лекарствами должна находиться на постоянном контроле властей.
-1	Полпред	_	_	_	_	_	_	_	bratT57=Person-property
+1	Полпред	_	_	_	_	_	_	_	bratA20=T72:Male|bratT57=Person-property|bratT72=Person
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

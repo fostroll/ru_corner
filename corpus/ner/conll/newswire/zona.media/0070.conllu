@@ -3,8 +3,8 @@
 # par_text = Хабаровского активиста с инвалидностью признали организатором митинга в поддержку Фургала и оштрафовали
 # sent_id = 0070-p1-s1
 # text = Хабаровского активиста с инвалидностью признали организатором митинга в поддержку Фургала и оштрафовали
-1	Хабаровского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-2	активиста	_	_	_	_	_	_	_	bratT1=Person-property
+1	Хабаровского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA23=T73:Male|bratT1=Person-property|bratT2=GPE|bratT73=Person
+2	активиста	_	_	_	_	_	_	_	bratA23=T73:Male|bratT1=Person-property|bratT73=Person
 3	с	_	_	_	_	_	_	_	_
 4	инвалидностью	_	_	_	_	_	_	_	_
 5	признали	_	_	_	_	_	_	_	_
@@ -29,7 +29,7 @@
 7	25	_	_	_	_	_	_	_	bratT9=Money
 8	тысяч	_	_	_	_	_	_	_	bratT9=Money
 9	рублей	_	_	_	_	_	_	_	bratT9=Money
-10	местного	_	_	_	_	_	_	_	bratA20=T64:Adjective|bratA3=T10:Male|bratT10=Person|bratT64=GPE
+10	местного	_	_	_	_	_	_	_	bratA20=T64:Adjective|bratA3=T10:Male|bratT10=Person|bratT11=Person-property|bratT64=GPE
 11	активиста	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT11=Person-property
 12	Владимира	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT12=Person-forename
 13	Гретченко	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT13=Person-surname
@@ -109,14 +109,14 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	имеются	_	_	_	_	_	_	_	_
-6	проблемы	_	_	_	_	_	_	_	_
-7	со	_	_	_	_	_	_	_	_
-8	здоровьем	_	_	_	_	_	_	_	SpaceAfter=No
+6	проблемы	_	_	_	_	_	_	_	bratT74=Event
+7	со	_	_	_	_	_	_	_	bratT74=Event
+8	здоровьем	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Event
 9	,	_	_	_	_	_	_	_	_
 10	для	_	_	_	_	_	_	_	_
 11	полиции	_	_	_	_	_	_	_	bratT58=Organization
 12	при	_	_	_	_	_	_	_	_
-13	задержании	_	_	_	_	_	_	_	_
+13	задержании	_	_	_	_	_	_	_	bratT75=Event
 14	и	_	_	_	_	_	_	_	_
 15	оставлении	_	_	_	_	_	_	_	_
 16	на	_	_	_	_	_	_	_	bratA18=T60:Past|bratT60=Date-period-relative
@@ -157,7 +157,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	поводом	_	_	_	_	_	_	_	_
 6	для	_	_	_	_	_	_	_	_
-7	задержания	_	_	_	_	_	_	_	_
+7	задержания	_	_	_	_	_	_	_	bratT76=Event
 8	послужила	_	_	_	_	_	_	_	_
 9	публикация	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
@@ -223,7 +223,7 @@
 3	опубликовать	_	_	_	_	_	_	_	_
 4	видео	_	_	_	_	_	_	_	_
 5	своего	_	_	_	_	_	_	_	_
-6	задержания	_	_	_	_	_	_	_	_
+6	задержания	_	_	_	_	_	_	_	bratT77=Event
 7	в	_	_	_	_	_	_	_	_
 8	инстаграме	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Service
 9	.	_	_	_	_	_	_	_	_
@@ -256,7 +256,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	после	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-absolute
-7	задержания	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-absolute
+7	задержания	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-absolute|bratT78=Event
 8	Гретченко	_	_	_	_	_	_	_	bratA14=T47:Male|bratT47=Person|bratT48=Person-surname
 9	несколько	_	_	_	_	_	_	_	bratA19=T49:Past|bratT49=Date-period-relative|bratT55=Duration
 10	часов	_	_	_	_	_	_	_	bratA19=T49:Past|bratT49=Date-period-relative|bratT55=Duration

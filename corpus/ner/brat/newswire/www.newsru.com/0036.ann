@@ -1,90 +1,101 @@
-T1	Organization 0 22	``   Левада-центр   ''
-T2	Person 39 45	Путина
-T3	Person 86 96	Навального
-T4	Nationality 151 158	россиян
+T1	Organization 0 24	``   Левада - центр   ''
+T2	Person 41 47	Путина
+T3	Person 88 98	Навального
+T4	Nationality 153 160	россиян
 A2	Citizenship T4
-T5	GPE 236 242	России
-T6	Person-property 223 242	президенту   России
-T7	Person 223 263	президенту   России   Владимиру   Путину
-T8	Ordinal 299 305	второй
-T9	Date-period-absolute 299 313	второй   месяц
-T10	Percent 341 345	33 %
-T11	Organization 360 386	``   Открытые   медиа   ''
+T5	GPE 238 244	России
+T6	Person-property 225 244	президенту   России
+T7	Person 225 265	президенту   России   Владимиру   Путину
+T8	Ordinal 301 307	второй
+T9	Date-period-absolute 301 315	второй   месяц
+T10	Percent 343 347	33 %
+T11	Organization 362 388	``   Открытые   медиа   ''
 A3	Media T11
-T12	Organization 432 455	``   Левада-центра   ''
-T13	Quantity 274 292	в   полтора   раза
-T14	Other-group 461 473	Респондентов
-T15	Person-property 523 532	политиков
-T16	Quantity 515 532	5 - 6   политиков
-T17	Person-property 648 657	политиков
-T18	Person-property 664 687	общественных   деятелей
-T19	Quantity 643 657	18   политиков
-T20	Person 780 786	Путину
-T21	Percent 800 804	35 %
-T22	Date-absolute 915 923	в   июле
-T23	Person-property 948 958	президента
-T24	Percent 980 984	23 %
-T25	Date-absolute 1022 1033	в   августе
-T26	Date-absolute 1040 1048	сентябре
-T27	Percent 1093 1102	по   33 %
-T28	Person-property 1069 1079	президенту
-T29	Person-property 1135 1170	директора   ``   Левада-центра   ''
-T30	Organization 1147 1170	``   Левада-центра   ''
-T31	Person 1135 1187	директора   ``   Левада-центра   ''   Льва   Гудкова
-T32	Person-property 1215 1225	президента
-T33	Person 1348 1368	Алексея   Навального
-T34	Person 1472 1481	Навальным
-T35	Person 1516 1522	Путину
-T36	Person 1878 1884	Гудков
-T37	Event 769 777	пандемии
-T38	Event 1261 1278	карантинных   мер
-T39	Event 73 96	отравления   Навального
-T40	Event 1334 1368	отравлением   Алексея   Навального
-T41	Event 1636 1646	отравления
-T42	GPE 1740 1746	Запада
-T43	Date-absolute 173 200	После   весеннего   падения
-T44	Date-relative 824 829	потом
-T45	Person-surname 39 45	Путина
+T12	Organization 434 459	``   Левада - центра   ''
+T13	Quantity 276 294	в   полтора   раза
+T14	Other-group 465 477	Респондентов
+T15	Person-property 527 536	политиков
+T16	Quantity 519 536	5 - 6   политиков
+T17	Person-property 652 661	политиков
+T18	Person-property 668 691	общественных   деятелей
+T19	Quantity 647 661	18   политиков
+T20	Person 784 790	Путину
+T21	Percent 804 808	35 %
+T22	Date-absolute 919 927	в   июле
+T23	Person-property 952 962	президента
+T24	Percent 984 988	23 %
+T25	Date-absolute 1026 1037	в   августе
+T26	Date-absolute 1044 1052	сентябре
+T27	Percent 1097 1106	по   33 %
+T28	Person-property 1073 1083	президенту
+T29	Person-property 1139 1176	директора   ``   Левада - центра   ''
+T30	Organization 1151 1176	``   Левада - центра   ''
+T31	Person 1139 1193	директора   ``   Левада - центра   ''   Льва   Гудкова
+T32	Person-property 1221 1231	президента
+T33	Person 1354 1374	Алексея   Навального
+T34	Person 1478 1487	Навальным
+T35	Person 1522 1528	Путину
+T36	Person 1884 1890	Гудков
+T37	Event 773 781	пандемии
+T38	Event 1267 1284	карантинных   мер
+T39	Event 75 98	отравления   Навального
+T40	Event 1340 1374	отравлением   Алексея   Навального
+T41	Event 1642 1652	отравления
+T42	GPE 1746 1752	Запада
+T43	Date-absolute 175 202	После   весеннего   падения
+T44	Date-relative 828 833	потом
+T45	Person-surname 41 47	Путина
 A6	Male T2
-T46	Person-surname 86 96	Навального
+T46	Person-surname 88 98	Навального
 A7	Male T3
 A8	Past T43
 A9	Male T7
-T47	Person-forename 245 254	Владимиру
-T48	Person-surname 257 263	Путину
+T47	Person-forename 247 256	Владимиру
+T48	Person-surname 259 265	Путину
 A10	Past-Pres T9
 A11	RCont T9
 A12	Male T20
-T50	Person-surname 780 786	Путину
+T50	Person-surname 784 790	Путину
 A13	Male T31
-T51	Person-forename 1173 1177	Льва
-T52	Person-surname 1180 1187	Гудкова
+T51	Person-forename 1179 1183	Льва
+T52	Person-surname 1186 1193	Гудкова
 A14	Male T33
-T53	Person-forename 1348 1355	Алексея
-T54	Person-surname 1358 1368	Навального
+T53	Person-forename 1354 1361	Алексея
+T54	Person-surname 1364 1374	Навального
 A15	Male T34
-T55	Person-surname 1472 1481	Навальным
+T55	Person-surname 1478 1487	Навальным
 A16	Male T35
-T56	Person-surname 1516 1522	Путину
-T57	Person-surname 1878 1884	Гудков
+T56	Person-surname 1522 1528	Путину
+T57	Person-surname 1884 1890	Гудков
 A17	Male T36
-T58	Date-absolute 1628 1646	после   отравления
+T58	Date-absolute 1634 1652	после   отравления
 A18	Past T58
-T59	Date-absolute 65 83	после   отравления
+T59	Date-absolute 67 85	после   отравления
 A19	Past T59
-T60	Duration 308 313	месяц
+T60	Duration 310 315	месяц
 A20	Past T44
-T49	Event 181 200	весеннего   падения
+T49	Event 183 202	весеннего   падения
 A21	Past T22
 A22	Past T25
 A23	Past T26
-T61	Date-absolute 764 777	До   пандемии
+T61	Date-absolute 768 781	До   пандемии
 A24	Past T61
-T62	Date-absolute 409 421	сентябрьский
+T62	Date-absolute 411 423	сентябрьский
 A25	Past T62
-T63	Date-relative 930 935	тогда
+T63	Date-relative 934 939	тогда
 A26	Past T63
-T64	Nationality 750 759	населения
+T64	Nationality 754 763	населения
 A27	Resident T64
-T65	Nationality 1842 1851	населения
+T65	Nationality 1848 1857	населения
 A28	Resident T65
+T66	Date-absolute 183 192	весеннего
+A1	Past T66
+T67	Event 411 431	сентябрьский   опрос
+T68	Event 1305 1321	ростом   критики
+T69	Event 1689 1716	пропагандистская   кампания
+T70	Person 439 445	Левада
+T71	Person-surname 439 445	Левада
+T72	Person 5 11	Левада
+T73	Person-surname 5 11	Левада
+T74	Person 1156 1162	Левада
+T75	Person-surname 1156 1162	Левада

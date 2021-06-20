@@ -17,8 +17,8 @@
 # sent_id = 0102-p2-s1
 # text = Предложение главы государства поддержали депутаты правящей Партии справедливости и развития, а также Народно-республиканской партии, ``Хорошей партии'' и Партии националистического единства.
 1	Предложение	_	_	_	_	_	_	_	_
-2	главы	_	_	_	_	_	_	_	bratT7=Person-property
-3	государства	_	_	_	_	_	_	_	bratT62=GPE|bratT7=Person-property
+2	главы	_	_	_	_	_	_	_	bratT65=Person|bratT7=Person-property
+3	государства	_	_	_	_	_	_	_	bratT62=GPE|bratT65=Person|bratT7=Person-property
 4	поддержали	_	_	_	_	_	_	_	_
 5	депутаты	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property
 6	правящей	_	_	_	_	_	_	_	bratA3=T12:Plural|bratT12=Person-property|bratT8=Organization
@@ -49,7 +49,7 @@
 1	Проект	_	_	_	_	_	_	_	_
 2	меморандума	_	_	_	_	_	_	_	_
 3	об	_	_	_	_	_	_	_	_
-4	отправке	_	_	_	_	_	_	_	_
+4	отправке	_	_	_	_	_	_	_	bratT66=Event
 5	турецких	_	_	_	_	_	_	_	bratA4=T14:Adjective|bratT13=Organization|bratT14=GPE
 6	вооруженных	_	_	_	_	_	_	_	bratT13=Organization
 7	сил	_	_	_	_	_	_	_	bratT13=Organization
@@ -77,9 +77,9 @@
 9	следить	_	_	_	_	_	_	_	_
 10	за	_	_	_	_	_	_	_	_
 11	соблюдением	_	_	_	_	_	_	_	_
-12	режима	_	_	_	_	_	_	_	_
-13	прекращения	_	_	_	_	_	_	_	_
-14	огня	_	_	_	_	_	_	_	_
+12	режима	_	_	_	_	_	_	_	bratT71=Event
+13	прекращения	_	_	_	_	_	_	_	bratT71=Event
+14	огня	_	_	_	_	_	_	_	bratT71=Event
 15	между	_	_	_	_	_	_	_	_
 16	Баку	_	_	_	_	_	_	_	bratT20=GPE
 17	и	_	_	_	_	_	_	_	_
@@ -94,11 +94,11 @@
 2	подчеркнули	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	отправка	_	_	_	_	_	_	_	_
+5	отправка	_	_	_	_	_	_	_	bratT67=Event
 6	военных	_	_	_	_	_	_	_	bratT22=Person-property
 7	в	_	_	_	_	_	_	_	_
 8	зону	_	_	_	_	_	_	_	_
-9	конфликта	_	_	_	_	_	_	_	_
+9	конфликта	_	_	_	_	_	_	_	bratT68=Event
 10	соответствует	_	_	_	_	_	_	_	_
 11	национальным	_	_	_	_	_	_	_	_
 12	интересам	_	_	_	_	_	_	_	_
@@ -159,8 +159,8 @@
 4	турецких	_	_	_	_	_	_	_	bratA9=T34:Adjective|bratT34=GPE|bratT35=Person-property
 5	наблюдателей	_	_	_	_	_	_	_	bratT35=Person-property
 6	в	_	_	_	_	_	_	_	_
-7	урегулировании	_	_	_	_	_	_	_	_
-8	конфликта	_	_	_	_	_	_	_	_
+7	урегулировании	_	_	_	_	_	_	_	bratT69=Event
+8	конфликта	_	_	_	_	_	_	_	bratT69=Event|bratT70=Event
 9	между	_	_	_	_	_	_	_	_
 10	Баку	_	_	_	_	_	_	_	bratT36=GPE
 11	и	_	_	_	_	_	_	_	_
@@ -179,9 +179,9 @@
 3	подписания	_	_	_	_	_	_	_	bratA11=T43:Past|bratT43=Date-absolute|bratT59=Event
 4	соглашения	_	_	_	_	_	_	_	bratT59=Event
 5	о	_	_	_	_	_	_	_	_
-6	прекращении	_	_	_	_	_	_	_	_
-7	военных	_	_	_	_	_	_	_	_
-8	действий	_	_	_	_	_	_	_	_
+6	прекращении	_	_	_	_	_	_	_	bratT64=Event
+7	военных	_	_	_	_	_	_	_	bratT64=Event
+8	действий	_	_	_	_	_	_	_	bratT64=Event
 9	он	_	_	_	_	_	_	_	_
 10	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
@@ -191,9 +191,9 @@
 15	и	_	_	_	_	_	_	_	_
 16	Турции	_	_	_	_	_	_	_	bratT45=GPE
 17	будет	_	_	_	_	_	_	_	_
-18	совместная	_	_	_	_	_	_	_	_
-19	миротворческая	_	_	_	_	_	_	_	_
-20	миссия	_	_	_	_	_	_	_	_
+18	совместная	_	_	_	_	_	_	_	bratT72=Organization
+19	миротворческая	_	_	_	_	_	_	_	bratT72=Organization
+20	миссия	_	_	_	_	_	_	_	bratT72=Organization
 21	в	_	_	_	_	_	_	_	_
 22	Нагорном	_	_	_	_	_	_	_	bratT46=GPE
 23	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=GPE
@@ -205,8 +205,8 @@
 # text = Тогда пресс-секретарь президента России Дмитрий Песков опроверг его слова и сообщил, что в подписанном главами Армении, Азербайджана и России договоре не говорится о турецких миротворцах.
 1	Тогда	_	_	_	_	_	_	_	bratA15=T60:Past|bratT60=Date-relative
 2	пресс-секретарь	_	_	_	_	_	_	_	bratA12=T52:Male|bratT51=Person-property|bratT52=Person
-3	президента	_	_	_	_	_	_	_	bratA12=T52:Male|bratT50=Person-property|bratT51=Person-property|bratT52=Person
-4	России	_	_	_	_	_	_	_	bratA12=T52:Male|bratT47=GPE|bratT50=Person-property|bratT51=Person-property|bratT52=Person
+3	президента	_	_	_	_	_	_	_	bratA12=T52:Male|bratT50=Person-property|bratT51=Person-property|bratT52=Person|bratT63=Person
+4	России	_	_	_	_	_	_	_	bratA12=T52:Male|bratT47=GPE|bratT50=Person-property|bratT51=Person-property|bratT52=Person|bratT63=Person
 5	Дмитрий	_	_	_	_	_	_	_	bratA12=T52:Male|bratT48=Person-forename|bratT52=Person
 6	Песков	_	_	_	_	_	_	_	bratA12=T52:Male|bratT49=Person-surname|bratT52=Person
 7	опроверг	_	_	_	_	_	_	_	_

@@ -101,7 +101,7 @@
 # text = По версии следствия, в декабре 2018 года он за 52 тысячи рублей в криптовалюте рассказал администратору интернет-магазина Killer Diller по сбыту наркотиков о планируемых задержаниях.
 1	По	_	_	_	_	_	_	_	_
 2	версии	_	_	_	_	_	_	_	_
-3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT80=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
 6	декабре	_	_	_	_	_	_	_	bratA6=T22:Past|bratT22=Date-absolute
@@ -126,8 +126,8 @@
 24	сбыту	_	_	_	_	_	_	_	_
 25	наркотиков	_	_	_	_	_	_	_	_
 26	о	_	_	_	_	_	_	_	_
-27	планируемых	_	_	_	_	_	_	_	_
-28	задержаниях	_	_	_	_	_	_	_	SpaceAfter=No
+27	планируемых	_	_	_	_	_	_	_	bratT81=Event
+28	задержаниях	_	_	_	_	_	_	_	SpaceAfter=No|bratT81=Event
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0087-p4
@@ -144,7 +144,7 @@
 8	через	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
 9	месяц	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
 10	после	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
-11	увольнения	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute
+11	увольнения	_	_	_	_	_	_	_	bratA18=T27:Past|bratT27=Date-absolute|bratT79=Event
 12	Зайцева	_	_	_	_	_	_	_	bratA7=T30:Male|bratT30=Person|bratT31=Person-surname
 13	из	_	_	_	_	_	_	_	_
 14	органов	_	_	_	_	_	_	_	bratT28=Organization
@@ -195,7 +195,7 @@
 # sent_id = 0087-p5-s1
 # text = После задержания в марте 2019 года Зайцева арестовали, однако через полгода перевели под домашний арест.
 1	После	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
-2	задержания	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
+2	задержания	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute|bratT82=Event
 3	в	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
 4	марте	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute
 5	2019	_	_	_	_	_	_	_	bratA21=T44:Past|bratT44=Date-absolute

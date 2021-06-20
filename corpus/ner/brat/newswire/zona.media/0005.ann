@@ -1,7 +1,7 @@
 T1	GPE 4 25	Вологодской   области
-T2	Other-group 28 41	подозреваемый
+T2	Person-property 28 41	подозреваемый
 T4	GPE 161 182	Вологодской   области
-T6	Other-group 218 231	подозреваемый
+T6	Person-property 218 231	подозреваемый
 T7	Family 262 266	жены
 T8	Family 291 297	дочери
 T9	Age 278 288	пятилетней
@@ -19,7 +19,7 @@ T19	Age 75 85	пятилетней
 T20	Quantity 681 691	двух   лиц
 T21	Age 716 727	малолетнего
 T22	Law 734 804	пункты   ``   а   ''   и   ``   в   ''   части   2   статьи   105   УК
-T24	Other-group 874 885	задержанный
+T24	Person-property 874 885	задержанный
 T25	Person 937 959	ее   пятилетнюю   дочь
 A5	Female T25
 T26	Family 926 930	жену
@@ -28,7 +28,7 @@ T28	Age 942 952	пятилетнюю
 T29	Person-property 1102 1133	судебно-медицинского   эксперта
 T15	Organization 1193 1195	СК
 T30	Person-property 1200 1211	Следователи
-T31	Other-group 1316 1329	подозреваемый
+T31	Person-property 1316 1329	подозреваемый
 T23	Date-absolute 843 871	в   ночь   на   3   сентября
 T32	Time-absolute 843 856	в   ночь   на
 T33	Date-relative 964 969	Потом
@@ -69,3 +69,20 @@ T52	Organization 407 419	пресс-службы
 A17	Department T52
 T53	Organization 488 494	отделе
 A18	Department T53
+T54	Person 59 63	жены
+A19	Female T54
+T55	Person 28 41	подозреваемый
+A20	Male T55
+T56	Person 218 231	подозреваемый
+A21	Male T56
+T57	Person 262 266	жены
+A22	Female T57
+T58	Person 1316 1329	подозреваемый
+A23	Male T58
+T59	Event 1306 1313	побегом
+T60	Person-property 827 836	следствия
+T61	Person 874 885	задержанный
+A24	Male T61
+T62	Event 238 246	убийстве
+T63	Event 670 678	убийстве
+T64	Event 1027 1039	преступления

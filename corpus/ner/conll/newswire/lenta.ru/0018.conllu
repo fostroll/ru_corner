@@ -9,7 +9,7 @@
 3	блогер	_	_	_	_	_	_	_	bratT3=Person-property
 4	стала	_	_	_	_	_	_	_	_
 5	талисманом	_	_	_	_	_	_	_	_
-6	летней	_	_	_	_	_	_	_	bratT1=Event|bratT49=Time-period
+6	летней	_	_	_	_	_	_	_	bratT1=Event|bratT49=Date-absolute
 7-9	Универсиады-2023	_	_	_	_	_	_	_	_
 7	Универсиады	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event
 8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event
@@ -31,7 +31,7 @@
 7	соболенок	_	_	_	_	_	_	_	_
 8	стали	_	_	_	_	_	_	_	_
 9	талисманами	_	_	_	_	_	_	_	_
-10	летней	_	_	_	_	_	_	_	bratT4=Event|bratT48=Time-period
+10	летней	_	_	_	_	_	_	_	bratT4=Event|bratT48=Date-absolute
 11	Универсиады	_	_	_	_	_	_	_	bratT4=Event
 12	2023	_	_	_	_	_	_	_	bratT28=Date-absolute|bratT4=Event
 13	года	_	_	_	_	_	_	_	bratT28=Date-absolute|bratT4=Event
@@ -126,7 +126,7 @@
 # par_text = Летняя Универсиада-2023 пройдет с 8 по 19 августа. Екатеринбург был единственным кандидатом на проведение соревнований.
 # sent_id = 0018-p4-s1
 # text = Летняя Универсиада-2023 пройдет с 8 по 19 августа.
-1	Летняя	_	_	_	_	_	_	_	bratT18=Event|bratT50=Time-period
+1	Летняя	_	_	_	_	_	_	_	bratA17=T50:Future|bratT18=Event|bratT50=Date-absolute
 2-4	Универсиада-2023	_	_	_	_	_	_	_	_
 2	Универсиада	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event
 3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Event

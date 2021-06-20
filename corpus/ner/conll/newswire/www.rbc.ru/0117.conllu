@@ -3,7 +3,7 @@
 # par_text = Эксперты назвали сроки появления в мире коллективного иммунитета от COVID
 # sent_id = 0117-p1-s1
 # text = Эксперты назвали сроки появления в мире коллективного иммунитета от COVID
-1	Эксперты	_	_	_	_	_	_	_	bratT1=Person-property
+1	Эксперты	_	_	_	_	_	_	_	bratT1=Person-property|bratT44=Person
 2	назвали	_	_	_	_	_	_	_	_
 3	сроки	_	_	_	_	_	_	_	_
 4	появления	_	_	_	_	_	_	_	_
@@ -43,9 +43,9 @@
 2	такому	_	_	_	_	_	_	_	_
 3	выводу	_	_	_	_	_	_	_	_
 4	пришли	_	_	_	_	_	_	_	_
-5	аналитики	_	_	_	_	_	_	_	bratT27=Person-property
-6	Citi	_	_	_	_	_	_	_	bratT27=Person-property|bratT28=Organization
-7	Research	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property|bratT28=Organization
+5	аналитики	_	_	_	_	_	_	_	bratT27=Person-property|bratT45=Person
+6	Citi	_	_	_	_	_	_	_	bratT27=Person-property|bratT28=Organization|bratT45=Person
+7	Research	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property|bratT28=Organization|bratT45=Person
 8	,	_	_	_	_	_	_	_	_
 9	передает	_	_	_	_	_	_	_	_
 10	CNBC	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T29:Media|bratT29=Organization
@@ -56,7 +56,7 @@
 # sent_id = 0117-p3-s1
 # text = Исследование экспертов учитывало сообщения ведущих фармацевтических компаний, которые разрабатывают вакцины против коронавируса, а также их отчеты о результатах финальных стадий испытаний.
 1	Исследование	_	_	_	_	_	_	_	_
-2	экспертов	_	_	_	_	_	_	_	bratT7=Person-property
+2	экспертов	_	_	_	_	_	_	_	bratT46=Person|bratT7=Person-property
 3	учитывало	_	_	_	_	_	_	_	_
 4	сообщения	_	_	_	_	_	_	_	_
 5	ведущих	_	_	_	_	_	_	_	_
@@ -75,9 +75,9 @@
 18	отчеты	_	_	_	_	_	_	_	_
 19	о	_	_	_	_	_	_	_	_
 20	результатах	_	_	_	_	_	_	_	_
-21	финальных	_	_	_	_	_	_	_	_
-22	стадий	_	_	_	_	_	_	_	_
-23	испытаний	_	_	_	_	_	_	_	SpaceAfter=No
+21	финальных	_	_	_	_	_	_	_	bratT47=Event
+22	стадий	_	_	_	_	_	_	_	bratT47=Event
+23	испытаний	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event|bratT48=Event
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0117-p4
@@ -115,9 +115,9 @@
 
 # sent_id = 0117-p4-s2
 # text = Эксперты Citi Research предположили, что эти три вакцины получат разрешение на использование в чрезвычайных ситуациях в ближайшие два месяца.
-1	Эксперты	_	_	_	_	_	_	_	bratT16=Person-property
-2	Citi	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property
-3	Research	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property
+1	Эксперты	_	_	_	_	_	_	_	bratT16=Person-property|bratT49=Person
+2	Citi	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property|bratT49=Person
+3	Research	_	_	_	_	_	_	_	bratT15=Organization|bratT16=Person-property|bratT49=Person
 4	предположили	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -129,8 +129,8 @@
 12	на	_	_	_	_	_	_	_	_
 13	использование	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
-15	чрезвычайных	_	_	_	_	_	_	_	_
-16	ситуациях	_	_	_	_	_	_	_	_
+15	чрезвычайных	_	_	_	_	_	_	_	bratT50=Event
+16	ситуациях	_	_	_	_	_	_	_	bratT50=Event
 17	в	_	_	_	_	_	_	_	bratA2=T18:Pres-Fut|bratT18=Date-period-absolute
 18	ближайшие	_	_	_	_	_	_	_	bratA2=T18:Pres-Fut|bratT18=Date-period-absolute|bratT26=Ordinal
 19	два	_	_	_	_	_	_	_	bratA2=T18:Pres-Fut|bratT18=Date-period-absolute|bratT33=Duration
@@ -155,7 +155,7 @@
 # text = По оценкам аналитиков, вакцинация от COVID-19 позволит обеспечить рост мирового ВВП на 0,7 п.п. в 2021 году и на 3 п.п. в 2022 году, когда экономическая активность вернется к своему нормальному уровню.
 1	По	_	_	_	_	_	_	_	_
 2	оценкам	_	_	_	_	_	_	_	_
-3	аналитиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
+3	аналитиков	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT51=Person
 4	,	_	_	_	_	_	_	_	_
 5	вакцинация	_	_	_	_	_	_	_	bratT20=Service
 6	от	_	_	_	_	_	_	_	bratT20=Service
@@ -165,9 +165,9 @@
 9	19	_	_	_	_	_	_	_	bratT20=Service|bratT21=Other-term|bratT40=Cardinal
 10	позволит	_	_	_	_	_	_	_	_
 11	обеспечить	_	_	_	_	_	_	_	_
-12	рост	_	_	_	_	_	_	_	_
-13	мирового	_	_	_	_	_	_	_	bratA8=T36:Adjective|bratT36=GPE
-14	ВВП	_	_	_	_	_	_	_	_
+12	рост	_	_	_	_	_	_	_	bratT43=Event
+13	мирового	_	_	_	_	_	_	_	bratA8=T36:Adjective|bratT36=GPE|bratT43=Event
+14	ВВП	_	_	_	_	_	_	_	bratT43=Event
 15	на	_	_	_	_	_	_	_	bratT22=Quantity
 16	0,7	_	_	_	_	_	_	_	bratT22=Quantity
 17	п.п.	_	_	_	_	_	_	_	bratT22=Quantity

@@ -9,8 +9,8 @@
 4	для	_	_	_	_	_	_	_	_
 5	Агафьи	_	_	_	_	_	_	_	bratA7=T2:Female|bratT2=Person|bratT40=Person-forename
 6	Лыковой	_	_	_	_	_	_	_	bratA7=T2:Female|bratT2=Person|bratT41=Person-surname
-7	новый	_	_	_	_	_	_	_	_
-8	дом	_	_	_	_	_	_	_	_
+7	новый	_	_	_	_	_	_	_	bratT90=Facility
+8	дом	_	_	_	_	_	_	_	bratT90=Facility
 
 # newpar id = 0124-p2
 # par_text = Российский миллиардер Олег Дерипаска (Forbes оценивает его состояние на 27 ноября в $2,9 млрд) согласился помочь живущей в саянской тайге отшельнице Агафье Лыковой с постройкой нового дома. Об этом сообщил РБК представитель бизнесмена.
@@ -44,9 +44,9 @@
 25	Агафье	_	_	_	_	_	_	_	bratA11=T8:Female|bratT45=Person-surname|bratT8=Person
 26	Лыковой	_	_	_	_	_	_	_	bratA11=T8:Female|bratT46=Person-surname|bratT8=Person
 27	с	_	_	_	_	_	_	_	_
-28	постройкой	_	_	_	_	_	_	_	_
-29	нового	_	_	_	_	_	_	_	_
-30	дома	_	_	_	_	_	_	_	SpaceAfter=No
+28	постройкой	_	_	_	_	_	_	_	bratT92=Event
+29	нового	_	_	_	_	_	_	_	bratT91=Facility
+30	дома	_	_	_	_	_	_	_	SpaceAfter=No|bratT91=Facility
 31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p2-s2
@@ -55,8 +55,8 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	_
 4	РБК	_	_	_	_	_	_	_	bratA2=T10:Media|bratT10=Organization
-5	представитель	_	_	_	_	_	_	_	_
-6	бизнесмена	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property
+5	представитель	_	_	_	_	_	_	_	bratA35=T85:Male|bratT84=Person-property|bratT85=Person
+6	бизнесмена	_	_	_	_	_	_	_	SpaceAfter=No|bratA35=T85:Male|bratA36=T86:Male|bratT11=Person-property|bratT84=Person-property|bratT85=Person|bratT86=Person
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p3
@@ -72,7 +72,7 @@
 # sent_id = 0124-p3-s2
 # text = Проект избы и стройматериалы уже готовы.
 1	Проект	_	_	_	_	_	_	_	_
-2	избы	_	_	_	_	_	_	_	_
+2	избы	_	_	_	_	_	_	_	bratT93=Facility
 3	и	_	_	_	_	_	_	_	_
 4	стройматериалы	_	_	_	_	_	_	_	_
 5	уже	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 2	решается	_	_	_	_	_	_	_	_
 3	вопрос	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
-5	доставкой	_	_	_	_	_	_	_	_
+5	доставкой	_	_	_	_	_	_	_	bratT97=Event
 6	стройматериалов	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	это	_	_	_	_	_	_	_	_
@@ -125,8 +125,8 @@
 8	помочь	_	_	_	_	_	_	_	_
 9	ей	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
-11	постройкой	_	_	_	_	_	_	_	_
-12	дома	_	_	_	_	_	_	_	SpaceAfter=No
+11	постройкой	_	_	_	_	_	_	_	bratT94=Event
+12	дома	_	_	_	_	_	_	_	SpaceAfter=No|bratT95=Facility
 13	,	_	_	_	_	_	_	_	_
 14	сообщил	_	_	_	_	_	_	_	_
 15	26	_	_	_	_	_	_	_	bratA15=T15:Past|bratT15=Date-absolute
@@ -170,7 +170,7 @@
 17	Олега	_	_	_	_	_	_	_	bratT21=Person|bratT57=Person-forename
 18	Владимировича	_	_	_	_	_	_	_	bratT21=Person|bratT58=Person-patronym
 19	посодействовать	_	_	_	_	_	_	_	_
-20	строительству	_	_	_	_	_	_	_	_
+20	строительству	_	_	_	_	_	_	_	bratT88=Event
 21	нового	_	_	_	_	_	_	_	_
 22	жилья	_	_	_	_	_	_	_	SpaceAfter=No
 23	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -190,9 +190,9 @@
 # par_text = Представитель Дерипаски получение миллиардером письма подтвердил.
 # sent_id = 0124-p6-s1
 # text = Представитель Дерипаски получение миллиардером письма подтвердил.
-1	Представитель	_	_	_	_	_	_	_	bratA32=T81:Male|bratT81=Person
-2	Дерипаски	_	_	_	_	_	_	_	bratA21=T24:Male|bratA32=T81:Male|bratT24=Person|bratT61=Person-surname|bratT81=Person
-3	получение	_	_	_	_	_	_	_	_
+1	Представитель	_	_	_	_	_	_	_	bratA32=T81:Male|bratT81=Person|bratT87=Person-property
+2	Дерипаски	_	_	_	_	_	_	_	bratA21=T24:Male|bratA32=T81:Male|bratT24=Person|bratT61=Person-surname|bratT81=Person|bratT87=Person-property
+3	получение	_	_	_	_	_	_	_	bratT89=Event
 4	миллиардером	_	_	_	_	_	_	_	bratT25=Other-group|bratT80=Person
 5	письма	_	_	_	_	_	_	_	_
 6	подтвердил	_	_	_	_	_	_	_	SpaceAfter=No
@@ -228,7 +228,7 @@
 24	,	_	_	_	_	_	_	_	_
 25	который	_	_	_	_	_	_	_	_
 26	поможет	_	_	_	_	_	_	_	_
-27	отшельнице	_	_	_	_	_	_	_	bratA34=T83:Male|bratT29=Other-group|bratT83=Person
+27	отшельнице	_	_	_	_	_	_	_	bratA34=T83:Male|bratT29=Person-property|bratT83=Person
 28	зимой	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T73:Fut|bratT73=Date-period-absolute
 29	.	_	_	_	_	_	_	_	_
 
@@ -253,8 +253,8 @@
 17	был	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	составе	_	_	_	_	_	_	_	_
-20	геологической	_	_	_	_	_	_	_	_
-21	экспедиции	_	_	_	_	_	_	_	SpaceAfter=No
+20	геологической	_	_	_	_	_	_	_	bratA37=T96:Department|bratT96=Organization
+21	экспедиции	_	_	_	_	_	_	_	SpaceAfter=No|bratA37=T96:Department|bratT96=Organization
 22	,	_	_	_	_	_	_	_	_
 23	обнаружившей	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_

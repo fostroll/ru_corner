@@ -21,13 +21,13 @@
 # text = Общее число заражений коронавирусной инфекцией COVID-19 в России с момента начала пандемии перевалило за 2 млн, свидетельствуют данные федерального оперативного штаба.
 1	Общее	_	_	_	_	_	_	_	_
 2	число	_	_	_	_	_	_	_	_
-3	заражений	_	_	_	_	_	_	_	_
-4	коронавирусной	_	_	_	_	_	_	_	bratT4=Other-term
-5	инфекцией	_	_	_	_	_	_	_	bratT4=Other-term
+3	заражений	_	_	_	_	_	_	_	bratT80=Event
+4	коронавирусной	_	_	_	_	_	_	_	bratT4=Other-term|bratT80=Event
+5	инфекцией	_	_	_	_	_	_	_	bratT4=Other-term|bratT80=Event
 6-8	COVID-19	_	_	_	_	_	_	_	_
-6	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
-7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
-8	19	_	_	_	_	_	_	_	bratT4=Other-term|bratT76=Cardinal
+6	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT80=Event
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT80=Event
+8	19	_	_	_	_	_	_	_	bratT4=Other-term|bratT76=Cardinal|bratT80=Event
 9	в	_	_	_	_	_	_	_	_
 10	России	_	_	_	_	_	_	_	bratT5=GPE
 11	с	_	_	_	_	_	_	_	bratA1=T37:Past-Pres|bratT37=Date-period-absolute
@@ -56,9 +56,9 @@
 6	выявлено	_	_	_	_	_	_	_	_
 7	23	_	_	_	_	_	_	_	bratT9=Quantity
 8	610	_	_	_	_	_	_	_	bratT9=Quantity
-9	новых	_	_	_	_	_	_	_	_
-10	случаев	_	_	_	_	_	_	_	_
-11	заражения	_	_	_	_	_	_	_	SpaceAfter=No
+9	новых	_	_	_	_	_	_	_	bratT81=Event|bratT9=Quantity
+10	случаев	_	_	_	_	_	_	_	bratT81=Event|bratT9=Quantity
+11	заражения	_	_	_	_	_	_	_	SpaceAfter=No|bratT81=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p2-s3
@@ -84,24 +84,24 @@
 # text = Суточный показатель новых выявленных случаев инфицирования оказался максимальным за все время с начала пандемии.
 1	Суточный	_	_	_	_	_	_	_	_
 2	показатель	_	_	_	_	_	_	_	_
-3	новых	_	_	_	_	_	_	_	_
-4	выявленных	_	_	_	_	_	_	_	_
-5	случаев	_	_	_	_	_	_	_	_
-6	инфицирования	_	_	_	_	_	_	_	_
+3	новых	_	_	_	_	_	_	_	bratT82=Event
+4	выявленных	_	_	_	_	_	_	_	bratT82=Event
+5	случаев	_	_	_	_	_	_	_	bratT82=Event
+6	инфицирования	_	_	_	_	_	_	_	bratT82=Event
 7	оказался	_	_	_	_	_	_	_	_
 8	максимальным	_	_	_	_	_	_	_	_
 9	за	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
 10	все	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
 11	время	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
 12	с	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
-13	начала	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute
-14	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T40:Past-Pres|bratT11=Event|bratT40=Date-period-absolute
+13	начала	_	_	_	_	_	_	_	bratA3=T40:Past-Pres|bratT40=Date-period-absolute|bratT83=Event
+14	пандемии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T40:Past-Pres|bratT11=Event|bratT40=Date-period-absolute|bratT83=Event
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p3-s2
 # text = Предыдущий рекорд был зафиксирован 16 ноября, когда заболели 22 778 человек.
 1	Предыдущий	_	_	_	_	_	_	_	bratT41=Ordinal
-2	рекорд	_	_	_	_	_	_	_	_
+2	рекорд	_	_	_	_	_	_	_	bratT84=Event
 3	был	_	_	_	_	_	_	_	_
 4	зафиксирован	_	_	_	_	_	_	_	_
 5	16	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute
@@ -124,8 +124,8 @@
 6	выявлено	_	_	_	_	_	_	_	_
 7	20	_	_	_	_	_	_	_	bratT14=Quantity
 8	985	_	_	_	_	_	_	_	bratT14=Quantity
-9	случаев	_	_	_	_	_	_	_	bratT14=Quantity
-10	инфицирования	_	_	_	_	_	_	_	SpaceAfter=No
+9	случаев	_	_	_	_	_	_	_	bratT14=Quantity|bratT85=Event
+10	инфицирования	_	_	_	_	_	_	_	SpaceAfter=No|bratT85=Event
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0062-p4
@@ -135,11 +135,11 @@
 1	Более	_	_	_	_	_	_	_	bratT15=Quantity
 2	20	_	_	_	_	_	_	_	bratT15=Quantity
 3	тыс.	_	_	_	_	_	_	_	bratT15=Quantity
-4	заражений	_	_	_	_	_	_	_	bratT15=Quantity
+4	заражений	_	_	_	_	_	_	_	bratT15=Quantity|bratT86=Event
 5-7	COVID-19	_	_	_	_	_	_	_	_
-5	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
-6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
-7	19	_	_	_	_	_	_	_	bratT16=Other-term|bratT74=Cardinal
+5	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term|bratT86=Event
+6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term|bratT86=Event
+7	19	_	_	_	_	_	_	_	bratT16=Other-term|bratT74=Cardinal|bratT86=Event
 8	фиксируется	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	России	_	_	_	_	_	_	_	bratT17=GPE
@@ -153,8 +153,8 @@
 # sent_id = 0062-p5-s1
 # text = Число активных случаев (тех, кто находится под наблюдением) снизилось второй день подряд.
 1	Число	_	_	_	_	_	_	_	_
-2	активных	_	_	_	_	_	_	_	_
-3	случаев	_	_	_	_	_	_	_	_
+2	активных	_	_	_	_	_	_	_	bratT87=Event
+3	случаев	_	_	_	_	_	_	_	bratT87=Event
 4	(	_	_	_	_	_	_	_	SpaceAfter=No
 5	тех	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -294,11 +294,11 @@
 6	,	_	_	_	_	_	_	_	_
 7	общее	_	_	_	_	_	_	_	_
 8	количество	_	_	_	_	_	_	_	_
-9	заражений	_	_	_	_	_	_	_	_
+9	заражений	_	_	_	_	_	_	_	bratT88=Event
 10-12	COVID-19	_	_	_	_	_	_	_	_
-10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term
-11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term
-12	19	_	_	_	_	_	_	_	bratT31=Other-term|bratT77=Cardinal
+10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term|bratT88=Event
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Other-term|bratT88=Event
+12	19	_	_	_	_	_	_	_	bratT31=Other-term|bratT77=Cardinal|bratT88=Event
 13	в	_	_	_	_	_	_	_	_
 14	мире	_	_	_	_	_	_	_	bratT54=GPE
 15	с	_	_	_	_	_	_	_	bratA11=T52:Past-Pres|bratT52=Date-period-absolute

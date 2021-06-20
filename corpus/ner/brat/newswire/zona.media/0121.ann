@@ -17,7 +17,7 @@ T14	Date-absolute 396 414	днем   28   января
 A3	Past T14
 T15	Time-absolute 396 400	днем
 T16	Person-property 417 428	полицейский
-T17	Other-group 441 453	задержанного
+T17	Person-property 441 453	задержанного
 T18	Person-property 652 664	полицейского
 T19	Law 740 791	пункт   ``   а   ''   части   3   статьи   286   УК
 T20	Person-property 835 845	подсудимый
@@ -30,3 +30,15 @@ T26	Law 789 791	УК
 A5	Past-UNK T10
 T27	Organization 197 204	полиции
 A6	Department T8
+T28	Event 712 733	применением   насилия
+T29	Person 44 56	задержанного
+A4	Male T29
+T30	Person-property 380 389	следствие
+T31	Person 417 428	полицейский
+A7	Male T31
+T32	Event 482 515	административное   правонарушение
+T33	Event 575 587	Происходящее
+T34	Person 652 664	полицейского
+A8	Male T34
+T35	Person 835 845	подсудимый
+A9	Male T35

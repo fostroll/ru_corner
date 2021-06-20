@@ -15,7 +15,7 @@
 10	тысяч	_	_	_	_	_	_	_	bratT5=Money
 11	рублей	_	_	_	_	_	_	_	bratT5=Money
 12	за	_	_	_	_	_	_	_	_
-13	пикет	_	_	_	_	_	_	_	_
+13	пикет	_	_	_	_	_	_	_	bratT45=Event
 14	в	_	_	_	_	_	_	_	_
 15	поддержку	_	_	_	_	_	_	_	_
 16	журналиста	_	_	_	_	_	_	_	bratT7=Person-property
@@ -43,8 +43,8 @@
 16	тысяч	_	_	_	_	_	_	_	bratT17=Money
 17	рублей	_	_	_	_	_	_	_	bratT17=Money
 18	за	_	_	_	_	_	_	_	_
-19	одиночный	_	_	_	_	_	_	_	_
-20	пикет	_	_	_	_	_	_	_	_
+19	одиночный	_	_	_	_	_	_	_	bratT46=Event|bratT47=Quantity
+20	пикет	_	_	_	_	_	_	_	bratT46=Event
 21	в	_	_	_	_	_	_	_	_
 22	поддержку	_	_	_	_	_	_	_	_
 23	журналиста	_	_	_	_	_	_	_	bratA9=T19:Male|bratT19=Person|bratT6=Person-property
@@ -87,7 +87,7 @@
 4	в	_	_	_	_	_	_	_	_
 5	нарушении	_	_	_	_	_	_	_	_
 6	правил	_	_	_	_	_	_	_	_
-7	пикета	_	_	_	_	_	_	_	_
+7	пикета	_	_	_	_	_	_	_	bratT48=Event
 8	(	_	_	_	_	_	_	_	SpaceAfter=No
 9	часть	_	_	_	_	_	_	_	bratT31=Law
 10	5	_	_	_	_	_	_	_	bratT31=Law|bratT72=Ordinal
@@ -134,8 +134,8 @@
 13	по	_	_	_	_	_	_	_	bratT41=Facility|bratT50=Organization
 14	Москве	_	_	_	_	_	_	_	bratT41=Facility|bratT50=Organization|bratT51=GPE
 15	на	_	_	_	_	_	_	_	_
-16	одиночные	_	_	_	_	_	_	_	_
-17	пикеты	_	_	_	_	_	_	_	_
+16	одиночные	_	_	_	_	_	_	_	bratT49=Quantity|bratT64=Event
+17	пикеты	_	_	_	_	_	_	_	bratT64=Event
 18	после	_	_	_	_	_	_	_	bratA7=T83:Past|bratT83=Date-absolute
 19	ареста	_	_	_	_	_	_	_	bratA7=T83:Past|bratT83=Date-absolute|bratT86=Event
 20	Азара	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T52:Male|bratT52=Person|bratT53=Person-surname
@@ -143,9 +143,9 @@
 22	которого	_	_	_	_	_	_	_	_
 23	отправили	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
-25	спецприемник	_	_	_	_	_	_	_	_
+25	спецприемник	_	_	_	_	_	_	_	bratT66=Organization
 26	за	_	_	_	_	_	_	_	_
-27	пикет	_	_	_	_	_	_	_	_
+27	пикет	_	_	_	_	_	_	_	bratT65=Event
 28	в	_	_	_	_	_	_	_	_
 29	поддержку	_	_	_	_	_	_	_	_
 30	основателя	_	_	_	_	_	_	_	bratA20=T54:Male|bratT54=Person|bratT70=Person-property
@@ -198,8 +198,8 @@
 16	(	_	_	_	_	_	_	_	SpaceAfter=No
 17	нарушение	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-19	режима	_	_	_	_	_	_	_	bratT71=Other-term
-20	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Other-term
+19	режима	_	_	_	_	_	_	_	bratT71=Event
+20	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
 21	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 22	)	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_

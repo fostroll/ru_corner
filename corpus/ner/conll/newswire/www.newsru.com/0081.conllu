@@ -4,14 +4,14 @@
 # sent_id = 0081-p1-s1
 # text = После поражения от шведов Газзаев предложил натурализовать французского спартаковца
 1	После	_	_	_	_	_	_	_	bratA22=T43:Past|bratT43=Date-absolute
-2	поражения	_	_	_	_	_	_	_	bratA22=T43:Past|bratT43=Date-absolute|bratT64=Event
-3	от	_	_	_	_	_	_	_	bratT64=Event
-4	шведов	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality|bratT64=Event
+2	поражения	_	_	_	_	_	_	_	bratA22=T43:Past|bratT43=Date-absolute|bratT67=Event
+3	от	_	_	_	_	_	_	_	_
+4	шведов	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratT1=Nationality
 5	Газзаев	_	_	_	_	_	_	_	bratA4=T2:Male|bratT2=Person|bratT44=Person-surname
 6	предложил	_	_	_	_	_	_	_	_
 7	натурализовать	_	_	_	_	_	_	_	_
-8	французского	_	_	_	_	_	_	_	bratA5=T45:Adjective|bratT39=Person-property|bratT45=GPE
-9	спартаковца	_	_	_	_	_	_	_	bratT39=Person-property
+8	французского	_	_	_	_	_	_	_	bratA24=T64:Male|bratA5=T45:Adjective|bratT39=Person-property|bratT45=GPE|bratT64=Person
+9	спартаковца	_	_	_	_	_	_	_	bratA24=T64:Male|bratT39=Person-property|bratT64=Person
 
 # newpar id = 0081-p2
 # par_text = Бывший главный тренер ЦСКА и сборной России по футболу Валерий Газзаев считает, что французскому защитнику "Спартака" Самуэлю Жиго следует получить российское гражданство. В четверг сборная России уступила команде Швеции в товарищеском матче со счетом 1:2.

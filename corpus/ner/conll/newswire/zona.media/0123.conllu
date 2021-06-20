@@ -5,7 +5,7 @@
 # text = В Гатчине активист сбил с полицейского кепку, упав при задержании; на него завели уголовное дело
 1	В	_	_	_	_	_	_	_	_
 2	Гатчине	_	_	_	_	_	_	_	bratT1=GPE
-3	активист	_	_	_	_	_	_	_	bratT2=Person-property
+3	активист	_	_	_	_	_	_	_	bratA34=T97:Male|bratT2=Person-property|bratT97=Person
 4	сбил	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	полицейского	_	_	_	_	_	_	_	bratT3=Person-property
@@ -13,7 +13,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	упав	_	_	_	_	_	_	_	_
 10	при	_	_	_	_	_	_	_	_
-11	задержании	_	_	_	_	_	_	_	SpaceAfter=No
+11	задержании	_	_	_	_	_	_	_	SpaceAfter=No|bratT101=Event
 12	;	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
 14	него	_	_	_	_	_	_	_	_
@@ -40,8 +40,8 @@
 13	возбудили	_	_	_	_	_	_	_	_
 14	дело	_	_	_	_	_	_	_	bratT84=Event
 15	о	_	_	_	_	_	_	_	_
-16	применении	_	_	_	_	_	_	_	_
-17	насилия	_	_	_	_	_	_	_	_
+16	применении	_	_	_	_	_	_	_	bratT94=Event
+17	насилия	_	_	_	_	_	_	_	bratT94=Event
 18	в	_	_	_	_	_	_	_	_
 19	отношении	_	_	_	_	_	_	_	_
 20	полицейского	_	_	_	_	_	_	_	bratT11=Person-property
@@ -83,22 +83,22 @@
 1	Накануне	_	_	_	_	_	_	_	bratA4=T18:Past|bratT18=Date-relative
 2	в	_	_	_	_	_	_	_	_
 3	Гатчине	_	_	_	_	_	_	_	bratT19=GPE
-4	активисты	_	_	_	_	_	_	_	bratT20=Other-group
-5	движения	_	_	_	_	_	_	_	bratT20=Other-group|bratT21=Organization
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization
+4	активисты	_	_	_	_	_	_	_	bratT20=Person-property
+5	движения	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property|bratT21=Organization
 7-9	Стратегия-18	_	_	_	_	_	_	_	SpaceAfter=No
-7	Стратегия	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization
-8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization
-9	18	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Other-group|bratT21=Organization|bratT81=Cardinal
-10	''	_	_	_	_	_	_	_	bratT20=Other-group|bratT21=Organization
+7	Стратегия	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property|bratT21=Organization
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property|bratT21=Organization
+9	18	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property|bratT21=Organization|bratT81=Cardinal
+10	''	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
 11	вышли	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
 13	акцию	_	_	_	_	_	_	_	bratT23=Event
-14	против	_	_	_	_	_	_	_	bratT23=Event
-15	уголовного	_	_	_	_	_	_	_	bratT23=Event
-16	преследования	_	_	_	_	_	_	_	bratT23=Event
-17	крымских	_	_	_	_	_	_	_	bratA21=T27:Adjective|bratT23=Event|bratT26=Nationality|bratT27=GPE
-18	татар	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event|bratT26=Nationality
+14	против	_	_	_	_	_	_	_	_
+15	уголовного	_	_	_	_	_	_	_	_
+16	преследования	_	_	_	_	_	_	_	_
+17	крымских	_	_	_	_	_	_	_	bratA21=T27:Adjective|bratT26=Nationality|bratT27=GPE
+18	татар	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Nationality
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0123-p3-s2
@@ -150,7 +150,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	во	_	_	_	_	_	_	_	bratA26=T69:Past|bratT69=Date-absolute
 6	время	_	_	_	_	_	_	_	bratA26=T69:Past|bratT69=Date-absolute
-7	задержания	_	_	_	_	_	_	_	bratA26=T69:Past|bratT69=Date-absolute
+7	задержания	_	_	_	_	_	_	_	bratA26=T69:Past|bratT102=Event|bratT69=Date-absolute
 8	Шипицын	_	_	_	_	_	_	_	bratA7=T38:Male|bratT38=Person|bratT39=Person-surname
 9	упал	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
@@ -197,7 +197,7 @@
 10	Ленобласти	_	_	_	_	_	_	_	bratA8=T42:Department|bratT42=Organization|bratT43=Organization|bratT45=GPE
 11	возбудил	_	_	_	_	_	_	_	_
 12	против	_	_	_	_	_	_	_	_
-13	активиста	_	_	_	_	_	_	_	bratT46=Person-property
+13	активиста	_	_	_	_	_	_	_	bratA33=T95:Male|bratT46=Person-property|bratT95=Person
 14	уголовное	_	_	_	_	_	_	_	bratT88=Event
 15	дело	_	_	_	_	_	_	_	SpaceAfter=No|bratT88=Event
 16	.	_	_	_	_	_	_	_	_
@@ -253,7 +253,7 @@
 7	него	_	_	_	_	_	_	_	_
 8	должен	_	_	_	_	_	_	_	_
 9	состояться	_	_	_	_	_	_	_	_
-10	допрос	_	_	_	_	_	_	_	_
+10	допрос	_	_	_	_	_	_	_	bratT96=Event
 11	по	_	_	_	_	_	_	_	_
 12	уголовному	_	_	_	_	_	_	_	bratT89=Event
 13	делу	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Event
@@ -274,8 +274,8 @@
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Media|bratT58=Organization
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
-11	его	_	_	_	_	_	_	_	_
-12	подзащитного	_	_	_	_	_	_	_	bratT59=Person-property
+11	его	_	_	_	_	_	_	_	bratA36=T103:Male|bratT103=Person
+12	подзащитного	_	_	_	_	_	_	_	bratA36=T103:Male|bratT103=Person|bratT59=Person-property
 13	допросили	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
 
@@ -295,7 +295,7 @@
 2	по	_	_	_	_	_	_	_	_
 3	мере	_	_	_	_	_	_	_	_
 4	пресечения	_	_	_	_	_	_	_	_
-5	активисту	_	_	_	_	_	_	_	bratT63=Person-property
+5	активисту	_	_	_	_	_	_	_	bratA35=T98:Male|bratT63=Person-property|bratT98=Person
 6	пока	_	_	_	_	_	_	_	_
 7	еще	_	_	_	_	_	_	_	_
 8	не	_	_	_	_	_	_	_	_
@@ -310,14 +310,14 @@
 4	будет	_	_	_	_	_	_	_	_
 5	находиться	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
-7	ИВС	_	_	_	_	_	_	_	SpaceAfter=No
+7	ИВС	_	_	_	_	_	_	_	SpaceAfter=No|bratT99=Organization
 8	,	_	_	_	_	_	_	_	_
 9	пока	_	_	_	_	_	_	_	_
 10	не	_	_	_	_	_	_	_	_
 11	истекут	_	_	_	_	_	_	_	_
 12	48	_	_	_	_	_	_	_	bratA29=T70:Past-Fut|bratT70=Date-period-absolute|bratT71=Duration
 13	часов	_	_	_	_	_	_	_	bratA29=T70:Past-Fut|bratT70=Date-period-absolute|bratT71=Duration
-14	задержания	_	_	_	_	_	_	_	SpaceAfter=No|bratA29=T70:Past-Fut|bratT70=Date-period-absolute
+14	задержания	_	_	_	_	_	_	_	SpaceAfter=No|bratA29=T70:Past-Fut|bratT100=Event|bratT70=Date-period-absolute
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0123-p8

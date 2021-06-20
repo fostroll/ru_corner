@@ -31,7 +31,7 @@ A14	Female T26
 T27	Ordinal 355 359	этом
 T28	Ordinal 1281 1285	этом
 T29	Language 298 317	Английскому   языку
-T30	Quantity 707 739	одно   единственное   ``   слово
+T30	Quantity 707 751	одно   единственное   ``   слово   года   ''
 A15	Past T10
 T31	Language 876 887	английского
 T32	GPE 1496 1506	весь   мир
@@ -42,9 +42,25 @@ T34	Duration 742 746	года
 T35	Duration 1595 1599	года
 A2	Past T7
 T36	Duration 640 643	год
-T37	Date-period-relative 640 643	год
-T38	Date-period-relative 742 746	года
-A4	Pres-Fut T13
+T37	Time-period 640 643	год
+T38	Time-period 742 746	года
 T39	Date-period-relative 1595 1599	года
 A7	Past T39
 T40	Person 433 466	команда   опытных   лексикографов
+T41	GPE 0 11	Оксфордский
+A1	Adjective T41
+T42	GPE 121 132	Оксфордский
+A5	Adjective T42
+T43	GPE 269 275	Oxford
+T44	Other-term 734 746	слово   года
+T45	GPE 811 822	Оксфордский
+A6	Adjective T45
+T46	Other-term 983 1003	словом   2018   года
+T47	Other-term 46 65	слово   2020   года
+T48	Date-period-absolute 1118 1139	завершающегося   года
+A8	Past-Fut T48
+A4	Past-Fut T13
+T49	Other-term 1352 1383	нервно-паралитическим   агентом
+T50	Person 1059 1070	специалисты
+T51	Person 1556 1562	ученые
+T52	Other-term 1586 1599	словом   года

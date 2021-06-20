@@ -14,7 +14,7 @@
 8	России	_	_	_	_	_	_	_	bratT1=GPE|bratT3=Organization|bratT4=Person-property
 9	поедут	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	матч	_	_	_	_	_	_	_	_
+11	матч	_	_	_	_	_	_	_	bratT79=Event
 12	в	_	_	_	_	_	_	_	_
 13	Турцию	_	_	_	_	_	_	_	bratT2=GPE
 
@@ -121,8 +121,8 @@
 8	после	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
 9	этого	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
 10	исследования	_	_	_	_	_	_	_	bratA10=T36:Past|bratA9=T36:Plural|bratT36=Date-relative
-11	заражения	_	_	_	_	_	_	_	_
-12	коронавирусом	_	_	_	_	_	_	_	bratT34=Other-term
+11	заражения	_	_	_	_	_	_	_	bratT78=Event
+12	коронавирусом	_	_	_	_	_	_	_	bratT34=Other-term|bratT78=Event
 13	не	_	_	_	_	_	_	_	_
 14	выявили	_	_	_	_	_	_	_	SpaceAfter=No
 15	.	_	_	_	_	_	_	_	_
@@ -206,7 +206,7 @@
 # text = После четырех туров россияне лидируют в турнирной таблице группы 3 лиги В с восемью очками.
 1	После	_	_	_	_	_	_	_	bratA21=T72:Present|bratT72=Date-absolute
 2	четырех	_	_	_	_	_	_	_	bratA21=T72:Present|bratT59=Quantity|bratT72=Date-absolute
-3	туров	_	_	_	_	_	_	_	bratA21=T72:Present|bratT59=Quantity|bratT72=Date-absolute
+3	туров	_	_	_	_	_	_	_	bratA21=T72:Present|bratT59=Quantity|bratT72=Date-absolute|bratT80=Event
 4	россияне	_	_	_	_	_	_	_	bratA16=T60:Citizenship|bratT60=Nationality
 5	лидируют	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_

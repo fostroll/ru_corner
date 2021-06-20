@@ -55,8 +55,8 @@
 # sent_id = 0107-p3-s1
 # text = ``Новая противоракета после серии испытаний достоверно подтвердила заложенные характеристики, а боевые расчеты успешно выполнили задачу.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Новая	_	_	_	_	_	_	_	bratT47=Product
-3	противоракета	_	_	_	_	_	_	_	bratT47=Product
+2	Новая	_	_	_	_	_	_	_	_
+3	противоракета	_	_	_	_	_	_	_	_
 4	после	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-absolute
 5	серии	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-absolute|bratT26=Event
 6	испытаний	_	_	_	_	_	_	_	bratT26=Event
@@ -89,9 +89,9 @@
 12	защиты	_	_	_	_	_	_	_	_
 13	от	_	_	_	_	_	_	_	_
 14	ударов	_	_	_	_	_	_	_	_
-15	средств	_	_	_	_	_	_	_	bratT52=Product
-16	воздушно-космического	_	_	_	_	_	_	_	bratT52=Product
-17	нападения	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Product
+15	средств	_	_	_	_	_	_	_	_
+16	воздушно-космического	_	_	_	_	_	_	_	_
+17	нападения	_	_	_	_	_	_	_	SpaceAfter=No
 18	''	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
@@ -149,8 +149,8 @@
 15	Андрей	_	_	_	_	_	_	_	bratA12=T9:Male|bratT33=Person-forename|bratT9=Person
 16	Демин	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T9:Male|bratT34=Person-surname|bratT9=Person
 17	,	_	_	_	_	_	_	_	_
-18	новая	_	_	_	_	_	_	_	bratT49=Product
-19	ракета	_	_	_	_	_	_	_	bratT49=Product
+18	новая	_	_	_	_	_	_	_	_
+19	ракета	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No
 21	достоверно	_	_	_	_	_	_	_	_
 22	подтвердила	_	_	_	_	_	_	_	_
@@ -207,7 +207,7 @@
 8	Тор	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA19=T24:Trademark|bratA2=T13:Plural|bratT13=Product|bratT24=Product
 9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA19=T24:Trademark|bratA2=T13:Plural|bratT13=Product|bratT24=Product
 10	М	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA19=T24:Trademark|bratA2=T13:Plural|bratT13=Product|bratT24=Product
-11	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA19=T24:Trademark|bratA2=T13:Plural|bratT13=Product|bratT24=Product
+11	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA19=T24:Trademark|bratA2=T13:Plural|bratT13=Product|bratT24=Product|bratT47=Ordinal
 12	КМ	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA19=T24:Trademark|bratA2=T13:Plural|bratT13=Product|bratT24=Product
 13	''	_	_	_	_	_	_	_	bratA18=T13:Trademark|bratA19=T24:Trademark|bratA2=T13:Plural|bratT13=Product|bratT24=Product
 14	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratT13=Product
@@ -220,7 +220,7 @@
 20	Бук	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratA20=T25:Trademark|bratT13=Product|bratT25=Product
 21	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratA20=T25:Trademark|bratT13=Product|bratT25=Product
 22	М	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratA20=T25:Trademark|bratT13=Product|bratT25=Product
-23	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratA20=T25:Trademark|bratT13=Product|bratT25=Product
+23	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratA20=T25:Trademark|bratT13=Product|bratT25=Product|bratT49=Ordinal
 24	Э	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratA20=T25:Trademark|bratT13=Product|bratT25=Product
 25	''	_	_	_	_	_	_	_	bratA18=T13:Trademark|bratA2=T13:Plural|bratA20=T25:Trademark|bratT13=Product|bratT25=Product
 26	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T13:Trademark|bratA2=T13:Plural|bratT13=Product
@@ -231,12 +231,12 @@
 31	производства	_	_	_	_	_	_	_	_
 32	могут	_	_	_	_	_	_	_	_
 33	уничтожать	_	_	_	_	_	_	_	_
-34	ударно-разведывательные	_	_	_	_	_	_	_	bratT50=Product
-35	беспилотные	_	_	_	_	_	_	_	bratT50=Product
-36	летательные	_	_	_	_	_	_	_	bratT50=Product
-37	аппараты	_	_	_	_	_	_	_	bratT50=Product
+34	ударно-разведывательные	_	_	_	_	_	_	_	_
+35	беспилотные	_	_	_	_	_	_	_	_
+36	летательные	_	_	_	_	_	_	_	_
+37	аппараты	_	_	_	_	_	_	_	_
 38	(	_	_	_	_	_	_	_	SpaceAfter=No
-39	БПЛА	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Product
+39	БПЛА	_	_	_	_	_	_	_	SpaceAfter=No
 40	)	_	_	_	_	_	_	_	SpaceAfter=No
 41	,	_	_	_	_	_	_	_	_
 42	в	_	_	_	_	_	_	_	_

@@ -89,7 +89,7 @@
 14	быть	_	_	_	_	_	_	_	_
 15	предъявлены	_	_	_	_	_	_	_	_
 16	семи	_	_	_	_	_	_	_	bratT20=Quantity
-17	задержанным	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity
+17	задержанным	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity|bratT84=Person-property
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p3-s2
@@ -103,7 +103,7 @@
 7	подозревают	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	предоставлении	_	_	_	_	_	_	_	_
-10	террористу	_	_	_	_	_	_	_	bratT23=Other-group
+10	террористу	_	_	_	_	_	_	_	bratT23=Person-property
 11	информации	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
 13	преподавателе	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
@@ -115,8 +115,8 @@
 19	критиковавший	_	_	_	_	_	_	_	_
 20	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T27:Male|bratT27=Person|bratT61=Person-surname
 21	,	_	_	_	_	_	_	_	_
-22	исламистский	_	_	_	_	_	_	_	bratA9=T29:Male|bratT28=Religious-group|bratT29=Person
-23	активист	_	_	_	_	_	_	_	bratA9=T29:Male|bratT28=Religious-group|bratT29=Person
+22	исламистский	_	_	_	_	_	_	_	bratA22=T28:Adjective|bratA9=T29:Male|bratT28=Religious-group|bratT29=Person|bratT85=Person-property
+23	активист	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT85=Person-property
 24	Абдельхаким	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT63=Person-forename
 25	Сефриуи	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT64=Person-surname
 26	и	_	_	_	_	_	_	_	_
@@ -136,7 +136,7 @@
 # sent_id = 0030-p4-s1
 # text = Остальные задержанные по делу о теракте освобождены.
 1	Остальные	_	_	_	_	_	_	_	_
-2	задержанные	_	_	_	_	_	_	_	bratT31=Other-group
+2	задержанные	_	_	_	_	_	_	_	bratT31=Person-property
 3	по	_	_	_	_	_	_	_	_
 4	делу	_	_	_	_	_	_	_	bratT79=Event
 5	о	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 3	полиция	_	_	_	_	_	_	_	bratT32=Organization
 4	сообщила	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
-6	задержании	_	_	_	_	_	_	_	_
+6	задержании	_	_	_	_	_	_	_	bratT86=Event
 7	16	_	_	_	_	_	_	_	bratT33=Quantity
 8	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
 9	,	_	_	_	_	_	_	_	_
@@ -262,7 +262,7 @@
 1	Именно	_	_	_	_	_	_	_	_
 2	он	_	_	_	_	_	_	_	_
 3	указал	_	_	_	_	_	_	_	_
-4	преступнику	_	_	_	_	_	_	_	bratT47=Other-group
+4	преступнику	_	_	_	_	_	_	_	bratT47=Person-property
 5	на	_	_	_	_	_	_	_	_
 6	выходившего	_	_	_	_	_	_	_	_
 7	из	_	_	_	_	_	_	_	_

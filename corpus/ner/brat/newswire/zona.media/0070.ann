@@ -11,7 +11,7 @@ T8	GPE 158 168	Хабаровска
 T9	Money 189 208	25   тысяч   рублей
 T10	Person 211 255	местного   активиста   Владимира   Гретченко
 A3	Male T10
-T11	Person-property 222 231	активиста
+T11	Person-property 211 231	местного   активиста
 T12	Person-forename 234 243	Владимира
 T13	Person-surname 246 255	Гретченко
 T14	Law 289 321	часть   2   статьи   20.2   КоАП
@@ -92,3 +92,10 @@ A21	Department T50
 T71	Organization 424 427	ОВД
 A22	Department T71
 T72	Event 277 282	акции
+T73	Person 0 24	Хабаровского   активиста
+A23	Male T73
+T74	Event 705 730	проблемы   со   здоровьем
+T75	Event 759 769	задержании
+T76	Event 1008 1018	задержания
+T77	Event 1430 1440	задержания
+T78	Event 1649 1659	задержания

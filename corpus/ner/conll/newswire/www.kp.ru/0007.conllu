@@ -149,13 +149,13 @@
 10	еще	_	_	_	_	_	_	_	bratT20=Quantity
 11	20	_	_	_	_	_	_	_	bratT20=Quantity
 12	977	_	_	_	_	_	_	_	bratT20=Quantity
-13	случаев	_	_	_	_	_	_	_	bratT20=Quantity
-14	заражения	_	_	_	_	_	_	_	_
-15	коронавирусной	_	_	_	_	_	_	_	bratT26=Other-term
-16	инфекцией	_	_	_	_	_	_	_	bratT26=Other-term
+13	случаев	_	_	_	_	_	_	_	bratT20=Quantity|bratT51=Event
+14	заражения	_	_	_	_	_	_	_	bratT51=Event
+15	коронавирусной	_	_	_	_	_	_	_	bratT26=Other-term|bratT51=Event
+16	инфекцией	_	_	_	_	_	_	_	bratT26=Other-term|bratT51=Event
 17	во	_	_	_	_	_	_	_	_
-18	всех	_	_	_	_	_	_	_	_
-19	регионах	_	_	_	_	_	_	_	SpaceAfter=No
+18	всех	_	_	_	_	_	_	_	bratT52=GPE
+19	регионах	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=GPE
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0007-p4-s2

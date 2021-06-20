@@ -133,8 +133,8 @@
 3	и	_	_	_	_	_	_	_	bratA1=T35:Plural|bratT35=Organization
 4	России	_	_	_	_	_	_	_	bratA1=T35:Plural|bratT35=Organization|bratT37=GPE
 5	в	_	_	_	_	_	_	_	_
-6	последних	_	_	_	_	_	_	_	bratT103=Ordinal
-7	играх	_	_	_	_	_	_	_	_
+6	последних	_	_	_	_	_	_	_	bratT103=Ordinal|bratT122=Event
+7	играх	_	_	_	_	_	_	_	bratT122=Event
 8	по	_	_	_	_	_	_	_	bratT38=Quantity
 9	три	_	_	_	_	_	_	_	bratT38=Quantity
 10	раза	_	_	_	_	_	_	_	bratT38=Quantity
@@ -144,7 +144,7 @@
 14	потерпели	_	_	_	_	_	_	_	_
 15	по	_	_	_	_	_	_	_	bratT39=Quantity
 16	два	_	_	_	_	_	_	_	bratT39=Quantity
-17	поражения	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity
+17	поражения	_	_	_	_	_	_	_	SpaceAfter=No|bratT121=Event|bratT39=Quantity
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0087-p6
@@ -167,7 +167,7 @@
 # text = По количеству игр за национальную команду 37-летний защитник занимает пятое место, уступая только Сергею Игнашевичу (126 встреч), Игорю Акинфееву (110), Виктору Онопко (109) и Василию Березцкому (101).
 1	По	_	_	_	_	_	_	_	_
 2	количеству	_	_	_	_	_	_	_	_
-3	игр	_	_	_	_	_	_	_	_
+3	игр	_	_	_	_	_	_	_	bratT123=Event
 4	за	_	_	_	_	_	_	_	_
 5	национальную	_	_	_	_	_	_	_	bratA23=T116:Adjective|bratT116=GPE|bratT119=Organization
 6	команду	_	_	_	_	_	_	_	bratT119=Organization
@@ -186,7 +186,7 @@
 18	Игнашевичу	_	_	_	_	_	_	_	bratA10=T47:Male|bratT47=Person|bratT85=Person-surname
 19	(	_	_	_	_	_	_	_	SpaceAfter=No
 20	126	_	_	_	_	_	_	_	bratT48=Quantity
-21	встреч	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Quantity
+21	встреч	_	_	_	_	_	_	_	SpaceAfter=No|bratT124=Event|bratT48=Quantity
 22	)	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
 24	Игорю	_	_	_	_	_	_	_	bratA11=T49:Male|bratT49=Person|bratT86=Person-forename
@@ -226,16 +226,16 @@
 
 # sent_id = 0087-p7-s2
 # text = Нападающего ``Зенита'' исключили из числа приглашенных на ноябрьский сбор национальной команды футболистов после скандала с появлением в интернете интимного ролика с его участием.
-1	Нападающего	_	_	_	_	_	_	_	bratT59=Person-property
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Person-property|bratT60=Organization
-3	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Person-property|bratT60=Organization
-4	''	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Organization
+1	Нападающего	_	_	_	_	_	_	_	bratA25=T125:Male|bratT125=Person|bratT59=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T125:Male|bratT125=Person|bratT59=Person-property|bratT60=Organization
+3	Зенита	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T125:Male|bratT125=Person|bratT59=Person-property|bratT60=Organization
+4	''	_	_	_	_	_	_	_	bratA25=T125:Male|bratT125=Person|bratT59=Person-property|bratT60=Organization
 5	исключили	_	_	_	_	_	_	_	_
 6	из	_	_	_	_	_	_	_	_
 7	числа	_	_	_	_	_	_	_	_
 8	приглашенных	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	ноябрьский	_	_	_	_	_	_	_	bratT94=Date-absolute
+10	ноябрьский	_	_	_	_	_	_	_	bratT120=Event|bratT94=Date-absolute
 11	сбор	_	_	_	_	_	_	_	bratT120=Event
 12	национальной	_	_	_	_	_	_	_	bratA24=T117:Adjective|bratT117=GPE|bratT118=Organization
 13	команды	_	_	_	_	_	_	_	bratT118=Organization
@@ -267,14 +267,14 @@
 8	за	_	_	_	_	_	_	_	_
 9	перебор	_	_	_	_	_	_	_	_
 10	желтых	_	_	_	_	_	_	_	_
-11	защитники	_	_	_	_	_	_	_	bratT63=Person-property
-12	сборной	_	_	_	_	_	_	_	bratT63=Person-property|bratT68=Organization
-13	России	_	_	_	_	_	_	_	bratT63=Person-property|bratT68=Organization|bratT69=GPE
-14	Федор	_	_	_	_	_	_	_	bratA2=T64:Male|bratT64=Person|bratT95=Person-forename
-15	Кудряшов	_	_	_	_	_	_	_	bratA2=T64:Male|bratT64=Person|bratT96=Person-surname
-16	и	_	_	_	_	_	_	_	_
-17	Андрей	_	_	_	_	_	_	_	bratA15=T65:Male|bratT65=Person|bratT97=Person-forename
-18	Семенов	_	_	_	_	_	_	_	bratA15=T65:Male|bratT65=Person|bratT98=Person-surname
+11	защитники	_	_	_	_	_	_	_	bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person|bratT63=Person-property
+12	сборной	_	_	_	_	_	_	_	bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person|bratT63=Person-property|bratT68=Organization
+13	России	_	_	_	_	_	_	_	bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person|bratT63=Person-property|bratT68=Organization|bratT69=GPE
+14	Федор	_	_	_	_	_	_	_	bratA2=T64:Male|bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person|bratT64=Person|bratT95=Person-forename
+15	Кудряшов	_	_	_	_	_	_	_	bratA2=T64:Male|bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person|bratT64=Person|bratT96=Person-surname
+16	и	_	_	_	_	_	_	_	bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person
+17	Андрей	_	_	_	_	_	_	_	bratA15=T65:Male|bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person|bratT65=Person|bratT97=Person-forename
+18	Семенов	_	_	_	_	_	_	_	bratA15=T65:Male|bratA26=T126:Plural|bratA27=T126:Male|bratT126=Person|bratT65=Person|bratT98=Person-surname
 19	и	_	_	_	_	_	_	_	_
 20	хавбек	_	_	_	_	_	_	_	bratA16=T66:Male|bratT66=Person|bratT67=Person-property
 21	Роман	_	_	_	_	_	_	_	bratA16=T66:Male|bratT66=Person|bratT99=Person-forename

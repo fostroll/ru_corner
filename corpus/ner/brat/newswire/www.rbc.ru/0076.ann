@@ -18,7 +18,6 @@ T14	Family 244 247	Сын
 T15	Person 244 272	Сын   американского   лидера
 A4	Male T15
 T16	Other-term 326 336	COVID - 19
-T17	Service 313 336	теста   на   COVID - 19
 T18	Date-absolute 339 358	в   начале   недели
 A5	Past T18
 T19	Date-period-relative 365 378	с   тех   пор
@@ -41,7 +40,7 @@ T31	Person 654 674	его   жена   Мелания
 A10	Female T31
 T32	Person-property 679 699	Американский   лидер
 T33	GPE 760 776	штате   Мэриленд
-T34	Organization 734 776	военный   госпиталь   в   штате   Мэриленд
+T34	Organization 734 753	военный   госпиталь
 T35	Date-absolute 781 792	6   октября
 A11	Past T35
 T36	Person-property 795 805	президента
@@ -80,3 +79,12 @@ T57	Cardinal 334 336	19
 T60	Cardinal 463 465	19
 T61	Cardinal 618 620	19
 T62	Cardinal 1114 1116	19
+T63	Person 63 79	президента   США
+T17	Person 429 448	его   представителя
+T64	Person 679 699	Американский   лидер
+A21	Male T64
+T65	Person 795 805	президента
+T66	Person 1027 1040	первая   леди
+A22	Female T66
+T67	Person 205 238	представителя   Трампа - младшего
+T68	Event 398 410	самоизоляции

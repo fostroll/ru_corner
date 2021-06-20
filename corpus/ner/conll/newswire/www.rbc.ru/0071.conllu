@@ -8,8 +8,8 @@
 3	Казахстана	_	_	_	_	_	_	_	bratT1=GPE|bratT27=GPE
 4	произошел	_	_	_	_	_	_	_	_
 5	взрыв	_	_	_	_	_	_	_	bratT25=Event
-6	в	_	_	_	_	_	_	_	bratT25=Event
-7	кафе	_	_	_	_	_	_	_	bratT25=Event|bratT34=Facility
+6	в	_	_	_	_	_	_	_	_
+7	кафе	_	_	_	_	_	_	_	bratT34=Facility
 
 # newpar id = 0071-p2
 # par_text = В Нур-Султане в коттедже, который был переоборудован под кафе, взорвался газовый баллон. Об этом в Facebook сообщает столичный департамент по чрезвычайным ситуациям.
@@ -38,11 +38,11 @@
 3	в	_	_	_	_	_	_	_	_
 4	Facebook	_	_	_	_	_	_	_	bratT3=Service
 5	сообщает	_	_	_	_	_	_	_	_
-6	столичный	_	_	_	_	_	_	_	bratA4=T28:Adjective|bratT28=GPE
+6	столичный	_	_	_	_	_	_	_	bratA4=T28:Adjective|bratT28=GPE|bratT4=Organization
 7	департамент	_	_	_	_	_	_	_	bratT4=Organization
 8	по	_	_	_	_	_	_	_	bratT4=Organization
-9	чрезвычайным	_	_	_	_	_	_	_	bratT4=Organization
-10	ситуациям	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization
+9	чрезвычайным	_	_	_	_	_	_	_	bratT4=Organization|bratT45=Event
+10	ситуациям	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT45=Event
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0071-p3
@@ -77,8 +77,8 @@
 11	обрушилась	_	_	_	_	_	_	_	_
 12	кровля	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	кухонном	_	_	_	_	_	_	_	_
-15	помещении	_	_	_	_	_	_	_	SpaceAfter=No
+14	кухонном	_	_	_	_	_	_	_	bratT42=Facility
+15	помещении	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Facility
 16	,	_	_	_	_	_	_	_	_
 17	а	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
@@ -151,18 +151,18 @@
 3	пожара	_	_	_	_	_	_	_	bratT37=Event
 4	привлечены	_	_	_	_	_	_	_	_
 5	34	_	_	_	_	_	_	_	bratT17=Quantity
-6	спасателя	_	_	_	_	_	_	_	bratT17=Quantity
+6	спасателя	_	_	_	_	_	_	_	bratT17=Quantity|bratT43=Person-property
 7	и	_	_	_	_	_	_	_	_
 8	10	_	_	_	_	_	_	_	bratT18=Quantity
 9	единиц	_	_	_	_	_	_	_	bratT18=Quantity
-10	техники	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Quantity
+10	техники	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p5-s3
 # text = На месте происшествия развернут оперативный штаб, создана горячая линия, добавили в МЧС.
 1	На	_	_	_	_	_	_	_	_
 2	месте	_	_	_	_	_	_	_	_
-3	происшествия	_	_	_	_	_	_	_	_
+3	происшествия	_	_	_	_	_	_	_	bratT44=Event
 4	развернут	_	_	_	_	_	_	_	_
 5	оперативный	_	_	_	_	_	_	_	bratT41=Organization
 6	штаб	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization

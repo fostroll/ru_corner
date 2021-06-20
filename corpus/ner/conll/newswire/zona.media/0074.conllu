@@ -55,7 +55,7 @@
 # text = По версии следствия, молодой человек в 2017 году напал на бездомного Анатолия Палия, заподозрив его в избиении матери своей подруги.
 1	По	_	_	_	_	_	_	_	_
 2	версии	_	_	_	_	_	_	_	_
-3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	молодой	_	_	_	_	_	_	_	bratT16=Age
 6	человек	_	_	_	_	_	_	_	bratT16=Age
@@ -101,7 +101,7 @@
 9	что	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	bratA14=T50:Past|bratT50=Date-absolute
 11	день	_	_	_	_	_	_	_	bratA14=T50:Past|bratT50=Date-absolute
-12	задержания	_	_	_	_	_	_	_	bratA14=T50:Past|bratT50=Date-absolute
+12	задержания	_	_	_	_	_	_	_	bratA14=T50:Past|bratT50=Date-absolute|bratT65=Event
 13	оперативники	_	_	_	_	_	_	_	bratT25=Person-property
 14	избили	_	_	_	_	_	_	_	_
 15	его	_	_	_	_	_	_	_	_
@@ -136,7 +136,7 @@
 18	поменял	_	_	_	_	_	_	_	_
 19	статью	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	_
-21	убийство	_	_	_	_	_	_	_	_
+21	убийство	_	_	_	_	_	_	_	bratT64=Event
 22	(	_	_	_	_	_	_	_	SpaceAfter=No
 23	105	_	_	_	_	_	_	_	bratT47=Law|bratT54=Ordinal
 24	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Law|bratT55=Law
@@ -175,9 +175,9 @@
 6	третий	_	_	_	_	_	_	_	bratT36=Ordinal
 7	раз	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
-9	рассмотрение	_	_	_	_	_	_	_	_
-10	уголовного	_	_	_	_	_	_	_	bratT60=Event
-11	дела	_	_	_	_	_	_	_	bratT60=Event
+9	рассмотрение	_	_	_	_	_	_	_	bratT63=Event
+10	уголовного	_	_	_	_	_	_	_	bratT60=Event|bratT63=Event
+11	дела	_	_	_	_	_	_	_	bratT60=Event|bratT63=Event
 12	перенесли	_	_	_	_	_	_	_	_
 13	из	_	_	_	_	_	_	_	_
 14	Сакского	_	_	_	_	_	_	_	bratA12=T38:Adjective|bratT37=Organization|bratT38=GPE

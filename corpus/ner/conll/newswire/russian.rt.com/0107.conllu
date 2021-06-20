@@ -11,19 +11,19 @@
 6	более	_	_	_	_	_	_	_	bratT3=Quantity
 7	22	_	_	_	_	_	_	_	bratT3=Quantity
 8	тысяч	_	_	_	_	_	_	_	bratT3=Quantity
-9	случаев	_	_	_	_	_	_	_	bratT3=Quantity
-10	коронавируса	_	_	_	_	_	_	_	bratT4=Other-term
+9	случаев	_	_	_	_	_	_	_	bratT3=Quantity|bratT31=Event
+10	коронавируса	_	_	_	_	_	_	_	bratT31=Event|bratT4=Other-term
 
 # newpar id = 0107-p2
 # par_text = Число выявленных случаев заболевания коронавирусной инфекцией во Франции за сутки выросло на 22 882 и достигло 2 109 170.
 # sent_id = 0107-p2-s1
 # text = Число выявленных случаев заболевания коронавирусной инфекцией во Франции за сутки выросло на 22 882 и достигло 2 109 170.
 1	Число	_	_	_	_	_	_	_	_
-2	выявленных	_	_	_	_	_	_	_	_
-3	случаев	_	_	_	_	_	_	_	_
-4	заболевания	_	_	_	_	_	_	_	_
-5	коронавирусной	_	_	_	_	_	_	_	bratT15=Other-term
-6	инфекцией	_	_	_	_	_	_	_	bratT15=Other-term
+2	выявленных	_	_	_	_	_	_	_	bratT30=Event
+3	случаев	_	_	_	_	_	_	_	bratT30=Event
+4	заболевания	_	_	_	_	_	_	_	bratT30=Event
+5	коронавирусной	_	_	_	_	_	_	_	bratT15=Other-term|bratT30=Event
+6	инфекцией	_	_	_	_	_	_	_	bratT15=Other-term|bratT30=Event
 7	во	_	_	_	_	_	_	_	_
 8	Франции	_	_	_	_	_	_	_	bratT16=GPE
 9	за	_	_	_	_	_	_	_	bratA5=T24:Past-Pres|bratT24=Date-period-absolute

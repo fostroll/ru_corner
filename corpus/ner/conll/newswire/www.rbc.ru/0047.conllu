@@ -41,8 +41,8 @@
 14	ранее	_	_	_	_	_	_	_	bratA9=T57:Past|bratT57=Date-relative
 15	ни	_	_	_	_	_	_	_	bratT7=Quantity
 16	разу	_	_	_	_	_	_	_	bratT7=Quantity
-17	в	_	_	_	_	_	_	_	_
-18	истории	_	_	_	_	_	_	_	_
+17	в	_	_	_	_	_	_	_	bratA29=T82:Past-Pres|bratT82=Date-period-absolute
+18	истории	_	_	_	_	_	_	_	bratA29=T82:Past-Pres|bratT82=Date-period-absolute
 19	не	_	_	_	_	_	_	_	_
 20	пропускала	_	_	_	_	_	_	_	_
 21	четыре	_	_	_	_	_	_	_	bratT8=Quantity
@@ -128,8 +128,8 @@
 9	проводилась	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	рамках	_	_	_	_	_	_	_	_
-12	официального	_	_	_	_	_	_	_	_
-13	турнира	_	_	_	_	_	_	_	SpaceAfter=No
+12	официального	_	_	_	_	_	_	_	bratT80=Event
+13	турнира	_	_	_	_	_	_	_	SpaceAfter=No|bratT80=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p3-s2
@@ -143,10 +143,10 @@
 7	является	_	_	_	_	_	_	_	_
 8	самым	_	_	_	_	_	_	_	_
 9	разгромным	_	_	_	_	_	_	_	_
-10	в	_	_	_	_	_	_	_	_
-11	истории	_	_	_	_	_	_	_	_
-12	сборной	_	_	_	_	_	_	_	bratT31=Organization
-13	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE|bratT31=Organization
+10	в	_	_	_	_	_	_	_	bratA28=T81:Past-Pres|bratT81=Date-period-absolute
+11	истории	_	_	_	_	_	_	_	bratA28=T81:Past-Pres|bratT81=Date-period-absolute
+12	сборной	_	_	_	_	_	_	_	bratA28=T81:Past-Pres|bratT31=Organization|bratT81=Date-period-absolute
+13	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T81:Past-Pres|bratT30=GPE|bratT31=Organization|bratT81=Date-period-absolute
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p3-s3

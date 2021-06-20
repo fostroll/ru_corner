@@ -6,9 +6,9 @@
 1	Меня	_	_	_	_	_	_	_	bratA4=T2:Male|bratT2=Person|bratT40=Person-surname
 2	доставили	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	изолятор	_	_	_	_	_	_	_	_
+4	изолятор	_	_	_	_	_	_	_	bratT68=Facility
 5	после	_	_	_	_	_	_	_	bratA5=T41:Past|bratT41=Date-absolute
-6	допроса	_	_	_	_	_	_	_	bratA5=T41:Past|bratT41=Date-absolute
+6	допроса	_	_	_	_	_	_	_	bratA5=T41:Past|bratT41=Date-absolute|bratT67=Event
 
 # newpar id = 0079-p2
 # par_text = Аудитора Счетной палаты, бывшего губернатора Ивановской области Михаила Меня задержали в рамках расследования уголовного дела о растрате, сообщил источник РБК в ГУ МВД по Москве, а также «Интерфакс» со ссылкой на информированный источник. Его доставили в изолятор временного содержания при главном управлении.
@@ -27,9 +27,9 @@
 11	задержали	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	рамках	_	_	_	_	_	_	_	_
-14	расследования	_	_	_	_	_	_	_	_
-15	уголовного	_	_	_	_	_	_	_	bratT64=Event
-16	дела	_	_	_	_	_	_	_	bratT64=Event
+14	расследования	_	_	_	_	_	_	_	bratT71=Event
+15	уголовного	_	_	_	_	_	_	_	bratT64=Event|bratT71=Event
+16	дела	_	_	_	_	_	_	_	bratT64=Event|bratT71=Event
 17	о	_	_	_	_	_	_	_	_
 18	растрате	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
@@ -151,13 +151,13 @@
 8	Мень	_	_	_	_	_	_	_	bratA9=T22:Male|bratT22=Person|bratT46=Person-surname
 9	вместе	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
-11	бенефициарами	_	_	_	_	_	_	_	_
-12	компании	_	_	_	_	_	_	_	bratT23=Organization
-13	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT23=Organization
-14	Группа	_	_	_	_	_	_	_	bratT23=Organization
-15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
-16	Продо	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT23=Organization
-17	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT23=Organization
+11	бенефициарами	_	_	_	_	_	_	_	bratT69=Person-property|bratT70=Person
+12	компании	_	_	_	_	_	_	_	bratT23=Organization|bratT69=Person-property|bratT70=Person
+13	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT23=Organization|bratT69=Person-property|bratT70=Person
+14	Группа	_	_	_	_	_	_	_	bratT23=Organization|bratT69=Person-property|bratT70=Person
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT69=Person-property|bratT70=Person
+16	Продо	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT23=Organization|bratT69=Person-property|bratT70=Person
+17	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT23=Organization|bratT69=Person-property|bratT70=Person
 18	создал	_	_	_	_	_	_	_	_
 19	преступную	_	_	_	_	_	_	_	bratT65=Organization
 20	группу	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Organization

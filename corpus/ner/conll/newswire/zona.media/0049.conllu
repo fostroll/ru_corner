@@ -4,45 +4,51 @@
 # sent_id = 0049-p1-s1
 # text = ``Левада-центр'': больше половины россиян опасаются делать себе отечественную прививку от коронавируса
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
-2	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
-3	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
-4	:	_	_	_	_	_	_	_	_
-5	больше	_	_	_	_	_	_	_	bratT60=Percent
-6	половины	_	_	_	_	_	_	_	bratT60=Percent
-7	россиян	_	_	_	_	_	_	_	bratA1=T3:Citizenship|bratT3=Nationality
-8	опасаются	_	_	_	_	_	_	_	_
-9	делать	_	_	_	_	_	_	_	_
-10	себе	_	_	_	_	_	_	_	_
-11	отечественную	_	_	_	_	_	_	_	bratA15=T70:Adjective|bratT66=Product|bratT70=GPE
-12	прививку	_	_	_	_	_	_	_	bratT34=Other-term|bratT66=Product
-13	от	_	_	_	_	_	_	_	bratT66=Product
-14	коронавируса	_	_	_	_	_	_	_	bratT66=Product|bratT67=Other-term
+2-4	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No
+2	Левада	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT73=Person|bratT74=Person-surname
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+4	центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+5	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization
+6	:	_	_	_	_	_	_	_	_
+7	больше	_	_	_	_	_	_	_	bratT60=Percent
+8	половины	_	_	_	_	_	_	_	bratT60=Percent
+9	россиян	_	_	_	_	_	_	_	bratA1=T3:Citizenship|bratT3=Nationality
+10	опасаются	_	_	_	_	_	_	_	_
+11	делать	_	_	_	_	_	_	_	_
+12	себе	_	_	_	_	_	_	_	_
+13	отечественную	_	_	_	_	_	_	_	bratA15=T70:Adjective|bratT66=Product|bratT70=GPE
+14	прививку	_	_	_	_	_	_	_	bratT34=Other-term|bratT66=Product
+15	от	_	_	_	_	_	_	_	bratT66=Product
+16	коронавируса	_	_	_	_	_	_	_	bratT66=Product|bratT67=Other-term
 
 # newpar id = 0049-p2
 # par_text = «Левада-центр» совместно с «Открытыми медиа» провел опрос по поводу отношения россиян к отечественной вакцине от коронавируса. В результате 53,8% респондентов сказали, что не готовы ею воспользоваться из-за опасений.
 # sent_id = 0049-p2-s1
 # text = ``Левада-центр'' совместно с ``Открытыми медиа'' провел опрос по поводу отношения россиян к отечественной вакцине от коронавируса.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
-2	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
-3	''	_	_	_	_	_	_	_	bratT2=Organization
-4	совместно	_	_	_	_	_	_	_	_
-5	с	_	_	_	_	_	_	_	_
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT5=Organization
-7	Открытыми	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
-8	медиа	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT5=Organization
-9	''	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
-10	провел	_	_	_	_	_	_	_	_
-11	опрос	_	_	_	_	_	_	_	_
-12	по	_	_	_	_	_	_	_	_
-13	поводу	_	_	_	_	_	_	_	_
-14	отношения	_	_	_	_	_	_	_	_
-15	россиян	_	_	_	_	_	_	_	bratA3=T6:Citizenship|bratT6=Nationality
-16	к	_	_	_	_	_	_	_	_
-17	отечественной	_	_	_	_	_	_	_	bratA16=T71:Adjective|bratA17=T65:Trademark|bratT65=Product|bratT71=GPE
-18	вакцине	_	_	_	_	_	_	_	bratA17=T65:Trademark|bratT35=Other-term|bratT65=Product
-19	от	_	_	_	_	_	_	_	bratA17=T65:Trademark|bratT65=Product
-20	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T65:Trademark|bratT65=Product|bratT68=Other-term
-21	.	_	_	_	_	_	_	_	_
+2-4	Левада-центр	_	_	_	_	_	_	_	SpaceAfter=No
+2	Левада	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT75=Person|bratT76=Person-surname
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+4	центр	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+5	''	_	_	_	_	_	_	_	bratT2=Organization
+6	совместно	_	_	_	_	_	_	_	_
+7	с	_	_	_	_	_	_	_	_
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT5=Organization
+9	Открытыми	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
+10	медиа	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT5=Organization
+11	''	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
+12	провел	_	_	_	_	_	_	_	_
+13	опрос	_	_	_	_	_	_	_	_
+14	по	_	_	_	_	_	_	_	_
+15	поводу	_	_	_	_	_	_	_	_
+16	отношения	_	_	_	_	_	_	_	_
+17	россиян	_	_	_	_	_	_	_	bratA3=T6:Citizenship|bratT6=Nationality
+18	к	_	_	_	_	_	_	_	_
+19	отечественной	_	_	_	_	_	_	_	bratA16=T71:Adjective|bratA17=T65:Trademark|bratT65=Product|bratT71=GPE
+20	вакцине	_	_	_	_	_	_	_	bratA17=T65:Trademark|bratT35=Other-term|bratT65=Product
+21	от	_	_	_	_	_	_	_	bratA17=T65:Trademark|bratT65=Product
+22	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T65:Trademark|bratT65=Product|bratT68=Other-term
+23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0049-p2-s2
 # text = В результате 53,8% респондентов сказали, что не готовы ею воспользоваться из-за опасений.
@@ -207,11 +213,14 @@
 11	сказал	_	_	_	_	_	_	_	_
 12	замдиректора	_	_	_	_	_	_	_	bratA5=T23:Male|bratT23=Person|bratT24=Person-property
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person|bratT24=Person-property
-14	Левада-центра	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person|bratT24=Person-property|bratT25=Organization
-15	''	_	_	_	_	_	_	_	bratA5=T23:Male|bratT23=Person|bratT24=Person-property
-16	Денис	_	_	_	_	_	_	_	bratA5=T23:Male|bratT23=Person|bratT26=Person-forename
-17	Волков	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person|bratT27=Person-surname
-18	.	_	_	_	_	_	_	_	_
+14-16	Левада-центра	_	_	_	_	_	_	_	SpaceAfter=No
+14	Левада	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person|bratT24=Person-property|bratT25=Organization|bratT77=Person|bratT78=Person-surname
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person|bratT24=Person-property|bratT25=Organization
+16	центра	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person|bratT24=Person-property|bratT25=Organization
+17	''	_	_	_	_	_	_	_	bratA5=T23:Male|bratT23=Person|bratT24=Person-property
+18	Денис	_	_	_	_	_	_	_	bratA5=T23:Male|bratT23=Person|bratT26=Person-forename
+19	Волков	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T23:Male|bratT23=Person|bratT27=Person-surname
+20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0049-p6
 # par_text = 11 августа президент Владимир Путин объявил, что в России зарегистрировали первую в мире вакцину от коронавируса. Вакцину разрабатывал центра эпидемиологии и микробиологии имени Гамалеи. Ассоциация организаций по клиническим исследованиям, куда входят крупнейшие фармкомпании, призывала Минздрав отложить регистрацию, поскольку в центре «не завершили тестирование с участием даже сотен человек». При этом, подчеркивал президент, его дочь успешно прошла испытания вакцины.

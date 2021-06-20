@@ -44,9 +44,9 @@
 17	из	_	_	_	_	_	_	_	_
 18	колонии	_	_	_	_	_	_	_	bratT28=Organization
 19	из-за	_	_	_	_	_	_	_	_
-20	проблем	_	_	_	_	_	_	_	_
-21	со	_	_	_	_	_	_	_	_
-22	здоровьем	_	_	_	_	_	_	_	SpaceAfter=No
+20	проблем	_	_	_	_	_	_	_	bratT53=Event
+21	со	_	_	_	_	_	_	_	bratT53=Event
+22	здоровьем	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Event
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0100-p2-s2
@@ -169,7 +169,7 @@
 # text = По версии следствия, в 2011-2014 Белойван поручил работникам восьми ресторанов сети не пробивать чеки и не принимать банковские карты.
 1	По	_	_	_	_	_	_	_	_
 2	версии	_	_	_	_	_	_	_	_
-3	следствия	_	_	_	_	_	_	_	SpaceAfter=No
+3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA13=T20:Past|bratT20=Date-period-absolute
 6-8	2011	_	_	_	_	_	_	_	_
@@ -179,9 +179,9 @@
 9	Белойван	_	_	_	_	_	_	_	bratA6=T21:Male|bratT21=Person|bratT22=Person-surname
 10	поручил	_	_	_	_	_	_	_	_
 11	работникам	_	_	_	_	_	_	_	bratT23=Person-property
-12	восьми	_	_	_	_	_	_	_	bratT24=Quantity
-13	ресторанов	_	_	_	_	_	_	_	bratT24=Quantity
-14	сети	_	_	_	_	_	_	_	_
+12	восьми	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Quantity
+13	ресторанов	_	_	_	_	_	_	_	bratT23=Person-property|bratT24=Quantity|bratT52=Organization
+14	сети	_	_	_	_	_	_	_	bratT23=Person-property|bratT51=Organization|bratT52=Organization
 15	не	_	_	_	_	_	_	_	_
 16	пробивать	_	_	_	_	_	_	_	_
 17	чеки	_	_	_	_	_	_	_	_
