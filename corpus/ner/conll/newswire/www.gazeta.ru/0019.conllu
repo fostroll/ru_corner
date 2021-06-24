@@ -33,16 +33,16 @@
 # par_text = Легенда мирового футбола умер от сердечного приступа в собственном доме в Буэнос-Айресе 25 ноября.
 # sent_id = 0019-p3-s1
 # text = Легенда мирового футбола умер от сердечного приступа в собственном доме в Буэнос-Айресе 25 ноября.
-1	Легенда	_	_	_	_	_	_	_	bratT8=Person-property
-2	мирового	_	_	_	_	_	_	_	bratA11=T30:Adjective|bratT30=GPE|bratT8=Person-property
-3	футбола	_	_	_	_	_	_	_	bratT8=Person-property
+1	Легенда	_	_	_	_	_	_	_	bratA12=T33:Male|bratT33=Person|bratT8=Person-property
+2	мирового	_	_	_	_	_	_	_	bratA11=T30:Adjective|bratA12=T33:Male|bratT30=GPE|bratT33=Person|bratT8=Person-property
+3	футбола	_	_	_	_	_	_	_	bratA12=T33:Male|bratT33=Person|bratT8=Person-property
 4	умер	_	_	_	_	_	_	_	_
 5	от	_	_	_	_	_	_	_	_
 6	сердечного	_	_	_	_	_	_	_	bratT11=Other-term
 7	приступа	_	_	_	_	_	_	_	bratT11=Other-term
 8	в	_	_	_	_	_	_	_	_
 9	собственном	_	_	_	_	_	_	_	_
-10	доме	_	_	_	_	_	_	_	_
+10	доме	_	_	_	_	_	_	_	bratT32=Facility
 11	в	_	_	_	_	_	_	_	_
 12	Буэнос-Айресе	_	_	_	_	_	_	_	bratT9=GPE
 13	25	_	_	_	_	_	_	_	bratA3=T10:Past|bratT10=Date-absolute

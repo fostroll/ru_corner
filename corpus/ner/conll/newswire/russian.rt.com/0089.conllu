@@ -30,7 +30,7 @@
 7	по	_	_	_	_	_	_	_	_
 8	борьбе	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
-10	распространением	_	_	_	_	_	_	_	_
+10	распространением	_	_	_	_	_	_	_	bratT40=Event
 11	коронавирусной	_	_	_	_	_	_	_	bratT18=Other-term
 12	инфекции	_	_	_	_	_	_	_	bratT18=Other-term
 13-15	COVID-19	_	_	_	_	_	_	_	_
@@ -57,11 +57,11 @@
 # sent_id = 0089-p3-s1
 # text = ``Ограничительные мероприятия в условиях распространения коронавирусной инфекции в субъектах России в подавляющем большинстве субъектов уже приняты...
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Ограничительные	_	_	_	_	_	_	_	_
+2	Ограничительные	_	_	_	_	_	_	_	bratT37=Event
 3	мероприятия	_	_	_	_	_	_	_	bratT37=Event
 4	в	_	_	_	_	_	_	_	_
 5	условиях	_	_	_	_	_	_	_	_
-6	распространения	_	_	_	_	_	_	_	_
+6	распространения	_	_	_	_	_	_	_	bratT41=Event
 7	коронавирусной	_	_	_	_	_	_	_	bratT4=Other-term
 8	инфекции	_	_	_	_	_	_	_	bratT4=Other-term
 9	в	_	_	_	_	_	_	_	_
@@ -97,7 +97,7 @@
 18	сказала	_	_	_	_	_	_	_	_
 19	она	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	_
-21	заседании	_	_	_	_	_	_	_	_
+21	заседании	_	_	_	_	_	_	_	bratT38=Event
 22	координационного	_	_	_	_	_	_	_	bratT22=Organization
 23	совета	_	_	_	_	_	_	_	bratT22=Organization
 24	по	_	_	_	_	_	_	_	bratT22=Organization
@@ -112,7 +112,7 @@
 # text = В ходе заседания российский премьер Михаил Мишустин призвал регионы активнее использовать опыт Москвы в борьбе с COVID-19.
 1	В	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
 2	ходе	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
-3	заседания	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute
+3	заседания	_	_	_	_	_	_	_	bratA3=T17:Past|bratT17=Date-absolute|bratT39=Event
 4	российский	_	_	_	_	_	_	_	bratA6=T26:Adjective|bratA7=T8:Male|bratT26=GPE|bratT7=Person-property|bratT8=Person
 5	премьер	_	_	_	_	_	_	_	bratA7=T8:Male|bratT7=Person-property|bratT8=Person
 6	Михаил	_	_	_	_	_	_	_	bratA7=T8:Male|bratT27=Person-forename|bratT8=Person

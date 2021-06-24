@@ -9,17 +9,17 @@
 4	Роберт	_	_	_	_	_	_	_	bratA1=T4:Male|bratT2=Person-forename|bratT4=Person
 5	Паттинсон	_	_	_	_	_	_	_	bratA1=T4:Male|bratT3=Person-surname|bratT4=Person
 6	в	_	_	_	_	_	_	_	_
-7	образе	_	_	_	_	_	_	_	_
-8	Бэтмена	_	_	_	_	_	_	_	bratA2=T6:Fiction|bratA4=T6:Male|bratT5=Person-alias|bratT6=Person
+7	образе	_	_	_	_	_	_	_	bratT72=Person-property
+8	Бэтмена	_	_	_	_	_	_	_	bratA2=T6:Fiction|bratA4=T6:Male|bratT5=Person-alias|bratT6=Person|bratT72=Person-property
 9	и	_	_	_	_	_	_	_	_
 10	Зои	_	_	_	_	_	_	_	bratA3=T9:Female|bratT7=Person-forename|bratT9=Person
 11	Кравиц	_	_	_	_	_	_	_	bratA3=T9:Female|bratT8=Person-surname|bratT9=Person
 12	в	_	_	_	_	_	_	_	_
-13	роли	_	_	_	_	_	_	_	_
+13	роли	_	_	_	_	_	_	_	bratT73=Person-property
 14-16	Женщины-кошки	_	_	_	_	_	_	_	_
-14	Женщины	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T11:Fiction|bratA6=T11:Female|bratT10=Person-alias|bratT11=Person
-15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T11:Fiction|bratA6=T11:Female|bratT10=Person-alias|bratT11=Person
-16	кошки	_	_	_	_	_	_	_	bratA5=T11:Fiction|bratA6=T11:Female|bratT10=Person-alias|bratT11=Person
+14	Женщины	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T11:Fiction|bratA6=T11:Female|bratT10=Person-alias|bratT11=Person|bratT73=Person-property
+15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T11:Fiction|bratA6=T11:Female|bratT10=Person-alias|bratT11=Person|bratT73=Person-property
+16	кошки	_	_	_	_	_	_	_	bratA5=T11:Fiction|bratA6=T11:Female|bratT10=Person-alias|bratT11=Person|bratT73=Person-property
 
 # newpar id = 0072-p2
 # par_text = Во время онлайн-конференции DC Fandome студия Warner Bros. представила первый тизер «Бэтмена» с Робертом Паттинсоном в главной роли. В нем также мелькнули Зои Кравиц в роли Женщины-кошки, комиссар Гордон в исполнении Джеффри Райта и Пингвин — совершенно неузнаваемый Колин Фаррелл.
@@ -46,8 +46,8 @@
 18	Робертом	_	_	_	_	_	_	_	bratA8=T20:Male|bratT18=Person-forename|bratT20=Person
 19	Паттинсоном	_	_	_	_	_	_	_	bratA8=T20:Male|bratT19=Person-surname|bratT20=Person
 20	в	_	_	_	_	_	_	_	_
-21	главной	_	_	_	_	_	_	_	_
-22	роли	_	_	_	_	_	_	_	SpaceAfter=No
+21	главной	_	_	_	_	_	_	_	bratT71=Person-property
+22	роли	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Person-property
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0072-p2-s2
@@ -59,11 +59,11 @@
 5	Зои	_	_	_	_	_	_	_	bratA9=T23:Female|bratT21=Person-forename|bratT23=Person
 6	Кравиц	_	_	_	_	_	_	_	bratA9=T23:Female|bratT22=Person-surname|bratT23=Person
 7	в	_	_	_	_	_	_	_	_
-8	роли	_	_	_	_	_	_	_	_
+8	роли	_	_	_	_	_	_	_	bratT69=Person-property
 9-11	Женщины-кошки	_	_	_	_	_	_	_	SpaceAfter=No
-9	Женщины	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T25:Fiction|bratA11=T25:Female|bratT24=Person-alias|bratT25=Person
-10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T25:Fiction|bratA11=T25:Female|bratT24=Person-alias|bratT25=Person
-11	кошки	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T25:Fiction|bratA11=T25:Female|bratT24=Person-alias|bratT25=Person
+9	Женщины	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T25:Fiction|bratA11=T25:Female|bratT24=Person-alias|bratT25=Person|bratT69=Person-property
+10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T25:Fiction|bratA11=T25:Female|bratT24=Person-alias|bratT25=Person|bratT69=Person-property
+11	кошки	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T25:Fiction|bratA11=T25:Female|bratT24=Person-alias|bratT25=Person|bratT69=Person-property
 12	,	_	_	_	_	_	_	_	_
 13	комиссар	_	_	_	_	_	_	_	bratA12=T28:Fiction|bratA13=T28:Male|bratT27=Person-property|bratT28=Person
 14	Гордон	_	_	_	_	_	_	_	bratA12=T28:Fiction|bratA13=T28:Male|bratT26=Person-surname|bratT28=Person
@@ -110,12 +110,12 @@
 7	картина	_	_	_	_	_	_	_	_
 8	расскажет	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
-10	событиях	_	_	_	_	_	_	_	_
+10	событиях	_	_	_	_	_	_	_	bratT66=Event
 11	спустя	_	_	_	_	_	_	_	bratT45=Date-period-relative
 12	два	_	_	_	_	_	_	_	bratT45=Date-period-relative|bratT46=Duration
 13	года	_	_	_	_	_	_	_	bratT45=Date-period-relative|bratT46=Duration
 14	после	_	_	_	_	_	_	_	bratT45=Date-period-relative
-15	начала	_	_	_	_	_	_	_	bratT45=Date-period-relative
+15	начала	_	_	_	_	_	_	_	bratT45=Date-period-relative|bratT74=Event
 16	супергеройской	_	_	_	_	_	_	_	_
 17	карьеры	_	_	_	_	_	_	_	_
 18	Брюса	_	_	_	_	_	_	_	bratA19=T44:Fiction|bratA20=T44:Male|bratT42=Person-forename|bratT44=Person
@@ -152,7 +152,7 @@
 
 # sent_id = 0072-p3-s4
 # text = Премьера фильма запланирована на сентябрь 2021 года.
-1	Премьера	_	_	_	_	_	_	_	_
+1	Премьера	_	_	_	_	_	_	_	bratT75=Event
 2	фильма	_	_	_	_	_	_	_	_
 3	запланирована	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	bratA25=T56:Future|bratT56=Date-absolute
@@ -192,7 +192,7 @@
 25	,	_	_	_	_	_	_	_	_
 26	однако	_	_	_	_	_	_	_	_
 27	дата	_	_	_	_	_	_	_	_
-28	премьеры	_	_	_	_	_	_	_	_
+28	премьеры	_	_	_	_	_	_	_	bratT76=Event
 29	и	_	_	_	_	_	_	_	_
 30	список	_	_	_	_	_	_	_	_
 31	серий	_	_	_	_	_	_	_	_

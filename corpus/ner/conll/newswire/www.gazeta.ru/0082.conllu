@@ -8,9 +8,9 @@
 3	сократить	_	_	_	_	_	_	_	_
 4	время	_	_	_	_	_	_	_	_
 5	ожидания	_	_	_	_	_	_	_	_
-6	ответа	_	_	_	_	_	_	_	_
+6	ответа	_	_	_	_	_	_	_	bratT13=Event
 7	на	_	_	_	_	_	_	_	_
-8	звонок	_	_	_	_	_	_	_	_
+8	звонок	_	_	_	_	_	_	_	bratT28=Event
 9	в	_	_	_	_	_	_	_	_
 10	скорую	_	_	_	_	_	_	_	bratT6=Service
 
@@ -40,9 +40,9 @@
 20	сократить	_	_	_	_	_	_	_	_
 21	время	_	_	_	_	_	_	_	_
 22	ожидания	_	_	_	_	_	_	_	_
-23	ответа	_	_	_	_	_	_	_	_
+23	ответа	_	_	_	_	_	_	_	bratT30=Event
 24	на	_	_	_	_	_	_	_	_
-25	звонок	_	_	_	_	_	_	_	_
+25	звонок	_	_	_	_	_	_	_	bratT29=Event
 26	в	_	_	_	_	_	_	_	_
 27	скорую	_	_	_	_	_	_	_	bratT7=Service
 28	помощь	_	_	_	_	_	_	_	bratT7=Service
@@ -115,9 +115,9 @@
 10	с	_	_	_	_	_	_	_	_
 11	длительным	_	_	_	_	_	_	_	_
 12	ожиданием	_	_	_	_	_	_	_	_
-13	ответа	_	_	_	_	_	_	_	_
+13	ответа	_	_	_	_	_	_	_	bratT31=Event
 14	на	_	_	_	_	_	_	_	_
-15	звонки	_	_	_	_	_	_	_	_
+15	звонки	_	_	_	_	_	_	_	bratT32=Event
 16	в	_	_	_	_	_	_	_	_
 17	скорую	_	_	_	_	_	_	_	bratT14=Service
 18	помощь	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Service
@@ -158,9 +158,9 @@
 5	усилить	_	_	_	_	_	_	_	_
 6	работу	_	_	_	_	_	_	_	_
 7-9	call-центров	_	_	_	_	_	_	_	SpaceAfter=No
-7	call	_	_	_	_	_	_	_	SpaceAfter=Yes
-8	-	_	_	_	_	_	_	_	SpaceAfter=Yes
-9	центров	_	_	_	_	_	_	_	SpaceAfter=No
+7	call	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT33=Organization
+8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT33=Organization
+9	центров	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Organization
 10	,	_	_	_	_	_	_	_	_
 11	чтобы	_	_	_	_	_	_	_	_
 12	каждый	_	_	_	_	_	_	_	_
@@ -188,8 +188,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	коронавирусом	_	_	_	_	_	_	_	bratT18=Other-term
 6	с	_	_	_	_	_	_	_	bratA2=T22:Past-Pres|bratT22=Date-period-absolute
-7	начала	_	_	_	_	_	_	_	bratA2=T22:Past-Pres|bratT22=Date-period-absolute
-8	пандемии	_	_	_	_	_	_	_	bratA2=T22:Past-Pres|bratT16=Event|bratT22=Date-period-absolute
+7	начала	_	_	_	_	_	_	_	bratA2=T22:Past-Pres|bratT16=Event|bratT22=Date-period-absolute
+8	пандемии	_	_	_	_	_	_	_	bratA2=T22:Past-Pres|bratT16=Event|bratT22=Date-period-absolute|bratT34=Event
 9	в	_	_	_	_	_	_	_	_
 10	России	_	_	_	_	_	_	_	bratT19=GPE
 11	заразились	_	_	_	_	_	_	_	_

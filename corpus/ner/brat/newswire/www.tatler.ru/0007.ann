@@ -8,7 +8,6 @@ T7	Person-property 177 213	первая   леди   Соединенных   Ш
 T8	GPE 193 213	Соединенных   Штатов
 T9	Ordinal 177 183	первая
 T10	Age 279 290	13 - летним
-T11	Person 293 301	Бэрроном
 T12	Person-property 331 341	президента
 T13	Family 324 328	жена
 T14	Family 386 393	матерей
@@ -31,7 +30,6 @@ T28	Family 113 119	матери
 A3	Female T6
 T29	Person-forename 216 223	Мелания
 T30	Person-surname 226 231	Трамп
-A4	Male T11
 T31	Person-forename 293 301	Бэрроном
 T32	Person-forename 459 466	Дональд
 T33	Person-forename 473 480	Мелания
@@ -46,14 +44,14 @@ A8	Female T38
 T39	Facility 441 454	Белого   дома
 T40	Person 459 466	Дональд
 A9	Male T40
-T41	Person 473 488	Мелания   Трамп
+T41	Person 473 480	Мелания
 A10	Female T41
 T42	Family 754 759	детей
 T43	Person 982 1016	супруга   45-го   президента   США
 A11	Female T43
 T45	Date-relative 1164 1169	ранее
 A13	Past T45
-T46	Person 259 272	своим   сыном
+T46	Person 259 301	своим   сыном   ,   13 - летним   Бэрроном
 A14	Male T46
 T47	Date-absolute 396 415	во   время   приема
 A15	Past T47
@@ -66,3 +64,13 @@ T52	Family 648 654	матери
 T54	GPE 935 939	мире
 A6	Future T4
 T44	GPE 922 928	страны
+T11	Person 331 341	президента
+A4	Male T11
+T53	Event 597 615	официальную   речь
+T55	Person-property 657 664	военные
+T56	Person 992 1016	45-го   президента   США
+A12	Male T56
+T57	Event 956 979	торжественного   повода
+T58	Event 722 730	праздник
+T59	Event 91 99	праздник
+T60	Event 631 638	события

@@ -17,9 +17,9 @@
 3	-	_	_	_	_	_	_	_	_
 4	один	_	_	_	_	_	_	_	bratT8=Quantity
 5	из	_	_	_	_	_	_	_	bratT8=Quantity
-6	чемпионов	_	_	_	_	_	_	_	bratT9=Other-group
-7	по	_	_	_	_	_	_	_	bratT9=Other-group
-8	конспирологии	_	_	_	_	_	_	_	bratT9=Other-group
+6	чемпионов	_	_	_	_	_	_	_	_
+7	по	_	_	_	_	_	_	_	_
+8	конспирологии	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	западном	_	_	_	_	_	_	_	bratA14=T10:Adjective|bratT10=GPE
 11	шоу-бизнесе	_	_	_	_	_	_	_	SpaceAfter=No
@@ -31,7 +31,7 @@
 2	том	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	музыкант	_	_	_	_	_	_	_	bratT11=Person-property
+5	музыкант	_	_	_	_	_	_	_	bratA17=T51:Male|bratT11=Person-property|bratT51=Person
 6	и	_	_	_	_	_	_	_	_
 7	его	_	_	_	_	_	_	_	bratA3=T15:Female|bratT15=Person
 8	супруга	_	_	_	_	_	_	_	bratA3=T15:Female|bratT12=Family|bratT15=Person
@@ -53,10 +53,10 @@
 24	пора	_	_	_	_	_	_	_	_
 25	поздравлять	_	_	_	_	_	_	_	_
 26	молодых	_	_	_	_	_	_	_	bratT46=Age
-27	родителей	_	_	_	_	_	_	_	bratT19=Family
+27	родителей	_	_	_	_	_	_	_	bratT19=Family|bratT9=Person
 28	с	_	_	_	_	_	_	_	_
 29	большим	_	_	_	_	_	_	_	_
-30	событием	_	_	_	_	_	_	_	_
+30	событием	_	_	_	_	_	_	_	bratT50=Event
 31	в	_	_	_	_	_	_	_	_
 32	их	_	_	_	_	_	_	_	_
 33	жизни	_	_	_	_	_	_	_	SpaceAfter=No
@@ -78,8 +78,8 @@
 12	объявил	_	_	_	_	_	_	_	_
 13	о	_	_	_	_	_	_	_	_
 14	рождении	_	_	_	_	_	_	_	bratT48=Event
-15	дочери	_	_	_	_	_	_	_	bratT24=Family
-16	-	_	_	_	_	_	_	_	_
+15	дочери	_	_	_	_	_	_	_	bratT24=Family|bratT26=Person
+16	-	_	_	_	_	_	_	_	bratT26=Person
 17	Лиры	_	_	_	_	_	_	_	bratT25=Person-forename|bratT26=Person
 18	Антарктики	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-forename|bratT26=Person
 19	.	_	_	_	_	_	_	_	_
@@ -107,9 +107,9 @@
 
 # sent_id = 0106-p2-s6
 # text = Мама и малышка чувствуют себя прекрасно, и все мы на седьмом небе от счастья.
-1	Мама	_	_	_	_	_	_	_	bratT29=Family
+1	Мама	_	_	_	_	_	_	_	bratA19=T53:Female|bratT29=Family|bratT53=Person
 2	и	_	_	_	_	_	_	_	_
-3	малышка	_	_	_	_	_	_	_	bratT30=Family
+3	малышка	_	_	_	_	_	_	_	bratA18=T52:Female|bratT30=Age|bratT52=Person
 4	чувствуют	_	_	_	_	_	_	_	_
 5	себя	_	_	_	_	_	_	_	_
 6	прекрасно	_	_	_	_	_	_	_	SpaceAfter=No
@@ -152,8 +152,8 @@
 1	Скорое	_	_	_	_	_	_	_	_
 2	пополнение	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	семье	_	_	_	_	_	_	_	bratT34=Family
-5	музыкант	_	_	_	_	_	_	_	bratT35=Person-property
+4	семье	_	_	_	_	_	_	_	bratT34=Family|bratT55=Person
+5	музыкант	_	_	_	_	_	_	_	bratA20=T54:Male|bratT35=Person-property|bratT54=Person
 6	и	_	_	_	_	_	_	_	_
 7	его	_	_	_	_	_	_	_	bratA10=T37:Female|bratT37=Person
 8	супруга	_	_	_	_	_	_	_	bratA10=T37:Female|bratT36=Family|bratT37=Person
@@ -177,23 +177,23 @@
 3	что	_	_	_	_	_	_	_	_
 4	незадолго	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-period-absolute
 5	до	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-period-absolute
-6	родов	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-period-absolute
+6	родов	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-period-absolute|bratT49=Event
 7	Черри	_	_	_	_	_	_	_	bratA12=T40:Female|bratT39=Person-forename|bratT40=Person
 8	Эд	_	_	_	_	_	_	_	bratA13=T42:Male|bratT41=Person-forename|bratT42=Person
 9	занимался	_	_	_	_	_	_	_	_
 10	приготовлениями	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
 12	своем	_	_	_	_	_	_	_	_
-13	поместье	_	_	_	_	_	_	_	_
+13	поместье	_	_	_	_	_	_	_	bratT56=Facility
 14	в	_	_	_	_	_	_	_	_
 15	Великобритании	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=GPE
 16	,	_	_	_	_	_	_	_	_
 17	которое	_	_	_	_	_	_	_	_
 18	местные	_	_	_	_	_	_	_	bratA15=T45:Resident|bratT45=Nationality
 19	называют	_	_	_	_	_	_	_	_
-20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Facility
+20	``	_	_	_	_	_	_	_	SpaceAfter=No
 21	Ширанвилль	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Facility
-22	''	_	_	_	_	_	_	_	bratT44=Facility
+22	''	_	_	_	_	_	_	_	_
 23	из-за	_	_	_	_	_	_	_	_
 24	стабильно	_	_	_	_	_	_	_	_
 25	растущего	_	_	_	_	_	_	_	_

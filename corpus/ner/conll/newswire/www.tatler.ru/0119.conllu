@@ -29,9 +29,9 @@
 13	Хьюстон	_	_	_	_	_	_	_	bratA3=T5:Female|bratT5=Person|bratT7=Person-surname
 14	записала	_	_	_	_	_	_	_	_
 15	кавер-версию	_	_	_	_	_	_	_	_
-16	песни	_	_	_	_	_	_	_	_
-17	Стива	_	_	_	_	_	_	_	bratA4=T8:Male|bratT8=Person|bratT9=Person-forename
-18	Уинвуда	_	_	_	_	_	_	_	bratA4=T8:Male|bratT10=Person-surname|bratT8=Person
+16	песни	_	_	_	_	_	_	_	bratT11=Work-of-art
+17	Стива	_	_	_	_	_	_	_	bratA4=T8:Male|bratT11=Work-of-art|bratT8=Person|bratT9=Person-forename
+18	Уинвуда	_	_	_	_	_	_	_	bratA4=T8:Male|bratT10=Person-surname|bratT11=Work-of-art|bratT8=Person
 19	Higher	_	_	_	_	_	_	_	bratT11=Work-of-art
 20	Love	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
 21	.	_	_	_	_	_	_	_	_
@@ -45,7 +45,7 @@
 5	в	_	_	_	_	_	_	_	_
 6	третий	_	_	_	_	_	_	_	bratT12=Ordinal
 7	альбом	_	_	_	_	_	_	_	_
-8	певицы	_	_	_	_	_	_	_	bratT14=Person-property
+8	певицы	_	_	_	_	_	_	_	bratA12=T44:Female|bratT14=Person-property|bratT44=Person
 9	I	_	_	_	_	_	_	_	bratT13=Work-of-art
 10	'm	_	_	_	_	_	_	_	bratT13=Work-of-art
 11	Your	_	_	_	_	_	_	_	bratT13=Work-of-art
@@ -95,10 +95,10 @@
 # text = И вот по прошествии многих лет продюсер Хьюстон Клайв Дэвис решил, что мир должен услышать ранее неизвестную запись.
 1	И	_	_	_	_	_	_	_	_
 2	вот	_	_	_	_	_	_	_	_
-3	по	_	_	_	_	_	_	_	_
-4	прошествии	_	_	_	_	_	_	_	_
-5	многих	_	_	_	_	_	_	_	_
-6	лет	_	_	_	_	_	_	_	_
+3	по	_	_	_	_	_	_	_	bratA19=T49:Past|bratT49=Date-relative
+4	прошествии	_	_	_	_	_	_	_	bratA19=T49:Past|bratT49=Date-relative
+5	многих	_	_	_	_	_	_	_	bratA19=T49:Past|bratT48=Duration|bratT49=Date-relative
+6	лет	_	_	_	_	_	_	_	bratA19=T49:Past|bratT48=Duration|bratT49=Date-relative
 7	продюсер	_	_	_	_	_	_	_	bratA6=T18:Male|bratT18=Person|bratT19=Person-property
 8	Хьюстон	_	_	_	_	_	_	_	bratA6=T18:Male|bratA7=T20:Female|bratT18=Person|bratT19=Person-property|bratT20=Person|bratT21=Person-surname
 9	Клайв	_	_	_	_	_	_	_	bratA6=T18:Male|bratT18=Person|bratT22=Person-forename
@@ -127,7 +127,7 @@
 9	виде	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
 11	доверил	_	_	_	_	_	_	_	_
-12	модному	_	_	_	_	_	_	_	_
+12	модному	_	_	_	_	_	_	_	bratA8=T25:Male|bratT25=Person|bratT26=Person-property
 13	норвежскому	_	_	_	_	_	_	_	bratA14=T37:Adjective|bratA8=T25:Male|bratT25=Person|bratT26=Person-property|bratT37=GPE
 14	диджею	_	_	_	_	_	_	_	bratA8=T25:Male|bratT25=Person|bratT26=Person-property
 15	Kygo	_	_	_	_	_	_	_	bratA8=T25:Male|bratT25=Person|bratT27=Person-alias
@@ -145,12 +145,12 @@
 # par_text = Релиз состоялся на всех электронных платформах 28 июня.
 # sent_id = 0119-p3-s1
 # text = Релиз состоялся на всех электронных платформах 28 июня.
-1	Релиз	_	_	_	_	_	_	_	_
+1	Релиз	_	_	_	_	_	_	_	bratT45=Event
 2	состоялся	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	всех	_	_	_	_	_	_	_	_
-5	электронных	_	_	_	_	_	_	_	_
-6	платформах	_	_	_	_	_	_	_	_
+5	электронных	_	_	_	_	_	_	_	bratT50=Service
+6	платформах	_	_	_	_	_	_	_	bratT50=Service
 7	28	_	_	_	_	_	_	_	bratA9=T28:Past|bratT28=Date-absolute
 8	июня	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T28:Past|bratT28=Date-absolute
 9	.	_	_	_	_	_	_	_	_
@@ -163,15 +163,15 @@
 2	в	_	_	_	_	_	_	_	bratA15=T38:Past|bratT38=Date-absolute
 3	этом	_	_	_	_	_	_	_	bratA15=T38:Past|bratT38=Date-absolute|bratT40=Ordinal
 4	году	_	_	_	_	_	_	_	bratA15=T38:Past|bratT38=Date-absolute
-5	менеджмент	_	_	_	_	_	_	_	_
-6	певицы	_	_	_	_	_	_	_	bratT29=Person-property
+5	менеджмент	_	_	_	_	_	_	_	bratA18=T47:Department|bratT47=Organization
+6	певицы	_	_	_	_	_	_	_	bratA17=T46:Female|bratA18=T47:Department|bratT29=Person-property|bratT46=Person|bratT47=Organization
 7	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
 10	планирует	_	_	_	_	_	_	_	_
 11	отправить	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	турне	_	_	_	_	_	_	_	_
+13	турне	_	_	_	_	_	_	_	bratT43=Event
 14	голографическую	_	_	_	_	_	_	_	_
 15	Уитни	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T30:Female|bratT30=Person|bratT31=Person-forename
 16	.	_	_	_	_	_	_	_	_

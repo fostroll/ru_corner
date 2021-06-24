@@ -29,8 +29,7 @@ T28	Family 1615 1626	прабабушкой
 T29	Person 1615 1651	прабабушкой   королевой   Елизаветой
 T30	Person-property 1629 1638	королевой
 T31	Family 1673 1678	мамой
-T32	Person 1673 1694	мамой   Меган   Маркл
-T33	Person 1701 1717	Дорией   Рэгланд
+T32	Person 1673 1717	мамой   Меган   Маркл   -   Дорией   Рэгланд
 A1	Male T1
 A2	Female T2
 T34	Person-forename 58 63	Гарри
@@ -64,7 +63,6 @@ T51	Person-forename 1641 1651	Елизаветой
 A13	Female T32
 T52	Person-forename 1681 1686	Меган
 T53	Person-surname 1689 1694	Маркл
-A14	Female T33
 T54	Person-forename 1701 1707	Дорией
 T55	Person-surname 1710 1717	Рэгланд
 T56	Age 1439 1453	новорожденного
@@ -83,3 +81,21 @@ T64	Event 113 118	родов
 T65	Date-relative 1337 1363	Спустя   некоторое   время
 A19	Past T65
 A20	Past T11
+T66	Person 121 143	герцогиня   Сассекская
+A21	Female T66
+T67	Person 159 164	мужем
+A22	Male T67
+T68	Person 171 192	новорожденным   сыном
+A23	Male T68
+T69	Person 427 433	малыша
+A24	Male T69
+T70	Person 899 908	герцогиня
+A25	Female T70
+T71	Person 1263 1268	малыш
+A26	Male T71
+T72	Person 1439 1460	новорожденного   сына
+A27	Male T72
+T33	Person 1681 1694	Меган   Маркл
+A14	Female T33
+T73	Event 230 240	фотосессии
+T74	Event 247 255	интервью

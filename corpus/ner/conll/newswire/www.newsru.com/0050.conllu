@@ -47,7 +47,7 @@
 25	Артуром	_	_	_	_	_	_	_	bratA6=T10:Plural|bratA8=T40:Male|bratT10=Person|bratT40=Person|bratT43=Person-forename
 26	Рамазановым	_	_	_	_	_	_	_	bratA6=T10:Plural|bratA8=T40:Male|bratT10=Person|bratT40=Person|bratT44=Person-surname
 27	подал	_	_	_	_	_	_	_	_
-28	жалобу	_	_	_	_	_	_	_	_
+28	жалобу	_	_	_	_	_	_	_	bratT71=Event
 29	на	_	_	_	_	_	_	_	_
 30	бездействие	_	_	_	_	_	_	_	_
 31	на	_	_	_	_	_	_	_	_
@@ -75,9 +75,9 @@
 10	московской	_	_	_	_	_	_	_	bratA10=T47:Adjective|bratT11=Organization|bratT47=GPE
 11	прокураторы	_	_	_	_	_	_	_	bratT11=Organization
 12	никакой	_	_	_	_	_	_	_	_
-13	реакции	_	_	_	_	_	_	_	_
+13	реакции	_	_	_	_	_	_	_	bratT73=Event
 14	на	_	_	_	_	_	_	_	_
-15	жалобу	_	_	_	_	_	_	_	_
+15	жалобу	_	_	_	_	_	_	_	bratT72=Event
 16	от	_	_	_	_	_	_	_	bratA11=T12:Past|bratT12=Date-absolute
 17	21	_	_	_	_	_	_	_	bratA11=T12:Past|bratT12=Date-absolute
 18	октября	_	_	_	_	_	_	_	bratA11=T12:Past|bratT12=Date-absolute
@@ -199,11 +199,11 @@
 11	СК	_	_	_	_	_	_	_	bratT22=Organization
 12	для	_	_	_	_	_	_	_	_
 13	проведения	_	_	_	_	_	_	_	_
-14	доследственной	_	_	_	_	_	_	_	_
-15	проверки	_	_	_	_	_	_	_	_
+14	доследственной	_	_	_	_	_	_	_	bratT75=Event
+15	проверки	_	_	_	_	_	_	_	bratT75=Event
 16	и	_	_	_	_	_	_	_	_
-17	возбуждения	_	_	_	_	_	_	_	_
-18	дела	_	_	_	_	_	_	_	bratT60=Event
+17	возбуждения	_	_	_	_	_	_	_	bratT74=Event
+18	дела	_	_	_	_	_	_	_	bratT60=Event|bratT74=Event
 19	о	_	_	_	_	_	_	_	_
 20	покушении	_	_	_	_	_	_	_	bratT61=Event
 21	на	_	_	_	_	_	_	_	bratT61=Event
@@ -217,8 +217,8 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Если	_	_	_	_	_	_	_	_
 3	органы	_	_	_	_	_	_	_	bratT24=Organization
-4	предварительного	_	_	_	_	_	_	_	bratT24=Organization
-5	расследования	_	_	_	_	_	_	_	bratT24=Organization
+4	предварительного	_	_	_	_	_	_	_	bratT24=Organization|bratT70=Event
+5	расследования	_	_	_	_	_	_	_	bratT24=Organization|bratT70=Event
 6	и	_	_	_	_	_	_	_	_
 7	прокуратура	_	_	_	_	_	_	_	bratT25=Organization
 8	не	_	_	_	_	_	_	_	_

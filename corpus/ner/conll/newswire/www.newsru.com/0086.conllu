@@ -32,7 +32,7 @@
 10	(	_	_	_	_	_	_	_	SpaceAfter=No
 11	ISU	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
 12	)	_	_	_	_	_	_	_	_
-13	предложение	_	_	_	_	_	_	_	_
+13	предложение	_	_	_	_	_	_	_	bratT55=Event
 14	о	_	_	_	_	_	_	_	_
 15	поднятии	_	_	_	_	_	_	_	_
 16	минимального	_	_	_	_	_	_	_	_
@@ -88,7 +88,7 @@
 14	национальных	_	_	_	_	_	_	_	bratA14=T49:Adjective|bratT45=Organization|bratT49=GPE
 15	федерациях	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Organization
 16	,	_	_	_	_	_	_	_	_
-17	предложение	_	_	_	_	_	_	_	_
+17	предложение	_	_	_	_	_	_	_	bratT56=Event
 18	было	_	_	_	_	_	_	_	_
 19	вынесено	_	_	_	_	_	_	_	_
 20	еще	_	_	_	_	_	_	_	_
@@ -139,7 +139,7 @@
 2	образом	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	вопрос	_	_	_	_	_	_	_	_
-5	изменения	_	_	_	_	_	_	_	_
+5	изменения	_	_	_	_	_	_	_	bratT53=Event
 6	действующего	_	_	_	_	_	_	_	_
 7	возрастного	_	_	_	_	_	_	_	_
 8	ценза	_	_	_	_	_	_	_	_
@@ -161,7 +161,7 @@
 24	который	_	_	_	_	_	_	_	_
 25	уполномочен	_	_	_	_	_	_	_	_
 26	утверждать	_	_	_	_	_	_	_	_
-27	изменения	_	_	_	_	_	_	_	_
+27	изменения	_	_	_	_	_	_	_	bratT54=Event
 28	в	_	_	_	_	_	_	_	_
 29	правилах	_	_	_	_	_	_	_	SpaceAfter=No
 30	.	_	_	_	_	_	_	_	_
@@ -220,13 +220,13 @@
 
 # sent_id = 0086-p6-s2
 # text = Чемпионка мира среди юниоров в парном катании покончила с собой в Москве в июле нынешнего года.
-1	Чемпионка	_	_	_	_	_	_	_	bratT29=Person-property
-2	мира	_	_	_	_	_	_	_	bratT29=Person-property|bratT43=GPE
-3	среди	_	_	_	_	_	_	_	bratT29=Person-property
-4	юниоров	_	_	_	_	_	_	_	bratT29=Person-property
-5	в	_	_	_	_	_	_	_	bratT29=Person-property
-6	парном	_	_	_	_	_	_	_	bratT29=Person-property
-7	катании	_	_	_	_	_	_	_	bratT29=Person-property
+1	Чемпионка	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Person-property|bratT57=Person
+2	мира	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Person-property|bratT43=GPE|bratT57=Person
+3	среди	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Person-property|bratT57=Person
+4	юниоров	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Person-property|bratT57=Person
+5	в	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Person-property|bratT57=Person
+6	парном	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Person-property|bratT57=Person
+7	катании	_	_	_	_	_	_	_	bratA15=T57:Female|bratT29=Person-property|bratT57=Person
 8	покончила	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	собой	_	_	_	_	_	_	_	_

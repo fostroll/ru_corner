@@ -22,16 +22,13 @@ T18	Ordinal 820 824	№ 18
 T20	Organization 860 880	``   Коммерсант   ''
 A4	Media T20
 A5	Media T7
-T21	Other-group 947 957	Нападавшие
 T22	Person 979 986	Жданова
 A6	Male T22
 T23	Person-surname 979 986	Жданова
 T24	Person-property 1058 1068	журналиста
-T29	Other-group 1242 1254	пострадавший
 T30	Person 1272 1278	Жданов
 A9	Male T30
 T31	Person-surname 1272 1278	Жданов
-T32	Other-group 1325 1335	нападавшие
 T33	Date-relative 1381 1398	В   этот   момент
 T34	Person-property 1430 1443	корреспондент
 T35	Person-property 1495 1503	Фотограф
@@ -77,3 +74,21 @@ T27	Organization 1416 1423	издание
 A19	Media T27
 A20	Media T42
 T28	Event 1760 1791	возбуждения   уголовного   дела
+T60	Person 769 787	фотокорреспондента
+A21	Male T60
+T61	Person 1430 1443	корреспондент
+A22	Male T61
+T62	Person 1495 1503	Фотограф
+A23	Male T62
+T29	Person 1242 1254	пострадавший
+A24	Male T29
+T32	Person 1325 1335	нападавшие
+T63	Person 1058 1068	журналиста
+A25	Male T63
+T21	Person 947 957	Нападавшие
+T64	Person 447 455	Фотограф
+A26	Male T64
+T65	Person 0 33	Фотографа   ``   Коммерсанта   ''
+T66	Event 71 77	съемки
+T67	Event 213 219	съемки
+T68	Event 469 475	съемку

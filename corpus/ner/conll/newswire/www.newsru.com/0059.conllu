@@ -31,13 +31,13 @@
 11	в	_	_	_	_	_	_	_	bratA4=T6:Future|bratT6=Date-absolute
 12	ноябре	_	_	_	_	_	_	_	bratA4=T6:Future|bratT6=Date-absolute
 13	начать	_	_	_	_	_	_	_	_
-14	процесс	_	_	_	_	_	_	_	_
-15	возврата	_	_	_	_	_	_	_	_
+14	процесс	_	_	_	_	_	_	_	bratT50=Event
+15	возврата	_	_	_	_	_	_	_	bratT50=Event
 16	стоимости	_	_	_	_	_	_	_	_
 17	купленных	_	_	_	_	_	_	_	_
 18	билетов	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_
-20	соревнования	_	_	_	_	_	_	_	SpaceAfter=No
+20	соревнования	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event
 21	,	_	_	_	_	_	_	_	_
 22	проведение	_	_	_	_	_	_	_	_
 23	которых	_	_	_	_	_	_	_	_
@@ -78,7 +78,7 @@
 16	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T34:Fut|bratT34=Date-period-absolute
 17	,	_	_	_	_	_	_	_	_
 18	соответствующий	_	_	_	_	_	_	_	_
-19	процесс	_	_	_	_	_	_	_	_
+19	процесс	_	_	_	_	_	_	_	bratT51=Event
 20	касательно	_	_	_	_	_	_	_	_
 21	билетов	_	_	_	_	_	_	_	_
 22	на	_	_	_	_	_	_	_	_
@@ -132,7 +132,7 @@
 10	год	_	_	_	_	_	_	_	bratT20=Date-absolute
 11	после	_	_	_	_	_	_	_	bratA10=T32:Past|bratT32=Date-absolute
 12	переноса	_	_	_	_	_	_	_	bratA10=T32:Past|bratT32=Date-absolute|bratT42=Event
-13	соревнований	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
+13	соревнований	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event|bratT48=Event
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0059-p5
@@ -161,7 +161,7 @@
 2	пандемии	_	_	_	_	_	_	_	bratT24=Event
 3	коронавирусной	_	_	_	_	_	_	_	bratT24=Event|bratT33=Other-term
 4	инфекции	_	_	_	_	_	_	_	bratT24=Event|bratT33=Other-term
-5	соревнования	_	_	_	_	_	_	_	_
+5	соревнования	_	_	_	_	_	_	_	bratT49=Event
 6	были	_	_	_	_	_	_	_	_
 7	перенесены	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	bratA12=T26:Future|bratT26=Date-relative
@@ -210,9 +210,9 @@
 8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Event
 9	2020	_	_	_	_	_	_	_	bratT29=Event|bratT38=Date-absolute
 10	из-за	_	_	_	_	_	_	_	_
-11	череды	_	_	_	_	_	_	_	_
-12	допинговых	_	_	_	_	_	_	_	_
-13	скандалов	_	_	_	_	_	_	_	SpaceAfter=No
+11	череды	_	_	_	_	_	_	_	bratT45=Event
+12	допинговых	_	_	_	_	_	_	_	bratT40=Event|bratT45=Event
+13	скандалов	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event|bratT45=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0059-p6-s2
@@ -220,7 +220,7 @@
 1	Право	_	_	_	_	_	_	_	_
 2	выступить	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
-4	соревнованиях	_	_	_	_	_	_	_	_
+4	соревнованиях	_	_	_	_	_	_	_	bratT46=Event
 5	могли	_	_	_	_	_	_	_	_
 6	получить	_	_	_	_	_	_	_	_
 7	только	_	_	_	_	_	_	_	_

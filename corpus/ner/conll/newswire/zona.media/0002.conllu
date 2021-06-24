@@ -3,16 +3,16 @@
 # par_text = Камчатский юрист, защищавший сотрудника ФСБ, рассказал о визите силовиков для проверки информации о разглашении гостайны
 # sent_id = 0002-p1-s1
 # text = Камчатский юрист, защищавший сотрудника ФСБ, рассказал о визите силовиков для проверки информации о разглашении гостайны
-1	Камчатский	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-2	юрист	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+1	Камчатский	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA21=T57:Male|bratT1=Person-property|bratT2=GPE|bratT57=Person
+2	юрист	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T57:Male|bratT1=Person-property|bratT57=Person
 3	,	_	_	_	_	_	_	_	_
 4	защищавший	_	_	_	_	_	_	_	_
-5	сотрудника	_	_	_	_	_	_	_	bratT3=Person-property
-6	ФСБ	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=Organization
+5	сотрудника	_	_	_	_	_	_	_	bratA22=T58:Male|bratT3=Person-property|bratT58=Person
+6	ФСБ	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T58:Male|bratT3=Person-property|bratT4=Organization|bratT58=Person
 7	,	_	_	_	_	_	_	_	_
 8	рассказал	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
-10	визите	_	_	_	_	_	_	_	_
+10	визите	_	_	_	_	_	_	_	bratT66=Event
 11	силовиков	_	_	_	_	_	_	_	bratT5=Person-property
 12	для	_	_	_	_	_	_	_	_
 13	проверки	_	_	_	_	_	_	_	_
@@ -48,7 +48,7 @@
 # sent_id = 0002-p2-s2
 # text = Видеообращение юриста публикует ``Кам 24''.
 1	Видеообращение	_	_	_	_	_	_	_	_
-2	юриста	_	_	_	_	_	_	_	bratT12=Person-property
+2	юриста	_	_	_	_	_	_	_	bratA23=T59:Male|bratT12=Person-property|bratT59=Person
 3	публикует	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No
 5	Кам	_	_	_	_	_	_	_	bratA3=T13:Media|bratT13=Organization
@@ -83,21 +83,21 @@
 
 # sent_id = 0002-p3-s2
 # text = Юрист позвонил в полицию, откуда приехал участковый и объяснил, что пришедшие - сотрудники отдела собственной безопасности ФСБ.
-1	Юрист	_	_	_	_	_	_	_	bratT18=Person-property
+1	Юрист	_	_	_	_	_	_	_	bratA20=T22:Male|bratT18=Person-property|bratT22=Person
 2	позвонил	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	полицию	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Organization
 5	,	_	_	_	_	_	_	_	_
 6	откуда	_	_	_	_	_	_	_	_
 7	приехал	_	_	_	_	_	_	_	_
-8	участковый	_	_	_	_	_	_	_	bratT20=Person-property
+8	участковый	_	_	_	_	_	_	_	bratA19=T56:Male|bratT20=Person-property|bratT56=Person
 9	и	_	_	_	_	_	_	_	_
 10	объяснил	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
 13	пришедшие	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
-15	сотрудники	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=Person-property
+15	сотрудники	_	_	_	_	_	_	_	bratT21=Person-property
 16	отдела	_	_	_	_	_	_	_	bratA6=T25:Department|bratT21=Person-property|bratT25=Organization
 17	собственной	_	_	_	_	_	_	_	bratA6=T25:Department|bratT21=Person-property|bratT25=Organization
 18	безопасности	_	_	_	_	_	_	_	bratA6=T25:Department|bratT21=Person-property|bratT25=Organization
@@ -106,7 +106,7 @@
 
 # sent_id = 0002-p3-s3
 # text = Полицейский зачитал Саркисяну постановление сотрудников отдела пограничного управления.
-1	Полицейский	_	_	_	_	_	_	_	bratT26=Person-property
+1	Полицейский	_	_	_	_	_	_	_	bratA24=T60:Male|bratT26=Person-property|bratT60=Person
 2	зачитал	_	_	_	_	_	_	_	_
 3	Саркисяну	_	_	_	_	_	_	_	bratA7=T27:Male|bratT27=Person|bratT28=Person-surname
 4	постановление	_	_	_	_	_	_	_	_
@@ -130,11 +130,11 @@
 8	силовики	_	_	_	_	_	_	_	bratT32=Person-property
 9	вскрыли	_	_	_	_	_	_	_	_
 10	дверь	_	_	_	_	_	_	_	_
-11	квартиры	_	_	_	_	_	_	_	SpaceAfter=No
+11	квартиры	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Facility
 12	,	_	_	_	_	_	_	_	_
 13	так	_	_	_	_	_	_	_	_
 14	как	_	_	_	_	_	_	_	_
-15	юрист	_	_	_	_	_	_	_	bratT33=Person-property
+15	юрист	_	_	_	_	_	_	_	bratA25=T61:Male|bratT33=Person-property|bratT61=Person
 16	не	_	_	_	_	_	_	_	_
 17	хотел	_	_	_	_	_	_	_	_
 18	их	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 23	его	_	_	_	_	_	_	_	_
 24	дела	_	_	_	_	_	_	_	bratT54=Event
 25	подал	_	_	_	_	_	_	_	_
-26	жалобу	_	_	_	_	_	_	_	_
+26	жалобу	_	_	_	_	_	_	_	bratT64=Event
 27	на	_	_	_	_	_	_	_	_
 28	решение	_	_	_	_	_	_	_	_
 29	Тихоокеанского	_	_	_	_	_	_	_	bratA13=T43:Adjective|bratT39=Organization|bratT43=Location
@@ -222,8 +222,8 @@
 4	я	_	_	_	_	_	_	_	_
 5	во	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute
 6	время	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute
-7	прохождения	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute
-8	службы	_	_	_	_	_	_	_	_
+7	прохождения	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute|bratT65=Event
+8	службы	_	_	_	_	_	_	_	bratT65=Event
 9	в	_	_	_	_	_	_	_	_
 10	пограничных	_	_	_	_	_	_	_	bratT49=Organization
 11	органах	_	_	_	_	_	_	_	bratT49=Organization
@@ -251,7 +251,7 @@
 # text = По словам юриста, он ``находился во Владивостоке, знакомился с документами и понимает, о чем речь''.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	юриста	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property
+3	юриста	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T62:Male|bratT42=Person-property|bratT62=Person
 4	,	_	_	_	_	_	_	_	_
 5	он	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No

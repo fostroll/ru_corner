@@ -12,10 +12,10 @@ T10	Person 573 584	Стрешинский
 T11	Person-property 601 610	бизнесмен
 T12	Person-property 626 634	музыкант
 T13	Family 659 663	жена
-T14	Event 747 806	рок-баттлов   благотворительного   фонда   ``   Друзья   ''
+T14	Event 747 758	рок-баттлов
 T15	Organization 761 806	благотворительного   фонда   ``   Друзья   ''
 T16	Person 819 823	Иван
-T17	Quantity 883 891	миллионы
+T17	Quantity 883 907	миллионы   пользователей
 T19	Service 910 917	YouTube
 T20	Date-period-absolute 922 938	Со   2   октября
 T22	Work-of-art 948 960	Who   I   am
@@ -50,3 +50,12 @@ T40	Date-absolute 161 180	в   день   рождения
 A12	Past T40
 A9	Past-Pres T20
 A13	RCont T20
+T18	Other-group 894 907	пользователей
+T41	Person 516 523	супруга
+A14	Male T41
+T42	Person 659 663	жена
+A15	Female T42
+T43	Person 1051 1061	именинника
+A16	Male T43
+T44	Person 1112 1140	партнер   Алишера   Усманова
+A17	Male T44

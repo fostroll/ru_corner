@@ -67,8 +67,8 @@
 # sent_id = 0048-p4-s1
 # text = С начала пандемии скончались 1 414 513 человек с подтверждённым заболеванием.
 1	С	_	_	_	_	_	_	_	bratA1=T13:Past-Pres|bratT13=Date-period-absolute
-2	начала	_	_	_	_	_	_	_	bratA1=T13:Past-Pres|bratT13=Date-period-absolute
-3	пандемии	_	_	_	_	_	_	_	bratA1=T13:Past-Pres|bratT12=Event|bratT13=Date-period-absolute
+2	начала	_	_	_	_	_	_	_	bratA1=T13:Past-Pres|bratT13=Date-period-absolute|bratT29=Event
+3	пандемии	_	_	_	_	_	_	_	bratA1=T13:Past-Pres|bratT12=Event|bratT13=Date-period-absolute|bratT29=Event
 4	скончались	_	_	_	_	_	_	_	_
 5	1	_	_	_	_	_	_	_	bratT4=Quantity
 6	414	_	_	_	_	_	_	_	bratT4=Quantity
@@ -106,7 +106,7 @@
 12	не	_	_	_	_	_	_	_	_
 13	полностью	_	_	_	_	_	_	_	_
 14	остановят	_	_	_	_	_	_	_	_
-15	распространение	_	_	_	_	_	_	_	_
+15	распространение	_	_	_	_	_	_	_	bratT28=Event
 16-18	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
 16	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
 17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term

@@ -4,7 +4,7 @@
 # sent_id = 0112-p1-s1
 # text = Место утечки воздуха на МКС заделали при помощи новой заплатки
 1	Место	_	_	_	_	_	_	_	_
-2	утечки	_	_	_	_	_	_	_	_
+2	утечки	_	_	_	_	_	_	_	bratT52=Event
 3	воздуха	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	МКС	_	_	_	_	_	_	_	bratT1=Facility
@@ -49,7 +49,7 @@
 29	на	_	_	_	_	_	_	_	_
 30	станции	_	_	_	_	_	_	_	bratT44=Facility
 31	происходит	_	_	_	_	_	_	_	_
-32	утечка	_	_	_	_	_	_	_	_
+32	утечка	_	_	_	_	_	_	_	bratT53=Event
 33	воздуха	_	_	_	_	_	_	_	SpaceAfter=No
 34	.	_	_	_	_	_	_	_	_
 
@@ -69,16 +69,16 @@
 # text = ``Члены российского экипажа МКС установили новую заплатку на предполагаемое место утечки атмосферы в модуле ``Звезда'', - приводит сообщение ТАСС.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Члены	_	_	_	_	_	_	_	bratT8=Person-property
-3	российского	_	_	_	_	_	_	_	bratA5=T30:Adjective|bratT30=GPE|bratT8=Person-property
-4	экипажа	_	_	_	_	_	_	_	bratT8=Person-property
-5	МКС	_	_	_	_	_	_	_	bratT7=Facility|bratT8=Person-property
+3	российского	_	_	_	_	_	_	_	bratA16=T48:Department|bratA5=T30:Adjective|bratT30=GPE|bratT48=Organization|bratT8=Person-property
+4	экипажа	_	_	_	_	_	_	_	bratA16=T48:Department|bratT48=Organization|bratT8=Person-property
+5	МКС	_	_	_	_	_	_	_	bratA16=T48:Department|bratT48=Organization|bratT7=Facility|bratT8=Person-property
 6	установили	_	_	_	_	_	_	_	_
 7	новую	_	_	_	_	_	_	_	_
 8	заплатку	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	предполагаемое	_	_	_	_	_	_	_	_
 11	место	_	_	_	_	_	_	_	_
-12	утечки	_	_	_	_	_	_	_	_
+12	утечки	_	_	_	_	_	_	_	bratT54=Event
 13	атмосферы	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
 15	модуле	_	_	_	_	_	_	_	bratT9=Facility
@@ -116,7 +116,7 @@
 1	Ранее	_	_	_	_	_	_	_	bratA3=T11:Past|bratT11=Date-relative
 2	из	_	_	_	_	_	_	_	_
 3	переговоров	_	_	_	_	_	_	_	bratT47=Event
-4	экипажа	_	_	_	_	_	_	_	_
+4	экипажа	_	_	_	_	_	_	_	bratT49=Person-property
 5	с	_	_	_	_	_	_	_	_
 6	Землей	_	_	_	_	_	_	_	bratT12=Location
 7	стало	_	_	_	_	_	_	_	_
@@ -159,7 +159,7 @@
 11	МКС	_	_	_	_	_	_	_	bratT18=Facility
 12	зафиксирована	_	_	_	_	_	_	_	_
 13	небольшая	_	_	_	_	_	_	_	_
-14	утечка	_	_	_	_	_	_	_	_
+14	утечка	_	_	_	_	_	_	_	bratT55=Event
 15	воздуха	_	_	_	_	_	_	_	SpaceAfter=No
 16	.	_	_	_	_	_	_	_	_
 
@@ -173,8 +173,8 @@
 6	21	_	_	_	_	_	_	_	bratA8=T19:Past|bratT19=Date-absolute
 7	августа	_	_	_	_	_	_	_	bratA8=T19:Past|bratT19=Date-absolute
 8	члены	_	_	_	_	_	_	_	bratT20=Person-property
-9	экипажа	_	_	_	_	_	_	_	bratT20=Person-property|bratT42=Organization
-10	станции	_	_	_	_	_	_	_	bratT20=Person-property|bratT41=Facility|bratT42=Organization
+9	экипажа	_	_	_	_	_	_	_	bratA17=T42:Department|bratT20=Person-property|bratT42=Organization
+10	станции	_	_	_	_	_	_	_	bratA17=T42:Department|bratT20=Person-property|bratT41=Facility|bratT42=Organization
 11	перейдут	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	модуль	_	_	_	_	_	_	_	bratT21=Facility
@@ -200,7 +200,7 @@
 2	планировалось	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	изоляция	_	_	_	_	_	_	_	_
+5	изоляция	_	_	_	_	_	_	_	bratT50=Event
 6	завершится	_	_	_	_	_	_	_	_
 7	24	_	_	_	_	_	_	_	bratT24=Date-absolute
 8	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Date-absolute
@@ -218,7 +218,7 @@
 # sent_id = 0112-p6-s1
 # text = ``Утечка пока остается в пределах допустимых параметров сегмента и не представляет непосредственной угрозы для экипажа или космической станции'', - заявили тогда в NASA, добавив, что незначительная утечка воздуха на станции происходит постоянно, но ее уровень вырос в сентябре прошлого года.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Утечка	_	_	_	_	_	_	_	_
+2	Утечка	_	_	_	_	_	_	_	bratT51=Event
 3	пока	_	_	_	_	_	_	_	_
 4	остается	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -232,7 +232,7 @@
 13	непосредственной	_	_	_	_	_	_	_	_
 14	угрозы	_	_	_	_	_	_	_	_
 15	для	_	_	_	_	_	_	_	_
-16	экипажа	_	_	_	_	_	_	_	bratT43=Organization
+16	экипажа	_	_	_	_	_	_	_	bratT43=Person-property
 17	или	_	_	_	_	_	_	_	_
 18	космической	_	_	_	_	_	_	_	bratA15=T40:Adjective|bratT39=Facility|bratT40=Location
 19	станции	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Facility
@@ -248,7 +248,7 @@
 29	,	_	_	_	_	_	_	_	_
 30	что	_	_	_	_	_	_	_	_
 31	незначительная	_	_	_	_	_	_	_	_
-32	утечка	_	_	_	_	_	_	_	_
+32	утечка	_	_	_	_	_	_	_	bratT56=Event
 33	воздуха	_	_	_	_	_	_	_	_
 34	на	_	_	_	_	_	_	_	_
 35	станции	_	_	_	_	_	_	_	bratT45=Facility
@@ -269,7 +269,7 @@
 # text = Найти место утечки тогда не удалось.
 1	Найти	_	_	_	_	_	_	_	_
 2	место	_	_	_	_	_	_	_	_
-3	утечки	_	_	_	_	_	_	_	_
+3	утечки	_	_	_	_	_	_	_	bratT57=Event
 4	тогда	_	_	_	_	_	_	_	bratA14=T38:Past|bratT38=Date-relative
 5	не	_	_	_	_	_	_	_	_
 6	удалось	_	_	_	_	_	_	_	SpaceAfter=No

@@ -37,7 +37,7 @@ T28	Family 927 934	супруга
 T29	Person-forename 953 960	Тиграна
 T30	Person-surname 963 971	Кеосаяна
 T31	Person-property 941 950	режиссера
-T32	Person 941 971	режиссера   Тиграна   Кеосаяна
+T32	Person 927 971	супруга   ,   режиссера   Тиграна   Кеосаяна
 A10	Male T32
 T33	Person 978 987	Маргарита
 A11	Female T33
@@ -74,9 +74,15 @@ T56	Person 1250 1281	актрисой   Аленой   Хмельницкой
 A20	Female T56
 T57	GPE 299 305	Россия
 T52	Ordinal 1227 1235	прошлого
-T59	Event 683 688	родов
+T59	Event 670 688	предыдущих   родов
 T60	GPE 273 279	Russia
 T58	Date-absolute 308 315	сегодня
 A21	Present T58
 T6	Organization 88 91	СМИ
 A22	Media T6
+T61	Event 1227 1243	прошлого   брака
+T62	Event 127 142	распространения
+A23	Plural T11
+T63	Person 821 853	журналистка   и   медиа-менеджер
+A24	Female T63
+T64	Event 188 195	новости

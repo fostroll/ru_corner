@@ -8,11 +8,11 @@
 3	совет	_	_	_	_	_	_	_	bratT1=Organization
 4	и	_	_	_	_	_	_	_	_
 5	Совет	_	_	_	_	_	_	_	bratT2=Organization
-6	американских	_	_	_	_	_	_	_	bratA2=T18:Adjective|bratT18=GPE|bratT2=Organization
+6	американских	_	_	_	_	_	_	_	bratA2=T18:Adjective|bratT18=GPE|bratT19=Person-property|bratT2=Organization
 7	дизайнеров	_	_	_	_	_	_	_	bratT19=Person-property|bratT2=Organization
 8	выступили	_	_	_	_	_	_	_	_
 9	за	_	_	_	_	_	_	_	_
-10	изменения	_	_	_	_	_	_	_	_
+10	изменения	_	_	_	_	_	_	_	bratT36=Event
 11	в	_	_	_	_	_	_	_	_
 12	индустрии	_	_	_	_	_	_	_	_
 13	моды	_	_	_	_	_	_	_	_
@@ -24,19 +24,19 @@
 1	В	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
 2	мае	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
 3	2020-го	_	_	_	_	_	_	_	bratA3=T3:Past|bratT3=Date-absolute
-4	ряд	_	_	_	_	_	_	_	_
-5	дизайнеров	_	_	_	_	_	_	_	bratT5=Person-property
-6	во	_	_	_	_	_	_	_	_
-7	главе	_	_	_	_	_	_	_	_
-8	с	_	_	_	_	_	_	_	_
-9	Дрисом	_	_	_	_	_	_	_	bratA4=T4:Male|bratT20=Person-forename|bratT4=Person
-10	Ван	_	_	_	_	_	_	_	bratA4=T4:Male|bratT21=Person-surname|bratT4=Person
-11	Нотеном	_	_	_	_	_	_	_	bratA4=T4:Male|bratT21=Person-surname|bratT4=Person
+4	ряд	_	_	_	_	_	_	_	bratT40=Person
+5	дизайнеров	_	_	_	_	_	_	_	bratT40=Person|bratT5=Person-property
+6	во	_	_	_	_	_	_	_	bratT40=Person
+7	главе	_	_	_	_	_	_	_	bratT40=Person
+8	с	_	_	_	_	_	_	_	bratT40=Person
+9	Дрисом	_	_	_	_	_	_	_	bratA4=T4:Male|bratT20=Person-forename|bratT4=Person|bratT40=Person
+10	Ван	_	_	_	_	_	_	_	bratA4=T4:Male|bratT21=Person-surname|bratT4=Person|bratT40=Person
+11	Нотеном	_	_	_	_	_	_	_	bratA4=T4:Male|bratT21=Person-surname|bratT4=Person|bratT40=Person
 12	опубликовали	_	_	_	_	_	_	_	_
 13	письмо	_	_	_	_	_	_	_	_
 14	о	_	_	_	_	_	_	_	_
 15	необходимости	_	_	_	_	_	_	_	_
-16	изменений	_	_	_	_	_	_	_	_
+16	изменений	_	_	_	_	_	_	_	bratT37=Event
 17	в	_	_	_	_	_	_	_	_
 18	модной	_	_	_	_	_	_	_	_
 19	индустрии	_	_	_	_	_	_	_	_
@@ -75,8 +75,8 @@
 21	совет	_	_	_	_	_	_	_	bratT8=Organization
 22	и	_	_	_	_	_	_	_	_
 23	Совет	_	_	_	_	_	_	_	bratT9=Organization
-24	американских	_	_	_	_	_	_	_	bratA6=T23:Adjective|bratT23=GPE|bratT9=Organization
-25	дизайнеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
+24	американских	_	_	_	_	_	_	_	bratA6=T23:Adjective|bratT23=GPE|bratT38=Person-property|bratT9=Organization
+25	дизайнеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property|bratT9=Organization
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p2-s3
@@ -124,13 +124,13 @@
 17	о	_	_	_	_	_	_	_	_
 18	необходимости	_	_	_	_	_	_	_	_
 19	пересмотра	_	_	_	_	_	_	_	_
-20	календаря	_	_	_	_	_	_	_	_
-21	показов	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Event
-22	,	_	_	_	_	_	_	_	_
-23	закупок	_	_	_	_	_	_	_	bratT34=Event
-24	и	_	_	_	_	_	_	_	_
-25	выпуска	_	_	_	_	_	_	_	bratT33=Event
-26	коллекций	_	_	_	_	_	_	_	SpaceAfter=No
+20	календаря	_	_	_	_	_	_	_	bratA10=T39:Project|bratT39=Product
+21	показов	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T39:Project|bratT32=Event|bratT39=Product
+22	,	_	_	_	_	_	_	_	bratA10=T39:Project|bratT39=Product
+23	закупок	_	_	_	_	_	_	_	bratA10=T39:Project|bratT34=Event|bratT39=Product
+24	и	_	_	_	_	_	_	_	bratA10=T39:Project|bratT39=Product
+25	выпуска	_	_	_	_	_	_	_	bratA10=T39:Project|bratT33=Event|bratT39=Product
+26	коллекций	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T39:Project|bratT39=Product
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p3-s2
@@ -173,7 +173,7 @@
 4	предлагают	_	_	_	_	_	_	_	_
 5	устроить	_	_	_	_	_	_	_	_
 6	одну	_	_	_	_	_	_	_	bratT15=Quantity
-7	глобальную	_	_	_	_	_	_	_	bratT15=Quantity
+7	глобальную	_	_	_	_	_	_	_	bratT15=Quantity|bratT30=Event
 8	Неделю	_	_	_	_	_	_	_	bratT15=Quantity|bratT25=Time-period|bratT26=Duration|bratT30=Event
 9	моды	_	_	_	_	_	_	_	bratT30=Event
 10	вместо	_	_	_	_	_	_	_	_

@@ -6,7 +6,7 @@
 1	Рафаэль	_	_	_	_	_	_	_	bratA7=T1:Male|bratT1=Person|bratT49=Person-forename
 2	Надаль	_	_	_	_	_	_	_	bratA7=T1:Male|bratT1=Person|bratT50=Person-surname
 3	побил	_	_	_	_	_	_	_	_
-4	рекорд	_	_	_	_	_	_	_	bratT75=INVALID-DOCUMENT
+4	рекорд	_	_	_	_	_	_	_	bratT75=Event
 5	Джимми	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT51=Person-forename
 6	Коннорса	_	_	_	_	_	_	_	bratA8=T2:Male|bratT2=Person|bratT52=Person-surname
 7	в	_	_	_	_	_	_	_	_
@@ -31,9 +31,9 @@
 12	рейтинга	_	_	_	_	_	_	_	_
 13	Ассоциации	_	_	_	_	_	_	_	bratT8=Organization
 14-16	теннисистов-профессионалов	_	_	_	_	_	_	_	_
-14	теннисистов	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT8=Organization
-15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT8=Organization
-16	профессионалов	_	_	_	_	_	_	_	bratT8=Organization
+14	теннисистов	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT79=Person-property|bratT8=Organization
+15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT79=Person-property|bratT8=Organization
+16	профессионалов	_	_	_	_	_	_	_	bratT79=Person-property|bratT8=Organization
 17	(	_	_	_	_	_	_	_	SpaceAfter=No
 18	АТР	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Organization
 19	)	_	_	_	_	_	_	_	SpaceAfter=No
@@ -189,9 +189,9 @@
 9	побед	_	_	_	_	_	_	_	bratT73=Event
 10	на	_	_	_	_	_	_	_	_
 11	турнирах	_	_	_	_	_	_	_	bratT43=Event
-12	серии	_	_	_	_	_	_	_	bratT43=Event
-13	Большого	_	_	_	_	_	_	_	bratT43=Event
-14	шлема	_	_	_	_	_	_	_	bratT43=Event
+12	серии	_	_	_	_	_	_	_	bratT43=Event|bratT78=Event
+13	Большого	_	_	_	_	_	_	_	bratT43=Event|bratT78=Event
+14	шлема	_	_	_	_	_	_	_	bratT43=Event|bratT78=Event
 15	(	_	_	_	_	_	_	_	SpaceAfter=No
 16	20	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Quantity
 17	)	_	_	_	_	_	_	_	SpaceAfter=No

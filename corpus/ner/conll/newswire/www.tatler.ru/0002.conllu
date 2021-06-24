@@ -151,14 +151,14 @@
 10	,	_	_	_	_	_	_	_	_
 11	а	_	_	_	_	_	_	_	_
 12	вот	_	_	_	_	_	_	_	_
-13	современные	_	_	_	_	_	_	_	_
-14	события	_	_	_	_	_	_	_	_
+13	современные	_	_	_	_	_	_	_	bratT70=Event
+14	события	_	_	_	_	_	_	_	bratT70=Event
 15	в	_	_	_	_	_	_	_	_
 16	королевской	_	_	_	_	_	_	_	bratT20=Organization
 17	семье	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT33=Family
 18	,	_	_	_	_	_	_	_	_
 19	включая	_	_	_	_	_	_	_	_
-20	появление	_	_	_	_	_	_	_	_
+20	появление	_	_	_	_	_	_	_	bratT71=Event
 21	в	_	_	_	_	_	_	_	_
 22	ней	_	_	_	_	_	_	_	_
 23	Меган	_	_	_	_	_	_	_	bratA11=T32:Female|bratT30=Person-forename|bratT32=Person
@@ -199,7 +199,7 @@
 # sent_id = 0002-p3-s2
 # text = Последняя новость, которую британские СМИ распространили 12 августа, касается выбора актера на роль принца Филиппа.
 1	Последняя	_	_	_	_	_	_	_	bratT48=Ordinal
-2	новость	_	_	_	_	_	_	_	SpaceAfter=No
+2	новость	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event
 3	,	_	_	_	_	_	_	_	_
 4	которую	_	_	_	_	_	_	_	_
 5	британские	_	_	_	_	_	_	_	bratA16=T49:Adjective|bratA20=T68:Media|bratT49=GPE|bratT68=Organization
@@ -212,9 +212,9 @@
 12	выбора	_	_	_	_	_	_	_	_
 13	актера	_	_	_	_	_	_	_	bratT51=Person-property
 14	на	_	_	_	_	_	_	_	_
-15	роль	_	_	_	_	_	_	_	_
-16	принца	_	_	_	_	_	_	_	bratA18=T54:Male|bratT53=Person-property|bratT54=Person
-17	Филиппа	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T54:Male|bratT52=Person-forename|bratT54=Person
+15	роль	_	_	_	_	_	_	_	bratT72=Person-property
+16	принца	_	_	_	_	_	_	_	bratA18=T54:Male|bratT53=Person-property|bratT54=Person|bratT72=Person-property
+17	Филиппа	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T54:Male|bratT52=Person-forename|bratT54=Person|bratT72=Person-property
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0002-p3-s3
@@ -227,16 +227,16 @@
 6	известный	_	_	_	_	_	_	_	_
 7	участием	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	сериалах	_	_	_	_	_	_	_	bratT59=Work-of-art
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Work-of-art
-11	Игра	_	_	_	_	_	_	_	bratT59=Work-of-art
-12	престолов	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Work-of-art
-13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Work-of-art
-14	,	_	_	_	_	_	_	_	_
-15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Work-of-art
-16	Два	_	_	_	_	_	_	_	bratT60=Work-of-art|bratT62=Quantity
-17	папы	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Work-of-art|bratT62=Quantity
-18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Work-of-art
+9	сериалах	_	_	_	_	_	_	_	bratA21=T69:Plural|bratT69=Work-of-art
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T69:Plural|bratT59=Work-of-art|bratT69=Work-of-art
+11	Игра	_	_	_	_	_	_	_	bratA21=T69:Plural|bratT59=Work-of-art|bratT69=Work-of-art
+12	престолов	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T69:Plural|bratT59=Work-of-art|bratT69=Work-of-art
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T69:Plural|bratT59=Work-of-art|bratT69=Work-of-art
+14	,	_	_	_	_	_	_	_	bratA21=T69:Plural|bratT69=Work-of-art
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T69:Plural|bratT60=Work-of-art|bratT69=Work-of-art
+16	Два	_	_	_	_	_	_	_	bratA21=T69:Plural|bratT60=Work-of-art|bratT62=Quantity|bratT69=Work-of-art
+17	папы	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T69:Plural|bratT60=Work-of-art|bratT62=Quantity|bratT69=Work-of-art
+18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T69:Plural|bratT60=Work-of-art|bratT69=Work-of-art
 19	,	_	_	_	_	_	_	_	_
 20	фильме	_	_	_	_	_	_	_	bratT61=Work-of-art
 21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Work-of-art

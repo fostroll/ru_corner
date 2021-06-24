@@ -8,8 +8,8 @@
 3	призвал	_	_	_	_	_	_	_	_
 4	выпустить	_	_	_	_	_	_	_	_
 5	заключенных	_	_	_	_	_	_	_	bratT5=Person-property
-6	нью-йоркских	_	_	_	_	_	_	_	bratA2=T4:Adjective|bratT4=GPE|bratT5=Person-property
-7	тюрем	_	_	_	_	_	_	_	bratT5=Person-property
+6	нью-йоркских	_	_	_	_	_	_	_	bratA2=T4:Adjective|bratT4=GPE|bratT5=Person-property|bratT54=Organization
+7	тюрем	_	_	_	_	_	_	_	bratT5=Person-property|bratT54=Organization
 8	из-за	_	_	_	_	_	_	_	_
 9	пандемии	_	_	_	_	_	_	_	bratT7=Event
 10	коронавируса	_	_	_	_	_	_	_	bratT6=Other-term|bratT7=Event
@@ -41,7 +41,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	чтобы	_	_	_	_	_	_	_	_
 8	потребовать	_	_	_	_	_	_	_	_
-9	освобождения	_	_	_	_	_	_	_	_
+9	освобождения	_	_	_	_	_	_	_	bratT53=Event
 10	заключенных	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property
 11	,	_	_	_	_	_	_	_	_
 12	рискующих	_	_	_	_	_	_	_	_
@@ -54,7 +54,7 @@
 
 # sent_id = 0036-p2-s3
 # text = Актер обратился лично к губернатору Нью-Йорка Эндрю Куомо.
-1	Актер	_	_	_	_	_	_	_	bratT16=Person-property
+1	Актер	_	_	_	_	_	_	_	bratA15=T55:Male|bratT16=Person-property|bratT55=Person
 2	обратился	_	_	_	_	_	_	_	_
 3	лично	_	_	_	_	_	_	_	_
 4	к	_	_	_	_	_	_	_	_
@@ -112,16 +112,16 @@
 1	В	_	_	_	_	_	_	_	_
 2	своей	_	_	_	_	_	_	_	_
 3	речи	_	_	_	_	_	_	_	_
-4	лауреат	_	_	_	_	_	_	_	bratT28=Person-property
-5	премии	_	_	_	_	_	_	_	bratT28=Person-property
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property
-7	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property
-8	''	_	_	_	_	_	_	_	bratT28=Person-property
+4	лауреат	_	_	_	_	_	_	_	bratA16=T56:Male|bratT28=Person-property|bratT56=Person
+5	премии	_	_	_	_	_	_	_	bratA16=T56:Male|bratT28=Person-property|bratT51=Other-term|bratT56=Person
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T56:Male|bratT28=Person-property|bratT51=Other-term|bratT56=Person
+7	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T56:Male|bratT28=Person-property|bratT50=Person-forename|bratT51=Other-term|bratT56=Person
+8	''	_	_	_	_	_	_	_	bratA16=T56:Male|bratT28=Person-property|bratT51=Other-term|bratT56=Person
 9	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	тюрьмах	_	_	_	_	_	_	_	_
+13	тюрьмах	_	_	_	_	_	_	_	bratT57=Facility
 14	невозможно	_	_	_	_	_	_	_	_
 15	обеспечить	_	_	_	_	_	_	_	_
 16	нужный	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 6	изданию	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Media|bratT46=Organization
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	процесс	_	_	_	_	_	_	_	_
+9	процесс	_	_	_	_	_	_	_	bratT52=Event
 10	уже	_	_	_	_	_	_	_	_
 11	запущен	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_

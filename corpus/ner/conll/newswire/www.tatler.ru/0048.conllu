@@ -25,11 +25,11 @@
 2	правило	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	любое	_	_	_	_	_	_	_	_
-5	появление	_	_	_	_	_	_	_	_
-6	представителя	_	_	_	_	_	_	_	_
-7	британской	_	_	_	_	_	_	_	bratA2=T6:Adjective|bratT42=Organization|bratT6=GPE
-8	королевской	_	_	_	_	_	_	_	bratT42=Organization
-9	семьи	_	_	_	_	_	_	_	bratT42=Organization|bratT7=Family
+5	появление	_	_	_	_	_	_	_	bratT23=Event
+6	представителя	_	_	_	_	_	_	_	bratT43=Person-property
+7	британской	_	_	_	_	_	_	_	bratA2=T6:Adjective|bratT42=Organization|bratT43=Person-property|bratT6=GPE
+8	королевской	_	_	_	_	_	_	_	bratT42=Organization|bratT43=Person-property
+9	семьи	_	_	_	_	_	_	_	bratT42=Organization|bratT43=Person-property|bratT7=Family
 10	на	_	_	_	_	_	_	_	_
 11	публике	_	_	_	_	_	_	_	_
 12	строго	_	_	_	_	_	_	_	_
@@ -56,10 +56,10 @@
 
 # sent_id = 0048-p2-s2
 # text = Герцогиня любит устраивать сюрпризы.
-1	Герцогиня	_	_	_	_	_	_	_	bratT12=Person-property
+1	Герцогиня	_	_	_	_	_	_	_	bratA16=T44:Female|bratT12=Person-property|bratT44=Person
 2	любит	_	_	_	_	_	_	_	_
 3	устраивать	_	_	_	_	_	_	_	_
-4	сюрпризы	_	_	_	_	_	_	_	SpaceAfter=No
+4	сюрпризы	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Event
 5	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0048-p2-s3
@@ -94,7 +94,7 @@
 28	свадебного	_	_	_	_	_	_	_	bratA8=T22:Female|bratT19=Person-property|bratT22=Person
 29	платья	_	_	_	_	_	_	_	bratA8=T22:Female|bratT19=Person-property|bratT22=Person
 30	Клэр	_	_	_	_	_	_	_	bratA8=T22:Female|bratT20=Person-forename|bratT22=Person
-31	Уэйт	_	_	_	_	_	_	_	bratA8=T22:Female|bratT20=Person-forename|bratT22=Person
+31	Уэйт	_	_	_	_	_	_	_	bratA8=T22:Female|bratT21=Person-surname|bratT22=Person
 32	Келлер	_	_	_	_	_	_	_	bratA8=T22:Female|bratT21=Person-surname|bratT22=Person
 33	из	_	_	_	_	_	_	_	_
 34	модного	_	_	_	_	_	_	_	bratT18=Organization
@@ -266,7 +266,7 @@
 1	Победителем	_	_	_	_	_	_	_	bratT38=Person-property
 2	стала	_	_	_	_	_	_	_	_
 3	Клэр	_	_	_	_	_	_	_	bratA13=T36:Female|bratT34=Person-forename|bratT36=Person
-4	Уэйт	_	_	_	_	_	_	_	bratA13=T36:Female|bratT34=Person-forename|bratT36=Person
+4	Уэйт	_	_	_	_	_	_	_	bratA13=T36:Female|bratT35=Person-surname|bratT36=Person
 5	Келлер	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T36:Female|bratT35=Person-surname|bratT36=Person
 6	''	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_

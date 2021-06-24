@@ -10,7 +10,7 @@ T9	Person 397 403	Граймс
 T10	Person-property 560 568	артистку
 T11	Person 701 707	Граймс
 T12	Family 778 782	отце
-T13	Person 799 812	Илоне   Маске
+T13	Person 766 812	возможном   отце   ребенка   -   Илоне   Маске
 T14	Person-property 836 847	миллиардера
 T15	Person 854 860	Граймс
 T16	Event 903 913	Met   Gala
@@ -50,3 +50,19 @@ T39	Date-absolute 876 895	после   их   выхода
 A13	Past T39
 T40	Ordinal 1030 1039	последнее
 T17	Service 322 329	соцсети
+T41	Event 123 135	беременности
+T42	Event 686 698	беременности
+T43	Person 954 960	певицу
+A1	Female T43
+T44	Event 978 986	прогулке
+T45	Person 1050 1054	пару
+T46	Person 785 792	ребенка
+T47	Person 560 568	артистку
+A14	Female T47
+T48	Service 382 392	публикацию
+A15	Media T48
+T49	Person 836 847	миллиардера
+A16	Male T49
+T50	Event 889 895	выхода
+T51	Person 1002 1012	миллионера
+A17	Male T51

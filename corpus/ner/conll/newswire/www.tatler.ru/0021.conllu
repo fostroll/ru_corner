@@ -30,10 +30,10 @@
 8	помощью	_	_	_	_	_	_	_	_
 9	иска	_	_	_	_	_	_	_	_
 10	о	_	_	_	_	_	_	_	_
-11	клевете	_	_	_	_	_	_	_	_
+11	клевете	_	_	_	_	_	_	_	bratT90=Event
 12	против	_	_	_	_	_	_	_	_
-13	британских	_	_	_	_	_	_	_	bratA23=T8:Adjective|bratT8=GPE
-14	таблоидов	_	_	_	_	_	_	_	SpaceAfter=No
+13	британских	_	_	_	_	_	_	_	bratA23=T8:Adjective|bratA25=T77:Media|bratT77=Organization|bratT8=GPE
+14	таблоидов	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T77:Media|bratT77=Organization
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0021-p2-s2
@@ -83,7 +83,7 @@
 17	личную	_	_	_	_	_	_	_	_
 18	историю	_	_	_	_	_	_	_	_
 19	изнасилования	_	_	_	_	_	_	_	bratT73=Event
-20	ассистентки	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Person-property
+20	ассистентки	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T78:Female|bratT72=Person-property|bratT78=Person
 21	,	_	_	_	_	_	_	_	_
 22	которую	_	_	_	_	_	_	_	_
 23	выдавала	_	_	_	_	_	_	_	_
@@ -98,26 +98,26 @@
 1	На	_	_	_	_	_	_	_	_
 2	одном	_	_	_	_	_	_	_	bratT9=Quantity
 3	из	_	_	_	_	_	_	_	bratT9=Quantity
-4	заседаний	_	_	_	_	_	_	_	_
+4	заседаний	_	_	_	_	_	_	_	bratT79=Event
 5	в	_	_	_	_	_	_	_	_
 6	защиту	_	_	_	_	_	_	_	_
-7	актера	_	_	_	_	_	_	_	bratT10=Person-property
+7	актера	_	_	_	_	_	_	_	bratA27=T80:Male|bratT10=Person-property|bratT80=Person
 8	выступили	_	_	_	_	_	_	_	_
-9	его	_	_	_	_	_	_	_	_
-10	бывшие	_	_	_	_	_	_	_	_
-11	возлюбленные	_	_	_	_	_	_	_	SpaceAfter=No
-12	,	_	_	_	_	_	_	_	_
-13	Ванесса	_	_	_	_	_	_	_	bratA7=T11:Female|bratT11=Person|bratT45=Person-forename
-14	Паради	_	_	_	_	_	_	_	bratA7=T11:Female|bratT11=Person|bratT46=Person-surname
-15	и	_	_	_	_	_	_	_	_
-16	Вайнона	_	_	_	_	_	_	_	bratA8=T12:Female|bratT12=Person|bratT47=Person-forename
-17	Райдер	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Female|bratT12=Person|bratT48=Person-surname
+9	его	_	_	_	_	_	_	_	bratA28=T81:Female|bratA30=T81:Plural|bratT81=Person
+10	бывшие	_	_	_	_	_	_	_	bratA28=T81:Female|bratA30=T81:Plural|bratT81=Person
+11	возлюбленные	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T81:Female|bratA30=T81:Plural|bratT81=Person
+12	,	_	_	_	_	_	_	_	bratA28=T81:Female|bratA30=T81:Plural|bratT81=Person
+13	Ванесса	_	_	_	_	_	_	_	bratA28=T81:Female|bratA30=T81:Plural|bratA7=T11:Female|bratT11=Person|bratT45=Person-forename|bratT81=Person
+14	Паради	_	_	_	_	_	_	_	bratA28=T81:Female|bratA30=T81:Plural|bratA7=T11:Female|bratT11=Person|bratT46=Person-surname|bratT81=Person
+15	и	_	_	_	_	_	_	_	bratA28=T81:Female|bratA30=T81:Plural|bratT81=Person
+16	Вайнона	_	_	_	_	_	_	_	bratA28=T81:Female|bratA30=T81:Plural|bratA8=T12:Female|bratT12=Person|bratT47=Person-forename|bratT81=Person
+17	Райдер	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T81:Female|bratA30=T81:Plural|bratA8=T12:Female|bratT12=Person|bratT48=Person-surname|bratT81=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0021-p3-s2
 # text = Обе женщины передали суду письменные заявления о том, что их образ Джонни не сходится с тем, каким его представляет Херд.
-1	Обе	_	_	_	_	_	_	_	bratT13=Quantity
-2	женщины	_	_	_	_	_	_	_	bratT13=Quantity
+1	Обе	_	_	_	_	_	_	_	bratA29=T82:Female|bratT13=Quantity|bratT82=Person
+2	женщины	_	_	_	_	_	_	_	bratA29=T82:Female|bratT13=Quantity|bratT82=Person
 3	передали	_	_	_	_	_	_	_	_
 4	суду	_	_	_	_	_	_	_	bratT70=Organization
 5	письменные	_	_	_	_	_	_	_	_
@@ -145,12 +145,12 @@
 # sent_id = 0021-p4-s1
 # text = Но актриса решила, что бывшие спутницы покрывают Деппа.
 1	Но	_	_	_	_	_	_	_	_
-2	актриса	_	_	_	_	_	_	_	bratT16=Person-property
+2	актриса	_	_	_	_	_	_	_	bratA31=T83:Female|bratT16=Person-property|bratT83=Person
 3	решила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	бывшие	_	_	_	_	_	_	_	_
-7	спутницы	_	_	_	_	_	_	_	_
+6	бывшие	_	_	_	_	_	_	_	bratA32=T84:Female|bratT84=Person
+7	спутницы	_	_	_	_	_	_	_	bratA32=T84:Female|bratT84=Person
 8	покрывают	_	_	_	_	_	_	_	_
 9	Деппа	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T17:Male|bratT17=Person|bratT51=Person-surname
 10	.	_	_	_	_	_	_	_	_
@@ -158,8 +158,8 @@
 # sent_id = 0021-p4-s2
 # text = На новом заседании Эмбер рассказала, что знает из проверенного источника, что модель Кейт Мосс подверглась насилию со стороны экс-бойфренда.
 1	На	_	_	_	_	_	_	_	_
-2	новом	_	_	_	_	_	_	_	_
-3	заседании	_	_	_	_	_	_	_	_
+2	новом	_	_	_	_	_	_	_	bratT85=Event
+3	заседании	_	_	_	_	_	_	_	bratT85=Event
 4	Эмбер	_	_	_	_	_	_	_	bratA12=T18:Female|bratT18=Person|bratT52=Person-forename
 5	рассказала	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -178,9 +178,9 @@
 19	со	_	_	_	_	_	_	_	_
 20	стороны	_	_	_	_	_	_	_	_
 21-23	экс-бойфренда	_	_	_	_	_	_	_	SpaceAfter=No
-21	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT67=Family
-22	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT67=Family
-23	бойфренда	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Family
+21	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA33=T86:Male|bratT86=Person
+22	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA33=T86:Male|bratT86=Person
+23	бойфренда	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T86:Male|bratT86=Person
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0021-p4-s3
@@ -195,7 +195,7 @@
 8	не	_	_	_	_	_	_	_	_
 9	от	_	_	_	_	_	_	_	_
 10	самой	_	_	_	_	_	_	_	_
-11	пострадавшей	_	_	_	_	_	_	_	SpaceAfter=No
+11	пострадавшей	_	_	_	_	_	_	_	SpaceAfter=No|bratA34=T87:Female|bratT87=Person
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0021-p4-s4
@@ -243,7 +243,7 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	ранее	_	_	_	_	_	_	_	bratA24=T69:Past|bratT69=Date-period-relative
-7	актриса	_	_	_	_	_	_	_	bratT30=Person-property
+7	актриса	_	_	_	_	_	_	_	bratA35=T88:Female|bratT30=Person-property|bratT88=Person
 8	ни	_	_	_	_	_	_	_	bratT31=Quantity
 9	разу	_	_	_	_	_	_	_	bratT31=Quantity
 10	нигде	_	_	_	_	_	_	_	_
@@ -263,7 +263,7 @@
 5	что	_	_	_	_	_	_	_	_
 6	это	_	_	_	_	_	_	_	_
 7	была	_	_	_	_	_	_	_	_
-8	импровизация	_	_	_	_	_	_	_	_
+8	импровизация	_	_	_	_	_	_	_	bratT89=Event
 9	под	_	_	_	_	_	_	_	_
 10	присягой	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_

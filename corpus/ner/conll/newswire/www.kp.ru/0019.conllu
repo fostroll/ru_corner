@@ -31,8 +31,8 @@
 8	за	_	_	_	_	_	_	_	_
 9	скандальное	_	_	_	_	_	_	_	bratT29=Event
 10	решение	_	_	_	_	_	_	_	bratT29=Event
-11	Конституционного	_	_	_	_	_	_	_	bratT29=Event|bratT3=Organization
-12	суда	_	_	_	_	_	_	_	bratT29=Event|bratT3=Organization
+11	Конституционного	_	_	_	_	_	_	_	bratT3=Organization
+12	суда	_	_	_	_	_	_	_	bratT3=Organization
 13	и	_	_	_	_	_	_	_	_
 14	другие	_	_	_	_	_	_	_	_
 15	атаки	_	_	_	_	_	_	_	bratT48=Event
@@ -84,9 +84,9 @@
 5	известны	_	_	_	_	_	_	_	SpaceAfter=No
 6	:	_	_	_	_	_	_	_	_
 7	это	_	_	_	_	_	_	_	_
-8	коалиция	_	_	_	_	_	_	_	_
-9	российских	_	_	_	_	_	_	_	bratA16=T40:Adjective|bratT40=GPE
-10	марионеток	_	_	_	_	_	_	_	_
+8	коалиция	_	_	_	_	_	_	_	bratT51=Organization
+9	российских	_	_	_	_	_	_	_	bratA16=T40:Adjective|bratT40=GPE|bratT51=Organization
+10	марионеток	_	_	_	_	_	_	_	bratT51=Organization
 11	и	_	_	_	_	_	_	_	_
 12	некоторые	_	_	_	_	_	_	_	_
 13	влиятельные	_	_	_	_	_	_	_	_
@@ -104,7 +104,7 @@
 25	,	_	_	_	_	_	_	_	_
 26	-	_	_	_	_	_	_	_	_
 27	заявил	_	_	_	_	_	_	_	_
-28	президент	_	_	_	_	_	_	_	bratT20=Person-property
+28	президент	_	_	_	_	_	_	_	bratA19=T50:Male|bratT20=Person-property|bratT50=Person
 29	в	_	_	_	_	_	_	_	_
 30	беседе	_	_	_	_	_	_	_	_
 31	с	_	_	_	_	_	_	_	_

@@ -68,15 +68,15 @@
 # text = ``По прибытии в Борисполь 18 ноября все члены украинской делегации сдали ПЦР-тесты на COVID-19 в специально отведенном для этого помещении аэропорта.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	По	_	_	_	_	_	_	_	_
-3	прибытии	_	_	_	_	_	_	_	_
+3	прибытии	_	_	_	_	_	_	_	bratT100=Event
 4	в	_	_	_	_	_	_	_	_
 5	Борисполь	_	_	_	_	_	_	_	bratT12=Facility
 6	18	_	_	_	_	_	_	_	bratA10=T13:Past|bratT13=Date-absolute
 7	ноября	_	_	_	_	_	_	_	bratA10=T13:Past|bratT13=Date-absolute
 8	все	_	_	_	_	_	_	_	_
-9	члены	_	_	_	_	_	_	_	_
-10	украинской	_	_	_	_	_	_	_	bratA9=T61:Adjective|bratT61=GPE|bratT96=Organization
-11	делегации	_	_	_	_	_	_	_	bratT96=Organization
+9	члены	_	_	_	_	_	_	_	bratT99=Person-property
+10	украинской	_	_	_	_	_	_	_	bratA9=T61:Adjective|bratT61=GPE|bratT96=Organization|bratT99=Person-property
+11	делегации	_	_	_	_	_	_	_	bratT96=Organization|bratT99=Person-property
 12	сдали	_	_	_	_	_	_	_	_
 13-15	ПЦР-тесты	_	_	_	_	_	_	_	_
 13	ПЦР	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT14=Other-term
@@ -170,7 +170,7 @@
 # sent_id = 0119-p4-s2
 # text = В лагере визитеров было выявлено семь случаев заражения, игру не дали провести местные власти.
 1	В	_	_	_	_	_	_	_	_
-2	лагере	_	_	_	_	_	_	_	_
+2	лагере	_	_	_	_	_	_	_	bratT101=Facility
 3	визитеров	_	_	_	_	_	_	_	_
 4	было	_	_	_	_	_	_	_	_
 5	выявлено	_	_	_	_	_	_	_	_
@@ -178,7 +178,7 @@
 7	случаев	_	_	_	_	_	_	_	bratT28=Quantity|bratT98=Event
 8	заражения	_	_	_	_	_	_	_	SpaceAfter=No|bratT98=Event
 9	,	_	_	_	_	_	_	_	_
-10	игру	_	_	_	_	_	_	_	_
+10	игру	_	_	_	_	_	_	_	bratT102=Event
 11	не	_	_	_	_	_	_	_	_
 12	дали	_	_	_	_	_	_	_	_
 13	провести	_	_	_	_	_	_	_	_

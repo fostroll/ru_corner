@@ -42,12 +42,12 @@
 2	положительного	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
 3	результата	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
 4	тестирования	_	_	_	_	_	_	_	_
-5	продюсер	_	_	_	_	_	_	_	bratT6=Person-property
+5	продюсер	_	_	_	_	_	_	_	bratA12=T30:Male|bratT30=Person|bratT6=Person-property
 6	был	_	_	_	_	_	_	_	_
 7	изолирован	_	_	_	_	_	_	_	_
 8	от	_	_	_	_	_	_	_	_
 9	других	_	_	_	_	_	_	_	_
-10	заключенных	_	_	_	_	_	_	_	_
+10	заключенных	_	_	_	_	_	_	_	bratT34=Person-property
 11	в	_	_	_	_	_	_	_	_
 12	тюрьме	_	_	_	_	_	_	_	bratT7=Facility
 13	Wende	_	_	_	_	_	_	_	bratT7=Facility
@@ -63,8 +63,8 @@
 # text = 10 апреля представитель Вайнштейна, слова которой приводит Fox News и ряд других изданий, сообщила, что его выписали из медицинского изолятора после двухнедельного карантина, симптомов заболевания у него нет.
 1	10	_	_	_	_	_	_	_	bratA5=T9:Past|bratT9=Date-absolute
 2	апреля	_	_	_	_	_	_	_	bratA5=T9:Past|bratT9=Date-absolute
-3	представитель	_	_	_	_	_	_	_	_
-4	Вайнштейна	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T10:Male|bratT10=Person|bratT19=Person-surname
+3	представитель	_	_	_	_	_	_	_	bratA13=T32:Female|bratT31=Person-property|bratT32=Person
+4	Вайнштейна	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T32:Female|bratA6=T10:Male|bratT10=Person|bratT19=Person-surname|bratT31=Person-property|bratT32=Person
 5	,	_	_	_	_	_	_	_	_
 6	слова	_	_	_	_	_	_	_	_
 7	которой	_	_	_	_	_	_	_	_
@@ -82,11 +82,11 @@
 19	его	_	_	_	_	_	_	_	_
 20	выписали	_	_	_	_	_	_	_	_
 21	из	_	_	_	_	_	_	_	_
-22	медицинского	_	_	_	_	_	_	_	_
-23	изолятора	_	_	_	_	_	_	_	_
+22	медицинского	_	_	_	_	_	_	_	bratA14=T33:Department|bratT33=Organization
+23	изолятора	_	_	_	_	_	_	_	bratA14=T33:Department|bratT33=Organization
 24	после	_	_	_	_	_	_	_	bratA9=T24:Past|bratT24=Date-absolute
-25	двухнедельного	_	_	_	_	_	_	_	bratA9=T24:Past|bratT21=Duration|bratT24=Date-absolute
-26	карантина	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Past|bratT24=Date-absolute
+25	двухнедельного	_	_	_	_	_	_	_	bratA9=T24:Past|bratT21=Duration|bratT24=Date-absolute|bratT29=Event
+26	карантина	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Past|bratT24=Date-absolute|bratT29=Event
 27	,	_	_	_	_	_	_	_	_
 28	симптомов	_	_	_	_	_	_	_	_
 29	заболевания	_	_	_	_	_	_	_	_

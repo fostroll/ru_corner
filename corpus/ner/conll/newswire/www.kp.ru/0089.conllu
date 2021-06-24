@@ -82,7 +82,7 @@
 7	задержание	_	_	_	_	_	_	_	bratT15=Quantity|bratT59=Event
 8	за	_	_	_	_	_	_	_	_
 9	различные	_	_	_	_	_	_	_	_
-10	правонарушения	_	_	_	_	_	_	_	SpaceAfter=No
+10	правонарушения	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event
 11	,	_	_	_	_	_	_	_	_
 12	четверо	_	_	_	_	_	_	_	bratT16=Quantity
 13	полицейских	_	_	_	_	_	_	_	bratT16=Quantity|bratT17=Person-property
@@ -127,7 +127,7 @@
 18	баллончики	_	_	_	_	_	_	_	_
 19	для	_	_	_	_	_	_	_	_
 20	сдерживания	_	_	_	_	_	_	_	_
-21	протестующих	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Other-group
+21	протестующих	_	_	_	_	_	_	_	SpaceAfter=No
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0089-p5
@@ -137,9 +137,9 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	акция	_	_	_	_	_	_	_	bratT33=Event
-4	сторонников	_	_	_	_	_	_	_	bratT33=Event
-5	американского	_	_	_	_	_	_	_	bratA13=T56:Adjective|bratT32=Person-property|bratT33=Event|bratT56=GPE
-6	лидера	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Event
+4	сторонников	_	_	_	_	_	_	_	_
+5	американского	_	_	_	_	_	_	_	bratA13=T56:Adjective|bratT32=Person-property|bratT56=GPE|bratT61=Person
+6	лидера	_	_	_	_	_	_	_	bratT32=Person-property|bratT61=Person
 7	началась	_	_	_	_	_	_	_	_
 8	вечером	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Past|bratT25=Date-absolute|bratT39=Time-absolute
 9	,	_	_	_	_	_	_	_	bratA4=T25:Past|bratT25=Date-absolute
@@ -180,16 +180,16 @@
 # text = Позже к акции присоединились радикалы, которые устроили массовые погромы и беспорядки.
 1	Позже	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-relative
 2	к	_	_	_	_	_	_	_	_
-3	акции	_	_	_	_	_	_	_	_
+3	акции	_	_	_	_	_	_	_	bratT62=Event
 4	присоединились	_	_	_	_	_	_	_	_
 5	радикалы	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-group
 6	,	_	_	_	_	_	_	_	_
 7	которые	_	_	_	_	_	_	_	_
 8	устроили	_	_	_	_	_	_	_	_
-9	массовые	_	_	_	_	_	_	_	_
-10	погромы	_	_	_	_	_	_	_	_
+9	массовые	_	_	_	_	_	_	_	bratT63=Event
+10	погромы	_	_	_	_	_	_	_	bratT63=Event
 11	и	_	_	_	_	_	_	_	_
-12	беспорядки	_	_	_	_	_	_	_	SpaceAfter=No
+12	беспорядки	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p5-s4
@@ -208,8 +208,8 @@
 12	напали	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
 14	сторонников	_	_	_	_	_	_	_	_
-15	действующего	_	_	_	_	_	_	_	bratT30=Person-property
-16	главы	_	_	_	_	_	_	_	bratT30=Person-property
-17	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property|bratT31=GPE
+15	действующего	_	_	_	_	_	_	_	bratT30=Person-property|bratT65=Person
+16	главы	_	_	_	_	_	_	_	bratT30=Person-property|bratT65=Person
+17	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property|bratT31=GPE|bratT65=Person
 18	.	_	_	_	_	_	_	_	_
 

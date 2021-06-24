@@ -65,9 +65,9 @@
 5	25	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Age
 6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Age
 7	летний	_	_	_	_	_	_	_	bratT11=Age
-8	житель	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT36=Nationality
-9	деревни	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT13=GPE|bratT36=Nationality
-10	Ушаково	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T36:Resident|bratT13=GPE|bratT36=Nationality
+8	житель	_	_	_	_	_	_	_	bratA25=T65:Male|bratA9=T36:Resident|bratT36=Nationality|bratT65=Person
+9	деревни	_	_	_	_	_	_	_	bratA25=T65:Male|bratA9=T36:Resident|bratT13=GPE|bratT36=Nationality|bratT65=Person
+10	Ушаково	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T65:Male|bratA9=T36:Resident|bratT13=GPE|bratT36=Nationality|bratT65=Person
 11	,	_	_	_	_	_	_	_	_
 12	находясь	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
@@ -152,7 +152,7 @@
 1	Потом	_	_	_	_	_	_	_	bratA4=T33:Past|bratT33=Date-relative
 2	он	_	_	_	_	_	_	_	_
 3	поджег	_	_	_	_	_	_	_	_
-4	дом	_	_	_	_	_	_	_	SpaceAfter=No
+4	дом	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Facility
 5	,	_	_	_	_	_	_	_	_
 6	попытавшись	_	_	_	_	_	_	_	_
 7	скрыть	_	_	_	_	_	_	_	_
@@ -171,10 +171,10 @@
 5	по	_	_	_	_	_	_	_	_
 6	предварительным	_	_	_	_	_	_	_	_
 7	выводам	_	_	_	_	_	_	_	_
-8	судебно-медицинского	_	_	_	_	_	_	_	bratT29=Person-property
-9	эксперта	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+8	судебно-медицинского	_	_	_	_	_	_	_	bratT29=Person-property|bratT67=Person
+9	эксперта	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property|bratT67=Person
 10	,	_	_	_	_	_	_	_	_
-11	женщина	_	_	_	_	_	_	_	_
+11	женщина	_	_	_	_	_	_	_	bratA26=T68:Female|bratT68=Person
 12	была	_	_	_	_	_	_	_	_
 13	беременна	_	_	_	_	_	_	_	SpaceAfter=No
 14	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No

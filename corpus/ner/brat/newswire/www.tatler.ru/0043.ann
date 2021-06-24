@@ -6,7 +6,6 @@ T5	Other-term 59 72	коронавирусом
 T6	Organization 106 135	королевского   двора   Швеции
 T7	GPE 129 135	Швеции
 T8	Other-term 142 155	коронавирусом
-T9	Person 169 190	принц   Карл   Филипп
 T10	Person-property 169 174	принц
 T11	Quantity 197 215	единственный   сын
 T12	Family 212 215	сын
@@ -43,7 +42,6 @@ A2	Male T1
 A3	Female T3
 T41	Person-forename 8 21	Карл   Филипп
 T42	Person-forename 40 45	София
-A4	Male T9
 T43	Person-forename 177 190	Карл   Филипп
 A5	Male T13
 A6	Female T14
@@ -62,7 +60,7 @@ A12	Female T39
 A13	Male T37
 T51	Person-forename 980 987	Сильвии
 T52	Person-forename 990 1011	Вальтера   Зоммерлата
-T53	Person 197 294	единственный   сын   правящего   короля   Швеции   Карла   XVI   Густава   и   королевы   Сильвии
+T53	Person 169 294	принц   Карл   Филипп   -   единственный   сын   правящего   короля   Швеции   Карла   XVI   Густава   и   королевы   Сильвии
 A14	Male T53
 T54	Person-property 746 752	король
 T55	Person-property 759 767	королева
@@ -85,3 +83,14 @@ T68	Duration 850 866	несколько   дней
 T69	Date-absolute 850 874	несколько   дней   назад
 A17	Past T69
 T70	Family 461 467	детьми
+T71	Person 746 752	король
+A18	Male T71
+T72	Person 759 767	королева
+A19	Female T72
+T73	Person 746 776	король   и   королева   Швеции
+A20	Plural T73
+T9	Person 364 371	супруги
+T74	Person 452 547	своими   детьми   -   4 - летним   принцем   Александром   и   3 - летним   принцем   Габриэлем
+A4	Plural T74
+A21	Male T74
+T75	Person 912 941	членами   королевской   семьи

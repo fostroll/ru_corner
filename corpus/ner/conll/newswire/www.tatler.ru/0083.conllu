@@ -8,11 +8,11 @@
 3	Маркл	_	_	_	_	_	_	_	bratA2=T1:Male|bratA3=T2:Female|bratT1=Person|bratT2=Person|bratT39=Person-surname
 4	Томас	_	_	_	_	_	_	_	bratA2=T1:Male|bratT1=Person|bratT40=Person-forename
 5	прокомментировал	_	_	_	_	_	_	_	_
-6	крестины	_	_	_	_	_	_	_	_
+6	крестины	_	_	_	_	_	_	_	bratT74=Event
 7	своего	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person
 8	внука	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person|bratT4=Family
 9	Арчи	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person|bratT42=Person-forename
-10	Харрисона	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person|bratT43=Person-surname
+10	Харрисона	_	_	_	_	_	_	_	bratA4=T3:Male|bratT3=Person|bratT42=Person-forename
 
 # newpar id = 0083-p2
 # par_text = 6 июля в личной часовне Елизаветы II на территории Виндзорского дворца состоялось крещение первенца принца Гарри и Меган Маркл Арчи Харрисона. На церемонии присутствовали только самые близкие, в числе которых была и мама герцогини Суссекской Дория Рэгланд. А вот отца Томаса Маркла Меган на праздник не пригласила: она перестала общаться с ним еще до свадьбы с принцем Гарри, после того как выяснилось, что Томас был в сговоре с папарацци. С тех пор мужчина не устает давать душераздирающие интервью о том, как он страдает от отчужденности дочери. Крещение его внука, конечно, стало еще одним поводом поговорить с журналистами.
@@ -38,13 +38,13 @@
 18	Меган	_	_	_	_	_	_	_	bratA8=T12:Male|bratA9=T11:Female|bratT11=Person|bratT12=Person|bratT46=Person-forename
 19	Маркл	_	_	_	_	_	_	_	bratA8=T12:Male|bratA9=T11:Female|bratT11=Person|bratT12=Person|bratT47=Person-surname
 20	Арчи	_	_	_	_	_	_	_	bratA8=T12:Male|bratT12=Person|bratT48=Person-forename
-21	Харрисона	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT49=Person-surname
+21	Харрисона	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T12:Male|bratT12=Person|bratT48=Person-forename
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p2-s2
 # text = На церемонии присутствовали только самые близкие, в числе которых была и мама герцогини Суссекской Дория Рэгланд.
 1	На	_	_	_	_	_	_	_	_
-2	церемонии	_	_	_	_	_	_	_	_
+2	церемонии	_	_	_	_	_	_	_	bratT73=Event
 3	присутствовали	_	_	_	_	_	_	_	_
 4	только	_	_	_	_	_	_	_	_
 5	самые	_	_	_	_	_	_	_	_
@@ -56,8 +56,8 @@
 11	была	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
 13	мама	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT16=Family
-14	герцогини	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT15=Person-property
-15	Суссекской	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT15=Person-property
+14	герцогини	_	_	_	_	_	_	_	bratA10=T14:Female|bratA26=T49:Female|bratT14=Person|bratT15=Person-property|bratT49=Person
+15	Суссекской	_	_	_	_	_	_	_	bratA10=T14:Female|bratA25=T43:Adjective|bratA26=T49:Female|bratT14=Person|bratT15=Person-property|bratT43=GPE|bratT49=Person
 16	Дория	_	_	_	_	_	_	_	bratA10=T14:Female|bratT14=Person|bratT50=Person-forename
 17	Рэгланд	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Female|bratT14=Person|bratT51=Person-surname
 18	.	_	_	_	_	_	_	_	_
@@ -69,9 +69,9 @@
 3	отца	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT18=Family
 4	Томаса	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT52=Person-forename
 5	Маркла	_	_	_	_	_	_	_	bratA11=T17:Male|bratT17=Person|bratT53=Person-surname
-6	Меган	_	_	_	_	_	_	_	bratA12=T26:Female|bratT26=Person
+6	Меган	_	_	_	_	_	_	_	bratA12=T26:Female|bratT26=Person|bratT76=Person-forename
 7	на	_	_	_	_	_	_	_	_
-8	праздник	_	_	_	_	_	_	_	_
+8	праздник	_	_	_	_	_	_	_	bratT72=Event
 9	не	_	_	_	_	_	_	_	_
 10	пригласила	_	_	_	_	_	_	_	SpaceAfter=No
 11	:	_	_	_	_	_	_	_	_
@@ -98,7 +98,7 @@
 32	в	_	_	_	_	_	_	_	_
 33	сговоре	_	_	_	_	_	_	_	_
 34	с	_	_	_	_	_	_	_	_
-35	папарацци	_	_	_	_	_	_	_	SpaceAfter=No
+35	папарацци	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Person-property
 36	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p2-s4
@@ -106,12 +106,12 @@
 1	С	_	_	_	_	_	_	_	bratA19=T62:Past-Pres|bratA23=T62:RCont|bratT62=Date-period-relative
 2	тех	_	_	_	_	_	_	_	bratA19=T62:Past-Pres|bratA23=T62:RCont|bratT62=Date-period-relative
 3	пор	_	_	_	_	_	_	_	bratA19=T62:Past-Pres|bratA23=T62:RCont|bratT62=Date-period-relative
-4	мужчина	_	_	_	_	_	_	_	_
+4	мужчина	_	_	_	_	_	_	_	bratA27=T77:Male|bratT77=Person
 5	не	_	_	_	_	_	_	_	_
 6	устает	_	_	_	_	_	_	_	_
 7	давать	_	_	_	_	_	_	_	_
 8	душераздирающие	_	_	_	_	_	_	_	_
-9	интервью	_	_	_	_	_	_	_	_
+9	интервью	_	_	_	_	_	_	_	bratT66=Event
 10	о	_	_	_	_	_	_	_	_
 11	том	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -120,12 +120,12 @@
 15	страдает	_	_	_	_	_	_	_	_
 16	от	_	_	_	_	_	_	_	_
 17	отчужденности	_	_	_	_	_	_	_	_
-18	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Family
+18	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T78:Female|bratT23=Family|bratT78=Person
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p2-s5
 # text = Крещение его внука, конечно, стало еще одним поводом поговорить с журналистами.
-1	Крещение	_	_	_	_	_	_	_	_
+1	Крещение	_	_	_	_	_	_	_	bratT79=Event
 2	его	_	_	_	_	_	_	_	bratA20=T63:Male|bratT63=Person
 3	внука	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T63:Male|bratT24=Family|bratT63=Person
 4	,	_	_	_	_	_	_	_	_
@@ -144,7 +144,7 @@
 # par_text = Томас рассказал Daily Mail, что ему очень жаль, что его не было с семьей в столь важный день: «Меня спрашивали, хотел бы я поехать в Британию, чтобы увидеть, как крестят моего внука... Когда мне было 12 лет, я был церковным министрантом, я был верным членом церкви, когда мне было 14 лет. Арчи — мой внук. Поэтому, конечно, мне было бы приятно находиться там для благословения, я бы хотел пожелать Арчи и его родителям здоровья и счастья».
 # sent_id = 0083-p3-s1
 # text = Томас рассказал Daily Mail, что ему очень жаль, что его не было с семьей в столь важный день: ``Меня спрашивали, хотел бы я поехать в Британию, чтобы увидеть, как крестят моего внука...
-1	Томас	_	_	_	_	_	_	_	_
+1	Томас	_	_	_	_	_	_	_	bratA29=T81:Male|bratT80=Person-forename|bratT81=Person
 2	рассказал	_	_	_	_	_	_	_	_
 3	Daily	_	_	_	_	_	_	_	bratA1=T28:Media|bratT28=Organization
 4	Mail	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T28:Media|bratT28=Organization
@@ -159,7 +159,7 @@
 13	не	_	_	_	_	_	_	_	_
 14	было	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
-16	семьей	_	_	_	_	_	_	_	bratT29=Family
+16	семьей	_	_	_	_	_	_	_	bratT29=Family|bratT82=Person
 17	в	_	_	_	_	_	_	_	_
 18	столь	_	_	_	_	_	_	_	_
 19	важный	_	_	_	_	_	_	_	_
@@ -202,7 +202,7 @@
 13	был	_	_	_	_	_	_	_	_
 14	верным	_	_	_	_	_	_	_	bratT65=Religious-group
 15	членом	_	_	_	_	_	_	_	bratT65=Religious-group
-16	церкви	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Religious-group
+16	церкви	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Religious-group|bratT71=Organization
 17	,	_	_	_	_	_	_	_	_
 18	когда	_	_	_	_	_	_	_	_
 19	мне	_	_	_	_	_	_	_	_
@@ -215,8 +215,8 @@
 # text = Арчи - мой внук.
 1	Арчи	_	_	_	_	_	_	_	bratA15=T35:Male|bratT35=Person|bratT56=Person-forename
 2	-	_	_	_	_	_	_	_	_
-3	мой	_	_	_	_	_	_	_	bratA22=T66:Male|bratT66=Person
-4	внук	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T66:Male|bratT36=Family|bratT66=Person
+3	мой	_	_	_	_	_	_	_	_
+4	внук	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Family
 5	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p3-s4

@@ -58,7 +58,7 @@
 1	Отменился	_	_	_	_	_	_	_	_
 2	не	_	_	_	_	_	_	_	_
 3	только	_	_	_	_	_	_	_	_
-4	киносмотр	_	_	_	_	_	_	_	_
+4	киносмотр	_	_	_	_	_	_	_	bratT30=Event
 5	на	_	_	_	_	_	_	_	_
 6	Лазурном	_	_	_	_	_	_	_	bratT8=Location
 7	берегу	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Location
@@ -67,7 +67,7 @@
 10	и	_	_	_	_	_	_	_	_
 11	другие	_	_	_	_	_	_	_	_
 12	известные	_	_	_	_	_	_	_	_
-13	фестивали	_	_	_	_	_	_	_	SpaceAfter=No
+13	фестивали	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p2-s4
@@ -127,15 +127,15 @@
 7	участие	_	_	_	_	_	_	_	_
 8	более	_	_	_	_	_	_	_	bratT13=Quantity
 9	20	_	_	_	_	_	_	_	bratT13=Quantity
-10	мировых	_	_	_	_	_	_	_	bratA8=T29:Adjective|bratT13=Quantity|bratT29=GPE
-11	кинофестивалей	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
+10	мировых	_	_	_	_	_	_	_	bratA11=T32:Plural|bratA8=T29:Adjective|bratT13=Quantity|bratT29=GPE|bratT32=Event
+11	кинофестивалей	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T32:Plural|bratT13=Quantity|bratT32=Event
 12	,	_	_	_	_	_	_	_	_
 13	включая	_	_	_	_	_	_	_	_
-14	Каннский	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Event
+14	Каннский	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T33:Adjective|bratT14=Event|bratT33=GPE
 15	,	_	_	_	_	_	_	_	_
-16	Берлинский	_	_	_	_	_	_	_	bratT15=Event
+16	Берлинский	_	_	_	_	_	_	_	bratA9=T34:Adjective|bratT15=Event|bratT34=GPE
 17	и	_	_	_	_	_	_	_	_
-18	Венецианский	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Event
+18	Венецианский	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Adjective|bratT16=Event|bratT35=GPE
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p3-s4
@@ -187,7 +187,7 @@
 20	так	_	_	_	_	_	_	_	_
 21	что	_	_	_	_	_	_	_	_
 22	работы	_	_	_	_	_	_	_	_
-23	конкурсантов	_	_	_	_	_	_	_	_
+23	конкурсантов	_	_	_	_	_	_	_	bratT36=Person-property
 24	этого	_	_	_	_	_	_	_	bratA6=T19:Past-Fut|bratT19=Date-period-absolute|bratT26=Ordinal
 25	года	_	_	_	_	_	_	_	bratA6=T19:Past-Fut|bratT19=Date-period-absolute
 26	демонстрироваться	_	_	_	_	_	_	_	_

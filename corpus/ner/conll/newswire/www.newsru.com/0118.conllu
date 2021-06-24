@@ -45,8 +45,8 @@
 22	в	_	_	_	_	_	_	_	_
 23	суд	_	_	_	_	_	_	_	bratT41=Organization
 24	на	_	_	_	_	_	_	_	_
-25	организаторов	_	_	_	_	_	_	_	bratT8=Person-property
-26	турнира	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Event|bratT8=Person-property
+25	организаторов	_	_	_	_	_	_	_	bratT8=Organization
+26	турнира	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Event|bratT8=Organization
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0118-p3
@@ -57,7 +57,7 @@
 2	своего	_	_	_	_	_	_	_	bratA8=T33:Past|bratT33=Date-absolute
 3	снятия	_	_	_	_	_	_	_	bratA8=T33:Past|bratT33=Date-absolute|bratT37=Event
 4	с	_	_	_	_	_	_	_	bratT37=Event
-5	соревнований	_	_	_	_	_	_	_	bratT37=Event
+5	соревнований	_	_	_	_	_	_	_	bratT37=Event|bratT43=Event
 6	испанец	_	_	_	_	_	_	_	bratA1=T9:Citizenship|bratT9=Nationality
 7	ещё	_	_	_	_	_	_	_	bratT10=Quantity
 8	дважды	_	_	_	_	_	_	_	bratT10=Quantity
@@ -142,12 +142,12 @@
 14	-	_	_	_	_	_	_	_	_
 15	цитирует	_	_	_	_	_	_	_	_
 16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
-17	Чемпионат	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+17	Чемпионат	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization|bratT44=Event
 18	''	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Organization
 19	заявление	_	_	_	_	_	_	_	_
 20	Вердаско	_	_	_	_	_	_	_	bratA9=T17:Male|bratT17=Person|bratT34=Person-surname
 21	в	_	_	_	_	_	_	_	_
-22	интервью	_	_	_	_	_	_	_	_
+22	интервью	_	_	_	_	_	_	_	bratT46=Event
 23	изданию	_	_	_	_	_	_	_	bratA3=T18:Media|bratT18=Organization
 24	Cadena	_	_	_	_	_	_	_	bratA3=T18:Media|bratT18=Organization
 25	Ser	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T18:Media|bratT18=Organization
@@ -237,6 +237,6 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	добавил	_	_	_	_	_	_	_	_
-9	исапнец	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T28:Citizenship|bratT28=Nationality
+9	исапнец	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T45:Male|bratA4=T28:Citizenship|bratT28=Nationality|bratT45=Person
 10	.	_	_	_	_	_	_	_	_
 

@@ -4,11 +4,11 @@
 # sent_id = 0121-p1-s1
 # text = Отец Дэвида Бекхэма встречается с миллионершей
 1	Отец	_	_	_	_	_	_	_	bratA1=T2:Male|bratT1=Family|bratT2=Person
-2	Дэвида	_	_	_	_	_	_	_	bratA1=T2:Male|bratT2=Person|bratT3=Person-forename
-3	Бекхэма	_	_	_	_	_	_	_	bratA1=T2:Male|bratT2=Person|bratT4=Person-surname
+2	Дэвида	_	_	_	_	_	_	_	bratA1=T2:Male|bratA27=T74:Male|bratT2=Person|bratT3=Person-forename|bratT74=Person
+3	Бекхэма	_	_	_	_	_	_	_	bratA1=T2:Male|bratA27=T74:Male|bratT2=Person|bratT4=Person-surname|bratT74=Person
 4	встречается	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
-6	миллионершей	_	_	_	_	_	_	_	bratT56=Person-property
+6	миллионершей	_	_	_	_	_	_	_	bratA23=T68:Female|bratT56=Person-property|bratT68=Person
 
 # newpar id = 0121-p2
 # par_text = Похоже, в жизни 70-летнего отца Дэвида Бекхэма Теда наступает новая глава. Бывший сборщик мебели встретил свою любовь. В апреле этого года Тед познакомился с Хилари Мередит, известным британским адвокатом и обладательницей завидного мультимиллионного состояния. При этом знакомство состоялось без участия знаменитого сына Теда — они с Хилари встретились совершенно случайно в одном из домов по уходу за пожилыми людьми. И вот несколько месяцев спустя уже в статусе нового возлюбленного Тед отправился вместе с Хилари на ее виллу на Майорке, чтобы вместе с большой компанией друзей отметить ее 60-летие. Близкие к Мередит источники поделились с прессой информацией, что роман развивается стремительно. Однако с сыном и его семьей Тед новую пассию пока не познакомил.
@@ -33,7 +33,7 @@
 
 # sent_id = 0121-p2-s2
 # text = Бывший сборщик мебели встретил свою любовь.
-1	Бывший	_	_	_	_	_	_	_	_
+1	Бывший	_	_	_	_	_	_	_	bratT11=Person-property
 2	сборщик	_	_	_	_	_	_	_	bratT11=Person-property
 3	мебели	_	_	_	_	_	_	_	bratT11=Person-property
 4	встретил	_	_	_	_	_	_	_	_
@@ -52,10 +52,10 @@
 7	с	_	_	_	_	_	_	_	_
 8	Хилари	_	_	_	_	_	_	_	bratA4=T15:Female|bratT15=Person|bratT16=Person-forename
 9	Мередит	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T15:Female|bratT15=Person|bratT17=Person-surname
-10	,	_	_	_	_	_	_	_	_
-11	известным	_	_	_	_	_	_	_	bratT18=Person-property
-12	британским	_	_	_	_	_	_	_	bratA19=T58:Adjective|bratT18=Person-property|bratT58=GPE
-13	адвокатом	_	_	_	_	_	_	_	bratT18=Person-property
+10	,	_	_	_	_	_	_	_	bratA4=T15:Female|bratT15=Person
+11	известным	_	_	_	_	_	_	_	bratA4=T15:Female|bratT15=Person|bratT18=Person-property
+12	британским	_	_	_	_	_	_	_	bratA19=T58:Adjective|bratA4=T15:Female|bratT15=Person|bratT18=Person-property|bratT58=GPE
+13	адвокатом	_	_	_	_	_	_	_	bratA4=T15:Female|bratT15=Person|bratT18=Person-property
 14	и	_	_	_	_	_	_	_	_
 15	обладательницей	_	_	_	_	_	_	_	_
 16	завидного	_	_	_	_	_	_	_	_
@@ -73,7 +73,7 @@
 6	участия	_	_	_	_	_	_	_	_
 7	знаменитого	_	_	_	_	_	_	_	_
 8	сына	_	_	_	_	_	_	_	bratA5=T20:Male|bratT19=Family|bratT20=Person
-9	Теда	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person|bratT21=Person-forename
+9	Теда	_	_	_	_	_	_	_	bratA28=T75:Male|bratA5=T20:Male|bratT20=Person|bratT21=Person-forename|bratT75=Person
 10	-	_	_	_	_	_	_	_	_
 11	они	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
@@ -111,7 +111,7 @@
 15	Хилари	_	_	_	_	_	_	_	bratA8=T27:Female|bratT27=Person|bratT28=Person-forename
 16	на	_	_	_	_	_	_	_	_
 17	ее	_	_	_	_	_	_	_	_
-18	виллу	_	_	_	_	_	_	_	_
+18	виллу	_	_	_	_	_	_	_	bratT76=Facility
 19	на	_	_	_	_	_	_	_	_
 20	Майорке	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE
 21	,	_	_	_	_	_	_	_	_
@@ -137,11 +137,11 @@
 4	источники	_	_	_	_	_	_	_	bratT65=Person
 5	поделились	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
-7	прессой	_	_	_	_	_	_	_	_
+7	прессой	_	_	_	_	_	_	_	bratA22=T67:Media|bratT67=Organization
 8	информацией	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
-11	роман	_	_	_	_	_	_	_	_
+11	роман	_	_	_	_	_	_	_	bratT66=Event
 12	развивается	_	_	_	_	_	_	_	_
 13	стремительно	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
@@ -150,13 +150,13 @@
 # text = Однако с сыном и его семьей Тед новую пассию пока не познакомил.
 1	Однако	_	_	_	_	_	_	_	_
 2	с	_	_	_	_	_	_	_	_
-3	сыном	_	_	_	_	_	_	_	bratT33=Family
+3	сыном	_	_	_	_	_	_	_	bratA24=T69:Male|bratT33=Family|bratT69=Person
 4	и	_	_	_	_	_	_	_	_
-5	его	_	_	_	_	_	_	_	_
-6	семьей	_	_	_	_	_	_	_	bratT34=Family
+5	его	_	_	_	_	_	_	_	bratT70=Person
+6	семьей	_	_	_	_	_	_	_	bratT34=Family|bratT70=Person
 7	Тед	_	_	_	_	_	_	_	bratA9=T35:Male|bratT35=Person|bratT36=Person-forename
-8	новую	_	_	_	_	_	_	_	_
-9	пассию	_	_	_	_	_	_	_	_
+8	новую	_	_	_	_	_	_	_	bratA25=T71:Female|bratT71=Person
+9	пассию	_	_	_	_	_	_	_	bratA25=T71:Female|bratT71=Person
 10	пока	_	_	_	_	_	_	_	_
 11	не	_	_	_	_	_	_	_	_
 12	познакомил	_	_	_	_	_	_	_	SpaceAfter=No
@@ -193,14 +193,14 @@
 # text = По признанию отца, Дэвид очень тяжело переживал развод родителей, несмотря на то что уже давно не жил с ними и на тот момент был три года женат на Виктории.
 1	По	_	_	_	_	_	_	_	_
 2	признанию	_	_	_	_	_	_	_	_
-3	отца	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Family
+3	отца	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T72:Male|bratT47=Family|bratT72=Person
 4	,	_	_	_	_	_	_	_	_
 5	Дэвид	_	_	_	_	_	_	_	bratA14=T48:Male|bratT48=Person|bratT49=Person-forename
 6	очень	_	_	_	_	_	_	_	_
 7	тяжело	_	_	_	_	_	_	_	_
 8	переживал	_	_	_	_	_	_	_	_
 9	развод	_	_	_	_	_	_	_	bratT62=Event
-10	родителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Family|bratT62=Event
+10	родителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Family|bratT62=Event|bratT73=Person
 11	,	_	_	_	_	_	_	_	_
 12	несмотря	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_

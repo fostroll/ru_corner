@@ -89,7 +89,7 @@
 # sent_id = 0110-p2-s4
 # text = Такой модель увидел литовский художник ASPENCROW - и создал скульптуру, которая теперь выставлена в лондонской галерее JD Malat.
 1	Такой	_	_	_	_	_	_	_	_
-2	модель	_	_	_	_	_	_	_	bratT14=Person-property
+2	модель	_	_	_	_	_	_	_	bratA19=T37:Female|bratT14=Person-property|bratT37=Person
 3	увидел	_	_	_	_	_	_	_	_
 4	литовский	_	_	_	_	_	_	_	bratA10=T15:Adjective|bratA11=T18:Male|bratT15=GPE|bratT16=Person-property|bratT18=Person
 5	художник	_	_	_	_	_	_	_	bratA11=T18:Male|bratT16=Person-property|bratT18=Person
@@ -126,7 +126,7 @@
 
 # sent_id = 0110-p3-s2
 # text = Художник хоть и сделал скульптуру с лицом Делевинь, но назвал ее в честь Олимпии де Гуж - французской писательницы и феминистки, которая жила в XVIII веке и была казнена за свои взгляды.
-1	Художник	_	_	_	_	_	_	_	bratT21=Person-property
+1	Художник	_	_	_	_	_	_	_	bratA20=T38:Male|bratT21=Person-property|bratT38=Person
 2	хоть	_	_	_	_	_	_	_	_
 3	и	_	_	_	_	_	_	_	_
 4	сделал	_	_	_	_	_	_	_	_
@@ -143,11 +143,11 @@
 15	Олимпии	_	_	_	_	_	_	_	bratA14=T26:Female|bratT24=Person-forename|bratT26=Person
 16	де	_	_	_	_	_	_	_	bratA14=T26:Female|bratT25=Person-surname|bratT26=Person
 17	Гуж	_	_	_	_	_	_	_	bratA14=T26:Female|bratT25=Person-surname|bratT26=Person
-18	-	_	_	_	_	_	_	_	_
-19	французской	_	_	_	_	_	_	_	bratA15=T27:Adjective|bratT27=GPE|bratT28=Person-property
-20	писательницы	_	_	_	_	_	_	_	bratT28=Person-property
-21	и	_	_	_	_	_	_	_	_
-22	феминистки	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Person-property
+18	-	_	_	_	_	_	_	_	bratA14=T26:Female|bratT26=Person
+19	французской	_	_	_	_	_	_	_	bratA14=T26:Female|bratA15=T27:Adjective|bratA21=T39:Plural|bratT26=Person|bratT27=GPE|bratT39=Person
+20	писательницы	_	_	_	_	_	_	_	bratA14=T26:Female|bratA21=T39:Plural|bratT26=Person|bratT28=Person-property|bratT39=Person
+21	и	_	_	_	_	_	_	_	bratA14=T26:Female|bratA21=T39:Plural|bratT26=Person|bratT39=Person
+22	феминистки	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T26:Female|bratA21=T39:Plural|bratT26=Person|bratT29=Person-property|bratT39=Person
 23	,	_	_	_	_	_	_	_	_
 24	которая	_	_	_	_	_	_	_	_
 25	жила	_	_	_	_	_	_	_	_
@@ -187,7 +187,7 @@
 21	,	_	_	_	_	_	_	_	_
 22	-	_	_	_	_	_	_	_	_
 23	говорит	_	_	_	_	_	_	_	_
-24	художник	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property
+24	художник	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T40:Male|bratT33=Person-property|bratT40=Person
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0110-p4

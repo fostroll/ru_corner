@@ -26,13 +26,13 @@
 
 # sent_id = 0085-p2-s2
 # text = Представители общественного движения ``Мужской путь'' уверены, что запрет на оплату данной процедуры из средств Фонда обязательного медицинского страхования (ОМС) положительно скажется на демографии.
-1	Представители	_	_	_	_	_	_	_	bratT8=Other-group
-2	общественного	_	_	_	_	_	_	_	bratT5=Organization
-3	движения	_	_	_	_	_	_	_	bratT5=Organization
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
-5	Мужской	_	_	_	_	_	_	_	bratT5=Organization
-6	путь	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
-7	''	_	_	_	_	_	_	_	bratT5=Organization
+1	Представители	_	_	_	_	_	_	_	bratT8=Person-property
+2	общественного	_	_	_	_	_	_	_	bratT5=Organization|bratT8=Person-property
+3	движения	_	_	_	_	_	_	_	bratT5=Organization|bratT8=Person-property
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization|bratT8=Person-property
+5	Мужской	_	_	_	_	_	_	_	bratT5=Organization|bratT8=Person-property
+6	путь	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization|bratT8=Person-property
+7	''	_	_	_	_	_	_	_	bratT5=Organization|bratT8=Person-property
 8	уверены	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
@@ -60,8 +60,8 @@
 # par_text = Представители движения отмечают, что нужно разработать госпрограмму, которая сможет сформировать у женщин стойкое непринятие искусственного прерывания беременности.
 # sent_id = 0085-p3-s1
 # text = Представители движения отмечают, что нужно разработать госпрограмму, которая сможет сформировать у женщин стойкое непринятие искусственного прерывания беременности.
-1	Представители	_	_	_	_	_	_	_	bratT9=Other-group
-2	движения	_	_	_	_	_	_	_	bratT45=Organization
+1	Представители	_	_	_	_	_	_	_	bratT9=Person-property
+2	движения	_	_	_	_	_	_	_	bratT45=Organization|bratT9=Person-property
 3	отмечают	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -78,7 +78,7 @@
 16	непринятие	_	_	_	_	_	_	_	_
 17	искусственного	_	_	_	_	_	_	_	bratT46=Event
 18	прерывания	_	_	_	_	_	_	_	bratT46=Event
-19	беременности	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event
+19	беременности	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event|bratT47=Event
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0085-p4
@@ -216,7 +216,7 @@
 13	,	_	_	_	_	_	_	_	_
 14	где	_	_	_	_	_	_	_	_
 15	прерывание	_	_	_	_	_	_	_	_
-16	беременности	_	_	_	_	_	_	_	_
+16	беременности	_	_	_	_	_	_	_	bratT48=Event
 17	и	_	_	_	_	_	_	_	_
 18	вовсе	_	_	_	_	_	_	_	_
 19	запрещено	_	_	_	_	_	_	_	SpaceAfter=No

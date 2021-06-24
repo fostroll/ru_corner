@@ -38,8 +38,7 @@ T35	Person 1707 1729	командир   Юрий   Ищук
 T36	Person-property 1736 1745	лейтенант
 T37	Person 1736 1761	лейтенант   Роман   Федин
 T38	Quantity 1766 1786	Еще   один   человек
-T39	Person-property 1793 1808	летчик-оператор
-T40	Person-property 1815 1830	штурман   звена
+T39	Person-property 1793 1830	летчик-оператор   -   штурман   звена
 T41	Person-property 1859 1868	Президент
 T42	Person 1859 1887	Президент   Владимир   Путин
 T43	Person-property 1900 1918	министру   обороны
@@ -68,7 +67,6 @@ A11	Male T37
 T57	Person-forename 1871 1879	Владимир
 T58	Person-surname 1882 1887	Путин
 A12	Male T42
-T59	Other-group 1949 1957	погибших
 A13	Past T29
 T60	Person-property 1685 1700	члена   экипажа
 T62	Event 645 653	крушение
@@ -77,7 +75,7 @@ T65	Event 824 829	войне
 T66	Event 843 848	войне
 T67	Event 356 361	войне
 T68	Event 375 380	войне
-T69	Event 1041 1054	расследовании
+T69	Event 1041 1070	расследовании   произошедшего
 T71	Event 1258 1267	трагедией
 T72	Cardinal 260 262	24
 T74	Cardinal 1302 1304	24
@@ -98,3 +96,9 @@ T80	Organization 1557 1566	ведомства
 T81	Event 702 714	произошедшее
 T82	Event 1057 1070	произошедшего
 T83	Event 1104 1112	крушении
+T63	Organization 1693 1700	экипажа
+A19	Department T63
+T40	Person 1949 1957	погибших
+T59	Event 30 37	ошибкой
+T84	Event 397 402	ответ
+T85	Event 672 680	интервью

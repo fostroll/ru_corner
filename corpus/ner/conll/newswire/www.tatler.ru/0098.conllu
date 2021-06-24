@@ -19,18 +19,18 @@
 1	Успешная	_	_	_	_	_	_	_	_
 2	карьера	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	титул	_	_	_	_	_	_	_	_
+4	титул	_	_	_	_	_	_	_	bratT5=Person-property
 5	самой	_	_	_	_	_	_	_	bratT5=Person-property
 6	высокооплачиваемой	_	_	_	_	_	_	_	bratT5=Person-property
 7	модели	_	_	_	_	_	_	_	bratT5=Person-property
 8	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=GPE|bratT5=Person-property
 9	,	_	_	_	_	_	_	_	_
 10	счастливый	_	_	_	_	_	_	_	_
-11	брак	_	_	_	_	_	_	_	_
+11	брак	_	_	_	_	_	_	_	bratT22=Event
 12	и	_	_	_	_	_	_	_	_
-13	двое	_	_	_	_	_	_	_	bratT7=Quantity
-14	очаровательных	_	_	_	_	_	_	_	bratT7=Quantity
-15	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Family|bratT7=Quantity
+13	двое	_	_	_	_	_	_	_	bratT23=Person|bratT7=Quantity
+14	очаровательных	_	_	_	_	_	_	_	bratT23=Person|bratT7=Quantity
+15	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person|bratT6=Family|bratT7=Quantity
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p2-s2
@@ -59,7 +59,7 @@
 
 # sent_id = 0098-p2-s4
 # text = Супермодель написала мемуары ``Уроки: мой путь к осмысленной жизни'' и в преддверии выхода книги дала интервью изданию People, в котором призналась, что долгое время находилась в депрессии и даже думала о суициде.
-1	Супермодель	_	_	_	_	_	_	_	bratT12=Person-property
+1	Супермодель	_	_	_	_	_	_	_	bratA7=T24:Female|bratT12=Person-property|bratT24=Person
 2	написала	_	_	_	_	_	_	_	_
 3	мемуары	_	_	_	_	_	_	_	bratT13=Work-of-art
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
@@ -77,7 +77,7 @@
 16	выхода	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute|bratT21=Event
 17	книги	_	_	_	_	_	_	_	bratT21=Event
 18	дала	_	_	_	_	_	_	_	_
-19	интервью	_	_	_	_	_	_	_	_
+19	интервью	_	_	_	_	_	_	_	bratT26=Event
 20	изданию	_	_	_	_	_	_	_	bratA4=T15:Media|bratT15=Organization
 21	People	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T15:Media|bratT15=Organization
 22	,	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 34	даже	_	_	_	_	_	_	_	_
 35	думала	_	_	_	_	_	_	_	_
 36	о	_	_	_	_	_	_	_	_
-37	суициде	_	_	_	_	_	_	_	SpaceAfter=No
+37	суициде	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event
 38	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p3

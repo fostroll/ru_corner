@@ -36,7 +36,7 @@
 16	считают	_	_	_	_	_	_	_	_
 17	правильным	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
-19	введением	_	_	_	_	_	_	_	_
+19	введением	_	_	_	_	_	_	_	bratT58=Event
 20	системы	_	_	_	_	_	_	_	bratA2=T15:Project|bratT15=Product
 21	идентификации	_	_	_	_	_	_	_	bratA2=T15:Project|bratT15=Product
 22	Fan	_	_	_	_	_	_	_	bratA2=T15:Project|bratT15=Product
@@ -82,7 +82,7 @@
 2	бы	_	_	_	_	_	_	_	_
 3	неплохо	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
-5	введением	_	_	_	_	_	_	_	_
+5	введением	_	_	_	_	_	_	_	bratT57=Event
 6	обязательной	_	_	_	_	_	_	_	_
 7	идентификации	_	_	_	_	_	_	_	_
 8	провести	_	_	_	_	_	_	_	_
@@ -137,14 +137,14 @@
 9	может	_	_	_	_	_	_	_	_
 10	стать	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute
-12	начала	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute
-13	следующего	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute|bratT31=Ordinal|bratT42=Event
-14	сезона	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute|bratT42=Event
-15	-	_	_	_	_	_	_	_	bratT42=Event
+12	начала	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute|bratT60=Event
+13	следующего	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute|bratT31=Ordinal|bratT42=Event|bratT60=Event
+14	сезона	_	_	_	_	_	_	_	bratA11=T29:Fut|bratT29=Date-period-absolute|bratT42=Event|bratT60=Event
+15	-	_	_	_	_	_	_	_	bratT42=Event|bratT60=Event
 16-18	2021/22	_	_	_	_	_	_	_	SpaceAfter=No
-16	2021	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute
-17	/	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute
-18	22	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute
+16	2021	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute|bratT60=Event
+17	/	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute|bratT60=Event
+18	22	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T46:Fut|bratT42=Event|bratT46=Date-period-absolute|bratT60=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0103-p4-s2
@@ -158,7 +158,7 @@
 7	матчей	_	_	_	_	_	_	_	bratT39=Event
 8	чемпионата	_	_	_	_	_	_	_	bratT38=Event|bratT39=Event
 9	из-за	_	_	_	_	_	_	_	_
-10	введения	_	_	_	_	_	_	_	_
+10	введения	_	_	_	_	_	_	_	bratT59=Event
 11	Fan	_	_	_	_	_	_	_	bratA4=T17:Project|bratT17=Product
 12	ID	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T17:Project|bratT17=Product
 13	.	_	_	_	_	_	_	_	_

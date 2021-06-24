@@ -19,7 +19,7 @@
 4	США	_	_	_	_	_	_	_	bratT5=GPE
 5	отметят	_	_	_	_	_	_	_	_
 6	большой	_	_	_	_	_	_	_	_
-7	праздник	_	_	_	_	_	_	_	_
+7	праздник	_	_	_	_	_	_	_	bratT59=Event
 8	-	_	_	_	_	_	_	_	_
 9	День	_	_	_	_	_	_	_	bratT36=Event
 10	матери	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Family|bratT36=Event
@@ -44,17 +44,17 @@
 15	со	_	_	_	_	_	_	_	_
 16	своим	_	_	_	_	_	_	_	bratA14=T46:Male|bratT46=Person
 17	сыном	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Male|bratT25=Family|bratT46=Person
-18	,	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	bratA14=T46:Male|bratT46=Person
 19-21	13-летним	_	_	_	_	_	_	_	_
-19	13	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
-20	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
-21	летним	_	_	_	_	_	_	_	bratT10=Age
-22	Бэрроном	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Male|bratT11=Person|bratT31=Person-forename
+19	13	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA14=T46:Male|bratT10=Age|bratT46=Person
+20	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA14=T46:Male|bratT10=Age|bratT46=Person
+21	летним	_	_	_	_	_	_	_	bratA14=T46:Male|bratT10=Age|bratT46=Person
+22	Бэрроном	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Male|bratT31=Person-forename|bratT46=Person
 23	,	_	_	_	_	_	_	_	_
 24	но	_	_	_	_	_	_	_	_
 25	накануне	_	_	_	_	_	_	_	bratA7=T37:Past|bratT37=Date-absolute
 26	жена	_	_	_	_	_	_	_	bratA8=T38:Female|bratT13=Family|bratT38=Person
-27	президента	_	_	_	_	_	_	_	bratA8=T38:Female|bratT12=Person-property|bratT38=Person
+27	президента	_	_	_	_	_	_	_	bratA4=T11:Male|bratA8=T38:Female|bratT11=Person|bratT12=Person-property|bratT38=Person
 28	с	_	_	_	_	_	_	_	_
 29	удовольствием	_	_	_	_	_	_	_	_
 30	поздравила	_	_	_	_	_	_	_	_
@@ -75,7 +75,7 @@
 1	Дональд	_	_	_	_	_	_	_	bratA1=T16:Plural|bratA9=T40:Male|bratT16=Person|bratT32=Person-forename|bratT40=Person
 2	и	_	_	_	_	_	_	_	bratA1=T16:Plural|bratT16=Person
 3	Мелания	_	_	_	_	_	_	_	bratA1=T16:Plural|bratA10=T41:Female|bratT16=Person|bratT33=Person-forename|bratT41=Person
-4	Трамп	_	_	_	_	_	_	_	bratA1=T16:Plural|bratA10=T41:Female|bratT16=Person|bratT34=Person-surname|bratT41=Person
+4	Трамп	_	_	_	_	_	_	_	bratA1=T16:Plural|bratT16=Person|bratT34=Person-surname
 5	появились	_	_	_	_	_	_	_	_
 6	перед	_	_	_	_	_	_	_	_
 7	собравшимися	_	_	_	_	_	_	_	SpaceAfter=No
@@ -89,8 +89,8 @@
 15	затем	_	_	_	_	_	_	_	_
 16	каждый	_	_	_	_	_	_	_	_
 17	произнес	_	_	_	_	_	_	_	_
-18	официальную	_	_	_	_	_	_	_	_
-19	речь	_	_	_	_	_	_	_	SpaceAfter=No
+18	официальную	_	_	_	_	_	_	_	bratT53=Event
+19	речь	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Event
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0007-p3
@@ -98,12 +98,12 @@
 # sent_id = 0007-p3-s1
 # text = Гостями события были матери-военные и матери военных, которые встретят этот праздник вдали от своих детей.
 1	Гостями	_	_	_	_	_	_	_	_
-2	события	_	_	_	_	_	_	_	_
+2	события	_	_	_	_	_	_	_	bratT60=Event
 3	были	_	_	_	_	_	_	_	_
 4-6	матери-военные	_	_	_	_	_	_	_	_
 4	матери	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Family
 5	-	_	_	_	_	_	_	_	SpaceAfter=No
-6	военные	_	_	_	_	_	_	_	_
+6	военные	_	_	_	_	_	_	_	bratT55=Person-property
 7	и	_	_	_	_	_	_	_	_
 8	матери	_	_	_	_	_	_	_	bratT17=Family
 9	военных	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property
@@ -111,7 +111,7 @@
 11	которые	_	_	_	_	_	_	_	_
 12	встретят	_	_	_	_	_	_	_	_
 13	этот	_	_	_	_	_	_	_	_
-14	праздник	_	_	_	_	_	_	_	_
+14	праздник	_	_	_	_	_	_	_	bratT58=Event
 15	вдали	_	_	_	_	_	_	_	_
 16	от	_	_	_	_	_	_	_	_
 17	своих	_	_	_	_	_	_	_	_
@@ -150,12 +150,12 @@
 # sent_id = 0007-p4-s1
 # text = Для торжественного повода супруга 45-го президента США выбрала белоснежное платье Prada с объемной вышивкой, в котором, к слову, она уже появлялась на публике ранее.
 1	Для	_	_	_	_	_	_	_	_
-2	торжественного	_	_	_	_	_	_	_	_
-3	повода	_	_	_	_	_	_	_	_
+2	торжественного	_	_	_	_	_	_	_	bratT57=Event
+3	повода	_	_	_	_	_	_	_	bratT57=Event
 4	супруга	_	_	_	_	_	_	_	bratA11=T43:Female|bratT23=Family|bratT43=Person
-5	45-го	_	_	_	_	_	_	_	bratA11=T43:Female|bratT20=Ordinal|bratT21=Person-property|bratT43=Person
-6	президента	_	_	_	_	_	_	_	bratA11=T43:Female|bratT21=Person-property|bratT43=Person
-7	США	_	_	_	_	_	_	_	bratA11=T43:Female|bratT21=Person-property|bratT24=GPE|bratT43=Person
+5	45-го	_	_	_	_	_	_	_	bratA11=T43:Female|bratA12=T56:Male|bratT20=Ordinal|bratT21=Person-property|bratT43=Person|bratT56=Person
+6	президента	_	_	_	_	_	_	_	bratA11=T43:Female|bratA12=T56:Male|bratT21=Person-property|bratT43=Person|bratT56=Person
+7	США	_	_	_	_	_	_	_	bratA11=T43:Female|bratA12=T56:Male|bratT21=Person-property|bratT24=GPE|bratT43=Person|bratT56=Person
 8	выбрала	_	_	_	_	_	_	_	_
 9	белоснежное	_	_	_	_	_	_	_	_
 10	платье	_	_	_	_	_	_	_	bratT22=Product

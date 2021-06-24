@@ -39,7 +39,7 @@
 15	Лавникевичем	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT39=Person-surname
 16	за	_	_	_	_	_	_	_	_
 17	грубое	_	_	_	_	_	_	_	_
-18	нарушение	_	_	_	_	_	_	_	_
+18	нарушение	_	_	_	_	_	_	_	bratT78=Event
 19	общепринятых	_	_	_	_	_	_	_	_
 20	стандартов	_	_	_	_	_	_	_	_
 21	журналистики	_	_	_	_	_	_	_	_
@@ -52,7 +52,7 @@
 28	обвинили	_	_	_	_	_	_	_	_
 29	его	_	_	_	_	_	_	_	_
 30	в	_	_	_	_	_	_	_	_
-31	распространении	_	_	_	_	_	_	_	_
+31	распространении	_	_	_	_	_	_	_	bratT77=Event
 32	недостоверных	_	_	_	_	_	_	_	_
 33	комментариев	_	_	_	_	_	_	_	_
 34	от	_	_	_	_	_	_	_	_
@@ -84,10 +84,10 @@
 6	приковано	_	_	_	_	_	_	_	_
 7	после	_	_	_	_	_	_	_	bratA32=T66:Past|bratT66=Date-absolute
 8	публикации	_	_	_	_	_	_	_	bratA32=T66:Past|bratT6=Event|bratT66=Date-absolute
-9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA32=T66:Past|bratA33=T68:Media|bratT6=Event|bratT66=Date-absolute|bratT68=Organization
-10	Открытых	_	_	_	_	_	_	_	bratA32=T66:Past|bratA33=T68:Media|bratT6=Event|bratT66=Date-absolute|bratT68=Organization
-11	медиа	_	_	_	_	_	_	_	SpaceAfter=No|bratA32=T66:Past|bratA33=T68:Media|bratT6=Event|bratT66=Date-absolute|bratT68=Organization
-12	''	_	_	_	_	_	_	_	bratA32=T66:Past|bratA33=T68:Media|bratT6=Event|bratT66=Date-absolute|bratT68=Organization
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T68:Media|bratT68=Organization
+10	Открытых	_	_	_	_	_	_	_	bratA33=T68:Media|bratT68=Organization
+11	медиа	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T68:Media|bratT68=Organization
+12	''	_	_	_	_	_	_	_	bratA33=T68:Media|bratT68=Organization
 13	о	_	_	_	_	_	_	_	_
 14	том	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
@@ -166,9 +166,9 @@
 3	Анна	_	_	_	_	_	_	_	bratA25=T19:Female|bratT19=Person|bratT55=Person-forename
 4	Красулина	_	_	_	_	_	_	_	bratA25=T19:Female|bratT19=Person|bratT56=Person-surname
 5	после	_	_	_	_	_	_	_	bratA22=T9:Past|bratT9=Date-absolute
-6	выхода	_	_	_	_	_	_	_	bratA22=T9:Past|bratT9=Date-absolute
-7	этой	_	_	_	_	_	_	_	_
-8	публикации	_	_	_	_	_	_	_	_
+6	выхода	_	_	_	_	_	_	_	bratA22=T9:Past|bratT79=Event|bratT9=Date-absolute
+7	этой	_	_	_	_	_	_	_	bratT79=Event
+8	публикации	_	_	_	_	_	_	_	bratT79=Event
 9	в	_	_	_	_	_	_	_	_
 10	разговоре	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_
@@ -183,7 +183,7 @@
 20	что	_	_	_	_	_	_	_	_
 21	никаких	_	_	_	_	_	_	_	_
 22	подобных	_	_	_	_	_	_	_	_
-23	предложений	_	_	_	_	_	_	_	_
+23	предложений	_	_	_	_	_	_	_	bratT80=Event
 24	от	_	_	_	_	_	_	_	_
 25	властей	_	_	_	_	_	_	_	bratT72=Organization
 26	не	_	_	_	_	_	_	_	_
@@ -207,15 +207,15 @@
 # par_text = Автор Telegram-канала "Белорусский порядок", решив выяснить, кто такой Виктор Демидов, обнаружил, что такого журналиста нет - это псевдоним. "Наша Нива" подтверждает, что белорусское журналистское сообщество не знает о существовании такого человека, зато он еще с 2010-х годов нередко выступает в качестве эксперта в статьях Дениса Лавникевича.
 # sent_id = 0067-p5-s1
 # text = Автор Telegram-канала ``Белорусский порядок'', решив выяснить, кто такой Виктор Демидов, обнаружил, что такого журналиста нет - это псевдоним.
-1	Автор	_	_	_	_	_	_	_	bratT24=Person-property
+1	Автор	_	_	_	_	_	_	_	bratA35=T81:Male|bratT24=Person-property|bratT81=Person
 2-4	Telegram-канала	_	_	_	_	_	_	_	_
-2	Telegram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T25:Media|bratT24=Person-property|bratT25=Service
-3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T25:Media|bratT24=Person-property|bratT25=Service
-4	канала	_	_	_	_	_	_	_	bratA4=T25:Media|bratT24=Person-property|bratT25=Service
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT24=Person-property|bratT25=Service
-6	Белорусский	_	_	_	_	_	_	_	bratA27=T60:Adjective|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT60=GPE
-7	порядок	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT24=Person-property|bratT25=Service
-8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Media|bratT24=Person-property|bratT25=Service
+2	Telegram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA35=T81:Male|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT81=Person
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA35=T81:Male|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT81=Person
+4	канала	_	_	_	_	_	_	_	bratA35=T81:Male|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT81=Person
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA35=T81:Male|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT81=Person
+6	Белорусский	_	_	_	_	_	_	_	bratA27=T60:Adjective|bratA35=T81:Male|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT60=GPE|bratT81=Person
+7	порядок	_	_	_	_	_	_	_	SpaceAfter=No|bratA35=T81:Male|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT81=Person
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA35=T81:Male|bratA4=T25:Media|bratT24=Person-property|bratT25=Service|bratT81=Person
 9	,	_	_	_	_	_	_	_	_
 10	решив	_	_	_	_	_	_	_	_
 11	выяснить	_	_	_	_	_	_	_	SpaceAfter=No

@@ -46,8 +46,8 @@
 12	сложить	_	_	_	_	_	_	_	_
 13	с	_	_	_	_	_	_	_	_
 14	себя	_	_	_	_	_	_	_	_
-15	королевские	_	_	_	_	_	_	_	_
-16	полномочия	_	_	_	_	_	_	_	_
+15	королевские	_	_	_	_	_	_	_	bratT41=Person-property
+16	полномочия	_	_	_	_	_	_	_	bratT41=Person-property
 17	и	_	_	_	_	_	_	_	_
 18	начать	_	_	_	_	_	_	_	_
 19	независимую	_	_	_	_	_	_	_	_
@@ -60,10 +60,10 @@
 2	1	_	_	_	_	_	_	_	bratA4=T10:Future|bratT10=Date-absolute
 3	апреля	_	_	_	_	_	_	_	bratA4=T10:Future|bratT10=Date-absolute
 4	желание	_	_	_	_	_	_	_	_
-5	герцога	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property|bratT29=Person-property
-6	и	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property
-7	герцогини	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property|bratT30=Person-property
-8	Сассекских	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA10=T31:Adjective|bratT11=Person-property|bratT31=GPE
+5	герцога	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA15=T42:Plural|bratA16=T43:Male|bratT11=Person-property|bratT29=Person-property|bratT42=Person|bratT43=Person
+6	и	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA15=T42:Plural|bratT11=Person-property|bratT42=Person
+7	герцогини	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA15=T42:Plural|bratA17=T44:Female|bratT11=Person-property|bratT30=Person-property|bratT42=Person|bratT44=Person
+8	Сассекских	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA10=T31:Adjective|bratA15=T42:Plural|bratT11=Person-property|bratT31=GPE|bratT42=Person
 9	исполнится	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	ведь	_	_	_	_	_	_	_	_
@@ -148,7 +148,7 @@
 4	о	_	_	_	_	_	_	_	_
 5	других	_	_	_	_	_	_	_	_
 6	планах	_	_	_	_	_	_	_	_
-7	супругов	_	_	_	_	_	_	_	bratT27=Family
+7	супругов	_	_	_	_	_	_	_	bratT27=Family|bratT45=Person
 8	на	_	_	_	_	_	_	_	_
 9	жизнь	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_

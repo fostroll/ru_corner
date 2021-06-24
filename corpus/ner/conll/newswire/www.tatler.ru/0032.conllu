@@ -15,7 +15,7 @@
 10	в	_	_	_	_	_	_	_	_
 11	новом	_	_	_	_	_	_	_	bratT5=Work-of-art
 12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art
-13	Аквамене	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Work-of-art
+13	Аквамене	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T61:Fiction|bratA17=T61:Male|bratT5=Work-of-art|bratT61=Person
 14	''	_	_	_	_	_	_	_	bratT5=Work-of-art
 
 # newpar id = 0032-p2
@@ -41,7 +41,7 @@
 16	в	_	_	_	_	_	_	_	_
 17	фильме	_	_	_	_	_	_	_	bratT11=Work-of-art
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
-19	Аквамен	_	_	_	_	_	_	_	bratT11=Work-of-art
+19	Аквамен	_	_	_	_	_	_	_	bratA18=T62:Fiction|bratA20=T62:Male|bratT11=Work-of-art|bratT62=Person
 20	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art|bratT52=Ordinal
 21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Work-of-art
 22	.	_	_	_	_	_	_	_	_
@@ -85,8 +85,8 @@
 3	пятен	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	этом	_	_	_	_	_	_	_	_
-6	процессе	_	_	_	_	_	_	_	_
-7	наблюдатели	_	_	_	_	_	_	_	bratT20=Other-group
+6	процессе	_	_	_	_	_	_	_	bratT60=Event
+7	наблюдатели	_	_	_	_	_	_	_	_
 8	разделились	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	два	_	_	_	_	_	_	_	bratT21=Quantity
@@ -94,7 +94,7 @@
 12	:	_	_	_	_	_	_	_	_
 13	одни	_	_	_	_	_	_	_	_
 14	считают	_	_	_	_	_	_	_	_
-15	абьюзером	_	_	_	_	_	_	_	bratT26=Other-group
+15	абьюзером	_	_	_	_	_	_	_	_
 16	Деппа	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T23:Male|bratT22=Person-surname|bratT23=Person
 17	,	_	_	_	_	_	_	_	_
 18	а	_	_	_	_	_	_	_	_
@@ -104,23 +104,23 @@
 22	что	_	_	_	_	_	_	_	_
 23	Херд	_	_	_	_	_	_	_	bratA8=T24:Female|bratT24=Person|bratT25=Person-surname
 24	-	_	_	_	_	_	_	_	_
-25	провокатор	_	_	_	_	_	_	_	bratT29=Person-property
+25	провокатор	_	_	_	_	_	_	_	_
 26	и	_	_	_	_	_	_	_	_
-27	инициатор	_	_	_	_	_	_	_	bratT30=Person-property
-28	домашнего	_	_	_	_	_	_	_	bratT30=Person-property
-29	насилия	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property
+27	инициатор	_	_	_	_	_	_	_	_
+28	домашнего	_	_	_	_	_	_	_	_
+29	насилия	_	_	_	_	_	_	_	SpaceAfter=No
 30	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0032-p4
 # par_text = Авторы петиции считают, что актриса заслуживает увольнения, так как сама не раз совершала акты насилия: не только по отношению к Деппу, но и к фотографу Тасе Ван Ри, с которой встречалась до актера.
 # sent_id = 0032-p4-s1
 # text = Авторы петиции считают, что актриса заслуживает увольнения, так как сама не раз совершала акты насилия: не только по отношению к Деппу, но и к фотографу Тасе Ван Ри, с которой встречалась до актера.
-1	Авторы	_	_	_	_	_	_	_	bratT31=Person-property
-2	петиции	_	_	_	_	_	_	_	bratA14=T57:Media|bratT31=Person-property|bratT57=Service
+1	Авторы	_	_	_	_	_	_	_	bratT20=Person|bratT31=Person-property
+2	петиции	_	_	_	_	_	_	_	bratA14=T57:Media|bratT20=Person|bratT57=Service
 3	считают	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	актриса	_	_	_	_	_	_	_	bratT32=Person-property
+6	актриса	_	_	_	_	_	_	_	bratA21=T26:Female|bratT26=Person|bratT32=Person-property
 7	заслуживает	_	_	_	_	_	_	_	_
 8	увольнения	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
 9	,	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 13	не	_	_	_	_	_	_	_	bratT33=Quantity
 14	раз	_	_	_	_	_	_	_	bratT33=Quantity
 15	совершала	_	_	_	_	_	_	_	_
-16	акты	_	_	_	_	_	_	_	_
+16	акты	_	_	_	_	_	_	_	bratT59=Event
 17	насилия	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
 18	:	_	_	_	_	_	_	_	_
 19	не	_	_	_	_	_	_	_	_
@@ -152,7 +152,7 @@
 35	которой	_	_	_	_	_	_	_	_
 36	встречалась	_	_	_	_	_	_	_	_
 37	до	_	_	_	_	_	_	_	bratA11=T41:Past|bratT41=Date-period-absolute
-38	актера	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T41:Past|bratT40=Person-property|bratT41=Date-period-absolute
+38	актера	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T41:Past|bratA22=T29:Male|bratT29=Person|bratT40=Person-property|bratT41=Date-period-absolute
 39	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0032-p5
@@ -168,7 +168,7 @@
 7	Эмбер	_	_	_	_	_	_	_	bratA12=T44:Female|bratT42=Person-forename|bratT44=Person
 8	Херд	_	_	_	_	_	_	_	bratA12=T44:Female|bratT43=Person-surname|bratT44=Person
 9	является	_	_	_	_	_	_	_	_
-10	абьюзером	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-property
+10	абьюзером	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	поэтому	_	_	_	_	_	_	_	_
 13	Warner	_	_	_	_	_	_	_	bratT46=Organization
@@ -180,13 +180,13 @@
 19	отстранить	_	_	_	_	_	_	_	_
 20	ее	_	_	_	_	_	_	_	_
 21	от	_	_	_	_	_	_	_	_
-22	роли	_	_	_	_	_	_	_	_
-23	в	_	_	_	_	_	_	_	_
-24	проекте	_	_	_	_	_	_	_	bratT47=Work-of-art
-25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art
-26	Аквамен	_	_	_	_	_	_	_	bratT47=Work-of-art
-27	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art
-28	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art
+22	роли	_	_	_	_	_	_	_	bratT63=Person-property
+23	в	_	_	_	_	_	_	_	bratT63=Person-property
+24	проекте	_	_	_	_	_	_	_	bratT47=Work-of-art|bratT63=Person-property
+25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art|bratT63=Person-property
+26	Аквамен	_	_	_	_	_	_	_	bratA16=T64:Fiction|bratA19=T64:Male|bratT47=Work-of-art|bratT63=Person-property|bratT64=Person
+27	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art|bratT63=Person-property|bratT65=Ordinal
+28	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Work-of-art|bratT63=Person-property
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p5-s2
@@ -223,7 +223,7 @@
 12	,	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
 14	заключают	_	_	_	_	_	_	_	_
-15	авторы	_	_	_	_	_	_	_	bratT51=Person-property
-16	петиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Person-property
+15	авторы	_	_	_	_	_	_	_	bratT30=Person|bratT51=Person-property
+16	петиции	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T45:Media|bratT30=Person|bratT45=Service
 17	.	_	_	_	_	_	_	_	_
 

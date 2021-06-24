@@ -26,8 +26,8 @@
 10	посыл	_	_	_	_	_	_	_	_
 11	общественной	_	_	_	_	_	_	_	_
 12	деятельности	_	_	_	_	_	_	_	_
-13	герцогини	_	_	_	_	_	_	_	bratT3=Person-property
-14	Кембриджской	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T38:Adjective|bratT3=Person-property|bratT38=GPE
+13	герцогини	_	_	_	_	_	_	_	bratA17=T52:Female|bratT3=Person-property|bratT52=Person
+14	Кембриджской	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T38:Adjective|bratA17=T52:Female|bratT3=Person-property|bratT38=GPE|bratT52=Person
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0059-p2-s2
@@ -37,10 +37,10 @@
 3	в	_	_	_	_	_	_	_	_
 4	Великобритании	_	_	_	_	_	_	_	bratT5=GPE
 5	объявлена	_	_	_	_	_	_	_	_
-6	Неделей	_	_	_	_	_	_	_	_
-7	детского	_	_	_	_	_	_	_	_
-8	психического	_	_	_	_	_	_	_	_
-9	здоровья	_	_	_	_	_	_	_	_
+6	Неделей	_	_	_	_	_	_	_	bratT53=Event
+7	детского	_	_	_	_	_	_	_	bratT53=Event
+8	психического	_	_	_	_	_	_	_	bratT53=Event
+9	здоровья	_	_	_	_	_	_	_	bratT53=Event
 10	со	_	_	_	_	_	_	_	_
 11	слоганом	_	_	_	_	_	_	_	_
 12	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -59,8 +59,8 @@
 25	принять	_	_	_	_	_	_	_	_
 26	в	_	_	_	_	_	_	_	_
 27	этой	_	_	_	_	_	_	_	_
-28	благотворительной	_	_	_	_	_	_	_	_
-29	инициативе	_	_	_	_	_	_	_	_
+28	благотворительной	_	_	_	_	_	_	_	bratT54=Event
+29	инициативе	_	_	_	_	_	_	_	bratT54=Event
 30	самое	_	_	_	_	_	_	_	_
 31	активное	_	_	_	_	_	_	_	_
 32	участие	_	_	_	_	_	_	_	SpaceAfter=No
@@ -73,16 +73,16 @@
 3	она	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	качестве	_	_	_	_	_	_	_	_
-6	патрона	_	_	_	_	_	_	_	_
-7	фонда	_	_	_	_	_	_	_	bratT8=Organization
+6	патрона	_	_	_	_	_	_	_	bratT55=Person-property
+7	фонда	_	_	_	_	_	_	_	bratT55=Person-property|bratT8=Organization
 8-10	Place2Be	_	_	_	_	_	_	_	_
-8	Place	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Organization
-9	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Cardinal|bratT8=Organization
-10	Be	_	_	_	_	_	_	_	bratT8=Organization
+8	Place	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Person-property|bratT8=Organization
+9	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Cardinal|bratT55=Person-property|bratT8=Organization
+10	Be	_	_	_	_	_	_	_	bratT55=Person-property|bratT8=Organization
 11	посетила	_	_	_	_	_	_	_	_
 12	две	_	_	_	_	_	_	_	bratT9=Quantity
-13	лондонские	_	_	_	_	_	_	_	bratA15=T39:Adjective|bratT39=GPE|bratT9=Quantity
-14	школы	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Quantity
+13	лондонские	_	_	_	_	_	_	_	bratA15=T39:Adjective|bratT39=GPE|bratT56=Organization|bratT9=Quantity
+14	школы	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Organization|bratT9=Quantity
 15	,	_	_	_	_	_	_	_	_
 16	уделяющие	_	_	_	_	_	_	_	_
 17	вопросам	_	_	_	_	_	_	_	_
@@ -99,8 +99,8 @@
 2	приняла	_	_	_	_	_	_	_	_
 3	участие	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	круглом	_	_	_	_	_	_	_	_
-6	столе	_	_	_	_	_	_	_	SpaceAfter=No
+5	круглом	_	_	_	_	_	_	_	bratT57=Event
+6	столе	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
 7	,	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	котором	_	_	_	_	_	_	_	_
@@ -119,7 +119,7 @@
 22	со	_	_	_	_	_	_	_	_
 23	школьным	_	_	_	_	_	_	_	bratA1=T12:Unconscious|bratT12=Person
 24	псом	_	_	_	_	_	_	_	bratA1=T12:Unconscious|bratT12=Person
-25	Херби	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Unconscious|bratT12=Person
+25	Херби	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Unconscious|bratT12=Person|bratT58=Person-alias
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0059-p2-s5
@@ -135,15 +135,15 @@
 9	с	_	_	_	_	_	_	_	_
 10	Андрией	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person|bratT33=Person-forename
 11	Зафираку	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person|bratT34=Person-surname
-12	-	_	_	_	_	_	_	_	_
-13	первой	_	_	_	_	_	_	_	bratT17=Ordinal
-14	британкой	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T18:Citizenship|bratT18=Nationality
-15	,	_	_	_	_	_	_	_	_
-16	удостоенной	_	_	_	_	_	_	_	_
-17	звания	_	_	_	_	_	_	_	bratT19=Person-property
-18	лучшего	_	_	_	_	_	_	_	bratT19=Person-property
-19	учителя	_	_	_	_	_	_	_	bratT19=Person-property
-20	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT48=GPE
+12	-	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person
+13	первой	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person|bratT17=Ordinal
+14	британкой	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T18:Citizenship|bratA9=T16:Female|bratT16=Person|bratT18=Nationality
+15	,	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person
+16	удостоенной	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person
+17	звания	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person|bratT19=Person-property
+18	лучшего	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person|bratT19=Person-property
+19	учителя	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person|bratT19=Person-property
+20	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T16:Female|bratT16=Person|bratT19=Person-property|bratT48=GPE
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0059-p2-s6
@@ -153,13 +153,13 @@
 3	прочих	_	_	_	_	_	_	_	_
 4	достижений	_	_	_	_	_	_	_	_
 5	Андрии	_	_	_	_	_	_	_	bratA10=T20:Female|bratT20=Person|bratT35=Person-forename
-6	организаторы	_	_	_	_	_	_	_	_
-7	премии	_	_	_	_	_	_	_	bratT21=Other-term
-8	Varkey	_	_	_	_	_	_	_	bratT21=Other-term
-9	Foundation	_	_	_	_	_	_	_	bratT21=Other-term
-10	Global	_	_	_	_	_	_	_	bratT21=Other-term
-11	Teacher	_	_	_	_	_	_	_	bratT21=Other-term
-12	Prize	_	_	_	_	_	_	_	bratT21=Other-term
+6	организаторы	_	_	_	_	_	_	_	bratT60=Person-property|bratT61=Person
+7	премии	_	_	_	_	_	_	_	bratT21=Other-term|bratT60=Person-property|bratT61=Person
+8	Varkey	_	_	_	_	_	_	_	bratT21=Other-term|bratT60=Person-property|bratT61=Person|bratT62=Organization
+9	Foundation	_	_	_	_	_	_	_	bratT21=Other-term|bratT60=Person-property|bratT61=Person|bratT62=Organization
+10	Global	_	_	_	_	_	_	_	bratT21=Other-term|bratT60=Person-property|bratT61=Person
+11	Teacher	_	_	_	_	_	_	_	bratT21=Other-term|bratT59=Person-property|bratT60=Person-property|bratT61=Person
+12	Prize	_	_	_	_	_	_	_	bratT21=Other-term|bratT60=Person-property|bratT61=Person
 13	отметили	_	_	_	_	_	_	_	_
 14	то	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
@@ -189,7 +189,7 @@
 # newpar id = 0059-p3
 # par_text = На встречу с учениками Кейт отправилась в ярко-зеленом платье Eponine и черных ботильонах на высоких каблуках от L.K.Bennett.
 # sent_id = 0059-p3-s1
-# text = На встречу с учениками Кейт отправилась в ярко-зеленом платье Eponine и черных ботильонах на высоких каблуках от L. K. Bennett.
+# text = На встречу с учениками Кейт отправилась в ярко-зеленом платье Eponine и черных ботильонах на высоких каблуках от L.K.Bennett.
 1	На	_	_	_	_	_	_	_	_
 2	встречу	_	_	_	_	_	_	_	bratT44=Event
 3	с	_	_	_	_	_	_	_	_
@@ -207,8 +207,9 @@
 15	высоких	_	_	_	_	_	_	_	bratT42=Product
 16	каблуках	_	_	_	_	_	_	_	bratT42=Product
 17	от	_	_	_	_	_	_	_	bratT42=Product
-18	L.	_	_	_	_	_	_	_	bratA3=T26:Trademark|bratT26=Product|bratT42=Product
-19	K.	_	_	_	_	_	_	_	bratA3=T26:Trademark|bratT26=Product|bratT42=Product
+18-20	L.K.Bennett	_	_	_	_	_	_	_	SpaceAfter=No
+18	L.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T26:Trademark|bratT26=Product|bratT42=Product
+19	K.	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T26:Trademark|bratT26=Product|bratT42=Product
 20	Bennett	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T26:Trademark|bratT26=Product|bratT42=Product
 21	.	_	_	_	_	_	_	_	_
 

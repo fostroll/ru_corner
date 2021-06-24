@@ -21,8 +21,8 @@
 4	княжеской	_	_	_	_	_	_	_	bratT81=Organization
 5	семьи	_	_	_	_	_	_	_	bratT8=Family|bratT81=Organization
 6	Монако	_	_	_	_	_	_	_	bratT7=GPE|bratT81=Organization
-7	много	_	_	_	_	_	_	_	bratT9=Quantity
-8	хлопот	_	_	_	_	_	_	_	bratT9=Quantity
+7	много	_	_	_	_	_	_	_	_
+8	хлопот	_	_	_	_	_	_	_	_
 9	-	_	_	_	_	_	_	_	_
 10	помимо	_	_	_	_	_	_	_	_
 11	организации	_	_	_	_	_	_	_	_
@@ -31,14 +31,14 @@
 14	дочери	_	_	_	_	_	_	_	bratA3=T15:Female|bratT14=Family|bratT15=Person
 15	принцессы	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT12=Person-property|bratT13=Person|bratT15=Person
 16	Каролины	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT10=Person-forename|bratT13=Person|bratT15=Person
-17	Шарлотты	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT10=Person-forename|bratT13=Person|bratT15=Person
-18	Казираги	_	_	_	_	_	_	_	bratA2=T13:Female|bratA3=T15:Female|bratT11=Person-surname|bratT13=Person|bratT15=Person
+17	Шарлотты	_	_	_	_	_	_	_	bratA3=T15:Female|bratT15=Person|bratT85=Person-forename
+18	Казираги	_	_	_	_	_	_	_	bratA3=T15:Female|bratT11=Person-surname|bratT15=Person
 19	и	_	_	_	_	_	_	_	_
 20	сына	_	_	_	_	_	_	_	bratA5=T21:Male|bratT16=Family|bratT21=Person
 21	принцессы	_	_	_	_	_	_	_	bratA4=T20:Female|bratA5=T21:Male|bratT19=Person-property|bratT20=Person|bratT21=Person
 22	Стефании	_	_	_	_	_	_	_	bratA4=T20:Female|bratA5=T21:Male|bratT17=Person-forename|bratT20=Person|bratT21=Person
-23	Луи	_	_	_	_	_	_	_	bratA4=T20:Female|bratA5=T21:Male|bratT17=Person-forename|bratT20=Person|bratT21=Person
-24	Дюкре	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T20:Female|bratA5=T21:Male|bratT18=Person-surname|bratT20=Person|bratT21=Person
+23	Луи	_	_	_	_	_	_	_	bratA5=T21:Male|bratT18=Person-forename|bratT21=Person
+24	Дюкре	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T21:Male|bratT21=Person|bratT86=Person-surname
 25	,	_	_	_	_	_	_	_	_
 26	монаршее	_	_	_	_	_	_	_	bratT22=Family
 27	семейство	_	_	_	_	_	_	_	bratT22=Family
@@ -98,18 +98,18 @@
 
 # sent_id = 0012-p2-s4
 # text = Гостей лично приветствовали хозяева праздника - князь Альбер II и княгиня Шарлен в зеленом платье Marchesa Notte с кейпом.
-1	Гостей	_	_	_	_	_	_	_	bratT29=Other-group
+1	Гостей	_	_	_	_	_	_	_	_
 2	лично	_	_	_	_	_	_	_	_
 3	приветствовали	_	_	_	_	_	_	_	_
-4	хозяева	_	_	_	_	_	_	_	_
-5	праздника	_	_	_	_	_	_	_	_
-6	-	_	_	_	_	_	_	_	_
-7	князь	_	_	_	_	_	_	_	bratA7=T32:Male|bratT31=Person-property|bratT32=Person
-8	Альбер	_	_	_	_	_	_	_	bratA7=T32:Male|bratT30=Person-forename|bratT32=Person
-9	II	_	_	_	_	_	_	_	bratA7=T32:Male|bratT32=Person|bratT77=Person-affix|bratT78=Ordinal
-10	и	_	_	_	_	_	_	_	_
-11	княгиня	_	_	_	_	_	_	_	bratA8=T34:Female|bratT34=Person|bratT35=Person-property
-12	Шарлен	_	_	_	_	_	_	_	bratA8=T34:Female|bratT33=Person-forename|bratT34=Person
+4	хозяева	_	_	_	_	_	_	_	bratA10=T84:Plural|bratT84=Person
+5	праздника	_	_	_	_	_	_	_	bratA10=T84:Plural|bratT76=Event|bratT84=Person
+6	-	_	_	_	_	_	_	_	bratA10=T84:Plural|bratT84=Person
+7	князь	_	_	_	_	_	_	_	bratA10=T84:Plural|bratA7=T32:Male|bratT31=Person-property|bratT32=Person|bratT84=Person
+8	Альбер	_	_	_	_	_	_	_	bratA10=T84:Plural|bratA7=T32:Male|bratT30=Person-forename|bratT32=Person|bratT84=Person
+9	II	_	_	_	_	_	_	_	bratA10=T84:Plural|bratA7=T32:Male|bratT32=Person|bratT77=Person-affix|bratT78=Ordinal|bratT84=Person
+10	и	_	_	_	_	_	_	_	bratA10=T84:Plural|bratT84=Person
+11	княгиня	_	_	_	_	_	_	_	bratA10=T84:Plural|bratA8=T34:Female|bratT34=Person|bratT35=Person-property|bratT84=Person
+12	Шарлен	_	_	_	_	_	_	_	bratA10=T84:Plural|bratA8=T34:Female|bratT33=Person-forename|bratT34=Person|bratT84=Person
 13	в	_	_	_	_	_	_	_	_
 14	зеленом	_	_	_	_	_	_	_	_
 15	платье	_	_	_	_	_	_	_	bratT37=Product
@@ -129,7 +129,7 @@
 6	принадлежит	_	_	_	_	_	_	_	_
 7	бывшей	_	_	_	_	_	_	_	bratA12=T45:Female|bratT44=Family|bratT45=Person
 8	жене	_	_	_	_	_	_	_	bratA12=T45:Female|bratT44=Family|bratT45=Person
-9	опального	_	_	_	_	_	_	_	bratA12=T45:Female|bratT45=Person
+9	опального	_	_	_	_	_	_	_	bratA11=T41:Male|bratA12=T45:Female|bratT41=Person|bratT45=Person
 10	Харви	_	_	_	_	_	_	_	bratA11=T41:Male|bratA12=T45:Female|bratT39=Person-forename|bratT41=Person|bratT45=Person
 11	Вайнштейна	_	_	_	_	_	_	_	bratA11=T41:Male|bratA12=T45:Female|bratT40=Person-surname|bratT41=Person|bratT45=Person
 12	Джорджине	_	_	_	_	_	_	_	bratA12=T45:Female|bratT42=Person-forename|bratT45=Person
@@ -140,12 +140,12 @@
 # text = После скандала 2017 года практически все знаменитые клиентки отказались от ее услуг.
 1	После	_	_	_	_	_	_	_	bratA13=T46:Past|bratT46=Date-absolute
 2	скандала	_	_	_	_	_	_	_	bratA13=T46:Past|bratT36=Event|bratT46=Date-absolute
-3	2017	_	_	_	_	_	_	_	bratA13=T46:Past|bratA9=T75:Past|bratT36=Event|bratT46=Date-absolute|bratT75=Date-absolute
-4	года	_	_	_	_	_	_	_	bratA13=T46:Past|bratA9=T75:Past|bratT36=Event|bratT46=Date-absolute|bratT75=Date-absolute
+3	2017	_	_	_	_	_	_	_	bratA13=T46:Past|bratA9=T75:Past|bratT46=Date-absolute|bratT75=Date-absolute
+4	года	_	_	_	_	_	_	_	bratA13=T46:Past|bratA9=T75:Past|bratT46=Date-absolute|bratT75=Date-absolute
 5	практически	_	_	_	_	_	_	_	_
 6	все	_	_	_	_	_	_	_	_
-7	знаменитые	_	_	_	_	_	_	_	bratT47=Other-group
-8	клиентки	_	_	_	_	_	_	_	bratT47=Other-group
+7	знаменитые	_	_	_	_	_	_	_	_
+8	клиентки	_	_	_	_	_	_	_	_
 9	отказались	_	_	_	_	_	_	_	_
 10	от	_	_	_	_	_	_	_	_
 11	ее	_	_	_	_	_	_	_	_
@@ -154,7 +154,7 @@
 
 # sent_id = 0012-p2-s7
 # text = Княгиню эти вопросы не беспокоят.
-1	Княгиню	_	_	_	_	_	_	_	bratT48=Person-property
+1	Княгиню	_	_	_	_	_	_	_	bratA22=T87:Female|bratT48=Person-property|bratT87=Person
 2	эти	_	_	_	_	_	_	_	_
 3	вопросы	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 3	королевским	_	_	_	_	_	_	_	_
 4	достоинством	_	_	_	_	_	_	_	_
 5	приветствовала	_	_	_	_	_	_	_	_
-6	гостей	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Other-group
+6	гостей	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	потом	_	_	_	_	_	_	_	bratA21=T50:Past|bratT50=Date-relative
@@ -176,7 +176,7 @@
 11	традиции	_	_	_	_	_	_	_	_
 12	исполнила	_	_	_	_	_	_	_	_
 13	с	_	_	_	_	_	_	_	_
-14	мужем	_	_	_	_	_	_	_	bratT51=Family
+14	мужем	_	_	_	_	_	_	_	bratA23=T88:Male|bratT51=Family|bratT88=Person
 15	медленный	_	_	_	_	_	_	_	_
 16	танец	_	_	_	_	_	_	_	SpaceAfter=No
 17	.	_	_	_	_	_	_	_	_
@@ -184,9 +184,9 @@
 # sent_id = 0012-p2-s8
 # text = Закончился праздник эффектным фейерверком.
 1	Закончился	_	_	_	_	_	_	_	_
-2	праздник	_	_	_	_	_	_	_	_
+2	праздник	_	_	_	_	_	_	_	bratT82=Event
 3	эффектным	_	_	_	_	_	_	_	_
-4	фейерверком	_	_	_	_	_	_	_	SpaceAfter=No
+4	фейерверком	_	_	_	_	_	_	_	SpaceAfter=No|bratT83=Event
 5	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0012-p3
@@ -194,10 +194,10 @@
 # sent_id = 0012-p3-s1
 # text = Среди гостей Альбера и Шарлен в этот вечер оказались музыкант Джон Ледженд, баскетболист Тони Паркер, певица Ширли Бэсси, актриса Карин Виар и многие другие.
 1	Среди	_	_	_	_	_	_	_	_
-2	гостей	_	_	_	_	_	_	_	bratT56=Other-group
-3	Альбера	_	_	_	_	_	_	_	bratA14=T53:Male|bratT52=Person-forename|bratT53=Person|bratT56=Other-group
-4	и	_	_	_	_	_	_	_	bratT56=Other-group
-5	Шарлен	_	_	_	_	_	_	_	bratA15=T54:Female|bratT54=Person|bratT55=Person-forename|bratT56=Other-group
+2	гостей	_	_	_	_	_	_	_	_
+3	Альбера	_	_	_	_	_	_	_	bratA14=T53:Male|bratT52=Person-forename|bratT53=Person
+4	и	_	_	_	_	_	_	_	_
+5	Шарлен	_	_	_	_	_	_	_	bratA15=T54:Female|bratT54=Person|bratT55=Person-forename
 6	в	_	_	_	_	_	_	_	bratA16=T58:Past|bratT58=Date-relative
 7	этот	_	_	_	_	_	_	_	bratA16=T58:Past|bratT57=Ordinal|bratT58=Date-relative
 8	вечер	_	_	_	_	_	_	_	bratA16=T58:Past|bratT58=Date-relative|bratT79=Event

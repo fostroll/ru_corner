@@ -9,8 +9,8 @@
 4	Энрике	_	_	_	_	_	_	_	bratA18=T2:Male|bratT2=Person|bratT25=Person-forename
 5	Иглесиас	_	_	_	_	_	_	_	bratA18=T2:Male|bratT2=Person|bratT26=Person-surname
 6	показали	_	_	_	_	_	_	_	_
-7	новорожденного	_	_	_	_	_	_	_	bratT27=Age
-8	ребенка	_	_	_	_	_	_	_	bratT51=Family
+7	новорожденного	_	_	_	_	_	_	_	bratT27=Age|bratT60=Person
+8	ребенка	_	_	_	_	_	_	_	bratT51=Family|bratT60=Person
 
 # newpar id = 0017-p2
 # par_text = Впервые Анна и Энрике стали родителями в 2017 году — тогда на свет появились их сын Николас и дочь Люси. О том, что пара ждет третьего ребенка, до последнего времени ходили только слухи, пока информацию не подтвердил брат Энрике Хулио Иглесиас–младший. «У моего брата теперь трое детей, он счастлив», — сообщил Иглесиас в интервью радиостанции ADN, отказавшись раскрывать имя и пол новорожденного.
@@ -30,21 +30,21 @@
 12	на	_	_	_	_	_	_	_	_
 13	свет	_	_	_	_	_	_	_	_
 14	появились	_	_	_	_	_	_	_	_
-15	их	_	_	_	_	_	_	_	bratA7=T7:Male|bratT7=Person
-16	сын	_	_	_	_	_	_	_	bratA7=T7:Male|bratT7=Person|bratT8=Family
-17	Николас	_	_	_	_	_	_	_	bratA7=T7:Male|bratT30=Person-forename|bratT7=Person
-18	и	_	_	_	_	_	_	_	_
-19	дочь	_	_	_	_	_	_	_	bratA8=T9:Female|bratT10=Family|bratT9=Person
-20	Люси	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T9:Female|bratT31=Person-forename|bratT9=Person
+15	их	_	_	_	_	_	_	_	bratA22=T57:Plural|bratT57=Person
+16	сын	_	_	_	_	_	_	_	bratA22=T57:Plural|bratA7=T7:Male|bratT57=Person|bratT7=Person|bratT8=Family
+17	Николас	_	_	_	_	_	_	_	bratA22=T57:Plural|bratA7=T7:Male|bratT30=Person-forename|bratT57=Person|bratT7=Person
+18	и	_	_	_	_	_	_	_	bratA22=T57:Plural|bratT57=Person
+19	дочь	_	_	_	_	_	_	_	bratA22=T57:Plural|bratA8=T9:Female|bratT10=Family|bratT57=Person|bratT9=Person
+20	Люси	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T57:Plural|bratA8=T9:Female|bratT31=Person-forename|bratT57=Person|bratT9=Person
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p2-s2
-# text = О том, что пара ждет третьего ребенка, до последнего времени ходили только слухи, пока информацию не подтвердил брат Энрике Хулио Иглесиас - младший.
+# text = О том, что пара ждет третьего ребенка, до последнего времени ходили только слухи, пока информацию не подтвердил брат Энрике Хулио Иглесиас-младший.
 1	О	_	_	_	_	_	_	_	_
 2	том	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	пара	_	_	_	_	_	_	_	bratT36=Family
+5	пара	_	_	_	_	_	_	_	bratT36=Family|bratT58=Person
 6	ждет	_	_	_	_	_	_	_	_
 7	третьего	_	_	_	_	_	_	_	bratT11=Ordinal|bratT32=Family
 8	ребенка	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Family
@@ -60,12 +60,13 @@
 18	информацию	_	_	_	_	_	_	_	_
 19	не	_	_	_	_	_	_	_	_
 20	подтвердил	_	_	_	_	_	_	_	_
-21	брат	_	_	_	_	_	_	_	bratA10=T13:Male|bratT13=Person|bratT14=Family
-22	Энрике	_	_	_	_	_	_	_	bratA10=T13:Male|bratT13=Person|bratT37=Person-forename
+21	брат	_	_	_	_	_	_	_	bratA11=T12:Male|bratT12=Person|bratT14=Family
+22	Энрике	_	_	_	_	_	_	_	bratA10=T59:Male|bratA11=T12:Male|bratT12=Person|bratT37=Person-forename|bratT59=Person
 23	Хулио	_	_	_	_	_	_	_	bratA11=T12:Male|bratT12=Person|bratT38=Person-forename
-24	Иглесиас	_	_	_	_	_	_	_	bratA11=T12:Male|bratT12=Person|bratT39=Person-surname
-25	-	_	_	_	_	_	_	_	bratA11=T12:Male|bratT12=Person
-26	младший	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T12:Male|bratT12=Person
+24-26	Иглесиас-младший	_	_	_	_	_	_	_	SpaceAfter=No
+24	Иглесиас	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T12:Male|bratT12=Person|bratT39=Person-surname
+25	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T12:Male|bratT12=Person
+26	младший	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T12:Male|bratT12=Person|bratT13=Person-affix
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p2-s3
@@ -86,7 +87,7 @@
 14	сообщил	_	_	_	_	_	_	_	_
 15	Иглесиас	_	_	_	_	_	_	_	bratA9=T17:Male|bratT17=Person|bratT35=Person-surname
 16	в	_	_	_	_	_	_	_	_
-17	интервью	_	_	_	_	_	_	_	_
+17	интервью	_	_	_	_	_	_	_	bratT66=Event
 18	радиостанции	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Organization
 19	ADN	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T18:Media|bratT18=Organization
 20	,	_	_	_	_	_	_	_	_
@@ -95,7 +96,7 @@
 23	имя	_	_	_	_	_	_	_	_
 24	и	_	_	_	_	_	_	_	_
 25	пол	_	_	_	_	_	_	_	_
-26	новорожденного	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Age
+26	новорожденного	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Age|bratT61=Person
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0017-p3
@@ -105,7 +106,7 @@
 1	Теперь	_	_	_	_	_	_	_	_
 2	же	_	_	_	_	_	_	_	_
 3	с	_	_	_	_	_	_	_	_
-4	младенцем	_	_	_	_	_	_	_	bratT34=Age
+4	младенцем	_	_	_	_	_	_	_	bratT34=Age|bratT62=Person
 5	познакомился	_	_	_	_	_	_	_	_
 6	чуть	_	_	_	_	_	_	_	_
 7	ли	_	_	_	_	_	_	_	_
@@ -134,10 +135,10 @@
 30	это	_	_	_	_	_	_	_	_
 31	часто	_	_	_	_	_	_	_	_
 32	делают	_	_	_	_	_	_	_	_
-33	звезды	_	_	_	_	_	_	_	SpaceAfter=No
+33	звезды	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Person-property
 34	,	_	_	_	_	_	_	_	_
 35	лицо	_	_	_	_	_	_	_	_
-36	ребенка	_	_	_	_	_	_	_	bratT42=Age
+36	ребенка	_	_	_	_	_	_	_	bratT42=Age|bratT63=Person
 37	смайликами	_	_	_	_	_	_	_	SpaceAfter=No
 38	.	_	_	_	_	_	_	_	_
 
@@ -151,7 +152,7 @@
 6	понять	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	малыш	_	_	_	_	_	_	_	bratT48=Age
+9	малыш	_	_	_	_	_	_	_	bratT48=Age|bratT65=Person
 10	появился	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	свет	_	_	_	_	_	_	_	_

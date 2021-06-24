@@ -6,7 +6,7 @@
 1	Полиция	_	_	_	_	_	_	_	bratT52=Organization
 2	не	_	_	_	_	_	_	_	_
 3	усмотрела	_	_	_	_	_	_	_	_
-4	клеветы	_	_	_	_	_	_	_	_
+4	клеветы	_	_	_	_	_	_	_	bratT66=Event
 5	в	_	_	_	_	_	_	_	_
 6	новости	_	_	_	_	_	_	_	_
 7	об	_	_	_	_	_	_	_	_
@@ -43,7 +43,7 @@
 13	уголовного	_	_	_	_	_	_	_	bratT57=Event|bratT61=Event
 14	дела	_	_	_	_	_	_	_	bratT57=Event|bratT61=Event
 15	о	_	_	_	_	_	_	_	_
-16	клевете	_	_	_	_	_	_	_	_
+16	клевете	_	_	_	_	_	_	_	bratT67=Event
 17	против	_	_	_	_	_	_	_	_
 18	корреспондентки	_	_	_	_	_	_	_	bratA4=T15:Female|bratT15=Person|bratT16=Person-property
 19	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA4=T15:Female|bratA5=T17:Media|bratT15=Person|bratT16=Person-property|bratT17=Organization
@@ -82,7 +82,7 @@
 3	угрожал	_	_	_	_	_	_	_	_
 4	журналистке	_	_	_	_	_	_	_	bratT26=Person-property
 5	после	_	_	_	_	_	_	_	bratA16=T27:Past|bratT27=Date-absolute
-6	публикации	_	_	_	_	_	_	_	bratA16=T27:Past|bratT27=Date-absolute
+6	публикации	_	_	_	_	_	_	_	bratA16=T27:Past|bratT27=Date-absolute|bratT68=Event
 7	статьи	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
 9	пытках	_	_	_	_	_	_	_	_
@@ -188,8 +188,8 @@
 7	угрозах	_	_	_	_	_	_	_	bratT64=Event
 8	со	_	_	_	_	_	_	_	_
 9	стороны	_	_	_	_	_	_	_	_
-10	сотрудника	_	_	_	_	_	_	_	bratT42=Person-property
-11	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property|bratT58=Organization
+10	сотрудника	_	_	_	_	_	_	_	bratA19=T71:Male|bratT42=Person-property|bratT71=Person
+11	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T71:Male|bratT42=Person-property|bratT58=Organization|bratT71=Person
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p4-s2
@@ -206,7 +206,7 @@
 10	нем	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	журналистка	_	_	_	_	_	_	_	bratT46=Person-property
+13	журналистка	_	_	_	_	_	_	_	bratA18=T70:Female|bratT46=Person-property|bratT70=Person
 14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 15	распространила	_	_	_	_	_	_	_	_
 16	порочащие	_	_	_	_	_	_	_	_

@@ -11,12 +11,12 @@
 5	Кинг	_	_	_	_	_	_	_	bratA1=T4:Male|bratT3=Person-surname|bratT4=Person
 6	разводится	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
-8	седьмой	_	_	_	_	_	_	_	bratT5=Ordinal|bratT6=Family
-9	женой	_	_	_	_	_	_	_	bratT6=Family
+8	седьмой	_	_	_	_	_	_	_	bratA25=T68:Female|bratT5=Ordinal|bratT6=Family|bratT68=Person
+9	женой	_	_	_	_	_	_	_	bratA25=T68:Female|bratT6=Family|bratT68=Person
 10	после	_	_	_	_	_	_	_	bratA2=T8:Present|bratT8=Date-absolute
 11	22	_	_	_	_	_	_	_	bratA2=T8:Present|bratT7=Duration|bratT8=Date-absolute
 12	лет	_	_	_	_	_	_	_	bratA2=T8:Present|bratT7=Duration|bratT8=Date-absolute
-13	брака	_	_	_	_	_	_	_	bratA2=T8:Present|bratT8=Date-absolute
+13	брака	_	_	_	_	_	_	_	bratA2=T8:Present|bratT78=Event|bratT8=Date-absolute
 
 # newpar id = 0030-p2
 # par_text = Легенда американского телевидения Ларри Кинг был женат восемь раз. При этом третий и пятый раз его супругой становилась одна и та же женщина — модель Playboy Алин Акинс. Таким образом, жен у Ларри было семь. С последней из них, моделью, певицей, актрисой, телеведущей и просто очень разносторонней личностью Шон Саутуик он сыграл свадьбу в 1997 году. Это самый долгий брак Кинга. Но и ему, похоже, пришел конец. 20 августа 85-летний телеведущий подал на развод в суд Лос-Анджелеса. В качестве причины он указал непримиримые разногласия, а датой расставания с Шон назвал 6 июня. Информацию о разрыве подтвердил официальный представитель Кинга.
@@ -82,16 +82,16 @@
 10	актрисой	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T33:Female|bratT31=Person-property|bratT33=Person
 11	,	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
 12	телеведущей	_	_	_	_	_	_	_	bratA8=T33:Female|bratT32=Person-property|bratT33=Person
-13	и	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
-14	просто	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
-15	очень	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
-16	разносторонней	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
-17	личностью	_	_	_	_	_	_	_	bratA8=T33:Female|bratT33=Person
-18	Шон	_	_	_	_	_	_	_	bratA8=T33:Female|bratT27=Person-forename|bratT33=Person
-19	Саутуик	_	_	_	_	_	_	_	bratA8=T33:Female|bratT28=Person-surname|bratT33=Person
+13	и	_	_	_	_	_	_	_	_
+14	просто	_	_	_	_	_	_	_	_
+15	очень	_	_	_	_	_	_	_	_
+16	разносторонней	_	_	_	_	_	_	_	_
+17	личностью	_	_	_	_	_	_	_	_
+18	Шон	_	_	_	_	_	_	_	bratA26=T82:Female|bratT27=Person-forename|bratT82=Person
+19	Саутуик	_	_	_	_	_	_	_	bratA26=T82:Female|bratT28=Person-surname|bratT82=Person
 20	он	_	_	_	_	_	_	_	_
 21	сыграл	_	_	_	_	_	_	_	_
-22	свадьбу	_	_	_	_	_	_	_	_
+22	свадьбу	_	_	_	_	_	_	_	bratT77=Event
 23	в	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-absolute
 24	1997	_	_	_	_	_	_	_	bratA9=T34:Past|bratT34=Date-absolute
 25	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T34:Past|bratT34=Date-absolute
@@ -102,7 +102,7 @@
 1	Это	_	_	_	_	_	_	_	_
 2	самый	_	_	_	_	_	_	_	_
 3	долгий	_	_	_	_	_	_	_	_
-4	брак	_	_	_	_	_	_	_	_
+4	брак	_	_	_	_	_	_	_	bratT79=Event
 5	Кинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T36:Male|bratT35=Person-surname|bratT36=Person
 6	.	_	_	_	_	_	_	_	_
 
@@ -115,7 +115,7 @@
 5	похоже	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	пришел	_	_	_	_	_	_	_	_
-8	конец	_	_	_	_	_	_	_	SpaceAfter=No
+8	конец	_	_	_	_	_	_	_	SpaceAfter=No|bratT83=Event
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p2-s7
@@ -126,7 +126,7 @@
 3	85	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT38=Age
 4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT38=Age
 5	летний	_	_	_	_	_	_	_	bratT38=Age
-6	телеведущий	_	_	_	_	_	_	_	bratT39=Person-property
+6	телеведущий	_	_	_	_	_	_	_	bratA27=T84:Male|bratT39=Person-property|bratT84=Person
 7	подал	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	развод	_	_	_	_	_	_	_	_
@@ -161,9 +161,9 @@
 2	о	_	_	_	_	_	_	_	_
 3	разрыве	_	_	_	_	_	_	_	_
 4	подтвердил	_	_	_	_	_	_	_	_
-5	официальный	_	_	_	_	_	_	_	bratT47=Person-property
-6	представитель	_	_	_	_	_	_	_	bratT47=Person-property
-7	Кинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Male|bratT45=Person-surname|bratT46=Person|bratT47=Person-property
+5	официальный	_	_	_	_	_	_	_	bratA28=T85:Male|bratT47=Person-property|bratT85=Person
+6	представитель	_	_	_	_	_	_	_	bratA28=T85:Male|bratT47=Person-property|bratT85=Person
+7	Кинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Male|bratA28=T85:Male|bratT45=Person-surname|bratT46=Person|bratT47=Person-property|bratT85=Person
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p3
@@ -189,12 +189,12 @@
 
 # sent_id = 0030-p3-s2
 # text = Первая попытка расстаться с седьмой женой состоялась в 2010 году, когда Саутуик закрутила роман с бейсбольным тренером одного из их с Кингом сыновей.
-1	Первая	_	_	_	_	_	_	_	bratT53=Ordinal
-2	попытка	_	_	_	_	_	_	_	_
+1	Первая	_	_	_	_	_	_	_	bratT53=Ordinal|bratT86=Event
+2	попытка	_	_	_	_	_	_	_	bratT86=Event
 3	расстаться	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
-5	седьмой	_	_	_	_	_	_	_	bratT54=Ordinal|bratT55=Family
-6	женой	_	_	_	_	_	_	_	bratT55=Family
+5	седьмой	_	_	_	_	_	_	_	bratA29=T87:Female|bratT54=Ordinal|bratT55=Family|bratT87=Person
+6	женой	_	_	_	_	_	_	_	bratA29=T87:Female|bratT55=Family|bratT87=Person
 7	состоялась	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	bratA17=T56:Past|bratT56=Date-absolute
 9	2010	_	_	_	_	_	_	_	bratA17=T56:Past|bratT56=Date-absolute
@@ -203,7 +203,7 @@
 12	когда	_	_	_	_	_	_	_	_
 13	Саутуик	_	_	_	_	_	_	_	bratA18=T58:Female|bratT57=Person-surname|bratT58=Person
 14	закрутила	_	_	_	_	_	_	_	_
-15	роман	_	_	_	_	_	_	_	_
+15	роман	_	_	_	_	_	_	_	bratT80=Event
 16	с	_	_	_	_	_	_	_	_
 17	бейсбольным	_	_	_	_	_	_	_	bratA13=T76:Male|bratT64=Person-property|bratT76=Person
 18	тренером	_	_	_	_	_	_	_	bratA13=T76:Male|bratT64=Person-property|bratT76=Person
@@ -217,15 +217,15 @@
 
 # sent_id = 0030-p3-s3
 # text = Спортсмен подтвердил свою связь с женщиной, но супруги в итоге решили сохранить свои отношения.
-1	Спортсмен	_	_	_	_	_	_	_	bratT65=Person-property
+1	Спортсмен	_	_	_	_	_	_	_	bratA30=T88:Male|bratT65=Person-property|bratT88=Person
 2	подтвердил	_	_	_	_	_	_	_	_
 3	свою	_	_	_	_	_	_	_	_
 4	связь	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
-6	женщиной	_	_	_	_	_	_	_	SpaceAfter=No
+6	женщиной	_	_	_	_	_	_	_	SpaceAfter=No|bratA31=T89:Female|bratT89=Person
 7	,	_	_	_	_	_	_	_	_
 8	но	_	_	_	_	_	_	_	_
-9	супруги	_	_	_	_	_	_	_	bratT66=Family
+9	супруги	_	_	_	_	_	_	_	bratT66=Family|bratT90=Person
 10	в	_	_	_	_	_	_	_	_
 11	итоге	_	_	_	_	_	_	_	_
 12	решили	_	_	_	_	_	_	_	_
@@ -240,12 +240,12 @@
 2	2016	_	_	_	_	_	_	_	bratA21=T67:Past|bratT67=Date-absolute
 3	году	_	_	_	_	_	_	_	bratA21=T67:Past|bratT67=Date-absolute
 4	в	_	_	_	_	_	_	_	_
-5	прессе	_	_	_	_	_	_	_	_
+5	прессе	_	_	_	_	_	_	_	bratA32=T92:Media|bratT92=Organization
 6	появились	_	_	_	_	_	_	_	_
 7	сообщения	_	_	_	_	_	_	_	_
 8	об	_	_	_	_	_	_	_	_
-9	очередном	_	_	_	_	_	_	_	bratT68=Ordinal
-10	романе	_	_	_	_	_	_	_	_
+9	очередном	_	_	_	_	_	_	_	_
+10	романе	_	_	_	_	_	_	_	bratT81=Event
 11	Шон	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T70:Female|bratT69=Person-forename|bratT70=Person
 12	.	_	_	_	_	_	_	_	_
 
@@ -261,8 +261,8 @@
 8	слухи	_	_	_	_	_	_	_	_
 9	и	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
-11	их	_	_	_	_	_	_	_	_
-12	семье	_	_	_	_	_	_	_	bratT74=Family
+11	их	_	_	_	_	_	_	_	bratT91=Person
+12	семье	_	_	_	_	_	_	_	bratT74=Family|bratT91=Person
 13	царит	_	_	_	_	_	_	_	_
 14	гармония	_	_	_	_	_	_	_	SpaceAfter=No
 15	.	_	_	_	_	_	_	_	_

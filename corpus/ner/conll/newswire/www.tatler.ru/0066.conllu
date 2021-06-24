@@ -102,7 +102,7 @@
 15	говорится	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
 17	заявлении	_	_	_	_	_	_	_	_
-18	пары	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Family
+18	пары	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Family|bratT76=Person
 19	.	_	_	_	_	_	_	_	_
 20	-	_	_	_	_	_	_	_	_
 
@@ -142,10 +142,10 @@
 1	Кстати	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	первой	_	_	_	_	_	_	_	bratT62=Ordinal
-4	новость	_	_	_	_	_	_	_	_
+4	новость	_	_	_	_	_	_	_	bratT75=Event
 5	о	_	_	_	_	_	_	_	_
 6	помолвке	_	_	_	_	_	_	_	bratT69=Event
-7	Беатрис	_	_	_	_	_	_	_	bratA14=T38:Female|bratT37=Person-forename|bratT38=Person|bratT69=Event
+7	Беатрис	_	_	_	_	_	_	_	bratA14=T38:Female|bratT37=Person-forename|bratT38=Person
 8	сообщила	_	_	_	_	_	_	_	_
 9	ее	_	_	_	_	_	_	_	bratA15=T41:Female|bratT41=Person
 10	сестра	_	_	_	_	_	_	_	bratA15=T41:Female|bratT39=Family|bratT41=Person
@@ -185,9 +185,9 @@
 11	внимания	_	_	_	_	_	_	_	_
 12	внимательных	_	_	_	_	_	_	_	_
 13-15	интернет-пользователей	_	_	_	_	_	_	_	SpaceAfter=No
-13	интернет	_	_	_	_	_	_	_	SpaceAfter=Yes
-14	-	_	_	_	_	_	_	_	SpaceAfter=Yes
-15	пользователей	_	_	_	_	_	_	_	SpaceAfter=No
+13	интернет	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT45=Other-group
+14	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT45=Other-group
+15	пользователей	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Other-group
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p4-s4
@@ -219,7 +219,7 @@
 9	публикацию	_	_	_	_	_	_	_	SpaceAfter=No
 10	:	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
-12	Биби	_	_	_	_	_	_	_	_
+12	Биби	_	_	_	_	_	_	_	bratT77=Person-forename|bratT78=Person
 13	-	_	_	_	_	_	_	_	_
 14	вау	_	_	_	_	_	_	_	SpaceAfter=No
 15	!	_	_	_	_	_	_	_	_
@@ -232,8 +232,8 @@
 4	за	_	_	_	_	_	_	_	_
 5	мою	_	_	_	_	_	_	_	_
 6	дорогую	_	_	_	_	_	_	_	_
-7	старшую	_	_	_	_	_	_	_	bratT53=Family
-8	сестренку	_	_	_	_	_	_	_	bratT53=Family
+7	старшую	_	_	_	_	_	_	_	bratA16=T74:Female|bratT53=Family|bratT74=Person
+8	сестренку	_	_	_	_	_	_	_	bratA16=T74:Female|bratT53=Family|bratT74=Person
 9	и	_	_	_	_	_	_	_	_
 10	Эдо	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T52:Male|bratT51=Person-forename|bratT52=Person
 11	.	_	_	_	_	_	_	_	_
@@ -270,7 +270,7 @@
 9	портреты	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	честь	_	_	_	_	_	_	_	_
-12	помолвки	_	_	_	_	_	_	_	_
+12	помолвки	_	_	_	_	_	_	_	bratT72=Event
 13	сделаны	_	_	_	_	_	_	_	_
 14	именно	_	_	_	_	_	_	_	_
 15	ей	_	_	_	_	_	_	_	SpaceAfter=No
@@ -283,7 +283,7 @@
 3	кольца	_	_	_	_	_	_	_	_
 4	разработал	_	_	_	_	_	_	_	_
 5	сам	_	_	_	_	_	_	_	_
-6	жених	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Family
+6	жених	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T73:Male|bratT56=Family|bratT73=Person
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
 9	исполнение	_	_	_	_	_	_	_	_

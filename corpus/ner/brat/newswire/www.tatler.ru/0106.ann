@@ -8,7 +8,6 @@ T6	Person-surname 32 37	Ширан
 T7	Person 27 37	Эд   Ширан
 A2	Male T7
 T8	Quantity 44 53	один   из
-T9	Other-group 56 86	чемпионов   по   конспирологии
 T10	GPE 93 101	западном
 T11	Person-property 140 148	музыкант
 T12	Family 161 168	супруга
@@ -30,12 +29,12 @@ T23	Service 415 425	инстаграме
 A7	Media T23
 T24	Family 478 484	дочери
 T25	Person-forename 491 508	Лиры   Антарктики
-T26	Person 491 508	Лиры   Антарктики
+T26	Person 478 508	дочери   -   Лиры   Антарктики
 T27	Date-absolute 547 568	на   прошлой   неделе
 A8	Past T27
 T28	Ordinal 552 559	прошлой
 T29	Family 608 612	Мама
-T30	Family 619 626	малышка
+T30	Age 619 626	малышка
 T31	Ordinal 684 691	седьмом
 T32	Person-surname 841 846	Ширан
 T33	Person 841 846	Ширан
@@ -54,7 +53,7 @@ T41	Person-forename 1056 1058	Эд
 T42	Person 1056 1058	Эд
 A13	Male T42
 T43	GPE 1118 1132	Великобритании
-T44	Facility 1170 1190	``   Ширанвилль   ''
+T44	Facility 1175 1185	Ширанвилль
 T46	Age 307 314	молодых
 A14	Adjective T10
 T45	Nationality 1149 1156	местные
@@ -62,3 +61,16 @@ A15	Resident T45
 T47	Service 428 432	пост
 A16	Media T47
 T48	Event 467 475	рождении
+T49	Event 1040 1045	родов
+T50	Event 343 351	событием
+T9	Person 317 326	родителей
+T51	Person 140 148	музыкант
+A17	Male T51
+T52	Person 619 626	малышка
+A18	Female T52
+T53	Person 608 612	Мама
+A19	Female T53
+T54	Person 886 894	музыкант
+A20	Male T54
+T55	Person 878 883	семье
+T56	Facility 1103 1111	поместье

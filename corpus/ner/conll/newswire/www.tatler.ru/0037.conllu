@@ -19,8 +19,8 @@
 14	выступил	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
 16	первой	_	_	_	_	_	_	_	bratT3=Ordinal
-17	предвыборной	_	_	_	_	_	_	_	_
-18	речью	_	_	_	_	_	_	_	_
+17	предвыборной	_	_	_	_	_	_	_	bratT61=Event
+18	речью	_	_	_	_	_	_	_	bratT61=Event
 
 # newpar id = 0037-p2
 # par_text = Новоиспеченный член президентской гонки провел предвыборную встречу в Южной Каролине. В зале собралось 200 человек, а часовое выступление Уэста транслировалось на YouTube. Появился Канье эффектно — в бронежилете с надписью Security и с выбритым на затылке числом 2020. Рэпер не изменял себе: смеялся, плакал, ругался и цитировал Библию.
@@ -72,12 +72,12 @@
 13	на	_	_	_	_	_	_	_	_
 14	затылке	_	_	_	_	_	_	_	_
 15	числом	_	_	_	_	_	_	_	_
-16	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Cardinal
+16	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Date-absolute
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p2-s4
 # text = Рэпер не изменял себе: смеялся, плакал, ругался и цитировал Библию.
-1	Рэпер	_	_	_	_	_	_	_	bratT11=Person-property
+1	Рэпер	_	_	_	_	_	_	_	bratA15=T62:Male|bratT11=Person-property|bratT62=Person
 2	не	_	_	_	_	_	_	_	_
 3	изменял	_	_	_	_	_	_	_	_
 4	себе	_	_	_	_	_	_	_	SpaceAfter=No
@@ -132,7 +132,7 @@
 
 # sent_id = 0037-p3-s3
 # text = Отец настаивал на аборте.
-1	Отец	_	_	_	_	_	_	_	bratT17=Family
+1	Отец	_	_	_	_	_	_	_	bratA21=T63:Male|bratT17=Family|bratT63=Person
 2	настаивал	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	аборте	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
@@ -203,15 +203,15 @@
 25	,	_	_	_	_	_	_	_	_
 26	-	_	_	_	_	_	_	_	_
 27	добавил	_	_	_	_	_	_	_	_
-28	рэпер	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
+28	рэпер	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T64:Male|bratT24=Person-property|bratT64=Person
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p3-s8
 # text = Ему потребовалось несколько минут, чтобы прийти в себя и продолжить выступление.
 1	Ему	_	_	_	_	_	_	_	_
 2	потребовалось	_	_	_	_	_	_	_	_
-3	несколько	_	_	_	_	_	_	_	bratA14=T48:Past|bratT47=Duration|bratT48=Date-period-relative
-4	минут	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T48:Past|bratT47=Duration|bratT48=Date-period-relative
+3	несколько	_	_	_	_	_	_	_	bratT47=Duration|bratT48=Time-period
+4	минут	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Duration|bratT48=Time-period
 5	,	_	_	_	_	_	_	_	_
 6	чтобы	_	_	_	_	_	_	_	_
 7	прийти	_	_	_	_	_	_	_	_
@@ -234,7 +234,7 @@
 8	выступал	_	_	_	_	_	_	_	_
 9	за	_	_	_	_	_	_	_	_
 10	их	_	_	_	_	_	_	_	_
-11	легализацию	_	_	_	_	_	_	_	SpaceAfter=No
+11	легализацию	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p3-s10

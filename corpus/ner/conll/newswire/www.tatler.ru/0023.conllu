@@ -3,16 +3,16 @@
 # par_text = Миллиардер из Саудовской Аравии купил для дочери-студентки квартиру, принадлежавшую Онассисам
 # sent_id = 0023-p1-s1
 # text = Миллиардер из Саудовской Аравии купил для дочери-студентки квартиру, принадлежавшую Онассисам
-1	Миллиардер	_	_	_	_	_	_	_	bratT1=Person-property
-2	из	_	_	_	_	_	_	_	_
-3	Саудовской	_	_	_	_	_	_	_	bratT2=GPE
-4	Аравии	_	_	_	_	_	_	_	bratT2=GPE
+1	Миллиардер	_	_	_	_	_	_	_	bratA19=T83:Male|bratT1=Person-property|bratT83=Person
+2	из	_	_	_	_	_	_	_	bratA19=T83:Male|bratT83=Person
+3	Саудовской	_	_	_	_	_	_	_	bratA19=T83:Male|bratT2=GPE|bratT83=Person
+4	Аравии	_	_	_	_	_	_	_	bratA19=T83:Male|bratT2=GPE|bratT83=Person
 5	купил	_	_	_	_	_	_	_	_
 6	для	_	_	_	_	_	_	_	_
 7-9	дочери-студентки	_	_	_	_	_	_	_	_
-7	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Family
-8	-	_	_	_	_	_	_	_	SpaceAfter=No
-9	студентки	_	_	_	_	_	_	_	bratT66=Person-property
+7	дочери	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T84:Female|bratT59=Family|bratT84=Person
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T84:Female|bratT84=Person
+9	студентки	_	_	_	_	_	_	_	bratA20=T84:Female|bratT66=Person-property|bratT84=Person
 10	квартиру	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Facility
 11	,	_	_	_	_	_	_	_	_
 12	принадлежавшую	_	_	_	_	_	_	_	_
@@ -25,9 +25,9 @@
 1	В	_	_	_	_	_	_	_	bratA12=T60:Past|bratT60=Date-absolute
 2	преддверии	_	_	_	_	_	_	_	bratA12=T60:Past|bratT60=Date-absolute
 3	начала	_	_	_	_	_	_	_	bratA12=T60:Past|bratT60=Date-absolute|bratT64=Event
-4	нового	_	_	_	_	_	_	_	bratT64=Event
-5	учебного	_	_	_	_	_	_	_	bratT64=Event
-6	года	_	_	_	_	_	_	_	bratT64=Event
+4	нового	_	_	_	_	_	_	_	bratT64=Event|bratT78=Event
+5	учебного	_	_	_	_	_	_	_	bratT64=Event|bratT78=Event
+6	года	_	_	_	_	_	_	_	bratT64=Event|bratT78=Event
 7	зафиксирован	_	_	_	_	_	_	_	_
 8	рекорд	_	_	_	_	_	_	_	bratT77=Event
 9	по	_	_	_	_	_	_	_	_
@@ -38,17 +38,17 @@
 14	за	_	_	_	_	_	_	_	_
 15	ним	_	_	_	_	_	_	_	_
 16	стоит	_	_	_	_	_	_	_	_
-17	миллиардер	_	_	_	_	_	_	_	bratT4=Person-property
-18	из	_	_	_	_	_	_	_	_
-19	Саудовской	_	_	_	_	_	_	_	bratT5=GPE
-20	Аравии	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE
+17	миллиардер	_	_	_	_	_	_	_	bratA21=T85:Male|bratT4=Person-property|bratT85=Person
+18	из	_	_	_	_	_	_	_	bratA21=T85:Male|bratT85=Person
+19	Саудовской	_	_	_	_	_	_	_	bratA21=T85:Male|bratT5=GPE|bratT85=Person
+20	Аравии	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T85:Male|bratT5=GPE|bratT85=Person
 21	,	_	_	_	_	_	_	_	_
 22	решивший	_	_	_	_	_	_	_	_
 23	поселить	_	_	_	_	_	_	_	_
 24-26	дочь-студентку	_	_	_	_	_	_	_	_
-24	дочь	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Family
-25	-	_	_	_	_	_	_	_	SpaceAfter=No
-26	студентку	_	_	_	_	_	_	_	bratT68=Person-property
+24	дочь	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T86:Female|bratT58=Family|bratT86=Person
+25	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T86:Female|bratT86=Person
+26	студентку	_	_	_	_	_	_	_	bratA22=T86:Female|bratT68=Person-property|bratT86=Person
 27	в	_	_	_	_	_	_	_	_
 28	занимающей	_	_	_	_	_	_	_	_
 29	целый	_	_	_	_	_	_	_	_
@@ -63,7 +63,7 @@
 38	которая	_	_	_	_	_	_	_	_
 39	раньше	_	_	_	_	_	_	_	_
 40	принадлежала	_	_	_	_	_	_	_	_
-41	семье	_	_	_	_	_	_	_	bratT9=Family
+41	семье	_	_	_	_	_	_	_	bratT8=Person|bratT9=Family
 42	Онассис	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-surname|bratT8=Person
 43	.	_	_	_	_	_	_	_	_
 
@@ -75,7 +75,7 @@
 4	пятью	_	_	_	_	_	_	_	bratT10=Quantity
 5	спальнями	_	_	_	_	_	_	_	bratT10=Quantity
 6	и	_	_	_	_	_	_	_	_
-7	библиотекой	_	_	_	_	_	_	_	_
+7	библиотекой	_	_	_	_	_	_	_	bratT79=Facility
 8	было	_	_	_	_	_	_	_	_
 9	заплачено	_	_	_	_	_	_	_	_
 10-11	£18.6	_	_	_	_	_	_	_	_
@@ -87,8 +87,8 @@
 # sent_id = 0023-p2-s3
 # text = Для студенческой квартиры впечатляющая сумма, но, скорее всего, не та, на которую владелица квартиры на площади Гросвенор, внучка греческого судовладельца Аристотеля Онассиса Афина, изначально рассчитывала.
 1	Для	_	_	_	_	_	_	_	_
-2	студенческой	_	_	_	_	_	_	_	_
-3	квартиры	_	_	_	_	_	_	_	_
+2	студенческой	_	_	_	_	_	_	_	bratT81=Facility
+3	квартиры	_	_	_	_	_	_	_	bratT81=Facility
 4	впечатляющая	_	_	_	_	_	_	_	_
 5	сумма	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -102,8 +102,8 @@
 14	,	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	которую	_	_	_	_	_	_	_	_
-17	владелица	_	_	_	_	_	_	_	_
-18	квартиры	_	_	_	_	_	_	_	bratT72=Facility
+17	владелица	_	_	_	_	_	_	_	bratA17=T80:Female|bratT80=Person
+18	квартиры	_	_	_	_	_	_	_	bratA17=T80:Female|bratT72=Facility|bratT80=Person
 19	на	_	_	_	_	_	_	_	_
 20	площади	_	_	_	_	_	_	_	bratT12=Facility
 21	Гросвенор	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Facility
@@ -158,7 +158,7 @@
 # sent_id = 0023-p3-s1
 # text = Имена покупателя и его дочери не разглашаются, зато хорошо известно, кто жил ранее в этой квартире в Мэйфэйре.
 1	Имена	_	_	_	_	_	_	_	_
-2	покупателя	_	_	_	_	_	_	_	bratT65=Person-property
+2	покупателя	_	_	_	_	_	_	_	bratA18=T82:Male|bratT65=Person-property|bratT82=Person
 3	и	_	_	_	_	_	_	_	_
 4	его	_	_	_	_	_	_	_	bratA15=T63:Female|bratT63=Person
 5	дочери	_	_	_	_	_	_	_	bratA15=T63:Female|bratT36=Family|bratT63=Person

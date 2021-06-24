@@ -9,8 +9,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	пресекла	_	_	_	_	_	_	_	_
-7	попытку	_	_	_	_	_	_	_	_
-8	убийства	_	_	_	_	_	_	_	bratT58=Event
+7	попытку	_	_	_	_	_	_	_	bratT62=Event
+8	убийства	_	_	_	_	_	_	_	bratT59=Event|bratT62=Event
 9	премьер-министра	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT27=Person-property
 10	страны	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT27=Person-property|bratT48=GPE
 11	Никола	_	_	_	_	_	_	_	bratA3=T26:Male|bratT26=Person|bratT34=Person-forename
@@ -28,8 +28,8 @@
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
 8	пресекла	_	_	_	_	_	_	_	_
-9	попытку	_	_	_	_	_	_	_	_
-10	убийства	_	_	_	_	_	_	_	bratT59=Event
+9	попытку	_	_	_	_	_	_	_	bratT63=Event
+10	убийства	_	_	_	_	_	_	_	bratT63=Event|bratT64=Event
 11	премьер-министра	_	_	_	_	_	_	_	bratA4=T5:Male|bratT5=Person|bratT6=Person-property
 12	страны	_	_	_	_	_	_	_	bratA4=T5:Male|bratT49=GPE|bratT5=Person|bratT6=Person-property
 13	Никола	_	_	_	_	_	_	_	bratA4=T5:Male|bratT36=Person-forename|bratT5=Person
@@ -138,9 +138,9 @@
 9	по	_	_	_	_	_	_	_	_
 10	обвинению	_	_	_	_	_	_	_	_
 11	в	_	_	_	_	_	_	_	_
-12	попытке	_	_	_	_	_	_	_	_
-13	узурпации	_	_	_	_	_	_	_	_
-14	власти	_	_	_	_	_	_	_	_
+12	попытке	_	_	_	_	_	_	_	bratT58=Event
+13	узурпации	_	_	_	_	_	_	_	bratT58=Event|bratT65=Event
+14	власти	_	_	_	_	_	_	_	bratT58=Event|bratT65=Event
 15	и	_	_	_	_	_	_	_	_
 16	подготовке	_	_	_	_	_	_	_	bratT53=Event
 17	убийства	_	_	_	_	_	_	_	bratT53=Event|bratT54=Event
@@ -154,11 +154,11 @@
 # sent_id = 0119-p5-s2
 # text = Член совета партии ``Отечества'' Сос Акопян заявил, что таким образом власти страны пытаются всячески ``обезглавить'' партию.
 1	Член	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property
-2	совета	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property
-3	партии	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
-5	Отечества	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
-6	''	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization
+2	совета	_	_	_	_	_	_	_	bratA1=T61:Department|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT61=Organization
+3	партии	_	_	_	_	_	_	_	bratA1=T61:Department|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization|bratT61=Organization
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T61:Department|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization|bratT61=Organization
+5	Отечества	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T61:Department|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization|bratT61=Organization
+6	''	_	_	_	_	_	_	_	bratA1=T61:Department|bratA9=T24:Male|bratT24=Person|bratT25=Person-property|bratT33=Organization|bratT61=Organization
 7	Сос	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT44=Person-forename
 8	Акопян	_	_	_	_	_	_	_	bratA9=T24:Male|bratT24=Person|bratT45=Person-surname
 9	заявил	_	_	_	_	_	_	_	SpaceAfter=No

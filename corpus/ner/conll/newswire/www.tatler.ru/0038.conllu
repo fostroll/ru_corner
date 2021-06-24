@@ -5,9 +5,9 @@
 # text = На церемонии ``Оскар'' появится новая номинация
 1	На	_	_	_	_	_	_	_	_
 2	церемонии	_	_	_	_	_	_	_	bratT1=Event
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event
-4	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event
-5	''	_	_	_	_	_	_	_	bratT1=Event
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event|bratT35=Other-term
+4	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event|bratT16=Person-forename|bratT35=Other-term
+5	''	_	_	_	_	_	_	_	bratT1=Event|bratT35=Other-term
 6	появится	_	_	_	_	_	_	_	_
 7	новая	_	_	_	_	_	_	_	_
 8	номинация	_	_	_	_	_	_	_	_
@@ -16,10 +16,10 @@
 # par_text = Премия «Оскар» давно утратила былую славу, свидетельство тому — падающие каждый год рейтинги телетрансляции церемонии. Чтобы как-то исправить ситуацию, Американская киноакадемия решилась на введение некоторых новшеств в одну из самых консервативных премий.
 # sent_id = 0038-p2-s1
 # text = Премия ``Оскар'' давно утратила былую славу, свидетельство тому - падающие каждый год рейтинги телетрансляции церемонии.
-1	Премия	_	_	_	_	_	_	_	bratT2=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event
-3	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event
-4	''	_	_	_	_	_	_	_	bratT2=Event
+1	Премия	_	_	_	_	_	_	_	bratT2=Other-term
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
+3	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term|bratT32=Person-forename
+4	''	_	_	_	_	_	_	_	bratT2=Other-term
 5	давно	_	_	_	_	_	_	_	bratA10=T30:Past-Pres|bratT30=Date-period-absolute
 6	утратила	_	_	_	_	_	_	_	_
 7	былую	_	_	_	_	_	_	_	_
@@ -33,7 +33,7 @@
 15	год	_	_	_	_	_	_	_	bratT19=Time-period|bratT20=Duration
 16	рейтинги	_	_	_	_	_	_	_	_
 17	телетрансляции	_	_	_	_	_	_	_	_
-18	церемонии	_	_	_	_	_	_	_	SpaceAfter=No
+18	церемонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0038-p2-s2
@@ -47,7 +47,7 @@
 7	киноакадемия	_	_	_	_	_	_	_	bratT3=Organization
 8	решилась	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	введение	_	_	_	_	_	_	_	_
+10	введение	_	_	_	_	_	_	_	bratT37=Event
 11	некоторых	_	_	_	_	_	_	_	bratT5=Quantity
 12	новшеств	_	_	_	_	_	_	_	bratT5=Quantity
 13	в	_	_	_	_	_	_	_	_
@@ -69,7 +69,7 @@
 5	главное	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
-8	появление	_	_	_	_	_	_	_	_
+8	появление	_	_	_	_	_	_	_	bratT41=Event
 9	новой	_	_	_	_	_	_	_	_
 10	номинации	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -90,10 +90,10 @@
 4	здесь	_	_	_	_	_	_	_	_
 5	будут	_	_	_	_	_	_	_	_
 6	представлены	_	_	_	_	_	_	_	_
-7	многочисленные	_	_	_	_	_	_	_	bratT7=Quantity
-8	фильмы	_	_	_	_	_	_	_	bratT7=Quantity
+7	многочисленные	_	_	_	_	_	_	_	_
+8	фильмы	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
-10	супергероях	_	_	_	_	_	_	_	SpaceAfter=No
+10	супергероях	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property
 11	,	_	_	_	_	_	_	_	_
 12	а	_	_	_	_	_	_	_	_
 13	также	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 2	категория	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
-5	Оскаре	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event
+5	Оскаре	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Event|bratT33=Person-forename
 6	''	_	_	_	_	_	_	_	bratT17=Event
 7	вводится	_	_	_	_	_	_	_	_
 8	впервые	_	_	_	_	_	_	_	bratT8=Ordinal
@@ -135,7 +135,7 @@
 3	касается	_	_	_	_	_	_	_	_
 4	хронометража	_	_	_	_	_	_	_	_
 5	видеотрансляции	_	_	_	_	_	_	_	_
-6	церемонии	_	_	_	_	_	_	_	_
+6	церемонии	_	_	_	_	_	_	_	bratT40=Event
 7	-	_	_	_	_	_	_	_	_
 8	теперь	_	_	_	_	_	_	_	bratA5=T18:Future|bratT18=Date-absolute
 9	она	_	_	_	_	_	_	_	_
@@ -172,11 +172,11 @@
 4	,	_	_	_	_	_	_	_	_
 5	последнее	_	_	_	_	_	_	_	bratT10=Ordinal
 6	существенное	_	_	_	_	_	_	_	_
-7	изменение	_	_	_	_	_	_	_	_
+7	изменение	_	_	_	_	_	_	_	bratT38=Event
 8	коснулось	_	_	_	_	_	_	_	_
 9	даты	_	_	_	_	_	_	_	_
 10	проведения	_	_	_	_	_	_	_	_
-11	церемонии	_	_	_	_	_	_	_	SpaceAfter=No
+11	церемонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0038-p5-s2
@@ -191,7 +191,7 @@
 8	ранее	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T24:Past|bratT24=Date-relative
 9	,	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Event
-11	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Event
+11	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Event|bratT34=Person-forename
 12	''	_	_	_	_	_	_	_	bratT31=Event
 13	состоится	_	_	_	_	_	_	_	_
 14	24	_	_	_	_	_	_	_	bratA1=T11:Future|bratT11=Date-absolute
@@ -214,8 +214,8 @@
 31	церемония	_	_	_	_	_	_	_	bratT27=Event
 32	вручения	_	_	_	_	_	_	_	bratT27=Event
 33	премий	_	_	_	_	_	_	_	bratT27=Event
-34	Американской	_	_	_	_	_	_	_	bratT26=Organization|bratT27=Event
-35	киноакадемии	_	_	_	_	_	_	_	bratT26=Organization|bratT27=Event
+34	Американской	_	_	_	_	_	_	_	bratT26=Organization
+35	киноакадемии	_	_	_	_	_	_	_	bratT26=Organization
 36	назначена	_	_	_	_	_	_	_	_
 37	на	_	_	_	_	_	_	_	bratA3=T14:Future|bratT14=Date-absolute
 38	9	_	_	_	_	_	_	_	bratA3=T14:Future|bratT14=Date-absolute

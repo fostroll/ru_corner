@@ -3,7 +3,7 @@
 # par_text = Семья Ротенбергов названа богатейшей в России
 # sent_id = 0109-p1-s1
 # text = Семья Ротенбергов названа богатейшей в России
-1	Семья	_	_	_	_	_	_	_	bratT2=Family
+1	Семья	_	_	_	_	_	_	_	bratT1=Person|bratT2=Family
 2	Ротенбергов	_	_	_	_	_	_	_	bratT1=Person|bratT75=Person-surname
 3	названа	_	_	_	_	_	_	_	_
 4	богатейшей	_	_	_	_	_	_	_	_
@@ -21,8 +21,8 @@
 5	рейтинг	_	_	_	_	_	_	_	_
 6	самых	_	_	_	_	_	_	_	_
 7	богатых	_	_	_	_	_	_	_	_
-8	кланов	_	_	_	_	_	_	_	_
-9	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=GPE
+8	кланов	_	_	_	_	_	_	_	bratT14=Organization
+9	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization|bratT5=GPE
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0109-p2-s2
@@ -49,7 +49,7 @@
 1	За	_	_	_	_	_	_	_	bratA5=T10:Past-Pres|bratT10=Date-period-absolute
 2	год	_	_	_	_	_	_	_	bratA5=T10:Past-Pres|bratT10=Date-period-absolute
 3	состояние	_	_	_	_	_	_	_	_
-4	семьи	_	_	_	_	_	_	_	bratT11=Family
+4	семьи	_	_	_	_	_	_	_	bratT11=Family|bratT39=Person
 5	увеличилось	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	bratT12=Money
 7-8	$270	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 17-19	Явара-Нева	_	_	_	_	_	_	_	SpaceAfter=No
 17	Явара	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
 18	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
-19	Нева	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
+19	Нева	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization|bratT54=Location
 20	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA7=T15:Male|bratT15=Person|bratT20=Person-property|bratT21=Organization
 21	Аркадия	_	_	_	_	_	_	_	bratA7=T15:Male|bratT15=Person|bratT80=Person-forename
 22	Ротенберга	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T15:Male|bratT15=Person|bratT81=Person-surname
@@ -97,36 +97,36 @@
 28	брата	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT23=Family
 29	Бориса	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT79=Person-forename
 30	Ротенберга	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T22:Male|bratT22=Person|bratT78=Person-surname
-31	,	_	_	_	_	_	_	_	_
-32	совладельца	_	_	_	_	_	_	_	bratT24=Person-property
-33	СМП	_	_	_	_	_	_	_	bratT24=Person-property|bratT25=Organization
-34	Банка	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT25=Organization
+31	,	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person
+32	совладельца	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT24=Person-property
+33	СМП	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT24=Person-property|bratT25=Organization
+34	Банка	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T22:Male|bratT22=Person|bratT24=Person-property|bratT25=Organization
 35	,	_	_	_	_	_	_	_	_
 36	состояния	_	_	_	_	_	_	_	_
 37	его	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person
 38	сына	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person|bratT27=Family
 39	Игоря	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person|bratT82=Person-forename
 40	Ротенберга	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T26:Male|bratT26=Person|bratT83=Person-surname
-41	,	_	_	_	_	_	_	_	_
-42	председателя	_	_	_	_	_	_	_	bratT28=Person-property
-43	совета	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization
-44	директоров	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization
-45	ООО	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
-46	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
-47	Газпром	_	_	_	_	_	_	_	bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
-48	бурение	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
-49	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA10=T29:Department|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+41	,	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person
+42	председателя	_	_	_	_	_	_	_	bratA9=T26:Male|bratT26=Person|bratT28=Person-property
+43	совета	_	_	_	_	_	_	_	bratA10=T29:Department|bratA9=T26:Male|bratT26=Person|bratT28=Person-property|bratT29=Organization
+44	директоров	_	_	_	_	_	_	_	bratA10=T29:Department|bratA9=T26:Male|bratT26=Person|bratT28=Person-property|bratT29=Organization
+45	ООО	_	_	_	_	_	_	_	bratA10=T29:Department|bratA9=T26:Male|bratT26=Person|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+46	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA10=T29:Department|bratA9=T26:Male|bratT26=Person|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+47	Газпром	_	_	_	_	_	_	_	bratA10=T29:Department|bratA9=T26:Male|bratT26=Person|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+48	бурение	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T29:Department|bratA9=T26:Male|bratT26=Person|bratT28=Person-property|bratT29=Organization|bratT30=Organization
+49	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA10=T29:Department|bratA9=T26:Male|bratT26=Person|bratT28=Person-property|bratT29=Organization|bratT30=Organization
 50	и	_	_	_	_	_	_	_	_
 51	активов	_	_	_	_	_	_	_	_
 52	его	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person
 53	дочери	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person|bratT32=Family
 54	Лилии	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person|bratT84=Person-forename
 55	Ротенберг	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T31:Male|bratT31=Person|bratT85=Person-surname
-56	,	_	_	_	_	_	_	_	_
-57	совладелицы	_	_	_	_	_	_	_	bratT33=Person-property
-58	TPS	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Organization
-59	Real	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Organization
-60	Estate	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property|bratT34=Organization
+56	,	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person
+57	совладелицы	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person|bratT33=Person-property
+58	TPS	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person|bratT33=Person-property|bratT34=Organization
+59	Real	_	_	_	_	_	_	_	bratA11=T31:Male|bratT31=Person|bratT33=Person-property|bratT34=Organization
+60	Estate	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T31:Male|bratT31=Person|bratT33=Person-property|bratT34=Organization
 61	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0109-p4
@@ -186,15 +186,15 @@
 23	Юлия	_	_	_	_	_	_	_	bratA14=T47:Female|bratA21=T106:Plural|bratT106=Person|bratT47=Person|bratT91=Person-forename
 24	являются	_	_	_	_	_	_	_	_
 25	бенефициарами	_	_	_	_	_	_	_	bratT48=Person-property
-26	семейного	_	_	_	_	_	_	_	_
-27	траста	_	_	_	_	_	_	_	SpaceAfter=No
+26	семейного	_	_	_	_	_	_	_	bratT112=Organization|bratT48=Person-property
+27	траста	_	_	_	_	_	_	_	SpaceAfter=No|bratT112=Organization|bratT48=Person-property
 28	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0109-p5
 # par_text = Семья Гуцериевых, ранее возглавлявшая список, переместилась на третье место. Их состояние сократилось на $2,45 млрд до $3,2 млрд. Учитывались доходы владельца компании «Сафмар» Михаила, его брата Саит-Салама и сына Саида.
 # sent_id = 0109-p5-s1
 # text = Семья Гуцериевых, ранее возглавлявшая список, переместилась на третье место.
-1	Семья	_	_	_	_	_	_	_	bratT50=Family
+1	Семья	_	_	_	_	_	_	_	bratT49=Person|bratT50=Family
 2	Гуцериевых	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person|bratT92=Person-surname
 3	,	_	_	_	_	_	_	_	_
 4	ранее	_	_	_	_	_	_	_	bratA22=T107:Past|bratT107=Date-relative
@@ -235,9 +235,9 @@
 7	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA15=T55:Male|bratT55=Person|bratT56=Person-property|bratT57=Organization
 8	Михаила	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T55:Male|bratT103=Person-forename|bratT55=Person
 9	,	_	_	_	_	_	_	_	_
-10	его	_	_	_	_	_	_	_	bratT93=Person-forename
-11	брата	_	_	_	_	_	_	_	bratT60=Family|bratT93=Person-forename
-12	Саит-Салама	_	_	_	_	_	_	_	bratA16=T58:Male|bratT58=Person|bratT93=Person-forename
+10	его	_	_	_	_	_	_	_	bratA4=T93:Male|bratT93=Person
+11	брата	_	_	_	_	_	_	_	bratA4=T93:Male|bratT60=Family|bratT93=Person
+12	Саит-Салама	_	_	_	_	_	_	_	bratA4=T93:Male|bratT58=Person-forename|bratT93=Person
 13	и	_	_	_	_	_	_	_	_
 14	сына	_	_	_	_	_	_	_	bratA17=T59:Male|bratT59=Person|bratT61=Family
 15	Саида	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T59:Male|bratT59=Person|bratT94=Person-forename
@@ -251,7 +251,7 @@
 2	пятерку	_	_	_	_	_	_	_	bratT62=Quantity
 3	также	_	_	_	_	_	_	_	_
 4	вошли	_	_	_	_	_	_	_	_
-5	семья	_	_	_	_	_	_	_	bratT111=Family
+5	семья	_	_	_	_	_	_	_	bratT111=Family|bratT63=Person
 6	Шаймиевых	_	_	_	_	_	_	_	bratT108=Person-surname|bratT63=Person
 7	с	_	_	_	_	_	_	_	_
 8	состоянием	_	_	_	_	_	_	_	_
@@ -260,10 +260,10 @@
 10	2,85	_	_	_	_	_	_	_	bratT64=Money
 11	млрд	_	_	_	_	_	_	_	bratT64=Money
 12	и	_	_	_	_	_	_	_	_
-13	Владимира	_	_	_	_	_	_	_	bratA18=T65:Plural|bratA23=T109:Male|bratT109=Person|bratT65=Person|bratT95=Person-forename
-14	и	_	_	_	_	_	_	_	bratA18=T65:Plural|bratT65=Person
-15	Феликса	_	_	_	_	_	_	_	bratA18=T65:Plural|bratA19=T110:Male|bratT110=Person|bratT65=Person|bratT96=Person-forename
-16	Евтушенковых	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T65:Plural|bratT65=Person|bratT97=Person-surname
+13	Владимира	_	_	_	_	_	_	_	bratA18=T65:Plural|bratA23=T109:Male|bratA6=T65:Male|bratT109=Person|bratT65=Person|bratT95=Person-forename
+14	и	_	_	_	_	_	_	_	bratA18=T65:Plural|bratA6=T65:Male|bratT65=Person
+15	Феликса	_	_	_	_	_	_	_	bratA18=T65:Plural|bratA19=T110:Male|bratA6=T65:Male|bratT110=Person|bratT65=Person|bratT96=Person-forename
+16	Евтушенковых	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T65:Plural|bratA6=T65:Male|bratT65=Person|bratT97=Person-surname
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0109-p7

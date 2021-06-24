@@ -8,8 +8,8 @@
 3	Путин	_	_	_	_	_	_	_	bratA7=T2:Male|bratT2=Person|bratT44=Person-surname
 4	останется	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	максимальной	_	_	_	_	_	_	_	_
-7	изоляции	_	_	_	_	_	_	_	_
+6	максимальной	_	_	_	_	_	_	_	bratT74=Event
+7	изоляции	_	_	_	_	_	_	_	bratT74=Event
 8	как	_	_	_	_	_	_	_	_
 9	минимум	_	_	_	_	_	_	_	_
 10	до	_	_	_	_	_	_	_	bratA8=T3:LCont|bratA9=T3:Pres-Fut|bratT3=Date-period-absolute
@@ -194,7 +194,7 @@
 26	Федерации	_	_	_	_	_	_	_	bratT32=Organization|bratT33=Person-property
 27	и	_	_	_	_	_	_	_	_
 28	давал	_	_	_	_	_	_	_	_
-29	интервью	_	_	_	_	_	_	_	_
+29	интервью	_	_	_	_	_	_	_	bratT75=Event
 30	телеканалу	_	_	_	_	_	_	_	bratA3=T34:Media|bratT34=Organization
 31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T34:Media|bratT34=Organization
 32	Россия	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T34:Media|bratT34=Organization|bratT50=GPE
@@ -253,9 +253,9 @@
 8	некоторым	_	_	_	_	_	_	_	_
 9	нужно	_	_	_	_	_	_	_	_
 10	пройти	_	_	_	_	_	_	_	_
-11	обязательный	_	_	_	_	_	_	_	_
-12	двухнедельный	_	_	_	_	_	_	_	bratT37=Duration|bratT52=Time-period
-13	карантин	_	_	_	_	_	_	_	_
+11	обязательный	_	_	_	_	_	_	_	bratT73=Event
+12	двухнедельный	_	_	_	_	_	_	_	bratT37=Duration|bratT52=Time-period|bratT73=Event
+13	карантин	_	_	_	_	_	_	_	bratT73=Event
 14	в	_	_	_	_	_	_	_	_
 15	сочинском	_	_	_	_	_	_	_	bratA23=T53:Adjective|bratT53=GPE|bratT54=Facility
 16	санатории	_	_	_	_	_	_	_	bratT54=Facility

@@ -27,13 +27,13 @@
 # sent_id = 0039-p2-s2
 # text = Праздновать совершеннолетие звезда реалити-шоу ``Семейство Кардашьян'' начала ровно в полночь, чтобы не потратить зря ни минуты.
 1	Праздновать	_	_	_	_	_	_	_	_
-2	совершеннолетие	_	_	_	_	_	_	_	bratT29=Age
-3	звезда	_	_	_	_	_	_	_	bratT46=Event
-4	реалити-шоу	_	_	_	_	_	_	_	bratT46=Event|bratT5=Work-of-art
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event|bratT5=Work-of-art
-6	Семейство	_	_	_	_	_	_	_	bratT46=Event|bratT5=Work-of-art
-7	Кардашьян	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event|bratT5=Work-of-art
-8	''	_	_	_	_	_	_	_	bratT46=Event|bratT5=Work-of-art
+2	совершеннолетие	_	_	_	_	_	_	_	bratT29=Age|bratT52=Event
+3	звезда	_	_	_	_	_	_	_	bratA20=T46:Female|bratT46=Person|bratT62=Person-property
+4	реалити-шоу	_	_	_	_	_	_	_	bratA20=T46:Female|bratT46=Person|bratT5=Work-of-art|bratT62=Person-property
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T46:Female|bratT46=Person|bratT5=Work-of-art|bratT62=Person-property
+6	Семейство	_	_	_	_	_	_	_	bratA20=T46:Female|bratT46=Person|bratT5=Work-of-art|bratT62=Person-property|bratT63=Family|bratT65=Person
+7	Кардашьян	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T46:Female|bratT46=Person|bratT5=Work-of-art|bratT62=Person-property|bratT64=Person-surname|bratT65=Person
+8	''	_	_	_	_	_	_	_	bratA20=T46:Female|bratT46=Person|bratT5=Work-of-art|bratT62=Person-property
 9	начала	_	_	_	_	_	_	_	_
 10	ровно	_	_	_	_	_	_	_	bratA19=T55:Past|bratT55=Date-relative|bratT6=Time-absolute
 11	в	_	_	_	_	_	_	_	bratA19=T55:Past|bratT55=Date-relative|bratT6=Time-absolute
@@ -76,7 +76,7 @@
 23	праздновать	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
 25	ресторан	_	_	_	_	_	_	_	bratT10=Facility
-26	Delilah	_	_	_	_	_	_	_	bratT10=Facility
+26	Delilah	_	_	_	_	_	_	_	bratT10=Facility|bratT61=Person-forename
 27	в	_	_	_	_	_	_	_	_
 28	Западном	_	_	_	_	_	_	_	bratT11=GPE
 29	Голливуде	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE
@@ -119,10 +119,10 @@
 
 # sent_id = 0039-p3-s3
 # text = Минуту славы у сестры чуть не украла Ким Кардашьян, которая тоже была в розовом - говорят, сестры соперничают, в 2016 году Ким даже угрожала подать на Кайли в суд за то, что она якобы скопировала стиль Ким, за счет чего и прославилась.
-1	Минуту	_	_	_	_	_	_	_	bratT15=Time-period|bratT37=Duration
-2	славы	_	_	_	_	_	_	_	_
+1	Минуту	_	_	_	_	_	_	_	bratT15=Time-period|bratT37=Duration|bratT56=Event
+2	славы	_	_	_	_	_	_	_	bratT56=Event
 3	у	_	_	_	_	_	_	_	_
-4	сестры	_	_	_	_	_	_	_	bratT16=Family
+4	сестры	_	_	_	_	_	_	_	bratA16=T57:Female|bratT16=Family|bratT57=Person
 5	чуть	_	_	_	_	_	_	_	_
 6	не	_	_	_	_	_	_	_	_
 7	украла	_	_	_	_	_	_	_	_
@@ -137,7 +137,7 @@
 16	-	_	_	_	_	_	_	_	_
 17	говорят	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
-19	сестры	_	_	_	_	_	_	_	bratT18=Family
+19	сестры	_	_	_	_	_	_	_	bratT18=Family|bratT58=Person
 20	соперничают	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
 22	в	_	_	_	_	_	_	_	bratA8=T19:Past|bratT19=Date-absolute
@@ -200,7 +200,7 @@
 14	куклами	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	виде	_	_	_	_	_	_	_	_
-17	именинницы	_	_	_	_	_	_	_	_
+17	именинницы	_	_	_	_	_	_	_	bratA17=T60:Female|bratT60=Person
 18	на	_	_	_	_	_	_	_	_
 19	вершине	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
@@ -211,7 +211,7 @@
 2	,	_	_	_	_	_	_	_	_
 3	без	_	_	_	_	_	_	_	_
 4	приключений	_	_	_	_	_	_	_	_
-5	вечеринка	_	_	_	_	_	_	_	_
+5	вечеринка	_	_	_	_	_	_	_	bratT59=Event
 6	не	_	_	_	_	_	_	_	_
 7	обошлась	_	_	_	_	_	_	_	SpaceAfter=No
 8	:	_	_	_	_	_	_	_	_

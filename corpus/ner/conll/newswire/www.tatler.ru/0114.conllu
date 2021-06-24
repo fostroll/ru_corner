@@ -5,8 +5,8 @@
 # text = Объявлен следующий официальный тур принца Гарри и Меган Маркл
 1	Объявлен	_	_	_	_	_	_	_	_
 2	следующий	_	_	_	_	_	_	_	bratT1=Ordinal
-3	официальный	_	_	_	_	_	_	_	_
-4	тур	_	_	_	_	_	_	_	_
+3	официальный	_	_	_	_	_	_	_	bratT76=Event
+4	тур	_	_	_	_	_	_	_	bratT76=Event
 5	принца	_	_	_	_	_	_	_	bratA1=T4:Male|bratT2=Person-property|bratT4=Person
 6	Гарри	_	_	_	_	_	_	_	bratA1=T4:Male|bratT3=Person-forename|bratT4=Person
 7	и	_	_	_	_	_	_	_	_
@@ -24,7 +24,7 @@
 5	планирует	_	_	_	_	_	_	_	_
 6	выходить	_	_	_	_	_	_	_	_
 7	из	_	_	_	_	_	_	_	_
-8	декрета	_	_	_	_	_	_	_	SpaceAfter=No
+8	декрета	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
 11	вот	_	_	_	_	_	_	_	_
@@ -46,13 +46,13 @@
 6	она	_	_	_	_	_	_	_	_
 7	вместе	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	мужем	_	_	_	_	_	_	_	bratT14=Family
+9	мужем	_	_	_	_	_	_	_	bratA24=T45:Male|bratT14=Family|bratT45=Person
 10	и	_	_	_	_	_	_	_	_
-11	сыном	_	_	_	_	_	_	_	bratT15=Family
+11	сыном	_	_	_	_	_	_	_	bratA25=T72:Male|bratT15=Family|bratT72=Person
 12	отправится	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	двухнедельное	_	_	_	_	_	_	_	bratA7=T16:Fut|bratT16=Date-period-relative|bratT17=Duration
-15	турне	_	_	_	_	_	_	_	SpaceAfter=No
+14	двухнедельное	_	_	_	_	_	_	_	bratA7=T16:Fut|bratT16=Date-period-relative|bratT17=Duration|bratT73=Event
+15	турне	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p2-s3
@@ -69,7 +69,7 @@
 10	подтвердил	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	тур	_	_	_	_	_	_	_	_
+13	тур	_	_	_	_	_	_	_	bratT78=Event
 14	действительно	_	_	_	_	_	_	_	_
 15	состоится	_	_	_	_	_	_	_	SpaceAfter=No
 16	,	_	_	_	_	_	_	_	_
@@ -78,10 +78,10 @@
 19	поделился	_	_	_	_	_	_	_	_
 20	программой	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
-22	герцог	_	_	_	_	_	_	_	bratA11=T25:Plural|bratT25=Person|bratT27=Person-property
-23	и	_	_	_	_	_	_	_	bratA11=T25:Plural|bratT25=Person
-24	герцогиня	_	_	_	_	_	_	_	bratA11=T25:Plural|bratT25=Person|bratT28=Person-property
-25	Сассекские	_	_	_	_	_	_	_	bratA11=T25:Plural|bratA12=T26:Adjective|bratT25=Person|bratT26=GPE
+22	герцог	_	_	_	_	_	_	_	bratA11=T25:Plural|bratA28=T79:Male|bratT25=Person|bratT27=Person-property|bratT79=Person|bratT81=Person-property
+23	и	_	_	_	_	_	_	_	bratA11=T25:Plural|bratT25=Person|bratT81=Person-property
+24	герцогиня	_	_	_	_	_	_	_	bratA11=T25:Plural|bratA29=T80:Female|bratT25=Person|bratT28=Person-property|bratT80=Person|bratT81=Person-property
+25	Сассекские	_	_	_	_	_	_	_	bratA11=T25:Plural|bratA12=T26:Adjective|bratT25=Person|bratT26=GPE|bratT81=Person-property
 26	посетят	_	_	_	_	_	_	_	_
 27	Анголу	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE
 28	,	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 12	,	_	_	_	_	_	_	_	_
 13	основанного	_	_	_	_	_	_	_	_
 14	внуком	_	_	_	_	_	_	_	bratA15=T41:Male|bratT39=Family|bratT41=Person
-15	королевы	_	_	_	_	_	_	_	bratA15=T41:Male|bratT40=Person-property|bratT41=Person
+15	королевы	_	_	_	_	_	_	_	bratA15=T41:Male|bratA30=T82:Female|bratT40=Person-property|bratT41=Person|bratT82=Person
 16	в	_	_	_	_	_	_	_	bratA16=T42:Past|bratT42=Date-absolute
 17	2006	_	_	_	_	_	_	_	bratA16=T42:Past|bratT42=Date-absolute
 18	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T42:Past|bratT42=Date-absolute
@@ -122,22 +122,22 @@
 2	оказывает	_	_	_	_	_	_	_	_
 3	поддержку	_	_	_	_	_	_	_	_
 4-6	ВИЧ-положительным	_	_	_	_	_	_	_	_
-4	ВИЧ	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT45=Other-group
-5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT45=Other-group
-6	положительным	_	_	_	_	_	_	_	bratT45=Other-group
-7	детям	_	_	_	_	_	_	_	bratT44=Age|bratT45=Other-group
-8	из	_	_	_	_	_	_	_	bratT45=Other-group
-9	неблагополучных	_	_	_	_	_	_	_	bratT45=Other-group
-10	семей	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Family|bratT45=Other-group
+4	ВИЧ	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT71=Other-term
+5	-	_	_	_	_	_	_	_	SpaceAfter=Yes
+6	положительным	_	_	_	_	_	_	_	_
+7	детям	_	_	_	_	_	_	_	bratT44=Age
+8	из	_	_	_	_	_	_	_	_
+9	неблагополучных	_	_	_	_	_	_	_	_
+10	семей	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Family
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0114-p3-s3
 # text = В Анголе герцог и герцогиня продолжат дело принцессы Дианы, которая еще в 1997 году боролась с использованием противопехотных мин.
 1	В	_	_	_	_	_	_	_	_
 2	Анголе	_	_	_	_	_	_	_	bratT46=GPE
-3	герцог	_	_	_	_	_	_	_	bratT47=Person-property
+3	герцог	_	_	_	_	_	_	_	bratA26=T74:Male|bratT47=Person-property|bratT74=Person
 4	и	_	_	_	_	_	_	_	_
-5	герцогиня	_	_	_	_	_	_	_	bratT48=Person-property
+5	герцогиня	_	_	_	_	_	_	_	bratA27=T75:Female|bratT48=Person-property|bratT75=Person
 6	продолжат	_	_	_	_	_	_	_	_
 7	дело	_	_	_	_	_	_	_	_
 8	принцессы	_	_	_	_	_	_	_	bratA17=T51:Female|bratT49=Person-property|bratT51=Person
@@ -179,7 +179,7 @@
 # text = Прочие подробности поездки пока не объявлены.
 1	Прочие	_	_	_	_	_	_	_	_
 2	подробности	_	_	_	_	_	_	_	_
-3	поездки	_	_	_	_	_	_	_	_
+3	поездки	_	_	_	_	_	_	_	bratT68=Event
 4	пока	_	_	_	_	_	_	_	_
 5	не	_	_	_	_	_	_	_	_
 6	объявлены	_	_	_	_	_	_	_	SpaceAfter=No
@@ -190,7 +190,7 @@
 # sent_id = 0114-p5-s1
 # text = Сыну пары Арчи в октябре будет всего пять месяцев.
 1	Сыну	_	_	_	_	_	_	_	bratA22=T62:Male|bratT59=Family|bratT62=Person
-2	пары	_	_	_	_	_	_	_	bratA22=T62:Male|bratT60=Family|bratT62=Person
+2	пары	_	_	_	_	_	_	_	bratA22=T62:Male|bratT60=Family|bratT62=Person|bratT83=Person
 3	Арчи	_	_	_	_	_	_	_	bratA22=T62:Male|bratT61=Person-forename|bratT62=Person
 4	в	_	_	_	_	_	_	_	bratA23=T63:Future|bratT63=Date-absolute
 5	октябре	_	_	_	_	_	_	_	bratA23=T63:Future|bratT63=Date-absolute
@@ -206,11 +206,11 @@
 2	это	_	_	_	_	_	_	_	_
 3	будет	_	_	_	_	_	_	_	_
 4	его	_	_	_	_	_	_	_	_
-5	первая	_	_	_	_	_	_	_	bratT65=Ordinal
-6	большая	_	_	_	_	_	_	_	_
-7	поездка	_	_	_	_	_	_	_	_
+5	первая	_	_	_	_	_	_	_	bratT65=Ordinal|bratT69=Event
+6	большая	_	_	_	_	_	_	_	bratT69=Event
+7	поездка	_	_	_	_	_	_	_	bratT69=Event
 8	вместе	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
-10	родителями	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Family
+10	родителями	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Family|bratT70=Person
 11	.	_	_	_	_	_	_	_	_
 

@@ -7,9 +7,9 @@
 2	Маркл	_	_	_	_	_	_	_	bratA1=T3:Female|bratT2=Person-surname|bratT3=Person
 3	побеседовала	_	_	_	_	_	_	_	_
 4	c	_	_	_	_	_	_	_	_
-5	подопечными	_	_	_	_	_	_	_	bratT4=Other-group
-6	благотворительного	_	_	_	_	_	_	_	bratT4=Other-group|bratT46=Organization
-7	фонда	_	_	_	_	_	_	_	bratT4=Other-group|bratT46=Organization
+5	подопечными	_	_	_	_	_	_	_	_
+6	благотворительного	_	_	_	_	_	_	_	bratT46=Organization
+7	фонда	_	_	_	_	_	_	_	bratT46=Organization
 
 # newpar id = 0124-p2
 # par_text = Прошел год с выхода дебютной коллекции одежды Меган Маркл Smart Set — в доковидные времена презентация прошла в центре Лондона при участии блогеров и журналистов. Тогда в партнерстве с брендами Jigsaw, John Lewis & Partners, Marks & Spencer и дизайнером Мишей Нону герцогиня представила капсулу, состоящую из базовых элементов офисного гардероба. Все средства от продаж были перечислены в благотворительный фонд Smart Works, который помогает безработным женщинам в поисках профессии. В честь годовщины сотрудничества Меган поговорила в Zoom c тремя женщинами о том, как инициатива повлияла на их жизнь.
@@ -19,13 +19,13 @@
 2	год	_	_	_	_	_	_	_	bratA3=T10:Past-Pres|bratT10=Date-period-absolute|bratT5=Duration
 3	с	_	_	_	_	_	_	_	bratA3=T10:Past-Pres|bratT10=Date-period-absolute
 4	выхода	_	_	_	_	_	_	_	bratA3=T10:Past-Pres|bratT10=Date-period-absolute|bratT40=Event
-5	дебютной	_	_	_	_	_	_	_	bratT40=Event|bratT6=Product
-6	коллекции	_	_	_	_	_	_	_	bratT40=Event|bratT6=Product
-7	одежды	_	_	_	_	_	_	_	bratT40=Event|bratT6=Product
-8	Меган	_	_	_	_	_	_	_	bratA2=T9:Female|bratT40=Event|bratT6=Product|bratT7=Person-forename|bratT9=Person
-9	Маркл	_	_	_	_	_	_	_	bratA2=T9:Female|bratT40=Event|bratT6=Product|bratT8=Person-surname|bratT9=Person
-10	Smart	_	_	_	_	_	_	_	bratT40=Event|bratT6=Product
-11	Set	_	_	_	_	_	_	_	bratT40=Event|bratT6=Product
+5	дебютной	_	_	_	_	_	_	_	bratA6=T6:Trademark|bratT6=Product
+6	коллекции	_	_	_	_	_	_	_	bratA6=T6:Trademark|bratT6=Product
+7	одежды	_	_	_	_	_	_	_	bratA6=T6:Trademark|bratT6=Product
+8	Меган	_	_	_	_	_	_	_	bratA2=T9:Female|bratA6=T6:Trademark|bratT6=Product|bratT7=Person-forename|bratT9=Person
+9	Маркл	_	_	_	_	_	_	_	bratA2=T9:Female|bratA6=T6:Trademark|bratT6=Product|bratT8=Person-surname|bratT9=Person
+10	Smart	_	_	_	_	_	_	_	bratA6=T6:Trademark|bratT6=Product
+11	Set	_	_	_	_	_	_	_	bratA6=T6:Trademark|bratT6=Product
 12	-	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
 14	доковидные	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
@@ -48,22 +48,22 @@
 2	в	_	_	_	_	_	_	_	_
 3	партнерстве	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
-5	брендами	_	_	_	_	_	_	_	bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product
-6	Jigsaw	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T41:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT41=Product
-7	,	_	_	_	_	_	_	_	bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product
-8	John	_	_	_	_	_	_	_	bratA14=T42:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT42=Product
-9	Lewis	_	_	_	_	_	_	_	bratA14=T42:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT42=Product
-10	&	_	_	_	_	_	_	_	bratA14=T42:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT42=Product
-11	Partners	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T42:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT42=Product
-12	,	_	_	_	_	_	_	_	bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product
-13	Marks	_	_	_	_	_	_	_	bratA15=T43:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT43=Product
-14	&	_	_	_	_	_	_	_	bratA15=T43:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT43=Product
-15	Spencer	_	_	_	_	_	_	_	bratA15=T43:Trademark|bratA6=T17:Trademark|bratA7=T17:Plural|bratT17=Product|bratT43=Product
+5	брендами	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization
+6	Jigsaw	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Plural|bratT17=Organization|bratT41=Organization
+7	,	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization
+8	John	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization|bratT42=Organization
+9	Lewis	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization|bratT42=Organization
+10	&	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization|bratT42=Organization
+11	Partners	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T17:Plural|bratT17=Organization|bratT42=Organization
+12	,	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization
+13	Marks	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization|bratT43=Organization
+14	&	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization|bratT43=Organization
+15	Spencer	_	_	_	_	_	_	_	bratA7=T17:Plural|bratT17=Organization|bratT43=Organization
 16	и	_	_	_	_	_	_	_	_
 17	дизайнером	_	_	_	_	_	_	_	bratA8=T21:Male|bratT18=Person-property|bratT21=Person
 18	Мишей	_	_	_	_	_	_	_	bratA8=T21:Male|bratT19=Person-forename|bratT21=Person
 19	Нону	_	_	_	_	_	_	_	bratA8=T21:Male|bratT20=Person-surname|bratT21=Person
-20	герцогиня	_	_	_	_	_	_	_	bratT22=Person-property
+20	герцогиня	_	_	_	_	_	_	_	bratA18=T4:Female|bratT22=Person-property|bratT4=Person
 21	представила	_	_	_	_	_	_	_	_
 22	капсулу	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
@@ -80,7 +80,7 @@
 1	Все	_	_	_	_	_	_	_	_
 2	средства	_	_	_	_	_	_	_	_
 3	от	_	_	_	_	_	_	_	_
-4	продаж	_	_	_	_	_	_	_	_
+4	продаж	_	_	_	_	_	_	_	bratT48=Event
 5	были	_	_	_	_	_	_	_	_
 6	перечислены	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
@@ -102,7 +102,7 @@
 # text = В честь годовщины сотрудничества Меган поговорила в Zoom c тремя женщинами о том, как инициатива повлияла на их жизнь.
 1	В	_	_	_	_	_	_	_	_
 2	честь	_	_	_	_	_	_	_	_
-3	годовщины	_	_	_	_	_	_	_	_
+3	годовщины	_	_	_	_	_	_	_	bratT32=Event
 4	сотрудничества	_	_	_	_	_	_	_	_
 5	Меган	_	_	_	_	_	_	_	bratA9=T26:Female|bratT25=Person-forename|bratT26=Person
 6	поговорила	_	_	_	_	_	_	_	_
@@ -136,7 +136,7 @@
 8	том	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
-11	многим	_	_	_	_	_	_	_	bratT32=Quantity
+11	многим	_	_	_	_	_	_	_	_
 12	кажется	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
@@ -210,7 +210,7 @@
 7	и	_	_	_	_	_	_	_	_
 8	идете	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	собеседование	_	_	_	_	_	_	_	SpaceAfter=No
+10	собеседование	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Event
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p3-s6
@@ -261,12 +261,12 @@
 13	рассмотреть	_	_	_	_	_	_	_	_
 14	интерьер	_	_	_	_	_	_	_	_
 15	кабинета	_	_	_	_	_	_	_	_
-16	герцогини	_	_	_	_	_	_	_	bratT35=Person-property
+16	герцогини	_	_	_	_	_	_	_	bratA17=T50:Female|bratT35=Person-property|bratT50=Person
 17	в	_	_	_	_	_	_	_	_
 18	их	_	_	_	_	_	_	_	_
 19	с	_	_	_	_	_	_	_	_
 20	принцем	_	_	_	_	_	_	_	bratA12=T38:Male|bratT36=Person-property|bratT38=Person
 21	Гарри	_	_	_	_	_	_	_	bratA12=T38:Male|bratT37=Person-forename|bratT38=Person
-22	доме	_	_	_	_	_	_	_	SpaceAfter=No
+22	доме	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility
 23	.	_	_	_	_	_	_	_	_
 

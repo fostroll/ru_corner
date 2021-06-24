@@ -3,8 +3,8 @@
 # par_text = Экипаж МКС открыл люк для перехода астронавтов с Crew Dragon
 # sent_id = 0069-p1-s1
 # text = Экипаж МКС открыл люк для перехода астронавтов с Crew Dragon
-1	Экипаж	_	_	_	_	_	_	_	_
-2	МКС	_	_	_	_	_	_	_	bratT1=Facility
+1	Экипаж	_	_	_	_	_	_	_	bratT38=Person-property
+2	МКС	_	_	_	_	_	_	_	bratT1=Facility|bratT38=Person-property
 3	открыл	_	_	_	_	_	_	_	_
 4	люк	_	_	_	_	_	_	_	_
 5	для	_	_	_	_	_	_	_	_
@@ -33,7 +33,7 @@
 13	МКС	_	_	_	_	_	_	_	bratT24=Facility|bratT8=Facility
 14	для	_	_	_	_	_	_	_	_
 15	перехода	_	_	_	_	_	_	_	_
-16	экипажа	_	_	_	_	_	_	_	_
+16	экипажа	_	_	_	_	_	_	_	bratT40=Person-property
 17	с	_	_	_	_	_	_	_	_
 18	прибывшего	_	_	_	_	_	_	_	_
 19	корабля	_	_	_	_	_	_	_	bratA2=T9:Unconscious|bratT9=Person
@@ -128,7 +128,7 @@
 18	люк	_	_	_	_	_	_	_	_
 19	корабля	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
-21	экипаж	_	_	_	_	_	_	_	_
+21	экипаж	_	_	_	_	_	_	_	bratT41=Person-property
 22	мог	_	_	_	_	_	_	_	_
 23	покинуть	_	_	_	_	_	_	_	_
 24	Crew	_	_	_	_	_	_	_	bratA6=T22:Unconscious|bratT22=Person
@@ -140,7 +140,7 @@
 1	В	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
 2	это	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
 3	время	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
-4	экипажу	_	_	_	_	_	_	_	_
+4	экипажу	_	_	_	_	_	_	_	bratT42=Person-property
 5	удалось	_	_	_	_	_	_	_	_
 6	снять	_	_	_	_	_	_	_	_
 7	скафандры	_	_	_	_	_	_	_	SpaceAfter=No

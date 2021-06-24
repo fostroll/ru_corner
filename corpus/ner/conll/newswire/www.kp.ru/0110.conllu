@@ -25,15 +25,15 @@
 4	Михаил	_	_	_	_	_	_	_	bratA3=T4:Male|bratT24=Person-forename|bratT4=Person
 5	Мурашко	_	_	_	_	_	_	_	bratA3=T4:Male|bratT25=Person-surname|bratT4=Person
 6	на	_	_	_	_	_	_	_	_
-7	заседании	_	_	_	_	_	_	_	_
-8	президиума	_	_	_	_	_	_	_	bratT5=Organization
-9	координационного	_	_	_	_	_	_	_	bratT5=Organization
-10	совета	_	_	_	_	_	_	_	bratT5=Organization
-11	по	_	_	_	_	_	_	_	bratT5=Organization
-12	борьбе	_	_	_	_	_	_	_	bratT5=Organization
-13	с	_	_	_	_	_	_	_	bratT5=Organization
-14	распространением	_	_	_	_	_	_	_	bratT5=Organization
-15	коронавируса	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Other-term
+7	заседании	_	_	_	_	_	_	_	bratT32=Event
+8	президиума	_	_	_	_	_	_	_	bratA6=T5:Department|bratT5=Organization
+9	координационного	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization
+10	совета	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization
+11	по	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization
+12	борьбе	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization
+13	с	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization
+14	распространением	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT35=Event|bratT5=Organization
+15	коронавируса	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization|bratT6=Other-term
 16	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	как	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 # sent_id = 0110-p6-s1
 # text = На заседании глава Роспотребнадзора Анна Попова прокомментировала ситуацию в регионах с коронавирусом.
 1	На	_	_	_	_	_	_	_	_
-2	заседании	_	_	_	_	_	_	_	_
+2	заседании	_	_	_	_	_	_	_	bratT34=Event
 3	глава	_	_	_	_	_	_	_	bratA5=T15:Female|bratT14=Person-property|bratT15=Person
 4	Роспотребнадзора	_	_	_	_	_	_	_	bratA5=T15:Female|bratT13=Organization|bratT14=Person-property|bratT15=Person
 5	Анна	_	_	_	_	_	_	_	bratA5=T15:Female|bratT15=Person|bratT27=Person-forename

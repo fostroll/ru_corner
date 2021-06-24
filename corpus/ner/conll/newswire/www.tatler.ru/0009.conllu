@@ -15,8 +15,8 @@
 10	фильме	_	_	_	_	_	_	_	bratT4=Work-of-art
 11	Bombshell	_	_	_	_	_	_	_	bratT4=Work-of-art
 12	о	_	_	_	_	_	_	_	_
-13	сексуальном	_	_	_	_	_	_	_	_
-14	скандале	_	_	_	_	_	_	_	_
+13	сексуальном	_	_	_	_	_	_	_	bratT87=Event
+14	скандале	_	_	_	_	_	_	_	bratT87=Event
 15	на	_	_	_	_	_	_	_	_
 16	канале	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
 17	Fox	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
@@ -55,7 +55,7 @@
 27	одной	_	_	_	_	_	_	_	bratT44=Quantity
 28	из	_	_	_	_	_	_	_	bratT44=Quantity
 29	своих	_	_	_	_	_	_	_	_
-30	сотрудниц	_	_	_	_	_	_	_	_
+30	сотрудниц	_	_	_	_	_	_	_	bratT97=Person-property
 31	повышение	_	_	_	_	_	_	_	_
 32	за	_	_	_	_	_	_	_	_
 33	оказание	_	_	_	_	_	_	_	_
@@ -84,23 +84,23 @@
 3	два	_	_	_	_	_	_	_	bratA12=T11:Past|bratT11=Date-relative|bratT75=Duration
 4	года	_	_	_	_	_	_	_	bratA12=T11:Past|bratT11=Date-relative|bratT75=Duration
 5	случился	_	_	_	_	_	_	_	_
-6	взрыв	_	_	_	_	_	_	_	_
+6	взрыв	_	_	_	_	_	_	_	bratT88=Event
 7	-	_	_	_	_	_	_	_	_
 8	телеведущая	_	_	_	_	_	_	_	bratA9=T12:Female|bratT12=Person|bratT13=Person-property
 9	Гретчен	_	_	_	_	_	_	_	bratA9=T12:Female|bratT12=Person|bratT45=Person-forename
 10	Карлсон	_	_	_	_	_	_	_	bratA9=T12:Female|bratT12=Person|bratT46=Person-surname
 11	подала	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
-13	своего	_	_	_	_	_	_	_	_
-14	босса	_	_	_	_	_	_	_	_
+13	своего	_	_	_	_	_	_	_	bratA35=T96:Male|bratT96=Person
+14	босса	_	_	_	_	_	_	_	bratA35=T96:Male|bratT95=Person-property|bratT96=Person
 15	в	_	_	_	_	_	_	_	_
 16	суд	_	_	_	_	_	_	_	SpaceAfter=No|bratT86=Organization
 17	,	_	_	_	_	_	_	_	_
 18	обвинив	_	_	_	_	_	_	_	_
 19	его	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
-21	сексуальных	_	_	_	_	_	_	_	_
-22	домогательствах	_	_	_	_	_	_	_	SpaceAfter=No
+21	сексуальных	_	_	_	_	_	_	_	bratT89=Event
+22	домогательствах	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Event
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0009-p2-s4
@@ -178,23 +178,23 @@
 12	,	_	_	_	_	_	_	_	_
 13	который	_	_	_	_	_	_	_	_
 14	воссоздаст	_	_	_	_	_	_	_	_
-15	скандальную	_	_	_	_	_	_	_	_
-16	историю	_	_	_	_	_	_	_	SpaceAfter=No
+15	скандальную	_	_	_	_	_	_	_	bratT94=Event
+16	историю	_	_	_	_	_	_	_	SpaceAfter=No|bratT94=Event
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0009-p3-s2
 # text = Роль Гретчен Карлсон досталась Николь Кидман, а образ Мегин Келли воплотила Шарлиз Терон.
-1	Роль	_	_	_	_	_	_	_	_
-2	Гретчен	_	_	_	_	_	_	_	bratA19=T24:Female|bratT24=Person|bratT57=Person-forename
-3	Карлсон	_	_	_	_	_	_	_	bratA19=T24:Female|bratT24=Person|bratT58=Person-surname
+1	Роль	_	_	_	_	_	_	_	bratT98=Person-property
+2	Гретчен	_	_	_	_	_	_	_	bratA19=T24:Female|bratT24=Person|bratT57=Person-forename|bratT98=Person-property
+3	Карлсон	_	_	_	_	_	_	_	bratA19=T24:Female|bratT24=Person|bratT58=Person-surname|bratT98=Person-property
 4	досталась	_	_	_	_	_	_	_	_
 5	Николь	_	_	_	_	_	_	_	bratA20=T25:Female|bratT25=Person|bratT59=Person-forename
 6	Кидман	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T25:Female|bratT25=Person|bratT60=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	а	_	_	_	_	_	_	_	_
-9	образ	_	_	_	_	_	_	_	_
-10	Мегин	_	_	_	_	_	_	_	bratA21=T26:Female|bratT26=Person|bratT61=Person-forename
-11	Келли	_	_	_	_	_	_	_	bratA21=T26:Female|bratT26=Person|bratT62=Person-surname
+9	образ	_	_	_	_	_	_	_	bratT99=Person-property
+10	Мегин	_	_	_	_	_	_	_	bratA21=T26:Female|bratT26=Person|bratT61=Person-forename|bratT99=Person-property
+11	Келли	_	_	_	_	_	_	_	bratA21=T26:Female|bratT26=Person|bratT62=Person-surname|bratT99=Person-property
 12	воплотила	_	_	_	_	_	_	_	_
 13	Шарлиз	_	_	_	_	_	_	_	bratA22=T27:Female|bratT27=Person|bratT63=Person-forename
 14	Терон	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T27:Female|bratT27=Person|bratT64=Person-surname
@@ -203,23 +203,23 @@
 # sent_id = 0009-p3-s3
 # text = К оскароносным дивам присоединилась Марго Робби, которая сыграла вымышленного персонажа - помощницу продюсера по имени Кайла Поспизи.
 1	К	_	_	_	_	_	_	_	_
-2	оскароносным	_	_	_	_	_	_	_	_
-3	дивам	_	_	_	_	_	_	_	_
+2	оскароносным	_	_	_	_	_	_	_	bratA34=T93:Female|bratT93=Person
+3	дивам	_	_	_	_	_	_	_	bratA34=T93:Female|bratT93=Person
 4	присоединилась	_	_	_	_	_	_	_	_
 5	Марго	_	_	_	_	_	_	_	bratA23=T28:Female|bratT28=Person|bratT65=Person-forename
 6	Робби	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T28:Female|bratT28=Person|bratT66=Person-surname
 7	,	_	_	_	_	_	_	_	_
 8	которая	_	_	_	_	_	_	_	_
 9	сыграла	_	_	_	_	_	_	_	_
-10	вымышленного	_	_	_	_	_	_	_	_
-11	персонажа	_	_	_	_	_	_	_	_
-12	-	_	_	_	_	_	_	_	_
-13	помощницу	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT29=Person-property|bratT30=Person
-14	продюсера	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT29=Person-property|bratT30=Person|bratT31=Person-property
-15	по	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person
-16	имени	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person
-17	Кайла	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person|bratT67=Person-forename
-18	Поспизи	_	_	_	_	_	_	_	SpaceAfter=No|bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person|bratT68=Person-surname
+10	вымышленного	_	_	_	_	_	_	_	bratT92=Person-property
+11	персонажа	_	_	_	_	_	_	_	bratT92=Person-property
+12	-	_	_	_	_	_	_	_	bratT92=Person-property
+13	помощницу	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT29=Person-property|bratT30=Person|bratT92=Person-property
+14	продюсера	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT29=Person-property|bratT30=Person|bratT31=Person-property|bratT92=Person-property
+15	по	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person|bratT92=Person-property
+16	имени	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person|bratT92=Person-property
+17	Кайла	_	_	_	_	_	_	_	bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person|bratT67=Person-forename|bratT92=Person-property
+18	Поспизи	_	_	_	_	_	_	_	SpaceAfter=No|bratA27=T30:Female|bratA4=T30:Fiction|bratT30=Person|bratT68=Person-surname|bratT92=Person-property
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0009-p3-s4
@@ -229,7 +229,7 @@
 3	она	_	_	_	_	_	_	_	_
 4	также	_	_	_	_	_	_	_	_
 5	подвергается	_	_	_	_	_	_	_	_
-6	домогательствам	_	_	_	_	_	_	_	_
+6	домогательствам	_	_	_	_	_	_	_	bratT90=Event
 7	со	_	_	_	_	_	_	_	_
 8	стороны	_	_	_	_	_	_	_	_
 9	Эйлса	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T32:Male|bratT32=Person|bratT69=Person-surname
@@ -263,7 +263,7 @@
 22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Work-of-art
 23	Знакомство	_	_	_	_	_	_	_	bratT36=Work-of-art
 24	с	_	_	_	_	_	_	_	bratT36=Work-of-art
-25	Факерами	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Work-of-art|bratT74=Person-surname
+25	Факерами	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Work-of-art|bratT74=Person-surname|bratT91=Person
 26	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Work-of-art
 27	.	_	_	_	_	_	_	_	_
 

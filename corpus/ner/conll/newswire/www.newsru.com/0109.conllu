@@ -75,8 +75,8 @@
 19	,	_	_	_	_	_	_	_	_
 20	подтянутые	_	_	_	_	_	_	_	_
 21	на	_	_	_	_	_	_	_	_
-22	молодежного	_	_	_	_	_	_	_	_
-23	состава	_	_	_	_	_	_	_	SpaceAfter=No
+22	молодежного	_	_	_	_	_	_	_	bratA16=T73:Department|bratT72=Age|bratT73=Organization
+23	состава	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T73:Department|bratT73=Organization
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0109-p4
@@ -93,7 +93,7 @@
 8	Игорь	_	_	_	_	_	_	_	bratA5=T14:Male|bratT14=Person|bratT51=Person-forename
 9	Черненко	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T14:Male|bratT14=Person|bratT52=Person-surname
 10	,	_	_	_	_	_	_	_	_
-11	распространение	_	_	_	_	_	_	_	_
+11	распространение	_	_	_	_	_	_	_	bratT71=Event
 12	инфекции	_	_	_	_	_	_	_	_
 13	началось	_	_	_	_	_	_	_	_
 14	с	_	_	_	_	_	_	_	_
@@ -229,8 +229,8 @@
 
 # sent_id = 0109-p7-s2
 # text = Директорат турнира постановил, что чемпион не будет определен.
-1	Директорат	_	_	_	_	_	_	_	bratT66=Organization
-2	турнира	_	_	_	_	_	_	_	bratT62=Event|bratT66=Organization
+1	Директорат	_	_	_	_	_	_	_	bratA15=T66:Department|bratT66=Organization
+2	турнира	_	_	_	_	_	_	_	bratA15=T66:Department|bratT62=Event|bratT66=Organization
 3	постановил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

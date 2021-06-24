@@ -16,7 +16,7 @@
 11	и	_	_	_	_	_	_	_	_
 12	слухов	_	_	_	_	_	_	_	_
 13	о	_	_	_	_	_	_	_	_
-14	помолвке	_	_	_	_	_	_	_	_
+14	помолвке	_	_	_	_	_	_	_	bratT99=Event
 
 # newpar id = 0062-p2
 # par_text = Еще в доковидные времена обсуждалась предполагаемая помолвка Сиенны Миллер с ее 29-летним бойфрендом, галеристом Лукасом Цвирнером. Об их отношениях стало известно год назад — тогда они вместе появились на свадьбе Элли Голдинг и арт-дилера Каспара Джоплинга, а потом кружили на Венецианском балу с Дашей Жуковой и Дереком Бласбергом. Главный вопрос Цвирнер задал Миллер в январе на кинофестивале Sundance, на котором актриса представляла фильм Wander Darkly. Тогда же папарацци заметили на безымянном пальце актрисы блеск каратов. Кольцо украшало ее руку и в июле.
@@ -28,7 +28,7 @@
 4	времена	_	_	_	_	_	_	_	bratA4=T9:Past|bratT9=Date-absolute
 5	обсуждалась	_	_	_	_	_	_	_	_
 6	предполагаемая	_	_	_	_	_	_	_	_
-7	помолвка	_	_	_	_	_	_	_	_
+7	помолвка	_	_	_	_	_	_	_	bratT100=Event
 8	Сиенны	_	_	_	_	_	_	_	bratA5=T12:Female|bratT10=Person-forename|bratT12=Person
 9	Миллер	_	_	_	_	_	_	_	bratA5=T12:Female|bratT11=Person-surname|bratT12=Person
 10	с	_	_	_	_	_	_	_	_
@@ -37,7 +37,7 @@
 12	29	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T18:Male|bratT13=Age|bratT18=Person
 13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA6=T18:Male|bratT13=Age|bratT18=Person
 14	летним	_	_	_	_	_	_	_	bratA6=T18:Male|bratT13=Age|bratT18=Person
-15	бойфрендом	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT14=Family|bratT18=Person
+15	бойфрендом	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T18:Male|bratT18=Person
 16	,	_	_	_	_	_	_	_	bratA6=T18:Male|bratT18=Person
 17	галеристом	_	_	_	_	_	_	_	bratA6=T18:Male|bratT15=Person-property|bratT18=Person
 18	Лукасом	_	_	_	_	_	_	_	bratA6=T18:Male|bratT16=Person-forename|bratT18=Person
@@ -60,12 +60,12 @@
 12	появились	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
 14	свадьбе	_	_	_	_	_	_	_	bratT28=Event
-15	Элли	_	_	_	_	_	_	_	bratA10=T27:Female|bratT21=Person-forename|bratT27=Person|bratT28=Event
-16	Голдинг	_	_	_	_	_	_	_	bratA10=T27:Female|bratT22=Person-surname|bratT27=Person|bratT28=Event
-17	и	_	_	_	_	_	_	_	bratT28=Event
-18	арт-дилера	_	_	_	_	_	_	_	bratA9=T26:Male|bratT23=Person-property|bratT26=Person|bratT28=Event
-19	Каспара	_	_	_	_	_	_	_	bratA9=T26:Male|bratT24=Person-forename|bratT26=Person|bratT28=Event
-20	Джоплинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T26:Male|bratT25=Person-surname|bratT26=Person|bratT28=Event
+15	Элли	_	_	_	_	_	_	_	bratA10=T27:Female|bratT21=Person-forename|bratT27=Person
+16	Голдинг	_	_	_	_	_	_	_	bratA10=T27:Female|bratT22=Person-surname|bratT27=Person
+17	и	_	_	_	_	_	_	_	_
+18	арт-дилера	_	_	_	_	_	_	_	bratA9=T26:Male|bratT23=Person-property|bratT26=Person
+19	Каспара	_	_	_	_	_	_	_	bratA9=T26:Male|bratT24=Person-forename|bratT26=Person
+20	Джоплинга	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T26:Male|bratT25=Person-surname|bratT26=Person
 21	,	_	_	_	_	_	_	_	_
 22	а	_	_	_	_	_	_	_	_
 23	потом	_	_	_	_	_	_	_	bratA36=T29:Past|bratT29=Date-relative
@@ -83,8 +83,8 @@
 
 # sent_id = 0062-p2-s3
 # text = Главный вопрос Цвирнер задал Миллер в январе на кинофестивале Sundance, на котором актриса представляла фильм Wander Darkly.
-1	Главный	_	_	_	_	_	_	_	_
-2	вопрос	_	_	_	_	_	_	_	_
+1	Главный	_	_	_	_	_	_	_	bratT104=Event
+2	вопрос	_	_	_	_	_	_	_	bratT104=Event
 3	Цвирнер	_	_	_	_	_	_	_	bratA14=T39:Male|bratT38=Person-surname|bratT39=Person
 4	задал	_	_	_	_	_	_	_	_
 5	Миллер	_	_	_	_	_	_	_	bratA15=T41:Female|bratT40=Person-surname|bratT41=Person
@@ -96,7 +96,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
 13	котором	_	_	_	_	_	_	_	_
-14	актриса	_	_	_	_	_	_	_	bratT44=Person-property
+14	актриса	_	_	_	_	_	_	_	bratA41=T102:Female|bratT102=Person|bratT44=Person-property
 15	представляла	_	_	_	_	_	_	_	_
 16	фильм	_	_	_	_	_	_	_	bratT45=Work-of-art
 17	Wander	_	_	_	_	_	_	_	bratT45=Work-of-art
@@ -112,7 +112,7 @@
 5	на	_	_	_	_	_	_	_	_
 6	безымянном	_	_	_	_	_	_	_	_
 7	пальце	_	_	_	_	_	_	_	_
-8	актрисы	_	_	_	_	_	_	_	bratT47=Person-property
+8	актрисы	_	_	_	_	_	_	_	bratA42=T103:Female|bratT103=Person|bratT47=Person-property
 9	блеск	_	_	_	_	_	_	_	_
 10	каратов	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
@@ -137,7 +137,7 @@
 3	увы	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	пышной	_	_	_	_	_	_	_	_
-6	свадьбы	_	_	_	_	_	_	_	_
+6	свадьбы	_	_	_	_	_	_	_	bratT98=Event
 7	ждать	_	_	_	_	_	_	_	_
 8	не	_	_	_	_	_	_	_	_
 9	стоит	_	_	_	_	_	_	_	_
@@ -162,18 +162,18 @@
 1	Журналисты	_	_	_	_	_	_	_	bratT55=Person-property
 2	оборвали	_	_	_	_	_	_	_	_
 3	телефоны	_	_	_	_	_	_	_	_
-4	представителей	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT59=Person-property
-5	актрисы	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT58=Person-property|bratT59=Person-property
-6	в	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT59=Person-property
-7	Лондоне	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT56=GPE|bratT59=Person-property
-8	и	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT59=Person-property
-9	Нью-Йорке	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T59:Plural|bratT57=GPE|bratT59=Person-property
+4	представителей	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT107=Person|bratT59=Person-property
+5	актрисы	_	_	_	_	_	_	_	bratA21=T59:Plural|bratA43=T105:Female|bratT105=Person|bratT107=Person|bratT58=Person-property|bratT59=Person-property
+6	в	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT107=Person|bratT59=Person-property
+7	Лондоне	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT107=Person|bratT56=GPE|bratT59=Person-property
+8	и	_	_	_	_	_	_	_	bratA21=T59:Plural|bratT107=Person|bratT59=Person-property
+9	Нью-Йорке	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T59:Plural|bratT107=Person|bratT57=GPE|bratT59=Person-property
 10	,	_	_	_	_	_	_	_	_
 11	но	_	_	_	_	_	_	_	_
 12	те	_	_	_	_	_	_	_	_
 13	оказались	_	_	_	_	_	_	_	_
 14	верны	_	_	_	_	_	_	_	_
-15	работодателю	_	_	_	_	_	_	_	bratT60=Person-property
+15	работодателю	_	_	_	_	_	_	_	bratA44=T106:Female|bratT106=Person|bratT60=Person-property
 16	и	_	_	_	_	_	_	_	_
 17	принципу	_	_	_	_	_	_	_	_
 18	конфиденциальности	_	_	_	_	_	_	_	_
@@ -199,7 +199,7 @@
 # text = О причинах расставания остается только догадываться.
 1	О	_	_	_	_	_	_	_	_
 2	причинах	_	_	_	_	_	_	_	_
-3	расставания	_	_	_	_	_	_	_	_
+3	расставания	_	_	_	_	_	_	_	bratT108=Event
 4	остается	_	_	_	_	_	_	_	_
 5	только	_	_	_	_	_	_	_	_
 6	догадываться	_	_	_	_	_	_	_	SpaceAfter=No
@@ -209,7 +209,7 @@
 # text = По словам инсайдеров, инициатором стала Миллер.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	инсайдеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Person-property
+3	инсайдеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Person
 4	,	_	_	_	_	_	_	_	_
 5	инициатором	_	_	_	_	_	_	_	_
 6	стала	_	_	_	_	_	_	_	_
@@ -226,12 +226,12 @@
 4	Сиенну	_	_	_	_	_	_	_	bratA25=T71:Female|bratT70=Person-forename|bratT71=Person
 5	видели	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
-7	прогулке	_	_	_	_	_	_	_	_
+7	прогулке	_	_	_	_	_	_	_	bratT101=Event
 8	с	_	_	_	_	_	_	_	_
 9-11	экс-бойфрендом	_	_	_	_	_	_	_	_
-9	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA26=T75:Male|bratT72=Family|bratT75=Person
-10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA26=T75:Male|bratT72=Family|bratT75=Person
-11	бойфрендом	_	_	_	_	_	_	_	bratA26=T75:Male|bratT72=Family|bratT75=Person
+9	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA26=T75:Male|bratT75=Person
+10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA26=T75:Male|bratT75=Person
+11	бойфрендом	_	_	_	_	_	_	_	bratA26=T75:Male|bratT75=Person
 12	Томом	_	_	_	_	_	_	_	bratA26=T75:Male|bratT73=Person-forename|bratT75=Person
 13	Старриджем	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Male|bratT74=Person-surname|bratT75=Person
 14	.	_	_	_	_	_	_	_	_
@@ -239,7 +239,7 @@
 # sent_id = 0062-p5-s2
 # text = О воссоединении говорить рано - после расставания Сиенна и Том поддерживают хорошие отношения и иногда встречаются как друзья.
 1	О	_	_	_	_	_	_	_	_
-2	воссоединении	_	_	_	_	_	_	_	_
+2	воссоединении	_	_	_	_	_	_	_	bratT109=Event
 3	говорить	_	_	_	_	_	_	_	_
 4	рано	_	_	_	_	_	_	_	_
 5	-	_	_	_	_	_	_	_	_

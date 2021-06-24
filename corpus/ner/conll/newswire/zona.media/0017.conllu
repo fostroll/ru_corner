@@ -3,7 +3,7 @@
 # par_text = Вологжанина приговорили к шести годам колонии за домогательства к дочери подруги; мать уговаривала подростка изменить показания
 # sent_id = 0017-p1-s1
 # text = Вологжанина приговорили к шести годам колонии за домогательства к дочери подруги; мать уговаривала подростка изменить показания
-1	Вологжанина	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality
+1	Вологжанина	_	_	_	_	_	_	_	bratA1=T1:Resident|bratA18=T65:Male|bratT1=Nationality|bratT65=Person
 2	приговорили	_	_	_	_	_	_	_	_
 3	к	_	_	_	_	_	_	_	bratA9=T2:Past-Fut|bratT2=Date-period-relative
 4	шести	_	_	_	_	_	_	_	bratA9=T2:Past-Fut|bratT2=Date-period-relative|bratT3=Duration
@@ -12,12 +12,12 @@
 7	за	_	_	_	_	_	_	_	_
 8	домогательства	_	_	_	_	_	_	_	bratT57=Event
 9	к	_	_	_	_	_	_	_	_
-10	дочери	_	_	_	_	_	_	_	bratT4=Family
-11	подруги	_	_	_	_	_	_	_	SpaceAfter=No
+10	дочери	_	_	_	_	_	_	_	bratA16=T63:Female|bratT4=Family|bratT63=Person
+11	подруги	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T63:Female|bratA17=T64:Female|bratT63=Person|bratT64=Person
 12	;	_	_	_	_	_	_	_	_
-13	мать	_	_	_	_	_	_	_	bratT5=Family
+13	мать	_	_	_	_	_	_	_	bratA19=T66:Female|bratT5=Family|bratT66=Person
 14	уговаривала	_	_	_	_	_	_	_	_
-15	подростка	_	_	_	_	_	_	_	bratT6=Age
+15	подростка	_	_	_	_	_	_	_	bratT6=Age|bratT67=Person
 16	изменить	_	_	_	_	_	_	_	_
 17	показания	_	_	_	_	_	_	_	_
 
@@ -37,20 +37,20 @@
 10	колонии	_	_	_	_	_	_	_	_
 11	строгого	_	_	_	_	_	_	_	_
 12	режима	_	_	_	_	_	_	_	_
-13	местного	_	_	_	_	_	_	_	bratA15=T52:Adjective|bratA4=T12:Resident|bratT12=Nationality|bratT52=GPE
+13	местного	_	_	_	_	_	_	_	bratA15=T52:Adjective|bratA20=T68:Male|bratA4=T12:Resident|bratT12=Nationality|bratT52=GPE|bratT68=Person
 14-16	42-летнего	_	_	_	_	_	_	_	_
-14	42	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T12:Resident|bratT12=Nationality|bratT13=Age
-15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA4=T12:Resident|bratT12=Nationality|bratT13=Age
-16	летнего	_	_	_	_	_	_	_	bratA4=T12:Resident|bratT12=Nationality|bratT13=Age
-17	жителя	_	_	_	_	_	_	_	bratA4=T12:Resident|bratT12=Nationality
+14	42	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA20=T68:Male|bratA4=T12:Resident|bratT12=Nationality|bratT13=Age|bratT68=Person
+15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA20=T68:Male|bratA4=T12:Resident|bratT12=Nationality|bratT13=Age|bratT68=Person
+16	летнего	_	_	_	_	_	_	_	bratA20=T68:Male|bratA4=T12:Resident|bratT12=Nationality|bratT13=Age|bratT68=Person
+17	жителя	_	_	_	_	_	_	_	bratA20=T68:Male|bratA4=T12:Resident|bratT12=Nationality|bratT68=Person
 18	по	_	_	_	_	_	_	_	_
 19	делу	_	_	_	_	_	_	_	bratT55=Event
 20	о	_	_	_	_	_	_	_	_
 21	домогательствах	_	_	_	_	_	_	_	bratT56=Event
 22	к	_	_	_	_	_	_	_	_
-23	дочери	_	_	_	_	_	_	_	bratT14=Family
-24	своей	_	_	_	_	_	_	_	_
-25	подруги	_	_	_	_	_	_	_	SpaceAfter=No
+23	дочери	_	_	_	_	_	_	_	bratA21=T69:Female|bratT14=Family|bratT69=Person
+24	своей	_	_	_	_	_	_	_	bratA21=T69:Female|bratA22=T70:Female|bratT69=Person|bratT70=Person
+25	подруги	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T69:Female|bratA22=T70:Female|bratT69=Person|bratT70=Person
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p2-s2
@@ -107,21 +107,21 @@
 6	феврале	_	_	_	_	_	_	_	bratA10=T19:Past|bratT19=Date-absolute
 7	2019	_	_	_	_	_	_	_	bratA10=T19:Past|bratT19=Date-absolute
 8	года	_	_	_	_	_	_	_	bratA10=T19:Past|bratT19=Date-absolute
-9	подсудимый	_	_	_	_	_	_	_	bratT20=Person-property
+9	подсудимый	_	_	_	_	_	_	_	bratA23=T71:Male|bratT20=Person-property|bratT71=Person
 10	домогался	_	_	_	_	_	_	_	_
 11	до	_	_	_	_	_	_	_	_
 12-14	12-летней	_	_	_	_	_	_	_	_
 12	12	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT21=Age
 13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT21=Age
 14	летней	_	_	_	_	_	_	_	bratT21=Age
-15	дочери	_	_	_	_	_	_	_	bratT22=Family
-16	своей	_	_	_	_	_	_	_	_
-17	подруги	_	_	_	_	_	_	_	SpaceAfter=No
+15	дочери	_	_	_	_	_	_	_	bratA24=T72:Female|bratT22=Family|bratT72=Person
+16	своей	_	_	_	_	_	_	_	bratA24=T72:Female|bratA25=T73:Female|bratT72=Person|bratT73=Person
+17	подруги	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T72:Female|bratA25=T73:Female|bratT72=Person|bratT73=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p4-s2
 # text = Девочка рассказала о случившемся матери, вологжанка обратилась в полицию.
-1	Девочка	_	_	_	_	_	_	_	bratT45=Age
+1	Девочка	_	_	_	_	_	_	_	bratA26=T74:Female|bratT45=Age|bratT74=Person
 2	рассказала	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
 4	случившемся	_	_	_	_	_	_	_	_
@@ -270,6 +270,6 @@
 18	она	_	_	_	_	_	_	_	_
 19	писала	_	_	_	_	_	_	_	_
 20	о	_	_	_	_	_	_	_	_
-21	домогательствах	_	_	_	_	_	_	_	SpaceAfter=No
+21	домогательствах	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Event
 22	.	_	_	_	_	_	_	_	_
 

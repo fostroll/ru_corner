@@ -24,7 +24,7 @@
 7	Мария	_	_	_	_	_	_	_	bratA5=T8:Female|bratT39=Person-forename|bratT8=Person
 8	Сотскова	_	_	_	_	_	_	_	bratA5=T8:Female|bratT40=Person-surname|bratT8=Person
 9	в	_	_	_	_	_	_	_	_
-10	интервью	_	_	_	_	_	_	_	_
+10	интервью	_	_	_	_	_	_	_	bratT57=Event
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
 12	Экспресс-газете	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
 13	''	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
@@ -61,11 +61,11 @@
 14	десять	_	_	_	_	_	_	_	bratA8=T16:Past-UNK|bratT16=Date-period-relative|bratT42=Duration
 15	лет	_	_	_	_	_	_	_	bratA8=T16:Past-UNK|bratT16=Date-period-relative|bratT42=Duration
 16	за	_	_	_	_	_	_	_	_
-17	нарушение	_	_	_	_	_	_	_	_
+17	нарушение	_	_	_	_	_	_	_	bratT51=Event
 18	антидопинговых	_	_	_	_	_	_	_	_
 19	правил	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
-21	подделку	_	_	_	_	_	_	_	_
+21	подделку	_	_	_	_	_	_	_	bratT52=Event
 22	медицинской	_	_	_	_	_	_	_	_
 23	справки	_	_	_	_	_	_	_	SpaceAfter=No
 24	.	_	_	_	_	_	_	_	_
@@ -162,7 +162,7 @@
 # text = Уехала к подруге во Владивосток и уже не тренировалась'', - рассказала фигуристка.
 1	Уехала	_	_	_	_	_	_	_	_
 2	к	_	_	_	_	_	_	_	_
-3	подруге	_	_	_	_	_	_	_	_
+3	подруге	_	_	_	_	_	_	_	bratA20=T55:Female|bratT55=Person
 4	во	_	_	_	_	_	_	_	_
 5	Владивосток	_	_	_	_	_	_	_	bratT26=GPE
 6	и	_	_	_	_	_	_	_	_
@@ -173,7 +173,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
 13	рассказала	_	_	_	_	_	_	_	_
-14	фигуристка	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property
+14	фигуристка	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T56:Female|bratT27=Person-property|bratT56=Person
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0108-p5
@@ -274,7 +274,7 @@
 6	появятся	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	моей	_	_	_	_	_	_	_	_
-9	квартире	_	_	_	_	_	_	_	SpaceAfter=No
+9	квартире	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Facility
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0108-p6-s7
@@ -320,6 +320,6 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	добавила	_	_	_	_	_	_	_	_
-9	спортсменка	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property
+9	спортсменка	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T54:Female|bratT36=Person-property|bratT54=Person
 10	.	_	_	_	_	_	_	_	_
 

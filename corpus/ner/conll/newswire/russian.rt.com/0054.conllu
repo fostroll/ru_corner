@@ -36,9 +36,9 @@
 13	турнире	_	_	_	_	_	_	_	bratT23=Event
 14	Ассоциации	_	_	_	_	_	_	_	bratT23=Event|bratT24=Organization
 15-17	теннисистов-профессионалов	_	_	_	_	_	_	_	_
-15	теннисистов	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Event|bratT24=Organization
-16	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Event|bratT24=Organization
-17	профессионалов	_	_	_	_	_	_	_	bratT23=Event|bratT24=Organization
+15	теннисистов	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Event|bratT24=Organization|bratT54=Person-property
+16	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Event|bratT24=Organization|bratT54=Person-property
+17	профессионалов	_	_	_	_	_	_	_	bratT23=Event|bratT24=Organization|bratT54=Person-property
 18	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event
 19	АТР	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event|bratT25=Organization
 20	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event
@@ -236,7 +236,7 @@
 3	году	_	_	_	_	_	_	_	bratA2=T13:Past|bratT13=Date-absolute
 4	на	_	_	_	_	_	_	_	_
 5	этом	_	_	_	_	_	_	_	_
-6	соревновании	_	_	_	_	_	_	_	_
+6	соревновании	_	_	_	_	_	_	_	bratT53=Event
 7	триумф	_	_	_	_	_	_	_	_
 8	одержал	_	_	_	_	_	_	_	_
 9	Николай	_	_	_	_	_	_	_	bratA16=T14:Male|bratT14=Person|bratT46=Person-forename

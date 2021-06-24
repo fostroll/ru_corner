@@ -10,9 +10,9 @@
 5	Кейт	_	_	_	_	_	_	_	bratA3=T2:Female|bratT2=Person|bratT29=Person-forename|bratT44=Person
 6	Миддлтон	_	_	_	_	_	_	_	bratA3=T2:Female|bratT2=Person|bratT30=Person-surname|bratT44=Person
 7	провели	_	_	_	_	_	_	_	_
-8	видеоинтервью	_	_	_	_	_	_	_	_
+8	видеоинтервью	_	_	_	_	_	_	_	bratT56=Event
 9	с	_	_	_	_	_	_	_	_
-10	натуралистом	_	_	_	_	_	_	_	bratT4=Person-property
+10	натуралистом	_	_	_	_	_	_	_	bratT4=Person-property|bratT53=Person
 11	ко	_	_	_	_	_	_	_	_
 12	дню	_	_	_	_	_	_	_	bratT47=Event
 13	защиты	_	_	_	_	_	_	_	bratT47=Event
@@ -36,12 +36,12 @@
 12	Кейт	_	_	_	_	_	_	_	bratA5=T9:Female|bratT32=Person-forename|bratT45=Person|bratT9=Person
 13	Миддлтон	_	_	_	_	_	_	_	bratA5=T9:Female|bratT33=Person-surname|bratT45=Person|bratT9=Person
 14	устроили	_	_	_	_	_	_	_	_
-15	видеоинтервью	_	_	_	_	_	_	_	_
-16	знаменитому	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person
-17	британскому	_	_	_	_	_	_	_	bratA6=T34:Adjective|bratA7=T10:Male|bratT10=Person|bratT11=Person-property|bratT34=GPE
-18	натуралисту	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT11=Person-property
-19	и	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person
-20	телеведущему	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT12=Person-property
+15	видеоинтервью	_	_	_	_	_	_	_	bratT57=Event
+16	знаменитому	_	_	_	_	_	_	_	bratA17=T11:Plural|bratA7=T10:Male|bratT10=Person|bratT11=Person-property
+17	британскому	_	_	_	_	_	_	_	bratA17=T11:Plural|bratA6=T34:Adjective|bratA7=T10:Male|bratT10=Person|bratT11=Person-property|bratT34=GPE
+18	натуралисту	_	_	_	_	_	_	_	bratA17=T11:Plural|bratA7=T10:Male|bratT10=Person|bratT11=Person-property|bratT54=Person-property
+19	и	_	_	_	_	_	_	_	bratA17=T11:Plural|bratA7=T10:Male|bratT10=Person|bratT11=Person-property
+20	телеведущему	_	_	_	_	_	_	_	bratA17=T11:Plural|bratA7=T10:Male|bratT10=Person|bratT11=Person-property|bratT12=Person-property
 21	Дэвиду	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT35=Person-forename
 22	Аттенборо	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T10:Male|bratT10=Person|bratT36=Person-surname
 23	.	_	_	_	_	_	_	_	_
@@ -92,7 +92,7 @@
 # text = Аттенборо заверил мальчика, что этого можно избежать, если люди будут бережно оноситься к окружающей среде.
 1	Аттенборо	_	_	_	_	_	_	_	bratA10=T17:Male|bratT17=Person|bratT38=Person-surname
 2	заверил	_	_	_	_	_	_	_	_
-3	мальчика	_	_	_	_	_	_	_	SpaceAfter=No
+3	мальчика	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T55:Male|bratT55=Person
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	этого	_	_	_	_	_	_	_	_
@@ -133,10 +133,10 @@
 
 # sent_id = 0091-p4-s2
 # text = Натуралист разделил восторг принцессы и добавил, что не понимает, почему большинство людей пугают эти милые существа.
-1	Натуралист	_	_	_	_	_	_	_	bratT21=Person-property
+1	Натуралист	_	_	_	_	_	_	_	bratA15=T51:Male|bratT21=Person-property|bratT51=Person
 2	разделил	_	_	_	_	_	_	_	_
 3	восторг	_	_	_	_	_	_	_	_
-4	принцессы	_	_	_	_	_	_	_	bratT22=Person-property
+4	принцессы	_	_	_	_	_	_	_	bratA16=T52:Female|bratT22=Person-property|bratT52=Person
 5	и	_	_	_	_	_	_	_	_
 6	добавил	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
@@ -178,7 +178,7 @@
 
 # sent_id = 0091-p5-s2
 # text = Натуралист ответил однозначно - обезьян.
-1	Натуралист	_	_	_	_	_	_	_	bratT27=Person-property
+1	Натуралист	_	_	_	_	_	_	_	bratA8=T50:Male|bratT27=Person-property|bratT50=Person
 2	ответил	_	_	_	_	_	_	_	_
 3	однозначно	_	_	_	_	_	_	_	_
 4	-	_	_	_	_	_	_	_	_

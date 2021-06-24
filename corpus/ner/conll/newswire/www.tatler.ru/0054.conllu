@@ -4,11 +4,11 @@
 # sent_id = 0054-p1-s1
 # text = Умер звезда ``Черной Пантеры'' Чедвик Боузман
 1	Умер	_	_	_	_	_	_	_	_
-2	звезда	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT5=Person
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Male|bratT3=Person|bratT4=Work-of-art|bratT5=Person
-4	Черной	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Work-of-art|bratT5=Person
-5	Пантеры	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Male|bratT3=Person|bratT4=Work-of-art|bratT5=Person
-6	''	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Work-of-art|bratT5=Person
+2	звезда	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT67=Person-property
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Male|bratT3=Person|bratT4=Work-of-art|bratT67=Person-property
+4	Черной	_	_	_	_	_	_	_	bratA1=T3:Male|bratA25=T5:Fiction|bratA26=T5:Male|bratT3=Person|bratT4=Work-of-art|bratT5=Person|bratT67=Person-property|bratT68=Person-alias
+5	Пантеры	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Male|bratA25=T5:Fiction|bratA26=T5:Male|bratT3=Person|bratT4=Work-of-art|bratT5=Person|bratT67=Person-property|bratT68=Person-alias
+6	''	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Work-of-art|bratT67=Person-property
 7	Чедвик	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-forename|bratT3=Person
 8	Боузман	_	_	_	_	_	_	_	bratA1=T3:Male|bratT2=Person-surname|bratT3=Person
 
@@ -21,11 +21,11 @@
 3	,	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	своем	_	_	_	_	_	_	_	_
-6	доме	_	_	_	_	_	_	_	SpaceAfter=No
+6	доме	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Facility
 7	,	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	окружении	_	_	_	_	_	_	_	_
-10	семьи	_	_	_	_	_	_	_	bratT59=Family
+10	семьи	_	_	_	_	_	_	_	bratT59=Family|bratT71=Person
 11	скончался	_	_	_	_	_	_	_	_
 12	американский	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratA3=T11:Male|bratT11=Person|bratT7=GPE|bratT8=Person-property
 13	актер	_	_	_	_	_	_	_	bratA3=T11:Male|bratT11=Person|bratT8=Person-property
@@ -102,8 +102,8 @@
 21	Press	_	_	_	_	_	_	_	bratA9=T22:Media|bratT22=Organization
 22	текст	_	_	_	_	_	_	_	_
 23	письма	_	_	_	_	_	_	_	_
-24	семьи	_	_	_	_	_	_	_	bratT24=Family
-25	актера	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property
+24	семьи	_	_	_	_	_	_	_	bratT24=Family|bratT73=Person
+25	актера	_	_	_	_	_	_	_	SpaceAfter=No|bratA27=T72:Male|bratT23=Person-property|bratT72=Person|bratT73=Person
 26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0054-p4
@@ -139,9 +139,9 @@
 8	в	_	_	_	_	_	_	_	bratA12=T31:Past|bratT31=Date-absolute
 9	2016-м	_	_	_	_	_	_	_	bratA12=T31:Past|bratT31=Date-absolute
 10	после	_	_	_	_	_	_	_	bratA12=T31:Past|bratT31=Date-absolute
-11	роли	_	_	_	_	_	_	_	bratA12=T31:Past|bratT31=Date-absolute
-12	Черной	_	_	_	_	_	_	_	bratA13=T34:Fiction|bratA14=T34:Male|bratT33=Person-alias|bratT34=Person
-13	Пантеры	_	_	_	_	_	_	_	bratA13=T34:Fiction|bratA14=T34:Male|bratT33=Person-alias|bratT34=Person
+11	роли	_	_	_	_	_	_	_	bratA12=T31:Past|bratT31=Date-absolute|bratT66=Person-property
+12	Черной	_	_	_	_	_	_	_	bratA12=T31:Past|bratA13=T34:Fiction|bratA14=T34:Male|bratT31=Date-absolute|bratT33=Person-alias|bratT34=Person|bratT66=Person-property
+13	Пантеры	_	_	_	_	_	_	_	bratA12=T31:Past|bratA13=T34:Fiction|bratA14=T34:Male|bratT31=Date-absolute|bratT33=Person-alias|bratT34=Person|bratT66=Person-property
 14	в	_	_	_	_	_	_	_	_
 15	фильмах	_	_	_	_	_	_	_	_
 16	Marvel	_	_	_	_	_	_	_	bratA19=T32:Media|bratT32=Organization
@@ -161,7 +161,7 @@
 30	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Work-of-art
 31	Мстители	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Work-of-art
 32	:	_	_	_	_	_	_	_	bratT38=Work-of-art
-33	Война	_	_	_	_	_	_	_	bratT38=Work-of-art
+33	Война	_	_	_	_	_	_	_	bratT38=Work-of-art|bratT69=Event
 34	бесконечности	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Work-of-art
 35	''	_	_	_	_	_	_	_	bratT38=Work-of-art
 36	и	_	_	_	_	_	_	_	_

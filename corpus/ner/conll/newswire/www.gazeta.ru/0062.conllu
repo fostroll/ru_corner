@@ -151,13 +151,13 @@
 # sent_id = 0062-p5-s1
 # text = Игра ``Атлетико'' - ``Локомотив'' состоится 25-го ноября.
 1	Игра	_	_	_	_	_	_	_	bratT27=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT27=Event
-3	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT27=Event
-4	''	_	_	_	_	_	_	_	bratT25=Organization|bratT27=Event
-5	-	_	_	_	_	_	_	_	bratT27=Event
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization|bratT27=Event
-7	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization|bratT27=Event
-8	''	_	_	_	_	_	_	_	bratT26=Organization|bratT27=Event
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
+3	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
+4	''	_	_	_	_	_	_	_	bratT25=Organization
+5	-	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+7	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+8	''	_	_	_	_	_	_	_	bratT26=Organization
 9	состоится	_	_	_	_	_	_	_	_
 10	25-го	_	_	_	_	_	_	_	bratA4=T28:Future|bratT28=Date-absolute
 11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T28:Future|bratT28=Date-absolute
@@ -165,7 +165,7 @@
 
 # sent_id = 0062-p5-s2
 # text = Начало - 23:00 мск.
-1	Начало	_	_	_	_	_	_	_	_
+1	Начало	_	_	_	_	_	_	_	bratT72=Event
 2	-	_	_	_	_	_	_	_	_
 3	23:00	_	_	_	_	_	_	_	bratA1=T50:Future|bratT29=Time-absolute|bratT50=Date-relative
 4	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T50:Future|bratT29=Time-absolute|bratT50=Date-relative|bratT69=GPE

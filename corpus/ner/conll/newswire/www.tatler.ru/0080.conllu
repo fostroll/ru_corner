@@ -3,15 +3,15 @@
 # par_text = Королевский эксперт: «Елизавета II передаст трон сыну в следующем году»
 # sent_id = 0080-p1-s1
 # text = Королевский эксперт: ``Елизавета II передаст трон сыну в следующем году''
-1	Королевский	_	_	_	_	_	_	_	bratT1=Person-property
-2	эксперт	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+1	Королевский	_	_	_	_	_	_	_	bratT1=Person-property|bratT56=Person
+2	эксперт	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT56=Person
 3	:	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No
 5	Елизавета	_	_	_	_	_	_	_	bratA1=T4:Female|bratT2=Person-forename|bratT4=Person
 6	II	_	_	_	_	_	_	_	bratA1=T4:Female|bratT3=Person-affix|bratT4=Person|bratT49=Ordinal
 7	передаст	_	_	_	_	_	_	_	_
 8	трон	_	_	_	_	_	_	_	bratT51=Person-property
-9	сыну	_	_	_	_	_	_	_	bratT5=Family
+9	сыну	_	_	_	_	_	_	_	bratA19=T57:Male|bratT5=Family|bratT57=Person
 10	в	_	_	_	_	_	_	_	bratA2=T6:Future|bratT6=Date-absolute
 11	следующем	_	_	_	_	_	_	_	bratA2=T6:Future|bratT46=Ordinal|bratT6=Date-absolute
 12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Future|bratT6=Date-absolute
@@ -23,8 +23,8 @@
 # text = 30 октября британские репортеры, много лет описывающие жизнь королевской семьи, стали гостями программы The Royal Beat на телеканале True Royalty TV.
 1	30	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA3=T7:Past|bratT7=Date-absolute
-3	британские	_	_	_	_	_	_	_	bratA4=T8:Adjective|bratT8=GPE|bratT9=Person-property
-4	репортеры	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person-property
+3	британские	_	_	_	_	_	_	_	bratA4=T8:Adjective|bratT58=Person|bratT8=GPE|bratT9=Person-property
+4	репортеры	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Person|bratT9=Person-property
 5	,	_	_	_	_	_	_	_	_
 6	много	_	_	_	_	_	_	_	bratA5=T10:RCont|bratA6=T10:Past-Pres|bratT10=Date-period-absolute|bratT45=Duration
 7	лет	_	_	_	_	_	_	_	bratA5=T10:RCont|bratA6=T10:Past-Pres|bratT10=Date-period-absolute|bratT45=Duration
@@ -83,12 +83,12 @@
 15	и	_	_	_	_	_	_	_	_
 16	уступит	_	_	_	_	_	_	_	_
 17	его	_	_	_	_	_	_	_	_
-18	сыну	_	_	_	_	_	_	_	bratT24=Family
-19	-	_	_	_	_	_	_	_	_
+18	сыну	_	_	_	_	_	_	_	bratA11=T28:Male|bratT24=Family|bratT28=Person
+19	-	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person
 20-22	71-летнему	_	_	_	_	_	_	_	_
-20	71	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Age
-21	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Age
-22	летнему	_	_	_	_	_	_	_	bratT25=Age
+20	71	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA11=T28:Male|bratT25=Age|bratT28=Person
+21	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA11=T28:Male|bratT25=Age|bratT28=Person
+22	летнему	_	_	_	_	_	_	_	bratA11=T28:Male|bratT25=Age|bratT28=Person
 23	принцу	_	_	_	_	_	_	_	bratA11=T28:Male|bratT26=Person-property|bratT28=Person
 24	Чарльзу	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Male|bratT27=Person-forename|bratT28=Person
 25	,	_	_	_	_	_	_	_	_

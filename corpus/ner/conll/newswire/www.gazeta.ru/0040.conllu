@@ -8,14 +8,14 @@
 3	Вашингтон	_	_	_	_	_	_	_	bratT2=GPE
 4	угрожает	_	_	_	_	_	_	_	_
 5	санкциями	_	_	_	_	_	_	_	bratT27=Event
-6	участникам	_	_	_	_	_	_	_	bratT38=Organization
-7	проекта	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT38=Organization
-9	Северный	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
-10	поток	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
-11	-	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
-12	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT22=Ordinal|bratT38=Organization
-13	''	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT38=Organization
+6	участникам	_	_	_	_	_	_	_	_
+7	проекта	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product
+9	Северный	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
+10	поток	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
+11	-	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
+12	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT22=Ordinal
+13	''	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
 
 # newpar id = 0040-p2
 # par_text = Вашингтон контактирует с европейскими компаниями, участвующими в строительстве «Северного потока 2», и предупреждает их об угрозе санкций. Об этом информирует агентство DPA со ссылкой на представителя американского правительства.
@@ -86,7 +86,7 @@
 # text = По словам чиновника, Соединенные Штаты не ходят вводить санкции против европейских компаний, и эти звонки - предупреждения, чтобы предприятия успели покинуть проект.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	чиновника	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property
+3	чиновника	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T38:Male|bratT16=Person-property|bratT38=Person
 4	,	_	_	_	_	_	_	_	_
 5	Соединенные	_	_	_	_	_	_	_	bratT11=GPE
 6	Штаты	_	_	_	_	_	_	_	bratT11=GPE

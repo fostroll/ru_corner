@@ -28,10 +28,10 @@
 # text = 6 мая герцог и герцогиня Сассекские объявили о том, что у них родился сын.
 1	6	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-absolute
 2	мая	_	_	_	_	_	_	_	bratA5=T16:Past|bratT16=Date-absolute
-3	герцог	_	_	_	_	_	_	_	bratA6=T20:Plural|bratT17=Person-property|bratT20=Person
-4	и	_	_	_	_	_	_	_	bratA6=T20:Plural|bratT20=Person
-5	герцогиня	_	_	_	_	_	_	_	bratA6=T20:Plural|bratT18=Person-property|bratT20=Person
-6	Сассекские	_	_	_	_	_	_	_	bratA6=T20:Plural|bratT19=GPE|bratT20=Person
+3	герцог	_	_	_	_	_	_	_	bratA23=T76:Male|bratA6=T20:Plural|bratT17=Person-property|bratT20=Person|bratT76=Person|bratT78=Person-property
+4	и	_	_	_	_	_	_	_	bratA6=T20:Plural|bratT20=Person|bratT78=Person-property
+5	герцогиня	_	_	_	_	_	_	_	bratA24=T77:Female|bratA6=T20:Plural|bratT18=Person-property|bratT20=Person|bratT77=Person|bratT78=Person-property
+6	Сассекские	_	_	_	_	_	_	_	bratA22=T19:Adjective|bratA6=T20:Plural|bratT19=GPE|bratT20=Person|bratT78=Person-property
 7	объявили	_	_	_	_	_	_	_	_
 8	о	_	_	_	_	_	_	_	_
 9	том	_	_	_	_	_	_	_	SpaceAfter=No
@@ -68,9 +68,9 @@
 2	затем	_	_	_	_	_	_	_	bratA19=T27:Past|bratT27=Date-relative
 3	в	_	_	_	_	_	_	_	_
 4	офис	_	_	_	_	_	_	_	bratT32=Facility
-5	Гарри	_	_	_	_	_	_	_	bratA8=T30:Male|bratT28=Person-forename|bratT30=Person|bratT32=Facility
-6	и	_	_	_	_	_	_	_	bratT32=Facility
-7	Меган	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T31:Female|bratT29=Person-forename|bratT31=Person|bratT32=Facility
+5	Гарри	_	_	_	_	_	_	_	bratA8=T30:Male|bratT28=Person-forename|bratT30=Person
+6	и	_	_	_	_	_	_	_	_
+7	Меган	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T31:Female|bratT29=Person-forename|bratT31=Person
 8	,	_	_	_	_	_	_	_	_
 9	расположенный	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
@@ -94,9 +94,9 @@
 3	пожеланиям	_	_	_	_	_	_	_	_
 4	присоединились	_	_	_	_	_	_	_	_
 5	и	_	_	_	_	_	_	_	_
-6	звездные	_	_	_	_	_	_	_	bratT36=Other-group
-7	друзья	_	_	_	_	_	_	_	bratT36=Other-group
-8	пары	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Family
+6	звездные	_	_	_	_	_	_	_	bratT75=Person
+7	друзья	_	_	_	_	_	_	_	bratT75=Person
+8	пары	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Family|bratT36=Person|bratT75=Person
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p3
@@ -106,9 +106,9 @@
 1	Одной	_	_	_	_	_	_	_	bratT37=Quantity
 2	из	_	_	_	_	_	_	_	bratT37=Quantity
 3	первых	_	_	_	_	_	_	_	bratT38=Ordinal
-4	герцога	_	_	_	_	_	_	_	bratT39=Person-property
+4	герцога	_	_	_	_	_	_	_	bratA25=T79:Male|bratT39=Person-property|bratT79=Person
 5	и	_	_	_	_	_	_	_	_
-6	герцогиню	_	_	_	_	_	_	_	bratT40=Person-property
+6	герцогиню	_	_	_	_	_	_	_	bratA26=T80:Female|bratT40=Person-property|bratT80=Person
 7	поздравила	_	_	_	_	_	_	_	_
 8	Мишель	_	_	_	_	_	_	_	bratA10=T43:Female|bratT41=Person-forename|bratT43=Person
 9	Обама	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T43:Female|bratT42=Person-surname|bratT43=Person
@@ -144,10 +144,10 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	написала	_	_	_	_	_	_	_	_
-19	бывшая	_	_	_	_	_	_	_	bratT53=Person-property
-20	первая	_	_	_	_	_	_	_	bratT51=Ordinal|bratT53=Person-property
-21	леди	_	_	_	_	_	_	_	bratT53=Person-property
-22	США	_	_	_	_	_	_	_	bratT52=GPE|bratT53=Person-property
+19	бывшая	_	_	_	_	_	_	_	bratA27=T81:Female|bratT53=Person-property|bratT81=Person
+20	первая	_	_	_	_	_	_	_	bratA27=T81:Female|bratT51=Ordinal|bratT53=Person-property|bratT81=Person
+21	леди	_	_	_	_	_	_	_	bratA27=T81:Female|bratT53=Person-property|bratT81=Person
+22	США	_	_	_	_	_	_	_	bratA27=T81:Female|bratT52=GPE|bratT53=Person-property|bratT81=Person
 23	в	_	_	_	_	_	_	_	_
 24	твиттере	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Service
 25	.	_	_	_	_	_	_	_	_
@@ -166,8 +166,8 @@
 8	,	_	_	_	_	_	_	_	_
 9	чтобы	_	_	_	_	_	_	_	_
 10	пожелать	_	_	_	_	_	_	_	_
-11	новорожденному	_	_	_	_	_	_	_	_
-12	малышу	_	_	_	_	_	_	_	_
+11	новорожденному	_	_	_	_	_	_	_	bratA28=T83:Male|bratT82=Age|bratT83=Person
+12	малышу	_	_	_	_	_	_	_	bratA28=T83:Male|bratT83=Person
 13	и	_	_	_	_	_	_	_	_
 14	его	_	_	_	_	_	_	_	bratT68=Person
 15	родителям	_	_	_	_	_	_	_	bratT60=Family|bratT68=Person

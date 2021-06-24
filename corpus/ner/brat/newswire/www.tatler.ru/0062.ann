@@ -16,7 +16,6 @@ T11	Person-surname 199 205	Миллер
 T12	Person 190 205	Сиенны   Миллер
 A5	Female T12
 T13	Age 217 228	29 - летним
-T14	Family 231 241	бойфрендом
 T15	Person-property 248 258	галеристом
 T16	Person-forename 261 268	Лукасом
 T17	Person-surname 271 280	Цвирнером
@@ -35,7 +34,7 @@ T26	Person 416 448	арт-дилера   Каспара   Джоплинга
 A9	Male T26
 T27	Person 395 409	Элли   Голдинг
 A10	Female T27
-T28	Event 385 448	свадьбе   Элли   Голдинг   и   арт-дилера   Каспара   Джоплинга
+T28	Event 385 392	свадьбе
 T29	Date-relative 459 464	потом
 T30	Person-forename 508 513	Дашей
 T31	Person-surname 516 523	Жуковой
@@ -84,7 +83,7 @@ T62	Person 1299 1307	Цвирнера
 A22	Male T62
 T63	Organization 1289 1307	галереи   Цвирнера
 T64	Person-property 1271 1307	Пресс-секретарь   галереи   Цвирнера
-T65	Person-property 1428 1438	инсайдеров
+T65	Person 1428 1438	инсайдеров
 T66	Person-surname 1467 1473	Миллер
 T67	Person 1467 1473	Миллер
 A23	Male T67
@@ -93,7 +92,6 @@ A24	Past T69
 T70	Person-forename 1498 1504	Сиенну
 T71	Person 1498 1504	Сиенну
 A25	Female T71
-T72	Family 1536 1552	экс - бойфрендом
 T73	Person-forename 1555 1560	Томом
 T74	Person-surname 1563 1573	Старриджем
 T75	Person 1536 1573	экс - бойфрендом   Томом   Старриджем
@@ -135,3 +133,19 @@ T96	Person 956 963	актрисы
 A39	Female T96
 T97	Person 1271 1307	Пресс-секретарь   галереи   Цвирнера
 A40	Male T97
+T98	Event 893 900	свадьбы
+T99	Event 105 113	помолвке
+T100	Event 179 187	помолвка
+T101	Event 1521 1529	прогулке
+T102	Person 665 672	актриса
+A41	Female T102
+T103	Person 781 788	актрисы
+A42	Female T103
+T104	Event 555 571	Главный   вопрос
+T105	Person 1099 1106	актрисы
+A43	Female T105
+T106	Person 1173 1185	работодателю
+A44	Female T106
+T107	Person 1082 1136	представителей   актрисы   в   Лондоне   и   Нью-Йорке
+T108	Event 1363 1374	расставания
+T109	Event 1582 1595	воссоединении

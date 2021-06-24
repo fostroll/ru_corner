@@ -7,9 +7,9 @@
 2	вызвал	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	допрос	_	_	_	_	_	_	_	bratT84=Event
-5	московского	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT2=Person-property|bratT3=GPE
-6	муниципального	_	_	_	_	_	_	_	bratT2=Person-property
-7	депутата	_	_	_	_	_	_	_	bratT2=Person-property
+5	московского	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT2=Person-property|bratT3=GPE|bratT94=Person
+6	муниципального	_	_	_	_	_	_	_	bratT2=Person-property|bratT94=Person
+7	депутата	_	_	_	_	_	_	_	bratT2=Person-property|bratT94=Person
 8	за	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No
 10	ложные	_	_	_	_	_	_	_	_
@@ -48,7 +48,7 @@
 17	в	_	_	_	_	_	_	_	_
 18	Генпрокуратуру	_	_	_	_	_	_	_	bratT11=Organization
 19	на	_	_	_	_	_	_	_	_
-20	нарушения	_	_	_	_	_	_	_	_
+20	нарушения	_	_	_	_	_	_	_	bratT92=Event
 21	во	_	_	_	_	_	_	_	bratA22=T13:Past|bratT13=Date-period-absolute
 22	время	_	_	_	_	_	_	_	bratA22=T13:Past|bratT13=Date-period-absolute
 23	июльских	_	_	_	_	_	_	_	bratA22=T13:Past|bratA24=T80:Past|bratT13=Date-period-absolute|bratT80=Date-absolute|bratT81=Event
@@ -189,7 +189,7 @@
 10	Галяминой	_	_	_	_	_	_	_	bratA17=T54:Female|bratT54=Person|bratT55=Person-surname
 11	зайти	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	квартиру	_	_	_	_	_	_	_	_
+13	квартиру	_	_	_	_	_	_	_	bratT93=Facility
 14	к	_	_	_	_	_	_	_	_
 15	ее	_	_	_	_	_	_	_	bratA21=T72:Male|bratT72=Person
 16-18	19-летнему	_	_	_	_	_	_	_	_

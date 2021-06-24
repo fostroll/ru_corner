@@ -20,7 +20,7 @@
 3	Владимир	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT45=Person-forename
 4	Путин	_	_	_	_	_	_	_	bratA6=T32:Male|bratT32=Person|bratT46=Person-surname
 5	в	_	_	_	_	_	_	_	_
-6	интервью	_	_	_	_	_	_	_	_
+6	интервью	_	_	_	_	_	_	_	bratT63=Event
 7	ведущему	_	_	_	_	_	_	_	bratT33=Person-property
 8	программы	_	_	_	_	_	_	_	bratT33=Person-property|bratT34=Work-of-art
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Person-property|bratT34=Work-of-art
@@ -91,8 +91,8 @@
 31	цитирует	_	_	_	_	_	_	_	_
 32	РИА	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
 33	Новости	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization
-34	российского	_	_	_	_	_	_	_	bratA12=T49:Adjective|bratT49=GPE|bratT6=Person-property
-35	лидера	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property
+34	российского	_	_	_	_	_	_	_	bratA12=T49:Adjective|bratA19=T62:Male|bratT49=GPE|bratT6=Person-property|bratT62=Person
+35	лидера	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T62:Male|bratT6=Person-property|bratT62=Person
 36	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0038-p4

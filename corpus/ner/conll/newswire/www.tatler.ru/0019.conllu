@@ -4,7 +4,7 @@
 # sent_id = 0019-p1-s1
 # text = Жертвы домогательств Харви Вайнштейна получат компенсацию в размере $19 миллионов
 1	Жертвы	_	_	_	_	_	_	_	_
-2	домогательств	_	_	_	_	_	_	_	_
+2	домогательств	_	_	_	_	_	_	_	bratT34=Event
 3	Харви	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT17=Person-forename
 4	Вайнштейна	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT18=Person-surname
 5	получат	_	_	_	_	_	_	_	_
@@ -25,7 +25,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	пострадавшие	_	_	_	_	_	_	_	_
 5	от	_	_	_	_	_	_	_	_
-6	домогательств	_	_	_	_	_	_	_	_
+6	домогательств	_	_	_	_	_	_	_	bratT35=Event
 7	со	_	_	_	_	_	_	_	_
 8	стороны	_	_	_	_	_	_	_	_
 9	продюсера	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT4=Person-property
@@ -61,14 +61,14 @@
 7	Company	_	_	_	_	_	_	_	bratT9=Organization
 8	подвели	_	_	_	_	_	_	_	_
 9	своих	_	_	_	_	_	_	_	_
-10	сотрудников	_	_	_	_	_	_	_	SpaceAfter=No
+10	сотрудников	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person-property
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0019-p2-s4
 # text = После всех преследований, угроз и дискриминации пострадавшие наконец-то получают определенную справедливость'', - говорится в ее заявлении.
 1	После	_	_	_	_	_	_	_	bratA7=T27:Present|bratT27=Date-absolute
 2	всех	_	_	_	_	_	_	_	bratA7=T27:Present|bratT27=Date-absolute
-3	преследований	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T27:Present|bratT27=Date-absolute
+3	преследований	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T27:Present|bratT27=Date-absolute|bratT38=Event
 4	,	_	_	_	_	_	_	_	_
 5	угроз	_	_	_	_	_	_	_	bratT33=Event
 6	и	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 10	признаку	_	_	_	_	_	_	_	_
 11	пола	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
-13	домогательствам	_	_	_	_	_	_	_	_
+13	домогательствам	_	_	_	_	_	_	_	bratT36=Event
 14	во	_	_	_	_	_	_	_	bratT26=Time-relative
 15	время	_	_	_	_	_	_	_	bratT26=Time-relative
 16	работы	_	_	_	_	_	_	_	_
@@ -157,7 +157,7 @@
 13	обвинениями	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
 15	адрес	_	_	_	_	_	_	_	_
-16	продюсера	_	_	_	_	_	_	_	bratT14=Person-property
+16	продюсера	_	_	_	_	_	_	_	bratA6=T39:Male|bratT14=Person-property|bratT39=Person
 17	выступали	_	_	_	_	_	_	_	_
 18	почти	_	_	_	_	_	_	_	bratT13=Quantity
 19	80	_	_	_	_	_	_	_	bratT13=Quantity
@@ -180,7 +180,7 @@
 12	специально	_	_	_	_	_	_	_	_
 13	назначенному	_	_	_	_	_	_	_	_
 14	судом	_	_	_	_	_	_	_	bratT28=Organization
-15	специалисту	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property
+15	специалисту	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT40=Person
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0019-p2-s10

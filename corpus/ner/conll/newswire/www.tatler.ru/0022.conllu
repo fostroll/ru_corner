@@ -23,7 +23,7 @@
 1	5	_	_	_	_	_	_	_	bratA2=T7:Past|bratT7=Date-absolute
 2	мая	_	_	_	_	_	_	_	bratA2=T7:Past|bratT7=Date-absolute
 3	в	_	_	_	_	_	_	_	_
-4	католической	_	_	_	_	_	_	_	bratT9=Organization
+4	католической	_	_	_	_	_	_	_	bratA6=T46:Adjective|bratT46=Political-group|bratT9=Organization
 5	школе	_	_	_	_	_	_	_	bratT9=Organization
 6	для	_	_	_	_	_	_	_	bratT9=Organization
 7	девочек	_	_	_	_	_	_	_	bratT9=Organization
@@ -41,17 +41,17 @@
 19	,	_	_	_	_	_	_	_	_
 20	посвященная	_	_	_	_	_	_	_	_
 21-23	20-летию	_	_	_	_	_	_	_	_
-21	20	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age
-22	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age
-23	летию	_	_	_	_	_	_	_	bratT13=Age
-24	выпуска	_	_	_	_	_	_	_	bratT43=Event
-25	1999	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
-26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Past|bratT14=Date-absolute
+21	20	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age|bratT54=Event
+22	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age|bratT54=Event
+23	летию	_	_	_	_	_	_	_	bratT13=Age|bratT54=Event
+24	выпуска	_	_	_	_	_	_	_	bratT43=Event|bratT54=Event
+25	1999	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute|bratT43=Event|bratT54=Event
+26	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Past|bratT14=Date-absolute|bratT43=Event|bratT54=Event
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0022-p2-s2
 # text = Герцогиня по понятным причинам присутствовать на ней не смогла.
-1	Герцогиня	_	_	_	_	_	_	_	bratT16=Person-property
+1	Герцогиня	_	_	_	_	_	_	_	bratA12=T47:Female|bratT16=Person-property|bratT47=Person
 2	по	_	_	_	_	_	_	_	_
 3	понятным	_	_	_	_	_	_	_	_
 4	причинам	_	_	_	_	_	_	_	_
@@ -64,7 +64,7 @@
 
 # sent_id = 0022-p2-s3
 # text = Одноклассницы сильно огорчились, что не смогли из первых уст узнать о том, какие изменения произошли в жизни их школьной подруги, но даже несмотря на отсутствие, Меган все равно оказалась в центре всех разговоров.
-1	Одноклассницы	_	_	_	_	_	_	_	bratT18=Other-group
+1	Одноклассницы	_	_	_	_	_	_	_	bratT18=Other-group|bratT51=Person
 2	сильно	_	_	_	_	_	_	_	_
 3	огорчились	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -79,13 +79,13 @@
 13	том	_	_	_	_	_	_	_	SpaceAfter=No
 14	,	_	_	_	_	_	_	_	_
 15	какие	_	_	_	_	_	_	_	_
-16	изменения	_	_	_	_	_	_	_	_
+16	изменения	_	_	_	_	_	_	_	bratT44=Event
 17	произошли	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	жизни	_	_	_	_	_	_	_	_
 20	их	_	_	_	_	_	_	_	_
-21	школьной	_	_	_	_	_	_	_	_
-22	подруги	_	_	_	_	_	_	_	SpaceAfter=No
+21	школьной	_	_	_	_	_	_	_	bratA13=T48:Female|bratT48=Person
+22	подруги	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T48:Female|bratT48=Person
 23	,	_	_	_	_	_	_	_	_
 24	но	_	_	_	_	_	_	_	_
 25	даже	_	_	_	_	_	_	_	_
@@ -105,7 +105,7 @@
 
 # sent_id = 0022-p2-s4
 # text = Герцогиня помнит свои корни, поэтому не смогла оставить событие без внимания.
-1	Герцогиня	_	_	_	_	_	_	_	bratT21=Person-property
+1	Герцогиня	_	_	_	_	_	_	_	bratA14=T49:Female|bratT21=Person-property|bratT49=Person
 2	помнит	_	_	_	_	_	_	_	_
 3	свои	_	_	_	_	_	_	_	_
 4	корни	_	_	_	_	_	_	_	SpaceAfter=No
@@ -114,7 +114,7 @@
 7	не	_	_	_	_	_	_	_	_
 8	смогла	_	_	_	_	_	_	_	_
 9	оставить	_	_	_	_	_	_	_	_
-10	событие	_	_	_	_	_	_	_	_
+10	событие	_	_	_	_	_	_	_	bratT55=Event
 11	без	_	_	_	_	_	_	_	_
 12	внимания	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
@@ -138,12 +138,12 @@
 # sent_id = 0022-p2-s6
 # text = Особенно бывших учениц Immaculate Heart High School впечатлило то, что послание было отправлено в конверте Кенсингтонского дворца.
 1	Особенно	_	_	_	_	_	_	_	_
-2	бывших	_	_	_	_	_	_	_	bratT25=Person-property
-3	учениц	_	_	_	_	_	_	_	bratT25=Person-property
-4	Immaculate	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property
-5	Heart	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property
-6	High	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property
-7	School	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property
+2	бывших	_	_	_	_	_	_	_	bratT25=Person-property|bratT50=Person
+3	учениц	_	_	_	_	_	_	_	bratT25=Person-property|bratT50=Person
+4	Immaculate	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property|bratT50=Person
+5	Heart	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property|bratT50=Person
+6	High	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property|bratT50=Person
+7	School	_	_	_	_	_	_	_	bratT24=Organization|bratT25=Person-property|bratT50=Person
 8	впечатлило	_	_	_	_	_	_	_	_
 9	то	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
@@ -171,7 +171,7 @@
 10	тут	_	_	_	_	_	_	_	_
 11	же	_	_	_	_	_	_	_	_
 12	заполнили	_	_	_	_	_	_	_	_
-13	ленты	_	_	_	_	_	_	_	_
+13	ленты	_	_	_	_	_	_	_	bratA15=T52:Media|bratT52=Service
 14	выпускниц	_	_	_	_	_	_	_	bratT27=Person-property
 15	в	_	_	_	_	_	_	_	_
 16	инстаграме	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Service
@@ -202,8 +202,8 @@
 19	друг	_	_	_	_	_	_	_	_
 20	друга	_	_	_	_	_	_	_	_
 21	с	_	_	_	_	_	_	_	_
-22	юбилеем	_	_	_	_	_	_	_	_
-23	окончания	_	_	_	_	_	_	_	_
+22	юбилеем	_	_	_	_	_	_	_	bratT53=Event
+23	окончания	_	_	_	_	_	_	_	bratT45=Event|bratT53=Event
 24	школы	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
 25	,	_	_	_	_	_	_	_	_
 26	на	_	_	_	_	_	_	_	_

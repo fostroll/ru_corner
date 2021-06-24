@@ -4,9 +4,9 @@
 # sent_id = 0079-p1-s1
 # text = Церемонию ``Оскар'' в 2021 году могут перенести
 1	Церемонию	_	_	_	_	_	_	_	bratT1=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event|bratT4=Other-term
-3	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event|bratT4=Other-term
-4	''	_	_	_	_	_	_	_	bratT1=Event|bratT4=Other-term
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event|bratT28=Other-term
+3	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Event|bratT28=Other-term|bratT4=Person-forename
+4	''	_	_	_	_	_	_	_	bratT1=Event|bratT28=Other-term
 5	в	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
 6	2021	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
 7	году	_	_	_	_	_	_	_	bratA2=T2:Future|bratT2=Date-absolute
@@ -19,13 +19,13 @@
 # text = Хотя до следующей церемонии вручения кинонаград ``Оскар'' еще целых девять месяцев, Американская киноакадемия рассматривает вариант переноса мероприятия на более поздний срок.
 1	Хотя	_	_	_	_	_	_	_	_
 2	до	_	_	_	_	_	_	_	_
-3	следующей	_	_	_	_	_	_	_	bratT23=Ordinal
+3	следующей	_	_	_	_	_	_	_	bratT23=Ordinal|bratT3=Event
 4	церемонии	_	_	_	_	_	_	_	bratT3=Event
 5	вручения	_	_	_	_	_	_	_	bratT3=Event
-6	кинонаград	_	_	_	_	_	_	_	bratT3=Event
-7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Event|bratT5=Other-term
-8	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Event|bratT5=Other-term
-9	''	_	_	_	_	_	_	_	bratT3=Event|bratT5=Other-term
+6	кинонаград	_	_	_	_	_	_	_	bratT29=Other-term|bratT3=Event
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term|bratT3=Event
+8	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-term|bratT3=Event|bratT5=Person-forename
+9	''	_	_	_	_	_	_	_	bratT29=Other-term|bratT3=Event
 10	еще	_	_	_	_	_	_	_	bratA3=T6:Pres-Fut|bratT6=Date-period-absolute
 11	целых	_	_	_	_	_	_	_	bratA3=T6:Pres-Fut|bratT6=Date-period-absolute
 12	девять	_	_	_	_	_	_	_	bratA3=T6:Pres-Fut|bratT16=Duration|bratT6=Date-period-absolute
@@ -81,7 +81,7 @@
 2	новая	_	_	_	_	_	_	_	_
 3	предполагаемая	_	_	_	_	_	_	_	_
 4	дата	_	_	_	_	_	_	_	_
-5	события	_	_	_	_	_	_	_	_
+5	события	_	_	_	_	_	_	_	bratT33=Event
 6	неизвестна	_	_	_	_	_	_	_	SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_
 
@@ -93,7 +93,7 @@
 2	Киноакадемия	_	_	_	_	_	_	_	bratT10=Organization
 3	уже	_	_	_	_	_	_	_	_
 4	внесла	_	_	_	_	_	_	_	_
-5	изменения	_	_	_	_	_	_	_	_
+5	изменения	_	_	_	_	_	_	_	bratT30=Event
 6	в	_	_	_	_	_	_	_	_
 7	порядок	_	_	_	_	_	_	_	_
 8	рассмотрения	_	_	_	_	_	_	_	_
@@ -117,8 +117,8 @@
 10	крайней	_	_	_	_	_	_	_	_
 11	мере	_	_	_	_	_	_	_	_
 12	недельный	_	_	_	_	_	_	_	bratT12=Time-period|bratT18=Duration
-13	прокат	_	_	_	_	_	_	_	_
-14	фильма	_	_	_	_	_	_	_	_
+13	прокат	_	_	_	_	_	_	_	bratT34=Event
+14	фильма	_	_	_	_	_	_	_	bratT34=Event
 15	в	_	_	_	_	_	_	_	_
 16	кинотеатрах	_	_	_	_	_	_	_	_
 17	Лос-Анджелеса	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=GPE
@@ -165,12 +165,12 @@
 6	так	_	_	_	_	_	_	_	_
 7	прокомментировал	_	_	_	_	_	_	_	_
 8	все	_	_	_	_	_	_	_	_
-9	изменения	_	_	_	_	_	_	_	SpaceAfter=No
+9	изменения	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Event
 10	,	_	_	_	_	_	_	_	_
 11	которые	_	_	_	_	_	_	_	_
 12	могут	_	_	_	_	_	_	_	_
 13	коснуться	_	_	_	_	_	_	_	_
-14	церемонии	_	_	_	_	_	_	_	SpaceAfter=No
+14	церемонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Event
 15	:	_	_	_	_	_	_	_	_
 16	``	_	_	_	_	_	_	_	SpaceAfter=No
 17	Невозможно	_	_	_	_	_	_	_	_
@@ -188,8 +188,8 @@
 3	хотим	_	_	_	_	_	_	_	_
 4	провести	_	_	_	_	_	_	_	_
 5	этот	_	_	_	_	_	_	_	_
-6	праздник	_	_	_	_	_	_	_	_
-7	кино	_	_	_	_	_	_	_	SpaceAfter=No
+6	праздник	_	_	_	_	_	_	_	bratT27=Event
+7	кино	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
 8	,	_	_	_	_	_	_	_	_
 9	но	_	_	_	_	_	_	_	_
 10	мы	_	_	_	_	_	_	_	_

@@ -82,9 +82,9 @@
 16	ее	_	_	_	_	_	_	_	_
 17	игрой	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
-19	фильме	_	_	_	_	_	_	_	_
-20	Бориса	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT31=Person-forename
-21	Хлебникова	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT32=Person-surname
+19	фильме	_	_	_	_	_	_	_	bratT9=Work-of-art
+20	Бориса	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT31=Person-forename|bratT9=Work-of-art
+21	Хлебникова	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT32=Person-surname|bratT9=Work-of-art
 22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Work-of-art
 23	Аритмия	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Work-of-art
 24	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Work-of-art
@@ -94,10 +94,10 @@
 28	одним	_	_	_	_	_	_	_	bratT11=Quantity
 29	из	_	_	_	_	_	_	_	bratT11=Quantity
 30	фаворитов	_	_	_	_	_	_	_	_
-31	фестиваля	_	_	_	_	_	_	_	bratT12=Other-term
-32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
-33	Кинотавр	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
-34	''	_	_	_	_	_	_	_	bratT12=Other-term
+31	фестиваля	_	_	_	_	_	_	_	bratT12=Event
+32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
+33	Кинотавр	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Event
+34	''	_	_	_	_	_	_	_	bratT12=Event
 35	в	_	_	_	_	_	_	_	bratA16=T13:Past|bratT13=Date-absolute
 36	2017	_	_	_	_	_	_	_	bratA16=T13:Past|bratT13=Date-absolute
 37	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T13:Past|bratT13=Date-absolute
@@ -106,7 +106,7 @@
 # sent_id = 0069-p3-s2
 # text = Также автор восхищается смелостью Ирины, которую она проявляет в своих бьюти-экспериментах.
 1	Также	_	_	_	_	_	_	_	_
-2	автор	_	_	_	_	_	_	_	bratT14=Person-property
+2	автор	_	_	_	_	_	_	_	bratT14=Person-property|bratT47=Person
 3	восхищается	_	_	_	_	_	_	_	_
 4	смелостью	_	_	_	_	_	_	_	_
 5	Ирины	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T15:Female|bratT15=Person|bratT33=Person-forename
@@ -116,7 +116,7 @@
 9	проявляет	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	своих	_	_	_	_	_	_	_	_
-12	бьюти-экспериментах	_	_	_	_	_	_	_	SpaceAfter=No
+12	бьюти-экспериментах	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0069-p3-s3
@@ -125,7 +125,7 @@
 2	декабре	_	_	_	_	_	_	_	bratA9=T16:Past|bratT16=Date-absolute
 3	прошлого	_	_	_	_	_	_	_	bratA9=T16:Past|bratT16=Date-absolute|bratT43=Ordinal
 4	года	_	_	_	_	_	_	_	bratA9=T16:Past|bratT16=Date-absolute
-5	актриса	_	_	_	_	_	_	_	bratT34=Person-property
+5	актриса	_	_	_	_	_	_	_	bratA19=T48:Female|bratT34=Person-property|bratT48=Person
 6	побрилась	_	_	_	_	_	_	_	_
 7	налысо	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 20	странный	_	_	_	_	_	_	_	_
 21	шаг	_	_	_	_	_	_	_	_
 22	для	_	_	_	_	_	_	_	_
-23	актрисы	_	_	_	_	_	_	_	bratT18=Person-property
+23	актрисы	_	_	_	_	_	_	_	bratA20=T49:Female|bratT18=Person-property|bratT49=Person
 24	из	_	_	_	_	_	_	_	_
 25	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE
 26	,	_	_	_	_	_	_	_	_
@@ -194,11 +194,11 @@
 2	точка	_	_	_	_	_	_	_	_
 3	отсчета	_	_	_	_	_	_	_	_
 4	для	_	_	_	_	_	_	_	_
-5	восходящей	_	_	_	_	_	_	_	_
+5	восходящей	_	_	_	_	_	_	_	bratA21=T50:Female|bratT50=Person
 6-8	женщины-звезды	_	_	_	_	_	_	_	SpaceAfter=No
-6	женщины	_	_	_	_	_	_	_	SpaceAfter=No
-7	-	_	_	_	_	_	_	_	SpaceAfter=No
-8	звезды	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person-property
+6	женщины	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T50:Female|bratT50=Person
+7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T50:Female|bratT50=Person
+8	звезды	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T50:Female|bratT44=Person-property|bratT50=Person
 9	''	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_
 

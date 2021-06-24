@@ -73,9 +73,9 @@
 4	исполнившая	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	проекте	_	_	_	_	_	_	_	_
-7	роль	_	_	_	_	_	_	_	_
-8	Миранды	_	_	_	_	_	_	_	bratA2=T8:Fiction|bratT27=Person-forename|bratT8=Person
-9	Хоббс	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T8:Fiction|bratT28=Person-surname|bratT8=Person
+7	роль	_	_	_	_	_	_	_	bratT40=Person-property
+8	Миранды	_	_	_	_	_	_	_	bratA2=T8:Fiction|bratA26=T8:Female|bratT27=Person-forename|bratT40=Person-property|bratT8=Person
+9	Хоббс	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T8:Fiction|bratA26=T8:Female|bratT28=Person-surname|bratT40=Person-property|bratT8=Person
 10	,	_	_	_	_	_	_	_	_
 11	рассказала	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -93,12 +93,12 @@
 24	бы	_	_	_	_	_	_	_	_
 25	его	_	_	_	_	_	_	_	_
 26	снимали	_	_	_	_	_	_	_	_
-27	сейчас	_	_	_	_	_	_	_	SpaceAfter=No
+27	сейчас	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T41:Present|bratT41=Date-absolute
 28	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0001-p2-s4
 # text = Актриса считает, что в проекте и так был сильный феминистический посыл, но в современном мире он бы был выражен более ярко.
-1	Актриса	_	_	_	_	_	_	_	bratT10=Person-property
+1	Актриса	_	_	_	_	_	_	_	bratA22=T42:Female|bratT10=Person-property|bratT42=Person
 2	считает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -243,10 +243,10 @@
 # text = Например, муж моей героини Стив - простой парень из рабочего класса.
 1	Например	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	муж	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratT15=Family|bratT16=Person
-4	моей	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratT16=Person
-5	героини	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratT16=Person
-6	Стив	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratT16=Person|bratT29=Person-forename
+3	муж	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratA25=T16:Male|bratT15=Family|bratT16=Person
+4	моей	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratA23=T43:Fiction|bratA24=T43:Female|bratA25=T16:Male|bratT16=Person|bratT43=Person
+5	героини	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratA23=T43:Fiction|bratA24=T43:Female|bratA25=T16:Male|bratT16=Person|bratT43=Person
+6	Стив	_	_	_	_	_	_	_	bratA1=T16:Fiction|bratA25=T16:Male|bratT16=Person|bratT29=Person-forename
 7	-	_	_	_	_	_	_	_	_
 8	простой	_	_	_	_	_	_	_	_
 9	парень	_	_	_	_	_	_	_	_

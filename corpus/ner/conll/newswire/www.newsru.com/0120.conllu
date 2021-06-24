@@ -7,7 +7,7 @@
 2	объявила	_	_	_	_	_	_	_	_
 3	номинантов	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
-5	титул	_	_	_	_	_	_	_	_
+5	титул	_	_	_	_	_	_	_	bratT3=Person-property
 6	лучшего	_	_	_	_	_	_	_	bratT3=Person-property
 7	футболиста	_	_	_	_	_	_	_	bratT3=Person-property
 8	уходящего	_	_	_	_	_	_	_	bratA3=T2:Past-Fut|bratT2=Date-period-absolute|bratT4=Ordinal
@@ -28,11 +28,11 @@
 9	сайте	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Service
 10	опубликовала	_	_	_	_	_	_	_	_
 11	шорт-листы	_	_	_	_	_	_	_	_
-12	номинантов	_	_	_	_	_	_	_	bratT16=Other-group
-13	на	_	_	_	_	_	_	_	bratT16=Other-group
-14	семь	_	_	_	_	_	_	_	bratT16=Other-group|bratT9=Quantity
-15	индивидуальных	_	_	_	_	_	_	_	bratT16=Other-group|bratT9=Quantity
-16	трофеев	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-group|bratT9=Quantity
+12	номинантов	_	_	_	_	_	_	_	_
+13	на	_	_	_	_	_	_	_	_
+14	семь	_	_	_	_	_	_	_	bratT9=Quantity
+15	индивидуальных	_	_	_	_	_	_	_	bratT9=Quantity
+16	трофеев	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Quantity
 17	,	_	_	_	_	_	_	_	_
 18	которые	_	_	_	_	_	_	_	_
 19	будут	_	_	_	_	_	_	_	_
@@ -46,7 +46,7 @@
 26	церемонии	_	_	_	_	_	_	_	bratT10=Event
 27	The	_	_	_	_	_	_	_	bratT10=Event
 28	Best	_	_	_	_	_	_	_	bratT10=Event
-29	FIFA	_	_	_	_	_	_	_	bratT10=Event
+29	FIFA	_	_	_	_	_	_	_	bratT10=Event|bratT16=Organization
 30	Football	_	_	_	_	_	_	_	bratT10=Event
 31	Awards	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Event
 32	.	_	_	_	_	_	_	_	_
@@ -75,9 +75,9 @@
 18	а	_	_	_	_	_	_	_	_
 19	также	_	_	_	_	_	_	_	_
 20	автору	_	_	_	_	_	_	_	bratT13=Person-property
-21	самого	_	_	_	_	_	_	_	bratT13=Person-property
-22	красивого	_	_	_	_	_	_	_	bratT13=Person-property
-23	гола	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property
+21	самого	_	_	_	_	_	_	_	bratT13=Person-property|bratT36=Event
+22	красивого	_	_	_	_	_	_	_	bratT13=Person-property|bratT36=Event
+23	гола	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person-property|bratT36=Event
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p4
@@ -228,11 +228,11 @@
 # sent_id = 0120-p6-s1
 # text = Список претендентов на титул вратаря года: Алиссон (``Ливерпуль''), Кейлор Навас (``Пари Сен-Жермен''), Тибо Куртуа (``Реал''), Мануэль Нойер (``Бавария''), Ян Облак (``Атлетико'' Мадрид), Марк-Андре тер Штеген (``Барселона'').
 1	Список	_	_	_	_	_	_	_	_
-2	претендентов	_	_	_	_	_	_	_	bratT53=Other-group
-3	на	_	_	_	_	_	_	_	bratT53=Other-group
-4	титул	_	_	_	_	_	_	_	bratT50=Person-property|bratT53=Other-group
-5	вратаря	_	_	_	_	_	_	_	bratT48=Person-property|bratT50=Person-property|bratT53=Other-group
-6	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA41=T49:Past-Fut|bratT49=Date-period-absolute|bratT50=Person-property|bratT53=Other-group
+2	претендентов	_	_	_	_	_	_	_	_
+3	на	_	_	_	_	_	_	_	_
+4	титул	_	_	_	_	_	_	_	bratT50=Person-property
+5	вратаря	_	_	_	_	_	_	_	bratT50=Person-property
+6	года	_	_	_	_	_	_	_	SpaceAfter=No|bratA41=T49:Past-Fut|bratT49=Date-period-absolute|bratT50=Person-property
 7	:	_	_	_	_	_	_	_	_
 8	Алиссон	_	_	_	_	_	_	_	bratA22=T51:Male|bratT113=Person-forename|bratT51=Person
 9	(	_	_	_	_	_	_	_	SpaceAfter=No
@@ -309,7 +309,7 @@
 # sent_id = 0120-p8-s1
 # text = Среди номинантов значатся Сон Хын Мин (``Тоттенхэм''), Каролин Вейра (``Манчестер Сити''), Андре-Пьер Жиньяк (``Тигрес''), Леонель Киньонес ``Макара'', Златко Юнузович (``Ред Булл Зальцбург''), Софи Ингл (``Челси''), Джорджиан де Арраскаэта (``Фламенго''), Ширли Круз (сборная Коста-Рики), Хломфо Кекана (``Мамелоди Сандаунс''), Джордан Флорес (``Дандолк''), Луис Суарес (``Барселона'').
 1	Среди	_	_	_	_	_	_	_	_
-2	номинантов	_	_	_	_	_	_	_	bratT68=Other-group
+2	номинантов	_	_	_	_	_	_	_	_
 3	значатся	_	_	_	_	_	_	_	_
 4	Сон	_	_	_	_	_	_	_	bratA28=T69:Male|bratT119=Person-surname|bratT69=Person
 5	Хын	_	_	_	_	_	_	_	bratA28=T69:Male|bratT120=Person-forename|bratT69=Person

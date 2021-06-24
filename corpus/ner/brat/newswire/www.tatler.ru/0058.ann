@@ -25,27 +25,26 @@ A5	Female T19
 T20	GPE 318 324	Европу
 T21	Family 340 346	детьми
 T22	Money 353 370	$ 39   миллионами
-T23	Person-property 440 445	шейха
+T23	Person-affix 440 445	шейха
 T24	Family 506 510	жены
 T25	Family 530 534	дети
 T26	Date-absolute 539 546	Недавно
 T27	Person-property 568 572	эмир
 T28	Family 628 635	дочерей
-T29	Quantity 611 635	многочисленных   дочерей
-T30	Person-patronym 659 687	бин   Мохаммед   бин   Рашид
+T30	Person-patronym 659 673	бин   Мохаммед
 T31	Person-surname 690 702	Аль   Мактум
 T32	Person-forename 650 656	Марьям
-T33	Person-property 642 647	шейху
+T33	Person-affix 642 647	шейху
 T34	Person 642 702	шейху   Марьям   бин   Мохаммед   бин   Рашид   Аль   Мактум
 A6	Male T34
 T35	Quantity 591 600	одну   из
 T36	Family 712 720	супругом
 T37	GPE 756 764	Абу-Даби
 T38	Family 748 753	семьи
-T40	Person-property 767 771	шейх
+T40	Person-affix 767 771	шейх
 T41	Person-forename 774 779	Халед
 T42	Person-surname 815 828	Аль   Нахайян
-T43	Person-patronym 782 812	бин   Мохаммад   бин   Хамдана
+T43	Person-patronym 782 796	бин   Мохаммад
 T44	Person 730 828	член   правящей   семьи   Абу-Даби   шейх   Халед   бин   Мохаммад   бин   Хамдана   Аль   Нахайян
 A7	Male T44
 T45	Date-absolute 875 912	в   конце   августа   прошлого   года
@@ -75,8 +74,6 @@ T63	Person 1490 1496	Латифы
 A14	Female T63
 T64	Date-period-absolute 1503 1516	с   тех   пор
 T65	Family 1524 1530	сестру
-T66	Person 707 720	Ее   супругом
-A16	Male T66
 T67	Event 935 956	свадебной   церемонии
 T68	Person 1519 1530	ее   сестру
 A17	Female T68
@@ -91,6 +88,20 @@ A15	Past-Pres T64
 T72	Event 833 841	Помолвка
 T73	Organization 737 764	правящей   семьи   Абу-Даби
 T74	Person-property 730 764	член   правящей   семьи   Абу-Даби
-T75	Age 844 859	молодых   людей
+T75	Age 844 851	молодых
 A20	RCont T64
 T76	GPE 1251 1257	страны
+T77	Person 844 859	молодых   людей
+T78	Person 0 12	Эмир   Дубая
+A21	Male T78
+T79	Person 84 88	дочь
+A22	Female T79
+T80	Person 340 346	детьми
+T81	Person 440 445	шейха
+A23	Male T81
+T82	Person 568 572	эмир
+A24	Male T82
+T83	Person-patronym 676 687	бин   Рашид
+T84	Person-patronym 799 812	бин   Хамдана
+T66	Person 1408 1412	отца
+A16	Male T66

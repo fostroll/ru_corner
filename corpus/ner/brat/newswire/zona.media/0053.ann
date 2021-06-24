@@ -4,10 +4,9 @@ A1	Adjective T2
 T3	Person 116 123	Фургала
 A2	Male T3
 T4	Person-surname 116 123	Фургала
-T5	Event 92 123	акций   в   поддержку   Фургала
+T5	Event 92 97	акций
 T6	Person 130 202	участника   протестных   акций   в   Хабаровске   Александра   Приходько
 A3	Male T6
-T7	Other-group 130 160	участника   протестных   акций
 T8	Event 142 160	протестных   акций
 T9	GPE 167 177	Хабаровске
 T10	Person-forename 180 190	Александра
@@ -25,7 +24,7 @@ T20	Date-absolute 586 623	10   октября   на   субботней   ак
 A6	Past T20
 T21	Nationality 556 569	хабаровчанина
 A7	Resident T21
-T22	Event 618 623	акции
+T22	Event 606 623	субботней   акции
 T23	Person 642 678	экс - губернатора   Сергея   Фургала
 A8	Male T23
 T25	Person-forename 662 668	Сергея
@@ -64,3 +63,11 @@ A12	Department T48
 T49	Organization 388 391	ОВД
 A16	Department T49
 T50	Event 302 325	публичных   мероприятий
+T51	Event 923 932	нарушении
+T52	Event 957 962	акции
+T53	Event 251 276	неоднократном   нарушении
+T54	Date-absolute 606 615	субботней
+A17	Past T54
+T7	Event 737 762	доследственную   проверку
+T55	Person 716 725	активиста
+A18	Male T55

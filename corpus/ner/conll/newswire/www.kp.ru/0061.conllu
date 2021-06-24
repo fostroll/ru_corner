@@ -82,8 +82,8 @@
 1	На	_	_	_	_	_	_	_	bratA11=T35:Present|bratT35=Date-absolute
 2	данный	_	_	_	_	_	_	_	bratA11=T35:Present|bratT35=Date-absolute|bratT39=Ordinal
 3	момент	_	_	_	_	_	_	_	bratA11=T35:Present|bratT35=Date-absolute
-4	экипаж	_	_	_	_	_	_	_	_
-5	танкера	_	_	_	_	_	_	_	_
+4	экипаж	_	_	_	_	_	_	_	bratT44=Person
+5	танкера	_	_	_	_	_	_	_	bratT44=Person
 6	находится	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	безопасности	_	_	_	_	_	_	_	SpaceAfter=No
@@ -148,12 +148,12 @@
 21	13	_	_	_	_	_	_	_	bratT20=Quantity
 22	из	_	_	_	_	_	_	_	bratT20=Quantity
 23	19	_	_	_	_	_	_	_	bratT21=Quantity
-24	членов	_	_	_	_	_	_	_	bratT21=Quantity
+24	членов	_	_	_	_	_	_	_	bratT21=Quantity|bratT46=Person-property
 25-27	российско-украинского	_	_	_	_	_	_	_	_
-25	российско	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T37:Adjective|bratT37=GPE
-26	-	_	_	_	_	_	_	_	SpaceAfter=No
-27	украинского	_	_	_	_	_	_	_	bratA14=T38:Adjective|bratT38=GPE
-28	экипажа	_	_	_	_	_	_	_	SpaceAfter=No
+25	российско	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T37:Adjective|bratA15=T45:Department|bratT37=GPE|bratT45=Organization|bratT46=Person-property
+26	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T45:Department|bratT45=Organization|bratT46=Person-property
+27	украинского	_	_	_	_	_	_	_	bratA14=T38:Adjective|bratA15=T45:Department|bratT38=GPE|bratT45=Organization|bratT46=Person-property
+28	экипажа	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T45:Department|bratT45=Organization|bratT46=Person-property
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0061-p5-s2
@@ -197,7 +197,7 @@
 1	Остальным	_	_	_	_	_	_	_	_
 2	16	_	_	_	_	_	_	_	bratT33=Quantity
 3	членам	_	_	_	_	_	_	_	bratT33=Quantity|bratT41=Person-property
-4	экипажа	_	_	_	_	_	_	_	bratT41=Person-property
+4	экипажа	_	_	_	_	_	_	_	bratA16=T47:Department|bratT41=Person-property|bratT47=Organization
 5	удалось	_	_	_	_	_	_	_	_
 6	укрыться	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_

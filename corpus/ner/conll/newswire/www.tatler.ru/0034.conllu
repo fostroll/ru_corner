@@ -30,26 +30,26 @@
 3	летняя	_	_	_	_	_	_	_	bratT10=Age
 4	Дженнифер	_	_	_	_	_	_	_	bratA4=T13:Female|bratT11=Person-forename|bratT13=Person
 5	Гейтс	_	_	_	_	_	_	_	bratA4=T13:Female|bratT12=Person-surname|bratT13=Person
-6	-	_	_	_	_	_	_	_	_
-7	старшая	_	_	_	_	_	_	_	bratA13=T37:Female|bratT14=Family|bratT37=Person
-8	дочь	_	_	_	_	_	_	_	bratA13=T37:Female|bratT14=Family|bratT37=Person
-9	одного	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT15=Quantity|bratT21=Person|bratT36=Person-property|bratT37=Person
-10	из	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT15=Quantity|bratT21=Person|bratT36=Person-property|bratT37=Person
-11	самых	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT21=Person|bratT36=Person-property|bratT37=Person
-12	богатых	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT21=Person|bratT36=Person-property|bratT37=Person
-13	людей	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT21=Person|bratT36=Person-property|bratT37=Person
-14	планеты	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T37:Female|bratA5=T21:Male|bratT16=Location|bratT21=Person|bratT36=Person-property|bratT37=Person
-15	,	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT21=Person|bratT37=Person
-16	основателя	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT20=Person-property|bratT21=Person|bratT37=Person
-17	Microsoft	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT17=Organization|bratT20=Person-property|bratT21=Person|bratT37=Person
-18	Билла	_	_	_	_	_	_	_	bratA13=T37:Female|bratA5=T21:Male|bratT18=Person-forename|bratT21=Person|bratT37=Person
-19	Гейтса	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T37:Female|bratA5=T21:Male|bratT19=Person-surname|bratT21=Person|bratT37=Person
+6	-	_	_	_	_	_	_	_	bratA4=T13:Female|bratT13=Person
+7	старшая	_	_	_	_	_	_	_	bratA4=T13:Female|bratT13=Person|bratT14=Family
+8	дочь	_	_	_	_	_	_	_	bratA4=T13:Female|bratT13=Person|bratT14=Family
+9	одного	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT15=Quantity|bratT21=Person|bratT36=Person-property
+10	из	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT15=Quantity|bratT21=Person|bratT36=Person-property
+11	самых	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT21=Person|bratT36=Person-property
+12	богатых	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT21=Person|bratT36=Person-property
+13	людей	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT21=Person|bratT36=Person-property
+14	планеты	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT16=Location|bratT21=Person|bratT36=Person-property
+15	,	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT21=Person
+16	основателя	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT20=Person-property|bratT21=Person
+17	Microsoft	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT17=Organization|bratT20=Person-property|bratT21=Person
+18	Билла	_	_	_	_	_	_	_	bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT18=Person-forename|bratT21=Person
+19	Гейтса	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T13:Female|bratA5=T21:Male|bratT13=Person|bratT19=Person-surname|bratT21=Person
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0034-p2-s2
 # text = Однако девушку невозможно обвинить в том, что, пользуясь своим положением, она ведет праздный образ жизни.
 1	Однако	_	_	_	_	_	_	_	_
-2	девушку	_	_	_	_	_	_	_	_
+2	девушку	_	_	_	_	_	_	_	bratA8=T37:Female|bratT37=Person
 3	невозможно	_	_	_	_	_	_	_	_
 4	обвинить	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 22	еще	_	_	_	_	_	_	_	_
 23	участвует	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
-25	соревнованиях	_	_	_	_	_	_	_	_
+25	соревнованиях	_	_	_	_	_	_	_	bratT38=Event
 26	по	_	_	_	_	_	_	_	_
 27	верховой	_	_	_	_	_	_	_	_
 28	езде	_	_	_	_	_	_	_	SpaceAfter=No
@@ -122,13 +122,13 @@
 9	,	_	_	_	_	_	_	_	_
 10	Дженнифер	_	_	_	_	_	_	_	bratA11=T32:Female|bratT32=Person|bratT33=Person-forename
 11	дала	_	_	_	_	_	_	_	_
-12	эксклюзивное	_	_	_	_	_	_	_	_
-13	интервью	_	_	_	_	_	_	_	SpaceAfter=No
+12	эксклюзивное	_	_	_	_	_	_	_	bratT40=Event
+13	интервью	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0034-p2-s6
 # text = Девушка рассказала не только о своем любимом увлечении, но и о личной жизни.
-1	Девушка	_	_	_	_	_	_	_	_
+1	Девушка	_	_	_	_	_	_	_	bratA13=T39:Female|bratT39=Person
 2	рассказала	_	_	_	_	_	_	_	_
 3	не	_	_	_	_	_	_	_	_
 4	только	_	_	_	_	_	_	_	_

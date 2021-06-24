@@ -11,8 +11,8 @@
 6	млн	_	_	_	_	_	_	_	bratT1=Money
 7	рублей	_	_	_	_	_	_	_	bratT1=Money
 8	с	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT18=Date-period-absolute
-9	начала	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT18=Date-period-absolute
-10	пандемии	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT17=Event|bratT18=Date-period-absolute
+9	начала	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT18=Date-period-absolute|bratT46=Event
+10	пандемии	_	_	_	_	_	_	_	bratA1=T18:Past-Pres|bratT17=Event|bratT18=Date-period-absolute|bratT46=Event
 
 # newpar id = 0117-p2
 # par_text = С начала марта нижегородские предприятия народных художественных промыслов (НХП) получили 100 млн рублей субсидий по оплате труда работникам и оплату ЖКУ. Об этом сообщил губернатор Глеб Никитин.
@@ -83,8 +83,8 @@
 # sent_id = 0117-p3-s2
 # text = С начала пандемии стали работать над решением вопроса о поддержке отрасли: по нашей инициативе сферу НХП включили в федеральный перечень отраслей, наиболее пострадавших от распространения коронавируса.
 1	С	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT20=Date-period-absolute
-2	начала	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT20=Date-period-absolute
-3	пандемии	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT19=Event|bratT20=Date-period-absolute
+2	начала	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT20=Date-period-absolute|bratT47=Event
+3	пандемии	_	_	_	_	_	_	_	bratA3=T20:Past-Pres|bratT19=Event|bratT20=Date-period-absolute|bratT47=Event
 4	стали	_	_	_	_	_	_	_	_
 5	работать	_	_	_	_	_	_	_	_
 6	над	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 24	наиболее	_	_	_	_	_	_	_	_
 25	пострадавших	_	_	_	_	_	_	_	_
 26	от	_	_	_	_	_	_	_	_
-27	распространения	_	_	_	_	_	_	_	_
+27	распространения	_	_	_	_	_	_	_	bratT45=Event
 28	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Other-term
 29	.	_	_	_	_	_	_	_	_
 

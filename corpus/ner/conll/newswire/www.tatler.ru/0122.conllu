@@ -15,7 +15,7 @@
 10	к	_	_	_	_	_	_	_	_
 11	деньгам	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
-13	браку	_	_	_	_	_	_	_	bratT20=Family
+13	браку	_	_	_	_	_	_	_	bratT20=Event
 
 # newpar id = 0122-p2
 # par_text = В 2009 году один из самых титулованных российских теннисистов Марат Сафин завершил профессиональную карьеру и решил поменять большой спорт на большую политику. В течение шести лет он был депутатом Государственной Думы, а летом 2017 года решил сдать мандат. Бывший спортсмен редко общается с журналистами, но на днях он дал большое интервью интернет-порталу Sports.ru, в котором рассказал о своей личной жизни, отношении к деньгам, религии и политике.
@@ -24,10 +24,10 @@
 1	В	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
 2	2009	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
 3	году	_	_	_	_	_	_	_	bratA2=T4:Past|bratT4=Date-absolute
-4	один	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT5=Quantity|bratT9=Person-property
-5	из	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT5=Quantity|bratT9=Person-property
-6	самых	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT9=Person-property
-7	титулованных	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT9=Person-property
+4	один	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT5=Quantity
+5	из	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT5=Quantity
+6	самых	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person
+7	титулованных	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person
 8	российских	_	_	_	_	_	_	_	bratA3=T6:Adjective|bratA4=T10:Male|bratT10=Person|bratT6=GPE|bratT9=Person-property
 9	теннисистов	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT9=Person-property
 10	Марат	_	_	_	_	_	_	_	bratA4=T10:Male|bratT10=Person|bratT7=Person-forename
@@ -68,8 +68,8 @@
 
 # sent_id = 0122-p2-s3
 # text = Бывший спортсмен редко общается с журналистами, но на днях он дал большое интервью интернет-порталу Sports.ru, в котором рассказал о своей личной жизни, отношении к деньгам, религии и политике.
-1	Бывший	_	_	_	_	_	_	_	bratT16=Person-property
-2	спортсмен	_	_	_	_	_	_	_	bratT16=Person-property
+1	Бывший	_	_	_	_	_	_	_	bratA9=T23:Male|bratT16=Person-property|bratT23=Person
+2	спортсмен	_	_	_	_	_	_	_	bratA9=T23:Male|bratT16=Person-property|bratT23=Person
 3	редко	_	_	_	_	_	_	_	_
 4	общается	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 11	он	_	_	_	_	_	_	_	_
 12	дал	_	_	_	_	_	_	_	_
 13	большое	_	_	_	_	_	_	_	_
-14	интервью	_	_	_	_	_	_	_	_
+14	интервью	_	_	_	_	_	_	_	bratT22=Event
 15-17	интернет-порталу	_	_	_	_	_	_	_	_
 15	интернет	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA8=T19:Media|bratT19=Organization
 16	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA8=T19:Media|bratT19=Organization

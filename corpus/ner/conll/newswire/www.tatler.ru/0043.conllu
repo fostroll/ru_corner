@@ -25,10 +25,10 @@
 7	,	_	_	_	_	_	_	_	_
 8	коронавирусом	_	_	_	_	_	_	_	bratT8=Other-term
 9	заболели	_	_	_	_	_	_	_	_
-10	принц	_	_	_	_	_	_	_	bratA4=T9:Male|bratT10=Person-property|bratT9=Person
-11	Карл	_	_	_	_	_	_	_	bratA4=T9:Male|bratT43=Person-forename|bratT9=Person
-12	Филипп	_	_	_	_	_	_	_	bratA4=T9:Male|bratT43=Person-forename|bratT9=Person
-13	-	_	_	_	_	_	_	_	_
+10	принц	_	_	_	_	_	_	_	bratA14=T53:Male|bratT10=Person-property|bratT53=Person
+11	Карл	_	_	_	_	_	_	_	bratA14=T53:Male|bratT43=Person-forename|bratT53=Person
+12	Филипп	_	_	_	_	_	_	_	bratA14=T53:Male|bratT43=Person-forename|bratT53=Person
+13	-	_	_	_	_	_	_	_	bratA14=T53:Male|bratT53=Person
 14	единственный	_	_	_	_	_	_	_	bratA14=T53:Male|bratT11=Quantity|bratT53=Person
 15	сын	_	_	_	_	_	_	_	bratA14=T53:Male|bratT11=Quantity|bratT12=Family|bratT53=Person
 16	правящего	_	_	_	_	_	_	_	bratA14=T53:Male|bratA5=T13:Male|bratT13=Person|bratT15=Person-property|bratT53=Person
@@ -55,7 +55,7 @@
 1	На	_	_	_	_	_	_	_	bratA16=T62:Past-UNK|bratT62=Date-period-absolute
 2	время	_	_	_	_	_	_	_	bratA16=T62:Past-UNK|bratT62=Date-period-absolute
 3	болезни	_	_	_	_	_	_	_	bratA16=T62:Past-UNK|bratT62=Date-period-absolute|bratT63=Event
-4	супруги	_	_	_	_	_	_	_	bratT57=Family
+4	супруги	_	_	_	_	_	_	_	bratT57=Family|bratT9=Person
 5	самоизолировались	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	Королевском	_	_	_	_	_	_	_	bratT21=Facility
@@ -64,22 +64,22 @@
 10	Стокгольме	_	_	_	_	_	_	_	bratT22=GPE
 11	вместе	_	_	_	_	_	_	_	_
 12	со	_	_	_	_	_	_	_	_
-13	своими	_	_	_	_	_	_	_	_
-14	детьми	_	_	_	_	_	_	_	bratT70=Family
-15	-	_	_	_	_	_	_	_	_
+13	своими	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratT74=Person
+14	детьми	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratT70=Family|bratT74=Person
+15	-	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratT74=Person
 16-18	4-летним	_	_	_	_	_	_	_	_
-16	4	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Age
-17	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Age
-18	летним	_	_	_	_	_	_	_	bratT23=Age
-19	принцем	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT27=Person-property
-20	Александром	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT47=Person-forename
-21	и	_	_	_	_	_	_	_	_
+16	4	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA21=T74:Male|bratA4=T74:Plural|bratT23=Age|bratT74=Person
+17	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA21=T74:Male|bratA4=T74:Plural|bratT23=Age|bratT74=Person
+18	летним	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratT23=Age|bratT74=Person
+19	принцем	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratA8=T24:Male|bratT24=Person|bratT27=Person-property|bratT74=Person
+20	Александром	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratA8=T24:Male|bratT24=Person|bratT47=Person-forename|bratT74=Person
+21	и	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratT74=Person
 22-24	3-летним	_	_	_	_	_	_	_	_
-22	3	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT26=Age
-23	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT26=Age
-24	летним	_	_	_	_	_	_	_	bratT26=Age
-25	принцем	_	_	_	_	_	_	_	bratA9=T25:Male|bratT25=Person|bratT28=Person-property
-26	Габриэлем	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T25:Male|bratT25=Person|bratT48=Person-forename
+22	3	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA21=T74:Male|bratA4=T74:Plural|bratT26=Age|bratT74=Person
+23	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA21=T74:Male|bratA4=T74:Plural|bratT26=Age|bratT74=Person
+24	летним	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratT26=Age|bratT74=Person
+25	принцем	_	_	_	_	_	_	_	bratA21=T74:Male|bratA4=T74:Plural|bratA9=T25:Male|bratT25=Person|bratT28=Person-property|bratT74=Person
+26	Габриэлем	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T74:Male|bratA4=T74:Plural|bratA9=T25:Male|bratT25=Person|bratT48=Person-forename|bratT74=Person
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0043-p4
@@ -114,10 +114,10 @@
 # sent_id = 0043-p5-s1
 # text = Однако король и королева Швеции в ближайшее время должны сдать тест на коронавирус - несколько дней назад они виделись с заболевшими членами королевской семьи на похоронах брата королевы Сильвии Вальтера Зоммерлата.
 1	Однако	_	_	_	_	_	_	_	_
-2	король	_	_	_	_	_	_	_	bratA1=T33:Plural|bratT33=Person-property|bratT54=Person-property
-3	и	_	_	_	_	_	_	_	bratA1=T33:Plural|bratT33=Person-property
-4	королева	_	_	_	_	_	_	_	bratA1=T33:Plural|bratT33=Person-property|bratT55=Person-property
-5	Швеции	_	_	_	_	_	_	_	bratA1=T33:Plural|bratT33=Person-property|bratT34=GPE
+2	король	_	_	_	_	_	_	_	bratA1=T33:Plural|bratA18=T71:Male|bratA20=T73:Plural|bratT33=Person-property|bratT54=Person-property|bratT71=Person|bratT73=Person
+3	и	_	_	_	_	_	_	_	bratA1=T33:Plural|bratA20=T73:Plural|bratT33=Person-property|bratT73=Person
+4	королева	_	_	_	_	_	_	_	bratA1=T33:Plural|bratA19=T72:Female|bratA20=T73:Plural|bratT33=Person-property|bratT55=Person-property|bratT72=Person|bratT73=Person
+5	Швеции	_	_	_	_	_	_	_	bratA1=T33:Plural|bratA20=T73:Plural|bratT33=Person-property|bratT34=GPE|bratT73=Person
 6	в	_	_	_	_	_	_	_	bratA15=T59:Future|bratT59=Date-absolute
 7	ближайшее	_	_	_	_	_	_	_	bratA15=T59:Future|bratT58=Ordinal|bratT59=Date-absolute
 8	время	_	_	_	_	_	_	_	bratA15=T59:Future|bratT59=Date-absolute
@@ -134,9 +134,9 @@
 19	виделись	_	_	_	_	_	_	_	_
 20	с	_	_	_	_	_	_	_	_
 21	заболевшими	_	_	_	_	_	_	_	_
-22	членами	_	_	_	_	_	_	_	bratT61=Person-property
-23	королевской	_	_	_	_	_	_	_	bratT60=Organization|bratT61=Person-property
-24	семьи	_	_	_	_	_	_	_	bratT56=Family|bratT60=Organization|bratT61=Person-property
+22	членами	_	_	_	_	_	_	_	bratT61=Person-property|bratT75=Person
+23	королевской	_	_	_	_	_	_	_	bratT60=Organization|bratT61=Person-property|bratT75=Person
+24	семьи	_	_	_	_	_	_	_	bratT56=Family|bratT60=Organization|bratT61=Person-property|bratT75=Person
 25	на	_	_	_	_	_	_	_	_
 26	похоронах	_	_	_	_	_	_	_	bratT36=Event
 27	брата	_	_	_	_	_	_	_	bratA13=T37:Male|bratT37=Person|bratT38=Family

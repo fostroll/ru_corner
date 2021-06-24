@@ -79,10 +79,10 @@ with open(HYPHENS_RAW_FN, 'rt', encoding='utf-8') as f:
             if not re1.search(frags[0]):
                 for frag in frags[1:]:
                     if re1.search(frag):
+                        frags[0] = NUMBER_TPL
                         break
                 else:
                     continue  # only digits
-                frags[0] = NUMBER_TPL
             else:
                 r2 = bool(re2.search(hyphen))
                 r3 = bool(re3.search(hyphen))

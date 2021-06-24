@@ -1,8 +1,8 @@
-T1	Other-group 0 9	Москвичей
+T1	Nationality 0 9	Москвичей
 T2	Other-term 35 43	гипоксия
 T3	Person-property 50 59	Синоптики
-T4	Other-group 165 174	москвичам
-T5	Other-group 582 591	москвичей
+T4	Nationality 165 174	москвичам
+T5	Nationality 582 591	москвичей
 T6	Organization 608 639	портал   ``   Метеоновости   ''
 T7	Date-absolute 650 680	Во   вторник   ,   24   ноября
 T8	GPE 712 718	Москве
@@ -37,3 +37,9 @@ A9	Resident T27
 T28	Service 1062 1067	сайте
 A10	Media T28
 T29	GPE 327 333	городе
+T30	Event 1422 1437	распространения
+T31	Other-term 1440 1467	респираторных   заболеваний
+T32	Event 141 150	изменений
+A11	Resident T4
+A12	Resident T5
+A13	Resident T1

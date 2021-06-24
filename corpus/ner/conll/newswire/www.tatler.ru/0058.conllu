@@ -3,8 +3,8 @@
 # par_text = Эмир Дубая, от которого сбежала принцесса Хайя, выдал замуж дочь
 # sent_id = 0058-p1-s1
 # text = Эмир Дубая, от которого сбежала принцесса Хайя, выдал замуж дочь
-1	Эмир	_	_	_	_	_	_	_	bratT2=Person-property
-2	Дубая	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=GPE|bratT2=Person-property
+1	Эмир	_	_	_	_	_	_	_	bratA21=T78:Male|bratT2=Person-property|bratT78=Person
+2	Дубая	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T78:Male|bratT1=GPE|bratT2=Person-property|bratT78=Person
 3	,	_	_	_	_	_	_	_	_
 4	от	_	_	_	_	_	_	_	_
 5	которого	_	_	_	_	_	_	_	_
@@ -14,7 +14,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	выдал	_	_	_	_	_	_	_	_
 11	замуж	_	_	_	_	_	_	_	_
-12	дочь	_	_	_	_	_	_	_	bratT6=Family
+12	дочь	_	_	_	_	_	_	_	bratA22=T79:Female|bratT6=Family|bratT79=Person
 
 # newpar id = 0058-p2
 # par_text = Последние несколько месяцев у эмира Дубая Мохаммеда ибн Рашид Аль Мактум выдались непростые — в конце июня стало известно, что его жена принцесса Хайя сбежала от него в Европу вместе с детьми и $39 миллионами. Но это не значит, что счастье ушло из жизни шейха. В конце концов, у него есть и другие жены, и другие дети. Недавно, например, эмир выдал замуж одну из своих многочисленных дочерей — шейху Марьям бин Мохаммед бин Рашид Аль Мактум. Ее супругом стал член правящей семьи Абу-Даби шейх Халед бин Мохаммад бин Хамдана Аль Нахайян. Помолвка молодых людей состоялась в конце августа прошлого года. Фотографий со свадебной церемонии в сети нет — она проходила за закрытыми дверями.
@@ -52,7 +52,7 @@
 30	Европу	_	_	_	_	_	_	_	bratT20=GPE
 31	вместе	_	_	_	_	_	_	_	_
 32	с	_	_	_	_	_	_	_	_
-33	детьми	_	_	_	_	_	_	_	bratT21=Family
+33	детьми	_	_	_	_	_	_	_	bratT21=Family|bratT80=Person
 34	и	_	_	_	_	_	_	_	_
 35-36	$39	_	_	_	_	_	_	_	_
 35	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Money
@@ -72,7 +72,7 @@
 8	ушло	_	_	_	_	_	_	_	_
 9	из	_	_	_	_	_	_	_	_
 10	жизни	_	_	_	_	_	_	_	_
-11	шейха	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property
+11	шейха	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T81:Male|bratT23=Person-affix|bratT81=Person
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p2-s3
@@ -99,40 +99,40 @@
 2	,	_	_	_	_	_	_	_	_
 3	например	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	эмир	_	_	_	_	_	_	_	bratT27=Person-property
+5	эмир	_	_	_	_	_	_	_	bratA24=T82:Male|bratT27=Person-property|bratT82=Person
 6	выдал	_	_	_	_	_	_	_	_
 7	замуж	_	_	_	_	_	_	_	_
 8	одну	_	_	_	_	_	_	_	bratT35=Quantity
 9	из	_	_	_	_	_	_	_	bratT35=Quantity
 10	своих	_	_	_	_	_	_	_	_
-11	многочисленных	_	_	_	_	_	_	_	bratT29=Quantity
-12	дочерей	_	_	_	_	_	_	_	bratT28=Family|bratT29=Quantity
+11	многочисленных	_	_	_	_	_	_	_	_
+12	дочерей	_	_	_	_	_	_	_	bratT28=Family
 13	-	_	_	_	_	_	_	_	_
-14	шейху	_	_	_	_	_	_	_	bratA6=T34:Male|bratT33=Person-property|bratT34=Person
+14	шейху	_	_	_	_	_	_	_	bratA6=T34:Male|bratT33=Person-affix|bratT34=Person
 15	Марьям	_	_	_	_	_	_	_	bratA6=T34:Male|bratT32=Person-forename|bratT34=Person
 16	бин	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
 17	Мохаммед	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
-18	бин	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
-19	Рашид	_	_	_	_	_	_	_	bratA6=T34:Male|bratT30=Person-patronym|bratT34=Person
+18	бин	_	_	_	_	_	_	_	bratA6=T34:Male|bratT34=Person|bratT83=Person-patronym
+19	Рашид	_	_	_	_	_	_	_	bratA6=T34:Male|bratT34=Person|bratT83=Person-patronym
 20	Аль	_	_	_	_	_	_	_	bratA6=T34:Male|bratT31=Person-surname|bratT34=Person
 21	Мактум	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T34:Male|bratT31=Person-surname|bratT34=Person
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p2-s5
 # text = Ее супругом стал член правящей семьи Абу-Даби шейх Халед бин Мохаммад бин Хамдана Аль Нахайян.
-1	Ее	_	_	_	_	_	_	_	bratA16=T66:Male|bratT66=Person
-2	супругом	_	_	_	_	_	_	_	bratA16=T66:Male|bratT36=Family|bratT66=Person
+1	Ее	_	_	_	_	_	_	_	_
+2	супругом	_	_	_	_	_	_	_	bratT36=Family
 3	стал	_	_	_	_	_	_	_	_
 4	член	_	_	_	_	_	_	_	bratA7=T44:Male|bratT44=Person|bratT74=Person-property
 5	правящей	_	_	_	_	_	_	_	bratA7=T44:Male|bratT44=Person|bratT73=Organization|bratT74=Person-property
 6	семьи	_	_	_	_	_	_	_	bratA7=T44:Male|bratT38=Family|bratT44=Person|bratT73=Organization|bratT74=Person-property
 7	Абу-Даби	_	_	_	_	_	_	_	bratA7=T44:Male|bratT37=GPE|bratT44=Person|bratT73=Organization|bratT74=Person-property
-8	шейх	_	_	_	_	_	_	_	bratA7=T44:Male|bratT40=Person-property|bratT44=Person
+8	шейх	_	_	_	_	_	_	_	bratA7=T44:Male|bratT40=Person-affix|bratT44=Person
 9	Халед	_	_	_	_	_	_	_	bratA7=T44:Male|bratT41=Person-forename|bratT44=Person
 10	бин	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
 11	Мохаммад	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
-12	бин	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
-13	Хамдана	_	_	_	_	_	_	_	bratA7=T44:Male|bratT43=Person-patronym|bratT44=Person
+12	бин	_	_	_	_	_	_	_	bratA7=T44:Male|bratT44=Person|bratT84=Person-patronym
+13	Хамдана	_	_	_	_	_	_	_	bratA7=T44:Male|bratT44=Person|bratT84=Person-patronym
 14	Аль	_	_	_	_	_	_	_	bratA7=T44:Male|bratT42=Person-surname|bratT44=Person
 15	Нахайян	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T44:Male|bratT42=Person-surname|bratT44=Person
 16	.	_	_	_	_	_	_	_	_
@@ -140,8 +140,8 @@
 # sent_id = 0058-p2-s6
 # text = Помолвка молодых людей состоялась в конце августа прошлого года.
 1	Помолвка	_	_	_	_	_	_	_	bratT72=Event
-2	молодых	_	_	_	_	_	_	_	bratT75=Age
-3	людей	_	_	_	_	_	_	_	bratT75=Age
+2	молодых	_	_	_	_	_	_	_	bratT75=Age|bratT77=Person
+3	людей	_	_	_	_	_	_	_	bratT77=Person
 4	состоялась	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA8=T45:Past|bratT45=Date-absolute
 6	конце	_	_	_	_	_	_	_	bratA8=T45:Past|bratT45=Date-absolute
@@ -229,7 +229,7 @@
 6	пыталась	_	_	_	_	_	_	_	_
 7	скрыться	_	_	_	_	_	_	_	_
 8	от	_	_	_	_	_	_	_	_
-9	отца	_	_	_	_	_	_	_	bratT60=Family
+9	отца	_	_	_	_	_	_	_	bratA16=T66:Male|bratT60=Family|bratT66=Person
 10	в	_	_	_	_	_	_	_	bratA13=T61:Past|bratT61=Date-absolute
 11	2000	_	_	_	_	_	_	_	bratA13=T61:Past|bratT61=Date-absolute
 12	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T61:Past|bratT61=Date-absolute

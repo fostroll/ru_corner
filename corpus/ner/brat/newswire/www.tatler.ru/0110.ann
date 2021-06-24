@@ -36,11 +36,11 @@ T23	Person 821 829	Делевинь
 A13	Female T23
 T24	Person-forename 867 874	Олимпии
 T25	Person-surname 877 885	де   Гуж
-T26	Person 867 885	Олимпии   де   Гуж
+T26	Person 867 935	Олимпии   де   Гуж   -   французской   писательницы   и   феминистки
 A14	Female T26
 T27	GPE 892 903	французской
 A15	Adjective T27
-T28	Person-property 892 918	французской   писательницы
+T28	Person-property 906 918	писательницы
 T29	Person-property 925 935	феминистки
 T30	Date-absolute 959 975	в   XVIII   веке
 A16	Past T30
@@ -52,3 +52,11 @@ A17	Female T35
 T36	Duration 96 104	10   лет
 T31	Organization 153 161	журналов
 A18	Media T31
+T37	Person 524 530	модель
+A19	Female T37
+T38	Person 765 773	Художник
+A20	Male T38
+T39	Person 892 935	французской   писательницы   и   феминистки
+A21	Plural T39
+T40	Person 1198 1206	художник
+A22	Male T40

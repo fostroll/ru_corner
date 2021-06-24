@@ -4,13 +4,12 @@ T3	Ordinal 80 87	Впервые
 T4	Person 101 107	Энрике
 T5	Person 90 94	Анна
 T6	Date-absolute 131 146	в   2017   году
-T7	Person 185 203	их   сын   Николас
+T7	Person 190 203	сын   Николас
 T8	Family 190 193	сын
 T9	Person 210 221	дочь   Люси
 T10	Family 210 214	дочь
 T11	Ordinal 260 268	третьего
-T12	Person 397 427	Хулио   Иглесиас   -   младший
-T13	Person 381 394	брат   Энрике
+T12	Person 381 427	брат   Энрике   Хулио   Иглесиас   -   младший
 T14	Family 381 385	брат
 T15	Family 449 454	брата
 T16	Quantity 466 478	трое   детей
@@ -42,7 +41,6 @@ T35	Person-surname 524 532	Иглесиас
 T17	Person 524 532	Иглесиас
 A9	Male T17
 T36	Family 246 250	пара
-A10	Male T13
 A11	Male T12
 T37	Person-forename 388 394	Энрике
 T38	Person-forename 397 402	Хулио
@@ -75,3 +73,16 @@ T32	Family 260 278	третьего   ребенка
 T55	Family 473 478	детей
 A19	Past T52
 T56	Ordinal 290 300	последнего
+T57	Person 185 221	их   сын   Николас   и   дочь   Люси
+A22	Plural T57
+T58	Person 246 250	пара
+T13	Person-affix 420 427	младший
+T59	Person 388 394	Энрике
+A10	Male T59
+T60	Person 54 78	новорожденного   ребенка
+T61	Person 618 632	новорожденного
+T62	Person 656 665	младенцем
+T63	Person 890 897	ребенка
+T64	Person-property 870 876	звезды
+T65	Person 977 982	малыш
+T66	Event 539 547	интервью

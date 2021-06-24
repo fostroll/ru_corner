@@ -91,12 +91,12 @@
 19	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Law|bratT43=Law
 20	)	_	_	_	_	_	_	_	_
 21	и	_	_	_	_	_	_	_	_
-22	попытка	_	_	_	_	_	_	_	_
+22	попытка	_	_	_	_	_	_	_	bratT56=Event
 23	сексуального	_	_	_	_	_	_	_	bratT56=Event
 24	насилия	_	_	_	_	_	_	_	bratT56=Event
 25	над	_	_	_	_	_	_	_	_
-26	матерью	_	_	_	_	_	_	_	bratT20=Family
-27	мальчика	_	_	_	_	_	_	_	_
+26	матерью	_	_	_	_	_	_	_	bratA15=T71:Female|bratT20=Family|bratT71=Person
+27	мальчика	_	_	_	_	_	_	_	bratA14=T70:Male|bratA15=T71:Female|bratT70=Person|bratT71=Person
 28	(	_	_	_	_	_	_	_	SpaceAfter=No
 29	часть	_	_	_	_	_	_	_	bratT21=Law
 30	1	_	_	_	_	_	_	_	bratT21=Law|bratT44=Ordinal
@@ -128,7 +128,7 @@
 12	Еров	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT26=Person-surname
 13	проник	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
-15	дом	_	_	_	_	_	_	_	_
+15	дом	_	_	_	_	_	_	_	bratT72=Facility
 16	женщины	_	_	_	_	_	_	_	bratA13=T69:Female|bratT69=Person
 17	с	_	_	_	_	_	_	_	_
 18	инвалидностью	_	_	_	_	_	_	_	_
@@ -208,7 +208,7 @@
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
 14	помнит	_	_	_	_	_	_	_	_
-15	произошедшее	_	_	_	_	_	_	_	_
+15	произошедшее	_	_	_	_	_	_	_	bratT73=Event
 16	``	_	_	_	_	_	_	_	SpaceAfter=No
 17	с	_	_	_	_	_	_	_	_
 18	отрывками	_	_	_	_	_	_	_	SpaceAfter=No

@@ -7,7 +7,7 @@ T6	Quantity 272 285	200   человек
 T7	Person 320 325	Уэста
 T8	Service 351 358	YouTube
 T9	Person 374 379	Канье
-T10	Cardinal 484 488	2020
+T10	Date-absolute 484 488	2020
 T11	Person-property 493 498	Рэпер
 T12	Person 592 597	Канье
 T13	Work-of-art 580 586	Библию
@@ -56,7 +56,7 @@ T43	Date-period-relative 296 303	часовое
 T44	Duration 296 303	часовое
 T45	Event 166 187	президентской   гонки
 T47	Duration 1243 1260	несколько   минут
-T48	Date-period-relative 1243 1260	несколько   минут
+T48	Time-period 1243 1260	несколько   минут
 T49	Person 1328 1333	Канье
 A16	Male T49
 T50	Person-forename 1328 1333	Канье
@@ -71,9 +71,16 @@ T56	Date-relative 974 993	После   этих   слов
 A20	Past T56
 T57	Event 199 221	предвыборную   встречу
 A1	Past T43
-A14	Past T48
 T46	Event 306 317	выступление
 T55	Event 706 712	аборте
 T58	Event 829 835	аборте
 T59	Event 1349 1355	аборты
 T60	Event 1312 1323	выступление
+T61	Event 120 140	предвыборной   речью
+T62	Person 493 498	Рэпер
+A15	Male T62
+T63	Person 805 809	Отец
+A21	Male T63
+T64	Person 1211 1216	рэпер
+A22	Male T64
+T65	Event 1401 1412	легализацию

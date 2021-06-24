@@ -2,7 +2,6 @@ T1	Person-forename 0 5	Меган
 T2	Person-surname 8 13	Маркл
 T3	Person 0 13	Меган   Маркл
 A1	Female T3
-T4	Other-group 35 75	подопечными   благотворительного   фонда
 T5	Duration 86 89	год
 T6	Product 105 164	дебютной   коллекции   одежды   Меган   Маркл   Smart   Set
 T7	Person-forename 137 142	Меган
@@ -19,8 +18,7 @@ T14	Person-property 260 268	блогеров
 T15	Person-property 275 286	журналистов
 T16	Date-relative 291 296	Тогда
 A5	Past T16
-T17	Product 321 398	брендами   Jigsaw   ,   John   Lewis   &   Partners   ,   Marks   &   Spencer
-A6	Trademark T17
+T17	Organization 321 398	брендами   Jigsaw   ,   John   Lewis   &   Partners   ,   Marks   &   Spencer
 A7	Plural T17
 T18	Person-property 405 415	дизайнером
 T19	Person-forename 418 423	Мишей
@@ -40,7 +38,6 @@ A10	Past T29
 T30	Person-forename 898 903	Меган
 T31	Person 898 903	Меган
 A11	Female T31
-T32	Quantity 950 956	многим
 T33	Organization 979 992	Smart   Works
 T34	Organization 1492 1505	Smart   Works
 T35	Person-property 1718 1727	герцогини
@@ -49,15 +46,21 @@ T37	Person-forename 1753 1758	Гарри
 T38	Person 1743 1758	принцем   Гарри
 A12	Male T38
 T39	Ordinal 1672 1679	впервые
-T41	Product 332 338	Jigsaw
-A13	Trademark T41
-T42	Product 345 372	John   Lewis   &   Partners
-A14	Trademark T42
-T43	Product 379 398	Marks   &   Spencer
-A15	Trademark T43
+T41	Organization 332 338	Jigsaw
+T42	Organization 345 372	John   Lewis   &   Partners
+T43	Organization 379 398	Marks   &   Spencer
 T44	Date-absolute 1625 1654	во   время   видеоконференции
 A16	Past T44
-T40	Event 96 164	выхода   дебютной   коллекции   одежды   Меган   Маркл   Smart   Set
+T40	Event 96 102	выхода
 T45	Event 1638 1654	видеоконференции
 T46	Organization 49 75	благотворительного   фонда
 T47	Organization 1546 1557	организацию
+T48	Event 559 565	продаж
+T49	Facility 1761 1765	доме
+T50	Person 1718 1727	герцогини
+A17	Female T50
+T4	Person 433 442	герцогиня
+A18	Female T4
+A6	Trademark T6
+T32	Event 726 735	годовщины
+T51	Event 1371 1384	собеседование

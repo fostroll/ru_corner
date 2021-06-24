@@ -7,7 +7,7 @@
 2	Армении	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Person-property
 3	оценил	_	_	_	_	_	_	_	_
 4	срок	_	_	_	_	_	_	_	_
-5	пребывания	_	_	_	_	_	_	_	_
+5	пребывания	_	_	_	_	_	_	_	bratT70=Event
 6	российских	_	_	_	_	_	_	_	bratA16=T62:Adjective|bratT3=Person-property|bratT62=GPE
 7	миротворцев	_	_	_	_	_	_	_	bratT3=Person-property
 8	в	_	_	_	_	_	_	_	_
@@ -40,10 +40,10 @@
 # text = Об этом политик сообщил в интервью ТАСС в среду, 25 ноября.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	политик	_	_	_	_	_	_	_	bratT10=Person-property
+3	политик	_	_	_	_	_	_	_	bratA22=T73:Male|bratT10=Person-property|bratT73=Person
 4	сообщил	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	интервью	_	_	_	_	_	_	_	_
+6	интервью	_	_	_	_	_	_	_	bratT72=Event
 7	ТАСС	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
 8	в	_	_	_	_	_	_	_	bratA9=T12:Past|bratT12=Date-absolute
 9	среду	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Past|bratT12=Date-absolute
@@ -106,7 +106,7 @@
 4	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	размещение	_	_	_	_	_	_	_	_
+7	размещение	_	_	_	_	_	_	_	bratT69=Event
 8	в	_	_	_	_	_	_	_	_
 9	Карабахе	_	_	_	_	_	_	_	bratT39=GPE
 10	миротворческих	_	_	_	_	_	_	_	bratT40=Organization
@@ -141,7 +141,7 @@
 7	заявлению	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	срок	_	_	_	_	_	_	_	_
-10	пребывания	_	_	_	_	_	_	_	_
+10	пребывания	_	_	_	_	_	_	_	bratT71=Event
 11	миротворцев	_	_	_	_	_	_	_	bratT20=Person-property
 12	в	_	_	_	_	_	_	_	_
 13	Карабахе	_	_	_	_	_	_	_	bratT21=GPE

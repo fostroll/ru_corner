@@ -15,26 +15,26 @@
 # par_text = Леди Китти Спенсер и леди Амелия Спенсер — родные сестры, дочери девятого графа Спенсера Чарльза и племянницы принцессы Дианы. Обе при этом в скором времени собираются выйти замуж. И если будущую свадьбу Китти в светских кругах Великобритании обсуждают вот уже несколько месяцев, то помолвка ее младшей сестры состоялась лишь на днях. Об этом стало известно из социальных сетей — радостной новостью поделились жених и его будущий тесть.
 # sent_id = 0061-p2-s1
 # text = Леди Китти Спенсер и леди Амелия Спенсер - родные сестры, дочери девятого графа Спенсера Чарльза и племянницы принцессы Дианы.
-1	Леди	_	_	_	_	_	_	_	bratA4=T5:Female|bratT5=Person|bratT77=Person-affix
-2	Китти	_	_	_	_	_	_	_	bratA4=T5:Female|bratT5=Person|bratT50=Person-forename
-3	Спенсер	_	_	_	_	_	_	_	bratA4=T5:Female|bratT5=Person|bratT51=Person-surname
-4	и	_	_	_	_	_	_	_	_
-5	леди	_	_	_	_	_	_	_	bratA5=T6:Female|bratT6=Person|bratT78=Person-affix
-6	Амелия	_	_	_	_	_	_	_	bratA5=T6:Female|bratT52=Person-forename|bratT6=Person
-7	Спенсер	_	_	_	_	_	_	_	bratA5=T6:Female|bratT53=Person-surname|bratT6=Person
-8	-	_	_	_	_	_	_	_	_
-9	родные	_	_	_	_	_	_	_	bratT7=Family
-10	сестры	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Family
-11	,	_	_	_	_	_	_	_	_
-12	дочери	_	_	_	_	_	_	_	bratT9=Family
-13	девятого	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Person-property|bratT11=Ordinal|bratT8=Person
-14	графа	_	_	_	_	_	_	_	bratA6=T8:Male|bratT10=Person-property|bratT8=Person
-15	Спенсера	_	_	_	_	_	_	_	bratA6=T8:Male|bratT54=Person-surname|bratT8=Person
-16	Чарльза	_	_	_	_	_	_	_	bratA6=T8:Male|bratT55=Person-forename|bratT8=Person
-17	и	_	_	_	_	_	_	_	_
-18	племянницы	_	_	_	_	_	_	_	bratA25=T81:Female|bratT12=Family|bratT81=Person
-19	принцессы	_	_	_	_	_	_	_	bratA25=T81:Female|bratA7=T13:Female|bratT13=Person|bratT14=Person-property|bratT81=Person
-20	Дианы	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T81:Female|bratA7=T13:Female|bratT13=Person|bratT56=Person-forename|bratT81=Person
+1	Леди	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA4=T5:Female|bratT5=Person|bratT77=Person-affix|bratT81=Person
+2	Китти	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA4=T5:Female|bratT5=Person|bratT50=Person-forename|bratT81=Person
+3	Спенсер	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA4=T5:Female|bratT5=Person|bratT51=Person-surname|bratT81=Person
+4	и	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratT81=Person
+5	леди	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA5=T6:Female|bratT6=Person|bratT78=Person-affix|bratT81=Person
+6	Амелия	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA5=T6:Female|bratT52=Person-forename|bratT6=Person|bratT81=Person
+7	Спенсер	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA5=T6:Female|bratT53=Person-surname|bratT6=Person|bratT81=Person
+8	-	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratT81=Person
+9	родные	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratT7=Family|bratT81=Person
+10	сестры	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T81:Plural|bratA29=T81:Female|bratT7=Family|bratT81=Person
+11	,	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratT81=Person
+12	дочери	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratT81=Person|bratT9=Family
+13	девятого	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA6=T8:Male|bratT10=Person-property|bratT11=Ordinal|bratT8=Person|bratT81=Person
+14	графа	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA6=T8:Male|bratT10=Person-property|bratT8=Person|bratT81=Person
+15	Спенсера	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA6=T8:Male|bratT54=Person-surname|bratT8=Person|bratT81=Person
+16	Чарльза	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA6=T8:Male|bratT55=Person-forename|bratT8=Person|bratT81=Person
+17	и	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratT81=Person
+18	племянницы	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratT12=Family|bratT81=Person
+19	принцессы	_	_	_	_	_	_	_	bratA25=T81:Plural|bratA29=T81:Female|bratA7=T13:Female|bratT13=Person|bratT14=Person-property|bratT81=Person
+20	Дианы	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T81:Plural|bratA29=T81:Female|bratA7=T13:Female|bratT13=Person|bratT56=Person-forename|bratT81=Person
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0061-p2-s2
@@ -56,7 +56,7 @@
 2	если	_	_	_	_	_	_	_	_
 3	будущую	_	_	_	_	_	_	_	bratT15=Event
 4	свадьбу	_	_	_	_	_	_	_	bratT15=Event
-5	Китти	_	_	_	_	_	_	_	bratA8=T16:Female|bratT15=Event|bratT16=Person|bratT57=Person-forename
+5	Китти	_	_	_	_	_	_	_	bratA8=T16:Female|bratT16=Person|bratT57=Person-forename
 6	в	_	_	_	_	_	_	_	_
 7	светских	_	_	_	_	_	_	_	_
 8	кругах	_	_	_	_	_	_	_	_
@@ -69,9 +69,9 @@
 15	,	_	_	_	_	_	_	_	_
 16	то	_	_	_	_	_	_	_	_
 17	помолвка	_	_	_	_	_	_	_	bratT87=Event
-18	ее	_	_	_	_	_	_	_	bratA21=T76:Female|bratT76=Person|bratT87=Event
-19	младшей	_	_	_	_	_	_	_	bratA21=T76:Female|bratT18=Family|bratT76=Person|bratT87=Event
-20	сестры	_	_	_	_	_	_	_	bratA21=T76:Female|bratT18=Family|bratT76=Person|bratT87=Event
+18	ее	_	_	_	_	_	_	_	bratA21=T76:Female|bratT76=Person
+19	младшей	_	_	_	_	_	_	_	bratA21=T76:Female|bratT18=Family|bratT76=Person
+20	сестры	_	_	_	_	_	_	_	bratA21=T76:Female|bratT18=Family|bratT76=Person
 21	состоялась	_	_	_	_	_	_	_	_
 22	лишь	_	_	_	_	_	_	_	_
 23	на	_	_	_	_	_	_	_	_
@@ -89,9 +89,9 @@
 7	сетей	_	_	_	_	_	_	_	bratT92=Service
 8	-	_	_	_	_	_	_	_	_
 9	радостной	_	_	_	_	_	_	_	_
-10	новостью	_	_	_	_	_	_	_	_
+10	новостью	_	_	_	_	_	_	_	bratT84=Event
 11	поделились	_	_	_	_	_	_	_	_
-12	жених	_	_	_	_	_	_	_	bratT88=Family
+12	жених	_	_	_	_	_	_	_	bratA17=T97:Male|bratT88=Family|bratT97=Person
 13	и	_	_	_	_	_	_	_	_
 14	его	_	_	_	_	_	_	_	bratA20=T75:Male|bratT75=Person
 15	будущий	_	_	_	_	_	_	_	bratA20=T75:Male|bratT46=Family|bratT75=Person
@@ -106,16 +106,16 @@
 2	леди	_	_	_	_	_	_	_	bratA9=T19:Female|bratT19=Person|bratT82=Person-affix
 3	Спенсер	_	_	_	_	_	_	_	bratA9=T19:Female|bratT19=Person|bratT58=Person-surname
 4	-	_	_	_	_	_	_	_	_
-5	ее	_	_	_	_	_	_	_	_
-6	университетский	_	_	_	_	_	_	_	_
-7	друг	_	_	_	_	_	_	_	_
+5	ее	_	_	_	_	_	_	_	bratA10=T20:Male|bratT20=Person
+6	университетский	_	_	_	_	_	_	_	bratA10=T20:Male|bratT20=Person
+7	друг	_	_	_	_	_	_	_	bratA10=T20:Male|bratT20=Person
 8	Грег	_	_	_	_	_	_	_	bratA10=T20:Male|bratT20=Person|bratT59=Person-forename
 9	Маллетт	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T20:Male|bratT20=Person|bratT60=Person-surname
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0061-p3-s2
 # text = Пара познакомилась больше 10 лет назад, когда оба учились в Кейптауне.
-1	Пара	_	_	_	_	_	_	_	bratT21=Family
+1	Пара	_	_	_	_	_	_	_	bratT21=Family|bratT39=Person
 2	познакомилась	_	_	_	_	_	_	_	_
 3	больше	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute|bratT83=Duration
 4	10	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute|bratT83=Duration
@@ -131,7 +131,7 @@
 
 # sent_id = 0061-p3-s3
 # text = Предложение было также сделано в Южной Африке - в бутик-отеле Clouds Wine & Guest Estate, расположенном в одном из самых живописных мест региона Стелленбосе.
-1	Предложение	_	_	_	_	_	_	_	_
+1	Предложение	_	_	_	_	_	_	_	bratT96=Event
 2	было	_	_	_	_	_	_	_	_
 3	также	_	_	_	_	_	_	_	_
 4	сделано	_	_	_	_	_	_	_	_
@@ -140,12 +140,12 @@
 7	Африке	_	_	_	_	_	_	_	bratT24=GPE
 8	-	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
-10	бутик-отеле	_	_	_	_	_	_	_	bratT25=Organization
-11	Clouds	_	_	_	_	_	_	_	bratT25=Organization
-12	Wine	_	_	_	_	_	_	_	bratT25=Organization
-13	&	_	_	_	_	_	_	_	bratT25=Organization
-14	Guest	_	_	_	_	_	_	_	bratT25=Organization
-15	Estate	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
+10	бутик-отеле	_	_	_	_	_	_	_	bratT25=Facility
+11	Clouds	_	_	_	_	_	_	_	bratT25=Facility
+12	Wine	_	_	_	_	_	_	_	bratT25=Facility
+13	&	_	_	_	_	_	_	_	bratT25=Facility
+14	Guest	_	_	_	_	_	_	_	bratT25=Facility
+15	Estate	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Facility
 16	,	_	_	_	_	_	_	_	_
 17	расположенном	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 22	живописных	_	_	_	_	_	_	_	_
 23	мест	_	_	_	_	_	_	_	_
 24	региона	_	_	_	_	_	_	_	bratT94=GPE
-25	Стелленбосе	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=GPE
+25	Стелленбосе	_	_	_	_	_	_	_	SpaceAfter=No|bratT94=GPE
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0061-p3-s4
@@ -240,9 +240,9 @@
 
 # sent_id = 0061-p4-s2
 # text = Его дядя - бывший спортсмен и экс-тренер национальной сборной ЮАР по регби Ник Маллетт.
-1	Его	_	_	_	_	_	_	_	bratA23=T84:Male|bratT84=Person
-2	дядя	_	_	_	_	_	_	_	bratA23=T84:Male|bratT33=Family|bratT84=Person
-3	-	_	_	_	_	_	_	_	_
+1	Его	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person
+2	дядя	_	_	_	_	_	_	_	bratA16=T34:Male|bratT33=Family|bratT34=Person
+3	-	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person
 4	бывший	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT35=Person-property
 5	спортсмен	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person|bratT35=Person-property
 6	и	_	_	_	_	_	_	_	bratA16=T34:Male|bratT34=Person
@@ -261,17 +261,17 @@
 
 # sent_id = 0061-p4-s3
 # text = Амелия Спенсер - одна из дочерей Чарльза Спенсера от первого брака.
-1	Амелия	_	_	_	_	_	_	_	bratA17=T39:Female|bratT39=Person|bratT69=Person-forename
-2	Спенсер	_	_	_	_	_	_	_	bratA17=T39:Female|bratT39=Person|bratT70=Person-surname
-3	-	_	_	_	_	_	_	_	_
-4	одна	_	_	_	_	_	_	_	bratT40=Quantity
-5	из	_	_	_	_	_	_	_	bratT40=Quantity
+1	Амелия	_	_	_	_	_	_	_	bratA24=T85:Female|bratT69=Person-forename|bratT85=Person
+2	Спенсер	_	_	_	_	_	_	_	bratA24=T85:Female|bratT70=Person-surname|bratT85=Person
+3	-	_	_	_	_	_	_	_	bratA24=T85:Female|bratT85=Person
+4	одна	_	_	_	_	_	_	_	bratA24=T85:Female|bratT40=Quantity|bratT85=Person
+5	из	_	_	_	_	_	_	_	bratA24=T85:Female|bratT40=Quantity|bratT85=Person
 6	дочерей	_	_	_	_	_	_	_	bratA24=T85:Female|bratT42=Family|bratT85=Person
 7	Чарльза	_	_	_	_	_	_	_	bratA18=T41:Male|bratA24=T85:Female|bratT41=Person|bratT71=Person-forename|bratT85=Person
 8	Спенсера	_	_	_	_	_	_	_	bratA18=T41:Male|bratA24=T85:Female|bratT41=Person|bratT72=Person-surname|bratT85=Person
 9	от	_	_	_	_	_	_	_	_
-10	первого	_	_	_	_	_	_	_	bratT43=Ordinal
-11	брака	_	_	_	_	_	_	_	SpaceAfter=No
+10	первого	_	_	_	_	_	_	_	bratT43=Ordinal|bratT95=Event
+11	брака	_	_	_	_	_	_	_	SpaceAfter=No|bratT95=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0061-p4-s4

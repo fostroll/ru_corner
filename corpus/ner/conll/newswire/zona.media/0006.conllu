@@ -32,8 +32,8 @@
 5	Краснодарскому	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
 6	краю	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
 7	завершило	_	_	_	_	_	_	_	_
-8	расследование	_	_	_	_	_	_	_	_
-9	дела	_	_	_	_	_	_	_	bratT30=Event
+8	расследование	_	_	_	_	_	_	_	bratT64=Event
+9	дела	_	_	_	_	_	_	_	bratT30=Event|bratT64=Event
 10	против	_	_	_	_	_	_	_	_
 11	четверых	_	_	_	_	_	_	_	bratT7=Quantity
 12-14	экс-полицейских	_	_	_	_	_	_	_	SpaceAfter=No
@@ -48,8 +48,8 @@
 20	автомобилистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Other-group
 21	,	_	_	_	_	_	_	_	_
 22	угрожая	_	_	_	_	_	_	_	_
-23	уголовным	_	_	_	_	_	_	_	_
-24	преследованием	_	_	_	_	_	_	_	SpaceAfter=No
+23	уголовным	_	_	_	_	_	_	_	bratT63=Event
+24	преследованием	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Event
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p2-s2

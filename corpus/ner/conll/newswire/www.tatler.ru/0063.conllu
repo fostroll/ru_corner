@@ -60,9 +60,9 @@
 # sent_id = 0063-p3-s1
 # text = Избранницей продюсера стала некая Джулия Бернхейм.
 1	Избранницей	_	_	_	_	_	_	_	_
-2	продюсера	_	_	_	_	_	_	_	bratT8=Person-property
+2	продюсера	_	_	_	_	_	_	_	bratA26=T70:Male|bratT70=Person|bratT8=Person-property
 3	стала	_	_	_	_	_	_	_	_
-4	некая	_	_	_	_	_	_	_	_
+4	некая	_	_	_	_	_	_	_	bratA9=T9:Female|bratT9=Person
 5	Джулия	_	_	_	_	_	_	_	bratA9=T9:Female|bratT40=Person-forename|bratT9=Person
 6	Бернхейм	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T9:Female|bratT41=Person-surname|bratT9=Person
 7	.	_	_	_	_	_	_	_	_
@@ -70,7 +70,7 @@
 # sent_id = 0063-p3-s2
 # text = О помолвке Питерс объявил во время заключительной церемонии бизнес-мероприятия NASDAQ в Нью-Йорке.
 1	О	_	_	_	_	_	_	_	_
-2	помолвке	_	_	_	_	_	_	_	_
+2	помолвке	_	_	_	_	_	_	_	bratT66=Event
 3	Питерс	_	_	_	_	_	_	_	bratA8=T10:Male|bratT10=Person|bratT39=Person-surname
 4	объявил	_	_	_	_	_	_	_	_
 5	во	_	_	_	_	_	_	_	bratA21=T56:Past|bratT56=Date-absolute
@@ -97,7 +97,7 @@
 8	лет	_	_	_	_	_	_	_	bratA12=T16:Past|bratT16=Date-absolute|bratT53=Duration
 9	назад	_	_	_	_	_	_	_	bratA12=T16:Past|bratT16=Date-absolute
 10	в	_	_	_	_	_	_	_	_
-11	особняке	_	_	_	_	_	_	_	_
+11	особняке	_	_	_	_	_	_	_	bratT71=Facility
 12	основателя	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT19=Person-property
 13	Playboy	_	_	_	_	_	_	_	bratA13=T18:Male|bratA2=T17:Media|bratT17=Organization|bratT18=Person|bratT19=Person-property
 14	Хью	_	_	_	_	_	_	_	bratA13=T18:Male|bratT18=Person|bratT44=Person-forename
@@ -113,7 +113,7 @@
 5	случился	_	_	_	_	_	_	_	_
 6	лишь	_	_	_	_	_	_	_	_
 7	короткий	_	_	_	_	_	_	_	_
-8	роман	_	_	_	_	_	_	_	SpaceAfter=No
+8	роман	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Event
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0063-p4-s3
@@ -124,7 +124,7 @@
 4	Памела	_	_	_	_	_	_	_	bratA15=T21:Female|bratT21=Person|bratT46=Person-forename
 5	Андерсон	_	_	_	_	_	_	_	bratA15=T21:Female|bratT21=Person|bratT47=Person-surname
 6	и	_	_	_	_	_	_	_	_
-7	кинопродюсер	_	_	_	_	_	_	_	bratT22=Person-property
+7	кинопродюсер	_	_	_	_	_	_	_	bratA27=T72:Male|bratT22=Person-property|bratT72=Person
 8	тайно	_	_	_	_	_	_	_	_
 9	поженились	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
@@ -134,7 +134,7 @@
 # sent_id = 0063-p4-s4
 # text = Но брак не продержался и двух недель - через 12 дней после свадьбы Памела рассказала о разводе порталу THO.
 1	Но	_	_	_	_	_	_	_	_
-2	брак	_	_	_	_	_	_	_	_
+2	брак	_	_	_	_	_	_	_	bratT68=Event
 3	не	_	_	_	_	_	_	_	_
 4	продержался	_	_	_	_	_	_	_	_
 5	и	_	_	_	_	_	_	_	_
@@ -205,6 +205,6 @@
 7	,	_	_	_	_	_	_	_	_
 8	как	_	_	_	_	_	_	_	_
 9	развивались	_	_	_	_	_	_	_	_
-10	события	_	_	_	_	_	_	_	SpaceAfter=No
+10	события	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Event
 11	.	_	_	_	_	_	_	_	_
 

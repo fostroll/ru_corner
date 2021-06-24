@@ -3,7 +3,7 @@
 # par_text = Иммунолог назвал условие приостановки роста числа случаев COVID-19 в России
 # sent_id = 0098-p1-s1
 # text = Иммунолог назвал условие приостановки роста числа случаев COVID-19 в России
-1	Иммунолог	_	_	_	_	_	_	_	bratT1=Person-property
+1	Иммунолог	_	_	_	_	_	_	_	bratA13=T51:Male|bratT1=Person-property|bratT51=Person
 2	назвал	_	_	_	_	_	_	_	_
 3	условие	_	_	_	_	_	_	_	_
 4	приостановки	_	_	_	_	_	_	_	bratT44=Event
@@ -65,7 +65,7 @@
 3	РИА	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
 4	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization
 5	,	_	_	_	_	_	_	_	_
-6	специалист	_	_	_	_	_	_	_	bratT17=Person-property
+6	специалист	_	_	_	_	_	_	_	bratA12=T50:Male|bratT17=Person-property|bratT50=Person
 7	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
@@ -135,8 +135,8 @@
 2	его	_	_	_	_	_	_	_	_
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	карантинные	_	_	_	_	_	_	_	_
-6	меры	_	_	_	_	_	_	_	_
+5	карантинные	_	_	_	_	_	_	_	bratT49=Event
+6	меры	_	_	_	_	_	_	_	bratT49=Event
 7	нужны	_	_	_	_	_	_	_	_
 8	лишь	_	_	_	_	_	_	_	_
 9	для	_	_	_	_	_	_	_	_

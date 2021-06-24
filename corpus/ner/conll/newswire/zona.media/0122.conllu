@@ -107,7 +107,7 @@
 # sent_id = 0122-p4-s2
 # text = После прибытия полицейских блогеры продолжали «вести себя агрессивно» и распылили в газ в лицо водителю и его жене, пишет СК.
 1	После	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute
-2	прибытия	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute
+2	прибытия	_	_	_	_	_	_	_	bratA2=T16:Past|bratT16=Date-absolute|bratT83=Event
 3	полицейских	_	_	_	_	_	_	_	bratT17=Person-property
 4	блогеры	_	_	_	_	_	_	_	bratT18=Person-property|bratT62=Person
 5	продолжали	_	_	_	_	_	_	_	_
@@ -204,7 +204,7 @@
 # sent_id = 0122-p6-s2
 # text = Проводивший съемку приятель блогеров проходит по делу подозреваевым.
 1	Проводивший	_	_	_	_	_	_	_	_
-2	съемку	_	_	_	_	_	_	_	_
+2	съемку	_	_	_	_	_	_	_	bratT84=Event
 3	приятель	_	_	_	_	_	_	_	bratA21=T64:Male|bratT64=Person
 4	блогеров	_	_	_	_	_	_	_	bratA21=T64:Male|bratT29=Person-property|bratT63=Person|bratT64=Person
 5	проходит	_	_	_	_	_	_	_	_

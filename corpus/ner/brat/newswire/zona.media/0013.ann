@@ -1,11 +1,11 @@
 T2	Person-property 46 82	корреспондента   ``   Медиазоны   ''
 T3	Organization 63 82	``   Медиазоны   ''
 A2	Media T3
-T4	Organization 90 129	петербургском   избирательном   участке
+T4	Facility 90 129	петербургском   избирательном   участке
 T5	GPE 90 103	петербургском
 A3	Adjective T5
 T6	GPE 131 145	В   Петербурге
-T8	Organization 185 217	избирательном   участке   № 2191
+T8	Facility 185 217	избирательном   участке   № 2191
 T9	Ordinal 211 217	№ 2191
 T10	Person 234 290	корреспондента   ``   Медиазоны   ''   Давида   Френкеля
 A5	Male T10
@@ -36,3 +36,23 @@ T31	Person-property 166 177	наблюдатель
 T1	Date-relative 999 1004	потом
 T7	Organization 354 361	полиции
 A1	Past T1
+T18	Person-property 707 718	наблюдатели
+T32	Person 962 976	корреспонденту
+A4	Male T32
+T33	Person 924 948	Один   из   наблюдателей
+A10	Male T33
+T34	Person 342 384	Сотрудник   полиции   с   номером   009175
+A11	Male T34
+T35	Person 148 159	полицейский
+A12	Male T35
+T36	Person 166 177	наблюдатель
+A13	Male T36
+T37	Person 0 11	Полицейский
+A14	Male T37
+T38	Person 18 29	наблюдатель
+A15	Male T38
+T39	Person 46 82	корреспондента   ``   Медиазоны   ''
+A16	Male T39
+T40	Facility 420 427	участка
+T41	Person 645 656	полицейским
+A17	Male T41

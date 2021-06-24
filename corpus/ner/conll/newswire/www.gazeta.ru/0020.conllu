@@ -32,16 +32,16 @@
 # par_text = Легенда мирового футбола умер от сердечного приступа в собственном доме в Буэнос-Айресе 25 ноября.
 # sent_id = 0020-p3-s1
 # text = Легенда мирового футбола умер от сердечного приступа в собственном доме в Буэнос-Айресе 25 ноября.
-1	Легенда	_	_	_	_	_	_	_	_
-2	мирового	_	_	_	_	_	_	_	bratA17=T45:Adjective|bratT45=GPE
-3	футбола	_	_	_	_	_	_	_	_
+1	Легенда	_	_	_	_	_	_	_	bratA18=T51:Male|bratT51=Person|bratT52=Person-property
+2	мирового	_	_	_	_	_	_	_	bratA17=T45:Adjective|bratA18=T51:Male|bratT45=GPE|bratT51=Person|bratT52=Person-property
+3	футбола	_	_	_	_	_	_	_	bratA18=T51:Male|bratT51=Person|bratT52=Person-property
 4	умер	_	_	_	_	_	_	_	_
 5	от	_	_	_	_	_	_	_	_
-6	сердечного	_	_	_	_	_	_	_	_
-7	приступа	_	_	_	_	_	_	_	_
+6	сердечного	_	_	_	_	_	_	_	bratT53=Other-term
+7	приступа	_	_	_	_	_	_	_	bratT53=Other-term
 8	в	_	_	_	_	_	_	_	_
 9	собственном	_	_	_	_	_	_	_	_
-10	доме	_	_	_	_	_	_	_	_
+10	доме	_	_	_	_	_	_	_	bratT50=Facility
 11	в	_	_	_	_	_	_	_	_
 12	Буэнос-Айресе	_	_	_	_	_	_	_	bratT8=GPE
 13	25	_	_	_	_	_	_	_	bratA4=T9:Past|bratT9=Date-absolute
@@ -82,8 +82,8 @@
 # text = По словам бывшего президента, Марадона неоднократно посещал Россию во время подготовки к чемпионату мира 2018 года и очень благосклонно относился к идее проведения мундиаля в нашей стране.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	бывшего	_	_	_	_	_	_	_	bratT15=Person-property
-4	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
+3	бывшего	_	_	_	_	_	_	_	bratT15=Person-property|bratT54=Person
+4	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT54=Person
 5	,	_	_	_	_	_	_	_	_
 6	Марадона	_	_	_	_	_	_	_	bratA12=T16:Male|bratT16=Person|bratT39=Person-surname
 7	неоднократно	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 2	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	аргентинец	_	_	_	_	_	_	_	bratA2=T22:Citizenship|bratT22=Nationality
+5	аргентинец	_	_	_	_	_	_	_	bratA19=T55:Male|bratA2=T22:Citizenship|bratT22=Nationality|bratT55=Person
 6	был	_	_	_	_	_	_	_	_
 7	великим	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_

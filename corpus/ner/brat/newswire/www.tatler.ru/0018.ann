@@ -16,7 +16,7 @@ T11	Person-forename 300 316	Джеймс   Парнелл
 T12	Person-surname 319 324	Спирс
 T13	Person 235 249	Бритни   Спирс
 A5	Female T13
-T14	Person 293 324	отец   Джеймс   Парнелл   Спирс
+T14	Person 264 324	ее   законный   опекун   -   отец   Джеймс   Парнелл   Спирс
 A6	Male T14
 T15	Person-property 269 286	законный   опекун
 T16	Other-group 329 335	Фанаты
@@ -25,7 +25,7 @@ T18	Date-absolute 442 448	Теперь
 A7	Present T18
 T19	Person-forename 585 591	Бритни
 T20	Person-surname 594 599	Спирс
-T21	Person-property 565 582	Бывший   фотограф
+T21	Person-property 565 599	Бывший   фотограф   Бритни   Спирс
 T22	Person 585 599	Бритни   Спирс
 A8	Female T22
 T23	Person-forename 602 607	Эндрю
@@ -53,7 +53,14 @@ A17	Past T40
 T41	Event 833 857	движением   #FreeBritney
 T42	Time-period 1095 1108	каждый   день
 T43	Duration 1104 1108	день
-T44	Person 264 286	ее   законный   опекун
-A18	Male T44
 T45	Event 414 437	движение   #FreeBritney
 T30	Family 117 122	детей
+T36	Person 338 344	звезды
+T38	Person 384 390	певицы
+A11	Female T38
+A14	Female T36
+T44	Person 515 526	их   кумиру
+T46	Person 652 658	певицы
+A18	Female T46
+T47	Event 981 988	камбэка
+T48	Event 1063 1067	туре

@@ -36,11 +36,10 @@ T30	Person 402 407	Гарри
 A8	Male T30
 T31	Person 414 419	Меган
 A9	Female T31
-T32	Facility 395 419	офис   Гарри   и   Меган
+T32	Facility 395 399	офис
 T33	Facility 446 458	Кларенс-хаус
 T34	Person-property 504 511	курьеры
 T35	Family 635 639	пары
-T36	Other-group 615 632	звездные   друзья
 T37	Quantity 645 655	Одной   из
 T38	Ordinal 658 664	первых
 T39	Person-property 667 674	герцога
@@ -93,3 +92,20 @@ T73	Person 1139 1146	герцога
 A14	Male T73
 T74	Person 1153 1162	герцогиню
 A21	Female T74
+T36	Person 635 639	пары
+T75	Person 615 639	звездные   друзья   пары
+A22	Adjective T19
+T76	Person 159 165	герцог
+A23	Male T76
+T77	Person 172 181	герцогиня
+A24	Female T77
+T78	Person-property 159 194	герцог   и   герцогиня   Сассекские
+T79	Person 667 674	герцога
+A25	Male T79
+T80	Person 681 690	герцогиню
+A26	Female T80
+T81	Person 889 917	бывшая   первая   леди   США
+A27	Female T81
+T82	Age 1048 1062	новорожденному
+T83	Person 1048 1071	новорожденному   малышу
+A28	Male T83

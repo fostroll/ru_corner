@@ -3,16 +3,16 @@
 # par_text = Фотографа «Коммерсанта» избили в Москве во время съемки вывесок пунктов обмена валют
 # sent_id = 0062-p1-s1
 # text = Фотографа ``Коммерсанта'' избили в Москве во время съемки вывесок пунктов обмена валют
-1	Фотографа	_	_	_	_	_	_	_	bratT1=Person-property
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
-3	Коммерсанта	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
-4	''	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+1	Фотографа	_	_	_	_	_	_	_	bratT1=Person-property|bratT65=Person
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization|bratT65=Person
+3	Коммерсанта	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization|bratT65=Person
+4	''	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization|bratT65=Person
 5	избили	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	Москве	_	_	_	_	_	_	_	bratT3=GPE
 8	во	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute
 9	время	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute
-10	съемки	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute
+10	съемки	_	_	_	_	_	_	_	bratA15=T46:Past|bratT46=Date-absolute|bratT66=Event
 11	вывесок	_	_	_	_	_	_	_	_
 12	пунктов	_	_	_	_	_	_	_	_
 13	обмена	_	_	_	_	_	_	_	_
@@ -33,7 +33,7 @@
 9	Жданова	_	_	_	_	_	_	_	bratA1=T5:Male|bratT5=Person|bratT9=Person-surname
 10	во	_	_	_	_	_	_	_	bratA14=T44:Past|bratT44=Date-absolute
 11	время	_	_	_	_	_	_	_	bratA14=T44:Past|bratT44=Date-absolute
-12	съемки	_	_	_	_	_	_	_	bratA14=T44:Past|bratT44=Date-absolute
+12	съемки	_	_	_	_	_	_	_	bratA14=T44:Past|bratT44=Date-absolute|bratT67=Event
 13	вывесок	_	_	_	_	_	_	_	_
 14	пунктов	_	_	_	_	_	_	_	_
 15	обмена	_	_	_	_	_	_	_	_
@@ -73,9 +73,9 @@
 
 # sent_id = 0062-p3-s2
 # text = Фотограф проводил съемку на Кутузовском проспекте на западе Москвы.
-1	Фотограф	_	_	_	_	_	_	_	bratT12=Person-property
+1	Фотограф	_	_	_	_	_	_	_	bratA26=T64:Male|bratT12=Person-property|bratT64=Person
 2	проводил	_	_	_	_	_	_	_	_
-3	съемку	_	_	_	_	_	_	_	_
+3	съемку	_	_	_	_	_	_	_	bratT68=Event
 4	на	_	_	_	_	_	_	_	_
 5	Кутузовском	_	_	_	_	_	_	_	bratT13=Facility
 6	проспекте	_	_	_	_	_	_	_	bratT13=Facility
@@ -130,7 +130,7 @@
 # text = По словам фотокорреспондента, он был возле дома №18 на Кутузовском проспекте.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	фотокорреспондента	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+3	фотокорреспондента	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T60:Male|bratT17=Person-property|bratT60=Person
 4	,	_	_	_	_	_	_	_	_
 5	он	_	_	_	_	_	_	_	_
 6	был	_	_	_	_	_	_	_	_
@@ -160,7 +160,7 @@
 
 # sent_id = 0062-p5-s3
 # text = Нападавшие потребовали от Жданова показать фотографии, но тот отказался.
-1	Нападавшие	_	_	_	_	_	_	_	bratT21=Other-group
+1	Нападавшие	_	_	_	_	_	_	_	bratT21=Person
 2	потребовали	_	_	_	_	_	_	_	_
 3	от	_	_	_	_	_	_	_	_
 4	Жданова	_	_	_	_	_	_	_	bratA6=T22:Male|bratT22=Person|bratT23=Person-surname
@@ -176,7 +176,7 @@
 # text = После этого журналиста начали избивать, добавляет газета.
 1	После	_	_	_	_	_	_	_	bratA10=T50:Past|bratT50=Date-relative
 2	этого	_	_	_	_	_	_	_	bratA10=T50:Past|bratT50=Date-relative
-3	журналиста	_	_	_	_	_	_	_	bratT24=Person-property
+3	журналиста	_	_	_	_	_	_	_	bratA25=T63:Male|bratT24=Person-property|bratT63=Person
 4	начали	_	_	_	_	_	_	_	_
 5	избивать	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -206,7 +206,7 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	добавил	_	_	_	_	_	_	_	_
-19	пострадавший	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Other-group
+19	пострадавший	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T29:Male|bratT29=Person
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0062-p7
@@ -222,7 +222,7 @@
 7	флешки	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	но	_	_	_	_	_	_	_	_
-10	нападавшие	_	_	_	_	_	_	_	bratT32=Other-group
+10	нападавшие	_	_	_	_	_	_	_	bratT32=Person
 11	решили	_	_	_	_	_	_	_	_
 12	отобрать	_	_	_	_	_	_	_	_
 13	у	_	_	_	_	_	_	_	_
@@ -239,7 +239,7 @@
 5	уточняет	_	_	_	_	_	_	_	_
 6	издание	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T27:Media|bratT27=Organization
 7	,	_	_	_	_	_	_	_	_
-8	корреспондент	_	_	_	_	_	_	_	bratT34=Person-property
+8	корреспондент	_	_	_	_	_	_	_	bratA22=T61:Male|bratT34=Person-property|bratT61=Person
 9	вырвался	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
 11	перебежал	_	_	_	_	_	_	_	_
@@ -251,7 +251,7 @@
 # par_text = Фотограф вызвал скорую, медики диагностировали у него ушибы мягких тканей и рваную рану лица. После этого Жданов обратился в отдел МВД по Дорогомиловскому району. В полиции «рассматривают возможность возбуждения уголовного дела», добавляет «Коммерсант».
 # sent_id = 0062-p8-s1
 # text = Фотограф вызвал скорую, медики диагностировали у него ушибы мягких тканей и рваную рану лица.
-1	Фотограф	_	_	_	_	_	_	_	bratT35=Person-property
+1	Фотограф	_	_	_	_	_	_	_	bratA23=T62:Male|bratT35=Person-property|bratT62=Person
 2	вызвал	_	_	_	_	_	_	_	_
 3	скорую	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_

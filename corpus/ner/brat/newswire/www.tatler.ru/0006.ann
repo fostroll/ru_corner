@@ -50,7 +50,7 @@ T35	Person-forename 795 800	Меган
 T36	Person 795 800	Меган
 A15	Female T36
 T37	Family 896 901	семья
-T38	Person-property 915 923	королевы
+T38	Person 915 923	королевы
 T39	GPE 968 978	Сассекских
 A16	Adjective T39
 T40	Person 942 978	герцога   и   герцогини   Сассекских
@@ -108,11 +108,30 @@ T79	Duration 99 117	несколько   недель
 T80	Person-affix 540 542	II
 T81	Event 1635 1641	смерть
 T82	Organization 826 832	Короны
-T83	Event 255 307	объявления   о   сложении   королевских   полномочий
+T83	Event 272 280	сложении
 T84	Organization 885 901	монаршая   семья
 T85	Event 986 992	службе
 T86	Ordinal 540 542	II
 T87	Person 1644 1650	матери
 A29	Female T87
 T88	Person 1657 1661	паре
-T89	Event 741 766	официальное   мероприятие
+T89	Event 729 766	последнее   официальное   мероприятие
+T90	Person 83 91	королевы
+A30	Female T90
+T91	Person-property 466 502	герцога   и   герцогиню   Сассекских
+T92	Person 466 473	герцога
+A31	Male T92
+T93	Person 480 489	герцогиню
+A32	Male T93
+A33	Female T38
+T94	Person 942 949	герцога
+A34	Male T94
+T95	Person 956 965	герцогини
+A35	Female T95
+T96	Person-property 942 978	герцога   и   герцогини   Сассекских
+T97	Event 1124 1131	событию
+T98	Organization 1484 1492	JPMorgan
+T99	Person-property 915 923	королевы
+T100	Person-property 283 307	королевских   полномочий
+T101	Event 842 849	событии
+T102	Event 255 265	объявления

@@ -19,8 +19,8 @@
 1	Джаред	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT2=Person-forename
 2	Лето	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT9=Person-surname
 3	получил	_	_	_	_	_	_	_	_
-4	главную	_	_	_	_	_	_	_	_
-5	роль	_	_	_	_	_	_	_	_
+4	главную	_	_	_	_	_	_	_	bratT52=Person-property
+5	роль	_	_	_	_	_	_	_	bratT52=Person-property
 6	в	_	_	_	_	_	_	_	_
 7	новом	_	_	_	_	_	_	_	_
 8	биографическом	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 26	,	_	_	_	_	_	_	_	_
 27	-	_	_	_	_	_	_	_	_
 28	написал	_	_	_	_	_	_	_	_
-29	актер	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
+29	актер	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T53:Male|bratT24=Person-property|bratT53=Person
 30	.	_	_	_	_	_	_	_	_
 31	-	_	_	_	_	_	_	_	_
 
@@ -179,9 +179,9 @@
 8	,	_	_	_	_	_	_	_	_
 9	номинированный	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	``	_	_	_	_	_	_	_	SpaceAfter=No
-12	Оскар	_	_	_	_	_	_	_	SpaceAfter=No
-13	''	_	_	_	_	_	_	_	_
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Other-term
+12	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Person-forename|bratT51=Other-term
+13	''	_	_	_	_	_	_	_	bratT51=Other-term
 14	за	_	_	_	_	_	_	_	_
 15	сценарий	_	_	_	_	_	_	_	_
 16	к	_	_	_	_	_	_	_	_

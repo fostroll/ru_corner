@@ -46,13 +46,13 @@
 # text = В апреле модель подала заявку на регистрацию товарного знака Bieber Beauty.
 1	В	_	_	_	_	_	_	_	bratA4=T9:Past|bratT9=Date-absolute
 2	апреле	_	_	_	_	_	_	_	bratA4=T9:Past|bratT9=Date-absolute
-3	модель	_	_	_	_	_	_	_	bratT10=Person-property
+3	модель	_	_	_	_	_	_	_	bratA12=T26:Female|bratT10=Person-property|bratT26=Person
 4	подала	_	_	_	_	_	_	_	_
 5	заявку	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	регистрацию	_	_	_	_	_	_	_	bratT23=Event
-8	товарного	_	_	_	_	_	_	_	_
-9	знака	_	_	_	_	_	_	_	_
+8	товарного	_	_	_	_	_	_	_	bratA5=T11:Trademark|bratT11=Product
+9	знака	_	_	_	_	_	_	_	bratA5=T11:Trademark|bratT11=Product
 10	Bieber	_	_	_	_	_	_	_	bratA5=T11:Trademark|bratT11=Product
 11	Beauty	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T11:Trademark|bratT11=Product
 12	.	_	_	_	_	_	_	_	_
@@ -127,6 +127,6 @@
 16	оформить	_	_	_	_	_	_	_	_
 17	бизнес	_	_	_	_	_	_	_	_
 18	на	_	_	_	_	_	_	_	_
-19	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Family
+19	мужа	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T27:Male|bratT22=Family|bratT27=Person
 20	.	_	_	_	_	_	_	_	_
 

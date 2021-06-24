@@ -50,8 +50,8 @@
 
 # sent_id = 0044-p2-s2
 # text = Близкие королевы поздравляли ее по телефону и видеосвязи.
-1	Близкие	_	_	_	_	_	_	_	bratT20=Family
-2	королевы	_	_	_	_	_	_	_	bratT19=Person-property
+1	Близкие	_	_	_	_	_	_	_	bratT20=Family|bratT67=Person
+2	королевы	_	_	_	_	_	_	_	bratA16=T19:Female|bratT19=Person|bratT67=Person|bratT68=Person-property
 3	поздравляли	_	_	_	_	_	_	_	_
 4	ее	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
@@ -62,7 +62,7 @@
 
 # sent_id = 0044-p2-s3
 # text = Звонок поступил даже из США - из Лос-Анджелеса, от принца Гарри и Меган Маркл.
-1	Звонок	_	_	_	_	_	_	_	_
+1	Звонок	_	_	_	_	_	_	_	bratT72=Event
 2	поступил	_	_	_	_	_	_	_	_
 3	даже	_	_	_	_	_	_	_	_
 4	из	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 12	II	_	_	_	_	_	_	_	bratA10=T35:Female|bratT34=Person-affix|bratT35=Person|bratT60=Ordinal
 13	до	_	_	_	_	_	_	_	bratT36=Time-relative
 14	ее	_	_	_	_	_	_	_	_
-15	перерыва	_	_	_	_	_	_	_	_
+15	перерыва	_	_	_	_	_	_	_	bratT71=Event
 16	на	_	_	_	_	_	_	_	_
 17	чай	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
@@ -103,7 +103,7 @@
 # sent_id = 0044-p2-s5
 # text = В звонке принял участие и 11-месячный Арчи, которого королева не видела с прошлого года.
 1	В	_	_	_	_	_	_	_	_
-2	звонке	_	_	_	_	_	_	_	_
+2	звонке	_	_	_	_	_	_	_	bratT73=Event
 3	принял	_	_	_	_	_	_	_	_
 4	участие	_	_	_	_	_	_	_	_
 5	и	_	_	_	_	_	_	_	_
@@ -114,7 +114,7 @@
 9	Арчи	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T39:Male|bratT38=Person-forename|bratT39=Person
 10	,	_	_	_	_	_	_	_	_
 11	которого	_	_	_	_	_	_	_	_
-12	королева	_	_	_	_	_	_	_	bratT40=Person-property
+12	королева	_	_	_	_	_	_	_	bratA17=T69:Female|bratT40=Person-property|bratT69=Person
 13	не	_	_	_	_	_	_	_	_
 14	видела	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	bratA11=T41:Past|bratT41=Date-period-absolute
@@ -125,15 +125,15 @@
 # sent_id = 0044-p2-s6
 # text = ``Ее Величество получила поздравления от всех членов своей семьи, что сделало день особенным'', - сообщил инсайдер журналу Vanity Fair, добавив, что ассистенты помогли Елизавете II установить на iPad приложение Zoom, чтобы она могла свободно общаться с родными.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Ее	_	_	_	_	_	_	_	bratT48=Person-affix
-3	Величество	_	_	_	_	_	_	_	bratT48=Person-affix
+2	Ее	_	_	_	_	_	_	_	bratA13=T66:Female|bratT48=Person-affix|bratT66=Person
+3	Величество	_	_	_	_	_	_	_	bratA13=T66:Female|bratT48=Person-affix|bratT66=Person
 4	получила	_	_	_	_	_	_	_	_
 5	поздравления	_	_	_	_	_	_	_	_
 6	от	_	_	_	_	_	_	_	_
-7	всех	_	_	_	_	_	_	_	bratT49=Quantity
-8	членов	_	_	_	_	_	_	_	bratT49=Quantity
-9	своей	_	_	_	_	_	_	_	_
-10	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Family
+7	всех	_	_	_	_	_	_	_	bratT49=Quantity|bratT70=Person
+8	членов	_	_	_	_	_	_	_	bratT49=Quantity|bratT70=Person
+9	своей	_	_	_	_	_	_	_	bratT70=Person
+10	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Family|bratT70=Person
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
 13	сделало	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
 19	сообщил	_	_	_	_	_	_	_	_
-20	инсайдер	_	_	_	_	_	_	_	bratT43=Person-property
+20	инсайдер	_	_	_	_	_	_	_	bratT43=Person
 21	журналу	_	_	_	_	_	_	_	bratA14=T42:Media|bratT42=Organization
 22	Vanity	_	_	_	_	_	_	_	bratA14=T42:Media|bratT42=Organization
 23	Fair	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T42:Media|bratT42=Organization

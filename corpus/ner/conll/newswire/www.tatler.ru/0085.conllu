@@ -6,9 +6,9 @@
 1	Опра	_	_	_	_	_	_	_	bratA1=T1:Female|bratT1=Person|bratT22=Person-forename
 2	Уинфри	_	_	_	_	_	_	_	bratA1=T1:Female|bratT1=Person|bratT23=Person-surname
 3	взяла	_	_	_	_	_	_	_	_
-4	интервью	_	_	_	_	_	_	_	_
+4	интервью	_	_	_	_	_	_	_	bratT54=Event
 5	у	_	_	_	_	_	_	_	_
-6	мужчин	_	_	_	_	_	_	_	SpaceAfter=No
+6	мужчин	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T51:Male|bratT51=Person
 7	,	_	_	_	_	_	_	_	_
 8	обвинивших	_	_	_	_	_	_	_	_
 9	Майкла	_	_	_	_	_	_	_	bratA2=T2:Male|bratT2=Person|bratT24=Person-forename
@@ -32,7 +32,7 @@
 10	фильм	_	_	_	_	_	_	_	bratT6=Work-of-art
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
 12	Покидая	_	_	_	_	_	_	_	bratT6=Work-of-art
-13	Неверленд	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
+13	Неверленд	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Facility|bratT6=Work-of-art
 14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Work-of-art
 15	,	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
@@ -65,9 +65,9 @@
 3	Опра	_	_	_	_	_	_	_	bratA8=T10:Female|bratT10=Person|bratT31=Person-forename
 4	Уинфри	_	_	_	_	_	_	_	bratA8=T10:Female|bratT10=Person|bratT32=Person-surname
 5	взяла	_	_	_	_	_	_	_	_
-6	интервью	_	_	_	_	_	_	_	_
+6	интервью	_	_	_	_	_	_	_	bratT53=Event
 7	у	_	_	_	_	_	_	_	_
-8	мужчин	_	_	_	_	_	_	_	SpaceAfter=No
+8	мужчин	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T50:Male|bratT50=Person
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
 11	также	_	_	_	_	_	_	_	_
@@ -127,7 +127,7 @@
 2	полностью	_	_	_	_	_	_	_	_
 3	согласился	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
-5	телеведущей	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
+5	телеведущей	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T52:Female|bratT21=Person-property|bratT52=Person
 6	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p3-s3

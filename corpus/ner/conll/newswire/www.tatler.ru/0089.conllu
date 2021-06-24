@@ -6,11 +6,11 @@
 1	Какой	_	_	_	_	_	_	_	_
 2	будет	_	_	_	_	_	_	_	_
 3	свадьба	_	_	_	_	_	_	_	bratT1=Event
-4	Бруклина	_	_	_	_	_	_	_	bratA3=T2:Male|bratT1=Event|bratT2=Person|bratT27=Person-forename
-5	Бекхэма	_	_	_	_	_	_	_	bratA3=T2:Male|bratT1=Event|bratT2=Person|bratT28=Person-surname
-6	и	_	_	_	_	_	_	_	bratT1=Event
-7	Николы	_	_	_	_	_	_	_	bratA4=T3:Female|bratT1=Event|bratT29=Person-forename|bratT3=Person
-8	Пельтц	_	_	_	_	_	_	_	bratA4=T3:Female|bratT1=Event|bratT3=Person|bratT30=Person-surname
+4	Бруклина	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT27=Person-forename
+5	Бекхэма	_	_	_	_	_	_	_	bratA3=T2:Male|bratT2=Person|bratT28=Person-surname
+6	и	_	_	_	_	_	_	_	_
+7	Николы	_	_	_	_	_	_	_	bratA4=T3:Female|bratT29=Person-forename|bratT3=Person
+8	Пельтц	_	_	_	_	_	_	_	bratA4=T3:Female|bratT3=Person|bratT30=Person-surname
 
 # newpar id = 0089-p2
 # par_text = Мы уже знаем, что Бруклин Бекхэм и Никола Пельтц хотят утроить две свадьбы — на родине Бекхэма, в Великобритании, а также в США, где живут родители невесты. Кстати, именно бизнесмен Нельсон Пельтц готов взять на себя большую часть расходов, однако и семья жениха намерена внести весомый вклад в организацию. Из материала, опубликованного The Sun, стало известно, что Виктория Бекхэм уже практически определилась с дизайном свадебного платья, которое сошьет для Николы — вместе они работают над эскизами. «Никола — красивая девушка и будет выглядеть изумительно в любом наряде, но Виктория известна созданием выверенных, современных и минималистичных образов. Ничего пышного не будет. У Виктории, например, есть отличный вариант со смокингом», — поделился инсайдер. Мастера марки Victoria Beckham также будут отвечать за бьюти-образ Николы.
@@ -29,7 +29,7 @@
 11	хотят	_	_	_	_	_	_	_	_
 12	утроить	_	_	_	_	_	_	_	_
 13	две	_	_	_	_	_	_	_	bratT6=Quantity
-14	свадьбы	_	_	_	_	_	_	_	bratT6=Quantity
+14	свадьбы	_	_	_	_	_	_	_	bratT57=Event|bratT6=Quantity
 15	-	_	_	_	_	_	_	_	_
 16	на	_	_	_	_	_	_	_	_
 17	родине	_	_	_	_	_	_	_	_
@@ -45,8 +45,8 @@
 27	,	_	_	_	_	_	_	_	_
 28	где	_	_	_	_	_	_	_	_
 29	живут	_	_	_	_	_	_	_	_
-30	родители	_	_	_	_	_	_	_	bratT53=Family
-31	невесты	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Family
+30	родители	_	_	_	_	_	_	_	bratT53=Family|bratT58=Person
+31	невесты	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T63:Female|bratT54=Family|bratT58=Person|bratT63=Person
 32	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p2-s2
@@ -67,14 +67,14 @@
 14	,	_	_	_	_	_	_	_	_
 15	однако	_	_	_	_	_	_	_	_
 16	и	_	_	_	_	_	_	_	_
-17	семья	_	_	_	_	_	_	_	bratT47=Family
-18	жениха	_	_	_	_	_	_	_	bratT48=Family
+17	семья	_	_	_	_	_	_	_	bratT47=Family|bratT56=Person
+18	жениха	_	_	_	_	_	_	_	bratA17=T62:Male|bratT48=Family|bratT56=Person|bratT62=Person
 19	намерена	_	_	_	_	_	_	_	_
 20	внести	_	_	_	_	_	_	_	_
 21	весомый	_	_	_	_	_	_	_	_
 22	вклад	_	_	_	_	_	_	_	_
 23	в	_	_	_	_	_	_	_	_
-24	организацию	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
+24	организацию	_	_	_	_	_	_	_	SpaceAfter=No
 25	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p2-s3
@@ -163,15 +163,15 @@
 12	,	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
 14	поделился	_	_	_	_	_	_	_	_
-15	инсайдер	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person-property
+15	инсайдер	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p2-s7
 # text = Мастера марки Victoria Beckham также будут отвечать за бьюти-образ Николы.
-1	Мастера	_	_	_	_	_	_	_	bratT18=Person-property
-2	марки	_	_	_	_	_	_	_	bratA2=T19:Trademark|bratT18=Person-property|bratT19=Product
-3	Victoria	_	_	_	_	_	_	_	bratA2=T19:Trademark|bratT18=Person-property|bratT19=Product
-4	Beckham	_	_	_	_	_	_	_	bratA2=T19:Trademark|bratT18=Person-property|bratT19=Product
+1	Мастера	_	_	_	_	_	_	_	bratT18=Person-property|bratT64=Person
+2	марки	_	_	_	_	_	_	_	bratA2=T19:Trademark|bratT18=Person-property|bratT19=Product|bratT64=Person
+3	Victoria	_	_	_	_	_	_	_	bratA2=T19:Trademark|bratA20=T69:Female|bratT18=Person-property|bratT19=Product|bratT64=Person|bratT67=Person-forename|bratT69=Person
+4	Beckham	_	_	_	_	_	_	_	bratA2=T19:Trademark|bratA20=T69:Female|bratT18=Person-property|bratT19=Product|bratT64=Person|bratT68=Person-surname|bratT69=Person
 5	также	_	_	_	_	_	_	_	_
 6	будут	_	_	_	_	_	_	_	_
 7	отвечать	_	_	_	_	_	_	_	_
@@ -208,7 +208,7 @@
 8	главных	_	_	_	_	_	_	_	_
 9	ролей	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	свадьбе	_	_	_	_	_	_	_	_
+11	свадьбе	_	_	_	_	_	_	_	bratT59=Event
 12	сыграет	_	_	_	_	_	_	_	_
 13	Дэвид	_	_	_	_	_	_	_	bratA15=T22:Male|bratT22=Person|bratT45=Person-forename
 14	Бекхэм	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T22:Male|bratT22=Person|bratT46=Person-surname
@@ -227,8 +227,8 @@
 9	значит	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
-12	отец	_	_	_	_	_	_	_	bratT23=Family
-13	жениха	_	_	_	_	_	_	_	bratT50=Family
+12	отец	_	_	_	_	_	_	_	bratA16=T60:Male|bratT23=Family|bratT60=Person
+13	жениха	_	_	_	_	_	_	_	bratA16=T60:Male|bratA19=T65:Male|bratT50=Family|bratT60=Person|bratT65=Person
 14	исполнит	_	_	_	_	_	_	_	_
 15	роль	_	_	_	_	_	_	_	_
 16	шафера	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property
@@ -247,13 +247,13 @@
 9	соблюдена	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	и	_	_	_	_	_	_	_	_
-12	семья	_	_	_	_	_	_	_	bratT25=Family
-13	Бекхэм	_	_	_	_	_	_	_	bratT24=Person-surname
+12	семья	_	_	_	_	_	_	_	bratT25=Family|bratT61=Person
+13	Бекхэм	_	_	_	_	_	_	_	bratT24=Person-surname|bratT61=Person
 14	произнесет	_	_	_	_	_	_	_	_
-15	совместный	_	_	_	_	_	_	_	_
-16	тост	_	_	_	_	_	_	_	_
+15	совместный	_	_	_	_	_	_	_	bratT70=Event
+16	тост	_	_	_	_	_	_	_	bratT70=Event
 17	на	_	_	_	_	_	_	_	_
 18	обоих	_	_	_	_	_	_	_	bratT51=Quantity
-19	торжествах	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Quantity
+19	торжествах	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Quantity|bratT66=Event
 20	.	_	_	_	_	_	_	_	_
 

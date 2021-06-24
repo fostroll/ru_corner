@@ -60,7 +60,7 @@
 5	сайте	_	_	_	_	_	_	_	bratA1=T19:Media|bratT19=Service
 6	системы	_	_	_	_	_	_	_	bratA8=T30:Project|bratT30=Product
 7	мониторинга	_	_	_	_	_	_	_	bratA8=T30:Project|bratT30=Product
-8	распространения	_	_	_	_	_	_	_	bratA8=T30:Project|bratT30=Product
+8	распространения	_	_	_	_	_	_	_	bratA8=T30:Project|bratT30=Product|bratT47=Event
 9	эпидемии	_	_	_	_	_	_	_	bratA8=T30:Project|bratT30=Product|bratT5=Event
 10	коронавируса	_	_	_	_	_	_	_	bratA8=T30:Project|bratT29=Other-term|bratT30=Product|bratT5=Event
 11	Совета	_	_	_	_	_	_	_	bratT6=Organization
@@ -95,8 +95,8 @@
 # text = Всего с начала пандемии на Украине зафиксировали 11 492 летальных случая коронавируса, 307 778 человек вылечились.
 1	Всего	_	_	_	_	_	_	_	_
 2	с	_	_	_	_	_	_	_	bratA2=T27:Past-Pres|bratT27=Date-period-absolute
-3	начала	_	_	_	_	_	_	_	bratA2=T27:Past-Pres|bratT27=Date-period-absolute
-4	пандемии	_	_	_	_	_	_	_	bratA2=T27:Past-Pres|bratT26=Event|bratT27=Date-period-absolute
+3	начала	_	_	_	_	_	_	_	bratA2=T27:Past-Pres|bratT27=Date-period-absolute|bratT48=Event
+4	пандемии	_	_	_	_	_	_	_	bratA2=T27:Past-Pres|bratT26=Event|bratT27=Date-period-absolute|bratT48=Event
 5	на	_	_	_	_	_	_	_	_
 6	Украине	_	_	_	_	_	_	_	bratT11=GPE
 7	зафиксировали	_	_	_	_	_	_	_	_

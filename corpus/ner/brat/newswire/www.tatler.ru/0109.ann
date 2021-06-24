@@ -1,4 +1,4 @@
-T1	Person 8 19	Ротенбергов
+T1	Person 0 19	Семья   Ротенбергов
 T2	Family 0 5	Семья
 T3	GPE 49 55	России
 T4	Organization 57 72	Журнал   Forbes
@@ -17,11 +17,11 @@ T18	Organization 417 444	Федерации   хоккея   России
 T19	GPE 438 444	России
 T20	Person-property 451 507	гендиректора   фонда   ``   СКД   ``   Явара - Нева   ''
 T21	Organization 466 507	фонда   ``   СКД   ``   Явара - Нева   ''
-T22	Person 559 592	его   брата   Бориса   Ротенберга
+T22	Person 559 624	его   брата   Бориса   Ротенберга   ,   совладельца   СМП   Банка
 T23	Family 565 570	брата
 T24	Person-property 599 624	совладельца   СМП   Банка
 T25	Organization 613 624	СМП   Банка
-T26	Person 643 674	его   сына   Игоря   Ротенберга
+T26	Person 643 751	его   сына   Игоря   Ротенберга   ,   председателя   совета   директоров   ООО   ``   Газпром   бурение   ''
 T27	Family 649 653	сына
 T13	Money 321 339	до   $ 5,45   млрд
 T7	Date-period-absolute 163 179	за   шесть   лет
@@ -35,7 +35,7 @@ T28	Person-property 681 751	председателя   совета   дирек
 T29	Organization 696 751	совета   директоров   ООО   ``   Газпром   бурение   ''
 A10	Department T29
 T30	Organization 718 751	ООО   ``   Газпром   бурение   ''
-T31	Person 768 800	его   дочери   Лилии   Ротенберг
+T31	Person 768 840	его   дочери   Лилии   Ротенберг   ,   совладелицы   TPS   Real   Estate
 A11	Male T31
 T32	Family 774 780	дочери
 T33	Person-property 807 840	совладелицы   TPS   Real   Estate
@@ -55,8 +55,8 @@ T46	Person 1129 1135	Андрей
 A13	Male T46
 T47	Person 1142 1146	Юлия
 A14	Female T47
-T48	Person-property 1160 1173	бенефициарами
-T49	Person 1208 1218	Гуцериевых
+T48	Person-property 1160 1194	бенефициарами   семейного   траста
+T49	Person 1200 1218	Семья   Гуцериевых
 T50	Family 1200 1205	Семья
 T51	Ordinal 1283 1289	третье
 T52	Money 1333 1351	на   $ 2,45   млрд
@@ -65,14 +65,13 @@ T55	Person 1399 1448	владельца   компании   ``   Сафмар  
 A15	Male T55
 T56	Person-property 1399 1438	владельца   компании   ``   Сафмар   ''
 T57	Organization 1411 1438	компании   ``   Сафмар   ''
-T58	Person 1469 1480	Саит-Салама
-A16	Male T58
+T58	Person-forename 1469 1480	Саит-Салама
 T59	Person 1487 1499	сына   Саида
 A17	Male T59
 T60	Family 1461 1466	брата
 T61	Family 1487 1491	сына
 T62	Quantity 1509 1516	пятерку
-T63	Person 1543 1552	Шаймиевых
+T63	Person 1535 1552	семья   Шаймиевых
 T64	Money 1572 1585	$ 2,85   млрд
 T65	Person 1592 1630	Владимира   и   Феликса   Евтушенковых
 A18	Plural T65
@@ -104,7 +103,7 @@ T89	Person-forename 1069 1089	его   жены   Евгении
 T90	Person-forename 1129 1135	Андрей
 T91	Person-forename 1142 1146	Юлия
 T92	Person-surname 1208 1218	Гуцериевых
-T93	Person-forename 1455 1480	его   брата   Саит-Салама
+T93	Person 1455 1480	его   брата   Саит-Салама
 T94	Person-forename 1494 1499	Саида
 T95	Person-forename 1592 1601	Владимира
 T96	Person-forename 1608 1615	Феликса
@@ -128,3 +127,9 @@ T110	Person 1608 1615	Феликса
 A19	Male T110
 T111	Family 1535 1540	семья
 A24	Past-UNK T105
+T14	Organization 129 144	кланов   России
+T39	Person 276 281	семьи
+T54	Location 498 502	Нева
+T112	Organization 1176 1194	семейного   траста
+A4	Male T93
+A6	Male T65

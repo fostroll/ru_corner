@@ -8,12 +8,12 @@
 3	четвертый	_	_	_	_	_	_	_	bratT48=Ordinal
 4	раз	_	_	_	_	_	_	_	_
 5	оправдали	_	_	_	_	_	_	_	_
-6	крымчанина	_	_	_	_	_	_	_	bratA1=T3:Resident|bratT3=Nationality
+6	крымчанина	_	_	_	_	_	_	_	bratA1=T3:Resident|bratA21=T70:Male|bratT3=Nationality|bratT70=Person
 7	по	_	_	_	_	_	_	_	_
 8	делу	_	_	_	_	_	_	_	bratT56=Event
 9	о	_	_	_	_	_	_	_	_
 10	гибели	_	_	_	_	_	_	_	bratT57=Event
-11	бездомного	_	_	_	_	_	_	_	bratT4=Person-property
+11	бездомного	_	_	_	_	_	_	_	bratA22=T71:Male|bratT4=Person-property|bratT71=Person
 
 # newpar id = 0074-p2
 # par_text = Присяжные в Симферопольском районном суде оправдали жителя города Саки Александра Буянова по делу об гибели бездомного. Об этом «Медиазоне» рассказал сам Буянов.
@@ -34,7 +34,7 @@
 13	делу	_	_	_	_	_	_	_	bratT58=Event
 14	об	_	_	_	_	_	_	_	_
 15	гибели	_	_	_	_	_	_	_	bratT59=Event
-16	бездомного	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
+16	бездомного	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T72:Male|bratT12=Person-property|bratT72=Person
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0074-p2-s2
@@ -57,8 +57,8 @@
 2	версии	_	_	_	_	_	_	_	_
 3	следствия	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Person-property
 4	,	_	_	_	_	_	_	_	_
-5	молодой	_	_	_	_	_	_	_	bratT16=Age
-6	человек	_	_	_	_	_	_	_	bratT16=Age
+5	молодой	_	_	_	_	_	_	_	bratA18=T67:Male|bratT16=Age|bratT67=Person
+6	человек	_	_	_	_	_	_	_	bratA18=T67:Male|bratT67=Person
 7	в	_	_	_	_	_	_	_	bratA7=T17:Past|bratT17=Date-absolute
 8	2017	_	_	_	_	_	_	_	bratA7=T17:Past|bratT17=Date-absolute
 9	году	_	_	_	_	_	_	_	bratA7=T17:Past|bratT17=Date-absolute
@@ -72,9 +72,9 @@
 17	его	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	избиении	_	_	_	_	_	_	_	_
-20	матери	_	_	_	_	_	_	_	bratT22=Family
-21	своей	_	_	_	_	_	_	_	_
-22	подруги	_	_	_	_	_	_	_	SpaceAfter=No
+20	матери	_	_	_	_	_	_	_	bratA20=T69:Female|bratT22=Family|bratT69=Person
+21	своей	_	_	_	_	_	_	_	bratA19=T68:Female|bratA20=T69:Female|bratT68=Person|bratT69=Person
+22	подруги	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T68:Female|bratA20=T69:Female|bratT68=Person|bratT69=Person
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0074-p3-s2
@@ -132,7 +132,7 @@
 14	,	_	_	_	_	_	_	_	_
 15	но	_	_	_	_	_	_	_	_
 16	потом	_	_	_	_	_	_	_	bratA17=T53:Past|bratT53=Date-relative
-17	следователь	_	_	_	_	_	_	_	bratT28=Person-property
+17	следователь	_	_	_	_	_	_	_	bratA24=T73:Male|bratT28=Person-property|bratT73=Person
 18	поменял	_	_	_	_	_	_	_	_
 19	статью	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 1	Когда	_	_	_	_	_	_	_	_
 2	присяжные	_	_	_	_	_	_	_	bratT34=Person-property
 3	оправдали	_	_	_	_	_	_	_	_
-4	крымчанина	_	_	_	_	_	_	_	bratA11=T35:Resident|bratT35=Nationality
+4	крымчанина	_	_	_	_	_	_	_	bratA11=T35:Resident|bratA25=T74:Male|bratT35=Nationality|bratT74=Person
 5	в	_	_	_	_	_	_	_	_
 6	третий	_	_	_	_	_	_	_	bratT36=Ordinal
 7	раз	_	_	_	_	_	_	_	SpaceAfter=No
@@ -202,7 +202,7 @@
 11	бы	_	_	_	_	_	_	_	_
 12	не	_	_	_	_	_	_	_	_
 13	вели	_	_	_	_	_	_	_	_
-14	процесс	_	_	_	_	_	_	_	_
+14	процесс	_	_	_	_	_	_	_	bratT66=Event
 15	Буянова	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T42:Male|bratT42=Person|bratT43=Person-surname
 16	.	_	_	_	_	_	_	_	_
 
@@ -210,8 +210,8 @@
 # text = Все три оправдательных приговора отменял Верховный суд Крыма.
 1	Все	_	_	_	_	_	_	_	_
 2	три	_	_	_	_	_	_	_	bratT46=Quantity
-3	оправдательных	_	_	_	_	_	_	_	bratT46=Quantity
-4	приговора	_	_	_	_	_	_	_	bratT46=Quantity
+3	оправдательных	_	_	_	_	_	_	_	bratT46=Quantity|bratT75=Event
+4	приговора	_	_	_	_	_	_	_	bratT46=Quantity|bratT75=Event
 5	отменял	_	_	_	_	_	_	_	_
 6	Верховный	_	_	_	_	_	_	_	bratT44=Organization
 7	суд	_	_	_	_	_	_	_	bratT44=Organization

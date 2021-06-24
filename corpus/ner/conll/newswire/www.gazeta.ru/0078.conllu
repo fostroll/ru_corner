@@ -82,13 +82,13 @@
 # sent_id = 0078-p4-s1
 # text = Игра ``Лацио'' - ``Зенит'' состоится 24-го ноября.
 1	Игра	_	_	_	_	_	_	_	bratT19=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT19=Event
-3	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization|bratT19=Event
-4	''	_	_	_	_	_	_	_	bratT17=Organization|bratT19=Event
-5	-	_	_	_	_	_	_	_	bratT19=Event
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT19=Event
-7	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization|bratT19=Event
-8	''	_	_	_	_	_	_	_	bratT18=Organization|bratT19=Event
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+3	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Organization
+4	''	_	_	_	_	_	_	_	bratT17=Organization
+5	-	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+7	Зенит	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+8	''	_	_	_	_	_	_	_	bratT18=Organization
 9	состоится	_	_	_	_	_	_	_	_
 10	24-го	_	_	_	_	_	_	_	bratA4=T20:Future|bratT20=Date-absolute
 11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T20:Future|bratT20=Date-absolute
@@ -96,7 +96,7 @@
 
 # sent_id = 0078-p4-s2
 # text = Начало - 23:00 мск.
-1	Начало	_	_	_	_	_	_	_	_
+1	Начало	_	_	_	_	_	_	_	bratT50=Event
 2	-	_	_	_	_	_	_	_	_
 3	23:00	_	_	_	_	_	_	_	bratA3=T34:Future|bratT30=Time-absolute|bratT34=Date-relative
 4	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T34:Future|bratT30=Time-absolute|bratT34=Date-relative|bratT47=GPE

@@ -43,8 +43,7 @@ T39	Person-surname 15 20	Маркл
 T40	Person-forename 23 28	Томас
 T41	Family 0 4	Отец
 A4	Male T3
-T42	Person-forename 78 82	Арчи
-T43	Person-surname 85 94	Харрисона
+T42	Person-forename 78 94	Арчи   Харрисона
 A5	Past T5
 T44	Person-forename 130 139	Елизаветы
 A6	Female T7
@@ -54,8 +53,7 @@ A9	Female T11
 T45	Person-forename 233 238	Гарри
 T46	Person-forename 245 250	Меган
 T47	Person-surname 253 258	Маркл
-T48	Person-forename 261 265	Арчи
-T49	Person-surname 268 277	Харрисона
+T48	Person-forename 261 277	Арчи   Харрисона
 A10	Female T14
 T50	Person-forename 412 417	Дория
 T51	Person-surname 420 427	Рэгланд
@@ -84,11 +82,29 @@ A20	Male T63
 T64	Person 1197 1210	моего   внука
 A21	Male T64
 T65	Religious-group 1304 1328	верным   членом   церкви
-T66	Person 1380 1390	мой   внук
-A22	Male T66
 T67	Family 1541 1550	родителям
 T68	Person 1535 1550	его   родителям
 A23	RCont T62
 T69	Ordinal 142 144	II
 T70	Date-relative 1073 1077	день
 A24	Past T70
+T71	Organization 1322 1328	церкви
+T72	Event 480 488	праздник
+T73	Event 287 296	церемонии
+T74	Event 50 58	крестины
+T75	Person-property 675 684	папарацци
+T43	GPE 399 409	Суссекской
+A25	Adjective T43
+T49	Person 387 409	герцогини   Суссекской
+A26	Female T49
+T76	Person-forename 467 472	Меган
+T77	Person 705 712	мужчина
+A27	Male T77
+T78	Person 824 830	дочери
+A28	Female T78
+T79	Event 835 843	Крещение
+T80	Person-forename 945 950	Томас
+T81	Person 945 950	Томас
+A29	Male T81
+T82	Person 1043 1049	семьей
+T66	Event 756 764	интервью

@@ -3,8 +3,8 @@
 # par_text = Водитель экскаватора спас людей при пожаре в Москве
 # sent_id = 0102-p1-s1
 # text = Водитель экскаватора спас людей при пожаре в Москве
-1	Водитель	_	_	_	_	_	_	_	bratT1=Person-property
-2	экскаватора	_	_	_	_	_	_	_	bratT1=Person-property
+1	Водитель	_	_	_	_	_	_	_	bratA6=T30:Male|bratT1=Person-property|bratT30=Person
+2	экскаватора	_	_	_	_	_	_	_	bratA6=T30:Male|bratT1=Person-property|bratT30=Person
 3	спас	_	_	_	_	_	_	_	_
 4	людей	_	_	_	_	_	_	_	_
 5	при	_	_	_	_	_	_	_	_
@@ -34,8 +34,8 @@
 16	были	_	_	_	_	_	_	_	_
 17	спасены	_	_	_	_	_	_	_	_
 18	благодаря	_	_	_	_	_	_	_	_
-19	водителю	_	_	_	_	_	_	_	bratT4=Person-property
-20	экскаватора	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person-property
+19	водителю	_	_	_	_	_	_	_	bratA7=T31:Male|bratT31=Person|bratT4=Person-property
+20	экскаватора	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T31:Male|bratT31=Person|bratT4=Person-property
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0102-p2-s2
@@ -55,7 +55,7 @@
 # text = Во время ЧП возле здания проходили ремонтные работы.
 1	Во	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
 2	время	_	_	_	_	_	_	_	bratA2=T17:Past|bratT17=Date-absolute
-3	ЧП	_	_	_	_	_	_	_	bratA2=T17:Past|bratT15=Other-term|bratT17=Date-absolute
+3	ЧП	_	_	_	_	_	_	_	bratA2=T17:Past|bratT15=Event|bratT17=Date-absolute
 4	возле	_	_	_	_	_	_	_	_
 5	здания	_	_	_	_	_	_	_	bratT23=Facility
 6	проходили	_	_	_	_	_	_	_	_
@@ -77,7 +77,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	подъехал	_	_	_	_	_	_	_	_
 12	к	_	_	_	_	_	_	_	_
-13	дому	_	_	_	_	_	_	_	_
+13	дому	_	_	_	_	_	_	_	bratT27=Facility
 14	и	_	_	_	_	_	_	_	_
 15	с	_	_	_	_	_	_	_	_
 16	помощью	_	_	_	_	_	_	_	_
@@ -96,22 +96,22 @@
 3	уточнили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	мужчина	_	_	_	_	_	_	_	_
+6	мужчина	_	_	_	_	_	_	_	bratA8=T32:Male|bratT32=Person
 7	спас	_	_	_	_	_	_	_	_
 8	людей	_	_	_	_	_	_	_	_
 9	до	_	_	_	_	_	_	_	_
-10	приезда	_	_	_	_	_	_	_	_
+10	приезда	_	_	_	_	_	_	_	bratT34=Event
 11	спасателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0102-p4-s2
 # text = После приезда пожарные спасли из дома с помощью трехколенной лестницы еще шесть человек, включая ребенка.
 1	После	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
-2	приезда	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
+2	приезда	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute|bratT33=Event
 3	пожарные	_	_	_	_	_	_	_	bratT12=Person-property
 4	спасли	_	_	_	_	_	_	_	_
 5	из	_	_	_	_	_	_	_	_
-6	дома	_	_	_	_	_	_	_	_
+6	дома	_	_	_	_	_	_	_	bratT28=Facility
 7	с	_	_	_	_	_	_	_	_
 8	помощью	_	_	_	_	_	_	_	_
 9	трехколенной	_	_	_	_	_	_	_	bratT14=Quantity
@@ -129,7 +129,7 @@
 # sent_id = 0102-p5-s1
 # text = Позднее возгорание было ликвидировано.
 1	Позднее	_	_	_	_	_	_	_	bratA3=T18:Past|bratT18=Date-relative
-2	возгорание	_	_	_	_	_	_	_	_
+2	возгорание	_	_	_	_	_	_	_	bratT29=Event
 3	было	_	_	_	_	_	_	_	_
 4	ликвидировано	_	_	_	_	_	_	_	SpaceAfter=No
 5	.	_	_	_	_	_	_	_	_

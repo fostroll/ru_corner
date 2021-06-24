@@ -9,13 +9,13 @@ T7	Family 98 102	отца
 T8	Person-forename 124 128	Теда
 T9	Person-forename 105 111	Дэвида
 T10	Person-surname 114 121	Бекхэма
-T11	Person-property 170 186	сборщик   мебели
+T11	Person-property 161 186	Бывший   сборщик   мебели
 T12	Date-absolute 218 243	В   апреле   этого   года
 A2	Past T12
 T13	Person 246 249	Тед
 A3	Male T13
 T14	Person-forename 246 249	Тед
-T15	Person 271 287	Хилари   Мередит
+T15	Person 271 328	Хилари   Мередит   ,   известным   британским   адвокатом
 A4	Female T15
 T16	Person-forename 271 277	Хилари
 T17	Person-surname 280 287	Мередит
@@ -84,3 +84,21 @@ A21	Past T63
 A16	Past T54
 T64	Age 586 594	пожилыми
 T65	Person 879 888	источники
+T66	Event 942 947	роман
+T67	Organization 908 915	прессой
+A22	Media T67
+T68	Person 44 56	миллионершей
+A23	Female T68
+T69	Person 994 999	сыном
+A24	Male T69
+T70	Person 1006 1018	его   семьей
+T71	Person 1027 1041	новую   пассию
+A25	Female T71
+T72	Person 1218 1222	отца
+A26	Male T72
+T73	Person 1275 1284	родителей
+T74	Person 7 23	Дэвида   Бекхэма
+A27	Male T74
+T75	Person 475 479	Теда
+A28	Male T75
+T76	Facility 745 750	виллу

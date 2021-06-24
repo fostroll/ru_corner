@@ -8,10 +8,10 @@ T5	Person 278 295	Ирину   Горбачеву
 T6	Person 392 422	журналист   Лиана   Сатенштейн
 T7	Person-property 392 401	журналист
 T8	Person 486 495	Горбачева
-T9	Work-of-art 565 582	``   Аритмия   ''
+T9	Work-of-art 534 582	фильме   Бориса   Хлебникова   ``   Аритмия   ''
 T10	Person 543 562	Бориса   Хлебникова
 T11	Quantity 606 616	одним   из
-T12	Other-term 631 661	фестиваля   ``   Кинотавр   ''
+T12	Event 631 661	фестиваля   ``   Кинотавр   ''
 T13	Date-absolute 664 679	в   2017   году
 T14	Person-property 692 697	автор
 T15	Person 726 731	Ирины
@@ -61,3 +61,11 @@ T43	Ordinal 816 824	прошлого
 T44	Person-property 1367 1373	звезды
 T45	Organization 312 328	модное   издание
 A18	Media T45
+T46	Event 778 797	бьюти-экспериментах
+T47	Person 692 697	автор
+T48	Person 834 841	актриса
+A19	Female T48
+T49	Person 972 979	актрисы
+A20	Female T49
+T50	Person 1344 1373	восходящей   женщины - звезды
+A21	Female T50

@@ -19,7 +19,7 @@
 1	Некогда	_	_	_	_	_	_	_	_
 2	самая	_	_	_	_	_	_	_	_
 3	обсуждаемая	_	_	_	_	_	_	_	_
-4	пара	_	_	_	_	_	_	_	bratT7=Family
+4	пара	_	_	_	_	_	_	_	bratT55=Person|bratT7=Family
 5	Голливуда	_	_	_	_	_	_	_	bratT8=GPE
 6	заставляет	_	_	_	_	_	_	_	_
 7	говорить	_	_	_	_	_	_	_	_
@@ -54,10 +54,10 @@
 
 # sent_id = 0076-p2-s3
 # text = Бывшие супруги делят детей, имущество, обвиняют друг друга во всех смертных грехах и явно уже не надеются остаться в дружеских отношениях.
-1	Бывшие	_	_	_	_	_	_	_	bratT16=Family
-2	супруги	_	_	_	_	_	_	_	bratT16=Family
+1	Бывшие	_	_	_	_	_	_	_	bratT16=Family|bratT56=Person
+2	супруги	_	_	_	_	_	_	_	bratT16=Family|bratT56=Person
 3	делят	_	_	_	_	_	_	_	_
-4	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Family
+4	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Family|bratT57=Person
 5	,	_	_	_	_	_	_	_	_
 6	имущество	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
@@ -97,8 +97,8 @@
 1	В	_	_	_	_	_	_	_	_
 2	официальном	_	_	_	_	_	_	_	_
 3	заявлении	_	_	_	_	_	_	_	_
-4	адвоката	_	_	_	_	_	_	_	bratT23=Person-property
-5	актрисы	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Person-property
+4	адвоката	_	_	_	_	_	_	_	bratT23=Person-property|bratT59=Person
+5	актрисы	_	_	_	_	_	_	_	bratA21=T58:Female|bratT22=Person-property|bratT23=Person-property|bratT58=Person|bratT59=Person
 6	сказано	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
@@ -109,8 +109,8 @@
 13	Питт	_	_	_	_	_	_	_	bratA11=T26:Male|bratT25=Person-surname|bratT26=Person
 14	не	_	_	_	_	_	_	_	_
 15	оказывал	_	_	_	_	_	_	_	_
-16	шестерым	_	_	_	_	_	_	_	bratT27=Quantity
-17	детям	_	_	_	_	_	_	_	bratT27=Quantity|bratT28=Family
+16	шестерым	_	_	_	_	_	_	_	bratT27=Quantity|bratT60=Person
+17	детям	_	_	_	_	_	_	_	bratT27=Quantity|bratT28=Family|bratT60=Person
 18	финансовую	_	_	_	_	_	_	_	_
 19	помощь	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_
@@ -160,8 +160,8 @@
 2	Джоли	_	_	_	_	_	_	_	bratA14=T36:Female|bratT35=Person-surname|bratT36=Person
 3	намерена	_	_	_	_	_	_	_	_
 4	обязать	_	_	_	_	_	_	_	_
-5	бывшего	_	_	_	_	_	_	_	bratT37=Family
-6	мужа	_	_	_	_	_	_	_	bratT37=Family
+5	бывшего	_	_	_	_	_	_	_	bratA22=T61:Male|bratT37=Family|bratT61=Person
+6	мужа	_	_	_	_	_	_	_	bratA22=T61:Male|bratT37=Family|bratT61=Person
 7	платить	_	_	_	_	_	_	_	_
 8	алименты	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -176,8 +176,8 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	адвокат	_	_	_	_	_	_	_	bratT39=Person-property
-5	актрисы	_	_	_	_	_	_	_	bratT38=Person-property|bratT39=Person-property
+4	адвокат	_	_	_	_	_	_	_	bratA24=T63:Male|bratT39=Person-property|bratT63=Person
+5	актрисы	_	_	_	_	_	_	_	bratA23=T62:Female|bratA24=T63:Male|bratT38=Person-property|bratT39=Person-property|bratT62=Person|bratT63=Person
 6	подал	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	суд	_	_	_	_	_	_	_	bratT41=Organization
@@ -187,7 +187,7 @@
 12	том	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
-15	пара	_	_	_	_	_	_	_	bratT42=Family
+15	пара	_	_	_	_	_	_	_	bratT42=Family|bratT64=Person
 16	даже	_	_	_	_	_	_	_	_
 17	не	_	_	_	_	_	_	_	_
 18	близка	_	_	_	_	_	_	_	_
@@ -218,7 +218,7 @@
 9	достанется	_	_	_	_	_	_	_	_
 10	опека	_	_	_	_	_	_	_	_
 11	над	_	_	_	_	_	_	_	_
-12	детьми	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Family
+12	детьми	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Family|bratT65=Person
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
 15	даже	_	_	_	_	_	_	_	_
@@ -240,8 +240,8 @@
 3	вероятности	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	история	_	_	_	_	_	_	_	_
-6	судебных	_	_	_	_	_	_	_	_
-7	разбирательств	_	_	_	_	_	_	_	_
+6	судебных	_	_	_	_	_	_	_	bratT54=Event
+7	разбирательств	_	_	_	_	_	_	_	bratT54=Event
 8	Джоли	_	_	_	_	_	_	_	bratA16=T47:Female|bratT45=Person-surname|bratT47=Person
 9	и	_	_	_	_	_	_	_	_
 10	Питта	_	_	_	_	_	_	_	bratA17=T48:Male|bratT46=Person-surname|bratT48=Person

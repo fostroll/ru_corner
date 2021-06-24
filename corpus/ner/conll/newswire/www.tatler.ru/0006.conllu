@@ -13,7 +13,7 @@
 8	Великобританию	_	_	_	_	_	_	_	bratT7=GPE
 9	по	_	_	_	_	_	_	_	_
 10	просьбе	_	_	_	_	_	_	_	_
-11	королевы	_	_	_	_	_	_	_	bratT8=Person-property
+11	королевы	_	_	_	_	_	_	_	bratA30=T90:Female|bratT8=Person-property|bratT90=Person
 
 # newpar id = 0006-p2
 # par_text = Уже несколько недель принц Гарри и Меган Маркл проживают в Канаде и всеми силами избегают внимания к своим персонам после объявления о сложении королевских полномочий. Однако в следующем месяце им все же придется вернуться в Лондон и предстать перед подданными Великобритании. Об этом герцога и герцогиню Сассекских попросила королева Елизавета II. 9 марта они примут участие в торжественной службе по поводу Дня Содружества наций, которая пройдет в Вестминстерском аббатстве. Это будет последнее официальное мероприятие, которое Гарри и Меган посетят от имени Короны. На событии традиционно собирается вся монаршая семья. Помимо королевы, а также герцога и герцогини Сассекских на службе должны появиться принц Чарльз с герцогиней Камиллой и принц Уильям с герцогиней Кэтрин. Интерес к событию в этом году ожидаемо будет очень высок.
@@ -39,11 +39,11 @@
 18	своим	_	_	_	_	_	_	_	_
 19	персонам	_	_	_	_	_	_	_	_
 20	после	_	_	_	_	_	_	_	bratA7=T17:Past|bratT17=Date-absolute
-21	объявления	_	_	_	_	_	_	_	bratA7=T17:Past|bratT17=Date-absolute|bratT83=Event
-22	о	_	_	_	_	_	_	_	bratT83=Event
+21	объявления	_	_	_	_	_	_	_	bratA7=T17:Past|bratT102=Event|bratT17=Date-absolute
+22	о	_	_	_	_	_	_	_	_
 23	сложении	_	_	_	_	_	_	_	bratT83=Event
-24	королевских	_	_	_	_	_	_	_	bratT83=Event
-25	полномочий	_	_	_	_	_	_	_	SpaceAfter=No|bratT83=Event
+24	королевских	_	_	_	_	_	_	_	bratT100=Person-property
+25	полномочий	_	_	_	_	_	_	_	SpaceAfter=No|bratT100=Person-property
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p2-s2
@@ -70,10 +70,10 @@
 # text = Об этом герцога и герцогиню Сассекских попросила королева Елизавета II.
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	герцога	_	_	_	_	_	_	_	bratA11=T24:Plural|bratT24=Person|bratT75=Person-property
-4	и	_	_	_	_	_	_	_	bratA11=T24:Plural|bratT24=Person
-5	герцогиню	_	_	_	_	_	_	_	bratA11=T24:Plural|bratT24=Person|bratT76=Person-property
-6	Сассекских	_	_	_	_	_	_	_	bratA10=T23:Adjective|bratA11=T24:Plural|bratT23=GPE|bratT24=Person
+3	герцога	_	_	_	_	_	_	_	bratA11=T24:Plural|bratA31=T92:Male|bratT24=Person|bratT75=Person-property|bratT91=Person-property|bratT92=Person
+4	и	_	_	_	_	_	_	_	bratA11=T24:Plural|bratT24=Person|bratT91=Person-property
+5	герцогиню	_	_	_	_	_	_	_	bratA11=T24:Plural|bratA32=T93:Male|bratT24=Person|bratT76=Person-property|bratT91=Person-property|bratT93=Person
+6	Сассекских	_	_	_	_	_	_	_	bratA10=T23:Adjective|bratA11=T24:Plural|bratT23=GPE|bratT24=Person|bratT91=Person-property
 7	попросила	_	_	_	_	_	_	_	_
 8	королева	_	_	_	_	_	_	_	bratA12=T27:Female|bratT26=Person-property|bratT27=Person
 9	Елизавета	_	_	_	_	_	_	_	bratA12=T27:Female|bratT25=Person-forename|bratT27=Person
@@ -107,7 +107,7 @@
 # text = Это будет последнее официальное мероприятие, которое Гарри и Меган посетят от имени Короны.
 1	Это	_	_	_	_	_	_	_	_
 2	будет	_	_	_	_	_	_	_	_
-3	последнее	_	_	_	_	_	_	_	bratT32=Ordinal
+3	последнее	_	_	_	_	_	_	_	bratT32=Ordinal|bratT89=Event
 4	официальное	_	_	_	_	_	_	_	bratT89=Event
 5	мероприятие	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Event
 6	,	_	_	_	_	_	_	_	_
@@ -124,7 +124,7 @@
 # sent_id = 0006-p2-s6
 # text = На событии традиционно собирается вся монаршая семья.
 1	На	_	_	_	_	_	_	_	_
-2	событии	_	_	_	_	_	_	_	_
+2	событии	_	_	_	_	_	_	_	bratT101=Event
 3	традиционно	_	_	_	_	_	_	_	_
 4	собирается	_	_	_	_	_	_	_	_
 5	вся	_	_	_	_	_	_	_	_
@@ -135,14 +135,14 @@
 # sent_id = 0006-p2-s7
 # text = Помимо королевы, а также герцога и герцогини Сассекских на службе должны появиться принц Чарльз с герцогиней Камиллой и принц Уильям с герцогиней Кэтрин.
 1	Помимо	_	_	_	_	_	_	_	_
-2	королевы	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property
+2	королевы	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T38:Female|bratT38=Person|bratT99=Person-property
 3	,	_	_	_	_	_	_	_	_
 4	а	_	_	_	_	_	_	_	_
 5	также	_	_	_	_	_	_	_	_
-6	герцога	_	_	_	_	_	_	_	bratA17=T40:Plural|bratT40=Person|bratT77=Person-property
-7	и	_	_	_	_	_	_	_	bratA17=T40:Plural|bratT40=Person
-8	герцогини	_	_	_	_	_	_	_	bratA17=T40:Plural|bratT40=Person|bratT78=Person-property
-9	Сассекских	_	_	_	_	_	_	_	bratA16=T39:Adjective|bratA17=T40:Plural|bratT39=GPE|bratT40=Person
+6	герцога	_	_	_	_	_	_	_	bratA17=T40:Plural|bratA34=T94:Male|bratT40=Person|bratT77=Person-property|bratT94=Person|bratT96=Person-property
+7	и	_	_	_	_	_	_	_	bratA17=T40:Plural|bratT40=Person|bratT96=Person-property
+8	герцогини	_	_	_	_	_	_	_	bratA17=T40:Plural|bratA35=T95:Female|bratT40=Person|bratT78=Person-property|bratT95=Person|bratT96=Person-property
+9	Сассекских	_	_	_	_	_	_	_	bratA16=T39:Adjective|bratA17=T40:Plural|bratT39=GPE|bratT40=Person|bratT96=Person-property
 10	на	_	_	_	_	_	_	_	_
 11	службе	_	_	_	_	_	_	_	bratT85=Event
 12	должны	_	_	_	_	_	_	_	_
@@ -164,7 +164,7 @@
 # text = Интерес к событию в этом году ожидаемо будет очень высок.
 1	Интерес	_	_	_	_	_	_	_	_
 2	к	_	_	_	_	_	_	_	_
-3	событию	_	_	_	_	_	_	_	_
+3	событию	_	_	_	_	_	_	_	bratT97=Event
 4	в	_	_	_	_	_	_	_	bratA22=T54:Present|bratT54=Date-absolute
 5	этом	_	_	_	_	_	_	_	bratA22=T54:Present|bratT53=Ordinal|bratT54=Date-absolute
 6	году	_	_	_	_	_	_	_	bratA22=T54:Present|bratT54=Date-absolute
@@ -217,7 +217,7 @@
 15	спикеров	_	_	_	_	_	_	_	bratT66=Person-property
 16	на	_	_	_	_	_	_	_	_
 17	конференции	_	_	_	_	_	_	_	bratT65=Event
-18	JPMorgan	_	_	_	_	_	_	_	bratT65=Event
+18	JPMorgan	_	_	_	_	_	_	_	bratT65=Event|bratT98=Organization
 19	в	_	_	_	_	_	_	_	_
 20	рамках	_	_	_	_	_	_	_	_
 21	инвестиционного	_	_	_	_	_	_	_	bratT68=Event

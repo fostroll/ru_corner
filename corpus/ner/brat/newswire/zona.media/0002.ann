@@ -20,7 +20,6 @@ T17	Time-absolute 458 470	рано   утром
 T18	Person-property 534 539	Юрист
 T20	Person-property 590 600	участковый
 T21	Person-property 644 698	сотрудники   отдела   собственной   безопасности   ФСБ
-T22	Person-property 644 654	сотрудники
 T23	Person 398 407	Саркисяна
 A4	Male T23
 T25	Organization 657 698	отдела   собственной   безопасности   ФСБ
@@ -71,3 +70,23 @@ T54	Event 1111 1115	дела
 A6	Department T25
 A8	Department T30
 T55	Organization 778 803	пограничного   управления
+T56	Person 590 600	участковый
+A19	Male T56
+T22	Person 534 539	Юрист
+A20	Male T22
+T57	Person 0 18	Камчатский   юрист
+A21	Male T57
+T58	Person 38 54	сотрудника   ФСБ
+A22	Male T58
+T59	Person 339 345	юриста
+A23	Male T59
+T60	Person 703 714	Полицейский
+A24	Male T60
+T61	Person 904 909	юрист
+A25	Male T61
+T62	Person 1671 1677	юриста
+A26	Male T62
+T63	Facility 877 885	квартиры
+T64	Event 1126 1132	жалобу
+T65	Event 1448 1468	прохождения   службы
+T66	Event 77 83	визите

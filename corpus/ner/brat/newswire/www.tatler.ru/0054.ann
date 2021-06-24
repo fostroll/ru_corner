@@ -3,7 +3,7 @@ T2	Person-surname 54 61	Боузман
 T3	Person 7 61	звезда   ``   Черной   Пантеры   ''   Чедвик   Боузман
 A1	Male T3
 T4	Work-of-art 16 42	``   Черной   Пантеры   ''
-T5	Person 7 42	звезда   ``   Черной   Пантеры   ''
+T5	Person 21 37	Черной   Пантеры
 T6	GPE 67 80	Лос-Анджелесе
 T7	GPE 146 158	американский
 A2	Adjective T7
@@ -39,7 +39,7 @@ T28	Date-absolute 748 763	в   2003   году
 A11	Past T28
 T29	Work-of-art 770 803	фильме   ``   Третья   смена   ''
 T30	Ordinal 784 790	Третья
-T31	Date-absolute 864 889	в   2016-м   после   роли
+T31	Date-absolute 864 908	в   2016-м   после   роли   Черной   Пантеры
 A12	Past T31
 T32	Organization 925 931	Marvel
 T33	Person-alias 892 908	Черной   Пантеры
@@ -87,3 +87,14 @@ A24	Male T63
 T64	Person-alias 1135 1151	Черная   Пантера
 T65	Person 396 402	актера
 A15	Male T65
+T66	Person-property 885 908	роли   Черной   Пантеры
+T67	Person-property 7 42	звезда   ``   Черной   Пантеры   ''
+A25	Fiction T5
+A26	Male T5
+T68	Person-alias 21 37	Черной   Пантеры
+T69	Event 1046 1051	Война
+T70	Facility 99 103	доме
+T71	Person 126 131	семьи
+T72	Person 681 687	актера
+A27	Male T72
+T73	Person 673 687	семьи   актера

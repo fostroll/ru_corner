@@ -12,8 +12,8 @@
 7	Дэвида	_	_	_	_	_	_	_	bratA1=T2:Male|bratT2=Person|bratT3=Person-forename
 8	Бекхэма	_	_	_	_	_	_	_	bratA1=T2:Male|bratT2=Person|bratT4=Person-surname
 9	и	_	_	_	_	_	_	_	_
-10	его	_	_	_	_	_	_	_	_
-11	семьи	_	_	_	_	_	_	_	bratT36=Family
+10	его	_	_	_	_	_	_	_	bratT44=Person
+11	семьи	_	_	_	_	_	_	_	bratT36=Family|bratT44=Person
 
 # newpar id = 0125-p2
 # par_text = Как и многие на карантине, Дэвид Бекхэм часто смотрел Netflix. Его так поразила документальная лента The Last Dance о карьере Майкла Джордана, что он призадумался о проекте, посвященном самому себе, — новости об этой идее тут же попали в СМИ. Спустя несколько месяцев у поклонников бывшего футболиста наконец появилось более ясное представление того, что их, возможно, ждет в будущем. Daily Mail пишут, что Бекхэм подписал £16-миллионный контракт с Netflix — это будет реалити-шоу о его жизни, в котором также примет участие звездная семья спортсмена. Официального подтверждения от Бекхэмов еще не было, но мы надеемся, что нам действительно удастся взглянуть на будни одного из самых известных мужчин Великобритании. Кроме того, сообщается, что помимо документальной съемки в проекте будет много архивных материалов . В том числе будут «уморительные откровения» о самом начале романа Дэвида и Виктории. Напомним, что этим летом они отпраздновали 21-ю годовщину свадьбы.
@@ -23,7 +23,7 @@
 2	и	_	_	_	_	_	_	_	_
 3	многие	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
-5	карантине	_	_	_	_	_	_	_	SpaceAfter=No
+5	карантине	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
 6	,	_	_	_	_	_	_	_	_
 7	Дэвид	_	_	_	_	_	_	_	bratA2=T5:Male|bratT5=Person|bratT6=Person-forename
 8	Бекхэм	_	_	_	_	_	_	_	bratA2=T5:Male|bratT5=Person|bratT7=Person-surname
@@ -58,7 +58,7 @@
 22	себе	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
 24	-	_	_	_	_	_	_	_	_
-25	новости	_	_	_	_	_	_	_	_
+25	новости	_	_	_	_	_	_	_	bratT46=Event
 26	об	_	_	_	_	_	_	_	_
 27	этой	_	_	_	_	_	_	_	_
 28	идее	_	_	_	_	_	_	_	_
@@ -76,8 +76,8 @@
 3	месяцев	_	_	_	_	_	_	_	bratA8=T30:Present|bratT30=Date-absolute|bratT31=Duration
 4	у	_	_	_	_	_	_	_	_
 5	поклонников	_	_	_	_	_	_	_	bratT32=Other-group
-6	бывшего	_	_	_	_	_	_	_	bratT13=Person-property
-7	футболиста	_	_	_	_	_	_	_	bratT13=Person-property
+6	бывшего	_	_	_	_	_	_	_	bratA12=T43:Male|bratT13=Person-property|bratT43=Person
+7	футболиста	_	_	_	_	_	_	_	bratA12=T43:Male|bratT13=Person-property|bratT43=Person
 8	наконец	_	_	_	_	_	_	_	_
 9	появилось	_	_	_	_	_	_	_	_
 10	более	_	_	_	_	_	_	_	_
@@ -123,9 +123,9 @@
 23	также	_	_	_	_	_	_	_	_
 24	примет	_	_	_	_	_	_	_	_
 25	участие	_	_	_	_	_	_	_	_
-26	звездная	_	_	_	_	_	_	_	_
-27	семья	_	_	_	_	_	_	_	bratT18=Family
-28	спортсмена	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
+26	звездная	_	_	_	_	_	_	_	bratT42=Person
+27	семья	_	_	_	_	_	_	_	bratT18=Family|bratT42=Person
+28	спортсмена	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T41:Male|bratT19=Person-property|bratT41=Person|bratT42=Person
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0125-p2-s5
@@ -149,12 +149,12 @@
 17	взглянуть	_	_	_	_	_	_	_	_
 18	на	_	_	_	_	_	_	_	_
 19	будни	_	_	_	_	_	_	_	_
-20	одного	_	_	_	_	_	_	_	bratT22=Quantity
-21	из	_	_	_	_	_	_	_	bratT22=Quantity
-22	самых	_	_	_	_	_	_	_	_
-23	известных	_	_	_	_	_	_	_	_
-24	мужчин	_	_	_	_	_	_	_	_
-25	Великобритании	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
+20	одного	_	_	_	_	_	_	_	bratA13=T45:Male|bratT22=Quantity|bratT45=Person
+21	из	_	_	_	_	_	_	_	bratA13=T45:Male|bratT22=Quantity|bratT45=Person
+22	самых	_	_	_	_	_	_	_	bratA13=T45:Male|bratT45=Person
+23	известных	_	_	_	_	_	_	_	bratA13=T45:Male|bratT45=Person
+24	мужчин	_	_	_	_	_	_	_	bratA13=T45:Male|bratT45=Person
+25	Великобритании	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T45:Male|bratT23=GPE|bratT45=Person
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0125-p2-s6
@@ -187,9 +187,9 @@
 7	откровения	_	_	_	_	_	_	_	SpaceAfter=No
 8	''	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
-10	самом	_	_	_	_	_	_	_	_
-11	начале	_	_	_	_	_	_	_	_
-12	романа	_	_	_	_	_	_	_	_
+10	самом	_	_	_	_	_	_	_	bratT47=Event
+11	начале	_	_	_	_	_	_	_	bratT47=Event
+12	романа	_	_	_	_	_	_	_	bratT39=Event|bratT47=Event
 13	Дэвида	_	_	_	_	_	_	_	bratA6=T24:Male|bratT24=Person|bratT25=Person-forename
 14	и	_	_	_	_	_	_	_	_
 15	Виктории	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T26:Female|bratT26=Person|bratT27=Person-forename
@@ -204,8 +204,8 @@
 5	летом	_	_	_	_	_	_	_	bratA9=T33:Past|bratT33=Date-absolute
 6	они	_	_	_	_	_	_	_	_
 7	отпраздновали	_	_	_	_	_	_	_	_
-8	21-ю	_	_	_	_	_	_	_	bratT28=Ordinal
-9	годовщину	_	_	_	_	_	_	_	_
-10	свадьбы	_	_	_	_	_	_	_	SpaceAfter=No
+8	21-ю	_	_	_	_	_	_	_	bratT28=Ordinal|bratT38=Event
+9	годовщину	_	_	_	_	_	_	_	bratT38=Event
+10	свадьбы	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT38=Event
 11	.	_	_	_	_	_	_	_	_
 

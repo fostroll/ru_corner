@@ -38,8 +38,8 @@
 # text = Еще до начала протестов в центре города были усилены меры безопасности.
 1	Еще	_	_	_	_	_	_	_	_
 2	до	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-absolute
-3	начала	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-absolute
-4	протестов	_	_	_	_	_	_	_	bratA4=T35:Past|bratT35=Date-absolute|bratT52=Event
+3	начала	_	_	_	_	_	_	_	bratA4=T35:Past|bratT18=Event|bratT35=Date-absolute
+4	протестов	_	_	_	_	_	_	_	bratA4=T35:Past|bratT18=Event|bratT35=Date-absolute|bratT52=Event
 5	в	_	_	_	_	_	_	_	_
 6	центре	_	_	_	_	_	_	_	_
 7	города	_	_	_	_	_	_	_	bratT57=GPE
@@ -53,8 +53,8 @@
 # par_text = Участники акции планировали собраться в районе площади Свободы, но сотрудники правоохранительных органов оцепили практически весь квартал в районе проспекта Победителей, улиц Мельникайте и Заславльская, а также проспекта Машерова и провели там ряд задержаний, передает ТАСС.
 # sent_id = 0113-p3-s1
 # text = Участники акции планировали собраться в районе площади Свободы, но сотрудники правоохранительных органов оцепили практически весь квартал в районе проспекта Победителей, улиц Мельникайте и Заславльская, а также проспекта Машерова и провели там ряд задержаний, передает ТАСС.
-1	Участники	_	_	_	_	_	_	_	bratT36=Other-group
-2	акции	_	_	_	_	_	_	_	bratT36=Other-group
+1	Участники	_	_	_	_	_	_	_	_
+2	акции	_	_	_	_	_	_	_	bratT36=Event
 3	планировали	_	_	_	_	_	_	_	_
 4	собраться	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -76,14 +76,14 @@
 21	Победителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Facility
 22	,	_	_	_	_	_	_	_	_
 23	улиц	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=Facility
-24	Мельникайте	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT47=Facility|bratT9=Facility
+24	Мельникайте	_	_	_	_	_	_	_	bratA1=T9:Plural|bratA14=T69:Female|bratT47=Facility|bratT69=Person|bratT70=Person-surname|bratT9=Facility
 25	и	_	_	_	_	_	_	_	bratA1=T9:Plural|bratT9=Facility
 26	Заславльская	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Plural|bratT48=Facility|bratT9=Facility
 27	,	_	_	_	_	_	_	_	_
 28	а	_	_	_	_	_	_	_	_
 29	также	_	_	_	_	_	_	_	_
 30	проспекта	_	_	_	_	_	_	_	bratT10=Facility
-31	Машерова	_	_	_	_	_	_	_	bratT10=Facility
+31	Машерова	_	_	_	_	_	_	_	bratA15=T71:Male|bratT10=Facility|bratT71=Person|bratT72=Person-surname
 32	и	_	_	_	_	_	_	_	_
 33	провели	_	_	_	_	_	_	_	_
 34	там	_	_	_	_	_	_	_	_
@@ -100,7 +100,7 @@
 # text = Основной массе протестующих удалось собраться в районе стелы ``Минск - город-Герой'', но силовики разогнали их.
 1	Основной	_	_	_	_	_	_	_	_
 2	массе	_	_	_	_	_	_	_	_
-3	протестующих	_	_	_	_	_	_	_	bratT37=Other-group
+3	протестующих	_	_	_	_	_	_	_	_
 4	удалось	_	_	_	_	_	_	_	_
 5	собраться	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
@@ -149,13 +149,13 @@
 12	из	_	_	_	_	_	_	_	_
 13	нескольких	_	_	_	_	_	_	_	bratT38=Quantity
 14	тысяч	_	_	_	_	_	_	_	bratT38=Quantity
-15	протестующих	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity|bratT39=Other-group
+15	протестующих	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity
 16	,	_	_	_	_	_	_	_	_
 17	которая	_	_	_	_	_	_	_	_
 18	направлялась	_	_	_	_	_	_	_	_
 19	по	_	_	_	_	_	_	_	_
 20	улице	_	_	_	_	_	_	_	bratT16=Facility
-21	Богдановича	_	_	_	_	_	_	_	bratT16=Facility
+21	Богдановича	_	_	_	_	_	_	_	bratA13=T67:Male|bratT16=Facility|bratT67=Person|bratT68=Person-surname
 22	в	_	_	_	_	_	_	_	_
 23	центр	_	_	_	_	_	_	_	_
 24	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=GPE
@@ -172,7 +172,7 @@
 7	вежа	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
 8	''	_	_	_	_	_	_	_	bratT17=Facility
 9	из	_	_	_	_	_	_	_	_
-10	демонстрантов	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property
+10	демонстрантов	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	которых	_	_	_	_	_	_	_	_
 13	силовики	_	_	_	_	_	_	_	bratT19=Person-property
@@ -180,7 +180,7 @@
 15	вытеснили	_	_	_	_	_	_	_	_
 16	с	_	_	_	_	_	_	_	_
 17	проспекта	_	_	_	_	_	_	_	bratT20=Facility
-18	Машерова	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Facility
+18	Машерова	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T37:Male|bratT20=Facility|bratT37=Person|bratT39=Person-surname
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0113-p5-s3
@@ -232,7 +232,7 @@
 4	несогласованных	_	_	_	_	_	_	_	bratT51=Event
 5	акциях	_	_	_	_	_	_	_	bratT51=Event
 6	протеста	_	_	_	_	_	_	_	bratT51=Event
-7	оппозиции	_	_	_	_	_	_	_	bratT51=Event|bratT53=Organization
+7	оппозиции	_	_	_	_	_	_	_	bratT53=Organization
 8	в	_	_	_	_	_	_	_	bratA6=T41:Past|bratT41=Date-absolute
 9	воскресенье	_	_	_	_	_	_	_	bratA6=T41:Past|bratT41=Date-absolute
 10	в	_	_	_	_	_	_	_	_

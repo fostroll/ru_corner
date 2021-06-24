@@ -18,8 +18,8 @@
 # sent_id = 0078-p2-s1
 # text = Любовь герцогини Кембриджской к фотоискусству известна многим - до замужества Кэтрин снимала каталоги для компании своих родителей, а став частью королевской семьи, переключилась на портреты своих детей.
 1	Любовь	_	_	_	_	_	_	_	_
-2	герцогини	_	_	_	_	_	_	_	bratA3=T7:Male|bratT6=Person-property|bratT7=Person
-3	Кембриджской	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratA3=T7:Male|bratT5=GPE|bratT7=Person
+2	герцогини	_	_	_	_	_	_	_	bratA28=T55:Female|bratT55=Person|bratT6=Person-property
+3	Кембриджской	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratA28=T55:Female|bratT5=GPE|bratT55=Person
 4	к	_	_	_	_	_	_	_	_
 5	фотоискусству	_	_	_	_	_	_	_	_
 6	известна	_	_	_	_	_	_	_	_
@@ -185,8 +185,8 @@
 21	будут	_	_	_	_	_	_	_	_
 22	представлены	_	_	_	_	_	_	_	_
 23	на	_	_	_	_	_	_	_	_
-24	виртуальной	_	_	_	_	_	_	_	_
-25	выставке	_	_	_	_	_	_	_	SpaceAfter=No
+24	виртуальной	_	_	_	_	_	_	_	bratT7=Event
+25	выставке	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Event
 26	,	_	_	_	_	_	_	_	_
 27	а	_	_	_	_	_	_	_	_
 28	в	_	_	_	_	_	_	_	bratA20=T39:Future|bratT39=Date-absolute

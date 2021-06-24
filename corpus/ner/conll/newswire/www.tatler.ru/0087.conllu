@@ -15,16 +15,16 @@
 10	сможет	_	_	_	_	_	_	_	_
 11	вернуться	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	семью	_	_	_	_	_	_	_	bratT41=Family
+13	семью	_	_	_	_	_	_	_	bratT41=Family|bratT57=Organization
 
 # newpar id = 0087-p2
 # par_text = Инсайдеры издания The Sun пересказали разговор, который состоялся между принцем Гарри и Елизаветой II в это воскресенье, 1 марта. Британская королева и ее внук наконец смогли обстоятельно обсудить все происходящие перемены в неформальной и комфортной обстановке — во время ланча в Виндзорском замке. Встреча длилась около 4 часов.
 # sent_id = 0087-p2-s1
 # text = Инсайдеры издания The Sun пересказали разговор, который состоялся между принцем Гарри и Елизаветой II в это воскресенье, 1 марта.
-1	Инсайдеры	_	_	_	_	_	_	_	bratT47=Person-property
-2	издания	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT47=Person-property
-3	The	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT47=Person-property
-4	Sun	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT47=Person-property
+1	Инсайдеры	_	_	_	_	_	_	_	bratT47=Person
+2	издания	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT47=Person
+3	The	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT47=Person
+4	Sun	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT47=Person
 5	пересказали	_	_	_	_	_	_	_	_
 6	разговор	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
@@ -46,8 +46,8 @@
 
 # sent_id = 0087-p2-s2
 # text = Британская королева и ее внук наконец смогли обстоятельно обсудить все происходящие перемены в неформальной и комфортной обстановке - во время ланча в Виндзорском замке.
-1	Британская	_	_	_	_	_	_	_	bratA7=T31:Adjective|bratT31=GPE|bratT9=Person-property
-2	королева	_	_	_	_	_	_	_	bratT9=Person-property
+1	Британская	_	_	_	_	_	_	_	bratA21=T58:Female|bratA7=T31:Adjective|bratT31=GPE|bratT58=Person|bratT9=Person-property
+2	королева	_	_	_	_	_	_	_	bratA21=T58:Female|bratT58=Person|bratT9=Person-property
 3	и	_	_	_	_	_	_	_	_
 4	ее	_	_	_	_	_	_	_	bratA15=T43:Male|bratT43=Person
 5	внук	_	_	_	_	_	_	_	bratA15=T43:Male|bratT10=Family|bratT43=Person
@@ -66,7 +66,7 @@
 18	-	_	_	_	_	_	_	_	_
 19	во	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute
 20	время	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute
-21	ланча	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute
+21	ланча	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute|bratT59=Event
 22	в	_	_	_	_	_	_	_	_
 23	Виндзорском	_	_	_	_	_	_	_	bratT11=Facility
 24	замке	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Facility
@@ -87,7 +87,7 @@
 # text = ``У королевы было немало тем, которые она хотела обсудить с принцем, и время было выбрано максимально удачное.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	У	_	_	_	_	_	_	_	_
-3	королевы	_	_	_	_	_	_	_	bratT13=Person-property
+3	королевы	_	_	_	_	_	_	_	bratA19=T55:Female|bratT13=Person-property|bratT55=Person
 4	было	_	_	_	_	_	_	_	_
 5	немало	_	_	_	_	_	_	_	_
 6	тем	_	_	_	_	_	_	_	SpaceAfter=No
@@ -97,7 +97,7 @@
 10	хотела	_	_	_	_	_	_	_	_
 11	обсудить	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_
-13	принцем	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property
+13	принцем	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T56:Male|bratT14=Person-property|bratT56=Person
 14	,	_	_	_	_	_	_	_	_
 15	и	_	_	_	_	_	_	_	_
 16	время	_	_	_	_	_	_	_	_
@@ -114,10 +114,10 @@
 3	и	_	_	_	_	_	_	_	_
 4	Меган	_	_	_	_	_	_	_	bratA9=T16:Female|bratT16=Person|bratT34=Person-forename
 5	сделали	_	_	_	_	_	_	_	_
-6	официальное	_	_	_	_	_	_	_	_
-7	объявление	_	_	_	_	_	_	_	SpaceAfter=No
+6	официальное	_	_	_	_	_	_	_	bratT60=Event
+7	объявление	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event
 8	,	_	_	_	_	_	_	_	_
-9	события	_	_	_	_	_	_	_	_
+9	события	_	_	_	_	_	_	_	bratT54=Event
 10	развивались	_	_	_	_	_	_	_	_
 11	стремительно	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 1	Сообщается	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	королева	_	_	_	_	_	_	_	bratT19=Person-property
+4	королева	_	_	_	_	_	_	_	bratA22=T61:Female|bratT19=Person-property|bratT61=Person
 5	не	_	_	_	_	_	_	_	_
 6	скрывала	_	_	_	_	_	_	_	_
 7	своего	_	_	_	_	_	_	_	_
@@ -201,7 +201,7 @@
 # sent_id = 0087-p4-s2
 # text = Также королева заверила, что Гарри и Меган могут в любое время вернуться в семью, если передумают - их примут с радушием.
 1	Также	_	_	_	_	_	_	_	_
-2	королева	_	_	_	_	_	_	_	bratT23=Person-property
+2	королева	_	_	_	_	_	_	_	bratA23=T62:Female|bratT23=Person-property|bratT62=Person
 3	заверила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -214,7 +214,7 @@
 12	время	_	_	_	_	_	_	_	_
 13	вернуться	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
-15	семью	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Family
+15	семью	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Family|bratT63=Organization
 16	,	_	_	_	_	_	_	_	_
 17	если	_	_	_	_	_	_	_	_
 18	передумают	_	_	_	_	_	_	_	_

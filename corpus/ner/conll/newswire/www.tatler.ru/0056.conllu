@@ -11,8 +11,8 @@
 6	Меган	_	_	_	_	_	_	_	bratA1=T3:Female|bratT1=Person-forename|bratT3=Person
 7	Маркл	_	_	_	_	_	_	_	bratA1=T3:Female|bratT2=Person-surname|bratT3=Person
 8	против	_	_	_	_	_	_	_	_
-9	британского	_	_	_	_	_	_	_	bratA2=T4:Adjective|bratT4=GPE
-10	таблоида	_	_	_	_	_	_	_	SpaceAfter=No
+9	британского	_	_	_	_	_	_	_	bratA12=T35:Media|bratA2=T4:Adjective|bratT35=Organization|bratT4=GPE
+10	таблоида	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T35:Media|bratT35=Organization
 11	:	_	_	_	_	_	_	_	_
 12	все	_	_	_	_	_	_	_	_
 13	подробности	_	_	_	_	_	_	_	_
@@ -38,14 +38,14 @@
 15	The	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
 16	Mail	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
 17	on	_	_	_	_	_	_	_	bratA5=T11:Media|bratT11=Organization
-18	Sunday	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T11:Media|bratT11=Organization
+18	Sunday	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T11:Media|bratT11=Organization|bratT38=Time-absolute
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0056-p2-s2
 # text = Ему предшествовала новость о том, что герцогиня Сассекская уволила своего адвоката Дэвида Шерборна и назначила на его место Джастина Рашбрука.
 1	Ему	_	_	_	_	_	_	_	_
 2	предшествовала	_	_	_	_	_	_	_	_
-3	новость	_	_	_	_	_	_	_	_
+3	новость	_	_	_	_	_	_	_	bratT36=Event
 4	о	_	_	_	_	_	_	_	_
 5	том	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -84,7 +84,7 @@
 12	том	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
-15	герцогиня	_	_	_	_	_	_	_	bratT25=Person-property
+15	герцогиня	_	_	_	_	_	_	_	bratA13=T37:Female|bratT25=Person-property|bratT37=Person
 16	планирует	_	_	_	_	_	_	_	_
 17	лично	_	_	_	_	_	_	_	_
 18	появиться	_	_	_	_	_	_	_	_

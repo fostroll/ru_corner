@@ -22,7 +22,6 @@ T17	Person-forename 439 445	Джонни
 T18	Person-surname 448 454	Деппом
 T19	Person 417 454	ее   бывшим   мужем   Джонни   Деппом
 A6	Male T19
-T20	Other-group 506 517	наблюдатели
 T21	Quantity 539 551	два   лагеря
 T22	Person-surname 587 592	Деппа
 T23	Person 587 592	Деппа
@@ -30,10 +29,7 @@ A7	Male T23
 T24	Person 632 636	Херд
 A8	Female T24
 T25	Person-surname 632 636	Херд
-T26	Other-group 575 584	абьюзером
-T29	Person-property 643 653	провокатор
-T30	Person-property 660 691	инициатор   домашнего   насилия
-T31	Person-property 697 713	Авторы   петиции
+T31	Person-property 697 703	Авторы
 T32	Person-property 736 743	актриса
 T33	Quantity 796 804	не   раз
 T34	Person-forename 875 880	Деппу
@@ -51,14 +47,13 @@ T42	Person-forename 1020 1025	Эмбер
 T43	Person-surname 1028 1032	Херд
 T44	Person 1020 1032	Эмбер   Херд
 A12	Female T44
-T45	Person-property 1046 1055	абьюзером
 T46	Organization 1072 1086	Warner   Bros.
 T47	Work-of-art 1159 1190	проекте   ``   Аквамен   2   ''
 T48	Person-surname 1264 1268	Херд
 T49	Person 1264 1268	Херд
 A13	Female T49
 T50	Person-property 1256 1268	жертв   Херд
-T51	Person-property 1427 1443	авторы   петиции
+T51	Person-property 1427 1433	авторы
 T52	Ordinal 259 260	2
 T53	Ordinal 275 281	данный
 T54	Organization 1095 1113	DC   Entertainment
@@ -70,4 +65,24 @@ A14	Media T57
 T27	Event 369 394	судебных   разбирательств
 T28	Organization 1202 1211	компаниям
 T58	Event 760 770	увольнения
-T59	Event 826 833	насилия
+T59	Event 819 833	акты   насилия
+T60	Event 495 503	процессе
+T61	Person 96 104	Аквамене
+A15	Fiction T61
+A17	Male T61
+T62	Person 249 256	Аквамен
+A18	Fiction T62
+A20	Male T62
+T20	Person 697 713	Авторы   петиции
+T26	Person 736 743	актриса
+A21	Female T26
+T29	Person 967 973	актера
+A22	Male T29
+T30	Person 1427 1443	авторы   петиции
+T45	Service 1436 1443	петиции
+A23	Media T45
+T63	Person-property 1148 1190	роли   в   проекте   ``   Аквамен   2   ''
+T64	Person 1174 1181	Аквамен
+A16	Fiction T64
+A19	Male T64
+T65	Ordinal 1184 1185	2

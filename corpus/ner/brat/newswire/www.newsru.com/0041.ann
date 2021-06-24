@@ -1,6 +1,6 @@
 T1	Organization 0 13	Суд   Бельгии
 T2	GPE 6 13	Бельгии
-T4	Person-property 110 119	принцессы
+T4	Person-property 102 119	титул   принцессы
 T5	Family 143 147	мать
 T6	Organization 170 200	Апелляционный   суд   Брюсселя
 T7	GPE 192 200	Брюсселя
@@ -27,7 +27,7 @@ T27	Person 1688 1702	Альбертом   II
 T28	Date-period-relative 1705 1727	в   течение   18   лет
 T29	Person-property 1774 1781	королем
 T30	Person 1827 1835	Дельфине
-T31	Person-property 1846 1855	принцессы
+T31	Person-property 1838 1855	титул   принцессы
 T32	Date-absolute 1911 1935	в   январе   2020   года
 T33	Person 1938 1950	Альберт   II
 T34	Person 2005 2021	Дельфины   Боэль
@@ -92,7 +92,7 @@ T51	GPE 764 775	бельгийский
 A19	Adjective T51
 T75	Event 674 699	судебных   разбирательств
 A6	Past T37
-T76	Person-property 1114 1157	Его   (   ее   )   королевское   высочество
+T76	Person-affix 1114 1157	Его   (   ее   )   королевское   высочество
 T77	Person 60 94	внебрачной   дочери   экс - короля
 A20	Female T77
 T78	Person 138 147	ее   мать
@@ -106,3 +106,8 @@ T83	Ordinal 1700 1702	II
 T84	Ordinal 1948 1950	II
 T85	Organization 825 828	суд
 T86	Organization 1809 1813	суда
+T87	Person-property 1010 1041	титулы   принца   и   принцессы
+A23	Plural T87
+T88	Person-property 623 628	титул
+T89	Person-property 384 391	титулов
+T90	Person-property 1412 1417	титул

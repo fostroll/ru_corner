@@ -7,11 +7,11 @@
 2	Челябинске	_	_	_	_	_	_	_	bratT1=GPE
 3	сожгли	_	_	_	_	_	_	_	_
 4	автомобиль	_	_	_	_	_	_	_	_
-5	журналистки	_	_	_	_	_	_	_	bratT2=Person-property
+5	журналистки	_	_	_	_	_	_	_	bratA16=T50:Female|bratT2=Person-property|bratT50=Person
 6-8	Znak.com	_	_	_	_	_	_	_	SpaceAfter=No
-6	Znak	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratT2=Person-property|bratT3=Organization|bratT36=Web-address
-7	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratT2=Person-property|bratT3=Organization|bratT36=Web-address
-8	com	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratT2=Person-property|bratT3=Organization|bratT36=Web-address
+6	Znak	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratA16=T50:Female|bratT2=Person-property|bratT3=Organization|bratT36=Web-address|bratT50=Person
+7	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratA16=T50:Female|bratT2=Person-property|bratT3=Organization|bratT36=Web-address|bratT50=Person
+8	com	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratA16=T50:Female|bratT2=Person-property|bratT3=Organization|bratT36=Web-address|bratT50=Person
 9	,	_	_	_	_	_	_	_	_
 10	пишущей	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
@@ -51,20 +51,20 @@
 # text = По словам журналистки, около 23:40 она услышала громкий хлопок, потом в окнах противоположного дома отразилось пламя.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	журналистки	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property
+3	журналистки	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Female|bratT11=Person-property|bratT51=Person
 4	,	_	_	_	_	_	_	_	_
 5	около	_	_	_	_	_	_	_	bratA6=T27:Past|bratT12=Time-absolute|bratT27=Date-relative
 6	23:40	_	_	_	_	_	_	_	bratA6=T27:Past|bratT12=Time-absolute|bratT27=Date-relative
 7	она	_	_	_	_	_	_	_	_
 8	услышала	_	_	_	_	_	_	_	_
 9	громкий	_	_	_	_	_	_	_	_
-10	хлопок	_	_	_	_	_	_	_	SpaceAfter=No
+10	хлопок	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 11	,	_	_	_	_	_	_	_	_
 12	потом	_	_	_	_	_	_	_	bratA11=T21:Past|bratT21=Date-relative
 13	в	_	_	_	_	_	_	_	_
 14	окнах	_	_	_	_	_	_	_	_
-15	противоположного	_	_	_	_	_	_	_	_
-16	дома	_	_	_	_	_	_	_	_
+15	противоположного	_	_	_	_	_	_	_	bratT47=Facility
+16	дома	_	_	_	_	_	_	_	bratT47=Facility
 17	отразилось	_	_	_	_	_	_	_	_
 18	пламя	_	_	_	_	_	_	_	SpaceAfter=No
 19	.	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 8	минимум	_	_	_	_	_	_	_	_
 9	два	_	_	_	_	_	_	_	bratT14=Quantity
 10	очага	_	_	_	_	_	_	_	bratT14=Quantity
-11	возгорания	_	_	_	_	_	_	_	SpaceAfter=No
+11	возгорания	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0121-p3-s2
@@ -127,7 +127,7 @@
 # sent_id = 0121-p4-s1
 # text = Автомобиль журналистки был не единственным на парковке и стоял не с краю.
 1	Автомобиль	_	_	_	_	_	_	_	_
-2	журналистки	_	_	_	_	_	_	_	bratT17=Person-property
+2	журналистки	_	_	_	_	_	_	_	bratA15=T49:Female|bratT17=Person-property|bratT49=Person
 3	был	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	bratT22=Quantity
 5	единственным	_	_	_	_	_	_	_	bratT22=Quantity

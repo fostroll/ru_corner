@@ -2,7 +2,7 @@ T1	Person 0 13	Амаль   Клуни
 T2	Person 61 74	Мерил   Стрип
 T3	Date-absolute 97 108	19   ноября
 T4	Other-term 135 189	премии   2020   Gwen   Ifill   Press   Freedom   Award
-T5	Event 124 189	вручение   премии   2020   Gwen   Ifill   Press   Freedom   Award
+T5	Event 124 132	вручение
 T6	Organization 192 223	Комитета   защиты   журналистов
 T7	Person-property 212 223	журналистов
 T8	Quantity 373 383	Одной   из
@@ -73,3 +73,13 @@ T55	Organization 318 321	СМИ
 A18	Media T55
 T56	Organization 448 452	жюри
 A19	Department T56
+T57	Organization 507 513	прессы
+A20	Media T57
+T58	Person 246 254	лауреаты
+T59	Person 440 452	члены   жюри
+T60	Person 546 560	правозащитнице
+A21	Female T60
+T61	Person 1318 1332	лис - супругов
+A22	Fiction T61
+T62	Person 1662 1669	адвокат
+A23	Female T62

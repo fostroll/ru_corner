@@ -7,7 +7,7 @@
 2	Барнаула	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
 3	сочла	_	_	_	_	_	_	_	_
 4	митингом	_	_	_	_	_	_	_	bratT3=Event
-5	съемку	_	_	_	_	_	_	_	_
+5	съемку	_	_	_	_	_	_	_	bratT25=Event
 6	видео	_	_	_	_	_	_	_	_
 7	КПРФ	_	_	_	_	_	_	_	bratT7=Organization
 8	против	_	_	_	_	_	_	_	_
@@ -49,13 +49,13 @@
 25	Ленинского	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT23=Organization
 26	комсомола	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT20=Organization|bratT23=Organization
 27	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT18=Person-property|bratT20=Organization|bratT23=Organization
-28	-	_	_	_	_	_	_	_	_
-29	молодежной	_	_	_	_	_	_	_	bratT22=Age|bratT25=Organization
-30	организации	_	_	_	_	_	_	_	bratT25=Organization
-31	КПРФ	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT50=Organization
+28	-	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT23=Organization
+29	молодежной	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT22=Age|bratT23=Organization
+30	организации	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT23=Organization
+31	КПРФ	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT20=Organization|bratT23=Organization|bratT50=Organization
 32	)	_	_	_	_	_	_	_	SpaceAfter=No
 33	за	_	_	_	_	_	_	_	_
-34	съемку	_	_	_	_	_	_	_	_
+34	съемку	_	_	_	_	_	_	_	bratT60=Event
 35	ролика	_	_	_	_	_	_	_	_
 36	против	_	_	_	_	_	_	_	_
 37	поправок	_	_	_	_	_	_	_	_
@@ -84,7 +84,7 @@
 # par_text = Съемки ролика проходили 20 июня в гайд-парке на площади Свободы, его опубликовали в ютьюбе на следующий день. На видео около 15 человек в красных медицинских масках, встав в несколько рядов, скандировали на фоне красного дыма: «1 июля голосуем против путинских поправок».
 # sent_id = 0027-p3-s1
 # text = Съемки ролика проходили 20 июня в гайд-парке на площади Свободы, его опубликовали в ютьюбе на следующий день.
-1	Съемки	_	_	_	_	_	_	_	_
+1	Съемки	_	_	_	_	_	_	_	bratT61=Event
 2	ролика	_	_	_	_	_	_	_	_
 3	проходили	_	_	_	_	_	_	_	_
 4	20	_	_	_	_	_	_	_	bratA9=T29:Past|bratT29=Date-absolute
@@ -157,7 +157,7 @@
 14	что	_	_	_	_	_	_	_	_
 15	повлекло	_	_	_	_	_	_	_	_
 16	также	_	_	_	_	_	_	_	_
-17	нарушение	_	_	_	_	_	_	_	_
+17	нарушение	_	_	_	_	_	_	_	bratT58=Event
 18	общественного	_	_	_	_	_	_	_	_
 19	порядка	_	_	_	_	_	_	_	SpaceAfter=No
 20	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
@@ -174,7 +174,7 @@
 3	составили	_	_	_	_	_	_	_	_
 4	протокол	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
-6	нарушении	_	_	_	_	_	_	_	_
+6	нарушении	_	_	_	_	_	_	_	bratT59=Event
 7	правил	_	_	_	_	_	_	_	_
 8	проведения	_	_	_	_	_	_	_	_
 9	митинга	_	_	_	_	_	_	_	bratT26=Event

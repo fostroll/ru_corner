@@ -5,7 +5,7 @@ T4	Organization 137 140	МВД
 T5	Time-period 176 188	10 - дневном
 T6	Organization 349 359	Коммерсант
 A1	Media T6
-T7	Person-property 370 376	Авторы
+T7	Person-property 370 392	Авторы   законопроекта
 T8	Person-property 504 514	свидетелей
 T9	GPE 798 804	России
 T10	Person-property 936 945	заявителя
@@ -15,14 +15,14 @@ T12	Organization 1124 1138	Генпрокуратура
 T13	Organization 1173 1176	МВД
 T14	Person-property 1247 1256	прокурору
 T15	Person-property 1265 1270	судье
-T16	Person-property 1370 1378	авторами
+T16	Person-property 1370 1394	авторами   законопроекта
 T17	Duration 176 188	10 - дневном
 T18	Law 783 804	Конституцией   России
 T19	Organization 1466 1470	суде
 T20	Event 1442 1459	уголовного   дела
 T21	Organization 619 628	ведомства
 T22	Organization 1524 1545	надзорном   ведомстве
-T23	Person 370 376	Авторы
+T23	Person 370 392	Авторы   законопроекта
 T24	Event 494 501	допросы
 T25	Event 521 531	экспертизы
 T26	Event 590 599	следствия
@@ -33,3 +33,7 @@ T30	Person-property 1212 1221	следствия
 T31	Event 66 78	преступлений
 T32	Event 209 221	преступлений
 T33	Event 446 458	преступлений
+T34	Event 1203 1209	ошибки
+T35	Event 422 435	расследовании
+T36	Event 1159 1170	предложение
+T37	Person 1370 1394	авторами   законопроекта

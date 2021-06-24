@@ -23,7 +23,7 @@
 # text = Эмир Кувейта шейх Сабах аль-Ахмад Аль-Сабах скончался в возрасте 91 года, сообщил межарабский телеканал аль-Арабийя со ссылкой на заявление кувейтского королевского дворца.
 1	Эмир	_	_	_	_	_	_	_	bratA4=T8:Male|bratT6=Person-property|bratT8=Person
 2	Кувейта	_	_	_	_	_	_	_	bratA4=T8:Male|bratT5=GPE|bratT6=Person-property|bratT8=Person
-3	шейх	_	_	_	_	_	_	_	bratA4=T8:Male|bratT7=Person-property|bratT8=Person
+3	шейх	_	_	_	_	_	_	_	bratA4=T8:Male|bratT7=Person-affix|bratT8=Person
 4	Сабах	_	_	_	_	_	_	_	bratA4=T8:Male|bratT53=Person-forename|bratT8=Person
 5	аль-Ахмад	_	_	_	_	_	_	_	bratA4=T8:Male|bratT54=Person-patronym|bratT8=Person
 6	Аль-Сабах	_	_	_	_	_	_	_	bratA4=T8:Male|bratT66=Person-surname|bratT8=Person
@@ -141,10 +141,10 @@
 # sent_id = 0104-p4-s2
 # text = Он член кувейтской королевской семьи.
 1	Он	_	_	_	_	_	_	_	_
-2	член	_	_	_	_	_	_	_	bratT62=Other-group
-3	кувейтской	_	_	_	_	_	_	_	bratA11=T60:Adjective|bratT60=GPE|bratT62=Other-group
-4	королевской	_	_	_	_	_	_	_	bratT62=Other-group
-5	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Family|bratT62=Other-group
+2	член	_	_	_	_	_	_	_	bratT62=Organization
+3	кувейтской	_	_	_	_	_	_	_	bratA11=T60:Adjective|bratT60=GPE|bratT62=Organization
+4	королевской	_	_	_	_	_	_	_	bratT62=Organization
+5	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Family|bratT62=Organization
 6	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p4-s3
@@ -178,7 +178,7 @@
 # text = Эмиром Кувейта шейх Сабах аль-Ахмад Аль-Сабах стал в 2006 году, после того как наследный принц Саад аль-Абдулла ас-Салем ас-Сабах, который должен был встать во главе страны, был отстранен из-за резкого ухудшения здоровья.
 1	Эмиром	_	_	_	_	_	_	_	bratT33=Person-property
 2	Кувейта	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property
-3	шейх	_	_	_	_	_	_	_	bratA13=T35:Male|bratT34=Person-property|bratT35=Person
+3	шейх	_	_	_	_	_	_	_	bratA13=T35:Male|bratT34=Person-affix|bratT35=Person
 4	Сабах	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT63=Person-forename
 5	аль-Ахмад	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT64=Person-patronym
 6	Аль-Сабах	_	_	_	_	_	_	_	bratA13=T35:Male|bratT35=Person|bratT65=Person-surname
@@ -208,9 +208,9 @@
 30	был	_	_	_	_	_	_	_	_
 31	отстранен	_	_	_	_	_	_	_	_
 32	из-за	_	_	_	_	_	_	_	_
-33	резкого	_	_	_	_	_	_	_	_
-34	ухудшения	_	_	_	_	_	_	_	_
-35	здоровья	_	_	_	_	_	_	_	SpaceAfter=No
+33	резкого	_	_	_	_	_	_	_	bratT86=Event
+34	ухудшения	_	_	_	_	_	_	_	bratT86=Event
+35	здоровья	_	_	_	_	_	_	_	SpaceAfter=No|bratT86=Event
 36	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p5-s2

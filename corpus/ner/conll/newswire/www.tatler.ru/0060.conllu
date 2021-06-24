@@ -6,8 +6,8 @@
 1	У	_	_	_	_	_	_	_	_
 2	Джеффа	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-forename|bratT3=Person
 3	Безоса	_	_	_	_	_	_	_	bratA1=T3:Male|bratT2=Person-surname|bratT3=Person
-4	новый	_	_	_	_	_	_	_	_
-5	роман	_	_	_	_	_	_	_	_
+4	новый	_	_	_	_	_	_	_	bratT65=Event
+5	роман	_	_	_	_	_	_	_	bratT65=Event
 
 # newpar id = 0060-p2
 # par_text = Только вчера Джефф и Маккензи Безос объявили о том, что решили расстаться, а уже сегодня пресса, кажется, готова озвучить причину развода пары, брак которой продлился 25 лет. Сразу несколько источников сообщило о том, что уже некоторое время Джефф тайно встречается с журналисткой Лорен Санчес. К слову, Санчес пока тоже обременена узами брака — с 2005 года она замужем за агентом по талантам Патриком Уайтселлом. Ее отношения с Безосом, как сообщают, начались еще осенью — на тот момент основатель Amazon уже не жил с женой. За время своего тайного романа Джефф и Лорен успели вместе слетать на отдых на частном джете бизнесмена стоимостью $65 миллионов. Кроме того, оказывается, Санчес сопровождала Безоса на церемонии «Золотой глобус», но ей удалось избежать внимания фотографов.
@@ -30,7 +30,7 @@
 15	а	_	_	_	_	_	_	_	_
 16	уже	_	_	_	_	_	_	_	_
 17	сегодня	_	_	_	_	_	_	_	bratA6=T11:Present|bratT11=Date-absolute
-18	пресса	_	_	_	_	_	_	_	SpaceAfter=No
+18	пресса	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T70:Media|bratT70=Organization
 19	,	_	_	_	_	_	_	_	_
 20	кажется	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
@@ -38,9 +38,9 @@
 23	озвучить	_	_	_	_	_	_	_	_
 24	причину	_	_	_	_	_	_	_	_
 25	развода	_	_	_	_	_	_	_	_
-26	пары	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Family
+26	пары	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Family|bratT66=Person
 27	,	_	_	_	_	_	_	_	_
-28	брак	_	_	_	_	_	_	_	_
+28	брак	_	_	_	_	_	_	_	bratT67=Event
 29	которой	_	_	_	_	_	_	_	_
 30	продлился	_	_	_	_	_	_	_	_
 31	25	_	_	_	_	_	_	_	bratA7=T12:Past-Pres|bratT12=Date-period-absolute|bratT62=Duration
@@ -79,7 +79,7 @@
 6	тоже	_	_	_	_	_	_	_	_
 7	обременена	_	_	_	_	_	_	_	_
 8	узами	_	_	_	_	_	_	_	_
-9	брака	_	_	_	_	_	_	_	_
+9	брака	_	_	_	_	_	_	_	bratT68=Event
 10	-	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	bratA11=T22:Past-Pres|bratT22=Date-period-absolute
 12	2005	_	_	_	_	_	_	_	bratA11=T22:Past-Pres|bratT22=Date-period-absolute
@@ -111,13 +111,13 @@
 13	на	_	_	_	_	_	_	_	bratA15=T30:Past|bratT30=Date-relative
 14	тот	_	_	_	_	_	_	_	bratA15=T30:Past|bratT30=Date-relative|bratT31=Ordinal
 15	момент	_	_	_	_	_	_	_	bratA15=T30:Past|bratT30=Date-relative
-16	основатель	_	_	_	_	_	_	_	bratT33=Person-property
-17	Amazon	_	_	_	_	_	_	_	bratT32=Organization|bratT33=Person-property
+16	основатель	_	_	_	_	_	_	_	bratA31=T71:Male|bratT33=Person-property|bratT71=Person
+17	Amazon	_	_	_	_	_	_	_	bratA31=T71:Male|bratT32=Organization|bratT33=Person-property|bratT71=Person
 18	уже	_	_	_	_	_	_	_	_
 19	не	_	_	_	_	_	_	_	_
 20	жил	_	_	_	_	_	_	_	_
 21	с	_	_	_	_	_	_	_	_
-22	женой	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Family
+22	женой	_	_	_	_	_	_	_	SpaceAfter=No|bratA32=T72:Female|bratT34=Family|bratT72=Person
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0060-p2-s5
@@ -125,8 +125,8 @@
 1	За	_	_	_	_	_	_	_	bratA25=T57:Past|bratT57=Date-period-absolute
 2	время	_	_	_	_	_	_	_	bratA25=T57:Past|bratT57=Date-period-absolute
 3	своего	_	_	_	_	_	_	_	bratA25=T57:Past|bratT57=Date-period-absolute
-4	тайного	_	_	_	_	_	_	_	bratA25=T57:Past|bratT57=Date-period-absolute
-5	романа	_	_	_	_	_	_	_	bratA25=T57:Past|bratT57=Date-period-absolute
+4	тайного	_	_	_	_	_	_	_	bratA25=T57:Past|bratT57=Date-period-absolute|bratT69=Event
+5	романа	_	_	_	_	_	_	_	bratA25=T57:Past|bratT57=Date-period-absolute|bratT69=Event
 6	Джефф	_	_	_	_	_	_	_	bratA16=T36:Male|bratT35=Person-forename|bratT36=Person
 7	и	_	_	_	_	_	_	_	_
 8	Лорен	_	_	_	_	_	_	_	bratA17=T38:Female|bratT37=Person-forename|bratT38=Person
@@ -134,11 +134,11 @@
 10	вместе	_	_	_	_	_	_	_	_
 11	слетать	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
-13	отдых	_	_	_	_	_	_	_	_
+13	отдых	_	_	_	_	_	_	_	bratT73=Event
 14	на	_	_	_	_	_	_	_	_
 15	частном	_	_	_	_	_	_	_	_
 16	джете	_	_	_	_	_	_	_	_
-17	бизнесмена	_	_	_	_	_	_	_	bratT39=Person-property
+17	бизнесмена	_	_	_	_	_	_	_	bratA33=T74:Male|bratT39=Person-property|bratT74=Person
 18	стоимостью	_	_	_	_	_	_	_	_
 19-20	$65	_	_	_	_	_	_	_	_
 19	$	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Money
@@ -188,9 +188,9 @@
 11	:	_	_	_	_	_	_	_	_
 12	долгое	_	_	_	_	_	_	_	bratA24=T56:Past|bratT56=Date-period-relative|bratT61=Duration
 13	время	_	_	_	_	_	_	_	bratA24=T56:Past|bratT56=Date-period-relative|bratT61=Duration
-14	бизнесмен	_	_	_	_	_	_	_	bratT52=Person-property
+14	бизнесмен	_	_	_	_	_	_	_	bratA34=T75:Male|bratT52=Person-property|bratT75=Person
 15	и	_	_	_	_	_	_	_	_
-16	журналистка	_	_	_	_	_	_	_	bratT53=Person-property
+16	журналистка	_	_	_	_	_	_	_	bratA35=T76:Female|bratT53=Person-property|bratT76=Person
 17	общались	_	_	_	_	_	_	_	_
 18	как	_	_	_	_	_	_	_	_
 19	друзья	_	_	_	_	_	_	_	SpaceAfter=No

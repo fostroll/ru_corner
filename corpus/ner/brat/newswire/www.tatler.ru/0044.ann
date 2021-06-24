@@ -21,7 +21,7 @@ T16	Person-affix 134 136	II
 T17	Person 122 136	Елизавета   II
 A6	Female T17
 T18	Quantity 220 245	двадцати   одного   залпа
-T19	Person-property 309 317	королевы
+T19	Person 309 317	королевы
 T20	Family 299 306	Близкие
 T21	Service 344 352	телефону
 T22	Service 359 369	видеосвязи
@@ -50,7 +50,7 @@ T40	Person-property 709 717	королева
 T41	Date-period-absolute 734 753	с   прошлого   года
 T42	Organization 917 940	журналу   Vanity   Fair
 A14	Media T42
-T43	Person-property 906 914	инсайдер
+T43	Person 906 914	инсайдер
 T44	Person-property 967 977	ассистенты
 T45	Person-forename 990 999	Елизавете
 T46	Person-affix 1002 1004	II
@@ -77,3 +77,14 @@ A11	Past T41
 T50	Event 282 294	самоизоляции
 T64	Event 248 271	торжественного   салюта
 T65	Event 560 576	видеоконференцию
+T66	Person 763 778	Ее   Величество
+A13	Female T66
+T67	Person 299 317	Близкие   королевы
+A16	Female T19
+T68	Person-property 309 317	королевы
+T69	Person 709 717	королева
+A17	Female T69
+T70	Person 812 841	всех   членов   своей   семьи
+T71	Event 611 619	перерыва
+T72	Event 374 380	Звонок
+T73	Event 639 645	звонке

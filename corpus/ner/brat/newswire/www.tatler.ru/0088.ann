@@ -8,7 +8,6 @@ T6	Person 34 49	Ксению   Собчак
 A2	Female T6
 T7	GPE 77 87	ангарского
 A3	Adjective T7
-T8	Person-property 77 97	ангарского   маньяка
 T9	Person-forename 157 164	Ксенией
 T10	Person-surname 167 173	Собчак
 T11	Person-forename 180 192	Константином
@@ -35,7 +34,7 @@ T28	Other-group 866 877	подписчикам
 T30	Person-property 951 960	режиссера
 T31	GPE 1054 1064	ангарского
 A10	Adjective T31
-T32	Person-property 1054 1074	ангарского   маньяка
+T32	Person 1054 1074	ангарского   маньяка
 T33	Person-forename 1122 1128	Никита
 T34	Person-forename 1145 1149	Юлия
 T35	Person-surname 1131 1138	Ефремов
@@ -49,3 +48,18 @@ T40	Event 454 469	дня   праздника
 A7	Past-Pres T39
 T17	Date-absolute 449 469	Со   дня   праздника
 A9	Past T17
+T29	Person-property 1084 1098	Главные   роли
+T41	Person 77 97	ангарского   маньяка
+A13	Male T41
+A14	Male T32
+T8	Event 123 132	спектакль
+T42	Person 358 368	влюбленных
+T43	Person 506 513	супруги
+T44	Person-forename 702 708	Ксения
+T45	Person 702 708	Ксения
+A15	Female T45
+T46	Person-property 744 749	ролей
+T47	Person 929 960	одного   известного   режиссера
+T48	Event 915 922	кастинг
+T49	Quantity 929 935	одного
+A16	Male T47

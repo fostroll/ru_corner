@@ -53,13 +53,13 @@
 # text = Вслед за признанием Кэтрин подала судебный иск против футболиста.
 1	Вслед	_	_	_	_	_	_	_	bratA8=T18:Past|bratT18=Date-absolute
 2	за	_	_	_	_	_	_	_	bratA8=T18:Past|bratT18=Date-absolute
-3	признанием	_	_	_	_	_	_	_	bratA8=T18:Past|bratT18=Date-absolute
+3	признанием	_	_	_	_	_	_	_	bratA8=T18:Past|bratT18=Date-absolute|bratT40=Event
 4	Кэтрин	_	_	_	_	_	_	_	bratA7=T16:Female|bratT15=Person-forename|bratT16=Person
 5	подала	_	_	_	_	_	_	_	_
 6	судебный	_	_	_	_	_	_	_	_
 7	иск	_	_	_	_	_	_	_	_
 8	против	_	_	_	_	_	_	_	_
-9	футболиста	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+9	футболиста	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T38:Male|bratT17=Person-property|bratT38=Person
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0100-p2-s3
@@ -73,7 +73,7 @@
 7	повлиял	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
 9	карьеру	_	_	_	_	_	_	_	_
-10	спортсмена	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
+10	спортсмена	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T39:Male|bratT19=Person-property|bratT39=Person
 11	:	_	_	_	_	_	_	_	_
 12	он	_	_	_	_	_	_	_	_
 13	и	_	_	_	_	_	_	_	_
@@ -114,7 +114,7 @@
 4	обвинения	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	адрес	_	_	_	_	_	_	_	_
-7	звезды	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property
+7	звезды	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T41:Male|bratT28=Person-property|bratT41=Person
 8	,	_	_	_	_	_	_	_	_
 9	и	_	_	_	_	_	_	_	_
 10	дело	_	_	_	_	_	_	_	bratT33=Event
@@ -126,7 +126,7 @@
 # sent_id = 0100-p3-s1
 # text = Почему девушка передумала судиться с Криштиану, как и то, достигли ли стороны какого-либо соглашения, - неизвестно.
 1	Почему	_	_	_	_	_	_	_	_
-2	девушка	_	_	_	_	_	_	_	_
+2	девушка	_	_	_	_	_	_	_	bratA19=T42:Female|bratT42=Person
 3	передумала	_	_	_	_	_	_	_	_
 4	судиться	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_

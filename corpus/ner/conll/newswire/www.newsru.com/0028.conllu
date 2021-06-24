@@ -3,9 +3,9 @@
 # par_text = Министр образования Эстонии ушла в отставку после скандала с извозом ее детей на служебном автомобиле
 # sent_id = 0028-p1-s1
 # text = Министр образования Эстонии ушла в отставку после скандала с извозом ее детей на служебном автомобиле
-1	Министр	_	_	_	_	_	_	_	bratT2=Person-property
-2	образования	_	_	_	_	_	_	_	bratT2=Person-property
-3	Эстонии	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Person-property
+1	Министр	_	_	_	_	_	_	_	bratA17=T63:Male|bratT2=Person-property|bratT63=Person
+2	образования	_	_	_	_	_	_	_	bratA17=T63:Male|bratT2=Person-property|bratT63=Person
+3	Эстонии	_	_	_	_	_	_	_	bratA17=T63:Male|bratT1=GPE|bratT2=Person-property|bratT63=Person
 4	ушла	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	отставку	_	_	_	_	_	_	_	bratT50=Event
@@ -129,7 +129,7 @@
 6	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Quantity|bratT27=Family
 7	,	_	_	_	_	_	_	_	_
 8	после	_	_	_	_	_	_	_	bratA12=T40:Past|bratT40=Date-absolute
-9	выхода	_	_	_	_	_	_	_	bratA12=T40:Past|bratT40=Date-absolute
+9	выхода	_	_	_	_	_	_	_	bratA12=T40:Past|bratT40=Date-absolute|bratT45=Event
 10	скандальной	_	_	_	_	_	_	_	bratA12=T40:Past|bratT40=Date-absolute|bratT45=Event
 11	публикации	_	_	_	_	_	_	_	bratA12=T40:Past|bratT40=Date-absolute|bratT45=Event
 12	объяснила	_	_	_	_	_	_	_	SpaceAfter=No
@@ -158,11 +158,11 @@
 35	''	_	_	_	_	_	_	_	_
 36	и	_	_	_	_	_	_	_	_
 37	объединяет	_	_	_	_	_	_	_	_
-38	поездки	_	_	_	_	_	_	_	_
+38	поездки	_	_	_	_	_	_	_	bratT61=Event
 39	так	_	_	_	_	_	_	_	SpaceAfter=No
 40	,	_	_	_	_	_	_	_	_
 41	чтобы	_	_	_	_	_	_	_	_
-42	министр	_	_	_	_	_	_	_	bratT20=Person-property
+42	министр	_	_	_	_	_	_	_	bratA16=T62:Female|bratT20=Person-property|bratT62=Person
 43	могла	_	_	_	_	_	_	_	_
 44	эффективно	_	_	_	_	_	_	_	_
 45	выполнять	_	_	_	_	_	_	_	_
@@ -246,6 +246,6 @@
 27	совершенные	_	_	_	_	_	_	_	_
 28	при	_	_	_	_	_	_	_	_
 29	этом	_	_	_	_	_	_	_	_
-30	ошибки	_	_	_	_	_	_	_	SpaceAfter=No
+30	ошибки	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Event
 31	.	_	_	_	_	_	_	_	_
 

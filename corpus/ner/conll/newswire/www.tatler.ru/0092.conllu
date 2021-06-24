@@ -22,27 +22,27 @@
 7	бы	_	_	_	_	_	_	_	_
 8	Меган	_	_	_	_	_	_	_	bratA3=T8:Female|bratT6=Person-forename|bratT8=Person
 9	Маркл	_	_	_	_	_	_	_	bratA3=T8:Female|bratT7=Person-surname|bratT8=Person
-10	главную	_	_	_	_	_	_	_	_
-11	роль	_	_	_	_	_	_	_	_
+10	главную	_	_	_	_	_	_	_	bratT53=Person-property
+11	роль	_	_	_	_	_	_	_	bratT53=Person-property
 12	в	_	_	_	_	_	_	_	_
 13	своем	_	_	_	_	_	_	_	_
 14	проекте	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	а	_	_	_	_	_	_	_	_
 17	когда-то	_	_	_	_	_	_	_	_
-18	герцогине	_	_	_	_	_	_	_	bratT9=Person-property
+18	герцогине	_	_	_	_	_	_	_	bratA4=T11:Female|bratT11=Person|bratT9=Person-property
 19	приходилось	_	_	_	_	_	_	_	_
 20	обивать	_	_	_	_	_	_	_	_
 21	пороги	_	_	_	_	_	_	_	_
-22	студий	_	_	_	_	_	_	_	SpaceAfter=No
+22	студий	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Organization
 23	,	_	_	_	_	_	_	_	_
 24	ходить	_	_	_	_	_	_	_	_
 25	по	_	_	_	_	_	_	_	_
-26	кастингам	_	_	_	_	_	_	_	_
+26	кастингам	_	_	_	_	_	_	_	bratT55=Event
 27	и	_	_	_	_	_	_	_	_
 28	слышать	_	_	_	_	_	_	_	_
-29	многочисленные	_	_	_	_	_	_	_	bratT11=Quantity
-30	отказы	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
+29	многочисленные	_	_	_	_	_	_	_	_
+30	отказы	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
 31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0092-p2-s2
@@ -64,15 +64,15 @@
 15	завершила	_	_	_	_	_	_	_	_
 16	карьеру	_	_	_	_	_	_	_	_
 17	ради	_	_	_	_	_	_	_	_
-18	замужества	_	_	_	_	_	_	_	SpaceAfter=No
+18	замужества	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0092-p2-s3
 # text = До роли Рэйчел Зейн ее резюме было не столь впечатляющим, но не менее любопытным.
 1	До	_	_	_	_	_	_	_	bratA9=T19:Past|bratT19=Date-period-absolute
-2	роли	_	_	_	_	_	_	_	bratA9=T19:Past|bratT19=Date-period-absolute
-3	Рэйчел	_	_	_	_	_	_	_	bratA7=T18:Fiction|bratA8=T18:Female|bratT16=Person-forename|bratT18=Person
-4	Зейн	_	_	_	_	_	_	_	bratA7=T18:Fiction|bratA8=T18:Female|bratT17=Person-surname|bratT18=Person
+2	роли	_	_	_	_	_	_	_	bratA9=T19:Past|bratT19=Date-period-absolute|bratT52=Person-property
+3	Рэйчел	_	_	_	_	_	_	_	bratA7=T18:Fiction|bratA8=T18:Female|bratA9=T19:Past|bratT16=Person-forename|bratT18=Person|bratT19=Date-period-absolute|bratT52=Person-property
+4	Зейн	_	_	_	_	_	_	_	bratA7=T18:Fiction|bratA8=T18:Female|bratA9=T19:Past|bratT17=Person-surname|bratT18=Person|bratT19=Date-period-absolute|bratT52=Person-property
 5	ее	_	_	_	_	_	_	_	_
 6	резюме	_	_	_	_	_	_	_	_
 7	было	_	_	_	_	_	_	_	_
@@ -141,7 +141,7 @@
 8	сыграла	_	_	_	_	_	_	_	_
 9	одну	_	_	_	_	_	_	_	bratT32=Quantity
 10	из	_	_	_	_	_	_	_	bratT32=Quantity
-11	ролей	_	_	_	_	_	_	_	_
+11	ролей	_	_	_	_	_	_	_	bratT57=Person-property
 12	в	_	_	_	_	_	_	_	_
 13	фильме	_	_	_	_	_	_	_	bratT33=Work-of-art
 14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Work-of-art
@@ -160,7 +160,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	резюме	_	_	_	_	_	_	_	_
 3	эта	_	_	_	_	_	_	_	_
-4	роль	_	_	_	_	_	_	_	_
+4	роль	_	_	_	_	_	_	_	bratT51=Person-property
 5	обозначена	_	_	_	_	_	_	_	_
 6	как	_	_	_	_	_	_	_	_
 7	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -178,8 +178,8 @@
 2	Меган	_	_	_	_	_	_	_	bratA18=T42:Female|bratT41=Person-forename|bratT42=Person
 3	перечисляет	_	_	_	_	_	_	_	_
 4	несколько	_	_	_	_	_	_	_	bratT43=Quantity
-5	театральных	_	_	_	_	_	_	_	bratT43=Quantity
-6	постановок	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Quantity
+5	театральных	_	_	_	_	_	_	_	bratT43=Quantity|bratT58=Event
+6	постановок	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Quantity|bratT58=Event
 7	,	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	которых	_	_	_	_	_	_	_	_
@@ -189,9 +189,9 @@
 13	,	_	_	_	_	_	_	_	_
 14	а	_	_	_	_	_	_	_	_
 15	также	_	_	_	_	_	_	_	_
-16	курсы	_	_	_	_	_	_	_	_
+16	курсы	_	_	_	_	_	_	_	bratT60=Event
 17	и	_	_	_	_	_	_	_	_
-18	тренинги	_	_	_	_	_	_	_	_
+18	тренинги	_	_	_	_	_	_	_	bratT59=Event
 19	по	_	_	_	_	_	_	_	_
 20	актерскому	_	_	_	_	_	_	_	_
 21	мастерству	_	_	_	_	_	_	_	SpaceAfter=No

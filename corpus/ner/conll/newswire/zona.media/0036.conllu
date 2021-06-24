@@ -15,9 +15,9 @@
 10	о	_	_	_	_	_	_	_	_
 11	передаче	_	_	_	_	_	_	_	_
 12	взрывчатки	_	_	_	_	_	_	_	_
-13	участнику	_	_	_	_	_	_	_	_
-14	оперативного	_	_	_	_	_	_	_	_
-15	эксперимента	_	_	_	_	_	_	_	SpaceAfter=No
+13	участнику	_	_	_	_	_	_	_	bratA20=T63:Male|bratT63=Person
+14	оперативного	_	_	_	_	_	_	_	bratA20=T63:Male|bratT60=Event|bratT63=Person
+15	эксперимента	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T63:Male|bratT60=Event|bratT63=Person
 16	,	_	_	_	_	_	_	_	_
 17	отменили	_	_	_	_	_	_	_	_
 18	приговор	_	_	_	_	_	_	_	_
@@ -47,8 +47,8 @@
 19	передаче	_	_	_	_	_	_	_	_
 20	взрывчатки	_	_	_	_	_	_	_	_
 21	участнику	_	_	_	_	_	_	_	_
-22	оперативного	_	_	_	_	_	_	_	_
-23	эксперимента	_	_	_	_	_	_	_	SpaceAfter=No
+22	оперативного	_	_	_	_	_	_	_	bratT61=Event
+23	эксперимента	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0036-p2-s2
@@ -125,11 +125,11 @@
 14	Пятерочки	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
 15	''	_	_	_	_	_	_	_	bratT27=Organization
 16	передал	_	_	_	_	_	_	_	_
-17	участнику	_	_	_	_	_	_	_	_
-18	оперативного	_	_	_	_	_	_	_	_
-19	эксперимента	_	_	_	_	_	_	_	_
-20	под	_	_	_	_	_	_	_	_
-21	псевдонимом	_	_	_	_	_	_	_	_
+17	участнику	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person
+18	оперативного	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT62=Event
+19	эксперимента	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT62=Event
+20	под	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person
+21	псевдонимом	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person
 22	Григорий	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT31=Person-forename
 23	Иванов	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT32=Person-surname
 24	взрывчатку	_	_	_	_	_	_	_	SpaceAfter=No

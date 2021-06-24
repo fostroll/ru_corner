@@ -12,7 +12,7 @@
 7	мертвой	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	собственной	_	_	_	_	_	_	_	_
-10	квартире	_	_	_	_	_	_	_	_
+10	квартире	_	_	_	_	_	_	_	bratT64=Facility
 
 # newpar id = 0037-p2
 # par_text = Российскую актрису Людмилу Князеву нашли мертвой в собственной квартире. Об этом сообщает «Комсомольская правда» в пятницу, 20 ноября.
@@ -26,7 +26,7 @@
 6	мертвой	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	собственной	_	_	_	_	_	_	_	_
-9	квартире	_	_	_	_	_	_	_	SpaceAfter=No
+9	квартире	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Facility
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p2-s2
@@ -72,13 +72,13 @@
 20	не	_	_	_	_	_	_	_	_
 21	отвечает	_	_	_	_	_	_	_	_
 22	на	_	_	_	_	_	_	_	_
-23	телефонные	_	_	_	_	_	_	_	_
-24	звонки	_	_	_	_	_	_	_	_
+23	телефонные	_	_	_	_	_	_	_	bratT62=Event
+24	звонки	_	_	_	_	_	_	_	bratT62=Event
 25	и	_	_	_	_	_	_	_	_
 26	не	_	_	_	_	_	_	_	_
 27	открывает	_	_	_	_	_	_	_	_
 28	дверь	_	_	_	_	_	_	_	_
-29	квартиры	_	_	_	_	_	_	_	SpaceAfter=No
+29	квартиры	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Facility
 30	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p3-s2
@@ -87,7 +87,7 @@
 2	МЧС	_	_	_	_	_	_	_	bratT39=Person-property|bratT56=Person|bratT9=Organization
 3	отправились	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	дом	_	_	_	_	_	_	_	_
+5	дом	_	_	_	_	_	_	_	bratT66=Facility
 6	к	_	_	_	_	_	_	_	_
 7	артистке	_	_	_	_	_	_	_	bratA16=T57:Female|bratT30=Person-property|bratT57=Person
 8	и	_	_	_	_	_	_	_	_
@@ -174,8 +174,8 @@
 35	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Work-of-art
 36	,	_	_	_	_	_	_	_	_
 37	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Work-of-art
-38	Гражданский	_	_	_	_	_	_	_	bratT21=Work-of-art
-39	брак	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Work-of-art
+38	Гражданский	_	_	_	_	_	_	_	bratT21=Work-of-art|bratT61=Event
+39	брак	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Work-of-art|bratT61=Event
 40	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Work-of-art
 41	,	_	_	_	_	_	_	_	_
 42	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Work-of-art

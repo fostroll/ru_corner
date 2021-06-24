@@ -71,8 +71,8 @@
 15	во	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute
 16	время	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute
 17	заседания	_	_	_	_	_	_	_	bratA5=T14:Past|bratT14=Date-absolute|bratT21=Event
-18	кабинета	_	_	_	_	_	_	_	bratT21=Event|bratT22=Organization
-19	министров	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event|bratT22=Organization
+18	кабинета	_	_	_	_	_	_	_	bratT22=Organization
+19	министров	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0121-p3
@@ -174,8 +174,8 @@
 8	правительство	_	_	_	_	_	_	_	bratT15=Organization
 9	сегодня	_	_	_	_	_	_	_	bratA6=T16:Past|bratT16=Date-absolute
 10	продлило	_	_	_	_	_	_	_	_
-11	налоговые	_	_	_	_	_	_	_	_
-12	каникулы	_	_	_	_	_	_	_	_
+11	налоговые	_	_	_	_	_	_	_	bratT42=Event
+12	каникулы	_	_	_	_	_	_	_	bratT42=Event
 13	для	_	_	_	_	_	_	_	_
 14	предприятий	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Organization
 15	,	_	_	_	_	_	_	_	_

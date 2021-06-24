@@ -3,12 +3,12 @@
 # par_text = Папе римскому понравилось откровенное фото модели в Instagram
 # sent_id = 0001-p1-s1
 # text = Папе римскому понравилось откровенное фото модели в Instagram
-1	Папе	_	_	_	_	_	_	_	bratT1=Person-property
-2	римскому	_	_	_	_	_	_	_	bratA9=T28:Adjective|bratT1=Person-property|bratT28=GPE
+1	Папе	_	_	_	_	_	_	_	bratA15=T36:Male|bratT1=Person-property|bratT36=Person
+2	римскому	_	_	_	_	_	_	_	bratA15=T36:Male|bratA9=T28:Adjective|bratT1=Person-property|bratT28=GPE|bratT36=Person
 3	понравилось	_	_	_	_	_	_	_	_
 4	откровенное	_	_	_	_	_	_	_	_
 5	фото	_	_	_	_	_	_	_	_
-6	модели	_	_	_	_	_	_	_	bratT2=Person-property
+6	модели	_	_	_	_	_	_	_	bratT2=Person-property|bratT37=Person
 7	в	_	_	_	_	_	_	_	_
 8	Instagram	_	_	_	_	_	_	_	bratT3=Service
 
@@ -87,14 +87,14 @@
 # par_text = Модели польстило вниманию 83-летнего понтифика и Гариботто отправила ему личное сообщение, однако пока так и получила ответа. При этом вскоре после отправленного сообщения с её страницы исчез и сам лайк. Однако лайк понтифика заметить было несложно, поскольку ник его официального аккаунта выделился среди других 114 тысяч человек.
 # sent_id = 0001-p4-s1
 # text = Модели польстило вниманию 83-летнего понтифика и Гариботто отправила ему личное сообщение, однако пока так и получила ответа.
-1	Модели	_	_	_	_	_	_	_	bratT11=Person-property
+1	Модели	_	_	_	_	_	_	_	bratA16=T38:Female|bratT11=Person-property|bratT38=Person
 2	польстило	_	_	_	_	_	_	_	_
 3	вниманию	_	_	_	_	_	_	_	_
 4-6	83-летнего	_	_	_	_	_	_	_	_
 4	83	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT12=Age
 5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT12=Age
 6	летнего	_	_	_	_	_	_	_	bratT12=Age
-7	понтифика	_	_	_	_	_	_	_	bratT13=Person-property
+7	понтифика	_	_	_	_	_	_	_	bratA20=T43:Male|bratT13=Person-property|bratT43=Person
 8	и	_	_	_	_	_	_	_	_
 9	Гариботто	_	_	_	_	_	_	_	bratA8=T14:Female|bratT14=Person|bratT26=Person-surname
 10	отправила	_	_	_	_	_	_	_	_
@@ -116,8 +116,8 @@
 2	этом	_	_	_	_	_	_	_	_
 3	вскоре	_	_	_	_	_	_	_	bratA3=T20:Past|bratT20=Date-absolute
 4	после	_	_	_	_	_	_	_	bratA3=T20:Past|bratT20=Date-absolute
-5	отправленного	_	_	_	_	_	_	_	bratA3=T20:Past|bratT20=Date-absolute
-6	сообщения	_	_	_	_	_	_	_	bratA3=T20:Past|bratT20=Date-absolute
+5	отправленного	_	_	_	_	_	_	_	bratA3=T20:Past|bratT20=Date-absolute|bratT39=Event
+6	сообщения	_	_	_	_	_	_	_	bratA3=T20:Past|bratT20=Date-absolute|bratT39=Event
 7	с	_	_	_	_	_	_	_	_
 8	её	_	_	_	_	_	_	_	_
 9	страницы	_	_	_	_	_	_	_	bratA13=T33:Media|bratT33=Service
@@ -131,7 +131,7 @@
 # text = Однако лайк понтифика заметить было несложно, поскольку ник его официального аккаунта выделился среди других 114 тысяч человек.
 1	Однако	_	_	_	_	_	_	_	_
 2	лайк	_	_	_	_	_	_	_	_
-3	понтифика	_	_	_	_	_	_	_	bratT15=Person-property
+3	понтифика	_	_	_	_	_	_	_	bratA17=T40:Male|bratT15=Person-property|bratT40=Person
 4	заметить	_	_	_	_	_	_	_	_
 5	было	_	_	_	_	_	_	_	_
 6	несложно	_	_	_	_	_	_	_	SpaceAfter=No
@@ -153,8 +153,8 @@
 # par_text = Пользователи Сети предположили, что лайк под фотографией появился случайно. Возможно, Папа римский не сам ведет свою страницу в соцсети. Сам понтифик никак не прокомментировал случившееся.
 # sent_id = 0001-p5-s1
 # text = Пользователи Сети предположили, что лайк под фотографией появился случайно.
-1	Пользователи	_	_	_	_	_	_	_	_
-2	Сети	_	_	_	_	_	_	_	_
+1	Пользователи	_	_	_	_	_	_	_	bratT17=Other-group
+2	Сети	_	_	_	_	_	_	_	bratT17=Other-group
 3	предположили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -169,8 +169,8 @@
 # text = Возможно, Папа римский не сам ведет свою страницу в соцсети.
 1	Возможно	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	Папа	_	_	_	_	_	_	_	bratT18=Person-property
-4	римский	_	_	_	_	_	_	_	bratA11=T30:Adjective|bratT18=Person-property|bratT30=GPE
+3	Папа	_	_	_	_	_	_	_	bratA18=T41:Male|bratT18=Person-property|bratT41=Person
+4	римский	_	_	_	_	_	_	_	bratA11=T30:Adjective|bratA18=T41:Male|bratT18=Person-property|bratT30=GPE|bratT41=Person
 5	не	_	_	_	_	_	_	_	_
 6	сам	_	_	_	_	_	_	_	_
 7	ведет	_	_	_	_	_	_	_	_
@@ -183,7 +183,7 @@
 # sent_id = 0001-p5-s3
 # text = Сам понтифик никак не прокомментировал случившееся.
 1	Сам	_	_	_	_	_	_	_	_
-2	понтифик	_	_	_	_	_	_	_	bratT19=Person-property
+2	понтифик	_	_	_	_	_	_	_	bratA19=T42:Male|bratT19=Person-property|bratT42=Person
 3	никак	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_
 5	прокомментировал	_	_	_	_	_	_	_	_

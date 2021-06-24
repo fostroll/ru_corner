@@ -7,7 +7,7 @@
 2	назвал	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No
 4	большой	_	_	_	_	_	_	_	_
-5	ошибкой	_	_	_	_	_	_	_	SpaceAfter=No
+5	ошибкой	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
 6	''	_	_	_	_	_	_	_	_
 7	слова	_	_	_	_	_	_	_	_
 8	посла	_	_	_	_	_	_	_	bratT3=Person-property|bratT61=Person
@@ -69,7 +69,7 @@
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	то	_	_	_	_	_	_	_	_
-15	ответ	_	_	_	_	_	_	_	_
+15	ответ	_	_	_	_	_	_	_	bratT84=Event
 16	был	_	_	_	_	_	_	_	_
 17	бы	_	_	_	_	_	_	_	_
 18	сокрушительным	_	_	_	_	_	_	_	SpaceAfter=No
@@ -115,7 +115,7 @@
 5	крушение	_	_	_	_	_	_	_	bratT62=Event
 6	вертолета	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	интервью	_	_	_	_	_	_	_	_
+8	интервью	_	_	_	_	_	_	_	bratT85=Event
 9	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
 10	,	_	_	_	_	_	_	_	_
 11	назвал	_	_	_	_	_	_	_	_
@@ -171,7 +171,7 @@
 12	Алиева	_	_	_	_	_	_	_	bratA5=T20:Male|bratT20=Person|bratT49=Person-surname
 13	о	_	_	_	_	_	_	_	_
 14	расследовании	_	_	_	_	_	_	_	bratT69=Event
-15	произошедшего	_	_	_	_	_	_	_	bratT82=Event
+15	произошедшего	_	_	_	_	_	_	_	bratT69=Event|bratT82=Event
 16	и	_	_	_	_	_	_	_	_
 17	наказании	_	_	_	_	_	_	_	_
 18	виновных	_	_	_	_	_	_	_	_
@@ -271,7 +271,7 @@
 3	погибли	_	_	_	_	_	_	_	_
 4	два	_	_	_	_	_	_	_	bratA17=T76:Plural|bratA18=T76:Male|bratT33=Quantity|bratT76=Person
 5	члена	_	_	_	_	_	_	_	bratA17=T76:Plural|bratA18=T76:Male|bratT33=Quantity|bratT60=Person-property|bratT76=Person
-6	экипажа	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T76:Plural|bratA18=T76:Male|bratT60=Person-property|bratT76=Person
+6	экипажа	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T76:Plural|bratA18=T76:Male|bratA19=T63:Department|bratT60=Person-property|bratT63=Organization|bratT76=Person
 7	:	_	_	_	_	_	_	_	bratA17=T76:Plural|bratA18=T76:Male|bratT76=Person
 8	командир	_	_	_	_	_	_	_	bratA10=T35:Male|bratA17=T76:Plural|bratA18=T76:Male|bratT34=Person-property|bratT35=Person|bratT76=Person
 9	Юрий	_	_	_	_	_	_	_	bratA10=T35:Male|bratA17=T76:Plural|bratA18=T76:Male|bratT35=Person|bratT53=Person-forename|bratT76=Person
@@ -289,9 +289,9 @@
 3	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T77:Male|bratT38=Quantity|bratT77=Person
 4	,	_	_	_	_	_	_	_	bratA16=T77:Male|bratT77=Person
 5	летчик-оператор	_	_	_	_	_	_	_	bratA16=T77:Male|bratT39=Person-property|bratT77=Person
-6	-	_	_	_	_	_	_	_	bratA16=T77:Male|bratT77=Person
-7	штурман	_	_	_	_	_	_	_	bratA16=T77:Male|bratT40=Person-property|bratT77=Person
-8	звена	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T77:Male|bratT40=Person-property|bratT77=Person
+6	-	_	_	_	_	_	_	_	bratA16=T77:Male|bratT39=Person-property|bratT77=Person
+7	штурман	_	_	_	_	_	_	_	bratA16=T77:Male|bratT39=Person-property|bratT77=Person
+8	звена	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T77:Male|bratT39=Person-property|bratT77=Person
 9	,	_	_	_	_	_	_	_	_
 10	получил	_	_	_	_	_	_	_	_
 11	ранения	_	_	_	_	_	_	_	SpaceAfter=No
@@ -308,6 +308,6 @@
 7	оказать	_	_	_	_	_	_	_	_
 8	помощь	_	_	_	_	_	_	_	_
 9	семьям	_	_	_	_	_	_	_	bratT44=Family
-10	погибших	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Other-group
+10	погибших	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person
 11	.	_	_	_	_	_	_	_	_
 

@@ -8,9 +8,9 @@
 3	какое	_	_	_	_	_	_	_	_
 4	будущее	_	_	_	_	_	_	_	_
 5	ждет	_	_	_	_	_	_	_	_
-6	сумку	_	_	_	_	_	_	_	bratT2=Product
-7	Hermès	_	_	_	_	_	_	_	bratA8=T21:Trademark|bratT2=Product|bratT21=Product
-8	Birkin	_	_	_	_	_	_	_	bratA8=T21:Trademark|bratT2=Product|bratT21=Product
+6	сумку	_	_	_	_	_	_	_	bratA8=T21:Trademark|bratT21=Product
+7	Hermès	_	_	_	_	_	_	_	bratA8=T21:Trademark|bratT21=Product
+8	Birkin	_	_	_	_	_	_	_	bratA8=T21:Trademark|bratT21=Product
 9	во	_	_	_	_	_	_	_	_
 10	времена	_	_	_	_	_	_	_	_
 11	расцвета	_	_	_	_	_	_	_	_
@@ -139,8 +139,8 @@
 8	ручной	_	_	_	_	_	_	_	_
 9	работы	_	_	_	_	_	_	_	_
 10	мастера	_	_	_	_	_	_	_	bratT12=Person-property
-11	высочайшего	_	_	_	_	_	_	_	_
-12	уровня	_	_	_	_	_	_	_	SpaceAfter=No
+11	высочайшего	_	_	_	_	_	_	_	bratT12=Person-property
+12	уровня	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property
 13	,	_	_	_	_	_	_	_	_
 14	так	_	_	_	_	_	_	_	_
 15	что	_	_	_	_	_	_	_	SpaceAfter=No
@@ -150,8 +150,8 @@
 19	президента	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property|bratT35=Person-property
 20	и	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property
 21	CEO	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property|bratT36=Person-property
-22	модного	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property
-23	дома	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property
+22	модного	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property|bratT38=Organization
+23	дома	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property|bratT38=Organization
 24	в	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT31=Person-property
 25	США	_	_	_	_	_	_	_	bratA11=T31:Plural|bratA5=T13:Male|bratT13=Person|bratT15=GPE|bratT31=Person-property
 26	Роберта	_	_	_	_	_	_	_	bratA5=T13:Male|bratT13=Person|bratT16=Person-forename
@@ -183,9 +183,9 @@
 12	и	_	_	_	_	_	_	_	_
 13	десятки	_	_	_	_	_	_	_	bratT20=Quantity
 14-16	онлайн-реселлеров	_	_	_	_	_	_	_	SpaceAfter=No
-14	онлайн	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Quantity|bratT37=Service
-15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Quantity|bratT37=Service
-16	реселлеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity|bratT37=Service
+14	онлайн	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Quantity|bratT37=Organization
+15	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Quantity|bratT37=Organization
+16	реселлеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Quantity|bratT37=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0123-p3-s3
@@ -198,8 +198,8 @@
 6	преданные	_	_	_	_	_	_	_	_
 7	поклонники	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
-9	профессиональные	_	_	_	_	_	_	_	_
-10	байеры	_	_	_	_	_	_	_	SpaceAfter=No
+9	профессиональные	_	_	_	_	_	_	_	bratT39=Person-property
+10	байеры	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person-property
 11	,	_	_	_	_	_	_	_	_
 12	которые	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_

@@ -15,8 +15,8 @@
 # par_text = Тайные свадьбы — определенно звездный тренд последних лет. Вот и Даша Жукова решила не привлекать лишнего внимания к своему замужеству. По сообщению Us Weekly, на прошлых выходных в Париже основательница музея современного искусства «Гараж» обменялась клятвами верности с греческим миллиардером Ставросом Ниархосом.
 # sent_id = 0015-p2-s1
 # text = Тайные свадьбы - определенно звездный тренд последних лет.
-1	Тайные	_	_	_	_	_	_	_	_
-2	свадьбы	_	_	_	_	_	_	_	_
+1	Тайные	_	_	_	_	_	_	_	bratT60=Event
+2	свадьбы	_	_	_	_	_	_	_	bratT60=Event
 3	-	_	_	_	_	_	_	_	_
 4	определенно	_	_	_	_	_	_	_	_
 5	звездный	_	_	_	_	_	_	_	_
@@ -38,7 +38,7 @@
 9	внимания	_	_	_	_	_	_	_	_
 10	к	_	_	_	_	_	_	_	_
 11	своему	_	_	_	_	_	_	_	_
-12	замужеству	_	_	_	_	_	_	_	SpaceAfter=No
+12	замужеству	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0015-p2-s3
@@ -53,13 +53,13 @@
 8	выходных	_	_	_	_	_	_	_	bratA16=T44:Past|bratT44=Date-absolute
 9	в	_	_	_	_	_	_	_	_
 10	Париже	_	_	_	_	_	_	_	bratT5=GPE
-11	основательница	_	_	_	_	_	_	_	bratT6=Person-property
-12	музея	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
-13	современного	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
-14	искусства	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
-15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT7=Organization
-16	Гараж	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT7=Organization
-17	''	_	_	_	_	_	_	_	bratT6=Person-property|bratT7=Organization
+11	основательница	_	_	_	_	_	_	_	bratA21=T63:Female|bratT6=Person-property|bratT63=Person
+12	музея	_	_	_	_	_	_	_	bratA21=T63:Female|bratT6=Person-property|bratT63=Person|bratT7=Organization
+13	современного	_	_	_	_	_	_	_	bratA21=T63:Female|bratT6=Person-property|bratT63=Person|bratT7=Organization
+14	искусства	_	_	_	_	_	_	_	bratA21=T63:Female|bratT6=Person-property|bratT63=Person|bratT7=Organization
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T63:Female|bratT6=Person-property|bratT63=Person|bratT7=Organization
+16	Гараж	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T63:Female|bratT6=Person-property|bratT63=Person|bratT7=Organization
+17	''	_	_	_	_	_	_	_	bratA21=T63:Female|bratT6=Person-property|bratT63=Person|bratT7=Organization
 18	обменялась	_	_	_	_	_	_	_	_
 19	клятвами	_	_	_	_	_	_	_	_
 20	верности	_	_	_	_	_	_	_	_
@@ -83,13 +83,13 @@
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	праздник	_	_	_	_	_	_	_	_
+10	праздник	_	_	_	_	_	_	_	bratT59=Event
 11	были	_	_	_	_	_	_	_	_
 12	приглашены	_	_	_	_	_	_	_	_
 13	только	_	_	_	_	_	_	_	_
-14	самые	_	_	_	_	_	_	_	_
-15	близкие	_	_	_	_	_	_	_	_
-16	друзья	_	_	_	_	_	_	_	SpaceAfter=No
+14	самые	_	_	_	_	_	_	_	bratT66=Person
+15	близкие	_	_	_	_	_	_	_	bratT66=Person
+16	друзья	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Person
 17	,	_	_	_	_	_	_	_	_
 18	среди	_	_	_	_	_	_	_	_
 19	них	_	_	_	_	_	_	_	_
@@ -120,12 +120,12 @@
 7	Даша	_	_	_	_	_	_	_	bratA11=T38:Female|bratT16=Person-forename|bratT38=Person
 8	держала	_	_	_	_	_	_	_	_
 9	свой	_	_	_	_	_	_	_	_
-10	прошлый	_	_	_	_	_	_	_	bratT47=Ordinal
-11	брак	_	_	_	_	_	_	_	_
+10	прошлый	_	_	_	_	_	_	_	bratT47=Ordinal|bratT64=Event
+11	брак	_	_	_	_	_	_	_	bratT64=Event
 12	и	_	_	_	_	_	_	_	_
 13	детали	_	_	_	_	_	_	_	_
 14	его	_	_	_	_	_	_	_	_
-15	расторжения	_	_	_	_	_	_	_	SpaceAfter=No
+15	расторжения	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Event
 16	,	_	_	_	_	_	_	_	_
 17	можно	_	_	_	_	_	_	_	_
 18	предположить	_	_	_	_	_	_	_	SpaceAfter=No
@@ -147,7 +147,7 @@
 # sent_id = 0015-p5-s1
 # text = Свою помолвку Даша и Ставрос тоже не афишировали - говорят, что они объявили о ней друзьям на дне рождения Жуковой в июне этого года.
 1	Свою	_	_	_	_	_	_	_	_
-2	помолвку	_	_	_	_	_	_	_	_
+2	помолвку	_	_	_	_	_	_	_	bratT61=Event
 3	Даша	_	_	_	_	_	_	_	bratA3=T18:Female|bratT18=Person|bratT40=Person-forename
 4	и	_	_	_	_	_	_	_	_
 5	Ставрос	_	_	_	_	_	_	_	bratA12=T39:Male|bratT39=Person|bratT41=Person-forename
@@ -162,7 +162,7 @@
 14	объявили	_	_	_	_	_	_	_	_
 15	о	_	_	_	_	_	_	_	_
 16	ней	_	_	_	_	_	_	_	_
-17	друзьям	_	_	_	_	_	_	_	_
+17	друзьям	_	_	_	_	_	_	_	bratT67=Person
 18	на	_	_	_	_	_	_	_	_
 19	дне	_	_	_	_	_	_	_	bratT57=Event
 20	рождения	_	_	_	_	_	_	_	bratT57=Event
@@ -176,8 +176,8 @@
 # sent_id = 0015-p5-s2
 # text = О романе пары стало известно в конце 2017 года, когда они вместе появились на мероприятии Art Basel в Майами.
 1	О	_	_	_	_	_	_	_	_
-2	романе	_	_	_	_	_	_	_	_
-3	пары	_	_	_	_	_	_	_	bratT43=Family
+2	романе	_	_	_	_	_	_	_	bratT68=Event
+3	пары	_	_	_	_	_	_	_	bratT43=Family|bratT69=Person
 4	стало	_	_	_	_	_	_	_	_
 5	известно	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	bratA15=T21:Past|bratT21=Date-absolute
@@ -191,8 +191,8 @@
 14	появились	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	мероприятии	_	_	_	_	_	_	_	bratT58=Event
-17	Art	_	_	_	_	_	_	_	bratT22=Organization
-18	Basel	_	_	_	_	_	_	_	bratT22=Organization
+17	Art	_	_	_	_	_	_	_	bratT58=Event
+18	Basel	_	_	_	_	_	_	_	bratT58=Event
 19	в	_	_	_	_	_	_	_	_
 20	Майами	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=GPE
 21	.	_	_	_	_	_	_	_	_

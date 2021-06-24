@@ -60,7 +60,7 @@
 # par_text = Сибиряка подозревают в убийстве (часть 1 статьи 105 УК).
 # sent_id = 0029-p3-s1
 # text = Сибиряка подозревают в убийстве (часть 1 статьи 105 УК).
-1	Сибиряка	_	_	_	_	_	_	_	bratA5=T15:Resident|bratT15=Nationality
+1	Сибиряка	_	_	_	_	_	_	_	bratA32=T65:Male|bratA5=T15:Resident|bratT15=Nationality|bratT65=Person
 2	подозревают	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	убийстве	_	_	_	_	_	_	_	bratT53=Event
@@ -86,7 +86,7 @@
 7	сельчанин	_	_	_	_	_	_	_	bratA22=T49:Male|bratA7=T18:Resident|bratT18=Nationality|bratT49=Person
 8	был	_	_	_	_	_	_	_	_
 9	возле	_	_	_	_	_	_	_	_
-10	дома	_	_	_	_	_	_	_	_
+10	дома	_	_	_	_	_	_	_	bratT61=Facility
 11	и	_	_	_	_	_	_	_	_
 12	``	_	_	_	_	_	_	_	SpaceAfter=No
 13	на	_	_	_	_	_	_	_	_
@@ -115,10 +115,10 @@
 
 # sent_id = 0029-p4-s2
 # text = Мужчина зашел в дом, продолжил избивать сибирячку, а затем скинул ее тело в овраг.
-1	Мужчина	_	_	_	_	_	_	_	_
+1	Мужчина	_	_	_	_	_	_	_	bratA30=T63:Male|bratT63=Person
 2	зашел	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	дом	_	_	_	_	_	_	_	SpaceAfter=No
+4	дом	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Facility
 5	,	_	_	_	_	_	_	_	_
 6	продолжил	_	_	_	_	_	_	_	_
 7	избивать	_	_	_	_	_	_	_	_
@@ -135,7 +135,7 @@
 
 # sent_id = 0029-p4-s3
 # text = Женщина умерла на месте от полученных травм.
-1	Женщина	_	_	_	_	_	_	_	_
+1	Женщина	_	_	_	_	_	_	_	bratA31=T64:Female|bratT64=Person
 2	умерла	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	месте	_	_	_	_	_	_	_	_
@@ -150,8 +150,8 @@
 2	уточняет	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	местный	_	_	_	_	_	_	_	bratA18=T42:Adjective|bratA9=T23:Resident|bratT23=Nationality|bratT42=GPE
-6	житель	_	_	_	_	_	_	_	bratA9=T23:Resident|bratT23=Nationality
+5	местный	_	_	_	_	_	_	_	bratA18=T42:Adjective|bratA29=T60:Male|bratA9=T23:Resident|bratT23=Nationality|bratT42=GPE|bratT60=Person
+6	житель	_	_	_	_	_	_	_	bratA29=T60:Male|bratA9=T23:Resident|bratT23=Nationality|bratT60=Person
 7	был	_	_	_	_	_	_	_	_
 8	пьян	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_
@@ -166,28 +166,28 @@
 4	сообщает	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	сельчанин	_	_	_	_	_	_	_	bratT24=Other-group
+7	сельчанин	_	_	_	_	_	_	_	bratA27=T57:Male|bratT24=Other-group|bratT57=Person
 8	познакомился	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
-10	будущей	_	_	_	_	_	_	_	_
-11	женой	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Family
+10	будущей	_	_	_	_	_	_	_	bratA28=T58:Female|bratT58=Person
+11	женой	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T58:Female|bratT25=Family|bratT58=Person
 12	,	_	_	_	_	_	_	_	_
 13	пока	_	_	_	_	_	_	_	_
 14	сидел	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
 16	тюрьме	_	_	_	_	_	_	_	bratT47=Organization
 17	за	_	_	_	_	_	_	_	_
-18	разбой	_	_	_	_	_	_	_	SpaceAfter=No
+18	разбой	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0029-p5-s2
 # text = Пара решила расписаться после его освобождения.
-1	Пара	_	_	_	_	_	_	_	bratT26=Family
+1	Пара	_	_	_	_	_	_	_	bratT26=Family|bratT55=Person
 2	решила	_	_	_	_	_	_	_	_
 3	расписаться	_	_	_	_	_	_	_	_
 4	после	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
 5	его	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
-6	освобождения	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T27:Past|bratT27=Date-absolute
+6	освобождения	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T27:Past|bratT27=Date-absolute|bratT54=Event
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0029-p5-s3
@@ -196,7 +196,7 @@
 2	В	_	_	_	_	_	_	_	bratA17=T38:Past|bratT38=Date-absolute
 3	день	_	_	_	_	_	_	_	bratA17=T38:Past|bratT38=Date-absolute
 4	свадьбы	_	_	_	_	_	_	_	bratA17=T38:Past|bratT28=Event|bratT38=Date-absolute
-5	мужчина	_	_	_	_	_	_	_	_
+5	мужчина	_	_	_	_	_	_	_	bratA26=T56:Male|bratT56=Person
 6	и	_	_	_	_	_	_	_	_
 7	забил	_	_	_	_	_	_	_	_
 8	до	_	_	_	_	_	_	_	_

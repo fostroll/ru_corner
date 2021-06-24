@@ -27,8 +27,8 @@
 5	военный	_	_	_	_	_	_	_	bratT7=Organization
 6	суд	_	_	_	_	_	_	_	bratT7=Organization
 7	на	_	_	_	_	_	_	_	_
-8	выездном	_	_	_	_	_	_	_	_
-9	заседании	_	_	_	_	_	_	_	_
+8	выездном	_	_	_	_	_	_	_	bratT59=Event
+9	заседании	_	_	_	_	_	_	_	bratT59=Event
 10	приговорил	_	_	_	_	_	_	_	_
 11-13	27-летнего	_	_	_	_	_	_	_	_
 11	27	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT9=Age
@@ -96,7 +96,7 @@
 9	существу	_	_	_	_	_	_	_	_
 10	за	_	_	_	_	_	_	_	_
 11	три	_	_	_	_	_	_	_	bratT29=Quantity
-12	заседания	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity
+12	заседания	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity|bratT60=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0038-p4-s2
@@ -151,10 +151,10 @@
 1	Она	_	_	_	_	_	_	_	_
 2	приехала	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
-4	заседание	_	_	_	_	_	_	_	_
+4	заседание	_	_	_	_	_	_	_	bratT61=Event
 5	прямо	_	_	_	_	_	_	_	_
 6	из	_	_	_	_	_	_	_	_
-7	роддома	_	_	_	_	_	_	_	SpaceAfter=No
+7	роддома	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Organization
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0038-p6

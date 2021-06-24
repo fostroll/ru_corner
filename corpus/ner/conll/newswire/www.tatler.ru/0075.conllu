@@ -41,9 +41,9 @@
 # sent_id = 0075-p2-s2
 # text = Недавно звезда дала интервью изданию Evening Standard, в котором призналась, что критика ее не беспокоит, ведь в итоге злопыхатели всегда принимают ее идеи.
 1	Недавно	_	_	_	_	_	_	_	_
-2	звезда	_	_	_	_	_	_	_	bratT16=Person-property
+2	звезда	_	_	_	_	_	_	_	bratA9=T20:Female|bratT16=Person-property|bratT20=Person
 3	дала	_	_	_	_	_	_	_	_
-4	интервью	_	_	_	_	_	_	_	_
+4	интервью	_	_	_	_	_	_	_	bratT22=Event
 5	изданию	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
 6	Evening	_	_	_	_	_	_	_	bratA1=T5:Media|bratT5=Organization
 7	Standard	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T5:Media|bratT5=Organization
@@ -89,7 +89,7 @@
 1	Голливудское	_	_	_	_	_	_	_	bratA5=T15:Adjective|bratT15=GPE
 2	увлечение	_	_	_	_	_	_	_	_
 3	йогой	_	_	_	_	_	_	_	_
-4	актриса	_	_	_	_	_	_	_	bratT14=Person-property
+4	актриса	_	_	_	_	_	_	_	bratA10=T21:Female|bratT14=Person-property|bratT21=Person
 5	тоже	_	_	_	_	_	_	_	_
 6	считает	_	_	_	_	_	_	_	_
 7	своей	_	_	_	_	_	_	_	_

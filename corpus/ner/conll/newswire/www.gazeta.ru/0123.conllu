@@ -5,11 +5,11 @@
 # text = Лавров и глава МИД Армении обсудили размещение миротворцев РФ в Карабахе
 1	Лавров	_	_	_	_	_	_	_	bratA11=T1:Male|bratT1=Person|bratT60=Person-surname
 2	и	_	_	_	_	_	_	_	_
-3	глава	_	_	_	_	_	_	_	bratT2=Person-property
-4	МИД	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
-5	Армении	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=GPE
+3	глава	_	_	_	_	_	_	_	bratT2=Person-property|bratT84=Person
+4	МИД	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT84=Person
+5	Армении	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=GPE|bratT84=Person
 6	обсудили	_	_	_	_	_	_	_	_
-7	размещение	_	_	_	_	_	_	_	_
+7	размещение	_	_	_	_	_	_	_	bratT83=Event
 8	миротворцев	_	_	_	_	_	_	_	bratT5=Person-property
 9	РФ	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=GPE
 10	в	_	_	_	_	_	_	_	_

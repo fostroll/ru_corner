@@ -34,7 +34,7 @@ T24	Family 560 564	сыну
 T25	Age 571 583	71 - летнему
 T26	Person-property 586 592	принцу
 T27	Person-forename 595 602	Чарльзу
-T28	Person 586 602	принцу   Чарльзу
+T28	Person 560 602	сыну   -   71 - летнему   принцу   Чарльзу
 A11	Male T28
 T29	Age 646 654	95   лет
 T30	Date-absolute 613 654	как   только   ей   исполнится   95   лет
@@ -71,3 +71,7 @@ A14	Female T53
 T54	Person 940 944	сыну
 A16	Male T54
 T55	Person 1043 1050	коллеги
+T56	Person 0 21	Королевский   эксперт
+T57	Person 68 72	сыну
+A19	Male T57
+T58	Person 117 139	британские   репортеры

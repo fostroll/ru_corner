@@ -10,7 +10,7 @@
 5	подаренный	_	_	_	_	_	_	_	_
 6	ему	_	_	_	_	_	_	_	_
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
-8	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term
+8	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Other-term|bratT66=Person-forename
 9	''	_	_	_	_	_	_	_	bratT2=Other-term
 
 # newpar id = 0013-p2
@@ -37,7 +37,7 @@
 18	и	_	_	_	_	_	_	_	_
 19	вручила	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term
-21	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term
+21	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term|bratT67=Person-forename
 22	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term
 23	.	_	_	_	_	_	_	_	_
 
@@ -51,8 +51,8 @@
 6	фигурка	_	_	_	_	_	_	_	_
 7	появилась	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	доме	_	_	_	_	_	_	_	_
-10	актера	_	_	_	_	_	_	_	bratT39=Person-property
+9	доме	_	_	_	_	_	_	_	bratT73=Facility
+10	актера	_	_	_	_	_	_	_	bratA1=T69:Male|bratT39=Person-property|bratT69=Person
 11	еще	_	_	_	_	_	_	_	_
 12	до	_	_	_	_	_	_	_	bratA24=T58:Past|bratT58=Date-relative
 13	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T58:Past|bratT58=Date-relative
@@ -90,7 +90,7 @@
 19	подарил	_	_	_	_	_	_	_	_
 20	Лео	_	_	_	_	_	_	_	bratA10=T11:Male|bratT11=Person|bratT44=Person-forename
 21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
-22	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
+22	Оскар	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term|bratT68=Person-forename
 23	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Other-term
 24	,	_	_	_	_	_	_	_	_
 25	который	_	_	_	_	_	_	_	_
@@ -100,13 +100,13 @@
 29	1995	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
 30	году	_	_	_	_	_	_	_	bratA4=T14:Past|bratT14=Date-absolute
 31	за	_	_	_	_	_	_	_	_
-32	роль	_	_	_	_	_	_	_	_
-33	в	_	_	_	_	_	_	_	_
-34	фильме	_	_	_	_	_	_	_	bratT15=Work-of-art
-35	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
-36	В	_	_	_	_	_	_	_	bratT15=Work-of-art
-37	порту	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
-38	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art
+32	роль	_	_	_	_	_	_	_	bratT72=Person-property
+33	в	_	_	_	_	_	_	_	bratT72=Person-property
+34	фильме	_	_	_	_	_	_	_	bratT15=Work-of-art|bratT72=Person-property
+35	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art|bratT72=Person-property
+36	В	_	_	_	_	_	_	_	bratT15=Work-of-art|bratT72=Person-property
+37	порту	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art|bratT72=Person-property
+38	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Work-of-art|bratT72=Person-property
 39	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0013-p2-s4
@@ -191,7 +191,7 @@
 # text = В ходе расследования было решено вернуть предметы, купленные Лоу на полученные незаконным путем деньги.
 1	В	_	_	_	_	_	_	_	bratA25=T59:Past|bratT59=Date-absolute
 2	ходе	_	_	_	_	_	_	_	bratA25=T59:Past|bratT59=Date-absolute
-3	расследования	_	_	_	_	_	_	_	bratA25=T59:Past|bratT59=Date-absolute
+3	расследования	_	_	_	_	_	_	_	bratA25=T59:Past|bratT59=Date-absolute|bratT71=Event
 4	было	_	_	_	_	_	_	_	_
 5	решено	_	_	_	_	_	_	_	_
 6	вернуть	_	_	_	_	_	_	_	_
@@ -213,7 +213,7 @@
 3	дорогими	_	_	_	_	_	_	_	_
 4	подарками	_	_	_	_	_	_	_	_
 5	от	_	_	_	_	_	_	_	_
-6	финансиста	_	_	_	_	_	_	_	bratT34=Person-property
+6	финансиста	_	_	_	_	_	_	_	bratA28=T70:Male|bratT34=Person-property|bratT70=Person
 7	пришлось	_	_	_	_	_	_	_	_
 8	не	_	_	_	_	_	_	_	_
 9	только	_	_	_	_	_	_	_	_

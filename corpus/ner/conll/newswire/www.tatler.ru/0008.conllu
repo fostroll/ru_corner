@@ -20,7 +20,7 @@
 # sent_id = 0008-p2-s1
 # text = Основатель Snapchat Эван Шпигель и модель Миранда Керр женаты три года.
 1	Основатель	_	_	_	_	_	_	_	bratA3=T12:Male|bratT11=Person-property|bratT12=Person
-2	Snapchat	_	_	_	_	_	_	_	bratA3=T12:Male|bratT11=Person-property|bratT12=Person|bratT8=Service
+2	Snapchat	_	_	_	_	_	_	_	bratA3=T12:Male|bratT11=Person-property|bratT12=Person|bratT8=Organization
 3	Эван	_	_	_	_	_	_	_	bratA3=T12:Male|bratT12=Person|bratT9=Person-forename
 4	Шпигель	_	_	_	_	_	_	_	bratA3=T12:Male|bratT10=Person-surname|bratT12=Person
 5	и	_	_	_	_	_	_	_	_
@@ -35,12 +35,12 @@
 # sent_id = 0008-p2-s2
 # text = В браке у них родилось двое сыновей: Харт, которому сейчас два, и Майлз - ему девять месяцев.
 1	В	_	_	_	_	_	_	_	_
-2	браке	_	_	_	_	_	_	_	_
+2	браке	_	_	_	_	_	_	_	bratT44=Event
 3	у	_	_	_	_	_	_	_	_
 4	них	_	_	_	_	_	_	_	_
 5	родилось	_	_	_	_	_	_	_	_
-6	двое	_	_	_	_	_	_	_	bratT19=Quantity
-7	сыновей	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Family|bratT19=Quantity
+6	двое	_	_	_	_	_	_	_	bratT19=Quantity|bratT45=Person
+7	сыновей	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Family|bratT19=Quantity|bratT45=Person
 8	:	_	_	_	_	_	_	_	_
 9	Харт	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T21:Male|bratT20=Person-forename|bratT21=Person
 10	,	_	_	_	_	_	_	_	_
@@ -58,7 +58,7 @@
 
 # sent_id = 0008-p2-s3
 # text = Пара предпочитает вести закрытый образ жизни и крайне редко дает интервью.
-1	Пара	_	_	_	_	_	_	_	bratT27=Family
+1	Пара	_	_	_	_	_	_	_	bratT27=Family|bratT43=Person
 2	предпочитает	_	_	_	_	_	_	_	_
 3	вести	_	_	_	_	_	_	_	_
 4	закрытый	_	_	_	_	_	_	_	_
@@ -68,7 +68,7 @@
 8	крайне	_	_	_	_	_	_	_	_
 9	редко	_	_	_	_	_	_	_	_
 10	дает	_	_	_	_	_	_	_	_
-11	интервью	_	_	_	_	_	_	_	SpaceAfter=No
+11	интервью	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0008-p2-s4
@@ -103,7 +103,7 @@
 28	красной	_	_	_	_	_	_	_	_
 29	дорожке	_	_	_	_	_	_	_	_
 30	или	_	_	_	_	_	_	_	_
-31	фотосессии	_	_	_	_	_	_	_	SpaceAfter=No
+31	фотосессии	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 32	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0008-p2-s5
@@ -113,7 +113,7 @@
 3	период	_	_	_	_	_	_	_	bratA13=T35:Past-UNK|bratT35=Date-period-absolute
 4	пандемии	_	_	_	_	_	_	_	bratA13=T35:Past-UNK|bratT34=Event|bratT35=Date-period-absolute
 5	у	_	_	_	_	_	_	_	_
-6	бизнесмена	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Person-property
+6	бизнесмена	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T46:Male|bratT36=Person-property|bratT46=Person
 7	,	_	_	_	_	_	_	_	_
 8	похоже	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
@@ -129,7 +129,7 @@
 19	сняться	_	_	_	_	_	_	_	_
 20	вместе	_	_	_	_	_	_	_	_
 21	с	_	_	_	_	_	_	_	_
-22	женой	_	_	_	_	_	_	_	bratT37=Family
+22	женой	_	_	_	_	_	_	_	bratA17=T47:Female|bratT37=Family|bratT47=Person
 23	для	_	_	_	_	_	_	_	_
 24	диджитал-выпуска	_	_	_	_	_	_	_	bratT39=Work-of-art
 25	WSJ	_	_	_	_	_	_	_	bratA14=T38:Media|bratT38=Organization|bratT39=Work-of-art
@@ -137,6 +137,6 @@
 27	даже	_	_	_	_	_	_	_	_
 28	дал	_	_	_	_	_	_	_	_
 29	изданию	_	_	_	_	_	_	_	bratA16=T40:Media|bratT40=Organization
-30	интервью	_	_	_	_	_	_	_	SpaceAfter=No
+30	интервью	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
 31	.	_	_	_	_	_	_	_	_
 

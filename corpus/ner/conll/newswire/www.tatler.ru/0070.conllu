@@ -8,13 +8,13 @@
 3	намерен	_	_	_	_	_	_	_	_
 4	судиться	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
-6	бывшей	_	_	_	_	_	_	_	bratT4=Family
-7	женой	_	_	_	_	_	_	_	bratT4=Family
+6	бывшей	_	_	_	_	_	_	_	bratA31=T85:Female|bratT4=Family|bratT85=Person
+7	женой	_	_	_	_	_	_	_	bratA31=T85:Female|bratT4=Family|bratT85=Person
 8	за	_	_	_	_	_	_	_	_
 9	право	_	_	_	_	_	_	_	_
 10	опеки	_	_	_	_	_	_	_	_
 11	над	_	_	_	_	_	_	_	_
-12	детьми	_	_	_	_	_	_	_	bratT5=Family
+12	детьми	_	_	_	_	_	_	_	bratT5=Family|bratT86=Person
 
 # newpar id = 0070-p2
 # par_text = Арми Хаммер и Элизабет Чемберс объявили о расставании в июле этого года, опубликовав одинаковые посты в инстаграме. Бывшие супруги заверили, что после развода останутся друзьями, но, несмотря на это, так и не смогли договориться о том, как будут воспитывать детей — 5-летнего Форда Дугласа Арманда и 3-летнюю Харпер Грейс.
@@ -27,7 +27,7 @@
 5	Чемберс	_	_	_	_	_	_	_	bratA3=T11:Male|bratT10=Person-surname|bratT11=Person
 6	объявили	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
-8	расставании	_	_	_	_	_	_	_	_
+8	расставании	_	_	_	_	_	_	_	bratT91=Event
 9	в	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute
 10	июле	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute
 11	этого	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-absolute|bratT71=Ordinal
@@ -42,8 +42,8 @@
 
 # sent_id = 0070-p2-s2
 # text = Бывшие супруги заверили, что после развода останутся друзьями, но, несмотря на это, так и не смогли договориться о том, как будут воспитывать детей - 5-летнего Форда Дугласа Арманда и 3-летнюю Харпер Грейс.
-1	Бывшие	_	_	_	_	_	_	_	bratT14=Family
-2	супруги	_	_	_	_	_	_	_	bratT14=Family
+1	Бывшие	_	_	_	_	_	_	_	bratT14=Family|bratT83=Person
+2	супруги	_	_	_	_	_	_	_	bratT14=Family|bratT83=Person
 3	заверили	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -69,22 +69,22 @@
 25	как	_	_	_	_	_	_	_	_
 26	будут	_	_	_	_	_	_	_	_
 27	воспитывать	_	_	_	_	_	_	_	_
-28	детей	_	_	_	_	_	_	_	bratT15=Family
-29	-	_	_	_	_	_	_	_	_
+28	детей	_	_	_	_	_	_	_	bratT15=Family|bratT84=Person
+29	-	_	_	_	_	_	_	_	bratT84=Person
 30-32	5-летнего	_	_	_	_	_	_	_	_
-30	5	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT16=Age
-31	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT16=Age
-32	летнего	_	_	_	_	_	_	_	bratT16=Age
-33	Форда	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT72=Person-forename
-34	Дугласа	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT72=Person-forename
-35	Арманда	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT72=Person-forename
-36	и	_	_	_	_	_	_	_	_
+30	5	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT16=Age|bratT84=Person
+31	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT16=Age|bratT84=Person
+32	летнего	_	_	_	_	_	_	_	bratT16=Age|bratT84=Person
+33	Форда	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT72=Person-forename|bratT84=Person
+34	Дугласа	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT72=Person-forename|bratT84=Person
+35	Арманда	_	_	_	_	_	_	_	bratA7=T19:Male|bratT19=Person|bratT72=Person-forename|bratT84=Person
+36	и	_	_	_	_	_	_	_	bratT84=Person
 37-39	3-летнюю	_	_	_	_	_	_	_	_
-37	3	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Age
-38	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Age
-39	летнюю	_	_	_	_	_	_	_	bratT20=Age
-40	Харпер	_	_	_	_	_	_	_	bratA8=T22:Female|bratT21=Person-forename|bratT22=Person
-41	Грейс	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T22:Female|bratT21=Person-forename|bratT22=Person
+37	3	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Age|bratT84=Person
+38	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT20=Age|bratT84=Person
+39	летнюю	_	_	_	_	_	_	_	bratT20=Age|bratT84=Person
+40	Харпер	_	_	_	_	_	_	_	bratA8=T22:Female|bratT21=Person-forename|bratT22=Person|bratT84=Person
+41	Грейс	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T22:Female|bratT21=Person-forename|bratT22=Person|bratT84=Person
 42	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0070-p3
@@ -97,7 +97,7 @@
 4	Арми	_	_	_	_	_	_	_	bratA10=T26:Male|bratT25=Person-forename|bratT26=Person
 5	вместе	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
-7	семьей	_	_	_	_	_	_	_	bratT27=Family
+7	семьей	_	_	_	_	_	_	_	bratT27=Family|bratT82=Person
 8	отправился	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	Каймановы	_	_	_	_	_	_	_	bratT28=GPE
@@ -114,8 +114,8 @@
 1	После	_	_	_	_	_	_	_	bratA11=T30:Past|bratT30=Date-absolute
 2	расставания	_	_	_	_	_	_	_	bratA11=T30:Past|bratT30=Date-absolute|bratT73=Event
 3	с	_	_	_	_	_	_	_	_
-4	супругой	_	_	_	_	_	_	_	bratT29=Family
-5	актер	_	_	_	_	_	_	_	bratT31=Person-property
+4	супругой	_	_	_	_	_	_	_	bratA30=T81:Female|bratT29=Family|bratT81=Person
+5	актер	_	_	_	_	_	_	_	bratA29=T80:Male|bratT31=Person-property|bratT80=Person
 6	вернулся	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	Лос-Анджелес	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=GPE
@@ -123,7 +123,7 @@
 10	а	_	_	_	_	_	_	_	_
 11	Элизабет	_	_	_	_	_	_	_	bratA12=T34:Female|bratT33=Person-forename|bratT34=Person
 12	с	_	_	_	_	_	_	_	_
-13	детьми	_	_	_	_	_	_	_	bratT35=Family
+13	детьми	_	_	_	_	_	_	_	bratT35=Family|bratT79=Person
 14	осталась	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	побережье	_	_	_	_	_	_	_	bratT36=Location
@@ -140,7 +140,7 @@
 3	возможности	_	_	_	_	_	_	_	_
 4	общаться	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
-6	детьми	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Family
+6	детьми	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Family|bratT87=Person
 7	,	_	_	_	_	_	_	_	_
 8	которых	_	_	_	_	_	_	_	_
 9	Хаммер	_	_	_	_	_	_	_	bratA13=T39:Male|bratT38=Person-surname|bratT39=Person
@@ -150,7 +150,7 @@
 13	несколько	_	_	_	_	_	_	_	bratA26=T40:Past-Pres|bratA27=T40:RCont|bratT40=Date-period-absolute|bratT41=Duration
 14	месяцев	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T40:Past-Pres|bratA27=T40:RCont|bratT40=Date-period-absolute|bratT41=Duration
 15	,	_	_	_	_	_	_	_	_
-16	актер	_	_	_	_	_	_	_	bratT42=Person-property
+16	актер	_	_	_	_	_	_	_	bratA32=T88:Male|bratT42=Person-property|bratT88=Person
 17	подал	_	_	_	_	_	_	_	_
 18	на	_	_	_	_	_	_	_	_
 19	Чемберс	_	_	_	_	_	_	_	bratA14=T44:Female|bratT43=Person-surname|bratT44=Person
@@ -214,9 +214,9 @@
 # text = Но через ее доверенных лиц я узнал, что рейсов просто стало меньше и что Элизабет с детьми вернутся в Лос-Анджелес первым же самолетом в октябре.
 1	Но	_	_	_	_	_	_	_	_
 2	через	_	_	_	_	_	_	_	_
-3	ее	_	_	_	_	_	_	_	_
-4	доверенных	_	_	_	_	_	_	_	_
-5	лиц	_	_	_	_	_	_	_	_
+3	ее	_	_	_	_	_	_	_	bratT92=Person
+4	доверенных	_	_	_	_	_	_	_	bratT89=Person-property|bratT92=Person
+5	лиц	_	_	_	_	_	_	_	bratT89=Person-property|bratT92=Person
 6	я	_	_	_	_	_	_	_	_
 7	узнал	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
@@ -229,7 +229,7 @@
 15	что	_	_	_	_	_	_	_	_
 16	Элизабет	_	_	_	_	_	_	_	bratA19=T53:Female|bratT52=Person-forename|bratT53=Person
 17	с	_	_	_	_	_	_	_	_
-18	детьми	_	_	_	_	_	_	_	bratT55=Family
+18	детьми	_	_	_	_	_	_	_	bratT55=Family|bratT78=Person
 19	вернутся	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
 21	Лос-Анджелес	_	_	_	_	_	_	_	bratT56=GPE
@@ -269,7 +269,7 @@
 # par_text = Актер также выразил надежду на то, что Чемберс на самом деле не пытается ограничить его общение с Фордом и Грейс.
 # sent_id = 0070-p6-s1
 # text = Актер также выразил надежду на то, что Чемберс на самом деле не пытается ограничить его общение с Фордом и Грейс.
-1	Актер	_	_	_	_	_	_	_	bratT64=Person-property
+1	Актер	_	_	_	_	_	_	_	bratA33=T90:Male|bratT64=Person-property|bratT90=Person
 2	также	_	_	_	_	_	_	_	_
 3	выразил	_	_	_	_	_	_	_	_
 4	надежду	_	_	_	_	_	_	_	_
