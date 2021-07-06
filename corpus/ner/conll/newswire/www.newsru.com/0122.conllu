@@ -12,7 +12,7 @@
 7	матч	_	_	_	_	_	_	_	bratT4=Event
 8	со	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
-10	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
+10	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T95:Male|bratT3=Organization|bratT95=Person|bratT96=Person-alias
 11	''	_	_	_	_	_	_	_	bratT3=Organization
 12	из-за	_	_	_	_	_	_	_	_
 13	долгов	_	_	_	_	_	_	_	_
@@ -42,7 +42,7 @@
 17	с	_	_	_	_	_	_	_	_
 18	московским	_	_	_	_	_	_	_	bratA7=T55:Adjective|bratT11=Organization|bratT55=GPE
 19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
-20	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
+20	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T97:Male|bratT11=Organization|bratT97=Person|bratT98=Person-alias
 21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
 22	,	_	_	_	_	_	_	_	_
 23	если	_	_	_	_	_	_	_	_
@@ -53,8 +53,8 @@
 28	решится	_	_	_	_	_	_	_	_
 29	вопрос	_	_	_	_	_	_	_	_
 30	по	_	_	_	_	_	_	_	_
-31	выплате	_	_	_	_	_	_	_	_
-32	долгов	_	_	_	_	_	_	_	SpaceAfter=No
+31	выплате	_	_	_	_	_	_	_	bratT102=Event
+32	долгов	_	_	_	_	_	_	_	SpaceAfter=No|bratT102=Event
 33	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0122-p3
@@ -156,13 +156,13 @@
 2	установленного	_	_	_	_	_	_	_	bratA14=T63:Pres-Fut|bratT63=Date-period-relative
 3	в	_	_	_	_	_	_	_	_
 4	качестве	_	_	_	_	_	_	_	_
-5	дедлайна	_	_	_	_	_	_	_	bratT30=Other-term
+5	дедлайна	_	_	_	_	_	_	_	bratT30=Event
 6	матча	_	_	_	_	_	_	_	bratT29=Event
 7	со	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
-9	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+9	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T99:Male|bratT100=Person-alias|bratT26=Organization|bratT99=Person
 10	''	_	_	_	_	_	_	_	bratT26=Organization
-11	тамбовчане	_	_	_	_	_	_	_	_
+11	тамбовчане	_	_	_	_	_	_	_	bratA21=T94:Resident|bratT94=Nationality
 12	сыграют	_	_	_	_	_	_	_	_
 13	с	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
@@ -290,11 +290,11 @@
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA18=T49:Past|bratT49=Date-absolute
-6	конце	_	_	_	_	_	_	_	bratA18=T49:Past|bratT49=Date-absolute
-7	прошлого	_	_	_	_	_	_	_	bratA18=T49:Past|bratT48=Event|bratT49=Date-absolute|bratT70=Ordinal
-8	чемпионата	_	_	_	_	_	_	_	bratA18=T49:Past|bratT48=Event|bratT49=Date-absolute
-9	правитель	_	_	_	_	_	_	_	bratT50=Person-property
-10	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Person-property|bratT81=GPE
+6	конце	_	_	_	_	_	_	_	bratA18=T49:Past|bratT101=Event|bratT49=Date-absolute
+7	прошлого	_	_	_	_	_	_	_	bratA18=T49:Past|bratT101=Event|bratT48=Event|bratT49=Date-absolute|bratT70=Ordinal
+8	чемпионата	_	_	_	_	_	_	_	bratA18=T49:Past|bratT101=Event|bratT48=Event|bratT49=Date-absolute
+9	правитель	_	_	_	_	_	_	_	bratA25=T103:Male|bratT103=Person|bratT50=Person-property
+10	области	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T103:Male|bratT103=Person|bratT50=Person-property|bratT81=GPE
 11	,	_	_	_	_	_	_	_	_
 12	глядя	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_

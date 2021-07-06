@@ -24,26 +24,26 @@ T21	Person 790 810	Николая   Рассказова
 T22	Organization 813 843	тульскому   ``   Арсеналу   ''
 T23	Person 849 856	Гулиева
 T24	Date-absolute 859 866	в   мае
-T25	Organization 991 1016	``   Спорт-Экспресса   ''
+T25	Organization 991 1018	``   Спорт - Экспресса   ''
 A3	Media T25
-T26	Person-property 1023 1032	футболист
-T27	Person-property 1075 1114	тренером   по   физической   подготовке
-T28	Person 1075 1138	тренером   по   физической   подготовке   Владом   Чепзановичем
-T29	Person 1165 1171	Гулиев
-T30	Organization 1289 1312	``   Спартаком - 2   ''
-T31	Person-property 1431 1440	футболист
-T32	Person 1528 1535	Газизов
-T33	Person 1541 1547	Гулиев
-T34	Organization 1577 1595	``   Спартака   ''
-T35	Person-property 1561 1595	воспитанником   ``   Спартака   ''
-T36	Date-absolute 1600 1619	Летом   2018   года
-T37	Organization 1641 1657	``   Ростов   ''
-T38	Money 1665 1677	€ 500   тыс.
-T39	Date-relative 1684 1699	через   полгода
-T40	Money 1751 1760	€ 1   млн
-T41	Person-property 1776 1789	полузащитника
-T42	Organization 1797 1816	``   Спартаком   ''
-T43	Date-period-absolute 1831 1854	до   лета   2023   года
+T26	Person-property 1025 1034	футболист
+T27	Person-property 1077 1116	тренером   по   физической   подготовке
+T28	Person 1077 1140	тренером   по   физической   подготовке   Владом   Чепзановичем
+T29	Person 1167 1173	Гулиев
+T30	Organization 1291 1314	``   Спартаком - 2   ''
+T31	Person-property 1433 1442	футболист
+T32	Person 1530 1537	Газизов
+T33	Person 1543 1549	Гулиев
+T34	Organization 1579 1597	``   Спартака   ''
+T35	Person-property 1563 1597	воспитанником   ``   Спартака   ''
+T36	Date-absolute 1602 1621	Летом   2018   года
+T37	Organization 1643 1659	``   Ростов   ''
+T38	Money 1667 1679	€ 500   тыс.
+T39	Date-relative 1686 1701	через   полгода
+T40	Money 1753 1762	€ 1   млн
+T41	Person-property 1778 1791	полузащитника
+T42	Organization 1799 1818	``   Спартаком   ''
+T43	Date-period-absolute 1833 1856	до   лета   2023   года
 T44	Person-surname 61 68	Гулиева
 T45	Person-surname 75 82	Ташаева
 A4	Male T3
@@ -76,15 +76,15 @@ A17	Male T23
 T61	GPE 937 946	столичный
 A18	Adjective T61
 T62	Person-property 539 545	игроки
-T63	Person-forename 1117 1123	Владом
-T64	Person-surname 1126 1138	Чепзановичем
+T63	Person-forename 1119 1125	Владом
+T64	Person-surname 1128 1140	Чепзановичем
 A19	Male T28
-T65	Person-surname 1165 1171	Гулиев
+T65	Person-surname 1167 1173	Гулиев
 A20	Male T29
-T66	Time-relative 1334 1339	после
-T67	Person-surname 1528 1535	Газизов
+T66	Time-relative 1336 1341	после
+T67	Person-surname 1530 1537	Газизов
 A22	Male T32
-T68	Person-surname 1541 1547	Гулиев
+T68	Person-surname 1543 1549	Гулиев
 A23	Male T33
 A24	Past T36
 A25	Past T39
@@ -96,21 +96,21 @@ T71	Person 295 309	Аяза   Гулиева
 A28	Male T71
 T72	Person 316 336	Александра   Ташаева
 A29	Male T72
-T74	GPE 1646 1652	Ростов
+T74	GPE 1648 1654	Ростов
 A8	Past-Fut T11
 T75	Event 357 374	нынешнем   сезоне
 A21	Past T24
-T76	Event 1059 1068	конфликта
-T77	Event 1342 1365	определенных   ситуаций
-T78	Event 1724 1743	обратный   трансфер
-T79	Ordinal 1306 1307	2
+T76	Event 1061 1070	конфликта
+T77	Event 1344 1367	определенных   ситуаций
+T78	Event 1726 1745	обратный   трансфер
+T79	Ordinal 1308 1309	2
 T80	Person 0 32	Гендиректор   ``   Спартака   ''
 A30	Male T80
-T81	Person 1023 1032	футболист
+T81	Person 1025 1034	футболист
 A31	Male T81
-T73	Nationality 1702 1710	москвичи
+T73	Nationality 1704 1712	москвичи
 A7	Resident T73
-T82	Person 1776 1789	полузащитника
+T82	Person 1778 1791	полузащитника
 A32	Male T82
 T83	Organization 391 415	вторую   команду   клуба
 T84	Organization 410 415	клуба
@@ -118,7 +118,28 @@ T85	Organization 89 94	клубе
 T86	Organization 241 245	клуб
 T87	Organization 937 953	столичный   клуб
 T88	Organization 884 904	дублирующий   состав
-T89	Facility 1237 1246	гостинице
-T90	Facility 1206 1226	тренировочном   поле
+T89	Facility 1239 1248	гостинице
+T90	Facility 1208 1228	тренировочном   поле
 T91	Event 205 214	Чемпионат
 T92	Event 179 187	интервью
+T93	Person 19 27	Спартака
+T94	Person-alias 19 27	Спартака
+T95	Person 140 148	Спартака
+T96	Person-alias 140 148	Спартака
+T97	Person 481 488	Спартак
+A33	Male T97
+T98	Person-alias 481 488	Спартак
+T99	Person 723 730	Спартак
+A34	Male T99
+T100	Person-alias 723 730	Спартак
+T101	Person 1296 1305	Спартаком
+A35	Male T101
+T102	Person-alias 1296 1305	Спартаком
+T103	Person 1584 1592	Спартака
+T104	Person-alias 1584 1592	Спартака
+T105	Person 1804 1813	Спартаком
+T106	Person-alias 1804 1813	Спартаком
+A36	Male T105
+A37	Male T103
+A38	Male T95
+A39	Male T93

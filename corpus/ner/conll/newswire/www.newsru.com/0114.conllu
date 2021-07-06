@@ -171,7 +171,7 @@
 3	я	_	_	_	_	_	_	_	_
 4	и	_	_	_	_	_	_	_	_
 5	сам	_	_	_	_	_	_	_	_
-6	олдскульный	_	_	_	_	_	_	_	bratT31=Person-property
+6	олдскульный	_	_	_	_	_	_	_	_
 7	гонщик	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property
 8	,	_	_	_	_	_	_	_	_
 9	который	_	_	_	_	_	_	_	_
@@ -186,8 +186,11 @@
 18	приводит	_	_	_	_	_	_	_	_
 19	слова	_	_	_	_	_	_	_	_
 20	Квята	_	_	_	_	_	_	_	bratA16=T32:Male|bratT32=Person|bratT68=Person-surname
-21	Motorsport-Magazin	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Media|bratT33=Organization
-22	.	_	_	_	_	_	_	_	_
+21-23	Motorsport-Magazin	_	_	_	_	_	_	_	SpaceAfter=No
+21	Motorsport	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Media|bratT33=Organization
+22	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Media|bratT33=Organization
+23	Magazin	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Media|bratT33=Organization
+24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0114-p6
 # par_text = Добавим, что "Мерседес" по итогам гонки досрочно в седьмой раз подряд выиграл Кубок конструкторов.
@@ -209,7 +212,7 @@
 14	подряд	_	_	_	_	_	_	_	_
 15	выиграл	_	_	_	_	_	_	_	_
 16	Кубок	_	_	_	_	_	_	_	bratT36=Other-term
-17	конструкторов	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Other-term
+17	конструкторов	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Other-term|bratT82=Person-property
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0114-p7

@@ -49,7 +49,7 @@
 8	ссылкой	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	адвоката	_	_	_	_	_	_	_	bratA6=T12:Male|bratT11=Person-property|bratT12=Person
-11	верующего	_	_	_	_	_	_	_	bratA6=T12:Male|bratT12=Person|bratT13=Religious-group
+11	верующего	_	_	_	_	_	_	_	bratA40=T107:Male|bratA6=T12:Male|bratT107=Person|bratT12=Person|bratT13=Religious-group
 12	Арли	_	_	_	_	_	_	_	bratA6=T12:Male|bratT12=Person|bratT14=Person-forename
 13	Чимирова	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T12:Male|bratT12=Person|bratT15=Person-surname
 14	.	_	_	_	_	_	_	_	_
@@ -64,23 +64,23 @@
 4	Шпаковского	_	_	_	_	_	_	_	bratA7=T17:Male|bratT17=Person|bratT18=Person-surname
 5	7,5	_	_	_	_	_	_	_	bratT19=Time-period|bratT20=Duration
 6	лет	_	_	_	_	_	_	_	bratT19=Time-period|bratT20=Duration
-7	лишения	_	_	_	_	_	_	_	_
-8	свободы	_	_	_	_	_	_	_	SpaceAfter=No
+7	лишения	_	_	_	_	_	_	_	bratT108=Event
+8	свободы	_	_	_	_	_	_	_	SpaceAfter=No|bratT108=Event
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0026-p4
 # par_text = Российские «Cвидетели Иеговы» продолжают получать реальные сроки за «экстремизм».
 # sent_id = 0026-p4-s1
 # text = Российские ``Cвидетели Иеговы'' продолжают получать реальные сроки за ``экстремизм''.
-1	Российские	_	_	_	_	_	_	_	bratA8=T22:Adjective|bratT21=Religious-group|bratT22=GPE
+1	Российские	_	_	_	_	_	_	_	bratA8=T22:Adjective|bratT22=GPE
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Religious-group
 3	Cвидетели	_	_	_	_	_	_	_	bratT21=Religious-group
 4	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA27=T78:Fiction|bratA28=T78:Male|bratT21=Religious-group|bratT78=Person|bratT90=Person-forename
 5	''	_	_	_	_	_	_	_	bratT21=Religious-group
 6	продолжают	_	_	_	_	_	_	_	_
 7	получать	_	_	_	_	_	_	_	_
-8	реальные	_	_	_	_	_	_	_	_
-9	сроки	_	_	_	_	_	_	_	_
+8	реальные	_	_	_	_	_	_	_	bratT109=Event
+9	сроки	_	_	_	_	_	_	_	bratT109=Event
 10	за	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No
 12	экстремизм	_	_	_	_	_	_	_	SpaceAfter=No
@@ -97,9 +97,9 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	это	_	_	_	_	_	_	_	_
-7	самый	_	_	_	_	_	_	_	_
-8	большой	_	_	_	_	_	_	_	_
-9	срок	_	_	_	_	_	_	_	SpaceAfter=No
+7	самый	_	_	_	_	_	_	_	bratT110=Event
+8	большой	_	_	_	_	_	_	_	bratT110=Event
+9	срок	_	_	_	_	_	_	_	SpaceAfter=No|bratT110=Event
 10	,	_	_	_	_	_	_	_	_
 11	который	_	_	_	_	_	_	_	_
 12	запрашивали	_	_	_	_	_	_	_	_
@@ -127,7 +127,7 @@
 8	организации	_	_	_	_	_	_	_	_
 9	деятельности	_	_	_	_	_	_	_	_
 10	местной	_	_	_	_	_	_	_	bratA39=T96:Adjective|bratT73=Organization|bratT96=GPE
-11	общины	_	_	_	_	_	_	_	bratT28=Organization|bratT73=Organization
+11	общины	_	_	_	_	_	_	_	bratT73=Organization
 12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Organization|bratT73=Organization
 13	Свидетелей	_	_	_	_	_	_	_	bratT28=Organization|bratT73=Organization
 14	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA29=T79:Fiction|bratA30=T79:Male|bratT28=Organization|bratT73=Organization|bratT79=Person|bratT87=Person-forename
@@ -169,9 +169,9 @@
 5	Шпаковский	_	_	_	_	_	_	_	bratA11=T33:Male|bratT33=Person|bratT34=Person-surname
 6	находился	_	_	_	_	_	_	_	_
 7	под	_	_	_	_	_	_	_	_
-8	подпиской	_	_	_	_	_	_	_	_
-9	о	_	_	_	_	_	_	_	_
-10	невыезде	_	_	_	_	_	_	_	SpaceAfter=No
+8	подпиской	_	_	_	_	_	_	_	bratT111=Event
+9	о	_	_	_	_	_	_	_	bratT111=Event
+10	невыезде	_	_	_	_	_	_	_	SpaceAfter=No|bratT111=Event
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0026-p7
@@ -189,8 +189,8 @@
 9	Свидетелей	_	_	_	_	_	_	_	bratT38=Organization
 10	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA31=T86:Fiction|bratA32=T86:Male|bratT38=Organization|bratT86=Person|bratT91=Person-forename
 11	''	_	_	_	_	_	_	_	bratT38=Organization
-12	экстремистской	_	_	_	_	_	_	_	bratT104=Organization
-13	организацией	_	_	_	_	_	_	_	SpaceAfter=No|bratT104=Organization
+12	экстремистской	_	_	_	_	_	_	_	_
+13	организацией	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0026-p7-s2
@@ -260,7 +260,7 @@
 13	затем	_	_	_	_	_	_	_	bratA36=T43:Past|bratT43=Date-relative
 14	суд	_	_	_	_	_	_	_	bratT99=Organization
 15	в	_	_	_	_	_	_	_	_
-16	апелляции	_	_	_	_	_	_	_	_
+16	апелляции	_	_	_	_	_	_	_	bratT104=Event
 17	изменил	_	_	_	_	_	_	_	_
 18	приговор	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_

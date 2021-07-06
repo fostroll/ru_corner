@@ -167,9 +167,9 @@
 
 # sent_id = 0065-p3-s4
 # text = В годовом выражении разрыв с прошлым годом сократился до -12,1%, а впереди нас ждут еще два месяца активных продаж.
-1	В	_	_	_	_	_	_	_	bratT44=Time-period
+1	В	_	_	_	_	_	_	_	bratT43=Duration|bratT44=Time-period
 2	годовом	_	_	_	_	_	_	_	bratT43=Duration|bratT44=Time-period
-3	выражении	_	_	_	_	_	_	_	bratT44=Time-period
+3	выражении	_	_	_	_	_	_	_	bratT43=Duration|bratT44=Time-period
 4	разрыв	_	_	_	_	_	_	_	_
 5	с	_	_	_	_	_	_	_	_
 6	прошлым	_	_	_	_	_	_	_	bratA13=T31:Past|bratT31=Date-period-absolute|bratT41=Ordinal

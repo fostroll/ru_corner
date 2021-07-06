@@ -3,12 +3,12 @@
 # par_text = Президент Армении узнал о прекращении войны в Карабахе из СМИ
 # sent_id = 0074-p1-s1
 # text = Президент Армении узнал о прекращении войны в Карабахе из СМИ
-1	Президент	_	_	_	_	_	_	_	bratT2=Person-property
-2	Армении	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Person-property
+1	Президент	_	_	_	_	_	_	_	bratA20=T53:Male|bratT2=Person-property|bratT53=Person
+2	Армении	_	_	_	_	_	_	_	bratA20=T53:Male|bratT1=GPE|bratT2=Person-property|bratT53=Person
 3	узнал	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
-5	прекращении	_	_	_	_	_	_	_	_
-6	войны	_	_	_	_	_	_	_	bratT27=Event
+5	прекращении	_	_	_	_	_	_	_	bratT55=Event
+6	войны	_	_	_	_	_	_	_	bratT27=Event|bratT55=Event
 7	в	_	_	_	_	_	_	_	_
 8	Карабахе	_	_	_	_	_	_	_	bratT3=GPE
 9	из	_	_	_	_	_	_	_	_
@@ -27,10 +27,10 @@
 7	что	_	_	_	_	_	_	_	_
 8	узнал	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
-10	соглашении	_	_	_	_	_	_	_	_
+10	соглашении	_	_	_	_	_	_	_	bratT54=Event
 11	о	_	_	_	_	_	_	_	_
-12	прекращении	_	_	_	_	_	_	_	_
-13	войны	_	_	_	_	_	_	_	bratT26=Event
+12	прекращении	_	_	_	_	_	_	_	bratT56=Event
+13	войны	_	_	_	_	_	_	_	bratT26=Event|bratT56=Event
 14	в	_	_	_	_	_	_	_	_
 15	Нагорном	_	_	_	_	_	_	_	bratT6=GPE
 16	Карабахе	_	_	_	_	_	_	_	bratT6=GPE
@@ -44,7 +44,7 @@
 # text = В заявлении президента на его официальном сайте говорится, что он принял во внимание озабоченность людей и немедленно инициирует политические консультации по данному вопросу.
 1	В	_	_	_	_	_	_	_	_
 2	заявлении	_	_	_	_	_	_	_	_
-3	президента	_	_	_	_	_	_	_	bratT7=Person-property
+3	президента	_	_	_	_	_	_	_	bratA19=T52:Male|bratT52=Person|bratT7=Person-property
 4	на	_	_	_	_	_	_	_	_
 5	его	_	_	_	_	_	_	_	_
 6	официальном	_	_	_	_	_	_	_	bratA4=T28:Media|bratT28=Service
@@ -61,8 +61,8 @@
 17	и	_	_	_	_	_	_	_	_
 18	немедленно	_	_	_	_	_	_	_	_
 19	инициирует	_	_	_	_	_	_	_	_
-20	политические	_	_	_	_	_	_	_	_
-21	консультации	_	_	_	_	_	_	_	_
+20	политические	_	_	_	_	_	_	_	bratT51=Event
+21	консультации	_	_	_	_	_	_	_	bratT51=Event
 22	по	_	_	_	_	_	_	_	_
 23	данному	_	_	_	_	_	_	_	_
 24	вопросу	_	_	_	_	_	_	_	SpaceAfter=No
@@ -99,8 +99,8 @@
 4	узнал	_	_	_	_	_	_	_	_
 5	об	_	_	_	_	_	_	_	_
 6	условиях	_	_	_	_	_	_	_	_
-7	прекращения	_	_	_	_	_	_	_	_
-8	огня	_	_	_	_	_	_	_	SpaceAfter=No
+7	прекращения	_	_	_	_	_	_	_	bratT57=Event
+8	огня	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0074-p3-s3
@@ -116,7 +116,7 @@
 9	не	_	_	_	_	_	_	_	_
 10	было	_	_	_	_	_	_	_	_
 11	никаких	_	_	_	_	_	_	_	_
-12	консультаций	_	_	_	_	_	_	_	_
+12	консультаций	_	_	_	_	_	_	_	bratT49=Event
 13	по	_	_	_	_	_	_	_	_
 14	этому	_	_	_	_	_	_	_	_
 15	вопросу	_	_	_	_	_	_	_	SpaceAfter=No
@@ -151,15 +151,15 @@
 22	,	_	_	_	_	_	_	_	_
 23	-	_	_	_	_	_	_	_	_
 24	отметил	_	_	_	_	_	_	_	_
-25	президент	_	_	_	_	_	_	_	bratT16=Person-property
-26	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=GPE|bratT16=Person-property
+25	президент	_	_	_	_	_	_	_	bratA17=T48:Male|bratT16=Person-property|bratT48=Person
+26	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T48:Male|bratT15=GPE|bratT16=Person-property|bratT48=Person
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0074-p4
 # par_text = Политик подчеркнул, что урегулированию конфликта в Карабахе несет общенациональное значение, и любое решение по этому поводу должно быть предметом всесторонних обсуждений.
 # sent_id = 0074-p4-s1
 # text = Политик подчеркнул, что урегулированию конфликта в Карабахе несет общенациональное значение, и любое решение по этому поводу должно быть предметом всесторонних обсуждений.
-1	Политик	_	_	_	_	_	_	_	bratT17=Person-property
+1	Политик	_	_	_	_	_	_	_	bratA16=T46:Male|bratT17=Person-property|bratT46=Person
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -181,7 +181,7 @@
 20	быть	_	_	_	_	_	_	_	_
 21	предметом	_	_	_	_	_	_	_	_
 22	всесторонних	_	_	_	_	_	_	_	_
-23	обсуждений	_	_	_	_	_	_	_	SpaceAfter=No
+23	обсуждений	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0074-p5
@@ -192,8 +192,8 @@
 2	Я	_	_	_	_	_	_	_	_
 3	немедленно	_	_	_	_	_	_	_	_
 4	инициирую	_	_	_	_	_	_	_	_
-5	политические	_	_	_	_	_	_	_	_
-6	консультации	_	_	_	_	_	_	_	SpaceAfter=No
+5	политические	_	_	_	_	_	_	_	bratT58=Event
+6	консультации	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
 7	,	_	_	_	_	_	_	_	_
 8	принимая	_	_	_	_	_	_	_	_
 9	во	_	_	_	_	_	_	_	_
@@ -217,19 +217,19 @@
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
 4	накануне	_	_	_	_	_	_	_	bratA5=T30:Past|bratT30=Date-absolute
-5	лидеры	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Person-property
-6	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T23:Plural|bratT20=GPE|bratT23=Person-property
-7	,	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Person-property
-8	Армении	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT21=GPE|bratT23=Person-property
-9	и	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Person-property
-10	Азербайджана	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT22=GPE|bratT23=Person-property
+5	лидеры	_	_	_	_	_	_	_	bratA18=T50:Plural|bratA2=T23:Plural|bratT23=Person-property|bratT50=Person
+6	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T50:Plural|bratA2=T23:Plural|bratT20=GPE|bratT23=Person-property|bratT50=Person
+7	,	_	_	_	_	_	_	_	bratA18=T50:Plural|bratA2=T23:Plural|bratT23=Person-property|bratT50=Person
+8	Армении	_	_	_	_	_	_	_	bratA18=T50:Plural|bratA2=T23:Plural|bratT21=GPE|bratT23=Person-property|bratT50=Person
+9	и	_	_	_	_	_	_	_	bratA18=T50:Plural|bratA2=T23:Plural|bratT23=Person-property|bratT50=Person
+10	Азербайджана	_	_	_	_	_	_	_	bratA18=T50:Plural|bratA2=T23:Plural|bratT22=GPE|bratT23=Person-property|bratT50=Person
 11	приняли	_	_	_	_	_	_	_	_
 12	совместное	_	_	_	_	_	_	_	_
 13	заявление	_	_	_	_	_	_	_	_
 14	о	_	_	_	_	_	_	_	_
-15	прекращении	_	_	_	_	_	_	_	_
-16	военных	_	_	_	_	_	_	_	_
-17	действий	_	_	_	_	_	_	_	_
+15	прекращении	_	_	_	_	_	_	_	bratT59=Event
+16	военных	_	_	_	_	_	_	_	bratT59=Event
+17	действий	_	_	_	_	_	_	_	bratT59=Event
 18	в	_	_	_	_	_	_	_	_
 19	карабахском	_	_	_	_	_	_	_	bratT24=GPE
 20	регионе	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=GPE
@@ -240,9 +240,9 @@
 1	По	_	_	_	_	_	_	_	_
 2	заявлению	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	полное	_	_	_	_	_	_	_	_
-5	прекращения	_	_	_	_	_	_	_	_
-6	огня	_	_	_	_	_	_	_	_
+4	полное	_	_	_	_	_	_	_	bratT60=Event
+5	прекращения	_	_	_	_	_	_	_	bratT60=Event
+6	огня	_	_	_	_	_	_	_	bratT60=Event
 7	вступает	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	силу	_	_	_	_	_	_	_	_

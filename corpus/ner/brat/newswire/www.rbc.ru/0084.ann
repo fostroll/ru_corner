@@ -37,7 +37,7 @@ T32	Nationality 1589 1608	житель   Волгограда
 A9	Resident T32
 T33	GPE 1664 1674	Волгограде
 T34	Age 1681 1692	30 - летний
-T36	Other-group 1750 1762	Потерпевшего
+T36	Person-property 1750 1762	Потерпевшего
 T37	Date-relative 1789 1794	позже
 T38	Ordinal 642 651	настоящее
 T39	Law 292 296	КоАП
@@ -50,8 +50,7 @@ A12	Media T42
 T43	Organization 966 973	издание
 A2	Media T43
 T44	Person-property 1119 1123	врач
-T45	Organization 1640 1657	отделении   банка
-A13	Department T45
+T45	Facility 1640 1657	отделении   банка
 T46	Organization 1652 1657	банка
 T47	Event 303 323	мелкое   хулиганство
 T4	Event 43 52	стрельбой
@@ -64,3 +63,15 @@ T51	Event 1613 1621	Конфликт
 T35	Event 1384 1393	конфликте
 T52	Event 772 803	возбуждении   уголовного   дела
 T53	Event 728 741	произошедшего
+T54	Person 1750 1762	Потерпевшего
+A14	Male T54
+T55	Person 1695 1702	мужчина
+A15	Male T55
+T56	Person 1713 1723	посетителя
+A16	Male T56
+T57	Person 1589 1608	житель   Волгограда
+A13	Male T57
+T58	Person 1448 1455	мужчины
+T59	Person 72 81	родителей
+T60	Person 95 110	Шесть   граждан
+T61	Person 1152 1162	участников

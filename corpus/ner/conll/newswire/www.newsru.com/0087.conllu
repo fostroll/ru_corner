@@ -13,8 +13,8 @@
 8	переживет	_	_	_	_	_	_	_	_
 9	новой	_	_	_	_	_	_	_	bratT38=Event
 10	волны	_	_	_	_	_	_	_	bratT38=Event
-11	карантинных	_	_	_	_	_	_	_	bratT37=Event|bratT38=Event
-12	ограничений	_	_	_	_	_	_	_	bratT37=Event|bratT38=Event
+11	карантинных	_	_	_	_	_	_	_	bratT38=Event
+12	ограничений	_	_	_	_	_	_	_	bratT38=Event
 
 # newpar id = 0087-p2
 # par_text = Почти треть предпринимателей сферы малого и среднего бизнеса считают, что их предприятия не переживут вторую волну ужесточения карантинных мер, следует из исследования Magram Market Research и Промсвязьбанка. На эти данные ссылается РБК.
@@ -35,9 +35,9 @@
 13	предприятия	_	_	_	_	_	_	_	bratT35=Organization
 14	не	_	_	_	_	_	_	_	_
 15	переживут	_	_	_	_	_	_	_	_
-16	вторую	_	_	_	_	_	_	_	bratT4=Ordinal
-17	волну	_	_	_	_	_	_	_	_
-18	ужесточения	_	_	_	_	_	_	_	bratT40=Event
+16	вторую	_	_	_	_	_	_	_	bratT39=Event|bratT4=Ordinal
+17	волну	_	_	_	_	_	_	_	bratT39=Event
+18	ужесточения	_	_	_	_	_	_	_	bratT39=Event|bratT40=Event
 19	карантинных	_	_	_	_	_	_	_	bratT39=Event|bratT40=Event
 20	мер	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Event|bratT40=Event
 21	,	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 27	от	_	_	_	_	_	_	_	bratT11=Percent
 28	общего	_	_	_	_	_	_	_	_
 29	числа	_	_	_	_	_	_	_	_
-30	респондентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property
+30	респондентов	_	_	_	_	_	_	_	SpaceAfter=No
 31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0087-p3-s2
@@ -118,7 +118,7 @@
 15-16	20%	_	_	_	_	_	_	_	_
 15	20	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Percent
 16	%	_	_	_	_	_	_	_	bratT13=Percent
-17	респондентов	_	_	_	_	_	_	_	bratT24=Person-property
+17	респондентов	_	_	_	_	_	_	_	_
 18	заявили	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	что	_	_	_	_	_	_	_	_

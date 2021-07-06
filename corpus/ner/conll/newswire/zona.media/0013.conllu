@@ -21,7 +21,7 @@
 # par_text = В Петербурге полицейский и наблюдатель на избирательном участке №2191 напали на корреспондента «Медиазоны» Давида Френкеля. Об этом сообщил сам Френкель.
 # sent_id = 0013-p2-s1
 # text = В Петербурге полицейский и наблюдатель на избирательном участке №2191 напали на корреспондента ``Медиазоны'' Давида Френкеля.
-1	В	_	_	_	_	_	_	_	bratT6=GPE
+1	В	_	_	_	_	_	_	_	_
 2	Петербурге	_	_	_	_	_	_	_	bratT6=GPE
 3	полицейский	_	_	_	_	_	_	_	bratA12=T35:Male|bratT30=Person-property|bratT35=Person
 4	и	_	_	_	_	_	_	_	_
@@ -156,8 +156,8 @@
 
 # sent_id = 0013-p4-s3
 # text = Один из наблюдателей наступил корреспонденту на ногу, а потом схватил за поврежденную руку.
-1	Один	_	_	_	_	_	_	_	bratA10=T33:Male|bratT25=Person-property|bratT26=Quantity|bratT33=Person
-2	из	_	_	_	_	_	_	_	bratA10=T33:Male|bratT25=Person-property|bratT26=Quantity|bratT33=Person
+1	Один	_	_	_	_	_	_	_	bratA10=T33:Male|bratT26=Quantity|bratT33=Person
+2	из	_	_	_	_	_	_	_	bratA10=T33:Male|bratT26=Quantity|bratT33=Person
 3	наблюдателей	_	_	_	_	_	_	_	bratA10=T33:Male|bratT25=Person-property|bratT33=Person
 4	наступил	_	_	_	_	_	_	_	_
 5	корреспонденту	_	_	_	_	_	_	_	bratA4=T32:Male|bratT27=Person-property|bratT32=Person

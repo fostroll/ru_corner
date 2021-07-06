@@ -30,8 +30,6 @@ T24	Organization 867 876	Мосгорсуд
 T26	Person-property 920 930	журналиста
 T27	Person 920 1015	журналиста   и   советника   главы   ``   Роскосмоса   ''   Ивана   Сафронова   ,   обвиняемого
 A6	Male T27
-T28	Person-property 920 977	журналиста   и   советника   главы   ``   Роскосмоса   ''
-A7	Plural T28
 T29	Person-property 937 977	советника   главы   ``   Роскосмоса   ''
 T30	Organization 957 977	``   Роскосмоса   ''
 T31	Person-forename 980 985	Ивана
@@ -73,3 +71,17 @@ T58	Facility 826 829	суд
 T59	Person-property 1004 1015	обвиняемого
 T60	Event 1559 1582	публичных   мероприятий
 T61	Event 1538 1547	нарушение
+T62	Person 23 34	журналистку
+A15	Female T62
+T63	Person 0 8	Приставы
+T64	Person 192 200	приставы
+T65	Person 391 402	Журналистка
+A16	Female T65
+T66	Person 441 451	приставами
+T67	Person 737 745	приставы
+T68	Event 895 904	апелляцию
+T28	Organization 1131 1137	газете
+A7	Media T28
+T69	Person 1306 1317	Журналистка
+A17	Female T69
+T70	Event 1467 1471	явке

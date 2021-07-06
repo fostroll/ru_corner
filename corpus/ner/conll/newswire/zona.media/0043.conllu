@@ -10,7 +10,7 @@
 5	будут	_	_	_	_	_	_	_	_
 6	судить	_	_	_	_	_	_	_	_
 7	за	_	_	_	_	_	_	_	_
-8	пытки	_	_	_	_	_	_	_	_
+8	пытки	_	_	_	_	_	_	_	bratT42=Event
 9	двоих	_	_	_	_	_	_	_	bratT3=Quantity|bratT32=Person
 10	задержанных	_	_	_	_	_	_	_	bratT3=Quantity|bratT32=Person|bratT4=Person-property
 11	электрошокером	_	_	_	_	_	_	_	_
@@ -43,7 +43,7 @@
 22	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Law|bratT9=Law
 23	)	_	_	_	_	_	_	_	_
 24	за	_	_	_	_	_	_	_	_
-25	пытки	_	_	_	_	_	_	_	_
+25	пытки	_	_	_	_	_	_	_	bratT43=Event
 26	двоих	_	_	_	_	_	_	_	bratT34=Quantity|bratT35=Person
 27	задержанных	_	_	_	_	_	_	_	bratT34=Quantity|bratT35=Person|bratT36=Person-property
 28	электрошокером	_	_	_	_	_	_	_	SpaceAfter=No
@@ -61,9 +61,9 @@
 7	ру	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T12:Media|bratT12=Organization
 8	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA2=T12:Media|bratT12=Organization
 9	и	_	_	_	_	_	_	_	_
-10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA3=T14:Media|bratT14=Organization
 11	Уралинформбюро	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Media|bratT14=Organization
-12	''	_	_	_	_	_	_	_	QuotationEnd=»
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA3=T14:Media|bratT14=Organization
 13	со	_	_	_	_	_	_	_	_
 14	ссылкой	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
@@ -84,7 +84,7 @@
 7	на	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute|bratT17=Time-absolute
 8	13	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
 9	апреля	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
-10	полицейский	_	_	_	_	_	_	_	bratT18=Person-property
+10	полицейский	_	_	_	_	_	_	_	bratA12=T44:Male|bratT18=Person-property|bratT44=Person
 11	дежурил	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	отделе	_	_	_	_	_	_	_	bratA9=T30:Department|bratT30=Organization
@@ -122,7 +122,7 @@
 10	себя	_	_	_	_	_	_	_	_
 11	неадекватно	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
-13	камере	_	_	_	_	_	_	_	_
+13	камере	_	_	_	_	_	_	_	bratT45=Facility
 14	и	_	_	_	_	_	_	_	_
 15	что	_	_	_	_	_	_	_	_
 16	специальное	_	_	_	_	_	_	_	_

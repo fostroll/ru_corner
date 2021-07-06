@@ -18,31 +18,31 @@ T15	Event 396 416	товарищеском   матче
 T16	Quantity 433 436	1:2
 T17	Person 447 463	Федор   Кудряшов
 T18	Person 470 484	Илья   Кутепов
-T19	Organization 551 576	``   Спорт-Экспрессу   ''
+T19	Organization 551 578	``   Спорт - Экспрессу   ''
 A3	Media T19
 T20	Person 541 548	Газзаев
-T21	Person 589 593	Жиго
-T22	Person 600 616	Георгий   Джикия
-T23	Organization 663 681	``   Спартаке   ''
-T24	Person-property 838 872	Защитники   ``   красно-белых   ''
-T25	Organization 916 932	сборной   России
-T26	GPE 926 932	России
-T27	Organization 998 1015	``   Спартак   ''
-T28	Date-period-absolute 1018 1033	с   2018   года
-T29	Person 974 978	Жиго
-T30	Age 1051 1063	26 - летнего
-T31	Person-property 1066 1075	защитника
-T32	Quantity 1078 1093	девять   матчей
-T33	Quantity 1100 1120	один   забитый   мяч
-T34	Event 1127 1167	чемпионате   России   нынешнего   сезона
-T35	GPE 1140 1146	России
-T36	Person 1172 1186	Самуэль   Жиго
-T37	Organization 1222 1269	национальную   сборную   Франции   по   футболу
-T38	GPE 1247 1254	Франции
+T21	Person 591 595	Жиго
+T22	Person 602 618	Георгий   Джикия
+T23	Organization 665 683	``   Спартаке   ''
+T24	Person-property 840 874	Защитники   ``   красно-белых   ''
+T25	Organization 918 934	сборной   России
+T26	GPE 928 934	России
+T27	Organization 1000 1017	``   Спартак   ''
+T28	Date-period-absolute 1020 1035	с   2018   года
+T29	Person 976 980	Жиго
+T30	Age 1053 1065	26 - летнего
+T31	Person-property 1068 1077	защитника
+T32	Quantity 1080 1095	девять   матчей
+T33	Quantity 1102 1122	один   забитый   мяч
+T34	Event 1129 1169	чемпионате   России   нынешнего   сезона
+T35	GPE 1142 1148	России
+T36	Person 1174 1188	Самуэль   Жиго
+T37	Organization 1224 1271	национальную   сборную   Франции   по   футболу
+T38	GPE 1249 1256	Франции
 T39	Person-property 73 99	французского   спартаковца
 T40	Date-absolute 329 340	В   четверг
-T41	Date-absolute 686 692	Сейчас
-T42	Ordinal 1149 1158	нынешнего
+T41	Date-absolute 688 694	Сейчас
+T42	Ordinal 1151 1160	нынешнего
 T43	Date-absolute 0 17	После   поражения
 T44	Person-surname 34 41	Газзаев
 A4	Male T2
@@ -67,26 +67,41 @@ T55	Person-surname 477 484	Кутепов
 A12	Male T18
 T56	Person-surname 541 548	Газзаев
 A13	Male T20
-T57	Person-surname 589 593	Жиго
+T57	Person-surname 591 595	Жиго
 A14	Male T21
-T58	Person-forename 600 607	Георгий
-T59	Person-surname 610 616	Джикия
+T58	Person-forename 602 609	Георгий
+T59	Person-surname 612 618	Джикия
 A15	Male T22
 A16	Present T41
-T60	Person-surname 974 978	Жиго
+T60	Person-surname 976 980	Жиго
 A17	Male T29
 A18	Past-Pres T28
 A19	RCont T28
-T61	Date-period-absolute 1123 1137	в   чемпионате
+T61	Date-period-absolute 1125 1139	в   чемпионате
 A20	Male T36
-T62	Person-forename 1172 1179	Самуэль
-T63	Person-surname 1182 1186	Жиго
+T62	Person-forename 1174 1181	Самуэль
+T63	Person-surname 1184 1188	Жиго
 A21	Past-Pres T61
 A22	Past T43
 T65	Event 498 503	матче
-T66	GPE 1222 1234	национальную
+T66	GPE 1224 1236	национальную
 A23	Adjective T66
-T68	Organization 956 963	команду
+T68	Organization 958 965	команду
 T67	Event 8 17	поражения
 T64	Person 73 99	французского   спартаковца
 A24	Male T64
+T70	Event 1089 1095	матчей
+T71	Event 1109 1122	забитый   мяч
+T72	Person 1068 1077	защитника
+A25	Male T72
+T73	Person 246 254	Спартака
+A26	Male T73
+T74	Person-alias 246 254	Спартака
+T75	Person 670 678	Спартаке
+A27	Male T75
+T76	Person-alias 670 678	Спартаке
+T77	Person 1005 1012	Спартак
+A28	Male T77
+T78	Person-alias 1005 1012	Спартак
+T69	Person 840 874	Защитники   ``   красно-белых   ''
+A29	Male T69

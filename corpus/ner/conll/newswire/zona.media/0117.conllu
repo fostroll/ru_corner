@@ -3,9 +3,9 @@
 # par_text = Двоих московских полицейских заподозрили в передаче посторонним данных с камер распознавания лиц
 # sent_id = 0117-p1-s1
 # text = Двоих московских полицейских заподозрили в передаче посторонним данных с камер распознавания лиц
-1	Двоих	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Quantity
-2	московских	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT1=Person-property|bratT3=GPE
-3	полицейских	_	_	_	_	_	_	_	bratT1=Person-property
+1	Двоих	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Quantity|bratT56=Person
+2	московских	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT1=Person-property|bratT3=GPE|bratT56=Person
+3	полицейских	_	_	_	_	_	_	_	bratT1=Person-property|bratT56=Person
 4	заподозрили	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	передаче	_	_	_	_	_	_	_	_
@@ -26,7 +26,7 @@
 4	уголовное	_	_	_	_	_	_	_	bratT40=Event
 5	дело	_	_	_	_	_	_	_	bratT40=Event
 6	против	_	_	_	_	_	_	_	_
-7	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property
+7	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property|bratT57=Person
 8	,	_	_	_	_	_	_	_	_
 9	передавших	_	_	_	_	_	_	_	_
 10	посторонним	_	_	_	_	_	_	_	_
@@ -37,8 +37,8 @@
 15	лиц	_	_	_	_	_	_	_	_
 16	о	_	_	_	_	_	_	_	_
 17	передвижениях	_	_	_	_	_	_	_	_
-18	двух	_	_	_	_	_	_	_	bratT6=Quantity
-19	москвичек	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Resident|bratT6=Quantity|bratT7=Nationality
+18	двух	_	_	_	_	_	_	_	bratA4=T58:Female|bratT58=Person|bratT6=Quantity
+19	москвичек	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Resident|bratA4=T58:Female|bratT58=Person|bratT6=Quantity|bratT7=Nationality
 20	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0117-p2-s2
@@ -182,7 +182,7 @@
 
 # sent_id = 0117-p6-s2
 # text = Девушка смогла купить данные о своих передвижениях в интернете за 16 тысяч рублей.
-1	Девушка	_	_	_	_	_	_	_	_
+1	Девушка	_	_	_	_	_	_	_	bratA5=T59:Female|bratT59=Person
 2	смогла	_	_	_	_	_	_	_	_
 3	купить	_	_	_	_	_	_	_	_
 4	данные	_	_	_	_	_	_	_	_

@@ -29,12 +29,12 @@
 9	изгнания	_	_	_	_	_	_	_	bratT44=Event
 10	дьявола	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T40:Fiction|bratA13=T40:Male|bratT40=Person|bratT44=Event
 11	''	_	_	_	_	_	_	_	_
-12	родителями	_	_	_	_	_	_	_	bratA11=T38:Male|bratT17=Family|bratT38=Person
+12	родителями	_	_	_	_	_	_	_	bratT17=Family|bratT38=Person
 13-15	10-летнего	_	_	_	_	_	_	_	_
-13	10	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA11=T38:Male|bratT2=Age|bratT38=Person
-14	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA11=T38:Male|bratT2=Age|bratT38=Person
-15	летнего	_	_	_	_	_	_	_	bratA11=T38:Male|bratT2=Age|bratT38=Person
-16	мальчика	_	_	_	_	_	_	_	bratA11=T38:Male|bratT38=Person
+13	10	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Age|bratT38=Person
+14	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Age|bratT38=Person
+15	летнего	_	_	_	_	_	_	_	bratT2=Age|bratT38=Person
+16	мальчика	_	_	_	_	_	_	_	bratA11=T47:Male|bratT38=Person|bratT47=Person
 17	в	_	_	_	_	_	_	_	_
 18	Волгоградской	_	_	_	_	_	_	_	bratT3=GPE
 19	области	_	_	_	_	_	_	_	bratT3=GPE
@@ -127,7 +127,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	котором	_	_	_	_	_	_	_	_
-13	родители	_	_	_	_	_	_	_	bratT20=Family
+13	родители	_	_	_	_	_	_	_	bratT20=Family|bratT48=Person
 14	с	_	_	_	_	_	_	_	_
 15	помощью	_	_	_	_	_	_	_	_
 16	чеснока	_	_	_	_	_	_	_	SpaceAfter=No
@@ -152,7 +152,7 @@
 2	процессе	_	_	_	_	_	_	_	bratA4=T21:Past|bratT21=Date-period-absolute
 3	ритуала	_	_	_	_	_	_	_	bratA4=T21:Past|bratT15=Event|bratT21=Date-period-absolute
 4	отец	_	_	_	_	_	_	_	bratA10=T37:Male|bratT10=Family|bratT37=Person
-5	мальчика	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Male|bratT37=Person
+5	мальчика	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Male|bratA15=T49:Male|bratT37=Person|bratT49=Person
 6	,	_	_	_	_	_	_	_	_
 7	как	_	_	_	_	_	_	_	_
 8	следует	_	_	_	_	_	_	_	_
@@ -160,7 +160,7 @@
 10	записи	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	скручивает	_	_	_	_	_	_	_	_
-13	сына	_	_	_	_	_	_	_	bratT11=Family
+13	сына	_	_	_	_	_	_	_	bratA16=T50:Male|bratT11=Family|bratT50=Person
 14	и	_	_	_	_	_	_	_	_
 15	не	_	_	_	_	_	_	_	_
 16	дает	_	_	_	_	_	_	_	_
@@ -171,7 +171,7 @@
 # sent_id = 0019-p4-s3
 # text = Мать несовершеннолетнего при этом снимает видео, просит нанести на крест святую воду, взять чеснок и поджечь свечу.
 1	Мать	_	_	_	_	_	_	_	bratA9=T36:Female|bratT12=Family|bratT36=Person
-2	несовершеннолетнего	_	_	_	_	_	_	_	bratA9=T36:Female|bratT34=Age|bratT36=Person
+2	несовершеннолетнего	_	_	_	_	_	_	_	bratA17=T51:Male|bratA9=T36:Female|bratT34=Age|bratT36=Person|bratT51=Person
 3	при	_	_	_	_	_	_	_	_
 4	этом	_	_	_	_	_	_	_	_
 5	снимает	_	_	_	_	_	_	_	_
@@ -197,7 +197,7 @@
 2	,	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	мнению	_	_	_	_	_	_	_	_
-5	женщины	_	_	_	_	_	_	_	SpaceAfter=No
+5	женщины	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T52:Female|bratT52=Person
 6	,	_	_	_	_	_	_	_	_
 7	должно	_	_	_	_	_	_	_	_
 8	было	_	_	_	_	_	_	_	_
@@ -210,7 +210,7 @@
 15	время	_	_	_	_	_	_	_	bratT23=Time-period
 16	избавить	_	_	_	_	_	_	_	SpaceAfter=No
 17	''	_	_	_	_	_	_	_	_
-18	ребенка	_	_	_	_	_	_	_	bratT22=Family
+18	ребенка	_	_	_	_	_	_	_	bratT22=Family|bratT53=Person
 19	от	_	_	_	_	_	_	_	_
 20	демона	_	_	_	_	_	_	_	SpaceAfter=No
 21	.	_	_	_	_	_	_	_	_

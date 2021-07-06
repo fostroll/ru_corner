@@ -8,7 +8,7 @@
 3	области	_	_	_	_	_	_	_	bratT1=GPE
 4	подозреваемый	_	_	_	_	_	_	_	bratA20=T55:Male|bratT2=Person-property|bratT55=Person
 5	в	_	_	_	_	_	_	_	_
-6	убийстве	_	_	_	_	_	_	_	_
+6	убийстве	_	_	_	_	_	_	_	bratT69=Event
 7	жены	_	_	_	_	_	_	_	bratA19=T54:Female|bratT16=Family|bratT54=Person
 8	и	_	_	_	_	_	_	_	_
 9	ее	_	_	_	_	_	_	_	bratA3=T18:Female|bratT18=Person
@@ -74,16 +74,16 @@
 14	отделе	_	_	_	_	_	_	_	bratA18=T53:Department|bratT53=Organization
 15	во	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute
 16	время	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute
-17	следственных	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute
-18	действий	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Past|bratT37=Date-absolute
+17	следственных	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-absolute|bratT70=Event
+18	действий	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Past|bratT37=Date-absolute|bratT70=Event
 19	,	_	_	_	_	_	_	_	_
 20	выпрыгнул	_	_	_	_	_	_	_	_
 21	в	_	_	_	_	_	_	_	_
 22	наручниках	_	_	_	_	_	_	_	_
 23	из	_	_	_	_	_	_	_	_
 24	окна	_	_	_	_	_	_	_	_
-25	второго	_	_	_	_	_	_	_	bratT14=Ordinal
-26	этажа	_	_	_	_	_	_	_	_
+25	второго	_	_	_	_	_	_	_	bratT14=Ordinal|bratT71=Facility
+26	этажа	_	_	_	_	_	_	_	bratT71=Facility
 27	и	_	_	_	_	_	_	_	_
 28	убежал	_	_	_	_	_	_	_	SpaceAfter=No
 29	.	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 # sent_id = 0005-p4-s1
 # text = Накануне мужчину задержали по подозрению в убийстве двух лиц, в том числе малолетнего (пункты «а» и «в» части 2 статьи 105 УК).
 1	Накануне	_	_	_	_	_	_	_	bratA11=T38:Past|bratT38=Date-absolute
-2	мужчину	_	_	_	_	_	_	_	_
+2	мужчину	_	_	_	_	_	_	_	bratA27=T72:Male|bratT72=Person
 3	задержали	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
 5	подозрению	_	_	_	_	_	_	_	_
@@ -137,7 +137,7 @@
 10	задержанный	_	_	_	_	_	_	_	bratA24=T61:Male|bratT24=Person-property|bratT61=Person
 11	во	_	_	_	_	_	_	_	bratA14=T45:Past|bratT45=Date-absolute
 12	время	_	_	_	_	_	_	_	bratA14=T45:Past|bratT45=Date-absolute
-13	ссоры	_	_	_	_	_	_	_	bratA14=T45:Past|bratT45=Date-absolute
+13	ссоры	_	_	_	_	_	_	_	bratA14=T45:Past|bratT45=Date-absolute|bratT73=Event
 14	зарезал	_	_	_	_	_	_	_	_
 15	свою	_	_	_	_	_	_	_	bratA12=T44:Female|bratT44=Person
 16	жену	_	_	_	_	_	_	_	bratA12=T44:Female|bratT26=Family|bratT44=Person
@@ -186,11 +186,11 @@
 
 # sent_id = 0005-p5-s2
 # text = Следователи обнаружили на телах погибших колото-резаные раны головы и тела.
-1	Следователи	_	_	_	_	_	_	_	bratT30=Person-property
+1	Следователи	_	_	_	_	_	_	_	bratT30=Person-property|bratT74=Person
 2	обнаружили	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	телах	_	_	_	_	_	_	_	_
-5	погибших	_	_	_	_	_	_	_	_
+5	погибших	_	_	_	_	_	_	_	bratT75=Person
 6	колото-резаные	_	_	_	_	_	_	_	_
 7	раны	_	_	_	_	_	_	_	_
 8	головы	_	_	_	_	_	_	_	_

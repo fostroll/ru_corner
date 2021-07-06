@@ -22,7 +22,7 @@ T20	GPE 490 505	города   Бельцы
 T21	Percent 530 536	16,9 %
 T22	Person 543 600	кандидат   от   партии   ``   Шор   ''   Виолета   Иванов
 T23	Person-property 543 581	кандидат   от   партии   ``   Шор   ''
-T24	Political-group 559 581	партии   ``   Шор   ''
+T24	Organization 559 581	партии   ``   Шор   ''
 T25	Percent 613 619	6,52 %
 T26	Percent 659 670	менее   5 %
 T27	Person 686 691	Додон
@@ -30,7 +30,6 @@ T28	Person-property 636 645	кандидаты
 T29	Ordinal 775 781	второй
 T30	Ordinal 896 902	первом
 T31	Person-property 912 938	кандидату   в   президенты
-T32	Person-property 928 938	президенты
 T33	Percent 964 968	50 %
 T34	Quantity 971 990	плюс   один   голос
 T35	Ordinal 1054 1060	второй
@@ -106,3 +105,7 @@ T87	Event 746 753	выборов
 T88	Event 883 889	победы
 T89	Person-property 733 753	победителя   выборов
 T90	Person-property 1027 1037	победителя
+T91	Person 806 829	никто   из   кандидатов
+T92	Person 90 117	сторонница   евроинтеграции
+A19	Female T92
+T93	Person 624 645	Остальные   кандидаты

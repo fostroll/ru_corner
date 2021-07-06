@@ -83,10 +83,10 @@
 11	поселка	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=GPE
 12	,	_	_	_	_	_	_	_	_
 13	где	_	_	_	_	_	_	_	_
-14	мужчины	_	_	_	_	_	_	_	_
-15	в	_	_	_	_	_	_	_	_
-16	черной	_	_	_	_	_	_	_	_
-17	форме	_	_	_	_	_	_	_	_
+14	мужчины	_	_	_	_	_	_	_	bratA22=T60:Male|bratT60=Person
+15	в	_	_	_	_	_	_	_	bratA22=T60:Male|bratT60=Person
+16	черной	_	_	_	_	_	_	_	bratA22=T60:Male|bratT60=Person
+17	форме	_	_	_	_	_	_	_	bratA22=T60:Male|bratT60=Person
 18	укладывают	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_
 20	землю	_	_	_	_	_	_	_	_
@@ -173,12 +173,12 @@
 9	неделю	_	_	_	_	_	_	_	bratA10=T20:Past|bratT20=Date-absolute|bratT37=Duration
 10	назад	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T20:Past|bratT20=Date-absolute
 11	''	_	_	_	_	_	_	_	_
-12	представители	_	_	_	_	_	_	_	bratT57=Person-property
-13	армянской	_	_	_	_	_	_	_	bratA5=T21:Adjective|bratT21=Nationality|bratT57=Person-property
-14	диаспоры	_	_	_	_	_	_	_	bratT57=Person-property|bratT58=Organization
+12	представители	_	_	_	_	_	_	_	bratT57=Person-property|bratT61=Person
+13	армянской	_	_	_	_	_	_	_	bratA5=T21:Adjective|bratT21=Nationality|bratT57=Person-property|bratT58=Organization|bratT61=Person
+14	диаспоры	_	_	_	_	_	_	_	bratT57=Person-property|bratT58=Organization|bratT61=Person
 15	ударили	_	_	_	_	_	_	_	_
 16	пожилую	_	_	_	_	_	_	_	bratT22=Age
-17	женщину	_	_	_	_	_	_	_	SpaceAfter=No
+17	женщину	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T62:Female|bratT62=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0124-p5-s2

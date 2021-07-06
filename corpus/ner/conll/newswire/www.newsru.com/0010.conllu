@@ -94,12 +94,12 @@
 
 # sent_id = 0010-p3-s3
 # text = Белгородская, Тульская, Ростовская области и Ставропольский край смогут принять по 1000 мигрантов, передает ``Интерфакс''.
-1	Белгородская	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=GPE
-2	,	_	_	_	_	_	_	_	_
-3	Тульская	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE
-4	,	_	_	_	_	_	_	_	_
-5	Ростовская	_	_	_	_	_	_	_	bratT20=GPE
-6	области	_	_	_	_	_	_	_	bratT20=GPE
+1	Белгородская	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Plural|bratT18=GPE|bratT50=GPE
+2	,	_	_	_	_	_	_	_	bratA14=T50:Plural|bratT50=GPE
+3	Тульская	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Plural|bratT19=GPE|bratT50=GPE
+4	,	_	_	_	_	_	_	_	bratA14=T50:Plural|bratT50=GPE
+5	Ростовская	_	_	_	_	_	_	_	bratA14=T50:Plural|bratT20=GPE|bratT50=GPE
+6	области	_	_	_	_	_	_	_	bratA14=T50:Plural|bratT50=GPE
 7	и	_	_	_	_	_	_	_	_
 8	Ставропольский	_	_	_	_	_	_	_	bratT21=GPE
 9	край	_	_	_	_	_	_	_	bratT21=GPE
@@ -221,7 +221,7 @@
 20	в	_	_	_	_	_	_	_	_
 21	Россию	_	_	_	_	_	_	_	bratT40=GPE
 22	из-за	_	_	_	_	_	_	_	_
-23	коронавирусных	_	_	_	_	_	_	_	bratT41=Other-term
-24	ограничений	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Other-term
+23	коронавирусных	_	_	_	_	_	_	_	_
+24	ограничений	_	_	_	_	_	_	_	SpaceAfter=No
 25	.	_	_	_	_	_	_	_	_
 

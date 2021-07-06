@@ -3,9 +3,9 @@
 # par_text = Троих петербургских подростков задержали по подозрению в избиении мигрантов
 # sent_id = 0104-p1-s1
 # text = Троих петербургских подростков задержали по подозрению в избиении мигрантов
-1	Троих	_	_	_	_	_	_	_	bratT1=Quantity
-2	петербургских	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA13=T44:Resident|bratT1=Quantity|bratT2=GPE|bratT44=Nationality
-3	подростков	_	_	_	_	_	_	_	bratA13=T44:Resident|bratT1=Quantity|bratT3=Age|bratT44=Nationality
+1	Троих	_	_	_	_	_	_	_	bratT1=Quantity|bratT63=Person
+2	петербургских	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA13=T44:Resident|bratT1=Quantity|bratT2=GPE|bratT44=Nationality|bratT63=Person
+3	подростков	_	_	_	_	_	_	_	bratA13=T44:Resident|bratT1=Quantity|bratT3=Age|bratT44=Nationality|bratT63=Person
 4	задержали	_	_	_	_	_	_	_	_
 5	по	_	_	_	_	_	_	_	_
 6	подозрению	_	_	_	_	_	_	_	_
@@ -21,9 +21,9 @@
 2	Петербурге	_	_	_	_	_	_	_	bratT5=GPE
 3	полицейские	_	_	_	_	_	_	_	bratT6=Person-property
 4	задержали	_	_	_	_	_	_	_	_
-5	троих	_	_	_	_	_	_	_	bratT7=Quantity
-6	местных	_	_	_	_	_	_	_	bratA16=T48:Adjective|bratA2=T8:Resident|bratT48=GPE|bratT7=Quantity|bratT8=Nationality
-7	жителей	_	_	_	_	_	_	_	bratA2=T8:Resident|bratT7=Quantity|bratT8=Nationality
+5	троих	_	_	_	_	_	_	_	bratT64=Person|bratT7=Quantity
+6	местных	_	_	_	_	_	_	_	bratA16=T48:Adjective|bratA2=T8:Resident|bratT48=GPE|bratT64=Person|bratT7=Quantity|bratT8=Nationality
+7	жителей	_	_	_	_	_	_	_	bratA2=T8:Resident|bratT64=Person|bratT7=Quantity|bratT8=Nationality
 8	17	_	_	_	_	_	_	_	bratT9=Age
 9	и	_	_	_	_	_	_	_	bratT9=Age
 10	16	_	_	_	_	_	_	_	bratT9=Age
@@ -34,7 +34,7 @@
 15	нападении	_	_	_	_	_	_	_	bratT53=Event
 16	на	_	_	_	_	_	_	_	_
 17-19	дворников-мигрантов	_	_	_	_	_	_	_	SpaceAfter=No
-17	дворников	_	_	_	_	_	_	_	SpaceAfter=Yes
+17	дворников	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT65=Person-property
 18	-	_	_	_	_	_	_	_	SpaceAfter=Yes
 19	мигрантов	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Other-group
 20	.	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 2	утверждает	_	_	_	_	_	_	_	_
 3	ведомство	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Organization
 4	,	_	_	_	_	_	_	_	_
-5	подростков	_	_	_	_	_	_	_	bratT16=Age
+5	подростков	_	_	_	_	_	_	_	bratT16=Age|bratT66=Person
 6	задержали	_	_	_	_	_	_	_	_
 7	12	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
 8	ноября	_	_	_	_	_	_	_	bratA6=T17:Past|bratT17=Date-absolute
@@ -120,7 +120,7 @@
 5	что	_	_	_	_	_	_	_	_
 6	именно	_	_	_	_	_	_	_	_
 7	нарушили	_	_	_	_	_	_	_	_
-8	подростки	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Age
+8	подростки	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Age|bratT67=Person
 9	,	_	_	_	_	_	_	_	_
 10	отмечает	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T20:Media|bratT20=Organization
@@ -142,14 +142,14 @@
 8	октябре	_	_	_	_	_	_	_	bratA8=T22:Past|bratT22=Date-absolute
 9	2020	_	_	_	_	_	_	_	bratA8=T22:Past|bratT22=Date-absolute
 10	года	_	_	_	_	_	_	_	bratA8=T22:Past|bratT22=Date-absolute
-11	юноши	_	_	_	_	_	_	_	_
+11	юноши	_	_	_	_	_	_	_	bratA19=T68:Male|bratT68=Person|bratT76=Age
 12	избили	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
 14	Ленинском	_	_	_	_	_	_	_	bratT23=Facility
 15	проспекте	_	_	_	_	_	_	_	bratT23=Facility
-16	уроженцев	_	_	_	_	_	_	_	bratA15=T47:Citizenship|bratT47=Nationality
-17	других	_	_	_	_	_	_	_	bratA15=T47:Citizenship|bratT47=Nationality|bratT49=GPE
-18	стран	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T47:Citizenship|bratT47=Nationality|bratT49=GPE
+16	уроженцев	_	_	_	_	_	_	_	bratA15=T47:Citizenship|bratT47=Nationality|bratT69=Person
+17	других	_	_	_	_	_	_	_	bratA15=T47:Citizenship|bratT47=Nationality|bratT49=GPE|bratT69=Person
+18	стран	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T47:Citizenship|bratT47=Nationality|bratT49=GPE|bratT69=Person
 19	,	_	_	_	_	_	_	_	_
 20	работающих	_	_	_	_	_	_	_	_
 21	дворниками	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
@@ -167,7 +167,7 @@
 4	они	_	_	_	_	_	_	_	_
 5	требовали	_	_	_	_	_	_	_	_
 6	у	_	_	_	_	_	_	_	_
-7	работников	_	_	_	_	_	_	_	bratT25=Person-property
+7	работников	_	_	_	_	_	_	_	bratT25=Person-property|bratT70=Person
 8	деньги	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_
 
@@ -184,7 +184,7 @@
 9	от	_	_	_	_	_	_	_	_
 10	этих	_	_	_	_	_	_	_	_
 11	же	_	_	_	_	_	_	_	_
-12	дворников	_	_	_	_	_	_	_	bratT29=Person-property
+12	дворников	_	_	_	_	_	_	_	bratT29=Person-property|bratT71=Person
 13	о	_	_	_	_	_	_	_	_
 14	нападении	_	_	_	_	_	_	_	bratT60=Event
 15	с	_	_	_	_	_	_	_	_
@@ -211,7 +211,7 @@
 5	ссылкой	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	показания	_	_	_	_	_	_	_	_
-8	подростков	_	_	_	_	_	_	_	bratT32=Age
+8	подростков	_	_	_	_	_	_	_	bratT32=Age|bratT72=Person
 9	утверждает	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
@@ -269,8 +269,8 @@
 8	можно	_	_	_	_	_	_	_	_
 9	рассмотреть	_	_	_	_	_	_	_	_
 10	как	_	_	_	_	_	_	_	_
-11	три	_	_	_	_	_	_	_	bratT39=Quantity
-12	человека	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity
+11	три	_	_	_	_	_	_	_	bratT39=Quantity|bratT73=Person
+12	человека	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Quantity|bratT73=Person
 13	,	_	_	_	_	_	_	_	_
 14	чьих	_	_	_	_	_	_	_	_
 15	лиц	_	_	_	_	_	_	_	_
@@ -278,8 +278,8 @@
 17	видно	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	избивают	_	_	_	_	_	_	_	_
-20	бездомного	_	_	_	_	_	_	_	bratT40=Person-property
+20	бездомного	_	_	_	_	_	_	_	bratT40=Person-property|bratT74=Person
 21	и	_	_	_	_	_	_	_	_
-22	дворников	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Person-property
+22	дворников	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Person-property|bratT75=Person
 23	.	_	_	_	_	_	_	_	_
 

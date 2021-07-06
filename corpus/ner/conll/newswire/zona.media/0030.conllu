@@ -98,8 +98,8 @@
 72	Лефортово	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Facility
 73	''	_	_	_	_	_	_	_	bratT16=Facility
 74	после	_	_	_	_	_	_	_	bratA18=T18:Past|bratT18=Date-absolute
-75	следственных	_	_	_	_	_	_	_	bratA18=T18:Past|bratT18=Date-absolute
-76	действий	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T18:Past|bratT18=Date-absolute
+75	следственных	_	_	_	_	_	_	_	bratA18=T18:Past|bratT18=Date-absolute|bratT72=Event
+76	действий	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T18:Past|bratT18=Date-absolute|bratT72=Event
 77	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p2-s2
@@ -107,14 +107,14 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщила	_	_	_	_	_	_	_	_
-4	член	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property
-5	ОНК	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property|bratT21=Organization
-6	Москвы	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property|bratT21=Organization|bratT22=GPE
+4	член	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT73=Person-property
+5	ОНК	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT21=Organization|bratT73=Person-property
+6	Москвы	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT21=Organization|bratT22=GPE|bratT73=Person-property
 7	журналистка	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property
-8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA6=T19:Female|bratT19=Person|bratT20=Person-property
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA6=T19:Female|bratA7=T23:Media|bratT19=Person|bratT20=Person-property|bratT23=Organization
 9	Московсковского	_	_	_	_	_	_	_	bratA19=T17:Adjective|bratA6=T19:Female|bratA7=T23:Media|bratT17=GPE|bratT19=Person|bratT20=Person-property|bratT23=Organization
 10	комсомольца	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Female|bratA7=T23:Media|bratT19=Person|bratT20=Person-property|bratT23=Organization
-11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA6=T19:Female|bratT19=Person|bratT20=Person-property
+11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA6=T19:Female|bratA7=T23:Media|bratT19=Person|bratT20=Person-property|bratT23=Organization
 12	Ева	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT24=Person-forename
 13	Меркачева	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Female|bratT19=Person|bratT25=Person-surname
 14	.	_	_	_	_	_	_	_	_
@@ -157,9 +157,9 @@
 # text = Меркачева уточнила «Интерфаксу», что у него были гематомы на виске, плече, спине и руке.
 1	Меркачева	_	_	_	_	_	_	_	bratA10=T32:Female|bratT32=Person|bratT33=Person-surname
 2	уточнила	_	_	_	_	_	_	_	_
-3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA11=T34:Media|bratT34=Organization
 4	Интерфаксу	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T34:Media|bratT34=Organization
-5	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA11=T34:Media|bratT34=Organization
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
 8	у	_	_	_	_	_	_	_	_
@@ -184,7 +184,7 @@
 4	словам	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	часть	_	_	_	_	_	_	_	_
-7	избиений	_	_	_	_	_	_	_	_
+7	избиений	_	_	_	_	_	_	_	bratT76=Event
 8	была	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	территории	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 13	,	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
 15	отмечала	_	_	_	_	_	_	_	_
-16	журналистка	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Person-property
+16	журналистка	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T74:Female|bratT37=Person-property|bratT74=Person
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p4
@@ -214,7 +214,7 @@
 12	отвезли	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	НИИ	_	_	_	_	_	_	_	bratT40=Organization
-15	Склифосовского	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+15	Склифосовского	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T79:Male|bratT40=Organization|bratT78=Person-surname|bratT79=Person
 16	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
@@ -231,15 +231,15 @@
 5	его	_	_	_	_	_	_	_	_
 6	вернули	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	следственный	_	_	_	_	_	_	_	_
-9	изолятор	_	_	_	_	_	_	_	SpaceAfter=No
+8	следственный	_	_	_	_	_	_	_	bratT75=Facility
+9	изолятор	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Facility
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p5
 # par_text = В пресс-службе ФСИН подтвердили, что у Карепова были травмы по прибытии в изолятор. В СИЗО к нему насилие не применялось, настаивают в ведомстве.
 # sent_id = 0030-p5-s1
 # text = В пресс-службе ФСИН подтвердили, что у Карепова были травмы по прибытии в изолятор.
-1	В	_	_	_	_	_	_	_	bratA15=T45:Media|bratT45=Organization
+1	В	_	_	_	_	_	_	_	_
 2	пресс-службе	_	_	_	_	_	_	_	bratA15=T45:Media|bratT45=Organization
 3	ФСИН	_	_	_	_	_	_	_	bratA15=T45:Media|bratT45=Organization|bratT46=Organization
 4	подтвердили	_	_	_	_	_	_	_	SpaceAfter=No
@@ -261,12 +261,12 @@
 2	СИЗО	_	_	_	_	_	_	_	bratT61=Facility
 3	к	_	_	_	_	_	_	_	_
 4	нему	_	_	_	_	_	_	_	_
-5	насилие	_	_	_	_	_	_	_	_
+5	насилие	_	_	_	_	_	_	_	bratT77=Event
 6	не	_	_	_	_	_	_	_	_
 7	применялось	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	настаивают	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
-11	ведомстве	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Event
+11	ведомстве	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Organization
 12	.	_	_	_	_	_	_	_	_
 

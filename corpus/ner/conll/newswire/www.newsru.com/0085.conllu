@@ -24,9 +24,9 @@
 19	их	_	_	_	_	_	_	_	bratT64=Person
 20	детей	_	_	_	_	_	_	_	bratT40=Family|bratT64=Person
 21	от	_	_	_	_	_	_	_	_
-22	пыток	_	_	_	_	_	_	_	_
+22	пыток	_	_	_	_	_	_	_	bratT93=Event
 23	и	_	_	_	_	_	_	_	_
-24	самооговора	_	_	_	_	_	_	_	_
+24	самооговора	_	_	_	_	_	_	_	bratT94=Event
 
 # newpar id = 0085-p2
 # par_text = Родственники фигурантов дела "Сети"  опубликовали обращение к ряду российских чиновников, включая уполномоченного по правам человека в РФ Татьяну Москалькову и ее коллегу в Пензенской области Елену Рогову, и.о. руководителя Главного военного следственного управления СК РФ Сергея Федотова, генпрокурора РФ Игоря Краснова, главу СК РФ Александра Бастрыкина, директоров ФСБ и ФСИН.
@@ -65,12 +65,12 @@
 31	,	_	_	_	_	_	_	_	_
 32	и.о.	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT59=Person
 33	руководителя	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT59=Person
-34	Главного	_	_	_	_	_	_	_	bratA10=T59:Male|bratA2=T12:Department|bratT11=Person-property|bratT12=Organization|bratT59=Person
-35	военного	_	_	_	_	_	_	_	bratA10=T59:Male|bratA2=T12:Department|bratT11=Person-property|bratT12=Organization|bratT59=Person
-36	следственного	_	_	_	_	_	_	_	bratA10=T59:Male|bratA2=T12:Department|bratT11=Person-property|bratT12=Organization|bratT59=Person
-37	управления	_	_	_	_	_	_	_	bratA10=T59:Male|bratA2=T12:Department|bratT11=Person-property|bratT12=Organization|bratT59=Person
-38	СК	_	_	_	_	_	_	_	bratA10=T59:Male|bratA2=T12:Department|bratT11=Person-property|bratT12=Organization|bratT13=Organization|bratT59=Person
-39	РФ	_	_	_	_	_	_	_	bratA10=T59:Male|bratA2=T12:Department|bratT11=Person-property|bratT12=Organization|bratT13=Organization|bratT14=GPE|bratT59=Person
+34	Главного	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT12=Organization|bratT59=Person
+35	военного	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT12=Organization|bratT59=Person
+36	следственного	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT12=Organization|bratT59=Person
+37	управления	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT12=Organization|bratT59=Person
+38	СК	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT12=Organization|bratT13=Organization|bratT59=Person
+39	РФ	_	_	_	_	_	_	_	bratA10=T59:Male|bratT11=Person-property|bratT12=Organization|bratT13=Organization|bratT14=GPE|bratT59=Person
 40	Сергея	_	_	_	_	_	_	_	bratA10=T59:Male|bratT57=Person-forename|bratT59=Person
 41	Федотова	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T59:Male|bratT58=Person-surname|bratT59=Person
 42	,	_	_	_	_	_	_	_	_
@@ -85,10 +85,10 @@
 51	Александра	_	_	_	_	_	_	_	bratA8=T18:Male|bratT18=Person|bratT55=Person-forename
 52	Бастрыкина	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T18:Male|bratT18=Person|bratT56=Person-surname
 53	,	_	_	_	_	_	_	_	_
-54	директоров	_	_	_	_	_	_	_	bratA3=T20:Plural|bratT20=Person-property
-55	ФСБ	_	_	_	_	_	_	_	bratA3=T20:Plural|bratT20=Person-property|bratT21=Organization
-56	и	_	_	_	_	_	_	_	bratA3=T20:Plural|bratT20=Person-property
-57	ФСИН	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T20:Plural|bratT20=Person-property|bratT22=Organization
+54	директоров	_	_	_	_	_	_	_	bratA2=T100:Plural|bratA3=T20:Plural|bratT100=Person|bratT20=Person-property
+55	ФСБ	_	_	_	_	_	_	_	bratA2=T100:Plural|bratA3=T20:Plural|bratT100=Person|bratT20=Person-property|bratT21=Organization
+56	и	_	_	_	_	_	_	_	bratA2=T100:Plural|bratA3=T20:Plural|bratT100=Person|bratT20=Person-property
+57	ФСИН	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T100:Plural|bratA3=T20:Plural|bratT100=Person|bratT20=Person-property|bratT22=Organization
 58	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0085-p3
@@ -110,10 +110,10 @@
 13	признать	_	_	_	_	_	_	_	_
 14	существование	_	_	_	_	_	_	_	_
 15	других	_	_	_	_	_	_	_	_
-16	ячеек	_	_	_	_	_	_	_	_
-17	``	_	_	_	_	_	_	_	SpaceAfter=No
-18	Сети	_	_	_	_	_	_	_	SpaceAfter=No
-19	''	_	_	_	_	_	_	_	SpaceAfter=No
+16	ячеек	_	_	_	_	_	_	_	bratA16=T102:Department|bratT102=Organization
+17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T102:Department|bratT101=Organization|bratT102=Organization
+18	Сети	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T102:Department|bratT101=Organization|bratT102=Organization
+19	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T102:Department|bratT101=Organization|bratT102=Organization
 20	,	_	_	_	_	_	_	_	_
 21	и	_	_	_	_	_	_	_	_
 22	угрожая	_	_	_	_	_	_	_	_
@@ -123,7 +123,7 @@
 26	''	_	_	_	_	_	_	_	_
 27	при	_	_	_	_	_	_	_	_
 28	отбывании	_	_	_	_	_	_	_	_
-29	наказания	_	_	_	_	_	_	_	SpaceAfter=No
+29	наказания	_	_	_	_	_	_	_	SpaceAfter=No|bratT98=Event
 30	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0085-p3-s2
@@ -193,16 +193,16 @@
 20	они	_	_	_	_	_	_	_	_
 21	заявляли	_	_	_	_	_	_	_	_
 22	о	_	_	_	_	_	_	_	_
-23	пытках	_	_	_	_	_	_	_	_
+23	пытках	_	_	_	_	_	_	_	bratT95=Event
 24	и	_	_	_	_	_	_	_	_
-25	давлении	_	_	_	_	_	_	_	SpaceAfter=No
+25	давлении	_	_	_	_	_	_	_	SpaceAfter=No|bratT96=Event
 26	,	_	_	_	_	_	_	_	_
 27	которое	_	_	_	_	_	_	_	_
 28	оказывалось	_	_	_	_	_	_	_	_
 29	на	_	_	_	_	_	_	_	_
 30	них	_	_	_	_	_	_	_	_
-31	сотрудниками	_	_	_	_	_	_	_	bratT28=Person-property
-32	ФСБ	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Organization
+31	сотрудниками	_	_	_	_	_	_	_	bratT28=Person-property|bratT99=Person
+32	ФСБ	_	_	_	_	_	_	_	bratT28=Person-property|bratT29=Organization|bratT99=Person
 33	еще	_	_	_	_	_	_	_	_
 34	на	_	_	_	_	_	_	_	bratA13=T45:Past|bratT45=Date-period-absolute
 35	стадии	_	_	_	_	_	_	_	bratA13=T45:Past|bratT45=Date-period-absolute
@@ -217,7 +217,7 @@
 # text = ``Должной проверки по заявлениям фигурантов дела так никто и не провел, записи с видеокамер СИЗО исчезли, а визиты оперативников к нашим сыновьям и мужьям, как оказалось, не фиксировались в тюремном журнале посещений'', - отмечают авторы обращения, подчеркнув, что после вступления приговора в силу давление на фигурантов дела возобновилось.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Должной	_	_	_	_	_	_	_	_
-3	проверки	_	_	_	_	_	_	_	_
+3	проверки	_	_	_	_	_	_	_	bratT92=Event
 4	по	_	_	_	_	_	_	_	_
 5	заявлениям	_	_	_	_	_	_	_	_
 6	фигурантов	_	_	_	_	_	_	_	bratT36=Person

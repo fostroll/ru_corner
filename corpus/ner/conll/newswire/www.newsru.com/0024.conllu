@@ -25,8 +25,8 @@
 # text = На презентации новых устройств компания Apple официально представила линейку смартфонов iPhone 12, в которую, как и ожидалось, вошли четыре модели: iPhone 12 mini, iPhone 12, iPhone 12 Pro и iPhone 12 Pro Max.
 1	На	_	_	_	_	_	_	_	bratA12=T46:Past|bratT46=Date-absolute
 2	презентации	_	_	_	_	_	_	_	bratA12=T46:Past|bratT30=Event|bratT46=Date-absolute
-3	новых	_	_	_	_	_	_	_	bratT30=Event
-4	устройств	_	_	_	_	_	_	_	bratT30=Event
+3	новых	_	_	_	_	_	_	_	_
+4	устройств	_	_	_	_	_	_	_	_
 5	компания	_	_	_	_	_	_	_	bratT4=Organization
 6	Apple	_	_	_	_	_	_	_	bratT4=Organization
 7	официально	_	_	_	_	_	_	_	_
@@ -74,7 +74,7 @@
 6	поддержку	_	_	_	_	_	_	_	_
 7	сетей	_	_	_	_	_	_	_	_
 8-9	5G	_	_	_	_	_	_	_	_
-8	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Service
+8	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Service|bratT24=Ordinal
 9	G	_	_	_	_	_	_	_	bratT18=Service
 10	и	_	_	_	_	_	_	_	_
 11-13	OLED-дисплеи	_	_	_	_	_	_	_	_
@@ -88,7 +88,7 @@
 18	технологией	_	_	_	_	_	_	_	_
 19-20	HDR10	_	_	_	_	_	_	_	SpaceAfter=No
 19	HDR	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Other-term
-20	10	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Other-term|bratT7=Cardinal
+20	10	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Other-term|bratT7=Ordinal
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0024-p2-s3
@@ -122,12 +122,12 @@
 2	счет	_	_	_	_	_	_	_	_
 3	поддержки	_	_	_	_	_	_	_	_
 4-5	5G	_	_	_	_	_	_	_	_
-4	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Service
+4	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Service|bratT41=Ordinal
 5	G	_	_	_	_	_	_	_	bratT23=Service
 6	в	_	_	_	_	_	_	_	_
-7	новых	_	_	_	_	_	_	_	bratA14=T24:Trademark|bratT24=Product
-8	смартфонах	_	_	_	_	_	_	_	bratA14=T24:Trademark|bratT24=Product
-9	Apple	_	_	_	_	_	_	_	bratA14=T24:Trademark|bratT24=Product
+7	новых	_	_	_	_	_	_	_	_
+8	смартфонах	_	_	_	_	_	_	_	_
+9	Apple	_	_	_	_	_	_	_	bratT13=Organization
 10	хочет	_	_	_	_	_	_	_	_
 11	добиться	_	_	_	_	_	_	_	_
 12	более	_	_	_	_	_	_	_	_
@@ -163,7 +163,7 @@
 # text = Выступивший на презентации глава американского сотового оператора Verizon Ханс Вестберг пообещал, что в идеальных условиях скорость скачивания данных через 5G составит до 4 Гбит в секунду, а скорость выгрузки - 200 Мбит в секунду, пишет TJ.
 1	Выступивший	_	_	_	_	_	_	_	_
 2	на	_	_	_	_	_	_	_	_
-3	презентации	_	_	_	_	_	_	_	_
+3	презентации	_	_	_	_	_	_	_	bratT12=Event
 4	глава	_	_	_	_	_	_	_	bratA16=T28:Male|bratT27=Person-property|bratT28=Person
 5	американского	_	_	_	_	_	_	_	bratA15=T20:Adjective|bratA16=T28:Male|bratT20=GPE|bratT26=Organization|bratT27=Person-property|bratT28=Person
 6	сотового	_	_	_	_	_	_	_	bratA16=T28:Male|bratT26=Organization|bratT27=Person-property|bratT28=Person
@@ -182,7 +182,7 @@
 19	данных	_	_	_	_	_	_	_	_
 20	через	_	_	_	_	_	_	_	_
 21-22	5G	_	_	_	_	_	_	_	_
-21	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Service
+21	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Ordinal|bratT29=Service
 22	G	_	_	_	_	_	_	_	bratT29=Service
 23	составит	_	_	_	_	_	_	_	_
 24	до	_	_	_	_	_	_	_	_
@@ -221,7 +221,7 @@
 13	пользоваться	_	_	_	_	_	_	_	_
 14	преимуществами	_	_	_	_	_	_	_	_
 15-16	5G	_	_	_	_	_	_	_	_
-15	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Service
+15	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Ordinal|bratT39=Service
 16	G	_	_	_	_	_	_	_	bratT39=Service
 17	из-за	_	_	_	_	_	_	_	_
 18	отсутствия	_	_	_	_	_	_	_	_
@@ -235,15 +235,4 @@
 26	их	_	_	_	_	_	_	_	_
 27	развития	_	_	_	_	_	_	_	SpaceAfter=No
 28	.	_	_	_	_	_	_	_	_
-
-# newpar id = 0024-p4
-# par_text = iPhone 12 и iPhone 12 mini
-# sent_id = 0024-p4-s1
-# text = iPhone 12 и iPhone 12 mini
-1	iPhone	_	_	_	_	_	_	_	bratA10=T43:Trademark|bratT43=Product
-2	12	_	_	_	_	_	_	_	bratA10=T43:Trademark|bratT43=Product
-3	и	_	_	_	_	_	_	_	_
-4	iPhone	_	_	_	_	_	_	_	bratA11=T44:Trademark|bratT44=Product
-5	12	_	_	_	_	_	_	_	bratA11=T44:Trademark|bratT44=Product
-6	mini	_	_	_	_	_	_	_	bratA11=T44:Trademark|bratT44=Product
 

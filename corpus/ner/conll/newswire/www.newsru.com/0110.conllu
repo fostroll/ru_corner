@@ -24,13 +24,13 @@
 2	Банком	_	_	_	_	_	_	_	bratT4=Organization
 3	России	_	_	_	_	_	_	_	bratT3=GPE|bratT4=Organization
 4	введение	_	_	_	_	_	_	_	bratT43=Event
-5	цифрового	_	_	_	_	_	_	_	bratA5=T12:Project|bratT12=Product
-6	рубля	_	_	_	_	_	_	_	bratA5=T12:Project|bratT12=Product
+5	цифрового	_	_	_	_	_	_	_	bratA5=T12:Project|bratT12=Product|bratT43=Event
+6	рубля	_	_	_	_	_	_	_	bratA5=T12:Project|bratT12=Product|bratT43=Event
 7	(	_	_	_	_	_	_	_	SpaceAfter=No
-8	внедрение	_	_	_	_	_	_	_	_
-9	цифровой	_	_	_	_	_	_	_	bratA6=T13:Project|bratT13=Product
-10	национальной	_	_	_	_	_	_	_	bratA16=T40:Adjective|bratA6=T13:Project|bratT13=Product|bratT40=GPE
-11	валюты	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Project|bratT13=Product
+8	внедрение	_	_	_	_	_	_	_	bratT48=Event
+9	цифровой	_	_	_	_	_	_	_	bratA6=T13:Project|bratT13=Product|bratT48=Event
+10	национальной	_	_	_	_	_	_	_	bratA16=T40:Adjective|bratA6=T13:Project|bratT13=Product|bratT40=GPE|bratT48=Event
+11	валюты	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Project|bratT13=Product|bratT48=Event
 12	)	_	_	_	_	_	_	_	_
 13	эксперты	_	_	_	_	_	_	_	bratT5=Person-property
 14	назвали	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
 12	такое	_	_	_	_	_	_	_	_
-13	нововведение	_	_	_	_	_	_	_	_
+13	нововведение	_	_	_	_	_	_	_	bratT46=Event
 14	потребует	_	_	_	_	_	_	_	_
 15	создания	_	_	_	_	_	_	_	_
 16	соответствующей	_	_	_	_	_	_	_	_
@@ -120,7 +120,7 @@
 29	,	_	_	_	_	_	_	_	_
 30	а	_	_	_	_	_	_	_	_
 31	также	_	_	_	_	_	_	_	_
-32	внесения	_	_	_	_	_	_	_	_
+32	внесения	_	_	_	_	_	_	_	bratT45=Event
 33	изменений	_	_	_	_	_	_	_	bratT45=Event
 34	в	_	_	_	_	_	_	_	_
 35	законодательство	_	_	_	_	_	_	_	bratT21=Law
@@ -219,10 +219,10 @@
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	введение	_	_	_	_	_	_	_	bratT44=Event
-8	такого	_	_	_	_	_	_	_	_
-9	дополнительного	_	_	_	_	_	_	_	_
-10	средства	_	_	_	_	_	_	_	_
-11	платежа	_	_	_	_	_	_	_	_
+8	такого	_	_	_	_	_	_	_	bratT44=Event
+9	дополнительного	_	_	_	_	_	_	_	bratT44=Event
+10	средства	_	_	_	_	_	_	_	bratT44=Event
+11	платежа	_	_	_	_	_	_	_	bratT44=Event
 12	может	_	_	_	_	_	_	_	_
 13	быть	_	_	_	_	_	_	_	_
 14	полезным	_	_	_	_	_	_	_	_
@@ -264,7 +264,7 @@
 13	находиться	_	_	_	_	_	_	_	_
 14	под	_	_	_	_	_	_	_	_
 15	контролем	_	_	_	_	_	_	_	_
-16	регулятора	_	_	_	_	_	_	_	bratT41=Event
+16	регулятора	_	_	_	_	_	_	_	bratT41=Organization
 17	как	_	_	_	_	_	_	_	_
 18	эмиссионного	_	_	_	_	_	_	_	_
 19	центра	_	_	_	_	_	_	_	SpaceAfter=No
@@ -272,6 +272,6 @@
 21	,	_	_	_	_	_	_	_	_
 22	-	_	_	_	_	_	_	_	_
 23	сказала	_	_	_	_	_	_	_	_
-24	аналитик	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property
+24	аналитик	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T47:Female|bratT30=Person-property|bratT47=Person
 25	.	_	_	_	_	_	_	_	_
 

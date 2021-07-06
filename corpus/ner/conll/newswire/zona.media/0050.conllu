@@ -21,8 +21,8 @@
 4	по	_	_	_	_	_	_	_	bratA15=T4:Department|bratT4=Organization
 5	Калачеевскому	_	_	_	_	_	_	_	bratA15=T4:Department|bratA2=T5:Adjective|bratT4=Organization|bratT5=GPE
 6	району	_	_	_	_	_	_	_	bratA15=T4:Department|bratA2=T5:Adjective|bratT4=Organization|bratT5=GPE
-7	Воронежской	_	_	_	_	_	_	_	bratA15=T4:Department|bratA3=T6:Adjective|bratT4=Organization|bratT6=GPE
-8	области	_	_	_	_	_	_	_	bratA15=T4:Department|bratA3=T6:Adjective|bratT4=Organization|bratT6=GPE
+7	Воронежской	_	_	_	_	_	_	_	bratA15=T4:Department|bratA2=T5:Adjective|bratA3=T6:Adjective|bratT4=Organization|bratT5=GPE|bratT6=GPE
+8	области	_	_	_	_	_	_	_	bratA15=T4:Department|bratA2=T5:Adjective|bratA3=T6:Adjective|bratT4=Organization|bratT5=GPE|bratT6=GPE
 9	нашли	_	_	_	_	_	_	_	_
 10	мертвым	_	_	_	_	_	_	_	_
 11-13	23-летнего	_	_	_	_	_	_	_	_
@@ -47,10 +47,11 @@
 8	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA14=T12:Media|bratT12=Organization
 9	и	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA5=T13:Media|bratT13=Organization
-11	Мое!	_	_	_	_	_	_	_	bratA5=T13:Media|bratT13=Organization
-12	Online	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Media|bratT13=Organization
-13	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA5=T13:Media|bratT13=Organization
-14	.	_	_	_	_	_	_	_	_
+11	Мое	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Media|bratT13=Organization
+12	!	_	_	_	_	_	_	_	bratA5=T13:Media|bratT13=Organization
+13	Online	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Media|bratT13=Organization
+14	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA5=T13:Media|bratT13=Organization
+15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0050-p3
 # par_text = В ведомстве подтвердили гибель полицейского: «6 ноября в служебном помещении УМВД России по Калачеевскому району нашли тело сотрудника полиции с огнестрельным ранением».
@@ -66,8 +67,8 @@
 8	6	_	_	_	_	_	_	_	bratA6=T15:Past|bratT15=Date-absolute
 9	ноября	_	_	_	_	_	_	_	bratA6=T15:Past|bratT15=Date-absolute
 10	в	_	_	_	_	_	_	_	_
-11	служебном	_	_	_	_	_	_	_	_
-12	помещении	_	_	_	_	_	_	_	_
+11	служебном	_	_	_	_	_	_	_	bratT41=Facility
+12	помещении	_	_	_	_	_	_	_	bratT41=Facility
 13	УМВД	_	_	_	_	_	_	_	bratT16=Organization
 14	России	_	_	_	_	_	_	_	bratT16=Organization|bratT17=GPE
 15	по	_	_	_	_	_	_	_	bratT16=Organization
@@ -88,31 +89,32 @@
 # sent_id = 0050-p4-s1
 # text = «Мое! Online» сообщает, что Божков в июле окончил Воронежский институт МВД и устроился работать в полицию.
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA8=T20:Media|bratT20=Organization
-2	Мое!	_	_	_	_	_	_	_	bratA8=T20:Media|bratT20=Organization
-3	Online	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Media|bratT20=Organization
-4	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA8=T20:Media|bratT20=Organization
-5	сообщает	_	_	_	_	_	_	_	SpaceAfter=No
-6	,	_	_	_	_	_	_	_	_
-7	что	_	_	_	_	_	_	_	_
-8	Божков	_	_	_	_	_	_	_	bratA9=T21:Male|bratT21=Person|bratT22=Person-surname
-9	в	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute
-10	июле	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute
-11	окончил	_	_	_	_	_	_	_	_
-12	Воронежский	_	_	_	_	_	_	_	bratA11=T25:Adjective|bratT24=Organization|bratT25=GPE
-13	институт	_	_	_	_	_	_	_	bratT24=Organization
-14	МВД	_	_	_	_	_	_	_	bratT24=Organization|bratT29=Organization
-15	и	_	_	_	_	_	_	_	_
-16	устроился	_	_	_	_	_	_	_	_
-17	работать	_	_	_	_	_	_	_	_
-18	в	_	_	_	_	_	_	_	_
-19	полицию	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
-20	.	_	_	_	_	_	_	_	_
+2	Мое	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Media|bratT20=Organization
+3	!	_	_	_	_	_	_	_	bratA8=T20:Media|bratT20=Organization
+4	Online	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Media|bratT20=Organization
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA8=T20:Media|bratT20=Organization
+6	сообщает	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	_	_	_	_	_	_	_	_
+8	что	_	_	_	_	_	_	_	_
+9	Божков	_	_	_	_	_	_	_	bratA9=T21:Male|bratT21=Person|bratT22=Person-surname
+10	в	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute
+11	июле	_	_	_	_	_	_	_	bratA10=T23:Past|bratT23=Date-absolute
+12	окончил	_	_	_	_	_	_	_	_
+13	Воронежский	_	_	_	_	_	_	_	bratA11=T25:Adjective|bratT24=Organization|bratT25=GPE
+14	институт	_	_	_	_	_	_	_	bratT24=Organization
+15	МВД	_	_	_	_	_	_	_	bratT24=Organization|bratT29=Organization
+16	и	_	_	_	_	_	_	_	_
+17	устроился	_	_	_	_	_	_	_	_
+18	работать	_	_	_	_	_	_	_	_
+19	в	_	_	_	_	_	_	_	_
+20	полицию	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
+21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0050-p4-s3
 # text = По информации издания, он совершил (В связи с претензиями Роскомнадзора «Медиазона» вынуждена цензурировать выражения, которые, по мнению ведомства, нарушают закон - например, информацию о способах совершения суицида, о наркотиках, оскорблениях власти и многое другое).
 1	По	_	_	_	_	_	_	_	_
 2	информации	_	_	_	_	_	_	_	_
-3	издания	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+3	издания	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T34:Media|bratT34=Organization
 4	,	_	_	_	_	_	_	_	_
 5	он	_	_	_	_	_	_	_	_
 6	совершил	_	_	_	_	_	_	_	_
@@ -144,13 +146,13 @@
 32	о	_	_	_	_	_	_	_	_
 33	способах	_	_	_	_	_	_	_	_
 34	совершения	_	_	_	_	_	_	_	_
-35	суицида	_	_	_	_	_	_	_	SpaceAfter=No
+35	суицида	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Event
 36	,	_	_	_	_	_	_	_	_
 37	о	_	_	_	_	_	_	_	_
 38	наркотиках	_	_	_	_	_	_	_	SpaceAfter=No
 39	,	_	_	_	_	_	_	_	_
 40	оскорблениях	_	_	_	_	_	_	_	_
-41	власти	_	_	_	_	_	_	_	_
+41	власти	_	_	_	_	_	_	_	bratT40=Organization
 42	и	_	_	_	_	_	_	_	_
 43	многое	_	_	_	_	_	_	_	_
 44	другое	_	_	_	_	_	_	_	SpaceAfter=No

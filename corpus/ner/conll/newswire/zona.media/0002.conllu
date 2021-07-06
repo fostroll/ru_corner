@@ -13,9 +13,9 @@
 8	рассказал	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	визите	_	_	_	_	_	_	_	bratT66=Event
-11	силовиков	_	_	_	_	_	_	_	bratT5=Person-property
+11	силовиков	_	_	_	_	_	_	_	bratT5=Person-property|bratT72=Person
 12	для	_	_	_	_	_	_	_	_
-13	проверки	_	_	_	_	_	_	_	_
+13	проверки	_	_	_	_	_	_	_	bratT68=Event
 14	информации	_	_	_	_	_	_	_	_
 15	о	_	_	_	_	_	_	_	_
 16	разглашении	_	_	_	_	_	_	_	_
@@ -35,7 +35,7 @@
 8	к	_	_	_	_	_	_	_	_
 9	нему	_	_	_	_	_	_	_	_
 10	пришли	_	_	_	_	_	_	_	_
-11	силовики	_	_	_	_	_	_	_	bratT10=Person-property
+11	силовики	_	_	_	_	_	_	_	bratT10=Person-property|bratT71=Person
 12	из-за	_	_	_	_	_	_	_	_
 13	разглашения	_	_	_	_	_	_	_	_
 14	гостайны	_	_	_	_	_	_	_	_
@@ -50,10 +50,10 @@
 1	Видеообращение	_	_	_	_	_	_	_	_
 2	юриста	_	_	_	_	_	_	_	bratA23=T59:Male|bratT12=Person-property|bratT59=Person
 3	публикует	_	_	_	_	_	_	_	_
-4	``	_	_	_	_	_	_	_	SpaceAfter=No
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Media|bratT13=Organization
 5	Кам	_	_	_	_	_	_	_	bratA3=T13:Media|bratT13=Organization
 6	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Media|bratT13=Organization|bratT24=Duration|bratT51=Time-period
-7	''	_	_	_	_	_	_	_	SpaceAfter=No
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Media|bratT13=Organization
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0002-p3
@@ -74,7 +74,7 @@
 12	рано	_	_	_	_	_	_	_	bratA18=T53:Past|bratT17=Time-absolute|bratT53=Date-relative
 13	утром	_	_	_	_	_	_	_	bratA18=T53:Past|bratT17=Time-absolute|bratT53=Date-relative
 14	пришли	_	_	_	_	_	_	_	_
-15	неизвестные	_	_	_	_	_	_	_	_
+15	неизвестные	_	_	_	_	_	_	_	bratT70=Person
 16	и	_	_	_	_	_	_	_	_
 17	потребовали	_	_	_	_	_	_	_	_
 18	открыть	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 10	объяснил	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	что	_	_	_	_	_	_	_	_
-13	пришедшие	_	_	_	_	_	_	_	_
+13	пришедшие	_	_	_	_	_	_	_	bratT69=Person
 14	-	_	_	_	_	_	_	_	_
 15	сотрудники	_	_	_	_	_	_	_	bratT21=Person-property
 16	отдела	_	_	_	_	_	_	_	bratA6=T25:Department|bratT21=Person-property|bratT25=Organization
@@ -120,14 +120,14 @@
 # par_text = «Кам 24» пишет, что силовики вскрыли дверь квартиры, так как юрист не хотел их впускать.
 # sent_id = 0002-p4-s1
 # text = ``Кам 24'' пишет, что силовики вскрыли дверь квартиры, так как юрист не хотел их впускать.
-1	``	_	_	_	_	_	_	_	SpaceAfter=No
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T31:Media|bratT31=Organization
 2	Кам	_	_	_	_	_	_	_	bratA9=T31:Media|bratT31=Organization
 3	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T31:Media|bratT15=Duration|bratT31=Organization|bratT52=Time-period
-4	''	_	_	_	_	_	_	_	_
+4	''	_	_	_	_	_	_	_	bratA9=T31:Media|bratT31=Organization
 5	пишет	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
-8	силовики	_	_	_	_	_	_	_	bratT32=Person-property
+8	силовики	_	_	_	_	_	_	_	bratT32=Person-property|bratT73=Person
 9	вскрыли	_	_	_	_	_	_	_	_
 10	дверь	_	_	_	_	_	_	_	_
 11	квартиры	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Facility
@@ -166,9 +166,9 @@
 19	и	_	_	_	_	_	_	_	_
 20	во	_	_	_	_	_	_	_	bratA17=T48:Past|bratT48=Date-absolute
 21	время	_	_	_	_	_	_	_	bratA17=T48:Past|bratT48=Date-absolute
-22	рассмотрения	_	_	_	_	_	_	_	bratA17=T48:Past|bratT48=Date-absolute
-23	его	_	_	_	_	_	_	_	_
-24	дела	_	_	_	_	_	_	_	bratT54=Event
+22	рассмотрения	_	_	_	_	_	_	_	bratA17=T48:Past|bratT48=Date-absolute|bratT67=Event
+23	его	_	_	_	_	_	_	_	bratT67=Event
+24	дела	_	_	_	_	_	_	_	bratT54=Event|bratT67=Event
 25	подал	_	_	_	_	_	_	_	_
 26	жалобу	_	_	_	_	_	_	_	bratT64=Event
 27	на	_	_	_	_	_	_	_	_

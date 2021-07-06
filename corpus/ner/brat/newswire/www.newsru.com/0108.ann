@@ -6,37 +6,37 @@ T5	Date-absolute 115 126	2018   года
 T6	Person-property 129 139	фигуристка
 T7	Person-property 83 126	Участница   Олимпийских   игр   2018   года
 T8	Person 83 158	Участница   Олимпийских   игр   2018   года   фигуристка   Мария   Сотскова
-T9	Organization 176 201	``   Экспресс-газете   ''
+T9	Organization 176 203	``   Экспресс - газете   ''
 A1	Media T9
-T10	Ordinal 204 211	впервые
-T11	Organization 322 361	Российское   антидопинговое   агентство
-T12	Organization 368 374	РУСАДА
-T13	Date-relative 381 386	ранее
-T14	Age 410 421	20 - летнюю
-T15	Person 424 432	Сотскову
-T16	Date-period-relative 435 452	на   десять   лет
-T17	Product 545 554	Фуросемид
-T18	Person-property 575 580	врачи
-T19	Person-property 766 773	тренеру
-T20	Person 766 798	тренеру   Светлане   Соколовской
-T21	Date-relative 678 694	В   тот   момент
-T22	GPE 867 874	Франции
-T23	Date-absolute 877 905	в   ноябре   прошлого   года
-T24	Event 843 859	этапа   Гран-при
-T25	Date-absolute 835 848	после   этапа
-T26	GPE 1070 1081	Владивосток
-T27	Person-property 1141 1151	фигуристка
-T28	Person 1171 1176	Марии
-T29	Person-property 1183 1197	допинг-офицеры
-T30	Date-absolute 1230 1249	в   марте   2020-го
-T31	Person-property 1310 1336	действующей   спортсменкой
-T32	Person-property 1413 1419	врачей
-T33	Product 1459 1468	фуросемид
-T34	Person-property 1741 1751	спортсмены
-T35	Time-relative 1775 1784	в   конце
-T36	Person-property 1917 1928	спортсменка
+T10	Ordinal 206 213	впервые
+T11	Organization 324 363	Российское   антидопинговое   агентство
+T12	Organization 370 376	РУСАДА
+T13	Date-relative 383 388	ранее
+T14	Age 412 423	20 - летнюю
+T15	Person 426 434	Сотскову
+T16	Date-period-relative 437 454	на   десять   лет
+T17	Product 547 556	Фуросемид
+T18	Person-property 577 582	врачи
+T19	Person-property 768 775	тренеру
+T20	Person 759 800	своему   тренеру   Светлане   Соколовской
+T21	Date-relative 680 696	В   тот   момент
+T22	GPE 869 876	Франции
+T23	Date-absolute 879 907	в   ноябре   прошлого   года
+T24	Event 845 861	этапа   Гран-при
+T25	Date-absolute 837 850	после   этапа
+T26	GPE 1072 1083	Владивосток
+T27	Person-property 1143 1153	фигуристка
+T28	Person 1173 1178	Марии
+T29	Person-property 1185 1199	допинг-офицеры
+T30	Date-absolute 1232 1251	в   марте   2020-го
+T31	Person-property 1312 1338	действующей   спортсменкой
+T32	Person-property 1415 1421	врачей
+T33	Product 1461 1470	фуросемид
+T34	Person-property 1743 1753	спортсмены
+T35	Time-relative 1777 1778	в
+T36	Person-property 1919 1930	спортсменка
 A2	Past T13
-T37	GPE 322 332	Российское
+T37	GPE 324 334	Российское
 A3	Adjective T37
 A4	Female T2
 T38	Person-surname 13 21	Сотскова
@@ -45,34 +45,38 @@ T39	Person-forename 142 147	Мария
 T40	Person-surname 150 158	Сотскова
 A6	Past T5
 A7	Female T15
-T41	Person-surname 424 432	Сотскову
-T42	Duration 440 452	десять   лет
+T41	Person-surname 426 434	Сотскову
+T42	Duration 442 454	десять   лет
 A9	Past T21
 A10	Female T20
-T43	Person-forename 776 783	Светлан
-T44	Person-surname 787 798	Соколовской
+T43	Person-forename 778 785	Светлан
+T44	Person-surname 789 800	Соколовской
 A11	Past T25
 A12	Past T23
 A13	Female T28
-T45	Person-forename 1171 1176	Марии
+T45	Person-forename 1173 1178	Марии
 A14	Past T30
-T46	Ordinal 890 898	прошлого
-T47	Event 851 859	Гран-при
-T48	Event 1787 1793	сезона
-T49	Ordinal 682 685	тот
-T50	Date-period-relative 1016 1022	дальше
+T46	Ordinal 892 900	прошлого
+T47	Event 853 861	Гран-при
+T48	Event 1789 1795	сезона
+T49	Ordinal 684 687	тот
+T50	Date-period-relative 1018 1024	дальше
 A15	Past T50
 A8	Past-UNK T16
 A16	Trademark T33
 A17	Trademark T3
 A18	Trademark T17
-T51	Event 460 469	нарушение
-T52	Event 502 510	подделку
-T53	Facility 1676 1684	квартире
-T54	Person 1917 1928	спортсменка
+T51	Event 462 471	нарушение
+T52	Event 504 512	подделку
+T53	Facility 1678 1686	квартире
+T54	Person 1919 1930	спортсменка
 A19	Female T54
-T55	Person 1055 1062	подруге
+T55	Person 1057 1064	подруге
 A20	Female T55
-T56	Person 1141 1151	фигуристка
+T56	Person 1143 1153	фигуристка
 A21	Female T56
 T57	Event 165 173	интервью
+T58	Event 1720 1740	завершении   карьеры
+T59	Event 1781 1795	конце   сезона
+T60	Event 243 258	дисквалификацию
+T61	Person 1185 1199	допинг-офицеры

@@ -8,15 +8,15 @@
 3	67	_	_	_	_	_	_	_	bratT2=Money
 4	тысяч	_	_	_	_	_	_	_	bratT2=Money
 5	евро	_	_	_	_	_	_	_	bratT2=Money
-6	жителю	_	_	_	_	_	_	_	bratA1=T3:Resident|bratT3=Nationality
-7	Чечни	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Resident|bratT3=Nationality|bratT4=GPE
+6	жителю	_	_	_	_	_	_	_	bratA1=T3:Resident|bratA23=T64:Male|bratT3=Nationality|bratT64=Person
+7	Чечни	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Resident|bratA23=T64:Male|bratT3=Nationality|bratT4=GPE|bratT64=Person
 8	,	_	_	_	_	_	_	_	_
 9	которого	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute
 11	2005	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute
 12	году	_	_	_	_	_	_	_	bratA2=T5:Past|bratT5=Date-absolute
 13	под	_	_	_	_	_	_	_	_
-14	пытками	_	_	_	_	_	_	_	_
+14	пытками	_	_	_	_	_	_	_	bratT61=Event
 15	заставили	_	_	_	_	_	_	_	_
 16	признаться	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
@@ -53,7 +53,7 @@
 15	,	_	_	_	_	_	_	_	_
 16	которого	_	_	_	_	_	_	_	_
 17	под	_	_	_	_	_	_	_	_
-18	пытками	_	_	_	_	_	_	_	_
+18	пытками	_	_	_	_	_	_	_	bratT62=Event
 19	заставили	_	_	_	_	_	_	_	_
 20	признать	_	_	_	_	_	_	_	_
 21	в	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 # sent_id = 0099-p3-s1
 # text = Интересы потерпевших представляла правозащитная организация ``Правовая инициатива''.
 1	Интересы	_	_	_	_	_	_	_	_
-2	потерпевших	_	_	_	_	_	_	_	bratT17=Person-property
+2	потерпевших	_	_	_	_	_	_	_	bratT17=Person-property|bratT65=Person
 3	представляла	_	_	_	_	_	_	_	_
 4	правозащитная	_	_	_	_	_	_	_	bratT18=Organization
 5	организация	_	_	_	_	_	_	_	bratT18=Organization
@@ -168,8 +168,8 @@
 5	что	_	_	_	_	_	_	_	_
 6	8	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-absolute
 7	января	_	_	_	_	_	_	_	bratA12=T29:Past|bratT29=Date-absolute
-8	сотрудники	_	_	_	_	_	_	_	bratT30=Person-property
-9	ГАИ	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization
+8	сотрудники	_	_	_	_	_	_	_	bratT30=Person-property|bratT66=Person
+9	ГАИ	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization|bratT66=Person
 10	остановили	_	_	_	_	_	_	_	_
 11	его	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
@@ -200,7 +200,7 @@
 3	по	_	_	_	_	_	_	_	bratA21=T32:Department|bratT32=Organization
 4	Ленинскому	_	_	_	_	_	_	_	bratA21=T32:Department|bratT32=Organization|bratT33=GPE
 5	району	_	_	_	_	_	_	_	bratA21=T32:Department|bratT32=Organization|bratT33=GPE
-6	милиционеры	_	_	_	_	_	_	_	bratT34=Person-property
+6	милиционеры	_	_	_	_	_	_	_	bratT34=Person-property|bratT67=Person
 7	надели	_	_	_	_	_	_	_	_
 8	ему	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
@@ -222,7 +222,7 @@
 # par_text = Силовики били его дубинкой по почкам и линейкой по пальцам. Затем милиционеры пустили ток, чтобы задержанный признался в преступлениях. Чудалов потерял сознание. Его привели в чувство, и пытки продолжились. После нескольких часов избиений Чудалов подписал необходимые документы.
 # sent_id = 0099-p6-s1
 # text = Силовики били его дубинкой по почкам и линейкой по пальцам.
-1	Силовики	_	_	_	_	_	_	_	bratT35=Person-property
+1	Силовики	_	_	_	_	_	_	_	bratT35=Person-property|bratT68=Person
 2	били	_	_	_	_	_	_	_	_
 3	его	_	_	_	_	_	_	_	_
 4	дубинкой	_	_	_	_	_	_	_	_
@@ -237,7 +237,7 @@
 # sent_id = 0099-p6-s2
 # text = Затем милиционеры пустили ток, чтобы задержанный признался в преступлениях.
 1	Затем	_	_	_	_	_	_	_	bratA10=T37:Past|bratT37=Date-relative
-2	милиционеры	_	_	_	_	_	_	_	bratT36=Person-property
+2	милиционеры	_	_	_	_	_	_	_	bratT36=Person-property|bratT69=Person
 3	пустили	_	_	_	_	_	_	_	_
 4	ток	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
@@ -263,7 +263,7 @@
 4	чувство	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	и	_	_	_	_	_	_	_	_
-7	пытки	_	_	_	_	_	_	_	_
+7	пытки	_	_	_	_	_	_	_	bratT63=Event
 8	продолжились	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_
 
@@ -272,7 +272,7 @@
 1	После	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-absolute
 2	нескольких	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-absolute|bratT46=Duration
 3	часов	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-absolute|bratT46=Duration
-4	избиений	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-absolute
+4	избиений	_	_	_	_	_	_	_	bratA17=T41:Past|bratT41=Date-absolute|bratT70=Event
 5	Чудалов	_	_	_	_	_	_	_	bratA15=T42:Male|bratT42=Person|bratT43=Person-surname
 6	подписал	_	_	_	_	_	_	_	_
 7	необходимые	_	_	_	_	_	_	_	_

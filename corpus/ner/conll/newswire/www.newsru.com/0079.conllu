@@ -3,14 +3,14 @@
 # par_text = Бразильский министр требует немедленно посадить бывшего игрока сборной в тюрьму
 # sent_id = 0079-p1-s1
 # text = Бразильский министр требует немедленно посадить бывшего игрока сборной в тюрьму
-1	Бразильский	_	_	_	_	_	_	_	bratA3=T43:Adjective|bratT1=Person-property|bratT43=GPE
-2	министр	_	_	_	_	_	_	_	bratT1=Person-property
+1	Бразильский	_	_	_	_	_	_	_	bratA3=T43:Adjective|bratT1=Person-property|bratT43=GPE|bratT73=Person
+2	министр	_	_	_	_	_	_	_	bratT1=Person-property|bratT73=Person
 3	требует	_	_	_	_	_	_	_	_
 4	немедленно	_	_	_	_	_	_	_	_
 5	посадить	_	_	_	_	_	_	_	_
-6	бывшего	_	_	_	_	_	_	_	_
-7	игрока	_	_	_	_	_	_	_	bratT2=Person-property
-8	сборной	_	_	_	_	_	_	_	bratT2=Person-property|bratT62=Organization
+6	бывшего	_	_	_	_	_	_	_	bratA21=T74:Male|bratT2=Person-property|bratT74=Person
+7	игрока	_	_	_	_	_	_	_	bratA21=T74:Male|bratT2=Person-property|bratT74=Person
+8	сборной	_	_	_	_	_	_	_	bratA21=T74:Male|bratT2=Person-property|bratT62=Organization|bratT74=Person
 9	в	_	_	_	_	_	_	_	_
 10	тюрьму	_	_	_	_	_	_	_	_
 
@@ -74,7 +74,7 @@
 
 # sent_id = 0079-p3-s2
 # text = Апелляция еще возможна.
-1	Апелляция	_	_	_	_	_	_	_	_
+1	Апелляция	_	_	_	_	_	_	_	bratT72=Event
 2	еще	_	_	_	_	_	_	_	_
 3	возможна	_	_	_	_	_	_	_	SpaceAfter=No
 4	.	_	_	_	_	_	_	_	_
@@ -83,8 +83,8 @@
 # text = Но существует утечка аудио, что еще вы хотите?
 1	Но	_	_	_	_	_	_	_	_
 2	существует	_	_	_	_	_	_	_	_
-3	утечка	_	_	_	_	_	_	_	_
-4	аудио	_	_	_	_	_	_	_	SpaceAfter=No
+3	утечка	_	_	_	_	_	_	_	bratT82=Event
+4	аудио	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Event
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	еще	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 
 # sent_id = 0079-p3-s6
 # text = Парень хочет вернуться на футбольное поле, чтобы изобразить из себя героя'', - приводит слова чиновницы Globo.
-1	Парень	_	_	_	_	_	_	_	_
+1	Парень	_	_	_	_	_	_	_	bratA26=T80:Male|bratT80=Person
 2	хочет	_	_	_	_	_	_	_	_
 3	вернуться	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
@@ -125,7 +125,7 @@
 15	-	_	_	_	_	_	_	_	_
 16	приводит	_	_	_	_	_	_	_	_
 17	слова	_	_	_	_	_	_	_	_
-18	чиновницы	_	_	_	_	_	_	_	bratT14=Person-property
+18	чиновницы	_	_	_	_	_	_	_	bratA25=T79:Female|bratT14=Person-property|bratT79=Person
 19	Globo	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
 20	.	_	_	_	_	_	_	_	_
 
@@ -143,8 +143,8 @@
 8	к	_	_	_	_	_	_	_	bratA8=T18:Past-UNK|bratT18=Date-period-relative
 9	девяти	_	_	_	_	_	_	_	bratA8=T18:Past-UNK|bratT18=Date-period-relative|bratT50=Duration
 10	годам	_	_	_	_	_	_	_	bratA8=T18:Past-UNK|bratT18=Date-period-relative|bratT50=Duration
-11	лишения	_	_	_	_	_	_	_	_
-12	свободы	_	_	_	_	_	_	_	_
+11	лишения	_	_	_	_	_	_	_	bratT69=Event
+12	свободы	_	_	_	_	_	_	_	bratT69=Event
 13	за	_	_	_	_	_	_	_	_
 14	изнасилование	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Event
 15	.	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 4	33	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT22=Age
 5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT22=Age
 6	летнего	_	_	_	_	_	_	_	bratT22=Age
-7	футболиста	_	_	_	_	_	_	_	bratT23=Person-property
+7	футболиста	_	_	_	_	_	_	_	bratA20=T71:Male|bratT23=Person-property|bratT71=Person
 8	и	_	_	_	_	_	_	_	_
 9	еще	_	_	_	_	_	_	_	bratT24=Quantity
 10	пятерых	_	_	_	_	_	_	_	bratT24=Quantity
@@ -183,8 +183,8 @@
 16	22	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Age
 17	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Age
 18	летней	_	_	_	_	_	_	_	bratT25=Age
-19	албанской	_	_	_	_	_	_	_	bratA10=T52:Adjective|bratT52=Nationality
-20	девушки	_	_	_	_	_	_	_	SpaceAfter=No
+19	албанской	_	_	_	_	_	_	_	bratA10=T52:Adjective|bratA19=T70:Female|bratT52=Nationality|bratT70=Person
+20	девушки	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T70:Female|bratT70=Person
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0079-p4-s4
@@ -208,7 +208,7 @@
 1	В	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
 2	2009	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
 3	году	_	_	_	_	_	_	_	bratA12=T27:Past|bratT27=Date-absolute
-4	футболист	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Person-property
+4	футболист	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T78:Male|bratT28=Person-property|bratT78=Person
 5	,	_	_	_	_	_	_	_	_
 6	выступавший	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	bratA11=T41:Past|bratT41=Date-relative
@@ -265,7 +265,7 @@
 27	соглашение	_	_	_	_	_	_	_	SpaceAfter=No
 28	,	_	_	_	_	_	_	_	_
 29	чтобы	_	_	_	_	_	_	_	_
-30	футболист	_	_	_	_	_	_	_	bratT35=Person-property
+30	футболист	_	_	_	_	_	_	_	bratA23=T77:Male|bratT35=Person-property|bratT77=Person
 31	смог	_	_	_	_	_	_	_	_
 32	сосредоточиться	_	_	_	_	_	_	_	_
 33	на	_	_	_	_	_	_	_	_
@@ -276,10 +276,10 @@
 
 # sent_id = 0079-p6-s2
 # text = Нападающий провел 100 матчей за сборную Бразилии, в которых забил 29 мячей.
-1	Нападающий	_	_	_	_	_	_	_	bratT39=Person-property
+1	Нападающий	_	_	_	_	_	_	_	bratA22=T76:Male|bratT39=Person-property|bratT76=Person
 2	провел	_	_	_	_	_	_	_	_
 3	100	_	_	_	_	_	_	_	bratT36=Quantity
-4	матчей	_	_	_	_	_	_	_	bratT36=Quantity
+4	матчей	_	_	_	_	_	_	_	bratT36=Quantity|bratT75=Event
 5	за	_	_	_	_	_	_	_	_
 6	сборную	_	_	_	_	_	_	_	bratT37=Organization
 7	Бразилии	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Organization|bratT61=GPE
@@ -288,6 +288,6 @@
 10	которых	_	_	_	_	_	_	_	_
 11	забил	_	_	_	_	_	_	_	_
 12	29	_	_	_	_	_	_	_	bratT38=Quantity
-13	мячей	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity
+13	мячей	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity|bratT81=Event
 14	.	_	_	_	_	_	_	_	_
 

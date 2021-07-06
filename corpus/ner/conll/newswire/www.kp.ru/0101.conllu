@@ -28,8 +28,8 @@
 7	76	_	_	_	_	_	_	_	bratT6=Quantity
 8	пациентов	_	_	_	_	_	_	_	bratT6=Quantity
 9	с	_	_	_	_	_	_	_	_
-10	положительным	_	_	_	_	_	_	_	_
-11	результатом	_	_	_	_	_	_	_	_
+10	положительным	_	_	_	_	_	_	_	bratT43=Event
+11	результатом	_	_	_	_	_	_	_	bratT43=Event
 12	теста	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
 14	наличие	_	_	_	_	_	_	_	_
@@ -176,8 +176,8 @@
 42	достаточно	_	_	_	_	_	_	_	_
 43	будет	_	_	_	_	_	_	_	_
 44	одного	_	_	_	_	_	_	_	bratT19=Quantity
-45	отрицательного	_	_	_	_	_	_	_	bratT19=Quantity
-46	результата	_	_	_	_	_	_	_	bratT19=Quantity
+45	отрицательного	_	_	_	_	_	_	_	bratT19=Quantity|bratT44=Event
+46	результата	_	_	_	_	_	_	_	bratT19=Quantity|bratT44=Event
 47-49	ПЦР-теста	_	_	_	_	_	_	_	SpaceAfter=No
 47	ПЦР	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT29=Other-term
 48	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT29=Other-term

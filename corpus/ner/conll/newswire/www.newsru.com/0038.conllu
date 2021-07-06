@@ -3,7 +3,7 @@
 # par_text = Facebook известит пользователей о результатах президентских выборов в США
 # sent_id = 0038-p1-s1
 # text = Facebook известит пользователей о результатах президентских выборов в США
-1	Facebook	_	_	_	_	_	_	_	bratT1=Organization
+1	Facebook	_	_	_	_	_	_	_	bratT1=Service
 2	известит	_	_	_	_	_	_	_	_
 3	пользователей	_	_	_	_	_	_	_	bratT15=Other-group
 4	о	_	_	_	_	_	_	_	_
@@ -44,8 +44,8 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	представитель	_	_	_	_	_	_	_	bratT11=Person-property
-5	Facebook	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization|bratT11=Person-property
+4	представитель	_	_	_	_	_	_	_	bratA16=T51:Male|bratT11=Person-property|bratT51=Person
+5	Facebook	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T51:Male|bratT10=Organization|bratT11=Person-property|bratT51=Person
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0038-p3
@@ -106,7 +106,7 @@
 # sent_id = 0038-p4-s1
 # text = Уведомление Facebook будет отображаться в верхней части новостной ленты пользователей.
 1	Уведомление	_	_	_	_	_	_	_	_
-2	Facebook	_	_	_	_	_	_	_	bratT14=Organization
+2	Facebook	_	_	_	_	_	_	_	bratT14=Service
 3	будет	_	_	_	_	_	_	_	_
 4	отображаться	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -187,8 +187,8 @@
 10	недостоверных	_	_	_	_	_	_	_	_
 11	заявлений	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
-13	подсчете	_	_	_	_	_	_	_	_
-14	голосов	_	_	_	_	_	_	_	_
+13	подсчете	_	_	_	_	_	_	_	bratT52=Event
+14	голосов	_	_	_	_	_	_	_	bratT52=Event
 15	в	_	_	_	_	_	_	_	_
 16	нескольких	_	_	_	_	_	_	_	bratT34=Quantity
 17	ключевых	_	_	_	_	_	_	_	bratT34=Quantity
@@ -205,8 +205,8 @@
 6	чтобы	_	_	_	_	_	_	_	_
 7	ограничить	_	_	_	_	_	_	_	_
 8	распространение	_	_	_	_	_	_	_	bratT49=Event
-9	таких	_	_	_	_	_	_	_	_
-10	заявлений	_	_	_	_	_	_	_	_
+9	таких	_	_	_	_	_	_	_	bratT49=Event
+10	заявлений	_	_	_	_	_	_	_	bratT49=Event
 11	среди	_	_	_	_	_	_	_	_
 12	пользователей	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Other-group
 13	.	_	_	_	_	_	_	_	_

@@ -4,9 +4,9 @@
 # sent_id = 0029-p1-s1
 # text = Суд в Новосибирской области арестовал сельчанина, до смерти избившего жену в день свадьбы
 1	Суд	_	_	_	_	_	_	_	bratT1=Organization
-2	в	_	_	_	_	_	_	_	bratT1=Organization
-3	Новосибирской	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Organization|bratT2=GPE
-4	области	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Organization|bratT2=GPE
+2	в	_	_	_	_	_	_	_	_
+3	Новосибирской	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT2=GPE
+4	области	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT2=GPE
 5	арестовал	_	_	_	_	_	_	_	_
 6	сельчанина	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T3:Resident|bratA24=T51:Male|bratT3=Nationality|bratT51=Person
 7	,	_	_	_	_	_	_	_	_
@@ -34,12 +34,12 @@
 9	33	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT9=Age
 10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT9=Age
 11	летнего	_	_	_	_	_	_	_	bratT9=Age
-12	жителя	_	_	_	_	_	_	_	bratA4=T10:Resident|bratT10=Nationality
-13	села	_	_	_	_	_	_	_	bratA4=T10:Resident|bratT10=Nationality|bratT11=GPE
-14	Чик	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T10:Resident|bratT10=Nationality|bratT11=GPE
+12	жителя	_	_	_	_	_	_	_	bratA33=T66:Male|bratA4=T10:Resident|bratT10=Nationality|bratT66=Person
+13	села	_	_	_	_	_	_	_	bratA33=T66:Male|bratA4=T10:Resident|bratT10=Nationality|bratT11=GPE|bratT66=Person
+14	Чик	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T66:Male|bratA4=T10:Resident|bratT10=Nationality|bratT11=GPE|bratT66=Person
 15	,	_	_	_	_	_	_	_	_
 16	убившего	_	_	_	_	_	_	_	_
-17	жену	_	_	_	_	_	_	_	bratT12=Family
+17	жену	_	_	_	_	_	_	_	bratA34=T67:Female|bratT12=Family|bratT67=Person
 18	в	_	_	_	_	_	_	_	bratA16=T40:Past|bratT40=Date-absolute
 19	день	_	_	_	_	_	_	_	bratA16=T40:Past|bratT40=Date-absolute
 20	свадьбы	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T40:Past|bratT13=Event|bratT40=Date-absolute
@@ -166,7 +166,7 @@
 4	сообщает	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	сельчанин	_	_	_	_	_	_	_	bratA27=T57:Male|bratT24=Other-group|bratT57=Person
+7	сельчанин	_	_	_	_	_	_	_	bratA27=T57:Male|bratA35=T24:Resident|bratT24=Nationality|bratT57=Person
 8	познакомился	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	будущей	_	_	_	_	_	_	_	bratA28=T58:Female|bratT58=Person

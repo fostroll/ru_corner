@@ -7,9 +7,9 @@
 2	вызвал	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	допрос	_	_	_	_	_	_	_	bratT84=Event
-5	московского	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT2=Person-property|bratT3=GPE|bratT94=Person
-6	муниципального	_	_	_	_	_	_	_	bratT2=Person-property|bratT94=Person
-7	депутата	_	_	_	_	_	_	_	bratT2=Person-property|bratT94=Person
+5	московского	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT2=Person-property|bratT3=GPE|bratT95=Person
+6	муниципального	_	_	_	_	_	_	_	bratT2=Person-property|bratT95=Person
+7	депутата	_	_	_	_	_	_	_	bratT2=Person-property|bratT95=Person
 8	за	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No
 10	ложные	_	_	_	_	_	_	_	_
@@ -20,10 +20,10 @@
 15	на	_	_	_	_	_	_	_	_
 16	обыски	_	_	_	_	_	_	_	bratT83=Event
 17	по	_	_	_	_	_	_	_	_
-18	``	_	_	_	_	_	_	_	SpaceAfter=No
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Event
 19	делу	_	_	_	_	_	_	_	bratT76=Event
-20	ЮКОСа	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Organization
-21	''	_	_	_	_	_	_	_	_
+20	ЮКОСа	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Organization|bratT76=Event
+21	''	_	_	_	_	_	_	_	bratT76=Event
 
 # newpar id = 0058-p2
 # par_text = Главное следственное управление СК вызвало на допрос главу московского округа Якиманка Андрея Морева, который жаловался в Генпрокуратуру на нарушения во время июльских обысков у независимых политиков по «делу ЮКОСа». Об этом Морев сообщил в своем телеграм-канале.
@@ -54,13 +54,13 @@
 23	июльских	_	_	_	_	_	_	_	bratA22=T13:Past|bratA24=T80:Past|bratT13=Date-period-absolute|bratT80=Date-absolute|bratT81=Event
 24	обысков	_	_	_	_	_	_	_	bratA22=T13:Past|bratT13=Date-period-absolute|bratT81=Event
 25	у	_	_	_	_	_	_	_	_
-26	независимых	_	_	_	_	_	_	_	bratT12=Person-property
-27	политиков	_	_	_	_	_	_	_	bratT12=Person-property
+26	независимых	_	_	_	_	_	_	_	bratT12=Person-property|bratT94=Person
+27	политиков	_	_	_	_	_	_	_	bratT12=Person-property|bratT94=Person
 28	по	_	_	_	_	_	_	_	_
-29	``	_	_	_	_	_	_	_	SpaceAfter=No
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 30	делу	_	_	_	_	_	_	_	bratT77=Event
-31	ЮКОСа	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Organization
-32	''	_	_	_	_	_	_	_	SpaceAfter=No
+31	ЮКОСа	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Organization|bratT77=Event
+32	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 33	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p2-s2
@@ -177,13 +177,13 @@
 
 # sent_id = 0058-p4-s2
 # text = Полицейские также не разрешали врачам скорой помощи и Юлии Галяминой зайти в квартиру к ее 19-летнему сыну с астмой.
-1	Полицейские	_	_	_	_	_	_	_	bratT51=Person-property
+1	Полицейские	_	_	_	_	_	_	_	bratT51=Person-property|bratT98=Person
 2	также	_	_	_	_	_	_	_	_
 3	не	_	_	_	_	_	_	_	_
 4	разрешали	_	_	_	_	_	_	_	_
 5	врачам	_	_	_	_	_	_	_	bratT52=Person-property
-6	скорой	_	_	_	_	_	_	_	bratT52=Person-property
-7	помощи	_	_	_	_	_	_	_	bratT52=Person-property
+6	скорой	_	_	_	_	_	_	_	bratT52=Person-property|bratT96=Service
+7	помощи	_	_	_	_	_	_	_	bratT52=Person-property|bratT96=Service
 8	и	_	_	_	_	_	_	_	_
 9	Юлии	_	_	_	_	_	_	_	bratA17=T54:Female|bratT53=Person-forename|bratT54=Person
 10	Галяминой	_	_	_	_	_	_	_	bratA17=T54:Female|bratT54=Person|bratT55=Person-surname
@@ -246,7 +246,7 @@
 26	первого	_	_	_	_	_	_	_	bratA18=T62:Male|bratT21=Ordinal|bratT62=Person|bratT63=Person-property
 27	замглавы	_	_	_	_	_	_	_	bratA18=T62:Male|bratT62=Person|bratT63=Person-property
 28	ГСУ	_	_	_	_	_	_	_	bratA18=T62:Male|bratT62=Person|bratT63=Person-property|bratT64=Organization
-29	СК	_	_	_	_	_	_	_	bratA18=T62:Male|bratT62=Person|bratT63=Person-property|bratT64=Organization
+29	СК	_	_	_	_	_	_	_	bratA18=T62:Male|bratT62=Person|bratT63=Person-property|bratT64=Organization|bratT97=Organization
 30	Сергея	_	_	_	_	_	_	_	bratA18=T62:Male|bratT62=Person|bratT65=Person-forename
 31	Михайлова	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T62:Male|bratT62=Person|bratT66=Person-surname
 32	,	_	_	_	_	_	_	_	_

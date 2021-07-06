@@ -10,7 +10,7 @@
 5	смогли	_	_	_	_	_	_	_	_
 6	вылететь	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	игру	_	_	_	_	_	_	_	_
+8	игру	_	_	_	_	_	_	_	bratT65=Event
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
 10	Болоньей	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT54=GPE
 11	''	_	_	_	_	_	_	_	bratT2=Organization
@@ -57,7 +57,7 @@
 4-6	Football-Italia	_	_	_	_	_	_	_	SpaceAfter=No
 4	Football	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T10:Media|bratT10=Organization
 5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T10:Media|bratT10=Organization
-6	Italia	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization
+6	Italia	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T10:Media|bratT10=Organization|bratT73=GPE
 7	,	_	_	_	_	_	_	_	_
 8	команда	_	_	_	_	_	_	_	bratT58=Organization
 9	Дженнаро	_	_	_	_	_	_	_	bratA6=T11:Male|bratT11=Person|bratT43=Person-forename|bratT58=Organization
@@ -162,10 +162,10 @@
 21	не	_	_	_	_	_	_	_	bratT22=Quantity
 22	менее	_	_	_	_	_	_	_	bratT22=Quantity
 23	трех	_	_	_	_	_	_	_	bratT22=Quantity
-24	мячей	_	_	_	_	_	_	_	bratT22=Quantity
+24	мячей	_	_	_	_	_	_	_	bratT22=Quantity|bratT74=Event
 25	в	_	_	_	_	_	_	_	_
 26	каждом	_	_	_	_	_	_	_	_
-27	матче	_	_	_	_	_	_	_	SpaceAfter=No
+27	матче	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Event
 28	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0105-p5-s2
@@ -180,7 +180,7 @@
 8	команда	_	_	_	_	_	_	_	bratT59=Organization
 9	обыграла	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
-11	Ренн	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+11	Ренн	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization|bratT72=GPE
 12	''	_	_	_	_	_	_	_	bratT24=Organization
 13	со	_	_	_	_	_	_	_	_
 14	счетом	_	_	_	_	_	_	_	_
@@ -200,13 +200,13 @@
 1	В	_	_	_	_	_	_	_	_
 2	предыдущих	_	_	_	_	_	_	_	bratT42=Ordinal
 3	четырех	_	_	_	_	_	_	_	bratT30=Quantity
-4	матчах	_	_	_	_	_	_	_	bratT30=Quantity
+4	матчах	_	_	_	_	_	_	_	bratT30=Quantity|bratT67=Event
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
 6	ПСЖ	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
 7	''	_	_	_	_	_	_	_	bratT31=Organization
 8	победил	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
-10	Нант	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
+10	Нант	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization|bratT68=GPE
 11	''	_	_	_	_	_	_	_	bratT32=Organization
 12	с	_	_	_	_	_	_	_	_
 13	таким	_	_	_	_	_	_	_	_
@@ -217,21 +217,21 @@
 18	)	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
-21	Дижон	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+21	Дижон	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT69=GPE
 22	''	_	_	_	_	_	_	_	bratT34=Organization
 23	(	_	_	_	_	_	_	_	SpaceAfter=No
 24	4:0	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Ordinal
 25	)	_	_	_	_	_	_	_	SpaceAfter=No
 26	,	_	_	_	_	_	_	_	_
 27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
-28	Анже	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
+28	Анже	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization|bratT70=GPE
 29	''	_	_	_	_	_	_	_	bratT36=Organization
 30	(	_	_	_	_	_	_	_	SpaceAfter=No
 31	6:1	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Ordinal
 32	)	_	_	_	_	_	_	_	_
 33	и	_	_	_	_	_	_	_	_
 34	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
-35	Ним	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+35	Ним	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization|bratT71=GPE
 36	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
 37	.	_	_	_	_	_	_	_	_
 

@@ -4,8 +4,8 @@
 # sent_id = 0053-p1-s1
 # text = На хабаровского активиста завели дело ``по дадинской статье'' из-за акций в поддержку Фургала
 1	На	_	_	_	_	_	_	_	_
-2	хабаровского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-3	активиста	_	_	_	_	_	_	_	bratT1=Person-property
+2	хабаровского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA19=T56:Male|bratT1=Person-property|bratT2=GPE|bratT56=Person
+3	активиста	_	_	_	_	_	_	_	bratA19=T56:Male|bratT1=Person-property|bratT56=Person
 4	завели	_	_	_	_	_	_	_	_
 5	дело	_	_	_	_	_	_	_	bratT46=Event
 6	``	_	_	_	_	_	_	_	SpaceAfter=No
@@ -64,7 +64,7 @@
 9	со	_	_	_	_	_	_	_	_
 10	ссылкой	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
-12	его	_	_	_	_	_	_	_	_
+12	его	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person
 13	адвоката	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT15=Person-property
 14	Андрея	_	_	_	_	_	_	_	bratA4=T14:Male|bratT14=Person|bratT16=Person-forename
 15	Битюцкого	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T14:Male|bratT14=Person|bratT17=Person-surname
@@ -76,8 +76,8 @@
 # text = По информации правозащитного проекта, Приходько задержали.
 1	По	_	_	_	_	_	_	_	_
 2	информации	_	_	_	_	_	_	_	_
-3	правозащитного	_	_	_	_	_	_	_	_
-4	проекта	_	_	_	_	_	_	_	SpaceAfter=No
+3	правозащитного	_	_	_	_	_	_	_	bratA20=T57:Media|bratT57=Service
+4	проекта	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T57:Media|bratT57=Service
 5	,	_	_	_	_	_	_	_	_
 6	Приходько	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT19=Person-surname
 7	задержали	_	_	_	_	_	_	_	SpaceAfter=No
@@ -89,7 +89,7 @@
 # text = До этого хабаровчанина задерживали 10 октября на субботней акции в поддержку экс-губернатора Сергея Фургала.
 1	До	_	_	_	_	_	_	_	bratA15=T45:Past|bratT45=Date-relative
 2	этого	_	_	_	_	_	_	_	bratA15=T45:Past|bratT45=Date-relative
-3	хабаровчанина	_	_	_	_	_	_	_	bratA7=T21:Resident|bratT21=Nationality
+3	хабаровчанина	_	_	_	_	_	_	_	bratA21=T58:Male|bratA7=T21:Resident|bratT21=Nationality|bratT58=Person
 4	задерживали	_	_	_	_	_	_	_	_
 5	10	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-absolute
 6	октября	_	_	_	_	_	_	_	bratA6=T20:Past|bratT20=Date-absolute

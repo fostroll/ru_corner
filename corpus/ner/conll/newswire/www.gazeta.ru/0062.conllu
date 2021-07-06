@@ -3,15 +3,15 @@
 # par_text = Арбитр матча «Атлетико» — «Локомотив» был задержан в борделе с оружием и кокаином
 # sent_id = 0062-p1-s1
 # text = Арбитр матча ``Атлетико'' - ``Локомотив'' был задержан в борделе с оружием и кокаином
-1	Арбитр	_	_	_	_	_	_	_	bratT4=Person-property
-2	матча	_	_	_	_	_	_	_	bratT3=Event|bratT4=Person-property
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT3=Event|bratT4=Person-property
-4	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT3=Event|bratT4=Person-property
-5	''	_	_	_	_	_	_	_	bratT1=Organization|bratT3=Event|bratT4=Person-property
-6	-	_	_	_	_	_	_	_	bratT3=Event|bratT4=Person-property
-7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT3=Event|bratT4=Person-property
-8	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization|bratT3=Event|bratT4=Person-property
-9	''	_	_	_	_	_	_	_	bratT2=Organization|bratT3=Event|bratT4=Person-property
+1	Арбитр	_	_	_	_	_	_	_	bratA17=T73:Male|bratT4=Person-property|bratT73=Person
+2	матча	_	_	_	_	_	_	_	bratA17=T73:Male|bratT3=Event|bratT4=Person-property|bratT73=Person
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T73:Male|bratT1=Organization|bratT3=Event|bratT4=Person-property|bratT73=Person
+4	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T73:Male|bratT1=Organization|bratT3=Event|bratT4=Person-property|bratT73=Person
+5	''	_	_	_	_	_	_	_	bratA17=T73:Male|bratT1=Organization|bratT3=Event|bratT4=Person-property|bratT73=Person
+6	-	_	_	_	_	_	_	_	bratA17=T73:Male|bratT3=Event|bratT4=Person-property|bratT73=Person
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T73:Male|bratT2=Organization|bratT3=Event|bratT4=Person-property|bratT73=Person
+8	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T73:Male|bratT2=Organization|bratT3=Event|bratT4=Person-property|bratT73=Person
+9	''	_	_	_	_	_	_	_	bratA17=T73:Male|bratT2=Organization|bratT3=Event|bratT4=Person-property|bratT73=Person
 10	был	_	_	_	_	_	_	_	_
 11	задержан	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
@@ -151,13 +151,13 @@
 # sent_id = 0062-p5-s1
 # text = Игра ``Атлетико'' - ``Локомотив'' состоится 25-го ноября.
 1	Игра	_	_	_	_	_	_	_	bratT27=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
-3	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
-4	''	_	_	_	_	_	_	_	bratT25=Organization
-5	-	_	_	_	_	_	_	_	_
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
-7	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization
-8	''	_	_	_	_	_	_	_	bratT26=Organization
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT27=Event
+3	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization|bratT27=Event
+4	''	_	_	_	_	_	_	_	bratT25=Organization|bratT27=Event
+5	-	_	_	_	_	_	_	_	bratT27=Event
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization|bratT27=Event
+7	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Organization|bratT27=Event
+8	''	_	_	_	_	_	_	_	bratT26=Organization|bratT27=Event
 9	состоится	_	_	_	_	_	_	_	_
 10	25-го	_	_	_	_	_	_	_	bratA4=T28:Future|bratT28=Date-absolute
 11	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T28:Future|bratT28=Date-absolute
@@ -186,13 +186,13 @@
 9	Лиги	_	_	_	_	_	_	_	bratT34=Event|bratT45=Event|bratT46=Event|bratT68=Event
 10	чемпионов	_	_	_	_	_	_	_	bratT34=Event|bratT45=Event|bratT46=Event|bratT68=Event
 11	УЕФА	_	_	_	_	_	_	_	bratT33=Organization|bratT34=Event|bratT45=Event|bratT46=Event|bratT68=Event
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-13	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization
-14	''	_	_	_	_	_	_	_	bratT31=Organization
-15	-	_	_	_	_	_	_	_	_
-16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
-17	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization
-18	''	_	_	_	_	_	_	_	bratT32=Organization
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization|bratT34=Event
+13	Локомотив	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Organization|bratT34=Event
+14	''	_	_	_	_	_	_	_	bratT31=Organization|bratT34=Event
+15	-	_	_	_	_	_	_	_	bratT34=Event
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization|bratT34=Event
+17	Атлетико	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Organization|bratT34=Event
+18	''	_	_	_	_	_	_	_	bratT32=Organization|bratT34=Event
 19	прошел	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
 21	Москве	_	_	_	_	_	_	_	bratT35=GPE

@@ -20,7 +20,7 @@
 15	зданиями	_	_	_	_	_	_	_	bratT33=Facility
 16	шахты	_	_	_	_	_	_	_	bratT3=Facility|bratT33=Facility
 17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Facility|bratT33=Facility
-18	Аяч-Яга	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Facility|bratT33=Facility
+18	Аяч-Яга	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Facility|bratT33=Facility|bratT54=GPE
 19	''	_	_	_	_	_	_	_	bratT3=Facility|bratT33=Facility
 
 # newpar id = 0105-p2
@@ -33,7 +33,7 @@
 4	законсервированной	_	_	_	_	_	_	_	_
 5	шахте	_	_	_	_	_	_	_	bratT5=Facility
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Facility
-7	Аяч-Яга	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Facility
+7	Аяч-Яга	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Facility|bratT55=GPE
 8	''	_	_	_	_	_	_	_	bratT5=Facility
 9	АО	_	_	_	_	_	_	_	bratT6=Organization
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
@@ -51,8 +51,8 @@
 22	погибших	_	_	_	_	_	_	_	_
 23	в	_	_	_	_	_	_	_	_
 24	результате	_	_	_	_	_	_	_	_
-25	обрушения	_	_	_	_	_	_	_	_
-26	галереи	_	_	_	_	_	_	_	bratT35=Facility
+25	обрушения	_	_	_	_	_	_	_	bratT52=Event
+26	галереи	_	_	_	_	_	_	_	bratT35=Facility|bratT52=Event
 27	между	_	_	_	_	_	_	_	_
 28	зданиями	_	_	_	_	_	_	_	bratT36=Facility
 29	при	_	_	_	_	_	_	_	_
@@ -64,18 +64,18 @@
 # sent_id = 0105-p2-s2
 # text = Это два сотрудника подрядной организации - монтажник и электросварщик ООО ``Катюша''.
 1	Это	_	_	_	_	_	_	_	_
-2	два	_	_	_	_	_	_	_	bratT10=Quantity
-3	сотрудника	_	_	_	_	_	_	_	bratT10=Quantity
-4	подрядной	_	_	_	_	_	_	_	bratT39=Organization
-5	организации	_	_	_	_	_	_	_	bratT39=Organization
-6	-	_	_	_	_	_	_	_	_
-7	монтажник	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property
-8	и	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property
-9	электросварщик	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property
-10	ООО	_	_	_	_	_	_	_	bratA1=T11:Plural|bratT11=Person-property|bratT12=Organization
-11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Plural|bratT11=Person-property|bratT12=Organization
-12	Катюша	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Plural|bratT11=Person-property|bratT12=Organization
-13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Plural|bratT11=Person-property|bratT12=Organization
+2	два	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT10=Quantity|bratT48=Person
+3	сотрудника	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT10=Quantity|bratT48=Person
+4	подрядной	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT39=Organization|bratT48=Person
+5	организации	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT39=Organization|bratT48=Person
+6	-	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT48=Person
+7	монтажник	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT48=Person
+8	и	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT48=Person
+9	электросварщик	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT48=Person
+10	ООО	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT12=Organization|bratT48=Person
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT12=Organization|bratT48=Person
+12	Катюша	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT12=Organization|bratT48=Person|bratT56=Person-forename
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT12=Organization|bratT48=Person
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0105-p3
@@ -163,11 +163,11 @@
 # text = Прокуратура начала проверку в связи с обрушением.
 1	Прокуратура	_	_	_	_	_	_	_	bratT19=Organization
 2	начала	_	_	_	_	_	_	_	_
-3	проверку	_	_	_	_	_	_	_	_
+3	проверку	_	_	_	_	_	_	_	bratT47=Event
 4	в	_	_	_	_	_	_	_	_
 5	связи	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_
-7	обрушением	_	_	_	_	_	_	_	SpaceAfter=No
+7	обрушением	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Event
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0105-p4-s3
@@ -183,8 +183,8 @@
 # sent_id = 0105-p4-s4
 # text = Планируется изъятие документации компании подрядчика.
 1	Планируется	_	_	_	_	_	_	_	_
-2	изъятие	_	_	_	_	_	_	_	_
-3	документации	_	_	_	_	_	_	_	_
+2	изъятие	_	_	_	_	_	_	_	bratT50=Event
+3	документации	_	_	_	_	_	_	_	bratT50=Event
 4	компании	_	_	_	_	_	_	_	bratT42=Organization
 5	подрядчика	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
 6	.	_	_	_	_	_	_	_	_
@@ -198,7 +198,7 @@
 3	на	_	_	_	_	_	_	_	_
 4	шахте	_	_	_	_	_	_	_	bratT20=Facility
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Facility
-6	Воргашорская	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Facility
+6	Воргашорская	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T53:Adjective|bratT20=Facility|bratT53=GPE
 7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Facility
 8	,	_	_	_	_	_	_	_	_
 9	которая	_	_	_	_	_	_	_	_
@@ -210,8 +210,8 @@
 15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Organization
 16	,	_	_	_	_	_	_	_	_
 17	при	_	_	_	_	_	_	_	_
-18	обрушении	_	_	_	_	_	_	_	_
-19	галереи	_	_	_	_	_	_	_	bratT27=Facility
+18	обрушении	_	_	_	_	_	_	_	bratT51=Event
+19	галереи	_	_	_	_	_	_	_	bratT27=Facility|bratT51=Event
 20	(	_	_	_	_	_	_	_	SpaceAfter=No
 21	перехода	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Facility
 22	)	_	_	_	_	_	_	_	_

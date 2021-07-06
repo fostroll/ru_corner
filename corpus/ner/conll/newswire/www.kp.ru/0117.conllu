@@ -139,8 +139,8 @@
 11	коммунальным	_	_	_	_	_	_	_	_
 12	услугам	_	_	_	_	_	_	_	_
 13	и	_	_	_	_	_	_	_	_
-14	выплату	_	_	_	_	_	_	_	_
-15	зарплаты	_	_	_	_	_	_	_	_
+14	выплату	_	_	_	_	_	_	_	bratT50=Event
+15	зарплаты	_	_	_	_	_	_	_	bratT50=Event
 16	работникам	_	_	_	_	_	_	_	bratT40=Person-property
 17	предприятий	_	_	_	_	_	_	_	bratT39=Organization|bratT40=Person-property
 18	НХП	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization|bratT40=Person-property
@@ -184,8 +184,8 @@
 17	2020	_	_	_	_	_	_	_	bratA4=T9:UNK-Fut|bratA5=T9:LCont|bratT9=Date-period-absolute
 18	года	_	_	_	_	_	_	_	bratA4=T9:UNK-Fut|bratA5=T9:LCont|bratT9=Date-period-absolute
 19	срок	_	_	_	_	_	_	_	_
-20	выплаты	_	_	_	_	_	_	_	_
-21	субсидий	_	_	_	_	_	_	_	SpaceAfter=No
+20	выплаты	_	_	_	_	_	_	_	bratT49=Event
+21	субсидий	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Event
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0117-p4-s2
@@ -212,9 +212,9 @@
 4	с	_	_	_	_	_	_	_	_
 5	инициативой	_	_	_	_	_	_	_	_
 6	продления	_	_	_	_	_	_	_	bratT44=Event
-7	срока	_	_	_	_	_	_	_	_
-8	выплаты	_	_	_	_	_	_	_	_
-9	субсидий	_	_	_	_	_	_	_	_
+7	срока	_	_	_	_	_	_	_	bratT44=Event
+8	выплаты	_	_	_	_	_	_	_	bratT48=Event
+9	субсидий	_	_	_	_	_	_	_	bratT48=Event
 10	для	_	_	_	_	_	_	_	_
 11	предприятий	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
 12	,	_	_	_	_	_	_	_	_

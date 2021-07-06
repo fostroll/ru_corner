@@ -3,7 +3,7 @@
 # par_text = Присяжные в четвертый раз оправдали крымчанина по делу о гибели бездомного
 # sent_id = 0074-p1-s1
 # text = Присяжные в четвертый раз оправдали крымчанина по делу о гибели бездомного
-1	Присяжные	_	_	_	_	_	_	_	bratT1=Person-property
+1	Присяжные	_	_	_	_	_	_	_	bratT1=Person-property|bratT77=Person
 2	в	_	_	_	_	_	_	_	_
 3	четвертый	_	_	_	_	_	_	_	bratT48=Ordinal
 4	раз	_	_	_	_	_	_	_	_
@@ -19,7 +19,7 @@
 # par_text = Присяжные в Симферопольском районном суде оправдали жителя города Саки Александра Буянова по делу об гибели бездомного. Об этом «Медиазоне» рассказал сам Буянов.
 # sent_id = 0074-p2-s1
 # text = Присяжные в Симферопольском районном суде оправдали жителя города Саки Александра Буянова по делу об гибели бездомного.
-1	Присяжные	_	_	_	_	_	_	_	bratT5=Person-property
+1	Присяжные	_	_	_	_	_	_	_	bratT5=Person-property|bratT78=Person
 2	в	_	_	_	_	_	_	_	_
 3	Симферопольском	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT6=Organization|bratT7=GPE
 4	районном	_	_	_	_	_	_	_	bratA2=T7:Adjective|bratT6=Organization|bratT7=GPE
@@ -71,7 +71,7 @@
 16	заподозрив	_	_	_	_	_	_	_	_
 17	его	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
-19	избиении	_	_	_	_	_	_	_	_
+19	избиении	_	_	_	_	_	_	_	bratT79=Event
 20	матери	_	_	_	_	_	_	_	bratA20=T69:Female|bratT22=Family|bratT69=Person
 21	своей	_	_	_	_	_	_	_	bratA19=T68:Female|bratA20=T69:Female|bratT68=Person|bratT69=Person
 22	подруги	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T68:Female|bratA20=T69:Female|bratT68=Person|bratT69=Person
@@ -102,7 +102,7 @@
 10	в	_	_	_	_	_	_	_	bratA14=T50:Past|bratT50=Date-absolute
 11	день	_	_	_	_	_	_	_	bratA14=T50:Past|bratT50=Date-absolute
 12	задержания	_	_	_	_	_	_	_	bratA14=T50:Past|bratT50=Date-absolute|bratT65=Event
-13	оперативники	_	_	_	_	_	_	_	bratT25=Person-property
+13	оперативники	_	_	_	_	_	_	_	bratT25=Person-property|bratT76=Person
 14	избили	_	_	_	_	_	_	_	_
 15	его	_	_	_	_	_	_	_	_
 16	и	_	_	_	_	_	_	_	_
@@ -168,7 +168,7 @@
 # sent_id = 0074-p5-s1
 # text = Когда присяжные оправдали крымчанина в третий раз, рассмотрение уголовного дела перенесли из Сакского районного суда в Симфереполь.
 1	Когда	_	_	_	_	_	_	_	_
-2	присяжные	_	_	_	_	_	_	_	bratT34=Person-property
+2	присяжные	_	_	_	_	_	_	_	bratT34=Person-property|bratT80=Person
 3	оправдали	_	_	_	_	_	_	_	_
 4	крымчанина	_	_	_	_	_	_	_	bratA11=T35:Resident|bratA25=T74:Male|bratT35=Nationality|bratT74=Person
 5	в	_	_	_	_	_	_	_	_

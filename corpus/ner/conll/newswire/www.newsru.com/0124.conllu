@@ -6,13 +6,13 @@
 1	Виктору	_	_	_	_	_	_	_	bratA3=T1:Male|bratT1=Person|bratT40=Person-forename
 2	Бабарико	_	_	_	_	_	_	_	bratA3=T1:Male|bratT1=Person|bratT41=Person-surname
 3	и	_	_	_	_	_	_	_	_
-4	топ-менеджерам	_	_	_	_	_	_	_	bratT2=Person-property
+4	топ-менеджерам	_	_	_	_	_	_	_	bratT104=Person|bratT2=Person-property
 5	по	_	_	_	_	_	_	_	_
-6	``	_	_	_	_	_	_	_	SpaceAfter=No
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Event
 7	делу	_	_	_	_	_	_	_	bratT55=Event
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
-9	Белгазпромбанка	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
-10	''	_	_	_	_	_	_	_	bratT3=Organization
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization|bratT55=Event
+9	Белгазпромбанка	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization|bratT55=Event
+10	''	_	_	_	_	_	_	_	bratT3=Organization|bratT55=Event
 11	предъявили	_	_	_	_	_	_	_	_
 12	обвинение	_	_	_	_	_	_	_	_
 
@@ -74,10 +74,10 @@
 33	Беларусь	_	_	_	_	_	_	_	bratT12=GPE|bratT13=Law|bratT50=Law
 34	по	_	_	_	_	_	_	_	_
 35	фактам	_	_	_	_	_	_	_	_
-36	получения	_	_	_	_	_	_	_	_
-37	взяток	_	_	_	_	_	_	_	_
-38	организованной	_	_	_	_	_	_	_	_
-39	группой	_	_	_	_	_	_	_	_
+36	получения	_	_	_	_	_	_	_	bratT102=Event
+37	взяток	_	_	_	_	_	_	_	bratT102=Event
+38	организованной	_	_	_	_	_	_	_	bratT105=Organization
+39	группой	_	_	_	_	_	_	_	bratT105=Organization
 40	в	_	_	_	_	_	_	_	_
 41	особо	_	_	_	_	_	_	_	_
 42	крупном	_	_	_	_	_	_	_	_
@@ -124,8 +124,8 @@
 9	ст.	_	_	_	_	_	_	_	bratT17=Law
 10	430	_	_	_	_	_	_	_	bratT17=Law|bratT54=Ordinal
 11	(	_	_	_	_	_	_	_	SpaceAfter=No
-12	получение	_	_	_	_	_	_	_	_
-13	взятки	_	_	_	_	_	_	_	SpaceAfter=No
+12	получение	_	_	_	_	_	_	_	bratT103=Event
+13	взятки	_	_	_	_	_	_	_	SpaceAfter=No|bratT103=Event
 14	)	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	ч.	_	_	_	_	_	_	_	bratT57=Law
@@ -170,8 +170,8 @@
 13	ст.	_	_	_	_	_	_	_	bratT38=Law
 14	431	_	_	_	_	_	_	_	bratT38=Law|bratT66=Ordinal
 15	(	_	_	_	_	_	_	_	SpaceAfter=No
-16	дача	_	_	_	_	_	_	_	_
-17	взятки	_	_	_	_	_	_	_	SpaceAfter=No
+16	дача	_	_	_	_	_	_	_	bratT106=Event
+17	взятки	_	_	_	_	_	_	_	SpaceAfter=No|bratT106=Event
 18	)	_	_	_	_	_	_	_	SpaceAfter=No
 19	.	_	_	_	_	_	_	_	_
 
@@ -242,8 +242,8 @@
 14	431	_	_	_	_	_	_	_	bratT30=Law|bratT85=Ordinal
 15	УК	_	_	_	_	_	_	_	bratT30=Law|bratT83=Law
 16	(	_	_	_	_	_	_	_	SpaceAfter=No
-17	дача	_	_	_	_	_	_	_	_
-18	взятки	_	_	_	_	_	_	_	_
+17	дача	_	_	_	_	_	_	_	bratT107=Event
+18	взятки	_	_	_	_	_	_	_	bratT107=Event
 19	в	_	_	_	_	_	_	_	_
 20	крупном	_	_	_	_	_	_	_	_
 21	размере	_	_	_	_	_	_	_	SpaceAfter=No
@@ -268,8 +268,8 @@
 
 # sent_id = 0124-p6-s2
 # text = Все фигуранты полностью признали свою вину в инкриминируемых им преступлениях, за исключением Виктора Бабарико'', - добавили в КГБ.
-1	Все	_	_	_	_	_	_	_	_
-2	фигуранты	_	_	_	_	_	_	_	bratT33=Person-property
+1	Все	_	_	_	_	_	_	_	bratT108=Person
+2	фигуранты	_	_	_	_	_	_	_	bratT108=Person|bratT33=Person-property
 3	полностью	_	_	_	_	_	_	_	_
 4	признали	_	_	_	_	_	_	_	_
 5	свою	_	_	_	_	_	_	_	_

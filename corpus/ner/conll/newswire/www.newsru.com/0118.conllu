@@ -3,8 +3,8 @@
 # par_text = Испанский теннисист намерен подать в суд на организаторов турнира "Ролан Гаррос"
 # sent_id = 0118-p1-s1
 # text = Испанский теннисист намерен подать в суд на организаторов турнира ``Ролан Гаррос''
-1	Испанский	_	_	_	_	_	_	_	bratA5=T29:Adjective|bratT1=Person-property|bratT29=GPE
-2	теннисист	_	_	_	_	_	_	_	bratT1=Person-property
+1	Испанский	_	_	_	_	_	_	_	bratA13=T12:Male|bratA5=T29:Adjective|bratT1=Person-property|bratT12=Person|bratT29=GPE
+2	теннисист	_	_	_	_	_	_	_	bratA13=T12:Male|bratT1=Person-property|bratT12=Person
 3	намерен	_	_	_	_	_	_	_	_
 4	подать	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -13,8 +13,8 @@
 8	организаторов	_	_	_	_	_	_	_	bratT3=Organization
 9	турнира	_	_	_	_	_	_	_	bratT2=Event|bratT3=Organization
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event|bratT3=Organization
-11	Ролан	_	_	_	_	_	_	_	bratT2=Event|bratT3=Organization
-12	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Event|bratT3=Organization
+11	Ролан	_	_	_	_	_	_	_	bratA14=T13:Male|bratT13=Person|bratT2=Event|bratT3=Organization|bratT48=Person-forename
+12	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T13:Male|bratT13=Person|bratT2=Event|bratT3=Organization|bratT49=Person-surname
 13	''	_	_	_	_	_	_	_	bratT2=Event|bratT3=Organization
 
 # newpar id = 0118-p2
@@ -29,14 +29,14 @@
 6	дисквалифицированный	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Event
-9	Ролан	_	_	_	_	_	_	_	bratT6=Event
-10	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Event
+9	Ролан	_	_	_	_	_	_	_	bratA15=T52:Male|bratT50=Person-forename|bratT52=Person|bratT6=Event
+10	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T52:Male|bratT51=Person-surname|bratT52=Person|bratT6=Event
 11	''	_	_	_	_	_	_	_	bratT6=Event
 12	из-за	_	_	_	_	_	_	_	_
-13	положительного	_	_	_	_	_	_	_	_
-14	теста	_	_	_	_	_	_	_	bratT12=Service
-15	на	_	_	_	_	_	_	_	bratT12=Service
-16	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Service|bratT7=Other-term
+13	положительного	_	_	_	_	_	_	_	bratT47=Event
+14	теста	_	_	_	_	_	_	_	bratT47=Event
+15	на	_	_	_	_	_	_	_	_
+16	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
 17	,	_	_	_	_	_	_	_	_
 18	заявил	_	_	_	_	_	_	_	_
 19	о	_	_	_	_	_	_	_	_
@@ -62,9 +62,9 @@
 7	ещё	_	_	_	_	_	_	_	bratT10=Quantity
 8	дважды	_	_	_	_	_	_	_	bratT10=Quantity
 9	прошёл	_	_	_	_	_	_	_	_
-10	тесты	_	_	_	_	_	_	_	bratT13=Service
-11	на	_	_	_	_	_	_	_	bratT13=Service
-12	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term|bratT13=Service
+10	тесты	_	_	_	_	_	_	_	_
+11	на	_	_	_	_	_	_	_	_
+12	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Other-term
 13	,	_	_	_	_	_	_	_	_
 14	и	_	_	_	_	_	_	_	_
 15	результаты	_	_	_	_	_	_	_	_
@@ -86,8 +86,8 @@
 7	суд	_	_	_	_	_	_	_	bratT42=Organization
 8	на	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
-10	Ролан	_	_	_	_	_	_	_	bratT15=Organization
-11	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+10	Ролан	_	_	_	_	_	_	_	bratA16=T53:Male|bratT15=Organization|bratT53=Person|bratT54=Person-forename
+11	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T53:Male|bratT15=Organization|bratT53=Person|bratT55=Person-surname
 12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
 13	?	_	_	_	_	_	_	_	_
 
@@ -181,8 +181,8 @@
 # text = Организаторы ``Ролан Гаррос'' делают всё в своих интересах, не проявляя никакого уважения.
 1	Организаторы	_	_	_	_	_	_	_	bratT21=Organization
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Event|bratT21=Organization
-3	Ролан	_	_	_	_	_	_	_	bratT20=Event|bratT21=Organization
-4	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Event|bratT21=Organization
+3	Ролан	_	_	_	_	_	_	_	bratA17=T58:Male|bratT20=Event|bratT21=Organization|bratT57=Person-forename|bratT58=Person
+4	Гаррос	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T58:Male|bratT20=Event|bratT21=Organization|bratT56=Person-surname|bratT58=Person
 5	''	_	_	_	_	_	_	_	bratT20=Event|bratT21=Organization
 6	делают	_	_	_	_	_	_	_	_
 7	всё	_	_	_	_	_	_	_	_

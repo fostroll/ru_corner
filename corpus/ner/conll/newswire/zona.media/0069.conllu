@@ -7,14 +7,14 @@
 2	Руслана	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT2=Person-forename
 3	Шаведдинова	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Person-surname
 4	в	_	_	_	_	_	_	_	_
-5	часть	_	_	_	_	_	_	_	_
+5	часть	_	_	_	_	_	_	_	bratT88=Organization
 6	без	_	_	_	_	_	_	_	_
 7	связи	_	_	_	_	_	_	_	_
 8	занимался	_	_	_	_	_	_	_	_
 9	лично	_	_	_	_	_	_	_	_
-10	замкомандира	_	_	_	_	_	_	_	bratT4=Person-property
-11	45-й	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT76=Ordinal
-12	армии	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization
+10	замкомандира	_	_	_	_	_	_	_	bratT4=Person-property|bratT87=Person
+11	45-й	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT76=Ordinal|bratT87=Person
+12	армии	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT87=Person
 
 # newpar id = 0069-p2
 # par_text = Менеджера проектов ФБК Руслана Шаведдинова, который проходит срочную службу на архипелаге Новая Земля, перевели в удаленную войсковую часть без мобильной связи по приказу генерал-майора Игоря Чуркина, заместителя командующего 45-й армией ВВС и ПВО. Телеграмму Чуркина министерство обороны приобщило к возражениям по иску Шаведдинова об ограничении связи, она есть в распоряжении «Медиазоны».
@@ -38,8 +38,8 @@
 16	перевели	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
 18	удаленную	_	_	_	_	_	_	_	_
-19	войсковую	_	_	_	_	_	_	_	_
-20	часть	_	_	_	_	_	_	_	_
+19	войсковую	_	_	_	_	_	_	_	bratT89=Organization
+20	часть	_	_	_	_	_	_	_	bratT89=Organization
 21	без	_	_	_	_	_	_	_	_
 22	мобильной	_	_	_	_	_	_	_	_
 23	связи	_	_	_	_	_	_	_	_
@@ -93,9 +93,9 @@
 4	отправлена	_	_	_	_	_	_	_	_
 5	10	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-absolute
 6	марта	_	_	_	_	_	_	_	bratA3=T25:Past|bratT25=Date-absolute
-7	командиру	_	_	_	_	_	_	_	bratT26=Person-property
-8	части	_	_	_	_	_	_	_	bratA8=T27:Department|bratT26=Person-property|bratT27=Organization
-9	23362	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T27:Department|bratT26=Person-property|bratT27=Organization|bratT28=Cardinal
+7	командиру	_	_	_	_	_	_	_	bratT26=Person-property|bratT90=Person
+8	части	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Organization|bratT90=Person
+9	23362	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Person-property|bratT27=Organization|bratT28=Cardinal|bratT90=Person
 10	,	_	_	_	_	_	_	_	_
 11	где	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	bratA25=T81:Past|bratT81=Date-relative
@@ -105,9 +105,9 @@
 16	Шаведдинов	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T29:Male|bratT29=Person|bratT30=Person-surname
 17	,	_	_	_	_	_	_	_	_
 18	и	_	_	_	_	_	_	_	_
-19	командиру	_	_	_	_	_	_	_	bratT31=Person-property
-20	части	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
-21	26894	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT32=Organization|bratT33=Cardinal
+19	командиру	_	_	_	_	_	_	_	bratT31=Person-property|bratT91=Person
+20	части	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT91=Person
+21	26894	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT32=Organization|bratT33=Cardinal|bratT91=Person
 22	,	_	_	_	_	_	_	_	_
 23	куда	_	_	_	_	_	_	_	_
 24	его	_	_	_	_	_	_	_	_
@@ -218,9 +218,9 @@
 7	его	_	_	_	_	_	_	_	_
 8	первым	_	_	_	_	_	_	_	bratT65=Person-property|bratT78=Ordinal
 9	заместителем	_	_	_	_	_	_	_	bratT65=Person-property
-10	командующего	_	_	_	_	_	_	_	bratT65=Person-property|bratT79=Person-property
-11	этой	_	_	_	_	_	_	_	bratT65=Person-property|bratT79=Person-property
-12	армией	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Person-property|bratT66=Organization|bratT79=Person-property
+10	командующего	_	_	_	_	_	_	_	bratT65=Person-property
+11	этой	_	_	_	_	_	_	_	bratT65=Person-property
+12	армией	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Person-property|bratT66=Organization
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0069-p6

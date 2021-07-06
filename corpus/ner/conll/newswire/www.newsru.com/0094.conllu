@@ -60,16 +60,16 @@
 # sent_id = 0094-p2-s2
 # text = Этот заезд станет дебютным для пилота молодежной академии ``Феррари'' и программы развития российского автоспорта SMP Racing в ``королевских гонках''.
 1	Этот	_	_	_	_	_	_	_	_
-2	заезд	_	_	_	_	_	_	_	_
+2	заезд	_	_	_	_	_	_	_	bratT95=Event
 3	станет	_	_	_	_	_	_	_	_
 4	дебютным	_	_	_	_	_	_	_	bratT42=Ordinal
 5	для	_	_	_	_	_	_	_	_
-6	пилота	_	_	_	_	_	_	_	bratT15=Person-property
-7	молодежной	_	_	_	_	_	_	_	bratT12=Age|bratT14=Organization|bratT15=Person-property
-8	академии	_	_	_	_	_	_	_	bratT14=Organization|bratT15=Person-property
-9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization|bratT15=Person-property|bratT54=Organization
-10	Феррари	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization|bratT15=Person-property|bratT54=Organization
-11	''	_	_	_	_	_	_	_	bratT14=Organization|bratT15=Person-property|bratT54=Organization
+6	пилота	_	_	_	_	_	_	_	bratA11=T96:Male|bratT15=Person-property|bratT96=Person
+7	молодежной	_	_	_	_	_	_	_	bratA11=T96:Male|bratT12=Age|bratT14=Organization|bratT15=Person-property|bratT96=Person
+8	академии	_	_	_	_	_	_	_	bratA11=T96:Male|bratT14=Organization|bratT15=Person-property|bratT96=Person
+9	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T96:Male|bratT14=Organization|bratT15=Person-property|bratT54=Organization|bratT96=Person
+10	Феррари	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T96:Male|bratT14=Organization|bratT15=Person-property|bratT54=Organization|bratT96=Person
+11	''	_	_	_	_	_	_	_	bratA11=T96:Male|bratT14=Organization|bratT15=Person-property|bratT54=Organization|bratT96=Person
 12	и	_	_	_	_	_	_	_	_
 13	программы	_	_	_	_	_	_	_	bratA2=T16:Project|bratT16=Product
 14	развития	_	_	_	_	_	_	_	bratA2=T16:Project|bratT16=Product
@@ -100,7 +100,7 @@
 9	21	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT17=Age
 10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT17=Age
 11	летний	_	_	_	_	_	_	_	bratT17=Age
-12	россиянин	_	_	_	_	_	_	_	bratA1=T18:Citizenship|bratT18=Nationality
+12	россиянин	_	_	_	_	_	_	_	bratA1=T18:Citizenship|bratA22=T97:Male|bratT18=Nationality|bratT97=Person
 13	будет	_	_	_	_	_	_	_	_
 14	участвовать	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
@@ -152,7 +152,7 @@
 3	Айлотт	_	_	_	_	_	_	_	bratA15=T26:Male|bratT26=Person|bratT69=Person-surname
 4	выступят	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	пятничной	_	_	_	_	_	_	_	bratA16=T70:Future|bratT70=Date-absolute
+6	пятничной	_	_	_	_	_	_	_	bratA16=T70:Future|bratT50=Event|bratT70=Date-absolute
 7	практике	_	_	_	_	_	_	_	bratT50=Event
 8	Гран-при	_	_	_	_	_	_	_	bratT27=Event|bratT50=Event
 9	Айфеля	_	_	_	_	_	_	_	bratT27=Event|bratT50=Event|bratT80=Location

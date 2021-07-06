@@ -31,7 +31,7 @@
 12	в	_	_	_	_	_	_	_	_
 13	отношении	_	_	_	_	_	_	_	_
 14	представителя	_	_	_	_	_	_	_	bratT46=Person-property
-15	власти	_	_	_	_	_	_	_	bratT46=Person-property
+15	власти	_	_	_	_	_	_	_	bratT46=Person-property|bratT57=Organization
 16	(	_	_	_	_	_	_	_	SpaceAfter=No
 17	часть	_	_	_	_	_	_	_	bratT7=Law
 18	2	_	_	_	_	_	_	_	bratT39=Ordinal|bratT7=Law
@@ -105,9 +105,9 @@
 2	контрольно-заградительном	_	_	_	_	_	_	_	bratT17=Facility
 3	посту	_	_	_	_	_	_	_	bratT17=Facility
 4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT17=Facility
-5	Кулларский	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Facility
+5	Кулларский	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T56:Adjective|bratT17=Facility|bratT56=GPE
 6	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT17=Facility
-7	азербайджанцы	_	_	_	_	_	_	_	bratT18=Nationality
+7	азербайджанцы	_	_	_	_	_	_	_	bratT18=Nationality|bratT58=Person
 8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 9	оказали	_	_	_	_	_	_	_	_
 10	неповиновении	_	_	_	_	_	_	_	SpaceAfter=No
@@ -195,7 +195,7 @@
 6	причинах	_	_	_	_	_	_	_	_
 7	бунта	_	_	_	_	_	_	_	bratT21=Event
 8	с	_	_	_	_	_	_	_	_
-9	азербайджанцами	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Nationality
+9	азербайджанцами	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Nationality|bratT59=Person
 10	,	_	_	_	_	_	_	_	_
 11	которых	_	_	_	_	_	_	_	_
 12	несколько	_	_	_	_	_	_	_	bratA5=T36:Past-Pres|bratA9=T36:RCont|bratT36=Date-period-relative|bratT47=Duration

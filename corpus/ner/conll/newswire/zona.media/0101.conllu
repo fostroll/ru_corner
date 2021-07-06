@@ -4,19 +4,19 @@
 # sent_id = 0101-p1-s1
 # text = К координатору штаба Навального в Архангельске пришли силовики
 1	К	_	_	_	_	_	_	_	_
-2	координатору	_	_	_	_	_	_	_	bratT1=Person-property
-3	штаба	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
-4	Навального	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-property|bratT2=Organization|bratT3=Person|bratT4=Person-surname
+2	координатору	_	_	_	_	_	_	_	bratT1=Person-property|bratT49=Person
+3	штаба	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization|bratT49=Person
+4	Навального	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-property|bratT2=Organization|bratT3=Person|bratT4=Person-surname|bratT49=Person
 5	в	_	_	_	_	_	_	_	_
 6	Архангельске	_	_	_	_	_	_	_	bratT5=GPE
 7	пришли	_	_	_	_	_	_	_	_
-8	силовики	_	_	_	_	_	_	_	bratT6=Person-property
+8	силовики	_	_	_	_	_	_	_	bratT44=Person|bratT6=Person-property
 
 # newpar id = 0101-p2
 # par_text = Силовики пришли к координатору штаба Алексея Навального в Архангельске Андрею Боровикову. Об этом в твиттере сообщил журналист Дмитрий Низовцев.
 # sent_id = 0101-p2-s1
 # text = Силовики пришли к координатору штаба Алексея Навального в Архангельске Андрею Боровикову.
-1	Силовики	_	_	_	_	_	_	_	bratT7=Person-property
+1	Силовики	_	_	_	_	_	_	_	bratT51=Person|bratT7=Person-property
 2	пришли	_	_	_	_	_	_	_	_
 3	к	_	_	_	_	_	_	_	_
 4	координатору	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-property
@@ -51,7 +51,7 @@
 4	опубликованном	_	_	_	_	_	_	_	_
 5	ролике	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
-7	полицейский	_	_	_	_	_	_	_	bratT21=Person-property
+7	полицейский	_	_	_	_	_	_	_	bratA10=T50:Male|bratT21=Person-property|bratT50=Person
 8	стучит	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	дверь	_	_	_	_	_	_	_	_
@@ -78,10 +78,10 @@
 1	В	_	_	_	_	_	_	_	_
 2	другом	_	_	_	_	_	_	_	_
 3	видео	_	_	_	_	_	_	_	_
-4	оппозиционер	_	_	_	_	_	_	_	bratT26=Political-group
+4	оппозиционер	_	_	_	_	_	_	_	bratA9=T48:Male|bratT26=Political-group|bratT48=Person
 5	просит	_	_	_	_	_	_	_	_
 6	подождать	_	_	_	_	_	_	_	_
-7	адвоката	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property|bratT44=Person
+7	адвоката	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0101-p4-s2
@@ -123,7 +123,7 @@
 # par_text = Силовики не объяснили причину визита. Как видно в постановлении на обыск, которое можно рассмотреть в видео в инстаграме, полицейские пришли, чтобы изъять технику, «которая использовалась при размещении и распространении аудиовизуальной записи порнографического характера» на странице Боровикова во «ВКонтакте».
 # sent_id = 0101-p5-s1
 # text = Силовики не объяснили причину визита.
-1	Силовики	_	_	_	_	_	_	_	bratT30=Person-property
+1	Силовики	_	_	_	_	_	_	_	bratT30=Person-property|bratT52=Person
 2	не	_	_	_	_	_	_	_	_
 3	объяснили	_	_	_	_	_	_	_	_
 4	причину	_	_	_	_	_	_	_	_
@@ -147,7 +147,7 @@
 13	в	_	_	_	_	_	_	_	_
 14	инстаграме	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Service
 15	,	_	_	_	_	_	_	_	_
-16	полицейские	_	_	_	_	_	_	_	bratT32=Person-property
+16	полицейские	_	_	_	_	_	_	_	bratT32=Person-property|bratT53=Person
 17	пришли	_	_	_	_	_	_	_	SpaceAfter=No
 18	,	_	_	_	_	_	_	_	_
 19	чтобы	_	_	_	_	_	_	_	_

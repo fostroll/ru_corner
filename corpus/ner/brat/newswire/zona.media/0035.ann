@@ -9,7 +9,7 @@ T10	GPE 205 227	Ленинского   районного
 A2	Adjective T10
 T11	GPE 237 242	Перми
 T13	Person-property 309 319	президента
-T14	Person 322 340	Владимира   Путина
+T14	Person 309 340	президента   Владимира   Путина
 A3	Male T14
 T15	Person-forename 322 331	Владимира
 T16	Person-surname 334 340	Путина
@@ -35,7 +35,7 @@ T32	Organization 544 592	местного   отделения   ``   Друго
 T33	Person-forename 595 601	Кирилл
 T34	Person-surname 604 610	Имашев
 T35	Person-property 616 627	Полицейские
-T36	Organization 740 755	Другой   России
+T36	Organization 735 760	``   Другой   России   ''
 T37	Event 796 816	режим   самоизоляции
 T38	Date-relative 827 833	Вскоре
 T39	Person-property 836 847	задержанных
@@ -58,7 +58,7 @@ T54	Law 1260 1289	часть   2   статьи   213   УК
 T55	Organization 1324 1327	МВД
 T56	Organization 1389 1391	СК
 T57	Quantity 1404 1414	еще   одну
-T58	Other-group 1505 1529	сторонников   президента
+T58	Political-group 1505 1516	сторонников
 T59	Person-property 1519 1529	президента
 T60	Person-property 1535 1546	Обвиняемыми
 T62	Person 1572 1592	Александр   Шабарчин
@@ -75,7 +75,7 @@ T69	Person-forename 1623 1632	Александр
 T70	Person-surname 1635 1640	Эткин
 T72	Person-property 1660 1670	свидетелей
 T71	Political-group 1717 1771	членов   ``   Молодой   гвардии   Единой   России   ''
-T73	Organization 1731 1766	Молодой   гвардии   Единой   России
+T73	Organization 1726 1771	``   Молодой   гвардии   Единой   России   ''
 T74	Time-absolute 1789 1798	в   11:37
 T5	Organization 412 446	партия   ``   Другая   Россия   ''
 T7	GPE 435 441	Россия
@@ -122,3 +122,5 @@ T103	Event 676 694	одиночные   пикеты
 T104	Event 1347 1352	акции
 T105	Age 1731 1738	Молодой
 T106	Organization 1751 1766	Единой   России
+T107	Person 616 627	Полицейские
+T108	Person 1519 1529	президента

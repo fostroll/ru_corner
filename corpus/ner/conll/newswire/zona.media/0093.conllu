@@ -6,14 +6,14 @@
 1	В	_	_	_	_	_	_	_	_
 2	Омске	_	_	_	_	_	_	_	bratT1=GPE
 3	задержали	_	_	_	_	_	_	_	_
-4	участников	_	_	_	_	_	_	_	_
-5	одиночных	_	_	_	_	_	_	_	bratT77=Quantity|bratT78=Event
-6	пикетов	_	_	_	_	_	_	_	bratT78=Event
+4	участников	_	_	_	_	_	_	_	bratT80=Person
+5	одиночных	_	_	_	_	_	_	_	bratT77=Quantity|bratT78=Event|bratT80=Person
+6	пикетов	_	_	_	_	_	_	_	bratT78=Event|bratT80=Person
 7	против	_	_	_	_	_	_	_	_
 8	назначения	_	_	_	_	_	_	_	_
-9	главой	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-property
-10	местного	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization|bratT74=GPE
-11	Минздрава	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT4=Person-property|bratT5=Organization
+9	главой	_	_	_	_	_	_	_	bratT4=Person-property
+10	местного	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT74=GPE
+11	Минздрава	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization
 12	Александра	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT6=Person-forename
 13	Мураховского	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person|bratT7=Person-surname
 
@@ -25,28 +25,28 @@
 2	Омске	_	_	_	_	_	_	_	bratT8=GPE
 3	полицейские	_	_	_	_	_	_	_	bratT9=Person-property
 4	задержали	_	_	_	_	_	_	_	_
-5	шестерых	_	_	_	_	_	_	_	bratT10=Quantity
-6	человек	_	_	_	_	_	_	_	bratT10=Quantity
+5	шестерых	_	_	_	_	_	_	_	bratT10=Quantity|bratT81=Person
+6	человек	_	_	_	_	_	_	_	bratT10=Quantity|bratT81=Person
 7	во	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute
 8	время	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute
 9	одиночных	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute|bratT63=Event|bratT66=Quantity
 10	пикетов	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute|bratT63=Event
 11	против	_	_	_	_	_	_	_	_
 12	назначения	_	_	_	_	_	_	_	_
-13	главой	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property
-14	Минздрава	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT12=Person-property|bratT13=Organization
+13	главой	_	_	_	_	_	_	_	bratT12=Person-property
+14	Минздрава	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Organization
 15	Александра	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT14=Person-forename
 16	Мураховского	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Male|bratT11=Person|bratT15=Person-surname
-17	,	_	_	_	_	_	_	_	_
-18	главврача	_	_	_	_	_	_	_	bratT16=Person-property
-19	омской	_	_	_	_	_	_	_	bratA3=T18:Adjective|bratT16=Person-property|bratT17=Organization|bratT18=GPE
-20	больницы	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
-21	скорой	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
-22	медицинской	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
-23	помощи	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
+17	,	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person
+18	главврача	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT16=Person-property
+19	омской	_	_	_	_	_	_	_	bratA2=T11:Male|bratA3=T18:Adjective|bratT11=Person|bratT16=Person-property|bratT17=Organization|bratT18=GPE
+20	больницы	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT16=Person-property|bratT17=Organization
+21	скорой	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT16=Person-property|bratT17=Organization|bratT82=Service
+22	медицинской	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT16=Person-property|bratT17=Organization|bratT82=Service
+23	помощи	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT16=Person-property|bratT17=Organization|bratT82=Service
 24-25	№1	_	_	_	_	_	_	_	SpaceAfter=No
-24	№	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT71=Ordinal
-25	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT71=Ordinal
+24	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Male|bratT11=Person|bratT16=Person-property|bratT17=Organization|bratT71=Ordinal
+25	1	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Male|bratT11=Person|bratT16=Person-property|bratT17=Organization|bratT71=Ordinal
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0093-p2-s2
@@ -80,8 +80,8 @@
 15	Чебыкин	_	_	_	_	_	_	_	bratA10=T27:Male|bratT27=Person|bratT38=Person-surname
 16	и	_	_	_	_	_	_	_	_
 17	сторонник	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person|bratT40=Political-group
-18	Либертарианский	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person|bratT40=Political-group
-19	партии	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person|bratT40=Political-group
+18	Либертарианский	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person
+19	партии	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person
 20	по	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person
 21	имени	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person
 22	Павел	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Male|bratT28=Person|bratT39=Person-forename
@@ -118,7 +118,7 @@
 1	Мураховский	_	_	_	_	_	_	_	bratA15=T48:Male|bratT48=Person|bratT49=Person-surname
 2	объяснял	_	_	_	_	_	_	_	_
 3	кому	_	_	_	_	_	_	_	bratT51=Other-term
-4	оппозиционера	_	_	_	_	_	_	_	bratT50=Person-property
+4	оппозиционера	_	_	_	_	_	_	_	bratA19=T79:Male|bratT50=Political-group|bratT79=Person
 5	нарушением	_	_	_	_	_	_	_	bratT52=Other-term
 6	обмена	_	_	_	_	_	_	_	bratT52=Other-term
 7	веществ	_	_	_	_	_	_	_	bratT52=Other-term
@@ -147,10 +147,10 @@
 # par_text = Специалисты Бундесвера и эксперты из лабораторий Франции, Швеции и ОЗХО нашли в анализах Навального вещество из группы «Новичок». Россия не признает, что политик был отравлен.
 # sent_id = 0093-p6-s1
 # text = Специалисты Бундесвера и эксперты из лабораторий Франции, Швеции и ОЗХО нашли в анализах Навального вещество из группы ``Новичок''.
-1	Специалисты	_	_	_	_	_	_	_	bratT59=Person-property
-2	Бундесвера	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Organization
+1	Специалисты	_	_	_	_	_	_	_	bratT59=Person-property|bratT83=Person
+2	Бундесвера	_	_	_	_	_	_	_	bratT59=Person-property|bratT60=Organization|bratT83=Person
 3	и	_	_	_	_	_	_	_	_
-4	эксперты	_	_	_	_	_	_	_	bratT61=Person-property
+4	эксперты	_	_	_	_	_	_	_	bratT61=Person-property|bratT84=Person
 5	из	_	_	_	_	_	_	_	_
 6	лабораторий	_	_	_	_	_	_	_	_
 7	Франции	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=GPE
@@ -177,7 +177,7 @@
 3	признает	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	политик	_	_	_	_	_	_	_	bratT70=Person-property
+6	политик	_	_	_	_	_	_	_	bratA22=T85:Male|bratT70=Person-property|bratT85=Person
 7	был	_	_	_	_	_	_	_	_
 8	отравлен	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_

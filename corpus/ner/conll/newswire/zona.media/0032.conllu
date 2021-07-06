@@ -7,7 +7,7 @@
 2	Германии	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
 3	сообщило	_	_	_	_	_	_	_	_
 4	об	_	_	_	_	_	_	_	_
-5	обнаружении	_	_	_	_	_	_	_	_
+5	обнаружении	_	_	_	_	_	_	_	bratT80=Event
 6	яда	_	_	_	_	_	_	_	bratT68=Product
 7	из	_	_	_	_	_	_	_	bratT68=Product
 8	группы	_	_	_	_	_	_	_	bratA20=T73:Trademark|bratT68=Product|bratT73=Product
@@ -32,14 +32,14 @@
 5	ответ	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	запрос	_	_	_	_	_	_	_	_
-8	депутатов	_	_	_	_	_	_	_	bratT8=Person-property
-9	ультраправой	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Organization
-10	партии	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Organization
-11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT8=Person-property|bratT9=Organization
-12	Альтернатива	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Organization
-13	для	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Organization
-14	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=GPE|bratT8=Person-property|bratT9=Organization
-15	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT8=Person-property|bratT9=Organization
+8	депутатов	_	_	_	_	_	_	_	bratT8=Person-property|bratT82=Person
+9	ультраправой	_	_	_	_	_	_	_	bratT8=Person-property|bratT82=Person|bratT9=Organization
+10	партии	_	_	_	_	_	_	_	bratT8=Person-property|bratT82=Person|bratT9=Organization
+11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT8=Person-property|bratT82=Person|bratT9=Organization
+12	Альтернатива	_	_	_	_	_	_	_	bratT8=Person-property|bratT82=Person|bratT9=Organization
+13	для	_	_	_	_	_	_	_	bratT8=Person-property|bratT82=Person|bratT9=Organization
+14	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=GPE|bratT8=Person-property|bratT82=Person|bratT9=Organization
+15	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT8=Person-property|bratT82=Person|bratT9=Organization
 16	,	_	_	_	_	_	_	_	_
 17	что	_	_	_	_	_	_	_	_
 18	следы	_	_	_	_	_	_	_	_
@@ -57,8 +57,8 @@
 30	с	_	_	_	_	_	_	_	_
 31	водой	_	_	_	_	_	_	_	_
 32	из	_	_	_	_	_	_	_	_
-33	томского	_	_	_	_	_	_	_	bratA2=T11:Adjective|bratT11=GPE
-34	отеля	_	_	_	_	_	_	_	SpaceAfter=No
+33	томского	_	_	_	_	_	_	_	bratA2=T11:Adjective|bratT11=GPE|bratT81=Facility
+34	отеля	_	_	_	_	_	_	_	SpaceAfter=No|bratT81=Facility
 35	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p2-s2
@@ -84,8 +84,8 @@
 # par_text = Представители правительства ответили «Да» на вопрос 73 о том, «есть ли другие предметы со следами "Новичка" в деле Навального, кроме бутылки с водой». «Обнаруженные следы не дают указания на изначальную форму вещества», использовался ли порошок или жидкость, отметили они в ответе на вопрос 41.
 # sent_id = 0032-p3-s1
 # text = Представители правительства ответили «Да» на вопрос 73 о том, «есть ли другие предметы со следами "Новичка" в деле Навального, кроме бутылки с водой».
-1	Представители	_	_	_	_	_	_	_	bratT15=Person-property
-2	правительства	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization
+1	Представители	_	_	_	_	_	_	_	bratT15=Person-property|bratT83=Person
+2	правительства	_	_	_	_	_	_	_	bratT15=Person-property|bratT16=Organization|bratT83=Person
 3	ответили	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 5	Да	_	_	_	_	_	_	_	SpaceAfter=No
@@ -155,9 +155,9 @@
 3	Кира	_	_	_	_	_	_	_	bratA6=T22:Female|bratT22=Person|bratT26=Person-forename
 4	Ярмыш	_	_	_	_	_	_	_	bratA6=T22:Female|bratT22=Person|bratT27=Person-surname
 5	уточнила	_	_	_	_	_	_	_	_
-6	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+6	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA8=T28:Media|bratT28=Organization
 7	Медиазоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T28:Media|bratT28=Organization
-8	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+8	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA8=T28:Media|bratT28=Organization
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
 11	власти	_	_	_	_	_	_	_	bratT29=Organization
@@ -183,11 +183,11 @@
 3	потерял	_	_	_	_	_	_	_	_
 4	сознание	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
-6	рейсе	_	_	_	_	_	_	_	_
+6	рейсе	_	_	_	_	_	_	_	bratT89=Event
 7-9	Москва-Томск	_	_	_	_	_	_	_	_
-7	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=GPE
-8	-	_	_	_	_	_	_	_	SpaceAfter=No
-9	Томск	_	_	_	_	_	_	_	bratT72=GPE
+7	Москва	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=GPE|bratT89=Event
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT89=Event
+9	Томск	_	_	_	_	_	_	_	bratT72=GPE|bratT89=Event
 10	утром	_	_	_	_	_	_	_	bratA10=T35:Past|bratT35=Date-absolute|bratT36=Time-absolute
 11	20	_	_	_	_	_	_	_	bratA10=T35:Past|bratT35=Date-absolute
 12	августа	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Past|bratT35=Date-absolute
@@ -200,7 +200,7 @@
 3	посадки	_	_	_	_	_	_	_	bratA7=T37:Past|bratT34=Event|bratT37=Date-absolute
 4	в	_	_	_	_	_	_	_	_
 5	Омске	_	_	_	_	_	_	_	bratT38=GPE
-6	политика	_	_	_	_	_	_	_	bratT39=Person-property
+6	политика	_	_	_	_	_	_	_	bratA25=T84:Male|bratT39=Person-property|bratT84=Person
 7	госпитализировали	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_
 
@@ -224,12 +224,12 @@
 
 # sent_id = 0032-p5-s4
 # text = Специалисты Бундесвера обнаружили в анализах оппозиционера вещество из группы «Новичок».
-1	Специалисты	_	_	_	_	_	_	_	bratT44=Person-property
-2	Бундесвера	_	_	_	_	_	_	_	bratT44=Person-property|bratT45=Organization
+1	Специалисты	_	_	_	_	_	_	_	bratT44=Person-property|bratT85=Person
+2	Бундесвера	_	_	_	_	_	_	_	bratT44=Person-property|bratT45=Organization|bratT85=Person
 3	обнаружили	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	анализах	_	_	_	_	_	_	_	_
-6	оппозиционера	_	_	_	_	_	_	_	bratT46=Person-property
+6	оппозиционера	_	_	_	_	_	_	_	bratA27=T86:Male|bratT46=Political-group|bratT86=Person
 7	вещество	_	_	_	_	_	_	_	bratT47=Product
 8	из	_	_	_	_	_	_	_	bratT47=Product
 9	группы	_	_	_	_	_	_	_	bratA22=T75:Trademark|bratT47=Product|bratT75=Product
@@ -255,16 +255,16 @@
 # par_text = Сотрудники Фонда борьбы с коррупцией через месяц после отравления Навального рассказывали, что специалисты обнаружили следы яда на бутылке воды «Святой источник» из номера политика. Расследователь ФБК Мария Певчих доставила ее на самолете в Берлин.
 # sent_id = 0032-p6-s1
 # text = Сотрудники Фонда борьбы с коррупцией через месяц после отравления Навального рассказывали, что специалисты обнаружили следы яда на бутылке воды «Святой источник» из номера политика.
-1	Сотрудники	_	_	_	_	_	_	_	bratT52=Person-property
-2	Фонда	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization
-3	борьбы	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization
-4	с	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization
-5	коррупцией	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization
+1	Сотрудники	_	_	_	_	_	_	_	bratT52=Person-property|bratT87=Person
+2	Фонда	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization|bratT87=Person
+3	борьбы	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization|bratT87=Person
+4	с	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization|bratT87=Person
+5	коррупцией	_	_	_	_	_	_	_	bratT52=Person-property|bratT53=Organization|bratT87=Person
 6	через	_	_	_	_	_	_	_	bratA14=T54:Past|bratT54=Date-absolute
 7	месяц	_	_	_	_	_	_	_	bratA14=T54:Past|bratT54=Date-absolute
 8	после	_	_	_	_	_	_	_	bratA14=T54:Past|bratT54=Date-absolute
 9	отравления	_	_	_	_	_	_	_	bratA14=T54:Past|bratT54=Date-absolute|bratT55=Event
-10	Навального	_	_	_	_	_	_	_	bratA15=T56:Male|bratT55=Event|bratT56=Person|bratT57=Person-surname
+10	Навального	_	_	_	_	_	_	_	bratA15=T56:Male|bratT56=Person|bratT57=Person-surname
 11	рассказывали	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
@@ -281,7 +281,7 @@
 24	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT59=Product
 25	из	_	_	_	_	_	_	_	_
 26	номера	_	_	_	_	_	_	_	_
-27	политика	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=Person-property
+27	политика	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T88:Male|bratT60=Person-property|bratT88=Person
 28	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p6-s2

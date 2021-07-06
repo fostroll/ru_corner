@@ -8,10 +8,10 @@
 3	умершему	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	Бразилии	_	_	_	_	_	_	_	bratT2=GPE
-6	участнику	_	_	_	_	_	_	_	_
-7	испытаний	_	_	_	_	_	_	_	_
-8	вакцины	_	_	_	_	_	_	_	bratA21=T3:Trademark|bratT3=Product|bratT38=Other-term
-9	AstraZeneca	_	_	_	_	_	_	_	bratA21=T3:Trademark|bratT3=Product
+6	участнику	_	_	_	_	_	_	_	bratA24=T59:Male|bratT59=Person
+7	испытаний	_	_	_	_	_	_	_	bratA24=T59:Male|bratT4=Event|bratT59=Person
+8	вакцины	_	_	_	_	_	_	_	bratA21=T3:Trademark|bratA24=T59:Male|bratT3=Product|bratT38=Other-term|bratT59=Person
+9	AstraZeneca	_	_	_	_	_	_	_	bratA21=T3:Trademark|bratA24=T59:Male|bratT3=Product|bratT59=Person
 10	не	_	_	_	_	_	_	_	_
 11	вводили	_	_	_	_	_	_	_	_
 12	препарат	_	_	_	_	_	_	_	_
@@ -25,12 +25,12 @@
 3	Бразилии	_	_	_	_	_	_	_	bratT5=GPE
 4	15	_	_	_	_	_	_	_	bratA8=T6:Past|bratT6=Date-absolute
 5	октября	_	_	_	_	_	_	_	bratA8=T6:Past|bratT6=Date-absolute
-6	участник	_	_	_	_	_	_	_	_
-7	национальных	_	_	_	_	_	_	_	bratA22=T50:Adjective|bratT50=GPE
-8	испытаний	_	_	_	_	_	_	_	_
-9	вакцины	_	_	_	_	_	_	_	bratT10=Other-term|bratT11=Product
-10	от	_	_	_	_	_	_	_	bratT11=Product
-11	коронавируса	_	_	_	_	_	_	_	bratT11=Product|bratT9=Other-term
+6	участник	_	_	_	_	_	_	_	bratA25=T60:Male|bratT60=Person
+7	национальных	_	_	_	_	_	_	_	bratA22=T50:Adjective|bratA25=T60:Male|bratT12=Event|bratT50=GPE|bratT60=Person
+8	испытаний	_	_	_	_	_	_	_	bratA25=T60:Male|bratT12=Event|bratT60=Person
+9	вакцины	_	_	_	_	_	_	_	bratA25=T60:Male|bratT10=Other-term|bratT11=Product|bratT60=Person
+10	от	_	_	_	_	_	_	_	bratA25=T60:Male|bratT11=Product|bratT60=Person
+11	коронавируса	_	_	_	_	_	_	_	bratA25=T60:Male|bratT11=Product|bratT60=Person|bratT9=Other-term
 12	разработки	_	_	_	_	_	_	_	_
 13	Оксфордского	_	_	_	_	_	_	_	bratA9=T40:Adjective|bratT40=GPE|bratT7=Organization
 14	университета	_	_	_	_	_	_	_	bratT7=Organization
@@ -60,8 +60,8 @@
 8	со	_	_	_	_	_	_	_	_
 9	ссылкой	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	информированные	_	_	_	_	_	_	_	bratT51=Person
-12	источники	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Person
+11	информированные	_	_	_	_	_	_	_	_
+12	источники	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p3
@@ -82,7 +82,7 @@
 12	из-за	_	_	_	_	_	_	_	_
 13	правил	_	_	_	_	_	_	_	_
 14	проведения	_	_	_	_	_	_	_	_
-15	испытаний	_	_	_	_	_	_	_	_
+15	испытаний	_	_	_	_	_	_	_	bratT56=Event
 16	и	_	_	_	_	_	_	_	_
 17	принципов	_	_	_	_	_	_	_	_
 18	конфиденциальности	_	_	_	_	_	_	_	SpaceAfter=No
@@ -103,7 +103,7 @@
 11	источники	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
-14	испытания	_	_	_	_	_	_	_	_
+14	испытания	_	_	_	_	_	_	_	bratT57=Event
 15	препарата	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
 17	Бразилии	_	_	_	_	_	_	_	bratT16=GPE
@@ -115,7 +115,7 @@
 23	,	_	_	_	_	_	_	_	_
 24	что	_	_	_	_	_	_	_	_
 25	умершему	_	_	_	_	_	_	_	_
-26	добровольцу	_	_	_	_	_	_	_	bratT17=Other-group
+26	добровольцу	_	_	_	_	_	_	_	bratA23=T51:Male|bratT17=Other-group|bratT51=Person
 27	все	_	_	_	_	_	_	_	_
 28	же	_	_	_	_	_	_	_	_
 29	вводили	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 5	,	_	_	_	_	_	_	_	_
 6	получал	_	_	_	_	_	_	_	_
 7	ли	_	_	_	_	_	_	_	_
-8	доброволец	_	_	_	_	_	_	_	bratT26=Other-group
+8	доброволец	_	_	_	_	_	_	_	bratA26=T61:Male|bratT26=Other-group|bratT61=Person
 9	вакцину	_	_	_	_	_	_	_	bratT27=Other-term
 10	или	_	_	_	_	_	_	_	_
 11	плацебо	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Other-term
@@ -207,7 +207,7 @@
 10	вакцины	_	_	_	_	_	_	_	bratT34=Organization
 11	рекомендовал	_	_	_	_	_	_	_	_
 12	продолжить	_	_	_	_	_	_	_	_
-13	испытания	_	_	_	_	_	_	_	SpaceAfter=No
+13	испытания	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p6-s2

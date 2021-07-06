@@ -28,12 +28,12 @@
 # text = В Петербурге неизвестные разбили окно в штабе сторонников Алексея Навального.
 1	В	_	_	_	_	_	_	_	_
 2	Петербурге	_	_	_	_	_	_	_	bratT5=GPE
-3	неизвестные	_	_	_	_	_	_	_	_
+3	неизвестные	_	_	_	_	_	_	_	bratT44=Person
 4	разбили	_	_	_	_	_	_	_	_
 5	окно	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	штабе	_	_	_	_	_	_	_	bratT6=Organization
-8	сторонников	_	_	_	_	_	_	_	bratT14=Other-group|bratT6=Organization
+8	сторонников	_	_	_	_	_	_	_	bratT14=Political-group|bratT6=Organization
 9	Алексея	_	_	_	_	_	_	_	bratA2=T7:Male|bratT6=Organization|bratT7=Person|bratT8=Person-forename
 10	Навального	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Male|bratT6=Organization|bratT7=Person|bratT9=Person-surname
 11	.	_	_	_	_	_	_	_	_
@@ -100,8 +100,8 @@
 22	,	_	_	_	_	_	_	_	_
 23	-	_	_	_	_	_	_	_	_
 24	рассказала	_	_	_	_	_	_	_	_
-25	представительница	_	_	_	_	_	_	_	bratT12=Person-property
-26	штаба	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property|bratT39=Organization
+25	представительница	_	_	_	_	_	_	_	bratA10=T45:Female|bratT12=Person-property|bratT45=Person
+26	штаба	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T45:Female|bratT12=Person-property|bratT39=Organization|bratT45=Person
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p5
@@ -159,11 +159,11 @@
 # text = Поводом для возбуждения дела стали слова политика об агитационном ролике RT о голосовании по поправкам в Конституцию, в котором принял участие ветеран Великой Отечественной войны Игнат Артеменко.
 1	Поводом	_	_	_	_	_	_	_	_
 2	для	_	_	_	_	_	_	_	_
-3	возбуждения	_	_	_	_	_	_	_	_
-4	дела	_	_	_	_	_	_	_	bratT36=Event
+3	возбуждения	_	_	_	_	_	_	_	bratT48=Event
+4	дела	_	_	_	_	_	_	_	bratT36=Event|bratT48=Event
 5	стали	_	_	_	_	_	_	_	_
 6	слова	_	_	_	_	_	_	_	_
-7	политика	_	_	_	_	_	_	_	_
+7	политика	_	_	_	_	_	_	_	bratA11=T47:Male|bratT46=Person-property|bratT47=Person
 8	об	_	_	_	_	_	_	_	_
 9	агитационном	_	_	_	_	_	_	_	_
 10	ролике	_	_	_	_	_	_	_	_
@@ -196,8 +196,8 @@
 3	,	_	_	_	_	_	_	_	_
 4	Навальный	_	_	_	_	_	_	_	bratA7=T29:Male|bratT29=Person|bratT30=Person-surname
 5	назвал	_	_	_	_	_	_	_	_
-6	героев	_	_	_	_	_	_	_	_
-7	ролика	_	_	_	_	_	_	_	_
+6	героев	_	_	_	_	_	_	_	bratT49=Person
+7	ролика	_	_	_	_	_	_	_	bratT49=Person
 8	``	_	_	_	_	_	_	_	SpaceAfter=No
 9	голубчиками	_	_	_	_	_	_	_	SpaceAfter=No
 10	''	_	_	_	_	_	_	_	SpaceAfter=No

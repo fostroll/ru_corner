@@ -5,7 +5,7 @@ T3	Person 93 112	знатока   Скипского
 A2	Male T3
 T4	Person-surname 103 112	Скипского
 T5	Person-property 93 100	знатока
-T6	Event 36 75	``   Что   ?   Где   ?   Когда   ?   ''
+T6	Work-of-art 36 75	``   Что   ?   Где   ?   Когда   ?   ''
 T7	Person-property 167 177	школьницам
 T8	Person 179 205	Знаток   Михаил   Скипский
 A3	Male T8
@@ -29,7 +29,7 @@ T22	Person 694 711	Михаил   Скипский
 A8	Male T22
 T23	Person-forename 694 700	Михаил
 T24	Person-surname 703 711	Скипский
-T25	Event 739 778	``   Что   ?   Где   ?   Когда   ?   ''
+T25	Event 731 778	играх   ``   Что   ?   Где   ?   Когда   ?   ''
 T26	Date-absolute 781 789	7   июня
 A9	Past T26
 T27	Date-relative 794 807	После   этого
@@ -65,3 +65,5 @@ T43	Organization 1015 1021	школах
 T47	Event 145 160	домогательствах
 T48	Event 238 253	домогательствах
 T49	Event 445 455	публикации
+T50	Person 821 840	несколько   девушек
+A19	Female T50

@@ -23,7 +23,7 @@
 # sent_id = 0027-p2-s1
 # text = Управление МВД по Барнаулу составило протокол на коммуниста Виктора Юркина (в публикациях на сайте крайкома КПРФ его называют первым секретарем барнаульского горкома «Ленинского комсомола» - молодежной организации КПРФ) за съемку ролика против поправок в Конституцию для канала краевого отделения КПРФ.
 1	Управление	_	_	_	_	_	_	_	bratT4=Organization
-2	МВД	_	_	_	_	_	_	_	bratT4=Organization
+2	МВД	_	_	_	_	_	_	_	bratT4=Organization|bratT62=Organization
 3	по	_	_	_	_	_	_	_	bratT4=Organization
 4	Барнаулу	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
 5	составило	_	_	_	_	_	_	_	_
@@ -43,16 +43,16 @@
 19	называют	_	_	_	_	_	_	_	_
 20	первым	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Ordinal
 21	секретарем	_	_	_	_	_	_	_	bratT18=Person-property
-22	барнаульского	_	_	_	_	_	_	_	bratA6=T21:Adjective|bratT18=Person-property|bratT20=Organization|bratT21=GPE
-23	горкома	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization
-24	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT18=Person-property|bratT20=Organization|bratT23=Organization
-25	Ленинского	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT23=Organization
-26	комсомола	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT20=Organization|bratT23=Organization
-27	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT18=Person-property|bratT20=Organization|bratT23=Organization
-28	-	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT23=Organization
-29	молодежной	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT22=Age|bratT23=Organization
-30	организации	_	_	_	_	_	_	_	bratT18=Person-property|bratT20=Organization|bratT23=Organization
-31	КПРФ	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property|bratT20=Organization|bratT23=Organization|bratT50=Organization
+22	барнаульского	_	_	_	_	_	_	_	bratA1=T20:Department|bratA6=T21:Adjective|bratT18=Person-property|bratT20=Organization|bratT21=GPE
+23	горкома	_	_	_	_	_	_	_	bratA1=T20:Department|bratT18=Person-property|bratT20=Organization
+24	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT23=Organization
+25	Ленинского	_	_	_	_	_	_	_	bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT23=Organization
+26	комсомола	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT23=Organization
+27	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT23=Organization
+28	-	_	_	_	_	_	_	_	bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT23=Organization
+29	молодежной	_	_	_	_	_	_	_	bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT22=Age|bratT23=Organization
+30	организации	_	_	_	_	_	_	_	bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT23=Organization
+31	КПРФ	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T20:Department|bratT18=Person-property|bratT20=Organization|bratT23=Organization|bratT50=Organization
 32	)	_	_	_	_	_	_	_	SpaceAfter=No
 33	за	_	_	_	_	_	_	_	_
 34	съемку	_	_	_	_	_	_	_	bratT60=Event

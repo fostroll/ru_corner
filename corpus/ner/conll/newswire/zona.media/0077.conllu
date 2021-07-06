@@ -16,7 +16,7 @@
 11	в	_	_	_	_	_	_	_	_
 12	Махачкале	_	_	_	_	_	_	_	bratT5=GPE
 13	назначили	_	_	_	_	_	_	_	_
-14	сроки	_	_	_	_	_	_	_	_
+14	сроки	_	_	_	_	_	_	_	bratT92=Event
 15	до	_	_	_	_	_	_	_	bratA18=T6:Past-UNK|bratT6=Date-period-relative|bratT7=Duration
 16	19	_	_	_	_	_	_	_	bratA18=T6:Past-UNK|bratT6=Date-period-relative|bratT7=Duration
 17	лет	_	_	_	_	_	_	_	bratA18=T6:Past-UNK|bratT6=Date-period-relative|bratT7=Duration
@@ -32,7 +32,7 @@
 4	суд	_	_	_	_	_	_	_	bratT8=Organization
 5	приговорил	_	_	_	_	_	_	_	_
 6	к	_	_	_	_	_	_	_	_
-7	срокам	_	_	_	_	_	_	_	_
+7	срокам	_	_	_	_	_	_	_	bratT93=Event
 8	от	_	_	_	_	_	_	_	bratA19=T10:Past-UNK|bratT10=Date-period-relative|bratT58=Duration
 9	10	_	_	_	_	_	_	_	bratA19=T10:Past-UNK|bratT10=Date-period-relative|bratT58=Duration
 10	до	_	_	_	_	_	_	_	bratA19=T10:Past-UNK|bratT10=Date-period-relative|bratT58=Duration
@@ -151,14 +151,14 @@
 # par_text = Мужчин задержали в октябре 2017 года после нахождения взрывного устройства.
 # sent_id = 0077-p4-s1
 # text = Мужчин задержали в октябре 2017 года после нахождения взрывного устройства.
-1	Мужчин	_	_	_	_	_	_	_	_
+1	Мужчин	_	_	_	_	_	_	_	bratA28=T89:Male|bratT89=Person
 2	задержали	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute
 4	октябре	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute
 5	2017	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute
 6	года	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute
 7	после	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute
-8	нахождения	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute
+8	нахождения	_	_	_	_	_	_	_	bratA15=T40:Past|bratT40=Date-absolute|bratT90=Event
 9	взрывного	_	_	_	_	_	_	_	_
 10	устройства	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
@@ -169,7 +169,7 @@
 # text = По версии обвинения, они состояли в ИГИЛ и планировали устроить теракт во время выступления певца в мае 2017 года, но им это не удалось.
 1	По	_	_	_	_	_	_	_	_
 2	версии	_	_	_	_	_	_	_	_
-3	обвинения	_	_	_	_	_	_	_	SpaceAfter=No
+3	обвинения	_	_	_	_	_	_	_	SpaceAfter=No|bratT91=Person-property
 4	,	_	_	_	_	_	_	_	_
 5	они	_	_	_	_	_	_	_	_
 6	состояли	_	_	_	_	_	_	_	_

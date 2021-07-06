@@ -27,7 +27,7 @@ T25	Person 929 936	Пушкина
 T26	Person 1093 1110	Михаил   Ширвиндт
 T27	Organization 1113 1117	ТАСС
 A3	Media T27
-T28	Person-property 1177 1183	артист
+T28	Person-property 1164 1183	знаменитый   артист
 T30	Organization 1488 1503	Театра   сатиры
 T31	Person-property 1477 1503	Директор   Театра   сатиры
 T32	Organization 1537 1540	РБК
@@ -81,3 +81,17 @@ T61	Person-surname 1240 1249	Ширвиндта
 T62	Person-affix 1252 1260	младшего
 T63	Organization 1310 1325	желтой   прессы
 A20	Media T63
+T64	Person 375 380	обоих
+T65	Person 485 489	папы
+A21	Male T65
+T66	Person 612 616	мамы
+A22	Female T66
+T67	Person 690 697	артиста
+A23	Male T67
+T68	Person 761 769	супругов
+T69	Person 1164 1183	знаменитый   артист
+A24	Male T69
+T70	Person 1347 1351	папа
+A25	Male T70
+T71	Person 1477 1503	Директор   Театра   сатиры
+A26	Male T71

@@ -19,29 +19,29 @@ T17	Person-property 61 72	резервистов
 T18	Person-surname 849 857	Дарманен
 T19	Organization 401 417	Совета   обороны
 T20	Organization 868 883	Совет   обороны
-T21	Quantity 928 962	3,5   тыс.   жандармов-резервистов
-T22	Person-property 1051 1058	министр
-T23	Quantity 1241 1261	3,5   тыс.   человек
-T24	Person 1267 1275	Дарманен
-T25	GPE 1345 1350	Ниццу
-T26	Quantity 1420 1437	120   полицейских
-T27	Person-property 1426 1437	полицейских
-T28	Product 1551 1595	план   борьбы   с   терроризмом   Vigipirate
+T21	Quantity 928 964	3,5   тыс.   жандармов - резервистов
+T22	Person-property 1053 1060	министр
+T23	Quantity 1243 1263	3,5   тыс.   человек
+T24	Person 1269 1277	Дарманен
+T25	GPE 1347 1352	Ниццу
+T26	Quantity 1422 1439	120   полицейских
+T27	Person-property 1428 1439	полицейских
+T28	Product 1553 1597	план   борьбы   с   терроризмом   Vigipirate
 A2	Project T28
-T29	Product 1602 1621	``   Вижипират   ''
+T29	Product 1604 1623	``   Вижипират   ''
 A3	Project T29
-T30	Person 1791 1834	французского   лидера   Эммануэля   Макрона
-T31	Person-property 1791 1812	французского   лидера
-T32	Person 1935 1978	глава   МИД   Франции   Жан-Ив   Ле   Дриан
-T33	Person-property 1935 1956	глава   МИД   Франции
-T34	Organization 1943 1956	МИД   Франции
-T35	GPE 1949 1956	Франции
-T36	GPE 1493 1500	Франции
-T37	Date-absolute 1363 1371	накануне
-T38	Date-relative 1473 1481	накануне
+T30	Person 1793 1836	французского   лидера   Эммануэля   Макрона
+T31	Person-property 1793 1814	французского   лидера
+T32	Person 1937 1980	глава   МИД   Франции   Жан-Ив   Ле   Дриан
+T33	Person-property 1937 1958	глава   МИД   Франции
+T34	Organization 1945 1958	МИД   Франции
+T35	GPE 1951 1958	Франции
+T36	GPE 1495 1502	Франции
+T37	Date-absolute 1365 1373	накануне
+T38	Date-relative 1475 1483	накануне
 T39	Date-absolute 209 224	после   теракта
-T40	Date-period-relative 979 995	с   понедельника
-T41	Event 1386 1392	теракт
+T40	Date-period-relative 981 997	с   понедельника
+T41	Event 1388 1394	теракт
 T42	GPE 120 131	Французские
 A4	Adjective T42
 A5	Past T39
@@ -51,39 +51,45 @@ T44	Person-surname 364 372	Дарманен
 A7	Male T6
 T45	Person 849 857	Дарманен
 A8	Male T45
-T46	Person-property 941 962	жандармов-резервистов
-T47	Person-surname 1267 1275	Дарманен
+T46	Person-property 941 964	жандармов - резервистов
+T47	Person-surname 1269 1277	Дарманен
 A9	Male T24
 A10	Past T37
 T48	Person-property 167 178	резервистов
 A11	Fut T40
 A12	Male T30
-T49	Person-forename 1815 1824	Эммануэля
-T50	Person-surname 1827 1834	Макрона
-T51	Religious-group 1852 1857	ислам
+T49	Person-forename 1817 1826	Эммануэля
+T50	Person-surname 1829 1836	Макрона
+T51	Religious-group 1854 1860	ислама
 A13	Source T51
 A14	Male T32
-T52	Person-forename 1959 1965	Жан-Ив
-T53	Person-surname 1968 1978	Ле   Дриан
-T54	GPE 1791 1803	французского
+T52	Person-forename 1961 1967	Жан-Ив
+T53	Person-surname 1970 1980	Ле   Дриан
+T54	GPE 1793 1805	французского
 A15	Adjective T54
-T55	Person-property 1017 1026	префектов
+T55	Person-property 1019 1028	префектов
 T56	Date-period-absolute 504 528	в   ближайшие   выходные
 A16	Fut T56
 T57	Ordinal 508 517	ближайшие
 T58	Organization 120 140	Французские   власти
-T59	Organization 1484 1500	власти   Франции
-T60	Organization 1650 1665	власти   страны
-T61	GPE 1659 1665	страны
-T62	Organization 1902 1913	посольствам
-T63	Organization 1920 1932	консульствам
+T59	Organization 1486 1502	власти   Франции
+T60	Organization 1652 1667	власти   страны
+T61	GPE 1661 1667	страны
+T62	Organization 1904 1915	посольствам
+T63	Organization 1922 1934	консульствам
 T64	Organization 93 100	полицию
 T65	Organization 107 118	жандармерию
 T66	Organization 199 206	полицию
-T67	Organization 1167 1224	мобильные   полицейские   и   жандармские   подразделения
+T67	Organization 1169 1226	мобильные   полицейские   и   жандармские   подразделения
 A17	Department T67
 A18	Plural T67
 T68	Event 31 40	терактами
-T69	Event 1753 1769	акций   протеста
+T69	Event 1755 1771	акций   протеста
 T70	Event 791 823	возобновлением   учебного   года
 T71	Event 766 784	школьных   каникул
+T72	Person 469 480	Глава   МВД
+A19	Male T72
+T73	Event 752 784	завершением   школьных   каникул
+T74	Event 808 823	учебного   года
+T75	Person 1053 1060	министр
+A20	Male T75

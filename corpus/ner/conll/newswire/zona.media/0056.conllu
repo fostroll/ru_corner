@@ -5,8 +5,8 @@
 # text = В Москве полковника МВД оправдали по делу о мошенничестве на 1,5 млн долларов
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT1=GPE
-3	полковника	_	_	_	_	_	_	_	bratT2=Person-property
-4	МВД	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
+3	полковника	_	_	_	_	_	_	_	bratT2=Person-property|bratT73=Person
+4	МВД	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT73=Person
 5	оправдали	_	_	_	_	_	_	_	_
 6	по	_	_	_	_	_	_	_	_
 7	делу	_	_	_	_	_	_	_	bratT62=Event
@@ -26,7 +26,7 @@
 3	суд	_	_	_	_	_	_	_	bratT5=Organization
 4	Москвы	_	_	_	_	_	_	_	bratT5=Organization|bratT7=GPE
 5	оправдал	_	_	_	_	_	_	_	_
-6	бывшего	_	_	_	_	_	_	_	_
+6	бывшего	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-property
 7	замначальника	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-property
 8	транспортной	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT8=Person|bratT9=Person-property
 9	полиции	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT8=Person|bratT9=Person-property
@@ -34,7 +34,7 @@
 11	Южному	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT11=GPE|bratT8=Person|bratT9=Person-property
 12	федеральному	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT11=GPE|bratT8=Person|bratT9=Person-property
 13	округу	_	_	_	_	_	_	_	bratA2=T8:Male|bratT10=Organization|bratT11=GPE|bratT8=Person|bratT9=Person-property
-14	полковника	_	_	_	_	_	_	_	bratA2=T8:Male|bratT8=Person|bratT9=Person-property
+14	полковника	_	_	_	_	_	_	_	bratA2=T8:Male|bratT74=Person-property|bratT8=Person
 15	Адама	_	_	_	_	_	_	_	bratA2=T8:Male|bratT12=Person-forename|bratT8=Person
 16	Яхутля	_	_	_	_	_	_	_	bratA2=T8:Male|bratT13=Person-surname|bratT8=Person
 17	по	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 17	поможет	_	_	_	_	_	_	_	_
 18	уйти	_	_	_	_	_	_	_	_
 19	от	_	_	_	_	_	_	_	_
-20	наказания	_	_	_	_	_	_	_	_
+20	наказания	_	_	_	_	_	_	_	bratT75=Event
 21	его	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person
 22	знакомому	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T37:Male|bratT37=Person
 23	,	_	_	_	_	_	_	_	bratA9=T37:Male|bratT37=Person
@@ -187,8 +187,8 @@
 7	согласился	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	передал	_	_	_	_	_	_	_	_
-10	высокопоставленному	_	_	_	_	_	_	_	_
-11	полицейскому	_	_	_	_	_	_	_	bratT45=Person-property
+10	высокопоставленному	_	_	_	_	_	_	_	bratA19=T76:Male|bratT76=Person
+11	полицейскому	_	_	_	_	_	_	_	bratA19=T76:Male|bratT45=Person-property|bratT76=Person
 12	чуть	_	_	_	_	_	_	_	bratT46=Money
 13	больше	_	_	_	_	_	_	_	bratT46=Money
 14	1	_	_	_	_	_	_	_	bratT46=Money

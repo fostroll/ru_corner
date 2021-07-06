@@ -4,9 +4,9 @@
 # sent_id = 0096-p1-s1
 # text = У главного адвоката Трампа не подтвердился коронавирус
 1	У	_	_	_	_	_	_	_	_
-2	главного	_	_	_	_	_	_	_	bratT1=Person-property
-3	адвоката	_	_	_	_	_	_	_	bratT1=Person-property
-4	Трампа	_	_	_	_	_	_	_	bratA2=T2:Male|bratT1=Person-property|bratT17=Person-surname|bratT2=Person
+2	главного	_	_	_	_	_	_	_	bratT1=Person-property|bratT28=Person
+3	адвоката	_	_	_	_	_	_	_	bratT1=Person-property|bratT28=Person
+4	Трампа	_	_	_	_	_	_	_	bratA2=T2:Male|bratT1=Person-property|bratT17=Person-surname|bratT2=Person|bratT28=Person
 5	не	_	_	_	_	_	_	_	_
 6	подтвердился	_	_	_	_	_	_	_	_
 7	коронавирус	_	_	_	_	_	_	_	bratT3=Other-term
@@ -23,8 +23,8 @@
 6	Рудольф	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT20=Person-forename
 7	Джулиани	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT21=Person-surname
 8	сдал	_	_	_	_	_	_	_	_
-9	отрицательный	_	_	_	_	_	_	_	_
-10	тест	_	_	_	_	_	_	_	_
+9	отрицательный	_	_	_	_	_	_	_	bratT27=Event
+10	тест	_	_	_	_	_	_	_	bratT27=Event
 11	на	_	_	_	_	_	_	_	_
 12	заболевание	_	_	_	_	_	_	_	_
 13	коронавирусом	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term

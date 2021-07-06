@@ -18,8 +18,8 @@
 # par_text = Администрация Twitter передаст официальный аккаунт президента США @POTUS демократу Джо Байдену, которому СМИ отдали победу на выборах, в день инаугурации, сообщил представитель социальной сети Ник Пасилио, пишет Politico.
 # sent_id = 0054-p2-s1
 # text = Администрация Twitter передаст официальный аккаунт президента США @POTUS демократу Джо Байдену, которому СМИ отдали победу на выборах, в день инаугурации, сообщил представитель социальной сети Ник Пасилио, пишет Politico.
-1	Администрация	_	_	_	_	_	_	_	bratT5=Organization
-2	Twitter	_	_	_	_	_	_	_	bratT5=Organization|bratT6=Service
+1	Администрация	_	_	_	_	_	_	_	bratA33=T5:Department|bratT5=Organization
+2	Twitter	_	_	_	_	_	_	_	bratA33=T5:Department|bratT5=Organization|bratT6=Service
 3	передаст	_	_	_	_	_	_	_	_
 4	официальный	_	_	_	_	_	_	_	bratA3=T7:Media|bratT7=Service
 5	аккаунт	_	_	_	_	_	_	_	bratA3=T7:Media|bratT7=Service

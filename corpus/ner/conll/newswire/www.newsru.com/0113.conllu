@@ -137,9 +137,9 @@
 # text = По сообщению корреспондента российского агентства, сотрудников правоохранительных органов встретили колонну из нескольких тысяч протестующих, которая направлялась по улице Богдановича в центр города.
 1	По	_	_	_	_	_	_	_	_
 2	сообщению	_	_	_	_	_	_	_	_
-3	корреспондента	_	_	_	_	_	_	_	bratT14=Person-property
-4	российского	_	_	_	_	_	_	_	bratA11=T61:Media|bratA5=T45:Adjective|bratT14=Person-property|bratT45=GPE|bratT61=Organization
-5	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T61:Media|bratT14=Person-property|bratT61=Organization
+3	корреспондента	_	_	_	_	_	_	_	bratT14=Person-property|bratT74=Person
+4	российского	_	_	_	_	_	_	_	bratA11=T61:Media|bratA5=T45:Adjective|bratT14=Person-property|bratT45=GPE|bratT61=Organization|bratT74=Person
+5	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T61:Media|bratT14=Person-property|bratT61=Organization|bratT74=Person
 6	,	_	_	_	_	_	_	_	_
 7	сотрудников	_	_	_	_	_	_	_	bratT15=Person-property
 8	правоохранительных	_	_	_	_	_	_	_	bratT15=Person-property|bratT56=Organization
@@ -202,7 +202,7 @@
 # text = На улице Немига у Минского кафедрального собора, где также шла колонна из нескольких сотен человек, прошли массовые задержания.
 1	На	_	_	_	_	_	_	_	_
 2	улице	_	_	_	_	_	_	_	bratT22=Facility
-3	Немига	_	_	_	_	_	_	_	bratT22=Facility
+3	Немига	_	_	_	_	_	_	_	bratT22=Facility|bratT75=Location
 4	у	_	_	_	_	_	_	_	_
 5	Минского	_	_	_	_	_	_	_	bratA9=T49:Adjective|bratT23=Facility|bratT49=GPE
 6	кафедрального	_	_	_	_	_	_	_	bratT23=Facility

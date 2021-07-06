@@ -17,31 +17,34 @@ T13	Person 397 428	защитницу   Кристину   Тимакову
 A4	Female T13
 T14	Person-forename 409 417	Кристину
 T15	Person-surname 420 428	Тимакову
-T17	Service 497 555	телеграм - канал   ``   Бессрочный   протест   Москва   ''
-A5	Media T17
-T19	Person-property 557 566	Активисту
-T20	Law 621 653	части   8   статьи   20.2   КоАП
-T21	Person 721 730	Галицкого
+T19	Person-property 486 495	Активисту
+T20	Law 550 582	части   8   статьи   20.2   КоАП
+T21	Person 650 659	Галицкого
 A6	Male T21
-T22	Person-surname 721 730	Галицкого
-T23	Date-absolute 786 811	в   декабре   2019   года
-T24	Quantity 742 771	еще   с   двумя   активистами
-T25	Person-property 760 771	активистами
-T26	Organization 820 860	отделе   полиции   ``   Китай-город   ''
+T22	Person-surname 650 659	Галицкого
+T23	Date-absolute 715 740	в   декабре   2019   года
+T24	Quantity 671 700	еще   с   двумя   активистами
+T25	Person-property 689 700	активистами
+T26	Organization 749 789	отделе   полиции   ``   Китай-город   ''
 T27	Person-property 397 406	защитницу
 T28	GPE 97 116	Тверской   районный
 A7	Adjective T28
 A8	Past T23
-T16	GPE 544 550	Москва
-T29	Ordinal 629 630	8
-T30	Ordinal 642 646	20.2
-T31	Law 649 653	КоАП
-T32	GPE 844 855	Китай-город
-T33	Organization 829 836	полиции
+T29	Ordinal 558 559	8
+T30	Ordinal 571 575	20.2
+T31	Law 578 582	КоАП
+T32	GPE 773 784	Китай-город
+T33	Organization 758 765	полиции
 A9	Department T26
 T34	Organization 359 362	ОВД
 A10	Department T34
-T18	Event 660 681	повторное   нарушение
-T35	Event 879 888	нарушение
-T36	Event 706 711	акции
-T37	Event 900 905	акции
+T18	Event 589 610	повторное   нарушение
+T35	Event 808 817	нарушение
+T36	Event 635 640	акции
+T37	Event 829 834	акции
+T38	Person 0 23	Московского   активиста
+A11	Male T38
+T39	Organization 456 480	правозащитным   проектом
+T40	Person 486 495	Активисту
+A12	Male T40
+T41	Person 681 700	двумя   активистами

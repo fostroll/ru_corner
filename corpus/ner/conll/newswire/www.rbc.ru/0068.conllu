@@ -152,7 +152,7 @@
 3	ходе	_	_	_	_	_	_	_	bratA12=T59:Past|bratT59=Date-absolute
 4	обыска	_	_	_	_	_	_	_	bratA12=T59:Past|bratT59=Date-absolute|bratT81=Event
 5	помещения	_	_	_	_	_	_	_	_
-6	полицейские	_	_	_	_	_	_	_	bratT33=Person-property
+6	полицейские	_	_	_	_	_	_	_	bratT33=Person-property|bratT85=Person
 7	обнаружили	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
 9	изъяли	_	_	_	_	_	_	_	_
@@ -268,15 +268,15 @@
 6	прокуратура	_	_	_	_	_	_	_	bratT43=Organization
 7	Подольска	_	_	_	_	_	_	_	bratT42=GPE|bratT43=Organization
 8	начала	_	_	_	_	_	_	_	_
-9	проверку	_	_	_	_	_	_	_	_
+9	проверку	_	_	_	_	_	_	_	bratT82=Event
 10	информации	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
-12	травмировании	_	_	_	_	_	_	_	_
+12	травмировании	_	_	_	_	_	_	_	bratT83=Event
 13	малолетнего	_	_	_	_	_	_	_	bratT44=Age|bratT80=Person
 14	ребенка	_	_	_	_	_	_	_	bratT44=Age|bratT80=Person
 15	в	_	_	_	_	_	_	_	_
 16	результате	_	_	_	_	_	_	_	_
-17	стрельбы	_	_	_	_	_	_	_	_
+17	стрельбы	_	_	_	_	_	_	_	bratT84=Event
 18	по	_	_	_	_	_	_	_	_
 19	автомашине	_	_	_	_	_	_	_	SpaceAfter=No
 20	.	_	_	_	_	_	_	_	_

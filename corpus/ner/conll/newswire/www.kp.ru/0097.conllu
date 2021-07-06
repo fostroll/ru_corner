@@ -46,7 +46,7 @@
 2	этом	_	_	_	_	_	_	_	_
 3	во	_	_	_	_	_	_	_	bratA2=T33:Past|bratT33=Date-absolute
 4	время	_	_	_	_	_	_	_	bratA2=T33:Past|bratT33=Date-absolute
-5	пресс-конференции	_	_	_	_	_	_	_	bratA2=T33:Past|bratT33=Date-absolute
+5	пресс-конференции	_	_	_	_	_	_	_	bratA2=T33:Past|bratT33=Date-absolute|bratT62=Event
 6	в	_	_	_	_	_	_	_	bratA2=T33:Past|bratT33=Date-absolute
 7	понедельник	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T33:Past|bratT33=Date-absolute
 8	,	_	_	_	_	_	_	_	_
@@ -117,9 +117,9 @@
 10	в	_	_	_	_	_	_	_	_
 11	Армении	_	_	_	_	_	_	_	bratT18=GPE
 12	после	_	_	_	_	_	_	_	bratA5=T38:Future|bratT38=Date-absolute
-13	завершения	_	_	_	_	_	_	_	bratA5=T38:Future|bratT38=Date-absolute
-14	обмена	_	_	_	_	_	_	_	bratA5=T38:Future|bratT38=Date-absolute|bratT40=Event
-15	телами	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event
+13	завершения	_	_	_	_	_	_	_	bratA5=T38:Future|bratT38=Date-absolute|bratT63=Event
+14	обмена	_	_	_	_	_	_	_	bratA5=T38:Future|bratT38=Date-absolute|bratT40=Event|bratT63=Event
+15	телами	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event|bratT63=Event
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0097-p4
@@ -174,11 +174,11 @@
 13	совместное	_	_	_	_	_	_	_	_
 14	заявление	_	_	_	_	_	_	_	_
 15	о	_	_	_	_	_	_	_	_
-16	полном	_	_	_	_	_	_	_	_
-17	прекращении	_	_	_	_	_	_	_	_
-18	всех	_	_	_	_	_	_	_	_
-19	боевых	_	_	_	_	_	_	_	_
-20	действий	_	_	_	_	_	_	_	_
+16	полном	_	_	_	_	_	_	_	bratT61=Event
+17	прекращении	_	_	_	_	_	_	_	bratT61=Event
+18	всех	_	_	_	_	_	_	_	bratT61=Event
+19	боевых	_	_	_	_	_	_	_	bratT61=Event
+20	действий	_	_	_	_	_	_	_	bratT61=Event
 21	в	_	_	_	_	_	_	_	_
 22	Нагорном	_	_	_	_	_	_	_	bratT27=GPE
 23	Карабахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=GPE

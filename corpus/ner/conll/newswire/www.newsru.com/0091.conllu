@@ -13,8 +13,8 @@
 8	в	_	_	_	_	_	_	_	_
 9	первом	_	_	_	_	_	_	_	bratT5=Ordinal
 10	лидирует	_	_	_	_	_	_	_	_
-11	сторонница	_	_	_	_	_	_	_	bratT71=Political-group
-12	евроинтеграции	_	_	_	_	_	_	_	bratT71=Political-group
+11	сторонница	_	_	_	_	_	_	_	bratA19=T92:Female|bratT71=Political-group|bratT92=Person
+12	евроинтеграции	_	_	_	_	_	_	_	bratA19=T92:Female|bratT71=Political-group|bratT92=Person
 
 # newpar id = 0091-p2
 # par_text = Бывший премьер-министр Молдавии Майя Санду набрала 35,96% голосов на президентских выборах после обработки 99% голосов, говорится на сайте Центральной избирательной комиссии страны. Действующий президент Игорь Додон набрал 32,74% голосов.
@@ -86,10 +86,10 @@
 17	,	_	_	_	_	_	_	_	_
 18	кандидат	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT23=Person-property
 19	от	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT23=Person-property
-20	партии	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Political-group
-21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Political-group
-22	Шор	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Political-group
-23	''	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Political-group
+20	партии	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Organization
+21	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Organization
+22	Шор	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Organization
+23	''	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT23=Person-property|bratT24=Organization
 24	Виолета	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT78=Person-forename
 25	Иванов	_	_	_	_	_	_	_	bratA7=T22:Female|bratT22=Person|bratT79=Person-surname
 26	набрала	_	_	_	_	_	_	_	_
@@ -100,8 +100,8 @@
 
 # sent_id = 0091-p3-s2
 # text = Остальные кандидаты получили менее 5% голосов.
-1	Остальные	_	_	_	_	_	_	_	_
-2	кандидаты	_	_	_	_	_	_	_	bratT28=Person-property
+1	Остальные	_	_	_	_	_	_	_	bratT93=Person
+2	кандидаты	_	_	_	_	_	_	_	bratT28=Person-property|bratT93=Person
 3	получили	_	_	_	_	_	_	_	_
 4	менее	_	_	_	_	_	_	_	bratT26=Percent
 5-6	5%	_	_	_	_	_	_	_	_
@@ -129,9 +129,9 @@
 13	,	_	_	_	_	_	_	_	_
 14	так	_	_	_	_	_	_	_	_
 15	как	_	_	_	_	_	_	_	_
-16	никто	_	_	_	_	_	_	_	_
-17	из	_	_	_	_	_	_	_	_
-18	кандидатов	_	_	_	_	_	_	_	bratT61=Person-property
+16	никто	_	_	_	_	_	_	_	bratT91=Person
+17	из	_	_	_	_	_	_	_	bratT91=Person
+18	кандидатов	_	_	_	_	_	_	_	bratT61=Person-property|bratT91=Person
 19	не	_	_	_	_	_	_	_	_
 20	набрал	_	_	_	_	_	_	_	_
 21	большинства	_	_	_	_	_	_	_	_
@@ -148,7 +148,7 @@
 6	туре	_	_	_	_	_	_	_	bratT66=Event
 7	кандидату	_	_	_	_	_	_	_	bratT31=Person-property
 8	в	_	_	_	_	_	_	_	bratT31=Person-property
-9	президенты	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Person-property
+9	президенты	_	_	_	_	_	_	_	bratT31=Person-property
 10	необходимо	_	_	_	_	_	_	_	_
 11	набрать	_	_	_	_	_	_	_	_
 12-13	50%	_	_	_	_	_	_	_	_

@@ -5,7 +5,7 @@
 # text = США отсрочили запрет TikTok
 1	США	_	_	_	_	_	_	_	bratT10=GPE
 2	отсрочили	_	_	_	_	_	_	_	_
-3	запрет	_	_	_	_	_	_	_	_
+3	запрет	_	_	_	_	_	_	_	bratT46=Event
 4	TikTok	_	_	_	_	_	_	_	bratT28=Service
 
 # newpar id = 0012-p2
@@ -15,7 +15,7 @@
 1	Власти	_	_	_	_	_	_	_	bratT41=Organization
 2	США	_	_	_	_	_	_	_	bratT1=GPE|bratT41=Organization
 3	отсрочили	_	_	_	_	_	_	_	_
-4	запрет	_	_	_	_	_	_	_	_
+4	запрет	_	_	_	_	_	_	_	bratT47=Event
 5	приложения	_	_	_	_	_	_	_	bratT2=Service
 6	TikTok	_	_	_	_	_	_	_	bratT2=Service
 7	до	_	_	_	_	_	_	_	bratA8=T3:Past-UNK|bratT3=Date-period-absolute
@@ -118,8 +118,8 @@
 15	27	_	_	_	_	_	_	_	bratA6=T18:Past-UNK|bratT18=Date-period-absolute
 16	ноября	_	_	_	_	_	_	_	bratA6=T18:Past-UNK|bratT18=Date-period-absolute
 17	для	_	_	_	_	_	_	_	_
-18	достижения	_	_	_	_	_	_	_	_
-19	соглашения	_	_	_	_	_	_	_	SpaceAfter=No
+18	достижения	_	_	_	_	_	_	_	bratT48=Event
+19	соглашения	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 20	,	_	_	_	_	_	_	_	_
 21	продлив	_	_	_	_	_	_	_	_
 22	ранее	_	_	_	_	_	_	_	bratA9=T29:Past|bratT29=Date-relative

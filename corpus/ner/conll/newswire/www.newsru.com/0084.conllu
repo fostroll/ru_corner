@@ -4,15 +4,15 @@
 # sent_id = 0084-p1-s1
 # text = Начались трехсторонние консультации глав МИД России, Армении и Азербайджана в Москве
 1	Начались	_	_	_	_	_	_	_	_
-2	трехсторонние	_	_	_	_	_	_	_	bratT63=Quantity
-3	консультации	_	_	_	_	_	_	_	_
-4	глав	_	_	_	_	_	_	_	bratA2=T5:Plural|bratT5=Person-property
-5	МИД	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA6=T4:Plural|bratT4=Organization|bratT5=Person-property
-6	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Plural|bratA6=T4:Plural|bratT1=GPE|bratT4=Organization|bratT5=Person-property
-7	,	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA6=T4:Plural|bratT4=Organization|bratT5=Person-property
-8	Армении	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA6=T4:Plural|bratT2=GPE|bratT4=Organization|bratT5=Person-property
-9	и	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA6=T4:Plural|bratT4=Organization|bratT5=Person-property
-10	Азербайджана	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA6=T4:Plural|bratT3=GPE|bratT4=Organization|bratT5=Person-property
+2	трехсторонние	_	_	_	_	_	_	_	bratT63=Quantity|bratT87=Event
+3	консультации	_	_	_	_	_	_	_	bratT87=Event
+4	глав	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA28=T93:Plural|bratT5=Person-property|bratT93=Person
+5	МИД	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA28=T93:Plural|bratA6=T4:Plural|bratT4=Organization|bratT5=Person-property|bratT93=Person
+6	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Plural|bratA28=T93:Plural|bratA6=T4:Plural|bratT1=GPE|bratT4=Organization|bratT5=Person-property|bratT93=Person
+7	,	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA28=T93:Plural|bratA6=T4:Plural|bratT4=Organization|bratT5=Person-property|bratT93=Person
+8	Армении	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA28=T93:Plural|bratA6=T4:Plural|bratT2=GPE|bratT4=Organization|bratT5=Person-property|bratT93=Person
+9	и	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA28=T93:Plural|bratA6=T4:Plural|bratT4=Organization|bratT5=Person-property|bratT93=Person
+10	Азербайджана	_	_	_	_	_	_	_	bratA2=T5:Plural|bratA28=T93:Plural|bratA6=T4:Plural|bratT3=GPE|bratT4=Organization|bratT5=Person-property|bratT93=Person
 11	в	_	_	_	_	_	_	_	_
 12	Москве	_	_	_	_	_	_	_	bratT6=GPE
 
@@ -23,8 +23,8 @@
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT7=GPE
 3	начались	_	_	_	_	_	_	_	_
-4	трехсторонние	_	_	_	_	_	_	_	bratT64=Quantity
-5	консультации	_	_	_	_	_	_	_	_
+4	трехсторонние	_	_	_	_	_	_	_	bratT64=Quantity|bratT88=Event
+5	консультации	_	_	_	_	_	_	_	bratT88=Event
 6	глав	_	_	_	_	_	_	_	bratA1=T12:Plural|bratA3=T13:Plural|bratT12=Person-property|bratT13=Person
 7	МИД	_	_	_	_	_	_	_	bratA1=T12:Plural|bratA3=T13:Plural|bratA7=T11:Plural|bratT11=Organization|bratT12=Person-property|bratT13=Person
 8	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T12:Plural|bratA3=T13:Plural|bratA7=T11:Plural|bratT11=Organization|bratT12=Person-property|bratT13=Person|bratT8=GPE
@@ -54,14 +54,14 @@
 8	Facebook	_	_	_	_	_	_	_	bratT17=Service
 9	фотографию	_	_	_	_	_	_	_	_
 10	из	_	_	_	_	_	_	_	_
-11	зала	_	_	_	_	_	_	_	_
-12	переговоров	_	_	_	_	_	_	_	SpaceAfter=No
+11	зала	_	_	_	_	_	_	_	bratT94=Facility
+12	переговоров	_	_	_	_	_	_	_	SpaceAfter=No|bratT94=Facility
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0084-p2-s3
 # text = Консультации министров проходят без делегаций.
-1	Консультации	_	_	_	_	_	_	_	_
-2	министров	_	_	_	_	_	_	_	bratT18=Person-property
+1	Консультации	_	_	_	_	_	_	_	bratT89=Event
+2	министров	_	_	_	_	_	_	_	bratT18=Person-property|bratT90=Person
 3	проходят	_	_	_	_	_	_	_	_
 4	без	_	_	_	_	_	_	_	_
 5	делегаций	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Organization
@@ -71,11 +71,11 @@
 # par_text = Главы МИД Армении и Азербайджана прибыли в Москву по приглашению президента Владимира Путина для консультаций о войне в Нагорном Карабахе, сообщает "Интерфакс".
 # sent_id = 0084-p3-s1
 # text = Главы МИД Армении и Азербайджана прибыли в Москву по приглашению президента Владимира Путина для консультаций о войне в Нагорном Карабахе, сообщает ``Интерфакс''.
-1	Главы	_	_	_	_	_	_	_	bratA5=T23:Plural|bratT23=Person-property
-2	МИД	_	_	_	_	_	_	_	bratA5=T23:Plural|bratA8=T22:Plural|bratT22=Organization|bratT23=Person-property
-3	Армении	_	_	_	_	_	_	_	bratA5=T23:Plural|bratA8=T22:Plural|bratT20=GPE|bratT22=Organization|bratT23=Person-property
-4	и	_	_	_	_	_	_	_	bratA5=T23:Plural|bratA8=T22:Plural|bratT22=Organization|bratT23=Person-property
-5	Азербайджана	_	_	_	_	_	_	_	bratA5=T23:Plural|bratA8=T22:Plural|bratT21=GPE|bratT22=Organization|bratT23=Person-property
+1	Главы	_	_	_	_	_	_	_	bratA29=T95:Plural|bratA5=T23:Plural|bratT23=Person-property|bratT95=Person
+2	МИД	_	_	_	_	_	_	_	bratA29=T95:Plural|bratA5=T23:Plural|bratA8=T22:Plural|bratT22=Organization|bratT23=Person-property|bratT95=Person
+3	Армении	_	_	_	_	_	_	_	bratA29=T95:Plural|bratA5=T23:Plural|bratA8=T22:Plural|bratT20=GPE|bratT22=Organization|bratT23=Person-property|bratT95=Person
+4	и	_	_	_	_	_	_	_	bratA29=T95:Plural|bratA5=T23:Plural|bratA8=T22:Plural|bratT22=Organization|bratT23=Person-property|bratT95=Person
+5	Азербайджана	_	_	_	_	_	_	_	bratA29=T95:Plural|bratA5=T23:Plural|bratA8=T22:Plural|bratT21=GPE|bratT22=Organization|bratT23=Person-property|bratT95=Person
 6	прибыли	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	Москву	_	_	_	_	_	_	_	bratT19=GPE
@@ -85,7 +85,7 @@
 12	Владимира	_	_	_	_	_	_	_	bratA16=T25:Male|bratT25=Person|bratT61=Person-forename
 13	Путина	_	_	_	_	_	_	_	bratA16=T25:Male|bratT25=Person|bratT62=Person-surname
 14	для	_	_	_	_	_	_	_	_
-15	консультаций	_	_	_	_	_	_	_	_
+15	консультаций	_	_	_	_	_	_	_	bratT91=Event
 16	о	_	_	_	_	_	_	_	_
 17	войне	_	_	_	_	_	_	_	bratT27=Event
 18	в	_	_	_	_	_	_	_	_
@@ -103,8 +103,8 @@
 # sent_id = 0084-p4-s1
 # text = Перед началом встречи президент Азербайджана Ильхам Алиев в обращении к народу заявил, что сейчас нагорно-карабахский конфликт решается военным путем, а потом уже будет решаться политическими методами.
 1	Перед	_	_	_	_	_	_	_	bratA17=T65:Past|bratT65=Date-absolute
-2	началом	_	_	_	_	_	_	_	bratA17=T65:Past|bratT65=Date-absolute
-3	встречи	_	_	_	_	_	_	_	bratA17=T65:Past|bratT65=Date-absolute|bratT81=Event
+2	началом	_	_	_	_	_	_	_	bratA17=T65:Past|bratT65=Date-absolute|bratT92=Event
+3	встречи	_	_	_	_	_	_	_	bratA17=T65:Past|bratT65=Date-absolute|bratT81=Event|bratT92=Event
 4	президент	_	_	_	_	_	_	_	bratA18=T31:Male|bratT30=Person-property|bratT31=Person
 5	Азербайджана	_	_	_	_	_	_	_	bratA18=T31:Male|bratT29=GPE|bratT30=Person-property|bratT31=Person
 6	Ильхам	_	_	_	_	_	_	_	bratA18=T31:Male|bratT31=Person|bratT66=Person-forename
@@ -235,7 +235,7 @@
 # par_text = Президент также сообщил, что азербайджанские военные заняли еще девять населенных пунктов в Карабахе: поселок Гадрут, села Чайлы, Йухары Гюзляк, Геразыллы, Гышлаг, Гараджалы, Эфендилер, Сулейманлы, Сур.
 # sent_id = 0084-p6-s1
 # text = Президент также сообщил, что азербайджанские военные заняли еще девять населенных пунктов в Карабахе: поселок Гадрут, села Чайлы, Йухары Гюзляк, Геразыллы, Гышлаг, Гараджалы, Эфендилер, Сулейманлы, Сур.
-1	Президент	_	_	_	_	_	_	_	bratT35=Person-property
+1	Президент	_	_	_	_	_	_	_	bratA30=T96:Male|bratT35=Person-property|bratT96=Person
 2	также	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_

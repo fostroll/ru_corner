@@ -81,11 +81,11 @@
 
 # sent_id = 0047-p3-s2
 # text = Нацбол говорил, что силовики подбросили ему пистолет Макарова и обойму.
-1	Нацбол	_	_	_	_	_	_	_	bratT21=Political-group
+1	Нацбол	_	_	_	_	_	_	_	bratA9=T55:Male|bratT21=Political-group|bratT55=Person
 2	говорил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	силовики	_	_	_	_	_	_	_	bratT22=Person-property
+5	силовики	_	_	_	_	_	_	_	bratT22=Person-property|bratT59=Person
 6	подбросили	_	_	_	_	_	_	_	_
 7	ему	_	_	_	_	_	_	_	_
 8	пистолет	_	_	_	_	_	_	_	bratT25=Product
@@ -132,7 +132,7 @@
 # text = Суд оправдал нацбола по статье о хранения оружия, однако признал виновным в контрабанде.
 1	Суд	_	_	_	_	_	_	_	bratT45=Organization
 2	оправдал	_	_	_	_	_	_	_	_
-3	нацбола	_	_	_	_	_	_	_	bratT30=Political-group
+3	нацбола	_	_	_	_	_	_	_	bratA11=T56:Male|bratT30=Political-group|bratT56=Person
 4	по	_	_	_	_	_	_	_	_
 5	статье	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
@@ -143,13 +143,13 @@
 11	признал	_	_	_	_	_	_	_	_
 12	виновным	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	контрабанде	_	_	_	_	_	_	_	SpaceAfter=No
+14	контрабанде	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p4-s3
 # text = Соратники Аверина считают уголовное дело провокацией со стороны ФСБ и Центра ``Э''.
-1	Соратники	_	_	_	_	_	_	_	bratT31=Other-group
-2	Аверина	_	_	_	_	_	_	_	bratA10=T32:Male|bratT31=Other-group|bratT32=Person|bratT33=Person-surname
+1	Соратники	_	_	_	_	_	_	_	bratT31=Person-property|bratT58=Person
+2	Аверина	_	_	_	_	_	_	_	bratA10=T32:Male|bratT31=Person-property|bratT32=Person|bratT33=Person-surname|bratT58=Person
 3	считают	_	_	_	_	_	_	_	_
 4	уголовное	_	_	_	_	_	_	_	bratT46=Event
 5	дело	_	_	_	_	_	_	_	bratT46=Event

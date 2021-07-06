@@ -6,7 +6,7 @@
 1	Блогер	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT2=Person-property
 2	Mellstroy	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Person-alias
 3	избил	_	_	_	_	_	_	_	_
-4	девушку	_	_	_	_	_	_	_	_
+4	девушку	_	_	_	_	_	_	_	bratA4=T38:Female|bratT38=Person
 5	во	_	_	_	_	_	_	_	bratT47=Date-absolute
 6	время	_	_	_	_	_	_	_	bratT47=Date-absolute
 7	стрима	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T49:Media|bratT47=Date-absolute|bratT49=Service
@@ -91,7 +91,7 @@
 
 # sent_id = 0094-p3-s2
 # text = Девушка попала в больницу.
-1	Девушка	_	_	_	_	_	_	_	_
+1	Девушка	_	_	_	_	_	_	_	bratA5=T39:Female|bratT39=Person
 2	попала	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	больницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
@@ -135,7 +135,7 @@
 6	получил	_	_	_	_	_	_	_	_
 7	за	_	_	_	_	_	_	_	_
 8	это	_	_	_	_	_	_	_	_
-9	наказание	_	_	_	_	_	_	_	_
+9	наказание	_	_	_	_	_	_	_	bratT36=Event
 10	и	_	_	_	_	_	_	_	_
 11	такого	_	_	_	_	_	_	_	_
 12	не	_	_	_	_	_	_	_	_
@@ -164,7 +164,7 @@
 14	,	_	_	_	_	_	_	_	_
 15	-	_	_	_	_	_	_	_	_
 16	написала	_	_	_	_	_	_	_	_
-17	девушка	_	_	_	_	_	_	_	SpaceAfter=No
+17	девушка	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T40:Female|bratT40=Person
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0094-p5
@@ -174,7 +174,7 @@
 1	Она	_	_	_	_	_	_	_	_
 2	намерена	_	_	_	_	_	_	_	_
 3	добиться	_	_	_	_	_	_	_	_
-4	наказания	_	_	_	_	_	_	_	_
+4	наказания	_	_	_	_	_	_	_	bratT37=Event
 5	для	_	_	_	_	_	_	_	_
 6	Бурима	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T28:Male|bratT28=Person|bratT29=Person-surname
 7	.	_	_	_	_	_	_	_	_
@@ -186,15 +186,15 @@
 1	На	_	_	_	_	_	_	_	_
 2	канале	_	_	_	_	_	_	_	bratA14=T46:Media|bratT46=Service
 3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA14=T46:Media|bratT46=Service
-4	MELLSTROY	_	_	_	_	_	_	_	bratA14=T46:Media|bratT46=Service
+4	MELLSTROY	_	_	_	_	_	_	_	bratA14=T46:Media|bratA17=T43:Male|bratT43=Person|bratT46=Service|bratT50=Person-alias
 5	СТРИМЫ	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T46:Media|bratT46=Service
 6	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA14=T46:Media|bratT46=Service
 7	680	_	_	_	_	_	_	_	bratT30=Quantity
 8	тысяч	_	_	_	_	_	_	_	bratT30=Quantity
-9	подписичков	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Quantity
+9	подписичков	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Quantity|bratT55=Other-group
 10	,	_	_	_	_	_	_	_	_
 11	ролики	_	_	_	_	_	_	_	_
-12	блогера	_	_	_	_	_	_	_	bratT31=Person-property
+12	блогера	_	_	_	_	_	_	_	bratA16=T51:Male|bratT31=Person-property|bratT51=Person
 13	набрали	_	_	_	_	_	_	_	_
 14	32,5	_	_	_	_	_	_	_	bratT32=Quantity
 15	млн	_	_	_	_	_	_	_	bratT32=Quantity
@@ -219,14 +219,14 @@
 14	матом	_	_	_	_	_	_	_	SpaceAfter=No
 15	,	_	_	_	_	_	_	_	_
 16	унижает	_	_	_	_	_	_	_	_
-17	гостей	_	_	_	_	_	_	_	SpaceAfter=No
+17	гостей	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0094-p6-s3
 # text = Он устраивает вечеринки в Москва-Сити, взаимодействует с приглашенными и читает комментарии подписчиков.
 1	Он	_	_	_	_	_	_	_	_
 2	устраивает	_	_	_	_	_	_	_	_
-3	вечеринки	_	_	_	_	_	_	_	_
+3	вечеринки	_	_	_	_	_	_	_	bratT53=Event
 4	в	_	_	_	_	_	_	_	_
 5-7	Москва-Сити	_	_	_	_	_	_	_	SpaceAfter=No
 5	Москва	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT15=GPE|bratT35=Facility
@@ -235,7 +235,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	взаимодействует	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	_
-11	приглашенными	_	_	_	_	_	_	_	_
+11	приглашенными	_	_	_	_	_	_	_	bratT54=Person
 12	и	_	_	_	_	_	_	_	_
 13	читает	_	_	_	_	_	_	_	_
 14	комментарии	_	_	_	_	_	_	_	_

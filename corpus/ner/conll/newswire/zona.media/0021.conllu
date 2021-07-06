@@ -3,8 +3,8 @@
 # par_text = Нижегородского полицейского обвинили в халатности за отказ завести дело о массовом убийстве на подростка, который через полтора года расстрелял троих человек
 # sent_id = 0021-p1-s1
 # text = Нижегородского полицейского обвинили в халатности за отказ завести дело о массовом убийстве на подростка, который через полтора года расстрелял троих человек
-1	Нижегородского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-2	полицейского	_	_	_	_	_	_	_	bratT1=Person-property
+1	Нижегородского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA11=T66:Male|bratT1=Person-property|bratT2=GPE|bratT66=Person
+2	полицейского	_	_	_	_	_	_	_	bratA11=T66:Male|bratT1=Person-property|bratT66=Person
 3	обвинили	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	халатности	_	_	_	_	_	_	_	_
@@ -16,7 +16,7 @@
 11	массовом	_	_	_	_	_	_	_	bratT42=Event
 12	убийстве	_	_	_	_	_	_	_	bratT42=Event
 13	на	_	_	_	_	_	_	_	_
-14	подростка	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Age
+14	подростка	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T67:Male|bratT3=Age|bratT67=Person
 15	,	_	_	_	_	_	_	_	_
 16	который	_	_	_	_	_	_	_	_
 17	через	_	_	_	_	_	_	_	bratA5=T4:Past|bratT4=Date-relative
@@ -46,7 +46,7 @@
 14	293	_	_	_	_	_	_	_	bratT39=Ordinal|bratT8=Law
 15	УК	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Law|bratT8=Law
 16	)	_	_	_	_	_	_	_	_
-17	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person-property
+17	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T68:Male|bratT68=Person|bratT9=Person-property
 18	,	_	_	_	_	_	_	_	_
 19	который	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	bratA6=T10:Past|bratT10=Date-absolute
@@ -81,30 +81,30 @@
 # par_text = Заместитель начальника отдела полиции №3 в марте 2019 года утвердил постановление инспектора по делам несовершеннолетних об отказе в возбуждении дела против школьника. «При этом в материалах проверки имелось достаточно данных, указывающих на наличие в действиях Данилы Монахова признаков преступления», — добавили в СК.
 # sent_id = 0021-p3-s1
 # text = Заместитель начальника отдела полиции №3 в марте 2019 года утвердил постановление инспектора по делам несовершеннолетних об отказе в возбуждении дела против школьника.
-1	Заместитель	_	_	_	_	_	_	_	bratT15=Person-property
-2	начальника	_	_	_	_	_	_	_	bratT15=Person-property
-3	отдела	_	_	_	_	_	_	_	bratA8=T16:Department|bratT15=Person-property|bratT16=Organization
-4	полиции	_	_	_	_	_	_	_	bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT32=Organization
+1	Заместитель	_	_	_	_	_	_	_	bratA14=T75:Male|bratT15=Person-property|bratT75=Person
+2	начальника	_	_	_	_	_	_	_	bratA14=T75:Male|bratT15=Person-property|bratT75=Person
+3	отдела	_	_	_	_	_	_	_	bratA14=T75:Male|bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT75=Person
+4	полиции	_	_	_	_	_	_	_	bratA14=T75:Male|bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT32=Organization|bratT75=Person
 5-6	№3	_	_	_	_	_	_	_	_
-5	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT17=Ordinal
-6	3	_	_	_	_	_	_	_	bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT17=Ordinal
+5	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T75:Male|bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT17=Ordinal|bratT75=Person
+6	3	_	_	_	_	_	_	_	bratA14=T75:Male|bratA8=T16:Department|bratT15=Person-property|bratT16=Organization|bratT17=Ordinal|bratT75=Person
 7	в	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 8	марте	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 9	2019	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 10	года	_	_	_	_	_	_	_	bratA7=T18:Past|bratT18=Date-absolute
 11	утвердил	_	_	_	_	_	_	_	_
 12	постановление	_	_	_	_	_	_	_	_
-13	инспектора	_	_	_	_	_	_	_	bratT19=Person-property
-14	по	_	_	_	_	_	_	_	bratT19=Person-property
-15	делам	_	_	_	_	_	_	_	bratT19=Person-property
-16	несовершеннолетних	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Age
+13	инспектора	_	_	_	_	_	_	_	bratT19=Person-property|bratT76=Person
+14	по	_	_	_	_	_	_	_	bratT19=Person-property|bratT76=Person
+15	делам	_	_	_	_	_	_	_	bratT19=Person-property|bratT76=Person
+16	несовершеннолетних	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=Age|bratT76=Person
 17	об	_	_	_	_	_	_	_	_
 18	отказе	_	_	_	_	_	_	_	bratT61=Event
 19	в	_	_	_	_	_	_	_	_
 20	возбуждении	_	_	_	_	_	_	_	bratT60=Event
 21	дела	_	_	_	_	_	_	_	bratT47=Event|bratT60=Event
 22	против	_	_	_	_	_	_	_	_
-23	школьника	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
+23	школьника	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T77:Male|bratT21=Person-property|bratT77=Person
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0021-p3-s2
@@ -114,7 +114,7 @@
 3	этом	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	материалах	_	_	_	_	_	_	_	_
-6	проверки	_	_	_	_	_	_	_	_
+6	проверки	_	_	_	_	_	_	_	bratT64=Event
 7	имелось	_	_	_	_	_	_	_	_
 8	достаточно	_	_	_	_	_	_	_	_
 9	данных	_	_	_	_	_	_	_	SpaceAfter=No
@@ -140,10 +140,10 @@
 # par_text = Инспектора по делам несовершеннолетних заподозрили в злоупотреблении должностными полномочиями (часть 1 статьи 285 УК). Сотрудница полиции отказала в возбуждении дела о подготовке к убийству двух или более лиц общеопасным способом (часть 1 статьи 30, пункты «а», «е» части 2 статьи 105 УК) и передала постановление на утверждение замглавы ОВД.
 # sent_id = 0021-p4-s1
 # text = Инспектора по делам несовершеннолетних заподозрили в злоупотреблении должностными полномочиями (часть 1 статьи 285 УК).
-1	Инспектора	_	_	_	_	_	_	_	bratT26=Person-property
-2	по	_	_	_	_	_	_	_	bratT26=Person-property
-3	делам	_	_	_	_	_	_	_	bratT26=Person-property
-4	несовершеннолетних	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Age
+1	Инспектора	_	_	_	_	_	_	_	bratT26=Person-property|bratT78=Person
+2	по	_	_	_	_	_	_	_	bratT26=Person-property|bratT78=Person
+3	делам	_	_	_	_	_	_	_	bratT26=Person-property|bratT78=Person
+4	несовершеннолетних	_	_	_	_	_	_	_	bratT26=Person-property|bratT27=Age|bratT78=Person
 5	заподозрили	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	злоупотреблении	_	_	_	_	_	_	_	_
@@ -160,8 +160,8 @@
 
 # sent_id = 0021-p4-s2
 # text = Сотрудница полиции отказала в возбуждении дела о подготовке к убийству двух или более лиц общеопасным способом (часть 1 статьи 30, пункты «а», «е» части 2 статьи 105 УК) и передала постановление на утверждение замглавы ОВД.
-1	Сотрудница	_	_	_	_	_	_	_	bratT30=Person-property
-2	полиции	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization
+1	Сотрудница	_	_	_	_	_	_	_	bratA16=T79:Female|bratT30=Person-property|bratT79=Person
+2	полиции	_	_	_	_	_	_	_	bratA16=T79:Female|bratT30=Person-property|bratT31=Organization|bratT79=Person
 3	отказала	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	возбуждении	_	_	_	_	_	_	_	bratT63=Event
@@ -200,9 +200,9 @@
 38	передала	_	_	_	_	_	_	_	_
 39	постановление	_	_	_	_	_	_	_	_
 40	на	_	_	_	_	_	_	_	_
-41	утверждение	_	_	_	_	_	_	_	_
-42	замглавы	_	_	_	_	_	_	_	bratT34=Person-property
-43	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Department|bratT34=Person-property|bratT35=Organization
+41	утверждение	_	_	_	_	_	_	_	bratT81=Event
+42	замглавы	_	_	_	_	_	_	_	bratT34=Person-property|bratT80=Person
+43	ОВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Department|bratT34=Person-property|bratT35=Organization|bratT80=Person
 44	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0021-p5
@@ -214,7 +214,7 @@
 3	не	_	_	_	_	_	_	_	_
 4	приводит	_	_	_	_	_	_	_	_
 5	подробности	_	_	_	_	_	_	_	_
-6	проверки	_	_	_	_	_	_	_	_
+6	проверки	_	_	_	_	_	_	_	bratT65=Event
 7	по	_	_	_	_	_	_	_	_
 8	делу	_	_	_	_	_	_	_	bratT49=Event
 9	о	_	_	_	_	_	_	_	_

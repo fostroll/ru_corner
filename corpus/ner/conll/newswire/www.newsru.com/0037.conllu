@@ -22,16 +22,16 @@
 # sent_id = 0037-p2-s1
 # text = Заместитель главы комитета Госдумы по вопросам семьи, женщин и детей Оксана Пушкина обратилась с письмом к генеральному прокурору Игорю Краснову из-за появившейся накануне информации о планах Следственного комитета арестовать одиноких отцов, которые прибегли к процедуре экстракорпорального оплодотворения (ЭКО) и помощи суррогатных матерей.
 1	Заместитель	_	_	_	_	_	_	_	bratA5=T4:Female|bratT4=Person|bratT5=Person-property
-2	главы	_	_	_	_	_	_	_	bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property
-3	комитета	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
-4	Госдумы	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization|bratT8=Organization
-5	по	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
-6	вопросам	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
-7	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Department|bratA5=T4:Female|bratT27=Family|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
-8	,	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
-9	женщин	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
-10	и	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
-11	детей	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT39=Age|bratT4=Person|bratT5=Person-property|bratT6=Person-property|bratT7=Organization
+2	главы	_	_	_	_	_	_	_	bratA5=T4:Female|bratT4=Person|bratT5=Person-property
+3	комитета	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT7=Organization
+4	Госдумы	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT7=Organization|bratT8=Organization
+5	по	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT7=Organization
+6	вопросам	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT7=Organization
+7	семьи	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Department|bratA5=T4:Female|bratT27=Family|bratT4=Person|bratT5=Person-property|bratT7=Organization
+8	,	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT7=Organization
+9	женщин	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT7=Organization
+10	и	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT4=Person|bratT5=Person-property|bratT7=Organization
+11	детей	_	_	_	_	_	_	_	bratA1=T7:Department|bratA5=T4:Female|bratT39=Age|bratT4=Person|bratT5=Person-property|bratT7=Organization
 12	Оксана	_	_	_	_	_	_	_	bratA5=T4:Female|bratT33=Person-forename|bratT4=Person
 13	Пушкина	_	_	_	_	_	_	_	bratA5=T4:Female|bratT34=Person-surname|bratT4=Person
 14	обратилась	_	_	_	_	_	_	_	_
@@ -202,8 +202,8 @@
 35	предъявлено	_	_	_	_	_	_	_	_
 36	обвинение	_	_	_	_	_	_	_	_
 37	в	_	_	_	_	_	_	_	_
-38	покупке	_	_	_	_	_	_	_	_
-39	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Age
+38	покупке	_	_	_	_	_	_	_	bratT6=Event
+39	детей	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Age|bratT6=Event
 40	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0037-p5
@@ -253,6 +253,6 @@
 16	самих	_	_	_	_	_	_	_	_
 17	детей	_	_	_	_	_	_	_	bratT44=Age
 18	признать	_	_	_	_	_	_	_	_
-19	потерпевшими	_	_	_	_	_	_	_	SpaceAfter=No
+19	потерпевшими	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Person-property
 20	.	_	_	_	_	_	_	_	_
 

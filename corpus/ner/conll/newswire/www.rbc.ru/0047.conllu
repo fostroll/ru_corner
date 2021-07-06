@@ -47,10 +47,10 @@
 20	пропускала	_	_	_	_	_	_	_	_
 21	четыре	_	_	_	_	_	_	_	bratT8=Quantity
 22	безответных	_	_	_	_	_	_	_	bratT8=Quantity
-23	мяча	_	_	_	_	_	_	_	bratT8=Quantity
+23	мяча	_	_	_	_	_	_	_	bratT8=Quantity|bratT83=Event
 24	в	_	_	_	_	_	_	_	_
-25	первом	_	_	_	_	_	_	_	bratT9=Ordinal
-26	тайме	_	_	_	_	_	_	_	SpaceAfter=No
+25	первом	_	_	_	_	_	_	_	bratT84=Event|bratT9=Ordinal
+26	тайме	_	_	_	_	_	_	_	SpaceAfter=No|bratT84=Event
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0047-p2-s2
@@ -198,9 +198,12 @@
 8	депутата	_	_	_	_	_	_	_	bratT41=Person-property
 9	Госдумы	_	_	_	_	_	_	_	bratT40=Organization|bratT41=Person-property
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
-11	Спорт-Экспресс	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
-12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
-13	.	_	_	_	_	_	_	_	_
+11-13	Спорт-Экспресс	_	_	_	_	_	_	_	SpaceAfter=No
+11	Спорт	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
+12	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
+13	Экспресс	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
+14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T42:Media|bratT42=Organization
+15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0047-p4
 # par_text = «Cкажу банальность: у них залетело сегодня все, у нас — нет», — заявил главный тренер сборной России Станислав Черчесов. «Хотя я думаю, что, если бы мы даже забили наш первый момент (на первой минуте Антон Заболотный пробил в голкипера с линии вратарской. — РБК), это ничего бы не изменило. Надо быть объективным: сербы были сегодня свежее, лучше, и они заслуженно выиграли», — добавил он.

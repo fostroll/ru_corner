@@ -13,7 +13,7 @@
 8	из-за	_	_	_	_	_	_	_	_
 9	угрозы	_	_	_	_	_	_	_	bratT19=Event
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
-11	минирования	_	_	_	_	_	_	_	SpaceAfter=No
+11	минирования	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Event
 12	''	_	_	_	_	_	_	_	_
 
 # newpar id = 0115-p2
@@ -36,11 +36,11 @@
 14	аэропорт	_	_	_	_	_	_	_	bratT5=Facility
 15	Шереметьево	_	_	_	_	_	_	_	bratT5=Facility
 16	из-за	_	_	_	_	_	_	_	_
-17	пассажира	_	_	_	_	_	_	_	SpaceAfter=No
+17	пассажира	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T23:Male|bratT23=Person
 18	,	_	_	_	_	_	_	_	_
 19	заявившего	_	_	_	_	_	_	_	_
 20	о	_	_	_	_	_	_	_	_
-21	минировании	_	_	_	_	_	_	_	_
+21	минировании	_	_	_	_	_	_	_	bratT24=Event
 22	судна	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
 24	сообщает	_	_	_	_	_	_	_	_
@@ -67,10 +67,10 @@
 4	Шереметьево	_	_	_	_	_	_	_	bratT7=Facility
 5	вернулся	_	_	_	_	_	_	_	_
 6	самолет	_	_	_	_	_	_	_	_
-7	рейса	_	_	_	_	_	_	_	_
-8	Москва	_	_	_	_	_	_	_	bratT8=GPE
-9	-	_	_	_	_	_	_	_	_
-10	Петропавловск-Камчатский	_	_	_	_	_	_	_	bratT9=GPE
+7	рейса	_	_	_	_	_	_	_	bratT30=Event
+8	Москва	_	_	_	_	_	_	_	bratT30=Event|bratT8=GPE
+9	-	_	_	_	_	_	_	_	bratT30=Event
+10	Петропавловск-Камчатский	_	_	_	_	_	_	_	bratT30=Event|bratT9=GPE
 11	из-за	_	_	_	_	_	_	_	_
 12	неадекватного	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person
 13	пассажира	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person
@@ -78,7 +78,7 @@
 15	угроз	_	_	_	_	_	_	_	bratT20=Event
 16	о	_	_	_	_	_	_	_	_
 17	``	_	_	_	_	_	_	_	SpaceAfter=No
-18	минировании	_	_	_	_	_	_	_	SpaceAfter=No
+18	минировании	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Event
 19	''	_	_	_	_	_	_	_	SpaceAfter=No
 20	''	_	_	_	_	_	_	_	SpaceAfter=No
 21	,	_	_	_	_	_	_	_	_
@@ -118,7 +118,7 @@
 8	сообщение	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
-11	минировании	_	_	_	_	_	_	_	SpaceAfter=No
+11	минировании	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
 12	''	_	_	_	_	_	_	_	_
 13	оказалось	_	_	_	_	_	_	_	_
 14	ложным	_	_	_	_	_	_	_	SpaceAfter=No
@@ -131,10 +131,10 @@
 1	Отметим	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	волна	_	_	_	_	_	_	_	_
-5	``	_	_	_	_	_	_	_	SpaceAfter=No
-6	минирований	_	_	_	_	_	_	_	SpaceAfter=No
-7	''	_	_	_	_	_	_	_	_
+4	волна	_	_	_	_	_	_	_	bratT29=Event
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Event
+6	минирований	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Event|bratT29=Event
+7	''	_	_	_	_	_	_	_	bratT29=Event
 8	тянется	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	bratA2=T11:Past-Pres|bratT11=Date-period-absolute
 10	осени	_	_	_	_	_	_	_	bratA2=T11:Past-Pres|bratT11=Date-period-absolute

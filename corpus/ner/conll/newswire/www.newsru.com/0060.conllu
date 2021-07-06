@@ -3,8 +3,8 @@
 # par_text = Президент ЦСКА: "Государевы деньги тратить на футбол неправильно"
 # sent_id = 0060-p1-s1
 # text = Президент ЦСКА: ``Государевы деньги тратить на футбол неправильно''
-1	Президент	_	_	_	_	_	_	_	bratT2=Person-property
-2	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT2=Person-property
+1	Президент	_	_	_	_	_	_	_	bratT2=Person-property|bratT47=Person
+2	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT2=Person-property|bratT47=Person
 3	:	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No
 5	Государевы	_	_	_	_	_	_	_	_
@@ -178,8 +178,8 @@
 8	временем	_	_	_	_	_	_	_	bratA10=T33:Future|bratT33=Date-absolute
 9	появятся	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
-11	новые	_	_	_	_	_	_	_	bratT20=Person-property
-12	партнеры	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Person-property
+11	новые	_	_	_	_	_	_	_	_
+12	партнеры	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0060-p5-s7
@@ -188,7 +188,7 @@
 2	это	_	_	_	_	_	_	_	_
 3	будут	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_
-5	корпорации	_	_	_	_	_	_	_	SpaceAfter=No
+5	корпорации	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
 6	,	_	_	_	_	_	_	_	_
 7	а	_	_	_	_	_	_	_	_
 8	частные	_	_	_	_	_	_	_	_
@@ -212,7 +212,7 @@
 # text = По словам президента, бюджет ЦСКА ``чуть-чуть подрос'' и в настоящее время составляет 5-5,5 млрд рублей.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
+3	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT48=Person
 4	,	_	_	_	_	_	_	_	_
 5	бюджет	_	_	_	_	_	_	_	_
 6	ЦСКА	_	_	_	_	_	_	_	bratT16=Organization
@@ -306,7 +306,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
 13	отметил	_	_	_	_	_	_	_	_
-14	босс	_	_	_	_	_	_	_	bratT19=Person-property
-15	красно-синих	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property
+14	босс	_	_	_	_	_	_	_	bratA12=T49:Male|bratT19=Person-property|bratT49=Person
+15	красно-синих	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T49:Male|bratT19=Person-property|bratT49=Person
 16	.	_	_	_	_	_	_	_	_
 

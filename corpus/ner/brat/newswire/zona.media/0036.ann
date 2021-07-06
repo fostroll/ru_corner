@@ -10,7 +10,7 @@ T9	Person-forename 255 264	Владимиру
 T10	Person-surname 267 277	Иванютенко
 T11	Person-property 243 252	активисту
 T12	Date-period-relative 301 316	к   3,5   годам
-T15	Organization 451 460	Интерфакс
+T15	Organization 446 465	``   Интерфакс   ''
 A3	Media T15
 T16	Law 709 740	часть   1   статьи   222.1   УК
 T18	Ordinal 488 494	первой
@@ -26,7 +26,7 @@ T24	Person-surname 638 648	Иванютенко
 T25	Date-absolute 785 810	в   феврале   2019   года
 A7	Past T25
 T26	Person-property 813 821	активист
-T27	Organization 852 871	``   Пятерочки   ''
+T27	Facility 852 871	``   Пятерочки   ''
 T30	Person 884 963	участнику   оперативного   эксперимента   под   псевдонимом   Григорий   Иванов
 A8	Male T30
 T31	Person-forename 946 954	Григорий
@@ -48,7 +48,7 @@ T43	Person 1324 1334	Иванютенко
 A12	Male T43
 T44	Person-surname 1324 1334	Иванютенко
 T45	Political-group 1360 1372	оппозиционер
-T46	Person 1485 1491	Иванов
+T46	Person 1480 1496	``   Иванов   ''
 A13	Male T46
 T47	Person-surname 1485 1491	Иванов
 T48	Person 1558 1590	бизнесмена   Евгения   Пригожина
@@ -81,3 +81,21 @@ T61	Event 391 418	оперативного   эксперимента
 T62	Event 896 923	оперативного   эксперимента
 T63	Person 108 147	участнику   оперативного   эксперимента
 A20	Male T63
+T64	Person 1360 1372	оппозиционер
+A21	Male T64
+T65	Person-property 1315 1334	Защита   Иванютенко
+T66	Person 1315 1334	Защита   Иванютенко
+T67	Person 1150 1159	активиста
+A22	Male T67
+T68	Person 813 821	активист
+A23	Male T68
+T69	Person 0 26	Петербургскому   активисту
+A24	Male T69
+T70	Person 379 418	участнику   оперативного   эксперимента
+A25	Male T70
+T71	Event 548 568	новое   рассмотрение
+T72	Person 1520 1528	активист
+A26	Male T72
+T73	Person-alias 1480 1496	``   Иванов   ''
+T74	Person-alias 946 963	Григорий   Иванов
+T75	Facility 832 871	камеру   хранения   ``   Пятерочки   ''

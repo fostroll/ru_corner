@@ -95,11 +95,11 @@
 1	35	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Age
 2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT18=Age
 3	летний	_	_	_	_	_	_	_	bratT18=Age
-4	уроженец	_	_	_	_	_	_	_	bratA1=T20:Citizenship|bratT20=Nationality
-5	Каталонии	_	_	_	_	_	_	_	bratA1=T20:Citizenship|bratT19=GPE|bratT20=Nationality
-6	и	_	_	_	_	_	_	_	_
+4	уроженец	_	_	_	_	_	_	_	bratA1=T20:Citizenship|bratA11=T24:Male|bratT20=Nationality|bratT24=Person
+5	Каталонии	_	_	_	_	_	_	_	bratA1=T20:Citizenship|bratA11=T24:Male|bratT19=GPE|bratT20=Nationality|bratT24=Person
+6	и	_	_	_	_	_	_	_	bratA11=T24:Male|bratT24=Person
 7	воспитанник	_	_	_	_	_	_	_	bratA11=T24:Male|bratT23=Person-property|bratT24=Person
-8	юношеской	_	_	_	_	_	_	_	bratA11=T24:Male|bratT22=Organization|bratT23=Person-property|bratT24=Person
+8	юношеской	_	_	_	_	_	_	_	bratA11=T24:Male|bratT108=Age|bratT22=Organization|bratT23=Person-property|bratT24=Person
 9	школы	_	_	_	_	_	_	_	bratA11=T24:Male|bratT22=Organization|bratT23=Person-property|bratT24=Person
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Male|bratT21=Organization|bratT22=Organization|bratT23=Person-property|bratT24=Person
 11	Барселоны	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T24:Male|bratT21=Organization|bratT22=Organization|bratT23=Person-property|bratT24=Person|bratT72=GPE
@@ -133,7 +133,7 @@
 
 # sent_id = 0096-p4-s2
 # text = В кипрской ``Омонии'' он выступает с 2018 года.
-1	В	_	_	_	_	_	_	_	bratT30=Organization
+1	В	_	_	_	_	_	_	_	_
 2	кипрской	_	_	_	_	_	_	_	bratA14=T76:Adjective|bratT30=Organization|bratT76=GPE
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
 4	Омонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
@@ -275,7 +275,7 @@
 21	удалось	_	_	_	_	_	_	_	_
 22	за	_	_	_	_	_	_	_	bratT58=Time-period
 23	всю	_	_	_	_	_	_	_	bratT58=Time-period
-24	игру	_	_	_	_	_	_	_	bratT58=Time-period
+24	игру	_	_	_	_	_	_	_	bratT106=Event|bratT58=Time-period
 25	ни	_	_	_	_	_	_	_	bratT59=Quantity
 26	разу	_	_	_	_	_	_	_	bratT59=Quantity
 27	не	_	_	_	_	_	_	_	_
@@ -288,9 +288,9 @@
 # sent_id = 0096-p8-s1
 # text = Достижение действующих чемпионов Ирландии теперь можно будет лишь повторить, но не улучшить.
 1	Достижение	_	_	_	_	_	_	_	_
-2	действующих	_	_	_	_	_	_	_	bratT61=Person-property
-3	чемпионов	_	_	_	_	_	_	_	bratT61=Person-property
-4	Ирландии	_	_	_	_	_	_	_	bratT60=GPE|bratT61=Person-property
+2	действующих	_	_	_	_	_	_	_	bratT107=Person|bratT61=Person-property
+3	чемпионов	_	_	_	_	_	_	_	bratT107=Person|bratT61=Person-property
+4	Ирландии	_	_	_	_	_	_	_	bratT107=Person|bratT60=GPE|bratT61=Person-property
 5	теперь	_	_	_	_	_	_	_	bratA26=T62:Pres-Fut|bratT62=Date-period-absolute
 6	можно	_	_	_	_	_	_	_	_
 7	будет	_	_	_	_	_	_	_	_

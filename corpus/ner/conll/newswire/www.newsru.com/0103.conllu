@@ -22,8 +22,8 @@
 3	Владимир	_	_	_	_	_	_	_	bratA7=T4:Male|bratT4=Person|bratT47=Person-forename
 4	Путин	_	_	_	_	_	_	_	bratA7=T4:Male|bratT4=Person|bratT48=Person-surname
 5	провел	_	_	_	_	_	_	_	_
-6	телефонный	_	_	_	_	_	_	_	_
-7	разговор	_	_	_	_	_	_	_	_
+6	телефонный	_	_	_	_	_	_	_	bratT83=Event
+7	разговор	_	_	_	_	_	_	_	bratT83=Event
 8	с	_	_	_	_	_	_	_	_
 9	белорусским	_	_	_	_	_	_	_	bratA8=T49:Adjective|bratT49=GPE|bratT7=Person|bratT8=Person-property
 10	президентом	_	_	_	_	_	_	_	bratT7=Person|bratT8=Person-property
@@ -36,7 +36,7 @@
 1	Речь	_	_	_	_	_	_	_	_
 2	зашла	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
-4	приобретении	_	_	_	_	_	_	_	_
+4	приобретении	_	_	_	_	_	_	_	bratT92=Event
 5	Белоруссией	_	_	_	_	_	_	_	bratT9=GPE
 6	месторождения	_	_	_	_	_	_	_	_
 7	нефти	_	_	_	_	_	_	_	_
@@ -50,18 +50,18 @@
 # sent_id = 0103-p3-s1
 # text = ``Президент Белоруссии обратился к российскому коллеге с просьбой о возможном приобретении месторождения нефти на территории России.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Президент	_	_	_	_	_	_	_	bratT11=Person-property
-3	Белоруссии	_	_	_	_	_	_	_	bratT11=Person-property|bratT12=GPE
+2	Президент	_	_	_	_	_	_	_	bratA29=T84:Male|bratT11=Person-property|bratT84=Person
+3	Белоруссии	_	_	_	_	_	_	_	bratA29=T84:Male|bratT11=Person-property|bratT12=GPE|bratT84=Person
 4	обратился	_	_	_	_	_	_	_	_
 5	к	_	_	_	_	_	_	_	_
-6	российскому	_	_	_	_	_	_	_	bratA9=T52:Adjective|bratT52=GPE|bratT72=Person-property
-7	коллеге	_	_	_	_	_	_	_	bratT72=Person-property
+6	российскому	_	_	_	_	_	_	_	bratA30=T85:Male|bratA9=T52:Adjective|bratT52=GPE|bratT72=Person-property|bratT85=Person
+7	коллеге	_	_	_	_	_	_	_	bratA30=T85:Male|bratT72=Person-property|bratT85=Person
 8	с	_	_	_	_	_	_	_	_
 9	просьбой	_	_	_	_	_	_	_	_
 10	о	_	_	_	_	_	_	_	_
 11	возможном	_	_	_	_	_	_	_	_
-12	приобретении	_	_	_	_	_	_	_	_
-13	месторождения	_	_	_	_	_	_	_	_
+12	приобретении	_	_	_	_	_	_	_	bratT86=Event
+13	месторождения	_	_	_	_	_	_	_	bratT86=Event
 14	нефти	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
 16	территории	_	_	_	_	_	_	_	_
@@ -113,7 +113,7 @@
 13	отмечается	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
 15	сообщении	_	_	_	_	_	_	_	_
-16	госагентства	_	_	_	_	_	_	_	SpaceAfter=No
+16	госагентства	_	_	_	_	_	_	_	SpaceAfter=No|bratT87=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0103-p5
@@ -128,7 +128,7 @@
 6	связанные	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
 8	распространением	_	_	_	_	_	_	_	bratT80=Event
-9	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
+9	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT80=Event
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0103-p5-s2
@@ -162,12 +162,12 @@
 # text = Это предложение белорусского лидера было поддержано российским коллегой'', - рассказали в пресс-службе президента Лукашенко.
 1	Это	_	_	_	_	_	_	_	_
 2	предложение	_	_	_	_	_	_	_	bratT81=Event
-3	белорусского	_	_	_	_	_	_	_	bratA16=T57:Adjective|bratT19=Person-property|bratT57=GPE
-4	лидера	_	_	_	_	_	_	_	bratT19=Person-property
+3	белорусского	_	_	_	_	_	_	_	bratA16=T57:Adjective|bratA31=T88:Male|bratT19=Person-property|bratT57=GPE|bratT88=Person
+4	лидера	_	_	_	_	_	_	_	bratA31=T88:Male|bratT19=Person-property|bratT88=Person
 5	было	_	_	_	_	_	_	_	_
 6	поддержано	_	_	_	_	_	_	_	_
-7	российским	_	_	_	_	_	_	_	bratA17=T58:Adjective|bratT58=GPE|bratT73=Person-property
-8	коллегой	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Person-property
+7	российским	_	_	_	_	_	_	_	bratA17=T58:Adjective|bratA32=T89:Male|bratT58=GPE|bratT73=Person-property|bratT89=Person
+8	коллегой	_	_	_	_	_	_	_	SpaceAfter=No|bratA32=T89:Male|bratT73=Person-property|bratT89=Person
 9	''	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
@@ -191,11 +191,11 @@
 7	поблагодарил	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_
 9	проинформировал	_	_	_	_	_	_	_	_
-10	российского	_	_	_	_	_	_	_	bratA20=T62:Adjective|bratT62=GPE|bratT74=Person-property
-11	коллегу	_	_	_	_	_	_	_	bratT74=Person-property
+10	российского	_	_	_	_	_	_	_	bratA20=T62:Adjective|bratA33=T90:Male|bratT62=GPE|bratT74=Person-property|bratT90=Person
+11	коллегу	_	_	_	_	_	_	_	bratA33=T90:Male|bratT74=Person-property|bratT90=Person
 12	о	_	_	_	_	_	_	_	_
-13	завершении	_	_	_	_	_	_	_	_
-14	работ	_	_	_	_	_	_	_	_
+13	завершении	_	_	_	_	_	_	_	bratT82=Event
+14	работ	_	_	_	_	_	_	_	bratT82=Event
 15	по	_	_	_	_	_	_	_	_
 16	включению	_	_	_	_	_	_	_	_
 17	первого	_	_	_	_	_	_	_	bratT25=Ordinal
@@ -231,7 +231,7 @@
 4	тоже	_	_	_	_	_	_	_	_
 5	сообщается	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	разговоре	_	_	_	_	_	_	_	_
+7	разговоре	_	_	_	_	_	_	_	bratT91=Event
 8	Путина	_	_	_	_	_	_	_	bratA23=T64:Male|bratT30=Person-surname|bratT64=Person
 9	и	_	_	_	_	_	_	_	_
 10	Лукашенко	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T65:Male|bratT31=Person-surname|bratT65=Person

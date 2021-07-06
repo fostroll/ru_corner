@@ -1,4 +1,4 @@
-T1	Organization 0 8	Facebook
+T1	Service 0 8	Facebook
 T2	GPE 86 89	США
 T3	Event 56 79	президентских   выборов
 T5	Organization 91 109	Соцсеть   Facebook
@@ -10,7 +10,7 @@ T11	Person-property 314 338	представитель   Facebook
 T12	Organization 358 369	The   Verge
 A5	Media T12
 T13	Person-property 610 619	аналитики
-T14	Organization 734 742	Facebook
+T14	Service 734 742	Facebook
 T16	Organization 1061 1068	Reuters
 A7	Media T16
 T17	Person-property 958 967	кандидата
@@ -61,5 +61,8 @@ T22	Other-group 810 823	пользователей
 T46	Other-group 1460 1473	пользователей
 T47	Other-group 1794 1807	пользователей
 T48	Event 1668 1682	фальсификациях
-T49	Event 1414 1429	распространение
+T49	Event 1414 1449	распространение   таких   заявлений
 T50	Event 1250 1259	появление
+T51	Person 314 338	представитель   Facebook
+A16	Male T51
+T52	Event 1294 1312	подсчете   голосов

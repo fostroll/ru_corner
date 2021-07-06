@@ -54,7 +54,7 @@
 12	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T5:Past|bratT5=Date-absolute
 13	,	_	_	_	_	_	_	_	_
 14	дата	_	_	_	_	_	_	_	_
-15	рассмотрения	_	_	_	_	_	_	_	_
+15	рассмотрения	_	_	_	_	_	_	_	bratT47=Event
 16	его	_	_	_	_	_	_	_	_
 17	обоснованности	_	_	_	_	_	_	_	_
 18	пока	_	_	_	_	_	_	_	_
@@ -156,7 +156,7 @@
 10	что	_	_	_	_	_	_	_	_
 11	сделало	_	_	_	_	_	_	_	_
 12	невозможным	_	_	_	_	_	_	_	_
-13	выполнение	_	_	_	_	_	_	_	_
+13	выполнение	_	_	_	_	_	_	_	bratT49=Event
 14	обязательств	_	_	_	_	_	_	_	SpaceAfter=No
 15	.	_	_	_	_	_	_	_	_
 
@@ -180,8 +180,8 @@
 2	Первая	_	_	_	_	_	_	_	bratT16=Ordinal|bratT24=Event
 3	волна	_	_	_	_	_	_	_	bratT24=Event
 4	новостей	_	_	_	_	_	_	_	bratT24=Event
-5	о	_	_	_	_	_	_	_	bratT24=Event
-6	пандемии	_	_	_	_	_	_	_	bratT24=Event|bratT26=Event
+5	о	_	_	_	_	_	_	_	_
+6	пандемии	_	_	_	_	_	_	_	bratT26=Event
 7	в	_	_	_	_	_	_	_	bratA9=T17:Past|bratT17=Date-absolute
 8	начале	_	_	_	_	_	_	_	bratA9=T17:Past|bratT17=Date-absolute
 9	марта	_	_	_	_	_	_	_	bratA9=T17:Past|bratT17=Date-absolute
@@ -209,8 +209,8 @@
 6	еще	_	_	_	_	_	_	_	_
 7	до	_	_	_	_	_	_	_	bratA11=T27:Past|bratT27=Date-absolute
 8	введения	_	_	_	_	_	_	_	bratA11=T27:Past|bratT27=Date-absolute|bratT45=Event
-9	ограничительных	_	_	_	_	_	_	_	bratA11=T27:Past|bratT27=Date-absolute|bratT45=Event|bratT46=Event
-10	мер	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T27:Past|bratT27=Date-absolute|bratT45=Event|bratT46=Event
+9	ограничительных	_	_	_	_	_	_	_	bratA11=T27:Past|bratT27=Date-absolute|bratT45=Event
+10	мер	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T27:Past|bratT27=Date-absolute|bratT45=Event
 11	,	_	_	_	_	_	_	_	_
 12	просадка	_	_	_	_	_	_	_	_
 13	была	_	_	_	_	_	_	_	_
@@ -263,8 +263,8 @@
 27	,	_	_	_	_	_	_	_	_
 28	-	_	_	_	_	_	_	_	_
 29	сказал	_	_	_	_	_	_	_	_
-30	представитель	_	_	_	_	_	_	_	bratT29=Person-property
-31	компании	_	_	_	_	_	_	_	bratT29=Person-property|bratT37=Organization
+30	представитель	_	_	_	_	_	_	_	bratA15=T48:Male|bratT29=Person-property|bratT48=Person
+31	компании	_	_	_	_	_	_	_	bratA15=T48:Male|bratT29=Person-property|bratT37=Organization|bratT48=Person
 32	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
 33	Ведомостям	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization
 34	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T21:Media|bratT21=Organization

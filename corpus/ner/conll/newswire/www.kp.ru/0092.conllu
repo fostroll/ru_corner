@@ -7,7 +7,7 @@
 2	обвинил	_	_	_	_	_	_	_	_
 3	демократов	_	_	_	_	_	_	_	bratT2=Political-group
 4	в	_	_	_	_	_	_	_	_
-5	попытках	_	_	_	_	_	_	_	_
+5	попытках	_	_	_	_	_	_	_	bratT65=Event
 6	манипуляции	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
 8	голосами	_	_	_	_	_	_	_	_
@@ -29,7 +29,7 @@
 8	партию	_	_	_	_	_	_	_	bratT6=Organization
 9	США	_	_	_	_	_	_	_	bratT5=GPE|bratT6=Organization
 10	в	_	_	_	_	_	_	_	_
-11	попытках	_	_	_	_	_	_	_	_
+11	попытках	_	_	_	_	_	_	_	bratT66=Event
 12	совершить	_	_	_	_	_	_	_	_
 13	манипуляции	_	_	_	_	_	_	_	_
 14	с	_	_	_	_	_	_	_	_
@@ -38,9 +38,9 @@
 17	их	_	_	_	_	_	_	_	_
 18	накрутки	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
-20	целом	_	_	_	_	_	_	_	bratT44=Quantity
-21	ряде	_	_	_	_	_	_	_	bratT44=Quantity
-22	штатов	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Quantity
+20	целом	_	_	_	_	_	_	_	_
+21	ряде	_	_	_	_	_	_	_	_
+22	штатов	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0092-p3
@@ -138,8 +138,8 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	ранее	_	_	_	_	_	_	_	bratA6=T41:Past|bratT41=Date-relative
-4	американский	_	_	_	_	_	_	_	bratA17=T54:Adjective|bratT19=Person-property|bratT54=GPE
-5	президент	_	_	_	_	_	_	_	bratT19=Person-property
+4	американский	_	_	_	_	_	_	_	bratA17=T54:Adjective|bratA22=T68:Male|bratT19=Person-property|bratT54=GPE|bratT68=Person
+5	президент	_	_	_	_	_	_	_	bratA22=T68:Male|bratT19=Person-property|bratT68=Person
 6	назвал	_	_	_	_	_	_	_	_
 7	``	_	_	_	_	_	_	_	SpaceAfter=No
 8	очень	_	_	_	_	_	_	_	_
@@ -156,8 +156,8 @@
 19	вечером	_	_	_	_	_	_	_	bratA5=T46:Past|bratT39=Time-absolute|bratT46=Date-relative
 20	он	_	_	_	_	_	_	_	_
 21	опережал	_	_	_	_	_	_	_	_
-22	своего	_	_	_	_	_	_	_	_
-23	соперника	_	_	_	_	_	_	_	_
+22	своего	_	_	_	_	_	_	_	bratA21=T67:Male|bratT67=Person
+23	соперника	_	_	_	_	_	_	_	bratA21=T67:Male|bratT67=Person
 24	-	_	_	_	_	_	_	_	_
 25	кандидата	_	_	_	_	_	_	_	bratA11=T22:Male|bratT21=Person-property|bratT22=Person
 26	от	_	_	_	_	_	_	_	bratA11=T22:Male|bratT21=Person-property|bratT22=Person

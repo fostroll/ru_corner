@@ -137,18 +137,18 @@
 # text = До этого главы России, Армении и Азербайджана приняли совместное заявление о прекращении огня в Нагорном Карабахе с 10 ноября.
 1	До	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-relative
 2	этого	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-relative
-3	главы	_	_	_	_	_	_	_	bratA2=T24:Plural|bratT24=Person-property
-4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T24:Plural|bratT21=GPE|bratT24=Person-property
-5	,	_	_	_	_	_	_	_	bratA2=T24:Plural|bratT24=Person-property
-6	Армении	_	_	_	_	_	_	_	bratA2=T24:Plural|bratT22=GPE|bratT24=Person-property
-7	и	_	_	_	_	_	_	_	bratA2=T24:Plural|bratT24=Person-property
-8	Азербайджана	_	_	_	_	_	_	_	bratA2=T24:Plural|bratT23=GPE|bratT24=Person-property
+3	главы	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T24:Plural|bratT24=Person-property|bratT54=Person
+4	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Plural|bratA2=T24:Plural|bratT21=GPE|bratT24=Person-property|bratT54=Person
+5	,	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T24:Plural|bratT24=Person-property|bratT54=Person
+6	Армении	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T24:Plural|bratT22=GPE|bratT24=Person-property|bratT54=Person
+7	и	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T24:Plural|bratT24=Person-property|bratT54=Person
+8	Азербайджана	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T24:Plural|bratT23=GPE|bratT24=Person-property|bratT54=Person
 9	приняли	_	_	_	_	_	_	_	_
 10	совместное	_	_	_	_	_	_	_	_
 11	заявление	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
-13	прекращении	_	_	_	_	_	_	_	_
-14	огня	_	_	_	_	_	_	_	_
+13	прекращении	_	_	_	_	_	_	_	bratT53=Event
+14	огня	_	_	_	_	_	_	_	bratT53=Event
 15	в	_	_	_	_	_	_	_	_
 16	Нагорном	_	_	_	_	_	_	_	bratT25=GPE
 17	Карабахе	_	_	_	_	_	_	_	bratT25=GPE
@@ -199,8 +199,8 @@
 2	признал	_	_	_	_	_	_	_	_
 3	вину	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	крушении	_	_	_	_	_	_	_	_
-6	вертолета	_	_	_	_	_	_	_	_
+5	крушении	_	_	_	_	_	_	_	bratT55=Event
+6	вертолета	_	_	_	_	_	_	_	bratT55=Event
 7	и	_	_	_	_	_	_	_	_
 8	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_

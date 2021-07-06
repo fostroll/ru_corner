@@ -5,7 +5,7 @@
 # text = Наставник ``Спартака'' Тедеско с 7 ноября находится в Германии
 1	Наставник	_	_	_	_	_	_	_	bratA9=T3:Male|bratT2=Person-property|bratT3=Person
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T3:Male|bratT1=Organization|bratT2=Person-property|bratT3=Person
-3	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T3:Male|bratT1=Organization|bratT2=Person-property|bratT3=Person
+3	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T44:Male|bratA9=T3:Male|bratT1=Organization|bratT2=Person-property|bratT3=Person|bratT44=Person|bratT45=Person-alias
 4	''	_	_	_	_	_	_	_	bratA9=T3:Male|bratT1=Organization|bratT2=Person-property|bratT3=Person
 5	Тедеско	_	_	_	_	_	_	_	bratA9=T3:Male|bratT3=Person|bratT31=Person-surname
 6	с	_	_	_	_	_	_	_	bratA2=T4:Past-Pres|bratA3=T4:RCont|bratT4=Date-period-absolute
@@ -22,7 +22,7 @@
 1	Наставник	_	_	_	_	_	_	_	bratA7=T8:Male|bratT7=Person-property|bratT8=Person
 2	московского	_	_	_	_	_	_	_	bratA10=T32:Adjective|bratA7=T8:Male|bratT32=GPE|bratT6=Organization|bratT7=Person-property|bratT8=Person
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
-4	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
+4	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T46:Male|bratA7=T8:Male|bratT46=Person|bratT47=Person-alias|bratT6=Organization|bratT7=Person-property|bratT8=Person
 5	''	_	_	_	_	_	_	_	bratA7=T8:Male|bratT6=Organization|bratT7=Person-property|bratT8=Person
 6	Доменико	_	_	_	_	_	_	_	bratA7=T8:Male|bratT27=Person-forename|bratT8=Person
 7	Тедеско	_	_	_	_	_	_	_	bratA7=T8:Male|bratT28=Person-surname|bratT8=Person
@@ -78,7 +78,7 @@
 
 # sent_id = 0086-p2-s3
 # text = Игроки занимались на базе или дома.
-1	Игроки	_	_	_	_	_	_	_	_
+1	Игроки	_	_	_	_	_	_	_	bratT43=Person-property
 2	занимались	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	базе	_	_	_	_	_	_	_	bratT41=Facility
@@ -110,7 +110,7 @@
 # text = Ранее ``Спартак'' пошутил над Дональдом Трампом.
 1	Ранее	_	_	_	_	_	_	_	bratA6=T23:Past|bratT23=Date-relative
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
-3	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Organization
+3	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T48:Male|bratT18=Organization|bratT48=Person|bratT49=Person-alias
 4	''	_	_	_	_	_	_	_	bratT18=Organization
 5	пошутил	_	_	_	_	_	_	_	_
 6	над	_	_	_	_	_	_	_	_

@@ -22,14 +22,14 @@
 2	Приморье	_	_	_	_	_	_	_	bratT13=GPE
 3	следователи	_	_	_	_	_	_	_	bratT26=Person-property
 4	начали	_	_	_	_	_	_	_	_
-5	проверку	_	_	_	_	_	_	_	_
+5	проверку	_	_	_	_	_	_	_	bratT36=Event
 6	по	_	_	_	_	_	_	_	_
 7	факту	_	_	_	_	_	_	_	_
 8	обрушения	_	_	_	_	_	_	_	bratT16=Event
 9	бетонной	_	_	_	_	_	_	_	bratT16=Event
 10	плиты	_	_	_	_	_	_	_	bratT16=Event
-11	на	_	_	_	_	_	_	_	bratT16=Event
-12	машину	_	_	_	_	_	_	_	bratT16=Event
+11	на	_	_	_	_	_	_	_	_
+12	машину	_	_	_	_	_	_	_	_
 13	во	_	_	_	_	_	_	_	_
 14	Владивостоке	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=GPE
 15	.	_	_	_	_	_	_	_	_
@@ -152,7 +152,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Во	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-absolute
 3	время	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-absolute
-4	разрушения	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-absolute
+4	разрушения	_	_	_	_	_	_	_	bratA2=T18:Past|bratT18=Date-absolute|bratT39=Event
 5	создался	_	_	_	_	_	_	_	_
 6	уклон	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
@@ -186,7 +186,7 @@
 8	Владивостоке	_	_	_	_	_	_	_	bratT8=GPE
 9	прокуратура	_	_	_	_	_	_	_	bratT9=Organization
 10	организовала	_	_	_	_	_	_	_	_
-11	проверку	_	_	_	_	_	_	_	_
+11	проверку	_	_	_	_	_	_	_	bratT37=Event
 12	исполнения	_	_	_	_	_	_	_	_
 13	жилищного	_	_	_	_	_	_	_	bratT20=Law
 14	законодательства	_	_	_	_	_	_	_	bratT20=Law
@@ -220,8 +220,8 @@
 12	автомобиль	_	_	_	_	_	_	_	_
 13	упал	_	_	_	_	_	_	_	_
 14	козырёк	_	_	_	_	_	_	_	_
-15	вентиляционной	_	_	_	_	_	_	_	_
-16	шахты	_	_	_	_	_	_	_	_
+15	вентиляционной	_	_	_	_	_	_	_	bratT40=Facility
+16	шахты	_	_	_	_	_	_	_	bratT40=Facility
 17	с	_	_	_	_	_	_	_	_
 18	крыши	_	_	_	_	_	_	_	bratT34=Facility
 19	девятиэтажного	_	_	_	_	_	_	_	bratT11=Quantity|bratT34=Facility|bratT35=Facility
@@ -235,8 +235,8 @@
 1	В	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
 2	момент	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute
 3	падения	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute|bratT25=Event
-4	владелец	_	_	_	_	_	_	_	bratT21=Person-property
-5	авто	_	_	_	_	_	_	_	bratT21=Person-property
+4	владелец	_	_	_	_	_	_	_	bratA5=T38:Male|bratT21=Person-property|bratT38=Person
+5	авто	_	_	_	_	_	_	_	bratA5=T38:Male|bratT21=Person-property|bratT38=Person
 6	чистил	_	_	_	_	_	_	_	_
 7	машину	_	_	_	_	_	_	_	SpaceAfter=No
 8	.	_	_	_	_	_	_	_	_

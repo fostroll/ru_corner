@@ -3,8 +3,8 @@
 # par_text = Мэра Томска арестовали по делу о превышении должностных полномочий
 # sent_id = 0089-p1-s1
 # text = Мэра Томска арестовали по делу о превышении должностных полномочий
-1	Мэра	_	_	_	_	_	_	_	bratT1=Person-property
-2	Томска	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+1	Мэра	_	_	_	_	_	_	_	bratT1=Person-property|bratT50=Person
+2	Томска	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE|bratT50=Person
 3	арестовали	_	_	_	_	_	_	_	_
 4	по	_	_	_	_	_	_	_	_
 5	делу	_	_	_	_	_	_	_	bratT44=Event
@@ -66,7 +66,7 @@
 8	году	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-absolute
 9	не	_	_	_	_	_	_	_	_
 10	дал	_	_	_	_	_	_	_	_
-11	предпринимателю	_	_	_	_	_	_	_	bratT16=Person-property
+11	предпринимателю	_	_	_	_	_	_	_	bratA14=T51:Male|bratT16=Person-property|bratT51=Person
 12	построить	_	_	_	_	_	_	_	_
 13	многоэтажный	_	_	_	_	_	_	_	bratT45=Facility
 14	дом	_	_	_	_	_	_	_	bratT45=Facility
@@ -82,8 +82,8 @@
 24	в	_	_	_	_	_	_	_	_
 25	этом	_	_	_	_	_	_	_	_
 26	районе	_	_	_	_	_	_	_	_
-27	санитарно-защитную	_	_	_	_	_	_	_	bratT46=Organization
-28	зону	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Organization
+27	санитарно-защитную	_	_	_	_	_	_	_	bratT46=Facility
+28	зону	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Facility
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0089-p5
@@ -134,13 +134,13 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	местные	_	_	_	_	_	_	_	bratA13=T39:Adjective|bratT23=Person-property|bratT39=GPE
-5	депутаты	_	_	_	_	_	_	_	bratT23=Person-property
+4	местные	_	_	_	_	_	_	_	bratA13=T39:Adjective|bratT23=Person-property|bratT39=GPE|bratT52=Person
+5	депутаты	_	_	_	_	_	_	_	bratT23=Person-property|bratT52=Person
 6	собирали	_	_	_	_	_	_	_	_
 7	поручительства	_	_	_	_	_	_	_	_
 8	за	_	_	_	_	_	_	_	_
-9	главу	_	_	_	_	_	_	_	bratT24=Person-property
-10	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT41=GPE
+9	главу	_	_	_	_	_	_	_	bratT24=Person-property|bratT53=Person
+10	города	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT41=GPE|bratT53=Person
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0089-p6-s3

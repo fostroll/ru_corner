@@ -8,20 +8,20 @@
 3	в	_	_	_	_	_	_	_	_
 4	прокуратуру	_	_	_	_	_	_	_	bratT22=Organization
 5	дело	_	_	_	_	_	_	_	bratT24=Event
-6	финансиста	_	_	_	_	_	_	_	bratT2=Person-property
-7	группы	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property
-8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT1=Organization|bratT2=Person-property
-9	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Organization|bratT2=Person-property
-10	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT1=Organization|bratT2=Person-property
+6	финансиста	_	_	_	_	_	_	_	bratA7=T33:Male|bratT2=Person-property|bratT33=Person
+7	группы	_	_	_	_	_	_	_	bratA7=T33:Male|bratT1=Organization|bratT2=Person-property|bratT33=Person
+8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA7=T33:Male|bratT1=Organization|bratT2=Person-property|bratT33=Person
+9	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T33:Male|bratT1=Organization|bratT2=Person-property|bratT33=Person
+10	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA7=T33:Male|bratT1=Organization|bratT2=Person-property|bratT33=Person
 11	об	_	_	_	_	_	_	_	_
 12	участии	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
-14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-15	преступном	_	_	_	_	_	_	_	_
-16	сообществе	_	_	_	_	_	_	_	SpaceAfter=No
-17	''	_	_	_	_	_	_	_	QuotationEnd=»
-18	братьев	_	_	_	_	_	_	_	bratT4=Family
-19	Магомедовых	_	_	_	_	_	_	_	bratT3=Person|bratT5=Person-surname
+14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT34=Organization
+15	преступном	_	_	_	_	_	_	_	bratT34=Organization
+16	сообществе	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
+17	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT34=Organization
+18	братьев	_	_	_	_	_	_	_	bratT3=Person|bratT34=Organization|bratT4=Family
+19	Магомедовых	_	_	_	_	_	_	_	bratT3=Person|bratT34=Organization|bratT5=Person-surname
 
 # newpar id = 0065-p2
 # par_text = Пресненский районный суд Москвы вернул в прокуратуру дело бывшего финансиста группы «Сумма» Александра Кабанова и топ-менеджера «Глобалэлектросервиса» Хачима Эристова об участии в преступном сообществе братьев Магомедовых. Обоих обвиняют по части 3 статьи 210 (участие в преступном сообществе с использованием служебного положения) и по части 4 статьи 159 УК (мошенничество в особо крупном размере). Об этом сообщает ТАСС.
@@ -53,10 +53,10 @@
 24	об	_	_	_	_	_	_	_	_
 25	участии	_	_	_	_	_	_	_	_
 26	в	_	_	_	_	_	_	_	_
-27	преступном	_	_	_	_	_	_	_	_
-28	сообществе	_	_	_	_	_	_	_	_
-29	братьев	_	_	_	_	_	_	_	bratT27=Law
-30	Магомедовых	_	_	_	_	_	_	_	SpaceAfter=No
+27	преступном	_	_	_	_	_	_	_	bratT35=Organization
+28	сообществе	_	_	_	_	_	_	_	bratT35=Organization
+29	братьев	_	_	_	_	_	_	_	bratT27=Family|bratT35=Organization|bratT47=Person
+30	Магомедовых	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Organization|bratT47=Person|bratT68=Person-surname
 31	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0065-p2-s2
@@ -71,8 +71,8 @@
 8	(	_	_	_	_	_	_	_	SpaceAfter=No
 9	участие	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
-11	преступном	_	_	_	_	_	_	_	_
-12	сообществе	_	_	_	_	_	_	_	_
+11	преступном	_	_	_	_	_	_	_	bratT69=Organization
+12	сообществе	_	_	_	_	_	_	_	bratT69=Organization
 13	с	_	_	_	_	_	_	_	_
 14	использованием	_	_	_	_	_	_	_	_
 15	служебного	_	_	_	_	_	_	_	_
@@ -86,7 +86,7 @@
 23	159	_	_	_	_	_	_	_	bratT32=Law|bratT79=Ordinal
 24	УК	_	_	_	_	_	_	_	bratT30=Law|bratT32=Law
 25	(	_	_	_	_	_	_	_	SpaceAfter=No
-26	мошенничество	_	_	_	_	_	_	_	_
+26	мошенничество	_	_	_	_	_	_	_	bratT70=Event
 27	в	_	_	_	_	_	_	_	_
 28	особо	_	_	_	_	_	_	_	_
 29	крупном	_	_	_	_	_	_	_	_
@@ -111,12 +111,12 @@
 3	и	_	_	_	_	_	_	_	bratA11=T37:Plural|bratT37=Person
 4	Магомеда	_	_	_	_	_	_	_	bratA11=T37:Plural|bratA13=T41:Male|bratT37=Person|bratT41=Person|bratT42=Person-forename
 5	Магомедовых	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T37:Plural|bratT37=Person|bratT43=Person-surname
-6	,	_	_	_	_	_	_	_	_
-7	совладельцев	_	_	_	_	_	_	_	bratT44=Person-property
-8	группы	_	_	_	_	_	_	_	bratT44=Person-property|bratT45=Organization
-9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT44=Person-property|bratT45=Organization
-10	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Person-property|bratT45=Organization
-11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT44=Person-property|bratT45=Organization
+6	,	_	_	_	_	_	_	_	bratA11=T37:Plural|bratT37=Person
+7	совладельцев	_	_	_	_	_	_	_	bratA11=T37:Plural|bratT37=Person|bratT44=Person-property
+8	группы	_	_	_	_	_	_	_	bratA11=T37:Plural|bratT37=Person|bratT44=Person-property|bratT45=Organization
+9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA11=T37:Plural|bratT37=Person|bratT44=Person-property|bratT45=Organization
+10	Сумма	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T37:Plural|bratT37=Person|bratT44=Person-property|bratT45=Organization
+11	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA11=T37:Plural|bratT37=Person|bratT44=Person-property|bratT45=Organization
 12	с	_	_	_	_	_	_	_	_
 13	активами	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
@@ -139,14 +139,14 @@
 1	Их	_	_	_	_	_	_	_	_
 2	обвиняют	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	создании	_	_	_	_	_	_	_	_
-5	преступного	_	_	_	_	_	_	_	_
-6	сообщества	_	_	_	_	_	_	_	_
+4	создании	_	_	_	_	_	_	_	bratT73=Event
+5	преступного	_	_	_	_	_	_	_	bratT71=Organization
+6	сообщества	_	_	_	_	_	_	_	bratT71=Organization
 7	и	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	девяти	_	_	_	_	_	_	_	bratT48=Quantity
 10	эпизодах	_	_	_	_	_	_	_	bratT48=Quantity
-11	мошенничества	_	_	_	_	_	_	_	_
+11	мошенничества	_	_	_	_	_	_	_	bratT72=Event
 12	с	_	_	_	_	_	_	_	_
 13	общим	_	_	_	_	_	_	_	_
 14	ущербом	_	_	_	_	_	_	_	_

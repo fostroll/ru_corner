@@ -34,7 +34,7 @@
 13	,	_	_	_	_	_	_	_	_
 14	вернувшейся	_	_	_	_	_	_	_	_
 15	на	_	_	_	_	_	_	_	_
-16	родину	_	_	_	_	_	_	_	_
+16	родину	_	_	_	_	_	_	_	bratT111=GPE
 17	после	_	_	_	_	_	_	_	bratA7=T50:Past|bratT50=Date-absolute
 18	отмены	_	_	_	_	_	_	_	bratA7=T50:Past|bratT50=Date-absolute|bratT82=Event
 19	матча	_	_	_	_	_	_	_	bratT54=Event|bratT82=Event
@@ -92,8 +92,8 @@
 22	отведенном	_	_	_	_	_	_	_	_
 23	для	_	_	_	_	_	_	_	_
 24	этого	_	_	_	_	_	_	_	_
-25	помещении	_	_	_	_	_	_	_	_
-26	аэропорта	_	_	_	_	_	_	_	SpaceAfter=No|bratT95=Facility
+25	помещении	_	_	_	_	_	_	_	bratT109=Facility
+26	аэропорта	_	_	_	_	_	_	_	SpaceAfter=No|bratT109=Facility|bratT95=Facility
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0119-p3-s2
@@ -101,7 +101,7 @@
 1	Процедура	_	_	_	_	_	_	_	_
 2	проводилась	_	_	_	_	_	_	_	_
 3	специалистами	_	_	_	_	_	_	_	bratT58=Person-property
-4	лаборатории	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Person-property
+4	лаборатории	_	_	_	_	_	_	_	SpaceAfter=No|bratT110=Organization|bratT58=Person-property
 5	,	_	_	_	_	_	_	_	_
 6	сертифицированной	_	_	_	_	_	_	_	_
 7	УЕФА	_	_	_	_	_	_	_	bratT16=Organization
@@ -192,21 +192,21 @@
 # text = Среди сдавших положительный тест были игроки Эдуард Соболь, Евгений Макаренко, Дмитрий Ризнык и Руслан Малиновский, а также тренер по физподготовке Иван Баштовой.
 1	Среди	_	_	_	_	_	_	_	_
 2	сдавших	_	_	_	_	_	_	_	_
-3	положительный	_	_	_	_	_	_	_	_
-4	тест	_	_	_	_	_	_	_	_
+3	положительный	_	_	_	_	_	_	_	bratT104=Event
+4	тест	_	_	_	_	_	_	_	bratT104=Event
 5	были	_	_	_	_	_	_	_	_
-6	игроки	_	_	_	_	_	_	_	bratA3=T29:Plural|bratT29=Person-property
-7	Эдуард	_	_	_	_	_	_	_	bratA18=T30:Male|bratA3=T29:Plural|bratT29=Person-property|bratT30=Person|bratT68=Person-forename
-8	Соболь	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T30:Male|bratA3=T29:Plural|bratT29=Person-property|bratT30=Person|bratT72=Person-surname
-9	,	_	_	_	_	_	_	_	bratA3=T29:Plural|bratT29=Person-property
-10	Евгений	_	_	_	_	_	_	_	bratA19=T31:Male|bratA3=T29:Plural|bratT29=Person-property|bratT31=Person|bratT69=Person-forename
-11	Макаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T31:Male|bratA3=T29:Plural|bratT29=Person-property|bratT31=Person|bratT73=Person-surname
-12	,	_	_	_	_	_	_	_	bratA3=T29:Plural|bratT29=Person-property
-13	Дмитрий	_	_	_	_	_	_	_	bratA20=T32:Male|bratA3=T29:Plural|bratT29=Person-property|bratT32=Person|bratT70=Person-forename
-14	Ризнык	_	_	_	_	_	_	_	bratA20=T32:Male|bratA3=T29:Plural|bratT29=Person-property|bratT32=Person|bratT74=Person-surname
-15	и	_	_	_	_	_	_	_	bratA3=T29:Plural|bratT29=Person-property
-16	Руслан	_	_	_	_	_	_	_	bratA21=T33:Male|bratA3=T29:Plural|bratT29=Person-property|bratT33=Person|bratT71=Person-forename
-17	Малиновский	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T33:Male|bratA3=T29:Plural|bratT29=Person-property|bratT33=Person|bratT75=Person-surname
+6	игроки	_	_	_	_	_	_	_	bratA3=T29:Plural|bratA30=T29:Male|bratT106=Person-property|bratT29=Person
+7	Эдуард	_	_	_	_	_	_	_	bratA18=T30:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT30=Person|bratT68=Person-forename
+8	Соболь	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T30:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT30=Person|bratT72=Person-surname
+9	,	_	_	_	_	_	_	_	bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person
+10	Евгений	_	_	_	_	_	_	_	bratA19=T31:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT31=Person|bratT69=Person-forename
+11	Макаренко	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T31:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT31=Person|bratT73=Person-surname
+12	,	_	_	_	_	_	_	_	bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person
+13	Дмитрий	_	_	_	_	_	_	_	bratA20=T32:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT32=Person|bratT70=Person-forename
+14	Ризнык	_	_	_	_	_	_	_	bratA20=T32:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT32=Person|bratT74=Person-surname
+15	и	_	_	_	_	_	_	_	bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person
+16	Руслан	_	_	_	_	_	_	_	bratA21=T33:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT33=Person|bratT71=Person-forename
+17	Малиновский	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T33:Male|bratA3=T29:Plural|bratA30=T29:Male|bratT29=Person|bratT33=Person|bratT75=Person-surname
 18	,	_	_	_	_	_	_	_	_
 19	а	_	_	_	_	_	_	_	_
 20	также	_	_	_	_	_	_	_	_
@@ -242,7 +242,7 @@
 21	местные	_	_	_	_	_	_	_	bratA28=T93:Adjective|bratT90=Organization|bratT93=GPE
 22	власти	_	_	_	_	_	_	_	bratT90=Organization
 23	запретили	_	_	_	_	_	_	_	_
-24	игрокам	_	_	_	_	_	_	_	bratT41=Person-property
+24	игрокам	_	_	_	_	_	_	_	bratA31=T107:Male|bratT107=Person|bratT41=Person-property
 25	появляться	_	_	_	_	_	_	_	_
 26	на	_	_	_	_	_	_	_	_
 27	поле	_	_	_	_	_	_	_	_
@@ -260,8 +260,8 @@
 4	на	_	_	_	_	_	_	_	bratA25=T42:Past|bratT42=Date-absolute
 5	прошлой	_	_	_	_	_	_	_	bratA25=T42:Past|bratT42=Date-absolute|bratT80=Ordinal
 6	неделе	_	_	_	_	_	_	_	bratA25=T42:Past|bratT42=Date-absolute
-7	сомнительные	_	_	_	_	_	_	_	_
-8	тесты	_	_	_	_	_	_	_	_
+7	сомнительные	_	_	_	_	_	_	_	bratT105=Event
+8	тесты	_	_	_	_	_	_	_	bratT105=Event
 9	на	_	_	_	_	_	_	_	_
 10-12	COVID-19	_	_	_	_	_	_	_	_
 10	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Other-term
@@ -277,8 +277,8 @@
 # sent_id = 0119-p6-s2
 # text = Однако повторная проверка, проведенная в отечественном Федеральном медико-биологическом агентстве (ФМБА), не выявила ни одного подозрительного теста.
 1	Однако	_	_	_	_	_	_	_	_
-2	повторная	_	_	_	_	_	_	_	bratT57=Ordinal
-3	проверка	_	_	_	_	_	_	_	SpaceAfter=No
+2	повторная	_	_	_	_	_	_	_	bratT103=Event|bratT57=Ordinal
+3	проверка	_	_	_	_	_	_	_	SpaceAfter=No|bratT103=Event
 4	,	_	_	_	_	_	_	_	_
 5	проведенная	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
@@ -294,7 +294,7 @@
 16	выявила	_	_	_	_	_	_	_	_
 17	ни	_	_	_	_	_	_	_	bratT56=Quantity
 18	одного	_	_	_	_	_	_	_	bratT56=Quantity
-19	подозрительного	_	_	_	_	_	_	_	bratT56=Quantity
-20	теста	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Quantity
+19	подозрительного	_	_	_	_	_	_	_	bratT108=Event|bratT56=Quantity
+20	теста	_	_	_	_	_	_	_	SpaceAfter=No|bratT108=Event|bratT56=Quantity
 21	.	_	_	_	_	_	_	_	_
 

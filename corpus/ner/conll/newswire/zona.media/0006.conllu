@@ -3,8 +3,8 @@
 # par_text = Краснодарские полицейские под предлогом поиска наркотиков досматривали машины и вымогали у водителей деньги, угрожая уголовным делом
 # sent_id = 0006-p1-s1
 # text = Краснодарские полицейские под предлогом поиска наркотиков досматривали машины и вымогали у водителей деньги, угрожая уголовным делом
-1	Краснодарские	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-2	полицейские	_	_	_	_	_	_	_	bratT1=Person-property
+1	Краснодарские	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE|bratT65=Person
+2	полицейские	_	_	_	_	_	_	_	bratT1=Person-property|bratT65=Person
 3	под	_	_	_	_	_	_	_	_
 4	предлогом	_	_	_	_	_	_	_	_
 5	поиска	_	_	_	_	_	_	_	_
@@ -26,8 +26,8 @@
 # sent_id = 0006-p2-s1
 # text = Управление Следственного комитета по Краснодарскому краю завершило расследование дела против четверых экс-полицейских, которые вымогали деньги у автомобилистов, угрожая уголовным преследованием.
 1	Управление	_	_	_	_	_	_	_	bratT4=Organization
-2	Следственного	_	_	_	_	_	_	_	bratT4=Organization
-3	комитета	_	_	_	_	_	_	_	bratT4=Organization
+2	Следственного	_	_	_	_	_	_	_	bratT4=Organization|bratT70=Organization
+3	комитета	_	_	_	_	_	_	_	bratT4=Organization|bratT70=Organization
 4	по	_	_	_	_	_	_	_	bratT4=Organization
 5	Краснодарскому	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
 6	краю	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
@@ -35,11 +35,11 @@
 8	расследование	_	_	_	_	_	_	_	bratT64=Event
 9	дела	_	_	_	_	_	_	_	bratT30=Event|bratT64=Event
 10	против	_	_	_	_	_	_	_	_
-11	четверых	_	_	_	_	_	_	_	bratT7=Quantity
+11	четверых	_	_	_	_	_	_	_	bratT66=Person|bratT7=Quantity
 12-14	экс-полицейских	_	_	_	_	_	_	_	SpaceAfter=No
-12	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Person-property|bratT7=Quantity
-13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Person-property|bratT7=Quantity
-14	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT7=Quantity
+12	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Person-property|bratT66=Person|bratT7=Quantity
+13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Person-property|bratT66=Person|bratT7=Quantity
+14	полицейских	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property|bratT66=Person|bratT7=Quantity
 15	,	_	_	_	_	_	_	_	_
 16	которые	_	_	_	_	_	_	_	_
 17	вымогали	_	_	_	_	_	_	_	_
@@ -66,23 +66,23 @@
 # par_text = Обвиняемые — бывший старший участковый УМВД по Краснодару, трое участковых этого же отдела и трое жителей, которые раньше работали в полиции.
 # sent_id = 0006-p3-s1
 # text = Обвиняемые - бывший старший участковый УМВД по Краснодару, трое участковых этого же отдела и трое жителей, которые раньше работали в полиции.
-1	Обвиняемые	_	_	_	_	_	_	_	bratT37=Person-property
-2	-	_	_	_	_	_	_	_	_
-3	бывший	_	_	_	_	_	_	_	bratT10=Person-property|bratT38=Person
-4	старший	_	_	_	_	_	_	_	bratT10=Person-property|bratT38=Person
-5	участковый	_	_	_	_	_	_	_	bratT10=Person-property|bratT38=Person
-6	УМВД	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT38=Person
-7	по	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Organization|bratT38=Person
-8	Краснодару	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT11=Organization|bratT17=GPE|bratT38=Person
-9	,	_	_	_	_	_	_	_	_
-10	трое	_	_	_	_	_	_	_	bratT13=Quantity|bratT39=Person
-11	участковых	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Quantity|bratT39=Person
-12	этого	_	_	_	_	_	_	_	_
-13	же	_	_	_	_	_	_	_	_
-14	отдела	_	_	_	_	_	_	_	bratA5=T36:Department|bratT36=Organization
-15	и	_	_	_	_	_	_	_	_
-16	трое	_	_	_	_	_	_	_	bratT15=Quantity|bratT40=Person
-17	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity|bratT40=Person
+1	Обвиняемые	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT37=Person-property|bratT67=Person
+2	-	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT67=Person
+3	бывший	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT10=Person-property|bratT38=Person|bratT67=Person
+4	старший	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT10=Person-property|bratT38=Person|bratT67=Person
+5	участковый	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT10=Person-property|bratT38=Person|bratT67=Person
+6	УМВД	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT10=Person-property|bratT11=Organization|bratT38=Person|bratT67=Person
+7	по	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT10=Person-property|bratT11=Organization|bratT38=Person|bratT67=Person
+8	Краснодару	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T67:Plural|bratT10=Person-property|bratT11=Organization|bratT17=GPE|bratT38=Person|bratT67=Person
+9	,	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT67=Person
+10	трое	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT13=Quantity|bratT39=Person|bratT67=Person
+11	участковых	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT12=Person-property|bratT13=Quantity|bratT39=Person|bratT67=Person
+12	этого	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT12=Person-property|bratT39=Person|bratT67=Person
+13	же	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT12=Person-property|bratT39=Person|bratT67=Person
+14	отдела	_	_	_	_	_	_	_	bratA5=T36:Department|bratA6=T67:Plural|bratT12=Person-property|bratT36=Organization|bratT39=Person|bratT67=Person
+15	и	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT67=Person
+16	трое	_	_	_	_	_	_	_	bratA6=T67:Plural|bratT15=Quantity|bratT40=Person|bratT67=Person
+17	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T67:Plural|bratA7=T71:Resident|bratT15=Quantity|bratT40=Person|bratT67=Person|bratT71=Nationality
 18	,	_	_	_	_	_	_	_	_
 19	которые	_	_	_	_	_	_	_	_
 20	раньше	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-relative
@@ -184,7 +184,7 @@
 3	от	_	_	_	_	_	_	_	_
 4	роли	_	_	_	_	_	_	_	_
 5	каждого	_	_	_	_	_	_	_	_
-6	силовиков	_	_	_	_	_	_	_	bratT29=Person-property
+6	силовиков	_	_	_	_	_	_	_	bratT29=Person-property|bratT68=Person
 7	обвиняют	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	превышении	_	_	_	_	_	_	_	_
@@ -227,7 +227,7 @@
 46	а	_	_	_	_	_	_	_	_
 47	также	_	_	_	_	_	_	_	_
 48	в	_	_	_	_	_	_	_	_
-49	мошенничестве	_	_	_	_	_	_	_	_
+49	мошенничестве	_	_	_	_	_	_	_	bratT72=Event
 50	с	_	_	_	_	_	_	_	_
 51	использованием	_	_	_	_	_	_	_	_
 52	служебного	_	_	_	_	_	_	_	_
@@ -251,7 +251,7 @@
 4	имущество	_	_	_	_	_	_	_	_
 5	полицейских	_	_	_	_	_	_	_	bratT31=Person-property|bratT61=Person
 6	наложили	_	_	_	_	_	_	_	_
-7	арест	_	_	_	_	_	_	_	SpaceAfter=No
+7	арест	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Event
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p7-s2

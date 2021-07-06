@@ -3,9 +3,9 @@
 # par_text = Майора из Петербурга приговорили к 8 годам колонии за взятки от военных, которые хотели служить в Сирии
 # sent_id = 0051-p1-s1
 # text = Майора из Петербурга приговорили к 8 годам колонии за взятки от военных, которые хотели служить в Сирии
-1	Майора	_	_	_	_	_	_	_	bratT1=Person-property
-2	из	_	_	_	_	_	_	_	bratT1=Person-property
-3	Петербурга	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+1	Майора	_	_	_	_	_	_	_	bratT1=Person-property|bratT60=Person
+2	из	_	_	_	_	_	_	_	bratT1=Person-property|bratT60=Person
+3	Петербурга	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE|bratT60=Person
 4	приговорили	_	_	_	_	_	_	_	_
 5	к	_	_	_	_	_	_	_	bratA3=T3:Past-Fut|bratT3=Date-period-relative
 6	8	_	_	_	_	_	_	_	bratA3=T3:Past-Fut|bratT3=Date-period-relative|bratT4=Duration
@@ -43,8 +43,8 @@
 15	Николая	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT13=Person-forename
 16	Заикина	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT14=Person-surname
 17	за	_	_	_	_	_	_	_	_
-18	получение	_	_	_	_	_	_	_	_
-19	взяток	_	_	_	_	_	_	_	_
+18	получение	_	_	_	_	_	_	_	bratT63=Event
+19	взяток	_	_	_	_	_	_	_	bratT63=Event
 20	от	_	_	_	_	_	_	_	_
 21	солдат	_	_	_	_	_	_	_	bratT16=Person-property
 22	и	_	_	_	_	_	_	_	_
@@ -63,8 +63,8 @@
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
 4	пресс-служба	_	_	_	_	_	_	_	bratT19=Organization
-5	судов	_	_	_	_	_	_	_	bratT19=Organization
-6	Петербурга	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization|bratT20=GPE
+5	судов	_	_	_	_	_	_	_	bratT19=Organization|bratT59=Organization
+6	Петербурга	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization|bratT20=GPE|bratT59=Organization
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0051-p3
@@ -201,8 +201,8 @@
 5	тысяч	_	_	_	_	_	_	_	bratT45=Money
 6	рублей	_	_	_	_	_	_	_	bratT45=Money
 7	от	_	_	_	_	_	_	_	_
-8	пятерых	_	_	_	_	_	_	_	bratT46=Quantity
-9	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Quantity
+8	пятерых	_	_	_	_	_	_	_	bratT46=Quantity|bratT62=Person
+9	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Quantity|bratT62=Person
 10	,	_	_	_	_	_	_	_	_
 11	установил	_	_	_	_	_	_	_	_
 12	суд	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization
@@ -215,8 +215,8 @@
 3	суда	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Organization
 4	,	_	_	_	_	_	_	_	_
 5	всех	_	_	_	_	_	_	_	_
-6	пятерых	_	_	_	_	_	_	_	bratT47=Quantity
-7	взяткодателей	_	_	_	_	_	_	_	bratT47=Quantity|bratT48=Other-group
+6	пятерых	_	_	_	_	_	_	_	bratT47=Quantity|bratT48=Person
+7	взяткодателей	_	_	_	_	_	_	_	bratT47=Quantity|bratT48=Person
 8	отправляли	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
 10	командировку	_	_	_	_	_	_	_	_
@@ -238,7 +238,7 @@
 10	версии	_	_	_	_	_	_	_	_
 11	СК	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
 12	,	_	_	_	_	_	_	_	_
-13	офицеры	_	_	_	_	_	_	_	bratT53=Person-property
+13	офицеры	_	_	_	_	_	_	_	bratT53=Person-property|bratT61=Person
 14	получили	_	_	_	_	_	_	_	_
 15	340	_	_	_	_	_	_	_	bratT54=Money
 16	тысяч	_	_	_	_	_	_	_	bratT54=Money

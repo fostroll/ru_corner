@@ -12,10 +12,10 @@ T16	Facility 544 570	СИЗО   ``   Лефортово   ''
 T18	Date-absolute 573 604	после   следственных   действий
 T19	Person 632 725	член   ОНК   Москвы   журналистка   ``   Московсковского   комсомольца   ''   Ева   Меркачева
 A6	Female T19
-T20	Person-property 632 707	член   ОНК   Москвы   журналистка   ``   Московсковского   комсомольца   ''
+T20	Person-property 654 707	журналистка   ``   Московсковского   комсомольца   ''
 T21	Organization 639 651	ОНК   Москвы
 T22	GPE 645 651	Москвы
-T23	Organization 673 702	Московсковского   комсомольца
+T23	Organization 668 707	``   Московсковского   комсомольца   ''
 A7	Media T23
 T24	Person-forename 710 713	Ева
 T25	Person-surname 716 725	Меркачева
@@ -30,7 +30,7 @@ A9	Past T31
 T32	Person 958 967	Меркачева
 A10	Female T32
 T33	Person-surname 958 967	Меркачева
-T34	Organization 986 996	Интерфаксу
+T34	Organization 981 1001	``   Интерфаксу   ''
 A11	Media T34
 T35	Other-term 1032 1040	гематомы
 T37	Person-property 1197 1208	журналистка
@@ -42,7 +42,7 @@ T41	Person 1362 1371	Меркачева
 A13	Female T41
 T42	Person-surname 1362 1371	Меркачева
 T43	Date-absolute 1376 1392	После   оказания
-T45	Organization 1462 1485	В   пресс-службе   ФСИН
+T45	Organization 1466 1485	пресс-службе   ФСИН
 A15	Media T45
 T46	Organization 1481 1485	ФСИН
 T47	Person 1516 1524	Карепова
@@ -83,8 +83,18 @@ T50	Facility 1563 1571	изолятор
 T61	Facility 1580 1584	СИЗО
 T62	Event 18 22	делу
 T63	Event 186 195	покушений
-T64	Event 1648 1657	ведомстве
+T64	Organization 1648 1657	ведомстве
 T65	Person 0 10	Обвиняемый
 A4	Male T65
 T66	Event 1548 1556	прибытии
 T67	Event 88 94	жалобу
+T72	Event 581 604	следственных   действий
+T73	Person-property 632 651	член   ОНК   Москвы
+T74	Person 1197 1208	журналистка
+A5	Female T74
+T75	Facility 1433 1456	следственный   изолятор
+T76	Event 1130 1138	избиений
+T77	Event 1598 1605	насилие
+T78	Person-surname 1323 1337	Склифосовского
+T79	Person 1323 1337	Склифосовского
+A14	Male T79

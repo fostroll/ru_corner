@@ -3,8 +3,8 @@
 # par_text = Жительницу Перми приговорили к обязательным работам по делу о фейках за паблик «Нет самоизоляции»
 # sent_id = 0096-p1-s1
 # text = Жительницу Перми приговорили к обязательным работам по делу о фейках за паблик ``Нет самоизоляции''
-1	Жительницу	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality
-2	Перми	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality|bratT2=GPE
+1	Жительницу	_	_	_	_	_	_	_	bratA1=T1:Resident|bratA26=T65:Female|bratT1=Nationality|bratT65=Person
+2	Перми	_	_	_	_	_	_	_	bratA1=T1:Resident|bratA26=T65:Female|bratT1=Nationality|bratT2=GPE|bratT65=Person
 3	приговорили	_	_	_	_	_	_	_	_
 4	к	_	_	_	_	_	_	_	_
 5	обязательным	_	_	_	_	_	_	_	_
@@ -103,8 +103,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	bratA9=T19:Past|bratT19=Date-absolute
 6	апреле	_	_	_	_	_	_	_	bratA9=T19:Past|bratT19=Date-absolute
-7	местная	_	_	_	_	_	_	_	bratA10=T20:Resident|bratA20=T53:Adjective|bratT20=Nationality|bratT53=GPE
-8	жительница	_	_	_	_	_	_	_	bratA10=T20:Resident|bratT20=Nationality
+7	местная	_	_	_	_	_	_	_	bratA10=T20:Resident|bratA20=T53:Adjective|bratA27=T66:Female|bratT20=Nationality|bratT53=GPE|bratT66=Person
+8	жительница	_	_	_	_	_	_	_	bratA10=T20:Resident|bratA27=T66:Female|bratT20=Nationality|bratT66=Person
 9	создала	_	_	_	_	_	_	_	_
 10	группу	_	_	_	_	_	_	_	bratA11=T21:Media|bratT21=Service
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Service
@@ -168,7 +168,7 @@
 # text = Давайте покажем властям, что мы не согласны с этой изоляцией и хотим вернуть нормальный ритм жизни, как и раньше'', - писала Ерохина, призывая горожан выкладывать фотографии себя на прогулке.
 1	Давайте	_	_	_	_	_	_	_	_
 2	покажем	_	_	_	_	_	_	_	_
-3	властям	_	_	_	_	_	_	_	SpaceAfter=No
+3	властям	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Organization
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	мы	_	_	_	_	_	_	_	_
@@ -206,7 +206,7 @@
 # par_text = Блогерше также вменяются комментарии «ВКонтакте», где она отрицала существование пандемии и говорила, что «это все раздуто СМИ, чтобы люди боялись». Ерохина не признала вину.
 # sent_id = 0096-p5-s1
 # text = Блогерше также вменяются комментарии ``ВКонтакте'', где она отрицала существование пандемии и говорила, что ``это все раздуто СМИ, чтобы люди боялись''.
-1	Блогерше	_	_	_	_	_	_	_	bratT29=Person-property
+1	Блогерше	_	_	_	_	_	_	_	bratA28=T68:Female|bratT29=Person-property|bratT68=Person
 2	также	_	_	_	_	_	_	_	_
 3	вменяются	_	_	_	_	_	_	_	_
 4	комментарии	_	_	_	_	_	_	_	_
@@ -257,7 +257,7 @@
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T40:Media|bratT40=Organization
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
-11	потерпевшими	_	_	_	_	_	_	_	_
+11	потерпевшими	_	_	_	_	_	_	_	bratT64=Person-property
 12	по	_	_	_	_	_	_	_	_
 13	делу	_	_	_	_	_	_	_	bratT59=Event
 14	были	_	_	_	_	_	_	_	_

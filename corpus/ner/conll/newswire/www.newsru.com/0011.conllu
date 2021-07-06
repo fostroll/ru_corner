@@ -10,9 +10,9 @@
 5	в	_	_	_	_	_	_	_	_
 6	Грозном	_	_	_	_	_	_	_	bratT2=GPE
 7	избивал	_	_	_	_	_	_	_	_
-8	советник	_	_	_	_	_	_	_	bratT4=Person-property
-9	Рамзана	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT50=Person-forename
-10	Кадырова	_	_	_	_	_	_	_	bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT51=Person-surname
+8	советник	_	_	_	_	_	_	_	bratA29=T86:Male|bratT4=Person-property|bratT86=Person
+9	Рамзана	_	_	_	_	_	_	_	bratA29=T86:Male|bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT50=Person-forename|bratT86=Person
+10	Кадырова	_	_	_	_	_	_	_	bratA29=T86:Male|bratA7=T3:Male|bratT3=Person|bratT4=Person-property|bratT51=Person-surname|bratT86=Person
 
 # newpar id = 0011-p2
 # par_text = Контрольно-дисциплинарный комитет Российского футбольного союза (КДК РФС) на заседании в четверг установил, что в избиении главного арбитра Богдана Головко после матча молодежных команд "Ахмат" и "Спартак" (0:0) в Грозном непосредственное участие принимал советник по спорту главы Чечни Рамзана Кадырова Хайдар Алханов. Именно он бил рефери в пах, а затем угрожал здоровью и жизни Головко и его семье.
@@ -45,11 +45,11 @@
 25	молодежных	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT75=Organization|bratT85=Age
 26	команд	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT75=Organization
 27	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT11=Organization|bratT75=Organization
-28	Ахмат	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT11=Organization|bratT75=Organization
+28	Ахмат	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratA32=T94:Male|bratT11=Organization|bratT75=Organization|bratT94=Person|bratT95=Person-forename
 29	''	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT11=Organization|bratT75=Organization
 30	и	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT75=Organization
 31	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT12=Organization|bratT75=Organization
-32	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratT12=Organization|bratT75=Organization
+32	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T75:Plural|bratA31=T92:Male|bratT12=Organization|bratT75=Organization|bratT92=Person|bratT93=Person-alias
 33	''	_	_	_	_	_	_	_	bratA26=T75:Plural|bratT12=Organization|bratT75=Organization
 34	(	_	_	_	_	_	_	_	SpaceAfter=No
 35	0:0	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Quantity
@@ -75,7 +75,7 @@
 1	Именно	_	_	_	_	_	_	_	_
 2	он	_	_	_	_	_	_	_	_
 3	бил	_	_	_	_	_	_	_	_
-4	рефери	_	_	_	_	_	_	_	bratT38=Person-property
+4	рефери	_	_	_	_	_	_	_	bratT38=Person-property|bratT87=Person
 5	в	_	_	_	_	_	_	_	_
 6	пах	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
@@ -87,8 +87,8 @@
 13	жизни	_	_	_	_	_	_	_	_
 14	Головко	_	_	_	_	_	_	_	bratA14=T19:Male|bratT19=Person|bratT59=Person-surname
 15	и	_	_	_	_	_	_	_	_
-16	его	_	_	_	_	_	_	_	_
-17	семье	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Family
+16	его	_	_	_	_	_	_	_	bratT88=Person
+17	семье	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Family|bratT88=Person
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0011-p3
@@ -104,14 +104,14 @@
 7	,	_	_	_	_	_	_	_	_
 8	так	_	_	_	_	_	_	_	_
 9	как	_	_	_	_	_	_	_	_
-10	бывший	_	_	_	_	_	_	_	bratT22=Person-property
+10	бывший	_	_	_	_	_	_	_	bratA30=T89:Male|bratT22=Person-property|bratT89=Person
 11-13	вице-президент	_	_	_	_	_	_	_	_
-11	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT22=Person-property
-12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT22=Person-property
-13	президент	_	_	_	_	_	_	_	bratT22=Person-property
-14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property|bratT23=Organization
-15	Ахмата	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property|bratT23=Organization
-16	''	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Organization
+11	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA30=T89:Male|bratT22=Person-property|bratT89=Person
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA30=T89:Male|bratT22=Person-property|bratT89=Person
+13	президент	_	_	_	_	_	_	_	bratA30=T89:Male|bratT22=Person-property|bratT89=Person
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T89:Male|bratT22=Person-property|bratT23=Organization|bratT89=Person
+15	Ахмата	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T89:Male|bratA33=T96:Male|bratT22=Person-property|bratT23=Organization|bratT89=Person|bratT96=Person|bratT97=Person-forename
+16	''	_	_	_	_	_	_	_	bratA30=T89:Male|bratT22=Person-property|bratT23=Organization|bratT89=Person
 17	ныне	_	_	_	_	_	_	_	bratA16=T49:Present|bratT49=Date-absolute
 18	не	_	_	_	_	_	_	_	_
 19	является	_	_	_	_	_	_	_	_
@@ -120,7 +120,7 @@
 22	и	_	_	_	_	_	_	_	_
 23	присутствовал	_	_	_	_	_	_	_	_
 24	на	_	_	_	_	_	_	_	_
-25	игре	_	_	_	_	_	_	_	_
+25	игре	_	_	_	_	_	_	_	bratT90=Event
 26	в	_	_	_	_	_	_	_	_
 27	качестве	_	_	_	_	_	_	_	_
 28	болельщика	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-group
@@ -174,9 +174,9 @@
 20	жизнь	_	_	_	_	_	_	_	_
 21	и	_	_	_	_	_	_	_	_
 22	здоровье	_	_	_	_	_	_	_	_
-23	официальных	_	_	_	_	_	_	_	_
-24	лиц	_	_	_	_	_	_	_	_
-25	матча	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event
+23	официальных	_	_	_	_	_	_	_	bratT91=Person-property
+24	лиц	_	_	_	_	_	_	_	bratT91=Person-property
+25	матча	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event|bratT91=Person-property
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p4-s3
@@ -252,11 +252,14 @@
 11	заявил	_	_	_	_	_	_	_	_
 12	агентству	_	_	_	_	_	_	_	bratA5=T33:Media|bratT33=Organization
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Media|bratT33=Organization
-14	Р-Спорт	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Media|bratT33=Organization
-15	''	_	_	_	_	_	_	_	bratA5=T33:Media|bratT33=Organization
-16	глава	_	_	_	_	_	_	_	bratA20=T34:Male|bratT34=Person|bratT35=Person-property
-17	КДК	_	_	_	_	_	_	_	bratA20=T34:Male|bratA6=T36:Department|bratT34=Person|bratT35=Person-property|bratT36=Organization
-18	Артур	_	_	_	_	_	_	_	bratA20=T34:Male|bratT34=Person|bratT67=Person-forename
-19	Григорьянц	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T34:Male|bratT34=Person|bratT68=Person-surname
-20	.	_	_	_	_	_	_	_	_
+14-16	Р-Спорт	_	_	_	_	_	_	_	SpaceAfter=No
+14	Р	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Media|bratT33=Organization
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Media|bratT33=Organization
+16	Спорт	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T33:Media|bratT33=Organization
+17	''	_	_	_	_	_	_	_	bratA5=T33:Media|bratT33=Organization
+18	глава	_	_	_	_	_	_	_	bratA20=T34:Male|bratT34=Person|bratT35=Person-property
+19	КДК	_	_	_	_	_	_	_	bratA20=T34:Male|bratA6=T36:Department|bratT34=Person|bratT35=Person-property|bratT36=Organization
+20	Артур	_	_	_	_	_	_	_	bratA20=T34:Male|bratT34=Person|bratT67=Person-forename
+21	Григорьянц	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T34:Male|bratT34=Person|bratT68=Person-surname
+22	.	_	_	_	_	_	_	_	_
 

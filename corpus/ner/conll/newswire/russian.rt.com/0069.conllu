@@ -55,8 +55,8 @@
 5	в	_	_	_	_	_	_	_	bratA2=T4:Future|bratA3=T4:Past|bratT4=Date-absolute
 6	2011	_	_	_	_	_	_	_	bratA2=T4:Future|bratA3=T4:Past|bratT4=Date-absolute
 7	году	_	_	_	_	_	_	_	bratA2=T4:Future|bratA3=T4:Past|bratT4=Date-absolute
-8	директор	_	_	_	_	_	_	_	bratT5=Person-property
-9	ОАО	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property
+8	директор	_	_	_	_	_	_	_	bratA11=T45:Male|bratT45=Person|bratT5=Person-property
+9	ОАО	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T45:Male|bratT45=Person|bratT46=Organization|bratT5=Person-property
 10	,	_	_	_	_	_	_	_	_
 11	основным	_	_	_	_	_	_	_	_
 12	акционером	_	_	_	_	_	_	_	_
@@ -98,7 +98,7 @@
 7	выкупила	_	_	_	_	_	_	_	_
 8	аффилированная	_	_	_	_	_	_	_	_
 9	со	_	_	_	_	_	_	_	_
-10	злоумышленником	_	_	_	_	_	_	_	_
+10	злоумышленником	_	_	_	_	_	_	_	bratA10=T44:Male|bratT44=Person
 11	фирма	_	_	_	_	_	_	_	bratT34=Organization
 12	и	_	_	_	_	_	_	_	_
 13	завладела	_	_	_	_	_	_	_	_
@@ -142,7 +142,7 @@
 14	УК	_	_	_	_	_	_	_	bratT12=Law|bratT20=Law
 15	(	_	_	_	_	_	_	_	SpaceAfter=No
 16	``	_	_	_	_	_	_	_	SpaceAfter=No
-17	Мошенничество	_	_	_	_	_	_	_	SpaceAfter=No
+17	Мошенничество	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Event
 18	''	_	_	_	_	_	_	_	SpaceAfter=No
 19	)	_	_	_	_	_	_	_	SpaceAfter=No
 20	,	_	_	_	_	_	_	_	_

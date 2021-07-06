@@ -74,8 +74,8 @@
 # par_text = Глава МВД напомнил, что в ближайшие выходные во Франции будут отмечать День всех святых. "Безопасность поэтому будет дополнительно усилена", - заявил он. "Меры предосторожности принимаются также в связи с завершением школьных каникул и возобновлением учебного года", - добавил Дарманен.
 # sent_id = 0063-p3-s1
 # text = Глава МВД напомнил, что в ближайшие выходные во Франции будут отмечать День всех святых.
-1	Глава	_	_	_	_	_	_	_	bratT12=Person-property
-2	МВД	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Organization
+1	Глава	_	_	_	_	_	_	_	bratA19=T72:Male|bratT12=Person-property|bratT72=Person
+2	МВД	_	_	_	_	_	_	_	bratA19=T72:Male|bratT12=Person-property|bratT13=Organization|bratT72=Person
 3	напомнил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
@@ -116,13 +116,13 @@
 6	в	_	_	_	_	_	_	_	_
 7	связи	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	завершением	_	_	_	_	_	_	_	_
-10	школьных	_	_	_	_	_	_	_	bratT71=Event
-11	каникул	_	_	_	_	_	_	_	bratT71=Event
+9	завершением	_	_	_	_	_	_	_	bratT73=Event
+10	школьных	_	_	_	_	_	_	_	bratT71=Event|bratT73=Event
+11	каникул	_	_	_	_	_	_	_	bratT71=Event|bratT73=Event
 12	и	_	_	_	_	_	_	_	_
 13	возобновлением	_	_	_	_	_	_	_	bratT70=Event
-14	учебного	_	_	_	_	_	_	_	bratT70=Event
-15	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Event
+14	учебного	_	_	_	_	_	_	_	bratT70=Event|bratT74=Event
+15	года	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Event|bratT74=Event
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
@@ -143,19 +143,22 @@
 7	-	_	_	_	_	_	_	_	_
 8	3,5	_	_	_	_	_	_	_	bratT21=Quantity
 9	тыс.	_	_	_	_	_	_	_	bratT21=Quantity
-10	жандармов-резервистов	_	_	_	_	_	_	_	bratT21=Quantity|bratT46=Person-property
-11	призываются	_	_	_	_	_	_	_	_
-12	с	_	_	_	_	_	_	_	bratA11=T40:Fut|bratT40=Date-period-relative
-13	понедельника	_	_	_	_	_	_	_	bratA11=T40:Fut|bratT40=Date-period-relative
-14	в	_	_	_	_	_	_	_	_
-15	распоряжение	_	_	_	_	_	_	_	_
-16	префектов	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Person-property
-17	''	_	_	_	_	_	_	_	SpaceAfter=No
-18	,	_	_	_	_	_	_	_	_
-19	-	_	_	_	_	_	_	_	_
-20	сказал	_	_	_	_	_	_	_	_
-21	министр	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Person-property
-22	.	_	_	_	_	_	_	_	_
+10-12	жандармов-резервистов	_	_	_	_	_	_	_	_
+10	жандармов	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity|bratT46=Person-property
+11	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Quantity|bratT46=Person-property
+12	резервистов	_	_	_	_	_	_	_	bratT21=Quantity|bratT46=Person-property
+13	призываются	_	_	_	_	_	_	_	_
+14	с	_	_	_	_	_	_	_	bratA11=T40:Fut|bratT40=Date-period-relative
+15	понедельника	_	_	_	_	_	_	_	bratA11=T40:Fut|bratT40=Date-period-relative
+16	в	_	_	_	_	_	_	_	_
+17	распоряжение	_	_	_	_	_	_	_	_
+18	префектов	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Person-property
+19	''	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	_	_	_	_	_	_	_	_
+21	-	_	_	_	_	_	_	_	_
+22	сказал	_	_	_	_	_	_	_	_
+23	министр	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T75:Male|bratT22=Person-property|bratT75=Person
+24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0063-p4-s2
 # text = Кроме того, по его словам, для обеспечения порядка привлекаются дополнительно мобильные полицейские и жандармские подразделения в составе 3,5 тыс. человек.

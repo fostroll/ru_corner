@@ -84,10 +84,10 @@
 11	подведомственных	_	_	_	_	_	_	_	_
 12	Минздраву	_	_	_	_	_	_	_	bratT11=Organization
 13	и	_	_	_	_	_	_	_	_
-14	главных	_	_	_	_	_	_	_	_
-15	внештатных	_	_	_	_	_	_	_	_
+14	главных	_	_	_	_	_	_	_	bratT12=Person-property
+15	внештатных	_	_	_	_	_	_	_	bratT12=Person-property
 16	специалистов	_	_	_	_	_	_	_	bratT12=Person-property
-17	Минздрава	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+17	Минздрава	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property|bratT13=Organization
 18	,	_	_	_	_	_	_	_	_
 19	что	_	_	_	_	_	_	_	_
 20	любые	_	_	_	_	_	_	_	_
@@ -245,7 +245,7 @@
 4	следит	_	_	_	_	_	_	_	_
 5	за	_	_	_	_	_	_	_	_
 6	распространением	_	_	_	_	_	_	_	bratT55=Event
-7	вируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-term
+7	вируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Other-term|bratT55=Event
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0084-p8

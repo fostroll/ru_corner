@@ -27,10 +27,10 @@
 4	''	_	_	_	_	_	_	_	bratT22=Organization
 5	прервал	_	_	_	_	_	_	_	_
 6	свою	_	_	_	_	_	_	_	_
-7	безвыигрышную	_	_	_	_	_	_	_	_
-8	серию	_	_	_	_	_	_	_	_
+7	безвыигрышную	_	_	_	_	_	_	_	bratT52=Event
+8	серию	_	_	_	_	_	_	_	bratT52=Event
 9	в	_	_	_	_	_	_	_	_
-10	матчах	_	_	_	_	_	_	_	_
+10	матчах	_	_	_	_	_	_	_	bratT51=Event
 11	с	_	_	_	_	_	_	_	_
 12	каталонской	_	_	_	_	_	_	_	bratA5=T32:Adjective|bratT23=Organization|bratT32=GPE
 13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
@@ -128,11 +128,11 @@
 
 # sent_id = 0022-p5-s2
 # text = Безвыигрышная серия составила 20 матчей.
-1	Безвыигрышная	_	_	_	_	_	_	_	_
-2	серия	_	_	_	_	_	_	_	_
+1	Безвыигрышная	_	_	_	_	_	_	_	bratT54=Event
+2	серия	_	_	_	_	_	_	_	bratT54=Event
 3	составила	_	_	_	_	_	_	_	_
 4	20	_	_	_	_	_	_	_	bratT16=Quantity
-5	матчей	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
+5	матчей	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity|bratT53=Event
 6	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0022-p6

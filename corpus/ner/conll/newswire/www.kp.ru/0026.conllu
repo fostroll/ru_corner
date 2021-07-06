@@ -9,9 +9,9 @@
 4	возмещать	_	_	_	_	_	_	_	_
 5	затраты	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
-7	тестирование	_	_	_	_	_	_	_	bratT6=Service
-8	на	_	_	_	_	_	_	_	bratT6=Service
-9	коронавирус	_	_	_	_	_	_	_	bratT2=Other-term|bratT6=Service
+7	тестирование	_	_	_	_	_	_	_	bratT6=Event
+8	на	_	_	_	_	_	_	_	_
+9	коронавирус	_	_	_	_	_	_	_	bratT2=Other-term
 
 # newpar id = 0026-p2
 # par_text = Российский Союз потребителей и эксперты Международной конфедерации обществ потребителей предложили возмещать затраты жителей страны на тестирование для диагностики коронавирусной инфекции в частных клиниках из бюджета. Об этом в понедельник, 2 ноября, пишет газета «Известия».
@@ -32,11 +32,11 @@
 13	жителей	_	_	_	_	_	_	_	bratA5=T35:Resident|bratT35=Nationality
 14	страны	_	_	_	_	_	_	_	bratA5=T35:Resident|bratT35=Nationality|bratT45=GPE
 15	на	_	_	_	_	_	_	_	_
-16	тестирование	_	_	_	_	_	_	_	bratT8=Service
-17	для	_	_	_	_	_	_	_	bratT8=Service
-18	диагностики	_	_	_	_	_	_	_	bratT8=Service
-19	коронавирусной	_	_	_	_	_	_	_	bratT7=Other-term|bratT8=Service
-20	инфекции	_	_	_	_	_	_	_	bratT7=Other-term|bratT8=Service
+16	тестирование	_	_	_	_	_	_	_	bratT8=Event
+17	для	_	_	_	_	_	_	_	_
+18	диагностики	_	_	_	_	_	_	_	_
+19	коронавирусной	_	_	_	_	_	_	_	bratT7=Other-term
+20	инфекции	_	_	_	_	_	_	_	bratT7=Other-term
 21	в	_	_	_	_	_	_	_	_
 22	частных	_	_	_	_	_	_	_	bratT46=Organization
 23	клиниках	_	_	_	_	_	_	_	bratT46=Organization
@@ -198,7 +198,7 @@
 10	России	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT26=GPE|bratT27=Organization|bratT28=Organization|bratT29=Person-property|bratT30=Person
 11	по	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
 12	вопросам	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
-13	создания	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person
+13	создания	_	_	_	_	_	_	_	bratA3=T28:Department|bratA8=T30:Male|bratT28=Organization|bratT29=Person-property|bratT30=Person|bratT50=Event
 14	национальной	_	_	_	_	_	_	_	bratA11=T14:Project|bratA12=T19:Adjective|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT19=GPE|bratT28=Organization|bratT29=Person-property|bratT30=Person
 15	системы	_	_	_	_	_	_	_	bratA11=T14:Project|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT28=Organization|bratT29=Person-property|bratT30=Person
 16	защиты	_	_	_	_	_	_	_	bratA11=T14:Project|bratA3=T28:Department|bratA8=T30:Male|bratT14=Product|bratT28=Organization|bratT29=Person-property|bratT30=Person

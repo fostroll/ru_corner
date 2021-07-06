@@ -3,12 +3,12 @@
 # par_text = Красноярский заключенный, рассказавший об избиении сотрудниками ФСИН, сбежал и уехал в Финляндию
 # sent_id = 0052-p1-s1
 # text = Красноярский заключенный, рассказавший об избиении сотрудниками ФСИН, сбежал и уехал в Финляндию
-1	Красноярский	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-2	заключенный	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+1	Красноярский	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA18=T72:Male|bratT1=Person-property|bratT2=GPE|bratT72=Person
+2	заключенный	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T72:Male|bratT1=Person-property|bratT72=Person
 3	,	_	_	_	_	_	_	_	_
 4	рассказавший	_	_	_	_	_	_	_	_
 5	об	_	_	_	_	_	_	_	_
-6	избиении	_	_	_	_	_	_	_	_
+6	избиении	_	_	_	_	_	_	_	bratT73=Event
 7	сотрудниками	_	_	_	_	_	_	_	bratT3=Person-property
 8	ФСИН	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=Organization
 9	,	_	_	_	_	_	_	_	_
@@ -52,7 +52,7 @@
 5	Мира	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Media|bratT16=Organization|bratT56=Facility
 6	''	_	_	_	_	_	_	_	bratA5=T16:Media|bratT16=Organization
 7	рассказала	_	_	_	_	_	_	_	_
-8	его	_	_	_	_	_	_	_	_
+8	его	_	_	_	_	_	_	_	bratA6=T17:Female|bratT17=Person
 9	адвокат	_	_	_	_	_	_	_	bratA6=T17:Female|bratT17=Person|bratT18=Person-property
 10	Виктория	_	_	_	_	_	_	_	bratA6=T17:Female|bratT17=Person|bratT19=Person-forename
 11	Дерменева	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T17:Female|bratT17=Person|bratT20=Person-surname
@@ -67,7 +67,7 @@
 3	Михаил	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT23=Person-forename
 4	находится	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	общежитии	_	_	_	_	_	_	_	SpaceAfter=No
+6	общежитии	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Facility
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0052-p3-s2
@@ -136,7 +136,7 @@
 6	писало	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	заключенный	_	_	_	_	_	_	_	bratT31=Person-property
+9	заключенный	_	_	_	_	_	_	_	bratA19=T75:Male|bratT31=Person-property|bratT75=Person
 10	добрался	_	_	_	_	_	_	_	_
 11	из	_	_	_	_	_	_	_	_
 12	Ачинска	_	_	_	_	_	_	_	bratT32=GPE
@@ -198,16 +198,16 @@
 12	за	_	_	_	_	_	_	_	_
 13	отказ	_	_	_	_	_	_	_	_
 14	оговорить	_	_	_	_	_	_	_	_
-15	начальника	_	_	_	_	_	_	_	bratT43=Person-property
+15	начальника	_	_	_	_	_	_	_	bratT43=Person-property|bratT76=Person
 16-18	ИК-27	_	_	_	_	_	_	_	SpaceAfter=No
-16	ИК	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property|bratT44=Organization
-17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property|bratT44=Organization
-18	27	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property|bratT44=Organization|bratT53=Ordinal
+16	ИК	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property|bratT44=Organization|bratT76=Person
+17	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property|bratT44=Organization|bratT76=Person
+18	27	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property|bratT44=Organization|bratT53=Ordinal|bratT76=Person
 19	,	_	_	_	_	_	_	_	_
 20	где	_	_	_	_	_	_	_	_
 21	он	_	_	_	_	_	_	_	_
 22	отбывал	_	_	_	_	_	_	_	_
-23	наказание	_	_	_	_	_	_	_	SpaceAfter=No
+23	наказание	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0052-p6

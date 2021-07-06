@@ -48,13 +48,13 @@
 
 # sent_id = 0100-p2-s3
 # text = Соперник 32-летнего британского спортсмена будет объявлен в скором времени.
-1	Соперник	_	_	_	_	_	_	_	bratA1=T13:Male|bratT13=Person
+1	Соперник	_	_	_	_	_	_	_	_
 2-4	32-летнего	_	_	_	_	_	_	_	_
-2	32	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T13:Male|bratT11=Age|bratT13=Person
-3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA1=T13:Male|bratT11=Age|bratT13=Person
-4	летнего	_	_	_	_	_	_	_	bratA1=T13:Male|bratT11=Age|bratT13=Person
-5	британского	_	_	_	_	_	_	_	bratA1=T13:Male|bratA18=T57:Male|bratA9=T44:Adjective|bratT13=Person|bratT44=GPE|bratT57=Person
-6	спортсмена	_	_	_	_	_	_	_	bratA1=T13:Male|bratA18=T57:Male|bratT13=Person|bratT57=Person
+2	32	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Age
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT11=Age
+4	летнего	_	_	_	_	_	_	_	bratT11=Age
+5	британского	_	_	_	_	_	_	_	bratA18=T57:Male|bratA9=T44:Adjective|bratT44=GPE|bratT57=Person
+6	спортсмена	_	_	_	_	_	_	_	bratA18=T57:Male|bratT57=Person
 7	будет	_	_	_	_	_	_	_	_
 8	объявлен	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	bratA10=T14:Future|bratT14=Date-absolute
@@ -84,7 +84,7 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	написал	_	_	_	_	_	_	_	_
-19	боксер	_	_	_	_	_	_	_	bratT15=Person-property
+19	боксер	_	_	_	_	_	_	_	bratA1=T13:Male|bratT13=Person|bratT15=Person-property
 20	в	_	_	_	_	_	_	_	_
 21	Twitter	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Service
 22	.	_	_	_	_	_	_	_	_
@@ -121,15 +121,15 @@
 5	который	_	_	_	_	_	_	_	_
 6	состоялся	_	_	_	_	_	_	_	_
 7	между	_	_	_	_	_	_	_	_
-8	боксерами	_	_	_	_	_	_	_	bratT24=Person-property
+8	боксерами	_	_	_	_	_	_	_	bratA19=T63:Male|bratT24=Person-property|bratT63=Person
 9	в	_	_	_	_	_	_	_	bratA14=T25:Past|bratT25=Date-absolute
 10	2018	_	_	_	_	_	_	_	bratA14=T25:Past|bratT25=Date-absolute
 11	году	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T25:Past|bratT25=Date-absolute
 12	,	_	_	_	_	_	_	_	_
 13	был	_	_	_	_	_	_	_	_
 14	зафиксирован	_	_	_	_	_	_	_	_
-15	ничейный	_	_	_	_	_	_	_	_
-16	результат	_	_	_	_	_	_	_	SpaceAfter=No
+15	ничейный	_	_	_	_	_	_	_	bratT64=Event
+16	результат	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Event
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0100-p5
@@ -168,7 +168,7 @@
 # text = В активе британца 30 побед (21 нокаутом) на профессиональном ринге, ни одного поражения и одна ничья.
 1	В	_	_	_	_	_	_	_	_
 2	активе	_	_	_	_	_	_	_	_
-3	британца	_	_	_	_	_	_	_	bratA3=T33:Citizenship|bratT33=Nationality
+3	британца	_	_	_	_	_	_	_	bratA20=T65:Male|bratA3=T33:Citizenship|bratT33=Nationality|bratT65=Person
 4	30	_	_	_	_	_	_	_	bratT34=Quantity
 5	побед	_	_	_	_	_	_	_	bratT34=Quantity|bratT58=Event
 6	(	_	_	_	_	_	_	_	SpaceAfter=No

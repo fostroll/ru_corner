@@ -3,9 +3,9 @@
 # par_text = Чиновник из Беларуси стал вице-мэром Ялты; через четыре дня его уволили за поддержку протестов
 # sent_id = 0064-p1-s1
 # text = Чиновник из Беларуси стал вице-мэром Ялты; через четыре дня его уволили за поддержку протестов
-1	Чиновник	_	_	_	_	_	_	_	bratT1=Person-property
-2	из	_	_	_	_	_	_	_	bratT1=Person-property
-3	Беларуси	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+1	Чиновник	_	_	_	_	_	_	_	bratA11=T39:Male|bratT1=Person-property|bratT39=Person
+2	из	_	_	_	_	_	_	_	bratA11=T39:Male|bratT1=Person-property|bratT39=Person
+3	Беларуси	_	_	_	_	_	_	_	bratA11=T39:Male|bratT1=Person-property|bratT2=GPE|bratT39=Person
 4	стал	_	_	_	_	_	_	_	_
 5-7	вице-мэром	_	_	_	_	_	_	_	_
 5	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Person-property
@@ -166,7 +166,7 @@
 28	годом	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T47:Past|bratT47=Date-period-absolute
 29	''	_	_	_	_	_	_	_	QuotationEnd=»
 30	за	_	_	_	_	_	_	_	_
-31	вмешательство	_	_	_	_	_	_	_	_
+31	вмешательство	_	_	_	_	_	_	_	bratT52=Event
 32	в	_	_	_	_	_	_	_	_
 33	протесты	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
 34	.	_	_	_	_	_	_	_	_

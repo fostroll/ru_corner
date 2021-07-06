@@ -4,10 +4,10 @@
 # sent_id = 0095-p1-s1
 # text = Против пермского нацгвардейца, обвиняемого в сексуальном насилии над 11-летним мальчиком, возбудили еще два уголовных дела
 1	Против	_	_	_	_	_	_	_	_
-2	пермского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE|bratT63=Person
-3	нацгвардейца	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT63=Person
-4	,	_	_	_	_	_	_	_	bratT63=Person
-5	обвиняемого	_	_	_	_	_	_	_	bratT63=Person|bratT66=Person-property
+2	пермского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA16=T63:Male|bratT1=Person-property|bratT2=GPE|bratT63=Person
+3	нацгвардейца	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T63:Male|bratT1=Person-property|bratT63=Person
+4	,	_	_	_	_	_	_	_	bratA16=T63:Male|bratT63=Person
+5	обвиняемого	_	_	_	_	_	_	_	bratA16=T63:Male|bratT63=Person|bratT66=Person-property
 6	в	_	_	_	_	_	_	_	_
 7	сексуальном	_	_	_	_	_	_	_	bratT54=Event
 8	насилии	_	_	_	_	_	_	_	bratT54=Event
@@ -16,7 +16,7 @@
 10	11	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
 11	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
 12	летним	_	_	_	_	_	_	_	bratT3=Age
-13	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No
+13	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T74:Male|bratT74=Person
 14	,	_	_	_	_	_	_	_	_
 15	возбудили	_	_	_	_	_	_	_	_
 16	еще	_	_	_	_	_	_	_	bratT4=Quantity
@@ -39,10 +39,10 @@
 9	уголовных	_	_	_	_	_	_	_	bratT49=Event|bratT7=Quantity
 10	дела	_	_	_	_	_	_	_	bratT49=Event|bratT7=Quantity
 11	против	_	_	_	_	_	_	_	_
-12	лейтенанта	_	_	_	_	_	_	_	bratT64=Person|bratT8=Person-property
-13	Нацгвардии	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Person|bratT8=Person-property|bratT9=Organization
-14	,	_	_	_	_	_	_	_	bratT64=Person
-15	обвиняемого	_	_	_	_	_	_	_	bratT64=Person|bratT67=Person-property
+12	лейтенанта	_	_	_	_	_	_	_	bratA19=T64:Male|bratT64=Person|bratT8=Person-property
+13	Нацгвардии	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T64:Male|bratT64=Person|bratT8=Person-property|bratT9=Organization
+14	,	_	_	_	_	_	_	_	bratA19=T64:Male|bratT64=Person
+15	обвиняемого	_	_	_	_	_	_	_	bratA19=T64:Male|bratT64=Person|bratT67=Person-property
 16	в	_	_	_	_	_	_	_	_
 17	сексуальном	_	_	_	_	_	_	_	bratT55=Event
 18	насилии	_	_	_	_	_	_	_	bratT55=Event
@@ -51,7 +51,7 @@
 20	11	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
 21	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Age
 22	летним	_	_	_	_	_	_	_	bratT10=Age
-23	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No
+23	мальчиком	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T75:Male|bratT75=Person
 24	,	_	_	_	_	_	_	_	_
 25	сообщили	_	_	_	_	_	_	_	_
 26	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T11:Media|bratT11=Organization
@@ -144,25 +144,25 @@
 # sent_id = 0095-p4-s2
 # text = За мать вступился 11-летний сын.
 1	За	_	_	_	_	_	_	_	_
-2	мать	_	_	_	_	_	_	_	bratT28=Family
+2	мать	_	_	_	_	_	_	_	bratA20=T76:Female|bratT28=Family|bratT76=Person
 3	вступился	_	_	_	_	_	_	_	_
 4-6	11-летний	_	_	_	_	_	_	_	_
 4	11	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT27=Age
 5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT27=Age
 6	летний	_	_	_	_	_	_	_	bratT27=Age
-7	сын	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Family
+7	сын	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T77:Male|bratT29=Family|bratT77=Person
 8	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0095-p4-s3
 # text = В результате сотрудник совершил насилие уже над ребенком.
 1	В	_	_	_	_	_	_	_	_
 2	результате	_	_	_	_	_	_	_	_
-3	сотрудник	_	_	_	_	_	_	_	bratT30=Person-property
+3	сотрудник	_	_	_	_	_	_	_	bratA22=T78:Male|bratT30=Person-property|bratT78=Person
 4	совершил	_	_	_	_	_	_	_	_
 5	насилие	_	_	_	_	_	_	_	bratT58=Event
 6	уже	_	_	_	_	_	_	_	_
 7	над	_	_	_	_	_	_	_	_
-8	ребенком	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Age
+8	ребенком	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Age|bratT79=Person
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0095-p5

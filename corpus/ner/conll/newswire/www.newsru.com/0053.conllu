@@ -3,11 +3,11 @@
 # par_text = Многократный чемпион мира по снукеру не считает Хэмилтона великим спортсменом
 # sent_id = 0053-p1-s1
 # text = Многократный чемпион мира по снукеру не считает Хэмилтона великим спортсменом
-1	Многократный	_	_	_	_	_	_	_	_
-2	чемпион	_	_	_	_	_	_	_	bratT1=Person-property
-3	мира	_	_	_	_	_	_	_	bratT1=Person-property|bratT32=GPE
-4	по	_	_	_	_	_	_	_	bratT1=Person-property
-5	снукеру	_	_	_	_	_	_	_	bratT1=Person-property
+1	Многократный	_	_	_	_	_	_	_	bratA19=T64:Male|bratT1=Person-property|bratT64=Person
+2	чемпион	_	_	_	_	_	_	_	bratA19=T64:Male|bratT1=Person-property|bratT64=Person
+3	мира	_	_	_	_	_	_	_	bratA19=T64:Male|bratT1=Person-property|bratT32=GPE|bratT64=Person
+4	по	_	_	_	_	_	_	_	bratA19=T64:Male|bratT1=Person-property|bratT64=Person
+5	снукеру	_	_	_	_	_	_	_	bratA19=T64:Male|bratT1=Person-property|bratT64=Person
 6	не	_	_	_	_	_	_	_	_
 7	считает	_	_	_	_	_	_	_	_
 8	Хэмилтона	_	_	_	_	_	_	_	bratA4=T2:Male|bratT2=Person|bratT33=Person-surname
@@ -43,13 +43,13 @@
 3	44	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Age
 4	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT7=Age
 5	летнего	_	_	_	_	_	_	_	bratT7=Age
-6	англичанина	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T8:Citizenship|bratT8=Nationality
+6	англичанина	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T8:Citizenship|bratA20=T65:Male|bratT65=Person|bratT8=Nationality
 7	,	_	_	_	_	_	_	_	_
 8	достижения	_	_	_	_	_	_	_	_
-9	гонщика	_	_	_	_	_	_	_	bratT9=Person-property
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization|bratT9=Person-property
-11	Мерседес	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization|bratT9=Person-property
-12	''	_	_	_	_	_	_	_	bratT38=Organization|bratT9=Person-property
+9	гонщика	_	_	_	_	_	_	_	bratA21=T66:Male|bratT66=Person|bratT9=Person-property
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T66:Male|bratT38=Organization|bratT66=Person|bratT9=Person-property
+11	Мерседес	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T66:Male|bratT38=Organization|bratT66=Person|bratT9=Person-property
+12	''	_	_	_	_	_	_	_	bratA21=T66:Male|bratT38=Organization|bratT66=Person|bratT9=Person-property
 13	трудно	_	_	_	_	_	_	_	_
 14	объективно	_	_	_	_	_	_	_	_
 15	оценить	_	_	_	_	_	_	_	SpaceAfter=No
@@ -162,9 +162,9 @@
 12	сделать	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
 14	опередить	_	_	_	_	_	_	_	_
-15	напарника	_	_	_	_	_	_	_	bratA18=T61:Male|bratT60=Person-property|bratT61=Person
-16	по	_	_	_	_	_	_	_	bratA18=T61:Male|bratT60=Person-property|bratT61=Person
-17	команде	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T61:Male|bratT59=Organization|bratT60=Person-property|bratT61=Person
+15	напарника	_	_	_	_	_	_	_	bratT60=Person-property
+16	по	_	_	_	_	_	_	_	bratT60=Person-property
+17	команде	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Organization|bratT60=Person-property
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0053-p3-s7

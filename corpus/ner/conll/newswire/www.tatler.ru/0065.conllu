@@ -39,8 +39,8 @@
 # sent_id = 0065-p2-s2
 # text = После положительного результата тестирования продюсер был изолирован от других заключенных в тюрьме Wende Correctional Facility, что в Баффало.
 1	После	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
-2	положительного	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
-3	результата	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute
+2	положительного	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute|bratT36=Event
+3	результата	_	_	_	_	_	_	_	bratA8=T23:Past|bratT23=Date-absolute|bratT36=Event
 4	тестирования	_	_	_	_	_	_	_	_
 5	продюсер	_	_	_	_	_	_	_	bratA12=T30:Male|bratT30=Person|bratT6=Person-property
 6	был	_	_	_	_	_	_	_	_
@@ -115,6 +115,6 @@
 16	перевели	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	_
 18	северо-запад	_	_	_	_	_	_	_	_
-19	штата	_	_	_	_	_	_	_	SpaceAfter=No
+19	штата	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=GPE
 20	.	_	_	_	_	_	_	_	_
 

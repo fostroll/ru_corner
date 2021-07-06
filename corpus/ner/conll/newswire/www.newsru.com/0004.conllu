@@ -46,16 +46,16 @@
 29	квадратных	_	_	_	_	_	_	_	bratT5=Quantity
 30	метров	_	_	_	_	_	_	_	bratT5=Quantity
 31	жилья	_	_	_	_	_	_	_	_
-32	инвестор	_	_	_	_	_	_	_	_
-33	проекта	_	_	_	_	_	_	_	_
+32	инвестор	_	_	_	_	_	_	_	bratT61=Organization
+33	проекта	_	_	_	_	_	_	_	bratT61=Organization
 34	передаст	_	_	_	_	_	_	_	_
 35	мэрии	_	_	_	_	_	_	_	bratT6=Organization
 36	для	_	_	_	_	_	_	_	_
 37	расселения	_	_	_	_	_	_	_	_
 38	горожан	_	_	_	_	_	_	_	bratA11=T44:Resident|bratT44=Nationality
 39	по	_	_	_	_	_	_	_	_
-40	программе	_	_	_	_	_	_	_	_
-41	реновации	_	_	_	_	_	_	_	SpaceAfter=No
+40	программе	_	_	_	_	_	_	_	bratA14=T62:Project|bratT62=Product
+41	реновации	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T62:Project|bratT62=Product
 42	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0004-p2-s2
@@ -108,13 +108,13 @@
 22	''	_	_	_	_	_	_	_	bratT12=Organization
 23	Игоря	_	_	_	_	_	_	_	bratA2=T13:Male|bratT13=Person|bratT33=Person-forename
 24	Чайки	_	_	_	_	_	_	_	bratA2=T13:Male|bratT13=Person|bratT34=Person-surname
-25	(	_	_	_	_	_	_	_	SpaceAfter=No
-26	сын	_	_	_	_	_	_	_	bratA8=T41:Male|bratT14=Family|bratT41=Person
-27	бывшего	_	_	_	_	_	_	_	bratA3=T16:Male|bratA8=T41:Male|bratT15=Person-property|bratT16=Person|bratT41=Person
-28	генпрокурора	_	_	_	_	_	_	_	bratA3=T16:Male|bratA8=T41:Male|bratT15=Person-property|bratT16=Person|bratT41=Person
-29	Юрия	_	_	_	_	_	_	_	bratA3=T16:Male|bratA8=T41:Male|bratT16=Person|bratT35=Person-forename|bratT41=Person
-30	Чайки	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T16:Male|bratA8=T41:Male|bratT16=Person|bratT36=Person-surname|bratT41=Person
-31	)	_	_	_	_	_	_	_	SpaceAfter=No
+25	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Male|bratT13=Person
+26	сын	_	_	_	_	_	_	_	bratA2=T13:Male|bratT13=Person|bratT14=Family
+27	бывшего	_	_	_	_	_	_	_	bratA2=T13:Male|bratA3=T16:Male|bratT13=Person|bratT15=Person-property|bratT16=Person
+28	генпрокурора	_	_	_	_	_	_	_	bratA2=T13:Male|bratA3=T16:Male|bratT13=Person|bratT15=Person-property|bratT16=Person
+29	Юрия	_	_	_	_	_	_	_	bratA2=T13:Male|bratA3=T16:Male|bratT13=Person|bratT16=Person|bratT35=Person-forename
+30	Чайки	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Male|bratA3=T16:Male|bratT13=Person|bratT16=Person|bratT36=Person-surname
+31	)	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T13:Male|bratT13=Person
 32	,	_	_	_	_	_	_	_	_
 33	которая	_	_	_	_	_	_	_	_
 34	занимается	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 # sent_id = 0004-p3-s3
 # text = Ранее переноса завода требовали местные жители, а в прошлом году года префект Северо-Восточного административного округа Алексей Беляев сообщил о поручении мэра о переводе завода ``за пределы района и даже за пределы города''.
 1	Ранее	_	_	_	_	_	_	_	bratA7=T31:Past|bratT31=Date-relative
-2	переноса	_	_	_	_	_	_	_	_
+2	переноса	_	_	_	_	_	_	_	bratT63=Event
 3	завода	_	_	_	_	_	_	_	bratT54=Facility
 4	требовали	_	_	_	_	_	_	_	_
 5	местные	_	_	_	_	_	_	_	bratA10=T43:Adjective|bratA9=T42:Resident|bratT42=Nationality|bratT43=GPE
@@ -175,7 +175,7 @@
 19	сообщил	_	_	_	_	_	_	_	_
 20	о	_	_	_	_	_	_	_	_
 21	поручении	_	_	_	_	_	_	_	_
-22	мэра	_	_	_	_	_	_	_	bratT26=Person-property
+22	мэра	_	_	_	_	_	_	_	bratT26=Person-property|bratT41=Person
 23	о	_	_	_	_	_	_	_	_
 24	переводе	_	_	_	_	_	_	_	_
 25	завода	_	_	_	_	_	_	_	bratT55=Facility

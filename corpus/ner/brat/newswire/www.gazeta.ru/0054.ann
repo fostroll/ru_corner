@@ -7,38 +7,38 @@ T7	Organization 158 178	``   Локомотива   ''
 T9	Person-property 130 178	Бывший   главный   тренер   ``   Локомотива   ''
 T11	Person 130 193	Бывший   главный   тренер   ``   Локомотива   ''   Юрий   Семин
 T12	Person-property 281 339	должность   генерального   директора   московского   клуба
-T13	Organization 357 381	``   Спорт-Экспресс   ''
+T13	Organization 357 383	``   Спорт - Экспресс   ''
 A1	Media T13
-T16	Person 437 447	Ротенберга
-T17	Organization 494 514	``   Локомотива   ''
-T18	Person-property 455 514	должность   генерального   директора   ``   Локомотива   ''
-T19	Service 527 582	Telegram - канал   ``   Честность   -   не   порок   ''
-T20	Person-property 602 609	тренера
-T21	Person 616 625	Ротенберг
-T22	Person 725 730	Семин
-T23	Organization 870 890	``   Локомотива   ''
-T24	Person 983 1000	Борис   Ротенберг
-T25	Organization 1040 1076	футбольного   клуба   ``   Сочи   ''
-T26	Person-property 1007 1022	предприниматель
-T27	Quantity 1090 1100	14   туров
-T28	Event 1103 1128	Российской   премьер-лиги
-T29	Organization 1131 1163	московский   ``   Локомотив   ''
-T30	Quantity 1175 1184	21   очко
-T31	Ordinal 1211 1218	восьмой
-T32	Organization 1259 1293	Футбольный   клуб   ``   Сочи   ''
-T33	Quantity 1304 1313	23   очка
-T34	Ordinal 1332 1337	пятой
-T35	Ordinal 1352 1358	Первое
-T36	Quantity 1369 1383	с   31   очком
-T37	Organization 1397 1414	московский   ЦСКА
-T38	GPE 1461 1467	России
-T39	Organization 1451 1467	сборная   России
-T40	Ordinal 1487 1493	третью
-T42	Event 1532 1541	ЧМ - 2022
+T16	Person 439 449	Ротенберга
+T17	Organization 496 516	``   Локомотива   ''
+T18	Person-property 457 516	должность   генерального   директора   ``   Локомотива   ''
+T19	Service 529 584	Telegram - канал   ``   Честность   -   не   порок   ''
+T20	Person-property 604 611	тренера
+T21	Person 618 627	Ротенберг
+T22	Person 727 732	Семин
+T23	Organization 872 892	``   Локомотива   ''
+T24	Person 985 1002	Борис   Ротенберг
+T25	Organization 1042 1078	футбольного   клуба   ``   Сочи   ''
+T26	Person-property 1009 1024	предприниматель
+T27	Quantity 1092 1102	14   туров
+T28	Event 1105 1130	Российской   премьер-лиги
+T29	Organization 1133 1165	московский   ``   Локомотив   ''
+T30	Quantity 1177 1186	21   очко
+T31	Ordinal 1213 1220	восьмой
+T32	Organization 1261 1295	Футбольный   клуб   ``   Сочи   ''
+T33	Quantity 1306 1315	23   очка
+T34	Ordinal 1334 1339	пятой
+T35	Ordinal 1354 1360	Первое
+T36	Quantity 1371 1385	с   31   очком
+T37	Organization 1399 1416	московский   ЦСКА
+T38	GPE 1463 1469	России
+T39	Organization 1453 1469	сборная   России
+T40	Ordinal 1489 1495	третью
+T42	Event 1534 1543	ЧМ - 2022
 A3	Media T19
-T4	Person-property 1029 1076	владелец   футбольного   клуба   ``   Сочи   ''
-T6	Date-relative 1420 1425	Ранее
-T8	Date-absolute 1082 1100	После   14   туров
+T4	Person-property 1031 1078	владелец   футбольного   клуба   ``   Сочи   ''
+T6	Date-relative 1422 1427	Ранее
+T8	Date-absolute 1084 1102	После   14   туров
 A2	Past T8
 A4	Past T6
 A5	Male T1
@@ -52,25 +52,27 @@ T45	Person-surname 263 273	Ротенберга
 A7	Male T10
 A8	Male T11
 A9	Male T16
-T46	Person-surname 437 447	Ротенберга
-T47	Person-surname 616 625	Ротенберг
+T46	Person-surname 439 449	Ротенберга
+T47	Person-surname 618 627	Ротенберг
 A10	Male T21
-T48	Person-surname 725 730	Семин
+T48	Person-surname 727 732	Семин
 A11	Male T22
-T49	Person-forename 983 988	Борис
-T50	Person-surname 991 1000	Ротенберг
+T49	Person-forename 985 990	Борис
+T50	Person-surname 993 1002	Ротенберг
 A12	Male T24
 T51	GPE 320 331	московского
 A13	Adjective T51
-T52	GPE 1131 1141	московский
+T52	GPE 1133 1143	московский
 A14	Adjective T52
-T53	GPE 1103 1113	Российской
+T53	GPE 1105 1115	Российской
 A15	Adjective T53
-T54	GPE 1397 1407	московский
+T54	GPE 1399 1409	московский
 A16	Adjective T54
-T55	Date-absolute 1537 1541	2022
+T55	Date-absolute 1539 1543	2022
 A17	Future T55
 T56	Organization 320 339	московского   клуба
-T57	Person-property 660 677	любой   должности
+T57	Person-property 662 679	любой   должности
 T58	Event 27 34	новость
 T59	Event 215 222	новость
+T60	Event 41 63	возможном   назначении
+T61	Event 229 251	возможном   назначении

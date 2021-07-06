@@ -6,8 +6,8 @@
 1	Суд	_	_	_	_	_	_	_	bratT36=Organization
 2	отказался	_	_	_	_	_	_	_	_
 3	продлить	_	_	_	_	_	_	_	_
-4	испытательный	_	_	_	_	_	_	_	_
-5	срок	_	_	_	_	_	_	_	_
+4	испытательный	_	_	_	_	_	_	_	bratT69=Event
+5	срок	_	_	_	_	_	_	_	bratT69=Event
 6	осужденному	_	_	_	_	_	_	_	bratA1=T3:Male|bratT1=Person-property|bratT3=Person
 7	по	_	_	_	_	_	_	_	bratA1=T3:Male|bratT3=Person
 8	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA1=T3:Male|bratT3=Person|bratT37=Event
@@ -27,8 +27,8 @@
 4	Москвы	_	_	_	_	_	_	_	bratT6=Organization|bratT8=GPE
 5	отказался	_	_	_	_	_	_	_	_
 6	продлить	_	_	_	_	_	_	_	_
-7	испытательный	_	_	_	_	_	_	_	_
-8	срок	_	_	_	_	_	_	_	_
+7	испытательный	_	_	_	_	_	_	_	bratT70=Event
+8	срок	_	_	_	_	_	_	_	bratT70=Event
 9	осужденному	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person|bratT62=Person-property
 10	по	_	_	_	_	_	_	_	bratA3=T10:Male|bratT10=Person
 11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA3=T10:Male|bratT10=Person|bratT38=Event
@@ -66,8 +66,8 @@
 4	ФСИН	_	_	_	_	_	_	_	bratT13=Organization|bratT32=Organization
 5	требование	_	_	_	_	_	_	_	_
 6	продлить	_	_	_	_	_	_	_	_
-7	испытательные	_	_	_	_	_	_	_	_
-8	срок	_	_	_	_	_	_	_	_
+7	испытательные	_	_	_	_	_	_	_	bratT71=Event
+8	срок	_	_	_	_	_	_	_	bratT71=Event
 9	объясняли	_	_	_	_	_	_	_	_
 10	тем	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 10	словам	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-13	судья	_	_	_	_	_	_	_	bratT22=Person-property
+13	судья	_	_	_	_	_	_	_	bratA20=T67:Female|bratT22=Person-property|bratT67=Person
 14	в	_	_	_	_	_	_	_	_
 15	своем	_	_	_	_	_	_	_	_
 16	решении	_	_	_	_	_	_	_	_
@@ -124,9 +124,9 @@
 7	получил	_	_	_	_	_	_	_	_
 8	3	_	_	_	_	_	_	_	bratA16=T28:Past-UNK|bratT18=Duration|bratT28=Date-period-relative
 9	года	_	_	_	_	_	_	_	bratA16=T28:Past-UNK|bratT18=Duration|bratT28=Date-period-relative
-10	лишения	_	_	_	_	_	_	_	_
-11	свободы	_	_	_	_	_	_	_	_
-12	условно	_	_	_	_	_	_	_	_
+10	лишения	_	_	_	_	_	_	_	bratT68=Event
+11	свободы	_	_	_	_	_	_	_	bratT68=Event
+12	условно	_	_	_	_	_	_	_	bratT68=Event
 13	за	_	_	_	_	_	_	_	_
 14	четыре	_	_	_	_	_	_	_	bratT29=Quantity
 15	ролика	_	_	_	_	_	_	_	bratT29=Quantity

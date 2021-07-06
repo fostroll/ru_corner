@@ -43,7 +43,7 @@
 20	акции	_	_	_	_	_	_	_	bratT90=Event
 21	с	_	_	_	_	_	_	_	_
 22	манекеном	_	_	_	_	_	_	_	_
-23	президента	_	_	_	_	_	_	_	bratT13=Person-property
+23	президента	_	_	_	_	_	_	_	bratA3=T14:Male|bratT13=Person-property|bratT14=Person
 24	Владимира	_	_	_	_	_	_	_	bratA3=T14:Male|bratT14=Person|bratT15=Person-forename
 25	Путина	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T14:Male|bratT14=Person|bratT16=Person-surname
 26	.	_	_	_	_	_	_	_	_
@@ -92,7 +92,7 @@
 # par_text = Полицейские объяснили задержания тем, что «одиночные пикеты запрещены», утверждают в «Другой России». В регионе действует «режим самоизоляции».
 # sent_id = 0035-p4-s1
 # text = Полицейские объяснили задержания тем, что ``одиночные пикеты запрещены'', утверждают в ``Другой России''.
-1	Полицейские	_	_	_	_	_	_	_	bratT35=Person-property
+1	Полицейские	_	_	_	_	_	_	_	bratT107=Person|bratT35=Person-property
 2	объяснили	_	_	_	_	_	_	_	_
 3	задержания	_	_	_	_	_	_	_	bratT98=Event
 4	тем	_	_	_	_	_	_	_	SpaceAfter=No
@@ -106,10 +106,10 @@
 12	,	_	_	_	_	_	_	_	_
 13	утверждают	_	_	_	_	_	_	_	_
 14	в	_	_	_	_	_	_	_	_
-15	``	_	_	_	_	_	_	_	SpaceAfter=No
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
 16	Другой	_	_	_	_	_	_	_	bratT36=Organization
 17	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=GPE|bratT36=Organization
-18	''	_	_	_	_	_	_	_	SpaceAfter=No
+18	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Organization
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0035-p4-s2
@@ -226,8 +226,8 @@
 8	вражды	_	_	_	_	_	_	_	_
 9	и	_	_	_	_	_	_	_	_
 10	оскорбление	_	_	_	_	_	_	_	_
-11	сторонников	_	_	_	_	_	_	_	bratT58=Other-group
-12	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Other-group|bratT59=Person-property
+11	сторонников	_	_	_	_	_	_	_	bratT58=Political-group
+12	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT108=Person|bratT59=Person-property
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p7
@@ -259,12 +259,12 @@
 7	понятых	_	_	_	_	_	_	_	bratT79=Person-property
 8	привлекли	_	_	_	_	_	_	_	_
 9	членов	_	_	_	_	_	_	_	bratT71=Political-group
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Political-group
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Political-group|bratT73=Organization
 11	Молодой	_	_	_	_	_	_	_	bratT105=Age|bratT71=Political-group|bratT73=Organization
 12	гвардии	_	_	_	_	_	_	_	bratT71=Political-group|bratT73=Organization
 13	Единой	_	_	_	_	_	_	_	bratT106=Organization|bratT71=Political-group|bratT73=Organization
 14	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT106=Organization|bratT71=Political-group|bratT73=Organization|bratT80=GPE
-15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Political-group
+15	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Political-group|bratT73=Organization
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0035-p8

@@ -4,7 +4,7 @@
 # sent_id = 0023-p1-s1
 # text = На екатеринбурженку составил протокол о ``гей-пропаганде'' из-за паблика для ЛГБТ-знакомств во ``ВКонтакте''
 1	На	_	_	_	_	_	_	_	_
-2	екатеринбурженку	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality
+2	екатеринбурженку	_	_	_	_	_	_	_	bratA1=T1:Resident|bratA19=T32:Female|bratT1=Nationality|bratT32=Person
 3	составил	_	_	_	_	_	_	_	_
 4	протокол	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
@@ -20,7 +20,7 @@
 14-16	ЛГБТ-знакомств	_	_	_	_	_	_	_	_
 14	ЛГБТ	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Other-group
 15	-	_	_	_	_	_	_	_	SpaceAfter=No
-16	знакомств	_	_	_	_	_	_	_	_
+16	знакомств	_	_	_	_	_	_	_	bratT50=Event
 17	во	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Service
 19	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Service
@@ -30,8 +30,8 @@
 # par_text = Екатеринбургские полицейские составили протокол о пропаганде нетрадиционных сексуальных отношений на местную жительницу Веру, которая вела паблик для ЛГБТ-знакомств во «ВКонтакте». Об этом сообщает It's my City со ссылкой на протокол.
 # sent_id = 0023-p2-s1
 # text = Екатеринбургские полицейские составили протокол о пропаганде нетрадиционных сексуальных отношений на местную жительницу Веру, которая вела паблик для ЛГБТ-знакомств во ``ВКонтакте''.
-1	Екатеринбургские	_	_	_	_	_	_	_	bratA3=T4:Adjective|bratT3=Person-property|bratT4=GPE
-2	полицейские	_	_	_	_	_	_	_	bratT3=Person-property
+1	Екатеринбургские	_	_	_	_	_	_	_	bratA3=T4:Adjective|bratT3=Person-property|bratT4=GPE|bratT52=Person
+2	полицейские	_	_	_	_	_	_	_	bratT3=Person-property|bratT52=Person
 3	составили	_	_	_	_	_	_	_	_
 4	протокол	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
@@ -51,7 +51,7 @@
 19-21	ЛГБТ-знакомств	_	_	_	_	_	_	_	_
 19	ЛГБТ	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Other-group
 20	-	_	_	_	_	_	_	_	SpaceAfter=No
-21	знакомств	_	_	_	_	_	_	_	_
+21	знакомств	_	_	_	_	_	_	_	bratT51=Event
 22	во	_	_	_	_	_	_	_	_
 23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Service
 24	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Service
@@ -87,7 +87,7 @@
 8	по	_	_	_	_	_	_	_	bratA8=T10:Past|bratT10=Date-period-absolute
 9	2020	_	_	_	_	_	_	_	bratA8=T10:Past|bratT10=Date-period-absolute
 10	год	_	_	_	_	_	_	_	bratA8=T10:Past|bratT10=Date-period-absolute
-11	екатеринбурженка	_	_	_	_	_	_	_	bratA9=T11:Citizenship|bratT11=Nationality
+11	екатеринбурженка	_	_	_	_	_	_	_	bratA20=T47:Female|bratA9=T11:Citizenship|bratT11=Nationality|bratT47=Person
 12	разместила	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	паблике	_	_	_	_	_	_	_	bratA10=T12:Media|bratT12=Service
@@ -192,7 +192,7 @@
 5	,	_	_	_	_	_	_	_	_
 6	помощь	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	знакомствах	_	_	_	_	_	_	_	SpaceAfter=No
+8	знакомствах	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 9	,	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	размещении	_	_	_	_	_	_	_	_
@@ -221,7 +221,7 @@
 # text = Вряд ли администратор проверяла возраст у всех участников.
 1	Вряд	_	_	_	_	_	_	_	_
 2	ли	_	_	_	_	_	_	_	_
-3	администратор	_	_	_	_	_	_	_	bratT18=Person-property
+3	администратор	_	_	_	_	_	_	_	bratA21=T49:Female|bratT18=Person-property|bratT49=Person
 4	проверяла	_	_	_	_	_	_	_	_
 5	возраст	_	_	_	_	_	_	_	_
 6	у	_	_	_	_	_	_	_	_
@@ -260,8 +260,8 @@
 26	центра	_	_	_	_	_	_	_	bratA14=T26:Female|bratT23=Person-property|bratT24=Organization|bratT26=Person
 27	для	_	_	_	_	_	_	_	bratA14=T26:Female|bratT23=Person-property|bratT24=Organization|bratT26=Person
 28	ЛГБТ	_	_	_	_	_	_	_	bratA14=T26:Female|bratT23=Person-property|bratT24=Organization|bratT26=Person|bratT43=Other-group
-29	в	_	_	_	_	_	_	_	bratA14=T26:Female|bratT23=Person-property|bratT24=Organization|bratT26=Person
-30	Екатеринбурге	_	_	_	_	_	_	_	bratA14=T26:Female|bratT23=Person-property|bratT24=Organization|bratT25=GPE|bratT26=Person
+29	в	_	_	_	_	_	_	_	bratA14=T26:Female|bratT26=Person
+30	Екатеринбурге	_	_	_	_	_	_	_	bratA14=T26:Female|bratT25=GPE|bratT26=Person
 31	Анна	_	_	_	_	_	_	_	bratA14=T26:Female|bratT26=Person|bratT27=Person-forename
 32	Плюснина	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T26:Female|bratT26=Person|bratT28=Person-surname
 33	,	_	_	_	_	_	_	_	_

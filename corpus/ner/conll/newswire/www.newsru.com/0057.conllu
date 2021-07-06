@@ -5,9 +5,9 @@
 # text = Еще одна жительница Свердловской области рассказала о принудительной стерилизации
 1	Еще	_	_	_	_	_	_	_	bratT2=Quantity
 2	одна	_	_	_	_	_	_	_	bratT2=Quantity
-3	жительница	_	_	_	_	_	_	_	bratA20=T57:Resident|bratT2=Quantity|bratT57=Nationality
-4	Свердловской	_	_	_	_	_	_	_	bratA20=T57:Resident|bratT1=GPE|bratT57=Nationality
-5	области	_	_	_	_	_	_	_	bratA20=T57:Resident|bratT1=GPE|bratT57=Nationality
+3	жительница	_	_	_	_	_	_	_	bratA20=T57:Resident|bratA22=T76:Female|bratT2=Quantity|bratT57=Nationality|bratT76=Person
+4	Свердловской	_	_	_	_	_	_	_	bratA20=T57:Resident|bratA22=T76:Female|bratT1=GPE|bratT57=Nationality|bratT76=Person
+5	области	_	_	_	_	_	_	_	bratA20=T57:Resident|bratA22=T76:Female|bratT1=GPE|bratT57=Nationality|bratT76=Person
 6	рассказала	_	_	_	_	_	_	_	_
 7	о	_	_	_	_	_	_	_	_
 8	принудительной	_	_	_	_	_	_	_	bratT67=Event
@@ -22,13 +22,13 @@
 3	области	_	_	_	_	_	_	_	bratT3=GPE
 4	еще	_	_	_	_	_	_	_	bratT4=Quantity
 5	одна	_	_	_	_	_	_	_	bratT4=Quantity
-6	пациентка	_	_	_	_	_	_	_	bratT4=Quantity
-7	Уктусского	_	_	_	_	_	_	_	bratA3=T35:Adjective|bratT35=GPE|bratT5=Organization
-8	пансионата	_	_	_	_	_	_	_	bratT5=Organization
-9	для	_	_	_	_	_	_	_	bratT5=Organization
-10	престарелых	_	_	_	_	_	_	_	bratT5=Organization|bratT54=Age
-11	и	_	_	_	_	_	_	_	bratT5=Organization
-12	инвалидов	_	_	_	_	_	_	_	bratT5=Organization
+6	пациентка	_	_	_	_	_	_	_	bratA23=T77:Female|bratT4=Quantity|bratT77=Person
+7	Уктусского	_	_	_	_	_	_	_	bratA23=T77:Female|bratA3=T35:Adjective|bratT35=GPE|bratT5=Organization|bratT77=Person
+8	пансионата	_	_	_	_	_	_	_	bratA23=T77:Female|bratT5=Organization|bratT77=Person
+9	для	_	_	_	_	_	_	_	bratA23=T77:Female|bratT5=Organization|bratT77=Person
+10	престарелых	_	_	_	_	_	_	_	bratA23=T77:Female|bratT5=Organization|bratT54=Age|bratT77=Person
+11	и	_	_	_	_	_	_	_	bratA23=T77:Female|bratT5=Organization|bratT77=Person
+12	инвалидов	_	_	_	_	_	_	_	bratA23=T77:Female|bratT5=Organization|bratT77=Person
 13	рассказала	_	_	_	_	_	_	_	_
 14	о	_	_	_	_	_	_	_	_
 15	том	_	_	_	_	_	_	_	SpaceAfter=No
@@ -91,7 +91,7 @@
 
 # sent_id = 0057-p3-s2
 # text = Мужчина тут же подал заявление в ЗАГС, чтобы официально стать отцом ребенка и забрать Анну из учреждения, но расписаться пара не успела: сотрудники пансионата перевезли женщину в двадцатую городскую больницу, где ей сделали сразу две операции - стерилизацию и искусственное прерывание беременности.
-1	Мужчина	_	_	_	_	_	_	_	_
+1	Мужчина	_	_	_	_	_	_	_	bratA24=T78:Male|bratT78=Person
 2	тут	_	_	_	_	_	_	_	_
 3	же	_	_	_	_	_	_	_	_
 4	подал	_	_	_	_	_	_	_	_
@@ -102,8 +102,8 @@
 9	чтобы	_	_	_	_	_	_	_	_
 10	официально	_	_	_	_	_	_	_	_
 11	стать	_	_	_	_	_	_	_	_
-12	отцом	_	_	_	_	_	_	_	bratA19=T56:Male|bratT14=Family|bratT56=Person
-13	ребенка	_	_	_	_	_	_	_	bratA19=T56:Male|bratT42=Family|bratT56=Person
+12	отцом	_	_	_	_	_	_	_	bratT14=Family
+13	ребенка	_	_	_	_	_	_	_	bratT42=Family|bratT56=Person
 14	и	_	_	_	_	_	_	_	_
 15	забрать	_	_	_	_	_	_	_	_
 16	Анну	_	_	_	_	_	_	_	bratA9=T15:Male|bratT15=Person|bratT43=Person-forename
@@ -112,14 +112,14 @@
 19	,	_	_	_	_	_	_	_	_
 20	но	_	_	_	_	_	_	_	_
 21	расписаться	_	_	_	_	_	_	_	_
-22	пара	_	_	_	_	_	_	_	bratT44=Family
+22	пара	_	_	_	_	_	_	_	bratT44=Family|bratT79=Person
 23	не	_	_	_	_	_	_	_	_
 24	успела	_	_	_	_	_	_	_	SpaceAfter=No
 25	:	_	_	_	_	_	_	_	_
-26	сотрудники	_	_	_	_	_	_	_	bratT19=Person-property
-27	пансионата	_	_	_	_	_	_	_	bratT19=Person-property|bratT32=Organization
+26	сотрудники	_	_	_	_	_	_	_	bratT19=Person-property|bratT80=Person
+27	пансионата	_	_	_	_	_	_	_	bratT19=Person-property|bratT32=Organization|bratT80=Person
 28	перевезли	_	_	_	_	_	_	_	_
-29	женщину	_	_	_	_	_	_	_	_
+29	женщину	_	_	_	_	_	_	_	bratA25=T81:Female|bratT81=Person
 30	в	_	_	_	_	_	_	_	_
 31	двадцатую	_	_	_	_	_	_	_	bratT16=Organization|bratT17=Ordinal
 32	городскую	_	_	_	_	_	_	_	bratA21=T58:Adjective|bratT16=Organization|bratT58=GPE
@@ -162,7 +162,7 @@
 17	и	_	_	_	_	_	_	_	_
 18	шантажом	_	_	_	_	_	_	_	SpaceAfter=No
 19	:	_	_	_	_	_	_	_	_
-20	врачи	_	_	_	_	_	_	_	bratT22=Person-property
+20	врачи	_	_	_	_	_	_	_	bratT22=Person-property|bratT82=Person
 21	заявили	_	_	_	_	_	_	_	_
 22	пациентке	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
@@ -228,8 +228,8 @@
 2	слов	_	_	_	_	_	_	_	_
 3	Гусевой	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T27:Female|bratT27=Person|bratT49=Person-surname
 4	,	_	_	_	_	_	_	_	_
-5	врач	_	_	_	_	_	_	_	bratT28=Person-property
-6	учреждения	_	_	_	_	_	_	_	bratT28=Person-property|bratT65=Organization
+5	врач	_	_	_	_	_	_	_	bratA26=T83:Female|bratT28=Person-property|bratT83=Person
+6	учреждения	_	_	_	_	_	_	_	bratA26=T83:Female|bratT28=Person-property|bratT65=Organization|bratT83=Person
 7	заявила	_	_	_	_	_	_	_	_
 8	ей	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
@@ -262,7 +262,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	-	_	_	_	_	_	_	_	_
 11	сказала	_	_	_	_	_	_	_	_
-12	врач	_	_	_	_	_	_	_	bratT29=Person-property
-13	пациентке	_	_	_	_	_	_	_	SpaceAfter=No
+12	врач	_	_	_	_	_	_	_	bratA27=T84:Female|bratT29=Person-property|bratT84=Person
+13	пациентке	_	_	_	_	_	_	_	SpaceAfter=No|bratA28=T85:Female|bratT85=Person
 14	.	_	_	_	_	_	_	_	_
 

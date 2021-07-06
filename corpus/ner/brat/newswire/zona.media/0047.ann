@@ -35,7 +35,7 @@ T27	Person-surname 596 603	Аверина
 T28	Law 665 714	статья   30   ,   часть   1   статьи   226.1   УК
 T29	Law 753 782	часть   1   статьи   222   УК
 T30	Political-group 808 815	нацбола
-T31	Other-group 910 929	Соратники   Аверина
+T31	Person-property 910 929	Соратники   Аверина
 T32	Person 922 929	Аверина
 A10	Male T32
 T33	Person-surname 922 929	Аверина
@@ -61,3 +61,10 @@ T51	Event 621 649	покушении   на   контрабанду
 T52	Event 638 649	контрабанду
 T53	Person-property 34 44	осужденный
 T54	Person-property 146 156	осужденный
+T55	Person 499 505	Нацбол
+A9	Male T55
+T56	Person 808 815	нацбола
+A11	Male T56
+T57	Event 894 905	контрабанде
+T58	Person 910 929	Соратники   Аверина
+T59	Person 528 536	силовики

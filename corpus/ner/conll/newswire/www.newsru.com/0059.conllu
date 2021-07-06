@@ -63,7 +63,7 @@
 1	Планируется	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	что	_	_	_	_	_	_	_	_
-4	возврат	_	_	_	_	_	_	_	_
+4	возврат	_	_	_	_	_	_	_	bratT52=Event
 5	билетов	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	Олимпийские	_	_	_	_	_	_	_	bratT10=Event
@@ -131,8 +131,8 @@
 9	2021	_	_	_	_	_	_	_	bratT20=Date-absolute
 10	год	_	_	_	_	_	_	_	bratT20=Date-absolute
 11	после	_	_	_	_	_	_	_	bratA10=T32:Past|bratT32=Date-absolute
-12	переноса	_	_	_	_	_	_	_	bratA10=T32:Past|bratT32=Date-absolute|bratT42=Event
-13	соревнований	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event|bratT48=Event
+12	переноса	_	_	_	_	_	_	_	bratA10=T32:Past|bratT27=Event|bratT32=Date-absolute
+13	соревнований	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0059-p5
@@ -185,13 +185,13 @@
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	название	_	_	_	_	_	_	_	_
-4	Игр	_	_	_	_	_	_	_	_
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
+4	Игр	_	_	_	_	_	_	_	bratT53=Event
+5	``	_	_	_	_	_	_	_	SpaceAfter=No
 6-8	Токио-2020	_	_	_	_	_	_	_	SpaceAfter=No
-6	Токио	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT36=GPE
-7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event
-8	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Event|bratT35=Date-absolute
-9	''	_	_	_	_	_	_	_	bratT27=Event
+6	Токио	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=GPE
+7	-	_	_	_	_	_	_	_	SpaceAfter=No
+8	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Date-absolute
+9	''	_	_	_	_	_	_	_	_
 10	сохранено	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
 

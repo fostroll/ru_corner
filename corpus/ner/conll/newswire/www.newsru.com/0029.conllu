@@ -7,7 +7,7 @@
 2	Ливане	_	_	_	_	_	_	_	bratT1=GPE
 3	заочно	_	_	_	_	_	_	_	_
 4	арестованы	_	_	_	_	_	_	_	_
-5	россияне	_	_	_	_	_	_	_	bratA1=T2:Citizenship|bratT2=Nationality
+5	россияне	_	_	_	_	_	_	_	bratA1=T2:Citizenship|bratA16=T50:Male|bratT2=Nationality|bratT50=Person
 6	по	_	_	_	_	_	_	_	_
 7	делу	_	_	_	_	_	_	_	bratT46=Event
 8	о	_	_	_	_	_	_	_	_
@@ -34,8 +34,8 @@
 3	Ливане	_	_	_	_	_	_	_	bratT9=GPE
 4	заочно	_	_	_	_	_	_	_	_
 5	арестовал	_	_	_	_	_	_	_	_
-6	двух	_	_	_	_	_	_	_	bratT10=Quantity
-7	россиян	_	_	_	_	_	_	_	bratA3=T11:Citizenship|bratT10=Quantity|bratT11=Nationality
+6	двух	_	_	_	_	_	_	_	bratT10=Quantity|bratT51=Person
+7	россиян	_	_	_	_	_	_	_	bratA3=T11:Citizenship|bratT10=Quantity|bratT11=Nationality|bratT51=Person
 8	по	_	_	_	_	_	_	_	_
 9	делу	_	_	_	_	_	_	_	bratT47=Event
 10	о	_	_	_	_	_	_	_	_
@@ -92,7 +92,7 @@
 7	на	_	_	_	_	_	_	_	_
 8	международный	_	_	_	_	_	_	_	bratT40=Event
 9	арест	_	_	_	_	_	_	_	bratT40=Event
-10	россиян	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T21:Citizenship|bratT21=Nationality
+10	россиян	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T21:Citizenship|bratT21=Nationality|bratT52=Person
 11	,	_	_	_	_	_	_	_	_
 12	сообщает	_	_	_	_	_	_	_	_
 13	Национальное	_	_	_	_	_	_	_	bratA7=T22:Media|bratT22=Organization
@@ -153,9 +153,9 @@
 9	-	_	_	_	_	_	_	_	_
 10	сказал	_	_	_	_	_	_	_	_
 11-13	экс-капитан	_	_	_	_	_	_	_	_
-11	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Person-property
-12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT25=Person-property
-13	капитан	_	_	_	_	_	_	_	bratT25=Person-property
+11	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA17=T53:Male|bratT25=Person-property|bratT53=Person
+12	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA17=T53:Male|bratT25=Person-property|bratT53=Person
+13	капитан	_	_	_	_	_	_	_	bratA17=T53:Male|bratT25=Person-property|bratT53=Person
 14	агентству	_	_	_	_	_	_	_	bratA8=T26:Media|bratT26=Organization
 15	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T26:Media|bratT26=Organization
 16	.	_	_	_	_	_	_	_	_

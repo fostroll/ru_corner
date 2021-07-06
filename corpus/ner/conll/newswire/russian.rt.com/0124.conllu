@@ -6,13 +6,13 @@
 1	В	_	_	_	_	_	_	_	_
 2	Австрии	_	_	_	_	_	_	_	bratT1=GPE
 3	повторят	_	_	_	_	_	_	_	_
-4	массовое	_	_	_	_	_	_	_	_
-5	тестирование	_	_	_	_	_	_	_	bratT2=Service
-6	на	_	_	_	_	_	_	_	bratT2=Service
+4	массовое	_	_	_	_	_	_	_	bratT2=Event
+5	тестирование	_	_	_	_	_	_	_	bratT2=Event
+6	на	_	_	_	_	_	_	_	_
 7-9	COVID-19	_	_	_	_	_	_	_	_
-7	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Service|bratT3=Other-term
-8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Service|bratT3=Other-term
-9	19	_	_	_	_	_	_	_	bratT2=Service|bratT23=Cardinal|bratT3=Other-term
+7	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term
+8	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term
+9	19	_	_	_	_	_	_	_	bratT23=Cardinal|bratT3=Other-term
 
 # newpar id = 0124-p2
 # par_text = Министр здравоохранения Австрии Рудольф Аншобер заявил, что власти страны намерены повторить массовое тестирование граждан на коронавирусную инфекцию COVID-19.
@@ -30,16 +30,16 @@
 10	страны	_	_	_	_	_	_	_	bratT26=Organization|bratT27=GPE
 11	намерены	_	_	_	_	_	_	_	_
 12	повторить	_	_	_	_	_	_	_	_
-13	массовое	_	_	_	_	_	_	_	_
-14	тестирование	_	_	_	_	_	_	_	bratT16=Service
-15	граждан	_	_	_	_	_	_	_	bratT16=Service
-16	на	_	_	_	_	_	_	_	bratT16=Service
-17	коронавирусную	_	_	_	_	_	_	_	bratT16=Service|bratT17=Other-term
-18	инфекцию	_	_	_	_	_	_	_	bratT16=Service|bratT17=Other-term
+13	массовое	_	_	_	_	_	_	_	bratT16=Event
+14	тестирование	_	_	_	_	_	_	_	bratT16=Event
+15	граждан	_	_	_	_	_	_	_	bratA5=T31:Citizenship|bratT31=Nationality
+16	на	_	_	_	_	_	_	_	_
+17	коронавирусную	_	_	_	_	_	_	_	bratT17=Other-term
+18	инфекцию	_	_	_	_	_	_	_	bratT17=Other-term
 19-21	COVID-19	_	_	_	_	_	_	_	SpaceAfter=No
-19	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Service|bratT17=Other-term
-20	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Service|bratT17=Other-term
-21	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Service|bratT17=Other-term|bratT24=Cardinal
+19	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
+20	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term
+21	19	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Other-term|bratT24=Cardinal
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0124-p3
@@ -69,9 +69,9 @@
 10	не	_	_	_	_	_	_	_	_
 11	может	_	_	_	_	_	_	_	_
 12	быть	_	_	_	_	_	_	_	_
-13	единоразовым	_	_	_	_	_	_	_	bratT12=Quantity
-14	массовым	_	_	_	_	_	_	_	_
-15	тестированием	_	_	_	_	_	_	_	SpaceAfter=No
+13	единоразовым	_	_	_	_	_	_	_	bratT12=Quantity|bratT32=Event
+14	массовым	_	_	_	_	_	_	_	bratT32=Event
+15	тестированием	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Event
 16	''	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	-	_	_	_	_	_	_	_	_
@@ -85,14 +85,14 @@
 # text = При это министр не уточнил, сколько именно массовых тестирований ещё планируется провести.
 1	При	_	_	_	_	_	_	_	_
 2	это	_	_	_	_	_	_	_	_
-3	министр	_	_	_	_	_	_	_	bratT5=Person-property
+3	министр	_	_	_	_	_	_	_	bratA6=T33:Male|bratT33=Person|bratT5=Person-property
 4	не	_	_	_	_	_	_	_	_
 5	уточнил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	сколько	_	_	_	_	_	_	_	_
 8	именно	_	_	_	_	_	_	_	_
-9	массовых	_	_	_	_	_	_	_	_
-10	тестирований	_	_	_	_	_	_	_	_
+9	массовых	_	_	_	_	_	_	_	bratT34=Event
+10	тестирований	_	_	_	_	_	_	_	bratT34=Event
 11	ещё	_	_	_	_	_	_	_	_
 12	планируется	_	_	_	_	_	_	_	_
 13	провести	_	_	_	_	_	_	_	SpaceAfter=No

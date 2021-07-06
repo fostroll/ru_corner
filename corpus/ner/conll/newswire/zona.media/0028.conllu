@@ -4,8 +4,8 @@
 # sent_id = 0028-p1-s1
 # text = На челябинского студента завели дело о подготовке убийства из-за поста о планах устроить «колумбайн»
 1	На	_	_	_	_	_	_	_	_
-2	челябинского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-3	студента	_	_	_	_	_	_	_	bratT1=Person-property
+2	челябинского	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA23=T79:Male|bratT1=Person-property|bratT2=GPE|bratT79=Person
+3	студента	_	_	_	_	_	_	_	bratA23=T79:Male|bratT1=Person-property|bratT79=Person
 4	завели	_	_	_	_	_	_	_	_
 5	дело	_	_	_	_	_	_	_	bratT47=Event
 6	о	_	_	_	_	_	_	_	_
@@ -16,9 +16,9 @@
 11	о	_	_	_	_	_	_	_	_
 12	планах	_	_	_	_	_	_	_	_
 13	устроить	_	_	_	_	_	_	_	_
-14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT7=Event
+14	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 15	колумбайн	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Event
-16	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT7=Event
+16	''	_	_	_	_	_	_	_	QuotationEnd=»
 
 # newpar id = 0028-p2
 # par_text = Следственный комитет возбудил уголовное дело о подготовке убийства (часть 1 статьи 30, пункт «а»; часть 2 статьи 105 УК) против 18-летнего челябинского студента колледжа Дениса Куценко из-за записи «ВКонтакте» про «массовое убийство». Об этом сообщает глава международной правозащитной группы «Агора» Павел Чиков.
@@ -61,9 +61,9 @@
 34	Куценко	_	_	_	_	_	_	_	bratA5=T10:Male|bratT10=Person|bratT14=Person-surname
 35	из-за	_	_	_	_	_	_	_	_
 36	записи	_	_	_	_	_	_	_	bratA3=T5:Media|bratT5=Service
-37	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
+37	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT15=Service
 38	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Service
-39	''	_	_	_	_	_	_	_	QuotationEnd=»
+39	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT15=Service
 40	про	_	_	_	_	_	_	_	_
 41	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 42	массовое	_	_	_	_	_	_	_	bratT60=Event
@@ -204,9 +204,9 @@
 # text = В итоге полиция задержала студента прямо в колледже и надели на него наручники.
 1	В	_	_	_	_	_	_	_	_
 2	итоге	_	_	_	_	_	_	_	_
-3	полиция	_	_	_	_	_	_	_	bratT76=Person-property
+3	полиция	_	_	_	_	_	_	_	bratT76=Organization
 4	задержала	_	_	_	_	_	_	_	_
-5	студента	_	_	_	_	_	_	_	bratT37=Person-property
+5	студента	_	_	_	_	_	_	_	bratA22=T78:Male|bratT37=Person-property|bratT78=Person
 6	прямо	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	колледже	_	_	_	_	_	_	_	bratT56=Organization

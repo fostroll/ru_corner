@@ -3,8 +3,8 @@
 # par_text = Петербургскому активисту, приговоренному к 3,5 годам по делу о передаче взрывчатки участнику оперативного эксперимента, отменили приговор
 # sent_id = 0036-p1-s1
 # text = Петербургскому активисту, приговоренному к 3,5 годам по делу о передаче взрывчатки участнику оперативного эксперимента, отменили приговор
-1	Петербургскому	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
-2	активисту	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+1	Петербургскому	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA24=T69:Male|bratT1=Person-property|bratT2=GPE|bratT69=Person
+2	активисту	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T69:Male|bratT1=Person-property|bratT69=Person
 3	,	_	_	_	_	_	_	_	_
 4	приговоренному	_	_	_	_	_	_	_	_
 5	к	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT3=Date-period-relative
@@ -46,9 +46,9 @@
 18	о	_	_	_	_	_	_	_	_
 19	передаче	_	_	_	_	_	_	_	_
 20	взрывчатки	_	_	_	_	_	_	_	_
-21	участнику	_	_	_	_	_	_	_	_
-22	оперативного	_	_	_	_	_	_	_	bratT61=Event
-23	эксперимента	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
+21	участнику	_	_	_	_	_	_	_	bratA25=T70:Male|bratT70=Person
+22	оперативного	_	_	_	_	_	_	_	bratA25=T70:Male|bratT61=Event|bratT70=Person
+23	эксперимента	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T70:Male|bratT61=Event|bratT70=Person
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0036-p2-s2
@@ -56,9 +56,9 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
-4	``	_	_	_	_	_	_	_	SpaceAfter=No
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T15:Media|bratT15=Organization
 5	Интерфакс	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T15:Media|bratT15=Organization
-6	''	_	_	_	_	_	_	_	SpaceAfter=No
+6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T15:Media|bratT15=Organization
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0036-p3
@@ -74,8 +74,8 @@
 7	дело	_	_	_	_	_	_	_	bratT56=Event
 8	отправили	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	новое	_	_	_	_	_	_	_	_
-11	рассмотрение	_	_	_	_	_	_	_	SpaceAfter=No
+10	новое	_	_	_	_	_	_	_	bratT71=Event
+11	рассмотрение	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0036-p4
@@ -117,21 +117,21 @@
 6	феврале	_	_	_	_	_	_	_	bratA7=T25:Past|bratT25=Date-absolute
 7	2019	_	_	_	_	_	_	_	bratA7=T25:Past|bratT25=Date-absolute
 8	года	_	_	_	_	_	_	_	bratA7=T25:Past|bratT25=Date-absolute
-9	активист	_	_	_	_	_	_	_	bratT26=Person-property
+9	активист	_	_	_	_	_	_	_	bratA23=T68:Male|bratT26=Person-property|bratT68=Person
 10	через	_	_	_	_	_	_	_	_
-11	камеру	_	_	_	_	_	_	_	_
-12	хранения	_	_	_	_	_	_	_	_
-13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
-14	Пятерочки	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
-15	''	_	_	_	_	_	_	_	bratT27=Organization
+11	камеру	_	_	_	_	_	_	_	bratT75=Facility
+12	хранения	_	_	_	_	_	_	_	bratT75=Facility
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Facility|bratT75=Facility
+14	Пятерочки	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Facility|bratT75=Facility
+15	''	_	_	_	_	_	_	_	bratT27=Facility|bratT75=Facility
 16	передал	_	_	_	_	_	_	_	_
 17	участнику	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person
 18	оперативного	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT62=Event
 19	эксперимента	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT62=Event
 20	под	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person
 21	псевдонимом	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person
-22	Григорий	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT31=Person-forename
-23	Иванов	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT32=Person-surname
+22	Григорий	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT31=Person-forename|bratT74=Person-alias
+23	Иванов	_	_	_	_	_	_	_	bratA8=T30:Male|bratT30=Person|bratT32=Person-surname|bratT74=Person-alias
 24	взрывчатку	_	_	_	_	_	_	_	SpaceAfter=No
 25	,	_	_	_	_	_	_	_	_
 26	огнепроводный	_	_	_	_	_	_	_	_
@@ -163,7 +163,7 @@
 # text = По словам активиста, именно Левин передал ему пакет с компонентами взрывчатки и предметом, похожим на хозяйственное мыло или замазку.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	активиста	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property
+3	активиста	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T67:Male|bratT40=Person-property|bratT67=Person
 4	,	_	_	_	_	_	_	_	_
 5	именно	_	_	_	_	_	_	_	_
 6	Левин	_	_	_	_	_	_	_	bratA11=T41:Male|bratT41=Person|bratT42=Person-surname
@@ -186,12 +186,12 @@
 
 # sent_id = 0036-p6-s3
 # text = Защита Иванютенко настаивала, что оппозиционер избавился от пакета, а в камере хранения оставил только замазку.
-1	Защита	_	_	_	_	_	_	_	_
-2	Иванютенко	_	_	_	_	_	_	_	bratA12=T43:Male|bratT43=Person|bratT44=Person-surname
+1	Защита	_	_	_	_	_	_	_	bratT65=Person-property|bratT66=Person
+2	Иванютенко	_	_	_	_	_	_	_	bratA12=T43:Male|bratT43=Person|bratT44=Person-surname|bratT65=Person-property|bratT66=Person
 3	настаивала	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	оппозиционер	_	_	_	_	_	_	_	bratT45=Political-group
+6	оппозиционер	_	_	_	_	_	_	_	bratA21=T64:Male|bratT45=Political-group|bratT64=Person
 7	избавился	_	_	_	_	_	_	_	_
 8	от	_	_	_	_	_	_	_	_
 9	пакета	_	_	_	_	_	_	_	SpaceAfter=No
@@ -211,13 +211,13 @@
 # text = На допросе ``Иванов'' утвержал, что активист готовил покушение на бизнесмена Евгения Пригожина, писала ``Новая газета''.
 1	На	_	_	_	_	_	_	_	_
 2	допросе	_	_	_	_	_	_	_	bratT59=Event
-3	``	_	_	_	_	_	_	_	SpaceAfter=No
-4	Иванов	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T46:Male|bratT46=Person|bratT47=Person-surname
-5	''	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T46:Male|bratT46=Person|bratT73=Person-alias
+4	Иванов	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T46:Male|bratT46=Person|bratT47=Person-surname|bratT73=Person-alias
+5	''	_	_	_	_	_	_	_	bratA13=T46:Male|bratT46=Person|bratT73=Person-alias
 6	утвержал	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	активист	_	_	_	_	_	_	_	bratT29=Person-property
+9	активист	_	_	_	_	_	_	_	bratA26=T72:Male|bratT29=Person-property|bratT72=Person
 10	готовил	_	_	_	_	_	_	_	_
 11	покушение	_	_	_	_	_	_	_	bratT57=Event
 12	на	_	_	_	_	_	_	_	_

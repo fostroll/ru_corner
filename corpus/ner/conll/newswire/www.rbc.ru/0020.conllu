@@ -14,7 +14,7 @@
 9	матча	_	_	_	_	_	_	_	bratT51=Event|bratT54=Event
 10	со	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
-12	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Organization
+12	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T62:Male|bratT2=Organization|bratT62=Person|bratT63=Person-alias
 13	''	_	_	_	_	_	_	_	bratT2=Organization
 14	из-за	_	_	_	_	_	_	_	_
 15	долгов	_	_	_	_	_	_	_	_
@@ -197,13 +197,13 @@
 # sent_id = 0020-p7-s1
 # text = Матч ``Спартак'' - ``Тамбов'' должен пройти 5 декабря в Москве.
 1	Матч	_	_	_	_	_	_	_	bratT23=Event
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
-3	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
-4	''	_	_	_	_	_	_	_	bratT24=Organization
-5	-	_	_	_	_	_	_	_	_
-6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
-7	Тамбов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE|bratT25=Organization
-8	''	_	_	_	_	_	_	_	bratT25=Organization
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event|bratT24=Organization
+3	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T64:Male|bratT23=Event|bratT24=Organization|bratT64=Person|bratT65=Person-alias
+4	''	_	_	_	_	_	_	_	bratT23=Event|bratT24=Organization
+5	-	_	_	_	_	_	_	_	bratT23=Event
+6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Event|bratT25=Organization
+7	Тамбов	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=GPE|bratT23=Event|bratT25=Organization
+8	''	_	_	_	_	_	_	_	bratT23=Event|bratT25=Organization
 9	должен	_	_	_	_	_	_	_	_
 10	пройти	_	_	_	_	_	_	_	_
 11	5	_	_	_	_	_	_	_	bratA8=T26:Future|bratT26=Date-absolute

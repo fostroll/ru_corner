@@ -30,7 +30,7 @@
 11	Зениту	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Organization
 12	''	_	_	_	_	_	_	_	bratT5=Organization
 13	за	_	_	_	_	_	_	_	_
-14	неявку	_	_	_	_	_	_	_	_
+14	неявку	_	_	_	_	_	_	_	bratT52=Event
 15	на	_	_	_	_	_	_	_	_
 16	матчи	_	_	_	_	_	_	_	bratT34=Event
 17	регулярного	_	_	_	_	_	_	_	bratT34=Event|bratT7=Event
@@ -56,7 +56,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	предусматривающие	_	_	_	_	_	_	_	_
 10	трехкратный	_	_	_	_	_	_	_	bratT25=Quantity
-11	перенос	_	_	_	_	_	_	_	bratT25=Quantity
+11	перенос	_	_	_	_	_	_	_	bratT25=Quantity|bratT53=Event
 12	несыгранных	_	_	_	_	_	_	_	bratT45=Event
 13	матчей	_	_	_	_	_	_	_	bratT45=Event
 14	на	_	_	_	_	_	_	_	_
@@ -75,8 +75,8 @@
 5	когда	_	_	_	_	_	_	_	_
 6	команда	_	_	_	_	_	_	_	bratT37=Organization
 7	из-за	_	_	_	_	_	_	_	_
-8	положительных	_	_	_	_	_	_	_	_
-9	тестов	_	_	_	_	_	_	_	_
+8	положительных	_	_	_	_	_	_	_	bratT50=Event
+9	тестов	_	_	_	_	_	_	_	bratT50=Event
 10	на	_	_	_	_	_	_	_	_
 11	коронавирус	_	_	_	_	_	_	_	bratT10=Other-term
 12	не	_	_	_	_	_	_	_	_
@@ -113,10 +113,10 @@
 2	в	_	_	_	_	_	_	_	_
 3	случае	_	_	_	_	_	_	_	_
 4	невозможности	_	_	_	_	_	_	_	_
-5	переноса	_	_	_	_	_	_	_	_
+5	переноса	_	_	_	_	_	_	_	bratT49=Event
 6	или	_	_	_	_	_	_	_	_
 7	при	_	_	_	_	_	_	_	_
-8	достижении	_	_	_	_	_	_	_	_
+8	достижении	_	_	_	_	_	_	_	bratT48=Event
 9	их	_	_	_	_	_	_	_	_
 10	максимального	_	_	_	_	_	_	_	_
 11	количества	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 17	против	_	_	_	_	_	_	_	_
 18	испанских	_	_	_	_	_	_	_	bratA7=T32:Adjective|bratT20=Organization|bratT32=GPE
 19	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
-20	Басконии	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+20	Басконии	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization|bratT51=GPE
 21	''	_	_	_	_	_	_	_	bratT20=Organization
 22	(	_	_	_	_	_	_	_	SpaceAfter=No
 23	13	_	_	_	_	_	_	_	bratA8=T21:Past|bratT21=Date-absolute

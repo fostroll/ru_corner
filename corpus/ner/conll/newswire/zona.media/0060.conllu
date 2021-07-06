@@ -6,7 +6,7 @@
 1	Церковный	_	_	_	_	_	_	_	bratT1=Organization
 2	суд	_	_	_	_	_	_	_	bratT1=Organization
 3	лишил	_	_	_	_	_	_	_	_
-4	сана	_	_	_	_	_	_	_	_
+4	сана	_	_	_	_	_	_	_	bratT61=Person-property
 5	уральского	_	_	_	_	_	_	_	bratA1=T2:Male|bratA14=T46:Adjective|bratT2=Person|bratT22=Person-property|bratT46=Location
 6	схиигумена	_	_	_	_	_	_	_	bratA1=T2:Male|bratT2=Person|bratT22=Person-property
 7	Сергия	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Male|bratT2=Person|bratT20=Person-forename
@@ -14,7 +14,7 @@
 9	обвинившего	_	_	_	_	_	_	_	_
 10	Путина	_	_	_	_	_	_	_	bratA2=T3:Male|bratT3=Person|bratT4=Person-surname
 11	в	_	_	_	_	_	_	_	_
-12	создании	_	_	_	_	_	_	_	_
+12	создании	_	_	_	_	_	_	_	bratT63=Event
 13	``	_	_	_	_	_	_	_	SpaceAfter=No
 14	фашистского	_	_	_	_	_	_	_	bratA15=T47:Adjective|bratT47=Political-group|bratT55=Organization
 15	концлагеря	_	_	_	_	_	_	_	bratT55=Organization
@@ -28,7 +28,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	Екатеринбурге	_	_	_	_	_	_	_	bratT5=GPE
 3	лишили	_	_	_	_	_	_	_	_
-4	сана	_	_	_	_	_	_	_	_
+4	сана	_	_	_	_	_	_	_	bratT62=Person-property
 5	схиигумена	_	_	_	_	_	_	_	bratA3=T6:Male|bratT23=Person-property|bratT6=Person
 6	Сергия	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T6:Male|bratT21=Person-forename|bratT6=Person
 7	,	_	_	_	_	_	_	_	_
@@ -45,7 +45,7 @@
 18	Владимира	_	_	_	_	_	_	_	bratA4=T9:Male|bratT11=Person-forename|bratT9=Person
 19	Путина	_	_	_	_	_	_	_	bratA4=T9:Male|bratT12=Person-surname|bratT9=Person
 20	в	_	_	_	_	_	_	_	_
-21	создании	_	_	_	_	_	_	_	_
+21	создании	_	_	_	_	_	_	_	bratT64=Event
 22	``	_	_	_	_	_	_	_	SpaceAfter=No
 23	фашистского	_	_	_	_	_	_	_	bratA16=T48:Adjective|bratT48=Political-group|bratT56=Organization
 24	концлагеря	_	_	_	_	_	_	_	bratT56=Organization
@@ -77,7 +77,7 @@
 7	Сергию	_	_	_	_	_	_	_	bratA6=T15:Male|bratT15=Person|bratT19=Person-forename
 8	запретили	_	_	_	_	_	_	_	_
 9	читать	_	_	_	_	_	_	_	_
-10	проповеди	_	_	_	_	_	_	_	_
+10	проповеди	_	_	_	_	_	_	_	bratT60=Event
 11	и	_	_	_	_	_	_	_	_
 12	публично	_	_	_	_	_	_	_	_
 13	высказываться	_	_	_	_	_	_	_	_
@@ -91,16 +91,16 @@
 
 # sent_id = 0060-p3-s2
 # text = Схиигумен говорил, что духовенство ``вместе с предтечами антихриста закрывает храмы, ссылаясь на псевдопандемию, прикрывая свое малодушие и трусость''.
-1	Схиигумен	_	_	_	_	_	_	_	bratT25=Person-property
+1	Схиигумен	_	_	_	_	_	_	_	bratA23=T53:Male|bratT25=Person-property|bratT53=Person
 2	говорил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	духовенство	_	_	_	_	_	_	_	_
+5	духовенство	_	_	_	_	_	_	_	bratT57=Person-property
 6	``	_	_	_	_	_	_	_	SpaceAfter=No
 7	вместе	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
-9	предтечами	_	_	_	_	_	_	_	_
-10	антихриста	_	_	_	_	_	_	_	bratA21=T49:Fiction|bratA22=T49:Male|bratT49=Person|bratT50=Person-alias
+9	предтечами	_	_	_	_	_	_	_	bratT58=Person-property
+10	антихриста	_	_	_	_	_	_	_	bratA21=T49:Fiction|bratA22=T49:Male|bratT49=Person|bratT50=Person-alias|bratT58=Person-property
 11	закрывает	_	_	_	_	_	_	_	_
 12	храмы	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
@@ -185,9 +185,9 @@
 3	обители	_	_	_	_	_	_	_	bratT51=Facility
 4	не	_	_	_	_	_	_	_	_
 5	пускают	_	_	_	_	_	_	_	_
-6	руководство	_	_	_	_	_	_	_	bratT39=Person-property
-7	Екатеринбургской	_	_	_	_	_	_	_	bratA12=T41:Adjective|bratT39=Person-property|bratT40=Organization|bratT41=GPE
-8	епархии	_	_	_	_	_	_	_	bratT39=Person-property|bratT40=Organization
+6	руководство	_	_	_	_	_	_	_	bratT39=Person-property|bratT59=Person
+7	Екатеринбургской	_	_	_	_	_	_	_	bratA12=T41:Adjective|bratT39=Person-property|bratT40=Organization|bratT41=GPE|bratT59=Person
+8	епархии	_	_	_	_	_	_	_	bratT39=Person-property|bratT40=Organization|bratT59=Person
 9	и	_	_	_	_	_	_	_	_
 10	журналистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Person-property
 11	,	_	_	_	_	_	_	_	_

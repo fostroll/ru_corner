@@ -9,7 +9,7 @@
 4	двух	_	_	_	_	_	_	_	bratA7=T32:Past|bratT32=Date-period-absolute|bratT4=Duration
 5	лет	_	_	_	_	_	_	_	bratA7=T32:Past|bratT32=Date-period-absolute|bratT4=Duration
 6	безуспешных	_	_	_	_	_	_	_	bratA7=T32:Past|bratT32=Date-period-absolute
-7	попыток	_	_	_	_	_	_	_	bratA7=T32:Past|bratT32=Date-period-absolute
+7	попыток	_	_	_	_	_	_	_	bratA7=T32:Past|bratT32=Date-period-absolute|bratT53=Event
 8	заблокировать	_	_	_	_	_	_	_	_
 9	Telegram	_	_	_	_	_	_	_	bratT5=Service
 10	завел	_	_	_	_	_	_	_	_
@@ -25,7 +25,7 @@
 2	,	_	_	_	_	_	_	_	_
 3	отвечавший	_	_	_	_	_	_	_	_
 4	за	_	_	_	_	_	_	_	_
-5	блокировку	_	_	_	_	_	_	_	_
+5	блокировку	_	_	_	_	_	_	_	bratT51=Event
 6	в	_	_	_	_	_	_	_	_
 7	России	_	_	_	_	_	_	_	bratT7=GPE
 8	мессенджера	_	_	_	_	_	_	_	bratT8=Service
@@ -131,8 +131,8 @@
 7	,	_	_	_	_	_	_	_	_
 8	однако	_	_	_	_	_	_	_	_
 9	после	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
-10	выхода	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute
-11	твита	_	_	_	_	_	_	_	bratA12=T26:Media|bratT26=Service
+10	выхода	_	_	_	_	_	_	_	bratA9=T31:Past|bratT31=Date-absolute|bratT54=Event
+11	твита	_	_	_	_	_	_	_	bratA12=T26:Media|bratT26=Service|bratT54=Event
 12	их	_	_	_	_	_	_	_	_
 13	число	_	_	_	_	_	_	_	_
 14	превысило	_	_	_	_	_	_	_	_
@@ -166,8 +166,8 @@
 1	Это	_	_	_	_	_	_	_	_
 2	привело	_	_	_	_	_	_	_	_
 3	к	_	_	_	_	_	_	_	_
-4	массовым	_	_	_	_	_	_	_	_
-5	перебоям	_	_	_	_	_	_	_	_
+4	массовым	_	_	_	_	_	_	_	bratT55=Event
+5	перебоям	_	_	_	_	_	_	_	bratT55=Event
 6	в	_	_	_	_	_	_	_	_
 7	работе	_	_	_	_	_	_	_	_
 8	игр	_	_	_	_	_	_	_	SpaceAfter=No
@@ -195,7 +195,7 @@
 9	снимает	_	_	_	_	_	_	_	_
 10	требования	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
-12	блокировке	_	_	_	_	_	_	_	_
+12	блокировке	_	_	_	_	_	_	_	bratT52=Event
 13	мессенджера	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Service
 14	,	_	_	_	_	_	_	_	_
 15	после	_	_	_	_	_	_	_	bratA11=T15:Past|bratT15=Date-relative

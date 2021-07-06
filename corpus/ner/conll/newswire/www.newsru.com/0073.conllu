@@ -3,20 +3,20 @@
 # par_text = Наставник "Манчестер Сити" призвал вернуться к пяти заменам футболистов в одном матче
 # sent_id = 0073-p1-s1
 # text = Наставник ``Манчестер Сити'' призвал вернуться к пяти заменам футболистов в одном матче
-1	Наставник	_	_	_	_	_	_	_	bratT1=Person-property
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
-3	Манчестер	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization|bratT45=GPE
-4	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization|bratT45=GPE
-5	''	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+1	Наставник	_	_	_	_	_	_	_	bratA10=T61:Male|bratT1=Person-property|bratT61=Person
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T61:Male|bratT1=Person-property|bratT2=Organization|bratT61=Person
+3	Манчестер	_	_	_	_	_	_	_	bratA10=T61:Male|bratT1=Person-property|bratT2=Organization|bratT45=GPE|bratT61=Person
+4	Сити	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T61:Male|bratT1=Person-property|bratT2=Organization|bratT45=GPE|bratT61=Person
+5	''	_	_	_	_	_	_	_	bratA10=T61:Male|bratT1=Person-property|bratT2=Organization|bratT61=Person
 6	призвал	_	_	_	_	_	_	_	_
 7	вернуться	_	_	_	_	_	_	_	_
 8	к	_	_	_	_	_	_	_	_
 9	пяти	_	_	_	_	_	_	_	bratT3=Quantity
-10	заменам	_	_	_	_	_	_	_	bratT3=Quantity
+10	заменам	_	_	_	_	_	_	_	bratT3=Quantity|bratT68=Event
 11	футболистов	_	_	_	_	_	_	_	bratT5=Person-property
 12	в	_	_	_	_	_	_	_	_
 13	одном	_	_	_	_	_	_	_	bratT4=Quantity
-14	матче	_	_	_	_	_	_	_	bratT4=Quantity
+14	матче	_	_	_	_	_	_	_	bratT4=Quantity|bratT66=Event
 
 # newpar id = 0073-p2
 # par_text = Английская Премьер-лига должна вернуть командам возможность совершать пять замен в одном матче. Такое мнение выразил главный тренер футбольного клуба "Манчестер Сити" Хосеп Гвардиола, комментарий которого приводит ВВС.
@@ -30,10 +30,10 @@
 6	возможность	_	_	_	_	_	_	_	_
 7	совершать	_	_	_	_	_	_	_	_
 8	пять	_	_	_	_	_	_	_	bratT7=Quantity
-9	замен	_	_	_	_	_	_	_	bratT7=Quantity
+9	замен	_	_	_	_	_	_	_	bratT69=Event|bratT7=Quantity
 10	в	_	_	_	_	_	_	_	_
 11	одном	_	_	_	_	_	_	_	bratT8=Quantity
-12	матче	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Quantity
+12	матче	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Event|bratT8=Quantity
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p2-s2
@@ -75,8 +75,8 @@
 11	,	_	_	_	_	_	_	_	_
 12	чем	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	bratA8=T53:Past|bratT53=Date-period-absolute
-14	предыдущем	_	_	_	_	_	_	_	bratA8=T53:Past|bratT37=Ordinal|bratT53=Date-period-absolute
-15	сезоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T53:Past|bratT53=Date-period-absolute
+14	предыдущем	_	_	_	_	_	_	_	bratA8=T53:Past|bratT37=Ordinal|bratT53=Date-period-absolute|bratT76=Event
+15	сезоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T53:Past|bratT53=Date-period-absolute|bratT76=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p3-s2
@@ -90,7 +90,7 @@
 7	и	_	_	_	_	_	_	_	_
 8	большого	_	_	_	_	_	_	_	_
 9	количества	_	_	_	_	_	_	_	_
-10	игр	_	_	_	_	_	_	_	SpaceAfter=No
+10	игр	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Event
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p3-s3
@@ -101,7 +101,7 @@
 4	Испании	_	_	_	_	_	_	_	bratT38=GPE
 5	разрешили	_	_	_	_	_	_	_	_
 6	пять	_	_	_	_	_	_	_	bratT15=Quantity
-7	замен	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity
+7	замен	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity|bratT70=Event
 8	,	_	_	_	_	_	_	_	_
 9	чтобы	_	_	_	_	_	_	_	_
 10	защитить	_	_	_	_	_	_	_	_
@@ -138,28 +138,28 @@
 # par_text = Прошедший розыгрыш чемпионата Англии был возобновлен в июне после вызванной пандемией коронавируса паузы, командам позволили совершать по пять замен в матчах.
 # sent_id = 0073-p4-s1
 # text = Прошедший розыгрыш чемпионата Англии был возобновлен в июне после вызванной пандемией коронавируса паузы, командам позволили совершать по пять замен в матчах.
-1	Прошедший	_	_	_	_	_	_	_	bratT41=Ordinal
-2	розыгрыш	_	_	_	_	_	_	_	_
-3	чемпионата	_	_	_	_	_	_	_	bratT19=Event
-4	Англии	_	_	_	_	_	_	_	bratT19=Event|bratT20=GPE
+1	Прошедший	_	_	_	_	_	_	_	bratT41=Ordinal|bratT77=Event
+2	розыгрыш	_	_	_	_	_	_	_	bratT77=Event
+3	чемпионата	_	_	_	_	_	_	_	bratT19=Event|bratT77=Event
+4	Англии	_	_	_	_	_	_	_	bratT19=Event|bratT20=GPE|bratT77=Event
 5	был	_	_	_	_	_	_	_	_
 6	возобновлен	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-absolute
 8	июне	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-absolute
-9	после	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-absolute
-10	вызванной	_	_	_	_	_	_	_	bratA5=T43:Past|bratT21=Event|bratT43=Date-absolute
-11	пандемией	_	_	_	_	_	_	_	bratA5=T43:Past|bratT21=Event|bratT22=Event|bratT43=Date-absolute
-12	коронавируса	_	_	_	_	_	_	_	bratA5=T43:Past|bratT21=Event|bratT22=Event|bratT43=Date-absolute|bratT44=Other-term
-13	паузы	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T43:Past|bratT21=Event|bratT43=Date-absolute
+9	после	_	_	_	_	_	_	_	bratA11=T73:Past|bratA5=T43:Past|bratT43=Date-absolute|bratT73=Date-relative
+10	вызванной	_	_	_	_	_	_	_	_
+11	пандемией	_	_	_	_	_	_	_	bratT22=Event
+12	коронавируса	_	_	_	_	_	_	_	bratT22=Event|bratT44=Other-term
+13	паузы	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Event
 14	,	_	_	_	_	_	_	_	_
 15	командам	_	_	_	_	_	_	_	bratT55=Organization
 16	позволили	_	_	_	_	_	_	_	_
 17	совершать	_	_	_	_	_	_	_	_
 18	по	_	_	_	_	_	_	_	_
 19	пять	_	_	_	_	_	_	_	bratT23=Quantity
-20	замен	_	_	_	_	_	_	_	bratT23=Quantity
+20	замен	_	_	_	_	_	_	_	bratT23=Quantity|bratT71=Event
 21	в	_	_	_	_	_	_	_	_
-22	матчах	_	_	_	_	_	_	_	SpaceAfter=No
+22	матчах	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Event
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p5
@@ -167,9 +167,9 @@
 # sent_id = 0073-p5-s1
 # text = Перед началом текущего сезона 11 из 20 клубов проголосовали за возвращение к традиционному формату проведения турнира с тремя заменами в одной игре.
 1	Перед	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute
-2	началом	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute
-3	текущего	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute|bratT42=Ordinal
-4	сезона	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute
+2	началом	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute|bratT75=Event
+3	текущего	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute|bratT42=Ordinal|bratT74=Event|bratT75=Event
+4	сезона	_	_	_	_	_	_	_	bratA6=T40:Past|bratT40=Date-absolute|bratT74=Event|bratT75=Event
 5	11	_	_	_	_	_	_	_	bratT24=Quantity
 6	из	_	_	_	_	_	_	_	bratT24=Quantity
 7	20	_	_	_	_	_	_	_	bratT25=Quantity
@@ -184,10 +184,10 @@
 16	турнира	_	_	_	_	_	_	_	bratT54=Event
 17	с	_	_	_	_	_	_	_	_
 18	тремя	_	_	_	_	_	_	_	bratT27=Quantity
-19	заменами	_	_	_	_	_	_	_	bratT27=Quantity
+19	заменами	_	_	_	_	_	_	_	bratT27=Quantity|bratT72=Event
 20	в	_	_	_	_	_	_	_	_
 21	одной	_	_	_	_	_	_	_	bratT26=Quantity
-22	игре	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity
+22	игре	_	_	_	_	_	_	_	SpaceAfter=No|bratT26=Quantity|bratT64=Event
 23	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0073-p6
@@ -213,7 +213,7 @@
 17	очков	_	_	_	_	_	_	_	bratT32=Quantity
 18	в	_	_	_	_	_	_	_	_
 19	пяти	_	_	_	_	_	_	_	bratT33=Quantity
-20	матчах	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity
+20	матчах	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Quantity|bratT65=Event
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0073-p6-s2

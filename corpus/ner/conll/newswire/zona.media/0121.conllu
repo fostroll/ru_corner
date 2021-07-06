@@ -3,8 +3,8 @@
 # par_text = Саратовский полицейский, ударивший задержанного головой о дверной косяк, получил условный срок
 # sent_id = 0121-p1-s1
 # text = Саратовский полицейский, ударивший задержанного головой о дверной косяк, получил условный срок
-1	Саратовский	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
-2	полицейский	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+1	Саратовский	_	_	_	_	_	_	_	bratA10=T38:Male|bratT1=Person-property|bratT2=GPE|bratT38=Person
+2	полицейский	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T38:Male|bratT1=Person-property|bratT38=Person
 3	,	_	_	_	_	_	_	_	_
 4	ударивший	_	_	_	_	_	_	_	_
 5	задержанного	_	_	_	_	_	_	_	bratA4=T29:Male|bratT29=Person|bratT3=Person-property
@@ -14,8 +14,8 @@
 9	косяк	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	получил	_	_	_	_	_	_	_	_
-12	условный	_	_	_	_	_	_	_	_
-13	срок	_	_	_	_	_	_	_	_
+12	условный	_	_	_	_	_	_	_	bratT37=Event
+13	срок	_	_	_	_	_	_	_	bratT37=Event
 
 # newpar id = 0121-p2
 # par_text = Ленинский районный суд Саратова приговорил сотрудника отдела полиции №7 к трем годам лишения свободы условно, сообщается на сайте управления Следственного комитета по Саратовской области.
@@ -26,18 +26,18 @@
 3	суд	_	_	_	_	_	_	_	bratT4=Organization
 4	Саратова	_	_	_	_	_	_	_	bratT4=Organization|bratT6=GPE
 5	приговорил	_	_	_	_	_	_	_	_
-6	сотрудника	_	_	_	_	_	_	_	bratT7=Person-property
-7	отдела	_	_	_	_	_	_	_	bratA6=T8:Department|bratT7=Person-property|bratT8=Organization
-8	полиции	_	_	_	_	_	_	_	bratA6=T8:Department|bratT27=Organization|bratT7=Person-property|bratT8=Organization
+6	сотрудника	_	_	_	_	_	_	_	bratA11=T39:Male|bratT39=Person|bratT7=Person-property
+7	отдела	_	_	_	_	_	_	_	bratA11=T39:Male|bratA6=T8:Department|bratT39=Person|bratT7=Person-property|bratT8=Organization
+8	полиции	_	_	_	_	_	_	_	bratA11=T39:Male|bratA6=T8:Department|bratT27=Organization|bratT39=Person|bratT7=Person-property|bratT8=Organization
 9-10	№7	_	_	_	_	_	_	_	_
-9	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T8:Department|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
-10	7	_	_	_	_	_	_	_	bratA6=T8:Department|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
+9	№	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T39:Male|bratA6=T8:Department|bratT39=Person|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
+10	7	_	_	_	_	_	_	_	bratA11=T39:Male|bratA6=T8:Department|bratT39=Person|bratT7=Person-property|bratT8=Organization|bratT9=Ordinal
 11	к	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative
 12	трем	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative|bratT21=Duration
 13	годам	_	_	_	_	_	_	_	bratA5=T10:Past-UNK|bratT10=Date-period-relative|bratT21=Duration
-14	лишения	_	_	_	_	_	_	_	_
-15	свободы	_	_	_	_	_	_	_	_
-16	условно	_	_	_	_	_	_	_	SpaceAfter=No
+14	лишения	_	_	_	_	_	_	_	bratT36=Event
+15	свободы	_	_	_	_	_	_	_	bratT36=Event
+16	условно	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Event
 17	,	_	_	_	_	_	_	_	_
 18	сообщается	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_
@@ -63,7 +63,7 @@
 7	января	_	_	_	_	_	_	_	bratA3=T14:Past|bratT14=Date-absolute
 8	полицейский	_	_	_	_	_	_	_	bratA7=T31:Male|bratT16=Person-property|bratT31=Person
 9	схватил	_	_	_	_	_	_	_	_
-10	задержанного	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+10	задержанного	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T40:Male|bratT17=Person-property|bratT40=Person
 11	,	_	_	_	_	_	_	_	_
 12	которого	_	_	_	_	_	_	_	_
 13	совершил	_	_	_	_	_	_	_	_

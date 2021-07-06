@@ -20,7 +20,7 @@ T18	Person-property 872 893	футболистов   команды
 T20	Date-period-absolute 1110 1137	за   сентябрь   и   октябрь
 T21	Person-property 816 826	функционер
 T22	Person-property 1025 1035	Функционер
-T23	Event 1143 1147	Матч
+T23	Event 1143 1190	Матч   ``   Спартак   ''   -   ``   Тамбов   ''
 T24	Organization 1150 1167	``   Спартак   ''
 T25	Organization 1174 1190	``   Тамбов   ''
 T26	Date-absolute 1211 1222	5   декабря
@@ -73,3 +73,9 @@ T59	Organization 886 893	команды
 T60	Organization 318 323	клуба
 T61	Person 816 826	функционер
 A14	Male T61
+T62	Person 76 85	Спартаком
+A15	Male T62
+T63	Person-alias 76 85	Спартаком
+T64	Person 1155 1162	Спартак
+A16	Male T64
+T65	Person-alias 1155 1162	Спартак

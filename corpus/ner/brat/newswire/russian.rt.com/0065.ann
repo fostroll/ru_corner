@@ -2,7 +2,6 @@ T1	Person-property 0 14	Посол   России
 T2	GPE 8 14	России
 T3	GPE 69 73	Кубу
 T4	GPE 329 333	Кубу
-T6	Service 385 403	ПЦР - тестирование
 T7	Other-term 411 422	коронавирус
 T8	Ordinal 438 443	пятый
 T9	Time-relative 433 450	на   пятый   день
@@ -69,3 +68,7 @@ A12	Male T56
 T57	Person 0 14	Посол   России
 A13	Male T57
 T58	Event 453 463	пребывания
+T6	Person 1350 1355	Посол
+A14	Male T6
+T59	Event 1396 1423	положительного   результата
+T60	Event 385 403	ПЦР - тестирование

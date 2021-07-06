@@ -30,8 +30,8 @@
 10	Маурер	_	_	_	_	_	_	_	bratA8=T4:Male|bratT4=Person|bratT48=Person-surname
 11	заявил	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
-13	четырехкратном	_	_	_	_	_	_	_	bratT7=Quantity
-14	увеличении	_	_	_	_	_	_	_	_
+13	четырехкратном	_	_	_	_	_	_	_	bratT7=Quantity|bratT70=Event
+14	увеличении	_	_	_	_	_	_	_	bratT70=Event
 15	контингента	_	_	_	_	_	_	_	bratT67=Organization
 16	МККК	_	_	_	_	_	_	_	bratT67=Organization|bratT8=Organization
 17	в	_	_	_	_	_	_	_	_
@@ -165,8 +165,8 @@
 10	совместное	_	_	_	_	_	_	_	_
 11	заявление	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
-13	прекращении	_	_	_	_	_	_	_	_
-14	огня	_	_	_	_	_	_	_	_
+13	прекращении	_	_	_	_	_	_	_	bratT68=Event
+14	огня	_	_	_	_	_	_	_	bratT68=Event
 15	в	_	_	_	_	_	_	_	_
 16	Нагорном	_	_	_	_	_	_	_	bratT26=GPE
 17	Карабахе	_	_	_	_	_	_	_	bratT26=GPE
@@ -227,7 +227,7 @@
 7	подписал	_	_	_	_	_	_	_	_
 8	указ	_	_	_	_	_	_	_	bratT38=Law
 9	о	_	_	_	_	_	_	_	bratT38=Law
-10	создании	_	_	_	_	_	_	_	bratT38=Law
+10	создании	_	_	_	_	_	_	_	bratT38=Law|bratT69=Event
 11	межведомственного	_	_	_	_	_	_	_	bratT38=Law|bratT39=Organization
 12	центра	_	_	_	_	_	_	_	bratT38=Law|bratT39=Organization
 13	гуманитарного	_	_	_	_	_	_	_	bratT38=Law|bratT39=Organization

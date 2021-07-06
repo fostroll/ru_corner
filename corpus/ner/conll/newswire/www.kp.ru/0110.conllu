@@ -33,7 +33,7 @@
 12	борьбе	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization
 13	с	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization
 14	распространением	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT35=Event|bratT5=Organization
-15	коронавируса	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT5=Organization|bratT6=Other-term
+15	коронавируса	_	_	_	_	_	_	_	bratA6=T5:Department|bratT33=Organization|bratT35=Event|bratT5=Organization|bratT6=Other-term
 16	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	как	_	_	_	_	_	_	_	_
@@ -96,8 +96,8 @@
 12	выделенные	_	_	_	_	_	_	_	_
 13	для	_	_	_	_	_	_	_	_
 14	закупки	_	_	_	_	_	_	_	bratT31=Event
-15	лекарственных	_	_	_	_	_	_	_	_
-16	препаратов	_	_	_	_	_	_	_	_
+15	лекарственных	_	_	_	_	_	_	_	bratT31=Event
+16	препаратов	_	_	_	_	_	_	_	bratT31=Event
 17	средства	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
 
@@ -119,8 +119,8 @@
 12	этапе	_	_	_	_	_	_	_	bratT29=Event
 13	по	_	_	_	_	_	_	_	_
 14	поставке	_	_	_	_	_	_	_	bratT30=Event
-15	лекарственных	_	_	_	_	_	_	_	_
-16	препаратов	_	_	_	_	_	_	_	SpaceAfter=No
+15	лекарственных	_	_	_	_	_	_	_	bratT30=Event
+16	препаратов	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0110-p5-s2

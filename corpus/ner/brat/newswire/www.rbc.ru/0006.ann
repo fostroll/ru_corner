@@ -43,7 +43,7 @@ T37	Person-surname 722 729	Жапаров
 A7	Male T20
 A8	Past T27
 T38	Organization 1369 1378	парламент
-T39	Political-group 1383 1418	Сторонники   оппозиционных   партий
+T39	Political-group 1383 1393	Сторонники
 T40	Person-property 1568 1578	силовиками
 T41	Facility 1610 1657	здание   парламента   ,   аппарата   президента
 T42	Person-surname 1764 1771	Жапаров
@@ -72,8 +72,6 @@ T57	Organization 1636 1657	аппарата   президента
 T58	Person-property 1730 1739	политиков
 T59	Organization 1501 1508	властей
 T60	Organization 1396 1418	оппозиционных   партий
-T61	Political-group 1396 1409	оппозиционных
-A15	Adjective T61
 T62	GPE 812 833	другого   государства
 T64	GPE 263 274	государства
 A16	Adjective T64
@@ -85,3 +83,5 @@ T68	Event 432 439	выборам
 T69	Event 459 471	референдумов
 T70	Person 1647 1657	президента
 T71	Event 527 537	выдвижения
+T61	Political-group 1396 1409	оппозиционных
+A15	Adjective T61

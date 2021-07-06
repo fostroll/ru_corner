@@ -26,7 +26,7 @@
 4	октября	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
 5	торжественно	_	_	_	_	_	_	_	_
 6	открылся	_	_	_	_	_	_	_	_
-7	новый	_	_	_	_	_	_	_	_
+7	новый	_	_	_	_	_	_	_	bratT6=Facility
 8	международный	_	_	_	_	_	_	_	bratT6=Facility
 9	аэропорт	_	_	_	_	_	_	_	bratT6=Facility
 10-12	Берлин-Бранденбург	_	_	_	_	_	_	_	SpaceAfter=No
@@ -38,14 +38,14 @@
 15	имя	_	_	_	_	_	_	_	_
 16	Вилли	_	_	_	_	_	_	_	bratA7=T7:Male|bratT52=Person-forename|bratT7=Person
 17	Брандта	_	_	_	_	_	_	_	bratA7=T7:Male|bratT53=Person-surname|bratT7=Person
-18	-	_	_	_	_	_	_	_	_
-19	бывшего	_	_	_	_	_	_	_	bratT9=Person-property
-20	канцлера	_	_	_	_	_	_	_	bratT9=Person-property
-21	и	_	_	_	_	_	_	_	_
-22	лауреата	_	_	_	_	_	_	_	bratT10=Person-property
-23	Нобелевской	_	_	_	_	_	_	_	bratT10=Person-property|bratT72=Other-term
-24	премии	_	_	_	_	_	_	_	bratT10=Person-property|bratT72=Other-term
-25	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT72=Other-term
+18	-	_	_	_	_	_	_	_	bratA7=T7:Male|bratT7=Person
+19	бывшего	_	_	_	_	_	_	_	bratA7=T7:Male|bratT7=Person|bratT9=Person-property
+20	канцлера	_	_	_	_	_	_	_	bratA7=T7:Male|bratT7=Person|bratT9=Person-property
+21	и	_	_	_	_	_	_	_	bratA7=T7:Male|bratT7=Person
+22	лауреата	_	_	_	_	_	_	_	bratA7=T7:Male|bratT10=Person-property|bratT7=Person
+23	Нобелевской	_	_	_	_	_	_	_	bratA7=T7:Male|bratT10=Person-property|bratT7=Person|bratT72=Other-term
+24	премии	_	_	_	_	_	_	_	bratA7=T7:Male|bratT10=Person-property|bratT7=Person|bratT72=Other-term
+25	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Male|bratT10=Person-property|bratT7=Person|bratT72=Other-term
 26	,	_	_	_	_	_	_	_	_
 27	сообщает	_	_	_	_	_	_	_	_
 28	ARD	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
@@ -55,8 +55,8 @@
 # par_text = Первый рейс из него произведен утром 1 ноября - самолет авиакомпании EasyJet вылетел в Лондон. Из-за пандемии коронавирусной инфекции в расписании осталось лишь чуть более 20 рейсов в сутки. Пока что использовать аэропорт будут авиакомпании Lufthansa и EasyJet. Он рассчитан на 40 млн пассажиров в год.
 # sent_id = 0001-p3-s1
 # text = Первый рейс из него произведен утром 1 ноября - самолет авиакомпании EasyJet вылетел в Лондон.
-1	Первый	_	_	_	_	_	_	_	bratT12=Ordinal
-2	рейс	_	_	_	_	_	_	_	_
+1	Первый	_	_	_	_	_	_	_	bratT12=Ordinal|bratT76=Event
+2	рейс	_	_	_	_	_	_	_	bratT76=Event
 3	из	_	_	_	_	_	_	_	_
 4	него	_	_	_	_	_	_	_	_
 5	произведен	_	_	_	_	_	_	_	_
@@ -85,7 +85,7 @@
 9	чуть	_	_	_	_	_	_	_	bratT17=Quantity
 10	более	_	_	_	_	_	_	_	bratT17=Quantity
 11	20	_	_	_	_	_	_	_	bratT17=Quantity
-12	рейсов	_	_	_	_	_	_	_	bratT17=Quantity
+12	рейсов	_	_	_	_	_	_	_	bratT17=Quantity|bratT79=Event
 13	в	_	_	_	_	_	_	_	bratT18=Time-period
 14	сутки	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Time-period|bratT54=Duration
 15	.	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	неподалеку	_	_	_	_	_	_	_	_
 11	от	_	_	_	_	_	_	_	_
-12	старого	_	_	_	_	_	_	_	bratT24=Facility|bratT70=Age
+12	старого	_	_	_	_	_	_	_	bratT24=Facility
 13	аэропорта	_	_	_	_	_	_	_	bratT24=Facility
 14-16	Берлин-Шенефельд	_	_	_	_	_	_	_	SpaceAfter=No
 14	Берлин	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Facility|bratT62=GPE
@@ -140,15 +140,15 @@
 
 # sent_id = 0001-p4-s2
 # text = Старый аэропорт станет одним из терминалов новой воздушной гавани.
-1	Старый	_	_	_	_	_	_	_	bratT64=Facility|bratT71=Age
+1	Старый	_	_	_	_	_	_	_	bratT64=Facility
 2	аэропорт	_	_	_	_	_	_	_	bratT64=Facility
 3	станет	_	_	_	_	_	_	_	_
 4	одним	_	_	_	_	_	_	_	bratT39=Quantity
 5	из	_	_	_	_	_	_	_	bratT39=Quantity
 6	терминалов	_	_	_	_	_	_	_	_
-7	новой	_	_	_	_	_	_	_	_
-8	воздушной	_	_	_	_	_	_	_	_
-9	гавани	_	_	_	_	_	_	_	SpaceAfter=No
+7	новой	_	_	_	_	_	_	_	bratT70=Facility
+8	воздушной	_	_	_	_	_	_	_	bratT70=Facility
+9	гавани	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Facility
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p5
@@ -161,8 +161,8 @@
 4	Брандта	_	_	_	_	_	_	_	bratA9=T26:Male|bratT25=Facility|bratT26=Person|bratT59=Person-surname
 5	будет	_	_	_	_	_	_	_	_
 6	единственным	_	_	_	_	_	_	_	bratT42=Quantity
-7	международным	_	_	_	_	_	_	_	_
-8	аэропортом	_	_	_	_	_	_	_	_
+7	международным	_	_	_	_	_	_	_	bratT71=Facility
+8	аэропортом	_	_	_	_	_	_	_	bratT71=Facility
 9	германской	_	_	_	_	_	_	_	bratA10=T60:Adjective|bratT44=GPE|bratT60=GPE
 10	столицы	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=GPE
 11	,	_	_	_	_	_	_	_	_
@@ -178,9 +178,9 @@
 21	Германии	_	_	_	_	_	_	_	bratT28=GPE
 22	(	_	_	_	_	_	_	_	SpaceAfter=No
 23	после	_	_	_	_	_	_	_	_
-24	Франкфурта	_	_	_	_	_	_	_	bratT29=Facility
+24	Франкфурта	_	_	_	_	_	_	_	bratT29=GPE
 25	и	_	_	_	_	_	_	_	_
-26	Мюнхена	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Facility
+26	Мюнхена	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=GPE
 27	)	_	_	_	_	_	_	_	_
 28	и	_	_	_	_	_	_	_	_
 29	войдет	_	_	_	_	_	_	_	_
@@ -203,14 +203,14 @@
 5	,	_	_	_	_	_	_	_	_
 6	однако	_	_	_	_	_	_	_	_
 7	переносить	_	_	_	_	_	_	_	_
-8	открытие	_	_	_	_	_	_	_	_
+8	открытие	_	_	_	_	_	_	_	bratT77=Event
 9	еще	_	_	_	_	_	_	_	bratT43=Quantity
 10	раз	_	_	_	_	_	_	_	bratT43=Quantity
 11	было	_	_	_	_	_	_	_	_
 12	невозможно	_	_	_	_	_	_	_	_
 13	из-за	_	_	_	_	_	_	_	_
 14	грядущего	_	_	_	_	_	_	_	_
-15	закрытия	_	_	_	_	_	_	_	_
+15	закрытия	_	_	_	_	_	_	_	bratT78=Event
 16	аэропорта	_	_	_	_	_	_	_	bratT33=Facility
 17-19	Берлин-Тегель	_	_	_	_	_	_	_	SpaceAfter=No
 17	Берлин	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Facility|bratT61=GPE

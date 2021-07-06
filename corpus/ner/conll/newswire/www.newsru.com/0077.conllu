@@ -153,7 +153,7 @@
 4	Испанию	_	_	_	_	_	_	_	bratT21=GPE
 5	представляют	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
-7	Гранада	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
+7	Гранада	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization|bratT61=GPE
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Organization
 9	,	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Organization
@@ -170,14 +170,14 @@
 # par_text = Игры группового этапа Лиги чемпионов и Лиги Европы пройдут с 20 октября по 10 декабря. "Локомотив" сыграет с "Атлетико" дома 3 ноября и в гостях 25 ноября. "Краснодар" встретится с "Севильей" в гостях 4 ноября и дома 24 ноября.
 # sent_id = 0077-p6-s1
 # text = Игры группового этапа Лиги чемпионов и Лиги Европы пройдут с 20 октября по 10 декабря.
-1	Игры	_	_	_	_	_	_	_	_
-2	группового	_	_	_	_	_	_	_	bratT23=Event
-3	этапа	_	_	_	_	_	_	_	bratT23=Event
-4	Лиги	_	_	_	_	_	_	_	bratT23=Event|bratT24=Event
-5	чемпионов	_	_	_	_	_	_	_	bratT23=Event|bratT24=Event
-6	и	_	_	_	_	_	_	_	_
-7	Лиги	_	_	_	_	_	_	_	bratT25=Event
-8	Европы	_	_	_	_	_	_	_	bratT25=Event
+1	Игры	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT60=Event
+2	группового	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT23=Event|bratT60=Event
+3	этапа	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT23=Event|bratT60=Event
+4	Лиги	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT23=Event|bratT24=Event|bratT60=Event
+5	чемпионов	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT23=Event|bratT24=Event|bratT60=Event
+6	и	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT60=Event
+7	Лиги	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT25=Event|bratT60=Event
+8	Европы	_	_	_	_	_	_	_	bratA15=T60:Plural|bratT25=Event|bratT60=Event
 9	пройдут	_	_	_	_	_	_	_	_
 10	с	_	_	_	_	_	_	_	bratA8=T26:Fut|bratT26=Date-period-absolute
 11	20	_	_	_	_	_	_	_	bratA8=T26:Fut|bratT26=Date-period-absolute

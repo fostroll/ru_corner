@@ -21,8 +21,8 @@ T15	Organization 341 368	``   Кавказский   узел   ''
 A6	Media T15
 T16	Person 393 453	учительница   школы   в   Урус-Мартановском   районе   Луиза
 A7	Female T16
-T17	Person-property 393 445	учительница   школы   в   Урус-Мартановском   районе
-T18	Organization 407 445	школы   в   Урус-Мартановском   районе
+T17	Person-property 393 412	учительница   школы
+T18	Organization 407 412	школы
 T19	GPE 419 445	Урус-Мартановском   районе
 T20	Person-forename 448 453	Луиза
 T21	Person-property 498 506	директор
@@ -33,12 +33,12 @@ T24	Person-surname 658 666	Кадырова
 T25	Person-property 831 848	преподавательница
 T26	Person 854 911	Завуч   школы   в   Шалинском   районе   по   имени   Яха
 A9	Female T26
-T27	Person-property 854 892	Завуч   школы   в   Шалинском   районе
-T28	Organization 862 892	школы   в   Шалинском   районе
+T27	Person-property 854 867	Завуч   школы
+T28	Organization 862 867	школы
 T29	GPE 874 892	Шалинском   районе
 T30	Person-forename 908 911	Яха
 T31	Person-property 935 945	директриса
-T32	Person-property 986 1037	чиновника   из   министерства   образования   Чечни
+T32	Person-property 964 1037	высокопоставленного   чиновника   из   министерства   образования   Чечни
 T33	Organization 1003 1037	министерства   образования   Чечни
 T34	GPE 1032 1037	Чечни
 T35	Person-property 1104 1112	Директор
@@ -74,8 +74,7 @@ A14	Media T60
 T61	Person-property 559 564	главы
 T62	Service 756 762	постом
 A15	Media T62
-T64	Person 1567 1577	его   жене
-A16	Male T64
+T64	Person 1567 1598	его   жене   и   двум   дочерям
 T65	Date-absolute 1681 1695	до   появления
 A17	Past T65
 T48	Date-relative 1148 1179	еще   не   было   девяти   утра
@@ -107,3 +106,25 @@ T82	Event 1726 1733	санкций
 T83	Event 1630 1657	нарушений   прав   человека
 T84	Event 1715 1733	введении   санкций
 T85	Event 1686 1695	появления
+T86	Person 498 506	директор
+A25	Male T86
+T87	Person 559 564	главы
+T88	Person 831 848	преподавательница
+A26	Female T88
+T89	Person 935 945	директриса
+A27	Female T89
+T90	Person 964 1037	высокопоставленного   чиновника   из   министерства   образования   Чечни
+A28	Male T90
+T91	Person 1104 1112	Директор
+A29	Female T91
+T92	Person 1403 1411	директор
+A30	Female T92
+T93	Person 1494 1499	завуч
+A31	Female T93
+A16	Plural T64
+A32	Female T64
+T94	Person 1573 1577	жене
+A33	Female T94
+T95	Person 1584 1598	двум   дочерям
+A34	Female T95
+T96	Person 1745 1761	семьи   Кадырова

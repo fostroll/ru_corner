@@ -8,7 +8,7 @@
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
 4	московского	_	_	_	_	_	_	_	bratA1=T1:Male|bratA19=T62:Adjective|bratT1=Person|bratT3=Event|bratT62=GPE
 5	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
-6	''	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person
+6	''	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Event
 7	Абаничев	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT4=Person-surname
 8	отсудил	_	_	_	_	_	_	_	_
 9	150	_	_	_	_	_	_	_	bratT5=Money
@@ -91,7 +91,7 @@
 # par_text = Фигуранта обвиняли в участии в массовых беспорядках из-за протестной акции 27 июля 2019 года. Во время следствия он месяц провел в СИЗО два месяца, после чего дело против него и еще троих участников акции прекратили, и Абаничев вышел на свободу.
 # sent_id = 0037-p4-s1
 # text = Фигуранта обвиняли в участии в массовых беспорядках из-за протестной акции 27 июля 2019 года.
-1	Фигуранта	_	_	_	_	_	_	_	_
+1	Фигуранта	_	_	_	_	_	_	_	bratA21=T75:Male|bratT75=Person
 2	обвиняли	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	участии	_	_	_	_	_	_	_	_
@@ -127,9 +127,9 @@
 16	него	_	_	_	_	_	_	_	_
 17	и	_	_	_	_	_	_	_	_
 18	еще	_	_	_	_	_	_	_	bratT30=Quantity
-19	троих	_	_	_	_	_	_	_	bratT30=Quantity
-20	участников	_	_	_	_	_	_	_	bratT30=Quantity
-21	акции	_	_	_	_	_	_	_	bratT74=Event
+19	троих	_	_	_	_	_	_	_	bratT30=Quantity|bratT77=Person
+20	участников	_	_	_	_	_	_	_	bratT30=Quantity|bratT77=Person
+21	акции	_	_	_	_	_	_	_	bratT74=Event|bratT77=Person
 22	прекратили	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
 24	и	_	_	_	_	_	_	_	_
@@ -149,13 +149,13 @@
 4	Минфин	_	_	_	_	_	_	_	bratT35=Organization
 5	выплатить	_	_	_	_	_	_	_	_
 6	компенсации	_	_	_	_	_	_	_	_
-7	двум	_	_	_	_	_	_	_	bratT36=Quantity
-8	другим	_	_	_	_	_	_	_	bratT36=Quantity
-9	фигурантам	_	_	_	_	_	_	_	bratT36=Quantity
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
-11	московского	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratT37=Event|bratT53=GPE
-12	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
-13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event
+7	двум	_	_	_	_	_	_	_	bratT36=Quantity|bratT76=Person
+8	другим	_	_	_	_	_	_	_	bratT36=Quantity|bratT76=Person
+9	фигурантам	_	_	_	_	_	_	_	bratT36=Quantity|bratT76=Person
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person
+11	московского	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratT37=Event|bratT53=GPE|bratT76=Person
+12	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p5-s2
@@ -188,12 +188,12 @@
 8	протесты	_	_	_	_	_	_	_	bratT48=Event
 9	из-за	_	_	_	_	_	_	_	_
 10	недопуска	_	_	_	_	_	_	_	_
-11	независимых	_	_	_	_	_	_	_	bratT49=Person-property
-12	кандидатов	_	_	_	_	_	_	_	bratT49=Person-property
-13	на	_	_	_	_	_	_	_	bratT49=Person-property
-14	выборы	_	_	_	_	_	_	_	bratT49=Person-property|bratT50=Event
-15	в	_	_	_	_	_	_	_	bratT49=Person-property
-16	Мосгордуму	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Person-property|bratT51=Organization
+11	независимых	_	_	_	_	_	_	_	bratT49=Person-property|bratT78=Person
+12	кандидатов	_	_	_	_	_	_	_	bratT49=Person-property|bratT78=Person
+13	на	_	_	_	_	_	_	_	_
+14	выборы	_	_	_	_	_	_	_	bratT50=Event
+15	в	_	_	_	_	_	_	_	_
+16	Мосгордуму	_	_	_	_	_	_	_	SpaceAfter=No|bratT51=Organization
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p6-s2

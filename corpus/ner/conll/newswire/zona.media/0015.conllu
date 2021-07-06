@@ -5,14 +5,14 @@
 # text = СК начал проверку приватизации содовой компании, которая планировала разработку шихана Куштау
 1	СК	_	_	_	_	_	_	_	bratT49=Organization
 2	начал	_	_	_	_	_	_	_	_
-3	проверку	_	_	_	_	_	_	_	_
-4	приватизации	_	_	_	_	_	_	_	_
+3	проверку	_	_	_	_	_	_	_	bratT72=Event
+4	приватизации	_	_	_	_	_	_	_	bratT73=Event
 5	содовой	_	_	_	_	_	_	_	bratT64=Organization
 6	компании	_	_	_	_	_	_	_	SpaceAfter=No|bratT64=Organization
 7	,	_	_	_	_	_	_	_	_
 8	которая	_	_	_	_	_	_	_	_
 9	планировала	_	_	_	_	_	_	_	_
-10	разработку	_	_	_	_	_	_	_	_
+10	разработку	_	_	_	_	_	_	_	bratT71=Event
 11	шихана	_	_	_	_	_	_	_	bratT1=Location
 12	Куштау	_	_	_	_	_	_	_	bratT1=Location
 
@@ -30,22 +30,22 @@
 8	проверить	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	SpaceAfter=No
 10	обстоятельства	_	_	_	_	_	_	_	_
-11	сокращения	_	_	_	_	_	_	_	_
-12	доли	_	_	_	_	_	_	_	_
-13	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=GPE
+11	сокращения	_	_	_	_	_	_	_	bratT85=Event
+12	доли	_	_	_	_	_	_	_	bratT85=Event
+13	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT60=GPE|bratT85=Event
 14	''	_	_	_	_	_	_	_	_
 15	в	_	_	_	_	_	_	_	_
-16	``	_	_	_	_	_	_	_	SpaceAfter=No
+16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
 17	Башкирской	_	_	_	_	_	_	_	bratA2=T8:Adjective|bratT7=Organization|bratT8=GPE
 18	содовой	_	_	_	_	_	_	_	bratT7=Organization
 19	компании	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
-20	''	_	_	_	_	_	_	_	_
+20	''	_	_	_	_	_	_	_	bratT7=Organization
 21	(	_	_	_	_	_	_	_	SpaceAfter=No
 22	БСК	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Organization
 23	)	_	_	_	_	_	_	_	SpaceAfter=No
 24	,	_	_	_	_	_	_	_	_
 25	планировавшей	_	_	_	_	_	_	_	_
-26	разработку	_	_	_	_	_	_	_	_
+26	разработку	_	_	_	_	_	_	_	bratT74=Event
 27	шихана	_	_	_	_	_	_	_	bratT9=Location
 28	Куштау	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Location
 29	.	_	_	_	_	_	_	_	_
@@ -69,7 +69,7 @@
 3	``	_	_	_	_	_	_	_	SpaceAfter=No
 4	все	_	_	_	_	_	_	_	_
 5	обстоятельства	_	_	_	_	_	_	_	_
-6	приватизации	_	_	_	_	_	_	_	_
+6	приватизации	_	_	_	_	_	_	_	bratT75=Event
 7	и	_	_	_	_	_	_	_	_
 8	перехода	_	_	_	_	_	_	_	_
 9	прав	_	_	_	_	_	_	_	_
@@ -124,10 +124,10 @@
 4	уголовного	_	_	_	_	_	_	_	bratT63=Event|bratT70=Event
 5	дела	_	_	_	_	_	_	_	bratT63=Event|bratT70=Event
 6	против	_	_	_	_	_	_	_	_
-7	чиновников	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property
+7	чиновников	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT76=Person
 8	,	_	_	_	_	_	_	_	_
 9	одобривших	_	_	_	_	_	_	_	_
-10	сделку	_	_	_	_	_	_	_	SpaceAfter=No
+10	сделку	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 11	,	_	_	_	_	_	_	_	_
 12	направили	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
@@ -145,9 +145,9 @@
 5	Путин	_	_	_	_	_	_	_	bratA4=T17:Male|bratT17=Person|bratT20=Person-surname
 6	потребовал	_	_	_	_	_	_	_	_
 7	проверить	_	_	_	_	_	_	_	_
-8	сделку	_	_	_	_	_	_	_	_
+8	сделку	_	_	_	_	_	_	_	bratT78=Event
 9	об	_	_	_	_	_	_	_	_
-10	объединении	_	_	_	_	_	_	_	_
+10	объединении	_	_	_	_	_	_	_	bratT79=Event
 11	двух	_	_	_	_	_	_	_	bratT36=Quantity
 12	компаний	_	_	_	_	_	_	_	bratT36=Quantity|bratT68=Organization
 13	в	_	_	_	_	_	_	_	_
@@ -196,33 +196,33 @@
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
 13	заверил	_	_	_	_	_	_	_	_
-14	президент	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Person-property
+14	президент	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T80:Male|bratT23=Person-property|bratT80=Person
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0015-p6
 # par_text = Крупнейшие частные акционеры БСК — бизнесмен Дмитрий Пяткин и бывший первый вице-губернатор Ненецкого автономного округа Сергей Черников, отмечал «Интерфакс».
 # sent_id = 0015-p6-s1
 # text = Крупнейшие частные акционеры БСК - бизнесмен Дмитрий Пяткин и бывший первый вице-губернатор Ненецкого автономного округа Сергей Черников, отмечал ``Интерфакс''.
-1	Крупнейшие	_	_	_	_	_	_	_	_
-2	частные	_	_	_	_	_	_	_	bratT54=Person-property
-3	акционеры	_	_	_	_	_	_	_	bratT54=Person-property
-4	БСК	_	_	_	_	_	_	_	bratT53=Organization|bratT54=Person-property
-5	-	_	_	_	_	_	_	_	_
-6	бизнесмен	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT26=Person-property
-7	Дмитрий	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT27=Person-forename
-8	Пяткин	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT28=Person-surname
-9	и	_	_	_	_	_	_	_	_
-10	бывший	_	_	_	_	_	_	_	bratA10=T48:Male|bratT32=Person-property|bratT48=Person
-11	первый	_	_	_	_	_	_	_	bratA10=T48:Male|bratT32=Person-property|bratT33=Ordinal|bratT48=Person
+1	Крупнейшие	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratT81=Person
+2	частные	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratT54=Person-property|bratT81=Person
+3	акционеры	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratT54=Person-property|bratT81=Person
+4	БСК	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratT53=Organization|bratT54=Person-property|bratT81=Person
+5	-	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratT81=Person
+6	бизнесмен	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratA6=T25:Male|bratT25=Person|bratT26=Person-property|bratT81=Person
+7	Дмитрий	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratA6=T25:Male|bratT25=Person|bratT27=Person-forename|bratT81=Person
+8	Пяткин	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratA6=T25:Male|bratT25=Person|bratT28=Person-surname|bratT81=Person
+9	и	_	_	_	_	_	_	_	bratA14=T81:Plural|bratA15=T81:Male|bratT81=Person
+10	бывший	_	_	_	_	_	_	_	bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT32=Person-property|bratT48=Person|bratT81=Person
+11	первый	_	_	_	_	_	_	_	bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT32=Person-property|bratT33=Ordinal|bratT48=Person|bratT81=Person
 12-14	вице-губернатор	_	_	_	_	_	_	_	_
-12	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T48:Male|bratT32=Person-property|bratT48=Person
-13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T48:Male|bratT32=Person-property|bratT48=Person
-14	губернатор	_	_	_	_	_	_	_	bratA10=T48:Male|bratT32=Person-property|bratT48=Person
-15	Ненецкого	_	_	_	_	_	_	_	bratA10=T48:Male|bratT31=GPE|bratT32=Person-property|bratT48=Person
-16	автономного	_	_	_	_	_	_	_	bratA10=T48:Male|bratT31=GPE|bratT32=Person-property|bratT48=Person
-17	округа	_	_	_	_	_	_	_	bratA10=T48:Male|bratT31=GPE|bratT32=Person-property|bratT48=Person
-18	Сергей	_	_	_	_	_	_	_	bratA10=T48:Male|bratT29=Person-forename|bratT48=Person
-19	Черников	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T48:Male|bratT30=Person-surname|bratT48=Person
+12	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT32=Person-property|bratT48=Person|bratT81=Person
+13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT32=Person-property|bratT48=Person|bratT81=Person
+14	губернатор	_	_	_	_	_	_	_	bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT32=Person-property|bratT48=Person|bratT81=Person
+15	Ненецкого	_	_	_	_	_	_	_	bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT31=GPE|bratT32=Person-property|bratT48=Person|bratT81=Person
+16	автономного	_	_	_	_	_	_	_	bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT31=GPE|bratT32=Person-property|bratT48=Person|bratT81=Person
+17	округа	_	_	_	_	_	_	_	bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT31=GPE|bratT32=Person-property|bratT48=Person|bratT81=Person
+18	Сергей	_	_	_	_	_	_	_	bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT29=Person-forename|bratT48=Person|bratT81=Person
+19	Черников	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T48:Male|bratA14=T81:Plural|bratA15=T81:Male|bratT30=Person-surname|bratT48=Person|bratT81=Person
 20	,	_	_	_	_	_	_	_	_
 21	отмечал	_	_	_	_	_	_	_	_
 22	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T35:Media|bratT35=Organization
@@ -234,11 +234,11 @@
 # par_text = Жители выступают против разработки шихана БСК. Во время одного из столкновений экоактивистов с силовиками и сотрудниками ЧОП задержали 80 человек. После этого глава Башкирии Радий Хабиров объявил о приостановке работ и обещал дать Куштау статус особо охраняемого.
 # sent_id = 0015-p7-s1
 # text = Жители выступают против разработки шихана БСК.
-1	Жители	_	_	_	_	_	_	_	_
+1	Жители	_	_	_	_	_	_	_	bratA16=T82:Resident|bratT82=Nationality
 2	выступают	_	_	_	_	_	_	_	_
 3	против	_	_	_	_	_	_	_	_
-4	разработки	_	_	_	_	_	_	_	_
-5	шихана	_	_	_	_	_	_	_	_
+4	разработки	_	_	_	_	_	_	_	bratT83=Event
+5	шихана	_	_	_	_	_	_	_	bratT84=Location
 6	БСК	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Organization
 7	.	_	_	_	_	_	_	_	_
 

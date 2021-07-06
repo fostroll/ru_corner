@@ -4,12 +4,12 @@
 # sent_id = 0071-p1-s1
 # text = У трех игроков сборной России по футболу тесты показали подозрение на коронавирус
 1	У	_	_	_	_	_	_	_	_
-2	трех	_	_	_	_	_	_	_	bratT1=Quantity
-3	игроков	_	_	_	_	_	_	_	bratT1=Quantity|bratT2=Person-property
-4	сборной	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
-5	России	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization|bratT4=GPE
-6	по	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
-7	футболу	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
+2	трех	_	_	_	_	_	_	_	bratA19=T76:Male|bratT1=Quantity|bratT76=Person
+3	игроков	_	_	_	_	_	_	_	bratA19=T76:Male|bratT1=Quantity|bratT2=Person-property|bratT76=Person
+4	сборной	_	_	_	_	_	_	_	bratA19=T76:Male|bratT2=Person-property|bratT3=Organization|bratT76=Person
+5	России	_	_	_	_	_	_	_	bratA19=T76:Male|bratT2=Person-property|bratT3=Organization|bratT4=GPE|bratT76=Person
+6	по	_	_	_	_	_	_	_	bratA19=T76:Male|bratT2=Person-property|bratT3=Organization|bratT76=Person
+7	футболу	_	_	_	_	_	_	_	bratA19=T76:Male|bratT2=Person-property|bratT3=Organization|bratT76=Person
 8	тесты	_	_	_	_	_	_	_	_
 9	показали	_	_	_	_	_	_	_	_
 10	подозрение	_	_	_	_	_	_	_	_
@@ -42,8 +42,8 @@
 20	Кишиневе	_	_	_	_	_	_	_	bratT11=GPE
 21	-	_	_	_	_	_	_	_	_
 22	три	_	_	_	_	_	_	_	bratT12=Quantity
-23	подозрительных	_	_	_	_	_	_	_	bratT12=Quantity
-24	теста	_	_	_	_	_	_	_	bratT12=Quantity
+23	подозрительных	_	_	_	_	_	_	_	bratT12=Quantity|bratT77=Event
+24	теста	_	_	_	_	_	_	_	bratT12=Quantity|bratT77=Event
 25	на	_	_	_	_	_	_	_	_
 26	коронавирус	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Other-term
 27	.	_	_	_	_	_	_	_	_
@@ -60,8 +60,8 @@
 8	известно	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
-11	сомнительные	_	_	_	_	_	_	_	_
-12	показатели	_	_	_	_	_	_	_	_
+11	сомнительные	_	_	_	_	_	_	_	bratT74=Event
+12	показатели	_	_	_	_	_	_	_	bratT74=Event
 13	у	_	_	_	_	_	_	_	_
 14	трех	_	_	_	_	_	_	_	bratT15=Quantity
 15	футболистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity|bratT16=Person-property
@@ -229,8 +229,8 @@
 11	похожие	_	_	_	_	_	_	_	_
 12	проблемы	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
-14	сомнительные	_	_	_	_	_	_	_	_
-15	тесты	_	_	_	_	_	_	_	_
+14	сомнительные	_	_	_	_	_	_	_	bratT75=Event
+15	тесты	_	_	_	_	_	_	_	bratT75=Event
 16	на	_	_	_	_	_	_	_	_
 17	коронавирус	_	_	_	_	_	_	_	bratT39=Other-term
 18	сдали	_	_	_	_	_	_	_	_

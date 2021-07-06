@@ -7,8 +7,8 @@
 2	епархия	_	_	_	_	_	_	_	bratT1=Organization
 3	запретила	_	_	_	_	_	_	_	_
 4	служить	_	_	_	_	_	_	_	_
-5	шести	_	_	_	_	_	_	_	bratT3=Quantity
-6	клирикам	_	_	_	_	_	_	_	bratT3=Quantity|bratT4=Person-property
+5	шести	_	_	_	_	_	_	_	bratA20=T50:Male|bratT3=Quantity|bratT50=Person
+6	клирикам	_	_	_	_	_	_	_	bratA20=T50:Male|bratT3=Quantity|bratT4=Person-property|bratT50=Person
 7	из	_	_	_	_	_	_	_	_
 8	монастыря	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Facility
 9	,	_	_	_	_	_	_	_	_
@@ -28,10 +28,10 @@
 6	запретила	_	_	_	_	_	_	_	_
 7	проводить	_	_	_	_	_	_	_	_
 8	богослужения	_	_	_	_	_	_	_	_
-9	шести	_	_	_	_	_	_	_	bratT10=Quantity
-10	священникам	_	_	_	_	_	_	_	bratT10=Quantity|bratT11=Person-property
-11	Среднеуральского	_	_	_	_	_	_	_	bratA6=T13:Adjective|bratT11=Person-property|bratT12=Facility|bratT13=Location
-12	монастыря	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person-property|bratT12=Facility
+9	шести	_	_	_	_	_	_	_	bratA21=T51:Male|bratT10=Quantity|bratT51=Person
+10	священникам	_	_	_	_	_	_	_	bratA21=T51:Male|bratT10=Quantity|bratT11=Person-property|bratT51=Person
+11	Среднеуральского	_	_	_	_	_	_	_	bratA21=T51:Male|bratA6=T13:Adjective|bratT11=Person-property|bratT12=Facility|bratT13=Location|bratT51=Person
+12	монастыря	_	_	_	_	_	_	_	SpaceAfter=No|bratA21=T51:Male|bratT11=Person-property|bratT12=Facility|bratT51=Person
 13	,	_	_	_	_	_	_	_	_
 14	которых	_	_	_	_	_	_	_	_
 15	захватил	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 2	частности	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	эти	_	_	_	_	_	_	_	_
-5	клирики	_	_	_	_	_	_	_	bratT24=Person-property
+5	клирики	_	_	_	_	_	_	_	bratA22=T52:Male|bratT24=Person-property|bratT52=Person
 6	молились	_	_	_	_	_	_	_	_
 7	вместе	_	_	_	_	_	_	_	_
 8	с	_	_	_	_	_	_	_	_
@@ -132,8 +132,8 @@
 14	клирикам	_	_	_	_	_	_	_	bratT28=Person-property
 15	монастыря	_	_	_	_	_	_	_	bratT28=Person-property|bratT47=Facility
 16	кроме	_	_	_	_	_	_	_	bratT29=Quantity
-17	двух	_	_	_	_	_	_	_	bratT29=Quantity
-18	священников	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Quantity|bratT30=Person-property
+17	двух	_	_	_	_	_	_	_	bratA23=T53:Male|bratT29=Quantity|bratT53=Person
+18	священников	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T53:Male|bratT29=Quantity|bratT30=Person-property|bratT53=Person
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0086-p5
@@ -145,7 +145,7 @@
 3	суд	_	_	_	_	_	_	_	bratT32=Organization
 4	лишил	_	_	_	_	_	_	_	_
 5	Сергия	_	_	_	_	_	_	_	bratA12=T33:Male|bratT33=Person|bratT34=Person-forename
-6	сана	_	_	_	_	_	_	_	SpaceAfter=No
+6	сана	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Person-property
 7	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0086-p5-s2
@@ -163,7 +163,7 @@
 11	служить	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
 13	читать	_	_	_	_	_	_	_	_
-14	проповеди	_	_	_	_	_	_	_	SpaceAfter=No
+14	проповеди	_	_	_	_	_	_	_	SpaceAfter=No|bratT49=Event
 15	,	_	_	_	_	_	_	_	_
 16	но	_	_	_	_	_	_	_	_
 17	тот	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 4	подробно	_	_	_	_	_	_	_	_
 5	писала	_	_	_	_	_	_	_	_
 6	об	_	_	_	_	_	_	_	_
-7	уральском	_	_	_	_	_	_	_	bratA16=T41:Adjective|bratT40=Person-property|bratT41=GPE
-8	монахе	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property
+7	уральском	_	_	_	_	_	_	_	bratA16=T41:Adjective|bratA24=T55:Male|bratT40=Person-property|bratT41=GPE|bratT55=Person
+8	монахе	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T55:Male|bratT40=Person-property|bratT55=Person
 9	.	_	_	_	_	_	_	_	_
 

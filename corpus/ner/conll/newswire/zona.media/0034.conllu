@@ -9,7 +9,7 @@
 4	МВД	_	_	_	_	_	_	_	bratT1=Organization
 5	Бурятии	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
 6	к	_	_	_	_	_	_	_	_
-7	депутату	_	_	_	_	_	_	_	bratT4=Person-property
+7	депутату	_	_	_	_	_	_	_	bratT4=Person-property|bratT67=Person
 8	за	_	_	_	_	_	_	_	_
 9	выступление	_	_	_	_	_	_	_	bratT65=Event
 10	о	_	_	_	_	_	_	_	_
@@ -56,7 +56,7 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сам	_	_	_	_	_	_	_	_
-4	депутат	_	_	_	_	_	_	_	bratT21=Person-property
+4	депутат	_	_	_	_	_	_	_	bratA18=T68:Male|bratT21=Person-property|bratT68=Person
 5	рассказал	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	своей	_	_	_	_	_	_	_	_
@@ -84,8 +84,8 @@
 11	во	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-absolute
 12	время	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-absolute
 13	сессии	_	_	_	_	_	_	_	bratA16=T12:Past|bratT12=Date-absolute|bratT28=Event
-14	Народного	_	_	_	_	_	_	_	bratT28=Event|bratT29=Organization
-15	Хурала	_	_	_	_	_	_	_	bratT28=Event|bratT29=Organization
+14	Народного	_	_	_	_	_	_	_	bratT29=Organization
+15	Хурала	_	_	_	_	_	_	_	bratT29=Organization
 16	в	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
 17	марте	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
 18	2020	_	_	_	_	_	_	_	bratA14=T30:Past|bratT30=Date-absolute
@@ -123,7 +123,7 @@
 18	мэры	_	_	_	_	_	_	_	bratT47=Person-property
 19	Улан-Удэ	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Person-property|bratT48=GPE
 20	,	_	_	_	_	_	_	_	_
-21	депутат	_	_	_	_	_	_	_	bratT49=Person-property
+21	депутат	_	_	_	_	_	_	_	bratA19=T69:Male|bratT49=Person-property|bratT69=Person
 22	сказал	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
 24	что	_	_	_	_	_	_	_	_
@@ -145,7 +145,7 @@
 1	Он	_	_	_	_	_	_	_	_
 2	добавил	_	_	_	_	_	_	_	_
 3	о	_	_	_	_	_	_	_	_
-4	пытках	_	_	_	_	_	_	_	_
+4	пытках	_	_	_	_	_	_	_	bratT70=Event
 5	в	_	_	_	_	_	_	_	_
 6	отделах	_	_	_	_	_	_	_	bratA17=T63:Department|bratT63=Organization
 7	полиции	_	_	_	_	_	_	_	bratA17=T63:Department|bratT59=Organization|bratT63=Organization

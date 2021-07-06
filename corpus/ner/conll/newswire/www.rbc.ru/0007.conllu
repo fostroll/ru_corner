@@ -5,7 +5,7 @@
 # text = Гендиректор ``Спартака'' рассказал о будущем Гулиева и Ташаева в клубе
 1	Гендиректор	_	_	_	_	_	_	_	bratA30=T80:Male|bratT2=Person-property|bratT80=Person
 2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T80:Male|bratT1=Organization|bratT2=Person-property|bratT80=Person
-3	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T80:Male|bratT1=Organization|bratT2=Person-property|bratT80=Person
+3	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T80:Male|bratA39=T93:Male|bratT1=Organization|bratT2=Person-property|bratT80=Person|bratT93=Person|bratT94=Person-alias
 4	''	_	_	_	_	_	_	_	bratA30=T80:Male|bratT1=Organization|bratT2=Person-property|bratT80=Person
 5	рассказал	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
@@ -24,7 +24,7 @@
 2	директор	_	_	_	_	_	_	_	bratA6=T7:Male|bratT6=Person-property|bratT7=Person
 3	московского	_	_	_	_	_	_	_	bratA27=T70:Adjective|bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT70=GPE
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
-5	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
+5	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA38=T95:Male|bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person|bratT95=Person|bratT96=Person-alias
 6	''	_	_	_	_	_	_	_	bratA6=T7:Male|bratT5=Organization|bratT6=Person-property|bratT7=Person
 7	Шамиль	_	_	_	_	_	_	_	bratA6=T7:Male|bratT46=Person-forename|bratT7=Person
 8	Газизов	_	_	_	_	_	_	_	bratA6=T7:Male|bratT47=Person-surname|bratT7=Person
@@ -77,7 +77,7 @@
 # sent_id = 0007-p3-s2
 # text = ``Спартак'' должен развиваться, как и его игроки.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
-2	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Organization
+2	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T97:Male|bratT14=Organization|bratT97=Person|bratT98=Person-alias
 3	''	_	_	_	_	_	_	_	bratT14=Organization
 4	должен	_	_	_	_	_	_	_	_
 5	развиваться	_	_	_	_	_	_	_	SpaceAfter=No
@@ -121,7 +121,7 @@
 2	начале	_	_	_	_	_	_	_	bratA10=T18:Past|bratT18=Date-absolute
 3	октября	_	_	_	_	_	_	_	bratA10=T18:Past|bratT18=Date-absolute
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
-5	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Organization
+5	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA34=T99:Male|bratT100=Person-alias|bratT19=Organization|bratT99=Person
 6	''	_	_	_	_	_	_	_	bratT19=Organization
 7	отдал	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -166,22 +166,25 @@
 1	По	_	_	_	_	_	_	_	_
 2	информации	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Media|bratT25=Organization
-4	Спорт-Экспресса	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Media|bratT25=Organization
-5	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Media|bratT25=Organization
-6	,	_	_	_	_	_	_	_	_
-7	футболист	_	_	_	_	_	_	_	bratA31=T81:Male|bratT26=Person-property|bratT81=Person
-8	был	_	_	_	_	_	_	_	_
-9	наказан	_	_	_	_	_	_	_	_
-10	из-за	_	_	_	_	_	_	_	_
-11	конфликта	_	_	_	_	_	_	_	bratT76=Event
-12	с	_	_	_	_	_	_	_	_
-13	тренером	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
-14	по	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
-15	физической	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
-16	подготовке	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
-17	Владом	_	_	_	_	_	_	_	bratA19=T28:Male|bratT28=Person|bratT63=Person-forename
-18	Чепзановичем	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T28:Male|bratT28=Person|bratT64=Person-surname
-19	.	_	_	_	_	_	_	_	_
+4-6	Спорт-Экспресса	_	_	_	_	_	_	_	SpaceAfter=No
+4	Спорт	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Media|bratT25=Organization
+5	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Media|bratT25=Organization
+6	Экспресса	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Media|bratT25=Organization
+7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T25:Media|bratT25=Organization
+8	,	_	_	_	_	_	_	_	_
+9	футболист	_	_	_	_	_	_	_	bratA31=T81:Male|bratT26=Person-property|bratT81=Person
+10	был	_	_	_	_	_	_	_	_
+11	наказан	_	_	_	_	_	_	_	_
+12	из-за	_	_	_	_	_	_	_	_
+13	конфликта	_	_	_	_	_	_	_	bratT76=Event
+14	с	_	_	_	_	_	_	_	_
+15	тренером	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
+16	по	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
+17	физической	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
+18	подготовке	_	_	_	_	_	_	_	bratA19=T28:Male|bratT27=Person-property|bratT28=Person
+19	Владом	_	_	_	_	_	_	_	bratA19=T28:Male|bratT28=Person|bratT63=Person-forename
+20	Чепзановичем	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T28:Male|bratT28=Person|bratT64=Person-surname
+21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0007-p6
 # par_text = «Куда пропал Гулиев? Я его часто вижу на тренировочном поле и в гостинице, где живу. Он работает со «Спартаком-2», возвращается после определенных ситуаций. Болел? Не буду вдаваться в подробности. Если футболист пропал, было что-то связанное с его здоровьем», — заявил Газизов.
@@ -217,7 +220,7 @@
 3	со	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
 5-7	Спартаком-2	_	_	_	_	_	_	_	SpaceAfter=No
-5	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
+5	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratA35=T101:Male|bratT101=Person|bratT102=Person-alias|bratT30=Organization
 6	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
 7	2	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization|bratT79=Ordinal
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Organization
@@ -269,7 +272,7 @@
 2	является	_	_	_	_	_	_	_	_
 3	воспитанником	_	_	_	_	_	_	_	bratT35=Person-property
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=Person-property
-5	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=Person-property
+5	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA37=T103:Male|bratT103=Person|bratT104=Person-alias|bratT34=Organization|bratT35=Person-property
 6	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=Person-property
 7	.	_	_	_	_	_	_	_	_
 
@@ -309,7 +312,7 @@
 2	полузащитника	_	_	_	_	_	_	_	bratA32=T82:Male|bratT41=Person-property|bratT82=Person
 3	со	_	_	_	_	_	_	_	_
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
-5	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Organization
+5	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratA36=T105:Male|bratT105=Person|bratT106=Person-alias|bratT42=Organization
 6	''	_	_	_	_	_	_	_	bratT42=Organization
 7	рассчитан	_	_	_	_	_	_	_	_
 8	до	_	_	_	_	_	_	_	bratA26=T43:UNK-Fut|bratT43=Date-period-absolute

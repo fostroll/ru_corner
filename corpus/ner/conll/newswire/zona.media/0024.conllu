@@ -3,11 +3,11 @@
 # par_text = Twitter заблокировал больше тысячи аккаунтов, пропагандирующих «Единую Россию»
 # sent_id = 0024-p1-s1
 # text = Twitter заблокировал больше тысячи аккаунтов, пропагандирующих ``Единую Россию''
-1	Twitter	_	_	_	_	_	_	_	bratT1=Organization
+1	Twitter	_	_	_	_	_	_	_	bratT1=Service
 2	заблокировал	_	_	_	_	_	_	_	_
 3	больше	_	_	_	_	_	_	_	bratT2=Quantity
 4	тысячи	_	_	_	_	_	_	_	bratT2=Quantity
-5	аккаунтов	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Quantity
+5	аккаунтов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T27:Media|bratT2=Quantity|bratT27=Service
 6	,	_	_	_	_	_	_	_	_
 7	пропагандирующих	_	_	_	_	_	_	_	_
 8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Organization
@@ -19,13 +19,13 @@
 # par_text = Социальная сеть Twitter заблокировала 1 152 аккаунта, пропагандирующих «Единую Россию». Об этом говорится в заявлении компании.
 # sent_id = 0024-p2-s1
 # text = Социальная сеть Twitter заблокировала 1 152 аккаунта, пропагандирующих ``Единую Россию''.
-1	Социальная	_	_	_	_	_	_	_	bratT4=Organization
-2	сеть	_	_	_	_	_	_	_	bratT4=Organization
-3	Twitter	_	_	_	_	_	_	_	bratT4=Organization
+1	Социальная	_	_	_	_	_	_	_	bratT4=Service
+2	сеть	_	_	_	_	_	_	_	bratT4=Service
+3	Twitter	_	_	_	_	_	_	_	bratT4=Service
 4	заблокировала	_	_	_	_	_	_	_	_
 5	1	_	_	_	_	_	_	_	bratT5=Quantity
 6	152	_	_	_	_	_	_	_	bratT5=Quantity
-7	аккаунта	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Quantity
+7	аккаунта	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T28:Media|bratT28=Service|bratT5=Quantity
 8	,	_	_	_	_	_	_	_	_
 9	пропагандирующих	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
@@ -53,7 +53,7 @@
 3	отмечают	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	заблокированные	_	_	_	_	_	_	_	_
-6	аккаунты	_	_	_	_	_	_	_	_
+6	аккаунты	_	_	_	_	_	_	_	bratA5=T29:Media|bratT29=Service
 7	были	_	_	_	_	_	_	_	_
 8	связаны	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
@@ -80,8 +80,8 @@
 3	Twitter	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Organization
 4	,	_	_	_	_	_	_	_	_
 5	эти	_	_	_	_	_	_	_	_
-6	учетные	_	_	_	_	_	_	_	_
-7	записи	_	_	_	_	_	_	_	_
+6	учетные	_	_	_	_	_	_	_	bratA6=T30:Media|bratT30=Service
+7	записи	_	_	_	_	_	_	_	bratA6=T30:Media|bratT30=Service
 8	нарушили	_	_	_	_	_	_	_	_
 9	правила	_	_	_	_	_	_	_	_
 10	социальной	_	_	_	_	_	_	_	bratT14=Service
@@ -99,7 +99,7 @@
 2	частности	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	эти	_	_	_	_	_	_	_	_
-5	аккаунты	_	_	_	_	_	_	_	_
+5	аккаунты	_	_	_	_	_	_	_	bratA7=T31:Media|bratT31=Service
 6	делали	_	_	_	_	_	_	_	_
 7	координированные	_	_	_	_	_	_	_	_
 8	репосты	_	_	_	_	_	_	_	bratA2=T13:Media|bratT13=Service
@@ -126,8 +126,8 @@
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
 6	эта	_	_	_	_	_	_	_	_
-7	информационная	_	_	_	_	_	_	_	_
-8	кампания	_	_	_	_	_	_	_	_
+7	информационная	_	_	_	_	_	_	_	bratT32=Event
+8	кампания	_	_	_	_	_	_	_	bratT32=Event
 9	включала	_	_	_	_	_	_	_	_
 10	пропаганду	_	_	_	_	_	_	_	_
 11	партии	_	_	_	_	_	_	_	bratT15=Organization
@@ -138,8 +138,8 @@
 16	и	_	_	_	_	_	_	_	_
 17	нападки	_	_	_	_	_	_	_	_
 18	на	_	_	_	_	_	_	_	_
-19	политических	_	_	_	_	_	_	_	_
-20	диссидентов	_	_	_	_	_	_	_	SpaceAfter=No
+19	политических	_	_	_	_	_	_	_	bratT33=Political-group
+20	диссидентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Political-group
 21	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0024-p5-s2
@@ -148,7 +148,7 @@
 2	раскрыла	_	_	_	_	_	_	_	_
 3	все	_	_	_	_	_	_	_	_
 4	заблокированные	_	_	_	_	_	_	_	_
-5	аккаунты	_	_	_	_	_	_	_	_
+5	аккаунты	_	_	_	_	_	_	_	bratA8=T34:Media|bratT34=Service
 6	в	_	_	_	_	_	_	_	_
 7	публичном	_	_	_	_	_	_	_	_
 8	архиве	_	_	_	_	_	_	_	SpaceAfter=No
@@ -161,12 +161,12 @@
 1	Кроме	_	_	_	_	_	_	_	_
 2	того	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	Twitter	_	_	_	_	_	_	_	bratT16=Organization
+4	Twitter	_	_	_	_	_	_	_	bratT16=Service
 5	заблокировал	_	_	_	_	_	_	_	_
 6	почти	_	_	_	_	_	_	_	_
 7	24	_	_	_	_	_	_	_	bratT17=Quantity
 8	тысяч	_	_	_	_	_	_	_	bratT17=Quantity
-9	аккаунтов	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
+9	аккаунтов	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T35:Media|bratT17=Quantity|bratT35=Service
 10	,	_	_	_	_	_	_	_	_
 11	связанных	_	_	_	_	_	_	_	_
 12	с	_	_	_	_	_	_	_	_

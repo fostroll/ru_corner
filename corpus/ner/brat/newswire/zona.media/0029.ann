@@ -1,4 +1,4 @@
-T1	Organization 0 33	Суд   в   Новосибирской   области
+T1	Organization 0 3	Суд
 T2	GPE 10 33	Новосибирской   области
 A1	Adjective T2
 T3	Nationality 48 58	сельчанина
@@ -22,7 +22,6 @@ T16	Law 406 435	часть   1   статьи   105   УК
 T17	Date-absolute 475 488	29   сентября
 A6	Past T17
 T18	Nationality 491 500	сельчанин
-A7	Resident T18
 T19	Age 622 633	35 - летнюю
 T20	Family 636 640	жену
 T21	Nationality 747 756	сибирячку
@@ -30,7 +29,7 @@ A8	Resident T21
 T22	Organization 870 872	СК
 T23	Nationality 896 912	местный   житель
 A9	Resident T23
-T24	Other-group 983 992	сельчанин
+T24	Nationality 983 992	сельчанин
 T25	Family 1024 1029	женой
 T26	Family 1080 1084	Пара
 T27	Date-absolute 1110 1136	после   его   освобождения
@@ -95,3 +94,9 @@ T64	Person 810 817	Женщина
 A31	Female T64
 T65	Person 362 370	Сибиряка
 A32	Male T65
+T66	Person 214 233	жителя   села   Чик
+A33	Male T66
+T67	Person 251 255	жену
+A34	Female T67
+A7	Resident T18
+A35	Resident T24

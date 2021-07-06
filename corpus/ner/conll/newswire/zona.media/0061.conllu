@@ -8,14 +8,14 @@
 3	во	_	_	_	_	_	_	_	_
 4	Франции	_	_	_	_	_	_	_	bratT2=GPE
 5	задержали	_	_	_	_	_	_	_	_
-6	уроженца	_	_	_	_	_	_	_	bratA16=T40:Citizenship|bratT40=Nationality
-7	Чечни	_	_	_	_	_	_	_	bratA16=T40:Citizenship|bratT4=GPE|bratT40=Nationality
+6	уроженца	_	_	_	_	_	_	_	bratA16=T40:Citizenship|bratA24=T54:Male|bratT40=Nationality|bratT54=Person
+7	Чечни	_	_	_	_	_	_	_	bratA16=T40:Citizenship|bratA24=T54:Male|bratT4=GPE|bratT40=Nationality|bratT54=Person
 8	из-за	_	_	_	_	_	_	_	_
 9	лайка	_	_	_	_	_	_	_	_
 10	под	_	_	_	_	_	_	_	_
 11	фото	_	_	_	_	_	_	_	_
 12	обезглавленного	_	_	_	_	_	_	_	_
-13	учителя	_	_	_	_	_	_	_	bratT5=Person-property
+13	учителя	_	_	_	_	_	_	_	bratA25=T55:Male|bratT5=Person-property|bratT55=Person
 
 # newpar id = 0061-p2
 # par_text = Французский телеканал BFMTV со ссылкой на источник в прокуратуре сообщает, что в городе Блуа задержали 22-летнего мужчину чеченского происхождения из-за лайка под фотографией обезглавленного учителя Самюэля Пати.
@@ -41,9 +41,9 @@
 17	22	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT9=Age
 18	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT9=Age
 19	летнего	_	_	_	_	_	_	_	bratT9=Age
-20	мужчину	_	_	_	_	_	_	_	_
-21	чеченского	_	_	_	_	_	_	_	bratA9=T19:Adjective|bratT18=Nationality|bratT19=GPE
-22	происхождения	_	_	_	_	_	_	_	bratT18=Nationality
+20	мужчину	_	_	_	_	_	_	_	bratA23=T53:Male|bratT53=Person
+21	чеченского	_	_	_	_	_	_	_	bratA23=T53:Male|bratA9=T19:Adjective|bratT18=Nationality|bratT19=GPE|bratT53=Person
+22	происхождения	_	_	_	_	_	_	_	bratA23=T53:Male|bratT18=Nationality|bratT53=Person
 23	из-за	_	_	_	_	_	_	_	_
 24	лайка	_	_	_	_	_	_	_	_
 25	под	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 
 # sent_id = 0061-p3-s3
 # text = Мужчина отрицает «любую радикализацию».
-1	Мужчина	_	_	_	_	_	_	_	_
+1	Мужчина	_	_	_	_	_	_	_	bratA21=T51:Male|bratT51=Person
 2	отрицает	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 4	любую	_	_	_	_	_	_	_	_
@@ -107,8 +107,8 @@
 2	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	местного	_	_	_	_	_	_	_	bratA11=T22:Resident|bratA17=T41:Adjective|bratT22=Nationality|bratT41=GPE
-6	жителя	_	_	_	_	_	_	_	bratA11=T22:Resident|bratT22=Nationality
+5	местного	_	_	_	_	_	_	_	bratA11=T22:Resident|bratA17=T41:Adjective|bratA22=T52:Male|bratT22=Nationality|bratT41=GPE|bratT52=Person
+6	жителя	_	_	_	_	_	_	_	bratA11=T22:Resident|bratA22=T52:Male|bratT22=Nationality|bratT52=Person
 7	уже	_	_	_	_	_	_	_	_
 8	привлекали	_	_	_	_	_	_	_	_
 9	к	_	_	_	_	_	_	_	_
@@ -140,8 +140,8 @@
 5	городе	_	_	_	_	_	_	_	bratT25=GPE
 6	Конфлан-Сент-Онорин	_	_	_	_	_	_	_	bratT25=GPE
 7	обезглавили	_	_	_	_	_	_	_	_
-8	учителя	_	_	_	_	_	_	_	bratT27=Person-property
-9	истории	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property
+8	учителя	_	_	_	_	_	_	_	bratA20=T49:Male|bratT27=Person-property|bratT49=Person
+9	истории	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T49:Male|bratT27=Person-property|bratT49=Person
 10	,	_	_	_	_	_	_	_	_
 11	показавшего	_	_	_	_	_	_	_	_
 12	детям	_	_	_	_	_	_	_	bratT31=Age
@@ -159,19 +159,19 @@
 
 # sent_id = 0061-p4-s2
 # text = Предполагаемый убийца с ником «Tchetchene_270» («Tchetchene» это искаженное написание французского слова «Tchétchène», которое в переводе означает «Чеченский») опубликовал фотографию отрезанной головы в твиттере, написав, что «казнил одну из адских собак».
-1	Предполагаемый	_	_	_	_	_	_	_	bratT30=Person-property
-2	убийца	_	_	_	_	_	_	_	bratT30=Person-property
-3	с	_	_	_	_	_	_	_	_
-4	ником	_	_	_	_	_	_	_	bratT37=Other-contact
-5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT37=Other-contact
+1	Предполагаемый	_	_	_	_	_	_	_	bratA26=T56:Male|bratT56=Person
+2	убийца	_	_	_	_	_	_	_	bratA26=T56:Male|bratT30=Person-property|bratT56=Person
+3	с	_	_	_	_	_	_	_	bratA26=T56:Male|bratT56=Person
+4	ником	_	_	_	_	_	_	_	bratA26=T56:Male|bratT37=Other-contact|bratT56=Person
+5	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA26=T56:Male|bratT37=Other-contact|bratT56=Person
 6-8	Tchetchene_270	_	_	_	_	_	_	_	SpaceAfter=No
-6	Tchetchene	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Other-contact
-7	__	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Other-contact
-8	270	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Other-contact|bratT38=Cardinal
-9	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT37=Other-contact
+6	Tchetchene	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T56:Male|bratT37=Other-contact|bratT47=Nationality|bratT56=Person
+7	__	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T56:Male|bratT37=Other-contact|bratT56=Person
+8	270	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T56:Male|bratT37=Other-contact|bratT38=Cardinal|bratT56=Person
+9	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA26=T56:Male|bratT37=Other-contact|bratT56=Person
 10	(	_	_	_	_	_	_	_	SpaceAfter=No
 11	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-12	Tchetchene	_	_	_	_	_	_	_	SpaceAfter=No
+12	Tchetchene	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Nationality
 13	''	_	_	_	_	_	_	_	QuotationEnd=»
 14	это	_	_	_	_	_	_	_	_
 15	искаженное	_	_	_	_	_	_	_	_
@@ -179,7 +179,7 @@
 17	французского	_	_	_	_	_	_	_	_
 18	слова	_	_	_	_	_	_	_	_
 19	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-20	Tchétchène	_	_	_	_	_	_	_	SpaceAfter=No
+20	Tchétchène	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Nationality
 21	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 22	,	_	_	_	_	_	_	_	_
 23	которое	_	_	_	_	_	_	_	_
@@ -187,7 +187,7 @@
 25	переводе	_	_	_	_	_	_	_	_
 26	означает	_	_	_	_	_	_	_	_
 27	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-28	Чеченский	_	_	_	_	_	_	_	SpaceAfter=No
+28	Чеченский	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T45:Adjective|bratT45=Nationality
 29	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 30	)	_	_	_	_	_	_	_	_
 31	опубликовал	_	_	_	_	_	_	_	_

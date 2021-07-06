@@ -92,9 +92,9 @@
 14	арест	_	_	_	_	_	_	_	bratT31=Event
 15	по	_	_	_	_	_	_	_	_
 16	ходатайству	_	_	_	_	_	_	_	_
-17	прокурора	_	_	_	_	_	_	_	bratT27=Person-property
+17	прокурора	_	_	_	_	_	_	_	bratT27=Person-property|bratT72=Person
 18	из-за	_	_	_	_	_	_	_	_
-19	неявки	_	_	_	_	_	_	_	_
+19	неявки	_	_	_	_	_	_	_	bratT75=Event
 20	на	_	_	_	_	_	_	_	_
 21	заседания	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
 22	.	_	_	_	_	_	_	_	_
@@ -158,11 +158,11 @@
 9	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT39=Person-property|bratT66=Person
 10	сенатора	_	_	_	_	_	_	_	bratT39=Person-property|bratT66=Person
 11	подлежало	_	_	_	_	_	_	_	_
-12	прекращению	_	_	_	_	_	_	_	_
+12	прекращению	_	_	_	_	_	_	_	bratT73=Event
 13	по	_	_	_	_	_	_	_	_
-14	истечению	_	_	_	_	_	_	_	_
-15	срока	_	_	_	_	_	_	_	_
-16	давности	_	_	_	_	_	_	_	SpaceAfter=No
+14	истечению	_	_	_	_	_	_	_	bratT74=Event
+15	срока	_	_	_	_	_	_	_	bratT74=Event
+16	давности	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Event
 17	,	_	_	_	_	_	_	_	_
 18	а	_	_	_	_	_	_	_	_
 19	на	_	_	_	_	_	_	_	_

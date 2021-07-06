@@ -78,8 +78,8 @@
 # text = По словам великого понтифика, ``у всех должна быть возможность создать семью''.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	великого	_	_	_	_	_	_	_	bratT16=Person-property
-4	понтифика	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property
+3	великого	_	_	_	_	_	_	_	bratA19=T52:Male|bratT16=Person-property|bratT52=Person
+4	понтифика	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T52:Male|bratT16=Person-property|bratT52=Person
 5	,	_	_	_	_	_	_	_	_
 6	``	_	_	_	_	_	_	_	SpaceAfter=No
 7	у	_	_	_	_	_	_	_	_
@@ -183,7 +183,7 @@
 # sent_id = 0015-p6-s1
 # text = Ранее понтифик также говорил, что не стоит осуждать священников за их нетрадиционную сексуальную ориентацию.
 1	Ранее	_	_	_	_	_	_	_	bratA12=T25:Past|bratT25=Date-relative
-2	понтифик	_	_	_	_	_	_	_	bratT11=Person-property
+2	понтифик	_	_	_	_	_	_	_	bratA18=T51:Male|bratT11=Person-property|bratT51=Person
 3	также	_	_	_	_	_	_	_	_
 4	говорил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
@@ -228,11 +228,11 @@
 6	Бенедикт	_	_	_	_	_	_	_	bratA14=T13:Male|bratT13=Person|bratT35=Person-forename
 7	XVI	_	_	_	_	_	_	_	bratA14=T13:Male|bratT13=Person|bratT36=Person-affix|bratT43=Ordinal
 8	издал	_	_	_	_	_	_	_	_
-9	запрет	_	_	_	_	_	_	_	_
+9	запрет	_	_	_	_	_	_	_	bratT49=Event
 10	на	_	_	_	_	_	_	_	_
 11	принятие	_	_	_	_	_	_	_	bratT48=Event
-12	духовного	_	_	_	_	_	_	_	bratT48=Event
-13	сана	_	_	_	_	_	_	_	bratT48=Event
+12	духовного	_	_	_	_	_	_	_	bratT50=Person-property
+13	сана	_	_	_	_	_	_	_	bratT50=Person-property
 14	людям	_	_	_	_	_	_	_	bratT46=Other-group
 15	с	_	_	_	_	_	_	_	bratT46=Other-group
 16	нетрадиционной	_	_	_	_	_	_	_	bratT46=Other-group

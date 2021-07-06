@@ -5,15 +5,15 @@
 # text = Суд арестовал медика, выдавшего справку для получения оружия нижегородскому стрелку
 1	Суд	_	_	_	_	_	_	_	bratT42=Organization
 2	арестовал	_	_	_	_	_	_	_	_
-3	медика	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+3	медика	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T56:Male|bratT1=Person-property|bratT56=Person
 4	,	_	_	_	_	_	_	_	_
 5	выдавшего	_	_	_	_	_	_	_	_
 6	справку	_	_	_	_	_	_	_	_
 7	для	_	_	_	_	_	_	_	_
 8	получения	_	_	_	_	_	_	_	bratT52=Event
-9	оружия	_	_	_	_	_	_	_	_
-10	нижегородскому	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratT2=Person-property|bratT3=GPE
-11	стрелку	_	_	_	_	_	_	_	bratT2=Person-property
+9	оружия	_	_	_	_	_	_	_	bratT52=Event
+10	нижегородскому	_	_	_	_	_	_	_	bratA1=T3:Adjective|bratA15=T57:Male|bratT2=Person-property|bratT3=GPE|bratT57=Person
+11	стрелку	_	_	_	_	_	_	_	bratA15=T57:Male|bratT2=Person-property|bratT57=Person
 
 # newpar id = 0019-p2
 # par_text = В Нижегородской области суд арестовал специалиста, выдавшего справку для получения разрешения на оружия 18-летнему Даниле Монахову, подозреваемому в убийстве троих человек. Об этом сообщает местная объединенная пресс-службы судов общей юрисдикции.
@@ -24,13 +24,13 @@
 3	области	_	_	_	_	_	_	_	bratT4=GPE
 4	суд	_	_	_	_	_	_	_	bratT46=Organization
 5	арестовал	_	_	_	_	_	_	_	_
-6	специалиста	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Person-property
+6	специалиста	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T58:Male|bratT5=Person-property|bratT58=Person
 7	,	_	_	_	_	_	_	_	_
 8	выдавшего	_	_	_	_	_	_	_	_
 9	справку	_	_	_	_	_	_	_	_
 10	для	_	_	_	_	_	_	_	_
 11	получения	_	_	_	_	_	_	_	bratT53=Event
-12	разрешения	_	_	_	_	_	_	_	_
+12	разрешения	_	_	_	_	_	_	_	bratT53=Event
 13	на	_	_	_	_	_	_	_	_
 14	оружия	_	_	_	_	_	_	_	_
 15-17	18-летнему	_	_	_	_	_	_	_	_
@@ -52,12 +52,12 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
-4	местная	_	_	_	_	_	_	_	bratA12=T28:Adjective|bratA13=T9:Department|bratT28=GPE|bratT9=Organization
-5	объединенная	_	_	_	_	_	_	_	bratA13=T9:Department|bratT9=Organization
-6	пресс-службы	_	_	_	_	_	_	_	bratA13=T9:Department|bratT9=Organization
-7	судов	_	_	_	_	_	_	_	bratA13=T9:Department|bratT39=Organization|bratT9=Organization
-8	общей	_	_	_	_	_	_	_	bratA13=T9:Department|bratT39=Organization|bratT9=Organization
-9	юрисдикции	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T9:Department|bratT39=Organization|bratT9=Organization
+4	местная	_	_	_	_	_	_	_	bratA12=T28:Adjective|bratT28=GPE|bratT9=Organization
+5	объединенная	_	_	_	_	_	_	_	bratT9=Organization
+6	пресс-службы	_	_	_	_	_	_	_	bratT9=Organization
+7	судов	_	_	_	_	_	_	_	bratT39=Organization|bratT9=Organization
+8	общей	_	_	_	_	_	_	_	bratT39=Organization|bratT9=Organization
+9	юрисдикции	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Organization|bratT9=Organization
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0019-p3
@@ -67,7 +67,7 @@
 1	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 2	Суд	_	_	_	_	_	_	_	bratT43=Organization
 3	арестовал	_	_	_	_	_	_	_	_
-4	специалиста	_	_	_	_	_	_	_	bratT11=Person-property
+4	специалиста	_	_	_	_	_	_	_	bratA13=T59:Male|bratT11=Person-property|bratT59=Person
 5	выдававшего	_	_	_	_	_	_	_	_
 6	медицинские	_	_	_	_	_	_	_	_
 7	справки	_	_	_	_	_	_	_	_
@@ -111,15 +111,15 @@
 2	12	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 3	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 4	расстрелял	_	_	_	_	_	_	_	_
-5	жителей	_	_	_	_	_	_	_	bratA7=T20:Resident|bratT20=Nationality
-6	деревни	_	_	_	_	_	_	_	bratA7=T20:Resident|bratT20=Nationality|bratT21=GPE
-7	Большеорловское	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T20:Resident|bratT20=Nationality|bratT21=GPE
+5	жителей	_	_	_	_	_	_	_	bratA7=T20:Resident|bratT20=Nationality|bratT61=Person
+6	деревни	_	_	_	_	_	_	_	bratA7=T20:Resident|bratT20=Nationality|bratT21=GPE|bratT61=Person
+7	Большеорловское	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T20:Resident|bratT20=Nationality|bratT21=GPE|bratT61=Person
 8	,	_	_	_	_	_	_	_	_
 9	где	_	_	_	_	_	_	_	_
 10	он	_	_	_	_	_	_	_	_
 11	гостил	_	_	_	_	_	_	_	_
 12	у	_	_	_	_	_	_	_	_
-13	бабушки	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Family
+13	бабушки	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T60:Female|bratT22=Family|bratT60=Person
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0019-p4-s2
@@ -136,14 +136,14 @@
 10	в	_	_	_	_	_	_	_	_
 11	том	_	_	_	_	_	_	_	_
 12	числе	_	_	_	_	_	_	_	_
-13	бабушка	_	_	_	_	_	_	_	bratT27=Family
-14	стрелка	_	_	_	_	_	_	_	SpaceAfter=No
+13	бабушка	_	_	_	_	_	_	_	bratA18=T62:Female|bratT27=Family|bratT62=Person
+14	стрелка	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T62:Female|bratA19=T63:Male|bratT62=Person|bratT63=Person
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0019-p4-s3
 # text = Утром подростка нашли мертвым.
 1	Утром	_	_	_	_	_	_	_	bratA8=T10:Past|bratT10=Date-relative|bratT29=Time-absolute
-2	подростка	_	_	_	_	_	_	_	bratT30=Age
+2	подростка	_	_	_	_	_	_	_	bratT30=Age|bratT64=Person
 3	нашли	_	_	_	_	_	_	_	_
 4	мертвым	_	_	_	_	_	_	_	SpaceAfter=No
 5	.	_	_	_	_	_	_	_	_
@@ -166,7 +166,7 @@
 3	говорят	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	подросток	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Age
+6	подросток	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T65:Male|bratT34=Age|bratT65=Person
 7	,	_	_	_	_	_	_	_	_
 8	согласно	_	_	_	_	_	_	_	_
 9	его	_	_	_	_	_	_	_	_

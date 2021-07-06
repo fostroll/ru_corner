@@ -54,7 +54,7 @@
 13	,	_	_	_	_	_	_	_	_
 14	болезнь	_	_	_	_	_	_	_	_
 15	у	_	_	_	_	_	_	_	_
-16	обоих	_	_	_	_	_	_	_	bratT36=Quantity
+16	обоих	_	_	_	_	_	_	_	bratT36=Quantity|bratT64=Person
 17	протекает	_	_	_	_	_	_	_	_
 18	в	_	_	_	_	_	_	_	_
 19	легкой	_	_	_	_	_	_	_	_
@@ -74,7 +74,7 @@
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	Действительно	_	_	_	_	_	_	_	_
 3	у	_	_	_	_	_	_	_	_
-4	папы	_	_	_	_	_	_	_	bratT15=Family
+4	папы	_	_	_	_	_	_	_	bratA21=T65:Male|bratT15=Family|bratT65=Person
 5	этот	_	_	_	_	_	_	_	_
 6	жуткий	_	_	_	_	_	_	_	_
 7	ковид	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Other-term
@@ -95,7 +95,7 @@
 # sent_id = 0066-p3-s2
 # text = У мамы вообще бессимптомно'', - рассказал в Instagram сын артиста телеведущий Михаил Ширвиндт.
 1	У	_	_	_	_	_	_	_	_
-2	мамы	_	_	_	_	_	_	_	bratT17=Family
+2	мамы	_	_	_	_	_	_	_	bratA22=T66:Female|bratT17=Family|bratT66=Person
 3	вообще	_	_	_	_	_	_	_	_
 4	бессимптомно	_	_	_	_	_	_	_	SpaceAfter=No
 5	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -105,7 +105,7 @@
 9	в	_	_	_	_	_	_	_	_
 10	Instagram	_	_	_	_	_	_	_	bratT18=Service
 11	сын	_	_	_	_	_	_	_	bratA10=T22:Male|bratT19=Family|bratT22=Person
-12	артиста	_	_	_	_	_	_	_	bratA10=T22:Male|bratT20=Person-property|bratT22=Person
+12	артиста	_	_	_	_	_	_	_	bratA10=T22:Male|bratA23=T67:Male|bratT20=Person-property|bratT22=Person|bratT67=Person
 13	телеведущий	_	_	_	_	_	_	_	bratA10=T22:Male|bratT21=Person-property|bratT22=Person
 14	Михаил	_	_	_	_	_	_	_	bratA10=T22:Male|bratT22=Person|bratT45=Person-forename
 15	Ширвиндт	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T22:Male|bratT22=Person|bratT46=Person-surname
@@ -117,7 +117,7 @@
 2	пояснил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	супругов	_	_	_	_	_	_	_	bratT23=Family
+5	супругов	_	_	_	_	_	_	_	bratT23=Family|bratT68=Person
 6	решили	_	_	_	_	_	_	_	_
 7	поместить	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -185,8 +185,8 @@
 4	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
-7	знаменитый	_	_	_	_	_	_	_	_
-8	артист	_	_	_	_	_	_	_	bratT28=Person-property
+7	знаменитый	_	_	_	_	_	_	_	bratA24=T69:Male|bratT28=Person-property|bratT69=Person
+8	артист	_	_	_	_	_	_	_	bratA24=T69:Male|bratT28=Person-property|bratT69=Person
 9	находится	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	тяжелом	_	_	_	_	_	_	_	_
@@ -213,7 +213,7 @@
 15	-	_	_	_	_	_	_	_	_
 16	как	_	_	_	_	_	_	_	_
 17	только	_	_	_	_	_	_	_	_
-18	папа	_	_	_	_	_	_	_	bratT53=Family
+18	папа	_	_	_	_	_	_	_	bratA25=T70:Male|bratT53=Family|bratT70=Person
 19	идет	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
 21	поликлинику	_	_	_	_	_	_	_	bratT60=Organization
@@ -233,9 +233,9 @@
 
 # sent_id = 0066-p5-s3
 # text = Директор Театра сатиры предположил в беседе с РБК, что Ширвиндта выпишут ``к пятнице или к понедельнику''.
-1	Директор	_	_	_	_	_	_	_	bratT31=Person-property
-2	Театра	_	_	_	_	_	_	_	bratT30=Organization|bratT31=Person-property
-3	сатиры	_	_	_	_	_	_	_	bratT30=Organization|bratT31=Person-property
+1	Директор	_	_	_	_	_	_	_	bratA26=T71:Male|bratT31=Person-property|bratT71=Person
+2	Театра	_	_	_	_	_	_	_	bratA26=T71:Male|bratT30=Organization|bratT31=Person-property|bratT71=Person
+3	сатиры	_	_	_	_	_	_	_	bratA26=T71:Male|bratT30=Organization|bratT31=Person-property|bratT71=Person
 4	предположил	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	беседе	_	_	_	_	_	_	_	_

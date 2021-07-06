@@ -1,7 +1,7 @@
 T1	Nationality 17 30	петербурженка
 A1	Resident T1
 T2	Money 44 68	почти   2   млн   рублей
-T3	Person-property 75 87	работодателя
+T3	Organization 75 87	работодателя
 T4	Organization 134 162	Городской   суд   Петербурга
 T5	GPE 152 162	Петербурга
 T6	Person 239 288	трансгендерной   женщине   Анастасии   Васильевой
@@ -16,14 +16,14 @@ T13	Date-absolute 415 437	в   июле   2017   года
 T14	Person 440 449	Васильеву
 A5	Female T14
 T15	Person-surname 440 449	Васильеву
-T17	Person-property 557 569	Работодатель
+T17	Organization 557 569	Работодатель
 T18	Quantity 602 617	456   профессий
 T19	GPE 657 663	России
 T20	Person-property 700 709	печатника
 T21	Person 748 758	Васильевой
 A6	Female T21
 T22	Person-surname 748 758	Васильевой
-T23	Person-property 818 830	работодателя
+T23	Organization 818 830	работодателя
 T24	Date-absolute 858 883	в   декабре   2018   года
 A7	Past T24
 A8	Past T13
@@ -56,3 +56,9 @@ T42	Other-group 345 349	ЛГБТ
 T37	Person-property 1338 1347	должности
 T43	Event 1264 1274	увольнение
 T44	Event 1153 1162	рождением
+T45	Person 0 30	Трансгендерная   петербурженка
+A15	Female T45
+T46	Person 983 996	петербурженка
+A16	Female T46
+T47	Event 1485 1505	вынужденный   прогул
+T48	Event 178 187	апелляции

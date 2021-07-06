@@ -26,19 +26,22 @@
 9	в	_	_	_	_	_	_	_	_
 10	интервью	_	_	_	_	_	_	_	bratT57=Event
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
-12	Экспресс-газете	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
-13	''	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
-14	впервые	_	_	_	_	_	_	_	bratT10=Ordinal
-15	прокомментировала	_	_	_	_	_	_	_	_
-16	свою	_	_	_	_	_	_	_	_
-17	дисквалификацию	_	_	_	_	_	_	_	_
-18	за	_	_	_	_	_	_	_	_
-19	употребление	_	_	_	_	_	_	_	_
-20	запрещенных	_	_	_	_	_	_	_	_
-21	в	_	_	_	_	_	_	_	_
-22	спорте	_	_	_	_	_	_	_	_
-23	препаратов	_	_	_	_	_	_	_	SpaceAfter=No
-24	.	_	_	_	_	_	_	_	_
+12-14	Экспресс-газете	_	_	_	_	_	_	_	SpaceAfter=No
+12	Экспресс	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
+14	газете	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
+15	''	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
+16	впервые	_	_	_	_	_	_	_	bratT10=Ordinal
+17	прокомментировала	_	_	_	_	_	_	_	_
+18	свою	_	_	_	_	_	_	_	_
+19	дисквалификацию	_	_	_	_	_	_	_	bratT60=Event
+20	за	_	_	_	_	_	_	_	_
+21	употребление	_	_	_	_	_	_	_	_
+22	запрещенных	_	_	_	_	_	_	_	_
+23	в	_	_	_	_	_	_	_	_
+24	спорте	_	_	_	_	_	_	_	_
+25	препаратов	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0108-p3
 # par_text = Российское антидопинговое агентство (РУСАДА) ранее дисквалифицировало 20-летнюю Сотскову на десять лет за нарушение антидопинговых правил и подделку медицинской справки.
@@ -114,7 +117,7 @@
 9	сообщила	_	_	_	_	_	_	_	_
 10	об	_	_	_	_	_	_	_	_
 11	этом	_	_	_	_	_	_	_	_
-12	своему	_	_	_	_	_	_	_	_
+12	своему	_	_	_	_	_	_	_	bratA10=T20:Female|bratT20=Person
 13	тренеру	_	_	_	_	_	_	_	bratA10=T20:Female|bratT19=Person-property|bratT20=Person
 14	Светлане	_	_	_	_	_	_	_	bratA10=T20:Female|bratT20=Person|bratT43=Person-forename
 15	Соколовской	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T20:Female|bratT20=Person|bratT44=Person-surname
@@ -184,7 +187,7 @@
 2	словам	_	_	_	_	_	_	_	_
 3	Марии	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T28:Female|bratT28=Person|bratT45=Person-forename
 4	,	_	_	_	_	_	_	_	_
-5	допинг-офицеры	_	_	_	_	_	_	_	bratT29=Person-property
+5	допинг-офицеры	_	_	_	_	_	_	_	bratT29=Person-property|bratT61=Person
 6	нагрянули	_	_	_	_	_	_	_	_
 7	к	_	_	_	_	_	_	_	_
 8	ней	_	_	_	_	_	_	_	_
@@ -283,14 +286,14 @@
 2	фигурном	_	_	_	_	_	_	_	_
 3	катании	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
-5	завершении	_	_	_	_	_	_	_	_
-6	карьеры	_	_	_	_	_	_	_	_
+5	завершении	_	_	_	_	_	_	_	bratT58=Event
+6	карьеры	_	_	_	_	_	_	_	bratT58=Event
 7	спортсмены	_	_	_	_	_	_	_	bratT34=Person-property
 8	обычно	_	_	_	_	_	_	_	_
 9	объявляют	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	bratT35=Time-relative
-11	конце	_	_	_	_	_	_	_	bratT35=Time-relative
-12	сезона	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
+11	конце	_	_	_	_	_	_	_	bratT59=Event
+12	сезона	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event|bratT59=Event
 13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0108-p6-s8

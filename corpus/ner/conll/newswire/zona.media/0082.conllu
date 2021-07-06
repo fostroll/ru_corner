@@ -10,11 +10,11 @@
 5	в	_	_	_	_	_	_	_	_
 6	прокуратуру	_	_	_	_	_	_	_	bratT46=Organization
 7	дело	_	_	_	_	_	_	_	bratT63=Event
-8	последовательницы	_	_	_	_	_	_	_	bratT4=Religious-group
-9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT4=Religious-group|bratT5=Organization
-10	Свидетелей	_	_	_	_	_	_	_	bratT4=Religious-group|bratT5=Organization
-11	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T55:Fiction|bratA17=T55:Male|bratT4=Religious-group|bratT5=Organization|bratT55=Person|bratT56=Person-forename
-12	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT4=Religious-group|bratT5=Organization
+8	последовательницы	_	_	_	_	_	_	_	bratA24=T74:Female|bratT4=Religious-group|bratT74=Person
+9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA24=T74:Female|bratT4=Religious-group|bratT5=Organization|bratT74=Person
+10	Свидетелей	_	_	_	_	_	_	_	bratA24=T74:Female|bratT4=Religious-group|bratT5=Organization|bratT74=Person
+11	Иеговы	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T55:Fiction|bratA17=T55:Male|bratA24=T74:Female|bratT4=Religious-group|bratT5=Organization|bratT55=Person|bratT56=Person-forename|bratT74=Person
+12	''	_	_	_	_	_	_	_	QuotationEnd=»|bratA24=T74:Female|bratT4=Religious-group|bratT5=Organization|bratT74=Person
 
 # newpar id = 0082-p2
 # par_text = Первореченский районный суд Владивостока вернул в прокуратуру дело последовательницы «Свидетелей Иеговы» Елены Бармакиной об участии в отделении экстремистской организации (часть 2 статьи 282.2 УК). Об этом сообщается на сайте «Свидетелей Иеговы в России».
@@ -88,16 +88,16 @@
 17	деятельности	_	_	_	_	_	_	_	SpaceAfter=No
 18	:	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
-20	чтении	_	_	_	_	_	_	_	_
+20	чтении	_	_	_	_	_	_	_	bratT79=Event
 21	и	_	_	_	_	_	_	_	_
-22	обсуждении	_	_	_	_	_	_	_	_
+22	обсуждении	_	_	_	_	_	_	_	bratT78=Event
 23	текстов	_	_	_	_	_	_	_	_
 24	из	_	_	_	_	_	_	_	_
 25	Библии	_	_	_	_	_	_	_	bratT61=Work-of-art
 26	и	_	_	_	_	_	_	_	_
 27	просмотре	_	_	_	_	_	_	_	_
 28	видео	_	_	_	_	_	_	_	_
-29	проповедей	_	_	_	_	_	_	_	SpaceAfter=No
+29	проповедей	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
 30	,	_	_	_	_	_	_	_	_
 31	при	_	_	_	_	_	_	_	_
 32	том	_	_	_	_	_	_	_	_
@@ -133,8 +133,8 @@
 9	Бармакиной	_	_	_	_	_	_	_	bratA5=T18:Female|bratT18=Person|bratT19=Person-surname
 10	три	_	_	_	_	_	_	_	bratT20=Time-period|bratT21=Duration
 11	года	_	_	_	_	_	_	_	bratT20=Time-period|bratT21=Duration
-12	условного	_	_	_	_	_	_	_	_
-13	срока	_	_	_	_	_	_	_	SpaceAfter=No
+12	условного	_	_	_	_	_	_	_	bratT75=Event
+13	срока	_	_	_	_	_	_	_	SpaceAfter=No|bratT75=Event
 14	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0082-p5
@@ -214,8 +214,8 @@
 20	,	_	_	_	_	_	_	_	_
 21	назначив	_	_	_	_	_	_	_	_
 22	ей	_	_	_	_	_	_	_	_
-23	подписку	_	_	_	_	_	_	_	_
-24	о	_	_	_	_	_	_	_	_
-25	невыезде	_	_	_	_	_	_	_	SpaceAfter=No
+23	подписку	_	_	_	_	_	_	_	bratT76=Event
+24	о	_	_	_	_	_	_	_	bratT76=Event
+25	невыезде	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Event
 26	.	_	_	_	_	_	_	_	_
 

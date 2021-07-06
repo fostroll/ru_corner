@@ -3,9 +3,9 @@
 # par_text = Помощника главы Россельхознадзора отправили под домашний арест по делу о совращении 13-летней школьницы
 # sent_id = 0048-p1-s1
 # text = Помощника главы Россельхознадзора отправили под домашний арест по делу о совращении 13-летней школьницы
-1	Помощника	_	_	_	_	_	_	_	bratT1=Person-property
-2	главы	_	_	_	_	_	_	_	bratT1=Person-property
-3	Россельхознадзора	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+1	Помощника	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT72=Person
+2	главы	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT72=Person
+3	Россельхознадзора	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT2=Organization|bratT72=Person
 4	отправили	_	_	_	_	_	_	_	_
 5	под	_	_	_	_	_	_	_	_
 6	домашний	_	_	_	_	_	_	_	bratT47=Event
@@ -18,7 +18,7 @@
 12	13	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
 13	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT3=Age
 14	летней	_	_	_	_	_	_	_	bratT3=Age
-15	школьницы	_	_	_	_	_	_	_	bratT4=Person-property
+15	школьницы	_	_	_	_	_	_	_	bratA23=T73:Female|bratT4=Person-property|bratT73=Person
 
 # newpar id = 0048-p2
 # par_text = Пресненский районный суд Москвы отправил под домашний арест до 25 августа бывшего помощника главы Россельхознадзора Дмитрия Натарова по делу о совращении 13-летней девочки. Об этом сообщает агентство «Москва» со ссылкой на пресс-службу суда.
@@ -35,7 +35,7 @@
 9	до	_	_	_	_	_	_	_	bratA2=T8:Past-Fut|bratT8=Date-period-absolute
 10	25	_	_	_	_	_	_	_	bratA2=T8:Past-Fut|bratT8=Date-period-absolute
 11	августа	_	_	_	_	_	_	_	bratA2=T8:Past-Fut|bratT8=Date-period-absolute
-12	бывшего	_	_	_	_	_	_	_	_
+12	бывшего	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
 13	помощника	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
 14	главы	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
 15	Россельхознадзора	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
@@ -49,7 +49,7 @@
 22	13	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT14=Age
 23	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT14=Age
 24	летней	_	_	_	_	_	_	_	bratT14=Age
-25	девочки	_	_	_	_	_	_	_	SpaceAfter=No
+25	девочки	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T74:Female|bratT74=Person
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0048-p2-s2
@@ -75,8 +75,8 @@
 1	Натарова	_	_	_	_	_	_	_	bratA5=T16:Male|bratT16=Person|bratT17=Person-surname
 2	обвиняют	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	получении	_	_	_	_	_	_	_	_
-5	взятки	_	_	_	_	_	_	_	_
+4	получении	_	_	_	_	_	_	_	bratT80=Event
+5	взятки	_	_	_	_	_	_	_	bratT80=Event
 6	(	_	_	_	_	_	_	_	SpaceAfter=No
 7	статья	_	_	_	_	_	_	_	bratT18=Law
 8	290	_	_	_	_	_	_	_	bratT18=Law|bratT57=Ordinal
@@ -106,10 +106,10 @@
 2	апреле	_	_	_	_	_	_	_	bratA6=T21:Past|bratT21=Date-absolute
 3	секретарь	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT23=Person-property
 4	генсовета	_	_	_	_	_	_	_	bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT25=Organization
 6	Единой	_	_	_	_	_	_	_	bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT25=Organization
 7	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT25=Organization|bratT26=GPE
-8	''	_	_	_	_	_	_	_	bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization
+8	''	_	_	_	_	_	_	_	bratA7=T22:Male|bratA8=T24:Department|bratT22=Person|bratT23=Person-property|bratT24=Organization|bratT25=Organization
 9	Андрей	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT27=Person-forename
 10	Турчак	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT28=Person-surname
 11	попросил	_	_	_	_	_	_	_	_
@@ -122,7 +122,7 @@
 18	из-за	_	_	_	_	_	_	_	_
 19	подозрений	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
-21	совращении	_	_	_	_	_	_	_	_
+21	совращении	_	_	_	_	_	_	_	bratT75=Event
 22	несовершеннолетней	_	_	_	_	_	_	_	SpaceAfter=No|bratT36=Age
 23	.	_	_	_	_	_	_	_	_
 
@@ -132,9 +132,9 @@
 2	тот	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
 3	же	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
 4	день	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
-5	помощника	_	_	_	_	_	_	_	bratT38=Person-property
-6	главы	_	_	_	_	_	_	_	bratT38=Person-property
-7	Россельхознадзора	_	_	_	_	_	_	_	bratT38=Person-property|bratT39=Organization
+5	помощника	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT76=Person
+6	главы	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT76=Person
+7	Россельхознадзора	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT39=Organization|bratT76=Person
 8	уволили	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	должности	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Person-property
@@ -160,13 +160,13 @@
 13	13	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT44=Age
 14	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT44=Age
 15	летнюю	_	_	_	_	_	_	_	bratT44=Age
-16	школьницу	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-property
+16	школьницу	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T77:Female|bratT45=Person-property|bratT77=Person
 17	,	_	_	_	_	_	_	_	_
 18	которая	_	_	_	_	_	_	_	_
 19	была	_	_	_	_	_	_	_	_
 20	дочерью	_	_	_	_	_	_	_	bratT46=Family
-21	его	_	_	_	_	_	_	_	_
-22	друзей	_	_	_	_	_	_	_	SpaceAfter=No
+21	его	_	_	_	_	_	_	_	bratT78=Person
+22	друзей	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Person
 23	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0048-p5-s2
@@ -181,8 +181,8 @@
 8	через	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute
 9	год	_	_	_	_	_	_	_	bratA20=T49:Past|bratT48=Duration|bratT49=Date-absolute
 10	после	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute
-11	подачи	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute
-12	заявления	_	_	_	_	_	_	_	_
+11	подачи	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute|bratT79=Event
+12	заявления	_	_	_	_	_	_	_	bratT79=Event
 13	в	_	_	_	_	_	_	_	_
 14	Следственный	_	_	_	_	_	_	_	bratT50=Organization
 15	комитет	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Organization

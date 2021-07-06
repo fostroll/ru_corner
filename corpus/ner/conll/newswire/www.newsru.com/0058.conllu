@@ -49,7 +49,7 @@
 2	на	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
 4-6	ЦСКА-Арене	_	_	_	_	_	_	_	SpaceAfter=No
-4	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Facility
+4	ЦСКА	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Facility|bratT71=Organization
 5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT10=Facility
 6	Арене	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Facility
 7	''	_	_	_	_	_	_	_	bratT10=Facility
@@ -70,44 +70,44 @@
 22	Олег	_	_	_	_	_	_	_	bratA3=T14:Male|bratT14=Person|bratT49=Person-forename
 23	Ли	_	_	_	_	_	_	_	bratA3=T14:Male|bratT14=Person|bratT50=Person-surname
 24	(	_	_	_	_	_	_	_	SpaceAfter=No
-25	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Ordinal
+25	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Ordinal|bratT74=Date-relative
 26	)	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
 28	Дмитрий	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT51=Person-forename
 29	Саюстов	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT52=Person-surname
 30	(	_	_	_	_	_	_	_	SpaceAfter=No
-31	14	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Ordinal
+31	14	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Ordinal|bratT75=Date-relative
 32	)	_	_	_	_	_	_	_	SpaceAfter=No
 33	,	_	_	_	_	_	_	_	_
 34	Микаэль	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT53=Person-forename
 35	Руохомаа	_	_	_	_	_	_	_	bratA5=T18:Male|bratT18=Person|bratT54=Person-surname
 36	(	_	_	_	_	_	_	_	SpaceAfter=No
-37	23	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Ordinal
+37	23	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Ordinal|bratT76=Date-relative
 38	)	_	_	_	_	_	_	_	SpaceAfter=No
 39	,	_	_	_	_	_	_	_	_
 40	Данил	_	_	_	_	_	_	_	bratA6=T20:Male|bratT20=Person|bratT55=Person-forename
 41	Романцев	_	_	_	_	_	_	_	bratA6=T20:Male|bratT20=Person|bratT56=Person-surname
 42	(	_	_	_	_	_	_	_	SpaceAfter=No
-43	34	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Ordinal
+43	34	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Ordinal|bratT77=Date-relative
 44	)	_	_	_	_	_	_	_	_
 45	и	_	_	_	_	_	_	_	_
 46	Андрей	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT57=Person-forename
 47	Ермаков	_	_	_	_	_	_	_	bratA7=T22:Male|bratT22=Person|bratT58=Person-surname
 48	(	_	_	_	_	_	_	_	SpaceAfter=No
-49	49	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Ordinal
+49	49	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Ordinal|bratT78=Date-relative
 50	)	_	_	_	_	_	_	_	SpaceAfter=No
 51	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p3-s2
 # text = Гол престижа армейцев провел Максим Мамин (11).
-1	Гол	_	_	_	_	_	_	_	_
-2	престижа	_	_	_	_	_	_	_	_
-3	армейцев	_	_	_	_	_	_	_	_
+1	Гол	_	_	_	_	_	_	_	bratT81=Event
+2	престижа	_	_	_	_	_	_	_	bratT81=Event
+3	армейцев	_	_	_	_	_	_	_	bratT72=Organization
 4	провел	_	_	_	_	_	_	_	_
 5	Максим	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT59=Person-forename
 6	Мамин	_	_	_	_	_	_	_	bratA8=T24:Male|bratT24=Person|bratT60=Person-surname
 7	(	_	_	_	_	_	_	_	SpaceAfter=No
-8	11	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Ordinal
+8	11	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Ordinal|bratT79=Date-relative
 9	)	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_
 
@@ -138,7 +138,7 @@
 21	года	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute|bratT62=Duration
 22	после	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute
 23	их	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute
-24	неудачи	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute
+24	неудачи	_	_	_	_	_	_	_	bratA10=T32:Past-Pres|bratT32=Date-period-absolute|bratT73=Event
 25	в	_	_	_	_	_	_	_	_
 26	гостевой	_	_	_	_	_	_	_	bratT36=Event
 27	игре	_	_	_	_	_	_	_	bratT36=Event
@@ -162,7 +162,7 @@
 1	Хотя	_	_	_	_	_	_	_	_
 2	ЦСКА	_	_	_	_	_	_	_	bratT37=Organization
 3	прервал	_	_	_	_	_	_	_	_
-4	серию	_	_	_	_	_	_	_	_
+4	серию	_	_	_	_	_	_	_	bratT82=Event
 5	из	_	_	_	_	_	_	_	_
 6	пяти	_	_	_	_	_	_	_	bratT38=Quantity
 7	побед	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Quantity|bratT70=Event
@@ -186,7 +186,7 @@
 25	баллов	_	_	_	_	_	_	_	bratT40=Quantity
 26	в	_	_	_	_	_	_	_	_
 27	30	_	_	_	_	_	_	_	bratT41=Quantity
-28	играх	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Quantity
+28	играх	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Quantity|bratT80=Event
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0058-p5-s2

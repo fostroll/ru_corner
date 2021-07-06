@@ -29,9 +29,9 @@
 9	пожарной	_	_	_	_	_	_	_	_
 10	машине	_	_	_	_	_	_	_	_
 11	протаранили	_	_	_	_	_	_	_	_
-12	ворота	_	_	_	_	_	_	_	_
-13	здания	_	_	_	_	_	_	_	bratT9=Facility
-14	парламента	_	_	_	_	_	_	_	bratT8=Organization|bratT9=Facility
+12	ворота	_	_	_	_	_	_	_	bratT77=Facility
+13	здания	_	_	_	_	_	_	_	bratT77=Facility|bratT9=Facility
+14	парламента	_	_	_	_	_	_	_	bratT77=Facility|bratT8=Organization|bratT9=Facility
 15	в	_	_	_	_	_	_	_	_
 16	Бишкеке	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
 17	,	_	_	_	_	_	_	_	_
@@ -45,10 +45,10 @@
 25	сообщает	_	_	_	_	_	_	_	_
 26	во	_	_	_	_	_	_	_	bratA15=T10:Present|bratT10=Date-absolute
 27	вторник	_	_	_	_	_	_	_	bratA15=T10:Present|bratT10=Date-absolute
-28	корреспондент	_	_	_	_	_	_	_	bratT12=Person-property
-29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization|bratT12=Person-property
-30	Интерфакса	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization|bratT12=Person-property
-31	''	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization|bratT12=Person-property
+28	корреспондент	_	_	_	_	_	_	_	bratA16=T78:Male|bratT12=Person-property|bratT78=Person
+29	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratA16=T78:Male|bratT11=Organization|bratT12=Person-property|bratT78=Person
+30	Интерфакса	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratA16=T78:Male|bratT11=Organization|bratT12=Person-property|bratT78=Person
+31	''	_	_	_	_	_	_	_	bratA1=T11:Media|bratA16=T78:Male|bratT11=Organization|bratT12=Person-property|bratT78=Person
 32	с	_	_	_	_	_	_	_	_
 33	места	_	_	_	_	_	_	_	_
 34	событий	_	_	_	_	_	_	_	SpaceAfter=No|bratT76=Event
@@ -79,8 +79,8 @@
 20	удалось	_	_	_	_	_	_	_	_
 21	войти	_	_	_	_	_	_	_	_
 22	на	_	_	_	_	_	_	_	_
-23	охраняемый	_	_	_	_	_	_	_	_
-24	объект	_	_	_	_	_	_	_	SpaceAfter=No
+23	охраняемый	_	_	_	_	_	_	_	bratT79=Facility
+24	объект	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Facility
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0080-p3
@@ -100,7 +100,7 @@
 11	незадолго	_	_	_	_	_	_	_	bratA3=T47:Past|bratT47=Date-absolute
 12	до	_	_	_	_	_	_	_	bratA3=T47:Past|bratT47=Date-absolute
 13	прихода	_	_	_	_	_	_	_	bratA3=T47:Past|bratT36=Event|bratT47=Date-absolute
-14	демонстрантов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T47:Past|bratT17=Other-group|bratT36=Event|bratT47=Date-absolute
+14	демонстрантов	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T47:Past|bratT36=Event|bratT47=Date-absolute
 15	,	_	_	_	_	_	_	_	_
 16	из	_	_	_	_	_	_	_	_
 17	здания	_	_	_	_	_	_	_	SpaceAfter=No|bratT70=Facility
@@ -108,7 +108,7 @@
 19	где	_	_	_	_	_	_	_	_
 20	находится	_	_	_	_	_	_	_	_
 21	офис	_	_	_	_	_	_	_	_
-22	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Person-property
+22	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person|bratT18=Person-property
 23	,	_	_	_	_	_	_	_	_
 24	выехала	_	_	_	_	_	_	_	_
 25	колонна	_	_	_	_	_	_	_	_
@@ -169,7 +169,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
 9	президент	_	_	_	_	_	_	_	bratA8=T31:Male|bratT30=Person-property|bratT31=Person
-10	Жээнбеков	_	_	_	_	_	_	_	bratA8=T31:Male|bratT31=Person|bratT60=Ordinal
+10	Жээнбеков	_	_	_	_	_	_	_	bratA8=T31:Male|bratT31=Person|bratT60=Person-surname
 11	находится	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	Бишкеке	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=GPE
@@ -181,8 +181,8 @@
 2	ее	_	_	_	_	_	_	_	_
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	глава	_	_	_	_	_	_	_	bratT33=Person-property
-6	государства	_	_	_	_	_	_	_	bratT33=Person-property|bratT66=GPE
+5	глава	_	_	_	_	_	_	_	bratA17=T80:Male|bratT33=Person-property|bratT80=Person
+6	государства	_	_	_	_	_	_	_	bratA17=T80:Male|bratT33=Person-property|bratT66=GPE|bratT80=Person
 7	на	_	_	_	_	_	_	_	_
 8	рабочем	_	_	_	_	_	_	_	_
 9	месте	_	_	_	_	_	_	_	_
@@ -205,13 +205,13 @@
 
 # sent_id = 0080-p5-s3
 # text = Президент рассчитывает на благоразумие организаторов акции протеста, добавила она.
-1	Президент	_	_	_	_	_	_	_	bratT35=Person-property
+1	Президент	_	_	_	_	_	_	_	bratT35=Person-property|bratT81=Person
 2	рассчитывает	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	благоразумие	_	_	_	_	_	_	_	_
-5	организаторов	_	_	_	_	_	_	_	bratT48=Person-property
-6	акции	_	_	_	_	_	_	_	bratT48=Person-property|bratT75=Event
-7	протеста	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Person-property|bratT75=Event
+5	организаторов	_	_	_	_	_	_	_	bratT48=Person-property|bratT82=Person
+6	акции	_	_	_	_	_	_	_	bratT48=Person-property|bratT75=Event|bratT82=Person
+7	протеста	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Person-property|bratT75=Event|bratT82=Person
 8	,	_	_	_	_	_	_	_	_
 9	добавила	_	_	_	_	_	_	_	_
 10	она	_	_	_	_	_	_	_	SpaceAfter=No
@@ -253,7 +253,7 @@
 
 # sent_id = 0080-p6-s3
 # text = Демонстранты сообщили, что намерены идти к СИЗО спецслужбы, чтобы освободить бывшего главу государства.
-1	Демонстранты	_	_	_	_	_	_	_	bratT44=Other-group
+1	Демонстранты	_	_	_	_	_	_	_	_
 2	сообщили	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -265,8 +265,8 @@
 10	,	_	_	_	_	_	_	_	_
 11	чтобы	_	_	_	_	_	_	_	_
 12	освободить	_	_	_	_	_	_	_	_
-13	бывшего	_	_	_	_	_	_	_	bratT46=Person-property
-14	главу	_	_	_	_	_	_	_	bratT46=Person-property
-15	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Person-property|bratT67=GPE
+13	бывшего	_	_	_	_	_	_	_	bratA18=T44:Male|bratT44=Person|bratT46=Person-property
+14	главу	_	_	_	_	_	_	_	bratA18=T44:Male|bratT44=Person|bratT46=Person-property
+15	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T44:Male|bratT44=Person|bratT46=Person-property|bratT67=GPE
 16	.	_	_	_	_	_	_	_	_
 

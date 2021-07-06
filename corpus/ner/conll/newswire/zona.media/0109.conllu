@@ -31,7 +31,7 @@
 9	на	_	_	_	_	_	_	_	_
 10	свободу	_	_	_	_	_	_	_	_
 11	из	_	_	_	_	_	_	_	_
-12	колонии	_	_	_	_	_	_	_	bratT30=Organization
+12	колонии	_	_	_	_	_	_	_	bratT30=Facility
 13	в	_	_	_	_	_	_	_	_
 14	городе	_	_	_	_	_	_	_	bratT11=GPE
 15	Мценск	_	_	_	_	_	_	_	bratT11=GPE
@@ -98,8 +98,8 @@
 17	насилия	_	_	_	_	_	_	_	bratT7=Event
 18	в	_	_	_	_	_	_	_	_
 19	отношении	_	_	_	_	_	_	_	_
-20	представителя	_	_	_	_	_	_	_	_
-21	власти	_	_	_	_	_	_	_	_
+20	представителя	_	_	_	_	_	_	_	bratT57=Person-property
+21	власти	_	_	_	_	_	_	_	bratT56=Organization|bratT57=Person-property
 22	(	_	_	_	_	_	_	_	SpaceAfter=No
 23	часть	_	_	_	_	_	_	_	bratT28=Law
 24	1	_	_	_	_	_	_	_	bratT28=Law|bratT47=Ordinal
@@ -119,7 +119,7 @@
 6	кассационный	_	_	_	_	_	_	_	bratT50=Organization
 7	суд	_	_	_	_	_	_	_	bratT50=Organization
 8	изменил	_	_	_	_	_	_	_	_
-9	наказание	_	_	_	_	_	_	_	_
+9	наказание	_	_	_	_	_	_	_	bratT42=Event
 10	на	_	_	_	_	_	_	_	_
 11	колонию-поселение	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 13	потянул	_	_	_	_	_	_	_	_
 14	за	_	_	_	_	_	_	_	_
 15	руку	_	_	_	_	_	_	_	_
-16	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-property
+16	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T58:Male|bratT34=Person-property|bratT58=Person
 17	,	_	_	_	_	_	_	_	_
 18	который	_	_	_	_	_	_	_	_
 19	задерживал	_	_	_	_	_	_	_	_
@@ -166,9 +166,9 @@
 12	на	_	_	_	_	_	_	_	_
 13	улице	_	_	_	_	_	_	_	bratT31=Facility
 14	своего	_	_	_	_	_	_	_	_
-15	партнера	_	_	_	_	_	_	_	bratT40=Person-property
-16	по	_	_	_	_	_	_	_	bratT40=Person-property
-17	бизнесу	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property
+15	партнера	_	_	_	_	_	_	_	bratA18=T59:Male|bratT40=Person-property|bratT59=Person
+16	по	_	_	_	_	_	_	_	bratA18=T59:Male|bratT40=Person-property|bratT59=Person
+17	бизнесу	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T59:Male|bratT40=Person-property|bratT59=Person
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0109-p5-s3
@@ -191,13 +191,13 @@
 16	удержал	_	_	_	_	_	_	_	_
 17	руку	_	_	_	_	_	_	_	_
 18	(	_	_	_	_	_	_	_	SpaceAfter=No
-19	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=Person-property
+19	полицейского	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T60:Male|bratT43=Person-property|bratT60=Person
 20	)	_	_	_	_	_	_	_	_
 21	от	_	_	_	_	_	_	_	_
 22	удара	_	_	_	_	_	_	_	_
 23	по	_	_	_	_	_	_	_	_
 24	голове	_	_	_	_	_	_	_	_
-25	парня	_	_	_	_	_	_	_	SpaceAfter=No
+25	парня	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T61:Male|bratT61=Person
 26	''	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
 28	говорил	_	_	_	_	_	_	_	_

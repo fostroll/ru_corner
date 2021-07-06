@@ -40,10 +40,10 @@
 19	раунду	_	_	_	_	_	_	_	_
 20	изменит	_	_	_	_	_	_	_	_
 21	регламент	_	_	_	_	_	_	_	_
-22	беседы	_	_	_	_	_	_	_	SpaceAfter=No
+22	беседы	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Event
 23	,	_	_	_	_	_	_	_	_
 24	чтобы	_	_	_	_	_	_	_	_
-25	обсуждение	_	_	_	_	_	_	_	_
+25	обсуждение	_	_	_	_	_	_	_	bratT77=Event
 26	вопросов	_	_	_	_	_	_	_	_
 27	проходило	_	_	_	_	_	_	_	_
 28	более	_	_	_	_	_	_	_	_
@@ -86,8 +86,8 @@
 # sent_id = 0098-p3-s1
 # text = ``Вчерашняя дискуссия ясно показала, что необходимо добавить дополнительную структуру к формату оставшихся дебатов, чтобы обеспечить более упорядоченное обсуждение вопросов.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Вчерашняя	_	_	_	_	_	_	_	bratA1=T20:Past|bratT20=Date-absolute
-3	дискуссия	_	_	_	_	_	_	_	_
+2	Вчерашняя	_	_	_	_	_	_	_	bratA1=T20:Past|bratT20=Date-absolute|bratT80=Event
+3	дискуссия	_	_	_	_	_	_	_	bratT80=Event
 4	ясно	_	_	_	_	_	_	_	_
 5	показала	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -105,7 +105,7 @@
 18	обеспечить	_	_	_	_	_	_	_	_
 19	более	_	_	_	_	_	_	_	_
 20	упорядоченное	_	_	_	_	_	_	_	_
-21	обсуждение	_	_	_	_	_	_	_	_
+21	обсуждение	_	_	_	_	_	_	_	bratT78=Event
 22	вопросов	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_
 
@@ -191,26 +191,26 @@
 6	предстоят	_	_	_	_	_	_	_	_
 7	еще	_	_	_	_	_	_	_	bratT36=Quantity
 8	два	_	_	_	_	_	_	_	bratT36=Quantity
-9	раунда	_	_	_	_	_	_	_	bratT36=Quantity
-10	дебатов	_	_	_	_	_	_	_	bratT37=Event
+9	раунда	_	_	_	_	_	_	_	bratT36=Quantity|bratT81=Event
+10	дебатов	_	_	_	_	_	_	_	bratT37=Event|bratT81=Event
 11	-	_	_	_	_	_	_	_	_
 12	15	_	_	_	_	_	_	_	bratA13=T38:Future|bratT38=Date-absolute
 13	октября	_	_	_	_	_	_	_	bratA13=T38:Future|bratT38=Date-absolute
 14	в	_	_	_	_	_	_	_	_
 15	Майами	_	_	_	_	_	_	_	bratT39=GPE
-16	(	_	_	_	_	_	_	_	SpaceAfter=No
-17	штат	_	_	_	_	_	_	_	bratT40=GPE
-18	Флорида	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=GPE
-19	)	_	_	_	_	_	_	_	_
+16	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=GPE
+17	штат	_	_	_	_	_	_	_	bratT39=GPE|bratT40=GPE
+18	Флорида	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=GPE|bratT40=GPE
+19	)	_	_	_	_	_	_	_	bratT39=GPE
 20	и	_	_	_	_	_	_	_	_
 21	22	_	_	_	_	_	_	_	bratA14=T41:Future|bratT41=Date-absolute
 22	октября	_	_	_	_	_	_	_	bratA14=T41:Future|bratT41=Date-absolute
 23	в	_	_	_	_	_	_	_	_
 24	Нэшвилле	_	_	_	_	_	_	_	bratT42=GPE
-25	(	_	_	_	_	_	_	_	SpaceAfter=No
-26	штат	_	_	_	_	_	_	_	bratT43=GPE
-27	Теннесси	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=GPE
-28	)	_	_	_	_	_	_	_	SpaceAfter=No
+25	(	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=GPE
+26	штат	_	_	_	_	_	_	_	bratT42=GPE|bratT43=GPE
+27	Теннесси	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=GPE|bratT43=GPE
+28	)	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=GPE
 29	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p5-s2

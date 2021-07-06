@@ -3,8 +3,8 @@
 # par_text = Жителя Калининграда приговорили к 3,5 года колонии за ролики о чеченской войне
 # sent_id = 0038-p1-s1
 # text = Жителя Калининграда приговорили к 3,5 года колонии за ролики о чеченской войне
-1	Жителя	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality
-2	Калининграда	_	_	_	_	_	_	_	bratA1=T1:Resident|bratT1=Nationality|bratT2=GPE
+1	Жителя	_	_	_	_	_	_	_	bratA1=T1:Resident|bratA21=T63:Male|bratT1=Nationality|bratT63=Person
+2	Калининграда	_	_	_	_	_	_	_	bratA1=T1:Resident|bratA21=T63:Male|bratT1=Nationality|bratT2=GPE|bratT63=Person
 3	приговорили	_	_	_	_	_	_	_	_
 4	к	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT3=Date-period-relative
 5	3,5	_	_	_	_	_	_	_	bratA18=T3:Past-UNK|bratT17=Duration|bratT3=Date-period-relative
@@ -46,9 +46,9 @@
 23	режима	_	_	_	_	_	_	_	SpaceAfter=No
 24	,	_	_	_	_	_	_	_	_
 25	сообщила	_	_	_	_	_	_	_	_
-26	``	_	_	_	_	_	_	_	SpaceAfter=No
+26	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T18:Media|bratT18=Organization
 27	Медиазоне	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T18:Media|bratT18=Organization
-28	''	_	_	_	_	_	_	_	_
+28	''	_	_	_	_	_	_	_	bratA5=T18:Media|bratT18=Organization
 29	адвокат	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT20=Person-property
 30	Мария	_	_	_	_	_	_	_	bratA6=T19:Female|bratT19=Person|bratT21=Person-forename
 31	Бонцлер	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T19:Female|bratT19=Person|bratT22=Person-surname
@@ -58,7 +58,7 @@
 # par_text = Подсудимый обвинялся по двум эпизодам части 2 статьи 205.2 УК (публичные призывы к терроризму или его оправдание в интернете).
 # sent_id = 0038-p3-s1
 # text = Подсудимый обвинялся по двум эпизодам части 2 статьи 205.2 УК (публичные призывы к терроризму или его оправдание в интернете).
-1	Подсудимый	_	_	_	_	_	_	_	bratT23=Person-property
+1	Подсудимый	_	_	_	_	_	_	_	bratA22=T64:Male|bratT23=Person-property|bratT64=Person
 2	обвинялся	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	двум	_	_	_	_	_	_	_	bratT25=Quantity
@@ -85,7 +85,7 @@
 # par_text = Защитница уточнила, что дело Халимова рассмотрели по существу за три заседания. При этом подсудимый не признал вину в пропаганде терроризма, но согласился с тем, что публиковал ролики.
 # sent_id = 0038-p4-s1
 # text = Защитница уточнила, что дело Халимова рассмотрели по существу за три заседания.
-1	Защитница	_	_	_	_	_	_	_	bratT26=Person-property
+1	Защитница	_	_	_	_	_	_	_	bratA23=T65:Female|bratT26=Person-property|bratT65=Person
 2	уточнила	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -103,7 +103,7 @@
 # text = При этом подсудимый не признал вину в пропаганде терроризма, но согласился с тем, что публиковал ролики.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	подсудимый	_	_	_	_	_	_	_	bratT30=Person-property
+3	подсудимый	_	_	_	_	_	_	_	bratA24=T66:Male|bratT30=Person-property|bratT66=Person
 4	не	_	_	_	_	_	_	_	_
 5	признал	_	_	_	_	_	_	_	_
 6	вину	_	_	_	_	_	_	_	_
@@ -175,9 +175,9 @@
 11	из-за	_	_	_	_	_	_	_	_
 12	трех	_	_	_	_	_	_	_	bratT40=Quantity
 13	роликов	_	_	_	_	_	_	_	bratA9=T54:Media|bratT40=Quantity|bratT54=Service
-14	``	_	_	_	_	_	_	_	SpaceAfter=No
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Service
 15	ВКонтакте	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Service
-16	''	_	_	_	_	_	_	_	SpaceAfter=No
+16	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Service
 17	,	_	_	_	_	_	_	_	_
 18	посвященных	_	_	_	_	_	_	_	_
 19	первой	_	_	_	_	_	_	_	bratT42=Event|bratT43=Ordinal

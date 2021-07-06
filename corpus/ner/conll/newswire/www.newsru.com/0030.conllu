@@ -7,7 +7,7 @@
 2	делу	_	_	_	_	_	_	_	bratT76=Event
 3	об	_	_	_	_	_	_	_	_
 4	убийстве	_	_	_	_	_	_	_	bratT18=Event
-5	учителя	_	_	_	_	_	_	_	bratT1=Person-property
+5	учителя	_	_	_	_	_	_	_	bratT1=Person-property|bratT93=Person
 6	во	_	_	_	_	_	_	_	_
 7	Франции	_	_	_	_	_	_	_	bratT2=GPE
 8	перед	_	_	_	_	_	_	_	_
@@ -18,13 +18,13 @@
 13	,	_	_	_	_	_	_	_	_
 14	включая	_	_	_	_	_	_	_	_
 15	отца	_	_	_	_	_	_	_	bratA18=T73:Male|bratT4=Family|bratT73=Person
-16	убийцы	_	_	_	_	_	_	_	bratA18=T73:Male|bratT6=Person-property|bratT73=Person
+16	убийцы	_	_	_	_	_	_	_	bratA18=T73:Male|bratT6=Person-property|bratT73=Person|bratT94=Person
 17	и	_	_	_	_	_	_	_	_
-18	подростков	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Age
+18	подростков	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Age|bratT95=Person
 19	,	_	_	_	_	_	_	_	_
 20	указавших	_	_	_	_	_	_	_	_
 21	на	_	_	_	_	_	_	_	_
-22	жертву	_	_	_	_	_	_	_	_
+22	жертву	_	_	_	_	_	_	_	bratT96=Person
 
 # newpar id = 0030-p2
 # par_text = Семь человек предстанут перед судом во Франции в рамках расследования дела об убийстве учителя Самюэля Пати, обезглавленного 18-летним чеченцем Абдулахом Анзоровым. Об этом сообщает ТАСС со ссылкой на AFP.
@@ -52,7 +52,7 @@
 19	18	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age
 20	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT13=Age
 21	летним	_	_	_	_	_	_	_	bratT13=Age
-22	чеченцем	_	_	_	_	_	_	_	bratT14=Nationality
+22	чеченцем	_	_	_	_	_	_	_	bratA5=T15:Male|bratT14=Nationality|bratT15=Person
 23	Абдулахом	_	_	_	_	_	_	_	bratA5=T15:Male|bratT15=Person|bratT59=Person-forename
 24	Анзоровым	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T15:Male|bratT15=Person|bratT60=Person-surname
 25	.	_	_	_	_	_	_	_	_
@@ -96,24 +96,24 @@
 # text = Среди них двое несовершеннолетних, которых подозревают в предоставлении террористу информации о преподавателе, отец радикала, активно критиковавший Пати, исламистский активист Абдельхаким Сефриуи и три товарища нападавшего, сопровождавшие его при покупке оружия.
 1	Среди	_	_	_	_	_	_	_	_
 2	них	_	_	_	_	_	_	_	_
-3	двое	_	_	_	_	_	_	_	bratT22=Quantity
-4	несовершеннолетних	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Age|bratT22=Quantity
+3	двое	_	_	_	_	_	_	_	bratT22=Quantity|bratT97=Person
+4	несовершеннолетних	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Age|bratT22=Quantity|bratT97=Person
 5	,	_	_	_	_	_	_	_	_
 6	которых	_	_	_	_	_	_	_	_
 7	подозревают	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
 9	предоставлении	_	_	_	_	_	_	_	_
-10	террористу	_	_	_	_	_	_	_	bratT23=Person-property
+10	террористу	_	_	_	_	_	_	_	bratA27=T98:Male|bratT23=Person-property|bratT98=Person
 11	информации	_	_	_	_	_	_	_	_
 12	о	_	_	_	_	_	_	_	_
-13	преподавателе	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property
+13	преподавателе	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT99=Person
 14	,	_	_	_	_	_	_	_	_
 15	отец	_	_	_	_	_	_	_	bratA17=T70:Male|bratT25=Family|bratT70=Person
-16	радикала	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T70:Male|bratT26=Political-group|bratT70=Person
+16	радикала	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T70:Male|bratA28=T100:Male|bratT100=Person|bratT26=Political-group|bratT70=Person
 17	,	_	_	_	_	_	_	_	_
 18	активно	_	_	_	_	_	_	_	_
 19	критиковавший	_	_	_	_	_	_	_	_
-20	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T27:Male|bratT27=Person|bratT61=Person-surname
+20	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person|bratT61=Person-surname
 21	,	_	_	_	_	_	_	_	_
 22	исламистский	_	_	_	_	_	_	_	bratA22=T28:Adjective|bratA9=T29:Male|bratT28=Religious-group|bratT29=Person|bratT85=Person-property
 23	активист	_	_	_	_	_	_	_	bratA9=T29:Male|bratT29=Person|bratT85=Person-property
@@ -122,13 +122,13 @@
 26	и	_	_	_	_	_	_	_	_
 27	три	_	_	_	_	_	_	_	bratA19=T74:Male|bratT30=Quantity|bratT74=Person
 28	товарища	_	_	_	_	_	_	_	bratA19=T74:Male|bratT30=Quantity|bratT74=Person
-29	нападавшего	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T74:Male|bratT74=Person
+29	нападавшего	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T74:Male|bratA29=T101:Male|bratT101=Person|bratT74=Person
 30	,	_	_	_	_	_	_	_	_
 31	сопровождавшие	_	_	_	_	_	_	_	_
 32	его	_	_	_	_	_	_	_	_
 33	при	_	_	_	_	_	_	_	_
-34	покупке	_	_	_	_	_	_	_	_
-35	оружия	_	_	_	_	_	_	_	SpaceAfter=No
+34	покупке	_	_	_	_	_	_	_	bratT108=Event
+35	оружия	_	_	_	_	_	_	_	SpaceAfter=No|bratT108=Event
 36	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0030-p4
@@ -169,20 +169,20 @@
 1	Как	_	_	_	_	_	_	_	_
 2	стало	_	_	_	_	_	_	_	_
 3	известно	_	_	_	_	_	_	_	_
-4	журналистам	_	_	_	_	_	_	_	bratT35=Person-property
+4	журналистам	_	_	_	_	_	_	_	bratT102=Person|bratT35=Person-property
 5	издания	_	_	_	_	_	_	_	bratA3=T36:Media|bratT36=Organization
 6	Le	_	_	_	_	_	_	_	bratA3=T36:Media|bratT36=Organization
 7	Monde	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T36:Media|bratT36=Organization
 8	,	_	_	_	_	_	_	_	_
 9	Анзоров	_	_	_	_	_	_	_	bratA12=T37:Male|bratT37=Person|bratT66=Person-surname
 10	подкупил	_	_	_	_	_	_	_	_
-11	учащихся	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Person-property
+11	учащихся	_	_	_	_	_	_	_	SpaceAfter=No|bratT103=Person|bratT38=Person-property
 12	,	_	_	_	_	_	_	_	_
 13	чтобы	_	_	_	_	_	_	_	_
 14	выяснить	_	_	_	_	_	_	_	_
 15	информацию	_	_	_	_	_	_	_	_
 16	о	_	_	_	_	_	_	_	_
-17	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T39:Male|bratT39=Person|bratT67=Person-surname
+17	Пати	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Person|bratT67=Person-surname
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0030-p5-s2
@@ -196,7 +196,7 @@
 7	,	_	_	_	_	_	_	_	_
 8	где	_	_	_	_	_	_	_	_
 9	преподавал	_	_	_	_	_	_	_	_
-10	педагог	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Person-property
+10	педагог	_	_	_	_	_	_	_	SpaceAfter=No|bratA30=T104:Male|bratT104=Person|bratT41=Person-property
 11	,	_	_	_	_	_	_	_	_
 12	и	_	_	_	_	_	_	_	_
 13	стал	_	_	_	_	_	_	_	_
@@ -222,7 +222,7 @@
 5	18	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT54=Age
 6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT54=Age
 7	летнего	_	_	_	_	_	_	_	bratT54=Age
-8	юноши	_	_	_	_	_	_	_	_
+8	юноши	_	_	_	_	_	_	_	bratA7=T105:Male|bratT105=Person|bratT107=Age
 9	оказалась	_	_	_	_	_	_	_	_
 10	такая	_	_	_	_	_	_	_	_
 11	сумма	_	_	_	_	_	_	_	SpaceAfter=No
@@ -235,7 +235,7 @@
 # par_text = Следователи выяснили, что деньги попали к 15-летнему школьнику, который в данный момент находится под стражей. Именно он указал преступнику на выходившего из школы 47-летнего Пати, который показывал ученикам карикатуры с изображением пророка Мухаммеда. При этом, как писала газета, пока ничто не позволяет сказать, что указавший на учителя школьник мог предположить, какой оборот примут события.
 # sent_id = 0030-p6-s1
 # text = Следователи выяснили, что деньги попали к 15-летнему школьнику, который в данный момент находится под стражей.
-1	Следователи	_	_	_	_	_	_	_	bratT44=Person-property
+1	Следователи	_	_	_	_	_	_	_	bratT106=Person|bratT44=Person-property
 2	выяснили	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

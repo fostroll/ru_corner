@@ -4,8 +4,8 @@
 # sent_id = 0122-p1-s1
 # text = Суд в Кемерово арестовал блогеров, которые сняли нарушавшего правила дорожного движения пенсионера МВД
 1	Суд	_	_	_	_	_	_	_	bratT1=Organization
-2	в	_	_	_	_	_	_	_	bratT1=Organization
-3	Кемерово	_	_	_	_	_	_	_	bratT1=Organization|bratT2=GPE
+2	в	_	_	_	_	_	_	_	_
+3	Кемерово	_	_	_	_	_	_	_	bratT2=GPE
 4	арестовал	_	_	_	_	_	_	_	_
 5	блогеров	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT65=Person
 6	,	_	_	_	_	_	_	_	_
@@ -23,9 +23,9 @@
 # sent_id = 0122-p2-s1
 # text = Суд в Кемеровской области арестовал двоих местных блогеров по делу о хулиганстве (часть 2 статьи 213 УК), сообщает региональное управление СК.
 1	Суд	_	_	_	_	_	_	_	bratT6=Organization
-2	в	_	_	_	_	_	_	_	bratT6=Organization
-3	Кемеровской	_	_	_	_	_	_	_	bratT6=Organization|bratT7=GPE
-4	области	_	_	_	_	_	_	_	bratT6=Organization|bratT7=GPE
+2	в	_	_	_	_	_	_	_	_
+3	Кемеровской	_	_	_	_	_	_	_	bratT7=GPE
+4	области	_	_	_	_	_	_	_	bratT7=GPE
 5	арестовал	_	_	_	_	_	_	_	_
 6	двоих	_	_	_	_	_	_	_	bratT67=Person|bratT8=Quantity
 7	местных	_	_	_	_	_	_	_	bratA23=T71:Adjective|bratT67=Person|bratT71=GPE|bratT8=Quantity
@@ -210,7 +210,7 @@
 5	проходит	_	_	_	_	_	_	_	_
 6	по	_	_	_	_	_	_	_	_
 7	делу	_	_	_	_	_	_	_	bratT76=Event
-8	подозреваевым	_	_	_	_	_	_	_	SpaceAfter=No
+8	подозреваевым	_	_	_	_	_	_	_	SpaceAfter=No|bratT85=Person-property
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0122-p6-s3

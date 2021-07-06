@@ -33,7 +33,7 @@
 7	,	_	_	_	_	_	_	_	bratA13=T52:Male|bratT52=Person
 8	подозреваемого	_	_	_	_	_	_	_	bratA13=T52:Male|bratT52=Person|bratT55=Person-property
 9	в	_	_	_	_	_	_	_	_
-10	избиении	_	_	_	_	_	_	_	_
+10	избиении	_	_	_	_	_	_	_	bratT65=Event
 11	(	_	_	_	_	_	_	_	SpaceAfter=No
 12	пункт	_	_	_	_	_	_	_	bratT8=Law
 13	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT56=Ordinal|bratT8=Law
@@ -163,8 +163,8 @@
 14	,	_	_	_	_	_	_	_	_
 15	избили	_	_	_	_	_	_	_	_
 16	других	_	_	_	_	_	_	_	_
-17	посетителей	_	_	_	_	_	_	_	_
-18	кафе	_	_	_	_	_	_	_	bratT49=Facility
+17	посетителей	_	_	_	_	_	_	_	bratT66=Person
+18	кафе	_	_	_	_	_	_	_	bratT49=Facility|bratT66=Person
 19	в	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
 20	ночь	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute
 21	на	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-absolute|bratT35=Time-absolute

@@ -26,8 +26,8 @@
 5	заседании	_	_	_	_	_	_	_	bratT49=Event
 6	приняла	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	I	_	_	_	_	_	_	_	bratT37=Ordinal
-9	чтении	_	_	_	_	_	_	_	_
+8	I	_	_	_	_	_	_	_	bratT37=Ordinal|bratT53=Event
+9	чтении	_	_	_	_	_	_	_	bratT53=Event
 10	проект	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	возможности	_	_	_	_	_	_	_	_
@@ -35,8 +35,8 @@
 14	президента	_	_	_	_	_	_	_	bratT7=Person-property
 15	России	_	_	_	_	_	_	_	bratT7=Person-property|bratT8=GPE
 16	после	_	_	_	_	_	_	_	bratT36=Time-relative
-17	прекращения	_	_	_	_	_	_	_	_
-18	полномочий	_	_	_	_	_	_	_	_
+17	прекращения	_	_	_	_	_	_	_	bratT51=Event
+18	полномочий	_	_	_	_	_	_	_	bratT51=Event
 19	стать	_	_	_	_	_	_	_	_
 20	сенатором	_	_	_	_	_	_	_	bratT9=Person-property
 21	и	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 # text = Согласно предложенным нововведениям, Совфед состоит из сенаторов.
 1	Согласно	_	_	_	_	_	_	_	_
 2	предложенным	_	_	_	_	_	_	_	_
-3	нововведениям	_	_	_	_	_	_	_	SpaceAfter=No
+3	нововведениям	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Event
 4	,	_	_	_	_	_	_	_	_
 5	Совфед	_	_	_	_	_	_	_	bratT19=Organization
 6	состоит	_	_	_	_	_	_	_	_
@@ -228,8 +228,8 @@
 9	месяцев	_	_	_	_	_	_	_	bratT33=Time-period|bratT40=Duration
 10	со	_	_	_	_	_	_	_	bratT44=Time-relative
 11	дня	_	_	_	_	_	_	_	bratT44=Time-relative
-12	прекращения	_	_	_	_	_	_	_	_
-13	полномочий	_	_	_	_	_	_	_	SpaceAfter=No
+12	прекращения	_	_	_	_	_	_	_	bratT52=Event
+13	полномочий	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Event
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0011-p5-s3
@@ -242,7 +242,7 @@
 6	которого	_	_	_	_	_	_	_	_
 7	прекращены	_	_	_	_	_	_	_	_
 8	до	_	_	_	_	_	_	_	bratA2=T38:Past|bratT38=Date-absolute
-9	принятия	_	_	_	_	_	_	_	bratA2=T38:Past|bratT38=Date-absolute
+9	принятия	_	_	_	_	_	_	_	bratA2=T38:Past|bratT38=Date-absolute|bratT54=Event
 10	данного	_	_	_	_	_	_	_	_
 11	закона	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_

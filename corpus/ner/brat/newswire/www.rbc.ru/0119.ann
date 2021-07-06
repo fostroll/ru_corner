@@ -1,8 +1,8 @@
 T1	Person-surname 0 5	Путин
 T2	Person 0 5	Путин
 A1	Male T2
-T3	Person-property 74 87	работодателей
-T5	Person-property 233 246	работодателей
+T3	Organization 74 87	работодателей
+T5	Organization 233 246	работодателей
 T6	Organization 327 340	правительству
 T7	GPE 361 367	России
 T8	Person-property 349 367	президент   России
@@ -17,13 +17,18 @@ T14	Organization 653 660	Госдума
 T15	Date-absolute 642 650	Накануне
 A4	Past T15
 T16	Ordinal 678 684	втором
-T17	Person-property 756 769	работодателей
+T17	Organization 756 769	работодателей
 T18	Person-property 776 787	сотрудников
 T19	Ordinal 882 889	второму
-T20	Person-property 937 949	работодатель
+T20	Organization 937 949	работодатель
 T21	Person-property 999 1025	дистанционным   работником
 T22	Time-period 1103 1131	более   двух   дней   подряд
 T23	Duration 1103 1122	более   двух   дней
-T24	Person-property 1320 1333	работодателей
+T24	Organization 1320 1333	работодателей
 T25	Person-property 1457 1484	дистанционным   сотрудникам
 T4	Event 1223 1246	чрезвычайных   ситуаций
+T26	Person-property 1351 1362	удаленщиков
+T27	Person-property 51 62	удаленщиков
+T28	Event 1187 1207	временную   удаленку
+T29	Event 678 693	втором   чтении
+T30	Event 882 898	второму   чтению

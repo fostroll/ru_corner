@@ -15,7 +15,7 @@
 10	речью	_	_	_	_	_	_	_	_
 11	после	_	_	_	_	_	_	_	bratA3=T31:Past|bratT31=Date-absolute
 12	закрытия	_	_	_	_	_	_	_	bratA3=T31:Past|bratT28=Event|bratT31=Date-absolute
-13	участков	_	_	_	_	_	_	_	bratT28=Event
+13	участков	_	_	_	_	_	_	_	bratA15=T49:Department|bratT28=Event|bratT49=Organization
 
 # newpar id = 0093-p2
 # par_text = Кандидат от республиканцев Дональд Трамп выступил 4 ноября на пресс-конференции с журналистами после закрытия избирательных участков в стране.
@@ -30,13 +30,13 @@
 7	4	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
 8	ноября	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
 9	на	_	_	_	_	_	_	_	_
-10	пресс-конференции	_	_	_	_	_	_	_	_
+10	пресс-конференции	_	_	_	_	_	_	_	bratT51=Event
 11	с	_	_	_	_	_	_	_	_
 12	журналистами	_	_	_	_	_	_	_	bratT6=Person-property
 13	после	_	_	_	_	_	_	_	bratA4=T32:Past|bratT32=Date-absolute
 14	закрытия	_	_	_	_	_	_	_	bratA4=T32:Past|bratT27=Event|bratT32=Date-absolute
-15	избирательных	_	_	_	_	_	_	_	bratT27=Event
-16	участков	_	_	_	_	_	_	_	bratT27=Event
+15	избирательных	_	_	_	_	_	_	_	bratA16=T50:Department|bratT27=Event|bratT50=Organization
+16	участков	_	_	_	_	_	_	_	bratA16=T50:Department|bratT27=Event|bratT50=Organization
 17	в	_	_	_	_	_	_	_	_
 18	стране	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=GPE
 19	.	_	_	_	_	_	_	_	_

@@ -30,7 +30,7 @@
 8	как	_	_	_	_	_	_	_	_
 9	меняется	_	_	_	_	_	_	_	_
 10	поведение	_	_	_	_	_	_	_	_
-11	работодателей	_	_	_	_	_	_	_	bratT51=Person-property
+11	работодателей	_	_	_	_	_	_	_	bratT51=Organization
 12	в	_	_	_	_	_	_	_	bratA4=T48:Past-Fut|bratT48=Date-period-absolute
 13	пандемию	_	_	_	_	_	_	_	bratA4=T48:Past-Fut|bratT45=Event|bratT48=Date-period-absolute
 14	и	_	_	_	_	_	_	_	_
@@ -265,9 +265,9 @@
 3	третьем	_	_	_	_	_	_	_	bratA5=T30:Fut|bratT30=Date-period-absolute|bratT47=Ordinal
 4	квартале	_	_	_	_	_	_	_	bratA5=T30:Fut|bratT30=Date-period-absolute
 5	видим	_	_	_	_	_	_	_	_
-6	увеличение	_	_	_	_	_	_	_	_
-7	размещенных	_	_	_	_	_	_	_	_
-8	вакансий	_	_	_	_	_	_	_	_
+6	увеличение	_	_	_	_	_	_	_	bratT52=Event
+7	размещенных	_	_	_	_	_	_	_	bratT52=Event
+8	вакансий	_	_	_	_	_	_	_	bratT52=Event
 
 # sent_id = 0035-p15-s2
 # text = Спрос на рынке труда постепенно восстанавливается.

@@ -104,8 +104,8 @@
 # par_text = Российский лидер также подчеркнул, что членство в Организации Договора о коллективной безопасности не предписывают России принимать прямое участие в конфликте, поскольку на армянские территории «никто не покушался».
 # sent_id = 0100-p5-s1
 # text = Российский лидер также подчеркнул, что членство в Организации Договора о коллективной безопасности не предписывают России принимать прямое участие в конфликте, поскольку на армянские территории ``никто не покушался''.
-1	Российский	_	_	_	_	_	_	_	bratA9=T36:Adjective|bratT29=Person-property|bratT36=GPE
-2	лидер	_	_	_	_	_	_	_	bratT29=Person-property
+1	Российский	_	_	_	_	_	_	_	bratA12=T44:Male|bratA9=T36:Adjective|bratT29=Person-property|bratT36=GPE|bratT44=Person
+2	лидер	_	_	_	_	_	_	_	bratA12=T44:Male|bratT29=Person-property|bratT44=Person
 3	также	_	_	_	_	_	_	_	_
 4	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
@@ -171,18 +171,18 @@
 # sent_id = 0100-p7-s1
 # text = Ранее главы России, Армении и Азербайджана приняли совместное заявление о прекращении огня в Нагорном Карабахе с 10 ноября.
 1	Ранее	_	_	_	_	_	_	_	bratA4=T12:Past|bratT12=Date-relative
-2	главы	_	_	_	_	_	_	_	bratA2=T20:Plural|bratT20=Person-property
-3	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T20:Plural|bratT17=GPE|bratT20=Person-property
-4	,	_	_	_	_	_	_	_	bratA2=T20:Plural|bratT20=Person-property
-5	Армении	_	_	_	_	_	_	_	bratA2=T20:Plural|bratT18=GPE|bratT20=Person-property
-6	и	_	_	_	_	_	_	_	bratA2=T20:Plural|bratT20=Person-property
-7	Азербайджана	_	_	_	_	_	_	_	bratA2=T20:Plural|bratT19=GPE|bratT20=Person-property
+2	главы	_	_	_	_	_	_	_	bratA13=T45:Plural|bratA2=T20:Plural|bratT20=Person-property|bratT45=Person
+3	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T45:Plural|bratA2=T20:Plural|bratT17=GPE|bratT20=Person-property|bratT45=Person
+4	,	_	_	_	_	_	_	_	bratA13=T45:Plural|bratA2=T20:Plural|bratT20=Person-property|bratT45=Person
+5	Армении	_	_	_	_	_	_	_	bratA13=T45:Plural|bratA2=T20:Plural|bratT18=GPE|bratT20=Person-property|bratT45=Person
+6	и	_	_	_	_	_	_	_	bratA13=T45:Plural|bratA2=T20:Plural|bratT20=Person-property|bratT45=Person
+7	Азербайджана	_	_	_	_	_	_	_	bratA13=T45:Plural|bratA2=T20:Plural|bratT19=GPE|bratT20=Person-property|bratT45=Person
 8	приняли	_	_	_	_	_	_	_	_
 9	совместное	_	_	_	_	_	_	_	_
 10	заявление	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
-12	прекращении	_	_	_	_	_	_	_	_
-13	огня	_	_	_	_	_	_	_	_
+12	прекращении	_	_	_	_	_	_	_	bratT43=Event
+13	огня	_	_	_	_	_	_	_	bratT43=Event
 14	в	_	_	_	_	_	_	_	_
 15	Нагорном	_	_	_	_	_	_	_	bratT21=GPE
 16	Карабахе	_	_	_	_	_	_	_	bratT21=GPE

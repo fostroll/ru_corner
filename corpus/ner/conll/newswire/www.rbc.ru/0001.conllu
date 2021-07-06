@@ -35,12 +35,12 @@
 13	оглы	_	_	_	_	_	_	_	bratA3=T8:Male|bratT46=Person-patronym|bratT8=Person
 14	о	_	_	_	_	_	_	_	_
 15	крушении	_	_	_	_	_	_	_	bratT47=Event
-16	российского	_	_	_	_	_	_	_	bratA6=T50:Adjective|bratT50=GPE|bratT9=Product
-17	вертолета	_	_	_	_	_	_	_	bratT9=Product
+16	российского	_	_	_	_	_	_	_	bratA6=T50:Adjective|bratT47=Event|bratT50=GPE|bratT9=Product
+17	вертолета	_	_	_	_	_	_	_	bratT47=Event|bratT9=Product
 18-20	Ми-24	_	_	_	_	_	_	_	SpaceAfter=No
-18	Ми	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Product
-19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Product
-20	24	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Cardinal|bratT9=Product
+18	Ми	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event|bratT9=Product
+19	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event|bratT9=Product
+20	24	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event|bratT72=Cardinal|bratT9=Product
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p3
@@ -113,7 +113,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	комментируя	_	_	_	_	_	_	_	_
 5	крушение	_	_	_	_	_	_	_	bratT62=Event
-6	вертолета	_	_	_	_	_	_	_	_
+6	вертолета	_	_	_	_	_	_	_	bratT62=Event
 7	в	_	_	_	_	_	_	_	_
 8	интервью	_	_	_	_	_	_	_	bratT85=Event
 9	РБК	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T15:Media|bratT15=Organization
@@ -163,7 +163,7 @@
 4	что	_	_	_	_	_	_	_	_
 5	Москва	_	_	_	_	_	_	_	bratT17=GPE
 6	ждет	_	_	_	_	_	_	_	_
-7	выполнения	_	_	_	_	_	_	_	_
+7	выполнения	_	_	_	_	_	_	_	bratT87=Event
 8	обещания	_	_	_	_	_	_	_	_
 9	президента	_	_	_	_	_	_	_	bratA5=T20:Male|bratT19=Person-property|bratT20=Person
 10	Азербайджана	_	_	_	_	_	_	_	bratA5=T20:Male|bratT18=GPE|bratT19=Person-property|bratT20=Person
@@ -173,7 +173,7 @@
 14	расследовании	_	_	_	_	_	_	_	bratT69=Event
 15	произошедшего	_	_	_	_	_	_	_	bratT69=Event|bratT82=Event
 16	и	_	_	_	_	_	_	_	_
-17	наказании	_	_	_	_	_	_	_	_
+17	наказании	_	_	_	_	_	_	_	bratT86=Event
 18	виновных	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
 20	крушении	_	_	_	_	_	_	_	SpaceAfter=No|bratT83=Event

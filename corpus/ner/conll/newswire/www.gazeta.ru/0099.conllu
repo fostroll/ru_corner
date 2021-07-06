@@ -90,7 +90,7 @@
 15	сумел	_	_	_	_	_	_	_	_
 16	отыграть	_	_	_	_	_	_	_	_
 17	один	_	_	_	_	_	_	_	bratT48=Quantity
-18	мяч	_	_	_	_	_	_	_	bratT48=Quantity
+18	мяч	_	_	_	_	_	_	_	bratT48=Quantity|bratT93=Event
 19	петербургской	_	_	_	_	_	_	_	bratA19=T73:Adjective|bratT73=GPE|bratT82=Organization
 20	команды	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Organization
 21	.	_	_	_	_	_	_	_	_
@@ -104,10 +104,10 @@
 3	минуте	_	_	_	_	_	_	_	bratA5=T49:Past|bratT49=Date-relative|bratT76=Duration
 4	Иммобиле	_	_	_	_	_	_	_	bratA11=T13:Male|bratT13=Person|bratT65=Person-surname
 5	оформил	_	_	_	_	_	_	_	_
-6	дубль	_	_	_	_	_	_	_	SpaceAfter=No
+6	дубль	_	_	_	_	_	_	_	SpaceAfter=No|bratT91=Event
 7	,	_	_	_	_	_	_	_	_
 8	реализовав	_	_	_	_	_	_	_	_
-9	пенальти	_	_	_	_	_	_	_	SpaceAfter=No
+9	пенальти	_	_	_	_	_	_	_	SpaceAfter=No|bratT90=Event
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0099-p6
@@ -219,33 +219,33 @@
 
 # sent_id = 0099-p9-s4
 # text = Голы: 1:0 - Иммобиле, 3; 2:0 - Пароло, 22; 2:1 - Дзюба, 25; 3:1 - Иммобиле (пенальти), 55.
-1	Голы	_	_	_	_	_	_	_	SpaceAfter=No
+1	Голы	_	_	_	_	_	_	_	SpaceAfter=No|bratT92=Event
 2	:	_	_	_	_	_	_	_	_
 3	1:0	_	_	_	_	_	_	_	bratT33=Quantity
 4	-	_	_	_	_	_	_	_	_
 5	Иммобиле	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T34:Male|bratT34=Person|bratT66=Person-surname
 6	,	_	_	_	_	_	_	_	_
-7	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Ordinal
+7	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Ordinal|bratT86=Date-relative
 8	;	_	_	_	_	_	_	_	_
 9	2:0	_	_	_	_	_	_	_	bratT35=Quantity
 10	-	_	_	_	_	_	_	_	_
 11	Пароло	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T36:Male|bratT36=Person|bratT67=Person-surname
 12	,	_	_	_	_	_	_	_	_
-13	22	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Ordinal
+13	22	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Ordinal|bratT87=Date-relative
 14	;	_	_	_	_	_	_	_	_
 15	2:1	_	_	_	_	_	_	_	bratT37=Quantity
 16	-	_	_	_	_	_	_	_	_
 17	Дзюба	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T38:Male|bratT38=Person|bratT68=Person-surname
 18	,	_	_	_	_	_	_	_	_
-19	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Ordinal
+19	25	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Ordinal|bratT88=Date-relative
 20	;	_	_	_	_	_	_	_	_
 21	3:1	_	_	_	_	_	_	_	bratT42=Quantity
 22	-	_	_	_	_	_	_	_	_
 23	Иммобиле	_	_	_	_	_	_	_	bratA15=T43:Male|bratT43=Person|bratT69=Person-surname
 24	(	_	_	_	_	_	_	_	SpaceAfter=No
-25	пенальти	_	_	_	_	_	_	_	SpaceAfter=No
+25	пенальти	_	_	_	_	_	_	_	SpaceAfter=No|bratT85=Event
 26	)	_	_	_	_	_	_	_	SpaceAfter=No
 27	,	_	_	_	_	_	_	_	_
-28	55	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Ordinal
+28	55	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Ordinal|bratT89=Date-relative
 29	.	_	_	_	_	_	_	_	_
 

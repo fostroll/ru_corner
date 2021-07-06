@@ -17,7 +17,7 @@ T13	Person-surname 246 255	Гретченко
 T14	Law 289 321	часть   2   статьи   20.2   КоАП
 T16	Person 344 391	бывшего   губернатора   края   Сергея   Фургала
 A4	Male T16
-T17	Person-property 354 372	губернатора   края
+T17	Person-property 344 372	бывшего   губернатора   края
 T18	Person-forename 375 381	Сергея
 T19	Person-surname 384 391	Фургала
 T20	Organization 419 439	``   ОВД - Инфо   ''
@@ -85,7 +85,7 @@ A20	Adjective T64
 T65	GPE 127 149	Центральный   районный
 T66	GPE 368 372	края
 T67	Facility 1128 1135	площади
-T68	Facility 1243 1274	``   центральная   площадь   ''
+T68	Facility 1248 1269	центральная   площадь
 T69	Facility 1171 1178	площади
 T70	Organization 1761 1768	полиции
 A21	Department T50
@@ -99,3 +99,12 @@ T75	Event 759 769	задержании
 T76	Event 1008 1018	задержания
 T77	Event 1430 1440	задержания
 T78	Event 1649 1659	задержания
+T79	Service 462 484	правозащитный   проект
+A24	Media T79
+T80	Service 1596 1618	Правозащитный   проект
+A25	Media T80
+T81	Person 1361 1372	координатор
+A26	Male T81
+T82	Person 1531 1544	хабаровчанину
+A27	Male T82
+T83	Person 1488 1500	двое   людей

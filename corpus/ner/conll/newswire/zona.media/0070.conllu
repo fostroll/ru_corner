@@ -45,7 +45,7 @@
 23	)	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
 25	поддержку	_	_	_	_	_	_	_	_
-26	бывшего	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person
+26	бывшего	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT17=Person-property
 27	губернатора	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT17=Person-property
 28	края	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT17=Person-property|bratT66=GPE
 29	Сергея	_	_	_	_	_	_	_	bratA4=T16:Male|bratT16=Person|bratT18=Person-forename
@@ -71,8 +71,8 @@
 # text = Как отмечает правозащитный проект, у Гретченко вторая степень инвалидности.
 1	Как	_	_	_	_	_	_	_	_
 2	отмечает	_	_	_	_	_	_	_	_
-3	правозащитный	_	_	_	_	_	_	_	_
-4	проект	_	_	_	_	_	_	_	SpaceAfter=No
+3	правозащитный	_	_	_	_	_	_	_	bratA24=T79:Media|bratT79=Service
+4	проект	_	_	_	_	_	_	_	SpaceAfter=No|bratA24=T79:Media|bratT79=Service
 5	,	_	_	_	_	_	_	_	_
 6	у	_	_	_	_	_	_	_	_
 7	Гретченко	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT22=Person-surname
@@ -196,10 +196,10 @@
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
 7	слова	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Facility
+8	``	_	_	_	_	_	_	_	SpaceAfter=No
 9	центральная	_	_	_	_	_	_	_	bratT68=Facility
 10	площадь	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Facility
-11	''	_	_	_	_	_	_	_	bratT68=Facility
+11	''	_	_	_	_	_	_	_	_
 12	были	_	_	_	_	_	_	_	_
 13	трактованы	_	_	_	_	_	_	_	_
 14	полицией	_	_	_	_	_	_	_	bratT56=Organization
@@ -211,7 +211,7 @@
 20	,	_	_	_	_	_	_	_	_
 21	-	_	_	_	_	_	_	_	_
 22	добавил	_	_	_	_	_	_	_	_
-23	координатор	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Person-property
+23	координатор	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T81:Male|bratT40=Person-property|bratT81=Person
 24	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0070-p7
@@ -234,12 +234,12 @@
 2	видно	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	как	_	_	_	_	_	_	_	_
-5	двое	_	_	_	_	_	_	_	bratT44=Quantity
-6	людей	_	_	_	_	_	_	_	bratT44=Quantity
+5	двое	_	_	_	_	_	_	_	bratT44=Quantity|bratT83=Person
+6	людей	_	_	_	_	_	_	_	bratT44=Quantity|bratT83=Person
 7	в	_	_	_	_	_	_	_	_
 8	штатском	_	_	_	_	_	_	_	_
 9	зачитывают	_	_	_	_	_	_	_	_
-10	хабаровчанину	_	_	_	_	_	_	_	bratA13=T45:Resident|bratT45=Nationality
+10	хабаровчанину	_	_	_	_	_	_	_	bratA13=T45:Resident|bratA27=T82:Male|bratT45=Nationality|bratT82=Person
 11	протокол	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	а	_	_	_	_	_	_	_	_
@@ -250,8 +250,8 @@
 
 # sent_id = 0070-p7-s3
 # text = Правозащитный проект отмечал, что после задержания Гретченко несколько часов не выходил на связь, затем его нашли в отделе полиции №4.
-1	Правозащитный	_	_	_	_	_	_	_	_
-2	проект	_	_	_	_	_	_	_	_
+1	Правозащитный	_	_	_	_	_	_	_	bratA25=T80:Media|bratT80=Service
+2	проект	_	_	_	_	_	_	_	bratA25=T80:Media|bratT80=Service
 3	отмечал	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

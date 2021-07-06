@@ -7,9 +7,9 @@ A1	Adjective T6
 T7	GPE 162 168	Москвы
 T8	Date-period-absolute 207 224	до   25   августа
 A2	Past-Fut T8
-T9	Person 237 295	помощника   главы   Россельхознадзора   Дмитрия   Натарова
+T9	Person 227 295	бывшего   помощника   главы   Россельхознадзора   Дмитрия   Натарова
 A3	Male T9
-T10	Person-property 237 274	помощника   главы   Россельхознадзора
+T10	Person-property 227 274	бывшего   помощника   главы   Россельхознадзора
 T11	Organization 257 274	Россельхознадзора
 T12	Person-forename 277 284	Дмитрия
 T13	Person-surname 287 295	Натарова
@@ -29,7 +29,7 @@ A7	Male T22
 T23	Person-property 676 725	секретарь   генсовета   ``   Единой   России   ''
 T24	Organization 688 725	генсовета   ``   Единой   России   ''
 A8	Department T24
-T25	Organization 705 720	Единой   России
+T25	Organization 700 725	``   Единой   России   ''
 T26	GPE 714 720	России
 T27	Person-forename 728 734	Андрей
 T28	Person-surname 737 743	Турчак
@@ -90,3 +90,17 @@ T70	Organization 1162 1172	телеканала
 A15	Media T70
 T56	Person-property 965 974	должности
 T71	Event 1358 1371	расследование
+T72	Person 0 37	Помощника   главы   Россельхознадзора
+A18	Male T72
+T73	Person 120 129	школьницы
+A23	Female T73
+T74	Person 341 348	девочки
+A24	Female T74
+T75	Event 853 863	совращении
+T76	Person 911 948	помощника   главы   Россельхознадзора
+A25	Male T76
+T77	Person 1088 1097	школьницу
+A26	Female T77
+T78	Person 1131 1143	его   друзей
+T79	Event 1229 1247	подачи   заявления
+T80	Event 478 496	получении   взятки

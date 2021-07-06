@@ -3,13 +3,13 @@
 # par_text = Бывшего главного тренера сборной России по футболу госпитализировали
 # sent_id = 0114-p1-s1
 # text = Бывшего главного тренера сборной России по футболу госпитализировали
-1	Бывшего	_	_	_	_	_	_	_	bratT1=Person-property
-2	главного	_	_	_	_	_	_	_	bratT1=Person-property
-3	тренера	_	_	_	_	_	_	_	bratT1=Person-property
-4	сборной	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
-5	России	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization|bratT3=GPE
-6	по	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
-7	футболу	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+1	Бывшего	_	_	_	_	_	_	_	bratA38=T113:Male|bratT1=Person-property|bratT113=Person
+2	главного	_	_	_	_	_	_	_	bratA38=T113:Male|bratT1=Person-property|bratT113=Person
+3	тренера	_	_	_	_	_	_	_	bratA38=T113:Male|bratT1=Person-property|bratT113=Person
+4	сборной	_	_	_	_	_	_	_	bratA38=T113:Male|bratT1=Person-property|bratT113=Person|bratT2=Organization
+5	России	_	_	_	_	_	_	_	bratA38=T113:Male|bratT1=Person-property|bratT113=Person|bratT2=Organization|bratT3=GPE
+6	по	_	_	_	_	_	_	_	bratA38=T113:Male|bratT1=Person-property|bratT113=Person|bratT2=Organization
+7	футболу	_	_	_	_	_	_	_	bratA38=T113:Male|bratT1=Person-property|bratT113=Person|bratT2=Organization
 8	госпитализировали	_	_	_	_	_	_	_	_
 
 # newpar id = 0114-p2
@@ -26,7 +26,7 @@
 8	и	_	_	_	_	_	_	_	bratA4=T4:Male|bratT10=Person-property|bratT4=Person
 9	московского	_	_	_	_	_	_	_	bratA4=T4:Male|bratA5=T67:Adjective|bratT10=Person-property|bratT4=Person|bratT6=Organization|bratT67=GPE
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T4:Male|bratT10=Person-property|bratT4=Person|bratT6=Organization
-11	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T4:Male|bratT10=Person-property|bratT4=Person|bratT6=Organization
+11	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA37=T111:Male|bratA4=T4:Male|bratT10=Person-property|bratT111=Person|bratT112=Person-alias|bratT4=Person|bratT6=Organization
 12	''	_	_	_	_	_	_	_	bratA4=T4:Male|bratT10=Person-property|bratT4=Person|bratT6=Organization
 13	Георгия	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT65=Person-forename
 14	Ярцева	_	_	_	_	_	_	_	bratA4=T4:Male|bratT4=Person|bratT66=Person-surname
@@ -133,7 +133,7 @@
 12	составе	_	_	_	_	_	_	_	_
 13	московского	_	_	_	_	_	_	_	bratA14=T79:Adjective|bratT24=Organization|bratT79=GPE
 14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
-15	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
+15	Спартака	_	_	_	_	_	_	_	SpaceAfter=No|bratA39=T114:Male|bratT114=Person|bratT115=Person-alias|bratT24=Organization
 16	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Organization
 17	.	_	_	_	_	_	_	_	_
 
@@ -145,7 +145,7 @@
 4	за	_	_	_	_	_	_	_	_
 5	костромской	_	_	_	_	_	_	_	bratA15=T80:Adjective|bratT25=Organization|bratT80=GPE
 6	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
-7	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
+7	Спартак	_	_	_	_	_	_	_	SpaceAfter=No|bratA40=T116:Male|bratT116=Person|bratT117=Person-alias|bratT25=Organization
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Organization
 9	,	_	_	_	_	_	_	_	_
 10	смоленскую	_	_	_	_	_	_	_	bratA16=T81:Adjective|bratT26=Organization|bratT81=GPE
@@ -193,7 +193,7 @@
 10	России	_	_	_	_	_	_	_	bratT36=Event|bratT37=GPE
 11	со	_	_	_	_	_	_	_	_
 12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
-13	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
+13	Спартаком	_	_	_	_	_	_	_	SpaceAfter=No|bratA41=T118:Male|bratT118=Person|bratT119=Person-alias|bratT38=Organization
 14	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Organization
 15	.	_	_	_	_	_	_	_	_
 

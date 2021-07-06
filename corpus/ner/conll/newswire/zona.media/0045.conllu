@@ -3,9 +3,9 @@
 # par_text = Создатели детского центра в Чечне после критики Кадырова заменили рисунки с персонажами Marvel на участников Кавказской войны
 # sent_id = 0045-p1-s1
 # text = Создатели детского центра в Чечне после критики Кадырова заменили рисунки с персонажами Marvel на участников Кавказской войны
-1	Создатели	_	_	_	_	_	_	_	bratT8=Person-property
-2	детского	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Facility
-3	центра	_	_	_	_	_	_	_	bratT8=Person-property|bratT9=Facility
+1	Создатели	_	_	_	_	_	_	_	bratT8=Person-property|bratT88=Person
+2	детского	_	_	_	_	_	_	_	bratT8=Person-property|bratT88=Person|bratT9=Facility
+3	центра	_	_	_	_	_	_	_	bratT8=Person-property|bratT88=Person|bratT9=Facility
 4	в	_	_	_	_	_	_	_	_
 5	Чечне	_	_	_	_	_	_	_	bratT1=GPE
 6	после	_	_	_	_	_	_	_	bratA29=T59:Past|bratT59=Date-absolute
@@ -17,9 +17,9 @@
 12	персонажами	_	_	_	_	_	_	_	bratA31=T78:Fiction|bratT78=Person
 13	Marvel	_	_	_	_	_	_	_	bratA3=T6:Media|bratA31=T78:Fiction|bratT6=Organization|bratT78=Person
 14	на	_	_	_	_	_	_	_	_
-15	участников	_	_	_	_	_	_	_	bratT7=Person-property
-16	Кавказской	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratT4=Event|bratT5=Location|bratT7=Person-property
-17	войны	_	_	_	_	_	_	_	bratT4=Event|bratT7=Person-property
+15	участников	_	_	_	_	_	_	_	bratT7=Person-property|bratT89=Person
+16	Кавказской	_	_	_	_	_	_	_	bratA2=T5:Adjective|bratT4=Event|bratT5=Location|bratT7=Person-property|bratT89=Person
+17	войны	_	_	_	_	_	_	_	bratT4=Event|bratT7=Person-property|bratT89=Person
 
 # newpar id = 0045-p2
 # par_text = В чеченском городе Курчалое создатели детского игрового центра в новом высотном комплексе заменили нарисованных на стенах героев Marvel после критики со стороны главы республики Рамзана Кадырова. Об этом сообщает «Грозный Информ».
@@ -29,10 +29,10 @@
 2	чеченском	_	_	_	_	_	_	_	bratA4=T10:Adjective|bratT10=GPE|bratT11=GPE
 3	городе	_	_	_	_	_	_	_	bratT11=GPE
 4	Курчалое	_	_	_	_	_	_	_	bratT11=GPE
-5	создатели	_	_	_	_	_	_	_	bratT13=Person-property
-6	детского	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property
-7	игрового	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property
-8	центра	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property
+5	создатели	_	_	_	_	_	_	_	bratT13=Person-property|bratT90=Person
+6	детского	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property|bratT90=Person
+7	игрового	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property|bratT90=Person
+8	центра	_	_	_	_	_	_	_	bratT12=Facility|bratT13=Person-property|bratT90=Person
 9	в	_	_	_	_	_	_	_	_
 10	новом	_	_	_	_	_	_	_	bratT83=Facility
 11	высотном	_	_	_	_	_	_	_	bratT83=Facility
@@ -68,13 +68,13 @@
 # par_text = Капитана Америку, Тора и Железного человека заменили на рисунки отца Кадырова, первого президента Чечни Ахмата-Хаджи Кадырова, и лидеров народно-освободительного движения горцев и участников Кавказской войны — шейха Мансура, Бейбулата Таймиева и Байсангура Беноевского.
 # sent_id = 0045-p3-s1
 # text = Капитана Америку, Тора и Железного человека заменили на рисунки отца Кадырова, первого президента Чечни Ахмата-Хаджи Кадырова, и лидеров народно-освободительного движения горцев и участников Кавказской войны - шейха Мансура, Бейбулата Таймиева и Байсангура Беноевского.
-1	Капитана	_	_	_	_	_	_	_	bratA8=T20:Fiction|bratT20=Person|bratT23=Person-alias
-2	Америку	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T20:Fiction|bratT20=Person|bratT23=Person-alias
+1	Капитана	_	_	_	_	_	_	_	bratA39=T20:Male|bratA8=T20:Fiction|bratT20=Person|bratT23=Person-alias
+2	Америку	_	_	_	_	_	_	_	SpaceAfter=No|bratA39=T20:Male|bratA8=T20:Fiction|bratT20=Person|bratT23=Person-alias
 3	,	_	_	_	_	_	_	_	_
-4	Тора	_	_	_	_	_	_	_	bratA9=T21:Fiction|bratT21=Person|bratT71=Person-alias
+4	Тора	_	_	_	_	_	_	_	bratA40=T21:Male|bratA9=T21:Fiction|bratT21=Person|bratT71=Person-alias
 5	и	_	_	_	_	_	_	_	_
-6	Железного	_	_	_	_	_	_	_	bratA10=T22:Fiction|bratT22=Person|bratT72=Person-alias
-7	человека	_	_	_	_	_	_	_	bratA10=T22:Fiction|bratT22=Person|bratT72=Person-alias
+6	Железного	_	_	_	_	_	_	_	bratA10=T22:Fiction|bratA41=T22:Male|bratT22=Person|bratT72=Person-alias
+7	человека	_	_	_	_	_	_	_	bratA10=T22:Fiction|bratA41=T22:Male|bratT22=Person|bratT72=Person-alias
 8	заменили	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
 10	рисунки	_	_	_	_	_	_	_	_
@@ -88,23 +88,23 @@
 18	Кадырова	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T25:Male|bratT25=Person|bratT33=Person-surname
 19	,	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
-21	лидеров	_	_	_	_	_	_	_	bratT34=Person-property
-22	народно-освободительного	_	_	_	_	_	_	_	bratT34=Person-property|bratT86=Organization
-23	движения	_	_	_	_	_	_	_	bratT34=Person-property|bratT86=Organization
-24	горцев	_	_	_	_	_	_	_	bratT34=Person-property|bratT86=Organization|bratT87=Nationality
-25	и	_	_	_	_	_	_	_	_
-26	участников	_	_	_	_	_	_	_	bratT35=Person-property
-27	Кавказской	_	_	_	_	_	_	_	bratA15=T37:Adjective|bratT35=Person-property|bratT36=Event|bratT37=Location
-28	войны	_	_	_	_	_	_	_	bratT35=Person-property|bratT36=Event
-29	-	_	_	_	_	_	_	_	_
-30	шейха	_	_	_	_	_	_	_	bratA16=T38:Male|bratT38=Person|bratT73=Person-affix
-31	Мансура	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T38:Male|bratT38=Person|bratT39=Person-forename
-32	,	_	_	_	_	_	_	_	_
-33	Бейбулата	_	_	_	_	_	_	_	bratA17=T40:Male|bratT40=Person|bratT41=Person-forename
-34	Таймиева	_	_	_	_	_	_	_	bratA17=T40:Male|bratT40=Person|bratT42=Person-surname
-35	и	_	_	_	_	_	_	_	_
-36	Байсангура	_	_	_	_	_	_	_	bratA18=T43:Male|bratT43=Person|bratT44=Person-forename
-37	Беноевского	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T43:Male|bratT43=Person|bratT45=Person-surname
+21	лидеров	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT34=Person-property|bratT91=Person
+22	народно-освободительного	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT34=Person-property|bratT86=Organization|bratT91=Person
+23	движения	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT34=Person-property|bratT86=Organization|bratT91=Person
+24	горцев	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT34=Person-property|bratT86=Organization|bratT87=Nationality|bratT91=Person
+25	и	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT91=Person
+26	участников	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT35=Person-property|bratT91=Person
+27	Кавказской	_	_	_	_	_	_	_	bratA15=T37:Adjective|bratA35=T91:Plural|bratA36=T91:Male|bratT35=Person-property|bratT36=Event|bratT37=Location|bratT91=Person
+28	войны	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT35=Person-property|bratT36=Event|bratT91=Person
+29	-	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT91=Person
+30	шейха	_	_	_	_	_	_	_	bratA16=T38:Male|bratA35=T91:Plural|bratA36=T91:Male|bratT38=Person|bratT73=Person-affix|bratT91=Person
+31	Мансура	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T38:Male|bratA35=T91:Plural|bratA36=T91:Male|bratT38=Person|bratT39=Person-forename|bratT91=Person
+32	,	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT91=Person
+33	Бейбулата	_	_	_	_	_	_	_	bratA17=T40:Male|bratA35=T91:Plural|bratA36=T91:Male|bratT40=Person|bratT41=Person-forename|bratT91=Person
+34	Таймиева	_	_	_	_	_	_	_	bratA17=T40:Male|bratA35=T91:Plural|bratA36=T91:Male|bratT40=Person|bratT42=Person-surname|bratT91=Person
+35	и	_	_	_	_	_	_	_	bratA35=T91:Plural|bratA36=T91:Male|bratT91=Person
+36	Байсангура	_	_	_	_	_	_	_	bratA18=T43:Male|bratA35=T91:Plural|bratA36=T91:Male|bratT43=Person|bratT44=Person-forename|bratT91=Person
+37	Беноевского	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T43:Male|bratA35=T91:Plural|bratA36=T91:Male|bratT43=Person|bratT45=Person-surname|bratT91=Person
 38	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0045-p4
@@ -117,7 +117,7 @@
 4	изображения	_	_	_	_	_	_	_	_
 5	этих	_	_	_	_	_	_	_	_
 6	выдуманных	_	_	_	_	_	_	_	_
-7	персонажей	_	_	_	_	_	_	_	SpaceAfter=No
+7	персонажей	_	_	_	_	_	_	_	SpaceAfter=No|bratA37=T92:Fiction|bratT92=Person
 8	,	_	_	_	_	_	_	_	_
 9	это	_	_	_	_	_	_	_	_
 10	фантазии	_	_	_	_	_	_	_	SpaceAfter=No
@@ -129,8 +129,8 @@
 16	во	_	_	_	_	_	_	_	bratA33=T80:Past|bratT80=Date-absolute
 17	время	_	_	_	_	_	_	_	bratA33=T80:Past|bratT80=Date-absolute
 18	инспекции	_	_	_	_	_	_	_	bratA33=T80:Past|bratT80=Date-absolute
-19	жилого	_	_	_	_	_	_	_	_
-20	комплекса	_	_	_	_	_	_	_	_
+19	жилого	_	_	_	_	_	_	_	bratT93=Facility
+20	комплекса	_	_	_	_	_	_	_	bratT93=Facility
 21	16	_	_	_	_	_	_	_	bratA20=T49:Past|bratT49=Date-absolute
 22	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T49:Past|bratT49=Date-absolute
 23	.	_	_	_	_	_	_	_	_
@@ -142,7 +142,7 @@
 2	фотографии	_	_	_	_	_	_	_	_
 3	наших	_	_	_	_	_	_	_	_
 4	настоящих	_	_	_	_	_	_	_	_
-5	героев	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Other-group
+5	героев	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Other-group|bratT94=Person
 6	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_
 
@@ -159,8 +159,8 @@
 7	красивые	_	_	_	_	_	_	_	_
 8	изображения	_	_	_	_	_	_	_	_
 9	наших	_	_	_	_	_	_	_	_
-10	чеченских	_	_	_	_	_	_	_	bratA21=T52:Adjective|bratT51=Person|bratT52=GPE
-11	героев	_	_	_	_	_	_	_	bratT51=Person
+10	чеченских	_	_	_	_	_	_	_	bratA21=T52:Adjective|bratT51=Person|bratT52=GPE|bratT95=Other-group
+11	героев	_	_	_	_	_	_	_	bratT51=Person|bratT95=Other-group
 
 # sent_id = 0045-p5-s2
 # text = Если взять мою семью, то маленькие не знают наших героев.
@@ -186,9 +186,9 @@
 5	кто	_	_	_	_	_	_	_	_
 6	такой	_	_	_	_	_	_	_	_
 7-9	Человек-паук	_	_	_	_	_	_	_	_
-7	Человек	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA12=T55:Fiction|bratT55=Person|bratT74=Person-alias
-8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA12=T55:Fiction|bratT55=Person|bratT74=Person-alias
-9	паук	_	_	_	_	_	_	_	bratA12=T55:Fiction|bratT55=Person|bratT74=Person-alias
+7	Человек	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA12=T55:Fiction|bratA38=T55:Male|bratT55=Person|bratT74=Person-alias
+8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA12=T55:Fiction|bratA38=T55:Male|bratT55=Person|bratT74=Person-alias
+9	паук	_	_	_	_	_	_	_	bratA12=T55:Fiction|bratA38=T55:Male|bratT55=Person|bratT74=Person-alias
 10	и	_	_	_	_	_	_	_	_
 11	другие	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
@@ -211,32 +211,32 @@
 14	ноября	_	_	_	_	_	_	_	bratA27=T58:Past|bratT58=Date-absolute
 15	после	_	_	_	_	_	_	_	bratA27=T58:Past|bratT58=Date-absolute
 16	замены	_	_	_	_	_	_	_	bratA27=T58:Past|bratT58=Date-absolute|bratT77=Event
-17	рисунков	_	_	_	_	_	_	_	SpaceAfter=No|bratT77=Event
+17	рисунков	_	_	_	_	_	_	_	SpaceAfter=No
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0045-p6
 # par_text = Владелец компании «Лайфленд», оборудовавшей игровую комнату, Руслан Садыков после критики Кадырова говорил, что замена героев Marvel на портреты Кадыровых «будет неуместна», поскольку «это все-таки не офис и не госучреждение».
 # sent_id = 0045-p6-s1
 # text = Владелец компании «Лайфленд», оборудовавшей игровую комнату, Руслан Садыков после критики Кадырова говорил, что замена героев Marvel на портреты Кадыровых «будет неуместна», поскольку «это все-таки не офис и не госучреждение».
-1	Владелец	_	_	_	_	_	_	_	bratT61=Person-property
-2	компании	_	_	_	_	_	_	_	bratT61=Person-property|bratT62=Organization
-3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT61=Person-property|bratT62=Organization
-4	Лайфленд	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Person-property|bratT62=Organization
-5	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT61=Person-property|bratT62=Organization
+1	Владелец	_	_	_	_	_	_	_	bratA42=T96:Male|bratT61=Person-property|bratT96=Person
+2	компании	_	_	_	_	_	_	_	bratA42=T96:Male|bratT61=Person-property|bratT62=Organization|bratT96=Person
+3	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA42=T96:Male|bratT61=Person-property|bratT62=Organization|bratT96=Person
+4	Лайфленд	_	_	_	_	_	_	_	SpaceAfter=No|bratA42=T96:Male|bratT61=Person-property|bratT62=Organization|bratT96=Person
+5	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA42=T96:Male|bratT61=Person-property|bratT62=Organization|bratT96=Person
 6	,	_	_	_	_	_	_	_	_
 7	оборудовавшей	_	_	_	_	_	_	_	_
-8	игровую	_	_	_	_	_	_	_	_
-9	комнату	_	_	_	_	_	_	_	SpaceAfter=No
+8	игровую	_	_	_	_	_	_	_	bratT97=Facility
+9	комнату	_	_	_	_	_	_	_	SpaceAfter=No|bratT97=Facility
 10	,	_	_	_	_	_	_	_	_
 11	Руслан	_	_	_	_	_	_	_	bratA23=T60:Male|bratT60=Person|bratT63=Person-forename
 12	Садыков	_	_	_	_	_	_	_	bratA23=T60:Male|bratT60=Person|bratT64=Person-surname
 13	после	_	_	_	_	_	_	_	bratA28=T65:Past|bratT65=Date-absolute
-14	критики	_	_	_	_	_	_	_	bratA28=T65:Past|bratT65=Date-absolute
+14	критики	_	_	_	_	_	_	_	bratA28=T65:Past|bratT65=Date-absolute|bratT98=Event
 15	Кадырова	_	_	_	_	_	_	_	bratA24=T66:Male|bratT66=Person|bratT67=Person-surname
 16	говорил	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
 18	что	_	_	_	_	_	_	_	_
-19	замена	_	_	_	_	_	_	_	_
+19	замена	_	_	_	_	_	_	_	bratT99=Event
 20	героев	_	_	_	_	_	_	_	bratA25=T68:Fiction|bratT68=Person
 21	Marvel	_	_	_	_	_	_	_	bratA25=T68:Fiction|bratA32=T79:Media|bratT68=Person|bratT79=Organization
 22	на	_	_	_	_	_	_	_	_

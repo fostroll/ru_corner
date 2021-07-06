@@ -48,9 +48,9 @@
 21	как	_	_	_	_	_	_	_	_
 22	минимум	_	_	_	_	_	_	_	_
 23	до	_	_	_	_	_	_	_	bratA6=T6:LCont|bratA7=T6:Pres-Fut|bratT6=Date-period-absolute
-24	конца	_	_	_	_	_	_	_	bratA6=T6:LCont|bratA7=T6:Pres-Fut|bratT6=Date-period-absolute
-25	рассмотрения	_	_	_	_	_	_	_	bratA6=T6:LCont|bratA7=T6:Pres-Fut|bratT52=Event|bratT6=Date-period-absolute
-26	иска	_	_	_	_	_	_	_	bratA6=T6:LCont|bratA7=T6:Pres-Fut|bratT52=Event|bratT6=Date-period-absolute
+24	конца	_	_	_	_	_	_	_	bratA6=T6:LCont|bratA7=T6:Pres-Fut|bratT41=Event|bratT6=Date-period-absolute
+25	рассмотрения	_	_	_	_	_	_	_	bratA6=T6:LCont|bratA7=T6:Pres-Fut|bratT41=Event|bratT52=Event|bratT6=Date-period-absolute
+26	иска	_	_	_	_	_	_	_	bratA6=T6:LCont|bratA7=T6:Pres-Fut|bratT41=Event|bratT52=Event|bratT6=Date-period-absolute
 27	разработавшей	_	_	_	_	_	_	_	_
 28	игру	_	_	_	_	_	_	_	_
 29	студии	_	_	_	_	_	_	_	bratT10=Organization
@@ -106,9 +106,9 @@
 19	Epic	_	_	_	_	_	_	_	bratT17=Organization
 20	Games	_	_	_	_	_	_	_	bratT17=Organization
 21	о	_	_	_	_	_	_	_	_
-22	предварительном	_	_	_	_	_	_	_	_
-23	судебном	_	_	_	_	_	_	_	_
-24	запрете	_	_	_	_	_	_	_	SpaceAfter=No
+22	предварительном	_	_	_	_	_	_	_	bratT62=Event
+23	судебном	_	_	_	_	_	_	_	bratT62=Event
+24	запрете	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Event
 25	''	_	_	_	_	_	_	_	SpaceAfter=No
 26	,	_	_	_	_	_	_	_	_
 27	-	_	_	_	_	_	_	_	_
@@ -176,7 +176,7 @@
 23	функции	_	_	_	_	_	_	_	SpaceAfter=No
 24	,	_	_	_	_	_	_	_	_
 25	позволяющей	_	_	_	_	_	_	_	_
-26	игрокам	_	_	_	_	_	_	_	bratT41=Other-group
+26	игрокам	_	_	_	_	_	_	_	_
 27	совершать	_	_	_	_	_	_	_	_
 28	внутренние	_	_	_	_	_	_	_	_
 29	платежи	_	_	_	_	_	_	_	_
@@ -254,7 +254,7 @@
 12	заморозить	_	_	_	_	_	_	_	_
 13	решение	_	_	_	_	_	_	_	_
 14	об	_	_	_	_	_	_	_	_
-15	удалении	_	_	_	_	_	_	_	_
+15	удалении	_	_	_	_	_	_	_	bratT63=Event
 16	аккаунтов	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	bratA12=T42:Past-UNK|bratT42=Date-period-absolute
 18	время	_	_	_	_	_	_	_	bratA12=T42:Past-UNK|bratT42=Date-period-absolute

@@ -51,7 +51,6 @@ T26	Service 1109 1117	соцсетям
 A9	Media T26
 T28	GPE 353 360	местная
 A12	Adjective T28
-A13	Department T9
 T39	Organization 393 419	судов   общей   юрисдикции
 T41	Organization 885 893	больницу
 T42	Organization 0 3	Суд
@@ -62,7 +61,25 @@ T48	Organization 1310 1319	ведомство
 T49	Organization 1145 1172	деструктивными   движениями
 T50	Person-property 278 292	подозреваемому
 T51	Event 299 307	убийстве
-T52	Event 59 68	получения
-T53	Event 200 209	получения
+T52	Event 59 77	получения   оружия
+T53	Event 200 222	получения   разрешения
 T54	Event 573 585	преступления
 T55	Person 533 537	Врач
+T56	Person 18 24	медика
+A14	Male T56
+T57	Person 80 104	нижегородскому   стрелку
+A15	Male T57
+T58	Person 154 165	специалиста
+A16	Male T58
+T59	Person 448 459	специалиста
+A13	Male T59
+T60	Person 822 829	бабушки
+A17	Female T60
+T61	Person 756 791	жителей   деревни   Большеорловское
+T62	Person 918 935	бабушка   стрелка
+A18	Female T62
+T63	Person 928 935	стрелка
+A19	Male T63
+T64	Person 948 957	подростка
+T65	Person 1076 1085	подросток
+A20	Male T65

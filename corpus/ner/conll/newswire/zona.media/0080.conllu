@@ -3,16 +3,16 @@
 # par_text = Подмосковного вице-премьера, занимавшего место Евгении Васильевой в Минобороны, арестовали по делу о поставках леса в Китай
 # sent_id = 0080-p1-s1
 # text = Подмосковного вице-премьера, занимавшего место Евгении Васильевой в Минобороны, арестовали по делу о поставках леса в Китай
-1	Подмосковного	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratT1=Person-property|bratT2=GPE
+1	Подмосковного	_	_	_	_	_	_	_	bratA1=T2:Adjective|bratA9=T65:Male|bratT1=Person-property|bratT2=GPE|bratT65=Person
 2-4	вице-премьера	_	_	_	_	_	_	_	SpaceAfter=No
-2	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT1=Person-property
-3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT1=Person-property
-4	премьера	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property
+2	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA9=T65:Male|bratT1=Person-property|bratT65=Person
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA9=T65:Male|bratT1=Person-property|bratT65=Person
+4	премьера	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T65:Male|bratT1=Person-property|bratT65=Person
 5	,	_	_	_	_	_	_	_	_
 6	занимавшего	_	_	_	_	_	_	_	_
-7	место	_	_	_	_	_	_	_	_
-8	Евгении	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT4=Person-forename
-9	Васильевой	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT5=Person-surname
+7	место	_	_	_	_	_	_	_	bratT67=Person-property
+8	Евгении	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT4=Person-forename|bratT67=Person-property
+9	Васильевой	_	_	_	_	_	_	_	bratA2=T3:Female|bratT3=Person|bratT5=Person-surname|bratT67=Person-property
 10	в	_	_	_	_	_	_	_	_
 11	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Organization
 12	,	_	_	_	_	_	_	_	_
@@ -20,8 +20,8 @@
 14	по	_	_	_	_	_	_	_	_
 15	делу	_	_	_	_	_	_	_	bratT38=Event
 16	о	_	_	_	_	_	_	_	_
-17	поставках	_	_	_	_	_	_	_	_
-18	леса	_	_	_	_	_	_	_	_
+17	поставках	_	_	_	_	_	_	_	bratT75=Event
+18	леса	_	_	_	_	_	_	_	bratT75=Event
 19	в	_	_	_	_	_	_	_	_
 20	Китай	_	_	_	_	_	_	_	bratT7=GPE
 
@@ -34,13 +34,13 @@
 3	суд	_	_	_	_	_	_	_	bratT8=Organization
 4	Москвы	_	_	_	_	_	_	_	bratT10=GPE|bratT8=Organization
 5	арестовал	_	_	_	_	_	_	_	_
-6	министра	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT13=Person-property
-7	экологии	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT13=Person-property
-8	и	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person
-9	заместителя	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property
-10	председателя	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property
-11	правительства	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property|bratT15=Organization
-12	Подмосковья	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT14=Person-property|bratT15=Organization|bratT16=GPE
+6	министра	_	_	_	_	_	_	_	bratA19=T68:Plural|bratA4=T11:Male|bratT11=Person|bratT13=Person-property|bratT68=Person-property
+7	экологии	_	_	_	_	_	_	_	bratA19=T68:Plural|bratA4=T11:Male|bratT11=Person|bratT13=Person-property|bratT68=Person-property
+8	и	_	_	_	_	_	_	_	bratA19=T68:Plural|bratA4=T11:Male|bratT11=Person|bratT68=Person-property
+9	заместителя	_	_	_	_	_	_	_	bratA19=T68:Plural|bratA4=T11:Male|bratT11=Person|bratT14=Person-property|bratT68=Person-property
+10	председателя	_	_	_	_	_	_	_	bratA19=T68:Plural|bratA4=T11:Male|bratT11=Person|bratT14=Person-property|bratT68=Person-property
+11	правительства	_	_	_	_	_	_	_	bratA19=T68:Plural|bratA4=T11:Male|bratT11=Person|bratT15=Organization|bratT68=Person-property
+12	Подмосковья	_	_	_	_	_	_	_	bratA19=T68:Plural|bratA4=T11:Male|bratT11=Person|bratT15=Organization|bratT16=GPE|bratT68=Person-property
 13	Дмитрия	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT17=Person-forename
 14	Куракина	_	_	_	_	_	_	_	bratA4=T11:Male|bratT11=Person|bratT18=Person-surname
 15	по	_	_	_	_	_	_	_	_
@@ -146,7 +146,7 @@
 17	хищения	_	_	_	_	_	_	_	_
 18	при	_	_	_	_	_	_	_	_
 19	продаже	_	_	_	_	_	_	_	bratT63=Event
-20	имущества	_	_	_	_	_	_	_	_
+20	имущества	_	_	_	_	_	_	_	bratT63=Event
 21	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT52=Organization
 22	Оборонсервиса	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization
 23	''	_	_	_	_	_	_	_	QuotationEnd=»SpaceAfter=No|SpaceAfter=No|bratT52=Organization
@@ -161,7 +161,7 @@
 5	года	_	_	_	_	_	_	_	_
 6	она	_	_	_	_	_	_	_	_
 7	отбывала	_	_	_	_	_	_	_	_
-8	наказание	_	_	_	_	_	_	_	_
+8	наказание	_	_	_	_	_	_	_	bratT69=Event
 9	в	_	_	_	_	_	_	_	_
 10	колонии	_	_	_	_	_	_	_	bratT32=Facility
 11	во	_	_	_	_	_	_	_	_
@@ -175,7 +175,7 @@
 19	освободил	_	_	_	_	_	_	_	_
 20	ее	_	_	_	_	_	_	_	_
 21	по	_	_	_	_	_	_	_	_
-22	УДО	_	_	_	_	_	_	_	SpaceAfter=No
+22	УДО	_	_	_	_	_	_	_	SpaceAfter=No|bratT73=Event
 23	.	_	_	_	_	_	_	_	SpaceAfter=No
 
 # newpar id = 0080-p5

@@ -3,13 +3,13 @@
 # par_text = Основателя сети ресторанов «Тарас Бульба», освобожденного из колонии по болезни, объявили в розыск
 # sent_id = 0100-p1-s1
 # text = Основателя сети ресторанов «Тарас Бульба», освобожденного из колонии по болезни, объявили в розыск
-1	Основателя	_	_	_	_	_	_	_	bratT7=Person-property
-2	сети	_	_	_	_	_	_	_	bratT1=Organization|bratT7=Person-property
-3	ресторанов	_	_	_	_	_	_	_	bratT1=Organization|bratT7=Person-property
-4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT1=Organization|bratT7=Person-property
-5	Тарас	_	_	_	_	_	_	_	bratA7=T29:Fiction|bratA8=T29:Male|bratT1=Organization|bratT29=Person|bratT30=Person-forename|bratT7=Person-property
-6	Бульба	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T29:Fiction|bratA8=T29:Male|bratT1=Organization|bratT29=Person|bratT31=Person-surname|bratT7=Person-property
-7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT1=Organization|bratT7=Person-property
+1	Основателя	_	_	_	_	_	_	_	bratA15=T55:Male|bratT55=Person|bratT7=Person-property
+2	сети	_	_	_	_	_	_	_	bratA15=T55:Male|bratT1=Organization|bratT55=Person|bratT7=Person-property
+3	ресторанов	_	_	_	_	_	_	_	bratA15=T55:Male|bratT1=Organization|bratT55=Person|bratT7=Person-property
+4	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratA15=T55:Male|bratT1=Organization|bratT55=Person|bratT7=Person-property
+5	Тарас	_	_	_	_	_	_	_	bratA15=T55:Male|bratA7=T29:Fiction|bratA8=T29:Male|bratT1=Organization|bratT29=Person|bratT30=Person-forename|bratT55=Person|bratT7=Person-property
+6	Бульба	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T55:Male|bratA7=T29:Fiction|bratA8=T29:Male|bratT1=Organization|bratT29=Person|bratT31=Person-surname|bratT55=Person|bratT7=Person-property
+7	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratA15=T55:Male|bratT1=Organization|bratT55=Person|bratT7=Person-property
 8	,	_	_	_	_	_	_	_	_
 9	освобожденного	_	_	_	_	_	_	_	_
 10	из	_	_	_	_	_	_	_	_
@@ -88,8 +88,8 @@
 4	и	_	_	_	_	_	_	_	_
 5	согласился	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
-7	особый	_	_	_	_	_	_	_	_
-8	порядок	_	_	_	_	_	_	_	_
+7	особый	_	_	_	_	_	_	_	bratT56=Event
+8	порядок	_	_	_	_	_	_	_	bratT56=Event
 9	(	_	_	_	_	_	_	_	SpaceAfter=No
 10	в	_	_	_	_	_	_	_	_
 11	таком	_	_	_	_	_	_	_	_
@@ -157,7 +157,7 @@
 1	Ведомство	_	_	_	_	_	_	_	bratT48=Organization
 2	пригрозило	_	_	_	_	_	_	_	_
 3	объявить	_	_	_	_	_	_	_	_
-4	бизнесмена	_	_	_	_	_	_	_	bratT19=Person-property
+4	бизнесмена	_	_	_	_	_	_	_	bratA16=T57:Male|bratT19=Person-property|bratT57=Person
 5	в	_	_	_	_	_	_	_	_
 6	международный	_	_	_	_	_	_	_	bratT47=Event
 7	розыск	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event

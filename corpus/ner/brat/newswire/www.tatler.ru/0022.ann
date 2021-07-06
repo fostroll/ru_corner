@@ -2,7 +2,7 @@ T1	Person-forename 0 5	Меган
 T2	Person-surname 8 13	Маркл
 T3	Person 0 13	Меган   Маркл
 A1	Female T3
-T4	Other-group 37 52	одноклассниками
+T4	Person-property 37 52	одноклассниками
 T5	Person-property 98 109	выпускников
 T6	Event 88 95	встречу
 T7	Date-absolute 111 118	5   мая
@@ -19,12 +19,12 @@ A4	Past T14
 T15	Event 244 251	встреча
 T16	Person-property 311 320	Герцогиня
 T17	Ordinal 461 467	первых
-T18	Other-group 394 407	Одноклассницы
+T18	Person-property 394 407	Одноклассницы
 T19	Person-forename 618 623	Меган
 T20	Person 618 623	Меган
 A5	Female T20
 T21	Person-property 687 696	Герцогиня
-T22	Other-group 869 883	одноклассницам
+T22	Person-property 869 883	одноклассницам
 T23	Person-property 890 904	преподавателям
 T24	Organization 938 972	Immaculate   Heart   High   School
 T25	Person-property 920 972	бывших   учениц   Immaculate   Heart   High   School
@@ -68,3 +68,4 @@ A15	Media T52
 T53	Event 1363 1382	юбилеем   окончания
 T54	Event 272 306	20 - летию   выпуска   1999   года
 T55	Event 762 769	событие
+T56	GPE 814 820	родину

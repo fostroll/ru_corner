@@ -33,11 +33,11 @@ T29	Family 1291 1295	отца
 T31	Date-period-relative 1507 1531	в   течение   20   минут
 T32	Organization 1676 1679	КДК
 A4	Department T32
-T33	Organization 1704 1733	агентству   ``   Р-Спорт   ''
+T33	Organization 1704 1735	агентству   ``   Р - Спорт   ''
 A5	Media T33
-T34	Person 1736 1768	глава   КДК   Артур   Григорьянц
-T35	Person-property 1736 1747	глава   КДК
-T36	Organization 1744 1747	КДК
+T34	Person 1738 1770	глава   КДК   Артур   Григорьянц
+T35	Person-property 1738 1749	глава   КДК
+T36	Organization 1746 1749	КДК
 A6	Department T36
 T37	Quantity 1432 1438	дважды
 T38	Person-property 542 548	рефери
@@ -83,8 +83,8 @@ T65	Person-surname 1308 1316	Алханова
 T66	Duration 1521 1531	20   минут
 A19	Past T31
 A20	Male T34
-T67	Person-forename 1750 1755	Артур
-T68	Person-surname 1758 1768	Григорьянц
+T67	Person-forename 1752 1757	Артур
+T68	Person-surname 1760 1770	Григорьянц
 T30	Person-property 1352 1357	судью
 A21	Past T46
 A22	Past T45
@@ -111,3 +111,20 @@ T82	Event 187 196	заседании
 T83	Event 934 943	заседании
 T84	Event 1664 1673	заседании
 T85	Age 307 317	молодежных
+T86	Person 57 86	советник   Рамзана   Кадырова
+A29	Male T86
+T87	Person 542 548	рефери
+T88	Person 624 635	его   семье
+T89	Person 709 753	бывший   вице - президент   ``   Ахмата   ''
+A30	Male T89
+T90	Event 826 830	игре
+T91	Person-property 1219 1244	официальных   лиц   матча
+T92	Person 356 363	Спартак
+A31	Male T92
+T93	Person-alias 356 363	Спартак
+T94	Person 334 339	Ахмат
+A32	Male T94
+T95	Person-forename 334 339	Ахмат
+T96	Person 742 748	Ахмата
+A33	Male T96
+T97	Person-forename 742 748	Ахмата

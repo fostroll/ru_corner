@@ -108,8 +108,8 @@
 13	,	_	_	_	_	_	_	_	_
 14	-	_	_	_	_	_	_	_	_
 15	говорит	_	_	_	_	_	_	_	_
-16	ведущая	_	_	_	_	_	_	_	bratT9=Person-property
-17	трансляции	_	_	_	_	_	_	_	SpaceAfter=No
+16	ведущая	_	_	_	_	_	_	_	bratA17=T8:Female|bratT8=Person|bratT9=Person-property
+17	трансляции	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T8:Female|bratT17=Event|bratT8=Person
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0106-p4
@@ -156,12 +156,12 @@
 # text = Как пишет правозащитный проект ``Апология протеста'', на некоторых участников шествия составили протоколы по части 6.1 статьи 20.2 КоАП (участие в митинге, повлекшем создание помех в движении транспорта или пешеходов).
 1	Как	_	_	_	_	_	_	_	_
 2	пишет	_	_	_	_	_	_	_	_
-3	правозащитный	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Organization
-4	проект	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Organization
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
-6	Апология	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Organization
-7	протеста	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
-8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Organization
+3	правозащитный	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Service
+4	проект	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Service
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Service
+6	Апология	_	_	_	_	_	_	_	bratA2=T16:Media|bratT16=Service
+7	протеста	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Service
+8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T16:Media|bratT16=Service
 9	,	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
 11	некоторых	_	_	_	_	_	_	_	_
@@ -214,7 +214,7 @@
 17	не	_	_	_	_	_	_	_	_
 18	участвует	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
-20	марше	_	_	_	_	_	_	_	_
+20	марше	_	_	_	_	_	_	_	bratT30=Event
 21	воспользоваться	_	_	_	_	_	_	_	_
 22	транспортом	_	_	_	_	_	_	_	SpaceAfter=No
 23	,	_	_	_	_	_	_	_	_
@@ -286,7 +286,7 @@
 24	,	_	_	_	_	_	_	_	_
 25	требуя	_	_	_	_	_	_	_	_
 26	провести	_	_	_	_	_	_	_	_
-27	проверку	_	_	_	_	_	_	_	_
+27	проверку	_	_	_	_	_	_	_	bratT5=Event
 28	по	_	_	_	_	_	_	_	_
 29	факту	_	_	_	_	_	_	_	_
 30	смерти	_	_	_	_	_	_	_	bratT57=Event

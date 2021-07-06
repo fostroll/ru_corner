@@ -3,8 +3,8 @@
 # par_text = Белорусский журналист годами снабжал СМИ выдуманными комментариями "экспертов" и сомнительными инсайдами
 # sent_id = 0067-p1-s1
 # text = Белорусский журналист годами снабжал СМИ выдуманными комментариями ``экспертов'' и сомнительными инсайдами
-1	Белорусский	_	_	_	_	_	_	_	bratA6=T36:Adjective|bratT1=Person-property|bratT36=GPE
-2	журналист	_	_	_	_	_	_	_	bratT1=Person-property
+1	Белорусский	_	_	_	_	_	_	_	bratA36=T82:Male|bratA6=T36:Adjective|bratT1=Person-property|bratT36=GPE|bratT82=Person
+2	журналист	_	_	_	_	_	_	_	bratA36=T82:Male|bratT1=Person-property|bratT82=Person
 3	годами	_	_	_	_	_	_	_	bratA7=T34:Past|bratT34=Date-period-relative|bratT67=Duration
 4	снабжал	_	_	_	_	_	_	_	_
 5	СМИ	_	_	_	_	_	_	_	bratA34=T76:Media|bratT76=Organization
@@ -47,8 +47,8 @@
 23	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Past|bratT35=Date-relative
 24	,	_	_	_	_	_	_	_	bratA10=T35:Past|bratT35=Date-relative
 25	как	_	_	_	_	_	_	_	bratA10=T35:Past|bratT35=Date-relative
-26	белорусские	_	_	_	_	_	_	_	bratA11=T40:Adjective|bratT40=GPE
-27	медиа	_	_	_	_	_	_	_	_
+26	белорусские	_	_	_	_	_	_	_	bratA11=T40:Adjective|bratT40=GPE|bratT83=Organization
+27	медиа	_	_	_	_	_	_	_	bratT83=Organization
 28	обвинили	_	_	_	_	_	_	_	_
 29	его	_	_	_	_	_	_	_	_
 30	в	_	_	_	_	_	_	_	_
