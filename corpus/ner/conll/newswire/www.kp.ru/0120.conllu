@@ -56,7 +56,7 @@
 # text = При этом градоначальник обратил внимание на то, что на ситуацию все еще влияет ряд сторонних факторов, таких как сезонный рост заболеваемости ОРВИ и гриппом.
 1	При	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
-3	градоначальник	_	_	_	_	_	_	_	bratT8=Person-property
+3	градоначальник	_	_	_	_	_	_	_	bratA9=T39:Male|bratT39=Person|bratT8=Person-property
 4	обратил	_	_	_	_	_	_	_	_
 5	внимание	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
@@ -77,9 +77,9 @@
 21	сезонный	_	_	_	_	_	_	_	bratA8=T31:Plural|bratT31=Event
 22	рост	_	_	_	_	_	_	_	bratA8=T31:Plural|bratT31=Event
 23	заболеваемости	_	_	_	_	_	_	_	bratA8=T31:Plural|bratT31=Event
-24	ОРВИ	_	_	_	_	_	_	_	bratA8=T31:Plural|bratT31=Event|bratT9=Other-term
-25	и	_	_	_	_	_	_	_	bratA8=T31:Plural|bratT31=Event
-26	гриппом	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T31:Plural|bratT10=Other-term|bratT31=Event
+24	ОРВИ	_	_	_	_	_	_	_	bratT9=Other-term
+25	и	_	_	_	_	_	_	_	_
+26	гриппом	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Other-term
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0120-p4
@@ -182,7 +182,7 @@
 # par_text = Мэр заявил, что в медучреждениях сегодня находится около 10 тысяч тяжелобольных коронавирусной инфекцией.
 # sent_id = 0120-p6-s1
 # text = Мэр заявил, что в медучреждениях сегодня находится около 10 тысяч тяжелобольных коронавирусной инфекцией.
-1	Мэр	_	_	_	_	_	_	_	bratT17=Person-property
+1	Мэр	_	_	_	_	_	_	_	bratA10=T40:Male|bratT17=Person-property|bratT40=Person
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -214,11 +214,11 @@
 10	планируют	_	_	_	_	_	_	_	_
 11	введение	_	_	_	_	_	_	_	bratT36=Event
 12	нового	_	_	_	_	_	_	_	bratT35=Event|bratT36=Event
-13	локдауна	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Event|bratT36=Event
+13	локдауна	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Event|bratT36=Event|bratT38=Other-term
 14	,	_	_	_	_	_	_	_	_
 15	но	_	_	_	_	_	_	_	_
 16	рекомендуют	_	_	_	_	_	_	_	_
-17	гражданам	_	_	_	_	_	_	_	_
+17	гражданам	_	_	_	_	_	_	_	bratA11=T41:Resident|bratT41=Nationality
 18	соблюдать	_	_	_	_	_	_	_	_
 19	социальную	_	_	_	_	_	_	_	_
 20	дистанцию	_	_	_	_	_	_	_	SpaceAfter=No

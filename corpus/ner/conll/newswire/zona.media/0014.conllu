@@ -86,7 +86,7 @@
 3	виновным	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
 5	нарушении	_	_	_	_	_	_	_	bratT67=Event
-6	правил	_	_	_	_	_	_	_	_
+6	правил	_	_	_	_	_	_	_	bratT67=Event
 7	пикета	_	_	_	_	_	_	_	bratT48=Event
 8	(	_	_	_	_	_	_	_	SpaceAfter=No
 9	часть	_	_	_	_	_	_	_	bratT31=Law
@@ -197,10 +197,10 @@
 15	Москвы	_	_	_	_	_	_	_	bratT63=GPE|bratT80=Law|bratT82=Law
 16	(	_	_	_	_	_	_	_	SpaceAfter=No
 17	нарушение	_	_	_	_	_	_	_	bratT75=Event
-18	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
-19	режима	_	_	_	_	_	_	_	bratT71=Event
-20	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event
-21	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No
+18	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT75=Event
+19	режима	_	_	_	_	_	_	_	bratT71=Event|bratT75=Event
+20	самоизоляции	_	_	_	_	_	_	_	SpaceAfter=No|bratT71=Event|bratT75=Event
+21	''	_	_	_	_	_	_	_	QuotationEnd=»|SpaceAfter=No|bratT75=Event
 22	)	_	_	_	_	_	_	_	SpaceAfter=No
 23	.	_	_	_	_	_	_	_	_
 

@@ -6,7 +6,7 @@
 1	Путин	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT33=Person-surname
 2	посмертно	_	_	_	_	_	_	_	_
 3	наградил	_	_	_	_	_	_	_	_
-4	дворника	_	_	_	_	_	_	_	SpaceAfter=No|bratT2=Person-property
+4	дворника	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T47:Male|bratT2=Person-property|bratT47=Person
 5	,	_	_	_	_	_	_	_	_
 6	героически	_	_	_	_	_	_	_	_
 7	спасшего	_	_	_	_	_	_	_	_
@@ -33,11 +33,11 @@
 13	52	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Age
 14	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Age
 15	летнего	_	_	_	_	_	_	_	bratT6=Age
-16	дворника	_	_	_	_	_	_	_	bratT7=Person-property
-17	из	_	_	_	_	_	_	_	_
-18	Еврейской	_	_	_	_	_	_	_	bratA13=T45:Adjective|bratT45=Nationality|bratT8=GPE
-19	автономной	_	_	_	_	_	_	_	bratT8=GPE
-20	области	_	_	_	_	_	_	_	bratT8=GPE
+16	дворника	_	_	_	_	_	_	_	bratA8=T9:Male|bratT7=Person-property|bratT9=Person
+17	из	_	_	_	_	_	_	_	bratA8=T9:Male|bratT9=Person
+18	Еврейской	_	_	_	_	_	_	_	bratA13=T45:Adjective|bratA8=T9:Male|bratT45=Nationality|bratT8=GPE|bratT9=Person
+19	автономной	_	_	_	_	_	_	_	bratA8=T9:Male|bratT8=GPE|bratT9=Person
+20	области	_	_	_	_	_	_	_	bratA8=T9:Male|bratT8=GPE|bratT9=Person
 21	Станислава	_	_	_	_	_	_	_	bratA8=T9:Male|bratT36=Person-forename|bratT9=Person
 22	Фальбийчука	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T9:Male|bratT37=Person-surname|bratT9=Person
 23	,	_	_	_	_	_	_	_	_
@@ -49,13 +49,13 @@
 29	спас	_	_	_	_	_	_	_	_
 30	двух	_	_	_	_	_	_	_	bratT28=Quantity
 31	тонущих	_	_	_	_	_	_	_	bratT28=Quantity
-32	девочек	_	_	_	_	_	_	_	SpaceAfter=No|bratT28=Quantity
+32	девочек	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T53:Female|bratT28=Quantity|bratT53=Person
 33	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0118-p2-s2
 # text = Указ президента в четверг, 5 ноября, опубликован на официальном сайте правовой информации.
 1	Указ	_	_	_	_	_	_	_	_
-2	президента	_	_	_	_	_	_	_	bratT10=Person-property
+2	президента	_	_	_	_	_	_	_	bratT10=Person-property|bratT48=Person
 3	в	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
 4	четверг	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T11:Past|bratT11=Date-absolute
 5	,	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
@@ -104,13 +104,13 @@
 14	мимо	_	_	_	_	_	_	_	_
 15	наполненного	_	_	_	_	_	_	_	_
 16	водой	_	_	_	_	_	_	_	_
-17	карьера	_	_	_	_	_	_	_	SpaceAfter=No
+17	карьера	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Facility
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0118-p3-s3
 # text = Когда рабочие чинили сломавшийся автомобиль, Станислав услышал отчаянные крики о помощи: в воде тонули две маленькие девочки.
 1	Когда	_	_	_	_	_	_	_	_
-2	рабочие	_	_	_	_	_	_	_	bratT16=Person-property
+2	рабочие	_	_	_	_	_	_	_	bratT16=Person-property|bratT49=Person
 3	чинили	_	_	_	_	_	_	_	_
 4	сломавшийся	_	_	_	_	_	_	_	_
 5	автомобиль	_	_	_	_	_	_	_	SpaceAfter=No
@@ -125,9 +125,9 @@
 14	в	_	_	_	_	_	_	_	_
 15	воде	_	_	_	_	_	_	_	_
 16	тонули	_	_	_	_	_	_	_	_
-17	две	_	_	_	_	_	_	_	bratT18=Quantity
-18	маленькие	_	_	_	_	_	_	_	bratT18=Quantity
-19	девочки	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Quantity
+17	две	_	_	_	_	_	_	_	bratA16=T52:Female|bratT18=Quantity|bratT52=Person
+18	маленькие	_	_	_	_	_	_	_	bratA16=T52:Female|bratT18=Quantity|bratT51=Age|bratT52=Person
+19	девочки	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T52:Female|bratT18=Quantity|bratT52=Person
 20	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0118-p4
@@ -135,7 +135,7 @@
 # sent_id = 0118-p4-s1
 # text = Отважный мужчина, не раздумывая, бросился их спасать.
 1	Отважный	_	_	_	_	_	_	_	_
-2	мужчина	_	_	_	_	_	_	_	SpaceAfter=No
+2	мужчина	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T50:Male|bratT50=Person
 3	,	_	_	_	_	_	_	_	_
 4	не	_	_	_	_	_	_	_	_
 5	раздумывая	_	_	_	_	_	_	_	SpaceAfter=No
@@ -170,15 +170,15 @@
 
 # sent_id = 0118-p4-s3
 # text = Ребенка смогли поднять на берег, но ее спаситель заплатил за свой несомненный героизм собственной жизнью.
-1	Ребенка	_	_	_	_	_	_	_	bratT30=Age
+1	Ребенка	_	_	_	_	_	_	_	bratA18=T54:Female|bratT30=Age|bratT54=Person
 2	смогли	_	_	_	_	_	_	_	_
 3	поднять	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	берег	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	но	_	_	_	_	_	_	_	_
-8	ее	_	_	_	_	_	_	_	_
-9	спаситель	_	_	_	_	_	_	_	_
+8	ее	_	_	_	_	_	_	_	bratA19=T55:Male|bratT55=Person
+9	спаситель	_	_	_	_	_	_	_	bratA19=T55:Male|bratT55=Person
 10	заплатил	_	_	_	_	_	_	_	_
 11	за	_	_	_	_	_	_	_	_
 12	свой	_	_	_	_	_	_	_	_
@@ -209,9 +209,9 @@
 13	10	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Age
 14	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT23=Age
 15	летнюю	_	_	_	_	_	_	_	bratT23=Age
-16	школьницу	_	_	_	_	_	_	_	bratT24=Person-property
-17	из	_	_	_	_	_	_	_	_
-18	Курса	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE
+16	школьницу	_	_	_	_	_	_	_	bratT24=Person-property|bratT56=Person
+17	из	_	_	_	_	_	_	_	bratT56=Person
+18	Курса	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=GPE|bratT56=Person
 19	,	_	_	_	_	_	_	_	_
 20	которая	_	_	_	_	_	_	_	_
 21	всеми	_	_	_	_	_	_	_	_
@@ -222,7 +222,7 @@
 26	ушедшую	_	_	_	_	_	_	_	_
 27	под	_	_	_	_	_	_	_	_
 28	лед	_	_	_	_	_	_	_	_
-29	подругу	_	_	_	_	_	_	_	SpaceAfter=No
+29	подругу	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T57:Female|bratT57=Person
 30	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0118-p5-s2
@@ -230,8 +230,8 @@
 1	К	_	_	_	_	_	_	_	_
 2	сожалению	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	обе	_	_	_	_	_	_	_	bratT26=Quantity
-5	девочки	_	_	_	_	_	_	_	bratT26=Quantity
+4	обе	_	_	_	_	_	_	_	bratA21=T58:Female|bratT26=Quantity|bratT58=Person
+5	девочки	_	_	_	_	_	_	_	bratA21=T58:Female|bratT26=Quantity|bratT58=Person
 6	погибли	_	_	_	_	_	_	_	SpaceAfter=No
 7	.	_	_	_	_	_	_	_	_
 

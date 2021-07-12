@@ -21,11 +21,11 @@
 # text = Футболисты и тренерский штаб ``Наполи'' не сумели отправиться на выездную игру седьмого тура Серии А чемпионата Италии с ``Болоньей'' из-за поломки самолёта.
 1	Футболисты	_	_	_	_	_	_	_	bratT3=Person-property
 2	и	_	_	_	_	_	_	_	_
-3	тренерский	_	_	_	_	_	_	_	bratT57=Organization
-4	штаб	_	_	_	_	_	_	_	bratT57=Organization
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT57=Organization
-6	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT52=GPE|bratT57=Organization
-7	''	_	_	_	_	_	_	_	bratT4=Organization|bratT57=Organization
+3	тренерский	_	_	_	_	_	_	_	bratA9=T57:Department|bratT57=Organization
+4	штаб	_	_	_	_	_	_	_	bratA9=T57:Department|bratT57=Organization
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T57:Department|bratT4=Organization|bratT57=Organization
+6	Наполи	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T57:Department|bratT4=Organization|bratT52=GPE|bratT57=Organization
+7	''	_	_	_	_	_	_	_	bratA9=T57:Department|bratT4=Organization|bratT57=Organization
 8	не	_	_	_	_	_	_	_	_
 9	сумели	_	_	_	_	_	_	_	_
 10	отправиться	_	_	_	_	_	_	_	_
@@ -154,7 +154,7 @@
 13	одержав	_	_	_	_	_	_	_	_
 14	пять	_	_	_	_	_	_	_	bratT21=Quantity
 15	побед	_	_	_	_	_	_	_	bratT21=Quantity|bratT61=Event
-16	кряду	_	_	_	_	_	_	_	_
+16	кряду	_	_	_	_	_	_	_	bratT21=Quantity
 17	и	_	_	_	_	_	_	_	_
 18	забив	_	_	_	_	_	_	_	_
 19	при	_	_	_	_	_	_	_	_

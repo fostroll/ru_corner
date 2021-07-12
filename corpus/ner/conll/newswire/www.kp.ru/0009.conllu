@@ -47,10 +47,10 @@
 30	тестировании	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Event
 31	,	_	_	_	_	_	_	_	_
 32	заявил	_	_	_	_	_	_	_	_
-33	украинский	_	_	_	_	_	_	_	bratA11=T33:Adjective|bratT33=GPE
-34	врач	_	_	_	_	_	_	_	bratA8=T7:Male|bratT5=Person-property|bratT7=Person
-35	и	_	_	_	_	_	_	_	bratA8=T7:Male|bratT7=Person
-36	телеведущий	_	_	_	_	_	_	_	bratA8=T7:Male|bratT6=Person-property|bratT7=Person
+33	украинский	_	_	_	_	_	_	_	bratA11=T33:Adjective|bratA6=T45:Plural|bratA8=T7:Male|bratT33=GPE|bratT45=Person-property|bratT7=Person
+34	врач	_	_	_	_	_	_	_	bratA6=T45:Plural|bratA8=T7:Male|bratT45=Person-property|bratT5=Person-property|bratT7=Person
+35	и	_	_	_	_	_	_	_	bratA6=T45:Plural|bratA8=T7:Male|bratT45=Person-property|bratT7=Person
+36	телеведущий	_	_	_	_	_	_	_	bratA6=T45:Plural|bratA8=T7:Male|bratT45=Person-property|bratT6=Person-property|bratT7=Person
 37	Евгений	_	_	_	_	_	_	_	bratA8=T7:Male|bratT28=Person-forename|bratT7=Person
 38	Комаровский	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T7:Male|bratT29=Person-surname|bratT7=Person
 39	.	_	_	_	_	_	_	_	_
@@ -90,7 +90,7 @@
 # par_text = Врач также отметил, что многие из его знакомых и пациентов получает результаты анализов о высоком уровне антител, хотя у них не было никаких симптомов.
 # sent_id = 0009-p4-s1
 # text = Врач также отметил, что многие из его знакомых и пациентов получает результаты анализов о высоком уровне антител, хотя у них не было никаких симптомов.
-1	Врач	_	_	_	_	_	_	_	bratT24=Person-property
+1	Врач	_	_	_	_	_	_	_	bratA12=T46:Male|bratT24=Person-property|bratT46=Person
 2	также	_	_	_	_	_	_	_	_
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_

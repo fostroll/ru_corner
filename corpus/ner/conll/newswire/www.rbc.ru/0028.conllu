@@ -250,10 +250,10 @@
 # text = Парк 50-летия Октября
 1	Парк	_	_	_	_	_	_	_	bratT35=Location
 2-4	50-летия	_	_	_	_	_	_	_	_
-2	50	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT35=Location|bratT36=Age
-3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT35=Location|bratT36=Age
-4	летия	_	_	_	_	_	_	_	bratT35=Location|bratT36=Age
-5	Октября	_	_	_	_	_	_	_	bratT29=Event|bratT35=Location
+2	50	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT35=Location|bratT36=Age|bratT48=Event
+3	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT35=Location|bratT36=Age|bratT48=Event
+4	летия	_	_	_	_	_	_	_	bratT35=Location|bratT36=Age|bratT48=Event
+5	Октября	_	_	_	_	_	_	_	bratT29=Event|bratT35=Location|bratT48=Event
 
 # newpar id = 0028-p11
 # par_text = Ландшафтный парк «Митино»

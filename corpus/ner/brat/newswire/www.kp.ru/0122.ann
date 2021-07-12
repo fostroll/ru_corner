@@ -20,7 +20,7 @@ T19	Organization 877 890	Белого   дома
 T20	Person-property 869 890	глава   Белого   дома
 T21	Event 942 960	всеобщих   выборах
 T22	Date-absolute 965 995	В   субботу   ,   24   октября
-T23	Person-property 1002 1037	американский   лидер   проголосовал
+T23	Person-property 1002 1022	американский   лидер
 T24	Person 1050 1076	парня   по   имени   Трамп
 T25	Organization 1247 1271	республиканской   партии
 T26	Ordinal 1145 1151	первый
@@ -42,7 +42,6 @@ T41	GPE 399 407	Палм-Бич
 T42	GPE 418 433	штате   Флорида
 T43	Organization 473 486	Белого   дома
 T44	Organization 461 486	пресс-пул   Белого   дома
-A1	Media T44
 A2	Department T44
 T45	Date-absolute 745 763	в   день   выборов
 T46	Service 1101 1115	сайт   kp . ru
@@ -99,3 +98,10 @@ T73	Event 0 11	Голосование
 T74	Event 923 934	голосовании
 T75	Event 1226 1237	голосование
 T76	Facility 369 392	избирательном   участке
+T77	Person 77 90	первая   леди
+A26	Female T77
+T78	Person 323 345	американского   лидера
+T79	Person 869 890	глава   Белого   дома
+A1	Male T79
+T80	Person 1002 1022	американский   лидер
+A27	Male T80

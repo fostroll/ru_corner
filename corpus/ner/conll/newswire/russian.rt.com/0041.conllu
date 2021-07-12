@@ -7,7 +7,7 @@
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	вакцинация	_	_	_	_	_	_	_	bratT27=Other-term
+5	вакцинация	_	_	_	_	_	_	_	bratT27=Other-term|bratT53=Event
 6	от	_	_	_	_	_	_	_	_
 7	коронавируса	_	_	_	_	_	_	_	bratT26=Other-term
 8	будет	_	_	_	_	_	_	_	_
@@ -25,7 +25,7 @@
 6	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
 8	что	_	_	_	_	_	_	_	_
-9	вакцинация	_	_	_	_	_	_	_	bratT30=Other-term
+9	вакцинация	_	_	_	_	_	_	_	bratT30=Other-term|bratT54=Event
 10	от	_	_	_	_	_	_	_	_
 11	коронавирусной	_	_	_	_	_	_	_	bratT31=Other-term
 12	инфекции	_	_	_	_	_	_	_	bratT31=Other-term
@@ -56,9 +56,9 @@
 13	на	_	_	_	_	_	_	_	_
 14	вопрос	_	_	_	_	_	_	_	_
 15	о	_	_	_	_	_	_	_	_
-16	старте	_	_	_	_	_	_	_	_
-17	массовой	_	_	_	_	_	_	_	_
-18	вакцинации	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term
+16	старте	_	_	_	_	_	_	_	bratT56=Event
+17	массовой	_	_	_	_	_	_	_	bratT55=Event|bratT56=Event
+18	вакцинации	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Other-term|bratT55=Event|bratT56=Event
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0041-p4
@@ -93,7 +93,7 @@
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	вакцинация	_	_	_	_	_	_	_	bratT6=Other-term
+5	вакцинация	_	_	_	_	_	_	_	bratT57=Event|bratT6=Other-term
 6	будет	_	_	_	_	_	_	_	_
 7	поэтапной	_	_	_	_	_	_	_	_
 8	-	_	_	_	_	_	_	_	_
@@ -188,10 +188,10 @@
 11	от	_	_	_	_	_	_	_	_
 12	коронавируса	_	_	_	_	_	_	_	bratT14=Other-term
 13	в	_	_	_	_	_	_	_	_
-14	перечень	_	_	_	_	_	_	_	_
-15	жизненно	_	_	_	_	_	_	_	_
-16	важных	_	_	_	_	_	_	_	_
-17	препаратов	_	_	_	_	_	_	_	SpaceAfter=No
+14	перечень	_	_	_	_	_	_	_	bratA16=T59:Project|bratT59=Product
+15	жизненно	_	_	_	_	_	_	_	bratA16=T59:Project|bratT59=Product
+16	важных	_	_	_	_	_	_	_	bratA16=T59:Project|bratT59=Product
+17	препаратов	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T59:Project|bratT59=Product
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0041-p9
@@ -203,7 +203,7 @@
 3	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	вакцинация	_	_	_	_	_	_	_	bratT16=Other-term
+6	вакцинация	_	_	_	_	_	_	_	bratT16=Other-term|bratT58=Event
 7	от	_	_	_	_	_	_	_	_
 8	коронавирусной	_	_	_	_	_	_	_	bratT17=Other-term
 9	инфекции	_	_	_	_	_	_	_	bratT17=Other-term

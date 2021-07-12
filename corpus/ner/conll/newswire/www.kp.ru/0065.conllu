@@ -28,7 +28,7 @@
 10	в	_	_	_	_	_	_	_	_
 11	котором	_	_	_	_	_	_	_	_
 12	поздравил	_	_	_	_	_	_	_	_
-13	своего	_	_	_	_	_	_	_	_
+13	своего	_	_	_	_	_	_	_	bratA8=T4:Male|bratT4=Person
 14	бывшего	_	_	_	_	_	_	_	bratA8=T4:Male|bratT4=Person|bratT5=Person-property
 15-17	вице-президента	_	_	_	_	_	_	_	_
 15	вице	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA8=T4:Male|bratT4=Person|bratT5=Person-property
@@ -59,7 +59,7 @@
 13	Байдена	_	_	_	_	_	_	_	bratA9=T6:Male|bratT45=Person-surname|bratT6=Person
 14	и	_	_	_	_	_	_	_	_
 15	нашу	_	_	_	_	_	_	_	_
-16	следующую	_	_	_	_	_	_	_	bratA10=T7:Male|bratT32=Ordinal|bratT7=Person
+16	следующую	_	_	_	_	_	_	_	bratA10=T7:Male|bratT32=Ordinal|bratT7=Person|bratT9=Person-property
 17	первую	_	_	_	_	_	_	_	bratA10=T7:Male|bratT34=Ordinal|bratT7=Person|bratT9=Person-property
 18	леди	_	_	_	_	_	_	_	bratA10=T7:Male|bratT7=Person|bratT9=Person-property
 19	Джилл	_	_	_	_	_	_	_	bratA10=T7:Male|bratT46=Person-forename|bratT7=Person
@@ -82,7 +82,7 @@
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	демократ	_	_	_	_	_	_	_	bratT12=Political-group
+5	демократ	_	_	_	_	_	_	_	bratA17=T64:Male|bratT12=Political-group|bratT64=Person
 6	обладает	_	_	_	_	_	_	_	_
 7	всеми	_	_	_	_	_	_	_	_
 8	качествами	_	_	_	_	_	_	_	SpaceAfter=No
@@ -131,8 +131,8 @@
 3	,	_	_	_	_	_	_	_	_
 4	войдя	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	Белый	_	_	_	_	_	_	_	bratT18=Organization
-7	дом	_	_	_	_	_	_	_	bratT18=Organization
+6	Белый	_	_	_	_	_	_	_	bratT18=Facility
+7	дом	_	_	_	_	_	_	_	bratT18=Facility
 8	в	_	_	_	_	_	_	_	bratA2=T19:Future|bratT19=Date-absolute
 9	январе	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T19:Future|bratT19=Date-absolute
 10	,	_	_	_	_	_	_	_	_
@@ -217,16 +217,16 @@
 22	,	_	_	_	_	_	_	_	_
 23	чтобы	_	_	_	_	_	_	_	_
 24	занять	_	_	_	_	_	_	_	_
-25	президентское	_	_	_	_	_	_	_	_
-26	кресло	_	_	_	_	_	_	_	SpaceAfter=No
+25	президентское	_	_	_	_	_	_	_	bratT63=Person-property
+26	кресло	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Person-property
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0065-p7
 # par_text = Его оппонент Дональд Трамп намерен добиваться через суд пересчета голосов.
 # sent_id = 0065-p7-s1
 # text = Его оппонент Дональд Трамп намерен добиваться через суд пересчета голосов.
-1	Его	_	_	_	_	_	_	_	_
-2	оппонент	_	_	_	_	_	_	_	_
+1	Его	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person
+2	оппонент	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person
 3	Дональд	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person|bratT53=Person-forename
 4	Трамп	_	_	_	_	_	_	_	bratA15=T27:Male|bratT27=Person|bratT54=Person-surname
 5	намерен	_	_	_	_	_	_	_	_

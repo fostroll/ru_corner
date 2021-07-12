@@ -10,8 +10,8 @@
 5	с	_	_	_	_	_	_	_	_
 6	ножом	_	_	_	_	_	_	_	_
 7	на	_	_	_	_	_	_	_	_
-8	двух	_	_	_	_	_	_	_	bratT2=Quantity
-9	человек	_	_	_	_	_	_	_	bratT2=Quantity
+8	двух	_	_	_	_	_	_	_	bratT2=Quantity|bratT38=Person
+9	человек	_	_	_	_	_	_	_	bratT2=Quantity|bratT38=Person
 
 # newpar id = 0123-p2
 # par_text = 28-летняя жительница Швейцарии напала с ножом на двух девушек в одном из магазинов города Лугано. Обе с ранениями были госпитализированы.
@@ -21,14 +21,14 @@
 1	28	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Age
 2	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT6=Age
 3	летняя	_	_	_	_	_	_	_	bratT6=Age
-4	жительница	_	_	_	_	_	_	_	bratA6=T30:Resident|bratT30=Nationality
-5	Швейцарии	_	_	_	_	_	_	_	bratA6=T30:Resident|bratT30=Nationality|bratT5=GPE
+4	жительница	_	_	_	_	_	_	_	bratA10=T40:Female|bratA6=T30:Resident|bratT30=Nationality|bratT40=Person
+5	Швейцарии	_	_	_	_	_	_	_	bratA10=T40:Female|bratA6=T30:Resident|bratT30=Nationality|bratT40=Person|bratT5=GPE
 6	напала	_	_	_	_	_	_	_	_
 7	с	_	_	_	_	_	_	_	_
 8	ножом	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
-10	двух	_	_	_	_	_	_	_	bratT7=Quantity
-11	девушек	_	_	_	_	_	_	_	bratT7=Quantity
+10	двух	_	_	_	_	_	_	_	bratT39=Person|bratT7=Quantity
+11	девушек	_	_	_	_	_	_	_	bratT39=Person|bratT7=Quantity
 12	в	_	_	_	_	_	_	_	_
 13	одном	_	_	_	_	_	_	_	bratT8=Quantity
 14	из	_	_	_	_	_	_	_	bratT8=Quantity
@@ -39,7 +39,7 @@
 
 # sent_id = 0123-p2-s2
 # text = Обе с ранениями были госпитализированы.
-1	Обе	_	_	_	_	_	_	_	bratT10=Quantity
+1	Обе	_	_	_	_	_	_	_	bratA11=T41:Female|bratT10=Quantity|bratT41=Person
 2	с	_	_	_	_	_	_	_	_
 3	ранениями	_	_	_	_	_	_	_	_
 4	были	_	_	_	_	_	_	_	_
@@ -68,14 +68,14 @@
 # sent_id = 0123-p4-s1
 # text = Жизнь пострадавших вне опасности, но одной из них нанесли очень серьезные ранения.
 1	Жизнь	_	_	_	_	_	_	_	_
-2	пострадавших	_	_	_	_	_	_	_	_
+2	пострадавших	_	_	_	_	_	_	_	bratT43=Person
 3	вне	_	_	_	_	_	_	_	_
 4	опасности	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	но	_	_	_	_	_	_	_	_
-7	одной	_	_	_	_	_	_	_	bratT12=Quantity
-8	из	_	_	_	_	_	_	_	bratT12=Quantity
-9	них	_	_	_	_	_	_	_	_
+7	одной	_	_	_	_	_	_	_	bratA12=T44:Female|bratT12=Quantity|bratT44=Person
+8	из	_	_	_	_	_	_	_	bratA12=T44:Female|bratT12=Quantity|bratT44=Person
+9	них	_	_	_	_	_	_	_	bratA12=T44:Female|bratT44=Person
 10	нанесли	_	_	_	_	_	_	_	_
 11	очень	_	_	_	_	_	_	_	_
 12	серьезные	_	_	_	_	_	_	_	_
@@ -84,7 +84,7 @@
 
 # sent_id = 0123-p4-s2
 # text = Правоохранители выясняют мотивы и обстоятельства произошедшего, работая в тесном взаимодействии с федеральной полицией.
-1	Правоохранители	_	_	_	_	_	_	_	bratT13=Person-property
+1	Правоохранители	_	_	_	_	_	_	_	bratT13=Person-property|bratT42=Person
 2	выясняют	_	_	_	_	_	_	_	_
 3	мотивы	_	_	_	_	_	_	_	_
 4	и	_	_	_	_	_	_	_	_
@@ -105,8 +105,8 @@
 # sent_id = 0123-p5-s1
 # text = ``Первую женщину она схватила руками за шею, а вторую ранила ножом.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Первую	_	_	_	_	_	_	_	bratT14=Ordinal
-3	женщину	_	_	_	_	_	_	_	_
+2	Первую	_	_	_	_	_	_	_	bratA13=T45:Female|bratT14=Ordinal|bratT45=Person
+3	женщину	_	_	_	_	_	_	_	bratA13=T45:Female|bratT45=Person
 4	она	_	_	_	_	_	_	_	_
 5	схватила	_	_	_	_	_	_	_	_
 6	руками	_	_	_	_	_	_	_	_
@@ -114,7 +114,7 @@
 8	шею	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	а	_	_	_	_	_	_	_	_
-11	вторую	_	_	_	_	_	_	_	bratT15=Ordinal
+11	вторую	_	_	_	_	_	_	_	bratA14=T46:Female|bratT15=Ordinal|bratT46=Person
 12	ранила	_	_	_	_	_	_	_	_
 13	ножом	_	_	_	_	_	_	_	SpaceAfter=No
 14	.	_	_	_	_	_	_	_	_
@@ -125,9 +125,9 @@
 2	данным	_	_	_	_	_	_	_	_
 3	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Organization
 4	,	_	_	_	_	_	_	_	_
-5	одна	_	_	_	_	_	_	_	bratT16=Quantity
-6	из	_	_	_	_	_	_	_	bratT16=Quantity
-7	женщин	_	_	_	_	_	_	_	_
+5	одна	_	_	_	_	_	_	_	bratA15=T47:Female|bratT16=Quantity|bratT47=Person
+6	из	_	_	_	_	_	_	_	bratA15=T47:Female|bratT16=Quantity|bratT47=Person
+7	женщин	_	_	_	_	_	_	_	bratA15=T47:Female|bratT47=Person
 8	получила	_	_	_	_	_	_	_	_
 9	серьезные	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
@@ -138,7 +138,7 @@
 15	жизни	_	_	_	_	_	_	_	_
 16	травмы	_	_	_	_	_	_	_	SpaceAfter=No
 17	,	_	_	_	_	_	_	_	_
-18	другая	_	_	_	_	_	_	_	_
+18	другая	_	_	_	_	_	_	_	bratA16=T48:Female|bratT48=Person
 19	-	_	_	_	_	_	_	_	_
 20	легкие	_	_	_	_	_	_	_	SpaceAfter=No
 21	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -146,7 +146,7 @@
 23	-	_	_	_	_	_	_	_	_
 24	сообщило	_	_	_	_	_	_	_	_
 25	издание	_	_	_	_	_	_	_	bratA3=T17:Media|bratT17=Organization
-26	Luzerner	_	_	_	_	_	_	_	bratA3=T17:Media|bratT17=Organization
+26	Luzerner	_	_	_	_	_	_	_	bratA3=T17:Media|bratT17=Organization|bratT49=GPE
 27	Zeitung	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T17:Media|bratT17=Organization
 28	.	_	_	_	_	_	_	_	_
 

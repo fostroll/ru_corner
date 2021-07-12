@@ -24,20 +24,20 @@
 5	напали	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	танкер	_	_	_	_	_	_	_	bratA1=T4:Unconscious|bratT4=Person
-8	NAFELI	_	_	_	_	_	_	_	bratA1=T4:Unconscious|bratT4=Person
+8	NAFELI	_	_	_	_	_	_	_	bratA1=T4:Unconscious|bratT4=Person|bratT48=Person-surname
 9	II	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Unconscious|bratT4=Person|bratT40=Ordinal
 10	,	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	борту	_	_	_	_	_	_	_	_
 13	которого	_	_	_	_	_	_	_	_
 14	находились	_	_	_	_	_	_	_	_
-15	моряки	_	_	_	_	_	_	_	bratA2=T5:Plural|bratT5=Person-property
-16	из	_	_	_	_	_	_	_	bratA2=T5:Plural|bratT5=Person-property
-17	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Plural|bratT5=Person-property|bratT6=GPE
-18	,	_	_	_	_	_	_	_	bratA2=T5:Plural|bratT5=Person-property
-19	Украины	_	_	_	_	_	_	_	bratA2=T5:Plural|bratT5=Person-property|bratT7=GPE
-20	и	_	_	_	_	_	_	_	bratA2=T5:Plural|bratT5=Person-property
-21	Грузии	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Plural|bratT5=Person-property|bratT8=GPE
+15	моряки	_	_	_	_	_	_	_	bratT5=Person-property
+16	из	_	_	_	_	_	_	_	_
+17	России	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
+18	,	_	_	_	_	_	_	_	_
+19	Украины	_	_	_	_	_	_	_	bratT7=GPE
+20	и	_	_	_	_	_	_	_	_
+21	Грузии	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=GPE
 22	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0061-p3
@@ -131,7 +131,7 @@
 4	июле	_	_	_	_	_	_	_	bratA4=T16:Past|bratT16=Date-absolute
 5	восемь	_	_	_	_	_	_	_	bratT17=Quantity
 6	вооруженных	_	_	_	_	_	_	_	bratT17=Quantity
-7	пиратов	_	_	_	_	_	_	_	bratT17=Quantity
+7	пиратов	_	_	_	_	_	_	_	bratT17=Quantity|bratT49=Person-property
 8	в	_	_	_	_	_	_	_	_
 9	Гвинейском	_	_	_	_	_	_	_	bratT18=Location
 10	заливе	_	_	_	_	_	_	_	bratT18=Location
@@ -139,7 +139,7 @@
 12	на	_	_	_	_	_	_	_	_
 13	борту	_	_	_	_	_	_	_	_
 14	танкера	_	_	_	_	_	_	_	bratA5=T19:Unconscious|bratT19=Person
-15	Curacao	_	_	_	_	_	_	_	bratA5=T19:Unconscious|bratT19=Person
+15	Curacao	_	_	_	_	_	_	_	bratA5=T19:Unconscious|bratT19=Person|bratT50=GPE
 16	Trader	_	_	_	_	_	_	_	bratA5=T19:Unconscious|bratT19=Person
 17	и	_	_	_	_	_	_	_	_
 18	взяли	_	_	_	_	_	_	_	_

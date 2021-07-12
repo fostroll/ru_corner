@@ -1,7 +1,6 @@
 T1	Person-property 0 6	Доктор
 T2	Other-term 95 103	аллергия
 T3	Event 204 217	Нового   года
-T4	Other-term 632 633	г
 T5	Other-term 764 790	анафилактических   реакций
 T6	Organization 822 829	kp . ru
 A1	Media T6
@@ -25,3 +24,9 @@ T22	Person-forename 975 980	Ольга
 A3	Male T11
 T23	Time-period 379 385	зимних
 T24	Web-address 822 829	kp . ru
+T25	Person 0 6	Доктор
+A4	Female T25
+T4	Other-term 627 635	аллергии
+T26	Other-term 846 854	аллергии
+T27	Person 1413 1423	специалист
+A5	Female T27

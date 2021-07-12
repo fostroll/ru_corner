@@ -72,9 +72,9 @@
 22	пресс-релизу	_	_	_	_	_	_	_	_
 23	кампании	_	_	_	_	_	_	_	bratT74=Event
 24-26	Байдена-Харриса	_	_	_	_	_	_	_	SpaceAfter=No
-24	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T13:Male|bratT13=Person|bratT51=Person-forename
-25	-	_	_	_	_	_	_	_	SpaceAfter=No
-26	Харриса	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratT50=Person|bratT52=Person-surname
+24	Байдена	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T13:Male|bratT13=Person|bratT51=Person-forename|bratT74=Event
+25	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT74=Event
+26	Харриса	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T50:Male|bratT50=Person|bratT52=Person-surname|bratT74=Event
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p4
@@ -140,14 +140,14 @@
 3	поздравили	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
 5	победой	_	_	_	_	_	_	_	bratT70=Event
-6	главы	_	_	_	_	_	_	_	bratA3=T28:Plural|bratT28=Person-property
-7	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T28:Plural|bratT24=GPE|bratT28=Person-property
-8	,	_	_	_	_	_	_	_	bratA3=T28:Plural|bratT28=Person-property
-9	Франции	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T28:Plural|bratT25=GPE|bratT28=Person-property
-10	,	_	_	_	_	_	_	_	bratA3=T28:Plural|bratT28=Person-property
-11	Украины	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T28:Plural|bratT26=GPE|bratT28=Person-property
-12	,	_	_	_	_	_	_	_	bratA3=T28:Plural|bratT28=Person-property
-13	Великобритании	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T28:Plural|bratT27=GPE|bratT28=Person-property
+6	главы	_	_	_	_	_	_	_	bratA25=T75:Plural|bratA3=T28:Plural|bratT28=Person-property|bratT75=Person
+7	Германии	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T75:Plural|bratA3=T28:Plural|bratT24=GPE|bratT28=Person-property|bratT75=Person
+8	,	_	_	_	_	_	_	_	bratA25=T75:Plural|bratA3=T28:Plural|bratT28=Person-property|bratT75=Person
+9	Франции	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T75:Plural|bratA3=T28:Plural|bratT25=GPE|bratT28=Person-property|bratT75=Person
+10	,	_	_	_	_	_	_	_	bratA25=T75:Plural|bratA3=T28:Plural|bratT28=Person-property|bratT75=Person
+11	Украины	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T75:Plural|bratA3=T28:Plural|bratT26=GPE|bratT28=Person-property|bratT75=Person
+12	,	_	_	_	_	_	_	_	bratA25=T75:Plural|bratA3=T28:Plural|bratT28=Person-property|bratT75=Person
+13	Великобритании	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T75:Plural|bratA3=T28:Plural|bratT27=GPE|bratT28=Person-property|bratT75=Person
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0098-p5-s2
@@ -160,12 +160,12 @@
 6	Обама	_	_	_	_	_	_	_	bratA17=T31:Male|bratT31=Person|bratT57=Person-surname
 7	обратился	_	_	_	_	_	_	_	_
 8	к	_	_	_	_	_	_	_	_
-9	демократу	_	_	_	_	_	_	_	bratT32=Political-group
+9	демократу	_	_	_	_	_	_	_	bratA26=T76:Male|bratT32=Political-group|bratT76=Person
 10	с	_	_	_	_	_	_	_	_
 11	поздравлениями	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	своем	_	_	_	_	_	_	_	_
-14	аккаунте	_	_	_	_	_	_	_	SpaceAfter=No
+14	аккаунте	_	_	_	_	_	_	_	SpaceAfter=No|bratA27=T77:Media|bratT77=Service
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0098-p6

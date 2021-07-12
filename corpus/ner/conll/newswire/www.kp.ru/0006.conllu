@@ -31,18 +31,18 @@
 2	больнице	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Facility
 3	,	_	_	_	_	_	_	_	_
 4	где	_	_	_	_	_	_	_	_
-5	политик	_	_	_	_	_	_	_	bratT6=Person-property
+5	политик	_	_	_	_	_	_	_	bratA18=T58:Male|bratT58=Person|bratT6=Person-property
 6	проходит	_	_	_	_	_	_	_	_
 7	лечение	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	выделили	_	_	_	_	_	_	_	_
-10	специальный	_	_	_	_	_	_	_	_
-11	кабинет	_	_	_	_	_	_	_	SpaceAfter=No
+10	специальный	_	_	_	_	_	_	_	bratT59=Facility
+11	кабинет	_	_	_	_	_	_	_	SpaceAfter=No|bratT59=Facility
 12	,	_	_	_	_	_	_	_	_
 13	где	_	_	_	_	_	_	_	_
 14	он	_	_	_	_	_	_	_	_
 15	проводит	_	_	_	_	_	_	_	_
-16	совещания	_	_	_	_	_	_	_	SpaceAfter=No
+16	совещания	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Event
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p2-s3
@@ -57,9 +57,9 @@
 8	,	_	_	_	_	_	_	_	_
 9	рассказал	_	_	_	_	_	_	_	_
 10	советник	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT9=Person-property
-11	главы	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT27=Person-property|bratT9=Person-property
-12	офиса	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT27=Person-property|bratT8=Organization|bratT9=Person-property
-13	президента	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT27=Person-property|bratT28=Person-property|bratT8=Organization|bratT9=Person-property
+11	главы	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT69=Person|bratT70=Person-property|bratT9=Person-property
+12	офиса	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT69=Person|bratT70=Person-property|bratT8=Organization|bratT9=Person-property
+13	президента	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT28=Person-property|bratT60=Person|bratT69=Person|bratT70=Person-property|bratT8=Organization|bratT9=Person-property
 14	Михаил	_	_	_	_	_	_	_	bratA7=T10:Male|bratT10=Person|bratT38=Person-forename
 15	Подоляк	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T10:Male|bratT10=Person|bratT39=Person-surname
 16	.	_	_	_	_	_	_	_	_
@@ -87,15 +87,15 @@
 6	где	_	_	_	_	_	_	_	_
 7	есть	_	_	_	_	_	_	_	_
 8	оборудованный	_	_	_	_	_	_	_	_
-9	специальный	_	_	_	_	_	_	_	_
-10	кабинет	_	_	_	_	_	_	_	SpaceAfter=No
+9	специальный	_	_	_	_	_	_	_	bratT27=Facility
+10	кабинет	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Facility
 11	,	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_
 13	котором	_	_	_	_	_	_	_	_
-14	президент	_	_	_	_	_	_	_	bratT13=Person-property
+14	президент	_	_	_	_	_	_	_	bratA19=T61:Male|bratT13=Person-property|bratT61=Person
 15	может	_	_	_	_	_	_	_	_
 16	проводить	_	_	_	_	_	_	_	_
-17	совещания	_	_	_	_	_	_	_	SpaceAfter=No
+17	совещания	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Event
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p3-s3
@@ -103,8 +103,8 @@
 1	Он	_	_	_	_	_	_	_	_
 2	лежит	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
-4	изолированной	_	_	_	_	_	_	_	_
-5	палате	_	_	_	_	_	_	_	SpaceAfter=No
+4	изолированной	_	_	_	_	_	_	_	bratT63=Facility
+5	палате	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Facility
 6	,	_	_	_	_	_	_	_	_
 7	там	_	_	_	_	_	_	_	_
 8	установлена	_	_	_	_	_	_	_	_
@@ -149,8 +149,8 @@
 2	позже	_	_	_	_	_	_	_	bratA2=T32:Past|bratT32=Date-relative
 3	глава	_	_	_	_	_	_	_	bratA11=T21:Male|bratT21=Person
 4	офиса	_	_	_	_	_	_	_	bratA11=T21:Male|bratT21=Person|bratT29=Organization
-5	президента	_	_	_	_	_	_	_	bratA11=T21:Male|bratT20=Person-property|bratT21=Person|bratT29=Organization
-6	Украины	_	_	_	_	_	_	_	bratA11=T21:Male|bratT19=GPE|bratT20=Person-property|bratT21=Person|bratT29=Organization
+5	президента	_	_	_	_	_	_	_	bratA11=T21:Male|bratT20=Person-property|bratT21=Person|bratT29=Organization|bratT64=Person
+6	Украины	_	_	_	_	_	_	_	bratA11=T21:Male|bratT19=GPE|bratT20=Person-property|bratT21=Person|bratT29=Organization|bratT64=Person
 7	Андрей	_	_	_	_	_	_	_	bratA11=T21:Male|bratT21=Person|bratT44=Person-forename
 8	Ермак	_	_	_	_	_	_	_	bratA11=T21:Male|bratT21=Person|bratT45=Person-surname
 9	также	_	_	_	_	_	_	_	_
@@ -174,7 +174,7 @@
 7	в	_	_	_	_	_	_	_	_
 8	отдельной	_	_	_	_	_	_	_	_
 9	изолированной	_	_	_	_	_	_	_	_
-10	палате	_	_	_	_	_	_	_	SpaceAfter=No
+10	палате	_	_	_	_	_	_	_	SpaceAfter=No|bratT65=Facility
 11	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0006-p5-s2
@@ -182,7 +182,7 @@
 1	График	_	_	_	_	_	_	_	_
 2	работы	_	_	_	_	_	_	_	_
 3	у	_	_	_	_	_	_	_	_
-4	политиков	_	_	_	_	_	_	_	bratT23=Person-property
+4	политиков	_	_	_	_	_	_	_	bratT23=Person-property|bratT66=Person
 5	остался	_	_	_	_	_	_	_	_
 6	стандартным	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_
@@ -191,7 +191,7 @@
 10	коллег	_	_	_	_	_	_	_	bratT52=Person-property
 11	из	_	_	_	_	_	_	_	_
 12	офиса	_	_	_	_	_	_	_	bratT31=Organization
-13	президента	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization
+13	президента	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization|bratT67=Person
 14	они	_	_	_	_	_	_	_	_
 15	изолированы	_	_	_	_	_	_	_	SpaceAfter=No
 16	.	_	_	_	_	_	_	_	_

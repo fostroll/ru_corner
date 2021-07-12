@@ -3,8 +3,8 @@
 # par_text = Премьер Армении сообщил о сотнях солдат, пропавших без вести в Карабахе
 # sent_id = 0097-p1-s1
 # text = Премьер Армении сообщил о сотнях солдат, пропавших без вести в Карабахе
-1	Премьер	_	_	_	_	_	_	_	bratT1=Person-property
-2	Армении	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=GPE
+1	Премьер	_	_	_	_	_	_	_	bratA15=T66:Male|bratT1=Person-property|bratT66=Person
+2	Армении	_	_	_	_	_	_	_	bratA15=T66:Male|bratT1=Person-property|bratT2=GPE|bratT66=Person
 3	сообщил	_	_	_	_	_	_	_	_
 4	о	_	_	_	_	_	_	_	_
 5	сотнях	_	_	_	_	_	_	_	bratT3=Quantity
@@ -22,12 +22,12 @@
 # text = Несколько сотен солдат и офицеров Вооруженных сил Армении пропали без вести во время военных действий в Нагорном Карабахе.
 1	Несколько	_	_	_	_	_	_	_	bratT45=Quantity
 2	сотен	_	_	_	_	_	_	_	bratT45=Quantity
-3	солдат	_	_	_	_	_	_	_	bratT45=Quantity|bratT6=Person-property
-4	и	_	_	_	_	_	_	_	_
-5	офицеров	_	_	_	_	_	_	_	bratT7=Person-property
-6	Вооруженных	_	_	_	_	_	_	_	bratT8=Organization
-7	сил	_	_	_	_	_	_	_	bratT8=Organization
-8	Армении	_	_	_	_	_	_	_	bratT8=Organization|bratT9=GPE
+3	солдат	_	_	_	_	_	_	_	bratA16=T67:Plural|bratT45=Quantity|bratT6=Person-property|bratT67=Person-property
+4	и	_	_	_	_	_	_	_	bratA16=T67:Plural|bratT67=Person-property
+5	офицеров	_	_	_	_	_	_	_	bratA16=T67:Plural|bratT67=Person-property|bratT7=Person-property
+6	Вооруженных	_	_	_	_	_	_	_	bratA16=T67:Plural|bratT67=Person-property|bratT8=Organization
+7	сил	_	_	_	_	_	_	_	bratA16=T67:Plural|bratT67=Person-property|bratT8=Organization
+8	Армении	_	_	_	_	_	_	_	bratA16=T67:Plural|bratT67=Person-property|bratT8=Organization|bratT9=GPE
 9	пропали	_	_	_	_	_	_	_	_
 10	без	_	_	_	_	_	_	_	_
 11	вести	_	_	_	_	_	_	_	_
@@ -95,12 +95,12 @@
 10	,	_	_	_	_	_	_	_	bratA4=T37:Future|bratT37=Date-relative
 11	как	_	_	_	_	_	_	_	bratA4=T37:Future|bratT37=Date-relative
 12	найдем	_	_	_	_	_	_	_	_
-13	наших	_	_	_	_	_	_	_	_
-14	людей	_	_	_	_	_	_	_	SpaceAfter=No
+13	наших	_	_	_	_	_	_	_	bratT69=Person
+14	людей	_	_	_	_	_	_	_	SpaceAfter=No|bratT69=Person
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
 17	сказал	_	_	_	_	_	_	_	_
-18	политик	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property
+18	политик	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T68:Male|bratT16=Person-property|bratT68=Person
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0097-p3-s3
@@ -131,19 +131,19 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	обмен	_	_	_	_	_	_	_	bratT41=Event
-6	пленными	_	_	_	_	_	_	_	bratT41=Event
+6	пленными	_	_	_	_	_	_	_	bratT41=Event|bratT64=Person-property
 7	начнется	_	_	_	_	_	_	_	_
 8	после	_	_	_	_	_	_	_	bratA6=T39:Future|bratT39=Date-absolute
 9	обмена	_	_	_	_	_	_	_	bratA6=T39:Future|bratT39=Date-absolute|bratT42=Event
 10	телами	_	_	_	_	_	_	_	bratA6=T39:Future|bratT39=Date-absolute|bratT42=Event
-11	погибших	_	_	_	_	_	_	_	SpaceAfter=No|bratT42=Event
+11	погибших	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0097-p4-s2
 # text = Глава правительства Армении также отметил важность решения социальных проблем военнослужащих после войны.
-1	Глава	_	_	_	_	_	_	_	bratT19=Person-property
-2	правительства	_	_	_	_	_	_	_	bratT19=Person-property|bratT58=Organization
-3	Армении	_	_	_	_	_	_	_	bratT19=Person-property|bratT20=GPE|bratT58=Organization
+1	Глава	_	_	_	_	_	_	_	bratA18=T70:Male|bratT19=Person-property|bratT70=Person
+2	правительства	_	_	_	_	_	_	_	bratA18=T70:Male|bratT19=Person-property|bratT58=Organization|bratT70=Person
+3	Армении	_	_	_	_	_	_	_	bratA18=T70:Male|bratT19=Person-property|bratT20=GPE|bratT58=Organization|bratT70=Person
 4	также	_	_	_	_	_	_	_	_
 5	отметил	_	_	_	_	_	_	_	_
 6	важность	_	_	_	_	_	_	_	_
@@ -164,12 +164,12 @@
 3	что	_	_	_	_	_	_	_	_
 4	9	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-absolute
 5	ноября	_	_	_	_	_	_	_	bratA7=T23:Past|bratT23=Date-absolute
-6	лидеры	_	_	_	_	_	_	_	bratA1=T22:Plural|bratT22=Person-property
-7	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T22:Plural|bratT22=Person-property|bratT24=GPE
-8	,	_	_	_	_	_	_	_	bratA1=T22:Plural|bratT22=Person-property
-9	Азербайджана	_	_	_	_	_	_	_	bratA1=T22:Plural|bratT22=Person-property|bratT25=GPE
-10	и	_	_	_	_	_	_	_	bratA1=T22:Plural|bratT22=Person-property
-11	Армении	_	_	_	_	_	_	_	bratA1=T22:Plural|bratT22=Person-property|bratT26=GPE
+6	лидеры	_	_	_	_	_	_	_	bratA1=T22:Plural|bratA19=T71:Plural|bratT22=Person-property|bratT71=Person
+7	России	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T22:Plural|bratA19=T71:Plural|bratT22=Person-property|bratT24=GPE|bratT71=Person
+8	,	_	_	_	_	_	_	_	bratA1=T22:Plural|bratA19=T71:Plural|bratT22=Person-property|bratT71=Person
+9	Азербайджана	_	_	_	_	_	_	_	bratA1=T22:Plural|bratA19=T71:Plural|bratT22=Person-property|bratT25=GPE|bratT71=Person
+10	и	_	_	_	_	_	_	_	bratA1=T22:Plural|bratA19=T71:Plural|bratT22=Person-property|bratT71=Person
+11	Армении	_	_	_	_	_	_	_	bratA1=T22:Plural|bratA19=T71:Plural|bratT22=Person-property|bratT26=GPE|bratT71=Person
 12	подписали	_	_	_	_	_	_	_	_
 13	совместное	_	_	_	_	_	_	_	_
 14	заявление	_	_	_	_	_	_	_	_
@@ -202,7 +202,7 @@
 14	государства	_	_	_	_	_	_	_	bratT57=GPE
 15	проводят	_	_	_	_	_	_	_	_
 16	обмен	_	_	_	_	_	_	_	bratT46=Event
-17	пленными	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event
+17	пленными	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event|bratT65=Person-property
 18	,	_	_	_	_	_	_	_	_
 19	а	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_

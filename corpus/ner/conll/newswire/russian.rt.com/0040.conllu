@@ -95,8 +95,8 @@
 10	ещё	_	_	_	_	_	_	_	_
 11	не	_	_	_	_	_	_	_	_
 12	сделал	_	_	_	_	_	_	_	_
-13	прививку	_	_	_	_	_	_	_	bratT6=Other-term
-14	от	_	_	_	_	_	_	_	bratT6=Other-term
+13	прививку	_	_	_	_	_	_	_	_
+14	от	_	_	_	_	_	_	_	_
 15	коронавируса	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Other-term
 16	.	_	_	_	_	_	_	_	_
 
@@ -112,7 +112,7 @@
 6	началась	_	_	_	_	_	_	_	_
 7	ещё	_	_	_	_	_	_	_	_
 8	широкая	_	_	_	_	_	_	_	_
-9	вакцинация	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Other-term
+9	вакцинация	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Event|bratT7=Other-term
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0040-p5-s2
@@ -164,14 +164,14 @@
 # text = Как отметил представитель Кремля, президент не может использовать несертифицированную вакцину.
 1	Как	_	_	_	_	_	_	_	_
 2	отметил	_	_	_	_	_	_	_	_
-3	представитель	_	_	_	_	_	_	_	bratT12=Person-property
-4	Кремля	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Person-property|bratT13=Organization
+3	представитель	_	_	_	_	_	_	_	bratA12=T49:Male|bratT12=Person-property|bratT49=Person
+4	Кремля	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T49:Male|bratT12=Person-property|bratT13=Organization|bratT49=Person
 5	,	_	_	_	_	_	_	_	_
-6	президент	_	_	_	_	_	_	_	bratT14=Person-property
+6	президент	_	_	_	_	_	_	_	bratT14=Person-property|bratT50=Person
 7	не	_	_	_	_	_	_	_	_
 8	может	_	_	_	_	_	_	_	_
 9	использовать	_	_	_	_	_	_	_	_
-10	несертифицированную	_	_	_	_	_	_	_	bratT22=Other-term
+10	несертифицированную	_	_	_	_	_	_	_	_
 11	вакцину	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Other-term
 12	.	_	_	_	_	_	_	_	_
 
@@ -220,7 +220,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	что	_	_	_	_	_	_	_	_
 10	массовая	_	_	_	_	_	_	_	bratT18=Event
-11	вакцинация	_	_	_	_	_	_	_	bratT18=Event
+11	вакцинация	_	_	_	_	_	_	_	bratT18=Event|bratT51=Other-term
 12	в	_	_	_	_	_	_	_	_
 13	России	_	_	_	_	_	_	_	bratT20=GPE
 14	от	_	_	_	_	_	_	_	_

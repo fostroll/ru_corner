@@ -134,7 +134,7 @@
 # text = Во время опроса выяснилось, что в октябре 2020 года юноши избили на Ленинском проспекте уроженцев других стран, работающих дворниками, рассказали в ведомстве.
 1	Во	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
 2	время	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
-3	опроса	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute
+3	опроса	_	_	_	_	_	_	_	bratA12=T21:Past|bratT21=Date-absolute|bratT70=Event
 4	выяснилось	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_
@@ -167,7 +167,7 @@
 4	они	_	_	_	_	_	_	_	_
 5	требовали	_	_	_	_	_	_	_	_
 6	у	_	_	_	_	_	_	_	_
-7	работников	_	_	_	_	_	_	_	bratT25=Person-property|bratT70=Person
+7	работников	_	_	_	_	_	_	_	bratT25=Person-property
 8	деньги	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_
 
@@ -225,7 +225,7 @@
 19	,	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-alias
 21	Безжалостный	_	_	_	_	_	_	_	bratT34=Person-alias
-22	убийца	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-alias
+22	убийца	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Person-alias|bratT77=Person-property
 23	''	_	_	_	_	_	_	_	bratT34=Person-alias
 24	и	_	_	_	_	_	_	_	_
 25	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person-alias

@@ -8,8 +8,8 @@
 3	12	_	_	_	_	_	_	_	bratA5=T2:Future|bratT2=Date-absolute
 4	ноября	_	_	_	_	_	_	_	bratA5=T2:Future|bratT2=Date-absolute
 5	планируется	_	_	_	_	_	_	_	_
-6	новый	_	_	_	_	_	_	_	_
-7	марш	_	_	_	_	_	_	_	_
+6	новый	_	_	_	_	_	_	_	bratT47=Event
+7	марш	_	_	_	_	_	_	_	bratT47=Event
 8	с	_	_	_	_	_	_	_	_
 9	требованием	_	_	_	_	_	_	_	_
 10	отставки	_	_	_	_	_	_	_	bratT42=Event
@@ -39,7 +39,7 @@
 18	по	_	_	_	_	_	_	_	bratA2=T7:Future|bratT7=Date-absolute|bratT9=Time-absolute
 19	мск	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T7:Future|bratT37=GPE|bratT7=Date-absolute|bratT9=Time-absolute
 20	)	_	_	_	_	_	_	_	bratA2=T7:Future|bratT7=Date-absolute
-21	новый	_	_	_	_	_	_	_	_
+21	новый	_	_	_	_	_	_	_	bratT25=Event
 22	протестный	_	_	_	_	_	_	_	bratT25=Event
 23	марш	_	_	_	_	_	_	_	bratT25=Event
 24	с	_	_	_	_	_	_	_	_
@@ -56,9 +56,9 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщили	_	_	_	_	_	_	_	_
-4	представители	_	_	_	_	_	_	_	bratT21=Political-group
-5	оппозиционных	_	_	_	_	_	_	_	bratA10=T44:Adjective|bratT21=Political-group|bratT43=Organization|bratT44=Political-group
-6	сил	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Political-group|bratT43=Organization
+4	представители	_	_	_	_	_	_	_	bratT21=Person-property|bratT49=Person
+5	оппозиционных	_	_	_	_	_	_	_	bratA10=T44:Adjective|bratT21=Person-property|bratT43=Organization|bratT44=Political-group|bratT49=Person
+6	сил	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT43=Organization|bratT49=Person
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0103-p3
@@ -94,7 +94,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	приходите	_	_	_	_	_	_	_	_
 8	на	_	_	_	_	_	_	_	_
-9	марш	_	_	_	_	_	_	_	SpaceAfter=No
+9	марш	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 10	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0103-p3-s4

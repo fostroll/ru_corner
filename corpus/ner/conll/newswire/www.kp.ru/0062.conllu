@@ -9,7 +9,7 @@
 4	от	_	_	_	_	_	_	_	_
 5	должности	_	_	_	_	_	_	_	bratT4=Person-property
 6	полпреда	_	_	_	_	_	_	_	bratT4=Person-property
-7	президента	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person-property
+7	президента	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person-property|bratT68=Person
 8	в	_	_	_	_	_	_	_	bratT4=Person-property
 9	Уральском	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=GPE
 10	федеральном	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=GPE
@@ -28,21 +28,21 @@
 7	Цуканова	_	_	_	_	_	_	_	bratA9=T9:Male|bratT48=Person-surname|bratT9=Person
 8	от	_	_	_	_	_	_	_	_
 9	должности	_	_	_	_	_	_	_	bratT10=Person-property
-10	полпреда	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
-11	главы	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
-12	государства	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property|bratT62=GPE
-13	в	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property
-14	Уральском	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property|bratT12=GPE
-15	федеральном	_	_	_	_	_	_	_	bratT10=Person-property|bratT11=Person-property|bratT12=GPE
-16	округе	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT11=Person-property|bratT12=GPE
+10	полпреда	_	_	_	_	_	_	_	bratT10=Person-property
+11	главы	_	_	_	_	_	_	_	bratT10=Person-property|bratT69=Person|bratT70=Person-property
+12	государства	_	_	_	_	_	_	_	bratT10=Person-property|bratT62=GPE|bratT69=Person|bratT70=Person-property
+13	в	_	_	_	_	_	_	_	bratT10=Person-property
+14	Уральском	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=GPE
+15	федеральном	_	_	_	_	_	_	_	bratT10=Person-property|bratT12=GPE
+16	округе	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT12=GPE
 17	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0062-p2-s2
 # text = Полномочным представителем российского лидера в УФО назначен глава Минстроя Владимир Якушев, который теперь перестает исполнять полномочия министра.
 1	Полномочным	_	_	_	_	_	_	_	bratT32=Person-property
 2	представителем	_	_	_	_	_	_	_	bratT32=Person-property
-3	российского	_	_	_	_	_	_	_	bratA14=T59:Adjective|bratT32=Person-property|bratT33=Person-property|bratT59=GPE
-4	лидера	_	_	_	_	_	_	_	bratT32=Person-property|bratT33=Person-property
+3	российского	_	_	_	_	_	_	_	bratA14=T59:Adjective|bratT11=Person|bratT32=Person-property|bratT33=Person-property|bratT59=GPE
+4	лидера	_	_	_	_	_	_	_	bratT11=Person|bratT32=Person-property|bratT33=Person-property
 5	в	_	_	_	_	_	_	_	bratT32=Person-property
 6	УФО	_	_	_	_	_	_	_	bratT32=Person-property|bratT34=GPE
 7	назначен	_	_	_	_	_	_	_	_
@@ -72,9 +72,9 @@
 7	должности	_	_	_	_	_	_	_	bratT17=Person-property
 8	полномочного	_	_	_	_	_	_	_	bratT17=Person-property
 9	представителя	_	_	_	_	_	_	_	bratT17=Person-property
-10	Президента	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person-property
-11	Российской	_	_	_	_	_	_	_	bratT14=GPE|bratT16=Person-property|bratT17=Person-property
-12	Федерации	_	_	_	_	_	_	_	bratT14=GPE|bratT16=Person-property|bratT17=Person-property
+10	Президента	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Person-property|bratT71=Person
+11	Российской	_	_	_	_	_	_	_	bratT14=GPE|bratT16=Person-property|bratT17=Person-property|bratT71=Person
+12	Федерации	_	_	_	_	_	_	_	bratT14=GPE|bratT16=Person-property|bratT17=Person-property|bratT71=Person
 13	в	_	_	_	_	_	_	_	bratT17=Person-property
 14	Уральском	_	_	_	_	_	_	_	bratT15=GPE|bratT17=Person-property
 15	федеральном	_	_	_	_	_	_	_	bratT15=GPE|bratT17=Person-property
@@ -116,8 +116,8 @@
 # par_text = Российский лидер также подписал указ об отставке министра транспорта Евгения Дитриха и главы Минприроды Дмитрия Кобылкина.
 # sent_id = 0062-p5-s1
 # text = Российский лидер также подписал указ об отставке министра транспорта Евгения Дитриха и главы Минприроды Дмитрия Кобылкина.
-1	Российский	_	_	_	_	_	_	_	bratT21=Person-property|bratT58=GPE
-2	лидер	_	_	_	_	_	_	_	bratT21=Person-property
+1	Российский	_	_	_	_	_	_	_	bratA15=T72:Male|bratT21=Person-property|bratT58=GPE|bratT72=Person
+2	лидер	_	_	_	_	_	_	_	bratA15=T72:Male|bratT21=Person-property|bratT72=Person
 3	также	_	_	_	_	_	_	_	_
 4	подписал	_	_	_	_	_	_	_	_
 5	указ	_	_	_	_	_	_	_	_
@@ -146,8 +146,8 @@
 5	.	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Media|bratA3=T44:Media|bratT27=Service|bratT44=Organization|bratT61=Web-address
 6	ru	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T27:Media|bratA3=T44:Media|bratT27=Service|bratT44=Organization|bratT61=Web-address
 7	,	_	_	_	_	_	_	_	_
-8	глава	_	_	_	_	_	_	_	bratT64=Person-property
-9	государства	_	_	_	_	_	_	_	bratT63=GPE|bratT64=Person-property
+8	глава	_	_	_	_	_	_	_	bratA16=T73:Male|bratT64=Person-property|bratT73=Person
+9	государства	_	_	_	_	_	_	_	bratA16=T73:Male|bratT63=GPE|bratT64=Person-property|bratT73=Person
 10	также	_	_	_	_	_	_	_	_
 11	ввел	_	_	_	_	_	_	_	_
 12	в	_	_	_	_	_	_	_	_

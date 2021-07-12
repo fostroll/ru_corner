@@ -51,16 +51,16 @@
 4	народ	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Citizenship|bratT7=Nationality
 5	,	_	_	_	_	_	_	_	_
 6	свою	_	_	_	_	_	_	_	_
-7	партию	_	_	_	_	_	_	_	_
+7	партию	_	_	_	_	_	_	_	bratT52=Organization
 8	и	_	_	_	_	_	_	_	_
-9	супругу	_	_	_	_	_	_	_	bratT9=Family
+9	супругу	_	_	_	_	_	_	_	bratA17=T53:Female|bratT53=Person|bratT9=Family
 10	за	_	_	_	_	_	_	_	_
 11	поддержку	_	_	_	_	_	_	_	SpaceAfter=No
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0093-p3-s2
 # text = Республиканец отметил, что есть группа людей, которая хочет лишить других права голоса.
-1	Республиканец	_	_	_	_	_	_	_	bratT8=Political-group
+1	Республиканец	_	_	_	_	_	_	_	bratA18=T54:Male|bratT54=Person|bratT8=Political-group
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	его	_	_	_	_	_	_	_	_
-6	партия	_	_	_	_	_	_	_	_
+6	партия	_	_	_	_	_	_	_	bratT55=Organization
 7	выиграла	_	_	_	_	_	_	_	_
 8	там	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
@@ -233,8 +233,8 @@
 5	в	_	_	_	_	_	_	_	_
 6	некоторых	_	_	_	_	_	_	_	_
 7	штатах	_	_	_	_	_	_	_	_
-8	подсчет	_	_	_	_	_	_	_	_
-9	голосов	_	_	_	_	_	_	_	_
+8	подсчет	_	_	_	_	_	_	_	bratT57=Event
+9	голосов	_	_	_	_	_	_	_	bratT57=Event
 10	остановился	_	_	_	_	_	_	_	SpaceAfter=No
 11	.	_	_	_	_	_	_	_	_
 
@@ -295,7 +295,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_
 8	сказал	_	_	_	_	_	_	_	_
-9	президент	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
+9	президент	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T56:Male|bratT25=Person-property|bratT56=Person
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0093-p8

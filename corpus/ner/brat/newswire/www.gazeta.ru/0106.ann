@@ -7,7 +7,7 @@ T6	Organization 325 333	МИД   РФ
 T7	Ordinal 305 311	первый
 T8	Person-property 305 333	первый   замглавы   МИД   РФ
 T9	Person 305 352	первый   замглавы   МИД   РФ   Владимир   Титов
-T10	Organization 383 386	ФРГ
+T10	GPE 383 386	ФРГ
 T11	Person-property 374 386	послом   ФРГ
 T12	Person 374 421	послом   ФРГ   Гезой   Андреасом   фон   Гайром
 T13	Organization 454 499	российского   внешнеполитического   ведомства
@@ -40,3 +40,7 @@ T32	Event 912 919	встрече
 T33	Event 360 367	встрече
 T34	GPE 274 279	стран
 T35	Event 231 238	санкции
+T36	Date-absolute 355 367	на   встрече
+A8	Past T36
+T37	Date-absolute 907 919	на   встрече
+A9	Past T37

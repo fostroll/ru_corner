@@ -37,7 +37,7 @@ T34	Date-period-absolute 49 69	в   ходе   протестов
 T35	Date-period-absolute 82 102	В   ходе   протестов
 T36	Percent 788 804	более   половины
 T37	Date-period-absolute 474 487	шестой   дней
-T38	Other-term 299 309	импичмента
+T38	Event 299 309	импичмента
 T39	Date-absolute 678 704	после   жесткого   разгона
 T40	Event 686 704	жесткого   разгона
 T41	Event 718 745	массовых   акций   протеста
@@ -57,8 +57,14 @@ T46	Person-forename 419 426	Мануэля
 T47	Person-surname 429 435	Мерино
 A11	Male T10
 A12	Male T12
-T48	Event 873 881	отставку
+T48	Event 861 881	уходе   в   отставку
 T49	GPE 230 236	стране
 T50	Organization 1004 1017	правительства
 T51	Organization 534 542	больницы
 T52	Event 440 456	Акции   протеста
+T53	Organization 900 912	радиостанции
+A13	Media T53
+T54	Person 1068 1145	главы   Минобороны   ,   МВД   ,   Минюста   ,   Минэкономики   и   Минздрава
+A14	Plural T54
+T55	Other-term 299 309	импичмента
+T56	Event 367 387	прихода   к   власти

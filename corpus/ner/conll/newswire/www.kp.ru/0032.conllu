@@ -3,7 +3,7 @@
 # par_text = Режиссер рассказал, как Трамп попал в фильм «Один дома 2»
 # sent_id = 0032-p1-s1
 # text = Режиссер рассказал, как Трамп попал в фильм ``Один дома 2''
-1	Режиссер	_	_	_	_	_	_	_	bratT1=Person-property
+1	Режиссер	_	_	_	_	_	_	_	bratA14=T52:Male|bratT1=Person-property|bratT52=Person
 2	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	как	_	_	_	_	_	_	_	_
@@ -73,14 +73,14 @@
 7	группа	_	_	_	_	_	_	_	bratT51=Organization
 8	выбрала	_	_	_	_	_	_	_	_
 9	для	_	_	_	_	_	_	_	_
-10	съемок	_	_	_	_	_	_	_	_
+10	съемок	_	_	_	_	_	_	_	bratT54=Event
 11	принадлежавший	_	_	_	_	_	_	_	_
 12	тогда	_	_	_	_	_	_	_	bratA15=T49:Past|bratT49=Date-relative
-13	республиканцу	_	_	_	_	_	_	_	bratT12=Political-group
-14	отель	_	_	_	_	_	_	_	bratT13=Organization
-15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
-16	Плаза	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
-17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
+13	республиканцу	_	_	_	_	_	_	_	bratA16=T53:Male|bratT12=Political-group|bratT53=Person
+14	отель	_	_	_	_	_	_	_	bratT13=Facility
+15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Facility
+16	Плаза	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Facility
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Facility
 18	,	_	_	_	_	_	_	_	_
 19	тот	_	_	_	_	_	_	_	_
 20	неожиданно	_	_	_	_	_	_	_	_
@@ -126,7 +126,7 @@
 26	,	_	_	_	_	_	_	_	_
 27	по	_	_	_	_	_	_	_	_
 28	словам	_	_	_	_	_	_	_	_
-29	режиссера	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property
+29	режиссера	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT55=Person
 30	,	_	_	_	_	_	_	_	_
 31	заявил	_	_	_	_	_	_	_	_
 32	ему	_	_	_	_	_	_	_	_
@@ -140,14 +140,14 @@
 1	Сцена	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	где	_	_	_	_	_	_	_	_
-4	знаменитый	_	_	_	_	_	_	_	bratT15=Person-property
-5	миллиардер	_	_	_	_	_	_	_	bratT15=Person-property
+4	знаменитый	_	_	_	_	_	_	_	bratA17=T56:Male|bratT15=Person-property|bratT56=Person
+5	миллиардер	_	_	_	_	_	_	_	bratA17=T56:Male|bratT15=Person-property|bratT56=Person
 6	подсказывает	_	_	_	_	_	_	_	_
 7	заблудившемуся	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	отеле	_	_	_	_	_	_	_	_
-10	главному	_	_	_	_	_	_	_	bratT25=Person-property
-11	герою	_	_	_	_	_	_	_	SpaceAfter=No|bratT25=Person-property
+9	отеле	_	_	_	_	_	_	_	bratT57=Facility
+10	главному	_	_	_	_	_	_	_	bratA18=T25:Fiction|bratA19=T25:Male|bratT25=Person
+11	герою	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T25:Fiction|bratA19=T25:Male|bratT25=Person
 12	,	_	_	_	_	_	_	_	_
 13	как	_	_	_	_	_	_	_	_
 14	пройти	_	_	_	_	_	_	_	_

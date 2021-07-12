@@ -5,17 +5,17 @@
 # text = Депутаты разрешили сотрудникам ФСБ и СВР иметь второе гражданство и виды на жительство для «разведывательных задач»
 1	Депутаты	_	_	_	_	_	_	_	bratT1=Person-property
 2	разрешили	_	_	_	_	_	_	_	_
-3	сотрудникам	_	_	_	_	_	_	_	bratT2=Person-property
-4	ФСБ	_	_	_	_	_	_	_	bratT2=Person-property|bratT4=Organization
-5	и	_	_	_	_	_	_	_	bratT2=Person-property
-6	СВР	_	_	_	_	_	_	_	bratT2=Person-property|bratT5=Organization
+3	сотрудникам	_	_	_	_	_	_	_	bratA7=T2:Plural|bratT2=Person-property
+4	ФСБ	_	_	_	_	_	_	_	bratA7=T2:Plural|bratT2=Person-property|bratT4=Organization
+5	и	_	_	_	_	_	_	_	bratA7=T2:Plural|bratT2=Person-property
+6	СВР	_	_	_	_	_	_	_	bratA7=T2:Plural|bratT2=Person-property|bratT5=Organization
 7	иметь	_	_	_	_	_	_	_	_
 8	второе	_	_	_	_	_	_	_	bratT6=Ordinal
 9	гражданство	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
-11	виды	_	_	_	_	_	_	_	_
-12	на	_	_	_	_	_	_	_	_
-13	жительство	_	_	_	_	_	_	_	_
+11	виды	_	_	_	_	_	_	_	bratT28=Other-term
+12	на	_	_	_	_	_	_	_	bratT28=Other-term
+13	жительство	_	_	_	_	_	_	_	bratT28=Other-term
 14	для	_	_	_	_	_	_	_	_
 15	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 16	разведывательных	_	_	_	_	_	_	_	_
@@ -89,9 +89,9 @@
 11	другого	_	_	_	_	_	_	_	_
 12	гражданства	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
-14	вида	_	_	_	_	_	_	_	_
-15	на	_	_	_	_	_	_	_	_
-16	жительства	_	_	_	_	_	_	_	_
+14	вида	_	_	_	_	_	_	_	bratT43=Other-term
+15	на	_	_	_	_	_	_	_	bratT43=Other-term
+16	жительства	_	_	_	_	_	_	_	bratT43=Other-term
 17	или	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No
 19	иного	_	_	_	_	_	_	_	_

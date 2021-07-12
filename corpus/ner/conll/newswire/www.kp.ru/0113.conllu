@@ -35,13 +35,13 @@
 
 # sent_id = 0113-p2-s2
 # text = Местные эксперты выявили способность геморрагической лихорадки Чапаре, открытой в 2004 году, передаваться человеку.
-1	Местные	_	_	_	_	_	_	_	bratA10=T28:Adjective|bratT28=GPE|bratT3=Person-property
-2	эксперты	_	_	_	_	_	_	_	bratT3=Person-property
+1	Местные	_	_	_	_	_	_	_	bratA10=T28:Adjective|bratT28=GPE|bratT3=Person-property|bratT32=Person
+2	эксперты	_	_	_	_	_	_	_	bratT3=Person-property|bratT32=Person
 3	выявили	_	_	_	_	_	_	_	_
 4	способность	_	_	_	_	_	_	_	_
 5	геморрагической	_	_	_	_	_	_	_	bratT4=Other-term
 6	лихорадки	_	_	_	_	_	_	_	bratT4=Other-term
-7	Чапаре	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term
+7	Чапаре	_	_	_	_	_	_	_	SpaceAfter=No|bratT38=Location|bratT4=Other-term
 8	,	_	_	_	_	_	_	_	_
 9	открытой	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	bratA5=T5:Past|bratT5=Date-absolute
@@ -81,7 +81,7 @@
 10	материалах	_	_	_	_	_	_	_	_
 11	Американского	_	_	_	_	_	_	_	bratA1=T7:Media|bratA8=T26:Adjective|bratT26=GPE|bratT7=Organization
 12	общества	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
-13	тропической	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
+13	тропической	_	_	_	_	_	_	_	bratA1=T7:Media|bratA12=T33:Adjective|bratT33=Location|bratT7=Organization
 14	медицины	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
 15	и	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
 16	гигиены	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
@@ -171,8 +171,8 @@
 2	в	_	_	_	_	_	_	_	bratA2=T12:Past|bratT12=Date-absolute
 3	прошлом	_	_	_	_	_	_	_	bratA2=T12:Past|bratT12=Date-absolute|bratT6=Ordinal
 4	году	_	_	_	_	_	_	_	bratA2=T12:Past|bratT12=Date-absolute
-5	вспышка	_	_	_	_	_	_	_	_
-6	болезни	_	_	_	_	_	_	_	_
+5	вспышка	_	_	_	_	_	_	_	bratT36=Event
+6	болезни	_	_	_	_	_	_	_	bratT36=Event
 7	случилась	_	_	_	_	_	_	_	_
 8	вновь	_	_	_	_	_	_	_	SpaceAfter=No
 9	.	_	_	_	_	_	_	_	_
@@ -181,7 +181,7 @@
 # text = От зараженного фермера вирус передался и ухаживающим за ним медсестрам.
 1	От	_	_	_	_	_	_	_	_
 2	зараженного	_	_	_	_	_	_	_	_
-3	фермера	_	_	_	_	_	_	_	bratT14=Person-property
+3	фермера	_	_	_	_	_	_	_	bratT14=Person-property|bratT34=Person
 4	вирус	_	_	_	_	_	_	_	_
 5	передался	_	_	_	_	_	_	_	_
 6	и	_	_	_	_	_	_	_	_
@@ -193,11 +193,11 @@
 
 # sent_id = 0113-p4-s5
 # text = Специалисты выявили, что лихорадка передается лишь через жидкости.
-1	Специалисты	_	_	_	_	_	_	_	bratT15=Person-property
+1	Специалисты	_	_	_	_	_	_	_	bratT15=Person-property|bratT35=Person
 2	выявили	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	лихорадка	_	_	_	_	_	_	_	_
+5	лихорадка	_	_	_	_	_	_	_	bratT37=Other-term
 6	передается	_	_	_	_	_	_	_	_
 7	лишь	_	_	_	_	_	_	_	_
 8	через	_	_	_	_	_	_	_	_
@@ -212,7 +212,7 @@
 2	симптомов	_	_	_	_	_	_	_	_
 3	геморрагической	_	_	_	_	_	_	_	bratT16=Other-term
 4	лихорадки	_	_	_	_	_	_	_	bratT16=Other-term
-5	Чапаре	_	_	_	_	_	_	_	bratT16=Other-term
+5	Чапаре	_	_	_	_	_	_	_	bratT16=Other-term|bratT39=Location
 6	чаще	_	_	_	_	_	_	_	_
 7	всего	_	_	_	_	_	_	_	_
 8	встречаются	_	_	_	_	_	_	_	_
@@ -268,7 +268,7 @@
 18	здоровью	_	_	_	_	_	_	_	_
 19	и	_	_	_	_	_	_	_	_
 20	в	_	_	_	_	_	_	_	_
-21	случае	_	_	_	_	_	_	_	bratT31=Event
+21	случае	_	_	_	_	_	_	_	_
 22	появления	_	_	_	_	_	_	_	bratT31=Event
 23	подомных	_	_	_	_	_	_	_	_
 24	симптомов	_	_	_	_	_	_	_	_

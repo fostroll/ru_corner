@@ -31,7 +31,7 @@
 7	топ	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Quantity
 8	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT5=Quantity
 9	250	_	_	_	_	_	_	_	bratT5=Quantity
-10	высших	_	_	_	_	_	_	_	bratT67=Organization
+10	высших	_	_	_	_	_	_	_	bratT67=Organization|bratT80=Ordinal
 11	учебных	_	_	_	_	_	_	_	bratT67=Organization
 12	заведений	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Organization
 13	,	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 5	мнению	_	_	_	_	_	_	_	_
 6	работодателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT79=Organization
 7	,	_	_	_	_	_	_	_	_
-8	британский	_	_	_	_	_	_	_	bratT13=Organization|bratT56=GPE
+8	британский	_	_	_	_	_	_	_	bratT13=Organization|bratT56=GPE|bratT65=GPE
 9	Оксфорд	_	_	_	_	_	_	_	bratT13=Organization|bratT65=GPE
 10	и	_	_	_	_	_	_	_	_
 11	Кембридж	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=GPE|bratT64=Organization
@@ -250,7 +250,7 @@
 # sent_id = 0076-p7-s2
 # text = Также журналисты побеседовали с HR-специалистами из многих крупных международных корпораций.
 1	Также	_	_	_	_	_	_	_	_
-2	журналисты	_	_	_	_	_	_	_	bratT44=Person-property
+2	журналисты	_	_	_	_	_	_	_	bratT44=Person-property|bratT81=Person
 3	побеседовали	_	_	_	_	_	_	_	_
 4	с	_	_	_	_	_	_	_	_
 5-7	HR-специалистами	_	_	_	_	_	_	_	_

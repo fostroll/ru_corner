@@ -7,7 +7,7 @@
 2	полицейских	_	_	_	_	_	_	_	bratT1=Quantity|bratT2=Person-property|bratT72=Person
 3	пострадали	_	_	_	_	_	_	_	_
 4	после	_	_	_	_	_	_	_	bratA6=T42:Past|bratT42=Date-absolute
-5	столкновений	_	_	_	_	_	_	_	bratA6=T42:Past|bratT42=Date-absolute
+5	столкновений	_	_	_	_	_	_	_	bratA6=T42:Past|bratT42=Date-absolute|bratT75=Event
 6	между	_	_	_	_	_	_	_	_
 7	сторонниками	_	_	_	_	_	_	_	bratT35=Political-group
 8	и	_	_	_	_	_	_	_	_
@@ -34,7 +34,7 @@
 12	полицейских	_	_	_	_	_	_	_	bratT44=Person-property|bratT7=Quantity|bratT73=Person
 13	во	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
 14	время	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
-15	столкновений	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute
+15	столкновений	_	_	_	_	_	_	_	bratA7=T41:Past|bratT41=Date-absolute|bratT76=Event
 16	между	_	_	_	_	_	_	_	_
 17	сторонниками	_	_	_	_	_	_	_	bratT67=Political-group
 18	и	_	_	_	_	_	_	_	_
@@ -50,13 +50,13 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщил	_	_	_	_	_	_	_	_
-4	официальный	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property
-5	представитель	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property
-6	полиции	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT13=Organization
-7	американской	_	_	_	_	_	_	_	bratA12=T55:Adjective|bratT11=Person|bratT12=Person-property|bratT13=Organization|bratT36=GPE|bratT55=GPE
-8	столицы	_	_	_	_	_	_	_	bratT11=Person|bratT12=Person-property|bratT13=Organization|bratT36=GPE
-9	Брианна	_	_	_	_	_	_	_	bratT11=Person|bratT51=Person-forename
-10	Джордан	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Person|bratT52=Person-surname
+4	официальный	_	_	_	_	_	_	_	bratA15=T11:Female|bratT11=Person|bratT12=Person-property
+5	представитель	_	_	_	_	_	_	_	bratA15=T11:Female|bratT11=Person|bratT12=Person-property
+6	полиции	_	_	_	_	_	_	_	bratA15=T11:Female|bratT11=Person|bratT12=Person-property|bratT13=Organization
+7	американской	_	_	_	_	_	_	_	bratA12=T55:Adjective|bratA15=T11:Female|bratT11=Person|bratT12=Person-property|bratT13=Organization|bratT36=GPE|bratT55=GPE
+8	столицы	_	_	_	_	_	_	_	bratA15=T11:Female|bratT11=Person|bratT12=Person-property|bratT13=Organization|bratT36=GPE
+9	Брианна	_	_	_	_	_	_	_	bratA15=T11:Female|bratT11=Person|bratT51=Person-forename
+10	Джордан	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T11:Female|bratT11=Person|bratT52=Person-surname
 11	,	_	_	_	_	_	_	_	_
 12	уточнив	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
@@ -99,8 +99,8 @@
 24	приводит	_	_	_	_	_	_	_	_
 25	ТАСС	_	_	_	_	_	_	_	bratA1=T18:Media|bratT18=Organization
 26	слова	_	_	_	_	_	_	_	_
-27	представителя	_	_	_	_	_	_	_	bratT19=Person-property
-28	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT20=Organization
+27	представителя	_	_	_	_	_	_	_	bratT19=Person-property|bratT77=Person
+28	полиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Person-property|bratT20=Organization|bratT77=Person
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0089-p4
@@ -182,7 +182,7 @@
 2	к	_	_	_	_	_	_	_	_
 3	акции	_	_	_	_	_	_	_	bratT62=Event
 4	присоединились	_	_	_	_	_	_	_	_
-5	радикалы	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Other-group
+5	радикалы	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Political-group
 6	,	_	_	_	_	_	_	_	_
 7	которые	_	_	_	_	_	_	_	_
 8	устроили	_	_	_	_	_	_	_	_
@@ -208,8 +208,8 @@
 12	напали	_	_	_	_	_	_	_	_
 13	на	_	_	_	_	_	_	_	_
 14	сторонников	_	_	_	_	_	_	_	bratT71=Political-group
-15	действующего	_	_	_	_	_	_	_	bratT30=Person-property|bratT65=Person
-16	главы	_	_	_	_	_	_	_	bratT30=Person-property|bratT65=Person
-17	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Person-property|bratT31=GPE|bratT65=Person
+15	действующего	_	_	_	_	_	_	_	bratA16=T65:Male|bratT30=Person-property|bratT65=Person
+16	главы	_	_	_	_	_	_	_	bratA16=T65:Male|bratT30=Person-property|bratT65=Person
+17	США	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T65:Male|bratT30=Person-property|bratT31=GPE|bratT65=Person
 18	.	_	_	_	_	_	_	_	_
 

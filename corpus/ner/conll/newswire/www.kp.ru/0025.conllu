@@ -35,8 +35,8 @@
 11	ru	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Organization|bratT50=Web-address
 12	слухи	_	_	_	_	_	_	_	_
 13	о	_	_	_	_	_	_	_	_
-14	возможном	_	_	_	_	_	_	_	_
-15	уходе	_	_	_	_	_	_	_	_
+14	возможном	_	_	_	_	_	_	_	bratT61=Event
+15	уходе	_	_	_	_	_	_	_	bratT61=Event
 16	Артема	_	_	_	_	_	_	_	bratA9=T6:Male|bratT38=Person-forename|bratT6=Person
 17	Дзюбы	_	_	_	_	_	_	_	bratA9=T6:Male|bratT39=Person-surname|bratT6=Person
 18	из	_	_	_	_	_	_	_	_
@@ -81,7 +81,7 @@
 14	финансовые	_	_	_	_	_	_	_	_
 15	запросы	_	_	_	_	_	_	_	_
 16	самого	_	_	_	_	_	_	_	_
-17	футболиста	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Person-property
+17	футболиста	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T58:Male|bratT58=Person|bratT9=Person-property
 18	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0025-p3-s2
@@ -107,7 +107,7 @@
 3	информация	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	нападающий	_	_	_	_	_	_	_	bratT15=Person-property
+6	нападающий	_	_	_	_	_	_	_	bratA20=T59:Male|bratT15=Person-property|bratT59=Person
 7	получает	_	_	_	_	_	_	_	_
 8	3,6	_	_	_	_	_	_	_	bratT14=Money
 9	млн	_	_	_	_	_	_	_	bratT14=Money
@@ -299,7 +299,7 @@
 1	Тот	_	_	_	_	_	_	_	_
 2	же	_	_	_	_	_	_	_	_
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
-4	Вольфсбург	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
+4	Вольфсбург	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT60=GPE
 5	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization
 6	,	_	_	_	_	_	_	_	_
 7	например	_	_	_	_	_	_	_	SpaceAfter=No

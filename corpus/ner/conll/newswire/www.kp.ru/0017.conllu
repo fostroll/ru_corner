@@ -3,9 +3,9 @@
 # par_text = Главный диетолог Минздрава назвал способы быстро похудеть
 # sent_id = 0017-p1-s1
 # text = Главный диетолог Минздрава назвал способы быстро похудеть
-1	Главный	_	_	_	_	_	_	_	bratT1=Person-property
-2	диетолог	_	_	_	_	_	_	_	bratT1=Person-property
-3	Минздрава	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+1	Главный	_	_	_	_	_	_	_	bratA8=T33:Male|bratT1=Person-property|bratT33=Person
+2	диетолог	_	_	_	_	_	_	_	bratA8=T33:Male|bratT1=Person-property|bratT33=Person
+3	Минздрава	_	_	_	_	_	_	_	bratA8=T33:Male|bratT1=Person-property|bratT2=Organization|bratT33=Person
 4	назвал	_	_	_	_	_	_	_	_
 5	способы	_	_	_	_	_	_	_	_
 6	быстро	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 23	,	_	_	_	_	_	_	_	_
 24	-	_	_	_	_	_	_	_	_
 25	сообщил	_	_	_	_	_	_	_	_
-26	эксперт	_	_	_	_	_	_	_	bratT18=Person-property
+26	эксперт	_	_	_	_	_	_	_	bratA9=T34:Male|bratT18=Person-property|bratT34=Person
 27	в	_	_	_	_	_	_	_	bratA2=T19:Past|bratT19=Date-absolute
 28	ходе	_	_	_	_	_	_	_	bratA2=T19:Past|bratT19=Date-absolute
 29	пресс-конференции	_	_	_	_	_	_	_	bratA2=T19:Past|bratT19=Date-absolute|bratT23=Event
@@ -166,9 +166,9 @@
 # par_text = Главный диетолог Минздрава также сообщил, что в здоровом рационе человека обязательно должны содержаться молочные продукты, мясо и рыба, которые закрывают потребность организма в белке. При этом сосиски и колбасы содержат до 30% жира, их из рациона лучше исключить.
 # sent_id = 0017-p5-s1
 # text = Главный диетолог Минздрава также сообщил, что в здоровом рационе человека обязательно должны содержаться молочные продукты, мясо и рыба, которые закрывают потребность организма в белке.
-1	Главный	_	_	_	_	_	_	_	bratT11=Person-property
-2	диетолог	_	_	_	_	_	_	_	bratT11=Person-property
-3	Минздрава	_	_	_	_	_	_	_	bratT11=Person-property|bratT17=Organization
+1	Главный	_	_	_	_	_	_	_	bratA10=T35:Male|bratT11=Person-property|bratT35=Person
+2	диетолог	_	_	_	_	_	_	_	bratA10=T35:Male|bratT11=Person-property|bratT35=Person
+3	Минздрава	_	_	_	_	_	_	_	bratA10=T35:Male|bratT11=Person-property|bratT17=Organization|bratT35=Person
 4	также	_	_	_	_	_	_	_	_
 5	сообщил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
@@ -236,7 +236,7 @@
 14	русскую	_	_	_	_	_	_	_	bratA7=T31:Adjective|bratT31=Nationality
 15	кухню	_	_	_	_	_	_	_	SpaceAfter=No
 16	:	_	_	_	_	_	_	_	_
-17	эксперту	_	_	_	_	_	_	_	bratT20=Person-property
+17	эксперту	_	_	_	_	_	_	_	bratA11=T36:Male|bratT20=Person-property|bratT36=Person
 18	нравится	_	_	_	_	_	_	_	_
 19	копченая	_	_	_	_	_	_	_	_
 20	рыба	_	_	_	_	_	_	_	SpaceAfter=No

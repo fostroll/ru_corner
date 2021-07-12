@@ -3,7 +3,7 @@
 # par_text = Доктор назвала фрукты, которыми можно заменить мандарины, если у вас аллергия
 # sent_id = 0024-p1-s1
 # text = Доктор назвала фрукты, которыми можно заменить мандарины, если у вас аллергия
-1	Доктор	_	_	_	_	_	_	_	bratT1=Person-property
+1	Доктор	_	_	_	_	_	_	_	bratA4=T25:Female|bratT1=Person-property|bratT25=Person
 2	назвала	_	_	_	_	_	_	_	_
 3	фрукты	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
@@ -132,7 +132,7 @@
 5	ru	_	_	_	_	_	_	_	bratA1=T6:Media|bratT24=Web-address|bratT6=Organization
 6	по	_	_	_	_	_	_	_	_
 7	поводу	_	_	_	_	_	_	_	_
-8	аллергии	_	_	_	_	_	_	_	_
+8	аллергии	_	_	_	_	_	_	_	bratT26=Other-term
 9	на	_	_	_	_	_	_	_	_
 10	мандарины	_	_	_	_	_	_	_	_
 11	ответила	_	_	_	_	_	_	_	_
@@ -218,6 +218,6 @@
 10	,	_	_	_	_	_	_	_	_
 11	-	_	_	_	_	_	_	_	_
 12	пояснила	_	_	_	_	_	_	_	_
-13	специалист	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Person-property
+13	специалист	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T27:Female|bratT17=Person-property|bratT27=Person
 14	.	_	_	_	_	_	_	_	_
 

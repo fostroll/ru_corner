@@ -1,25 +1,21 @@
 T1	Person 0 5	Путин
-T2	Service 47 72	тестов   на   коронавирус
 T3	Duration 80 90	48   часов
 T4	Duration 166 176	48   часов
 T5	GPE 227 233	России
 T6	Person-property 215 233	президент   России
 T7	Person 215 252	президент   России   Владимир   Путин
 T8	Other-term 147 159	коронавируса
-T9	Service 122 159	ПЦР - диагностики   на   коронавируса
 T10	Other-term 335 347	коронавируса
 T11	Organization 424 437	правительства
 T12	Person-property 395 437	Заместитель   председателя   правительства
 T13	Person 395 458	Заместитель   председателя   правительства   Татьяна   Голикова
 T14	Duration 493 503	48   часов
 T15	Other-term 565 576	коронавирус
-T16	Service 552 576	теста   на   коронавирус
 T17	Person-property 592 601	президент
 T18	Service 657 671	сайт   KP . ru
 A1	Media T18
 T19	GPE 698 704	России
 T20	Other-term 733 744	коронавирус
-T21	Service 720 744	теста   на   коронавирус
 T22	Time-period 767 791	в   течение   48   часов
 T23	Organization 850 866	Роспотребнадзора
 T24	Person-property 842 866	глава   Роспотребнадзора
@@ -34,7 +30,7 @@ T32	Date-period-absolute 931 937	теперь
 T33	Other-term 61 72	коронавирус
 T34	Organization 664 671	KP . ru
 A2	Media T34
-T35	Other-term 122 139	ПЦР - диагностики
+T35	Other-term 122 125	ПЦР
 T36	Time-period 75 90	по   48   часов
 T37	Time-period 493 503	48   часов
 T38	Duration 781 791	48   часов
@@ -58,3 +54,5 @@ T49	Web-address 664 671	KP . ru
 T50	Event 1028 1036	карантин
 T51	Event 1125 1134	изменение
 T52	Event 1074 1080	начала
+T2	Person 592 601	президент
+A9	Male T2

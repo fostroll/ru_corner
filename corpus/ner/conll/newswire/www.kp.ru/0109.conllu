@@ -52,16 +52,16 @@
 11	национальная	_	_	_	_	_	_	_	bratT43=Event
 12	манифестация	_	_	_	_	_	_	_	bratT43=Event
 13	против	_	_	_	_	_	_	_	_
-14	импичмента	_	_	_	_	_	_	_	bratT38=Other-term
+14	импичмента	_	_	_	_	_	_	_	bratT38=Event|bratT55=Other-term
 15	бывшего	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT11=Person-property
 16	президенту	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT11=Person-property
 17	Перу	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT11=Person-property|bratT17=GPE
 18	Мартину	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT44=Person-forename
 19	Вискарре	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT45=Person-surname
 20	и	_	_	_	_	_	_	_	_
-21	прихода	_	_	_	_	_	_	_	_
-22	к	_	_	_	_	_	_	_	_
-23	власти	_	_	_	_	_	_	_	_
+21	прихода	_	_	_	_	_	_	_	bratT56=Event
+22	к	_	_	_	_	_	_	_	bratT56=Event
+23	власти	_	_	_	_	_	_	_	bratT56=Event
 24	нового	_	_	_	_	_	_	_	bratA12=T12:Male|bratT12=Person|bratT13=Person-property
 25	главы	_	_	_	_	_	_	_	bratA12=T12:Male|bratT12=Person|bratT13=Person-property
 26	конгресса	_	_	_	_	_	_	_	bratA12=T12:Male|bratT12=Person|bratT13=Person-property
@@ -130,8 +130,8 @@
 24	Перу	_	_	_	_	_	_	_	bratT22=Person-property|bratT23=Organization|bratT24=GPE
 25	заявили	_	_	_	_	_	_	_	_
 26	об	_	_	_	_	_	_	_	_
-27	уходе	_	_	_	_	_	_	_	_
-28	в	_	_	_	_	_	_	_	_
+27	уходе	_	_	_	_	_	_	_	bratT48=Event
+28	в	_	_	_	_	_	_	_	bratT48=Event
 29	отставку	_	_	_	_	_	_	_	SpaceAfter=No|bratT48=Event
 30	.	_	_	_	_	_	_	_	_
 
@@ -139,7 +139,7 @@
 # text = По данным радиостанции, из 18 министров сформированного в четверг, 12 ноября, нового правительства свой пост покинули 13, среди них главы Минобороны, МВД, Минюста, Минэкономики и Минздрава.
 1	По	_	_	_	_	_	_	_	_
 2	данным	_	_	_	_	_	_	_	_
-3	радиостанции	_	_	_	_	_	_	_	SpaceAfter=No
+3	радиостанции	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T53:Media|bratT53=Organization
 4	,	_	_	_	_	_	_	_	_
 5	из	_	_	_	_	_	_	_	_
 6	18	_	_	_	_	_	_	_	bratT25=Quantity
@@ -160,15 +160,15 @@
 21	,	_	_	_	_	_	_	_	_
 22	среди	_	_	_	_	_	_	_	_
 23	них	_	_	_	_	_	_	_	_
-24	главы	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person-property
-25	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T28:Plural|bratT28=Person-property|bratT29=Organization
-26	,	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person-property
-27	МВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T28:Plural|bratT28=Person-property|bratT30=Organization
-28	,	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person-property
-29	Минюста	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T28:Plural|bratT28=Person-property|bratT33=Organization
-30	,	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person-property
-31	Минэкономики	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person-property|bratT31=Organization
-32	и	_	_	_	_	_	_	_	bratA2=T28:Plural|bratT28=Person-property
-33	Минздрава	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T28:Plural|bratT28=Person-property|bratT32=Organization
+24	главы	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT54=Person
+25	Минобороны	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT29=Organization|bratT54=Person
+26	,	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT54=Person
+27	МВД	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT30=Organization|bratT54=Person
+28	,	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT54=Person
+29	Минюста	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT33=Organization|bratT54=Person
+30	,	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT54=Person
+31	Минэкономики	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT31=Organization|bratT54=Person
+32	и	_	_	_	_	_	_	_	bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT54=Person
+33	Минздрава	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T54:Plural|bratA2=T28:Plural|bratT28=Person-property|bratT32=Organization|bratT54=Person
 34	.	_	_	_	_	_	_	_	_
 

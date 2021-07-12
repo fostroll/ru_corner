@@ -71,9 +71,9 @@
 7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product
 8	76	_	_	_	_	_	_	_	bratT13=Product|bratT42=Cardinal
 9	с	_	_	_	_	_	_	_	_
-10	командованием	_	_	_	_	_	_	_	bratA11=T43:Department|bratT43=Organization
-11	российских	_	_	_	_	_	_	_	bratA11=T43:Department|bratA8=T37:Adjective|bratT14=Person-property|bratT37=GPE|bratT43=Organization
-12	миротворцев	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T43:Department|bratT14=Person-property|bratT43=Organization
+10	командованием	_	_	_	_	_	_	_	bratA11=T43:Department|bratT43=Organization|bratT46=Person
+11	российских	_	_	_	_	_	_	_	bratA11=T43:Department|bratA8=T37:Adjective|bratT14=Person-property|bratT37=GPE|bratT43=Organization|bratT46=Person
+12	миротворцев	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T43:Department|bratT14=Person-property|bratT43=Organization|bratT46=Person
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0100-p4
@@ -109,14 +109,14 @@
 2	,	_	_	_	_	_	_	_	_
 3	9	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-absolute
 4	ноября	_	_	_	_	_	_	_	bratA5=T20:Past|bratT20=Date-absolute
-5	глава	_	_	_	_	_	_	_	bratT22=Person-property
-6	Азербайджана	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE|bratT22=Person-property
+5	глава	_	_	_	_	_	_	_	bratT22=Person-property|bratT47=Person
+6	Азербайджана	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=GPE|bratT22=Person-property|bratT47=Person
 7	,	_	_	_	_	_	_	_	_
-8	премьер-министр	_	_	_	_	_	_	_	bratT24=Person-property
-9	Армении	_	_	_	_	_	_	_	bratT23=GPE|bratT24=Person-property
+8	премьер-министр	_	_	_	_	_	_	_	bratT24=Person-property|bratT48=Person
+9	Армении	_	_	_	_	_	_	_	bratT23=GPE|bratT24=Person-property|bratT48=Person
 10	и	_	_	_	_	_	_	_	_
-11	президент	_	_	_	_	_	_	_	bratT26=Person-property
-12	России	_	_	_	_	_	_	_	bratT25=GPE|bratT26=Person-property
+11	президент	_	_	_	_	_	_	_	bratT26=Person-property|bratT49=Person
+12	России	_	_	_	_	_	_	_	bratT25=GPE|bratT26=Person-property|bratT49=Person
 13	подписали	_	_	_	_	_	_	_	_
 14	совместное	_	_	_	_	_	_	_	_
 15	заявление	_	_	_	_	_	_	_	_

@@ -9,8 +9,8 @@
 4	конфликта	_	_	_	_	_	_	_	bratT44=Event
 5	с	_	_	_	_	_	_	_	_
 6	участием	_	_	_	_	_	_	_	_
-7	сотрудников	_	_	_	_	_	_	_	bratT3=Person-property
-8	колонии	_	_	_	_	_	_	_	bratT3=Person-property|bratT57=Organization
+7	сотрудников	_	_	_	_	_	_	_	bratT3=Person-property|bratT80=Person
+8	колонии	_	_	_	_	_	_	_	bratT3=Person-property|bratT57=Organization|bratT80=Person
 9	в	_	_	_	_	_	_	_	_
 10	Кузбассе	_	_	_	_	_	_	_	bratT2=GPE
 
@@ -30,8 +30,8 @@
 10	конфликта	_	_	_	_	_	_	_	bratT47=Event
 11	с	_	_	_	_	_	_	_	_
 12	участием	_	_	_	_	_	_	_	_
-13	сотрудников	_	_	_	_	_	_	_	bratT7=Person-property
-14	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Organization|bratT7=Person-property
+13	сотрудников	_	_	_	_	_	_	_	bratT7=Person-property|bratT81=Person
+14	колонии	_	_	_	_	_	_	_	SpaceAfter=No|bratT58=Organization|bratT7=Person-property|bratT81=Person
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0110-p2-s2
@@ -59,18 +59,18 @@
 8	видеозаписи	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	участием	_	_	_	_	_	_	_	_
-11	сотрудников	_	_	_	_	_	_	_	_
+11	сотрудников	_	_	_	_	_	_	_	bratT79=Person-property|bratT82=Person
 12-14	ИК-37	_	_	_	_	_	_	_	_
-12	ИК	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
-13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization
-14	37	_	_	_	_	_	_	_	bratT13=Organization|bratT55=Ordinal
-15	ГУФСИН	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization
-16	России	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization|bratT9=GPE
-17	по	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization
-18	Кемеровской	_	_	_	_	_	_	_	bratT10=GPE|bratT12=Organization|bratT13=Organization
-19	области	_	_	_	_	_	_	_	bratT10=GPE|bratT12=Organization|bratT13=Organization
-20	-	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization
-21	Кузбассу	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Organization|bratT13=Organization
+12	ИК	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT79=Person-property|bratT82=Person
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Organization|bratT79=Person-property|bratT82=Person
+14	37	_	_	_	_	_	_	_	bratT13=Organization|bratT55=Ordinal|bratT79=Person-property|bratT82=Person
+15	ГУФСИН	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization|bratT79=Person-property|bratT82=Person
+16	России	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization|bratT79=Person-property|bratT82=Person|bratT9=GPE
+17	по	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization|bratT79=Person-property|bratT82=Person
+18	Кемеровской	_	_	_	_	_	_	_	bratT10=GPE|bratT12=Organization|bratT13=Organization|bratT79=Person-property|bratT82=Person
+19	области	_	_	_	_	_	_	_	bratT10=GPE|bratT12=Organization|bratT13=Organization|bratT79=Person-property|bratT82=Person
+20	-	_	_	_	_	_	_	_	bratT12=Organization|bratT13=Organization|bratT79=Person-property|bratT82=Person
+21	Кузбассу	_	_	_	_	_	_	_	bratT11=GPE|bratT12=Organization|bratT13=Organization|bratT79=Person-property|bratT82=Person
 22	назначена	_	_	_	_	_	_	_	_
 23	служебная	_	_	_	_	_	_	_	bratT78=Event
 24	проверка	_	_	_	_	_	_	_	SpaceAfter=No|bratT78=Event

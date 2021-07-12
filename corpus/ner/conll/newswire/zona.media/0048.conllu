@@ -4,8 +4,8 @@
 # sent_id = 0048-p1-s1
 # text = Помощника главы Россельхознадзора отправили под домашний арест по делу о совращении 13-летней школьницы
 1	Помощника	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT72=Person
-2	главы	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT72=Person
-3	Россельхознадзора	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT2=Organization|bratT72=Person
+2	главы	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT72=Person|bratT83=Person|bratT84=Person-property
+3	Россельхознадзора	_	_	_	_	_	_	_	bratA18=T72:Male|bratT1=Person-property|bratT2=Organization|bratT72=Person|bratT83=Person|bratT84=Person-property
 4	отправили	_	_	_	_	_	_	_	_
 5	под	_	_	_	_	_	_	_	_
 6	домашний	_	_	_	_	_	_	_	bratT47=Event
@@ -37,8 +37,8 @@
 11	августа	_	_	_	_	_	_	_	bratA2=T8:Past-Fut|bratT8=Date-period-absolute
 12	бывшего	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
 13	помощника	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
-14	главы	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT9=Person
-15	Россельхознадзора	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT11=Organization|bratT9=Person
+14	главы	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT81=Person-property|bratT82=Person|bratT9=Person
+15	Россельхознадзора	_	_	_	_	_	_	_	bratA3=T9:Male|bratT10=Person-property|bratT11=Organization|bratT81=Person-property|bratT82=Person|bratT9=Person
 16	Дмитрия	_	_	_	_	_	_	_	bratA3=T9:Male|bratT12=Person-forename|bratT9=Person
 17	Натарова	_	_	_	_	_	_	_	bratA3=T9:Male|bratT13=Person-surname|bratT9=Person
 18	по	_	_	_	_	_	_	_	_
@@ -133,8 +133,8 @@
 3	же	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
 4	день	_	_	_	_	_	_	_	bratA11=T37:Past|bratT37=Date-relative
 5	помощника	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT76=Person
-6	главы	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT76=Person
-7	Россельхознадзора	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT39=Organization|bratT76=Person
+6	главы	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT76=Person|bratT85=Person-property|bratT86=Person
+7	Россельхознадзора	_	_	_	_	_	_	_	bratA25=T76:Male|bratT38=Person-property|bratT39=Organization|bratT76=Person|bratT85=Person-property|bratT86=Person
 8	уволили	_	_	_	_	_	_	_	_
 9	с	_	_	_	_	_	_	_	_
 10	должности	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Person-property

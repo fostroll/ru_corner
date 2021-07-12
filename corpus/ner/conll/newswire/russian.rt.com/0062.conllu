@@ -3,7 +3,7 @@
 # par_text = Инфекционист назвал условия выхода России на плато по коронавирусу
 # sent_id = 0062-p1-s1
 # text = Инфекционист назвал условия выхода России на плато по коронавирусу
-1	Инфекционист	_	_	_	_	_	_	_	bratT1=Person-property
+1	Инфекционист	_	_	_	_	_	_	_	bratA9=T47:Male|bratT1=Person-property|bratT47=Person
 2	назвал	_	_	_	_	_	_	_	_
 3	условия	_	_	_	_	_	_	_	_
 4	выхода	_	_	_	_	_	_	_	bratT44=Event
@@ -148,7 +148,7 @@
 15	,	_	_	_	_	_	_	_	_
 16	-	_	_	_	_	_	_	_	_
 17	подчеркнул	_	_	_	_	_	_	_	_
-18	вирусолог	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property
+18	вирусолог	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T46:Male|bratT14=Person-property|bratT46=Person
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0062-p5
@@ -266,7 +266,7 @@
 21	,	_	_	_	_	_	_	_	_
 22	-	_	_	_	_	_	_	_	_
 23	пояснил	_	_	_	_	_	_	_	_
-24	инфекционист	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property
+24	инфекционист	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T48:Male|bratT48=Person|bratT7=Person-property
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0062-p9
@@ -288,7 +288,7 @@
 13	начало	_	_	_	_	_	_	_	bratT38=Event
 14	спада	_	_	_	_	_	_	_	bratT38=Event|bratT39=Event
 15	заболеваемости	_	_	_	_	_	_	_	bratT38=Event|bratT39=Event
-16	коронавирусом	_	_	_	_	_	_	_	bratT11=Other-term|bratT38=Event|bratT39=Event
+16	коронавирусом	_	_	_	_	_	_	_	bratT11=Other-term
 17	в	_	_	_	_	_	_	_	_
 18	России	_	_	_	_	_	_	_	bratT13=GPE
 19	в	_	_	_	_	_	_	_	bratA2=T12:Future|bratT12=Date-absolute

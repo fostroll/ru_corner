@@ -35,12 +35,12 @@
 2	Хабаровского	_	_	_	_	_	_	_	bratT6=Organization|bratT7=GPE
 3	края	_	_	_	_	_	_	_	bratT6=Organization|bratT7=GPE
 4	объявило	_	_	_	_	_	_	_	_
-5	конкурс	_	_	_	_	_	_	_	_
+5	конкурс	_	_	_	_	_	_	_	bratT21=Event
 6	на	_	_	_	_	_	_	_	_
 7	годовую	_	_	_	_	_	_	_	bratT11=Duration|bratT9=Time-period
 8	охрану	_	_	_	_	_	_	_	_
 9	``	_	_	_	_	_	_	_	QuotationStart=«|SpaceAfter=No|bratT14=Person-property|bratT19=Person
-10	высшего	_	_	_	_	_	_	_	bratT14=Person-property|bratT19=Person
+10	высшего	_	_	_	_	_	_	_	bratT14=Person-property|bratT19=Person|bratT20=Ordinal
 11	должностного	_	_	_	_	_	_	_	bratT14=Person-property|bratT19=Person
 12	лица	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property|bratT19=Person
 13	''	_	_	_	_	_	_	_	QuotationEnd=»|bratT14=Person-property|bratT19=Person
@@ -71,7 +71,7 @@
 # par_text = Конкурс был открыт 12 ноября, заявки будут приниматься до 4 декабря. Согласно документации к тендеру, и.о. губернатора Михаила Дегтярева должны будут год 24 часа в сутки охранять семь человек.
 # sent_id = 0091-p3-s1
 # text = Конкурс был открыт 12 ноября, заявки будут приниматься до 4 декабря.
-1	Конкурс	_	_	_	_	_	_	_	_
+1	Конкурс	_	_	_	_	_	_	_	bratT22=Event
 2	был	_	_	_	_	_	_	_	_
 3	открыт	_	_	_	_	_	_	_	_
 4	12	_	_	_	_	_	_	_	bratA6=T30:Past|bratT30=Date-absolute

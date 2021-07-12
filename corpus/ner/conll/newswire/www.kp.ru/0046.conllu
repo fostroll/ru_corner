@@ -8,11 +8,11 @@
 3	году	_	_	_	_	_	_	_	bratA4=T1:Future|bratT1=Date-absolute
 4	пройдут	_	_	_	_	_	_	_	_
 5	празднования	_	_	_	_	_	_	_	bratT66=Event
-6	двухсотлетия	_	_	_	_	_	_	_	bratA5=T39:Future|bratT2=Age|bratT39=Date-absolute|bratT4=Event
-7	со	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute|bratT4=Event
-8	дня	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute|bratT4=Event
-9	рождения	_	_	_	_	_	_	_	bratA5=T39:Future|bratT35=Event|bratT39=Date-absolute|bratT4=Event
-10	Островского	_	_	_	_	_	_	_	bratA11=T3:Male|bratT3=Person|bratT35=Event|bratT4=Event|bratT47=Person-surname
+6	двухсотлетия	_	_	_	_	_	_	_	bratA5=T39:Future|bratT2=Age|bratT39=Date-absolute|bratT4=Event|bratT66=Event
+7	со	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute
+8	дня	_	_	_	_	_	_	_	bratA5=T39:Future|bratT39=Date-absolute
+9	рождения	_	_	_	_	_	_	_	bratA5=T39:Future|bratT35=Event|bratT39=Date-absolute
+10	Островского	_	_	_	_	_	_	_	bratA11=T3:Male|bratT3=Person|bratT47=Person-surname
 
 # newpar id = 0046-p2
 # par_text = В пятницу, 13 ноября, президент России Владимир Путин подписал указ о праздновании двухсотлетия со дня рождения русского классика, драматурга Александра Островского. Мероприятия, приуроченные к юбилейной дате, состоятся в 2023 году.
@@ -32,10 +32,10 @@
 12	указ	_	_	_	_	_	_	_	bratT13=Law
 13	о	_	_	_	_	_	_	_	bratT13=Law
 14	праздновании	_	_	_	_	_	_	_	bratT13=Law|bratT67=Event
-15	двухсотлетия	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-absolute|bratT9=Age
-16	со	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-absolute
-17	дня	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-absolute
-18	рождения	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT37=Event|bratT40=Date-absolute
+15	двухсотлетия	_	_	_	_	_	_	_	bratT12=Event|bratT13=Law|bratT40=Date-absolute|bratT67=Event|bratT9=Age
+16	со	_	_	_	_	_	_	_	bratT13=Law|bratT40=Date-absolute
+17	дня	_	_	_	_	_	_	_	bratT13=Law|bratT40=Date-absolute
+18	рождения	_	_	_	_	_	_	_	bratT13=Law|bratT37=Event|bratT40=Date-absolute
 19	русского	_	_	_	_	_	_	_	bratA13=T11:Male|bratA16=T57:Adjective|bratT11=Person|bratT13=Law|bratT36=Person-property|bratT57=Nationality
 20	классика	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T11:Male|bratT11=Person|bratT13=Law|bratT36=Person-property
 21	,	_	_	_	_	_	_	_	bratA13=T11:Male|bratT11=Person|bratT13=Law
@@ -72,12 +72,12 @@
 7	посвященные	_	_	_	_	_	_	_	_
 8	празднованию	_	_	_	_	_	_	_	bratT73=Event
 9-11	200-летия	_	_	_	_	_	_	_	_
-9	200	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T41:Future|bratT16=Age|bratT18=Event|bratT41=Date-absolute
-10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T41:Future|bratT16=Age|bratT18=Event|bratT41=Date-absolute
-11	летия	_	_	_	_	_	_	_	bratA7=T41:Future|bratT16=Age|bratT18=Event|bratT41=Date-absolute
-12	со	_	_	_	_	_	_	_	bratA7=T41:Future|bratT18=Event|bratT41=Date-absolute
-13	дня	_	_	_	_	_	_	_	bratA7=T41:Future|bratT18=Event|bratT41=Date-absolute
-14	рождения	_	_	_	_	_	_	_	bratA7=T41:Future|bratT18=Event|bratT26=Event|bratT41=Date-absolute
+9	200	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T41:Future|bratT16=Age|bratT18=Event|bratT41=Date-absolute|bratT73=Event
+10	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA7=T41:Future|bratT16=Age|bratT18=Event|bratT41=Date-absolute|bratT73=Event
+11	летия	_	_	_	_	_	_	_	bratA7=T41:Future|bratT16=Age|bratT18=Event|bratT41=Date-absolute|bratT73=Event
+12	со	_	_	_	_	_	_	_	bratA7=T41:Future|bratT41=Date-absolute
+13	дня	_	_	_	_	_	_	_	bratA7=T41:Future|bratT41=Date-absolute
+14	рождения	_	_	_	_	_	_	_	bratA7=T41:Future|bratT26=Event|bratT41=Date-absolute
 15	А.	_	_	_	_	_	_	_	bratA14=T17:Male|bratT17=Person|bratT51=Person-initial
 16	Н.	_	_	_	_	_	_	_	bratA14=T17:Male|bratT17=Person|bratT52=Person-initial
 17	Островского	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T17:Male|bratT17=Person|bratT50=Person-surname
@@ -115,17 +115,17 @@
 13	образовать	_	_	_	_	_	_	_	_
 14	организационный	_	_	_	_	_	_	_	bratT23=Organization
 15	комитет	_	_	_	_	_	_	_	bratT23=Organization
-16	для	_	_	_	_	_	_	_	bratT23=Organization
-17	подготовки	_	_	_	_	_	_	_	bratT23=Organization
-18	и	_	_	_	_	_	_	_	bratT23=Organization
-19	проведения	_	_	_	_	_	_	_	bratT23=Organization
-20	празднования	_	_	_	_	_	_	_	bratT23=Organization|bratT65=Event
-21	двухсотлетия	_	_	_	_	_	_	_	bratT23=Organization|bratT25=Age|bratT38=Event|bratT42=Date-absolute
-22	со	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-absolute
-23	дня	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-absolute
-24	рождения	_	_	_	_	_	_	_	bratT23=Organization|bratT38=Event|bratT42=Date-absolute|bratT63=Event
-25	русского	_	_	_	_	_	_	_	bratA18=T58:Adjective|bratT23=Organization|bratT24=Person-property|bratT58=Nationality|bratT64=Person
-26	классика	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT24=Person-property|bratT64=Person
+16	для	_	_	_	_	_	_	_	_
+17	подготовки	_	_	_	_	_	_	_	_
+18	и	_	_	_	_	_	_	_	_
+19	проведения	_	_	_	_	_	_	_	_
+20	празднования	_	_	_	_	_	_	_	bratT65=Event
+21	двухсотлетия	_	_	_	_	_	_	_	bratT25=Age|bratT38=Event|bratT42=Date-absolute|bratT65=Event
+22	со	_	_	_	_	_	_	_	bratT42=Date-absolute
+23	дня	_	_	_	_	_	_	_	bratT42=Date-absolute
+24	рождения	_	_	_	_	_	_	_	bratT42=Date-absolute|bratT63=Event
+25	русского	_	_	_	_	_	_	_	bratA18=T58:Adjective|bratT24=Person-property|bratT58=Nationality|bratT64=Person
+26	классика	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Person-property|bratT64=Person
 27	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0046-p4-s2
@@ -203,7 +203,7 @@
 32	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Work-of-art
 33	,	_	_	_	_	_	_	_	_
 34	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Work-of-art
-35	Гроза	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Work-of-art
+35	Гроза	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Work-of-art|bratT75=Event
 36	''	_	_	_	_	_	_	_	bratT34=Work-of-art
 37	и	_	_	_	_	_	_	_	_
 38	других	_	_	_	_	_	_	_	SpaceAfter=No

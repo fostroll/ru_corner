@@ -12,8 +12,8 @@
 7	США	_	_	_	_	_	_	_	bratT2=GPE|bratT4=Person-property
 8	2020	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T3:Present|bratT3=Date-absolute
 9	:	_	_	_	_	_	_	_	_
-10	первая	_	_	_	_	_	_	_	bratT6=Ordinal|bratT7=Person-property
-11	леди	_	_	_	_	_	_	_	bratT7=Person-property
+10	первая	_	_	_	_	_	_	_	bratA26=T77:Female|bratT6=Ordinal|bratT7=Person-property|bratT77=Person
+11	леди	_	_	_	_	_	_	_	bratA26=T77:Female|bratT7=Person-property|bratT77=Person
 12	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	что	_	_	_	_	_	_	_	_
@@ -50,8 +50,8 @@
 # sent_id = 0122-p2-s2
 # text = Супруга американского лидера проголосовала на избирательном участке в Палм-Бич, в штате Флорида.
 1	Супруга	_	_	_	_	_	_	_	bratA25=T68:Female|bratT39=Family|bratT68=Person
-2	американского	_	_	_	_	_	_	_	bratA20=T65:Adjective|bratA25=T68:Female|bratT40=Person-property|bratT65=GPE|bratT68=Person
-3	лидера	_	_	_	_	_	_	_	bratA25=T68:Female|bratT40=Person-property|bratT68=Person
+2	американского	_	_	_	_	_	_	_	bratA20=T65:Adjective|bratA25=T68:Female|bratT40=Person-property|bratT65=GPE|bratT68=Person|bratT78=Person
+3	лидера	_	_	_	_	_	_	_	bratA25=T68:Female|bratT40=Person-property|bratT68=Person|bratT78=Person
 4	проголосовала	_	_	_	_	_	_	_	_
 5	на	_	_	_	_	_	_	_	_
 6	избирательном	_	_	_	_	_	_	_	bratT76=Facility
@@ -69,9 +69,9 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	сообщает	_	_	_	_	_	_	_	_
-4	пресс-пул	_	_	_	_	_	_	_	bratA1=T44:Media|bratA2=T44:Department|bratT44=Organization
-5	Белого	_	_	_	_	_	_	_	bratA1=T44:Media|bratA2=T44:Department|bratT43=Organization|bratT44=Organization
-6	дома	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T44:Media|bratA2=T44:Department|bratT43=Organization|bratT44=Organization
+4	пресс-пул	_	_	_	_	_	_	_	bratA2=T44:Department|bratT44=Organization
+5	Белого	_	_	_	_	_	_	_	bratA2=T44:Department|bratT43=Organization|bratT44=Organization
+6	дома	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T44:Department|bratT43=Organization|bratT44=Organization
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0122-p3
@@ -138,9 +138,9 @@
 # text = Напомним, глава Белого дома досрочно поучаствовал в голосовании на всеобщих выборах.
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
-3	глава	_	_	_	_	_	_	_	bratT20=Person-property
-4	Белого	_	_	_	_	_	_	_	bratT19=Organization|bratT20=Person-property
-5	дома	_	_	_	_	_	_	_	bratT19=Organization|bratT20=Person-property
+3	глава	_	_	_	_	_	_	_	bratA1=T79:Male|bratT20=Person-property|bratT79=Person
+4	Белого	_	_	_	_	_	_	_	bratA1=T79:Male|bratT19=Organization|bratT20=Person-property|bratT79=Person
+5	дома	_	_	_	_	_	_	_	bratA1=T79:Male|bratT19=Organization|bratT20=Person-property|bratT79=Person
 6	досрочно	_	_	_	_	_	_	_	_
 7	поучаствовал	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -158,9 +158,9 @@
 4	24	_	_	_	_	_	_	_	bratA11=T22:Past|bratT22=Date-absolute
 5	октября	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T22:Past|bratT22=Date-absolute
 6	,	_	_	_	_	_	_	_	_
-7	американский	_	_	_	_	_	_	_	bratA21=T63:Adjective|bratT23=Person-property|bratT63=GPE
-8	лидер	_	_	_	_	_	_	_	bratT23=Person-property
-9	проголосовал	_	_	_	_	_	_	_	bratT23=Person-property
+7	американский	_	_	_	_	_	_	_	bratA21=T63:Adjective|bratA27=T80:Male|bratT23=Person-property|bratT63=GPE|bratT80=Person
+8	лидер	_	_	_	_	_	_	_	bratA27=T80:Male|bratT23=Person-property|bratT80=Person
+9	проголосовал	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
 11	за	_	_	_	_	_	_	_	_
 12	парня	_	_	_	_	_	_	_	bratA17=T24:Male|bratT24=Person

@@ -65,7 +65,7 @@
 4	были	_	_	_	_	_	_	_	_
 5	опрошены	_	_	_	_	_	_	_	_
 6	руководители	_	_	_	_	_	_	_	bratT5=Person-property
-7	высшего	_	_	_	_	_	_	_	bratT5=Person-property
+7	высшего	_	_	_	_	_	_	_	bratT43=Ordinal|bratT5=Person-property
 8	звена	_	_	_	_	_	_	_	bratT5=Person-property
 9	порядка	_	_	_	_	_	_	_	bratT6=Quantity
 10	300	_	_	_	_	_	_	_	bratT6=Quantity
@@ -124,7 +124,7 @@
 # text = Согласно результатам опроса, к 2025 году 43 процента работодателей планируют сократить число рабочих мест, 41 процент - думают о расширении использования подрядчиков для выполнения специализированных работ, 34 процента - намерены расширять штат.
 1	Согласно	_	_	_	_	_	_	_	_
 2	результатам	_	_	_	_	_	_	_	_
-3	опроса	_	_	_	_	_	_	_	SpaceAfter=No
+3	опроса	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event
 4	,	_	_	_	_	_	_	_	_
 5	к	_	_	_	_	_	_	_	bratA3=T10:Pres-Fut|bratT10=Date-period-absolute
 6	2025	_	_	_	_	_	_	_	bratA3=T10:Pres-Fut|bratT10=Date-period-absolute

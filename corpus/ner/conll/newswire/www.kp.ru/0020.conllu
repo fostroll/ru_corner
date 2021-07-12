@@ -8,7 +8,7 @@
 3	опровергло	_	_	_	_	_	_	_	_
 4	слухи	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
-6	гибели	_	_	_	_	_	_	_	_
+6	гибели	_	_	_	_	_	_	_	bratT67=Event
 7	российских	_	_	_	_	_	_	_	bratA11=T43:Adjective|bratT3=Person-property|bratT43=GPE
 8	пограничников	_	_	_	_	_	_	_	bratT3=Person-property
 9	в	_	_	_	_	_	_	_	_
@@ -31,7 +31,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	слухи	_	_	_	_	_	_	_	_
 13	о	_	_	_	_	_	_	_	_
-14	гибели	_	_	_	_	_	_	_	_
+14	гибели	_	_	_	_	_	_	_	bratT68=Event
 15	российских	_	_	_	_	_	_	_	bratA12=T44:Adjective|bratT44=GPE|bratT9=Person-property
 16	пограничников	_	_	_	_	_	_	_	bratT9=Person-property
 17	якобы	_	_	_	_	_	_	_	_
@@ -50,7 +50,7 @@
 4	на	_	_	_	_	_	_	_	_
 5	официальной	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Service
 6	странице	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Service
-7	дипмиссии	_	_	_	_	_	_	_	_
+7	дипмиссии	_	_	_	_	_	_	_	bratT59=Organization
 8	в	_	_	_	_	_	_	_	_
 9	Facebook	_	_	_	_	_	_	_	SpaceAfter=No|bratT33=Service
 10	.	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 19	сведения	_	_	_	_	_	_	_	SpaceAfter=No
 20	''	_	_	_	_	_	_	_	_
 21	о	_	_	_	_	_	_	_	_
-22	гибели	_	_	_	_	_	_	_	_
+22	гибели	_	_	_	_	_	_	_	bratT69=Event
 23	двух	_	_	_	_	_	_	_	bratT13=Quantity
 24	российских	_	_	_	_	_	_	_	bratA14=T46:Adjective|bratT12=Person-property|bratT13=Quantity|bratT46=GPE
 25	пограничников	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Quantity
@@ -147,13 +147,13 @@
 5	друг	_	_	_	_	_	_	_	_
 6	друга	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
-8	развязывании	_	_	_	_	_	_	_	_
-9	военных	_	_	_	_	_	_	_	_
-10	действий	_	_	_	_	_	_	_	_
+8	развязывании	_	_	_	_	_	_	_	bratT60=Event
+9	военных	_	_	_	_	_	_	_	bratT60=Event
+10	действий	_	_	_	_	_	_	_	bratT60=Event
 11	и	_	_	_	_	_	_	_	_
-12	применении	_	_	_	_	_	_	_	_
-13	артиллерийского	_	_	_	_	_	_	_	_
-14	оружия	_	_	_	_	_	_	_	SpaceAfter=No
+12	применении	_	_	_	_	_	_	_	bratT61=Event
+13	артиллерийского	_	_	_	_	_	_	_	bratT61=Event
+14	оружия	_	_	_	_	_	_	_	SpaceAfter=No|bratT61=Event
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0020-p6
@@ -164,10 +164,10 @@
 2	обеих	_	_	_	_	_	_	_	bratT34=Quantity|bratT47=Organization|bratT48=GPE
 3	стран	_	_	_	_	_	_	_	bratT34=Quantity|bratT47=Organization|bratT48=GPE
 4	ввели	_	_	_	_	_	_	_	_
-5	военное	_	_	_	_	_	_	_	_
-6	положение	_	_	_	_	_	_	_	_
+5	военное	_	_	_	_	_	_	_	bratT62=Event
+6	положение	_	_	_	_	_	_	_	bratT62=Event
 7	и	_	_	_	_	_	_	_	_
-8	мобилизацию	_	_	_	_	_	_	_	SpaceAfter=No
+8	мобилизацию	_	_	_	_	_	_	_	SpaceAfter=No|bratT63=Event
 9	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0020-p7
@@ -207,11 +207,11 @@
 9	состоялась	_	_	_	_	_	_	_	_
 10	консультация	_	_	_	_	_	_	_	bratT35=Event
 11	для	_	_	_	_	_	_	_	_
-12	глав	_	_	_	_	_	_	_	bratA2=T26:Plural|bratT26=Person-property
-13	МИД	_	_	_	_	_	_	_	bratA2=T26:Plural|bratA3=T25:Plural|bratT25=Organization|bratT26=Person-property
-14	Азербайджана	_	_	_	_	_	_	_	bratA2=T26:Plural|bratA3=T25:Plural|bratT23=GPE|bratT25=Organization|bratT26=Person-property
-15	и	_	_	_	_	_	_	_	bratA2=T26:Plural|bratA3=T25:Plural|bratT25=Organization|bratT26=Person-property
-16	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T26:Plural|bratA3=T25:Plural|bratT24=GPE|bratT25=Organization|bratT26=Person-property
+12	глав	_	_	_	_	_	_	_	bratA18=T64:Plural|bratA2=T26:Plural|bratT26=Person-property|bratT64=Person
+13	МИД	_	_	_	_	_	_	_	bratA18=T64:Plural|bratA2=T26:Plural|bratA3=T25:Plural|bratT25=Organization|bratT26=Person-property|bratT64=Person
+14	Азербайджана	_	_	_	_	_	_	_	bratA18=T64:Plural|bratA2=T26:Plural|bratA3=T25:Plural|bratT23=GPE|bratT25=Organization|bratT26=Person-property|bratT64=Person
+15	и	_	_	_	_	_	_	_	bratA18=T64:Plural|bratA2=T26:Plural|bratA3=T25:Plural|bratT25=Organization|bratT26=Person-property|bratT64=Person
+16	Армении	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T64:Plural|bratA2=T26:Plural|bratA3=T25:Plural|bratT24=GPE|bratT25=Organization|bratT26=Person-property|bratT64=Person
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0020-p8
@@ -231,10 +231,10 @@
 11	октября	_	_	_	_	_	_	_	bratT28=Date-period-absolute
 12	и	_	_	_	_	_	_	_	_
 13	провести	_	_	_	_	_	_	_	_
-14	обмен	_	_	_	_	_	_	_	_
-15	пленными	_	_	_	_	_	_	_	_
-16	и	_	_	_	_	_	_	_	_
-17	телами	_	_	_	_	_	_	_	_
+14	обмен	_	_	_	_	_	_	_	bratA19=T65:Plural|bratT65=Event
+15	пленными	_	_	_	_	_	_	_	bratA19=T65:Plural|bratT65=Event|bratT66=Person-property
+16	и	_	_	_	_	_	_	_	bratA19=T65:Plural|bratT65=Event
+17	телами	_	_	_	_	_	_	_	bratA19=T65:Plural|bratT65=Event
 18	погибших	_	_	_	_	_	_	_	SpaceAfter=No
 19	,	_	_	_	_	_	_	_	_
 20	а	_	_	_	_	_	_	_	_
@@ -261,7 +261,7 @@
 9	друга	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	_
 11	нарушениях	_	_	_	_	_	_	_	bratT53=Event
-12	перемирия	_	_	_	_	_	_	_	SpaceAfter=No|bratT57=Event
+12	перемирия	_	_	_	_	_	_	_	SpaceAfter=No|bratT53=Event|bratT57=Event
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0020-p10

@@ -14,8 +14,8 @@
 9	буровых	_	_	_	_	_	_	_	_
 10	работах	_	_	_	_	_	_	_	_
 11	случилось	_	_	_	_	_	_	_	_
-12	короткое	_	_	_	_	_	_	_	_
-13	замыкание	_	_	_	_	_	_	_	_
+12	короткое	_	_	_	_	_	_	_	bratT55=Event
+13	замыкание	_	_	_	_	_	_	_	bratT55=Event
 
 # newpar id = 0124-p2
 # par_text = Причиной пожара в шахте в Коми, по предварительной информации, стало короткое замыкание, возникшее в пусковом устройстве в ходе проведения буровых работ. Об этом ночью в понедельник, 2 ноября, сообщили представители ООО «Лукойл-Коми», одним из производственных подразделений которого является «Яреганефть».
@@ -33,8 +33,8 @@
 10	информации	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	стало	_	_	_	_	_	_	_	_
-13	короткое	_	_	_	_	_	_	_	_
-14	замыкание	_	_	_	_	_	_	_	SpaceAfter=No
+13	короткое	_	_	_	_	_	_	_	bratT56=Event
+14	замыкание	_	_	_	_	_	_	_	SpaceAfter=No|bratT56=Event
 15	,	_	_	_	_	_	_	_	_
 16	возникшее	_	_	_	_	_	_	_	_
 17	в	_	_	_	_	_	_	_	_
@@ -59,14 +59,14 @@
 8	ноября	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Past|bratT3=Date-absolute
 9	,	_	_	_	_	_	_	_	_
 10	сообщили	_	_	_	_	_	_	_	_
-11	представители	_	_	_	_	_	_	_	bratT5=Person-property
-12	ООО	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property
-13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
+11	представители	_	_	_	_	_	_	_	bratT5=Person-property|bratT57=Person
+12	ООО	_	_	_	_	_	_	_	bratT4=Organization|bratT5=Person-property|bratT57=Person
+13	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property|bratT57=Person
 14-16	Лукойл-Коми	_	_	_	_	_	_	_	SpaceAfter=No
-14	Лукойл	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
-15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
-16	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=GPE|bratT4=Organization|bratT5=Person-property
-17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property
+14	Лукойл	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property|bratT57=Person
+15	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property|bratT57=Person
+16	Коми	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=GPE|bratT4=Organization|bratT5=Person-property|bratT57=Person
+17	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=Person-property|bratT57=Person
 18	,	_	_	_	_	_	_	_	_
 19	одним	_	_	_	_	_	_	_	bratT6=Quantity
 20	из	_	_	_	_	_	_	_	bratT6=Quantity
@@ -91,8 +91,8 @@
 6	причиной	_	_	_	_	_	_	_	_
 7	возгорания	_	_	_	_	_	_	_	bratT45=Event
 8	послужило	_	_	_	_	_	_	_	_
-9	короткое	_	_	_	_	_	_	_	_
-10	замыкание	_	_	_	_	_	_	_	_
+9	короткое	_	_	_	_	_	_	_	bratT58=Event
+10	замыкание	_	_	_	_	_	_	_	bratT58=Event
 11	в	_	_	_	_	_	_	_	_
 12	пусковом	_	_	_	_	_	_	_	_
 13	устройстве	_	_	_	_	_	_	_	SpaceAfter=No
@@ -131,11 +131,11 @@
 # par_text = Работники ООО «НГМ» попытались самостоятельно ликвидировать возгорание, но после неудачной попытки они передали информацию заказчику - в НШПП «Яреганефть». Руководство предприятия приняло решение о незамедлительной эвакуации всех людей из нефтешахты и реализации дальнейших оперативных мер, предусмотренных в Компании в чрезвычайных ситуациях., - говорится в сообщении компании.
 # sent_id = 0124-p4-s1
 # text = Работники ООО ``НГМ'' попытались самостоятельно ликвидировать возгорание, но после неудачной попытки они передали информацию заказчику - в НШПП ``Яреганефть''.
-1	Работники	_	_	_	_	_	_	_	bratT12=Person-property
-2	ООО	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT12=Person-property
-4	НГМ	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT12=Person-property
-5	''	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property
+1	Работники	_	_	_	_	_	_	_	bratT12=Person-property|bratT59=Person
+2	ООО	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property|bratT59=Person
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT12=Person-property|bratT59=Person
+4	НГМ	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization|bratT12=Person-property|bratT59=Person
+5	''	_	_	_	_	_	_	_	bratT11=Organization|bratT12=Person-property|bratT59=Person
 6	попытались	_	_	_	_	_	_	_	_
 7	самостоятельно	_	_	_	_	_	_	_	_
 8	ликвидировать	_	_	_	_	_	_	_	_

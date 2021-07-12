@@ -71,8 +71,8 @@
 # sent_id = 0073-p3-s1
 # text = Оборот российских продавцов превысил 3,3 миллиарда рублей, что в 1,3 раза больше, чем на распродаже прошлого года.
 1	Оборот	_	_	_	_	_	_	_	_
-2	российских	_	_	_	_	_	_	_	bratA14=T56:Adjective|bratT12=Person-property|bratT56=GPE
-3	продавцов	_	_	_	_	_	_	_	bratT12=Person-property
+2	российских	_	_	_	_	_	_	_	bratA14=T56:Adjective|bratT12=Organization|bratT56=GPE
+3	продавцов	_	_	_	_	_	_	_	bratT12=Organization
 4	превысил	_	_	_	_	_	_	_	_
 5	3,3	_	_	_	_	_	_	_	bratT13=Money
 6	миллиарда	_	_	_	_	_	_	_	bratT13=Money
@@ -195,7 +195,7 @@
 5	наши	_	_	_	_	_	_	_	_
 6	партнеры	_	_	_	_	_	_	_	_
 7	и	_	_	_	_	_	_	_	_
-8	селлеры	_	_	_	_	_	_	_	bratT31=Person-property
+8	селлеры	_	_	_	_	_	_	_	bratT31=Organization
 9	с	_	_	_	_	_	_	_	_
 10	ней	_	_	_	_	_	_	_	_
 11	справились	_	_	_	_	_	_	_	SpaceAfter=No

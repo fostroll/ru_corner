@@ -63,8 +63,8 @@
 11	сомнительные	_	_	_	_	_	_	_	bratT74=Event
 12	показатели	_	_	_	_	_	_	_	bratT74=Event
 13	у	_	_	_	_	_	_	_	_
-14	трех	_	_	_	_	_	_	_	bratT15=Quantity
-15	футболистов	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Quantity|bratT16=Person-property
+14	трех	_	_	_	_	_	_	_	bratA20=T73:Male|bratT15=Quantity|bratT73=Person
+15	футболистов	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T73:Male|bratT15=Quantity|bratT16=Person-property|bratT73=Person
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0071-p2-s3
@@ -130,9 +130,9 @@
 # sent_id = 0071-p3-s3
 # text = А один из футболистов несколько месяцев назад уже перенёс COVID-19 и последние два месяца играет и тренируется без всяких ограничений.
 1	А	_	_	_	_	_	_	_	_
-2	один	_	_	_	_	_	_	_	bratT25=Quantity
-3	из	_	_	_	_	_	_	_	bratT25=Quantity
-4	футболистов	_	_	_	_	_	_	_	bratT27=Person-property
+2	один	_	_	_	_	_	_	_	bratA21=T78:Male|bratT25=Quantity|bratT78=Person
+3	из	_	_	_	_	_	_	_	bratA21=T78:Male|bratT25=Quantity|bratT78=Person
+4	футболистов	_	_	_	_	_	_	_	bratA21=T78:Male|bratT27=Person-property|bratT78=Person
 5	несколько	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-absolute
 6	месяцев	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-absolute
 7	назад	_	_	_	_	_	_	_	bratA7=T46:Past|bratT46=Date-absolute

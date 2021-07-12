@@ -11,7 +11,7 @@ T9	Person-property 287 315	нынешнему   президенту   США
 T10	Person 287 335	нынешнему   президенту   США   Дональду   Трампу
 T11	Person 414 422	Коламбус
 T12	Political-group 524 537	республиканцу
-T13	Organization 540 563	отель   ``   Плаза   ''
+T13	Facility 540 563	отель   ``   Плаза   ''
 T14	Person 871 876	Трамп
 T15	Person-property 900 923	знаменитый   миллиардер
 T16	Person 1095 1110	Крис   Коламбус
@@ -23,7 +23,7 @@ T20	Person 1347 1362	Дональд   Трамп
 T21	Person-property 840 849	режиссера
 T23	Quantity 378 388	одном   из
 T24	Quantity 660 672	Единственный
-T25	Person-property 970 986	главному   герою
+T25	Person 970 986	главному   герою
 T26	Ordinal 1053 1059	первом
 T27	Service 1242 1250	страницу
 A3	Media T27
@@ -63,3 +63,14 @@ T48	GPE 183 192	Нью-Йорке
 T50	Web-address 1182 1189	kp . ru
 T51	Organization 453 471	съемочная   группа
 T22	Event 222 230	интервью
+T52	Person 0 8	Режиссер
+A14	Male T52
+T53	Person 524 537	республиканцу
+A16	Male T53
+T54	Event 490 496	съемок
+T55	Person 840 849	режиссера
+T56	Person 900 923	знаменитый   миллиардер
+A17	Male T56
+A18	Fiction T25
+A19	Male T25
+T57	Facility 962 967	отеле

@@ -10,8 +10,8 @@
 5	отсутствие	_	_	_	_	_	_	_	_
 6	флага	_	_	_	_	_	_	_	_
 7	РФ	_	_	_	_	_	_	_	bratT3=GPE
-8	на	_	_	_	_	_	_	_	_
-9	встрече	_	_	_	_	_	_	_	bratT63=Event
+8	на	_	_	_	_	_	_	_	bratA17=T72:Past|bratT72=Date-absolute
+9	встрече	_	_	_	_	_	_	_	bratA17=T72:Past|bratT63=Event|bratT72=Date-absolute
 10	Лаврова	_	_	_	_	_	_	_	bratA7=T4:Male|bratT4=Person|bratT46=Person-surname
 11	с	_	_	_	_	_	_	_	_
 12	Пашиняном	_	_	_	_	_	_	_	bratA8=T5:Male|bratT47=Person-surname|bratT5=Person
@@ -133,9 +133,9 @@
 21	,	_	_	_	_	_	_	_	_
 22	-	_	_	_	_	_	_	_	_
 23	объяснили	_	_	_	_	_	_	_	_
-24	представители	_	_	_	_	_	_	_	bratT24=Person-property
-25	внешнеполитического	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property
-26	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT24=Person-property
+24	представители	_	_	_	_	_	_	_	bratT24=Person-property|bratT75=Person
+25	внешнеполитического	_	_	_	_	_	_	_	bratT23=Organization|bratT24=Person-property|bratT75=Person
+26	ведомства	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Organization|bratT24=Person-property|bratT75=Person
 27	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0080-p4
@@ -182,10 +182,10 @@
 5	Сергея	_	_	_	_	_	_	_	bratA14=T30:Male|bratT30=Person|bratT56=Person-forename
 6	Лаврова	_	_	_	_	_	_	_	bratA14=T30:Male|bratT30=Person|bratT57=Person-surname
 7	с	_	_	_	_	_	_	_	_
-8	премьер-министром	_	_	_	_	_	_	_	bratT31=Person-property
+8	премьер-министром	_	_	_	_	_	_	_	bratT31=Person-property|bratT73=Person
 9	и	_	_	_	_	_	_	_	_
-10	президентом	_	_	_	_	_	_	_	bratT33=Person-property
-11	Армении	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property
+10	президентом	_	_	_	_	_	_	_	bratT33=Person-property|bratT74=Person
+11	Армении	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property|bratT74=Person
 12	состоялась	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	bratA4=T34:Past|bratT34=Date-absolute
 14	субботу	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T34:Past|bratT34=Date-absolute
@@ -196,9 +196,9 @@
 
 # sent_id = 0080-p5-s2
 # text = Глава МИД России во время переговоров подчеркнул, что попытки поставить под сомнение заявление лидеров трех стран о прекращении войны в Карабахе являются неприемлемыми и договоренности о полном прекращение боевых действий от 9 ноября являются безальтернативным.
-1	Глава	_	_	_	_	_	_	_	bratT37=Person-property
-2	МИД	_	_	_	_	_	_	_	bratT35=Organization|bratT37=Person-property
-3	России	_	_	_	_	_	_	_	bratT36=GPE|bratT37=Person-property
+1	Глава	_	_	_	_	_	_	_	bratA18=T76:Male|bratT37=Person-property|bratT76=Person
+2	МИД	_	_	_	_	_	_	_	bratA18=T76:Male|bratT35=Organization|bratT37=Person-property|bratT76=Person
+3	России	_	_	_	_	_	_	_	bratA18=T76:Male|bratT36=GPE|bratT37=Person-property|bratT76=Person
 4	во	_	_	_	_	_	_	_	bratA5=T42:Past|bratT42=Date-absolute
 5	время	_	_	_	_	_	_	_	bratA5=T42:Past|bratT42=Date-absolute
 6	переговоров	_	_	_	_	_	_	_	bratA5=T42:Past|bratT42=Date-absolute|bratT67=Event
@@ -210,9 +210,9 @@
 12	под	_	_	_	_	_	_	_	_
 13	сомнение	_	_	_	_	_	_	_	_
 14	заявление	_	_	_	_	_	_	_	_
-15	лидеров	_	_	_	_	_	_	_	bratT43=Person-property
-16	трех	_	_	_	_	_	_	_	bratT38=Quantity|bratT43=Person-property|bratT60=GPE
-17	стран	_	_	_	_	_	_	_	bratT38=Quantity|bratT43=Person-property|bratT60=GPE
+15	лидеров	_	_	_	_	_	_	_	bratT43=Person-property|bratT77=Person
+16	трех	_	_	_	_	_	_	_	bratT38=Quantity|bratT43=Person-property|bratT60=GPE|bratT77=Person
+17	стран	_	_	_	_	_	_	_	bratT38=Quantity|bratT43=Person-property|bratT60=GPE|bratT77=Person
 18	о	_	_	_	_	_	_	_	_
 19	прекращении	_	_	_	_	_	_	_	bratT68=Event
 20	войны	_	_	_	_	_	_	_	bratT44=Event|bratT68=Event

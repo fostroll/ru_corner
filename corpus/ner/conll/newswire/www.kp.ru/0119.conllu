@@ -50,8 +50,8 @@
 9	подготовке	_	_	_	_	_	_	_	bratT50=Event
 10	покушения	_	_	_	_	_	_	_	bratT50=Event|bratT51=Event
 11	на	_	_	_	_	_	_	_	_
-12	главу	_	_	_	_	_	_	_	bratT8=Person-property
-13	правительства	_	_	_	_	_	_	_	bratT52=Organization|bratT8=Person-property
+12	главу	_	_	_	_	_	_	_	bratT66=Person|bratT8=Person-property
+13	правительства	_	_	_	_	_	_	_	bratT52=Organization|bratT66=Person|bratT8=Person-property
 14	задержаны	_	_	_	_	_	_	_	_
 15	бывший	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT9=Person
 16	глава	_	_	_	_	_	_	_	bratA5=T9:Male|bratT10=Person-property|bratT9=Person
@@ -77,15 +77,15 @@
 36	Ваграм	_	_	_	_	_	_	_	bratA6=T14:Male|bratT14=Person|bratT40=Person-forename
 37	Багдасарян	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T14:Male|bratT14=Person|bratT41=Person-surname
 38	,	_	_	_	_	_	_	_	_
-39	член	_	_	_	_	_	_	_	bratT16=Political-group
-40	партии	_	_	_	_	_	_	_	bratT16=Political-group|bratT29=Organization
-41	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Political-group|bratT29=Organization
-42	Дашнакцутюн	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Political-group|bratT29=Organization
-43	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Political-group|bratT29=Organization
+39	член	_	_	_	_	_	_	_	bratT16=Political-group|bratT68=Person
+40	партии	_	_	_	_	_	_	_	bratT16=Political-group|bratT29=Organization|bratT68=Person
+41	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Political-group|bratT29=Organization|bratT68=Person
+42	Дашнакцутюн	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Political-group|bratT29=Organization|bratT68=Person
+43	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Political-group|bratT29=Organization|bratT68=Person
 44	,	_	_	_	_	_	_	_	_
-45	командир	_	_	_	_	_	_	_	bratT32=Person-property
-46	добровольческого	_	_	_	_	_	_	_	bratT32=Person-property
-47	отряда	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=Person-property
+45	командир	_	_	_	_	_	_	_	bratT32=Person-property|bratT69=Person
+46	добровольческого	_	_	_	_	_	_	_	bratA11=T67:Department|bratT32=Person-property|bratT67=Organization|bratT69=Person
+47	отряда	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T67:Department|bratT32=Person-property|bratT67=Organization|bratT69=Person
 48	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0119-p4
@@ -108,8 +108,8 @@
 
 # sent_id = 0119-p4-s2
 # text = Сотрудники СНБ нашли при обысках автоматическое и стрелковое оружие, патроны и гранаты.
-1	Сотрудники	_	_	_	_	_	_	_	bratT18=Person-property
-2	СНБ	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Organization
+1	Сотрудники	_	_	_	_	_	_	_	bratT18=Person-property|bratT70=Person
+2	СНБ	_	_	_	_	_	_	_	bratT18=Person-property|bratT19=Organization|bratT70=Person
 3	нашли	_	_	_	_	_	_	_	_
 4	при	_	_	_	_	_	_	_	_
 5	обысках	_	_	_	_	_	_	_	bratT60=Event
@@ -144,8 +144,8 @@
 15	и	_	_	_	_	_	_	_	_
 16	подготовке	_	_	_	_	_	_	_	bratT53=Event
 17	убийства	_	_	_	_	_	_	_	bratT53=Event|bratT54=Event
-18	премьер-министра	_	_	_	_	_	_	_	bratT21=Person-property
-19	Армении	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=GPE
+18	премьер-министра	_	_	_	_	_	_	_	bratT21=Person-property|bratT71=Person
+19	Армении	_	_	_	_	_	_	_	bratT21=Person-property|bratT22=GPE|bratT71=Person
 20	был	_	_	_	_	_	_	_	_
 21	задержан	_	_	_	_	_	_	_	_
 22	Ванецян	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T23:Male|bratT23=Person|bratT43=Person-surname
@@ -167,12 +167,12 @@
 12	таким	_	_	_	_	_	_	_	_
 13	образом	_	_	_	_	_	_	_	_
 14	власти	_	_	_	_	_	_	_	bratT47=Organization
-15	страны	_	_	_	_	_	_	_	bratT47=Organization
+15	страны	_	_	_	_	_	_	_	bratT47=Organization|bratT73=GPE
 16	пытаются	_	_	_	_	_	_	_	_
 17	всячески	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	SpaceAfter=No
 19	обезглавить	_	_	_	_	_	_	_	SpaceAfter=No
 20	''	_	_	_	_	_	_	_	_
-21	партию	_	_	_	_	_	_	_	SpaceAfter=No
+21	партию	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Organization
 22	.	_	_	_	_	_	_	_	_
 

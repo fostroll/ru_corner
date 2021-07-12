@@ -65,9 +65,9 @@
 # text = Это два сотрудника подрядной организации - монтажник и электросварщик ООО ``Катюша''.
 1	Это	_	_	_	_	_	_	_	_
 2	два	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT10=Quantity|bratT48=Person
-3	сотрудника	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT10=Quantity|bratT48=Person
-4	подрядной	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT39=Organization|bratT48=Person
-5	организации	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT39=Organization|bratT48=Person
+3	сотрудника	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT10=Quantity|bratT48=Person|bratT58=Person-property
+4	подрядной	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT39=Organization|bratT48=Person|bratT58=Person-property
+5	организации	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT39=Organization|bratT48=Person|bratT58=Person-property
 6	-	_	_	_	_	_	_	_	bratA6=T48:Plural|bratT48=Person
 7	монтажник	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT48=Person
 8	и	_	_	_	_	_	_	_	bratA1=T11:Plural|bratA6=T48:Plural|bratT11=Person-property|bratT48=Person
@@ -123,7 +123,7 @@
 # text = По факту гибели рабочих Следственный комитет возбуждено уголовное дело по части 3 статьи 216 УК РФ (нарушение правил безопасности при ведении строительных и иных работ, повлекшее по неосторожности смерть двух или более лиц).
 1	По	_	_	_	_	_	_	_	_
 2	факту	_	_	_	_	_	_	_	_
-3	гибели	_	_	_	_	_	_	_	_
+3	гибели	_	_	_	_	_	_	_	bratT57=Event
 4	рабочих	_	_	_	_	_	_	_	bratT16=Person-property
 5	Следственный	_	_	_	_	_	_	_	bratT17=Organization
 6	комитет	_	_	_	_	_	_	_	bratT17=Organization
@@ -139,7 +139,7 @@
 16	РФ	_	_	_	_	_	_	_	bratT18=Law|bratT28=Law|bratT29=GPE
 17	(	_	_	_	_	_	_	_	SpaceAfter=No
 18	нарушение	_	_	_	_	_	_	_	bratT45=Event
-19	правил	_	_	_	_	_	_	_	_
+19	правил	_	_	_	_	_	_	_	bratT45=Event
 20	безопасности	_	_	_	_	_	_	_	_
 21	при	_	_	_	_	_	_	_	_
 22	ведении	_	_	_	_	_	_	_	_

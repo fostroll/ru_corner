@@ -51,8 +51,8 @@
 4	в	_	_	_	_	_	_	_	bratA2=T31:Past|bratT31=Date-absolute
 5	ходе	_	_	_	_	_	_	_	bratA2=T31:Past|bratT31=Date-absolute
 6	беседы	_	_	_	_	_	_	_	bratA2=T31:Past|bratT31=Date-absolute|bratT33=Event
-7	с	_	_	_	_	_	_	_	bratT33=Event
-8	журналистами	_	_	_	_	_	_	_	bratT33=Event|bratT7=Person-property
+7	с	_	_	_	_	_	_	_	_
+8	журналистами	_	_	_	_	_	_	_	bratT7=Person-property
 9	во	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
 10	вторник	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T8:Past|bratT8=Date-absolute
 11	,	_	_	_	_	_	_	_	bratA3=T8:Past|bratT8=Date-absolute
@@ -149,8 +149,8 @@
 
 # sent_id = 0054-p4-s2
 # text = Представитель Кремля отметил, что Белоруссия должна быть ``свободной от какого-либо влияния извне''.
-1	Представитель	_	_	_	_	_	_	_	bratT19=Person-property
-2	Кремля	_	_	_	_	_	_	_	bratT18=Organization|bratT19=Person-property
+1	Представитель	_	_	_	_	_	_	_	bratA14=T28:Male|bratT19=Person-property|bratT28=Person
+2	Кремля	_	_	_	_	_	_	_	bratA14=T28:Male|bratT18=Organization|bratT19=Person-property|bratT28=Person
 3	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_

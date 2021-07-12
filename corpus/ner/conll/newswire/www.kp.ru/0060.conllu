@@ -3,7 +3,7 @@
 # par_text = Врач рассказал, какая газировка ускоряет расщепление алкоголя в организме человека
 # sent_id = 0060-p1-s1
 # text = Врач рассказал, какая газировка ускоряет расщепление алкоголя в организме человека
-1	Врач	_	_	_	_	_	_	_	bratT1=Person-property
+1	Врач	_	_	_	_	_	_	_	bratA7=T20:Male|bratT1=Person-property|bratT20=Person
 2	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	какая	_	_	_	_	_	_	_	_
@@ -59,7 +59,7 @@
 23	врач	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T4:Male|bratT3=Person-property|bratT4=Person
 24	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA5=T4:Male|bratT3=Person-property|bratT4=Person
 25	невролог	_	_	_	_	_	_	_	bratA5=T4:Male|bratT3=Person-property|bratT4=Person
-26	высшей	_	_	_	_	_	_	_	bratA5=T4:Male|bratT3=Person-property|bratT4=Person
+26	высшей	_	_	_	_	_	_	_	bratA5=T4:Male|bratT21=Ordinal|bratT3=Person-property|bratT4=Person
 27	категории	_	_	_	_	_	_	_	bratA5=T4:Male|bratT3=Person-property|bratT4=Person
 28	Евгений	_	_	_	_	_	_	_	bratA5=T4:Male|bratT13=Person-forename|bratT4=Person
 29	Мосин	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T4:Male|bratT14=Person-surname|bratT4=Person
@@ -71,7 +71,7 @@
 # text = По мнению эксперта, банка сладкого напитка с пузырьками может помочь человеку справиться с обезвоживанием и даже положительно влиять на общее состояние человека.
 1	По	_	_	_	_	_	_	_	_
 2	мнению	_	_	_	_	_	_	_	_
-3	эксперта	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property
+3	эксперта	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person-property|bratT22=Person
 4	,	_	_	_	_	_	_	_	_
 5	банка	_	_	_	_	_	_	_	_
 6	сладкого	_	_	_	_	_	_	_	_
@@ -152,7 +152,7 @@
 25	,	_	_	_	_	_	_	_	_
 26	-	_	_	_	_	_	_	_	_
 27	объяснил	_	_	_	_	_	_	_	_
-28	врач	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Person-property
+28	врач	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T23:Male|bratT23=Person|bratT8=Person-property
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0060-p5
