@@ -2,7 +2,6 @@ T1	Person 0 17	Дочь   Заворотнюк
 T2	Family 0 4	Дочь
 T3	Family 67 73	матери
 T4	Person 91 99	Малахова
-T5	Person 101 118	Анна   Заворотнюк
 T6	Family 125 129	дочь
 T8	Person-property 132 139	актрисы
 T9	Family 220 224	мать
@@ -24,7 +23,7 @@ T24	Person-property 1159 1179	президентом   России
 T25	GPE 1173 1179	России
 A1	Media T12
 T26	Person 7 17	Заворотнюк
-T7	Person 125 164	дочь   актрисы   Анастасии   Заворотнюк
+T7	Person 101 164	Анна   Заворотнюк   ,   дочь   актрисы   Анастасии   Заворотнюк
 T27	Date-absolute 1205 1227	во   время   совещания
 T28	Date-relative 374 379	Ранее
 T29	Date-relative 699 704	Ранее
@@ -39,7 +38,6 @@ T31	Person-surname 91 99	Малахова
 A8	Male T4
 T32	Person-forename 101 105	Анна
 T33	Person-surname 108 118	Заворотнюк
-A9	Male T5
 T34	Person-forename 142 151	Анастасии
 T35	Person-surname 154 164	Заворотнюк
 A10	Female T7
@@ -75,3 +73,6 @@ T54	Person 1009 1016	актрисы
 A21	Female T54
 T55	Person 409 417	артистка
 A22	Female T55
+T5	Organization 557 567	газетенкам
+A9	Media T5
+T56	Person 1128 1136	медиками

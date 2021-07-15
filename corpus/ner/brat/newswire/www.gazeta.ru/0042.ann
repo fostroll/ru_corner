@@ -1,13 +1,13 @@
 T1	Facility 50 53	МКС
-T2	Person 9 32	корабля   Crew   Dragon
+T2	Product 9 32	корабля   Crew   Dragon
 T3	Organization 110 142	американской   компании   SpaceX
-T4	Person 69 107	илотируемого   корабля   Crew   Dragon
+T4	Product 69 107	илотируемого   корабля   Crew   Dragon
 T5	Person-property 55 107	Астронавты   пилотируемого   корабля   Crew   Dragon
 T6	Facility 167 204	Международной   космической   станции
 T7	Organization 246 250	NASA
 T8	Facility 281 284	МКС
 T9	Date-relative 306 321	в   07.00   мск
-T10	Person 327 340	Crew   Dragon
+T10	Product 327 340	Crew   Dragon
 T11	Date-absolute 369 394	16   ноября   03.27   мск
 T12	Time-absolute 383 394	03.27   мск
 T13	Facility 401 411	космодрома
@@ -56,9 +56,11 @@ T43	Ordinal 559 560	1
 T44	Ordinal 494 495	9
 T45	Person-property 0 32	Экипаж   корабля   Crew   Dragon
 T42	Location 360 366	орбиту
-A14	Unconscious T2
-A15	Unconscious T4
-A16	Unconscious T10
 T46	GPE 318 321	мск
 T47	GPE 391 394	мск
 T48	Event 256 264	Стыковка
+T49	Person 0 32	Экипаж   корабля   Crew   Dragon
+T50	Person 55 107	Астронавты   пилотируемого   корабля   Crew   Dragon
+A14	Unique T2
+A15	Unique T4
+A16	Unique T10

@@ -6,8 +6,8 @@
 1	Задержанного	_	_	_	_	_	_	_	_
 2	в	_	_	_	_	_	_	_	_
 3	Индонезии	_	_	_	_	_	_	_	bratT1=GPE
-4	украинского	_	_	_	_	_	_	_	bratA10=T33:Adjective|bratT2=Person-property|bratT33=GPE
-5	блогера	_	_	_	_	_	_	_	bratT2=Person-property
+4	украинского	_	_	_	_	_	_	_	bratA10=T33:Adjective|bratA16=T45:Male|bratT2=Person-property|bratT33=GPE|bratT45=Person
+5	блогера	_	_	_	_	_	_	_	bratA16=T45:Male|bratT2=Person-property|bratT45=Person
 6	могут	_	_	_	_	_	_	_	_
 7	экстрадировать	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
@@ -27,7 +27,7 @@
 8	,	_	_	_	_	_	_	_	_
 9	которому	_	_	_	_	_	_	_	_
 10	грозит	_	_	_	_	_	_	_	_
-11	экстрадиция	_	_	_	_	_	_	_	bratT23=Other-term
+11	экстрадиция	_	_	_	_	_	_	_	bratT23=Other-term|bratT46=Event
 12	в	_	_	_	_	_	_	_	_
 13	Россию	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=GPE
 14	.	_	_	_	_	_	_	_	_
@@ -54,7 +54,7 @@
 1	На	_	_	_	_	_	_	_	bratA3=T25:Present|bratT25=Date-absolute
 2	данный	_	_	_	_	_	_	_	bratA3=T25:Present|bratT25=Date-absolute|bratT36=Ordinal
 3	момент	_	_	_	_	_	_	_	bratA3=T25:Present|bratT25=Date-absolute
-4	мужчина	_	_	_	_	_	_	_	_
+4	мужчина	_	_	_	_	_	_	_	bratA17=T48:Male|bratT48=Person
 5	пребывает	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	главном	_	_	_	_	_	_	_	bratT11=Organization
@@ -67,7 +67,7 @@
 14	ожидает	_	_	_	_	_	_	_	_
 15	решения	_	_	_	_	_	_	_	_
 16	по	_	_	_	_	_	_	_	_
-17	экстрадиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term
+17	экстрадиции	_	_	_	_	_	_	_	SpaceAfter=No|bratT24=Other-term|bratT47=Event
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0087-p4
@@ -81,7 +81,7 @@
 5	,	_	_	_	_	_	_	_	_
 6	в	_	_	_	_	_	_	_	_
 7	отношении	_	_	_	_	_	_	_	_
-8	блогера	_	_	_	_	_	_	_	bratT13=Person-property
+8	блогера	_	_	_	_	_	_	_	bratT13=Person-property|bratT49=Person
 9	в	_	_	_	_	_	_	_	_
 10	России	_	_	_	_	_	_	_	bratT14=GPE
 11	возбуждено	_	_	_	_	_	_	_	_
@@ -142,7 +142,7 @@
 2	его	_	_	_	_	_	_	_	_
 3	словам	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
-5	мужчина	_	_	_	_	_	_	_	_
+5	мужчина	_	_	_	_	_	_	_	bratA18=T50:Male|bratT50=Person
 6	был	_	_	_	_	_	_	_	_
 7	задержан	_	_	_	_	_	_	_	_
 8	6	_	_	_	_	_	_	_	bratA4=T19:Past|bratT19=Date-absolute

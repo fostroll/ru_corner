@@ -150,16 +150,16 @@
 # text = Туда входили руководители четырех кафедр факультета, их подчиненные и семь слушателей, через которых передавали деньги.
 1	Туда	_	_	_	_	_	_	_	_
 2	входили	_	_	_	_	_	_	_	_
-3	руководители	_	_	_	_	_	_	_	bratT37=Person-property
-4	четырех	_	_	_	_	_	_	_	bratT39=Quantity
-5	кафедр	_	_	_	_	_	_	_	bratA8=T63:Department|bratT39=Quantity|bratT63=Organization
-6	факультета	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Department|bratA8=T63:Department|bratT38=Organization|bratT63=Organization
+3	руководители	_	_	_	_	_	_	_	bratT37=Person-property|bratT91=Person
+4	четырех	_	_	_	_	_	_	_	bratT39=Quantity|bratT91=Person
+5	кафедр	_	_	_	_	_	_	_	bratA8=T63:Department|bratT39=Quantity|bratT63=Organization|bratT91=Person
+6	факультета	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Department|bratA8=T63:Department|bratT38=Organization|bratT63=Organization|bratT91=Person
 7	,	_	_	_	_	_	_	_	_
-8	их	_	_	_	_	_	_	_	_
-9	подчиненные	_	_	_	_	_	_	_	bratT64=Person-property
+8	их	_	_	_	_	_	_	_	bratT92=Person
+9	подчиненные	_	_	_	_	_	_	_	bratT64=Person-property|bratT92=Person
 10	и	_	_	_	_	_	_	_	_
-11	семь	_	_	_	_	_	_	_	bratT40=Quantity
-12	слушателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Quantity|bratT65=Person-property
+11	семь	_	_	_	_	_	_	_	bratT40=Quantity|bratT93=Person
+12	слушателей	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Quantity|bratT65=Person-property|bratT93=Person
 13	,	_	_	_	_	_	_	_	_
 14	через	_	_	_	_	_	_	_	_
 15	которых	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 # sent_id = 0009-p4-s4
 # text = Девяти фигурантам избрали домашний арест, отмечает «Интерфакс».
 1	Девяти	_	_	_	_	_	_	_	bratT41=Quantity
-2	фигурантам	_	_	_	_	_	_	_	bratT41=Quantity
+2	фигурантам	_	_	_	_	_	_	_	bratT41=Quantity|bratT89=Person-property|bratT90=Person
 3	избрали	_	_	_	_	_	_	_	_
 4	домашний	_	_	_	_	_	_	_	bratT20=Event
 5	арест	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Event

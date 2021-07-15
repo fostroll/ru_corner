@@ -3,9 +3,9 @@
 # par_text = Бывший президент РФС высказался о смерти Марадоны
 # sent_id = 0020-p1-s1
 # text = Бывший президент РФС высказался о смерти Марадоны
-1	Бывший	_	_	_	_	_	_	_	bratT2=Person-property
-2	президент	_	_	_	_	_	_	_	bratT2=Person-property
-3	РФС	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property
+1	Бывший	_	_	_	_	_	_	_	bratA20=T56:Male|bratT2=Person-property|bratT56=Person
+2	президент	_	_	_	_	_	_	_	bratA20=T56:Male|bratT2=Person-property|bratT56=Person
+3	РФС	_	_	_	_	_	_	_	bratA20=T56:Male|bratT1=Organization|bratT2=Person-property|bratT56=Person
 4	высказался	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	смерти	_	_	_	_	_	_	_	bratT26=Event

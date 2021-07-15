@@ -5,10 +5,10 @@
 # text = Бывший фигурант ``московского дела'' Абаничев отсудил 150 тысяч рублей за незаконное уголовное преследование
 1	Бывший	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT70=Person-property
 2	фигурант	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT70=Person-property
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
-4	московского	_	_	_	_	_	_	_	bratA1=T1:Male|bratA19=T62:Adjective|bratT1=Person|bratT3=Event|bratT62=GPE
-5	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event
-6	''	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Event
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event|bratT70=Person-property
+4	московского	_	_	_	_	_	_	_	bratA1=T1:Male|bratA19=T62:Adjective|bratT1=Person|bratT3=Event|bratT62=GPE|bratT70=Person-property
+5	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Male|bratT1=Person|bratT3=Event|bratT70=Person-property
+6	''	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT3=Event|bratT70=Person-property
 7	Абаничев	_	_	_	_	_	_	_	bratA1=T1:Male|bratT1=Person|bratT4=Person-surname
 8	отсудил	_	_	_	_	_	_	_	_
 9	150	_	_	_	_	_	_	_	bratT5=Money
@@ -91,7 +91,7 @@
 # par_text = Фигуранта обвиняли в участии в массовых беспорядках из-за протестной акции 27 июля 2019 года. Во время следствия он месяц провел в СИЗО два месяца, после чего дело против него и еще троих участников акции прекратили, и Абаничев вышел на свободу.
 # sent_id = 0037-p4-s1
 # text = Фигуранта обвиняли в участии в массовых беспорядках из-за протестной акции 27 июля 2019 года.
-1	Фигуранта	_	_	_	_	_	_	_	bratA21=T75:Male|bratT75=Person
+1	Фигуранта	_	_	_	_	_	_	_	bratA21=T75:Male|bratT75=Person|bratT79=Person-property
 2	обвиняли	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	_
 4	участии	_	_	_	_	_	_	_	_
@@ -151,11 +151,11 @@
 6	компенсации	_	_	_	_	_	_	_	_
 7	двум	_	_	_	_	_	_	_	bratT36=Quantity|bratT76=Person
 8	другим	_	_	_	_	_	_	_	bratT36=Quantity|bratT76=Person
-9	фигурантам	_	_	_	_	_	_	_	bratT36=Quantity|bratT76=Person
-10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person
-11	московского	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratT37=Event|bratT53=GPE|bratT76=Person
-12	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person
-13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person
+9	фигурантам	_	_	_	_	_	_	_	bratT36=Quantity|bratT76=Person|bratT80=Person-property
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person|bratT80=Person-property
+11	московского	_	_	_	_	_	_	_	bratA18=T53:Adjective|bratT37=Event|bratT53=GPE|bratT76=Person|bratT80=Person-property
+12	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person|bratT80=Person-property
+13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT37=Event|bratT76=Person|bratT80=Person-property
 14	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0037-p5-s2

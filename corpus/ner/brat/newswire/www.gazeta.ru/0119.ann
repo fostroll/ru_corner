@@ -1,7 +1,7 @@
 T1	Person 10 20	Харитонова
 T2	Person-property 0 20	Адвокат   Харитонова
 T3	Person 70 77	Яндиева
-T4	Person 79 98	Александр   Кравцов
+T4	Person 79 142	Александр   Кравцов   ,   адвокат   бойца   Сергея   Харитонова
 T5	Person-property 105 142	адвокат   бойца   Сергея   Харитонова
 T6	Person 115 142	бойца   Сергея   Харитонова
 T7	Person 211 226	Адама   Яндиева
@@ -15,7 +15,7 @@ T13	Quantity 425 447	два   уголовных   дела
 T14	Person 709 716	Кравцов
 T15	Person 763 772	Харитонов
 T16	Person 817 825	Яндиевым
-T17	Event 273 301	драка   между   спортсменами
+T17	Event 273 278	драка
 T18	Person-property 289 301	спортсменами
 T19	Person-property 115 120	бойца
 T20	Date-relative 722 727	Ранее
@@ -50,3 +50,8 @@ T35	Time-period 250 252	24
 T37	Duration 250 252	24
 T36	Event 431 447	уголовных   дела
 T38	Event 619 634	реальный   срок
+T39	Person 0 20	Адвокат   Харитонова
+T40	Organization 57 61	суда
+T41	Organization 198 202	суда
+T42	Person 289 301	спортсменами
+T43	Organization 647 650	суд

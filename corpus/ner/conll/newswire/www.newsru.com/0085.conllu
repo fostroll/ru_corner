@@ -33,11 +33,11 @@
 # sent_id = 0085-p2-s1
 # text = Родственники фигурантов дела ``Сети'' опубликовали обращение к ряду российских чиновников, включая уполномоченного по правам человека в РФ Татьяну Москалькову и ее коллегу в Пензенской области Елену Рогову, и.о. руководителя Главного военного следственного управления СК РФ Сергея Федотова, генпрокурора РФ Игоря Краснова, главу СК РФ Александра Бастрыкина, директоров ФСБ и ФСИН.
 1	Родственники	_	_	_	_	_	_	_	bratT41=Family|bratT65=Person
-2	фигурантов	_	_	_	_	_	_	_	bratT35=Person|bratT65=Person
-3	дела	_	_	_	_	_	_	_	bratT35=Person|bratT65=Person|bratT77=Event
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT65=Person|bratT76=Organization
-5	Сети	_	_	_	_	_	_	_	SpaceAfter=No|bratT35=Person|bratT65=Person|bratT76=Organization
-6	''	_	_	_	_	_	_	_	bratT35=Person|bratT65=Person|bratT76=Organization
+2	фигурантов	_	_	_	_	_	_	_	bratT104=Person-property|bratT35=Person|bratT65=Person
+3	дела	_	_	_	_	_	_	_	bratT104=Person-property|bratT35=Person|bratT65=Person|bratT77=Event
+4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT104=Person-property|bratT35=Person|bratT65=Person|bratT76=Organization
+5	Сети	_	_	_	_	_	_	_	SpaceAfter=No|bratT104=Person-property|bratT35=Person|bratT65=Person|bratT76=Organization
+6	''	_	_	_	_	_	_	_	bratT104=Person-property|bratT35=Person|bratT65=Person|bratT76=Organization
 7	опубликовали	_	_	_	_	_	_	_	_
 8	обращение	_	_	_	_	_	_	_	_
 9	к	_	_	_	_	_	_	_	_
@@ -220,8 +220,8 @@
 3	проверки	_	_	_	_	_	_	_	bratT92=Event
 4	по	_	_	_	_	_	_	_	_
 5	заявлениям	_	_	_	_	_	_	_	_
-6	фигурантов	_	_	_	_	_	_	_	bratT36=Person
-7	дела	_	_	_	_	_	_	_	bratT36=Person|bratT80=Event
+6	фигурантов	_	_	_	_	_	_	_	bratT36=Person|bratT97=Person-property
+7	дела	_	_	_	_	_	_	_	bratT36=Person|bratT80=Event|bratT97=Person-property
 8	так	_	_	_	_	_	_	_	_
 9	никто	_	_	_	_	_	_	_	_
 10	и	_	_	_	_	_	_	_	_
@@ -269,8 +269,8 @@
 52	силу	_	_	_	_	_	_	_	bratT62=Event
 53	давление	_	_	_	_	_	_	_	_
 54	на	_	_	_	_	_	_	_	_
-55	фигурантов	_	_	_	_	_	_	_	bratT34=Person
-56	дела	_	_	_	_	_	_	_	bratT34=Person|bratT81=Event
+55	фигурантов	_	_	_	_	_	_	_	bratT103=Person-property|bratT34=Person
+56	дела	_	_	_	_	_	_	_	bratT103=Person-property|bratT34=Person|bratT81=Event
 57	возобновилось	_	_	_	_	_	_	_	SpaceAfter=No
 58	.	_	_	_	_	_	_	_	_
 

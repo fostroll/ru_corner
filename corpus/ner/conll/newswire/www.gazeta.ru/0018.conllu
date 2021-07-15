@@ -57,16 +57,16 @@
 
 # sent_id = 0018-p2-s3
 # text = Артист заявил, что он сам финансирует свой музыкальный коллектив.
-1	Артист	_	_	_	_	_	_	_	bratT19=Person-property
+1	Артист	_	_	_	_	_	_	_	bratA16=T51:Male|bratT19=Person-property|bratT51=Person
 2	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
 5	он	_	_	_	_	_	_	_	_
 6	сам	_	_	_	_	_	_	_	_
 7	финансирует	_	_	_	_	_	_	_	_
-8	свой	_	_	_	_	_	_	_	_
-9	музыкальный	_	_	_	_	_	_	_	_
-10	коллектив	_	_	_	_	_	_	_	SpaceAfter=No
+8	свой	_	_	_	_	_	_	_	bratT55=Person
+9	музыкальный	_	_	_	_	_	_	_	bratT52=Organization|bratT55=Person
+10	коллектив	_	_	_	_	_	_	_	SpaceAfter=No|bratT52=Organization|bratT55=Person
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0018-p3
@@ -80,19 +80,19 @@
 5	Михайлов	_	_	_	_	_	_	_	bratA12=T8:Male|bratT39=Person-surname|bratT8=Person
 6	во	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute
 7	время	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute
-8	эфира	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute
+8	эфира	_	_	_	_	_	_	_	bratA2=T26:Past|bratT26=Date-absolute|bratT53=Event
 9	рассказал	_	_	_	_	_	_	_	SpaceAfter=No
 10	,	_	_	_	_	_	_	_	_
 11	что	_	_	_	_	_	_	_	_
 12	продолжает	_	_	_	_	_	_	_	_
 13	обеспечивать	_	_	_	_	_	_	_	_
-14	собственный	_	_	_	_	_	_	_	_
-15	коллектив	_	_	_	_	_	_	_	_
+14	собственный	_	_	_	_	_	_	_	bratT56=Person
+15	коллектив	_	_	_	_	_	_	_	bratT54=Organization|bratT56=Person
 16	даже	_	_	_	_	_	_	_	_
 17	во	_	_	_	_	_	_	_	bratA3=T20:Past-Fut|bratT20=Date-period-absolute
 18	время	_	_	_	_	_	_	_	bratA3=T20:Past-Fut|bratT20=Date-period-absolute
-19	отсутствия	_	_	_	_	_	_	_	bratA3=T20:Past-Fut|bratT20=Date-period-absolute
-20	концертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event
+19	отсутствия	_	_	_	_	_	_	_	bratA3=T20:Past-Fut|bratT20=Date-period-absolute|bratT57=Event
+20	концертов	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event|bratT57=Event
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0018-p4
@@ -181,8 +181,8 @@
 10	из-за	_	_	_	_	_	_	_	_
 11	пандемии	_	_	_	_	_	_	_	bratT22=Event
 12	и	_	_	_	_	_	_	_	_
-13	отсутствия	_	_	_	_	_	_	_	_
-14	концертов	_	_	_	_	_	_	_	bratT44=Event
+13	отсутствия	_	_	_	_	_	_	_	bratT58=Event
+14	концертов	_	_	_	_	_	_	_	bratT44=Event|bratT58=Event
 15	и	_	_	_	_	_	_	_	_
 16	других	_	_	_	_	_	_	_	_
 17	выступлений	_	_	_	_	_	_	_	bratT45=Event

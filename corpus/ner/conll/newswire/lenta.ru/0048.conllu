@@ -3,11 +3,11 @@
 # par_text = Атомный ледокол «Арктика» вышел в первый рейс
 # sent_id = 0048-p1-s1
 # text = Атомный ледокол ``Арктика'' вышел в первый рейс
-1	Атомный	_	_	_	_	_	_	_	bratA3=T24:Unconscious|bratT24=Person
-2	ледокол	_	_	_	_	_	_	_	bratA3=T24:Unconscious|bratT24=Person
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T24:Unconscious|bratT24=Person
-4	Арктика	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T24:Unconscious|bratT24=Person
-5	''	_	_	_	_	_	_	_	bratA3=T24:Unconscious|bratT24=Person
+1	Атомный	_	_	_	_	_	_	_	bratA3=T24:Unique|bratT24=Product
+2	ледокол	_	_	_	_	_	_	_	bratA3=T24:Unique|bratT24=Product
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T24:Unique|bratT24=Product
+4	Арктика	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T24:Unique|bratT24=Product|bratT40=Location
+5	''	_	_	_	_	_	_	_	bratA3=T24:Unique|bratT24=Product
 6	вышел	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	первый	_	_	_	_	_	_	_	bratT2=Ordinal|bratT32=Event
@@ -17,11 +17,11 @@
 # par_text = Атомный ледокол «Арктика» вышел в первый рабочий рейс из Мурманска. Об этом сообщает РИА Новости.
 # sent_id = 0048-p2-s1
 # text = Атомный ледокол ``Арктика'' вышел в первый рабочий рейс из Мурманска.
-1	Атомный	_	_	_	_	_	_	_	bratA4=T25:Unconscious|bratT25=Person
-2	ледокол	_	_	_	_	_	_	_	bratA4=T25:Unconscious|bratT25=Person
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Unconscious|bratT25=Person
-4	Арктика	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Unconscious|bratT25=Person
-5	''	_	_	_	_	_	_	_	bratA4=T25:Unconscious|bratT25=Person
+1	Атомный	_	_	_	_	_	_	_	bratA4=T25:Unique|bratT25=Product
+2	ледокол	_	_	_	_	_	_	_	bratA4=T25:Unique|bratT25=Product
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Unique|bratT25=Product
+4	Арктика	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T25:Unique|bratT25=Product|bratT41=Location
+5	''	_	_	_	_	_	_	_	bratA4=T25:Unique|bratT25=Product
 6	вышел	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
 8	первый	_	_	_	_	_	_	_	bratT3=Ordinal|bratT33=Event
@@ -102,9 +102,9 @@
 5	Серверного	_	_	_	_	_	_	_	bratT12=Facility
 6	морского	_	_	_	_	_	_	_	bratT12=Facility
 7	пути	_	_	_	_	_	_	_	bratT12=Facility
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Unconscious|bratT13=Person
-9	Арктика	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Unconscious|bratT13=Person
-10	''	_	_	_	_	_	_	_	bratA5=T13:Unconscious|bratT13=Person
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Unique|bratT13=Product
+9	Арктика	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Unique|bratT13=Product|bratT42=Location
+10	''	_	_	_	_	_	_	_	bratA5=T13:Unique|bratT13=Product
 11	сделает	_	_	_	_	_	_	_	_
 12	только	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	bratA6=T14:Future|bratT14=Date-absolute

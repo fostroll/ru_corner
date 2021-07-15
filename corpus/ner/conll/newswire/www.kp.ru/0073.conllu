@@ -33,7 +33,7 @@
 # text = За время скидок россияне потратили на покупки на платформе 19,3 миллиарда рублей.
 1	За	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-period-absolute
 2	время	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-period-absolute
-3	скидок	_	_	_	_	_	_	_	bratA5=T43:Past|bratT43=Date-period-absolute
+3	скидок	_	_	_	_	_	_	_	bratA5=T43:Past|bratT29=Event|bratT43=Date-period-absolute
 4	россияне	_	_	_	_	_	_	_	bratA2=T8:Citizenship|bratT8=Nationality
 5	потратили	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
@@ -141,7 +141,7 @@
 1	-	_	_	_	_	_	_	_	_
 2	Продажи	_	_	_	_	_	_	_	_
 3	в	_	_	_	_	_	_	_	bratA8=T20:Past-Pres|bratT20=Date-period-absolute
-4	этом	_	_	_	_	_	_	_	bratA8=T20:Past-Pres|bratT20=Date-period-absolute
+4	этом	_	_	_	_	_	_	_	bratA8=T20:Past-Pres|bratT20=Date-period-absolute|bratT30=Ordinal
 5	году	_	_	_	_	_	_	_	bratA8=T20:Past-Pres|bratT20=Date-period-absolute
 6	выросли	_	_	_	_	_	_	_	_
 7	-	_	_	_	_	_	_	_	_

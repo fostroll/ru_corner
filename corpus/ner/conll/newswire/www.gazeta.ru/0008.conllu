@@ -15,13 +15,13 @@
 # par_text = Корреспонденты ТАСС и РИА «Новости» были задержаны в ходе акции протеста в Минске. Об этом сообщили агентства.
 # sent_id = 0008-p2-s1
 # text = Корреспонденты ТАСС и РИА ``Новости'' были задержаны в ходе акции протеста в Минске.
-1	Корреспонденты	_	_	_	_	_	_	_	bratA3=T6:Plural|bratT6=Person-property
-2	ТАСС	_	_	_	_	_	_	_	bratA1=T4:Media|bratA3=T6:Plural|bratT4=Organization|bratT6=Person-property
-3	и	_	_	_	_	_	_	_	bratA3=T6:Plural|bratT6=Person-property
-4	РИА	_	_	_	_	_	_	_	bratA2=T5:Media|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property
-6	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property
-7	''	_	_	_	_	_	_	_	bratA2=T5:Media|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property
+1	Корреспонденты	_	_	_	_	_	_	_	bratA21=T70:Plural|bratA3=T6:Plural|bratT6=Person-property|bratT70=Person
+2	ТАСС	_	_	_	_	_	_	_	bratA1=T4:Media|bratA21=T70:Plural|bratA3=T6:Plural|bratT4=Organization|bratT6=Person-property|bratT70=Person
+3	и	_	_	_	_	_	_	_	bratA21=T70:Plural|bratA3=T6:Plural|bratT6=Person-property|bratT70=Person
+4	РИА	_	_	_	_	_	_	_	bratA2=T5:Media|bratA21=T70:Plural|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property|bratT70=Person
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratA21=T70:Plural|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property|bratT70=Person
+6	Новости	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratA21=T70:Plural|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property|bratT70=Person
+7	''	_	_	_	_	_	_	_	bratA2=T5:Media|bratA21=T70:Plural|bratA3=T6:Plural|bratT5=Organization|bratT6=Person-property|bratT70=Person
 8	были	_	_	_	_	_	_	_	_
 9	задержаны	_	_	_	_	_	_	_	_
 10	в	_	_	_	_	_	_	_	bratA5=T34:Past|bratT34=Date-absolute
@@ -63,8 +63,8 @@
 2	Меня	_	_	_	_	_	_	_	_
 3	и	_	_	_	_	_	_	_	_
 4	еще	_	_	_	_	_	_	_	_
-5	несколько	_	_	_	_	_	_	_	bratT35=Quantity
-6	журналистов	_	_	_	_	_	_	_	bratT11=Person-property|bratT35=Quantity
+5	несколько	_	_	_	_	_	_	_	bratT35=Quantity|bratT73=Person
+6	журналистов	_	_	_	_	_	_	_	bratT11=Person-property|bratT35=Quantity|bratT73=Person
 7	задержали	_	_	_	_	_	_	_	SpaceAfter=No
 8	,	_	_	_	_	_	_	_	_
 9	в	_	_	_	_	_	_	_	_
@@ -129,7 +129,7 @@
 4	кандидатов	_	_	_	_	_	_	_	bratT23=Organization|bratT50=Person-property|bratT51=Person
 5	заявили	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	непризнании	_	_	_	_	_	_	_	_
+7	непризнании	_	_	_	_	_	_	_	bratT71=Event
 8	их	_	_	_	_	_	_	_	_
 9	официальных	_	_	_	_	_	_	_	_
 10	результатов	_	_	_	_	_	_	_	SpaceAfter=No
@@ -190,8 +190,8 @@
 19	который	_	_	_	_	_	_	_	_
 20	должен	_	_	_	_	_	_	_	_
 21	способствовать	_	_	_	_	_	_	_	_
-22	трансферу	_	_	_	_	_	_	_	_
-23	власти	_	_	_	_	_	_	_	SpaceAfter=No
+22	трансферу	_	_	_	_	_	_	_	bratT72=Event
+23	власти	_	_	_	_	_	_	_	SpaceAfter=No|bratT72=Event
 24	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0008-p7-s2

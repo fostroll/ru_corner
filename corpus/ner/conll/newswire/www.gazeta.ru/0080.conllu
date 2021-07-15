@@ -21,7 +21,7 @@
 # par_text = Следователи задержали сотрудника компании «Томское пиво» по подозрению в мошенничестве с землей. Об этом сообщает ТАСС со ссылкой на пресс-службу СУ СК России по Томской области.
 # sent_id = 0080-p2-s1
 # text = Следователи задержали сотрудника компании ``Томское пиво'' по подозрению в мошенничестве с землей.
-1	Следователи	_	_	_	_	_	_	_	bratT24=Person-property
+1	Следователи	_	_	_	_	_	_	_	bratT24=Person-property|bratT48=Person
 2	задержали	_	_	_	_	_	_	_	_
 3	сотрудника	_	_	_	_	_	_	_	bratA16=T47:Male|bratT26=Person-property|bratT47=Person
 4	компании	_	_	_	_	_	_	_	bratA16=T47:Male|bratT26=Person-property|bratT3=Organization|bratT47=Person
@@ -151,9 +151,9 @@
 2	сообщалось	_	_	_	_	_	_	_	_
 3	об	_	_	_	_	_	_	_	_
 4	аресте	_	_	_	_	_	_	_	bratT33=Event
-5	мэра	_	_	_	_	_	_	_	bratT19=Person-property
-6	Томска	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=GPE|bratT19=Person-property
-7	,	_	_	_	_	_	_	_	_
+5	мэра	_	_	_	_	_	_	_	bratA5=T22:Male|bratT19=Person-property|bratT22=Person
+6	Томска	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT18=GPE|bratT19=Person-property|bratT22=Person
+7	,	_	_	_	_	_	_	_	bratA5=T22:Male|bratT22=Person
 8	бенефициара	_	_	_	_	_	_	_	bratA5=T22:Male|bratT21=Person-property|bratT22=Person
 9	компании	_	_	_	_	_	_	_	bratA5=T22:Male|bratT20=Organization|bratT21=Person-property|bratT22=Person
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T22:Male|bratT20=Organization|bratT21=Person-property|bratT22=Person

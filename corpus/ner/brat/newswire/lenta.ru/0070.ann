@@ -16,7 +16,7 @@ T13	Facility 324 355	американском   модуле   Destiny
 T14	Date-absolute 525 537	22   октября
 T15	Location 566 571	Землю
 T16	Person-property 587 613	российскими   космонавтами
-T17	Person 671 705	корабле   ``   Союз   МС - 16   ''
+T17	Product 671 705	корабле   ``   Союз   МС - 16   ''
 T18	Person 710 726	Сергей   Рыжиков
 T19	Nationality 742 753	россиянином
 A4	Citizenship T19
@@ -43,7 +43,6 @@ A3	Media T11
 T41	Facility 145 148	МКС
 T42	Person-property 465 497	членов   объединенного   экипажа
 A6	Plural T10
-A7	Unconscious T17
 T30	Service 261 266	сайте
 A8	Media T30
 T35	Ordinal 886 895	последнее
@@ -111,3 +110,4 @@ A32	Male T78
 T79	Organization 474 497	объединенного   экипажа
 A33	Department T79
 T80	Event 1311 1317	утечка
+A7	Unique T17

@@ -49,10 +49,10 @@
 # text = ``С (российской) вакциной была такая ситуация, когда требовалось завершение токсикологических исследований.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
 2	С	_	_	_	_	_	_	_	_
-3	(	_	_	_	_	_	_	_	SpaceAfter=No
-4	российской	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Adjective|bratT35=GPE
-5	)	_	_	_	_	_	_	_	_
-6	вакциной	_	_	_	_	_	_	_	bratT9=Other-term
+3	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T51:Trademark|bratT51=Product
+4	российской	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T35:Adjective|bratA17=T51:Trademark|bratT35=GPE|bratT51=Product
+5	)	_	_	_	_	_	_	_	bratA17=T51:Trademark|bratT51=Product
+6	вакциной	_	_	_	_	_	_	_	bratA17=T51:Trademark|bratT51=Product|bratT9=Other-term
 7	была	_	_	_	_	_	_	_	_
 8	такая	_	_	_	_	_	_	_	_
 9	ситуация	_	_	_	_	_	_	_	SpaceAfter=No
@@ -60,8 +60,8 @@
 11	когда	_	_	_	_	_	_	_	_
 12	требовалось	_	_	_	_	_	_	_	_
 13	завершение	_	_	_	_	_	_	_	bratT47=Event
-14	токсикологических	_	_	_	_	_	_	_	_
-15	исследований	_	_	_	_	_	_	_	SpaceAfter=No
+14	токсикологических	_	_	_	_	_	_	_	bratT47=Event|bratT53=Event
+15	исследований	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Event|bratT53=Event
 16	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0014-p3-s2
@@ -115,10 +115,10 @@
 11	50	_	_	_	_	_	_	_	bratT14=Quantity|bratT48=Event
 12	млн	_	_	_	_	_	_	_	bratT14=Quantity|bratT48=Event
 13	доз	_	_	_	_	_	_	_	bratT14=Quantity|bratT48=Event
-14	вакцины	_	_	_	_	_	_	_	bratT16=Other-term
-15	китайской	_	_	_	_	_	_	_	bratA11=T36:Adjective|bratT15=Organization|bratT36=GPE
-16	компании	_	_	_	_	_	_	_	bratT15=Organization
-17	Sinovac	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+14	вакцины	_	_	_	_	_	_	_	bratA18=T52:Trademark|bratT16=Other-term|bratT52=Product
+15	китайской	_	_	_	_	_	_	_	bratA11=T36:Adjective|bratA18=T52:Trademark|bratT15=Organization|bratT36=GPE|bratT52=Product
+16	компании	_	_	_	_	_	_	_	bratA18=T52:Trademark|bratT15=Organization|bratT52=Product
+17	Sinovac	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T52:Trademark|bratT15=Organization|bratT52=Product
 18	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0014-p6

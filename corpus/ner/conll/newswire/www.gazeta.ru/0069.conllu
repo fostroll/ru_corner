@@ -3,16 +3,16 @@
 # par_text = Экипаж МКС открыл люк для перехода астронавтов с Crew Dragon
 # sent_id = 0069-p1-s1
 # text = Экипаж МКС открыл люк для перехода астронавтов с Crew Dragon
-1	Экипаж	_	_	_	_	_	_	_	bratT38=Person-property
-2	МКС	_	_	_	_	_	_	_	bratT1=Facility|bratT38=Person-property
+1	Экипаж	_	_	_	_	_	_	_	bratT38=Person-property|bratT44=Person
+2	МКС	_	_	_	_	_	_	_	bratT1=Facility|bratT38=Person-property|bratT44=Person
 3	открыл	_	_	_	_	_	_	_	_
 4	люк	_	_	_	_	_	_	_	_
 5	для	_	_	_	_	_	_	_	_
-6	перехода	_	_	_	_	_	_	_	_
-7	астронавтов	_	_	_	_	_	_	_	bratT2=Person-property
+6	перехода	_	_	_	_	_	_	_	bratT43=Event
+7	астронавтов	_	_	_	_	_	_	_	bratT2=Person-property|bratT45=Person
 8	с	_	_	_	_	_	_	_	_
-9	Crew	_	_	_	_	_	_	_	bratA1=T3:Unconscious|bratT3=Person
-10	Dragon	_	_	_	_	_	_	_	bratA1=T3:Unconscious|bratT3=Person
+9	Crew	_	_	_	_	_	_	_	bratA1=T3:Unique|bratT3=Product
+10	Dragon	_	_	_	_	_	_	_	bratA1=T3:Unique|bratT3=Product
 
 # newpar id = 0069-p2
 # par_text = Астронавт NASA Кейт Рубинс на Международной космической станции открыла люк американского модуля МКС для перехода экипажа с прибывшего корабля Crew Dragon. Об этом сообщает РИА «Новости» со ссылкой на прямую трансляцию NASA.
@@ -32,13 +32,13 @@
 12	модуля	_	_	_	_	_	_	_	bratT24=Facility
 13	МКС	_	_	_	_	_	_	_	bratT24=Facility|bratT8=Facility
 14	для	_	_	_	_	_	_	_	_
-15	перехода	_	_	_	_	_	_	_	_
-16	экипажа	_	_	_	_	_	_	_	bratT40=Person-property
+15	перехода	_	_	_	_	_	_	_	bratT47=Event
+16	экипажа	_	_	_	_	_	_	_	bratT40=Person-property|bratT46=Person
 17	с	_	_	_	_	_	_	_	_
 18	прибывшего	_	_	_	_	_	_	_	_
-19	корабля	_	_	_	_	_	_	_	bratA2=T9:Unconscious|bratT9=Person
-20	Crew	_	_	_	_	_	_	_	bratA2=T9:Unconscious|bratT9=Person
-21	Dragon	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Unconscious|bratT9=Person
+19	корабля	_	_	_	_	_	_	_	bratA2=T9:Unique|bratT9=Product
+20	Crew	_	_	_	_	_	_	_	bratA2=T9:Unique|bratT9=Product
+21	Dragon	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Unique|bratT9=Product
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0069-p2-s2
@@ -53,8 +53,8 @@
 8	со	_	_	_	_	_	_	_	_
 9	ссылкой	_	_	_	_	_	_	_	_
 10	на	_	_	_	_	_	_	_	_
-11	прямую	_	_	_	_	_	_	_	_
-12	трансляцию	_	_	_	_	_	_	_	_
+11	прямую	_	_	_	_	_	_	_	bratA14=T48:Media|bratT48=Service
+12	трансляцию	_	_	_	_	_	_	_	bratA14=T48:Media|bratT48=Service
 13	NASA	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Organization
 14	.	_	_	_	_	_	_	_	_
 
@@ -67,17 +67,17 @@
 3	что	_	_	_	_	_	_	_	_
 4	на	_	_	_	_	_	_	_	_
 5	борту	_	_	_	_	_	_	_	_
-6	Crew	_	_	_	_	_	_	_	bratA4=T12:Unconscious|bratT12=Person
-7	Dragon	_	_	_	_	_	_	_	bratA4=T12:Unconscious|bratT12=Person
+6	Crew	_	_	_	_	_	_	_	bratA4=T12:Unique|bratT12=Product
+7	Dragon	_	_	_	_	_	_	_	bratA4=T12:Unique|bratT12=Product
 8	оказались	_	_	_	_	_	_	_	_
-9	трое	_	_	_	_	_	_	_	bratT13=Quantity
-10	астронавтов	_	_	_	_	_	_	_	bratT13=Quantity|bratT14=Person-property
-11	NASA	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Organization
+9	трое	_	_	_	_	_	_	_	bratT13=Quantity|bratT49=Person
+10	астронавтов	_	_	_	_	_	_	_	bratT13=Quantity|bratT14=Person-property|bratT49=Person
+11	NASA	_	_	_	_	_	_	_	bratT14=Person-property|bratT15=Organization|bratT49=Person
 12	и	_	_	_	_	_	_	_	_
-13	астронавт	_	_	_	_	_	_	_	bratT16=Person-property
-14	японского	_	_	_	_	_	_	_	bratA13=T37:Adjective|bratT16=Person-property|bratT25=Organization|bratT37=GPE
-15	космического	_	_	_	_	_	_	_	bratT16=Person-property|bratT25=Organization
-16	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT25=Organization
+13	астронавт	_	_	_	_	_	_	_	bratT16=Person-property|bratT50=Person
+14	японского	_	_	_	_	_	_	_	bratA13=T37:Adjective|bratT16=Person-property|bratT25=Organization|bratT37=GPE|bratT50=Person
+15	космического	_	_	_	_	_	_	_	bratT16=Person-property|bratT25=Organization|bratT50=Person
+16	агентства	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT25=Organization|bratT50=Person
 17	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0069-p4
@@ -128,11 +128,11 @@
 18	люк	_	_	_	_	_	_	_	_
 19	корабля	_	_	_	_	_	_	_	_
 20	и	_	_	_	_	_	_	_	_
-21	экипаж	_	_	_	_	_	_	_	bratT41=Person-property
+21	экипаж	_	_	_	_	_	_	_	bratT41=Person-property|bratT51=Person
 22	мог	_	_	_	_	_	_	_	_
 23	покинуть	_	_	_	_	_	_	_	_
-24	Crew	_	_	_	_	_	_	_	bratA6=T22:Unconscious|bratT22=Person
-25	Dragon	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T22:Unconscious|bratT22=Person
+24	Crew	_	_	_	_	_	_	_	bratA6=T22:Unique|bratT22=Product
+25	Dragon	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T22:Unique|bratT22=Product
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0069-p5-s2
@@ -140,7 +140,7 @@
 1	В	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
 2	это	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
 3	время	_	_	_	_	_	_	_	bratA8=T29:Past|bratT29=Date-relative
-4	экипажу	_	_	_	_	_	_	_	bratT42=Person-property
+4	экипажу	_	_	_	_	_	_	_	bratT42=Person-property|bratT53=Person
 5	удалось	_	_	_	_	_	_	_	_
 6	снять	_	_	_	_	_	_	_	_
 7	скафандры	_	_	_	_	_	_	_	SpaceAfter=No

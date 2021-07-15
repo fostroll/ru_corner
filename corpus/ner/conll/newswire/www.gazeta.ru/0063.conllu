@@ -3,8 +3,8 @@
 # par_text = Жительницу Казани оштрафовали из-за мата в WhatsApp
 # sent_id = 0063-p1-s1
 # text = Жительницу Казани оштрафовали из-за мата в WhatsApp
-1	Жительницу	_	_	_	_	_	_	_	bratA6=T18:Resident|bratT18=Nationality
-2	Казани	_	_	_	_	_	_	_	bratA6=T18:Resident|bratT18=Nationality|bratT2=GPE
+1	Жительницу	_	_	_	_	_	_	_	bratA10=T29:Female|bratA6=T18:Resident|bratT18=Nationality|bratT29=Person
+2	Казани	_	_	_	_	_	_	_	bratA10=T29:Female|bratA6=T18:Resident|bratT18=Nationality|bratT2=GPE|bratT29=Person
 3	оштрафовали	_	_	_	_	_	_	_	_
 4	из-за	_	_	_	_	_	_	_	_
 5	мата	_	_	_	_	_	_	_	_
@@ -15,8 +15,8 @@
 # par_text = Жительнице Казани выписали штраф в размере 1 тысячи рублей за матерное оскорбление в «соседском чате» WhatsApp. Такое решение вынес Мировой суд города, рассказала изданию изданию «Казанский репортер» девушка.
 # sent_id = 0063-p2-s1
 # text = Жительнице Казани выписали штраф в размере 1 тысячи рублей за матерное оскорбление в ``соседском чате'' WhatsApp.
-1	Жительнице	_	_	_	_	_	_	_	bratA7=T19:Resident|bratT19=Nationality
-2	Казани	_	_	_	_	_	_	_	bratA7=T19:Resident|bratT19=Nationality|bratT3=GPE
+1	Жительнице	_	_	_	_	_	_	_	bratA11=T30:Female|bratA7=T19:Resident|bratT19=Nationality|bratT30=Person
+2	Казани	_	_	_	_	_	_	_	bratA11=T30:Female|bratA7=T19:Resident|bratT19=Nationality|bratT3=GPE|bratT30=Person
 3	выписали	_	_	_	_	_	_	_	_
 4	штраф	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
@@ -29,7 +29,7 @@
 12	оскорбление	_	_	_	_	_	_	_	_
 13	в	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No
-15	соседском	_	_	_	_	_	_	_	_
+15	соседском	_	_	_	_	_	_	_	bratA3=T15:Media|bratT15=Service
 16	чате	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T15:Media|bratT15=Service
 17	''	_	_	_	_	_	_	_	_
 18	WhatsApp	_	_	_	_	_	_	_	SpaceAfter=No|bratT5=Service
@@ -51,7 +51,7 @@
 12	Казанский	_	_	_	_	_	_	_	bratA1=T7:Media|bratA5=T17:Adjective|bratT17=GPE|bratT7=Organization
 13	репортер	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
 14	''	_	_	_	_	_	_	_	bratA1=T7:Media|bratT7=Organization
-15	девушка	_	_	_	_	_	_	_	SpaceAfter=No
+15	девушка	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T31:Female|bratT31=Person
 16	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0063-p3
@@ -60,13 +60,13 @@
 # text = По словам женщины, в мессенджере обсуждался вопрос перехода дома от управляющей компании в ТСЖ.
 1	По	_	_	_	_	_	_	_	_
 2	словам	_	_	_	_	_	_	_	_
-3	женщины	_	_	_	_	_	_	_	SpaceAfter=No
+3	женщины	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T32:Female|bratT32=Person
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
-6	мессенджере	_	_	_	_	_	_	_	_
+6	мессенджере	_	_	_	_	_	_	_	bratT33=Service
 7	обсуждался	_	_	_	_	_	_	_	_
 8	вопрос	_	_	_	_	_	_	_	_
-9	перехода	_	_	_	_	_	_	_	_
+9	перехода	_	_	_	_	_	_	_	bratT40=Event
 10	дома	_	_	_	_	_	_	_	bratT26=Facility
 11	от	_	_	_	_	_	_	_	_
 12	управляющей	_	_	_	_	_	_	_	bratT22=Organization
@@ -78,7 +78,7 @@
 # sent_id = 0063-p3-s2
 # text = Участниками спора были 20 человек.
 1	Участниками	_	_	_	_	_	_	_	_
-2	спора	_	_	_	_	_	_	_	_
+2	спора	_	_	_	_	_	_	_	bratT34=Event
 3	были	_	_	_	_	_	_	_	_
 4	20	_	_	_	_	_	_	_	bratT8=Quantity
 5	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Quantity
@@ -118,15 +118,15 @@
 # par_text = Жительница Казани сообщила, что один из участников спора написал на нее заявление в прокуратуру, хотя нецензурное оскорбление предназначалось не ему. Как отметила девушка, оно было направлено в адрес мужчины по имени Ленар, который в чате отсутствует.
 # sent_id = 0063-p5-s1
 # text = Жительница Казани сообщила, что один из участников спора написал на нее заявление в прокуратуру, хотя нецензурное оскорбление предназначалось не ему.
-1	Жительница	_	_	_	_	_	_	_	bratA8=T20:Resident|bratT20=Nationality
-2	Казани	_	_	_	_	_	_	_	bratA8=T20:Resident|bratT20=Nationality|bratT9=GPE
+1	Жительница	_	_	_	_	_	_	_	bratA14=T35:Female|bratA8=T20:Resident|bratT20=Nationality|bratT35=Person
+2	Казани	_	_	_	_	_	_	_	bratA14=T35:Female|bratA8=T20:Resident|bratT20=Nationality|bratT35=Person|bratT9=GPE
 3	сообщила	_	_	_	_	_	_	_	SpaceAfter=No
 4	,	_	_	_	_	_	_	_	_
 5	что	_	_	_	_	_	_	_	_
-6	один	_	_	_	_	_	_	_	bratT10=Quantity
-7	из	_	_	_	_	_	_	_	bratT10=Quantity
-8	участников	_	_	_	_	_	_	_	_
-9	спора	_	_	_	_	_	_	_	_
+6	один	_	_	_	_	_	_	_	bratT10=Quantity|bratT37=Person
+7	из	_	_	_	_	_	_	_	bratT10=Quantity|bratT37=Person
+8	участников	_	_	_	_	_	_	_	bratT37=Person
+9	спора	_	_	_	_	_	_	_	bratT37=Person|bratT38=Event
 10	написал	_	_	_	_	_	_	_	_
 11	на	_	_	_	_	_	_	_	_
 12	нее	_	_	_	_	_	_	_	_
@@ -146,7 +146,7 @@
 # text = Как отметила девушка, оно было направлено в адрес мужчины по имени Ленар, который в чате отсутствует.
 1	Как	_	_	_	_	_	_	_	_
 2	отметила	_	_	_	_	_	_	_	_
-3	девушка	_	_	_	_	_	_	_	SpaceAfter=No
+3	девушка	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T39:Female|bratT39=Person
 4	,	_	_	_	_	_	_	_	_
 5	оно	_	_	_	_	_	_	_	_
 6	было	_	_	_	_	_	_	_	_
@@ -160,7 +160,7 @@
 14	,	_	_	_	_	_	_	_	_
 15	который	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
-17	чате	_	_	_	_	_	_	_	_
+17	чате	_	_	_	_	_	_	_	bratA9=T28:Media|bratT28=Service
 18	отсутствует	_	_	_	_	_	_	_	SpaceAfter=No
 19	.	_	_	_	_	_	_	_	_
 
@@ -168,7 +168,7 @@
 # par_text = Россиянка добавила, что собирается обжаловать решение в Верховном суде Татарстана.
 # sent_id = 0063-p6-s1
 # text = Россиянка добавила, что собирается обжаловать решение в Верховном суде Татарстана.
-1	Россиянка	_	_	_	_	_	_	_	bratA2=T12:Citizenship|bratT12=Nationality
+1	Россиянка	_	_	_	_	_	_	_	bratA15=T36:Female|bratA2=T12:Citizenship|bratT12=Nationality|bratT36=Person
 2	добавила	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

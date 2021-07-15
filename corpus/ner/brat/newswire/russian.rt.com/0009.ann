@@ -1,18 +1,14 @@
-T1	Person 35 75	корабля   ``   Адмирал   Виноградов   ''
+T1	Product 35 75	корабля   ``   Адмирал   Виноградов   ''
 T2	GPE 92 95	США
 T3	Organization 292 311	Минобороны   России
 T4	GPE 305 311	России
 T5	Organization 396 418	Тихоокеанского   флота
-T6	Person 386 451	корабль   Тихоокеанского   флота   ``   Адмирал   Виноградов   ''
+T6	Product 386 451	корабль   Тихоокеанского   флота   ``   Адмирал   Виноградов   ''
 T7	Organization 493 502	ВМС   США
-T8	Person 482 523	эсминцем   ВМС   США   John   S.   McCain
-A1	Unconscious T1
-A2	Unconscious T6
-A3	Unconscious T8
+T8	Product 482 523	эсминцем   ВМС   США   John   S.   McCain
 T9	Organization 97 128	Министерство   обороны   России
 T10	GPE 122 128	России
-T11	Person 170 214	американским   эсминцем   John   S.   McCain
-A4	Unconscious T11
+T11	Product 170 214	американским   эсминцем   John   S.   McCain
 T13	Facility 234 254	российскую   границу
 T14	GPE 268 286	Приморского   края
 T12	GPE 234 244	российскую
@@ -22,3 +18,25 @@ A6	Adjective T15
 T16	GPE 170 182	американским
 A7	Adjective T16
 T17	Event 154 163	инцидента
+T18	Person-property 50 57	Адмирал
+T19	Person 50 70	Адмирал   Виноградов
+A8	Male T19
+T20	Person-surname 60 70	Виноградов
+T21	Person-forename 196 200	John
+T22	Person-initial 203 205	S.
+T23	Person-surname 208 214	McCain
+T24	Person 196 214	John   S.   McCain
+A9	Male T24
+T25	Person 426 446	Адмирал   Виноградов
+A10	Male T25
+T26	Person-property 426 433	Адмирал
+T27	Person-surname 436 446	Виноградов
+T32	Person 505 523	John   S.   McCain
+A11	Male T32
+T33	Person-forename 505 509	John
+T34	Person-surname 517 523	McCain
+T35	Person-initial 512 514	S.
+A1	Unique T1
+A4	Unique T11
+A3	Unique T8
+A2	Unique T6

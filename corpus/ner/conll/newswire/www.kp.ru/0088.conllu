@@ -13,8 +13,8 @@
 8	делу	_	_	_	_	_	_	_	bratT40=Event
 9	о	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No
-11	российском	_	_	_	_	_	_	_	bratA10=T33:Adjective|bratT33=GPE
-12	вмешательстве	_	_	_	_	_	_	_	SpaceAfter=No
+11	российском	_	_	_	_	_	_	_	bratA10=T33:Adjective|bratT33=GPE|bratT50=Event
+12	вмешательстве	_	_	_	_	_	_	_	SpaceAfter=No|bratT50=Event
 13	''	_	_	_	_	_	_	_	_
 
 # newpar id = 0088-p2
@@ -62,8 +62,8 @@
 12	отсутствием	_	_	_	_	_	_	_	_
 13	доказательств	_	_	_	_	_	_	_	_
 14	команды	_	_	_	_	_	_	_	bratT41=Organization
-15	американского	_	_	_	_	_	_	_	bratA12=T35:Adjective|bratT10=Person-property|bratT35=GPE|bratT41=Organization
-16	лидера	_	_	_	_	_	_	_	bratT10=Person-property|bratT41=Organization
+15	американского	_	_	_	_	_	_	_	bratA12=T35:Adjective|bratT10=Person-property|bratT35=GPE|bratT41=Organization|bratT49=Person
+16	лидера	_	_	_	_	_	_	_	bratT10=Person-property|bratT41=Organization|bratT49=Person
 17	о	_	_	_	_	_	_	_	_
 18	``	_	_	_	_	_	_	_	SpaceAfter=No
 19	злонамеренности	_	_	_	_	_	_	_	SpaceAfter=No
@@ -172,7 +172,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	Москве	_	_	_	_	_	_	_	bratT26=GPE
 3	же	_	_	_	_	_	_	_	_
-4	неоднократно	_	_	_	_	_	_	_	_
+4	неоднократно	_	_	_	_	_	_	_	bratT51=Quantity
 5	отвергали	_	_	_	_	_	_	_	_
 6	подобные	_	_	_	_	_	_	_	_
 7	обвинения	_	_	_	_	_	_	_	SpaceAfter=No

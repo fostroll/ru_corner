@@ -20,11 +20,11 @@
 # par_text = Фигурант «московского дела» Данил Беглец вышел на свободу из колонии в городе Мценск Орловской области. Об этом сообщает глава «Агоры» Павел Чиков со ссылкой на адвоката Леонида Соловьева.
 # sent_id = 0109-p2-s1
 # text = Фигурант ``московского дела'' Данил Беглец вышел на свободу из колонии в городе Мценск Орловской области.
-1	Фигурант	_	_	_	_	_	_	_	bratA2=T6:Male|bratT6=Person
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Male|bratT51=Event|bratT6=Person
-3	московского	_	_	_	_	_	_	_	bratA13=T8:Adjective|bratA2=T6:Male|bratT51=Event|bratT6=Person|bratT8=GPE
-4	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Male|bratT51=Event|bratT6=Person
-5	''	_	_	_	_	_	_	_	bratA2=T6:Male|bratT51=Event|bratT6=Person
+1	Фигурант	_	_	_	_	_	_	_	bratA2=T6:Male|bratT6=Person|bratT62=Person-property
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Male|bratT51=Event|bratT6=Person|bratT62=Person-property
+3	московского	_	_	_	_	_	_	_	bratA13=T8:Adjective|bratA2=T6:Male|bratT51=Event|bratT6=Person|bratT62=Person-property|bratT8=GPE
+4	дела	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T6:Male|bratT51=Event|bratT6=Person|bratT62=Person-property
+5	''	_	_	_	_	_	_	_	bratA2=T6:Male|bratT51=Event|bratT6=Person|bratT62=Person-property
 6	Данил	_	_	_	_	_	_	_	bratA2=T6:Male|bratT6=Person|bratT9=Person-forename
 7	Беглец	_	_	_	_	_	_	_	bratA2=T6:Male|bratT10=Person-surname|bratT6=Person
 8	вышел	_	_	_	_	_	_	_	_

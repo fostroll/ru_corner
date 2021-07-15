@@ -28,16 +28,16 @@
 8	5	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Product|bratT50=Ordinal
 9	''	_	_	_	_	_	_	_	bratT4=Product
 10	с	_	_	_	_	_	_	_	_
-11	зондом	_	_	_	_	_	_	_	bratA12=T5:Unconscious|bratT5=Person
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unconscious|bratT5=Person
+11	зондом	_	_	_	_	_	_	_	bratA12=T5:Unique|bratT5=Product
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unique|bratT5=Product
 13-15	Чанъэ-5	_	_	_	_	_	_	_	SpaceAfter=No
-13	Чанъэ	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unconscious|bratT5=Person
-14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unconscious|bratT5=Person
-15	5	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unconscious|bratT5=Person|bratT52=Ordinal
-16	''	_	_	_	_	_	_	_	bratA12=T5:Unconscious|bratT5=Person
+13	Чанъэ	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unique|bratT5=Product
+14	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unique|bratT5=Product
+15	5	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T5:Unique|bratT5=Product|bratT52=Ordinal
+16	''	_	_	_	_	_	_	_	bratA12=T5:Unique|bratT5=Product
 17	для	_	_	_	_	_	_	_	_
-18	исследования	_	_	_	_	_	_	_	_
-19	Луны	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Location
+18	исследования	_	_	_	_	_	_	_	bratT65=Event
+19	Луны	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Location|bratT65=Event
 20	,	_	_	_	_	_	_	_	_
 21	сообщается	_	_	_	_	_	_	_	_
 22	на	_	_	_	_	_	_	_	_
@@ -65,13 +65,13 @@
 
 # sent_id = 0127-p3-s2
 # text = Зонд ``Чанъэ-5'' примерно через 40 минут отделился от ракеты.
-1	Зонд	_	_	_	_	_	_	_	bratA13=T12:Unconscious|bratT12=Person
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unconscious|bratT12=Person
+1	Зонд	_	_	_	_	_	_	_	bratA13=T12:Unique|bratT12=Product
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unique|bratT12=Product
 3-5	Чанъэ-5	_	_	_	_	_	_	_	SpaceAfter=No
-3	Чанъэ	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unconscious|bratT12=Person
-4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unconscious|bratT12=Person
-5	5	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unconscious|bratT12=Person|bratT46=Ordinal
-6	''	_	_	_	_	_	_	_	bratA13=T12:Unconscious|bratT12=Person
+3	Чанъэ	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unique|bratT12=Product
+4	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unique|bratT12=Product
+5	5	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T12:Unique|bratT12=Product|bratT46=Ordinal
+6	''	_	_	_	_	_	_	_	bratA13=T12:Unique|bratT12=Product
 7	примерно	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-relative
 8	через	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-relative
 9	40	_	_	_	_	_	_	_	bratA7=T13:Past|bratT13=Date-relative|bratT14=Duration
@@ -111,12 +111,12 @@
 # par_text = «Чанъэ-5» должен собрать и доставить на Землю образцы лунного грунта. В случае успеха это будет первая беспилотная миссия в мире по доставке образцов на Землю, отмечает канал. Аппарат состоит из четырех модулей: для посадки на Луну, взлета с ее поверхности, стыковки и погрузки контейнеров с пробами, а также для возвращения обратно.
 # sent_id = 0127-p5-s1
 # text = ``Чанъэ-5'' должен собрать и доставить на Землю образцы лунного грунта.
-1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unconscious|bratT20=Person
+1	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unique|bratT20=Product
 2-4	Чанъэ-5	_	_	_	_	_	_	_	SpaceAfter=No
-2	Чанъэ	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unconscious|bratT20=Person
-3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unconscious|bratT20=Person
-4	5	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unconscious|bratT20=Person|bratT47=Ordinal
-5	''	_	_	_	_	_	_	_	bratA14=T20:Unconscious|bratT20=Person
+2	Чанъэ	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unique|bratT20=Product
+3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unique|bratT20=Product
+4	5	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T20:Unique|bratT20=Product|bratT47=Ordinal
+5	''	_	_	_	_	_	_	_	bratA14=T20:Unique|bratT20=Product
 6	должен	_	_	_	_	_	_	_	_
 7	собрать	_	_	_	_	_	_	_	_
 8	и	_	_	_	_	_	_	_	_

@@ -3,8 +3,8 @@
 # par_text = Президент Литвы и Тихановская обсудили санкции против Белоруссии
 # sent_id = 0118-p1-s1
 # text = Президент Литвы и Тихановская обсудили санкции против Белоруссии
-1	Президент	_	_	_	_	_	_	_	bratT2=Person-property
-2	Литвы	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Person-property
+1	Президент	_	_	_	_	_	_	_	bratT2=Person-property|bratT51=Person
+2	Литвы	_	_	_	_	_	_	_	bratT1=GPE|bratT2=Person-property|bratT51=Person
 3	и	_	_	_	_	_	_	_	_
 4	Тихановская	_	_	_	_	_	_	_	bratA8=T3:Female|bratT3=Person|bratT30=Person-surname
 5	обсудили	_	_	_	_	_	_	_	_
@@ -86,8 +86,8 @@
 24	приводятся	_	_	_	_	_	_	_	_
 25	слова	_	_	_	_	_	_	_	_
 26	пресс-службы	_	_	_	_	_	_	_	bratA18=T15:Department|bratT15=Organization
-27	литовского	_	_	_	_	_	_	_	bratA16=T41:Adjective|bratA18=T15:Department|bratT14=Person-property|bratT15=Organization|bratT41=GPE
-28	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T15:Department|bratT14=Person-property|bratT15=Organization
+27	литовского	_	_	_	_	_	_	_	bratA16=T41:Adjective|bratA18=T15:Department|bratT14=Person-property|bratT15=Organization|bratT41=GPE|bratT53=Person
+28	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T15:Department|bratT14=Person-property|bratT15=Organization|bratT53=Person
 29	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0118-p4

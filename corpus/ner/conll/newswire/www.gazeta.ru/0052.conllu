@@ -7,13 +7,13 @@
 2	огласит	_	_	_	_	_	_	_	_
 3	приговор	_	_	_	_	_	_	_	_
 4-6	экс-гендиректору	_	_	_	_	_	_	_	_
-4	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Person-property
-5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT2=Person-property
-6	гендиректору	_	_	_	_	_	_	_	bratT2=Person-property
-7	издательства	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
-9	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
-10	''	_	_	_	_	_	_	_	bratA4=T1:Media|bratT1=Organization|bratT2=Person-property
+4	экс	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA15=T48:Male|bratT2=Person-property|bratT48=Person
+5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA15=T48:Male|bratT2=Person-property|bratT48=Person
+6	гендиректору	_	_	_	_	_	_	_	bratA15=T48:Male|bratT2=Person-property|bratT48=Person
+7	издательства	_	_	_	_	_	_	_	bratA15=T48:Male|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property|bratT48=Person
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Male|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property|bratT48=Person
+9	Известия	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Male|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property|bratT48=Person
+10	''	_	_	_	_	_	_	_	bratA15=T48:Male|bratA4=T1:Media|bratT1=Organization|bratT2=Person-property|bratT48=Person
 
 # newpar id = 0052-p2
 # par_text = Гагаринский суд Москвы огласит приговор политологу и бывшему гендиректору издательства «Известия» Эраста Галумова, обвиняемого в мошенничестве. Об этом сообщает РИА «Новости».
@@ -92,8 +92,8 @@
 5	Галумов	_	_	_	_	_	_	_	bratA9=T14:Male|bratT14=Person|bratT29=Person-surname
 6	и	_	_	_	_	_	_	_	_
 7	другие	_	_	_	_	_	_	_	_
-8	фигуранты	_	_	_	_	_	_	_	_
-9	дела	_	_	_	_	_	_	_	bratT37=Event
+8	фигуранты	_	_	_	_	_	_	_	bratT49=Person
+9	дела	_	_	_	_	_	_	_	bratT37=Event|bratT49=Person
 10	составили	_	_	_	_	_	_	_	_
 11	фиктивные	_	_	_	_	_	_	_	_
 12	договоры	_	_	_	_	_	_	_	_
@@ -123,7 +123,7 @@
 10	в	_	_	_	_	_	_	_	_
 11	управлении	_	_	_	_	_	_	_	SpaceAfter=No|bratT44=Organization
 12	:	_	_	_	_	_	_	_	_
-13	два	_	_	_	_	_	_	_	bratT15=Quantity
+13	два	_	_	_	_	_	_	_	bratA12=T17:Male|bratA2=T17:Plural|bratT15=Quantity|bratT17=Person
 14	следователя	_	_	_	_	_	_	_	bratA12=T17:Male|bratA2=T17:Plural|bratT15=Quantity|bratT16=Person-property|bratT17=Person
 15	ФСБ	_	_	_	_	_	_	_	bratA12=T17:Male|bratA2=T17:Plural|bratT16=Person-property|bratT17=Person|bratT9=Organization
 16	Алексей	_	_	_	_	_	_	_	bratA11=T11:Male|bratA12=T17:Male|bratA2=T17:Plural|bratT11=Person|bratT17=Person|bratT30=Person-forename

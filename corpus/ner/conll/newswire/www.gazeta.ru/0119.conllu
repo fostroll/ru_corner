@@ -3,12 +3,12 @@
 # par_text = Адвокат Харитонова хочет справедливого решения суда для Яндиева
 # sent_id = 0119-p1-s1
 # text = Адвокат Харитонова хочет справедливого решения суда для Яндиева
-1	Адвокат	_	_	_	_	_	_	_	bratT2=Person-property
-2	Харитонова	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT2=Person-property|bratT22=Person-surname
+1	Адвокат	_	_	_	_	_	_	_	bratT2=Person-property|bratT39=Person
+2	Харитонова	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT2=Person-property|bratT22=Person-surname|bratT39=Person
 3	хочет	_	_	_	_	_	_	_	_
 4	справедливого	_	_	_	_	_	_	_	_
 5	решения	_	_	_	_	_	_	_	_
-6	суда	_	_	_	_	_	_	_	_
+6	суда	_	_	_	_	_	_	_	bratT40=Organization
 7	для	_	_	_	_	_	_	_	_
 8	Яндиева	_	_	_	_	_	_	_	bratA5=T3:Male|bratT21=Person-surname|bratT3=Person
 
@@ -18,18 +18,18 @@
 # text = Александр Кравцов, адвокат бойца Сергея Харитонова заявил, что хочет справедливого решения суда для Адама Яндиева, передает Sport24.
 1	Александр	_	_	_	_	_	_	_	bratA6=T4:Male|bratT23=Person-forename|bratT4=Person
 2	Кравцов	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T4:Male|bratT24=Person-surname|bratT4=Person
-3	,	_	_	_	_	_	_	_	_
-4	адвокат	_	_	_	_	_	_	_	bratT5=Person-property
-5	бойца	_	_	_	_	_	_	_	bratA7=T6:Male|bratT19=Person-property|bratT5=Person-property|bratT6=Person
-6	Сергея	_	_	_	_	_	_	_	bratA7=T6:Male|bratT25=Person-forename|bratT5=Person-property|bratT6=Person
-7	Харитонова	_	_	_	_	_	_	_	bratA7=T6:Male|bratT26=Person-surname|bratT5=Person-property|bratT6=Person
+3	,	_	_	_	_	_	_	_	bratA6=T4:Male|bratT4=Person
+4	адвокат	_	_	_	_	_	_	_	bratA6=T4:Male|bratT4=Person|bratT5=Person-property
+5	бойца	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T6:Male|bratT19=Person-property|bratT4=Person|bratT5=Person-property|bratT6=Person
+6	Сергея	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T6:Male|bratT25=Person-forename|bratT4=Person|bratT5=Person-property|bratT6=Person
+7	Харитонова	_	_	_	_	_	_	_	bratA6=T4:Male|bratA7=T6:Male|bratT26=Person-surname|bratT4=Person|bratT5=Person-property|bratT6=Person
 8	заявил	_	_	_	_	_	_	_	SpaceAfter=No
 9	,	_	_	_	_	_	_	_	_
 10	что	_	_	_	_	_	_	_	_
 11	хочет	_	_	_	_	_	_	_	_
 12	справедливого	_	_	_	_	_	_	_	_
 13	решения	_	_	_	_	_	_	_	_
-14	суда	_	_	_	_	_	_	_	_
+14	суда	_	_	_	_	_	_	_	bratT41=Organization
 15	для	_	_	_	_	_	_	_	_
 16	Адама	_	_	_	_	_	_	_	bratA8=T7:Male|bratT27=Person-forename|bratT7=Person
 17	Яндиева	_	_	_	_	_	_	_	SpaceAfter=No|bratA8=T7:Male|bratT28=Person-surname|bratT7=Person
@@ -47,8 +47,8 @@
 1	Напомним	_	_	_	_	_	_	_	SpaceAfter=No
 2	,	_	_	_	_	_	_	_	_
 3	драка	_	_	_	_	_	_	_	bratT17=Event
-4	между	_	_	_	_	_	_	_	bratT17=Event
-5	спортсменами	_	_	_	_	_	_	_	bratT17=Event|bratT18=Person-property
+4	между	_	_	_	_	_	_	_	_
+5	спортсменами	_	_	_	_	_	_	_	bratT18=Person-property|bratT42=Person
 6	произошла	_	_	_	_	_	_	_	_
 7	13	_	_	_	_	_	_	_	bratA2=T9:Past|bratT9=Date-absolute
 8	сентября	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T9:Past|bratT9=Date-absolute
@@ -114,7 +114,7 @@
 # sent_id = 0119-p4-s4
 # text = Пусть суд примет справедливое решение'', - сказал Кравцов.
 1	Пусть	_	_	_	_	_	_	_	_
-2	суд	_	_	_	_	_	_	_	_
+2	суд	_	_	_	_	_	_	_	bratT43=Organization
 3	примет	_	_	_	_	_	_	_	_
 4	справедливое	_	_	_	_	_	_	_	_
 5	решение	_	_	_	_	_	_	_	SpaceAfter=No

@@ -179,8 +179,8 @@
 
 # sent_id = 0058-p4-s4
 # text = После случившегося журналисты задались вопросом, обвалится ли весь торговый центр, если тротуар не отремонтируют.
-1	После	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-relative
-2	случившегося	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-relative
+1	После	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute
+2	случившегося	_	_	_	_	_	_	_	bratA4=T11:Past|bratT11=Date-absolute|bratT44=Event
 3	журналисты	_	_	_	_	_	_	_	bratT23=Person|bratT6=Person-property
 4	задались	_	_	_	_	_	_	_	_
 5	вопросом	_	_	_	_	_	_	_	SpaceAfter=No

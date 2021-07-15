@@ -13,7 +13,7 @@ T14	Product 260 283	китайской   Chang'e   4
 T15	Product 451 474	китайская   Chang'e   5
 T16	Product 513 532	``   Луна - 25   ''
 T17	Person-property 619 626	эксперт
-T18	Person 755 790	Космический   аппарат   Chang'e   5
+T18	Product 755 790	Космический   аппарат   Chang'e   5
 T19	Product 850 879	советские   серии   E - 8 - 5
 T21	Person-property 1078 1085	эксперт
 T22	Date-absolute 1209 1219	В   ноябре
@@ -41,9 +41,7 @@ T36	Product 581 612	российской   лунной   программе
 A7	Project T36
 T37	Location 151 156	Земли
 A8	Project T26
-T25	Person 1273 1308	тяжелую   ракету   Long   March - 5
-A9	Unconscious T25
-A10	Unconscious T18
+T25	Product 1273 1308	тяжелую   ракету   Long   March - 5
 T38	Date-absolute 230 236	сейчас
 T39	Date-period-relative 1343 1361	в   ходе   которой
 T40	Date-absolute 662 692	после   многолетних   задержек
@@ -113,3 +111,5 @@ T77	Person-property 793 803	специалист
 T78	Event 1179 1190	возвращении
 T79	Event 1134 1142	стыковки
 T80	Event 939 947	доставки
+A10	Unique T18
+A9	Unique T25

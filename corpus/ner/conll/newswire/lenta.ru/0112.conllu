@@ -45,8 +45,8 @@
 # text = Взрыв произошел в пределах порта и пробил корпус судна.
 1	Взрыв	_	_	_	_	_	_	_	bratT46=Event
 2	произошел	_	_	_	_	_	_	_	_
-3	в	_	_	_	_	_	_	_	bratT6=Facility
-4	пределах	_	_	_	_	_	_	_	bratT6=Facility
+3	в	_	_	_	_	_	_	_	_
+4	пределах	_	_	_	_	_	_	_	_
 5	порта	_	_	_	_	_	_	_	bratT6=Facility
 6	и	_	_	_	_	_	_	_	_
 7	пробил	_	_	_	_	_	_	_	_
@@ -57,7 +57,7 @@
 # sent_id = 0112-p3-s2
 # text = Танкер Agrari шел под мальтийским флагом, но принадлежал греческой фирме TMS Tankers.
 1	Танкер	_	_	_	_	_	_	_	bratA4=T9:Unconscious|bratT9=Person
-2	Agrari	_	_	_	_	_	_	_	bratA4=T9:Unconscious|bratT9=Person
+2	Agrari	_	_	_	_	_	_	_	bratA4=T9:Unconscious|bratT60=Location|bratT9=Person
 3	шел	_	_	_	_	_	_	_	_
 4	под	_	_	_	_	_	_	_	_
 5	мальтийским	_	_	_	_	_	_	_	bratA16=T45:Adjective|bratT45=GPE

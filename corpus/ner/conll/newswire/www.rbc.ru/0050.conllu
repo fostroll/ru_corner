@@ -7,10 +7,10 @@
 2	США	_	_	_	_	_	_	_	bratT1=GPE
 3	объяснили	_	_	_	_	_	_	_	_
 4	появление	_	_	_	_	_	_	_	bratT57=Event
-5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unconscious|bratT2=Person|bratT35=Person-alias
-6	Джона	_	_	_	_	_	_	_	bratA1=T2:Unconscious|bratA13=T60:Male|bratT2=Person|bratT35=Person-alias|bratT58=Person-forename|bratT60=Person
-7	Маккейна	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unconscious|bratA13=T60:Male|bratT2=Person|bratT35=Person-alias|bratT59=Person-surname|bratT60=Person
-8	''	_	_	_	_	_	_	_	bratA1=T2:Unconscious|bratT2=Person|bratT35=Person-alias
+5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unique|bratT2=Product
+6	Джона	_	_	_	_	_	_	_	bratA1=T2:Unique|bratA13=T60:Male|bratT2=Product|bratT58=Person-forename|bratT60=Person
+7	Маккейна	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T2:Unique|bratA13=T60:Male|bratT2=Product|bratT59=Person-surname|bratT60=Person
+8	''	_	_	_	_	_	_	_	bratA1=T2:Unique|bratT2=Product
 9	в	_	_	_	_	_	_	_	_
 10	водах	_	_	_	_	_	_	_	_
 11	у	_	_	_	_	_	_	_	_
@@ -20,12 +20,12 @@
 # par_text = Эсминец США «Джон Маккейн» проводил операцию по обеспечению свободы навигации в районе залива Петра Великого, не нарушая при этом международных прав, заявило командование Седьмого флота ВМС США. Там подчеркнули, что действия эсминца подтверждали права на законное использование моря, признанные международными законами, и оспаривали «чрезмерные морские претензии России».
 # sent_id = 0050-p2-s1
 # text = Эсминец США ``Джон Маккейн'' проводил операцию по обеспечению свободы навигации в районе залива Петра Великого, не нарушая при этом международных прав, заявило командование Седьмого флота ВМС США.
-1	Эсминец	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT4=Person
-2	США	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT4=Person|bratT5=GPE
-3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias
-4	Джон	_	_	_	_	_	_	_	bratA14=T63:Male|bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias|bratT61=Person-forename|bratT63=Person
-5	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T63:Male|bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias|bratT62=Person-surname|bratT63=Person
-6	''	_	_	_	_	_	_	_	bratA2=T4:Unconscious|bratT4=Person|bratT43=Person-alias
+1	Эсминец	_	_	_	_	_	_	_	bratA2=T4:Unique|bratT4=Product
+2	США	_	_	_	_	_	_	_	bratA2=T4:Unique|bratT4=Product|bratT5=GPE
+3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T4:Unique|bratT4=Product
+4	Джон	_	_	_	_	_	_	_	bratA14=T63:Male|bratA2=T4:Unique|bratT4=Product|bratT61=Person-forename|bratT63=Person
+5	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA14=T63:Male|bratA2=T4:Unique|bratT4=Product|bratT62=Person-surname|bratT63=Person
+6	''	_	_	_	_	_	_	_	bratA2=T4:Unique|bratT4=Product
 7	проводил	_	_	_	_	_	_	_	_
 8	операцию	_	_	_	_	_	_	_	bratT55=Event
 9	по	_	_	_	_	_	_	_	_
@@ -248,10 +248,10 @@
 11	том	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	что	_	_	_	_	_	_	_	_
-14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias
-15	Джон	_	_	_	_	_	_	_	bratA15=T66:Male|bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias|bratT64=Person-forename|bratT66=Person
-16	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T66:Male|bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias|bratT65=Person-surname|bratT66=Person
-17	''	_	_	_	_	_	_	_	bratA4=T33:Unconscious|bratT33=Person|bratT54=Person-alias
+14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T33:Unique|bratT33=Product
+15	Джон	_	_	_	_	_	_	_	bratA15=T66:Male|bratA16=T33:Unique|bratT33=Product|bratT64=Person-forename|bratT66=Person
+16	Маккейн	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T66:Male|bratA16=T33:Unique|bratT33=Product|bratT65=Person-surname|bratT66=Person
+17	''	_	_	_	_	_	_	_	bratA16=T33:Unique|bratT33=Product
 18	вторгся	_	_	_	_	_	_	_	_
 19	в	_	_	_	_	_	_	_	_
 20	российские	_	_	_	_	_	_	_	bratA7=T38:Adjective|bratT38=GPE

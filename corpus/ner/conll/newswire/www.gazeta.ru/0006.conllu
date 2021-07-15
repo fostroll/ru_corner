@@ -117,13 +117,13 @@
 # sent_id = 0006-p5-s1
 # text = Протесты под лозунгом ``Vidas pretas importam'' (Черные жизни имеют значение) также прошли в Куритибе и Порту-Алегри, где произошло резонансное убийство.
 1	Протесты	_	_	_	_	_	_	_	bratT22=Event
-2	под	_	_	_	_	_	_	_	bratT22=Event
-3	лозунгом	_	_	_	_	_	_	_	bratT22=Event
-4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event
-5	Vidas	_	_	_	_	_	_	_	bratT22=Event
-6	pretas	_	_	_	_	_	_	_	bratT22=Event
-7	importam	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Event
-8	''	_	_	_	_	_	_	_	bratT22=Event
+2	под	_	_	_	_	_	_	_	_
+3	лозунгом	_	_	_	_	_	_	_	_
+4	``	_	_	_	_	_	_	_	SpaceAfter=No
+5	Vidas	_	_	_	_	_	_	_	_
+6	pretas	_	_	_	_	_	_	_	_
+7	importam	_	_	_	_	_	_	_	SpaceAfter=No
+8	''	_	_	_	_	_	_	_	_
 9	(	_	_	_	_	_	_	_	SpaceAfter=No
 10	Черные	_	_	_	_	_	_	_	_
 11	жизни	_	_	_	_	_	_	_	_
@@ -154,8 +154,8 @@
 5	был	_	_	_	_	_	_	_	_
 6	убит	_	_	_	_	_	_	_	_
 7	охранниками	_	_	_	_	_	_	_	bratT19=Person-property
-8	торгового	_	_	_	_	_	_	_	bratT34=Facility
-9	центра	_	_	_	_	_	_	_	bratT34=Facility
+8	торгового	_	_	_	_	_	_	_	bratT19=Person-property|bratT34=Facility
+9	центра	_	_	_	_	_	_	_	bratT19=Person-property|bratT34=Facility
 10	в	_	_	_	_	_	_	_	_
 11	городе	_	_	_	_	_	_	_	bratT20=GPE
 12	Порту-Алегри	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=GPE

@@ -28,7 +28,7 @@
 6	Рогозин	_	_	_	_	_	_	_	bratA7=T6:Male|bratT10=Person-surname|bratT6=Person
 7	подал	_	_	_	_	_	_	_	_
 8	в	_	_	_	_	_	_	_	_
-9	суд	_	_	_	_	_	_	_	_
+9	суд	_	_	_	_	_	_	_	bratT29=Organization
 10	иск	_	_	_	_	_	_	_	_
 11	о	_	_	_	_	_	_	_	_
 12	защите	_	_	_	_	_	_	_	_
@@ -126,7 +126,7 @@
 3	ИД	_	_	_	_	_	_	_	bratA2=T14:Media|bratT14=Organization
 4	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T14:Media|bratT14=Organization
 5	Аргументы	_	_	_	_	_	_	_	bratA2=T14:Media|bratT14=Organization
-6	недели	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T14:Media|bratT14=Organization
+6	недели	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T14:Media|bratT14=Organization|bratT31=Duration|bratT32=Time-period
 7	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T14:Media|bratT14=Organization
 8	,	_	_	_	_	_	_	_	_
 9	ООО	_	_	_	_	_	_	_	bratA3=T15:Media|bratT15=Organization
@@ -144,9 +144,9 @@
 20	,	_	_	_	_	_	_	_	_
 21	а	_	_	_	_	_	_	_	_
 22	также	_	_	_	_	_	_	_	_
-23	два	_	_	_	_	_	_	_	bratT17=Quantity
-24	физических	_	_	_	_	_	_	_	bratT17=Quantity
-25	лица	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity
+23	два	_	_	_	_	_	_	_	bratT17=Quantity|bratT30=Person
+24	физических	_	_	_	_	_	_	_	bratT17=Quantity|bratT30=Person
+25	лица	_	_	_	_	_	_	_	SpaceAfter=No|bratT17=Quantity|bratT30=Person
 26	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0066-p5-s3

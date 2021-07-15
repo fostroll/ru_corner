@@ -55,7 +55,7 @@
 # sent_id = 0092-p3-s2
 # text = Пока политик задерживается.
 1	Пока	_	_	_	_	_	_	_	_
-2	политик	_	_	_	_	_	_	_	bratT10=Person-property
+2	политик	_	_	_	_	_	_	_	bratT10=Person-property|bratT74=Person
 3	задерживается	_	_	_	_	_	_	_	SpaceAfter=No
 4	.	_	_	_	_	_	_	_	_
 
@@ -176,16 +176,16 @@
 7	,	_	_	_	_	_	_	_	_
 8	среди	_	_	_	_	_	_	_	_
 9	которых	_	_	_	_	_	_	_	_
-10	король	_	_	_	_	_	_	_	bratT33=Person-property
-11	Саудовской	_	_	_	_	_	_	_	bratT32=GPE|bratT33=Person-property
-12	Аравии	_	_	_	_	_	_	_	SpaceAfter=No|bratT32=GPE|bratT33=Person-property
+10	король	_	_	_	_	_	_	_	bratA25=T75:Male|bratT33=Person-property|bratT75=Person
+11	Саудовской	_	_	_	_	_	_	_	bratA25=T75:Male|bratT32=GPE|bratT33=Person-property|bratT75=Person
+12	Аравии	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T75:Male|bratT32=GPE|bratT33=Person-property|bratT75=Person
 13	,	_	_	_	_	_	_	_	_
-14	генсек	_	_	_	_	_	_	_	bratT35=Person-property
-15	ООН	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=Person-property
+14	генсек	_	_	_	_	_	_	_	bratT35=Person-property|bratT76=Person
+15	ООН	_	_	_	_	_	_	_	SpaceAfter=No|bratT34=Organization|bratT35=Person-property|bratT76=Person
 16	,	_	_	_	_	_	_	_	_
-17	президенты	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Person-property
-18	Турции	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT36=GPE|bratT38=Person-property
-19	и	_	_	_	_	_	_	_	bratA4=T38:Plural|bratT38=Person-property
-20	Словении	_	_	_	_	_	_	_	SpaceAfter=No|bratA4=T38:Plural|bratT37=GPE|bratT38=Person-property
+17	президенты	_	_	_	_	_	_	_	bratA26=T77:Plural|bratA4=T38:Plural|bratT38=Person-property|bratT77=Person
+18	Турции	_	_	_	_	_	_	_	bratA26=T77:Plural|bratA4=T38:Plural|bratT36=GPE|bratT38=Person-property|bratT77=Person
+19	и	_	_	_	_	_	_	_	bratA26=T77:Plural|bratA4=T38:Plural|bratT38=Person-property|bratT77=Person
+20	Словении	_	_	_	_	_	_	_	SpaceAfter=No|bratA26=T77:Plural|bratA4=T38:Plural|bratT37=GPE|bratT38=Person-property|bratT77=Person
 21	.	_	_	_	_	_	_	_	_
 

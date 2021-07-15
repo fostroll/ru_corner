@@ -10,7 +10,7 @@
 5	одиночных	_	_	_	_	_	_	_	bratT77=Quantity|bratT78=Event|bratT80=Person
 6	пикетов	_	_	_	_	_	_	_	bratT78=Event|bratT80=Person
 7	против	_	_	_	_	_	_	_	_
-8	назначения	_	_	_	_	_	_	_	_
+8	назначения	_	_	_	_	_	_	_	bratT86=Event
 9	главой	_	_	_	_	_	_	_	bratT4=Person-property
 10	местного	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization|bratT74=GPE
 11	Минздрава	_	_	_	_	_	_	_	bratT4=Person-property|bratT5=Organization
@@ -32,7 +32,7 @@
 9	одиночных	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute|bratT63=Event|bratT66=Quantity
 10	пикетов	_	_	_	_	_	_	_	bratA21=T2:Past|bratT2=Date-absolute|bratT63=Event
 11	против	_	_	_	_	_	_	_	_
-12	назначения	_	_	_	_	_	_	_	_
+12	назначения	_	_	_	_	_	_	_	bratT87=Event
 13	главой	_	_	_	_	_	_	_	bratT12=Person-property
 14	Минздрава	_	_	_	_	_	_	_	bratT12=Person-property|bratT13=Organization
 15	Александра	_	_	_	_	_	_	_	bratA2=T11:Male|bratT11=Person|bratT14=Person-forename
@@ -80,8 +80,8 @@
 15	Чебыкин	_	_	_	_	_	_	_	bratA10=T27:Male|bratT27=Person|bratT38=Person-surname
 16	и	_	_	_	_	_	_	_	_
 17	сторонник	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person|bratT40=Political-group
-18	Либертарианский	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person
-19	партии	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person
+18	Либертарианский	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person|bratT40=Political-group
+19	партии	_	_	_	_	_	_	_	bratA11=T28:Male|bratT22=Organization|bratT28=Person|bratT40=Political-group
 20	по	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person
 21	имени	_	_	_	_	_	_	_	bratA11=T28:Male|bratT28=Person
 22	Павел	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T28:Male|bratT28=Person|bratT39=Person-forename

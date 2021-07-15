@@ -3,10 +3,10 @@
 # par_text = Наставник «Лацио» поделился ожиданиями от матча с «Зенитом»
 # sent_id = 0105-p1-s1
 # text = Наставник ``Лацио'' поделился ожиданиями от матча с ``Зенитом''
-1	Наставник	_	_	_	_	_	_	_	bratT1=Person-property
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
-3	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Person-property|bratT2=Organization
-4	''	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
+1	Наставник	_	_	_	_	_	_	_	bratA10=T37:Male|bratT1=Person-property|bratT37=Person
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Male|bratT1=Person-property|bratT2=Organization|bratT37=Person
+3	Лацио	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T37:Male|bratT1=Person-property|bratT2=Organization|bratT37=Person
+4	''	_	_	_	_	_	_	_	bratA10=T37:Male|bratT1=Person-property|bratT2=Organization|bratT37=Person
 5	поделился	_	_	_	_	_	_	_	_
 6	ожиданиями	_	_	_	_	_	_	_	_
 7	от	_	_	_	_	_	_	_	_

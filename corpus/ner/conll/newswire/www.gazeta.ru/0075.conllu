@@ -3,9 +3,9 @@
 # par_text = Нападающий сборной Сербии забил России столько же мячей, сколько в 32 играх за «Реал»
 # sent_id = 0075-p1-s1
 # text = Нападающий сборной Сербии забил России столько же мячей, сколько в 32 играх за ``Реал''
-1	Нападающий	_	_	_	_	_	_	_	bratT1=Person-property
-2	сборной	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization
-3	Сербии	_	_	_	_	_	_	_	bratT1=Person-property|bratT2=Organization|bratT3=GPE
+1	Нападающий	_	_	_	_	_	_	_	bratA8=T50:Male|bratT1=Person-property|bratT50=Person
+2	сборной	_	_	_	_	_	_	_	bratA8=T50:Male|bratT1=Person-property|bratT2=Organization|bratT50=Person
+3	Сербии	_	_	_	_	_	_	_	bratA8=T50:Male|bratT1=Person-property|bratT2=Organization|bratT3=GPE|bratT50=Person
 4	забил	_	_	_	_	_	_	_	_
 5	России	_	_	_	_	_	_	_	bratT4=GPE
 6	столько	_	_	_	_	_	_	_	_
@@ -68,7 +68,7 @@
 2	составе	_	_	_	_	_	_	_	_
 3	сборной	_	_	_	_	_	_	_	bratT22=Organization
 4	Сербии	_	_	_	_	_	_	_	bratT22=Organization|bratT23=GPE
-5	дубль	_	_	_	_	_	_	_	_
+5	дубль	_	_	_	_	_	_	_	bratT49=Event
 6	оформил	_	_	_	_	_	_	_	_
 7	нападающий	_	_	_	_	_	_	_	bratA4=T24:Male|bratT24=Person|bratT25=Person-property
 8	мадридского	_	_	_	_	_	_	_	bratA4=T24:Male|bratA5=T40:Adjective|bratT24=Person|bratT25=Person-property|bratT26=Organization|bratT40=GPE
@@ -86,9 +86,9 @@
 1	Таким	_	_	_	_	_	_	_	_
 2	образом	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
-4	нападающий	_	_	_	_	_	_	_	bratT30=Person-property
-5	сборной	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization
-6	Сербии	_	_	_	_	_	_	_	bratT30=Person-property|bratT31=Organization|bratT32=GPE
+4	нападающий	_	_	_	_	_	_	_	bratA9=T51:Male|bratT30=Person-property|bratT51=Person
+5	сборной	_	_	_	_	_	_	_	bratA9=T51:Male|bratT30=Person-property|bratT31=Organization|bratT51=Person
+6	Сербии	_	_	_	_	_	_	_	bratA9=T51:Male|bratT30=Person-property|bratT31=Organization|bratT32=GPE|bratT51=Person
 7	забил	_	_	_	_	_	_	_	_
 8	национальной	_	_	_	_	_	_	_	bratA7=T43:Adjective|bratT33=Organization|bratT43=GPE
 9	команде	_	_	_	_	_	_	_	bratT33=Organization

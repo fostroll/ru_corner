@@ -100,18 +100,18 @@
 12	корабль	_	_	_	_	_	_	_	SpaceAfter=No
 13	,	_	_	_	_	_	_	_	_
 14	а	_	_	_	_	_	_	_	_
-15	стрельба	_	_	_	_	_	_	_	_
+15	стрельба	_	_	_	_	_	_	_	bratT42=Event
 16	будет	_	_	_	_	_	_	_	_
 17	производиться	_	_	_	_	_	_	_	_
 18	с	_	_	_	_	_	_	_	_
 19	борта	_	_	_	_	_	_	_	_
-20	фрегата	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT9=Person
-21	Северного	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT10=Organization|bratT9=Person
-22	флота	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT10=Organization|bratT9=Person
-23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Unconscious|bratT9=Person
-24	Адмирал	_	_	_	_	_	_	_	bratA2=T35:Male|bratA5=T9:Unconscious|bratT34=Person-property|bratT35=Person|bratT9=Person
-25	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T35:Male|bratA5=T9:Unconscious|bratT35=Person|bratT36=Person-surname|bratT9=Person
-26	''	_	_	_	_	_	_	_	bratA5=T9:Unconscious|bratT9=Person
+20	фрегата	_	_	_	_	_	_	_	bratA5=T9:Unique|bratT9=Product
+21	Северного	_	_	_	_	_	_	_	bratA5=T9:Unique|bratT10=Organization|bratT9=Product
+22	флота	_	_	_	_	_	_	_	bratA5=T9:Unique|bratT10=Organization|bratT9=Product
+23	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T9:Unique|bratT9=Product
+24	Адмирал	_	_	_	_	_	_	_	bratA2=T35:Male|bratA5=T9:Unique|bratT34=Person-property|bratT35=Person|bratT9=Product
+25	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T35:Male|bratA5=T9:Unique|bratT35=Person|bratT36=Person-surname|bratT9=Product
+26	''	_	_	_	_	_	_	_	bratA5=T9:Unique|bratT9=Product
 
 # newpar id = 0043-p5
 # par_text = Напомним, 7 октября , из акватории Белого моря головной фрегат «Адмирал Флота СССР Горшков» в первый раз выполнил стрельбу гиперзвуковой крылатой ракетой «Циркон». Цель находилась в водах Баренцева Моря, ракета успешно ее поразила. При этом дальность полета «Циркона» составила 450 километров, а ее максимальная высота – целых 28 километров. После запуска в Вашингтоне заявили, что США внимательно следят за ракетными испытаниями России и принимают их во внимание в ходе формирования своей политики в области контроля над вооружениями.
@@ -126,19 +126,19 @@
 7	акватории	_	_	_	_	_	_	_	_
 8	Белого	_	_	_	_	_	_	_	bratT12=Location
 9	моря	_	_	_	_	_	_	_	bratT12=Location
-10	головной	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
-11	фрегат	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
-12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Unconscious|bratT13=Person
-13	Адмирал	_	_	_	_	_	_	_	bratA3=T38:Male|bratA6=T13:Unconscious|bratT13=Person|bratT38=Person|bratT39=Person-property
-14	Флота	_	_	_	_	_	_	_	bratA3=T38:Male|bratA6=T13:Unconscious|bratT13=Person|bratT38=Person|bratT40=Organization
-15	СССР	_	_	_	_	_	_	_	bratA3=T38:Male|bratA6=T13:Unconscious|bratT13=Person|bratT38=Person|bratT40=Organization|bratT41=GPE
-16	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Male|bratA6=T13:Unconscious|bratT13=Person|bratT37=Person-surname|bratT38=Person
-17	''	_	_	_	_	_	_	_	bratA6=T13:Unconscious|bratT13=Person
+10	головной	_	_	_	_	_	_	_	bratA6=T13:Unique|bratT13=Product
+11	фрегат	_	_	_	_	_	_	_	bratA6=T13:Unique|bratT13=Product
+12	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T13:Unique|bratT13=Product
+13	Адмирал	_	_	_	_	_	_	_	bratA3=T38:Male|bratA6=T13:Unique|bratT13=Product|bratT38=Person|bratT39=Person-property
+14	Флота	_	_	_	_	_	_	_	bratA3=T38:Male|bratA6=T13:Unique|bratT13=Product|bratT38=Person|bratT40=Organization
+15	СССР	_	_	_	_	_	_	_	bratA3=T38:Male|bratA6=T13:Unique|bratT13=Product|bratT38=Person|bratT40=Organization|bratT41=GPE
+16	Горшков	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T38:Male|bratA6=T13:Unique|bratT13=Product|bratT37=Person-surname|bratT38=Person
+17	''	_	_	_	_	_	_	_	bratA6=T13:Unique|bratT13=Product
 18	в	_	_	_	_	_	_	_	_
 19	первый	_	_	_	_	_	_	_	bratT14=Ordinal
 20	раз	_	_	_	_	_	_	_	_
 21	выполнил	_	_	_	_	_	_	_	_
-22	стрельбу	_	_	_	_	_	_	_	_
+22	стрельбу	_	_	_	_	_	_	_	bratT43=Event
 23	гиперзвуковой	_	_	_	_	_	_	_	bratT15=Product
 24	крылатой	_	_	_	_	_	_	_	bratT15=Product
 25	ракетой	_	_	_	_	_	_	_	bratT15=Product

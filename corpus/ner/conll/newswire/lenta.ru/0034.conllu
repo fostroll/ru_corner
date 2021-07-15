@@ -124,10 +124,10 @@
 # par_text = Космический аппарат Chang'e 5 специалист назвал более функциональным, чем советские серии E-8-5, использовавшиеся в 1960-1970-х годах для доставки на Землю образцов лунного грунта. Возможные трудности в реализации данной китайской миссии на Луну эксперт связал с необходимостью осуществления стыковки на окололунной орбите при возвращении на Землю.
 # sent_id = 0034-p4-s1
 # text = Космический аппарат Chang'e 5 специалист назвал более функциональным, чем советские серии E-8-5, использовавшиеся в 1960-1970-х годах для доставки на Землю образцов лунного грунта.
-1	Космический	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratA27=T53:Adjective|bratT18=Person|bratT53=Location
-2	аппарат	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratT18=Person
-3	Chang'e	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratT18=Person
-4	5	_	_	_	_	_	_	_	bratA10=T18:Unconscious|bratT18=Person|bratT56=Ordinal
+1	Космический	_	_	_	_	_	_	_	bratA10=T18:Unique|bratA27=T53:Adjective|bratT18=Product|bratT53=Location
+2	аппарат	_	_	_	_	_	_	_	bratA10=T18:Unique|bratT18=Product
+3	Chang'e	_	_	_	_	_	_	_	bratA10=T18:Unique|bratT18=Product
+4	5	_	_	_	_	_	_	_	bratA10=T18:Unique|bratT18=Product|bratT56=Ordinal
 5	специалист	_	_	_	_	_	_	_	bratA35=T76:Male|bratT76=Person|bratT77=Person-property
 6	назвал	_	_	_	_	_	_	_	_
 7	более	_	_	_	_	_	_	_	_
@@ -197,13 +197,13 @@
 6	космодрома	_	_	_	_	_	_	_	bratT24=Facility
 7	Вэньчан	_	_	_	_	_	_	_	bratT24=Facility
 8	запустили	_	_	_	_	_	_	_	_
-9	тяжелую	_	_	_	_	_	_	_	bratA9=T25:Unconscious|bratT25=Person
-10	ракету	_	_	_	_	_	_	_	bratA9=T25:Unconscious|bratT25=Person
-11	Long	_	_	_	_	_	_	_	bratA9=T25:Unconscious|bratT25=Person
+9	тяжелую	_	_	_	_	_	_	_	bratA9=T25:Unique|bratT25=Product
+10	ракету	_	_	_	_	_	_	_	bratA9=T25:Unique|bratT25=Product
+11	Long	_	_	_	_	_	_	_	bratA9=T25:Unique|bratT25=Product
 12-14	March-5	_	_	_	_	_	_	_	_
-12	March	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T25:Unconscious|bratT25=Person|bratT69=Location
-13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T25:Unconscious|bratT25=Person
-14	5	_	_	_	_	_	_	_	bratA9=T25:Unconscious|bratT25=Person|bratT67=Ordinal
+12	March	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T25:Unique|bratT25=Product|bratT69=Location
+13	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T25:Unique|bratT25=Product
+14	5	_	_	_	_	_	_	_	bratA9=T25:Unique|bratT25=Product|bratT67=Ordinal
 15	с	_	_	_	_	_	_	_	_
 16	миссией	_	_	_	_	_	_	_	bratA8=T26:Project|bratT26=Product
 17	Chang'e	_	_	_	_	_	_	_	bratA8=T26:Project|bratT26=Product

@@ -7,9 +7,9 @@
 2	приняла	_	_	_	_	_	_	_	_
 3	закон	_	_	_	_	_	_	_	bratT2=Law
 4	о	_	_	_	_	_	_	_	bratT2=Law
-5	реформе	_	_	_	_	_	_	_	bratT2=Law
-6	системы	_	_	_	_	_	_	_	bratA5=T16:Project|bratT16=Product|bratT2=Law
-7	ОМС	_	_	_	_	_	_	_	bratA5=T16:Project|bratT16=Product|bratT2=Law
+5	реформе	_	_	_	_	_	_	_	bratA7=T25:Project|bratT2=Law|bratT25=Product
+6	системы	_	_	_	_	_	_	_	bratA5=T16:Project|bratA7=T25:Project|bratT16=Product|bratT2=Law|bratT25=Product
+7	ОМС	_	_	_	_	_	_	_	bratA5=T16:Project|bratA7=T25:Project|bratT16=Product|bratT2=Law|bratT25=Product
 
 # newpar id = 0017-p2
 # par_text = Государственная дума на пленарном заседании 24 ноября приняла закон о реформе системы ОМС, предусматривающий передачу ФОМС части полномочий страховщиков. Об этом сообщается на сайте нижней палаты парламента.
@@ -25,12 +25,12 @@
 8	приняла	_	_	_	_	_	_	_	_
 9	закон	_	_	_	_	_	_	_	bratT6=Law
 10	о	_	_	_	_	_	_	_	bratT6=Law
-11	реформе	_	_	_	_	_	_	_	bratT6=Law
-12	системы	_	_	_	_	_	_	_	bratA6=T17:Project|bratT17=Product|bratT6=Law
-13	ОМС	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T17:Project|bratT17=Product|bratT6=Law
+11	реформе	_	_	_	_	_	_	_	bratA8=T26:Project|bratT26=Product|bratT6=Law
+12	системы	_	_	_	_	_	_	_	bratA6=T17:Project|bratA8=T26:Project|bratT17=Product|bratT26=Product|bratT6=Law
+13	ОМС	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T17:Project|bratA8=T26:Project|bratT17=Product|bratT26=Product|bratT6=Law
 14	,	_	_	_	_	_	_	_	_
 15	предусматривающий	_	_	_	_	_	_	_	_
-16	передачу	_	_	_	_	_	_	_	_
+16	передачу	_	_	_	_	_	_	_	bratT24=Event
 17	ФОМС	_	_	_	_	_	_	_	bratT11=Organization
 18	части	_	_	_	_	_	_	_	_
 19	полномочий	_	_	_	_	_	_	_	_
@@ -124,8 +124,8 @@
 4	на	_	_	_	_	_	_	_	_
 5	повышение	_	_	_	_	_	_	_	_
 6	доступности	_	_	_	_	_	_	_	_
-7	медицинской	_	_	_	_	_	_	_	_
-8	помощи	_	_	_	_	_	_	_	SpaceAfter=No
+7	медицинской	_	_	_	_	_	_	_	bratT27=Service
+8	помощи	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Service
 9	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0017-p5-s2

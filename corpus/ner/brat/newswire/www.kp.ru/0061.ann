@@ -1,8 +1,7 @@
 T1	Person-property 0 6	Пираты
 T2	Person-property 36 58	российскими   моряками
 T3	Location 77 96	Гвинейском   заливе
-T4	Person 122 142	танкер   NAFELI   II
-A1	Unconscious T4
+T4	Product 122 142	танкер   NAFELI   II
 T5	Person-property 186 192	моряки
 T6	GPE 200 206	России
 T7	GPE 213 220	Украины
@@ -18,8 +17,7 @@ T15	Person-property 724 730	пираты
 T16	Date-absolute 776 784	в   июле
 T17	Quantity 787 817	восемь   вооруженных   пиратов
 T18	Location 824 843	Гвинейском   заливе
-T19	Person 868 894	танкера   Curacao   Trader
-A5	Unconscious T19
+T19	Product 868 894	танкера   Curacao   Trader
 T20	Quantity 925 932	13   из
 T21	Quantity 935 946	19   членов
 T22	Quantity 987 1001	Семь   россиян
@@ -29,8 +27,7 @@ T24	Date-absolute 1017 1029	26   августа
 T25	Date-absolute 1034 1046	В   сентябре
 T26	Location 1053 1072	Гвинейском   заливе
 T27	GPE 1082 1089	Нигерии
-T28	Person 1104 1146	рефрижераторного   судна   Water   Phoenix
-A7	Unconscious T28
+T28	Product 1104 1146	рефрижераторного   судна   Water   Phoenix
 T29	GPE 1178 1185	Либерии
 T30	Person-property 1192 1198	пираты
 T31	Quantity 1212 1226	двух   россиян
@@ -63,3 +60,6 @@ A16	Department T47
 T48	Person-surname 131 137	NAFELI
 T49	Person-property 810 817	пиратов
 T50	GPE 878 885	Curacao
+A1	Unique T4
+A2	Unique T19
+A5	Unique T28

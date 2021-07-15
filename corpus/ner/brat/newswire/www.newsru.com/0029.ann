@@ -3,8 +3,7 @@ T2	Nationality 35 43	россияне
 A1	Citizenship T2
 T3	GPE 93 100	Бейрута
 T4	Person 107 144	владелец   судна   Rhosus   Гречушкин
-T5	Person 118 132	судна   Rhosus
-A2	Unconscious T5
+T5	Product 118 132	судна   Rhosus
 T6	Person-property 107 132	владелец   судна   Rhosus
 T7	Person 151 169	капитан   Прокошев
 T8	Person-property 151 158	капитан
@@ -16,12 +15,10 @@ T12	GPE 265 272	Бейрута
 T13	Date-absolute 275 295	в   начале   августе
 T14	Person 318 365	владельце   судна   Rhosus   Игоре   Гречушкине
 T15	Person 372 401	капитане   Борисе   Прокошеве
-T16	Person 330 344	судна   Rhosus
-A4	Unconscious T16
+T16	Product 330 344	судна   Rhosus
 T17	Person-property 318 344	владельце   судна   Rhosus
 T18	Person-property 372 380	капитане
-T19	Person 410 424	судна   Rhosus
-A5	Unconscious T19
+T19	Product 410 424	судна   Rhosus
 T20	Organization 517 525	Интерпол
 T21	Nationality 572 579	россиян
 A6	Citizenship T21
@@ -68,3 +65,6 @@ T51	Person 211 225	двух   россиян
 T52	Person 572 579	россиян
 T53	Person 952 965	экс - капитан
 A17	Male T53
+A2	Unique T5
+A18	Unique T16
+A4	Unique T19

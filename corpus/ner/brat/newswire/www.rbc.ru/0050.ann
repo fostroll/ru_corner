@@ -1,9 +1,7 @@
 T1	GPE 4 7	США
-T2	Person 34 60	``   Джона   Маккейна   ''
-A1	Unconscious T2
+T2	Product 34 60	``   Джона   Маккейна   ''
 T3	GPE 79 91	Владивостока
-T4	Person 93 133	Эсминец   США   ``   Джон   Маккейн   ''
-A2	Unconscious T4
+T4	Product 93 133	Эсминец   США   ``   Джон   Маккейн   ''
 T5	GPE 103 106	США
 T6	Location 212 237	залива   Петра   Великого
 T7	Organization 324 352	Седьмого   флота   ВМС   США
@@ -32,8 +30,7 @@ T29	Organization 1389 1398	ВМС   США
 T30	GPE 1395 1398	США
 T31	GPE 1603 1606	США
 T32	GPE 1625 1631	России
-T33	Person 1654 1678	``   Джон   Маккейн   ''
-A4	Unconscious T33
+T33	Product 1654 1678	``   Джон   Маккейн   ''
 T36	GPE 834 846	американских
 A5	Adjective T36
 A6	Past T19
@@ -48,8 +45,6 @@ T37	Location 463 467	моря
 T41	Location 778 784	залива
 T42	Organization 309 352	командование   Седьмого   флота   ВМС   США
 A3	Department T42
-T35	Person-alias 34 60	``   Джона   Маккейна   ''
-T43	Person-alias 109 133	``   Джон   Маккейн   ''
 T44	Person-forename 221 226	Петра
 T45	Person-surname 229 237	Великого
 T46	Person 221 237	Петра   Великого
@@ -63,7 +58,6 @@ T51	Person-surname 928 936	Великого
 T52	Person 920 936	Петра   Великого
 A12	Male T52
 T53	Organization 1340 1345	флота
-T54	Person-alias 1654 1678	``   Джон   Маккейн   ''
 T55	Event 147 155	операцию
 T56	Event 1191 1199	операцию
 T57	Event 22 31	появление
@@ -79,3 +73,6 @@ T64	Person-forename 1659 1663	Джон
 T65	Person-surname 1666 1673	Маккейн
 T66	Person 1659 1673	Джон   Маккейн
 A15	Male T66
+A1	Unique T2
+A16	Unique T33
+A2	Unique T4

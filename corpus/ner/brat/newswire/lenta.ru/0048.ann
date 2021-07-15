@@ -9,7 +9,7 @@ T9	Location 317 332	Карскому   морю
 T10	Duration 376 388	три   недели
 T11	Ordinal 552 558	Второй
 T12	Facility 572 612	акваторию   Серверного   морского   пути
-T13	Person 615 632	``   Арктика   ''
+T13	Product 615 632	``   Арктика   ''
 T14	Date-absolute 654 673	в   конце   декабря
 T15	GPE 854 860	России
 T16	Date-period-absolute 863 892	за   ближайшие   десять   лет
@@ -19,11 +19,8 @@ T22	Age 1180 1188	25   лет
 T23	Quantity 789 807	до   трех   метров
 T17	Quantity 919 945	десять   новых   ледоколов
 A2	Media T6
-T24	Person 0 37	Атомный   ледокол   ``   Арктика   ''
-A3	Unconscious T24
-T25	Person 67 104	Атомный   ледокол   ``   Арктика   ''
-A4	Unconscious T25
-A5	Unconscious T13
+T24	Product 0 37	Атомный   ледокол   ``   Арктика   ''
+T25	Product 67 104	Атомный   ледокол   ``   Арктика   ''
 T1	Date-absolute 950 971	В   настоящее   время
 T4	Date-absolute 492 511	в   данный   момент
 T26	Date-relative 813 818	Ранее
@@ -51,3 +48,9 @@ T36	Ordinal 496 502	данный
 T37	Event 346 350	рейс
 T38	Event 521 546	процесс   ледообразования
 T39	Event 1045 1053	Введение
+T40	Location 25 32	Арктика
+T41	Location 92 99	Арктика
+T42	Location 620 627	Арктика
+A3	Unique T24
+A4	Unique T25
+A5	Unique T13

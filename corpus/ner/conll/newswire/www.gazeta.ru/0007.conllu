@@ -19,9 +19,9 @@
 # par_text = Анна Заворотнюк, дочь актрисы Анастасии Заворотнюк, ответила на слухи о том, что ее мать приняла участие в съемках передачи телеведущего Андрея Малахова. Об этом она сказала в сториз своего Instagram.
 # sent_id = 0007-p2-s1
 # text = Анна Заворотнюк, дочь актрисы Анастасии Заворотнюк, ответила на слухи о том, что ее мать приняла участие в съемках передачи телеведущего Андрея Малахова.
-1	Анна	_	_	_	_	_	_	_	bratA9=T5:Male|bratT32=Person-forename|bratT5=Person
-2	Заворотнюк	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T5:Male|bratT33=Person-surname|bratT5=Person
-3	,	_	_	_	_	_	_	_	_
+1	Анна	_	_	_	_	_	_	_	bratA10=T7:Female|bratT32=Person-forename|bratT7=Person
+2	Заворотнюк	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T7:Female|bratT33=Person-surname|bratT7=Person
+3	,	_	_	_	_	_	_	_	bratA10=T7:Female|bratT7=Person
 4	дочь	_	_	_	_	_	_	_	bratA10=T7:Female|bratT6=Family|bratT7=Person
 5	актрисы	_	_	_	_	_	_	_	bratA10=T7:Female|bratA17=T47:Female|bratT47=Person|bratT7=Person|bratT8=Person-property
 6	Анастасии	_	_	_	_	_	_	_	bratA10=T7:Female|bratA17=T47:Female|bratT34=Person-forename|bratT47=Person|bratT7=Person
@@ -92,7 +92,7 @@
 6	верьте	_	_	_	_	_	_	_	_
 7	всем	_	_	_	_	_	_	_	_
 8	этим	_	_	_	_	_	_	_	_
-9	газетенкам	_	_	_	_	_	_	_	SpaceAfter=No
+9	газетенкам	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T5:Media|bratT5=Organization
 10	''	_	_	_	_	_	_	_	SpaceAfter=No
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 5	был	_	_	_	_	_	_	_	_
 6	косвенно	_	_	_	_	_	_	_	_
 7	подтвержден	_	_	_	_	_	_	_	_
-8	медиками	_	_	_	_	_	_	_	bratT22=Person-property
+8	медиками	_	_	_	_	_	_	_	bratT22=Person-property|bratT56=Person
 9	в	_	_	_	_	_	_	_	_
 10	разговоре	_	_	_	_	_	_	_	_
 11	с	_	_	_	_	_	_	_	_

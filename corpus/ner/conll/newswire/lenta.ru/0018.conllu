@@ -4,9 +4,9 @@
 # sent_id = 0018-p1-s1
 # text = Девушка-блогер стала талисманом летней Универсиады-2023 в Екатеринбурге
 1-3	Девушка-блогер	_	_	_	_	_	_	_	_
-1	Девушка	_	_	_	_	_	_	_	SpaceAfter=No
-2	-	_	_	_	_	_	_	_	SpaceAfter=No
-3	блогер	_	_	_	_	_	_	_	bratT3=Person-property
+1	Девушка	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T41:Female|bratT41=Person
+2	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T41:Female|bratT41=Person
+3	блогер	_	_	_	_	_	_	_	bratA19=T41:Female|bratT3=Person-property|bratT41=Person
 4	стала	_	_	_	_	_	_	_	_
 5	талисманом	_	_	_	_	_	_	_	_
 6	летней	_	_	_	_	_	_	_	bratT1=Event|bratT49=Date-absolute
@@ -22,13 +22,13 @@
 # sent_id = 0018-p2-s1
 # text = Девушка-блогер, олень и соболенок стали талисманами летней Универсиады 2023 года в Екатеринбурге.
 1-3	Девушка-блогер	_	_	_	_	_	_	_	SpaceAfter=No
-1	Девушка	_	_	_	_	_	_	_	SpaceAfter=No
-2	-	_	_	_	_	_	_	_	SpaceAfter=No
-3	блогер	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Person-property
+1	Девушка	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T43:Female|bratT43=Person
+2	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T43:Female|bratT43=Person
+3	блогер	_	_	_	_	_	_	_	SpaceAfter=No|bratA20=T43:Female|bratT43=Person|bratT7=Person-property
 4	,	_	_	_	_	_	_	_	_
-5	олень	_	_	_	_	_	_	_	_
+5	олень	_	_	_	_	_	_	_	bratA21=T51:Unconscious|bratT51=Person
 6	и	_	_	_	_	_	_	_	_
-7	соболенок	_	_	_	_	_	_	_	_
+7	соболенок	_	_	_	_	_	_	_	bratA22=T52:Unconscious|bratT52=Person
 8	стали	_	_	_	_	_	_	_	_
 9	талисманами	_	_	_	_	_	_	_	_
 10	летней	_	_	_	_	_	_	_	bratT4=Event|bratT48=Date-absolute
@@ -69,10 +69,10 @@
 2	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
-5	девушка	_	_	_	_	_	_	_	bratT47=Person
+5	девушка	_	_	_	_	_	_	_	bratA3=T47:Female|bratT47=Person
 6	получила	_	_	_	_	_	_	_	_
 7	имя	_	_	_	_	_	_	_	_
-8	Хитти	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T13:Female|bratT13=Person|bratT31=Person-alias
+8	Хитти	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T13:Female|bratT13=Person|bratT31=Person-alias
 9	,	_	_	_	_	_	_	_	_
 10	оно	_	_	_	_	_	_	_	_
 11	ассоциируется	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 # text = Оленя назвали Ягги, такое имя он получил из-за любви ко мху.
 1	Оленя	_	_	_	_	_	_	_	bratA16=T46:Male|bratA4=T46:Unconscious|bratT46=Person
 2	назвали	_	_	_	_	_	_	_	_
-3	Ягги	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T16:Unconscious|bratA6=T16:Male|bratT16=Person|bratT32=Person-alias
+3	Ягги	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T16:Male|bratA6=T16:Unconscious|bratT16=Person|bratT32=Person-alias
 4	,	_	_	_	_	_	_	_	_
 5	такое	_	_	_	_	_	_	_	_
 6	имя	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 # text = Соболенка зовут Кедри, в этом случае прослеживается ассоциация с кедровыми орехами.
 1	Соболенка	_	_	_	_	_	_	_	bratA14=T45:Unconscious|bratT45=Person
 2	зовут	_	_	_	_	_	_	_	_
-3	Кедри	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T17:Unconscious|bratT17=Person|bratT33=Person-alias
+3	Кедри	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T17:Unconscious|bratT17=Person|bratT33=Person-alias
 4	,	_	_	_	_	_	_	_	_
 5	в	_	_	_	_	_	_	_	_
 6	этом	_	_	_	_	_	_	_	_

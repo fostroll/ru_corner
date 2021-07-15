@@ -8,9 +8,9 @@
 3	Белый	_	_	_	_	_	_	_	bratT2=Organization
 4	дом	_	_	_	_	_	_	_	bratT2=Organization
 5	одобрил	_	_	_	_	_	_	_	_
-6	передачу	_	_	_	_	_	_	_	_
-7	актуальных	_	_	_	_	_	_	_	_
-8	разведданных	_	_	_	_	_	_	_	_
+6	передачу	_	_	_	_	_	_	_	bratT40=Event
+7	актуальных	_	_	_	_	_	_	_	bratT40=Event
+8	разведданных	_	_	_	_	_	_	_	bratT40=Event
 9	Байдену	_	_	_	_	_	_	_	bratA5=T3:Male|bratT24=Person-surname|bratT3=Person
 
 # newpar id = 0117-p2
@@ -20,9 +20,9 @@
 1	Белый	_	_	_	_	_	_	_	bratT5=Organization
 2	дом	_	_	_	_	_	_	_	bratT5=Organization
 3	одобрил	_	_	_	_	_	_	_	_
-4	передачу	_	_	_	_	_	_	_	_
-5	ежедневной	_	_	_	_	_	_	_	bratT33=Duration|bratT34=Time-period
-6	сводки	_	_	_	_	_	_	_	SpaceAfter=No
+4	передачу	_	_	_	_	_	_	_	bratT41=Event
+5	ежедневной	_	_	_	_	_	_	_	bratT33=Duration|bratT34=Time-period|bratT41=Event
+6	сводки	_	_	_	_	_	_	_	SpaceAfter=No|bratT41=Event
 7	,	_	_	_	_	_	_	_	_
 8	включая	_	_	_	_	_	_	_	_
 9	доклады	_	_	_	_	_	_	_	_
@@ -98,8 +98,8 @@
 12	США	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT9=GPE
 13	начать	_	_	_	_	_	_	_	_
 14	процедуру	_	_	_	_	_	_	_	_
-15	передачи	_	_	_	_	_	_	_	_
-16	власти	_	_	_	_	_	_	_	_
+15	передачи	_	_	_	_	_	_	_	bratT39=Event
+16	власти	_	_	_	_	_	_	_	bratT39=Event
 17	Байдену	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T12:Male|bratT12=Person|bratT31=Person-surname
 18	.	_	_	_	_	_	_	_	_
 

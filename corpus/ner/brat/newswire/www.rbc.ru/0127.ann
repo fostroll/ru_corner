@@ -2,7 +2,7 @@ T1	GPE 0 5	Китай
 T2	GPE 70 75	Китай
 T3	Location 64 68	Луне
 T4	Product 99 129	ракету   ``   Чанчжэн - 5   ''
-T5	Person 136 164	зондом   ``   Чанъэ - 5   ''
+T5	Product 136 164	зондом   ``   Чанъэ - 5   ''
 T6	Location 188 192	Луны
 T7	Organization 225 279	Китайского   национального   космического   управления
 T8	GPE 225 235	Китайского
@@ -11,7 +11,7 @@ T9	Organization 286 290	CNSA
 T10	Service 217 222	сайте
 A2	Media T10
 T11	Facility 335 355	космодроме   Вэньчан
-T12	Person 360 386	Зонд   ``   Чанъэ - 5   ''
+T12	Product 360 386	Зонд   ``   Чанъэ - 5   ''
 T13	Date-relative 389 418	примерно   через   40   минут
 T14	Duration 408 418	40   минут
 T15	Date-absolute 449 480	Приблизительно   через   неделю
@@ -21,7 +21,7 @@ T17	Location 514 544	поверхности   спутника   Земли
 T18	Location 539 544	Земли
 T19	Organization 550 566	Телеканал   CGTN
 A4	Media T19
-T20	Person 613 632	``   Чанъэ - 5   ''
+T20	Product 613 632	``   Чанъэ - 5   ''
 T21	Location 675 680	Землю
 T22	Ordinal 750 756	первая
 T23	Location 825 830	Землю
@@ -57,9 +57,6 @@ T46	Ordinal 380 381	5
 T47	Ordinal 626 627	5
 T50	Ordinal 123 124	5
 T52	Ordinal 158 159	5
-A12	Unconscious T5
-A13	Unconscious T12
-A14	Unconscious T20
 T48	Location 1345 1349	Луны
 T49	Date-period-absolute 1276 1287	в   истории
 A11	Past-Fut T49
@@ -78,3 +75,7 @@ T61	Event 591 598	запуска
 T62	Event 798 806	доставке
 T63	Event 1290 1308	успешной   посадке
 T64	Event 1500 1513	экспериментов
+A12	Unique T5
+A13	Unique T12
+A14	Unique T20
+T65	Event 173 192	исследования   Луны

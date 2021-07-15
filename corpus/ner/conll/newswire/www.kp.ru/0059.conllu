@@ -67,10 +67,10 @@
 
 # sent_id = 0059-p3-s2
 # text = На первом этапе исследования эксперты проанализировали иммунитет более 74 тысяч добровольцев в 26 российских субъектах, второй этап стартовал в сентябре и октября текущего года, третий - в ноябре-декабре.
-1	На	_	_	_	_	_	_	_	_
-2	первом	_	_	_	_	_	_	_	bratT12=Ordinal|bratT54=Event
-3	этапе	_	_	_	_	_	_	_	bratT54=Event
-4	исследования	_	_	_	_	_	_	_	bratT54=Event
+1	На	_	_	_	_	_	_	_	bratA19=T65:Past|bratT65=Date-period-absolute
+2	первом	_	_	_	_	_	_	_	bratA19=T65:Past|bratT12=Ordinal|bratT54=Event|bratT65=Date-period-absolute
+3	этапе	_	_	_	_	_	_	_	bratA19=T65:Past|bratT54=Event|bratT65=Date-period-absolute
+4	исследования	_	_	_	_	_	_	_	bratT54=Event|bratT64=Event
 5	эксперты	_	_	_	_	_	_	_	bratT13=Person-property
 6	проанализировали	_	_	_	_	_	_	_	_
 7	иммунитет	_	_	_	_	_	_	_	_

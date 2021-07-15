@@ -3,8 +3,8 @@
 # par_text = Жителя Белоруссии будут судить за оскорбление Лукашенко в сети
 # sent_id = 0037-p1-s1
 # text = Жителя Белоруссии будут судить за оскорбление Лукашенко в сети
-1	Жителя	_	_	_	_	_	_	_	bratA18=T51:Resident|bratT51=Nationality
-2	Белоруссии	_	_	_	_	_	_	_	bratA18=T51:Resident|bratT1=GPE|bratT51=Nationality
+1	Жителя	_	_	_	_	_	_	_	bratA18=T51:Resident|bratA22=T73:Male|bratT51=Nationality|bratT73=Person
+2	Белоруссии	_	_	_	_	_	_	_	bratA18=T51:Resident|bratA22=T73:Male|bratT1=GPE|bratT51=Nationality|bratT73=Person
 3	будут	_	_	_	_	_	_	_	_
 4	судить	_	_	_	_	_	_	_	_
 5	за	_	_	_	_	_	_	_	_
@@ -28,10 +28,10 @@
 9	дело	_	_	_	_	_	_	_	bratT57=Event
 10	в	_	_	_	_	_	_	_	_
 11	отношении	_	_	_	_	_	_	_	_
-12	одного	_	_	_	_	_	_	_	bratT6=Quantity
-13	из	_	_	_	_	_	_	_	bratT6=Quantity
-14	местных	_	_	_	_	_	_	_	bratA16=T20:Resident|bratA19=T52:Adjective|bratT20=Nationality|bratT52=GPE
-15	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T20:Resident|bratT20=Nationality
+12	одного	_	_	_	_	_	_	_	bratA21=T71:Male|bratT6=Quantity|bratT71=Person
+13	из	_	_	_	_	_	_	_	bratA21=T71:Male|bratT6=Quantity|bratT71=Person
+14	местных	_	_	_	_	_	_	_	bratA16=T20:Resident|bratA19=T52:Adjective|bratA21=T71:Male|bratT20=Nationality|bratT52=GPE|bratT71=Person
+15	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA16=T20:Resident|bratA21=T71:Male|bratT20=Nationality|bratT71=Person
 16	,	_	_	_	_	_	_	_	_
 17	который	_	_	_	_	_	_	_	_
 18	оскорбил	_	_	_	_	_	_	_	_
@@ -95,9 +95,9 @@
 24	высказывания	_	_	_	_	_	_	_	_
 25	в	_	_	_	_	_	_	_	_
 26	адрес	_	_	_	_	_	_	_	_
-27	президента	_	_	_	_	_	_	_	bratT17=Person-property
-28	Республики	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=GPE
-29	Беларусь	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=GPE
+27	президента	_	_	_	_	_	_	_	bratT17=Person-property|bratT72=Person
+28	Республики	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=GPE|bratT72=Person
+29	Беларусь	_	_	_	_	_	_	_	bratT17=Person-property|bratT18=GPE|bratT72=Person
 30	и	_	_	_	_	_	_	_	_
 31	негативную	_	_	_	_	_	_	_	_
 32	оценку	_	_	_	_	_	_	_	_
@@ -220,7 +220,7 @@
 4	кандидатов	_	_	_	_	_	_	_	bratT32=Person-property|bratT35=Organization|bratT49=Person
 5	заявили	_	_	_	_	_	_	_	_
 6	о	_	_	_	_	_	_	_	_
-7	непризнании	_	_	_	_	_	_	_	_
+7	непризнании	_	_	_	_	_	_	_	bratT70=Event
 8	их	_	_	_	_	_	_	_	_
 9	официальных	_	_	_	_	_	_	_	_
 10	результатов	_	_	_	_	_	_	_	SpaceAfter=No

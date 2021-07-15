@@ -9,10 +9,7 @@ T9	Person-property 318 343	министр   спорта   России
 T10	GPE 337 343	России
 T11	Person 318 360	министр   спорта   России   Олег   Матыцин
 T12	Work-of-art 241 280	программы   ``   Вечерний   Ургант   ''
-T13	Person 426 431	Хитти
 T14	Location 551 556	Уралу
-T16	Person 579 583	Ягги
-T17	Person 668 673	Кедри
 T18	Event 759 786	Летняя   Универсиада - 2023
 T19	Date-period-absolute 799 824	с   8   по   19   августа
 T20	GPE 829 841	Екатеринбург
@@ -36,7 +33,6 @@ T32	Person-alias 579 583	Ягги
 T33	Person-alias 668 673	Кедри
 T34	Person-surname 914 921	Матыцин
 A2	Male T11
-A3	Female T13
 A9	Male T21
 T35	Time-absolute 258 266	Вечерний
 T36	Person 269 275	Ургант
@@ -54,12 +50,25 @@ T45	Person 648 657	Соболенка
 A14	Unconscious T45
 T46	Person 561 566	Оленя
 A4	Unconscious T46
-A5	Unconscious T16
-A15	Unconscious T17
 T47	Person 399 406	девушка
-A6	Male T16
 A16	Male T46
 T48	Date-absolute 158 164	летней
 T49	Date-absolute 40 46	летней
 T50	Date-absolute 759 765	Летняя
 A17	Future T50
+A3	Female T47
+T13	Person 426 431	Хитти
+A5	Female T13
+T16	Person 579 583	Ягги
+A6	Unconscious T16
+A15	Male T16
+T17	Person 668 673	Кедри
+A18	Unconscious T17
+T41	Person 0 16	Девушка - блогер
+A19	Female T41
+T43	Person 89 105	Девушка - блогер
+A20	Female T43
+T51	Person 112 117	олень
+A21	Unconscious T51
+T52	Person 124 133	соболенок
+A22	Unconscious T52
