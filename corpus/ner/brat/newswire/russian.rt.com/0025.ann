@@ -1,5 +1,5 @@
 T1	Person 0 11	Василевский
-T2	Person-property 32 46	вратарём   НХЛ
+T2	Person-property 23 46	лучшим   вратарём   НХЛ
 T3	Organization 43 46	НХЛ
 T4	Organization 63 76	NHL   Network
 T5	Person-property 252 306	российский   голкипер   ``   Тампа-Бэй   Лайтнинг   ''
@@ -12,7 +12,7 @@ T11	Organization 393 418	``   Бостон   Брюинз   ''
 T12	Person 373 434	финский   вратарь   ``   Бостон   Брюинз   ''   Туукка   Раск
 T13	Nationality 458 468	американец
 A1	Citizenship T13
-T14	Person 471 489	Коннор   Хеллебайк
+T14	Person 458 523	американец   Коннор   Хеллебайк   из   ``   Виннипег   Джетс   ''
 T15	Organization 497 523	``   Виннипег   Джетс   ''
 T16	Organization 558 582	``   Даллас   Старз   ''
 T17	Person 529 600	Российский   страж   ворот   ``   Даллас   Старз   ''   Антон   Худобин
@@ -28,7 +28,7 @@ T25	Organization 89 102	NHL   Network
 A3	Media T25
 T26	Organization 150 181	Национальной   хоккейной   лиги
 T27	Organization 188 191	НХЛ
-T28	Person-property 137 147	голкиперов
+T28	Person-property 128 147	лучших   голкиперов
 T29	Quantity 117 125	топ - 10
 T30	Quantity 449 455	тройку
 T31	Date-relative 704 709	Ранее
@@ -62,3 +62,4 @@ T47	GPE 398 404	Бостон
 T48	GPE 502 510	Виннипег
 T49	GPE 750 757	Далласа
 T50	Location 281 290	Тампа-Бэй
+T51	Person 78 102	Эксперты   NHL   Network

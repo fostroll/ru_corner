@@ -3,13 +3,13 @@
 # par_text = Сертификатор «Северного потока — 2» покинул проект из-за угрозы санкций
 # sent_id = 0053-p1-s1
 # text = Сертификатор ``Северного потока - 2'' покинул проект из-за угрозы санкций
-1	Сертификатор	_	_	_	_	_	_	_	_
-2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product
-3	Северного	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
-4	потока	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
-5	-	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
-6	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product
-7	''	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product
+1	Сертификатор	_	_	_	_	_	_	_	bratT46=Organization
+2	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT46=Organization
+3	Северного	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT46=Organization
+4	потока	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT46=Organization
+5	-	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT46=Organization
+6	2	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T1:Project|bratT1=Product|bratT46=Organization|bratT48=Ordinal
+7	''	_	_	_	_	_	_	_	bratA1=T1:Project|bratT1=Product|bratT46=Organization
 8	покинул	_	_	_	_	_	_	_	_
 9	проект	_	_	_	_	_	_	_	_
 10	из-за	_	_	_	_	_	_	_	_
@@ -212,7 +212,7 @@
 1	В	_	_	_	_	_	_	_	_
 2	Nord	_	_	_	_	_	_	_	bratT10=Organization
 3	Stream	_	_	_	_	_	_	_	bratT10=Organization
-4	2	_	_	_	_	_	_	_	bratT10=Organization
+4	2	_	_	_	_	_	_	_	bratT10=Organization|bratT47=Ordinal
 5	AG	_	_	_	_	_	_	_	bratT10=Organization
 6	отметили	_	_	_	_	_	_	_	SpaceAfter=No
 7	,	_	_	_	_	_	_	_	_

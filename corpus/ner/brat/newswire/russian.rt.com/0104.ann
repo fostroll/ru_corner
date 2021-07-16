@@ -22,7 +22,6 @@ T20	Person-property 352 360	премьера
 T21	Person 352 379	премьера   Дениса   Шмыгаля
 T22	Person-property 386 431	директора   Европейского   департамента   МВФ
 T23	Organization 398 431	Европейского   департамента   МВФ
-A2	Department T23
 T24	Organization 428 431	МВФ
 T25	Person 386 452	директора   Европейского   департамента   МВФ   Альфреда   Каммера
 T26	Date-absolute 700 721	в   ближайшее   время
@@ -55,3 +54,7 @@ T43	Date-absolute 337 349	на   встрече
 A12	Past T43
 T44	Product 873 879	реформ
 A13	Project T44
+T45	Event 86 92	транша
+T46	Event 242 261	очередного   транша
+T47	Person 463 484	Глава   правительства
+A2	Male T47

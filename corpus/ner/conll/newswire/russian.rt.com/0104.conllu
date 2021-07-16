@@ -14,7 +14,7 @@
 9	''	_	_	_	_	_	_	_	_
 10	по	_	_	_	_	_	_	_	_
 11	поводу	_	_	_	_	_	_	_	_
-12	транша	_	_	_	_	_	_	_	_
+12	транша	_	_	_	_	_	_	_	bratT45=Event
 
 # newpar id = 0104-p2
 # par_text = Правительство Украины ожидает получить от Международного валютного фонда (МВФ) «позитивный сигнал» касательно очередного транша. Как сообщила пресс-служба кабмина, об этом шла речь на встрече премьера Дениса Шмыгаля и директора Европейского департамента МВФ Альфреда Каммера.
@@ -36,8 +36,8 @@
 14	сигнал	_	_	_	_	_	_	_	SpaceAfter=No
 15	''	_	_	_	_	_	_	_	_
 16	касательно	_	_	_	_	_	_	_	_
-17	очередного	_	_	_	_	_	_	_	_
-18	транша	_	_	_	_	_	_	_	SpaceAfter=No
+17	очередного	_	_	_	_	_	_	_	bratT46=Event
+18	транша	_	_	_	_	_	_	_	SpaceAfter=No|bratT46=Event
 19	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0104-p2-s2
@@ -58,9 +58,9 @@
 14	Шмыгаля	_	_	_	_	_	_	_	bratA5=T21:Male|bratT21=Person|bratT30=Person-surname
 15	и	_	_	_	_	_	_	_	_
 16	директора	_	_	_	_	_	_	_	bratA6=T25:Male|bratT22=Person-property|bratT25=Person
-17	Европейского	_	_	_	_	_	_	_	bratA2=T23:Department|bratA6=T25:Male|bratA7=T33:Adjective|bratT22=Person-property|bratT23=Organization|bratT25=Person|bratT33=GPE
-18	департамента	_	_	_	_	_	_	_	bratA2=T23:Department|bratA6=T25:Male|bratT22=Person-property|bratT23=Organization|bratT25=Person
-19	МВФ	_	_	_	_	_	_	_	bratA2=T23:Department|bratA6=T25:Male|bratT22=Person-property|bratT23=Organization|bratT24=Organization|bratT25=Person
+17	Европейского	_	_	_	_	_	_	_	bratA6=T25:Male|bratA7=T33:Adjective|bratT22=Person-property|bratT23=Organization|bratT25=Person|bratT33=GPE
+18	департамента	_	_	_	_	_	_	_	bratA6=T25:Male|bratT22=Person-property|bratT23=Organization|bratT25=Person
+19	МВФ	_	_	_	_	_	_	_	bratA6=T25:Male|bratT22=Person-property|bratT23=Organization|bratT24=Organization|bratT25=Person
 20	Альфреда	_	_	_	_	_	_	_	bratA6=T25:Male|bratT25=Person|bratT31=Person-forename
 21	Каммера	_	_	_	_	_	_	_	SpaceAfter=No|bratA6=T25:Male|bratT25=Person|bratT32=Person-surname
 22	.	_	_	_	_	_	_	_	_
@@ -70,8 +70,8 @@
 # sent_id = 0104-p3-s1
 # text = ``Глава правительства выразил надежду, что МВФ даст позитивный сигнал о поддержке договорённостей между Украиной и Европейской комиссией для выплаты очередного транша макрофинансовой помощи в ближайшее время'', - говорится в сообщении.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Глава	_	_	_	_	_	_	_	bratT4=Person-property
-3	правительства	_	_	_	_	_	_	_	bratT4=Person-property|bratT41=Organization
+2	Глава	_	_	_	_	_	_	_	bratA2=T47:Male|bratT4=Person-property|bratT47=Person
+3	правительства	_	_	_	_	_	_	_	bratA2=T47:Male|bratT4=Person-property|bratT41=Organization|bratT47=Person
 4	выразил	_	_	_	_	_	_	_	_
 5	надежду	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_

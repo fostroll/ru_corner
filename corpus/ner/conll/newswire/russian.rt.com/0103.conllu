@@ -59,9 +59,9 @@
 # sent_id = 0103-p4-s1
 # text = ``Водитель Opel Insignia, двигаясь со стороны посёлка Залегощь в направлении города Орла, выехал на полосу встречного движения и допустил столкновение с автомобилем Renault под управлением мужчины 1977 года рождения, который двигался со стороны Орла в направлении посёлка Залегощь'', - приводит РИА Новости сообщение регионального УМВД.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Водитель	_	_	_	_	_	_	_	bratT25=Other-group
-3	Opel	_	_	_	_	_	_	_	bratT9=Product
-4	Insignia	_	_	_	_	_	_	_	SpaceAfter=No|bratT9=Product
+2	Водитель	_	_	_	_	_	_	_	bratA7=T44:Male|bratT25=Other-group|bratT44=Person
+3	Opel	_	_	_	_	_	_	_	bratA7=T44:Male|bratT44=Person|bratT9=Product
+4	Insignia	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T44:Male|bratT44=Person|bratT9=Product
 5	,	_	_	_	_	_	_	_	_
 6	двигаясь	_	_	_	_	_	_	_	_
 7	со	_	_	_	_	_	_	_	_
@@ -86,10 +86,10 @@
 26	Renault	_	_	_	_	_	_	_	bratT12=Product
 27	под	_	_	_	_	_	_	_	_
 28	управлением	_	_	_	_	_	_	_	_
-29	мужчины	_	_	_	_	_	_	_	_
-30	1977	_	_	_	_	_	_	_	bratA6=T13:Past|bratT13=Date-absolute|bratT39=Age
-31	года	_	_	_	_	_	_	_	bratA6=T13:Past|bratT13=Date-absolute|bratT39=Age
-32	рождения	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Age
+29	мужчины	_	_	_	_	_	_	_	bratA5=T43:Male|bratT43=Person
+30	1977	_	_	_	_	_	_	_	bratA5=T43:Male|bratA6=T13:Past|bratT13=Date-absolute|bratT39=Age|bratT43=Person
+31	года	_	_	_	_	_	_	_	bratA5=T43:Male|bratA6=T13:Past|bratT13=Date-absolute|bratT39=Age|bratT43=Person
+32	рождения	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T43:Male|bratT39=Age|bratT43=Person
 33	,	_	_	_	_	_	_	_	_
 34	который	_	_	_	_	_	_	_	_
 35	двигался	_	_	_	_	_	_	_	_
@@ -118,17 +118,17 @@
 1	В	_	_	_	_	_	_	_	_
 2	результате	_	_	_	_	_	_	_	_
 3	ДТП	_	_	_	_	_	_	_	bratT38=Event
-4	водитель	_	_	_	_	_	_	_	bratT27=Other-group
-5	Reno	_	_	_	_	_	_	_	bratT18=Product
+4	водитель	_	_	_	_	_	_	_	bratA10=T45:Male|bratT27=Other-group|bratT45=Person
+5	Reno	_	_	_	_	_	_	_	bratA10=T45:Male|bratT18=Product|bratT45=Person
 6	и	_	_	_	_	_	_	_	_
 7	трое	_	_	_	_	_	_	_	bratT19=Quantity
 8	пассажиров	_	_	_	_	_	_	_	bratT19=Quantity
 9	-	_	_	_	_	_	_	_	_
-10	две	_	_	_	_	_	_	_	bratT20=Quantity
-11	женщины	_	_	_	_	_	_	_	bratT20=Quantity
+10	две	_	_	_	_	_	_	_	bratA8=T46:Female|bratT20=Quantity|bratT46=Person
+11	женщины	_	_	_	_	_	_	_	bratA8=T46:Female|bratT20=Quantity|bratT46=Person
 12	и	_	_	_	_	_	_	_	_
 13	восьмилетняя	_	_	_	_	_	_	_	bratT21=Age
-14	девочка	_	_	_	_	_	_	_	_
+14	девочка	_	_	_	_	_	_	_	bratA9=T47:Female|bratT47=Person
 15	-	_	_	_	_	_	_	_	_
 16	погибли	_	_	_	_	_	_	_	_
 17	на	_	_	_	_	_	_	_	_

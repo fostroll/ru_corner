@@ -7,7 +7,7 @@
 2	назначил	_	_	_	_	_	_	_	_
 3	руководителя	_	_	_	_	_	_	_	bratT4=Person-property
 4	канцелярии	_	_	_	_	_	_	_	bratT10=Organization|bratT4=Person-property
-5	президента	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT4=Person-property
+5	президента	_	_	_	_	_	_	_	bratT10=Organization|bratT11=Person-property|bratT33=Person|bratT4=Person-property
 
 # newpar id = 0032-p2
 # par_text = Президент России Владимир Путин подписал указ о назначении Андрея Казакова руководителем канцелярии главы государства. Документ опубликован на официальном интернет-портале правовой информации.
@@ -25,8 +25,8 @@
 10	Казакова	_	_	_	_	_	_	_	bratA4=T15:Male|bratT15=Person|bratT25=Person-surname
 11	руководителем	_	_	_	_	_	_	_	bratT16=Person-property
 12	канцелярии	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization
-13	главы	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization|bratT18=Person-property
-14	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT18=Person-property|bratT30=GPE
+13	главы	_	_	_	_	_	_	_	bratT16=Person-property|bratT17=Organization|bratT18=Person-property|bratT34=Person
+14	государства	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Person-property|bratT17=Organization|bratT18=Person-property|bratT30=GPE|bratT34=Person
 15	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0032-p2-s2
@@ -54,9 +54,9 @@
 5	Анатольевича	_	_	_	_	_	_	_	bratA6=T3:Male|bratT28=Person-patronym|bratT3=Person
 6	руководителем	_	_	_	_	_	_	_	bratT6=Person-property
 7	канцелярии	_	_	_	_	_	_	_	bratT12=Organization|bratT6=Person-property
-8	президента	_	_	_	_	_	_	_	bratT12=Organization|bratT5=Person-property|bratT6=Person-property
-9	Российской	_	_	_	_	_	_	_	bratT12=Organization|bratT5=Person-property|bratT6=Person-property|bratT7=GPE
-10	Федерации	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT5=Person-property|bratT6=Person-property|bratT7=GPE
+8	президента	_	_	_	_	_	_	_	bratT12=Organization|bratT35=Person|bratT5=Person-property|bratT6=Person-property
+9	Российской	_	_	_	_	_	_	_	bratT12=Organization|bratT35=Person|bratT5=Person-property|bratT6=Person-property|bratT7=GPE
+10	Федерации	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Organization|bratT35=Person|bratT5=Person-property|bratT6=Person-property|bratT7=GPE
 11	''	_	_	_	_	_	_	_	SpaceAfter=No
 12	,	_	_	_	_	_	_	_	_
 13	-	_	_	_	_	_	_	_	_
@@ -70,8 +70,8 @@
 # sent_id = 0032-p4-s1
 # text = Ранее российский лидер внёс изменения в состав Совета по развитию гражданского общества и правам человека.
 1	Ранее	_	_	_	_	_	_	_	bratA2=T20:Past|bratT20=Date-relative
-2	российский	_	_	_	_	_	_	_	bratA7=T29:Adjective|bratT29=GPE|bratT8=Person-property
-3	лидер	_	_	_	_	_	_	_	bratT8=Person-property
+2	российский	_	_	_	_	_	_	_	bratA7=T29:Adjective|bratT29=GPE|bratT36=Person|bratT8=Person-property
+3	лидер	_	_	_	_	_	_	_	bratT36=Person|bratT8=Person-property
 4	внёс	_	_	_	_	_	_	_	_
 5	изменения	_	_	_	_	_	_	_	bratT31=Event
 6	в	_	_	_	_	_	_	_	_

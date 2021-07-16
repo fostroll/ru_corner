@@ -34,7 +34,7 @@
 9	Национальную	_	_	_	_	_	_	_	bratT4=Organization
 10	ассоциацию	_	_	_	_	_	_	_	bratT4=Organization
 11	актёров	_	_	_	_	_	_	_	bratT31=Person-property|bratT4=Organization
-12	Мексики	_	_	_	_	_	_	_	SpaceAfter=No|bratT31=Person-property|bratT4=Organization|bratT5=GPE
+12	Мексики	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Organization|bratT5=GPE
 13	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0001-p4
@@ -53,10 +53,10 @@
 10	коллеги	_	_	_	_	_	_	_	bratA7=T7:Female|bratT43=Person-property|bratT7=Person
 11	Малени	_	_	_	_	_	_	_	bratA7=T7:Female|bratT33=Person-forename|bratT7=Person
 12	Моралес	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Female|bratT34=Person-surname|bratT7=Person
-13	,	_	_	_	_	_	_	_	_
-14	члена	_	_	_	_	_	_	_	bratT8=Person-property
-15	нашего	_	_	_	_	_	_	_	bratT8=Person-property
-16	профсоюза	_	_	_	_	_	_	_	SpaceAfter=No|bratT47=Organization|bratT8=Person-property
+13	,	_	_	_	_	_	_	_	bratA7=T7:Female|bratT7=Person
+14	члена	_	_	_	_	_	_	_	bratA7=T7:Female|bratT7=Person|bratT8=Person-property
+15	нашего	_	_	_	_	_	_	_	bratA7=T7:Female|bratT7=Person|bratT8=Person-property
+16	профсоюза	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T7:Female|bratT47=Organization|bratT7=Person|bratT8=Person-property
 17	,	_	_	_	_	_	_	_	_
 18	сегодня	_	_	_	_	_	_	_	bratA2=T22:Past|bratT22=Date-absolute
 19	ушедшей	_	_	_	_	_	_	_	_
@@ -127,14 +127,14 @@
 18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Fiction|bratA16=T48:Female|bratT18=Work-of-art|bratT48=Person
 19	Белоснежка	_	_	_	_	_	_	_	bratA12=T40:Fiction|bratA13=T40:Female|bratA15=T48:Fiction|bratA16=T48:Female|bratT18=Work-of-art|bratT40=Person|bratT41=Person-alias|bratT48=Person
 20	и	_	_	_	_	_	_	_	bratA15=T48:Fiction|bratA16=T48:Female|bratT18=Work-of-art|bratT48=Person
-21	семь	_	_	_	_	_	_	_	bratA15=T48:Fiction|bratA16=T48:Female|bratT18=Work-of-art|bratT42=Quantity|bratT48=Person
-22	гномов	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Fiction|bratA16=T48:Female|bratT18=Work-of-art|bratT48=Person
+21	семь	_	_	_	_	_	_	_	bratA15=T48:Fiction|bratA16=T48:Female|bratA17=T49:Fiction|bratT18=Work-of-art|bratT42=Quantity|bratT48=Person|bratT49=Person
+22	гномов	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T48:Fiction|bratA16=T48:Female|bratA17=T49:Fiction|bratT18=Work-of-art|bratT48=Person|bratT49=Person
 23	''	_	_	_	_	_	_	_	bratA15=T48:Fiction|bratA16=T48:Female|bratT18=Work-of-art|bratT48=Person
 24	1937	_	_	_	_	_	_	_	bratT19=Date-absolute
 25	года	_	_	_	_	_	_	_	bratT19=Date-absolute
 26	компании	_	_	_	_	_	_	_	bratT20=Organization
-27	Walt	_	_	_	_	_	_	_	bratT20=Organization
-28	Disney	_	_	_	_	_	_	_	SpaceAfter=No|bratT20=Organization
+27	Walt	_	_	_	_	_	_	_	bratA18=T52:Male|bratT20=Organization|bratT50=Person-forename|bratT52=Person
+28	Disney	_	_	_	_	_	_	_	SpaceAfter=No|bratA18=T52:Male|bratT20=Organization|bratT51=Person-surname|bratT52=Person
 29	,	_	_	_	_	_	_	_	_
 30	скончалась	_	_	_	_	_	_	_	_
 31	в	_	_	_	_	_	_	_	_

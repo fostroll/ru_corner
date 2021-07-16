@@ -5,7 +5,7 @@
 # text = Василевский назван лучшим вратарём НХЛ по версии NHL Network
 1	Василевский	_	_	_	_	_	_	_	bratA6=T1:Male|bratT1=Person|bratT33=Person-surname
 2	назван	_	_	_	_	_	_	_	_
-3	лучшим	_	_	_	_	_	_	_	_
+3	лучшим	_	_	_	_	_	_	_	bratT2=Person-property
 4	вратарём	_	_	_	_	_	_	_	bratT2=Person-property
 5	НХЛ	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
 6	по	_	_	_	_	_	_	_	_
@@ -17,15 +17,15 @@
 # par_text = Эксперты NHL Network составили топ-10 лучших голкиперов Национальной хоккейной лиги (НХЛ).
 # sent_id = 0025-p2-s1
 # text = Эксперты NHL Network составили топ-10 лучших голкиперов Национальной хоккейной лиги (НХЛ).
-1	Эксперты	_	_	_	_	_	_	_	bratT24=Person-property
-2	NHL	_	_	_	_	_	_	_	bratA3=T25:Media|bratT24=Person-property|bratT25=Organization
-3	Network	_	_	_	_	_	_	_	bratA3=T25:Media|bratT24=Person-property|bratT25=Organization
+1	Эксперты	_	_	_	_	_	_	_	bratT24=Person-property|bratT51=Person
+2	NHL	_	_	_	_	_	_	_	bratA3=T25:Media|bratT24=Person-property|bratT25=Organization|bratT51=Person
+3	Network	_	_	_	_	_	_	_	bratA3=T25:Media|bratT24=Person-property|bratT25=Organization|bratT51=Person
 4	составили	_	_	_	_	_	_	_	_
 5-7	топ-10	_	_	_	_	_	_	_	_
 5	топ	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT29=Quantity
 6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratT29=Quantity
 7	10	_	_	_	_	_	_	_	bratT29=Quantity
-8	лучших	_	_	_	_	_	_	_	_
+8	лучших	_	_	_	_	_	_	_	bratT28=Person-property
 9	голкиперов	_	_	_	_	_	_	_	bratT28=Person-property
 10	Национальной	_	_	_	_	_	_	_	bratT26=Organization
 11	хоккейной	_	_	_	_	_	_	_	bratT26=Organization
@@ -75,14 +75,14 @@
 # text = Замкнул тройку американец Коннор Хеллебайк из ``Виннипег Джетс''.
 1	Замкнул	_	_	_	_	_	_	_	_
 2	тройку	_	_	_	_	_	_	_	bratT30=Quantity
-3	американец	_	_	_	_	_	_	_	bratA1=T13:Citizenship|bratT13=Nationality
+3	американец	_	_	_	_	_	_	_	bratA1=T13:Citizenship|bratA10=T14:Male|bratT13=Nationality|bratT14=Person
 4	Коннор	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT39=Person-forename
 5	Хеллебайк	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT41=Person-surname
-6	из	_	_	_	_	_	_	_	_
-7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
-8	Виннипег	_	_	_	_	_	_	_	bratT15=Organization|bratT48=GPE
-9	Джетс	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
-10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Organization
+6	из	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person
+7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Male|bratT14=Person|bratT15=Organization
+8	Виннипег	_	_	_	_	_	_	_	bratA10=T14:Male|bratT14=Person|bratT15=Organization|bratT48=GPE
+9	Джетс	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Male|bratT14=Person|bratT15=Organization
+10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T14:Male|bratT14=Person|bratT15=Organization
 11	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0025-p4

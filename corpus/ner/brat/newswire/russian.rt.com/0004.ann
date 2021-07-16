@@ -2,7 +2,7 @@ T1	Person 0 6	Байден
 T2	Person 32 38	Пелоси
 T3	Organization 193 206	РИА   Новости
 A1	Media T3
-T4	Person-property 229 240	журналистов
+T4	Person-property 229 257	журналистов   пула   Байдена
 T5	Person 250 257	Байдена
 T6	Person 286 292	Байден
 T7	Person-property 479 501	должность   президента
@@ -54,3 +54,6 @@ A13	Male T10
 T41	Event 98 105	встречу
 T42	Event 18 25	встречу
 T43	GPE 674 685	государства
+T44	Organization 243 257	пула   Байдена
+A14	Department T44
+T45	Person 229 257	журналистов   пула   Байдена

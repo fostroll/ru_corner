@@ -26,7 +26,7 @@
 8	тыс.	_	_	_	_	_	_	_	bratT25=Quantity
 9	жителей	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT25=Quantity|bratT36=Nationality
 10	пригорода	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT26=GPE|bratT36=Nationality
-11	Владивостока	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT26=GPE|bratT36=Nationality
+11	Владивостока	_	_	_	_	_	_	_	bratA9=T36:Resident|bratT26=GPE|bratT36=Nationality|bratT42=GPE
 12	и	_	_	_	_	_	_	_	_
 13	других	_	_	_	_	_	_	_	_
 14	населённых	_	_	_	_	_	_	_	_
@@ -64,7 +64,7 @@
 6	электроснабжение	_	_	_	_	_	_	_	_
 7	части	_	_	_	_	_	_	_	_
 8	пригорода	_	_	_	_	_	_	_	bratT6=GPE
-9	Владивостока	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=GPE
+9	Владивостока	_	_	_	_	_	_	_	SpaceAfter=No|bratT43=GPE|bratT6=GPE
 10	,	_	_	_	_	_	_	_	_
 11	где	_	_	_	_	_	_	_	_
 12	проживают	_	_	_	_	_	_	_	_
@@ -93,8 +93,8 @@
 13	Ключ	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT30=GPE|bratT38=Nationality|bratT9=GPE
 14	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT38=Nationality|bratT9=GPE
 15	Вольно-Надеждинское	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT31=GPE|bratT38=Nationality|bratT9=GPE
-16	Надеждинского	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT10=GPE|bratT38=Nationality|bratT9=GPE
-17	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT10=GPE|bratT38=Nationality|bratT9=GPE
+16	Надеждинского	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT10=GPE|bratT31=GPE|bratT38=Nationality|bratT9=GPE
+17	района	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T38:Plural|bratA12=T38:Resident|bratA2=T9:Plural|bratT10=GPE|bratT31=GPE|bratT38=Nationality|bratT9=GPE
 18	,	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT38=Nationality
 19	с.	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT11=GPE|bratT23=GPE|bratT38=Nationality
 20	Реттиховка	_	_	_	_	_	_	_	bratA11=T38:Plural|bratA12=T38:Resident|bratT11=GPE|bratT23=GPE|bratT38=Nationality

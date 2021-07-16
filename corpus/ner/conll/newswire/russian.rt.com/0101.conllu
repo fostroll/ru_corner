@@ -5,7 +5,7 @@
 # text = Медведев обыграл Тима в финале Итогового турнира ATP
 1	Медведев	_	_	_	_	_	_	_	bratA4=T1:Male|bratT1=Person|bratT32=Person-surname
 2	обыграл	_	_	_	_	_	_	_	_
-3	Тима	_	_	_	_	_	_	_	bratT2=Person-surname
+3	Тима	_	_	_	_	_	_	_	bratA10=T44:Male|bratT2=Person-surname|bratT44=Person
 4	в	_	_	_	_	_	_	_	_
 5	финале	_	_	_	_	_	_	_	bratT3=Event
 6	Итогового	_	_	_	_	_	_	_	bratT16=Event|bratT3=Event
@@ -64,7 +64,7 @@
 15	6:4	_	_	_	_	_	_	_	bratT7=Quantity
 16	в	_	_	_	_	_	_	_	_
 17	пользу	_	_	_	_	_	_	_	_
-18	россиянина	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Citizenship|bratT8=Nationality
+18	россиянина	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T8:Citizenship|bratA11=T45:Male|bratT45=Person|bratT8=Nationality
 19	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0101-p4
@@ -95,8 +95,8 @@
 8	Медведева	_	_	_	_	_	_	_	bratA9=T40:Male|bratT12=Person-surname|bratT40=Person
 9	одним	_	_	_	_	_	_	_	bratT13=Quantity
 10	из	_	_	_	_	_	_	_	bratT13=Quantity
-11	лучших	_	_	_	_	_	_	_	_
+11	лучших	_	_	_	_	_	_	_	bratT14=Person-property
 12	теннисистов	_	_	_	_	_	_	_	bratT14=Person-property
-13	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=GPE
+13	мира	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Person-property|bratT29=GPE
 14	.	_	_	_	_	_	_	_	_
 

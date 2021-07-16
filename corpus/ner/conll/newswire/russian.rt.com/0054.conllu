@@ -27,8 +27,8 @@
 4	Рублёв	_	_	_	_	_	_	_	bratA6=T21:Male|bratT21=Person|bratT36=Person-surname
 5	прокомментировал	_	_	_	_	_	_	_	_
 6	победу	_	_	_	_	_	_	_	bratT51=Event
-7	своего	_	_	_	_	_	_	_	_
-8	соотечественника	_	_	_	_	_	_	_	bratA18=T50:Citizenship|bratT50=Nationality
+7	своего	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person
+8	соотечественника	_	_	_	_	_	_	_	bratA18=T50:Citizenship|bratA8=T22:Male|bratT22=Person|bratT50=Nationality
 9	Даниила	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT37=Person-forename
 10	Медведева	_	_	_	_	_	_	_	bratA8=T22:Male|bratT22=Person|bratT38=Person-surname
 11	на	_	_	_	_	_	_	_	_
@@ -208,8 +208,8 @@
 7	-	_	_	_	_	_	_	_	_
 8	сказал	_	_	_	_	_	_	_	_
 9	Рублёв	_	_	_	_	_	_	_	bratA14=T12:Male|bratT12=Person|bratT44=Person-surname
-10	на	_	_	_	_	_	_	_	_
-11	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No
+10	на	_	_	_	_	_	_	_	bratA19=T61:Past|bratT61=Date-absolute
+11	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T61:Past|bratT60=Event|bratT61=Date-absolute
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0054-p4

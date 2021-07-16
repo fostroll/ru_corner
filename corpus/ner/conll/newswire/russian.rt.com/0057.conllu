@@ -18,15 +18,15 @@
 # par_text = Первая ракетка России Даниил Медведев прокомментировал победу над австрийцем Домиником Тимом в финале Итогового турнира Ассоциации теннисистов-профессионалов (ATP) в Лондоне.
 # sent_id = 0057-p2-s1
 # text = Первая ракетка России Даниил Медведев прокомментировал победу над австрийцем Домиником Тимом в финале Итогового турнира Ассоциации теннисистов-профессионалов (ATP) в Лондоне.
-1	Первая	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person|bratT32=Ordinal
-2	ракетка	_	_	_	_	_	_	_	bratT20=Person-property|bratT22=Person
-3	России	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=GPE|bratT22=Person
-4	Даниил	_	_	_	_	_	_	_	bratT22=Person|bratT39=Person-forename
-5	Медведев	_	_	_	_	_	_	_	bratT22=Person|bratT40=Person-surname
+1	Первая	_	_	_	_	_	_	_	bratA11=T22:Male|bratT20=Person-property|bratT22=Person|bratT32=Ordinal
+2	ракетка	_	_	_	_	_	_	_	bratA11=T22:Male|bratT20=Person-property|bratT22=Person
+3	России	_	_	_	_	_	_	_	bratA11=T22:Male|bratT20=Person-property|bratT21=GPE|bratT22=Person
+4	Даниил	_	_	_	_	_	_	_	bratA11=T22:Male|bratT22=Person|bratT39=Person-forename
+5	Медведев	_	_	_	_	_	_	_	bratA11=T22:Male|bratT22=Person|bratT40=Person-surname
 6	прокомментировал	_	_	_	_	_	_	_	_
 7	победу	_	_	_	_	_	_	_	bratT51=Event
 8	над	_	_	_	_	_	_	_	_
-9	австрийцем	_	_	_	_	_	_	_	bratA10=T23:Citizenship|bratT23=Nationality
+9	австрийцем	_	_	_	_	_	_	_	bratA10=T23:Citizenship|bratT23=Nationality|bratT24=Person
 10	Домиником	_	_	_	_	_	_	_	bratT24=Person|bratT41=Person-forename
 11	Тимом	_	_	_	_	_	_	_	bratT24=Person|bratT42=Person-surname
 12	в	_	_	_	_	_	_	_	_
@@ -95,7 +95,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	ты	_	_	_	_	_	_	_	_
 8	выиграл	_	_	_	_	_	_	_	_
-9	мейджор	_	_	_	_	_	_	_	_
+9	мейджор	_	_	_	_	_	_	_	bratT56=Event
 10	и	_	_	_	_	_	_	_	_
 11	играешь	_	_	_	_	_	_	_	_
 12	потрясающе	_	_	_	_	_	_	_	SpaceAfter=No

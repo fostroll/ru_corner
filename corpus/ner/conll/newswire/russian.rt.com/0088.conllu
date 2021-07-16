@@ -28,18 +28,18 @@
 7	по	_	_	_	_	_	_	_	_
 8	ролям	_	_	_	_	_	_	_	bratT42=Person-property
 9	в	_	_	_	_	_	_	_	_
-10	сериалах	_	_	_	_	_	_	_	_
-11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art
-12	Улица	_	_	_	_	_	_	_	bratT18=Work-of-art
-13	разбитых	_	_	_	_	_	_	_	bratT18=Work-of-art
-14	фонарей	_	_	_	_	_	_	_	bratT18=Work-of-art
-15	1	_	_	_	_	_	_	_	SpaceAfter=No|bratT18=Work-of-art|bratT39=Ordinal
-16	''	_	_	_	_	_	_	_	bratT18=Work-of-art
-17	и	_	_	_	_	_	_	_	_
-18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
-19	Мажор	_	_	_	_	_	_	_	bratT19=Work-of-art
-20	3	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art|bratT38=Ordinal
-21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT19=Work-of-art
+10	сериалах	_	_	_	_	_	_	_	bratA12=T43:Plural|bratT43=Work-of-art
+11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Plural|bratT18=Work-of-art|bratT43=Work-of-art
+12	Улица	_	_	_	_	_	_	_	bratA12=T43:Plural|bratT18=Work-of-art|bratT43=Work-of-art
+13	разбитых	_	_	_	_	_	_	_	bratA12=T43:Plural|bratT18=Work-of-art|bratT43=Work-of-art
+14	фонарей	_	_	_	_	_	_	_	bratA12=T43:Plural|bratT18=Work-of-art|bratT43=Work-of-art
+15	1	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Plural|bratT18=Work-of-art|bratT39=Ordinal|bratT43=Work-of-art
+16	''	_	_	_	_	_	_	_	bratA12=T43:Plural|bratT18=Work-of-art|bratT43=Work-of-art
+17	и	_	_	_	_	_	_	_	bratA12=T43:Plural|bratT43=Work-of-art
+18	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Plural|bratT19=Work-of-art|bratT43=Work-of-art
+19	Мажор	_	_	_	_	_	_	_	bratA12=T43:Plural|bratT19=Work-of-art|bratT43=Work-of-art
+20	3	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Plural|bratT19=Work-of-art|bratT38=Ordinal|bratT43=Work-of-art
+21	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T43:Plural|bratT19=Work-of-art|bratT43=Work-of-art
 22	,	_	_	_	_	_	_	_	_
 23	скончалась	_	_	_	_	_	_	_	_
 24	в	_	_	_	_	_	_	_	_
@@ -67,9 +67,9 @@
 6	что	_	_	_	_	_	_	_	_
 7	не	_	_	_	_	_	_	_	_
 8	стало	_	_	_	_	_	_	_	_
-9	актрисы	_	_	_	_	_	_	_	bratT4=Person-property
-10	нашего	_	_	_	_	_	_	_	_
-11	театра	_	_	_	_	_	_	_	bratT40=Organization
+9	актрисы	_	_	_	_	_	_	_	bratA5=T5:Female|bratT4=Person-property|bratT5=Person
+10	нашего	_	_	_	_	_	_	_	bratA5=T5:Female|bratT5=Person
+11	театра	_	_	_	_	_	_	_	bratA5=T5:Female|bratT40=Organization|bratT5=Person
 12	Светланы	_	_	_	_	_	_	_	bratA5=T5:Female|bratT27=Person-forename|bratT5=Person
 13	Обидиной	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T5:Female|bratT28=Person-surname|bratT5=Person
 14	''	_	_	_	_	_	_	_	SpaceAfter=No
@@ -89,7 +89,7 @@
 3	выразили	_	_	_	_	_	_	_	_
 4	соболезнования	_	_	_	_	_	_	_	_
 5	семье	_	_	_	_	_	_	_	bratT9=Family
-6	актрисы	_	_	_	_	_	_	_	SpaceAfter=No|bratT6=Person-property
+6	актрисы	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T44:Female|bratT44=Person|bratT6=Person-property
 7	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0088-p5
@@ -106,7 +106,7 @@
 8	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Work-of-art
 9	,	_	_	_	_	_	_	_	_
 10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Work-of-art
-11	Дуэлянт	_	_	_	_	_	_	_	SpaceAfter=No|bratT8=Work-of-art
+11	Дуэлянт	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-property|bratT8=Work-of-art
 12	''	_	_	_	_	_	_	_	bratT8=Work-of-art
 13	и	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art

@@ -2,7 +2,7 @@ T1	Work-of-art 25 62	``   Улицах   разбитых   фонарей   ''
 T2	Person 65 93	актриса   Светлана   Обидина
 T3	Person-property 65 72	актриса
 T4	Person-property 416 423	актрисы
-T5	Person 444 463	Светланы   Обидиной
+T5	Person 416 463	актрисы   нашего   театра   Светланы   Обидиной
 T6	Person-property 559 566	актрисы
 T7	Work-of-art 616 634	``   Довлатов   ''
 T8	Work-of-art 641 658	``   Дуэлянт   ''
@@ -51,3 +51,8 @@ T39	Ordinal 217 218	1
 T40	Organization 435 441	театра
 T41	Organization 514 520	театре
 T42	Person-property 160 165	ролям
+T43	Work-of-art 172 249	сериалах   ``   Улица   разбитых   фонарей   1   ''   и   ``   Мажор   3   ''
+A12	Plural T43
+T44	Person 559 566	актрисы
+A13	Female T44
+T45	Person-property 646 653	Дуэлянт

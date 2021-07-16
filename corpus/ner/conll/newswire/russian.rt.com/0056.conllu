@@ -8,9 +8,9 @@
 2	COVID	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
 3	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Other-term
 4	19	_	_	_	_	_	_	_	bratT1=Other-term|bratT26=Cardinal
-5	глава	_	_	_	_	_	_	_	bratT2=Person-property
-6	офиса	_	_	_	_	_	_	_	bratT2=Person-property|bratT3=Organization
-7	Зеленского	_	_	_	_	_	_	_	bratA3=T4:Male|bratT2=Person-property|bratT20=Person-surname|bratT3=Organization|bratT4=Person
+5	глава	_	_	_	_	_	_	_	bratA7=T31:Male|bratT2=Person-property|bratT31=Person
+6	офиса	_	_	_	_	_	_	_	bratA7=T31:Male|bratT2=Person-property|bratT3=Organization|bratT31=Person
+7	Зеленского	_	_	_	_	_	_	_	bratA3=T4:Male|bratA7=T31:Male|bratT2=Person-property|bratT20=Person-surname|bratT3=Organization|bratT31=Person|bratT4=Person
 8	заявил	_	_	_	_	_	_	_	_
 9	о	_	_	_	_	_	_	_	_
 10	выздоровлении	_	_	_	_	_	_	_	_
@@ -21,8 +21,8 @@
 # text = Глава офиса президента Украины Андрей Ермак сообщил, что получил отрицательный результат теста на коронавирус.
 1	Глава	_	_	_	_	_	_	_	bratA4=T17:Male|bratT13=Person-property|bratT17=Person
 2	офиса	_	_	_	_	_	_	_	bratA4=T17:Male|bratT13=Person-property|bratT14=Organization|bratT17=Person
-3	президента	_	_	_	_	_	_	_	bratA4=T17:Male|bratT13=Person-property|bratT14=Organization|bratT15=Person-property|bratT17=Person
-4	Украины	_	_	_	_	_	_	_	bratA4=T17:Male|bratT13=Person-property|bratT14=Organization|bratT15=Person-property|bratT16=GPE|bratT17=Person
+3	президента	_	_	_	_	_	_	_	bratA4=T17:Male|bratT13=Person-property|bratT14=Organization|bratT15=Person-property|bratT17=Person|bratT32=Person
+4	Украины	_	_	_	_	_	_	_	bratA4=T17:Male|bratT13=Person-property|bratT14=Organization|bratT15=Person-property|bratT16=GPE|bratT17=Person|bratT32=Person
 5	Андрей	_	_	_	_	_	_	_	bratA4=T17:Male|bratT17=Person|bratT21=Person-forename
 6	Ермак	_	_	_	_	_	_	_	bratA4=T17:Male|bratT17=Person|bratT22=Person-surname
 7	сообщил	_	_	_	_	_	_	_	SpaceAfter=No

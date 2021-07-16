@@ -24,9 +24,9 @@
 4	Путин	_	_	_	_	_	_	_	bratA6=T20:Male|bratT20=Person|bratT34=Person-surname
 5	своевременно	_	_	_	_	_	_	_	_
 6	поздравит	_	_	_	_	_	_	_	_
-7	нового	_	_	_	_	_	_	_	bratT21=Person-property
-8	президента	_	_	_	_	_	_	_	bratT21=Person-property
-9	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT22=GPE
+7	нового	_	_	_	_	_	_	_	bratT21=Person-property|bratT59=Person
+8	президента	_	_	_	_	_	_	_	bratT21=Person-property|bratT59=Person
+9	США	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Person-property|bratT22=GPE|bratT59=Person
 10	,	_	_	_	_	_	_	_	_
 11	официальных	_	_	_	_	_	_	_	_
 12	итогов	_	_	_	_	_	_	_	_
@@ -67,9 +67,9 @@
 # text = Президент поздравит избранного президента США своевременно после того, как будут подведены итоги выборов'', - сказал представитель Кремля.
 1	Президент	_	_	_	_	_	_	_	bratT4=Person-property|bratT56=Person
 2	поздравит	_	_	_	_	_	_	_	_
-3	избранного	_	_	_	_	_	_	_	bratT5=Person-property
-4	президента	_	_	_	_	_	_	_	bratT5=Person-property
-5	США	_	_	_	_	_	_	_	bratT5=Person-property|bratT6=GPE
+3	избранного	_	_	_	_	_	_	_	bratT5=Person-property|bratT58=Person
+4	президента	_	_	_	_	_	_	_	bratT5=Person-property|bratT58=Person
+5	США	_	_	_	_	_	_	_	bratT5=Person-property|bratT58=Person|bratT6=GPE
 6	своевременно	_	_	_	_	_	_	_	_
 7	после	_	_	_	_	_	_	_	bratA3=T29:Future|bratT29=Date-relative
 8	того	_	_	_	_	_	_	_	SpaceAfter=No|bratA3=T29:Future|bratT29=Date-relative
@@ -83,8 +83,8 @@
 16	,	_	_	_	_	_	_	_	_
 17	-	_	_	_	_	_	_	_	_
 18	сказал	_	_	_	_	_	_	_	_
-19	представитель	_	_	_	_	_	_	_	_
-20	Кремля	_	_	_	_	_	_	_	SpaceAfter=No|bratT7=Organization
+19	представитель	_	_	_	_	_	_	_	bratA15=T62:Male|bratT61=Person-property|bratT62=Person
+20	Кремля	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T62:Male|bratT61=Person-property|bratT62=Person|bratT7=Organization
 21	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0018-p4
@@ -164,15 +164,15 @@
 13	направлять	_	_	_	_	_	_	_	_
 14	свои	_	_	_	_	_	_	_	_
 15	поздравления	_	_	_	_	_	_	_	_
-16	победителю	_	_	_	_	_	_	_	bratT52=Person-property
-17	выборов	_	_	_	_	_	_	_	bratT50=Event|bratT52=Person-property
-18	в	_	_	_	_	_	_	_	_
-19	США	_	_	_	_	_	_	_	bratT19=GPE
+16	победителю	_	_	_	_	_	_	_	bratT52=Person-property|bratT60=Person
+17	выборов	_	_	_	_	_	_	_	bratT50=Event|bratT52=Person-property|bratT60=Person
+18	в	_	_	_	_	_	_	_	bratT60=Person
+19	США	_	_	_	_	_	_	_	bratT19=GPE|bratT60=Person
 20	до	_	_	_	_	_	_	_	bratA1=T28:Pres-Fut|bratT28=Date-period-absolute
 21	официального	_	_	_	_	_	_	_	bratA1=T28:Pres-Fut|bratT28=Date-period-absolute|bratT30=Event
 22	объявления	_	_	_	_	_	_	_	bratA1=T28:Pres-Fut|bratT28=Date-period-absolute|bratT30=Event
 23	окончательных	_	_	_	_	_	_	_	bratT30=Event
 24	итогов	_	_	_	_	_	_	_	bratT30=Event
-25	голосования	_	_	_	_	_	_	_	SpaceAfter=No|bratT30=Event|bratT55=Event
+25	голосования	_	_	_	_	_	_	_	SpaceAfter=No|bratT55=Event
 26	.	_	_	_	_	_	_	_	_
 
