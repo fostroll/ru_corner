@@ -17,15 +17,15 @@
 # sent_id = 0060-p2-s1
 # text = Солдату-срочнику Антону Макарову, убившему троих военнослужащих на военном аэродроме в Воронеже, отказывались выдавать оружие во время службы.
 1-3	Солдату-срочнику	_	_	_	_	_	_	_	_
-1	Солдату	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=Person
-2	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT3=Person-property|bratT4=Person
-3	срочнику	_	_	_	_	_	_	_	bratT3=Person-property|bratT4=Person
-4	Антону	_	_	_	_	_	_	_	bratT4=Person|bratT43=Person-forename
-5	Макарову	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Person|bratT44=Person-surname
+1	Солдату	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T4:Male|bratT3=Person-property|bratT4=Person
+2	-	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T4:Male|bratT3=Person-property|bratT4=Person
+3	срочнику	_	_	_	_	_	_	_	bratA19=T4:Male|bratT3=Person-property|bratT4=Person
+4	Антону	_	_	_	_	_	_	_	bratA19=T4:Male|bratT4=Person|bratT43=Person-forename
+5	Макарову	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T4:Male|bratT4=Person|bratT44=Person-surname
 6	,	_	_	_	_	_	_	_	_
 7	убившему	_	_	_	_	_	_	_	_
-8	троих	_	_	_	_	_	_	_	bratT5=Quantity
-9	военнослужащих	_	_	_	_	_	_	_	bratT5=Quantity
+8	троих	_	_	_	_	_	_	_	bratT5=Quantity|bratT72=Person
+9	военнослужащих	_	_	_	_	_	_	_	bratT5=Quantity|bratT72=Person
 10	на	_	_	_	_	_	_	_	_
 11	военном	_	_	_	_	_	_	_	bratT7=Facility
 12	аэродроме	_	_	_	_	_	_	_	bratT7=Facility
@@ -129,7 +129,7 @@
 14	военном	_	_	_	_	_	_	_	bratT15=Facility
 15	аэродроме	_	_	_	_	_	_	_	bratT15=Facility
 16	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Facility
-17	Балтимор	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Facility
+17	Балтимор	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Facility|bratT71=GPE
 18	''	_	_	_	_	_	_	_	bratT15=Facility
 19	в	_	_	_	_	_	_	_	_
 20	Воронежской	_	_	_	_	_	_	_	bratT16=GPE
@@ -191,10 +191,10 @@
 2	результате	_	_	_	_	_	_	_	_
 3	ЧП	_	_	_	_	_	_	_	bratT55=Event
 4	погибли	_	_	_	_	_	_	_	_
-5	трое	_	_	_	_	_	_	_	bratT23=Quantity
-6	военнослужащих	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Quantity
+5	трое	_	_	_	_	_	_	_	bratT23=Quantity|bratT73=Person
+6	военнослужащих	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Quantity|bratT73=Person
 7	,	_	_	_	_	_	_	_	_
-8	один	_	_	_	_	_	_	_	bratT24=Quantity
+8	один	_	_	_	_	_	_	_	bratT24=Quantity|bratT74=Person
 9	ранен	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_
 
@@ -227,7 +227,7 @@
 
 # sent_id = 0060-p6-s3
 # text = Срочника задержали по дороге к семье.
-1	Срочника	_	_	_	_	_	_	_	bratT31=Person-property|bratT60=Person
+1	Срочника	_	_	_	_	_	_	_	bratA20=T60:Male|bratT31=Person-property|bratT60=Person
 2	задержали	_	_	_	_	_	_	_	_
 3	по	_	_	_	_	_	_	_	_
 4	дороге	_	_	_	_	_	_	_	_

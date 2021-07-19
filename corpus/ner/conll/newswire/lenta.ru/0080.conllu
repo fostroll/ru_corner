@@ -52,7 +52,7 @@
 1	Соответствующий	_	_	_	_	_	_	_	_
 2	материал	_	_	_	_	_	_	_	_
 3	публикует	_	_	_	_	_	_	_	_
-4	Daily	_	_	_	_	_	_	_	bratA1=T9:Media|bratT9=Organization
+4	Daily	_	_	_	_	_	_	_	bratA1=T9:Media|bratT41=Duration|bratT42=Time-period|bratT9=Organization
 5	Mail	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T9:Media|bratT9=Organization
 6	.	_	_	_	_	_	_	_	_
 
@@ -60,7 +60,7 @@
 # par_text = Знаменитость сфотографировали на мероприятии по случаю празднования 36-летия в черном платье длины миди с глубоким декольте и туфлях на каблуках того же цвета. Ее образ дополнили защитная маска, небольшая подвеска и кольца.
 # sent_id = 0080-p3-s1
 # text = Знаменитость сфотографировали на мероприятии по случаю празднования 36-летия в черном платье длины миди с глубоким декольте и туфлях на каблуках того же цвета.
-1	Знаменитость	_	_	_	_	_	_	_	_
+1	Знаменитость	_	_	_	_	_	_	_	bratT43=Person-property|bratT44=Person
 2	сфотографировали	_	_	_	_	_	_	_	_
 3	на	_	_	_	_	_	_	_	_
 4	мероприятии	_	_	_	_	_	_	_	bratT35=Event
@@ -245,7 +245,7 @@
 8	до	_	_	_	_	_	_	_	_
 9	неузнаваемости	_	_	_	_	_	_	_	_
 10	звезд	_	_	_	_	_	_	_	bratT15=Person-property
-11	2000-х	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Past|bratT10=Date-period-absolute
+11	2000-х	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T10:Past|bratT10=Date-period-absolute|bratT15=Person-property
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0080-p6-s2
@@ -283,7 +283,7 @@
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
 8	сделала	_	_	_	_	_	_	_	_
-9	рукавную	_	_	_	_	_	_	_	bratT39=Event
+9	рукавную	_	_	_	_	_	_	_	bratT18=Other-term|bratT39=Event
 10	резекцию	_	_	_	_	_	_	_	bratT18=Other-term|bratT39=Event
 11	желудка	_	_	_	_	_	_	_	SpaceAfter=No|bratT39=Event
 12	.	_	_	_	_	_	_	_	_

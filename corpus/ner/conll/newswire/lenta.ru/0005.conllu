@@ -6,7 +6,7 @@
 1	Роналду	_	_	_	_	_	_	_	bratA10=T1:Male|bratT1=Person|bratT60=Person-surname
 2	прокомментировал	_	_	_	_	_	_	_	_
 3	смерть	_	_	_	_	_	_	_	bratT34=Event
-4	Марадоны	_	_	_	_	_	_	_	bratA11=T4:Male|bratT4=Person|bratT59=Person-surname
+4	Марадоны	_	_	_	_	_	_	_	bratT4=Person|bratT59=Person-surname
 
 # newpar id = 0005-p2
 # par_text = Португальский нападающий туринского «Ювентуса» Криштиану Роналду прокомментировал смерть бывшего игрока сборной Аргентины Диего Марадоны. Пост доступен в Twitter-аккаунте португальца.
@@ -39,7 +39,7 @@
 4	Twitter	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA2=T13:Media|bratT13=Service
 5	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA2=T13:Media|bratT13=Service
 6	аккаунте	_	_	_	_	_	_	_	bratA2=T13:Media|bratT13=Service
-7	португальца	_	_	_	_	_	_	_	SpaceAfter=No|bratT12=Nationality
+7	португальца	_	_	_	_	_	_	_	SpaceAfter=No|bratA33=T92:Male|bratT12=Nationality|bratT92=Person
 8	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0005-p3
@@ -187,7 +187,7 @@
 # text = О смерти Марадоны стало известно ранее 25 ноября.
 1	О	_	_	_	_	_	_	_	_
 2	смерти	_	_	_	_	_	_	_	bratT38=Event
-3	Марадоны	_	_	_	_	_	_	_	bratA18=T23:Male|bratT23=Person|bratT69=Person-surname
+3	Марадоны	_	_	_	_	_	_	_	bratT23=Person|bratT69=Person-surname
 4	стало	_	_	_	_	_	_	_	_
 5	известно	_	_	_	_	_	_	_	_
 6	ранее	_	_	_	_	_	_	_	bratA3=T9:Past|bratA8=T54:Past|bratT54=Date-relative|bratT9=Date-absolute
@@ -216,7 +216,7 @@
 # text = В ноябре Марадона был госпитализирован с кровоизлиянием в мозг и позже выписан.
 1	В	_	_	_	_	_	_	_	bratA4=T27:Past|bratT27=Date-absolute
 2	ноябре	_	_	_	_	_	_	_	bratA4=T27:Past|bratT27=Date-absolute
-3	Марадона	_	_	_	_	_	_	_	bratA20=T28:Male|bratT28=Person|bratT70=Person-surname
+3	Марадона	_	_	_	_	_	_	_	bratT28=Person|bratT70=Person-surname
 4	был	_	_	_	_	_	_	_	_
 5	госпитализирован	_	_	_	_	_	_	_	_
 6	с	_	_	_	_	_	_	_	_

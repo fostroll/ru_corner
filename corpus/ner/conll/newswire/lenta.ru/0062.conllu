@@ -4,8 +4,8 @@
 # sent_id = 0062-p1-s1
 # text = Назван таинственный убийца сотен акул-людоедов
 1	Назван	_	_	_	_	_	_	_	_
-2	таинственный	_	_	_	_	_	_	_	bratA11=T53:Male|bratT53=Person
-3	убийца	_	_	_	_	_	_	_	bratA11=T53:Male|bratT53=Person|bratT60=Person-property
+2	таинственный	_	_	_	_	_	_	_	bratT53=Person
+3	убийца	_	_	_	_	_	_	_	bratT53=Person|bratT60=Person-property
 4	сотен	_	_	_	_	_	_	_	bratT11=Quantity
 5	акул-людоедов	_	_	_	_	_	_	_	bratT11=Quantity
 
@@ -15,8 +15,8 @@
 # text = Специалисты назвали таинственного убийцу, виновного в исчезновении акул-людоедов, которые обитали у берегов ЮАР.
 1	Специалисты	_	_	_	_	_	_	_	bratT23=Person-property|bratT48=Person
 2	назвали	_	_	_	_	_	_	_	_
-3	таинственного	_	_	_	_	_	_	_	bratA5=T54:Male|bratT54=Person
-4	убийцу	_	_	_	_	_	_	_	SpaceAfter=No|bratA5=T54:Male|bratT54=Person|bratT61=Person-property
+3	таинственного	_	_	_	_	_	_	_	bratT54=Person
+4	убийцу	_	_	_	_	_	_	_	SpaceAfter=No|bratT54=Person|bratT61=Person-property
 5	,	_	_	_	_	_	_	_	_
 6	виновного	_	_	_	_	_	_	_	_
 7	в	_	_	_	_	_	_	_	_
@@ -52,7 +52,7 @@
 18	,	_	_	_	_	_	_	_	_
 19	пишет	_	_	_	_	_	_	_	_
 20	издание	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization
-21	Daily	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization
+21	Daily	_	_	_	_	_	_	_	bratA1=T3:Media|bratT3=Organization|bratT62=Time-period|bratT63=Duration
 22	Mail	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T3:Media|bratT3=Organization
 23	.	_	_	_	_	_	_	_	_
 
@@ -106,7 +106,7 @@
 2	два	_	_	_	_	_	_	_	bratA15=T17:Past|bratT17=Date-relative|bratT42=Duration
 3	года	_	_	_	_	_	_	_	bratA15=T17:Past|bratT17=Date-relative|bratT42=Duration
 4	на	_	_	_	_	_	_	_	_
-5	пляже	_	_	_	_	_	_	_	_
+5	пляже	_	_	_	_	_	_	_	bratT64=Facility
 6	у	_	_	_	_	_	_	_	_
 7	южноафриканского	_	_	_	_	_	_	_	bratA19=T26:Adjective|bratT18=GPE|bratT26=GPE
 8	города	_	_	_	_	_	_	_	bratT18=GPE

@@ -54,7 +54,7 @@
 12	более	_	_	_	_	_	_	_	bratT7=Quantity
 13	34	_	_	_	_	_	_	_	bratT7=Quantity
 14	тысяч	_	_	_	_	_	_	_	bratT7=Quantity
-15	должностей	_	_	_	_	_	_	_	bratT7=Quantity
+15	должностей	_	_	_	_	_	_	_	bratT7=Quantity|bratT70=Person-property
 16	в	_	_	_	_	_	_	_	_
 17	центральных	_	_	_	_	_	_	_	bratT57=Organization
 18	аппаратах	_	_	_	_	_	_	_	bratT57=Organization
@@ -62,8 +62,8 @@
 20	органов	_	_	_	_	_	_	_	bratT56=Organization|bratT57=Organization
 21	власти	_	_	_	_	_	_	_	bratT56=Organization|bratT57=Organization
 22	и	_	_	_	_	_	_	_	_
-23	территориальных	_	_	_	_	_	_	_	_
-24	отделах	_	_	_	_	_	_	_	SpaceAfter=No
+23	территориальных	_	_	_	_	_	_	_	bratT66=Organization
+24	отделах	_	_	_	_	_	_	_	SpaceAfter=No|bratT66=Organization
 25	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0010-p3
@@ -78,7 +78,7 @@
 6	сократить	_	_	_	_	_	_	_	_
 7	почти	_	_	_	_	_	_	_	bratT9=Quantity
 8	1200	_	_	_	_	_	_	_	bratT9=Quantity
-9	должностей	_	_	_	_	_	_	_	bratT9=Quantity
+9	должностей	_	_	_	_	_	_	_	bratT71=Person-property|bratT9=Quantity
 10	в	_	_	_	_	_	_	_	_
 11	центральных	_	_	_	_	_	_	_	bratT52=Organization
 12	аппаратах	_	_	_	_	_	_	_	bratT52=Organization
@@ -89,8 +89,8 @@
 17	33,5	_	_	_	_	_	_	_	bratT10=Quantity
 18	тысячи	_	_	_	_	_	_	_	bratT10=Quantity
 19	в	_	_	_	_	_	_	_	_
-20	территориальных	_	_	_	_	_	_	_	_
-21	отделах	_	_	_	_	_	_	_	SpaceAfter=No
+20	территориальных	_	_	_	_	_	_	_	bratT67=Organization
+21	отделах	_	_	_	_	_	_	_	SpaceAfter=No|bratT67=Organization
 22	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0010-p3-s2
@@ -99,13 +99,13 @@
 2	сокращено	_	_	_	_	_	_	_	_
 3	более	_	_	_	_	_	_	_	bratT11=Quantity
 4	40	_	_	_	_	_	_	_	bratT11=Quantity
-5	структурных	_	_	_	_	_	_	_	bratT11=Quantity
-6	подразделений	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Quantity
+5	структурных	_	_	_	_	_	_	_	bratA17=T68:Department|bratT11=Quantity|bratT68=Organization
+6	подразделений	_	_	_	_	_	_	_	SpaceAfter=No|bratA17=T68:Department|bratT11=Quantity|bratT68=Organization
 7	,	_	_	_	_	_	_	_	_
 8	более	_	_	_	_	_	_	_	bratT12=Quantity
 9	45	_	_	_	_	_	_	_	bratT12=Quantity
-10	штатных	_	_	_	_	_	_	_	bratT12=Quantity|bratT15=Person-property
-11	единиц	_	_	_	_	_	_	_	bratT12=Quantity|bratT15=Person-property
+10	штатных	_	_	_	_	_	_	_	bratT12=Quantity|bratT15=Person-property|bratT72=Person-property
+11	единиц	_	_	_	_	_	_	_	bratT12=Quantity|bratT15=Person-property|bratT72=Person-property
 12	заместителей	_	_	_	_	_	_	_	bratT15=Person-property
 13	руководителей	_	_	_	_	_	_	_	bratT15=Person-property
 14	федеральных	_	_	_	_	_	_	_	bratT15=Person-property|bratT59=Organization
@@ -154,8 +154,8 @@
 7	``	_	_	_	_	_	_	_	SpaceAfter=No
 8	денежного	_	_	_	_	_	_	_	_
 9	содержания	_	_	_	_	_	_	_	_
-10	своих	_	_	_	_	_	_	_	bratT54=Person
-11	служащих	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-property|bratT54=Person
+10	своих	_	_	_	_	_	_	_	_
+11	служащих	_	_	_	_	_	_	_	SpaceAfter=No|bratT45=Person-property
 12	''	_	_	_	_	_	_	_	SpaceAfter=No
 13	.	_	_	_	_	_	_	_	_
 
@@ -184,9 +184,9 @@
 # sent_id = 0010-p5-s1
 # text = ``Штаты центральных аппаратов с 1 января 2021 года должны быть сокращены на 5 процентов, территориальных органов - на 10 процентов.
 1	``	_	_	_	_	_	_	_	SpaceAfter=No
-2	Штаты	_	_	_	_	_	_	_	_
-3	центральных	_	_	_	_	_	_	_	bratT61=Organization
-4	аппаратов	_	_	_	_	_	_	_	bratT61=Organization
+2	Штаты	_	_	_	_	_	_	_	bratT54=Person-property
+3	центральных	_	_	_	_	_	_	_	bratT54=Person-property|bratT61=Organization
+4	аппаратов	_	_	_	_	_	_	_	bratT54=Person-property|bratT61=Organization
 5	с	_	_	_	_	_	_	_	bratT19=Date-period-absolute
 6	1	_	_	_	_	_	_	_	bratT19=Date-period-absolute
 7	января	_	_	_	_	_	_	_	bratT19=Date-period-absolute
@@ -199,8 +199,8 @@
 14	5	_	_	_	_	_	_	_	bratT23=Percent
 15	процентов	_	_	_	_	_	_	_	SpaceAfter=No|bratT23=Percent
 16	,	_	_	_	_	_	_	_	_
-17	территориальных	_	_	_	_	_	_	_	_
-18	органов	_	_	_	_	_	_	_	_
+17	территориальных	_	_	_	_	_	_	_	bratT69=Organization
+18	органов	_	_	_	_	_	_	_	bratT69=Organization
 19	-	_	_	_	_	_	_	_	_
 20	на	_	_	_	_	_	_	_	bratT25=Percent
 21	10	_	_	_	_	_	_	_	bratT25=Percent

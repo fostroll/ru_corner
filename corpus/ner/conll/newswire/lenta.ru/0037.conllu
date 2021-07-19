@@ -6,7 +6,7 @@
 1	Звезду	_	_	_	_	_	_	_	bratA15=T54:Female|bratT32=Person-property|bratT54=Person
 2	фильма	_	_	_	_	_	_	_	bratA15=T54:Female|bratT1=Work-of-art|bratT32=Person-property|bratT54=Person
 3	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T54:Female|bratT1=Work-of-art|bratT32=Person-property|bratT54=Person
-4	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T54:Female|bratT1=Work-of-art|bratT32=Person-property|bratT54=Person
+4	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T54:Female|bratA17=T27:Fiction|bratT1=Work-of-art|bratT27=Person|bratT32=Person-property|bratT54=Person
 5	''	_	_	_	_	_	_	_	bratA15=T54:Female|bratT1=Work-of-art|bratT32=Person-property|bratT54=Person
 6	нашли	_	_	_	_	_	_	_	_
 7	мертвой	_	_	_	_	_	_	_	_
@@ -57,7 +57,7 @@
 5	звезды	_	_	_	_	_	_	_	bratA11=T8:Female|bratT34=Person-property|bratT55=Person|bratT8=Person
 6	фильма	_	_	_	_	_	_	_	bratA11=T8:Female|bratT34=Person-property|bratT55=Person|bratT7=Work-of-art|bratT8=Person
 7	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Female|bratT34=Person-property|bratT55=Person|bratT7=Work-of-art|bratT8=Person
-8	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Female|bratT34=Person-property|bratT55=Person|bratT7=Work-of-art|bratT8=Person
+8	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T8:Female|bratA18=T68:Fiction|bratT34=Person-property|bratT55=Person|bratT68=Person|bratT7=Work-of-art|bratT8=Person
 9	''	_	_	_	_	_	_	_	bratA11=T8:Female|bratT34=Person-property|bratT55=Person|bratT7=Work-of-art|bratT8=Person
 10	Мария	_	_	_	_	_	_	_	bratA11=T8:Female|bratT43=Person-forename|bratT8=Person
 11	обратилась	_	_	_	_	_	_	_	_
@@ -129,8 +129,8 @@
 5	установлена	_	_	_	_	_	_	_	_
 6	после	_	_	_	_	_	_	_	bratA4=T37:Future|bratT37=Date-absolute
 7	проведения	_	_	_	_	_	_	_	bratA4=T37:Future|bratT37=Date-absolute
-8	медицинской	_	_	_	_	_	_	_	bratT27=Other-term
-9	экспертизы	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Other-term
+8	медицинской	_	_	_	_	_	_	_	_
+9	экспертизы	_	_	_	_	_	_	_	SpaceAfter=No
 10	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0037-p5
@@ -148,7 +148,7 @@
 9	,	_	_	_	_	_	_	_	_
 10	как	_	_	_	_	_	_	_	_
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
-12	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
+12	Домовой	_	_	_	_	_	_	_	SpaceAfter=No|bratA19=T69:Fiction|bratT13=Work-of-art|bratT69=Person
 13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Work-of-art
 14	,	_	_	_	_	_	_	_	_
 15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT14=Work-of-art
@@ -179,7 +179,7 @@
 40	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT21=Work-of-art
 41	,	_	_	_	_	_	_	_	_
 42	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT22=Work-of-art
-43	Товарищ	_	_	_	_	_	_	_	bratT22=Work-of-art
+43	Товарищ	_	_	_	_	_	_	_	bratA12=T49:Male|bratT22=Work-of-art|bratT49=Person|bratT70=Person-affix
 44	Сталин	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T49:Male|bratT22=Work-of-art|bratT49=Person|bratT50=Person-surname
 45	''	_	_	_	_	_	_	_	bratT22=Work-of-art
 46	и	_	_	_	_	_	_	_	_

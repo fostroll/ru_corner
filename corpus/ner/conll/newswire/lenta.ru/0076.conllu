@@ -98,8 +98,8 @@
 10	народа	_	_	_	_	_	_	_	bratA3=T30:Citizenship|bratT30=Nationality
 11	массово	_	_	_	_	_	_	_	_
 12	казнили	_	_	_	_	_	_	_	_
-13	мирных	_	_	_	_	_	_	_	_
-14	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T64:Resident|bratT64=Nationality
+13	мирных	_	_	_	_	_	_	_	bratT64=Other-group
+14	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA25=T71:Resident|bratT64=Other-group|bratT71=Nationality
 15	,	_	_	_	_	_	_	_	_
 16	в	_	_	_	_	_	_	_	_
 17	том	_	_	_	_	_	_	_	_
@@ -136,8 +136,8 @@
 8	где	_	_	_	_	_	_	_	_
 9	развернули	_	_	_	_	_	_	_	_
 10	сеть	_	_	_	_	_	_	_	_
-11	карательных	_	_	_	_	_	_	_	_
-12	отрядов	_	_	_	_	_	_	_	SpaceAfter=No
+11	карательных	_	_	_	_	_	_	_	bratA22=T69:Department|bratT69=Organization
+12	отрядов	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T69:Department|bratT69=Organization
 13	,	_	_	_	_	_	_	_	_
 14	``	_	_	_	_	_	_	_	SpaceAfter=No
 15	с	_	_	_	_	_	_	_	_
@@ -150,8 +150,8 @@
 22	злодеяния	_	_	_	_	_	_	_	bratT59=Event
 23	в	_	_	_	_	_	_	_	_
 24	отношении	_	_	_	_	_	_	_	_
-25	мирных	_	_	_	_	_	_	_	_
-26	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T65:Resident|bratT65=Nationality
+25	мирных	_	_	_	_	_	_	_	bratT70=Other-group
+26	жителей	_	_	_	_	_	_	_	SpaceAfter=No|bratA23=T65:Resident|bratT65=Nationality|bratT70=Other-group
 27	''	_	_	_	_	_	_	_	SpaceAfter=No
 28	.	_	_	_	_	_	_	_	_
 
@@ -191,12 +191,12 @@
 2	зверства	_	_	_	_	_	_	_	bratT60=Event
 3	наблюдались	_	_	_	_	_	_	_	_
 4	в	_	_	_	_	_	_	_	_
-5	населенных	_	_	_	_	_	_	_	bratT66=GPE
-6	пунктах	_	_	_	_	_	_	_	bratT66=GPE
-7	Знаменского	_	_	_	_	_	_	_	bratT15=GPE|bratT66=GPE
-8	района	_	_	_	_	_	_	_	bratT15=GPE|bratT66=GPE
-9	Орловской	_	_	_	_	_	_	_	bratT15=GPE|bratT46=GPE|bratT66=GPE
-10	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=GPE|bratT46=GPE|bratT66=GPE
+5	населенных	_	_	_	_	_	_	_	_
+6	пунктах	_	_	_	_	_	_	_	_
+7	Знаменского	_	_	_	_	_	_	_	bratT15=GPE
+8	района	_	_	_	_	_	_	_	bratT15=GPE
+9	Орловской	_	_	_	_	_	_	_	bratT15=GPE|bratT46=GPE
+10	области	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=GPE|bratT46=GPE
 11	,	_	_	_	_	_	_	_	_
 12	где	_	_	_	_	_	_	_	_
 13	действовал	_	_	_	_	_	_	_	_

@@ -6,8 +6,8 @@
 1	Мишустин	_	_	_	_	_	_	_	bratA10=T1:Male|bratT1=Person|bratT34=Person-surname
 2	запустил	_	_	_	_	_	_	_	_
 3	ускоритель	_	_	_	_	_	_	_	bratT44=Product
-4	российского	_	_	_	_	_	_	_	bratT33=GPE|bratT44=Product
-5	мегасайенс-проекта	_	_	_	_	_	_	_	bratT44=Product
+4	российского	_	_	_	_	_	_	_	bratA2=T48:Project|bratT33=GPE|bratT44=Product|bratT48=Product
+5	мегасайенс-проекта	_	_	_	_	_	_	_	bratA2=T48:Project|bratT44=Product|bratT48=Product
 
 # newpar id = 0082-p2
 # par_text = Премьер-министр России Михаил Мишустин запустил в работу сверхпроводящий ускоритель тяжелых ионов мегасайенс-проекта NICA. Об этом в пятницу, 20 ноября, сообщает ТАСС.
@@ -190,9 +190,9 @@
 14	целостной	_	_	_	_	_	_	_	_
 15	системы	_	_	_	_	_	_	_	_
 16	подготовки	_	_	_	_	_	_	_	_
-17	научных	_	_	_	_	_	_	_	_
-18	и	_	_	_	_	_	_	_	_
-19	научно-педагогических	_	_	_	_	_	_	_	_
-20	кадров	_	_	_	_	_	_	_	SpaceAfter=No
+17	научных	_	_	_	_	_	_	_	bratA15=T49:Plural|bratT49=Person-property
+18	и	_	_	_	_	_	_	_	bratA15=T49:Plural|bratT49=Person-property
+19	научно-педагогических	_	_	_	_	_	_	_	bratA15=T49:Plural|bratT49=Person-property
+20	кадров	_	_	_	_	_	_	_	SpaceAfter=No|bratA15=T49:Plural|bratT49=Person-property
 21	.	_	_	_	_	_	_	_	_
 

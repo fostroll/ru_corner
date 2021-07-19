@@ -24,7 +24,7 @@
 7	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event|bratT60=Event
 8	CoV	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event|bratT60=Event
 9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT4=Other-term|bratT41=Event|bratT60=Event
-10	2	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event|bratT43=Person-surname|bratT60=Event
+10	2	_	_	_	_	_	_	_	bratT4=Other-term|bratT41=Event|bratT43=Ordinal|bratT60=Event
 11	позволяет	_	_	_	_	_	_	_	_
 12	говорить	_	_	_	_	_	_	_	_
 13	о	_	_	_	_	_	_	_	_
@@ -48,11 +48,11 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	министр	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-5	здравоохранения	_	_	_	_	_	_	_	bratT10=Person|bratT9=Person-property
-6	страны	_	_	_	_	_	_	_	bratT10=Person|bratT54=GPE|bratT9=Person-property
-7	Оливье	_	_	_	_	_	_	_	bratT10=Person|bratT35=Person-forename
-8	Веран	_	_	_	_	_	_	_	SpaceAfter=No|bratT10=Person|bratT36=Person-surname
+4	министр	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT9=Person-property
+5	здравоохранения	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT9=Person-property
+6	страны	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT54=GPE|bratT9=Person-property
+7	Оливье	_	_	_	_	_	_	_	bratA11=T10:Male|bratT10=Person|bratT35=Person-forename
+8	Веран	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T10:Male|bratT10=Person|bratT36=Person-surname
 9	,	_	_	_	_	_	_	_	_
 10	сообщает	_	_	_	_	_	_	_	_
 11	портал	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
@@ -104,7 +104,7 @@
 # par_text = Веран подчеркнул, что власти страны снова получают контроль над эпидемией, и это хорошие новости, но до победы над болезнью далеко, и расслабляться еще слишком рано. Он спрогнозировал, что три или четыре французских фирмы в начале следующего года представят свои версии вакцины.
 # sent_id = 0051-p4-s1
 # text = Веран подчеркнул, что власти страны снова получают контроль над эпидемией, и это хорошие новости, но до победы над болезнью далеко, и расслабляться еще слишком рано.
-1	Веран	_	_	_	_	_	_	_	bratT16=Person|bratT37=Person-surname
+1	Веран	_	_	_	_	_	_	_	bratA12=T16:Male|bratT16=Person|bratT37=Person-surname
 2	подчеркнул	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_
@@ -144,8 +144,8 @@
 5	три	_	_	_	_	_	_	_	bratT31=Quantity
 6	или	_	_	_	_	_	_	_	bratT31=Quantity
 7	четыре	_	_	_	_	_	_	_	bratT31=Quantity
-8	французских	_	_	_	_	_	_	_	bratA8=T32:Adjective|bratT31=Quantity|bratT32=GPE
-9	фирмы	_	_	_	_	_	_	_	bratT31=Quantity
+8	французских	_	_	_	_	_	_	_	bratA8=T32:Adjective|bratT31=Quantity|bratT32=GPE|bratT64=Organization
+9	фирмы	_	_	_	_	_	_	_	bratT31=Quantity|bratT64=Organization
 10	в	_	_	_	_	_	_	_	bratA5=T26:Future|bratT26=Date-absolute
 11	начале	_	_	_	_	_	_	_	bratA5=T26:Future|bratT26=Date-absolute
 12	следующего	_	_	_	_	_	_	_	bratA5=T26:Future|bratT25=Ordinal|bratT26=Date-absolute

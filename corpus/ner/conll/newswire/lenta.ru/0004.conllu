@@ -3,10 +3,10 @@
 # par_text = Студентов Москвы и Петербурга перевели на дистанционное обучение
 # sent_id = 0004-p1-s1
 # text = Студентов Москвы и Петербурга перевели на дистанционное обучение
-1	Студентов	_	_	_	_	_	_	_	bratT3=Person-property
-2	Москвы	_	_	_	_	_	_	_	bratT1=GPE
-3	и	_	_	_	_	_	_	_	_
-4	Петербурга	_	_	_	_	_	_	_	bratT2=GPE
+1	Студентов	_	_	_	_	_	_	_	bratA13=T3:Plural|bratT3=Person-property
+2	Москвы	_	_	_	_	_	_	_	bratA13=T3:Plural|bratT1=GPE|bratT3=Person-property
+3	и	_	_	_	_	_	_	_	bratA13=T3:Plural|bratT3=Person-property
+4	Петербурга	_	_	_	_	_	_	_	bratA13=T3:Plural|bratT2=GPE|bratT3=Person-property
 5	перевели	_	_	_	_	_	_	_	_
 6	на	_	_	_	_	_	_	_	_
 7	дистанционное	_	_	_	_	_	_	_	_
@@ -23,10 +23,10 @@
 5	России	_	_	_	_	_	_	_	bratT4=Organization|bratT5=GPE
 6	перевело	_	_	_	_	_	_	_	_
 7	учащихся	_	_	_	_	_	_	_	bratT8=Person-property
-8	университетов	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization
-9	Москвы	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization|bratT6=GPE
-10	и	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization
-11	Санкт-Петербурга	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization|bratT7=GPE
+8	университетов	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization|bratT8=Person-property
+9	Москвы	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization|bratT6=GPE|bratT8=Person-property
+10	и	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization|bratT8=Person-property
+11	Санкт-Петербурга	_	_	_	_	_	_	_	bratA2=T23:Plural|bratT23=Organization|bratT7=GPE|bratT8=Person-property
 12	на	_	_	_	_	_	_	_	_
 13	дистанционное	_	_	_	_	_	_	_	_
 14	обучение	_	_	_	_	_	_	_	SpaceAfter=No
@@ -110,9 +110,9 @@
 2	приказу	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	руководители	_	_	_	_	_	_	_	bratT37=Person-property
-5	высших	_	_	_	_	_	_	_	bratT37=Person-property|bratT65=Ordinal
-6	учебных	_	_	_	_	_	_	_	bratT37=Person-property
-7	заведений	_	_	_	_	_	_	_	bratT37=Person-property
+5	высших	_	_	_	_	_	_	_	bratT37=Person-property|bratT65=Ordinal|bratT67=Organization
+6	учебных	_	_	_	_	_	_	_	bratT37=Person-property|bratT67=Organization
+7	заведений	_	_	_	_	_	_	_	bratT37=Person-property|bratT67=Organization
 8	будут	_	_	_	_	_	_	_	_
 9	нести	_	_	_	_	_	_	_	_
 10	персональную	_	_	_	_	_	_	_	_
@@ -134,7 +134,7 @@
 26	рабочих	_	_	_	_	_	_	_	_
 27	местах	_	_	_	_	_	_	_	_
 28	беременных	_	_	_	_	_	_	_	_
-29	сотрудниц	_	_	_	_	_	_	_	SpaceAfter=No
+29	сотрудниц	_	_	_	_	_	_	_	SpaceAfter=No|bratT68=Person-property
 30	,	_	_	_	_	_	_	_	_
 31	женщин	_	_	_	_	_	_	_	SpaceAfter=No
 32	,	_	_	_	_	_	_	_	_

@@ -8,7 +8,7 @@
 3	аварийно	_	_	_	_	_	_	_	_
 4	севшего	_	_	_	_	_	_	_	_
 5	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Product
-6	Руслана	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Product
+6	Руслана	_	_	_	_	_	_	_	SpaceAfter=No|bratT1=Product|bratT31=Person-forename
 7	''	_	_	_	_	_	_	_	bratT1=Product
 8	показали	_	_	_	_	_	_	_	_
 9	на	_	_	_	_	_	_	_	_
@@ -30,7 +30,7 @@
 9	-	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
 10	124	_	_	_	_	_	_	_	bratT13=Product|bratT2=Product|bratT21=Cardinal
 11	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
-12	Руслан	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
+12	Руслан	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product|bratT27=Person-forename
 13	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Product|bratT2=Product
 14	,	_	_	_	_	_	_	_	_
 15	который	_	_	_	_	_	_	_	_
@@ -51,10 +51,10 @@
 5	Telegram	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA2=T5:Media|bratT5=Service
 6	-	_	_	_	_	_	_	_	SpaceAfter=Yes|bratA2=T5:Media|bratT5=Service
 7	канале	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Service
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT5=Service
-9	Записки	_	_	_	_	_	_	_	bratA2=T5:Media|bratT5=Service
-10	охотника	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT5=Service
-11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT5=Service
+8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT32=Work-of-art|bratT5=Service
+9	Записки	_	_	_	_	_	_	_	bratA2=T5:Media|bratT32=Work-of-art|bratT5=Service
+10	охотника	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT26=Person-property|bratT32=Work-of-art|bratT5=Service
+11	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA2=T5:Media|bratT32=Work-of-art|bratT5=Service
 12	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0093-p3
@@ -107,7 +107,7 @@
 24	метров	_	_	_	_	_	_	_	bratT7=Quantity
 25	и	_	_	_	_	_	_	_	_
 26	повредила	_	_	_	_	_	_	_	_
-27	склад	_	_	_	_	_	_	_	_
+27	склад	_	_	_	_	_	_	_	bratT33=Facility
 28	недалеко	_	_	_	_	_	_	_	_
 29	от	_	_	_	_	_	_	_	_
 30	аэропорта	_	_	_	_	_	_	_	bratT8=Facility
@@ -135,7 +135,7 @@
 # sent_id = 0093-p5-s2
 # text = Обесточенный транспортник выкатился за пределы взлетно-посадочной полосы (ВПП) из-за отсутствия реверса двигателей.
 1	Обесточенный	_	_	_	_	_	_	_	_
-2	транспортник	_	_	_	_	_	_	_	bratT28=Product
+2	транспортник	_	_	_	_	_	_	_	_
 3	выкатился	_	_	_	_	_	_	_	_
 4	за	_	_	_	_	_	_	_	_
 5	пределы	_	_	_	_	_	_	_	_

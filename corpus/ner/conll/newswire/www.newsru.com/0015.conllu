@@ -220,9 +220,9 @@
 # par_text = Предшественник Франциска - папа Римский Бенедикт XVI издал запрет на принятие духовного сана людям с нетрадиционной сексуальной ориентацией.
 # sent_id = 0015-p7-s1
 # text = Предшественник Франциска - папа Римский Бенедикт XVI издал запрет на принятие духовного сана людям с нетрадиционной сексуальной ориентацией.
-1	Предшественник	_	_	_	_	_	_	_	_
-2	Франциска	_	_	_	_	_	_	_	bratA13=T14:Male|bratT14=Person|bratT33=Person-forename
-3	-	_	_	_	_	_	_	_	_
+1	Предшественник	_	_	_	_	_	_	_	bratA14=T13:Male|bratT13=Person|bratT53=Person-property
+2	Франциска	_	_	_	_	_	_	_	bratA13=T14:Male|bratA14=T13:Male|bratT13=Person|bratT14=Person|bratT33=Person-forename|bratT53=Person-property
+3	-	_	_	_	_	_	_	_	bratA14=T13:Male|bratT13=Person
 4	папа	_	_	_	_	_	_	_	bratA14=T13:Male|bratT13=Person|bratT15=Person-property
 5	Римский	_	_	_	_	_	_	_	bratA14=T13:Male|bratA15=T34:Adjective|bratT13=Person|bratT15=Person-property|bratT34=GPE
 6	Бенедикт	_	_	_	_	_	_	_	bratA14=T13:Male|bratT13=Person|bratT35=Person-forename

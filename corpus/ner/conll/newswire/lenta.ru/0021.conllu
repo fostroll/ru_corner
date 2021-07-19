@@ -46,7 +46,7 @@
 1	Соответствующий	_	_	_	_	_	_	_	_
 2	материал	_	_	_	_	_	_	_	_
 3	публикует	_	_	_	_	_	_	_	_
-4	Daily	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization
+4	Daily	_	_	_	_	_	_	_	bratA1=T4:Media|bratT4=Organization|bratT62=Time-period|bratT63=Duration
 5	Mail	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T4:Media|bratT4=Organization
 6	.	_	_	_	_	_	_	_	_
 
@@ -66,15 +66,15 @@
 9	,	_	_	_	_	_	_	_	_
 10	которая	_	_	_	_	_	_	_	_
 11	является	_	_	_	_	_	_	_	_
-12	дочерью	_	_	_	_	_	_	_	bratA8=T11:Female|bratT11=Person|bratT9=Family
-13	брата	_	_	_	_	_	_	_	bratA18=T57:Male|bratA8=T11:Female|bratT10=Family|bratT11=Person|bratT57=Person
-14	Иоланды	_	_	_	_	_	_	_	bratA18=T57:Male|bratA8=T11:Female|bratA9=T24:Female|bratT11=Person|bratT24=Person|bratT45=Person-forename|bratT57=Person
-15	Хадид	_	_	_	_	_	_	_	bratA18=T57:Male|bratA8=T11:Female|bratA9=T24:Female|bratT11=Person|bratT24=Person|bratT46=Person-surname|bratT57=Person
-16	(	_	_	_	_	_	_	_	SpaceAfter=No
-17	матери	_	_	_	_	_	_	_	bratA11=T13:Female|bratT12=Family|bratT13=Person
-18	Беллы	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T25:Female|bratA11=T13:Female|bratT13=Person|bratT25=Person|bratT47=Person-forename
-19	)	_	_	_	_	_	_	_	SpaceAfter=No
-20	,	_	_	_	_	_	_	_	_
+12	дочерью	_	_	_	_	_	_	_	bratT9=Family
+13	брата	_	_	_	_	_	_	_	bratA12=T15:Male|bratT10=Family|bratT15=Person
+14	Иоланды	_	_	_	_	_	_	_	bratA12=T15:Male|bratA9=T24:Female|bratT15=Person|bratT24=Person|bratT45=Person-forename
+15	Хадид	_	_	_	_	_	_	_	bratA12=T15:Male|bratA9=T24:Female|bratT15=Person|bratT24=Person|bratT46=Person-surname
+16	(	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T15:Male|bratA9=T24:Female|bratT15=Person|bratT24=Person
+17	матери	_	_	_	_	_	_	_	bratA12=T15:Male|bratA9=T24:Female|bratT12=Family|bratT15=Person|bratT24=Person
+18	Беллы	_	_	_	_	_	_	_	SpaceAfter=No|bratA10=T25:Female|bratA12=T15:Male|bratA9=T24:Female|bratT15=Person|bratT24=Person|bratT25=Person|bratT47=Person-forename
+19	)	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T15:Male|bratA9=T24:Female|bratT15=Person|bratT24=Person
+20	,	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person
 21	бизнесмена	_	_	_	_	_	_	_	bratA12=T15:Male|bratT14=Person-property|bratT15=Person
 22	Лео	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person|bratT48=Person-forename
 23	ван	_	_	_	_	_	_	_	bratA12=T15:Male|bratT15=Person|bratT49=Person-surname

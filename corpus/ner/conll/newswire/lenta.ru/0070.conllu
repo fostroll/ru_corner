@@ -6,7 +6,7 @@
 1	Россиянин	_	_	_	_	_	_	_	bratA1=T1:Citizenship|bratA32=T78:Male|bratT1=Nationality|bratT78=Person
 2	стал	_	_	_	_	_	_	_	_
 3	командиром	_	_	_	_	_	_	_	bratT2=Person-property
-4	МКС	_	_	_	_	_	_	_	bratT39=Facility
+4	МКС	_	_	_	_	_	_	_	bratT2=Person-property|bratT39=Facility
 
 # newpar id = 0070-p2
 # par_text = Российский космонавт Сергей Рыжиков стал командиром Международной космической станции (МКС), приняв эстафету от американца Кристофера Кэссиди. Трансляция церемонии велась на сайте НАСА, передает РИА Новости.
@@ -154,11 +154,11 @@
 3	11	_	_	_	_	_	_	_	bratA10=T24:Past|bratT24=Date-absolute
 4	октября	_	_	_	_	_	_	_	bratA10=T24:Past|bratT24=Date-absolute
 5	в	_	_	_	_	_	_	_	_
-6	российском	_	_	_	_	_	_	_	bratA28=T49:Adjective|bratT49=GPE
-7	сегменте	_	_	_	_	_	_	_	_
+6	российском	_	_	_	_	_	_	_	bratA28=T49:Adjective|bratT49=GPE|bratT81=Facility
+7	сегменте	_	_	_	_	_	_	_	bratT81=Facility
 8	уже	_	_	_	_	_	_	_	_
 9	ломался	_	_	_	_	_	_	_	_
-10	туалет	_	_	_	_	_	_	_	SpaceAfter=No
+10	туалет	_	_	_	_	_	_	_	SpaceAfter=No|bratT82=Facility
 11	,	_	_	_	_	_	_	_	_
 12	на	_	_	_	_	_	_	_	_
 13	его	_	_	_	_	_	_	_	_

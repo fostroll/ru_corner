@@ -83,10 +83,10 @@
 6	недалеко	_	_	_	_	_	_	_	_
 7	от	_	_	_	_	_	_	_	_
 8	границы	_	_	_	_	_	_	_	bratT12=Facility
-9	королевства	_	_	_	_	_	_	_	_
+9	королевства	_	_	_	_	_	_	_	bratT61=GPE
 10	с	_	_	_	_	_	_	_	_
 11	Йеменом	_	_	_	_	_	_	_	bratT10=GPE
-12	в	_	_	_	_	_	_	_	bratT11=Location
+12	в	_	_	_	_	_	_	_	_
 13	Красном	_	_	_	_	_	_	_	bratT11=Location
 14	море	_	_	_	_	_	_	_	SpaceAfter=No|bratT11=Location
 15	.	_	_	_	_	_	_	_	_
@@ -232,17 +232,20 @@
 
 # sent_id = 0112-p6-s2
 # text = Повстанцев-хуситов, предположительно, поддерживают Иран и ``Хезболла''.
-1	Повстанцев-хуситов	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Political-group
-2	,	_	_	_	_	_	_	_	_
-3	предположительно	_	_	_	_	_	_	_	SpaceAfter=No
+1-3	Повстанцев-хуситов	_	_	_	_	_	_	_	SpaceAfter=No
+1	Повстанцев	_	_	_	_	_	_	_	SpaceAfter=No|bratT62=Person-property
+2	-	_	_	_	_	_	_	_	SpaceAfter=No
+3	хуситов	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Political-group
 4	,	_	_	_	_	_	_	_	_
-5	поддерживают	_	_	_	_	_	_	_	_
-6	Иран	_	_	_	_	_	_	_	bratT28=GPE
-7	и	_	_	_	_	_	_	_	_
-8	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
-9	Хезболла	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
-10	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
-11	.	_	_	_	_	_	_	_	_
+5	предположительно	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	_	_	_	_	_	_	_	_
+7	поддерживают	_	_	_	_	_	_	_	_
+8	Иран	_	_	_	_	_	_	_	bratT28=GPE
+9	и	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+11	Хезболла	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+12	''	_	_	_	_	_	_	_	SpaceAfter=No|bratT29=Organization
+13	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0112-p6-s3
 # text = Против них - армия Йемена и коалиция арабских стран, возглавляемая Саудовской Аравией.

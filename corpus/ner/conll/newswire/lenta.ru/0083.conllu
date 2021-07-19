@@ -23,8 +23,8 @@
 7	пик	_	_	_	_	_	_	_	bratT52=Event
 8	пандемии	_	_	_	_	_	_	_	bratT40=Event|bratT52=Event
 9	коронавируса	_	_	_	_	_	_	_	bratT40=Event|bratT49=Other-term|bratT52=Event
-10	нового	_	_	_	_	_	_	_	bratT40=Event|bratT52=Event
-11	типа	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event|bratT52=Event
+10	нового	_	_	_	_	_	_	_	bratT40=Event|bratT49=Other-term|bratT52=Event
+11	типа	_	_	_	_	_	_	_	SpaceAfter=No|bratT40=Event|bratT49=Other-term|bratT52=Event
 12	.	_	_	_	_	_	_	_	_
 
 # sent_id = 0083-p2-s2
@@ -32,11 +32,11 @@
 1	Об	_	_	_	_	_	_	_	_
 2	этом	_	_	_	_	_	_	_	_
 3	заявил	_	_	_	_	_	_	_	_
-4	министр	_	_	_	_	_	_	_	bratA12=T6:Female|bratT5=Person-property|bratT6=Person
-5	здравоохранения	_	_	_	_	_	_	_	bratA12=T6:Female|bratT5=Person-property|bratT6=Person
-6	страны	_	_	_	_	_	_	_	bratA12=T6:Female|bratT5=Person-property|bratT6=Person|bratT82=GPE
-7	Фахреттин	_	_	_	_	_	_	_	bratA12=T6:Female|bratT6=Person|bratT62=Person-forename
-8	Коджа	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T6:Female|bratT6=Person|bratT63=Person-surname
+4	министр	_	_	_	_	_	_	_	bratA12=T6:Male|bratT5=Person-property|bratT6=Person
+5	здравоохранения	_	_	_	_	_	_	_	bratA12=T6:Male|bratT5=Person-property|bratT6=Person
+6	страны	_	_	_	_	_	_	_	bratA12=T6:Male|bratT5=Person-property|bratT6=Person|bratT82=GPE
+7	Фахреттин	_	_	_	_	_	_	_	bratA12=T6:Male|bratT6=Person|bratT62=Person-forename
+8	Коджа	_	_	_	_	_	_	_	SpaceAfter=No|bratA12=T6:Male|bratT6=Person|bratT63=Person-surname
 9	,	_	_	_	_	_	_	_	_
 10	сообщает	_	_	_	_	_	_	_	_
 11	ТАСС	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T7:Media|bratT7=Organization
@@ -69,7 +69,7 @@
 11	,	_	_	_	_	_	_	_	_
 12	-	_	_	_	_	_	_	_	_
 13	сказал	_	_	_	_	_	_	_	_
-14	министр	_	_	_	_	_	_	_	bratT12=Person-property|bratT76=Person
+14	министр	_	_	_	_	_	_	_	bratA22=T76:Male|bratT12=Person-property|bratT76=Person
 15	в	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-absolute
 16	ходе	_	_	_	_	_	_	_	bratA9=T46:Past|bratT46=Date-absolute
 17	пресс-конференции	_	_	_	_	_	_	_	SpaceAfter=No|bratA9=T46:Past|bratT46=Date-absolute|bratT54=Event
@@ -82,7 +82,7 @@
 1	Вместе	_	_	_	_	_	_	_	_
 2	с	_	_	_	_	_	_	_	_
 3	тем	_	_	_	_	_	_	_	_
-4	Коджа	_	_	_	_	_	_	_	bratT13=Person|bratT64=Person-surname
+4	Коджа	_	_	_	_	_	_	_	bratA23=T13:Male|bratT13=Person|bratT64=Person-surname
 5	отметил	_	_	_	_	_	_	_	SpaceAfter=No
 6	,	_	_	_	_	_	_	_	_
 7	что	_	_	_	_	_	_	_	_
@@ -252,8 +252,8 @@
 12	``	_	_	_	_	_	_	_	SpaceAfter=No
 13	на	_	_	_	_	_	_	_	_
 14	мощностях	_	_	_	_	_	_	_	_
-15	турецких	_	_	_	_	_	_	_	bratA17=T61:Adjective|bratT61=GPE
-16	фармпроизводителей	_	_	_	_	_	_	_	_
+15	турецких	_	_	_	_	_	_	_	bratA17=T61:Adjective|bratT61=GPE|bratT86=Organization
+16	фармпроизводителей	_	_	_	_	_	_	_	bratT86=Organization
 17	после	_	_	_	_	_	_	_	bratA10=T48:Future|bratT48=Date-absolute
 18	проведения	_	_	_	_	_	_	_	bratA10=T48:Future|bratT48=Date-absolute
 19	токсикологических	_	_	_	_	_	_	_	bratT74=Event

@@ -100,10 +100,10 @@
 # text = 30 октября депутаты Тамбовской городской думы на очередном заседании приняли ее досрочную отставку.
 1	30	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
 2	октября	_	_	_	_	_	_	_	bratA3=T19:Past|bratT19=Date-absolute
-3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property|bratT69=Person
-4	Тамбовской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE|bratT69=Person
-5	городской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE|bratT69=Person
-6	думы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization|bratT69=Person
+3	депутаты	_	_	_	_	_	_	_	bratT20=Person-property
+4	Тамбовской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE
+5	городской	_	_	_	_	_	_	_	bratA12=T53:Adjective|bratT20=Person-property|bratT21=Organization|bratT53=GPE
+6	думы	_	_	_	_	_	_	_	bratT20=Person-property|bratT21=Organization
 7	на	_	_	_	_	_	_	_	_
 8	очередном	_	_	_	_	_	_	_	_
 9	заседании	_	_	_	_	_	_	_	bratT80=Event
@@ -176,10 +176,10 @@
 2	том	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
 3	же	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute|bratT52=Ordinal
 4	месяце	_	_	_	_	_	_	_	bratA8=T30:Past|bratT30=Date-absolute
-5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property|bratT70=Person
-6	Тамбовской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE|bratT70=Person
-7	городской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE|bratT70=Person
-8	думы	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization|bratT70=Person
+5	депутаты	_	_	_	_	_	_	_	bratT31=Person-property
+6	Тамбовской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE
+7	городской	_	_	_	_	_	_	_	bratA15=T54:Adjective|bratT31=Person-property|bratT32=Organization|bratT54=GPE
+8	думы	_	_	_	_	_	_	_	bratT31=Person-property|bratT32=Organization
 9	решили	_	_	_	_	_	_	_	_
 10	выписать	_	_	_	_	_	_	_	_
 11	премию	_	_	_	_	_	_	_	_
@@ -198,9 +198,9 @@
 
 # sent_id = 0099-p4-s4
 # text = Один из депутатов пояснил, что зарплата мэра составляет около 200 тысяч рублей.
-1	Один	_	_	_	_	_	_	_	bratT36=Quantity|bratT71=Person
-2	из	_	_	_	_	_	_	_	bratT36=Quantity|bratT71=Person
-3	депутатов	_	_	_	_	_	_	_	bratT37=Person-property|bratT71=Person
+1	Один	_	_	_	_	_	_	_	bratA19=T71:Male|bratT36=Quantity|bratT71=Person
+2	из	_	_	_	_	_	_	_	bratA19=T71:Male|bratT36=Quantity|bratT71=Person
+3	депутатов	_	_	_	_	_	_	_	bratA19=T71:Male|bratT37=Person-property|bratT71=Person
 4	пояснил	_	_	_	_	_	_	_	SpaceAfter=No
 5	,	_	_	_	_	_	_	_	_
 6	что	_	_	_	_	_	_	_	_

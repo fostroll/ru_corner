@@ -16,7 +16,7 @@ T17	Organization 1459 1486	британской   версии   Vogue
 T18	Age 1500 1511	71 - летний
 T19	Person-property 1514 1530	принц   Уэльский
 T20	Person 1514 1539	принц   Уэльский   Чарльз
-T21	Product 1766 1799	брендом   Anderson   &   Sheppard
+T21	Organization 1766 1799	брендом   Anderson   &   Sheppard
 T22	Date-absolute 1802 1818	30   лет   назад
 T23	Person-property 1689 1695	принце
 T24	Organization 1112 1126	i-D   Magazine
@@ -48,13 +48,11 @@ T40	Person-forename 993 1001	Henrique
 T41	Person-surname 1004 1010	Gendre
 T42	Person-forename 1533 1539	Чарльз
 A10	Female T4
-A12	Female T8
 A13	Male T13
 A15	Adjective T32
 A16	Adjective T31
 A17	Male T20
 A18	Adjective T30
-A19	Trademark T21
 T43	Event 913 919	съемки
 T44	Other-group 223 234	поклонников
 T45	Person 628 636	балерины
@@ -74,4 +72,12 @@ A24	Media T48
 T50	Organization 1196 1203	журнала
 A25	Media T50
 T51	Other-group 1182 1193	подписчиков
-T52	Person-property 903 910	Автором
+T52	Person-property 903 919	Автором   съемки
+T53	Person-property 367 379	знаменитость
+T54	GPE 685 692	Гарлема
+T55	Person 1776 1784	Anderson
+T56	Person 1791 1799	Sheppard
+T57	Person-surname 1791 1799	Sheppard
+T58	Person-surname 1776 1784	Anderson
+T59	GPE 1522 1530	Уэльский
+A12	Adjective T59

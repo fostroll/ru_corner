@@ -3,13 +3,13 @@
 # par_text = Бывший президент РФС высказался о смерти Марадоны
 # sent_id = 0020-p1-s1
 # text = Бывший президент РФС высказался о смерти Марадоны
-1	Бывший	_	_	_	_	_	_	_	bratA20=T56:Male|bratT2=Person-property|bratT56=Person
-2	президент	_	_	_	_	_	_	_	bratA20=T56:Male|bratT2=Person-property|bratT56=Person
-3	РФС	_	_	_	_	_	_	_	bratA20=T56:Male|bratT1=Organization|bratT2=Person-property|bratT56=Person
+1	Бывший	_	_	_	_	_	_	_	bratT2=Person-property|bratT56=Person
+2	президент	_	_	_	_	_	_	_	bratT2=Person-property|bratT56=Person
+3	РФС	_	_	_	_	_	_	_	bratT1=Organization|bratT2=Person-property|bratT56=Person
 4	высказался	_	_	_	_	_	_	_	_
 5	о	_	_	_	_	_	_	_	_
 6	смерти	_	_	_	_	_	_	_	bratT26=Event
-7	Марадоны	_	_	_	_	_	_	_	bratA8=T3:Male|bratT3=Person|bratT33=Person-surname
+7	Марадоны	_	_	_	_	_	_	_	bratT3=Person|bratT33=Person-surname
 
 # newpar id = 0020-p2
 # par_text = Чемпион мира 1986 года Диего Марадона скончался в возрасте 60 лет.
@@ -68,7 +68,7 @@
 14	связи	_	_	_	_	_	_	_	_
 15	со	_	_	_	_	_	_	_	_
 16	смертью	_	_	_	_	_	_	_	bratT27=Event
-17	Марадоны	_	_	_	_	_	_	_	SpaceAfter=No|bratA11=T13:Male|bratT13=Person|bratT38=Person-forename
+17	Марадоны	_	_	_	_	_	_	_	SpaceAfter=No|bratT13=Person|bratT38=Person-forename
 18	,	_	_	_	_	_	_	_	_
 19	передает	_	_	_	_	_	_	_	_
 20	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T14:Media|bratT14=Organization
@@ -88,7 +88,7 @@
 3	бывшего	_	_	_	_	_	_	_	bratT15=Person-property|bratT54=Person
 4	президента	_	_	_	_	_	_	_	SpaceAfter=No|bratT15=Person-property|bratT54=Person
 5	,	_	_	_	_	_	_	_	_
-6	Марадона	_	_	_	_	_	_	_	bratA12=T16:Male|bratT16=Person|bratT39=Person-surname
+6	Марадона	_	_	_	_	_	_	_	bratT16=Person|bratT39=Person-surname
 7	неоднократно	_	_	_	_	_	_	_	_
 8	посещал	_	_	_	_	_	_	_	_
 9	Россию	_	_	_	_	_	_	_	bratT17=GPE
@@ -115,7 +115,7 @@
 
 # sent_id = 0020-p5-s2
 # text = Мутко отмечает, что аргентинец был великим и в мыслях, и в поступках, и в делах.
-1	Мутко	_	_	_	_	_	_	_	bratA13=T21:Male|bratT21=Person|bratT40=Person-surname
+1	Мутко	_	_	_	_	_	_	_	bratT21=Person|bratT40=Person-surname
 2	отмечает	_	_	_	_	_	_	_	SpaceAfter=No
 3	,	_	_	_	_	_	_	_	_
 4	что	_	_	_	_	_	_	_	_

@@ -82,11 +82,14 @@ T61	Person-property 165 176	гитлеровцев
 T62	Person-property 76 87	гитлеровцев
 T4	Person-property 62 87	пособниками   гитлеровцев
 T63	Person-property 151 176	пособниками   гитлеровцев
-T64	Nationality 741 748	жителей
-A22	Resident T64
 T65	Nationality 1082 1089	жителей
 A23	Resident T65
-T66	GPE 1404 1469	населенных   пунктах   Знаменского   района   Орловской   области
 T67	GPE 886 892	районы
 T68	Political-group 637 649	гитлеровские
 A24	Adjective T68
+T64	Other-group 732 748	мирных   жителей
+T69	Organization 951 972	карательных   отрядов
+A22	Department T69
+T70	Other-group 1073 1089	мирных   жителей
+T71	Nationality 741 748	жителей
+A25	Resident T71

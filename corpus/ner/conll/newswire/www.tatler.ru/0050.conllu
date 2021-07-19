@@ -151,7 +151,7 @@
 # text = Как сообщает Daily Mail, спортсмена допрашивали 48 часов, а затем отпустили.
 1	Как	_	_	_	_	_	_	_	_
 2	сообщает	_	_	_	_	_	_	_	_
-3	Daily	_	_	_	_	_	_	_	bratA7=T26:Media|bratT26=Organization
+3	Daily	_	_	_	_	_	_	_	bratA7=T26:Media|bratT26=Organization|bratT70=Duration|bratT71=Time-period
 4	Mail	_	_	_	_	_	_	_	SpaceAfter=No|bratA7=T26:Media|bratT26=Organization
 5	,	_	_	_	_	_	_	_	_
 6	спортсмена	_	_	_	_	_	_	_	bratA24=T62:Male|bratT61=Person-property|bratT62=Person
@@ -181,8 +181,8 @@
 
 # sent_id = 0050-p3-s3
 # text = Представители бойца его вину отрицают, сам Конор пока не комментировал произошедшее.
-1	Представители	_	_	_	_	_	_	_	bratT33=Person-property
-2	бойца	_	_	_	_	_	_	_	bratA26=T66:Male|bratT32=Person-property|bratT33=Person-property|bratT66=Person
+1	Представители	_	_	_	_	_	_	_	bratT33=Person-property|bratT69=Person
+2	бойца	_	_	_	_	_	_	_	bratA26=T66:Male|bratT32=Person-property|bratT33=Person-property|bratT66=Person|bratT69=Person
 3	его	_	_	_	_	_	_	_	_
 4	вину	_	_	_	_	_	_	_	_
 5	отрицают	_	_	_	_	_	_	_	SpaceAfter=No

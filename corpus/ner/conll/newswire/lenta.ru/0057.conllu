@@ -40,7 +40,7 @@
 15	эфире	_	_	_	_	_	_	_	_
 16	телеканала	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
 17	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
-18	Россия	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization
+18	Россия	_	_	_	_	_	_	_	bratA1=T11:Media|bratT11=Organization|bratT69=GPE
 19	24	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization|bratT51=Time-period|bratT54=Duration
 20	''	_	_	_	_	_	_	_	SpaceAfter=No|bratA1=T11:Media|bratT11=Organization
 21	,	_	_	_	_	_	_	_	_
@@ -90,7 +90,7 @@
 11	человек	_	_	_	_	_	_	_	SpaceAfter=No|bratT16=Quantity
 12	,	_	_	_	_	_	_	_	_
 13	заявил	_	_	_	_	_	_	_	_
-14	специалист	_	_	_	_	_	_	_	SpaceAfter=No|bratT27=Person-property|bratT57=Person
+14	специалист	_	_	_	_	_	_	_	SpaceAfter=No|bratA22=T57:Male|bratT27=Person-property|bratT57=Person
 15	.	_	_	_	_	_	_	_	_
 
 # newpar id = 0057-p4
@@ -107,8 +107,8 @@
 8	пострегистрационных	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period-absolute|bratT41=Event
 9	исследований	_	_	_	_	_	_	_	bratA4=T38:Past|bratT38=Date-period-absolute|bratT41=Event
 10	первой	_	_	_	_	_	_	_	bratT32=Ordinal
-11	российской	_	_	_	_	_	_	_	bratA13=T20:Trademark|bratA9=T40:Adjective|bratT18=Other-term|bratT20=Product|bratT40=GPE
-12	вакцины	_	_	_	_	_	_	_	bratA13=T20:Trademark|bratT18=Other-term|bratT20=Product|bratT62=Other-term
+11	российской	_	_	_	_	_	_	_	bratA13=T20:Trademark|bratA9=T40:Adjective|bratT20=Product|bratT40=GPE
+12	вакцины	_	_	_	_	_	_	_	bratA13=T20:Trademark|bratT20=Product|bratT62=Other-term
 13	от	_	_	_	_	_	_	_	bratA13=T20:Trademark|bratT20=Product
 14	коронавируса	_	_	_	_	_	_	_	bratA13=T20:Trademark|bratT19=Other-term|bratT20=Product
 15	``	_	_	_	_	_	_	_	SpaceAfter=No|bratA13=T20:Trademark|bratT20=Product
